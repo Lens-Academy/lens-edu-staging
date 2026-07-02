@@ -1,8 +1,8 @@
 ---
 id: 0dfaea4c-fbe6-4336-ab33-205cae3ea7d1
 title: "⭐ AI Futures Model Dec 2025"
-tldr: The team behind AI 2027 maintains {--{"author":"Elias's AI","timestamp":1783002300610}@@an actual--}{++{"author":"Elias's AI","timestamp":1783002300610}@@a++} quantitative model of when superhuman coders and full AI R&D automation {--{"author":"Elias's AI","timestamp":1783002300610}@@arrive —--}{++{"author":"Elias's AI","timestamp":1783002300610}@@arrive,++} and lets you plug in your own parameters.{--{"author":"Elias's AI","timestamp":1783002300610}@@ This update explains how it works, what it predicts, and which assumptions carry the weight.--}
-summary_for_tutor: "Covers the AI Futures Project's December 2025 model update: a quantitative timelines/takeoff model forecasting milestones like superhuman coders and full AI R&D automation, driven by extrapolating capability trends (e.g. time horizons) and modeling the acceleration feedback from AI assisting AI research. Explains the model's structure, key parameters, and current median forecasts. An interactive web app lets users set their own {--{"author":"Elias's AI","timestamp":1783002302656}@@parameters —--}{++{"author":"Elias's AI","timestamp":1783002302656}@@parameters;++} the exercises in the following lens use it."
+tldr: The team behind AI 2027 maintains a quantitative model of when superhuman coders and full AI R&D automation arrive, and lets you plug in your own parameters.
+summary_for_tutor: "Covers the AI Futures Project's December 2025 model update: a quantitative timelines/takeoff model forecasting milestones like superhuman coders and full AI R&D automation, driven by extrapolating capability trends (e.g. time horizons) and modeling the acceleration feedback from AI assisting AI research. Explains the model's structure, key parameters, and current median forecasts. An interactive web app lets users set their own parameters; the exercises in the following lens use it."
 ---
 
 #### Text
@@ -21,4 +21,4 @@ Discussion topics to explore:
 - How would they change the model to better reflect their own views?
 - What implications do these timelines/takeoff forecasts have for AI safety strategy (the week's final key question)?
 
-The exercises for this reading come in the next {--{"author":"Elias's AI","timestamp":1783002304660}@@lens — don't--}{++{"author":"Elias's AI","timestamp":1783002304660}@@lens. Don't++} pre-empt them; focus on understanding the model first.
+The exercises for this reading come in the next lens. Don't pre-empt them; focus on understanding the model first.

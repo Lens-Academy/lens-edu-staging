@@ -4,7 +4,7 @@ slug: aif-plans-after-control
 title: "Plans After Control"
 ---
 
-%% AI Futurism course, Week 3: {--{"author":"Elias's AI","timestamp":1783002218785}@@macrostrategy —--}{++{"author":"Elias's AI","timestamp":1783002218785}@@macrostrategy, i.e.++} what comes after control works (reading list's own grouping). %%
+%% AI Futurism course, Week 3: macrostrategy, i.e. what comes after control works (reading list's own grouping). %%
 
 # Lens:
 source:: [[../Lenses/AIF - Current AIs for Future Safety Work]]

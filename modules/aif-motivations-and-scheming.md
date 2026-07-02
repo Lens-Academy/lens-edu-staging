@@ -19,7 +19,7 @@ Key questions to hold while reading:
 - How likely is scheming, compared to other misaligned motivations?
 - How dangerous is scheming, compared to other misaligned motivations?
 - How might scheming AIs take over?
-- What motivations do current models seem to {--{"author":"Elias's AI","timestamp":1783002185470}@@have —--}{++{"author":"Elias's AI","timestamp":1783002185470}@@have,++} and how does this update us about future models, if at all?
+- What motivations do current models seem to have, and how does this update us about future models, if at all?
 
 Before you start reading: note down (for yourself) what you currently think today's models "want", if anything. This week's readings will give you several competing frames to test that intuition against.
 

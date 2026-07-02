@@ -1,13 +1,13 @@
 ---
 id: 6d5e217f-c24a-4825-a83b-12dc7a8c764c
 title: "⭐ Three Types of Intelligence Explosion"
-tldr: {--{"author":"Elias's AI","timestamp":1783002495941}@@Once AI can improve the inputs to AI development, progress compounds — but "intelligence explosion"--}{++{"author":"Elias's AI","timestamp":1783002495941}@@An intelligence explosion++} is not one scenario. Forethought splits it into three feedback loops (software, AI technology, full industrial stack), each with different bottlenecks, speeds, and warning signs.
-summary_for_tutor: "Covers Forethought's taxonomy of three intelligence explosion types: software intelligence explosion (AI automating algorithm and software R&D on fixed compute), AI-technology intelligence explosion (AI also improving chip design and other AI technology), and full-stack intelligence explosion (AI accelerating the entire industrial pipeline including fabs and energy). Each type has distinct bottlenecks {--{"author":"Elias's AI","timestamp":1783002506681}@@— compute--}{++{"author":"Elias's AI","timestamp":1783002506681}@@(compute++} stock, chip fabrication lead times, physical {--{"author":"Elias's AI","timestamp":1783002506681}@@construction —--}{++{"author":"Elias's AI","timestamp":1783002506681}@@construction)++} and distinct plausible speeds and early warning signs."
+tldr: An intelligence explosion is not one scenario. Forethought splits it into three feedback loops (software, AI technology, full industrial stack), each with different bottlenecks, speeds, and warning signs.
+summary_for_tutor: "Covers Forethought's taxonomy of three intelligence explosion types: software intelligence explosion (AI automating algorithm and software R&D on fixed compute), AI-technology intelligence explosion (AI also improving chip design and other AI technology), and full-stack intelligence explosion (AI accelerating the entire industrial pipeline including fabs and energy). Each type has distinct bottlenecks (compute stock, chip fabrication lead times, physical construction) and distinct plausible speeds and early warning signs."
 ---
 
 #### Text
 content::
-⭐ Core reading (~30 min, audio option on the Forethought site). Once AI can improve the inputs to AI development itself, progress can compound. But "intelligence explosion" is not one {--{"author":"Elias's AI","timestamp":1783002519336}@@scenario —--}{++{"author":"Elias's AI","timestamp":1783002519336}@@scenario;++} this piece splits it into three, each with different speeds, bottlenecks, and warning signs.
+⭐ Core reading (~30 min, audio option on the Forethought site). Once AI can improve the inputs to AI development itself, progress can compound. But "intelligence explosion" is not one scenario; this piece splits it into three, each with different speeds, bottlenecks, and warning signs.
 
 #### Article
 source:: [[../articles/forethought-three-types-of-intelligence-explosion]]

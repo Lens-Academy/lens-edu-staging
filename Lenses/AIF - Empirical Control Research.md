@@ -1,15 +1,15 @@
 ---
 id: ed1aaff0-ac16-4c23-bbec-4bc8c41301e9
 title: "Empirical Control Research"
-tldr: {--{"author":"Elias's AI","timestamp":1783002410847}@@Control's--}{++{"author":"Elias's AI","timestamp":1783002410847}@@"Control's++} distinctive{--{"author":"Elias's AI","timestamp":1783002410847}@@ claim is that--}{++{"author":"Elias's AI","timestamp":1783002410847}@@ claim:++} it's evaluable {--{"author":"Elias's AI","timestamp":1783002410847}@@now — and these are the --}{++{"author":"Elias's AI","timestamp":1783002410847}@@now. The ++}flagship {--{"author":"Elias's AI","timestamp":1783002410847}@@tests. Resampling protocols in Ctrl-Z, control-setting design in BashArena,--}{++{"author":"Elias's AI","timestamp":1783002410847}@@tests: Ctrl-Z resampling protocols, BashArena setting design,++} and{--{"author":"Elias's AI","timestamp":1783002410847}@@ measuring--} whether models can sabotage real ML research code without getting {--{"author":"Elias's AI","timestamp":1783002410847}@@caught.--}{++{"author":"Elias's AI","timestamp":1783002410847}@@caught."++}
+tldr: "Control's distinctive claim: it's evaluable now. The flagship tests: Ctrl-Z resampling protocols, BashArena setting design, and whether models can sabotage real ML research code without getting caught."
 summary_for_tutor: "Covers three empirical control works in one lens: Ctrl-Z (resampling suspicious agent actions as a control protocol in multi-step settings, improving the safety/usefulness frontier), BashArena (designing a realistic sysadmin control setting and lessons for informative settings), and Research Sabotage in ML Codebases (measuring whether models can subtly sabotage research code undetected). The original AI Control paper (arxiv 2312.06942) is linked as further reading."
 ---
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1783002413196}@@(Optional —--}{++{"author":"Elias's AI","timestamp":1783002413196}@@(Optional:++} for those who want to see control tested, not just theorized.) Control's distinctive claim is that it's *evaluable now*. These are the flagship empirical studies. Start with the original paper's setting: GPT-4 writing code, GPT-3.5 watching it.
+(Optional: for those who want to see control tested, not just theorized.) Control's distinctive claim is that it's *evaluable now*. These are the flagship empirical studies. Start with the original paper's setting: GPT-4 writing code, GPT-3.5 watching it.
 
-- [AI Control: Improving Safety Despite Intentional Subversion{--{"author":"Elias's AI","timestamp":1783002415091}@@](https://arxiv.org/abs/2312.06942) —--}{++{"author":"Elias's AI","timestamp":1783002415091}@@](https://arxiv.org/abs/2312.06942):++} the original control evaluation paper (trusted monitoring, untrusted monitoring, deferring protocols in a backdoored-code setting).
+- [AI Control: Improving Safety Despite Intentional Subversion](https://arxiv.org/abs/2312.06942): the original control evaluation paper (trusted monitoring, untrusted monitoring, deferring protocols in a backdoored-code setting).
 
 Then two follow-ups, imported below: Ctrl-Z on resampling protocols, and BashArena on designing better control settings. Finally, research sabotage in real ML codebases.
 
@@ -24,10 +24,10 @@ source:: [[../articles/gan-research-sabotage-in-ml-codebases]]
 
 #### Chat
 instructions::
-TLDR of what the user just engaged with: three empirical control {--{"author":"Elias's AI","timestamp":1783002416895}@@works —--}{++{"author":"Elias's AI","timestamp":1783002416895}@@works:++} (1) Ctrl-Z: resampling suspicious agent actions (taking multiple samples and picking/checking) as a control protocol for multi-step agent settings, substantially improving the safety/usefulness frontier; (2) BashArena: designing a realistic sysadmin control setting and lessons for what makes control settings informative; (3) Research Sabotage in ML Codebases: measuring whether models can subtly sabotage ML research code without detection. Plus optionally the original AI Control paper (arxiv 2312.06942).
+TLDR of what the user just engaged with: three empirical control works: (1) Ctrl-Z: resampling suspicious agent actions (taking multiple samples and picking/checking) as a control protocol for multi-step agent settings, substantially improving the safety/usefulness frontier; (2) BashArena: designing a realistic sysadmin control setting and lessons for what makes control settings informative; (3) Research Sabotage in ML Codebases: measuring whether models can subtly sabotage ML research code without detection. Plus optionally the original AI Control paper (arxiv 2312.06942).
 
 Discussion topics to explore:
-- What makes a control setting informative vs {--{"author":"Elias's AI","timestamp":1783002419333}@@toy —--}{++{"author":"Elias's AI","timestamp":1783002419333}@@toy:++} task realism, attack surface, monitor quality?
+- What makes a control setting informative vs toy: task realism, attack surface, monitor quality?
 - Why is resampling surprisingly powerful against schemers (attacks are risky; resamples destroy rare attack opportunities)?
 - From the sabotage study: how detectable is subtle sabotage today, and which way is that trending?
 
