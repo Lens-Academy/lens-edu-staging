@@ -1,8 +1,8 @@
 ---
 id: 807fbe76-a1af-4031-89b8-47cffe901640
 title: "Manhattan Project for AGI"
-tldr: The proposal that keeps resurfacing in Washington — nationalize the AGI push. Wildeford weighs what it would actually change for speed, security, and safety, and whether the cure (concentrated state power over AGI) is worse than the disease (a private race).{++{"author":"Elias's AI","timestamp":1782994831132}@@
-summary_for_tutor: "Covers Wildeford's analysis of a US Manhattan Project for AGI: arguments for (security against weight theft, coordination, less racing between domestic labs) and against (accelerating the international race, concentrating power, government competence, destroying the distributed/private equilibrium), including softer public-private variants. Connect to Situational Awareness's 'The Project' and ask under which Plans A-D worlds nationalization helps vs harms."++}
+tldr: The proposal that keeps resurfacing in Washington — nationalize the AGI push. Wildeford weighs what it would actually change for speed, security, and safety, and whether the cure (concentrated state power over AGI) is worse than the disease (a private race).
+summary_for_tutor: "Covers Wildeford's analysis of a US Manhattan Project for AGI: arguments for (security against weight theft, coordination, less racing between domestic labs) and against (accelerating the international race, concentrating power, government competence, destroying the distributed/private equilibrium), including softer public-private variants. Connect to Situational Awareness's 'The Project' and ask under which Plans A-D worlds nationalization helps vs harms."
 ---
 
 #### Text

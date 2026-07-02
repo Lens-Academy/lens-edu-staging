@@ -1,8 +1,8 @@
 ---
 id: a77cbcac-1b1c-4183-86aa-675fc443ce8a
 title: "Prioritizing Threats for AI Control"
-tldr: Not all AI threats deserve equal control effort. This post ranks them — and introduces the concentrated-vs-diffuse failure distinction the rest of the control literature leans on. One catastrophic action needs different machinery than a thousand tiny acts of sabotage.{++{"author":"Elias's AI","timestamp":1782994556764}@@
-summary_for_tutor: "Covers Greenblatt's prioritization of threat models for control research: concentrated failures (few catastrophic actions — weight exfiltration, rogue deployments — where catching one attempt matters hugely) vs diffuse failures (many small bad actions like subtly sabotaged research, no single action decisive). Argues which threats deserve most effort given tractability and stakes, and why the two classes need different countermeasures."++}
+tldr: Not all AI threats deserve equal control effort. This post ranks them — and introduces the concentrated-vs-diffuse failure distinction the rest of the control literature leans on. One catastrophic action needs different machinery than a thousand tiny acts of sabotage.
+summary_for_tutor: "Covers Greenblatt's prioritization of threat models for control research: concentrated failures (few catastrophic actions — weight exfiltration, rogue deployments — where catching one attempt matters hugely) vs diffuse failures (many small bad actions like subtly sabotaged research, no single action decisive). Argues which threats deserve most effort given tractability and stakes, and why the two classes need different countermeasures."
 ---
 
 #### Text

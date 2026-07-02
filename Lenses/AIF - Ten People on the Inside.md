@@ -1,8 +1,8 @@
 ---
 id: 8e5b0173-e0ba-439b-ad3d-eb0c8df8848e
 title: "Ten People on the Inside"
-tldr: Suppose the lab doesn't care. What can ten safety-minded employees inside a racing frontier lab still accomplish? A five-minute, influential answer to the pessimistic case — and a job description some readers will recognize as their own.{++{"author":"Elias's AI","timestamp":1782994785668}@@
-summary_for_tutor: "Covers Shlegeris's 'Ten people on the inside': even in a lab that races and invests little in safety (a Plan D world), a small group of safety-focused insiders can matter — implementing cheap control measures, preparing for warning signs, influencing marginal decisions. Safety strategy should include planning for this scenario rather than assuming either lab-wide buy-in or nothing."++}
+tldr: Suppose the lab doesn't care. What can ten safety-minded employees inside a racing frontier lab still accomplish? A five-minute, influential answer to the pessimistic case — and a job description some readers will recognize as their own.
+summary_for_tutor: "Covers Shlegeris's 'Ten people on the inside': even in a lab that races and invests little in safety (a Plan D world), a small group of safety-focused insiders can matter — implementing cheap control measures, preparing for warning signs, influencing marginal decisions. Safety strategy should include planning for this scenario rather than assuming either lab-wide buy-in or nothing."
 ---
 
 #### Text

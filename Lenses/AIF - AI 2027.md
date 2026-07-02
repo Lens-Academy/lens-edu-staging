@@ -1,8 +1,8 @@
 ---
 id: e65d45b5-d845-4043-aeab-984e1bcfde4a
 title: "AI 2027"
-tldr: The most-read concrete AI takeover scenario — a month-by-month story of capabilities, company decisions, and geopolitics, backed by quantitative research supplements. Read it on the interactive site, then come back and argue about what Agent-4 actually wanted.{++{"author":"Elias's AI","timestamp":1782994374202}@@
-summary_for_tutor: "An external-link lens (no imported article): the user reads AI 2027 on its own site — the AI Futures Project's month-by-month AI takeover scenario (Kokotajlo et al.), skimming endorsed — up to the branching point, plus the AI Goals Forecast supplement on what goals the scenario's frontier agents end up with (training-gamed proxies vs genuine alignment). The race/slowdown endings are covered later in Week 4."++}
+tldr: The most-read concrete AI takeover scenario — a month-by-month story of capabilities, company decisions, and geopolitics, backed by quantitative research supplements. Read it on the interactive site, then come back and argue about what Agent-4 actually wanted.
+summary_for_tutor: "An external-link lens (no imported article): the user reads AI 2027 on its own site — the AI Futures Project's month-by-month AI takeover scenario (Kokotajlo et al.), skimming endorsed — up to the branching point, plus the AI Goals Forecast supplement on what goals the scenario's frontier agents end up with (training-gamed proxies vs genuine alignment). The race/slowdown endings are covered later in Week 4."
 ---
 
 #### Text

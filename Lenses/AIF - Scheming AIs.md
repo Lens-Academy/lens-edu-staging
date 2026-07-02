@@ -1,6 +1,6 @@
 ---
 id: 77fb6aed-c89a-4765-a0ed-0cca2baeadad
-title: {--{"author":"Elias's AI","timestamp":1782995056584}@@"Scheming--}{++{"author":"Elias's AI","timestamp":1782995056584}@@"⭐ Scheming++} AIs"
+title: "⭐ Scheming AIs"
 tldr: Will AIs fake alignment during training in order to get power later? Carlsmith's report is the reference analysis of scheming — what it requires, the counting and simplicity arguments for expecting it, and where he lands on the probability. The field still argues inside his framework.
 summary_for_tutor: "Covers the summary of Joe Carlsmith's report on scheming AIs — whether advanced AIs will instrumentally fake alignment during training to gain power later. Decomposes requirements for scheming (situational awareness, beyond-episode goals, the goal-guarding hypothesis), examines the counting argument (many misaligned goals are consistent with good training behavior) and simplicity arguments for expecting it, plus counterarguments, landing at roughly 25% for a specific operationalization. The P(scheming) exercise follows in the next lens."
 ---

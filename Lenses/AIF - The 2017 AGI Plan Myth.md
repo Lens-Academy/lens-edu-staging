@@ -1,8 +1,8 @@
 ---
 id: c0ef7e4d-f01f-4b10-bc67-f7498a483c07
 title: "The 2017 AGI Plan Myth"
-tldr: No, China's 2017 AI plan did not declare a goal of building AGI — a widely-cited claim built from mistranslation and repetition. Worth reading for the correction, and for the epistemics lesson about how race narratives get manufactured.{++{"author":"Elias's AI","timestamp":1782994892975}@@
-summary_for_tutor: "Covers a close reading showing the widely-cited claim that China's 2017 New Generation AI Development Plan set an AGI goal is wrong — the plan targets AI industry leadership and applications by 2030, not artificial general intelligence; the myth spread via loose paraphrase and repetition in Western policy discourse. Use as an epistemics case study for race-narrative claims held on secondhand evidence."++}
+tldr: No, China's 2017 AI plan did not declare a goal of building AGI — a widely-cited claim built from mistranslation and repetition. Worth reading for the correction, and for the epistemics lesson about how race narratives get manufactured.
+summary_for_tutor: "Covers a close reading showing the widely-cited claim that China's 2017 New Generation AI Development Plan set an AGI goal is wrong — the plan targets AI industry leadership and applications by 2030, not artificial general intelligence; the myth spread via loose paraphrase and repetition in Western policy discourse. Use as an epistemics case study for race-narrative claims held on secondhand evidence."
 ---
 
 #### Text

@@ -1,6 +1,6 @@
 ---
 id: fa55790a-4c34-4483-81ae-e0a931be01f8
-title: {--{"author":"Elias's AI","timestamp":1782995053831}@@"The--}{++{"author":"Elias's AI","timestamp":1782995053831}@@"⭐ The++} Behavioral Selection Model"
+title: "⭐ The Behavioral Selection Model"
 tldr: Reward-seekers, schemers, shard collections, personas — a dozen theories claim to predict what AIs will want. This piece offers the unifying frame beneath all of them — training selects among motivations that all behave well, so the question is which behaviorally-fit candidate wins.
 summary_for_tutor: "Covers Mallen & Shlegeris's behavioral selection model: training selects AI motivations by behavior, and many different internal motivations (reward-seeking, scheming, aligned values, context-dependent patterns) produce identically fit training behavior. Predicting AI motivations therefore means reasoning about which behaviorally-fit candidate gets selected, via inductive biases, path dependence, and what training actually reinforces. Frames the week's other hypotheses (fitness-seeking, scheming, personas) as special cases."
 ---

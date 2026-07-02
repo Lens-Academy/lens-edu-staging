@@ -1,8 +1,8 @@
 ---
 id: d4b68314-7265-40ce-99a8-a27d23f59f21
 title: "Current AIs for Future Safety Work"
-tldr: Today's models may stay important safety infrastructure long after they're obsolete — trusted precisely because they're too weak to scheme, serving as monitors and oversight labor against stronger, untrusted successors. What that means for what we build now.{++{"author":"Elias's AI","timestamp":1782994608334}@@
-summary_for_tutor: "Covers Greenblatt's argument that AIs around current capability levels may remain important for future safety work: they're plausibly trustworthy (too weak for coherent scheming), so they can serve as trusted monitors, oversight assistants, and labor for safety tasks even once far more capable but untrusted models exist. Underpins the trusted/untrusted model distinction used throughout control protocols."++}
+tldr: Today's models may stay important safety infrastructure long after they're obsolete — trusted precisely because they're too weak to scheme, serving as monitors and oversight labor against stronger, untrusted successors. What that means for what we build now.
+summary_for_tutor: "Covers Greenblatt's argument that AIs around current capability levels may remain important for future safety work: they're plausibly trustworthy (too weak for coherent scheming), so they can serve as trusted monitors, oversight assistants, and labor for safety tasks even once far more capable but untrusted models exist. Underpins the trusted/untrusted model distinction used throughout control protocols."
 ---
 
 #### Text
