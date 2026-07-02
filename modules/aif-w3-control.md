@@ -32,70 +32,70 @@ slug:: foundations
 source:: [[../Lenses/The Case for AI Control]]
 
 ## Lens:
-source:: [[../Lenses/AIF - The Case Against AI Control]]
+source:: [[../Lenses/The Case Against AI Control]]
 
 ## Lens:
-source:: [[../Lenses/AIF - AI Catastrophes and Rogue Deployments]]
+source:: [[../Lenses/AI Catastrophes and Rogue Deployments]]
 
 ## Lens:
-source:: [[../Lenses/AIF - Areas of Control Work]]
+source:: [[../Lenses/Areas of Control Work]]
 
 # Submodule: Threat modeling and game dynamics
 slug:: threat-modeling
 
 ## Lens:
-source:: [[../Lenses/AIF - Prioritizing Threats for AI Control]]
+source:: [[../Lenses/Prioritizing Threats for AI Control]]
 
 ## Lens:
-source:: [[../Lenses/AIF - Win Continue Lose]]
+source:: [[../Lenses/Win Continue Lose]]
 
 ## Lens:
-source:: [[../Lenses/AIF - Conservative Assumptions in AI Control]]
+source:: [[../Lenses/Conservative Assumptions in AI Control]]
 
 ## Lens:
-source:: [[../Lenses/AIF - Sandbagging and Exploration Hacking]]
+source:: [[../Lenses/Sandbagging and Exploration Hacking]]
 
 ## Lens:
-source:: [[../Lenses/AIF - Catching AIs Red-Handed]]
+source:: [[../Lenses/Catching AIs Red-Handed]]
 
 # Submodule: Plans after control
 slug:: after-control
 
 ## Lens:
-source:: [[../Lenses/AIF - Current AIs for Future Safety Work]]
+source:: [[../Lenses/Current AIs for Future Safety Work]]
 
 ## Lens:
-source:: [[../Lenses/AIF - Jankily Controlling Superintelligence]]
+source:: [[../Lenses/Jankily Controlling Superintelligence]]
 
 # Submodule: Control measures
 slug:: control-measures
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/AIF - Control Measures Overview]]
+source:: [[../Lenses/Control Measures Overview]]
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/AIF - Diffuse Threats and Research Sabotage]]
+source:: [[../Lenses/Diffuse Threats and Research Sabotage]]
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/AIF - Non-Concentrated Failures]]
+source:: [[../Lenses/Non-Concentrated Failures]]
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/AIF - Preventing Collusion Between Monitors]]
+source:: [[../Lenses/Preventing Collusion Between Monitors]]
 
 # Submodule: Empirical research
 slug:: empirical-research
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/AIF - Empirical Control Research]]
+source:: [[../Lenses/Empirical Control Research]]
 
 # Submodule: Optional readings
 slug:: optional-readings
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/AIF - W3 Optional Readings]]
+source:: [[../Lenses/Optional readings - Control]]

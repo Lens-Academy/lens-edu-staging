@@ -29,31 +29,31 @@ Before you start: where do you think the real decisions about how AGI goes get m
 slug:: playbook
 
 ## Lens:
-source:: [[../Lenses/AIF - Plans A B C and D]]
+source:: [[../Lenses/Plans A B C and D]]
 
 ## Lens:
-source:: [[../Lenses/AIF - Safely Deferring to AIs]]
+source:: [[../Lenses/Safely Deferring to AIs]]
 
 # Submodule: Lab dynamics
 slug:: lab-dynamics
 
 ## Lens:
-source:: [[../Lenses/AIF - AI 2027 Endings]]
+source:: [[../Lenses/AI 2027 Endings]]
 
 ## Lens:
-source:: [[../Lenses/AIF - CEO Takeover Scenario]]
+source:: [[../Lenses/CEO Takeover Scenario]]
 
 ## Lens:
-source:: [[../Lenses/AIF - Ten People on the Inside]]
+source:: [[../Lenses/Ten People on the Inside]]
 
 # Submodule: State dynamics
 slug:: state-dynamics
 
 ## Lens:
-source:: [[../Lenses/AIF - Situational Awareness]]
+source:: [[../Lenses/Situational Awareness]]
 
 ## Lens:
-source:: [[../Lenses/AIF - ASI Deterrence]]
+source:: [[../Lenses/ASI Deterrence]]
 
 ## Lens:
 source:: [[../Lenses/AIF - Manhattan Project for AGI]]
