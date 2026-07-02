@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782987696179}@@---
+---
 id: 23e7dc3b-7f39-4d32-a89d-fd87d86fd038
 slug: aif-welcome
 title: "Welcome"
@@ -35,4 +35,3 @@ content::
 - What do existing models say about these questions, and what are their key assumptions and parameters?
 - How powerful are AIs currently?
 - What implications does timelines/takeoff modeling have for AI strategy?
-++}

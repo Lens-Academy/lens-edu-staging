@@ -1,7 +1,7 @@
 ---
 id: 96a312bb-a83f-4f27-89f4-dc0361fd4e19
-title: {--{"author":"Elias's AI","timestamp":1782987227150}@@"AIF - Current--}{++{"author":"Elias's AI","timestamp":1782987227150}@@"Current++} AIs Seem Pretty Misaligned"{++{"author":"Elias's AI","timestamp":1782987227150}@@
-tldr: Threat modeling isn't only about future AIs — today's models reward-hack, game evals, and fake alignment in experiments. Greenblatt catalogs the evidence and asks the uncomfortable question — what do current training regimes actually select for?++}
+title: "Current AIs Seem Pretty Misaligned"
+tldr: Threat modeling isn't only about future AIs — today's models reward-hack, game evals, and fake alignment in experiments. Greenblatt catalogs the evidence and asks the uncomfortable question — what do current training regimes actually select for?
 ---
 
 #### Text
