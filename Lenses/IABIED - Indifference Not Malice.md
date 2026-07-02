@@ -147,9 +147,9 @@ Safety and integrity:
 - If the student grasps indifference but not why it is more dangerous than malice, ask: what would a malicious AI require that an indifferent one doesn't? Which is harder to rule out in advance?
 - If the student treats the alien frame only emotionally, push for the analytic claim: in the final paragraph, is "they meant no harm" a defense or an explanation?
 - If the student reaches the correct answer early, probe edge cases and implications rather than ending prematurely.
-- If the student is stuck after 2 attempts explanation?
+- If the student is stuck after 2 attempts {--{"author":"Elias's AI","timestamp":1783019084621}@@explanation?
 - If the student reaches the correct answer early, probe edge cases and implications rather than ending prematurely.
-- If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
+- If the student is stuck after 2 attempts --}at a question, give a brief direct answer and move on.
 
 #### Text
 content::
