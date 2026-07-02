@@ -152,7 +152,7 @@ Calibration summary (on close):
 
 Safety and integrity:
 - If the student makes a strong causal claim, ask what assumptions it relies on and how it could be falsified.
-- If the student reaches the correct answer early, probe deeper rather than ending: "What kind of AI capability would you need before strong superalignment becomes safe to attempt — and what would you have to know about that AI before you could trust it to be working on your side?"
+- If the student reaches the correct answer early, probe deeper rather than ending: "What kind of AI capability would you need before strong superalignment becomes safe to {--{"author":"Elias's AI","timestamp":1783026028993}@@attempt — and--}{++{"author":"Elias's AI","timestamp":1783026028993}@@attempt? And++} what would you have to know about that AI before you could trust it to be working on your side?"
 - If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
 
 #### Text
@@ -178,4 +178,4 @@ content::
 
 ::card[[../Lenses/IABIED - QA - Race for Alignment Research]]
 
-> Engages the question of whether the field could outrun the capability-paradox by getting alignment ahead of capability — and what conditions would have to hold for that race to be winnable.
+> Engages the question of whether the field could outrun the capability-paradox by getting alignment ahead of {--{"author":"Elias's AI","timestamp":1783026034272}@@capability —--}{++{"author":"Elias's AI","timestamp":1783026034272}@@capability,++} and what conditions would have to hold for that race to be winnable.

@@ -152,22 +152,22 @@ content::
 \## Additional resources for this topic
 ::card[[../Lenses/IABIED - QA - Early Warnings]]
 
-> Explores why early warning signs of disasters get ignored — directly relevant to the Hinton and Sunak patterns of self-censorship that Chapter 12 describes.
+> Explores why early warning signs of disasters get {--{"author":"Elias's AI","timestamp":1783026028224}@@ignored —--}{++{"author":"Elias's AI","timestamp":1783026028224}@@ignored. This is++} directly relevant to the Hinton and Sunak patterns of self-censorship that Chapter 12 describes.
 
 ---
 
 ::card[[../Lenses/IABIED - QA - Fear-Mongering by AI Leaders]]
 
-> Addresses whether prominent AI figures are genuinely alarmed or strategically alarmist — a question Chapter 12 implicitly raises through the Hinton and Sunak examples.
+> Addresses whether prominent AI figures are genuinely alarmed or strategically {--{"author":"Elias's AI","timestamp":1783026029875}@@alarmist —--}{++{"author":"Elias's AI","timestamp":1783026029875}@@alarmist,++} a question Chapter 12 implicitly raises through the Hinton and Sunak examples.
 
 ---
 
 ::card[[../Lenses/IABIED - QA - Isn't AI Different from Nuclear Reactors]]
 
-> Tackles analogical reasoning between AI and catastrophic technologies — directly extends the Chernobyl comparison the chapter deploys.
+> Tackles analogical reasoning between AI and catastrophic {--{"author":"Elias's AI","timestamp":1783026031545}@@technologies —--}{++{"author":"Elias's AI","timestamp":1783026031545}@@technologies, and++} directly extends the Chernobyl comparison the chapter deploys.
 
 ---
 
 ::card[[../Lenses/IABIED - QA - Should We Panic]]
 
-> Explores appropriate emotional calibration to existential risk — connects to the "I don't want to be alarmist" theme that gives Chapter 12 its title.
+> Explores appropriate emotional calibration to existential {--{"author":"Elias's AI","timestamp":1783026033176}@@risk —--}{++{"author":"Elias's AI","timestamp":1783026033176}@@risk. It++} connects to the "I don't want to be alarmist" theme that gives Chapter 12 its title.
