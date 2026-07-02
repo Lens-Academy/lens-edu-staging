@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1782977225673}@@---
+---
 id: 63e18abf-7750-4915-b32b-273e1f5b2f95
 slug: ai-futurism
 title: "AI Futurism"
@@ -28,4 +28,3 @@ description: "A four-week course on key future dynamics in frontier AI developme
 # Meeting: Governance / strategy
 
 # Module: [[../modules/aif-extended-readings|Extended Readings]]
-++}

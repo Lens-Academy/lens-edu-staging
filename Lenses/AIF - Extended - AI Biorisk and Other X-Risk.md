@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1782975593366}@@---
+---
 id: c89c7b3f-ac61-4d6f-bd3a-9f1d1fcfdd3f
 title: "AIF - Extended - AI Biorisk and Other X-Risk"
 ---
@@ -23,4 +23,3 @@ Misaligned takeover isn't the only catastrophe channel. The misuse routes, start
 #### Chat
 instructions::
 The user is exploring AI biorisk and other x-risk readings. Key distinctions to discuss: LLM knowledge-uplift vs biological design tools; why eval quality matters (are labs measuring the right threat?); how misuse risks compare to misalignment risks in probability and tractability. Handle this responsibly: discuss risk assessment and governance, not operational details of misuse.
-++}

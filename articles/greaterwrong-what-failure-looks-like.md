@@ -1,8 +1,8 @@
 ---
 title: "What failure looks like"
 author:
-  - {--{"author":"Elias's AI","timestamp":1782977421039}@@"Greaterwrong"--}{++{"author":"Elias's AI","timestamp":1782977421039}@@"Paul Christiano"++}
-source_url: {--{"author":"Elias's AI","timestamp":1782977421039}@@"https://www.greaterwrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like"--}{++{"author":"Elias's AI","timestamp":1782977421039}@@"https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like"++}
+  - "Paul Christiano"
+source_url: "https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like"
 published: 2019-05-08
 created: 2026-07-02
 accessed: 2026-07-02
