@@ -14,7 +14,7 @@ source:: [[../articles/greaterwrong-what-failure-looks-like]]
 
 #### Text
 content::
-Whimper or bang — which is the dominant failure mode for the world we actually live in? Commit to one, pin it to a present-day example, and defend the pick against the tutor.
+Whimper or {--{"author":"Elias's AI","timestamp":1783024122289}@@bang —--}{++{"author":"Elias's AI","timestamp":1783024122289}@@bang:++} which is the dominant failure mode for the world we actually live in? Commit to one, pin it to a present-day example, and defend the pick against the tutor.
 
 #### Chat
 instructions::

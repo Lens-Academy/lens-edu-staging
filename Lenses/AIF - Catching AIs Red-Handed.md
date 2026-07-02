@@ -14,7 +14,7 @@ source:: [[../articles/shlegeris-catching-ais-red-handed]]
 
 #### Text
 content::
-The post claims one caught attempt could update the world more than years of argument. Do you buy that a single catch actually changes what labs do — or does nothing move without political groundwork laid in advance? Commit, then take it to the tutor.
+The post claims one caught attempt could update the world more than years of argument. Do you buy that a single catch actually changes what labs {--{"author":"Elias's AI","timestamp":1783024139150}@@do — or--}{++{"author":"Elias's AI","timestamp":1783024139150}@@do? Or++} does nothing move without political groundwork laid in advance? Commit, then take it to the tutor.
 
 #### Chat
 instructions::

@@ -14,7 +14,7 @@ source:: [[../articles/greaterwrong-another-outer-alignment-failure-story]]
 
 #### Text
 content::
-Name the one decision that, reversed, saves Christiano's world — or admit there isn't one. Take your answer to the tutor and see whether this failure was ever really avoidable.
+Name the one decision that, reversed, saves Christiano's {--{"author":"Elias's AI","timestamp":1783024118828}@@world —--}{++{"author":"Elias's AI","timestamp":1783024118828}@@world,++} or admit there isn't one. Take your answer to the tutor and see whether this failure was ever really avoidable.
 
 #### Chat
 instructions::

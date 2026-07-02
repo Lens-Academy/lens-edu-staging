@@ -14,7 +14,7 @@ source:: [[../articles/hebbar-how-can-we-solve-diffuse-threats-like-research-sab
 
 #### Text
 content::
-If no single action is damning, is "audit the worst action" simply the wrong tool here — or salvageable with enough aggregation? Take a side, then push it with the tutor on the case that bites hardest: AI-run safety research sabotaging itself.
+If no single action is damning, is "audit the worst action" simply the wrong tool {--{"author":"Elias's AI","timestamp":1783024119355}@@here — or--}{++{"author":"Elias's AI","timestamp":1783024119355}@@here? Or is it++} salvageable with enough aggregation? Take a side, then push it with the tutor on the case that bites hardest: AI-run safety research sabotaging itself.
 
 #### Chat
 instructions::

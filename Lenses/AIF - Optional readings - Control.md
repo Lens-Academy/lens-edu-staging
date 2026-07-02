@@ -17,7 +17,7 @@ And the audio alternative for the week's foundations:
 
 #### Text
 content::
-Name the control question you're least sure survives contact with a real lab — keeping model organisms misaligned under training, or incriminating a suspect model via distillation — and have the tutor point you to the reading that best attacks it.
+{--{"author":"Elias's AI","timestamp":1783024126221}@@Name the--}{++{"author":"Elias's AI","timestamp":1783024126221}@@Which++} control question {--{"author":"Elias's AI","timestamp":1783024126221}@@you're--}{++{"author":"Elias's AI","timestamp":1783024126221}@@are you++} least sure survives contact with a real {--{"author":"Elias's AI","timestamp":1783024126221}@@lab — --}{++{"author":"Elias's AI","timestamp":1783024126221}@@lab: ++}keeping model organisms misaligned under training, or incriminating a suspect model via {--{"author":"Elias's AI","timestamp":1783024126221}@@distillation — and have--}{++{"author":"Elias's AI","timestamp":1783024126221}@@distillation? Have++} the tutor point you to the reading that best attacks it.
 
 #### Chat
 instructions::

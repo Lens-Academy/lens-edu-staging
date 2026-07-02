@@ -14,7 +14,7 @@ source:: [[../articles/greenblatt-jankily-controlling-superintelligence]]
 
 #### Text
 content::
-Where exactly do you draw the "control is no longer load-bearing — stop deploying" line? Pick a threshold now, then defend it to the tutor against the charge that planning for "janky control" just normalizes pressing on when you should halt.
+Where exactly do you draw the {--{"author":"Elias's AI","timestamp":1783024117629}@@"control is no longer--}{++{"author":"Elias's AI","timestamp":1783024117629}@@line where control stops being++} load-bearing {--{"author":"Elias's AI","timestamp":1783024117629}@@—--}{++{"author":"Elias's AI","timestamp":1783024117629}@@and you should++} stop{--{"author":"Elias's AI","timestamp":1783024117629}@@ deploying" line?--}{++{"author":"Elias's AI","timestamp":1783024117629}@@ deploying?++} Pick a threshold now, then defend it to the tutor against the charge that planning for "janky control" just normalizes pressing on when you should halt.
 
 #### Chat
 instructions::

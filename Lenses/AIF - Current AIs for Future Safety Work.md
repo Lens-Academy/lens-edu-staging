@@ -14,7 +14,7 @@ source:: [[../articles/greenblatt-ais-at-the-current-capability-level-may-be-imp
 
 #### Text
 content::
-The whole scheme rests on "too weak to scheme = trustworthy." Do you buy that today's frontier models are genuinely too weak to scheme coherently — or is "trusted because weak" already a comforting fiction? Commit to a side, then pressure-test it with the tutor.
+The whole scheme rests on "too weak to scheme = trustworthy." Do you buy that today's frontier models are genuinely too weak to scheme {--{"author":"Elias's AI","timestamp":1783024113847}@@coherently — or--}{++{"author":"Elias's AI","timestamp":1783024113847}@@coherently? Or++} is "trusted because weak" already a comforting fiction? Commit to a side, then pressure-test it with the tutor.
 
 #### Chat
 instructions::

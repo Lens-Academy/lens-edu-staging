@@ -28,7 +28,7 @@ Optional extras for this week: pick by curiosity, not completeness.
 
 #### Text
 content::
-Pick the one claim from this week you're most itching to attack or defend — fast timelines, *r* > 1, or the software-only intelligence explosion — and have the tutor point you to the reading that tests it hardest.
+Pick the one claim from this week you're most itching to attack or {--{"author":"Elias's AI","timestamp":1783024099610}@@defend —--}{++{"author":"Elias's AI","timestamp":1783024099610}@@defend:++} fast timelines, *r* > 1, or the software-only intelligence {--{"author":"Elias's AI","timestamp":1783024099610}@@explosion — and--}{++{"author":"Elias's AI","timestamp":1783024099610}@@explosion. Then++} have the tutor point you to the reading that tests it hardest.
 
 #### Chat
 instructions::

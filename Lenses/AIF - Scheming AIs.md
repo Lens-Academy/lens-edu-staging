@@ -14,7 +14,7 @@ source:: [[../articles/carlsmith-new-report-scheming-ais-will-ais-fake-alignment
 
 #### Text
 content::
-Carlsmith lands near 25%. Before you open the chat, write down your own P(scheming) and the one requirement — situational awareness, beyond-episode goals, or goal-guarding — you think is weakest, then argue that number with the tutor.
+Carlsmith lands near 25%. Before you open the chat, write down your own P(scheming) and the one requirement {--{"author":"Elias's AI","timestamp":1783024109575}@@—--}{++{"author":"Elias's AI","timestamp":1783024109575}@@you think is weakest:++} situational awareness, beyond-episode goals, or {--{"author":"Elias's AI","timestamp":1783024109575}@@goal-guarding — you think is weakest, then--}{++{"author":"Elias's AI","timestamp":1783024109575}@@goal-guarding. Then++} argue that number with the tutor.
 
 #### Chat
 instructions::

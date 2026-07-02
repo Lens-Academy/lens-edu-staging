@@ -14,7 +14,7 @@ source:: [[../articles/shlegeris-ai-catastrophes-and-rogue-deployments]]
 
 #### Text
 content::
-The claim is strong: nearly every AI catastrophe needs a rogue deployment first. Before you open the chat, try to name one catastrophe path that doesn't — then decide whether the claim survives. Take your best counterexample to the tutor.
+The claim is strong: nearly every AI catastrophe needs a rogue deployment first. Before you open the chat, try to name one catastrophe path that {--{"author":"Elias's AI","timestamp":1783024079530}@@doesn't —--}{++{"author":"Elias's AI","timestamp":1783024079530}@@doesn't,++} then decide whether the claim survives. Take your best counterexample to the tutor.
 
 #### Chat
 instructions::

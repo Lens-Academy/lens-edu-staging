@@ -57,7 +57,7 @@ Optional extras for this week, grouped by what you want to go deeper on.
 
 #### Text
 content::
-Pick the claim from this week you're most eager to attack or defend — your P(scheming), emergent misalignment, or the whole doom case — and have the tutor route you to the reading that tests it hardest.
+Pick the claim from this week you're most eager to attack or {--{"author":"Elias's AI","timestamp":1783024126497}@@defend —--}{++{"author":"Elias's AI","timestamp":1783024126497}@@defend:++} your P(scheming), emergent misalignment, or the whole doom {--{"author":"Elias's AI","timestamp":1783024126497}@@case — and--}{++{"author":"Elias's AI","timestamp":1783024126497}@@case. Then++} have the tutor route you to the reading that tests it hardest.
 
 #### Chat
 instructions::
