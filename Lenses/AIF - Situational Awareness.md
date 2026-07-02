@@ -1,24 +1,24 @@
 ---
 id: 2d71635b-572e-49d5-8f72-336c0ea663ee
 title: "Situational Awareness"
-tldr: {--{"author":"Elias's AI","timestamp":1783002223737}@@The--}{++{"author":"Elias's AI","timestamp":1783002223737}@@"The++} essays that shaped how Washington thinks about the AGI {--{"author":"Elias's AI","timestamp":1783002223737}@@endgame —--}{++{"author":"Elias's AI","timestamp":1783002223737}@@endgame:++} racing to the trillion-dollar cluster, securing weights against China,{--{"author":"Elias's AI","timestamp":1783002223737}@@ superalignment during an intelligence explosion, --}{++{"author":"Elias's AI","timestamp":1783002223737}@@ ++}and why the national security state takes {--{"author":"Elias's AI","timestamp":1783002223737}@@over ("The Project"). Read III-V, then argue with them.--}{++{"author":"Elias's AI","timestamp":1783002223737}@@over."++}
-summary_for_tutor: "An external-link lens (no imported article): the user reads essays III-V of Aschenbrenner's Situational Awareness (2024) on the {--{"author":"Elias's AI","timestamp":1783002225734}@@site —--}{++{"author":"Elias's AI","timestamp":1783002225734}@@site:++} AGI as a national-security matter, securing weights and algorithmic secrets against China, superalignment during an intelligence explosion, and the case that the US government will/should run the decisive AGI project. Written 2024: discuss which predictions have aged well or badly, and whether the race-but-secure frame is self-defeating (contrast MAIM/deterrence)."
+tldr: "The essays that shaped how Washington thinks about the AGI endgame: racing to the trillion-dollar cluster, securing weights against China, and why the national security state takes over."
+summary_for_tutor: "An external-link lens (no imported article): the user reads essays III-V of Aschenbrenner's Situational Awareness (2024) on the site: AGI as a national-security matter, securing weights and algorithmic secrets against China, superalignment during an intelligence explosion, and the case that the US government will/should run the decisive AGI project. Written 2024: discuss which predictions have aged well or badly, and whether the race-but-secure frame is self-defeating (contrast MAIM/deterrence)."
 ---
 
 #### Text
 content::
-Core reading (~3 hr). Leopold Aschenbrenner's [Situational Awareness](https://situational-awareness.ai/) shaped how many in Washington and the labs think about the endgame. For this week, read essays **III–V**: *The Challenges* (IIIa–d: racing to the trillion-dollar cluster, locking down the labs, superalignment, and *The Free World Must Prevail*), *The Project* {--{"author":"Elias's AI","timestamp":1783002229502}@@(IV —--}{++{"author":"Elias's AI","timestamp":1783002229502}@@(IV:++} why the national security state gets involved), and *Parting Thoughts* (V).
+Core reading (~3 hr). Leopold Aschenbrenner's [Situational Awareness](https://situational-awareness.ai/) shaped how many in Washington and the labs think about the endgame. For this week, read essays **III–V**: *The Challenges* (IIIa–d: racing to the trillion-dollar cluster, locking down the labs, superalignment, and *The Free World Must Prevail*), *The Project* (IV: why the national security state gets involved), and *Parting Thoughts* (V).
 
-Read it on the {--{"author":"Elias's AI","timestamp":1783002232501}@@site —--}{++{"author":"Elias's AI","timestamp":1783002232501}@@site,++} then come back and argue with it.
+Read it on the site, then come back and argue with it.
 
 #### Chat
 instructions::
 The user just read essays III-V of Situational Awareness (Aschenbrenner, 2024): the case that AGI is a national-security matter; that model weights and algorithmic secrets must be secured against China; that superalignment is unsolved but tractable-ish with effort during an intelligence explosion; and that the US government will/should run the decisive AGI project ("The Project").
 
 Discussion topics to explore:
-- How should powerful states interact with powerful AI development (this week's key {--{"author":"Elias's AI","timestamp":1783002244876}@@question) —--}{++{"author":"Elias's AI","timestamp":1783002244876}@@question):++} does Aschenbrenner's answer follow from his premises?
+- How should powerful states interact with powerful AI development (this week's key question): does Aschenbrenner's answer follow from his premises?
 - The essays are from 2024: which predictions have aged well or badly? (Security posture, government involvement, China dynamics.)
-- Is the "race but secure" frame {--{"author":"Elias's AI","timestamp":1783002248558}@@self-defeating —--}{++{"author":"Elias's AI","timestamp":1783002248558}@@self-defeating:++} does treating it as a race make the dangerous race real (contrast with MAIM/deterrence approaches in the optional readings)?
+- Is the "race but secure" frame self-defeating: does treating it as a race make the dangerous race real (contrast with MAIM/deterrence approaches in the optional readings)?
 - Who is the "we" in "we must prevail," and what does winning actually secure?
 
 Push the learner to identify one claim they think is importantly wrong and defend that.

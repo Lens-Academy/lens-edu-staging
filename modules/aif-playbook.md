@@ -14,13 +14,13 @@ content::
 **This week: governance and strategy.** Zoom out from technical safety to the humans and institutions steering it. (A caveat from the reading list's curator: these recommendations are significantly less confident than earlier weeks'.)
 
 Key questions to hold while reading:
-- How should {--{"author":"Elias's AI","timestamp":1783002220777}@@— and--}{++{"author":"Elias's AI","timestamp":1783002220777}@@(and++} how {--{"author":"Elias's AI","timestamp":1783002220777}@@*will* —--}{++{"author":"Elias's AI","timestamp":1783002220777}@@*will*)++} AI companies make decisions about AI development and deployment?
+- How should (and how *will*) AI companies make decisions about AI development and deployment?
 - What will the decision-making dynamics inside them be like?
 - How will they be affected by the outside world, especially governments?
 - How should/will powerful states interact with the development of powerful AI?
 - What will the decision-making dynamics inside and between states be like?
 
-Before you start: where do you think the real decisions about how AGI goes get {--{"author":"Elias's AI","timestamp":1783002222881}@@made —--}{++{"author":"Elias's AI","timestamp":1783002222881}@@made:++} lab leadership, boards, the US executive branch, Congress, Beijing? If you had 100 points of influence to allocate, where would you put them? Keep that allocation in mind; the week's readings will argue with it.
+Before you start: where do you think the real decisions about how AGI goes get made: lab leadership, boards, the US executive branch, Congress, Beijing? If you had 100 points of influence to allocate, where would you put them? Keep that allocation in mind; the week's readings will argue with it.
 
 # Lens:
 source:: [[../Lenses/AIF - Plans A B C and D]]
