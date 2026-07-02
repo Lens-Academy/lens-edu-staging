@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975748039}@@---
+---
 id: 347f3961-bc90-45ec-b2d7-0701dee3b07f
 slug: aif-extended-readings
 title: "Extended Readings"
@@ -52,4 +52,3 @@ source:: [[../Lenses/AIF - Extended - Better Futures]]
 # Lens:
 optional:: true
 source:: [[../Lenses/AIF - Extended - Space Governance]]
-++}

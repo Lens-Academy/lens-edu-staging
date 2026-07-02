@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975729377}@@---
+---
 id: e6b46617-c21f-4250-9fa0-9a8456b55d33
 slug: aif-w4-governance-strategy
 title: "Governance / Strategy"
@@ -84,4 +84,3 @@ slug:: optional-readings
 ## Lens:
 optional:: true
 source:: [[../Lenses/AIF - W4 Optional Readings]]
-++}

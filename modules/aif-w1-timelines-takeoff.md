@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975663399}@@---
+---
 id: 4d4fd0cb-e2b4-4bc5-8c4b-7401f6bde4e5
 slug: aif-w1-timelines-takeoff
 title: "Timelines & Takeoff Modeling"
@@ -72,4 +72,3 @@ slug:: optional-readings
 ## Lens:
 optional:: true
 source:: [[../Lenses/AIF - W1 Optional Readings]]
-++}
