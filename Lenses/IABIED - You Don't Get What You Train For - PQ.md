@@ -13,8 +13,8 @@ tags:
 content:: Before reading Chapter 4: If you trained an AI by rewarding it every time it produced a helpful response, how confident are you that the AI would end up genuinely wanting to be helpful? Could an AI learn to produce helpful-looking outputs without actually wanting to help — and if so, would that matter? Write down your intuition before reading.
 
 #### Chat
-{++{"author":"Elias's AI","timestamp":1783018431151}@@min-messages:: 1
-++}instructions::
+min-messages:: 1
+instructions::
 The student is about to read Chapter 4 ("You Don't Get What You Train For") of "If Anyone Builds It, Everyone Dies."
 
 Acknowledge their answer in 1–2 sentences. Do NOT explain the ice cream argument, proxy optimization, or the alignment problem — they will encounter these in the reading. Close with: "Hold onto that intuition as you read. Head to Chapter 4 when you're ready and come back here after you've finished."
