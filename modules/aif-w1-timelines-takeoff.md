@@ -43,35 +43,35 @@ content::
 slug:: intelligence-explosions
 
 ## Lens:
-source:: [[../Lenses/AIF - Three Types of Intelligence Explosion]]
+source:: [[../Lenses/Three Types of Intelligence Explosion]]
 
 ## Lens:
-source:: [[../Lenses/AIF - AI Capability Levels for AI R&D]]
+source:: [[../Lenses/AI Capability Levels for AI R&D]]
 
 ## Lens:
-source:: [[../Lenses/AIF - Software Intelligence Explosion]]
+source:: [[../Lenses/Software Intelligence Explosion]]
 
 ## Lens:
-source:: [[../Lenses/AIF - Full Automation of AI R&D]]
+source:: [[../Lenses/Full Automation of AI R&D]]
 
 # Submodule: Takeoff models
 slug:: takeoff-models
 
 ## Lens:
-source:: [[../Lenses/AIF - AI Futures Model Dec 2025]]
+source:: [[../Lenses/AI Futures Model Dec 2025]]
 
 # Submodule: Measuring progress
 slug:: measuring-progress
 
 ## Lens:
-source:: [[../Lenses/AIF - Epoch Capabilities Index]]
+source:: [[../Lenses/Epoch Capabilities Index]]
 
 ## Lens:
-source:: [[../Lenses/AIF - METR Time Horizons]]
+source:: [[../Lenses/METR Time Horizons]]
 
 # Submodule: Optional readings
 slug:: optional-readings
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/AIF - W1 Optional Readings]]
+source:: [[../Lenses/Optional readings - Timelines and takeoff]]

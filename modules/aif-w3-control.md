@@ -29,7 +29,7 @@ Before you start: note your initial intuition — does "keep a possibly-adversar
 slug:: foundations
 
 ## Lens:
-source:: [[../Lenses/AIF - The Case for AI Control]]
+source:: [[../Lenses/The Case for AI Control]]
 
 ## Lens:
 source:: [[../Lenses/AIF - The Case Against AI Control]]
