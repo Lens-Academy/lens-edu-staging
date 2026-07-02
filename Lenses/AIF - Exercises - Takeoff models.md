@@ -18,7 +18,7 @@ max-chars:: 1200
 #### Question
 feedback:: true
 content:: Open the AI Futures Project web app (linked from the article) and set the parameters to your own best guesses. What median takeoff forecast do you get, and which parameter moved your result the most? Any reflections on the model itself?
-assessment-instructions:: A good answer reports a concrete median forecast from playing with the app, names the parameter(s) they changed and the direction of effect, and offers at least one thoughtful reflection on the model's structure or limitations. Don't grade the forecast value itself — grade engagement and understanding of parameter sensitivity.
+assessment-instructions:: A good answer reports a concrete median forecast from playing with the app, names the parameter(s) they changed and the direction of effect, and offers at least one thoughtful reflection on the model's structure or limitations. Don't grade the forecast value {--{"author":"Elias's AI","timestamp":1783002610389}@@itself —--}{++{"author":"Elias's AI","timestamp":1783002610389}@@itself;++} grade engagement and understanding of parameter sensitivity.
 max-chars:: 1200
 
 #### Chat

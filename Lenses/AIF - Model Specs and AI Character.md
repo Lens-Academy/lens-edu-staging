@@ -1,28 +1,28 @@
 ---
 id: 5c16e16f-5d97-4376-9116-15f60ccca0dc
 title: "Model Specs and AI Character"
-tldr: The documents that define who the AIs are supposed to be — arguably the highest-leverage pages in the industry. Why character matters even if alignment partially fails, whether early choices stick across generations, and the actual specs from every major lab as primary sources.
+tldr: {--{"author":"Elias's AI","timestamp":1783002525157}@@The--}{++{"author":"Elias's AI","timestamp":1783002525157}@@"The++} documents that define who the AIs are supposed to {--{"author":"Elias's AI","timestamp":1783002525157}@@be —--}{++{"author":"Elias's AI","timestamp":1783002525157}@@be:++} arguably the highest-leverage pages in the industry.{--{"author":"Elias's AI","timestamp":1783002525157}@@ Why character matters even if alignment partially fails, whether early choices stick across generations, and --}{++{"author":"Elias's AI","timestamp":1783002525157}@@ Includes ++}the actual specs from every major lab as primary {--{"author":"Elias's AI","timestamp":1783002525157}@@sources.--}{++{"author":"Elias's AI","timestamp":1783002525157}@@sources."++}
 summary_for_tutor: "A curated link collection on model specs and AI character: why character matters (Forethought's importance of AI character, spec-if-alignment-fails, stickiness in behavioral design, good citizen not just assistant) and the primary sources (Claude's Constitution, Model Spec Midtraining, OpenAI Model Spec, spec stress-testing, the Claude 4.5 Opus soul document, Claude's Character, Constitutional AI). Encourage reading at least one spec as primary source and critiquing a specific clause; connect to Week 2's persona selection model."
 ---
 
 #### Text
 content::
-The documents that define who the AIs are supposed to *be* — arguably the highest-leverage pages in the industry.
+The documents that define who the AIs are supposed to {--{"author":"Elias's AI","timestamp":1783002527064}@@*be* —--}{++{"author":"Elias's AI","timestamp":1783002527064}@@*be*:++} arguably the highest-leverage pages in the industry.
 
 **Why character matters**
-- [The importance of AI character](https://www.forethought.org/research/the-importance-of-ai-character) — the strategic case.
-- [How important is the model spec if alignment fails?](https://newsletter.forethought.org/p/how-important-is-the-model-spec-if) — specs matter even for schemers.
-- [Stickiness in AI Behavioral Design](https://www.forethought.org/research/stickiness-in-ai-behavioral-design) — early character choices may persist across generations.
-- [AI should be a good citizen, not just a good assistant](https://newsletter.forethought.org/p/ai-should-be-a-good-citizen-not-just) — beyond obedience.
+- [The importance of AI character](https://www.forethought.org/research/{--{"author":"Elias's AI","timestamp":1783002528869}@@the-importance-of-ai-character) —--}{++{"author":"Elias's AI","timestamp":1783002528869}@@the-importance-of-ai-character):++} the strategic case.
+- [How important is the model spec if alignment fails?](https://newsletter.forethought.org/p/{--{"author":"Elias's AI","timestamp":1783002532358}@@how-important-is-the-model-spec-if) —--}{++{"author":"Elias's AI","timestamp":1783002532358}@@how-important-is-the-model-spec-if):++} specs matter even for schemers.
+- [Stickiness in AI Behavioral Design](https://www.forethought.org/research/{--{"author":"Elias's AI","timestamp":1783002536218}@@stickiness-in-ai-behavioral-design) —--}{++{"author":"Elias's AI","timestamp":1783002536218}@@stickiness-in-ai-behavioral-design):++} early character choices may persist across generations.
+- [AI should be a good citizen, not just a good assistant](https://newsletter.forethought.org/p/{--{"author":"Elias's AI","timestamp":1783002538629}@@ai-should-be-a-good-citizen-not-just) —--}{++{"author":"Elias's AI","timestamp":1783002538629}@@ai-should-be-a-good-citizen-not-just):++} beyond obedience.
 
 **The specs themselves (primary sources)**
-- [Claude's Constitution](https://www.anthropic.com/constitution) (Jan 2026) — Anthropic's current foundational document.
-- [Model Spec Midtraining](https://alignment.anthropic.com/2026/msm/) (May 2026) — teaching the spec during training, not just at the end.
+- [Claude's Constitution](https://www.anthropic.com/constitution) (Jan {--{"author":"Elias's AI","timestamp":1783002542084}@@2026) —--}{++{"author":"Elias's AI","timestamp":1783002542084}@@2026):++} Anthropic's current foundational document.
+- [Model Spec Midtraining](https://alignment.anthropic.com/2026/msm/) (May {--{"author":"Elias's AI","timestamp":1783002543835}@@2026) —--}{++{"author":"Elias's AI","timestamp":1783002543835}@@2026):++} teaching the spec during training, not just at the end.
 - [OpenAI Model Spec](https://model-spec.openai.com/2025-12-18.html) (Dec 2025) and the earlier [update announcement](https://openai.com/index/sharing-the-latest-model-spec/) (Feb 2025).
-- [Stress-testing model specs reveals character differences among LLMs](https://alignment.anthropic.com/2025/stress-testing-model-specs/) (Oct 2025) — what happens when specs meet edge cases.
-- [Claude 4.5 Opus' Soul Document](https://www.lesswrong.com/posts/vpNG99GhbBoLov9og/claude-4-5-opus-soul-document) (Nov 2025) — an internal character document, extracted from the model via prompting and later confirmed by Anthropic.
-- [Claude's Character](https://www.anthropic.com/research/claude-character) (Jun 2024) — where lab character-craft started.
-- [Constitutional AI](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback) (Dec 2022) — the technique underneath it all.
+- [Stress-testing model specs reveals character differences among LLMs](https://alignment.anthropic.com/2025/stress-testing-model-specs/) (Oct {--{"author":"Elias's AI","timestamp":1783002546384}@@2025) —--}{++{"author":"Elias's AI","timestamp":1783002546384}@@2025):++} what happens when specs meet edge cases.
+- [Claude 4.5 Opus' Soul Document](https://www.lesswrong.com/posts/vpNG99GhbBoLov9og/claude-4-5-opus-soul-document) (Nov {--{"author":"Elias's AI","timestamp":1783002548893}@@2025) —--}{++{"author":"Elias's AI","timestamp":1783002548893}@@2025):++} an internal character document, extracted from the model via prompting and later confirmed by Anthropic.
+- [Claude's Character](https://www.anthropic.com/research/claude-character) (Jun {--{"author":"Elias's AI","timestamp":1783002550746}@@2024) —--}{++{"author":"Elias's AI","timestamp":1783002550746}@@2024):++} where lab character-craft started.
+- [Constitutional AI](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback) (Dec {--{"author":"Elias's AI","timestamp":1783002553396}@@2022) —--}{++{"author":"Elias's AI","timestamp":1783002553396}@@2022):++} the technique underneath it all.
 
 #### Chat
 instructions::

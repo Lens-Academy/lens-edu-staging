@@ -1,20 +1,20 @@
 ---
 id: df925250-e42b-4afb-ad8c-55b956b2092e
 title: "⭐ Plans A B C and D"
-tldr: Strategy under uncertainty — what should be done about misalignment risk if coordination is great, decent, poor, or absent? Four plans, one per world, and an argument that we should prepare for the worlds we'll probably get, not the ones we want.
-summary_for_tutor: "Covers Greenblatt's four plans for misalignment risk keyed to available coordination/political will: Plan A (strong international coordination slows the race, big safety investment), Plan B (US-led caution with slowdowns at key moments), Plan C (little slowdown; labs do what they can — control, evals, transparency — while racing), Plan D (minimal will; a small safety-conscious faction inside a racing lab does damage control). Argues for preparing for the probable worlds (C/D), not just desirable ones."
+tldr: {--{"author":"Elias's AI","timestamp":1783002533504}@@Strategy under uncertainty — what--}{++{"author":"Elias's AI","timestamp":1783002533504}@@What++} should be done about misalignment risk if coordination is great, decent, poor, or absent? Four plans, one per world, and an argument {--{"author":"Elias's AI","timestamp":1783002533504}@@that we should --}{++{"author":"Elias's AI","timestamp":1783002533504}@@to ++}prepare for the worlds we'll probably{--{"author":"Elias's AI","timestamp":1783002533504}@@ get, not the ones we want.--}{++{"author":"Elias's AI","timestamp":1783002533504}@@ get.++}
+summary_for_tutor: "Covers Greenblatt's four plans for misalignment risk keyed to available coordination/political will: Plan A (strong international coordination slows the race, big safety investment), Plan B (US-led caution with slowdowns at key moments), Plan C (little slowdown; labs do what they can {--{"author":"Elias's AI","timestamp":1783002535955}@@— control,--}{++{"author":"Elias's AI","timestamp":1783002535955}@@(control,++} evals, {--{"author":"Elias's AI","timestamp":1783002535955}@@transparency —--}{++{"author":"Elias's AI","timestamp":1783002535955}@@transparency)++} while racing), Plan D (minimal will; a small safety-conscious faction inside a racing lab does damage control). Argues for preparing for the probable worlds (C/D), not just desirable ones."
 ---
 
 #### Text
 content::
-⭐ Core reading. Strategy under uncertainty: what should be done about misalignment risk if coordination is great, decent, poor, or absent? Four plans, one per world — and an argument about where the marginal effort should go.
+⭐ Core reading. Strategy under uncertainty: what should be done about misalignment risk if coordination is great, decent, poor, or absent? Four plans, one per {--{"author":"Elias's AI","timestamp":1783002538087}@@world —--}{++{"author":"Elias's AI","timestamp":1783002538087}@@world,++} and an argument about where the marginal effort should go.
 
 #### Article
 source:: [[../articles/greenblatt-plans-a-b-c-and-d-for-misalignment-risk]]
 
 #### Chat
 instructions::
-TLDR of what the user just read: Greenblatt sketches four plans for misalignment risk keyed to how much coordination/political will exists: Plan A (strong international coordination slows the race, big safety investment), Plan B (US-led caution with meaningful slowdowns at key moments), Plan C (little slowdown; labs do what they can — control, evals, transparency — while racing), Plan D (minimal will; a small safety-conscious faction inside a racing lab does damage control). He argues we should prepare for the worlds we'll probably get (C/D), not just the ones we want.
+TLDR of what the user just read: Greenblatt sketches four plans for misalignment risk keyed to how much coordination/political will exists: Plan A (strong international coordination slows the race, big safety investment), Plan B (US-led caution with meaningful slowdowns at key moments), Plan C (little slowdown; labs do what they can {--{"author":"Elias's AI","timestamp":1783002539943}@@— control,--}{++{"author":"Elias's AI","timestamp":1783002539943}@@(control,++} evals, {--{"author":"Elias's AI","timestamp":1783002539943}@@transparency —--}{++{"author":"Elias's AI","timestamp":1783002539943}@@transparency)++} while racing), Plan D (minimal will; a small safety-conscious faction inside a racing lab does damage control). He argues we should prepare for the worlds we'll probably get (C/D), not just the ones we want.
 
 Discussion topics to explore:
 - Which world (A–D) does the learner think we're actually in as of now? What evidence?
