@@ -1,6 +1,7 @@
 ---
 id: 3ef6812c-9fc3-4cfb-a9f4-4c681a024010
-title: "AIF - The Case Against AI Control"
+title: {--{"author":"Elias's AI","timestamp":1782987313521}@@"AIF - The--}{++{"author":"Elias's AI","timestamp":1782987313521}@@"The++} Case Against AI Control"{++{"author":"Elias's AI","timestamp":1782987313521}@@
+tldr: Wentworth's counter — control research targets the wrong regime, because the AIs it can contain aren't the ones that kill you. Mostly it helps labs extract work while making it feel safe. Read right after the case for; the disagreement is unusually crisp.++}
 ---
 
 #### Text

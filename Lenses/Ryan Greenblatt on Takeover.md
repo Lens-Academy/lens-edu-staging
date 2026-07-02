@@ -1,6 +1,7 @@
 ---
 id: 74250ae6-1de0-44c4-8602-5c3fe9127025
-title: "AIF - Ryan Greenblatt on Takeover"
+title: {--{"author":"Elias's AI","timestamp":1782987216409}@@"AIF - Ryan--}{++{"author":"Elias's AI","timestamp":1782987216409}@@"Ryan Greenblatt on Takeover"
+tldr: How would a scheming AI actually take over? Not with a dramatic robot uprising — through sabotaged safety work, self-exfiltration, and rogue deployments inside the lab.++} Greenblatt {++{"author":"Elias's AI","timestamp":1782987216409}@@walks through the concrete pathways ++}on {--{"author":"Elias's AI","timestamp":1782987216409}@@Takeover"--}{++{"author":"Elias's AI","timestamp":1782987216409}@@the 80,000 Hours podcast.++}
 ---
 
 #### Text

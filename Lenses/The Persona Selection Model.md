@@ -1,6 +1,7 @@
 ---
 id: f1f8f509-b1dd-41d9-a589-b03f7e266d67
-title: "AIF - The Persona Selection Model"
+title: {--{"author":"Elias's AI","timestamp":1782987242086}@@"AIF - The--}{++{"author":"Elias's AI","timestamp":1782987242086}@@"The++} Persona Selection Model"{++{"author":"Elias's AI","timestamp":1782987242086}@@
+tldr: Anthropic's frame for where model behavior comes from — training doesn't install goals directly, it selects among personas the model can play. A different mechanistic story than scheming, with different predictions about how misalignment arises and what fixes it.++}
 ---
 
 #### Text

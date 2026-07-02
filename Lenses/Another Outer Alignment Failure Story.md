@@ -1,6 +1,7 @@
 ---
 id: 8a3cb06a-13f1-4678-9615-6422004da0d2
-title: "AIF - Another Outer Alignment Failure Story"
+title: {--{"author":"Elias's AI","timestamp":1782987220260}@@"AIF - Another--}{++{"author":"Elias's AI","timestamp":1782987220260}@@"Another++} Outer Alignment Failure Story"{++{"author":"Elias's AI","timestamp":1782987220260}@@
+tldr: A takeover story with no scheming at all — everyone is careful, the AIs do exactly what they're trained to do, and the world still slips away. Christiano's scenario where the problem is what we measured, not what the AI plotted.++}
 ---
 
 #### Text
