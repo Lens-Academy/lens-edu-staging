@@ -24,9 +24,9 @@ id:: 0af36123-ce69-4296-b4f8-61c5c61a1ae8
 content::
 - Each week covers under 8 hours of foundational context on one topic, followed by a group meeting.
 - Readings marked ⭐ are the priority if you only have ~1 hour.
-- Modules and lenses marked *optional* are exactly that — follow curiosity, not completionism.
+- Modules and lenses marked *optional* are exactly {--{"author":"Elias's AI","timestamp":1783002227502}@@that —--}{++{"author":"Elias's AI","timestamp":1783002227502}@@that:++} follow curiosity, not completionism.
 - Exercises come as separate lenses right after their reading, and are designed for discussion groups; bring your answers to the meeting.
-- Most reading lenses end in a tutor chat — use it to test your understanding against the reading, not to summarize it.
+- Most reading lenses end in a tutor {--{"author":"Elias's AI","timestamp":1783002230338}@@chat —--}{++{"author":"Elias's AI","timestamp":1783002230338}@@chat;++} use it to test your understanding against the reading, not to summarize it.
 
 **This week: timelines and takeoff.** Key questions to hold while reading:
 - What are key milestones to track in AI development?
