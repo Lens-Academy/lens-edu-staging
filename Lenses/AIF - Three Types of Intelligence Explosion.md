@@ -1,0 +1,24 @@
+{++{"author":"AI","timestamp":1782974725022}@@---
+id: 6d5e217f-c24a-4825-a83b-12dc7a8c764c
+title: "AIF - Three Types of Intelligence Explosion"
+---
+
+#### Text
+content::
+⭐ Core reading (~30 min, audio option on the Forethought site). Once AI can improve the inputs to AI development itself, progress can compound. But "intelligence explosion" is not one scenario — this piece splits it into three, each with different speeds, bottlenecks, and warning signs.
+
+#### Article
+source:: [[../articles/forethought-three-types-of-intelligence-explosion]]
+
+#### Chat
+instructions::
+TLDR of what the user just read: Forethought's "Three Types of Intelligence Explosion" distinguishes three self-reinforcing feedback loops in AI development: a software intelligence explosion (AI automating algorithm/software R&D), an AI-technology intelligence explosion (AI also improving chip design and other AI technology), and a full-stack intelligence explosion (AI accelerating the whole industrial stack, including chip fabrication and energy). Each type has different bottlenecks (compute, fab construction, physical infrastructure) and different plausible speeds.
+
+Discussion topics to explore:
+- Which of the three feedback loops does the learner find most plausible as the first to close, and why?
+- What are the key bottlenecks that could slow each type (compute stock, chip fabrication lead times, physical construction)?
+- What early warning signs would distinguish which type of explosion is starting?
+- How does this framing connect to the week's key questions about timelines (when) vs takeoff speeds (how fast)?
+
+Ask what they found surprising or new. Check they can name the three types and the main bottleneck for each in their own words.
+++}
