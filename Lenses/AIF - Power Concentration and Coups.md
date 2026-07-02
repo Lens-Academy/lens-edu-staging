@@ -1,8 +1,8 @@
 ---
 id: 4c70eb83-1b8d-420e-b37f-de9c2b64418d
 title: "Power Concentration and Coups"
-tldr: Even perfectly aligned AI is dangerous — the question is aligned to whom. How small groups could use secretly loyal AIs to seize and lock in power, why coups get easier as capabilities rise, and the institutional defenses that could stop it.{++{"author":"Elias's AI","timestamp":1782994918970}@@
-summary_for_tutor: "A curated link collection on AI-enabled power concentration: Forethought's AI-enabled coups analysis (AI removes the need for many human collaborators — soldiers and officials who can refuse), the prevention podcast, secretly loyal AIs (could backdoored loyalty survive training and audits?), and checks/balances institutional design. Connects to the Week 4 CEO takeover scenario."++}
+tldr: Even perfectly aligned AI is dangerous — the question is aligned to whom. How small groups could use secretly loyal AIs to seize and lock in power, why coups get easier as capabilities rise, and the institutional defenses that could stop it.
+summary_for_tutor: "A curated link collection on AI-enabled power concentration: Forethought's AI-enabled coups analysis (AI removes the need for many human collaborators — soldiers and officials who can refuse), the prevention podcast, secretly loyal AIs (could backdoored loyalty survive training and audits?), and checks/balances institutional design. Connects to the Week 4 CEO takeover scenario."
 ---
 
 #### Text

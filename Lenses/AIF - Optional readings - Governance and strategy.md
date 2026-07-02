@@ -1,8 +1,8 @@
 ---
 id: a465bbde-fa87-4632-a13d-d6163fbdb40d
 title: "Optional readings - Governance and strategy"
-tldr: The governance week's optional shelf — MAIM and the deterrence debate, the five frontier labs' safety frameworks as primary sources, scrutiny of whether lab commitments survive contact with the race, and the US/China policy paper trail.{++{"author":"Elias's AI","timestamp":1782994899392}@@
-summary_for_tutor: "A curated link collection of the week's optional readings on governance, grouped into: superintelligence strategy/deterrence (MAIM, its response to critics, RAND on preventive attack), frontier lab safety frameworks as primary sources (Anthropic RSP, OpenAI Preparedness v2, GDM FSF v3, xAI RMF, Meta Frontier AI Framework), lab governance scrutiny (Anthropic backpedalling post, Karnofsky on trusting AI companies), and US/China AI policy (Ball-Kokotajlo anti-debate, federal preemption EO, SB 53, America's AI Action Plan, IAPS compute explainers, Concordia's State of AI Safety in China). Suggest comparing two lab frameworks as primary-source work."++}
+tldr: The governance week's optional shelf — MAIM and the deterrence debate, the five frontier labs' safety frameworks as primary sources, scrutiny of whether lab commitments survive contact with the race, and the US/China policy paper trail.
+summary_for_tutor: "A curated link collection of the week's optional readings on governance, grouped into: superintelligence strategy/deterrence (MAIM, its response to critics, RAND on preventive attack), frontier lab safety frameworks as primary sources (Anthropic RSP, OpenAI Preparedness v2, GDM FSF v3, xAI RMF, Meta Frontier AI Framework), lab governance scrutiny (Anthropic backpedalling post, Karnofsky on trusting AI companies), and US/China AI policy (Ball-Kokotajlo anti-debate, federal preemption EO, SB 53, America's AI Action Plan, IAPS compute explainers, Concordia's State of AI Safety in China). Suggest comparing two lab frameworks as primary-source work."
 ---
 
 #### Text
