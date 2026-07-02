@@ -1,7 +1,8 @@
 ---
 id: 67983933-1cef-4303-8bce-d776c3928742
 title: "ASI Deterrence"
-tldr: If states take superintelligence seriously, deterrence logic kicks in — but AI deterrence is nothing like nuclear deterrence. Verification is harder, red lines are blurrier, and the thing being deterred keeps getting faster. The crucial considerations, laid out cleanly.
+tldr: If states take superintelligence seriously, deterrence logic kicks in — but AI deterrence is nothing like nuclear deterrence. Verification is harder, red lines are blurrier, and the thing being deterred keeps getting faster. The crucial considerations, laid out cleanly.{++{"author":"Elias's AI","timestamp":1782994822537}@@
+summary_for_tutor: "Covers Delaney's analysis of ASI deterrence: whether states can credibly threaten to prevent rivals' superintelligence projects (cf. MAIM — Mutual Assured AI Malfunction), what makes AI deterrence disanalogous to nuclear (verification difficulty, unclear red lines, offense/defense ambiguity, speed of capability change), and which considerations most change the strategic picture — including whether deterrence stabilizes the race or drives programs underground."++}
 ---
 
 #### Text

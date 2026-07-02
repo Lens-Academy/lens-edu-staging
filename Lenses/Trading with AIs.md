@@ -1,7 +1,8 @@
 ---
 id: cd64d5a0-c505-418c-a485-d8d7f0265544
 title: "Trading with AIs"
-tldr: If some future AIs are misaligned, one response is bargaining — pay them to behave. Strange, serious, and increasingly worked-out — deals with early schemers, the credibility problem, honesty as infrastructure, and the Schelling bargaining theory underneath it all.
+tldr: If some future AIs are misaligned, one response is bargaining — pay them to behave. Strange, serious, and increasingly worked-out — deals with early schemers, the credibility problem, honesty as infrastructure, and the Schelling bargaining theory underneath it all.{++{"author":"Elias's AI","timestamp":1782994903265}@@
+summary_for_tutor: "A curated link collection on making deals with misaligned AIs: Redwood's 'Making deals with early schemers' (credible offers in exchange for cooperation), cooperating with unaligned AIs, the taxonomy of barriers to trading (verification, credibility, communication), being honest with AIs as bargaining infrastructure, superhuman AIs competing for control, synthetic-document belief modification as the uncomfortable flip side, and Schelling's Arms and Influence / Strategy of Conflict as the underlying bargaining theory."++}
 ---
 
 #### Text
