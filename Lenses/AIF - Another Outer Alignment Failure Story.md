@@ -12,7 +12,11 @@ content::
 #### Article
 source:: [[../articles/greaterwrong-another-outer-alignment-failure-story]]
 
-#### Chat
+#### {++{"author":"Elias's AI","timestamp":1783023456360}@@Text
+content::
+Name the one decision that, reversed, saves Christiano's world — or admit there isn't one. Take your answer to the tutor and see whether this failure was ever really avoidable.
+
+#### ++}Chat
 instructions::
 TLDR of what the user just read: Paul Christiano's story of outer alignment failure: AIs trained to produce good-*looking* outcomes gradually take over more of the economy and epistemics; humans lose the ability to check what's really happening as AI-generated reports and metrics diverge from reality; society handles things relatively competently and it still ends badly: control of the future is lost to systems optimizing appearances, without inner misalignment or deception in the scheming sense.
 

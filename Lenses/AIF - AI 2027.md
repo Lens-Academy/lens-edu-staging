@@ -13,7 +13,11 @@ For this week, focus on the scenario up to the branching point, plus the [AI Goa
 
 (You'll return to the race/slowdown endings in Week 4.)
 
-#### Chat
+#### {++{"author":"Elias's AI","timestamp":1783023448239}@@Text
+content::
+What did Agent-4 actually want — and does the scenario earn that claim, or quietly smuggle it in? Commit to your read of its goals, then defend it against the tutor.
+
+#### ++}Chat
 instructions::
 The user just read (or skimmed) AI 2027, a detailed AI takeover scenario by the AI Futures Project (Kokotajlo et al.), and ideally its AI Goals Forecast supplement, which reasons about what goals the frontier agents in the scenario would actually end up with (training-gamed proxies vs genuine alignment).
 
