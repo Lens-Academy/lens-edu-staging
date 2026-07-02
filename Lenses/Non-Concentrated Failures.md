@@ -1,6 +1,7 @@
 ---
 id: 4ea41768-7281-4163-95b4-ab5a96d60f1c
-title: "AIF - Non-Concentrated Failures"
+title: {--{"author":"Elias's AI","timestamp":1782987422171}@@"AIF - Non-Concentrated Failures"--}{++{"author":"Elias's AI","timestamp":1782987422171}@@"Non-Concentrated Failures"
+tldr: The companion piece on handling non-concentrated failures — how many bad actions the AI needs before its plan works changes the whole game theory, and determines whether online training, few-shot incrimination, or aggregate statistics is the right response.++}
 ---
 
 #### Text

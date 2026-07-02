@@ -1,6 +1,7 @@
 ---
 id: 935ed298-b077-43c8-8f2d-5b7bbca288f1
-title: "AIF - Areas of Control Work"
+title: {--{"author":"Elias's AI","timestamp":1782987318619}@@"AIF - Areas--}{++{"author":"Elias's AI","timestamp":1782987318619}@@"Areas of Control Work"
+tldr: The map of the control field — protocol design, settings and benchmarks, control evaluations, the science++} of {--{"author":"Elias's AI","timestamp":1782987318619}@@Control Work"--}{++{"author":"Elias's AI","timestamp":1782987318619}@@scheming-relevant capabilities, and getting it all into lab practice. Useful for orientation, and for spotting where you might contribute.++}
 ---
 
 #### Text

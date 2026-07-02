@@ -1,6 +1,7 @@
 ---
 id: 161fd6ad-090e-4288-8fdc-3c0057d88679
-title: "AIF - W3 Optional Readings"
+title: {--{"author":"Elias's AI","timestamp":1782987438188}@@"AIF --}{++{"author":"Elias's AI","timestamp":1782987438188}@@"Optional readings ++}- {--{"author":"Elias's AI","timestamp":1782987438188}@@W3 Optional Readings"--}{++{"author":"Elias's AI","timestamp":1782987438188}@@Control"
+tldr: For those the control week converted — research directions to actually work on, from building robust-to-training model organisms to incriminating misaligned models via distillation, plus the audio alternative for the week's foundations.++}
 ---
 
 #### Text

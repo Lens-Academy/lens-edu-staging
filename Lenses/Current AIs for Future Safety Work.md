@@ -1,6 +1,7 @@
 ---
 id: d4b68314-7265-40ce-99a8-a27d23f59f21
-title: "AIF - Current AIs for Future Safety Work"
+title: {--{"author":"Elias's AI","timestamp":1782987364138}@@"AIF - Current--}{++{"author":"Elias's AI","timestamp":1782987364138}@@"Current++} AIs for Future Safety Work"{++{"author":"Elias's AI","timestamp":1782987364138}@@
+tldr: Today's models may stay important safety infrastructure long after they're obsolete — trusted precisely because they're too weak to scheme, serving as monitors and oversight labor against stronger, untrusted successors. What that means for what we build now.++}
 ---
 
 #### Text

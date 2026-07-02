@@ -1,6 +1,7 @@
 ---
 id: 9985ca88-ba4f-4008-843a-de6f3fcd94b1
-title: "AIF - Catching AIs Red-Handed"
+title: {--{"author":"Elias's AI","timestamp":1782987362137}@@"AIF - Catching AIs Red-Handed"--}{++{"author":"Elias's AI","timestamp":1782987362137}@@"Catching AIs Red-Handed"
+tldr: What actually happens if you catch your AI mid-takeover-attempt? One caught attempt is enormously valuable — proof of scheming for decision-makers, raw material for few-shot countermeasures — if you've prepared to use it. Why "win" in the control game really is a win.++}
 ---
 
 #### Text

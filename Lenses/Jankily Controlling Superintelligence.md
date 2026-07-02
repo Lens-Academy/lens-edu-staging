@@ -1,6 +1,7 @@
 ---
 id: c12ef072-c8ae-449c-bcf1-d3a144dff5d8
-title: "AIF - Jankily Controlling Superintelligence"
+title: {--{"author":"Elias's AI","timestamp":1782987412813}@@"AIF - Jankily Controlling Superintelligence"--}{++{"author":"Elias's AI","timestamp":1782987412813}@@"Jankily Controlling Superintelligence"
+tldr: Everyone agrees control breaks down for wildly superhuman AI — but how fast, and is desperate, degraded control of early superintelligence worth attempting anyway? A deliberately uncomfortable read about a position nobody wants to be in.++}
 ---
 
 #### Text

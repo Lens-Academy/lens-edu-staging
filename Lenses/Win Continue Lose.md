@@ -1,6 +1,7 @@
 ---
 id: 7693c3f6-fa9c-45a8-85d1-668f5aeae968
-title: "AIF - Win Continue Lose"
+title: {--{"author":"Elias's AI","timestamp":1782987336581}@@"AIF - Win Continue Lose"--}{++{"author":"Elias's AI","timestamp":1782987336581}@@"Win Continue Lose"
+tldr: Control as a game — every suspicious AI action forces a choice (execute, replace, or audit it), and every state is a win, a continue, or a loss. The vocabulary that makes control protocols analyzable, including why catching the AI red-handed counts as winning.++}
 ---
 
 #### Text

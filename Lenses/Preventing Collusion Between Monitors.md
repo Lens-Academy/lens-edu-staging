@@ -1,6 +1,7 @@
 ---
 id: 977a0418-d91f-457d-87dd-65865e91e3b6
-title: "AIF - Preventing Collusion Between Monitors"
+title: {--{"author":"Elias's AI","timestamp":1782987433269}@@"AIF - Preventing--}{++{"author":"Elias's AI","timestamp":1782987433269}@@"Preventing++} Collusion Between Monitors"{++{"author":"Elias's AI","timestamp":1782987433269}@@
+tldr: Your best monitor for an untrusted model is another copy of the untrusted model — which only works if the two copies can't wink at each other. The anti-collusion playbook — paraphrasing, honeypots, information limits — against adversaries that share weights and Schelling points.++}
 ---
 
 #### Text

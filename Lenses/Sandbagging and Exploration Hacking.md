@@ -1,6 +1,7 @@
 ---
 id: 9084ba8c-a149-42f1-940c-b32463731f32
-title: "AIF - Sandbagging and Exploration Hacking"
+title: {--{"author":"Elias's AI","timestamp":1782987359209}@@"AIF - Sandbagging--}{++{"author":"Elias's AI","timestamp":1782987359209}@@"Sandbagging++} and Exploration Hacking"{++{"author":"Elias's AI","timestamp":1782987359209}@@
+tldr: A scheming AI doesn't just hide bad actions — it can strategically underperform, hiding capabilities on evals or refusing to explore during RL so training never reinforces what it doesn't want to become. The systematic treatment of both, with countermeasures.++}
 ---
 
 #### Text
