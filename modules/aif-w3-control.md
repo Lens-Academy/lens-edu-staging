@@ -23,9 +23,7 @@ Key questions to hold while reading:
 - What is the current state of control research? How might this change with more powerful AIs?
 - What happens after we do control?
 
-{--{"author":"Elias's AI","timestamp":1782981844550}@@#### Chat
-instructions::
-The learner is starting Week 3 (AI control). Check they carry over Week 2's frame: control assumes the AI might be scheming and asks how to stay safe anyway. Ask their initial intuition: --}{++{"author":"Elias's AI","timestamp":1782981844550}@@Before you start: note your initial intuition — ++}does "keep a possibly-adversarial superhuman system safely contained while using it" sound tractable or {--{"author":"Elias's AI","timestamp":1782981844550}@@doomed? Revisit--}{++{"author":"Elias's AI","timestamp":1782981844550}@@doomed to you? Check back on that++} at {--{"author":"Elias's AI","timestamp":1782981844550}@@week's end.--}{++{"author":"Elias's AI","timestamp":1782981844550}@@the end of the week.++}
+Before you start: note your initial intuition — does "keep a possibly-adversarial superhuman system safely contained while using it" sound tractable or doomed to you? Check back on that at the end of the week.
 
 # Submodule: Foundations
 slug:: foundations

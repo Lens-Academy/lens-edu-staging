@@ -24,9 +24,7 @@ Key questions to hold while reading:
 - How might scheming AIs take over?
 - What motivations do current models seem to have — and how does this update us about future models, if at all?
 
-{--{"author":"Elias's AI","timestamp":1782981816981}@@#### Chat
-instructions::
-The learner is starting Week 2 (misaligned AI takeover threat modeling). Ask --}{++{"author":"Elias's AI","timestamp":1782981816981}@@Before you start reading: note down (for yourself) ++}what{--{"author":"Elias's AI","timestamp":1782981816981}@@ their current picture of AI takeover looks like — vague sci-fi or concrete pathway? — and what they --}{++{"author":"Elias's AI","timestamp":1782981816981}@@ you currently ++}think today's models "want", if anything. {--{"author":"Elias's AI","timestamp":1782981816981}@@Flag that the week distinguishes--}{++{"author":"Elias's AI","timestamp":1782981816981}@@This week's readings will give you++} several{--{"author":"Elias's AI","timestamp":1782981816981}@@ misalignment types (scheming, fitness-seeking, persona drift)--}{++{"author":"Elias's AI","timestamp":1782981816981}@@ competing frames to test++} that {--{"author":"Elias's AI","timestamp":1782981816981}@@get conflated in public discussion.--}{++{"author":"Elias's AI","timestamp":1782981816981}@@intuition against.++}
+Before you start reading: note down (for yourself) what you currently think today's models "want", if anything. This week's readings will give you several competing frames to test that intuition against.
 
 # Submodule: What will AIs want
 slug:: what-ais-want

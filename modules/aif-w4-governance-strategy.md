@@ -23,9 +23,7 @@ Key questions to hold while reading:
 - How should/will powerful states interact with the development of powerful AI?
 - What will the decision-making dynamics inside and between states be like?
 
-#### Chat
-instructions::
-The learner is starting Week 4 (governance/strategy). Ask where they think the real decisions get made: lab leadership, boards, the US executive branch, Congress, or Beijing — and how they'd allocate 100 points of influence over how AGI goes. Note the week moves from plans (Plans A-D) through lab dynamics to state dynamics and concrete US/China policy.
+Before you start: where do you think the real decisions about how AGI goes get made — lab leadership, boards, the US executive branch, Congress, Beijing? If you had 100 points of influence to allocate, where would you put them? Keep that allocation in mind; the week's readings will argue with it.
 
 # Submodule: The Playbook
 slug:: playbook

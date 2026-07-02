@@ -15,11 +15,7 @@ The core course is done — this module is the reading list's *extended* section
 
 A good place to start if you want direction: [Concrete projects to prepare for superintelligence](https://newsletter.forethought.org/p/concrete-projects-to-prepare-for) — a menu of actual work these literatures suggest doing.
 
-Each lens below is one topic: a curated set of links with enough context to decide whether it's your rabbit hole.
-
-#### Chat
-instructions::
-The learner finished the 4-week core of an AI futurism course and is browsing extended topics: trading with AIs, power concentration/coups, acausal cooperation, moral patienthood, biorisk, model specs, better futures, space governance. Ask what gripped them most during the course and recommend the matching topic. If they want to do something, discuss the Forethought concrete projects list.
+Each lens below is one topic: a curated set of links with enough context to decide whether it's your rabbit hole. Pick by what gripped you most during the four weeks — each topic lens has a tutor chat if you want help choosing or discussing.
 
 # Lens:
 optional:: true
