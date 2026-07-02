@@ -22,8 +22,8 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-{++{"author":"Elias's AI","timestamp":1783018522256}@@min-messages:: 1
-++}instructions:: The student has just read Chapter 9 of "If Anyone Builds It, Everyone Dies."
+min-messages:: 1
+instructions:: The student has just read Chapter 9 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Explain why a sufficiently capable AI system optimizing for resource-intensive goals can eliminate human civilization without hostile intent — as a thermodynamic and logical byproduct of its own objectives — and connect this to the M3 goal-space argument that indifference to human survival as a side constraint is more dangerous than malice.
 
@@ -67,8 +67,8 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize — just capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
-{++{"author":"Elias's AI","timestamp":1783018524824}@@min-messages:: 1
-++}instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+min-messages:: 1
+instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading — not to explain the content to them.
 
@@ -103,8 +103,8 @@ content::
 The chapter's own bet is that the superintelligence would just kill us deliberately, to spare itself the trouble. Set that aside and grant its weaker, stranger case — the branch where it never targets us at all — because that is the one worth stress-testing. In that branch, an insurance analyst files the outcome under "natural disaster — no liable party": no ill will, no intent, no decision to end anyone. Even here, where nobody meant us harm, why is "no villain" not "no catastrophe to prevent" — and what does the thermodynamic mechanism let you say to someone who treats the absence of intent as the absence of a catastrophe?
 
 #### Chat
-{++{"author":"Elias's AI","timestamp":1783018527659}@@min-messages:: 1
-++}instructions:: The student has completed a reading, a free recall, and a reflection phase on Chapter 9 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+min-messages:: 1
+instructions:: The student has completed a reading, a free recall, and a reflection phase on Chapter 9 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge — it is not the test question. It hands the student a plausible-sounding exculpation — that because no one intended harm and no villain exists, the outcome is a blameless accident like a natural disaster rather than a catastrophe anyone was obligated to prevent — and asks them to debug it. Note: the question deliberately grants the chapter's weaker, secondary branch (pure passive side-effect). The chapter's mainline bet is actually that the superintelligence kills humans deliberately to avoid trouble ("We would bet, ourselves, on the superintelligence taking the tiny bit of extra time and energy to explicitly kill humans"). If a student rebuts by citing that deliberate-killing mainline, acknowledge they are right about the chapter's primary guess, then steer them back to the passive-indifference branch, which is this lens's learning outcome. Use it to draw out the thermodynamic mechanism, indifference as a structural property, and the point that the absence of intent is the argument, not a comfort.
 
@@ -147,9 +147,7 @@ Safety and integrity:
 - If the student grasps indifference but not why it is more dangerous than malice, ask: what would a malicious AI require that an indifferent one doesn't? Which is harder to rule out in advance?
 - If the student treats the alien frame only emotionally, push for the analytic claim: in the final paragraph, is "they meant no harm" a defense or an explanation?
 - If the student reaches the correct answer early, probe edge cases and implications rather than ending prematurely.
-- If the student is stuck after 2 attempts {--{"author":"Elias's AI","timestamp":1783019084621}@@explanation?
-- If the student reaches the correct answer early, probe edge cases and implications rather than ending prematurely.
-- If the student is stuck after 2 attempts --}at a question, give a brief direct answer and move on.
+- If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
 
 #### Text
 content::

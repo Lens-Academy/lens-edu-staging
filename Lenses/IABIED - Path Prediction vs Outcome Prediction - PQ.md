@@ -13,8 +13,8 @@ tags:
 content:: Before reading: Can you think of a situation where you'd be confident about the outcome of a process, even if you couldn't predict each step along the way? What makes outcome prediction different from pathway prediction — or is it? Write down your thinking before you read.
 
 #### Chat
-{++{"author":"Elias's AI","timestamp":1783018531909}@@min-messages:: 1
-++}instructions::
+min-messages:: 1
+instructions::
 The student is about to read the Coda of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "Can you be confident about an outcome without being able to predict the specific path that leads there?"

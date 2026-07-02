@@ -14,8 +14,8 @@ tags:
 content:: Think of a major historical disaster — a shipwreck, an industrial accident, a nuclear meltdown. After the disaster, something typically happens: investigations, safety reforms, design changes, new regulations. In what ways does that post-disaster learning process help? And what would have to be true about a future disaster for that process to be completely unavailable?
 
 #### Chat
-{++{"author":"Elias's AI","timestamp":1783018448832}@@min-messages:: 1
-++}instructions::
+min-messages:: 1
+instructions::
 The student is about to read Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "Think of a major historical disaster — a shipwreck, an industrial accident, a nuclear meltdown. After the disaster, something typically happens: investigations, safety reforms, design changes, new regulations. In what ways does that post-disaster learning process help? And what would have to be true about a future disaster for that process to be completely unavailable?"

@@ -24,8 +24,8 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-{++{"author":"Elias's AI","timestamp":1783018452098}@@min-messages:: 1
-++}instructions:: The student has just finished reading the first section of "I Don't Want to Be Alarmist" (Chapter 12 of "If Anyone Builds It, Everyone Dies") and has written a free recall — everything they could remember without looking back at the text.
+min-messages:: 1
+instructions:: The student has just finished reading the first section of "I Don't Want to Be Alarmist" (Chapter 12 of "If Anyone Builds It, Everyone Dies") and has written a free recall — everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
 - Thomas Midgley Jr. as the opening frame: inventor of both leaded gasoline and CFCs, two world-scale harms — used to show that smart, ambitious people with good intentions can build catastrophically destructive things
@@ -66,8 +66,8 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize — just capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
-{++{"author":"Elias's AI","timestamp":1783018454761}@@min-messages:: 1
-++}instructions:: The student has just completed a free recall of the first section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+min-messages:: 1
+instructions:: The student has just completed a free recall of the first section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading — not to explain the content to them.
 
@@ -104,8 +104,8 @@ content::
 Chapter 12 uses Chernobyl and Titanic to establish an argument, then says those cases have a decisive disanalogy with ASI. Why does the chapter bother with the analogies at all if the disanalogy is what really matters? What work are Chernobyl and Titanic doing in the argument?
 
 #### Chat
-{++{"author":"Elias's AI","timestamp":1783018458559}@@min-messages:: 1
-++}instructions:: The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+min-messages:: 1
+instructions:: The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 Learning outcome for this Lens: Compare the Chernobyl and Titanic analogies as Chapter 12 deploys them: explain what each case contributes to the argument that humans struggle to believe in unthinkable disasters, and identify the critical disanalogy between those historical cases and an ASI failure that the chapter treats as decisive.
 
