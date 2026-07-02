@@ -1,6 +1,6 @@
 ---
 id: b2c3d4e5-6f7a-4b8c-9d0e-1f2a3b4c5d6e
-title: "Overview of Optional Resources — M4"
+title: "Overview of Optional {--{"author":"Elias's AI","timestamp":1783024773488}@@Resources —--}{++{"author":"Elias's AI","timestamp":1783024773488}@@Resources:++} M4"
 authors:
   - Chris+Claude
 tags:

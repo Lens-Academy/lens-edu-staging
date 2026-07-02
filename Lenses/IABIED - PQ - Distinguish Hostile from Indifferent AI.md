@@ -1,8 +1,8 @@
 ---
 id: f2b6d4e8-9a3c-4f71-b850-3d7e1a9c6f04
-summary_for_tutor: Priming question before Chapter 5, section 2. Students consider whether malice is actually necessary to cause serious harm — setting up the hostile/indifferent distinction.
-title: "Before Reading — Distinguish Hostile from Indifferent AI"
-tldr: Does something need to hate you to be deadly? Before reading, think about what actually causes catastrophic harm — and whether hostility is really the key ingredient.
+summary_for_tutor: Priming question before Chapter 5, section 2. Students consider whether malice is actually necessary to cause serious {--{"author":"Elias's AI","timestamp":1783024789665}@@harm — setting--}{++{"author":"Elias's AI","timestamp":1783024789665}@@harm, which sets++} up the hostile/indifferent distinction.
+title: "Before {--{"author":"Elias's AI","timestamp":1783024793573}@@Reading —--}{++{"author":"Elias's AI","timestamp":1783024793573}@@Reading:++} Distinguish Hostile from Indifferent AI"
+tldr: Does something need to hate you to be deadly? Before reading, think about what actually causes catastrophic {--{"author":"Elias's AI","timestamp":1783024791536}@@harm —--}{++{"author":"Elias's AI","timestamp":1783024791536}@@harm,++} and whether hostility is really the key ingredient.
 authors:
   - Chris+Claude
 tags:
@@ -10,7 +10,7 @@ tags:
   - IABIED
 ---
 #### Text
-content:: Before reading Chapter 5, section 2: Most people picture dangerous AI as something that *hates* humans or wants to destroy us. But is hatred or malice actually necessary for something to be a mortal threat? Think of a real example — from history, nature, or everyday life — where something caused devastating harm without any hostility at all. What made it dangerous if not malice? Write down your thinking before you read.
+content:: Before reading Chapter 5, section 2: Most people picture dangerous AI as something that *hates* humans or wants to destroy us. But is hatred or malice actually necessary for something to be a mortal threat? Think of a real example {--{"author":"Elias's AI","timestamp":1783024795373}@@— from--}{++{"author":"Elias's AI","timestamp":1783024795373}@@(from++} history, nature, or everyday {--{"author":"Elias's AI","timestamp":1783024795373}@@life —--}{++{"author":"Elias's AI","timestamp":1783024795373}@@life)++} where something caused devastating harm without any hostility at all. What made it dangerous if not malice? Write down your thinking before you read.
 
 #### Chat
 min-messages:: 1
