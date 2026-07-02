@@ -2,7 +2,7 @@
 id: 0a519e2f-1364-9597-2cbd-34e5f6789012
 summary_for_tutor: "Teaches the chapter's role-specific calls to action from the second section of Chapter 14. Students read the calls to governments, elected officials, skeptical politicians, journalists, and ordinary citizens, then distinguish the specific levers each group holds that the others cannot provide."
 title: "Role-Specific Action"
-tldr: "Governments, politicians, journalists, and citizens each hold a lever that others can't pull — and the chapter's final ask is that each group pull theirs."
+tldr: "Governments, politicians, journalists, and citizens each hold a lever that others can't {--{"author":"Elias's AI","timestamp":1783025614047}@@pull — and the--}{++{"author":"Elias's AI","timestamp":1783025614047}@@pull. The++} chapter's final ask is that each group pull theirs."
 authors:
   - Chris+Claude
 tags:
@@ -22,11 +22,11 @@ Return here after reading.
 ---
 
 \## Phase 1: Recall
-Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
+Spend 2 minutes writing down everything you can remember from the {--{"author":"Elias's AI","timestamp":1783025619403}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025619403}@@reading,++} without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
 min-messages:: 1
-instructions:: The student has just finished reading the second section of Chapter 14 of "If Anyone Builds It, Everyone Dies" and has written a free recall — everything they could remember without looking back at the text.
+instructions:: The student has just finished reading the second section of Chapter 14 of "If Anyone Builds It, Everyone Dies" and has written a free {--{"author":"Elias's AI","timestamp":1783025624085}@@recall —--}{++{"author":"Elias's AI","timestamp":1783025624085}@@recall:++} everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
 - Government leaders: signal openness to a treaty framework; the goal is not a unilateral halt but expressing willingness so other major powers won't feel disadvantaged by agreeing
@@ -37,7 +37,7 @@ Key concepts covered in this section:
 - Ordinary citizens: write representatives, vote especially in primaries, join large and lawful protests, talk about it
 - YouGov polling: 69% of U.S. voters support AI regulation as dangerous technology; 60% of U.K. voters support laws against creating ASI; 63% support prohibition of AIs that make smarter AIs
 - Why not boycott AI tools: personal abstention gives negligible collective gain at large personal cost
-- C.S. Lewis quote: live well under the shadow of annihilation — don't cower, but don't ignore the threat
+- C.S. Lewis quote: live well under the shadow of {--{"author":"Elias's AI","timestamp":1783025629774}@@annihilation —--}{++{"author":"Elias's AI","timestamp":1783025629774}@@annihilation;++} don't cower, but don't ignore the threat
 
 Your role in this phase is diagnostic, not instructional. Act as a brief, honest mirror.
 

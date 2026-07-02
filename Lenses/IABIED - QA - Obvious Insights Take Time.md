@@ -10,7 +10,7 @@ tags:
 
 #### Text
 content::
-This extended discussion shows how "obvious" AI insights — like dividing initial weights by a constant, or using max(x,0) instead of sigmoid — took decades to discover despite their simplicity. The implication: we cannot rely on researchers finding safety solutions quickly, even if those solutions turn out to be simple in retrospect.
+This extended discussion shows how "obvious" AI insights {--{"author":"Elias's AI","timestamp":1783025324837}@@— like--}{++{"author":"Elias's AI","timestamp":1783025324837}@@(like++} dividing initial weights by a constant, or using max(x,0) instead of {--{"author":"Elias's AI","timestamp":1783025324837}@@sigmoid —--}{++{"author":"Elias's AI","timestamp":1783025324837}@@sigmoid)++} took decades to discover despite their simplicity. The implication: we cannot rely on researchers finding safety solutions quickly, even if those solutions turn out to be simple in retrospect.
 
 #### Article
 source:: [[../articles/iabied-ch2-ext-obvious-insights]]
@@ -26,7 +26,7 @@ The student just read a supplementary Q&A from the book's website about how "obv
 TLDR: Simple ideas like proper weight initialization and ReLU took decades to discover despite being obvious in retrospect. This means we cannot assume safety researchers will find solutions quickly. If stumbling ahead risks everyone's death, the argument goes, we should stop until we figure it out.
 
 Discussion topics:
-- The parallel between capability insights and safety insights — if capability breakthroughs took decades, should we expect safety breakthroughs to take equally long?
+- The parallel between capability insights and safety {--{"author":"Elias's AI","timestamp":1783025326738}@@insights —--}{++{"author":"Elias's AI","timestamp":1783025326738}@@insights:++} if capability breakthroughs took decades, should we expect safety breakthroughs to take equally long?
 - The authors suggest shutting down AI development if safety can't be guaranteed in advance. Is this realistic, and what would it look like in practice?
 
 Ask what they found surprising or new.

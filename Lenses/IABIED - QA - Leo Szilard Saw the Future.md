@@ -23,7 +23,7 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about Leo Szilard's early recognition of nuclear chain reactions and the parallels to AI.
 
-TLDR: Szilard saw the possibility of nuclear chain reactions in 1933, but even Fermi initially dismissed it. Rabi's key insight — "10 percent is not a remote possibility if it means that we may die of it" — illustrates why low-probability catastrophic risks demand serious attention.
+TLDR: Szilard saw the possibility of nuclear chain reactions in 1933, but even Fermi initially dismissed it. Rabi's key insight {--{"author":"Elias's AI","timestamp":1783025334498}@@—--}{++{"author":"Elias's AI","timestamp":1783025334498}@@illustrates why low-probability catastrophic risks demand serious attention:++} "10 percent is not a remote possibility if it means that we may die of {--{"author":"Elias's AI","timestamp":1783025334498}@@it" — illustrates why low-probability catastrophic risks demand serious attention.--}{++{"author":"Elias's AI","timestamp":1783025334498}@@it."++}
 
 Discussion topics:
 - Fermi was one of the greatest physicists alive and still dismissed the idea initially. What does this suggest about relying on expert intuition for novel risks?

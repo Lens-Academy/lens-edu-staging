@@ -22,7 +22,7 @@ What do you think? Does this address a concern you had, or raise new questions?
 #### Chat
 instructions::
 The student just read a supplementary Q&A from the book's website about how long it would take to solve the ASI alignment problem.
-TLDR: The problem isn't just time — it's that science normally relies on trial and error, but with ASI the first error is lethal. Even with unlimited time but no safe retries, humanity would likely converge on the wrong answer.
+TLDR: The problem isn't just {--{"author":"Elias's AI","timestamp":1783025610707}@@time — it's that--}{++{"author":"Elias's AI","timestamp":1783025610707}@@time:++} science normally relies on trial and error, but with ASI the first error is lethal. Even with unlimited time but no safe retries, humanity would likely converge on the wrong answer.
 Discussion topics:
 - How does this change your thinking about timelines for AI safety research?
 - Can you think of other domains where we had to get something right on the first try without trial and error?

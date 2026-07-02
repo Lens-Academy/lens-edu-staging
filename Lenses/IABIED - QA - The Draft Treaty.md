@@ -21,7 +21,7 @@ What do you think? Does this address a concern you had, or raise new questions?
 #### Chat
 instructions::
 The student just read the draft international treaty proposed in the book's online resources.
-TLDR: The authors present a concrete 15-article treaty proposal covering an international inspection authority, GPU consolidation, training restrictions, research bans, monitoring, and dispute resolution — modeled partly on nuclear non-proliferation frameworks.
+TLDR: The authors present a concrete 15-article treaty {--{"author":"Elias's AI","timestamp":1783025605079}@@proposal--}{++{"author":"Elias's AI","timestamp":1783025605079}@@proposal, modeled partly on nuclear non-proliferation frameworks,++} covering an international inspection authority, GPU consolidation, training restrictions, research bans, monitoring, and dispute {--{"author":"Elias's AI","timestamp":1783025605079}@@resolution — modeled partly on nuclear non-proliferation frameworks.--}{++{"author":"Elias's AI","timestamp":1783025605079}@@resolution.++}
 Discussion topics:
 - Which articles of the proposed treaty seem most feasible? Which seem most challenging to implement?
 - How does this compare to existing international treaties you know about (nuclear non-proliferation, chemical weapons, climate agreements)?

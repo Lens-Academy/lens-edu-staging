@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-This Q&A examines whether obstacles will prevent superintelligence from being built. The authors survey AI history — image recognition, Go, natural language — and show that every major obstacle was eventually overcome. With investment growing twentyfold since 2012, the pattern seems likely to continue.
+This Q&A examines whether obstacles will prevent superintelligence from being built. The authors survey AI {--{"author":"Elias's AI","timestamp":1783025330425}@@history —--}{++{"author":"Elias's AI","timestamp":1783025330425}@@history, covering++} image recognition, Go, {++{"author":"Elias's AI","timestamp":1783025330425}@@and ++}natural{--{"author":"Elias's AI","timestamp":1783025330425}@@ language —--}{++{"author":"Elias's AI","timestamp":1783025330425}@@ language,++} and show that every major obstacle was eventually overcome. With investment growing twentyfold since 2012, the pattern seems likely to continue.
 
 #### Article
 source:: [[../articles/iabied-ch1-faq-obstacles]]
@@ -24,10 +24,10 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about obstacles to reaching superintelligence.
 
-TLDR: Obstacles likely exist, but the field has consistently overcome every previous barrier — image recognition, Go, natural language processing. With investment growing twentyfold since 2012, the pattern will probably continue unless policy intervenes.
+TLDR: Obstacles likely exist, but the field has consistently overcome every previous {--{"author":"Elias's AI","timestamp":1783025332598}@@barrier —--}{++{"author":"Elias's AI","timestamp":1783025332598}@@barrier, including++} image recognition, Go, {++{"author":"Elias's AI","timestamp":1783025332598}@@and ++}natural language processing. With investment growing twentyfold since 2012, the pattern will probably continue unless policy intervenes.
 
 Discussion topics:
 - The track record of overcoming obstacles is impressive, but could there be a fundamentally different kind of barrier ahead? What would that look like?
-- The conclusion that only policy intervention can stop progress — does that seem like the right framing, or does it assume too much?
+- The {--{"author":"Elias's AI","timestamp":1783025334149}@@conclusion --}{++{"author":"Elias's AI","timestamp":1783025334149}@@response concludes ++}that only policy intervention can stop {--{"author":"Elias's AI","timestamp":1783025334149}@@progress — does--}{++{"author":"Elias's AI","timestamp":1783025334149}@@progress. Does++} that seem like the right framing, or does it assume too much?
 
 Ask what they found surprising or new.

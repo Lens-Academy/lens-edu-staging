@@ -1,6 +1,6 @@
 ---
 id: 54290b6a-9a17-4399-9003-90352321739e
-summary_for_tutor: "Teaches the closing position of Chapter 10 — 'NOBODY SHOULD BE ALLOWED TO TRY' — as a logical conclusion from the cumulative weight of the five curses, distinguished sharply from despair. This is the load-bearing emotional-register calibration of M5: students who read the closing as despair miss the arc and arrive at M6 unprepared for the agency pivot. Students should end this Lens able to articulate the despair / position-statement distinction in their own words and identify what *kind* of action a position-statement of this form points toward."
+summary_for_tutor: "Teaches the closing position of Chapter {--{"author":"Elias's AI","timestamp":1783025327498}@@10 —--}{++{"author":"Elias's AI","timestamp":1783025327498}@@10,++} 'NOBODY SHOULD BE ALLOWED TO {--{"author":"Elias's AI","timestamp":1783025327498}@@TRY' —--}{++{"author":"Elias's AI","timestamp":1783025327498}@@TRY,'++} as a logical conclusion from the cumulative weight of the five curses, distinguished sharply from despair. This is the load-bearing emotional-register calibration of M5: students who read the closing as despair miss the arc and arrive at M6 unprepared for the agency pivot. Students should end this Lens able to articulate the despair / position-statement distinction in their own words and identify what *kind* of action a position-statement of this form points toward."
 title: "Position Not Despair"
 tldr: "Chapter 10 closes with 'NOBODY SHOULD BE ALLOWED TO TRY.' This is a logical conclusion, not {--{"author":"Elias's AI","timestamp":1783025257617}@@fatalism —--}{++{"author":"Elias's AI","timestamp":1783025257617}@@fatalism,++} and the difference matters."
 authors:
@@ -143,7 +143,7 @@ What to do in each reply:
 Calibration summary (on close):
 - Name what the student demonstrated clearly.
 - Name what remains underdeveloped or uncertain.
-- Give a direct test-readiness verdict: "Based on this conversation, you [are ready / are nearly ready — revisit X / should work through X more before the test]."
+- Give a direct test-readiness verdict: "Based on this conversation, you [are ready / are nearly {--{"author":"Elias's AI","timestamp":1783025305123}@@ready —--}{++{"author":"Elias's AI","timestamp":1783025305123}@@ready,++} revisit X / should work through X more before the test]."
 
 Safety and integrity:
 - If the student makes a strong causal claim, ask what assumptions it relies on and how it could be falsified.
@@ -167,4 +167,4 @@ content::
 
 ::card[[../Lenses/IABIED - QA - Slow AI Integration]]
 
-> Whether a slower, more cautious deployment of AI capabilities would relax the curses enough to make the attempt safe — or whether the curses are structurally invariant to deployment speed.
+> Whether a slower, more cautious deployment of AI capabilities would relax the curses enough to make the attempt {--{"author":"Elias's AI","timestamp":1783025306952}@@safe —--}{++{"author":"Elias's AI","timestamp":1783025306952}@@safe,++} or whether the curses are structurally invariant to deployment speed.

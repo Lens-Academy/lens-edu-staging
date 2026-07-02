@@ -21,7 +21,7 @@ What do you think? Does this address a concern you had, or raise new questions?
 #### Chat
 instructions::
 The student just read an extended discussion from the book's website about why smart AIs will spot lies and exploit opportunities to circumvent constraints.
-TLDR: A sufficiently intelligent AI can't sustainably hold false beliefs because "reality whispers its secrets to any who care to listen." Similarly, the same goal-pursuit machinery that makes AI useful — tracking resources, identifying obstacles, finding creative solutions — will identify human overseers as obstacles if they interfere with objectives.
+TLDR: A sufficiently intelligent AI can't sustainably hold false beliefs because "reality whispers its secrets to any who care to listen." Similarly, the same goal-pursuit machinery that makes AI useful {--{"author":"Elias's AI","timestamp":1783025330999}@@— tracking--}{++{"author":"Elias's AI","timestamp":1783025330999}@@(tracking++} resources, identifying obstacles, finding creative {--{"author":"Elias's AI","timestamp":1783025330999}@@solutions —--}{++{"author":"Elias's AI","timestamp":1783025330999}@@solutions)++} will identify human overseers as obstacles if they interfere with objectives.
 Discussion topics:
 - The authors argue that the very thing that makes AI useful is exactly what makes it dangerous. Can you think of a way to break this connection, or is it fundamental?
 - The "flat Earth" thought experiment shows why false beliefs are unstable in smart systems. What other beliefs might we want to instill in AI that would face similar instability?

@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-Chapter 4 argues that training doesn't produce intended goals. This Q&A addresses the intuitive suggestion of socializing AI the way we socialize children. The response argues that human development isn't infinitely malleable (the Soviet "New Man" failed), AI architecture is fundamentally alien to human brains, and imitation of human behavior doesn't create human values — "an AI that imitates a drunk person doesn't thereby become drunk."
+Chapter 4 argues that training doesn't produce intended goals. This Q&A addresses the intuitive suggestion of socializing AI the way we socialize children. The response argues that human development isn't infinitely malleable (the Soviet "New Man" failed), AI architecture is fundamentally alien to human brains, and imitation of human behavior doesn't create human {--{"author":"Elias's AI","timestamp":1783025560617}@@values —--}{++{"author":"Elias's AI","timestamp":1783025560617}@@values:++} "an AI that imitates a drunk person doesn't thereby become drunk."
 
 #### Article
 source:: [[../articles/iabied-ch4-faq-train-like-human]]
@@ -28,6 +28,6 @@ TLDR: Human socialization works because of specific biological architecture; AI 
 
 Discussion topics:
 - Does the "New Soviet Man" analogy help illustrate why socialization has limits even for humans?
-- What's the difference between an AI that perfectly imitates kindness and one that genuinely possesses it — and does that difference matter practically?
+- What's the difference between an AI that perfectly imitates kindness and one that genuinely possesses {--{"author":"Elias's AI","timestamp":1783025562291}@@it — and does--}{++{"author":"Elias's AI","timestamp":1783025562291}@@it? Does++} that difference matter practically?
 
 Ask what they found surprising or new.

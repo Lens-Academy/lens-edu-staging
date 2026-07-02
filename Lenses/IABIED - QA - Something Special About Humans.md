@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-This Q&A argues that human uniqueness is unlikely and not especially relevant to AI risk. Even if some human capabilities are hard to replicate, AI could achieve equivalent results through different methods — just as Deep Blue played chess through completely different mechanisms than Kasparov. What matters is capability, not similarity.
+This Q&A argues that human uniqueness is unlikely and not especially relevant to AI risk. Even if some human capabilities are hard to replicate, AI could achieve equivalent results through different {--{"author":"Elias's AI","timestamp":1783025600528}@@methods — just as Deep Blue--}{++{"author":"Elias's AI","timestamp":1783025600528}@@methods. Deep Blue, for example,++} played chess through completely different mechanisms than Kasparov. What matters is capability, not similarity.
 
 #### Article
 source:: [[../articles/iabied-ch1-faq-special-humans]]

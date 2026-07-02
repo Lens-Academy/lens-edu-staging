@@ -27,7 +27,7 @@ The student just read a supplementary Q&A from the book's website about how AI t
 TLDR: AIs can learn general skills from data and execute them faster and more accurately. The Tycho Brahe analogy shows how predicting observations could lead to discovering underlying laws the original observer never found. AlphaGo Zero proved human data isn't even necessary.
 
 Discussion topics:
-- The Tycho Brahe analogy — does predicting someone's observations really incentivize discovering the laws behind those observations?
+- The Tycho Brahe {--{"author":"Elias's AI","timestamp":1783025603055}@@analogy —--}{++{"author":"Elias's AI","timestamp":1783025603055}@@analogy:++} does predicting someone's observations really incentivize discovering the laws behind those observations?
 - AlphaGo Zero succeeded without human data in Go. Do you think similar approaches could work for less structured domains?
 
 Ask what they found surprising or new.

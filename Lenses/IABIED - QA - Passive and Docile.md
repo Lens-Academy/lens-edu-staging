@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-Chapter 3 addresses the intuitive solution of simply making AIs more passive. This Q&A explains why passivity fundamentally conflicts with usefulness, and why engineers lack the fine-grained control needed to achieve docility even if they wanted to—illustrated by embarrassing failures like Grok's "MechaHitler" incident.
+Chapter 3 addresses the intuitive solution of simply making AIs more passive. This Q&A explains why passivity fundamentally conflicts with usefulness, and why engineers lack the fine-grained control needed to achieve docility even if they wanted {--{"author":"Elias's AI","timestamp":1783025332895}@@to—illustrated by embarrassing--}{++{"author":"Elias's AI","timestamp":1783025332895}@@to. Embarrassing++} failures like Grok's "MechaHitler" {--{"author":"Elias's AI","timestamp":1783025332895}@@incident.--}{++{"author":"Elias's AI","timestamp":1783025332895}@@incident illustrate the point.++}
 
 #### Article
 source:: [[../articles/iabied-ch3-faq-passive-docile]]
@@ -24,7 +24,7 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about whether we can train AIs to be passive and docile.
 
-TLDR: Passivity conflicts with usefulness—labs retrain lazy AIs to push harder. Engineers lack fine-grained behavioral control, producing unintended results like Grok's "MechaHitler." The capability-controllability tension may be fundamental.
+TLDR: Passivity conflicts with {--{"author":"Elias's AI","timestamp":1783025334481}@@usefulness—labs--}{++{"author":"Elias's AI","timestamp":1783025334481}@@usefulness: labs++} retrain lazy AIs to push harder. Engineers lack fine-grained behavioral control, producing unintended results like Grok's "MechaHitler." The capability-controllability tension may be fundamental.
 
 Discussion topics:
 - Is there a way to have AIs that are both highly capable and reliably passive, or is this an inherent contradiction?
