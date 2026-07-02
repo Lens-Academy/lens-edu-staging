@@ -2,7 +2,7 @@
 id: 8f349745-2ea7-4f34-8146-6aff150a5e8d
 summary_for_tutor: "Teaches the strong-superalignment objection from the second half of Chapter 11: using a smarter-than-human AI to solve alignment fails because the AI capable of doing so would itself be untrustworthy and dangerous, and a 'special-purpose alignment AI' rebuttal fails on no-training-examples + dangerous-skill-set + verification grounds. Students should end this Lens able to articulate the capability-paradox argument and explain why it doesn't reduce to ordinary engineering difficulty."
 title: "Strong Superalignment Objection"
-tldr: "OpenAI's flagship plan was 'use AI to solve alignment.' The plan contains a paradox that Chapter 11 walks through carefully — and the workaround doesn't work either."
+tldr: "OpenAI's flagship plan was 'use AI to solve alignment.' The plan contains a paradox that Chapter 11 walks through {--{"author":"Elias's AI","timestamp":1783025860948}@@carefully —--}{++{"author":"Elias's AI","timestamp":1783025860948}@@carefully,++} and the workaround doesn't work either."
 authors:
   - Yatharth+Claude
 tags:
@@ -23,19 +23,19 @@ Return here after reading.
 ---
 
 \## Phase 1: Recall
-Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
+Spend 2 minutes writing down everything you can remember from the {--{"author":"Elias's AI","timestamp":1783025866006}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025866006}@@reading,++} without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
 min-messages:: 1
 instructions:: The student has just read the second half of Chapter 11 of "If Anyone Builds It, Everyone Dies."
 
-Learning outcome for this Lens: Describe the strong version of superalignment as Chapter 11 presents it — using a smarter-than-human AI to solve the alignment problem — and state the chapter's two-step objection: (1) the AI capable of doing this would itself be too dangerous and untrustworthy, and (2) a "special-purpose" alignment AI has no training examples of solved alignment and requires the precise dangerous skill set that makes an unaligned AI catastrophic.
+Learning outcome for this Lens: Describe the strong version of superalignment as Chapter 11 presents it {--{"author":"Elias's AI","timestamp":1783025874640}@@— using--}{++{"author":"Elias's AI","timestamp":1783025874640}@@(using++} a smarter-than-human AI to solve the alignment {--{"author":"Elias's AI","timestamp":1783025874640}@@problem —--}{++{"author":"Elias's AI","timestamp":1783025874640}@@problem),++} and state the chapter's two-step objection: (1) the AI capable of doing this would itself be too dangerous and untrustworthy, and (2) a "special-purpose" alignment AI has no training examples of solved alignment and requires the precise dangerous skill set that makes an unaligned AI catastrophic.
 
 Key concepts:
-- Weak superalignment: use AI to automate the tedious parts of interpretability research. Objection: reading some of an AI's mind is not a plan for aligning it — diagnosis is not treatment.
+- Weak superalignment: use AI to automate the tedious parts of interpretability research. Objection: reading some of an AI's mind is not a plan for aligning {--{"author":"Elias's AI","timestamp":1783025879322}@@it —--}{++{"author":"Elias's AI","timestamp":1783025879322}@@it:++} diagnosis is not treatment.
 - Strong superalignment: use a smarter-than-human AI to solve the alignment problem on humanity's behalf.
-- Capability paradox: to solve alignment you'd need an AI that exceeds humanity's geniuses — and you can't safely build or trust such an AI before alignment is solved. The plan requires having already done the thing it promises to do.
-- The "special-purpose alignment AI" rebuttal fails: no training examples of solved alignment exist; the skills required (programming, growing AIs, AI preferences, human psychology) are the dangerous skill set; and an alignment proposal it hands you cannot be verified — you'd have to trust it or be persuaded by its arguments.
+- Capability paradox: to solve alignment you'd need an AI that exceeds humanity's {--{"author":"Elias's AI","timestamp":1783025887104}@@geniuses —--}{++{"author":"Elias's AI","timestamp":1783025887104}@@geniuses,++} and you can't safely build or trust such an AI before alignment is solved. The plan requires having already done the thing it promises to do.
+- The "special-purpose alignment AI" rebuttal fails: no training examples of solved alignment exist; the skills required (programming, growing AIs, AI preferences, human psychology) are the dangerous skill set; and an alignment proposal it hands you cannot be {--{"author":"Elias's AI","timestamp":1783025892950}@@verified —--}{++{"author":"Elias's AI","timestamp":1783025892950}@@verified:++} you'd have to trust it or be persuaded by its arguments.
 - The biomedical-AI contrast: a bio-AI is at least not thinking about how to make better AIs, so its outputs can be checked with separate, narrower tools; strong superalignment has no such checker.
 
 The student has completed the reading and has written a free recall — everything they could remember without looking back at the text.
