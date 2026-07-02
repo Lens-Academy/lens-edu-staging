@@ -2,7 +2,7 @@
 id: 3fa0362c-609b-45bc-bca6-8d68eb5bb3ed
 title: "Can AI Scaling Continue Through 2030?"
 tldr: "Power, chips, data, money. Epoch AI asks which physical constraint bites first, and finds AI scaling can probably keep going through 2030."
-summary_for_tutor: "Covers Epoch AI's analysis of whether the four main inputs to AI scaling (power, chips, training data, and funding) can keep growing through 2030, and which constraint would bite first. This is an external-link lens: no imported article yet, the reader follows the link to Epoch's site. An optional Week 1 reading."
+summary_for_tutor: "Covers Epoch AI's analysis of whether the four main inputs to AI scaling (power, chips, training data, and funding) can keep growing through 2030, and which constraint would bite first. This is an external-link lens: {--{"author":"Elias's AI","timestamp":1783018366202}@@no imported article yet, --}the reader follows the link to Epoch's site. An optional Week 1 reading."
 ---
 
 #### Text
