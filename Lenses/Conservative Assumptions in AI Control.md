@@ -1,7 +1,8 @@
 ---
 id: 55ed8f7d-044d-41d1-8c31-a8e5818a33c2
 title: "Conservative Assumptions in AI Control"
-tldr: Control evaluations assume the AI is a perfectly coordinated adversary that knows your whole protocol. Obviously too pessimistic — so why do it, what does the conservatism buy, and when should the assumptions be relaxed to unlock cheaper safety measures?
+tldr: Control evaluations assume the AI is a perfectly coordinated adversary that knows your whole protocol. Obviously too pessimistic — so why do it, what does the conservatism buy, and when should the assumptions be relaxed to unlock cheaper safety measures?{++{"author":"Elias's AI","timestamp":1782994593241}@@
+summary_for_tutor: "Covers Shlegeris's examination of the deliberately conservative assumptions in control evaluations (the AI knows the protocol, coordinates perfectly across instances, picks the optimal attack): why conservatism gives robust guarantees and simplifies evaluation, where it's too conservative (real schemers face uncertainty, coordination limits, exploration hacking constraints), and how relaxing specific assumptions could unlock cheaper safety measures."++}
 ---
 
 #### Text
