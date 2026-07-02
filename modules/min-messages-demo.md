@@ -14,7 +14,7 @@ Add `min-messages::` to a segment to change that:
 - On a `#### Chat`, `min-messages:: 2` means the learner must send at least 2 messages in this page's tutor chat before "Mark section complete" works. All messages on the page count, wherever they were sent.
 - On a `#### Question`, `min-messages:: 3` means one completed answer plus 2 follow-up replies in the question's feedback conversation. This only makes sense together with `feedback:: true` (the validator warns you otherwise).
 - `min-messages:: 0` on a question makes it skippable.
-- {--{"author":"Elias's AI","timestamp":1783013081667}@@Anything--}{++{"author":"Elias's AI","timestamp":1783013081667}@@Whole lenses++} marked `optional:: true` never {--{"author":"Elias's AI","timestamp":1783013081667}@@blocks--}{++{"author":"Elias's AI","timestamp":1783013081667}@@block++} completion.{++{"author":"Elias's AI","timestamp":1783013081667}@@ (`optional` is a lens-level field; on chat and question segments use `min-messages` instead.)++}
+- Whole lenses marked `optional:: true` never block completion. (`optional` is a lens-level field; on chat and question segments use `min-messages` instead.)
 
 What learners see: clicking "Mark section complete" too early rejects the click, scrolls to the first missing interaction, and shows a small pill explaining what is needed. The pill disappears as soon as they make progress and only comes back if they try to complete again too early.
 
