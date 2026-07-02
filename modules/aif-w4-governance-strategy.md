@@ -56,29 +56,29 @@ source:: [[../Lenses/Situational Awareness]]
 source:: [[../Lenses/ASI Deterrence]]
 
 ## Lens:
-source:: [[../Lenses/AIF - Manhattan Project for AGI]]
+source:: [[../Lenses/Manhattan Project for AGI]]
 
 # Submodule: US policy
 slug:: us-policy
 
 ## Lens:
-source:: [[../Lenses/AIF - US AI Policy Snapshot]]
+source:: [[../Lenses/US AI Policy Snapshot]]
 
 # Submodule: China
 slug:: china
 
 ## Lens:
-source:: [[../Lenses/AIF - How China Views AI Risks]]
+source:: [[../Lenses/How China Views AI Risks]]
 
 ## Lens:
-source:: [[../Lenses/AIF - China Compute and Frontier Lag]]
+source:: [[../Lenses/China Compute and Frontier Lag]]
 
 ## Lens:
-source:: [[../Lenses/AIF - The 2017 AGI Plan Myth]]
+source:: [[../Lenses/The 2017 AGI Plan Myth]]
 
 # Submodule: Optional readings
 slug:: optional-readings
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/AIF - W4 Optional Readings]]
+source:: [[../Lenses/Optional readings - Governance and strategy]]

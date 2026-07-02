@@ -19,32 +19,32 @@ Each lens below is one topic: a curated set of links with enough context to deci
 
 # Lens:
 optional:: true
-source:: [[../Lenses/AIF - Extended - Trading with AIs]]
+source:: [[../Lenses/Trading with AIs]]
 
 # Lens:
 optional:: true
-source:: [[../Lenses/AIF - Extended - Power Concentration and Coups]]
+source:: [[../Lenses/Power Concentration and Coups]]
 
 # Lens:
 optional:: true
-source:: [[../Lenses/AIF - Extended - Acausal Cooperation]]
+source:: [[../Lenses/Acausal Cooperation]]
 
 # Lens:
 optional:: true
-source:: [[../Lenses/AIF - Extended - Moral Patienthood]]
+source:: [[../Lenses/Moral Patienthood]]
 
 # Lens:
 optional:: true
-source:: [[../Lenses/AIF - Extended - AI Biorisk and Other X-Risk]]
+source:: [[../Lenses/AI Biorisk and Other X-Risk]]
 
 # Lens:
 optional:: true
-source:: [[../Lenses/AIF - Extended - Model Specs and AI Character]]
+source:: [[../Lenses/Model Specs and AI Character]]
 
 # Lens:
 optional:: true
-source:: [[../Lenses/AIF - Extended - Better Futures]]
+source:: [[../Lenses/Better Futures]]
 
 # Lens:
 optional:: true
-source:: [[../Lenses/AIF - Extended - Space Governance]]
+source:: [[../Lenses/Space Governance]]
