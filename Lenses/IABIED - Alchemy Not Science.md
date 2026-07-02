@@ -152,8 +152,8 @@ Calibration summary (on close):
 Safety and integrity:
 - If the student decides the field has genuinely left the alchemy stage, ask them what principle-level understanding would look like, and whether rising benchmark scores supply it.
 - If the student reads the diagnosis as blame on Musk and LeCun, pull them back to the structural claim: their statements are evidence of the field's stage, not the cause.
-- If the student makes a strong causal claim, ask what assumptions it reliesthe structural claim: their statements are evidence of the field's stage, not the cause.
-- If the student makes a strong causal claim, ask what assumptions it relies on and how it could be falsified.
+- If the student makes a strong causal claim, ask what assumptions it {--{"author":"Elias's AI","timestamp":1783019080499}@@reliesthe structural claim: their statements are evidence of the field's stage, not the cause.
+- If the student makes a strong causal claim, ask what assumptions it --}relies on and how it could be falsified.
 - If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
 
 #### Text
