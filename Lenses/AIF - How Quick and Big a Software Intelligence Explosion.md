@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783012675520}@@---
+---
 id: 7967152a-713a-44a1-97df-867dbe7c6ef1
 title: "How Quick and Big Would a Software Intelligence Explosion Be?"
 tldr: Davidson and Houlden model the software intelligence explosion. About 60% chance it compresses over 3 years of AI progress into under one year, but a bigger blowup is far from certain.
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - After playing with the web app, what median takeoff did the learner's parameters produce, and which parameter moved it most?
 - How does this model differ from the AI Futures Project's takeoff model, in structure and in headline forecast?
 - The model holds compute fixed and simulates only software progress: how much does that assumption shape the result?
-++}

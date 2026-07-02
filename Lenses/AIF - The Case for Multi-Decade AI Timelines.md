@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783012640800}@@---
+---
 id: 66668d7c-d838-4043-9b68-73b3d6f18a56
 title: "The Case for Multi-Decade AI Timelines"
 tldr: Epoch's Ege Erdil argues transformative AI is likely decades off, not years. His median: ~20 years to full remote-work automation, from trend extrapolation and doubts about a software-only singularity.
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - Which of Erdil's three cruxes (trend choice, the software singularity, Moravec's paradox) does the learner find most and least persuasive?
 - Is NVIDIA revenue a good proxy for progress toward remote-work automation, or does it bake in assumptions?
 - How much does the disagreement with short-timelines people come down to evidence versus differing priors about bottlenecks?
-++}

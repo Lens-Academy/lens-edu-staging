@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783012541242}@@---
+---
 id: c204e397-0350-4ef7-9242-df70d206da0c
 title: "Does AI Progress Have a Speed Limit?"
 tldr: Ajeya Cotra and Arvind Narayanan disagree carefully about almost everything this week covered: how fast AI improves, what the trends mean, and where the real bottlenecks are.
@@ -17,4 +17,3 @@ Discussion topics to explore:
 - Where exactly do Cotra and Narayanan disagree, and which of their cruxes is most load-bearing for timelines?
 - How much should benchmark progress update us about real-world automation, given the gaps each of them points to?
 - Which speaker's picture better fits the recent evidence from this week's other readings (SWE tasks, affordability, uplift claims)?
-++}

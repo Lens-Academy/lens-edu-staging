@@ -3,7 +3,7 @@ title: "The case for multi-decade AI timelines"
 author:
   - "Ege Erdil"
 source_url: "https://epoch.ai/gradient-updates/the-case-for-multi-decade-ai-timelines"
-published: {--{"author":"Elias's AI","timestamp":1783012580481}@@2026-07-02--}{++{"author":"Elias's AI","timestamp":1783012580481}@@2025-04-26++}
+published: 2025-04-26
 created: 2026-07-02
 accessed: 2026-07-02
 description: "In this Gradient Updates weekly issue, Ege discusses the case for multi-decade AI timelines."

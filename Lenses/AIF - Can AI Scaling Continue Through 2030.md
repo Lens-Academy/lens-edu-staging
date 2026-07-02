@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783012631879}@@---
+---
 id: 3fa0362c-609b-45bc-bca6-8d68eb5bb3ed
 title: "Can AI Scaling Continue Through 2030?"
 tldr: "Power, chips, data, money. Epoch AI asks which physical constraint bites first, and finds AI scaling can probably keep going through 2030."
@@ -17,4 +17,3 @@ Discussion topics to explore:
 - Of power, chips, data, and money, which constraint do you find most likely to bind first, and why?
 - The report treats data as a soft limit (synthetic data, multimodal sources): how convincing is that?
 - How do these physical scaling limits interact with the software-driven takeoff models from earlier this week?
-++}

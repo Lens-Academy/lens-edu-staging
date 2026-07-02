@@ -1,9 +1,9 @@
 ---
 title: "Broad Timelines"
 author:
-  - {--{"author":"Elias's AI","timestamp":1783012589730}@@"Greaterwrong"--}{++{"author":"Elias's AI","timestamp":1783012589730}@@"Toby Ord"++}
-source_url: {--{"author":"Elias's AI","timestamp":1783012589730}@@"https://www.greaterwrong.com/posts/6pDMLYr7my2QMTz3s/broad-timelines"--}{++{"author":"Elias's AI","timestamp":1783012589730}@@"https://www.lesswrong.com/posts/6pDMLYr7my2QMTz3s/broad-timelines"++}
-published: {--{"author":"Elias's AI","timestamp":1783012589730}@@2026-05-05--}{++{"author":"Elias's AI","timestamp":1783012589730}@@2026-03-19++}
+  - "Toby Ord"
+source_url: "https://www.lesswrong.com/posts/6pDMLYr7my2QMTz3s/broad-timelines"
+published: 2026-03-19
 created: 2026-07-02
 accessed: 2026-07-02
 description: "No-one knows when AI will begin having transformative impacts upon the world. People aren’t sure and shouldn’t be sure: there just isn’t enough evidence to pin it down.  But we don’t need to wait for certainty. I want to explore what happens if we take our uncertainty seriously — if we act with epistemic humility. What does wise planning look like in a world of deeply uncertain AI timelines?  I’ll conclude that taking the uncertainty seriously has real implications for how one can contribute to making this AI transition go well. And it has even more implications for how we act together — for our portfolio of work aimed towards this end."

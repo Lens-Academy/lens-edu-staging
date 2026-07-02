@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783012619583}@@---
+---
 id: 6e6adb01-d00d-42f6-9862-a6a044d4c111
 title: "Compute-Centric Takeoff Speeds"
 tldr: "Tom Davidson's compute-centric model asks how long from AI automating 20% of cognitive tasks to 100%. Median answer: 3 years. Read the Long Summary."
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - The roughly 4-orders-of-magnitude effective-compute gap between 20% and 100% automation: how is it estimated, and how load-bearing is it for the 3-year median?
 - How does this compute-centric picture compare to the newer takeoff models covered earlier this week?
 - Which model inputs (rising human investment, increasing AI automation of R&D) most drive the result?
-++}

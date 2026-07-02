@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783012649217}@@---
+---
 id: 9e9bd0a3-d3b4-490a-b108-66def63e9b57
 title: "Broad Timelines"
 tldr: Toby Ord argues your AI-timeline distribution should be much wider than it feels. Deep uncertainty is the honest position, and it changes how to plan careers and strategy.
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - What concretely changes about career or strategy choices if you widen your timeline distribution?
 - Where does Ryan Greenblatt's top comment disagree, and does the learner side with Ord or Greenblatt?
 - Is "broad timelines" a substantive claim or mostly a call for humility, and does the distinction matter for action?
-++}

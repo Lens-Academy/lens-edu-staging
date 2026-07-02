@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783012666493}@@---
+---
 id: 568e949a-fb98-481c-84fb-0bdf3f189e05
 title: "Do the Returns to Software R&D Point Towards a Singularity?"
 tldr: Epoch estimates the returns-to-research parameter that decides foom vs fizzle. For software R&D it lands near, and sometimes just above, the threshold for runaway hyperbolic growth.
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - Why does the r parameter matter so much for takeoff, and what exactly does r=1 mean here?
 - How much should we trust chess or vision data as proxies for the AI R&D that would drive a software singularity?
 - The caveat that software progress may need concurrent hardware progress: how much does that undercut the singularity story?
-++}

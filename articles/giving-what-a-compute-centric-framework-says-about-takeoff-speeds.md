@@ -1,7 +1,7 @@
 ---
 title: "What a Compute-Centric Framework Says About Takeoff Speeds"
 author:
-  - {--{"author":"Elias's AI","timestamp":1783012563536}@@"Coefficient Giving"--}{++{"author":"Elias's AI","timestamp":1783012563536}@@"Tom Davidson"++}
+  - "Tom Davidson"
 source_url: "https://coefficientgiving.org/research/what-a-compute-centric-framework-says-about-takeoff-speeds/"
 published: 2025-11-18
 created: 2026-07-02

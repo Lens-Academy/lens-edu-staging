@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783012563389}@@---
+---
 id: c6e2844b-3d79-44c7-859c-b5b65a04a502
 title: "Capability Gains vs Affordability"
 tldr: Rising AI compute bills look alarming, but Woodruff shows capability gains have not come from models getting more expensive relative to human labor. Cost is not the extra bottleneck.
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - The "cost ratio" definition (AI inference cost divided by human cost for the same task): why does separating longer tasks from more expensive tasks matter so much here?
 - If affordability is not an extra bottleneck, what does that imply for extrapolating METR's capability trendlines to real-world automation?
 - Where does Woodruff think Ord's methodology goes wrong, and how much should that disagreement move your view?
-++}

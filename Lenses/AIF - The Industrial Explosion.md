@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783012646657}@@---
+---
 id: 01ac81c3-b760-4048-81cd-a7cc3fd7bb0f
 title: "The Industrial Explosion"
 tldr: "After the intelligence explosion comes the physical one. Robot factories building robot factories could double physical output in days. Three stages, from AI-directed labour to nanotech."
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - Which of the three stages seems most uncertain, or most likely to bottleneck the whole process?
 - How much does the argument rest on robot doubling times, and how credible is the estimate (roughly a year initially with current technology)?
 - Strategic implications: a fast industrial explosion could hand one nation a decisive economic and military lead. How does that change the picture from earlier readings?
-++}
