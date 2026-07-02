@@ -3,7 +3,7 @@ title: "The Industrial Explosion"
 author:
   - "Forethought"
 source_url: "https://www.forethought.org/research/the-industrial-explosion"
-published: 2026-07-02
+published: {--{"author":"Elias's AI","timestamp":1783012565860}@@2026-07-02--}{++{"author":"Elias's AI","timestamp":1783012565860}@@2025-05-21++}
 created: 2026-07-02
 accessed: 2026-07-02
 description: "Once AI can automate human labour, *physical* capabilities could grow explosively. Sufficiently advanced robotics could create a feedback loop where automated robot factories build more and better robot factories which build more and better robot factories. In this piece, we examine three stages of an **industrial explosion**: AI-directed human labour, fully automated physical labour, and nanotechnology. An industrial explosion would arise in a world which already has greatly increased cognitive capabilities, and could ultimately become extremely fast, with the amount of physical labour doubling in days."

@@ -1,9 +1,10 @@
 ---
 title: "How quick and big would a software intelligence explosion be?"
 author:
-  - "Forethought"
+  - {--{"author":"Elias's AI","timestamp":1783012591920}@@"Forethought"--}{++{"author":"Elias's AI","timestamp":1783012591920}@@"Tom Davidson"
+  - "Tom Houlden"++}
 source_url: "https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be"
-published: 2026-07-02
+published: {--{"author":"Elias's AI","timestamp":1783012591920}@@2026-07-02--}{++{"author":"Elias's AI","timestamp":1783012591920}@@2025-08-04++}
 created: 2026-07-02
 accessed: 2026-07-02
 description: "Forethought paper modeling software intelligence explosion: 60% chance of >3 years progress in <1 year."
