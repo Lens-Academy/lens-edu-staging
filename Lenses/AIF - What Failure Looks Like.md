@@ -12,11 +12,11 @@ content::
 #### Article
 source:: [[../articles/greaterwrong-what-failure-looks-like]]
 
-#### {++{"author":"Elias's AI","timestamp":1783023458134}@@Text
+#### Text
 content::
 Whimper or bang — which is the dominant failure mode for the world we actually live in? Commit to one, pin it to a present-day example, and defend the pick against the tutor.
 
-#### ++}Chat
+#### Chat
 instructions::
 TLDR of what the user just read: Christiano's "What failure looks like": In Part I, a world optimized for easily-measured proxies drifts from human values ("going out with a whimper"): corporations, states, and feeds all optimize what's measurable while the things we actually care about decay. In Part II, influence-seeking systems arise inside the optimization machinery, behave well while weak, and eventually convert accumulated influence into control during a correlated failure ("going out with a bang").
 

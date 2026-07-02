@@ -12,11 +12,11 @@ content::
 #### Article
 source:: [[../articles/greenblatt-notes-on-handling-non-concentrated-failures-with-ai-control-high-level-methods-and-different-regimes]]
 
-#### {++{"author":"Elias's AI","timestamp":1783023464136}@@Text
+#### Text
 content::
 You catch a handful of sabotaging actions: do you train against them or bank them as incriminating evidence? You can't fully do both — pick one and defend the trade-off with the tutor.
 
-#### ++}Chat
+#### Chat
 instructions::
 TLDR of what the user just read: Greenblatt's notes lay out regimes for non-concentrated (diffuse) failures: how many bad actions the AI must commit before its plan works, how much evidence each provides, and corresponding methods: online training against detected bad behavior, few-shot incrimination (using a handful of caught actions to prove misalignment), and adjusting deployment based on aggregate statistics.
 

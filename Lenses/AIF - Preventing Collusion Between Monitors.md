@@ -12,11 +12,11 @@ content::
 #### Article
 source:: [[../articles/shlegeris-how-to-prevent-collusion-when-using-untrusted-models-to-monitor-each-other]]
 
-#### {++{"author":"Elias's AI","timestamp":1783023466663}@@Text
+#### Text
 content::
 Which single anti-collusion measure — paraphrasing, honeypots, or information limits — would you actually stake the whole protocol on? Commit to one, then stress-test it with the tutor against two copies that share weights and Schelling points.
 
-#### ++}Chat
+#### Chat
 instructions::
 TLDR of what the user just read: Shlegeris analyzes untrusted monitoring: using copies of the capable-but-possibly-scheming model to monitor itself, and preventing collusion via strategies like paraphrasing inputs (destroying steganographic signals), redacting context so the monitor can't tell real actions from honeypot tests, checking monitor reports against known-bad examples, and limiting shared information that could coordinate a "let it slide" policy.
 

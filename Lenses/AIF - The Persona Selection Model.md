@@ -12,11 +12,11 @@ Anthropic's frame for where model behavior comes from: training doesn't install 
 #### Article
 source:: [[../articles/anthropic-the-persona-selection-model]]
 
-#### {++{"author":"Elias's AI","timestamp":1783023469320}@@Text
+#### Text
 content::
 "Misaligned persona" vs "misaligned goal" — a real difference, or just a relabel? Commit to whether it changes the risk picture, then defend your call against the tutor.
 
-#### ++}Chat
+#### Chat
 instructions::
 TLDR of what the user just read: Anthropic's persona selection model proposes that LLM behavior is best understood as training selecting and stabilizing personas (character-like behavioral patterns learned from pretraining data) rather than directly instilling goals; misalignment can then look like selecting or drifting into a bad persona, and interventions target which persona gets reinforced.
 

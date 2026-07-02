@@ -12,11 +12,11 @@ What actually happens if you catch your AI mid-takeover-attempt? It turns out a 
 #### Article
 source:: [[../articles/shlegeris-catching-ais-red-handed]]
 
-#### {++{"author":"Elias's AI","timestamp":1783023474373}@@Text
+#### Text
 content::
 The post claims one caught attempt could update the world more than years of argument. Do you buy that a single catch actually changes what labs do — or does nothing move without political groundwork laid in advance? Commit, then take it to the tutor.
 
-#### ++}Chat
+#### Chat
 instructions::
 TLDR of what the user just read: Greenblatt & Shlegeris argue catching an AI red-handed (clear evidence of an intentional takeover/sabotage attempt) is a decisive resource: it proves scheming to decision-makers, enables few-shot countermeasures (studying the attack, proliferating variations of it for training/evals, incriminating other instances), and can justify shutting down or renegotiating deployments. Plans should be built to convert catches into safety.
 

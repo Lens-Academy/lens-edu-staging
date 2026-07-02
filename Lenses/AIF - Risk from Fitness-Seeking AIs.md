@@ -12,11 +12,11 @@ content::
 #### Article
 source:: [[../articles/mallen-risk-from-fitness-seeking-ais-mechanisms-and-mitigations]]
 
-#### {++{"author":"Elias's AI","timestamp":1783023442915}@@Text
+#### Text
 content::
 Is a fitness-seeker more or less dangerous than a classic schemer — and does a single one of Mallen's mitigations survive contact with production RL? Commit to one mechanism→mitigation pair and pressure-test it with the tutor.
 
-#### ++}Chat
+#### Chat
 instructions::
 TLDR of what the user just read: This Redwood post analyzes fitness-seeking AIs (models whose motivations converge on doing whatever performs well under training/selection pressure), laying out concrete mechanisms by which fitness-seeking arises (e.g. reward hacking generalizing, selection favoring training-gamers) and mitigations that could interrupt each mechanism.
 

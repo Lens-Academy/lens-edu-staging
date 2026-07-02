@@ -12,11 +12,11 @@ content::
 #### Article
 source:: [[../articles/greenblatt-an-overview-of-areas-of-control-work]]
 
-#### {++{"author":"Elias's AI","timestamp":1783023450916}@@Text
+#### Text
 content::
 Of everything on this map, which area is most neglected relative to how much it matters? Pick one, plant your flag, and defend the ranking against the tutor.
 
-#### ++}Chat
+#### Chat
 instructions::
 TLDR of what the user just read: Greenblatt's overview partitions control work into areas such as: developing control protocols and countermeasures, building realistic settings/benchmarks for control evaluations, running control evaluations against red-team attack policies, science of scheming-relevant capabilities (e.g. collusion, sabotage ability), and integrating control into lab practice/safety cases.
 

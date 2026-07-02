@@ -12,11 +12,11 @@ content::
 #### Article
 source:: [[../articles/greenblatt-prioritizing-threats-for-ai-control]]
 
-#### {++{"author":"Elias's AI","timestamp":1783023452769}@@Text
+#### Text
 content::
 Concentrated or diffuse — which failure class deserves the bigger share of control effort right now? Commit to one, then argue it with the tutor.
 
-#### ++}Chat
+#### Chat
 instructions::
 TLDR of what the user just read: Greenblatt prioritizes threat models for control research: concentrated failures (a small number of catastrophic actions, e.g. weight exfiltration, rogue deployments, where catching one attempt matters hugely) vs diffuse failures (many small bad actions like subtly sabotaged research, where no single action is decisive). He argues for which threats deserve the most effort given tractability and stakes.
 

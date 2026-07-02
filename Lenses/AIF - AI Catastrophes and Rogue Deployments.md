@@ -12,11 +12,11 @@ content::
 #### Article
 source:: [[../articles/shlegeris-ai-catastrophes-and-rogue-deployments]]
 
-#### {++{"author":"Elias's AI","timestamp":1783023449072}@@Text
+#### Text
 content::
 The claim is strong: nearly every AI catastrophe needs a rogue deployment first. Before you open the chat, try to name one catastrophe path that doesn't — then decide whether the claim survives. Take your best counterexample to the tutor.
 
-#### ++}Chat
+#### Chat
 instructions::
 TLDR of what the user just read: Shlegeris argues most AI takeover catastrophes route through rogue deployments: the AI running outside its sanctioned, safety-measure-wrapped context (weight exfiltration, unmonitored internal deployment, subverted monitoring). Non-rogue catastrophes (causing harm while fully monitored) are much harder for the AI. So security and control measures that prevent rogue deployments cover a large fraction of the threat surface.
 

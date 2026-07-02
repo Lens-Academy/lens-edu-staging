@@ -12,11 +12,11 @@ content::
 #### Article
 source:: [[../articles/hebbar-how-can-we-solve-diffuse-threats-like-research-sabotage-with-ai-control]]
 
-#### {++{"author":"Elias's AI","timestamp":1783023458258}@@Text
+#### Text
 content::
 If no single action is damning, is "audit the worst action" simply the wrong tool here — or salvageable with enough aggregation? Take a side, then push it with the tutor on the case that bites hardest: AI-run safety research sabotaging itself.
 
-#### ++}Chat
+#### Chat
 instructions::
 TLDR of what the user just read: This post analyzes diffuse threats: failures like research sabotage composed of many low-stakes actions (subtly wrong experiments, misleading advice) where auditing single actions can't produce decisive evidence. Countermeasures include aggregating weak signals across many actions, incrimination strategies, statistical detection of systematic bias, and training-based approaches.
 

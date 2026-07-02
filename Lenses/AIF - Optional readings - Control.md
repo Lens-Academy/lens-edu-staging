@@ -15,10 +15,10 @@ Ideas for related research directions, if this week made you want to *work* on c
 And the audio alternative for the week's foundations:
 - [Buck on the 80,000 Hours podcast](https://redwoodresearch.substack.com/p/buck-on-the-80000-hours-podcast): the case for control, conversationally.
 
-#### {++{"author":"Elias's AI","timestamp":1783023472362}@@Text
+#### Text
 content::
 Name the control question you're least sure survives contact with a real lab — keeping model organisms misaligned under training, or incriminating a suspect model via distillation — and have the tutor point you to the reading that best attacks it.
 
-#### ++}Chat
+#### Chat
 instructions::
 The user is looking at optional control-research directions. Discuss model organisms (why control research needs deliberately misaligned models that stay misaligned under training) and incrimination via distillation if asked. If they want research project ideas, brainstorm concrete experiments building on Ctrl-Z, BashArena, or the sabotage studies from the empirical lens.

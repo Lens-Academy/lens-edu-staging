@@ -12,11 +12,11 @@ content::
 #### Article
 source:: [[../articles/greenblatt-an-overview-of-control-measures]]
 
-#### {++{"author":"Elias's AI","timestamp":1783023455959}@@Text
+#### Text
 content::
 Of the whole catalog, which single measure buys the most safety per unit of usefulness lost? Commit to one before you open the chat, then argue it against the tutor's cheaper alternatives.
 
-#### ++}Chat
+#### Chat
 instructions::
 TLDR of what the user just read: Greenblatt's overview of control measures: trusted monitoring (weaker trusted models scoring untrusted outputs), untrusted monitoring (with anti-collusion measures), human auditing of the most suspicious actions, resampling/deferring, sandboxing and least-privilege affordances, paraphrasing/information control, and security measures against exfiltration, and how measures compose into protocols.
 

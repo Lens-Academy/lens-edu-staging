@@ -12,11 +12,11 @@ The counter-argument, from John Wentworth: control research targets the wrong re
 #### Article
 source:: [[../articles/wentworth--the-case-against-ai-control-research]]
 
-#### {++{"author":"Elias's AI","timestamp":1783023442737}@@Text
+#### Text
 content::
 You've now heard both cases. Does Wentworth's "wrong regime" objection actually kill the control agenda, or just trim its ambitions? Deliver a verdict — for or against — and make the tutor try to flip it.
 
-#### ++}Chat
+#### Chat
 instructions::
 TLDR of what the user just read: Wentworth argues AI control research is misaimed: the median doom path runs through wildly superhuman AI (where control admittedly fails) or through slop/gradual failure, not through early transformative AI executing detectable takeover attempts. On his model, controlling early AIs mostly helps labs extract work while making it *feel* safe, and the "use controlled AIs to solve alignment" plan fails because we can't verify alignment research done by AIs we don't trust.
 

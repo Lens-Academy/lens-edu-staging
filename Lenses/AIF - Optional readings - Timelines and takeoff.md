@@ -26,10 +26,10 @@ Optional extras for this week: pick by curiosity, not completeness.
 - [Can AI scaling continue through 2030?](https://epoch.ai/blog/can-ai-scaling-continue-through-2030): power, chips, data; which physical constraint bites first.
 - [The Industrial Explosion](https://www.forethought.org/research/the-industrial-explosion): what happens when the feedback loop reaches the physical world.
 
-#### {++{"author":"Elias's AI","timestamp":1783023435077}@@Text
+#### Text
 content::
 Pick the one claim from this week you're most itching to attack or defend — fast timelines, *r* > 1, or the software-only intelligence explosion — and have the tutor point you to the reading that tests it hardest.
 
-#### ++}Chat
+#### Chat
 instructions::
 The user is browsing optional readings on timelines and takeoff modeling. Help them pick based on their interests: skeptical of fast timelines → Cotra/Narayanan, Epoch multi-decade case; interested in empirics → returns-to-software-R&D, affordability, SWE-tasks posts; interested in modeling → the Forethought and compute-centric takeoff models. Discuss any of them if the user has read them.
