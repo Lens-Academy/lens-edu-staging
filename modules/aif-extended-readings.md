@@ -36,7 +36,7 @@ source:: [[../Lenses/AIF - AI Biorisk and Other X-Risk]]
 source:: [[../Lenses/AIF - Model Specs and AI Character]]
 
 # Lens:
-source:: [[../Lenses/Better Futures]]
+source:: [[../Lenses/AIF - Better Futures]]
 
 # Lens:
-source:: [[../Lenses/Space Governance]]
+source:: [[../Lenses/AIF - Space Governance]]
