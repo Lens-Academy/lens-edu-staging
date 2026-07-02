@@ -1,6 +1,7 @@
 ---
 id: 56999985-81dc-48fd-bea5-4489c3887cb2
-title: "AIF - METR Time Horizons"
+title: {--{"author":"Elias's AI","timestamp":1782987055452}@@"AIF ---}{++{"author":"Elias's AI","timestamp":1782987055452}@@"METR Time Horizons"
+tldr: The "AI task length doubles every few months" chart became the field's most-quoted trend line. Here++} METR {--{"author":"Elias's AI","timestamp":1782987055452}@@Time Horizons"--}{++{"author":"Elias's AI","timestamp":1782987055452}@@themselves explain what the metric does not show — error bars spanning factors of two, order-of-magnitude domain differences, and the risks of extrapolation. Read before you cite the doubling trend.++}
 ---
 
 #### Text
@@ -10,7 +11,7 @@ METR's "time horizon" — the length of task an AI can complete at 50% reliabili
 #### Article
 source:: [[../articles/metr-clarifying-limitations-of-time-horizon]]
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1782987061826}@@Question
 feedback:: true
 content:: Exercise: What seem to be the main methodological differences between Epoch's ECI and METR's time horizon? Which one would you rather extrapolate to understand capabilities progress or AI R&D progress, and why?
 assessment-instructions:: A good answer contrasts the approaches (ECI: composite latent scale over many benchmarks; time horizon: task-length humans need vs AI 50% success rate, anchored to human labor time) and gives a reasoned preference tied to a purpose (e.g. time horizon maps more directly onto automation of R&D labor; ECI is broader but less interpretable). Reward understanding of each metric's failure modes.
@@ -22,7 +23,7 @@ content:: Exercise: Are there better measures of capabilities progress or AI R&D
 assessment-instructions:: Reward concrete, creative proposals (e.g. uplift studies on real researchers, revenue per AI agent, internal lab acceleration estimates, task-completion in the wild) with awareness of their own limitations. A thoughtful defense of ECI/time-horizon combinations is also fine.
 max-chars:: 1200
 
-#### Chat
+#### --}Chat
 instructions::
 TLDR of what the user just read: METR's note clarifies limitations of the time-horizon metric: it is defined on specific task distributions (mostly software tasks), 50% reliability is a low bar, results are sensitive to task suite composition and human baseline quality, and extrapolating the doubling trend outside the measured regime is risky.
 
@@ -31,4 +32,4 @@ Discussion topics to explore:
 - How powerful are AIs currently, in the learner's estimation, given both ECI and time-horizon data?
 - What would change their mind about the pace of capabilities progress?
 
-The user just completed two exercises comparing metrics and proposing better ones — build on those answers rather than repeating them.
+The {--{"author":"Elias's AI","timestamp":1782987063988}@@user just completed two --}exercises comparing {--{"author":"Elias's AI","timestamp":1782987063988}@@metrics--}{++{"author":"Elias's AI","timestamp":1782987063988}@@ECI++} and {--{"author":"Elias's AI","timestamp":1782987063988}@@proposing better ones — build on those answers rather than repeating them.--}{++{"author":"Elias's AI","timestamp":1782987063988}@@time horizon come in the next lens — don't pre-empt them here.++}

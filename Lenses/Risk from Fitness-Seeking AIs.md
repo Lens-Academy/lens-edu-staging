@@ -1,6 +1,7 @@
 ---
 id: 7db38d5a-7056-4440-b6af-e9ee2e640c06
-title: "AIF - Risk from Fitness-Seeking AIs"
+title: {--{"author":"Elias's AI","timestamp":1782987150873}@@"AIF - Risk--}{++{"author":"Elias's AI","timestamp":1782987150873}@@"Risk++} from Fitness-Seeking AIs"{++{"author":"Elias's AI","timestamp":1782987150873}@@
+tldr: If training reinforces whatever performs well, one candidate winner is an AI that intrinsically seeks "fitness" — whatever gets reinforced. Redwood works out the concrete mechanisms by which such motivations arise, and which mitigations could interrupt each one.++}
 ---
 
 #### Text

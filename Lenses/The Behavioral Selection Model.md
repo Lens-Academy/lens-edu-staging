@@ -1,6 +1,7 @@
 ---
 id: fa55790a-4c34-4483-81ae-e0a931be01f8
-title: "AIF - The Behavioral Selection Model"
+title: {--{"author":"Elias's AI","timestamp":1782987132606}@@"AIF - The--}{++{"author":"Elias's AI","timestamp":1782987132606}@@"The++} Behavioral Selection Model"{++{"author":"Elias's AI","timestamp":1782987132606}@@
+tldr: Reward-seekers, schemers, shard collections, personas — a dozen theories claim to predict what AIs will want. This piece offers the unifying frame beneath all of them — training selects among motivations that all behave well, so the question is which behaviorally-fit candidate wins.++}
 ---
 
 #### Text

@@ -1,6 +1,7 @@
 ---
 id: 4862a1d4-82ef-4268-bc33-f1c4b920e155
-title: "AIF - W1 Optional Readings"
+title: {--{"author":"Elias's AI","timestamp":1782987078141}@@"AIF--}{++{"author":"Elias's AI","timestamp":1782987078141}@@"Optional readings++} - {--{"author":"Elias's AI","timestamp":1782987078141}@@W1 Optional Readings"--}{++{"author":"Elias's AI","timestamp":1782987078141}@@Timelines and takeoff"
+tldr: Skeptics, empirics, and deeper takeoff models — the week's optional shelf. Cotra vs Narayanan disagreeing carefully, Epoch's case for multi-decade timelines, the returns-to-software-R&D fight, and what happens when the feedback loop reaches the physical world.++}
 ---
 
 #### Text

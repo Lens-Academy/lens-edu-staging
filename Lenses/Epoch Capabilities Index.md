@@ -1,6 +1,7 @@
 ---
 id: f2348170-927c-49a9-a72a-7086ab2c6459
-title: "AIF - Epoch Capabilities Index"
+title: {--{"author":"Elias's AI","timestamp":1782987066204}@@"AIF - Epoch Capabilities Index"--}{++{"author":"Elias's AI","timestamp":1782987066204}@@"Epoch Capabilities Index"
+tldr: Benchmarks keep saturating and going silent — so how do you track AI progress on one continuous scale across years? Epoch's ECI stitches many benchmarks into a single capability index. Read how the sausage is made, and what a composite score can and can't tell you.++}
 ---
 
 #### Text
