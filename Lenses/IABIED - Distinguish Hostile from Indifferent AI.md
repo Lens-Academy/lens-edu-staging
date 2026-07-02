@@ -25,7 +25,8 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-instructions:: The student has just read section 2 of Chapter 5 of "If Anyone Builds It, Everyone Dies."
+{++{"author":"Elias's AI","timestamp":1783018461111}@@min-messages:: 1
+++}instructions:: The student has just read section 2 of Chapter 5 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Distinguish hostile from indifferent AI — explain why the core danger from superintelligent AI is not that it would be hostile toward humans, but that it would be indifferent to human values while pursuing its own goals, and why indifference is sufficient for extinction.
 
@@ -69,7 +70,8 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize — just capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+{++{"author":"Elias's AI","timestamp":1783018480191}@@min-messages:: 1
+++}instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading — not to explain the content to them.
 
@@ -104,7 +106,8 @@ content::
 A startup founder tells you: "We deliberately trained our AI to have no aggression, no dominance drive, nothing resembling hostility toward people. So even if it becomes superintelligent, the worst case is that it just ignores us and quietly goes off to do its own thing." What's the flaw in that reassurance — and what would "goes off to do its own thing" actually look like once the system is that capable?
 
 #### Chat
-instructions:: The student has completed a reading, a free recall, and a reflection phase on section 2 of Chapter 5 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+{++{"author":"Elias's AI","timestamp":1783018495430}@@min-messages:: 1
+++}instructions:: The student has completed a reading, a free recall, and a reflection phase on section 2 of Chapter 5 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge — it is not the test question. It hands the student a plausible-sounding reassurance ("we removed hostility, so the worst case is it ignores us") that quietly conflates the absence of hostility with safety, and treats indifference as passive non-interaction. It forces the student to apply the hostile-vs-indifferent distinction to a new case rather than recite it: to show that an indifferent superintelligence "doing its own thing" means consuming the matter, energy, and habitable conditions humans depend on — so "ignore us and leave us alone" is not an outcome that removing hostility buys you.
 

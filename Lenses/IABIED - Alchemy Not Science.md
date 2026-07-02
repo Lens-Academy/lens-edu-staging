@@ -24,7 +24,8 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-instructions:: The student has just read the first half of Chapter 11 of "If Anyone Builds It, Everyone Dies."
+{++{"author":"Elias's AI","timestamp":1783018498188}@@min-messages:: 1
+++}instructions:: The student has just read the first half of Chapter 11 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: State Chapter 11's central diagnosis as the chapter frames it: the alignment field is currently in the "alchemy stage" — producing results without understanding why they work, operating from high-minded philosophical ideals rather than engineering designs, and mistaking the ability to build more powerful AI for progress on making it safe.
 
@@ -69,7 +70,8 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize — just capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+{++{"author":"Elias's AI","timestamp":1783018500160}@@min-messages:: 1
+++}instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading — not to explain the content to them.
 
@@ -104,7 +106,8 @@ content::
 A friend who works in machine learning tells you: "The alchemy comparison is out of date. Every new model is run against thousands of safety evaluations and red-team tests, and the scores climb with each release. That's not philosophy and vibes — it's rigorous empirical measurement. The field has clearly left the alchemy stage." Using the chapter's diagnosis, where exactly does this argument go wrong — and is there any part of it your friend has right?
 
 #### Chat
-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 11 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+{++{"author":"Elias's AI","timestamp":1783018502975}@@min-messages:: 1
+++}instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 11 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge — it is not the test question. It hands the student a plausible-sounding argument that rising safety-benchmark scores prove the field has left the alchemy stage, and asks them to debug it rather than recite the diagnosis. Use it to draw out the difference between measuring that a technique works and understanding why it works, and between capability/eval progress and engineering-principle understanding.
 

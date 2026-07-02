@@ -26,7 +26,8 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-instructions:: The student has just finished reading the second section of "I Don't Want to Be Alarmist" (Chapter 12 of "If Anyone Builds It, Everyone Dies") and has written a free recall — everything they could remember without looking back at the text.
+{++{"author":"Elias's AI","timestamp":1783018490625}@@min-messages:: 1
+++}instructions:: The student has just finished reading the second section of "I Don't Want to Be Alarmist" (Chapter 12 of "If Anyone Builds It, Everyone Dies") and has written a free recall — everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
 - The contrast with Chernobyl managers: AI executives acknowledge high probabilities of killing everyone yet continue anyway — "not in quite as much denial"
@@ -70,7 +71,8 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize — just capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
-instructions:: The student has just completed a free recall of the second section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+{++{"author":"Elias's AI","timestamp":1783018493014}@@min-messages:: 1
+++}instructions:: The student has just completed a free recall of the second section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading — not to explain the content to them.
 
@@ -107,7 +109,8 @@ content::
 The chapter says AI executives who acknowledge a 20% chance of killing everyone keep building anyway. Is that irrational? Use the ladder-in-the-dark framing to explain whether their behavior makes sense — and what it implies about whether individuals can solve this problem on their own.
 
 #### Chat
-instructions:: The student has completed a reading, a free recall, and a reflection phase on the second section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+{++{"author":"Elias's AI","timestamp":1783018496989}@@min-messages:: 1
+++}instructions:: The student has completed a reading, a free recall, and a reflection phase on the second section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 Learning outcome for this Lens: Apply the ladder-in-the-dark framing to explain why uncertainty about the fatal rung does not protect against predictable disaster: trace the chapter's argument that if climbing cannot be stopped while uncertainty remains, death is a predictable collective outcome, even though no specific rung can be identified as lethal in advance.
 

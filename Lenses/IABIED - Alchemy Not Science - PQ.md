@@ -17,7 +17,8 @@ In what kind of situation does that recipe-level competence stop being enough? W
 Take 60 seconds and write down what you think distinguishes "I have a recipe" from "I understand the principle" — and a situation where having only the recipe could become dangerous.
 
 #### Chat
-instructions::
+{++{"author":"Elias's AI","timestamp":1783018496432}@@min-messages:: 1
+++}instructions::
 The student is about to read the first half of Chapter 11 of "If Anyone Builds It, Everyone Dies" — the alchemist allegory plus the folk-theory critique of Musk and LeCun, ending with the mother/engineer dialogue and the systemic-incompetence argument.
 
 They just answered: "When does recipe-level competence (knowing what works) stop being enough? When does the gap between recipe and principle become dangerous?"

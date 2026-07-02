@@ -28,7 +28,8 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-instructions:: The student has just read the Introduction to "If Anyone Builds It, Everyone Dies."
+{++{"author":"Elias's AI","timestamp":1783018459962}@@min-messages:: 1
+++}instructions:: The student has just read the Introduction to "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Distinguish "hard calls" from "easy calls" as the authors define them, and explain why they classify the danger from ASI as an easy call despite its apparent implausibility.
 
@@ -70,7 +71,8 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize — just capture your reaction. Again, using the speech to text feature is recommended.
 
 #### Chat
-instructions:: The student has just completed a free recall of the reading assignment for this Lens and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+{++{"author":"Elias's AI","timestamp":1783018464150}@@min-messages:: 1
+++}instructions:: The student has just completed a free recall of the reading assignment for this Lens and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading — not to explain the content to them.
 
@@ -105,7 +107,8 @@ content::
 The authors are remarkably confident that advanced AI is dangerous, yet they flatly refuse to predict when it will arrive or exactly how a catastrophe would unfold. Is that a contradiction — how can they be so sure of the danger but not the details? What is it about the situation that lets them have it both ways?
 
 #### Chat
-instructions:: The student has completed a reading, a free recall, and a reflection phase on the Introduction to "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+{++{"author":"Elias's AI","timestamp":1783018466821}@@min-messages:: 1
+++}instructions:: The student has completed a reading, a free recall, and a reflection phase on the Introduction to "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge — it is not the test question. It points at the apparent tension between the authors' confidence about whether AI is dangerous and their refusal to predict when or how, and asks the student to resolve it. Use it to draw out the easy-call/hard-call distinction from the asymmetry rather than asking them to define the two terms.
 

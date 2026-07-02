@@ -13,7 +13,8 @@ tags:
 content:: Before reading the first part of Chapter 14: Think of a time when something seemed like a foregone conclusion — a conflict, a failure, an outcome that felt locked in. Did anything reverse it? If a catastrophe seems genuinely likely — not just feared, but rationally predicted based on strong evidence — can deliberate human effort still un-write that outcome? Or is a well-founded prediction the same as destiny? Write down your thinking before you read.
 
 #### Chat
-instructions::
+{++{"author":"Elias's AI","timestamp":1783018549757}@@min-messages:: 1
+++}instructions::
 The student is about to read the first section of Chapter 14 ("Where There's Life, There's Hope") of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "If a catastrophe seems genuinely likely — can deliberate human effort still un-write that outcome, or is a well-founded prediction the same as destiny?"

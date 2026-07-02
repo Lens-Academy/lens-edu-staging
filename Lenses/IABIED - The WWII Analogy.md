@@ -23,7 +23,8 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-instructions:: The student has just finished reading the first section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and has written a free recall — everything they could remember without looking back at the text.
+{++{"author":"Elias's AI","timestamp":1783018501952}@@min-messages:: 1
+++}instructions:: The student has just finished reading the first section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and has written a free recall — everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
 - The WWII parable: Allied Powers drafted soldiers, rationed food, spent $6 trillion (today's dollars), deployed 60–80 million personnel — including many whose lives weren't immediately at risk from the Axis
@@ -64,7 +65,8 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize — just capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
 
 #### Chat
-instructions:: The student has just completed a free recall of the first section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+{++{"author":"Elias's AI","timestamp":1783018504547}@@min-messages:: 1
+++}instructions:: The student has just completed a free recall of the first section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading — not to explain the content to them.
 
@@ -101,7 +103,8 @@ content::
 Suppose someone tells you: "A global treaty to restrict AI development is politically unrealistic — no major power has ever coordinated to stop its own scientific and military development." Using only what you just read in Chapter 13, how would you respond? Walk through the argument the chapter makes: what does it point to, what specific claim does it make about human motivation, and how does that convert the "politically impossible" objection into something that can be answered?
 
 #### Chat
-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+{++{"author":"Elias's AI","timestamp":1783018506245}@@min-messages:: 1
+++}instructions:: The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 Learning outcome for this Lens: Explain how the chapter's WWII analogy responds to the objection that coordinating major powers on AI restriction is politically impossible: what specific feature of the WWII precedent does the chapter invoke, and what claim about human motivation does it rely on?
 

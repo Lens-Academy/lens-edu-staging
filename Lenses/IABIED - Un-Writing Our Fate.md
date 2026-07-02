@@ -23,7 +23,8 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-instructions:: The student has just finished reading the first section of Chapter 14 of "If Anyone Builds It, Everyone Dies" and has written a free recall — everything they could remember without looking back at the text.
+{++{"author":"Elias's AI","timestamp":1783018551722}@@min-messages:: 1
+++}instructions:: The student has just finished reading the first section of Chapter 14 of "If Anyone Builds It, Everyone Dies" and has written a free recall — everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
 - Vesna Vulović: survived a 10.1-km fall from a bombed plane in 1972, used to illustrate that predicted outcomes can be overturned
@@ -66,7 +67,8 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize — just capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
 
 #### Chat
-instructions:: The student has just completed a free recall of the first section of Chapter 14 of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+{++{"author":"Elias's AI","timestamp":1783018556112}@@min-messages:: 1
+++}instructions:: The student has just completed a free recall of the first section of Chapter 14 of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading — not to explain the content to them.
 
@@ -103,7 +105,8 @@ content::
 The chapter says the people working to prevent nuclear war "worked to un-write a fate already written." What does this phrase mean? And what specifically happened during the Cold War that the chapter uses as evidence that un-writing a fate is actually possible?
 
 #### Chat
-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 14 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+{++{"author":"Elias's AI","timestamp":1783018560236}@@min-messages:: 1
+++}instructions:: The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 14 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 Learning outcome for this Lens: State what the chapter means by 'un-writing a fate already written,' and identify the nuclear precedent it uses to show this is possible.
 
