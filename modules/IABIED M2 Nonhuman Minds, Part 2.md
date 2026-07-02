@@ -40,7 +40,7 @@ Discussion topics to explore:
 - Why is the Claude cheating example (footnote viii in Ch 4) significant for the book's argument?
 - The Klurl/Trapaucius parable imagines aliens watching human evolution. What would they get wrong about predicting human preferences?
 
-Ask what they found surprising or new. Check if they can explain the ice cream analogy in their own words — it's a key concept.
+Ask what they found surprising or new. Check if they can explain the ice cream analogy in their own {--{"author":"Elias's AI","timestamp":1783024736955}@@words —--}{++{"author":"Elias's AI","timestamp":1783024736955}@@words, since++} it's a key concept.
 %%
 
 # Submodule: Ch3 - Learning to Want

@@ -18,11 +18,11 @@ tags:
 id:: a3154792-e84d-40d0-b6ed-90f65f89e3f6
 
 #### Text
-content:: In our final reading week, we confront the incentive structures that drive the AI industry, the authors' case for a worldwide halt on frontier AI development, and — crucially — the reasons for hope. This is the largest reading assignment, covering three chapters plus the closing words.
+content:: In our final reading week, we confront the incentive structures that drive the AI industry, the authors' case for a worldwide halt on frontier AI development, {--{"author":"Elias's AI","timestamp":1783024742017}@@and — crucially —--}{++{"author":"Elias's AI","timestamp":1783024742017}@@and, crucially,++} the reasons for hope. This is the largest reading assignment, covering three chapters plus the closing words.
 
-Chapter 12 opens with Thomas Midgley Jr., who invented both leaded gasoline and CFCs — "burning down someone's house to steal the front doorknob." The authors use this to illustrate how perverse incentives lead to catastrophic outcomes, then examine why AI experts downplay their own fears ("I don't want to be alarmist") and why the public isn't paying enough attention.
+Chapter 12 opens with Thomas Midgley Jr., who invented both leaded gasoline and {--{"author":"Elias's AI","timestamp":1783024744847}@@CFCs —--}{++{"author":"Elias's AI","timestamp":1783024744847}@@CFCs:++} "burning down someone's house to steal the front doorknob." The authors use this to illustrate how perverse incentives lead to catastrophic outcomes, then examine why AI experts downplay their own fears ("I don't want to be alarmist") and why the public isn't paying enough attention.
 
-Chapter 13 lays out the concrete policy proposal: a worldwide halt on frontier AI development, enforced through GPU consolidation, international monitoring, and treaty mechanisms. The WWII mobilization serves as the central analogy — "not even 1% as costly as WWII."
+Chapter 13 lays out the concrete policy proposal: a worldwide halt on frontier AI development, enforced through GPU consolidation, international monitoring, and treaty mechanisms. The WWII mobilization serves as the central {--{"author":"Elias's AI","timestamp":1783024748389}@@analogy —--}{++{"author":"Elias's AI","timestamp":1783024748389}@@analogy:++} "not even 1% as costly as WWII."
 
 Chapter 14 ends on a note of qualified hope, invoking the nuclear war precedent: humanity has chosen not to die before. The closing words offer a prayer: "May we be wrong, and shamed for how incredibly wrong we were."
 %%
@@ -37,23 +37,23 @@ Key concepts to check understanding of:
 - Thomas Midgley Jr. and the leaded gasoline analogy
 - The ladder-in-the-dark incentive problem
 - Downplaying risks: Sunak, Hinton, Ord and the pattern of self-censorship
-- Titanic/Chernobyl denial patterns — "I don't want to be alarmist"
+- Titanic/Chernobyl denial {--{"author":"Elias's AI","timestamp":1783024750981}@@patterns —--}{++{"author":"Elias's AI","timestamp":1783024750981}@@patterns:++} "I don't want to be alarmist"
 - The WWII mobilization analogy and why the authors think the cost is manageable
 - GPU consolidation, international monitoring, threshold setting (as low as 8 GPUs)
 - Banning capability-advancing AI research publications
 - Nuclear non-proliferation as precedent
-- The nuclear war precedent — humanity chose not to die (Vasily Arkhipov)
+- The nuclear war {--{"author":"Elias's AI","timestamp":1783024752676}@@precedent —--}{++{"author":"Elias's AI","timestamp":1783024752676}@@precedent, where++} humanity chose not to die (Vasily Arkhipov)
 - Vesna Vulovic, C.S. Lewis quote
 - Concrete actions: vote, march, write representatives, talk about it
 
 Discussion topics to explore:
-- The authors compare AI development to leaded gasoline — Midgley "burning down someone's house to steal the front doorknob." Is this fair to AI researchers?
+- The authors compare AI development to leaded {--{"author":"Elias's AI","timestamp":1783024755081}@@gasoline —--}{++{"author":"Elias's AI","timestamp":1783024755081}@@gasoline, casting++} Midgley {++{"author":"Elias's AI","timestamp":1783024755081}@@as ++}"burning down someone's house to steal the front doorknob." Is this fair to AI researchers?
 - Do you find the WWII analogy persuasive for the scale of response needed? What are its limits?
 - What's your reaction to the proposed treaty framework? What would make it work or fail in practice?
 - The authors say experts are having debates between "everyone dies quickly" vs "20% chance we die." Does knowing this change how you think about AI coverage in the media?
 - After reading the whole book: what's your #1 takeaway? What will you do differently?
 
-Ask what they found surprising or new. Check if they can explain the ladder-in-the-dark incentive problem in their own words — it's a key concept.
+Ask what they found surprising or new. Check if they can explain the ladder-in-the-dark incentive problem in their own {--{"author":"Elias's AI","timestamp":1783024757020}@@words —--}{++{"author":"Elias's AI","timestamp":1783024757020}@@words, since++} it's a key concept.
 
 %%
 # Submodule: Chapter 12: I Don't Want to Be Alarmist
