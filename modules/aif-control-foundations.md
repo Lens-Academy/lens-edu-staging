@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782987786241}@@---
+---
 id: c7ebd881-e86d-40c7-8834-69b36c0f09d0
 slug: aif-control-foundations
 title: "Control: Foundations"
@@ -33,4 +33,3 @@ source:: [[../Lenses/AI Catastrophes and Rogue Deployments]]
 
 # Lens:
 source:: [[../Lenses/Areas of Control Work]]
-++}

@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782987837605}@@---
+---
 id: ad20cbaf-bdde-4c44-9284-71208b58c602
 slug: aif-playbook
 title: "The Playbook"
@@ -27,4 +27,3 @@ source:: [[../Lenses/Plans A B C and D]]
 
 # Lens:
 source:: [[../Lenses/Safely Deferring to AIs]]
-++}

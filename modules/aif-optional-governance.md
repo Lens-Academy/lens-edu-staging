@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782987860416}@@---
+---
 id: 3cb3eae8-c579-4a59-ae24-f3f113ae791d
 slug: aif-optional-governance
 title: "Optional Readings"
@@ -8,4 +8,3 @@ title: "Optional Readings"
 
 # Lens:
 source:: [[../Lenses/Optional readings - Governance and strategy]]
-++}
