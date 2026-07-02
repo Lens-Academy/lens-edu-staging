@@ -1,8 +1,9 @@
 ---
 title: "The behavioral selection model for predicting AI motivations"
 author:
-  - "Greaterwrong"
-source_url: "https://www.greaterwrong.com/posts/FeaJcWkC6fuRAMsfp/the-behavioral-selection-model-for-predicting-ai-motivations-1"
+  - {--{"author":"Elias's AI","timestamp":1782977415981}@@"Greaterwrong"--}{++{"author":"Elias's AI","timestamp":1782977415981}@@"Alex Mallen"
+  - "Buck Shlegeris"++}
+source_url: {--{"author":"Elias's AI","timestamp":1782977415981}@@"https://www.greaterwrong.com/posts/FeaJcWkC6fuRAMsfp/the-behavioral-selection-model-for-predicting-ai-motivations-1"--}{++{"author":"Elias's AI","timestamp":1782977415981}@@"https://www.lesswrong.com/posts/FeaJcWkC6fuRAMsfp/the-behavioral-selection-model-for-predicting-ai-motivations-1"++}
 published: 2026-05-27
 created: 2026-07-02
 accessed: 2026-07-02

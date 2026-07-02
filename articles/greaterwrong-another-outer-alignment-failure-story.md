@@ -1,8 +1,8 @@
 ---
 title: "Another (outer) alignment failure story"
 author:
-  - "Greaterwrong"
-source_url: "https://www.greaterwrong.com/posts/AyNHoTWWAJ5eb99ji/another-outer-alignment-failure-story"
+  - {--{"author":"Elias's AI","timestamp":1782977418942}@@"Greaterwrong"--}{++{"author":"Elias's AI","timestamp":1782977418942}@@"Paul Christiano"++}
+source_url: {--{"author":"Elias's AI","timestamp":1782977418942}@@"https://www.greaterwrong.com/posts/AyNHoTWWAJ5eb99ji/another-outer-alignment-failure-story"--}{++{"author":"Elias's AI","timestamp":1782977418942}@@"https://www.lesswrong.com/posts/AyNHoTWWAJ5eb99ji/another-outer-alignment-failure-story"++}
 published: 2023-05-31
 created: 2026-07-02
 accessed: 2026-07-02
