@@ -1,7 +1,7 @@
 ---
 id: cff60111-17f6-4ae8-918e-23ccc8e8c643
-title: {--{"author":"Elias's AI","timestamp":1782987478079}@@"AIF - Safely Deferring --}{++{"author":"Elias's AI","timestamp":1782987478079}@@"Safely Deferring to AIs"
-tldr: Every realistic plan eventually says "...and then the AIs do the safety research." That's deferring to AIs — and this post asks what it would take ++}to {--{"author":"Elias's AI","timestamp":1782987478079}@@AIs"--}{++{"author":"Elias's AI","timestamp":1782987478079}@@hand off consequential judgment without getting quietly steered by systems you can't fully verify.++}
+title: "Safely Deferring to AIs"
+tldr: Every realistic plan eventually says "...and then the AIs do the safety research." That's deferring to AIs — and this post asks what it would take to hand off consequential judgment without getting quietly steered by systems you can't fully verify.
 ---
 
 #### Text

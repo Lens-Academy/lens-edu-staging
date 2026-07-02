@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782987811534}@@---
+---
 id: 154be133-475d-4e57-987e-8124c62b4837
 slug: aif-control-measures-empirical
 title: "Control Measures & Empirical Work"
@@ -20,4 +20,3 @@ source:: [[../Lenses/Preventing Collusion Between Monitors]]
 
 # Lens:
 source:: [[../Lenses/Empirical Control Research]]
-++}

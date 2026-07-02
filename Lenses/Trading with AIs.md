@@ -1,7 +1,7 @@
 ---
 id: cd64d5a0-c505-418c-a485-d8d7f0265544
-title: {--{"author":"Elias's AI","timestamp":1782987593655}@@"AIF - Extended - Trading--}{++{"author":"Elias's AI","timestamp":1782987593655}@@"Trading with AIs"
-tldr: If some future AIs are misaligned, one response is bargaining — pay them to behave. Strange, serious, and increasingly worked-out — deals++} with {--{"author":"Elias's AI","timestamp":1782987593655}@@AIs"--}{++{"author":"Elias's AI","timestamp":1782987593655}@@early schemers, the credibility problem, honesty as infrastructure, and the Schelling bargaining theory underneath it all.++}
+title: "Trading with AIs"
+tldr: If some future AIs are misaligned, one response is bargaining — pay them to behave. Strange, serious, and increasingly worked-out — deals with early schemers, the credibility problem, honesty as infrastructure, and the Schelling bargaining theory underneath it all.
 ---
 
 #### Text

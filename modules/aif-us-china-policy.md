@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782987857678}@@---
+---
 id: 1bf747a6-67bb-441c-8c76-0aebadc61b9f
 slug: aif-us-china-policy
 title: "US & China Policy"
@@ -17,4 +17,3 @@ source:: [[../Lenses/China Compute and Frontier Lag]]
 
 # Lens:
 source:: [[../Lenses/The 2017 AGI Plan Myth]]
-++}

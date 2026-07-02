@@ -1,8 +1,8 @@
 ---
 id: d9c87c9f-2695-4db7-9773-84b8780f6c22
-title: {--{"author":"Elias's AI","timestamp":1782986990758}@@"AIF - AI--}{++{"author":"Elias's AI","timestamp":1782986990758}@@"AI++} Capability Levels for AI R&D"{++{"author":"Elias's AI","timestamp":1782986990758}@@
-tldr: '"When will powerful AI arrive?" is under-specified until you say how powerful. Greenblatt replaces vague terms like AGI with trackable milestones defined by one measurable thing: how much AIs accelerate AI R&D labor itself — the variable that drives takeoff dynamics.'++}{++{"author":"Elias's AI","timestamp":1782991071450}@@
-summary_for_tutor: "Covers Greenblatt's capability-level framework defining AI milestones by their AI R&D labor acceleration multiplier — from AIs that speed up researchers a few times, through AIs that can fully substitute for top researchers, and beyond. Argues this replaces vague terms like AGI with trackable, forecastable milestones, since AI R&D acceleration is the variable that drives takeoff dynamics. Related to planned-obsolescence's six milestones for AI automation."++}
+title: "AI Capability Levels for AI R&D"
+tldr: '"When will powerful AI arrive?" is under-specified until you say how powerful. Greenblatt replaces vague terms like AGI with trackable milestones defined by one measurable thing: how much AIs accelerate AI R&D labor itself — the variable that drives takeoff dynamics.'
+summary_for_tutor: "Covers Greenblatt's capability-level framework defining AI milestones by their AI R&D labor acceleration multiplier — from AIs that speed up researchers a few times, through AIs that can fully substitute for top researchers, and beyond. Argues this replaces vague terms like AGI with trackable, forecastable milestones, since AI R&D acceleration is the variable that drives takeoff dynamics. Related to planned-obsolescence's six milestones for AI automation."
 ---
 
 #### Text

@@ -1,7 +1,7 @@
 ---
 id: e8921fcf-fe17-4759-b960-dca37dbeb495
-title: {--{"author":"Elias's AI","timestamp":1782987315854}@@"AIF - AI--}{++{"author":"Elias's AI","timestamp":1782987315854}@@"AI++} Catastrophes and Rogue Deployments"{++{"author":"Elias's AI","timestamp":1782987315854}@@
-tldr: A deceptively simple claim that organizes the whole control agenda — most AI catastrophes require a rogue deployment, AI running with safety measures absent or subverted. If true, preventing those four escape routes is most of the game.++}
+title: "AI Catastrophes and Rogue Deployments"
+tldr: A deceptively simple claim that organizes the whole control agenda — most AI catastrophes require a rogue deployment, AI running with safety measures absent or subverted. If true, preventing those four escape routes is most of the game.
 ---
 
 #### Text

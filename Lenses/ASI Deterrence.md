@@ -1,7 +1,7 @@
 ---
 id: 67983933-1cef-4303-8bce-d776c3928742
-title: {--{"author":"Elias's AI","timestamp":1782987532770}@@"AIF - ASI Deterrence"--}{++{"author":"Elias's AI","timestamp":1782987532770}@@"ASI Deterrence"
-tldr: If states take superintelligence seriously, deterrence logic kicks in — but AI deterrence is nothing like nuclear deterrence. Verification is harder, red lines are blurrier, and the thing being deterred keeps getting faster. The crucial considerations, laid out cleanly.++}
+title: "ASI Deterrence"
+tldr: If states take superintelligence seriously, deterrence logic kicks in — but AI deterrence is nothing like nuclear deterrence. Verification is harder, red lines are blurrier, and the thing being deterred keeps getting faster. The crucial considerations, laid out cleanly.
 ---
 
 #### Text

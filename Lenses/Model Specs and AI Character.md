@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1782987639038}@@---
+---
 id: 5c16e16f-5d97-4376-9116-15f60ccca0dc
 title: "Model Specs and AI Character"
 tldr: The documents that define who the AIs are supposed to be — arguably the highest-leverage pages in the industry. Why character matters even if alignment partially fails, whether early choices stick across generations, and the actual specs from every major lab as primary sources.
@@ -26,4 +26,3 @@ The documents that define who the AIs are supposed to *be* — arguably the high
 #### Chat
 instructions::
 The user is exploring model specs and AI character. Rich discussion territory: compare Anthropic's constitution approach vs OpenAI's model spec (chain of command); whether specs bind behavior when alignment partially fails; stickiness (do early character choices propagate through AI-assisted training of successors?); connect to Week 2's persona selection model. Encourage reading at least one spec as a primary source and critiquing a specific clause.
-++}
