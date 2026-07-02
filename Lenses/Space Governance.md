@@ -1,6 +1,7 @@
-{++{"author":"AI","timestamp":1782975608405}@@---
+{++{"author":"Elias's AI","timestamp":1782987654205}@@---
 id: 77493424-dd5b-492f-9474-6a361f4a7a2e
-title: "AIF - Extended - Space Governance"
+title: "Space Governance"
+tldr: The far edge of the reading list, where AI futurism meets orbital mechanics — could Kessler syndrome block access to space, and will the compute buildout really escape Earth into orbital data centers?
 ---
 
 #### Text

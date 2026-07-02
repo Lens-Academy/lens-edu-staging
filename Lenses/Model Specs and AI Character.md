@@ -1,6 +1,7 @@
-{++{"author":"AI","timestamp":1782975572714}@@---
+{++{"author":"Elias's AI","timestamp":1782987639038}@@---
 id: 5c16e16f-5d97-4376-9116-15f60ccca0dc
-title: "AIF - Extended - Model Specs and AI Character"
+title: "Model Specs and AI Character"
+tldr: The documents that define who the AIs are supposed to be — arguably the highest-leverage pages in the industry. Why character matters even if alignment partially fails, whether early choices stick across generations, and the actual specs from every major lab as primary sources.
 ---
 
 #### Text

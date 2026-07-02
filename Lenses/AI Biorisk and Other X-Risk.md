@@ -1,6 +1,7 @@
 ---
 id: c89c7b3f-ac61-4d6f-bd3a-9f1d1fcfdd3f
-title: "AIF - Extended - AI Biorisk and Other X-Risk"
+title: {--{"author":"Elias's AI","timestamp":1782987636862}@@"AIF - Extended - AI Biorisk --}{++{"author":"Elias's AI","timestamp":1782987636862}@@"AI Biorisk and Other X-Risk"
+tldr: Misaligned takeover isn't the only catastrophe channel. The biorisk taxonomy (LLM uplift vs biological design tools), a skeptical audit of the evals labs point to, superforecaster estimates, ++}and {--{"author":"Elias's AI","timestamp":1782987636862}@@Other X-Risk"--}{++{"author":"Elias's AI","timestamp":1782987636862}@@the other misuse routes — totalitarianism and nuclear war included.++}
 ---
 
 #### Text

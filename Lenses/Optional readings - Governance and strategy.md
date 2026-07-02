@@ -1,6 +1,7 @@
 ---
 id: a465bbde-fa87-4632-a13d-d6163fbdb40d
-title: "AIF - W4 Optional Readings"
+title: {--{"author":"Elias's AI","timestamp":1782987590883}@@"AIF--}{++{"author":"Elias's AI","timestamp":1782987590883}@@"Optional readings++} - {--{"author":"Elias's AI","timestamp":1782987590883}@@W4 Optional Readings"--}{++{"author":"Elias's AI","timestamp":1782987590883}@@Governance and strategy"
+tldr: The governance week's optional shelf — MAIM and the deterrence debate, the five frontier labs' safety frameworks as primary sources, scrutiny of whether lab commitments survive contact with the race, and the US/China policy paper trail.++}
 ---
 
 #### Text

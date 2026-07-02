@@ -1,6 +1,7 @@
-{++{"author":"AI","timestamp":1782975450438}@@---
+{++{"author":"Elias's AI","timestamp":1782987588492}@@---
 id: c0ef7e4d-f01f-4b10-bc67-f7498a483c07
-title: "AIF - The 2017 AGI Plan Myth"
+title: "The 2017 AGI Plan Myth"
+tldr: No, China's 2017 AI plan did not declare a goal of building AGI — a widely-cited claim built from mistranslation and repetition. Worth reading for the correction, and for the epistemics lesson about how race narratives get manufactured.
 ---
 
 #### Text

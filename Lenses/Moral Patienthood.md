@@ -1,6 +1,7 @@
-{++{"author":"AI","timestamp":1782975540373}@@---
+{++{"author":"Elias's AI","timestamp":1782987633503}@@---
 id: 8f464aae-60b3-4738-be95-fe35bce827a2
-title: "AIF - Extended - Moral Patienthood"
+title: "Moral Patienthood"
+tldr: Might the AIs themselves matter morally? The field went from fringe to Anthropic hiring for it in about two years. Carlsmith on the stakes, Eleos on the foundations, and the empirical work on whether models can report anything true about their own inner lives.
 ---
 
 #### Text

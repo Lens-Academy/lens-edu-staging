@@ -1,6 +1,7 @@
 ---
 id: 528e3daa-5378-4282-9ceb-26822a74cd4e
-title: "AIF - China Compute and Frontier Lag"
+title: {--{"author":"Elias's AI","timestamp":1782987586526}@@"AIF - China--}{++{"author":"Elias's AI","timestamp":1782987586526}@@"China++} Compute and Frontier Lag"{++{"author":"Elias's AI","timestamp":1782987586526}@@
+tldr: Two Epoch analyses that put numbers on the US-China race — why domestic chip constraints keep Chinese compute behind for years, and the data showing Chinese models lag the US frontier by about seven months. Antidotes to both "China is about to win" and "China doesn't matter."++}
 ---
 
 #### Text
