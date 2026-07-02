@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1782975114523}@@---
+---
 id: e8921fcf-fe17-4759-b960-dca37dbeb495
 title: "AIF - AI Catastrophes and Rogue Deployments"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - How does this frame change what "the AI escaped" means concretely inside a lab?
 
 Check they can define "rogue deployment" precisely and explain why it's the crux for catastrophe.
-++}
