@@ -7,7 +7,7 @@ summary_for_tutor: "Covers the AI Futures Project's December 2025 model update: 
 
 #### Text
 content::
-⭐ Core reading. The AI Futures Project (the team behind AI 2027) {--{"author":"Elias's AI","timestamp":1782997543276}@@maintain--}{++{"author":"Elias's AI","timestamp":1782997543276}@@maintains++} a quantitative timelines/takeoff model. This December 2025 update explains its structure and current outputs. As you read, keep a running list of the assumptions doing the most work.
+⭐ Core reading. The AI Futures Project (the team behind AI 2027) maintains a quantitative timelines/takeoff model. This December 2025 update explains its structure and current outputs. As you read, keep a running list of the assumptions doing the most work.
 
 #### Article
 source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]

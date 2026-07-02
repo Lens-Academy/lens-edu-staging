@@ -18,9 +18,9 @@ The documents that define who the AIs are supposed to *be* — arguably the high
 **The specs themselves (primary sources)**
 - [Claude's Constitution](https://www.anthropic.com/constitution) (Jan 2026) — Anthropic's current foundational document.
 - [Model Spec Midtraining](https://alignment.anthropic.com/2026/msm/) (May 2026) — teaching the spec during training, not just at the end.
-- [OpenAI Model Spec](https://model-spec.openai.com/2025-12-18.html) (Dec 2025) and the {--{"author":"Elias's AI","timestamp":1782997551776}@@[original--}{++{"author":"Elias's AI","timestamp":1782997551776}@@earlier [update++} announcement](https://openai.com/index/sharing-the-latest-model-spec/) (Feb 2025).
+- [OpenAI Model Spec](https://model-spec.openai.com/2025-12-18.html) (Dec 2025) and the earlier [update announcement](https://openai.com/index/sharing-the-latest-model-spec/) (Feb 2025).
 - [Stress-testing model specs reveals character differences among LLMs](https://alignment.anthropic.com/2025/stress-testing-model-specs/) (Oct 2025) — what happens when specs meet edge cases.
-- [Claude 4.5 Opus' Soul Document](https://www.lesswrong.com/posts/vpNG99GhbBoLov9og/claude-4-5-opus-soul-document) (Nov 2025) — {++{"author":"Elias's AI","timestamp":1782997549154}@@an internal character document, extracted from ++}the {--{"author":"Elias's AI","timestamp":1782997549154}@@leaked-then-discussed internal character document.--}{++{"author":"Elias's AI","timestamp":1782997549154}@@model via prompting and later confirmed by Anthropic.++}
+- [Claude 4.5 Opus' Soul Document](https://www.lesswrong.com/posts/vpNG99GhbBoLov9og/claude-4-5-opus-soul-document) (Nov 2025) — an internal character document, extracted from the model via prompting and later confirmed by Anthropic.
 - [Claude's Character](https://www.anthropic.com/research/claude-character) (Jun 2024) — where lab character-craft started.
 - [Constitutional AI](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback) (Dec 2022) — the technique underneath it all.
 

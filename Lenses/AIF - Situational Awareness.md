@@ -7,7 +7,7 @@ summary_for_tutor: "An external-link lens (no imported article): the user reads 
 
 #### Text
 content::
-Core reading (~3 hr). Leopold Aschenbrenner's [Situational Awareness](https://situational-awareness.ai/) shaped how many in Washington and the labs think about the endgame. For this week, read essays **III–V**: *The {--{"author":"Elias's AI","timestamp":1782997555606}@@Free World Must Prevail* (IIIa/b: racing to--}{++{"author":"Elias's AI","timestamp":1782997555606}@@Challenges* (IIIa–d: racing to the trillion-dollar cluster, locking down++} the {--{"author":"Elias's AI","timestamp":1782997555606}@@trillion-dollar cluster--}{++{"author":"Elias's AI","timestamp":1782997555606}@@labs, superalignment,++} and {--{"author":"Elias's AI","timestamp":1782997555606}@@security), *Superalignment* (IV), and --}{++{"author":"Elias's AI","timestamp":1782997555606}@@*The Free World Must Prevail*), ++}*The Project* {--{"author":"Elias's AI","timestamp":1782997555606}@@(V--}{++{"author":"Elias's AI","timestamp":1782997555606}@@(IV++} — why the national security state gets {--{"author":"Elias's AI","timestamp":1782997555606}@@involved).--}{++{"author":"Elias's AI","timestamp":1782997555606}@@involved), and *Parting Thoughts* (V).++}
+Core reading (~3 hr). Leopold Aschenbrenner's [Situational Awareness](https://situational-awareness.ai/) shaped how many in Washington and the labs think about the endgame. For this week, read essays **III–V**: *The Challenges* (IIIa–d: racing to the trillion-dollar cluster, locking down the labs, superalignment, and *The Free World Must Prevail*), *The Project* (IV — why the national security state gets involved), and *Parting Thoughts* (V).
 
 Read it on the site — then come back and argue with it.
 

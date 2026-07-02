@@ -44,16 +44,16 @@ Optional extras for this week, grouped by what you want to go deeper on.
 - [Risk reports need to address deployment-time spread of misalignment](https://blog.redwoodresearch.org/p/risk-reports-need-to-address-deployment?utm_source=publication-search) (30 min)
 - [Behavioral red-teaming is unlikely to produce clear, strong evidence that models aren't scheming](https://blog.redwoodresearch.org/p/behavioral-red-teaming-is-unlikely)
 - [When does training a model change its goals?](https://blog.redwoodresearch.org/p/when-does-training-a-model-change)
-- [Sleeper agents {--{"author":"Elias's AI","timestamp":1782997612604}@@paper](https://arxiv.org/abs/2401.05566)--}{++{"author":"Elias's AI","timestamp":1782997612604}@@paper](https://arxiv.org/abs/2401.05566), the [password-locked models paper](https://arxiv.org/abs/2405.19550),++} and the [alignment faking paper](https://arxiv.org/abs/2412.14093) ([interview](https://youtu.be/9eXV64O2Xp8)) — the{--{"author":"Elias's AI","timestamp":1782997612604}@@ two--} canonical empirical demonstrations.
+- [Sleeper agents paper](https://arxiv.org/abs/2401.05566), the [password-locked models paper](https://arxiv.org/abs/2405.19550), and the [alignment faking paper](https://arxiv.org/abs/2412.14093) ([interview](https://youtu.be/9eXV64O2Xp8)) — the canonical empirical demonstrations.
 
 **P(doom)**
 - [Why I'm not afraid of superintelligent AI taking over the world](https://www.understandingai.org/p/why-im-not-afraid-of-superintelligent) — a clear skeptical case worth steelmanning.
 - [AI as Normal Technology](https://knightcolumbia.org/content/ai-as-normal-technology) — the most influential "this is all overblown" essay.
 - [The Problem](https://www.lesswrong.com/posts/kgb58RL88YChkkBNf/the-problem) — the doomer case, compressed.
-- [List of p(doom) values](https://pauseai.info/pdoom) — who believes what.{++{"author":"Elias's AI","timestamp":1782997614422}@@
+- [List of p(doom) values](https://pauseai.info/pdoom) — who believes what.
 
-**The field today**++}
-- [Shallow review of technical AI safety, 2025](https://www.lesswrong.com/posts/Wti4Wr7Cf5ma3FGWa/shallow-review-of-technical-ai-safety-2025-2) (1 hr, skim) — {++{"author":"Elias's AI","timestamp":1782997614422}@@a map of who is working on what across ++}the {--{"author":"Elias's AI","timestamp":1782997614422}@@field map.--}{++{"author":"Elias's AI","timestamp":1782997614422}@@whole field.++}
+**The field today**
+- [Shallow review of technical AI safety, 2025](https://www.lesswrong.com/posts/Wti4Wr7Cf5ma3FGWa/shallow-review-of-technical-ai-safety-2025-2) (1 hr, skim) — a map of who is working on what across the whole field.
 
 #### Chat
 instructions::

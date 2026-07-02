@@ -18,7 +18,7 @@ TLDR of what the user just read: Shlegeris's "Ten people on the inside": even in
 
 Discussion topics to explore:
 - Which interventions give insiders the most leverage per unit of political capital?
-- How does this connect to Plans {--{"author":"Elias's AI","timestamp":1782997616114}@@A–D--}{++{"author":"Elias's AI","timestamp":1782997616114}@@A-D++} — is "ten people" a plan or an admission of defeat?
+- How does this connect to Plans A-D — is "ten people" a plan or an admission of defeat?
 - What should someone do NOW if they expect to be one of the ten?
 
 Ask whether the learner finds this empowering or alarming, and why.
