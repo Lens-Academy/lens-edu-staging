@@ -25,8 +25,8 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-{++{"author":"Elias's AI","timestamp":1783018497327}@@min-messages:: 1
-++}instructions:: The student has just finished reading the second half of Chapter 1 of "If Anyone Builds It, Everyone Dies" and has written a free recall — everything they could remember without looking back at the text.
+min-messages:: 1
+instructions:: The student has just finished reading the second half of Chapter 1 of "If Anyone Builds It, Everyone Dies" and has written a free recall — everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
 - Direction-agnostic: intelligence is a capability for achieving goals, not a pointer toward good goals
@@ -65,8 +65,8 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize — just capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
-{++{"author":"Elias's AI","timestamp":1783018501126}@@min-messages:: 1
-++}instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+min-messages:: 1
+instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading — not to explain the content to them.
 
@@ -101,8 +101,8 @@ content::
 A friend says: "I'm not worried about advanced AI. Any system smart enough to be dangerous is smart enough to understand human ethics — and understanding ethics means it'll act ethically." Using the idea that intelligence is direction-agnostic, where does your friend's reasoning go wrong?
 
 #### Chat
-{++{"author":"Elias's AI","timestamp":1783018504259}@@min-messages:: 1
-++}instructions:: The student has completed a reading, a free recall, and a reflection phase for the second half of Chapter 1 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+min-messages:: 1
+instructions:: The student has completed a reading, a free recall, and a reflection phase for the second half of Chapter 1 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge — it is not the test question. It hands the student a plausible-sounding objection (smart enough to understand ethics, therefore it will act ethically) and asks them to locate the flaw, so the learning outcome gets drawn out from a fresh angle rather than recited as a definition.
 

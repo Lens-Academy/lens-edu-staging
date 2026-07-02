@@ -13,8 +13,8 @@ tags:
 content:: Before reading the second half of Chapter 1: Imagine you could build an AI dramatically smarter than any human. Would you expect it to also be more ethical — more aligned with human values? Why or why not? Write down your intuition before reading.
 
 #### Chat
-{++{"author":"Elias's AI","timestamp":1783018443579}@@min-messages:: 1
-++}instructions::
+min-messages:: 1
+instructions::
 The student is about to read the second half of Chapter 1 of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "Would a smarter AI also be more ethical or aligned with human values?"

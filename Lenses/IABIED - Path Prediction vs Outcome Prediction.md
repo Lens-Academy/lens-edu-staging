@@ -22,8 +22,8 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-{++{"author":"Elias's AI","timestamp":1783018536273}@@min-messages:: 1
-++}instructions:: The student has just read the Coda of "If Anyone Builds It, Everyone Dies."
+min-messages:: 1
+instructions:: The student has just read the Coda of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Distinguish between predicting the pathway to a catastrophic outcome and predicting the outcome itself, explain why outcome confidence is achievable even when the exact path cannot be predicted, and apply this distinction to the argument that humanity's position relative to a superintelligent AI is analogous to a human playing chess against Stockfish.
 
@@ -67,8 +67,8 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize — just capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
-{++{"author":"Elias's AI","timestamp":1783018539896}@@min-messages:: 1
-++}instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+min-messages:: 1
+instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading — not to explain the content to them.
 
@@ -103,8 +103,8 @@ content::
 A friend finishes the Coda and closes the book, defeated: "They say it's an *easy call* that we lose — so the outcome is settled. This is just a doom book. Why write a Part III? Why do anything at all?" Using the Coda's own distinction, show your friend where the reasoning breaks. Is the book predicting that we lose — or something narrower, with a condition attached? And what exactly would have to be true before the "easy call" applies at all?
 
 #### Chat
-{++{"author":"Elias's AI","timestamp":1783018543244}@@min-messages:: 1
-++}instructions:: The student has completed a reading, a free recall, and a reflection phase on the Coda of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+min-messages:: 1
+instructions:: The student has completed a reading, a free recall, and a reflection phase on the Coda of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge — it is not the test question. It hands the student a plausible misreading: that an "easy call" outcome means the book is fatalist and nothing can be done. Their task is to dismantle it using the path/outcome distinction and the Coda's conditional structure ("only if the story is allowed to begin"). Use it to draw out why outcome confidence is the opposite of fatalism — the prediction is conditional on superintelligence being reached, and Part III is precisely about preventing that.
 

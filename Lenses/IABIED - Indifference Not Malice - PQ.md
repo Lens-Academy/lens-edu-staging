@@ -13,8 +13,8 @@ tags:
 content:: Before reading: Suppose a powerful system — an AI, a corporation, a force of nature — doesn't want to harm you. It isn't targeting you. It's just optimizing for something else entirely. Does that mean you're safe? What would it take for you to end up harmed by something that never intended to harm you? Write down your thinking before you read.
 
 #### Chat
-{++{"author":"Elias's AI","timestamp":1783018518680}@@min-messages:: 1
-++}instructions::
+min-messages:: 1
+instructions::
 The student is about to read Chapter 9 of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "Does the absence of hostile intent mean you're safe from a powerful optimizing system?"

@@ -13,8 +13,8 @@ tags:
 content:: Before reading Chapter 6, section 1: Imagine watching a chess match between a grandmaster and a complete beginner — but you don't know chess yourself. You can't predict a single move in advance. Can you still predict who'll win? What's the basis for that prediction, if not specific knowledge of what moves they'll make? Write down your thinking before you read.
 
 #### Chat
-{++{"author":"Elias's AI","timestamp":1783018437966}@@min-messages:: 1
-++}instructions::
+min-messages:: 1
+instructions::
 The student is about to read Chapter 6, section 1 of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "Can you predict who wins a contest without being able to predict the specific moves or mechanisms they'll use?"
