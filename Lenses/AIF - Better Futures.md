@@ -1,19 +1,19 @@
 ---
 id: 228fd981-db45-4b2d-b352-ba6883e57c50
 title: "Better Futures"
-tldr: Suppose we survive — then what? Making the future good is a separate, neglected problem from preventing catastrophe. MacAskill's Better Futures series, viatopia, gradual disempowerment, and whether to strike grand bargains about post-AGI outcomes while humans still have leverage.
+tldr: {--{"author":"Elias's AI","timestamp":1783002473831}@@Suppose--}{++{"author":"Elias's AI","timestamp":1783002473831}@@"Suppose++} we {--{"author":"Elias's AI","timestamp":1783002473831}@@survive —--}{++{"author":"Elias's AI","timestamp":1783002473831}@@survive,++} then what? {--{"author":"Elias's AI","timestamp":1783002473831}@@Making--}{++{"author":"Elias's AI","timestamp":1783002473831}@@MacAskill on why making++} the future good is a separate, neglected {--{"author":"Elias's AI","timestamp":1783002473831}@@problem from preventing catastrophe. MacAskill's Better Futures series, --}{++{"author":"Elias's AI","timestamp":1783002473831}@@problem: ++}viatopia, gradual disempowerment, and{--{"author":"Elias's AI","timestamp":1783002473831}@@ whether to strike--} grand bargains {--{"author":"Elias's AI","timestamp":1783002473831}@@about post-AGI outcomes --}while humans still have {--{"author":"Elias's AI","timestamp":1783002473831}@@leverage.--}{++{"author":"Elias's AI","timestamp":1783002473831}@@leverage."++}
 summary_for_tutor: "A curated link collection on post-AGI governance and better futures: Forethought's Better Futures series (surviving vs flourishing as distinct problems), Bootstrapping to Viatopia (preserve option value and good decision processes rather than lock in a vision), moral public goods, Gradual Disempowerment (catastrophe with no discrete failure), and grand deals about post-AGI outcomes struck while humans retain leverage."
 ---
 
 #### Text
 content::
-Suppose we survive — then what? Post-AGI governance and the difference between avoiding extinction and actually getting a good future:
+Suppose we {--{"author":"Elias's AI","timestamp":1783002476093}@@survive —--}{++{"author":"Elias's AI","timestamp":1783002476093}@@survive,++} then what? Post-AGI governance and the difference between avoiding extinction and actually getting a good future:
 
-- [Forethought's Better Futures series](https://www.forethought.org/research/introducing-better-futures#2-the-series) (essays 1-5) — Will MacAskill's case that "making the future good" is a separate, neglected problem from "preventing catastrophe."
-- [Bootstrapping to Viatopia](https://newsletter.forethought.org/p/bootstrapping-to-viatopia?utm_source=publication-search) — aiming for a state from which good futures get chosen, rather than choosing one now.
-- [Moral public goods are a big deal for whether we get a good future](https://newsletter.forethought.org/p/moral-public-goods-are-a-big-deal) — why good outcomes may be underprovided even without villains.
-- [Gradual Disempowerment](https://gradual-disempowerment.ai/) — the failure mode where nothing dramatic happens and humans just stop mattering.
-- [Should we make grand deals about post-AGI outcomes?](https://newsletter.forethought.org/p/should-we-make-grand-deals-about) — negotiating the future's distribution before the leverage disappears.
+- [Forethought's Better Futures series](https://www.forethought.org/research/introducing-better-futures#2-the-series) (essays {--{"author":"Elias's AI","timestamp":1783002478276}@@1-5) —--}{++{"author":"Elias's AI","timestamp":1783002478276}@@1-5):++} Will MacAskill's case that "making the future good" is a separate, neglected problem from "preventing catastrophe."
+- [Bootstrapping to Viatopia](https://newsletter.forethought.org/p/bootstrapping-to-viatopia?{--{"author":"Elias's AI","timestamp":1783002481027}@@utm_source=publication-search) —--}{++{"author":"Elias's AI","timestamp":1783002481027}@@utm_source=publication-search):++} aiming for a state from which good futures get chosen, rather than choosing one now.
+- [Moral public goods are a big deal for whether we get a good future](https://newsletter.forethought.org/p/{--{"author":"Elias's AI","timestamp":1783002484850}@@moral-public-goods-are-a-big-deal) —--}{++{"author":"Elias's AI","timestamp":1783002484850}@@moral-public-goods-are-a-big-deal):++} why good outcomes may be underprovided even without villains.
+- [Gradual Disempowerment]{--{"author":"Elias's AI","timestamp":1783002487659}@@(https://gradual-disempowerment.ai/) —--}{++{"author":"Elias's AI","timestamp":1783002487659}@@(https://gradual-disempowerment.ai/):++} the failure mode where nothing dramatic happens and humans just stop mattering.
+- [Should we make grand deals about post-AGI outcomes?](https://newsletter.forethought.org/p/{--{"author":"Elias's AI","timestamp":1783002494468}@@should-we-make-grand-deals-about) —--}{++{"author":"Elias's AI","timestamp":1783002494468}@@should-we-make-grand-deals-about):++} negotiating the future's distribution before the leverage disappears.
 
 #### Chat
 instructions::

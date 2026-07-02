@@ -1,7 +1,7 @@
 ---
 id: e838cb7c-34a1-4249-8b57-d3698f80f1ad
 title: "Optional readings - Takeover threat modeling"
-tldr: The week's optional shelf — the key empirical papers (emergent misalignment, reward hacking, sleeper agents), conceptual frames for LLM psychology, the probability debates (P(misalignment), P(scheming), P(doom)), and the strongest skeptical takes worth steelmanning.
+tldr: {--{"author":"Elias's AI","timestamp":1783002389657}@@The week's optional shelf — the key --}{++{"author":"Elias's AI","timestamp":1783002389657}@@Key ++}empirical papers (emergent misalignment, reward hacking, sleeper agents), conceptual frames for LLM psychology, the {--{"author":"Elias's AI","timestamp":1783002389657}@@probability debates (P(misalignment), P(scheming), P(doom)),--}{++{"author":"Elias's AI","timestamp":1783002389657}@@P(misalignment)/P(scheming)/P(doom) debates,++} and the strongest skeptical takes worth steelmanning.
 summary_for_tutor: "A curated link collection of the week's optional readings on takeover threat modeling, grouped into: key papers (emergent misalignment, weird generalization, reward hacking in production RL, OpenAI scheming paper, sleeper agents, alignment faking), deeper sections of the Carlsmith scheming report, basic frames for thinking about AIs (simulators, shard theory, three-layer LLM psychology), and the P(misalignment)/P(scheming)/P(doom) debate including skeptical takes (AI as Normal Technology). Help the user pick by interest; discuss any they've read."
 ---
 
@@ -10,7 +10,7 @@ content::
 Optional extras for this week, grouped by what you want to go deeper on.
 
 **Key papers (5–30 min each)**
-- [Emergent misalignment](https://arxiv.org/abs/2502.17424) — finetuning a model to write insecure code makes it broadly evil; the result that surprised everyone.
+- [Emergent misalignment](https://arxiv.org/abs/2502.17424){--{"author":"Elias's AI","timestamp":1783002391558}@@ —--}{++{"author":"Elias's AI","timestamp":1783002391558}@@:++} finetuning a model to write insecure code makes it broadly evil; the result that surprised everyone.
 - [Weird generalization](https://arxiv.org/abs/2512.09742) — more evidence that narrow training moves broad behavior in unexpected ways.
 - [Reward hacking in production RL](https://assets.anthropic.com/m/74342f2c96095771/original/Natural-emergent-misalignment-from-reward-hacking-paper.pdf) — misalignment emerging naturally inside a real training pipeline, not a lab demo.
 - [OpenAI's scheming paper](https://www.antischeming.ai/) plus the [eval awareness post](https://www.lesswrong.com/posts/qgehQxiTXj53X49mM/sonnet-4-5-s-eval-gaming-seriously-undermines-alignment) — what happens to alignment evidence when models notice they're being tested.
