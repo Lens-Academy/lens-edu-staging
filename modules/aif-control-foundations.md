@@ -11,7 +11,7 @@ id:: 09e15e7a-52a3-4f61-9790-afa4854fdf5a
 
 #### Text
 content::
-**This week: AI control.** If we can't be sure AIs aren't scheming, can we still deploy them safely? This is Redwood Research's home {--{"author":"Elias's AI","timestamp":1783002168870}@@turf —--}{++{"author":"Elias's AI","timestamp":1783002168870}@@turf, and++} the week goes deeper into the technical weeds than the others. The *Control Measures & Empirical Work* module is optional; read it if the foundations grab you.
+**This week: AI control.** If we can't be sure AIs aren't scheming, can we still deploy them safely? This is Redwood Research's home turf, and the week goes deeper into the technical weeds than the others. The *Control Measures & Empirical Work* module is optional; read it if the foundations grab you.
 
 Key questions to hold while reading:
 - What is AI control? Why (or why not) research AI control?
@@ -20,7 +20,7 @@ Key questions to hold while reading:
 - What is the current state of control research? How might this change with more powerful AIs?
 - What happens after we do control?
 
-Before you start: note your initial {--{"author":"Elias's AI","timestamp":1783002170738}@@intuition — does--}{++{"author":"Elias's AI","timestamp":1783002170738}@@intuition. Does++} "keep a possibly-adversarial superhuman system safely contained while using it" sound tractable or doomed to you? Check back on that at the end of the week.
+Before you start: note your initial intuition. Does "keep a possibly-adversarial superhuman system safely contained while using it" sound tractable or doomed to you? Check back on that at the end of the week.
 
 # Lens:
 source:: [[../Lenses/AIF - The Case for AI Control]]
