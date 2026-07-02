@@ -9,7 +9,7 @@ title: "Timelines & Takeoff Modeling"
 # Submodule: Overview
 slug:: overview
 
-## Lens: Welcome to AI Futurism
+## Lens: Welcome{--{"author":"Elias's AI","timestamp":1782981784170}@@ to AI Futurism--}
 id:: 518ee434-6170-4352-81b7-b417dc2e6d9a
 
 #### Text
@@ -18,11 +18,18 @@ Welcome to **AI Futurism** — a four-week course on key future dynamics in fron
 
 The readings introduce conceptual frames and hypotheses in AI futurism that many practitioners find promising and/or that have stood the test of time. As you read, keep asking: do I agree with the thesis? How have its predictions fared in light of recent evidence?
 
-How to use this course:
-- Each week covers under 8 hours of foundational context on one topic.
+{++{"author":"Elias's AI","timestamp":1782981784170}@@The four weeks build on each other: **timelines and takeoff** (how fast is this coming?), **takeover threat modeling** (what could go wrong?), **control** (what can we do about it?), and **governance** (who decides?). An optional fifth module collects extended readings for going deeper.
+
+## Lens: ++}How to use this {--{"author":"Elias's AI","timestamp":1782981784170}@@course:--}{++{"author":"Elias's AI","timestamp":1782981784170}@@course
+id:: b470b88e-03b4-4537-9e5e-85ee49c5b847
+
+#### Text
+content::++}
+- Each week covers under 8 hours of foundational context on one {--{"author":"Elias's AI","timestamp":1782981784170}@@topic.--}{++{"author":"Elias's AI","timestamp":1782981784170}@@topic, followed by a group meeting.++}
 - Readings marked ⭐ are the priority if you only have ~1 hour.
 - Lenses marked *optional* are exactly that — follow curiosity, not completionism.
-- Exercises and key questions are designed for discussion groups; bring your answers to the meeting.
+- Exercises and key questions are designed for discussion groups; bring your answers to the meeting.{++{"author":"Elias's AI","timestamp":1782981784170}@@
+- Most reading lenses end in a tutor chat — use it to test your understanding against the reading, not to summarize it.++}
 
 **This week: timelines and takeoff.** Key questions to hold while reading:
 - What are key milestones to track in AI development?
@@ -30,11 +37,11 @@ How to use this course:
 - How quickly will powerful AIs arrive? (Takeoff speeds)
 - What do existing models say about these questions, and what are their key assumptions and parameters?
 - How powerful are AIs currently?
-- What implications does timelines/takeoff modeling have for AI strategy?
+- What implications does timelines/takeoff modeling have for AI strategy?{--{"author":"Elias's AI","timestamp":1782981784170}@@
 
 #### Chat
 instructions::
-The learner is starting Week 1 of an AI futurism course (timelines and takeoff modeling). Ask about their background (technical? policy? new to AI safety?) and what they currently believe about AI timelines — get an initial prediction on record for later comparison. Briefly orient them: this week covers intelligence explosion types, takeoff models, and capability measurement.
+The learner is starting Week 1 of an AI futurism course (timelines and takeoff modeling). Ask about their background (technical? policy? new to AI safety?) and what they currently believe about AI timelines — get an initial prediction on record for later comparison. Briefly orient them: this week covers intelligence explosion types, takeoff models, and capability measurement.--}
 
 # Submodule: Intelligence explosions
 slug:: intelligence-explosions
