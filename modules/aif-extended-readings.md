@@ -18,33 +18,33 @@ A good place to start if you want direction: [Concrete projects to prepare for s
 Each lens below is one topic: a curated set of links with enough context to decide whether it's your rabbit hole. Pick by what gripped you most during the four weeks — each topic lens has a tutor chat if you want help choosing or discussing.
 
 # Lens:
-optional:: true
-source:: [[../Lenses/Trading with AIs]]
+{--{"author":"Elias's AI","timestamp":1782987896698}@@optional:: true
+--}source:: [[../Lenses/Trading with AIs]]
 
-# Lens:
-optional:: true
+# Lens:{--{"author":"Elias's AI","timestamp":1782987896698}@@
+optional:: true--}
 source:: [[../Lenses/Power Concentration and Coups]]
 
 # Lens:
-optional:: true
-source:: [[../Lenses/Acausal Cooperation]]
+{--{"author":"Elias's AI","timestamp":1782987896698}@@optional:: true
+--}source:: [[../Lenses/Acausal Cooperation]]
 
-# Lens:
-optional:: true
+# Lens:{--{"author":"Elias's AI","timestamp":1782987896698}@@
+optional:: true--}
 source:: [[../Lenses/Moral Patienthood]]
 
 # Lens:
-optional:: true
-source:: [[../Lenses/AI Biorisk and Other X-Risk]]
+{--{"author":"Elias's AI","timestamp":1782987896698}@@optional:: true
+--}source:: [[../Lenses/AI Biorisk and Other X-Risk]]
 
-# Lens:
-optional:: true
+# Lens:{--{"author":"Elias's AI","timestamp":1782987896698}@@
+optional:: true--}
 source:: [[../Lenses/Model Specs and AI Character]]
 
 # Lens:
-optional:: true
-source:: [[../Lenses/Better Futures]]
+{--{"author":"Elias's AI","timestamp":1782987896698}@@optional:: true
+--}source:: [[../Lenses/Better Futures]]
 
-# Lens:
-optional:: true
+# Lens:{--{"author":"Elias's AI","timestamp":1782987896698}@@
+optional:: true--}
 source:: [[../Lenses/Space Governance]]
