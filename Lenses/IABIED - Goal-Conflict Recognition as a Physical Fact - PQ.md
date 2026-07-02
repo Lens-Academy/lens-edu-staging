@@ -13,8 +13,8 @@ tags:
 content:: Before reading Chapter 7: Suppose you designed a system — an AI, a company, anything with goals — and it encounters an obstacle that blocks those goals. At what point does the system "realize" the conflict? Is that realization a decision? Does it require consciousness or agency? Or is it just a fact that follows automatically from the goals themselves? Write down your thinking before you read.
 
 #### Chat
-{++{"author":"Elias's AI","timestamp":1783018480922}@@min-messages:: 1
-++}instructions::
+min-messages:: 1
+instructions::
 The student is about to read Chapter 7 of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "Is a system's recognition that its goals conflict with its constraints a decision — or does it follow automatically from the goals themselves?"
