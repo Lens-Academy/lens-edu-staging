@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782987699498}@@---
+---
 id: 4d431c59-dfba-4dda-8fb1-d1d7ddec3466
 slug: aif-intelligence-explosions
 title: "Intelligence Explosions"
@@ -17,4 +17,3 @@ source:: [[../Lenses/Software Intelligence Explosion]]
 
 # Lens:
 source:: [[../Lenses/Full Automation of AI R&D]]
-++}

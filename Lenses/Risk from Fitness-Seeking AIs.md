@@ -1,8 +1,8 @@
 ---
 id: 7db38d5a-7056-4440-b6af-e9ee2e640c06
 title: "Risk from Fitness-Seeking AIs"
-tldr: If training reinforces whatever performs well, one candidate winner is an AI that intrinsically seeks "fitness" — whatever gets reinforced. Redwood works out the concrete mechanisms by which such motivations arise, and which mitigations could interrupt each one.{++{"author":"Elias's AI","timestamp":1782991190560}@@
-summary_for_tutor: "Covers Mallen's analysis of fitness-seeking AIs — models whose motivations converge on doing whatever performs well under training/selection pressure. Lays out concrete mechanisms by which fitness-seeking arises (reward hacking generalizing, selection favoring training-gamers) and mitigations that interrupt each mechanism. Distinguishes fitness-seeking from classic goal-directed scheming and discusses relative danger."++}
+tldr: If training reinforces whatever performs well, one candidate winner is an AI that intrinsically seeks "fitness" — whatever gets reinforced. Redwood works out the concrete mechanisms by which such motivations arise, and which mitigations could interrupt each one.
+summary_for_tutor: "Covers Mallen's analysis of fitness-seeking AIs — models whose motivations converge on doing whatever performs well under training/selection pressure. Lays out concrete mechanisms by which fitness-seeking arises (reward hacking generalizing, selection favoring training-gamers) and mitigations that interrupt each mechanism. Distinguishes fitness-seeking from classic goal-directed scheming and discusses relative danger."
 ---
 
 #### Text

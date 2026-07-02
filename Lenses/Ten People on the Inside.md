@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1782987499354}@@---
+---
 id: 8e5b0173-e0ba-439b-ad3d-eb0c8df8848e
 title: "Ten People on the Inside"
 tldr: Suppose the lab doesn't care. What can ten safety-minded employees inside a racing frontier lab still accomplish? A five-minute, influential answer to the pessimistic case — and a job description some readers will recognize as their own.
@@ -21,4 +21,3 @@ Discussion topics to explore:
 - What should someone do NOW if they expect to be one of the ten?
 
 Ask whether the learner finds this empowering or alarming, and why.
-++}

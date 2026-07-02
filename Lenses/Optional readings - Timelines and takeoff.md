@@ -1,8 +1,8 @@
 ---
 id: 4862a1d4-82ef-4268-bc33-f1c4b920e155
-title: {--{"author":"Elias's AI","timestamp":1782987078141}@@"AIF--}{++{"author":"Elias's AI","timestamp":1782987078141}@@"Optional readings++} - {--{"author":"Elias's AI","timestamp":1782987078141}@@W1 Optional Readings"--}{++{"author":"Elias's AI","timestamp":1782987078141}@@Timelines and takeoff"
-tldr: Skeptics, empirics, and deeper takeoff models — the week's optional shelf. Cotra vs Narayanan disagreeing carefully, Epoch's case for multi-decade timelines, the returns-to-software-R&D fight, and what happens when the feedback loop reaches the physical world.++}{++{"author":"Elias's AI","timestamp":1782991119266}@@
-summary_for_tutor: "A curated link collection of the week's optional readings on timelines and takeoff, grouped into: debates and skeptics (Cotra/Narayanan conversation, Epoch's multi-decade timelines case, Broad Timelines), evidence from current AI (Redwood posts on productivity claims, large SWE tasks, affordability), and deeper takeoff modeling (returns to software R&D, Forethought's software intelligence explosion web app, compute-centric takeoff framework, scaling through 2030, the Industrial Explosion). Help the user pick by interest; discuss any they've read."++}
+title: "Optional readings - Timelines and takeoff"
+tldr: Skeptics, empirics, and deeper takeoff models — the week's optional shelf. Cotra vs Narayanan disagreeing carefully, Epoch's case for multi-decade timelines, the returns-to-software-R&D fight, and what happens when the feedback loop reaches the physical world.
+summary_for_tutor: "A curated link collection of the week's optional readings on timelines and takeoff, grouped into: debates and skeptics (Cotra/Narayanan conversation, Epoch's multi-decade timelines case, Broad Timelines), evidence from current AI (Redwood posts on productivity claims, large SWE tasks, affordability), and deeper takeoff modeling (returns to software R&D, Forethought's software intelligence explosion web app, compute-centric takeoff framework, scaling through 2030, the Industrial Explosion). Help the user pick by interest; discuss any they've read."
 ---
 
 #### Text

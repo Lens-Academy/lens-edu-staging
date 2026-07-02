@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782987840090}@@---
+---
 id: 0e902fa2-1fc7-4921-a2b7-f6e3cd24fe48
 slug: aif-lab-dynamics
 title: "Lab Dynamics"
@@ -14,4 +14,3 @@ source:: [[../Lenses/CEO Takeover Scenario]]
 
 # Lens:
 source:: [[../Lenses/Ten People on the Inside]]
-++}

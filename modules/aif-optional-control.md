@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782987819930}@@---
+---
 id: 0cc0b635-a837-4589-824f-1b0052a5da1c
 slug: aif-optional-control
 title: "Optional Readings"
@@ -8,4 +8,3 @@ title: "Optional Readings"
 
 # Lens:
 source:: [[../Lenses/Optional readings - Control]]
-++}

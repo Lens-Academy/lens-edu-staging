@@ -1,7 +1,7 @@
 ---
 id: ed1aaff0-ac16-4c23-bbec-4bc8c41301e9
-title: {--{"author":"Elias's AI","timestamp":1782987435939}@@"AIF - Empirical Control Research"--}{++{"author":"Elias's AI","timestamp":1782987435939}@@"Empirical Control Research"
-tldr: Control's distinctive claim is that it's evaluable now — and these are the flagship tests. Resampling protocols in Ctrl-Z, control-setting design in BashArena, and measuring whether models can sabotage real ML research code without getting caught.++}
+title: "Empirical Control Research"
+tldr: Control's distinctive claim is that it's evaluable now — and these are the flagship tests. Resampling protocols in Ctrl-Z, control-setting design in BashArena, and measuring whether models can sabotage real ML research code without getting caught.
 ---
 
 #### Text

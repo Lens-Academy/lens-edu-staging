@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782987765731}@@---
+---
 id: cec488fe-5db8-49a6-b82a-b58d8f35edc0
 slug: aif-optional-takeover
 title: "Optional Readings"
@@ -8,4 +8,3 @@ title: "Optional Readings"
 
 # Lens:
 source:: [[../Lenses/Optional readings - Takeover threat modeling]]
-++}

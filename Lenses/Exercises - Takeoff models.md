@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1782991157560}@@---
+---
 id: 5fb81621-8648-4025-830b-9bcf34d4ecdb
 title: "Exercises - Takeoff models"
 tldr: Two hands-on exercises for the AI Futures Model — compare it against the other takeoff models you've read, then plug your own parameters into the web app and defend the forecast that comes out.
@@ -24,4 +24,3 @@ max-chars:: 1200
 #### Chat
 instructions::
 The user just completed two exercises on the AI Futures Model: comparing it to other takeoff models, and running the web app with their own parameters. Build on their answers — probe why they chose their parameter values, what would change their median forecast, and how much weight quantitative models like this should get in strategy decisions.
-++}

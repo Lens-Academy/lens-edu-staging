@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782987743192}@@---
+---
 id: 19d6b0b8-c8cc-47a0-950f-aaf24a8df4e9
 slug: aif-motivations-and-scheming
 title: "What Will AIs Want?"
@@ -34,4 +34,3 @@ source:: [[../Lenses/Scheming AIs]]
 
 # Lens:
 source:: [[../Lenses/Exercise - Estimate P(scheming)]]
-++}

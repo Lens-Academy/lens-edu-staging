@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782987724786}@@---
+---
 id: 111744e7-32d0-44dc-bd4f-a302cfec0883
 slug: aif-optional-timelines-takeoff
 title: "Optional Readings"
@@ -8,4 +8,3 @@ title: "Optional Readings"
 
 # Lens:
 source:: [[../Lenses/Optional readings - Timelines and takeoff]]
-++}

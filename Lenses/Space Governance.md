@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1782987654205}@@---
+---
 id: 77493424-dd5b-492f-9474-6a361f4a7a2e
 title: "Space Governance"
 tldr: The far edge of the reading list, where AI futurism meets orbital mechanics — could Kessler syndrome block access to space, and will the compute buildout really escape Earth into orbital data centers?
@@ -14,4 +14,3 @@ The far edge of the reading list — where AI futurism meets orbital mechanics:
 #### Chat
 instructions::
 The user is exploring space governance readings. Discussion angles: whether debris risk is genuinely existential-adjacent or a recoverable setback; orbital data centers as an escape from terrestrial energy/regulatory constraints on the compute buildout (connect to Week 1's Industrial Explosion and scaling-through-2030 readings); who governs orbital infrastructure in a post-AGI world.
-++}

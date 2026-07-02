@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782987746696}@@---
+---
 id: 1739ed0b-fe28-4b20-b2f9-0acd40adef92
 slug: aif-takeover-scenarios
 title: "Takeover Scenarios"
@@ -17,4 +17,3 @@ source:: [[../Lenses/Another Outer Alignment Failure Story]]
 
 # Lens:
 source:: [[../Lenses/What Failure Looks Like]]
-++}

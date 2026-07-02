@@ -1,7 +1,7 @@
 ---
 id: c40f1c6c-938e-44fc-95df-412fa13074b5
-title: {--{"author":"Elias's AI","timestamp":1782987224782}@@"AIF - What--}{++{"author":"Elias's AI","timestamp":1782987224782}@@"What++} Failure Looks Like"{++{"author":"Elias's AI","timestamp":1782987224782}@@
-tldr: The 2019 classic that replaced the robot-uprising picture with two quieter failure modes — a world optimized for measurable proxies drifting from what we value ("whimper"), and influence-seeking systems cashing in accumulated power ("bang"). Much of the field's vocabulary starts here.++}
+title: "What Failure Looks Like"
+tldr: The 2019 classic that replaced the robot-uprising picture with two quieter failure modes — a world optimized for measurable proxies drifting from what we value ("whimper"), and influence-seeking systems cashing in accumulated power ("bang"). Much of the field's vocabulary starts here.
 ---
 
 #### Text

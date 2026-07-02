@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1782991166797}@@---
+---
 id: 2d98441d-45dd-498a-8bd7-fbcad7564efd
 title: "Exercises - Measuring AI progress"
 tldr: You've now seen two rival ways to measure AI progress — Epoch's composite index and METR's time horizons. Time to pick a side, defend it, and then try to do better than both.
@@ -24,4 +24,3 @@ max-chars:: 1200
 #### Chat
 instructions::
 The user just completed two exercises comparing ECI and METR time horizons and proposing better capability measures. Build on their answers — stress-test their preferred metric with failure cases (benchmark contamination, domain gaps, human-baseline quality) and connect back to the week's question: how powerful are AIs *currently*?
-++}

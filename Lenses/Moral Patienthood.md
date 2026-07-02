@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1782987633503}@@---
+---
 id: 8f464aae-60b3-4738-be95-fe35bce827a2
 title: "Moral Patienthood"
 tldr: Might the AIs themselves matter morally? The field went from fringe to Anthropic hiring for it in about two years. Carlsmith on the stakes, Eleos on the foundations, and the empirical work on whether models can report anything true about their own inner lives.
@@ -29,4 +29,3 @@ Might the AIs themselves matter morally? The field went from fringe to Anthropic
 #### Chat
 instructions::
 The user is exploring AI moral patienthood readings. Key threads: the two-sided error risk (dismissing real moral patients vs attributing patienthood to systems that lack it, and the costs of each); why self-reports are weak but still studied; the introspection research line; how welfare considerations interact with safety measures (e.g. is training-against-preferences a welfare harm?). Help them choose readings or discuss ones they've read.
-++}

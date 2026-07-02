@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1782987475644}@@---
+---
 id: df925250-e42b-4afb-ad8c-55b956b2092e
 title: "Plans A B C and D"
 tldr: Strategy under uncertainty — what should be done about misalignment risk if coordination is great, decent, poor, or absent? Four plans, one per world, and an argument that we should prepare for the worlds we'll probably get, not the ones we want.
@@ -21,4 +21,3 @@ Discussion topics to explore:
 - How should AI companies make development/deployment decisions (this week's key question) differently under each plan?
 
 Ask what would move us from one plan-world to a better one, and who has leverage over that.
-++}

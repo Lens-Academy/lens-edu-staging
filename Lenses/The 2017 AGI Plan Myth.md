@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1782987588492}@@---
+---
 id: c0ef7e4d-f01f-4b10-bc67-f7498a483c07
 title: "The 2017 AGI Plan Myth"
 tldr: No, China's 2017 AI plan did not declare a goal of building AGI — a widely-cited claim built from mistranslation and repetition. Worth reading for the correction, and for the epistemics lesson about how race narratives get manufactured.
@@ -21,4 +21,3 @@ Discussion topics to explore:
 - What other load-bearing race-narrative claims deserve the same source-checking treatment?
 
 Ask the learner to name one belief about the AI race they hold on secondhand evidence and how they'd verify it.
-++}

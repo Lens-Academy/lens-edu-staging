@@ -1,7 +1,7 @@
 ---
 id: b8a12e3d-afbe-404f-828b-abee44d534f0
-title: {--{"author":"Elias's AI","timestamp":1782987311045}@@"AIF - The--}{++{"author":"Elias's AI","timestamp":1782987311045}@@"The++} Case for AI Control"{++{"author":"Elias's AI","timestamp":1782987311045}@@
-tldr: The founding document of the control agenda — even if we can't make AIs aligned, maybe we can make them unable to cause catastrophe even while they're trying. Monitoring, auditing, and protocols stress-tested against a red team playing the schemer.++}
+title: "The Case for AI Control"
+tldr: The founding document of the control agenda — even if we can't make AIs aligned, maybe we can make them unable to cause catastrophe even while they're trying. Monitoring, auditing, and protocols stress-tested against a red team playing the schemer.
 ---
 
 #### Text
