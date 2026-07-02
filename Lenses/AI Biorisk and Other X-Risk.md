@@ -1,7 +1,8 @@
 ---
 id: c89c7b3f-ac61-4d6f-bd3a-9f1d1fcfdd3f
 title: "AI Biorisk and Other X-Risk"
-tldr: Misaligned takeover isn't the only catastrophe channel. The biorisk taxonomy (LLM uplift vs biological design tools), a skeptical audit of the evals labs point to, superforecaster estimates, and the other misuse routes — totalitarianism and nuclear war included.
+tldr: Misaligned takeover isn't the only catastrophe channel. The biorisk taxonomy (LLM uplift vs biological design tools), a skeptical audit of the evals labs point to, superforecaster estimates, and the other misuse routes — totalitarianism and nuclear war included.{++{"author":"Elias's AI","timestamp":1782994958363}@@
+summary_for_tutor: "A curated link collection on AI biorisk and adjacent x-risks: the LLM-vs-biological-design-tools taxonomy, Epoch's skeptical audit of lab biorisk evals, RAND's biological knowledge benchmarking, superforecaster biorisk estimates, GovAI on dual-use capabilities, plus 80,000 Hours topic archives on engineered pandemics, catastrophic misuse, totalitarianism, and nuclear war. Keep discussion at the level of risk assessment and governance, not operational details of misuse."++}
 ---
 
 #### Text

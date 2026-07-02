@@ -1,8 +1,8 @@
 ---
 id: 2d71635b-572e-49d5-8f72-336c0ea663ee
 title: "Situational Awareness"
-tldr: The essays that shaped how Washington thinks about the AGI endgame — racing to the trillion-dollar cluster, securing weights against China, superalignment during an intelligence explosion, and why the national security state takes over ("The Project"). Read III-V, then argue with them.{++{"author":"Elias's AI","timestamp":1782994789090}@@
-summary_for_tutor: "An external-link lens (no imported article): the user reads essays III-V of Aschenbrenner's Situational Awareness (2024) on the site — AGI as a national-security matter, securing weights and algorithmic secrets against China, superalignment during an intelligence explosion, and the case that the US government will/should run the decisive AGI project. Written 2024: discuss which predictions have aged well or badly, and whether the race-but-secure frame is self-defeating (contrast MAIM/deterrence)."++}
+tldr: The essays that shaped how Washington thinks about the AGI endgame — racing to the trillion-dollar cluster, securing weights against China, superalignment during an intelligence explosion, and why the national security state takes over ("The Project"). Read III-V, then argue with them.
+summary_for_tutor: "An external-link lens (no imported article): the user reads essays III-V of Aschenbrenner's Situational Awareness (2024) on the site — AGI as a national-security matter, securing weights and algorithmic secrets against China, superalignment during an intelligence explosion, and the case that the US government will/should run the decisive AGI project. Written 2024: discuss which predictions have aged well or badly, and whether the race-but-secure frame is self-defeating (contrast MAIM/deterrence)."
 ---
 
 #### Text

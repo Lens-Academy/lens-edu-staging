@@ -7,13 +7,13 @@ title: "Takeoff Models & Measuring Progress"
 %% AI Futurism course, Week 1: the AI Futures takeoff model and capability measurement, with the reading list's exercises as separate lenses after each reading. %%
 
 # Lens:
-source:: [[../Lenses/AI Futures Model Dec 2025]]
+source:: [[../Lenses/AIF - AI Futures Model Dec 2025]]
 
 # Lens:
 source:: [[../Lenses/Exercises - Takeoff models]]
 
 # Lens:
-source:: [[../Lenses/Epoch Capabilities Index]]
+source:: [[../Lenses/AIF - Epoch Capabilities Index]]
 
 # Lens:
 source:: [[../Lenses/METR Time Horizons]]

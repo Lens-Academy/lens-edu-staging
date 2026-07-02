@@ -1,8 +1,8 @@
 ---
 id: ed1aaff0-ac16-4c23-bbec-4bc8c41301e9
 title: "Empirical Control Research"
-tldr: Control's distinctive claim is that it's evaluable now — and these are the flagship tests. Resampling protocols in Ctrl-Z, control-setting design in BashArena, and measuring whether models can sabotage real ML research code without getting caught.{++{"author":"Elias's AI","timestamp":1782994706468}@@
-summary_for_tutor: "Covers three empirical control works in one lens: Ctrl-Z (resampling suspicious agent actions as a control protocol in multi-step settings, improving the safety/usefulness frontier), BashArena (designing a realistic sysadmin control setting and lessons for informative settings), and Research Sabotage in ML Codebases (measuring whether models can subtly sabotage research code undetected). The original AI Control paper (arxiv 2312.06942) is linked as further reading."++}
+tldr: Control's distinctive claim is that it's evaluable now — and these are the flagship tests. Resampling protocols in Ctrl-Z, control-setting design in BashArena, and measuring whether models can sabotage real ML research code without getting caught.
+summary_for_tutor: "Covers three empirical control works in one lens: Ctrl-Z (resampling suspicious agent actions as a control protocol in multi-step settings, improving the safety/usefulness frontier), BashArena (designing a realistic sysadmin control setting and lessons for informative settings), and Research Sabotage in ML Codebases (measuring whether models can subtly sabotage research code undetected). The original AI Control paper (arxiv 2312.06942) is linked as further reading."
 ---
 
 #### Text

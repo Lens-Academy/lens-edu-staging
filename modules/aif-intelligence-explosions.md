@@ -7,13 +7,13 @@ title: "Intelligence Explosions"
 %% AI Futurism course, Week 1: intelligence explosion readings. %%
 
 # Lens:
-source:: [[../Lenses/Three Types of Intelligence Explosion]]
+source:: [[../Lenses/AIF - Three Types of Intelligence Explosion]]
 
 # Lens:
-source:: [[../Lenses/AI Capability Levels for AI R&D]]
+source:: [[../Lenses/AIF - AI Capability Levels for AI R&D]]
 
 # Lens:
-source:: [[../Lenses/Software Intelligence Explosion]]
+source:: [[../Lenses/AIF - Software Intelligence Explosion]]
 
 # Lens:
-source:: [[../Lenses/Full Automation of AI R&D]]
+source:: [[../Lenses/AIF - Full Automation of AI R&D]]

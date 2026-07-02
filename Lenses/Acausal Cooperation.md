@@ -1,7 +1,8 @@
 ---
 id: 656be8ec-1fb9-489d-bbf9-4df964b690ca
 title: "Acausal Cooperation"
-tldr: The strangest corner of the curriculum — cooperation between agents that can never causally interact, mediated only by correlated decision-making. Evidential cooperation in large worlds, gently explained, with the objections that make most people bounce off.
+tldr: The strangest corner of the curriculum — cooperation between agents that can never causally interact, mediated only by correlated decision-making. Evidential cooperation in large worlds, gently explained, with the objections that make most people bounce off.{++{"author":"Elias's AI","timestamp":1782994921954}@@
+summary_for_tutor: "A curated link collection on acausal cooperation / ECL (evidential cooperation in large worlds): the ECL explainer, objections & FAQ, and the original multiverse-wide cooperation paper. Be ready to give a decision theory primer (CDT/EDT/FDT, twin prisoner's dilemmas, correlation between decision procedures). Note: the reading list marks these as largely superseded by a newer acausal reading list maintained by Chi — reach out via facilitator for the current version."++}
 ---
 
 #### Text

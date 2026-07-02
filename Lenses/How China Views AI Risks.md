@@ -1,8 +1,8 @@
 ---
 id: f22a254b-b5e1-4090-924d-2ea0358a8467
 title: "How China Views AI Risks"
-tldr: Most Western AI strategy contains a load-bearing assumption about what "China" wants. Sheehan replaces the caricature with the actual landscape — including a Chinese frontier-safety community pushing catastrophic-risk concerns you probably didn't know existed.{++{"author":"Elias's AI","timestamp":1782994840051}@@
-summary_for_tutor: "Covers Sheehan's Carnegie analysis of how China views AI risks: the Chinese policy ecosystem's evolving attention to frontier/catastrophic risks beyond content control, key actors (scientists, ministries, party organs), how safety concerns interact with development ambitions, and implications for US-China engagement on AI risk despite strategic rivalry."++}
+tldr: Most Western AI strategy contains a load-bearing assumption about what "China" wants. Sheehan replaces the caricature with the actual landscape — including a Chinese frontier-safety community pushing catastrophic-risk concerns you probably didn't know existed.
+summary_for_tutor: "Covers Sheehan's Carnegie analysis of how China views AI risks: the Chinese policy ecosystem's evolving attention to frontier/catastrophic risks beyond content control, key actors (scientists, ministries, party organs), how safety concerns interact with development ambitions, and implications for US-China engagement on AI risk despite strategic rivalry."
 ---
 
 #### Text

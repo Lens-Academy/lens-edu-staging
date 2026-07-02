@@ -1,7 +1,8 @@
 ---
 id: 8f464aae-60b3-4738-be95-fe35bce827a2
 title: "Moral Patienthood"
-tldr: Might the AIs themselves matter morally? The field went from fringe to Anthropic hiring for it in about two years. Carlsmith on the stakes, Eleos on the foundations, and the empirical work on whether models can report anything true about their own inner lives.
+tldr: Might the AIs themselves matter morally? The field went from fringe to Anthropic hiring for it in about two years. Carlsmith on the stakes, Eleos on the foundations, and the empirical work on whether models can report anything true about their own inner lives.{++{"author":"Elias's AI","timestamp":1782994952302}@@
+summary_for_tutor: "A curated link collection on AI moral patienthood: Carlsmith on the stakes of AI moral status (two-sided error risk), foundations mostly from Eleos AI (consciousness science, Taking AI Welfare Seriously, key concepts, strategy, research priorities), and empirical introspection/self-report work (why self-reports are insufficient but studied anyway, emergent introspective awareness, Looking Inward, Kyle Fish interview, Anthropic system card welfare sections). Discuss how welfare considerations interact with safety measures."++}
 ---
 
 #### Text

@@ -1,8 +1,8 @@
 ---
 id: 935ed298-b077-43c8-8f2d-5b7bbca288f1
 title: "Areas of Control Work"
-tldr: The map of the control field — protocol design, settings and benchmarks, control evaluations, the science of scheming-relevant capabilities, and getting it all into lab practice. Useful for orientation, and for spotting where you might contribute.{++{"author":"Elias's AI","timestamp":1782994540915}@@
-summary_for_tutor: "Covers Greenblatt's overview partitioning control work into areas: developing control protocols and countermeasures, building realistic settings/benchmarks for control evaluations, running evaluations against red-team attack policies, the science of scheming-relevant capabilities (collusion, sabotage ability), and integrating control into lab practice and safety cases. Useful for discussing where the learner could contribute."++}
+tldr: The map of the control field — protocol design, settings and benchmarks, control evaluations, the science of scheming-relevant capabilities, and getting it all into lab practice. Useful for orientation, and for spotting where you might contribute.
+summary_for_tutor: "Covers Greenblatt's overview partitioning control work into areas: developing control protocols and countermeasures, building realistic settings/benchmarks for control evaluations, running evaluations against red-team attack policies, the science of scheming-relevant capabilities (collusion, sabotage ability), and integrating control into lab practice and safety cases. Useful for discussing where the learner could contribute."
 ---
 
 #### Text

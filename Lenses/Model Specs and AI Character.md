@@ -1,7 +1,8 @@
 ---
 id: 5c16e16f-5d97-4376-9116-15f60ccca0dc
 title: "Model Specs and AI Character"
-tldr: The documents that define who the AIs are supposed to be — arguably the highest-leverage pages in the industry. Why character matters even if alignment partially fails, whether early choices stick across generations, and the actual specs from every major lab as primary sources.
+tldr: The documents that define who the AIs are supposed to be — arguably the highest-leverage pages in the industry. Why character matters even if alignment partially fails, whether early choices stick across generations, and the actual specs from every major lab as primary sources.{++{"author":"Elias's AI","timestamp":1782994962986}@@
+summary_for_tutor: "A curated link collection on model specs and AI character: why character matters (Forethought's importance of AI character, spec-if-alignment-fails, stickiness in behavioral design, good citizen not just assistant) and the primary sources (Claude's Constitution, Model Spec Midtraining, OpenAI Model Spec, spec stress-testing, the Claude 4.5 Opus soul document, Claude's Character, Constitutional AI). Encourage reading at least one spec as primary source and critiquing a specific clause; connect to Week 2's persona selection model."++}
 ---
 
 #### Text

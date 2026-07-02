@@ -1,7 +1,8 @@
 ---
 id: 77493424-dd5b-492f-9474-6a361f4a7a2e
 title: "Space Governance"
-tldr: The far edge of the reading list, where AI futurism meets orbital mechanics — could Kessler syndrome block access to space, and will the compute buildout really escape Earth into orbital data centers?
+tldr: The far edge of the reading list, where AI futurism meets orbital mechanics — could Kessler syndrome block access to space, and will the compute buildout really escape Earth into orbital data centers?{++{"author":"Elias's AI","timestamp":1782994994193}@@
+summary_for_tutor: "A curated link collection on space governance: Forethought on whether space debris (Kessler syndrome) could block access to outer space, and on whether data centers in space are realistic (economics vs physics of orbital compute). Connect to Week 1's Industrial Explosion and scaling-constraints readings."++}
 ---
 
 #### Text

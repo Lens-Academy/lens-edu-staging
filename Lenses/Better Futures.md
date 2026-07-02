@@ -1,7 +1,8 @@
 ---
 id: 228fd981-db45-4b2d-b352-ba6883e57c50
 title: "Better Futures"
-tldr: Suppose we survive — then what? Making the future good is a separate, neglected problem from preventing catastrophe. MacAskill's Better Futures series, viatopia, gradual disempowerment, and whether to strike grand bargains about post-AGI outcomes while humans still have leverage.
+tldr: Suppose we survive — then what? Making the future good is a separate, neglected problem from preventing catastrophe. MacAskill's Better Futures series, viatopia, gradual disempowerment, and whether to strike grand bargains about post-AGI outcomes while humans still have leverage.{++{"author":"Elias's AI","timestamp":1782994967217}@@
+summary_for_tutor: "A curated link collection on post-AGI governance and better futures: Forethought's Better Futures series (surviving vs flourishing as distinct problems), Bootstrapping to Viatopia (preserve option value and good decision processes rather than lock in a vision), moral public goods, Gradual Disempowerment (catastrophe with no discrete failure), and grand deals about post-AGI outcomes struck while humans retain leverage."++}
 ---
 
 #### Text

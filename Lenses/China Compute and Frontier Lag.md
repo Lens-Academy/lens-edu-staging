@@ -1,8 +1,8 @@
 ---
 id: 528e3daa-5378-4282-9ceb-26822a74cd4e
 title: "China Compute and Frontier Lag"
-tldr: Two Epoch analyses that put numbers on the US-China race — why domestic chip constraints keep Chinese compute behind for years, and the data showing Chinese models lag the US frontier by about seven months. Antidotes to both "China is about to win" and "China doesn't matter."{++{"author":"Elias's AI","timestamp":1782994887133}@@
-summary_for_tutor: "Covers two Epoch AI analyses in one lens: (1) why China isn't about to leap ahead on compute — domestic chip production constraints (SMIC capacity, yields, lithography limits) keep Chinese AI compute well behind Western supply for years even under aggressive assumptions; (2) data showing Chinese frontier models have lagged the US frontier by ~7 months on average since 2023 on Epoch's capability index. Discuss whether a 7-month lag is strategically large or small given takeoff speeds."++}
+tldr: Two Epoch analyses that put numbers on the US-China race — why domestic chip constraints keep Chinese compute behind for years, and the data showing Chinese models lag the US frontier by about seven months. Antidotes to both "China is about to win" and "China doesn't matter."
+summary_for_tutor: "Covers two Epoch AI analyses in one lens: (1) why China isn't about to leap ahead on compute — domestic chip production constraints (SMIC capacity, yields, lithography limits) keep Chinese AI compute well behind Western supply for years even under aggressive assumptions; (2) data showing Chinese frontier models have lagged the US frontier by ~7 months on average since 2023 on Epoch's capability index. Discuss whether a 7-month lag is strategically large or small given takeoff speeds."
 ---
 
 #### Text

@@ -1,8 +1,8 @@
 ---
 id: c12ef072-c8ae-449c-bcf1-d3a144dff5d8
 title: "Jankily Controlling Superintelligence"
-tldr: Everyone agrees control breaks down for wildly superhuman AI — but how fast, and is desperate, degraded control of early superintelligence worth attempting anyway? A deliberately uncomfortable read about a position nobody wants to be in.{++{"author":"Elias's AI","timestamp":1782994663285}@@
-summary_for_tutor: "Covers Greenblatt's exploration of applying control measures to early superintelligent AI: the measures become janky (much weaker guarantees, higher risk), but degraded control might still meaningfully reduce risk during a dangerous transition — making takeover attempts costlier and buying time — while being clear this is a bad position to be in. Discusses which measures degrade gracefully vs fail cliff-like."++}
+tldr: Everyone agrees control breaks down for wildly superhuman AI — but how fast, and is desperate, degraded control of early superintelligence worth attempting anyway? A deliberately uncomfortable read about a position nobody wants to be in.
+summary_for_tutor: "Covers Greenblatt's exploration of applying control measures to early superintelligent AI: the measures become janky (much weaker guarantees, higher risk), but degraded control might still meaningfully reduce risk during a dangerous transition — making takeover attempts costlier and buying time — while being clear this is a bad position to be in. Discusses which measures degrade gracefully vs fail cliff-like."
 ---
 
 #### Text

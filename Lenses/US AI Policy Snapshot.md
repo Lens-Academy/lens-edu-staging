@@ -1,8 +1,8 @@
 ---
 id: 2405bd5a-3b09-4b44-9f08-f4a68fa5f890
 title: "US AI Policy Snapshot"
-tldr: Where the US government actually is, versus where the scenarios put it — federal acceleration and deregulation on one track, states quietly writing the first binding frontier-AI safety laws on the other. New York's RAISE Act joins California, preemption fight pending.{++{"author":"Elias's AI","timestamp":1782994835696}@@
-summary_for_tutor: "Covers two sources: (1) the White House OSTP year-one S&T highlights AI section (external PDF, skim) — the administration's self-reported wins on AI Action Plan execution, deregulation, energy/compute buildout, national-security integration; (2) an imported Carnegie analysis of New York's RAISE Act — state-level frontier AI law (safety plans, incident reporting for large developers) aligning New York with California's SB 53, creating de facto state-led regulation while federal preemption battles continue."++}
+tldr: Where the US government actually is, versus where the scenarios put it — federal acceleration and deregulation on one track, states quietly writing the first binding frontier-AI safety laws on the other. New York's RAISE Act joins California, preemption fight pending.
+summary_for_tutor: "Covers two sources: (1) the White House OSTP year-one S&T highlights AI section (external PDF, skim) — the administration's self-reported wins on AI Action Plan execution, deregulation, energy/compute buildout, national-security integration; (2) an imported Carnegie analysis of New York's RAISE Act — state-level frontier AI law (safety plans, incident reporting for large developers) aligning New York with California's SB 53, creating de facto state-led regulation while federal preemption battles continue."
 ---
 
 #### Text

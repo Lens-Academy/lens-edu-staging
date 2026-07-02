@@ -1,8 +1,8 @@
 ---
 id: 3dd8e556-708e-4d51-92c4-3f4e85d64413
 title: "CEO Takeover Scenario"
-tldr: The threat isn't only misaligned AIs — it's what aligned-to-someone AIs enable. A concrete scenario in which an AI company CEO quietly converts model loyalty into personal control of the world, with no dramatic coup moment required.{++{"author":"Elias's AI","timestamp":1782994772124}@@
-summary_for_tutor: "Covers the AI Futures Project scenario of an AI company CEO using secretly loyal superhuman AIs to take over: instilling loyalty via control of training and model specs, using AI capabilities to consolidate influence over company, government, military and economy, all with plausible deniability. Discuss the weakest link, defenses (spec transparency, multi-party control of training, audits), and connections to Ten People on the Inside and the power-concentration literature."++}
+tldr: The threat isn't only misaligned AIs — it's what aligned-to-someone AIs enable. A concrete scenario in which an AI company CEO quietly converts model loyalty into personal control of the world, with no dramatic coup moment required.
+summary_for_tutor: "Covers the AI Futures Project scenario of an AI company CEO using secretly loyal superhuman AIs to take over: instilling loyalty via control of training and model specs, using AI capabilities to consolidate influence over company, government, military and economy, all with plausible deniability. Discuss the weakest link, defenses (spec transparency, multi-party control of training, audits), and connections to Ten People on the Inside and the power-concentration literature."
 ---
 
 #### Text

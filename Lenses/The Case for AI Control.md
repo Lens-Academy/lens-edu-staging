@@ -1,8 +1,8 @@
 ---
 id: b8a12e3d-afbe-404f-828b-abee44d534f0
-title: "The Case for AI Control"
-tldr: The founding document of the control agenda — even if we can't make AIs aligned, maybe we can make them unable to cause catastrophe even while they're trying. Monitoring, auditing, and protocols stress-tested against a red team playing the schemer.{++{"author":"Elias's AI","timestamp":1782994531385}@@
-summary_for_tutor: "Covers Greenblatt & Shlegeris's case for AI control: rather than only ensuring AIs aren't misaligned, ensure that even intentionally subversive AIs can't cause unacceptable outcomes — via monitoring, restricted affordances, auditing, and protocols evaluated against a red team playing the schemer. Control is designed to be robust to alignment failing, and to extract safe useful work from early transformative AI. Audio alternative: Buck on the 80,000 Hours podcast."++}
+title: {--{"author":"Elias's AI","timestamp":1782995069627}@@"The--}{++{"author":"Elias's AI","timestamp":1782995069627}@@"⭐ The++} Case for AI Control"
+tldr: The founding document of the control agenda — even if we can't make AIs aligned, maybe we can make them unable to cause catastrophe even while they're trying. Monitoring, auditing, and protocols stress-tested against a red team playing the schemer.
+summary_for_tutor: "Covers Greenblatt & Shlegeris's case for AI control: rather than only ensuring AIs aren't misaligned, ensure that even intentionally subversive AIs can't cause unacceptable outcomes — via monitoring, restricted affordances, auditing, and protocols evaluated against a red team playing the schemer. Control is designed to be robust to alignment failing, and to extract safe useful work from early transformative AI. Audio alternative: Buck on the 80,000 Hours podcast."
 ---
 
 #### Text
