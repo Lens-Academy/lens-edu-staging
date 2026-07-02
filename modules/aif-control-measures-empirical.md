@@ -4,7 +4,7 @@ slug: aif-control-measures-empirical
 title: "Control Measures & Empirical Work"
 ---
 
-%% AI Futurism course, Week 3: control measures and empirical research. The reading list marks these groups as "can treat as optional bc they're more in the technical weeds" — the module is imported as optional at the course level. %%
+%% AI Futurism course, Week 3: control measures and empirical research. The reading list marks these groups as "can treat as optional bc they're more in the technical {--{"author":"Elias's AI","timestamp":1783002173684}@@weeds" —--}{++{"author":"Elias's AI","timestamp":1783002173684}@@weeds", so++} the module is imported as optional at the course level. %%
 
 # Lens:
 source:: [[../Lenses/AIF - Control Measures Overview]]

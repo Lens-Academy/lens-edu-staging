@@ -11,7 +11,7 @@ id:: 91cf36ed-a706-4b99-b0ad-3b37f2404bd8
 
 #### Text
 content::
-Welcome to **AI Futurism** — a four-week course on key future dynamics in frontier AI development, based on the reading list curated by Alexa Pan for Redwood Research's Astra Strategy Fellowship.
+Welcome to **AI {--{"author":"Elias's AI","timestamp":1783002225351}@@Futurism** —--}{++{"author":"Elias's AI","timestamp":1783002225351}@@Futurism**,++} a four-week course on key future dynamics in frontier AI development, based on the reading list curated by Alexa Pan for Redwood Research's Astra Strategy Fellowship.
 
 The readings introduce conceptual frames and hypotheses in AI futurism that many practitioners find promising and/or that have stood the test of time. As you read, keep asking: do I agree with the thesis? How have its predictions fared in light of recent evidence?
 
