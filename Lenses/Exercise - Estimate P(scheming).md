@@ -1,7 +1,8 @@
-{++{"author":"AI","timestamp":1782987179805}@@---
+{++{"author":"Elias's AI","timestamp":1782991170611}@@---
 id: e0700622-8a2a-4262-8106-c02c35fe4424
 title: "Exercise - Estimate P(scheming)"
 tldr: Put a number on it. Twice — once tracking only Carlsmith's arguments, once all-things-considered. The gap between your two numbers is where the interesting conversation lives.
+summary_for_tutor: "An exercise page (no reading): the user estimates P(scheming) twice — once based only on Carlsmith's report arguments (his own estimate was ~25% for a specific operationalization), once all-things-considered — and explains the gap. Probe which requirements/arguments (counting argument, simplicity, goal-guarding) they weight most and what evidence from current models would move them."
 ---
 
 #### Text

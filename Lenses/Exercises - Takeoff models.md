@@ -1,7 +1,8 @@
-{++{"author":"AI","timestamp":1782987087226}@@---
+{++{"author":"Elias's AI","timestamp":1782991157560}@@---
 id: 5fb81621-8648-4025-830b-9bcf34d4ecdb
 title: "Exercises - Takeoff models"
 tldr: Two hands-on exercises for the AI Futures Model — compare it against the other takeoff models you've read, then plug your own parameters into the web app and defend the forecast that comes out.
+summary_for_tutor: "An exercise page (no reading): two discussion-group exercises on the AI Futures Model the user just read — (1) compare it structurally to other takeoff models from the week (e.g. Forethought's software intelligence explosion analysis), (2) run the AI Futures web app with their own parameters and report/reflect on the resulting median takeoff forecast."
 ---
 
 #### Text

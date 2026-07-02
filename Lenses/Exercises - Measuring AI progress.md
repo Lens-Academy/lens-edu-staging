@@ -1,7 +1,8 @@
-{++{"author":"AI","timestamp":1782987095537}@@---
+{++{"author":"Elias's AI","timestamp":1782991166797}@@---
 id: 2d98441d-45dd-498a-8bd7-fbcad7564efd
 title: "Exercises - Measuring AI progress"
 tldr: You've now seen two rival ways to measure AI progress — Epoch's composite index and METR's time horizons. Time to pick a side, defend it, and then try to do better than both.
+summary_for_tutor: "An exercise page (no reading): two discussion-group exercises on the measurement readings — (1) contrast the methodologies of Epoch's ECI (composite latent benchmark scale) and METR's time horizon (human-labor-anchored task length at 50% success) and defend a preference for extrapolation, (2) propose a better measure of capabilities or AI R&D progress, or defend an existing one."
 ---
 
 #### Text
