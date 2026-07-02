@@ -55,6 +55,10 @@ Optional extras for this week, grouped by what you want to go deeper on.
 **The field today**
 - [Shallow review of technical AI safety, 2025](https://www.lesswrong.com/posts/Wti4Wr7Cf5ma3FGWa/shallow-review-of-technical-ai-safety-2025-2) (1 hr, skim): a map of who is working on what across the whole field.
 
-#### Chat
+#### {++{"author":"Elias's AI","timestamp":1783023471118}@@Text
+content::
+Pick the claim from this week you're most eager to attack or defend — your P(scheming), emergent misalignment, or the whole doom case — and have the tutor route you to the reading that tests it hardest.
+
+#### ++}Chat
 instructions::
 The user is browsing optional readings on misaligned AI takeover threat modeling. Help them choose: want empirical evidence → the papers group; want conceptual frames → basic frames group; want probability arguments → the P(misalignment)/P(scheming)/P(doom) groups; want skeptical takes → AI as Normal Technology, Why I'm not afraid. Discuss content with them if they've read any.

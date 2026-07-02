@@ -12,7 +12,11 @@ content::
 #### Article
 source:: [[../articles/shlegeris-thoughts-on-the-conservative-assumptions-in-ai-control]]
 
-#### Chat
+#### {++{"author":"Elias's AI","timestamp":1783023470403}@@Text
+content::
+Control evals assume a perfectly coordinated adversary that already knows your whole protocol. Which of those assumptions would you relax first — and does relaxing it still leave you safe? Pick one and defend the call to the tutor.
+
+#### ++}Chat
 instructions::
 TLDR of what the user just read: Shlegeris examines the deliberately conservative assumptions in control evaluations (the AI knows the protocol, coordinates perfectly across instances, picks the optimal attack): why conservatism gives robust guarantees and simplifies evaluation, where it's too conservative (real schemers face uncertainty, coordination limits, and exploration hacking constraints), and how relaxing assumptions could unlock cheaper safety measures.
 

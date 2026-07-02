@@ -12,7 +12,11 @@ Everyone agrees control breaks down for wildly superhuman AI. But how *fast* doe
 #### Article
 source:: [[../articles/greenblatt-jankily-controlling-superintelligence]]
 
-#### Chat
+#### {++{"author":"Elias's AI","timestamp":1783023454132}@@Text
+content::
+Where exactly do you draw the "control is no longer load-bearing — stop deploying" line? Pick a threshold now, then defend it to the tutor against the charge that planning for "janky control" just normalizes pressing on when you should halt.
+
+#### ++}Chat
 instructions::
 TLDR of what the user just read: Greenblatt explores applying control measures to early superintelligent AI, acknowledging the measures become "janky" (much weaker guarantees, higher risk) but arguing degraded control might still meaningfully reduce risk during a dangerous transition period, e.g. by making takeover attempts costlier and buying time for better solutions, while being clear this is a bad position to be in.
 

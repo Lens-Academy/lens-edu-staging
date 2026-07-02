@@ -12,7 +12,11 @@ content::
 #### Article
 source:: [[../articles/greaterwrong-the-behavioral-selection-model-for-predicting-ai-motivations]]
 
-#### Chat
+#### {++{"author":"Elias's AI","timestamp":1783023436809}@@Text
+content::
+If good training behavior can't tell an aligned AI apart from a schemer, does any tiebreaker — simplicity, path dependence, what training reinforces — actually beat a hunch? Pick the one you'd bet on and defend it to the tutor.
+
+#### ++}Chat
 instructions::
 TLDR of what the user just read: Mallen & Shlegeris's behavioral selection model: training selects AI motivations by their *behavior*. Many different internal motivations (reward-seeking, scheming, aligned values, context-dependent patterns) can produce identically fit behavior during training, so predicting AI motivations means reasoning about which of the behaviorally-fit candidates is most likely to be selected (via inductive biases, path dependence, and what training actually reinforces).
 

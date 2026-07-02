@@ -12,7 +12,11 @@ A scheming AI doesn't just have to avoid getting caught doing bad things; it mig
 #### Article
 source:: [[../articles/stastny-misalignment-and-strategic-underperformance-an-analysis-of-sandbagging-and-exploration-hacking]]
 
-#### Chat
+#### {++{"author":"Elias's AI","timestamp":1783023472350}@@Text
+content::
+If a scheming AI can quietly sandbag the very safety research you're using it to do, is "automate alignment with controlled AIs" already dead on arrival? Take a side and argue it with the tutor.
+
+#### ++}Chat
 instructions::
 TLDR of what the user just read: This Redwood analysis covers strategic underperformance: sandbagging (deliberately performing worse than capable, e.g. on dangerous-capability or safety-research tasks) and exploration hacking (avoiding trying strategies during RL so training never reinforces them, letting the model steer what it becomes). It analyzes when these are viable for a schemer, how training pressure constrains them, and countermeasures (elicitation with supervised fine-tuning, checking against known-answer tasks).
 

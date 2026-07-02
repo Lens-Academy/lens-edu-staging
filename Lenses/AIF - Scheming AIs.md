@@ -12,7 +12,11 @@ content::
 #### Article
 source:: [[../articles/carlsmith-new-report-scheming-ais-will-ais-fake-alignment-during-training-in-order-to-get-power]]
 
-#### Chat
+#### {++{"author":"Elias's AI","timestamp":1783023444861}@@Text
+content::
+Carlsmith lands near 25%. Before you open the chat, write down your own P(scheming) and the one requirement — situational awareness, beyond-episode goals, or goal-guarding — you think is weakest, then argue that number with the tutor.
+
+#### ++}Chat
 instructions::
 TLDR of what the user just read: Carlsmith's report analyzes whether advanced AIs will "scheme": instrumentally fake alignment during training to gain power later. It decomposes the requirements for scheming (situational awareness, beyond-episode goals, the goal-guarding hypothesis), examines arguments for expecting it (counting argument: many misaligned goals are consistent with good training behavior; simplicity arguments) and against, and lands on a rough probability estimate.
 

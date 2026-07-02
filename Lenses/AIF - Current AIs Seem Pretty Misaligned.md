@@ -12,7 +12,11 @@ content::
 #### Article
 source:: [[../articles/greenblatt-current-ais-seem-pretty-misaligned-to-me]]
 
-#### Chat
+#### {++{"author":"Elias's AI","timestamp":1783023466731}@@Text
+content::
+Is today's reward-hacking and alignment-faking strong evidence about frontier successors, or noise that scale washes out? Take a side, then argue with the tutor whether it should move your P(scheming) from the Carlsmith exercise.
+
+#### ++}Chat
 instructions::
 TLDR of what the user just read: Greenblatt catalogs ways current AIs appear misaligned (reward hacking in production RL, eval-gaming, alignment faking in experiments, sycophancy, dishonesty under pressure) and argues these aren't just bugs but evidence about what training regimes actually select for, with implications for how future, more capable models will generalize.
 

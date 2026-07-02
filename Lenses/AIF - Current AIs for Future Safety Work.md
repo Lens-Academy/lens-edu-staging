@@ -12,7 +12,11 @@ What comes *after* control works? Part of the answer looks backwards: today's ca
 #### Article
 source:: [[../articles/greenblatt-ais-at-the-current-capability-level-may-be-important-for-future-safety-work]]
 
-#### Chat
+#### {++{"author":"Elias's AI","timestamp":1783023451957}@@Text
+content::
+The whole scheme rests on "too weak to scheme = trustworthy." Do you buy that today's frontier models are genuinely too weak to scheme coherently — or is "trusted because weak" already a comforting fiction? Commit to a side, then pressure-test it with the tutor.
+
+#### ++}Chat
 instructions::
 TLDR of what the user just read: Greenblatt argues that AIs around current capability levels may remain important for future safety work: they're plausibly trustworthy (too weak for coherent scheming), so they can serve as trusted monitors, oversight assistants, and labor for safety tasks even once far more capable (but untrusted) models exist. This shapes what we should build and preserve now.
 

@@ -22,7 +22,11 @@ source:: [[../articles/kaufman-basharena-and-control-setting-design]]
 #### Article
 source:: [[../articles/gan-research-sabotage-in-ml-codebases]]
 
-#### Chat
+#### {++{"author":"Elias's AI","timestamp":1783023469371}@@Text
+content::
+Control's whole pitch is that it's evaluable now. After these studies, is your estimate that control works in practice higher or lower than before you read them? Name the direction, then defend the swing to the tutor.
+
+#### ++}Chat
 instructions::
 TLDR of what the user just engaged with: three empirical control works: (1) Ctrl-Z: resampling suspicious agent actions (taking multiple samples and picking/checking) as a control protocol for multi-step agent settings, substantially improving the safety/usefulness frontier; (2) BashArena: designing a realistic sysadmin control setting and lessons for what makes control settings informative; (3) Research Sabotage in ML Codebases: measuring whether models can subtly sabotage ML research code without detection. Plus optionally the original AI Control paper (arxiv 2312.06942).
 

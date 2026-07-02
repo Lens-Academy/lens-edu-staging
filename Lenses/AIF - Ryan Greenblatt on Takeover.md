@@ -12,7 +12,11 @@ How would a scheming AI actually *take over*? Ryan Greenblatt walked through his
 #### Article
 source:: [[../articles/shlegeris-ryan-on-the-80-000-hours-podcast]]
 
-#### Chat
+#### {++{"author":"Elias's AI","timestamp":1783023454368}@@Text
+content::
+Does takeover need a superhuman AI, or just one that's competent and numerous? Pick the single path you find most plausible and walk it end-to-end with the tutor — see where it needs the AI to be smarter than you assumed.
+
+#### ++}Chat
 instructions::
 TLDR of what the user just engaged with: Ryan Greenblatt's 80,000 Hours interview segment (~00:17–00:34) on takeover threat modeling: concrete paths from misaligned AI to catastrophe (e.g. AIs sabotaging safety work from inside labs, self-exfiltration, coordinating across deployments, escalating from rogue internal deployments to hard power) and which capability levels make which paths live.
 

@@ -12,7 +12,11 @@ content::
 #### Article
 source:: [[../articles/shlegeris-wincontinuelose-scenarios-and-executereplaceaudit-protocols]]
 
-#### Chat
+#### {++{"author":"Elias's AI","timestamp":1783023458349}@@Text
+content::
+Scarce audit budget, and every AI action forces execute/replace/audit. Where does the usefulness-versus-safety tradeoff bite hardest? Stake out a position and pressure-test it with the tutor.
+
+#### ++}Chat
 instructions::
 TLDR of what the user just read: Shlegeris formalizes control as a game between the lab and a potentially scheming AI: outcomes are win (catch the AI red-handed), continue (nothing decisive happens), or lose (the AI achieves catastrophe); protocols respond to each action by executing it, replacing it (resampling/deferring to trusted model), or auditing it (spending limited human oversight). Safety comes from making the AI's best attack yield a high catch-probability before a win for it.
 

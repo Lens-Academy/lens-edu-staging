@@ -12,7 +12,11 @@ content::
 #### Article
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
 
-#### Chat
+#### {++{"author":"Elias's AI","timestamp":1783023440976}@@Text
+content::
+Control's whole promise: you can extract safe, useful work from an AI that's actively trying to betray you. Before you read the counter-argument — do you believe that's achievable for early transformative AI? Commit to a yes or no, then defend it against the tutor.
+
+#### ++}Chat
 instructions::
 TLDR of what the user just read: Greenblatt & Shlegeris's case for AI control: instead of (only) trying to ensure AIs aren't misaligned, ensure that even intentionally subversive AIs can't cause unacceptable outcomes. This works via monitoring, restricted affordances, auditing, and protocols evaluated against a red team playing the schemer. Control is meant to be robust to alignment failing, and to buy time and safe useful work from early transformative AI.
 
