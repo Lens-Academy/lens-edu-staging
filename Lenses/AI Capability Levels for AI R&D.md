@@ -1,6 +1,7 @@
 ---
 id: d9c87c9f-2695-4db7-9773-84b8780f6c22
-title: "AIF - AI Capability Levels for AI R&D"
+title: {--{"author":"Elias's AI","timestamp":1782986990758}@@"AIF - AI--}{++{"author":"Elias's AI","timestamp":1782986990758}@@"AI++} Capability Levels for AI R&D"{++{"author":"Elias's AI","timestamp":1782986990758}@@
+tldr: '"When will powerful AI arrive?" is under-specified until you say how powerful. Greenblatt replaces vague terms like AGI with trackable milestones defined by one measurable thing: how much AIs accelerate AI R&D labor itself — the variable that drives takeoff dynamics.'++}
 ---
 
 #### Text

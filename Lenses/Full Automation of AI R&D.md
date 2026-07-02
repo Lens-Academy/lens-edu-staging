@@ -1,6 +1,7 @@
 ---
 id: 9f73d64c-3d19-4f13-8570-cb8ba1106d68
-title: "AIF - Full Automation of AI R&D"
+title: {--{"author":"Elias's AI","timestamp":1782987002731}@@"AIF - Full--}{++{"author":"Elias's AI","timestamp":1782987002731}@@"Full++} Automation of AI R&D"{++{"author":"Elias's AI","timestamp":1782987002731}@@
+tldr: Even if the "software-only singularity" fizzles, fully automating AI research still buys an enormous speed-up — millions of tireless researchers running around the clock at high serial speed. Fast progress doesn't depend on the diverging-returns assumption.++}
 ---
 
 #### Text

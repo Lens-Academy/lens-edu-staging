@@ -1,6 +1,7 @@
 ---
 id: 9cda26d1-d996-4269-8432-4da3631727d3
-title: "AIF - Software Intelligence Explosion"
+title: {--{"author":"Elias's AI","timestamp":1782987000449}@@"AIF - Software Intelligence Explosion"--}{++{"author":"Elias's AI","timestamp":1782987000449}@@"Software Intelligence Explosion"
+tldr: The most explosive feedback loop needs no new chips — AI automating AI research on a fixed compute stock. Whether that loop diverges hinges on one empirical parameter, the returns to software R&D. This report examines the evidence and finds a dramatic speed-up disturbingly plausible.++}
 ---
 
 #### Text

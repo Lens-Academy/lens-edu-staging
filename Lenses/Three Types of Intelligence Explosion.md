@@ -1,6 +1,7 @@
 ---
 id: 6d5e217f-c24a-4825-a83b-12dc7a8c764c
-title: "AIF - Three Types of Intelligence Explosion"
+title: {--{"author":"Elias's AI","timestamp":1782986986462}@@"AIF - Three--}{++{"author":"Elias's AI","timestamp":1782986986462}@@"Three++} Types of Intelligence Explosion"{++{"author":"Elias's AI","timestamp":1782986986462}@@
+tldr: Once AI can improve the inputs to AI development, progress compounds — but "intelligence explosion" is not one scenario. Forethought splits it into three feedback loops (software, AI technology, full industrial stack), each with different bottlenecks, speeds, and warning signs.++}
 ---
 
 #### Text
