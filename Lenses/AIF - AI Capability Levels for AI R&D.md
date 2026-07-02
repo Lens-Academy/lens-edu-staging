@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782974733248}@@---
+---
 id: d9c87c9f-2695-4db7-9773-84b8780f6c22
 title: "AIF - AI Capability Levels for AI R&D"
 ---
@@ -23,4 +23,3 @@ Discussion topics to explore:
 - How do these levels relate to the "Three Types of Intelligence Explosion" reading (which loop do the higher levels enable)?
 
 Check they can explain in their own words why AI R&D acceleration is the load-bearing variable for takeoff modeling.
-++}

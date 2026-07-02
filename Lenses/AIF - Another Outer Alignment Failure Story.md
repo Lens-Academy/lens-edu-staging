@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782977448599}@@---
+---
 id: 8a3cb06a-13f1-4678-9615-6422004da0d2
 title: "AIF - Another Outer Alignment Failure Story"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - What early warning signs appear in the story, and would our world notice them?
 
 Check they can articulate why this is called an OUTER alignment failure and contrast it with the Carlsmith scheming threat model.
-++}

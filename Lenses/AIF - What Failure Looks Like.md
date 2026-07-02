@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782977469783}@@---
+---
 id: c40f1c6c-938e-44fc-95df-412fa13074b5
 title: "AIF - What Failure Looks Like"
 ---
@@ -21,4 +21,3 @@ Discussion topics to explore:
 - The essay predates LLMs — where does it need updating?
 
 Check they can describe both failure modes in their own words and name one concrete present-day example of Part I dynamics.
-++}

@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782974785824}@@---
+---
 id: 0dfaea4c-fbe6-4336-ab33-205cae3ea7d1
 title: "AIF - AI Futures Model Dec 2025"
 ---
@@ -32,4 +32,3 @@ Discussion topics to explore:
 - What implications do these timelines/takeoff forecasts have for AI safety strategy (the week's final key question)?
 
 The user just completed two exercises: comparing this model to other takeoff models, and playing with the web app. Build on their answers.
-++}

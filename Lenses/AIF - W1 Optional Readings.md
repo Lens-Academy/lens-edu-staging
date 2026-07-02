@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782974833266}@@---
+---
 id: 4862a1d4-82ef-4268-bc33-f1c4b920e155
 title: "AIF - W1 Optional Readings"
 ---
@@ -27,4 +27,3 @@ Optional extras for this week — pick by curiosity, not completeness.
 #### Chat
 instructions::
 The user is browsing optional readings on timelines and takeoff modeling. Help them pick based on their interests: skeptical of fast timelines → Cotra/Narayanan, Epoch multi-decade case; interested in empirics → returns-to-software-R&D, affordability, SWE-tasks posts; interested in modeling → the Forethought and compute-centric takeoff models. Discuss any of them if the user has read them.
-++}

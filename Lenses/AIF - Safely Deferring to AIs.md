@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975322315}@@---
+---
 id: cff60111-17f6-4ae8-918e-23ccc8e8c643
 title: "AIF - Safely Deferring to AIs"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - When SHOULD we hand off, if ever — what evidence would suffice?
 
 Check they can name two concrete conditions that make deferral safer and explain why.
-++}

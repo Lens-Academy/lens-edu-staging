@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975274583}@@---
+---
 id: ed1aaff0-ac16-4c23-bbec-4bc8c41301e9
 title: "AIF - Empirical Control Research"
 ---
@@ -30,4 +30,3 @@ Discussion topics to explore:
 - From the sabotage study: how detectable is subtle sabotage today, and which way is that trending?
 
 Ask which empirical result most changed their estimate of whether control will work in practice.
-++}

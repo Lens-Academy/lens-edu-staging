@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782977438693}@@---
+---
 id: fa55790a-4c34-4483-81ae-e0a931be01f8
 title: "AIF - The Behavioral Selection Model"
 ---
@@ -21,4 +21,3 @@ Discussion topics to explore:
 - What experiments could tell these hypotheses apart before the stakes get high?
 
 Check they can explain in their own words why "the model behaved well in training" licenses so little about its motivations.
-++}

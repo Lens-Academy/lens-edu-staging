@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782974909938}@@---
+---
 id: 96a312bb-a83f-4f27-89f4-dc0361fd4e19
 title: "AIF - Current AIs Seem Pretty Misaligned"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - Which observed behavior worries the learner most: reward hacking, eval awareness, or alignment faking? Why?
 
 Ask whether this reading shifted their P(scheming) estimate from the Carlsmith exercise.
-++}

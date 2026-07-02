@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975390593}@@---
+---
 id: 67983933-1cef-4303-8bce-d776c3928742
 title: "AIF - ASI Deterrence"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - Does deterrence stabilize the race or accelerate covert programs?
 
 Check they can articulate one key disanalogy between nuclear and AI deterrence and its strategic consequence.
-++}

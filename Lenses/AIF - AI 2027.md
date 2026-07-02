@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782974884138}@@---
+---
 id: e65d45b5-d845-4043-aeab-984e1bcfde4a
 title: "AIF - AI 2027"
 ---
@@ -22,4 +22,3 @@ Discussion topics to explore:
 - How has the scenario's near-term predictions fared against reality so far? (Encourage checking specific claims against what actually happened through 2026.)
 
 Ask what motivations drove Agent-4 in the scenario and whether that matches the learner's own model of how misalignment arises.
-++}

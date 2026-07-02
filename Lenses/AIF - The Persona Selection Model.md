@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782974916981}@@---
+---
 id: f1f8f509-b1dd-41d9-a589-b03f7e266d67
 title: "AIF - The Persona Selection Model"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - How does this connect to observed phenomena like emergent misalignment (bad training in one domain producing a generally misaligned persona)?
 
 Check they can state, in their own words, what the persona selection model says training does.
-++}

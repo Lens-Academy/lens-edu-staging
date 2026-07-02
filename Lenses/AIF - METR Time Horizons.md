@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782974819008}@@---
+---
 id: 56999985-81dc-48fd-bea5-4489c3887cb2
 title: "AIF - METR Time Horizons"
 ---
@@ -32,4 +32,3 @@ Discussion topics to explore:
 - What would change their mind about the pace of capabilities progress?
 
 The user just completed two exercises comparing metrics and proposing better ones — build on those answers rather than repeating them.
-++}

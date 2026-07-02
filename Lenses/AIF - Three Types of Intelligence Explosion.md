@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782974725022}@@---
+---
 id: 6d5e217f-c24a-4825-a83b-12dc7a8c764c
 title: "AIF - Three Types of Intelligence Explosion"
 ---
@@ -21,4 +21,3 @@ Discussion topics to explore:
 - How does this framing connect to the week's key questions about timelines (when) vs takeoff speeds (how fast)?
 
 Ask what they found surprising or new. Check they can name the three types and the main bottleneck for each in their own words.
-++}

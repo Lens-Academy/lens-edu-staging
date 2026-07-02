@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975424878}@@---
+---
 id: f22a254b-b5e1-4090-924d-2ea0358a8467
 title: "AIF - How China Views AI Risks"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - What engagement opportunities exist on catastrophic risk despite strategic rivalry, and what would make them credible?
 
 Check they can name at least one concrete Chinese institution/policy relevant to frontier AI risk.
-++}

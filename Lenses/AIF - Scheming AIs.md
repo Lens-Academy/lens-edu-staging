@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782974867403}@@---
+---
 id: 77fb6aed-c89a-4765-a0ed-0cca2baeadad
 title: "AIF - Scheming AIs"
 ---
@@ -27,4 +27,3 @@ Discussion topics to explore:
 - How does evidence from current models (alignment faking experiments, eval-gaming) bear on the report's predictions, written before that evidence existed?
 
 The user just gave P(scheming) estimates in an exercise — probe the reasoning behind their numbers.
-++}

@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975191743}@@---
+---
 id: d4b68314-7265-40ce-99a8-a27d23f59f21
 title: "AIF - Current AIs for Future Safety Work"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - What happens after we do control (this week's key question) — how does this fit into the longer game plan?
 
 Check they understand the trusted/untrusted model distinction that underpins most control protocols.
-++}

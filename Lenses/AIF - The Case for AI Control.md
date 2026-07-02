@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975016597}@@---
+---
 id: b8a12e3d-afbe-404f-828b-abee44d534f0
 title: "AIF - The Case for AI Control"
 ---
@@ -21,4 +21,3 @@ Discussion topics to explore:
 - Why research control rather than alignment — comparative advantage, tractability, or pessimism about alignment?
 
 Check they can explain how a control evaluation works (red team constructs attack policies, blue team's protocol must keep risk low).
-++}

@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975398732}@@---
+---
 id: 807fbe76-a1af-4031-89b8-47cffe901640
 title: "AIF - Manhattan Project for AGI"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - Connect to Situational Awareness's "The Project" — same conclusion? Different reasoning?
 
 Ask the learner: under what world conditions (Plans A-D) does a Manhattan Project make things better vs worse?
-++}

@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782974751510}@@---
+---
 id: 9cda26d1-d996-4269-8432-4da3631727d3
 title: "AIF - Software Intelligence Explosion"
 ---
@@ -21,4 +21,3 @@ Discussion topics to explore:
 - What are key assumptions/parameters in this model (the week's key question about existing models)?
 
 Ask what they found most and least convincing in the report's empirical case.
-++}

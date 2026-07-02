@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975183858}@@---
+---
 id: 9985ca88-ba4f-4008-843a-de6f3fcd94b1
 title: "AIF - Catching AIs Red-Handed"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - What organizational/political preparation is needed so a catch actually triggers a response (link to Week 4's lab dynamics)?
 
 Check they can explain why control aims to force the AI into attempts that are likely to be caught.
-++}

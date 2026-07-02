@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975219008}@@---
+---
 id: 572dba59-26f9-4993-b2e7-4df0bea70624
 title: "AIF - Control Measures Overview"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - Which measures could today's labs deploy this year with modest effort?
 
 Check they can name 4+ distinct control measures and the failure mode each targets.
-++}
