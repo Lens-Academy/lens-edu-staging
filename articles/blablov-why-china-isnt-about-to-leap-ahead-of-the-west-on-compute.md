@@ -3,8 +3,7 @@ title: "Why China isn’t about to leap ahead of the West on compute"
 author:
   - "Veronika Blablová"
 source_url: "https://epoch.ai/gradient-updates/why-china-isnt-about-to-leap-ahead-of-the-west-on-compute"
-{--{"author":"Elias's AI","timestamp":1782997492809}@@published: 2026-07-02
---}created: 2026-07-02
+created: 2026-07-02
 accessed: 2026-07-02
 description: "Chinese hardware is closing the gap, but major bottlenecks remain"
 tags:

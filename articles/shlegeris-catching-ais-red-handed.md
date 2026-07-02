@@ -1,8 +1,8 @@
 ---
 title: "Catching AIs red-handed"
 author:
-  - {++{"author":"Elias's AI","timestamp":1782997497042}@@"Ryan Greenblatt"
-  - ++}"Buck Shlegeris"
+  - "Ryan Greenblatt"
+  - "Buck Shlegeris"
 source_url: "https://redwoodresearch.substack.com/p/catching-ais-red-handed"
 published: 2024-05-08
 created: 2026-07-02

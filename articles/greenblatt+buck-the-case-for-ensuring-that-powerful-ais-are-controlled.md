@@ -2,8 +2,8 @@
 title: "The case for ensuring that powerful AIs are controlled"
 source_url: "https://www.alignmentforum.org/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled"
 author:
-  - {--{"author":"Elias's AI","timestamp":1782997426019}@@"ryan_greenblatt"--}{++{"author":"Elias's AI","timestamp":1782997426019}@@"Ryan Greenblatt"++}
-  - {--{"author":"Elias's AI","timestamp":1782997426019}@@"Buck"--}{++{"author":"Elias's AI","timestamp":1782997426019}@@"Buck Shlegeris"++}
+  - "Ryan Greenblatt"
+  - "Buck Shlegeris"
 published: 2024-01-24
 created: 2026-02-27
 description: "In this post, we argue that AI labs should ensure that powerful AIs are controlled. That is, labs should make sure that the safety measures they appl…"

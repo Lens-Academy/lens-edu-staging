@@ -3,7 +3,7 @@ title: "What failure looks like"
 author:
   - "Paul Christiano"
 source_url: "https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like"
-published: {--{"author":"Elias's AI","timestamp":1782997432503}@@2019-05-08--}{++{"author":"Elias's AI","timestamp":1782997432503}@@2019-03-17++}
+published: 2019-03-17
 created: 2026-07-02
 accessed: 2026-07-02
 description: "The stereotyped image of AI catastrophe is a powerful, malicious AI system that takes its creators by surprise and quickly achieves a decisive advantage over the rest of humanity. I think this is probably not what failure will look like, and I want to try to paint a more realistic picture. I’ll tell the story in two parts: I think these are the most important problems if we fail to solve intent alignment. In practice these problems will interact with each other, and with other disruptions/instability caused by rapid progress. These problems are worse in worlds where progress is relatively fast, and fast takeoff can be a key risk factor, but I’m scared even if we have several years."

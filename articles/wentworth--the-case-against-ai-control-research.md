@@ -2,7 +2,7 @@
 title: "The Case Against AI Control Research"
 source_url: "https://www.lesswrong.com/posts/8wBN8cdNAv3c7vt6p/the-case-against-ai-control-research"
 author:
-  - {--{"author":"Elias's AI","timestamp":1782997428592}@@"johnswentworth"--}{++{"author":"Elias's AI","timestamp":1782997428592}@@"John Wentworth"++}
+  - "John Wentworth"
 published: 2025-01-21
 created: 2026-02-27
 description: "The AI Control Agenda, in its own words: …"

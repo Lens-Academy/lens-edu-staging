@@ -3,8 +3,7 @@ title: "ECI Documentation"
 author:
   - "Epoch AI"
 source_url: "https://epoch.ai/data/eci-documentation"
-{--{"author":"Elias's AI","timestamp":1782997487004}@@published: 2026-07-02
---}created: 2026-07-02
+created: 2026-07-02
 accessed: 2026-07-02
 description: "Documentation for the Epoch Capabilities Index (ECI), a composite metric that combines scores from many AI benchmarks into a single capability scale, including the domain-specific ECI."
 tags:

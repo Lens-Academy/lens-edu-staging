@@ -1,9 +1,9 @@
 ---
 title: "Should the US do a Manhattan Project for AGI?"
 author:
-  - {++{"author":"Elias's AI","timestamp":1782997434379}@@"Oscar Delaney"
+  - "Oscar Delaney"
   - "Bill Anderson-Samways"
-  - ++}"Peter Wildeford"
+  - "Peter Wildeford"
 source_url: "https://peterwildeford.substack.com/cp/179934553"
 published: 2025-11-21
 created: 2026-07-02

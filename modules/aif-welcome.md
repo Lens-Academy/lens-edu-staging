@@ -15,7 +15,7 @@ Welcome to **AI Futurism** — a four-week course on key future dynamics in fron
 
 The readings introduce conceptual frames and hypotheses in AI futurism that many practitioners find promising and/or that have stood the test of time. As you read, keep asking: do I agree with the thesis? How have its predictions fared in light of recent evidence?
 
-The four weeks build on each other: **timelines and takeoff** (how fast is this coming?), **takeover threat modeling** (what could go wrong?), **control** (what can we do about it?), and **governance** (who decides?). {--{"author":"Elias's AI","timestamp":1782997610514}@@An optional fifth--}{++{"author":"Elias's AI","timestamp":1782997610514}@@Each week also has an optional-readings module, and a final optional++} module collects extended readings for going deeper.
+The four weeks build on each other: **timelines and takeoff** (how fast is this coming?), **takeover threat modeling** (what could go wrong?), **control** (what can we do about it?), and **governance** (who decides?). Each week also has an optional-readings module, and a final optional module collects extended readings for going deeper.
 
 # Lens: How to use this course
 id:: 0af36123-ce69-4296-b4f8-61c5c61a1ae8

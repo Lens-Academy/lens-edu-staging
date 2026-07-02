@@ -3,7 +3,7 @@ title: "Another (outer) alignment failure story"
 author:
   - "Paul Christiano"
 source_url: "https://www.lesswrong.com/posts/AyNHoTWWAJ5eb99ji/another-outer-alignment-failure-story"
-published: {--{"author":"Elias's AI","timestamp":1782997430666}@@2023-05-31--}{++{"author":"Elias's AI","timestamp":1782997430666}@@2021-04-07++}
+published: 2021-04-07
 created: 2026-07-02
 accessed: 2026-07-02
 description: "This is a story where the alignment problem is somewhat harder than I expect, society handles AI more competently than I expect, and the outcome is worse than I expect. It also involves inner alignment turning out to be a surprisingly small problem. Maybe the story is 10-20th percentile on each of those axes. At the end I’m going to go through some salient ways you could vary the story. This isn’t intended to be a particularly great story (and it’s pretty informal). I’m still trying to think through what I expect to happen if alignment turns out to be hard, and this more like the most recent entry in a long journey of gradually-improving stories."
