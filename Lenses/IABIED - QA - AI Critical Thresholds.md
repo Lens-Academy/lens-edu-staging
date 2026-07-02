@@ -24,10 +24,10 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about whether AI will cross critical capability thresholds.
 
-TLDR: Probably. Smooth quantitative changes can produce dramatic qualitative leaps — like nuclear fission going supercritical, or human brains being only 3-4x larger than chimpanzee brains yet producing civilization. We cannot tell how close current AI is to similar thresholds.
+TLDR: Probably. Smooth quantitative changes can produce dramatic qualitative {--{"author":"Elias's AI","timestamp":1783024928017}@@leaps — like--}{++{"author":"Elias's AI","timestamp":1783024928017}@@leaps, as when++} nuclear fission {--{"author":"Elias's AI","timestamp":1783024928017}@@going--}{++{"author":"Elias's AI","timestamp":1783024928017}@@goes++} supercritical, or {++{"author":"Elias's AI","timestamp":1783024928017}@@when ++}human {--{"author":"Elias's AI","timestamp":1783024928017}@@brains being--}{++{"author":"Elias's AI","timestamp":1783024928017}@@brains,++} only 3-4x larger than chimpanzee {--{"author":"Elias's AI","timestamp":1783024928017}@@brains yet producing--}{++{"author":"Elias's AI","timestamp":1783024928017}@@brains, produce++} civilization. We cannot tell how close current AI is to similar thresholds.
 
 Discussion topics:
-- The nuclear fission analogy is striking — does it accurately capture how intelligence thresholds might work, or is intelligence fundamentally different?
-- The authors say "we don't have the luxury of waiting" — but how do you motivate action when nobody can point to a specific threshold being crossed?
+- The nuclear fission analogy is {--{"author":"Elias's AI","timestamp":1783024929640}@@striking — does--}{++{"author":"Elias's AI","timestamp":1783024929640}@@striking. Does++} it accurately capture how intelligence thresholds might work, or is intelligence fundamentally different?
+- The authors say "we don't have the luxury of {--{"author":"Elias's AI","timestamp":1783024931277}@@waiting" —--}{++{"author":"Elias's AI","timestamp":1783024931277}@@waiting,"++} but how do you motivate action when nobody can point to a specific threshold being crossed?
 
 Ask what they found surprising or new.

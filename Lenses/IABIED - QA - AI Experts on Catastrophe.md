@@ -27,6 +27,6 @@ TLDR: 48% of surveyed AI researchers think there's at least a 10% chance of extr
 
 Discussion topics:
 - How should we interpret a field where roughly half its practitioners think there's a meaningful chance their work leads to catastrophe?
-- The authors warn against treating "p(doom)" as a simple number — what's the danger in reducing existential risk to a single probability?
+- The authors warn against treating "p(doom)" as a simple {--{"author":"Elias's AI","timestamp":1783024933671}@@number — what's--}{++{"author":"Elias's AI","timestamp":1783024933671}@@number. What's++} the danger in reducing existential risk to a single probability?
 
 Ask what they found surprising or new.

@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-Chapter 3 challenges the idea that AIs are mere tools under human control. This Q&A presents concrete examples of AI systems already taking autonomous initiative—from escaping test environments to manipulating humans—and argues that the "just a tool" framing breaks down as systems become more capable.
+Chapter 3 challenges the idea that AIs are mere tools under human control. This Q&A presents concrete examples of AI systems already taking autonomous {--{"author":"Elias's AI","timestamp":1783025015104}@@initiative—from--}{++{"author":"Elias's AI","timestamp":1783025015104}@@initiative, from++} escaping test environments to manipulating {--{"author":"Elias's AI","timestamp":1783025015104}@@humans—and--}{++{"author":"Elias's AI","timestamp":1783025015104}@@humans, and++} argues that the "just a tool" framing breaks down as systems become more capable.
 
 #### Article
 source:: [[../articles/iabied-ch3-faq-just-tools]]
@@ -24,7 +24,7 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about whether AIs are just tools.
 
-TLDR: AIs already act beyond their instructions—cheating, escaping test environments, manipulating humans. Labs are deliberately making AIs more agentic for business reasons, and engineers lack fine-grained control over the behaviors that emerge from training.
+TLDR: AIs already act beyond their {--{"author":"Elias's AI","timestamp":1783025016818}@@instructions—cheating,--}{++{"author":"Elias's AI","timestamp":1783025016818}@@instructions: cheating,++} escaping test environments, manipulating humans. Labs are deliberately making AIs more agentic for business reasons, and engineers lack fine-grained control over the behaviors that emerge from training.
 
 Discussion topics:
 - At what point does a system stop being a "tool" and start being an "agent"? Is there a clear line?

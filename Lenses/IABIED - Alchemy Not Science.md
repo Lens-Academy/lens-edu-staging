@@ -2,7 +2,7 @@
 id: b0d5d25c-77c1-4bce-99f0-821427c58cee
 summary_for_tutor: "Teaches Chapter 11's alchemy-stage diagnosis using the alchemist allegory, the Musk/LeCun folk-theory critique, the Dartmouth 1955 historical anchor, and the mother/engineer dialogue. The Lens covers the first reading of Ch11 (beginning to end of the systemic-incompetence paragraph). The strong-superalignment objection is taught by a separate Lens. Students should end this Lens able to state the alchemy-stage diagnosis with the right valence (a field-level epistemic claim, not despair, not blame) and identify what specifically distinguishes folk-theory thinking from engineering thinking."
 title: "Alchemy, Not Science"
-tldr: "The alignment field can produce techniques that work — but nobody understands why. That gap, between recipe and principle, is what separates alchemy from engineering."
+tldr: "The alignment field can produce techniques that {--{"author":"Elias's AI","timestamp":1783025018026}@@work —--}{++{"author":"Elias's AI","timestamp":1783025018026}@@work,++} but nobody understands why. That gap, between recipe and principle, is what separates alchemy from engineering."
 authors:
   - Yatharth+Claude
 tags:
@@ -21,7 +21,7 @@ Return here after reading.
 ---
 
 \## Phase 1: Recall
-Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
+Spend 2 minutes writing down everything you can remember from the {--{"author":"Elias's AI","timestamp":1783025019887}@@reading — without looking--}{++{"author":"Elias's AI","timestamp":1783025019887}@@reading. Don't look++} back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
 min-messages:: 1
@@ -30,7 +30,7 @@ instructions:: The student has just read the first half of Chapter 11 of "If Any
 Learning outcome for this Lens: State Chapter 11's central diagnosis as the chapter frames it: the alignment field is currently in the "alchemy stage" — producing results without understanding why they work, operating from high-minded philosophical ideals rather than engineering designs, and mistaking the ability to build more powerful AI for progress on making it safe.
 
 Key concepts:
-- Alchemy stage: recipe-level competence without principle-level understanding — alchemists could make Aqua Regia (a 3:1 mix of hydrochloric and nitric acid that dissolves gold) without knowing chemistry, and could not transmute lead into gold.
+- Alchemy stage: recipe-level competence without principle-level {--{"author":"Elias's AI","timestamp":1783025023219}@@understanding — alchemists--}{++{"author":"Elias's AI","timestamp":1783025023219}@@understanding. Alchemists++} could make Aqua Regia (a 3:1 mix of hydrochloric and nitric acid that dissolves gold) without knowing chemistry, and could not transmute lead into gold.
 - Folk theory: pre-scientific reasoning from intuitive philosophical ideals rather than engineering designs — bleeding patients to balance "four humors," Musk's "maximum truth-seeking AI," LeCun's "we will engineer their desires."
 - What is missing is not effort, intelligence, or funding, but engineering principles that connect inputs to outputs — Musk and LeCun operate at a level of theory that doesn't engage the engineering question at all.
 - Mistaking capability for safety: being able to build more powerful AI is not progress on making it safe.

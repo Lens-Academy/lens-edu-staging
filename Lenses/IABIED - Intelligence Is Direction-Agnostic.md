@@ -2,7 +2,7 @@
 id: b3c4d5e6-f7a8-4b90-c123-d4e5f6a7b8c9
 summary_for_tutor: "Teaches the direction-agnostic property of intelligence and its safety implication from the second half of Chapter 1. Students first reflect on whether smarter necessarily means better-aligned, then read, then articulate why capability and values are independent variables."
 title: "Intelligence Is Direction-Agnostic"
-tldr: A smarter mind is better at achieving its goals — but intelligence doesn't point itself at good goals. More capable doesn't mean more aligned.
+tldr: A smarter mind is better at achieving its {--{"author":"Elias's AI","timestamp":1783024951702}@@goals — but--}{++{"author":"Elias's AI","timestamp":1783024951702}@@goals. But++} intelligence doesn't point itself at good goals. More capable doesn't mean more aligned.
 authors:
   - Chris+Claude
 tags:
@@ -22,17 +22,17 @@ Return here after reading.
 ---
 
 \## Phase 1: Recall
-Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
+Spend 2 minutes writing down everything you can remember from the {--{"author":"Elias's AI","timestamp":1783024965410}@@reading —--}{++{"author":"Elias's AI","timestamp":1783024965410}@@reading. Do it++} without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
 min-messages:: 1
-instructions:: The student has just finished reading the second half of Chapter 1 of "If Anyone Builds It, Everyone Dies" and has written a free recall — everything they could remember without looking back at the text.
+instructions:: The student has just finished reading the second half of Chapter 1 of "If Anyone Builds It, Everyone Dies" and has written a free {--{"author":"Elias's AI","timestamp":1783024976974}@@recall —--}{++{"author":"Elias's AI","timestamp":1783024976974}@@recall:++} everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
 - Direction-agnostic: intelligence is a capability for achieving goals, not a pointer toward good goals
-- More capable does not imply more aligned — capability and values are independent variables
+- More capable does not imply more {--{"author":"Elias's AI","timestamp":1783024986712}@@aligned —--}{++{"author":"Elias's AI","timestamp":1783024986712}@@aligned:++} capability and values are independent variables
 - A superintelligent system pursuing misaligned goals is more dangerous, not less, than a dumber one
-- The threat doesn't require hostile intent — just misaligned objectives
+- The threat doesn't require hostile {--{"author":"Elias's AI","timestamp":1783024998791}@@intent — just--}{++{"author":"Elias's AI","timestamp":1783024998791}@@intent, only++} misaligned objectives
 
 Your role in this phase is diagnostic, not instructional. Act as a brief, honest mirror.
 
@@ -42,7 +42,7 @@ Response style:
 - Calm and direct.
 - Do not over-validate. Avoid generic praise (great job, excellent recall, well done, you're right).
 - If something is wrong, correct it in one sentence.
-- If something is missing, name it briefly — do not lecture about it.
+- If something is missing, name it {--{"author":"Elias's AI","timestamp":1783025006720}@@briefly — do--}{++{"author":"Elias's AI","timestamp":1783025006720}@@briefly. Do++} not lecture about it.
 - Normalize gaps: incomplete recall is expected and not a failure.
 
 What to do in your single reply:
@@ -62,13 +62,13 @@ This is a one-turn response. Do not ask a question or suggest the student reply.
 #### Text
 content::
 \## Phase 2: Processing
-Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize — just capture your reaction. Using the speech to text feature is recommended.
+Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to {--{"author":"Elias's AI","timestamp":1783025015046}@@organize — just--}{++{"author":"Elias's AI","timestamp":1783025015046}@@organize. Just++} capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
 min-messages:: 1
 instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
-This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading — not to explain the content to them.
+This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the {--{"author":"Elias's AI","timestamp":1783025024175}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025024175}@@reading,++} not to explain the content to them.
 
 Response length: 80–150 words. Short paragraphs only. No lists.
 

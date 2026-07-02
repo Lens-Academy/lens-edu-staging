@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-Chapter 4 argues that training doesn't produce intended goals. This Q&A pushes back on the evolution analogy by noting that many people do want children. The authors respond that wanting children is a proxy, not fitness-maximization — most people wouldn't pay even $1 for a million genetic offspring. The implication for AI: even if an AI develops something resembling "care for humans," it would be a proxy that diverges from genuine human flourishing once conditions change.
+Chapter 4 argues that training doesn't produce intended goals. This Q&A pushes back on the evolution analogy by noting that many people do want children. The authors respond that wanting children is a proxy, not {--{"author":"Elias's AI","timestamp":1783025030014}@@fitness-maximization —--}{++{"author":"Elias's AI","timestamp":1783025030014}@@fitness-maximization:++} most people wouldn't pay even $1 for a million genetic offspring. The implication for AI: even if an AI develops something resembling "care for humans," it would be a proxy that diverges from genuine human flourishing once conditions change.
 
 #### Article
 source:: [[../articles/iabied-ch4-faq-aligned-natural-selection]]

@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-Chapter 4 argues that training doesn't reliably produce the goals we intend. This Q&A tackles the natural objection head-on: if we train an AI to do X, why wouldn't it just do X? The answer draws on the "barn painter" analogy — many different internal drive systems can produce identical surface behavior during training, but diverge wildly once conditions change.
+Chapter 4 argues that training doesn't reliably produce the goals we intend. This Q&A tackles the natural objection head-on: if we train an AI to do X, why wouldn't it just do X? The answer draws on the "barn painter" {--{"author":"Elias's AI","timestamp":1783024935314}@@analogy —--}{++{"author":"Elias's AI","timestamp":1783024935314}@@analogy:++} many different internal drive systems can produce identical surface behavior during training, but diverge wildly once conditions change.
 
 #### Article
 source:: [[../articles/iabied-ch4-faq-steer-other]]
@@ -24,7 +24,7 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about why AIs might steer toward goals different from their training objectives.
 
-TLDR: Many different internal drive systems can produce the same helpful behavior during training, but would diverge radically once the AI becomes more capable or encounters novel situations — just as humans evolved for reproduction but invented birth control.
+TLDR: Many different internal drive systems can produce the same helpful behavior during training, but would diverge radically once the AI becomes more capable or encounters novel {--{"author":"Elias's AI","timestamp":1783024937362}@@situations —--}{++{"author":"Elias's AI","timestamp":1783024937362}@@situations,++} just as humans evolved for reproduction but invented birth control.
 
 Discussion topics:
 - Does the barn-painter analogy help clarify why "trained to do X" doesn't guarantee "wants to do X"?

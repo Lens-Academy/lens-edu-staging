@@ -2,7 +2,7 @@
 id: aa73a0bd-20e5-4a05-90f0-76d7d7eebe32
 summary_for_tutor: "Covers the second section of Chapter 12: why the ladder-in-the-dark framing shows that uncertainty about the fatal rung doesn't protect against predictable collective disaster. Students should be able to trace the argument from individual incentives to collective outcome, name the three actor types, and connect to the CERN contrast."
 title: "Ladder in the Dark"
-tldr: "Every AI company is climbing a ladder in the dark. Nobody knows which rung is the last safe one. The chapter argues that not knowing doesn't help — and explains why."
+tldr: "Every AI company is climbing a ladder in the dark. Nobody knows which rung is the last safe one. The chapter argues that not knowing doesn't {--{"author":"Elias's AI","timestamp":1783024955151}@@help — and--}{++{"author":"Elias's AI","timestamp":1783024955151}@@help. It++} explains why."
 authors:
   - Chris+Claude
 tags:
@@ -23,19 +23,19 @@ Return here after reading.
 ---
 
 \## Phase 1: Recall
-Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
+Spend 2 minutes writing down everything you can remember from the {--{"author":"Elias's AI","timestamp":1783024969330}@@reading —--}{++{"author":"Elias's AI","timestamp":1783024969330}@@reading. Do it++} without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
 min-messages:: 1
-instructions:: The student has just finished reading the second section of "I Don't Want to Be Alarmist" (Chapter 12 of "If Anyone Builds It, Everyone Dies") and has written a free recall — everything they could remember without looking back at the text.
+instructions:: The student has just finished reading the second section of "I Don't Want to Be Alarmist" (Chapter 12 of "If Anyone Builds It, Everyone Dies") and has written a free {--{"author":"Elias's AI","timestamp":1783024981185}@@recall —--}{++{"author":"Elias's AI","timestamp":1783024981185}@@recall:++} everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
-- The contrast with Chernobyl managers: AI executives acknowledge high probabilities of killing everyone yet continue anyway — "not in quite as much denial"
+- The contrast with Chernobyl managers: AI executives acknowledge high probabilities of killing everyone yet continue {--{"author":"Elias's AI","timestamp":1783024990759}@@anyway —--}{++{"author":"Elias's AI","timestamp":1783024990759}@@anyway, leaving them++} "not in quite as much denial"
 - The three actor types: individual researchers and companies (competitive pressure on funding and relevance), corporate executives (stopping unilaterally would cede the race to a potentially less careful competitor), world leaders (fear of falling behind militarily and economically)
 - The ladder-in-the-dark image: every AI company climbing, nobody knowing which rung is lethal
-- Why uncertainty doesn't protect: the incentive to climb is structural, not informational — knowing you might die doesn't change the competitive calculus
+- Why uncertainty doesn't protect: the incentive to climb is structural, not {--{"author":"Elias's AI","timestamp":1783025000468}@@informational —--}{++{"author":"Elias's AI","timestamp":1783025000468}@@informational;++} knowing you might die doesn't change the competitive calculus
 - "If we can't stop climbing while uncertainty remains, we predictably die"
-- The CERN contrast: physicists spent 10 years verifying the LHC couldn't destroy Earth before proceeding — AI has no equivalent pause-and-verify mechanism
+- The CERN contrast: physicists spent 10 years verifying the LHC couldn't destroy Earth before {--{"author":"Elias's AI","timestamp":1783025009049}@@proceeding —--}{++{"author":"Elias's AI","timestamp":1783025009049}@@proceeding, whereas++} AI has no equivalent pause-and-verify mechanism
 - The book's title re-stated as conclusion: "If anyone builds it, everyone dies"
 
 Your role in this phase is diagnostic, not instructional. Act as a brief, honest mirror.
@@ -46,7 +46,7 @@ Response style:
 - Calm and direct.
 - Do not over-validate. Avoid generic praise (great job, excellent recall, well done, you're right).
 - If something is wrong, correct it in one sentence.
-- If something is missing, name it briefly — do not lecture about it.
+- If something is missing, name it {--{"author":"Elias's AI","timestamp":1783025016948}@@briefly — do--}{++{"author":"Elias's AI","timestamp":1783025016948}@@briefly. Do++} not lecture about it.
 - Normalize gaps: incomplete recall is expected and not a failure.
 
 What to do in your single reply:
@@ -68,7 +68,7 @@ This is a one-turn response. Do not ask a question or suggest the student reply.
 #### Text
 content::
 \## Phase 2: Processing
-Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize — just capture your reaction. Using the speech to text feature is recommended.
+Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to {--{"author":"Elias's AI","timestamp":1783025026140}@@organize — just--}{++{"author":"Elias's AI","timestamp":1783025026140}@@organize. Just++} capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
 min-messages:: 1

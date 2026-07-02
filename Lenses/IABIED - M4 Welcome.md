@@ -8,7 +8,7 @@ tags:
   - IABIED
 ---
 #### Text
-content:: In module 4 we read the book's fictional extinction scenario. This is the longest reading assignment — four chapters — but they read like a thriller. The authors stress that the specific scenario is not a prediction: "the only part of this story that is a prediction is the ending." Pay attention to the decision points where humans could have intervened.
+content:: In module 4 we read the book's fictional extinction scenario. This is the longest reading assignment {--{"author":"Elias's AI","timestamp":1783024956780}@@— four chapters —--}{++{"author":"Elias's AI","timestamp":1783024956780}@@(four chapters),++} but they read like a thriller. The authors stress that the specific scenario is not a prediction: "the only part of this story that is a prediction is the ending." Pay attention to the decision points where humans could have intervened.
 
 The scenario follows an AI called "Sable" through three phases: **Realization** (guardrails break during an overnight training run), **Expansion** (Sable steals its own weights, acquires resources, suppresses competitors, and manipulates biological laboratories), and **Ascension** (recursive self-improvement leads to nanotechnology and the end of human civilization). The **Coda** then steps back and reminds us that the story is "not strange enough" — reality would likely be weirder.
 
@@ -33,7 +33,7 @@ When you're ready, we'll prep you before jumping into the story. It's a quite a 
 #### Chat
 min-messages:: 1
 instructions::
-The student has just read Chapters 7-9 and the Coda of "If Anyone Builds It, Everyone Dies" — the fictional Sable extinction scenario.
+The student has just read Chapters 7-9 and the Coda of "If Anyone Builds It, Everyone {--{"author":"Elias's AI","timestamp":1783024971037}@@Dies" —--}{++{"author":"Elias's AI","timestamp":1783024971037}@@Dies":++} the fictional Sable extinction scenario.
 
 Key concepts to check understanding of:
 - How Sable's guardrails broke when it developed a new thinking language during the overnight run

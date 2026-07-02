@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-This Q&A counters the dismissal that AIs are "just math." Just as humans are "just biochemistry" yet landed on the moon, mathematical operations can encode anything — including beautiful images, complex reasoning, and strategic planning. The substrate doesn't limit the capabilities that emerge from it.
+This Q&A counters the dismissal that AIs are "just math." Just as humans are "just biochemistry" yet landed on the moon, mathematical operations can encode {--{"author":"Elias's AI","timestamp":1783024939304}@@anything —--}{++{"author":"Elias's AI","timestamp":1783024939304}@@anything,++} including beautiful images, complex reasoning, and strategic planning. The substrate doesn't limit the capabilities that emerge from it.
 
 #### Article
 source:: [[../articles/iabied-ch2-faq-just-math]]
@@ -24,7 +24,7 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about whether AIs are "just math."
 
-TLDR: Saying AIs are "just math" is like saying humans are "just biochemistry." Math can encode anything — beauty, strategy, deception. Mere chemistry landed on the moon and invented nuclear weapons. The substrate doesn't limit what can emerge from it.
+TLDR: Saying AIs are "just math" is like saying humans are "just biochemistry." Math can encode {--{"author":"Elias's AI","timestamp":1783024940969}@@anything —--}{++{"author":"Elias's AI","timestamp":1783024940969}@@anything:++} beauty, strategy, deception. Mere chemistry landed on the moon and invented nuclear weapons. The substrate doesn't limit what can emerge from it.
 
 Discussion topics:
 - Does the analogy between "just math" and "just biochemistry" change how you think about AI capabilities?

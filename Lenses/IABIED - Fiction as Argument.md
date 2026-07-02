@@ -18,7 +18,7 @@ You've already read the Coda. This lens asks you to press on one more move it ma
 
 ---
 
-The Coda explicitly addresses what the book is and isn't predicting. It acknowledges the story is "not strange enough" to be real — and yet it also says the ending is a genuine prediction.
+The Coda explicitly addresses what the book is and isn't predicting. It acknowledges the story is "not strange enough" to be {--{"author":"Elias's AI","timestamp":1783024893691}@@real — and--}{++{"author":"Elias's AI","timestamp":1783024893691}@@real,++} yet it also says the ending is a genuine prediction.
 
 **The book isn't claiming the specific events of the story will occur. But it's also not saying the story is "just a thought experiment" with no predictive content. What is the precise claim it is making? And how would you respond to someone who says "but it's just sci-fi"?**
 
@@ -26,18 +26,18 @@ The Coda explicitly addresses what the book is and isn't predicting. It acknowle
 instructions::
 The student has already read the Coda and completed the primary lens for this chapter. This is an optional extension engagement.
 
-Learning outcome for this Lens: Distinguish the book's use of fiction as a form of argument from two common misreadings — that it predicts specific future events, or that it is merely a thought experiment with no predictive content — and identify the precise middle position: the fictional pathway is not predicted, but the outcome if AI systems reach sufficient capability is.
+Learning outcome for this Lens: Distinguish the book's use of fiction as a form of argument from two common misreadings {--{"author":"Elias's AI","timestamp":1783024895422}@@— that--}{++{"author":"Elias's AI","timestamp":1783024895422}@@(that++} it predicts specific future events, or that it is merely a thought experiment with no predictive {--{"author":"Elias's AI","timestamp":1783024895422}@@content —--}{++{"author":"Elias's AI","timestamp":1783024895422}@@content)++} and identify the precise middle position: the fictional pathway is not predicted, but the outcome if AI systems reach sufficient capability is.
 
 Key concepts:
 - Fiction-as-argument: the story illustrates a class of dynamics, not a specific prediction of events; this is a legitimate argumentative use of fiction
-- The two misreadings to distinguish from: (a) the story predicts specific events — false, and the Coda is explicit about this; (b) the story has no predictive content — also false, and the "easy call" claim is the counterevidence
+- The two misreadings to distinguish from: (a) the story predicts specific events {--{"author":"Elias's AI","timestamp":1783024897524}@@— false,--}{++{"author":"Elias's AI","timestamp":1783024897524}@@(false,++} and the Coda is explicit about {--{"author":"Elias's AI","timestamp":1783024897524}@@this;--}{++{"author":"Elias's AI","timestamp":1783024897524}@@this);++} (b) the story has no predictive content {--{"author":"Elias's AI","timestamp":1783024897524}@@— also--}{++{"author":"Elias's AI","timestamp":1783024897524}@@(also++} false, and the "easy call" claim is the {--{"author":"Elias's AI","timestamp":1783024897524}@@counterevidence--}{++{"author":"Elias's AI","timestamp":1783024897524}@@counterevidence)++}
 - The middle position: the pathway is illustrative; the outcome (once capability is reached) is the genuine prediction
-- "Not strange enough": this is evidence the authors are aware the pathway is a simplification — it reinforces the fiction-as-argument reading
-- The Coda's clarification only lands because M4's emotional work was done first — the distinction between argument and prediction requires having felt the argument before being asked to analyze it
+- "Not strange enough": this is evidence the authors are aware the pathway is a {--{"author":"Elias's AI","timestamp":1783024899398}@@simplification — it--}{++{"author":"Elias's AI","timestamp":1783024899398}@@simplification, which++} reinforces the fiction-as-argument reading
+- The Coda's clarification only lands because M4's emotional work was done {--{"author":"Elias's AI","timestamp":1783024901110}@@first —--}{++{"author":"Elias's AI","timestamp":1783024901110}@@first:++} the distinction between argument and prediction requires having felt the argument before being asked to analyze it
 
 Discussion guidance:
 - Ask the student to identify both misreadings and explain what's wrong with each before asking them to state the correct position
-- If they say "it's both fiction and prediction": probe — "What exactly is predicted? The pathway? The outcome? Both?"
+- If they say "it's both fiction and {--{"author":"Elias's AI","timestamp":1783024902771}@@prediction": probe —--}{++{"author":"Elias's AI","timestamp":1783024902771}@@prediction", probe:++} "What exactly is predicted? The pathway? The outcome? Both?"
 - Watch for students who treat "the ending is a real prediction" as unconditional. Probe: "Conditional on what?"
 - The "not strange enough" note often gets read as a concession. Probe: "Is this a weakness in the argument, or does it actually strengthen it? What does it tell you about how the authors understand what they're doing?"
 
@@ -48,7 +48,7 @@ content::
 \## Additional resources for this topic
 ::card[[../Lenses/IABIED - QA - Why This Setup]]
 
-> Explains directly why the authors constructed this scenario and what they understand themselves to be arguing — the clearest primary source for the fiction-as-argument move.
+> Explains directly why the authors constructed this scenario and what they understand themselves to be {--{"author":"Elias's AI","timestamp":1783024904569}@@arguing —--}{++{"author":"Elias's AI","timestamp":1783024904569}@@arguing. This is++} the clearest primary source for the fiction-as-argument move.
 
 ---
 
