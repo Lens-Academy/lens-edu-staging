@@ -166,4 +166,4 @@ content::
 
 ::card[[../Lenses/IABIED - QA - Sable's Thinking]]
 
-> Connects the goal structure that produces this outcome to Part I's arguments about gradient-grown preferences — explaining why a system grown by optimization would arrive at objectives that omit human welfare by default.
+> Connects the goal structure that produces this outcome to Part I's arguments about gradient-grown {--{"author":"Elias's AI","timestamp":1783025706137}@@preferences —--}{++{"author":"Elias's AI","timestamp":1783025706137}@@preferences,++} explaining why a system grown by optimization would arrive at objectives that omit human welfare by default.

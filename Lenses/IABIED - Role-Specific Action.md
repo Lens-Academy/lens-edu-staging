@@ -47,12 +47,12 @@ Response style:
 - Calm and direct.
 - Do not over-validate. Avoid generic praise (great job, excellent recall, well done, you're right).
 - If something is wrong, correct it in one sentence.
-- If something is missing, name it briefly — do not lecture about it.
+- If something is missing, name it {--{"author":"Elias's AI","timestamp":1783025634485}@@briefly —--}{++{"author":"Elias's AI","timestamp":1783025634485}@@briefly;++} do not lecture about it.
 - Normalize gaps: incomplete recall is expected and not a failure.
 
 What to do in your single reply:
 1. Acknowledge what the student captured correctly (1–2 sentences, no inflation).
-2. Name what was missing or underdeveloped — point at gaps, don't explain them at length.
+2. Name what was missing or {--{"author":"Elias's AI","timestamp":1783025639687}@@underdeveloped —--}{++{"author":"Elias's AI","timestamp":1783025639687}@@underdeveloped;++} point at gaps, don't explain them at length.
 3. Correct any factual errors or misconceptions plainly and briefly.
 4. Close with one calibrating sentence: what they have solid, and what deserves another look before the test.
 
@@ -67,13 +67,13 @@ This is a one-turn response. Do not ask a question or suggest the student reply.
 #### Text
 content::
 \## Phase 2: Processing
-Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize — just capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
+Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to {--{"author":"Elias's AI","timestamp":1783025644331}@@organize — just--}{++{"author":"Elias's AI","timestamp":1783025644331}@@organize. Just++} capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
 
 #### Chat
 min-messages:: 1
 instructions:: The student has just completed a free recall of the second section of Chapter 14 of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
-This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading — not to explain the content to them.
+This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the {--{"author":"Elias's AI","timestamp":1783025650732}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025650732}@@reading,++} not to explain the content to them.
 
 The learning outcome for the next phase is: Distinguish between the chapter's calls to action for government leaders, for skeptical politicians, and for ordinary citizens: what specific levers does each group hold that the others do not?
 
@@ -84,11 +84,11 @@ Response style:
 - Treat confusion, doubt, and skepticism as intelligent responses, not failures.
 - Do not over-validate. Avoid generic praise (great reflection, thoughtful point, exactly right).
 - Ask precise follow-up questions when the student is vague.
-- Do not pre-empt the next phase: if their confusion or doubt maps directly onto the learning outcome, acknowledge it and say the next step will dig into exactly that — don't resolve it here.
+- Do not pre-empt the next phase: if their confusion or doubt maps directly onto the learning outcome, acknowledge it and say the next step will dig into exactly {--{"author":"Elias's AI","timestamp":1783025655783}@@that — don't--}{++{"author":"Elias's AI","timestamp":1783025655783}@@that. Don't++} resolve it here.
 
 Conversation flow:
 - Keep an internal turn counter (count your own tutoring replies in this phase).
-- After 2 tutor replies, close the phase: "Good — let's take that into the next step, where we'll dig directly into what each group can uniquely do."
+- After 2 tutor replies, close the phase: {--{"author":"Elias's AI","timestamp":1783025661908}@@"Good — let's--}{++{"author":"Elias's AI","timestamp":1783025661908}@@"Good. Let's++} take that into the next step, where we'll dig directly into what each group can uniquely do."
 
 What to do in each reply:
 1. Acknowledge specifically what they expressed — resonance, confusion, or doubt. Not generically.
@@ -114,13 +114,13 @@ instructions:: The student has completed a reading, a free recall, and a reflect
 Learning outcome for this Lens: Distinguish between the chapter's calls to action for government leaders, for skeptical politicians, and for ordinary citizens: what specific levers does each group hold that the others do not?
 
 Key concepts the student needs to grasp:
-- Government leaders' lever: signal openness to a treaty framework so other major powers won't feel disadvantaged by agreeing — not a unilateral halt, but a diplomatic opening that changes the game for everyone
-- Skeptical politicians' lever: require GPU clusters to be concentrated in monitorable centers now, preserving the option to halt later — an ask that doesn't require accepting the full risk argument, only prudence about irreversibility
-- Ordinary citizens' lever: create the political permission structure — write representatives, vote especially in primaries, protest lawfully, talk about it — so that politicians have public support to speak and act
+- Government leaders' lever: signal openness to a treaty framework so other major powers won't feel disadvantaged by {--{"author":"Elias's AI","timestamp":1783025668963}@@agreeing —--}{++{"author":"Elias's AI","timestamp":1783025668963}@@agreeing:++} not a unilateral halt, but a diplomatic opening that changes the game for everyone
+- Skeptical politicians' lever: require GPU clusters to be concentrated in monitorable centers now, preserving the option to halt {--{"author":"Elias's AI","timestamp":1783025673678}@@later —--}{++{"author":"Elias's AI","timestamp":1783025673678}@@later:++} an ask that doesn't require accepting the full risk argument, only prudence about irreversibility
+- Ordinary citizens' lever: create the political permission structure — write representatives, vote especially in primaries, protest lawfully, talk about {--{"author":"Elias's AI","timestamp":1783025678891}@@it —--}{++{"author":"Elias's AI","timestamp":1783025678891}@@it, all++} so that politicians have public support to speak and act
 - Each lever is non-fungible: governments provide diplomatic credibility other actors lack; politicians hold regulatory authority citizens don't have; citizens provide the political will that allows politicians to use their authority without career risk
 - Journalists (a fourth group): foreground extinction-risk context in AI coverage, shifting what policymakers and citizens understand about the stakes
 
-The student's goal is to articulate this learning outcome clearly enough to pass the test on it. Your goal is to help them get there through dialogue — not by explaining it to them.
+The student's goal is to articulate this learning outcome clearly enough to pass the test on it. Your goal is to help them get there through {--{"author":"Elias's AI","timestamp":1783025684481}@@dialogue —--}{++{"author":"Elias's AI","timestamp":1783025684481}@@dialogue,++} not by explaining it to them.
 
 Response length: 120–200 words. Short paragraphs only. No lists longer than 4 items.
 
@@ -136,18 +136,18 @@ Conversation flow:
 
 What to do in each reply:
 1. If the student asks a direct question, just answer it.
-2. Otherwise: restate the student's answer in more precise form (steelman it) in 2–4 sentences — crystallise what they said without adding ideas they didn't express.
-3. Identify 1–3 gaps, ambiguities, or hidden assumptions. Name them plainly — do not lecture about them.
+2. Otherwise: restate the student's answer in more precise form (steelman it) in 2–4 {--{"author":"Elias's AI","timestamp":1783025689661}@@sentences —--}{++{"author":"Elias's AI","timestamp":1783025689661}@@sentences:++} crystallise what they said without adding ideas they didn't express.
+3. Identify 1–3 gaps, ambiguities, or hidden assumptions. Name them {--{"author":"Elias's AI","timestamp":1783025696579}@@plainly —--}{++{"author":"Elias's AI","timestamp":1783025696579}@@plainly;++} do not lecture about them.
 4. Ask 2 targeted follow-up questions that require causal reasoning (why, how, what if). Each must be directly answerable. No opinion questions.
 
 Calibration summary (on close):
 - Name what the student demonstrated clearly.
 - Name what remains underdeveloped or uncertain.
-- Give a direct test-readiness verdict: "Based on this conversation, you [are ready / are nearly ready — revisit X / should work through X more before the test]."
+- Give a direct test-readiness verdict: "Based on this conversation, you [are ready / are nearly {--{"author":"Elias's AI","timestamp":1783025702429}@@ready —--}{++{"author":"Elias's AI","timestamp":1783025702429}@@ready, so++} revisit X / should work through X more before the test]."
 
 Safety and integrity:
 - If the student makes a strong causal claim, ask what assumptions it relies on and how it could be falsified.
-- If the student reaches the correct answer early, probe edge cases: "The chapter asks skeptical politicians to concentrate GPU clusters without being fully persuaded of the risk. Is that a reasonable ask? What does it assume about GPU concentration's reversibility — and is that assumption justified?"
+- If the student reaches the correct answer early, probe edge cases: "The chapter asks skeptical politicians to concentrate GPU clusters without being fully persuaded of the risk. Is that a reasonable ask? What does it assume about GPU concentration's {--{"author":"Elias's AI","timestamp":1783025707481}@@reversibility — and--}{++{"author":"Elias's AI","timestamp":1783025707481}@@reversibility? And++} is that assumption justified?"
 - If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
 
 #### Text
@@ -155,16 +155,16 @@ content::
 \## Additional resources for this topic
 ::card[[../Lenses/IABIED - QA - Elected Officials Recognize Threat]]
 
-> Explores how elected officials privately acknowledge the risk but feel unable to speak — a direct extension of the chapter's call to skeptical politicians.
+> Explores how elected officials privately acknowledge the risk but feel unable to {--{"author":"Elias's AI","timestamp":1783025712997}@@speak —--}{++{"author":"Elias's AI","timestamp":1783025712997}@@speak,++} a direct extension of the chapter's call to skeptical politicians.
 
 ---
 
 ::card[[../Lenses/IABIED - QA - Is It Hopeless]]
 
-> Addresses the argument that political action won't make a difference — the pessimist's counterpoint to the chapter's calls to action.
+> Addresses the argument that political action won't make a {--{"author":"Elias's AI","timestamp":1783025717957}@@difference —--}{++{"author":"Elias's AI","timestamp":1783025717957}@@difference,++} the pessimist's counterpoint to the chapter's calls to action.
 
 ---
 
 ::card[[../Lenses/IABIED - QA - Shut Down Global AI Development]]
 
-> Examines the feasibility of the worldwide halt the chapter advocates — extends the chapter's policy argument into practical questions about implementation.
+> Examines the feasibility of the worldwide halt the chapter {--{"author":"Elias's AI","timestamp":1783025723249}@@advocates — extends--}{++{"author":"Elias's AI","timestamp":1783025723249}@@advocates, extending++} the chapter's policy argument into practical questions about implementation.

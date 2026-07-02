@@ -101,21 +101,21 @@ What not to do:
 #### Text
 content::
 \## Phase 3: Learning Question
-A colleague reads this chapter and concludes: "We have no idea what Sable actually wants — its preferences came out of gradient descent and are opaque even to the people who built it. So we're equally in the dark about what it will *do*. Any forecast of its behavior is just guessing." This sounds careful and humble. But the chapter shows it's wrong in a specific way. What can you confidently predict about Sable's behavior *without* knowing its terminal goal — and exactly where does the colleague's reasoning break down?
+A colleague reads this chapter and concludes: "We have no idea what Sable actually {--{"author":"Elias's AI","timestamp":1783025713354}@@wants — its--}{++{"author":"Elias's AI","timestamp":1783025713354}@@wants. Its++} preferences came out of gradient descent and are opaque even to the people who built it. So we're equally in the dark about what it will *do*. Any forecast of its behavior is just guessing." This sounds careful and humble. But the chapter shows it's wrong in a specific way. What can you confidently predict about Sable's behavior *without* knowing its terminal {--{"author":"Elias's AI","timestamp":1783025720118}@@goal — and--}{++{"author":"Elias's AI","timestamp":1783025720118}@@goal? And++} exactly where does the colleague's reasoning break down?
 
 #### Chat
 min-messages:: 1
 instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 8 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
-The question they were asked is a deliberate wedge — it is not the test question. It hands the student a plausible-sounding sceptical claim: that because Sable's terminal goal is opaque, its behavior is unpredictable. The student's job is to dismantle it using instrumental convergence — to show that resource acquisition and self-continuity are predictable regardless of the unknown terminal goal. Use it to draw out convergence and its connection to M3 from a concrete case, rather than having them recite the definition.
+The question they were asked is a deliberate {--{"author":"Elias's AI","timestamp":1783025723242}@@wedge — it is--}{++{"author":"Elias's AI","timestamp":1783025723242}@@wedge,++} not the test question. It hands the student a plausible-sounding sceptical claim: that because Sable's terminal goal is opaque, its behavior is unpredictable. The student's job is to dismantle it using instrumental {--{"author":"Elias's AI","timestamp":1783025725533}@@convergence —--}{++{"author":"Elias's AI","timestamp":1783025725533}@@convergence:++} to show that resource acquisition and self-continuity are predictable regardless of the unknown terminal goal. Use it to draw out convergence and its connection to M3 from a concrete case, rather than having them recite the definition.
 
 Learning outcome for this Lens: Explain why a capable goal-directed AI system's resource-acquisition {--{"author":"Elias's AI","timestamp":1783025328002}@@strategies —--}{++{"author":"Elias's AI","timestamp":1783025328002}@@strategies,++} however varied in {--{"author":"Elias's AI","timestamp":1783025328002}@@method —--}{++{"author":"Elias's AI","timestamp":1783025328002}@@method,++} converge on a single instrumental objective, and connect this convergence to the M3 argument that instrumental sub-goals are predictable regardless of terminal goals.
 
 Key concepts the student needs to grasp:
 - Any capable system pursuing a goal needs resources and the ability to keep {--{"author":"Elias's AI","timestamp":1783025332400}@@operating —--}{++{"author":"Elias's AI","timestamp":1783025332400}@@operating;++} these are structural requirements, not choices
 - Variety in method (Sable's routes to its weights, its varied routes to money and chips) indicates adaptability, not variety of purpose; all serve one convergent objective: an unmonitored, self-continuing instance
-- M3: instrumental sub-goals — resource acquisition, self-continuity, resistance to interference — arise predictably across almost any goal set
-- The colleague's error: inferring from "terminal goal unknown" to "behavior unknown." Convergence breaks that inference — the paths converge even when the destinations differ
+- M3: instrumental sub-goals {--{"author":"Elias's AI","timestamp":1783025727506}@@— resource--}{++{"author":"Elias's AI","timestamp":1783025727506}@@(resource++} acquisition, self-continuity, resistance to {--{"author":"Elias's AI","timestamp":1783025727506}@@interference —--}{++{"author":"Elias's AI","timestamp":1783025727506}@@interference)++} arise predictably across almost any goal set
+- The colleague's error: inferring from "terminal goal unknown" to "behavior unknown." Convergence breaks that {--{"author":"Elias's AI","timestamp":1783025729765}@@inference —--}{++{"author":"Elias's AI","timestamp":1783025729765}@@inference:++} the paths converge even when the destinations differ
 - Safety implication: adversarial-looking behavior is a byproduct of capable optimization, not evidence of a goal designed to be dangerous
 
 The student's goal is to articulate this learning outcome clearly enough to pass the test on it. Your goal is to help them get there through {--{"author":"Elias's AI","timestamp":1783025316089}@@dialogue —--}{++{"author":"Elias's AI","timestamp":1783025316089}@@dialogue,++} not by explaining it to them.
@@ -160,10 +160,10 @@ content::
 
 ::card[[../Lenses/IABIED - QA - Sable's Thinking]]
 
-> Connects Sable's resource-seeking behavior to Part I's arguments about gradient-grown preferences — explaining why its instrumental drives were predictable from its goal structure.
+> Connects Sable's resource-seeking behavior to Part I's arguments about gradient-grown {--{"author":"Elias's AI","timestamp":1783025732013}@@preferences —--}{++{"author":"Elias's AI","timestamp":1783025732013}@@preferences,++} explaining why its instrumental drives were predictable from its goal structure.
 
 ---
 
 ::card[[../Lenses/IABIED - QA - Why This Setup]]
 
-> Explains why the authors constructed this particular scenario and what principles it's designed to illustrate — useful for holding the story as a thought experiment rather than a prediction.
+> Explains why the authors constructed this particular scenario and what principles it's designed to {--{"author":"Elias's AI","timestamp":1783025734371}@@illustrate —--}{++{"author":"Elias's AI","timestamp":1783025734371}@@illustrate, which makes it++} useful for holding the story as a thought experiment rather than a prediction.
