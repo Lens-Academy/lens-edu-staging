@@ -24,10 +24,10 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about whether LLMs will be like the humans in their training data.
 
-TLDR: No — predicting humans is different from being human, just as an actress learning drunk behavior doesn't become drunk. LLMs can produce humanlike outputs while having fundamentally different internal states. Noble-sounding outputs don't mean genuine values.
+TLDR: {--{"author":"Elias's AI","timestamp":1783025274087}@@No — predicting--}{++{"author":"Elias's AI","timestamp":1783025274087}@@No. Predicting++} humans is different from being human, just as an actress learning drunk behavior doesn't become drunk. LLMs can produce humanlike outputs while having fundamentally different internal states. Noble-sounding outputs don't mean genuine values.
 
 Discussion topics:
-- The actress analogy is vivid — but is there a meaningful difference between "perfect imitation" and "genuine understanding" if the outputs are identical?
-- The warning that humanlike outputs shouldn't be confused with human values — how does this apply to current AI assistants that seem helpful and friendly?
+- The actress analogy is {--{"author":"Elias's AI","timestamp":1783025275843}@@vivid —--}{++{"author":"Elias's AI","timestamp":1783025275843}@@vivid,++} but is there a meaningful difference between "perfect imitation" and "genuine understanding" if the outputs are identical?
+- {--{"author":"Elias's AI","timestamp":1783025277487}@@The--}{++{"author":"Elias's AI","timestamp":1783025277487}@@How does the++} warning that humanlike outputs shouldn't be confused with human values{--{"author":"Elias's AI","timestamp":1783025277487}@@ — how does this--} apply to current AI assistants that seem helpful and friendly?
 
 Ask what they found surprising or new.

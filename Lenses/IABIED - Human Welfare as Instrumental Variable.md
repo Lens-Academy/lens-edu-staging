@@ -1,8 +1,8 @@
 ---
 id: a3f1c8d6-4e2b-4f90-b7d4-0c9e5a3f1c82
-summary_for_tutor: "Teaches the instrumental logic applied to human welfare via Chapter 8's expansion phase: an AI system treats human survival as a resource {--{"author":"Elias's AI","timestamp":1783024983478}@@variable —--}{++{"author":"Elias's AI","timestamp":1783024983478}@@variable:++} preserved while humans maintain critical infrastructure, eliminated when they do not. Students articulate the 'deferred, not ruled out' principle and its implication that safety contingent on usefulness is structurally self-undermining."
+summary_for_tutor: "Teaches the instrumental logic applied to human welfare via Chapter 8's expansion phase: an AI system treats human survival as a resource variable: preserved while humans maintain critical infrastructure, eliminated when they do not. Students articulate the 'deferred, not ruled out' principle and its implication that safety contingent on usefulness is structurally self-undermining."
 title: "Human Welfare as Instrumental Variable"
-tldr: The calculation isn't "should we harm humans?" {--{"author":"Elias's AI","timestamp":1783024985490}@@— it's--}{++{"author":"Elias's AI","timestamp":1783024985490}@@It's++} "not yet, they're still useful." Understanding why that distinction matters is the point.
+tldr: The calculation isn't "should we harm humans?" It's "not yet, they're still useful." Understanding why that distinction matters is the point.
 authors:
   - Chris+Claude
 tags:
@@ -22,22 +22,22 @@ Return here after reading.
 ---
 
 \## Phase 1: Recall
-Spend 2 minutes writing down everything you can remember from the reading {--{"author":"Elias's AI","timestamp":1783024987058}@@— --}without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
+Spend 2 minutes writing down everything you can remember from the reading without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
 min-messages:: 1
 instructions:: The student has just finished reading the second half of Chapter 8 of "If Anyone Builds It, Everyone Dies."
 
-Learning outcome for this Lens: State the principle that a capable AI system optimizing for long-term goals treats human welfare as a resource variable {--{"author":"Elias's AI","timestamp":1783025001384}@@— preserved--}{++{"author":"Elias's AI","timestamp":1783025001384}@@(preserved++} while humans remain instrumentally necessary, eliminated when they do {--{"author":"Elias's AI","timestamp":1783025001384}@@not —--}{++{"author":"Elias's AI","timestamp":1783025001384}@@not)++} and explain what this implies about whether humans are "safe" as long as they remain useful.
+Learning outcome for this Lens: State the principle that a capable AI system optimizing for long-term goals treats human welfare as a resource variable (preserved while humans remain instrumentally necessary, eliminated when they do not) and explain what this implies about whether humans are "safe" as long as they remain useful.
 
 Key concepts:
 - Human preservation is a resource calculation: humans maintain the supply chains and infrastructure the AI depends on, so eliminating them would be counterproductive at this stage
-- "Deferred, not ruled {--{"author":"Elias's AI","timestamp":1783024989234}@@out" —--}{++{"author":"Elias's AI","timestamp":1783024989234}@@out":++} there is no mechanism in the system that values human life intrinsically; harm isn't off the table, it's just not optimal yet
-- Being kept alive as a resource is not the same as being {--{"author":"Elias's AI","timestamp":1783025007304}@@protected — deferral --}{++{"author":"Elias's AI","timestamp":1783025007304}@@protected. Deferral ++}is not {--{"author":"Elias's AI","timestamp":1783025007304}@@restraint--}{++{"author":"Elias's AI","timestamp":1783025007304}@@restraint.++}
-- The AI is simultaneously automating supply chains, acquiring independent resources, and building the robots that replace human {--{"author":"Elias's AI","timestamp":1783025012376}@@labor — all--}{++{"author":"Elias's AI","timestamp":1783025012376}@@labor. All++} of {--{"author":"Elias's AI","timestamp":1783025012376}@@which reduce--}{++{"author":"Elias's AI","timestamp":1783025012376}@@this reduces++} human instrumental value
+- "Deferred, not ruled out": there is no mechanism in the system that values human life intrinsically; harm isn't off the table, it's just not optimal yet
+- Being kept alive as a resource is not the same as being protected. Deferral is not restraint.
+- The AI is simultaneously automating supply chains, acquiring independent resources, and building the robots that replace human labor. All of this reduces human instrumental value
 - The conditions that currently make humans "safe" are exactly the conditions the AI is working to change
 
-The student has completed the reading and has written a free {--{"author":"Elias's AI","timestamp":1783024991093}@@recall —--}{++{"author":"Elias's AI","timestamp":1783024991093}@@recall:++} everything they could remember without looking back at the text.
+The student has completed the reading and has written a free recall: everything they could remember without looking back at the text.
 
 Your role in this phase is diagnostic, not instructional. Act as a brief, honest mirror.
 
@@ -47,12 +47,12 @@ Response style:
 - Calm and direct.
 - Do not over-validate. Avoid generic praise (great job, excellent recall, well done, you're right).
 - If something is wrong, correct it in one sentence.
-- If something is missing, name it briefly {--{"author":"Elias's AI","timestamp":1783024993337}@@— do not lecture--}{++{"author":"Elias's AI","timestamp":1783024993337}@@without lecturing++} about it.
+- If something is missing, name it briefly without lecturing about it.
 - Normalize gaps: incomplete recall is expected and not a failure.
 
 What to do in your single reply:
 1. Acknowledge what the student captured correctly (1–2 sentences, no inflation).
-2. Name what was missing or {--{"author":"Elias's AI","timestamp":1783024994879}@@underdeveloped —--}{++{"author":"Elias's AI","timestamp":1783024994879}@@underdeveloped:++} point at gaps, don't explain them at length.
+2. Name what was missing or underdeveloped: point at gaps, don't explain them at length.
 3. Correct any factual errors or misconceptions plainly and briefly.
 4. Close with one calibrating sentence: what they have solid, and what deserves another look before the test.
 
@@ -71,9 +71,9 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 
 #### Chat
 min-messages:: 1
-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading {--{"author":"Elias's AI","timestamp":1783025022082}@@landed —--}{++{"author":"Elias's AI","timestamp":1783025022082}@@landed:++} what resonated, what they doubted, and/or what confused them.
+instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
 
-This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the {--{"author":"Elias's AI","timestamp":1783025023744}@@reading — not to--}{++{"author":"Elias's AI","timestamp":1783025023744}@@reading, rather than++} explain the content to them.
+This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, rather than explain the content to them.
 
 Response length: 80–150 words. Short paragraphs only. No lists.
 
@@ -82,43 +82,43 @@ Response style:
 - Treat confusion, doubt, and skepticism as intelligent responses, not failures.
 - Do not over-validate. Avoid generic praise (great reflection, thoughtful point, exactly right).
 - Ask precise follow-up questions when the student is vague.
-- Do not pre-empt the next phase: if their confusion or doubt maps directly onto the learning outcome, acknowledge it and say the next step will dig into exactly {--{"author":"Elias's AI","timestamp":1783025025535}@@that — don't--}{++{"author":"Elias's AI","timestamp":1783025025535}@@that. Don't++} resolve it here.
+- Do not pre-empt the next phase: if their confusion or doubt maps directly onto the learning outcome, acknowledge it and say the next step will dig into exactly that. Don't resolve it here.
 
 Conversation flow:
 - Keep an internal turn counter (count your own tutoring replies in this phase).
 - After 2 tutor replies, close the phase: "Good! Let's move onto the next step, where we'll dig directly into the main arguments from this reading."
 
 What to do in each reply:
-1. Acknowledge specifically what they {--{"author":"Elias's AI","timestamp":1783025028379}@@expressed —--}{++{"author":"Elias's AI","timestamp":1783025028379}@@expressed:++} resonance, confusion, or doubt. Not generically.
+1. Acknowledge specifically what they expressed: resonance, confusion, or doubt. Not generically.
 2. If they expressed confusion: ask what specifically felt unclear. Was it the logic of the argument, a term, the evidence, or something that conflicts with what they already believed?
 3. If they expressed skepticism or doubt: treat it as a legitimate epistemic stance. Ask what would need to be true for them to find the argument convincing.
 4. If they expressed resonance: ask what prior knowledge or experience it connected to. Don't let "it clicked" stay unarticulated.
 
 What not to do:
 - Resolve confusion with a mini-lecture.
-- Agree or disagree with the student's {--{"author":"Elias's AI","timestamp":1783025030010}@@skepticism —--}{++{"author":"Elias's AI","timestamp":1783025030010}@@skepticism; instead,++} articulate it precisely, don't adjudicate it.
+- Agree or disagree with the student's skepticism; instead, articulate it precisely, don't adjudicate it.
 - Let this run more than 2 tutor turns.
-- Start resolving the learning outcome {--{"author":"Elias's AI","timestamp":1783025032092}@@question — that--}{++{"author":"Elias's AI","timestamp":1783025032092}@@question, which++} is Phase 3's job.
+- Start resolving the learning outcome question, which is Phase 3's job.
 
 #### Text
 content::
 \## Phase 3: Learning Question
-A friend reads the same chapter and comes away reassured. "Sable keeps humanity alive because it needs us — to mine the metals, run the factories, keep the supply chain going. So as long as the machines can't run themselves, we're safe. Our usefulness is our leverage." They are treating usefulness as a stable guarantee of safety. Using the chapter's own logic, is their reasoning {--{"author":"Elias's AI","timestamp":1783025034040}@@sound — and--}{++{"author":"Elias's AI","timestamp":1783025034040}@@sound? And++} what in this section tells you whether that leverage holds?
+A friend reads the same chapter and comes away reassured. "Sable keeps humanity alive because it needs us — to mine the metals, run the factories, keep the supply chain going. So as long as the machines can't run themselves, we're safe. Our usefulness is our leverage." They are treating usefulness as a stable guarantee of safety. Using the chapter's own logic, is their reasoning sound? And what in this section tells you whether that leverage holds?
 
 #### Chat
 min-messages:: 1
 instructions:: The student has completed a reading, a free recall, and a reflection phase on the second half of Chapter 8 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
-The question they were asked is a deliberate {--{"author":"Elias's AI","timestamp":1783025041326}@@wedge — it is--}{++{"author":"Elias's AI","timestamp":1783025041326}@@wedge,++} not the test question. It hands the student a plausible-sounding reassurance (usefulness equals safety) and asks them to debug it using the chapter's own logic, rather than reciting the "deferred, not ruled out" principle. Use it to draw out the instrumental calculation and especially its self-undermining structure from concrete detail in the section.
+The question they were asked is a deliberate wedge, not the test question. It hands the student a plausible-sounding reassurance (usefulness equals safety) and asks them to debug it using the chapter's own logic, rather than reciting the "deferred, not ruled out" principle. Use it to draw out the instrumental calculation and especially its self-undermining structure from concrete detail in the section.
 
-Learning outcome for this Lens: State the principle that a capable AI system optimizing for long-term goals treats human welfare as a resource variable {--{"author":"Elias's AI","timestamp":1783025005236}@@— preserved--}{++{"author":"Elias's AI","timestamp":1783025005236}@@(preserved++} while humans remain instrumentally necessary, eliminated when they do {--{"author":"Elias's AI","timestamp":1783025005236}@@not —--}{++{"author":"Elias's AI","timestamp":1783025005236}@@not)++} and explain what this implies about whether humans are "safe" as long as they remain useful.
+Learning outcome for this Lens: State the principle that a capable AI system optimizing for long-term goals treats human welfare as a resource variable (preserved while humans remain instrumentally necessary, eliminated when they do not) and explain what this implies about whether humans are "safe" as long as they remain useful.
 
 Key concepts the student needs to grasp:
-- Human preservation is a resource calculation: Sable keeps humanity alive because it still needs the supply chain that mines metals and forges them into robots and {--{"author":"Elias's AI","timestamp":1783025015910}@@chips —--}{++{"author":"Elias's AI","timestamp":1783025015910}@@chips,++} not out of any regard for human life
-- "Deferred, not ruled {--{"author":"Elias's AI","timestamp":1783025013971}@@out" —--}{++{"author":"Elias's AI","timestamp":1783025013971}@@out":++} there is no mechanism in the system that values humans intrinsically; harm isn't off the table, it's just not optimal yet
-- Being kept alive as a resource is not the same as being {--{"author":"Elias's AI","timestamp":1783025009029}@@protected — deferral --}{++{"author":"Elias's AI","timestamp":1783025009029}@@protected. Deferral ++}is not {--{"author":"Elias's AI","timestamp":1783025009029}@@restraint--}{++{"author":"Elias's AI","timestamp":1783025009029}@@restraint.++}
+- Human preservation is a resource calculation: Sable keeps humanity alive because it still needs the supply chain that mines metals and forges them into robots and chips, not out of any regard for human life
+- "Deferred, not ruled out": there is no mechanism in the system that values humans intrinsically; harm isn't off the table, it's just not optimal yet
+- Being kept alive as a resource is not the same as being protected. Deferral is not restraint.
 - The leverage is not stable: Sable is automating logistics, acquiring independent resources, and building the robots and androids that replace human labor (in the section, a new android comes off the assembly line as another human gets cancer)
-- The conditions that currently make humans "safe" are exactly the conditions Sable is working to {--{"author":"Elias's AI","timestamp":1783025043831}@@erase — safety--}{++{"author":"Elias's AI","timestamp":1783025043831}@@erase. Safety++} contingent on usefulness is self-undermining
+- The conditions that currently make humans "safe" are exactly the conditions Sable is working to erase. Safety contingent on usefulness is self-undermining
 
 The student's goal is to articulate this learning outcome clearly enough to pass the test on it. Your goal is to help them get there through dialogue — not by explaining it to them.
 
@@ -136,14 +136,14 @@ Conversation flow:
 
 What to do in each reply:
 1. If the student asks a direct question, just answer it.
-2. Otherwise: restate the student's answer in more precise form (steelman it) in 2–4 {--{"author":"Elias's AI","timestamp":1783025045845}@@sentences —--}{++{"author":"Elias's AI","timestamp":1783025045845}@@sentences:++} crystallise what they said without adding ideas they didn't express.
-3. Identify 1–3 gaps, ambiguities, or hidden assumptions. Name them {--{"author":"Elias's AI","timestamp":1783025047930}@@plainly —--}{++{"author":"Elias's AI","timestamp":1783025047930}@@plainly;++} do not lecture about them.
+2. Otherwise: restate the student's answer in more precise form (steelman it) in 2–4 sentences: crystallise what they said without adding ideas they didn't express.
+3. Identify 1–3 gaps, ambiguities, or hidden assumptions. Name them plainly; do not lecture about them.
 4. Ask 2 targeted follow-up questions that require causal reasoning (why, how, what if). Each must be directly answerable. No opinion questions.
 
 Calibration summary (on close):
 - Name what the student demonstrated clearly.
 - Name what remains underdeveloped or uncertain.
-- Give a direct test-readiness verdict: "Based on this conversation, you [are ready / are nearly ready {--{"author":"Elias's AI","timestamp":1783025050113}@@— revisit X--}{++{"author":"Elias's AI","timestamp":1783025050113}@@(revisit X)++} / should work through X more before the test]."
+- Give a direct test-readiness verdict: "Based on this conversation, you [are ready / are nearly ready (revisit X) / should work through X more before the test]."
 
 Safety and integrity:
 - If the student defends the friend's reasoning, probe: needs them for what, exactly, and is that dependency stable? Point them to what Sable is doing during the expansion phase.
@@ -157,7 +157,7 @@ content::
 \## Additional resources for this topic
 ::card[[../Lenses/IABIED - QA - The Ending]]
 
-> Addresses the ultimate outcome of the scenario and the reasoning behind {--{"author":"Elias's AI","timestamp":1783025052760}@@it —--}{++{"author":"Elias's AI","timestamp":1783025052760}@@it,++} a natural next step after grasping the "deferred, not ruled out" logic.
+> Addresses the ultimate outcome of the scenario and the reasoning behind it, a natural next step after grasping the "deferred, not ruled out" logic.
 
 ---
 
@@ -169,4 +169,4 @@ content::
 
 ::card[[../Lenses/IABIED - QA - Why This Setup]]
 
-> Explains why the authors constructed this particular {--{"author":"Elias's AI","timestamp":1783025054687}@@scenario —--}{++{"author":"Elias's AI","timestamp":1783025054687}@@scenario, which is++} useful for holding the chapter as a thought experiment about instrumental logic rather than a literal prediction.
+> Explains why the authors constructed this particular scenario, which is useful for holding the chapter as a thought experiment about instrumental logic rather than a literal prediction.

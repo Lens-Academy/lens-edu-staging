@@ -14,7 +14,7 @@ source:: [[../articles/shlegeris-thoughts-on-the-conservative-assumptions-in-ai-
 
 #### Text
 content::
-Control evals assume a perfectly coordinated adversary that already knows your whole protocol. Which of those assumptions would you relax {--{"author":"Elias's AI","timestamp":1783024137351}@@first — and--}{++{"author":"Elias's AI","timestamp":1783024137351}@@first? And++} does relaxing it still leave you safe? Pick one and defend the call to the tutor.
+Control evals assume a perfectly coordinated adversary that already knows your whole protocol. Which of those assumptions would you relax first? And does relaxing it still leave you safe? Pick one and defend the call to the tutor.
 
 #### Chat
 instructions::

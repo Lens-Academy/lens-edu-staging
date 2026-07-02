@@ -14,7 +14,7 @@ source:: [[../articles/anthropic-the-persona-selection-model]]
 
 #### Text
 content::
-"Misaligned persona" vs "misaligned {--{"author":"Elias's AI","timestamp":1783024124795}@@goal" —--}{++{"author":"Elias's AI","timestamp":1783024124795}@@goal":++} a real difference, or just a relabel? Commit to whether it changes the risk picture, then defend your call against the tutor.
+"Misaligned persona" vs "misaligned goal": a real difference, or just a relabel? Commit to whether it changes the risk picture, then defend your call against the tutor.
 
 #### Chat
 instructions::

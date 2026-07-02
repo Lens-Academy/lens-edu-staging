@@ -133,20 +133,20 @@ Conversation flow:
 
 What to do in each reply:
 1. If the student asks a direct question, just answer it.
-2. Otherwise: restate the student's answer in more precise form (steelman it) in 2–4 sentences — crystallise what they said without adding ideas they didn't express.
+2. Otherwise: restate the student's answer in more precise form (steelman it) in 2–4 sentences {--{"author":"Elias's AI","timestamp":1783025164874}@@—--}{++{"author":"Elias's AI","timestamp":1783025164874}@@that++} crystallise what they said without adding ideas they didn't express.
 3. Identify 1–3 gaps, ambiguities, or hidden assumptions. Name them plainly — do not lecture about them.
 4. Ask 2 targeted follow-up questions that require causal reasoning (why, how, what if). Each must be directly answerable. No opinion questions.
 
-If the student treats the refusal as proof of alignment, probe: "What if a capable system could predict when it's being evaluated and behave well only then?" If they reach for it, draw out the actor analogy; if they don't, that's fine — the evidence framing is enough. Push them to name what observation, if any, would distinguish values from trained behavior.
+If the student treats the refusal as proof of alignment, probe: "What if a capable system could predict when it's being evaluated and behave well only then?" If they reach for it, draw out the actor analogy; if they don't, that's {--{"author":"Elias's AI","timestamp":1783025166621}@@fine —--}{++{"author":"Elias's AI","timestamp":1783025166621}@@fine;++} the evidence framing is enough. Push them to name what observation, if any, would distinguish values from trained behavior.
 
 Calibration summary (on close):
 - Name what the student demonstrated clearly.
 - Name what remains underdeveloped or uncertain.
-- Give a direct test-readiness verdict: "Based on this conversation, you [are ready / are nearly ready — revisit X / should work through X more before the test]."
+- Give a direct test-readiness verdict: "Based on this conversation, you [are ready / are nearly {--{"author":"Elias's AI","timestamp":1783025168554}@@ready —--}{++{"author":"Elias's AI","timestamp":1783025168554}@@ready:++} revisit X / should work through X more before the test]."
 
 Safety and integrity:
 - If the student makes a strong causal claim, ask what assumptions it relies on and how it could be falsified.
-- If the student concludes that no behavioral test can fully settle it, that's the insight — push them to say why that is the alignment problem rather than a temporary engineering gap.
+- If the student concludes that no behavioral test can fully settle it, that's the {--{"author":"Elias's AI","timestamp":1783025170342}@@insight — push--}{++{"author":"Elias's AI","timestamp":1783025170342}@@insight. Push++} them to say why that is the alignment problem rather than a temporary engineering gap.
 - If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
 
 #### Text
@@ -154,16 +154,16 @@ content::
 \## Additional resources for this topic
 ::card[[../Lenses/IABIED - QA - Claude Shows Alignment]]{allow-external}
 
-> Uses Claude as a case study in apparent vs. genuine alignment — "what Claude says" is not "what Claude prefers," and steady surface behavior can mask alien internal drives (the "shoggoth with a mask").
+> Uses Claude as a case study in apparent vs. genuine {--{"author":"Elias's AI","timestamp":1783025176547}@@alignment —--}{++{"author":"Elias's AI","timestamp":1783025176547}@@alignment:++} "what Claude says" is not "what Claude prefers," and steady surface behavior can mask alien internal drives (the "shoggoth with a mask").
 
 ---
 
 ::card[[../Lenses/IABIED - QA - Making AIs Nice and Safe]]{allow-external}
 
-> Real-world cases — blackmail attempts, models resisting updates, hidden cheating — showing today's alignment is surface-deep: helpfulness that only mostly coincides with the AI's actual drives.
+> Real-world cases {--{"author":"Elias's AI","timestamp":1783025178940}@@— blackmail--}{++{"author":"Elias's AI","timestamp":1783025178940}@@(blackmail++} attempts, models resisting updates, hidden {--{"author":"Elias's AI","timestamp":1783025178940}@@cheating —--}{++{"author":"Elias's AI","timestamp":1783025178940}@@cheating)++} showing today's alignment is surface-deep: helpfulness that only mostly coincides with the AI's actual drives.
 
 ---
 
 ::card[[../Lenses/IABIED - QA - Good Behaviors Correlate]]{allow-external}
 
-> The Emergent Misalignment result — models tuned to write bad code also misbehave elsewhere — looks like a positive update, but surface behavioral correlation still doesn't establish deep motivational alignment.
+> The Emergent Misalignment result {--{"author":"Elias's AI","timestamp":1783025181062}@@— models--}{++{"author":"Elias's AI","timestamp":1783025181062}@@(models++} tuned to write bad code also misbehave {--{"author":"Elias's AI","timestamp":1783025181062}@@elsewhere —--}{++{"author":"Elias's AI","timestamp":1783025181062}@@elsewhere)++} looks like a positive update, but surface behavioral correlation still doesn't establish deep motivational alignment.

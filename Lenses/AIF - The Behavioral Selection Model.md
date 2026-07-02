@@ -14,7 +14,7 @@ source:: [[../articles/greaterwrong-the-behavioral-selection-model-for-predictin
 
 #### Text
 content::
-If good training behavior can't tell an aligned AI apart from a schemer, does any tiebreaker {--{"author":"Elias's AI","timestamp":1783024102056}@@— simplicity,--}{++{"author":"Elias's AI","timestamp":1783024102056}@@(simplicity,++} path dependence, what training {--{"author":"Elias's AI","timestamp":1783024102056}@@reinforces —--}{++{"author":"Elias's AI","timestamp":1783024102056}@@reinforces)++} actually beat a hunch? Pick the one you'd bet on and defend it to the tutor.
+If good training behavior can't tell an aligned AI apart from a schemer, does any tiebreaker (simplicity, path dependence, what training reinforces) actually beat a hunch? Pick the one you'd bet on and defend it to the tutor.
 
 #### Chat
 instructions::

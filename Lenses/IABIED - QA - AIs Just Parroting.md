@@ -24,10 +24,10 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about whether AIs are just parroting back human text.
 
-TLDR: {--{"author":"Elias's AI","timestamp":1783024942668}@@No — predicting--}{++{"author":"Elias's AI","timestamp":1783024942668}@@No. Predicting++} medical reports requires understanding medicine. AlphaGo Zero surpassed all humans through self-play alone, and chess engines have taught human masters new strategies. Modern AI demonstrably goes beyond pattern repetition.
+TLDR: No. Predicting medical reports requires understanding medicine. AlphaGo Zero surpassed all humans through self-play alone, and chess engines have taught human masters new strategies. Modern AI demonstrably goes beyond pattern repetition.
 
 Discussion topics:
 - AlphaGo Zero learning Go from scratch is powerful evidence against "just parroting." But does Go (with clear rules) transfer to the messier real world?
-- The medical report {--{"author":"Elias's AI","timestamp":1783024944360}@@example —--}{++{"author":"Elias's AI","timestamp":1783024944360}@@example:++} does an AI choosing "elevated" vs. "normal" ammonia levels really constitute "understanding medicine"?
+- The medical report example: does an AI choosing "elevated" vs. "normal" ammonia levels really constitute "understanding medicine"?
 
 Ask what they found surprising or new.

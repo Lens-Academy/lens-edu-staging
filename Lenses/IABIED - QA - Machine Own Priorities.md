@@ -27,7 +27,7 @@ The student just read a supplementary Q&A from the book's website about how mach
 TLDR: Solving hard problems requires initiative and tenacity, so training pressures naturally push AIs toward driven, agentic behavior. Just as evolution produced humans who diverged from pure reproductive fitness, AIs grown through training may develop priorities that diverge from their training targets.
 
 Discussion topics:
-- The birth control analogy is striking—what does it suggest about the relationship between a training process and the goals of the system it produces?
+- The birth control analogy is {--{"author":"Elias's AI","timestamp":1783025311053}@@striking—what--}{++{"author":"Elias's AI","timestamp":1783025311053}@@striking. What++} does it suggest about the relationship between a training process and the goals of the system it produces?
 - If driven behavior "comes automatically" from training on hard problems, what does that imply about efforts to keep AIs passive?
 
 Ask what they found surprising or new.

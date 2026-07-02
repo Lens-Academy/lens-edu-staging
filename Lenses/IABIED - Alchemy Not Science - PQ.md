@@ -10,16 +10,16 @@ tags:
   - IABIED
 ---
 #### Text
-content:: Imagine someone who can reliably produce a {--{"author":"Elias's AI","timestamp":1783024998257}@@result — say, --}{++{"author":"Elias's AI","timestamp":1783024998257}@@result, say ++}a sourdough starter that always rises, a chemical reaction that always yields the right precipitate, {++{"author":"Elias's AI","timestamp":1783024998257}@@or ++}a stretch routine that consistently helps their {--{"author":"Elias's AI","timestamp":1783024998257}@@back — *but who--}{++{"author":"Elias's AI","timestamp":1783024998257}@@back. *Yet they++} cannot explain why their procedure works.*
+content:: Imagine someone who can reliably produce a result, say a sourdough starter that always rises, a chemical reaction that always yields the right precipitate, or a stretch routine that consistently helps their back. *Yet they cannot explain why their procedure works.*
 
 In what kind of situation does that recipe-level competence stop being enough? When does the gap between *knowing what works* and *knowing why it works* matter?
 
-Take 60 seconds and write down what you think distinguishes "I have a recipe" from "I understand the {--{"author":"Elias's AI","timestamp":1783025000050}@@principle" — and--}{++{"author":"Elias's AI","timestamp":1783025000050}@@principle," along with++} a situation where having only the recipe could become dangerous.
+Take 60 seconds and write down what you think distinguishes "I have a recipe" from "I understand the principle," along with a situation where having only the recipe could become dangerous.
 
 #### Chat
 min-messages:: 1
 instructions::
-The student is about to read the first half of Chapter 11 of "If Anyone Builds It, Everyone {--{"author":"Elias's AI","timestamp":1783025002578}@@Dies" —--}{++{"author":"Elias's AI","timestamp":1783025002578}@@Dies." That section covers++} the alchemist allegory plus the folk-theory critique of Musk and LeCun, ending with the mother/engineer dialogue and the systemic-incompetence argument.
+The student is about to read the first half of Chapter 11 of "If Anyone Builds It, Everyone Dies." That section covers the alchemist allegory plus the folk-theory critique of Musk and LeCun, ending with the mother/engineer dialogue and the systemic-incompetence argument.
 
 They just answered: "When does recipe-level competence (knowing what works) stop being enough? When does the gap between recipe and principle become dangerous?"
 

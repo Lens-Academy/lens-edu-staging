@@ -14,7 +14,7 @@ source:: [[../articles/ai-eci-documentation]]
 
 #### Text
 content::
-One number for "how capable is AI {--{"author":"Elias's AI","timestamp":1783023941023}@@today" —--}{++{"author":"Elias's AI","timestamp":1783023941023}@@today":++} useful shorthand, or{--{"author":"Elias's AI","timestamp":1783023941023}@@ a--} dangerous oversimplification? Stake out a position with the tutor before you move on to METR.
+One number for "how capable is AI today": useful shorthand, or dangerous oversimplification? Stake out a position with the tutor before you move on to METR.
 
 #### Chat
 instructions::

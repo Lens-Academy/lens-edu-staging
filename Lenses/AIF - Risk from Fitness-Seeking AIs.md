@@ -14,7 +14,7 @@ source:: [[../articles/mallen-risk-from-fitness-seeking-ais-mechanisms-and-mitig
 
 #### Text
 content::
-Is a fitness-seeker more or less dangerous than a classic {--{"author":"Elias's AI","timestamp":1783024104422}@@schemer —--}{++{"author":"Elias's AI","timestamp":1783024104422}@@schemer,++} and does a single one of Mallen's mitigations survive contact with production RL? Commit to one mechanism→mitigation pair and pressure-test it with the tutor.
+Is a fitness-seeker more or less dangerous than a classic schemer, and does a single one of Mallen's mitigations survive contact with production RL? Commit to one mechanism→mitigation pair and pressure-test it with the tutor.
 
 #### Chat
 instructions::

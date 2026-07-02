@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-This Q&A addresses the dismissal that AI risk is "just science fiction." The authors note that flight, moon travel, and nuclear weapons all appeared in fiction before becoming real — fiction is neither reliably predictive nor reliably wrong. They also argue that the consequences of superintelligent AI will inevitably be "weird" by current standards.
+This Q&A addresses the dismissal that AI risk is "just science fiction." The authors note that flight, moon travel, and nuclear weapons all appeared in fiction before becoming {--{"author":"Elias's AI","timestamp":1783025269938}@@real —--}{++{"author":"Elias's AI","timestamp":1783025269938}@@real, so++} fiction is neither reliably predictive nor reliably wrong. They also argue that the consequences of superintelligent AI will inevitably be "weird" by current standards.
 
 #### Article
 source:: [[../articles/iabied-intro-faq-science-fiction]]

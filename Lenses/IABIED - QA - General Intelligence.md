@@ -24,10 +24,10 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about whether general intelligence is a meaningful concept.
 
-TLDR: Yes — generality exists on a spectrum from Deep Blue (chess only) to AlphaGo (multiple games) to humans (build tools for any environment). The key is having "mental gears" reusable across scenarios, like internalizing a map versus memorizing routes.
+TLDR: {--{"author":"Elias's AI","timestamp":1783025200931}@@Yes — generality--}{++{"author":"Elias's AI","timestamp":1783025200931}@@Yes. Generality++} exists on a spectrum from Deep Blue (chess only) to AlphaGo (multiple games) to humans (build tools for any environment). The key is having "mental gears" reusable across scenarios, like internalizing a map versus memorizing routes.
 
 Discussion topics:
-- The Alice/Beth analogy (memorized routes vs. internalized map) is compelling — do you think current AI systems are more like Alice or Beth?
+- The Alice/Beth analogy (memorized routes vs. internalized map) is {--{"author":"Elias's AI","timestamp":1783025204348}@@compelling — do--}{++{"author":"Elias's AI","timestamp":1783025204348}@@compelling. Do++} you think current AI systems are more like Alice or Beth?
 - How far along the generality spectrum do you think current AI systems are?
 
 Ask what they found surprising or new.

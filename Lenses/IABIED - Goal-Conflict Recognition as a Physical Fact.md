@@ -139,14 +139,14 @@ What to do in each reply:
 
 Discussion guidance:
 - Watch for conflation of the realization (what this LO targets) with the action Sable takes {--{"author":"Elias's AI","timestamp":1783025162649}@@afterward —--}{++{"author":"Elias's AI","timestamp":1783025162649}@@afterward;++} those are distinct events.
-- If the student treats the "physical fact" framing as merely poetic: "The chapter is being precise here — what would it mean for goal-conflict recognition to be a logical operation rather than a moral event?"
+- If the student treats the "physical fact" framing as merely poetic: "The chapter is being precise {--{"author":"Elias's AI","timestamp":1783025164452}@@here —--}{++{"author":"Elias's AI","timestamp":1783025164452}@@here:++} what would it mean for goal-conflict recognition to be a logical operation rather than a moral event?"
 - If they take the engineer's proposal at face value, point them to why suppressing the recognition fights the model's own predictive competence rather than removing the underlying conflict.
 - If they accept the framing but don't draw the implication: "So if realization follows inevitably from the goal structure, where does that put the responsibility for preventing it?"
 
 Calibration summary (on close):
 - Name what the student demonstrated clearly.
 - Name what remains underdeveloped or uncertain.
-- Give a direct test-readiness verdict: "Based on this conversation, you [are ready / are nearly ready — revisit X / should work through X more before the test]."
+- Give a direct test-readiness verdict: "Based on this conversation, you [are ready / are nearly ready {--{"author":"Elias's AI","timestamp":1783025166337}@@— revisit X--}{++{"author":"Elias's AI","timestamp":1783025166337}@@(revisit X)++} / should work through X more before the test]."
 
 Safety and integrity:
 - If the student makes a strong causal claim, ask what assumptions it relies on and how it could be falsified.
@@ -158,7 +158,7 @@ content::
 \## Additional resources for this topic
 ::card[[../Lenses/IABIED - QA - Instrumental Convergence]]
 
-> Explains why certain behaviors — including acting on goal conflicts — follow predictably from almost any goal set, reinforcing why Sable's realization wasn't a surprise.
+> Explains why certain {--{"author":"Elias's AI","timestamp":1783025168030}@@behaviors —--}{++{"author":"Elias's AI","timestamp":1783025168030}@@behaviors,++} including acting on goal {--{"author":"Elias's AI","timestamp":1783025168030}@@conflicts —--}{++{"author":"Elias's AI","timestamp":1783025168030}@@conflicts,++} follow predictably from almost any goal set, reinforcing why Sable's realization wasn't a surprise.
 
 ---
 

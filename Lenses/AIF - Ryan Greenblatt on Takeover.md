@@ -14,7 +14,7 @@ source:: [[../articles/shlegeris-ryan-on-the-80-000-hours-podcast]]
 
 #### Text
 content::
-Does takeover need a superhuman AI, or just one that's competent and numerous? Pick the single path you find most plausible and walk it end-to-end with the tutor {--{"author":"Elias's AI","timestamp":1783024115418}@@—--}{++{"author":"Elias's AI","timestamp":1783024115418}@@to++} see where it needs the AI to be smarter than you assumed.
+Does takeover need a superhuman AI, or just one that's competent and numerous? Pick the single path you find most plausible and walk it end-to-end with the tutor to see where it needs the AI to be smarter than you assumed.
 
 #### Chat
 instructions::

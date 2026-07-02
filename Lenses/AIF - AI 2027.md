@@ -15,7 +15,7 @@ For this week, focus on the scenario up to the branching point, plus the [AI Goa
 
 #### Text
 content::
-What did Agent-4 actually {--{"author":"Elias's AI","timestamp":1783024113241}@@want —--}{++{"author":"Elias's AI","timestamp":1783024113241}@@want,++} and does the scenario earn that {--{"author":"Elias's AI","timestamp":1783024113241}@@claim,--}{++{"author":"Elias's AI","timestamp":1783024113241}@@claim++} or quietly smuggle it in? Commit to your read of its goals, then defend it against the tutor.
+What did Agent-4 actually want, and does the scenario earn that claim or quietly smuggle it in? Commit to your read of its goals, then defend it against the tutor.
 
 #### Chat
 instructions::

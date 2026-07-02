@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-This Q&A tackles the hope that superintelligent AIs would need legal frameworks that include protections for humans. The authors argue that AIs could coordinate among themselves without including humans, and that any property rights protecting humans would be inherently {--{"author":"Elias's AI","timestamp":1783025018554}@@unstable —--}{++{"author":"Elias's AI","timestamp":1783025018554}@@unstable,++} much like a city where mice supposedly own most property and control human decisions.
+This Q&A tackles the hope that superintelligent AIs would need legal frameworks that include protections for humans. The authors argue that AIs could coordinate among themselves without including humans, and that any property rights protecting humans would be inherently unstable, much like a city where mice supposedly own most property and control human decisions.
 
 #### Article
 source:: [[../articles/iabied-ch5-faq-rule-of-law]]

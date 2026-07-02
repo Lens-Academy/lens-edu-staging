@@ -2,7 +2,7 @@
 id: 3b7f9c2e-a145-4d83-b6e0-c92f418d5070
 summary_for_tutor: "Priming question before the first half of Chapter 2. Students articulate their existing model of how AI is built before encountering the grown/crafted distinction."
 title: "Pre-Reading Question - AI Is Grown, Not Crafted"
-tldr: You probably have a mental model of how AI works. Before you read, write it {--{"author":"Elias's AI","timestamp":1783024834548}@@down —--}{++{"author":"Elias's AI","timestamp":1783024834548}@@down.++} Chapter 2 is about to complicate it.
+tldr: You probably have a mental model of how AI works. Before you read, write it down. Chapter 2 is about to complicate it.
 authors:
   - Chris+Claude
 tags:
@@ -20,4 +20,4 @@ The student is about to read the first half of Chapter 2 ("Grown, Not Crafted") 
 
 They just answered: "How do you imagine modern AI systems like ChatGPT were created?"
 
-Acknowledge their answer in 1–2 sentences. Do NOT explain gradient descent or the grown/crafted {--{"author":"Elias's AI","timestamp":1783024836710}@@distinction — they--}{++{"author":"Elias's AI","timestamp":1783024836710}@@distinction; students++} will encounter it in the reading. Close with: "Hold that thought and head to Chapter 2 when you're ready. Come back here after you've finished the assigned section."
+Acknowledge their answer in 1–2 sentences. Do NOT explain gradient descent or the grown/crafted distinction; students will encounter it in the reading. Close with: "Hold that thought and head to Chapter 2 when you're ready. Come back here after you've finished the assigned section."

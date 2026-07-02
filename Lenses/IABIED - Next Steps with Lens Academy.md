@@ -18,7 +18,7 @@ The main AI Safety Course covers topics like:
 - Mechanistic interpretability
 - AI governance frameworks
 
-This course assumes the intuitions you've built in the book club and goes further into the technical {--{"author":"Elias's AI","timestamp":1783024771751}@@details — asking--}{++{"author":"Elias's AI","timestamp":1783024771751}@@details. It asks++} you to evaluate specific alignment techniques and understand the mathematical and computational challenges involved.
+This course assumes the intuitions you've built in the book club and goes further into the technical details. It asks you to evaluate specific alignment techniques and understand the mathematical and computational challenges involved.
 
 #### Chat
 instructions::

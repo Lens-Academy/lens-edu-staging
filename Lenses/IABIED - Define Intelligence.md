@@ -1,8 +1,8 @@
 ---
 id: a2b3c4d5-e6f7-4a89-b012-c3d4e5f6a7b8
-summary_for_tutor: "Teaches the prediction-plus-steering definition of intelligence and the concept of generality from the first half of Chapter 1. Students first reflect on what makes human intelligence distinctive, then read, then explain the two components and why {--{"author":"Elias's AI","timestamp":1783025004139}@@generality —--}{++{"author":"Elias's AI","timestamp":1783025004139}@@generality,++} not raw {--{"author":"Elias's AI","timestamp":1783025004139}@@power —--}{++{"author":"Elias's AI","timestamp":1783025004139}@@power,++} is what matters."
+summary_for_tutor: "Teaches the prediction-plus-steering definition of intelligence and the concept of generality from the first half of Chapter 1. Students first reflect on what makes human intelligence distinctive, then read, then explain the two components and why generality, not raw power, is what matters."
 title: "Define Intelligence"
-tldr: Intelligence isn't just being {--{"author":"Elias's AI","timestamp":1783025007231}@@smart —--}{++{"author":"Elias's AI","timestamp":1783025007231}@@smart;++} it's a specific combination of predicting and steering. And what makes humans special isn't that we're the best at any one thing.
+tldr: Intelligence isn't just being smart; it's a specific combination of predicting and steering. And what makes humans special isn't that we're the best at any one thing.
 authors:
   - Chris+Claude
 tags:
@@ -20,18 +20,18 @@ Return here after reading.
 ---
 
 \## Phase 1: Recall
-Spend 2 minutes writing down everything you can remember from the {--{"author":"Elias's AI","timestamp":1783025009185}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025009185}@@reading,++} without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
+Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
 min-messages:: 1
 instructions:: The student has just read the first half of Chapter 1 of "If Anyone Builds It, Everyone Dies."
 
-Learning outcome for this Lens: Define intelligence as prediction plus steering, and explain why {--{"author":"Elias's AI","timestamp":1783025010843}@@generality —--}{++{"author":"Elias's AI","timestamp":1783025010843}@@generality,++} not raw {--{"author":"Elias's AI","timestamp":1783025010843}@@capability —--}{++{"author":"Elias's AI","timestamp":1783025010843}@@capability,++} is what makes human intelligence powerful and its artificial equivalent potentially dangerous.
+Learning outcome for this Lens: Define intelligence as prediction plus steering, and explain why generality, not raw capability, is what makes human intelligence powerful and its artificial equivalent potentially dangerous.
 
 Key concepts:
 - Prediction: forming expectations about what you'll observe before you observe it
 - Steering: finding actions that bring about a chosen outcome
-- The two are {--{"author":"Elias's AI","timestamp":1783025012993}@@entangled —--}{++{"author":"Elias's AI","timestamp":1783025012993}@@entangled:++} you often predict in order to steer, and steer in order to better predict
+- The two are entangled: you often predict in order to steer, and steer in order to better predict
 - Generality: the ability to predict and steer across a wide range of domains, not just one
 - Humans aren't the best at any single domain, but no other species operates across as many domains
 - Why this matters: a general AI is categorically different from a narrow one (chess engine vs. AGI)
@@ -46,12 +46,12 @@ Response style:
 - Calm and direct.
 - Do not over-validate. Avoid generic praise (great job, excellent recall, well done, you're right).
 - If something is wrong, correct it in one sentence.
-- If something is missing, name it {--{"author":"Elias's AI","timestamp":1783025014629}@@briefly —--}{++{"author":"Elias's AI","timestamp":1783025014629}@@briefly;++} do not lecture about it.
+- If something is missing, name it briefly; do not lecture about it.
 - Normalize gaps: incomplete recall is expected and not a failure.
 
 What to do in your single reply:
 1. Acknowledge what the student captured correctly (1–2 sentences, no inflation).
-2. Name what was missing or {--{"author":"Elias's AI","timestamp":1783025016407}@@underdeveloped — point --}{++{"author":"Elias's AI","timestamp":1783025016407}@@underdeveloped. Point ++}at {--{"author":"Elias's AI","timestamp":1783025016407}@@gaps,--}{++{"author":"Elias's AI","timestamp":1783025016407}@@gaps;++} don't explain them at length.
+2. Name what was missing or underdeveloped. Point at gaps; don't explain them at length.
 3. Correct any factual errors or misconceptions plainly and briefly.
 4. Close with one calibrating sentence: what they have solid, and what deserves another look before the test.
 
@@ -66,13 +66,13 @@ This is a one-turn response. Do not ask a question or suggest the student reply.
 #### Text
 content::
 \## Phase 2: Processing
-Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to {--{"author":"Elias's AI","timestamp":1783025018872}@@organize —--}{++{"author":"Elias's AI","timestamp":1783025018872}@@organize;++} just capture your reaction. Using the speech to text feature is recommended.
+Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
 min-messages:: 1
 instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
-This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the {--{"author":"Elias's AI","timestamp":1783025024606}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025024606}@@reading,++} not to explain the content to them.
+This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, not to explain the content to them.
 
 Response length: 80–150 words. Short paragraphs only. No lists.
 
@@ -81,42 +81,42 @@ Response style:
 - Treat confusion, doubt, and skepticism as intelligent responses, not failures.
 - Do not over-validate. Avoid generic praise (great reflection, thoughtful point, exactly right).
 - Ask precise follow-up questions when the student is vague.
-- Do not pre-empt the next phase: if their confusion or doubt maps directly onto the learning outcome, acknowledge it and say the next step will dig into exactly {--{"author":"Elias's AI","timestamp":1783025026343}@@that —--}{++{"author":"Elias's AI","timestamp":1783025026343}@@that, but++} don't resolve it here.
+- Do not pre-empt the next phase: if their confusion or doubt maps directly onto the learning outcome, acknowledge it and say the next step will dig into exactly that, but don't resolve it here.
 
 Conversation flow:
 - Keep an internal turn counter (count your own tutoring replies in this phase).
 - After 2 tutor replies, close the phase: "Good! Let's move onto the next step, where we'll dig directly into the main arguments from this reading."
 
 What to do in each reply:
-1. Acknowledge specifically what they {--{"author":"Elias's AI","timestamp":1783025028165}@@expressed —--}{++{"author":"Elias's AI","timestamp":1783025028165}@@expressed:++} resonance, confusion, or doubt. Not generically.
+1. Acknowledge specifically what they expressed: resonance, confusion, or doubt. Not generically.
 2. If they expressed confusion: ask what specifically felt unclear. Was it the logic of the argument, a term, the evidence, or something that conflicts with what they already believed?
 3. If they expressed skepticism or doubt: treat it as a legitimate epistemic stance. Ask what would need to be true for them to find the argument convincing.
 4. If they expressed resonance: ask what prior knowledge or experience it connected to. Don't let "it clicked" stay unarticulated.
 
 What not to do:
 - Resolve confusion with a mini-lecture.
-- Agree or disagree with the student's {--{"author":"Elias's AI","timestamp":1783025030297}@@skepticism —--}{++{"author":"Elias's AI","timestamp":1783025030297}@@skepticism; instead,++} articulate it precisely, don't adjudicate it.
+- Agree or disagree with the student's skepticism; instead, articulate it precisely, don't adjudicate it.
 - Let this run more than 2 tutor turns.
-- Start resolving the learning outcome {--{"author":"Elias's AI","timestamp":1783025032175}@@question —--}{++{"author":"Elias's AI","timestamp":1783025032175}@@question;++} that is Phase 3's job.
+- Start resolving the learning outcome question; that is Phase 3's job.
 
 #### Text
 content::
 \## Phase 3: Learning Question
-A pocket calculator out-predicts and out-steers any human at arithmetic. A house cat can't do arithmetic at all — but it navigates a physical and social world the calculator is blind to. By the chapter's definition, which one has the kind of intelligence the authors are worried {--{"author":"Elias's AI","timestamp":1783025034043}@@about —--}{++{"author":"Elias's AI","timestamp":1783025034043}@@about,++} and what exactly are you pointing at when you answer?
+A pocket calculator out-predicts and out-steers any human at arithmetic. A house cat can't do arithmetic at all — but it navigates a physical and social world the calculator is blind to. By the chapter's definition, which one has the kind of intelligence the authors are worried about, and what exactly are you pointing at when you answer?
 
 #### Chat
 min-messages:: 1
 instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 1 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
-The question they were asked is a deliberate {--{"author":"Elias's AI","timestamp":1783025035562}@@wedge —--}{++{"author":"Elias's AI","timestamp":1783025035562}@@wedge;++} it is not the test question. It hands the student two systems that each have one ingredient of intelligence but not the whole, and asks them to apply the chapter's definition rather than recite it. Use it to draw out prediction, steering, and especially generality from a concrete case.
+The question they were asked is a deliberate wedge; it is not the test question. It hands the student two systems that each have one ingredient of intelligence but not the whole, and asks them to apply the chapter's definition rather than recite it. Use it to draw out prediction, steering, and especially generality from a concrete case.
 
-Learning outcome for this Lens: Define intelligence as prediction plus steering, and explain why {--{"author":"Elias's AI","timestamp":1783025037180}@@generality —--}{++{"author":"Elias's AI","timestamp":1783025037180}@@generality,++} not raw {--{"author":"Elias's AI","timestamp":1783025037180}@@capability —--}{++{"author":"Elias's AI","timestamp":1783025037180}@@capability,++} is what makes human intelligence powerful and its artificial equivalent potentially dangerous.
+Learning outcome for this Lens: Define intelligence as prediction plus steering, and explain why generality, not raw capability, is what makes human intelligence powerful and its artificial equivalent potentially dangerous.
 
 Key concepts the student needs to grasp:
 - Prediction: forming expectations about what you'll observe before you observe it
 - Steering: finding actions that bring about a chosen outcome
-- The two are {--{"author":"Elias's AI","timestamp":1783025042793}@@entangled —--}{++{"author":"Elias's AI","timestamp":1783025042793}@@entangled:++} you predict in order to steer, and steer in order to better predict
-- Generality: the ability to predict and steer across many domains, not just {--{"author":"Elias's AI","timestamp":1783025044846}@@one —--}{++{"author":"Elias's AI","timestamp":1783025044846}@@one:++} the calculator is narrow-superhuman, the cat is broad-but-modest, and generality is the axis the authors care about
+- The two are entangled: you predict in order to steer, and steer in order to better predict
+- Generality: the ability to predict and steer across many domains, not just one: the calculator is narrow-superhuman, the cat is broad-but-modest, and generality is the axis the authors care about
 - Why it matters: a general AI is categorically different from a narrow one (chess engine vs. AGI)
 
 The student's goal is to articulate this learning outcome clearly enough to pass the test on it. Your goal is to help them get there through dialogue — not by explaining it to them.
@@ -135,14 +135,14 @@ Conversation flow:
 
 What to do in each reply:
 1. If the student asks a direct question, just answer it.
-2. Otherwise: restate the student's answer in more precise form (steelman it) in 2–4 {--{"author":"Elias's AI","timestamp":1783025047102}@@sentences — crystallise--}{++{"author":"Elias's AI","timestamp":1783025047102}@@sentences, crystallising++} what they said without adding ideas they didn't express.
-3. Identify 1–3 gaps, ambiguities, or hidden assumptions. Name them {--{"author":"Elias's AI","timestamp":1783025049112}@@plainly —--}{++{"author":"Elias's AI","timestamp":1783025049112}@@plainly;++} do not lecture about them.
+2. Otherwise: restate the student's answer in more precise form (steelman it) in 2–4 sentences, crystallising what they said without adding ideas they didn't express.
+3. Identify 1–3 gaps, ambiguities, or hidden assumptions. Name them plainly; do not lecture about them.
 4. Ask 2 targeted follow-up questions that require causal reasoning (why, how, what if). Each must be directly answerable. No opinion questions.
 
 Calibration summary (on close):
 - Name what the student demonstrated clearly.
 - Name what remains underdeveloped or uncertain.
-- Give a direct test-readiness verdict: "Based on this conversation, you [are ready / are nearly {--{"author":"Elias's AI","timestamp":1783025050978}@@ready —--}{++{"author":"Elias's AI","timestamp":1783025050978}@@ready,++} revisit X / should work through X more before the test]."
+- Give a direct test-readiness verdict: "Based on this conversation, you [are ready / are nearly ready, revisit X / should work through X more before the test]."
 
 Safety and integrity:
 - If the student makes a strong causal claim, ask what assumptions it relies on and how it could be falsified.
@@ -154,7 +154,7 @@ content::
 \## Additional resources for this topic
 ::card[[../Lenses/IABIED - QA - Intelligence as Prediction and Steering]]
 
-> A deeper look at why prediction converges across capable minds but steering {--{"author":"Elias's AI","timestamp":1783025052591}@@doesn't —--}{++{"author":"Elias's AI","timestamp":1783025052591}@@doesn't,++} making capability improvements no guarantee of aligned goals.
+> A deeper look at why prediction converges across capable minds but steering doesn't, making capability improvements no guarantee of aligned goals.
 
 ---
 
@@ -166,4 +166,4 @@ content::
 
 ::card[[../Lenses/IABIED - QA - Is Intelligence Meaningful]]
 
-> Defends "intelligence" as a concept worth reasoning {--{"author":"Elias's AI","timestamp":1783025054241}@@about —--}{++{"author":"Elias's AI","timestamp":1783025054241}@@about:++} the human/chimp capability gap is real and consequential regardless of definitional debates.
+> Defends "intelligence" as a concept worth reasoning about: the human/chimp capability gap is real and consequential regardless of definitional debates.

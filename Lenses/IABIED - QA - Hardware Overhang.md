@@ -22,7 +22,7 @@ What do you think? Does this address a concern you had, or raise new questions?
 #### Chat
 instructions::
 The student just read a supplementary Q&A from the book's website about whether racing ahead in AI development prevents hardware overhang.
-TLDR: Racing ahead doesn't solve alignment — intelligence has threshold effects, and growing more AIs faster is a non sequitur when nobody knows how to make AIs robustly care about what designers want.
+TLDR: Racing ahead doesn't solve {--{"author":"Elias's AI","timestamp":1783025235571}@@alignment —--}{++{"author":"Elias's AI","timestamp":1783025235571}@@alignment:++} intelligence has threshold effects, and growing more AIs faster is a non sequitur when nobody knows how to make AIs robustly care about what designers want.
 Discussion topics:
 - Does the threshold effects argument convince you that gradual progress won't help?
 - What do you make of the case study of Sam Altman using this argument to justify racing ahead?

@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-Chapter 3 introduces two key thinking errors that derail AI predictions. This extended discussion explains why both projecting human emotions onto AIs and assuming they'll be rigid machines lead to faulty {--{"author":"Elias's AI","timestamp":1783025077433}@@conclusions—and--}{++{"author":"Elias's AI","timestamp":1783025077433}@@conclusions. It also explains++} why the realistic approach focuses on what behavior enables the AI to succeed at its objectives.
+Chapter 3 introduces two key thinking errors that derail AI predictions. This extended discussion explains why both projecting human emotions onto AIs and assuming they'll be rigid machines lead to faulty conclusions. It also explains why the realistic approach focuses on what behavior enables the AI to succeed at its objectives.
 
 #### Article
 source:: [[../articles/iabied-ch3-ext-anthropomorphism]]
@@ -24,7 +24,7 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about anthropomorphism and mechanomorphism in AI thinking.
 
-TLDR: Both assuming AIs will be human-like (anthropomorphism) and assuming they'll be rigid machines (mechanomorphism) produce bad predictions. The right question is "what behavior enables the AI to {--{"author":"Elias's AI","timestamp":1783025078952}@@succeed?"—which--}{++{"author":"Elias's AI","timestamp":1783025078952}@@succeed?" That++} leads to expecting want-like behavior without human emotions.
+TLDR: Both assuming AIs will be human-like (anthropomorphism) and assuming they'll be rigid machines (mechanomorphism) produce bad predictions. The right question is "what behavior enables the AI to succeed?" That leads to expecting want-like behavior without human emotions.
 
 Discussion topics:
 - Can you think of examples in popular culture or public discourse where people fall into anthropomorphism or mechanomorphism about AI?

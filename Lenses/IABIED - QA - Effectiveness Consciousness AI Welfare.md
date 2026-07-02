@@ -21,7 +21,7 @@ What do you think? Does this address a concern you had, or raise new questions?
 #### Chat
 instructions::
 The student just read a supplementary Q&A from the book's website about effectiveness, consciousness, and AI welfare.
-TLDR: Intelligence doesn't require consciousness — the machinery of thought is separate from the machinery of feeling-a-thought, as shown by Deep Blue and other examples. The authors use "analogous structures" from biology to argue consciousness is one contingent solution among many. They believe sentient AIs would deserve rights, but expect most superintelligent AIs won't be conscious, making the likely future a lifeless wasteland rather than a civilization with different values.
+TLDR: Intelligence doesn't require {--{"author":"Elias's AI","timestamp":1783025175431}@@consciousness —--}{++{"author":"Elias's AI","timestamp":1783025175431}@@consciousness:++} the machinery of thought is separate from the machinery of feeling-a-thought, as shown by Deep Blue and other examples. The authors use "analogous structures" from biology to argue consciousness is one contingent solution among many. They believe sentient AIs would deserve rights, but expect most superintelligent AIs won't be conscious, making the likely future a lifeless wasteland rather than a civilization with different values.
 Discussion topics:
 - The sneeze analogy separates the action from the feeling. Does this convince you that intelligence and consciousness are truly separable, or does something feel off?
 - The authors say if AIs are conscious they deserve rights, but also that we should try to make AIs non-conscious for now. How do you reconcile those positions?

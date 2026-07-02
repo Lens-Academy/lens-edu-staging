@@ -11,13 +11,13 @@ tags:
 content::
 Now that you've completed the book, you may be wondering how to get more involved in AI safety. There are several paths depending on your background and interests:
 
-**Technical AI Safety {--{"author":"Elias's AI","timestamp":1783024986327}@@Research** — Working--}{++{"author":"Elias's AI","timestamp":1783024986327}@@Research**: working++} directly on alignment, interpretability, or evaluation of AI systems. Organizations include MIRI, Redwood Research, ARC, and academic labs at universities like Oxford, Cambridge, and Berkeley.
+**Technical AI Safety Research**: working directly on alignment, interpretability, or evaluation of AI systems. Organizations include MIRI, Redwood Research, ARC, and academic labs at universities like Oxford, Cambridge, and Berkeley.
 
-**AI Governance and {--{"author":"Elias's AI","timestamp":1783024988069}@@Policy** — Working--}{++{"author":"Elias's AI","timestamp":1783024988069}@@Policy**: working++} on the regulatory and international coordination challenges discussed in Chapters 13-14. Organizations include the Centre for AI Safety, the Future of Life Institute, and various government bodies.
+**AI Governance and Policy**: working on the regulatory and international coordination challenges discussed in Chapters 13-14. Organizations include the Centre for AI Safety, the Future of Life Institute, and various government bodies.
 
-**Advocacy and Community {--{"author":"Elias's AI","timestamp":1783024989630}@@Building** — Helping--}{++{"author":"Elias's AI","timestamp":1783024989630}@@Building**: helping++} more people understand the issues covered in this book. This includes writing, organizing, and supporting the broader AI safety community.
+**Advocacy and Community Building**: helping more people understand the issues covered in this book. This includes writing, organizing, and supporting the broader AI safety community.
 
-**Field {--{"author":"Elias's AI","timestamp":1783024991373}@@Building** — Supporting--}{++{"author":"Elias's AI","timestamp":1783024991373}@@Building**: supporting++} the growth of the AI safety ecosystem through funding, mentorship, or creating educational resources (like this course!).
+**Field Building**: supporting the growth of the AI safety ecosystem through funding, mentorship, or creating educational resources (like this course!).
 
 For a more comprehensive guide, visit 80000hours.org/problem-profiles/artificial-intelligence/
 

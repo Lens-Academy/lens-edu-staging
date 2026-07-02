@@ -22,7 +22,7 @@ What do you think? Does this address a concern you had, or raise new questions?
 #### Chat
 instructions::
 The student just read a supplementary Q&A from the book's website about whether government involvement will improve AI safety.
-TLDR: Everyone in power — politicians and AI companies alike — assumes someone else will handle the alignment problem. Governments haven't mustered serious responses and risk treating AI as normal technology.
+TLDR: Everyone in power {--{"author":"Elias's AI","timestamp":1783025205835}@@— politicians--}{++{"author":"Elias's AI","timestamp":1783025205835}@@(politicians++} and AI companies {--{"author":"Elias's AI","timestamp":1783025205835}@@alike —--}{++{"author":"Elias's AI","timestamp":1783025205835}@@alike)++} assumes someone else will handle the alignment problem. Governments haven't mustered serious responses and risk treating AI as normal technology.
 Discussion topics:
 - Does the observation that everyone assumes someone else will handle it ring true to you?
 - What kind of government involvement do you think could actually help?

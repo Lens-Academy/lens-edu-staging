@@ -14,7 +14,7 @@ source:: [[../articles/greenblatt-prioritizing-threats-for-ai-control]]
 
 #### Text
 content::
-Concentrated or {--{"author":"Elias's AI","timestamp":1783024116797}@@diffuse —--}{++{"author":"Elias's AI","timestamp":1783024116797}@@diffuse:++} which failure class deserves the bigger share of control effort right now? Commit to one, then argue it with the tutor.
+Concentrated or diffuse: which failure class deserves the bigger share of control effort right now? Commit to one, then argue it with the tutor.
 
 #### Chat
 instructions::

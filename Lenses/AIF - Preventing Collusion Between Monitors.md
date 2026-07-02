@@ -14,7 +14,7 @@ source:: [[../articles/shlegeris-how-to-prevent-collusion-when-using-untrusted-m
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1783024122635}@@Which single--}{++{"author":"Elias's AI","timestamp":1783024122635}@@Of the++} anti-collusion {--{"author":"Elias's AI","timestamp":1783024122635}@@measure — paraphrasing, honeypots, or information limits —--}{++{"author":"Elias's AI","timestamp":1783024122635}@@measures (paraphrasing, honeypots, information limits), which single one++} would you actually stake the whole protocol on? Commit to one, then stress-test it with the tutor against two copies that share weights and Schelling points.
+Of the anti-collusion measures (paraphrasing, honeypots, information limits), which single one would you actually stake the whole protocol on? Commit to one, then stress-test it with the tutor against two copies that share weights and Schelling points.
 
 #### Chat
 instructions::

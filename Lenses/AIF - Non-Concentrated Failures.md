@@ -14,7 +14,7 @@ source:: [[../articles/greenblatt-notes-on-handling-non-concentrated-failures-wi
 
 #### Text
 content::
-You catch a handful of sabotaging actions: do you train against them or bank them as incriminating evidence? You can't fully do {--{"author":"Elias's AI","timestamp":1783024120961}@@both — pick--}{++{"author":"Elias's AI","timestamp":1783024120961}@@both. Pick++} one and defend the trade-off with the tutor.
+You catch a handful of sabotaging actions: do you train against them or bank them as incriminating evidence? You can't fully do both. Pick one and defend the trade-off with the tutor.
 
 #### Chat
 instructions::

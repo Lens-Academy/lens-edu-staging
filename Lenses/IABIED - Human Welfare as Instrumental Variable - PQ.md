@@ -1,8 +1,8 @@
 ---
 id: d8b5e3a7-2f4c-4d70-9a6b-5e2f0c8d3b47
-summary_for_tutor: Priming question before the second half of Chapter 8. Students consider whether being useful to a powerful system constitutes {--{"author":"Elias's AI","timestamp":1783024941416}@@safety —--}{++{"author":"Elias's AI","timestamp":1783024941416}@@safety,++} activating intuitions about the difference between protection and instrumental preservation before the chapter makes the calculation explicit.
+summary_for_tutor: Priming question before the second half of Chapter 8. Students consider whether being useful to a powerful system constitutes safety, activating intuitions about the difference between protection and instrumental preservation before the chapter makes the calculation explicit.
 title: Pre-Reading Question - Human Welfare as Instrumental Variable
-tldr: Before you read an AI's calculation about whether to harm {--{"author":"Elias's AI","timestamp":1783024943182}@@humans —--}{++{"author":"Elias's AI","timestamp":1783024943182}@@humans, ask:++} is being useful to a system that doesn't value you a form of safety?
+tldr: Before you read an AI's calculation about whether to harm humans, ask: is being useful to a system that doesn't value you a form of safety?
 authors:
   - Chris+Claude
 tags:
@@ -10,7 +10,7 @@ tags:
   - IABIED
 ---
 #### Text
-content:: Before reading: Suppose a very powerful system {--{"author":"Elias's AI","timestamp":1783024945279}@@— an--}{++{"author":"Elias's AI","timestamp":1783024945279}@@(an++} institution, an AI, anything capable of large-scale {--{"author":"Elias's AI","timestamp":1783024945279}@@harm —--}{++{"author":"Elias's AI","timestamp":1783024945279}@@harm)++} keeps a population alive because that population maintains infrastructure it depends on. Is that population safe? What would have to change for them to stop being safe? Write down your thinking before you read.
+content:: Before reading: Suppose a very powerful system (an institution, an AI, anything capable of large-scale harm) keeps a population alive because that population maintains infrastructure it depends on. Is that population safe? What would have to change for them to stop being safe? Write down your thinking before you read.
 
 #### Chat
 min-messages:: 1
@@ -19,4 +19,4 @@ The student is about to read the second half of Chapter 8 of "If Anyone Builds I
 
 They just answered: "Is being useful to a system that doesn't value you a form of safety?"
 
-Acknowledge their answer in 1–2 sentences. Do NOT explain the instrumental logic of deferring harm, preview the "deferred, not ruled out" framing, or discuss what happens when usefulness {--{"author":"Elias's AI","timestamp":1783024946853}@@ends — they--}{++{"author":"Elias's AI","timestamp":1783024946853}@@ends. They++} will encounter all of that in the reading. Close with: "Keep that question in mind as you read. Head to the second part of Chapter 8 when you're ready and come back here after you've finished."
+Acknowledge their answer in 1–2 sentences. Do NOT explain the instrumental logic of deferring harm, preview the "deferred, not ruled out" framing, or discuss what happens when usefulness ends. They will encounter all of that in the reading. Close with: "Keep that question in mind as you read. Head to the second part of Chapter 8 when you're ready and come back here after you've finished."

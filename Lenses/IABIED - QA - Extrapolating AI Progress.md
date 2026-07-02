@@ -24,7 +24,7 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about whether trend extrapolation can predict when superhuman AI will arrive.
 
-TLDR: No — we lack the understanding to map quantitative metrics onto qualitative capabilities. Nobody knows what perplexity level corresponds to what real-world ability, so extrapolating straight lines on graphs is uninformative about when critical thresholds will be crossed.
+TLDR: {--{"author":"Elias's AI","timestamp":1783025186272}@@No — we--}{++{"author":"Elias's AI","timestamp":1783025186272}@@No. We++} lack the understanding to map quantitative metrics onto qualitative capabilities. Nobody knows what perplexity level corresponds to what real-world ability, so extrapolating straight lines on graphs is uninformative about when critical thresholds will be crossed.
 
 Discussion topics:
 - If we cannot predict when dangerous thresholds will be crossed, what does that imply about the right policy response?
