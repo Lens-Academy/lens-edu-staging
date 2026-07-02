@@ -9,7 +9,7 @@ tags:
 
 #### Text
 content::
-This is supplementary material from the book's online resources at ifanyonebuildsit.com/10. It provides an extended historical analysis of Enrico Fermi's Chicago Pile-1 — the first nuclear reactor — and what it teaches us about the difference between understood and un-understood engineering.
+This is supplementary material from the book's online resources at ifanyonebuildsit.com/10. It provides an extended historical analysis of Enrico Fermi's Chicago {--{"author":"Elias's AI","timestamp":1783025136249}@@Pile-1 —--}{++{"author":"Elias's AI","timestamp":1783025136249}@@Pile-1,++} the first nuclear {--{"author":"Elias's AI","timestamp":1783025136249}@@reactor —--}{++{"author":"Elias's AI","timestamp":1783025136249}@@reactor,++} and what it teaches us about the difference between understood and un-understood engineering.
 
 TODO: Embed extended discussion content from ifanyonebuildsit.com/10
 

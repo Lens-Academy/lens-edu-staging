@@ -24,7 +24,7 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about whether ChatGPT is already a general intelligence.
 
-TLDR: The label depends on your definition — the more important question is the gap between current AI and genuine superhuman capability. That gap might be small (3-4x scale increase) or require a fundamental breakthrough. The authors prefer the terms "superhuman AI" and "superintelligent AI" over "AGI."
+TLDR: The label depends on your {--{"author":"Elias's AI","timestamp":1783025130805}@@definition — the--}{++{"author":"Elias's AI","timestamp":1783025130805}@@definition. The++} more important question is the gap between current AI and genuine superhuman capability. That gap might be small (3-4x scale increase) or require a fundamental breakthrough. The authors prefer the terms "superhuman AI" and "superintelligent AI" over "AGI."
 
 Discussion topics:
 - Does your experience with current AI systems feel more like "fundamentally less capable than humans" or "depends on what you ask"?

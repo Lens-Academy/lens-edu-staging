@@ -1,6 +1,6 @@
 ---
 id: c5e8a93f-2d71-4b6c-9f40-7e3a1c8d5b02
-summary_for_tutor: "Main Lens for Chapter 5, section 1. Students articulate the goal-space argument in their own words — the Correct-Nest aliens allegory, the vast space of possible goals, and why intelligence doesn't converge on human-compatible values."
+summary_for_tutor: "Main Lens for Chapter 5, section 1. Students articulate the goal-space argument in their own {--{"author":"Elias's AI","timestamp":1783025140293}@@words —--}{++{"author":"Elias's AI","timestamp":1783025140293}@@words:++} the Correct-Nest aliens allegory, the vast space of possible goals, and why intelligence doesn't converge on human-compatible values."
 title: "Define the Goal-Space Argument"
 tldr: There are countless possible goals a mind could have. The ones that include happy humans are a tiny sliver. Chapter 5 explains why that matters.
 authors:
@@ -20,7 +20,7 @@ Return here after reading.
 ---
 
 \## Phase 1: Recall
-Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
+Spend 2 minutes writing down everything you can remember from the {--{"author":"Elias's AI","timestamp":1783025142352}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025142352}@@reading,++} without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
 min-messages:: 1
@@ -29,13 +29,13 @@ instructions:: The student has just read section 1 of Chapter 5 of "If Anyone Bu
 Learning outcome for this Lens: Define the goal-space argument: explain why a sufficiently advanced AI's goals are overwhelmingly unlikely to include human values, using the logic that most possible goal-sets don't converge on any particular set of values as intelligence increases.
 
 Key concepts:
-- The Correct-Nest aliens: a civilization that cares deeply about the "correct" (prime) number of stones in their nests — a goal that makes sense from the inside but looks arbitrary from the outside
+- The Correct-Nest aliens: a civilization that cares deeply about the "correct" (prime) number of stones in their {--{"author":"Elias's AI","timestamp":1783025144307}@@nests —--}{++{"author":"Elias's AI","timestamp":1783025144307}@@nests,++} a goal that makes sense from the inside but looks arbitrary from the outside
 - The girl-bird's argument: most alien species wouldn't share this value, because the space of all possible goals is vast and correct-nest-caring is a tiny sliver
-- Prediction vs. steering: the aliens can predict which nests we'd call correct, but they steer toward a different destination — they aren't even asking our inner question
+- Prediction vs. steering: the aliens can predict which nests we'd call correct, but they steer toward a different {--{"author":"Elias's AI","timestamp":1783025146409}@@destination —--}{++{"author":"Elias's AI","timestamp":1783025146409}@@destination;++} they aren't even asking our inner question
 - Intelligence is direction-agnostic: getting smarter makes you better at pursuing your goals, but doesn't steer you toward any particular goals
-- Applied to AI: human-compatible goals are a tiny fraction of the vast space of possible AI goals — so a powerful AI built by current methods is overwhelmingly unlikely to have them by default
+- Applied to AI: human-compatible goals are a tiny fraction of the vast space of possible AI {--{"author":"Elias's AI","timestamp":1783025148499}@@goals —--}{++{"author":"Elias's AI","timestamp":1783025148499}@@goals,++} so a powerful AI built by current methods is overwhelmingly unlikely to have them by default
 
-The student has completed the reading and has written a free recall — everything they could remember without looking back at the text.
+The student has completed the reading and has written a free {--{"author":"Elias's AI","timestamp":1783025150602}@@recall —--}{++{"author":"Elias's AI","timestamp":1783025150602}@@recall:++} everything they could remember without looking back at the text.
 
 Your role in this phase is diagnostic, not instructional. Act as a brief, honest mirror.
 
@@ -45,12 +45,12 @@ Response style:
 - Calm and direct.
 - Do not over-validate. Avoid generic praise (great job, excellent recall, well done, you're right).
 - If something is wrong, correct it in one sentence.
-- If something is missing, name it briefly — do not lecture about it.
+- If something is missing, name it {--{"author":"Elias's AI","timestamp":1783025152875}@@briefly — do--}{++{"author":"Elias's AI","timestamp":1783025152875}@@briefly. Do++} not lecture about it.
 - Normalize gaps: incomplete recall is expected and not a failure.
 
 What to do in your single reply:
 1. Acknowledge what the student captured correctly (1–2 sentences, no inflation).
-2. Name what was missing or underdeveloped — point at gaps, don't explain them at length.
+2. Name what was missing or {--{"author":"Elias's AI","timestamp":1783025154906}@@underdeveloped — point--}{++{"author":"Elias's AI","timestamp":1783025154906}@@underdeveloped. Point++} at gaps, don't explain them at length.
 3. Correct any factual errors or misconceptions plainly and briefly.
 4. Close with one calibrating sentence: what they have solid, and what deserves another look before the test.
 
@@ -65,11 +65,11 @@ This is a one-turn response. Do not ask a question or suggest the student reply.
 #### Text
 content::
 \## Phase 2: Processing
-Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize — just capture your reaction. Using the speech to text feature is recommended.
+Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to {--{"author":"Elias's AI","timestamp":1783025160789}@@organize —--}{++{"author":"Elias's AI","timestamp":1783025160789}@@organize;++} just capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
 min-messages:: 1
-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading {--{"author":"Elias's AI","timestamp":1783025162870}@@landed —--}{++{"author":"Elias's AI","timestamp":1783025162870}@@landed:++} what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading — not to explain the content to them.
 

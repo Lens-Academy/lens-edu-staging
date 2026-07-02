@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-This Q&A addresses the authors' potential conflicts of interest. They disclose that all royalties go to MIRI, they would prefer to be wrong, and they have changed their minds before — MIRI originally aimed to build superintelligence before pivoting to safety research.
+This Q&A addresses the authors' potential conflicts of interest. They disclose that all royalties go to MIRI, they would prefer to be wrong, and they have changed their minds {--{"author":"Elias's AI","timestamp":1783025084690}@@before —--}{++{"author":"Elias's AI","timestamp":1783025084690}@@before:++} MIRI originally aimed to build superintelligence before pivoting to safety research.
 
 #### Article
 source:: [[../articles/iabied-intro-faq-author-incentives]]
@@ -24,10 +24,10 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about the authors' incentives and conflicts of interest.
 
-TLDR: The authors don't expect personal profit, would prefer to be wrong, and have changed their minds before. They argue that dismissing arguments based on speaker incentives is unreliable — what matters is the quality of the arguments themselves.
+TLDR: The authors don't expect personal profit, would prefer to be wrong, and have changed their minds before. They argue that dismissing arguments based on speaker incentives is {--{"author":"Elias's AI","timestamp":1783025087295}@@unreliable — what--}{++{"author":"Elias's AI","timestamp":1783025087295}@@unreliable. What++} matters is the quality of the arguments themselves.
 
 Discussion topics:
 - Is the authors' transparency about their incentives sufficient, or do you see remaining concerns about bias?
-- They argue we should evaluate arguments rather than speakers — but how do you actually do that on a topic where you're not an expert?
+- They argue we should evaluate arguments rather than {--{"author":"Elias's AI","timestamp":1783025089116}@@speakers — but--}{++{"author":"Elias's AI","timestamp":1783025089116}@@speakers. But++} how do you actually do that on a topic where you're not an expert?
 
 Ask what they found surprising or new.

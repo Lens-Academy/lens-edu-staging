@@ -24,7 +24,7 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about building superhuman AI without understanding intelligence.
 
-TLDR: Not understanding intelligence doesn't prevent building it — gradient descent and evolution both produced intelligence without comprehension. But this same lack of understanding means engineers have limited ability to predict or control AI behavior, which is precisely what makes the situation dangerous.
+TLDR: Not understanding intelligence doesn't prevent building {--{"author":"Elias's AI","timestamp":1783025100494}@@it —--}{++{"author":"Elias's AI","timestamp":1783025100494}@@it:++} gradient descent and evolution both produced intelligence without comprehension. But this same lack of understanding means engineers have limited ability to predict or control AI behavior, which is precisely what makes the situation dangerous.
 
 Discussion topics:
 - The evolution analogy is double-edged: evolution produced intelligence without understanding, but it also couldn't control what it produced. Is this the right parallel for AI development?

@@ -15,7 +15,7 @@ TODO: Embed Q&A content from ifanyonebuildsit.com/6
 
 #### Chat
 instructions::
-The student just read a supplementary Q&A about AI containment — the idea of keeping a superintelligence "in a box."
+The student just read a supplementary Q&A about AI {--{"author":"Elias's AI","timestamp":1783025129040}@@containment —--}{++{"author":"Elias's AI","timestamp":1783025129040}@@containment,++} the idea of keeping a superintelligence "in a box."
 
 Discussion topics:
 - Chapter 6 describes how an AI is "not stuck inside a computer any more than you're stuck inside a brain." Does the containment Q&A change how you think about this?

@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-This Q&A argues that AIs won't be limited to "cold logic" — just as airplanes fly without flapping wings, AI can achieve capabilities through completely different mechanisms than humans use. The assumption that computers must be "cold and logical" mirrors outdated vitalism about life requiring a special spark.
+This Q&A argues that AIs won't be limited to "cold {--{"author":"Elias's AI","timestamp":1783025157521}@@logic" —--}{++{"author":"Elias's AI","timestamp":1783025157521}@@logic":++} just as airplanes fly without flapping wings, AI can achieve capabilities through completely different mechanisms than humans use. The assumption that computers must be "cold and logical" mirrors outdated vitalism about life requiring a special spark.
 
 #### Article
 source:: [[../articles/iabied-ch2-faq-cold-logical]]
@@ -24,10 +24,10 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about whether AIs will inevitably be cold and logical.
 
-TLDR: No — attributing computer-like qualities to AI is like attributing chemical properties to human thought. Technology accomplishes tasks through novel mechanisms (airplanes don't flap wings). The "cold logic" assumption mirrors vitalism — the outdated belief that life requires a special spark beyond mundane materials.
+TLDR: {--{"author":"Elias's AI","timestamp":1783025159039}@@No — attributing--}{++{"author":"Elias's AI","timestamp":1783025159039}@@No. Attributing++} computer-like qualities to AI is like attributing chemical properties to human thought. Technology accomplishes tasks through novel mechanisms (airplanes don't flap wings). The "cold logic" assumption mirrors {--{"author":"Elias's AI","timestamp":1783025160989}@@vitalism —--}{++{"author":"Elias's AI","timestamp":1783025160989}@@vitalism:++} the outdated belief that life requires a special spark beyond mundane materials.
 
 Discussion topics:
-- The vitalism comparison is interesting — are you persuaded that the "AIs can't have creativity/intuition" argument is making the same kind of error?
+- The vitalism comparison is {--{"author":"Elias's AI","timestamp":1783025163191}@@interesting — are--}{++{"author":"Elias's AI","timestamp":1783025163191}@@interesting. Are++} you persuaded that the "AIs can't have creativity/intuition" argument is making the same kind of error?
 - If AI achieves human-like capabilities through fundamentally different mechanisms, does that make it more or less predictable?
 
 Ask what they found surprising or new.

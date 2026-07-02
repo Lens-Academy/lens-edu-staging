@@ -22,12 +22,12 @@ What do you think? Does this address a concern you had, or raise new questions?
 
 #### Chat
 instructions::
-The student just read a supplementary Q&A from the book's website about whether ChatGPT specifically is the threat (it isn't — the concern is about the trajectory toward superintelligence).
+The student just read a supplementary Q&A from the book's website about whether ChatGPT specifically is the threat (it {--{"author":"Elias's AI","timestamp":1783025164810}@@isn't —--}{++{"author":"Elias's AI","timestamp":1783025164810}@@isn't;++} the concern is about the trajectory toward superintelligence).
 
 TLDR: The authors clarify that their decades-long concern predates ChatGPT. Every major AI company explicitly aims to build AGI/superintelligence, backed by hundreds of billions in investment. Chatbots are a pit stop, not the destination.
 
 Discussion topics:
 - Does the sheer scale of investment (hundreds of billions) change how seriously you take claims about AGI timelines?
-- The authors say there's no "principled barrier" to a breakthrough tomorrow — what would constitute such a barrier?
+- The authors say there's no "principled barrier" to a breakthrough {--{"author":"Elias's AI","timestamp":1783025166753}@@tomorrow — what--}{++{"author":"Elias's AI","timestamp":1783025166753}@@tomorrow. What++} would constitute such a barrier?
 
 Ask what they found surprising or new.

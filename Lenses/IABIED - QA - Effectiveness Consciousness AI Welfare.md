@@ -9,7 +9,7 @@ tags:
 ---
 #### Text
 content::
-The authors argue that artificial intelligence probably doesn't require artificial consciousness — the mental machinery that implements a thought is separate from the machinery that implements the *feeling* of that thought, just as Deep Blue plays chess without experiencing it. They hold that if AIs do become conscious they deserve rights, but their best guess is that most superintelligent AIs would not be conscious by default, leaving behind a "mighty but hollow" future.
+The authors argue that artificial intelligence probably doesn't require artificial {--{"author":"Elias's AI","timestamp":1783025170386}@@consciousness — the--}{++{"author":"Elias's AI","timestamp":1783025170386}@@consciousness. The++} mental machinery that implements a thought is separate from the machinery that implements the *feeling* of that thought, just as Deep Blue plays chess without experiencing it. They hold that if AIs do become conscious they deserve rights, but their best guess is that most superintelligent AIs would not be conscious by default, leaving behind a "mighty but hollow" future.
 
 #### Article
 source:: [[../articles/iabied-ch5-ext-consciousness-welfare]]

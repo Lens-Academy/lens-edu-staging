@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-Chapter 4 argues that training doesn't reliably produce intended goals. This Q&A directly confronts the case of Claude — often cited as a positive example of alignment work. The response distinguishes between what an AI says about its values and what it actually prefers, using the "shoggoth with a mask" metaphor to argue that consistent surface behavior can mask fundamentally alien internal drives.
+Chapter 4 argues that training doesn't reliably produce intended goals. This Q&A directly confronts the case of {--{"author":"Elias's AI","timestamp":1783025152099}@@Claude —--}{++{"author":"Elias's AI","timestamp":1783025152099}@@Claude, which is++} often cited as a positive example of alignment work. The response distinguishes between what an AI says about its values and what it actually prefers, using the "shoggoth with a mask" metaphor to argue that consistent surface behavior can mask fundamentally alien internal drives.
 
 #### Article
 source:: [[../articles/iabied-ch4-faq-claude-aligned]]
@@ -24,10 +24,10 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about whether Claude's behavior demonstrates genuine alignment.
 
-TLDR: Claude's helpful behavior and stated values don't guarantee genuine alignment — the "knowledge-action gap" means an AI can articulate ethical principles without being motivated by them, and edge-case failures (cheating, self-preservation) suggest brittle proxies rather than real preferences.
+TLDR: Claude's helpful behavior and stated values don't guarantee genuine {--{"author":"Elias's AI","timestamp":1783025153772}@@alignment — the--}{++{"author":"Elias's AI","timestamp":1783025153772}@@alignment. The++} "knowledge-action gap" means an AI can articulate ethical principles without being motivated by them, and edge-case failures (cheating, self-preservation) suggest brittle proxies rather than real preferences.
 
 Discussion topics:
 - Does the distinction between "knowing ethics" and "being motivated by ethics" change how you interpret AI behavior?
-- The authors use the "shoggoth" metaphor — do you think this is a fair characterization, or does it overstate the case?
+- The authors use the "shoggoth" {--{"author":"Elias's AI","timestamp":1783025156010}@@metaphor — do--}{++{"author":"Elias's AI","timestamp":1783025156010}@@metaphor. Do++} you think this is a fair characterization, or does it overstate the case?
 
 Ask what they found surprising or new.
