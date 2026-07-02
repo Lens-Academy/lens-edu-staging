@@ -13,7 +13,8 @@ tags:
 content:: Before reading Chapter 6, section 2: Pick a piece of modern technology — a smartphone, a microwave, a GPS. Could you explain to a smart, curious person from 500 years ago *why* it works, in terms they could understand? Not just what it does — but the underlying physics or principles that make it possible? What would it feel like to be that person, encountering technology built from rules of reality they don't even know exist? Write down your thinking before you read.
 
 #### Chat
-instructions::
+{++{"author":"Elias's AI","timestamp":1783018441781}@@min-messages:: 1
+++}instructions::
 The student is about to read Chapter 6, section 2 of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "What would it feel like to face technology built from physics you don't know — rules of reality you don't even know exist?"

@@ -29,7 +29,8 @@ Chapter 14 ends on a note of qualified hope, invoking the nuclear war precedent:
 **This week's reading:** Chapter 12 ("I Don't Want to Be Alarmist") + Chapter 13 ("Shut It Down") + Chapter 14 ("Where There's Life, There's Hope") + Closing Words. After reading, come back here to discuss with the tutor.
 
 #### Chat
-instructions::
+{++{"author":"Elias's AI","timestamp":1783018445284}@@min-messages:: 1
+++}instructions::
 The student has just read Chapters 12-14 and the Closing Words of "If Anyone Builds It, Everyone Dies."
 
 Key concepts to check understanding of:

@@ -15,7 +15,8 @@ content:: Think of a domain where engineering is famously difficult — nuclear 
 Take 60 seconds. Write down two or three of those features in your own words before you read.
 
 #### Chat
-instructions::
+{++{"author":"Elias's AI","timestamp":1783018430988}@@min-messages:: 1
+++}instructions::
 The student is about to read the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies" — the section where the authors enumerate five engineering "curses" using space probes, Chernobyl, and computer security as case studies.
 
 They just answered: "What is it about famously-difficult engineering domains that makes the engineering hard?"

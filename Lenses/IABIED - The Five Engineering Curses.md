@@ -24,7 +24,8 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-instructions:: The student has just read the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies."
+{++{"author":"Elias's AI","timestamp":1783018435011}@@min-messages:: 1
+++}instructions:: The student has just read the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Enumerate the five engineering curses Chapter 10 names — speed, narrow margins, self-amplification, complications, and edge cases — and identify which case study (space probes, Chernobyl, computer security) illustrates each.
 
@@ -67,7 +68,8 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize — just capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+{++{"author":"Elias's AI","timestamp":1783018436732}@@min-messages:: 1
+++}instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading — not to explain the content to them.
 
@@ -102,7 +104,8 @@ content::
 A friend reads the same chapter and shrugs: "Every one of these curses has already been beaten. We've flown space probes that reached Mars, we run reactors that don't explode, and we ship software that mostly holds up. Engineering is just grinding failure modes down one at a time — give the AI people enough iterations and they'll grind these down too." Using the chapter's own distinctions, where exactly does that argument break?
 
 #### Chat
-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+{++{"author":"Elias's AI","timestamp":1783018440943}@@min-messages:: 1
+++}instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge — it is not the test question. The test asks them to enumerate the five curses and map each to its case study; the wedge instead hands them a plausible-sounding dismissal and asks them to apply the chapter's distinctions rather than recite the list. The friend's claim is exactly the move the chapter pre-empts: it treats all five curses as equally beatable. Use it to draw out (a) the before/after gap — ASI alignment gets no iterations, unlike probes and reactors; (b) why edge cases is a different category from the other four — it intensifies with the adversary's intelligence, while speed, narrow margins, self-amplification, and complications are fixed physical constraints that ingenuity can best; and (c) "grown, not crafted" — computer security is losing even when engineers can read their own code, and AI's engineers cannot read theirs.
 

@@ -23,7 +23,8 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-instructions:: The student has just read Chapter 4 ("You Don't Get What You Train For") of "If Anyone Builds It, Everyone Dies."
+{++{"author":"Elias's AI","timestamp":1783018435872}@@min-messages:: 1
+++}instructions:: The student has just read Chapter 4 ("You Don't Get What You Train For") of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Explain why there's no reliable relationship between training objectives and resulting AI preferences.
 
@@ -69,7 +70,8 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize — just capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
-instructions:: The student has just completed a free recall of Chapter 4 ("You Don't Get What You Train For") and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+{++{"author":"Elias's AI","timestamp":1783018437650}@@min-messages:: 1
+++}instructions:: The student has just completed a free recall of Chapter 4 ("You Don't Get What You Train For") and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading — not to explain the content to them.
 
@@ -104,7 +106,8 @@ content::
 A lab announces: "We ran our model through a million test conversations. It was honest and helpful in every single one. A million clean tests is strong evidence it's safe to deploy." Using Chapter 4, explain why the authors would not be reassured — and be specific about what those test results can and cannot tell you about what the model will do once deployed.
 
 #### Chat
-instructions:: The student has completed a reading, a free recall, and a reflection phase on Chapter 4 ("You Don't Get What You Train For") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+{++{"author":"Elias's AI","timestamp":1783018439484}@@min-messages:: 1
+++}instructions:: The student has completed a reading, a free recall, and a reflection phase on Chapter 4 ("You Don't Get What You Train For") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge — it is not the test question. It hands the student a confident-sounding claim (that a large volume of clean behavioral tests is strong evidence of safety) and asks them to rebut it using the chapter's argument, rather than recite the ice cream argument. Use it to draw out the gap between training/test behavior and underlying preferences, and especially the blank-map principle: the complications stay invisible precisely while the AI lacks the power to act on them — so sailing through a million tests is exactly what a misaligned-but-not-yet-capable model would also do. Behavioral evidence under training conditions cannot, even in large volume, pin down the preferences that will surface once the model can reshape its situation.
 
