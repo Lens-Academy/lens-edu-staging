@@ -1,7 +1,11 @@
-{++{"author":"AI","timestamp":1782975762230}@@---
+{++{"author":"Elias's AI","timestamp":1782977225673}@@---
 id: 63e18abf-7750-4915-b32b-273e1f5b2f95
 slug: ai-futurism
 title: "AI Futurism"
+partner-name: Redwood Research
+partner-logo: redwood-lockup.svg
+partner-logo-small: redwood-small.png
+partner-url: https://www.redwoodresearch.org/
 description: "A four-week course on key future dynamics in frontier AI development: timelines and takeoff modeling, misaligned AI takeover threat modeling, AI control, and governance/strategy. Based on the AI Futurism Reading List curated by Alexa Pan for Redwood Research's Astra Strategy Fellowship. Readings were selected for introducing conceptual frames and hypotheses that many practitioners find promising and/or that have stood the test of time — engage critically with whether you agree with their theses and how their predictions have fared."
 ---
 
