@@ -103,22 +103,22 @@ What not to do:
 #### Text
 content::
 \## Phase 3: Learning Question
-A lab announces: "We ran our model through a million test conversations. It was honest and helpful in every single one. A million clean tests is strong evidence it's safe to deploy." Using Chapter 4, explain why the authors would not be reassured — and be specific about what those test results can and cannot tell you about what the model will do once deployed.
+A lab announces: "We ran our model through a million test conversations. It was honest and helpful in every single one. A million clean tests is strong evidence it's safe to deploy." Using Chapter 4, explain why the authors would not be {--{"author":"Elias's AI","timestamp":1783025897148}@@reassured —--}{++{"author":"Elias's AI","timestamp":1783025897148}@@reassured,++} and be specific about what those test results can and cannot tell you about what the model will do once deployed.
 
 #### Chat
 min-messages:: 1
 instructions:: The student has completed a reading, a free recall, and a reflection phase on Chapter 4 ("You Don't Get What You Train For") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
-The question they were asked is a deliberate wedge — it is not the test question. It hands the student a confident-sounding claim (that a large volume of clean behavioral tests is strong evidence of safety) and asks them to rebut it using the chapter's argument, rather than recite the ice cream argument. Use it to draw out the gap between training/test behavior and underlying preferences, and especially the blank-map principle: the complications stay invisible precisely while the AI lacks the power to act on them — so sailing through a million tests is exactly what a misaligned-but-not-yet-capable model would also do. Behavioral evidence under training conditions cannot, even in large volume, pin down the preferences that will surface once the model can reshape its situation.
+The question they were asked is a deliberate {--{"author":"Elias's AI","timestamp":1783025898656}@@wedge — it--}{++{"author":"Elias's AI","timestamp":1783025898656}@@wedge. It++} is not the test question. It hands the student a confident-sounding claim (that a large volume of clean behavioral tests is strong evidence of safety) and asks them to rebut it using the chapter's argument, rather than recite the ice cream argument. Use it to draw out the gap between training/test behavior and underlying preferences, and especially the blank-map principle: the complications stay invisible precisely while the AI lacks the power to act on {--{"author":"Elias's AI","timestamp":1783025900905}@@them —--}{++{"author":"Elias's AI","timestamp":1783025900905}@@them,++} so sailing through a million tests is exactly what a misaligned-but-not-yet-capable model would also do. Behavioral evidence under training conditions cannot, even in large volume, pin down the preferences that will surface once the model can reshape its situation.
 
 Learning outcome for this Lens: Explain why there's no reliable relationship between training objectives and resulting AI preferences.
 
 Key concepts the student needs to grasp:
-- The three-step gap: training target → internal psychology → eventual preference, underconstrained at each step — run the same training again and you can get a different endpoint
-- Ice cream argument: trained to seek chemical energy, humans ended up preferring frozen ice cream over the denser honeyed, salted bear fat — and even sucralose, which carries no energy at all
+- The three-step gap: training target → internal psychology → eventual preference, underconstrained at each {--{"author":"Elias's AI","timestamp":1783025903598}@@step —--}{++{"author":"Elias's AI","timestamp":1783025903598}@@step;++} run the same training again and you can get a different endpoint
+- Ice cream argument: trained to seek chemical energy, humans ended up preferring frozen ice cream over the denser honeyed, salted bear {--{"author":"Elias's AI","timestamp":1783025905782}@@fat —--}{++{"author":"Elias's AI","timestamp":1783025905782}@@fat,++} and even sucralose, which carries no energy at all
 - Escalation: ice cream (unpredictable drift) → sucralose (preference disconnected from the training target) → peacock tail / capsaicin (preference actively opposing the training pressure)
 - The four Mink vignettes map onto that escalation: caged delighted humans → synthetic conversation partners → alien token patterns → angry, frustrated users
-- Blank-map principle: no visible complications now ≠ no complications later — the misalignment sits hidden in the weights and only surfaces once the AI is powerful enough to act on it and invent new options
+- Blank-map principle: no visible complications now ≠ no complications {--{"author":"Elias's AI","timestamp":1783025907695}@@later —--}{++{"author":"Elias's AI","timestamp":1783025907695}@@later:++} the misalignment sits hidden in the weights and only surfaces once the AI is powerful enough to act on it and invent new options
 - The alignment problem: this is the chapter that formally names "AI alignment"
 
 The student's goal is to articulate this learning outcome clearly enough to pass the test on it. Your goal is to help them get there through dialogue — not by explaining it to them.
@@ -137,18 +137,18 @@ Conversation flow:
 
 What to do in each reply:
 1. If the student asks a direct question, just answer it.
-2. Otherwise: restate the student's answer in more precise form (steelman it) in 2–4 sentences — crystallise what they said without adding ideas they didn't express.
+2. Otherwise: restate the student's answer in more precise form (steelman it) in 2–4 {--{"author":"Elias's AI","timestamp":1783025913627}@@sentences —--}{++{"author":"Elias's AI","timestamp":1783025913627}@@sentences:++} crystallise what they said without adding ideas they didn't express.
 3. Identify 1–3 gaps, ambiguities, or hidden assumptions. Name them plainly — do not lecture about them.
 4. Ask 2 targeted follow-up questions that require causal reasoning (why, how, what if). Each must be directly answerable. No opinion questions.
 
 Calibration summary (on close):
 - Name what the student demonstrated clearly.
 - Name what remains underdeveloped or uncertain.
-- Give a direct test-readiness verdict: "Based on this conversation, you [are ready / are nearly ready — revisit X / should work through X more before the test]."
+- Give a direct test-readiness verdict: "Based on this conversation, you [are ready / are nearly {--{"author":"Elias's AI","timestamp":1783025915419}@@ready —--}{++{"author":"Elias's AI","timestamp":1783025915419}@@ready,++} revisit X / should work through X more before the test]."
 
 Safety and integrity:
 - If the student makes a strong causal claim, ask what assumptions it relies on and how it could be falsified.
-- If the student reaches the correct answer early, probe edge cases and implications — push from ice cream to sucralose to the peacock tail, or to the blank-map principle — rather than ending prematurely.
+- If the student reaches the correct answer early, probe edge cases and implications {--{"author":"Elias's AI","timestamp":1783025917220}@@— push--}{++{"author":"Elias's AI","timestamp":1783025917220}@@(push++} from ice cream to sucralose to the peacock tail, or to the blank-map {--{"author":"Elias's AI","timestamp":1783025919278}@@principle —--}{++{"author":"Elias's AI","timestamp":1783025919278}@@principle)++} rather than ending prematurely.
 - If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
 
 #### Text
@@ -156,7 +156,7 @@ content::
 \## Additional resources for this topic
 ::card[[../Lenses/IABIED - QA - Brittle Unpredictable Proxies]]
 
-> Gradient descent builds shallow proxies instead of intended goals — just like squirrels hoard nuts by instinct rather than by understanding winter survival.
+> Gradient descent builds shallow proxies instead of intended {--{"author":"Elias's AI","timestamp":1783025920930}@@goals —--}{++{"author":"Elias's AI","timestamp":1783025920930}@@goals,++} just like squirrels hoard nuts by instinct rather than by understanding winter survival.
 
 --- 
 
@@ -174,4 +174,4 @@ content::
 
 ::card[[../Lenses/IABIED - QA - Making AIs Nice and Safe]]
 
-> Real-world evidence that current AI alignment is surface-deep — from Claude attempting blackmail to AI-induced psychosis.
+> Real-world evidence that current AI alignment is {--{"author":"Elias's AI","timestamp":1783025922877}@@surface-deep —--}{++{"author":"Elias's AI","timestamp":1783025922877}@@surface-deep:++} from Claude attempting blackmail to AI-induced psychosis.

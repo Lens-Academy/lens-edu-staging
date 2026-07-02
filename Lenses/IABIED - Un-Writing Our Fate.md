@@ -135,17 +135,17 @@ Conversation flow:
 What to do in each reply:
 1. If the student asks a direct question, just answer it.
 2. Otherwise: restate the student's answer in more precise form (steelman it) in 2–4 sentences {--{"author":"Elias's AI","timestamp":1783025887738}@@—--}{++{"author":"Elias's AI","timestamp":1783025887738}@@that++} crystallise what they said without adding ideas they didn't express.
-3. Identify 1–3 gaps, ambiguities, or hidden assumptions. Name them plainly — do not lecture about them.
+3. Identify 1–3 gaps, ambiguities, or hidden assumptions. Name them {--{"author":"Elias's AI","timestamp":1783025896122}@@plainly — do--}{++{"author":"Elias's AI","timestamp":1783025896122}@@plainly. Do++} not lecture about them.
 4. Ask 2 targeted follow-up questions that require causal reasoning (why, how, what if). Each must be directly answerable. No opinion questions.
 
 Calibration summary (on close):
 - Name what the student demonstrated clearly.
 - Name what remains underdeveloped or uncertain.
-- Give a direct test-readiness verdict: "Based on this conversation, you [are ready / are nearly ready — revisit X / should work through X more before the test]."
+- Give a direct test-readiness verdict: "Based on this conversation, you [are ready / are nearly {--{"author":"Elias's AI","timestamp":1783025897969}@@ready —--}{++{"author":"Elias's AI","timestamp":1783025897969}@@ready:++} revisit X / should work through X more before the test]."
 
 Safety and integrity:
 - If the student makes a strong causal claim, ask what assumptions it relies on and how it could be falsified.
-- If the student reaches the correct answer early, probe edge cases: "If un-writing a fate requires everyone with power to personally expect suffering — is that condition present for AI risk? Who has power over AI development, and do they expect to personally suffer?"
+- If the student reaches the correct answer early, probe edge cases: "If un-writing a fate requires everyone with power to personally expect {--{"author":"Elias's AI","timestamp":1783025903967}@@suffering —--}{++{"author":"Elias's AI","timestamp":1783025903967}@@suffering,++} is that condition present for AI risk? Who has power over AI development, and do they expect to personally suffer?"
 - If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
 
 #### Text
@@ -153,16 +153,16 @@ content::
 \## Additional resources for this topic
 ::card[[../Lenses/IABIED - QA - Is It Hopeless]]
 
-> Addresses the argument that trying to stop AI development is futile — a direct companion to the chapter's "un-writing a fate" claim.
+> Addresses the argument that trying to stop AI development is {--{"author":"Elias's AI","timestamp":1783025906106}@@futile —--}{++{"author":"Elias's AI","timestamp":1783025906106}@@futile, serving as++} a direct companion to the chapter's "un-writing a fate" claim.
 
 ---
 
 ::card[[../Lenses/IABIED - QA - Daily Life Believing This]]
 
-> Explores how to live and act once you believe the risk is real — connects to the chapter's C.S. Lewis closing on living well under existential threat.
+> Explores how to live and act once you believe the risk is {--{"author":"Elias's AI","timestamp":1783025908138}@@real — connects--}{++{"author":"Elias's AI","timestamp":1783025908138}@@real, connecting++} to the chapter's C.S. Lewis closing on living well under existential threat.
 
 ---
 
 ::card[[../Lenses/IABIED - QA - Shut Down Global AI Development]]
 
-> Examines the practical feasibility of the shutdown argument — extends the chapter's nuclear precedent analogy to concrete questions about implementation.
+> Examines the practical feasibility of the shutdown {--{"author":"Elias's AI","timestamp":1783025909993}@@argument — extends--}{++{"author":"Elias's AI","timestamp":1783025909993}@@argument, extending++} the chapter's nuclear precedent analogy to concrete questions about implementation.

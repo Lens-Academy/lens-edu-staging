@@ -1,6 +1,6 @@
 ---
 id: e7d2a5f9-8b4c-4e60-a1f3-2c9d0b6e4a87
-summary_for_tutor: Priming question before Chapter 9. Students consider whether the absence of hostile intent constitutes safety — activating the intuition that "it doesn't want to hurt us" is protective before the chapter shows that indifference and optimization can eliminate human civilization without any hostile goal.
+summary_for_tutor: Priming question before Chapter 9. Students consider whether the absence of hostile intent constitutes {--{"author":"Elias's AI","timestamp":1783025889470}@@safety —--}{++{"author":"Elias's AI","timestamp":1783025889470}@@safety,++} activating the intuition that "it doesn't want to hurt us" is protective before the chapter shows that indifference and optimization can eliminate human civilization without any hostile goal.
 title: Pre-Reading Question - Indifference Not Malice
 tldr: Before you read about the end of human civilization: does a system that doesn't want to harm you have to intend harm to harm you?
 authors:
