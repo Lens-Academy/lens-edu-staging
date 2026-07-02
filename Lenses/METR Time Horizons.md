@@ -1,7 +1,8 @@
 ---
 id: 56999985-81dc-48fd-bea5-4489c3887cb2
 title: {--{"author":"Elias's AI","timestamp":1782987055452}@@"AIF ---}{++{"author":"Elias's AI","timestamp":1782987055452}@@"METR Time Horizons"
-tldr: The "AI task length doubles every few months" chart became the field's most-quoted trend line. Here++} METR {--{"author":"Elias's AI","timestamp":1782987055452}@@Time Horizons"--}{++{"author":"Elias's AI","timestamp":1782987055452}@@themselves explain what the metric does not show — error bars spanning factors of two, order-of-magnitude domain differences, and the risks of extrapolation. Read before you cite the doubling trend.++}
+tldr: The "AI task length doubles every few months" chart became the field's most-quoted trend line. Here++} METR {--{"author":"Elias's AI","timestamp":1782987055452}@@Time Horizons"--}{++{"author":"Elias's AI","timestamp":1782987055452}@@themselves explain what the metric does not show — error bars spanning factors of two, order-of-magnitude domain differences, and the risks of extrapolation. Read before you cite the doubling trend.++}{++{"author":"Elias's AI","timestamp":1782991107052}@@
+summary_for_tutor: "Covers METR's own clarification of the time-horizon metric's limitations: time horizon is the amount of serial human labor an AI replaces at 50% success (not how long AIs work independently); error bars span roughly a factor of two in each direction; horizons differ by orders of magnitude across domains (40-100x lower for visual computer use than software); and extrapolating the doubling trend outside the measured regime is risky. Written by Thomas Kwa, one of the paper's main authors."++}
 ---
 
 #### Text

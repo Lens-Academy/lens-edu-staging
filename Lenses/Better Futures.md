@@ -1,7 +1,7 @@
 ---
 id: 228fd981-db45-4b2d-b352-ba6883e57c50
-title: {--{"author":"Elias's AI","timestamp":1782987643150}@@"AIF - Extended ---}{++{"author":"Elias's AI","timestamp":1782987643150}@@"Better Futures"
-tldr: Suppose we survive — then what? Making the future good is a separate, neglected problem from preventing catastrophe. MacAskill's++} Better {--{"author":"Elias's AI","timestamp":1782987643150}@@Futures"--}{++{"author":"Elias's AI","timestamp":1782987643150}@@Futures series, viatopia, gradual disempowerment, and whether to strike grand bargains about post-AGI outcomes while humans still have leverage.++}
+title: "Better Futures"
+tldr: Suppose we survive — then what? Making the future good is a separate, neglected problem from preventing catastrophe. MacAskill's Better Futures series, viatopia, gradual disempowerment, and whether to strike grand bargains about post-AGI outcomes while humans still have leverage.
 ---
 
 #### Text

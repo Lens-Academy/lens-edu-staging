@@ -1,7 +1,8 @@
 ---
 id: 9cda26d1-d996-4269-8432-4da3631727d3
 title: {--{"author":"Elias's AI","timestamp":1782987000449}@@"AIF - Software Intelligence Explosion"--}{++{"author":"Elias's AI","timestamp":1782987000449}@@"Software Intelligence Explosion"
-tldr: The most explosive feedback loop needs no new chips — AI automating AI research on a fixed compute stock. Whether that loop diverges hinges on one empirical parameter, the returns to software R&D. This report examines the evidence and finds a dramatic speed-up disturbingly plausible.++}
+tldr: The most explosive feedback loop needs no new chips — AI automating AI research on a fixed compute stock. Whether that loop diverges hinges on one empirical parameter, the returns to software R&D. This report examines the evidence and finds a dramatic speed-up disturbingly plausible.++}{++{"author":"Elias's AI","timestamp":1782991075322}@@
+summary_for_tutor: "Covers Eth & Davidson's Forethought report on whether full automation of AI R&D causes a software intelligence explosion — accelerating AI progress via software improvements alone on a fixed compute stock. The key parameter is r, the returns to software R&D: if each doubling of research effort more than doubles capability-relevant software progress, the loop accelerates. Reviews empirical estimates of r, concludes an explosive or dramatic speed-up is plausible, and flags compute-for-experiments as the main bottleneck."++}
 ---
 
 #### Text

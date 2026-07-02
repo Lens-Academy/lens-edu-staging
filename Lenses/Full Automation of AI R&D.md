@@ -1,7 +1,8 @@
 ---
 id: 9f73d64c-3d19-4f13-8570-cb8ba1106d68
-title: {--{"author":"Elias's AI","timestamp":1782987002731}@@"AIF - Full--}{++{"author":"Elias's AI","timestamp":1782987002731}@@"Full++} Automation of AI R&D"{++{"author":"Elias's AI","timestamp":1782987002731}@@
-tldr: Even if the "software-only singularity" fizzles, fully automating AI research still buys an enormous speed-up — millions of tireless researchers running around the clock at high serial speed. Fast progress doesn't depend on the diverging-returns assumption.++}
+title: "Full Automation of AI R&D"
+tldr: Even if the "software-only singularity" fizzles, fully automating AI research still buys an enormous speed-up — millions of tireless researchers running around the clock at high serial speed. Fast progress doesn't depend on the diverging-returns assumption.{++{"author":"Elias's AI","timestamp":1782991081443}@@
+summary_for_tutor: "Covers Greenblatt's argument that full automation of AI R&D probably yields a large (order-of-magnitude-scale) speed-up in AI progress even without a software-only singularity: automated researchers can be run in vast numbers, at high serial speed, around the clock, with better coordination. The conclusion that progress becomes very fast therefore does not depend on the diverging-returns-to-software assumption debated in the software intelligence explosion literature."++}
 ---
 
 #### Text

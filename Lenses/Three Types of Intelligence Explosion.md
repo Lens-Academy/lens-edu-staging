@@ -1,7 +1,8 @@
 ---
 id: 6d5e217f-c24a-4825-a83b-12dc7a8c764c
 title: {--{"author":"Elias's AI","timestamp":1782986986462}@@"AIF - Three--}{++{"author":"Elias's AI","timestamp":1782986986462}@@"Three++} Types of Intelligence Explosion"{++{"author":"Elias's AI","timestamp":1782986986462}@@
-tldr: Once AI can improve the inputs to AI development, progress compounds — but "intelligence explosion" is not one scenario. Forethought splits it into three feedback loops (software, AI technology, full industrial stack), each with different bottlenecks, speeds, and warning signs.++}
+tldr: Once AI can improve the inputs to AI development, progress compounds — but "intelligence explosion" is not one scenario. Forethought splits it into three feedback loops (software, AI technology, full industrial stack), each with different bottlenecks, speeds, and warning signs.++}{++{"author":"Elias's AI","timestamp":1782991066963}@@
+summary_for_tutor: "Covers Forethought's taxonomy of three intelligence explosion types: software intelligence explosion (AI automating algorithm and software R&D on fixed compute), AI-technology intelligence explosion (AI also improving chip design and other AI technology), and full-stack intelligence explosion (AI accelerating the entire industrial pipeline including fabs and energy). Each type has distinct bottlenecks — compute stock, chip fabrication lead times, physical construction — and distinct plausible speeds and early warning signs."++}
 ---
 
 #### Text

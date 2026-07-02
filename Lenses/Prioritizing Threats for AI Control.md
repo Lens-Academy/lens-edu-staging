@@ -1,7 +1,7 @@
 ---
 id: a77cbcac-1b1c-4183-86aa-675fc443ce8a
-title: {--{"author":"Elias's AI","timestamp":1782987333936}@@"AIF - Prioritizing--}{++{"author":"Elias's AI","timestamp":1782987333936}@@"Prioritizing++} Threats for AI Control"{++{"author":"Elias's AI","timestamp":1782987333936}@@
-tldr: Not all AI threats deserve equal control effort. This post ranks them — and introduces the concentrated-vs-diffuse failure distinction the rest of the control literature leans on. One catastrophic action needs different machinery than a thousand tiny acts of sabotage.++}
+title: "Prioritizing Threats for AI Control"
+tldr: Not all AI threats deserve equal control effort. This post ranks them — and introduces the concentrated-vs-diffuse failure distinction the rest of the control literature leans on. One catastrophic action needs different machinery than a thousand tiny acts of sabotage.
 ---
 
 #### Text

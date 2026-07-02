@@ -1,7 +1,7 @@
 ---
 id: 656be8ec-1fb9-489d-bbf9-4df964b690ca
-title: {--{"author":"Elias's AI","timestamp":1782987609735}@@"AIF - Extended - Acausal Cooperation"--}{++{"author":"Elias's AI","timestamp":1782987609735}@@"Acausal Cooperation"
-tldr: The strangest corner of the curriculum — cooperation between agents that can never causally interact, mediated only by correlated decision-making. Evidential cooperation in large worlds, gently explained, with the objections that make most people bounce off.++}
+title: "Acausal Cooperation"
+tldr: The strangest corner of the curriculum — cooperation between agents that can never causally interact, mediated only by correlated decision-making. Evidential cooperation in large worlds, gently explained, with the objections that make most people bounce off.
 ---
 
 #### Text

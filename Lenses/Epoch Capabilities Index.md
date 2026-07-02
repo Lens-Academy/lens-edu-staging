@@ -1,7 +1,8 @@
 ---
 id: f2348170-927c-49a9-a72a-7086ab2c6459
-title: {--{"author":"Elias's AI","timestamp":1782987066204}@@"AIF - Epoch Capabilities Index"--}{++{"author":"Elias's AI","timestamp":1782987066204}@@"Epoch Capabilities Index"
-tldr: Benchmarks keep saturating and going silent — so how do you track AI progress on one continuous scale across years? Epoch's ECI stitches many benchmarks into a single capability index. Read how the sausage is made, and what a composite score can and can't tell you.++}
+title: "Epoch Capabilities Index"
+tldr: Benchmarks keep saturating and going silent — so how do you track AI progress on one continuous scale across years? Epoch's ECI stitches many benchmarks into a single capability index. Read how the sausage is made, and what a composite score can and can't tell you.{++{"author":"Elias's AI","timestamp":1782991104539}@@
+summary_for_tutor: "Covers Epoch's ECI (Epoch Capabilities Index) documentation: a composite capability index combining many benchmarks via an item-response-theory-style latent scale, allowing continuous tracking of AI capability progress even as individual benchmarks saturate. Discusses methodology and limitations — what a composite score captures and what it misses (agency, long-horizon tasks, real-world reliability)."++}
 ---
 
 #### Text

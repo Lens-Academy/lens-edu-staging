@@ -1,7 +1,7 @@
 ---
 id: e838cb7c-34a1-4249-8b57-d3698f80f1ad
-title: {--{"author":"Elias's AI","timestamp":1782987244585}@@"AIF --}{++{"author":"Elias's AI","timestamp":1782987244585}@@"Optional readings ++}- {--{"author":"Elias's AI","timestamp":1782987244585}@@W2 Optional Readings"--}{++{"author":"Elias's AI","timestamp":1782987244585}@@Takeover threat modeling"
-tldr: The week's optional shelf — the key empirical papers (emergent misalignment, reward hacking, sleeper agents), conceptual frames for LLM psychology, the probability debates (P(misalignment), P(scheming), P(doom)), and the strongest skeptical takes worth steelmanning.++}
+title: "Optional readings - Takeover threat modeling"
+tldr: The week's optional shelf — the key empirical papers (emergent misalignment, reward hacking, sleeper agents), conceptual frames for LLM psychology, the probability debates (P(misalignment), P(scheming), P(doom)), and the strongest skeptical takes worth steelmanning.
 ---
 
 #### Text
