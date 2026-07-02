@@ -1,7 +1,7 @@
 ---
 id: 935ed298-b077-43c8-8f2d-5b7bbca288f1
 title: "⭐ Areas of Control Work"
-tldr: The map of the control field — protocol design, settings and benchmarks, control evaluations, the science of scheming-relevant capabilities, and getting it all into lab practice. Useful for orientation, and for spotting where you might contribute.
+tldr: {--{"author":"Elias's AI","timestamp":1783002434177}@@The--}{++{"author":"Elias's AI","timestamp":1783002434177}@@"The++} map of the control {--{"author":"Elias's AI","timestamp":1783002434177}@@field —--}{++{"author":"Elias's AI","timestamp":1783002434177}@@field:++} protocol design, settings and benchmarks, control evaluations, the science of scheming-relevant capabilities, and getting it {--{"author":"Elias's AI","timestamp":1783002434177}@@all --}into lab practice. {--{"author":"Elias's AI","timestamp":1783002434177}@@Useful for orientation, and for spotting --}{++{"author":"Elias's AI","timestamp":1783002434177}@@Spot ++}where you might {--{"author":"Elias's AI","timestamp":1783002434177}@@contribute.--}{++{"author":"Elias's AI","timestamp":1783002434177}@@contribute."++}
 summary_for_tutor: "Covers Greenblatt's overview partitioning control work into areas: developing control protocols and countermeasures, building realistic settings/benchmarks for control evaluations, running evaluations against red-team attack policies, the science of scheming-relevant capabilities (collusion, sabotage ability), and integrating control into lab practice and safety cases. Useful for discussing where the learner could contribute."
 ---
 
@@ -19,6 +19,6 @@ TLDR of what the user just read: Greenblatt's overview partitions control work i
 Discussion topics to explore:
 - Which area seems most neglected relative to importance?
 - What is the current state of control research, and how might it change as AIs get more powerful (this week's key question)?
-- If the learner had to pick one area to work in, which one and why — what skills does each area need?
+- If the learner had to pick one area to work in, which one and {--{"author":"Elias's AI","timestamp":1783002436619}@@why — what--}{++{"author":"Elias's AI","timestamp":1783002436619}@@why? What++} skills does each area need?
 
 Check they can name 3+ areas of control work and one open problem in each.

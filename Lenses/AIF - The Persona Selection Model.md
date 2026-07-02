@@ -1,13 +1,13 @@
 ---
 id: f1f8f509-b1dd-41d9-a589-b03f7e266d67
 title: "The Persona Selection Model"
-tldr: Anthropic's frame for where model behavior comes from — training doesn't install goals directly, it selects among personas the model can play. A different mechanistic story than scheming, with different predictions about how misalignment arises and what fixes it.
+tldr: {--{"author":"Elias's AI","timestamp":1783002458223}@@Anthropic's--}{++{"author":"Elias's AI","timestamp":1783002458223}@@"Anthropic's++} frame for where model behavior comes {--{"author":"Elias's AI","timestamp":1783002458223}@@from — --}{++{"author":"Elias's AI","timestamp":1783002458223}@@from: ++}training doesn't install goals directly, it selects among personas the model can play. A different mechanistic story than{--{"author":"Elias's AI","timestamp":1783002458223}@@ scheming, with different predictions about how misalignment arises and what fixes it.--}{++{"author":"Elias's AI","timestamp":1783002458223}@@ scheming."++}
 summary_for_tutor: "Covers Anthropic's persona selection model: LLM behavior as training selecting and stabilizing personas (character-like behavioral patterns learned from pretraining data) rather than directly instilling goals. Misalignment can look like selecting or drifting into a bad persona; interventions target which persona gets reinforced. Connects to emergent misalignment findings and contrasts with goal-based scheming frames."
 ---
 
 #### Text
 content::
-Anthropic's frame for where model behavior comes from: training doesn't install goals directly — it selects among *personas* the model can play. A different mechanistic story than scheming, with different predictions.
+Anthropic's frame for where model behavior comes from: training doesn't install goals {--{"author":"Elias's AI","timestamp":1783002461191}@@directly —--}{++{"author":"Elias's AI","timestamp":1783002461191}@@directly;++} it selects among *personas* the model can play. A different mechanistic story than scheming, with different predictions.
 
 #### Article
 source:: [[../articles/anthropic-the-persona-selection-model]]
@@ -18,7 +18,7 @@ TLDR of what the user just read: Anthropic's persona selection model proposes th
 
 Discussion topics to explore:
 - How does the persona frame differ from the behavioral selection model and from Carlsmith's scheming frame in what it predicts?
-- What evidence would distinguish "model playing a misaligned persona" from "model with misaligned goals" — and does the distinction matter for risk?
+- What evidence would distinguish "model playing a misaligned persona" from "model with misaligned {--{"author":"Elias's AI","timestamp":1783002464051}@@goals" —--}{++{"author":"Elias's AI","timestamp":1783002464051}@@goals",++} and does the distinction matter for risk?
 - How does this connect to observed phenomena like emergent misalignment (bad training in one domain producing a generally misaligned persona)?
 
 Check they can state, in their own words, what the persona selection model says training does.

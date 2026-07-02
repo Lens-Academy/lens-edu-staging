@@ -1,20 +1,20 @@
 ---
 id: 9f73d64c-3d19-4f13-8570-cb8ba1106d68
 title: "Full Automation of AI R&D"
-tldr: Even if the "software-only singularity" fizzles, fully automating AI research still buys an enormous speed-up — millions of tireless researchers running around the clock at high serial speed. Fast progress doesn't depend on the diverging-returns assumption.
+tldr: Even if the "software-only singularity" fizzles, fully automating AI research still buys an enormous {--{"author":"Elias's AI","timestamp":1783002473310}@@speed-up — millions of tireless researchers running around the clock at high serial speed.--}{++{"author":"Elias's AI","timestamp":1783002473310}@@speed-up.++} Fast progress doesn't depend on the diverging-returns assumption.
 summary_for_tutor: "Covers Greenblatt's argument that full automation of AI R&D probably yields a large (order-of-magnitude-scale) speed-up in AI progress even without a software-only singularity: automated researchers can be run in vast numbers, at high serial speed, around the clock, with better coordination. The conclusion that progress becomes very fast therefore does not depend on the diverging-returns-to-software assumption debated in the software intelligence explosion literature."
 ---
 
 #### Text
 content::
-A useful counterpoint-within-the-camp: even if the "software-only singularity" fizzles, this Redwood post argues full automation of AI R&D still buys a very large speed-up. The interesting part is *why* — where the acceleration comes from when the recursive loop doesn't diverge.
+A useful counterpoint-within-the-camp: even if the "software-only singularity" fizzles, this Redwood post argues full automation of AI R&D still buys a very large speed-up. The interesting part is {--{"author":"Elias's AI","timestamp":1783002476099}@@*why* —--}{++{"author":"Elias's AI","timestamp":1783002476099}@@*why*:++} where the acceleration comes from when the recursive loop doesn't diverge.
 
 #### Article
 source:: [[../articles/greenblatt-full-automation-of-ai-rd-probably-yields-a-large-speed-up-even-without-a-software-only-singularity]]
 
 #### Chat
 instructions::
-TLDR of what the user just read: Ryan Greenblatt argues that fully automating AI R&D probably yields a large (order-of-magnitude-ish) speed-up in AI progress even without a software-only intelligence explosion, because AI researchers can be run in huge numbers, at high serial speed, around the clock — so conclusions about fast progress don't depend on the diverging-returns assumption.
+TLDR of what the user just read: Ryan Greenblatt argues that fully automating AI R&D probably yields a large (order-of-magnitude-ish) speed-up in AI progress even without a software-only intelligence explosion, because AI researchers can be run in huge numbers, at high serial speed, around the {--{"author":"Elias's AI","timestamp":1783002478518}@@clock —--}{++{"author":"Elias's AI","timestamp":1783002478518}@@clock,++} so conclusions about fast progress don't depend on the diverging-returns assumption.
 
 Discussion topics to explore:
 - Which sources of speed-up (parallelism, serial speed, no rest, better coordination) does the learner find most/least credible?

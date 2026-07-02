@@ -1,8 +1,8 @@
 ---
 id: 2d98441d-45dd-498a-8bd7-fbcad7564efd
 title: "Exercises - Measuring AI progress"
-tldr: You've now seen two rival ways to measure AI progress — Epoch's composite index and METR's time horizons. Time to pick a side, defend it, and then try to do better than both.
-summary_for_tutor: "An exercise page (no reading): two discussion-group exercises on the measurement readings — (1) contrast the methodologies of Epoch's ECI (composite latent benchmark scale) and METR's time horizon (human-labor-anchored task length at 50% success) and defend a preference for extrapolation, (2) propose a better measure of capabilities or AI R&D progress, or defend an existing one."
+tldr: You've {--{"author":"Elias's AI","timestamp":1783002451657}@@now --}seen two rival ways to measure AI{--{"author":"Elias's AI","timestamp":1783002451657}@@ progress —--}{++{"author":"Elias's AI","timestamp":1783002451657}@@ progress,++} Epoch's composite index and METR's time horizons. {--{"author":"Elias's AI","timestamp":1783002451657}@@Time to pick --}{++{"author":"Elias's AI","timestamp":1783002451657}@@Pick ++}a side, defend it,{--{"author":"Elias's AI","timestamp":1783002451657}@@ and--} then try to do better than both.
+summary_for_tutor: "An exercise page (no reading): two discussion-group exercises on the measurement {--{"author":"Elias's AI","timestamp":1783002453405}@@readings —--}{++{"author":"Elias's AI","timestamp":1783002453405}@@readings:++} (1) contrast the methodologies of Epoch's ECI (composite latent benchmark scale) and METR's time horizon (human-labor-anchored task length at 50% success) and defend a preference for extrapolation, (2) propose a better measure of capabilities or AI R&D progress, or defend an existing one."
 ---
 
 #### Text
@@ -23,4 +23,4 @@ max-chars:: 1200
 
 #### Chat
 instructions::
-The user just completed two exercises comparing ECI and METR time horizons and proposing better capability measures. Build on their answers — stress-test their preferred metric with failure cases (benchmark contamination, domain gaps, human-baseline quality) and connect back to the week's question: how powerful are AIs *currently*?
+The user just completed two exercises comparing ECI and METR time horizons and proposing better capability measures. Build on their {--{"author":"Elias's AI","timestamp":1783002455157}@@answers —--}{++{"author":"Elias's AI","timestamp":1783002455157}@@answers:++} stress-test their preferred metric with failure cases (benchmark contamination, domain gaps, human-baseline quality) and connect back to the week's question: how powerful are AIs *currently*?

@@ -1,20 +1,20 @@
 ---
 id: c12ef072-c8ae-449c-bcf1-d3a144dff5d8
 title: "Jankily Controlling Superintelligence"
-tldr: Everyone agrees control breaks down for wildly superhuman AI — but how fast, and is desperate, degraded control of early superintelligence worth attempting anyway? A deliberately uncomfortable read about a position nobody wants to be in.
-summary_for_tutor: "Covers Greenblatt's exploration of applying control measures to early superintelligent AI: the measures become janky (much weaker guarantees, higher risk), but degraded control might still meaningfully reduce risk during a dangerous transition — making takeover attempts costlier and buying time — while being clear this is a bad position to be in. Discusses which measures degrade gracefully vs fail cliff-like."
+tldr: Everyone agrees control breaks down for wildly superhuman {--{"author":"Elias's AI","timestamp":1783002490046}@@AI — but --}{++{"author":"Elias's AI","timestamp":1783002490046}@@AI. But ++}how fast, and is desperate, degraded control of early superintelligence worth attempting anyway?{--{"author":"Elias's AI","timestamp":1783002490046}@@ A deliberately uncomfortable read about a position nobody wants to be in.--}
+summary_for_tutor: "Covers Greenblatt's exploration of applying control measures to early superintelligent AI: the measures become janky (much weaker guarantees, higher risk), but degraded control might still meaningfully reduce risk during a dangerous transition {--{"author":"Elias's AI","timestamp":1783002492974}@@— making--}{++{"author":"Elias's AI","timestamp":1783002492974}@@(making++} takeover attempts costlier and buying {--{"author":"Elias's AI","timestamp":1783002492974}@@time —--}{++{"author":"Elias's AI","timestamp":1783002492974}@@time),++} while being clear this is a bad position to be in. Discusses which measures degrade gracefully vs fail cliff-like."
 ---
 
 #### Text
 content::
-Everyone agrees control breaks down for wildly superhuman AI. But how *fast* does it break down — and is desperate, imperfect control of early superintelligence worth attempting anyway? A deliberately uncomfortable read.
+Everyone agrees control breaks down for wildly superhuman AI. But how *fast* does it break {--{"author":"Elias's AI","timestamp":1783002494831}@@down —--}{++{"author":"Elias's AI","timestamp":1783002494831}@@down,++} and is desperate, imperfect control of early superintelligence worth attempting anyway? A deliberately uncomfortable read.
 
 #### Article
 source:: [[../articles/greenblatt-jankily-controlling-superintelligence]]
 
 #### Chat
 instructions::
-TLDR of what the user just read: Greenblatt explores applying control measures to early superintelligent AI — acknowledging the measures become "janky" (much weaker guarantees, higher risk) but arguing degraded control might still meaningfully reduce risk during a dangerous transition period, e.g. by making takeover attempts costlier and buying time for better solutions, while being clear this is a bad position to be in.
+TLDR of what the user just read: Greenblatt explores applying control measures to early superintelligent {--{"author":"Elias's AI","timestamp":1783002499243}@@AI —--}{++{"author":"Elias's AI","timestamp":1783002499243}@@AI,++} acknowledging the measures become "janky" (much weaker guarantees, higher risk) but arguing degraded control might still meaningfully reduce risk during a dangerous transition period, e.g. by making takeover attempts costlier and buying time for better solutions, while being clear this is a bad position to be in.
 
 Discussion topics to explore:
 - Which control measures degrade most gracefully as capabilities exceed human level, and which fail cliff-like?
