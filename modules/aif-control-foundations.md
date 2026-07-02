@@ -23,13 +23,13 @@ Key questions to hold while reading:
 Before you start: note your initial intuition — does "keep a possibly-adversarial superhuman system safely contained while using it" sound tractable or doomed to you? Check back on that at the end of the week.
 
 # Lens:
-source:: [[../Lenses/The Case for AI Control]]
+source:: [[../Lenses/AIF - The Case for AI Control]]
 
 # Lens:
-source:: [[../Lenses/The Case Against AI Control]]
+source:: [[../Lenses/AIF - The Case Against AI Control]]
 
 # Lens:
-source:: [[../Lenses/AI Catastrophes and Rogue Deployments]]
+source:: [[../Lenses/AIF - AI Catastrophes and Rogue Deployments]]
 
 # Lens:
-source:: [[../Lenses/Areas of Control Work]]
+source:: [[../Lenses/AIF - Areas of Control Work]]

@@ -7,7 +7,7 @@ title: "Evidence from Current AIs"
 %% AI Futurism course, Week 2: what current models tell us about future motivations. %%
 
 # Lens:
-source:: [[../Lenses/Current AIs Seem Pretty Misaligned]]
+source:: [[../Lenses/AIF - Current AIs Seem Pretty Misaligned]]
 
 # Lens:
-source:: [[../Lenses/The Persona Selection Model]]
+source:: [[../Lenses/AIF - The Persona Selection Model]]

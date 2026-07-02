@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782994905363}@@---
+---
 id: 34a3e729-3bb4-4a50-b50f-2a929e77aa64
 slug: min-messages-demo
 title: Min-messages demo
@@ -51,4 +51,3 @@ Control page: this chat has no `min-messages`, so "Mark section complete" should
 #### Chat
 instructions::
 This is an ungated control chat for the completion-gate test. Chat casually if the learner says anything.
-++}

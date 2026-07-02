@@ -24,13 +24,13 @@ Key questions to hold while reading:
 Before you start reading: note down (for yourself) what you currently think today's models "want", if anything. This week's readings will give you several competing frames to test that intuition against.
 
 # Lens:
-source:: [[../Lenses/The Behavioral Selection Model]]
+source:: [[../Lenses/AIF - The Behavioral Selection Model]]
 
 # Lens:
-source:: [[../Lenses/Risk from Fitness-Seeking AIs]]
+source:: [[../Lenses/AIF - Risk from Fitness-Seeking AIs]]
 
 # Lens:
-source:: [[../Lenses/Scheming AIs]]
+source:: [[../Lenses/AIF - Scheming AIs]]
 
 # Lens:
-source:: [[../Lenses/Exercise - Estimate P(scheming)]]
+source:: [[../Lenses/AIF - Exercise - Estimate P(scheming)]]

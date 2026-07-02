@@ -7,7 +7,7 @@ title: "Plans After Control"
 %% AI Futurism course, Week 3: macrostrategy — what comes after control works (reading list's own grouping). %%
 
 # Lens:
-source:: [[../Lenses/Current AIs for Future Safety Work]]
+source:: [[../Lenses/AIF - Current AIs for Future Safety Work]]
 
 # Lens:
-source:: [[../Lenses/Jankily Controlling Superintelligence]]
+source:: [[../Lenses/AIF - Jankily Controlling Superintelligence]]

@@ -7,13 +7,13 @@ title: "Takeover Scenarios"
 %% AI Futurism course, Week 2: concrete takeover and failure scenarios. %%
 
 # Lens:
-source:: [[../Lenses/AI 2027]]
+source:: [[../Lenses/AIF - AI 2027]]
 
 # Lens:
-source:: [[../Lenses/Ryan Greenblatt on Takeover]]
+source:: [[../Lenses/AIF - Ryan Greenblatt on Takeover]]
 
 # Lens:
-source:: [[../Lenses/Another Outer Alignment Failure Story]]
+source:: [[../Lenses/AIF - Another Outer Alignment Failure Story]]
 
 # Lens:
-source:: [[../Lenses/What Failure Looks Like]]
+source:: [[../Lenses/AIF - What Failure Looks Like]]

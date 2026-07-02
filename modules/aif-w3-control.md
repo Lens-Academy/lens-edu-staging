@@ -29,43 +29,43 @@ Before you start: note your initial intuition — does "keep a possibly-adversar
 slug:: foundations
 
 ## Lens:
-source:: [[../Lenses/The Case for AI Control]]
+source:: [[../Lenses/AIF - The Case for AI Control]]
 
 ## Lens:
-source:: [[../Lenses/The Case Against AI Control]]
+source:: [[../Lenses/AIF - The Case Against AI Control]]
 
 ## Lens:
-source:: [[../Lenses/AI Catastrophes and Rogue Deployments]]
+source:: [[../Lenses/AIF - AI Catastrophes and Rogue Deployments]]
 
 ## Lens:
-source:: [[../Lenses/Areas of Control Work]]
+source:: [[../Lenses/AIF - Areas of Control Work]]
 
 # Submodule: Threat modeling and game dynamics
 slug:: threat-modeling
 
 ## Lens:
-source:: [[../Lenses/Prioritizing Threats for AI Control]]
+source:: [[../Lenses/AIF - Prioritizing Threats for AI Control]]
 
 ## Lens:
-source:: [[../Lenses/Win Continue Lose]]
+source:: [[../Lenses/AIF - Win Continue Lose]]
 
 ## Lens:
-source:: [[../Lenses/Conservative Assumptions in AI Control]]
+source:: [[../Lenses/AIF - Conservative Assumptions in AI Control]]
 
 ## Lens:
-source:: [[../Lenses/Sandbagging and Exploration Hacking]]
+source:: [[../Lenses/AIF - Sandbagging and Exploration Hacking]]
 
 ## Lens:
-source:: [[../Lenses/Catching AIs Red-Handed]]
+source:: [[../Lenses/AIF - Catching AIs Red-Handed]]
 
 # Submodule: Plans after control
 slug:: after-control
 
 ## Lens:
-source:: [[../Lenses/Current AIs for Future Safety Work]]
+source:: [[../Lenses/AIF - Current AIs for Future Safety Work]]
 
 ## Lens:
-source:: [[../Lenses/Jankily Controlling Superintelligence]]
+source:: [[../Lenses/AIF - Jankily Controlling Superintelligence]]
 
 # Submodule: Control measures
 slug:: control-measures

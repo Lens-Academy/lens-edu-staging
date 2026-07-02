@@ -67,11 +67,11 @@ slug:: measuring-progress
 source:: [[../Lenses/AIF - Epoch Capabilities Index]]
 
 ## Lens:
-source:: [[../Lenses/METR Time Horizons]]
+source:: [[../Lenses/AIF - METR Time Horizons]]
 
 # Submodule: Optional readings
 slug:: optional-readings
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/Optional readings - Timelines and takeoff]]
+source:: [[../Lenses/AIF - Optional readings - Timelines and takeoff]]

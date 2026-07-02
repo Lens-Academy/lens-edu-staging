@@ -7,16 +7,16 @@ title: "Threat Modeling & Game Dynamics"
 %% AI Futurism course, Week 3: control threat modeling and game dynamics (reading list's own grouping). %%
 
 # Lens:
-source:: [[../Lenses/Prioritizing Threats for AI Control]]
+source:: [[../Lenses/AIF - Prioritizing Threats for AI Control]]
 
 # Lens:
-source:: [[../Lenses/Win Continue Lose]]
+source:: [[../Lenses/AIF - Win Continue Lose]]
 
 # Lens:
-source:: [[../Lenses/Conservative Assumptions in AI Control]]
+source:: [[../Lenses/AIF - Conservative Assumptions in AI Control]]
 
 # Lens:
-source:: [[../Lenses/Sandbagging and Exploration Hacking]]
+source:: [[../Lenses/AIF - Sandbagging and Exploration Hacking]]
 
 # Lens:
-source:: [[../Lenses/Catching AIs Red-Handed]]
+source:: [[../Lenses/AIF - Catching AIs Red-Handed]]

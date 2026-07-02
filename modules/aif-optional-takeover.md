@@ -7,4 +7,4 @@ title: "Optional Readings"
 %% AI Futurism course, Week 2: optional readings collection. Imported as optional at the course level. %%
 
 # Lens:
-source:: [[../Lenses/Optional readings - Takeover threat modeling]]
+source:: [[../Lenses/AIF - Optional readings - Takeover threat modeling]]

@@ -10,13 +10,13 @@ title: "Takeoff Models & Measuring Progress"
 source:: [[../Lenses/AIF - AI Futures Model Dec 2025]]
 
 # Lens:
-source:: [[../Lenses/Exercises - Takeoff models]]
+source:: [[../Lenses/AIF - Exercises - Takeoff models]]
 
 # Lens:
 source:: [[../Lenses/AIF - Epoch Capabilities Index]]
 
 # Lens:
-source:: [[../Lenses/METR Time Horizons]]
+source:: [[../Lenses/AIF - METR Time Horizons]]
 
 # Lens:
-source:: [[../Lenses/Exercises - Measuring AI progress]]
+source:: [[../Lenses/AIF - Exercises - Measuring AI progress]]

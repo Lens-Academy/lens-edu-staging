@@ -30,44 +30,44 @@ Before you start reading: note down (for yourself) what you currently think toda
 slug:: what-ais-want
 
 ## Lens:
-source:: [[../Lenses/The Behavioral Selection Model]]
+source:: [[../Lenses/AIF - The Behavioral Selection Model]]
 
 ## Lens:
-source:: [[../Lenses/Risk from Fitness-Seeking AIs]]
+source:: [[../Lenses/AIF - Risk from Fitness-Seeking AIs]]
 
 # Submodule: Scheming
 slug:: scheming
 
 ## Lens:
-source:: [[../Lenses/Scheming AIs]]
+source:: [[../Lenses/AIF - Scheming AIs]]
 
 # Submodule: Takeover scenarios
 slug:: takeover-scenarios
 
 ## Lens:
-source:: [[../Lenses/AI 2027]]
+source:: [[../Lenses/AIF - AI 2027]]
 
 ## Lens:
-source:: [[../Lenses/Ryan Greenblatt on Takeover]]
+source:: [[../Lenses/AIF - Ryan Greenblatt on Takeover]]
 
 ## Lens:
-source:: [[../Lenses/Another Outer Alignment Failure Story]]
+source:: [[../Lenses/AIF - Another Outer Alignment Failure Story]]
 
 ## Lens:
-source:: [[../Lenses/What Failure Looks Like]]
+source:: [[../Lenses/AIF - What Failure Looks Like]]
 
 # Submodule: Evidence from current AIs
 slug:: current-evidence
 
 ## Lens:
-source:: [[../Lenses/Current AIs Seem Pretty Misaligned]]
+source:: [[../Lenses/AIF - Current AIs Seem Pretty Misaligned]]
 
 ## Lens:
-source:: [[../Lenses/The Persona Selection Model]]
+source:: [[../Lenses/AIF - The Persona Selection Model]]
 
 # Submodule: Optional readings
 slug:: optional-readings
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/Optional readings - Takeover threat modeling]]
+source:: [[../Lenses/AIF - Optional readings - Takeover threat modeling]]
