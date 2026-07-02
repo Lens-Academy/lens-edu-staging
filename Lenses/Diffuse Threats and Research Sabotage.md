@@ -1,6 +1,7 @@
 ---
 id: b5a9848d-a1be-4396-91ad-c74701b31ff9
-title: "AIF - Diffuse Threats and Research Sabotage"
+title: {--{"author":"Elias's AI","timestamp":1782987418759}@@"AIF - Diffuse--}{++{"author":"Elias's AI","timestamp":1782987418759}@@"Diffuse++} Threats and Research Sabotage"{++{"author":"Elias's AI","timestamp":1782987418759}@@
+tldr: Concentrated failures get caught by auditing the worst action. But what if the attack is a thousand tiny acts of sabotage, none individually damning? Diffuse threats need different machinery — aggregated weak signals, incrimination strategies, statistical detection.++}
 ---
 
 #### Text

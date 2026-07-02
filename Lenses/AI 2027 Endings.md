@@ -1,6 +1,7 @@
-{++{"author":"AI","timestamp":1782975340503}@@---
+{++{"author":"Elias's AI","timestamp":1782987482774}@@---
 id: 6137da8b-0596-49be-a7df-668f0b1fffed
-title: "AIF - AI 2027 Endings"
+title: "AI 2027 Endings"
+tldr: Return to AI 2027 for the two endings after the branching point — the race ending, where humanity is gradually destroyed, and the slowdown ending, where oversight prevails but power ends up alarmingly concentrated. Same world, one decision apart.
 ---
 
 #### Text

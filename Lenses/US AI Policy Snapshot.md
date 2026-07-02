@@ -1,6 +1,7 @@
 ---
 id: 2405bd5a-3b09-4b44-9f08-f4a68fa5f890
-title: "AIF - US AI Policy Snapshot"
+title: {--{"author":"Elias's AI","timestamp":1782987539085}@@"AIF ---}{++{"author":"Elias's AI","timestamp":1782987539085}@@"US AI Policy Snapshot"
+tldr: Where the++} US {--{"author":"Elias's AI","timestamp":1782987539085}@@AI Policy Snapshot"--}{++{"author":"Elias's AI","timestamp":1782987539085}@@government actually is, versus where the scenarios put it — federal acceleration and deregulation on one track, states quietly writing the first binding frontier-AI safety laws on the other. New York's RAISE Act joins California, preemption fight pending.++}
 ---
 
 #### Text

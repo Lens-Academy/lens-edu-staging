@@ -1,6 +1,7 @@
 ---
 id: 807fbe76-a1af-4031-89b8-47cffe901640
-title: "AIF - Manhattan Project for AGI"
+title: {--{"author":"Elias's AI","timestamp":1782987536197}@@"AIF - Manhattan Project--}{++{"author":"Elias's AI","timestamp":1782987536197}@@"Manhattan Project for AGI"
+tldr: The proposal that keeps resurfacing in Washington — nationalize the AGI push. Wildeford weighs what it would actually change++} for {--{"author":"Elias's AI","timestamp":1782987536197}@@AGI"--}{++{"author":"Elias's AI","timestamp":1782987536197}@@speed, security, and safety, and whether the cure (concentrated state power over AGI) is worse than the disease (a private race).++}
 ---
 
 #### Text

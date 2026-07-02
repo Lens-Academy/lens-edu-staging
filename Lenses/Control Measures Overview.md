@@ -1,6 +1,7 @@
 ---
 id: 572dba59-26f9-4993-b2e7-4df0bea70624
-title: "AIF - Control Measures Overview"
+title: {--{"author":"Elias's AI","timestamp":1782987414568}@@"AIF - Control Measures Overview"--}{++{"author":"Elias's AI","timestamp":1782987414568}@@"Control Measures Overview"
+tldr: The catalog of what you can concretely do to an untrusted model — trusted and untrusted monitoring, human auditing budgets, resampling, sandboxing, information control — and how the measures compose into full protocols.++}
 ---
 
 #### Text

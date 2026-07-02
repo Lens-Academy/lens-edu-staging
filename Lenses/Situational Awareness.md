@@ -1,6 +1,7 @@
 ---
 id: 2d71635b-572e-49d5-8f72-336c0ea663ee
-title: "AIF - Situational Awareness"
+title: {--{"author":"Elias's AI","timestamp":1782987501981}@@"AIF - Situational Awareness"--}{++{"author":"Elias's AI","timestamp":1782987501981}@@"Situational Awareness"
+tldr: The essays that shaped how Washington thinks about the AGI endgame — racing to the trillion-dollar cluster, securing weights against China, superalignment during an intelligence explosion, and why the national security state takes over ("The Project"). Read III-V, then argue with them.++}
 ---
 
 #### Text

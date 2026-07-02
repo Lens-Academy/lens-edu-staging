@@ -1,6 +1,7 @@
 ---
 id: f22a254b-b5e1-4090-924d-2ea0358a8467
-title: "AIF - How China Views AI Risks"
+title: {--{"author":"Elias's AI","timestamp":1782987542742}@@"AIF - How--}{++{"author":"Elias's AI","timestamp":1782987542742}@@"How++} China Views AI Risks"{++{"author":"Elias's AI","timestamp":1782987542742}@@
+tldr: Most Western AI strategy contains a load-bearing assumption about what "China" wants. Sheehan replaces the caricature with the actual landscape — including a Chinese frontier-safety community pushing catastrophic-risk concerns you probably didn't know existed.++}
 ---
 
 #### Text

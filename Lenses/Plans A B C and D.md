@@ -1,6 +1,7 @@
-{++{"author":"AI","timestamp":1782975313300}@@---
+{++{"author":"Elias's AI","timestamp":1782987475644}@@---
 id: df925250-e42b-4afb-ad8c-55b956b2092e
-title: "AIF - Plans A B C and D"
+title: "Plans A B C and D"
+tldr: Strategy under uncertainty — what should be done about misalignment risk if coordination is great, decent, poor, or absent? Four plans, one per world, and an argument that we should prepare for the worlds we'll probably get, not the ones we want.
 ---
 
 #### Text
