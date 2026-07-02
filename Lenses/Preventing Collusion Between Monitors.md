@@ -1,7 +1,8 @@
 ---
 id: 977a0418-d91f-457d-87dd-65865e91e3b6
 title: "Preventing Collusion Between Monitors"
-tldr: Your best monitor for an untrusted model is another copy of the untrusted model — which only works if the two copies can't wink at each other. The anti-collusion playbook — paraphrasing, honeypots, information limits — against adversaries that share weights and Schelling points.
+tldr: Your best monitor for an untrusted model is another copy of the untrusted model — which only works if the two copies can't wink at each other. The anti-collusion playbook — paraphrasing, honeypots, information limits — against adversaries that share weights and Schelling points.{++{"author":"Elias's AI","timestamp":1782994702211}@@
+summary_for_tutor: "Covers Shlegeris's analysis of untrusted monitoring — using copies of the capable-but-possibly-scheming model to monitor itself — and preventing collusion via paraphrasing inputs (destroying steganographic signals), redacting context so monitors can't distinguish real actions from planted honeypot attacks, checking monitor reports against known-bad examples, and limiting shared information that could coordinate a 'let it slide' policy."++}
 ---
 
 #### Text

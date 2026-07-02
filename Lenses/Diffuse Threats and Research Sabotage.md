@@ -1,7 +1,8 @@
 ---
 id: b5a9848d-a1be-4396-91ad-c74701b31ff9
 title: "Diffuse Threats and Research Sabotage"
-tldr: Concentrated failures get caught by auditing the worst action. But what if the attack is a thousand tiny acts of sabotage, none individually damning? Diffuse threats need different machinery — aggregated weak signals, incrimination strategies, statistical detection.
+tldr: Concentrated failures get caught by auditing the worst action. But what if the attack is a thousand tiny acts of sabotage, none individually damning? Diffuse threats need different machinery — aggregated weak signals, incrimination strategies, statistical detection.{++{"author":"Elias's AI","timestamp":1782994681496}@@
+summary_for_tutor: "Covers Hebbar's analysis of diffuse threats — failures like research sabotage composed of many low-stakes actions (subtly wrong experiments, misleading advice) where auditing single actions can't produce decisive evidence. Countermeasures include aggregating weak signals across many actions, incrimination strategies, statistical detection of systematic bias, and training-based approaches. Especially relevant to plans relying on AI-automated safety research."++}
 ---
 
 #### Text

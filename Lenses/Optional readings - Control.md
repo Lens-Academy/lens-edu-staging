@@ -1,7 +1,8 @@
 ---
 id: 161fd6ad-090e-4288-8fdc-3c0057d88679
 title: "Optional readings - Control"
-tldr: For those the control week converted — research directions to actually work on, from building robust-to-training model organisms to incriminating misaligned models via distillation, plus the audio alternative for the week's foundations.
+tldr: For those the control week converted — research directions to actually work on, from building robust-to-training model organisms to incriminating misaligned models via distillation, plus the audio alternative for the week's foundations.{++{"author":"Elias's AI","timestamp":1782994710879}@@
+summary_for_tutor: "A curated link collection: control research directions (advice for making robust-to-training model organisms; incriminating misaligned AI models via distillation — no public link, ask facilitator) and the audio alternative to the week's foundations (Buck Shlegeris on the 80,000 Hours podcast). If the user wants project ideas, brainstorm experiments building on Ctrl-Z, BashArena, or the sabotage studies."++}
 ---
 
 #### Text

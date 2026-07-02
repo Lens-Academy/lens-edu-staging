@@ -1,7 +1,8 @@
 ---
 id: 4ea41768-7281-4163-95b4-ab5a96d60f1c
 title: "Non-Concentrated Failures"
-tldr: The companion piece on handling non-concentrated failures — how many bad actions the AI needs before its plan works changes the whole game theory, and determines whether online training, few-shot incrimination, or aggregate statistics is the right response.
+tldr: The companion piece on handling non-concentrated failures — how many bad actions the AI needs before its plan works changes the whole game theory, and determines whether online training, few-shot incrimination, or aggregate statistics is the right response.{++{"author":"Elias's AI","timestamp":1782994685344}@@
+summary_for_tutor: "Covers Greenblatt's notes on regimes for non-concentrated (diffuse) failures: how many bad actions the AI must commit before its plan works, how much evidence each provides, and corresponding methods — online training against detected bad behavior, few-shot incrimination (using a handful of caught actions to prove misalignment), and deployment adjustments based on aggregate statistics. Key tension: using detections for training vs preserving them as incriminating evidence."++}
 ---
 
 #### Text

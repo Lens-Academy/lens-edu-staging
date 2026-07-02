@@ -1,7 +1,8 @@
 ---
 id: 572dba59-26f9-4993-b2e7-4df0bea70624
 title: "Control Measures Overview"
-tldr: The catalog of what you can concretely do to an untrusted model — trusted and untrusted monitoring, human auditing budgets, resampling, sandboxing, information control — and how the measures compose into full protocols.
+tldr: The catalog of what you can concretely do to an untrusted model — trusted and untrusted monitoring, human auditing budgets, resampling, sandboxing, information control — and how the measures compose into full protocols.{++{"author":"Elias's AI","timestamp":1782994668630}@@
+summary_for_tutor: "Covers Greenblatt's overview of control measures: trusted monitoring (weaker trusted models scoring untrusted outputs), untrusted monitoring with anti-collusion measures, human auditing of the most suspicious actions, resampling/deferring, sandboxing and least-privilege affordances, paraphrasing/information control, and security against exfiltration — and how measures compose into protocols trading safety against usefulness."++}
 ---
 
 #### Text
