@@ -14,7 +14,7 @@ source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-a
 
 #### Text
 content::
-Control's whole promise: you can extract safe, useful work from an AI that's actively trying to betray you. Before you read the counter-argument — do you believe that's achievable for early transformative AI? Commit to a yes or no, then defend it against the tutor.
+Control's whole promise: you can extract safe, useful work from an AI that's actively trying to betray you. {--{"author":"Elias's AI","timestamp":1783024073416}@@Before you read the counter-argument — do--}{++{"author":"Elias's AI","timestamp":1783024073416}@@Do++} you believe that's achievable for early transformative AI? {++{"author":"Elias's AI","timestamp":1783024073416}@@Decide before you read the counter-argument. ++}Commit to a yes or no, then defend it against the tutor.
 
 #### Chat
 instructions::

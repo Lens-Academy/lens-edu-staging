@@ -14,7 +14,7 @@ source:: [[../articles/forethought-three-types-of-intelligence-explosion]]
 
 #### Text
 content::
-Before you open the chat: which of the three feedback loops — software, AI-technology, or full-stack — do you think closes *first*? Commit to an answer, then defend it against the tutor.
+Before you open the chat: which of the three feedback loops {--{"author":"Elias's AI","timestamp":1783024053495}@@— software,--}{++{"author":"Elias's AI","timestamp":1783024053495}@@(software,++} AI-technology, or {--{"author":"Elias's AI","timestamp":1783024053495}@@full-stack —--}{++{"author":"Elias's AI","timestamp":1783024053495}@@full-stack)++} do you think closes *first*? Commit to an answer, then defend it against the tutor.
 
 #### Chat
 instructions::

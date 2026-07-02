@@ -14,7 +14,7 @@ source:: [[../articles/wentworth--the-case-against-ai-control-research]]
 
 #### Text
 content::
-You've now heard both cases. Does Wentworth's "wrong regime" objection actually kill the control agenda, or just trim its ambitions? Deliver a verdict — for or against — and make the tutor try to flip it.
+You've now heard both cases. Does Wentworth's "wrong regime" objection actually kill the control agenda, or just trim its ambitions? Deliver a verdict {--{"author":"Elias's AI","timestamp":1783024077928}@@— for--}{++{"author":"Elias's AI","timestamp":1783024077928}@@(for++} or {--{"author":"Elias's AI","timestamp":1783024077928}@@against —--}{++{"author":"Elias's AI","timestamp":1783024077928}@@against)++} and make the tutor try to flip it.
 
 #### Chat
 instructions::

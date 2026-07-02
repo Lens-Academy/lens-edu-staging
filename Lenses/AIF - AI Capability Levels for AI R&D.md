@@ -16,7 +16,7 @@ source:: [[../articles/greenblatt-a-breakdown-of-ai-capability-levels-focused-on
 
 #### Text
 content::
-Where would you put today's frontier models on Greenblatt's ladder — and what single piece of evidence would move them up a rung? Bring your placement to the tutor.
+{--{"author":"Elias's AI","timestamp":1783024055759}@@Where would you put--}{++{"author":"Elias's AI","timestamp":1783024055759}@@Place++} today's frontier models on Greenblatt's {--{"author":"Elias's AI","timestamp":1783024055759}@@ladder — and what--}{++{"author":"Elias's AI","timestamp":1783024055759}@@ladder, then name the++} single piece of evidence {++{"author":"Elias's AI","timestamp":1783024055759}@@that ++}would move them up a {--{"author":"Elias's AI","timestamp":1783024055759}@@rung?--}{++{"author":"Elias's AI","timestamp":1783024055759}@@rung.++} Bring your placement to the tutor.
 
 #### Chat
 instructions::
