@@ -1,7 +1,9 @@
 ---
 title: "Do the returns to software R&D point towards a singularity?"
 author:
-  - "Tamay Besiroglu"
+  - "Tamay Besiroglu"{++{"author":"Elias's AI","timestamp":1783012741436}@@
+  - "Ege Erdil"
+  - "Anson Ho"++}
 source_url: "https://epoch.ai/blog/do-the-returns-to-software-rnd-point-towards-a-singularity"
 published: {--{"author":"Elias's AI","timestamp":1783012582650}@@2026-07-02--}{++{"author":"Elias's AI","timestamp":1783012582650}@@2024-05-17++}
 created: 2026-07-02
