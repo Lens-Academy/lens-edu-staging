@@ -18,7 +18,7 @@ Add `min-messages::` to a segment to change that:
 
 What learners see: clicking "Mark section complete" too early rejects the click, scrolls to the first missing interaction, and shows a small pill explaining what is needed. The pill disappears as soon as they make progress and only comes back if they try to complete again too early.
 
-The four lenses below demonstrate each case. Preview the module and try them. %%
+The five lenses below demonstrate each case. Preview the module and try them. %%
 
 # Lens: Chat with a 2-message minimum
 id:: 593ceb17-ebd3-4c31-b250-3229b758ffc6
@@ -55,7 +55,7 @@ min-messages:: 3
 content:: Name a food you could eat every day. What makes it work for you?
 assessment-instructions:: Any sincere answer is fine; ask one playful follow-up question at a time.
 
-# Lens: {++{"author":"Elias's AI","timestamp":1782999746908}@@Skippable question
+# Lens: Skippable question
 id:: 2c11c696-8fcb-4d2e-9725-f171c2e55c95
 
 #### Text
@@ -66,7 +66,7 @@ This question has `min-messages:: 0`, which overrides the default requirement of
 min-messages:: 0
 content:: Purely optional: is there anything from this module you want to note down for later?
 
-# Lens: ++}Control chat without a minimum
+# Lens: Control chat without a minimum
 id:: d3d75f10-d930-4fc1-a52c-fcfcc65f05a0
 
 #### Text
