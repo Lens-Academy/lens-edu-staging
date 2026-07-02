@@ -1,7 +1,8 @@
 ---
 id: 0dfaea4c-fbe6-4336-ab33-205cae3ea7d1
 title: {--{"author":"Elias's AI","timestamp":1782987037433}@@"AIF - AI--}{++{"author":"Elias's AI","timestamp":1782987037433}@@"AI++} Futures Model Dec 2025"{++{"author":"Elias's AI","timestamp":1782987037433}@@
-tldr: The team behind AI 2027 maintains an actual quantitative model of when superhuman coders and full AI R&D automation arrive — and lets you plug in your own parameters. This update explains how it works, what it predicts, and which assumptions carry the weight.++}
+tldr: The team behind AI 2027 maintains an actual quantitative model of when superhuman coders and full AI R&D automation arrive — and lets you plug in your own parameters. This update explains how it works, what it predicts, and which assumptions carry the weight.++}{++{"author":"Elias's AI","timestamp":1782991101311}@@
+summary_for_tutor: "Covers the AI Futures Project's December 2025 model update: a quantitative timelines/takeoff model forecasting milestones like superhuman coders and full AI R&D automation, driven by extrapolating capability trends (e.g. time horizons) and modeling the acceleration feedback from AI assisting AI research. Explains the model's structure, key parameters, and current median forecasts. An interactive web app lets users set their own parameters — the exercises in the following lens use it."++}
 ---
 
 #### Text
