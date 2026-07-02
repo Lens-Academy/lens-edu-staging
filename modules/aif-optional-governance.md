@@ -7,4 +7,4 @@ title: "Optional Readings"
 %% AI Futurism course, Week 4: optional readings collection. Imported as optional at the course level. %%
 
 # Lens:
-source:: [[../Lenses/Optional readings - Governance and strategy]]
+source:: [[../Lenses/AIF - Optional readings - Governance and strategy]]

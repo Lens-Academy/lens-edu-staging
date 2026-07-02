@@ -7,13 +7,13 @@ title: "US & China Policy"
 %% AI Futurism course, Week 4: current US and China AI policy (reading list's "US admin" and "China admin" groupings merged). %%
 
 # Lens:
-source:: [[../Lenses/US AI Policy Snapshot]]
+source:: [[../Lenses/AIF - US AI Policy Snapshot]]
 
 # Lens:
-source:: [[../Lenses/How China Views AI Risks]]
+source:: [[../Lenses/AIF - How China Views AI Risks]]
 
 # Lens:
-source:: [[../Lenses/China Compute and Frontier Lag]]
+source:: [[../Lenses/AIF - China Compute and Frontier Lag]]
 
 # Lens:
-source:: [[../Lenses/The 2017 AGI Plan Myth]]
+source:: [[../Lenses/AIF - The 2017 AGI Plan Myth]]

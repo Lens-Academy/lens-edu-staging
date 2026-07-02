@@ -29,56 +29,56 @@ Before you start: where do you think the real decisions about how AGI goes get m
 slug:: playbook
 
 ## Lens:
-source:: [[../Lenses/Plans A B C and D]]
+source:: [[../Lenses/AIF - Plans A B C and D]]
 
 ## Lens:
-source:: [[../Lenses/Safely Deferring to AIs]]
+source:: [[../Lenses/AIF - Safely Deferring to AIs]]
 
 # Submodule: Lab dynamics
 slug:: lab-dynamics
 
 ## Lens:
-source:: [[../Lenses/AI 2027 Endings]]
+source:: [[../Lenses/AIF - AI 2027 Endings]]
 
 ## Lens:
-source:: [[../Lenses/CEO Takeover Scenario]]
+source:: [[../Lenses/AIF - CEO Takeover Scenario]]
 
 ## Lens:
-source:: [[../Lenses/Ten People on the Inside]]
+source:: [[../Lenses/AIF - Ten People on the Inside]]
 
 # Submodule: State dynamics
 slug:: state-dynamics
 
 ## Lens:
-source:: [[../Lenses/Situational Awareness]]
+source:: [[../Lenses/AIF - Situational Awareness]]
 
 ## Lens:
-source:: [[../Lenses/ASI Deterrence]]
+source:: [[../Lenses/AIF - ASI Deterrence]]
 
 ## Lens:
-source:: [[../Lenses/Manhattan Project for AGI]]
+source:: [[../Lenses/AIF - Manhattan Project for AGI]]
 
 # Submodule: US policy
 slug:: us-policy
 
 ## Lens:
-source:: [[../Lenses/US AI Policy Snapshot]]
+source:: [[../Lenses/AIF - US AI Policy Snapshot]]
 
 # Submodule: China
 slug:: china
 
 ## Lens:
-source:: [[../Lenses/How China Views AI Risks]]
+source:: [[../Lenses/AIF - How China Views AI Risks]]
 
 ## Lens:
-source:: [[../Lenses/China Compute and Frontier Lag]]
+source:: [[../Lenses/AIF - China Compute and Frontier Lag]]
 
 ## Lens:
-source:: [[../Lenses/The 2017 AGI Plan Myth]]
+source:: [[../Lenses/AIF - The 2017 AGI Plan Myth]]
 
 # Submodule: Optional readings
 slug:: optional-readings
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/Optional readings - Governance and strategy]]
+source:: [[../Lenses/AIF - Optional readings - Governance and strategy]]

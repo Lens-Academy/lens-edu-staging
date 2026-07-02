@@ -72,30 +72,30 @@ slug:: control-measures
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/Control Measures Overview]]
+source:: [[../Lenses/AIF - Control Measures Overview]]
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/Diffuse Threats and Research Sabotage]]
+source:: [[../Lenses/AIF - Diffuse Threats and Research Sabotage]]
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/Non-Concentrated Failures]]
+source:: [[../Lenses/AIF - Non-Concentrated Failures]]
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/Preventing Collusion Between Monitors]]
+source:: [[../Lenses/AIF - Preventing Collusion Between Monitors]]
 
 # Submodule: Empirical research
 slug:: empirical-research
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/Empirical Control Research]]
+source:: [[../Lenses/AIF - Empirical Control Research]]
 
 # Submodule: Optional readings
 slug:: optional-readings
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/Optional readings - Control]]
+source:: [[../Lenses/AIF - Optional readings - Control]]

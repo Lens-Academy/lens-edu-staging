@@ -23,7 +23,7 @@ Key questions to hold while reading:
 Before you start: where do you think the real decisions about how AGI goes get made — lab leadership, boards, the US executive branch, Congress, Beijing? If you had 100 points of influence to allocate, where would you put them? Keep that allocation in mind; the week's readings will argue with it.
 
 # Lens:
-source:: [[../Lenses/Plans A B C and D]]
+source:: [[../Lenses/AIF - Plans A B C and D]]
 
 # Lens:
-source:: [[../Lenses/Safely Deferring to AIs]]
+source:: [[../Lenses/AIF - Safely Deferring to AIs]]

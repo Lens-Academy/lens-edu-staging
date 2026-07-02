@@ -7,16 +7,16 @@ title: "Control Measures & Empirical Work"
 %% AI Futurism course, Week 3: control measures and empirical research. The reading list marks these groups as "can treat as optional bc they're more in the technical weeds" — the module is imported as optional at the course level. %%
 
 # Lens:
-source:: [[../Lenses/Control Measures Overview]]
+source:: [[../Lenses/AIF - Control Measures Overview]]
 
 # Lens:
-source:: [[../Lenses/Diffuse Threats and Research Sabotage]]
+source:: [[../Lenses/AIF - Diffuse Threats and Research Sabotage]]
 
 # Lens:
-source:: [[../Lenses/Non-Concentrated Failures]]
+source:: [[../Lenses/AIF - Non-Concentrated Failures]]
 
 # Lens:
-source:: [[../Lenses/Preventing Collusion Between Monitors]]
+source:: [[../Lenses/AIF - Preventing Collusion Between Monitors]]
 
 # Lens:
-source:: [[../Lenses/Empirical Control Research]]
+source:: [[../Lenses/AIF - Empirical Control Research]]

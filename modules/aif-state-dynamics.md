@@ -7,10 +7,10 @@ title: "State Dynamics"
 %% AI Futurism course, Week 4: how powerful states interact with powerful AI (reading list's own grouping). %%
 
 # Lens:
-source:: [[../Lenses/Situational Awareness]]
+source:: [[../Lenses/AIF - Situational Awareness]]
 
 # Lens:
-source:: [[../Lenses/ASI Deterrence]]
+source:: [[../Lenses/AIF - ASI Deterrence]]
 
 # Lens:
-source:: [[../Lenses/Manhattan Project for AGI]]
+source:: [[../Lenses/AIF - Manhattan Project for AGI]]

@@ -7,10 +7,10 @@ title: "Lab Dynamics"
 %% AI Futurism course, Week 4: decision-making inside AI companies (reading list's own grouping). %%
 
 # Lens:
-source:: [[../Lenses/AI 2027 Endings]]
+source:: [[../Lenses/AIF - AI 2027 Endings]]
 
 # Lens:
-source:: [[../Lenses/CEO Takeover Scenario]]
+source:: [[../Lenses/AIF - CEO Takeover Scenario]]
 
 # Lens:
-source:: [[../Lenses/Ten People on the Inside]]
+source:: [[../Lenses/AIF - Ten People on the Inside]]

@@ -7,4 +7,4 @@ title: "Optional Readings"
 %% AI Futurism course, Week 3: optional readings collection. Imported as optional at the course level. %%
 
 # Lens:
-source:: [[../Lenses/Optional readings - Control]]
+source:: [[../Lenses/AIF - Optional readings - Control]]

@@ -18,22 +18,22 @@ A good place to start if you want direction: [Concrete projects to prepare for s
 Each lens below is one topic: a curated set of links with enough context to decide whether it's your rabbit hole. Pick by what gripped you most during the four weeks — each topic lens has a tutor chat if you want help choosing or discussing.
 
 # Lens:
-source:: [[../Lenses/Trading with AIs]]
+source:: [[../Lenses/AIF - Trading with AIs]]
 
 # Lens:
-source:: [[../Lenses/Power Concentration and Coups]]
+source:: [[../Lenses/AIF - Power Concentration and Coups]]
 
 # Lens:
-source:: [[../Lenses/Acausal Cooperation]]
+source:: [[../Lenses/AIF - Acausal Cooperation]]
 
 # Lens:
-source:: [[../Lenses/Moral Patienthood]]
+source:: [[../Lenses/AIF - Moral Patienthood]]
 
 # Lens:
-source:: [[../Lenses/AI Biorisk and Other X-Risk]]
+source:: [[../Lenses/AIF - AI Biorisk and Other X-Risk]]
 
 # Lens:
-source:: [[../Lenses/Model Specs and AI Character]]
+source:: [[../Lenses/AIF - Model Specs and AI Character]]
 
 # Lens:
 source:: [[../Lenses/Better Futures]]
