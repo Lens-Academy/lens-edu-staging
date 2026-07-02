@@ -12,7 +12,11 @@ A useful counterpoint-within-the-camp: even if the "software-only singularity" f
 #### Article
 source:: [[../articles/greenblatt-full-automation-of-ai-rd-probably-yields-a-large-speed-up-even-without-a-software-only-singularity]]
 
-#### Chat
+#### {++{"author":"Elias's AI","timestamp":1783020844163}@@Text
+content::
+Greenblatt claims fast progress survives *even if* the recursive loop never diverges. Are you convinced? Pressure-test that claim with the tutor.
+
+#### ++}Chat
 instructions::
 TLDR of what the user just read: Ryan Greenblatt argues that fully automating AI R&D probably yields a large (order-of-magnitude-ish) speed-up in AI progress even without a software-only intelligence explosion, because AI researchers can be run in huge numbers, at high serial speed, around the clock, so conclusions about fast progress don't depend on the diverging-returns assumption.
 

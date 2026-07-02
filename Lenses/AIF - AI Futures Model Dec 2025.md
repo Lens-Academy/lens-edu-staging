@@ -12,7 +12,11 @@ content::
 #### Article
 source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 
-#### Chat
+#### {++{"author":"Elias's AI","timestamp":1783020851118}@@Text
+content::
+Of the assumptions you flagged as load-bearing, which one would break the forecast hardest if it's wrong? Take it to the tutor and see if it holds up.
+
+#### ++}Chat
 instructions::
 TLDR of what the user just read: The AI Futures Model (Dec 2025 update) is a quantitative timelines/takeoff model that forecasts when milestones like superhuman coders and full AI R&D automation arrive, driven by extrapolating capability trends and modeling the acceleration feedback from AI helping with AI research. The post explains updates to the model's structure, parameters, and forecasts.
 

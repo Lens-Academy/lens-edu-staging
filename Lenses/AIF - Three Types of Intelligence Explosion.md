@@ -12,7 +12,11 @@ content::
 #### Article
 source:: [[../articles/forethought-three-types-of-intelligence-explosion]]
 
-#### Chat
+#### {++{"author":"Elias's AI","timestamp":1783020824236}@@Text
+content::
+Before you open the chat: which of the three feedback loops — software, AI-technology, or full-stack — do you think closes *first*? Commit to an answer, then defend it against the tutor.
+
+#### ++}Chat
 instructions::
 TLDR of what the user just read: Forethought's "Three Types of Intelligence Explosion" distinguishes three self-reinforcing feedback loops in AI development: a software intelligence explosion (AI automating algorithm/software R&D), an AI-technology intelligence explosion (AI also improving chip design and other AI technology), and a full-stack intelligence explosion (AI accelerating the whole industrial stack, including chip fabrication and energy). Each type has different bottlenecks (compute, fab construction, physical infrastructure) and different plausible speeds.
 

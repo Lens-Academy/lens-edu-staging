@@ -12,7 +12,11 @@ Core reading (~1.5 hr, audio option on the Forethought site). The most explosive
 #### Article
 source:: [[../articles/forethought-will-ai-rd-automation-cause-a-software-intelligence-explosion]]
 
-#### Chat
+#### {++{"author":"Elias's AI","timestamp":1783020837816}@@Text
+content::
+The whole argument rests on one number: *r*, the returns to software R&D. Do you buy that *r* > 1? Take a side and argue it with the tutor.
+
+#### ++}Chat
 instructions::
 TLDR of what the user just read: This Forethought report (Eth & Davidson) analyzes whether full automation of AI R&D would cause a software intelligence explosion, accelerating AI progress using only better software, on a fixed compute stock. The key parameter is r, the returns to software R&D: if each doubling of research effort yields more than a doubling of capability-relevant software progress, the loop accelerates. They review empirical estimates of r and conclude an explosive or at least dramatic speed-up is plausible, while flagging bottlenecks like compute for experiments.
 
