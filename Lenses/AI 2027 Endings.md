@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1782987482774}@@---
+---
 id: 6137da8b-0596-49be-a7df-668f0b1fffed
 title: "AI 2027 Endings"
 tldr: Return to AI 2027 for the two endings after the branching point — the race ending, where humanity is gradually destroyed, and the slowdown ending, where oversight prevails but power ends up alarmingly concentrated. Same world, one decision apart.
@@ -19,4 +19,3 @@ Discussion topics to explore:
 - Which ending does the learner find more predictively realistic, and why?
 
 Ask what real-world mechanisms could create the slowdown branch — boards, government oversight, whistleblowers, international agreements — and how likely each seems.
-++}

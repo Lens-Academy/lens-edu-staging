@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1782991170611}@@---
+---
 id: e0700622-8a2a-4262-8106-c02c35fe4424
 title: "Exercise - Estimate P(scheming)"
 tldr: Put a number on it. Twice — once tracking only Carlsmith's arguments, once all-things-considered. The gap between your two numbers is where the interesting conversation lives.
@@ -18,4 +18,3 @@ max-chars:: 1500
 #### Chat
 instructions::
 The user just gave two P(scheming) estimates (report-only and all-things-considered). Probe the reasoning behind their numbers: which of Carlsmith's requirements or arguments they weight most, what accounts for the gap between the two estimates, and what evidence from current models (alignment faking, eval-gaming) would move them.
-++}
