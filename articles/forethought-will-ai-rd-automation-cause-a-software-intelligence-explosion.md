@@ -3,7 +3,7 @@ title: "Will AI R&D Automation Cause a Software Intelligence Explosion?"
 author:
   - "Forethought"
 source_url: "https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion"
-published: 2026-07-02
+published: {--{"author":"Elias's AI","timestamp":1782997484678}@@2026-07-02--}{++{"author":"Elias's AI","timestamp":1782997484678}@@2025-03-26++}
 created: 2026-07-02
 accessed: 2026-07-02
 description: "AI companies are increasingly using AI systems to accelerate AI research and development. Today’s AI systems help researchers write code, analyze research papers, and generate training data. Future systems could be significantly more capable – potentially automating the entire AI development cycle from formulating research questions and designing experiments to implementing, testing, and refining new AI systems. We argue that such systems could trigger a runaway feedback loop in which they quickly develop more advanced AI, which itself speeds up the development of even more advanced AI, resulting in extremely fast AI progress, even without the need for additional computer chips. Empirical evidence on the rate at which AI research efforts improve AI algorithms suggests that this positive feedback loop could overcome diminishing returns to continued AI research efforts. We evaluate two additional bottlenecks to rapid progress: training AI systems from scratch takes months, and  improving AI algorithms often requires computationally expensive experiments. However, we find that there are possible workarounds that could enable a runaway feedback loop nonetheless."

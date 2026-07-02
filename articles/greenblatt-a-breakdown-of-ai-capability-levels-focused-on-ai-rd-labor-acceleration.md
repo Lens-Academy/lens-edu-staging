@@ -1,7 +1,7 @@
 ---
 title: "A breakdown of AI capability levels focused on AI R&D labor acceleration"
 author:
-  - "ryan greenblatt"
+  - {--{"author":"Elias's AI","timestamp":1782997423870}@@"ryan greenblatt"--}{++{"author":"Elias's AI","timestamp":1782997423870}@@"Ryan Greenblatt"++}
 source_url: "https://www.alignmentforum.org/posts/LjgcRbptarrRfJWtR/a-breakdown-of-ai-capability-levels-focused-on-ai-r-and-d"
 published: 2024-12-22
 created: 2026-07-02
