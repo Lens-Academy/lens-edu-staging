@@ -1,7 +1,8 @@
 ---
 id: e838cb7c-34a1-4249-8b57-d3698f80f1ad
 title: "Optional readings - Takeover threat modeling"
-tldr: The week's optional shelf — the key empirical papers (emergent misalignment, reward hacking, sleeper agents), conceptual frames for LLM psychology, the probability debates (P(misalignment), P(scheming), P(doom)), and the strongest skeptical takes worth steelmanning.
+tldr: The week's optional shelf — the key empirical papers (emergent misalignment, reward hacking, sleeper agents), conceptual frames for LLM psychology, the probability debates (P(misalignment), P(scheming), P(doom)), and the strongest skeptical takes worth steelmanning.{++{"author":"Elias's AI","timestamp":1782994473612}@@
+summary_for_tutor: "A curated link collection of the week's optional readings on takeover threat modeling, grouped into: key papers (emergent misalignment, weird generalization, reward hacking in production RL, OpenAI scheming paper, sleeper agents, alignment faking), deeper sections of the Carlsmith scheming report, basic frames for thinking about AIs (simulators, shard theory, three-layer LLM psychology), and the P(misalignment)/P(scheming)/P(doom) debate including skeptical takes (AI as Normal Technology). Help the user pick by interest; discuss any they've read."++}
 ---
 
 #### Text

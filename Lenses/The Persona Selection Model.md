@@ -1,7 +1,8 @@
 ---
 id: f1f8f509-b1dd-41d9-a589-b03f7e266d67
 title: "The Persona Selection Model"
-tldr: Anthropic's frame for where model behavior comes from — training doesn't install goals directly, it selects among personas the model can play. A different mechanistic story than scheming, with different predictions about how misalignment arises and what fixes it.
+tldr: Anthropic's frame for where model behavior comes from — training doesn't install goals directly, it selects among personas the model can play. A different mechanistic story than scheming, with different predictions about how misalignment arises and what fixes it.{++{"author":"Elias's AI","timestamp":1782994469413}@@
+summary_for_tutor: "Covers Anthropic's persona selection model: LLM behavior as training selecting and stabilizing personas (character-like behavioral patterns learned from pretraining data) rather than directly instilling goals. Misalignment can look like selecting or drifting into a bad persona; interventions target which persona gets reinforced. Connects to emergent misalignment findings and contrasts with goal-based scheming frames."++}
 ---
 
 #### Text

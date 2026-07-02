@@ -1,7 +1,8 @@
 ---
 id: 3ef6812c-9fc3-4cfb-a9f4-4c681a024010
 title: "The Case Against AI Control"
-tldr: Wentworth's counter — control research targets the wrong regime, because the AIs it can contain aren't the ones that kill you. Mostly it helps labs extract work while making it feel safe. Read right after the case for; the disagreement is unusually crisp.
+tldr: Wentworth's counter — control research targets the wrong regime, because the AIs it can contain aren't the ones that kill you. Mostly it helps labs extract work while making it feel safe. Read right after the case for; the disagreement is unusually crisp.{++{"author":"Elias's AI","timestamp":1782994533269}@@
+summary_for_tutor: "Covers Wentworth's case against AI control research: the median doom path runs through wildly superhuman AI (where control admittedly fails) or through slop/gradual failure, not through early transformative AI executing detectable takeover attempts. On his model, controlling early AIs mostly helps labs extract work while feeling safe, and 'use controlled AIs to solve alignment' fails because we can't verify alignment research done by untrusted AIs."++}
 ---
 
 #### Text
