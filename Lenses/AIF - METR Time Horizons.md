@@ -12,11 +12,11 @@ METR's "time horizon" (the length of task an AI can complete at 50% reliability)
 #### Article
 source:: [[../articles/metr-clarifying-limitations-of-time-horizon]]
 
-#### {++{"author":"Elias's AI","timestamp":1783020863837}@@Text
+#### Text
 content::
 Which limitation would most change how you read the famous doubling chart? Tell the tutor how you'd caveat the trend before you ever cite it.
 
-#### ++}Chat
+#### Chat
 instructions::
 TLDR of what the user just read: METR's note clarifies limitations of the time-horizon metric: it is defined on specific task distributions (mostly software tasks), 50% reliability is a low bar, results are sensitive to task suite composition and human baseline quality, and extrapolating the doubling trend outside the measured regime is risky.
 

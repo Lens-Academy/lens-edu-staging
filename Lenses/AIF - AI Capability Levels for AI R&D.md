@@ -14,11 +14,11 @@ A similar framing worth skimming afterwards: [Six milestones for AI automation](
 #### Article
 source:: [[../articles/greenblatt-a-breakdown-of-ai-capability-levels-focused-on-ai-rd-labor-acceleration]]
 
-#### {++{"author":"Elias's AI","timestamp":1783020830988}@@Text
+#### Text
 content::
 Where would you put today's frontier models on Greenblatt's ladder — and what single piece of evidence would move them up a rung? Bring your placement to the tutor.
 
-#### ++}Chat
+#### Chat
 instructions::
 TLDR of what the user just read: Ryan Greenblatt's breakdown defines AI capability milestones by the multiplier they put on AI R&D labor (e.g. AIs that make researchers a few times faster, AIs that can fully substitute for top researchers, and beyond). The point is to replace vague terms like "AGI" with milestones you can track and forecast, since AI R&D acceleration is what drives takeoff dynamics.
 

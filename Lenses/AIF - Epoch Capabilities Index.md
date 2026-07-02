@@ -12,11 +12,11 @@ How powerful are AIs *currently*? Benchmarks saturate and stop telling you anyth
 #### Article
 source:: [[../articles/ai-eci-documentation]]
 
-#### {++{"author":"Elias's AI","timestamp":1783020857520}@@Text
+#### Text
 content::
 One number for "how capable is AI today" — useful shorthand, or a dangerous oversimplification? Stake out a position with the tutor before you move on to METR.
 
-#### ++}Chat
+#### Chat
 instructions::
 TLDR of what the user just read: Epoch's ECI documentation describes a composite capability index that combines many benchmarks (using an item-response-theory-style approach) into a single scale, so capability progress can be tracked continuously even as individual benchmarks saturate.
 
