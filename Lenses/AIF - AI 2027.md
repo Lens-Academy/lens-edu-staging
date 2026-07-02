@@ -21,6 +21,6 @@ Discussion topics to explore:
 - What part of the scenario seemed most realistic? Least realistic?
 - The scenario's core mechanism: AI R&D acceleration compounding while oversight degrades — does the learner buy the speed?
 - In the AI Goals Forecast, which hypothesis about agent goals did they find most plausible?
-- How has the scenario's near-term predictions fared against reality so far? (Encourage checking specific claims against what actually happened through 2026.)
+- How {--{"author":"Elias's AI","timestamp":1782997545109}@@has--}{++{"author":"Elias's AI","timestamp":1782997545109}@@have++} the scenario's near-term predictions fared against reality so far? (Encourage checking specific claims against what actually happened through 2026.)
 
 Ask what motivations drove Agent-4 in the scenario and whether that matches the learner's own model of how misalignment arises.
