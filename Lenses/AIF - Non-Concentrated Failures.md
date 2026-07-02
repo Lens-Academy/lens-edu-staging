@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975243444}@@---
+---
 id: 4ea41768-7281-4163-95b4-ab5a96d60f1c
 title: "AIF - Non-Concentrated Failures"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - Which regime does the learner think real research sabotage would fall into?
 
 Check they can articulate the trade-off between using detections for training vs preserving them as incriminating evidence.
-++}

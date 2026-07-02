@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782974894064}@@---
+---
 id: 74250ae6-1de0-44c4-8602-5c3fe9127025
 title: "AIF - Ryan Greenblatt on Takeover"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - What security/control assumptions do these threat models expose as load-bearing?
 
 Check they can describe at least one concrete takeover pathway end-to-end in their own words.
-++}

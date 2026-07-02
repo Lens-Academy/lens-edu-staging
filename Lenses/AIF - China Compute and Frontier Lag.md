@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975446468}@@---
+---
 id: 528e3daa-5378-4282-9ceb-26822a74cd4e
 title: "AIF - China Compute and Frontier Lag"
 ---
@@ -23,4 +23,3 @@ Discussion topics to explore:
 - How does this evidence bear on racing arguments from Situational Awareness — does a durable lead argue for more or less caution?
 
 Check they can cite one concrete constraint on Chinese compute and explain the strategic significance of lag size relative to takeoff speed.
-++}

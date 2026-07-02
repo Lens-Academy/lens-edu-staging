@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975417124}@@---
+---
 id: 2405bd5a-3b09-4b44-9f08-f4a68fa5f890
 title: "AIF - US AI Policy Snapshot"
 ---
@@ -22,4 +22,3 @@ Discussion topics to explore:
 - How will frontier labs be affected by the outside world (this week's key question) — which government actions actually bind lab behavior today?
 
 Check they can name one concrete provision of RAISE/SB 53-style laws and one concrete federal AI action.
-++}

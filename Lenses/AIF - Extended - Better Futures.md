@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975602264}@@---
+---
 id: 228fd981-db45-4b2d-b352-ba6883e57c50
 title: "AIF - Extended - Better Futures"
 ---
@@ -16,4 +16,3 @@ Suppose we survive — then what? Post-AGI governance and the difference between
 #### Chat
 instructions::
 The user is exploring post-AGI governance / better futures readings. Key ideas: surviving vs flourishing as distinct problems; viatopia (preserve option value and good decision processes rather than lock in a vision); gradual disempowerment as a catastrophe with no discrete failure; grand bargains struck while humans still have leverage. Connect to Week 4: who decides these things, and does the CEO-takeover / power-concentration lens change what "good future" institutions should look like?
-++}

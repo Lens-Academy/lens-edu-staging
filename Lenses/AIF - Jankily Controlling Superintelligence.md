@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975210640}@@---
+---
 id: c12ef072-c8ae-449c-bcf1-d3a144dff5d8
 title: "AIF - Jankily Controlling Superintelligence"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - What would the learner want labs to commit to NOW about this regime?
 
 Ask where the learner would draw the "control is no longer load-bearing, stop deploying" line.
-++}

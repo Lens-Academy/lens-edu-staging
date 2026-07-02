@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975260052}@@---
+---
 id: 977a0418-d91f-457d-87dd-65865e91e3b6
 title: "AIF - Preventing Collusion Between Monitors"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - How would AIs even coordinate collusion without communicating (shared Schelling points from shared weights)?
 
 Check they can explain the honeypot test: if the monitor fails to flag a planted attack, you've incriminated the monitor.
-++}

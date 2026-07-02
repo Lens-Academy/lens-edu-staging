@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975478441}@@---
+---
 id: a465bbde-fa87-4632-a13d-d6163fbdb40d
 title: "AIF - W4 Optional Readings"
 ---
@@ -36,4 +36,3 @@ Optional extras for governance/strategy week.
 #### Chat
 instructions::
 The user is browsing optional governance readings. Help them pick: interested in state competition → MAIM, RAND, deterrence pieces; want primary sources → lab safety frameworks (suggest comparing Anthropic's RSP with OpenAI's Preparedness Framework); skeptical of lab self-governance → the scrutiny group; policy-minded → US/China regulation groups. Discuss content if they've read any.
-++}

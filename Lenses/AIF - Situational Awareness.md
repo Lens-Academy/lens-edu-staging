@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975374175}@@---
+---
 id: 2d71635b-572e-49d5-8f72-336c0ea663ee
 title: "AIF - Situational Awareness"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - Who is the "we" in "we must prevail," and what does winning actually secure?
 
 Push the learner to identify one claim they think is importantly wrong and defend that.
-++}

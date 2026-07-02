@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975019634}@@---
+---
 id: 3ef6812c-9fc3-4cfb-a9f4-4c681a024010
 title: "AIF - The Case Against AI Control"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - After reading both cases, where does the learner land, and what evidence would move them?
 
 Push the learner to articulate the strongest version of BOTH positions before giving their own view.
-++}

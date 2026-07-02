@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975237862}@@---
+---
 id: b5a9848d-a1be-4396-91ad-c74701b31ff9
 title: "AIF - Diffuse Threats and Research Sabotage"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - Research sabotage specifically targets safety work done by AIs — how does this interact with plans that depend on AI-automated alignment research?
 
 Check they can explain why "no single action is catastrophic" makes both detection and response fundamentally harder.
-++}

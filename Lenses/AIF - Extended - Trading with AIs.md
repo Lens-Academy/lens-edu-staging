@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975502350}@@---
+---
 id: cd64d5a0-c505-418c-a485-d8d7f0265544
 title: "AIF - Extended - Trading with AIs"
 ---
@@ -18,4 +18,3 @@ If some future AIs are misaligned, one response is bargaining: pay them to behav
 #### Chat
 instructions::
 The user is exploring readings on making deals with misaligned AIs. Core ideas to discuss: why paying schemers to reveal themselves/cooperate could be positive-sum; the credibility problem (how does an AI verify humanity will pay?); honesty as infrastructure for AI-human dealmaking; Schelling's bargaining theory as the foundation. Help them pick readings or discuss ones they've read.
-++}

@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975163640}@@---
+---
 id: 9084ba8c-a149-42f1-940c-b32463731f32
 title: "AIF - Sandbagging and Exploration Hacking"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - What makes exploration hacking hard to detect even in principle?
 
 Check they can explain the difference between sandbagging and exploration hacking and give a countermeasure for each.
-++}

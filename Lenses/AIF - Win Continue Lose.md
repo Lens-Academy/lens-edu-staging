@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975138100}@@---
+---
 id: 7693c3f6-fa9c-45a8-85d1-668f5aeae968
 title: "AIF - Win Continue Lose"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - How do execute/replace/audit trade off usefulness against safety?
 
 Check they can walk through one round of the game: AI submits an action, monitor scores it, protocol picks execute/replace/audit, and the state becomes win/continue/lose.
-++}

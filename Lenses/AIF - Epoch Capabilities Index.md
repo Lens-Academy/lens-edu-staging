@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782974791721}@@---
+---
 id: f2348170-927c-49a9-a72a-7086ab2c6459
 title: "AIF - Epoch Capabilities Index"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - Hold this in mind for the next reading: METR's time horizon metric takes a very different approach — what trade-offs do you already anticipate?
 
 Check they can explain the basic idea of combining benchmarks into a latent capability scale in their own words.
-++}

@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975052327}@@---
+---
 id: 935ed298-b077-43c8-8f2d-5b7bbca288f1
 title: "AIF - Areas of Control Work"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - If the learner had to pick one area to work in, which one and why — what skills does each area need?
 
 Check they can name 3+ areas of control work and one open problem in each.
-++}

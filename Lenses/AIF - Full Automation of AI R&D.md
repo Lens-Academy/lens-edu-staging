@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782974760240}@@---
+---
 id: 9f73d64c-3d19-4f13-8570-cb8ba1106d68
 title: "AIF - Full Automation of AI R&D"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - What would a world with "merely" 10x faster AI progress look like from the outside, and how much reaction time would society have?
 
 Check they can articulate the difference between "software intelligence explosion" and "large speed-up from full automation" in their own words.
-++}

@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975129533}@@---
+---
 id: a77cbcac-1b1c-4183-86aa-675fc443ce8a
 title: "AIF - Prioritizing Threats for AI Control"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - Which threats does the learner think are underweighted in this prioritization?
 
 Check they can explain why "high-stakes control" and "diffuse control" are different problems.
-++}

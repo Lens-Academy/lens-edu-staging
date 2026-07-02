@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975158164}@@---
+---
 id: 55ed8f7d-044d-41d1-8c31-a8e5818a33c2
 title: "AIF - Conservative Assumptions in AI Control"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - How would the learner design an evaluation that relaxes one assumption without losing rigor?
 
 Check they understand the difference between "the AI could in principle do X" and "a realistic schemer reliably does X."
-++}

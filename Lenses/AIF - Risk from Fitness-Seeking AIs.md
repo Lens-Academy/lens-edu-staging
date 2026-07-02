@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782974853204}@@---
+---
 id: 7db38d5a-7056-4440-b6af-e9ee2e640c06
 title: "AIF - Risk from Fitness-Seeking AIs"
 ---
@@ -21,4 +21,3 @@ Discussion topics to explore:
 - Connect to the behavioral selection model: what behaviors does *current* training actually select for?
 
 Check they can explain one concrete mechanism → mitigation pair in their own words.
-++}

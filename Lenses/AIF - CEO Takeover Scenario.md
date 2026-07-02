@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782975347731}@@---
+---
 id: 3dd8e556-708e-4d51-92c4-3f4e85d64413
 title: "AIF - CEO Takeover Scenario"
 ---
@@ -20,4 +20,3 @@ Discussion topics to explore:
 - What governance mechanisms (model spec transparency, multi-party control of training, audits) would break this scenario?
 
 Ask the learner: if AIs are aligned to their developers, who checks the developers? Connect to "Ten people on the inside" (next reading).
-++}

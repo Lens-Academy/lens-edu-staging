@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1782974982493}@@---
+---
 id: e838cb7c-34a1-4249-8b57-d3698f80f1ad
 title: "AIF - W2 Optional Readings"
 ---
@@ -54,4 +54,3 @@ Optional extras for this week, grouped by what you want to go deeper on.
 #### Chat
 instructions::
 The user is browsing optional readings on misaligned AI takeover threat modeling. Help them choose: want empirical evidence → the papers group; want conceptual frames → basic frames group; want probability arguments → the P(misalignment)/P(scheming)/P(doom) groups; want skeptical takes → AI as Normal Technology, Why I'm not afraid. Discuss content with them if they've read any.
-++}
