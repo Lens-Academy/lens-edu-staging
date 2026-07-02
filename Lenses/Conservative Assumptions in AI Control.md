@@ -1,7 +1,7 @@
 ---
 id: 55ed8f7d-044d-41d1-8c31-a8e5818a33c2
-title: {--{"author":"Elias's AI","timestamp":1782987356904}@@"AIF - Conservative--}{++{"author":"Elias's AI","timestamp":1782987356904}@@"Conservative++} Assumptions in AI Control"{++{"author":"Elias's AI","timestamp":1782987356904}@@
-tldr: Control evaluations assume the AI is a perfectly coordinated adversary that knows your whole protocol. Obviously too pessimistic — so why do it, what does the conservatism buy, and when should the assumptions be relaxed to unlock cheaper safety measures?++}
+title: "Conservative Assumptions in AI Control"
+tldr: Control evaluations assume the AI is a perfectly coordinated adversary that knows your whole protocol. Obviously too pessimistic — so why do it, what does the conservatism buy, and when should the assumptions be relaxed to unlock cheaper safety measures?
 ---
 
 #### Text

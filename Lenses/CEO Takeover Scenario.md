@@ -1,7 +1,7 @@
 ---
 id: 3dd8e556-708e-4d51-92c4-3f4e85d64413
-title: {--{"author":"Elias's AI","timestamp":1782987486709}@@"AIF ---}{++{"author":"Elias's AI","timestamp":1782987486709}@@"CEO Takeover Scenario"
-tldr: The threat isn't only misaligned AIs — it's what aligned-to-someone AIs enable. A concrete scenario in which an AI company++} CEO {--{"author":"Elias's AI","timestamp":1782987486709}@@Takeover Scenario"--}{++{"author":"Elias's AI","timestamp":1782987486709}@@quietly converts model loyalty into personal control of the world, with no dramatic coup moment required.++}
+title: "CEO Takeover Scenario"
+tldr: The threat isn't only misaligned AIs — it's what aligned-to-someone AIs enable. A concrete scenario in which an AI company CEO quietly converts model loyalty into personal control of the world, with no dramatic coup moment required.
 ---
 
 #### Text
