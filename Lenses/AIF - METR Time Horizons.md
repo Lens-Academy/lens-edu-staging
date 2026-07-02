@@ -1,13 +1,13 @@
 ---
 id: 56999985-81dc-48fd-bea5-4489c3887cb2
 title: "METR Time Horizons"
-tldr: The "AI task length doubles every few months" chart became the field's most-quoted trend line. Here METR themselves explain what the metric does not {--{"author":"Elias's AI","timestamp":1783002510319}@@show — error bars spanning factors of two, order-of-magnitude domain differences, and the risks of extrapolation. --}{++{"author":"Elias's AI","timestamp":1783002510319}@@show. ++}Read before you cite{--{"author":"Elias's AI","timestamp":1783002510319}@@ the doubling trend.--}{++{"author":"Elias's AI","timestamp":1783002510319}@@ it.++}
+tldr: The "AI task length doubles every few months" chart became the field's most-quoted trend line. Here METR themselves explain what the metric does not show. Read before you cite it.
 summary_for_tutor: "Covers METR's own clarification of the time-horizon metric's limitations: time horizon is the amount of serial human labor an AI replaces at 50% success (not how long AIs work independently); error bars span roughly a factor of two in each direction; horizons differ by orders of magnitude across domains (40-100x lower for visual computer use than software); and extrapolating the doubling trend outside the measured regime is risky. Written by Thomas Kwa, one of the paper's main authors."
 ---
 
 #### Text
 content::
-METR's "time horizon" {--{"author":"Elias's AI","timestamp":1783002518907}@@— the--}{++{"author":"Elias's AI","timestamp":1783002518907}@@(the++} length of task an AI can complete at 50% {--{"author":"Elias's AI","timestamp":1783002518907}@@reliability —--}{++{"author":"Elias's AI","timestamp":1783002518907}@@reliability)++} became the most-quoted capabilities trend line in the field. Here METR themselves explain what the metric does *not* show. Read it before you ever cite the doubling trend.
+METR's "time horizon" (the length of task an AI can complete at 50% reliability) became the most-quoted capabilities trend line in the field. Here METR themselves explain what the metric does *not* show. Read it before you ever cite the doubling trend.
 
 #### Article
 source:: [[../articles/metr-clarifying-limitations-of-time-horizon]]

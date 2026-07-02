@@ -1,7 +1,7 @@
 ---
 id: c89c7b3f-ac61-4d6f-bd3a-9f1d1fcfdd3f
 title: "AI Biorisk and Other X-Risk"
-tldr: Misaligned takeover isn't the only catastrophe channel. {--{"author":"Elias's AI","timestamp":1783002216838}@@The biorisk taxonomy (LLM uplift vs biological design tools),--}{++{"author":"Elias's AI","timestamp":1783002216838}@@Biorisk taxonomy,++} a skeptical audit of {--{"author":"Elias's AI","timestamp":1783002216838}@@the evals labs point to,--}{++{"author":"Elias's AI","timestamp":1783002216838}@@lab evals,++} superforecaster estimates, and{--{"author":"Elias's AI","timestamp":1783002216838}@@ the--} other misuse routes {--{"author":"Elias's AI","timestamp":1783002216838}@@—--}{++{"author":"Elias's AI","timestamp":1783002216838}@@including++} totalitarianism and nuclear {--{"author":"Elias's AI","timestamp":1783002216838}@@war included.--}{++{"author":"Elias's AI","timestamp":1783002216838}@@war.++}
+tldr: Misaligned takeover isn't the only catastrophe channel. Biorisk taxonomy, a skeptical audit of lab evals, superforecaster estimates, and other misuse routes including totalitarianism and nuclear war.
 summary_for_tutor: "A curated link collection on AI biorisk and adjacent x-risks: the LLM-vs-biological-design-tools taxonomy, Epoch's skeptical audit of lab biorisk evals, RAND's biological knowledge benchmarking, superforecaster biorisk estimates, GovAI on dual-use capabilities, plus 80,000 Hours topic archives on engineered pandemics, catastrophic misuse, totalitarianism, and nuclear war. Keep discussion at the level of risk assessment and governance, not operational details of misuse."
 ---
 
@@ -10,12 +10,12 @@ content::
 Misaligned takeover isn't the only catastrophe channel. The misuse routes, starting with biology:
 
 **AI biorisk**
-- [AI and biological misuse: Differentiating risks of language models and biological design {--{"author":"Elias's AI","timestamp":1783002218781}@@tools](https://arxiv.org/abs/2306.13952) —--}{++{"author":"Elias's AI","timestamp":1783002218781}@@tools](https://arxiv.org/abs/2306.13952):++} the field's basic {--{"author":"Elias's AI","timestamp":1783002877050}@@taxonomy:--}{++{"author":"Elias's AI","timestamp":1783002877050}@@taxonomy of++} LLM uplift vs specialized design tools.
-- [Do the biorisk evaluations of AI labs actually measure the risk of developing bioweapons?]{--{"author":"Elias's AI","timestamp":1783002220639}@@(https://epochai.substack.com/p/do-the-biorisk-evaluations-of-ai) —--}{++{"author":"Elias's AI","timestamp":1783002220639}@@(https://epochai.substack.com/p/do-the-biorisk-evaluations-of-ai):++} a skeptical audit of the evals labs point to.
-- [Toward Comprehensive Benchmarking of the Biological Knowledge of Frontier LLMs](https://www.rand.org/content/dam/rand/pubs/research_reports/RRA3700/RRA3797-1/{--{"author":"Elias's AI","timestamp":1783002223077}@@RAND_RRA3797-1.pdf) —--}{++{"author":"Elias's AI","timestamp":1783002223077}@@RAND_RRA3797-1.pdf):++} RAND's attempt to measure it properly.
-- [Forecasting Biosecurity Risks from LLMs]{--{"author":"Elias's AI","timestamp":1783002224973}@@(https://forecastingresearch.org/ai-enabled-biorisk) —--}{++{"author":"Elias's AI","timestamp":1783002224973}@@(https://forecastingresearch.org/ai-enabled-biorisk):++} what superforecasters expect.
-- [Dual-Use AI Capabilities and the Risk of Bioterrorism](https://cdn.governance.ai/Dual-Use_AI_Capabilities_and_the_{--{"author":"Elias's AI","timestamp":1783002226557}@@Risk_of_Bioterrorism.pdf) —--}{++{"author":"Elias's AI","timestamp":1783002226557}@@Risk_of_Bioterrorism.pdf):++} GovAI's governance take.
-- [Engineered pandemics (80,000 Hours topic archive)](https://80000hours.org/topic/world-problems/{--{"author":"Elias's AI","timestamp":1783002229348}@@engineered-pandemics/) —--}{++{"author":"Elias's AI","timestamp":1783002229348}@@engineered-pandemics/):++} the broader problem area.
+- [AI and biological misuse: Differentiating risks of language models and biological design tools](https://arxiv.org/abs/2306.13952): the field's basic taxonomy of LLM uplift vs specialized design tools.
+- [Do the biorisk evaluations of AI labs actually measure the risk of developing bioweapons?](https://epochai.substack.com/p/do-the-biorisk-evaluations-of-ai): a skeptical audit of the evals labs point to.
+- [Toward Comprehensive Benchmarking of the Biological Knowledge of Frontier LLMs](https://www.rand.org/content/dam/rand/pubs/research_reports/RRA3700/RRA3797-1/RAND_RRA3797-1.pdf): RAND's attempt to measure it properly.
+- [Forecasting Biosecurity Risks from LLMs](https://forecastingresearch.org/ai-enabled-biorisk): what superforecasters expect.
+- [Dual-Use AI Capabilities and the Risk of Bioterrorism](https://cdn.governance.ai/Dual-Use_AI_Capabilities_and_the_Risk_of_Bioterrorism.pdf): GovAI's governance take.
+- [Engineered pandemics (80,000 Hours topic archive)](https://80000hours.org/topic/world-problems/engineered-pandemics/): the broader problem area.
 
 **Other AI-adjacent x-risk**
 - [Catastrophic AI misuse](https://80000hours.org/topic/world-problems/catastrophic-ai-misuse/) (80k topic archive)
