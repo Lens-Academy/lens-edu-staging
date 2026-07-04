@@ -8,15 +8,17 @@ title: Interaction requirements demo
 
 The defaults:
 - A `#### Chat` never blocks completion. Learners can read the page and move on without sending anything.
-- A `#### Question` must be answered once before the page can be completed.
+- A `#### Question` must be answered once before the page can be {--{"author":"Elias's AI","timestamp":1783153215129}@@completed.
 
-Add `min-messages::` to a segment to change that:
-- On a `#### Chat`, `min-messages:: 2` means the learner must send at least 2 messages in this page's tutor chat before "Mark section complete" works. All messages on the page count, wherever they were sent.
-- On a `#### Question`, `min-messages:: 3` means one completed answer plus 2 follow-up replies in the question's feedback conversation. This only makes sense together with `feedback:: true` (the validator warns you otherwise).
-- `min-messages:: 0` on a question makes it skippable.
-- Whole lenses marked `optional:: true` never block completion. (`optional` is a lens-level field; on chat and question segments use `min-messages` instead.)
+Add `min-messages::` --}{++{"author":"Elias's AI","timestamp":1783153215129}@@completed, and gets a feedback conversation on the answer (`feedback::` defaults ++}to {--{"author":"Elias's AI","timestamp":1783153215129}@@a segment--}{++{"author":"Elias's AI","timestamp":1783153215129}@@true; set `feedback:: false`++} to {--{"author":"Elias's AI","timestamp":1783153215129}@@change that:--}{++{"author":"Elias's AI","timestamp":1783153215129}@@turn that off).
 
-What learners see: clicking "Mark section complete" too early rejects the click, scrolls to the first missing interaction, and shows a small pill explaining what is needed. The pill disappears as soon as they make progress and only comes back if they try to complete again too early.
+The fields:++}
+- On a `#### Chat`, {--{"author":"Elias's AI","timestamp":1783153215129}@@`min-messages::--}{++{"author":"Elias's AI","timestamp":1783153215129}@@`min-chat-messages::++} 2` means the learner must send at least 2 messages in {--{"author":"Elias's AI","timestamp":1783153215129}@@this page's tutor--}{++{"author":"Elias's AI","timestamp":1783153215129}@@that++} chat before "Mark section complete" works. {--{"author":"Elias's AI","timestamp":1783153215129}@@All--}{++{"author":"Elias's AI","timestamp":1783153215129}@@Each chat counts its own++} messages {++{"author":"Elias's AI","timestamp":1783153215129}@@— two chats ++}on {--{"author":"Elias's AI","timestamp":1783153215129}@@the--}{++{"author":"Elias's AI","timestamp":1783153215129}@@one++} page{--{"author":"Elias's AI","timestamp":1783153215129}@@ count, wherever they were sent.--}{++{"author":"Elias's AI","timestamp":1783153215129}@@ can have separate requirements.++}
+- On a `#### Question`, {--{"author":"Elias's AI","timestamp":1783153215129}@@`min-messages:: 3`--}{++{"author":"Elias's AI","timestamp":1783153215129}@@`min-chat-messages:: 2`++} means one completed answer plus 2 follow-up replies in the question's feedback conversation. {--{"author":"Elias's AI","timestamp":1783153215129}@@This only makes sense together--}{++{"author":"Elias's AI","timestamp":1783153215129}@@Needs feedback enabled — combining it++} with `feedback:: {--{"author":"Elias's AI","timestamp":1783153215129}@@true` (the validator warns you otherwise).--}{++{"author":"Elias's AI","timestamp":1783153215129}@@false` is a validator error.++}
+- {--{"author":"Elias's AI","timestamp":1783153215129}@@`min-messages:: 0`--}{++{"author":"Elias's AI","timestamp":1783153215129}@@`optional:: true`++} on a question makes {++{"author":"Elias's AI","timestamp":1783153215129}@@answering ++}it {--{"author":"Elias's AI","timestamp":1783153215129}@@skippable.--}{++{"author":"Elias's AI","timestamp":1783153215129}@@optional.++}
+- Whole lenses marked `optional:: true` never block completion.{--{"author":"Elias's AI","timestamp":1783153215129}@@ (`optional` is a lens-level field; on chat and question segments use `min-messages` instead.)--}
+
+What learners see: {--{"author":"Elias's AI","timestamp":1783153215129}@@clicking--}{++{"author":"Elias's AI","timestamp":1783153215129}@@while something is missing,++} "Mark section complete" {--{"author":"Elias's AI","timestamp":1783153215129}@@too early rejects the click, scrolls to the first missing interaction, and shows a small pill explaining what is needed. The pill disappears as soon as they make progress and only comes back if they try to complete again too early.--}{++{"author":"Elias's AI","timestamp":1783153215129}@@is grayed out and concrete instructions are listed under it ("Send 2 messages in the chat", "Answer question 2"). Each line is a link that scrolls to the chat or question it names, and the list updates live as they make progress.++}
 
 The five lenses below demonstrate each case. Preview the module and try them. %%
 
