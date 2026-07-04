@@ -13,7 +13,7 @@ tags:
 content:: Before reading Chapter 4: If you trained an AI by rewarding it every time it produced a helpful response, how confident are you that the AI would end up genuinely wanting to be helpful? Could an AI learn to produce helpful-looking outputs without actually wanting to {--{"author":"Elias's AI","timestamp":1783025806127}@@help —--}{++{"author":"Elias's AI","timestamp":1783025806127}@@help,++} and if so, would that matter? Write down your intuition before reading.
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783155986004}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155986004}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions::
 The student is about to read Chapter 4 ("You Don't Get What You Train For") of "If Anyone Builds It, Everyone Dies."
 

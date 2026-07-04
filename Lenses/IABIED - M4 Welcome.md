@@ -31,7 +31,7 @@ When you're ready, we'll prep you before jumping into the story. It's a quite a 
 %%**This week's reading:** Chapter 7 ("Realization") + Chapter 8 ("Expansion") + Chapter 9 ("Ascension") + Coda. After reading, come back here to discuss with the tutor.
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783156045475}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783156045475}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions::
 The student has just read Chapters 7-9 and the Coda of "If Anyone Builds It, Everyone Dies": the fictional Sable extinction scenario.
 

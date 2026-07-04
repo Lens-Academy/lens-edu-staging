@@ -20,7 +20,7 @@ These sound similar but they imply opposite responses. **Before you read the res
 What was the difference between *that* call and despair? What did the right call point toward instead?
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783155956542}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155956542}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions::
 The student is about to read the second half of Chapter 10 of "If Anyone Builds It, Everyone Dies" — the synthesis section that maps the case studies onto ASI alignment and closes with the line "NOBODY SHOULD BE ALLOWED TO TRY."
 

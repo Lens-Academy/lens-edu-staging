@@ -25,7 +25,7 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the {--{"author":"Elias's AI","timestamp":1783025107605}@@reading — without looking--}{++{"author":"Elias's AI","timestamp":1783025107605}@@reading. Don't look++} back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783155906219}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155906219}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions:: The student has just finished reading the second half of Chapter 2 ("Grown, Not Crafted") of "If Anyone Builds It, Everyone Dies" and has written a free {--{"author":"Elias's AI","timestamp":1783025109518}@@recall —--}{++{"author":"Elias's AI","timestamp":1783025109518}@@recall:++} everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
@@ -65,7 +65,7 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to {--{"author":"Elias's AI","timestamp":1783025128570}@@organize — just--}{++{"author":"Elias's AI","timestamp":1783025128570}@@organize. Just++} capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783155928316}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155928316}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions:: The student has just completed a free recall of the second half of Chapter 2 of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading {--{"author":"Elias's AI","timestamp":1783025130368}@@landed —--}{++{"author":"Elias's AI","timestamp":1783025130368}@@landed:++} what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the {--{"author":"Elias's AI","timestamp":1783025132273}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025132273}@@reading,++} not to explain the content to them.
@@ -103,7 +103,7 @@ content::
 An AI refuses to help a user build a weapon. A developer points to this and says, "See? It's aligned." What has the developer actually {--{"author":"Elias's AI","timestamp":1783025151888}@@observed —--}{++{"author":"Elias's AI","timestamp":1783025151888}@@observed,++} and what would you need to know to tell whether the refusal came from the AI's values or just from its training? Is there any test that could settle it?
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783155954870}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155954870}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions:: The student has completed a reading, a free recall, and a reflection phase on the second half of Chapter 2 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase. This Lens is the M1 capstone — the safety concern is now fully framed.
 
 The question they were asked is a deliberate {--{"author":"Elias's AI","timestamp":1783025154136}@@wedge — it is--}{++{"author":"Elias's AI","timestamp":1783025154136}@@wedge,++} not the test question. It hands the student a concrete aligned-seeming behavior and a confident conclusion, and asks them to say what was actually observed and what evidence genuine alignment would require. Use it to draw out the learning outcome from the evidence side rather than asking them to recite the behavior/values definition or the actor analogy.

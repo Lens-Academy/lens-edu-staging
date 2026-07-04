@@ -25,7 +25,7 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the reading without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783156048306}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783156048306}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions:: The student has just finished reading the second half of Chapter 8 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: State the principle that a capable AI system optimizing for long-term goals treats human welfare as a resource variable (preserved while humans remain instrumentally necessary, eliminated when they do not) and explain what this implies about whether humans are "safe" as long as they remain useful.
@@ -70,7 +70,7 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to {--{"author":"Elias's AI","timestamp":1783025698981}@@organize —--}{++{"author":"Elias's AI","timestamp":1783025698981}@@organize;++} just capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783156057633}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783156057633}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, rather than explain the content to them.
@@ -106,7 +106,7 @@ content::
 A friend reads the same chapter and comes away reassured. "Sable keeps humanity alive because it needs {--{"author":"Elias's AI","timestamp":1783025701770}@@us —--}{++{"author":"Elias's AI","timestamp":1783025701770}@@us:++} to mine the metals, run the factories, keep the supply chain going. So as long as the machines can't run themselves, we're safe. Our usefulness is our leverage." They are treating usefulness as a stable guarantee of safety. Using the chapter's own logic, is their reasoning sound? And what in this section tells you whether that leverage holds?
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783156071216}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783156071216}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions:: The student has completed a reading, a free recall, and a reflection phase on the second half of Chapter 8 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge, not the test question. It hands the student a plausible-sounding reassurance (usefulness equals safety) and asks them to debug it using the chapter's own logic, rather than reciting the "deferred, not ruled out" principle. Use it to draw out the instrumental calculation and especially its self-undermining structure from concrete detail in the section.

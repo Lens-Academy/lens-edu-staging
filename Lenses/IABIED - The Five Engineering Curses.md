@@ -24,7 +24,7 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the {--{"author":"Elias's AI","timestamp":1783025901542}@@reading — without looking--}{++{"author":"Elias's AI","timestamp":1783025901542}@@reading. Don't look++} back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783155942550}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155942550}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions:: The student has just read the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Enumerate the five engineering curses Chapter 10 names {--{"author":"Elias's AI","timestamp":1783025908013}@@— speed,--}{++{"author":"Elias's AI","timestamp":1783025908013}@@(speed,++} narrow margins, self-amplification, complications, and edge {--{"author":"Elias's AI","timestamp":1783025908013}@@cases —--}{++{"author":"Elias's AI","timestamp":1783025908013}@@cases)++} and identify which case study (space probes, Chernobyl, computer security) illustrates each.
@@ -68,7 +68,7 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to {--{"author":"Elias's AI","timestamp":1783025927432}@@organize — just--}{++{"author":"Elias's AI","timestamp":1783025927432}@@organize. Just++} capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783155946811}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155946811}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the {--{"author":"Elias's AI","timestamp":1783025928968}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025928968}@@reading. It is++} not to explain the content to them.
@@ -104,7 +104,7 @@ content::
 A friend reads the same chapter and shrugs: "Every one of these curses has already been beaten. We've flown space probes that reached Mars, we run reactors that don't explode, and we ship software that mostly holds up. Engineering is just grinding failure modes down one at a {--{"author":"Elias's AI","timestamp":1783025935750}@@time — give--}{++{"author":"Elias's AI","timestamp":1783025935750}@@time. Give++} the AI people enough iterations and they'll grind these down too." Using the chapter's own distinctions, where exactly does that argument break?
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783155955579}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155955579}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate {--{"author":"Elias's AI","timestamp":1783025942018}@@wedge — it--}{++{"author":"Elias's AI","timestamp":1783025942018}@@wedge. It++} is not the test question. The test asks them to enumerate the five curses and map each to its case study; the wedge instead hands them a plausible-sounding dismissal and asks them to apply the chapter's distinctions rather than recite the list. The friend's claim is exactly the move the chapter pre-empts: it treats all five curses as equally beatable. Use it to draw out (a) the before/after {--{"author":"Elias's AI","timestamp":1783025944497}@@gap —--}{++{"author":"Elias's AI","timestamp":1783025944497}@@gap:++} ASI alignment gets no iterations, unlike probes and reactors; (b) why edge cases is a different category from the other {--{"author":"Elias's AI","timestamp":1783025946432}@@four —--}{++{"author":"Elias's AI","timestamp":1783025946432}@@four:++} it intensifies with the adversary's intelligence, while speed, narrow margins, self-amplification, and complications are fixed physical constraints that ingenuity can best; and (c) "grown, not crafted" — computer security is losing even when engineers can read their own code, and AI's engineers cannot read theirs.

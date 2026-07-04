@@ -13,7 +13,7 @@ tags:
 content:: Before reading Chapter 13, section 1: Think of a time in history when countries did something extremely costly and difficult {--{"author":"Elias's AI","timestamp":1783025763272}@@— requiring--}{++{"author":"Elias's AI","timestamp":1783025763272}@@that demanded++} massive {--{"author":"Elias's AI","timestamp":1783025763272}@@sacrifice —--}{++{"author":"Elias's AI","timestamp":1783025763272}@@sacrifice,++} because they believed their survival or way of life was at stake. Did you find it surprising that coordination happened at all? Now: do you think major world powers could coordinate to restrict AI development if they genuinely believed it was an existential threat? Write down your thinking before you read.
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783155975893}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155975893}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions::
 The student is about to read Chapter 13, section 1 of "If Anyone Builds It, Everyone Dies," stopping at "But we don't know how else humanity could survive."
 

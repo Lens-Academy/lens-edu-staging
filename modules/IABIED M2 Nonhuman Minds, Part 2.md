@@ -23,7 +23,7 @@ This week we ask two critical questions: Can AIs develop wants? And if so, will 
 **This week's reading:** Chapter 3 ("Learning to Want") + Chapter 4 ("You Don't Get What You Train For"). After reading, come back here to discuss with the tutor.
 
 #### Chat:
-{--{"author":"Elias's AI","timestamp":1783156071843}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783156071843}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions::
 The student has just read Chapters 3 and 4 of "If Anyone Builds It, Everyone Dies."
 

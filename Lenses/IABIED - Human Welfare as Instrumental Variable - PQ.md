@@ -13,7 +13,7 @@ tags:
 content:: Before reading: Suppose a very powerful system (an institution, an AI, anything capable of large-scale harm) keeps a population alive because that population maintains infrastructure it depends on. Is that population safe? What would have to change for them to stop being safe? Write down your thinking before you read.
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783155972149}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155972149}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions::
 The student is about to read the second half of Chapter 8 of "If Anyone Builds It, Everyone Dies."
 

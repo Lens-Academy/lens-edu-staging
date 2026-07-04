@@ -22,7 +22,7 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783156001954}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783156001954}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions:: The student has just finished reading the Closing Words of "If Anyone Builds It, Everyone Dies" and has written a free recall — everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
@@ -63,7 +63,7 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to {--{"author":"Elias's AI","timestamp":1783026062134}@@organize — just--}{++{"author":"Elias's AI","timestamp":1783026062134}@@organize. Just++} capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783156004075}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783156004075}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions:: The student has just completed a free recall of the Closing Words of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the {--{"author":"Elias's AI","timestamp":1783026065680}@@reading —--}{++{"author":"Elias's AI","timestamp":1783026065680}@@reading. It is++} not to explain the content to them.
@@ -101,7 +101,7 @@ content::
 The Closing Words offer two prayers. The authors call the second their "true last prayer." What does each prayer ask for? And what would need to happen — in the real world — for the first prayer to be answered? For the second?
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783156007459}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783156007459}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions:: The student has completed a reading, a free recall, and a reflection phase on the Closing Words of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 Learning outcome for this Lens: Distinguish what each prayer asks of humanity: what would need to happen in the real world for the first prayer to be answered, and for the second?

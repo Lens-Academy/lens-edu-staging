@@ -13,7 +13,7 @@ tags:
 content:: Before reading: Imagine you learned that an institution {--{"author":"Elias's AI","timestamp":1783025233488}@@— a--}{++{"author":"Elias's AI","timestamp":1783025233488}@@(a++} company, a government, an {--{"author":"Elias's AI","timestamp":1783025233488}@@AI —--}{++{"author":"Elias's AI","timestamp":1783025233488}@@AI)++} had recently acquired resources through five completely different methods: some legitimate, some coercive, some deceptive. The methods have almost nothing in common on the surface. Does that variety tell you something about what the institution ultimately wants? Or does it obscure it? Write down your thinking before you read.
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783155980238}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155980238}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions::
 The student is about to read the first half of Chapter 8 of "If Anyone Builds It, Everyone Dies."
 

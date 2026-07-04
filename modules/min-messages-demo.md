@@ -12,11 +12,11 @@ The defaults:
 
 The fields:
 - On a `#### Chat`, `min-chat-messages:: 2` means the learner must send at least 2 messages in that chat before "Mark section complete" works. Each chat counts its own messages — two chats on one page can have separate requirements.
-- On a `#### Question`, `min-chat-messages:: 2` means one completed answer plus 2 follow-up {--{"author":"Elias's AI","timestamp":1783157202236}@@replies--}{++{"author":"Elias's AI","timestamp":1783157202236}@@messages++} in the question's feedback conversation. Needs feedback enabled — combining it with `feedback:: false` is a validator error.
+- On a `#### Question`, `min-chat-messages:: 2` means one completed answer plus 2 follow-up messages in the question's feedback conversation. Needs feedback enabled — combining it with `feedback:: false` is a validator error.
 - `optional:: true` on a question makes answering it optional.
 - Whole lenses marked `optional:: true` never block completion.
 
-What learners see: while something is missing, "Mark section complete" is grayed out {--{"author":"Elias's AI","timestamp":1783157206276}@@and concrete instructions are listed--}{++{"author":"Elias's AI","timestamp":1783157206276}@@with a "To finish this page:" bullet list++} under it ("Send 2 messages in the chat", "Answer question 2"). {--{"author":"Elias's AI","timestamp":1783157206276}@@Each line --}{++{"author":"Elias's AI","timestamp":1783157206276}@@The named chat or question in each bullet ++}is a link that scrolls to {--{"author":"Elias's AI","timestamp":1783157206276}@@the chat or question it names,--}{++{"author":"Elias's AI","timestamp":1783157206276}@@it,++} and the list updates live as they make progress.
+What learners see: while something is missing, "Mark section complete" is grayed out with a "To finish this page:" bullet list under it ("Send 2 messages in the chat", "Answer question 2"). The named chat or question in each bullet is a link that scrolls to it, and the list updates live as they make progress.
 
 The five lenses below demonstrate each case. Preview the module and try them. %%
 
@@ -25,7 +25,7 @@ id:: 593ceb17-ebd3-4c31-b250-3229b758ffc6
 
 #### Text
 content::
-This page's chat has `min-chat-messages:: 2`. Until you have sent two messages, "Mark section complete" stays grayed out and {--{"author":"Elias's AI","timestamp":1783157208878}@@a line--}{++{"author":"Elias's AI","timestamp":1783157208878}@@the bullet list++} under it says how many messages are still needed — click {++{"author":"Elias's AI","timestamp":1783157208878}@@"the chat" in ++}the {--{"author":"Elias's AI","timestamp":1783157208878}@@line--}{++{"author":"Elias's AI","timestamp":1783157208878}@@bullet++} to jump {--{"author":"Elias's AI","timestamp":1783157208878}@@to the chat.--}{++{"author":"Elias's AI","timestamp":1783157208878}@@here.++}
+This page's chat has `min-chat-messages:: 2`. Until you have sent two messages, "Mark section complete" stays grayed out and the bullet list under it says how many messages are still needed — click "the chat" in the bullet to jump here.
 
 #### Chat
 min-chat-messages:: 2
@@ -47,7 +47,7 @@ id:: 43d2334e-990d-43be-98e2-aa7ff046cb16
 
 #### Text
 content::
-This question has `min-chat-messages:: 2`: {--{"author":"Elias's AI","timestamp":1783157210921}@@This means that --}{++{"author":"Elias's AI","timestamp":1783157210921}@@after answering, ++}the {--{"author":"Elias's AI","timestamp":1783157210921}@@user has two--}{++{"author":"Elias's AI","timestamp":1783157210921}@@learner must also++} send at least 2 messages {--{"author":"Elias's AI","timestamp":1783157210921}@@to--}{++{"author":"Elias's AI","timestamp":1783157210921}@@in++} the {--{"author":"Elias's AI","timestamp":1783157210921}@@tutor after they reply to the question (responding to the tutor's feedback). --}{++{"author":"Elias's AI","timestamp":1783157210921}@@tutor's feedback conversation. ++}Answer it, then look under the grayed-out button: {--{"author":"Elias's AI","timestamp":1783157210921}@@it --}{++{"author":"Elias's AI","timestamp":1783157210921}@@the bullet ++}asks for the remaining {--{"author":"Elias's AI","timestamp":1783157210921}@@replies--}{++{"author":"Elias's AI","timestamp":1783157210921}@@messages ("Send 2 more messages about your answer")++} until you have sent both.
+This question has `min-chat-messages:: 2`: after answering, the learner must also send at least 2 messages in the tutor's feedback conversation. Answer it, then look under the grayed-out button: the bullet asks for the remaining messages ("Send 2 more messages about your answer") until you have sent both.
 
 #### Question
 min-chat-messages:: 2

@@ -13,7 +13,7 @@ tags:
 content:: Before reading the Closing Words: Imagine you spent years warning people about a serious {--{"author":"Elias's AI","timestamp":1783026041738}@@danger — and then--}{++{"author":"Elias's AI","timestamp":1783026041738}@@danger. Then++} people started asking whether you felt vindicated as your predictions came true. How would you answer? More broadly: if you had made a serious prediction about a catastrophe, would you prefer to be proven right, or to be proven wrong {--{"author":"Elias's AI","timestamp":1783026043951}@@— even--}{++{"author":"Elias's AI","timestamp":1783026043951}@@(even++} if being wrong meant your work was ignored and {--{"author":"Elias's AI","timestamp":1783026043951}@@forgotten?--}{++{"author":"Elias's AI","timestamp":1783026043951}@@forgotten)?++} Write down your thinking before you read.
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783155972257}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155972257}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions::
 The student is about to read the Closing Words of "If Anyone Builds It, Everyone Dies."
 
