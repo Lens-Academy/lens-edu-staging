@@ -105,7 +105,7 @@ content::
 Chapter 13 says the coalition working to prevent human extinction must keep its ask narrow, but "narrow" isn't the same as "weak." What exactly must the coalition ask for? What must it refuse to bundle with that ask, and why does the chapter say bundling would be a mistake even if the added positions seem related to the main cause?
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155956655}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155956655}@@min-chat-messages::++} 1
 instructions:: The student has completed a reading, a free recall, and a reflection phase on the second section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 Learning outcome for this Lens: State the chapter's coalition strategy: what the anti-extinction coalition's ask must be limited to, what positions it must not bundle with that ask, and the reason the chapter gives for keeping the coalition narrow.

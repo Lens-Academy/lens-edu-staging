@@ -105,7 +105,7 @@ content::
 A pocket calculator out-predicts and out-steers any human at arithmetic. A house cat can't do arithmetic at all — but it navigates a physical and social world the calculator is blind to. By the chapter's definition, which one has the kind of intelligence the authors are worried about, and what exactly are you pointing at when you answer?
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155960034}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155960034}@@min-chat-messages::++} 1
 instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 1 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge; it is not the test question. It hands the student two systems that each have one ingredient of intelligence but not the whole, and asks them to apply the chapter's definition rather than recite it. Use it to draw out prediction, steering, and especially generality from a concrete case.
