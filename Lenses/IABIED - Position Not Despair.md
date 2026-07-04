@@ -26,7 +26,7 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the {--{"author":"Elias's AI","timestamp":1783025259319}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025259319}@@reading,++} without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783156058059}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783156058059}@@min-chat-messages::++} 1
 instructions:: The student has just read the closing synthesis section of Chapter 10 of "If Anyone Builds It, Everyone Dies" — the passage that maps space probes, nuclear reactors, and computer security onto ASI alignment and ends with the line "NOBODY SHOULD BE ALLOWED TO TRY."
 
 Learning outcome for this Lens: State Chapter 10's closing {--{"author":"Elias's AI","timestamp":1783025262302}@@position —--}{++{"author":"Elias's AI","timestamp":1783025262302}@@position,++} "NOBODY SHOULD BE ALLOWED TO {--{"author":"Elias's AI","timestamp":1783025262302}@@TRY" —--}{++{"author":"Elias's AI","timestamp":1783025262302}@@TRY,"++} and identify that the chapter presents this not as counsel of despair but as a logical conclusion from the combined weight of the five curses, distinguishing a position-statement from despair.
