@@ -27,10 +27,10 @@ id:: 593ceb17-ebd3-4c31-b250-3229b758ffc6
 
 #### Text
 content::
-This page's chat has `min-messages:: 2`. Try clicking "Mark section complete" before sending two messages: the click is rejected and a pill above the chat input tells you how many messages are still needed.
+This page's chat has {--{"author":"Elias's AI","timestamp":1783153225978}@@`min-messages::--}{++{"author":"Elias's AI","timestamp":1783153225978}@@`min-chat-messages::++} 2`. {--{"author":"Elias's AI","timestamp":1783153225978}@@Try clicking--}{++{"author":"Elias's AI","timestamp":1783153225978}@@Until you have sent two messages,++} "Mark section complete" {--{"author":"Elias's AI","timestamp":1783153225978}@@before sending two messages: the click is rejected and a pill above the chat input tells you how many messages are still needed.--}{++{"author":"Elias's AI","timestamp":1783153225978}@@stays grayed out and a line under it says how many messages are still needed — click the line to jump to the chat.++}
 
 #### Chat
-min-messages:: 2
+{--{"author":"Elias's AI","timestamp":1783153225978}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783153225978}@@min-chat-messages::++} 2
 instructions::
 Chat casually with the learner about whatever they bring up; keep replies short.
 
@@ -39,7 +39,7 @@ id:: eeb40ecf-e7e1-4536-8bda-a5cf286439d7
 
 #### Text
 content::
-This page has a plain question with no extra fields. Questions require one completed answer by default. Try completing the page without answering: a pill above the question asks you to answer it first.
+This page has a plain question with no extra fields. Questions require one completed answer by {--{"author":"Elias's AI","timestamp":1783153228776}@@default. Try completing the page without answering: a pill above the question asks you to answer it first.--}{++{"author":"Elias's AI","timestamp":1783153228776}@@default (and get a feedback conversation, since `feedback::` defaults to true). Until you answer, "Mark section complete" stays grayed out with "Answer the question" under it.++}
 
 #### Question
 content:: What is your favorite color, and why?
@@ -49,11 +49,11 @@ id:: 43d2334e-990d-43be-98e2-aa7ff046cb16
 
 #### Text
 content::
-This question has `feedback:: true` and `min-messages:: 3`: one answer plus two replies in the feedback conversation. Answer it, then try completing the page before replying twice: a pill at the feedback chat asks for the remaining replies.
+This question has {--{"author":"Elias's AI","timestamp":1783153230836}@@`feedback:: true` and `min-messages:: 3`: --}{++{"author":"Elias's AI","timestamp":1783153230836}@@`min-chat-messages:: 2`: ++}one answer plus two replies in the feedback {--{"author":"Elias's AI","timestamp":1783153230836}@@conversation.--}{++{"author":"Elias's AI","timestamp":1783153230836}@@conversation (feedback is on by default).++} Answer it, then {--{"author":"Elias's AI","timestamp":1783153230836}@@try completing--}{++{"author":"Elias's AI","timestamp":1783153230836}@@look under++} the {--{"author":"Elias's AI","timestamp":1783153230836}@@page before replying twice: a pill at--}{++{"author":"Elias's AI","timestamp":1783153230836}@@grayed-out button: it asks for++} the {--{"author":"Elias's AI","timestamp":1783153230836}@@feedback chat asks for the remaining replies.--}{++{"author":"Elias's AI","timestamp":1783153230836}@@remaining replies until you have sent both.++}
 
 #### Question
-feedback:: true
-min-messages:: 3
+{--{"author":"Elias's AI","timestamp":1783153230836}@@feedback:: true
+min-messages:: 3--}{++{"author":"Elias's AI","timestamp":1783153230836}@@min-chat-messages:: 2++}
 content:: Name a food you could eat every day. What makes it work for you?
 assessment-instructions:: Any sincere answer is fine; ask one playful follow-up question at a time.
 
