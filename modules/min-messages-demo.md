@@ -16,7 +16,7 @@ The fields:
 - `optional:: true` on a question makes answering it optional.
 - Whole lenses marked `optional:: true` never block completion.
 
-What learners see: while something is missing, "Mark section complete" is grayed out and concrete instructions are listed under it ("Send 2 messages in the chat", "Answer question 2"). Each line is a link that scrolls to the chat or question it names, and the list updates live as they make progress.
+What learners see: while something is missing, "Mark section complete" is grayed out {--{"author":"Elias's AI","timestamp":1783157206276}@@and concrete instructions are listed--}{++{"author":"Elias's AI","timestamp":1783157206276}@@with a "To finish this page:" bullet list++} under it ("Send 2 messages in the chat", "Answer question 2"). {--{"author":"Elias's AI","timestamp":1783157206276}@@Each line --}{++{"author":"Elias's AI","timestamp":1783157206276}@@The named chat or question in each bullet ++}is a link that scrolls to {--{"author":"Elias's AI","timestamp":1783157206276}@@the chat or question it names,--}{++{"author":"Elias's AI","timestamp":1783157206276}@@it,++} and the list updates live as they make progress.
 
 The five lenses below demonstrate each case. Preview the module and try them. %%
 
@@ -25,7 +25,7 @@ id:: 593ceb17-ebd3-4c31-b250-3229b758ffc6
 
 #### Text
 content::
-This page's chat has `min-chat-messages:: 2`. Until you have sent two messages, "Mark section complete" stays grayed out and a line under it says how many messages are still needed — click the line to jump to the chat.
+This page's chat has `min-chat-messages:: 2`. Until you have sent two messages, "Mark section complete" stays grayed out and {--{"author":"Elias's AI","timestamp":1783157208878}@@a line--}{++{"author":"Elias's AI","timestamp":1783157208878}@@the bullet list++} under it says how many messages are still needed — click {++{"author":"Elias's AI","timestamp":1783157208878}@@"the chat" in ++}the {--{"author":"Elias's AI","timestamp":1783157208878}@@line--}{++{"author":"Elias's AI","timestamp":1783157208878}@@bullet++} to jump {--{"author":"Elias's AI","timestamp":1783157208878}@@to the chat.--}{++{"author":"Elias's AI","timestamp":1783157208878}@@here.++}
 
 #### Chat
 min-chat-messages:: 2
@@ -47,7 +47,7 @@ id:: 43d2334e-990d-43be-98e2-aa7ff046cb16
 
 #### Text
 content::
-This question has `min-chat-messages:: 2`: This means that the user has two send at least 2 messages to the tutor after they reply to the question (responding to the tutor's feedback). Answer it, then look under the grayed-out button: it asks for the remaining replies until you have sent both.
+This question has `min-chat-messages:: 2`: {--{"author":"Elias's AI","timestamp":1783157210921}@@This means that --}{++{"author":"Elias's AI","timestamp":1783157210921}@@after answering, ++}the {--{"author":"Elias's AI","timestamp":1783157210921}@@user has two--}{++{"author":"Elias's AI","timestamp":1783157210921}@@learner must also++} send at least 2 messages {--{"author":"Elias's AI","timestamp":1783157210921}@@to--}{++{"author":"Elias's AI","timestamp":1783157210921}@@in++} the {--{"author":"Elias's AI","timestamp":1783157210921}@@tutor after they reply to the question (responding to the tutor's feedback). --}{++{"author":"Elias's AI","timestamp":1783157210921}@@tutor's feedback conversation. ++}Answer it, then look under the grayed-out button: {--{"author":"Elias's AI","timestamp":1783157210921}@@it --}{++{"author":"Elias's AI","timestamp":1783157210921}@@the bullet ++}asks for the remaining {--{"author":"Elias's AI","timestamp":1783157210921}@@replies--}{++{"author":"Elias's AI","timestamp":1783157210921}@@messages ("Send 2 more messages about your answer")++} until you have sent both.
 
 #### Question
 min-chat-messages:: 2
