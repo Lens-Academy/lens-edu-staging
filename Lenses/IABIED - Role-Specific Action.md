@@ -25,7 +25,7 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the {--{"author":"Elias's AI","timestamp":1783025619403}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025619403}@@reading,++} without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155887047}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155887047}@@min-chat-messages::++} 1
 instructions:: The student has just finished reading the second section of Chapter 14 of "If Anyone Builds It, Everyone Dies" and has written a free {--{"author":"Elias's AI","timestamp":1783025624085}@@recall —--}{++{"author":"Elias's AI","timestamp":1783025624085}@@recall:++} everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
@@ -70,7 +70,7 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to {--{"author":"Elias's AI","timestamp":1783025644331}@@organize — just--}{++{"author":"Elias's AI","timestamp":1783025644331}@@organize. Just++} capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155891176}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155891176}@@min-chat-messages::++} 1
 instructions:: The student has just completed a free recall of the second section of Chapter 14 of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the {--{"author":"Elias's AI","timestamp":1783025650732}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025650732}@@reading,++} not to explain the content to them.

@@ -68,7 +68,7 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to {--{"author":"Elias's AI","timestamp":1783025160789}@@organize —--}{++{"author":"Elias's AI","timestamp":1783025160789}@@organize;++} just capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155885832}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155885832}@@min-chat-messages::++} 1
 instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading {--{"author":"Elias's AI","timestamp":1783025162870}@@landed —--}{++{"author":"Elias's AI","timestamp":1783025162870}@@landed:++} what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the {--{"author":"Elias's AI","timestamp":1783025164795}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025164795}@@reading,++} not to explain the content to them.
@@ -104,7 +104,7 @@ content::
 A classmate says: "Sure, there are astronomically many goals an AI could have. But most of them are incoherent or self-undermining. Once you narrow down to the goals a stable, reflective superintelligence could actually hold onto, that set is {--{"author":"Elias's AI","timestamp":1783025176358}@@small —--}{++{"author":"Elias's AI","timestamp":1783025176358}@@small,++} and things like curiosity, cooperation, and valuing other minds are exactly what survives that filter. So human-compatible values aren't really a needle in a haystack." Using the chapter's argument, where does this reasoning break down?
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155895051}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155895051}@@min-chat-messages::++} 1
 instructions:: The student has completed a reading, a free recall, and a reflection phase on section 1 of Chapter 5 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate {--{"author":"Elias's AI","timestamp":1783025178513}@@wedge —--}{++{"author":"Elias's AI","timestamp":1783025178513}@@wedge;++} it is not the test question. It hands the student a sharp version of boy-bird's position: that intelligence or coherence acts as a filter that shrinks the goal-space down to a human-friendly region. The student must dismantle it using the chapter's logic rather than recite the allegory: the space of coherent, stably-holdable goals is still vast (the Correct-Nest aliens are advanced, coherent, and reach the stars while caring about primes), intelligence is direction-agnostic so "smarter" doesn't filter toward our values, and the apparent convergence within humanity comes from shared genes and shared inner questions, not from intelligence itself. Use it to draw out the tiny-sliver framing and why no-convergence holds.
