@@ -24,7 +24,7 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the {--{"author":"Elias's AI","timestamp":1783025901542}@@reading — without looking--}{++{"author":"Elias's AI","timestamp":1783025901542}@@reading. Don't look++} back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155942550}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155942550}@@min-chat-messages::++} 1
 instructions:: The student has just read the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Enumerate the five engineering curses Chapter 10 names {--{"author":"Elias's AI","timestamp":1783025908013}@@— speed,--}{++{"author":"Elias's AI","timestamp":1783025908013}@@(speed,++} narrow margins, self-amplification, complications, and edge {--{"author":"Elias's AI","timestamp":1783025908013}@@cases —--}{++{"author":"Elias's AI","timestamp":1783025908013}@@cases)++} and identify which case study (space probes, Chernobyl, computer security) illustrates each.
@@ -68,7 +68,7 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to {--{"author":"Elias's AI","timestamp":1783025927432}@@organize — just--}{++{"author":"Elias's AI","timestamp":1783025927432}@@organize. Just++} capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155946811}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155946811}@@min-chat-messages::++} 1
 instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the {--{"author":"Elias's AI","timestamp":1783025928968}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025928968}@@reading. It is++} not to explain the content to them.

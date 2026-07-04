@@ -13,7 +13,7 @@ tags:
 content:: Before reading: Can you think of a situation where you'd be confident about the outcome of a process, even if you couldn't predict each step along the way? What makes outcome prediction different from pathway {--{"author":"Elias's AI","timestamp":1783025117087}@@prediction — or is it?--}{++{"author":"Elias's AI","timestamp":1783025117087}@@prediction? Or is there no real difference?++} Write down your thinking before you read.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155952870}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155952870}@@min-chat-messages::++} 1
 instructions::
 The student is about to read the Coda of "If Anyone Builds It, Everyone Dies."
 

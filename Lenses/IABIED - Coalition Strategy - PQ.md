@@ -13,7 +13,7 @@ tags:
 content:: Before reading Chapter 13, section 2: Imagine you're trying to build the broadest possible coalition to prevent AI-caused extinction. Would you bundle that cause with other AI-related concerns (like opposition to AI-generated weapons or AI taking human jobs) to attract more allies? Or would you keep the ask to a single issue? What are the tradeoffs? Write down your thinking before you read.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155952436}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155952436}@@min-chat-messages::++} 1
 instructions::
 The student is about to read Chapter 13, section 2 of "If Anyone Builds It, Everyone Dies," starting at "The solutions we've just proposed are a far cry from the policies that other concerned folks propose" and reading to the end of the chapter.
 

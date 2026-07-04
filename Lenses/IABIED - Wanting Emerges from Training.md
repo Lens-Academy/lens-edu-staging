@@ -22,7 +22,7 @@ Return here after reading.
 Without looking back at the text, take 2 minutes to write down everything you can remember from the {--{"author":"Elias's AI","timestamp":1783025803860}@@reading — anything--}{++{"author":"Elias's AI","timestamp":1783025803860}@@reading. Anything++} and everything, no need to organize it. Speech-to-text works well here.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155943883}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155943883}@@min-chat-messages::++} 1
 instructions:: The student has just read Chapter 3 ("Learning to Want") of "If Anyone Builds It, Everyone Dies" and written a free {--{"author":"Elias's AI","timestamp":1783025814762}@@recall —--}{++{"author":"Elias's AI","timestamp":1783025814762}@@recall:++} everything they could remember without looking back at the text.
 
 Learning outcome for this Lens: Explain how training for success produces want-like behavior in AI, even without anyone designing wants.
@@ -66,7 +66,7 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to {--{"author":"Elias's AI","timestamp":1783025828417}@@organize —--}{++{"author":"Elias's AI","timestamp":1783025828417}@@organize,++} just capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155952428}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155952428}@@min-chat-messages::++} 1
 instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the {--{"author":"Elias's AI","timestamp":1783025830045}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025830045}@@reading,++} not to explain the content to them.

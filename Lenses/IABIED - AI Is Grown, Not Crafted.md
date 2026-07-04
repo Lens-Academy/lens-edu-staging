@@ -103,7 +103,7 @@ content::
 Imagine an engineer at a frontier AI lab tells you: "I designed this model's entire training process, and I can pull up and read every one of its billions of weights — so there is nothing about it I don't understand." Both of those claims are true. The conclusion still doesn't follow. Where does the reasoning break down, and what kind of understanding is the engineer missing?
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155947172}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155947172}@@min-chat-messages::++} 1
 instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 2 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge: it is not the test question. It hands the student a plausible-sounding but flawed claim and asks them to locate the flaw, so the learning outcome gets drawn out from a fresh angle rather than recited as a definition.
