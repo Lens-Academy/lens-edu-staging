@@ -1,6 +1,6 @@
 ---
 id: 34a3e729-3bb4-4a50-b50f-2a929e77aa64
-slug: min-messages-demo
+slug: {--{"author":"Elias's AI","timestamp":1783157646655}@@min-messages-demo--}{++{"author":"Elias's AI","timestamp":1783157646655}@@min-chat-messages-demo++}
 title: Interaction requirements demo
 ---
 
