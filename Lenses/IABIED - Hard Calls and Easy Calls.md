@@ -28,7 +28,7 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the {--{"author":"Elias's AI","timestamp":1783025206597}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025206597}@@reading,++} without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783156012978}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783156012978}@@min-chat-messages::++} 1
 instructions:: The student has just read the Introduction to "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Distinguish "hard calls" from "easy calls" as the authors define them, and explain why they classify the danger from ASI as an easy call despite its apparent implausibility.
@@ -71,7 +71,7 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to {--{"author":"Elias's AI","timestamp":1783025215789}@@organize —--}{++{"author":"Elias's AI","timestamp":1783025215789}@@organize;++} just capture your reaction. Again, using the speech to text feature is recommended.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783156020625}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783156020625}@@min-chat-messages::++} 1
 instructions:: The student has just completed a free recall of the reading assignment for this Lens and is now in a short reflection phase. They have been asked to say how the reading {--{"author":"Elias's AI","timestamp":1783025217486}@@landed —--}{++{"author":"Elias's AI","timestamp":1783025217486}@@landed:++} what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading {--{"author":"Elias's AI","timestamp":1783025219138}@@— not--}{++{"author":"Elias's AI","timestamp":1783025219138}@@rather than++} to explain the content to them.

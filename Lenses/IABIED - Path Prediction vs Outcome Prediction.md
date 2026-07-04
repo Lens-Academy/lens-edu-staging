@@ -22,7 +22,7 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the {--{"author":"Elias's AI","timestamp":1783025180852}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025180852}@@reading,++} without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783156023473}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783156023473}@@min-chat-messages::++} 1
 instructions:: The student has just read the Coda of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Distinguish between predicting the pathway to a catastrophic outcome and predicting the outcome itself, explain why outcome confidence is achievable even when the exact path cannot be predicted, and apply this distinction to the argument that humanity's position relative to a superintelligent AI is analogous to a human playing chess against Stockfish.
