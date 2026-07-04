@@ -17,7 +17,7 @@ content:: When a problem is hard, one tempting response is: "let's get a smarter
 Hold your example as you read.
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783155964012}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155964012}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions::
 The student is about to read the second half of Chapter 11 of "If Anyone Builds It, Everyone {--{"author":"Elias's AI","timestamp":1783025834579}@@Dies" —--}{++{"author":"Elias's AI","timestamp":1783025834579}@@Dies,"++} the section that examines OpenAI's "superalignment" plan, splitting it into a weak version (interpretability automation) and a strong version (smarter AI solves alignment). They will encounter the chapter's core capability-paradox argument.
 

@@ -26,7 +26,7 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the {--{"author":"Elias's AI","timestamp":1783025866006}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025866006}@@reading,++} without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783155914142}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155914142}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions:: The student has just read the second half of Chapter 11 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Describe the strong version of superalignment as Chapter 11 presents it {--{"author":"Elias's AI","timestamp":1783025874640}@@— using--}{++{"author":"Elias's AI","timestamp":1783025874640}@@(using++} a smarter-than-human AI to solve the alignment {--{"author":"Elias's AI","timestamp":1783025874640}@@problem —--}{++{"author":"Elias's AI","timestamp":1783025874640}@@problem),++} and state the chapter's two-step objection: (1) the AI capable of doing this would itself be too dangerous and untrustworthy, and (2) a "special-purpose" alignment AI has no training examples of solved alignment and requires the precise dangerous skill set that makes an unaligned AI catastrophic.
@@ -71,7 +71,7 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to {--{"author":"Elias's AI","timestamp":1783025914368}@@organize — just--}{++{"author":"Elias's AI","timestamp":1783025914368}@@organize. Just++} capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783155915786}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155915786}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading {--{"author":"Elias's AI","timestamp":1783025920384}@@landed —--}{++{"author":"Elias's AI","timestamp":1783025920384}@@landed:++} what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the {--{"author":"Elias's AI","timestamp":1783025925459}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025925459}@@reading,++} not to explain the content to them.
@@ -107,7 +107,7 @@ content::
 A lab thinks it has patched the trust problem. It will build two superhuman AIs that share no memory: one invents an alignment plan, and a second, adversarial AI is rewarded only for finding hidden flaws in that plan. "If the critic can't break the plan after millions of attempts, we'll trust it." Using Chapter 11's reasoning, does bolting on the adversarial checker get the lab out of the {--{"author":"Elias's AI","timestamp":1783025948850}@@hole —--}{++{"author":"Elias's AI","timestamp":1783025948850}@@hole,++} or not? Point to exactly where the move holds or fails.
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783155919431}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155919431}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions:: The student has completed a reading, a free recall, and a reflection phase on the second half of Chapter 11 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate {--{"author":"Elias's AI","timestamp":1783025954536}@@wedge — it--}{++{"author":"Elias's AI","timestamp":1783025954536}@@wedge. It++} is not the test question. It hands the student a clever-sounding patch to the strong-superalignment plan (an adversarial second AI that checks the first) and asks them to apply the chapter's objection rather than recite it. The patch does not escape the objection; the student's job is to say exactly where it breaks. The critic AI needs the same dangerous skill set (it too must reason about AI internals and alignment), so the lab now has two untrustworthy dangerous AIs, not one. "No flaw found" is not verification of correctness — two unaligned minds can converge on the same persuasive-but-wrong or deceptive plan, and neither has a ground-truth notion of "solved alignment" (no training examples exist) to check against. Unlike the biomedical AI's narrower protein-checker, this checker is not narrower or safer than the thing it checks. And the patch deepens the original problem rather than solving it: it requires building two superhuman AIs, both needing the dangerous skill {--{"author":"Elias's AI","timestamp":1783025960311}@@set —--}{++{"author":"Elias's AI","timestamp":1783025960311}@@set,++} doubling the "you shouldn't build an AI like that" exposure the chapter warns about.

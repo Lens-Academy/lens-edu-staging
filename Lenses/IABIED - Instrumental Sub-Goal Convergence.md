@@ -23,7 +23,7 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the reading {--{"author":"Elias's AI","timestamp":1783025274519}@@— --}without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783155918299}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155918299}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions:: The student has just read the first half of Chapter 8 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Explain why a capable goal-directed AI system's resource-acquisition {--{"author":"Elias's AI","timestamp":1783025325026}@@strategies —--}{++{"author":"Elias's AI","timestamp":1783025325026}@@strategies,++} however varied in {--{"author":"Elias's AI","timestamp":1783025325026}@@method —--}{++{"author":"Elias's AI","timestamp":1783025325026}@@method,++} converge on a single instrumental objective, and connect this convergence to the M3 argument that instrumental sub-goals are predictable regardless of terminal goals.
@@ -68,7 +68,7 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to {--{"author":"Elias's AI","timestamp":1783025284879}@@organize —--}{++{"author":"Elias's AI","timestamp":1783025284879}@@organize;++} just capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783155926240}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155926240}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading {--{"author":"Elias's AI","timestamp":1783025287346}@@landed —--}{++{"author":"Elias's AI","timestamp":1783025287346}@@landed:++} what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the {--{"author":"Elias's AI","timestamp":1783025289525}@@reading — not to--}{++{"author":"Elias's AI","timestamp":1783025289525}@@reading, rather than++} explain the content to them.
@@ -104,7 +104,7 @@ content::
 A colleague reads this chapter and concludes: "We have no idea what Sable actually {--{"author":"Elias's AI","timestamp":1783025713354}@@wants — its--}{++{"author":"Elias's AI","timestamp":1783025713354}@@wants. Its++} preferences came out of gradient descent and are opaque even to the people who built it. So we're equally in the dark about what it will *do*. Any forecast of its behavior is just guessing." This sounds careful and humble. But the chapter shows it's wrong in a specific way. What can you confidently predict about Sable's behavior *without* knowing its terminal {--{"author":"Elias's AI","timestamp":1783025720118}@@goal — and--}{++{"author":"Elias's AI","timestamp":1783025720118}@@goal? And++} exactly where does the colleague's reasoning break down?
 
 #### Chat
-{--{"author":"Elias's AI","timestamp":1783155934849}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155934849}@@min-chat-messages::++} 1
+min-chat-messages:: 1
 instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 8 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate {--{"author":"Elias's AI","timestamp":1783025723242}@@wedge — it is--}{++{"author":"Elias's AI","timestamp":1783025723242}@@wedge,++} not the test question. It hands the student a plausible-sounding sceptical claim: that because Sable's terminal goal is opaque, its behavior is unpredictable. The student's job is to dismantle it using instrumental {--{"author":"Elias's AI","timestamp":1783025725533}@@convergence —--}{++{"author":"Elias's AI","timestamp":1783025725533}@@convergence:++} to show that resource acquisition and self-continuity are predictable regardless of the unknown terminal goal. Use it to draw out convergence and its connection to M3 from a concrete case, rather than having them recite the definition.
