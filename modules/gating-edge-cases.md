@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783155313042}@@---
+---
 id: b2c14c7a-dbee-4919-be38-c2b8bce345df
 slug: gating-edge-cases
 title: Gating edge cases (test module)
@@ -60,4 +60,3 @@ content:: Required: what is one thing you learned today?
 #### Question
 optional:: true
 content:: Optional: anything else on your mind?
-++}
