@@ -23,7 +23,7 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the {--{"author":"Elias's AI","timestamp":1783025847263}@@reading — without looking--}{++{"author":"Elias's AI","timestamp":1783025847263}@@reading. Don't look++} back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155906731}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155906731}@@min-chat-messages::++} 1
 instructions:: The student has just finished reading the first section of Chapter 14 of "If Anyone Builds It, Everyone Dies" and has written a free {--{"author":"Elias's AI","timestamp":1783025849319}@@recall —--}{++{"author":"Elias's AI","timestamp":1783025849319}@@recall:++} everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
