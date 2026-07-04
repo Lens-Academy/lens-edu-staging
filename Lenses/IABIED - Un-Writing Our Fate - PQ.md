@@ -13,7 +13,7 @@ tags:
 content:: Before reading the first part of Chapter 14: Think of a time when something seemed like a foregone {--{"author":"Elias's AI","timestamp":1783025831507}@@conclusion —--}{++{"author":"Elias's AI","timestamp":1783025831507}@@conclusion:++} a conflict, a failure, an outcome that felt locked in. Did anything reverse it? If a catastrophe seems genuinely {--{"author":"Elias's AI","timestamp":1783025833603}@@likely —--}{++{"author":"Elias's AI","timestamp":1783025833603}@@likely,++} not just {--{"author":"Elias's AI","timestamp":1783025833603}@@feared,--}{++{"author":"Elias's AI","timestamp":1783025833603}@@feared++} but rationally predicted based on strong{--{"author":"Elias's AI","timestamp":1783025833603}@@ evidence —--}{++{"author":"Elias's AI","timestamp":1783025833603}@@ evidence,++} can deliberate human effort still un-write that outcome? Or is a well-founded prediction the same as destiny? Write down your thinking before you read.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155979706}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155979706}@@min-chat-messages::++} 1
 instructions::
 The student is about to read the first section of Chapter 14 ("Where There's Life, There's Hope") of "If Anyone Builds It, Everyone Dies."
 

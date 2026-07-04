@@ -23,7 +23,7 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the {--{"author":"Elias's AI","timestamp":1783025875959}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025875959}@@reading,++} without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155977992}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155977992}@@min-chat-messages::++} 1
 instructions:: The student has just read Chapter 4 ("You Don't Get What You Train For") of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Explain why there's no reliable relationship between training objectives and resulting AI preferences.
@@ -70,7 +70,7 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to {--{"author":"Elias's AI","timestamp":1783025882956}@@organize —--}{++{"author":"Elias's AI","timestamp":1783025882956}@@organize,++} just capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155985555}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155985555}@@min-chat-messages::++} 1
 instructions:: The student has just completed a free recall of Chapter 4 ("You Don't Get What You Train For") and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the {--{"author":"Elias's AI","timestamp":1783025884909}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025884909}@@reading,++} not to explain the content to them.
