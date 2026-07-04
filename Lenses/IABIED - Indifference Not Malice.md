@@ -22,7 +22,7 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the reading {--{"author":"Elias's AI","timestamp":1783025121230}@@— --}without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155882520}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155882520}@@min-chat-messages::++} 1
 instructions:: The student has just read Chapter 9 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Explain why a sufficiently capable AI system optimizing for resource-intensive goals can eliminate human civilization without hostile intent {--{"author":"Elias's AI","timestamp":1783025169355}@@— as--}{++{"author":"Elias's AI","timestamp":1783025169355}@@(as++} a thermodynamic and logical byproduct of its own {--{"author":"Elias's AI","timestamp":1783025169355}@@objectives —--}{++{"author":"Elias's AI","timestamp":1783025169355}@@objectives)++} and connect this to the M3 goal-space argument that indifference to human survival as a side constraint is more dangerous than malice.

@@ -23,7 +23,7 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the {--{"author":"Elias's AI","timestamp":1783025142352}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025142352}@@reading,++} without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155877056}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155877056}@@min-chat-messages::++} 1
 instructions:: The student has just read section 1 of Chapter 5 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Define the goal-space argument: explain why a sufficiently advanced AI's goals are overwhelmingly unlikely to include human values, using the logic that most possible goal-sets don't converge on any particular set of values as intelligence increases.
