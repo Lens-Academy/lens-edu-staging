@@ -37,7 +37,7 @@ id:: eeb40ecf-e7e1-4536-8bda-a5cf286439d7
 
 #### Text
 content::
-This page has a plain question with no extra fields. Questions require one completed answer by default (and get a feedback conversation, since `feedback::` defaults to true). Until you answer it you can't "Mark section complete" stays grayed out with "Answer the question" under it.
+This page has a plain question with no extra fields. Questions require one completed answer by default (and get a feedback conversation, since `feedback::` defaults to true). Until you answer it you can't mark this lens as completed" stays grayed out with "Answer the question" under it.
 
 #### Question
 content:: What is your favorite color, and why?
