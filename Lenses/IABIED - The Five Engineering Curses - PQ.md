@@ -15,7 +15,7 @@ content:: Think of a domain where engineering is famously {--{"author":"Elias's 
 Take 60 seconds. Write down two or three of those features in your own words before you read.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155967769}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155967769}@@min-chat-messages::++} 1
 instructions::
 The student is about to read the first half of Chapter 10 of "If Anyone Builds It, Everyone {--{"author":"Elias's AI","timestamp":1783026053514}@@Dies" —--}{++{"author":"Elias's AI","timestamp":1783026053514}@@Dies,"++} the section where the authors enumerate five engineering "curses" using space probes, Chernobyl, and computer security as case studies.
 
