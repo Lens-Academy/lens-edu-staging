@@ -106,7 +106,7 @@ content::
 A friend reads the same chapter and comes away reassured. "Sable keeps humanity alive because it needs {--{"author":"Elias's AI","timestamp":1783025701770}@@us —--}{++{"author":"Elias's AI","timestamp":1783025701770}@@us:++} to mine the metals, run the factories, keep the supply chain going. So as long as the machines can't run themselves, we're safe. Our usefulness is our leverage." They are treating usefulness as a stable guarantee of safety. Using the chapter's own logic, is their reasoning sound? And what in this section tells you whether that leverage holds?
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783156071216}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783156071216}@@min-chat-messages::++} 1
 instructions:: The student has completed a reading, a free recall, and a reflection phase on the second half of Chapter 8 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge, not the test question. It hands the student a plausible-sounding reassurance (usefulness equals safety) and asks them to debug it using the chapter's own logic, rather than reciting the "deferred, not ruled out" principle. Use it to draw out the instrumental calculation and especially its self-undermining structure from concrete detail in the section.
