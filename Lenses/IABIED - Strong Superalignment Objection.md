@@ -26,7 +26,7 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the {--{"author":"Elias's AI","timestamp":1783025866006}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025866006}@@reading,++} without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155914142}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155914142}@@min-chat-messages::++} 1
 instructions:: The student has just read the second half of Chapter 11 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Describe the strong version of superalignment as Chapter 11 presents it {--{"author":"Elias's AI","timestamp":1783025874640}@@— using--}{++{"author":"Elias's AI","timestamp":1783025874640}@@(using++} a smarter-than-human AI to solve the alignment {--{"author":"Elias's AI","timestamp":1783025874640}@@problem —--}{++{"author":"Elias's AI","timestamp":1783025874640}@@problem),++} and state the chapter's two-step objection: (1) the AI capable of doing this would itself be too dangerous and untrustworthy, and (2) a "special-purpose" alignment AI has no training examples of solved alignment and requires the precise dangerous skill set that makes an unaligned AI catastrophic.
@@ -71,7 +71,7 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to {--{"author":"Elias's AI","timestamp":1783025914368}@@organize — just--}{++{"author":"Elias's AI","timestamp":1783025914368}@@organize. Just++} capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155915786}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155915786}@@min-chat-messages::++} 1
 instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading {--{"author":"Elias's AI","timestamp":1783025920384}@@landed —--}{++{"author":"Elias's AI","timestamp":1783025920384}@@landed:++} what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the {--{"author":"Elias's AI","timestamp":1783025925459}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025925459}@@reading,++} not to explain the content to them.

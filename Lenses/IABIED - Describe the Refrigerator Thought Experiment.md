@@ -25,7 +25,7 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the {--{"author":"Elias's AI","timestamp":1783025257134}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025257134}@@reading,++} without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155911668}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155911668}@@min-chat-messages::++} 1
 instructions:: The student has just read section 2 of Chapter 6 ("We'd Lose") of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Describe the refrigerator thought experiment: explain how superior knowledge of physical laws enables the design of devices that appear impossible to those who built them, and connect this to what a superintelligence could do to humanity.
@@ -71,7 +71,7 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to {--{"author":"Elias's AI","timestamp":1783025274952}@@organize —--}{++{"author":"Elias's AI","timestamp":1783025274952}@@organize;++} just capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155918457}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155918457}@@min-chat-messages::++} 1
 instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading {--{"author":"Elias's AI","timestamp":1783025277002}@@landed —--}{++{"author":"Elias's AI","timestamp":1783025277002}@@landed:++} what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the {--{"author":"Elias's AI","timestamp":1783025278990}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025278990}@@reading,++} not to explain the content to them.
