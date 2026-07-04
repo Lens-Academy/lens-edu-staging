@@ -12,7 +12,7 @@ The defaults:
 
 The fields:
 - On a `#### Chat`, `min-chat-messages:: 2` means the learner must send at least 2 messages in that chat before "Mark section complete" works. Each chat counts its own messages — two chats on one page can have separate requirements.
-- On a `#### Question`, `min-chat-messages:: 2` means one completed answer plus 2 follow-up replies in the question's feedback conversation. Needs feedback enabled — combining it with `feedback:: false` is a validator error.
+- On a `#### Question`, `min-chat-messages:: 2` means one completed answer plus 2 follow-up {--{"author":"Elias's AI","timestamp":1783157202236}@@replies--}{++{"author":"Elias's AI","timestamp":1783157202236}@@messages++} in the question's feedback conversation. Needs feedback enabled — combining it with `feedback:: false` is a validator error.
 - `optional:: true` on a question makes answering it optional.
 - Whole lenses marked `optional:: true` never block completion.
 
