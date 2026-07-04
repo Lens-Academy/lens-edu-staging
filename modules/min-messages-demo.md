@@ -47,7 +47,7 @@ id:: 43d2334e-990d-43be-98e2-aa7ff046cb16
 
 #### Text
 content::
-This question has `min-chat-messages:: 2`: one answer plus two replies in the feedback conversation (feedback is on by default). Answer it, then look under the grayed-out button: it asks for the remaining replies until you have sent both.
+This question has `min-chat-messages:: 2`: This means that the user one answer plus two replies in the feedback conversation (feedback is on by default). Answer it, then look under the grayed-out button: it asks for the remaining replies until you have sent both.
 
 #### Question
 min-chat-messages:: 2
