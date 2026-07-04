@@ -62,10 +62,10 @@ id:: 2c11c696-8fcb-4d2e-9725-f171c2e55c95
 
 #### Text
 content::
-This question has `min-messages:: 0`, which overrides the default requirement of one answer and makes it skippable. "Mark section complete" works even without answering. Use this for nice-to-have reflection prompts that should not hold anyone up.
+This question has {--{"author":"Elias's AI","timestamp":1783153241031}@@`min-messages:: 0`,--}{++{"author":"Elias's AI","timestamp":1783153241031}@@`optional:: true`,++} which overrides the default requirement of one answer and makes it skippable. "Mark section complete" works even without answering. Use this for nice-to-have reflection prompts that should not hold anyone up.
 
 #### Question
-min-messages:: 0
+{--{"author":"Elias's AI","timestamp":1783153241031}@@min-messages:: 0--}{++{"author":"Elias's AI","timestamp":1783153241031}@@optional:: true++}
 content:: Purely optional: is there anything from this module you want to note down for later?
 
 # Lens: Control chat without a minimum
@@ -73,7 +73,7 @@ id:: d3d75f10-d930-4fc1-a52c-fcfcc65f05a0
 
 #### Text
 content::
-This chat has no `min-messages`, so it shows the default behavior: "Mark section complete" works immediately, even without sending anything.
+This chat has no {--{"author":"Elias's AI","timestamp":1783153243143}@@`min-messages`,--}{++{"author":"Elias's AI","timestamp":1783153243143}@@`min-chat-messages`,++} so it shows the default behavior: "Mark section complete" works immediately, even without sending anything.
 
 #### Chat
 instructions::
