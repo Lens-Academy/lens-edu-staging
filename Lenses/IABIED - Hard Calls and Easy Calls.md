@@ -107,7 +107,7 @@ content::
 The authors are remarkably confident that advanced AI is dangerous, yet they flatly refuse to predict when it will arrive or exactly how a catastrophe would unfold. Is that a {--{"author":"Elias's AI","timestamp":1783025225960}@@contradiction — how--}{++{"author":"Elias's AI","timestamp":1783025225960}@@contradiction? How++} can they be so sure of the danger but not the details? What is it about the situation that lets them have it both ways?
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783156028980}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783156028980}@@min-chat-messages::++} 1
 instructions:: The student has completed a reading, a free recall, and a reflection phase on the Introduction to "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate {--{"author":"Elias's AI","timestamp":1783025228082}@@wedge —--}{++{"author":"Elias's AI","timestamp":1783025228082}@@wedge:++} it is not the test question. It points at the apparent tension between the authors' confidence about whether AI is dangerous and their refusal to predict when or how, and asks the student to resolve it. Use it to draw out the easy-call/hard-call distinction from the asymmetry rather than asking them to define the two terms.
