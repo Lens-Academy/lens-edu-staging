@@ -25,7 +25,7 @@ Return here after reading.
 Spend 2 minutes writing down everything you can remember from the {--{"author":"Elias's AI","timestamp":1783025624649}@@reading —--}{++{"author":"Elias's AI","timestamp":1783025624649}@@reading,++} without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155941949}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155941949}@@min-chat-messages::++} 1
 instructions:: The student has just read section 2 of Chapter 5 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Distinguish hostile from indifferent {--{"author":"Elias's AI","timestamp":1783025626867}@@AI —--}{++{"author":"Elias's AI","timestamp":1783025626867}@@AI:++} explain why the core danger from superintelligent AI is not that it would be hostile toward humans, but that it would be indifferent to human values while pursuing its own goals, and why indifference is sufficient for extinction.

@@ -67,7 +67,7 @@ content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
 
 #### Chat
-min-messages:: 1
+{--{"author":"Elias's AI","timestamp":1783155932231}@@min-messages::--}{++{"author":"Elias's AI","timestamp":1783155932231}@@min-chat-messages::++} 1
 instructions:: The student has just completed a free recall of the second section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, not to explain the content to them.
