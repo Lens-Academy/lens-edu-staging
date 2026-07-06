@@ -23,7 +23,7 @@ A facilitator's job is different. The group has already encountered the material
 
 \## Watch (5 min)
 
-Watch this video before moving on:  — https://www.youtube.com/watch?v=J3IUyZiXAQo
+Watch this video before moving {--{"author":"Elias's AI","timestamp":1783362497653}@@on:  --}{++{"author":"Elias's AI","timestamp":1783362497653}@@on ++}— {++{"author":"Elias's AI","timestamp":1783362497653}@@**Instructor vs Facilitator**, Bill Wilder (5 min): ++}https://www.youtube.com/watch?v=J3IUyZiXAQo
 
 As you watch, hold this question: which mode do you naturally default to? Most people who sign up to facilitate default to teaching, because that's the model they grew up watching.. 
 \## Why this matters for online cohort discussions
