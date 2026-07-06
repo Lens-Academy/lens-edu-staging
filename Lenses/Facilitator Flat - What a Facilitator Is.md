@@ -25,7 +25,7 @@ content:: {++{"author":"Anshuman","timestamp":1783343644113}@@Being clear about 
 ++}{--{"author":"Anshuman","timestamp":1783346089060}@@e--}{--{"author":"Anshuman","timestamp":1783346126595}@@, but don't internalise.
 - **You're not their boss.** You can ask, request, and invite. You can't compel. The mode is "with," not "above.--}"
 
-What you **are** responsible for:
+What you **are** r{~~{"author":"Anshuman","timestamp":1783346154751}@@esponsible ~>reponsible f~~}{--{"author":"Anshuman","timestamp":1783346147734}@@f--}or:
 
 - That the space is safe enough for honest contribution.
 - That the time is used in a way that serves the group's learning.
