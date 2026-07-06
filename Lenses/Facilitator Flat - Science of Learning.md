@@ -11,7 +11,7 @@ tags:
 ---
 #### Text
 content::
-Stephen Kosslyn (Harvard, then Minerva, then the Active Learning Initiative) wrote a compact summary of what cognitive science actually tells us about how {++{"author":"Anshuman","timestamp":1783348808846}@@learning works, and it's become a standard reference for active-learning course design.++}people learn. It's the closest thing to a canonical refer{--{"author":"Anshuman","timestamp":1783348837914}@@ence for active-learning course design.--}
+Stephen Kosslyn (Harvard, then Minerva, then the Active Learning Initiative) wrote a compact summary of what cognitive science actually tells us about how {++{"author":"Anshuman","timestamp":1783348808846}@@learning works, and it's become a standard reference for active-learning course design.++}{--{"author":"Anshuman","timestamp":1783348837914}@@people learn. It's the closest thing to a canonical reference for active-learning course design.--}
 
 \## Read (20 min)
 
