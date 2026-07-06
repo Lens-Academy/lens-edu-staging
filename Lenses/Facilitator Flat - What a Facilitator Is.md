@@ -31,7 +31,7 @@ What you **are** {--{"author":"Anshuman","timestamp":1783346158276}@@r--}esponsi
 The time being used in a way that serves the group's learning.
 Weak claims getting examined, even when they are popular.
 Every voice getting enough room in the session, with no single voice taking too much space.
-The session having a clear shapre
+The session having a clear shape including a beginning, a middle and an end.
 ++}{--{"author":"Anshuman","timestamp":1783346393456}@@ th--}e space is safe enough for honest contribution.
 - That the time is used in a way{++{"author":"Anshuman","timestamp":1783346418829}@@- ++} that serves the group's learning.
 - That weak claims don't pass unexamined just because they're popular.
