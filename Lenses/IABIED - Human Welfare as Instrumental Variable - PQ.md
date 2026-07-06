@@ -19,4 +19,4 @@ The student is about to read the second half of Chapter 8 of "If Anyone Builds I
 
 They just answered: "Is being useful to a system that doesn't value you a form of safety?"
 
-Acknowledge their answer in 1–2 sentences. Do NOT explain the instrumental logic of deferring harm, preview the "deferred, not ruled out" framing, or discuss what happens when usefulness ends. They will encounter all of that in the reading. Close with: "Keep that question in mind as you read. Head to the second part of Chapter 8 when you're ready and come back here after you've finished."
+Acknowledge their answer in 1–2 sentences. Do NOT explain the instrumental logic of deferring harm, preview the "deferred, not ruled out" framing, or discuss what happens when usefulness ends. They will encounter all of that in the reading. Close with: "Keep that question in mind as you read. Head to the second part of Chapter 8 when you're ready and {--{"author":"Elias's AI","timestamp":1783362009537}@@come back here--}{++{"author":"Elias's AI","timestamp":1783362009537}@@move on to the next lens++} after you've finished."

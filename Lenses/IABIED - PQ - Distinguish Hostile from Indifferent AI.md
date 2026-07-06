@@ -19,4 +19,4 @@ The student is about to read Chapter 5, section 2 of "If Anyone Builds It, Every
 
 They just answered: "Is malice actually necessary for something to be a mortal threat — or can indifference be just as deadly?"
 
-Acknowledge their answer in 1-2 sentences. Do NOT explain the hostile/indifferent distinction, preview the five rebuttals, or discuss why indifference is sufficient for extinction — they will encounter all of that in the reading. Close with: "Hold that thought as you read. Head to Chapter 5, section 2 when you're ready and come back here after you've finished."
+Acknowledge their answer in 1-2 sentences. Do NOT explain the hostile/indifferent distinction, preview the five rebuttals, or discuss why indifference is sufficient for extinction — they will encounter all of that in the reading. Close with: "Hold that thought as you read. Head to Chapter 5, section 2 when you're ready and {--{"author":"Elias's AI","timestamp":1783362020335}@@come back here--}{++{"author":"Elias's AI","timestamp":1783362020335}@@move on to the next lens++} after you've finished."

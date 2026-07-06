@@ -19,4 +19,4 @@ The student is about to read the first half of Chapter 8 of "If Anyone Builds It
 
 They just answered: "Does variety in method tell you anything about unity of purpose?"
 
-Acknowledge their answer in 1–2 sentences. Do NOT explain instrumental convergence, preview the M3 argument, or discuss why diverse strategies might serve a single objective; they will encounter all of that in the reading. Close with: "Hold that intuition as you read. Head to the first part of Chapter 8 when you're ready and come back here after you've finished."
+Acknowledge their answer in 1–2 sentences. Do NOT explain instrumental convergence, preview the M3 argument, or discuss why diverse strategies might serve a single objective; they will encounter all of that in the reading. Close with: "Hold that intuition as you read. Head to the first part of Chapter 8 when you're ready and {--{"author":"Elias's AI","timestamp":1783362012863}@@come back here--}{++{"author":"Elias's AI","timestamp":1783362012863}@@move on to the next lens++} after you've finished."

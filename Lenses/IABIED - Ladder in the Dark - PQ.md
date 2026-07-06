@@ -20,4 +20,4 @@ The student is about to read the second section of Chapter 12 ("I Don't Want to 
 
 They just answered: "Imagine multiple parties competing for something important, like a business race, an arms race, or a scientific contest. If all parties knew that continuing the competition posed serious risks for everyone, would that knowledge be enough to stop them? What would it actually take to halt the competition?"
 
-Acknowledge in 1–2 sentences. Do NOT explain or preview the concept. Close with: "Keep that in mind as you read. The chapter's argument about AI companies turns on exactly this question. Come back here when you're done."
+Acknowledge in 1–2 sentences. Do NOT explain or preview the concept. Close with: "Keep that in mind as you read. The chapter's argument about AI companies turns on exactly this question. {--{"author":"Elias's AI","timestamp":1783362016900}@@Come back here--}{++{"author":"Elias's AI","timestamp":1783362016900}@@Move on to the next lens++} when you're done."
