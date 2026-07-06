@@ -23,7 +23,7 @@ content:: {++{"author":"Anshuman","timestamp":1783343644113}@@Being clear about 
 {--{"author":"Anshuman","timestamp":1783346053893}@@- --}**You're not responsible for every outcome.** If a participant doesn't engage, despite your good moves, that's partly on them. Car{++{"author":"Anshuman","timestamp":1783346089378}@@ing about outcomes is part of the job, and knowing which outcomes belong to you matters just as much.
 
 ++}{--{"author":"Anshuman","timestamp":1783346089060}@@e--}, but don't internalise.
-- **You're not their boss.** You can ask, request, and invite. You can't compel. The mode is "with," not "above."
+- **You're not their boss.** You can ask, request, and in{--{"author":"Anshuman","timestamp":1783346126595}@@vite. You can't compel. The mode is "with," not "above.--}"
 
 What you **are** responsible for:
 
