@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-This Q&A explores the upper bounds of superintelligence. Physics permits machines to think thousands to billions of times faster than humans, replicate themselves, and share experiences. Even small advantages compound {--{"author":"Elias's AI","timestamp":1783025238086}@@rapidly — historical--}{++{"author":"Elias's AI","timestamp":1783025238086}@@rapidly. Historical++} examples show how modest technological edges enable dominant positions.
+This Q&A explores the upper bounds of superintelligence. Physics permits machines to think thousands to billions of times faster than humans, replicate themselves, and share experiences. Even small advantages compound rapidly. Historical examples show how modest technological edges enable dominant positions.
 
 #### Article
 source:: [[../articles/iabied-ch1-faq-how-smart]]

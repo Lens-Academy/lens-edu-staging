@@ -27,7 +27,7 @@ The student just read a supplementary Q&A from the book's website about whether 
 TLDR: Specific moves are unpredictable, but outcomes are foreseeable. You can't predict Stockfish's moves but can predict it will win. This distinction between predicting actions and predicting outcomes is crucial for thinking about superintelligent AI.
 
 Discussion topics:
-- Does the Stockfish analogy hold up? Chess has fixed {--{"author":"Elias's AI","timestamp":1783025560933}@@rules — is--}{++{"author":"Elias's AI","timestamp":1783025560933}@@rules. Is++} the real world different enough to undermine the comparison?
+- Does the Stockfish analogy hold up? Chess has fixed rules. Is the real world different enough to undermine the comparison?
 - If we can predict that a superintelligence will achieve its goals but not how, what does that imply about our ability to constrain it?
 
 Ask what they found surprising or new.

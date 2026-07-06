@@ -19,4 +19,4 @@ The student is about to read the Introduction to "If Anyone Builds It, Everyone 
 
 They just answered: "What kinds of things about the future do you feel confident predicting? What makes a prediction feel like a sure thing versus a coin flip?"
 
-Acknowledge their answer in 1–2 sentences. Do not explain or preview the hard/easy calls {--{"author":"Elias's AI","timestamp":1783025125026}@@framework —--}{++{"author":"Elias's AI","timestamp":1783025125026}@@framework;++} they will encounter it in the reading. Close with something like: "Keep that in mind as you read. Head to the Introduction when you're ready and come back when you've finished."
+Acknowledge their answer in 1–2 sentences. Do not explain or preview the hard/easy calls framework; they will encounter it in the reading. Close with something like: "Keep that in mind as you read. Head to the Introduction when you're ready and come back when you've finished."

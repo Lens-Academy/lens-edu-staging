@@ -26,7 +26,7 @@ The student just read a supplementary Q&A from the book's website about the prac
 TLDR: Understanding LLM mechanics helps counter disinformation, inform policy, and distinguish what experts actually know (the training process) from what remains opaque (the trained system). Current LLMs use only about 1% of human brain parameters, suggesting massive capability headroom.
 
 Discussion topics:
-- {--{"author":"Elias's AI","timestamp":1783025271586}@@The --}{++{"author":"Elias's AI","timestamp":1783025271586}@@Does the ++}1% parameter comparison (LLMs vs. human brains){--{"author":"Elias's AI","timestamp":1783025271586}@@ — does this--} make superintelligence feel more imminent to you?
+- Does the 1% parameter comparison (LLMs vs. human brains) make superintelligence feel more imminent to you?
 - How should policymakers navigate AI regulation when the experts themselves don't understand their systems' internals?
 
 Ask what they found surprising or new.

@@ -19,7 +19,7 @@ id:: eefcafa7-65ed-4c7b-a73f-652d869494c2
 #### Question
 feedback:: true
 content::
-Chapter 1 makes a claim that cuts against a common {--{"author":"Elias's AI","timestamp":1783025777937}@@assumption —--}{++{"author":"Elias's AI","timestamp":1783025777937}@@assumption:++} that smarter AI will naturally be safer or more aligned with human goals.
+Chapter 1 makes a claim that cuts against a common assumption: that smarter AI will naturally be safer or more aligned with human goals.
 
 What do the authors mean when they say intelligence is "direction-agnostic"? And why does that matter for safety?
 
@@ -29,11 +29,11 @@ Score according to the following rubric.
 
 **2** — Accepts the direction-agnostic claim in principle but treats it as a minor caveat. *Example: "Intelligence doesn't guarantee good values, but a smart AI would probably still try to be helpful since that's what it was trained for."*
 
-**3** — Correctly explains direction-agnostic (intelligence amplifies whatever goal a system has; it doesn't determine what that goal is) and names the safety implication (a highly capable system pursuing the wrong goal is more dangerous, not less). *Example: "Direction-agnostic means intelligence is a {--{"author":"Elias's AI","timestamp":1783025782977}@@tool —--}{++{"author":"Elias's AI","timestamp":1783025782977}@@tool:++} it doesn't point itself toward good ends. A superintelligent AI pursuing the wrong goal would just be much better at pursuing it. More capable doesn't mean more aligned."*
+**3** — Correctly explains direction-agnostic (intelligence amplifies whatever goal a system has; it doesn't determine what that goal is) and names the safety implication (a highly capable system pursuing the wrong goal is more dangerous, not less). *Example: "Direction-agnostic means intelligence is a tool: it doesn't point itself toward good ends. A superintelligent AI pursuing the wrong goal would just be much better at pursuing it. More capable doesn't mean more aligned."*
 
-**4** — As above, plus articulates the hostility/misalignment distinction: a dangerous AI doesn't need hostile intent, just misaligned goals. *Example: Adds "It doesn't have to want to hurt us. It just needs to have goals that are indifferent to our {--{"author":"Elias's AI","timestamp":1783025787613}@@survival — and that's--}{++{"author":"Elias's AI","timestamp":1783025787613}@@survival. That's++} the more realistic concern."*
+**4** — As above, plus articulates the hostility/misalignment distinction: a dangerous AI doesn't need hostile intent, just misaligned goals. *Example: Adds "It doesn't have to want to hurt us. It just needs to have goals that are indifferent to our survival. That's the more realistic concern."*
 
-**5** — As above, plus applies the concept to rebut a common objection (e.g., "Won't it share our values because it learned from human data?" or "Won't it keep us alive as a resource?"). *Example: "People say it'll have human values because it trained on human {--{"author":"Elias's AI","timestamp":1783025792773}@@text — but--}{++{"author":"Elias's AI","timestamp":1783025792773}@@text. But++} that assumes it internalized what humans want rather than just learned to predict what humans say. Those are very different things."*
+**5** — As above, plus applies the concept to rebut a common objection (e.g., "Won't it share our values because it learned from human data?" or "Won't it keep us alive as a resource?"). *Example: "People say it'll have human values because it trained on human text. But that assumes it internalized what humans want rather than just learned to predict what humans say. Those are very different things."*
 
 ## Lens:
 source:: ![[../Lenses/IABIED - Intelligence Is Direction-Agnostic - PQ]]

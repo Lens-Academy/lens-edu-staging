@@ -9,7 +9,7 @@ tags:
 
 #### Text
 content::
-This is supplementary material from the book's online resources at ifanyonebuildsit.com/1. It explores how smart a superintelligence could theoretically {--{"author":"Elias's AI","timestamp":1783025233049}@@get —--}{++{"author":"Elias's AI","timestamp":1783025233049}@@get:++} what are the physical and theoretical upper bounds?
+This is supplementary material from the book's online resources at ifanyonebuildsit.com/1. It explores how smart a superintelligence could theoretically get: what are the physical and theoretical upper bounds?
 
 TODO: Embed Q&A content from ifanyonebuildsit.com/1
 

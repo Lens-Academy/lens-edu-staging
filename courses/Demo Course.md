@@ -21,7 +21,7 @@ The following two modules will be in week 2, followed by the next meeting %%
 # Module: [[../modules/demo-module-with-hidden-imports|Hidden imports demo]]
 
 %% Lenses can require interaction before learners may mark them complete: a minimum number of chat messages, or an answered question. The next module explains the `min-chat-messages::` field and demonstrates each case. %%
-# Module: {--{"author":"Elias's AI","timestamp":1783157649406}@@[[../modules/min-chat-messages-demo|Interaction--}{++{"author":"Elias's AI","timestamp":1783157649406}@@[[../modules/min-chat-messages-demo|Interaction++} requirements demo]]
+# Module: {--{"author":"Elias's AI","timestamp":1783157649406}@@[[../modules/min-chat-messages-demo|Interaction--}[[../modules/min-chat-messages-demo|Interaction requirements demo]]
 
 # Meeting: Name of the second meeting
 

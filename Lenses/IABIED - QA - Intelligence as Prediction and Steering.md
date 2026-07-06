@@ -24,7 +24,7 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about intelligence decomposed into prediction and steering.
 
-TLDR: Intelligence has two components: prediction (objective, converging) and steering (subjective, a free parameter). Making AI more capable automatically improves its predictions, but its steering {--{"author":"Elias's AI","timestamp":1783025262640}@@— what--}{++{"author":"Elias's AI","timestamp":1783025262640}@@(what++} goals it {--{"author":"Elias's AI","timestamp":1783025262640}@@pursues —--}{++{"author":"Elias's AI","timestamp":1783025262640}@@pursues)++} remains completely unconstrained by capability improvements.
+TLDR: Intelligence has two components: prediction (objective, converging) and steering (subjective, a free parameter). Making AI more capable automatically improves its predictions, but its steering (what goals it pursues) remains completely unconstrained by capability improvements.
 
 Discussion topics:
 - The claim that "accuracy converges; steering does not" is central to the alignment problem. Does this framing make the challenge clearer?
