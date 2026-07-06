@@ -27,7 +27,7 @@ The student just read a supplementary Q&A from the book's website about whether 
 TLDR: No. Even the CEOs of major AI companies acknowledge limited understanding. Interpretability research receives roughly 0.1% of capability-building resources. The Transluce breakthrough (fixing the 9.11 > 9.9 error) took months of research for what would be trivial in a five-line program.
 
 Discussion topics:
-- The Andreessen Horowitz {--{"author":"Elias's AI","timestamp":1783025168560}@@incident —--}{++{"author":"Elias's AI","timestamp":1783025168560}@@incident:++} what does it tell you about the reliability of public claims about AI safety?
+- The Andreessen Horowitz incident: what does it tell you about the reliability of public claims about AI safety?
 - The 9.11/9.9 debugging example is both encouraging (progress!) and sobering (months for one bug). How do you weigh those two reactions?
 
 Ask what they found surprising or new.

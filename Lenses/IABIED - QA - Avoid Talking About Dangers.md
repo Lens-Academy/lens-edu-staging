@@ -24,7 +24,7 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about whether discussing AI dangers publicly could give AIs bad ideas.
 
-TLDR: Silencing public discourse would cripple humanity's ability to coordinate on AI safety while providing minimal {--{"author":"Elias's AI","timestamp":1783025095014}@@protection —--}{++{"author":"Elias's AI","timestamp":1783025095014}@@protection:++} a sufficiently capable AI would figure out dangerous strategies independently, and any design that fails under scrutiny is already broken.
+TLDR: Silencing public discourse would cripple humanity's ability to coordinate on AI safety while providing minimal protection: a sufficiently capable AI would figure out dangerous strategies independently, and any design that fails under scrutiny is already broken.
 
 Discussion topics:
 - Does the principle "if your AI breaks from public scrutiny, don't build it" seem like a good litmus test for AI safety approaches?

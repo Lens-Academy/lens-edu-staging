@@ -27,7 +27,7 @@ The student just read a supplementary Q&A from the book's website about whether 
 TLDR: Probably not. Humans run on 100 watts (proving intelligence doesn't need massive power), AI hardware efficiency improves 40% yearly, and hundreds of billions in private investment make AI winters unlikely. The field has historically overcome every obstacle thrown at it.
 
 Discussion topics:
-- The "100 watts" argument {--{"author":"Elias's AI","timestamp":1783025322774}@@—--}{++{"author":"Elias's AI","timestamp":1783025322774}@@says++} humans prove general intelligence is energy-efficient, so current AI power consumption is just an engineering problem. Is this convincing?
+- The "100 watts" argument says humans prove general intelligence is energy-efficient, so current AI power consumption is just an engineering problem. Is this convincing?
 - If resource constraints won't stop AI development, what does that imply about the importance of policy intervention?
 
 Ask what they found surprising or new.

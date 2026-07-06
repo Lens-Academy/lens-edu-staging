@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-This Q&A tackles the timeline question head-on. The authors show how forecasting communities have repeatedly been forced to move their AGI predictions earlier {--{"author":"Elias's AI","timestamp":1783025578046}@@— from--}{++{"author":"Elias's AI","timestamp":1783025578046}@@(from++} 2049 to 2037 to {--{"author":"Elias's AI","timestamp":1783025578046}@@2033 —--}{++{"author":"Elias's AI","timestamp":1783025578046}@@2033)++} and how even superforecasters dramatically underestimated the pace of AI progress on concrete benchmarks.
+This Q&A tackles the timeline question head-on. The authors show how forecasting communities have repeatedly been forced to move their AGI predictions earlier (from 2049 to 2037 to 2033) and how even superforecasters dramatically underestimated the pace of AI progress on concrete benchmarks.
 
 #### Article
 source:: [[../articles/iabied-intro-faq-when-developed]]
@@ -24,7 +24,7 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about when dangerous AI might be developed.
 
-TLDR: Nobody knows the timeline, but expert forecasts keep getting {--{"author":"Elias's AI","timestamp":1783025580261}@@shorter —--}{++{"author":"Elias's AI","timestamp":1783025580261}@@shorter:++} from 2049 to 2033 in just two years. Even superforecasters assigned only 2.3% to AI winning Math Olympiad gold by 2025, which then happened. The authors argue we must act under uncertainty.
+TLDR: Nobody knows the timeline, but expert forecasts keep getting shorter: from 2049 to 2033 in just two years. Even superforecasters assigned only 2.3% to AI winning Math Olympiad gold by 2025, which then happened. The authors argue we must act under uncertainty.
 
 Discussion topics:
 - Does the pattern of forecasters consistently being too conservative change how much weight you put on current timeline estimates?

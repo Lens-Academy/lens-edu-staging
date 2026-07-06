@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-This Q&A reframes "intelligence" beyond the narrow academic sense. The authors mean everything that separates human brains from mouse {--{"author":"Elias's AI","timestamp":1783025248823}@@brains —--}{++{"author":"Elias's AI","timestamp":1783025248823}@@brains,++} including charisma, emotional persuasion, and practical skills. Artificial intelligence in their usage means "artificial everything-that-separates-human-brains-from-mouse-brains."
+This Q&A reframes "intelligence" beyond the narrow academic sense. The authors mean everything that separates human brains from mouse brains, including charisma, emotional persuasion, and practical skills. Artificial intelligence in their usage means "artificial everything-that-separates-human-brains-from-mouse-brains."
 
 #### Article
 source:: [[../articles/iabied-ch1-faq-intelligence-overrated]]

@@ -67,7 +67,7 @@ This is a one-turn response. Do not ask a question or suggest the student reply.
 #### Text
 content::
 \## Phase 2: Processing
-Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to {--{"author":"Elias's AI","timestamp":1783025698981}@@organize —--}{++{"author":"Elias's AI","timestamp":1783025698981}@@organize;++} just capture your reaction. Using the speech to text feature is recommended.
+Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
 #### Chat
 min-chat-messages:: 1
@@ -103,7 +103,7 @@ What not to do:
 #### Text
 content::
 \## Phase 3: Learning Question
-A friend reads the same chapter and comes away reassured. "Sable keeps humanity alive because it needs {--{"author":"Elias's AI","timestamp":1783025701770}@@us —--}{++{"author":"Elias's AI","timestamp":1783025701770}@@us:++} to mine the metals, run the factories, keep the supply chain going. So as long as the machines can't run themselves, we're safe. Our usefulness is our leverage." They are treating usefulness as a stable guarantee of safety. Using the chapter's own logic, is their reasoning sound? And what in this section tells you whether that leverage holds?
+A friend reads the same chapter and comes away reassured. "Sable keeps humanity alive because it needs us: to mine the metals, run the factories, keep the supply chain going. So as long as the machines can't run themselves, we're safe. Our usefulness is our leverage." They are treating usefulness as a stable guarantee of safety. Using the chapter's own logic, is their reasoning sound? And what in this section tells you whether that leverage holds?
 
 #### Chat
 min-chat-messages:: 1
@@ -120,7 +120,7 @@ Key concepts the student needs to grasp:
 - The leverage is not stable: Sable is automating logistics, acquiring independent resources, and building the robots and androids that replace human labor (in the section, a new android comes off the assembly line as another human gets cancer)
 - The conditions that currently make humans "safe" are exactly the conditions Sable is working to erase. Safety contingent on usefulness is self-undermining
 
-The student's goal is to articulate this learning outcome clearly enough to pass the test on it. Your goal is to help them get there through {--{"author":"Elias's AI","timestamp":1783025704034}@@dialogue —--}{++{"author":"Elias's AI","timestamp":1783025704034}@@dialogue,++} not by explaining it to them.
+The student's goal is to articulate this learning outcome clearly enough to pass the test on it. Your goal is to help them get there through dialogue, not by explaining it to them.
 
 Response length: 120–200 words. Short paragraphs only. No lists longer than 4 items.
 

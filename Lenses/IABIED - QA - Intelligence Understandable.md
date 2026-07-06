@@ -24,10 +24,10 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about whether intelligence is understandable in principle.
 
-TLDR: Probably {--{"author":"Elias's AI","timestamp":1783025256040}@@yes — just--}{++{"author":"Elias's AI","timestamp":1783025256040}@@yes. Just++} as "vital force" skeptics were wrong about biology, skeptics about understanding AI internals are likely wrong too. But the field is barely 1/50th of the way there, and current understanding falls far short of what engineers had with deliberately designed systems like Deep Blue.
+TLDR: Probably yes. Just as "vital force" skeptics were wrong about biology, skeptics about understanding AI internals are likely wrong too. But the field is barely 1/50th of the way there, and current understanding falls far short of what engineers had with deliberately designed systems like Deep Blue.
 
 Discussion topics:
 - Does "understandable in principle" help if we need understanding before superintelligence arrives? How do you reconcile the timeline problem?
-- {--{"author":"Elias's AI","timestamp":1783025258424}@@The --}{++{"author":"Elias's AI","timestamp":1783025258424}@@Consider the ++}parallel to pre-biochemistry skepticism about {--{"author":"Elias's AI","timestamp":1783025258424}@@life — is--}{++{"author":"Elias's AI","timestamp":1783025258424}@@life. Is++} this a fair comparison, or is AI understanding harder for specific reasons?
+- Consider the parallel to pre-biochemistry skepticism about life. Is this a fair comparison, or is AI understanding harder for specific reasons?
 
 Ask what they found surprising or new.
