@@ -12,6 +12,7 @@ content:: Two short concepts from *The Authentic Facilitator* (Authentic Revolut
 - **Four leadership perspectives.** A facilitator is always tracking four things at once: {++{"author":"Anshuman","timestamp":1783347518879}@@
 
  1. ++}{--{"author":"Anshuman","timestamp":1783347535016}@@t--}{++{"author":"Anshuman","timestamp":1783347538991}@@Themselves: ++}{--{"author":"Anshuman","timestamp":1783347553726}@@hemselves--}{++{"author":"Anshuman","timestamp":1783347503047}@@, meaning are you clear and regulated++}{++{"author":"Anshuman","timestamp":1783347575511}@@
- 2. The Individual speaking,++} (am I clear? regulated?), the individual speaking (what do they need right now?), the group (what's the energy? Who hasn't spoken?), and the context (where are we in the session arc?). Most rookie facilitators track only one or two. The skill, over time, is widening the lens to all four.
+ 2. The Individual speaking, meaning what do they need right now?
+ 3. The group, meaning ++} (am I clear? regulated?), the individual speaking (what do they need right now?), the group (what's the energy? Who hasn't spoken?), and the context (where are we in the session arc?). Most rookie facilitators track only one or two. The skill, over time, is widening the lens to all four.
 
 Both of these come back in Module 4 with practical moves. For now, just notice the frame.
