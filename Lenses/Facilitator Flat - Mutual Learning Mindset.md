@@ -6,9 +6,9 @@ tags:
   - facilitator-training
 ---
 #### Text
-content:: {++{"author":"Anshuman","timestamp":1783339162303}@@Facilitators work from a mental posture called the - Mutual Learning Mindset, developed by organisational researcher Roger Schwarz and brought into facilitation training through the Curiosity Society's Facilitator's Handbook. ++}{--{"author":"Anshuman","timestamp":1783339245191}@@T--}he {--{"author":"Anshuman","timestamp":1783339259409}@@mental posture facilitators are supposed to operate from has a name: the **mutual --}learning mindset**, originally from organisational {--{"author":"Anshuman","timestamp":1783339251349}@@researcher Roger Schwarz, popularised in the *Curiosity Society Facilitator's Handbook*.--}
+content:: {++{"author":"Anshuman","timestamp":1783339162303}@@Facilitators work from a mental posture called the - Mutual Learning Mindset, developed by organisational researcher Roger Schwarz and brought into facilitation training through the Curiosity Society's Facilitator's Handbook. ++}{--{"author":"Anshuman","timestamp":1783339245191}@@T--}{--{"author":"Anshuman","timestamp":1783339259409}@@he mental posture facilitators are supposed to operate from has a name: the **mutual learning mindset**, originally from organisational--} {--{"author":"Anshuman","timestamp":1783339251349}@@researcher Roger Schwarz, popularised in the *Curiosity Society Facilitator's Handbook*.--}
 
-It has five values:
+It h{--{"author":"Anshuman","timestamp":1783339273888}@@as--} five values:
 
 1. **Transparency** — Share your thinking. Don't hide what you're noticing or why you're asking the question.
 2. **Curiosity** — Assume there's something you don't know. The participant who said the surprising thing probably has a reason.
