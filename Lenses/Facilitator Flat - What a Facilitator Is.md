@@ -27,7 +27,7 @@ content:: {++{"author":"Anshuman","timestamp":1783343644113}@@Being clear about 
 
 What you **are** {--{"author":"Anshuman","timestamp":1783346158276}@@r--}esponsible {--{"author":"Anshuman","timestamp":1783346147734}@@f--}or:
 
-- That the space is safe enough for honest contribution.
+- {--{"author":"Anshuman","timestamp":1783346387933}@@That--} the space is safe enough for honest contribution.
 - That the time is used in a way that serves the group's learning.
 - That weak claims don't pass unexamined just because they're popular.
 - That every voice gets enough air, and no one voice takes too much.
