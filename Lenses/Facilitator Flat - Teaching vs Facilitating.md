@@ -23,7 +23,7 @@ A facilitator's job is{++{"author":"Anshuman","timestamp":1783335718131}@@ diffe
 
 \## Watch (5 min)
 
-{++{"author":"Anshuman","timestamp":1783336988624}@@Watch this video before mov++}{--{"author":"Anshuman","timestamp":1783336986217}@@Video — **Instructor vs Facilitator** — Bill Wilder (5 min)--} — https://www.youtube.com/watch?v=J3IUyZiXAQo
+{++{"author":"Anshuman","timestamp":1783336988624}@@Watch this video before moving on: ++}{--{"author":"Anshuman","timestamp":1783336986217}@@Video — **Instructor vs Facilitator** — Bill Wilder (5 min)--} — https://www.youtube.com/watch?v=J3IUyZiXAQo
 
 As you watch, hold this question: which mode do you naturally default to? Most people who sign up to facilitate default to teaching, because that's the model they've seen most often. Knowing your default is the first move.{>>{"author":"Chris Lonsberry","timestamp":1781198351160}@@CGL > Already watched the video by the time I read this.<<}
 
