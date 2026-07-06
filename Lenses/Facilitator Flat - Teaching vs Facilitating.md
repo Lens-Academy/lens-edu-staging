@@ -31,7 +31,7 @@ As you watch, hold this question: which mode do you naturally default to? Most p
 
 In an online setting, the {--{"author":"Anshuman","timestamp":1783337877938}@@gravitational --}pull toward teaching is even stronger{++{"author":"Anshuman","timestamp":1783337958881}@@ because++}:
 
-- {++{"author":"Anshuman","timestamp":1783337985222}@@Reading body language on a screen is harder, which makes silence fe++}{--{"author":"Anshuman","timestamp":1783337984333}@@You can't read body language easily, so silence feels worse.--}
+- {++{"author":"Anshuman","timestamp":1783337985222}@@Reading body language on a screen is harder, which makes silence feel heavier than it does in a room.++}{--{"author":"Anshuman","timestamp":1783337984333}@@You can't read body language easily, so silence feels worse.--}
 - You're framed in a box at the centre of attention — it looks like you should be talking.
 - Participants are often passive in other online contexts (Zoom calls, lectures, webinars), so their default is to listen, not to speak.
 
