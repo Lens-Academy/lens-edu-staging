@@ -10,7 +10,7 @@ content:: {++{"author":"Anshuman","timestamp":1783339162303}@@Facilitators work 
 
 It {++{"author":"Anshuman","timestamp":1783339276347}@@rests on++}{--{"author":"Anshuman","timestamp":1783339273888}@@has--} five values:
 
-1. **Transparency** {++{"author":"Anshuman","timestamp":1783339523857}@@means sharing your thinking as you go. When you notice something in the room, you say it out loud, and when you're asking a question for a++}{--{"author":"Anshuman","timestamp":1783339522916}@@—--} Share your thinking. Don't hide what you're noticing or why you're asking the question.
+1. **Transparency** {++{"author":"Anshuman","timestamp":1783339523857}@@means sharing your thinking as you go. When you notice something in the room, you say it out loud, and when you're asking a question for a specific reason, you let people see why you're asking the q++}{--{"author":"Anshuman","timestamp":1783339522916}@@—--} Share your thinking. Don't hide what you're noticing or why you're asking the question.
 2. **Curiosity** — Assume there's something you don't know. The participant who said the surprising thing probably has a reason.
 3. **Informed choice** — Give people enough information to make their own decisions about what to engage with. Don't pre-decide for them.
 4. **Accountability** — You're responsible for the space, even when participants make it difficult.
