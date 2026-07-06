@@ -24,7 +24,7 @@ source:: ![[../Lenses/Facilitator Flat - Mutual Learning Mindset]]
 source:: ![[../Lenses/Facilitator Flat - What a Facilitator Is]]
 
 # Lens: 1.4 Two postures worth knowing about
-source:: ![[../Lenses/Facilitator Flat - Two Postures]]
+source:: ![[../Lenses/Facilitator Flat - Two Frames]]
 
 # Lens: Closing exercise
 source:: ![[../Lenses/Facilitator Flat - M1 Closing Exercise]]
