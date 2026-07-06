@@ -6,7 +6,7 @@ tags:
   - facilitator-training
 ---
 #### Text
-content:: {++{"author":"Anshuman","timestamp":1783341915484}@@
+content:: {++{"author":"Anshuman","timestamp":1783343644113}@@Being clear about your role as a facilitator means being equally clear about where it ends. It's important to gThe points below are worth sitting with, because each one describes a boundary that actually makes you more effective when you understand it.++}{++{"author":"Anshuman","timestamp":1783341915484}@@
 
 
 
