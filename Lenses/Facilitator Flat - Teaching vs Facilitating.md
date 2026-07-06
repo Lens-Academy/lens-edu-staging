@@ -18,7 +18,7 @@ A facilitator's job is{++{"author":"Anshuman","timestamp":1783335718131}@@ diffe
 | Someone is wrong | Correct them | Ask a question that exposes the issue |
 | Conversation goes quiet | Fill the silence | Wait (5–10 seconds) |
 | Someone dominates | Let them; they're engaged | Redirect the conversation and open to the group  |
-| You don't know | Look it up later | Say so out loud; ask the group |
+| You don't know | Look it up later | Say so out loud and ask the group |
 | At the end | "Today we covered…" | "What did each of you take from this?" |
 
 \## Watch (5 min)
