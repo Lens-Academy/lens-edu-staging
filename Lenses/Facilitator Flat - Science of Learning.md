@@ -23,7 +23,7 @@ As you read, look for these six mechanisms in particular{++{"author":"Anshuman",
 
 2. **Generation effect.** Producing an answer yourself{++{"author":"Anshuman","timestamp":1783349478778}@@, ++}{--{"author":"Anshuman","timestamp":1783349474342}@@ — --}even an imperfect one{++{"author":"Anshuman","timestamp":1783349500691}@@, ++}{--{"author":"Anshuman","timestamp":1783349496214}@@ —--} strengthens memory more than reading the {++{"author":"Anshuman","timestamp":1783349514084}@@correct++}{--{"author":"Anshuman","timestamp":1783349512387}@@right--} answer. Asking participants *"what do you think this means?"* before offering an interpretation is {++{"author":"Anshuman","timestamp":1783349540002}@@worth doing, because the act of reaching for an answer is where a lot of the learning happens.++}{--{"author":"Anshuman","timestamp":1783349566434}@@better than the reverse.--}
 
-3. **Spacing & interleaving.** Encountering the same idea multiple times across days beats encountering it many times in a single sitting. A weekly cohort discussion isn't an inferior version of a one-day workshop — it's the better format, for retention.
+3. **Spacing & interleaving.** Encountering the same idea multiple times across {++{"author":"Anshuman","timestamp":1783349575486}@@multiple ++}days beats encountering it many times in a single sitting. A weekly cohort discussion isn't an inferior version of a one-day workshop — it's the better format, for retention.
 
 4. **Elaboration & connection.** Knowledge stored in connection to other knowledge is more usable than isolated facts. When a participant says *"this reminds me of…"*, that's not a tangent; it's the brain doing the work that makes the material durable.
 
