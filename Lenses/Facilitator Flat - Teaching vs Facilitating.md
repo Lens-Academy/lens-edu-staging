@@ -33,6 +33,6 @@ In an online setting, the {--{"author":"Anshuman","timestamp":1783337877938}@@gr
 
 - {++{"author":"Anshuman","timestamp":1783337985222}@@Reading body language on a screen is harder, which makes silence feel heavier than it does in a room.++}{--{"author":"Anshuman","timestamp":1783337984333}@@You can't read body language easily, so silence feels worse.--}
 - You're framed in a box at the centre of attention{++{"author":"Anshuman","timestamp":1783338022327}@@, which looks like an invitation to keep talking.++}{--{"author":"Anshuman","timestamp":1783338019588}@@ —--} it looks like you should be talking.
-- Participants {++{"author":"Anshuman","timestamp":1783338079217}@@also carry habits from Zoom calls and webinars where the expectation is to absorb++}are often passive in other online contexts (Zoom calls, lectures, webinars), so their default is to listen, not to speak.
+- Participants {++{"author":"Anshuman","timestamp":1783338079217}@@also carry habits from Zoom calls and webinars where the expectation is to absorb, and that habbit follows them into your session. ++}are often passive in other online contexts (Zoom calls, lectures, webinars), so their default is to listen, not to speak.
 
 If you don't actively resist the pull toward teaching, you will drift into it within ten minutes. The rest of this course is largely about that resistance.
