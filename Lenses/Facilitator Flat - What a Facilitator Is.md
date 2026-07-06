@@ -8,7 +8,7 @@ tags:
 #### Text
 content:: {++{"author":"Anshuman","timestamp":1783341915484}@@
 
-Your job as a facilitator is a process, and some participants will come in knowing the material more deeply than you do, which is fine because what you're holding is the shape of the conversation.++}{++{"author":"Anshuman","timestamp":1783341968749}@@
+Your job as a facilitator is a process, and some participants will come in knowing the material more deeply than you do, which is fine because what you're holding is the shape of the conversatio.++}{++{"author":"Anshuman","timestamp":1783341968749}@@
 
 ++}{--{"author":"Anshuman","timestamp":1783341914181}@@The other half of clarity about your role is knowing where it ends.--}
 
