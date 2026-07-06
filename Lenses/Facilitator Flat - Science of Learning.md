@@ -21,7 +21,7 @@ As you read, look for these six mechanisms in particular{++{"author":"Anshuman",
 
 1. **Desirable difficulty.**{++{"author":"Anshuman","timestamp":1783349066038}@@ Material that requires effort to retrieve sticks better than material that feels easy going in.++} {--{"author":"Anshuman","timestamp":1783349097006}@@Learning that feels too easy doesn't stick. Material that requires effort to retrieve is retained better.--} Discussion {++{"author":"Anshuman","timestamp":1783349117437}@@asks more of participants than re-reading the same text does, and that extra effort involves doing useful work. ++}{--{"author":"Anshuman","timestamp":1783349152892}@@is harder than re-reading. That's a feature.--}
 
-2. **Generation effect.** Producing an answer yourself — even an imperfect one — strengthens memory more than reading the right answer. Asking participants *"what do you think this means?"* before offering an interpretation is better than the reverse.
+2. **Generation effect.** Producing an answer yourself{++{"author":"Anshuman","timestamp":1783349476873}@@. ++}{--{"author":"Anshuman","timestamp":1783349474342}@@ — --}even an imperfect one — strengthens memory more than reading the right answer. Asking participants *"what do you think this means?"* before offering an interpretation is better than the reverse.
 
 3. **Spacing & interleaving.** Encountering the same idea multiple times across days beats encountering it many times in a single sitting. A weekly cohort discussion isn't an inferior version of a one-day workshop — it's the better format, for retention.
 
