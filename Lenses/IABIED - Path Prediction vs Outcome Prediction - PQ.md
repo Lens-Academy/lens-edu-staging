@@ -19,4 +19,4 @@ The student is about to read the Coda of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "Can you be confident about an outcome without being able to predict the specific path that leads there?"
 
-Acknowledge their answer in 1–2 sentences. Do NOT explain the Stockfish analogy, preview the path/outcome distinction, or discuss what the book claims as a prediction. They will encounter all of that in the reading. Close with: "Hold that intuition as you read. Head to the Coda when you're ready and {--{"author":"Elias's AI","timestamp":1783362021994}@@come back here--}{++{"author":"Elias's AI","timestamp":1783362021994}@@move on to the next lens++} after you've finished."
+Acknowledge their answer in 1–2 sentences. Do NOT explain the Stockfish analogy, preview the path/outcome distinction, or discuss what the book claims as a prediction. They will encounter all of that in the reading. Close with: "Hold that intuition as you read. Head to the Coda when you're ready and move on to the next lens after you've finished."

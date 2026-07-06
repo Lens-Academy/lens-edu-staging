@@ -19,4 +19,4 @@ The student is about to read the second half of Chapter 2 ("Grown, Not Crafted")
 
 They just answered: "Could there be a difference between an AI that acts aligned and one that is aligned?"
 
-Acknowledge their answer in 1–2 sentences. Do NOT explain the behavior/values distinction or the actor analogy. They will encounter it in the reading. Close with: "Hold onto that intuition as you read. {--{"author":"Elias's AI","timestamp":1783361998827}@@Come back here--}{++{"author":"Elias's AI","timestamp":1783361998827}@@Move on to the next lens++} after you've finished the assigned section."
+Acknowledge their answer in 1–2 sentences. Do NOT explain the behavior/values distinction or the actor analogy. They will encounter it in the reading. Close with: "Hold onto that intuition as you read. Move on to the next lens after you've finished the assigned section."

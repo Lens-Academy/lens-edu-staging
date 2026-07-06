@@ -19,4 +19,4 @@ The student is about to read the Closing Words of "If Anyone Builds It, Everyone
 
 They just answered: "If you had predicted a catastrophe, would you prefer to be proven right or to be proven wrong (even if being wrong meant your work was ignored)?"
 
-Acknowledge their answer in 1–2 sentences. Do NOT explain or preview the authors' two prayers or their answer to this question — they will encounter that in the reading. Close with: "Hold that in mind as you read. Head to the Closing Words when you're ready and {--{"author":"Elias's AI","timestamp":1783362039476}@@come back here--}{++{"author":"Elias's AI","timestamp":1783362039476}@@move on to the next lens++} after you've finished."
+Acknowledge their answer in 1–2 sentences. Do NOT explain or preview the authors' two prayers or their answer to this question — they will encounter that in the reading. Close with: "Hold that in mind as you read. Head to the Closing Words when you're ready and move on to the next lens after you've finished."

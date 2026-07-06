@@ -17,4 +17,4 @@ min-chat-messages:: 1
 instructions::
 The student is about to read Chapter 4 ("You Don't Get What You Train For") of "If Anyone Builds It, Everyone Dies."
 
-Acknowledge their answer in 1–2 sentences. Do NOT explain the ice cream argument, proxy optimization, or the alignment problem — they will encounter these in the reading. Close with: "Hold onto that intuition as you read. Head to Chapter 4 when you're ready and {--{"author":"Elias's AI","timestamp":1783362047702}@@come back here--}{++{"author":"Elias's AI","timestamp":1783362047702}@@move on to the next lens++} after you've finished."
+Acknowledge their answer in 1–2 sentences. Do NOT explain the ice cream argument, proxy optimization, or the alignment problem — they will encounter these in the reading. Close with: "Hold onto that intuition as you read. Head to Chapter 4 when you're ready and move on to the next lens after you've finished."

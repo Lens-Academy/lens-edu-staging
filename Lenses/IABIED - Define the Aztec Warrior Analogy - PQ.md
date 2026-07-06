@@ -19,4 +19,4 @@ The student is about to read Chapter 6, section 1 of "If Anyone Builds It, Every
 
 They just answered: "Can you predict who wins a contest without being able to predict the specific moves or mechanisms they'll use?"
 
-Acknowledge their answer in 1-2 sentences. Do NOT explain the Aztec warrior analogy, preview the chapter's capability argument, or discuss what mechanisms a superintelligence might use. They will encounter all of that in the reading. Close with: "Hold that intuition as you read. Head to Chapter 6, section 1 when you're ready and {--{"author":"Elias's AI","timestamp":1783362003562}@@come back here--}{++{"author":"Elias's AI","timestamp":1783362003562}@@move on to the next lens++} after you've finished."
+Acknowledge their answer in 1-2 sentences. Do NOT explain the Aztec warrior analogy, preview the chapter's capability argument, or discuss what mechanisms a superintelligence might use. They will encounter all of that in the reading. Close with: "Hold that intuition as you read. Head to Chapter 6, section 1 when you're ready and move on to the next lens after you've finished."

@@ -19,4 +19,4 @@ The student is about to read Chapter 9 of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "Does the absence of hostile intent mean you're safe from a powerful optimizing system?"
 
-Acknowledge their answer in 1–2 sentences. Do NOT explain the thermodynamic mechanism, preview the M3 goal-space argument, or discuss why indifference is more dangerous than malice; they will encounter all of that in the reading. Close with: "Hold that intuition as you read. Head to Chapter 9 when you're ready and {--{"author":"Elias's AI","timestamp":1783362011113}@@come back here--}{++{"author":"Elias's AI","timestamp":1783362011113}@@move on to the next lens++} after you've finished."
+Acknowledge their answer in 1–2 sentences. Do NOT explain the thermodynamic mechanism, preview the M3 goal-space argument, or discuss why indifference is more dangerous than malice; they will encounter all of that in the reading. Close with: "Hold that intuition as you read. Head to Chapter 9 when you're ready and move on to the next lens after you've finished."

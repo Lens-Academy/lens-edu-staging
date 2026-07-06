@@ -25,4 +25,4 @@ Acknowledge their answer in 1-2 sentences. Do NOT preview the five curses (speed
 
 If they offered features that overlap with the chapter's curses, briefly note that the chapter has a named version of one of them (without naming it): this gives them the "was I right?" payoff. If they offered features the chapter doesn't name (cost, organizational dysfunction, lack of feedback), just note their list and let them find out for themselves.
 
-Close with: "Hold onto that list. Chapter 10 names five specific curses through three engineering case studies. When you're done with the assigned section, {--{"author":"Elias's AI","timestamp":1783362032843}@@come back here.--}{++{"author":"Elias's AI","timestamp":1783362032843}@@move on to the next lens.++}"
+Close with: "Hold onto that list. Chapter 10 names five specific curses through three engineering case studies. When you're done with the assigned section, move on to the next lens."
