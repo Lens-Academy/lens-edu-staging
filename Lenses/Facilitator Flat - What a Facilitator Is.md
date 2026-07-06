@@ -35,5 +35,5 @@ The session having a clear shape including a beginning, a middle and an end.
 ++}{--{"author":"Anshuman","timestamp":1783346393456}@@ th--}e space is safe enough for honest contribution.
 - That the time is used in a way{++{"author":"Anshuman","timestamp":1783346418829}@@- ++} that serves the group's learning.
 - That weak claims don't pass unexamined just because they're popular.
-- That every voice gets enough air, and no one voice takes too much.
-- That the session has a clear shape — a beginning, a middle, and an end.
+- That every voice gets en{--{"author":"Anshuman","timestamp":1783346530563}@@ough air, and no one voice takes too much.
+- That the session has a clear shape — a beginning, a middle, and an end.--}
