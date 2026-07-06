@@ -6,7 +6,7 @@ tags:
   - facilitator-training
 ---
 #### Text
-content:: Before you learn how to facilitate, you need to know what a facilitator actually **is** — and what they aren't.
+content:: Before you learn how to facilitate, you need to know what a facilitator actually **is** {--{"author":"Anshuman","timestamp":1783335360021}@@—--} and what they aren't.
 
 **Time:** 30 minutes
 **Format:** 3 short readings + 1 reflection exercise
