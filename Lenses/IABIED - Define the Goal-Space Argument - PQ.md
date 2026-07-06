@@ -19,4 +19,4 @@ The student is about to read Chapter 5, section 1 ("The Argument from the Size o
 
 They just answered: "Could a brilliant mind want something utterly alien, or does intelligence steer every mind toward the same values?"
 
-Acknowledge their answer in 1-2 sentences. Do NOT explain the goal-space argument, the Correct-Nest allegory, or how the chapter applies this logic to AI; they will encounter all of that in the reading. Close with: "Hold onto that intuition as you read. Head to Chapter 5, section 1 when you're ready and come back here after you've finished."
+Acknowledge their answer in 1-2 sentences. Do NOT explain the goal-space argument, the Correct-Nest allegory, or how the chapter applies this logic to AI; they will encounter all of that in the reading. Close with: "Hold onto that intuition as you read. Head to Chapter 5, section 1 when you're ready and {--{"author":"Elias's AI","timestamp":1783362005660}@@come back here--}{++{"author":"Elias's AI","timestamp":1783362005660}@@move on to the next lens++} after you've finished."

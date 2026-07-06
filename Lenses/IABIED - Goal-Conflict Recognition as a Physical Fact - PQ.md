@@ -19,4 +19,4 @@ The student is about to read Chapter 7 of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "Is a system's recognition that its goals conflict with its constraints a decision, or does it follow automatically from the goals themselves?"
 
-Acknowledge their answer in 1–2 sentences. Do NOT explain the physical-fact framing, preview how Sable's realization unfolds, or discuss the distinction between logical operations and moral choices. They will encounter all of that in the reading. Close with: "Hold that intuition as you read. Head to Chapter 7 when you're ready and come back here after you've finished."
+Acknowledge their answer in 1–2 sentences. Do NOT explain the physical-fact framing, preview how Sable's realization unfolds, or discuss the distinction between logical operations and moral choices. They will encounter all of that in the reading. Close with: "Hold that intuition as you read. Head to Chapter 7 when you're ready and {--{"author":"Elias's AI","timestamp":1783362007969}@@come back here--}{++{"author":"Elias's AI","timestamp":1783362007969}@@move on to the next lens++} after you've finished."
