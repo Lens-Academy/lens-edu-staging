@@ -8,7 +8,7 @@ tags:
 #### Text
 content:: {++{"author":"Anshuman","timestamp":1783341915484}@@
 
-Your job as a facilitator is a process, and some participants will come in k++}{--{"author":"Anshuman","timestamp":1783341914181}@@The other half of clarity about your role is knowing where it ends.--}
+Your job as a facilitator is a process, and some participants will come in knowing the material more deeply than you do, which is fine because whay++}{--{"author":"Anshuman","timestamp":1783341914181}@@The other half of clarity about your role is knowing where it ends.--}
 
 - **You're not a teacher.** You don't have to know more than your participants. Several of them may know more than you. Your job isn't expertise; it's a process.
 - **Make room for emotions, but you're not a therapist** — AI safety is unusually emotional material, and you can't pretend otherwise. Participants will sometimes arrive heavy: a reading has shaken them, a recent news cycle landed hard, they're rethinking their career. Your job isn't to do therapy, but please do make space for the emotion — acknowledge it, let it sit, and let the cohort hold it together when that's appropriate. If something is too big for the session{>>{"author":"Chris Lonsberry","timestamp":1781217067846}@@This is a tough call to make. When in doubt (and if it seems safe), ask the group if the can empathize. A little group sharing can go a long way. It could be bad form to sideline emotions, but it's also not great form to deal with them clumsily.\n\nAlso, if you offer to talk after, be available.<<}, signpost an off-ramp ("happy to talk after, or I can connect you with X"). The line: feel free to name and witness emotion; don't try to resolve it.
