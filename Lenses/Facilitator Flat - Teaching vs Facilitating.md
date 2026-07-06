@@ -29,7 +29,7 @@ As you watch, hold this question: which mode do you naturally default to? Most p
 --}
 \## Why this matters for online cohort discussions
 
-In an online setting, the {--{"author":"Anshuman","timestamp":1783337877938}@@gravitational --}pull toward teaching is even stronger:
+In an online setting, the {--{"author":"Anshuman","timestamp":1783337877938}@@gravitational --}pull toward teaching is even stronger{++{"author":"Anshuman","timestamp":1783337958881}@@ because++}:
 
 - You can't read body language easily, so silence feels worse.
 - You're framed in a box at the centre of attention — it looks like you should be talking.
