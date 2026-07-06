@@ -19,7 +19,7 @@ Stephen Kosslyn (Harvard, then Minerva, then the Active Learning Initiative) wro
 
 As you read, look for these six mechanisms in particular{++{"author":"Anshuman","timestamp":1783349021833}@@ since they're++}{--{"author":"Anshuman","timestamp":1783349020067}@@. --}{--{"author":"Anshuman","timestamp":1783349056008}@@They're--} the ones that justify the discussion format most directly:
 
-1. **Desirable difficulty.**{++{"author":"Anshuman","timestamp":1783349066038}@@ Material that requires effort to retrieve sticks better than material that feels easy going in.++} {++{"author":"Anshuman","timestamp":1783349107739}@@a++}{--{"author":"Anshuman","timestamp":1783349097006}@@Learning that feels too easy doesn't stick. Material that requires effort to retrieve is retained better.--} Discussion is harder than re-reading. That's a feature.
+1. **Desirable difficulty.**{++{"author":"Anshuman","timestamp":1783349066038}@@ Material that requires effort to retrieve sticks better than material that feels easy going in.++} {--{"author":"Anshuman","timestamp":1783349097006}@@Learning that feels too easy doesn't stick. Material that requires effort to retrieve is retained better.--} Discussion {++{"author":"Anshuman","timestamp":1783349117437}@@asks ++}is harder than re-reading. That's a feature.
 
 2. **Generation effect.** Producing an answer yourself — even an imperfect one — strengthens memory more than reading the right answer. Asking participants *"what do you think this means?"* before offering an interpretation is better than the reverse.
 
