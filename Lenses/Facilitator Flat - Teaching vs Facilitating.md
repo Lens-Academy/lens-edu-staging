@@ -35,4 +35,5 @@ In an online setting, the {--{"author":"Anshuman","timestamp":1783337877938}@@gr
 - You're framed in a box at the centre of attention{++{"author":"Anshuman","timestamp":1783338022327}@@, which looks like an invitation to keep talking.++}{--{"author":"Anshuman","timestamp":1783338019588}@@ —--} it looks like you should be talking.
 - Participants {++{"author":"Anshuman","timestamp":1783338079217}@@also carry habits from Zoom calls and webinars where the expectation is to absorb, and that habbit follows them into your session. ++}{--{"author":"Anshuman","timestamp":1783338113322}@@a--}re often passive in {--{"author":"Anshuman","timestamp":1783338127315}@@other online contexts (Zoom calls, lectures, webinars), so their default is to listen,--} {--{"author":"Anshuman","timestamp":1783338124107}@@not to speak.--}
 
-If you don't actively resist the pull toward teaching, you will drift into it within ten minutes. The rest of this course is largely about that resistance.
+{++{"author":"Anshuman","timestamp":1783338146095}@@The rest of this course is largely about building the a++}{--{"author":"Anshuman","timestamp":1783338145154}@@If you don't actively resist the pull toward teaching, you will drift into it within ten minutes. The rest of this course is largely about that resistance.
+--}
