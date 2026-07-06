@@ -21,9 +21,9 @@ content:: Being clear about your role as a facilitator means being equally clear
 
 **You're not responsible for every outcome.** If a participant doesn't engage, despite your good moves, that's partly on them. Caring about outcomes is part of the job, and knowing which outcomes belong to you matters just as much.
 
-"
+{--{"author":"Elias's AI","timestamp":1783362235991}@@"
 
-What you **are** esponsible or:
+--}What you **are** {--{"author":"Elias's AI","timestamp":1783362235991}@@esponsible or:--}{++{"author":"Elias's AI","timestamp":1783362235991}@@responsible for:++}
 
 The space being safe enough for honest contribution.
 The time being used in a way that serves the group's learning.
