@@ -12,7 +12,7 @@ A facilitator's job is{++{"author":"Anshuman","timestamp":1783335718131}@@ diffe
 
 {++{"author":"Anshuman","timestamp":1783336555891}@@ The below table might be helpful in listing down exact distinctions of responsibilities between a Teacher and a Facilitator:++}{--{"author":"Anshuman","timestamp":1783336554340}@@This is not a soft distinction. It changes almost every move you make:--}
 
-| Move | Teacher | Facilitator |
+| Action | W | Facilitator |
 | :---- | :---- | :---- |
 | Someone asks a question | Answer it | Reflect it back to the group |
 | Someone is wrong | Correct them | Ask a question that exposes the issue |
