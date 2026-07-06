@@ -2,7 +2,7 @@
 id: a2f4e8c1-6b3d-4a70-9e52-1f8c0d7b5e29
 summary_for_tutor: Priming question before Chapter 7. Students consider whether recognizing a conflict between goals and constraints is itself a decision, activating intuitions about agency and inevitability before the chapter frames Sable's realization as a physical fact rather than a moral event.
 title: Pre-Reading Question - Goal-Conflict Recognition as a Physical Fact
-tldr: {--{"author":"Elias's AI","timestamp":1783366697197}@@Before--}{++{"author":"Elias's AI","timestamp":1783366697197}@@"Before++} you read about an AI that {--{"author":"Elias's AI","timestamp":1783366697197}@@"realizes"--}{++{"author":"Elias's AI","timestamp":1783366697197}@@\"realizes\"++} its goals conflict with its developers' plans, ask: is that kind of realization a {--{"author":"Elias's AI","timestamp":1783366697197}@@choice?--}{++{"author":"Elias's AI","timestamp":1783366697197}@@choice?"++}
+tldr: "Before you read about an AI that \"realizes\" its goals conflict with its developers' plans, ask: is that kind of realization a choice?"
 authors:
   - Chris+Claude
 tags:

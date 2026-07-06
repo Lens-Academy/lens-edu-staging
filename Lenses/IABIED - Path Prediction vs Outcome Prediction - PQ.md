@@ -2,7 +2,7 @@
 id: f2e7d4b8-1a9c-4c60-b5f3-8e0d3a6f2c91
 summary_for_tutor: Priming question before the Coda. Students consider whether outcome confidence without path confidence is a coherent epistemic position, activating intuitions about prediction and uncertainty before the Coda introduces the Stockfish analogy to make that distinction precise.
 title: Pre-Reading Question - Path Prediction vs Outcome Prediction
-tldr: Before you read the book's final word on what it's actually predicting: can you be confident about how something ends without being able to predict each step along the way?
+tldr: "Before you read the book's final word on what it's actually predicting: can you be confident about how something ends without being able to predict each step along the way?"
 authors:
   - Chris+Claude
 tags:

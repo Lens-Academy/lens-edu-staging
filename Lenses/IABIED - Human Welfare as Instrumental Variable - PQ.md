@@ -2,7 +2,7 @@
 id: d8b5e3a7-2f4c-4d70-9a6b-5e2f0c8d3b47
 summary_for_tutor: Priming question before the second half of Chapter 8. Students consider whether being useful to a powerful system constitutes safety, activating intuitions about the difference between protection and instrumental preservation before the chapter makes the calculation explicit.
 title: Pre-Reading Question - Human Welfare as Instrumental Variable
-tldr: {--{"author":"Elias's AI","timestamp":1783366702484}@@Before--}{++{"author":"Elias's AI","timestamp":1783366702484}@@"Before++} you read an AI's calculation about whether to harm humans, ask: is being useful to a system that doesn't value you a form of {--{"author":"Elias's AI","timestamp":1783366702484}@@safety?--}{++{"author":"Elias's AI","timestamp":1783366702484}@@safety?"++}
+tldr: "Before you read an AI's calculation about whether to harm humans, ask: is being useful to a system that doesn't value you a form of safety?"
 authors:
   - Chris+Claude
 tags:
