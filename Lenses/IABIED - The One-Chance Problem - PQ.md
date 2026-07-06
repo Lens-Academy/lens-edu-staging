@@ -20,4 +20,4 @@ The student is about to read Chapter 12 ("I Don't Want to Be Alarmist") of "If A
 
 They just answered: "Think of a major historical disaster: a shipwreck, an industrial accident, a nuclear meltdown. After the disaster, something typically happens: investigations, safety reforms, design changes, new regulations. In what ways does that post-disaster learning process help? And what would have to be true about a future disaster for that process to be completely unavailable?"
 
-Acknowledge in 1–2 sentences. Do NOT explain or preview the concept. Close with: "Keep that in mind as you read Chapter 12. The chapter uses two specific historical disasters in a deliberate way. Come back here when you're done."
+Acknowledge in 1–2 sentences. Do NOT explain or preview the concept. Close with: "Keep that in mind as you read Chapter 12. The chapter uses two specific historical disasters in a deliberate way. {--{"author":"Elias's AI","timestamp":1783362036085}@@Come back here--}{++{"author":"Elias's AI","timestamp":1783362036085}@@Move on to the next lens++} when you're done."
