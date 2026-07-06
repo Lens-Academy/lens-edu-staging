@@ -16,4 +16,4 @@ content:: Two short concepts from *The Authentic Facilitator* (Authentic Revolut
  3. The group, meaning what's the energy in the room and who hasn't spoken yet.
  4. The Context, meaning where are you in the session arc and how much time is left. Facilitators starting out tend to track one or two of these at a time, and that's a normal place to begin.
 
-The skill that develops over sessions is being able to hold all four at once. e.
+The skill that develops over sessions is being able to hold all four at once.{--{"author":"Elias's AI","timestamp":1783362336353}@@ e.--}
