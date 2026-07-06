@@ -31,7 +31,7 @@ As you watch, hold this question: which mode do you naturally default to? Most p
 In an online setting, the pull toward teaching is even stronger because:
 
 - Reading body language on a screen is harder, which makes silence feel heavier than it does in a room.
-- You're framed in a box at the centre of attention, which looks like an invitation to keep talking. it looks like you should be talking.
-- Participants also carry habits from Zoom calls and webinars where the expectation is to absorb, and that habbit follows them into your session. re often passive in  
+- You're framed in a box at the centre of attention, which looks like an invitation to keep talking.{--{"author":"Elias's AI","timestamp":1783362513002}@@ it looks like you should be talking.--}
+- Participants also carry habits from Zoom calls and webinars where the expectation is to absorb, and that {--{"author":"Elias's AI","timestamp":1783362521806}@@habbit--}{++{"author":"Elias's AI","timestamp":1783362521806}@@habit++} follows them into your session.{--{"author":"Elias's AI","timestamp":1783362521806}@@ re often passive in--}  
 
 The rest of this course is largely about building the awareness to stay in facilitation mode, because the drift towards the teaching happens gradually.
