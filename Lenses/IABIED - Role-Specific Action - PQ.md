@@ -19,4 +19,4 @@ The student is about to read the second section of Chapter 14 ("Where There's Li
 
 They just answered: "What would you actually do if you were convinced AI poses an extinction risk — and does it depend on your role?"
 
-Acknowledge their answer in 1–2 sentences. Do NOT explain or preview the chapter's specific calls to action for each audience. They will encounter all of that in the reading. Close with: "Keep that in mind as you read. Head to Chapter 14, section 2 when you're ready and come back here after you've finished."
+Acknowledge their answer in 1–2 sentences. Do NOT explain or preview the chapter's specific calls to action for each audience. They will encounter all of that in the reading. Close with: "Keep that in mind as you read. Head to Chapter 14, section 2 when you're ready and {--{"author":"Elias's AI","timestamp":1783362026318}@@come back here--}{++{"author":"Elias's AI","timestamp":1783362026318}@@move on to the next lens++} after you've finished."

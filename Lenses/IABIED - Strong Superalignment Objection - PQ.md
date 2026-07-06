@@ -29,4 +29,4 @@ If they offered a problem with a verification gap (the smarter solver gives an a
 
 If they offered a problem with a trust gap (the smarter solver can't be trusted to be on your side), same. They're tracking a real feature of what's coming.
 
-Close with: "Hold your example. Chapter 11 closes by examining the most-developed plan that AI labs have proposed for solving alignment, and finds it broken in a specific way that mirrors the obstacle you just named. When you're done with the assigned section, come back here."
+Close with: "Hold your example. Chapter 11 closes by examining the most-developed plan that AI labs have proposed for solving alignment, and finds it broken in a specific way that mirrors the obstacle you just named. When you're done with the assigned section, {--{"author":"Elias's AI","timestamp":1783362027951}@@come back here.--}{++{"author":"Elias's AI","timestamp":1783362027951}@@move on to the next lens.++}"

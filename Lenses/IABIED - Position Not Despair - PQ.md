@@ -32,4 +32,4 @@ If the student writes "I can't think of one" — that's fine. Suggest gently tha
 
 If the student offers an example (Challenger scrub, Three Mile Island shutdown, vaccine pause), note that the chapter is going to do something structurally similar to a stronger conclusion, and they should track whether the chapter's reasoning meets the same bar that their example did.
 
-Close with: "Hold onto that frame. Chapter 10's closing pulls together everything you just read about the five curses into a single position statement. When you're done with the assigned section, come back here."
+Close with: "Hold onto that frame. Chapter 10's closing pulls together everything you just read about the five curses into a single position statement. When you're done with the assigned section, {--{"author":"Elias's AI","timestamp":1783362023554}@@come back here.--}{++{"author":"Elias's AI","timestamp":1783362023554}@@move on to the next lens.++}"
