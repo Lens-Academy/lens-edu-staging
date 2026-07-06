@@ -32,4 +32,4 @@ The session having a clear shape including a beginning, a middle and an end.--}
 --}-{--{"author":"Elias's AI","timestamp":1783362296987}@@ That the tim that serves the group's learning.
 - That weak claims don't pass unexamined just because they're popular.oice gets enough air, and no one voice takes too much.
 - That the --}{++{"author":"Elias's AI","timestamp":1783362296987}@@ The ++}session {--{"author":"Elias's AI","timestamp":1783362296987}@@has--}{++{"author":"Elias's AI","timestamp":1783362296987}@@having++} a clear{--{"author":"Elias's AI","timestamp":1783362296987}@@ shape —--}{++{"author":"Elias's AI","timestamp":1783362296987}@@ shape:++} a beginning, a middle, and an end.{++{"author":"Elias's AI","timestamp":1783362296987}@@
-++}--}
+++}
