@@ -10,7 +10,7 @@ tags:
 
 #### Text
 content::
-This Q&A addresses the opportunity cost objection: rushing ahead destroys the very benefits people hope for. The authors {--{"author":"Elias's AI","timestamp":1783025575650}@@— including--}{++{"author":"Elias's AI","timestamp":1783025575650}@@(including++} Yudkowsky, who spent years as an {--{"author":"Elias's AI","timestamp":1783025575650}@@accelerationist —--}{++{"author":"Elias's AI","timestamp":1783025575650}@@accelerationist)++} argue that the benefits of superintelligence are real but require alignment first, and that current AI already provides substantial benefits without needing to push to superintelligence.
+This Q&A addresses the opportunity cost objection: rushing ahead destroys the very benefits people hope for. The authors (including Yudkowsky, who spent years as an accelerationist) argue that the benefits of superintelligence are real but require alignment first, and that current AI already provides substantial benefits without needing to push to superintelligence.
 
 #### Article
 source:: [[../articles/iabied-ch12-faq-benefits]]

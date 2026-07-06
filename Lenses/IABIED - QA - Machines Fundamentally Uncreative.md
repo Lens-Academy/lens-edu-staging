@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-This Q&A argues against the hope that machines will have compensating fatal flaws to balance their advantages. Using the dodo analogy {--{"author":"Elias's AI","timestamp":1783025314606}@@— dodos--}{++{"author":"Elias's AI","timestamp":1783025314606}@@(dodos++} might have imagined human invaders would have weaknesses {--{"author":"Elias's AI","timestamp":1783025314606}@@too —--}{++{"author":"Elias's AI","timestamp":1783025314606}@@too),++} the authors argue there will be no "amazing plot twist" giving humans a compensating advantage.
+This Q&A argues against the hope that machines will have compensating fatal flaws to balance their advantages. Using the dodo analogy (dodos might have imagined human invaders would have weaknesses too), the authors argue there will be no "amazing plot twist" giving humans a compensating advantage.
 
 #### Article
 source:: [[../articles/iabied-ch1-faq-uncreative]]
@@ -24,7 +24,7 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about whether machines will be fundamentally uncreative or fatally flawed.
 
-TLDR: {--{"author":"Elias's AI","timestamp":1783025316608}@@No — the--}{++{"author":"Elias's AI","timestamp":1783025316608}@@No. The++} hope that AI will have compensating weaknesses is wishful thinking. The dodo analogy illustrates this: actual advantages are real advantages, not balanced by mysterious offsetting flaws. Exceptions where the weaker side wins happen far less often in reality than in stories.
+TLDR: No. The hope that AI will have compensating weaknesses is wishful thinking. The dodo analogy illustrates this: actual advantages are real advantages, not balanced by mysterious offsetting flaws. Exceptions where the weaker side wins happen far less often in reality than in stories.
 
 Discussion topics:
 - Is the dodo analogy fair? Are there ways humans are fundamentally different from dodos facing a new predator?

@@ -152,16 +152,16 @@ content::
 \## Additional resources for this topic
 ::card[[../Lenses/IABIED - QA - Pull the Plug]]
 
-> Examines whether humans could simply shut down a dangerous AI before it poses a {--{"author":"Elias's AI","timestamp":1783025096632}@@threat —--}{++{"author":"Elias's AI","timestamp":1783025096632}@@threat,++} and why the capability gap makes this harder than it sounds.
+> Examines whether humans could simply shut down a dangerous AI before it poses a threat, and why the capability gap makes this harder than it sounds.
 
 ---
 
 ::card[[../Lenses/IABIED - QA - Intelligent Implies Incorrigible]]
 
-> Argues that a sufficiently capable AI would resist correction or shutdown as a side effect of competent goal {--{"author":"Elias's AI","timestamp":1783025099280}@@pursuit —--}{++{"author":"Elias's AI","timestamp":1783025099280}@@pursuit,++} not out of {--{"author":"Elias's AI","timestamp":1783025099280}@@rebellion,--}{++{"author":"Elias's AI","timestamp":1783025099280}@@rebellion++} but out of instrumental necessity.
+> Argues that a sufficiently capable AI would resist correction or shutdown as a side effect of competent goal pursuit, not out of rebellion but out of instrumental necessity.
 
 ---
 
 ::card[[../Lenses/IABIED - QA - Keep AI in a Box]]
 
-> Explores whether containment strategies {--{"author":"Elias's AI","timestamp":1783025103081}@@— air-gaps,--}{++{"author":"Elias's AI","timestamp":1783025103081}@@(air-gaps,++} restricted environments, physical {--{"author":"Elias's AI","timestamp":1783025103081}@@isolation —--}{++{"author":"Elias's AI","timestamp":1783025103081}@@isolation)++} could prevent a superintelligence from affecting the outside world.
+> Explores whether containment strategies (air-gaps, restricted environments, physical isolation) could prevent a superintelligence from affecting the outside world.

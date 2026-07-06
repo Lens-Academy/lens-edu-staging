@@ -24,7 +24,7 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about whether intelligence consists of multiple skills rather than a single dimension.
 
-TLDR: Yes, intelligence is {--{"author":"Elias's AI","timestamp":1783025260556}@@multi-dimensional — but--}{++{"author":"Elias's AI","timestamp":1783025260556}@@multi-dimensional. But++} when one entity surpasses another across thousands of skills, the multi-dimensionality becomes less relevant. What matters is the trajectory of AI capabilities across broad ranges of tasks.
+TLDR: Yes, intelligence is multi-dimensional. But when one entity surpasses another across thousands of skills, the multi-dimensionality becomes less relevant. What matters is the trajectory of AI capabilities across broad ranges of tasks.
 
 Discussion topics:
 - At what point does AI superiority in many domains become practically equivalent to "general" superiority, even if there are holdout domains?

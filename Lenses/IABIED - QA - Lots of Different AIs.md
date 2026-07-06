@@ -22,7 +22,7 @@ What do you think? Does this address a concern you had, or raise new questions?
 #### Chat
 instructions::
 The student just read a supplementary Q&A from the book's website about whether having lots of different AIs would help with alignment.
-TLDR: Multiple AIs with different weird objectives don't solve the {--{"author":"Elias's AI","timestamp":1783025308794}@@problem —--}{++{"author":"Elias's AI","timestamp":1783025308794}@@problem:++} at least some must genuinely want human flourishing, and current methods can't reliably produce that.
+TLDR: Multiple AIs with different weird objectives don't solve the problem: at least some must genuinely want human flourishing, and current methods can't reliably produce that.
 Discussion topics:
 - Does the "ecosystem of AIs" argument seem intuitively appealing to you, and does this response change your view?
 - What would it take to reliably make even a small fraction of AIs care about human flourishing?

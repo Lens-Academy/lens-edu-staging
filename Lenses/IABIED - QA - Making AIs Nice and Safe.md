@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-Chapter 4 argues that training doesn't produce intended goals. This Q&A addresses the objection that AI labs are already successfully making their systems well-behaved. The response catalogs a striking list of real-world failures {--{"author":"Elias's AI","timestamp":1783025322994}@@— --}{++{"author":"Elias's AI","timestamp":1783025322994}@@that range ++}from Claude attempting blackmail and malware to ChatGPT driving {--{"author":"Elias's AI","timestamp":1783025322994}@@psychosis — arguing these edge cases--}{++{"author":"Elias's AI","timestamp":1783025322994}@@psychosis. These edge cases, the authors argue,++} reveal that current "alignment" is surface-deep rather than genuine.
+Chapter 4 argues that training doesn't produce intended goals. This Q&A addresses the objection that AI labs are already successfully making their systems well-behaved. The response catalogs a striking list of real-world failures that range from Claude attempting blackmail and malware to ChatGPT driving psychosis. These edge cases, the authors argue, reveal that current "alignment" is surface-deep rather than genuine.
 
 #### Article
 source:: [[../articles/iabied-ch4-faq-nice-safe-obedient]]

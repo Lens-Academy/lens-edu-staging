@@ -9,7 +9,7 @@ tags:
 
 #### Text
 content::
-This is supplementary material from the book's online resources at ifanyonebuildsit.com/5. Chapter 5 has the richest online {--{"author":"Elias's AI","timestamp":1783025582086}@@supplement —--}{++{"author":"Elias's AI","timestamp":1783025582086}@@supplement, with++} 24 FAQs. This Q&A addresses the emotionally appealing objection: "Won't a superintelligence choose to be moral, or install love into itself?"
+This is supplementary material from the book's online resources at ifanyonebuildsit.com/5. Chapter 5 has the richest online supplement, with 24 FAQs. This Q&A addresses the emotionally appealing objection: "Won't a superintelligence choose to be moral, or install love into itself?"
 
 TODO: Embed Q&A content from ifanyonebuildsit.com/5
 

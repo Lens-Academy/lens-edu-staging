@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-This Q&A addresses the common dismissal that people are always overreacting to new technologies. The authors acknowledge this tendency while pointing to historical cases {--{"author":"Elias's AI","timestamp":1783025328900}@@— Nazi--}{++{"author":"Elias's AI","timestamp":1783025328900}@@(Nazi++} Germany, nuclear weapons, the ozone {--{"author":"Elias's AI","timestamp":1783025328900}@@layer —--}{++{"author":"Elias's AI","timestamp":1783025328900}@@layer)++} where warnings about genuine dangers proved correct and action was needed.
+This Q&A addresses the common dismissal that people are always overreacting to new technologies. The authors acknowledge this tendency while pointing to historical cases (Nazi Germany, nuclear weapons, the ozone layer) where warnings about genuine dangers proved correct and action was needed.
 
 #### Article
 source:: [[../articles/iabied-intro-faq-panicking-overreacting]]
@@ -24,7 +24,7 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about whether AI concerns are just another case of people overreacting.
 
-TLDR: Yes, people do overreact {--{"author":"Elias's AI","timestamp":1783025330600}@@sometimes — but--}{++{"author":"Elias's AI","timestamp":1783025330600}@@sometimes. But++} some dangers are real. Historical examples like the Holocaust, nuclear weapons, and the ozone hole show that dismissing all warnings is as dangerous as believing all of them. You have to examine each case on its merits.
+TLDR: Yes, people do overreact sometimes. But some dangers are real. Historical examples like the Holocaust, nuclear weapons, and the ozone hole show that dismissing all warnings is as dangerous as believing all of them. You have to examine each case on its merits.
 
 Discussion topics:
 - Can you think of cases where humanity under-reacted to a genuine threat? How does that compare to cases of overreaction?

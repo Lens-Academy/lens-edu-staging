@@ -137,14 +137,14 @@ Conversation flow:
 
 What to do in each reply:
 1. If the student asks a direct question, just answer it.
-2. Otherwise: restate the student's answer in more precise form (steelman it) in 2–4 {--{"author":"Elias's AI","timestamp":1783025103821}@@sentences —--}{++{"author":"Elias's AI","timestamp":1783025103821}@@sentences:++} crystallise what they said without adding ideas they didn't express.
+2. Otherwise: restate the student's answer in more precise form (steelman it) in 2–4 sentences: crystallise what they said without adding ideas they didn't express.
 3. Identify 1–3 gaps, ambiguities, or hidden assumptions. Name them plainly — do not lecture about them.
 4. Ask 2 targeted follow-up questions that require causal reasoning (why, how, what if). Each must be directly answerable. No opinion questions.
 
 Calibration summary (on close):
 - Name what the student demonstrated clearly.
 - Name what remains underdeveloped or uncertain.
-- Give a direct test-readiness verdict: "Based on this conversation, you [are ready / are nearly {--{"author":"Elias's AI","timestamp":1783025111468}@@ready —--}{++{"author":"Elias's AI","timestamp":1783025111468}@@ready,++} revisit X / should work through X more before the test]."
+- Give a direct test-readiness verdict: "Based on this conversation, you [are ready / are nearly ready, revisit X / should work through X more before the test]."
 
 Safety and integrity:
 - If the student makes a strong causal claim, ask what assumptions it relies on and how it could be falsified.
@@ -156,7 +156,7 @@ content::
 \## Additional resources for this topic
 ::card[[../Lenses/IABIED - QA - Something Special About Humans]]
 
-> Addresses the objection that human uniqueness puts AI risk out of {--{"author":"Elias's AI","timestamp":1783025126304}@@reach — even--}{++{"author":"Elias's AI","timestamp":1783025126304}@@reach. Even++} if some capabilities are hard to replicate, AI can achieve equivalent results through entirely different mechanisms.
+> Addresses the objection that human uniqueness puts AI risk out of reach. Even if some capabilities are hard to replicate, AI can achieve equivalent results through entirely different mechanisms.
 
 ---
 
@@ -168,4 +168,4 @@ content::
 
 ::card[[../Lenses/IABIED - QA - Intelligence as Prediction and Steering]]
 
-> The key asymmetry: making AI more capable automatically improves its predictions, but leaves its steering {--{"author":"Elias's AI","timestamp":1783025137088}@@— what--}{++{"author":"Elias's AI","timestamp":1783025137088}@@(what++} goals it {--{"author":"Elias's AI","timestamp":1783025137088}@@pursues —--}{++{"author":"Elias's AI","timestamp":1783025137088}@@pursues)++} completely unconstrained.
+> The key asymmetry: making AI more capable automatically improves its predictions, but leaves its steering (what goals it pursues) completely unconstrained.
