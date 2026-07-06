@@ -23,13 +23,9 @@ content:: Being clear about your role as a facilitator means being equally clear
 
 What you **are** responsible for:
 
-{++{"author":"Elias's AI","timestamp":1783362296987}@@- ++}The space being safe enough for honest contribution.
-{++{"author":"Elias's AI","timestamp":1783362296987}@@- ++}The time being used in a way that serves the group's learning.
-{++{"author":"Elias's AI","timestamp":1783362296987}@@- ++}Weak claims getting examined, even when they are popular.
-{++{"author":"Elias's AI","timestamp":1783362296987}@@- ++}Every voice getting enough room in the session, with no single voice taking too much space.{--{"author":"Elias's AI","timestamp":1783362296987}@@
-The session having a clear shape including a beginning, a middle and an end.--}
-{--{"author":"Elias's AI","timestamp":1783362296987}@@e space is safe enough for honest contribution.
---}-{--{"author":"Elias's AI","timestamp":1783362296987}@@ That the tim that serves the group's learning.
-- That weak claims don't pass unexamined just because they're popular.oice gets enough air, and no one voice takes too much.
-- That the --}{++{"author":"Elias's AI","timestamp":1783362296987}@@ The ++}session {--{"author":"Elias's AI","timestamp":1783362296987}@@has--}{++{"author":"Elias's AI","timestamp":1783362296987}@@having++} a clear{--{"author":"Elias's AI","timestamp":1783362296987}@@ shape —--}{++{"author":"Elias's AI","timestamp":1783362296987}@@ shape:++} a beginning, a middle, and an end.{++{"author":"Elias's AI","timestamp":1783362296987}@@
-++}
+- The space being safe enough for honest contribution.
+- The time being used in a way that serves the group's learning.
+- Weak claims getting examined, even when they are popular.
+- Every voice getting enough room in the session, with no single voice taking too much space.
+- The session having a clear shape: a beginning, a middle, and an end.
+

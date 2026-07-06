@@ -23,15 +23,15 @@ A facilitator's job is different. The group has already encountered the material
 
 \## Watch (5 min)
 
-Watch this video before moving {--{"author":"Elias's AI","timestamp":1783362497653}@@on:  --}{++{"author":"Elias's AI","timestamp":1783362497653}@@on ++}— {++{"author":"Elias's AI","timestamp":1783362497653}@@**Instructor vs Facilitator**, Bill Wilder (5 min): ++}https://www.youtube.com/watch?v=J3IUyZiXAQo
+Watch this video before moving on — **Instructor vs Facilitator**, Bill Wilder (5 min): https://www.youtube.com/watch?v=J3IUyZiXAQo
 
-As you watch, hold this question: which mode do you naturally default to? Most people who sign up to facilitate default to teaching, because that's the model they grew up {--{"author":"Elias's AI","timestamp":1783362505688}@@watching..--}{++{"author":"Elias's AI","timestamp":1783362505688}@@watching.++} 
+As you watch, hold this question: which mode do you naturally default to? Most people who sign up to facilitate default to teaching, because that's the model they grew up watching. 
 \## Why this matters for online cohort discussions
 
 In an online setting, the pull toward teaching is even stronger because:
 
 - Reading body language on a screen is harder, which makes silence feel heavier than it does in a room.
-- You're framed in a box at the centre of attention, which looks like an invitation to keep talking.{--{"author":"Elias's AI","timestamp":1783362513002}@@ it looks like you should be talking.--}
-- Participants also carry habits from Zoom calls and webinars where the expectation is to absorb, and that {--{"author":"Elias's AI","timestamp":1783362521806}@@habbit--}{++{"author":"Elias's AI","timestamp":1783362521806}@@habit++} follows them into your session.{--{"author":"Elias's AI","timestamp":1783362521806}@@ re often passive in--}  
+- You're framed in a box at the centre of attention, which looks like an invitation to keep talking.
+- Participants also carry habits from Zoom calls and webinars where the expectation is to absorb, and that habit follows them into your session.  
 
 The rest of this course is largely about building the awareness to stay in facilitation mode, because the drift towards the teaching happens gradually.
