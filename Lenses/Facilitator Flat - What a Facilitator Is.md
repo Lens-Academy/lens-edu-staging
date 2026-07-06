@@ -17,7 +17,7 @@ content:: Being clear about your role as a facilitator means being equally clear
 
  
 
- **You're not (just) a host.** Participants open up faster with a facilitator they feel comfortable around, and that warmth comes from doing the job well.  A facilitator who starts optimising for being liked tends to let weak claims pass to protect the atmosphere in the room, so the aim is to be someone the cohort trusts becasue they are warm and because they hold the conversation to a good standard.stops pushing on weak claims, because pushing risks the warmth. The aim is both: a facilitator the cohort trusts because they're warm and because they don't let things slide.
+ **You're not (just) a host.** Participants open up faster with a facilitator they feel comfortable around, and that warmth comes from doing the job well.  A facilitator who starts optimising for being liked tends to let weak claims pass to protect the atmosphere in the room, so the aim is to be someone the cohort trusts {--{"author":"Elias's AI","timestamp":1783362227563}@@becasue--}{++{"author":"Elias's AI","timestamp":1783362227563}@@because++} they are warm and because they hold the conversation to a good{--{"author":"Elias's AI","timestamp":1783362227563}@@ standard.stops pushing on weak claims, because pushing risks the warmth.--}{++{"author":"Elias's AI","timestamp":1783362227563}@@ standard.++} The aim is both: a facilitator the cohort trusts because they're warm and because they don't let things slide.
 
 **You're not responsible for every outcome.** If a participant doesn't engage, despite your good moves, that's partly on them. Caring about outcomes is part of the job, and knowing which outcomes belong to you matters just as much.
 
