@@ -18,4 +18,4 @@ content:: Two short concepts from *The Authentic Facilitator* (Authentic Revolut
 
 The skill that develops over sessions is being able to hold all four at once.++} (am I clear? regulated?), the individual speaking (what do they need right now?), the group (what's the energy? Who hasn't spoken?), and the context (where are we in the session arc?). Most rookie facilitators track only one or two. The skill, over time, is widening the lens to all four.
 
-Both of these come back in Module 4 with practical moves. For now, just notice the frame.
+Both of these come back in Module 4 with practical moves. For now, just notice the{--{"author":"Anshuman","timestamp":1783347709901}@@ frame--}.
