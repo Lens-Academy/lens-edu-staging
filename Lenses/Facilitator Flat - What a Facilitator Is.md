@@ -12,7 +12,7 @@ content:: Being clear about your role as a facilitator means being equally clear
 
 
 
--**Your role with emotions is to make space, not to resolve them.** AI safety is unusually emotional material, and participants will sometimes arrive to a session carrying something heavy. A reading shook them, a recent news cycle landed hard, or they're in the middle of rethinking a career decision. When that comes up, acknowledging it and letting it sit in the room is the right move, and sometimes the cohort holds it together, which is the right thing to happen. If something feels too big for the session, offering to talk afterward or connecting them with someone is a good off-ramp.
+{--{"author":"Elias's AI","timestamp":1783362218080}@@-**Your--}{++{"author":"Elias's AI","timestamp":1783362218080}@@- **Your++} role with emotions is to make space, not to resolve them.** AI safety is unusually emotional material, and participants will sometimes arrive to a session carrying something heavy. A reading shook them, a recent news cycle landed hard, or they're in the middle of rethinking a career decision. When that comes up, acknowledging it and letting it sit in the room is the right move, and sometimes the cohort holds it together, which is the right thing to happen. If something feels too big for the session, offering to talk afterward or connecting them with someone is a good off-ramp.
 
 
  
