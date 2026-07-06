@@ -17,7 +17,7 @@ Stephen Kosslyn (Harvard, then Minerva, then the Active Learning Initiative) wro
 
 **Read: The Science of Learning — Mechanisms and Principles {++{"author":"Anshuman","timestamp":1783348991224}@@by++}{--{"author":"Anshuman","timestamp":1783348990065}@@—--} Stephen Kosslyn, 2017 {--{"author":"Anshuman","timestamp":1783349001687}@@(20 min)--}:** https://drive.google.com/file/d/1tAIMLUpw1S0LlNLdBhldmtPe6csgq4M5/view
 
-As you read, look for these six mechanisms in particular. They're the ones that justify the discussion format most directly:
+As you read, look for these six mechanisms in particular{++{"author":"Anshuman","timestamp":1783349021833}@@ since th++}{--{"author":"Anshuman","timestamp":1783349020067}@@. --}They're the ones that justify the discussion format most directly:
 
 1. **Desirable difficulty.** Learning that feels too easy doesn't stick. Material that requires effort to retrieve is retained better. Discussion is harder than re-reading. That's a feature.
 
