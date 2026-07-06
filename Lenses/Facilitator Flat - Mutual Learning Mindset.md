@@ -6,7 +6,7 @@ tags:
   - facilitator-training
 ---
 #### Text
-content:: The mental posture facilitators are supposed to operate from has a name: the **mutual learning mindset**, originally from organisational researcher Roger Schwarz, popularised in the *Curiosity Society Facilitator's Handbook*.
+content:: {++{"author":"Anshuman","timestamp":1783339162303}@@Facilitators work from++}The mental posture facilitators are supposed to operate from has a name: the **mutual learning mindset**, originally from organisational researcher Roger Schwarz, popularised in the *Curiosity Society Facilitator's Handbook*.
 
 It has five values:
 
