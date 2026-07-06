@@ -15,7 +15,7 @@ Stephen Kosslyn (Harvard, then Minerva, then the Active Learning Initiative) wro
 
 \## Read (20 min)
 
-**Read: The Science of Learning — Mechanisms and Principles — Stephen Kosslyn, 2017 (20 min):** https://drive.google.com/file/d/1tAIMLUpw1S0LlNLdBhldmtPe6csgq4M5/view
+**Read: The Science of Learning — Mechanisms and Principles {++{"author":"Anshuman","timestamp":1783348991224}@@by++}{--{"author":"Anshuman","timestamp":1783348990065}@@—--} Stephen Kosslyn, 2017 (20 min):** https://drive.google.com/file/d/1tAIMLUpw1S0LlNLdBhldmtPe6csgq4M5/view
 
 As you read, look for these six mechanisms in particular. They're the ones that justify the discussion format most directly:
 
