@@ -29,4 +29,4 @@ If they offer a clean recipe-vs-principle distinction (e.g., "recipes break when
 
 If they don't see the distinction clearly, just note their thinking and let the chapter do the work.
 
-Close with: "Hold onto that distinction. Chapter 11 opens with an allegory and then applies the recipe/principle gap to specific public statements about AI safety. When you're done with the assigned section, come back here."
+Close with: "Hold onto that distinction. Chapter 11 opens with an allegory and then applies the recipe/principle gap to specific public statements about AI safety. When you're done with the assigned section, {--{"author":"Elias's AI","timestamp":1783361994747}@@come back here.--}{++{"author":"Elias's AI","timestamp":1783361994747}@@move on to the next lens.++}"

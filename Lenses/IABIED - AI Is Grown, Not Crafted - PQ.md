@@ -20,4 +20,4 @@ The student is about to read the first half of Chapter 2 ("Grown, Not Crafted") 
 
 They just answered: "How do you imagine modern AI systems like ChatGPT were created?"
 
-Acknowledge their answer in 1–2 sentences. Do NOT explain gradient descent or the grown/crafted distinction; students will encounter it in the reading. Close with: "Hold that thought and head to Chapter 2 when you're ready. Come back here after you've finished the assigned section."
+Acknowledge their answer in 1–2 sentences. Do NOT explain gradient descent or the grown/crafted distinction; students will encounter it in the reading. Close with: "Hold that thought and head to Chapter 2 when you're ready. {--{"author":"Elias's AI","timestamp":1783361992551}@@Come back here--}{++{"author":"Elias's AI","timestamp":1783361992551}@@Move on to the next lens++} after you've finished the assigned section."
