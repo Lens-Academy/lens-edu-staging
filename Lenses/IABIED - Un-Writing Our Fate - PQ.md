@@ -19,4 +19,4 @@ The student is about to read the first section of Chapter 14 ("Where There's Lif
 
 They just answered: "If a catastrophe seems genuinely likely, can deliberate human effort still un-write that outcome, or is a well-founded prediction the same as destiny?"
 
-Acknowledge their answer in 1–2 sentences. Do NOT explain or preview the chapter's nuclear war argument or the concept of "un-writing a fate already written." They will encounter all of that in the reading. Close with: "Hold that question in mind as you read. Head to Chapter 14, section 1 when you're ready and come back here after you've finished."
+Acknowledge their answer in 1–2 sentences. Do NOT explain or preview the chapter's nuclear war argument or the concept of "un-writing a fate already written." They will encounter all of that in the reading. Close with: "Hold that question in mind as you read. Head to Chapter 14, section 1 when you're ready and {--{"author":"Elias's AI","timestamp":1783362044303}@@come back here--}{++{"author":"Elias's AI","timestamp":1783362044303}@@move on to the next lens++} after you've finished."
