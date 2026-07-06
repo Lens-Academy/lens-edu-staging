@@ -29,7 +29,7 @@ What you **are** {--{"author":"Anshuman","timestamp":1783346158276}@@r--}esponsi
 
 {--{"author":"Anshuman","timestamp":1783346387933}@@- That--}{++{"author":"Anshuman","timestamp":1783346394507}@@The++}{++{"author":"Anshuman","timestamp":1783346401335}@@ space being safe enough for honest contribution.
 The time being used in a way that serves the group's learning.
-
+Weak claims getting 
 ++}{--{"author":"Anshuman","timestamp":1783346393456}@@ th--}e space is safe enough for honest contribution.
 - That the time is used in a way{++{"author":"Anshuman","timestamp":1783346418829}@@- ++} that serves the group's learning.
 - That weak claims don't pass unexamined just because they're popular.
