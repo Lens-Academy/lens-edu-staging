@@ -8,7 +8,7 @@ tags:
 #### Text
 content:: {++{"author":"Anshuman","timestamp":1783343644113}@@Being clear about your role as a facilitator means being equally clear about where it ends. It's important to go through the below listed points to understand what a facilitator isn;t: 
 
-- Your job as a facilitator is a process, and some participants will come in knowing the material more deeply than you do, which is fine because what you're holding is the shape of the conversation in the session.++}{++{"author":"Anshuman","timestamp":1783341968749}@@
+- Your job is a process, and some participants will come in knowing the material more deeply than you do, which is fine because what you're holding is the shape of the conversation in the session.++}{++{"author":"Anshuman","timestamp":1783341968749}@@
 
 ++}{--{"author":"Anshuman","timestamp":1783341914181}@@The other half of clarity about your role is knowing where it ends.--}
 {++{"author":"Anshuman","timestamp":1783342724172}@@
