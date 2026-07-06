@@ -6,7 +6,7 @@ tags:
   - facilitator-training
 ---
 #### Text
-content:: Being clear about your role as a facilitator means being equally clear about where it ends. It's important to go through the below listed points to understand what a facilitator isn;t: 
+content:: Being clear about your role as a facilitator means being equally clear about where it ends. It's important to go through the below listed points to understand what a facilitator {--{"author":"Elias's AI","timestamp":1783362197877}@@isn;t:--}{++{"author":"Elias's AI","timestamp":1783362197877}@@isn't:++} 
 
 - **Your job is a process, not expertise**. Some participants will come in knowing the material more deeply than you do, and that is fine because what you're holding is the shape of the conversation in the session.
 
