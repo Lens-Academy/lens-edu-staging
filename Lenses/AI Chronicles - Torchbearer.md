@@ -7,4 +7,4 @@ tags:
 %% validator-ignore is set because the "#### Embed" section type is not on staging yet (the embed feature lives on branch iframe-embed-segment). Remove the validator-ignore tag from this file's frontmatter as soon as the embed feature ships. %%
 #### Embed
 url:: https://chronicle.torchbearer.community/
-height:: 700px
+
