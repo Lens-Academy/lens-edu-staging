@@ -44,15 +44,16 @@ This page has a plain question with no extra fields. Questions require one compl
 #### Question
 content:: What is your favorite color, and why?
 
-# Lens: Question with feedback replies
-id:: 43d2334e-990d-43be-98e2-aa7ff046cb16
+# Lens: Question {--{"author":"Elias's AI","timestamp":1783441578145}@@with feedback replies--}{++{"author":"Elias's AI","timestamp":1783441578145}@@plus a message minimum++}
+id:: 43d2334e-990d-43be-98e2-aa7ff046cb16{++{"author":"Elias's AI","timestamp":1783441578145}@@
+min_chat_messages:: 2++}
 
 #### Text
 content::
-This question has `min-chat-messages:: 2`: after answering, the learner must also send at least 2 messages in the tutor's feedback conversation. Answer it, then look under the grayed-out button: the bullet asks for the remaining messages ("Send 2 more messages about your answer") until you have sent both.
+This {++{"author":"Elias's AI","timestamp":1783441578145}@@lens combines a required ++}question {--{"author":"Elias's AI","timestamp":1783441578145}@@has `min-chat-messages:: 2`: after answering, the learner--}{++{"author":"Elias's AI","timestamp":1783441578145}@@with `min_chat_messages:: 2`. The two requirements are independent: you++} must {--{"author":"Elias's AI","timestamp":1783441578145}@@also send at least--}{++{"author":"Elias's AI","timestamp":1783441578145}@@answer the question AND send++} 2 messages {--{"author":"Elias's AI","timestamp":1783441578145}@@in--}{++{"author":"Elias's AI","timestamp":1783441578145}@@to++} the {--{"author":"Elias's AI","timestamp":1783441578145}@@tutor's feedback conversation. Answer it, then look under the grayed-out button:--}{++{"author":"Elias's AI","timestamp":1783441578145}@@tutor. Replies you type in the question's feedback conversation count toward++} the {--{"author":"Elias's AI","timestamp":1783441578145}@@bullet asks for the remaining messages ("Send 2 more messages about your answer") until you have sent--}{++{"author":"Elias's AI","timestamp":1783441578145}@@message minimum (the auto-sent feedback request itself does not), so answering and then discussing the feedback satisfies++} both.
 
-#### Question
-min-chat-messages:: 2
+#### Question{--{"author":"Elias's AI","timestamp":1783441578145}@@
+min-chat-messages:: 2--}
 content:: Name a food you could eat every day. What makes it work for you?
 assessment-instructions:: Any sincere answer is fine; ask one playful follow-up question at a time.
 
