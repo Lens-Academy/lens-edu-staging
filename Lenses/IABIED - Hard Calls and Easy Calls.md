@@ -23,7 +23,7 @@ Stop when you reach
 Return here after reading.
 
 ---
-## Phase 1: Recall
+\## Phase 1: Recall
 
 #### Question
 content::
@@ -67,7 +67,7 @@ This is a one-turn response. Do not ask a question or suggest the student reply.
 
 #### Text
 content::
-## Phase 2: Processing
+\˘## Phase 2: Processing
 
 #### Question
 content::
