@@ -5,5 +5,5 @@ tags:
 ---
 
 #### Embed
-source:: [[../articles/aisafety-com-field-map.md|AISafety.com Field Map]]
+source:: [[../articles/aisafety-com-field-map]]
 
