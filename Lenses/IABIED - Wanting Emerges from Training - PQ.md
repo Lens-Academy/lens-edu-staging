@@ -9,12 +9,12 @@ tags:
   - lens
   - IABIED
 ---
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783417158628}@@Text--}{++{"author":"Elias's AI","timestamp":1783417158628}@@Question++}
 content:: Before reading Chapter 3: Does your GPS "want" to get you to your destination? What about a chess AI, does it "want" to win? If you think there's a difference between having a goal and wanting something, what is it? Write down your intuition before reading.
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417167380}@@#### Chat
 min-chat-messages:: 1
-instructions::
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417167380}@@assessment-instructions::++}
 The student is about to read Chapter 3 ("Learning to Want") of "If Anyone Builds It, Everyone Dies."
 
 Acknowledge their answer in 1–2 sentences. Do NOT explain the behavioral definition of wanting or how it emerges from training, they will encounter it in the reading. Close with: "Hold onto that intuition as you read. Head to Chapter 3 when you're ready and move on to the next lens after you've finished."
