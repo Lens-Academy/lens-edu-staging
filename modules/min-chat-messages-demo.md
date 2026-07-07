@@ -7,16 +7,17 @@ title: Interaction requirements demo
 %% This module explains interaction requirements: how to require chatting or answering before a learner can mark a page complete.
 
 The defaults:
-- A `#### Chat` never blocks completion. Learners can read the page and move on without sending anything.
+- {--{"author":"Elias's AI","timestamp":1783441550372}@@A `#### Chat`--}{++{"author":"Elias's AI","timestamp":1783441550372}@@Chatting++} never blocks completion. Learners can read the page and move on without sending {--{"author":"Elias's AI","timestamp":1783441550372}@@anything.--}{++{"author":"Elias's AI","timestamp":1783441550372}@@anything to the tutor.++}
 - A `#### Question` must be answered once before the page can be completed, and gets a feedback conversation on the answer (`feedback::` defaults to true; set `feedback:: false` to turn that off).
 
 The fields:
-- On a `#### Chat`, `min-chat-messages:: 2` means the learner must send at least 2 messages in that chat before "Mark section complete" works. Each chat counts its own messages — two chats on one page can have separate requirements.
-- On a `#### Question`, `min-chat-messages:: 2` means one completed answer plus 2 follow-up messages in the question's feedback conversation. Needs feedback enabled — combining it with `feedback:: false` is a validator error.
+- On a {--{"author":"Elias's AI","timestamp":1783441550372}@@`#### Chat`, `min-chat-messages:: 2`--}{++{"author":"Elias's AI","timestamp":1783441550372}@@lens, `min_chat_messages` (YAML frontmatter on lens files, `min_chat_messages::` on inline lenses)++} means the learner must send at least {--{"author":"Elias's AI","timestamp":1783441550372}@@2--}{++{"author":"Elias's AI","timestamp":1783441550372}@@that many++} messages {--{"author":"Elias's AI","timestamp":1783441550372}@@in--}{++{"author":"Elias's AI","timestamp":1783441550372}@@to the Lens Tutor while on++} that {--{"author":"Elias's AI","timestamp":1783441550372}@@chat--}{++{"author":"Elias's AI","timestamp":1783441550372}@@lens++} before "Mark section complete" works. {--{"author":"Elias's AI","timestamp":1783441550372}@@Each chat counts its own messages — two chats on one page can have separate requirements.
+- On--}{++{"author":"Elias's AI","timestamp":1783441550372}@@Every message counts, wherever it is typed: a chat box on the page,++} a{--{"author":"Elias's AI","timestamp":1783441550372}@@ `#### Question`, `min-chat-messages:: 2` means one completed answer plus 2 follow-up messages in the --}{++{"author":"Elias's AI","timestamp":1783441550372}@@ ++}question's feedback {--{"author":"Elias's AI","timestamp":1783441550372}@@conversation. Needs feedback enabled — combining it with `feedback:: false`--}{++{"author":"Elias's AI","timestamp":1783441550372}@@conversation, or the sidebar directly. The default++} is {--{"author":"Elias's AI","timestamp":1783441550372}@@a validator error.--}{++{"author":"Elias's AI","timestamp":1783441550372}@@0.++}
 - `optional:: true` on a question makes answering it optional.
-- Whole lenses marked `optional:: true` never block completion.
+- Whole lenses marked `optional:: true` never block completion.{++{"author":"Elias's AI","timestamp":1783441550372}@@
+- Segment-level `min-chat-messages::` (on a `#### Chat` or `#### Question`) is retired and ignored — the per-lens field above replaced it.++}
 
-What learners see: while something is missing, "Mark section complete" is grayed out with a "To finish this page:" bullet list under it ("Send 2 messages in the chat", "Answer question 2"). The named chat or question in each bullet is a link that scrolls to it, and the list updates live as they make progress.
+What learners see: while something is missing, "Mark section complete" is grayed out with a "To finish this page:" bullet list under it ("Send 2 messages {--{"author":"Elias's AI","timestamp":1783441550372}@@in--}{++{"author":"Elias's AI","timestamp":1783441550372}@@to++} the {--{"author":"Elias's AI","timestamp":1783441550372}@@chat",--}{++{"author":"Elias's AI","timestamp":1783441550372}@@Lens Tutor",++} "Answer question 2"). The named {--{"author":"Elias's AI","timestamp":1783441550372}@@chat or question--}{++{"author":"Elias's AI","timestamp":1783441550372}@@item++} in each bullet is a link that scrolls to it, and the list updates live as they make progress.
 
 The five lenses below demonstrate each case. Preview the module and try them. %%
 
