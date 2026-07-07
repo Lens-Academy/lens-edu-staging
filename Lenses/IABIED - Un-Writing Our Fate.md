@@ -19,12 +19,14 @@ Return here after reading.
 
 ---
 
-\## Phase 1: Recall
+{++{"author":"Elias's AI","timestamp":1783417492288}@@#### Question
+content::
+++}\## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading. Don't look back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417492288}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has just finished reading the first section of Chapter 14 of "If Anyone Builds It, Everyone Dies" and has written a free recall: everything they could remember without looking back at the text.
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417492288}@@assessment-instructions::++} The student has just finished reading the first section of Chapter 14 of "If Anyone Builds It, Everyone Dies" and has written a free recall: everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
 - Vesna Vulović: survived a 10.1-km fall from a bombed plane in 1972, used to illustrate that predicted outcomes can be overturned
