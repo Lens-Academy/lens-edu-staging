@@ -18,12 +18,14 @@ Return here after reading.
 
 ---
 
-\## Phase 1: Recall
+{++{"author":"Elias's AI","timestamp":1783417429388}@@#### Question
+content::
+++}\## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417429388}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has just read the Coda of "If Anyone Builds It, Everyone Dies."
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417429388}@@assessment-instructions::++} The student has just read the Coda of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Distinguish between predicting the pathway to a catastrophic outcome and predicting the outcome itself, explain why outcome confidence is achievable even when the exact path cannot be predicted, and apply this distinction to the argument that humanity's position relative to a superintelligent AI is analogous to a human playing chess against Stockfish.
 
