@@ -22,12 +22,14 @@ Return here after reading.
 
 ---
 
-\## Phase 1: Recall
+{++{"author":"Elias's AI","timestamp":1783417354738}@@#### Question
+content::
+++}\## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417354738}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has just read the second half of Chapter 11 of "If Anyone Builds It, Everyone Dies."
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417354738}@@assessment-instructions::++} The student has just read the second half of Chapter 11 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Describe the strong version of superalignment as Chapter 11 presents it (using a smarter-than-human AI to solve the alignment problem), and state the chapter's two-step objection: (1) the AI capable of doing this would itself be too dangerous and untrustworthy, and (2) a "special-purpose" alignment AI has no training examples of solved alignment and requires the precise dangerous skill set that makes an unaligned AI catastrophic.
 
@@ -65,14 +67,14 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783417356585}@@Text--}{++{"author":"Elias's AI","timestamp":1783417356585}@@Question++}
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Using the speech to text feature is recommended.
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417356585}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417356585}@@assessment-instructions::++} The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, not to explain the content to them.
 
@@ -101,14 +103,14 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783417362849}@@Text--}{++{"author":"Elias's AI","timestamp":1783417362849}@@Question++}
 content::
 \## Phase 3: Learning Question
 A lab thinks it has patched the trust problem. It will build two superhuman AIs that share no memory: one invents an alignment plan, and a second, adversarial AI is rewarded only for finding hidden flaws in that plan. "If the critic can't break the plan after millions of attempts, we'll trust it." Using Chapter 11's reasoning, does bolting on the adversarial checker get the lab out of the hole, or not? Point to exactly where the move holds or fails.
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417362849}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has completed a reading, a free recall, and a reflection phase on the second half of Chapter 11 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417362849}@@assessment-instructions::++} The student has completed a reading, a free recall, and a reflection phase on the second half of Chapter 11 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge. It is not the test question. It hands the student a clever-sounding patch to the strong-superalignment plan (an adversarial second AI that checks the first) and asks them to apply the chapter's objection rather than recite it. The patch does not escape the objection; the student's job is to say exactly where it breaks. The critic AI needs the same dangerous skill set (it too must reason about AI internals and alignment), so the lab now has two untrustworthy dangerous AIs, not one. "No flaw found" is not verification of correctness — two unaligned minds can converge on the same persuasive-but-wrong or deceptive plan, and neither has a ground-truth notion of "solved alignment" (no training examples exist) to check against. Unlike the biomedical AI's narrower protein-checker, this checker is not narrower or safer than the thing it checks. And the patch deepens the original problem rather than solving it: it requires building two superhuman AIs, both needing the dangerous skill set, doubling the "you shouldn't build an AI like that" exposure the chapter warns about.
 
