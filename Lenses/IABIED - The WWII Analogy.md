@@ -19,12 +19,14 @@ Return here after reading.
 
 ---
 
-\## Phase 1: Recall
+{++{"author":"Elias's AI","timestamp":1783417381637}@@#### Question
+content::
+++}\## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading. Don't look back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417381637}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has just finished reading the first section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and has written a free recall: everything they could remember without looking back at the text.
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417381637}@@assessment-instructions::++} The student has just finished reading the first section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and has written a free recall: everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
 - The WWII parable: Allied Powers drafted soldiers, rationed food, spent $6 trillion (today's dollars), deployed 60–80 million personnel (many of them people whose lives weren't immediately at risk from the Axis)

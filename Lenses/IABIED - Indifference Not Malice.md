@@ -18,12 +18,14 @@ Return here after reading.
 
 ---
 
-\## Phase 1: Recall
+{++{"author":"Elias's AI","timestamp":1783417382631}@@#### Question
+content::
+++}\## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417382631}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has just read Chapter 9 of "If Anyone Builds It, Everyone Dies."
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417382631}@@assessment-instructions::++} The student has just read Chapter 9 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Explain why a sufficiently capable AI system optimizing for resource-intensive goals can eliminate human civilization without hostile intent (as a thermodynamic and logical byproduct of its own objectives) and connect this to the M3 goal-space argument that indifference to human survival as a side constraint is more dangerous than malice.
 
