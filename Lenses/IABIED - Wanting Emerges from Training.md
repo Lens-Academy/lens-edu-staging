@@ -98,14 +98,14 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783417217557}@@Text--}{++{"author":"Elias's AI","timestamp":1783417217557}@@Question++}
 content::
 \## Phase 3: Learning Question
 A friend says: "An AI only 'wants' something if its programmers wrote that goal into it. Nobody coded a goal into a system that just learned from examples. So a trained AI doesn't really want anything. And since the machine has no feelings, calling it 'wanting' would just be a loose metaphor anyway." Using Chapter 3, where does this reasoning break down? Be precise about what you do and don't have to claim about the AI's inner life.
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417217557}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has completed a reading, a free recall, and a reflection phase on Chapter 3 ("Learning to Want") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417217557}@@assessment-instructions::++} The student has completed a reading, a free recall, and a reflection phase on Chapter 3 ("Learning to Want") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge. It is not the test question. It hands the student a plausible-sounding objection (that wanting must be explicitly programmed in, and that because the machine has no feelings "wanting" is merely a metaphor projected onto it) and asks them to dismantle it using the chapter's account of where wanting comes from, rather than recite that account. Use it to draw out two distinct points: that want-like behavior emerges as a side effect of training for success rather than being designed in (the city-navigation mechanism, the o1 incident), and that "wanting" here names outward steering behavior, so the rebuttal does not require, and should not rest on, any claim about the AI's inner experience.
 

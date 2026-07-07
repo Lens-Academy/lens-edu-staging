@@ -9,7 +9,7 @@ tags:
   - lens
   - IABIED
 ---
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783417222902}@@Text--}{++{"author":"Elias's AI","timestamp":1783417222902}@@Question++}
 content:: Think of a domain where engineering is famously difficult: nuclear reactors, space flight, computer security, drug development, anything you've encountered. **What is it about those domains that makes the engineering hard?** Not "the problems are complicated" (that's true everywhere), but the *specific structural features* of the system that make small mistakes catastrophic, or make verification hard, or make the experimental learning loop slow.
 
 Take 60 seconds. Write down two or three of those features in your own words before you read.

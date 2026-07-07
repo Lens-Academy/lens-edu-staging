@@ -64,14 +64,14 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783417216828}@@Text--}{++{"author":"Elias's AI","timestamp":1783417216828}@@Question++}
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417216828}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417216828}@@assessment-instructions::++} The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, not to explain the content to them.
 
@@ -100,14 +100,14 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question; that is Phase 3's job.
 
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783417220612}@@Text--}{++{"author":"Elias's AI","timestamp":1783417220612}@@Question++}
 content::
 \## Phase 3: Learning Question
 A classmate says: "Sure, there are astronomically many goals an AI could have. But most of them are incoherent or self-undermining. Once you narrow down to the goals a stable, reflective superintelligence could actually hold onto, that set is small, and things like curiosity, cooperation, and valuing other minds are exactly what survives that filter. So human-compatible values aren't really a needle in a haystack." Using the chapter's argument, where does this reasoning break down?
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417220612}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has completed a reading, a free recall, and a reflection phase on section 1 of Chapter 5 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417220612}@@assessment-instructions::++} The student has completed a reading, a free recall, and a reflection phase on section 1 of Chapter 5 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge; it is not the test question. It hands the student a sharp version of boy-bird's position: that intelligence or coherence acts as a filter that shrinks the goal-space down to a human-friendly region. The student must dismantle it using the chapter's logic rather than recite the allegory: the space of coherent, stably-holdable goals is still vast (the Correct-Nest aliens are advanced, coherent, and reach the stars while caring about primes), intelligence is direction-agnostic so "smarter" doesn't filter toward our values, and the apparent convergence within humanity comes from shared genes and shared inner questions, not from intelligence itself. Use it to draw out the tiny-sliver framing and why no-convergence holds.
 
