@@ -23,7 +23,6 @@ Stop when you reach
 Return here after reading.
 
 ---
-
 ## Phase 1: Recall
 
 #### Question
