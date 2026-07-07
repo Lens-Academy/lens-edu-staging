@@ -6,5 +6,5 @@ tags:
 
 %% This standalone lens is only for testing the `#### Embed` segment on the embed branch. It is not included in the main demo course while embed support is unmerged. %%
 #### Embed
-source:: [[../articles/torchbearer-the-ai-chronicle.md|The AI Chronicle]]
+source:: [[../articles/torchbearer-the-ai-chronicle|The AI Chronicle]]
 

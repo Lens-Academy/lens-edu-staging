@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783458911773}@@---
+---
 title: "Field Map"
 author: AISafety.com
 source_url: https://aisafety.com/map
@@ -17,4 +17,3 @@ The AISafety.com field map is an interactive directory of organizations, program
 The map helps learners discover the landscape of AI safety work: major labs and research groups, policy and governance organizations, funders, training programs, community infrastructure, information resources, and career support options.
 
 Last updated: 6 June 2026.
-++}
