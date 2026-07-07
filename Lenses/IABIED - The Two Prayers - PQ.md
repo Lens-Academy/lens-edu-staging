@@ -9,12 +9,10 @@ tags:
   - lens
   - IABIED
 ---
-#### {--{"author":"Elias's AI","timestamp":1783417551066}@@Text--}{++{"author":"Elias's AI","timestamp":1783417551066}@@Question++}
+#### Question
 content:: Before reading the Closing Words: Imagine you spent years warning people about a serious danger. Then people started asking whether you felt vindicated as your predictions came true. How would you answer? More broadly: if you had made a serious prediction about a catastrophe, would you prefer to be proven right, or to be proven wrong (even if being wrong meant your work was ignored and forgotten)? Write down your thinking before you read.
 
-{--{"author":"Elias's AI","timestamp":1783417553767}@@#### Chat
-min-chat-messages:: 1
-instructions::--}{++{"author":"Elias's AI","timestamp":1783417553767}@@assessment-instructions::++}
+assessment-instructions::
 The student is about to read the Closing Words of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "If you had predicted a catastrophe, would you prefer to be proven right or to be proven wrong (even if being wrong meant your work was ignored)?"

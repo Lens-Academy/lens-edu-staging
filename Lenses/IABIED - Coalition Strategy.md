@@ -21,14 +21,12 @@ Return here after reading.
 
 ---
 
-{++{"author":"Elias's AI","timestamp":1783417461008}@@#### Question
+#### Question
 content::
-++}\## Phase 1: Recall
+\## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-{--{"author":"Elias's AI","timestamp":1783417461008}@@#### Chat
-min-chat-messages:: 1
-instructions::--}{++{"author":"Elias's AI","timestamp":1783417461008}@@assessment-instructions::++} The student has just finished reading the second section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and has written a free recall — everything they could remember without looking back at the text.
+assessment-instructions:: The student has just finished reading the second section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and has written a free recall — everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
 - Lesser proposals critique: deepfake bans and SB-1047-style reporting requirements, offered by advocates who hedge and conceal their real concerns, so legislators "smell something rotten and throw the whole package out"
@@ -63,14 +61,12 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### {--{"author":"Elias's AI","timestamp":1783417465989}@@Text--}{++{"author":"Elias's AI","timestamp":1783417465989}@@Question++}
+#### Question
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
 
-{--{"author":"Elias's AI","timestamp":1783417465989}@@#### Chat
-min-chat-messages:: 1
-instructions::--}{++{"author":"Elias's AI","timestamp":1783417465989}@@assessment-instructions::++} The student has just completed a free recall of the second section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+assessment-instructions:: The student has just completed a free recall of the second section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, not to explain the content to them.
 
@@ -101,14 +97,12 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question; that is Phase 3's job.
 
-#### {--{"author":"Elias's AI","timestamp":1783417469500}@@Text--}{++{"author":"Elias's AI","timestamp":1783417469500}@@Question++}
+#### Question
 content::
 \## Phase 3: Learning Question
 Chapter 13 says the coalition working to prevent human extinction must keep its ask narrow, but "narrow" isn't the same as "weak." What exactly must the coalition ask for? What must it refuse to bundle with that ask, and why does the chapter say bundling would be a mistake even if the added positions seem related to the main cause?
 
-{--{"author":"Elias's AI","timestamp":1783417469500}@@#### Chat
-min-chat-messages:: 1
-instructions::--}{++{"author":"Elias's AI","timestamp":1783417469500}@@assessment-instructions::++} The student has completed a reading, a free recall, and a reflection phase on the second section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the second section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 Learning outcome for this Lens: State the chapter's coalition strategy: what the anti-extinction coalition's ask must be limited to, what positions it must not bundle with that ask, and the reason the chapter gives for keeping the coalition narrow.
 
