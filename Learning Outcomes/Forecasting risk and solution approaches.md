@@ -21,7 +21,7 @@ optional:: true
 source:: [[../Lenses/grace-thousands-of-ai-authors-on-the-future-of-ai]]
 ## Lens:
 optional:: true
-source:: [[../Lenses/ai-2027-ai-2027]]
+source:: [[../Lenses/ai-2027 article lens]]
 ## Lens:
 optional:: true
 source:: [[../Lenses/optimism-ai-is-easy-to-control]]
