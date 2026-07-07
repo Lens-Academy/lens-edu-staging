@@ -97,14 +97,14 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783417564399}@@Text--}{++{"author":"Elias's AI","timestamp":1783417564399}@@Question++}
 content::
 \## Phase 3: Learning Question
 The Closing Words offer two prayers. The authors call the second their "true last prayer." What does each prayer ask for? And what would need to happen — in the real world — for the first prayer to be answered? For the second?
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417564399}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has completed a reading, a free recall, and a reflection phase on the Closing Words of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417564399}@@assessment-instructions::++} The student has completed a reading, a free recall, and a reflection phase on the Closing Words of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 Learning outcome for this Lens: Distinguish what each prayer asks of humanity: what would need to happen in the real world for the first prayer to be answered, and for the second?
 
