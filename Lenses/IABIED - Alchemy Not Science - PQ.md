@@ -9,7 +9,7 @@ tags:
   - lens
   - IABIED
 ---
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783417317258}@@Text--}{++{"author":"Elias's AI","timestamp":1783417317258}@@Question++}
 content:: Imagine someone who can reliably produce a result, say a sourdough starter that always rises, a chemical reaction that always yields the right precipitate, or a stretch routine that consistently helps their back. *Yet they cannot explain why their procedure works.*
 
 In what kind of situation does that recipe-level competence stop being enough? When does the gap between *knowing what works* and *knowing why it works* matter?

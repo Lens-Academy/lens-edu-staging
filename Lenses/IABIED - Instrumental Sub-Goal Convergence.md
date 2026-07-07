@@ -100,14 +100,14 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question, which is Phase 3's job.
 
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783417306600}@@Text--}{++{"author":"Elias's AI","timestamp":1783417306600}@@Question++}
 content::
 \## Phase 3: Learning Question
 A colleague reads this chapter and concludes: "We have no idea what Sable actually wants. Its preferences came out of gradient descent and are opaque even to the people who built it. So we're equally in the dark about what it will *do*. Any forecast of its behavior is just guessing." This sounds careful and humble. But the chapter shows it's wrong in a specific way. What can you confidently predict about Sable's behavior *without* knowing its terminal goal? And exactly where does the colleague's reasoning break down?
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417306600}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 8 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417306600}@@assessment-instructions::++} The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 8 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge, not the test question. It hands the student a plausible-sounding sceptical claim: that because Sable's terminal goal is opaque, its behavior is unpredictable. The student's job is to dismantle it using instrumental convergence: to show that resource acquisition and self-continuity are predictable regardless of the unknown terminal goal. Use it to draw out convergence and its connection to M3 from a concrete case, rather than having them recite the definition.
 
