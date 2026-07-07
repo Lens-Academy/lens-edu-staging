@@ -100,8 +100,8 @@ What not to do:
 - Start resolving the learning outcome question; that is Phase 3's job.
 
 #### Question
-feedback:: true
-content::
+{--{"author":"Elias's AI","timestamp":1783417329574}@@feedback:: true
+--}content::
 \## Phase 3: Learning Question
 A pocket calculator out-predicts and out-steers any human at arithmetic. A house cat can't do arithmetic at all — but it navigates a physical and social world the calculator is blind to. By the chapter's definition, which one has the kind of intelligence the authors are worried about, and what exactly are you pointing at when you answer?
 

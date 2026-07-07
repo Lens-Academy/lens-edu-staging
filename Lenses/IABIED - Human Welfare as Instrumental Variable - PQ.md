@@ -9,12 +9,12 @@ tags:
   - lens
   - IABIED
 ---
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783417326276}@@Text--}{++{"author":"Elias's AI","timestamp":1783417326276}@@Question++}
 content:: Before reading: Suppose a very powerful system (an institution, an AI, anything capable of large-scale harm) keeps a population alive because that population maintains infrastructure it depends on. Is that population safe? What would have to change for them to stop being safe? Write down your thinking before you read.
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417328322}@@#### Chat
 min-chat-messages:: 1
-instructions::
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417328322}@@assessment-instructions::++}
 The student is about to read the second half of Chapter 8 of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "Is being useful to a system that doesn't value you a form of safety?"
