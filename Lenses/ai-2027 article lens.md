@@ -4,4 +4,4 @@ title: "AI 2027"
 ---
 
 #### Article
-source:: [[../articles/ai-2027-ai-2027]]
+source:: [[../articles/ai-2027]]
