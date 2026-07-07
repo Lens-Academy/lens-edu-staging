@@ -18,12 +18,14 @@ Return here after reading.
 
 ---
 
-\## Phase 1: Recall
+{++{"author":"Elias's AI","timestamp":1783417198339}@@#### Question
+content::
+++}\## Phase 1: Recall
 Without looking back at the text, take 2 minutes to write down everything you can remember from the reading. Anything and everything, no need to organize it. Speech-to-text works well here.
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417198339}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has just read Chapter 3 ("Learning to Want") of "If Anyone Builds It, Everyone Dies" and written a free recall: everything they could remember without looking back at the text.
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417198339}@@assessment-instructions::++} The student has just read Chapter 3 ("Learning to Want") of "If Anyone Builds It, Everyone Dies" and written a free recall: everything they could remember without looking back at the text.
 
 Learning outcome for this Lens: Explain how training for success produces want-like behavior in AI, even without anyone designing wants.
 
