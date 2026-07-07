@@ -9,7 +9,7 @@ tags:
   - lens
   - IABIED
 ---
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783417282475}@@Text--}{++{"author":"Elias's AI","timestamp":1783417282475}@@Question++}
 content:: Before reading: Imagine you learned that an institution (a company, a government, an AI) had recently acquired resources through five completely different methods: some legitimate, some coercive, some deceptive. The methods have almost nothing in common on the surface. Does that variety tell you something about what the institution ultimately wants? Or does it obscure it? Write down your thinking before you read.
 
 #### Chat

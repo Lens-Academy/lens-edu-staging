@@ -19,12 +19,14 @@ Return here after reading.
 
 ---
 
-\## Phase 1: Recall
+{++{"author":"Elias's AI","timestamp":1783417274665}@@#### Question
+content::
+++}\## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417274665}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has just read section 1 of Chapter 6 ("We'd Lose") of "If Anyone Builds It, Everyone Dies."
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417274665}@@assessment-instructions::++} The student has just read section 1 of Chapter 6 ("We'd Lose") of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Define the Aztec warrior analogy as Chapter 6 states it: a defender cannot imagine the mechanism of defeat but the outcome is still predictable from capability asymmetry alone.
 
@@ -62,14 +64,14 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783417278154}@@Text--}{++{"author":"Elias's AI","timestamp":1783417278154}@@Question++}
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417278154}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417278154}@@assessment-instructions::++} The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, not to explain the content to them.
 
