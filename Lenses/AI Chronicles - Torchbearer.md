@@ -5,5 +5,5 @@ tags:
 ---
 
 #### Embed
-source:: [[../articles/torchbearer-the-ai-chronicle.md|The AI Chronicle]]
+source:: [[../articles/torchbearer-the-ai-chronicle|The AI Chronicle]]
 
