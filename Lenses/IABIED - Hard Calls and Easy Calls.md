@@ -65,7 +65,8 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Text
-content::\## Phase 2: Processing
+content::
+\## Phase 2: Processing
 #### Question
 content::
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Again, using the speech to text feature is recommended.
