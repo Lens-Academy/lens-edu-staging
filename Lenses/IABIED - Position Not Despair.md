@@ -103,14 +103,14 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783417298875}@@Text--}{++{"author":"Elias's AI","timestamp":1783417298875}@@Question++}
 content::
 \## Phase 3: Learning Question
 A friend reads the last line of the chapter and says: "'NOBODY SHOULD BE ALLOWED TO TRY' is just fatalism with extra steps. Either you think we're doomed (in which case calling for a ban is theater) or you don't, in which case relax. Same anti-progress reflex people had about electricity, vaccines, every new technology." Your friend has folded the closing line into despair on one side and luddism on the other. Is either fold correct? Point to what the chapter's line is actually doing that neither reading captures.
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417298875}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has completed a reading, a free recall, and a reflection phase on the closing synthesis section of Chapter 10 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417298875}@@assessment-instructions::++} The student has completed a reading, a free recall, and a reflection phase on the closing synthesis section of Chapter 10 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge; it is not the test question. It hands the student a friend's claim that collapses "NOBODY SHOULD BE ALLOWED TO TRY" into two forms of giving up at once: despair on one side ("we're doomed, so a ban is theater") and anti-progress luddism on the other ("same reflex people had about every new technology"). It then asks whether either fold is correct. The student's job is to apply the despair-vs-position-statement distinction, not recite it: to show that a position-statement is a conclusion from specific evidence that calls for a specific action, which is neither the inaction of despair nor a reflexive opposition to the technology as such.
 
