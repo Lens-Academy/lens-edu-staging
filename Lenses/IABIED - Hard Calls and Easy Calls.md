@@ -25,8 +25,7 @@ Return here after reading.
 ---
 
 #### Question
-{--{"author":"Elias's AI","timestamp":1783417281544}@@feedback:: true
---}content::
+content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
@@ -67,8 +66,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
-{--{"author":"Elias's AI","timestamp":1783417313408}@@feedback:: true
---}content::
+content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Again, using the speech to text feature is recommended.
 
@@ -102,8 +100,7 @@ What not to do:
 - Start resolving the learning outcome question: that is Phase 3's job.
 
 #### Question
-{--{"author":"Elias's AI","timestamp":1783417327745}@@feedback:: true
---}content::
+content::
 \## Phase 3: Learning Question
 The authors are remarkably confident that advanced AI is dangerous, yet they flatly refuse to predict when it will arrive or exactly how a catastrophe would unfold. Is that a contradiction? How can they be so sure of the danger but not the details? What is it about the situation that lets them have it both ways?
 

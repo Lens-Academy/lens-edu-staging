@@ -10,8 +10,7 @@ tags:
   - IABIED
 ---
 #### Question
-{--{"author":"Elias's AI","timestamp":1783417297758}@@feedback:: true
---}content:: Before reading the second half of Chapter 1: Imagine you could build an AI dramatically smarter than any human. Would you expect it to also be more ethical (more aligned with human values)? Why or why not? Write down your intuition before reading.
+content:: Before reading the second half of Chapter 1: Imagine you could build an AI dramatically smarter than any human. Would you expect it to also be more ethical (more aligned with human values)? Why or why not? Write down your intuition before reading.
 
 assessment-instructions::
 The student is about to read the second half of Chapter 1 of "If Anyone Builds It, Everyone Dies."

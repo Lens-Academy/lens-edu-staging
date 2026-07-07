@@ -10,8 +10,7 @@ tags:
   - IABIED
 ---
 #### Question
-{--{"author":"Elias's AI","timestamp":1783417302397}@@feedback:: true
---}content:: 
+content:: 
 Before reading Chapter 2: How do you imagine modern AI systems like ChatGPT were created? Who decided what it would say? Did engineers write rules for it to follow, or did something else happen? Write down your best guess before reading.
 
 assessment-instructions::

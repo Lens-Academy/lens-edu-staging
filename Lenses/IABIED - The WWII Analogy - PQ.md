@@ -9,12 +9,10 @@ tags:
   - lens
   - IABIED
 ---
-#### {--{"author":"Elias's AI","timestamp":1783417380039}@@Text--}{++{"author":"Elias's AI","timestamp":1783417380039}@@Question++}
+#### Question
 content:: Before reading Chapter 13, section 1: Think of a time in history when countries did something extremely costly and difficult that demanded massive sacrifice, because they believed their survival or way of life was at stake. Did you find it surprising that coordination happened at all? Now: do you think major world powers could coordinate to restrict AI development if they genuinely believed it was an existential threat? Write down your thinking before you read.
 
-{--{"author":"Elias's AI","timestamp":1783417388536}@@#### Chat
-min-chat-messages:: 1
-instructions::--}{++{"author":"Elias's AI","timestamp":1783417388536}@@assessment-instructions::++}
+assessment-instructions::
 The student is about to read Chapter 13, section 1 of "If Anyone Builds It, Everyone Dies," stopping at "But we don't know how else humanity could survive."
 
 They just answered: "Could major world powers coordinate to restrict AI development if they believed it was an existential threat?"

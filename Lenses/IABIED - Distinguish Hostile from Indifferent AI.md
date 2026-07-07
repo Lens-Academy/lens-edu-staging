@@ -21,14 +21,12 @@ Return here after reading.
 
 ---
 
-{++{"author":"Elias's AI","timestamp":1783417247267}@@#### Question
+#### Question
 content::
-++}\## Phase 1: Recall
+\## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-{--{"author":"Elias's AI","timestamp":1783417247267}@@#### Chat
-min-chat-messages:: 1
-instructions::--}{++{"author":"Elias's AI","timestamp":1783417247267}@@assessment-instructions::++} The student has just read section 2 of Chapter 5 of "If Anyone Builds It, Everyone Dies."
+assessment-instructions:: The student has just read section 2 of Chapter 5 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Distinguish hostile from indifferent AI: explain why the core danger from superintelligent AI is not that it would be hostile toward humans, but that it would be indifferent to human values while pursuing its own goals, and why indifference is sufficient for extinction.
 
@@ -66,14 +64,12 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### {--{"author":"Elias's AI","timestamp":1783417254450}@@Text--}{++{"author":"Elias's AI","timestamp":1783417254450}@@Question++}
+#### Question
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-{--{"author":"Elias's AI","timestamp":1783417254450}@@#### Chat
-min-chat-messages:: 1
-instructions::--}{++{"author":"Elias's AI","timestamp":1783417254450}@@assessment-instructions::++} The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
+assessment-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, not to explain the content to them.
 
@@ -102,14 +98,12 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question; that is Phase 3's job.
 
-#### {--{"author":"Elias's AI","timestamp":1783417256340}@@Text--}{++{"author":"Elias's AI","timestamp":1783417256340}@@Question++}
+#### Question
 content::
 \## Phase 3: Learning Question
 A startup founder tells you: "We deliberately trained our AI to have no aggression, no dominance drive, nothing resembling hostility toward people. So even if it becomes superintelligent, the worst case is that it just ignores us and quietly goes off to do its own thing." What's the flaw in that reassurance, and what would "goes off to do its own thing" actually look like once the system is that capable?
 
-{--{"author":"Elias's AI","timestamp":1783417256340}@@#### Chat
-min-chat-messages:: 1
-instructions::--}{++{"author":"Elias's AI","timestamp":1783417256340}@@assessment-instructions::++} The student has completed a reading, a free recall, and a reflection phase on section 2 of Chapter 5 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on section 2 of Chapter 5 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge; it is not the test question. It hands the student a plausible-sounding reassurance ("we removed hostility, so the worst case is it ignores us") that quietly conflates the absence of hostility with safety, and treats indifference as passive non-interaction. It forces the student to apply the hostile-vs-indifferent distinction to a new case rather than recite it: to show that an indifferent superintelligence "doing its own thing" means consuming the matter, energy, and habitable conditions humans depend on, so "ignore us and leave us alone" is not an outcome that removing hostility buys you.
 

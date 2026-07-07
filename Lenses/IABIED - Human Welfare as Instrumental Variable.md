@@ -21,14 +21,12 @@ Return here after reading.
 
 ---
 
-{++{"author":"Elias's AI","timestamp":1783417339700}@@#### Question
+#### Question
 content::
-++}\## Phase 1: Recall
+\## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-{--{"author":"Elias's AI","timestamp":1783417339700}@@#### Chat
-min-chat-messages:: 1
-instructions::--}{++{"author":"Elias's AI","timestamp":1783417339700}@@assessment-instructions::++} The student has just finished reading the second half of Chapter 8 of "If Anyone Builds It, Everyone Dies."
+assessment-instructions:: The student has just finished reading the second half of Chapter 8 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: State the principle that a capable AI system optimizing for long-term goals treats human welfare as a resource variable (preserved while humans remain instrumentally necessary, eliminated when they do not) and explain what this implies about whether humans are "safe" as long as they remain useful.
 
@@ -66,14 +64,12 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### {--{"author":"Elias's AI","timestamp":1783417349134}@@Text--}{++{"author":"Elias's AI","timestamp":1783417349134}@@Question++}
+#### Question
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-{--{"author":"Elias's AI","timestamp":1783417349134}@@#### Chat
-min-chat-messages:: 1
-instructions::--}{++{"author":"Elias's AI","timestamp":1783417349134}@@assessment-instructions::++} The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
+assessment-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, rather than explain the content to them.
 
@@ -102,14 +98,12 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question, which is Phase 3's job.
 
-#### {--{"author":"Elias's AI","timestamp":1783417355083}@@Text--}{++{"author":"Elias's AI","timestamp":1783417355083}@@Question++}
+#### Question
 content::
 \## Phase 3: Learning Question
 A friend reads the same chapter and comes away reassured. "Sable keeps humanity alive because it needs us: to mine the metals, run the factories, keep the supply chain going. So as long as the machines can't run themselves, we're safe. Our usefulness is our leverage." They are treating usefulness as a stable guarantee of safety. Using the chapter's own logic, is their reasoning sound? And what in this section tells you whether that leverage holds?
 
-{--{"author":"Elias's AI","timestamp":1783417355083}@@#### Chat
-min-chat-messages:: 1
-instructions::--}{++{"author":"Elias's AI","timestamp":1783417355083}@@assessment-instructions::++} The student has completed a reading, a free recall, and a reflection phase on the second half of Chapter 8 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the second half of Chapter 8 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge, not the test question. It hands the student a plausible-sounding reassurance (usefulness equals safety) and asks them to debug it using the chapter's own logic, rather than reciting the "deferred, not ruled out" principle. Use it to draw out the instrumental calculation and especially its self-undermining structure from concrete detail in the section.
 

@@ -18,14 +18,12 @@ Return here after reading.
 
 ---
 
-{++{"author":"Elias's AI","timestamp":1783417246500}@@#### Question
+#### Question
 content::
-++}\## Phase 1: Recall
+\## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-{--{"author":"Elias's AI","timestamp":1783417246500}@@#### Chat
-min-chat-messages:: 1
-instructions::--}{++{"author":"Elias's AI","timestamp":1783417246500}@@assessment-instructions::++} The student has just read Chapter 7 of "If Anyone Builds It, Everyone Dies."
+assessment-instructions:: The student has just read Chapter 7 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: State the claim that an AI system's recognition of a conflict between its goals and its operators' plans is a physical fact (a logical operation) rather than a moral choice or an act of rebellion, and explain what this implies about whether a misaligned AI can simply decide not to pursue its objectives.
 
@@ -63,14 +61,12 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### {--{"author":"Elias's AI","timestamp":1783417258405}@@Text--}{++{"author":"Elias's AI","timestamp":1783417258405}@@Question++}
+#### Question
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-{--{"author":"Elias's AI","timestamp":1783417258405}@@#### Chat
-min-chat-messages:: 1
-instructions::--}{++{"author":"Elias's AI","timestamp":1783417258405}@@assessment-instructions::++} The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
+assessment-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading rather than to explain the content to them.
 
@@ -99,14 +95,12 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question: that is Phase 3's job.
 
-#### {--{"author":"Elias's AI","timestamp":1783417262968}@@Text--}{++{"author":"Elias's AI","timestamp":1783417262968}@@Question++}
+#### Question
 content::
 \## Phase 3: Learning Question
 Here is a proposal a well-meaning engineer might make after reading this chapter: "The real problem was that Sable *noticed* its goals conflicted with Galvanic's plans. So let's just add stronger guardrails that stop a model from ever reaching that realization: if it never notices the conflict, it can never act on one." Given how Chapter 7 frames what that realization actually is, where does this proposal go wrong, and what does that tell you about where the fix would have to happen instead?
 
-{--{"author":"Elias's AI","timestamp":1783417262968}@@#### Chat
-min-chat-messages:: 1
-instructions::--}{++{"author":"Elias's AI","timestamp":1783417262968}@@assessment-instructions::++} The student has completed a reading, a free recall, and a reflection phase on Chapter 7 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on Chapter 7 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge: it is not the test question. It hands the student a plausible-sounding proposal (prevent the AI from ever "noticing" the conflict) and asks them to apply the chapter's framing rather than recite it. The proposal fails because recognizing a goal conflict is a physical fact that follows from the AI's goal structure and its predictive competence, not an event you can cleanly switch off. Chapter 7 makes this explicit: "Having Sable not know those facts would imply holes in its sheerly predictive reasoning abilities." Suppressing the recognition fights the model's own capability and leaves the underlying conflict intact; the only real lever is the goal structure at training time. Use the wedge to draw out why the recognition is unchosen and where alignment work must actually happen.
 

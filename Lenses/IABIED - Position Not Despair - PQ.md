@@ -9,7 +9,7 @@ tags:
   - lens
   - IABIED
 ---
-#### {--{"author":"Elias's AI","timestamp":1783417285122}@@Text--}{++{"author":"Elias's AI","timestamp":1783417285122}@@Question++}
+#### Question
 content:: When experts say a project should not be attempted, you can hear two very different things in that sentence:
 
 - *"Nothing can be done."* The situation is hopeless; the right response is to give up.
@@ -19,9 +19,7 @@ These sound similar but they imply opposite responses. **Before you read the res
 
 What was the difference between *that* call and despair? What did the right call point toward instead?
 
-{--{"author":"Elias's AI","timestamp":1783417288426}@@#### Chat
-min-chat-messages:: 1
-instructions::--}{++{"author":"Elias's AI","timestamp":1783417288426}@@assessment-instructions::++}
+assessment-instructions::
 The student is about to read the second half of Chapter 10 of "If Anyone Builds It, Everyone Dies" — the synthesis section that maps the case studies onto ASI alignment and closes with the line "NOBODY SHOULD BE ALLOWED TO TRY."
 
 They just answered: "When did 'this should not be attempted' turn out to be the right call rather than despair?"

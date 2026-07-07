@@ -20,8 +20,7 @@ Return here after reading.
 ---
 
 #### Question
-{--{"author":"Elias's AI","timestamp":1783417284314}@@feedback:: true
---}content::
+content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
@@ -65,8 +64,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
-{--{"author":"Elias's AI","timestamp":1783417315594}@@feedback:: true
---}content::
+content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
@@ -100,8 +98,7 @@ What not to do:
 - Start resolving the learning outcome question; that is Phase 3's job.
 
 #### Question
-{--{"author":"Elias's AI","timestamp":1783417329574}@@feedback:: true
---}content::
+content::
 \## Phase 3: Learning Question
 A pocket calculator out-predicts and out-steers any human at arithmetic. A house cat can't do arithmetic at all — but it navigates a physical and social world the calculator is blind to. By the chapter's definition, which one has the kind of intelligence the authors are worried about, and what exactly are you pointing at when you answer?
 

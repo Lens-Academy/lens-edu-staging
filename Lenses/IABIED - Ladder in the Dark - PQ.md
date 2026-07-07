@@ -10,12 +10,10 @@ tags:
   - IABIED
 ---
 
-#### {--{"author":"Elias's AI","timestamp":1783417339696}@@Text--}{++{"author":"Elias's AI","timestamp":1783417339696}@@Question++}
+#### Question
 content:: Imagine multiple parties competing for something important, like a business race, an arms race, or a scientific contest. If all parties knew that continuing the competition posed serious risks for everyone, would that knowledge be enough to stop them? What would it actually take to halt the competition?
 
-{--{"author":"Elias's AI","timestamp":1783417350718}@@#### Chat
-min-chat-messages:: 1
-instructions::--}{++{"author":"Elias's AI","timestamp":1783417350718}@@assessment-instructions::++}
+assessment-instructions::
 The student is about to read the second section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "Imagine multiple parties competing for something important, like a business race, an arms race, or a scientific contest. If all parties knew that continuing the competition posed serious risks for everyone, would that knowledge be enough to stop them? What would it actually take to halt the competition?"

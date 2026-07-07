@@ -9,12 +9,10 @@ tags:
   - lens
   - IABIED
 ---
-#### {--{"author":"Elias's AI","timestamp":1783417412960}@@Text--}{++{"author":"Elias's AI","timestamp":1783417412960}@@Question++}
+#### Question
 content:: Before reading: Can you think of a situation where you'd be confident about the outcome of a process, even if you couldn't predict each step along the way? What makes outcome prediction different from pathway prediction? Or is there no real difference? Write down your thinking before you read.
 
-{--{"author":"Elias's AI","timestamp":1783417415184}@@#### Chat
-min-chat-messages:: 1
-instructions::--}{++{"author":"Elias's AI","timestamp":1783417415184}@@assessment-instructions::++}
+assessment-instructions::
 The student is about to read the Coda of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "Can you be confident about an outcome without being able to predict the specific path that leads there?"

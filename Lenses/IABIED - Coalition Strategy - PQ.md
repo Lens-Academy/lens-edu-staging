@@ -9,12 +9,10 @@ tags:
   - lens
   - IABIED
 ---
-#### {--{"author":"Elias's AI","timestamp":1783417444375}@@Text--}{++{"author":"Elias's AI","timestamp":1783417444375}@@Question++}
+#### Question
 content:: Before reading Chapter 13, section 2: Imagine you're trying to build the broadest possible coalition to prevent AI-caused extinction. Would you bundle that cause with other AI-related concerns (like opposition to AI-generated weapons or AI taking human jobs) to attract more allies? Or would you keep the ask to a single issue? What are the tradeoffs? Write down your thinking before you read.
 
-{--{"author":"Elias's AI","timestamp":1783417446430}@@#### Chat
-min-chat-messages:: 1
-instructions::--}{++{"author":"Elias's AI","timestamp":1783417446430}@@assessment-instructions::++}
+assessment-instructions::
 The student is about to read Chapter 13, section 2 of "If Anyone Builds It, Everyone Dies," starting at "The solutions we've just proposed are a far cry from the policies that other concerned folks propose" and reading to the end of the chapter.
 
 They just answered: "Should you bundle the anti-extinction cause with other AI-related concerns, or keep the ask narrow?"
