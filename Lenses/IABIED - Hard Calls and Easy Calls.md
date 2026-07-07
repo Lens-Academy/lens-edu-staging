@@ -24,7 +24,6 @@ Return here after reading.
 
 ---
 \## Phase 1: Recall
-
 #### Question
 content::
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -67,7 +66,7 @@ This is a one-turn response. Do not ask a question or suggest the student reply.
 
 #### Text
 content::
-\˘## Phase 2: Processing
+\## Phase 2: Processing
 
 #### Question
 content::
