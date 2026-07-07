@@ -9,5 +9,6 @@ source::
 ![[../Lenses/What are the differences between a singularity, an intelligence explosion, and a hard takeoff|What are the differences between a singularity, an intelligence explosion, and a hard takeoff]]
 
 ## Lens:
-source::
+{++{"author":"Elias's AI","timestamp":1783453516434}@@optional:: true
+++}source::
 ![[../Lenses/Recursion Magic|Recursion Magic]]

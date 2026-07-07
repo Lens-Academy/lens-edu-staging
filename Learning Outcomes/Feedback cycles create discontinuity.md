@@ -9,7 +9,8 @@ tags:
 
 
 ## Lens:
-source::
+{++{"author":"Elias's AI","timestamp":1783453514778}@@optional:: true
+++}source::
 ![[../Lenses/Cascades and Cycles]]
 
 ## Lens:
