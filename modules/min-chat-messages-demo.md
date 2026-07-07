@@ -73,7 +73,7 @@ id:: d3d75f10-d930-4fc1-a52c-fcfcc65f05a0
 
 #### Text
 content::
-This chat has no `min-chat-messages`, so it shows the default behavior: "Mark section complete" works immediately, even without sending anything.
+This {--{"author":"Elias's AI","timestamp":1783441589297}@@chat--}{++{"author":"Elias's AI","timestamp":1783441589297}@@lens++} has no {--{"author":"Elias's AI","timestamp":1783441589297}@@`min-chat-messages`,--}{++{"author":"Elias's AI","timestamp":1783441589297}@@`min_chat_messages`,++} so it shows the default behavior: "Mark section complete" works immediately, even without sending anything.
 
 #### Chat
 instructions::
