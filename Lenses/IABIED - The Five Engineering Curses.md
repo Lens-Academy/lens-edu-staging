@@ -20,12 +20,14 @@ Return here after reading.
 
 ---
 
-\## Phase 1: Recall
+{++{"author":"Elias's AI","timestamp":1783417257718}@@#### Question
+content::
+++}\## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading. Don't look back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417257718}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has just read the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies."
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417257718}@@assessment-instructions::++} The student has just read the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Enumerate the five engineering curses Chapter 10 names (speed, narrow margins, self-amplification, complications, and edge cases) and identify which case study (space probes, Chernobyl, computer security) illustrates each.
 
@@ -62,14 +64,14 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783417259588}@@Text--}{++{"author":"Elias's AI","timestamp":1783417259588}@@Question++}
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Using the speech to text feature is recommended.
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417259588}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417259588}@@assessment-instructions::++} The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading. It is not to explain the content to them.
 

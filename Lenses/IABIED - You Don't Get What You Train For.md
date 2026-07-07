@@ -19,12 +19,14 @@ Return here after reading.
 
 ---
 
-\## Phase 1: Recall
+{++{"author":"Elias's AI","timestamp":1783417250425}@@#### Question
+content::
+++}\## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417250425}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has just read Chapter 4 ("You Don't Get What You Train For") of "If Anyone Builds It, Everyone Dies."
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417250425}@@assessment-instructions::++} The student has just read Chapter 4 ("You Don't Get What You Train For") of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Explain why there's no reliable relationship between training objectives and resulting AI preferences.
 
