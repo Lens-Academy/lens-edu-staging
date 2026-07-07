@@ -101,9 +101,11 @@ What not to do:
 - Agree or disagree with the student's skepticism; instead, articulate it precisely, don't adjudicate it.
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question: that is Phase 3's job.
+
 #### Text
 content::
-## Phase 3: Learning Question
+\## Phase 3: Learning Question
+
 #### Question
 content::
 The authors are remarkably confident that advanced AI is dangerous, yet they flatly refuse to predict when it will arrive or exactly how a catastrophe would unfold. Is that a contradiction? How can they be so sure of the danger but not the details? What is it about the situation that lets them have it both ways?
