@@ -102,14 +102,14 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question. That is Phase 3's job.
 
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783417330599}@@Text--}{++{"author":"Elias's AI","timestamp":1783417330599}@@Question++}
 content::
 \## Phase 3: Learning Question
 A friend who works in machine learning tells you: "The alchemy comparison is out of date. Every new model is run against thousands of safety evaluations and red-team tests, and the scores climb with each release. That's not philosophy and vibes. It's rigorous empirical measurement. The field has clearly left the alchemy stage." Using the chapter's diagnosis, where exactly does this argument go wrong, and is there any part of it your friend has right?
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417330599}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 11 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417330599}@@assessment-instructions::++} The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 11 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge, not the test question. It hands the student a plausible-sounding argument that rising safety-benchmark scores prove the field has left the alchemy stage, and asks them to debug it rather than recite the diagnosis. Use it to draw out the difference between measuring that a technique works and understanding why it works, and between capability/eval progress and engineering-principle understanding.
 

@@ -10,7 +10,7 @@ tags:
   - IABIED
 ---
 
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783417339696}@@Text--}{++{"author":"Elias's AI","timestamp":1783417339696}@@Question++}
 content:: Imagine multiple parties competing for something important, like a business race, an arms race, or a scientific contest. If all parties knew that continuing the competition posed serious risks for everyone, would that knowledge be enough to stop them? What would it actually take to halt the competition?
 
 #### Chat

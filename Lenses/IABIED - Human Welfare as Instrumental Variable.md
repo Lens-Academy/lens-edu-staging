@@ -21,12 +21,14 @@ Return here after reading.
 
 ---
 
-\## Phase 1: Recall
+{++{"author":"Elias's AI","timestamp":1783417339700}@@#### Question
+content::
+++}\## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417339700}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has just finished reading the second half of Chapter 8 of "If Anyone Builds It, Everyone Dies."
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417339700}@@assessment-instructions::++} The student has just finished reading the second half of Chapter 8 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: State the principle that a capable AI system optimizing for long-term goals treats human welfare as a resource variable (preserved while humans remain instrumentally necessary, eliminated when they do not) and explain what this implies about whether humans are "safe" as long as they remain useful.
 

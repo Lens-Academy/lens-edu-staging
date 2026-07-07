@@ -98,8 +98,8 @@ What not to do:
 - Start resolving the learning outcome question. That is Phase 3's job.
 
 #### Question
-feedback:: true
-content::
+{--{"author":"Elias's AI","timestamp":1783417336179}@@feedback:: true
+--}content::
 \## Phase 3: Learning Question
 An AI refuses to help a user build a weapon. A developer points to this and says, "See? It's aligned." What has the developer actually observed, and what would you need to know to tell whether the refusal came from the AI's values or just from its training? Is there any test that could settle it?
 

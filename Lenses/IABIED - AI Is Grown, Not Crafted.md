@@ -98,8 +98,8 @@ What not to do:
 - Start resolving the learning outcome question — that is Phase 3's job.
 
 #### Question
-feedback:: true
-content::
+{--{"author":"Elias's AI","timestamp":1783417334461}@@feedback:: true
+--}content::
 \## Phase 3: Learning Question
 Imagine an engineer at a frontier AI lab tells you: "I designed this model's entire training process, and I can pull up and read every one of its billions of weights — so there is nothing about it I don't understand." Both of those claims are true. The conclusion still doesn't follow. Where does the reasoning break down, and what kind of understanding is the engineer missing?
 

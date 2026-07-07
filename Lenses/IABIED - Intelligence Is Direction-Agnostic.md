@@ -96,8 +96,8 @@ What not to do:
 - Start resolving the learning outcome question — that is Phase 3's job.
 
 #### Question
-feedback:: true
-content::
+{--{"author":"Elias's AI","timestamp":1783417331144}@@feedback:: true
+--}content::
 \## Phase 3: Learning Question
 A friend says: "I'm not worried about advanced AI. Any system smart enough to be dangerous is smart enough to understand human ethics, and understanding ethics means it'll act ethically." Using the idea that intelligence is direction-agnostic, where does your friend's reasoning go wrong?
 
