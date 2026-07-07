@@ -63,14 +63,14 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783417498971}@@Text--}{++{"author":"Elias's AI","timestamp":1783417498971}@@Question++}
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417498971}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has just completed a free recall of the first section of Chapter 14 of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417498971}@@assessment-instructions::++} The student has just completed a free recall of the first section of Chapter 14 of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, rather than explaining the content to them.
 
@@ -101,14 +101,14 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783417501563}@@Text--}{++{"author":"Elias's AI","timestamp":1783417501563}@@Question++}
 content::
 \## Phase 3: Learning Question
 The chapter says the people working to prevent nuclear war "worked to un-write a fate already written." What does this phrase mean? And what specifically happened during the Cold War that the chapter uses as evidence that un-writing a fate is actually possible?
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417501563}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 14 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417501563}@@assessment-instructions::++} The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 14 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 Learning outcome for this Lens: State what the chapter means by 'un-writing a fate already written,' and identify the nuclear precedent it uses to show this is possible.
 
