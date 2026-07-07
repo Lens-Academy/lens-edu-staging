@@ -21,15 +21,16 @@ What learners see: while something is missing, "Mark section complete" is grayed
 
 The five lenses below demonstrate each case. Preview the module and try them. %%
 
-# Lens: Chat with a 2-message minimum
-id:: 593ceb17-ebd3-4c31-b250-3229b758ffc6
+# Lens: {--{"author":"Elias's AI","timestamp":1783441563283}@@Chat--}{++{"author":"Elias's AI","timestamp":1783441563283}@@Lens++} with a 2-message minimum
+id:: 593ceb17-ebd3-4c31-b250-3229b758ffc6{++{"author":"Elias's AI","timestamp":1783441563283}@@
+min_chat_messages:: 2++}
 
 #### Text
 content::
-This page's chat has `min-chat-messages:: 2`. Until you have sent two messages, "Mark section complete" stays grayed out and the bullet list under it says how many messages are still needed — click "the chat" in the bullet to jump here.
+This {--{"author":"Elias's AI","timestamp":1783441563283}@@page's chat--}{++{"author":"Elias's AI","timestamp":1783441563283}@@lens++} has {--{"author":"Elias's AI","timestamp":1783441563283}@@`min-chat-messages::--}{++{"author":"Elias's AI","timestamp":1783441563283}@@`min_chat_messages::++} 2`. Until you have sent two {--{"author":"Elias's AI","timestamp":1783441563283}@@messages,--}{++{"author":"Elias's AI","timestamp":1783441563283}@@messages to the Lens Tutor,++} "Mark section complete" stays grayed out and the bullet list under it says how many messages are still {--{"author":"Elias's AI","timestamp":1783441563283}@@needed — click "the chat" in--}{++{"author":"Elias's AI","timestamp":1783441563283}@@needed. Type into the chat box below or into++} the {--{"author":"Elias's AI","timestamp":1783441563283}@@bullet to jump here.--}{++{"author":"Elias's AI","timestamp":1783441563283}@@sidebar — both count.++}
 
-#### Chat
-min-chat-messages:: 2
+#### Chat{--{"author":"Elias's AI","timestamp":1783441563283}@@
+min-chat-messages:: 2--}
 instructions::
 Chat casually with the learner about whatever they bring up; keep replies short.
 
