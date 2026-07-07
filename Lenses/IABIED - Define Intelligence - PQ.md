@@ -9,13 +9,11 @@ tags:
   - lens
   - IABIED
 ---
-#### {--{"author":"Elias's AI","timestamp":1783415956858}@@Text--}{++{"author":"Elias's AI","timestamp":1783415956858}@@Question
-feedback:: true++}
+#### Question
+feedback:: true
 content:: Before reading Chapter 1: When you think of "intelligence," what do you mean? Some animals are experts in their niche: a bat's sonar, a crow's tool use, a dog's nose. What do you think makes human intelligence distinctively powerful compared to theirs? Jot down a quick answer before reading. The authors have a specific framework for this.
 
-{--{"author":"Elias's AI","timestamp":1783415959193}@@#### Chat
-min-chat-messages:: 1
-instructions::--}{++{"author":"Elias's AI","timestamp":1783415959193}@@assessment-instructions::++}
+assessment-instructions::
 The student is about to read the first half of Chapter 1 of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "What makes human intelligence distinctively powerful compared to other animals?"

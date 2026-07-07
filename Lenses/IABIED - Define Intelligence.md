@@ -19,15 +19,13 @@ Return here after reading.
 
 ---
 
-{++{"author":"Elias's AI","timestamp":1783415859679}@@#### Question
+#### Question
 feedback:: true
 content::
-++}\## Phase 1: Recall
+\## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-{--{"author":"Elias's AI","timestamp":1783415859679}@@#### Chat
-min-chat-messages:: 1
-instructions::--}{++{"author":"Elias's AI","timestamp":1783415859679}@@assessment-instructions::++} The student has just read the first half of Chapter 1 of "If Anyone Builds It, Everyone Dies."
+assessment-instructions:: The student has just read the first half of Chapter 1 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Define intelligence as prediction plus steering, and explain why generality, not raw capability, is what makes human intelligence powerful and its artificial equivalent potentially dangerous.
 
@@ -66,15 +64,13 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### {--{"author":"Elias's AI","timestamp":1783415861717}@@Text--}{++{"author":"Elias's AI","timestamp":1783415861717}@@Question
-feedback:: true++}
+#### Question
+feedback:: true
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-{--{"author":"Elias's AI","timestamp":1783415861717}@@#### Chat
-min-chat-messages:: 1
-instructions::--}{++{"author":"Elias's AI","timestamp":1783415861717}@@assessment-instructions::++} The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+assessment-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, not to explain the content to them.
 
@@ -103,15 +99,13 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question; that is Phase 3's job.
 
-#### {--{"author":"Elias's AI","timestamp":1783415865825}@@Text--}{++{"author":"Elias's AI","timestamp":1783415865825}@@Question
-feedback:: true++}
+#### Question
+feedback:: true
 content::
 \## Phase 3: Learning Question
 A pocket calculator out-predicts and out-steers any human at arithmetic. A house cat can't do arithmetic at all — but it navigates a physical and social world the calculator is blind to. By the chapter's definition, which one has the kind of intelligence the authors are worried about, and what exactly are you pointing at when you answer?
 
-{--{"author":"Elias's AI","timestamp":1783415865825}@@#### Chat
-min-chat-messages:: 1
-instructions::--}{++{"author":"Elias's AI","timestamp":1783415865825}@@assessment-instructions::++} The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 1 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 1 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge; it is not the test question. It hands the student two systems that each have one ingredient of intelligence but not the whole, and asks them to apply the chapter's definition rather than recite it. Use it to draw out prediction, steering, and especially generality from a concrete case.
 
