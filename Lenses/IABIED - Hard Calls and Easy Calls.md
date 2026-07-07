@@ -99,9 +99,9 @@ What not to do:
 - Start resolving the learning outcome question: that is Phase 3's job.
 
 #### Question
-feedback:: Fals
+feedback:: false
 content::
-\## Phase 3: Learning Question
+\## Phase 3: Learning Question (false)
 The authors are remarkably confident that advanced AI is dangerous, yet they flatly refuse to predict when it will arrive or exactly how a catastrophe would unfold. Is that a contradiction? How can they be so sure of the danger but not the details? What is it about the situation that lets them have it both ways?
 
 assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the Introduction to "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
