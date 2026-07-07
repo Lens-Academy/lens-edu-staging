@@ -9,12 +9,13 @@ tags:
   - lens
   - IABIED
 ---
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783415950774}@@Text--}{++{"author":"Elias's AI","timestamp":1783415950774}@@Question
+feedback:: true++}
 content:: Before reading the Introduction: What kinds of things about the future do you feel fairly confident predicting? What makes a prediction feel like a "sure thing" versus a "coin flip"? Take a moment to jot down your answer before reading. There's no right or wrong answers to priming questions, we just want you to gather your thoughts before you're exposed to the ideas in the book. The authors have a specific framework for this, which you'll read next.
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783415952867}@@#### Chat
 min-chat-messages:: 1
-instructions::
+instructions::--}{++{"author":"Elias's AI","timestamp":1783415952867}@@assessment-instructions::++}
 The student is about to read the Introduction to "If Anyone Builds It, Everyone Dies."
 
 They just answered: "What kinds of things about the future do you feel confident predicting? What makes a prediction feel like a sure thing versus a coin flip?"
