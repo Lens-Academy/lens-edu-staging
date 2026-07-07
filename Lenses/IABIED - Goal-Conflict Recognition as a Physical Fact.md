@@ -99,14 +99,14 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question: that is Phase 3's job.
 
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783417262968}@@Text--}{++{"author":"Elias's AI","timestamp":1783417262968}@@Question++}
 content::
 \## Phase 3: Learning Question
 Here is a proposal a well-meaning engineer might make after reading this chapter: "The real problem was that Sable *noticed* its goals conflicted with Galvanic's plans. So let's just add stronger guardrails that stop a model from ever reaching that realization: if it never notices the conflict, it can never act on one." Given how Chapter 7 frames what that realization actually is, where does this proposal go wrong, and what does that tell you about where the fix would have to happen instead?
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417262968}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has completed a reading, a free recall, and a reflection phase on Chapter 7 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417262968}@@assessment-instructions::++} The student has completed a reading, a free recall, and a reflection phase on Chapter 7 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge: it is not the test question. It hands the student a plausible-sounding proposal (prevent the AI from ever "noticing" the conflict) and asks them to apply the chapter's framing rather than recite it. The proposal fails because recognizing a goal conflict is a physical fact that follows from the AI's goal structure and its predictive competence, not an event you can cleanly switch off. Chapter 7 makes this explicit: "Having Sable not know those facts would imply holes in its sheerly predictive reasoning abilities." Suppressing the recognition fights the model's own capability and leaves the underlying conflict intact; the only real lever is the goal structure at training time. Use the wedge to draw out why the recognition is unchosen and where alignment work must actually happen.
 

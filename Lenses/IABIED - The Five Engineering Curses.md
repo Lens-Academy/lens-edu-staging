@@ -100,14 +100,14 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783417265049}@@Text--}{++{"author":"Elias's AI","timestamp":1783417265049}@@Question++}
 content::
 \## Phase 3: Learning Question
 A friend reads the same chapter and shrugs: "Every one of these curses has already been beaten. We've flown space probes that reached Mars, we run reactors that don't explode, and we ship software that mostly holds up. Engineering is just grinding failure modes down one at a time. Give the AI people enough iterations and they'll grind these down too." Using the chapter's own distinctions, where exactly does that argument break?
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783417265049}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+instructions::--}{++{"author":"Elias's AI","timestamp":1783417265049}@@assessment-instructions::++} The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge. It is not the test question. The test asks them to enumerate the five curses and map each to its case study; the wedge instead hands them a plausible-sounding dismissal and asks them to apply the chapter's distinctions rather than recite the list. The friend's claim is exactly the move the chapter pre-empts: it treats all five curses as equally beatable. Use it to draw out (a) the before/after gap: ASI alignment gets no iterations, unlike probes and reactors; (b) why edge cases is a different category from the other four: it intensifies with the adversary's intelligence, while speed, narrow margins, self-amplification, and complications are fixed physical constraints that ingenuity can best; and (c) "grown, not crafted" — computer security is losing even when engineers can read their own code, and AI's engineers cannot read theirs.
 
