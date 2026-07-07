@@ -24,12 +24,15 @@ Return here after reading.
 
 ---
 
-\## Phase 1: Recall
+{++{"author":"Elias's AI","timestamp":1783414147768}@@#### Question
+feedback:: true
+content::
+++}\## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783414147768}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has just read the Introduction to "If Anyone Builds It, Everyone Dies."
+instructions::--}{++{"author":"Elias's AI","timestamp":1783414147768}@@assessment-instructions::++} The student has just read the Introduction to "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Distinguish "hard calls" from "easy calls" as the authors define them, and explain why they classify the danger from ASI as an easy call despite its apparent implausibility.
 
