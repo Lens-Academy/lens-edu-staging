@@ -99,14 +99,15 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783415883467}@@Text--}{++{"author":"Elias's AI","timestamp":1783415883467}@@Question
+feedback:: true++}
 content::
 \## Phase 3: Learning Question
 A friend says: "I'm not worried about advanced AI. Any system smart enough to be dangerous is smart enough to understand human ethics, and understanding ethics means it'll act ethically." Using the idea that intelligence is direction-agnostic, where does your friend's reasoning go wrong?
 
-#### Chat
+{--{"author":"Elias's AI","timestamp":1783415883467}@@#### Chat
 min-chat-messages:: 1
-instructions:: The student has completed a reading, a free recall, and a reflection phase for the second half of Chapter 1 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+instructions::--}{++{"author":"Elias's AI","timestamp":1783415883467}@@assessment-instructions::++} The student has completed a reading, a free recall, and a reflection phase for the second half of Chapter 1 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge. It is not the test question. It hands the student a plausible-sounding objection (smart enough to understand ethics, therefore it will act ethically) and asks them to locate the flaw, so the learning outcome gets drawn out from a fresh angle rather than recited as a definition.
 
