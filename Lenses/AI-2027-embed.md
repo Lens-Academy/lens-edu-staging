@@ -5,4 +5,4 @@ tags:
 ---
 
 #### Embed
-source:: [[../articles/ai-2027|AI 2027]]
+source:: [[../articles/ai-2027]]
