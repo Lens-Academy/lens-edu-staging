@@ -14,7 +14,7 @@ The fields:
 - On a lens, `min_chat_messages` (YAML frontmatter on lens files, `min_chat_messages::` on inline lenses) means the learner must send at least that many messages to the Lens Tutor while on that lens before "Mark section complete" works. Every message counts, wherever it is typed: a chat box on the page, a question's feedback conversation, or the sidebar directly. The default is 0.
 - `optional:: true` on a question makes answering it optional.
 - Whole lenses marked `optional:: true` never block completion.
-- Segment-level `min-chat-messages::` (on a `#### Chat` or `#### Question`) is retired and ignored — the per-lens field above replaced it.
+
 
 What learners see: while something is missing, "Mark section complete" is grayed out with a "To finish this page:" bullet list under it ("Send 2 messages to the Lens Tutor", "Answer question 2"). The named item in each bullet is a link that scrolls to it, and the list updates live as they make progress.
 
