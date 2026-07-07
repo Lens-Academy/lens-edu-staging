@@ -99,7 +99,7 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1783417401895}@@Text--}{++{"author":"Elias's AI","timestamp":1783417401895}@@Question++}
 content::
 \## Phase 3: Learning Question
 Suppose someone tells you: "A global treaty to restrict AI development is politically unrealistic — no major power has ever coordinated to stop its own scientific and military development." Using only what you just read in Chapter 13, how would you respond? Walk through the argument the chapter makes: what does it point to, what specific claim does it make about human motivation, and how does that convert the "politically impossible" objection into something that can be answered?
