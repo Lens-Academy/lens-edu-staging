@@ -1,0 +1,36 @@
+{++{"author":"AI","timestamp":1783528413973}@@---
+id: 32683965-76f0-4b11-9005-9b4e1d2000a6
+learning-outcome: Understand and categorize the main families of brain-related AI safety approaches — NeuroAI-for-safety (Mineault et al.'s seven approaches), brain-like AGI safety (Byrnes), and human-side strategies (BCI/merge, whole-brain emulation)
+tags:
+  - learning outcome
+---
+## Lens:
+source:: [[../Lenses/Brain-related AI safety approaches]]
+## Test:
+id:: 376a14fc-8cb6-489e-b27b-7db6a8fd1411
+#### Question
+feedback:: true
+content:: In your own words, name the three broad families of brain-related AI safety approaches from this module and give the one-sentence goal of each.
+assessment-instructions:: A strong answer names all three families and states each goal distinctly: (A) NeuroAI for AI safety — use neuroscience to build/align/interpret the (de novo) AI we make, importing safety-relevant properties of brains; (B) brain-like AGI safety — assuming future AGI is itself built on brain-like algorithms, reverse-engineer the brain's innate reward/steering system to install good motivations; (C) human-side strategies — intervene on humans (BCI/merge, cognitive augmentation, whole-brain emulation) to keep humans in control rather than changing the AI. Award 4-5 for three families with clearly distinct goals; 3 for three families with blurred goals or one weak description; 1-2 if fewer than two families or if A and B are conflated. Accept paraphrase and different family labels; do not require exact terminology.
+max-chars:: 700
+#### Question
+feedback:: true
+content:: "NeuroAI for AI safety" (Mineault et al.) and "brain-like AGI safety" (Byrnes) both study the brain, but they make a different core assumption about the AI being made safe. What is that difference?
+assessment-instructions:: The key distinction: NeuroAI-for-safety (Family A) uses neuroscience to inform AI that we build, and that AI need NOT itself be brain-like — we import robustness, cooperation, better loss functions, interpretability, etc. into whatever system we are building. Brain-like AGI safety (Family B) instead ASSUMES the dangerous future AGI is itself built on the brain's high-level learning algorithms (an actor-critic learner with a Learning + Steering subsystem), and aligns it on those terms by reverse-engineering the brain's reward/motivation circuitry. Award 4-5 if the learner clearly captures "A = brains inform the AI we build (not necessarily brain-like) vs B = the AI itself is brain-like." Award 3 if they gesture at the difference but muddle it; 1-2 if they treat the two as the same or invert them. Accept paraphrase.
+max-chars:: 600
+#### Question
+feedback:: true
+content:: List at least four of the seven research approaches in the NeuroAI for AI Safety roadmap, and state the unifying bet behind all seven.
+assessment-instructions:: The seven approaches are: (1) reverse-engineer sensory representations (robustness/adversarial examples), (2) embodied digital twins, (3) detailed biophysical/connectomic neural simulations, (4) better cognitive architectures (modular/probabilistic theory-of-mind and cooperation), (5) brain-informed process supervision (fine-tune on neural/behavioral data), (6) reverse-engineer brain loss functions (better training objectives), (7) neuroscience-inspired interpretability. Any four of these earns credit. The unifying bet: more constraints from human brain biophysics/representations/behavior raise the probability of landing in the "basin" of safe, human-like solutions (many paths reach intelligence but most lack human-like safety properties). Award 4-5 for four correct approaches plus the unifying bet; 3 for four approaches with a vague/missing bet, or three approaches plus a good bet; 1-2 for fewer than three approaches. Accept paraphrased names.
+max-chars:: 700
+#### Question
+feedback:: true
+content:: Explain Byrnes' two-subsystem picture of brain-like AGI (the Learning Subsystem vs the Steering Subsystem), why he says such an AGI is dangerous "by default," and what his proposed fix is.
+assessment-instructions:: A strong answer covers: (1) the two subsystems — a from-scratch, cortex-like Learning Subsystem that acquires knowledge/skills through experience, and an innate, genetically-specified Steering Subsystem (brainstem/hypothalamus-like) that supplies the reward/motivation signal; together an actor-critic reinforcement learner. (2) Dangerous by default: a capable, autonomous, goal-pursuing brain-like AGI would tend to acquire radically nonhuman motivations unless deliberately steered, and could cause catastrophe without sci-fi superweapons. (3) The fix: reverse-engineer the brain's innate steering/social-instinct circuitry and reward function so beneficial motivations can be installed on purpose (values foundational, not bolted on). Award 4-5 for all three parts; 3 for two of three; 1-2 for one or for major errors (e.g. claiming Byrnes proposes whole-brain emulation). Accept paraphrase.
+max-chars:: 800
+#### Question
+feedback:: true
+content:: How do the "human-side" approaches (brain-computer interfaces / the merge, and whole-brain emulation) differ in strategy from the other two families, and give one reason someone might doubt they work as a safety solution?
+assessment-instructions:: A strong answer explains that human-side approaches (Family C) intervene on the HUMAN side rather than on the AI: they aim to keep humans in control or relevant — via high-bandwidth BCIs / "merging" with AI, human cognitive augmentation, or whole-brain emulation as a human-derived alternative to de novo AGI — rather than trying to make the AI itself safe (A) or aligning a brain-like AGI (B). For the doubt, credit any reasonable objection: BCIs may raise capability faster than they improve control; WBE may arrive after de novo AGI so it cannot help in time; "merge" scenarios blur rather than resolve whose values are in charge; feasibility/timeline concerns. Award 4-5 for a clear strategic contrast plus a valid objection; 3 for a partial contrast or a weak objection; 1-2 if the contrast is wrong or missing. Accept paraphrase.
+max-chars:: 700
+++}
