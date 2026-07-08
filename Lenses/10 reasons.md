@@ -11,7 +11,7 @@ to:: 15:37
 
 #### Text
 content::
-Which objection stood out most to you
+Which objection stood out most to you? hauh, bug.
 #### Chat
 instructions::
 TLDR of what the user just watched:
