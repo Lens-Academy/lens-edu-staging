@@ -12,8 +12,8 @@ tags:
 id:: f51071e9-d415-4910-af2c-2d5e447a233f
 
 #### Question
-feedback:: true
-content:: The first 5-10 minutes set the rest. Three things to accomplish: land in the room, reconnect to the material, set a clear shape. A reliable 3-step pattern: Check-in (2-3 min) → Anchor (1-2 min) → Opening question via Think-Pair-Share (3-5 min).
+{--{"author":"Elias's AI","timestamp":1783542499391}@@feedback:: true
+--}content:: The first 5-10 minutes set the rest. Three things to accomplish: land in the room, reconnect to the material, set a clear shape. A reliable 3-step pattern: Check-in (2-3 min) → Anchor (1-2 min) → Opening question via Think-Pair-Share (3-5 min).
 
 Describe each of the three steps. Then draft your own opening plan for an upcoming session: check-in question, anchor sentence, and opening question.
 
