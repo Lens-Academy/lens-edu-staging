@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783528376998}@@---
+---
 id: 17330bd5-3f15-40f3-a105-e131a3b69322
 title: Brain-related AI safety approaches
 tldr: Why do some AI safety researchers study the brain? This lens maps the landscape into three families — using neuroscience to build safe AI (Mineault et al.'s seven approaches), aligning AI that is itself brain-like (Byrnes), and keeping humans in the loop via BCIs and brain emulation — so you can place any "brain + safety" idea in the right box.
@@ -83,4 +83,3 @@ The families overlap — interpretability bridges A and mainstream alignment; re
 optional:: true
 instructions::
 Help the learner solidify the three-family taxonomy of brain-related AI safety approaches (A: NeuroAI-for-safety / Mineault; B: brain-like AGI safety / Byrnes; C: human-side — BCI, augmentation, WBE). Probe the most common confusion: the A-vs-B distinction (A informs de novo AI we build; B assumes the AI itself is brain-like). If the learner is solid, push them to place a novel example in the right family (e.g. "fine-tuning a model on fMRI data" → A5; "installing Approval-Reward-like social drives into an actor-critic AGI" → B; "uploading a human as an alternative to de novo AGI" → C). Stay grounded in the lens content; do not introduce approaches not covered above.
-++}
