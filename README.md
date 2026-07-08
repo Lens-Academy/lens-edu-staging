@@ -41,10 +41,11 @@ Obsidian {++{"author":"Elias's AI","timestamp":1783544059149}@@/ web editor / AI
 This is implemented as shown below:
 #### Modules
 e.g. `Lens Edu/modules/module.md`
-Required frontmatter: `slug`, `title`, `id`
+Required frontmatter: `slug`, {--{"author":"Elias's AI","timestamp":1783544100842}@@`title`, `id`--}{++{"author":"Elias's AI","timestamp":1783544100842}@@`title` (`id` optional but conventional)++}
 
 Any number of
-\# Lens: (inline with `id::` + segments, or referenced with `source::`)
+\# {++{"author":"Elias's AI","timestamp":1783544100842}@@Submodule: (groups the sections below it)
+\# ++}Lens: (inline with `id::` + segments, or referenced with `source::`)
 \# Learning Outcome:
 
 Wiki-links must use relative paths (e.g. `[[../video_transcripts/...]]`) and targets must exist.
@@ -57,12 +58,13 @@ id:: <uuid>
 content::
 Lorum Ipsum
 
-# Learning Outcome:
-[[link to Learning Outcome note]]
+# Learning Outcome:{--{"author":"Elias's AI","timestamp":1783544100842}@@
+[[link to Learning Outcome note]]--}{++{"author":"Elias's AI","timestamp":1783544100842}@@ Define Intelligence
+source:: ![[../Learning Outcomes/Define Intelligence]]++}
 
 # Lens:
 optional:: true
-source:: [[link to Lens note]]
+source:: {--{"author":"Elias's AI","timestamp":1783544100842}@@[[link to Lens note]]--}{++{"author":"Elias's AI","timestamp":1783544100842}@@![[../Lenses/Some Lens]]++}
 ```
 
 #### Learning Outcomes
@@ -76,13 +78,16 @@ Any number of
 Example:
 ```md
 ## Test:
-[[Link to Test note]]
+{--{"author":"Elias's AI","timestamp":1783544104503}@@[[Link to Test note]]--}{++{"author":"Elias's AI","timestamp":1783544104503}@@id:: <uuid>
+#### Question
+content:: <the test question>
+assessment-instructions:: <scoring rubric>++}
 
 ## Lens:
-[[link to Lens note]]
+{--{"author":"Elias's AI","timestamp":1783544104503}@@[[link to Lens note]]--}{++{"author":"Elias's AI","timestamp":1783544104503}@@source:: ![[../Lenses/lens-name]]++}
 
-## Lens: (optional)
-[[Link to 2nd Lens note]]
+## Lens:{--{"author":"Elias's AI","timestamp":1783544104503}@@ (optional)--}
+{--{"author":"Elias's AI","timestamp":1783544104503}@@[[Link to 2nd Lens note]]--}{++{"author":"Elias's AI","timestamp":1783544104503}@@source:: ![[../Lenses/second-lens]]++}
 ```
 
 #### Lenses
