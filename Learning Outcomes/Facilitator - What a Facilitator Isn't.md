@@ -12,8 +12,8 @@ tags:
 id:: cb7d4deb-3254-4082-a349-fe0e2b283eb4
 
 #### Question
-feedback:: true
-content:: Clarity about the role is half the work. The other half is clarity about where the role *ends* — what you are not responsible for. Conflating these is the most reliable source of facilitator burnout.
+{--{"author":"Elias's AI","timestamp":1783542440331}@@feedback:: true
+--}content:: Clarity about the role is half the work. The other half is clarity about where the role *ends* — what you are not responsible for. Conflating these is the most reliable source of facilitator burnout.
 
 **Name at least three things a facilitator is NOT responsible for, and three things they ARE. For each "not" — describe what goes wrong if you take it on anyway.**
 
