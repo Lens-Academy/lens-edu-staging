@@ -32,8 +32,8 @@ Course
 
 ### What each piece does
 
-**Course** (`courses/default.md`)
-The course file lists all modules and marks where meetings happen. Modules before a meeting belong to that week.
+**Course** {--{"author":"Elias's AI","timestamp":1783544188339}@@(`courses/default.md`)--}{++{"author":"Elias's AI","timestamp":1783544188339}@@(`courses/<Course Name>.md`)++}
+{--{"author":"Elias's AI","timestamp":1783544188339}@@The--}{++{"author":"Elias's AI","timestamp":1783544188339}@@Each++} course {++{"author":"Elias's AI","timestamp":1783544188339}@@has its own ++}file {--{"author":"Elias's AI","timestamp":1783544188339}@@lists--}{++{"author":"Elias's AI","timestamp":1783544188339}@@listing++} all modules and {--{"author":"Elias's AI","timestamp":1783544188339}@@marks--}{++{"author":"Elias's AI","timestamp":1783544188339}@@marking++} where meetings happen. Modules before a meeting belong to that week.
 
 **Week**
 Not a file — it's defined by the meeting markers in the course file. Everything between two meetings is one week. Most weeks have 2 modules, but 1 or 3 is common.
