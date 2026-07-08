@@ -1,9 +1,10 @@
-{++{"author":"AI","timestamp":1783528307897}@@---
+{++{"author":"Elias's AI","timestamp":1783528575618}@@---
 title: "NeuroAI for AI Safety: A Roadmap"
 source_url: "https://www.neuroai.science/p/neuroai-for-ai-safety"
 author:
   - "Patrick Mineault"
   - "and colleagues"
+published: 2024-11-27
 description: "A roadmap arguing that constraints from human brain biophysics, representations, and behavior raise the probability of landing in the basin of safe, human-like AI solutions. Lays out seven concrete neuroscience-to-safety research pathways."
 tags:
   - article
