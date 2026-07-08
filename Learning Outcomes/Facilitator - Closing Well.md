@@ -12,8 +12,8 @@ tags:
 id:: ad3efc35-fe09-404d-bb4e-c0096f468b4c
 
 #### Question
-feedback:: true
-content:: The last five minutes of a session matter disproportionately. People remember beginnings and endings; middles fade. A weak close costs you most of what the session built.
+{--{"author":"Elias's AI","timestamp":1783542341477}@@feedback:: true
+--}content:: The last five minutes of a session matter disproportionately. People remember beginnings and endings; middles fade. A weak close costs you most of what the session built.
 
 **Describe the three-part close (Reflect, Integrate, Ritual). Draft your own closing ritual — the small consistent move you'll use across sessions. Name two specific moves that make a cohort feel like a peer network rather than a class.**
 
