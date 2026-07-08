@@ -240,7 +240,7 @@ source:: ![[../Lenses/Optional Extra Lens]]
 
 ### Step 4: Add the module to the course
 
-Edit `Lens Edu/courses/default.md` and add your module in the right place:
+Edit {++{"author":"Elias's AI","timestamp":1783544190577}@@your course's file in ++}`Lens {--{"author":"Elias's AI","timestamp":1783544190577}@@Edu/courses/default.md`--}{++{"author":"Elias's AI","timestamp":1783544190577}@@Edu/courses/`++} and add your module in the right place:
 
 ```markdown
 # Module: [[../modules/your-module-slug]]
