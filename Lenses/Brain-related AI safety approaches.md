@@ -21,10 +21,7 @@ Keep the A-vs-B distinction sharp: **A informs AI we build (which may not resemb
 content::
 ### Family A — NeuroAI for AI safety
 
-The flagship statement of this family is Patrick Mineault and colleagues' *NeuroAI for AI Safety* roadmap. Its organizing bet, adapted from a 2017 DeepMind argument, is that **more constraints from human brain biophysics, representations, and behavior raise the probability of landing in the "basin" of safe, human-like solutions** — because many paths reach intelligent behavior, but most lack the safety properties we associate with human cognition. Read the roadmap's argument and its seven proposed research pathways {--{"author":"Elias's AI","timestamp":1783529987215}@@below.
-
-#### Article
-source:: [[../articles/mineault-neuroai-for-ai-safety]]--}{++{"author":"Elias's AI","timestamp":1783529987215}@@— read the full roadmap in the lens [[../Lenses/NeuroAI for AI safety|NeuroAI for AI safety]].++}
+The flagship statement of this family is Patrick Mineault and colleagues' *NeuroAI for AI Safety* roadmap. Its organizing bet, adapted from a 2017 DeepMind argument, is that **more constraints from human brain biophysics, representations, and behavior raise the probability of landing in the "basin" of safe, human-like solutions** — because many paths reach intelligent behavior, but most lack the safety properties we associate with human cognition. Read the roadmap's argument and its seven proposed research pathways — read the full roadmap in the lens [[../Lenses/NeuroAI for AI safety|NeuroAI for AI safety]].
 
 #### Text
 content::
@@ -44,18 +41,7 @@ Notice these are interdependent, and #7 links this family directly to mainstream
 content::
 ### Family B — Brain-like AGI safety
 
-Steven Byrnes' agenda starts from a different premise: that the AGI we should worry about will be **brain-like** — an actor-critic reinforcement learner with a from-scratch **Learning Subsystem** (cortex-like) steered by an innate **Steering Subsystem** (brainstem/hypothalamus-like) that supplies the reward signal. His claim is that such a system has *dangerous, radically nonhuman motivations by default*, and the fix is to reverse-engineer the brain's innate steering / social-instinct circuitry so we can install good motivations on purpose. Read his framing {--{"author":"Elias's AI","timestamp":1783530000969}@@of--}{++{"author":"Elias's AI","timestamp":1783530000969}@@in++} the {--{"author":"Elias's AI","timestamp":1783530000969}@@problem below.
-
-#### Article
-source:: [[../articles/byrnes-intro-to-brain-like-agi-safety-1]]
-
-#### Text
-content::
-A concrete example of the Family-B research program in action: Byrnes' analysis--}{++{"author":"Elias's AI","timestamp":1783530000969}@@lens [[../Lenses/Brain-like AGI safety|Brain-like AGI safety]], with a worked example — his "Approval Reward" account++} of human social instincts {--{"author":"Elias's AI","timestamp":1783530000969}@@and a non-behaviorist reward channel he calls **Approval Reward**, which he argues is what lets humans *not* behave like ruthless consequentialists. Optional deeper reading:
-
-#### Article
-optional:: true
-source:: [[../articles/byrnes-6-reasons-why-alignment-is-hard-discourse-seems-alien]]--}{++{"author":"Elias's AI","timestamp":1783530000969}@@— in [[../Lenses/Approval Reward and human social instincts|Approval Reward and human social instincts]].++}
+Steven Byrnes' agenda starts from a different premise: that the AGI we should worry about will be **brain-like** — an actor-critic reinforcement learner with a from-scratch **Learning Subsystem** (cortex-like) steered by an innate **Steering Subsystem** (brainstem/hypothalamus-like) that supplies the reward signal. His claim is that such a system has *dangerous, radically nonhuman motivations by default*, and the fix is to reverse-engineer the brain's innate steering / social-instinct circuitry so we can install good motivations on purpose. Read his framing in the lens [[../Lenses/Brain-like AGI safety|Brain-like AGI safety]], with a worked example — his "Approval Reward" account of human social instincts — in [[../Lenses/Approval Reward and human social instincts|Approval Reward and human social instincts]].
 
 #### Text
 content::
