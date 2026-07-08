@@ -13,8 +13,8 @@ tags:
 ## Test:
 id:: a5d28e63-9b47-4f05-c834-1e7a2b0d9f46
 #### Question
-feedback:: true
-content:: Chapter 13's final section argues that the coalition working to prevent AI-caused extinction must be built in a very specific way. The chapter names what the coalition should ask for, what it should not bundle with that ask, and explains why keeping the coalition narrow is a strategic necessity rather than a weakness.
+{--{"author":"Elias's AI","timestamp":1783542052773}@@feedback:: true
+--}content:: Chapter 13's final section argues that the coalition working to prevent AI-caused extinction must be built in a very specific way. The chapter names what the coalition should ask for, what it should not bundle with that ask, and explains why keeping the coalition narrow is a strategic necessity rather than a weakness.
 
 **In your own words, what is the chapter's coalition strategy? What must the ask be limited to, what must it not include, and why does the chapter argue the coalition should stay narrow?**
 
