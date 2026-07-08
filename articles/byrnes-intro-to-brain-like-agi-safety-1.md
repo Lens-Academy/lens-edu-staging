@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1783528577821}@@---
+---
 title: "Intro to Brain-Like-AGI Safety #1: What's the problem & Why work on it now?"
 source_url: "https://www.alignmentforum.org/posts/4basF9w9jaPZpoC8R/intro-to-brain-like-agi-safety-1-what-s-the-problem-and-why"
 author:
@@ -40,4 +40,3 @@ Byrnes frames brain-like AGI as a **threat model** he is planning around, not a 
 
 ---
 *This reading is a condensed rendering of the series' first post; read the [original](https://www.alignmentforum.org/s/HzcM2dkCq7fwXBej8) for the full argument.*
-++}

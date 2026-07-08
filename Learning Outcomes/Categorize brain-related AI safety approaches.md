@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783528413973}@@---
+---
 id: 32683965-76f0-4b11-9005-9b4e1d2000a6
 learning-outcome: Understand and categorize the main families of brain-related AI safety approaches — NeuroAI-for-safety (Mineault et al.'s seven approaches), brain-like AGI safety (Byrnes), and human-side strategies (BCI/merge, whole-brain emulation)
 tags:
@@ -33,4 +33,3 @@ feedback:: true
 content:: How do the "human-side" approaches (brain-computer interfaces / the merge, and whole-brain emulation) differ in strategy from the other two families, and give one reason someone might doubt they work as a safety solution?
 assessment-instructions:: A strong answer explains that human-side approaches (Family C) intervene on the HUMAN side rather than on the AI: they aim to keep humans in control or relevant — via high-bandwidth BCIs / "merging" with AI, human cognitive augmentation, or whole-brain emulation as a human-derived alternative to de novo AGI — rather than trying to make the AI itself safe (A) or aligning a brain-like AGI (B). For the doubt, credit any reasonable objection: BCIs may raise capability faster than they improve control; WBE may arrive after de novo AGI so it cannot help in time; "merge" scenarios blur rather than resolve whose values are in charge; feasibility/timeline concerns. Award 4-5 for a clear strategic contrast plus a valid objection; 3 for a partial contrast or a weak objection; 1-2 if the contrast is wrong or missing. Accept paraphrase.
 max-chars:: 700
-++}

@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1783528575618}@@---
+---
 title: "NeuroAI for AI Safety: A Roadmap"
 source_url: "https://www.neuroai.science/p/neuroai-for-ai-safety"
 author:
@@ -46,4 +46,3 @@ These seven approaches are interdependent: "progress in one area means progress 
 
 ---
 *Full roadmap: [neuroaisafety.com](https://neuroaisafety.com/) — Paper: [arXiv:2411.18526](https://arxiv.org/abs/2411.18526). This reading is a condensed rendering; read the original for full technical depth.*
-++}
