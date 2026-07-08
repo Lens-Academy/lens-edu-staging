@@ -112,7 +112,7 @@ assessment-instructions:: Evaluate whether the student (1) selects a matched pai
 enforce-voice:: true
 
 #### Question
-feedback:: true
-content:: What would you trust more: behavior based evidence that a model is unsafe, or mechanistic evidence, and what could change your mind? You can type your answer or record it using the microphone.
+{--{"author":"Elias's AI","timestamp":1783542885281}@@feedback:: true
+--}content:: What would you trust more: behavior based evidence that a model is unsafe, or mechanistic evidence, and what could change your mind? You can type your answer or record it using the microphone.
 assessment-instructions:: Check that the student (1) clearly states a preference (behavioral vs mechanistic, or a conditional mix), (2) gives at least one concrete reason, and (3) names specific mind-changers: an example of new evidence, a stronger method, or a scenario where the other type would dominate. Reward nuance about false positives/negatives, distribution shift, and limits of mechanistic access.
 enforce-voice:: true

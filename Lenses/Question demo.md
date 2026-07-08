@@ -16,8 +16,8 @@ max-chars:: 500
 %% `feedback:: true` means the learner gets AI feedback after answering. `max-chars::` sets a character limit. %%
 
 #### Question
-feedback:: true
-content:: Try answering this one by voice. What would you check before using a question in a real course?
+{--{"author":"Elias's AI","timestamp":1783542845935}@@feedback:: true
+--}content:: Try answering this one by voice. What would you check before using a question in a real course?
 assessment-instructions:: Look for a concrete testing plan, such as checking the wording, character limit, scoring rubric, and feedback quality.
 enforce-voice:: true
 
