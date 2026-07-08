@@ -26,16 +26,16 @@ Obsidian {++{"author":"Elias's AI","timestamp":1783544059149}@@/ web editor / AI
 ## Structure
 ### Course structure
 ```
-**Course** - list of 
+**Course** - {++{"author":"Elias's AI","timestamp":1783544086550}@@ordered ++}list of{--{"author":"Elias's AI","timestamp":1783544086550}@@ 
 : **Week** - where each week has 1 or more
-:: **Module** - list of
-::: **Learning outcome** - where each has three params
-:::: 1. Name of outcome
-:::: 2. **Test** - how we'll assess whether the person learned the objective
-:::: 3. **Lens** - a learning flow which has
-::::: A. One **Resource** {article, video, a section from one of them, or a little app to teach something}
-::::: B. **Prompt(s)** for the AI tutor to talk to the student (optional)
-::::: C. Some extra bits like framing texts etc (optional)
+:: **Module** ---}{++{"author":"Elias's AI","timestamp":1783544086550}@@ **Module** references, with `# Meeting:` markers in between - each module is a++} list of
+{--{"author":"Elias's AI","timestamp":1783544086550}@@:::--}{++{"author":"Elias's AI","timestamp":1783544086550}@@:++} **Learning outcome** - where each has three params
+{--{"author":"Elias's AI","timestamp":1783544086550}@@::::--}{++{"author":"Elias's AI","timestamp":1783544086550}@@::++} 1. Name of outcome
+{--{"author":"Elias's AI","timestamp":1783544086550}@@::::--}{++{"author":"Elias's AI","timestamp":1783544086550}@@::++} 2. **Test** - how we'll assess whether the person learned the objective
+{--{"author":"Elias's AI","timestamp":1783544086550}@@::::--}{++{"author":"Elias's AI","timestamp":1783544086550}@@::++} 3. **Lens** - a learning flow which has
+{--{"author":"Elias's AI","timestamp":1783544086550}@@:::::--}{++{"author":"Elias's AI","timestamp":1783544086550}@@:::++} A. One **Resource** {article, video, a section from one of them, or a little app to teach something}
+{--{"author":"Elias's AI","timestamp":1783544086550}@@:::::--}{++{"author":"Elias's AI","timestamp":1783544086550}@@:::++} B. **Prompt(s)** for the AI tutor to talk to the student (optional)
+{--{"author":"Elias's AI","timestamp":1783544086550}@@:::::--}{++{"author":"Elias's AI","timestamp":1783544086550}@@:::++} C. Some extra bits like framing texts etc (optional)
 ```
 
 This is implemented as shown below:
