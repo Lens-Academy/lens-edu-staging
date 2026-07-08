@@ -14,8 +14,8 @@ tags:
 
 id:: 3d3ca945-33d2-4a1b-a098-bc3571529754
 #### Question
-feedback:: true
-content:: Chapter 10 closes by mapping each of its three case-study domains (space probes, nuclear reactors, computer security) onto the ASI alignment problem, then states a blunt conclusion: "NOBODY SHOULD BE ALLOWED TO TRY." This phrasing reads to many people as despair: a counsel that nothing can be done. The authors mean something different.
+{--{"author":"Elias's AI","timestamp":1783542593760}@@feedback:: true
+--}content:: Chapter 10 closes by mapping each of its three case-study domains (space probes, nuclear reactors, computer security) onto the ASI alignment problem, then states a blunt conclusion: "NOBODY SHOULD BE ALLOWED TO TRY." This phrasing reads to many people as despair: a counsel that nothing can be done. The authors mean something different.
 
 **In your own words, what is Chapter 10's closing position, and how does the chapter want you to read it? Specifically, distinguish between despair (nothing can be done, so why bother) and a position-statement (a logical conclusion from evidence that calls for a specific kind of response).**
 
