@@ -14,7 +14,12 @@ The other human-side strategy keeps flesh-and-blood humans in the loop rather th
 
 Both intervene on the **human** side of the problem — the strategic contrast with NeuroAI-for-safety (make the AI we build safe) and brain-like AGI safety (align a brain-like AI).
 
-#### Text
+{++{"author":"Elias's AI","timestamp":1783542633498}@@For a careful, skeptical treatment of whether BCIs actually help alignment — and why "merge" proposals are contested — read:
+
+#### Article
+source:: [[../articles/niplav-brain-computer-interfaces-and-ai-alignment]]
+
+++}#### Text
 content::
 Common skeptic objections worth being able to state:
 

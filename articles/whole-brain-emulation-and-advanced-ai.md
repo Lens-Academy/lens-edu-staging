@@ -1,10 +1,10 @@
 ---
 title: "Whole-Brain Emulation and Advanced AI"
-source_url: "https://en.wikipedia.org/wiki/Mind_uploading"
+source_url: {--{"author":"Elias's AI","timestamp":1783542635500}@@"https://en.wikipedia.org/wiki/Mind_uploading"--}{++{"author":"Elias's AI","timestamp":1783542635500}@@https://80000hours.org/problem-profiles/whole-brain-emulation/++}
 author:
-  - "Wikipedia contributors"
-published: 2024-01-01
-allowUnreachableUrl: true
+  - {--{"author":"Elias's AI","timestamp":1783542635500}@@"Wikipedia contributors"--}{++{"author":"Elias's AI","timestamp":1783542635500}@@"Benjamin Hilton"++}
+published: {--{"author":"Elias's AI","timestamp":1783542635500}@@2024-01-01
+allowUnreachableUrl: true--}{++{"author":"Elias's AI","timestamp":1783542635500}@@2022-09-24++}
 description: "An overview of whole-brain emulation (WBE) / mind uploading — what it is, the scan-map-simulate pipeline, resolution levels — and its distinctive place in AI safety as a possible route to human-derived digital minds, plus the 'which comes first, WBE or neuromorphic AGI?' tension."
 tags:
   - article

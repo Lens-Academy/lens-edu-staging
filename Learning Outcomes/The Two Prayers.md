@@ -14,8 +14,8 @@ tags:
 id:: c2d3e4f5-a6b7-8901-cdef-012345678901
 
 #### Question
-feedback:: true
-content:: The Closing Words offer two prayers. The first asks that the authors be proven wrong, shamed, and forgotten. The second, which the authors call their "true last prayer," is the book's final line.
+{--{"author":"Elias's AI","timestamp":1783542633160}@@feedback:: true
+--}content:: The Closing Words offer two prayers. The first asks that the authors be proven wrong, shamed, and forgotten. The second, which the authors call their "true last prayer," is the book's final line.
 
 **Distinguish what each prayer asks for. What would need to happen in the real world for the first prayer to be answered? For the second? And why do the authors call the second prayer their "true" one?**
 

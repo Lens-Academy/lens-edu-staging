@@ -13,8 +13,8 @@ tags:
 ## Test:
 id:: fc3b7597-3165-46ee-af3a-a6990d9e98eb
 #### Question
-feedback:: true
-content:: The most developed alignment plan Chapter 11 examines is "superalignment": the idea, made flagship at OpenAI in 2023, of using AI to help solve the alignment problem itself. The chapter splits this into two versions, weak (AI helps with interpretability research) and strong (a smarter-than-human AI solves alignment for us), and finds the strong version particularly broken.
+{--{"author":"Elias's AI","timestamp":1783542605390}@@feedback:: true
+--}content:: The most developed alignment plan Chapter 11 examines is "superalignment": the idea, made flagship at OpenAI in 2023, of using AI to help solve the alignment problem itself. The chapter splits this into two versions, weak (AI helps with interpretability research) and strong (a smarter-than-human AI solves alignment for us), and finds the strong version particularly broken.
 
 **Describe the strong-superalignment proposal as Chapter 11 presents it. Then state the chapter's objection: specifically, why building the AI required to solve alignment cannot be done before alignment is itself solved. If you can, also describe the chapter's response to "we'll just make a special-purpose alignment AI that isn't generally dangerous."**
 

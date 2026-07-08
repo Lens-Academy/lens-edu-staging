@@ -13,8 +13,8 @@ tags:
 ## Test:
 id:: 7f627b30-5641-48ef-901d-e710813fb828
 #### Question
-feedback:: true
-content:: Chapter 12 opens by asking why smart, well-meaning people build things that could destroy the world. To make the denial pattern concrete, it draws on two historical disasters: the Chernobyl meltdown and the Titanic sinking. Even when the warning signs are present, both cases show how humans fail to believe that unthinkable disasters can actually happen. The chapter then makes a pivot: it argues these analogies hold only up to a point, because there is one critical way in which an ASI failure differs from both of them.
+{--{"author":"Elias's AI","timestamp":1783542629530}@@feedback:: true
+--}content:: Chapter 12 opens by asking why smart, well-meaning people build things that could destroy the world. To make the denial pattern concrete, it draws on two historical disasters: the Chernobyl meltdown and the Titanic sinking. Even when the warning signs are present, both cases show how humans fail to believe that unthinkable disasters can actually happen. The chapter then makes a pivot: it argues these analogies hold only up to a point, because there is one critical way in which an ASI failure differs from both of them.
 
 **What does each case (Chernobyl and Titanic) contribute to Chapter 12's argument that humans struggle to believe in unthinkable disasters? And what is the critical disanalogy between those historical cases and an ASI failure that the chapter treats as decisive?**
 
