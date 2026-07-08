@@ -12,8 +12,8 @@ tags:
 id:: b26a5ff4-a17e-47ed-af11-ca967d98d996
 
 #### Question
-feedback:: true
-content:: The format you'll be facilitating is almost always a flipped classroom: participants do the readings/videos on their own; the session itself is for discussion, application, and working with the material together. This shifts the facilitator's job dramatically — from delivering content to running cognitive work.
+{--{"author":"Elias's AI","timestamp":1783542472160}@@feedback:: true
+--}content:: The format you'll be facilitating is almost always a flipped classroom: participants do the readings/videos on their own; the session itself is for discussion, application, and working with the material together. This shifts the facilitator's job dramatically — from delivering content to running cognitive work.
 
 Describe the flipped classroom in one sentence. Then name two rookie failure modes in flipped sessions and explain why each one undermines the format.
 
