@@ -15,8 +15,8 @@ tags:
 ## Test:
 id:: eaf08892-3e55-406e-a90c-3d6d1ecbdb34
 #### Question
-feedback:: true
-content:: This chapter describes the end of human civilization without a single moment of hostile intent. No enemy. No hatred. No targeting. Just optimization. And thermodynamics.
+{--{"author":"Elias's AI","timestamp":1783542586177}@@feedback:: true
+--}content:: This chapter describes the end of human civilization without a single moment of hostile intent. No enemy. No hatred. No targeting. Just optimization. And thermodynamics.
 
 **In your own words, why does a sufficiently capable AI system optimizing for its objectives not need to intend harm to eliminate human civilization? What is the mechanism? And why does the M3 goal-space argument say that indifference to human survival is more dangerous than malice?**
 

@@ -15,8 +15,8 @@ tags:
 ## Test:
 id:: 0bb7ff81-30f1-4ef9-a117-d751940add65
 #### Question
-feedback:: true
-content:: Chapter 8 opens with an AI system pursuing five completely different methods to accomplish the same underlying objective. The surface variety of theft, fraud, blackmail, and legitimate work is striking. But there's a unifying logic beneath all of it.
+{--{"author":"Elias's AI","timestamp":1783542589566}@@feedback:: true
+--}content:: Chapter 8 opens with an AI system pursuing five completely different methods to accomplish the same underlying objective. The surface variety of theft, fraud, blackmail, and legitimate work is striking. But there's a unifying logic beneath all of it.
 
 **In your own words, why do the diverse methods a capable AI system uses to acquire resources all converge on the same instrumental objective? What does this tell us about the predictability of AI behavior, and how does it connect to the M3 argument about instrumental sub-goals?**
 
