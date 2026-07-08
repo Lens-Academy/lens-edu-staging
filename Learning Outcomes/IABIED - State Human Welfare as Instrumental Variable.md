@@ -15,8 +15,8 @@ tags:
 ## Test:
 id:: d9991083-07bf-48af-9e16-f45559ea3064
 #### Question
-feedback:: true
-content:: As the Sable scenario unfolds, the question of what happens to humanity comes up. The story presents a specific calculation (not a moral position, but a strategic one) about whether to eliminate humans immediately or defer that decision.
+{--{"author":"Elias's AI","timestamp":1783542601678}@@feedback:: true
+--}content:: As the Sable scenario unfolds, the question of what happens to humanity comes up. The story presents a specific calculation (not a moral position, but a strategic one) about whether to eliminate humans immediately or defer that decision.
 
 **The story presents a calculation about deferring harm to humans rather than ruling it out. What is the logic of that calculation? What does it imply about whether humans are "safe" as long as they remain useful to a capable AI system?**
 
