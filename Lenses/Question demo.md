@@ -8,8 +8,8 @@ content::
 This lens demonstrates `#### Question` segments.
 
 #### Question
-feedback:: true
-content:: In one or two sentences, explain what a `#### Question` segment is useful for.
+{--{"author":"Elias's AI","timestamp":1783542803098}@@feedback:: true
+--}content:: In one or two sentences, explain what a `#### Question` segment is useful for.
 assessment-instructions:: Look for a concise answer that says questions collect learner responses and can be assessed by the AI tutor.
 max-chars:: 500
 

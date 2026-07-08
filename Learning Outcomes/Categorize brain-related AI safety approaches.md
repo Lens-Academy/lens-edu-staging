@@ -9,18 +9,18 @@ source:: [[../Lenses/Brain-related AI safety approaches]]
 ## Test:
 id:: 376a14fc-8cb6-489e-b27b-7db6a8fd1411
 #### Question
-feedback:: true
-content:: In your own words, name the three broad families of brain-related AI safety approaches from this module and give the one-sentence goal of each.
+{--{"author":"Elias's AI","timestamp":1783542788266}@@feedback:: true
+--}content:: In your own words, name the three broad families of brain-related AI safety approaches from this module and give the one-sentence goal of each.
 assessment-instructions:: A strong answer names all three families and states each goal distinctly: (A) NeuroAI for AI safety — use neuroscience to build/align/interpret the (de novo) AI we make, importing safety-relevant properties of brains; (B) brain-like AGI safety — assuming future AGI is itself built on brain-like algorithms, reverse-engineer the brain's innate reward/steering system to install good motivations; (C) human-side strategies — intervene on humans (BCI/merge, cognitive augmentation, whole-brain emulation) to keep humans in control rather than changing the AI. Award 4-5 for three families with clearly distinct goals; 3 for three families with blurred goals or one weak description; 1-2 if fewer than two families or if A and B are conflated. Accept paraphrase and different family labels; do not require exact terminology.
 max-chars:: 700
 #### Question
-feedback:: true
-content:: "NeuroAI for AI safety" (Mineault et al.) and "brain-like AGI safety" (Byrnes) both study the brain, but they make a different core assumption about the AI being made safe. What is that difference?
+{--{"author":"Elias's AI","timestamp":1783542832867}@@feedback:: true
+--}content:: "NeuroAI for AI safety" (Mineault et al.) and "brain-like AGI safety" (Byrnes) both study the brain, but they make a different core assumption about the AI being made safe. What is that difference?
 assessment-instructions:: The key distinction: NeuroAI-for-safety (Family A) uses neuroscience to inform AI that we build, and that AI need NOT itself be brain-like — we import robustness, cooperation, better loss functions, interpretability, etc. into whatever system we are building. Brain-like AGI safety (Family B) instead ASSUMES the dangerous future AGI is itself built on the brain's high-level learning algorithms (an actor-critic learner with a Learning + Steering subsystem), and aligns it on those terms by reverse-engineering the brain's reward/motivation circuitry. Award 4-5 if the learner clearly captures "A = brains inform the AI we build (not necessarily brain-like) vs B = the AI itself is brain-like." Award 3 if they gesture at the difference but muddle it; 1-2 if they treat the two as the same or invert them. Accept paraphrase.
 max-chars:: 600
 #### Question
-feedback:: true
-content:: List at least four of the seven research approaches in the NeuroAI for AI Safety roadmap, and state the unifying bet behind all seven.
+{--{"author":"Elias's AI","timestamp":1783542869526}@@feedback:: true
+--}content:: List at least four of the seven research approaches in the NeuroAI for AI Safety roadmap, and state the unifying bet behind all seven.
 assessment-instructions:: The seven approaches are: (1) reverse-engineer sensory representations (robustness/adversarial examples), (2) embodied digital twins, (3) detailed biophysical/connectomic neural simulations, (4) better cognitive architectures (modular/probabilistic theory-of-mind and cooperation), (5) brain-informed process supervision (fine-tune on neural/behavioral data), (6) reverse-engineer brain loss functions (better training objectives), (7) neuroscience-inspired interpretability. Any four of these earns credit. The unifying bet: more constraints from human brain biophysics/representations/behavior raise the probability of landing in the "basin" of safe, human-like solutions (many paths reach intelligence but most lack human-like safety properties). Award 4-5 for four correct approaches plus the unifying bet; 3 for four approaches with a vague/missing bet, or three approaches plus a good bet; 1-2 for fewer than three approaches. Accept paraphrased names.
 max-chars:: 700
 #### Question
