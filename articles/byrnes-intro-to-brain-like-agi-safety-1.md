@@ -1,8 +1,9 @@
-{++{"author":"AI","timestamp":1783528332469}@@---
+{++{"author":"Elias's AI","timestamp":1783528577821}@@---
 title: "Intro to Brain-Like-AGI Safety #1: What's the problem & Why work on it now?"
 source_url: "https://www.alignmentforum.org/posts/4basF9w9jaPZpoC8R/intro-to-brain-like-agi-safety-1-what-s-the-problem-and-why"
 author:
   - "Steven Byrnes"
+published: 2022-01-26
 description: "The opening post of Byrnes' series. Defines brain-like AGI as systems built on the brain's high-level learning algorithms (not whole-brain emulation), argues such systems would have dangerous motivations by default, and proposes reverse-engineering the brain's innate 'steering' circuitry to install good motivations."
 tags:
   - article
