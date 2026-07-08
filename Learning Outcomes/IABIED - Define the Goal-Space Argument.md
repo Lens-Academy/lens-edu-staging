@@ -15,8 +15,7 @@ tags:
 ## Test:
 id:: 10dd3907-2bae-4eee-9985-fe1a6506f5b3
 #### Question
-{--{"author":"Elias's AI","timestamp":1783542567076}@@feedback:: true
---}content::
+content::
 Chapter 5 opens with an allegory about an alien civilization obsessed with the "correct" number of stones in their nests. A young alien argues that most species in the universe would not share this value, and that getting smarter wouldn't change that. The text then applies this same logic to AI: most possible goal-sets for a superintelligent AI would not include building a future full of happy, free people.
 
 In your own words, what is the "goal-space argument"? Why does the chapter claim that a sufficiently advanced AI is overwhelmingly unlikely to pursue human-compatible goals?

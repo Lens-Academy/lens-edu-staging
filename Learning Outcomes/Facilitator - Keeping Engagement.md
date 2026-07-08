@@ -12,8 +12,7 @@ tags:
 id:: 68998159-2970-4bc6-b87b-4f31f94f7bad
 
 #### Question
-{--{"author":"Elias's AI","timestamp":1783542378411}@@feedback:: true
---}content:: Long sessions decay. The energy you have at minute 10 is not the energy you have at minute 40. Four practical antidotes work reliably — and one of them tends to produce the best contributions of the whole session.
+content:: Long sessions decay. The energy you have at minute 10 is not the energy you have at minute 40. Four practical antidotes work reliably — and one of them tends to produce the best contributions of the whole session.
 
 **Name four antidotes to mid-session decay. For the "surface what hasn't been said" move — why does it often produce the strongest contributions?**
 

@@ -13,8 +13,7 @@ tags:
 ## Test: 
 id:: 311a34f9-b4d2-46b8-813a-3b51869fe6c3
 #### Question
-{--{"author":"Elias's AI","timestamp":1783542558743}@@feedback:: true
---}content:: Chapter 11 opens with an allegory about a young alchemist who claims to be "close" to transmuting lead into gold despite having no understanding of why his recipes produce the results they do. The chapter then applies this framing to current AI alignment efforts, drawing on public statements from Elon Musk (xAI) and Yann LeCun (Meta). The authors call this the "alchemy stage" of a science.
+content:: Chapter 11 opens with an allegory about a young alchemist who claims to be "close" to transmuting lead into gold despite having no understanding of why his recipes produce the results they do. The chapter then applies this framing to current AI alignment efforts, drawing on public statements from Elon Musk (xAI) and Yann LeCun (Meta). The authors call this the "alchemy stage" of a science.
 
 **In your own words, what is Chapter 11's "alchemy stage" diagnosis of the AI alignment field? What specifically does the chapter claim is missing from the field's current state, and why does it matter that it is missing?**
 
