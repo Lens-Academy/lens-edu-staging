@@ -15,8 +15,7 @@ tags:
 ## Test:
 id:: c9306c64-d15c-49d9-ab19-ecf8f946cd14
 #### Question
-{--{"author":"Elias's AI","timestamp":1783542563427}@@feedback:: true
---}content::
+content::
 Chapter 6 opens with an Aztec warrior watching a large Spanish ship approach. A skeptical comrade demands to know *exactly* how the people on board could possibly defeat them. He cannot imagine the answer. The chapter uses this to make a point about how we should reason about a superintelligence: not by demanding a step-by-step mechanism of defeat, but by reading the capability gap itself.
 
 In your own words, what does the Aztec warrior analogy demonstrate about predicting the outcome of a conflict with a superintelligent AI?

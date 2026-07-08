@@ -12,8 +12,7 @@ tags:
 id:: 3ff5cc55-948f-4352-9d09-816bbdd01e75
 
 #### Question
-{--{"author":"Elias's AI","timestamp":1783542492044}@@feedback:: true
---}content:: Roger Schwarz contrasts two mindsets a facilitator can operate from: mutual learning (transparency, curiosity, informed choice, accountability, compassion) and unilateral control ("I know what should happen here; my job is to make it happen"). Most of us default to unilateral control under pressure — and pressure shows up reliably in facilitation.
+content:: Roger Schwarz contrasts two mindsets a facilitator can operate from: mutual learning (transparency, curiosity, informed choice, accountability, compassion) and unilateral control ("I know what should happen here; my job is to make it happen"). Most of us default to unilateral control under pressure — and pressure shows up reliably in facilitation.
 
 Name the five values of the mutual learning mindset. Then describe a real situation from the last month — work, family, group project — where you slipped into unilateral control. What triggered it?
 

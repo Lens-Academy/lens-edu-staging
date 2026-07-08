@@ -14,8 +14,7 @@ tags:
 id:: 6c1d4ea5-7f20-5153-e8d9-f0a1b2345678
 
 #### Question
-{--{"author":"Elias's AI","timestamp":1783542625618}@@feedback:: true
---}content:: The second half of Chapter 14 issues different calls to action to different audiences: government leaders, elected officials who are already persuaded, politicians who are not yet persuaded, journalists, and ordinary citizens.
+content:: The second half of Chapter 14 issues different calls to action to different audiences: government leaders, elected officials who are already persuaded, politicians who are not yet persuaded, journalists, and ordinary citizens.
 
 **Distinguish what the chapter asks of (a) government leaders, (b) skeptical politicians who aren't fully persuaded, and (c) ordinary citizens. What specific lever does each group hold that the other two cannot provide?**
 

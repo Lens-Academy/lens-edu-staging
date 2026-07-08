@@ -20,8 +20,7 @@ Such an AI system, if successful, would also be able to create its own *subgoals
 This is counter to the alignment target of **corrigibility** discussed earlier: a drive to preserve one's goal and protect oneself is precisely a drive to *resist* being modified or shut down. It is therefore a dangerous outcome of training powerful AI. Understanding the relationship between *inductive biases* and the goal formation of AI systems is therefore very important.
 
 #### Question
-{--{"author":"Elias's AI","timestamp":1783542672132}@@feedback:: true
---}content:: Practice: a common misreading of "instrumental convergence" is "all advanced AIs will end up wanting the same thing." Why is that wrong? State what actually converges.
+content:: Practice: a common misreading of "instrumental convergence" is "all advanced AIs will end up wanting the same thing." Why is that wrong? State what actually converges.
 assessment-instructions:: A good answer says it is not the *final* goals that converge — those can be wildly diverse (and may even be arbitrary, per the orthogonality thesis). What converges are *instrumental* sub-goals: things like self-preservation, goal-preservation, and self-improvement that are useful for achieving almost *any* final goal. Award 4-5 for clearly locating the convergence at the instrumental/sub-goal level rather than the final-goal level; 2-3 for partial; 1 if the misreading is repeated. Low-stakes practice — be encouraging.
 max-chars:: 400
 
