@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783529871774}@@---
+---
 id: 23f4cdc3-f5ad-4aa0-b2c8-e12cb708fa7e
 learning-outcome: Explain the NeuroAI-for-safety agenda (Mineault et al.) — its organizing bet and its seven research approaches — and how it differs from aligning a brain-like AGI
 tags:
@@ -23,4 +23,3 @@ feedback:: true
 content:: NeuroAI-for-safety and "brain-like AGI safety" both study the brain. What is the key difference in what each assumes about the AI being made safe?
 assessment-instructions:: The distinction: NeuroAI-for-safety (this agenda) uses neuroscience to inform whatever AI we build, and that AI need NOT itself be brain-like — we import robustness, cooperation, better objectives, interpretability, etc. Brain-like AGI safety (Byrnes) instead ASSUMES the dangerous AGI is itself built on brain-like learning algorithms and aligns it on those terms. Award 4-5 for clearly capturing "informs the AI we build (not necessarily brain-like) vs the AI itself is brain-like"; 3 for a muddled gesture at the difference; 1-2 for conflating or inverting them. Accept paraphrase.
 max-chars:: 500
-++}

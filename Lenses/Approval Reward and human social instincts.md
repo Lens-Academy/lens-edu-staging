@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783529817708}@@---
+---
 id: 21b408e8-a78f-434f-8b1a-128f07d1f7b3
 title: Approval Reward and human social instincts
 tldr: A concrete example of the brain-like-AGI-safety program in action — Byrnes' account of why humans don't behave like ruthless consequentialists, centred on a non-behaviorist reward channel he calls "Approval Reward."
@@ -11,4 +11,3 @@ If the brain-like AGI agenda says "reverse-engineer the brain's innate reward sy
 
 #### Article
 source:: [[../articles/byrnes-6-reasons-why-alignment-is-hard-discourse-seems-alien]]
-++}

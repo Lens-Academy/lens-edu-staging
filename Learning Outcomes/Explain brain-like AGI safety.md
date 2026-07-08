@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783529887133}@@---
+---
 id: 3f90d667-22c5-4c2f-89cf-f78d883454ba
 learning-outcome: Explain the brain-like AGI safety agenda (Byrnes) — the two-subsystem model, why such an AGI is dangerous by default, and the proposed fix of reverse-engineering the brain's innate reward system
 tags:
@@ -26,4 +26,3 @@ feedback:: true
 content:: Byrnes points to a specific non-behaviorist reward channel he calls "Approval Reward." What role does he argue it plays, and why does it matter for the alignment debate?
 assessment-instructions:: A strong answer: Approval Reward is a part of the human reward function tied to social approval / norm-following / morality and self-image, and Byrnes argues it is a big reason humans (and today's LLMs) do NOT behave like power-seeking ruthless consequentialists. Why it matters: the alignment culture clash reduces to whether future powerful AIs will have something like Approval Reward (like humans) or not (like pure utility-maximizers) — and studying it is an example of the Family-B move of reverse-engineering a specific innate reward channel so it could be installed on purpose. Award 4-5 for the role plus the debate relevance; 3 for the role only; 1-2 if misdescribed. This question draws on the optional deeper-reading lens; accept a reasonable answer and paraphrase.
 max-chars:: 700
-++}

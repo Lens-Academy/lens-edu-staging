@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783529801177}@@---
+---
 id: 27e0a6dc-c76e-46be-8fa4-957d68e988af
 title: Brain-like AGI safety
 tldr: The second family assumes the dangerous future AGI will itself run on the brain's high-level learning algorithms — and aligns it by reverse-engineering the brain's innate reward and steering circuitry. This lens covers Steven Byrnes' framing of the problem.
@@ -26,4 +26,3 @@ Note the boundary with Family A: NeuroAI-for-safety informs whatever AI we build
 optional:: true
 instructions::
 Help the learner articulate the two-subsystem picture (Learning vs Steering), why Byrnes says brain-like AGI is dangerous by default, and his proposed fix (reverse-engineer innate steering to install good motivations). A common error is to think Byrnes proposes whole-brain emulation — he explicitly does not; only high-level algorithmic similarity. If the learner is solid, push on the contrast with Family A. Stay grounded in the lens.
-++}

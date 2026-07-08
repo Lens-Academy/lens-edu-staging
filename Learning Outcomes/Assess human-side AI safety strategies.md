@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783529911658}@@---
+---
 id: 3eff9ae4-edb5-47fb-99ff-5eb1287839f2
 learning-outcome: Assess the human-side family of AI safety strategies — brain-computer interfaces / the "merge", human cognitive augmentation, and whole-brain emulation — including how they differ strategically from the other families and their main weaknesses
 tags:
@@ -25,4 +25,3 @@ feedback:: true
 content:: In one or two sentences, contrast the human-side family's strategy with the other two families (NeuroAI-for-safety and brain-like AGI safety).
 assessment-instructions:: A strong answer captures that human-side approaches intervene on the HUMAN side of the problem — keeping humans in control or relevant (via BCI/merge, augmentation, or human-derived uploads) — rather than making the AI itself safe: NeuroAI-for-safety uses neuroscience to build/align/interpret the (de novo) AI we make, and brain-like AGI safety aligns an AI that is itself brain-like. Award 4-5 for a clean contrast that correctly characterizes all three; 3 if the human-side point is right but one other family is fuzzy; 1-2 if the contrast is wrong or missing. Accept paraphrase.
 max-chars:: 500
-++}
