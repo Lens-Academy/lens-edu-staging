@@ -12,8 +12,8 @@ tags:
 id:: d2aa614b-4146-4b4d-835d-17be25c0551d
 
 #### Question
-feedback:: true
-content:: Most of what a participant is communicating isn't in their words. Online, the signals are subtler but still legible: mute-status changes, camera state changes, typing in chat, off-camera attention, face changes even at low resolution. The skill that pairs with reading is naming what you see — gently surfacing it.
+{--{"author":"Elias's AI","timestamp":1783542509009}@@feedback:: true
+--}content:: Most of what a participant is communicating isn't in their words. Online, the signals are subtler but still legible: mute-status changes, camera state changes, typing in chat, off-camera attention, face changes even at low resolution. The skill that pairs with reading is naming what you see — gently surfacing it.
 
 Name three online non-verbal signals you'd watch for. For each, craft a specific 'name what you see' move you'd use to surface it without being intrusive.
 
