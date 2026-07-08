@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783529787652}@@---
+---
 id: bebea6d9-0017-41a8-b58c-ddbef10a1f7d
 title: NeuroAI for AI safety
 tldr: The first family of brain-related AI safety work uses neuroscience to build, align, and interpret the AI we make — even when that AI isn't itself brain-like. This lens covers Mineault et al.'s roadmap and its seven concrete research approaches.
@@ -32,4 +32,3 @@ They are interdependent ("progress in one means progress in others"), and #7 lin
 optional:: true
 instructions::
 Help the learner hold the seven NeuroAI-for-safety approaches and, more importantly, the unifying bet (constraints from the brain push AI toward a basin of safe, human-like solutions). Probe the key boundary: this family informs whatever AI we build and does not assume the AI is brain-like — contrast with brain-like AGI safety. If solid, ask them to slot an example into one of the seven (e.g. "fine-tuning a model on fMRI data" → #5; "using neuroscience visualization tools to read features in a transformer" → #7). Stay grounded in the lens; do not introduce approaches not listed.
-++}

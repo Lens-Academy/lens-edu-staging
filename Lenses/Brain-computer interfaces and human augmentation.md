@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783529842842}@@---
+---
 id: a6455a5e-d468-4e43-a2ea-bfb5bd40e859
 title: Brain-computer interfaces and human augmentation
 tldr: The other human-side strategy keeps flesh-and-blood humans in the loop — high-bandwidth brain-computer interfaces (the "merge") and cognitive augmentation so human oversight can keep pace with AI. This lens covers the pitch and the standard objections.
@@ -26,4 +26,3 @@ Common skeptic objections worth being able to state:
 optional:: true
 instructions::
 Help the learner distinguish the two human-side variants (BCI/merge vs cognitive augmentation) and, most importantly, why a skeptic doubts them as safety solutions (capability-not-control, whose-values, timing). If solid, ask them to contrast Family C's strategy with A and B in one sentence (intervene on the human side vs make the AI safe). Stay grounded in the lens.
-++}

@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783529755390}@@---
+---
 title: "Whole-Brain Emulation and Advanced AI"
 source_url: "https://en.wikipedia.org/wiki/Mind_uploading"
 author:
@@ -37,4 +37,3 @@ WBE remains almost entirely theoretical; mainstream neuroscience pursues related
 
 ---
 *Condensed overview; see the [Sandberg & Bostrom WBE Roadmap](https://www.fhi.ox.ac.uk/reports/2008-3.pdf) for the canonical technical treatment.*
-++}

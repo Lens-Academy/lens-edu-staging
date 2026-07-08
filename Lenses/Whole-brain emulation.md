@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783529830921}@@---
+---
 id: d8c5ad40-f3aa-4265-82c6-971416357f81
 title: Whole-brain emulation
 tldr: One human-side strategy is to build advanced digital minds from humans rather than from scratch — scanning and simulating a brain. This lens covers what whole-brain emulation is and the awkward "which comes first" tension it raises for AI safety.
@@ -20,4 +20,3 @@ The catch is timing. If brain-emulation research mostly teaches us how to revers
 optional:: true
 instructions::
 Help the learner explain WBE (scan-map-simulate a specific brain) and, crucially, the safety-relevant tension: WBE is pitched as a human-derived, value-inheriting alternative to de novo AGI, but the research may accelerate neuromorphic AGI first. If solid, ask how this differs strategically from Families A and B (it changes the human side / the source of the mind rather than making a de novo or brain-like AI safe). Stay grounded in the lens.
-++}

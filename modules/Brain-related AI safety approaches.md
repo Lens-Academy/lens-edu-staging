@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783529932870}@@---
+---
 id: dc6e42a6-bb8b-41ec-8047-0a4671ea63e2
 slug: brain-related-ai-safety-approaches
 title: Brain-related AI safety approaches
@@ -25,4 +25,3 @@ source:: [[../Learning Outcomes/Explain brain-like AGI safety]]
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Assess human-side AI safety strategies]]
-++}
