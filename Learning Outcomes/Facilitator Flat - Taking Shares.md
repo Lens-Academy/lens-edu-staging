@@ -12,8 +12,8 @@ tags:
 id:: f4e3d0f4-fe00-4870-8250-34edf4cbe492
 
 #### Question
-feedback:: true
-content:: A participant has just spoken. You have about three seconds to choose what to do next. Most facilitators default to "thank you, anyone else?" There are seven moves available, and the meta-skill is range, not preference.
+{--{"author":"Elias's AI","timestamp":1783542524561}@@feedback:: true
+--}content:: A participant has just spoken. You have about three seconds to choose what to do next. Most facilitators default to "thank you, anyone else?" There are seven moves available, and the meta-skill is range, not preference.
 
 Name all seven moves. For each of the following situations, pick the right move: (a) the speaker has been on for a while and others are quiet; (b) the share contained a vague word that's doing a lot of work; (c) the share contained a claim that, if true, would change the conclusion. Which move do you default to in real life — and what's lost when you over-rely on it?
 
