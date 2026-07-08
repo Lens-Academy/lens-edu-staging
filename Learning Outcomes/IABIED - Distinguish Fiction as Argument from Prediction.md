@@ -17,8 +17,8 @@ tags:
 ## Test:
 id:: 0d32640e-9e23-44c8-8dea-dc1f67564986
 #### Question
-feedback:: true
-content:: The Coda steps outside the story to address a question readers often have: what, exactly, is the book predicting?
+{--{"author":"Elias's AI","timestamp":1783542574731}@@feedback:: true
+--}content:: The Coda steps outside the story to address a question readers often have: what, exactly, is the book predicting?
 
 **The book isn't claiming the specific events of the story will occur. But it's also not saying the story is "just a thought experiment" with no predictive content. What is the precise claim it is making? And how would you respond to someone who says "but it's just sci-fi"?**
 
