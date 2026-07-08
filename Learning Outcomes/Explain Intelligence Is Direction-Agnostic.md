@@ -17,8 +17,8 @@ tags:
 ## Test:
 id:: eefcafa7-65ed-4c7b-a73f-652d869494c2
 #### Question
-feedback:: true
-content::
+{--{"author":"Elias's AI","timestamp":1783542284672}@@feedback:: true
+--}content::
 Chapter 1 makes a claim that cuts against a common assumption: that smarter AI will naturally be safer or more aligned with human goals.
 
 What do the authors mean when they say intelligence is "direction-agnostic"? And why does that matter for safety?
