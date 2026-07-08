@@ -10,7 +10,7 @@ A "week" in our course is the content students work through between meetings. To
 
 1. First, understand [[#How It All Fits Together|how the pieces connect]]
 2. Create the [[#Creating a Module|Module(s))]] — the containers that organize everything
-3. Add your articles and videos to the queue so we can scrape the fulltext or transcripts. ==TO DO: Chris and Luc==
+3. {--{"author":"Elias's AI","timestamp":1783544177936}@@Add--}{++{"author":"Elias's AI","timestamp":1783544177936}@@Import++} your articles {++{"author":"Elias's AI","timestamp":1783544177936}@@via the **Add Article** page in the web editor — paste the URLs ++}and {--{"author":"Elias's AI","timestamp":1783544177936}@@videos to--}{++{"author":"Elias's AI","timestamp":1783544177936}@@it extracts++} the {--{"author":"Elias's AI","timestamp":1783544177936}@@queue so we can scrape the fulltext or transcripts. ==TO DO: Chris and Luc==--}{++{"author":"Elias's AI","timestamp":1783544177936}@@full text into `articles/` for you. For videos, ask the tech team to run the video import.++}
 4. Create your [[#Creating a Learning Outcome|Learning Outcomes]] — what students will be able to ***DO***
 5. Create [[#Creating a Lens|Lenses]] — the articles and discussions that teach each outcome
 
