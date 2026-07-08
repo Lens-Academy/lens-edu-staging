@@ -2,25 +2,26 @@
 
 Course modules and lessons for the Lens Academy AI Safety curriculum.
 ## Read-only:
-- Staging (automatically synced from Obsidian with 10s delay): https://github.com/lucbrinkman/lens-educational-content/tree/staging
-- Production: https://github.com/lucbrinkman/lens-educational-content/tree/main
+- Staging (automatically synced from {--{"author":"Elias's AI","timestamp":1783544059149}@@Obsidian with 10s delay): https://github.com/lucbrinkman/lens-educational-content/tree/staging--}{++{"author":"Elias's AI","timestamp":1783544059149}@@the relay within seconds): https://github.com/Lens-Academy/lens-edu-staging/tree/staging++}
+- Production: {--{"author":"Elias's AI","timestamp":1783544059149}@@https://github.com/lucbrinkman/lens-educational-content/tree/main--}{++{"author":"Elias's AI","timestamp":1783544059149}@@https://github.com/Lens-Academy/lens-edu-production++}
 
 ## Workflow
 ```
-Obsidian → Relay → staging branch → PR → main branch → Production
+Obsidian {++{"author":"Elias's AI","timestamp":1783544059149}@@/ web editor / AI (MCP) ++}→ Relay →{--{"author":"Elias's AI","timestamp":1783544059149}@@ staging branch--}{++{"author":"Elias's AI","timestamp":1783544059149}@@ lens-edu-staging++} → {++{"author":"Elias's AI","timestamp":1783544059149}@@promotion ++}PR → {--{"author":"Elias's AI","timestamp":1783544059149}@@main branch--}{++{"author":"Elias's AI","timestamp":1783544059149}@@lens-edu-production++} → Production
 ```
 
-1. **Edit in Obsidian** - All content is authored in Obsidians
-2. **Auto-sync to staging** - Relay automatically syncs changes to the `staging` branch
-	- The staging branch is used directly by our staging website. Changed made in Obsidian should be reflected on the website after 20s or so.
-3. **Create PR** - Manually open a pull request from `staging` to `main`
-4. **Validation** - GitHub Actions validates lesson format and wiki-links
-5. **Merge to main** - Once checks pass, squash and merge to `main`
-6. **Production** - The `main` branch is used directly by the production website..
+1. **Edit {--{"author":"Elias's AI","timestamp":1783544059149}@@in Obsidian**--}{++{"author":"Elias's AI","timestamp":1783544059149}@@via Relay**++} - {--{"author":"Elias's AI","timestamp":1783544059149}@@All content--}{++{"author":"Elias's AI","timestamp":1783544059149}@@Content++} is authored in {--{"author":"Elias's AI","timestamp":1783544059149}@@Obsidians--}{++{"author":"Elias's AI","timestamp":1783544059149}@@Obsidian (Relay plugin), the web editor (editor.lensacademy.org), or by AI through the lens-relay MCP (AI edits land as suggestions a human accepts in the editor)++}
+2. **Auto-sync to staging** - Relay automatically syncs changes to the `staging` branch{++{"author":"Elias's AI","timestamp":1783544059149}@@ of `lens-edu-staging`++}
+	- The staging branch is used directly by {--{"author":"Elias's AI","timestamp":1783544059149}@@our--}{++{"author":"Elias's AI","timestamp":1783544059149}@@the++} staging {--{"author":"Elias's AI","timestamp":1783544059149}@@website. Changed made in Obsidian--}{++{"author":"Elias's AI","timestamp":1783544059149}@@website (staging.lensacademy.org). Changes++} should be reflected {--{"author":"Elias's AI","timestamp":1783544059149}@@on the website --}{++{"author":"Elias's AI","timestamp":1783544059149}@@there ++}after 20s or so.{++{"author":"Elias's AI","timestamp":1783544059149}@@ Check https://staging.lensacademy.org/validate for format errors.++}
+3. {--{"author":"Elias's AI","timestamp":1783544059149}@@**Create--}{++{"author":"Elias's AI","timestamp":1783544059149}@@**Promotion++} PR** - {--{"author":"Elias's AI","timestamp":1783544059149}@@Manually open--}{++{"author":"Elias's AI","timestamp":1783544059149}@@Open++} a pull request {--{"author":"Elias's AI","timestamp":1783544059149}@@from `staging` to `main`--}{++{"author":"Elias's AI","timestamp":1783544059149}@@in `lens-edu-production` promoting the content from staging++}
+4. **Validation** - GitHub Actions validates {--{"author":"Elias's AI","timestamp":1783544059149}@@lesson--}{++{"author":"Elias's AI","timestamp":1783544059149}@@content++} format and wiki-links{--{"author":"Elias's AI","timestamp":1783544059149}@@
+5. **Merge to main**--}{++{"author":"Elias's AI","timestamp":1783544059149}@@ on the promotion PR
+5. **Merge**++} - Once checks pass,{--{"author":"Elias's AI","timestamp":1783544059149}@@ squash and--} merge{--{"author":"Elias's AI","timestamp":1783544059149}@@ to `main`--}
+6. **Production** -{--{"author":"Elias's AI","timestamp":1783544059149}@@ The `main` branch--}{++{"author":"Elias's AI","timestamp":1783544059149}@@ `lens-edu-production`++} is used directly by the production {--{"author":"Elias's AI","timestamp":1783544059149}@@website..--}{++{"author":"Elias's AI","timestamp":1783544059149}@@website (lensacademy.org)++}
 ## Important
 
-- **Never commit directly to the Lens Educational Content repo on Github** - All changes must come through Relay.
-- That includes pushing to the staging branch and any other branches.
+- **Never {--{"author":"Elias's AI","timestamp":1783544059149}@@commit directly to the Lens Educational Content repo on Github** - --}{++{"author":"Elias's AI","timestamp":1783544059149}@@push to `lens-edu-staging` on GitHub** - it is continuously overwritten by the relay sync; pushes break the sync. ++}All {++{"author":"Elias's AI","timestamp":1783544059149}@@content ++}changes must come through Relay.
+-{--{"author":"Elias's AI","timestamp":1783544059149}@@ That includes pushing to the staging branch and any other branches.--}{++{"author":"Elias's AI","timestamp":1783544059149}@@ `lens-edu-production` only changes through promotion PRs.++}
 
 ## Structure
 ### Course structure
