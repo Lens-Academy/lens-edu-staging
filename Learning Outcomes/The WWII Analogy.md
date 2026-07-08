@@ -13,8 +13,7 @@ tags:
 ## Test:
 id:: f9c4b820-5a71-4d83-9e12-7b3f0c5d8a91
 #### Question
-{--{"author":"Elias's AI","timestamp":1783542639370}@@feedback:: true
---}content:: Chapter 13 opens with a parable about the Allied Powers in World War II: military drafts, food rationing, soldiers sent to die, enormous expense, all to prevent totalitarianism from conquering the world. The chapter then addresses those who believe international coordination on AI restriction is politically impossible. The WWII story is the chapter's direct answer to that objection.
+content:: Chapter 13 opens with a parable about the Allied Powers in World War II: military drafts, food rationing, soldiers sent to die, enormous expense, all to prevent totalitarianism from conquering the world. The chapter then addresses those who believe international coordination on AI restriction is politically impossible. The WWII story is the chapter's direct answer to that objection.
 
 **In your own words, how does the chapter use the WWII analogy to respond to the claim that coordinating major powers on AI restriction is politically impossible? What specific feature of WWII does it invoke, and what does it assume about what people are capable of?**
 

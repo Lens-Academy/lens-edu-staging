@@ -14,6 +14,5 @@ ai-instructions:: You are a thoughtful collaborator. You are curious but skeptic
 opening-message:: I'm not sure this course needs another interactive feature. What is this supposed to add?
 user-customizable:: true
 assessment-instructions:: Evaluate whether the learner clearly explains the purpose of the feature and responds constructively to pushback.
-{--{"author":"Elias's AI","timestamp":1783542675673}@@feedback:: true
---}
+
 %% `content::` tells the learner what situation they're in. `ai-instructions::` tells the roleplay character how to behave. `opening-message::` is the first thing the character says. %%

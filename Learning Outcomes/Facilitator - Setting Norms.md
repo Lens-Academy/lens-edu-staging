@@ -12,8 +12,7 @@ tags:
 id:: f962fea2-21a6-4ff6-9903-4dd4abf5125f
 
 #### Question
-{--{"author":"Elias's AI","timestamp":1783542423106}@@feedback:: true
---}content:: The cohort's norms decide whether the rest of the course works. You set them — *together* — in the very first session. The key insight is empirically reliable: norms imposed from outside don't get followed; norms agreed to in conversation do.
+content:: The cohort's norms decide whether the rest of the course works. You set them — *together* — in the very first session. The key insight is empirically reliable: norms imposed from outside don't get followed; norms agreed to in conversation do.
 
 **Why do imposed norms fail? Name 3-5 candidate norms worth proposing in Week 1, and describe the Week-1 setup move that converts your proposals into the cohort's own norms.**
 

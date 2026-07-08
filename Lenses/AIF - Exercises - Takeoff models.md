@@ -10,14 +10,12 @@ content::
 Two exercises on the AI Futures Model you just read. These are meant for discussion groups: bring your answers to the meeting.
 
 #### Question
-{--{"author":"Elias's AI","timestamp":1783542800713}@@feedback:: true
---}content:: How does the AI Futures model compare to other takeoff models you've seen this week (e.g. the Forethought software-intelligence-explosion analysis)? Name at least one structural similarity and one difference.
+content:: How does the AI Futures model compare to other takeoff models you've seen this week (e.g. the Forethought software-intelligence-explosion analysis)? Name at least one structural similarity and one difference.
 assessment-instructions:: A good answer identifies a concrete similarity (e.g. both model AI R&D automation as the central driver, both extrapolate from capability trends) and a concrete difference (e.g. milestone-based simulation vs returns-parameter analysis, different treatment of compute bottlenecks or time-horizon extrapolation). Reward specificity about assumptions/parameters over vague comparisons.
 max-chars:: 1200
 
 #### Question
-{--{"author":"Elias's AI","timestamp":1783542843590}@@feedback:: true
---}content:: Open the AI Futures Project web app (linked from the article) and set the parameters to your own best guesses. What median takeoff forecast do you get, and which parameter moved your result the most? Any reflections on the model itself?
+content:: Open the AI Futures Project web app (linked from the article) and set the parameters to your own best guesses. What median takeoff forecast do you get, and which parameter moved your result the most? Any reflections on the model itself?
 assessment-instructions:: A good answer reports a concrete median forecast from playing with the app, names the parameter(s) they changed and the direction of effect, and offers at least one thoughtful reflection on the model's structure or limitations. Don't grade the forecast value itself; grade engagement and understanding of parameter sensitivity.
 max-chars:: 1200
 
