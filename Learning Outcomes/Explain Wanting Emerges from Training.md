@@ -15,8 +15,8 @@ tags:
 ## Test:
 id:: 26b45f14-dc22-461a-9cbd-e5f5dbf223ae
 #### Question
-feedback:: true
-content:: Chapter 3 argues that modern AIs will develop something like wants, not because anyone designed wants into them, but as a side effect of how they are trained. In your own words, how does the chapter explain that? What's the mechanism by which training for success produces want-like behavior, and what example from the chapter most clearly illustrates this?
+{--{"author":"Elias's AI","timestamp":1783542288132}@@feedback:: true
+--}content:: Chapter 3 argues that modern AIs will develop something like wants, not because anyone designed wants into them, but as a side effect of how they are trained. In your own words, how does the chapter explain that? What's the mechanism by which training for success produces want-like behavior, and what example from the chapter most clearly illustrates this?
 
 assessment-instructions::
 Score according to the following rubric.
