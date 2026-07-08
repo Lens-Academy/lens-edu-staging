@@ -15,8 +15,8 @@ tags:
 ## Test:
 id:: b5981716-08c0-40b1-a005-2cfbdde6d0c7
 #### Question
-feedback:: true
-content::
+{--{"author":"Elias's AI","timestamp":1783542267906}@@feedback:: true
+--}content::
 Chapter 1 defines intelligence in a specific way that's different from everyday usage.
 
 What are the two components the authors identify, and how do they work together? And why does generality (rather than excelling at any particular task) turn out to be the key variable?
