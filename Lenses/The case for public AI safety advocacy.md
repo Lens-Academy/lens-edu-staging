@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783584226817}@@---
+---
 id: a33fc55f-46b2-4df1-9852-237f89abf3f6
 title: The case for public AI safety advocacy
 tldr: Should AI safety stay an inside game of researchers and quiet policy work, or become a public movement? This lens covers the canonical case for going public.
@@ -18,4 +18,3 @@ source:: [[../articles/the-case-for-ai-safety-advocacy-to-the-public]]
 optional:: true
 instructions::
 Help the learner articulate the inside-game vs outside-game distinction and Elmore's argument that the outside game is necessary. Probe the theory of change (public salience → political will → policy). Then push on the strongest counter-considerations (backfire, polarization, capture by simplistic framings) so they're primed for the critique lenses. Stay grounded in the reading; don't resolve the debate for them.
-++}

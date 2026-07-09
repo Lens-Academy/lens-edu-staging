@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783584183062}@@---
+---
 id: 83ea1af9-5e66-41e8-bc5a-905d630b98ee
 title: What AI safety field-builders do
 tldr: A concrete career-level picture of field-building work — the roles, the fit, and the honest pros and cons — from 80,000 Hours.
@@ -11,4 +11,3 @@ The theory of change is one thing; the actual jobs are another. This 80,000 Hour
 
 #### Article
 source:: [[../articles/gertler-ai-safety-fieldbuilding]]
-++}

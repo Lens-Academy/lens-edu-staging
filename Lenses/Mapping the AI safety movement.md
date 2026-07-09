@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783584256807}@@---
+---
 id: 766119cd-e7b0-45c1-b142-8917dd7096e6
 title: Mapping the AI safety movement
 tldr: A rigorous outside view — social-movement researchers apply the lessons of climate, protest, and civil-society movements to AI safety, and ask whether it's ready.
@@ -11,4 +11,3 @@ The internal debate (Elmore vs Leicht vs the mistakes list) is mostly AI safety 
 
 #### Article
 source:: [[../articles/socialchangelab-ai-is-on-the-march-is-the-ai-safety-movement-ready-social-change-lab]]
-++}
