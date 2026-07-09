@@ -14,7 +14,7 @@ Much of the world is dominated by positive feedback loops. The first bit of grai
 # Learning Outcome:
 source:: ![[../Learning Outcomes/Feedback cycles create discontinuity]]
 # Learning Outcome:
-source:: ![[../Learning Outcomes/Fizzle or Foom]]{++{"author":"Elias's AI","timestamp":1783453519891}@@
+source:: ![[../Learning Outcomes/Fizzle or Foom]]
 
 {>>{"author":"Elias's AI","timestamp":1783453519891}@@Added per course feedback. 1960 and the AI Digest time-horizons piece are the new mainline readings 2 and 3 (I. J. Good stays reading 0, the singularity/explosion/takeoff definitions lens reading 1). They are attached at module level rather than to a specific learning outcome; reviewer may want to file them under an outcome. Cascades and Cycles + Recursion Magic were moved to optional inside their outcomes.<<}
 
@@ -26,4 +26,4 @@ source:: ![[../Lenses/A new Moores Law for AI agents]]
 
 # Lens:
 optional:: true
-source:: ![[../Lenses/The most important century]]++}
+source:: ![[../Lenses/The most important century]]
