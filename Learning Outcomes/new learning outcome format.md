@@ -32,7 +32,7 @@ assessment-instructions:: Check that the student (1) clearly states a preference
 enforce-voice:: true
 
 # Suggested Lenses
-## Lens:{++{"author":"Elias","timestamp":1783613752906}@@ (90%)++}
+## Lens:
 source:: [[../Lenses/Automating Alignment]]
 notes::
 Luc: I like this.
