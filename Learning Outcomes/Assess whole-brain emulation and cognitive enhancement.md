@@ -7,7 +7,7 @@ tags:
 ## Lens:
 source:: [[../Lenses/Whole-brain emulation]]
 ## Lens:
-source:: [[../Lenses/How far off is whole-brain emulation?]]
+source:: [[../Lenses/How far off is whole-brain emulation]]
 ## Lens:
 source:: [[../Lenses/Cognitive enhancement]]
 ## Test:
