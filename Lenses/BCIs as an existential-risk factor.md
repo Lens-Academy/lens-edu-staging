@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783603863459}@@---
+---
 id: 869b0974-2e8b-4565-b92c-406823a159f5
 title: BCIs as an existential-risk factor
 tldr: The counterweight: rather than reducing AI risk, brain-computer interfaces might *raise* it — especially by enabling durable totalitarian control. This lens is the case that BCI-type solutions can backfire.
@@ -13,4 +13,3 @@ Read it as the counterweight to the optimistic threads: a technology pitched as 
 
 #### Article
 source:: [[../articles/jack-a-new-x-risk-factor-brain-computer-interfaces]]
-++}

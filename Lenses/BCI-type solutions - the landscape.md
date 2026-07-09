@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783603784581}@@---
+---
 id: ea42bd12-f8ff-4f02-9b57-b3db3e8d06db
 title: BCI-type solutions - the landscape
 tldr: What if a core bottleneck in AI safety is the human-AI capability and bandwidth gap? This family of "BCI-type solutions" bets on changing the human side. This lens maps the whole landscape.
@@ -30,4 +30,3 @@ The unifying hope is **differential progress**: reorder the race so human-aligne
 optional:: true
 instructions::
 Help the learner state the core bet (the human-AI capability/bandwidth gap; change the human side) and distinguish the sub-threads (merge, cyborgism, enhancement, WBE, feedback/value-learning). Probe the soft-to-hard spectrum: which parts are happening now (cyborgism, wearables, connectomics) vs speculative (invasive BCI, WBE)? If solid, ask what "differential progress" has to be true for the plan to help (human-aligned capability arriving before unaligned AGI). Stay grounded in the reading.
-++}

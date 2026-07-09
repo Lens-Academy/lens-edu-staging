@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783603922444}@@---
+---
 id: 6cd4134a-b903-4eb2-b815-602c9c3abb87
 learning-outcome: Contrast the "merge" (high-bandwidth BCI) and "cyborgism" (software human-in-the-loop) ends of the BCI-type spectrum, and explain the circularity objection to merging
 tags:
@@ -20,4 +20,3 @@ feedback:: true
 content:: Explain the "circularity" objection to solving alignment by merging with AI. Which BCI-type sub-threads does it hit, and which does it spare?
 assessment-instructions:: A strong answer states the circularity objection (Shulman): to merge safely you need an AI that is already aligned/trustworthy — so merging presupposes alignment rather than creating it; and once the AI surpasses the human, the human becomes the bottleneck, not a safeguard. It hits the MERGE thread hardest. It largely SPARES enhance/emulate threads (cognitive enhancement, WBE) — raising human capability directly or producing human-derived minds doesn't require fusing with an unaligned AI — and it doesn't defeat soft cyborgism (human steers tools). Award 4-5 for the objection plus correctly saying it targets merge but spares enhance/upload; 3 for the objection only; 1-2 if misstated. Accept paraphrase.
 max-chars:: 700
-++}

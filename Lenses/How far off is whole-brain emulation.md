@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783603853753}@@---
+---
 id: 99388aba-85ec-473c-b9b1-f897885e9372
 title: How far off is whole-brain emulation?
 tldr: WBE promises human-derived digital minds that are "aligned by construction" — but how close is it, really? This lens is the 2025 reality check against the hopeful 2008 roadmap.
@@ -13,4 +13,3 @@ This 2025 report is the sober reality check against the hopeful 2008 Sandberg-Bo
 
 #### Article
 source:: [[../articles/zanichelli-state-of-brain-emulation-report-2025]]
-++}

@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783603916539}@@---
+---
 id: 3499fbaa-176d-4eda-afb6-cbff0522c783
 learning-outcome: Explain the theory of change behind BCI-type (human-side) AI safety solutions — the human-AI capability/bandwidth gap and the family's sub-threads (merge, cyborgism, cognitive enhancement, whole-brain emulation, neural feedback)
 tags:
@@ -20,4 +20,3 @@ feedback:: true
 content:: Name at least four of the sub-threads within BCI-type solutions, and say which is the most tractable / nearest-term and why.
 assessment-instructions:: Sub-threads (any four): merge (high-bandwidth BCI coupling), cyborgism/symbiosis (software human-in-the-loop), cognitive enhancement (pharma/genetics/prosthetics), whole-brain emulation (uploading), and neural feedback / value-learning (brain signals as richer supervision data). Most tractable / nearest-term: either neural feedback (coarse EEG/affect signals need no merge or WBE) or cyborgism (software-only, live and testable now) — credit either with a good reason (no implants/uploading required; commercializable today). Award 4-5 for four sub-threads plus a justified most-tractable pick; 3 for four threads with weak justification; 1-2 for fewer than three. Accept paraphrase.
 max-chars:: 600
-++}

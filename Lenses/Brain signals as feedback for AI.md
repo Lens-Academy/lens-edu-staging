@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783603796330}@@---
+---
 id: 65649056-c679-4d6c-90f5-72c178b0bc0d
 title: Brain signals as feedback for AI
 tldr: The lowest-bandwidth, nearest-term BCI-for-safety idea: use neural signals as richer-than-language feedback to train and oversee AI. This lens covers the value-learning case.
@@ -18,4 +18,3 @@ source:: [[../articles/robbo-using-brain-computer-interfaces-to-get-more-data-fo
 optional:: true
 instructions::
 Help the learner see why "brain signals as feedback" is the lowest-bandwidth, most tractable BCI-for-safety thread: it enriches human supervision data without requiring merge or WBE. Probe the mechanism (neural correlates of approval/confusion/moral emotion feeding oversight methods like RLHF/debate). If solid, ask about limits: what can't neural feedback fix (the constant-factor/capability-gap objection), and how does this thread relate to scalable oversight generally? Stay grounded in the reading.
-++}

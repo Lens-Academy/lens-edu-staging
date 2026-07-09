@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783603946976}@@---
+---
 id: 50054a3a-4dd5-43fa-abdc-97f463e2cd37
 learning-outcome: Assess whole-brain emulation and cognitive enhancement as routes to human-aligned or human-competitive minds — the "aligned by construction" hope, the reality check on WBE's maturity, and the timeline/equity problems
 tags:
@@ -22,4 +22,3 @@ feedback:: true
 content:: Cognitive enhancement (e.g. embryo selection) tries to make humans smarter rather than merging or uploading. What is its main advantage over "merge," and its two biggest problems?
 assessment-instructions:: Advantage: enhancement dodges the merge-circularity objection — raising human capability directly does not require fusing with an unaligned AI. Two biggest problems: (1) timelines — enhanced humans (especially via germline/embryo selection) take a generation to arrive and may be far too slow to matter for near-term AGI; (2) inequality / lock-in — cognitive enhancement could become a privilege of the powerful, cutting against safe, multipolar outcomes. Award 4-5 for the advantage plus both problems; 3 for the advantage and one problem; 1-2 if it misses the circularity point or gives no real problems. Accept paraphrase.
 max-chars:: 600
-++}

@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783603822841}@@---
+---
 id: b55591f6-2edb-4a86-b1b0-e1a21bbb7e3c
 title: Cyborgism
 tldr: The soft, already-here end of the spectrum: software-only human-in-the-loop tooling that amplifies human agency for alignment work, without handing off to autonomous agents.
@@ -18,4 +18,3 @@ source:: [[../articles/dupuis-cyborgism]]
 optional:: true
 instructions::
 Help the learner place cyborgism at the soft, near-term end of the BCI-type spectrum (software-only, human-in-the-loop, preserves steering). Probe its low-regret case (live now, improves alignment feedback loops) and the sharpest critique: cyborgism overlaps heavily with 'AI for AI safety' / tools-for-thought, so what is distinctively 'BCI' about it (answer: neural data + human persistence, not tool use alone)? If solid, connect to why human+AI team periods ('cyborg periods') might be pivotal. Stay grounded in the reading.
-++}

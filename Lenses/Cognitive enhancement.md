@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783603847237}@@---
+---
 id: e88076f4-bf6c-45ef-ae0f-012467cdc10b
 title: Cognitive enhancement
 tldr: If the problem is that humans are too slow and too dumb relative to AI, one answer is to make humans smarter. This lens covers the genetics/embryo-selection route to cognitive enhancement.
@@ -18,4 +18,3 @@ source:: [[../articles/genesmith-how-to-make-superbabies]]
 optional:: true
 instructions::
 Help the learner place cognitive enhancement in the BCI-type family (raise human capability directly). Note it dodges the merge-circularity objection. Then press the two hardest problems: the timeline mismatch (enhancement is slow; AGI may be fast) and the inequality/lock-in risk. If solid, ask whether enhancement is really an *AI-safety* strategy or a general human-capability project that happens to be relevant. Stay grounded in the reading.
-++}
