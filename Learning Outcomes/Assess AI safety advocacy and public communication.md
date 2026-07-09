@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783584353647}@@---
+{++{"author":"Elias's AI","timestamp":1783584541462}@@---
 id: 14813ed3-0768-4bd9-940c-7248793e5643
 learning-outcome: Assess the case for public AI safety advocacy — the inside-game vs outside-game distinction, contrasting communication doctrines, and the main risks advocacy has to manage
 tags:
@@ -6,6 +6,8 @@ tags:
 ---
 ## Lens:
 source:: [[../Lenses/The case for public AI safety advocacy]]
+## Lens:
+source:: [[../Lenses/AI safety communications strategy]]
 ## Test:
 id:: 821efa8f-6625-4c92-a461-c2e225cfb59a
 #### Question
