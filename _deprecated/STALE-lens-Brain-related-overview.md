@@ -21,7 +21,7 @@ Keep the A-vs-B distinction sharp: **A informs AI we build (which may not resemb
 content::
 ### Family A — NeuroAI for AI safety
 
-The flagship statement of this family is Patrick Mineault and colleagues' *NeuroAI for AI Safety* roadmap. Its organizing bet, adapted from a 2017 DeepMind argument, is that **more constraints from human brain biophysics, representations, and behavior raise the probability of landing in the "basin" of safe, human-like solutions** — because many paths reach intelligent behavior, but most lack the safety properties we associate with human cognition. Read the roadmap's argument and its seven proposed research pathways — read the full roadmap in the lens [[../_deprecated/REMOVED-lens-NeuroAI-for-AI-safety|NeuroAI for AI safety]].
+The flagship statement of this family is Patrick Mineault and colleagues' *NeuroAI for AI Safety* roadmap. Its organizing bet, adapted from a 2017 DeepMind argument, is that **more constraints from human brain biophysics, representations, and behavior raise the probability of landing in the "basin" of safe, human-like solutions** — because many paths reach intelligent behavior, but most lack the safety properties we associate with human cognition. Read the roadmap's argument and its seven proposed research pathways — read the full roadmap in the lens [[REMOVED-lens-NeuroAI-for-AI-safety|NeuroAI for AI safety]].
 
 #### Text
 content::
