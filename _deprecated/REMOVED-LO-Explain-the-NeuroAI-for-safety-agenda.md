@@ -5,7 +5,7 @@ tags:
   - learning outcome
 ---
 ## Lens:
-source:: [[../Lenses/NeuroAI for AI safety]]
+source:: [[REMOVED-lens-NeuroAI-for-AI-safety]]
 ## Test:
 id:: 37300c07-ef8a-4ceb-b827-909ca02a1424
 #### Question
