@@ -10,7 +10,7 @@ A "week" in our course is the content students work through between meetings. To
 
 1. First, understand [[#How It All Fits Together|how the pieces connect]]
 2. Create the [[#Creating a Module|Module(s))]] — the containers that organize everything
-3. {--{"author":"Elias's AI","timestamp":1783544177936}@@Add--}{++{"author":"Elias's AI","timestamp":1783544177936}@@Import++} your articles {++{"author":"Elias's AI","timestamp":1783544177936}@@via the **Add Article** page in the web editor — paste the URLs ++}and {--{"author":"Elias's AI","timestamp":1783544177936}@@videos to--}{++{"author":"Elias's AI","timestamp":1783544177936}@@it extracts++} the {--{"author":"Elias's AI","timestamp":1783544177936}@@queue so we can scrape the fulltext or transcripts. ==TO DO: Chris and Luc==--}{++{"author":"Elias's AI","timestamp":1783544177936}@@full text into `articles/` for you. For videos, ask the tech team to run the video import.++}
+3. Import your articles via the **Add Article** page in the web editor — paste the URLs and it extracts the full text into `articles/` for you. For videos, ask the tech team to run the video import.
 4. Create your [[#Creating a Learning Outcome|Learning Outcomes]] — what students will be able to ***DO***
 5. Create [[#Creating a Lens|Lenses]] — the articles and discussions that teach each outcome
 
@@ -32,8 +32,8 @@ Course
 
 ### What each piece does
 
-**Course** {--{"author":"Elias's AI","timestamp":1783544188339}@@(`courses/default.md`)--}{++{"author":"Elias's AI","timestamp":1783544188339}@@(`courses/<Course Name>.md`)++}
-{--{"author":"Elias's AI","timestamp":1783544188339}@@The--}{++{"author":"Elias's AI","timestamp":1783544188339}@@Each++} course {++{"author":"Elias's AI","timestamp":1783544188339}@@has its own ++}file {--{"author":"Elias's AI","timestamp":1783544188339}@@lists--}{++{"author":"Elias's AI","timestamp":1783544188339}@@listing++} all modules and {--{"author":"Elias's AI","timestamp":1783544188339}@@marks--}{++{"author":"Elias's AI","timestamp":1783544188339}@@marking++} where meetings happen. Modules before a meeting belong to that week.
+**Course** (`courses/<Course Name>.md`)
+Each course has its own file listing all modules and marking where meetings happen. Modules before a meeting belong to that week.
 
 **Week**
 Not a file — it's defined by the meeting markers in the course file. Everything between two meetings is one week. Most weeks have 2 modules, but 1 or 3 is common.
@@ -71,7 +71,7 @@ Think about what you want students to accomplish. Use action verbs:
 
 ### Step 2: Create the file
 
-Create a new file in `Lens Edu/Learning {--{"author":"Elias's AI","timestamp":1783544237693}@@Outcomes/WIP`--}{++{"author":"Elias's AI","timestamp":1783544237693}@@Outcomes`++} with a descriptive {--{"author":"Elias's AI","timestamp":1783544237693}@@name.--}{++{"author":"Elias's AI","timestamp":1783544237693}@@name (prefix it with your course's tag, e.g. `IABIED - Define Intelligence`). Add `wip` to its `tags` while it's unfinished — that keeps validation errors from blocking releases.++}
+Create a new file in `Lens Edu/Learning Outcomes` with a descriptive name (prefix it with your course's tag, e.g. `IABIED - Define Intelligence`). Add `wip` to its `tags` while it's unfinished — that keeps validation errors from blocking releases.
 
 ### Step 3: Add the required parts
 
@@ -80,20 +80,19 @@ Every Learning Outcome needs:
 ```markdown
 ---
 id: <generate a UUID — see Syntax Reference below>
-{++{"author":"Elias's AI","timestamp":1783544237693}@@learning-outcome: "<the outcome from Step 1, starting with an action verb>"
-++}discussion: <Discord channel URL for this topic>
-{++{"author":"Elias's AI","timestamp":1783544237693}@@tags:
+learning-outcome: "<the outcome from Step 1, starting with an action verb>"
+discussion: <Discord channel URL for this topic>
+tags:
   - wip
-++}---
-{--{"author":"Elias's AI","timestamp":1783544237693}@@## Learning outcome:
---}{>>What can the student do at the end of this module?<<}
+---
+{>>What can the student do at the end of this module?<<}
 
 ## Test:
-{>>How will we confirm that the student has achieved the learning outcome above?<<}{++{"author":"Elias's AI","timestamp":1783544237693}@@
+{>>How will we confirm that the student has achieved the learning outcome above?<<}
 id:: <generate another UUID>
 #### Question
 content:: <the test question the student must be able to answer>
-assessment-instructions:: <how the AI scores the answer — a 1–5 rubric with an example answer per level works best>++}
+assessment-instructions:: <how the AI scores the answer — a 1–5 rubric with an example answer per level works best>
 
 ## Lens:
 source:: ![[../Lenses/Your Lens Name]]
@@ -104,12 +103,10 @@ source:: ![[../Lenses/Another Lens Name]]
 
 **The header section** (between the `---` marks):
 - `id`: A unique identifier (UUID). Generate one at https://www.uuidgenerator.net/version4
-- {--{"author":"Elias's AI","timestamp":1783544248456}@@`discussion`: Link to the Discord channel for discussing this topic
+- `learning-outcome`: What the student can do (the outcome you wrote in Step 1)
+- `discussion`: Link to the Discord channel for discussing this topic
 
-**Learning outcome section**: Write what--}{++{"author":"Elias's AI","timestamp":1783544248456}@@`learning-outcome`: What++} the student can do (the outcome you wrote in Step 1){++{"author":"Elias's AI","timestamp":1783544248456}@@
-- `discussion`: Link to the Discord channel for discussing this topic++}
-
-**Test section**: How {--{"author":"Elias's AI","timestamp":1783544248456}@@you'll--}{++{"author":"Elias's AI","timestamp":1783544248456}@@we++} verify the student achieved the {--{"author":"Elias's AI","timestamp":1783544248456}@@outcome. This might be--}{++{"author":"Elias's AI","timestamp":1783544248456}@@outcome —++} a {--{"author":"Elias's AI","timestamp":1783544248456}@@question they should be able to answer, a task they should be able to do, or a concept they should be able to explain.--}{++{"author":"Elias's AI","timestamp":1783544248456}@@`#### Question` the AI tutor poses and scores against your `assessment-instructions::`. Writing the rubric first defines the outcome sharply enough to design the lenses.++}
+**Test section**: How we verify the student achieved the outcome — a `#### Question` the AI tutor poses and scores against your `assessment-instructions::`. Writing the rubric first defines the outcome sharply enough to design the lenses.
 
 **Lens references**: Link to the Lenses that teach this outcome using `source:: ![[path/to/lens]]`
 
@@ -129,7 +126,7 @@ Find or write the article that teaches the concept. Articles live in `Lens Edu/a
 
 ### Step 2: Create the Lens file
 
-Create a new file in `Lens {--{"author":"Elias's AI","timestamp":1783544250082}@@Edu/Lenses/WIP`--}{++{"author":"Elias's AI","timestamp":1783544250082}@@Edu/Lenses`++} with a descriptive {--{"author":"Elias's AI","timestamp":1783544250082}@@name.--}{++{"author":"Elias's AI","timestamp":1783544250082}@@name (prefix it with your course's tag). Add `wip` to its `tags` while it's unfinished.++}
+Create a new file in `Lens Edu/Lenses` with a descriptive name (prefix it with your course's tag). Add `wip` to its `tags` while it's unfinished.
 
 ### Step 3: Add the required parts
 
@@ -180,14 +177,12 @@ Ask what they found surprising or new. Check if they can explain `<key concept>`
 - Discussion topics to explore
 - What to check for understanding
 
-{--{"author":"Elias's AI","timestamp":1783544263227}@@### Template
-
-See [[../Lens/templates/template - lens|template - lens]] for --}{++{"author":"Elias's AI","timestamp":1783544263227}@@> [!tip] Current best practice for reading lenses
-> The AI Risk Fundamentals course replaces the single Chat with three `#### Question` phases — Recall ("write down everything you remember"), Processing ("how did the reading land?"), and ++}a {--{"author":"Elias's AI","timestamp":1783544263227}@@ready-to-copy version--}{++{"author":"Elias's AI","timestamp":1783544263227}@@Learning Question — each++} with {--{"author":"Elias's AI","timestamp":1783544263227}@@examples --}{++{"author":"Elias's AI","timestamp":1783544263227}@@detailed `assessment-instructions::` for the tutor. Open any `IABIED - ...` lens ++}in {++{"author":"Elias's AI","timestamp":1783544263227}@@`Lens Edu/Lenses/` to copy ++}the {--{"author":"Elias's AI","timestamp":1783544263227}@@comments.--}{++{"author":"Elias's AI","timestamp":1783544263227}@@pattern.
+> [!tip] Current best practice for reading lenses
+> The AI Risk Fundamentals course replaces the single Chat with three `#### Question` phases — Recall ("write down everything you remember"), Processing ("how did the reading land?"), and a Learning Question — each with detailed `assessment-instructions::` for the tutor. Open any `IABIED - ...` lens in `Lens Edu/Lenses/` to copy the pattern.
 
 ### Example
 
-For a real, current example, open any `IABIED - ...` lens in `Lens Edu/Lenses/` (e.g. `IABIED - AI Is Grown, Not Crafted`).++}
+For a real, current example, open any `IABIED - ...` lens in `Lens Edu/Lenses/` (e.g. `IABIED - AI Is Grown, Not Crafted`).
 
 ---
 
@@ -253,7 +248,7 @@ source:: ![[../Lenses/Optional Extra Lens]]
 
 ### Step 4: Add the module to the course
 
-Edit {++{"author":"Elias's AI","timestamp":1783544190577}@@your course's file in ++}`Lens {--{"author":"Elias's AI","timestamp":1783544190577}@@Edu/courses/default.md`--}{++{"author":"Elias's AI","timestamp":1783544190577}@@Edu/courses/`++} and add your module in the right place:
+Edit your course's file in `Lens Edu/courses/` and add your module in the right place:
 
 ```markdown
 # Module: [[../modules/your-module-slug]]
@@ -336,10 +331,9 @@ All templates are in `Lens/templates/`:
 | Template | When to use |
 |----------|-------------|
 | [[../Lens/templates/template - module\|template - module]] | Creating a new module |
-| [[../Lens/templates/template - learning outcome\|template - learning outcome]] | Creating a new learning outcome |{--{"author":"Elias's AI","timestamp":1783544266203}@@
-| [[../Lens/templates/template - lens\|template - lens]] | Creating--}{++{"author":"Elias's AI","timestamp":1783544266203}@@
+| [[../Lens/templates/template - learning outcome\|template - learning outcome]] | Creating a new learning outcome |
 
-For lenses there is no template — copy++} a {--{"author":"Elias's AI","timestamp":1783544266203}@@new--}{++{"author":"Elias's AI","timestamp":1783544266203}@@real `IABIED - ...`++} lens {--{"author":"Elias's AI","timestamp":1783544266203}@@(article + discussion) |--}{++{"author":"Elias's AI","timestamp":1783544266203}@@from `Lens Edu/Lenses/` instead.++}
+For lenses there is no template — copy a real `IABIED - ...` lens from `Lens Edu/Lenses/` instead.
 
 Each template includes comments explaining what goes where. Copy the template, then replace the placeholders with your content.
 
@@ -349,8 +343,8 @@ Each template includes comments explaining what goes where. Copy the template, t
 
 - **Discord**: Ask in the relevant discussion channel
 - **Templates**: Check the templates — they have inline comments with examples
-- **Validation**: {--{"author":"Elias's AI","timestamp":1783544267929}@@Run--}{++{"author":"Elias's AI","timestamp":1783544267929}@@Check https://staging.lensacademy.org/validate — it continuously validates++} the {++{"author":"Elias's AI","timestamp":1783544267929}@@synced ++}content {--{"author":"Elias's AI","timestamp":1783544267929}@@validator to check your work (see technical team)--}{++{"author":"Elias's AI","timestamp":1783544267929}@@and lists errors per file, filterable by course++}
+- **Validation**: Check https://staging.lensacademy.org/validate — it continuously validates the synced content and lists errors per file, filterable by course
 
 ---
 
-*Last updated: {--{"author":"Elias's AI","timestamp":1783544267929}@@2026-02-01*--}{++{"author":"Elias's AI","timestamp":1783544267929}@@2026-07-08*++}
+*Last updated: 2026-07-08*
