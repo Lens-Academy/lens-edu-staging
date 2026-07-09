@@ -64,7 +64,7 @@ To get suggest and comments working, please add this plugin. If you're missing i
 	- It's a read-only repo but you can use it to check whether the stuff you do has been synced properly. Once it's on the Github, it's safe.
 - **Lens Educational Content is synced to a public repo:** https://github.com/lucbrinkman/lens-educational-content
 	- https://lensacademy.org loads the course content from this repo
-	- Read {--{"author":"Elias's AI","timestamp":1781552352331}@@[[../Lens Educational Content/README]]--}{++{"author":"Elias's AI","timestamp":1781552352331}@@[[README]]++} for more info on editing course content.
+	- Read [[README]] for more info on editing course content.
 
 
 ## Want to use one Obsidian Vault for both Lens Academy and Personal Notes? ^shared-vault

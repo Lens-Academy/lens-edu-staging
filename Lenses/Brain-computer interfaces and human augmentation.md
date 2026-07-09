@@ -17,7 +17,7 @@ Both intervene on the **human** side of the problem — the strategic contrast w
 For a careful, skeptical treatment of whether BCIs actually help alignment — and why "merge" proposals are contested — read:
 
 #### Article
-source:: [[../_deprecated/niplav-brain-computer-interfaces-and-ai-alignment-SUMMARY]]
+source:: [[../articles/niplav-brain-computer-interfaces-and-ai-alignment]]
 
 #### Text
 content::

@@ -10,7 +10,7 @@ content::
 The second family starts from a different premise than NeuroAI-for-safety: that the AGI we should worry about will **itself be brain-like** — an actor-critic reinforcement learner with a from-scratch, cortex-like **Learning Subsystem** steered by an innate, brainstem/hypothalamus-like **Steering Subsystem** that supplies the reward signal. Steven Byrnes argues such a system has *dangerous, radically nonhuman motivations by default*, and that the fix is to reverse-engineer the brain's innate steering / social-instinct circuitry so we can install good motivations on purpose. Read his framing of the problem.
 
 #### Article
-source:: {--{"author":"Elias's AI","timestamp":1783578173836}@@[[../_deprecated/byrnes-intro-to-brain-like-agi-safety-1]]--}{++{"author":"Elias's AI","timestamp":1783578173836}@@[[../articles/byrnes-intro-to-brain-like-agi-safety-1-whats-the-problem-why-work-on-it-now]]++}
+source:: [[../articles/byrnes-intro-to-brain-like-agi-safety-1-whats-the-problem-why-work-on-it-now]]
 
 #### Text
 content::
