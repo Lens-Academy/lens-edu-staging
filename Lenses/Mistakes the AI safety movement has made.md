@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783584235009}@@---
+---
 id: 1314a2f1-93dd-4817-a0d4-652b5dd03998
 title: Mistakes the AI safety movement has made
 tldr: A 17-expert synthesis of where the AI safety movement has gone wrong — insularity, neglecting policy, extremeness, and more. The best single piece of movement self-critique.
@@ -13,4 +13,3 @@ Read it as a diagnostic checklist: which mistakes are about *strategy*, which ab
 
 #### Article
 source:: [[../articles/euanmclean-what-mistakes-has-the-ai-safety-movement-made]]
-++}

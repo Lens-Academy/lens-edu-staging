@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1783584541462}@@---
+---
 id: 14813ed3-0768-4bd9-940c-7248793e5643
 learning-outcome: Assess the case for public AI safety advocacy — the inside-game vs outside-game distinction, contrasting communication doctrines, and the main risks advocacy has to manage
 tags:
@@ -25,4 +25,3 @@ feedback:: true
 content:: Name and briefly explain two risks that public AI safety advocacy has to manage.
 assessment-instructions:: Credit any two well-explained risks from the material: political polarization / partisan capture; backfire or reputational damage to the cause; capture by simplistic or fringe framings; accuracy-vs-virality tension; differential-development concerns (raising salience of capabilities). Award 4-5 for two risks each with a mechanism; 3 for two named risks with thin explanation; 1-2 for one or vague. Accept paraphrase.
 max-chars:: 500
-++}

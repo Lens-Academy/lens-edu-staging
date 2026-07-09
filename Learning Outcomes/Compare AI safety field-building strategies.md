@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783584319783}@@---
+---
 id: 010c71fc-937a-4094-aca2-63e4ad598598
 learning-outcome: Compare AI safety field-building strategies (courses, fellowships, org-building) and explain the 2026 shift in the binding constraint from junior-talent supply to absorptive/mentorship capacity
 tags:
@@ -25,4 +25,3 @@ feedback:: true
 content:: Name one risk or tension that field-building has to manage as it grows the talent pool.
 assessment-instructions:: Credit any well-explained tension from the readings: capabilities leakage (people trained for safety flowing into capabilities work), quality dilution as the field scales, over-optimizing for researchers vs founders/managers, or funder concentration. Award 4-5 for a clearly explained risk with a why; 3 for a named risk with thin explanation; 1-2 if vague or off-topic. Accept paraphrase.
 max-chars:: 400
-++}

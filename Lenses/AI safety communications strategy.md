@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783584529438}@@---
+---
 id: f03cddb8-a211-4ad1-9894-3619f309fa2c
 title: AI safety communications strategy
 tldr: If you do communicate publicly, how blunt should you be? This lens covers MIRI's explicit doctrine — say the existential risk plainly — as a sharp contrast to moderate, broad-appeal messaging.
@@ -18,4 +18,3 @@ source:: [[../articles/greaterwrong-miri-2024-communications-strategy]]
 optional:: true
 instructions::
 Help the learner treat communication doctrine as a real strategic choice with trade-offs, not a personality trait. Get them to state MIRI's position (tell the blunt truth about extinction risk) and its gains/risks, then the opposing moderate-messaging bet and its gains/risks. If solid, connect to Elmore (the outside game) and to the movement critiques (extremeness as a diagnosed mistake) — is bluntness principled honesty or a strategic liability? Don't settle it; press for a reasoned view. Stay grounded in the reading.
-++}

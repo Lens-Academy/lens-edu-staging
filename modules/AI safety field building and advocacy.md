@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783584400708}@@---
+---
 id: e96c4aba-cc23-49b9-8af9-57a4c83fade7
 slug: ai-safety-field-building-and-advocacy
 title: AI safety field building and advocacy
@@ -29,4 +29,3 @@ source:: [[../Learning Outcomes/Assess AI safety advocacy and public communicati
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Evaluate the case against a broad AI safety movement]]
-++}

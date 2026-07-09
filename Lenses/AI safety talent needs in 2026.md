@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783584196567}@@---
+---
 id: 42ad4bd6-6e78-4ce8-b866-c3902e489985
 title: AI safety talent needs in 2026
 tldr: The binding constraint on the field has moved. This lens covers the freshest ecosystem-wide evidence on what talent AI safety actually needs now — and why "more junior researchers" is no longer the answer.
@@ -18,4 +18,3 @@ source:: [[../articles/jteichma-ai-safety-talent-needs-in-2026-insights-for-fiel
 optional:: true
 instructions::
 Make sure the learner can state the core shift: supply of juniors → absorptive/mentorship capacity as the binding constraint. Probe implications: what should field-building orgs do differently (prioritize senior/experienced talent, mentorship capacity, absorptive orgs) vs keep doing (some top-of-funnel)? If solid, connect to the capabilities-leakage tension — growing talent can also feed capabilities work. Stay grounded in the report.
-++}
