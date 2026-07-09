@@ -6,15 +6,15 @@ tldr: I.J. Good recognized that the first machine smarter than any human would b
 ---
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1783453512586}@@The issue with self amplifying loops is that plans become obsolete very quickly. The system--}{++{"author":"Elias's AI","timestamp":1783453512586}@@In 1965, long before any working computer looked remotely like++} a {--{"author":"Elias's AI","timestamp":1783453512586}@@few steps down--}{++{"author":"Elias's AI","timestamp":1783453512586}@@mind,++} the {--{"author":"Elias's AI","timestamp":1783453512586}@@line will be dominated by effects that are almost impossible--}{++{"author":"Elias's AI","timestamp":1783453512586}@@statistician I. J. Good followed the feedback loop++} to {--{"author":"Elias's AI","timestamp":1783453512586}@@foresee from--}{++{"author":"Elias's AI","timestamp":1783453512586}@@its end. Read++} the {--{"author":"Elias's AI","timestamp":1783453512586}@@starting line. I.J. Good recognised this when he wrote the following:--}{++{"author":"Elias's AI","timestamp":1783453512586}@@last clause slowly.++}
+In 1965, long before any working computer looked remotely like a mind, the statistician I. J. Good followed the feedback loop to its end. Read the last clause slowly.
 
 #### Article
 source:: [[../articles/good-speculations-concerning-first-ultraintelligent-machine]]
-from:: {--{"author":"Elias's AI","timestamp":1783453512586}@@"The survival of man depends"--}{++{"author":"Elias's AI","timestamp":1783453512586}@@"Let an ultraintelligent machine be defined"++}
-to:: {--{"author":"Elias's AI","timestamp":1783453512586}@@"in his own image."--}{++{"author":"Elias's AI","timestamp":1783453512586}@@"how to keep it under control."++}
+from:: "Let an ultraintelligent machine be defined"
+to:: "how to keep it under control."
 
 #### Article
-from:: {--{"author":"Elias's AI","timestamp":1783453512586}@@"Let an ultraintelligent machine be defined"--}{++{"author":"Elias's AI","timestamp":1783453512586}@@"Since we are concerned with the economical construction"++}
+from:: "Since we are concerned with the economical construction"
 to:: "value at a megakeynes."
 
 #### Text
