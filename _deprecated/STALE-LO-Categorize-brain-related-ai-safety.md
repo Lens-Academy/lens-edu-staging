@@ -5,7 +5,7 @@ tags:
   - learning outcome
 ---
 ## Lens:
-source:: [[../Lenses/Brain-related AI safety approaches]]
+source:: [[STALE-lens-Brain-related-overview]]
 ## Test:
 id:: 376a14fc-8cb6-489e-b27b-7db6a8fd1411
 #### Question
