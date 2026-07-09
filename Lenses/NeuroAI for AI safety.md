@@ -12,7 +12,7 @@ Our one existing example of general intelligence that is (mostly) safe, cooperat
 The flagship statement is Patrick Mineault and colleagues' *NeuroAI for AI Safety* roadmap. Its organizing bet, adapted from a 2017 DeepMind argument: **more constraints from human brain biophysics, representations, and behavior raise the probability of landing in the "basin" of safe, human-like solutions** — because many paths reach intelligent behavior, but most lack the safety properties we associate with human cognition.
 
 #### {--{"author":"Elias's AI","timestamp":1783601533794}@@Article
-source:: [[../articles/mineault-neuroai-for-ai-safety]]
+source:: [[../_deprecated/mineault-neuroai-for-ai-safety-REMOVED]]
 
 #### --}Text
 content::

@@ -4,4 +4,4 @@ title: "NeuroAI for AI safety"
 ---
 
 #### Article
-source:: [[../articles/mineault-neuroai-for-ai-safety]]
+source:: [[mineault-neuroai-for-ai-safety-REMOVED]]
