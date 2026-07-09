@@ -10,7 +10,7 @@ content::
 A different strategy accepts that we may not fully control a de novo AI, and instead tries to build advanced digital minds **from humans**. Whole-brain emulation (WBE), or "mind uploading," aims to scan, map, and simulate a specific brain at high enough resolution to reproduce its function — the hope being that a human-derived mind is more likely to share human values than an AGI built from scratch.
 
 #### Article
-source:: [[../articles/whole-brain-emulation-and-advanced-ai]]
+source:: {--{"author":"Elias's AI","timestamp":1783578175684}@@[[../articles/whole-brain-emulation-and-advanced-ai]]--}{++{"author":"Elias's AI","timestamp":1783578175684}@@[[../articles/hilton-whole-brain-emulation]]++}
 
 #### Text
 content::
