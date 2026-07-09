@@ -18,10 +18,10 @@ Most AI safety work treats the AI as the object of study. A distinct cluster of 
 Keep the sharpest distinction in mind as you go: **A informs the AI we build (which may not resemble a brain); B assumes the AI is brain-like; C changes the human side.** The families overlap — interpretability bridges A and mainstream alignment, and reward-function work appears in both A and B — but the core skill is placing any "brain + safety" idea in the right family.
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain the NeuroAI-for-safety agenda]]
+source:: [[../Learning Outcomes/Explain {--{"author":"Elias's AI","timestamp":1783603337357}@@the NeuroAI-for-safety agenda]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain brain-like AGI safety]]
+source:: [[../Learning Outcomes/Explain --}brain-like AGI safety]]
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Assess human-side AI safety strategies]]
