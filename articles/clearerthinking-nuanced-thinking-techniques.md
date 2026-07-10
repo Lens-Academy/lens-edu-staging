@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783693826500}@@---
+---
 title: "Nuanced Thinking Techniques"
 author:
   - "Clearer Thinking"
@@ -89,4 +89,3 @@ The mini-course covers three binary-thinking traps and the nuanced-thinking tech
 - *A town decision-maker planning a new community park*, where the project has both good and bad consequences and many parties with competing interests, is best served by **gray thinking** — seeing the pros and cons regardless of one's overall position helps avoid unintentional harm and make more inclusive decisions. (Note: this scenario is easy to mistake for multi-factor thinking; the intended answer is gray thinking, because the core challenge is weighing good against bad.)
 - *An entrepreneur planning a new venture* full of unknowns, who wants to avoid certainty and instead weigh how likely different outcomes are, is best served by **probabilistic thinking**.
 - *A college admissions officer* wanting to look at each applicant holistically across many facets, rather than filtering solely by GPA or test score, is best served by **multi-factor thinking**.
-++}
