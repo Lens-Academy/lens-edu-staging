@@ -30,19 +30,18 @@ source:: [[../Learning Outcomes/Learning Outcome Demo|Demo learning outcome]]
 
 %% Please look inside the above file before continuing. %%
 
-
-%% A module can contain as many learning outcomes and lenses as you want.
-
-Now that we know the structure of a module, lets actually look inside of a learning outcome file:
-%%
+%% The learning outcome above suggested 
+## Lens:
+source:: [[../Lenses/Dummy lens 3]]
 
 
 
+%% A module can contain as many learning outcomes and lenses as you want. 
+
+Each learning outcome shows to the user as one test page, and each lens shows to the user as one content page. %%
 
 %% Now that we have a feel for how modules and learning outcomes work, let's have a look at what's possible inside of lenses. Look at the following Lens. %%
 
-## Lens:
-source:: [[../Lenses/Dummy lens 3]]
 # Lens:
 source:: [[../Lenses/Article excerpt demo]]
 
