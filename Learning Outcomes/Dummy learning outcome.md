@@ -8,5 +8,8 @@ tags:
 
 %% This is an intentionally empty dummy learning outcome. It points at a dummy lens so the learning outcome stays structurally valid while still signaling that there is nothing interesting to inspect here. %%
 
+
+
+# Suggested Lenses
 ## Lens:
 source:: [[../Lenses/Dummy lens 2]]
