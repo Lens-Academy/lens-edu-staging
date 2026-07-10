@@ -22,4 +22,4 @@ max-chars:: 500
 # Suggsted Lenses:
 ## Lens:
 source:: [[../Lenses/Dummy lens 3]]
-notes:: These are internal notes about how the Lens pertains to this learning outcom, e.g. to help decide whether this lens is a good fit for the module the course developer is currently 
+notes:: These are internal notes about how the Lens pertains to this learning outcome, e.g. to help decide whether this lens is a good fit for the module the course developer is creating.
