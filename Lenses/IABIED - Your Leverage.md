@@ -11,7 +11,7 @@ tags:
 #### Text
 content::
 \## From argument to action
-You've just read the book's darkest stretch. The authors' point isn't despair. It's that this is worth acting on while acting still matters. Over the coming weeks you'll sketch a personal action plan. Today is the raw material: two short exercises with the Coach.
+You've just read the book's darkest stretch. The authors' point isn't despair. It's that this is worth acting on while acting still matters. Over the coming weeks you'll sketch a personal action plan. Today is the raw material: {--{"author":"Elias's AI","timestamp":1783685430850}@@two--}{++{"author":"Elias's AI","timestamp":1783685430850}@@three++} short exercises with the Coach.
 
 ---
 
