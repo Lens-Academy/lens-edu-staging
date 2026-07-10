@@ -716,7 +716,7 @@ Options:
 - I'd feel more pressure to mimic out of concern that I was ignorant of some crucial fact
 - I don't think I'd turn around with the group
 
-## Polarization
+## {++{"author":"Luc's AI","timestamp":1783702375590}@@Group ++}Polarization
 
 ### What is Group Polarization?
 
@@ -1006,7 +1006,7 @@ Options:
 - Avoiding irrational impression management behaviors
 - Getting clear on your values and setting goals for yourself that align with them
 
-### Optional emailed report
+{--{"author":"Luc's AI","timestamp":1783702376591}@@###--}{++{"author":"Luc's AI","timestamp":1783702376591}@@##++} Optional emailed report
 
 This is **completely optional** but, if you choose, you can have your personal report emailed to you. Either way, you can view your report in your browser in the next couple of pages.
 
@@ -1022,9 +1022,9 @@ Click here to view your results and report.
 
 *For more tools, tests, and teachings to help you change your habits, make better decisions, and achieve your goals, check out our new exercises on* [ClearerThinking.org](https://www.clearerthinking.org/tools).
 
-### Thank you for using our tool!
+{--{"author":"Luc's AI","timestamp":1783702378093}@@###--}{++{"author":"Luc's AI","timestamp":1783702378093}@@##++} Thank you for using our tool!
 
-### Credits
+{--{"author":"Luc's AI","timestamp":1783702378829}@@###--}{++{"author":"Luc's AI","timestamp":1783702378829}@@##++} Credits
 
 **Program created by**:
 Travis Manuel and [Spencer Greenberg](http://www.spencergreenberg.com)
