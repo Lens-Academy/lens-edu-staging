@@ -8,7 +8,9 @@ authors:
 tags:
   - lens
   - IABIED
----
+{++{"author":"Luc's AI","timestamp":1783723064919}@@add_to_ai_context:
+  - "[[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]"
+++}---
 #### Question
 content:: Before reading Chapter 5, section 2: Most people picture dangerous AI as something that *hates* humans or wants to destroy us. But is hatred or malice actually necessary for something to be a mortal threat? Think of a real example (from history, nature, or everyday life) where something caused devastating harm without any hostility at all. What made it dangerous if not malice? Write down your thinking before you read.
 

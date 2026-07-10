@@ -10,10 +10,15 @@ tags:
 
 ## Test:
 
-## Lens:
-optional:: false
-source:: [[../Lenses/Lens Template|Lens Template]]
+{--{"author":"Luc's AI","timestamp":1783722981874}@@## Lens:--}{++{"author":"Luc's AI","timestamp":1783722981874}@@# Suggested Lenses:++}
+{--{"author":"Luc's AI","timestamp":1783722981874}@@optional:: false--}{++{"author":"Luc's AI","timestamp":1783722981874}@@## Lens:++}
+source:: [[../Lenses/Lens Template|Lens Template]]{--{"author":"Luc's AI","timestamp":1783722981874}@@
 
-## Lens:
-optional:: true
-source:: [[../Lenses/Lens Template|Lens Template]]
+--}{++{"author":"Luc's AI","timestamp":1783722981874}@@
+notes:: 
+
+++}## Lens:{--{"author":"Luc's AI","timestamp":1783722981874}@@
+optional:: true--}
+source:: [[../Lenses/Lens Template|Lens Template]]{++{"author":"Luc's AI","timestamp":1783722981874}@@
+notes:: 
+++}

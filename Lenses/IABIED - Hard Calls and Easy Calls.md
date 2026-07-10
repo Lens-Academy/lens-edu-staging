@@ -8,7 +8,9 @@ authors:
 tags:
   - lens
   - IABIED
----
+{++{"author":"Luc's AI","timestamp":1783722951670}@@add_to_ai_context:
+  - "[[../../Lens Edu Private/IABIED Book Content/00 - Introduction - Hard Calls and Easy Calls]]"
+++}---
 #### Text
 content::
 \## Reading Assignment

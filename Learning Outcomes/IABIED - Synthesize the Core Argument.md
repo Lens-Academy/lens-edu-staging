@@ -7,6 +7,8 @@ tags:
   - work-in-progress
 ---
 
-## Test:
+## Test:{++{"author":"Luc's AI","timestamp":1783722963364}@@
+
+# Suggested Lenses:++}
 ## Lens: Synthesize the Core Argument
 source:: [[../Lenses/IABIED - QA - Warning Shots]]

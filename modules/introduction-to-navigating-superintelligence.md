@@ -21,8 +21,12 @@ source:: [[../Lenses/Risks from power-seeking AI]]
 # Lens:
 optional:: true
 source:: [[../Lenses/AI Chronicles - Torchbearer]]
-%%
-# Learning Outcome:
+%%{++{"author":"Luc's AI","timestamp":1783723077913}@@
+
+# Lens:++}
+{++{"author":"Luc's AI","timestamp":1783723077913}@@source:: ![[../Lenses/10 reasons]]
+
+++}# Learning Outcome:
 source:: [[../Learning Outcomes/Objections L1 - Realize objections and rebuttals exist]]
 
 # Lens:

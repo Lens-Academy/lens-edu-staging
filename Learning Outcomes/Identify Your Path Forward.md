@@ -9,10 +9,11 @@ tags:
 
 ## Test:
 
-## Lens:
-optional:: true
-source:: ![[../Lenses/IABIED - AI Safety Career Paths]]
+{--{"author":"Luc's AI","timestamp":1783722917592}@@## Lens:--}{++{"author":"Luc's AI","timestamp":1783722917592}@@
+# Suggested Lenses:++}
+{--{"author":"Luc's AI","timestamp":1783722917592}@@optional:: true--}{++{"author":"Luc's AI","timestamp":1783722917592}@@## Lens:++}
+source:: {--{"author":"Luc's AI","timestamp":1783722917592}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722917592}@@[[../Lenses/IABIED++} - AI Safety Career Paths]]
 
 ## Lens:
-optional:: true
-source:: ![[../Lenses/IABIED - Next Steps with Lens Academy]]
+{--{"author":"Luc's AI","timestamp":1783722917592}@@optional:: true
+--}source:: {--{"author":"Luc's AI","timestamp":1783722917592}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722917592}@@[[../Lenses/IABIED++} - Next Steps with Lens Academy]]

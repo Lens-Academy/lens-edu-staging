@@ -8,7 +8,9 @@ authors:
 tags:
   - lens
   - IABIED
----
+{++{"author":"Luc's AI","timestamp":1783723017149}@@add_to_ai_context:
+  - "[[../../Lens Edu Private/IABIED Book Content/03 - Chapter 3 - Learning to Want]]"
+++}---
 #### Text
 content::
 \## Reading Assignment

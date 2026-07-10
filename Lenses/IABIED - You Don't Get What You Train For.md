@@ -8,7 +8,9 @@ authors:
 tags:
   - lens
   - IABIED
----
+{++{"author":"Luc's AI","timestamp":1783723020064}@@add_to_ai_context:
+  - "[[../../Lens Edu Private/IABIED Book Content/04 - Chapter 4 - You Don't Get What You Train For]]"
+++}---
 
 #### Text
 content::

@@ -28,10 +28,15 @@ Score according to the following rubric.
 
 **4**: As above, plus explains the individual-rationality/collective-tragedy structure: each actor's decision to continue is locally rational given the competitive context, but the aggregate of locally rational decisions produces a catastrophic collective outcome, making this a structural problem that no individual can solve. *Example: Adds "The key insight is that each actor has individually rational reasons to keep going: unilateral stopping is unilateral disarmament. This isn't irrationality or malice: it's a situation where individually sensible choices aggregate into collective death. No single actor can fix it alone, which is why the chapter sets up the treaty argument in Chapter 13."*
 
-**5**: As above, plus connects to the CERN comparison the chapter uses to close: CERN spent 10 years calculating whether the LHC could destroy the Earth before proceeding, which illustrates what appropriate epistemic caution under existential uncertainty looks like. The contrast reveals that AI development has no equivalent pause-and-calculate mechanism. *Example: Adds "The CERN comparison clarifies the counterfactual. Physicists delayed the LHC a decade while they verified it couldn't destroy the world. That's the appropriate model for proceeding under existential uncertainty: pause and calculate until you can show it's safe. AI development has no equivalent process: there's no coordinated threshold, no verification requirement, no pause mechanism. The ladder keeps climbing because the competitive structure provides nothing to stop it."*
+**5**: As above, plus connects to the CERN comparison the chapter uses to close: CERN spent 10 years calculating whether the LHC could destroy the Earth before proceeding, which illustrates what appropriate epistemic caution under existential uncertainty looks like. The contrast reveals that AI development has no equivalent pause-and-calculate mechanism. *Example: Adds "The CERN comparison clarifies the counterfactual. Physicists delayed the LHC a decade while they verified it couldn't destroy the world. That's the appropriate model for proceeding under existential uncertainty: pause and calculate until you can show it's safe. AI development has no equivalent process: there's no coordinated threshold, no verification requirement, no pause mechanism. The ladder keeps climbing because the competitive structure provides nothing to stop it."*{--{"author":"Luc's AI","timestamp":1783722957394}@@
 
-## Lens:
+--}{++{"author":"Luc's AI","timestamp":1783722957394}@@
+
+
+# Suggested Lenses:
+++}## Lens:
 source:: [[../Lenses/IABIED - Ladder in the Dark - PQ]]
 
 ## Lens:
-source:: [[../Lenses/IABIED - Ladder in the Dark]]
+source:: [[../Lenses/IABIED - Ladder in the Dark]]{++{"author":"Luc's AI","timestamp":1783722968518}@@
+++}

@@ -27,10 +27,15 @@ Score according to the following rubric.
 
 **4** — As above, plus identifies the specific motivational claim: that human beings sometimes do things they don't usually do when they understand their freedom or survival is at stake, and that this is the chapter's basis for hope rather than mere optimism. *Example: Adds "The chapter's key assumption is that 'human beings sometimes do things they don't usually do, if they realize their freedom or their way of life is at stake.' This moves the political-impossibility objection from a factual claim to a claim about motivation, and WWII is the historical counterexample."*
 
-**5** — As above, plus connects the analogy's argumentative function to the chapter's arc: it converts impossibility from a factual claim to a motivational claim and answers it with historical precedent, while explicitly acknowledging the proposed action is not easy or cheap. *Example: Adds "The WWII analogy does specific work: it shifts 'this can't happen' to 'this requires people to care enough,' then shows it has happened before. The chapter explicitly says what it's proposing is not easy or cheap. The analogy doesn't deny the difficulty; it rebuts the claim that difficulty makes coordination impossible."*
+**5** — As above, plus connects the analogy's argumentative function to the chapter's arc: it converts impossibility from a factual claim to a motivational claim and answers it with historical precedent, while explicitly acknowledging the proposed action is not easy or cheap. *Example: Adds "The WWII analogy does specific work: it shifts 'this can't happen' to 'this requires people to care enough,' then shows it has happened before. The chapter explicitly says what it's proposing is not easy or cheap. The analogy doesn't deny the difficulty; it rebuts the claim that difficulty makes coordination impossible."*{--{"author":"Luc's AI","timestamp":1783722926858}@@
 
-## Lens:
+--}{++{"author":"Luc's AI","timestamp":1783722926858}@@
+
+
+# Suggested Lenses:
+++}## Lens:
 source:: [[../Lenses/IABIED - The WWII Analogy - PQ]]
 
 ## Lens:
-source:: [[../Lenses/IABIED - The WWII Analogy]]
+source:: [[../Lenses/IABIED - The WWII Analogy]]{++{"author":"Luc's AI","timestamp":1783722933657}@@
+++}

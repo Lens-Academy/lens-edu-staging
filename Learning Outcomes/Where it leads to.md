@@ -7,18 +7,21 @@ tags:
 ---
 ## Test:
 
-## Lens:
-optional:: false
-source:: ![[../Lenses/1960, The Year The Singularity Was Cancelled]]
+{++{"author":"Luc's AI","timestamp":1783723000691}@@
+# Suggested Lenses:
+++}## Lens:{--{"author":"Luc's AI","timestamp":1783723000691}@@
+optional:: false--}
+source:: {--{"author":"Luc's AI","timestamp":1783723000691}@@![[../Lenses/1960,--}{++{"author":"Luc's AI","timestamp":1783723000691}@@[[../Lenses/1960,++} The Year The Singularity Was Cancelled]]
 
-## Lens:
-optional:: false
-source:: ![[../Lenses/Deadly By Default]]
+## Lens:{--{"author":"Luc's AI","timestamp":1783723000691}@@
+optional:: false--}
+source:: {--{"author":"Luc's AI","timestamp":1783723000691}@@![[../Lenses/Deadly--}{++{"author":"Luc's AI","timestamp":1783723000691}@@[[../Lenses/Deadly++} By Default]]
 
-## Lens:
-optional:: false
-source:: ![[../Lenses/Machines Of Loving Grace]]
+## Lens:{--{"author":"Luc's AI","timestamp":1783723000691}@@
+optional:: false--}
+source:: {--{"author":"Luc's AI","timestamp":1783723000691}@@![[../Lenses/Machines--}{++{"author":"Luc's AI","timestamp":1783723000691}@@[[../Lenses/Machines++} Of Loving Grace]]
 
-## Lens:
-optional:: false
-source:: ![[../Lenses/The Artificial Intelligence That Deleted A Century]]
+## Lens:{--{"author":"Luc's AI","timestamp":1783723000691}@@
+optional:: false--}
+source:: {--{"author":"Luc's AI","timestamp":1783723000691}@@![[../Lenses/The--}{++{"author":"Luc's AI","timestamp":1783723000691}@@[[../Lenses/The++} Artificial Intelligence That Deleted A Century]]{++{"author":"Luc's AI","timestamp":1783723000691}@@
+++}

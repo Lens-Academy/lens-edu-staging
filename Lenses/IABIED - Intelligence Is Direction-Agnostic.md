@@ -8,7 +8,9 @@ authors:
 tags:
   - lens
   - IABIED
----
+{++{"author":"Luc's AI","timestamp":1783723036965}@@add_to_ai_context:
+  - "[[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]"
+++}---
 #### Text
 content::
 \## Reading Assignment

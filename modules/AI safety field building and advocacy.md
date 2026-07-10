@@ -18,14 +18,42 @@ Most of AI safety is *object-level* work — alignment, evaluations, policy. Thi
 
 The module is deliberately two-sided: it pairs the case *for* public advocacy (Elmore) with the case *against* a broad movement (Leicht), and grounds both in the field's own diagnosed mistakes and in social-movement research. The goal is not a verdict but the ability to reason about these strategies well.
 
-# Learning Outcome:
-source:: [[../Learning Outcomes/Explain the case for AI safety field-building]]
+# {++{"author":"Luc's AI","timestamp":1783723083191}@@Lens:
+source:: [[../Lenses/The case for AI safety field-building]]
+
+# Lens:
+source:: [[../Lenses/What AI safety field-builders do]]
+
+# ++}Learning Outcome:
+source:: [[../Learning Outcomes/Explain the case for AI safety field-building]]{++{"author":"Luc's AI","timestamp":1783723083191}@@
+
+# Lens:
+source:: [[../Lenses/AI safety talent needs in 2026]]
+
+# Lens:
+source:: [[../Lenses/Courses as field-building]]++}
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Compare AI safety field-building strategies]]
 
-# Learning Outcome:
+# {++{"author":"Luc's AI","timestamp":1783723090889}@@Lens:
+source:: [[../Lenses/The case for public AI safety advocacy]]
+
+# Lens:
+source:: [[../Lenses/AI safety communications strategy]]
+
+# ++}Learning Outcome:
 source:: [[../Learning Outcomes/Assess AI safety advocacy and public communication]]
 
-# Learning Outcome:
+# {++{"author":"Luc's AI","timestamp":1783723098058}@@Lens:
+source:: [[../Lenses/Mistakes the AI safety movement has made]]
+
+# Lens:
+source:: [[../Lenses/Don't build an AI safety movement]]
+
+# Lens:
+optional:: true
+source:: [[../Lenses/Mapping the AI safety movement]]
+
+# ++}Learning Outcome:
 source:: [[../Learning Outcomes/Evaluate the case against a broad AI safety movement]]

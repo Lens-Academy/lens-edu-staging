@@ -8,7 +8,9 @@ authors:
 tags:
   - lens
   - IABIED
----
+{++{"author":"Luc's AI","timestamp":1783723050435}@@add_to_ai_context:
+  - "[[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 - We'd Lose]]"
+++}---
 #### Question
 content:: Before reading Chapter 6, section 2: Pick a piece of modern technology: a smartphone, a microwave, a GPS. Could you explain to a smart, curious person from 500 years ago *why* it works, in terms they could understand? Not just what it does, but the underlying physics or principles that make it possible? What would it feel like to be that person, encountering technology built from rules of reality they don't even know exist? Write down your thinking before you read.
 

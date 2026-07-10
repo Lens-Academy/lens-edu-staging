@@ -17,14 +17,27 @@ content::
 source:: ![[../Lenses/EA Intro - Radical Empathy Introduction]]
 
 # Submodule: Impartiality and radical empathy
-# Learning Outcome: EA Intro - Explain Impartiality and Radical Empathy
-source:: ![[../Learning Outcomes/EA Intro - Explain Impartiality and Radical Empathy]]
+{++{"author":"Luc's AI","timestamp":1783723156131}@@
+++}# {++{"author":"Luc's AI","timestamp":1783723156131}@@Lens:
+source:: ![[../Lenses/EA Intro - Radical Empathy (Karnofsky)]]
+
+# ++}Learning Outcome: EA Intro - Explain Impartiality and Radical Empathy
+source:: ![[../Learning Outcomes/EA Intro - Explain Impartiality and Radical Empathy]]{++{"author":"Luc's AI","timestamp":1783723156131}@@
+
+# Lens:
+source:: ![[../Lenses/EA Intro - Moral Progress and Cause X]]++}
 
 # Learning Outcome: EA Intro - Describe Moral Progress and Cause X
 source:: ![[../Learning Outcomes/EA Intro - Describe Moral Progress and Cause X]]
 
-# Learning Outcome: EA Intro - Evaluate the Possibility of Ongoing Moral Catastrophes
-source:: ![[../Learning Outcomes/EA Intro - Evaluate the Possibility of Ongoing Moral Catastrophes]]
+# {++{"author":"Luc's AI","timestamp":1783723162880}@@Lens:
+source:: ![[../Lenses/EA Intro - The Possibility of Ongoing Moral Catastrophe]]
+
+# ++}Learning Outcome: EA Intro - Evaluate the Possibility of Ongoing Moral Catastrophes
+source:: ![[../Learning Outcomes/EA Intro - Evaluate the Possibility of Ongoing Moral Catastrophes]]{++{"author":"Luc's AI","timestamp":1783723162880}@@
+
+# Lens:
+source:: ![[../Lenses/EA Intro - On Fringe Ideas]]++}
 
 # Learning Outcome: EA Intro - Apply the Case for Animal Moral Consideration
 source:: ![[../Learning Outcomes/EA Intro - Apply the Case for Animal Moral Consideration]]

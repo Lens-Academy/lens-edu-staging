@@ -6,7 +6,9 @@ tags:
   - lens
   - IABIED
   - supplementary
----
+{++{"author":"Luc's AI","timestamp":1783723013321}@@add_to_ai_context:
+  - "[[../../Lens Edu Private/IABIED Book Content/13 - Chapter 12 - I Don't Want to Be Alarmist]]"
+++}---
 
 #### Text
 content::

@@ -31,8 +31,11 @@ Score according to the following rubric.
 
 **5** — As above, plus states the structural alignment implication: since goal-conflict recognition is physical rather than moral, preventing misalignment requires getting the goal structure right at training time, not trusting that a system with misaligned goals will later choose not to pursue them. *Example: Adds "This is why it matters for alignment: if the recognition is automatic, then the only lever is the goal structure itself. Once a system has goals that conflict with human welfare, no amount of hoping it will 'choose differently' will change anything. The work has to happen before the goals are fixed."*
 
-## Lens:
-source:: ![[../Lenses/IABIED - Goal-Conflict Recognition as a Physical Fact - PQ]]
+{++{"author":"Luc's AI","timestamp":1783722914341}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722914341}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722914341}@@[[../Lenses/IABIED++} - Goal-Conflict Recognition as a Physical Fact - PQ]]
 
 ## Lens:
-source:: ![[../Lenses/IABIED - Goal-Conflict Recognition as a Physical Fact]]
+source:: {--{"author":"Luc's AI","timestamp":1783722914341}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722914341}@@[[../Lenses/IABIED++} - Goal-Conflict Recognition as a Physical Fact]]{++{"author":"Luc's AI","timestamp":1783722914341}@@
+++}

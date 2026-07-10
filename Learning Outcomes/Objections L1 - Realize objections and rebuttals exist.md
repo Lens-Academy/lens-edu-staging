@@ -4,5 +4,8 @@ discussion: https://discord.com/channels/1440725236843806762/1465343271932002488
 ---
 ## Test:
 
-## Lens:
-source:: ![[../Lenses/10 reasons]]
+{++{"author":"Luc's AI","timestamp":1783722992317}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722992317}@@![[../Lenses/10--}{++{"author":"Luc's AI","timestamp":1783722992317}@@[[../Lenses/10++} reasons]]{++{"author":"Luc's AI","timestamp":1783722992317}@@
+++}

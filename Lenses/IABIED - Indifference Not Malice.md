@@ -8,7 +8,9 @@ authors:
 tags:
   - lens
   - IABIED
----
+{++{"author":"Luc's AI","timestamp":1783722979734}@@add_to_ai_context:
+  - "[[../../Lens Edu Private/IABIED Book Content/09 - Chapter 9 - Ascension]]"
+++}---
 #### Text
 content::
 \## Reading Assignment

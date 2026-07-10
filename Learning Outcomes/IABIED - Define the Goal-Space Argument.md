@@ -32,8 +32,11 @@ Score according to the following rubric.
 
 **5** — As above, plus connects the goal-space argument to the chapter's broader stakes: this is why the problem is so hard: it's not that we need to prevent AI from choosing bad goals, but that human-compatible goals are a needle in an astronomical haystack, and there's no known method to aim for that needle. *Example: Adds "This is what makes alignment so difficult. It's not about preventing a malicious AI: it's that building an AI whose goals happen to include human flourishing requires hitting an incredibly specific target in an enormous space, and we don't yet know how to aim. The default outcome isn't hostility; it's indifference."*
 
-## Lens:
-source:: ![[../Lenses/IABIED - Define the Goal-Space Argument - PQ]]
+{++{"author":"Luc's AI","timestamp":1783722897919}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722897919}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722897919}@@[[../Lenses/IABIED++} - Define the Goal-Space Argument - PQ]]
 
 ## Lens:
-source:: ![[../Lenses/IABIED - Define the Goal-Space Argument]]
+source:: {--{"author":"Luc's AI","timestamp":1783722897919}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722897919}@@[[../Lenses/IABIED++} - Define the Goal-Space Argument]]{++{"author":"Luc's AI","timestamp":1783722897919}@@
+++}

@@ -7,6 +7,9 @@ tags:
 ---
 ## Test:
 
-## Lens:
-optional:: false
-source:: ![[../Lenses/Speed advantage with slow motion videos]]
+{++{"author":"Luc's AI","timestamp":1783722984862}@@
+# Suggested Lenses:
+++}## Lens:
+{--{"author":"Luc's AI","timestamp":1783722984862}@@optional:: false
+--}source:: {--{"author":"Luc's AI","timestamp":1783722984862}@@![[../Lenses/Speed--}{++{"author":"Luc's AI","timestamp":1783722984862}@@[[../Lenses/Speed++} advantage with slow motion videos]]{++{"author":"Luc's AI","timestamp":1783722984862}@@
+++}

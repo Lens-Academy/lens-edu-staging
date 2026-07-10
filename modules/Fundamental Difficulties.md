@@ -28,35 +28,63 @@ Why do “alignment is hard” arguments feel alien to human intuition, and whic
 * How can coordination failures and competitive pressure drive unsafe outcomes even when individuals prefer safety, and how does this relate, or not, to instrumental convergence?
 
 
-# Learning Outcome:
+# {++{"author":"Luc's AI","timestamp":1783723063486}@@Lens:
+optional:: true
+source:: [[../Lenses/Eliezer Yudkowsky – AI Alignment- Why It's Hard, and Where to Start]]
+
+# ++}Learning Outcome:
 optional:: true
 source:: [[../Learning Outcomes/Explain the fundamental difficulties of AI alignment]]
 
-# Learning Outcome:
+{++{"author":"Luc's AI","timestamp":1783723070695}@@# Lens:
+source:: [[../Lenses/6 reasons why it's not intuitive that alignment is hard]]
+
+++}# Learning Outcome:
 optional:: false
 source:: [[../Learning Outcomes/Explain why alignment feels counterintuitive]]
 
-# Learning Outcome:
+# {++{"author":"Luc's AI","timestamp":1783723077884}@@Lens:
+optional:: true
+source:: [[../Lenses/When should we worry about AI power-seeking]]
+
+# ++}Learning Outcome:
 optional:: true
 source:: [[../Learning Outcomes/Explain the emergence of powerseeking]]
 
-# Learning Outcome:
+{++{"author":"Luc's AI","timestamp":1783723084360}@@# Lens:
+source:: [[../Lenses/Sharp left turn]]
+
+++}# Learning Outcome:
 optional:: false
 source:: [[../Learning Outcomes/Explain sharp left turn dynamics]]
 
-# Learning Outcome:
+# {++{"author":"Luc's AI","timestamp":1783723091235}@@Lens:
+source:: [[../Lenses/Discovering when an agent is present in a system]]
+
+# ++}Learning Outcome:
 optional:: false
 source:: [[../Learning Outcomes/Explain causal definition of agency]]
 
-# Learning Outcome:
+{++{"author":"Luc's AI","timestamp":1783723096479}@@# Lens:
+optional:: true
+source:: [[../Lenses/Pythia by plex]]
+
+++}# Learning Outcome:
 optional:: true
 source:: [[../Learning Outcomes/Explain how agency can emerge from advanced prediction]]
 
-# Learning Outcome:
+# {++{"author":"Luc's AI","timestamp":1783723103039}@@Lens:
+optional:: true
+source:: [[../Lenses/Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AIst outcomes]]
+
+# ++}Learning Outcome:
 optional:: false
 source:: [[../Learning Outcomes/Explain why default outcome is bad]]
 
-# Learning Outcome:
+{++{"author":"Luc's AI","timestamp":1783723109239}@@# Lens:
+source:: [[../Lenses/Meditations on Moloch]]
+
+++}# Learning Outcome:
 optional:: false
 source:: [[../Learning Outcomes/Explain a coordination failure driven by multipolar incentives]]
 
