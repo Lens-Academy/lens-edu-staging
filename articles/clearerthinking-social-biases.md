@@ -138,7 +138,7 @@ That's correct! Nice work figuring that out.
 
 That's not correct. The errors do not appear to have been due to groupthink, as there was no evidence of things like cohesive pressure to conform or suppression of dissenting opinions in the decision-making process.
 
-### CASE 2: The Challenger Disaster
+{--{"author":"Luc's AI","timestamp":1783702221233}@@###--}{++{"author":"Luc's AI","timestamp":1783702221233}@@####++} CASE 2: The Challenger Disaster
 
 Faulty O-rings lead to a leak in the space shuttle Challenger's boosters, which resulted in the space shuttle exploding. All 7 crew members died. This was NASA's first experience of in-flight death.
 
@@ -166,7 +166,7 @@ The WHO response to covid-19 was not an example of groupthink.
 
 The Challenger disaster is often used as an example of groupthink.
 
-### How to prevent groupthink
+{--{"author":"Luc's AI","timestamp":1783702222142}@@###--}{++{"author":"Luc's AI","timestamp":1783702222142}@@####++} How to prevent groupthink
 
 You could just appoint one person in a group to make all decisions. But, most of the time, that won’t be a good solution at all! It might feel unfair or authoritarian, and while it technically avoids groupthink, it presents other challenges - like whether that individual will properly represent the interests of the group.
 
