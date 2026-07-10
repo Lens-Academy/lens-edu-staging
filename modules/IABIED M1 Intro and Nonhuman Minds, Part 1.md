@@ -73,11 +73,24 @@ source:: ![[../Lenses/IABIED - Intelligence Is Direction-Agnostic]]
 # ++}Learning Outcome: IABIED - Intelligence Is Direction-Agnostic
 source:: ![[../Learning Outcomes/Explain Intelligence Is Direction-Agnostic]]
 
-# Submodule: Ch2 - Grown, not crafted
-# Learning Outcome: IABIED - AI Is Grown, Not Crafted
+# Submodule: Ch2 - Grown, not crafted{++{"author":"Luc's AI","timestamp":1783723317001}@@
+
+# Lens:
+source:: ![[../Lenses/IABIED - AI Is Grown, Not Crafted - PQ]]
+
+# Lens:++}
+{++{"author":"Luc's AI","timestamp":1783723317001}@@source:: ![[../Lenses/IABIED - AI Is Grown, Not Crafted]]
+
+++}# Learning Outcome: IABIED - AI Is Grown, Not Crafted
 source:: ![[../Learning Outcomes/Explain AI Is Grown, Not Crafted]]
 
-# Learning Outcome: IABIED - Behavior Is Not Values
+# {++{"author":"Luc's AI","timestamp":1783723324208}@@Lens:
+source:: ![[../Lenses/IABIED - Behavior Is Not Values - PQ]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - Behavior Is Not Values]]
+
+# ++}Learning Outcome: IABIED - Behavior Is Not Values
 source:: ![[../Learning Outcomes/Distinguish Behavior from Values]]
 
 # Submodule: Dive Deeper

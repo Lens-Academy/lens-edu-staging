@@ -31,7 +31,74 @@ In this module, we will focus on 5 directions. The list is deliberately incomple
 
 [^1]: Readers who have a better map, particularly for teaching purposes, are strongly encouraged to author an alternative version of this module. 
 
-# Learning Outcome:
+# {++{"author":"Luc's AI","timestamp":1783723389084}@@Submodule: Automating Alignment
+## Lens: (Automating alignment)
+source:: [[../Lenses/Automating Alignment]]
+
+## Lens:
+source:: [[../Lenses/AI for AI safety]]
+
+## Lens:
+source:: [[../Lenses/Carefully Bootstrapped Alignment Is Organizationally Hard]]
+
+# Submodule: Mechanistic Interpretability
+## Lens:
+source:: [[../Lenses/Mechanistic Interpretability]]
+
+## Lens:
+source:: [[../Lenses/Introduction to Mechanistic Interpretability]]
+
+## Lens:
+source:: [[../Lenses/MI for AGI Safety]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/Interpretability Will Not Reliably Find Deceptive AI]]
+
+# Submodule: Evals
+## Lens:
+source:: [[../Lenses/AI Evaluations]]
+
+## Lens:
+source:: [[../Lenses/A starter guide for evals]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/We Need A Science of Evals]]
+
+## Lens:
+source:: [[../Lenses/What AI evaluations for preventing catastrophic risks can and cannot do]]
+
+# Submodule: Control
+## Lens:
+source:: [[../Lenses/AI Control]]
+
+## Lens:
+source:: [[../Lenses/The case for ensuring that powerful AIs are controlled]]
+
+## Lens:
+source:: [[../Lenses/AI Control May Increase Existential Risk]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/The Case Against AI Control Research]]
+
+# Submodule: Agent Foundations
+## Lens:
+source:: [[../Lenses/Agent Foundations]]
+
+## Lens:
+source:: [[../Lenses/AF not really math not really science]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/Embedded agents]]
+
+## Lens:
+source:: [[../Lenses/Realism about rationality]]
+
+# Submodule: Test Your Understanding
+## ++}Learning Outcome:
 source:: [[../Learning Outcomes/Arguments for and against different agendas]]
 
 

@@ -16,14 +16,32 @@ content:: {>>TODO: add module welcome text (~51 min module)<<}
 # Lens: Putting It Into Practice Introduction
 source:: ![[../Lenses/EA Intro - Putting It Into Practice Introduction]]
 
-# Submodule: Attitudes to doing good
-# Learning Outcome: EA Intro - Identify Next Steps for EA Involvement
+# Submodule: Attitudes to doing good{++{"author":"Luc's AI","timestamp":1783723343147}@@
+
+# Lens:
+source:: ![[../Lenses/EA Intro - Call to Vigilance]]
+
+# Lens:++}
+{++{"author":"Luc's AI","timestamp":1783723343147}@@source:: ![[../Lenses/EA Intro - Effective Altruism as the Most Exciting Cause]]
+
+++}# Learning Outcome: EA Intro - Identify Next Steps for EA Involvement
 source:: ![[../Learning Outcomes/EA Intro - Identify Next Steps for EA Involvement]]
 
-# Submodule: Career choice
-# Learning Outcome: EA Intro - Apply EA Principles to Career Choice
+# Submodule: Career choice{++{"author":"Luc's AI","timestamp":1783723349780}@@
+
+# Lens:
+source:: ![[../Lenses/EA Intro - Summary of 80000 Hours Key Ideas]]
+
+# Lens:++}
+{++{"author":"Luc's AI","timestamp":1783723349780}@@source:: ![[../Lenses/EA Intro - Career Choice for Longtermists]]
+
+++}# Learning Outcome: EA Intro - Apply EA Principles to Career Choice
 source:: ![[../Learning Outcomes/EA Intro - Apply EA Principles to Career Choice]]
 
-# Submodule: Dealing with demandingness
-# Learning Outcome: EA Intro - Navigate Demandingness in EA
+# Submodule: Dealing with demandingness{++{"author":"Luc's AI","timestamp":1783723356289}@@
+
+# Lens:++}
+{++{"author":"Luc's AI","timestamp":1783723356289}@@source:: ![[../Lenses/EA Intro - You Have More Than One Goal]]
+
+++}# Learning Outcome: EA Intro - Navigate Demandingness in EA
 source:: ![[../Learning Outcomes/EA Intro - Navigate Demandingness in EA]]

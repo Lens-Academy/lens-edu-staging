@@ -39,12 +39,23 @@ source:: ![[../Learning Outcomes/EA Intro - Apply Bayes Rule to Update Beliefs]]
 source:: ![[../Learning Outcomes/EA Intro - Explain Independent Impressions]]
 
 # Submodule: Learning from mistakes
-# Learning Outcome: EA Intro - Identify Lessons from EA's Mistakes
-source:: ![[../Learning Outcomes/EA Intro - Identify Lessons from EA's Mistakes]]
+{++{"author":"Luc's AI","timestamp":1783723318520}@@
+++}# {++{"author":"Luc's AI","timestamp":1783723318520}@@Lens:
+source:: ![[../Lenses/EA Intro - Lessons for EA (Toby Ord EAG)]]
+
+# ++}Learning Outcome: EA Intro - Identify Lessons from EA's Mistakes
+source:: ![[../Learning Outcomes/EA Intro - Identify Lessons from EA's Mistakes]]{++{"author":"Luc's AI","timestamp":1783723318520}@@
+
+# Lens:
+source:: ![[../Lenses/EA Intro - EA Is About Maximization and Maximization Is Perilous]]++}
 
 # Learning Outcome: EA Intro - Explain Why Maximization Is Perilous
 source:: ![[../Learning Outcomes/EA Intro - Explain Why Maximization Is Perilous]]
 
-# Submodule: Less common causes
-# Learning Outcome: EA Intro - Enumerate Less Common Cause Candidates
+# Submodule: Less common causes{++{"author":"Luc's AI","timestamp":1783723326284}@@
+
+# Lens:++}
+{++{"author":"Luc's AI","timestamp":1783723326284}@@source:: ![[../Lenses/EA Intro - Big List of Cause Candidates]]
+
+++}# Learning Outcome: EA Intro - Enumerate Less Common Cause Candidates
 source:: ![[../Learning Outcomes/EA Intro - Enumerate Less Common Cause Candidates]]
