@@ -10,11 +10,13 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-## Lens:
-source:: ![[../Lenses/EA Intro - Giving 101 Guide]]
+{++{"author":"Luc's AI","timestamp":1783722710022}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722710022}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722710022}@@[[../Lenses/EA++} Intro - Giving 101 Guide]]
 
 ## Lens:
-source:: ![[../Lenses/EA Intro - Global Health]]
+source:: {--{"author":"Luc's AI","timestamp":1783722710022}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722710022}@@[[../Lenses/EA++} Intro - Global Health]]
 
 ## Lens:
-source:: ![[../Lenses/EA Intro - Introducing LEEP]]
+source:: {--{"author":"Luc's AI","timestamp":1783722710022}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722710022}@@[[../Lenses/EA++} Intro - Introducing LEEP]]

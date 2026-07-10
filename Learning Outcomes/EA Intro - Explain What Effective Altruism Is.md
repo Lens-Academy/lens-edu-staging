@@ -10,11 +10,13 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-## Lens:
-source:: ![[../Lenses/EA Intro - Introduction to Effective Altruism]]
+{++{"author":"Luc's AI","timestamp":1783722631212}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722631212}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722631212}@@[[../Lenses/EA++} Intro - Introduction to Effective Altruism]]
 
 ## Lens:
-source:: ![[../Lenses/EA Intro - Four Ideas You Already Agree With]]
+source:: {--{"author":"Luc's AI","timestamp":1783722631212}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722631212}@@[[../Lenses/EA++} Intro - Four Ideas You Already Agree With]]
 
 ## Lens:
-source:: ![[../Lenses/EA Intro - The World Is Much Better]]
+source:: {--{"author":"Luc's AI","timestamp":1783722631212}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722631212}@@[[../Lenses/EA++} Intro - The World Is Much Better]]

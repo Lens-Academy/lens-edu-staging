@@ -9,6 +9,7 @@ tags:
 
 ## Test:
 
-## Lens:
-optional:: true
-source:: ![[../Lenses/IABIED - QA - Won't It Choose to Be Moral]]
+{--{"author":"Luc's AI","timestamp":1783722639988}@@## Lens:--}{++{"author":"Luc's AI","timestamp":1783722639988}@@
+# Suggested Lenses:++}
+{--{"author":"Luc's AI","timestamp":1783722639988}@@optional:: true--}{++{"author":"Luc's AI","timestamp":1783722639988}@@## Lens:++}
+source:: {--{"author":"Luc's AI","timestamp":1783722639988}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722639988}@@[[../Lenses/IABIED++} - QA - Won't It Choose to Be Moral]]

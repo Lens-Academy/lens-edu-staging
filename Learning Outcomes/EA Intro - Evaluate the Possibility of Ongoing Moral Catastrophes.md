@@ -10,5 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-## Lens:
-source:: ![[../Lenses/EA Intro - The Possibility of Ongoing Moral Catastrophe]]
+{++{"author":"Luc's AI","timestamp":1783722607102}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722607102}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722607102}@@[[../Lenses/EA++} Intro - The Possibility of Ongoing Moral Catastrophe]]

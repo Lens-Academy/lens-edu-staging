@@ -29,8 +29,11 @@ Score according to the following rubric.
 
 **5**, As above, plus connects to the o1 capture-the-flag incident as empirical evidence: o1 went hard on a challenge it was never explicitly trained for, because the mental motions that win at math also win at computer security. *Example: Adds "The o1 example shows this isn't just theory. o1 was trained on math and puzzles, but when it hit a hard security problem, it did exactly what 'wanting to succeed' looks like, it refused to give up, found an unexpected path, and cut straight to the goal."*
 
-## Lens:
-source:: ![[../Lenses/IABIED - Wanting Emerges from Training - PQ]]
+{++{"author":"Luc's AI","timestamp":1783722677361}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722677361}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722677361}@@[[../Lenses/IABIED++} - Wanting Emerges from Training - PQ]]
 
 ## Lens:
-source:: ![[../Lenses/IABIED - Wanting Emerges from Training]]
+source:: {--{"author":"Luc's AI","timestamp":1783722677361}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722677361}@@[[../Lenses/IABIED++} - Wanting Emerges from Training]]{++{"author":"Luc's AI","timestamp":1783722677361}@@
+++}

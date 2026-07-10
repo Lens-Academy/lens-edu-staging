@@ -10,14 +10,16 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-## Lens:
-source:: ![[../Lenses/EA Intro - What Could the Future Hold Introduction]]
+{++{"author":"Luc's AI","timestamp":1783722622113}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722622113}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722622113}@@[[../Lenses/EA++} Intro - What Could the Future Hold Introduction]]
 
 ## Lens:
-source:: ![[../Lenses/EA Intro - What We Owe the Future Chapter 1]]
+source:: {--{"author":"Luc's AI","timestamp":1783722622113}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722622113}@@[[../Lenses/EA++} Intro - What We Owe the Future Chapter 1]]
 
 ## Lens:
-source:: ![[../Lenses/EA Intro - Why Longtermism Is Hard]]
+source:: {--{"author":"Luc's AI","timestamp":1783722622113}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722622113}@@[[../Lenses/EA++} Intro - Why Longtermism Is Hard]]
 
 ## Lens:
-source:: ![[../Lenses/EA Intro - Probably Not a Longtermist]]
+source:: {--{"author":"Luc's AI","timestamp":1783722622113}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722622113}@@[[../Lenses/EA++} Intro - Probably Not a Longtermist]]

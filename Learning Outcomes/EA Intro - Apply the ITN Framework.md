@@ -10,5 +10,8 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-## Lens:
-source:: [[../Lenses/wiblin-how-can-you-figure-out-which-global-problem-is-most-pressing]]
+{++{"author":"Luc's AI","timestamp":1783722607768}@@
+# Suggested Lenses:
+++}## Lens:
+source:: [[../Lenses/wiblin-how-can-you-figure-out-which-global-problem-is-most-pressing]]{++{"author":"Luc's AI","timestamp":1783722607768}@@
+++}

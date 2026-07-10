@@ -10,5 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-## Lens:
-source:: ![[../Lenses/EA Intro - Radical Empathy (Karnofsky)]]
+{++{"author":"Luc's AI","timestamp":1783722623077}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722623077}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722623077}@@[[../Lenses/EA++} Intro - Radical Empathy (Karnofsky)]]

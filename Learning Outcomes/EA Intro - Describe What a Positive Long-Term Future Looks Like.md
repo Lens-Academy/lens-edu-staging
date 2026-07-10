@@ -10,5 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-## Lens:
-source:: ![[../Lenses/EA Intro - Top Open Metaculus Forecasts]]
+{++{"author":"Luc's AI","timestamp":1783722657264}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722657264}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722657264}@@[[../Lenses/EA++} Intro - Top Open Metaculus Forecasts]]

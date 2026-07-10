@@ -27,5 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus identifies which signal is the easiest one to misread (e.g., camera off might just be a connectivity issue, not disengagement) and what they'd do to confirm before naming.
 
-## Lens:
-source:: ![[../Lenses/Facilitator - Reading the Room]]
+{++{"author":"Luc's AI","timestamp":1783722730452}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722730452}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722730452}@@[[../Lenses/Facilitator++} - Reading the Room]]

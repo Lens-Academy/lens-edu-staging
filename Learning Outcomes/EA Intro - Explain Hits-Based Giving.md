@@ -10,5 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-## Lens:
-source:: ![[../Lenses/EA Intro - Hits-Based Giving]]
+{++{"author":"Luc's AI","timestamp":1783722612538}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722612538}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722612538}@@[[../Lenses/EA++} Intro - Hits-Based Giving]]

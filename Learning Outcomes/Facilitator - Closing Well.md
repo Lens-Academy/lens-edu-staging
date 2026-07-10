@@ -27,5 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus articulates that for a multi-session cohort, the final session needs more weight: reflect across the arc (not just the last session), name the cohort specifically, set up the after-life.
 
-## Lens:
-source:: ![[../Lenses/Facilitator - Closing Well]]
+{++{"author":"Luc's AI","timestamp":1783722736349}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722736349}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722736349}@@[[../Lenses/Facilitator++} - Closing Well]]

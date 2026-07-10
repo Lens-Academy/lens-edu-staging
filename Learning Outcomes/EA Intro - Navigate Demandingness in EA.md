@@ -10,5 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-## Lens:
-source:: ![[../Lenses/EA Intro - You Have More Than One Goal]]
+{++{"author":"Luc's AI","timestamp":1783722638328}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722638328}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722638328}@@[[../Lenses/EA++} Intro - You Have More Than One Goal]]

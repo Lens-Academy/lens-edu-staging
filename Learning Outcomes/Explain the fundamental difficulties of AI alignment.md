@@ -8,6 +8,9 @@ tags:
 ---
 ## Test:
 
-## Lens:
-optional:: true
-source:: [[../Lenses/Eliezer Yudkowsky – AI Alignment- Why It's Hard, and Where to Start]]
+{++{"author":"Luc's AI","timestamp":1783722717987}@@
+# Suggested Lenses:
+++}## Lens:{--{"author":"Luc's AI","timestamp":1783722717987}@@
+optional:: true--}
+source:: [[../Lenses/Eliezer Yudkowsky – AI Alignment- Why It's Hard, and Where to Start]]{++{"author":"Luc's AI","timestamp":1783722717987}@@
+++}

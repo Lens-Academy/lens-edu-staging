@@ -7,6 +7,7 @@ tags:
 ---
 ## Test:
 
-## Lens:
-optional:: false
+{--{"author":"Luc's AI","timestamp":1783722721276}@@## Lens:--}{++{"author":"Luc's AI","timestamp":1783722721276}@@
+# Suggested Lenses:++}
+{--{"author":"Luc's AI","timestamp":1783722721276}@@optional:: false--}{++{"author":"Luc's AI","timestamp":1783722721276}@@## Lens:++}
 source:: [[../Lenses/Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AIst outcomes]]

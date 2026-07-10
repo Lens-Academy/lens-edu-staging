@@ -10,5 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-## Lens:
-source:: ![[../Lenses/EA Intro - Lessons for EA (Toby Ord EAG)]]
+{++{"author":"Luc's AI","timestamp":1783722629720}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722629720}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722629720}@@[[../Lenses/EA++} Intro - Lessons for EA (Toby Ord EAG)]]

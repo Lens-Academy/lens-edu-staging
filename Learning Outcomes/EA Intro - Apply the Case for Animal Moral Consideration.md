@@ -10,5 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-## Lens:
-source:: ![[../Lenses/EA Intro - On Fringe Ideas]]
+{++{"author":"Luc's AI","timestamp":1783722594608}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722594608}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722594608}@@[[../Lenses/EA++} Intro - On Fringe Ideas]]

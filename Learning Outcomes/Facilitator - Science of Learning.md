@@ -27,5 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus connects "worked examples → faded scaffolding" to the arc of a multi-week course: more facilitator structure in Week 1, less by Week 6.
 
-## Lens:
-source:: ![[../Lenses/Facilitator - Science of Learning]]
+{++{"author":"Luc's AI","timestamp":1783722732807}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722732807}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722732807}@@[[../Lenses/Facilitator++} - Science of Learning]]

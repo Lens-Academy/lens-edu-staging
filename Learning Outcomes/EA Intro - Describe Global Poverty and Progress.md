@@ -10,5 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-## Lens:
-source:: ![[../Lenses/EA Intro - Global Economic Inequality]]
+{++{"author":"Luc's AI","timestamp":1783722632480}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722632480}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722632480}@@[[../Lenses/EA++} Intro - Global Economic Inequality]]

@@ -10,8 +10,10 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-## Lens:
-source:: ![[../Lenses/EA Intro - Fermi Estimation]]
+{++{"author":"Luc's AI","timestamp":1783722735585}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722735585}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722735585}@@[[../Lenses/EA++} Intro - Fermi Estimation]]
 
 ## Lens:
-source:: ![[../Lenses/EA Intro - Seabirds Sea Mammals and Marine Plastic]]
+source:: {--{"author":"Luc's AI","timestamp":1783722735585}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722735585}@@[[../Lenses/EA++} Intro - Seabirds Sea Mammals and Marine Plastic]]

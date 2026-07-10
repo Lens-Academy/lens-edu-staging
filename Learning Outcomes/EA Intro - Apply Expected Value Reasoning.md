@@ -10,5 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-## Lens:
-source:: ![[../Lenses/EA Intro - Expected Value]]
+{++{"author":"Luc's AI","timestamp":1783722724304}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722724304}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722724304}@@[[../Lenses/EA++} Intro - Expected Value]]

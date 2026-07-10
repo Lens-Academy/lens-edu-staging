@@ -10,11 +10,13 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-## Lens:
-source:: ![[../Lenses/EA Intro - Scout Mindset (Julia Galef)]]
+{++{"author":"Luc's AI","timestamp":1783722685881}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722685881}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722685881}@@[[../Lenses/EA++} Intro - Scout Mindset (Julia Galef)]]
 
 ## Lens:
-source:: ![[../Lenses/EA Intro - What Cognitive Biases Feel Like From the Inside]]
+source:: {--{"author":"Luc's AI","timestamp":1783722685881}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722685881}@@[[../Lenses/EA++} Intro - What Cognitive Biases Feel Like From the Inside]]
 
 ## Lens:
-source:: ![[../Lenses/EA Intro - Purchase Fuzzies and Utilons Separately]]
+source:: {--{"author":"Luc's AI","timestamp":1783722685881}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722685881}@@[[../Lenses/EA++} Intro - Purchase Fuzzies and Utilons Separately]]
