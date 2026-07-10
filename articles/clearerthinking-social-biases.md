@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783697033587}@@---
+---
 title: "Social Biases: How Other People Can Make You Irrational"
 author:
   - "Clearer Thinking"
@@ -90,4 +90,3 @@ Research identifies common **impression-management mistakes** that tend to backf
 More broadly, the psychological literature catalogs many impression-management behaviors — ingratiation (flattery, agreement, deference), verbal self-description, taking credit for or downplaying successes and failures, association with people or groups, modifying physical appearance, conspicuous use of possessions, and even the food one eats — each aimed at reactions like liking, approval, belonging, status, and respect, and each capable of leading to irrationality.
 
 To avoid irrational impression management: (1) avoid the mistakes shown above (humblebragging, self-deprecation, paternalistic helping, hiding successes, backhanded compliments); and (2) since over-focusing on impression management pulls you out of step with your values (e.g., exaggerating achievements conflicts with honesty), get clear on your deepest values and set goals aligned with them.
-++}
