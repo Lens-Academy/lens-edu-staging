@@ -9,7 +9,7 @@ tags:
   - "interactive-tool"
 ---
 
-## How Other People Can Make You Irrational
+{--{"author":"Luc's AI","timestamp":1783702138484}@@##--}{++{"author":"Luc's AI","timestamp":1783702138484}@@#++} How Other People Can Make You Irrational
 
 As Charles Darwin [wrote, in 1871](https://www.darwinproject.ac.uk/learning/universities/darwin-and-human-nature/moral-nature#:~:text=Letter%207685%3A%20Darwin%20to%20Morley,John%2C%2014%20April%20%5B1871%5D&text=I%20do%20not%20think%20that,a%20non%2Dsocial%20animal.%22):
 
