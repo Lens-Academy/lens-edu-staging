@@ -9,7 +9,9 @@ tags:
   - lens
   - IABIED
   - optional
----
+{++{"author":"Luc's AI","timestamp":1783722929715}@@add_to_ai_context:
+  - "[[../../Lens Edu Private/IABIED Book Content/10 - Coda]]"
+++}---
 #### Question
 content::
 \## Optional Reflection: No New Reading Required

@@ -7,6 +7,9 @@ tags:
 ---
 ## Test:
 
-## Lens:
-optional:: false
-source:: [[../Lenses/Sharp left turn]]
+{++{"author":"Luc's AI","timestamp":1783722784715}@@
+# Suggested Lenses:
+++}## Lens:{--{"author":"Luc's AI","timestamp":1783722784715}@@
+optional:: false--}
+source:: [[../Lenses/Sharp left turn]]{++{"author":"Luc's AI","timestamp":1783722784715}@@
+++}

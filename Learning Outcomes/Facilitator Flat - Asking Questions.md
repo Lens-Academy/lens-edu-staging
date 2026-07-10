@@ -27,5 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus pre-commits to memorising 2-3 "workhorse" question patterns (pre-mortem, translate, disagreement, instance, threshold) and identifies which one fits their next session best.
 
-## Lens:
-source:: ![[../Lenses/Facilitator Flat - Asking Questions]]
+{++{"author":"Luc's AI","timestamp":1783722843989}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722843989}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722843989}@@[[../Lenses/Facilitator++} Flat - Asking Questions]]

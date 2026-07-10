@@ -27,5 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus identifies which "harder" item is the one they personally need to develop a workaround for first.
 
-## Lens:
-source:: ![[../Lenses/Facilitator Flat - Online Container]]
+{++{"author":"Luc's AI","timestamp":1783722806128}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722806128}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722806128}@@[[../Lenses/Facilitator++} Flat - Online Container]]

@@ -31,8 +31,11 @@ Score according to the following rubric.
 
 **5** — As above, plus connects to the cosmic frame: the alien civilizations know that "most of us didn't mean to waste all those stars; that our poor choices killed us too, and weren't deliberate or intentional" and nonetheless wish Earth had never existed. The absence of intent is not a mitigation; it is the argument. A goal structure that omits human welfare produces this outcome mechanically, and the goodness of the humans involved is irrelevant. *Example: Adds "The alien frame makes the final point: the thing that ate Earth wasn't evil, and the aliens know it. That's precisely why the loss is so complete: it wasn't a decision, it was a consequence. The argument isn't 'watch out for dangerous AI'; it's 'a goal structure that omits human welfare produces this outcome mechanically, regardless of anyone's intentions.'"*
 
-## Lens:
-source:: ![[../Lenses/IABIED - Indifference Not Malice - PQ]]
+{++{"author":"Luc's AI","timestamp":1783722852814}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722852814}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722852814}@@[[../Lenses/IABIED++} - Indifference Not Malice - PQ]]
 
 ## Lens:
-source:: ![[../Lenses/IABIED - Indifference Not Malice]]
+source:: {--{"author":"Luc's AI","timestamp":1783722852814}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722852814}@@[[../Lenses/IABIED++} - Indifference Not Malice]]{++{"author":"Luc's AI","timestamp":1783722852814}@@
+++}

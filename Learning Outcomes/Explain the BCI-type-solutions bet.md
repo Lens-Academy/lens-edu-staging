@@ -4,11 +4,11 @@ learning-outcome: Explain the theory of change behind BCI-type (human-side) AI s
 tags:
   - learning outcome
 ---
-## Lens:
+{--{"author":"Luc's AI","timestamp":1783722801773}@@## Lens:
 source:: [[../Lenses/BCI-type solutions - the landscape]]
 ## Lens:
 source:: [[../Lenses/Brain signals as feedback for AI]]
-## Test:
+--}## Test:
 id:: 152f865d-ecb9-4374-a959-d696c0039648
 #### Question
 feedback:: true
@@ -19,4 +19,11 @@ max-chars:: 600
 feedback:: true
 content:: Name at least four of the sub-threads within BCI-type solutions, and say which is the most tractable / nearest-term and why.
 assessment-instructions:: Sub-threads (any four): merge (high-bandwidth BCI coupling), cyborgism/symbiosis (software human-in-the-loop), cognitive enhancement (pharma/genetics/prosthetics), whole-brain emulation (uploading), and neural feedback / value-learning (brain signals as richer supervision data). Most tractable / nearest-term: either neural feedback (coarse EEG/affect signals need no merge or WBE) or cyborgism (software-only, live and testable now) — credit either with a good reason (no implants/uploading required; commercializable today). Award 4-5 for four sub-threads plus a justified most-tractable pick; 3 for four threads with weak justification; 1-2 for fewer than three. Accept paraphrase.
-max-chars:: 600
+max-chars:: 600{++{"author":"Luc's AI","timestamp":1783722814385}@@
+
+# Suggested Lenses:
+## Lens:
+source:: [[../Lenses/BCI-type solutions - the landscape]]
+
+## Lens:
+source:: [[../Lenses/Brain signals as feedback for AI]]++}

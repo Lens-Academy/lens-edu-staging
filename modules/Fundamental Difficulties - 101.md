@@ -21,7 +21,11 @@ Questions you will be able to answer after completing this module:
 * Why might misalignment and catastrophe be the default outcome of scaling current training methods, absent fundamental advances?
 * Which kinds of "fundamental advances" in alignment or AI theory would actually justify safe deployment, and what failure modes would they rule out?
 
-# Learning Outcome:
+# {++{"author":"Luc's AI","timestamp":1783723014814}@@Lens:
+optional:: true
+source:: [[../Lenses/Eliezer Yudkowsky – AI Alignment- Why It's Hard, and Where to Start]]
+
+# ++}Learning Outcome:
 optional:: false
 source:: [[../Learning Outcomes/Explain the fundamental difficulties of AI alignment]]
 

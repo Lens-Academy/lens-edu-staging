@@ -27,5 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus articulates the online-specific version (pair → 4-5 min breakout room of 2-3 people) and notes why this is one of the few moments Zoom's breakout-room feature genuinely earns its weight.
 
-## Lens:
-source:: ![[../Lenses/Facilitator Flat - Think-Pair-Share]]
+{++{"author":"Luc's AI","timestamp":1783722793426}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722793426}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722793426}@@[[../Lenses/Facilitator++} Flat - Think-Pair-Share]]

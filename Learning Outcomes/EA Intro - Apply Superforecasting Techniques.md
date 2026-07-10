@@ -10,5 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-## Lens:
-source:: ![[../Lenses/EA Intro - Superforecasting in a Nutshell]]
+{++{"author":"Luc's AI","timestamp":1783722753978}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722753978}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722753978}@@[[../Lenses/EA++} Intro - Superforecasting in a Nutshell]]

@@ -27,5 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus pre-commits to a specific signpost they'll use when something heavy comes up that isn't theirs to hold (e.g., "we can talk after, or I can connect you with X").
 
-## Lens:
-source:: ![[../Lenses/Facilitator Flat - What a Facilitator Is]]
+{++{"author":"Luc's AI","timestamp":1783722796564}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722796564}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722796564}@@[[../Lenses/Facilitator++} Flat - What a Facilitator Is]]

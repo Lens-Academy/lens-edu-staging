@@ -27,5 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus identifies the warning sign: if nobody ever pushes back on you, that's not good — it means they don't think they can.
 
-## Lens:
-source:: ![[../Lenses/Facilitator Flat - Recovering in the Moment]]
+{++{"author":"Luc's AI","timestamp":1783722823653}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722823653}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722823653}@@[[../Lenses/Facilitator++} Flat - Recovering in the Moment]]

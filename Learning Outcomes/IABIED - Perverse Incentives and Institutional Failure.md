@@ -11,6 +11,7 @@ tags:
 
 ## Test:
 
-## Lens:
-optional:: true
-source:: ![[../Lenses/IABIED - QA - What About the Benefits of AI]]
+{--{"author":"Luc's AI","timestamp":1783722880126}@@## Lens:--}{++{"author":"Luc's AI","timestamp":1783722880126}@@
+# Suggested Lenses:++}
+{--{"author":"Luc's AI","timestamp":1783722880126}@@optional:: true--}{++{"author":"Luc's AI","timestamp":1783722880126}@@## Lens:++}
+source:: {--{"author":"Luc's AI","timestamp":1783722880126}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722880126}@@[[../Lenses/IABIED++} - QA - What About the Benefits of AI]]

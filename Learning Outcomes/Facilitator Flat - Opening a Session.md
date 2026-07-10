@@ -27,5 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus pre-commits to the timekeeping discipline (gently moving someone on if their check-in goes long — sets the norm that check-ins are short).
 
-## Lens:
-source:: ![[../Lenses/Facilitator Flat - Opening a Session]]
+{++{"author":"Luc's AI","timestamp":1783722808014}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722808014}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722808014}@@[[../Lenses/Facilitator++} Flat - Opening a Session]]

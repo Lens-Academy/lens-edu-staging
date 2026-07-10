@@ -27,5 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus pre-commits to one specific cue that will pull them back to the neglected perspective (e.g., a 10-minute mental check-in on time remaining; a glance at their own face on Zoom to check regulation).
 
-## Lens:
-source:: ![[../Lenses/Facilitator - Two Postures]]
+{++{"author":"Luc's AI","timestamp":1783722821469}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722821469}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722821469}@@[[../Lenses/Facilitator++} - Two Postures]]

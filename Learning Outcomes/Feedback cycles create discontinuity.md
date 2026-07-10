@@ -8,10 +8,11 @@ tags:
 ## Test:
 
 
-## Lens:
-optional:: true
-source::
-![[../Lenses/Cascades and Cycles]]
+{++{"author":"Luc's AI","timestamp":1783722835259}@@# Suggested Lenses:
+++}## Lens:
+{--{"author":"Luc's AI","timestamp":1783722835259}@@optional:: true
+--}source::
+{--{"author":"Luc's AI","timestamp":1783722835259}@@![[../Lenses/Cascades--}{++{"author":"Luc's AI","timestamp":1783722835259}@@[[../Lenses/Cascades++} and Cycles]]
 
 ## Lens:
 source::

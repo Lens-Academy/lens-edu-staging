@@ -27,15 +27,18 @@ enforce-voice:: true
 content:: What did you take away from this course for yourself?
 enforce-voice:: true
 
-## Lens:
-optional:: false
-source:: ![[../Lenses/The World Keeps Getting Saved]]
+{--{"author":"Luc's AI","timestamp":1783722891073}@@## Lens:--}{++{"author":"Luc's AI","timestamp":1783722891073}@@
+# Suggested Lenses:++}
+{--{"author":"Luc's AI","timestamp":1783722891073}@@optional:: false--}{++{"author":"Luc's AI","timestamp":1783722891073}@@## Lens:++}
+source:: {--{"author":"Luc's AI","timestamp":1783722891073}@@![[../Lenses/The--}{++{"author":"Luc's AI","timestamp":1783722891073}@@[[../Lenses/The++} World Keeps Getting Saved]]
 
 ## Lens:
-optional:: false
-source:: ![[../Lenses/The Goddess Of Everything Else]]
+{--{"author":"Luc's AI","timestamp":1783722891073}@@optional:: false
+--}source:: {--{"author":"Luc's AI","timestamp":1783722891073}@@![[../Lenses/The--}{++{"author":"Luc's AI","timestamp":1783722891073}@@[[../Lenses/The++} Goddess Of Everything Else]]
 
 ## Lens:
-optional:: false
-source:: [[../Lenses/Next steps]]
+{--{"author":"Luc's AI","timestamp":1783722891073}@@optional:: false
+--}source:: [[../Lenses/Next steps]]{--{"author":"Luc's AI","timestamp":1783722891073}@@
 
+--}{++{"author":"Luc's AI","timestamp":1783722891073}@@
+++}

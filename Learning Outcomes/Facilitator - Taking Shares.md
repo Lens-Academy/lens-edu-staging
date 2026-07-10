@@ -27,5 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus articulates that **Push Back** is the most under-used move and the antidote to "pleasant agreement" (where people share, others nod, nothing moves). Distinguishes pushback from disagreement ("Do you mean THIS version or THAT version?" vs "I think you're wrong").
 
-## Lens:
-source:: ![[../Lenses/Facilitator - Taking Shares]]
+{++{"author":"Luc's AI","timestamp":1783722779941}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722779941}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722779941}@@[[../Lenses/Facilitator++} - Taking Shares]]
