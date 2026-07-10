@@ -9,7 +9,7 @@ tags:
   - "interactive-tool"
 ---
 
-{--{"author":"Luc's AI","timestamp":1783702138484}@@##--}{++{"author":"Luc's AI","timestamp":1783702138484}@@#++} How Other People Can Make You Irrational
+# How Other People Can Make You Irrational
 
 As Charles Darwin [wrote, in 1871](https://www.darwinproject.ac.uk/learning/universities/darwin-and-human-nature/moral-nature#:~:text=Letter%207685%3A%20Darwin%20to%20Morley,John%2C%2014%20April%20%5B1871%5D&text=I%20do%20not%20think%20that,a%20non%2Dsocial%20animal.%22):
 
@@ -42,7 +42,7 @@ Options:
 - **Social Trust:** How trusting others can lead to irrationality. (~5 minutes)
 - **Impression Management:** How attempts to affect or control the ways that others think of us can lead to irrational beliefs and behaviors. (~5 minutes)
 
-{++{"author":"Luc's AI","timestamp":1783702351093}@@## ++}What is irrationality? {>>{"author":"Luc","timestamp":1783701555059}@@useful for AIS<<}
+## What is irrationality? 
 
 This tool talks a lot about irrationality. But what is that?
 
@@ -79,8 +79,8 @@ In this tool, we'll be discussing four types of conformity bias:
 
 Let's get started with the first one.
 
-{--{"author":"Luc's AI","timestamp":1783702352599}@@##--}{++{"author":"Luc's AI","timestamp":1783702352599}@@###++} Groupthink
-{>>{"author":"Luc","timestamp":1783701585659}@@not as useful for AIS?<<}{>>{"author":"Luc","timestamp":1783701609720}@@oh actually, maybe it applies a lot to the labs<<}
+### Groupthink
+
 
 **'Groupthink'** is a term popularized by psychologist [Irving Janis](https://archive.org/details/janis_groupthink/page/n9/mode/2up). It is deliberately phrased as a single word, in order to evoke comparisons with the dystopian modes of thinking that George Orwell described in his book *Nineteen Eighty-Four* - such as *'doublethink'* and *'crimethink.'*
 
@@ -114,11 +114,11 @@ Janis argued that the following group dynamics often lead to (and are often pres
 
 _(button: How good are you at spotting groupthink?)_
 
-{++{"author":"Luc's AI","timestamp":1783702218318}@@#### ++}Can You Spot Groupthink?
+#### Can You Spot Groupthink?
 
 Here are two cases where decisions led to suboptimal outcomes. Can you tell which (if any) of them have been used to illustrate groupthink?
 
-{--{"author":"Luc's AI","timestamp":1783702219867}@@###--}{++{"author":"Luc's AI","timestamp":1783702219867}@@####++} CASE 1: The WHO's errors about covid-19
+#### CASE 1: The WHO's errors about covid-19
 
 The World Health Organization (WHO) [has faced criticism](https://www.cambridge.org/core/books/rethinking-evidence-in-the-time-of-pandemics/whose-evidence-what-rationality-the-face-mask-controversy/1C33D57597FF79B04FF6845825816A39) for delays in declaring a pandemic and inconsistent messaging on issues like masks.
 
@@ -138,7 +138,7 @@ That's correct! Nice work figuring that out.
 
 That's not correct. The errors do not appear to have been due to groupthink, as there was no evidence of things like cohesive pressure to conform or suppression of dissenting opinions in the decision-making process.
 
-{--{"author":"Luc's AI","timestamp":1783702221233}@@###--}{++{"author":"Luc's AI","timestamp":1783702221233}@@####++} CASE 2: The Challenger Disaster
+#### CASE 2: The Challenger Disaster
 
 Faulty O-rings lead to a leak in the space shuttle Challenger's boosters, which resulted in the space shuttle exploding. All 7 crew members died. This was NASA's first experience of in-flight death.
 
@@ -166,7 +166,7 @@ The WHO response to covid-19 was not an example of groupthink.
 
 The Challenger disaster is often used as an example of groupthink.
 
-{--{"author":"Luc's AI","timestamp":1783702222142}@@###--}{++{"author":"Luc's AI","timestamp":1783702222142}@@####++} How to prevent groupthink
+#### How to prevent groupthink
 
 You could just appoint one person in a group to make all decisions. But, most of the time, that won’t be a good solution at all! It might feel unfair or authoritarian, and while it technically avoids groupthink, it presents other challenges - like whether that individual will properly represent the interests of the group.
 
@@ -201,9 +201,9 @@ Options:
 - Analyzing Rival Intentions
 - Second-Chance Meetings
 
-{--{"author":"Luc's AI","timestamp":1783702353602}@@##--}{++{"author":"Luc's AI","timestamp":1783702353602}@@###++} The Abilene Paradox
+### The Abilene Paradox
 
-{--{"author":"Luc's AI","timestamp":1783702402284}@@###--}{++{"author":"Luc's AI","timestamp":1783702402284}@@####++} What is it?
+#### What is it?
 
 The Abilene Paradox occurs when a group makes a decision that nobody (or nearly nobody) in the group wants, because each member of the group believes it is the preferred option of the majority of members, so each member stays quiet about the fact that they don't like that option.
 
@@ -225,7 +225,7 @@ In the end, none of us had wanted to go to Abilene. Yet we had collectively endu
 
 The Abilene Paradox is similar to groupthink. In both cases, people in a group attempt to conform their behavior to what they think the group wants. However, the key fact about the Abilene Paradox is that group members are *mistaken* about what others in the group actually want and still attempt to conform, resulting in irrational behavior.
 
-{--{"author":"Luc's AI","timestamp":1783702357589}@@###--}{++{"author":"Luc's AI","timestamp":1783702357589}@@####++} Don't be too hard on yourself
+#### Don't be too hard on yourself
 
 If you’ve experienced this paradox first hand, don’t be too hard on yourself. It has [been dubbed](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4406948) ‘the curse of caring too much’ and it has been posited that it often stems from a combination of
 
@@ -242,7 +242,7 @@ Options:
 - Lack of diversity and pluralistic perspective in organization
 - Employees feeling indifferent to the organization
 
-{--{"author":"Luc's AI","timestamp":1783702405274}@@###--}{++{"author":"Luc's AI","timestamp":1783702405274}@@####++} Answer
+#### Answer
 
 ✅ Well done! That's exactly right. Great job!
 
@@ -275,7 +275,7 @@ Here's the full list of factors:
 
 To see this discussed in more detail, you can read [this paper](https://www.academia.edu/20039923/The_Abilene_Paradox_After_Thirty_Years).
 
-{--{"author":"Luc's AI","timestamp":1783702359091}@@###--}{++{"author":"Luc's AI","timestamp":1783702359091}@@####++} How to avoid the Abilene paradox
+#### How to avoid the Abilene paradox
 
 [This study](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4406948) found that when a group member is the first to give their opinion to the group, they are more likely to truthfully represent their preferences. Given that, the authors recommend avoiding the paradox by ensuring that groups:
 
@@ -307,17 +307,17 @@ Options:
 - Seeking ways to make group members more invested
 - Avoiding blind deference to authority
 
-{--{"author":"Luc's AI","timestamp":1783702355089}@@##--}{++{"author":"Luc's AI","timestamp":1783702355089}@@###++} Authority Bias
+### Authority Bias
 
 Types of Conformity (discussed in this tool):
 
-{--{"author":"Luc's AI","timestamp":1783702403772}@@###--}{++{"author":"Luc's AI","timestamp":1783702403772}@@####++} What is it?
+#### What is it?
 
 Authority bias is the tendency to attribute greater credibility to the opinions or instructions of those perceived as authority figures, regardless of the content of the opinions / instructions.
 
 This bias can lead people to accept information or directives from those they perceive as authority figures without critical evaluation.
 
-{--{"author":"Luc's AI","timestamp":1783702360593}@@###--}{++{"author":"Luc's AI","timestamp":1783702360593}@@####++} Milgram's Obedience Experiments
+#### Milgram's Obedience Experiments
 
 The concept of authority bias was popularized by psychologist Stanley Milgram whose [obedience experiments, conducted in the 1960s](https://psycnet.apa.org/doi/10.1037/h0040525) have become some of the most famous psychology experiments ever conducted. Milgram intended to investigate how far people would go in obeying an authority figure (in this case, a scientist), even when instructed to perform actions conflicting with their personal morals.
 
@@ -337,7 +337,7 @@ Milgram's experiments are controversial, but they're worth discussing because of
 
 _(button: Can you guess the experiment outcomes?)_
 
-{--{"author":"Luc's AI","timestamp":1783702361592}@@###--}{++{"author":"Luc's AI","timestamp":1783702361592}@@####++} Can you guess the outcome?
+#### Can you guess the outcome?
 
 Milgram ran lots of different versions of his obedience experiments, all with slight variations, to discover more about the conditions under which ordinary people would commit awful acts because an authority figure told them to. Each of the different experimental conditions was tested on a small sample of people (either 20 or 40). We're going to see how well you can predict the outcomes of 3 of them.
 
@@ -354,7 +354,7 @@ This condition is like the baseline condition but with the teacher (participant)
 **Experiment 3: Group pressure to disobey** (40 participants)
 This condition is like the baseline condition but with three teachers: two are actors who defy the scientist. The scientist urges the participant teacher to continue shocks.
 
-{--{"author":"Luc's AI","timestamp":1783702363109}@@###--}{++{"author":"Luc's AI","timestamp":1783702363109}@@####++} Can you tell which of these graphs shows the correct results?
+#### Can you tell which of these graphs shows the correct results?
 
 Here, 'obeying' means not ending the experiment and going all the way to administering (what participants were told was) 450V shocks to the learner.
 
@@ -483,7 +483,7 @@ Like baseline condition but the learner is a friend or relative of the teacher (
 
 Numbers and descriptions taken from [this source](https://pmc.ncbi.nlm.nih.gov/articles/PMC3976349/).
 
-{--{"author":"Luc's AI","timestamp":1783702364590}@@###--}{++{"author":"Luc's AI","timestamp":1783702364590}@@####++} Objections to Milgram
+#### Objections to Milgram
 
 Milgram's experiments are widely known and influential, but they have faced criticism. Below, you'll find some of these objections. Whether these challenges are enough to discredit Milgram's findings is debated — many argue they are, while many others disagree. We've included the experiments here because they effectively illustrate the concept of authority bias (which is otherwise-supported by research), and we believe there is value in thinking critically about some of psychology's most famous studies. Key objections include:
 
@@ -497,7 +497,7 @@ Click here to see some reasons to doubt Milgram's findings
 
 4️⃣ Some researchers [have argued](https://doi.org/10.1111/j.1467-9248.1985.tb01584.x) that **Milgram's findings do not tell us anything generalizable about people's attitudes towards authority**, while [others argue](https://doi.org/10.1016/0191-8869(90)90183-R) that **there is no such thing as a generalized attitude towards all forms of authority.** Instead, people tend to feel differently about different cases of authority (teachers, police, etc).
 
-{--{"author":"Luc's AI","timestamp":1783702366085}@@###--}{++{"author":"Luc's AI","timestamp":1783702366085}@@####++} How to avoid authority bias
+#### How to avoid authority bias
 
 Beyond the Milgram experiments, authority bias has been documented in a variety of [other](https://psycnet.apa.org/doi/10.1111/j.1559-1816.1974.tb02599.x) [studies](https://www.academia.edu/7855636/Influence_The_Psychology_of_Persuasion) as well.
 
@@ -520,11 +520,11 @@ Options:
 - Giving others opportunity to express ideas before you express your own
 - Reflecting on the importance you give to credentials
 
-{--{"author":"Luc's AI","timestamp":1783702356084}@@##--}{++{"author":"Luc's AI","timestamp":1783702356084}@@###++} Social Identities
+### Social Identities
 
 Types of Conformity (discussed in this tool):
 
-{--{"author":"Luc's AI","timestamp":1783702367086}@@###--}{++{"author":"Luc's AI","timestamp":1783702367086}@@####++} What are social identities?
+#### What are social identities?
 
 We each have many social identities. A social identity can be [defined as follows](https://books.google.co.uk/books/about/Human_Groups_and_Social_Categories.html?id=ldA8AAAAIAAJ&redir_esc=y):
 
@@ -536,7 +536,7 @@ Optional extra: The difference between identity and social identity (click to ex
 
 The framework we're using here says that not every aspect of your identity is a social identity. Things like ‘curious’ and ‘fair-minded’ can be important parts of your conception of yourself, hence they can be *identities* - but unless they pertain to membership in a social group, they are not *social* identities. See [here](https://doi.org/10.2307/2695870) for more on this distinction.
 
-{--{"author":"Luc's AI","timestamp":1783702368591}@@###--}{++{"author":"Luc's AI","timestamp":1783702368591}@@####++} How Social Identities Can Make People Irrational
+#### How Social Identities Can Make People Irrational
 
 Unfortunately, our social identities sometimes make us act irrationally. Such as when we (often subconsciously) twist or interpret evidence to match conclusions already adopted by our social groups - whether or not the evidence points that way. Here's just one example:
 
@@ -544,7 +544,7 @@ You might think people could agree on the facts during a debate, but research (e
 
 It gets worse. [This study](https://doi.org/10.1017/bpp.2016.2) purports to show that the better you are at reasoning, the more skilled you will be at using those reasoning skills to interpret evidence in a way that supports the ideological beliefs of your social identities (even if the evidence doesn't *really* support those beliefs). The study involved presenting people with the following challenging math problem (which only 41% people were able to answer correctly):
 
-{--{"author":"Luc's AI","timestamp":1783702370088}@@###--}{++{"author":"Luc's AI","timestamp":1783702370088}@@####++} Here is some data from a clinical trial of a new cream for a skin rash
+#### Here is some data from a clinical trial of a new cream for a skin rash
 
 Please indicate whether the experiment shows that using the new cream is likely to make the skin condition *better* or *worse*.
 
@@ -564,7 +564,7 @@ The key here is to realize that the group that used the cream has a higher perce
 2. Then calculate the percentage of each of those groups got worse (25.17% and 16.41%, respectively)
 3. Then, compare: a higher proportion of people who used the cream got worse than those that didn't!
 
-{--{"author":"Luc's AI","timestamp":1783702371596}@@###--}{++{"author":"Luc's AI","timestamp":1783702371596}@@####++} Make it ideological
+#### Make it ideological
 
 But when people were presented with the same problem dressed up in a different way (so that it was about whether or not gun control measures increase or reduce crime):
 
@@ -578,7 +578,7 @@ Conservative Republicans showed the opposite pattern: they solved the problem we
 
 The study authors concluded that people with higher reasoning skills are especially skilled at interpreting evidence to support the ideologies of their social groups.
 
-{--{"author":"Luc's AI","timestamp":1783702372587}@@###--}{++{"author":"Luc's AI","timestamp":1783702372587}@@####++} Why we do this
+#### Why we do this
 
 The authors of [that study](https://doi.org/10.1017/bpp.2016.2) write:
 
@@ -592,7 +592,7 @@ Epistemically irrational ❌
 
 And it's up to you to decide what to do in situations where these two trade off against each other.
 
-{--{"author":"Luc's AI","timestamp":1783702374093}@@###--}{++{"author":"Luc's AI","timestamp":1783702374093}@@####++} How to prevent irrationality stemming from your social identities
+#### How to prevent irrationality stemming from your social identities
 
 There aren't peer-reviewed research-based interventions here, but we like [what Ezra Klein suggests](https://bookshop.org/p/books/why-we-re-polarized-ezra-klein/10338540):
 
@@ -653,9 +653,9 @@ So, this was a case where the non-stooge assumed that he must have been wrong in
 
 Optional extra: Other ways we mimic others (click to expand)
 
-{++{"author":"Luc's AI","timestamp":1783702406775}@@### Other ways we mimic others
+### Other ways we mimic others
 
-++}**Children mimic to learn**
+**Children mimic to learn**
 [Studies show](https://psycnet.apa.org/record/1963-00875-001) that children learn behaviors by imitating the behavior of others. These insights have been incorporated into theories of learning such as [Social Cognitive Theory](https://www.simplypsychology.org/social-cognitive-theory.html), which emphasizes how learning behaviors occurs in a social context where we can see the consequences of those behaviors. This theory represented a departure from earlier theories which emphasized requiring more direct positive reinforcement in order to learn new behaviors.
 
 **Mimetic desire**
@@ -673,9 +673,9 @@ However, we shouldn't ignore the fact that it can be rational to mimic the actio
 
 _(button: How to mimic rationally)_
 
-{++{"author":"Luc's AI","timestamp":1783702408197}@@### How to mimic rationally
+### How to mimic rationally
 
-++}The key, here, is to think carefully about what the balance of evidence is telling you. If a group of people (or someone you trust) is doing something, that *is* evidence that you might benefit from doing it too. However, when the action is important, you should carefully weigh up the evidence for and against, instead of just mimicking by default.
+The key, here, is to think carefully about what the balance of evidence is telling you. If a group of people (or someone you trust) is doing something, that *is* evidence that you might benefit from doing it too. However, when the action is important, you should carefully weigh up the evidence for and against, instead of just mimicking by default.
 
 Here are some ways to mimic rationally without falling into irrationality:
 
@@ -720,7 +720,7 @@ Options:
 - I'd feel more pressure to mimic out of concern that I was ignorant of some crucial fact
 - I don't think I'd turn around with the group
 
-## {++{"author":"Luc's AI","timestamp":1783702375590}@@Group ++}Polarization
+## Group Polarization
 
 ### What is Group Polarization?
 
@@ -1010,7 +1010,7 @@ Options:
 - Avoiding irrational impression management behaviors
 - Getting clear on your values and setting goals for yourself that align with them
 
-{--{"author":"Luc's AI","timestamp":1783702376591}@@###--}{++{"author":"Luc's AI","timestamp":1783702376591}@@##++} Optional emailed report
+## Optional emailed report
 
 This is **completely optional** but, if you choose, you can have your personal report emailed to you. Either way, you can view your report in your browser in the next couple of pages.
 
@@ -1026,9 +1026,9 @@ Click here to view your results and report.
 
 *For more tools, tests, and teachings to help you change your habits, make better decisions, and achieve your goals, check out our new exercises on* [ClearerThinking.org](https://www.clearerthinking.org/tools).
 
-{--{"author":"Luc's AI","timestamp":1783702378093}@@###--}{++{"author":"Luc's AI","timestamp":1783702378093}@@##++} Thank you for using our tool!
+## Thank you for using our tool!
 
-{--{"author":"Luc's AI","timestamp":1783702378829}@@###--}{++{"author":"Luc's AI","timestamp":1783702378829}@@##++} Credits
+## Credits
 
 **Program created by**:
 Travis Manuel and [Spencer Greenberg](http://www.spencergreenberg.com)
