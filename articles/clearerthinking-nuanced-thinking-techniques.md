@@ -9,13 +9,13 @@ tags:
   - "interactive-tool"
 ---
 
-{--{"author":"Luc's AI","timestamp":1783702492009}@@##--}{++{"author":"Luc's AI","timestamp":1783702492009}@@#++} Nuanced Thinking Techniques
+# Nuanced Thinking Techniques
 
 There are two kinds of people in the world: those who divide everybody into two kinds of people, and those who don’t.
 
 Our brains love to dichotomize, to divide reality into neat, binary categories: right or wrong, good or bad, is or is not. This sort of binary thinking is often useful in simple situations, but it can get in the way of our ability to make sense of complex topics. For those, it’s useful to apply **nuanced thinking**.
 
-{--{"author":"Luc's AI","timestamp":1783702493498}@@###--}{++{"author":"Luc's AI","timestamp":1783702493498}@@##++} In this mini-course, you will:
+## In this mini-course, you will:
 
 Learn to **recognize 3 common binary thinking traps** that you may be falling into.
 
@@ -25,7 +25,7 @@ Learn to **use 3 nuanced thinking techniques** to resist false dichotomies, deve
 
 _(button: Let’s get started!)_
 
-{--{"author":"Luc's AI","timestamp":1783702494499}@@###--}{++{"author":"Luc's AI","timestamp":1783702494499}@@##++} What is binary thinking?
+## What is binary thinking?
 
 What do the following statements have in common?
 
@@ -75,7 +75,7 @@ Multi-factor thinking 📊
 
 _(button: First up, probabilistic thinking)_
 
-{--{"author":"Luc's AI","timestamp":1783702496000}@@###--}{++{"author":"Luc's AI","timestamp":1783702496000}@@##++} Technique #1: Probabilistic Thinking
+## Technique #1: Probabilistic Thinking
 
 A common thinking trap is the **truth binary: having absolute certainty in whether something is true or not.**
 
@@ -231,7 +231,7 @@ Nice work on this section. It's time to move onto the second nuanced thinking te
 
 _(button: I’m ready to learn about gray thinking!)_
 
-{--{"author":"Luc's AI","timestamp":1783702497497}@@###--}{++{"author":"Luc's AI","timestamp":1783702497497}@@##++} Technique #2: Gray Thinking
+## Technique #2: Gray Thinking
 
 You just learned about probabilistic thinking, an antidote to the truth binary.
 
@@ -334,7 +334,7 @@ You’ve completed the gray thinking section! Now it’s time to explore the thi
 
 _(button: Let's dive in! What's multi-factor thinking?)_
 
-{--{"author":"Luc's AI","timestamp":1783702499002}@@###--}{++{"author":"Luc's AI","timestamp":1783702499002}@@##++} Technique #3: Multi-factor Thinking
+## Technique #3: Multi-factor Thinking
 
 You just learned about gray thinking, an antidote to the goodness binary.
 
@@ -418,9 +418,9 @@ And that's the end of the section exploring the third and final nuanced thinking
 
 _(button: Let's wrap things up)_
 
-{++{"author":"Luc's AI","timestamp":1783702506504}@@## Summary
+## Summary
 
-++}This mini-course has explored three traps of binary thinking and three different nuanced thinking techniques for avoiding it:
+This mini-course has explored three traps of binary thinking and three different nuanced thinking techniques for avoiding it:
 
 ### (1) Probabilistic thinking 🎲
 
@@ -446,7 +446,7 @@ Options:
 - Yes, let’s do it.
 - No thanks, let’s go to the end of the mini-course
 
-{--{"author":"Luc's AI","timestamp":1783702500885}@@###--}{++{"author":"Luc's AI","timestamp":1783702500885}@@##++} Nuanced Thinking Quiz
+## Nuanced Thinking Quiz
 
 In the following three hypothetical scenarios, decide which of the three nuanced thinking techniques would be most helpful for you.
 
@@ -469,9 +469,9 @@ Options:
 
 _(button: Go to Scenario #2)_
 
-{++{"author":"Luc's AI","timestamp":1783702508001}@@### Scenario #2
+### Scenario #2
 
-++}You’re an entrepreneur planning out a new business venture. You realize that there are many unknowns that could affect your new company’s success and it's unlikely everything will go exactly as planned.
+You’re an entrepreneur planning out a new business venture. You realize that there are many unknowns that could affect your new company’s success and it's unlikely everything will go exactly as planned.
 
 To give yourself the best chance of success, you want to avoid being certain about your assumptions and instead consider how likely it is for different things to happen, so you can plan accordingly.
 
@@ -486,9 +486,9 @@ Options:
 
 _(button: Go to Scenario #3)_
 
-{++{"author":"Luc's AI","timestamp":1783702510053}@@### Scenario #3
+### Scenario #3
 
-++}You work in a college admissions office reviewing applications and deciding who is a good fit for the university. Rather than solely filtering applicants by GPA or test score, you want to look at each one holistically, getting a better picture of who they are as individuals across many different facets.
+You work in a college admissions office reviewing applications and deciding who is a good fit for the university. Rather than solely filtering applicants by GPA or test score, you want to look at each one holistically, getting a better picture of who they are as individuals across many different facets.
 
 **That's right!** ✅
 
@@ -496,7 +496,7 @@ _(button: Go to Scenario #3)_
 
 _(button: Wrap things up)_
 
-{--{"author":"Luc's AI","timestamp":1783702501992}@@###--}{++{"author":"Luc's AI","timestamp":1783702501992}@@##++} Optional emailed report
+## Optional emailed report
 
 This is **completely optional** but, if you choose, you can have your personal report emailed to you. Either way, you can view your report in your browser in the next couple of pages.
 
@@ -512,9 +512,9 @@ Click here to view all of your results.
 
 *For more tools, tests, and teachings to help you change your habits, make better decisions, and achieve your goals, check out our new exercises on* [ClearerThinking.org](https://www.clearerthinking.org/tools).
 
-{--{"author":"Luc's AI","timestamp":1783702503503}@@###--}{++{"author":"Luc's AI","timestamp":1783702503503}@@##++} Thank you for using our tool!
+## Thank you for using our tool!
 
-{--{"author":"Luc's AI","timestamp":1783702504529}@@###--}{++{"author":"Luc's AI","timestamp":1783702504529}@@##++} Credits
+## Credits
 
 **Program created by**:
 [Spencer Greenberg](http://www.spencergreenberg.com)
