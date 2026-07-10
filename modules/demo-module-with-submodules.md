@@ -6,8 +6,8 @@ title: Submodules demo
 
 %% This module demonstrates `# Submodule:` markers. The imports inside the submodules use dummies because the structure is the point here, not the content of the imported lenses. %%
 
-# Submodule: foo
-slug:: demo-foo
+# Submodule: Dummy Submodule 1
+slug:: dummy-submodule-1
 
 %% You can add `slug::` under the submodule heading when you want a stable URL segment instead of one generated from the title. %%
 
@@ -18,17 +18,16 @@ source:: [[../Lenses/Dummy lens]]
 optional:: true
 source:: [[../Lenses/Dummy lens 2]]
 
-# Submodule: bar
-slug:: demo-bar
+# Submodule: Dummy Submodule 2
+slug:: dummy-submodule-2
 
 %% Submodules can contain imported lenses and imported learning outcomes. %%
 
 ## Lens:
-optional:: true
 source:: [[../Lenses/Dummy lens 3]]
 
 ## Learning Outcome:
 source:: [[../Learning Outcomes/Dummy learning outcome]]
 
 
-%% By the way, if a module contains submodules, then all the lenses must be inside of submodules. So you must start the file with defining a submodule. %%
+%% By the way, if a module contains submodules, then all its lenses must be inside of submodules. That is, you must start the file with defining a submodule. That is, you can't have a lens without a submodule first and then have a submodule.. %%
