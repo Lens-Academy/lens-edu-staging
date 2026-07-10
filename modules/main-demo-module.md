@@ -71,4 +71,4 @@ optional:: true
 source:: [[../Lenses/Links and cards demo]]
 
 
-%% When done with the lenses in this module, return to the course ([[../courses/Demo Course]]) and go into the next modules to have a look at different ways of formatting modules.%% 
+%% When done with the lenses in this module, return to the course file ([[../courses/Demo Course]]) and go into the next modules to have a look at different ways of formatting modules.%% 
