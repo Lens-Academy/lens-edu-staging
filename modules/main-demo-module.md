@@ -22,14 +22,13 @@ This is a demo chat segment. In real course content, use this field to tell the 
 # Lens: An imported lens
 source:: [[../Lenses/Dummy lens]]
 
-%% The benefit of importing is that we can reuse the same lens in different modules without copying its source text. Importing lenses is usually preferred over defining them directly in the module. %%
+%% One benefit of importing is that we can reuse the same lens in different modules without copying its source text. Importing lenses is usually preferred over defining them directly in the module. %%
 
 %% Modules also contains learning outcomes.  %%
 # Learning Outcome:
 source:: [[../Learning Outcomes/Learning Outcome Demo|Demo learning outcome]]
 
 %% Please look inside the above file before continuing. %%
-
 
 
 %% A module can contain as many learning outcomes and lenses as you want. 
@@ -48,9 +47,9 @@ source:: [[../Lenses/Article excerpt demo]]
 # Lens:
 source:: [[../Lenses/Article annotation and text collapse demo]]
 
-%% You've now seen how you can add annotations and collapsed sections from within Article files, as well as define from:: and to:: inside Lenses. Note that `::collapse` and `from::`/`to::` show up in the same way to the user. Any text that's collapsed by them is hidden behind ellipsis that the user can click on to see the collapsed text. %%
+%% You've now seen how you can add annotations and collapsed sections from within Article files, as well as define from:: and to:: inside Lenses. Note that `::collapse` and `from::`/`to::` show up in the same way to the user. Any text that's collapsed by them is hidden behind bracketed ellipsis `[...]` that the user can click on to see the collapsed text. %%
 
-%% After looking at that lens, look at the following Lens, demoing a video: %%
+%% Now take a look at the following Lens, demoing a video: %%
 # Lens:
 source:: [[../Lenses/video demo]]
 
