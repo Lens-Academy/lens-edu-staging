@@ -42,9 +42,9 @@ source:: ![[../Learning Outcomes/IABIED - Distinguish Fiction as Argument from P
 ### Lens: IABIED - Your Leverage
 source:: ![[../Lenses/IABIED - Your Leverage]]
 
-{>>{"author":"Elias's AI","timestamp":1783684788637}@@Week-3 session doc close announces this: participants were told they'd start personal action plans in week 4 (strengths inventory + researching impact paths with the Coach). Responds to the recurring "how do I turn this into action" ask (Noether debrief item 3, Hypatia career Q&A, W2 survey). (Elias)<<}
+{--{"author":"Elias's AI","timestamp":1783685919002}@@{>>{"author":"Elias's AI","timestamp":1783684788637}@@Week-3 session doc close announces this: participants were told they'd start personal action plans in week 4 (strengths inventory + researching impact paths with the Coach). Responds to the recurring "how do I turn this into action" ask (Noether debrief item 3, Hypatia career Q&A, W2 survey). (Elias)<<}
 
-# Submodule: Dive Deeper
+--}# Submodule: Dive Deeper
 ### Lens: Overview of Optional Resources
 source:: ![[../Lenses/IABIED - Overview of Optional Resources M4]]
 
