@@ -10,5 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-## Lens:
-source:: ![[../Lenses/EA Intro - Framework for Comparing Global Problems]]
+#### Article
+source:: [[../articles/wiblin-how-can-you-figure-out-which-global-problem-is-most-pressing]]
+
+[[]]
