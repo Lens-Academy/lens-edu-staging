@@ -16,12 +16,26 @@ content:: {>>TODO: add module welcome text (~105 min module)<<}
 # Lens: What Do You Think Introduction
 source:: ![[../Lenses/EA Intro - What Do You Think Introduction]]
 
-# Submodule: Bayes' rule and evidence
-# Learning Outcome: EA Intro - Apply Bayes Rule to Update Beliefs
+# Submodule: Bayes' rule and evidence{++{"author":"Luc's AI","timestamp":1783723303917}@@
+
+# Lens:
+source:: ![[../Lenses/EA Intro - Bayes Rule Guide]]
+
+# Lens:
+source:: ![[../Lenses/EA Intro - Making Beliefs Pay Rent]]
+
+# Lens:++}
+{++{"author":"Luc's AI","timestamp":1783723303917}@@source:: ![[../Lenses/EA Intro - What Is Evidence]]
+
+++}# Learning Outcome: EA Intro - Apply Bayes Rule to Update Beliefs
 source:: ![[../Learning Outcomes/EA Intro - Apply Bayes Rule to Update Beliefs]]
 
-# Submodule: Independent impressions
-# Learning Outcome: EA Intro - Explain Independent Impressions
+# Submodule: Independent impressions{++{"author":"Luc's AI","timestamp":1783723310456}@@
+
+# Lens:++}
+{++{"author":"Luc's AI","timestamp":1783723310456}@@source:: ![[../Lenses/EA Intro - Independent Impressions]]
+
+++}# Learning Outcome: EA Intro - Explain Independent Impressions
 source:: ![[../Learning Outcomes/EA Intro - Explain Independent Impressions]]
 
 # Submodule: Learning from mistakes

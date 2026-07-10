@@ -42,15 +42,35 @@ We hope this book club will also help grow the AI safety community. Some of thes
 
 Don't save your questions and insights for the meeting day, post them into Discord as soon as they arise!
 
-# Submodule: Ch0 - Introduction
-# Learning Outcome: IABIED - Hard Calls and Easy Calls
+# Submodule: Ch0 - Introduction{++{"author":"Luc's AI","timestamp":1783723295740}@@
+
+# Lens:
+source:: ![[../Lenses/IABIED - PQ - Hard Calls and Easy Calls]]
+
+# Lens:++}
+{++{"author":"Luc's AI","timestamp":1783723295740}@@source:: ![[../Lenses/IABIED - Hard Calls and Easy Calls]]
+
+++}# Learning Outcome: IABIED - Hard Calls and Easy Calls
 source:: ![[../Learning Outcomes/Distinguish Hard Calls from Easy Calls]]
 
-# Submodule: Ch1 - Intelligence
-# Learning Outcome: IABIED - Define Intelligence
+# Submodule: Ch1 - Intelligence{++{"author":"Luc's AI","timestamp":1783723302716}@@
+
+# Lens:
+source:: ![[../Lenses/IABIED - Define Intelligence - PQ]]
+
+# Lens:++}
+{++{"author":"Luc's AI","timestamp":1783723302716}@@source:: ![[../Lenses/IABIED - Define Intelligence]]
+
+++}# Learning Outcome: IABIED - Define Intelligence
 source:: ![[../Learning Outcomes/Define Intelligence]]
 
-# Learning Outcome: IABIED - Intelligence Is Direction-Agnostic
+# {++{"author":"Luc's AI","timestamp":1783723309914}@@Lens:
+source:: ![[../Lenses/IABIED - Intelligence Is Direction-Agnostic - PQ]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - Intelligence Is Direction-Agnostic]]
+
+# ++}Learning Outcome: IABIED - Intelligence Is Direction-Agnostic
 source:: ![[../Learning Outcomes/Explain Intelligence Is Direction-Agnostic]]
 
 # Submodule: Ch2 - Grown, not crafted

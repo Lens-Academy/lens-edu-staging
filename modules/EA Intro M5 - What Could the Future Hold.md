@@ -16,21 +16,49 @@ content:: {>>TODO: add module welcome text (~67 min module)<<}
 # Lens: What Could the Future Hold Introduction
 source:: ![[../Lenses/EA Intro - What Could the Future Hold Introduction]]
 
-# Submodule: The case for and against longtermism
-# Learning Outcome: EA Intro - Articulate the Case For and Against Longtermism
+# Submodule: The case for and against longtermism{++{"author":"Luc's AI","timestamp":1783723230324}@@
+
+# Lens:
+source:: ![[../Lenses/EA Intro - What Could the Future Hold Introduction]]
+
+# Lens:
+source:: ![[../Lenses/EA Intro - What We Owe the Future Chapter 1]]
+
+# Lens:++}
+{++{"author":"Luc's AI","timestamp":1783723230324}@@source:: ![[../Lenses/EA Intro - Why Longtermism Is Hard]]
+
+# Lens:
+source:: ![[../Lenses/EA Intro - Probably Not a Longtermist]]
+
+++}# Learning Outcome: EA Intro - Articulate the Case For and Against Longtermism
 source:: ![[../Learning Outcomes/EA Intro - Articulate the Case For and Against Longtermism]]
 
-# Submodule: Hinge of history
-# Learning Outcome: EA Intro - Evaluate the Hinge of History Hypothesis
+# Submodule: Hinge of history{++{"author":"Luc's AI","timestamp":1783723236347}@@
+
+# Lens:++}
+{++{"author":"Luc's AI","timestamp":1783723236347}@@source:: ![[../Lenses/EA Intro - This Can't Go On]]
+
+++}# Learning Outcome: EA Intro - Evaluate the Hinge of History Hypothesis
 source:: ![[../Learning Outcomes/EA Intro - Evaluate the Hinge of History Hypothesis]]
 
-# Submodule: To what extent can we predict the future? How?
-# Learning Outcome: EA Intro - Apply Superforecasting Techniques
+# Submodule: To what extent can we predict the future? How?{++{"author":"Luc's AI","timestamp":1783723242181}@@
+
+# Lens:++}
+{++{"author":"Luc's AI","timestamp":1783723242181}@@source:: ![[../Lenses/EA Intro - Superforecasting in a Nutshell]]
+
+++}# Learning Outcome: EA Intro - Apply Superforecasting Techniques
 source:: ![[../Learning Outcomes/EA Intro - Apply Superforecasting Techniques]]
 
-# Submodule: What might the future look like?
-# Learning Outcome: EA Intro - Describe What a Positive Long-Term Future Looks Like
+# Submodule: What might the future look like?{++{"author":"Luc's AI","timestamp":1783723250406}@@
+
+# Lens:++}
+{++{"author":"Luc's AI","timestamp":1783723250406}@@source:: ![[../Lenses/EA Intro - Top Open Metaculus Forecasts]]
+
+++}# Learning Outcome: EA Intro - Describe What a Positive Long-Term Future Looks Like
 source:: ![[../Learning Outcomes/EA Intro - Describe What a Positive Long-Term Future Looks Like]]
 
-# Learning Outcome: EA Intro - Evaluate Longtermism's Implications for Animal Advocacy
+# {++{"author":"Luc's AI","timestamp":1783723257052}@@Lens:
+source:: ![[../Lenses/EA Intro - Longtermism and Animal Advocacy]]
+
+# ++}Learning Outcome: EA Intro - Evaluate Longtermism's Implications for Animal Advocacy
 source:: ![[../Learning Outcomes/EA Intro - Evaluate Longtermism's Implications for Animal Advocacy]]

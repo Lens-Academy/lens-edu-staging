@@ -42,6 +42,10 @@ source:: ![[../Lenses/EA Intro - On Fringe Ideas]]++}
 # Learning Outcome: EA Intro - Apply the Case for Animal Moral Consideration
 source:: ![[../Learning Outcomes/EA Intro - Apply the Case for Animal Moral Consideration]]
 
-# Submodule: The case for caring about animal welfare
-# Learning Outcome: EA Intro - Identify Strategies for Improving Animal Welfare
+# Submodule: The case for caring about animal welfare{++{"author":"Luc's AI","timestamp":1783723170334}@@
+
+# Lens:++}
+{++{"author":"Luc's AI","timestamp":1783723170334}@@source:: ![[../Lenses/EA Intro - Factory Farming Problem Profile]]
+
+++}# Learning Outcome: EA Intro - Identify Strategies for Improving Animal Welfare
 source:: ![[../Learning Outcomes/EA Intro - Identify Strategies for Improving Animal Welfare]]

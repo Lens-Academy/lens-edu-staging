@@ -17,25 +17,63 @@ tags:
 ### Lens: M4 Welcome
 source:: ![[../Lenses/IABIED - M4 Welcome]]
 
-# Submodule: Ch7 - Realization
-## Learning Outcome: IABIED - State Goal-Conflict Recognition as a Physical Fact
+# Submodule: Ch7 - Realization{++{"author":"Luc's AI","timestamp":1783723183616}@@
+
+## Lens:
+source:: ![[../Lenses/IABIED - Goal-Conflict Recognition as a Physical Fact - PQ]]
+
+## Lens:++}
+{++{"author":"Luc's AI","timestamp":1783723183616}@@source:: ![[../Lenses/IABIED - Goal-Conflict Recognition as a Physical Fact]]
+
+++}## Learning Outcome: IABIED - State Goal-Conflict Recognition as a Physical Fact
 source:: ![[../Learning Outcomes/IABIED - State Goal-Conflict Recognition as a Physical Fact]]
 
 # Submodule: Ch8 - Expansion
-## Learning Outcome: IABIED - Explain Instrumental Sub-Goal Convergence
-source:: ![[../Learning Outcomes/IABIED - Explain Instrumental Sub-Goal Convergence]]
+{++{"author":"Luc's AI","timestamp":1783723192803}@@
+## Lens:
+source:: ![[../Lenses/IABIED - Instrumental Sub-Goal Convergence - PQ]]
+
+++}## {++{"author":"Luc's AI","timestamp":1783723192803}@@Lens:
+source:: ![[../Lenses/IABIED - Instrumental Sub-Goal Convergence]]
+
+## ++}Learning Outcome: IABIED - Explain Instrumental Sub-Goal Convergence
+source:: ![[../Learning Outcomes/IABIED - Explain Instrumental Sub-Goal Convergence]]{++{"author":"Luc's AI","timestamp":1783723192803}@@
+
+## Lens:
+source:: ![[../Lenses/IABIED - Human Welfare as Instrumental Variable - PQ]]
+
+## Lens:
+source:: ![[../Lenses/IABIED - Human Welfare as Instrumental Variable]]++}
 
 ## Learning Outcome: IABIED - State Human Welfare as Instrumental Variable
 source:: ![[../Learning Outcomes/IABIED - State Human Welfare as Instrumental Variable]]
 
-# Submodule: Ch9 - Ascension
-## Learning Outcome: IABIED - Explain Indifference Not Malice
+# Submodule: Ch9 - Ascension{++{"author":"Luc's AI","timestamp":1783723199564}@@
+
+## Lens:
+source:: ![[../Lenses/IABIED - Indifference Not Malice - PQ]]
+
+## Lens:++}
+{++{"author":"Luc's AI","timestamp":1783723199564}@@source:: ![[../Lenses/IABIED - Indifference Not Malice]]
+
+++}## Learning Outcome: IABIED - Explain Indifference Not Malice
 source:: ![[../Learning Outcomes/IABIED - Explain Indifference Not Malice]]
 
 # Submodule: Coda
-## Learning Outcome: IABIED - Distinguish Path Prediction from Outcome Prediction
-source:: ![[../Learning Outcomes/IABIED - Distinguish Path Prediction from Outcome Prediction]]
-## Learning Outcome: IABIED - Distinguish Fiction as Argument from Prediction
+{++{"author":"Luc's AI","timestamp":1783723208684}@@
+++}## {++{"author":"Luc's AI","timestamp":1783723208684}@@Lens:
+source:: ![[../Lenses/IABIED - Path Prediction vs Outcome Prediction - PQ]]
+
+## Lens:
+source:: ![[../Lenses/IABIED - Path Prediction vs Outcome Prediction]]
+
+## ++}Learning Outcome: IABIED - Distinguish Path Prediction from Outcome Prediction
+source:: ![[../Learning Outcomes/IABIED - Distinguish Path Prediction from Outcome Prediction]]{++{"author":"Luc's AI","timestamp":1783723208684}@@
+
+## Lens:++}
+{++{"author":"Luc's AI","timestamp":1783723208684}@@source:: ![[../Lenses/IABIED - Fiction as Argument]]
+
+++}## Learning Outcome: IABIED - Distinguish Fiction as Argument from Prediction
 source:: ![[../Learning Outcomes/IABIED - Distinguish Fiction as Argument from Prediction]]
 
 # Submodule: Your Leverage

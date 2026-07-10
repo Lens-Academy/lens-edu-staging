@@ -68,8 +68,21 @@ source:: ![[../Lenses/IABIED - QA - AI Find Us Fascinating]]++}
 source:: ![[../Learning Outcomes/IABIED - Distinguish Hostile from Indifferent AI]]
 
 # Submodule: Ch6 - We'd Lose
-# Learning Outcome: IABIED - Define the Aztec Warrior Analogy
-source:: ![[../Learning Outcomes/IABIED - Define the Aztec Warrior Analogy]]
+{++{"author":"Luc's AI","timestamp":1783723166640}@@
+# Lens:
+source:: ![[../Lenses/IABIED - Define the Aztec Warrior Analogy - PQ]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - Define the Aztec Warrior Analogy]]
+
+++}# Learning Outcome: IABIED - Define the Aztec Warrior Analogy
+source:: ![[../Learning Outcomes/IABIED - Define the Aztec Warrior Analogy]]{++{"author":"Luc's AI","timestamp":1783723166640}@@
+
+# Lens:
+source:: ![[../Lenses/IABIED - PQ - Describe the Refrigerator Thought Experiment]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - Describe the Refrigerator Thought Experiment]]++}
 
 # Learning Outcome: IABIED - Describe the Refrigerator Thought Experiment
 source:: ![[../Learning Outcomes/IABIED - Describe the Refrigerator Thought Experiment]]
