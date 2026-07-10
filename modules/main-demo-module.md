@@ -40,7 +40,7 @@ The lenses and tests show in the same order in the learner's UI as the order of 
 
 %% Now that we have a feel for how modules and learning outcomes work, let's have a look at what's possible inside of lenses. 
 
-Look at the following Lens. %%
+Take a look at the following Lens: %%
 # Lens:
 source:: [[../Lenses/Article excerpt demo]]
 
