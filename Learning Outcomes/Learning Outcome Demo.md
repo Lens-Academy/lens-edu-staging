@@ -6,9 +6,9 @@ tags:
   - learning outcome
 ---
 
-%% A learning outcome (LO) file defines a learning outcome, a test that checks whether the learner has achieved the intended outcome, and one or more lenses that teach the learner what they need to know to achieve the LO.
+%% A learning outcome (LO) file defines a learning outcome, a test that checks whether the learner has achieved the intended outcome, and a list of suggested lenses that teach the learner what they need to know to achieve the LO.
 
-The app will show the lenses as learning material, then show the test when the learner reaches the end of the learning outcome. 
+Any module that links to an LO automatically imports its test. The suggested lenses are mere suggestions, which the course creator can choose to manually link to from the module.
 
 Users don't see learning outcomes. They just see lenses and tests.%%
 ## Test:
