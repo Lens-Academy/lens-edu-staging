@@ -42,7 +42,7 @@ Options:
 - **Social Trust:** How trusting others can lead to irrationality. (~5 minutes)
 - **Impression Management:** How attempts to affect or control the ways that others think of us can lead to irrational beliefs and behaviors. (~5 minutes)
 
-What is irrationality?
+What is irrationality? {>>{"author":"Luc","timestamp":1783701555059}@@useful for AIS<<}
 
 This tool talks a lot about irrationality. But what is that?
 
