@@ -536,7 +536,7 @@ Optional extra: The difference between identity and social identity (click to ex
 
 The framework we're using here says that not every aspect of your identity is a social identity. Things like ‘curious’ and ‘fair-minded’ can be important parts of your conception of yourself, hence they can be *identities* - but unless they pertain to membership in a social group, they are not *social* identities. See [here](https://doi.org/10.2307/2695870) for more on this distinction.
 
-### How Social Identities Can Make People Irrational
+{--{"author":"Luc's AI","timestamp":1783702368591}@@###--}{++{"author":"Luc's AI","timestamp":1783702368591}@@####++} How Social Identities Can Make People Irrational
 
 Unfortunately, our social identities sometimes make us act irrationally. Such as when we (often subconsciously) twist or interpret evidence to match conclusions already adopted by our social groups - whether or not the evidence points that way. Here's just one example:
 
@@ -544,7 +544,7 @@ You might think people could agree on the facts during a debate, but research (e
 
 It gets worse. [This study](https://doi.org/10.1017/bpp.2016.2) purports to show that the better you are at reasoning, the more skilled you will be at using those reasoning skills to interpret evidence in a way that supports the ideological beliefs of your social identities (even if the evidence doesn't *really* support those beliefs). The study involved presenting people with the following challenging math problem (which only 41% people were able to answer correctly):
 
-### Here is some data from a clinical trial of a new cream for a skin rash
+{--{"author":"Luc's AI","timestamp":1783702370088}@@###--}{++{"author":"Luc's AI","timestamp":1783702370088}@@####++} Here is some data from a clinical trial of a new cream for a skin rash
 
 Please indicate whether the experiment shows that using the new cream is likely to make the skin condition *better* or *worse*.
 
@@ -564,7 +564,7 @@ The key here is to realize that the group that used the cream has a higher perce
 2. Then calculate the percentage of each of those groups got worse (25.17% and 16.41%, respectively)
 3. Then, compare: a higher proportion of people who used the cream got worse than those that didn't!
 
-### Make it ideological
+{--{"author":"Luc's AI","timestamp":1783702371596}@@###--}{++{"author":"Luc's AI","timestamp":1783702371596}@@####++} Make it ideological
 
 But when people were presented with the same problem dressed up in a different way (so that it was about whether or not gun control measures increase or reduce crime):
 
@@ -578,7 +578,7 @@ Conservative Republicans showed the opposite pattern: they solved the problem we
 
 The study authors concluded that people with higher reasoning skills are especially skilled at interpreting evidence to support the ideologies of their social groups.
 
-### Why we do this
+{--{"author":"Luc's AI","timestamp":1783702372587}@@###--}{++{"author":"Luc's AI","timestamp":1783702372587}@@####++} Why we do this
 
 The authors of [that study](https://doi.org/10.1017/bpp.2016.2) write:
 
@@ -592,7 +592,7 @@ Epistemically irrational ❌
 
 And it's up to you to decide what to do in situations where these two trade off against each other.
 
-### How to prevent irrationality stemming from your social identities
+{--{"author":"Luc's AI","timestamp":1783702374093}@@###--}{++{"author":"Luc's AI","timestamp":1783702374093}@@####++} How to prevent irrationality stemming from your social identities
 
 There aren't peer-reviewed research-based interventions here, but we like [what Ezra Klein suggests](https://bookshop.org/p/books/why-we-re-polarized-ezra-klein/10338540):
 
