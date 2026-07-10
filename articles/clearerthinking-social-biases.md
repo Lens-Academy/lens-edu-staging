@@ -225,7 +225,7 @@ In the end, none of us had wanted to go to Abilene. Yet we had collectively endu
 
 The Abilene Paradox is similar to groupthink. In both cases, people in a group attempt to conform their behavior to what they think the group wants. However, the key fact about the Abilene Paradox is that group members are *mistaken* about what others in the group actually want and still attempt to conform, resulting in irrational behavior.
 
-### Don't be too hard on yourself
+{--{"author":"Luc's AI","timestamp":1783702357589}@@###--}{++{"author":"Luc's AI","timestamp":1783702357589}@@####++} Don't be too hard on yourself
 
 If you’ve experienced this paradox first hand, don’t be too hard on yourself. It has [been dubbed](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4406948) ‘the curse of caring too much’ and it has been posited that it often stems from a combination of
 
@@ -275,7 +275,7 @@ Here's the full list of factors:
 
 To see this discussed in more detail, you can read [this paper](https://www.academia.edu/20039923/The_Abilene_Paradox_After_Thirty_Years).
 
-### How to avoid the Abilene paradox
+{--{"author":"Luc's AI","timestamp":1783702359091}@@###--}{++{"author":"Luc's AI","timestamp":1783702359091}@@####++} How to avoid the Abilene paradox
 
 [This study](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4406948) found that when a group member is the first to give their opinion to the group, they are more likely to truthfully represent their preferences. Given that, the authors recommend avoiding the paradox by ensuring that groups:
 
@@ -307,7 +307,7 @@ Options:
 - Seeking ways to make group members more invested
 - Avoiding blind deference to authority
 
-## Authority Bias
+{--{"author":"Luc's AI","timestamp":1783702355089}@@##--}{++{"author":"Luc's AI","timestamp":1783702355089}@@###++} Authority Bias
 
 Types of Conformity (discussed in this tool):
 
@@ -317,7 +317,7 @@ Authority bias is the tendency to attribute greater credibility to the opinions 
 
 This bias can lead people to accept information or directives from those they perceive as authority figures without critical evaluation.
 
-### Milgram's Obedience Experiments
+{--{"author":"Luc's AI","timestamp":1783702360593}@@###--}{++{"author":"Luc's AI","timestamp":1783702360593}@@####++} Milgram's Obedience Experiments
 
 The concept of authority bias was popularized by psychologist Stanley Milgram whose [obedience experiments, conducted in the 1960s](https://psycnet.apa.org/doi/10.1037/h0040525) have become some of the most famous psychology experiments ever conducted. Milgram intended to investigate how far people would go in obeying an authority figure (in this case, a scientist), even when instructed to perform actions conflicting with their personal morals.
 
@@ -520,7 +520,7 @@ Options:
 - Giving others opportunity to express ideas before you express your own
 - Reflecting on the importance you give to credentials
 
-## Social Identities
+{--{"author":"Luc's AI","timestamp":1783702356084}@@##--}{++{"author":"Luc's AI","timestamp":1783702356084}@@###++} Social Identities
 
 Types of Conformity (discussed in this tool):
 
