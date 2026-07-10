@@ -38,7 +38,13 @@ source:: ![[../Learning Outcomes/IABIED - Distinguish Path Prediction from Outco
 ## Learning Outcome: IABIED - Distinguish Fiction as Argument from Prediction
 source:: ![[../Learning Outcomes/IABIED - Distinguish Fiction as Argument from Prediction]]
 
-# Submodule: Dive Deeper
+# Submodule: {++{"author":"Elias's AI","timestamp":1783684788637}@@Your Leverage
+### Lens: IABIED - Your Leverage
+source:: ![[../Lenses/IABIED - Your Leverage]]
+
+{>>{"author":"Elias's AI","timestamp":1783684788637}@@Week-3 session doc close announces this: participants were told they'd start personal action plans in week 4 (strengths inventory + researching impact paths with the Coach). Responds to the recurring "how do I turn this into action" ask (Noether debrief item 3, Hypatia career Q&A, W2 survey). — Elias<<}
+
+# Submodule: ++}Dive Deeper
 ### Lens: Overview of Optional Resources
 source:: ![[../Lenses/IABIED - Overview of Optional Resources M4]]
 
