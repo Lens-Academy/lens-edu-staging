@@ -9,13 +9,13 @@ tags:
   - "interactive-tool"
 ---
 
-## Nuanced Thinking Techniques
+{--{"author":"Luc's AI","timestamp":1783702492009}@@##--}{++{"author":"Luc's AI","timestamp":1783702492009}@@#++} Nuanced Thinking Techniques
 
 There are two kinds of people in the world: those who divide everybody into two kinds of people, and those who don’t.
 
 Our brains love to dichotomize, to divide reality into neat, binary categories: right or wrong, good or bad, is or is not. This sort of binary thinking is often useful in simple situations, but it can get in the way of our ability to make sense of complex topics. For those, it’s useful to apply **nuanced thinking**.
 
-### In this mini-course, you will:
+{--{"author":"Luc's AI","timestamp":1783702493498}@@###--}{++{"author":"Luc's AI","timestamp":1783702493498}@@##++} In this mini-course, you will:
 
 Learn to **recognize 3 common binary thinking traps** that you may be falling into.
 
@@ -25,7 +25,7 @@ Learn to **use 3 nuanced thinking techniques** to resist false dichotomies, deve
 
 _(button: Let’s get started!)_
 
-### What is binary thinking?
+{--{"author":"Luc's AI","timestamp":1783702494499}@@###--}{++{"author":"Luc's AI","timestamp":1783702494499}@@##++} What is binary thinking?
 
 What do the following statements have in common?
 
@@ -75,7 +75,7 @@ Multi-factor thinking 📊
 
 _(button: First up, probabilistic thinking)_
 
-### Technique #1: Probabilistic Thinking
+{--{"author":"Luc's AI","timestamp":1783702496000}@@###--}{++{"author":"Luc's AI","timestamp":1783702496000}@@##++} Technique #1: Probabilistic Thinking
 
 A common thinking trap is the **truth binary: having absolute certainty in whether something is true or not.**
 
