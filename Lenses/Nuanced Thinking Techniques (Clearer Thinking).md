@@ -6,6 +6,7 @@ tags:
 #### Embed
 source:: [[../articles/clearerthinking-nuanced-thinking-techniques]]
 
+%%
 #### Chat
 instructions::
 The learner has just worked through Clearer Thinking's interactive "Nuanced Thinking Techniques" mini-course, embedded on this page. The tool teaches three binary-thinking traps and the nuanced-thinking technique that counters each: 
