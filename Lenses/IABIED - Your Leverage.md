@@ -1,5 +1,6 @@
 ---
-summary_for_tutor: Action-plan seed for Module 4. After the extinction scenario, students inventory their strengths, then research with the tutor where someone with their profile could plausibly contribute to AI safety. The tutor acts as an honest career-exploration partner, not a cheerleader, and never lets the exchange end fatalistic.
+{++{"author":"Elias's AI","timestamp":1783685908669}@@id: 2fa06534-a9b0-4bab-b906-1f2f7db1c99e
+++}summary_for_tutor: Action-plan seed for Module 4. After the extinction scenario, students inventory their strengths, then research with the tutor where someone with their profile could plausibly contribute to AI safety. The tutor acts as an honest career-exploration partner, not a cheerleader, and never lets the exchange end fatalistic.
 title: Your Leverage
 tldr: The scenario you just read is grim on purpose. This is where you stop spectating: map what you're unusually good at, then find where it bites on the problem.
 authors:
