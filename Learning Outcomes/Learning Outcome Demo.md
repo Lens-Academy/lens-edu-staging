@@ -22,4 +22,4 @@ max-chars:: 500
 # Suggsted Lenses:
 ## Lens:
 source:: [[../Lenses/Dummy lens 3]]
-notes:: These are internal notes to help us 
+notes:: These are internal notes, e.g. to help decide wh
