@@ -418,7 +418,9 @@ And that's the end of the section exploring the third and final nuanced thinking
 
 _(button: Let's wrap things up)_
 
-This mini-course has explored three traps of binary thinking and three different nuanced thinking techniques for avoiding it:
+{++{"author":"Luc's AI","timestamp":1783702506504}@@## Summary
+
+++}This mini-course has explored three traps of binary thinking and three different nuanced thinking techniques for avoiding it:
 
 ### (1) Probabilistic thinking 🎲
 
@@ -467,7 +469,9 @@ Options:
 
 _(button: Go to Scenario #2)_
 
-You’re an entrepreneur planning out a new business venture. You realize that there are many unknowns that could affect your new company’s success and it's unlikely everything will go exactly as planned.
+{++{"author":"Luc's AI","timestamp":1783702508001}@@### Scenario #2
+
+++}You’re an entrepreneur planning out a new business venture. You realize that there are many unknowns that could affect your new company’s success and it's unlikely everything will go exactly as planned.
 
 To give yourself the best chance of success, you want to avoid being certain about your assumptions and instead consider how likely it is for different things to happen, so you can plan accordingly.
 
@@ -482,7 +486,9 @@ Options:
 
 _(button: Go to Scenario #3)_
 
-You work in a college admissions office reviewing applications and deciding who is a good fit for the university. Rather than solely filtering applicants by GPA or test score, you want to look at each one holistically, getting a better picture of who they are as individuals across many different facets.
+{++{"author":"Luc's AI","timestamp":1783702510053}@@### Scenario #3
+
+++}You work in a college admissions office reviewing applications and deciding who is a good fit for the university. Rather than solely filtering applicants by GPA or test score, you want to look at each one holistically, getting a better picture of who they are as individuals across many different facets.
 
 **That's right!** ✅
 
@@ -508,7 +514,7 @@ Click here to view all of your results.
 
 {--{"author":"Luc's AI","timestamp":1783702503503}@@###--}{++{"author":"Luc's AI","timestamp":1783702503503}@@##++} Thank you for using our tool!
 
-### Credits
+{--{"author":"Luc's AI","timestamp":1783702504529}@@###--}{++{"author":"Luc's AI","timestamp":1783702504529}@@##++} Credits
 
 **Program created by**:
 [Spencer Greenberg](http://www.spencergreenberg.com)
