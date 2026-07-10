@@ -10,5 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-## Lens:
-source:: ![[../Lenses/EA Intro - We Are in Triage Every Second of Every Day]]
+{++{"author":"Luc's AI","timestamp":1783722582014}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722582014}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722582014}@@[[../Lenses/EA++} Intro - We Are in Triage Every Second of Every Day]]

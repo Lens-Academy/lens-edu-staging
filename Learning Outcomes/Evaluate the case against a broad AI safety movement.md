@@ -4,14 +4,14 @@ learning-outcome: Evaluate movement-strategy critiques of AI safety advocacy —
 tags:
   - learning outcome
 ---
-## Lens:
+{--{"author":"Luc's AI","timestamp":1783722582617}@@## Lens:
 source:: [[../Lenses/Mistakes the AI safety movement has made]]
 ## Lens:
 source:: [[../Lenses/Don't build an AI safety movement]]
 ## Lens:
 optional:: true
 source:: [[../Lenses/Mapping the AI safety movement]]
-## Test:
+--}## Test:
 id:: 8215f188-d4bc-45ba-9661-55c6c7666c4b
 #### Question
 feedback:: true

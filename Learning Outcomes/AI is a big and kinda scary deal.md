@@ -7,8 +7,10 @@ tags:
 ---
 ## Test:
 
-## Lens:
-source:: ![[../Lenses/A.I. - Humanity's Final Invention]]
+{++{"author":"Luc's AI","timestamp":1783722580887}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722580887}@@![[../Lenses/A.I.--}{++{"author":"Luc's AI","timestamp":1783722580887}@@[[../Lenses/A.I.++} - Humanity's Final Invention]]
 
 ## Lens:
 source::
