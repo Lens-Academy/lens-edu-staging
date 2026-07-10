@@ -10,7 +10,5 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-#### Article
-source:: [[../articles/wiblin-how-can-you-figure-out-which-global-problem-is-most-pressing]]
-
-[[]]
+## Lens:
+source:: [[../Lenses/wiblin-how-can-you-figure-out-which-global-problem-is-most-pressing]]
