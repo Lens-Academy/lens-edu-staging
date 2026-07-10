@@ -337,7 +337,7 @@ Milgram's experiments are controversial, but they're worth discussing because of
 
 _(button: Can you guess the experiment outcomes?)_
 
-### Can you guess the outcome?
+{--{"author":"Luc's AI","timestamp":1783702361592}@@###--}{++{"author":"Luc's AI","timestamp":1783702361592}@@####++} Can you guess the outcome?
 
 Milgram ran lots of different versions of his obedience experiments, all with slight variations, to discover more about the conditions under which ordinary people would commit awful acts because an authority figure told them to. Each of the different experimental conditions was tested on a small sample of people (either 20 or 40). We're going to see how well you can predict the outcomes of 3 of them.
 
@@ -354,7 +354,7 @@ This condition is like the baseline condition but with the teacher (participant)
 **Experiment 3: Group pressure to disobey** (40 participants)
 This condition is like the baseline condition but with three teachers: two are actors who defy the scientist. The scientist urges the participant teacher to continue shocks.
 
-### Can you tell which of these graphs shows the correct results?
+{--{"author":"Luc's AI","timestamp":1783702363109}@@###--}{++{"author":"Luc's AI","timestamp":1783702363109}@@####++} Can you tell which of these graphs shows the correct results?
 
 Here, 'obeying' means not ending the experiment and going all the way to administering (what participants were told was) 450V shocks to the learner.
 
@@ -483,7 +483,7 @@ Like baseline condition but the learner is a friend or relative of the teacher (
 
 Numbers and descriptions taken from [this source](https://pmc.ncbi.nlm.nih.gov/articles/PMC3976349/).
 
-### Objections to Milgram
+{--{"author":"Luc's AI","timestamp":1783702364590}@@###--}{++{"author":"Luc's AI","timestamp":1783702364590}@@####++} Objections to Milgram
 
 Milgram's experiments are widely known and influential, but they have faced criticism. Below, you'll find some of these objections. Whether these challenges are enough to discredit Milgram's findings is debated — many argue they are, while many others disagree. We've included the experiments here because they effectively illustrate the concept of authority bias (which is otherwise-supported by research), and we believe there is value in thinking critically about some of psychology's most famous studies. Key objections include:
 
@@ -497,7 +497,7 @@ Click here to see some reasons to doubt Milgram's findings
 
 4️⃣ Some researchers [have argued](https://doi.org/10.1111/j.1467-9248.1985.tb01584.x) that **Milgram's findings do not tell us anything generalizable about people's attitudes towards authority**, while [others argue](https://doi.org/10.1016/0191-8869(90)90183-R) that **there is no such thing as a generalized attitude towards all forms of authority.** Instead, people tend to feel differently about different cases of authority (teachers, police, etc).
 
-### How to avoid authority bias
+{--{"author":"Luc's AI","timestamp":1783702366085}@@###--}{++{"author":"Luc's AI","timestamp":1783702366085}@@####++} How to avoid authority bias
 
 Beyond the Milgram experiments, authority bias has been documented in a variety of [other](https://psycnet.apa.org/doi/10.1111/j.1559-1816.1974.tb02599.x) [studies](https://www.academia.edu/7855636/Influence_The_Psychology_of_Persuasion) as well.
 
@@ -524,7 +524,7 @@ Options:
 
 Types of Conformity (discussed in this tool):
 
-### What are social identities?
+{--{"author":"Luc's AI","timestamp":1783702367086}@@###--}{++{"author":"Luc's AI","timestamp":1783702367086}@@####++} What are social identities?
 
 We each have many social identities. A social identity can be [defined as follows](https://books.google.co.uk/books/about/Human_Groups_and_Social_Categories.html?id=ldA8AAAAIAAJ&redir_esc=y):
 
