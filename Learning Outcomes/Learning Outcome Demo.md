@@ -24,9 +24,9 @@ max-chars:: 500
 
 In the future, having lenses in this list will also instruct our backend to calculate how well those lenses perform at helping learner achieve the learning outcome, based on A/B testing. %%
 ## Lens:
-source:: [[../Lenses/Dummy lens 2]]
+source:: [[../Lenses/Dummy lens]]
 notes:: 
 These are internal notes about how the Lens pertains to this learning outcome, e.g. to help decide whether this lens is a good fit for the module the course developer is creating.
 ## Lens:
-source:: [[../Lenses/Dummy lens 3]]
+source:: [[../Lenses/Dummy lens 2]]
 notes:: 
