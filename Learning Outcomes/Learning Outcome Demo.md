@@ -19,5 +19,6 @@ content:: In your own words, what are the two basic parts of a learning outcome?
 assessment-instructions:: A good answer says that a learning outcome has a test and one or more supporting lenses that help the learner prepare for that test.
 max-chars:: 500
 
+
 ## Lens:
 source:: [[../Lenses/Dummy lens 3]]
