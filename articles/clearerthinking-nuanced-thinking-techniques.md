@@ -3,6 +3,7 @@ title: "Nuanced Thinking Techniques"
 author:
   - "Clearer Thinking"
 source_url: "https://programs.clearerthinking.org/nuanced_thinking_techniques.html"
+published: "2026-07-10"
 description: "An interactive mini-course on recognizing three binary-thinking traps and applying three nuanced-thinking techniques: probabilistic thinking, gray thinking, and multi-factor thinking."
 tags:
   - "interactive-tool"
