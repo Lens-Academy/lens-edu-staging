@@ -42,7 +42,7 @@ Options:
 - **Social Trust:** How trusting others can lead to irrationality. (~5 minutes)
 - **Impression Management:** How attempts to affect or control the ways that others think of us can lead to irrational beliefs and behaviors. (~5 minutes)
 
-What is irrationality? {>>{"author":"Luc","timestamp":1783701555059}@@useful for AIS<<}
+{++{"author":"Luc's AI","timestamp":1783702351093}@@## ++}What is irrationality? {>>{"author":"Luc","timestamp":1783701555059}@@useful for AIS<<}
 
 This tool talks a lot about irrationality. But what is that?
 
@@ -79,7 +79,7 @@ In this tool, we'll be discussing four types of conformity bias:
 
 Let's get started with the first one.
 
-## Groupthink
+{--{"author":"Luc's AI","timestamp":1783702352599}@@##--}{++{"author":"Luc's AI","timestamp":1783702352599}@@###++} Groupthink
 {>>{"author":"Luc","timestamp":1783701585659}@@not as useful for AIS?<<}{>>{"author":"Luc","timestamp":1783701609720}@@oh actually, maybe it applies a lot to the labs<<}
 
 **'Groupthink'** is a term popularized by psychologist [Irving Janis](https://archive.org/details/janis_groupthink/page/n9/mode/2up). It is deliberately phrased as a single word, in order to evoke comparisons with the dystopian modes of thinking that George Orwell described in his book *Nineteen Eighty-Four* - such as *'doublethink'* and *'crimethink.'*
@@ -201,7 +201,7 @@ Options:
 - Analyzing Rival Intentions
 - Second-Chance Meetings
 
-## The Abilene Paradox
+{--{"author":"Luc's AI","timestamp":1783702353602}@@##--}{++{"author":"Luc's AI","timestamp":1783702353602}@@###++} The Abilene Paradox
 
 ### What is it?
 
