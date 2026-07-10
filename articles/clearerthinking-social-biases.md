@@ -203,7 +203,7 @@ Options:
 
 {--{"author":"Luc's AI","timestamp":1783702353602}@@##--}{++{"author":"Luc's AI","timestamp":1783702353602}@@###++} The Abilene Paradox
 
-### What is it?
+{--{"author":"Luc's AI","timestamp":1783702402284}@@###--}{++{"author":"Luc's AI","timestamp":1783702402284}@@####++} What is it?
 
 The Abilene Paradox occurs when a group makes a decision that nobody (or nearly nobody) in the group wants, because each member of the group believes it is the preferred option of the majority of members, so each member stays quiet about the fact that they don't like that option.
 
