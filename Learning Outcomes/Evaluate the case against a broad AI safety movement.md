@@ -27,4 +27,14 @@ max-chars:: 700
 feedback:: true
 content:: Give one concrete mistake the AI safety movement is said to have made, and one lesson it could take from other social movements (e.g. climate, nuclear, animal welfare).
 assessment-instructions:: For the mistake, credit any from the synthesis: insularity/echo-chamber, neglecting policy and coalitions for too long, off-putting extremeness or weirdness, over-concentration in a few orgs/funders, communication missteps. For the cross-movement lesson, credit any reasonable one grounded in the material: insider vs mass-movement trade-offs, coalition-building, avoiding polarization, the role of protest/mobilization (e.g. Social Change Lab's application of movement research). Award 4-5 for a concrete mistake plus a genuine cross-movement lesson; 3 for one strong and one weak; 1-2 if generic or unsupported. Accept paraphrase.
-max-chars:: 600
+max-chars:: 600{++{"author":"Luc's AI","timestamp":1783722589535}@@
+
+# Suggested Lenses:
+## Lens:
+source:: [[../Lenses/Mistakes the AI safety movement has made]]
+
+## Lens:
+source:: [[../Lenses/Don't build an AI safety movement]]
+
+## Lens:
+source:: [[../Lenses/Mapping the AI safety movement]]++}

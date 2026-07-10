@@ -9,6 +9,7 @@ tags:
 
 ## Test:
 
-## Lens:
-optional:: true
-source:: ![[../Lenses/IABIED - QA - Isn't This Just Science Fiction]]
+{--{"author":"Luc's AI","timestamp":1783722660141}@@## Lens:--}{++{"author":"Luc's AI","timestamp":1783722660141}@@
+# Suggested Lenses:++}
+{--{"author":"Luc's AI","timestamp":1783722660141}@@optional:: true--}{++{"author":"Luc's AI","timestamp":1783722660141}@@## Lens:++}
+source:: {--{"author":"Luc's AI","timestamp":1783722660141}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722660141}@@[[../Lenses/IABIED++} - QA - Isn't This Just Science Fiction]]

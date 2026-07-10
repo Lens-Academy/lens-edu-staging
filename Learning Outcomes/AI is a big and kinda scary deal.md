@@ -14,4 +14,4 @@ source:: {--{"author":"Luc's AI","timestamp":1783722580887}@@![[../Lenses/A.I.--
 
 ## Lens:
 source::
-![[../Lenses/Wikipedia Existential Risk]]
+{--{"author":"Luc's AI","timestamp":1783722586993}@@![[../Lenses/Wikipedia--}{++{"author":"Luc's AI","timestamp":1783722586993}@@[[../Lenses/Wikipedia++} Existential Risk]]

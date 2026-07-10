@@ -32,8 +32,10 @@ Score according to the following rubric.
 
 **5**: As above, plus productively interrogates the classification itself: what assumptions make something "reliable enough" to be an easy call, or whether the authors have actually established that. *Example: "I'd want to push back on whether the mechanism really does make the outcome inevitable. The easy/hard framework assumes we know enough about how capable AI behaves to treat it like an ice cube melting, but do we?"*
 
-## Lens:
-source:: ![[../Lenses/IABIED - PQ - Hard Calls and Easy Calls]]
+{++{"author":"Luc's AI","timestamp":1783722646120}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722646120}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722646120}@@[[../Lenses/IABIED++} - PQ - Hard Calls and Easy Calls]]
 
 ## Lens:
-source:: ![[../Lenses/IABIED - Hard Calls and Easy Calls]]
+source:: {--{"author":"Luc's AI","timestamp":1783722646120}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722646120}@@[[../Lenses/IABIED++} - Hard Calls and Easy Calls]]

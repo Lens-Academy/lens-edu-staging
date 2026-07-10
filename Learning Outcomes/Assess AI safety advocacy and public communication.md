@@ -4,11 +4,11 @@ learning-outcome: Assess the case for public AI safety advocacy — the inside-g
 tags:
   - learning outcome
 ---
-## Lens:
+{--{"author":"Luc's AI","timestamp":1783722707862}@@## Lens:
 source:: [[../Lenses/The case for public AI safety advocacy]]
 ## Lens:
 source:: [[../Lenses/AI safety communications strategy]]
-## Test:
+--}## Test:
 id:: 821efa8f-6625-4c92-a461-c2e225cfb59a
 #### Question
 feedback:: true
@@ -24,4 +24,11 @@ max-chars:: 700
 feedback:: true
 content:: Name and briefly explain two risks that public AI safety advocacy has to manage.
 assessment-instructions:: Credit any two well-explained risks from the material: political polarization / partisan capture; backfire or reputational damage to the cause; capture by simplistic or fringe framings; accuracy-vs-virality tension; differential-development concerns (raising salience of capabilities). Award 4-5 for two risks each with a mechanism; 3 for two named risks with thin explanation; 1-2 for one or vague. Accept paraphrase.
-max-chars:: 500
+max-chars:: 500{++{"author":"Luc's AI","timestamp":1783722713500}@@
+
+# Suggested Lenses:
+## Lens:
+source:: [[../Lenses/The case for public AI safety advocacy]]
+
+## Lens:
+source:: [[../Lenses/AI safety communications strategy]]++}

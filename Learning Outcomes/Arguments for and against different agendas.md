@@ -5,7 +5,7 @@ learning-outcome: "Meta/personal level LO: Explain the pre-paradigmatic nature o
 tags:
   - learning outcome
 ---
-
+{--{"author":"Luc's AI","timestamp":1783722681151}@@
 
 # Submodule: Automating Alignment
 ## Lens: (Automating alignment)
@@ -90,7 +90,7 @@ optional:: false
 source:: [[../Lenses/Realism about rationality]]
 
 # Submodule: Test Your Understanding
-
+--}
 ## Test:
 id:: be1e845f-9faf-4508-b07e-83fb829c5a71
 
@@ -111,4 +111,63 @@ enforce-voice:: true
 #### Question
 content:: What would you trust more: behavior based evidence that a model is unsafe, or mechanistic evidence, and what could change your mind? You can type your answer or record it using the microphone.
 assessment-instructions:: Check that the student (1) clearly states a preference (behavioral vs mechanistic, or a conditional mix), (2) gives at least one concrete reason, and (3) names specific mind-changers: an example of new evidence, a stronger method, or a scenario where the other type would dominate. Reward nuance about false positives/negatives, distribution shift, and limits of mechanistic access.
-enforce-voice:: true
+enforce-voice:: true{++{"author":"Luc's AI","timestamp":1783722694071}@@
+
+# Suggested Lenses:
+## Lens:
+source:: [[../Lenses/Automating Alignment]]
+
+## Lens:
+source:: [[../Lenses/AI for AI safety]]
+
+## Lens:
+source:: [[../Lenses/Carefully Bootstrapped Alignment Is Organizationally Hard]]
+
+## Lens:
+source:: [[../Lenses/Mechanistic Interpretability]]
+
+## Lens:
+source:: [[../Lenses/Introduction to Mechanistic Interpretability]]
+
+## Lens:
+source:: [[../Lenses/MI for AGI Safety]]
+
+## Lens:
+source:: [[../Lenses/Interpretability Will Not Reliably Find Deceptive AI]]
+
+## Lens:
+source:: [[../Lenses/AI Evaluations]]
+
+## Lens:
+source:: [[../Lenses/A starter guide for evals]]
+
+## Lens:
+source:: [[../Lenses/We Need A Science of Evals]]
+
+## Lens:
+source:: [[../Lenses/What AI evaluations for preventing catastrophic risks can and cannot do]]
+
+## Lens:
+source:: [[../Lenses/AI Control]]
+
+## Lens:
+source:: [[../Lenses/The case for ensuring that powerful AIs are controlled]]
+
+## Lens:
+source:: [[../Lenses/AI Control May Increase Existential Risk]]
+
+## Lens:
+source:: [[../Lenses/The Case Against AI Control Research]]
+
+## Lens:
+source:: [[../Lenses/Agent Foundations]]
+
+## Lens:
+source:: [[../Lenses/AF not really math not really science]]
+
+## Lens:
+source:: [[../Lenses/Embedded agents]]
+
+## Lens:
+source:: [[../Lenses/Realism about rationality]]
+++}

@@ -32,10 +32,14 @@ Score according to the following rubric.
 
 **5**: As above, plus applies the framework to a novel case, demonstrating they own the vocabulary, not just recall it. *Example: Classifies a specific system (animal, AI, institution) using prediction + steering + generality and explains where it sits on the spectrum.*
 
-## Lens:
-source:: ![[../Lenses/IABIED - Define Intelligence - PQ]]
+{++{"author":"Luc's AI","timestamp":1783722598544}@@
+# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1783722598544}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722598544}@@[[../Lenses/IABIED++} - Define Intelligence - PQ]]
 
 ## Lens:
-source:: ![[../Lenses/IABIED - Define Intelligence]]
+source:: {--{"author":"Luc's AI","timestamp":1783722598544}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722598544}@@[[../Lenses/IABIED++} - Define Intelligence]]{--{"author":"Luc's AI","timestamp":1783722598544}@@
 
 
+--}{++{"author":"Luc's AI","timestamp":1783722598544}@@
+++}
