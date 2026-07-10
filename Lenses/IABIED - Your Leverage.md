@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1783685246310}@@---
+{++{"author":"Elias's AI","timestamp":1783685258107}@@---
 summary_for_tutor: Action-plan seed for Module 4. After the extinction scenario, students inventory their strengths, then research with the tutor where someone with their profile could plausibly contribute to AI safety. The tutor acts as an honest career-exploration partner, not a cheerleader, and never lets the exchange end fatalistic.
 title: Your Leverage
 tldr: The scenario you just read is grim on purpose. This is where you stop spectating: map what you're unusually good at, then find where it bites on the problem.
@@ -18,7 +18,7 @@ You've just read the book's darkest stretch. The authors' point isn't despair. I
 #### Question
 content::
 \## Phase 1: Your strengths
-Take 5 minutes and write freely — speech-to-text works well here. What are you unusually good at, or unusually well-positioned for? Touch on any of:
+Take 5 minutes and write freely; speech-to-text works well here. What are you unusually good at, or unusually well-positioned for? Touch on any of:
 - Skills and training (technical or not)
 - Where you are in your career, and who you know
 - What people come to you for
