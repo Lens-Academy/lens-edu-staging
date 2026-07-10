@@ -34,7 +34,7 @@ source:: [[../Learning Outcomes/Learning Outcome Demo|Demo learning outcome]]
 
 %% A module can contain as many learning outcomes and lenses as you want. 
 
-Each learning outcome shows to the user as one test page, and each lens shows to the user as one content page. 
+Each learning outcome is shown to the user as one test page, and each lens is shown to the user as one content page. 
 
 The lenses and tests show in the same order in the learner's UI as the order of the lenses and learning outcomes in this module file. %%
 
