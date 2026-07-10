@@ -11,17 +11,14 @@ By the way, anything in-between double percentage marks is treated as a comment 
 
 In this course file, we define modules and meetings.%%
 # Module: [[../modules/main-demo-module|Demo basics]]
+# Module: [[../modules/min-chat-messages-demo|Interaction requirements demo]]
 # Meeting: Name of the first meeting
 
 %% Meetings automatically split the material up into weeks. This first module will be in week 1, followed by the above meeting.
 
 The following two modules will be in week 2, followed by the next meeting %%
 # Module: [[../modules/demo-module-with-submodules|Submodules demo]]
-
 # Module: [[../modules/demo-module-with-hidden-imports|Hidden imports demo]]
-
-%% Lenses can require interaction before learners may mark them complete: a minimum number of chat messages, or an answered question. The next module explains the `min-chat-messages::` field and demonstrates each case. %%
-# Module: [[../modules/min-chat-messages-demo|Interaction requirements demo]]
 
 # Meeting: Name of the second meeting
 
