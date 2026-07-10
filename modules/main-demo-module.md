@@ -44,7 +44,7 @@ Take a look at the following Lens: %%
 # Lens:
 source:: [[../Lenses/Article excerpt demo]]
 
-%% After you've looked at the above Now look at this one: %%
+%% After you've looked at the above Lens, take a look at this next one: %%
 # Lens:
 source:: [[../Lenses/Article annotation and text collapse demo]]
 
