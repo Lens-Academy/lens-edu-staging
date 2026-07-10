@@ -26,19 +26,19 @@ optional:: true
 source:: [[../Lenses/Eliezer Yudkowsky – AI Alignment- Why It's Hard, and Where to Start]]
 
 # ++}Learning Outcome:
-optional:: false
-source:: [[../Learning Outcomes/Explain the fundamental difficulties of AI alignment]]
+{--{"author":"Luc's AI","timestamp":1783725335843}@@optional:: false
+--}source:: [[../Learning Outcomes/Explain the fundamental difficulties of AI alignment]]
 
 {++{"author":"Luc's AI","timestamp":1783723023472}@@# Lens:
 source:: [[../Lenses/6 reasons why it's not intuitive that alignment is hard]]
 
 ++}# Learning Outcome:
-optional:: false
-source:: [[../Learning Outcomes/Explain why alignment feels counterintuitive]]
+{--{"author":"Luc's AI","timestamp":1783725337011}@@optional:: false
+--}source:: [[../Learning Outcomes/Explain why alignment feels counterintuitive]]
 
 # {++{"author":"Luc's AI","timestamp":1783723030646}@@Lens:
 source:: [[../Lenses/Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AIst outcomes]]
 
 # ++}Learning Outcome:
-optional:: false
-source:: [[../Learning Outcomes/Explain why default outcome is bad - 101]]
+{--{"author":"Luc's AI","timestamp":1783725338847}@@optional:: false
+--}source:: [[../Learning Outcomes/Explain why default outcome is bad - 101]]
