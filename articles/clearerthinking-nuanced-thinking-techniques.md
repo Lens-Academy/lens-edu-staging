@@ -231,7 +231,7 @@ Nice work on this section. It's time to move onto the second nuanced thinking te
 
 _(button: I’m ready to learn about gray thinking!)_
 
-### Technique #2: Gray Thinking
+{--{"author":"Luc's AI","timestamp":1783702497497}@@###--}{++{"author":"Luc's AI","timestamp":1783702497497}@@##++} Technique #2: Gray Thinking
 
 You just learned about probabilistic thinking, an antidote to the truth binary.
 
@@ -334,7 +334,7 @@ You’ve completed the gray thinking section! Now it’s time to explore the thi
 
 _(button: Let's dive in! What's multi-factor thinking?)_
 
-### Technique #3: Multi-factor Thinking
+{--{"author":"Luc's AI","timestamp":1783702499002}@@###--}{++{"author":"Luc's AI","timestamp":1783702499002}@@##++} Technique #3: Multi-factor Thinking
 
 You just learned about gray thinking, an antidote to the goodness binary.
 
@@ -444,7 +444,7 @@ Options:
 - Yes, let’s do it.
 - No thanks, let’s go to the end of the mini-course
 
-### Nuanced Thinking Quiz
+{--{"author":"Luc's AI","timestamp":1783702500885}@@###--}{++{"author":"Luc's AI","timestamp":1783702500885}@@##++} Nuanced Thinking Quiz
 
 In the following three hypothetical scenarios, decide which of the three nuanced thinking techniques would be most helpful for you.
 
@@ -490,7 +490,7 @@ You work in a college admissions office reviewing applications and deciding who 
 
 _(button: Wrap things up)_
 
-### Optional emailed report
+{--{"author":"Luc's AI","timestamp":1783702501992}@@###--}{++{"author":"Luc's AI","timestamp":1783702501992}@@##++} Optional emailed report
 
 This is **completely optional** but, if you choose, you can have your personal report emailed to you. Either way, you can view your report in your browser in the next couple of pages.
 
@@ -506,7 +506,7 @@ Click here to view all of your results.
 
 *For more tools, tests, and teachings to help you change your habits, make better decisions, and achieve your goals, check out our new exercises on* [ClearerThinking.org](https://www.clearerthinking.org/tools).
 
-### Thank you for using our tool!
+{--{"author":"Luc's AI","timestamp":1783702503503}@@###--}{++{"author":"Luc's AI","timestamp":1783702503503}@@##++} Thank you for using our tool!
 
 ### Credits
 
