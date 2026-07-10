@@ -22,3 +22,4 @@ max-chars:: 500
 # Suggsted Lenses:
 ## Lens:
 source:: [[../Lenses/Dummy lens 3]]
+notes:: hello world
