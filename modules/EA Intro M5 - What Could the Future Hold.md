@@ -14,7 +14,8 @@ id:: c0760b34-1eee-46ce-9c4b-004a45c7d68b
 #### Text
 content:: {>>TODO: add module welcome text (~67 min module)<<}
 # Lens: What Could the Future Hold Introduction
-source:: ![[../Lenses/EA Intro - What Could the Future Hold Introduction]]
+source:: ![[../Lenses/EA Intro - What Could the Future Hold Introduction]]{++{"author":"Luc's AI","timestamp":1783723804448}@@
+{>>{"author":"Luc's AI","timestamp":1783723804448}@@Review note: this intro lens is imported here AND is a suggested lens of the 'Articulate the Case For and Against Longtermism' outcome, so the migration also inserted it at the start of the first submodule below. The old auto-import rendered it twice; keep whichever occurrence you prefer and drop the other.<<}++}
 
 # Submodule: The case for and against longtermism{++{"author":"Luc's AI","timestamp":1783723230324}@@
 

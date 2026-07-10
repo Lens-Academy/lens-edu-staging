@@ -58,7 +58,8 @@ source:: ![[../Lenses/IABIED - AI Safety Career Paths]]
 
 # Lens:
 optional:: true
-source:: ![[../Lenses/IABIED - Next Steps with Lens Academy]]++}
+source:: ![[../Lenses/IABIED - Next Steps with Lens Academy]]++}{++{"author":"Luc's AI","timestamp":1783723774076}@@
+{>>{"author":"Luc's AI","timestamp":1783723774076}@@Review note: 'AI Safety Career Paths' and 'Next Steps with Lens Academy' were suggested lenses of this Learning Outcome AND are also imported below as hidden card targets (optional+hide). The old auto-import rendered both copies, so both are kept to preserve current behavior — you may want to drop one occurrence.<<}++}
 
 # Learning Outcome: IABIED - Identify Your Path Forward
 source:: ![[../Learning Outcomes/Identify Your Path Forward]]

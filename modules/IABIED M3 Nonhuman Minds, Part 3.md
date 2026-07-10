@@ -62,7 +62,8 @@ source:: ![[../Lenses/IABIED - QA - AI Find Us Useful]]
 
 # Lens:
 optional:: true
-source:: ![[../Lenses/IABIED - QA - AI Find Us Fascinating]]++}
+source:: ![[../Lenses/IABIED - QA - AI Find Us Fascinating]]++}{++{"author":"Luc's AI","timestamp":1783723748052}@@
+{>>{"author":"Luc's AI","timestamp":1783723748052}@@Review note: 'AI Find Us Useful' and 'AI Find Us Fascinating' were suggested lenses of this Learning Outcome AND are also imported further down in this module as hidden card targets (optional+hide). The old auto-import rendered both copies, so both are kept here to preserve current behavior — but you may want to drop one occurrence.<<}++}
 
 # Learning Outcome: IABIED - Distinguish Hostile from Indifferent AI
 source:: ![[../Learning Outcomes/IABIED - Distinguish Hostile from Indifferent AI]]
