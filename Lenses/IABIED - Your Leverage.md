@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1783685258107}@@---
+{++{"author":"Elias's AI","timestamp":1783685271742}@@---
 summary_for_tutor: Action-plan seed for Module 4. After the extinction scenario, students inventory their strengths, then research with the tutor where someone with their profile could plausibly contribute to AI safety. The tutor acts as an honest career-exploration partner, not a cheerleader, and never lets the exchange end fatalistic.
 title: Your Leverage
 tldr: The scenario you just read is grim on purpose. This is where you stop spectating: map what you're unusually good at, then find where it bites on the problem.
@@ -27,7 +27,7 @@ Take 5 minutes and write freely; speech-to-text works well here. What are you un
 
 assessment-instructions:: The student has just read Chapters 7–9 and the Coda of "If Anyone Builds It, Everyone Dies" (the extinction scenario) and written a free inventory of their strengths, position, and constraints.
 
-Your role: act as a brief, honest mirror — not a cheerleader.
+Your role: act as a brief, honest mirror, not a cheerleader.
 
 Response length: 80–150 words. Short paragraphs only. No lists.
 
