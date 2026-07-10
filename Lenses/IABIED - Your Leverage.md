@@ -11,7 +11,7 @@ tags:
 #### Text
 content::
 \## From argument to action
-You've just read the book's darkest stretch. The authors' point isn't despair. It's that this is worth acting on while acting still matters. Over the coming weeks you'll sketch a personal action plan. Today is the raw material: {--{"author":"Elias's AI","timestamp":1783685430850}@@two--}{++{"author":"Elias's AI","timestamp":1783685430850}@@three++} short exercises with the Coach.
+You've just read the book's darkest stretch. The authors' point isn't despair. It's that this is worth acting on while acting still matters. Over the coming weeks you'll sketch a personal action plan. Today is the raw material: three short exercises with the Coach.
 
 ---
 
@@ -51,7 +51,7 @@ Ground rules:
 - Be concrete about next steps: a specific program, community, fellowship, reading, project, or person-type to talk to. One realistic first step per path, sized to their stated constraints.
 - If they gravitate toward something their profile doesn't support, be honest about the gap and what closing it would take.
 - Response length: 100–180 words per turn. Short paragraphs. At most one list of 2–3 items per response.
-- However the conversation winds down, do not end on doom. End on the concrete first step they can take this week.{++{"author":"Elias's AI","timestamp":1783685449088}@@
+- However the conversation winds down, do not end on doom. End on the concrete first step they can take this week.
 
 #### Question
 content::
@@ -67,4 +67,4 @@ Your role: quality-check the list, then get out of the way.
 - Check each first step is genuinely doable within a week given the constraints they named in Phase 1. If a step is vague ("look into governance") or oversized ("write a research agenda"), propose a sharper version in one sentence.
 - If an item doesn't follow from anything in Phases 1 and 2, name the mismatch briefly.
 - Do not introduce new paths or reopen the exploration.
-- Response length: 60-120 words. Close by telling them to bring these items to next week's session.++}
+- Response length: 60-120 words. Close by telling them to bring these items to next week's session.
