@@ -19,7 +19,7 @@ content:: In your own words, what are the two basic parts of a learning outcome?
 assessment-instructions:: A good answer says that a learning outcome has a test and one or more supporting lenses that help the learner prepare for that test.
 max-chars:: 500
 
-# Suggsted Lenses:
+# Suggested Lenses:
 %% These suggested lenses mostly exist to make the life of the course creator easier, by helping them think about which lenses to consider using in a module that uses this learning outcome.
 
 In the future, having lenses in this list will also instruct our backend to calculate how well those lenses perform at helping learner achieve the learning outcome, based on A/B testing. %%

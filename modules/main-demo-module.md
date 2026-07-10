@@ -35,7 +35,7 @@ source:: [[../Learning Outcomes/Learning Outcome Demo|Demo learning outcome]]
 
 Each learning outcome is shown to the user as one test page, and each lens is shown to the user as one content page. 
 
-The lenses and tests show in the same order in the learner's UI as the order of the lenses and learning outcomes in this module file. %%
+The lenses and tests show in the same order in the learner's UI as the order of the lenses and learning outcomes in this module file. Therefore, it is important to place the learning outcomes after the lenses that cover its material. It's also an option to group learning outcomes together at the end of a module.%%
 
 %% Now that we have a feel for how modules and learning outcomes work, let's have a look at what's possible inside of lenses. 
 
