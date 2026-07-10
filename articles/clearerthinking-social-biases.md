@@ -114,11 +114,11 @@ Janis argued that the following group dynamics often lead to (and are often pres
 
 _(button: How good are you at spotting groupthink?)_
 
-Can You Spot Groupthink?
+{++{"author":"Luc's AI","timestamp":1783702218318}@@#### ++}Can You Spot Groupthink?
 
 Here are two cases where decisions led to suboptimal outcomes. Can you tell which (if any) of them have been used to illustrate groupthink?
 
-### CASE 1: The WHO's errors about covid-19
+{--{"author":"Luc's AI","timestamp":1783702219867}@@###--}{++{"author":"Luc's AI","timestamp":1783702219867}@@####++} CASE 1: The WHO's errors about covid-19
 
 The World Health Organization (WHO) [has faced criticism](https://www.cambridge.org/core/books/rethinking-evidence-in-the-time-of-pandemics/whose-evidence-what-rationality-the-face-mask-controversy/1C33D57597FF79B04FF6845825816A39) for delays in declaring a pandemic and inconsistent messaging on issues like masks.
 
