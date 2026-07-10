@@ -79,7 +79,7 @@ In this tool, we'll be discussing four types of conformity bias:
 
 Let's get started with the first one.
 
-## Groupthink
+## Groupthink 
 
 **'Groupthink'** is a term popularized by psychologist [Irving Janis](https://archive.org/details/janis_groupthink/page/n9/mode/2up). It is deliberately phrased as a single word, in order to evoke comparisons with the dystopian modes of thinking that George Orwell described in his book *Nineteen Eighty-Four* - such as *'doublethink'* and *'crimethink.'*
 
