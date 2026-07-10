@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1783685235739}@@---
+{++{"author":"Elias's AI","timestamp":1783685246310}@@---
 summary_for_tutor: Action-plan seed for Module 4. After the extinction scenario, students inventory their strengths, then research with the tutor where someone with their profile could plausibly contribute to AI safety. The tutor acts as an honest career-exploration partner, not a cheerleader, and never lets the exchange end fatalistic.
 title: Your Leverage
 tldr: The scenario you just read is grim on purpose. This is where you stop spectating: map what you're unusually good at, then find where it bites on the problem.
@@ -11,7 +11,7 @@ tags:
 #### Text
 content::
 \## From argument to action
-You've just read the book's darkest stretch. The authors' point isn't despair — it's that this is worth acting on while acting still matters. Over the coming weeks you'll sketch a personal action plan. Today is the raw material: two short exercises with the Coach.
+You've just read the book's darkest stretch. The authors' point isn't despair. It's that this is worth acting on while acting still matters. Over the coming weeks you'll sketch a personal action plan. Today is the raw material: two short exercises with the Coach.
 
 ---
 
