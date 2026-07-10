@@ -242,7 +242,7 @@ Options:
 - Lack of diversity and pluralistic perspective in organization
 - Employees feeling indifferent to the organization
 
-### Answer
+{--{"author":"Luc's AI","timestamp":1783702405274}@@###--}{++{"author":"Luc's AI","timestamp":1783702405274}@@####++} Answer
 
 ✅ Well done! That's exactly right. Great job!
 
@@ -311,7 +311,7 @@ Options:
 
 Types of Conformity (discussed in this tool):
 
-### What is it?
+{--{"author":"Luc's AI","timestamp":1783702403772}@@###--}{++{"author":"Luc's AI","timestamp":1783702403772}@@####++} What is it?
 
 Authority bias is the tendency to attribute greater credibility to the opinions or instructions of those perceived as authority figures, regardless of the content of the opinions / instructions.
 
@@ -653,7 +653,9 @@ So, this was a case where the non-stooge assumed that he must have been wrong in
 
 Optional extra: Other ways we mimic others (click to expand)
 
-**Children mimic to learn**
+{++{"author":"Luc's AI","timestamp":1783702406775}@@### Other ways we mimic others
+
+++}**Children mimic to learn**
 [Studies show](https://psycnet.apa.org/record/1963-00875-001) that children learn behaviors by imitating the behavior of others. These insights have been incorporated into theories of learning such as [Social Cognitive Theory](https://www.simplypsychology.org/social-cognitive-theory.html), which emphasizes how learning behaviors occurs in a social context where we can see the consequences of those behaviors. This theory represented a departure from earlier theories which emphasized requiring more direct positive reinforcement in order to learn new behaviors.
 
 **Mimetic desire**
@@ -671,7 +673,9 @@ However, we shouldn't ignore the fact that it can be rational to mimic the actio
 
 _(button: How to mimic rationally)_
 
-The key, here, is to think carefully about what the balance of evidence is telling you. If a group of people (or someone you trust) is doing something, that *is* evidence that you might benefit from doing it too. However, when the action is important, you should carefully weigh up the evidence for and against, instead of just mimicking by default.
+{++{"author":"Luc's AI","timestamp":1783702408197}@@### How to mimic rationally
+
+++}The key, here, is to think carefully about what the balance of evidence is telling you. If a group of people (or someone you trust) is doing something, that *is* evidence that you might benefit from doing it too. However, when the action is important, you should carefully weigh up the evidence for and against, instead of just mimicking by default.
 
 Here are some ways to mimic rationally without falling into irrationality:
 
