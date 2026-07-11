@@ -1,9 +1,7 @@
 ---
 id: 32683965-76f0-4b11-9005-9b4e1d2000a6
 learning-outcome: Understand and categorize the main families of brain-related AI safety approaches — NeuroAI-for-safety (Mineault et al.'s seven approaches), brain-like AGI safety (Byrnes), and human-side strategies (BCI/merge, whole-brain emulation)
-{--{"author":"Elias's AI","timestamp":1783771339255}@@tags:
-  - learning outcome
---}---
+---
 ## Lens:
 source:: [[STALE-lens-Brain-related-overview]]
 ## Test:

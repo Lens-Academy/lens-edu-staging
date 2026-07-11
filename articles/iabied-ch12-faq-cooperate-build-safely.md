@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771022393}@@
-  - IABIED--}
+  - clippings
 ---
 #### Because we don't have the technical ability to build it safely.
 

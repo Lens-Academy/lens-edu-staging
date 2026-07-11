@@ -9,8 +9,7 @@ readings:
   - "Sara Ness — Virtual Introductions (5 min)"
   - "Sara Ness — Facilitating Online (11 min)"
 tags:
-  - facilitator-training{--{"author":"Elias's AI","timestamp":1783770765752}@@
-  - module--}
+  - facilitator-training
 ---
 
 # Lens: Preparing to Facilitate a Session

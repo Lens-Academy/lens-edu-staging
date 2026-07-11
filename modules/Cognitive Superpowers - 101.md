@@ -2,9 +2,7 @@
 id: 6ff45ca9-d213-4348-9c7c-88907262263b
 slug: cognitive-superpowers-101
 title: Cognitive Superpowers
-{--{"author":"Elias's AI","timestamp":1783770565969}@@tags:
-  - module
---}---
+---
 # Lens: Welcome
 id:: 46d44044-6260-4b95-812d-fd83528698f0
 #### Text

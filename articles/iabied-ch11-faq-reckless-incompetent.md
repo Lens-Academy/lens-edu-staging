@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770845546}@@
-  - IABIED--}
+  - clippings
 ---
 #### Not in general. Corner-cutting is often competitive.
 

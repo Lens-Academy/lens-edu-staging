@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771167804}@@
-  - IABIED--}
+  - clippings
 ---
 #### You can make it promise whatever you'd like. You can't make it keep its promises.
 

@@ -6,8 +6,7 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771038971}@@
-  - IABIED--}
+  - clippings
 ---
 #### The world is, unfortunately, big enough for multiple issues.
 

@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770733822}@@
-  - IABIED--}
+  - clippings
 ---
 
 #### If your AI plan requires that no one on the internet critique the plan, it's a bad plan.

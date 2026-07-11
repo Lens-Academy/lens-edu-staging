@@ -4,9 +4,7 @@ summary_for_tutor: "Separates machine consciousness from machine intelligence. D
 title: "Are you saying machines will become conscious?"
 tldr: "Not necessarily, and this seems like a separate topic."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770535943}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

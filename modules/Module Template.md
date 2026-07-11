@@ -5,8 +5,7 @@ title:
 discussion:
 tags:
   - aibied
-  - {--{"author":"Elias's AI","timestamp":1783771051578}@@module
-  - --}work-in-progress
+  - work-in-progress
   - validator-ignore
 ---
 

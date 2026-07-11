@@ -3,9 +3,7 @@ id: f5c9d2e8-1a7b-4c3d-8e60-4b9f2d1a6c85
 title: "Reflection and Self-Modification Make It All Harder"
 tldr: "By Default, AIs Don't Self-Modify the Way We'd Want"
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770987515}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 #### Text
 content::

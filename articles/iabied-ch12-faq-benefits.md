@@ -6,8 +6,7 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771018202}@@
-  - IABIED--}
+  - clippings
 ---
 #### Rushing ahead destroys those benefits.
 

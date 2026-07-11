@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770947388}@@
-  - IABIED--}
+  - clippings
 ---
 #### Saying AIs are "just math" is like saying humans are "just biochemistry."
 

@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770565491}@@
-  - IABIED--}
+  - clippings
 ---
 #### Being on a computer connected to the internet isn't much of a limitation.
 
