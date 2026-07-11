@@ -4,7 +4,7 @@ tags:
 ---
 # Article Import (AI Guide)
 
-External articles enter the knowledge base through the **article importer** in the web editor (Add Article page at editor.lensacademy.org, needs an edit-role share link). Prefer it over hand-writing article files — it extracts clean text deterministically, fills correct metadata, and quality-checks tricky pages with an AI pass.
+External articles enter the knowledge base through the **article importer** in the web editor (Add Article page at editor.lensacademy.org, needs an edit-role share link). It extracts clean text deterministically, fills correct metadata, and quality-checks tricky pages with an AI pass.
 
 ## What it does
 
