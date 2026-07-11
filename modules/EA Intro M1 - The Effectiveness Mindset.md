@@ -19,28 +19,34 @@ source:: ![[../Lenses/EA Intro - About This Handbook]]
 source:: ![[../Lenses/EA Intro - The Effectiveness Mindset (Dalton)]]
 # Submodule: On effective altruism
 
-# Lens:
-source:: ![[../Lenses/EA Intro - Introduction to Effective Altruism]]
+# {--{"author":"Luc's AI","timestamp":1783782781238}@@Lens:
+source:: ![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783782781238}@@Learning Outcome: EA++} Intro - {--{"author":"Luc's AI","timestamp":1783782781238}@@Introduction to--}{++{"author":"Luc's AI","timestamp":1783782781238}@@Explain What++} Effective {--{"author":"Luc's AI","timestamp":1783782781238}@@Altruism]]
+
+# Lens:--}{++{"author":"Luc's AI","timestamp":1783782781238}@@Altruism Is++}
+source:: {--{"author":"Luc's AI","timestamp":1783782781238}@@![[../Lenses/EA --}{++{"author":"Luc's AI","timestamp":1783782781238}@@![[../Learning Outcomes/EA ++}Intro - {--{"author":"Luc's AI","timestamp":1783782781238}@@Four Ideas You Already Agree With]]--}{++{"author":"Luc's AI","timestamp":1783782781238}@@Explain What Effective Altruism Is]]++}
 
 # Lens:
-source:: ![[../Lenses/EA Intro - Four Ideas You Already Agree With]]
+source:: ![[../Lenses/EA Intro - {--{"author":"Luc's AI","timestamp":1783782781238}@@The World Is Much Better]]--}{++{"author":"Luc's AI","timestamp":1783782781238}@@Introduction to Effective Altruism]]++}
 
-# Lens:
-source:: ![[../Lenses/EA Intro - The World Is Much Better]]
+# {--{"author":"Luc's AI","timestamp":1783782781238}@@Learning Outcome: EA--}{++{"author":"Luc's AI","timestamp":1783782781238}@@Lens:
+source:: ![[../Lenses/EA++} Intro - {--{"author":"Luc's AI","timestamp":1783782781238}@@Explain What Effective Altruism Is--}{++{"author":"Luc's AI","timestamp":1783782781238}@@Four Ideas You Already Agree With]]
 
-# Learning Outcome: EA Intro - Explain What Effective Altruism Is
-source:: ![[../Learning Outcomes/EA Intro - Explain What Effective Altruism Is]]
+# Lens:++}
+source::{--{"author":"Luc's AI","timestamp":1783782781238}@@ ![[../Learning Outcomes/EA--}{++{"author":"Luc's AI","timestamp":1783782781238}@@ ![[../Lenses/EA++} Intro - {--{"author":"Luc's AI","timestamp":1783782781238}@@Explain What Effective Altruism Is]]--}{++{"author":"Luc's AI","timestamp":1783782781238}@@The World Is Much Better]]++}
 
 # Submodule: On scope sensitivity
 
-# Lens:
-source:: ![[../Lenses/EA Intro - On Caring]]
+# {--{"author":"Luc's AI","timestamp":1783782783787}@@Lens:
+source:: ![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783782783787}@@Learning Outcome: EA++} Intro - {--{"author":"Luc's AI","timestamp":1783782783787}@@On Caring]]
 
-# Lens:
-source:: ![[../Lenses/EA Intro - Scope Insensitivity]]
+# Lens:--}{++{"author":"Luc's AI","timestamp":1783782783787}@@Identify Failures of Scope Sensitivity++}
+source:: {--{"author":"Luc's AI","timestamp":1783782783787}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783782783787}@@![[../Learning Outcomes/EA++} Intro - {++{"author":"Luc's AI","timestamp":1783782783787}@@Identify Failures of ++}Scope {--{"author":"Luc's AI","timestamp":1783782783787}@@Insensitivity]]--}{++{"author":"Luc's AI","timestamp":1783782783787}@@Sensitivity]]++}
 
-# Learning Outcome: EA Intro - Identify Failures of Scope Sensitivity
-source:: ![[../Learning Outcomes/EA Intro - Identify Failures of Scope Sensitivity]]
+# {--{"author":"Luc's AI","timestamp":1783782783787}@@Learning Outcome: EA--}{++{"author":"Luc's AI","timestamp":1783782783787}@@Lens:
+source:: ![[../Lenses/EA++} Intro - {--{"author":"Luc's AI","timestamp":1783782783787}@@Identify Failures of Scope Sensitivity--}{++{"author":"Luc's AI","timestamp":1783782783787}@@On Caring]]
+
+# Lens:++}
+source:: {--{"author":"Luc's AI","timestamp":1783782783787}@@![[../Learning Outcomes/EA--}{++{"author":"Luc's AI","timestamp":1783782783787}@@![[../Lenses/EA++} Intro - {--{"author":"Luc's AI","timestamp":1783782783787}@@Identify Failures of --}Scope {--{"author":"Luc's AI","timestamp":1783782783787}@@Sensitivity]]--}{++{"author":"Luc's AI","timestamp":1783782783787}@@Insensitivity]]++}
 
 # Submodule: On scout mindset and thinking clearly
 
