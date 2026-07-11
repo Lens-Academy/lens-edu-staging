@@ -6,8 +6,8 @@ reading-to: "Those constraints will tend to get in the way of the AI accomplishi
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
-  - IABIED
+  - learning-outcome{--{"author":"Elias's AI","timestamp":1783771513471}@@
+  - IABIED--}
 ---
 
 ## Test:

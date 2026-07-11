@@ -6,8 +6,8 @@ reading-to: "What comes next will require more skill."
 authors:
   - Chris+Claude
 tags:
-  - learning-outcome
-  - IABIED
+  - learning-outcome{--{"author":"Elias's AI","timestamp":1783771499458}@@
+  - IABIED--}
 ---
 
 ## Test:

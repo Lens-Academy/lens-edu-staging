@@ -6,8 +6,8 @@ reading-to: "So: Once upon a time in the near future…"
 authors:
   - Chris+Claude
 tags:
-  - learning-outcome
-  - IABIED
+  - learning-outcome{--{"author":"Elias's AI","timestamp":1783771479847}@@
+  - IABIED--}
 ---
 
 ## Test:

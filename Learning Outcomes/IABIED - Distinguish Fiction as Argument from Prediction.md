@@ -8,8 +8,8 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-  - IABIED
-  - optional
+  - {--{"author":"Elias's AI","timestamp":1783771482071}@@IABIED
+  - --}optional
 ---
 
 ## Test:

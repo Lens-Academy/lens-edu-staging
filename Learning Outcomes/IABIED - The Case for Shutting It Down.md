@@ -3,8 +3,8 @@ id: 0ac96c2e-7247-4179-8e84-278a00107f28
 learning-outcome: "Articulate the authors' argument for a worldwide halt on frontier AI development"
 tags:
   - learning-outcome
-  - IABIED
-  - work-in-progress
+  - {--{"author":"Elias's AI","timestamp":1783771511724}@@IABIED
+  - --}work-in-progress
 ---
 
 ## Test:
