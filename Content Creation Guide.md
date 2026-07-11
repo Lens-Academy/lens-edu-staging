@@ -1,10 +1,10 @@
-{++{"author":"Elias's AI","timestamp":1783777217955}@@---
+---
 id: bfa7e52d-3810-4b07-bd52-bb94eaa517ee
 title: Content Creation Guide
 tags:
   - wip
 ---
-++}# Content Creation Guide
+# Content Creation Guide
 
 This guide helps you create content for Lens Academy. It's written for educators and content experts — you don't need to be technical to use it.
 
