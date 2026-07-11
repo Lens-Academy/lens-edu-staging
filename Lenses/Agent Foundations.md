@@ -3,9 +3,7 @@ id: 9e925489-937b-4317-9bd1-f3d59807ab3a
 summary_for_tutor: Introduces Agent Foundations as a research direction that treats AI safety as a formal mathematical problem, seeking universal laws governing intelligent goal-directed systems regardless of architecture. Contrasts this with empirical approaches that work with current neural networks.
 title: Agent Foundations
 tldr: What if current neural networks are too messy to reason about safely? Agent Foundations treats AI safety as a formal mathematical problem, seeking universal laws that govern any intelligent system — building safety from first principles rather than patching current systems.
-{--{"author":"Elias's AI","timestamp":1783770584520}@@tags:
-  - lens
---}---
+---
 
 #### Text
 content::
