@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771081588}@@
-  - IABIED--}
+  - clippings
 ---
 
 #### There is no "digital realm" independent of physical infrastructure.

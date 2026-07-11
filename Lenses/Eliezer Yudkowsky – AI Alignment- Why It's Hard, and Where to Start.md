@@ -3,9 +3,7 @@ id: 85271748-4494-43ad-9c02-35319dacc9bd
 summary_for_tutor: "Covers why AI alignment is expected to be fundamentally difficult, using the 'optimize for smiles' fable to illustrate Goodhart's law, context disasters, and convergent instrumental strategies. Argues that hard optimization pushes solutions to weird edges of the solution space, that statistical safety guarantees break when capabilities change the distribution, and that patching undesired behaviors is futile against smarter systems. Frames alignment as requiring the rigor of cryptography and rocket science."
 title: "AI Alignment: Why It's Hard, and Where to Start"
 tldr: To guide a missile, we first had to invent calculus. AI alignment may require a similar leap — a mathematical framework for how powerful optimizers behave. This talk explains why intuition alone won't cut it, and why the field needs something closer to a science of alignment before we can trust the trajectory.
-{--{"author":"Elias's AI","timestamp":1783770717845}@@tags :
-  - lens
---}---
+---
 #### Text
 content::
 The problem of AI alignment requires a rigorous theoretical foundation. To successfully guide a missile, humanity first had to develop differential calculus, which allowed it to describe the laws of gravity and the motion of bodies. Without this mathematical apparatus, the launch of a powerful missile would result in a series of catastrophic explosions. Like rocket science, AI safety is a high-level engineering challenge. This video explains: an intuitive understanding of goals is insufficient for controlling superhuman systems. We need formal laws describing the behavior of powerful optimizers. Only with a reliable "mathematics of alignment" will we be able to guarantee the stability of an AI's trajectory.

@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770545890}@@
-  - IABIED--}
+  - clippings
 ---
 
 #### Probably not.

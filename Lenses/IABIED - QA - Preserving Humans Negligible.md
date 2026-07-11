@@ -4,9 +4,7 @@ summary_for_tutor: "Addresses the argument that a superintelligent AI could easi
 title: "To a powerful AI, wouldn't preserving humans be a negligible expense?"
 tldr: "There are many negligible expenses, and it would need a reason to pay ours."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770945598}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 #### Text
 content::

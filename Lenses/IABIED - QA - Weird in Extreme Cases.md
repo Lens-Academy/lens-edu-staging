@@ -4,9 +4,7 @@ summary_for_tutor: Addresses the objection that AI weirdness only appears in edg
 title: "If current AIs are mostly weird in extreme cases, what's the problem?"
 tldr: "The weirdness is evidence that their actual pursuits aren't our intended pursuits."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770960328}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

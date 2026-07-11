@@ -6,8 +6,7 @@ reading-to: "No—we're facing an even harder problem: It's much easier to grow 
 authors:
   - Chris+Claude
 tags:
-  - learning-outcome{--{"author":"Elias's AI","timestamp":1783771153664}@@
-  - IABIED--}
+  - learning-outcome
 ---
 
 ## Test:

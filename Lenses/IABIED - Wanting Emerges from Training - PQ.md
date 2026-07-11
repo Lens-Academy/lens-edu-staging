@@ -5,10 +5,7 @@ title: "Before Reading — Wanting Emerges from Training"
 tldr: Does your GPS want to get you home? Before reading, decide where you'd draw the line between having a goal and wanting something.
 authors:
   - Chris+Claude
-{--{"author":"Elias's AI","timestamp":1783770787477}@@tags:
-  - lens
-  - IABIED
---}add_to_ai_context:
+add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/03 - Chapter 3 - Learning to Want]]"
 ---
 #### Question

@@ -4,9 +4,7 @@ summary_for_tutor: "Introduces mechanistic interpretability as the effort to rev
 title: Mechanistic Interpretability
 tldr: We have full access to every number inside a neural network. So why can't we just read off what it believes or wants? Mechanistic interpretability tries to bridge that gap — reverse-engineering how models represent and process information, one circuit at a time.
 discussion: https://discord.com/channels/1440725236843806762/1483418591482347723
-{--{"author":"Elias's AI","timestamp":1783770762221}@@tags:
-  - lens
---}---
+---
 #### Text
 content::
 **Mechanistic Interpretability** is the study of the internal workings of AI models. It seeks to reverse-engineer neural networks into human-understandable algorithms. Researchers analyze individual neurons and connections to see how they represent concepts.

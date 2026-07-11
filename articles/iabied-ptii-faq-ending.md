@@ -6,8 +6,7 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771291743}@@
-  - IABIED--}
+  - clippings
 ---
 
 #### Because it constitutes our actual best guess according to what's physically possible.

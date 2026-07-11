@@ -3,9 +3,7 @@ id: 60a1046d-cb9d-4803-ac84-810e070b79fb
 summary_for_tutor: "Introduces a causal definition of agency: an agent is a system whose behavior would change if the causal influence of its actions on the world were altered. Proposes using counterfactual interventions and causal influence diagrams to test whether a system is genuinely goal-directed versus merely following fixed rules."
 title: Discovering when an agent is present in a system
 tldr: We often talk about AI systems as agents — things that make decisions to achieve goals. But how do you actually tell whether something is an agent, versus just a process following rules? This article proposes a way to test for agency by looking at how a system would behave if its actions affected the world differently.
-{--{"author":"Elias's AI","timestamp":1783770711201}@@tags :
-  - lens
---}---
+---
 #### Text
 content::
 In AI safety we often model systems as agents, meaning systems that make decisions to achieve objectives. But this can be a modelling choice rather than an obvious fact. This post proposes a causal definition of agency grounded in how the system’s behaviour would change under specific counterfactual changes in how its actions affect the world. The core idea is: an agent is a system that would adapt its policy if the causal influence of its actions were different, and we can in principle test for this using intervention style data and causal modelling tools such as causal influence diagrams.

@@ -6,8 +6,7 @@ tldr: "Participants do the reading on their own. The session is for the harder c
 authors:
   - Yatharth+Claude
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770533641}@@lens
-  - --}facilitator-training
+  - facilitator-training
 ---
 #### Text
 content::

@@ -4,8 +4,7 @@ learning-outcome: "Distinguish coaching from facilitating; name at least three o
 authors:
   - Yatharth+Claude
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783771870719}@@learning-outcome
-  - --}facilitator-training
+  - facilitator-training
 ---
 
 ## Test:

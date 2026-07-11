@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770786191}@@
-  - IABIED--}
+  - clippings
 ---
 
 #### Brains aren't blank slates.

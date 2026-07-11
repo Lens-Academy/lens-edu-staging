@@ -6,8 +6,7 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771297985}@@
-  - IABIED--}
+  - clippings
 ---
 
 #### To provide a challenge to Sable.

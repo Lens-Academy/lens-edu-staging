@@ -4,8 +4,7 @@ learning-outcome: "Distinguish prep that moves session quality from prep that is
 authors:
   - Yatharth+Claude
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783771750198}@@learning-outcome
-  - --}facilitator-training
+  - facilitator-training
 ---
 
 ## Test:

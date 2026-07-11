@@ -2,9 +2,7 @@
 id: acf8f93f-b783-4a22-8480-ca8b3e8f121a
 title: "Efficient Cross-Domain Optimization"
 tldr: Deep Blue could beat Kasparov at chess but couldn't build a dam. A beaver can build a dam but can't play chess. Intelligence, properly understood, is the ability to optimize efficiently across domains — and this definition has radical implications for what a sufficiently general AI could do.
-{--{"author":"Elias's AI","timestamp":1783770714563}@@tags:
-  - lens
---}---
+---
 #### Text
 content::
 What do we actually mean by "intelligence"? Before reasoning about superintelligence, we need a precise definition — one that works for bees, beavers, humans, and hypothetical AIs alike. Yudkowsky's 2008 post proposes one: intelligence is *efficient cross-domain optimization*.

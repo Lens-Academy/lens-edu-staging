@@ -3,9 +3,7 @@ id: e6e6d3af-b6ae-4079-b2df-3b35b4365b83
 summary_for_tutor: "Covers the importance of reasoning from an AI's actual incentives rather than projecting human desires. Uses the beetle experiment as a case study: researchers selecting for group fitness produced cannibals, not harmony. Introduces the key error of constructing post-hoc justifications for pleasant outcomes instead of asking what an optimizer would actually do."
 title: "Taking the AI's Perspective"
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770788419}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 #### Text
 content::

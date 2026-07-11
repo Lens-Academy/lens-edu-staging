@@ -5,10 +5,7 @@ title: "Before Reading — Define the Aztec Warrior Analogy"
 tldr: You can't predict a single chess move a grandmaster will make. Can you still predict whether they'll beat you? Before reading, think about what it takes to predict an outcome.
 authors:
   - Chris+Claude+Luc
-{--{"author":"Elias's AI","timestamp":1783770596775}@@tags:
-  - lens
-  - IABIED
---}add_to_ai_context:
+add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 - We'd Lose]]"
 ---
 #### Question

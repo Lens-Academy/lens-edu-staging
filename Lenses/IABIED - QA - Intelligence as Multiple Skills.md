@@ -4,9 +4,7 @@ summary_for_tutor: Acknowledges that intelligence involves multiple distinct ski
 title: "Doesn't intelligence consist of multiple skills?"
 tldr: "Yes, but there's substantial overlap."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770985474}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

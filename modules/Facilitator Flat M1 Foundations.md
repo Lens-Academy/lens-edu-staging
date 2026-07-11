@@ -7,8 +7,7 @@ readings:
   - "Bill Wilder — Instructor vs Facilitator (5 min)"
   - "Curiosity Society — A Facilitator's Handbook, pp. 4-13 (12 min)"
 tags:
-  - facilitator-training{--{"author":"Elias's AI","timestamp":1783770750621}@@
-  - module--}
+  - facilitator-training
 ---
 
 # Lens: Foundations — What Is a Facilitator?

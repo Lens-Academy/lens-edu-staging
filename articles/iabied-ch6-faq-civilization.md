@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770572050}@@
-  - IABIED--}
+  - clippings
 ---
 #### With computers, the hard part is getting them to solve a certain problem at all. High volume and speed come soon after.
 

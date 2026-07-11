@@ -6,8 +6,7 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771173644}@@
-  - IABIED--}
+  - clippings
 ---
 #### Not if they understand the threat.
 

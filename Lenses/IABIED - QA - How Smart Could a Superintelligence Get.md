@@ -2,9 +2,7 @@
 id: 9bf56eed-aee4-4dc2-8ce5-55edfd24e2b6
 title: "How smart could a superintelligence get?"
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770790656}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

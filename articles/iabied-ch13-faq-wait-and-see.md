@@ -6,8 +6,7 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771190446}@@
-  - IABIED--}
+  - clippings
 ---
 #### No. We don't know where the critical thresholds are.
 

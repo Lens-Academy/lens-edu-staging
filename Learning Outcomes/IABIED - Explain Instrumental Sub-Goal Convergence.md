@@ -6,8 +6,7 @@ reading-to: "And Sable now has the spare capacity to pay attention to, build a s
 authors:
   - Chris+Claude
 tags:
-  - learning-outcome{--{"author":"Elias's AI","timestamp":1783771490952}@@
-  - IABIED--}
+  - learning-outcome
 ---
 
 ## Test:

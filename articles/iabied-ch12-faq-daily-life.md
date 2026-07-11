@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771034176}@@
-  - IABIED--}
+  - clippings
 ---
 #### It dramatically affects our priorities.
 

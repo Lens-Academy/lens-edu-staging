@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770815818}@@
-  - IABIED--}
+  - clippings
 ---
 #### We strongly recommend against this entire AI paradigm.
 

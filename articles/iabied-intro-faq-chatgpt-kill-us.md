@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771271288}@@
-  - IABIED--}
+  - clippings
 ---
 
 #### No. The worry is about forthcoming advances in AI.

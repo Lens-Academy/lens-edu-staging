@@ -6,8 +6,7 @@ reading-to: "end of chapter"
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome{--{"author":"Elias's AI","timestamp":1783771505400}@@
-  - IABIED--}
+  - learning-outcome
 ---
 
 ## Test:

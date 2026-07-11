@@ -2,8 +2,7 @@
 id: 6198bb0f-cc5c-4ee2-a9bc-f9d0a6a6c35b
 title: "You're done"
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783771016130}@@lens
-  - --}facilitator-training
+  - facilitator-training
 ---
 #### Text
 content:: You now have the conceptual baseline of facilitation. The rest is reps.

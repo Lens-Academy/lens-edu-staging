@@ -26,17 +26,17 @@ Module  (modules/<Name>.md)
   # Learning Outcome: <title>           source:: ![[../Learning Outcomes/<Name>]]
   # Lens: <title>                       source:: ![[../Lenses/<Name>]]  (or inline: id:: + segments)
 Learning Outcome  (Learning Outcomes/<Name>.md)
-  ## Test:                              id:: + {--{"author":"Elias's AI","timestamp":1783772999867}@@a --}#### Question {--{"author":"Elias's AI","timestamp":1783772999867}@@segment--}{++{"author":"Elias's AI","timestamp":1783772999867}@@segments++} with{--{"author":"Elias's AI","timestamp":1783772999867}@@ a--} scoring {--{"author":"Elias's AI","timestamp":1783772999867}@@rubric--}{++{"author":"Elias's AI","timestamp":1783772999867}@@rubrics++}
-  {++{"author":"Elias's AI","timestamp":1783772999867}@@# Suggested Lenses:                   optional, below the test; ++}## Lens:{--{"author":"Elias's AI","timestamp":1783772999867}@@                              source:: ![[../Lenses/<Name>]]  (one section per lens, in order)--}{++{"author":"Elias's AI","timestamp":1783772999867}@@ entries
+  ## Test:                              id:: + #### Question segments with scoring rubrics
+  # Suggested Lenses:                   optional, below the test; ## Lens: entries
                                         (source:: [[../Lenses/<Name>]], notes::) —
-                                        author-facing suggestions, NOT imported by modules++}
+                                        author-facing suggestions, NOT imported by modules
 Lens  (Lenses/<Name>.md)                flat: frontmatter + H4 segments only
   #### Text | Chat | Article | Video | Question | Roleplay
 Article (articles/*.md), Video transcript (video_transcripts/*.md)
                                         source material referenced by Article/Video segments
 ```
 
-A learning outcome is one testable skill ("Explain why...", "Distinguish X from {--{"author":"Elias's AI","timestamp":1783773004066}@@Y"). Its--}{++{"author":"Elias's AI","timestamp":1783773004066}@@Y"); its test is how the platform checks it. Referencing an outcome from a module imports **only the test** — the++} lenses {++{"author":"Elias's AI","timestamp":1783773004066}@@that teach it ++}are {--{"author":"Elias's AI","timestamp":1783773004066}@@alternative or sequential ways to reach that outcome; its test--}{++{"author":"Elias's AI","timestamp":1783773004066}@@listed explicitly in the module, before the `# Learning Outcome:` ref. An outcome's `# Suggested Lenses:` section++} is {--{"author":"Elias's AI","timestamp":1783773004066}@@how the platform checks it. Lenses referenced from several places are deduplicated--}{++{"author":"Elias's AI","timestamp":1783773004066}@@author-facing metadata: candidate lenses (each `## Lens:` with `source::` and optional `notes::`)++} for {--{"author":"Elias's AI","timestamp":1783773004066}@@the learner.--}{++{"author":"Elias's AI","timestamp":1783773004066}@@module authors to pick from; zero-suggestion outcomes are valid.++}
+A learning outcome is one testable skill ("Explain why...", "Distinguish X from Y"); its test is how the platform checks it. Referencing an outcome from a module imports **only the test** — the lenses that teach it are listed explicitly in the module, before the `# Learning Outcome:` ref. An outcome's `# Suggested Lenses:` section is author-facing metadata: candidate lenses (each `## Lens:` with `source::` and optional `notes::`) for module authors to pick from; zero-suggestion outcomes are valid.
 
 ## Editing workflow (MCP)
 
@@ -65,7 +65,7 @@ After edits are accepted, check **https://staging.lensacademy.org/validate** —
 ## Rules that prevent the most common breakage
 
 - **Escape headings inside field values.** A line starting with `#`–`####` inside a multi-line `content::`/`instructions::` value is parsed as a new section boundary and silently truncates the field. Escape it: `\## Phase 1: Recall` (existing content uses `\##`; the validator suggests `!##` — both work).
-- **Wikilinks are relative** to the referencing file and must contain a `/`. Convention: {--{"author":"Elias's AI","timestamp":1783773007351}@@module/outcome--}{++{"author":"Elias's AI","timestamp":1783773007351}@@module++} `source::` refs use the embed form (`source:: ![[../Lenses/Name]]`), segment {++{"author":"Elias's AI","timestamp":1783773007351}@@and suggested-lens ++}`source::` refs the plain form (`source:: {--{"author":"Elias's AI","timestamp":1783773007351}@@[[../articles/name]]`).--}{++{"author":"Elias's AI","timestamp":1783773007351}@@[[../articles/name]]`, `source:: [[../Lenses/Name]]`).++} The parser accepts both — match the convention, don't "fix" the other form in existing files.
+- **Wikilinks are relative** to the referencing file and must contain a `/`. Convention: module `source::` refs use the embed form (`source:: ![[../Lenses/Name]]`), segment and suggested-lens `source::` refs the plain form (`source:: [[../articles/name]]`, `source:: [[../Lenses/Name]]`). The parser accepts both — match the convention, don't "fix" the other form in existing files.
 - **IDs are UUIDs** (lowercase v4, generate with `uuidgen | tr A-Z a-z`). Every lens, learning outcome, module, test, and inline lens needs its own. Quote them in frontmatter (`id: 'a1b2...'`) so YAML never mangles them; never reuse or invent non-UUID ids.
 - **Drafts**: add `wip` to `tags` while a file is unfinished — its errors then don't block promotion. Remove it when done. A production file referencing a wip file is a production error.
 - **Comments**: `%% ... %%` (Obsidian) and `{>>{"author":"Elias's AI","timestamp":1783754188139}@@...<<}` (CriticMarkup) are stripped before parsing — safe for author notes anywhere.

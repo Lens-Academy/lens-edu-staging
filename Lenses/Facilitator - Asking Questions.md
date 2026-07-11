@@ -6,8 +6,7 @@ tldr: "The single most useful skill in facilitation. Three frameworks plus five 
 authors:
   - Yatharth+Claude
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770505664}@@lens
-  - --}facilitator-training
+  - facilitator-training
 ---
 #### Text
 content::

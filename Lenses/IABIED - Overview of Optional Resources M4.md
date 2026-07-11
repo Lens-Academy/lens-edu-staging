@@ -3,10 +3,7 @@ id: b2c3d4e5-6f7a-4b8c-9d0e-1f2a3b4c5d6e
 title: "Overview of Optional Resources: M4"
 authors:
   - Chris+Claude
-{--{"author":"Elias's AI","timestamp":1783770526095}@@tags:
-  - lens
-  - IABIED
---}---
+---
 #### Text
 content::
 The book's website includes supplementary Q&As and extended discussions for this section. Browse the ones relevant to this week's reading below.

@@ -4,9 +4,7 @@ summary_for_tutor: "Covers why the authors deliberately depicted Sable's expansi
 title: "Why did you have Sable's expansion phase go that way?"
 tldr: "We were trying to depict an especially slow and comprehensible scenario, among plausible scenarios."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770695151}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text
