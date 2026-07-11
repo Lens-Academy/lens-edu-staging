@@ -175,9 +175,9 @@ Figure 6: Since 2016 a majority of respondents have thought that it’s either �
 
 The other two ‘intelligence explosion’ questions were about the likelihood of a dramatically increased rate of global technological advancement 2 and 30 years post-HLMI, and AI that can outperform humans across all professions 2 and 20 years post-HLMI. Results are shown in Table [1](https://arxiv.org/html/2401.02843v3#S3.T1 "Table 1 ‣ 3.6 Will there be an intelligence explosion? ‣ 3 Results on AI Progress ‣ Thousands of AI Authors on the Future of AI").
 
-|  | Median probability (N) |
-| --- | --- |
-|  | 2016 | 2022 | 2023 |
+|{--{"author":"Elias's AI","timestamp":1783779566374}@@  --}{++{"author":"Elias's AI","timestamp":1783779566374}@@ Question ++}| {++{"author":"Elias's AI","timestamp":1783779566374}@@2016 ++}Median probability (N) {--{"author":"Elias's AI","timestamp":1783779566374}@@|
+--}| {--{"author":"Elias's AI","timestamp":1783779566374}@@--- | --- |
+|  --}{++{"author":"Elias's AI","timestamp":1783779566374}@@2022 Median probability (N) ++}|{--{"author":"Elias's AI","timestamp":1783779566374}@@ 2016 | 2022 | 2023--}{++{"author":"Elias's AI","timestamp":1783779566374}@@ 2023 Median probability (N)++} |
 | --- | --- | --- | --- |
 | Explosive progress 2 years after HLMI | 20% (225) | 20% (339) | 20% (298) |
 | Explosive progress 30 years after HLMI | 80% (225) | 80% (339) | 80% (297) |
