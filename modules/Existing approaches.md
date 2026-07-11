@@ -31,7 +31,7 @@ In this module, we will focus on 5 directions. The list is deliberately incomple
 
 [^1]: Readers who have a better map, particularly for teaching purposes, are strongly encouraged to author an alternative version of this module. 
 
-# {++{"author":"Luc's AI","timestamp":1783723389084}@@Submodule: Automating Alignment
+# Submodule: Automating Alignment
 ## Lens: (Automating alignment)
 source:: [[../Lenses/Automating Alignment]]
 
@@ -98,7 +98,7 @@ source:: [[../Lenses/Embedded agents]]
 source:: [[../Lenses/Realism about rationality]]
 
 # Submodule: Test Your Understanding
-## ++}Learning Outcome:
+## Learning Outcome:
 source:: [[../Learning Outcomes/Arguments for and against different agendas]]
 
 

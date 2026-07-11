@@ -31,10 +31,10 @@ Score according to the following rubric.
 
 **5** — As above, plus articulates *why* the chapter argues edge cases are a different category (they intensify with the system's intelligence, while the other four are physical constraints), and connects this to AI being "grown, not crafted" from M1. *Example: Adds "Speed, narrow margins, self-amplification, and complications are physical constraints that intelligent and unintelligent systems both face. Edge cases are different: they get worse the smarter the adversary is, because a smarter system can find more obscure exploits. And because AI is grown, not crafted, the engineers don't even know what the edge cases of their own system are. That's the curse stack-up."*
 
-{++{"author":"Luc's AI","timestamp":1783722876490}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722876490}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722876490}@@[[../Lenses/IABIED++} - The Five Engineering Curses - PQ]]
+## Lens:
+source:: [[../Lenses/IABIED - The Five Engineering Curses - PQ]]
 
 ## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722876490}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722876490}@@[[../Lenses/IABIED++} - The Five Engineering Curses]]
+source:: [[../Lenses/IABIED - The Five Engineering Curses]]

@@ -8,9 +8,9 @@ authors:
 tags:
   - lens
   - IABIED
-{++{"author":"Luc's AI","timestamp":1783723015213}@@add_to_ai_context:
+add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/03 - Chapter 3 - Learning to Want]]"
-++}---
+---
 #### Question
 content:: Before reading Chapter 3: Does your GPS "want" to get you to your destination? What about a chess AI, does it "want" to win? If you think there's a difference between having a goal and wanting something, what is it? Write down your intuition before reading.
 

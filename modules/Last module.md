@@ -21,7 +21,7 @@ What can I do to shape that future?
 
 
 
-# {++{"author":"Luc's AI","timestamp":1783723318215}@@Lens:
+# Lens:
 source:: ![[../Lenses/1960, The Year The Singularity Was Cancelled]]
 
 # Lens:
@@ -33,10 +33,10 @@ source:: ![[../Lenses/Machines Of Loving Grace]]
 # Lens:
 source:: ![[../Lenses/The Artificial Intelligence That Deleted A Century]]
 
-# ++}Learning Outcome:
+# Learning Outcome:
 source:: ![[../Learning Outcomes/Where it leads to]]
 
-# {++{"author":"Luc's AI","timestamp":1783723327425}@@Lens:
+# Lens:
 source:: ![[../Lenses/The World Keeps Getting Saved]]
 
 # Lens:
@@ -45,5 +45,5 @@ source:: ![[../Lenses/The Goddess Of Everything Else]]
 # Lens:
 source:: [[../Lenses/Next steps]]
 
-# ++}Learning Outcome:
+# Learning Outcome:
 source:: ![[../Learning Outcomes/How to relate]]

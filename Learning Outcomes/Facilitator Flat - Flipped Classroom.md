@@ -27,7 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus articulates the time-allocation shift (traditional: ~70% content delivery / ~30% engagement → flipped: ~5% / ~95%) and what the trainee will do with all that newly-available session time.
 
-{++{"author":"Luc's AI","timestamp":1783722789352}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722789352}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722789352}@@[[../Lenses/Facilitator++} Flat - Flipped Classroom]]
+## Lens:
+source:: [[../Lenses/Facilitator Flat - Flipped Classroom]]

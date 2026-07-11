@@ -7,7 +7,7 @@ tags:
 ---
 ## Test:
 
-{--{"author":"Luc's AI","timestamp":1783722639584}@@## Lens:--}{++{"author":"Luc's AI","timestamp":1783722639584}@@
-# Suggested Lenses:++}
-{--{"author":"Luc's AI","timestamp":1783722639584}@@optional:: false--}{++{"author":"Luc's AI","timestamp":1783722639584}@@## Lens:++}
+
+# Suggested Lenses:
+## Lens:
 source:: [[../Lenses/More advantages for digital agents|More advantages for digital agents]]

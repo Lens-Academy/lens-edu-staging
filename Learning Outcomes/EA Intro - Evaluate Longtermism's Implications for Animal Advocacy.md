@@ -10,7 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-{++{"author":"Luc's AI","timestamp":1783722720531}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722720531}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722720531}@@[[../Lenses/EA++} Intro - Longtermism and Animal Advocacy]]
+## Lens:
+source:: [[../Lenses/EA Intro - Longtermism and Animal Advocacy]]

@@ -31,7 +31,7 @@ Read the main content of each lens *first* without opening the linked posts. If 
 instructions:: Orient the learner to the module. The module covers, in order: (1) the basic decomposition of AI risks (misalignment, misuse, power grabs, and others); (2) alignment targets (CEV, intent alignment, constitutions, corrigibility); (3) decompositions of the technical alignment problem (training stories, outer/inner alignment, inductive biases) and critiques of them; (4) goal-directedness and instrumental convergence; (5) forecasting the level of risk and the spectrum of high-level solution approaches. Help the learner form a mental map of how these five threads connect: choosing a target vs. technically hitting it, and why goal-directedness makes any residual misalignment more dangerous. Answer questions about prerequisites and how to pace themselves. Do not lecture the whole module here; just orient and set expectations. Keep it brief and inviting.
 showUserPreviousContent:: true
 
-# Submodule: Decomposing AI risks{++{"author":"Luc's AI","timestamp":1783723454590}@@
+# Submodule: Decomposing AI risks
 
 ## Lens:
 source:: [[../Lenses/The AI risk landscape]]
@@ -40,18 +40,18 @@ source:: [[../Lenses/The AI risk landscape]]
 optional:: true
 source:: [[../Lenses/darioamodei-dario-amodei-the-adolescence-of-technology]]
 
-## Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723454590}@@optional:: true
+## Lens:
+optional:: true
 source:: [[../Lenses/arxiv-an-overview-of-catastrophic-ai-risks]]
 
 ## Lens:
 optional:: true
 source:: [[../Lenses/1-gradual-disempowerment-systemic-existential-risks-from-incremental-ai-development]]
 
-++}## Learning Outcome:
+## Learning Outcome:
 source:: [[../Learning Outcomes/Decomposing AI risks]]
 
-# Submodule: Alignment targets{++{"author":"Luc's AI","timestamp":1783723461857}@@
+# Submodule: Alignment targets
 
 ## Lens:
 source:: [[../Lenses/Choosing an alignment target]]
@@ -60,18 +60,18 @@ source:: [[../Lenses/Choosing an alignment target]]
 optional:: true
 source:: [[../Lenses/yudkowsky-coherent-extrapolated-volition]]
 
-## Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723461857}@@optional:: true
+## Lens:
+optional:: true
 source:: [[../Lenses/anthropic-claudes-new-constitution]]
 
 ## Lens:
 optional:: true
 source:: [[../Lenses/lesswrong-corrigibility]]
 
-++}## Learning Outcome:
+## Learning Outcome:
 source:: [[../Learning Outcomes/Alignment targets]]
 
-# Submodule: Training stories and outer-inner alignment{++{"author":"Luc's AI","timestamp":1783723471430}@@
+# Submodule: Training stories and outer-inner alignment
 
 ## Lens:
 source:: [[../Lenses/Decomposing the alignment problem]]
@@ -88,8 +88,8 @@ source:: [[../Lenses/shah-how-undesired-goals-can-arise-with-correct-rewards]]
 optional:: true
 source:: [[../Lenses/hubinger-risks-from-learned-optimization-in-advanced-machine-learning-systems]]
 
-## Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723471430}@@optional:: true
+## Lens:
+optional:: true
 source:: [[../Lenses/mitchell-the-need-for-biases-in-learning-generalizations]]
 
 ## Lens:
@@ -100,26 +100,26 @@ source:: [[../Lenses/betley-emergent-misalignment-narrow-finetuning-can-produce-
 optional:: true
 source:: [[../Lenses/turntrout-reward-is-not-the-optimization-target]]
 
-++}## Learning Outcome:
+## Learning Outcome:
 source:: [[../Learning Outcomes/Training stories and outer-inner alignment]]
 
-# Submodule: Goals and instrumental convergence{++{"author":"Luc's AI","timestamp":1783723478697}@@
+# Submodule: Goals and instrumental convergence
 
 ## Lens:
 source:: [[../Lenses/Goal-directedness and instrumental convergence]]
 
 ## Lens:
-optional:: true++}
-{++{"author":"Luc's AI","timestamp":1783723478697}@@source:: [[../Lenses/gwern-why-tool-ais-want-to-be-agent-ais]]
+optional:: true
+source:: [[../Lenses/gwern-why-tool-ais-want-to-be-agent-ais]]
 
 ## Lens:
 optional:: true
 source:: [[../Lenses/omohundro-the-basic-ai-drives]]
 
-++}## Learning Outcome:
+## Learning Outcome:
 source:: [[../Learning Outcomes/Goals and instrumental convergence]]
 
-# Submodule: Forecasting risk and solution approaches{++{"author":"Luc's AI","timestamp":1783723487608}@@
+# Submodule: Forecasting risk and solution approaches
 
 ## Lens:
 source:: [[../Lenses/Forecasting risk and choosing an approach]]
@@ -140,8 +140,8 @@ source:: [[../Lenses/ai-2027 article lens]]
 optional:: true
 source:: [[../Lenses/optimism-ai-is-easy-to-control]]
 
-## Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723487608}@@optional:: true
+## Lens:
+optional:: true
 source:: [[../Lenses/evhub-model-organisms-of-misalignment-the-case-for-a-new-pillar-of-alignment-research]]
 
 ## Lens:
@@ -156,5 +156,5 @@ source:: [[../Lenses/yudkowsky-the-rocket-alignment-problem]]
 optional:: true
 source:: [[../Lenses/dai-problems-in-ai-alignment-that-philosophers-could-potentially-contribute-to]]
 
-++}## Learning Outcome:
+## Learning Outcome:
 source:: [[../Learning Outcomes/Forecasting risk and solution approaches]]

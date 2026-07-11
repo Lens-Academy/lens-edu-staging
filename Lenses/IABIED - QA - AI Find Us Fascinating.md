@@ -7,9 +7,9 @@ tags:
   - lens
   - IABIED
   - supplementary
-{++{"author":"Luc's AI","timestamp":1783722985311}@@add_to_ai_context:
+add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]"
-++}---
+---
 #### Text
 content::
 This Q&A examines whether superintelligent AI might preserve humanity out of fascination or a sense of historical importance. The authors argue that fascination is a human emotion AI needn't share, and even if it did value us as historical artifacts, "preservation" might look more like storing us in amber than enabling human flourishing.

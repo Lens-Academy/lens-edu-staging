@@ -10,7 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-{++{"author":"Luc's AI","timestamp":1783722605211}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722605211}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722605211}@@[[../Lenses/EA++} Intro - This Can't Go On]]
+## Lens:
+source:: [[../Lenses/EA Intro - This Can't Go On]]

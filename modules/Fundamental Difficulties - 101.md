@@ -21,24 +21,21 @@ Questions you will be able to answer after completing this module:
 * Why might misalignment and catastrophe be the default outcome of scaling current training methods, absent fundamental advances?
 * Which kinds of "fundamental advances" in alignment or AI theory would actually justify safe deployment, and what failure modes would they rule out?
 
-# {++{"author":"Luc's AI","timestamp":1783723014814}@@Lens:
+# Lens:
 optional:: true
 source:: [[../Lenses/Eliezer Yudkowsky – AI Alignment- Why It's Hard, and Where to Start]]
 
-# ++}Learning Outcome:
-{--{"author":"Luc's AI","timestamp":1783725335843}@@optional:: false
---}source:: [[../Learning Outcomes/Explain the fundamental difficulties of AI alignment]]
+# Learning Outcome:
+source:: [[../Learning Outcomes/Explain the fundamental difficulties of AI alignment]]
 
-{++{"author":"Luc's AI","timestamp":1783723023472}@@# Lens:
+# Lens:
 source:: [[../Lenses/6 reasons why it's not intuitive that alignment is hard]]
 
-++}# Learning Outcome:
-{--{"author":"Luc's AI","timestamp":1783725337011}@@optional:: false
---}source:: [[../Learning Outcomes/Explain why alignment feels counterintuitive]]
+# Learning Outcome:
+source:: [[../Learning Outcomes/Explain why alignment feels counterintuitive]]
 
-# {++{"author":"Luc's AI","timestamp":1783723030646}@@Lens:
+# Lens:
 source:: [[../Lenses/Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AIst outcomes]]
 
-# ++}Learning Outcome:
-{--{"author":"Luc's AI","timestamp":1783725338847}@@optional:: false
---}source:: [[../Learning Outcomes/Explain why default outcome is bad - 101]]
+# Learning Outcome:
+source:: [[../Learning Outcomes/Explain why default outcome is bad - 101]]
