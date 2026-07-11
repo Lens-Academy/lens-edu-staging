@@ -6,8 +6,8 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771179762}@@
+  - IABIED--}
 ---
 #### It could help with solving the alignment problem.
 

@@ -6,8 +6,8 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771307045}@@
+  - IABIED--}
 ---
 
 #### Our story showcases how AI is liable to have weird and unintended preferences.

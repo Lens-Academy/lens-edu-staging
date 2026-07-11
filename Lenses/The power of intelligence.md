@@ -3,9 +3,9 @@ id: b5690990-21b5-45d0-bc2b-e58449fbf194
 summary_for_tutor: "Covers general intelligence as a uniquely powerful adaptation. Uses the metaphor of 'Squishy Things' to argue that intelligence is a domain-general superpower that enabled humans to dominate despite having no biological weapons. Challenges common dismissals of AI capability by showing intelligence already produced every human achievement from nuclear weapons to moon landings."
 title: The power of intelligence
 tldr: Humans can fly, split atoms, and rewrite DNA — not because evolution gave us those abilities, but because general intelligence let us invent them. This video explores what makes intelligence unique as a tool, and asks whether the idea of a program that's good at everything is really as strange as it sounds.
-tags:
+{--{"author":"Elias's AI","timestamp":1783771105576}@@tags:
   - lens
----
+--}---
 #### Text
 content::
 Intelligence can seem like a collection of various distinct skills when comparing individual humans, and yet all of them are found almost exclusively in humans as opposed to other animals. Here is a brief meditation on the organ that made it all possible. A superpower that has defeated brawn speed and claws over the course of an evolutionary blink of an eye.

@@ -7,8 +7,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771287381}@@
+  - IABIED--}
 ---
 
 #### Because the situation seems genuinely serious and urgent.

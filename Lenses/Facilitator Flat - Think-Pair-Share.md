@@ -6,8 +6,8 @@ tldr: "If you memorise one structural pattern from this whole course, make it th
 authors:
   - Yatharth+Claude
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783771172102}@@lens
+  - --}facilitator-training
 ---
 #### Text
 content::

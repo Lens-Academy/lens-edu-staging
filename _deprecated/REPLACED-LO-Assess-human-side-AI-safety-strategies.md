@@ -1,9 +1,9 @@
 ---
 id: 3eff9ae4-edb5-47fb-99ff-5eb1287839f2
 learning-outcome: Assess the human-side family of AI safety strategies — brain-computer interfaces / the "merge", human cognitive augmentation, and whole-brain emulation — including how they differ strategically from the other families and their main weaknesses
-tags:
+{--{"author":"Elias's AI","timestamp":1783771336587}@@tags:
   - learning outcome
----
+--}---
 ## Lens:
 source:: [[../Lenses/Brain-computer interfaces and human augmentation]]
 ## Lens:

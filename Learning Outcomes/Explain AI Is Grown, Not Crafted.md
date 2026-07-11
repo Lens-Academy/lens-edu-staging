@@ -6,8 +6,8 @@ reading-to: "Machine minds are subjected to different constraints, and grown und
 authors:
   - Chris+Claude
 tags:
-  - learning-outcome
-  - IABIED
+  - learning-outcome{--{"author":"Elias's AI","timestamp":1783771141319}@@
+  - IABIED--}
 ---
 
 ## Test:

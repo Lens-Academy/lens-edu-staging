@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771267389}@@
+  - IABIED--}
 ---
 
 #### We don't expect to make any money from the book in the average case. Separately, we would love to be wrong about the book's thesis.

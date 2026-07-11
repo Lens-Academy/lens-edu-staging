@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771277629}@@
+  - IABIED--}
 ---
 
 #### Yes. But this doesn't mean that nothing is ever *actually* dangerous.

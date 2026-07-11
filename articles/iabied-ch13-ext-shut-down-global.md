@@ -6,8 +6,8 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771148036}@@
+  - IABIED--}
 ---
 We aren't experts in international law, and this is a formidably complicated topic that we expect to require a large amount of effort by domain experts. In the interest of getting the ball rolling quickly, however, we've worked with our technical governance team and outside advisors to assemble some sketches and guesses at some measures that could be effective.
 

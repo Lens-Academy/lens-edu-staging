@@ -6,8 +6,8 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771295223}@@
+  - IABIED--}
 ---
 
 #### We were trying to depict an especially slow and comprehensible scenario, among plausible scenarios.

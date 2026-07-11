@@ -3,9 +3,9 @@ id: 5ffa8d76-ed27-4fd0-b423-fa9f8d2b7563
 summary_for_tutor: "Covers the story of Chicago Pile-1, the first sustained nuclear chain reaction in 1942. Fermi's deep theoretical understanding of exponential chain reactions, not safety bureaucracy, prevented disaster. The lesson drawn is that genuine understanding of dangerous processes matters more than procedural safeguards, with implications for AI development where such understanding is lacking."
 title: The Tale of Chicago Pile-1
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783771068617}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 #### Text
 content::

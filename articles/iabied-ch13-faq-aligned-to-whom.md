@@ -6,8 +6,8 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771153497}@@
+  - IABIED--}
 ---
 #### This is a thorny question. Regardless of the answer, we need to halt development.
 

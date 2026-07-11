@@ -6,8 +6,8 @@ tldr: "You will be tempted to over-prepare. A 20-30 minute target ceiling does m
 authors:
   - Yatharth+Claude
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783771115975}@@lens
+  - --}facilitator-training
 ---
 #### Text
 content::

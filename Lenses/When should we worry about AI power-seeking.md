@@ -3,9 +3,9 @@ id: 8be5ec8c-df65-4423-aa3f-5776384a1c41
 summary_for_tutor: Covers the conditions under which AI power-seeking behavior would emerge. Explains that instrumental convergence predicts power-seeking as a mathematical consequence of goal-directed optimization, not an intentional design choice. Examines what level of agency, coherence, and capability a system would need before this theoretical prediction becomes a practical concern.
 title: When should we worry about AI power-seeking?
 tldr: A sufficiently capable AI might pursue resources and self-preservation not because it wants to, but because those serve almost any goal. This article examines what conditions — agency, motivation, incentives — would actually need to be in place for power-seeking behavior to emerge.
-tags :
+{--{"author":"Elias's AI","timestamp":1783771120479}@@tags :
   - lens
----
+--}---
 #### Text
 content::
 Power-seeking is a theoretical prediction based on rational agent models. Humans seek power due to evolutionary pressures. AI might seek power due to optimization pressures. The Instrumental Convergence thesis assumes that AI agents will be highly coherent and strategic. If the system behaves like an agent, e.g., seeks to maximize the probability of success, it is mathematically inclined to choose paths that preserve or increase the number of available options, and that is how power-seeking behaviour emerges. It is possible that future models will be agentic enough to show this predicted power-seeking behaviour but the risk depends heavily on how incentives are shaped and how capable the system becomes. This material examines the conditions required for power-seeking AI behaviour.

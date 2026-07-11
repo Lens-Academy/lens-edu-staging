@@ -2,8 +2,8 @@
 id: 4657896e-a2b1-4a39-aeca-e555108213c6
 title: "1.3 What a facilitator isn't (and isn't responsible for)"
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783771177741}@@lens
+  - --}facilitator-training
 ---
 #### Text
 content:: Being clear about your role as a facilitator means being equally clear about where it ends. It's important to go through the below listed points to understand what a facilitator isn't: 

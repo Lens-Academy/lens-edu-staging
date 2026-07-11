@@ -4,9 +4,9 @@ summary_for_tutor: "Argues that next-token prediction actually requires understa
 title: "Aren't AIs just predicting the next token?"
 tldr: "Predicting tokens requires understanding the world."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783771115616}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

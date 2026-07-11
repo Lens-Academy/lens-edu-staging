@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771280765}@@
+  - IABIED--}
 ---
 
 #### We can't learn much from a topic's prevalence in fiction.

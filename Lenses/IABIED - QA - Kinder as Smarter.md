@@ -4,9 +4,9 @@ summary_for_tutor: "Covers why increased intelligence does not lead to increased
 title: "Humans tend to get kinder as they get smarter. Wouldn't AIs too?"
 tldr: "Probably not."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783771158140}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 #### Text
 content::

@@ -2,9 +2,9 @@
 id: 7a5acb4b-ab2c-4bfc-96c7-328cba9e4f47
 title: "Isn't this AI stuff just science fiction?"
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783771109698}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

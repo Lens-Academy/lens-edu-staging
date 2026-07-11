@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771264531}@@
+  - IABIED--}
 ---
 
 In September of 1933, a physicist named Leo Szilard was crossing the intersection where Southampton Row passes Russell Square when he had the idea of a nuclear chain reaction — the key idea behind atomic bombs.

@@ -4,9 +4,9 @@ summary_for_tutor: "Examines Claude as a case study in apparent vs. genuine alig
 title: "Doesn't the Claude chatbot show signs of being aligned?"
 tldr: "\"What Claude says\" isn't the same as \"what Claude prefers.\""
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783771084395}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

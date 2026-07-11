@@ -6,8 +6,8 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771160258}@@
+  - IABIED--}
 ---
 #### Yes. We also advocate a research ban.
 

@@ -3,9 +3,9 @@ id: d04e0402-6f4b-4217-9193-dbe7bdd89cd7
 summary_for_tutor: "Explains why understanding LLM mechanics matters for policy and public discourse. Helps counter misinformation (like false claims that AI opacity has been resolved), enables better regulation, and reveals the gap between understanding the training process and understanding the trained system. Notes that interpretability research receives roughly 0.1% of AI development personnel."
 title: What Good Does Knowledge of LLMs Do?
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783771162537}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

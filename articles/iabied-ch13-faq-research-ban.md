@@ -6,8 +6,8 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771177291}@@
+  - IABIED--}
 ---
 #### More breakthroughs might make it effectively impossible to stop people from making superintelligence.
 

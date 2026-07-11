@@ -3,9 +3,9 @@ id: 9d2651c4-1830-4438-bdb1-299dfcb99a01
 title: "Why not use international cooperation to build AI safely?"
 tldr: "Because we don't have the technical ability to build it safely."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783771090209}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

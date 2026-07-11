@@ -6,8 +6,8 @@ tldr: "Three seconds to choose. Seven options. The skill is range — and the mo
 authors:
   - Yatharth+Claude
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783771167177}@@lens
+  - --}facilitator-training
 ---
 #### Text
 content::

@@ -8,8 +8,8 @@ slug: intelligence-is-direction-agnostic
 authors:
   - Chris+Claude
 tags:
-  - learning-outcome
-  - IABIED
+  - learning-outcome{--{"author":"Elias's AI","timestamp":1783771149838}@@
+  - IABIED--}
 ---
 
 ## Test:

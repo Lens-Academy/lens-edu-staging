@@ -2,9 +2,9 @@
 id: 1698e976-ab2e-4f13-b0da-0768345fd2cf
 title: "Isn't AI Different from Nuclear Reactors?"
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783771107399}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

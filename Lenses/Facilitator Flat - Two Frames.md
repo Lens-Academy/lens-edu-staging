@@ -2,8 +2,8 @@
 id: 8ccce108-f78d-4d92-a68a-f45bba2646db
 title: "1.4 Two postures worth knowing about"
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783771175578}@@lens
+  - --}facilitator-training
 ---
 #### Text
 content:: Two short concepts from *The Authentic Facilitator* (Authentic Revolution) that experienced facilitators reference often:

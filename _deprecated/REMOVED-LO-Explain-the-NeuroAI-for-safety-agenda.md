@@ -1,9 +1,9 @@
 ---
 id: 23f4cdc3-f5ad-4aa0-b2c8-e12cb708fa7e
 learning-outcome: Explain the NeuroAI-for-safety agenda (Mineault et al.) — its organizing bet and its seven research approaches — and how it differs from aligning a brain-like AGI
-tags:
+{--{"author":"Elias's AI","timestamp":1783771333519}@@tags:
   - learning outcome
----
+--}---
 ## Lens:
 source:: [[REMOVED-lens-NeuroAI-for-AI-safety]]
 ## Test:
