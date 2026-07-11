@@ -16,27 +16,27 @@ content:: {>>TODO: add module welcome text (~97 min module)<<}
 # Lens: Risks from Artificial Intelligence Introduction
 source:: ![[../Lenses/EA Intro - Risks from Artificial Intelligence Introduction]]
 
-# Submodule: The case for worrying about risks from artificial intelligence{++{"author":"Luc's AI","timestamp":1783723268793}@@
+# Submodule: The case for worrying about risks from artificial intelligence
 
-# Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723268793}@@source:: ![[../Lenses/EA Intro - How AI Could Create the Biggest Problems]]
+# Lens:
+source:: ![[../Lenses/EA Intro - How AI Could Create the Biggest Problems]]
 
-++}# Learning Outcome: EA Intro - Explain How Advanced AI Could Cause Catastrophe
+# Learning Outcome: EA Intro - Explain How Advanced AI Could Cause Catastrophe
 source:: ![[../Learning Outcomes/EA Intro - Explain How Advanced AI Could Cause Catastrophe]]
 
-# Submodule: Strategies for reducing risks from unaligned artificial intelligence{++{"author":"Luc's AI","timestamp":1783723276100}@@
+# Submodule: Strategies for reducing risks from unaligned artificial intelligence
 
-# Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723276100}@@source:: ![[../Lenses/EA Intro - The Longtermist AI Governance Landscape]]
+# Lens:
+source:: ![[../Lenses/EA Intro - The Longtermist AI Governance Landscape]]
 
-++}# Learning Outcome: EA Intro - Describe the AI Governance Landscape
+# Learning Outcome: EA Intro - Describe the AI Governance Landscape
 source:: ![[../Learning Outcomes/EA Intro - Describe the AI Governance Landscape]]
 
-# Submodule: Suffering risks{++{"author":"Luc's AI","timestamp":1783723284349}@@
+# Submodule: Suffering risks
 
-# Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723284349}@@source:: ![[../Lenses/EA Intro - Why S-Risks Are the Worst Existential Risks]]
+# Lens:
+source:: ![[../Lenses/EA Intro - Why S-Risks Are the Worst Existential Risks]]
 
-++}# Learning Outcome: EA Intro - Explain S-Risks
+# Learning Outcome: EA Intro - Explain S-Risks
 source:: ![[../Learning Outcomes/EA Intro - Explain S-Risks]]
 

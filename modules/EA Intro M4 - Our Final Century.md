@@ -16,48 +16,48 @@ content:: {>>TODO: add module welcome text (~49 min module)<<}
 # Lens: Our Final Century Introduction
 source:: ![[../Lenses/EA Intro - Our Final Century Introduction]]
 
-# Submodule: Existential risks{++{"author":"Luc's AI","timestamp":1783723184063}@@
+# Submodule: Existential risks
 
-# Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723184063}@@source:: ![[../Lenses/EA Intro - The Case for Reducing Existential Risk]]
+# Lens:
+source:: ![[../Lenses/EA Intro - The Case for Reducing Existential Risk]]
 
-++}# Learning Outcome: EA Intro - Explain Existential Risk and Moral Importance
+# Learning Outcome: EA Intro - Explain Existential Risk and Moral Importance
 source:: ![[../Learning Outcomes/EA Intro - Explain Existential Risk and Moral Importance]]
 
-# Submodule: Risks from pandemics{++{"author":"Luc's AI","timestamp":1783723190891}@@
+# Submodule: Risks from pandemics
 
-# Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723190891}@@source:: ![[../Lenses/EA Intro - Preventing Catastrophic Pandemics]]
+# Lens:
+source:: ![[../Lenses/EA Intro - Preventing Catastrophic Pandemics]]
 
-++}# Learning Outcome: EA Intro - Evaluate Pandemic Risk
+# Learning Outcome: EA Intro - Evaluate Pandemic Risk
 source:: ![[../Learning Outcomes/EA Intro - Evaluate Pandemic Risk]]
 
-# Submodule: Strategies for improving biosecurity{++{"author":"Luc's AI","timestamp":1783723196926}@@
+# Submodule: Strategies for improving biosecurity
 
-# Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723196926}@@source:: ![[../Lenses/EA Intro - Concrete Biosecurity Projects]]
+# Lens:
+source:: ![[../Lenses/EA Intro - Concrete Biosecurity Projects]]
 
-++}# Learning Outcome: EA Intro - Identify Biosecurity Interventions
+# Learning Outcome: EA Intro - Identify Biosecurity Interventions
 source:: ![[../Learning Outcomes/EA Intro - Identify Biosecurity Interventions]]
 
 # Submodule: Expected value & Hits-based giving
-{++{"author":"Luc's AI","timestamp":1783723204135}@@
+
 # Lens:
 source:: ![[../Lenses/EA Intro - Expected Value]]
 
-++}# Learning Outcome: EA Intro - Apply Expected Value Reasoning
-source:: ![[../Learning Outcomes/EA Intro - Apply Expected Value Reasoning]]{++{"author":"Luc's AI","timestamp":1783723204135}@@
+# Learning Outcome: EA Intro - Apply Expected Value Reasoning
+source:: ![[../Learning Outcomes/EA Intro - Apply Expected Value Reasoning]]
 
 # Lens:
-source:: ![[../Lenses/EA Intro - Hits-Based Giving]]++}
+source:: ![[../Lenses/EA Intro - Hits-Based Giving]]
 
 # Learning Outcome: EA Intro - Explain Hits-Based Giving
 source:: ![[../Learning Outcomes/EA Intro - Explain Hits-Based Giving]]
 
-# Submodule: Crucial considerations{++{"author":"Luc's AI","timestamp":1783723213333}@@
+# Submodule: Crucial considerations
 
-# Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723213333}@@source:: ![[../Lenses/EA Intro - Crucial Considerations]]
+# Lens:
+source:: ![[../Lenses/EA Intro - Crucial Considerations]]
 
-++}# Learning Outcome: EA Intro - Explain Crucial Considerations
+# Learning Outcome: EA Intro - Explain Crucial Considerations
 source:: ![[../Learning Outcomes/EA Intro - Explain Crucial Considerations]]

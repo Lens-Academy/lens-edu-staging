@@ -17,35 +17,35 @@ content::
 source:: ![[../Lenses/EA Intro - Radical Empathy Introduction]]
 
 # Submodule: Impartiality and radical empathy
-{++{"author":"Luc's AI","timestamp":1783723156131}@@
-++}# {++{"author":"Luc's AI","timestamp":1783723156131}@@Lens:
-source:: ![[../Lenses/EA Intro - Radical Empathy (Karnofsky)]]
-
-# ++}Learning Outcome: EA Intro - Explain Impartiality and Radical Empathy
-source:: ![[../Learning Outcomes/EA Intro - Explain Impartiality and Radical Empathy]]{++{"author":"Luc's AI","timestamp":1783723156131}@@
 
 # Lens:
-source:: ![[../Lenses/EA Intro - Moral Progress and Cause X]]++}
+source:: ![[../Lenses/EA Intro - Radical Empathy (Karnofsky)]]
+
+# Learning Outcome: EA Intro - Explain Impartiality and Radical Empathy
+source:: ![[../Learning Outcomes/EA Intro - Explain Impartiality and Radical Empathy]]
+
+# Lens:
+source:: ![[../Lenses/EA Intro - Moral Progress and Cause X]]
 
 # Learning Outcome: EA Intro - Describe Moral Progress and Cause X
 source:: ![[../Learning Outcomes/EA Intro - Describe Moral Progress and Cause X]]
 
-# {++{"author":"Luc's AI","timestamp":1783723162880}@@Lens:
+# Lens:
 source:: ![[../Lenses/EA Intro - The Possibility of Ongoing Moral Catastrophe]]
 
-# ++}Learning Outcome: EA Intro - Evaluate the Possibility of Ongoing Moral Catastrophes
-source:: ![[../Learning Outcomes/EA Intro - Evaluate the Possibility of Ongoing Moral Catastrophes]]{++{"author":"Luc's AI","timestamp":1783723162880}@@
+# Learning Outcome: EA Intro - Evaluate the Possibility of Ongoing Moral Catastrophes
+source:: ![[../Learning Outcomes/EA Intro - Evaluate the Possibility of Ongoing Moral Catastrophes]]
 
 # Lens:
-source:: ![[../Lenses/EA Intro - On Fringe Ideas]]++}
+source:: ![[../Lenses/EA Intro - On Fringe Ideas]]
 
 # Learning Outcome: EA Intro - Apply the Case for Animal Moral Consideration
 source:: ![[../Learning Outcomes/EA Intro - Apply the Case for Animal Moral Consideration]]
 
-# Submodule: The case for caring about animal welfare{++{"author":"Luc's AI","timestamp":1783723170334}@@
+# Submodule: The case for caring about animal welfare
 
-# Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723170334}@@source:: ![[../Lenses/EA Intro - Factory Farming Problem Profile]]
+# Lens:
+source:: ![[../Lenses/EA Intro - Factory Farming Problem Profile]]
 
-++}# Learning Outcome: EA Intro - Identify Strategies for Improving Animal Welfare
+# Learning Outcome: EA Intro - Identify Strategies for Improving Animal Welfare
 source:: ![[../Learning Outcomes/EA Intro - Identify Strategies for Improving Animal Welfare]]

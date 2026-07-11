@@ -16,50 +16,50 @@ content::
 # Lens: Differences in Impact
 source:: ![[../Lenses/EA Intro - Differences in Impact]]
 
-# Submodule: ITN framework{++{"author":"Luc's AI","timestamp":1783723100205}@@
+# Submodule: ITN framework
 
-# Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723100205}@@source:: [[../Lenses/wiblin-how-can-you-figure-out-which-global-problem-is-most-pressing]]
+# Lens:
+source:: [[../Lenses/wiblin-how-can-you-figure-out-which-global-problem-is-most-pressing]]
 
-++}# Learning Outcome: EA Intro - Apply the ITN Framework
+# Learning Outcome: EA Intro - Apply the ITN Framework
 source:: ![[../Learning Outcomes/EA Intro - Apply the ITN Framework]]
 
-# Submodule: Differences in impact{++{"author":"Luc's AI","timestamp":1783723107084}@@
+# Submodule: Differences in impact
 
-# Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723107084}@@source:: ![[../Lenses/EA Intro - Comparing Charities - How Big Is the Difference]]
+# Lens:
+source:: ![[../Lenses/EA Intro - Comparing Charities - How Big Is the Difference]]
 
-++}# Learning Outcome: EA Intro - Explain Why Some Interventions Are Orders of Magnitude More Effective
+# Learning Outcome: EA Intro - Explain Why Some Interventions Are Orders of Magnitude More Effective
 source:: ![[../Learning Outcomes/EA Intro - Explain Why Some Interventions Are Orders of Magnitude More Effective]]
 
-# Submodule: Thinking on the Margin{++{"author":"Luc's AI","timestamp":1783723112563}@@
+# Submodule: Thinking on the Margin
 
-# Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723112563}@@source:: ![[../Lenses/EA Intro - Marginal Impact]]
+# Lens:
+source:: ![[../Lenses/EA Intro - Marginal Impact]]
 
-++}# Learning Outcome: EA Intro - Explain Marginal Impact
+# Learning Outcome: EA Intro - Explain Marginal Impact
 source:: ![[../Learning Outcomes/EA Intro - Explain Marginal Impact]]
 
-# Submodule: Fermi estimation{++{"author":"Luc's AI","timestamp":1783723120476}@@
+# Submodule: Fermi estimation
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Fermi Estimation]]
 
-# Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723120476}@@source:: ![[../Lenses/EA Intro - Seabirds Sea Mammals and Marine Plastic]]
+# Lens:
+source:: ![[../Lenses/EA Intro - Seabirds Sea Mammals and Marine Plastic]]
 
-++}# Learning Outcome: EA Intro - Apply Fermi Estimation
+# Learning Outcome: EA Intro - Apply Fermi Estimation
 source:: ![[../Learning Outcomes/EA Intro - Apply Fermi Estimation]]
 
-# Submodule: Background data on global health and poverty{++{"author":"Luc's AI","timestamp":1783723127647}@@
+# Submodule: Background data on global health and poverty
 
-# Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723127647}@@source:: ![[../Lenses/EA Intro - Global Economic Inequality]]
+# Lens:
+source:: ![[../Lenses/EA Intro - Global Economic Inequality]]
 
-++}# Learning Outcome: EA Intro - Describe Global Poverty and Progress
+# Learning Outcome: EA Intro - Describe Global Poverty and Progress
 source:: ![[../Learning Outcomes/EA Intro - Describe Global Poverty and Progress]]
 
-# Submodule: EA strategies for addressing global poverty{++{"author":"Luc's AI","timestamp":1783723136627}@@
+# Submodule: EA strategies for addressing global poverty
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Giving 101 Guide]]
@@ -67,8 +67,8 @@ source:: ![[../Lenses/EA Intro - Giving 101 Guide]]
 # Lens:
 source:: ![[../Lenses/EA Intro - Global Health]]
 
-# Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723136627}@@source:: ![[../Lenses/EA Intro - Introducing LEEP]]
+# Lens:
+source:: ![[../Lenses/EA Intro - Introducing LEEP]]
 
-++}# Learning Outcome: EA Intro - Evaluate Global Health Interventions
+# Learning Outcome: EA Intro - Evaluate Global Health Interventions
 source:: ![[../Learning Outcomes/EA Intro - Evaluate Global Health Interventions]]

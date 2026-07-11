@@ -17,7 +17,7 @@ content::
 source:: ![[../Lenses/EA Intro - About This Handbook]]
 # Lens: The Effectiveness Mindset (Dalton)
 source:: ![[../Lenses/EA Intro - The Effectiveness Mindset (Dalton)]]
-# Submodule: On effective altruism{++{"author":"Luc's AI","timestamp":1783723057208}@@
+# Submodule: On effective altruism
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Introduction to Effective Altruism]]
@@ -25,24 +25,24 @@ source:: ![[../Lenses/EA Intro - Introduction to Effective Altruism]]
 # Lens:
 source:: ![[../Lenses/EA Intro - Four Ideas You Already Agree With]]
 
-# Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723057208}@@source:: ![[../Lenses/EA Intro - The World Is Much Better]]
+# Lens:
+source:: ![[../Lenses/EA Intro - The World Is Much Better]]
 
-++}# Learning Outcome: EA Intro - Explain What Effective Altruism Is
+# Learning Outcome: EA Intro - Explain What Effective Altruism Is
 source:: ![[../Learning Outcomes/EA Intro - Explain What Effective Altruism Is]]
 
-# Submodule: On scope sensitivity{++{"author":"Luc's AI","timestamp":1783723065678}@@
+# Submodule: On scope sensitivity
 
 # Lens:
 source:: ![[../Lenses/EA Intro - On Caring]]
 
-# Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723065678}@@source:: ![[../Lenses/EA Intro - Scope Insensitivity]]
+# Lens:
+source:: ![[../Lenses/EA Intro - Scope Insensitivity]]
 
-++}# Learning Outcome: EA Intro - Identify Failures of Scope Sensitivity
+# Learning Outcome: EA Intro - Identify Failures of Scope Sensitivity
 source:: ![[../Learning Outcomes/EA Intro - Identify Failures of Scope Sensitivity]]
 
-# Submodule: On scout mindset and thinking clearly{++{"author":"Luc's AI","timestamp":1783723072775}@@
+# Submodule: On scout mindset and thinking clearly
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Scout Mindset (Julia Galef)]]
@@ -50,24 +50,24 @@ source:: ![[../Lenses/EA Intro - Scout Mindset (Julia Galef)]]
 # Lens:
 source:: ![[../Lenses/EA Intro - What Cognitive Biases Feel Like From the Inside]]
 
-# Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723072775}@@source:: ![[../Lenses/EA Intro - Purchase Fuzzies and Utilons Separately]]
+# Lens:
+source:: ![[../Lenses/EA Intro - Purchase Fuzzies and Utilons Separately]]
 
-++}# Learning Outcome: EA Intro - Distinguish Scout Mindset from Soldier Mindset
+# Learning Outcome: EA Intro - Distinguish Scout Mindset from Soldier Mindset
 source:: ![[../Learning Outcomes/EA Intro - Distinguish Scout Mindset from Soldier Mindset]]
 
-# Submodule: On tradeoffs{++{"author":"Luc's AI","timestamp":1783723079158}@@
+# Submodule: On tradeoffs
 
-# Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723079158}@@source:: ![[../Lenses/EA Intro - We Are in Triage Every Second of Every Day]]
+# Lens:
+source:: ![[../Lenses/EA Intro - We Are in Triage Every Second of Every Day]]
 
-++}# Learning Outcome: EA Intro - Apply Triage Thinking to Giving Decisions
+# Learning Outcome: EA Intro - Apply Triage Thinking to Giving Decisions
 source:: ![[../Learning Outcomes/EA Intro - Apply Triage Thinking to Giving Decisions]]
 
-# Submodule: On impact{++{"author":"Luc's AI","timestamp":1783723087380}@@
+# Submodule: On impact
 
-# Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723087380}@@source:: ![[../Lenses/EA Intro - 500 Million But Not a Single One More]]
+# Lens:
+source:: ![[../Lenses/EA Intro - 500 Million But Not a Single One More]]
 
-++}# Learning Outcome: EA Intro - Explain Why Some Interventions Have Outsized Impact
+# Learning Outcome: EA Intro - Explain Why Some Interventions Have Outsized Impact
 source:: ![[../Learning Outcomes/EA Intro - Explain Why Some Interventions Have Outsized Impact]]

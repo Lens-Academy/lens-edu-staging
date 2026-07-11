@@ -16,33 +16,33 @@ Most AI safety work tries to make the *AI* safe — constrain it, align it, gove
 
 The bulk of the module is the second family. It runs through the bet and the landscape, the sub-threads (merge & cyborgism; whole-brain emulation & cognitive enhancement), and a hard-nosed case against — because BCI-type solutions are the least-developed AI-safety plan: loud in public discourse (Musk, Altman, Urban), heavily capitalized as *medical* technology, but held seriously as a safety bet by only a minority. The goal is a calibrated view of *when* changing the human side actually helps, and when it doesn't (or backfires).
 
-# {++{"author":"Luc's AI","timestamp":1783723122240}@@Lens:
+# Lens:
 source:: [[../Lenses/Brain-like AGI safety]]
 
 # Lens:
 optional:: true
 source:: [[../Lenses/Approval Reward and human social instincts]]
 
-# ++}Learning Outcome:
-source:: [[../Learning Outcomes/Explain brain-like AGI safety]]{++{"author":"Luc's AI","timestamp":1783723122240}@@
+# Learning Outcome:
+source:: [[../Learning Outcomes/Explain brain-like AGI safety]]
 
 # Lens:
 source:: [[../Lenses/BCI-type solutions - the landscape]]
 
 # Lens:
-source:: [[../Lenses/Brain signals as feedback for AI]]++}
+source:: [[../Lenses/Brain signals as feedback for AI]]
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Explain the BCI-type-solutions bet]]
 
-# {++{"author":"Luc's AI","timestamp":1783723129052}@@Lens:
+# Lens:
 source:: [[../Lenses/Merging with AI]]
 
 # Lens:
 source:: [[../Lenses/Cyborgism]]
 
-# ++}Learning Outcome:
-source:: [[../Learning Outcomes/Assess merge and cyborgism]]{++{"author":"Luc's AI","timestamp":1783723129052}@@
+# Learning Outcome:
+source:: [[../Learning Outcomes/Assess merge and cyborgism]]
 
 # Lens:
 source:: [[../Lenses/Whole-brain emulation]]
@@ -51,16 +51,16 @@ source:: [[../Lenses/Whole-brain emulation]]
 source:: [[../Lenses/How far off is whole-brain emulation]]
 
 # Lens:
-source:: [[../Lenses/Cognitive enhancement]]++}
+source:: [[../Lenses/Cognitive enhancement]]
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Assess whole-brain emulation and cognitive enhancement]]
 
-# {++{"author":"Luc's AI","timestamp":1783723138298}@@Lens:
+# Lens:
 source:: [[../Lenses/Brain-computer interfaces and human augmentation]]
 
 # Lens:
 source:: [[../Lenses/BCIs as an existential-risk factor]]
 
-# ++}Learning Outcome:
+# Learning Outcome:
 source:: [[../Learning Outcomes/Evaluate the case against BCI-type solutions]]
