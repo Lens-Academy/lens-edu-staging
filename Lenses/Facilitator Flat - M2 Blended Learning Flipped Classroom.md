@@ -4,8 +4,8 @@ title: "Optional — Blended Learning & Flipped Classroom (Osmosis, 6 min)"
 authors:
   - Yatharth+Claude
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783770638924}@@lens
+  - --}facilitator-training
 ---
 #### Video
 source:: [[../video_transcripts/osmosis-from-elsevier-blended-learning-flipped-classroom]]

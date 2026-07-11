@@ -4,8 +4,8 @@ title: "Optional — Top 10 Tips: Rapid Learner (Scott Young, 10 min)"
 authors:
   - Yatharth+Claude
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783770657958}@@lens
+  - --}facilitator-training
 ---
 #### Text
 content::

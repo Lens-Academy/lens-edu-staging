@@ -4,9 +4,9 @@ summary_for_tutor: Defines anthropomorphism (projecting human emotions onto AI) 
 title: Anthropomorphism and Mechanomorphism
 tldr: "Mechanomorphism and Garry Kasparov"
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770731286}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

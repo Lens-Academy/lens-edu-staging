@@ -2,8 +2,8 @@
 id: e74a3c33-3394-4e9b-8cdb-ffe42ca0f8d5
 title: "Running the Session — In-the-Moment Craft"
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783770626735}@@lens
+  - --}facilitator-training
 ---
 #### Text
 content:: You're in the room. People are looking at you. What do you actually do?

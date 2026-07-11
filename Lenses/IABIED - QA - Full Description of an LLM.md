@@ -4,9 +4,9 @@ summary_for_tutor: "Provides a detailed technical walkthrough of Meta's Llama 3.
 title: A Full Description of an LLM
 tldr: "How Llama 3.1 405B Works"
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770669020}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

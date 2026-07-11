@@ -4,8 +4,8 @@ title: "Optional — The Active Learning Method (Sprouts, 10 min)"
 authors:
   - Yatharth+Claude
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783770624672}@@lens
+  - --}facilitator-training
 ---
 #### Text
 content::

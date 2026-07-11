@@ -2,9 +2,9 @@
 id: a7e3c1d4-8f29-4b6a-9e52-1d3f07b8a2c6
 title: "Special Behavior is Built out of Mundane Parts"
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770761757}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 #### Text
 content::

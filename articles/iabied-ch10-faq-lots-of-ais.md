@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770738247}@@
+  - IABIED--}
 ---
 #### It doesn't much help if we can't make any of them care about good things.
 

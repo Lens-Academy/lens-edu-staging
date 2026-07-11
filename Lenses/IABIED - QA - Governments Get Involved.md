@@ -4,9 +4,9 @@ summary_for_tutor: "Covers whether government involvement will improve AI safety
 title: "Won't the situation get better once governments get more involved?"
 tldr: "It depends on how (and how soon) they get involved."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770757246}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 #### Text
 content::

@@ -6,8 +6,8 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770809044}@@
+  - IABIED--}
 ---
 #### We cover additional alignment proposals in the book.
 

@@ -2,8 +2,8 @@
 id: d04fac9e-58c7-4b2c-ac4a-bfa3f3efe342
 title: {--{"author":"Yatharth's AI","timestamp":1781165191773}@@"Facilitator M3 Welcome"--}{++{"author":"Yatharth's AI","timestamp":1781165191773}@@"Preparing to Facilitate a Session"++}
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783770610523}@@lens
+  - --}facilitator-training
 ---
 #### Text
 content:: {--{"author":"Yatharth's AI","timestamp":1781165195133}@@Module 3 — *Designing & Opening a Session*. **Time: ~35 minutes. Format: 3 short readings + 2 frameworks + 1 practical exercise.**

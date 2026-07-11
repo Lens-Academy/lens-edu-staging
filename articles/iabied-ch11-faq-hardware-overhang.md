@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770786565}@@
+  - IABIED--}
 ---
 #### That would be suicidal, because we're too far from an alignment solution.
 

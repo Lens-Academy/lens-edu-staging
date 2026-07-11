@@ -5,10 +5,10 @@ title: "Pre-Reading Question - The WWII Analogy"
 tldr: "Can countries really coordinate on something as costly and difficult as restricting AI development? Before reading, decide whether political impossibility is a factual claim or a claim about what people are willing to do."
 authors:
   - Chris+Claude
-tags:
+{--{"author":"Elias's AI","timestamp":1783770716370}@@tags:
   - lens
   - IABIED
----
+--}---
 #### Question
 content:: Before reading Chapter 13, section 1: Think of a time in history when countries did something extremely costly and difficult that demanded massive sacrifice, because they believed their survival or way of life was at stake. Did you find it surprising that coordination happened at all? Now: do you think major world powers could coordinate to restrict AI development if they genuinely believed it was an existential threat? Write down your thinking before you read.
 

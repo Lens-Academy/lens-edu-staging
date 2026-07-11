@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770771852}@@
+  - IABIED--}
 ---
 #### If the AIs get smart enough to matter, they likely collude.
 

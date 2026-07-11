@@ -5,10 +5,10 @@ title: "Describe the Refrigerator Thought Experiment"
 tldr: A blacksmith could build a refrigerator from a blueprint and still not believe what it does. Chapter 6 explains what it means to be on the wrong side of that knowledge gap.
 authors:
   - Chris+Claude
-tags:
+{--{"author":"Elias's AI","timestamp":1783770626736}@@tags:
   - lens
   - IABIED
-add_to_ai_context:
+--}add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 - We'd Lose]]"
 ---
 #### Text

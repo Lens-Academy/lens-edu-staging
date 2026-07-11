@@ -5,10 +5,10 @@ title: "The Two Prayers"
 tldr: "The authors close with two prayers: first, to be wrong and forgotten; second (their true last prayer), for humanity to rise to the occasion and win. Both can be held at once."
 authors:
   - Chris+Claude
-tags:
+{--{"author":"Elias's AI","timestamp":1783770711083}@@tags:
   - lens
   - IABIED
----
+--}---
 #### Text
 content::
 \## Reading Assignment

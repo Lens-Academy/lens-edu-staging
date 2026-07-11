@@ -4,9 +4,9 @@ summary_for_tutor: "Covers the orthogonality thesis: intelligence and values are
 title: "Orthogonality: AIs Can Have (Almost) Any Goal"
 tldr: "A Dialogue on Correct Nests, Continued"
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770766772}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 #### Text
 content::

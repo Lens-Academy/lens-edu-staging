@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770781986}@@
+  - IABIED--}
 ---
 #### It depends on how (and how soon) they get involved.
 

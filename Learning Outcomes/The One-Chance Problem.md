@@ -6,8 +6,8 @@ reading-to: "With ASI, there is no second time."
 authors:
   - Chris+Claude
 tags:
-  - learning-outcome
-  - IABIED
+  - learning-outcome{--{"author":"Elias's AI","timestamp":1783770627004}@@
+  - IABIED--}
 ---
 
 ## Test:

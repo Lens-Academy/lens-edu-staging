@@ -10,8 +10,8 @@ readings:
   - "Jason Digges — Taking Shares (7 min)"
   - "Jason Digges — Keeping Participants Engaged (5 min)"
 tags:
-  - facilitator-training
-  - module
+  - facilitator-training{--{"author":"Elias's AI","timestamp":1783770811524}@@
+  - module--}
 ---
 
 # Submodule: Welcome

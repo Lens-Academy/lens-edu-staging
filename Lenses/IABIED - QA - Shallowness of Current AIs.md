@@ -3,9 +3,9 @@ id: ee77c667-dca5-40ce-a2a9-2bf7af93a4a2
 summary_for_tutor: "Documents specific weaknesses in current AI systems: getting stuck in Pokemon, failing to read analog clocks, botching classic riddles. These coexist with superhuman math olympiad performance, creating a capability profile unlike any human's. The key open question is how long these gaps persist before being overcome."
 title: The Shallowness of Current AIs
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770717044}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

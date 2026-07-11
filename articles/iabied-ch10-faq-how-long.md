@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770731292}@@
+  - IABIED--}
 ---
 #### The difficulty isn't just the lack of time; it's the lethality of mistakes.
 

@@ -8,8 +8,8 @@ readings:
   - "Univ. of Tasmania — The Flipped Classroom Approach (5 min)"
   - "Durrington Research School — How Effective Is Think-Pair-Share (3 min)"
 tags:
-  - facilitator-training
-  - module
+  - facilitator-training{--{"author":"Elias's AI","timestamp":1783770786179}@@
+  - module--}
 ---
 
 # Submodule: Welcome

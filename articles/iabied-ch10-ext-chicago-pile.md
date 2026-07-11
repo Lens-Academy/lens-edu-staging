@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770722711}@@
+  - IABIED--}
 ---
 In 1942, Chicago Pile-1 was built under the direction of Enrico Fermi. It comprised 45,000 graphite blocks weighing 330 tonnes, 4.9 tonnes of uranium metal, and 41 tonnes of uranium dioxide, placed underneath the stands at the Stagg Field rackets court at the University of Chicago. Depending on how you define terms, you could call it the first nuclear reactor; it wasn't meant to produce power for industrial use, but it was the first engine for a sustained critical reaction.
 

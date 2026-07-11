@@ -2,10 +2,10 @@
 id: 52e8bb23-8bfe-480d-ab16-5783eebc9341
 summary_for_tutor: "Covers the positive vision of what powerful AI could bring if safety is solved. Frames the question through Nick Bostrom's 'Letter from Utopia' and Dario Amodei's 'Machines of Loving Grace' essay, which envisions AI-enabled breakthroughs in biology, medicine, neuroscience, economic development, and governance. Intended as a counterweight to risk-focused material."
 title: Machines Of Loving Grace
-tags:
+{--{"author":"Elias's AI","timestamp":1783770757107}@@tags:
   - lens
 
----
+--}---
 #### Text
 content::
 Yes, the risks are real. But what exactly are we trying to protect? The following materials ask a different question: what good could powerful AI bring if we manage to solve the safety problem?

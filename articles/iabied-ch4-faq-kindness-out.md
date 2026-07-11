@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770766651}@@
+  - IABIED--}
 ---
 
 #### Kindness looks contingent on the particulars of our biology and ancestry.

@@ -5,10 +5,10 @@ title: "The Five Engineering Curses"
 tldr: "Five named features make some engineering problems uniquely treacherous. AI alignment has all five at once, plus an extra: they get worse the smarter the system becomes."
 authors:
   - Yatharth+Claude
-tags:
+{--{"author":"Elias's AI","timestamp":1783770685900}@@tags:
   - lens
   - IABIED
----
+--}---
 #### Text
 content::
 \## Reading Assignment

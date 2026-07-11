@@ -4,9 +4,9 @@ summary_for_tutor: Covers the objection that imagining a smart AI pursuing trivi
 title: "Why are you imagining a smart AI doing such stupid, trivial things?"
 tldr: "AIs can intelligently pursue different things than a human would."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770743735}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 #### Text
 content::

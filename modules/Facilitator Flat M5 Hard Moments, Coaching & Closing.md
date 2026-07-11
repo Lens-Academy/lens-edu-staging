@@ -10,8 +10,8 @@ readings:
   - "NYU Coaching — The GROW framework (5 min)"
   - "Sara Ness — The Elegant Finale (10 min)"
 tags:
-  - facilitator-training
-  - module
+  - facilitator-training{--{"author":"Elias's AI","timestamp":1783770775996}@@
+  - module--}
 ---
 
 # Lens: Hard Moments, Coaching, and Closing

@@ -4,8 +4,8 @@ summary_for_tutor: ...
 title: Common Objections to AI Safety and their Responses
 tldr: ...
 tags:
-  - lens
-  - work-in-progress
+  - {--{"author":"Elias's AI","timestamp":1783770596773}@@lens
+  - --}work-in-progress
 ---
 
 #### Text

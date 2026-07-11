@@ -2,8 +2,8 @@
 id: d526907f-e5f5-415d-abc2-3cfd540e3fce
 title: {--{"author":"Yatharth's AI","timestamp":1781164654335}@@"Facilitator M2 Welcome"--}{++{"author":"Yatharth's AI","timestamp":1781164654335}@@"How People Learn — Why Discussions Work"++}
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783770604358}@@lens
+  - --}facilitator-training
 ---
 #### Text
 content:: {--{"author":"Yatharth's AI","timestamp":1781164658661}@@Module 2 — *How People Learn*. **Time: ~35 minutes. Format: 2 readings + 1 short framework + 1 reflection exercise.**

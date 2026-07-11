@@ -6,8 +6,8 @@ reading-to: "But we don't know how else humanity could survive."
 authors:
   - Chris+Claude
 tags:
-  - learning-outcome
-  - IABIED
+  - learning-outcome{--{"author":"Elias's AI","timestamp":1783770651421}@@
+  - IABIED--}
 ---
 
 ## Test:

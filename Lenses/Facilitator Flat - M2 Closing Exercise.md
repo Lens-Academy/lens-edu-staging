@@ -2,8 +2,8 @@
 id: f0ec05c3-2462-4a93-b758-d0a4f715c294
 title: "Closing exercise"
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783770648826}@@lens
+  - --}facilitator-training
 ---
 #### Text
 content:: **Closing exercise (4 min)**

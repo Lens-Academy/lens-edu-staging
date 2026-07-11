@@ -3,9 +3,9 @@ id: 03e48d89-a09e-4070-9988-9cbae7498992
 summary_for_tutor: "Covers how modern neuroscience enables systematic construction of new optical illusions from first principles, rather than accidental discovery. Examples include the Curvature Blindness Illusion and chimerical colors. Illustrates the broader principle that understanding a system's architecture enables exploitation of its vulnerabilities."
 title: A New Way to Discover Optical Illusions
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770763514}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 #### Text
 content::

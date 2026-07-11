@@ -2,9 +2,9 @@
 id: c2daf813-532e-4558-a717-69a227a50148
 discussion:
 learning-outcome: Demo learning outcome
-tags:
+{--{"author":"Elias's AI","timestamp":1783770606683}@@tags:
   - learning outcome
----
+--}---
 
 %% A learning outcome (LO) file defines a learning outcome, a test that checks whether the learner has achieved the intended outcome, and a list of suggested lenses that teach the learner what they need to know to achieve the LO.
 

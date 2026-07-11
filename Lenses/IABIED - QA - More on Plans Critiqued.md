@@ -3,9 +3,9 @@ id: 188139f0-0677-4588-9ec7-52a70cd098d7
 title: "More on Some of the Plans We Critiqued in the Book"
 tldr: 'More on Making AI That Is "Truth-Seeking"'
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770645083}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 #### Text
 content::

@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770718803}@@
+  - IABIED--}
 ---
 As mentioned in the chapter, the fundamental difficulty researchers face in AI is this:
 
