@@ -24,7 +24,7 @@ This kind of qualitative assessment is important to know whether LLMs represent 
 
 ## Empirically insufficiency?
 
-**Can LLMs be creative? **The creativity of LLMs is often debated, but there are clear indications that AI, in principle, is capable of creative processes in various ways:
+**Can LLMs be {--{"author":"Luc's AI","timestamp":1783789994972}@@creative? **The--}{++{"author":"Luc's AI","timestamp":1783789994972}@@creative?** The++} creativity of LLMs is often debated, but there are clear indications that AI, in principle, is capable of creative processes in various ways:
 
 - **Autonomous Scientific Research**: Recent advancements have shown that LLMs can indeed make novel discoveries. For example, a study by DeepMind demonstrated that an LLM "*discovered new solutions for the cap set problem, a long-standing open problem in mathematics*" ([DeepMind, 2023](https://deepmind.google/discover/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/)) which was a favorite open problem of Terence Tao. This indicates that AI can not only understand existing knowledge but also contribute new insights in complex fields like mathematics.
 - **Autonomous Discovery**: AI has the capability to rediscover human strategies and openings independently. AlphaGo, for example, rediscovered human Go strategies and openings through self-play ([McGrath et al., 2021](https://arxiv.org/abs/2111.09259)), without any human data input. This demonstrates an AI's ability to independently learn and innovate within established domains.
