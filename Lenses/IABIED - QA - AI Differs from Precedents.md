@@ -4,9 +4,9 @@ summary_for_tutor: "Covers why AI alignment is dramatically harder than managing
 title: "Won't AI differ from all the historical precedents?"
 tldr: "Yes."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770542102}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 #### Text
 content::

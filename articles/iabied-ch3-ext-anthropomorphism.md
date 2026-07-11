@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770534729}@@
+  - IABIED--}
 ---
 
 There are two modes of thinking that have been historically proven over and over *not* to work, modes that history has shown to give bad advice for making predictions about AI.

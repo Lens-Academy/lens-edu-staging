@@ -5,10 +5,10 @@ title: "Behavior Is Not Values"
 tldr: An AI trained to act helpful learned what helpful behavior looks like. That's not the same as being helpful, just as an actor playing a drunk isn't drunk.
 authors:
   - Chris+Claude
-tags:
+{--{"author":"Elias's AI","timestamp":1783770577759}@@tags:
   - lens
   - IABIED
-add_to_ai_context:
+--}add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/02 - Chapter 2 - Grown, Not Crafted]]"
 ---
 #### Text

@@ -4,9 +4,9 @@ summary_for_tutor: "Explains how training pressures naturally drive AIs toward i
 title: "How could a machine end up with its own priorities?"
 tldr: "Solving difficult challenges requires AIs to take more and more initiative."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770531118}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

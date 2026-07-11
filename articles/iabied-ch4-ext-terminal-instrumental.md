@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770657970}@@
+  - IABIED--}
 ---
 Decision theorists make a distinction between two different types of goal, "terminal" and "instrumental."
 

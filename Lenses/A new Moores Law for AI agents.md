@@ -1,8 +1,6 @@
-{++{"author":"AI","timestamp":1783453456983}@@---
+{++{"author":"Elias's AI","timestamp":1783770563836}@@---
 id: b38d3403-ef4e-48d6-9a94-4efc252fd89d
 title: "A new Moore's Law for AI agents"
-tags:
-  - lens
 ---
 #### Text
 content::

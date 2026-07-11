@@ -3,9 +3,9 @@ id: b614a390-a260-4790-9bbc-2cceb5930eea
 title: "Isn't the danger from smarter-than-human AI a distraction from other issues?"
 tldr: "The world is, unfortunately, big enough for multiple issues."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770553061}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

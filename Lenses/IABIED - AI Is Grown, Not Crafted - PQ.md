@@ -5,10 +5,10 @@ title: "Pre-Reading Question - AI Is Grown, Not Crafted"
 tldr: You probably have a mental model of how AI works. Before you read, write it down. Chapter 2 is about to complicate it.
 authors:
   - Chris+Claude
-tags:
+{--{"author":"Elias's AI","timestamp":1783770556301}@@tags:
   - lens
   - IABIED
-add_to_ai_context:
+--}add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/02 - Chapter 2 - Grown, Not Crafted]]"
 ---
 #### Question

@@ -4,9 +4,9 @@ summary_for_tutor: "Argues against the hope that machines will have compensating
 title: "Won't machines be fundamentally uncreative, or otherwise fatally flawed?"
 tldr: "No."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770538821}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

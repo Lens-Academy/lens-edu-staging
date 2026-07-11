@@ -6,8 +6,8 @@ tldr: "Last five minutes matter disproportionately. People remember beginnings a
 authors:
   - Yatharth+Claude
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783770513750}@@lens
+  - --}facilitator-training
 ---
 #### Text
 content::

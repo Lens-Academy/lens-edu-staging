@@ -2,9 +2,9 @@
 id: dc6e42a6-bb8b-41ec-8047-0a4671ea63e2
 slug: brain-related-ai-safety-approaches
 title: Brain-related AI safety approaches
-tags:
+{--{"author":"Elias's AI","timestamp":1783770563061}@@tags:
   - module
----
+--}---
 # Lens: Welcome
 id:: 616abdc2-dcad-49f2-89e5-ed74aaa16742
 #### Text

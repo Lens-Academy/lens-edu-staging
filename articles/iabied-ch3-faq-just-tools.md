@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770552671}@@
+  - IABIED--}
 ---
 
 #### AIs are grown, not crafted. So they already do things other than what they're told to do.

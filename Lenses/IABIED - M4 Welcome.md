@@ -3,10 +3,10 @@ id: 71f38d11-7d09-4102-af9b-4c891883c152
 title: "IABIED M4 Welcome"
 authors:
   - Chris+Claude
-tags:
+{--{"author":"Elias's AI","timestamp":1783770511696}@@tags:
   - lens
   - IABIED
----
+--}---
 #### Text
 content:: In module 4 we read the book's fictional extinction scenario. This is the longest reading assignment (four chapters), but they read like a thriller. The authors stress that the specific scenario is not a prediction: "the only part of this story that is a prediction is the ending." Pay attention to the decision points where humans could have intervened.
 

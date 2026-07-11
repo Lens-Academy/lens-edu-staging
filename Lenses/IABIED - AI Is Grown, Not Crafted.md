@@ -5,10 +5,10 @@ title: "AI Is Grown, Not Crafted"
 tldr: Engineers wrote the training process. They didn't write the AI. Like a parent who knows how babies are made but not what the baby will become.
 authors:
   - Chris+Claude
-tags:
+{--{"author":"Elias's AI","timestamp":1783770560297}@@tags:
   - lens
   - IABIED
-add_to_ai_context:
+--}add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/02 - Chapter 2 - Grown, Not Crafted]]"
 ---
 #### Text

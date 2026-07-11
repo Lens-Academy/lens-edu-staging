@@ -5,10 +5,10 @@ title: "Pre-Reading Question - Define Intelligence"
 tldr: What makes human intelligence special? Think about it before you read.
 authors:
   - Chris+Claude
-tags:
+{--{"author":"Elias's AI","timestamp":1783770587495}@@tags:
   - lens
   - IABIED
-add_to_ai_context:
+--}add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]"
 ---
 #### Question

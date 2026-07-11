@@ -6,8 +6,8 @@ tldr: "Quiet doesn't mean disengaged. Five gentle moves work; cold-calling almos
 authors:
   - Yatharth+Claude
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783770526940}@@lens
+  - --}facilitator-training
 ---
 #### Text
 content::

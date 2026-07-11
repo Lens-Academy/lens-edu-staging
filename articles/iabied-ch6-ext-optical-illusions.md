@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770561241}@@
+  - IABIED--}
 ---
 In Chapter 6, we said that researchers have used the modern understanding of human visual processing and the visual cortex to come up with new optical illusions — illusions that could not have been produced fifty years ago, except by unlikely accident. Below, we cite a few representative examples.
 

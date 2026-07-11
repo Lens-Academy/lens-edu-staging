@@ -3,9 +3,9 @@ id: 8b6e9cea-afb4-4ece-a8c0-3b90dad20623
 summary_for_tutor: Covers why AI would not need to build a whole civilization before becoming dangerous. Unlike humans who take decades to develop, AI instances can be copied instantly. A superintelligence would bootstrap using existing human infrastructure, and with approximately 200,000 GPT-5 instances already running simultaneously, the gap between capability and deployment is negligible.
 tldr: "With computers, the hard part is getting them to solve a certain problem at all. High volume and speed come soon after."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770528443}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 #### Text
 content::

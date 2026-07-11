@@ -5,10 +5,10 @@ title: "Path Prediction vs Outcome Prediction"
 tldr: You can't predict every move Stockfish will make. You can predict that you'll lose. The Coda argues the same logic applies here.
 authors:
   - Chris+Claude
-tags:
+{--{"author":"Elias's AI","timestamp":1783770585389}@@tags:
   - lens
   - IABIED
-add_to_ai_context:
+--}add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/10 - Coda]]"
 ---
 #### Text

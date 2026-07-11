@@ -2,9 +2,9 @@
 id: 1e8ae361-adcf-4cb0-a40e-3c5acef4faa9
 slug: ai-optimization-superintelligence
 title: AI, Optimization, Superintelligence
-tags:
+{--{"author":"Elias's AI","timestamp":1783770559905}@@tags:
   - module
----
+--}---
 # Lens: Welcome
 id:: ff3b2cc0-1381-41ed-8194-3ac5301f38b0
 #### Text

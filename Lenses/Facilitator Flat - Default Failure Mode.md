@@ -6,8 +6,8 @@ tldr: "Pufferfish or hermit crab. You're one or the other. Knowing which one is 
 authors:
   - Yatharth+Claude
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783770520549}@@lens
+  - --}facilitator-training
 ---
 #### Text
 content::

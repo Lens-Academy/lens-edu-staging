@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770537083}@@
+  - IABIED--}
 ---
 
 *Why* is wanting an effective way of doing? Why does it *win*? Why does black-box optimization by natural selection stumble across this trick, over and over?

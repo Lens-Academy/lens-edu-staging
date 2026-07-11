@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770578245}@@
+  - IABIED--}
 ---
 #### Intelligence lets you learn more from experiments and run faster, more informative, more parallelized experiments.
 

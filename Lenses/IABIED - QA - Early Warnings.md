@@ -3,9 +3,9 @@ id: 396921de-1713-42be-888f-af7c6d9ba444
 title: "Won't there be early warnings researchers can use to identify problems?"
 tldr: "Warning signs don't help if you don't know what to do with them."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770564316}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 #### Text
 content::

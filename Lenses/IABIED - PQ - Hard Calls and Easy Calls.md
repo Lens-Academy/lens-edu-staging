@@ -5,10 +5,10 @@ title: "Pre-Reading Question - Hard Calls and Easy Calls"
 tldr: What makes some predictions feel like sure things? Think about it before you read.
 authors:
   - Chris+Claude
-tags:
+{--{"author":"Elias's AI","timestamp":1783770580845}@@tags:
   - lens
   - IABIED
-add_to_ai_context:
+--}add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/00 - Introduction - Hard Calls and Easy Calls]]"
 ---
 #### Question

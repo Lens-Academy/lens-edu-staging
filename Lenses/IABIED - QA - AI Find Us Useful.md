@@ -4,9 +4,9 @@ summary_for_tutor: Covers why superintelligent AI is unlikely to preserve humani
 title: "Will AI find us useful enough to keep around?"
 tldr: "Happy, healthy, free people aren't the most efficient solution to almost any problem."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770564562}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]"
 ---

@@ -4,9 +4,9 @@ summary_for_tutor: "Covers the 'barn painter' problem: many different internal d
 title: "Why would an AI steer toward anything other than what it was trained to steer toward?"
 tldr: "Because there are many ways to perform well in training."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770571466}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

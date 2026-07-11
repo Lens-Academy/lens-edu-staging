@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770598247}@@
+  - IABIED--}
 ---
 In late April of 2025, a user on the r/ChatGPT subreddit created a thread titled "[Chatgpt](https://www.reddit.com/r/ChatGPT/comments/1kalae8/chatgpt_induced_psychosis/)[induced psychosis](https://www.reddit.com/r/ChatGPT/comments/1kalae8/chatgpt_induced_psychosis/)," describing their partner's descent into grandiose delusions about having "the answers to the universe" and being "a superior human" "growing at an insanely rapid pace."
 

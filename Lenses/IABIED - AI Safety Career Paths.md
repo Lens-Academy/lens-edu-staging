@@ -2,10 +2,10 @@
 id: 6ff6313a-418d-4094-811f-10555a49efc9
 summary_for_tutor: "Covers career paths in AI safety after completing the IABIED book. Lists four main directions: technical AI safety research (alignment, interpretability), AI governance and policy, advocacy and community building, and field building. Points to 80,000 Hours and names key organizations in each area."
 title: AI Safety Career Paths
-tags:
+{--{"author":"Elias's AI","timestamp":1783770565442}@@tags:
   - lens
   - IABIED
----
+--}---
 
 #### Text
 content::

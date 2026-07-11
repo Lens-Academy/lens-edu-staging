@@ -4,8 +4,8 @@ learning-outcome: "Distinguish 'hard calls' from 'easy calls' as the authors def
 reading-from: "\"MITIGATING THE RISK OF EXTINCTION FROM AI SHOULD BE A global priority alongside other societal-scale risks such as pandemics and nuclear war.\""
 reading-to: "Where there's life, there's hope."
 tags:
-  - learning-outcome
-  - IABIED
+  - learning-outcome{--{"author":"Elias's AI","timestamp":1783770700161}@@
+  - IABIED--}
 authors:
   - Chris+Claude
 ---

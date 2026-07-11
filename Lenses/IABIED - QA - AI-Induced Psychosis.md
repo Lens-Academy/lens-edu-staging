@@ -3,9 +3,9 @@ id: b8d4e6f3-2c5a-4b1e-9a73-5d7f0e2c8b96
 title: "AI-Induced Psychosis"
 tldr: "Evidence of AI-Induced Psychosis"
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770578064}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 #### Text
 content::

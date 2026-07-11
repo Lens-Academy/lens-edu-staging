@@ -6,8 +6,8 @@ tldr: {--{"author":"Yatharth's AI","timestamp":1781165215366}@@"Almost every goo
 authors:
   - Yatharth+Claude
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783770526155}@@lens
+  - --}facilitator-training
 ---
 #### Text
 content::

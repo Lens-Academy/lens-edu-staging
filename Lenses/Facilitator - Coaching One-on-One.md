@@ -6,8 +6,8 @@ tldr: "Coaching is about the person, not the problem. The biggest skill: stay cu
 authors:
   - Yatharth+Claude
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783770516779}@@lens
+  - --}facilitator-training
 ---
 #### Text
 content::

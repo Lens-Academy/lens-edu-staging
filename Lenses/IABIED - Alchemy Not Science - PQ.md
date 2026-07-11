@@ -5,10 +5,10 @@ title: "Pre-Reading Question - Alchemy Not Science"
 tldr: "Before reading, think about a domain where you can make things work without understanding why. What are the limits of recipe-level competence?"
 authors:
   - Yatharth+Claude
-tags:
+{--{"author":"Elias's AI","timestamp":1783770567709}@@tags:
   - lens
   - IABIED
----
+--}---
 #### Question
 content:: Imagine someone who can reliably produce a result, say a sourdough starter that always rises, a chemical reaction that always yields the right precipitate, or a stretch routine that consistently helps their back. *Yet they cannot explain why their procedure works.*
 

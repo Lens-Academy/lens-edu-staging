@@ -4,9 +4,9 @@ summary_for_tutor: "Catalogs real-world examples of AI misalignment: Claude Opus
 title: "Aren't developers regularly making their AIs nice and safe and obedient?"
 tldr: "AIs steer in alien directions that only mostly coincide with helpfulness."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770604473}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

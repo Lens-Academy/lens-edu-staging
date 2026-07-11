@@ -3,9 +3,9 @@ id: 31abe48a-eb0b-4dd3-9bb7-1393c9f99a1a
 summary_for_tutor: "Tells the story of Leo Szilard's 1933 nuclear chain reaction insight and Fermi's dismissal as 'Nuts!' followed by a 10% probability estimate. Rabi's objection that 10% is not remote if it means death becomes a lesson about low-probability catastrophic risks. Draws parallels to AI risk: expert intuitions can mislead, and early conversations matter before technologies materialize."
 title: When Leo Szilard Saw the Future
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770517571}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text
