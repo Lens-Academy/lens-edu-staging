@@ -6,8 +6,7 @@ reading-to: "That's the next chapter."
 authors:
   - Chris+Claude
 tags:
-  - learning-outcome{--{"author":"Elias's AI","timestamp":1783771156530}@@
-  - IABIED--}
+  - learning-outcome
 ---
 
 ## Test:

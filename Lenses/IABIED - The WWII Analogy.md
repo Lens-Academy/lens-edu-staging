@@ -5,10 +5,7 @@ title: "The WWII Analogy"
 tldr: "The political-impossibility objection says world powers will never coordinate to restrict AI. Chapter 13 answers with WWII: they mobilized $6 trillion and 60–80 million personnel. Impossibility is really a claim about motivation, and motivation has a track record."
 authors:
   - Chris+Claude
-{--{"author":"Elias's AI","timestamp":1783770767379}@@tags:
-  - lens
-  - IABIED
---}---
+---
 #### Text
 content::
 \## Reading Assignment

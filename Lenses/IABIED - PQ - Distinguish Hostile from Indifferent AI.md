@@ -5,10 +5,7 @@ title: "Before Reading: Distinguish Hostile from Indifferent AI"
 tldr: Does something need to hate you to be deadly? Before reading, think about what actually causes catastrophic harm, and whether hostility is really the key ingredient.
 authors:
   - Chris+Claude
-{--{"author":"Elias's AI","timestamp":1783770530511}@@tags:
-  - lens
-  - IABIED
---}add_to_ai_context:
+add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]"
 ---
 #### Question

@@ -5,10 +5,7 @@ title: "Pre-Reading Question - The Five Engineering Curses"
 tldr: "Before reading, take 60 seconds to brainstorm: what makes some engineering problems uniquely treacherous compared to others? Hold your own list as you read."
 authors:
   - Yatharth+Claude
-{--{"author":"Elias's AI","timestamp":1783770682182}@@tags:
-  - lens
-  - IABIED
---}---
+---
 #### Question
 content:: Think of a domain where engineering is famously difficult: nuclear reactors, space flight, computer security, drug development, anything you've encountered. **What is it about those domains that makes the engineering hard?** Not "the problems are complicated" (that's true everywhere), but the *specific structural features* of the system that make small mistakes catastrophic, or make verification hard, or make the experimental learning loop slow.
 

@@ -4,9 +4,7 @@ summary_for_tutor: "Defends intelligence as a meaningful concept despite lacking
 title: "Is intelligence a meaningful concept?"
 tldr: "Yes. There's a real phenomenon to describe, even if it's difficult to pin down."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783771097745}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

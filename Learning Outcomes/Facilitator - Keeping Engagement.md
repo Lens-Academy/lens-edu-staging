@@ -4,8 +4,7 @@ learning-outcome: "Name four practical antidotes to mid-session energy decay (va
 authors:
   - Yatharth+Claude
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783771737705}@@learning-outcome
-  - --}facilitator-training
+  - facilitator-training
 ---
 
 ## Test:

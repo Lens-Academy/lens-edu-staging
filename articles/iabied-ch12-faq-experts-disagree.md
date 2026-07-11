@@ -6,8 +6,7 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771049055}@@
-  - IABIED--}
+  - clippings
 ---
 #### Lack of expert consensus is a sign of an immature technical field.
 

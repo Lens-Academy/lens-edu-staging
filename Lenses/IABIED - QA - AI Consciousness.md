@@ -3,9 +3,7 @@ id: 92fd9aaa-b529-49ff-a11f-60b4f5b1ca57
 summary_for_tutor: "Covers whether superintelligent AI would be conscious (best guess: probably not) and why the question is largely separate from AI danger. Whether conscious or unconscious, an optimizer pursuing misaligned goals poses the same existential threat."
 tldr: "We're not sure. Our best guess is \"probably not.\""
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770532810}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 #### Text
 content::

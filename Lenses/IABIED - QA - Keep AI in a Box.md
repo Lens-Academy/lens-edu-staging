@@ -4,9 +4,7 @@ summary_for_tutor: "Covers why AI containment (boxing) fails as a safety strateg
 title: "Can developers just keep the AI in a box?"
 tldr: "They won't."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783771119021}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 #### Text
 content::

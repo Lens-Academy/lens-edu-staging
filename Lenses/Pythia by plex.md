@@ -3,9 +3,7 @@ id: 4126ce24-1fb5-4f2c-8cdf-2f8c798d1996
 summary_for_tutor: "Covers the thin boundary between passive prediction and active agency through the 'Oracle of Pythia' concept. Argues that a sufficiently capable world-model that knows how its outputs affect human behavior is effectively an agent, because choosing which prediction to give becomes an act of influence and control."
 title: Pythia by plex
 tldr: A system that perfectly predicts the world might seem harmless — it just answers questions. But if it knows how its answers change your behavior, choosing which answer to give becomes an act of influence. This article explores the thin line between passive prediction and active manipulation.
-{--{"author":"Elias's AI","timestamp":1783770960333}@@tags :
-  - lens
---}---
+---
 #### Text
 content::
 The boundary between a passive predictor and an active agent is thinner than it appears. This article introduces the concept of "Pythia": a perspective on how advanced world-modeling can lead to the emergence of agency.

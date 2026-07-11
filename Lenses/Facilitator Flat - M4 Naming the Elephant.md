@@ -4,8 +4,7 @@ title: "Optional — Naming the Elephant (Meg & Sara, 6 min)"
 authors:
   - Yatharth+Claude
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770833450}@@lens
-  - --}facilitator-training
+  - facilitator-training
 ---
 #### Video
 source:: [[../video_transcripts/lens-academy-naming-the-elephant]]

@@ -2,8 +2,7 @@
 id: a3b23ee2-ee45-48c6-baf8-ce5f60f6eb9c
 title: "Final exercise"
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770634392}@@lens
-  - --}facilitator-training
+  - facilitator-training
 ---
 #### Text
 content:: **Final exercise (5 min)**

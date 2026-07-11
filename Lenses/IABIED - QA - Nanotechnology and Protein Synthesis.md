@@ -3,9 +3,7 @@ id: 3a4b5d59-691b-4c75-bf3e-45c5e5c3f957
 summary_for_tutor: "Covers nanotechnology capabilities a superintelligence might develop. Biology already demonstrates molecular-scale machinery (ATP synthase, kinesin, flagella) but operates far below theoretical limits due to evolutionary constraints. Introduces Drexler's mechanosynthesis framework and Freitas's analysis showing engineered nanosystems could vastly exceed biological capabilities, including self-replicating systems."
 title: Nanotechnology and Protein Synthesis
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770656406}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 #### Text
 content::

@@ -6,8 +6,7 @@ tldr: "You're tracking four things at once — self, individual, group, context.
 authors:
   - Yatharth+Claude
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770532852}@@lens
-  - --}facilitator-training
+  - facilitator-training
 ---
 #### Text
 content::

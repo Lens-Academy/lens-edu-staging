@@ -5,10 +5,7 @@ reading-from: "An AI company executive who says there's only a one-in-five chanc
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-{--{"author":"Elias's AI","timestamp":1783770823919}@@tags:
-  - learning-outcome
-  - IABIED
---}---
+---
 
 ## Test:
 id:: 38dc6bd8-b793-448e-a44a-89d3cd4c6a03

@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770757353}@@
-  - IABIED--}
+  - clippings
 ---
 AI companies are facing an extraordinarily difficult problem, in a situation where everyone's lives are at stake. Are they at least treating the situation with the gravity it merits?
 

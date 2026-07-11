@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770833370}@@
-  - IABIED--}
+  - clippings
 ---
 #### How Llama 3.1 405B Works
 

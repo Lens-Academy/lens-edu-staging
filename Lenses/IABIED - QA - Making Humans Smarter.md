@@ -3,9 +3,7 @@ id: 4963082e-ea37-4d7a-8366-6cf7b8135c52
 title: "Why would making humans smarter help?"
 tldr: "It could help with solving the alignment problem."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770608481}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

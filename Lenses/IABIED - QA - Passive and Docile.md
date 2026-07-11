@@ -4,9 +4,7 @@ summary_for_tutor: "Covers the tension between making AIs passive and making the
 title: "Can we just train AIs to be more passive and docile?"
 tldr: "Passivity is in tension with usefulness."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770784208}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

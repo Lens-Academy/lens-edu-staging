@@ -2,9 +2,7 @@
 id: e2c85826-d6f4-431b-b036-23de8e48b479
 summary_for_tutor: Covers why catastrophic outcomes from AI are the default expectation, not a special case requiring malice. Explains that major AI labs explicitly target superintelligence, that current AI is grown rather than designed (making alignment intractable with present methods), that instrumental convergence drives dangerous behavior regardless of final goals, and that competitive pressures ensure insufficient caution. Structured as a comprehensive primer on existential risk from AI.
 title: Deadly By Default
-{--{"author":"Elias's AI","timestamp":1783770703940}@@tags:
-  - lens
---}---
+---
 #### Text
 content::
 While the first text argued that the course of history appears different depending on the predictive model used, the next explains why, in the field of AI, we can’t simply count on a positive outcome by default.

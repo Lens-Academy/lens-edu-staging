@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770866386}@@
-  - IABIED--}
+  - clippings
 ---
 In recent years, the field of AI has made progress not by deepening our understanding of intelligence, but by [finding](/2/obvious-insights-take-time) [ways](/2/a-full-description-of-an-llm) to "grow" AIs. Attempts to understand intelligence itself met with years of dead ends and stagnation. Now that growing powerful AIs has met with success, some people wonder whether the idea of "understanding intelligence" is just a mirage.
 

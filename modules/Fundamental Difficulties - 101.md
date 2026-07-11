@@ -3,9 +3,7 @@ id: d405955b-e524-44d2-80c5-9c88b8865a5d
 slug: fundamental-difficulties-101
 title: "Fundamental Difficulties"
 discussion: https://discord.com/channels/1440725236843806762/1467932217312547019
-{--{"author":"Elias's AI","timestamp":1783770819952}@@tags:
-  - module
---}---
+---
 # Lens: Welcome
 id:: e62c6e9d-1191-417b-a99a-546a5bb673b0
 #### Text

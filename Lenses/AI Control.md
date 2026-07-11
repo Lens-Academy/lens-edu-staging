@@ -3,9 +3,7 @@ id: 63342128-7725-43dc-9ad3-b040f7b0e118
 summary_for_tutor: "Introduces AI Control as a safety strategy focused on monitoring and containment of potentially misaligned models rather than fixing their internal goals. Assumes alignment may not be solved before powerful AI is built, so the goal is to make harmful actions impossible regardless of the model's intentions. Poses the dual-use question of whether learning to secure AI also teaches the AI how to escape."
 title: AI Control
 tldr: If we can't guarantee an AI's goals align with ours, maybe we can build a cage strong enough that it doesn't matter. AI Control focuses on containment and monitoring rather than fixing the model's internal motivations — buying time while deeper alignment work continues.
-{--{"author":"Elias's AI","timestamp":1783770577083}@@tags:
-  - lens
---}---
+---
 
 #### Text
 content::

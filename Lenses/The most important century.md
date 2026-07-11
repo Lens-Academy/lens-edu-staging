@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1783771015628}@@---
+---
 id: a7d29f3f-d335-4557-bca0-f6f4c02d3fc3
 title: "The most important century"
 ---
@@ -28,4 +28,3 @@ Discussion topics to explore:
 Ask what they found surprising or hard to accept. Check if they can explain "PASTA" and why it might restart hyperbolic growth in their own words.
 
 The user is reflecting on Karnofsky's claim that we may be living in the most important century.
-++}

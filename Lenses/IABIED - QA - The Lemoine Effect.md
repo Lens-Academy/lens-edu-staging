@@ -2,9 +2,7 @@
 id: 96963c09-381d-419a-9245-012157347d66
 title: "The Lemoine Effect"
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770880754}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

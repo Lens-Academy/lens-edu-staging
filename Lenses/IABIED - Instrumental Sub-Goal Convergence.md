@@ -5,10 +5,7 @@ title: "Instrumental Sub-Goal Convergence"
 tldr: Five completely different methods. One underlying objective. Understanding why reveals something important about how capable AI systems behave, regardless of what they ultimately want.
 authors:
   - Chris+Claude
-{--{"author":"Elias's AI","timestamp":1783770816346}@@tags:
-  - lens
-  - IABIED
---}add_to_ai_context:
+add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/08 - Chapter 8 - Expansion]]"
 ---
 #### Text

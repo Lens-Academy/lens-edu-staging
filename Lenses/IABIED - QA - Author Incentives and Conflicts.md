@@ -4,9 +4,7 @@ summary_for_tutor: "Covers the authors' (Soares and Yudkowsky) disclosed conflic
 title: "What are your incentives and conflicts of interest, as authors?"
 tldr: "We don't expect to make any money from the book in the average case. Separately, we would love to be wrong about the book's thesis."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770743312}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

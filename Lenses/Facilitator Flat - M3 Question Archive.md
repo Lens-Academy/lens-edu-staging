@@ -4,8 +4,7 @@ title: "Optional — Question Archive (Check-in Success)"
 authors:
   - Yatharth+Claude
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770765165}@@lens
-  - --}facilitator-training
+  - facilitator-training
 ---
 #### Text
 content::

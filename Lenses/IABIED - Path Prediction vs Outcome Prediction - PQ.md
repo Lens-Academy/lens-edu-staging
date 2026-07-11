@@ -5,10 +5,7 @@ title: Pre-Reading Question - Path Prediction vs Outcome Prediction
 tldr: "Before you read the book's final word on what it's actually predicting: can you be confident about how something ends without being able to predict each step along the way?"
 authors:
   - Chris+Claude
-{--{"author":"Elias's AI","timestamp":1783770583178}@@tags:
-  - lens
-  - IABIED
---}add_to_ai_context:
+add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/10 - Coda]]"
 ---
 #### Question

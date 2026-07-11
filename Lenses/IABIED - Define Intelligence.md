@@ -5,10 +5,7 @@ title: "Define Intelligence"
 tldr: Intelligence isn't just being smart; it's a specific combination of predicting and steering. And what makes humans special isn't that we're the best at any one thing.
 authors:
   - Chris+Claude
-{--{"author":"Elias's AI","timestamp":1783770591224}@@tags:
-  - lens
-  - IABIED
---}add_to_ai_context:
+add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]"
 ---
 #### Text
