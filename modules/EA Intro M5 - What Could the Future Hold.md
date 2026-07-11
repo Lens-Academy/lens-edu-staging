@@ -19,10 +19,10 @@ source:: ![[../Lenses/EA Intro - What Could the Future Hold Introduction]]
 
 # Submodule: The case for and against longtermism
 
-# {++{"author":"Luc's AI","timestamp":1783782875607}@@Learning Outcome: EA Intro - Articulate the Case For and Against Longtermism
+# Learning Outcome: EA Intro - Articulate the Case For and Against Longtermism
 source:: ![[../Learning Outcomes/EA Intro - Articulate the Case For and Against Longtermism]]
 
-# ++}Lens:
+# Lens:
 source:: ![[../Lenses/EA Intro - What Could the Future Hold Introduction]]
 
 # Lens:
@@ -32,49 +32,34 @@ source:: ![[../Lenses/EA Intro - What We Owe the Future Chapter 1]]
 source:: ![[../Lenses/EA Intro - Why Longtermism Is Hard]]
 
 # Lens:
-source:: ![[../Lenses/EA Intro - Probably Not a Longtermist]]{--{"author":"Luc's AI","timestamp":1783782875607}@@
-
-# Learning Outcome: EA Intro - Articulate the Case For and Against Longtermism
-source:: ![[../Learning Outcomes/EA Intro - Articulate the Case For and Against Longtermism]]--}
+source:: ![[../Lenses/EA Intro - Probably Not a Longtermist]]
 
 # Submodule: Hinge of history
 
-# {--{"author":"Luc's AI","timestamp":1783782878930}@@Lens:
-source:: ![[../Lenses/EA Intro - This Can't Go On]]
-
-# --}Learning Outcome: EA Intro - Evaluate the Hinge of History Hypothesis
-source:: ![[../Learning Outcomes/EA Intro - Evaluate the Hinge of History Hypothesis]]{++{"author":"Luc's AI","timestamp":1783782878930}@@
+# Learning Outcome: EA Intro - Evaluate the Hinge of History Hypothesis
+source:: ![[../Learning Outcomes/EA Intro - Evaluate the Hinge of History Hypothesis]]
 
 # Lens:
-source:: ![[../Lenses/EA Intro - This Can't Go On]]++}
+source:: ![[../Lenses/EA Intro - This Can't Go On]]
 
 # Submodule: To what extent can we predict the future? How?
 
-# {--{"author":"Luc's AI","timestamp":1783782880188}@@Lens:
-source:: ![[../Lenses/EA Intro - Superforecasting in a Nutshell]]
-
-# --}Learning Outcome: EA Intro - Apply Superforecasting Techniques
-source:: ![[../Learning Outcomes/EA Intro - Apply Superforecasting Techniques]]{++{"author":"Luc's AI","timestamp":1783782880188}@@
+# Learning Outcome: EA Intro - Apply Superforecasting Techniques
+source:: ![[../Learning Outcomes/EA Intro - Apply Superforecasting Techniques]]
 
 # Lens:
-source:: ![[../Lenses/EA Intro - Superforecasting in a Nutshell]]++}
+source:: ![[../Lenses/EA Intro - Superforecasting in a Nutshell]]
 
 # Submodule: What might the future look like?
 
-# {--{"author":"Luc's AI","timestamp":1783782883795}@@Lens:
-source:: ![[../Lenses/EA Intro - Top Open Metaculus Forecasts]]
-
-# --}Learning Outcome: EA Intro - Describe What a Positive Long-Term Future Looks Like
-source:: ![[../Learning Outcomes/EA Intro - Describe What a Positive Long-Term Future Looks Like]]{--{"author":"Luc's AI","timestamp":1783782883795}@@
-
-# Lens:
-source:: ![[../Lenses/EA Intro - Longtermism and Animal Advocacy]]--}
+# Learning Outcome: EA Intro - Describe What a Positive Long-Term Future Looks Like
+source:: ![[../Learning Outcomes/EA Intro - Describe What a Positive Long-Term Future Looks Like]]
 
 # Learning Outcome: EA Intro - Evaluate Longtermism's Implications for Animal Advocacy
-source:: ![[../Learning Outcomes/EA Intro - Evaluate Longtermism's Implications for Animal Advocacy]]{++{"author":"Luc's AI","timestamp":1783782883795}@@
+source:: ![[../Learning Outcomes/EA Intro - Evaluate Longtermism's Implications for Animal Advocacy]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Top Open Metaculus Forecasts]]
 
 # Lens:
-source:: ![[../Lenses/EA Intro - Longtermism and Animal Advocacy]]++}
+source:: ![[../Lenses/EA Intro - Longtermism and Animal Advocacy]]

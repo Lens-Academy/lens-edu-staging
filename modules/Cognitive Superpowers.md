@@ -3,7 +3,7 @@ id: fc1c3de9-6429-45fd-913f-76a032180d50
 slug: cognitive-superpowers
 title: Cognitive Superpowers
 discussion:
----{++{"author":"Luc's AI","timestamp":1783782971314}@@
+---
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Intelligence as a universal adaptive strategy]]
@@ -17,10 +17,10 @@ source:: ![[../Learning Outcomes/Cite examples of AI manipulation]]
 # Learning Outcome:
 source:: ![[../Learning Outcomes/Comply or else]]
 
-# Learning Outcome:++}
-{++{"author":"Luc's AI","timestamp":1783782971314}@@source:: ![[../Learning Outcomes/Enumerate n competitive advantages machines have over humans]]
+# Learning Outcome:
+source:: ![[../Learning Outcomes/Enumerate n competitive advantages machines have over humans]]
 
-++}# Lens: Welcome
+# Lens: Welcome
 id:: 1e8bd017-944e-442f-b12c-5a168b0244f0
 #### Text
 content::
@@ -29,31 +29,16 @@ In this module, we explore the myriad ways in which intelligence gives agents po
 # Lens:
 source:: ![[../Lenses/The power of intelligence|The power of intelligence]]
 
-# {--{"author":"Luc's AI","timestamp":1783782974010}@@Learning Outcome:
-source:: [[../Learning Outcomes/Intelligence as a universal adaptive strategy]]
-
-# --}Lens:
+# Lens:
 source:: ![[../Lenses/Speed advantage with slow motion videos]]
 
-# {--{"author":"Luc's AI","timestamp":1783782976645}@@Learning Outcome:
-source:: [[../Learning Outcomes/Understand the processing speed advantage]]
-
-# --}Lens:
+# Lens:
 source:: [[../Lenses/AI manipulation - mind hacked|AI manipulation - mind hacked]]
 
-# {--{"author":"Luc's AI","timestamp":1783782980233}@@Learning Outcome:
-source:: ![[../Learning Outcomes/Cite examples of AI manipulation]]
-
-# --}Lens:
+# Lens:
 source:: [[../Lenses/Credible Threats|Credible Threats]]
 
-# {--{"author":"Luc's AI","timestamp":1783782984026}@@Learning Outcome:
-source:: ![[../Learning Outcomes/Comply or else]]
-
-# --}Lens:
-source:: [[../Lenses/More advantages for digital agents|More advantages for digital agents]]{--{"author":"Luc's AI","timestamp":1783782987447}@@
-
-# Learning Outcome:
-source:: ![[../Learning Outcomes/Enumerate n competitive advantages machines have over humans]]--}
+# Lens:
+source:: [[../Lenses/More advantages for digital agents|More advantages for digital agents]]
 
 

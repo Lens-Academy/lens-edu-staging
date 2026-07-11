@@ -18,43 +18,34 @@ source:: ![[../Lenses/EA Intro - Radical Empathy Introduction]]
 
 # Submodule: Impartiality and radical empathy
 
-# {--{"author":"Luc's AI","timestamp":1783782839646}@@Lens:
-source:: ![[../Lenses/EA Intro - Radical Empathy (Karnofsky)]]
-
-# --}Learning Outcome: EA Intro - Explain Impartiality and Radical Empathy
-source:: ![[../Learning Outcomes/EA Intro - Explain Impartiality and Radical Empathy]]{--{"author":"Luc's AI","timestamp":1783782839646}@@
-
-# Lens:
-source:: ![[../Lenses/EA Intro - Moral Progress and Cause X]]--}
+# Learning Outcome: EA Intro - Explain Impartiality and Radical Empathy
+source:: ![[../Learning Outcomes/EA Intro - Explain Impartiality and Radical Empathy]]
 
 # Learning Outcome: EA Intro - Describe Moral Progress and Cause X
 source:: ![[../Learning Outcomes/EA Intro - Describe Moral Progress and Cause X]]
 
-# {--{"author":"Luc's AI","timestamp":1783782839646}@@Lens:--}{++{"author":"Luc's AI","timestamp":1783782839646}@@Learning Outcome: EA Intro - Evaluate the Possibility of Ongoing Moral Catastrophes++}
-source:: {--{"author":"Luc's AI","timestamp":1783782839646}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783782839646}@@![[../Learning Outcomes/EA++} Intro - {--{"author":"Luc's AI","timestamp":1783782839646}@@The--}{++{"author":"Luc's AI","timestamp":1783782839646}@@Evaluate the++} Possibility of Ongoing Moral {--{"author":"Luc's AI","timestamp":1783782839646}@@Catastrophe]]--}{++{"author":"Luc's AI","timestamp":1783782839646}@@Catastrophes]]++}
+# Learning Outcome: EA Intro - Evaluate the Possibility of Ongoing Moral Catastrophes
+source:: ![[../Learning Outcomes/EA Intro - Evaluate the Possibility of Ongoing Moral Catastrophes]]
 
-# Learning Outcome: EA Intro - {--{"author":"Luc's AI","timestamp":1783782839646}@@Evaluate--}{++{"author":"Luc's AI","timestamp":1783782839646}@@Apply++} the {--{"author":"Luc's AI","timestamp":1783782839646}@@Possibility of Ongoing--}{++{"author":"Luc's AI","timestamp":1783782839646}@@Case for Animal++} Moral {--{"author":"Luc's AI","timestamp":1783782839646}@@Catastrophes--}{++{"author":"Luc's AI","timestamp":1783782839646}@@Consideration++}
-source:: ![[../Learning Outcomes/EA Intro - {--{"author":"Luc's AI","timestamp":1783782839646}@@Evaluate--}{++{"author":"Luc's AI","timestamp":1783782839646}@@Apply++} the {--{"author":"Luc's AI","timestamp":1783782839646}@@Possibility of Ongoing--}{++{"author":"Luc's AI","timestamp":1783782839646}@@Case for Animal++} Moral {--{"author":"Luc's AI","timestamp":1783782839646}@@Catastrophes]]--}{++{"author":"Luc's AI","timestamp":1783782839646}@@Consideration]]++}
-
-# Lens:
-source:: ![[../Lenses/EA Intro - {--{"author":"Luc's AI","timestamp":1783782839646}@@On Fringe Ideas]]--}{++{"author":"Luc's AI","timestamp":1783782839646}@@Radical Empathy (Karnofsky)]]++}
-
-# {--{"author":"Luc's AI","timestamp":1783782839646}@@Learning Outcome: EA--}{++{"author":"Luc's AI","timestamp":1783782839646}@@Lens:
-source:: ![[../Lenses/EA++} Intro - {--{"author":"Luc's AI","timestamp":1783782839646}@@Apply the Case for Animal Moral Consideration--}{++{"author":"Luc's AI","timestamp":1783782839646}@@Moral Progress and Cause X]]
-
-# Lens:++}
-source:: {--{"author":"Luc's AI","timestamp":1783782839646}@@![[../Learning Outcomes/EA--}{++{"author":"Luc's AI","timestamp":1783782839646}@@![[../Lenses/EA++} Intro - {--{"author":"Luc's AI","timestamp":1783782839646}@@Apply the Case for Animal--}{++{"author":"Luc's AI","timestamp":1783782839646}@@The Possibility of Ongoing++} Moral {--{"author":"Luc's AI","timestamp":1783782839646}@@Consideration]]--}{++{"author":"Luc's AI","timestamp":1783782839646}@@Catastrophe]]
+# Learning Outcome: EA Intro - Apply the Case for Animal Moral Consideration
+source:: ![[../Learning Outcomes/EA Intro - Apply the Case for Animal Moral Consideration]]
 
 # Lens:
-source:: ![[../Lenses/EA Intro - On Fringe Ideas]]++}
+source:: ![[../Lenses/EA Intro - Radical Empathy (Karnofsky)]]
+
+# Lens:
+source:: ![[../Lenses/EA Intro - Moral Progress and Cause X]]
+
+# Lens:
+source:: ![[../Lenses/EA Intro - The Possibility of Ongoing Moral Catastrophe]]
+
+# Lens:
+source:: ![[../Lenses/EA Intro - On Fringe Ideas]]
 
 # Submodule: The case for caring about animal welfare
 
-# {--{"author":"Luc's AI","timestamp":1783782841598}@@Lens:
-source:: ![[../Lenses/EA Intro - Factory Farming Problem Profile]]
-
-# --}Learning Outcome: EA Intro - Identify Strategies for Improving Animal Welfare
-source:: ![[../Learning Outcomes/EA Intro - Identify Strategies for Improving Animal Welfare]]{++{"author":"Luc's AI","timestamp":1783782841598}@@
+# Learning Outcome: EA Intro - Identify Strategies for Improving Animal Welfare
+source:: ![[../Learning Outcomes/EA Intro - Identify Strategies for Improving Animal Welfare]]
 
 # Lens:
-source:: ![[../Lenses/EA Intro - Factory Farming Problem Profile]]++}
+source:: ![[../Lenses/EA Intro - Factory Farming Problem Profile]]

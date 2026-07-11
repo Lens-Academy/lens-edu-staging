@@ -3,7 +3,7 @@ id: d405955b-e524-44d2-80c5-9c88b8865a5d
 slug: fundamental-difficulties-101
 title: "Fundamental Difficulties"
 discussion: https://discord.com/channels/1440725236843806762/1467932217312547019
----{++{"author":"Luc's AI","timestamp":1783782940227}@@
+---
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Explain the fundamental difficulties of AI alignment]]
@@ -11,10 +11,10 @@ source:: [[../Learning Outcomes/Explain the fundamental difficulties of AI align
 # Learning Outcome:
 source:: [[../Learning Outcomes/Explain why alignment feels counterintuitive]]
 
-# Learning Outcome:++}
-{++{"author":"Luc's AI","timestamp":1783782940227}@@source:: [[../Learning Outcomes/Explain why default outcome is bad - 101]]
+# Learning Outcome:
+source:: [[../Learning Outcomes/Explain why default outcome is bad - 101]]
 
-++}# Lens: Welcome
+# Lens: Welcome
 id:: e62c6e9d-1191-417b-a99a-546a5bb673b0
 #### Text
 content::
@@ -33,17 +33,8 @@ Questions you will be able to answer after completing this module:
 optional:: true
 source:: [[../Lenses/Eliezer Yudkowsky – AI Alignment- Why It's Hard, and Where to Start]]
 
-# {--{"author":"Luc's AI","timestamp":1783782943049}@@Learning Outcome:
-source:: [[../Learning Outcomes/Explain the fundamental difficulties of AI alignment]]
-
-# --}Lens:
+# Lens:
 source:: [[../Lenses/6 reasons why it's not intuitive that alignment is hard]]
 
-# {--{"author":"Luc's AI","timestamp":1783782945741}@@Learning Outcome:
-source:: [[../Learning Outcomes/Explain why alignment feels counterintuitive]]
-
-# --}Lens:
-source:: [[../Lenses/Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AIst outcomes]]{--{"author":"Luc's AI","timestamp":1783782948914}@@
-
-# Learning Outcome:
-source:: [[../Learning Outcomes/Explain why default outcome is bad - 101]]--}
+# Lens:
+source:: [[../Lenses/Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AIst outcomes]]
