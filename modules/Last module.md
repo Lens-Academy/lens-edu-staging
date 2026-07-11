@@ -5,13 +5,13 @@ title: "Last module: What comes next"
 discussion: https://discordapp.com/channels/1440725236843806762/1476535068779483259 
 ---
 
-# {++{"author":"Luc's AI","timestamp":1783783084116}@@Learning Outcome:
+# Learning Outcome:
 source:: ![[../Learning Outcomes/Where it leads to]]
 
 # Learning Outcome:
 source:: ![[../Learning Outcomes/How to relate]]
 
-# ++}Lens: Welcome
+# Lens: Welcome
 id:: 9b2bbd28-207f-4069-9610-37c31300583a
 #### Text
 content::
@@ -37,17 +37,11 @@ source:: ![[../Lenses/Machines Of Loving Grace]]
 # Lens:
 source:: ![[../Lenses/The Artificial Intelligence That Deleted A Century]]
 
-# {--{"author":"Luc's AI","timestamp":1783783086912}@@Learning Outcome:
-source:: ![[../Learning Outcomes/Where it leads to]]
-
-# --}Lens:
+# Lens:
 source:: ![[../Lenses/The World Keeps Getting Saved]]
 
 # Lens:
 source:: ![[../Lenses/The Goddess Of Everything Else]]
 
 # Lens:
-source:: [[../Lenses/Next steps]]{--{"author":"Luc's AI","timestamp":1783783089303}@@
-
-# Learning Outcome:
-source:: ![[../Learning Outcomes/How to relate]]--}
+source:: [[../Lenses/Next steps]]

@@ -17,50 +17,44 @@ source:: ![[../Lenses/IABIED - M5 Welcome]]
 # Submodule: Ch10 - A Cursed Problem
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/11 - Chapter 10 - A Cursed Problem]]
 
-# {--{"author":"Luc's AI","timestamp":1783782981573}@@Lens:
-source:: ![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783782981573}@@Learning Outcome: IABIED++} - The Five Engineering Curses{--{"author":"Luc's AI","timestamp":1783782981573}@@ - PQ]]
+# Learning Outcome: IABIED - The Five Engineering Curses
+source:: ![[../Learning Outcomes/IABIED - The Five Engineering Curses]]
 
-# Lens:--}
-source:: {--{"author":"Luc's AI","timestamp":1783782981573}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783782981573}@@![[../Learning Outcomes/IABIED++} - The Five Engineering Curses]]
-
-# Learning Outcome: IABIED - {--{"author":"Luc's AI","timestamp":1783782981573}@@The Five Engineering Curses--}{++{"author":"Luc's AI","timestamp":1783782981573}@@Position Not Despair++}
-source:: ![[../Learning Outcomes/IABIED -{--{"author":"Luc's AI","timestamp":1783782981573}@@ The Five Engineering Curses]]--}{++{"author":"Luc's AI","timestamp":1783782981573}@@ Position Not Despair]]++}
+# Learning Outcome: IABIED - Position Not Despair
+source:: ![[../Learning Outcomes/IABIED - Position Not Despair]]
 
 # Lens:
-source:: ![[../Lenses/IABIED - {--{"author":"Luc's AI","timestamp":1783782981573}@@Position Not Despair--}{++{"author":"Luc's AI","timestamp":1783782981573}@@The Five Engineering Curses++} - PQ]]
+source:: ![[../Lenses/IABIED - The Five Engineering Curses - PQ]]
 
 # Lens:
-source:: ![[../Lenses/IABIED - {--{"author":"Luc's AI","timestamp":1783782981573}@@Position Not Despair]]--}{++{"author":"Luc's AI","timestamp":1783782981573}@@The Five Engineering Curses]]++}
+source:: ![[../Lenses/IABIED - The Five Engineering Curses]]
 
-# {--{"author":"Luc's AI","timestamp":1783782981573}@@Learning Outcome: IABIED--}{++{"author":"Luc's AI","timestamp":1783782981573}@@Lens:
-source:: ![[../Lenses/IABIED++} - Position Not Despair{++{"author":"Luc's AI","timestamp":1783782981573}@@ - PQ]]
+# Lens:
+source:: ![[../Lenses/IABIED - Position Not Despair - PQ]]
 
-# Lens:++}
-source:: {--{"author":"Luc's AI","timestamp":1783782981573}@@![[../Learning Outcomes/IABIED--}{++{"author":"Luc's AI","timestamp":1783782981573}@@![[../Lenses/IABIED++} - Position Not Despair]]
+# Lens:
+source:: ![[../Lenses/IABIED - Position Not Despair]]
 
 # Submodule: Ch11 - An Alchemy, Not a Science
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/12 - Chapter 11 - An Alchemy, Not a Science]]
 
-# {--{"author":"Luc's AI","timestamp":1783782986299}@@Lens:
-source:: ![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783782986299}@@Learning Outcome: IABIED++} - Alchemy Not Science{--{"author":"Luc's AI","timestamp":1783782986299}@@ - PQ]]
+# Learning Outcome: IABIED - Alchemy Not Science
+source:: ![[../Learning Outcomes/IABIED - Alchemy Not Science]]
 
-# Lens:--}
-source:: {--{"author":"Luc's AI","timestamp":1783782986299}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783782986299}@@![[../Learning Outcomes/IABIED++} - Alchemy Not Science]]
-
-# Learning Outcome: IABIED - {--{"author":"Luc's AI","timestamp":1783782986299}@@Alchemy Not Science--}{++{"author":"Luc's AI","timestamp":1783782986299}@@Strong Superalignment Objection++}
-source:: ![[../Learning Outcomes/IABIED - {--{"author":"Luc's AI","timestamp":1783782986299}@@Alchemy Not Science]]--}{++{"author":"Luc's AI","timestamp":1783782986299}@@Strong Superalignment Objection]]++}
+# Learning Outcome: IABIED - Strong Superalignment Objection
+source:: ![[../Learning Outcomes/IABIED - Strong Superalignment Objection]]
 
 # Lens:
-source:: ![[../Lenses/IABIED - {--{"author":"Luc's AI","timestamp":1783782986299}@@Strong Superalignment Objection--}{++{"author":"Luc's AI","timestamp":1783782986299}@@Alchemy Not Science++} - PQ]]
+source:: ![[../Lenses/IABIED - Alchemy Not Science - PQ]]
 
 # Lens:
-source:: ![[../Lenses/IABIED - {--{"author":"Luc's AI","timestamp":1783782986299}@@Strong Superalignment Objection]]--}{++{"author":"Luc's AI","timestamp":1783782986299}@@Alchemy Not Science]]++}
+source:: ![[../Lenses/IABIED - Alchemy Not Science]]
 
-# {--{"author":"Luc's AI","timestamp":1783782986299}@@Learning Outcome: IABIED--}{++{"author":"Luc's AI","timestamp":1783782986299}@@Lens:
-source:: ![[../Lenses/IABIED++} - Strong Superalignment Objection{++{"author":"Luc's AI","timestamp":1783782986299}@@ - PQ]]
+# Lens:
+source:: ![[../Lenses/IABIED - Strong Superalignment Objection - PQ]]
 
-# Lens:++}
-source:: {--{"author":"Luc's AI","timestamp":1783782986299}@@![[../Learning Outcomes/IABIED--}{++{"author":"Luc's AI","timestamp":1783782986299}@@![[../Lenses/IABIED++} - Strong Superalignment Objection]]
+# Lens:
+source:: ![[../Lenses/IABIED - Strong Superalignment Objection]]
 
 # Submodule: Dive Deeper
 # Lens: Overview of Optional Resources

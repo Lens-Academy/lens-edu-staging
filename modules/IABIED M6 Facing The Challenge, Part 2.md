@@ -56,87 +56,76 @@ Ask what they found surprising or new. Check if they can explain the ladder-in-t
 # Submodule: Chapter 12: I Don't Want to Be Alarmist
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/13 - Chapter 12 - I Don't Want to Be Alarmist]]
 
-## {--{"author":"Luc's AI","timestamp":1783783014764}@@Lens:
-source:: [[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783783014764}@@Learning Outcome: IABIED++} - The One-Chance Problem{--{"author":"Luc's AI","timestamp":1783783014764}@@ - PQ]]
+## Learning Outcome: IABIED - The One-Chance Problem
+source:: [[../Learning Outcomes/The One-Chance Problem]]
 
-## Lens:--}
-source:: {--{"author":"Luc's AI","timestamp":1783783014764}@@[[../Lenses/IABIED - The--}{++{"author":"Luc's AI","timestamp":1783783014764}@@[[../Learning Outcomes/The++} One-Chance Problem]]
-
-## Learning Outcome: IABIED - {--{"author":"Luc's AI","timestamp":1783783014764}@@The One-Chance Problem--}{++{"author":"Luc's AI","timestamp":1783783014764}@@Ladder in the Dark++}
-source:: [[../Learning {--{"author":"Luc's AI","timestamp":1783783014764}@@Outcomes/The One-Chance Problem]]--}{++{"author":"Luc's AI","timestamp":1783783014764}@@Outcomes/Ladder in the Dark]]++}
+## Learning Outcome: IABIED - Ladder in the Dark
+source:: [[../Learning Outcomes/Ladder in the Dark]]
 
 ## Lens:
-source:: [[../Lenses/IABIED - {--{"author":"Luc's AI","timestamp":1783783014764}@@Ladder in the Dark--}{++{"author":"Luc's AI","timestamp":1783783014764}@@The One-Chance Problem++} - PQ]]
+source:: [[../Lenses/IABIED - The One-Chance Problem - PQ]]
 
 ## Lens:
-source:: [[../Lenses/IABIED -{--{"author":"Luc's AI","timestamp":1783783014764}@@ Ladder in the Dark]]--}{++{"author":"Luc's AI","timestamp":1783783014764}@@ The One-Chance Problem]]++}
+source:: [[../Lenses/IABIED - The One-Chance Problem]]
 
-## {--{"author":"Luc's AI","timestamp":1783783014764}@@Learning Outcome: IABIED--}{++{"author":"Luc's AI","timestamp":1783783014764}@@Lens:
-source:: [[../Lenses/IABIED++} - Ladder in the Dark{++{"author":"Luc's AI","timestamp":1783783014764}@@ - PQ]]
+## Lens:
+source:: [[../Lenses/IABIED - Ladder in the Dark - PQ]]
 
-## Lens:++}
-source:: {--{"author":"Luc's AI","timestamp":1783783014764}@@[[../Learning Outcomes/Ladder--}{++{"author":"Luc's AI","timestamp":1783783014764}@@[[../Lenses/IABIED - Ladder++} in the Dark]]
+## Lens:
+source:: [[../Lenses/IABIED - Ladder in the Dark]]
 
 # Submodule: Chapter 13: Shut It Down
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/14 - Chapter 13 - Shut It Down]]
 
-## {--{"author":"Luc's AI","timestamp":1783783018913}@@Lens:
-source:: [[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783783018913}@@Learning Outcome: IABIED++} - The WWII Analogy{--{"author":"Luc's AI","timestamp":1783783018913}@@ - PQ]]
+## Learning Outcome: IABIED - The WWII Analogy
+source:: [[../Learning Outcomes/The WWII Analogy]]
 
-## Lens:--}
-source:: {--{"author":"Luc's AI","timestamp":1783783018913}@@[[../Lenses/IABIED - The--}{++{"author":"Luc's AI","timestamp":1783783018913}@@[[../Learning Outcomes/The++} WWII Analogy]]
-
-## Learning Outcome: IABIED - {--{"author":"Luc's AI","timestamp":1783783018913}@@The WWII Analogy--}{++{"author":"Luc's AI","timestamp":1783783018913}@@Coalition Strategy++}
-source:: [[../Learning {--{"author":"Luc's AI","timestamp":1783783018913}@@Outcomes/The WWII Analogy]]--}{++{"author":"Luc's AI","timestamp":1783783018913}@@Outcomes/Coalition Strategy]]++}
+## Learning Outcome: IABIED - Coalition Strategy
+source:: [[../Learning Outcomes/Coalition Strategy]]
 
 ## Lens:
-source:: [[../Lenses/IABIED - {--{"author":"Luc's AI","timestamp":1783783018913}@@Coalition Strategy --}{++{"author":"Luc's AI","timestamp":1783783018913}@@The WWII Analogy ++}- PQ]]
+source:: [[../Lenses/IABIED - The WWII Analogy - PQ]]
 
 ## Lens:
-source:: [[../Lenses/IABIED - {--{"author":"Luc's AI","timestamp":1783783018913}@@Coalition Strategy]]--}{++{"author":"Luc's AI","timestamp":1783783018913}@@The WWII Analogy]]++}
+source:: [[../Lenses/IABIED - The WWII Analogy]]
 
-## {--{"author":"Luc's AI","timestamp":1783783018913}@@Learning Outcome: IABIED--}{++{"author":"Luc's AI","timestamp":1783783018913}@@Lens:
-source:: [[../Lenses/IABIED++} - Coalition Strategy{++{"author":"Luc's AI","timestamp":1783783018913}@@ - PQ]]
+## Lens:
+source:: [[../Lenses/IABIED - Coalition Strategy - PQ]]
 
-## Lens:++}
-source:: {--{"author":"Luc's AI","timestamp":1783783018913}@@[[../Learning Outcomes/Coalition--}{++{"author":"Luc's AI","timestamp":1783783018913}@@[[../Lenses/IABIED - Coalition++} Strategy]]
+## Lens:
+source:: [[../Lenses/IABIED - Coalition Strategy]]
 
 # Submodule: Chapter 14: Where There's Life, There's Hope
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/15 - Chapter 14 - Where There's Life, There's Hope]]
 
-## {--{"author":"Luc's AI","timestamp":1783783023845}@@Lens:
-source:: [[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783783023845}@@Learning Outcome: IABIED++} - Un-Writing Our Fate{--{"author":"Luc's AI","timestamp":1783783023845}@@ - PQ]]
+## Learning Outcome: IABIED - Un-Writing Our Fate
+source:: [[../Learning Outcomes/Un-Writing Our Fate]]
 
-## Lens:--}
-source:: {--{"author":"Luc's AI","timestamp":1783783023845}@@[[../Lenses/IABIED - Un-Writing--}{++{"author":"Luc's AI","timestamp":1783783023845}@@[[../Learning Outcomes/Un-Writing++} Our Fate]]
-
-## Learning Outcome: IABIED - {--{"author":"Luc's AI","timestamp":1783783023845}@@Un-Writing Our Fate--}{++{"author":"Luc's AI","timestamp":1783783023845}@@Role-Specific Action++}
-source:: [[../Learning {--{"author":"Luc's AI","timestamp":1783783023845}@@Outcomes/Un-Writing Our Fate]]--}{++{"author":"Luc's AI","timestamp":1783783023845}@@Outcomes/Role-Specific Action]]++}
+## Learning Outcome: IABIED - Role-Specific Action
+source:: [[../Learning Outcomes/Role-Specific Action]]
 
 ## Lens:
-source:: [[../Lenses/IABIED - {--{"author":"Luc's AI","timestamp":1783783023845}@@Role-Specific Action --}{++{"author":"Luc's AI","timestamp":1783783023845}@@Un-Writing Our Fate ++}- PQ]]
+source:: [[../Lenses/IABIED - Un-Writing Our Fate - PQ]]
 
 ## Lens:
-source:: [[../Lenses/IABIED - {--{"author":"Luc's AI","timestamp":1783783023845}@@Role-Specific Action]]--}{++{"author":"Luc's AI","timestamp":1783783023845}@@Un-Writing Our Fate]]++}
+source:: [[../Lenses/IABIED - Un-Writing Our Fate]]
 
-## {--{"author":"Luc's AI","timestamp":1783783023845}@@Learning Outcome: IABIED--}{++{"author":"Luc's AI","timestamp":1783783023845}@@Lens:
-source:: [[../Lenses/IABIED++} - Role-Specific Action{++{"author":"Luc's AI","timestamp":1783783023845}@@ - PQ]]
+## Lens:
+source:: [[../Lenses/IABIED - Role-Specific Action - PQ]]
 
-## Lens:++}
-source:: {--{"author":"Luc's AI","timestamp":1783783023845}@@[[../Learning Outcomes/Role-Specific--}{++{"author":"Luc's AI","timestamp":1783783023845}@@[[../Lenses/IABIED - Role-Specific++} Action]]
+## Lens:
+source:: [[../Lenses/IABIED - Role-Specific Action]]
 
 # Submodule: Closing Words
 
-## {--{"author":"Luc's AI","timestamp":1783783025717}@@Lens:
-source:: [[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783783025717}@@Learning Outcome: IABIED++} - The Two Prayers{--{"author":"Luc's AI","timestamp":1783783025717}@@ - PQ]]--}{++{"author":"Luc's AI","timestamp":1783783025717}@@
-source:: [[../Learning Outcomes/The Two Prayers]]++}
+## Learning Outcome: IABIED - The Two Prayers
+source:: [[../Learning Outcomes/The Two Prayers]]
 
 ## Lens:
-source:: [[../Lenses/IABIED - The Two {--{"author":"Luc's AI","timestamp":1783783025717}@@Prayers]]--}{++{"author":"Luc's AI","timestamp":1783783025717}@@Prayers - PQ]]++}
+source:: [[../Lenses/IABIED - The Two Prayers - PQ]]
 
-## {--{"author":"Luc's AI","timestamp":1783783025717}@@Learning Outcome: IABIED--}{++{"author":"Luc's AI","timestamp":1783783025717}@@Lens:
-source:: [[../Lenses/IABIED++} - The{--{"author":"Luc's AI","timestamp":1783783025717}@@ Two Prayers
-source:: [[../Learning Outcomes/The--} Two Prayers]]
+## Lens:
+source:: [[../Lenses/IABIED - The Two Prayers]]
 
 # Submodule: Dive Deeper
 # Lens: Overview of Optional Resources

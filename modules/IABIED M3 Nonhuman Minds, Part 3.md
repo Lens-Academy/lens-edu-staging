@@ -40,20 +40,17 @@ Really, the learning outcome here distills back to the power of intelligence (pl
 # Submodule: Ch5 - Its Favorite Things
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]
 
-# {--{"author":"Luc's AI","timestamp":1783782907433}@@Lens:
-source:: ![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783782907433}@@Learning Outcome: IABIED++} - Define the Goal-Space Argument{--{"author":"Luc's AI","timestamp":1783782907433}@@ - PQ]]
+# Learning Outcome: IABIED - Define the Goal-Space Argument
+source:: ![[../Learning Outcomes/IABIED - Define the Goal-Space Argument]]
 
-# Lens:--}
-source:: {--{"author":"Luc's AI","timestamp":1783782907433}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783782907433}@@![[../Learning Outcomes/IABIED++} - Define the Goal-Space Argument]]
-
-# Learning Outcome: IABIED - {++{"author":"Luc's AI","timestamp":1783782907433}@@Distinguish Hostile from Indifferent AI
+# Learning Outcome: IABIED - Distinguish Hostile from Indifferent AI
 source:: ![[../Learning Outcomes/IABIED - Distinguish Hostile from Indifferent AI]]
 
 # Lens:
-source:: ![[../Lenses/IABIED - ++}Define the Goal-Space Argument{++{"author":"Luc's AI","timestamp":1783782907433}@@ - PQ]]
+source:: ![[../Lenses/IABIED - Define the Goal-Space Argument - PQ]]
 
-# Lens:++}
-source::{--{"author":"Luc's AI","timestamp":1783782907433}@@ ![[../Learning Outcomes/IABIED--}{++{"author":"Luc's AI","timestamp":1783782907433}@@ ![[../Lenses/IABIED++} - Define the Goal-Space Argument]]
+# Lens:
+source:: ![[../Lenses/IABIED - Define the Goal-Space Argument]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - PQ - Distinguish Hostile from Indifferent AI]]
@@ -68,34 +65,28 @@ source:: ![[../Lenses/IABIED - QA - AI Find Us Useful]]
 # Lens:
 optional:: true
 source:: ![[../Lenses/IABIED - QA - AI Find Us Fascinating]]
-{>>{"author":"Luc's AI","timestamp":1783723748052}@@Review note: 'AI Find Us Useful' and 'AI Find Us Fascinating' were suggested lenses of this Learning Outcome AND are also imported further down in this module as hidden card targets (optional+hide). The old auto-import rendered both copies, so both are kept here to preserve current behavior — but you may want to drop one occurrence.<<}{--{"author":"Luc's AI","timestamp":1783782907433}@@
-
-# Learning Outcome: IABIED - Distinguish Hostile from Indifferent AI
-source:: ![[../Learning Outcomes/IABIED - Distinguish Hostile from Indifferent AI]]--}
+{>>{"author":"Luc's AI","timestamp":1783723748052}@@Review note: 'AI Find Us Useful' and 'AI Find Us Fascinating' were suggested lenses of this Learning Outcome AND are also imported further down in this module as hidden card targets (optional+hide). The old auto-import rendered both copies, so both are kept here to preserve current behavior — but you may want to drop one occurrence.<<}
 
 # Submodule: Ch6 - We'd Lose
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 - We'd Lose]]
 
-# {--{"author":"Luc's AI","timestamp":1783782912427}@@Lens:
-source:: ![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783782912427}@@Learning Outcome: IABIED++} - Define the Aztec Warrior Analogy{--{"author":"Luc's AI","timestamp":1783782912427}@@ - PQ]]
+# Learning Outcome: IABIED - Define the Aztec Warrior Analogy
+source:: ![[../Learning Outcomes/IABIED - Define the Aztec Warrior Analogy]]
 
-# Lens:--}
-source:: {--{"author":"Luc's AI","timestamp":1783782912427}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783782912427}@@![[../Learning Outcomes/IABIED++} - Define the Aztec Warrior Analogy]]
-
-# Learning Outcome: IABIED - {--{"author":"Luc's AI","timestamp":1783782912427}@@Define--}{++{"author":"Luc's AI","timestamp":1783782912427}@@Describe++} the {--{"author":"Luc's AI","timestamp":1783782912427}@@Aztec Warrior Analogy--}{++{"author":"Luc's AI","timestamp":1783782912427}@@Refrigerator Thought Experiment++}
-source:: ![[../Learning Outcomes/IABIED - {--{"author":"Luc's AI","timestamp":1783782912427}@@Define--}{++{"author":"Luc's AI","timestamp":1783782912427}@@Describe++} the {--{"author":"Luc's AI","timestamp":1783782912427}@@Aztec Warrior Analogy]]--}{++{"author":"Luc's AI","timestamp":1783782912427}@@Refrigerator Thought Experiment]]++}
+# Learning Outcome: IABIED - Describe the Refrigerator Thought Experiment
+source:: ![[../Learning Outcomes/IABIED - Describe the Refrigerator Thought Experiment]]
 
 # Lens:
-source:: ![[../Lenses/IABIED - {--{"author":"Luc's AI","timestamp":1783782912427}@@PQ - Describe the Refrigerator Thought Experiment]]--}{++{"author":"Luc's AI","timestamp":1783782912427}@@Define the Aztec Warrior Analogy - PQ]]++}
+source:: ![[../Lenses/IABIED - Define the Aztec Warrior Analogy - PQ]]
 
 # Lens:
-source:: ![[../Lenses/IABIED - {--{"author":"Luc's AI","timestamp":1783782912427}@@Describe--}{++{"author":"Luc's AI","timestamp":1783782912427}@@Define++} the {--{"author":"Luc's AI","timestamp":1783782912427}@@Refrigerator Thought Experiment]]--}{++{"author":"Luc's AI","timestamp":1783782912427}@@Aztec Warrior Analogy]]++}
+source:: ![[../Lenses/IABIED - Define the Aztec Warrior Analogy]]
 
-# {--{"author":"Luc's AI","timestamp":1783782912427}@@Learning Outcome: IABIED--}{++{"author":"Luc's AI","timestamp":1783782912427}@@Lens:
-source:: ![[../Lenses/IABIED - PQ++} - Describe the Refrigerator Thought {--{"author":"Luc's AI","timestamp":1783782912427}@@Experiment--}{++{"author":"Luc's AI","timestamp":1783782912427}@@Experiment]]
+# Lens:
+source:: ![[../Lenses/IABIED - PQ - Describe the Refrigerator Thought Experiment]]
 
-# Lens:++}
-source:: {--{"author":"Luc's AI","timestamp":1783782912427}@@![[../Learning Outcomes/IABIED--}{++{"author":"Luc's AI","timestamp":1783782912427}@@![[../Lenses/IABIED++} - Describe the Refrigerator Thought Experiment]]
+# Lens:
+source:: ![[../Lenses/IABIED - Describe the Refrigerator Thought Experiment]]
 
 # Submodule: Dive Deeper
 # Lens: Overview of Optional Resources

@@ -22,10 +22,10 @@ Course  (courses/<Name>.md)             one file per course
   # Module: [[../modules/<Name>]]       ordered module references
   # Meeting: <name>                     marks a live-meeting point between modules
 Module  (modules/<Name>.md)
-  # {--{"author":"Luc's AI","timestamp":1783782866550}@@Submodule: <name>                   groups--}{++{"author":"Luc's AI","timestamp":1783782866550}@@Learning Outcome: <title>           source:: ![[../Learning Outcomes/<Name>]] — declared FIRST:
+  # Learning Outcome: <title>           source:: ![[../Learning Outcomes/<Name>]] — declared FIRST:
                                         module-level before all submodules, submodule-level before
-                                        the lenses; tests auto-render at++} the {--{"author":"Luc's AI","timestamp":1783782866550}@@sections below it--}{++{"author":"Luc's AI","timestamp":1783782866550}@@end of their scope++}
-  # {--{"author":"Luc's AI","timestamp":1783782866550}@@Learning Outcome: <title>           source:: ![[../Learning Outcomes/<Name>]]--}{++{"author":"Luc's AI","timestamp":1783782866550}@@Submodule: <name>                   groups the sections below it++}
+                                        the lenses; tests auto-render at the end of their scope
+  # Submodule: <name>                   groups the sections below it
   # Lens: <title>                       source:: ![[../Lenses/<Name>]]  (or inline: id:: + segments)
 Learning Outcome  (Learning Outcomes/<Name>.md)
   ## Test:                              id:: + #### Question segments with scoring rubrics
@@ -38,7 +38,7 @@ Article (articles/*.md), Video transcript (video_transcripts/*.md)
                                         source material referenced by Article/Video segments
 ```
 
-A learning outcome is one testable skill ("Explain why...", "Distinguish X from Y"); its test is how the platform checks it. Referencing an outcome from a module imports **only the test** — the lenses that teach it are listed explicitly in the module, {--{"author":"Luc's AI","timestamp":1783782868219}@@before--}{++{"author":"Luc's AI","timestamp":1783782868219}@@after++} the `# Learning Outcome:` {--{"author":"Luc's AI","timestamp":1783782868219}@@ref.--}{++{"author":"Luc's AI","timestamp":1783782868219}@@ref (outcome declared first; the platform renders the test at the end of the module or submodule).++} An outcome's `# Suggested Lenses:` section is author-facing metadata: candidate lenses (each `## Lens:` with `source::` and optional `notes::`) for module authors to pick from; zero-suggestion outcomes are valid.
+A learning outcome is one testable skill ("Explain why...", "Distinguish X from Y"); its test is how the platform checks it. Referencing an outcome from a module imports **only the test** — the lenses that teach it are listed explicitly in the module, after the `# Learning Outcome:` ref (outcome declared first; the platform renders the test at the end of the module or submodule). An outcome's `# Suggested Lenses:` section is author-facing metadata: candidate lenses (each `## Lens:` with `source::` and optional `notes::`) for module authors to pick from; zero-suggestion outcomes are valid.
 
 ## Editing workflow (MCP)
 

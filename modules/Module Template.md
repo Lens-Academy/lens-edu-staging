@@ -9,13 +9,13 @@ tags:
   - validator-ignore
 ---
 
-# {++{"author":"Luc's AI","timestamp":1783783006210}@@Learning Outcome:
+# Learning Outcome:
 source:: 
 
 # Learning Outcome:
 source:: 
 
-# ++}Lens: Welcome
+# Lens: Welcome
 id::
 #### Text
 content::
@@ -24,11 +24,5 @@ content::
 # Lens:
 source:: 
 
-# {--{"author":"Luc's AI","timestamp":1783783013435}@@Learning Outcome:
-source:: 
-
-# --}Lens:{--{"author":"Luc's AI","timestamp":1783783013435}@@
-source:: 
-
-# Learning Outcome:--}
+# Lens:
 source:: 

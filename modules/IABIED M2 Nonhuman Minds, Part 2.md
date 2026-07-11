@@ -43,32 +43,26 @@ Ask what they found surprising or new. Check if they can explain the ice cream a
 # Submodule: Ch3 - Learning to Want
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/03 - Chapter 3 - Learning to Want]]
 
-# {--{"author":"Luc's AI","timestamp":1783782814418}@@Lens:
-source:: ![[../Lenses/IABIED ---}{++{"author":"Luc's AI","timestamp":1783782814418}@@Learning Outcome: Explain++} Wanting Emerges from Training{--{"author":"Luc's AI","timestamp":1783782814418}@@ - PQ]]
+# Learning Outcome: Explain Wanting Emerges from Training
+source:: ![[../Learning Outcomes/Explain Wanting Emerges from Training]]
 
-# Lens:--}
-source:: {--{"author":"Luc's AI","timestamp":1783782814418}@@![[../Lenses/IABIED ---}{++{"author":"Luc's AI","timestamp":1783782814418}@@![[../Learning Outcomes/Explain++} Wanting Emerges from Training]]
+# Lens:
+source:: ![[../Lenses/IABIED - Wanting Emerges from Training - PQ]]
 
-# {--{"author":"Luc's AI","timestamp":1783782814418}@@Learning Outcome: Explain--}{++{"author":"Luc's AI","timestamp":1783782814418}@@Lens:
-source:: ![[../Lenses/IABIED -++} Wanting Emerges from Training{++{"author":"Luc's AI","timestamp":1783782814418}@@ - PQ]]
-
-# Lens:++}
-source:: {--{"author":"Luc's AI","timestamp":1783782814418}@@![[../Learning Outcomes/Explain--}{++{"author":"Luc's AI","timestamp":1783782814418}@@![[../Lenses/IABIED -++} Wanting Emerges from Training]]
+# Lens:
+source:: ![[../Lenses/IABIED - Wanting Emerges from Training]]
 
 # Submodule: Ch4 - You Don't Get What You Train For
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/04 - Chapter 4 - You Don't Get What You Train For]]
 
-# {--{"author":"Luc's AI","timestamp":1783782817580}@@Lens:
-source:: ![[../Lenses/IABIED ---}{++{"author":"Luc's AI","timestamp":1783782817580}@@Learning Outcome: Explain++} You Don't Get What You Train For{--{"author":"Luc's AI","timestamp":1783782817580}@@ - PQ]]
+# Learning Outcome: Explain You Don't Get What You Train For
+source:: ![[../Learning Outcomes/Explain You Don't Get What You Train For]]
 
-# Lens:--}
-source:: {--{"author":"Luc's AI","timestamp":1783782817580}@@![[../Lenses/IABIED ---}{++{"author":"Luc's AI","timestamp":1783782817580}@@![[../Learning Outcomes/Explain++} You Don't Get What You Train For]]
+# Lens:
+source:: ![[../Lenses/IABIED - You Don't Get What You Train For - PQ]]
 
-# {--{"author":"Luc's AI","timestamp":1783782817580}@@Learning Outcome: Explain--}{++{"author":"Luc's AI","timestamp":1783782817580}@@Lens:
-source:: ![[../Lenses/IABIED -++} You Don't Get What You Train For{++{"author":"Luc's AI","timestamp":1783782817580}@@ - PQ]]
-
-# Lens:++}
-source:: {--{"author":"Luc's AI","timestamp":1783782817580}@@![[../Learning Outcomes/Explain--}{++{"author":"Luc's AI","timestamp":1783782817580}@@![[../Lenses/IABIED -++} You Don't Get What You Train For]]
+# Lens:
+source:: ![[../Lenses/IABIED - You Don't Get What You Train For]]
 
 # Submodule: Dive Deeper
 # Lens: Overview of Optional Resources

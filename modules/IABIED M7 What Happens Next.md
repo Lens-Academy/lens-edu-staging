@@ -7,13 +7,13 @@ tags:
   - work-in-progress
 ---
 
-# {++{"author":"Luc's AI","timestamp":1783782996630}@@Learning Outcome: IABIED - Synthesize the Core Argument
+# Learning Outcome: IABIED - Synthesize the Core Argument
 source:: ![[../Learning Outcomes/IABIED - Synthesize the Core Argument]]
 
 # Learning Outcome: IABIED - Identify Your Path Forward
 source:: ![[../Learning Outcomes/Identify Your Path Forward]]
 
-# ++}Lens: Welcome
+# Lens: Welcome
 id:: 4d287f1a-5049-4671-a34e-b49385e7ac5e
 
 #### Text
@@ -53,10 +53,7 @@ Start by asking the student to present the complete argument. Listen carefully, 
 # Lens:
 source:: [[../Lenses/IABIED - QA - Warning Shots]]
 
-# {--{"author":"Luc's AI","timestamp":1783782998569}@@Learning Outcome: IABIED - Synthesize the Core Argument
-source:: ![[../Learning Outcomes/IABIED - Synthesize the Core Argument]]
-
-# --}Lens:
+# Lens:
 optional:: true
 source:: ![[../Lenses/IABIED - AI Safety Career Paths]]
 
@@ -65,10 +62,7 @@ optional:: true
 source:: ![[../Lenses/IABIED - Next Steps with Lens Academy]]
 {>>{"author":"Luc's AI","timestamp":1783723774076}@@Review note: 'AI Safety Career Paths' and 'Next Steps with Lens Academy' were suggested lenses of this Learning Outcome AND are also imported below as hidden card targets (optional+hide). The old auto-import rendered both copies, so both are kept to preserve current behavior — you may want to drop one occurrence.<<}
 
-# {--{"author":"Luc's AI","timestamp":1783783001779}@@Learning Outcome: IABIED - Identify Your Path Forward
-source:: ![[../Learning Outcomes/Identify Your Path Forward]]
-
-# --}Lens: Overview of Optional Resources
+# Lens: Overview of Optional Resources
 id:: fb9e57fd-6036-4334-b827-2f9520fbcdd9 {>>{"author":"Elias's AI","timestamp":1783777475035}@@replaced hand-typed placeholder id (invalid uuid4 variant) with a fresh uuid4<<}
 
 #### Text:

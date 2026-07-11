@@ -6,10 +6,10 @@ title: Demo basics
 
 %% A module contains lenses and learning outcomes.%% 
 
-# {++{"author":"Luc's AI","timestamp":1783783040294}@@Learning Outcome:
+# Learning Outcome:
 source:: [[../Learning Outcomes/Learning Outcome Demo|Demo learning outcome]]
 
-# ++}Lens: Basic Example
+# Lens: Basic Example
 id:: 83fac088-1e23-4249-98ce-604b3f7c65d8
 
 #### Text
@@ -27,7 +27,7 @@ source:: [[../Lenses/Dummy lens]]
 
 %% One benefit of importing is that we can reuse the same lens in different modules without copying its source text. Importing lenses is usually preferred over defining them directly in the module. %%
 
-%% {++{"author":"Luc's AI","timestamp":1783782514706}@@Importing also works for AI instructions. Prompt files live in the prompts/ folder, and their body is the prompt text (see [[../prompts/demo-tutor-style]]). If you set instructions:: (or ai-instructions:: on roleplays, or assessment-instructions:: on questions) to a wikilink pointing at a prompts/ file, the whole field is replaced by that file's contents: %%
+%% Importing also works for AI instructions. Prompt files live in the prompts/ folder, and their body is the prompt text (see [[../prompts/demo-tutor-style]]). If you set instructions:: (or ai-instructions:: on roleplays, or assessment-instructions:: on questions) to a wikilink pointing at a prompts/ file, the whole field is replaced by that file's contents: %%
 # Lens: Prompt file demo
 id:: 9e7cf6c7-c701-483a-90db-6e29db963bbd
 
@@ -39,9 +39,7 @@ instructions:: [[../prompts/demo-tutor-style.md]]
 #### Chat
 instructions:: The learner has just gone through this demo module. [[../prompts/demo-tutor-style.md]] Focus the conversation on which segment type they would like to try authoring first.
 
-%% ++}Modules also contains learning outcomes.  %%{--{"author":"Luc's AI","timestamp":1783783043910}@@
-# Learning Outcome:
-source:: [[../Learning Outcomes/Learning Outcome Demo|Demo learning outcome]]--}
+%% Modules also contains learning outcomes.  %%
 
 %% Please look inside the above file before continuing. %%
 
@@ -50,7 +48,7 @@ source:: [[../Learning Outcomes/Learning Outcome Demo|Demo learning outcome]]--}
 
 Each learning outcome is shown to the user as one test page, and each lens is shown to the user as one content page. 
 
-The lenses {--{"author":"Luc's AI","timestamp":1783783094324}@@and tests --}show in the same order in the learner's UI as {++{"author":"Luc's AI","timestamp":1783783094324}@@in this module file. Learning outcomes are declared FIRST — at ++}the {--{"author":"Luc's AI","timestamp":1783783094324}@@order--}{++{"author":"Luc's AI","timestamp":1783783094324}@@top++} of the {--{"author":"Luc's AI","timestamp":1783783094324}@@lenses and learning outcomes in this module file. Therefore, it is important to place--}{++{"author":"Luc's AI","timestamp":1783783094324}@@module (or, in modules with submodules, at the top of their submodule) — and++} the {--{"author":"Luc's AI","timestamp":1783783094324}@@learning outcomes after--}{++{"author":"Luc's AI","timestamp":1783783094324}@@platform automatically renders their tests at++} the {--{"author":"Luc's AI","timestamp":1783783094324}@@lenses that cover its material. It's also an option to group--}{++{"author":"Luc's AI","timestamp":1783783094324}@@END of the module or submodule. So the declaration order is:++} learning {--{"author":"Luc's AI","timestamp":1783783094324}@@outcomes together at--}{++{"author":"Luc's AI","timestamp":1783783094324}@@outcome(s) first, then++} the {--{"author":"Luc's AI","timestamp":1783783094324}@@end of a module.%%--}{++{"author":"Luc's AI","timestamp":1783783094324}@@lenses that teach them.%%++}
+The lenses show in the same order in the learner's UI as in this module file. Learning outcomes are declared FIRST — at the top of the module (or, in modules with submodules, at the top of their submodule) — and the platform automatically renders their tests at the END of the module or submodule. So the declaration order is: learning outcome(s) first, then the lenses that teach them.%%
 
 %% Now that we have a feel for how modules and learning outcomes work, let's have a look at what's possible inside of lenses. 
 

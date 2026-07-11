@@ -33,10 +33,10 @@ showUserPreviousContent:: true
 
 # Submodule: Decomposing AI risks
 
-## {++{"author":"Luc's AI","timestamp":1783783060452}@@Learning Outcome:
+## Learning Outcome:
 source:: [[../Learning Outcomes/Decomposing AI risks]]
 
-## ++}Lens:
+## Lens:
 source:: [[../Lenses/The AI risk landscape]]
 
 ## Lens:
@@ -49,17 +49,14 @@ source:: [[../Lenses/arxiv-an-overview-of-catastrophic-ai-risks]]
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/1-gradual-disempowerment-systemic-existential-risks-from-incremental-ai-development]]{--{"author":"Luc's AI","timestamp":1783783060452}@@
-
-## Learning Outcome:
-source:: [[../Learning Outcomes/Decomposing AI risks]]--}
+source:: [[../Lenses/1-gradual-disempowerment-systemic-existential-risks-from-incremental-ai-development]]
 
 # Submodule: Alignment targets
 
-## {++{"author":"Luc's AI","timestamp":1783783064012}@@Learning Outcome:
+## Learning Outcome:
 source:: [[../Learning Outcomes/Alignment targets]]
 
-## ++}Lens:
+## Lens:
 source:: [[../Lenses/Choosing an alignment target]]
 
 ## Lens:
@@ -72,17 +69,14 @@ source:: [[../Lenses/anthropic-claudes-new-constitution]]
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/lesswrong-corrigibility]]{--{"author":"Luc's AI","timestamp":1783783064012}@@
-
-## Learning Outcome:
-source:: [[../Learning Outcomes/Alignment targets]]--}
+source:: [[../Lenses/lesswrong-corrigibility]]
 
 # Submodule: Training stories and outer-inner alignment
 
-## {++{"author":"Luc's AI","timestamp":1783783069546}@@Learning Outcome:
+## Learning Outcome:
 source:: [[../Learning Outcomes/Training stories and outer-inner alignment]]
 
-## ++}Lens:
+## Lens:
 source:: [[../Lenses/Decomposing the alignment problem]]
 
 ## Lens:
@@ -107,17 +101,14 @@ source:: [[../Lenses/betley-emergent-misalignment-narrow-finetuning-can-produce-
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/turntrout-reward-is-not-the-optimization-target]]{--{"author":"Luc's AI","timestamp":1783783069546}@@
-
-## Learning Outcome:
-source:: [[../Learning Outcomes/Training stories and outer-inner alignment]]--}
+source:: [[../Lenses/turntrout-reward-is-not-the-optimization-target]]
 
 # Submodule: Goals and instrumental convergence
 
-## {++{"author":"Luc's AI","timestamp":1783783072458}@@Learning Outcome:
+## Learning Outcome:
 source:: [[../Learning Outcomes/Goals and instrumental convergence]]
 
-## ++}Lens:
+## Lens:
 source:: [[../Lenses/Goal-directedness and instrumental convergence]]
 
 ## Lens:
@@ -126,17 +117,14 @@ source:: [[../Lenses/gwern-why-tool-ais-want-to-be-agent-ais]]
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/omohundro-the-basic-ai-drives]]{--{"author":"Luc's AI","timestamp":1783783072458}@@
-
-## Learning Outcome:
-source:: [[../Learning Outcomes/Goals and instrumental convergence]]--}
+source:: [[../Lenses/omohundro-the-basic-ai-drives]]
 
 # Submodule: Forecasting risk and solution approaches
 
-## {++{"author":"Luc's AI","timestamp":1783783078583}@@Learning Outcome:
+## Learning Outcome:
 source:: [[../Learning Outcomes/Forecasting risk and solution approaches]]
 
-## ++}Lens:
+## Lens:
 source:: [[../Lenses/Forecasting risk and choosing an approach]]
 
 ## Lens:
@@ -169,7 +157,4 @@ source:: [[../Lenses/yudkowsky-the-rocket-alignment-problem]]
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/dai-problems-in-ai-alignment-that-philosophers-could-potentially-contribute-to]]{--{"author":"Luc's AI","timestamp":1783783078583}@@
-
-## Learning Outcome:
-source:: [[../Learning Outcomes/Forecasting risk and solution approaches]]--}
+source:: [[../Lenses/dai-problems-in-ai-alignment-that-philosophers-could-potentially-contribute-to]]
