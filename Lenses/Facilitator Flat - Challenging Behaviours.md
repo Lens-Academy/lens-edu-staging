@@ -6,8 +6,7 @@ tldr: "Five patterns, five moves. The general principle: challenging behaviours 
 authors:
   - Yatharth+Claude
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770510980}@@lens
-  - --}facilitator-training
+  - facilitator-training
 ---
 #### Text
 content::

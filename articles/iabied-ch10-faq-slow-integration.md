@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770741844}@@
-  - IABIED--}
+  - clippings
 ---
 #### That scenario still ends in catastrophe.
 

@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771071350}@@
-  - IABIED--}
+  - clippings
 ---
 
 #### It's overwhelmingly more likely that AI kills everyone.

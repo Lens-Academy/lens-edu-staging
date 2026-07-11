@@ -5,10 +5,7 @@ title: "The One-Chance Problem"
 tldr: "What do a 1912 shipwreck and a 1986 nuclear meltdown tell us about how humans treat risks they can't quite believe in? And what changes when there is no second chance to learn?"
 authors:
   - Chris+Claude
-{--{"author":"Elias's AI","timestamp":1783770699621}@@tags:
-  - lens
-  - IABIED
---}---
+---
 
 #### Text
 content::

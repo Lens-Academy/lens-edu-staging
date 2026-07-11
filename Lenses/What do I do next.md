@@ -2,8 +2,7 @@
 id: b2525f8a-9290-4900-bd03-44cc512287a2
 title: What do I do next?
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783771117965}@@lens
-  - --}work-in-progress
+  - work-in-progress
   - validator-ignore
 ---
 #### Page: What do I do next

@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770651530}@@
-  - IABIED--}
+  - clippings
 ---
 #### The Glorious Accident of Kindness
 

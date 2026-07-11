@@ -6,8 +6,7 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771015117}@@
-  - IABIED--}
+  - clippings
 ---
 #### No. Superintelligent AI is a very unusual case.
 

@@ -4,9 +4,7 @@ summary_for_tutor: Argues that human uniqueness is unlikely and not especially r
 title: "Isn't there something special about humans that mere machines could never emulate?"
 tldr: "It seems unlikely, and not especially relevant."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770754555}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

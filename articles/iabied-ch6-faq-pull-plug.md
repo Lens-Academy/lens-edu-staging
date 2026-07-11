@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770585238}@@
-  - IABIED--}
+  - clippings
 ---
 #### It's hard to just unplug a datacenter.
 

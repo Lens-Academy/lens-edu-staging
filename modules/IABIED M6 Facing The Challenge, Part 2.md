@@ -8,10 +8,7 @@ readings:
   - "Chapter 13: Shut It Down"
   - "Chapter 14: Where There's Life, There's Hope"
   - "Closing Words"
-{--{"author":"Elias's AI","timestamp":1783770982195}@@tags:
-  - IABIED
-  - module
---}---
+---
 
 # Submodule: Welcome
 # Lens: Welcome

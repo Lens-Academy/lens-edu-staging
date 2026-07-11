@@ -6,8 +6,7 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771143772}@@
-  - IABIED--}
+  - clippings
 ---
 We've heard some people argue that we should take a strong stand against AI art or robotic weapons, in order to send a simpler message: not anti-superintelligence, but anti-*AI.*
 
