@@ -3,9 +3,7 @@ id: 0142f30d-e2a6-47b3-8125-33f6fede737e
 summary_for_tutor: Argues that AI systems capable of large-scale novel science will likely pursue unwanted goals by default, leading to catastrophic outcomes. Covers why novel task environments create dangerous distribution shifts, why behavioral training cannot precisely specify terminal goals, why oversight of misaligned powerful AI is fundamentally difficult, and why a misaligned AI could plausibly escape containment and pursue catastrophic outcomes.
 title: Without fundamental advances
 tldr: Many alignment proposals assume that iterating on current training with enough safety patches will probably work out. This article argues the opposite — given how we currently build AI, misalignment isn't the exception. It's what we should expect by default without fundamentally new approaches.
-{--{"author":"Elias's AI","timestamp":1783771123024}@@tags :
-  - lens
---}---
+---
 
 #### Text
 content::

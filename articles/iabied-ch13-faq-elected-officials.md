@@ -6,8 +6,7 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771163265}@@
-  - IABIED--}
+  - clippings
 ---
 #### An increasing number already have.
 
