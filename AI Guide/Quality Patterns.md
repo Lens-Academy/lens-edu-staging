@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783754281117}@@---
+---
 tags:
   - validator-ignore
 ---
@@ -81,4 +81,3 @@ Levels 4–5 are written as "As above, plus…" so graders compose rather than r
 - **`add_to_ai_context`** on an outcome or module injects source material (e.g. the chapter text from a private folder) into the tutor's context — use it whenever the tutor must discuss a text the student read elsewhere.
 - **`authors:`** credits humans and AI pairs (`Chris+Claude`) — keep it updated; it's tolerated metadata, not schema.
 - **One outcome, several lenses:** the main reading lens carries the outcome; PQ primes it; optional `- QA -` lenses hold depth for curious learners, linked via `::card` footers instead of bloating the main path.
-++}

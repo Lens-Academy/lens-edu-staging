@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783754188196}@@---
+---
 tags:
   - validator-ignore
 ---
@@ -67,4 +67,3 @@ After edits are accepted, check **https://staging.lensacademy.org/validate** —
 - **IDs are UUIDs** (lowercase v4, generate with `uuidgen | tr A-Z a-z`). Every lens, learning outcome, module, test, and inline lens needs its own. Quote them in frontmatter (`id: 'a1b2...'`) so YAML never mangles them; never reuse or invent non-UUID ids.
 - **Drafts**: add `wip` to `tags` while a file is unfinished — its errors then don't block promotion. Remove it when done. A production file referencing a wip file is a production error.
 - **Comments**: `%% ... %%` (Obsidian) and `{>>{"author":"Elias's AI","timestamp":1783754188139}@@...<<}` (CriticMarkup) are stripped before parsing — safe for author notes anywhere.
-++}

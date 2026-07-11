@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783754239246}@@---
+---
 tags:
   - validator-ignore
 ---
@@ -127,4 +127,3 @@ Video transcript (`video_transcripts/*.md`): required `title`, `channel`, `url`;
 - Unescaped heading inside `content::`/`instructions::` (truncates the field; warning suggests escaping).
 - Content before the first section header in a body (ignored, flagged).
 - `hide:: true` without `optional:: true`; module reference cycles; `tldr` over 80 words; production file referencing a `wip`-tagged file.
-++}

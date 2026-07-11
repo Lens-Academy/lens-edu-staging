@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783754155570}@@---
+---
 tags:
   - validator-ignore
 ---
@@ -13,4 +13,3 @@ This knowledge base holds Lens Academy's course content: courses, modules, learn
 **Otherwise** (searching, reading, unrelated work): ignore this notice.
 
 Your markdown edits land as suggestions — a human must accept them in the editor before they take effect.
-++}

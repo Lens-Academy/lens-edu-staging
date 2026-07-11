@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1783754290301}@@---
+---
 tags:
   - validator-ignore
 ---
@@ -41,4 +41,3 @@ curl -s -H "Authorization: Bearer $T" https://editor.lensacademy.org/api/add-art
 Hand-create an `articles/` file (schema in `Lens Edu/AI Guide/Element Reference.md`) only when the importer can't reach the source: paywalled content you have legal text for, PDFs, or content that needs manual cleanup. Keep the body pure prose — excerpt selection happens in the lens (`from::`/`to::` anchors), never by trimming the article file.
 
 Videos follow a parallel path: `video_transcripts/` files with `.timestamps.json` come from the video import tooling (add-video in the editor), and Video segments reference them with timestamp ranges.
-++}
