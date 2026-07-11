@@ -56,7 +56,7 @@ The safety enhancements of self-play via debate still need to be empirically ver
 
 *Figure 8.14: A toy UI for a human judge. ([Bowman, 2024](https://docs.google.com/document/d/1E2O7MSVI8u9LHbezdTgYoC6ULZmgki7EIm2XwCT0nuU/edit?tab=t.0#heading=h.swsctq1afox))*
 
-**How does debate fit in the broader AI Safety strategy? **The ultimate goal is to develop a debate structure that works even with the most challenging questions and the trickiest dishonest strategies. Even if we find that debate doesn't work for some questions, it can still provide valuable insights into the limits of human judgment in evaluating AI behavior. This aids efforts to understand when and how to trust AI systems.
+**How does debate fit in the broader AI Safety {--{"author":"Luc's AI","timestamp":1783790108548}@@strategy? **The--}{++{"author":"Luc's AI","timestamp":1783790108548}@@strategy?** The++} ultimate goal is to develop a debate structure that works even with the most challenging questions and the trickiest dishonest strategies. Even if we find that debate doesn't work for some questions, it can still provide valuable insights into the limits of human judgment in evaluating AI behavior. This aids efforts to understand when and how to trust AI systems.
 
 Debate is expected to be most useful as AIs become more capable but are not yet vastly superior to humans. As AI capabilities improve, we’ll need increasingly more robust methods to ensure they remain trustworthy and effective. Debate is an important step in that direction and serves as a foundation for more advanced oversight mechanisms.
 
@@ -80,7 +80,7 @@ As the capabilities of AI models begin to exceed those of humans, the risk of sc
 
 ## Discriminator Critique Gap (DCG)
 
-**What makes an AI model a master debater? **To effectively engage in debates, an AI model must excel in three key actions: generation, discrimination, and critique. These capabilities are essential for producing high-quality arguments and identifying and articulating flaws in other arguments effectively.
+**What makes an AI model a master {--{"author":"Luc's AI","timestamp":1783790109958}@@debater? **To--}{++{"author":"Luc's AI","timestamp":1783790109958}@@debater?** To++} effectively engage in debates, an AI model must excel in three key actions: generation, discrimination, and critique. These capabilities are essential for producing high-quality arguments and identifying and articulating flaws in other arguments effectively.
 
 **Generation**: This is the LLM's ability to create outputs based on given inputs. Imagine a debate scenario where the model is asked to generate arguments or solutions on a specific topic. For instance, the AI might need to argue for or against a particular question. This requires the model to generate information and present it coherently. Having good generation ability means that the AI can contribute meaningful and relevant content in debates.
 
