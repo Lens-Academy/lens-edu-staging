@@ -3,8 +3,7 @@ id: e96c4aba-cc23-49b9-8af9-57a4c83fade7
 slug: ai-safety-field-building-and-advocacy
 title: AI safety field building and advocacy
 tags:
-  - module{++{"author":"Elias's AI","timestamp":1783769024823}@@
-  - ai-safety-plans++}
+  - module
 ---
 # Lens: Welcome
 id:: 958043bc-f443-4d3a-8cb3-eeba802344e1

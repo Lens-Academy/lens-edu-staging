@@ -3,10 +3,7 @@ id: 27e0a6dc-c76e-46be-8fa4-957d68e988af
 title: Brain-like AGI safety
 tldr: This approach assumes the dangerous future AGI will itself run on the brain's high-level learning algorithms — and aligns it by reverse-engineering the brain's innate reward and steering circuitry. This lens covers Steven Byrnes' framing of the problem.
 summary_for_tutor: "Covers brain-like AGI safety, Steven Byrnes' agenda. Premise: future AGI may be an actor-critic reinforcement learner built on brain-like algorithms — a from-scratch, cortex-like Learning Subsystem steered by an innate, brainstem/hypothalamus-like Steering Subsystem that supplies the reward signal. Claim: such a system has radically nonhuman, dangerous motivations by default. Fix: reverse-engineer the brain's innate steering / social-instinct circuitry and reward function to deliberately install good motivations (values foundational, not bolted on). Key point: here the AI itself IS brain-like and is aligned on those terms — contrast with the BCI-type solutions in the rest of the module, which change the human side."
-{++{"author":"Elias's AI","timestamp":1783768954548}@@tags:
-  - lens
-  - ai-safety-plans
-++}---
+---
 
 #### Text
 content::

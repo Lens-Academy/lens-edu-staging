@@ -3,10 +3,7 @@ id: f9a03df8-95a1-408f-a4f6-fdccf09a42c3
 title: The case for AI safety field-building
 tldr: Before picking a field-building tactic, get the argument for why meta-work — growing the people and institutions working on AI safety — is worth doing at all. This lens covers the funder-level theory of change.
 summary_for_tutor: "Anchors the 'why field-building' theory of change. Core premise: AI safety is talent- and capacity-constrained, so work that grows the supply of skilled people and the institutions that can absorb them is a force-multiplier on every object-level safety plan. Track record: the field went from dozens to thousands of people. Key nuance to surface: 'capacity-building' is broader than just producing junior researchers — it includes founders, managers, mentors, and organizations. Reading: Asya Bergal (Open Phil / Coefficient Giving)."
-{++{"author":"Elias's AI","timestamp":1783768997618}@@tags:
-  - lens
-  - ai-safety-plans
-++}---
+---
 
 #### Text
 content::

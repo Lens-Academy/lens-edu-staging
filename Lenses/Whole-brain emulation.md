@@ -3,10 +3,7 @@ id: d8c5ad40-f3aa-4265-82c6-971416357f81
 title: Whole-brain emulation
 tldr: One human-side strategy is to build advanced digital minds from humans rather than from scratch — scanning and simulating a brain. This lens covers what whole-brain emulation is and the awkward "which comes first" tension it raises for AI safety.
 summary_for_tutor: "Part of the BCI-type (human-side) solutions. Whole-brain emulation (WBE / mind uploading) = scan + map + simulate a specific brain at sufficient resolution to reproduce its function. Scan-map-simulate pipeline; feasibility depends on required resolution level. Safety argument: WBE-derived minds might inherit human values, offering a human-derived route to digital superintelligence as an alternative to de novo AGI. Key tension: neuromorphic/brain-inspired AGI is widely expected to arrive BEFORE WBE (~85% at a 2011 workshop), so pushing WBE research may accelerate uncontrolled AI. Remains almost entirely theoretical."
-{++{"author":"Elias's AI","timestamp":1783768991021}@@tags:
-  - lens
-  - ai-safety-plans
-++}---
+---
 
 #### Text
 content::

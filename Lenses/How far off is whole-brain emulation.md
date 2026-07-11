@@ -3,10 +3,7 @@ id: 99388aba-85ec-473c-b9b1-f897885e9372
 title: How far off is whole-brain emulation?
 tldr: WBE promises human-derived digital minds that are "aligned by construction" — but how close is it, really? This lens is the 2025 reality check against the hopeful 2008 roadmap.
 summary_for_tutor: "Pairs with the main WBE lens to supply the reality check. The 'State of Brain Emulation Report 2025' reassesses the field against Sandberg & Bostrom's 2008 roadmap: no whole-brain single-neuron recording exists in any organism, the field has <500 researchers, and the science remains generations from human WBE. Use it to temper the WBE-as-alignment story: the 'aligned by construction' upload is a long-shot tail, not a near-term bet, and its research may even accelerate unsafe neuromorphic AI first. Good for calibrating how much weight the hard end of BCI-type solutions can bear."
-{++{"author":"Elias's AI","timestamp":1783768992939}@@tags:
-  - lens
-  - ai-safety-plans
-++}---
+---
 
 #### Text
 content::

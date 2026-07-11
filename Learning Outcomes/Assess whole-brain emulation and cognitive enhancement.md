@@ -2,8 +2,7 @@
 id: 50054a3a-4dd5-43fa-abdc-97f463e2cd37
 learning-outcome: Assess whole-brain emulation and cognitive enhancement as routes to human-aligned or human-competitive minds — the "aligned by construction" hope, the reality check on WBE's maturity, and the timeline/equity problems
 tags:
-  - learning outcome{++{"author":"Elias's AI","timestamp":1783769041053}@@
-  - ai-safety-plans++}
+  - learning outcome
 ---
 ## Test:
 id:: 44306814-0216-4772-a0dd-276370e0ccd7
