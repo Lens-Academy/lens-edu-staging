@@ -30,10 +30,10 @@ Score according to the following rubric.
 
 **5**: As above, plus contrasts strong superalignment with a *biomedical-AI* counterexample (per the chapter): a biology-specialized AI is at least not thinking explicitly about how to make better AIs, so its outputs are checkable against narrower verification tools. The structural problem with strong superalignment is that the alignment-thinking AI *cannot* be made non-dangerous in the same way. *Example: Adds "The chapter contrasts this with a biomedical AI: that AI isn't reasoning about AI internals or alignment psychology, so if it outputs a cancer cure you can run separate narrower tools to check the protein interactions. Strong superalignment doesn't have that out: the very capability you need *is* the dangerous thinking. There's no narrower checker for 'is this alignment plan secretly going to fail.'"*
 
-{++{"author":"Luc's AI","timestamp":1783722949564}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722949564}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722949564}@@[[../Lenses/IABIED++} - Strong Superalignment Objection - PQ]]
+## Lens:
+source:: [[../Lenses/IABIED - Strong Superalignment Objection - PQ]]
 
 ## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722949564}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722949564}@@[[../Lenses/IABIED++} - Strong Superalignment Objection]]
+source:: [[../Lenses/IABIED - Strong Superalignment Objection]]

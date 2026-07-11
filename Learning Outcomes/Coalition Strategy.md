@@ -27,15 +27,12 @@ Score according to the following rubric.
 
 **4** — As above, plus articulates the asymmetry that makes the argument tight: the cost of including additional positions is extinction risk if the package fails; the cost of keeping it narrow is only that other issues must be addressed separately. *Example: Adds "The chapter's logic is asymmetric: if you bundle and the coalition fails, you get extinction. If you keep it narrow and succeed, other issues (jobs, killer robots) can still be addressed separately later. The asymmetry means the right call is to keep it narrow even if it feels incomplete."*
 
-**5** — As above, plus connects the coalition strategy to the chapter's critique of advocates who hedge and conceal their real concerns. *Example: Adds "The chapter criticizes advocates who package extinction concerns inside broader regulatory proposals: legislators 'smell something rotten and throw the whole package out.' The coalition strategy is the chapter's answer to this failure mode: state the real concern directly, build around the one thing nearly everyone agrees on, and don't muddy it with adjacent positions."*{--{"author":"Luc's AI","timestamp":1783722786091}@@
-
---}{++{"author":"Luc's AI","timestamp":1783722786091}@@
+**5** — As above, plus connects the coalition strategy to the chapter's critique of advocates who hedge and conceal their real concerns. *Example: Adds "The chapter criticizes advocates who package extinction concerns inside broader regulatory proposals: legislators 'smell something rotten and throw the whole package out.' The coalition strategy is the chapter's answer to this failure mode: state the real concern directly, build around the one thing nearly everyone agrees on, and don't muddy it with adjacent positions."*
 
 
 # Suggested Lenses:
-++}## Lens:
+## Lens:
 source:: [[../Lenses/IABIED - Coalition Strategy - PQ]]
 
 ## Lens:
-source:: [[../Lenses/IABIED - Coalition Strategy]]{++{"author":"Luc's AI","timestamp":1783722793352}@@
-++}
+source:: [[../Lenses/IABIED - Coalition Strategy]]

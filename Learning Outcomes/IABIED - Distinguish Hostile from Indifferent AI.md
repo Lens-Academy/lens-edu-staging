@@ -32,19 +32,16 @@ Score according to the following rubric.
 
 **5** — As above, plus articulates why indifference makes the problem harder, not easier: hostility would at least give us a clear adversary to defend against, whereas indifference means the AI has no reason to negotiate, compromise, or even notice us, which makes alignment the only viable strategy rather than containment or deterrence. *Example: Adds "Counterintuitively, indifference is worse than hostility. A hostile AI is at least an adversary you can try to reason with or defend against. An indifferent AI has no reason to negotiate or spare you. You're just not a factor in its calculations. That's why the chapter says containment won't work and alignment is the only real path forward. You can't deter something that doesn't consider you relevant."*
 
-{++{"author":"Luc's AI","timestamp":1783722830293}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722830293}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722830293}@@[[../Lenses/IABIED++} - PQ - Distinguish Hostile from Indifferent AI]]
+## Lens:
+source:: [[../Lenses/IABIED - PQ - Distinguish Hostile from Indifferent AI]]
 
 ## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722830293}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722830293}@@[[../Lenses/IABIED++} - Distinguish Hostile from Indifferent AI]]
+source:: [[../Lenses/IABIED - Distinguish Hostile from Indifferent AI]]
 
-## Lens:{--{"author":"Luc's AI","timestamp":1783722830293}@@
-optional:: true--}
-source:: {--{"author":"Luc's AI","timestamp":1783722830293}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722830293}@@[[../Lenses/IABIED++} - QA - AI Find Us Useful]]
+## Lens:
+source:: [[../Lenses/IABIED - QA - AI Find Us Useful]]
 
-## Lens:{--{"author":"Luc's AI","timestamp":1783722830293}@@
-optional:: true--}
-source:: {--{"author":"Luc's AI","timestamp":1783722830293}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722830293}@@[[../Lenses/IABIED++} - QA - AI Find Us Fascinating]]{++{"author":"Luc's AI","timestamp":1783722830293}@@
-++}
+## Lens:
+source:: [[../Lenses/IABIED - QA - AI Find Us Fascinating]]

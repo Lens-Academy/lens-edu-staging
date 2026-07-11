@@ -27,7 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus pre-commits to a 20-30 minute prep ceiling for their next session and articulates how they'll resist the pull to do more.
 
-{++{"author":"Luc's AI","timestamp":1783722809897}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722809897}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722809897}@@[[../Lenses/Facilitator++} Flat - Prep Discipline]]
+## Lens:
+source:: [[../Lenses/Facilitator Flat - Prep Discipline]]

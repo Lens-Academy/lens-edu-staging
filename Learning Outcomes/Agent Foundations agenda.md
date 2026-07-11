@@ -7,21 +7,17 @@ tags:
 ---
 
 ## Test:
-{++{"author":"Luc's AI","timestamp":1783722609870}@@
 
-# Suggested Lenses:++}
-## Lens:{--{"author":"Luc's AI","timestamp":1783722609870}@@
-optional:: false--}
+
+# Suggested Lenses:
+## Lens:
 source:: [[../Lenses/Agent Foundations]]
 
 ## Lens:
-{--{"author":"Luc's AI","timestamp":1783722616820}@@optional:: false
---}source:: [[../Lenses/AF not really math not really science]]
+source:: [[../Lenses/AF not really math not really science]]
 
 ## Lens:
-{--{"author":"Luc's AI","timestamp":1783722621382}@@optional:: true
---}source:: [[../Lenses/Embedded agents]]
+source:: [[../Lenses/Embedded agents]]
 
 ## Lens:
-{--{"author":"Luc's AI","timestamp":1783722626948}@@optional:: false
---}source:: [[../Lenses/Realism about rationality]]
+source:: [[../Lenses/Realism about rationality]]

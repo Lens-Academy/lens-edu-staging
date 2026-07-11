@@ -27,7 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus identifies which norm they personally would have the hardest time enforcing — and why.
 
-{++{"author":"Luc's AI","timestamp":1783722734112}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722734112}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722734112}@@[[../Lenses/Facilitator++} - Setting Norms]]
+## Lens:
+source:: [[../Lenses/Facilitator - Setting Norms]]

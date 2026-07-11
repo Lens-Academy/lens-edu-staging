@@ -7,9 +7,7 @@ tags:
 ---
 ## Test:
 
-{++{"author":"Luc's AI","timestamp":1783722764437}@@
+
 # Suggested Lenses:
-++}## Lens:{--{"author":"Luc's AI","timestamp":1783722764437}@@
-optional:: false--}
-source:: [[../Lenses/AI manipulation - mind hacked|AI manipulation - mind hacked]]{++{"author":"Luc's AI","timestamp":1783722764437}@@
-++}
+## Lens:
+source:: [[../Lenses/AI manipulation - mind hacked|AI manipulation - mind hacked]]

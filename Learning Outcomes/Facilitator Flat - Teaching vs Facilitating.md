@@ -27,7 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus connects the distinction to specific session moves (when someone is wrong, when conversation goes quiet, when someone dominates) and pre-commits to one micro-move they'll try when their trigger fires.
 
-{++{"author":"Luc's AI","timestamp":1783722791407}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722791407}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722791407}@@[[../Lenses/Facilitator++} Flat - Teaching vs Facilitating]]
+## Lens:
+source:: [[../Lenses/Facilitator Flat - Teaching vs Facilitating]]

@@ -32,11 +32,10 @@ Score according to the following rubric.
 
 **5** — As above, plus applies the distinction to a concrete scenario: given a specific example of aligned-seeming AI behavior, identifies what additional evidence would be needed to establish genuine alignment. *Example: "If an AI declines to help with a harmful request, that's a behavioral observation. To establish it's actually aligned you'd need to know whether it declined because it has values against harm, or because declining is what the training signal rewarded. Those predict very different behavior in novel situations."*
 
-{++{"author":"Luc's AI","timestamp":1783722633176}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722633176}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722633176}@@[[../Lenses/IABIED++} - Behavior Is Not Values - PQ]]
+## Lens:
+source:: [[../Lenses/IABIED - Behavior Is Not Values - PQ]]
 
 ## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722633176}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722633176}@@[[../Lenses/IABIED++} - Behavior Is Not Values]]{++{"author":"Luc's AI","timestamp":1783722633176}@@
-++}
+source:: [[../Lenses/IABIED - Behavior Is Not Values]]

@@ -4,11 +4,7 @@ learning-outcome: Evaluate the strongest objections to BCI-type solutions — me
 tags:
   - learning outcome
 ---
-{--{"author":"Luc's AI","timestamp":1783722641192}@@## Lens:
-source:: [[../Lenses/Brain-computer interfaces and human augmentation]]
-## Lens:
-source:: [[../Lenses/BCIs as an existential-risk factor]]
---}## Test:
+## Test:
 id:: 16113b65-caa0-43f8-98ae-12d68bc8834f
 #### Question
 feedback:: true
@@ -19,11 +15,11 @@ max-chars:: 700
 feedback:: true
 content:: Beyond "it won't work," there's an "it could make things worse" objection. Explain how BCIs could be an existential-risk factor rather than a safety tool.
 assessment-instructions:: A strong answer explains that BCIs could raise x-risk rather than reduce it — most sharply by enabling entrenched totalitarianism (neural surveillance/coercion enabling durable, unshakeable control that locks in a bad future), plus biological-attack-surface / "neuraljacking" risks (wiring brains to advanced AI exposes a new attack surface; a misaligned AI could remove the human bottleneck), and WBE possibly accelerating unsafe neuromorphic AI. Award 4-5 for the totalitarianism mechanism plus at least one other risk; 3 for one mechanism; 1-2 if vague or if it only repeats the "won't work" objections. Accept paraphrase.
-max-chars:: 600{++{"author":"Luc's AI","timestamp":1783722651614}@@
+max-chars:: 600
 
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/Brain-computer interfaces and human augmentation]]
 
 ## Lens:
-source:: [[../Lenses/BCIs as an existential-risk factor]]++}
+source:: [[../Lenses/BCIs as an existential-risk factor]]

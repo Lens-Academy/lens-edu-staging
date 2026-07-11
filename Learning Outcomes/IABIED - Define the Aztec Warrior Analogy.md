@@ -31,10 +31,10 @@ assessment-instructions::
 
 **5** — As above, plus articulates why this reframes a common AI skeptic argument: "give me a specific scenario" is an unreasonable demand when capability asymmetry alone is sufficient for alarm. *Example: Adds "This answers a frequent objection: 'just tell me exactly how AI causes catastrophe.' The chapter says that's the wrong standard. The Aztec warrior who survived didn't need to know guns existed beforehand; the size of the boat was enough. Overwhelming capability asymmetry is sufficient reason for concern, even without a mechanism."*
 
-{++{"author":"Luc's AI","timestamp":1783722895780}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722895780}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722895780}@@[[../Lenses/IABIED++} - Define the Aztec Warrior Analogy - PQ]]
+## Lens:
+source:: [[../Lenses/IABIED - Define the Aztec Warrior Analogy - PQ]]
 
 ## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722895780}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722895780}@@[[../Lenses/IABIED++} - Define the Aztec Warrior Analogy]]
+source:: [[../Lenses/IABIED - Define the Aztec Warrior Analogy]]

@@ -28,13 +28,11 @@ Score according to the following rubric.
 
 **4** — Correctly names the distinctive lever for all three groups with specificity: government signaling (not a unilateral halt, but expressing willingness so others won't be disadvantaged by agreeing); GPU concentration for skeptics (preserving optionality without requiring full acceptance of the risk argument); and citizen action (vote especially in primaries, write representatives, protest lawfully, talk about it). *Example of the skeptic politician lever: "The chapter says even if you're not persuaded of the full risk, concentrate GPU clusters now, because if you later change your mind, it will be too late to halt if they've proliferated everywhere."*
 
-**5** — As above, plus articulates what makes each lever non-fungible: why government signaling requires state-level credibility to move other states; why GPU concentration requires regulatory authority that citizens don't have; and why citizen pressure creates the political permission structure that allows politicians and governments to act. *Example adds: "The chapter implies these groups form a chain: citizen pressure gives politicians permission to speak, politicians give governments cover to signal, and government signals make a treaty negotiable. No group can substitute for another because each lever requires a kind of authority or credibility the other groups lack."*{--{"author":"Luc's AI","timestamp":1783723010315}@@
-
---}{++{"author":"Luc's AI","timestamp":1783723010315}@@
+**5** — As above, plus articulates what makes each lever non-fungible: why government signaling requires state-level credibility to move other states; why GPU concentration requires regulatory authority that citizens don't have; and why citizen pressure creates the political permission structure that allows politicians and governments to act. *Example adds: "The chapter implies these groups form a chain: citizen pressure gives politicians permission to speak, politicians give governments cover to signal, and government signals make a treaty negotiable. No group can substitute for another because each lever requires a kind of authority or credibility the other groups lack."*
 
 
 # Suggested Lenses:
-++}## Lens:
+## Lens:
 source:: [[../Lenses/IABIED - Role-Specific Action - PQ]]
 
 ## Lens:
