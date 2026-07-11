@@ -17,29 +17,29 @@ source:: ![[../Lenses/Facilitator - M2 Welcome]]
 
 # Submodule: 2.1 The science of learning, in one sitting
 
-# Lens:
+# Lens:{--{"author":"Elias's AI","timestamp":1783779033941}@@
 source:: ![[../Lenses/Facilitator - Science of Learning]]
 {>>{"author":"Luc's AI","timestamp":1783723335471}@@Suggested Lenses migration: lens import inserted before the current Learning Outcome import. A pending suggestion (Yatharth's AI) rewrites that LO import into a direct lens import of the same lens — if that suggestion is accepted, this block becomes a duplicate; if rejected, this block plus the LO import is the intended new format.<<}
 
-# Lens: 2.1 The science of learning, in one sitting
+# Lens:--} 2.1 The science of learning, in one sitting
 source:: ![[../Lenses/Facilitator - Science of Learning]]
 
 # Submodule: 2.2 The flipped classroom — what changes for you
 
-# Lens:
+# Lens:{--{"author":"Elias's AI","timestamp":1783779038271}@@
 source:: ![[../Lenses/Facilitator - Flipped Classroom]]
 {>>{"author":"Luc's AI","timestamp":1783723343123}@@Suggested Lenses migration: lens import inserted before the current Learning Outcome import. A pending suggestion (Yatharth's AI) rewrites that LO import into a direct lens import of the same lens — if that suggestion is accepted, this block becomes a duplicate; if rejected, this block plus the LO import is the intended new format.<<}
 
-# Lens: 2.2 The flipped classroom — what changes for you
+# Lens:--} 2.2 The flipped classroom — what changes for you
 source:: ![[../Lenses/Facilitator - Flipped Classroom]]
 
 # Submodule: 2.3 Why the meeting templates are built the way they are
 
-# Lens:
+# Lens:{--{"author":"Elias's AI","timestamp":1783779041407}@@
 source:: ![[../Lenses/Facilitator - Think-Pair-Share]]
 {>>{"author":"Luc's AI","timestamp":1783723356976}@@Suggested Lenses migration: lens import inserted before the current Learning Outcome import. A pending suggestion (Yatharth's AI) rewrites that LO import into a direct lens import of the same lens — if that suggestion is accepted, this block becomes a duplicate; if rejected, this block plus the LO import is the intended new format.<<}
 
-# Lens: 2.3 Why the meeting templates are built the way they are
+# Lens:--} 2.3 Why the meeting templates are built the way they are
 source:: ![[../Lenses/Facilitator - Think-Pair-Share]]
 
 # Submodule: Closing exercise

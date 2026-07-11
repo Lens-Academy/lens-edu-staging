@@ -2,7 +2,7 @@
 title: "Slow motion videos as AI risk intuition pumps"
 source_url: https://www.lesswrong.com/posts/Ccsx339LE9Jhoii9K/slow-motion-videos-as-ai-risk-intuition-pumps
 author:
-  - "Andrew_Critch"
+  - {--{"author":"Elias's AI","timestamp":1783779088026}@@"Andrew_Critch"--}{++{"author":"Elias's AI","timestamp":1783779088026}@@"Andrew Critch"++}
 published: 2022-06-14
 created: 2026-02-06
 description: "tl;dr: When making the case for AI as a risk to humanity, trying showing people an evocative illustration of what differences in processing speeds ca…"
