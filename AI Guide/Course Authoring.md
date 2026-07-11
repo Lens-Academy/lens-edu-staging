@@ -26,15 +26,17 @@ Module  (modules/<Name>.md)
   # Learning Outcome: <title>           source:: ![[../Learning Outcomes/<Name>]]
   # Lens: <title>                       source:: ![[../Lenses/<Name>]]  (or inline: id:: + segments)
 Learning Outcome  (Learning Outcomes/<Name>.md)
-  ## Test:                              id:: + a #### Question segment with a scoring rubric
-  ## Lens:                              source:: ![[../Lenses/<Name>]]  (one section per lens, in order)
+  ## Test:                              id:: + {--{"author":"Elias's AI","timestamp":1783772999867}@@a --}#### Question {--{"author":"Elias's AI","timestamp":1783772999867}@@segment--}{++{"author":"Elias's AI","timestamp":1783772999867}@@segments++} with{--{"author":"Elias's AI","timestamp":1783772999867}@@ a--} scoring {--{"author":"Elias's AI","timestamp":1783772999867}@@rubric--}{++{"author":"Elias's AI","timestamp":1783772999867}@@rubrics++}
+  {++{"author":"Elias's AI","timestamp":1783772999867}@@# Suggested Lenses:                   optional, below the test; ++}## Lens:{--{"author":"Elias's AI","timestamp":1783772999867}@@                              source:: ![[../Lenses/<Name>]]  (one section per lens, in order)--}{++{"author":"Elias's AI","timestamp":1783772999867}@@ entries
+                                        (source:: [[../Lenses/<Name>]], notes::) —
+                                        author-facing suggestions, NOT imported by modules++}
 Lens  (Lenses/<Name>.md)                flat: frontmatter + H4 segments only
   #### Text | Chat | Article | Video | Question | Roleplay
 Article (articles/*.md), Video transcript (video_transcripts/*.md)
                                         source material referenced by Article/Video segments
 ```
 
-A learning outcome is one testable skill ("Explain why...", "Distinguish X from Y"). Its lenses are alternative or sequential ways to reach that outcome; its test is how the platform checks it. Lenses referenced from several places are deduplicated for the learner.
+A learning outcome is one testable skill ("Explain why...", "Distinguish X from {--{"author":"Elias's AI","timestamp":1783773004066}@@Y"). Its--}{++{"author":"Elias's AI","timestamp":1783773004066}@@Y"); its test is how the platform checks it. Referencing an outcome from a module imports **only the test** — the++} lenses {++{"author":"Elias's AI","timestamp":1783773004066}@@that teach it ++}are {--{"author":"Elias's AI","timestamp":1783773004066}@@alternative or sequential ways to reach that outcome; its test--}{++{"author":"Elias's AI","timestamp":1783773004066}@@listed explicitly in the module, before the `# Learning Outcome:` ref. An outcome's `# Suggested Lenses:` section++} is {--{"author":"Elias's AI","timestamp":1783773004066}@@how the platform checks it. Lenses referenced from several places are deduplicated--}{++{"author":"Elias's AI","timestamp":1783773004066}@@author-facing metadata: candidate lenses (each `## Lens:` with `source::` and optional `notes::`)++} for {--{"author":"Elias's AI","timestamp":1783773004066}@@the learner.--}{++{"author":"Elias's AI","timestamp":1783773004066}@@module authors to pick from; zero-suggestion outcomes are valid.++}
 
 ## Editing workflow (MCP)
 
