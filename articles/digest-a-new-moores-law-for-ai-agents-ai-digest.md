@@ -1,9 +1,9 @@
-{++{"author":"AI","timestamp":1783453442179}@@---
+{++{"author":"Elias's AI","timestamp":1783777526232}@@---
 title: "A new Moore's Law for AI agents"
 author:
   - "AI Digest"
 source_url: "https://theaidigest.org/time-horizons"
-published: 2026-03
+published: 2026-03-01 {>>{"author":"Elias's AI","timestamp":1783777526232}@@source says "Last updated March 2026" without a day; used first of month<<}
 accessed: 2026-07-07
 description: "The length of tasks that agents can do is growing exponentially"
 tags:

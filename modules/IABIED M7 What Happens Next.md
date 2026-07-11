@@ -63,7 +63,7 @@ source:: ![[../Lenses/IABIED - Next Steps with Lens Academy]]
 source:: ![[../Learning Outcomes/Identify Your Path Forward]]
 
 # Lens: Overview of Optional Resources
-id:: e5f6a7b8-9c0d-4e1f-2a3b-4c5d6e7f8a9b
+id:: {--{"author":"Elias's AI","timestamp":1783777475035}@@e5f6a7b8-9c0d-4e1f-2a3b-4c5d6e7f8a9b--}{++{"author":"Elias's AI","timestamp":1783777475035}@@fb9e57fd-6036-4334-b827-2f9520fbcdd9 {>>{"author":"Elias's AI","timestamp":1783777475035}@@replaced hand-typed placeholder id (invalid uuid4 variant) with a fresh uuid4<<}++}
 
 #### Text:
 content::
