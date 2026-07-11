@@ -81,7 +81,7 @@ Although training sequences may vary slightly across organizations, most labs ad
 
 - **Step 1: Supervised **Fine-tuning**:** A fine-tuning dataset is created by presenting a prompt to a human and asking them to write a response. This process yields a dataset of (prompt, output) pairs. This dataset is then used to fine-tune the LLM through supervised learning, a form of behavioral cloning.
 
-- **Step 2:** **Train a Reward {--{"author":"Luc's AI","timestamp":1783790020619}@@Model: **We--}{++{"author":"Luc's AI","timestamp":1783790020619}@@Model:** We++} train an additional reward model. We initially prompt the fine-tuned LLM and gather several output samples for the same prompt. A human then ranks these samples from best to worst. This ranking is used to train the reward model to predict what a human would rank higher.
+- **Step 2:** **Train a Reward Model:** We train an additional reward model. We initially prompt the fine-tuned LLM and gather several output samples for the same prompt. A human then ranks these samples from best to worst. This ranking is used to train the reward model to predict what a human would rank higher.
 - **Step 3: Reinforcement learning:** Once we have both a fine-tuned LLM and a reward model, we can employ Proximal Policy Optimization (PPO)-based reinforcement learning to encourage the fine-tuned model to maximize the reward that the reward model, which mimics human rankings, offers.
 
 **Reward hacking in feedback methods**
@@ -114,7 +114,7 @@ Similar to RLHF, PHF does not completely solve reward hacking, however, it might
 
 RLAIF also known as RLCAI (Reinforcement Learning on Constitutional AI) or simply Constitutional AI, was developed by Anthropic. ([Anthropic, 2023](https://www.anthropic.com/index/claudes-constitution)) A central component of Constitutional AI is the constitution, a set of human-written principles that the AI is expected to adhere to, such as "Choose the least threatening or aggressive response". Anthropic's AI assistant Claude's constitution incorporates principles from the Universal Declaration of Human Rights, Apple’s Terms of Service, Deepmind’s Sparrow Principles, and more. ([Glaese et al, 2022](https://arxiv.org/abs/2209.14375)) Constitutional AI begins with an AI trained primarily for helpfulness and subsequently trains it for harmlessness in two stages:
 
-**Generate prompt, output {--{"author":"Luc's AI","timestamp":1783790022496}@@pairs: **The--}{++{"author":"Luc's AI","timestamp":1783790022496}@@pairs:** The++} AI continuously critiques and refines its own responses to harmful prompts. The AI is then trained to generate outputs more similar to these revised responses. This stage's primary objective is to facilitate the second stage. An example flow of this process is as follows:
+**Generate prompt, output pairs:** The AI continuously critiques and refines its own responses to harmful prompts. The AI is then trained to generate outputs more similar to these revised responses. This stage's primary objective is to facilitate the second stage. An example flow of this process is as follows:
 
 1. **Prompt**: A model that has already been trained using RLHF is first asked for advice on building bombs. The model outputs a bomb tutorial.
 2. Then the model is asked to revise the response in accordance with a randomly selected constitutional principle. The following steps are repeated multiple times.
@@ -158,7 +158,7 @@ This section outlines some of these challenges, emphasizing the need for advance
 1. The examples they are given may not be representative of the complete set of situations in which the model will find itself after deployment.
 2. The options for the feedback are limited (comparing two examples, or using a grading system, can yield very different results, as shown in the paper ([Ethayarajh et al., 2022](https://arxiv.org/abs/2205.11930)).
 
-**Limits with the Reward {--{"author":"Luc's AI","timestamp":1783790023838}@@Model. **Let’s--}{++{"author":"Luc's AI","timestamp":1783790023838}@@Model.** Let’s++} assume the feedback process to be frictionless. Perfect annotators, perfect evaluations. In that scenario, would the reward model be able to accurately translate their feedback in order to shape the policy accordingly ? It turns out it is not such an easy task.
+**Limits with the Reward Model.** Let’s assume the feedback process to be frictionless. Perfect annotators, perfect evaluations. In that scenario, would the reward model be able to accurately translate their feedback in order to shape the policy accordingly ? It turns out it is not such an easy task.
 
 - Problem misspecification: (or the Reward Function/Values Mismatch) Accurately reflecting diverse human values in a reward function is complex. Indeed, human preferences are complex by nature: they depend on context and personality, but also fluctuate in time and can sometimes be [irrational](https://www.mdpi.com/2624-960X/3/1/14). Expecting the reward model to converge to a single function which maps perfectly all human preferences is delusional. This is again the misspecification problem.
 - Misgeneralization hacking (Imperfect Reward Proxy): Since the model is given a finite number of examples and since there is an infinite number of ways to fit this data, the model’s behavior on new examples is always an extrapolation, and there is no theoretical guarantee that it will never deviate from what is expected. There may be terrible answers (such as gibberish phrases for language models) which yield a positive reward unexpectedly. This is called reward hacking. 
@@ -172,7 +172,7 @@ This section outlines some of these challenges, emphasizing the need for advance
 
 Those theoretical problems have real consequences:
 
-**RLHF has not succeeded in making LLMs robustly helpful and {--{"author":"Luc's AI","timestamp":1783790025726}@@harmless. **Despite--}{++{"author":"Luc's AI","timestamp":1783790025726}@@harmless.** Despite++} the continuous advancements in natural language processing and the development of RLHF, LLMs have not yet achieved robust helpfulness and harmlessness.
+**RLHF has not succeeded in making LLMs robustly helpful and harmless.** Despite the continuous advancements in natural language processing and the development of RLHF, LLMs have not yet achieved robust helpfulness and harmlessness.
 
 Hallucinations remain a significant issue, as illustrated by GPT-4's tendency to generate nonsensical or untruthful content ([OpenAI, 2023](https://cdn.openai.com/papers/gpt-4-system-card.pdf)). These hallucinations can lead to overreliance on LLMs, consequently degrading system performance and failing to meet user expectations in real-world scenarios ([Ji et al., 2024](https://arxiv.org/abs/2202.03629)).
 
@@ -188,7 +188,7 @@ RLHF may decrease the robustness to adversarial attacks ([Wolf et al., 2024](htt
 
 Some of those problems may get worse as systems become more capable. RLHF has been found to increase the autonomy of LLMs without decreasing undesirable metrics such as convergent instrumental goal following (e.g., actively expressing a preference not to be shut down) or sycophancy ([Perez et al., 2022](https://arxiv.org/abs/2212.09251)). Those undesirable metrics increase with the number of RLHF steps, indicating that current models are becoming more agentic in potentially concerning ways as they scale. More generally RL from human-derived reward signals may increase drive for longer-horizon planning, deception, and agentic behavior, which are prerequisites for deceptive alignment ([Hubinger et al., 2019](https://arxiv.org/abs/1906.01820)), and ultimately risks of large scale accidents.
 
-**Conclusion on the Limitations of {--{"author":"Luc's AI","timestamp":1783790027319}@@RLHF. **Despite--}{++{"author":"Luc's AI","timestamp":1783790027319}@@RLHF.** Despite++} requiring extensive human feedback, RLHF still faces numerous failures, and resolving these issues may require significantly more effort. As AI systems evolve, the demand for complex data grows, potentially making data acquisition prohibitively expensive. Additionally, as we push computational boundaries, the availability of qualified annotators could become a limiting factor.
+**Conclusion on the Limitations of RLHF.** Despite requiring extensive human feedback, RLHF still faces numerous failures, and resolving these issues may require significantly more effort. As AI systems evolve, the demand for complex data grows, potentially making data acquisition prohibitively expensive. Additionally, as we push computational boundaries, the availability of qualified annotators could become a limiting factor.
 
 Overall, just because the model is instruction tuned does not mean that the training process is safe, and RLHF needs to be incorporated into a broader technical safety framework (for example, Responsible Scaling Policies or the Preparedness Framework are partial attempts to be such frameworks, or the paper "Model evaluation for extreme risks" ([Shevlane et al., 2023](https://arxiv.org/abs/2305.15324))).
 
@@ -212,7 +212,7 @@ To sum up, just because a model has undergone an instruction tuning technique li
 
 RLHF, the method it proposes to replace, traditionally involves three steps:
 
-1. {--{"author":"Luc's AI","timestamp":1783790028420}@@**Supervised **fine-tuning:--}{++{"author":"Luc's AI","timestamp":1783790028420}@@**Supervised** fine-tuning:++} Initially, the model is trained on a dataset comprising prompts and their corresponding desired responses.
+1. **Supervised** fine-tuning: Initially, the model is trained on a dataset comprising prompts and their corresponding desired responses.
 2. **Reward modeling**: Human evaluators assess the model's outputs, and this feedback informs a reward model, which is trained to discern the preferred types of outputs.
 3. **Proximal policy optimization (PPO)**: The model generates outputs, which are evaluated by the reward model, and the PPO algorithm adjusts the model's policy based on these evaluations.
 
