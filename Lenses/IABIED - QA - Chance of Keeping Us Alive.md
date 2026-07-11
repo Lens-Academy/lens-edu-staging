@@ -4,9 +4,9 @@ summary_for_tutor: Directly addresses whether any hope exists for AI preserving 
 title: "So there's at least a chance of AI keeping us alive?"
 tldr: "It's overwhelmingly more likely that AI kills everyone."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770967026}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 #### Text
 content::

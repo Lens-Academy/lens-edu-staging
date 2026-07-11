@@ -4,9 +4,9 @@ summary_for_tutor: Covers AI development timelines and the persistent pattern of
 title: "When is this worrisome sort of AI going to be developed?"
 tldr: "Knowing that a technology is coming doesn't grant knowledge of exactly when it's coming."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770974974}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

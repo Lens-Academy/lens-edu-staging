@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771171462}@@
+  - IABIED--}
 ---
 #### AIs could coordinate with each other without including humans.
 

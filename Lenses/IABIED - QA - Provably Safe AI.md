@@ -3,9 +3,9 @@ id: 49ba7dcf-3ccc-4b5c-9adc-4c36895df754
 title: "Are you saying we need provably safe AI?"
 tldr: "No."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770960289}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

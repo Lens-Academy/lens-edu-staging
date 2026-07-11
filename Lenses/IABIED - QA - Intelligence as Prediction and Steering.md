@@ -4,9 +4,9 @@ summary_for_tutor: "Decomposes intelligence into prediction (objective, converge
 title: More on Intelligence as Prediction and Steering
 tldr: "Same Predictions"
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770996213}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

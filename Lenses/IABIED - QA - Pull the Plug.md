@@ -4,9 +4,9 @@ summary_for_tutor: "Covers why shutting down a dangerous AI is practically impos
 title: "Can we just pull the plug?"
 tldr: "It's hard to just unplug a datacenter."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770971383}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 #### Text
 content::

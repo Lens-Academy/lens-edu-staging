@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770974756}@@
+  - IABIED--}
 ---
 Consider a young AI with the potential to become a superintelligence. Suppose that it's utterly indifferent to the preferences of humans, but that it's still young enough that humanity could shut it down.
 

@@ -2,9 +2,9 @@
 id: b49727ba-c6e8-4142-a1a8-7e8793d52465
 summary_for_tutor: "Covers Scott Alexander's parable 'The Goddess of Everything Else,' a mythological allegory about the struggle between ruthless competition (the Goddess of Cancer) and the creative, cooperative principle (the Goddess of Everything Else). Frames human civilization as the product of choosing cooperation over pure competitive advantage, and poses the question of whether humanity can extend this capacity to the challenge of AI."
 title: The Goddess Of Everything Else
-tags:
+{--{"author":"Elias's AI","timestamp":1783771003465}@@tags:
   - lens
----
+--}---
 #### Text
 content::
 We want to end this module, and this course, with a work of fiction. It is a parable written by Scott Alexander, animated by Rational Animations, and narrated by Rob Miles.

@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770958888}@@
+  - IABIED--}
 ---
 #### It isn't clear, but researchers are finding ways to overcome old LLM limitations.
 

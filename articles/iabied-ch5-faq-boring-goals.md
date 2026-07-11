@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771056442}@@
+  - IABIED--}
 ---
 
 #### AIs won't run on a human sense of novelty.

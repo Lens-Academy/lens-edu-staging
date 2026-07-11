@@ -2,8 +2,8 @@
 id: 05b9b28d-28bf-495c-9869-16badf2dbb63
 title: "1.1 The core distinction: teaching vs facilitating"
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783770947750}@@lens
+  - --}facilitator-training
 ---
 #### Text
 content:: A teacher's job is to **transfer knowledge**. The teacher is the source{++{"author":"Anshuman","timestamp":1782667590112}@@ of information++}{--{"author":"Anshuman","timestamp":1782667588471}@@. --}Success looks like: at the end of the class, students know what the teacher knew at the start.

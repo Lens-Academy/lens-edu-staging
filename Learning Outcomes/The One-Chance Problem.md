@@ -5,10 +5,10 @@ reading-from: "beginning of chapter"
 reading-to: "With ASI, there is no second time."
 authors:
   - Chris+Claude
-tags:
-  - learning-outcome{--{"author":"Elias's AI","timestamp":1783770627004}@@
-  - IABIED--}
----
+{--{"author":"Elias's AI","timestamp":1783770963736}@@tags:
+  - learning-outcome
+  - IABIED
+--}---
 
 ## Test:
 id:: 7f627b30-5641-48ef-901d-e710813fb828

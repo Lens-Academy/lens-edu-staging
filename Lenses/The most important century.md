@@ -1,8 +1,6 @@
-{++{"author":"AI","timestamp":1783453469979}@@---
+{++{"author":"Elias's AI","timestamp":1783771015628}@@---
 id: a7d29f3f-d335-4557-bca0-f6f4c02d3fc3
 title: "The most important century"
-tags:
-  - lens
 ---
 #### Text
 content::

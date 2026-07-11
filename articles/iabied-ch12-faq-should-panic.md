@@ -6,8 +6,8 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771065394}@@
+  - IABIED--}
 ---
 #### We're saying government officials should take the problem seriously.
 

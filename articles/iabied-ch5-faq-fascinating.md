@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771089325}@@
+  - IABIED--}
 ---
 
 #### If AI values "fascination," it probably has better options.

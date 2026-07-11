@@ -3,9 +3,9 @@ id: 7def2853-26e1-4568-8223-0439095711a8
 title: "What about the benefits of AI?"
 tldr: "Rushing ahead destroys those benefits."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770967056}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/13 - Chapter 12 - I Don't Want to Be Alarmist]]"
 ---

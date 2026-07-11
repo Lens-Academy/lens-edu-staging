@@ -8,10 +8,10 @@ readings:
   - "Chapter 8: Expansion"
   - "Chapter 9: Ascension"
   - "Coda"
-tags:
+{--{"author":"Elias's AI","timestamp":1783770975998}@@tags:
   - IABIED
   - module
----
+--}---
 
 # Submodule: Welcome
 ### Lens: M4 Welcome

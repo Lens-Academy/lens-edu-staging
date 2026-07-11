@@ -4,9 +4,9 @@ summary_for_tutor: Covers why an AI would not get bored with seemingly trivial g
 title: "Won't it realize that its goals are boring?"
 tldr: "AIs won't run on a human sense of novelty."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770918497}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 #### Text
 content::

@@ -3,8 +3,8 @@ id: 3eb56340-b349-4f09-aef8-1395558c353f
 slug: intelligence-feedback-loop
 title: Intelligence Feedback Loop
 tags:
-  - module
-  - validator-ignore
+  - {--{"author":"Elias's AI","timestamp":1783771182196}@@module
+  - --}validator-ignore
 ---
 ## Lens:
 source::

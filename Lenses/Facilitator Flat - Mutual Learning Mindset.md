@@ -2,8 +2,8 @@
 id: 61064e53-af1a-439c-abf1-842a55517d86
 title: "1.2 The mutual learning mindset"
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783771022028}@@lens
+  - --}facilitator-training
 ---
 #### Text
 content:: Facilitators work from a mental posture called the Mutual Learning Mindset, developed by organisational researcher Roger Schwarz and brought into facilitation training through the Curiosity Society's Facilitator's Handbook.  

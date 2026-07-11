@@ -5,10 +5,10 @@ reading-from: "beginning of chapter"
 reading-to: "And civilization lived."
 authors:
   - Chris+Claude
-tags:
-  - learning-outcome{--{"author":"Elias's AI","timestamp":1783770660872}@@
-  - IABIED--}
----
+{--{"author":"Elias's AI","timestamp":1783770985410}@@tags:
+  - learning-outcome
+  - IABIED
+--}---
 
 ## Test:
 id:: 4a9b2c83-5d0e-4f31-c6b7-d8e9f0123456

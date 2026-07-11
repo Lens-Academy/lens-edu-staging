@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771153413}@@
+  - IABIED--}
 ---
 
 #### There are many negligible expenses, and it would need a reason to pay ours.

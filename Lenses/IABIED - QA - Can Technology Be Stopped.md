@@ -3,9 +3,9 @@ id: f59dbfb6-ef70-4629-b18e-9a641efab8df
 title: "Can a technology really be stopped?"
 tldr: "Many technologies are banned or heavily regulated."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770947382}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

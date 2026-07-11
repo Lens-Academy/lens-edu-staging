@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771164483}@@
+  - IABIED--}
 ---
 
 #### We're optimistic about many things, but superintelligence isn't like most things.

@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771004210}@@
+  - IABIED--}
 ---
 We've sometimes heard it suggested that some future AI behavior or misuse — an AI "warning shot" — will suddenly shock the world into taking these issues seriously.
 

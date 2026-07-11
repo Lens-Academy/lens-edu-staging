@@ -3,9 +3,9 @@ id: abbd74df-b0e2-42ab-97d2-d8039b96b68d
 title: "Isn't it smarter to rush ahead and make sure good guys have the lead?"
 tldr: "No."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783771005559}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

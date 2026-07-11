@@ -4,9 +4,9 @@ summary_for_tutor: Argues that intelligence is probably understandable in princi
 title: "Is intelligence understandable in principle?"
 tldr: "Probably."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770982200}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

@@ -4,9 +4,9 @@ summary_for_tutor: "Covers why the timeline question for solving ASI alignment m
 title: "How long would it take to solve the ASI alignment problem?"
 tldr: "The difficulty isn't just the lack of time; it's the lethality of mistakes."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770916754}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 #### Text
 content::

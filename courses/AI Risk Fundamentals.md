@@ -4,9 +4,9 @@ slug: ai-risk-fundamentals
 slug-aliases: superintelligence-101
 title: AI Risk Fundamentals
 description: "This is an introductory AI safety course that assumes no prior knowledge of AI safety, or even computer science. We hope this course can serve as deep foundation for expanding knowledge into the student's areas of interest: technical AI safety, governance, or direct advocacy. In particular, it provides the base-level intuitions that motivate our main AI safety course, which is more ambitious in technical terms (for example, by asking the students to assess the various existing AI safety techniques)."
-tags:
+{--{"author":"Elias's AI","timestamp":1783771229334}@@tags:
   - IABIED
-discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
+--}discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 ---
 
 # Module: [[../modules/IABIED M1 Intro and Nonhuman Minds, Part 1]]

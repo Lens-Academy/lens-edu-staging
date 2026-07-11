@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770983981}@@
+  - IABIED--}
 ---
 #### Perhaps by learning general skills and implementing them better.
 

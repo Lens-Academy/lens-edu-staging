@@ -2,9 +2,9 @@
 id: b8d2f4e5-6a39-4ca2-9f7b-3e0a1d8c4b26
 title: "\"Intelligent\" (Usually) Implies \"Incorrigible\""
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783771009586}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 #### Text
 content::

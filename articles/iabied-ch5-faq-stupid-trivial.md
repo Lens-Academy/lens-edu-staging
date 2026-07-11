@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771180970}@@
+  - IABIED--}
 ---
 #### AIs can intelligently pursue different things than a human would.
 

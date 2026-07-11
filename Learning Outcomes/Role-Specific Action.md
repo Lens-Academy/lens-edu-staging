@@ -5,10 +5,10 @@ reading-from: "So—how do we un-write our fate?"
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-tags:
-  - learning-outcome{--{"author":"Elias's AI","timestamp":1783770618472}@@
-  - IABIED--}
----
+{--{"author":"Elias's AI","timestamp":1783770960321}@@tags:
+  - learning-outcome
+  - IABIED
+--}---
 
 ## Test:
 id:: 6c1d4ea5-7f20-5153-e8d9-f0a1b2345678

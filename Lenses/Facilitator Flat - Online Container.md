@@ -6,8 +6,8 @@ tldr: "Online is its own medium, not a worse version of in-person. Good online f
 authors:
   - Yatharth+Claude
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783771030100}@@lens
+  - --}facilitator-training
 ---
 #### Text
 content::

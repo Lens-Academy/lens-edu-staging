@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771087476}@@
+  - IABIED--}
 ---
 
 #### The human preference for ecological preservation looks like another weird contingent drive.

@@ -3,8 +3,8 @@ id: 05c9c008-a76c-4a3e-8a6b-b304a13273b1
 slug: lalala
 title: Module based on learning objectives
 tags:
-  - module
-  - work-in-progress
+  - {--{"author":"Elias's AI","timestamp":1783771227571}@@module
+  - --}work-in-progress
   - validator-ignore
 ---
 

@@ -2,9 +2,9 @@
 id: 6f5ddfc2-1f05-4bbe-8cb5-7abb7df67cfc
 title: "We Know What It Looks Like When a Problem Is Being Treated with Respect, And This Isn't It"
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770950302}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 #### Text
 content::

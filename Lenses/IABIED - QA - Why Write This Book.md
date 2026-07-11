@@ -4,9 +4,9 @@ summary_for_tutor: "Covers the authors' motivation for writing about superhuman 
 title: "Why write a book about superhuman AI as an extinction threat?"
 tldr: "Because the situation seems genuinely serious and urgent."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770981677}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

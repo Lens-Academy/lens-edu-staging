@@ -2,9 +2,9 @@
 id: dc463cfa-3cf7-49d8-ae32-8935dfd4cf28
 title: "Can developers just keep the AI in a box?"
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770952192}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

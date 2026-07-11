@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770977842}@@
+  - IABIED--}
 ---
 #### To predict the next token well, LLMs need to learn how the world works.
 

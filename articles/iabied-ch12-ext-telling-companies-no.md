@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771009534}@@
+  - IABIED--}
 ---
 We *do* somewhat caution people with influence in governments from making a plan that involves sitting down and negotiating with AI companies.
 

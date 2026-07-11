@@ -4,8 +4,8 @@ title: "Optional — How to Get Feedback (Scott Young, 5 min)"
 authors:
   - Yatharth+Claude
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783771001808}@@lens
+  - --}facilitator-training
 ---
 #### Text
 content::

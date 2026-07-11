@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770960337}@@
+  - IABIED--}
 ---
 
 We noted the [example](/5/taking-the-ais-perspective) of Jürgen Schmidhuber, a pioneering AI researcher who believed that an AI with preferences for *making things as simple as possible* would end up loving humans, because humans are such good simplifiers.

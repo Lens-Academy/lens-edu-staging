@@ -4,8 +4,8 @@ title: "Optional — The Steps of Facilitation (Jason & Sara, 12 min)"
 authors:
   - Yatharth+Claude
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783770981683}@@lens
+  - --}facilitator-training
 ---
 #### Video
 source:: [[../video_transcripts/lens-academy-the-steps-of-facilitation]]

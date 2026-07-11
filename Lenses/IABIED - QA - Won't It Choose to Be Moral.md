@@ -2,9 +2,9 @@
 id: a0ed5a9a-9436-4617-a487-d40c96bf9b4b
 title: "Won't it choose to be moral?"
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770996223}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

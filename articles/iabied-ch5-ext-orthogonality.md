@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770963644}@@
+  - IABIED--}
 ---
 
 #### A Dialogue on Correct Nests, Continued

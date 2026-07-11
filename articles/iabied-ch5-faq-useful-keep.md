@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783771183644}@@
+  - IABIED--}
 ---
 #### Happy, healthy, free people aren't the most efficient solution to almost any problem.
 

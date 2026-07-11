@@ -3,9 +3,9 @@ id: 480dd23f-538a-4a27-a19b-946caf38f92e
 title: "Intelligence Isn't Ineffable"
 tldr: "Claims of Ineffability Have an Extremely Poor Track Record in the Sciences"
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770974973}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 #### Text
 content::
