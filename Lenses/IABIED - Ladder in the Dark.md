@@ -5,10 +5,7 @@ title: "Ladder in the Dark"
 tldr: "Every AI company is climbing a ladder in the dark. Nobody knows which rung is the last safe one. The chapter argues that not knowing doesn't help. It explains why."
 authors:
   - Chris+Claude
-{--{"author":"Elias's AI","timestamp":1783770885044}@@tags:
-  - lens
-  - IABIED
---}---
+---
 
 #### Text
 content::
