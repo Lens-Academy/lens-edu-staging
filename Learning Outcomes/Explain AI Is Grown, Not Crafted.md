@@ -5,9 +5,7 @@ reading-from: "Scene: A man and a woman are sitting in a restaurant in daytime."
 reading-to: "Machine minds are subjected to different constraints, and grown under different pressures, than those that shape biological organisms; and although they're trained to predict human writing, the thinking inside an AI runs on a radically different architecture from a human's."
 authors:
   - Chris+Claude
-{--{"author":"Luc's AI","timestamp":1783764664752}@@add_to_ai_context:
-  - "[[../../Lens Edu Private/IABIED Book Content/02 - Chapter 2 - Grown, Not Crafted]]"
---}tags:
+tags:
   - learning-outcome
   - IABIED
 ---

@@ -3,9 +3,7 @@ id: ed5fab41-b9a2-466f-89bd-825af3944c1c
 learning-outcome: "Distinguish 'hard calls' from 'easy calls' as the authors define them, and explain why they classify the danger from ASI as an easy call despite its apparent implausibility."
 reading-from: "\"MITIGATING THE RISK OF EXTINCTION FROM AI SHOULD BE A global priority alongside other societal-scale risks such as pandemics and nuclear war.\""
 reading-to: "Where there's life, there's hope."
-{--{"author":"Luc's AI","timestamp":1783764662759}@@add_to_ai_context:
-  - "[[../../Lens Edu Private/IABIED Book Content/00 - Introduction - Hard Calls and Easy Calls]]"
---}tags:
+tags:
   - learning-outcome
   - IABIED
 authors:
