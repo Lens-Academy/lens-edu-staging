@@ -2,7 +2,7 @@
 title: "Realism about rationality"
 source_url: "https://www.alignmentforum.org/posts/suxvE2ddnYMPJN9HD/realism-about-rationality"
 author:
-  - {--{"author":"Elias's AI","timestamp":1783779083118}@@"Richard_Ngo"--}{++{"author":"Elias's AI","timestamp":1783779083118}@@"Richard Ngo"++}
+  - "Richard Ngo"
 published: 2018-09-16
 created: 2026-02-27
 description: "There’s a mindset which is common in the rationalist community, which I call “realism about rationality” (the name being intended as a parallel to mo…"

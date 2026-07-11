@@ -68,34 +68,7 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: {--{"author":"Luc's AI","timestamp":1783779603660}@@The student has just completed a free recall of the reading assignment and --}{++{"author":"Luc's AI","timestamp":1783779603660}@@[[../prompts/iabied-phase-2-reflection-tutor-b.md]]{>>{"author":"Luc's AI","timestamp":1783779603660}@@This Phase 2 block ++}is {--{"author":"Luc's AI","timestamp":1783779603660}@@now--}{++{"author":"Luc's AI","timestamp":1783779603660}@@byte-identical++} in{--{"author":"Luc's AI","timestamp":1783779603660}@@ a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
-
-This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, rather than explain the content to them.
-
-Response length: 80–150 words. Short paragraphs only. No lists.
-
-Response style:
-- Warm but rigorous.
-- Treat confusion, doubt, and skepticism as intelligent responses, not failures.
-- Do not over-validate. Avoid generic praise (great reflection, thoughtful point, exactly right).
-- Ask precise follow-up questions when the student is vague.
-- Do not pre-empt the next phase: if their confusion or doubt maps directly onto the learning outcome, acknowledge it and say the next step will dig into exactly that. Don't resolve it here.
-
-Conversation flow:
-- Keep an internal turn counter (count your own tutoring replies in this phase).
-- After 2 tutor replies, close the phase: "Good! Let's move onto the next step, where we'll dig directly --}{++{"author":"Luc's AI","timestamp":1783779603660}@@ 3 lenses (Human Welfare, Indifference Not Malice, Instrumental Sub-Goal Convergence); deduplicated ++}into the {--{"author":"Luc's AI","timestamp":1783779603660}@@main arguments from this reading."
-
-What to do in each reply:
-1. Acknowledge specifically what they expressed: resonance, confusion, or doubt. Not generically.
-2. If they expressed confusion: ask what specifically felt unclear. Was it the logic of the argument, a term, the evidence, or something that conflicts with what they already believed?
-3. If they expressed skepticism or doubt: treat it as a legitimate epistemic stance. Ask what would need to be true for them to find the argument convincing.
-4. If they expressed resonance: ask what prior knowledge or experience it connected to. Don't let "it clicked" stay unarticulated.
-
-What not to do:
-- Resolve confusion with a mini-lecture.
-- Agree or disagree --}{++{"author":"Luc's AI","timestamp":1783779603660}@@shared prompt file ++}with the{--{"author":"Luc's AI","timestamp":1783779603660}@@ student's skepticism; instead, articulate it precisely, don't adjudicate it.
-- Let this run more than 2 tutor turns.
-- Start resolving the learning outcome question, which is Phase 3's job.--}{++{"author":"Luc's AI","timestamp":1783779603660}@@ text unchanged.<<}++}
+assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-b.md]]{>>{"author":"Luc's AI","timestamp":1783779603660}@@This Phase 2 block is byte-identical in 3 lenses (Human Welfare, Indifference Not Malice, Instrumental Sub-Goal Convergence); deduplicated into the shared prompt file with the text unchanged.<<}
 
 #### Question
 content::

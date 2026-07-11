@@ -2,7 +2,7 @@
 title: "AI Control May Increase Existential Risk"
 source_url: "https://www.alignmentforum.org/posts/rZcyemEpBHgb2hqLP/ai-control-may-increase-existential-risk"
 author:
-  - {--{"author":"Elias's AI","timestamp":1783779079903}@@"Jan_Kulveit"--}{++{"author":"Elias's AI","timestamp":1783779079903}@@"Jan Kulveit"++}
+  - "Jan Kulveit"
 published: 2025-03-11
 created: 2026-02-27
 description: "Consider two broad possibilities: • I. In worlds where we are doing reasonably well on alignment, AI control agenda does not have much impact. …"

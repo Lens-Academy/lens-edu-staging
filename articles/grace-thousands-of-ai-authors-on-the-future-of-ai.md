@@ -175,9 +175,7 @@ Figure 6: Since 2016 a majority of respondents have thought that it’s either �
 
 The other two ‘intelligence explosion’ questions were about the likelihood of a dramatically increased rate of global technological advancement 2 and 30 years post-HLMI, and AI that can outperform humans across all professions 2 and 20 years post-HLMI. Results are shown in Table [1](https://arxiv.org/html/2401.02843v3#S3.T1 "Table 1 ‣ 3.6 Will there be an intelligence explosion? ‣ 3 Results on AI Progress ‣ Thousands of AI Authors on the Future of AI").
 
-|{--{"author":"Elias's AI","timestamp":1783779566374}@@  --}{++{"author":"Elias's AI","timestamp":1783779566374}@@ Question ++}| {++{"author":"Elias's AI","timestamp":1783779566374}@@2016 ++}Median probability (N) {--{"author":"Elias's AI","timestamp":1783779566374}@@|
---}| {--{"author":"Elias's AI","timestamp":1783779566374}@@--- | --- |
-|  --}{++{"author":"Elias's AI","timestamp":1783779566374}@@2022 Median probability (N) ++}|{--{"author":"Elias's AI","timestamp":1783779566374}@@ 2016 | 2022 | 2023--}{++{"author":"Elias's AI","timestamp":1783779566374}@@ 2023 Median probability (N)++} |
+| Question | 2016 Median probability (N) | 2022 Median probability (N) | 2023 Median probability (N) |
 | --- | --- | --- | --- |
 | Explosive progress 2 years after HLMI | 20% (225) | 20% (339) | 20% (298) |
 | Explosive progress 30 years after HLMI | 80% (225) | 80% (339) | 80% (297) |
@@ -276,9 +274,9 @@ Figure 12: Mean and median predictions to three questions on human extinction. E
 
 |  | Statistics | 2022 Result | 2023 Result |
 | --- | --- | --- | --- |
-| What probability do you put on {--{"author":"Elias's AI","timestamp":1783779662121}@@future--}{++{"author":"Elias's AI","timestamp":1783779662121}@@**future++} AI {--{"author":"Elias's AI","timestamp":1783779662121}@@advances--}{++{"author":"Elias's AI","timestamp":1783779662121}@@advances**++} causing human extinction or similarly permanent and severe disempowerment of the human species? | N; Mean (SD); Median (IQR) | 149; 15.7% (22.1%); 5% (19%) | 1321; 16.2% (23%); 5% (19%) |
-| What probability do you put on {--{"author":"Elias's AI","timestamp":1783779670806}@@human--}{++{"author":"Elias's AI","timestamp":1783779670806}@@**human++} inability to control future advanced AI {--{"author":"Elias's AI","timestamp":1783779670806}@@systems--}{++{"author":"Elias's AI","timestamp":1783779670806}@@systems**++} causing human extinction or similarly permanent and severe disempowerment of the human species? | N; Mean (SD); Median (IQR) | 162; 20.5% (26.2%); 10% (29%) | 661; 19.4% (26%); 10% (29%) |
-| What probability do you put on {--{"author":"Elias's AI","timestamp":1783779683170}@@future--}{++{"author":"Elias's AI","timestamp":1783779683170}@@**future++} AI {--{"author":"Elias's AI","timestamp":1783779683170}@@advances--}{++{"author":"Elias's AI","timestamp":1783779683170}@@advances**++} causing human extinction or similarly permanent and severe disempowerment of the human species {--{"author":"Elias's AI","timestamp":1783779683170}@@within--}{++{"author":"Elias's AI","timestamp":1783779683170}@@**within++} the next 100 {--{"author":"Elias's AI","timestamp":1783779683170}@@years?[^4]--}{++{"author":"Elias's AI","timestamp":1783779683170}@@years**?[^4]++} | N; Mean (SD); Median (IQR) | Not asked | 655; 14.4% (22.2%); 5% (19.9%) |
+| What probability do you put on **future AI advances** causing human extinction or similarly permanent and severe disempowerment of the human species? | N; Mean (SD); Median (IQR) | 149; 15.7% (22.1%); 5% (19%) | 1321; 16.2% (23%); 5% (19%) |
+| What probability do you put on **human inability to control future advanced AI systems** causing human extinction or similarly permanent and severe disempowerment of the human species? | N; Mean (SD); Median (IQR) | 162; 20.5% (26.2%); 10% (29%) | 661; 19.4% (26%); 10% (29%) |
+| What probability do you put on **future AI advances** causing human extinction or similarly permanent and severe disempowerment of the human species **within the next 100 years**?[^4] | N; Mean (SD); Median (IQR) | Not asked | 655; 14.4% (22.2%); 5% (19.9%) |
 
 Table 2: Respondents’ estimates in 2022 and 2023 for the probability that AI causes human extinction. For each of the two questions that were asked in both years, the results are very similar.
 
