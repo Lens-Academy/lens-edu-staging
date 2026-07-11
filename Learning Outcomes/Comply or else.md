@@ -7,9 +7,7 @@ tags:
 ---
 ## Test:
 
-{++{"author":"Luc's AI","timestamp":1783722826581}@@
+
 # Suggested Lenses:
-++}## Lens:{--{"author":"Luc's AI","timestamp":1783722826581}@@
-optional:: false--}
-source:: [[../Lenses/Credible Threats|Credible Threats]]{++{"author":"Luc's AI","timestamp":1783722826581}@@
-++}
+## Lens:
+source:: [[../Lenses/Credible Threats|Credible Threats]]

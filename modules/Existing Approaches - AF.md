@@ -16,7 +16,7 @@ This module focuses on one such agenda: Agent Foundations. Agent Foundations tre
 
 This module is a direct preparation for the Agent Foundations program that follows this course.
 
-# {++{"author":"Luc's AI","timestamp":1783723369664}@@Lens:
+# Lens:
 source:: [[../Lenses/Agent Foundations]]
 
 # Lens:
@@ -29,5 +29,5 @@ source:: [[../Lenses/Embedded agents]]
 # Lens:
 source:: [[../Lenses/Realism about rationality]]
 
-# ++}Learning Outcome:
+# Learning Outcome:
 source:: [[../Learning Outcomes/Agent Foundations agenda]]

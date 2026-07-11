@@ -94,13 +94,13 @@ id:: <generate another UUID>
 content:: <the test question the student must be able to answer>
 assessment-instructions:: <how the AI scores the answer — a 1–5 rubric with an example answer per level works best>
 
-{++{"author":"Luc's AI","timestamp":1783723659200}@@# Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783723659200}@@![[../Lenses/Your--}{++{"author":"Luc's AI","timestamp":1783723659200}@@[[../Lenses/Your++} Lens Name]]{++{"author":"Luc's AI","timestamp":1783723659200}@@
-notes:: <optional: why this lens fits this outcome>++}
+# Suggested Lenses:
+## Lens:
+source:: [[../Lenses/Your Lens Name]]
+notes:: <optional: why this lens fits this outcome>
 
 ## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783723659200}@@![[../Lenses/Another--}{++{"author":"Luc's AI","timestamp":1783723659200}@@[[../Lenses/Another++} Lens Name]]
+source:: [[../Lenses/Another Lens Name]]
 ```
 
 **The header section** (between the `---` marks):
@@ -110,7 +110,7 @@ source:: {--{"author":"Luc's AI","timestamp":1783723659200}@@![[../Lenses/Anothe
 
 **Test section**: How we verify the student achieved the outcome — a `#### Question` the AI tutor poses and scores against your `assessment-instructions::`. Writing the rubric first defines the outcome sharply enough to design the lenses.
 
-{--{"author":"Luc's AI","timestamp":1783723667575}@@**Lens references**: Link to the--}{++{"author":"Luc's AI","timestamp":1783723667575}@@**Suggested Lenses**:++} Lenses that {++{"author":"Luc's AI","timestamp":1783723667575}@@can ++}teach this {--{"author":"Luc's AI","timestamp":1783723667575}@@outcome--}{++{"author":"Luc's AI","timestamp":1783723667575}@@outcome, listed under a `# Suggested Lenses:` header++} using `source:: {--{"author":"Luc's AI","timestamp":1783723667575}@@![[path/to/lens]]`--}{++{"author":"Luc's AI","timestamp":1783723667575}@@[[path/to/lens]]`. These are suggestions for course creators only — they are NOT imported automatically. Whichever lenses a module wants to use must be imported explicitly in the module file, before the Learning Outcome. Use `notes::` to record why a lens fits.++}
+**Suggested Lenses**: Lenses that can teach this outcome, listed under a `# Suggested Lenses:` header using `source:: [[path/to/lens]]`. These are suggestions for course creators only — they are NOT imported automatically. Whichever lenses a module wants to use must be imported explicitly in the module file, before the Learning Outcome. Use `notes::` to record why a lens fits.
 
 ### Template
 
@@ -220,16 +220,16 @@ id:: <generate another UUID for this lens>
 #### Text
 content:: `<overview text introducing this module>`
 
-# {++{"author":"Luc's AI","timestamp":1783723695661}@@Lens:
+# Lens:
 source:: ![[../Lenses/Lens Teaching the First Outcome]]
 
-# ++}Learning Outcome:
+# Learning Outcome:
 source:: ![[../Learning Outcomes/First Outcome]]
 
-# {++{"author":"Luc's AI","timestamp":1783723695661}@@Lens:
+# Lens:
 source:: ![[../Lenses/Lens Teaching the Second Outcome]]
 
-# ++}Learning Outcome:
+# Learning Outcome:
 source:: ![[../Learning Outcomes/Second Outcome]]
 {>>A place where we can store lenses that are not yet attached to a learning outcome<<}
 
@@ -248,7 +248,7 @@ source:: ![[../Lenses/Optional Extra Lens]]
 - `id::` for the lens itself
 - `#### Text` / `#### Chat` segments with content
 
-**Learning Outcome references**: Link to each outcome using `source:: {--{"author":"Luc's AI","timestamp":1783723704423}@@![[path]]`--}{++{"author":"Luc's AI","timestamp":1783723704423}@@![[path]]`. Importing an outcome brings in its Test only. The lenses that teach the outcome must be imported explicitly (see below) — place them before the Learning Outcome so students see the material before the test. The outcome's `# Suggested Lenses:` list is a good starting point for which lenses to import.++}
+**Learning Outcome references**: Link to each outcome using `source:: ![[path]]`. Importing an outcome brings in its Test only. The lenses that teach the outcome must be imported explicitly (see below) — place them before the Learning Outcome so students see the material before the test. The outcome's `# Suggested Lenses:` list is a good starting point for which lenses to import.
 
 **Referenced Lens sections**: Lenses imported from separate files
 - `source::` links to the lens file

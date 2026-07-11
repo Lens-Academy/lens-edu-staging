@@ -4,13 +4,7 @@ learning-outcome: Assess whole-brain emulation and cognitive enhancement as rout
 tags:
   - learning outcome
 ---
-{--{"author":"Luc's AI","timestamp":1783722745956}@@## Lens:
-source:: [[../Lenses/Whole-brain emulation]]
-## Lens:
-source:: [[../Lenses/How far off is whole-brain emulation]]
-## Lens:
-source:: [[../Lenses/Cognitive enhancement]]
---}## Test:
+## Test:
 id:: 44306814-0216-4772-a0dd-276370e0ccd7
 #### Question
 feedback:: true
@@ -21,7 +15,7 @@ max-chars:: 700
 feedback:: true
 content:: Cognitive enhancement (e.g. embryo selection) tries to make humans smarter rather than merging or uploading. What is its main advantage over "merge," and its two biggest problems?
 assessment-instructions:: Advantage: enhancement dodges the merge-circularity objection — raising human capability directly does not require fusing with an unaligned AI. Two biggest problems: (1) timelines — enhanced humans (especially via germline/embryo selection) take a generation to arrive and may be far too slow to matter for near-term AGI; (2) inequality / lock-in — cognitive enhancement could become a privilege of the powerful, cutting against safe, multipolar outcomes. Award 4-5 for the advantage plus both problems; 3 for the advantage and one problem; 1-2 if it misses the circularity point or gives no real problems. Accept paraphrase.
-max-chars:: 600{++{"author":"Luc's AI","timestamp":1783722751867}@@
+max-chars:: 600
 
 # Suggested Lenses:
 ## Lens:
@@ -31,4 +25,4 @@ source:: [[../Lenses/Whole-brain emulation]]
 source:: [[../Lenses/How far off is whole-brain emulation]]
 
 ## Lens:
-source:: [[../Lenses/Cognitive enhancement]]++}
+source:: [[../Lenses/Cognitive enhancement]]
