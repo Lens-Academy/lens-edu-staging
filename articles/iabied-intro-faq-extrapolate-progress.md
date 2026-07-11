@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771275508}@@
-  - IABIED--}
+  - clippings
 ---
 
 #### We don't have a good enough understanding of intelligence for that.

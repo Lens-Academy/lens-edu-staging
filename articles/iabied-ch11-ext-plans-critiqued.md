@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770747493}@@
-  - IABIED--}
+  - clippings
 ---
 #### More on Making AI That Is "Truth-Seeking"
 

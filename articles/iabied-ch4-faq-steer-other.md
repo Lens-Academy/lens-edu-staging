@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770779075}@@
-  - IABIED--}
+  - clippings
 ---
 
 #### Because there are many ways to perform well in training.

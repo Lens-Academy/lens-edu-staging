@@ -8,10 +8,7 @@ readings:
   - "Chapter 11: An Alchemy, Not a Science"
 authors:
   - Yatharth+Claude
-{--{"author":"Elias's AI","timestamp":1783770979251}@@tags:
-  - IABIED
-  - module
---}---
+---
 
 # Submodule: Welcome
 # Lens: M5 Welcome

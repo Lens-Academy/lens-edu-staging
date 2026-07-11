@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770729893}@@
-  - IABIED--}
+  - clippings
 ---
 
 #### With more technology, we'd likely make even fewer copies of our genes.

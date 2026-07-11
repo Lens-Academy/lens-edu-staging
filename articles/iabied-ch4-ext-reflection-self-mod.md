@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770654644}@@
-  - IABIED--}
+  - clippings
 ---
 #### By Default, AIs Don't Self-Modify the Way We'd Want
 

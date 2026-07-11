@@ -6,8 +6,7 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771145517}@@
-  - IABIED--}
+  - clippings
 ---
 Many people, including members of the U.S. House of Representatives and the Senate, have asked us what concrete and specific legislative proposals would actually help with this problem.
 

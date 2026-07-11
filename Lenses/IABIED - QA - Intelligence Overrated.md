@@ -4,9 +4,7 @@ summary_for_tutor: "Reframes 'intelligence' beyond narrow academic ability to me
 title: "Isn't intelligence overrated?"
 tldr: "Only if you're using an overly narrow definition of 'intelligence.'"
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770978152}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

@@ -1,7 +1,7 @@
 ---
 id: c204e397-0350-4ef7-9242-df70d206da0c
 title: "Does AI Progress Have a Speed Limit?"
-tldr: Ajeya Cotra and Arvind Narayanan disagree carefully about almost everything this week covered: how fast AI improves, what the trends mean, and where the real bottlenecks are.
+tldr: {--{"author":"Elias's AI","timestamp":1783776872020}@@Ajeya--}{++{"author":"Elias's AI","timestamp":1783776872020}@@"Ajeya++} Cotra and Arvind Narayanan disagree carefully about almost everything this week covered: how fast AI improves, what the trends mean, and where the real bottlenecks {--{"author":"Elias's AI","timestamp":1783776872020}@@are.--}{++{"author":"Elias's AI","timestamp":1783776872020}@@are."++}
 summary_for_tutor: "Covers a recorded CITP conversation between Ajeya Cotra and Arvind Narayanan on whether AI progress has a speed limit: timelines, takeoff speeds, benchmarks versus real-world capability, and the points where the two carefully disagree. An external-link lens (video conversation, no imported article). An optional Week 1 reading."
 ---
 

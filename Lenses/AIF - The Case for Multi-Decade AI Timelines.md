@@ -1,7 +1,7 @@
 ---
 id: 66668d7c-d838-4043-9b68-73b3d6f18a56
 title: "The Case for Multi-Decade AI Timelines"
-tldr: Epoch's Ege Erdil argues transformative AI is likely decades off, not years. His median: ~20 years to full remote-work automation, from trend extrapolation and doubts about a software-only singularity.
+tldr: {--{"author":"Elias's AI","timestamp":1783776874832}@@Epoch's--}{++{"author":"Elias's AI","timestamp":1783776874832}@@"Epoch's++} Ege Erdil argues transformative AI is likely decades off, not years. His median: ~20 years to full remote-work automation, from trend extrapolation and doubts about a software-only {--{"author":"Elias's AI","timestamp":1783776874832}@@singularity.--}{++{"author":"Elias's AI","timestamp":1783776874832}@@singularity."++}
 summary_for_tutor: "Covers Ege Erdil's argument for multi-decade AI timelines: a ~20 year median to full automation of remote work, based on revenue trend extrapolation (NVIDIA), skepticism that trends will accelerate, doubt about a software-only singularity due to experimental compute and real-world data bottlenecks, and Moravec's paradox implying agentic tasks stay slow and expensive. An optional Week 1 reading."
 ---
 

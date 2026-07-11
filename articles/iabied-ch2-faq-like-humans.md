@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770954477}@@
-  - IABIED--}
+  - clippings
 ---
 #### There's a difference between the machinery it takes to be one person and the machinery it takes to predict many individuals.
 

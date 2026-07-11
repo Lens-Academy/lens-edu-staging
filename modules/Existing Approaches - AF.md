@@ -2,9 +2,7 @@
 id: 67040104-ab3c-4b36-be03-cdecd33ff1c0
 slug: existing-approaches-af
 title: "Existing Approaches: Agent Foundations"
-{--{"author":"Elias's AI","timestamp":1783770623848}@@tags:
-  - module
---}---
+---
 
 # Lens: Welcome
 id:: c24350d1-737f-4e7b-93fb-2ca85cbe0295

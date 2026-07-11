@@ -6,8 +6,7 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770947379}@@
-  - IABIED--}
+  - clippings
 ---
 
 A joke dating back to at least 1834, but apparently well-worn even then, was recounted as follows in one diary: "Here is some logic I heard the other day: I'm glad I don't care for spinach, for if I liked it I should eat it, and I cannot bear spinach."

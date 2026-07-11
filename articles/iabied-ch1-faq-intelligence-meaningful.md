@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770651421}@@
-  - IABIED--}
+  - clippings
 ---
 #### Yes. There's a real phenomenon to describe, even if it's difficult to pin down.
 

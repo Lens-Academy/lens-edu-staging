@@ -2,7 +2,7 @@
 title: "When you get a visit from your past self"
 channel: "Zach Star Himself"
 url: "https://www.youtube.com/watch?v=yA6qDCLbNuw"
-video_id: "yA6qDCLbNuw"
+{--{"author":"Elias's AI","timestamp":1783776987431}@@video_id:--}{++{"author":"Elias's AI","timestamp":1783776987431}@@video-id:++} "yA6qDCLbNuw"
 ---
 
 This video is sponsored by Raycon.

@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771157296}@@
-  - IABIED--}
+  - clippings
 ---
 
 #### We do! We have broad cosmopolitan values. We don't think AIs will fulfill them, and we consider this a great tragedy.

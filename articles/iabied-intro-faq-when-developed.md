@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771284836}@@
-  - IABIED--}
+  - clippings
 ---
 
 #### Knowing that a technology is coming doesn't grant knowledge of exactly when it's coming.

@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770657851}@@
-  - IABIED--}
+  - clippings
 ---
 #### Only if you're using an overly narrow definition of "intelligence."
 
