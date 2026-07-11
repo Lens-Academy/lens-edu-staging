@@ -253,7 +253,7 @@ In my next essay, I’ll look at these objections – both the more fundamental 
 [^13]:
 	 I think I first heard this framing from Carl Shulman.
 [^14]:
-	 See e.g. [here](https://situational-awareness.ai/from-agi-to-superintelligence/) and [here](https://www.openphilanthropy.org/research/what-a-compute-centric-framework-says-about-takeoff-speeds/) for more discussion. Note that the intelligence explosion need not involve AI systems literally improving *themselves* – i.e., recursive {--{"author":"Luc's AI","timestamp":1783790099551}@@*self-*improvement--}{++{"author":"Luc's AI","timestamp":1783790099551}@@*self*-improvement++}. Nor need it involve the automation of ~all tasks in the economy.
+	 See e.g. [here](https://situational-awareness.ai/from-agi-to-superintelligence/) and [here](https://www.openphilanthropy.org/research/what-a-compute-centric-framework-says-about-takeoff-speeds/) for more discussion. Note that the intelligence explosion need not involve AI systems literally improving *themselves* – i.e., recursive *self*-improvement. Nor need it involve the automation of ~all tasks in the economy.
 [^15]:
 	Though: note that not all scary AI scenarios involve this feedback loop. For example: the creation of the AI systems that disempower humans might be driven centrally by human labor.
 [^16]:

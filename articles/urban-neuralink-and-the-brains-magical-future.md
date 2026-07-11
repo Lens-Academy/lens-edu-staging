@@ -12,7 +12,7 @@ tags:
 ---
 
 _**Note:** If you want to print this post or read it offline, the PDF is probably the way to go. You can [buy it here](https://gum.co/neuralink).  
-{--{"author":"Luc's AI","timestamp":1783790125490}@@__And--}{++{"author":"Luc's AI","timestamp":1783790125490}@@And++} [here’s a G-rated version of the post](https://waitbutwhy.com/neuralink-cleanversion), appropriate for all ages._
+And [here’s a G-rated version of the post](https://waitbutwhy.com/neuralink-cleanversion), appropriate for all ages._
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
