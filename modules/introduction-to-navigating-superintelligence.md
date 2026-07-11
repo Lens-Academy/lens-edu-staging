@@ -3,8 +3,12 @@ id: 69615c7b-49e1-431b-8748-3f6de6fef21e
 slug: introduction-to-navigating-superintelligence
 title: Introduction to Navigating Superintelligence
 discussion: https://discord.com/channels/1440725236843806762/1465349126073094469
----
-# Lens: Welcome
+---{++{"author":"Luc's AI","timestamp":1783783058874}@@
+
+# Learning Outcome:++}
+{++{"author":"Luc's AI","timestamp":1783783058874}@@source:: [[../Learning Outcomes/Objections L1 - Realize objections and rebuttals exist]]
+
+++}# Lens: Welcome
 id:: a1b2c3d4-5678-90ab-cdef-1234567890ab
 #### Text
 content::
@@ -26,10 +30,10 @@ source:: [[../Lenses/AI Chronicles - Torchbearer]]
 # Lens:
 source:: ![[../Lenses/10 reasons]]
 
-# Learning Outcome:
+# {--{"author":"Luc's AI","timestamp":1783783061549}@@Learning Outcome:
 source:: [[../Learning Outcomes/Objections L1 - Realize objections and rebuttals exist]]
 
-# Lens:
+# --}Lens:
 optional:: true
 source:: [[../Lenses/Four Background Claims]]
 
