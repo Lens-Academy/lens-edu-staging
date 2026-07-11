@@ -5,7 +5,10 @@ title: "Existing approaches"
 discussion: https://discordapp.com/channels/1440725236843806762/1470760399438614538
 ---
 
-# Submodule: Welcome
+# {++{"author":"Luc's AI","timestamp":1783782239439}@@Learning Outcome:
+source:: [[../Learning Outcomes/Arguments for and against different agendas]]
+
+# ++}Submodule: Welcome
 ## Lens: Welcome
 id:: dc56fe14-2c41-4057-b112-a84c0b2ef303
 
@@ -95,8 +98,8 @@ source:: [[../Lenses/Embedded agents]]
 ## Lens:
 source:: [[../Lenses/Realism about rationality]]
 
-# Submodule: Test Your Understanding
+{--{"author":"Luc's AI","timestamp":1783782242154}@@# Submodule: Test Your Understanding
 ## Learning Outcome:
-source:: [[../Learning Outcomes/Arguments for and against different agendas]]
+source:: [[../Learning Outcomes/Arguments for and against different agendas]]--}
 
 
