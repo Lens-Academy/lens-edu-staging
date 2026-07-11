@@ -984,11 +984,11 @@ When someone moves their arm, their motor cortex bursts into a flurry of activit
 
 Then when they link up that data to a computer screen, the person can use their mind, via “trying” to move the cursor, to really control the cursor. And this actually works. Through the work of motor-cortex-BMI pioneer company [BrainGate](https://www.braingate.org/), here’s a guy playing a video game using only his mind.
 
-{--{"author":"Elias's AI","timestamp":1783776623400}@@<iframe src="https://www.youtube.com/embed/TJJPbpHoPWo" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--}{++{"author":"Elias's AI","timestamp":1783776623400}@@{>>{"author":"Elias's AI","timestamp":1783776623400}@@removed embedded iframe: https://www.youtube.com/embed/TJJPbpHoPWo<<}++}
+{>>{"author":"Elias's AI","timestamp":1783776623400}@@removed embedded iframe: https://www.youtube.com/embed/TJJPbpHoPWo<<}
 
 And if 100 neurons can tell you where they want to move a cursor, why couldn’t they tell you when they want to pick up a mug of coffee and take a sip? That’s what this quadriplegic woman did:
 
-{--{"author":"Elias's AI","timestamp":1783776626248}@@<iframe src="https://www.youtube.com/embed/QRt8QCx3BCo?start=87&feature=oembed" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--}{++{"author":"Elias's AI","timestamp":1783776626248}@@{>>{"author":"Elias's AI","timestamp":1783776626248}@@removed embedded iframe: https://www.youtube.com/embed/QRt8QCx3BCo?start=87&feature=oembed<<}++}
+{>>{"author":"Elias's AI","timestamp":1783776626248}@@removed embedded iframe: https://www.youtube.com/embed/QRt8QCx3BCo?start=87&feature=oembed<<}
 
 Another quadriplegic woman [flew an F-35 fighter jet](https://www.washingtonpost.com/news/speaking-of-science/wp/2015/03/03/a-paralyzed-woman-flew-a-f-35-fighter-jet-in-a-simulator-using-only-her-mind/?utm_term=.d76217b806c6) in a simulation, and a monkey recently used his mind to [ride around in a wheelchair](https://medschool.duke.edu/about-us/news-and-communications/med-school-blog/monkeys-drive-wheelchairs-using-only-their-thoughts).
 
@@ -1058,7 +1058,7 @@ Still, today’s cochlear implant allows deaf people to hear _speech_ and have c
 
 Many parents of deaf babies are now having a cochlear implant put in when the baby’s about one year old. Like this baby, whose reaction to hearing for the first time is _cute_.
 
-{--{"author":"Elias's AI","timestamp":1783776628736}@@<iframe src="https://www.youtube.com/embed/HTzTt1VnHRM?feature=oembed" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--}{++{"author":"Elias's AI","timestamp":1783776628736}@@{>>{"author":"Elias's AI","timestamp":1783776628736}@@removed embedded iframe: https://www.youtube.com/embed/HTzTt1VnHRM?feature=oembed<<}++}
+{>>{"author":"Elias's AI","timestamp":1783776628736}@@removed embedded iframe: https://www.youtube.com/embed/HTzTt1VnHRM?feature=oembed<<}
 
 There’s a similar revolution underway in the world of blindness, in the form of the **retinal implant**.
 
@@ -1070,7 +1070,7 @@ A more complicated interface than the cochlear implant, the first retinal implan
 
 And it works like this:
 
-{--{"author":"Elias's AI","timestamp":1783776632010}@@<iframe src="https://www.youtube.com/embed/Bi_HpbFKnSw?start=2&feature=oembed" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--}{++{"author":"Elias's AI","timestamp":1783776632010}@@{>>{"author":"Elias's AI","timestamp":1783776632010}@@removed embedded iframe: https://www.youtube.com/embed/Bi_HpbFKnSw?start=2&feature=oembed<<}++}
+{>>{"author":"Elias's AI","timestamp":1783776632010}@@removed embedded iframe: https://www.youtube.com/embed/Bi_HpbFKnSw?start=2&feature=oembed<<}
 
 The retinal implant has 60 sensors. The retina has around a million neurons. Crude. But seeing vague edges and shapes and patterns of light and dark sure beats seeing nothing at all. What’s encouraging is that you don’t need a million sensors to gain a reasonable amount of sight—simulations suggest that 600-1,000 electrodes would be enough for reading and facial recognition.
 

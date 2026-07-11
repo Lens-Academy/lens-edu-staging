@@ -27,12 +27,12 @@ tags:
 
 > Abstract:The State of Brain Emulation Report 2025 provides a comprehensive reassessment of the field's progress since Sandberg and Bostrom's 2008 Whole Brain Emulation roadmap. The report is organized around three core capabilities required for brain emulation: recording brain function (Neural Dynamics), mapping brain structure (Connectomics), and emulation and embodiment (Computational Neuroscience). It also identifies ongoing challenges and outlines strategic priorities to help the field move forward.
 
-{--{"author":"Elias's AI","timestamp":1783776190065}@@<table><tbody><tr><td>Subjects:</td><td>Neurons --}{++{"author":"Elias's AI","timestamp":1783776190065}@@|  |  |
+|  |  |
 | --- | --- |
-| Subjects: | Neurons ++}and Cognition {--{"author":"Elias's AI","timestamp":1783776190065}@@(q-bio.NC)</td></tr><tr><td>Cite as:</td><td><a href="https://arxiv.org/abs/2510.15745">arXiv:2510.15745</a> [q-bio.NC]</td></tr><tr><td></td><td>(or <a href="https://arxiv.org/abs/2510.15745v3">arXiv:2510.15745v3</a>--}{++{"author":"Elias's AI","timestamp":1783776190065}@@(q-bio.NC) |
+| Subjects: | Neurons and Cognition (q-bio.NC) |
 | Cite as: | [arXiv:2510.15745](https://arxiv.org/abs/2510.15745) [q-bio.NC] |
-|  | (or [arXiv:2510.15745v3](https://arxiv.org/abs/2510.15745v3)++} [q-bio.NC] for this {--{"author":"Elias's AI","timestamp":1783776190065}@@version)</td></tr><tr><td></td><td><a href="https://doi.org/10.48550/arXiv.2510.15745">https://doi.org/10.48550/arXiv.2510.15745</a><p>arXiv-issued--}{++{"author":"Elias's AI","timestamp":1783776190065}@@version) |
-|  | [https://doi.org/10.48550/arXiv.2510.15745](https://doi.org/10.48550/arXiv.2510.15745) arXiv-issued++} DOI via {--{"author":"Elias's AI","timestamp":1783776190065}@@DataCite</p></td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1783776190065}@@DataCite |++}
+|  | (or [arXiv:2510.15745v3](https://arxiv.org/abs/2510.15745v3) [q-bio.NC] for this version) |
+|  | [https://doi.org/10.48550/arXiv.2510.15745](https://doi.org/10.48550/arXiv.2510.15745) arXiv-issued DOI via DataCite |
 
 ## Submission history
 
