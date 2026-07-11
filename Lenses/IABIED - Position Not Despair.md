@@ -5,10 +5,7 @@ title: "Position Not Despair"
 tldr: "Chapter 10 closes with 'NOBODY SHOULD BE ALLOWED TO TRY.' This is a logical conclusion, not fatalism, and the difference matters."
 authors:
   - Yatharth+Claude
-{--{"author":"Elias's AI","timestamp":1783770591212}@@tags:
-  - lens
-  - IABIED
---}---
+---
 #### Text
 content::
 \## Reading Assignment
