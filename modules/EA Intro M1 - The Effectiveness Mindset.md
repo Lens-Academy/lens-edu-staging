@@ -50,30 +50,39 @@ source:: {--{"author":"Luc's AI","timestamp":1783782783787}@@![[../Learning Outc
 
 # Submodule: On scout mindset and thinking clearly
 
-# Lens:
+# {++{"author":"Luc's AI","timestamp":1783782787422}@@Learning Outcome: EA Intro - Distinguish Scout Mindset from Soldier Mindset
+source:: ![[../Learning Outcomes/EA Intro - Distinguish Scout Mindset from Soldier Mindset]]
+
+# ++}Lens:
 source:: ![[../Lenses/EA Intro - Scout Mindset (Julia Galef)]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - What Cognitive Biases Feel Like From the Inside]]
 
 # Lens:
-source:: ![[../Lenses/EA Intro - Purchase Fuzzies and Utilons Separately]]
+source:: ![[../Lenses/EA Intro - Purchase Fuzzies and Utilons Separately]]{--{"author":"Luc's AI","timestamp":1783782787422}@@
 
 # Learning Outcome: EA Intro - Distinguish Scout Mindset from Soldier Mindset
-source:: ![[../Learning Outcomes/EA Intro - Distinguish Scout Mindset from Soldier Mindset]]
+source:: ![[../Learning Outcomes/EA Intro - Distinguish Scout Mindset from Soldier Mindset]]--}
 
 # Submodule: On tradeoffs
 
-# Lens:
-source:: ![[../Lenses/EA Intro - We Are in Triage Every Second of Every Day]]
+# {--{"author":"Luc's AI","timestamp":1783782789969}@@Lens:
+source:: ![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783782789969}@@Learning Outcome: EA++} Intro - {--{"author":"Luc's AI","timestamp":1783782789969}@@We Are in--}{++{"author":"Luc's AI","timestamp":1783782789969}@@Apply++} Triage {--{"author":"Luc's AI","timestamp":1783782789969}@@Every Second of Every Day]]
 
-# Learning Outcome: EA Intro - Apply Triage Thinking to Giving Decisions
-source:: ![[../Learning Outcomes/EA Intro - Apply Triage Thinking to Giving Decisions]]
+# Learning Outcome: EA --}{++{"author":"Luc's AI","timestamp":1783782789969}@@Thinking to Giving Decisions
+source:: ![[../Learning Outcomes/EA ++}Intro - Apply Triage Thinking to Giving {--{"author":"Luc's AI","timestamp":1783782789969}@@Decisions--}{++{"author":"Luc's AI","timestamp":1783782789969}@@Decisions]]
+
+# Lens:++}
+source::{--{"author":"Luc's AI","timestamp":1783782789969}@@ ![[../Learning Outcomes/EA--}{++{"author":"Luc's AI","timestamp":1783782789969}@@ ![[../Lenses/EA++} Intro - {--{"author":"Luc's AI","timestamp":1783782789969}@@Apply--}{++{"author":"Luc's AI","timestamp":1783782789969}@@We Are in++} Triage {--{"author":"Luc's AI","timestamp":1783782789969}@@Thinking to Giving Decisions]]--}{++{"author":"Luc's AI","timestamp":1783782789969}@@Every Second of Every Day]]++}
 
 # Submodule: On impact
 
-# Lens:
+# {--{"author":"Luc's AI","timestamp":1783782791936}@@Lens:
 source:: ![[../Lenses/EA Intro - 500 Million But Not a Single One More]]
 
-# Learning Outcome: EA Intro - Explain Why Some Interventions Have Outsized Impact
-source:: ![[../Learning Outcomes/EA Intro - Explain Why Some Interventions Have Outsized Impact]]
+# --}Learning Outcome: EA Intro - Explain Why Some Interventions Have Outsized Impact
+source:: ![[../Learning Outcomes/EA Intro - Explain Why Some Interventions Have Outsized Impact]]{++{"author":"Luc's AI","timestamp":1783782791936}@@
+
+# Lens:
+source:: ![[../Lenses/EA Intro - 500 Million But Not a Single One More]]++}

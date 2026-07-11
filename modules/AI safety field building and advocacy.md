@@ -2,8 +2,21 @@
 id: e96c4aba-cc23-49b9-8af9-57a4c83fade7
 slug: ai-safety-field-building-and-advocacy
 title: AI safety field building and advocacy
----
-# Lens: Welcome
+---{++{"author":"Luc's AI","timestamp":1783782956732}@@
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Explain the case for AI safety field-building]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Compare AI safety field-building strategies]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Assess AI safety advocacy and public communication]]
+
+# Learning Outcome:++}
+{++{"author":"Luc's AI","timestamp":1783782956732}@@source:: [[../Learning Outcomes/Evaluate the case against a broad AI safety movement]]
+
+++}# Lens: Welcome
 id:: 958043bc-f443-4d3a-8cb3-eeba802344e1
 #### Text
 content::
@@ -22,28 +35,28 @@ source:: [[../Lenses/The case for AI safety field-building]]
 # Lens:
 source:: [[../Lenses/What AI safety field-builders do]]
 
-# Learning Outcome:
+# {--{"author":"Luc's AI","timestamp":1783782958560}@@Learning Outcome:
 source:: [[../Learning Outcomes/Explain the case for AI safety field-building]]
 
-# Lens:
+# --}Lens:
 source:: [[../Lenses/AI safety talent needs in 2026]]
 
 # Lens:
 source:: [[../Lenses/Courses as field-building]]
 
-# Learning Outcome:
+# {--{"author":"Luc's AI","timestamp":1783782960006}@@Learning Outcome:
 source:: [[../Learning Outcomes/Compare AI safety field-building strategies]]
 
-# Lens:
+# --}Lens:
 source:: [[../Lenses/The case for public AI safety advocacy]]
 
 # Lens:
 source:: [[../Lenses/AI safety communications strategy]]
 
-# Learning Outcome:
+# {--{"author":"Luc's AI","timestamp":1783782961467}@@Learning Outcome:
 source:: [[../Learning Outcomes/Assess AI safety advocacy and public communication]]
 
-# Lens:
+# --}Lens:
 source:: [[../Lenses/Mistakes the AI safety movement has made]]
 
 # Lens:
@@ -51,7 +64,7 @@ source:: [[../Lenses/Don't build an AI safety movement]]
 
 # Lens:
 optional:: true
-source:: [[../Lenses/Mapping the AI safety movement]]
+source:: [[../Lenses/Mapping the AI safety movement]]{--{"author":"Luc's AI","timestamp":1783782962525}@@
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Evaluate the case against a broad AI safety movement]]
+source:: [[../Learning Outcomes/Evaluate the case against a broad AI safety movement]]--}

@@ -3,8 +3,15 @@ id: e566648f-4309-410e-aafb-35e0e295f16b
 slug: what-even-is-ai
 title: What even is AI?
 discussion:
----
-# Lens: Welcome
+---{++{"author":"Luc's AI","timestamp":1783783015510}@@
+
+# Learning Outcome:
+source:: ![[../Learning Outcomes/Distinguish between grown and engineered systems|Distinguish between grown and engineered systems]]
+
+# Learning Outcome:++}
+{++{"author":"Luc's AI","timestamp":1783783015510}@@source:: ![[../Learning Outcomes/Simulator Theory|Simulator Theory]]
+
+++}# Lens: Welcome
 id:: e1322022-9d32-4d52-9f8a-403e5379ff42
 #### Text
 content:: 
@@ -18,10 +25,10 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/Security Mindset and Ordinary Paranoia|Security Mindset and Ordinary Paranoia]]
 
-# Learning Outcome:
+# {--{"author":"Luc's AI","timestamp":1783783018679}@@Learning Outcome:
 source:: ![[../Learning Outcomes/Distinguish between grown and engineered systems|Distinguish between grown and engineered systems]]
 
-# Lens:
+# --}Lens:
 source:: ![[../Lenses/How can LLMs be understood as simulators]]
 
 # Lens:
@@ -29,8 +36,8 @@ source:: ![[../Lenses/Janus' Simulators - Scott Alexander]]
 
 # Lens:
 optional:: true
-source:: ![[../Lenses/Simulators by Janus]]
+source:: ![[../Lenses/Simulators by Janus]]{--{"author":"Luc's AI","timestamp":1783783021184}@@
 
 # Learning Outcome:
-source:: ![[../Learning Outcomes/Simulator Theory|Simulator Theory]]
+source:: ![[../Learning Outcomes/Simulator Theory|Simulator Theory]]--}
 

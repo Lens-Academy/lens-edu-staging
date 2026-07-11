@@ -42,56 +42,65 @@ Don't save your questions and insights for the meeting day, post them into Disco
 # Submodule: Ch0 - Introduction
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/00 - Introduction - Hard Calls and Easy Calls]]
 
-# Lens:
-source:: ![[../Lenses/IABIED - PQ - Hard Calls and Easy Calls]]
+# {--{"author":"Luc's AI","timestamp":1783782789480}@@Lens:
+source:: ![[../Lenses/IABIED - PQ--}{++{"author":"Luc's AI","timestamp":1783782789480}@@Learning Outcome: IABIED++} - Hard Calls and Easy {--{"author":"Luc's AI","timestamp":1783782789480}@@Calls]]
 
-# Lens:
-source:: ![[../Lenses/IABIED - Hard Calls and Easy Calls]]
+# Lens:--}{++{"author":"Luc's AI","timestamp":1783782789480}@@Calls++}
+source:: {--{"author":"Luc's AI","timestamp":1783782789480}@@![[../Lenses/IABIED ---}{++{"author":"Luc's AI","timestamp":1783782789480}@@![[../Learning Outcomes/Distinguish++} Hard Calls {--{"author":"Luc's AI","timestamp":1783782789480}@@and--}{++{"author":"Luc's AI","timestamp":1783782789480}@@from++} Easy Calls]]
 
-# Learning Outcome: IABIED - Hard Calls and Easy Calls
-source:: ![[../Learning Outcomes/Distinguish Hard Calls from Easy Calls]]
+# {--{"author":"Luc's AI","timestamp":1783782789480}@@Learning Outcome: IABIED --}{++{"author":"Luc's AI","timestamp":1783782789480}@@Lens:
+source:: ![[../Lenses/IABIED - PQ ++}- Hard Calls and Easy {--{"author":"Luc's AI","timestamp":1783782789480}@@Calls--}{++{"author":"Luc's AI","timestamp":1783782789480}@@Calls]]
+
+# Lens:++}
+source:: {--{"author":"Luc's AI","timestamp":1783782789480}@@![[../Learning Outcomes/Distinguish--}{++{"author":"Luc's AI","timestamp":1783782789480}@@![[../Lenses/IABIED -++} Hard Calls {--{"author":"Luc's AI","timestamp":1783782789480}@@from--}{++{"author":"Luc's AI","timestamp":1783782789480}@@and++} Easy Calls]]
 
 # Submodule: Ch1 - Intelligence
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]
 
-# Lens:
-source:: ![[../Lenses/IABIED - Define Intelligence - PQ]]
+# {--{"author":"Luc's AI","timestamp":1783782795777}@@Lens:
+source:: ![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783782795777}@@Learning Outcome: IABIED++} - Define Intelligence{--{"author":"Luc's AI","timestamp":1783782795777}@@ - PQ]]
+
+# Lens:--}
+source:: {--{"author":"Luc's AI","timestamp":1783782795777}@@![[../Lenses/IABIED - Define--}{++{"author":"Luc's AI","timestamp":1783782795777}@@![[../Learning Outcomes/Define++} Intelligence]]
+
+# Learning Outcome: IABIED - {--{"author":"Luc's AI","timestamp":1783782795777}@@Define Intelligence--}{++{"author":"Luc's AI","timestamp":1783782795777}@@Intelligence Is Direction-Agnostic++}
+source:: ![[../Learning {--{"author":"Luc's AI","timestamp":1783782795777}@@Outcomes/Define Intelligence]]--}{++{"author":"Luc's AI","timestamp":1783782795777}@@Outcomes/Explain Intelligence Is Direction-Agnostic]]++}
 
 # Lens:
-source:: ![[../Lenses/IABIED - Define Intelligence]]
-
-# Learning Outcome: IABIED - Define Intelligence
-source:: ![[../Learning Outcomes/Define Intelligence]]
+source:: ![[../Lenses/IABIED - {--{"author":"Luc's AI","timestamp":1783782795777}@@Intelligence Is Direction-Agnostic--}{++{"author":"Luc's AI","timestamp":1783782795777}@@Define Intelligence++} - PQ]]
 
 # Lens:
-source:: ![[../Lenses/IABIED - Intelligence Is Direction-Agnostic - PQ]]
+source:: ![[../Lenses/IABIED - {--{"author":"Luc's AI","timestamp":1783782795777}@@Intelligence Is Direction-Agnostic]]--}{++{"author":"Luc's AI","timestamp":1783782795777}@@Define Intelligence]]++}
 
-# Lens:
-source:: ![[../Lenses/IABIED - Intelligence Is Direction-Agnostic]]
+# {--{"author":"Luc's AI","timestamp":1783782795777}@@Learning Outcome: IABIED--}{++{"author":"Luc's AI","timestamp":1783782795777}@@Lens:
+source:: ![[../Lenses/IABIED++} - Intelligence Is Direction-Agnostic{++{"author":"Luc's AI","timestamp":1783782795777}@@ - PQ]]
 
-# Learning Outcome: IABIED - Intelligence Is Direction-Agnostic
-source:: ![[../Learning Outcomes/Explain Intelligence Is Direction-Agnostic]]
+# Lens:++}
+source:: {--{"author":"Luc's AI","timestamp":1783782795777}@@![[../Learning Outcomes/Explain--}{++{"author":"Luc's AI","timestamp":1783782795777}@@![[../Lenses/IABIED -++} Intelligence Is Direction-Agnostic]]
 
 # Submodule: Ch2 - Grown, not crafted
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/02 - Chapter 2 - Grown, Not Crafted]]
 
-# Lens:
-source:: ![[../Lenses/IABIED - AI Is Grown, Not Crafted - PQ]]
+# {--{"author":"Luc's AI","timestamp":1783782802339}@@Lens:
+source:: ![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783782802339}@@Learning Outcome: IABIED++} - AI Is Grown, Not Crafted{--{"author":"Luc's AI","timestamp":1783782802339}@@ - PQ]]
+
+# Lens:--}
+source:: {--{"author":"Luc's AI","timestamp":1783782802339}@@![[../Lenses/IABIED ---}{++{"author":"Luc's AI","timestamp":1783782802339}@@![[../Learning Outcomes/Explain++} AI Is Grown, Not Crafted]]
+
+# Learning Outcome: IABIED - {--{"author":"Luc's AI","timestamp":1783782802339}@@AI--}{++{"author":"Luc's AI","timestamp":1783782802339}@@Behavior++} Is{--{"author":"Luc's AI","timestamp":1783782802339}@@ Grown,--} Not {--{"author":"Luc's AI","timestamp":1783782802339}@@Crafted--}{++{"author":"Luc's AI","timestamp":1783782802339}@@Values++}
+source:: ![[../Learning {--{"author":"Luc's AI","timestamp":1783782802339}@@Outcomes/Explain AI Is Grown, Not Crafted]]--}{++{"author":"Luc's AI","timestamp":1783782802339}@@Outcomes/Distinguish Behavior from Values]]++}
 
 # Lens:
-source:: ![[../Lenses/IABIED - AI Is Grown, Not Crafted]]
-
-# Learning Outcome: IABIED - AI Is Grown, Not Crafted
-source:: ![[../Learning Outcomes/Explain AI Is Grown, Not Crafted]]
+source:: ![[../Lenses/IABIED - {--{"author":"Luc's AI","timestamp":1783782802339}@@Behavior--}{++{"author":"Luc's AI","timestamp":1783782802339}@@AI++} Is {++{"author":"Luc's AI","timestamp":1783782802339}@@Grown, ++}Not {--{"author":"Luc's AI","timestamp":1783782802339}@@Values--}{++{"author":"Luc's AI","timestamp":1783782802339}@@Crafted++} - PQ]]
 
 # Lens:
-source:: ![[../Lenses/IABIED - Behavior Is Not Values - PQ]]
+source:: ![[../Lenses/IABIED - {--{"author":"Luc's AI","timestamp":1783782802339}@@Behavior--}{++{"author":"Luc's AI","timestamp":1783782802339}@@AI++} Is {++{"author":"Luc's AI","timestamp":1783782802339}@@Grown, ++}Not {--{"author":"Luc's AI","timestamp":1783782802339}@@Values]]--}{++{"author":"Luc's AI","timestamp":1783782802339}@@Crafted]]++}
 
-# Lens:
-source:: ![[../Lenses/IABIED - Behavior Is Not Values]]
+#{--{"author":"Luc's AI","timestamp":1783782802339}@@ Learning Outcome: IABIED--}{++{"author":"Luc's AI","timestamp":1783782802339}@@ Lens:
+source:: ![[../Lenses/IABIED++} - Behavior Is Not Values{++{"author":"Luc's AI","timestamp":1783782802339}@@ - PQ]]
 
-# Learning Outcome: IABIED - Behavior Is Not Values
-source:: ![[../Learning Outcomes/Distinguish Behavior from Values]]
+# Lens:++}
+source:: {--{"author":"Luc's AI","timestamp":1783782802339}@@![[../Learning Outcomes/Distinguish--}{++{"author":"Luc's AI","timestamp":1783782802339}@@![[../Lenses/IABIED -++} Behavior {--{"author":"Luc's AI","timestamp":1783782802339}@@from--}{++{"author":"Luc's AI","timestamp":1783782802339}@@Is Not++} Values]]
 
 # Submodule: Dive Deeper
 # Lens: Overview of Optional Resources

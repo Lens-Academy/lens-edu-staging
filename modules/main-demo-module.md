@@ -6,7 +6,10 @@ title: Demo basics
 
 %% A module contains lenses and learning outcomes.%% 
 
-# Lens: Basic Example
+# {++{"author":"Luc's AI","timestamp":1783783040294}@@Learning Outcome:
+source:: [[../Learning Outcomes/Learning Outcome Demo|Demo learning outcome]]
+
+# ++}Lens: Basic Example
 id:: 83fac088-1e23-4249-98ce-604b3f7c65d8
 
 #### Text
@@ -36,9 +39,9 @@ instructions:: [[../prompts/demo-tutor-style.md]]
 #### Chat
 instructions:: The learner has just gone through this demo module. [[../prompts/demo-tutor-style.md]] Focus the conversation on which segment type they would like to try authoring first.
 
-%% ++}Modules also contains learning outcomes.  %%
+%% ++}Modules also contains learning outcomes.  %%{--{"author":"Luc's AI","timestamp":1783783043910}@@
 # Learning Outcome:
-source:: [[../Learning Outcomes/Learning Outcome Demo|Demo learning outcome]]
+source:: [[../Learning Outcomes/Learning Outcome Demo|Demo learning outcome]]--}
 
 %% Please look inside the above file before continuing. %%
 

@@ -18,44 +18,57 @@ source:: ![[../Lenses/EA Intro - What Do You Think Introduction]]
 
 # Submodule: Bayes' rule and evidence
 
-# Lens:
-source:: ![[../Lenses/EA Intro - Bayes Rule Guide]]
+# {--{"author":"Luc's AI","timestamp":1783782909112}@@Lens:
+source:: ![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783782909112}@@Learning Outcome: EA++} Intro - {++{"author":"Luc's AI","timestamp":1783782909112}@@Apply ++}Bayes Rule {--{"author":"Luc's AI","timestamp":1783782909112}@@Guide]]
+
+# Lens:--}{++{"author":"Luc's AI","timestamp":1783782909112}@@to Update Beliefs++}
+source:: {--{"author":"Luc's AI","timestamp":1783782909112}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783782909112}@@![[../Learning Outcomes/EA++} Intro - {--{"author":"Luc's AI","timestamp":1783782909112}@@Making Beliefs Pay Rent]]--}{++{"author":"Luc's AI","timestamp":1783782909112}@@Apply Bayes Rule to Update Beliefs]]++}
 
 # Lens:
-source:: ![[../Lenses/EA Intro - Making Beliefs Pay Rent]]
+source:: ![[../Lenses/EA Intro - {--{"author":"Luc's AI","timestamp":1783782909112}@@What Is Evidence]]--}{++{"author":"Luc's AI","timestamp":1783782909112}@@Bayes Rule Guide]]++}
 
-# Lens:
-source:: ![[../Lenses/EA Intro - What Is Evidence]]
+# {--{"author":"Luc's AI","timestamp":1783782909112}@@Learning Outcome: EA--}{++{"author":"Luc's AI","timestamp":1783782909112}@@Lens:
+source:: ![[../Lenses/EA++} Intro - {--{"author":"Luc's AI","timestamp":1783782909112}@@Apply Bayes Rule to Update Beliefs--}{++{"author":"Luc's AI","timestamp":1783782909112}@@Making Beliefs Pay Rent]]
 
-# Learning Outcome: EA Intro - Apply Bayes Rule to Update Beliefs
-source:: ![[../Learning Outcomes/EA Intro - Apply Bayes Rule to Update Beliefs]]
+# Lens:++}
+source:: {--{"author":"Luc's AI","timestamp":1783782909112}@@![[../Learning Outcomes/EA --}{++{"author":"Luc's AI","timestamp":1783782909112}@@![[../Lenses/EA ++}Intro - {--{"author":"Luc's AI","timestamp":1783782909112}@@Apply Bayes Rule to Update Beliefs]]--}{++{"author":"Luc's AI","timestamp":1783782909112}@@What Is Evidence]]++}
 
 # Submodule: Independent impressions
 
-# Lens:
+# {--{"author":"Luc's AI","timestamp":1783782910931}@@Lens:
 source:: ![[../Lenses/EA Intro - Independent Impressions]]
 
-# Learning Outcome: EA Intro - Explain Independent Impressions
-source:: ![[../Learning Outcomes/EA Intro - Explain Independent Impressions]]
+# --}Learning Outcome: EA Intro - Explain Independent Impressions
+source:: ![[../Learning Outcomes/EA Intro - Explain Independent Impressions]]{++{"author":"Luc's AI","timestamp":1783782910931}@@
+
+# Lens:
+source:: ![[../Lenses/EA Intro - Independent Impressions]]++}
 
 # Submodule: Learning from mistakes
 
-# Lens:
+# {--{"author":"Luc's AI","timestamp":1783782914945}@@Lens:
 source:: ![[../Lenses/EA Intro - Lessons for EA (Toby Ord EAG)]]
 
-# Learning Outcome: EA Intro - Identify Lessons from EA's Mistakes
+# --}Learning Outcome: EA Intro - Identify Lessons from EA's Mistakes
 source:: ![[../Learning Outcomes/EA Intro - Identify Lessons from EA's Mistakes]]
 
-# Lens:
-source:: ![[../Lenses/EA Intro - EA Is About Maximization and Maximization Is Perilous]]
+# {--{"author":"Luc's AI","timestamp":1783782914945}@@Lens:
+source:: ![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783782914945}@@Learning Outcome: EA++} Intro - {--{"author":"Luc's AI","timestamp":1783782914945}@@EA --}{++{"author":"Luc's AI","timestamp":1783782914945}@@Explain Why Maximization ++}Is {--{"author":"Luc's AI","timestamp":1783782914945}@@About Maximization and--}{++{"author":"Luc's AI","timestamp":1783782914945}@@Perilous
+source:: ![[../Learning Outcomes/EA Intro - Explain Why++} Maximization Is Perilous]]
 
-# Learning Outcome: EA Intro - Explain Why Maximization Is Perilous
-source:: ![[../Learning Outcomes/EA Intro - Explain Why Maximization Is Perilous]]
+# {--{"author":"Luc's AI","timestamp":1783782914945}@@Learning Outcome: EA--}{++{"author":"Luc's AI","timestamp":1783782914945}@@Lens:
+source:: ![[../Lenses/EA++} Intro - {--{"author":"Luc's AI","timestamp":1783782914945}@@Explain Why Maximization Is Perilous--}{++{"author":"Luc's AI","timestamp":1783782914945}@@Lessons for EA (Toby Ord EAG)]]
+
+# Lens:++}
+source:: {--{"author":"Luc's AI","timestamp":1783782914945}@@![[../Learning Outcomes/EA--}{++{"author":"Luc's AI","timestamp":1783782914945}@@![[../Lenses/EA++} Intro - {--{"author":"Luc's AI","timestamp":1783782914945}@@Explain Why--}{++{"author":"Luc's AI","timestamp":1783782914945}@@EA Is About Maximization and++} Maximization Is Perilous]]
 
 # Submodule: Less common causes
 
-# Lens:
-source:: ![[../Lenses/EA Intro - Big List of Cause Candidates]]
+# {--{"author":"Luc's AI","timestamp":1783782916833}@@Lens:
+source:: ![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783782916833}@@Learning Outcome: EA++} Intro - {--{"author":"Luc's AI","timestamp":1783782916833}@@Big List of--}{++{"author":"Luc's AI","timestamp":1783782916833}@@Enumerate Less Common++} Cause {--{"author":"Luc's AI","timestamp":1783782916833}@@Candidates]]
 
-# Learning Outcome: EA Intro - Enumerate Less Common Cause Candidates
-source:: ![[../Learning Outcomes/EA Intro - Enumerate Less Common Cause Candidates]]
+# Learning Outcome: EA --}{++{"author":"Luc's AI","timestamp":1783782916833}@@Candidates
+source:: ![[../Learning Outcomes/EA ++}Intro - Enumerate Less Common Cause {--{"author":"Luc's AI","timestamp":1783782916833}@@Candidates--}{++{"author":"Luc's AI","timestamp":1783782916833}@@Candidates]]
+
+# Lens:++}
+source:: {--{"author":"Luc's AI","timestamp":1783782916833}@@![[../Learning Outcomes/EA--}{++{"author":"Luc's AI","timestamp":1783782916833}@@![[../Lenses/EA++} Intro - {--{"author":"Luc's AI","timestamp":1783782916833}@@Enumerate Less Common--}{++{"author":"Luc's AI","timestamp":1783782916833}@@Big List of++} Cause Candidates]]

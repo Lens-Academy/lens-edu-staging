@@ -4,7 +4,10 @@ slug: existing-approaches-af
 title: "Existing Approaches: Agent Foundations"
 ---
 
-# Lens: Welcome
+# {++{"author":"Luc's AI","timestamp":1783782989205}@@Learning Outcome:
+source:: [[../Learning Outcomes/Agent Foundations agenda]]
+
+# ++}Lens: Welcome
 id:: c24350d1-737f-4e7b-93fb-2ca85cbe0295
 #### Text
 content::
@@ -25,7 +28,7 @@ optional:: true
 source:: [[../Lenses/Embedded agents]]
 
 # Lens:
-source:: [[../Lenses/Realism about rationality]]
+source:: [[../Lenses/Realism about rationality]]{--{"author":"Luc's AI","timestamp":1783782990122}@@
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Agent Foundations agenda]]
+source:: [[../Learning Outcomes/Agent Foundations agenda]]--}
