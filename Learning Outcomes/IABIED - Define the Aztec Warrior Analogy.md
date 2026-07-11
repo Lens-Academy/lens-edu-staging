@@ -5,9 +5,7 @@ reading-from: "IMAGINE BEING AN Aztec warrior visiting the coast with your fello
 reading-to: "We'll go over a few of our educated guesses later. But the real way a superintelligence wins a conflict is using methods you didn't know were possible. And because we care about the truth more than about telling you things that are easy to swallow, that's where we'll start."
 authors:
   - Chris+Claude
-{--{"author":"Luc's AI","timestamp":1783764671753}@@add_to_ai_context:
-  - "[[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 - We'd Lose]]"
---}tags:
+tags:
   - learning-outcome
   - IABIED
 ---

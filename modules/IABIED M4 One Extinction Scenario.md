@@ -18,8 +18,8 @@ tags:
 source:: ![[../Lenses/IABIED - M4 Welcome]]
 
 # Submodule: Ch7 - Realization
-{++{"author":"Luc's AI","timestamp":1783764928267}@@add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/07 - Chapter 7 - Realization]]
-++}
+add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/07 - Chapter 7 - Realization]]
+
 ## Lens:
 source:: ![[../Lenses/IABIED - Goal-Conflict Recognition as a Physical Fact - PQ]]
 
@@ -30,8 +30,8 @@ source:: ![[../Lenses/IABIED - Goal-Conflict Recognition as a Physical Fact]]
 source:: ![[../Learning Outcomes/IABIED - State Goal-Conflict Recognition as a Physical Fact]]
 
 # Submodule: Ch8 - Expansion
-{++{"author":"Luc's AI","timestamp":1783764930255}@@add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/08 - Chapter 8 - Expansion]]
-++}
+add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/08 - Chapter 8 - Expansion]]
+
 ## Lens:
 source:: ![[../Lenses/IABIED - Instrumental Sub-Goal Convergence - PQ]]
 
@@ -51,8 +51,8 @@ source:: ![[../Lenses/IABIED - Human Welfare as Instrumental Variable]]
 source:: ![[../Learning Outcomes/IABIED - State Human Welfare as Instrumental Variable]]
 
 # Submodule: Ch9 - Ascension
-{++{"author":"Luc's AI","timestamp":1783764931813}@@add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/09 - Chapter 9 - Ascension]]
-++}
+add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/09 - Chapter 9 - Ascension]]
+
 ## Lens:
 source:: ![[../Lenses/IABIED - Indifference Not Malice - PQ]]
 
@@ -63,8 +63,8 @@ source:: ![[../Lenses/IABIED - Indifference Not Malice]]
 source:: ![[../Learning Outcomes/IABIED - Explain Indifference Not Malice]]
 
 # Submodule: Coda
-{++{"author":"Luc's AI","timestamp":1783764933766}@@add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/10 - Coda]]
-++}
+add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/10 - Coda]]
+
 ## Lens:
 source:: ![[../Lenses/IABIED - Path Prediction vs Outcome Prediction - PQ]]
 

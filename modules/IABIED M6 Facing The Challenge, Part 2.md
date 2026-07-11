@@ -57,8 +57,8 @@ Ask what they found surprising or new. Check if they can explain the ladder-in-t
 
 %%
 # Submodule: Chapter 12: I Don't Want to Be Alarmist
-{++{"author":"Luc's AI","timestamp":1783764939756}@@add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/13 - Chapter 12 - I Don't Want to Be Alarmist]]
-++}
+add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/13 - Chapter 12 - I Don't Want to Be Alarmist]]
+
 ## Lens:
 source:: [[../Lenses/IABIED - The One-Chance Problem - PQ]]
 
@@ -78,8 +78,8 @@ source:: [[../Lenses/IABIED - Ladder in the Dark]]
 source:: [[../Learning Outcomes/Ladder in the Dark]]
 
 # Submodule: Chapter 13: Shut It Down
-{++{"author":"Luc's AI","timestamp":1783764941752}@@add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/14 - Chapter 13 - Shut It Down]]
-++}
+add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/14 - Chapter 13 - Shut It Down]]
+
 ## Lens:
 source:: [[../Lenses/IABIED - The WWII Analogy - PQ]]
 
@@ -99,8 +99,8 @@ source:: [[../Lenses/IABIED - Coalition Strategy]]
 source:: [[../Learning Outcomes/Coalition Strategy]]
 
 # Submodule: Chapter 14: Where There's Life, There's Hope
-{++{"author":"Luc's AI","timestamp":1783764943678}@@add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/15 - Chapter 14 - Where There's Life, There's Hope]]
-++}
+add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/15 - Chapter 14 - Where There's Life, There's Hope]]
+
 ## Lens:
 source:: [[../Lenses/IABIED - Un-Writing Our Fate - PQ]]
 

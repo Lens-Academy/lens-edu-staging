@@ -5,9 +5,7 @@ reading-from: "beginning of chapter"
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-{--{"author":"Luc's AI","timestamp":1783764681754}@@add_to_ai_context:
-  - "[[../../Lens Edu Private/IABIED Book Content/09 - Chapter 9 - Ascension]]"
---}tags:
+tags:
   - learning-outcome
   - IABIED
 ---

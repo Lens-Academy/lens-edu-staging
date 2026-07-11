@@ -6,9 +6,7 @@ reading-to: "end of chapter"
 optional: true
 authors:
   - Chris+Claude
-{--{"author":"Luc's AI","timestamp":1783764676755}@@add_to_ai_context:
-  - "[[../../Lens Edu Private/IABIED Book Content/10 - Coda]]"
---}tags:
+tags:
   - learning-outcome
   - IABIED
   - optional
