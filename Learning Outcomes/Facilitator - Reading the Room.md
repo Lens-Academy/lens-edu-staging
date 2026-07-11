@@ -4,8 +4,8 @@ learning-outcome: "Name three online signals that participants are communicating
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783771753952}@@learning-outcome
+  - --}facilitator-training
 ---
 
 ## Test:

@@ -1,9 +1,9 @@
 ---
 id: e4f70283-3a7c-49ed-801a-ebc5e12bc330
 learning-outcome: Learners can articulate their own position toward the possible futures shaped by AI, and evaluate possible ways they themselves might engage further with AI safety or related work.
-tags:
+{--{"author":"Elias's AI","timestamp":1783771781259}@@tags:
   - learning-outcome
----
+--}---
 ## Test:
 id:: 07be3052-f86d-4ae7-8f95-33134b0b9cd8
 

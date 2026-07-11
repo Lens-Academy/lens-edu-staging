@@ -4,8 +4,8 @@ learning-outcome: "Explain why norms imposed get less follow-through than norms 
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783771761484}@@learning-outcome
+  - --}facilitator-training
 ---
 
 ## Test:
