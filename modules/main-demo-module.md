@@ -32,7 +32,7 @@ source:: [[../Lenses/Dummy lens]]
 id:: 9e7cf6c7-c701-483a-90db-6e29db963bbd
 
 #### Chat
-instructions:: [[../prompts/demo-tutor-style.md]]
+instructions:: [[../prompts/demo-tutor-style]]
 
 %% You can also mix your own text with prompt links: each prompts/ wikilink expands to its file's body verbatim (you control the spacing around it), and the surrounding text is kept. This lets several lenses share one base prompt while adding lens-specific context around it. Wikilinks that don't point into prompts/ are left as ordinary text. %%
 
