@@ -25,8 +25,8 @@ Ryan’s podcast with Rob Wiblin has just come out! I think it turned out great.
 
 Transcript + links + summary [here](https://80000hours.org/podcast/episodes/ryan-greenblatt-ai-automation-sabotage-takeover/). You can also get it as a podcast:
 
-Spotify:
+Spotify:{++{"author":"Elias's AI","timestamp":1783779724506}@@ [Listen on Spotify](https://open.spotify.com/episode/4TeGozjFgTLlQjwTiphZdz)++}
 
-Apple:
+Apple:{++{"author":"Elias's AI","timestamp":1783779724506}@@ [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/220-ryan-greenblatt-on-the-4-most-likely-ways-for-ai/id1245002988?i=1000716350932)++}
 
-No posts
+{--{"author":"Elias's AI","timestamp":1783779724506}@@No posts--}{++{"author":"Elias's AI","timestamp":1783779724506}@@{>>{"author":"Elias's AI","timestamp":1783779724506}@@removed embedded podcast players (Spotify/Apple) and junk "No posts" footer; replaced with links to the episode recovered from the original Substack page<<}++}

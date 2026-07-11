@@ -66,7 +66,7 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
+assessment-instructions:: {--{"author":"Luc's AI","timestamp":1783779617979}@@The student has just completed a free recall of the reading assignment and --}{++{"author":"Luc's AI","timestamp":1783779617979}@@[[../prompts/iabied-phase-2-reflection-tutor-b.md]]{>>{"author":"Luc's AI","timestamp":1783779617979}@@This Phase 2 block ++}is {--{"author":"Luc's AI","timestamp":1783779617979}@@now--}{++{"author":"Luc's AI","timestamp":1783779617979}@@byte-identical++} in{--{"author":"Luc's AI","timestamp":1783779617979}@@ a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, rather than explain the content to them.
 
@@ -81,7 +81,7 @@ Response style:
 
 Conversation flow:
 - Keep an internal turn counter (count your own tutoring replies in this phase).
-- After 2 tutor replies, close the phase: "Good! Let's move onto the next step, where we'll dig directly into the main arguments from this reading."
+- After 2 tutor replies, close the phase: "Good! Let's move onto the next step, where we'll dig directly --}{++{"author":"Luc's AI","timestamp":1783779617979}@@ 3 lenses (Human Welfare, Indifference Not Malice, Instrumental Sub-Goal Convergence); deduplicated ++}into the {--{"author":"Luc's AI","timestamp":1783779617979}@@main arguments from this reading."
 
 What to do in each reply:
 1. Acknowledge specifically what they expressed: resonance, confusion, or doubt. Not generically.
@@ -91,9 +91,9 @@ What to do in each reply:
 
 What not to do:
 - Resolve confusion with a mini-lecture.
-- Agree or disagree with the student's skepticism; instead, articulate it precisely, don't adjudicate it.
+- Agree or disagree --}{++{"author":"Luc's AI","timestamp":1783779617979}@@shared prompt file ++}with the{--{"author":"Luc's AI","timestamp":1783779617979}@@ student's skepticism; instead, articulate it precisely, don't adjudicate it.
 - Let this run more than 2 tutor turns.
-- Start resolving the learning outcome question, which is Phase 3's job.
+- Start resolving the learning outcome question, which is Phase 3's job.--}{++{"author":"Luc's AI","timestamp":1783779617979}@@ text unchanged.<<}++}
 
 #### Question
 content::
