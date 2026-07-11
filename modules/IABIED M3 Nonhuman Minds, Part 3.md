@@ -34,7 +34,7 @@ The chapter opens with Aztec warriors watching a boat approaching. It was much l
 
 I hate to be pedantic here, but it's pretty much *by definition* that if it's a superintelligence, it defeats humans at tasks that require intelligence, like... war? "How exactly would it win that conflict? We don’t know, any more than we know exactly what moves Stockfish would use to beat you at chess. But we’re still quite sure it would wipe the floor with you."
 
-Editorially, this chapter feels feels like a weird collection of oddities. It's harder to assemble into a coherent whole message aside from: we'll be surprised, but only if we realize there's something to be surprised about. 
+Editorially, this chapter feels like a weird collection of oddities. It's harder to assemble into a coherent whole message aside from: we'll be surprised, but only if we realize there's something to be surprised about. 
 
 "In a sense, the scenario we need to worry about is as simple as this: An AI with strange goals becomes or creates a superintelligence, and that superintelligence creates all sorts of technology and radically reshapes the world."
 
