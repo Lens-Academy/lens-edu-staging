@@ -14,7 +14,7 @@ The scenario follows an AI called "Sable" through three phases: **Realization** 
 
 The core tension in M4 is that we don't want your learning to hinge on believing sci-fi. And the story is sci-fi; the authors openly admit it. 
 
-The problem isn't that it's fiction; it's that lessons framed around *what happens in the story* would require you to buy the premise before you can engage. Instead, we'll try fram lessons around *which M1–M3 mechanism is operating and why it produces this outcome*. This should only require following and analyzing an argument.
+The problem isn't that it's fiction; it's that lessons framed around *what happens in the story* would require you to buy the premise before you can engage. Instead, we'll try framing lessons around *which M1–M3 mechanism is operating and why it produces this outcome*. This should only require following and analyzing an argument.
 
 M4's job is already defined in the course arc: convert intellectual acceptance into emotional understanding. The story isn't teaching new concepts; it's teaching us to recognize concepts we already learned, operating in a concrete scenario. 
 
