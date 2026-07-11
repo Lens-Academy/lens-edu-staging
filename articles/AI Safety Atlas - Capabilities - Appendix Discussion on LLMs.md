@@ -134,7 +134,7 @@ It appears that there are several points of convergence between the LLMs and the
 
 Following are some reasons to believe that labs will continue to scale LLMs.
 
-**Scaling Laws on LLM implies further qualitative improvements. **The scaling laws might not initially appear impressive. However, linking these quantitative measures can translate to a qualitative improvement in algorithm quality. An algorithm that achieves near-perfect loss, though, is one that necessarily comprehends all subtleties, and displays enormous adaptability. The fact that the scaling laws are not bending is very significant and means that we can make the model a qualitatively better reasoner.
+**Scaling Laws on LLM implies further qualitative {--{"author":"Luc's AI","timestamp":1783790030573}@@improvements. **The--}{++{"author":"Luc's AI","timestamp":1783790030573}@@improvements.** The++} scaling laws might not initially appear impressive. However, linking these quantitative measures can translate to a qualitative improvement in algorithm quality. An algorithm that achieves near-perfect loss, though, is one that necessarily comprehends all subtleties, and displays enormous adaptability. The fact that the scaling laws are not bending is very significant and means that we can make the model a qualitatively better reasoner.
 
 **From simple correlations to understanding.** During a training run, GPTs go from basic correlations to deeper and deeper understanding. Initially, the model merely establishes connections between successive words. Gradually, it develops an understanding of grammar and semantics, creating links between sentences and subsequently between paragraphs. Eventually, GPT masters the nuances of writing style.
 
