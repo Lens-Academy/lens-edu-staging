@@ -7,9 +7,7 @@ tags:
 ---
 ## Test:
 
-{++{"author":"Luc's AI","timestamp":1783722716101}@@
+
 # Suggested Lenses:
-++}## Lens:{--{"author":"Luc's AI","timestamp":1783722716101}@@
-optional:: true--}
-source:: [[../Lenses/When should we worry about AI power-seeking]]{++{"author":"Luc's AI","timestamp":1783722716101}@@
-++}
+## Lens:
+source:: [[../Lenses/When should we worry about AI power-seeking]]

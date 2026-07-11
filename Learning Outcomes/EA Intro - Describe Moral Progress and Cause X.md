@@ -10,7 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-{++{"author":"Luc's AI","timestamp":1783722643583}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722643583}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722643583}@@[[../Lenses/EA++} Intro - Moral Progress and Cause X]]
+## Lens:
+source:: [[../Lenses/EA Intro - Moral Progress and Cause X]]

@@ -27,7 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus pre-commits to a specific cue or self-check they'll use to notice the slip in real time during a session.
 
-{++{"author":"Luc's AI","timestamp":1783722709357}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722709357}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722709357}@@[[../Lenses/Facilitator++} - Mutual Learning Mindset]]
+## Lens:
+source:: [[../Lenses/Facilitator - Mutual Learning Mindset]]

@@ -10,7 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-{++{"author":"Luc's AI","timestamp":1783722619352}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722619352}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722619352}@@[[../Lenses/EA++} Intro - EA Is About Maximization and Maximization Is Perilous]]
+## Lens:
+source:: [[../Lenses/EA Intro - EA Is About Maximization and Maximization Is Perilous]]

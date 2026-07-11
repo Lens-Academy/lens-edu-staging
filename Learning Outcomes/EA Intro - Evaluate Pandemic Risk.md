@@ -10,7 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-{++{"author":"Luc's AI","timestamp":1783722603329}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722603329}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722603329}@@[[../Lenses/EA++} Intro - Preventing Catastrophic Pandemics]]
+## Lens:
+source:: [[../Lenses/EA Intro - Preventing Catastrophic Pandemics]]

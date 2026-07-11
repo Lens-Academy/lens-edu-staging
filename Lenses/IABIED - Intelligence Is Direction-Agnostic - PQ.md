@@ -8,9 +8,9 @@ authors:
 tags:
   - lens
   - IABIED
-{++{"author":"Luc's AI","timestamp":1783723024451}@@add_to_ai_context:
+add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]"
-++}---
+---
 #### Question
 content:: Before reading the second half of Chapter 1: Imagine you could build an AI dramatically smarter than any human. Would you expect it to also be more ethical (more aligned with human values)? Why or why not? Write down your intuition before reading.
 

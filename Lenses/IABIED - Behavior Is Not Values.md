@@ -8,9 +8,9 @@ authors:
 tags:
   - lens
   - IABIED
-{++{"author":"Luc's AI","timestamp":1783723053276}@@add_to_ai_context:
+add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/02 - Chapter 2 - Grown, Not Crafted]]"
-++}---
+---
 #### Text
 content::
 \## Reading Assignment

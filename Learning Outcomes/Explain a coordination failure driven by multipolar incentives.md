@@ -7,9 +7,7 @@ tags:
 ---
 ## Test:
 
-{++{"author":"Luc's AI","timestamp":1783722707059}@@
+
 # Suggested Lenses:
-++}## Lens:{--{"author":"Luc's AI","timestamp":1783722707059}@@
-optional:: false--}
-source:: [[../Lenses/Meditations on Moloch]]{++{"author":"Luc's AI","timestamp":1783722707059}@@
-++}
+## Lens:
+source:: [[../Lenses/Meditations on Moloch]]

@@ -28,13 +28,11 @@ Score according to the following rubric.
 
 **4** — As above, plus identifies the key mechanism: the incentive change (everyone who could start a nuclear war expected to personally suffer its consequences) and/or the specific sustained diplomatic effort (arms agreements, monitors, direct communication lines between superpowers over decades). *Example adds: "The chapter says it worked because for the first time, the people who could start the war stood to personally lose everything. And they worked for decades, not just one summit but sustained effort."*
 
-**5** — As above, plus explicitly connects the nuclear precedent to AI: the chapter isn't claiming the future is optimistic, but that a fate that appears locked can be actively un-written by organized human effort, and that this precedent is the basis for treating hope as an active, rational posture rather than wishful thinking. *Example adds: "The chapter's point is that 'un-writing our fate' isn't optimism. It's a description of what the Cold War generation actually did. The nuclear war was as predictably catastrophic as the book claims AI disaster is. If they could un-write it through sustained effort, we can too. But only through the same kind of hard work, not by hoping things work out."*{--{"author":"Luc's AI","timestamp":1783722973538}@@
-
---}{++{"author":"Luc's AI","timestamp":1783722973538}@@
+**5** — As above, plus explicitly connects the nuclear precedent to AI: the chapter isn't claiming the future is optimistic, but that a fate that appears locked can be actively un-written by organized human effort, and that this precedent is the basis for treating hope as an active, rational posture rather than wishful thinking. *Example adds: "The chapter's point is that 'un-writing our fate' isn't optimism. It's a description of what the Cold War generation actually did. The nuclear war was as predictably catastrophic as the book claims AI disaster is. If they could un-write it through sustained effort, we can too. But only through the same kind of hard work, not by hoping things work out."*
 
 
 # Suggested Lenses:
-++}## Lens:
+## Lens:
 source:: [[../Lenses/IABIED - Un-Writing Our Fate - PQ]]
 
 ## Lens:

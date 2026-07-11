@@ -31,10 +31,10 @@ Score according to the following rubric.
 
 **5**: As above, plus connects the despair / position-statement distinction back to the "grown, not crafted" insight from M1 and explains why a *crafted* engineering challenge of this difficulty might still be tackled by working harder, while a *grown* one of this difficulty cannot — making the position-statement the only available form of progress. *Example: Adds "If ASI were crafted, the response to compounding curses might be 'work harder, build better tools, get more eyes on it.' Because it's grown, the engineers don't even know what the curses of their own system are, so there's no 'work harder' move available. The position-statement is the only conclusion the evidence supports: under these conditions, the attempt itself is the failure mode."*
 
-{++{"author":"Luc's AI","timestamp":1783722899393}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722899393}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722899393}@@[[../Lenses/IABIED++} - Position Not Despair - PQ]]
+## Lens:
+source:: [[../Lenses/IABIED - Position Not Despair - PQ]]
 
 ## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722899393}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722899393}@@[[../Lenses/IABIED++} - Position Not Despair]]
+source:: [[../Lenses/IABIED - Position Not Despair]]

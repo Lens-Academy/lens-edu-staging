@@ -31,11 +31,10 @@ Score according to the following rubric.
 
 **5** — As above, plus connects to the Introduction's hard/easy-calls framework: this is the course's opening epistemic distinction arriving at its final and most consequential application. The Stockfish analogy completes what the ice-cube analogy opened, and the Coda's path/outcome distinction is the precise tool the course has been building toward since M1. *Example: Adds "The Introduction introduced hard and easy calls. The Coda delivers the course's most important deployment of that framework: the outcome of human-superintelligence interaction, once capability is reached, is an easy call, even though the specific path remains a hard one."*
 
-{++{"author":"Luc's AI","timestamp":1783722842031}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722842031}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722842031}@@[[../Lenses/IABIED++} - Path Prediction vs Outcome Prediction - PQ]]
+## Lens:
+source:: [[../Lenses/IABIED - Path Prediction vs Outcome Prediction - PQ]]
 
 ## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722842031}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722842031}@@[[../Lenses/IABIED++} - Path Prediction vs Outcome Prediction]]{++{"author":"Luc's AI","timestamp":1783722842031}@@
-++}
+source:: [[../Lenses/IABIED - Path Prediction vs Outcome Prediction]]

@@ -27,7 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus articulates the format-variation rule of thumb: don't stay in any one mode for more than ~15 minutes. The shift itself resets attention.
 
-{++{"author":"Luc's AI","timestamp":1783722793146}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722793146}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722793146}@@[[../Lenses/Facilitator++} Flat - Keeping Engagement]]
+## Lens:
+source:: [[../Lenses/Facilitator Flat - Keeping Engagement]]

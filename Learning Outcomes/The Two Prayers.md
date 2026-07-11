@@ -28,13 +28,11 @@ Score according to the following rubric.
 
 **4** — Correctly identifies both prayers and the conditions for both, and explains why the second is called "true": the authors refuse to rely on doing nothing and prefer to trust in human action over passive hope. *Example: "First prayer: the authors would be wrong, shamed, and forgotten, meaning AI doesn't pose the threat they described, and humanity lives happily ever after without having to do anything. Second prayer: humanity rises to the occasion, meaning people act, fight, and win against the AI risk. The second is 'true' because they won't stake everything on the first outcome happening on its own. They'd rather call for action than just hope to be wrong."*
 
-**5** — As above, plus articulates the deeper epistemic point: the two prayers are compatible — the authors would prefer the first (to be wrong) but refuse to rely on it, so they issue the second as their actual position. The "true last prayer" is the authors' statement of what they stand for given that being passively wrong may not happen. *Example adds: "The two prayers aren't in tension. The authors genuinely want to be wrong. That would be the best news. But wanting to be wrong doesn't mean doing nothing. The second prayer is 'true' because it's what they're actually asking of the reader: not just to hope things work out, but to act. Both can be held at once: hope you're wrong, and act as if you're not."*{--{"author":"Luc's AI","timestamp":1783722907762}@@
-
---}{++{"author":"Luc's AI","timestamp":1783722907762}@@
+**5** — As above, plus articulates the deeper epistemic point: the two prayers are compatible — the authors would prefer the first (to be wrong) but refuse to rely on it, so they issue the second as their actual position. The "true last prayer" is the authors' statement of what they stand for given that being passively wrong may not happen. *Example adds: "The two prayers aren't in tension. The authors genuinely want to be wrong. That would be the best news. But wanting to be wrong doesn't mean doing nothing. The second prayer is 'true' because it's what they're actually asking of the reader: not just to hope things work out, but to act. Both can be held at once: hope you're wrong, and act as if you're not."*
 
 
 # Suggested Lenses:
-++}## Lens:
+## Lens:
 source:: [[../Lenses/IABIED - The Two Prayers - PQ]]
 
 ## Lens:

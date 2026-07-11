@@ -8,9 +8,9 @@ authors:
 tags:
   - lens
   - IABIED
-{++{"author":"Luc's AI","timestamp":1783723065195}@@add_to_ai_context:
+add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]"
-++}---
+---
 #### Question
 content:: Before reading Chapter 1: When you think of "intelligence," what do you mean? Some animals are experts in their niche: a bat's sonar, a crow's tool use, a dog's nose. What do you think makes human intelligence distinctively powerful compared to theirs? Jot down a quick answer before reading. The authors have a specific framework for this.
 

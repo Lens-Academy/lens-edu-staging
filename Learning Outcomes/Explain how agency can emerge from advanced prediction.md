@@ -7,9 +7,7 @@ tags:
 ---
 ## Test:
 
-{++{"author":"Luc's AI","timestamp":1783722771867}@@
+
 # Suggested Lenses:
-++}## Lens:{--{"author":"Luc's AI","timestamp":1783722771867}@@
-optional:: true--}
-source:: [[../Lenses/Pythia by plex]]{++{"author":"Luc's AI","timestamp":1783722771867}@@
-++}
+## Lens:
+source:: [[../Lenses/Pythia by plex]]

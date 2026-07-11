@@ -7,9 +7,7 @@ tags:
 ---
 ## Test:
 
-{++{"author":"Luc's AI","timestamp":1783722931667}@@
+
 # Suggested Lenses:
-++}## Lens:
-{--{"author":"Luc's AI","timestamp":1783722931667}@@optional:: false
---}source:: {--{"author":"Luc's AI","timestamp":1783722931667}@@![[../Lenses/The--}{++{"author":"Luc's AI","timestamp":1783722931667}@@[[../Lenses/The++} power of intelligence|The power of intelligence]]{++{"author":"Luc's AI","timestamp":1783722931667}@@
-++}
+## Lens:
+source:: [[../Lenses/The power of intelligence|The power of intelligence]]

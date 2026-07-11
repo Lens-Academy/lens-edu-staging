@@ -28,15 +28,12 @@ Score according to the following rubric.
 
 **4**: As above, plus explains why the one-chance structure changes the epistemic burden: with repeatable disasters, learning-by-failure is a viable if tragic strategy; with ASI, the expected cost of a single failure is total, so the standard for proceeding can't be the same as for technologies where post-failure correction is possible. *Example: Adds "The disanalogy matters because it changes what you should do about uncertainty. With Chernobyl and Titanic, you could build, observe the failure, and improve. That's a painful but viable path to safer technology. With ASI you can't run that experiment. You have to be confident before you act, not after you've survived the first failure."*
 
-**5**: As above, plus articulates the self-reinforcing trap the chapter creates: the denial pattern the analogies establish is precisely the psychological barrier to meeting the higher burden of proof the disanalogy requires: the two halves of the argument reinforce each other into a coherent diagnosis. *Example: Adds "There's a painful loop: the analogies show that humans are reliably bad at believing unthinkable disasters can happen, and the disanalogy shows that with ASI, that belief failure would be fatal. The denial pattern isn't just one problem among many; it's the specific barrier to meeting the one-chance problem correctly. The chapter uses the historical cases to prove we are susceptible to exactly the error that would kill us when the stakes are total."*{--{"author":"Luc's AI","timestamp":1783722881093}@@
-
---}{++{"author":"Luc's AI","timestamp":1783722881093}@@
+**5**: As above, plus articulates the self-reinforcing trap the chapter creates: the denial pattern the analogies establish is precisely the psychological barrier to meeting the higher burden of proof the disanalogy requires: the two halves of the argument reinforce each other into a coherent diagnosis. *Example: Adds "There's a painful loop: the analogies show that humans are reliably bad at believing unthinkable disasters can happen, and the disanalogy shows that with ASI, that belief failure would be fatal. The denial pattern isn't just one problem among many; it's the specific barrier to meeting the one-chance problem correctly. The chapter uses the historical cases to prove we are susceptible to exactly the error that would kill us when the stakes are total."*
 
 
 # Suggested Lenses:
-++}## Lens:
+## Lens:
 source:: [[../Lenses/IABIED - The One-Chance Problem - PQ]]
 
 ## Lens:
-source:: [[../Lenses/IABIED - The One-Chance Problem]]{++{"author":"Luc's AI","timestamp":1783722889133}@@
-++}
+source:: [[../Lenses/IABIED - The One-Chance Problem]]

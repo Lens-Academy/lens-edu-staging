@@ -10,7 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-{++{"author":"Luc's AI","timestamp":1783722623580}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722623580}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722623580}@@[[../Lenses/EA++} Intro - 500 Million But Not a Single One More]]
+## Lens:
+source:: [[../Lenses/EA Intro - 500 Million But Not a Single One More]]

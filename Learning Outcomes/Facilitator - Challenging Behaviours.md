@@ -27,7 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus identifies which behaviour is the one they'd find hardest to address in real time, and pre-commits to a specific opening sentence they'd practice.
 
-{++{"author":"Luc's AI","timestamp":1783722734466}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722734466}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722734466}@@[[../Lenses/Facilitator++} - Challenging Behaviours]]
+## Lens:
+source:: [[../Lenses/Facilitator - Challenging Behaviours]]

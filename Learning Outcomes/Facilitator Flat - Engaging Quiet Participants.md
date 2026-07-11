@@ -27,7 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus identifies that ranked praise ("great point, Maya!") makes the next person worry their point won't be "great" enough — use neutral acknowledgment.
 
-{++{"author":"Luc's AI","timestamp":1783722929656}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722929656}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722929656}@@[[../Lenses/Facilitator++} Flat - Engaging Quiet Participants]]
+## Lens:
+source:: [[../Lenses/Facilitator Flat - Engaging Quiet Participants]]

@@ -7,9 +7,7 @@ tags:
 ---
 ## Test:
 
-{++{"author":"Luc's AI","timestamp":1783722757824}@@
+
 # Suggested Lenses:
-++}## Lens:{--{"author":"Luc's AI","timestamp":1783722757824}@@
-optional:: false--}
-source:: [[../Lenses/Discovering when an agent is present in a system]]{++{"author":"Luc's AI","timestamp":1783722757824}@@
-++}
+## Lens:
+source:: [[../Lenses/Discovering when an agent is present in a system]]

@@ -4,11 +4,7 @@ learning-outcome: Explain the theory of change for AI safety field-building — 
 tags:
   - learning outcome
 ---
-{--{"author":"Luc's AI","timestamp":1783722714340}@@## Lens:
-source:: [[../Lenses/The case for AI safety field-building]]
-## Lens:
-source:: [[../Lenses/What AI safety field-builders do]]
---}## Test:
+## Test:
 id:: 8306b96b-5ad3-4b00-9c81-7631d907952c
 #### Question
 feedback:: true
@@ -19,11 +15,11 @@ max-chars:: 600
 feedback:: true
 content:: "Field-building" is often equated with "produce more junior researchers." Why is that too narrow? Give at least two other things capacity-building includes.
 assessment-instructions:: A strong answer explains that capacity-building is broader than top-of-funnel junior production, and names at least two of: founders/entrepreneurs, managers, mentors/senior researchers, organizations that can absorb and employ people, community and grantmaking infrastructure. Bonus for noting that over-producing juniors without downstream absorption is a failure mode. Award 4-5 for the reframing plus two valid examples; 3 for two examples with weak framing; 1-2 if it just restates "more researchers." Accept paraphrase.
-max-chars:: 500{++{"author":"Luc's AI","timestamp":1783722731166}@@
+max-chars:: 500
 
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/The case for AI safety field-building]]
 
 ## Lens:
-source:: [[../Lenses/What AI safety field-builders do]]++}
+source:: [[../Lenses/What AI safety field-builders do]]

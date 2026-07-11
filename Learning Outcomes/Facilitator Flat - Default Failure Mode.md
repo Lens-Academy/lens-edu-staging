@@ -27,7 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus pre-commits to a self-check cue (something they'll notice in their own body or behaviour in the first 10 seconds of the failure mode kicking in).
 
-{++{"author":"Luc's AI","timestamp":1783722897082}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722897082}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722897082}@@[[../Lenses/Facilitator++} Flat - Default Failure Mode]]
+## Lens:
+source:: [[../Lenses/Facilitator Flat - Default Failure Mode]]

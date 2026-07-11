@@ -31,11 +31,10 @@ Score according to the following rubric.
 
 **5** — As above, plus identifies the safety implication: if instrumental sub-goal convergence is structural, then any capable AI will exhibit behaviors that look adversarial (resource acquisition, self-preservation, resistance to interference) as a consequence of goal-directed optimization, not because it was designed to be dangerous. *Example: Adds "The alarming part isn't that this AI chose dangerous behavior: it's that dangerous-looking behavior is a predictable byproduct of capable goal-directed optimization generally. You don't need a 'bad' goal; you just need a sufficiently capable system pursuing any goal."*
 
-{++{"author":"Luc's AI","timestamp":1783722866708}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722866708}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722866708}@@[[../Lenses/IABIED++} - Instrumental Sub-Goal Convergence - PQ]]
+## Lens:
+source:: [[../Lenses/IABIED - Instrumental Sub-Goal Convergence - PQ]]
 
 ## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722866708}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722866708}@@[[../Lenses/IABIED++} - Instrumental Sub-Goal Convergence]]{++{"author":"Luc's AI","timestamp":1783722866708}@@
-++}
+source:: [[../Lenses/IABIED - Instrumental Sub-Goal Convergence]]
