@@ -72,9 +72,9 @@ So while _nahhhhh_ might feel right as you read this post, it's probably actuall
 If you're like me, you used to think Artificial Intelligence was a silly sci-fi concept, but lately you've been hearing it mentioned by serious people, and you don't really quite get it.
 
 There are three reasons a lot of people are confused about the term AI:
-**1)****We associate AI with movies.**Star Wars. Terminator. 2001: A Space Odyssey. Even the Jetsons. And those are fiction, as are the robot characters. So it makes AI sound a little fictional to us.
+{--{"author":"Luc's AI","timestamp":1783790039382}@@**1)****We--}{++{"author":"Luc's AI","timestamp":1783790039382}@@**1)** **We++} associate AI with {--{"author":"Luc's AI","timestamp":1783790040869}@@movies.**Star--}{++{"author":"Luc's AI","timestamp":1783790040869}@@movies.** Star++} Wars. Terminator. 2001: A Space Odyssey. Even the Jetsons. And those are fiction, as are the robot characters. So it makes AI sound a little fictional to us.
 
-**2) AI is a broad topic.**It ranges from your phone's calculator to self-driving cars to something in the future that might change the world dramatically. AI refers to all of these things, which is confusing.
+**2) AI is a broad {--{"author":"Luc's AI","timestamp":1783790042534}@@topic.**It--}{++{"author":"Luc's AI","timestamp":1783790042534}@@topic.** It++} ranges from your phone's calculator to self-driving cars to something in the future that might change the world dramatically. AI refers to all of these things, which is confusing.
 
 **3) We use AI all the time in our daily lives, but we often don't realize it's AI.**John McCarthy, who coined the term "Artificial Intelligence" in 1956, complained that "as soon as it works, no one calls it AI anymore." Because of this phenomenon, AI often sounds like a mythical future prediction more than a reality. At the same time, it makes it sound like a pop concept from the past that never came to fruition. Ray Kurzweil says he hears people say that AI withered in the 1980s, which he compares to "insisting that the Internet died in the dot-com bust of the early 2000s."
 
