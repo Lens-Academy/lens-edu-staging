@@ -3,10 +3,7 @@ id: e88076f4-bf6c-45ef-ae0f-012467cdc10b
 title: Cognitive enhancement
 tldr: If the problem is that humans are too slow and too dumb relative to AI, one answer is to make humans smarter. This lens covers the genetics/embryo-selection route to cognitive enhancement.
 summary_for_tutor: "The 'cognitive enhancement' sub-thread of BCI-type solutions: raise human capability directly (pharmacology, genetics, BCI-as-prosthesis) so humans — especially alignment researchers — keep pace. GeneSmith & kman's 'How to Make Superbabies' is the contemporary germline/embryo-selection discourse. Key framing: this is one of the threads that survives the Shulman circularity objection (enhancing humans doesn't require merging with an unaligned AI). Tensions to raise: timelines (a generation too slow to matter for near-term AGI?), and inequality/lock-in (enhancement as privilege of the powerful, antithetical to safe multipolar outcomes)."
-{++{"author":"Elias's AI","timestamp":1783769007210}@@tags:
-  - lens
-  - ai-safety-plans
-++}---
+---
 
 #### Text
 content::
