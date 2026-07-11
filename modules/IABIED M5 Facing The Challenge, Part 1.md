@@ -18,7 +18,8 @@ tags:
 source:: ![[../Lenses/IABIED - M5 Welcome]]
 
 # Submodule: Ch10 - A Cursed Problem
-
+{++{"author":"Luc's AI","timestamp":1783764935749}@@add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/11 - Chapter 10 - A Cursed Problem]]
+++}
 # Lens:
 source:: ![[../Lenses/IABIED - The Five Engineering Curses - PQ]]
 
@@ -38,7 +39,8 @@ source:: ![[../Lenses/IABIED - Position Not Despair]]
 source:: ![[../Learning Outcomes/IABIED - Position Not Despair]]
 
 # Submodule: Ch11 - An Alchemy, Not a Science
-
+{++{"author":"Luc's AI","timestamp":1783764937754}@@add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/12 - Chapter 11 - An Alchemy, Not a Science]]
+++}
 # Lens:
 source:: ![[../Lenses/IABIED - Alchemy Not Science - PQ]]
 

@@ -44,7 +44,8 @@ Ask what they found surprising or new. Check if they can explain the ice cream a
 %%
 
 # Submodule: Ch3 - Learning to Want
-
+{++{"author":"Luc's AI","timestamp":1783764920258}@@add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/03 - Chapter 3 - Learning to Want]]
+++}
 # Lens:
 source:: ![[../Lenses/IABIED - Wanting Emerges from Training - PQ]]
 
@@ -55,7 +56,8 @@ source:: ![[../Lenses/IABIED - Wanting Emerges from Training]]
 source:: ![[../Learning Outcomes/Explain Wanting Emerges from Training]]
 
 # Submodule: Ch4 - You Don't Get What You Train For
-
+{++{"author":"Luc's AI","timestamp":1783764922282}@@add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/04 - Chapter 4 - You Don't Get What You Train For]]
+++}
 # Lens:
 source:: ![[../Lenses/IABIED - You Don't Get What You Train For - PQ]]
 

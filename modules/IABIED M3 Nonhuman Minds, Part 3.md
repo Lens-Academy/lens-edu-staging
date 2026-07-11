@@ -40,7 +40,8 @@ Editorially, this chapter feels feels like a weird collection of oddities. It's 
 Really, the learning outcome here distills back to the power of intelligence (plus technology). 
 
 # Submodule: Ch5 - Its Favorite Things
-
+{++{"author":"Luc's AI","timestamp":1783764924252}@@add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]
+++}
 # Lens:
 source:: ![[../Lenses/IABIED - Define the Goal-Space Argument - PQ]]
 
@@ -69,7 +70,8 @@ source:: ![[../Lenses/IABIED - QA - AI Find Us Fascinating]]
 source:: ![[../Learning Outcomes/IABIED - Distinguish Hostile from Indifferent AI]]
 
 # Submodule: Ch6 - We'd Lose
-
+{++{"author":"Luc's AI","timestamp":1783764926256}@@add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 - We'd Lose]]
+++}
 # Lens:
 source:: ![[../Lenses/IABIED - Define the Aztec Warrior Analogy - PQ]]
 

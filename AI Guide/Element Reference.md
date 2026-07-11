@@ -53,11 +53,13 @@ optional:: true                       ← learner may skip
 hide:: true                           ← hidden from the module page (requires optional:: true)
 ```
 
-A `# Lens:` section has either `source::` (referenced) or `id::` + segments (inline) — not both.
+A `# Lens:` section has either `source::` (referenced) or `id::` + segments (inline) — not both.{++{"author":"Luc's AI","timestamp":1783764986306}@@
+
+A `# Submodule:` marker may carry `add_to_ai_context:: [[wikilink]]` (one or more `[[...]]`) — that content is added to the AI tutor's context for every lens and test in the submodule. Use this for per-chapter source material (module-level covers the whole module; submodule-level scopes to one chapter).++}
 
 ## Learning Outcome — `Learning Outcomes/<Name>.md`
 
-Frontmatter: required `id`; optional `learning-outcome` (the outcome statement — start with an action verb: Explain, Distinguish, Identify, Compare, Evaluate, Apply...), `discussion`, `tags`, `add_to_ai_context`.
+Frontmatter: required `id`; optional `learning-outcome` (the outcome statement — start with an action verb: Explain, Distinguish, Identify, Compare, Evaluate, Apply...), `discussion`, {--{"author":"Luc's AI","timestamp":1783764983204}@@`tags`, `add_to_ai_context`.--}{++{"author":"Luc's AI","timestamp":1783764983204}@@`tags`. **Do not** put `add_to_ai_context` on a Learning Outcome — it is an error. Put it on the lens, the module, or the `# Submodule:` marker instead.++}
 
 Body = H2 sections:
 
