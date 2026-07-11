@@ -27,7 +27,7 @@ slug:: dummy-submodule-2
 source:: [[../Lenses/Dummy lens 3]]
 
 ## Learning Outcome:
-source:: [[../Learning Outcomes/Dummy {--{"author":"Elias's AI","timestamp":1783779989814}@@learning outcome]]--}{++{"author":"Elias's AI","timestamp":1783779989814}@@Learning Outcome]]++}
+source:: [[../Learning Outcomes/Dummy Learning Outcome]]
 
 
 %% By the way, if a module contains submodules, then all its lenses must be inside of submodules. That is, you must start the file with defining a submodule. That is, you can't have a lens without a submodule first and then have a submodule.. %%
