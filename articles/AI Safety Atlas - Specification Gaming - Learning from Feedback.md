@@ -81,7 +81,7 @@ Although training sequences may vary slightly across organizations, most labs ad
 
 - **Step 1: Supervised **Fine-tuning**:** A fine-tuning dataset is created by presenting a prompt to a human and asking them to write a response. This process yields a dataset of (prompt, output) pairs. This dataset is then used to fine-tune the LLM through supervised learning, a form of behavioral cloning.
 
-- **Step 2:** **Train a Reward Model: **We train an additional reward model. We initially prompt the fine-tuned LLM and gather several output samples for the same prompt. A human then ranks these samples from best to worst. This ranking is used to train the reward model to predict what a human would rank higher.
+- **Step 2:** **Train a Reward {--{"author":"Luc's AI","timestamp":1783790020619}@@Model: **We--}{++{"author":"Luc's AI","timestamp":1783790020619}@@Model:** We++} train an additional reward model. We initially prompt the fine-tuned LLM and gather several output samples for the same prompt. A human then ranks these samples from best to worst. This ranking is used to train the reward model to predict what a human would rank higher.
 - **Step 3: Reinforcement learning:** Once we have both a fine-tuned LLM and a reward model, we can employ Proximal Policy Optimization (PPO)-based reinforcement learning to encourage the fine-tuned model to maximize the reward that the reward model, which mimics human rankings, offers.
 
 **Reward hacking in feedback methods**
