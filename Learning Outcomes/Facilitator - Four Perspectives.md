@@ -27,7 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus identifies the cost of their specific neglect (e.g., context-neglect → session lands on wrong question; self-neglect → impatience or anxiety leaks into the room).
 
-{++{"author":"Luc's AI","timestamp":1783722697558}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722697558}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722697558}@@[[../Lenses/Facilitator++} - Four Perspectives]]
+## Lens:
+source:: [[../Lenses/Facilitator - Four Perspectives]]

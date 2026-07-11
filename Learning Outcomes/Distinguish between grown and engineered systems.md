@@ -7,14 +7,10 @@ tags:
 ---
 ## Test:
 
-{++{"author":"Luc's AI","timestamp":1783722684494}@@
-# Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722684494}@@![[../Lenses/AI--}{++{"author":"Luc's AI","timestamp":1783722684494}@@[[../Lenses/AI++} Is Grown, Not Built|AI Is Grown, Not Built]]{--{"author":"Luc's AI","timestamp":1783722684494}@@
---}{++{"author":"Luc's AI","timestamp":1783722684494}@@
 
-++}## Lens:
-{--{"author":"Luc's AI","timestamp":1783722684494}@@optional:: true
-hide:: true
---}source:: {--{"author":"Luc's AI","timestamp":1783722684494}@@![[../Lenses/Security--}{++{"author":"Luc's AI","timestamp":1783722684494}@@[[../Lenses/Security++} Mindset and Ordinary Paranoia|Security Mindset and Ordinary Paranoia]]{++{"author":"Luc's AI","timestamp":1783722684494}@@
-++}
+# Suggested Lenses:
+## Lens:
+source:: [[../Lenses/AI Is Grown, Not Built|AI Is Grown, Not Built]]
+
+## Lens:
+source:: [[../Lenses/Security Mindset and Ordinary Paranoia|Security Mindset and Ordinary Paranoia]]

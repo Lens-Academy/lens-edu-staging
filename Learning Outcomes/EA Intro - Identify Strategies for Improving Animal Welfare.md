@@ -10,7 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-{++{"author":"Luc's AI","timestamp":1783722636292}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722636292}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722636292}@@[[../Lenses/EA++} Intro - Factory Farming Problem Profile]]
+## Lens:
+source:: [[../Lenses/EA Intro - Factory Farming Problem Profile]]
