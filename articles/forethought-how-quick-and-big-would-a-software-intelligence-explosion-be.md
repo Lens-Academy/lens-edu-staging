@@ -761,7 +761,11 @@ We also increase the distance to effective limits. The simulation starts at an e
 
 Here are the results:
 
-<table><tbody><tr><th><strong>Years of progress</strong></th><th colspan="2"><strong>Compressed into ≤1 year</strong></th><th colspan="2"><strong>Compressed into ≤4 months</strong></th><td></td><td></td></tr><tr><th></th><th>GB</th><th>No GB</th><th>GB</th><th>No GB</th></tr><tr><td>≥3 years</td><td>59%</td><td>56%</td><td>48%</td><td>41%</td></tr><tr><td>≥10 years</td><td>32%</td><td>17%</td><td>24%</td><td>12%</td></tr></tbody></table>
+{--{"author":"Elias's AI","timestamp":1783775997449}@@<table><tbody><tr><th><strong>Years--}{++{"author":"Elias's AI","timestamp":1783775997449}@@| **Years++} of {--{"author":"Elias's AI","timestamp":1783775997449}@@progress</strong></th><th colspan="2"><strong>Compressed--}{++{"author":"Elias's AI","timestamp":1783775997449}@@progress** | **Compressed++} into ≤1 {--{"author":"Elias's AI","timestamp":1783775997449}@@year</strong></th><th colspan="2"><strong>Compressed--}{++{"author":"Elias's AI","timestamp":1783775997449}@@year** |  | **Compressed++} into ≤4 {--{"author":"Elias's AI","timestamp":1783775997449}@@months</strong></th><td></td><td></td></tr><tr><th></th><th>GB</th><th>No GB</th><th>GB</th><th>No GB</th></tr><tr><td>≥3 years</td><td>59%</td><td>56%</td><td>48%</td><td>41%</td></tr><tr><td>≥10 years</td><td>32%</td><td>17%</td><td>24%</td><td>12%</td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1783775997449}@@months** |  |
+| --- | --- | --- | --- | --- |
+|  | GB | No GB | GB | No GB |
+| ≥3 years | 59% | 56% | 48% | 41% |
+| ≥10 years | 32% | 17% | 24% | 12% |++}
 
 ![Probability curve for gradual boost model variant showing likelihood of compressing AI progress into one year: 59% chance for 3+ years, 32% chance for 10+ years, with declining probability for more dramatic compression](https://images.ctfassets.net/4owxfjx3z3if/4aruN7HsGlPwaNqTraucL8/0fee1324115d6525bcebc6151b230f01/gradual-boost-probability-results.png?w=3840&q=85&fm=webp)
 

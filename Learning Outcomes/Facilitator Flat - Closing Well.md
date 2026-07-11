@@ -4,8 +4,7 @@ learning-outcome: "Describe the three-part close (Reflect, Integrate, Ritual) an
 authors:
   - Yatharth+Claude
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783771867675}@@learning-outcome
-  - --}facilitator-training
+  - facilitator-training
 ---
 
 ## Test:

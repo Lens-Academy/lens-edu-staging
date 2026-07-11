@@ -4,8 +4,7 @@ learning-outcome: "Name three things that are harder online and three that are e
 authors:
   - Yatharth+Claude
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783771909967}@@learning-outcome
-  - --}facilitator-training
+  - facilitator-training
 ---
 
 ## Test:

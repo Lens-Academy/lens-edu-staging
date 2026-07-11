@@ -5,10 +5,7 @@ reading-from: "beginning of chapter"
 reading-to: "But we don't know how else humanity could survive."
 authors:
   - Chris+Claude
-{--{"author":"Elias's AI","timestamp":1783770980533}@@tags:
-  - learning-outcome
-  - IABIED
---}---
+---
 
 ## Test:
 id:: f9c4b820-5a71-4d83-9e12-7b3f0c5d8a91

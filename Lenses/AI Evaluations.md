@@ -3,9 +3,7 @@ id: 2d930d96-1658-4143-b29c-52e3b9259396
 summary_for_tutor: Introduces AI evaluations as structured tests designed to measure capabilities, propensities, and safety thresholds of AI models. Distinguishes safety evaluations from general performance benchmarks. Poses the key question of why high benchmark accuracy does not guarantee deployment safety.
 title: AI Evaluations
 tldr: How do you know if an AI system is safe? Evaluations are structured tests designed to measure what models can do — especially the dangerous things. But passing a test and being safe aren't the same thing, and understanding why is the first step to better measurement.
-{--{"author":"Elias's AI","timestamp":1783770580158}@@tags:
-  - lens
---}---
+---
 
 #### Text
 content::

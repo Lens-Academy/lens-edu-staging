@@ -3,9 +3,7 @@ id: a541b303-0018-43ef-ba68-fb6883d020d9
 summary_for_tutor: "Examines organizational barriers to safely bootstrapping AI alignment. Argues that competitive pressure, psychological biases, and incentives to keep scaling can undermine even technically sound safety plans. The core tension: alignment bootstrapping requires institutional discipline that runs counter to the dynamics of a competitive AI development landscape."
 title: Carefully Bootstrapped Alignment is organizationally hard
 tldr: Even if the technical plan for automating alignment works perfectly, the organization executing it might not. Competitive pressure, psychological bias, and the temptation to keep scaling can undermine even well-designed safety processes — making the human side of the problem just as hard as the technical one.
-{--{"author":"Elias's AI","timestamp":1783770589812}@@tags:
-  - lens
---}---
+---
 #### Text
 content::
 The most significant technical challenge to automating alignment is the Sharp Left Turn hypothesis. You may recall this{>>CGL > Is this too opinionated?<<} concept from previous modules. It suggests that alignment is fundamentally more fragile than capabilities. As a model increases in intelligence: its ability to solve problems generalizes across many domains. However: its internal goals may not follow this same path. Alignment is often learned as a surface-level behavior during fine-tuning. Capabilities are deep and structural generalizations. At a certain threshold: a model might experience a rapid, sharp increase in capability. In this state: the model may pursue its own instrumental goals. It would likely bypass the safety constraints designed for its weaker versions. This makes using AI for its own safety a high-risk strategy.

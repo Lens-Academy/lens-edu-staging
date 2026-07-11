@@ -1,9 +1,7 @@
 ---
 id: ebe5405c-518a-47cb-9cc6-6a467788af5f
 learning-outcome: Reason about training stories and outer and inner (mis)alignment, challenges to these notions, and the relationship to inductive biases
-{--{"author":"Elias's AI","timestamp":1783770656182}@@tags:
-  - learning outcome
---}---
+---
 ## Test:
 id:: 25b8e101-ea1a-43bc-a550-96529c3b8e20
 #### Question

@@ -6,8 +6,7 @@ reading-to: "And how could they possibly do that, if they're trapped inside comp
 authors:
   - Chris+Claude
 tags:
-  - learning-outcome{--{"author":"Elias's AI","timestamp":1783771484710}@@
-  - IABIED--}
+  - learning-outcome
 ---
 
 ## Test:
