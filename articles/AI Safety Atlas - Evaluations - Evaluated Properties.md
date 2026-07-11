@@ -86,7 +86,7 @@ Just like the list provided in the capabilities sub section above, this list of 
 
 **Control evaluations assess safety measures under adversarial conditions**[^8].** **Beyond understanding capabilities and propensities, we need to verify that our safety measures remain effective when AI systems actively try to circumvent them ([Greenblatt et al., 2023](https://arxiv.org/abs/2312.06942)). They give us information about whether our safety infrastructure would remain robust in worst-case scenarios. For example, a model might typically display helpful behavior (a propensity) and have code generation abilities (a capability), but a control evaluation would test whether constraints preventing access to sensitive data can be circumvented, or whether emergency shutdown procedures remain effective even under adversarial conditions.
 
-**Control evaluations give us multiple different sources of safety guarantees. **Beyond hard barriers and monitoring/detection, control evaluations also tell us when models lack the sophisticated abilities needed to bypass them. There are a couple of different reasons why control evaluations might show safety:
+**Control evaluations give us multiple different sources of safety {--{"author":"Luc's AI","timestamp":1783790194747}@@guarantees. **Beyond--}{++{"author":"Luc's AI","timestamp":1783790194747}@@guarantees.** Beyond++} hard barriers and monitoring/detection, control evaluations also tell us when models lack the sophisticated abilities needed to bypass them. There are a couple of different reasons why control evaluations might show safety:
 
 1. Hard barriers (physical/technical limitations like air gaps)
 2. Detection mechanisms (monitoring that catches attack attempts)
