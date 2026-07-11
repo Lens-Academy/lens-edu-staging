@@ -1,7 +1,7 @@
 ---
-title: "— The Adolescence of Technology"
+title: {--{"author":"Elias's AI","timestamp":1783779760361}@@"— The--}{++{"author":"Elias's AI","timestamp":1783779760361}@@"The++} Adolescence of Technology"
 author:
-  - "Dario Amodei" {>>{"author":"Elias's AI","timestamp":1783777181877}@@Title fix: when accepting the title edit above, please also delete the leftover leading em dash + non-breaking space so the title reads exactly "The Adolescence of Technology" — the MCP edit tool could not match those bytes. Also normalized author "Darioamodei" -> "Dario Amodei".<<}
+  - "Dario Amodei"{--{"author":"Elias's AI","timestamp":1783779839614}@@ {>>{"author":"Elias's AI","timestamp":1783777181877}@@Title fix: when accepting the title edit above, please also delete the leftover leading em dash + non-breaking space so the title reads exactly "The Adolescence of Technology" — the MCP edit tool could not match those bytes. Also normalized author "Darioamodei" -> "Dario Amodei".<<}--}
 source_url: "https://www.darioamodei.com/essay/the-adolescence-of-technology"
 published: 2026-06-21
 created: 2026-06-21
@@ -23,20 +23,24 @@ As with talking about the benefits, I think it is important to discuss risks in 
 
 With all that said, I think the best starting place for talking about AI’s risks is the same place I started from in talking about its benefits: by being precise about what level of AI we are talking about. The level of AI that raises civilizational concerns for me is the _powerful AI_ that I described in _Machines of Loving Grace._ I’ll simply repeat here the definition that I gave in that document:
 
-<blockquote>
+{--{"author":"Elias's AI","timestamp":1783779789606}@@<blockquote>
 
-By “powerful AI,” I have in mind an AI model—likely similar to today’s LLMs in form, though it might be based on a different architecture, might involve several interacting models, and might be trained differently—with the following properties:
+--}{++{"author":"Elias's AI","timestamp":1783779789606}@@> ++}By “powerful AI,” I have in mind an AI model—likely similar to today’s LLMs in form, though it might be based on a different architecture, might involve several interacting models, and might be trained differently—with the following properties:{--{"author":"Elias's AI","timestamp":1783779789606}@@
 
--   In terms of pure intelligence, it is smarter than a Nobel Prize winner across most relevant fields: biology, programming, math, engineering, writing, etc. This means it can prove unsolved mathematical theorems, write extremely good novels, write difficult codebases from scratch, etc.
--   In addition to just being a “smart thing you talk to,” it has all the interfaces available to a human working virtually, including text, audio, video, mouse and keyboard control, and internet access. It can engage in any actions, communications, or remote operations enabled by this interface, including taking actions on the internet, taking or giving directions to humans, ordering materials, directing experiments, watching videos, making videos, and so on. It does all of these tasks with, again, a skill exceeding that of the most capable humans in the world.
--   It does not just passively answer questions; instead, it can be given tasks that take hours, days, or weeks to complete, and then goes off and does those tasks autonomously, in the way a smart employee would, asking for clarification as necessary.
--   It does not have a physical embodiment (other than living on a computer screen), but it can control existing physical tools, robots, or laboratory equipment through a computer; in theory, it could even design robots or equipment for itself to use.
--   The resources used to train the model can be repurposed to run millions of instances of it (this matches projected cluster sizes by ~2027), and the model can absorb information and generate actions at roughly 10–100x human speed. It may, however, be limited by the response time of the physical world or of software it interacts with.
--   Each of these million copies can act independently on unrelated tasks, or, if needed can all work together in the same way humans would collaborate, perhaps with different subpopulations fine-tuned to be especially good at particular tasks.
+--}{++{"author":"Elias's AI","timestamp":1783779789606}@@
+>
+> ++}-   In terms of pure intelligence, it is smarter than a Nobel Prize winner across most relevant fields: biology, programming, math, engineering, writing, etc. This means it can prove unsolved mathematical theorems, write extremely good novels, write difficult codebases from scratch, etc.
+{++{"author":"Elias's AI","timestamp":1783779789606}@@> ++}-   In addition to just being a “smart thing you talk to,” it has all the interfaces available to a human working virtually, including text, audio, video, mouse and keyboard control, and internet access. It can engage in any actions, communications, or remote operations enabled by this interface, including taking actions on the internet, taking or giving directions to humans, ordering materials, directing experiments, watching videos, making videos, and so on. It does all of these tasks with, again, a skill exceeding that of the most capable humans in the world.
+{++{"author":"Elias's AI","timestamp":1783779789606}@@> ++}-   It does not just passively answer questions; instead, it can be given tasks that take hours, days, or weeks to complete, and then goes off and does those tasks autonomously, in the way a smart employee would, asking for clarification as necessary.
+{++{"author":"Elias's AI","timestamp":1783779789606}@@> ++}-   It does not have a physical embodiment (other than living on a computer screen), but it can control existing physical tools, robots, or laboratory equipment through a computer; in theory, it could even design robots or equipment for itself to use.
+{++{"author":"Elias's AI","timestamp":1783779789606}@@> ++}-   The resources used to train the model can be repurposed to run millions of instances of it (this matches projected cluster sizes by ~2027), and the model can absorb information and generate actions at roughly 10–100x human speed. It may, however, be limited by the response time of the physical world or of software it interacts with.
+{++{"author":"Elias's AI","timestamp":1783779789606}@@> ++}-   Each of these million copies can act independently on unrelated tasks, or, if needed can all work together in the same way humans would collaborate, perhaps with different subpopulations fine-tuned to be especially good at particular tasks.{--{"author":"Elias's AI","timestamp":1783779789606}@@
 
-We could summarize this as a “country of geniuses in a datacenter.”
+--}{++{"author":"Elias's AI","timestamp":1783779789606}@@
+>
+> ++}We could summarize this as a “country of geniuses in a datacenter.”{--{"author":"Elias's AI","timestamp":1783779789606}@@
 
-</blockquote>
+</blockquote>--}
 
 As I wrote in _Machines of Loving Grace_, powerful AI could be as little as 1–2 years away, although it could also be considerably further out.[^6] Exactly when powerful AI will arrive is a complex topic that deserves an essay of its own, but for now I’ll simply explain very briefly why I think there’s a strong chance it could be very soon.
 
