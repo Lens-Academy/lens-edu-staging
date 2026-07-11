@@ -2,7 +2,7 @@
 title: "Agent foundations: not really math, not really science"
 source_url: "https://www.lesswrong.com/posts/Dt4DuCCok3Xv5HEnG/agent-foundations-not-really-math-not-really-science"
 author:
-  - "Alex_Altair"
+  - "Alex Altair"
 published: 2025-08-17
 created: 2026-02-27
 description: "These ideas are not well-communicated, and I'm hoping readers can help me understand them better in the comments. …"
