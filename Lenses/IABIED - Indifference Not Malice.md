@@ -65,7 +65,7 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-b]]{>>{"author":"Luc's AI","timestamp":1783779611272}@@This Phase 2 block is byte-identical in 3 lenses (Human Welfare, Indifference Not Malice, Instrumental Sub-Goal Convergence); deduplicated into the shared prompt file with the text unchanged.<<}
+assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-b]]
 
 #### Question
 content::
