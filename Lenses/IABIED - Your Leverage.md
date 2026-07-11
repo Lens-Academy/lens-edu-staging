@@ -12,7 +12,7 @@ tags:
 #### Text
 content::
 \## From argument to action
-You've just read the book's darkest stretch. The authors' point isn't despair. It's that this is worth acting on while acting still matters. Over the coming weeks you'll sketch a personal action plan. Today is the raw material: three short exercises with the {--{"author":"Elias's AI","timestamp":1783755276148}@@Coach.--}{++{"author":"Elias's AI","timestamp":1783755276148}@@tutor.++}
+You've just read the book's darkest stretch. The authors' point isn't despair. It's that this is worth acting on while acting still matters. Over the coming weeks you'll sketch a personal action plan. Today is the raw material: three short exercises with the tutor.
 
 ---
 
@@ -42,7 +42,7 @@ Response style:
 #### Question
 content::
 \## Phase 2: Where could this bite?
-Now research with the {--{"author":"Elias's AI","timestamp":1783755279026}@@Coach:--}{++{"author":"Elias's AI","timestamp":1783755279026}@@tutor:++} where could someone with *your* profile plausibly contribute to AI safety? Push back, ask for specifics, and don't settle for flattery. Aim to end with 1–2 concrete paths and a realistic first step for each.
+Now research with the tutor: where could someone with *your* profile plausibly contribute to AI safety? Push back, ask for specifics, and don't settle for flattery. Aim to end with 1–2 concrete paths and a realistic first step for each.
 
 assessment-instructions:: This is an open research conversation, not an assessment. The student brings the strengths inventory from Phase 1; your job is to help them find where their profile has real purchase on AI safety.
 
