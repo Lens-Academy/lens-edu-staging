@@ -6,8 +6,8 @@ tldr: "Most of what participants communicate isn't in their words. Online signal
 authors:
   - Yatharth+Claude
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783770797932}@@lens
+  - --}facilitator-training
 ---
 #### Text
 content::

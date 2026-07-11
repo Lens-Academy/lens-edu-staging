@@ -6,10 +6,10 @@ discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 readings:
   - "Chapter 3: Learning to Want"
   - "Chapter 4: You Don't Get What You Train For"
-tags:
+{--{"author":"Elias's AI","timestamp":1783770961076}@@tags:
   - IABIED
   - module
----
+--}---
 
 # Submodule: Welcome
 # Lens: Welcome

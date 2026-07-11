@@ -5,10 +5,10 @@ title: Your Leverage
 tldr: "The scenario you just read is grim on purpose. This is where you stop spectating: map what you're unusually good at, then find where it bites on the problem."
 authors:
   - Elias+Claude
-tags:
+{--{"author":"Elias's AI","timestamp":1783770816310}@@tags:
   - lens
   - IABIED
----
+--}---
 #### Text
 content::
 \## From argument to action

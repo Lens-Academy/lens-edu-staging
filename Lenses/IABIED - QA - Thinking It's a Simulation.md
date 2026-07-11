@@ -4,9 +4,9 @@ summary_for_tutor: Examines the proposal of making AI uncertain about whether it
 title: "What if we make it think it's in a simulation?"
 tldr: "There are many ways for an AI to figure out that it's not in a simulation."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770901062}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 #### Text
 content::

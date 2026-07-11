@@ -5,10 +5,10 @@ title: "Before Reading — You Don't Get What You Train For"
 tldr: If you reward an AI for acting helpful, will it end up wanting to be helpful? Think carefully before reading.
 authors:
   - Chris+Claude
-tags:
+{--{"author":"Elias's AI","timestamp":1783770805200}@@tags:
   - lens
   - IABIED
-add_to_ai_context:
+--}add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/04 - Chapter 4 - You Don't Get What You Train For]]"
 ---
 #### Question

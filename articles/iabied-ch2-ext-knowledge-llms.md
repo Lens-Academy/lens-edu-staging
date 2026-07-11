@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770844093}@@
+  - IABIED--}
 ---
 What follows from understanding LLMs? How does it help us understand smarter-than-human AI and how to prevent everyone from dying?
 

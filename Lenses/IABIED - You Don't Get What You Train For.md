@@ -5,10 +5,10 @@ title: You Don't Get What You Train For
 tldr: You trained it to be helpful. But helpful in training isn't the same as wanting to be helpful later. Chapter 4 explains why, and it gets worse.
 authors:
   - Chris+Claude
-tags:
+{--{"author":"Elias's AI","timestamp":1783770811386}@@tags:
   - lens
   - IABIED
-add_to_ai_context:
+--}add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/04 - Chapter 4 - You Don't Get What You Train For]]"
 ---
 

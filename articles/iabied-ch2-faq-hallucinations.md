@@ -6,8 +6,8 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings
-  - IABIED
+  - clippings{--{"author":"Elias's AI","timestamp":1783770940883}@@
+  - IABIED--}
 ---
 #### Hallucinations reveal both a limitation and a misalignment.
 

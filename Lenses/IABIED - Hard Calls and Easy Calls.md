@@ -5,10 +5,10 @@ title: "Hard Calls and Easy Calls"
 tldr: Some predictions feel obvious in retrospect but look crazy in the moment. The authors have a framework for why, and they use it to make a bold claim about AI.
 authors:
   - Chris+Claude
-tags:
+{--{"author":"Elias's AI","timestamp":1783770763500}@@tags:
   - lens
   - IABIED
-add_to_ai_context:
+--}add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/00 - Introduction - Hard Calls and Easy Calls]]"
 ---
 #### Text

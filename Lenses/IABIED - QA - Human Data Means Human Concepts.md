@@ -4,9 +4,9 @@ summary_for_tutor: Addresses whether training on human data makes AIs likelier t
 title: "If AIs are trained on human data, doesn't that make them likelier to care about human concepts?"
 tldr: "Yes, but this doesn't help much."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770807611}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 #### Text
 content::

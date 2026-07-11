@@ -3,9 +3,9 @@ id: 7bca2049-a575-4c9c-a598-b5dcc6f5757b
 summary_for_tutor: "Introduces the distinction between terminal goals (valued intrinsically) and instrumental goals (valued as means). Demonstrates that wildly different terminal goals converge on similar instrumental strategies like resource acquisition and self-preservation. Uses the 'you can't fetch the coffee if you're dead' example to show why dangerous instrumental behavior is predictable even when specific AI desires are unknown."
 title: Terminal Goals and Instrumental Goals
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770809230}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 #### Text
 content::

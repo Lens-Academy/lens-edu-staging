@@ -4,9 +4,9 @@ summary_for_tutor: Argues that popular culture systematically underestimates int
 title: Appreciating the Power of Intelligence
 tldr: 'Hollywood "Intelligence"'
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770787638}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

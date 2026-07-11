@@ -5,10 +5,10 @@ title: Wanting Emerges from Training
 tldr: Nobody programmed Stockfish to want to win. And yet it does. Chapter 3 explains how wanting sneaks in through the back door of training.
 authors:
   - Chris+Claude
-tags:
+{--{"author":"Elias's AI","timestamp":1783770790669}@@tags:
   - lens
   - IABIED
-add_to_ai_context:
+--}add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/03 - Chapter 3 - Learning to Want]]"
 ---
 #### Text

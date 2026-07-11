@@ -4,9 +4,9 @@ summary_for_tutor: "Addresses the dismissal that people always overreact to new 
 title: "Aren't people always panicking and overreacting to things?"
 tldr: "Yes. But this doesn't mean that nothing is ever actually dangerous."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770775933}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

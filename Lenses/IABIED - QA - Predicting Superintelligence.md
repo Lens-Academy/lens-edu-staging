@@ -4,9 +4,9 @@ summary_for_tutor: "Addresses whether superintelligence would be unpredictable. 
 title: "Isn't it impossible to predict the behavior of a superintelligence?"
 tldr: "In some respects, but not in every respect."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770791090}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

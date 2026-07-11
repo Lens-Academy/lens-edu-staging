@@ -3,9 +3,9 @@ id: 4a6836a1-9572-43da-9560-0bcaef788555
 slug: module-fundamental-difficulties
 title: "Fundamental Difficulties"
 discussion: https://discord.com/channels/1440725236843806762/1467932217312547019
-tags:
+{--{"author":"Elias's AI","timestamp":1783770852994}@@tags:
   - module
----
+--}---
 # Lens: Welcome
 id:: 2a219827-f4dd-4c77-86dd-5098df71f62d
 #### Text

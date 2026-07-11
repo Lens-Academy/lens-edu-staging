@@ -4,8 +4,8 @@ title: "Optional — Skills of a Timelord (Sara Ness, 10 min)"
 authors:
   - Yatharth+Claude
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783770855724}@@lens
+  - --}facilitator-training
 ---
 #### Video
 source:: [[../video_transcripts/lens-academy-skills-of-a-time-lord]]

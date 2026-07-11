@@ -2,8 +2,8 @@
 id: 0256486e-574d-460c-9c92-088b15841afe
 title: "Facilitator M3 — Overview of Optional Resources"
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783770776299}@@lens
+  - --}facilitator-training
 ---
 
 #### Text

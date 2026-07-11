@@ -2,9 +2,9 @@
 id: 2ab417b5-ff4e-4743-8d46-8b4eea5ef788
 title: "Why did you pick this setup?"
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770813180}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/14 - Chapter 13 - Shut It Down]]"
 ---

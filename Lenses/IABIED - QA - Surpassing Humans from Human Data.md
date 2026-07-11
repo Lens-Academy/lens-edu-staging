@@ -4,9 +4,9 @@ summary_for_tutor: "Explains how AI trained on human data can surpass humans. De
 title: "How could an AI trained only on human data surpass humans?"
 tldr: "Perhaps by learning general skills and implementing them better."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770785808}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

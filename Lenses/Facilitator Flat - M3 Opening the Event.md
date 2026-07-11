@@ -4,8 +4,8 @@ title: "Optional — Opening the Event (Sara Ness, 6 min)"
 authors:
   - Yatharth+Claude
 tags:
-  - lens
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783770759340}@@lens
+  - --}facilitator-training
 ---
 #### Video
 source:: [[../video_transcripts/lens-academy-opening-the-event]]

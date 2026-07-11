@@ -4,9 +4,9 @@ summary_for_tutor: "Explains why gradient descent matters for AI safety. The rea
 title: "Why does gradient descent matter?"
 tldr: "It's important for understanding how engineers can and cannot shape modern AIs."
 tags:
-  - lens
+  - {--{"author":"Elias's AI","timestamp":1783770763494}@@lens
   - IABIED
-  - supplementary
+  - --}supplementary
 ---
 
 #### Text

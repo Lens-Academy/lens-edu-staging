@@ -5,10 +5,10 @@ title: "Pre-Reading Question - Ladder in the Dark"
 tldr: Before reading, think about what it would actually take to stop a competitive race, even one everyone knows is dangerous.
 authors:
   - Chris+Claude
-tags:
+{--{"author":"Elias's AI","timestamp":1783770880537}@@tags:
   - lens
   - IABIED
----
+--}---
 
 #### Question
 content:: Imagine multiple parties competing for something important, like a business race, an arms race, or a scientific contest. If all parties knew that continuing the competition posed serious risks for everyone, would that knowledge be enough to stop them? What would it actually take to halt the competition?

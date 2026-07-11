@@ -7,10 +7,10 @@ readings:
   - "Chapter 1: Humanity's Special Power"
   - "Chapter 2: Grown, Not Crafted"
 discussion: https://discord.com/channels/1440725236843806762/1494711781648629921
-tags:
+{--{"author":"Elias's AI","timestamp":1783770957105}@@tags:
   - IABIED
   - module
----
+--}---
 
 # Submodule: Welcome
 # Lens: Welcome
