@@ -4,8 +4,8 @@ learning-outcome: "Name all seven 'taking shares' moves (Reflect, Paraphrase, De
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783771932908}@@learning-outcome
+  - --}facilitator-training
 ---
 
 ## Test:

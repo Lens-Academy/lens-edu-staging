@@ -4,8 +4,8 @@ learning-outcome: "Name three moves that engage quiet participants without putti
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783771881113}@@learning-outcome
+  - --}facilitator-training
 ---
 
 ## Test:

@@ -4,8 +4,8 @@ learning-outcome: "Describe the flipped-classroom approach in one sentence, iden
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783771883472}@@learning-outcome
+  - --}facilitator-training
 ---
 
 ## Test:

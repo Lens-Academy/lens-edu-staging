@@ -4,8 +4,8 @@ learning-outcome: "Apply the 'Name it, apologise lightly if warranted, move forw
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783771923545}@@learning-outcome
+  - --}facilitator-training
 ---
 
 ## Test:

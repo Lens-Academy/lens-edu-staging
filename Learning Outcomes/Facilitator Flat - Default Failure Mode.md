@@ -4,8 +4,8 @@ learning-outcome: "Identify your default failure mode under pressure (pufferfish
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
-  - facilitator-training
+  - {--{"author":"Elias's AI","timestamp":1783771874547}@@learning-outcome
+  - --}facilitator-training
 ---
 
 ## Test:
