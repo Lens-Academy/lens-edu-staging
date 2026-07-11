@@ -7,9 +7,9 @@ title: "Explain Intelligence Is Direction-Agnostic"
 slug: intelligence-is-direction-agnostic
 authors:
   - Chris+Claude
-add_to_ai_context:
+{--{"author":"Luc's AI","timestamp":1783764666255}@@add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]"
-tags:
+--}tags:
   - learning-outcome
   - IABIED
 ---

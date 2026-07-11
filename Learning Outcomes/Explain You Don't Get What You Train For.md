@@ -5,9 +5,9 @@ reading-from: "A MILLION YEARS ago, when one branch of primates was still master
 reading-to: "That's the next chapter."
 authors:
   - Chris+Claude
-add_to_ai_context:
+{--{"author":"Luc's AI","timestamp":1783764669755}@@add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/04 - Chapter 4 - You Don't Get What You Train For]]"
-tags:
+--}tags:
   - learning-outcome
   - IABIED
 ---

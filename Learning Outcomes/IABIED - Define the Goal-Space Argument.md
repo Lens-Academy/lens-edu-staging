@@ -5,9 +5,9 @@ reading-from: "THERE ONCE WAS a civilization of aliens, biological rather than m
 reading-to: "Making a future full of flourishing people is not the best, most efficient way to fulfill strange alien purposes. So it wouldn't happen to do that, any more than we'd happen to ensure that our dwellings always contain a prime number of stones."
 authors:
   - Chris+Claude
-add_to_ai_context:
+{--{"author":"Luc's AI","timestamp":1783764673254}@@add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]"
-tags:
+--}tags:
   - learning-outcome
   - IABIED
 ---

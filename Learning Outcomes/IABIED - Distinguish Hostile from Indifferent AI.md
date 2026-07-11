@@ -5,9 +5,9 @@ reading-from: "In a sense, that's all there is to it."
 reading-to: "And how could they possibly do that, if they're trapped inside computers?"
 authors:
   - Chris+Claude
-add_to_ai_context:
+{--{"author":"Luc's AI","timestamp":1783764678756}@@add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]"
-tags:
+--}tags:
   - learning-outcome
   - IABIED
 ---
