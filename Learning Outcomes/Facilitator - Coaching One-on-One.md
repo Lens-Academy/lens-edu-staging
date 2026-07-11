@@ -27,7 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus identifies the AWE Question ("And what else?") as the most under-used — and uses GROW for heavier decisions.
 
-{++{"author":"Luc's AI","timestamp":1783722738231}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722738231}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722738231}@@[[../Lenses/Facilitator++} - Coaching One-on-One]]
+## Lens:
+source:: [[../Lenses/Facilitator - Coaching One-on-One]]

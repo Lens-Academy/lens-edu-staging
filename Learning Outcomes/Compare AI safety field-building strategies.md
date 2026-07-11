@@ -4,11 +4,7 @@ learning-outcome: Compare AI safety field-building strategies (courses, fellowsh
 tags:
   - learning outcome
 ---
-{--{"author":"Luc's AI","timestamp":1783722806711}@@## Lens:
-source:: [[../Lenses/AI safety talent needs in 2026]]
-## Lens:
-source:: [[../Lenses/Courses as field-building]]
---}## Test:
+## Test:
 id:: 814cb88a-ce26-4b1e-9d05-0fc5dadeea70
 #### Question
 feedback:: true
@@ -24,11 +20,11 @@ max-chars:: 600
 feedback:: true
 content:: Name one risk or tension that field-building has to manage as it grows the talent pool.
 assessment-instructions:: Credit any well-explained tension from the readings: capabilities leakage (people trained for safety flowing into capabilities work), quality dilution as the field scales, over-optimizing for researchers vs founders/managers, or funder concentration. Award 4-5 for a clearly explained risk with a why; 3 for a named risk with thin explanation; 1-2 if vague or off-topic. Accept paraphrase.
-max-chars:: 400{++{"author":"Luc's AI","timestamp":1783722812543}@@
+max-chars:: 400
 
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/AI safety talent needs in 2026]]
 
 ## Lens:
-source:: [[../Lenses/Courses as field-building]]++}
+source:: [[../Lenses/Courses as field-building]]

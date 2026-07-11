@@ -10,10 +10,10 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-{++{"author":"Luc's AI","timestamp":1783722627822}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722627822}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722627822}@@[[../Lenses/EA++} Intro - On Caring]]
+## Lens:
+source:: [[../Lenses/EA Intro - On Caring]]
 
 ## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722627822}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722627822}@@[[../Lenses/EA++} Intro - Scope Insensitivity]]
+source:: [[../Lenses/EA Intro - Scope Insensitivity]]

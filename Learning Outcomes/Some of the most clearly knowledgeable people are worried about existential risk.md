@@ -6,8 +6,7 @@ tags:
   - work-in-progress
   - learning outcome
 ---
-{++{"author":"Luc's AI","timestamp":1783723037136}@@
+
 # Suggested Lenses:
-++}## Lens:{--{"author":"Luc's AI","timestamp":1783723037136}@@ 
---}{++{"author":"Luc's AI","timestamp":1783723037136}@@
-++}source:: [[../Lenses/Wikipedia Existential Risk]]
+## Lens:
+source:: [[../Lenses/Wikipedia Existential Risk]]

@@ -10,10 +10,10 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-{++{"author":"Luc's AI","timestamp":1783722714755}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722714755}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722714755}@@[[../Lenses/EA++} Intro - Summary of 80000 Hours Key Ideas]]
+## Lens:
+source:: [[../Lenses/EA Intro - Summary of 80000 Hours Key Ideas]]
 
 ## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722714755}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722714755}@@[[../Lenses/EA++} Intro - Career Choice for Longtermists]]
+source:: [[../Lenses/EA Intro - Career Choice for Longtermists]]

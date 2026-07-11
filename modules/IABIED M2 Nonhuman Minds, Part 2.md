@@ -43,26 +43,26 @@ Discussion topics to explore:
 Ask what they found surprising or new. Check if they can explain the ice cream analogy in their own words, since it's a key concept.
 %%
 
-# Submodule: Ch3 - Learning to Want{++{"author":"Luc's AI","timestamp":1783723127106}@@
+# Submodule: Ch3 - Learning to Want
 
 # Lens:
 source:: ![[../Lenses/IABIED - Wanting Emerges from Training - PQ]]
 
-# Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723127106}@@source:: ![[../Lenses/IABIED - Wanting Emerges from Training]]
+# Lens:
+source:: ![[../Lenses/IABIED - Wanting Emerges from Training]]
 
-++}# Learning Outcome: Explain Wanting Emerges from Training
+# Learning Outcome: Explain Wanting Emerges from Training
 source:: ![[../Learning Outcomes/Explain Wanting Emerges from Training]]
 
-# Submodule: Ch4 - You Don't Get What You Train For{++{"author":"Luc's AI","timestamp":1783723135403}@@
+# Submodule: Ch4 - You Don't Get What You Train For
 
 # Lens:
 source:: ![[../Lenses/IABIED - You Don't Get What You Train For - PQ]]
 
-# Lens:++}
-{++{"author":"Luc's AI","timestamp":1783723135403}@@source:: ![[../Lenses/IABIED - You Don't Get What You Train For]]
+# Lens:
+source:: ![[../Lenses/IABIED - You Don't Get What You Train For]]
 
-++}# Learning Outcome: Explain You Don't Get What You Train For
+# Learning Outcome: Explain You Don't Get What You Train For
 source:: ![[../Learning Outcomes/Explain You Don't Get What You Train For]]
 
 # Submodule: Dive Deeper

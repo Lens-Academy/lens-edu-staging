@@ -11,11 +11,10 @@ tags:
 
 ## Test:
 
-{--{"author":"Luc's AI","timestamp":1783722863738}@@## Lens:--}{++{"author":"Luc's AI","timestamp":1783722863738}@@
-# Suggested Lenses:++}
-{--{"author":"Luc's AI","timestamp":1783722863738}@@optional:: true--}{++{"author":"Luc's AI","timestamp":1783722863738}@@## Lens:++}
-source:: {--{"author":"Luc's AI","timestamp":1783722863738}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722863738}@@[[../Lenses/IABIED++} - QA - Can International Cooperation Really Work]]
+
+# Suggested Lenses:
+## Lens:
+source:: [[../Lenses/IABIED - QA - Can International Cooperation Really Work]]
 
 ## Lens:
-{--{"author":"Luc's AI","timestamp":1783722863738}@@optional:: true
---}source:: {--{"author":"Luc's AI","timestamp":1783722863738}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722863738}@@[[../Lenses/IABIED++} - QA - The Draft Treaty]]
+source:: [[../Lenses/IABIED - QA - The Draft Treaty]]

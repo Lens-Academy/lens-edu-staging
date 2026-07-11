@@ -33,8 +33,7 @@ Score according to the following rubric.
 
 **5** — As above, plus connects to the course's rhetorical architecture: the fiction-as-argument move required M4's emotional work before it could be explained. The Coda's philosophical precision only lands because Chapters 7–9 already made the dynamics feel real. *Example: Adds "The Coda's clarification only works because M4 made you feel it first. If the story had been presented as pure thought experiment from the start, the claim that 'the ending is a real prediction' would carry no weight. The fiction did its affective job; now the Coda can be honest about what kind of argument it was."*
 
-{++{"author":"Luc's AI","timestamp":1783722814269}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722814269}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722814269}@@[[../Lenses/IABIED++} - Fiction as Argument]]{++{"author":"Luc's AI","timestamp":1783722814269}@@
-++}
+## Lens:
+source:: [[../Lenses/IABIED - Fiction as Argument]]

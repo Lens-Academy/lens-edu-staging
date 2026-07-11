@@ -10,7 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-{++{"author":"Luc's AI","timestamp":1783722621185}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722621185}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722621185}@@[[../Lenses/EA++} Intro - How AI Could Create the Biggest Problems]]
+## Lens:
+source:: [[../Lenses/EA Intro - How AI Could Create the Biggest Problems]]

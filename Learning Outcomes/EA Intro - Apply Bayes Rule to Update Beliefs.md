@@ -10,13 +10,13 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-{++{"author":"Luc's AI","timestamp":1783722700158}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722700158}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722700158}@@[[../Lenses/EA++} Intro - Bayes Rule Guide]]
+## Lens:
+source:: [[../Lenses/EA Intro - Bayes Rule Guide]]
 
 ## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722700158}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722700158}@@[[../Lenses/EA++} Intro - Making Beliefs Pay Rent]]
+source:: [[../Lenses/EA Intro - Making Beliefs Pay Rent]]
 
 ## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722700158}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722700158}@@[[../Lenses/EA++} Intro - What Is Evidence]]
+source:: [[../Lenses/EA Intro - What Is Evidence]]

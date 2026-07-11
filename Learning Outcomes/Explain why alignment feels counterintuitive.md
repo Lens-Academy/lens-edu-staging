@@ -8,9 +8,7 @@ tags:
 
 ## Test:
 
-{++{"author":"Luc's AI","timestamp":1783722719864}@@
+
 # Suggested Lenses:
-++}## Lens:{--{"author":"Luc's AI","timestamp":1783722719864}@@
-optional:: false--}
-source:: [[../Lenses/6 reasons why it's not intuitive that alignment is hard]]{++{"author":"Luc's AI","timestamp":1783722719864}@@
-++}
+## Lens:
+source:: [[../Lenses/6 reasons why it's not intuitive that alignment is hard]]

@@ -7,9 +7,9 @@ tags:
   - lens
   - IABIED
   - supplementary
-{++{"author":"Luc's AI","timestamp":1783722987192}@@add_to_ai_context:
+add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]"
-++}---
+---
 #### Text
 content::
 This Q&A addresses whether superintelligent AI would keep humans around for practical reasons. The authors argue that humans are rarely the most efficient solution to any problem, pointing to evidence that AI-human teams already underperform AI alone in domains like chess and medicine. Without specifically programmed preferences for human welfare, a superintelligence would likely allocate resources elsewhere.

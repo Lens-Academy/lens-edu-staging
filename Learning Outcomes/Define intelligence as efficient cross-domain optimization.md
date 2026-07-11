@@ -8,7 +8,7 @@ tags:
 
 ## Test:
 
-{--{"author":"Luc's AI","timestamp":1783722611114}@@## Lens:--}{++{"author":"Luc's AI","timestamp":1783722611114}@@
-# Suggested Lenses:++}
-{--{"author":"Luc's AI","timestamp":1783722611114}@@optional:: false--}{++{"author":"Luc's AI","timestamp":1783722611114}@@## Lens:++}
+
+# Suggested Lenses:
+## Lens:
 source:: [[../Lenses/Efficient Cross-Domain Optimization]]

@@ -10,7 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-{++{"author":"Luc's AI","timestamp":1783722625533}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722625533}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722625533}@@[[../Lenses/EA++} Intro - Concrete Biosecurity Projects]]
+## Lens:
+source:: [[../Lenses/EA Intro - Concrete Biosecurity Projects]]

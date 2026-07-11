@@ -8,9 +8,9 @@ authors:
 tags:
   - lens
   - IABIED
-{++{"author":"Luc's AI","timestamp":1783722924989}@@add_to_ai_context:
+add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]"
-++}---
+---
 #### Text
 content::
 \## Reading Assignment
