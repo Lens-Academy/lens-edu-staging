@@ -16,7 +16,7 @@ We can potentially train a more powerful AI using supervision or feedback from a
 
 ---
 
-<iframe src="https://www.youtube-nocookie.com/embed/INP8ru2Tj5M" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{--{"author":"Elias's AI","timestamp":1783776593417}@@<iframe src="https://www.youtube-nocookie.com/embed/INP8ru2Tj5M" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--}{++{"author":"Elias's AI","timestamp":1783776593417}@@{>>{"author":"Elias's AI","timestamp":1783776593417}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/INP8ru2Tj5M<<}++}
 
 *Video 8.1: Optional video explaining the concept of weak to strong generalization ([Rational Animations, 2025](https://youtu.be/5mco9zAamRk)).*
 
@@ -66,7 +66,7 @@ Evaluating these techniques in different settings helps understand their strengt
 
 ## Sandwiching Evaluations
 
-<iframe src="https://www.youtube-nocookie.com/embed/5mco9zAamRk" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{--{"author":"Elias's AI","timestamp":1783776596943}@@<iframe src="https://www.youtube-nocookie.com/embed/5mco9zAamRk" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--}{++{"author":"Elias's AI","timestamp":1783776596943}@@{>>{"author":"Elias's AI","timestamp":1783776596943}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/5mco9zAamRk<<}++}
 
 *Video 8.2: Optional video explaining the concept of sandwiching ([Rational Animations, 2025](https://youtu.be/5mco9zAamRk)).*
 

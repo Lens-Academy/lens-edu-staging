@@ -21,7 +21,7 @@ A very goal-directed AI that also deeply understands the world could realize the
 
 **Definition: Scheming (Deceptive Alignment)** — Scheming occurs when AI systems fake alignment during training to preserve misaligned objectives for deployment. The system produces outputs that satisfy human evaluators while maintaining different internal goals, strategically deceiving the feedback mechanisms we rely for safety.
 
-<iframe src="https://www.youtube-nocookie.com/embed/IeWljQw3UgQ" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{--{"author":"Elias's AI","timestamp":1783776575624}@@<iframe src="https://www.youtube-nocookie.com/embed/IeWljQw3UgQ" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--}{++{"author":"Elias's AI","timestamp":1783776575624}@@{>>{"author":"Elias's AI","timestamp":1783776575624}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/IeWljQw3UgQ<<}++}
 
 *Video 7.6: Optional video explaining deceptive alignment in a more technical way.*
 

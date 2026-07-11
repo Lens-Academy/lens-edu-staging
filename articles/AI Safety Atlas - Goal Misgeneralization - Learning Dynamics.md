@@ -31,7 +31,7 @@ The reason we make this point again is to motivate the fact that understanding t
 
 ## Loss Landscapes
 
-<iframe src="https://www.youtube-nocookie.com/embed/NrO20Jb-hy0" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{--{"author":"Elias's AI","timestamp":1783776566337}@@<iframe src="https://www.youtube-nocookie.com/embed/NrO20Jb-hy0" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--}{++{"author":"Elias's AI","timestamp":1783776566337}@@{>>{"author":"Elias's AI","timestamp":1783776566337}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/NrO20Jb-hy0<<}++}
 
 *Video 7.3: Optional video explaining loss landscapes.*
 

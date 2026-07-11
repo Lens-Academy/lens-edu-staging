@@ -60,7 +60,7 @@ And every time one does this, different random choices will be made, and the tex
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img8.png)
 
-It’s worth pointing out that even at the first step there are a lot of possible “next words” to choose from (at temperature 0.8), though their probabilities fall off quite quickly (and, yes, the straight line on this log-log plot corresponds to an *n* <sup>–1</sup> [“power-law” decay that’s very characteristic of the general statistics of language](https://www.wolframscience.com/nks/notes-8-8--zipfs-law/)):
+It’s worth pointing out that even at the first step there are a lot of possible “next words” to choose from (at temperature 0.8), though their probabilities fall off quite quickly (and, yes, the straight line on this log-log plot corresponds to an *n* {--{"author":"Elias's AI","timestamp":1783776641822}@@<sup>–1</sup>--}{++{"author":"Elias's AI","timestamp":1783776641822}@@⁻¹++} [“power-law” decay that’s very characteristic of the general statistics of language](https://www.wolframscience.com/nks/notes-8-8--zipfs-law/)):
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img10.png)
 
@@ -150,7 +150,7 @@ How do we figure out how long it’s going to take to fall from a floor we don�
 
 We could pick different straight lines. But this is the one that’s on average closest to the data we’re given. And from this straight line we can estimate the time to fall for any floor.
 
-How did we know to try using a straight line here? At some level we didn’t. It’s just something that’s mathematically simple, and we’re used to the fact that lots of data we measure turns out to be well fit by mathematically simple things. We could try something mathematically more complicated—say *a* + *b* *x* + *c* *x* <sup>2</sup> —and then in this case we do better:
+How did we know to try using a straight line here? At some level we didn’t. It’s just something that’s mathematically simple, and we’re used to the fact that lots of data we measure turns out to be well fit by mathematically simple things. We could try something mathematically more complicated—say *a* + *b* *x* + *c* *x* {--{"author":"Elias's AI","timestamp":1783776645443}@@<sup>2</sup>--}{++{"author":"Elias's AI","timestamp":1783776645443}@@²++} —and then in this case we do better:
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img29.png)
 
@@ -178,7 +178,7 @@ Then to find out if an image we’re given as input corresponds to a particular 
 
 ![](https://content.wolfram.com/sites/43/2023/03/sw021423img36-4.png)
 
-When we made a model for our numerical data above, we were able to take a numerical value *x* that we were given, and just compute *a + b x* for particular *a* and *b*. So if we treat the gray-level value of each pixel here as some variable *x <sub>i</sub>* is there some function of all those variables that—when evaluated—tells us what digit the image is of? It turns out that it’s possible to construct such a function. Not surprisingly, it’s not particularly simple, though. And a typical example might involve perhaps half a million mathematical operations.
+When we made a model for our numerical data above, we were able to take a numerical value *x* that we were given, and just compute *a + b x* for particular *a* and *b*. So if we treat the gray-level value of each pixel here as some variable *x {--{"author":"Elias's AI","timestamp":1783776649867}@@<sub>i</sub>*--}{++{"author":"Elias's AI","timestamp":1783776649867}@@ᵢ*++} is there some function of all those variables that—when evaluated—tells us what digit the image is of? It turns out that it’s possible to construct such a function. Not surprisingly, it’s not particularly simple, though. And a typical example might involve perhaps half a million mathematical operations.
 
 But the end result is that if we feed the collection of pixel values for an image into this function, out will come the number specifying which digit we have an image of. Later, we’ll talk about how such a function can be constructed, and the idea of neural nets. But for now let’s treat the function as black box, where we feed in images of, say, handwritten digits (as arrays of pixel values) and we get out the numbers these correspond to:
 
@@ -236,7 +236,7 @@ Each “neuron” is effectively set up to evaluate a simple numerical function.
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img46.png)
 
-In the traditional (biologically inspired) setup each neuron effectively has a certain set of “incoming connections” from the neurons on the previous layer, with each connection being assigned a certain “weight” (which can be a positive or negative number). The value of a given neuron is determined by multiplying the values of “previous neurons” by their corresponding weights, then adding these up and adding a constant—and finally applying a “thresholding” (or “activation”) function. In mathematical terms, if a neuron has inputs *x* = { *x* <sub>1</sub>, *x* <sub>2</sub> …} then we compute *f* \[*w*. *x* + *b*\], where the weights *w* and constant *b* are generally chosen differently for each neuron in the network; the function *f* is usually the same.
+In the traditional (biologically inspired) setup each neuron effectively has a certain set of “incoming connections” from the neurons on the previous layer, with each connection being assigned a certain “weight” (which can be a positive or negative number). The value of a given neuron is determined by multiplying the values of “previous neurons” by their corresponding weights, then adding these up and adding a constant—and finally applying a “thresholding” (or “activation”) function. In mathematical terms, if a neuron has inputs *x* = { *x* {--{"author":"Elias's AI","timestamp":1783776654082}@@<sub>1</sub>,--}{++{"author":"Elias's AI","timestamp":1783776654082}@@₁,++} *x* {--{"author":"Elias's AI","timestamp":1783776654082}@@<sub>2</sub>--}{++{"author":"Elias's AI","timestamp":1783776654082}@@₂++} …} then we compute *f* \[*w*. *x* + *b*\], where the weights *w* and constant *b* are generally chosen differently for each neuron in the network; the function *f* is usually the same.
 
 Computing *w*. *x* + *b* is just a matter of matrix multiplication and addition. The “activation function” *f* introduces nonlinearity (and ultimately is what leads to nontrivial behavior). Various activation functions commonly get used; here we’ll just use [Ramp](http://reference.wolfram.com/language/ref/Ramp.html) (or ReLU):
 
@@ -336,13 +336,13 @@ To find out “how far away we are” we compute what’s usually called a “lo
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img62.png)
 
-Alright, so the last essential piece to explain is how the weights are adjusted to reduce the loss function. As we’ve said, the loss function gives us a “distance” between the values we’ve got, and the true values. But the “values we’ve got” are determined at each stage by the current version of neural net—and by the weights in it. But now imagine that the weights are variables—say *w <sub>i</sub>*. We want to find out how to adjust the values of these variables to minimize the loss that depends on them.
+Alright, so the last essential piece to explain is how the weights are adjusted to reduce the loss function. As we’ve said, the loss function gives us a “distance” between the values we’ve got, and the true values. But the “values we’ve got” are determined at each stage by the current version of neural net—and by the weights in it. But now imagine that the weights are variables—say *w {--{"author":"Elias's AI","timestamp":1783776657852}@@<sub>i</sub>*.--}{++{"author":"Elias's AI","timestamp":1783776657852}@@ᵢ*.++} We want to find out how to adjust the values of these variables to minimize the loss that depends on them.
 
-For example, imagine (in an incredible simplification of typical neural nets used in practice) that we have just two weights *w* <sub>1</sub> and *w* <sub>2</sub>. Then we might have a loss that as a function of *w* <sub>1</sub> and *w* <sub>2</sub> looks like this:
+For example, imagine (in an incredible simplification of typical neural nets used in practice) that we have just two weights *w* {--{"author":"Elias's AI","timestamp":1783776661006}@@<sub>1</sub>--}{++{"author":"Elias's AI","timestamp":1783776661006}@@₁++} and *w* {--{"author":"Elias's AI","timestamp":1783776661006}@@<sub>2</sub>.--}{++{"author":"Elias's AI","timestamp":1783776661006}@@₂.++} Then we might have a loss that as a function of *w* {--{"author":"Elias's AI","timestamp":1783776661006}@@<sub>1</sub>--}{++{"author":"Elias's AI","timestamp":1783776661006}@@₁++} and *w* {--{"author":"Elias's AI","timestamp":1783776661006}@@<sub>2</sub>--}{++{"author":"Elias's AI","timestamp":1783776661006}@@₂++} looks like this:
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img68.png)
 
-Numerical analysis provides a variety of techniques for finding the minimum in cases like this. But a typical approach is just to progressively follow the path of steepest descent from whatever previous *w* <sub>1</sub>, *w* <sub>2</sub> we had:
+Numerical analysis provides a variety of techniques for finding the minimum in cases like this. But a typical approach is just to progressively follow the path of steepest descent from whatever previous *w* {--{"author":"Elias's AI","timestamp":1783776665007}@@<sub>1</sub>,--}{++{"author":"Elias's AI","timestamp":1783776665007}@@₁,++} *w* {--{"author":"Elias's AI","timestamp":1783776665007}@@<sub>2</sub>--}{++{"author":"Elias's AI","timestamp":1783776665007}@@₂++} we had:
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img71.png)
 
@@ -612,7 +612,7 @@ And in the end we can just note that ChatGPT does what it does using a couple hu
 
 Put another way, we might ask what the “effective information content” is of human language and what’s typically said with it. There’s the raw corpus of examples of language. And then there’s the representation in the neural net of ChatGPT. That representation is very likely far from the “algorithmically minimal” representation (as we’ll discuss below). But it’s a representation that’s readily usable by the neural net. And in this representation it seems there’s in the end rather little “compression” of the training data; it seems on average to basically take only a bit less than one neural net weight to carry the “information content” of a word of training data.
 
-When we run ChatGPT to generate text, we’re basically having to use each weight once. So if there are *n* weights, we’ve got of order *n* computational steps to do—though in practice many of them can typically be done in parallel in GPUs. But if we need about *n* words of training data to set up those weights, then from what we’ve said above we can conclude that we’ll need about *n* <sup>2</sup> computational steps to do the training of the network—which is why, with current methods, one ends up needing to talk about billion-dollar training efforts.
+When we run ChatGPT to generate text, we’re basically having to use each weight once. So if there are *n* weights, we’ve got of order *n* computational steps to do—though in practice many of them can typically be done in parallel in GPUs. But if we need about *n* words of training data to set up those weights, then from what we’ve said above we can conclude that we’ll need about *n* {--{"author":"Elias's AI","timestamp":1783776667976}@@<sup>2</sup>--}{++{"author":"Elias's AI","timestamp":1783776667976}@@²++} computational steps to do the training of the network—which is why, with current methods, one ends up needing to talk about billion-dollar training efforts.
 
 ## Beyond Basic Training
 
