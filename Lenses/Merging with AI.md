@@ -1,9 +1,12 @@
 ---
 id: 71472113-b08c-460d-9487-5ebbb0237228
 title: Merging with AI
-tldr: The loudest and most speculative BCI-type idea: couple human brains to AI at high bandwidth so we stay "in the loop at machine speed." This lens covers the fullest popular articulation of the merge thesis.
+tldr: {--{"author":"Elias's AI","timestamp":1783768879284}@@The--}{++{"author":"Elias's AI","timestamp":1783768879284}@@'The++} loudest and most speculative BCI-type idea: couple human brains to AI at high bandwidth so we stay "in the loop at machine speed." This lens covers the fullest popular articulation of the merge {--{"author":"Elias's AI","timestamp":1783768879284}@@thesis.--}{++{"author":"Elias's AI","timestamp":1783768879284}@@thesis.'++}
 summary_for_tutor: "The 'merge' sub-thread. Tim Urban's Neuralink piece is the fullest popular articulation: high-bandwidth BCIs adding a 'tertiary layer' so humans keep pace with / stay fused to AI (Musk's framing that we should merge rather than become 'house cats'). Treat it as the vision statement, not a rigorous safety argument. The crucial critique to pair with it (developed in the case-against lens): merging doesn't solve alignment, it presupposes it — you need an already-aligned AI to safely merge with, and once AI surpasses humans, the human is the bottleneck (Shulman circularity). Also the biological-attack-surface / 'neuraljacking' risk."
----
+{++{"author":"Elias's AI","timestamp":1783768973821}@@tags:
+  - lens
+  - ai-safety-plans
+++}---
 
 #### Text
 content::

@@ -2,7 +2,8 @@
 id: 479589b4-fd24-487c-857e-c9e85939a1e0
 learning-outcome: Evaluate the strongest objections to BCI-type solutions — merge circularity, the constant-factor-speedup critique, timelines, and the argument that BCIs are themselves an existential-risk factor (entrenched totalitarianism)
 tags:
-  - learning outcome
+  - learning outcome{++{"author":"Elias's AI","timestamp":1783769043093}@@
+  - ai-safety-plans++}
 ---
 ## Test:
 id:: 16113b65-caa0-43f8-98ae-12d68bc8834f

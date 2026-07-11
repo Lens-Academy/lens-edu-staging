@@ -1,7 +1,7 @@
 ---
 id: 65649056-c679-4d6c-90f5-72c178b0bc0d
 title: Brain signals as feedback for AI
-tldr: The lowest-bandwidth, nearest-term BCI-for-safety idea: use neural signals as richer-than-language feedback to train and oversee AI. This lens covers the value-learning case.
+tldr: {--{"author":"Elias's AI","timestamp":1783768876904}@@The--}{++{"author":"Elias's AI","timestamp":1783768876904}@@'The++} lowest-bandwidth, nearest-term BCI-for-safety idea: use neural signals as richer-than-language feedback to train and oversee AI. This lens covers the value-learning {--{"author":"Elias's AI","timestamp":1783768876904}@@case.--}{++{"author":"Elias's AI","timestamp":1783768876904}@@case.'++}
 summary_for_tutor: "The 'feedback / value-learning' sub-thread of BCI-type solutions, and the most tractable one. Robbo's piece lays out how brain-computer interfaces could supply richer supervision signals than language alone — neural correlates of approval, confusion, moral emotion — to improve RLHF, debate, imitative amplification, and scalable oversight. It also gives the Enhancement/Merge/Alignment-Aid taxonomy. Key framing: this doesn't require full merge or WBE; even coarse EEG/affect signals might beat some AI-generated feedback for certain value signals. This is the thread the course owner is most interested in keeping."
 ---
 
