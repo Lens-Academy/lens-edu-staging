@@ -10,8 +10,7 @@ readings:
   - "NYU Coaching — The GROW framework (5 min)"
   - "Sara Ness — The Elegant Finale (10 min)"
 tags:
-  - facilitator-training{--{"author":"Elias's AI","timestamp":1783770815892}@@
-  - module--}
+  - facilitator-training
 ---
 
 # Submodule: Welcome

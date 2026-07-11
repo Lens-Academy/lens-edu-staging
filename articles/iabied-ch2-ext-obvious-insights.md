@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770878500}@@
-  - IABIED--}
+  - clippings
 ---
 It's hard to come across insights in AI, even when they look simple and obvious in retrospect.
 

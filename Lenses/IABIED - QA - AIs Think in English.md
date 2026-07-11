@@ -4,9 +4,7 @@ summary_for_tutor: "Argues that English-language reasoning in AIs provides less 
 title: "But if some AIs partly think in English, doesn't that help?"
 tldr: "Not as much as you might hope; we already see signs of infidelity."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770705637}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

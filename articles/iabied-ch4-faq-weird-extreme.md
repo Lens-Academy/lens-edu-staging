@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770790684}@@
-  - IABIED--}
+  - clippings
 ---
 
 #### The weirdness is evidence that their actual pursuits aren't our intended pursuits.

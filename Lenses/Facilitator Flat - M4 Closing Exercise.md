@@ -2,8 +2,7 @@
 id: 6dd3ddec-6883-4dfa-a0b2-d5791f3ae4f0
 title: "Practical exercise"
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770790674}@@lens
-  - --}facilitator-training
+  - facilitator-training
 ---
 #### Text
 content:: **Practical exercise (5 min)**

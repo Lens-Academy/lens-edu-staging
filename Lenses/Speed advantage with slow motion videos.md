@@ -3,9 +3,7 @@ id: e11cb5ab-b56f-47c5-869e-40315845d325
 summary_for_tutor: Covers the processing speed differential between transistors and neurons (roughly 10 million times faster). Uses a 100x slow-motion video of a subway platform as an intuition pump for what humans would look like to a digital mind operating at electronic speeds. Frames the speed gap as a source of existential risk independent of any particular AI architecture.
 title: Slow motion videos as AI risk intuition pumps
 tldr: Transistors operate roughly ten million times faster than neurons. This reading pairs a slow-motion video of a busy subway platform with an article about processing speed, inviting you to feel — not just understand — what it would mean for a mind to operate that much faster than ours.
-{--{"author":"Elias's AI","timestamp":1783770983117}@@tags:
-  - lens
---}---
+---
 #### Text
 content::
 In the following reading, we ask you to watch a video in order to get an intuitive sense for what it means for computer processing to be much, much faster than animal processing. Machines would most likely have a vastly different sense of time than we do.

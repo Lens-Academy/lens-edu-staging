@@ -6,8 +6,7 @@ tldr: "Everything is recoverable. The recovery move is the same: name it, apolog
 authors:
   - Yatharth+Claude
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783771123504}@@lens
-  - --}facilitator-training
+  - facilitator-training
 ---
 #### Text
 content::

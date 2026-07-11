@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770644713}@@
-  - IABIED--}
+  - clippings
 ---
 #### Yes, in many cases.
 

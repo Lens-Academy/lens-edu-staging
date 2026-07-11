@@ -1,9 +1,7 @@
 ---
 id: 010c71fc-937a-4094-aca2-63e4ad598598
 learning-outcome: Compare AI safety field-building strategies (courses, fellowships, org-building) and explain the 2026 shift in the binding constraint from junior-talent supply to absorptive/mentorship capacity
-{--{"author":"Elias's AI","timestamp":1783770665331}@@tags:
-  - learning outcome
---}---
+---
 ## Test:
 id:: 814cb88a-ce26-4b1e-9d05-0fc5dadeea70
 #### Question

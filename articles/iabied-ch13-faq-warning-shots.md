@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771193617}@@
-  - IABIED--}
+  - clippings
 ---
 #### Maybe. If we wish to make use of them, we must prepare now.
 

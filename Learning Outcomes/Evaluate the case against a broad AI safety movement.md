@@ -1,9 +1,7 @@
 ---
 id: a9098cc9-f4d8-4933-8b79-69fa70e2b91d
 learning-outcome: Evaluate movement-strategy critiques of AI safety advocacy — the movement's own diagnosed mistakes, the case against building a broad movement (narrow issue-orgs instead), and lessons from other social movements
-{--{"author":"Elias's AI","timestamp":1783771137182}@@tags:
-  - learning outcome
---}---
+---
 ## Test:
 id:: 8215f188-d4bc-45ba-9661-55c6c7666c4b
 #### Question

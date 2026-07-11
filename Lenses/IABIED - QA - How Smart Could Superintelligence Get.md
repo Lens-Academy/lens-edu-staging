@@ -4,9 +4,7 @@ summary_for_tutor: "Covers the upper bounds of superintelligence permitted by ph
 title: "How smart could a superintelligence get?"
 tldr: "Very smart."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770787628}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

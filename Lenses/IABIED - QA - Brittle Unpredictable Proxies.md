@@ -3,9 +3,7 @@ id: a4b2c8d1-6e3f-4a7b-9d52-1f8e0c3b5a74
 title: "Brittle Unpredictable Proxies"
 tldr: "Squirrelly Algorithms"
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770924894}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

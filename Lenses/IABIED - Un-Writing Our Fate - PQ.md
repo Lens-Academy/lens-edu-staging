@@ -5,10 +5,7 @@ title: "Pre-Reading Question - Un-Writing Our Fate"
 tldr: "Before reading, decide: if something catastrophic seems genuinely predictable based on strong evidence, can deliberate human effort still change the outcome? Or is a well-founded prediction the same as destiny?"
 authors:
   - Chris+Claude
-{--{"author":"Elias's AI","timestamp":1783770776297}@@tags:
-  - lens
-  - IABIED
---}---
+---
 #### Question
 content:: Before reading the first part of Chapter 14: Think of a time when something seemed like a foregone conclusion: a conflict, a failure, an outcome that felt locked in. Did anything reverse it? If a catastrophe seems genuinely likely, not just feared but rationally predicted based on strong evidence, can deliberate human effort still un-write that outcome? Or is a well-founded prediction the same as destiny? Write down your thinking before you read.
 

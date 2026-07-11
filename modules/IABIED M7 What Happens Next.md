@@ -4,9 +4,7 @@ slug: iabied-m7
 title: "What Happens Next"
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770985471}@@IABIED
-  - module
-  - --}work-in-progress
+  - work-in-progress
 ---
 
 # Lens: Welcome

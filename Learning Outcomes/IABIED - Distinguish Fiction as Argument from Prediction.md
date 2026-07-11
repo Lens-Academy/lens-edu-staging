@@ -6,10 +6,8 @@ reading-to: "end of chapter"
 optional: true
 authors:
   - Chris+Claude
-tags:{--{"author":"Elias's AI","timestamp":1783771810659}@@
-  - learning-outcome--}
-  - {--{"author":"Elias's AI","timestamp":1783771482071}@@IABIED
-  - --}optional
+tags:
+  - optional
 ---
 
 ## Test:

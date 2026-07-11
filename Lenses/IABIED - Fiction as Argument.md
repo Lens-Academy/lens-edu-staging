@@ -6,9 +6,7 @@ tldr: "*It's just sci-fi* and *this will definitely happen* are both wrong. The 
 authors:
   - Chris+Claude
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770743844}@@lens
-  - IABIED
-  - --}optional
+  - optional
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/10 - Coda]]"
 ---

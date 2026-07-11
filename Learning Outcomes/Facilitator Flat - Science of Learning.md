@@ -4,8 +4,7 @@ learning-outcome: "Name at least three of the six learning mechanisms from Kossl
 authors:
   - Yatharth+Claude
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783771926545}@@learning-outcome
-  - --}facilitator-training
+  - facilitator-training
 ---
 
 ## Test:

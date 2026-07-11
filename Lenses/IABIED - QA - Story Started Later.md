@@ -4,9 +4,7 @@ summary_for_tutor: Covers whether more time before superintelligence would help 
 title: "If the story started later, would the world be better prepared?"
 tldr: "We can hope so."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770769502}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

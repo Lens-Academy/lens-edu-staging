@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770559707}@@
-  - IABIED--}
+  - clippings
 ---
 
 #### Solving difficult challenges requires AIs to take more and more initiative.

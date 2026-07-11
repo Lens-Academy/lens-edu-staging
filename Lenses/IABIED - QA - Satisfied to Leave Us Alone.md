@@ -4,9 +4,7 @@ summary_for_tutor: Covers why a superintelligent AI is unlikely to simply leave 
 title: "Can the AI be satisfied to just leave us alone?"
 tldr: "Probably not."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770711170}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 #### Text
 content::

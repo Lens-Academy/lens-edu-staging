@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770887150}@@
-  - IABIED--}
+  - clippings
 ---
 #### Past AI progress hasn't required much understanding of intelligence.
 

@@ -4,9 +4,7 @@ summary_for_tutor: "Traces how human empathy and kindness arose from specific ac
 title: Human Values Are Contingent
 tldr: "The Glorious Accident of Kindness"
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770812133}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 #### Text
 content::

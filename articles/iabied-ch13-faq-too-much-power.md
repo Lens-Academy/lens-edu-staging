@@ -6,8 +6,7 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771188078}@@
-  - IABIED--}
+  - clippings
 ---
 #### The power to ban dangerous technology is already vested in governments.
 

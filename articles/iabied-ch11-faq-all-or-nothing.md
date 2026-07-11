@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770760854}@@
-  - IABIED--}
+  - clippings
 ---
 #### No. But "partial alignment" is still likely to be catastrophic.
 

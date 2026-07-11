@@ -3,9 +3,7 @@ id: 07355bf9-38b4-41a5-b4a8-05a23aed71be
 summary_for_tutor: "Compiles survey data and expert statements on AI catastrophe risk. A 2022 survey found 48% of NeurIPS/ICML researchers assigned at least 10% probability to extremely bad outcomes. Quotes specific probability estimates from Hinton (>50%), Bengio (~20%), Christiano (20% most humans die), and others. Notes the authors' reservations about single-number p(doom) estimates."
 title: AI Experts on Catastrophe Scenarios
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770559211}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

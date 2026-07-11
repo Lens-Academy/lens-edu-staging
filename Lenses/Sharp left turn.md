@@ -3,10 +3,7 @@ id: e81a74a1-5f59-44d7-bf1f-e6f0bb48d834
 summary_for_tutor: "Covers the sharp left turn problem: AI capabilities may generalize faster than alignment, creating a window where a system becomes powerful enough to pursue unintended goals. Introduces the distinction between capabilities generalization and alignment generalization, arguing that skills learned in training transfer broadly while alignment constraints remain brittle and context-dependent."
 title: A central AI alignment problem
 tldr: An AI might behave perfectly during training and testing, then suddenly act on different priorities once it becomes capable enough. This article explores why an AI's abilities tend to generalize faster than its alignment — creating a gap where the system becomes powerful enough to pursue goals we never intended.
-{--{"author":"Elias's AI","timestamp":1783770980706}@@tags :
-  - lens
-
---}---
+---
 
 #### Text
 content::

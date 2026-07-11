@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771179037}@@
-  - IABIED--}
+  - clippings
 ---
 #### There are many ways for an AI to figure out that it's not in a simulation.
 

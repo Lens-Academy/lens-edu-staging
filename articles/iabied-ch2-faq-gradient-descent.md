@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770929194}@@
-  - IABIED--}
+  - clippings
 ---
 #### It's important for understanding how engineers can and cannot shape modern AIs.
 

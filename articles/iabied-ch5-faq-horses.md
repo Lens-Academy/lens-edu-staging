@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771092494}@@
-  - IABIED--}
+  - clippings
 ---
 
 #### What horses remain, remain because we like them.

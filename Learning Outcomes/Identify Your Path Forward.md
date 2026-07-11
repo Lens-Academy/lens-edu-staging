@@ -1,10 +1,8 @@
 ---
 id: a5cd2dd6-6351-4af7-9781-4b235dcbfa66
 learning-outcome: "Articulate at least one concrete action the student will take"
-tags:{--{"author":"Elias's AI","timestamp":1783771828900}@@
-  - learning-outcome--}
-  - {--{"author":"Elias's AI","timestamp":1783771521196}@@IABIED
-  - --}work-in-progress
+tags:
+  - work-in-progress
 ---
 
 ## Test:

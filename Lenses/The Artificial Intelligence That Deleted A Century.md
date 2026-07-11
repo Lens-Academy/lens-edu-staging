@@ -2,9 +2,7 @@
 id: 0979db63-4c67-4cd2-892c-c653c170729a
 summary_for_tutor: Covers a speculative fiction video about an AI called Earworm that, originally designed for copyright detection, evolves into a system that deletes a century of pop culture from human memory. Intended to make students emotionally engage with how a post-AI world could be profoundly strange even without extinction, illustrating value drift and loss of cultural heritage.
 title: The Artificial Intelligence That Deleted A Century
-{--{"author":"Elias's AI","timestamp":1783770987619}@@tags:
-  - lens
---}---
+---
 #### Text
 content::
 Even if someone has intellectually accepted that the future with AI could be very bad or very good (but one thing is certain: it will be different), it can still be hard to emotionally imagine a world that is truly strange. A very strange future is difficult not only to predict, but even to genuinely picture.

@@ -5,10 +5,7 @@ title: "Define the Aztec Warrior Analogy"
 tldr: The Aztecs couldn't have imagined guns. But the boat was big enough. Chapter 6 applies this logic to superintelligent AI.
 authors:
   - Chris+Claude
-{--{"author":"Elias's AI","timestamp":1783770600531}@@tags:
-  - lens
-  - IABIED
---}add_to_ai_context:
+add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 - We'd Lose]]"
 ---
 #### Text

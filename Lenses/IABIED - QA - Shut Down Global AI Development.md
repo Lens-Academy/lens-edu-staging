@@ -3,9 +3,7 @@ id: 107908d8-8ea9-49e0-a7a7-fdc294ae4f2c
 title: "What Would It Take to Shut Down Global AI Development?"
 tldr: "Preventing the Creation of More and Better AI Chips"
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770723411}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

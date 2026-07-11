@@ -5,10 +5,7 @@ title: "Distinguish Hostile from Indifferent AI"
 tldr: The AI doesn't need to hate you. It just needs to be optimizing for something else. Chapter 5 explains why that's enough.
 authors:
   - Chris+Claude
-{--{"author":"Elias's AI","timestamp":1783770741744}@@tags:
-  - lens
-  - IABIED
---}add_to_ai_context:
+add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]"
 ---
 #### Text

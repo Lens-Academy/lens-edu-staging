@@ -3,9 +3,7 @@ id: c1751676-cefb-473d-9a8e-3c2b042fd590
 title: "Can we adopt a wait-and-see approach?"
 tldr: "No. We don't know where the critical thresholds are."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770943904}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

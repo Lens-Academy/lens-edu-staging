@@ -713,7 +713,11 @@ This analysis assumed that software was accelerating over time – N \> 0 N>0, p
 
 We rerun the analysis with this new exponent and find that the results do not change significantly.
 
-<table><tbody><tr><th><strong>Years of progress</strong></th><th colspan="2"><strong>Compressed into ≤1 year</strong></th><th colspan="2"><strong>Compressed into ≤4 months</strong></th><td></td><td></td></tr><tr><th></th><th>RT</th><th>No RT</th><th>RT</th><th>No RT</th></tr><tr><td>≥3 years</td><td>57%</td><td>56%</td><td>41%</td><td>41%</td></tr><tr><td>≥10 years</td><td>19%</td><td>17%</td><td>14%</td><td>12%</td></tr></tbody></table>
+{--{"author":"Elias's AI","timestamp":1783775984358}@@<table><tbody><tr><th><strong>Years--}{++{"author":"Elias's AI","timestamp":1783775984358}@@| **Years++} of {--{"author":"Elias's AI","timestamp":1783775984358}@@progress</strong></th><th colspan="2"><strong>Compressed--}{++{"author":"Elias's AI","timestamp":1783775984358}@@progress** | **Compressed++} into ≤1 {--{"author":"Elias's AI","timestamp":1783775984358}@@year</strong></th><th colspan="2"><strong>Compressed--}{++{"author":"Elias's AI","timestamp":1783775984358}@@year** |  | **Compressed++} into ≤4 {--{"author":"Elias's AI","timestamp":1783775984358}@@months</strong></th><td></td><td></td></tr><tr><th></th><th>RT</th><th>No RT</th><th>RT</th><th>No RT</th></tr><tr><td>≥3 years</td><td>57%</td><td>56%</td><td>41%</td><td>41%</td></tr><tr><td>≥10 years</td><td>19%</td><td>17%</td><td>14%</td><td>12%</td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1783775984358}@@months** |  |
+| --- | --- | --- | --- | --- |
+|  | RT | No RT | RT | No RT |
+| ≥3 years | 57% | 56% | 41% | 41% |
+| ≥10 years | 19% | 17% | 14% | 12% |++}
 
 ![Graph showing probability of compressing at least X years into one year. Declining orange curve from 1.0 to 0.0 probability over 0-20 years compressed. Vertical lines mark 3 years (57% probability) and 10 years (19% probability).](https://images.ctfassets.net/4owxfjx3z3if/5Oe1Dkx64NphOVLzRg225E/b7a18c707d050de0b9b4195806540c3c/time_compression_probability_curve.png?w=3840&q=85&fm=webp)
 

@@ -3,10 +3,7 @@ id: 9509411b-3858-43de-80eb-cf74268aecc9
 title: "IABIED M5 Welcome"
 authors:
   - Yatharth+Claude
-{--{"author":"Elias's AI","timestamp":1783770514352}@@tags:
-  - lens
-  - IABIED
---}---
+---
 #### Text
 content:: Having just lived through the Sable scenario, we now ask: *can the engineering challenge actually be solved?*
 

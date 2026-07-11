@@ -5,10 +5,7 @@ title: "Define the Goal-Space Argument"
 tldr: There are countless possible goals a mind could have. The ones that include happy humans are a tiny sliver. Chapter 5 explains why that matters.
 authors:
   - Chris+Claude
-{--{"author":"Elias's AI","timestamp":1783770613582}@@tags:
-  - lens
-  - IABIED
---}add_to_ai_context:
+add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]"
 ---
 #### Text

@@ -2,8 +2,7 @@
 id: 6c5deedc-44d5-434c-a5c4-77a5a2a1a6ac
 title: "Forecasting transformative AI: what kind of AI?"
 tags :
-  - {--{"author":"Elias's AI","timestamp":1783770955302}@@lens
-  - --}work-in-progress
+  - work-in-progress
   - validator-ignore
 ---
 #### Text

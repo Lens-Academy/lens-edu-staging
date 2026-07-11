@@ -4,9 +4,7 @@ summary_for_tutor: "Covers the gap between moral understanding and moral motivat
 title: "Wouldn't AI recognize our intrinsic moral worth?"
 tldr: "Not in a sense that moves it to act."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783771094641}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 #### Text
 content::

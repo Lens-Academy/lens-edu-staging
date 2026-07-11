@@ -3,9 +3,7 @@ id: cd11efd8-f449-4964-8962-97cbe865a9bf
 slug: last-module-what-comes-next
 title: "Last module: What comes next"
 discussion: https://discordapp.com/channels/1440725236843806762/1476535068779483259 
-{--{"author":"Elias's AI","timestamp":1783771048334}@@tags:
-  - module
---}---
+---
 
 # Lens: Welcome
 id:: 9b2bbd28-207f-4069-9610-37c31300583a

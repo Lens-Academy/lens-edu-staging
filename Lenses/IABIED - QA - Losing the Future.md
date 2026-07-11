@@ -2,9 +2,7 @@
 id: f2b6d8c9-0e7d-4ae6-d31f-7c4e5b2a8f60
 title: "Losing the Future"
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770524073}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 #### Text
 content::

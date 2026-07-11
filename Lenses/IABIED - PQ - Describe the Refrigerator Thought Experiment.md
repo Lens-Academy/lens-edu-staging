@@ -5,10 +5,7 @@ title: "Before Reading: Describe the Refrigerator Thought Experiment"
 tldr: Pick a piece of modern technology. Could you explain to someone from 500 years ago why it works? Before reading, think about what it means to face something built from rules you don't know exist.
 authors:
   - Chris+Claude
-{--{"author":"Elias's AI","timestamp":1783770528709}@@tags:
-  - lens
-  - IABIED
---}add_to_ai_context:
+add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 - We'd Lose]]"
 ---
 #### Question

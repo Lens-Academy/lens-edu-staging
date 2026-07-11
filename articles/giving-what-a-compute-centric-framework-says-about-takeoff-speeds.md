@@ -104,7 +104,19 @@ Simulation of Full Takeoff Model with my best-guess values for each parameter. I
 
 We perform a Monte Carlo analysis to get a distribution over takeoff speed given our uncertainty about these parameters:
 
-<table><tbody><tr><td rowspan="2"><em>MC results</em><p><strong>Percentile</strong></p></td><td colspan="2"><p><strong>Takeoff speed</strong> <a role="button" href="#f+14504+2+8"><sup>[8]</sup></a> Conditional on 100% automation by 2100.</p><p>Years from “AI could readily automate 20% of cognitive tasks” to “AI could readily automate 100% of cognitive tasks” <a role="button" href="#f+14504+2+9"><sup>[9]</sup></a> Reminder: milestones of the form “AI could readily automate x% of tasks” require both that AI is capable enough to perform the tasks and that we can run enough copies for AI to replace every human doing those tasks. By contrast, the definition of AGI as “AI that could readily perform 100% of … <a href="#f+14504+2+9">Continue reading</a></p></td></tr><tr><td>Tasks in the general economy.</td><td>Tasks in software and hardware R&amp;D.<a role="button" href="#f+14504+2+10"><sup>[10]</sup></a> Why is takeoff slower for AI R&amp;D tasks? The Monte Carlo puts weight on AI R&amp;D being significantly easier to automate than the general economy. If so then, by the time AI can readily automate 20% of tasks in the general economy, it will have already automated most tasks in AI R&amp;D and … <a href="#f+14504+2+10">Continue reading</a></td></tr><tr><td>1%</td><td>0.3</td><td>0.9</td></tr><tr><td>10%</td><td>0.8</td><td>1.6</td></tr><tr><td>20%</td><td>1.2</td><td>2.2</td></tr><tr><td>50%</td><td>2.9</td><td>4.3</td></tr><tr><td>80%</td><td>7.6</td><td>9.6</td></tr><tr><td>90%</td><td>12.5</td><td>14.6</td></tr><tr><td>99%</td><td>28</td><td>30.7</td></tr></tbody></table>
+{--{"author":"Elias's AI","timestamp":1783775837125}@@<table><tbody><tr><td rowspan="2"><em>MC results</em><p><strong>Percentile</strong></p></td><td colspan="2"><p><strong>Takeoff speed</strong> <a role="button" href="#f+14504+2+8"><sup>[8]</sup></a>--}{++{"author":"Elias's AI","timestamp":1783775837125}@@**Takeoff speed** [\[8\]](#f+14504+2+8)++} Conditional on 100% automation by {--{"author":"Elias's AI","timestamp":1783775837125}@@2100.</p><p>Years--}{++{"author":"Elias's AI","timestamp":1783775837125}@@2100.
+
+Years++} from “AI could readily automate 20% of cognitive tasks” to “AI could readily automate 100% of cognitive tasks” {--{"author":"Elias's AI","timestamp":1783775837125}@@<a role="button" href="#f+14504+2+9"><sup>[9]</sup></a>--}{++{"author":"Elias's AI","timestamp":1783775837125}@@[\[9\]](#f+14504+2+9)++} Reminder: milestones of the form “AI could readily automate x% of tasks” require both that AI is capable enough to perform the tasks and that we can run enough copies for AI to replace every human doing those tasks. By contrast, the definition of AGI as “AI that could readily perform 100% of … {--{"author":"Elias's AI","timestamp":1783775837125}@@<a href="#f+14504+2+9">Continue reading</a></p></td></tr><tr><td>Tasks--}{++{"author":"Elias's AI","timestamp":1783775837125}@@[Continue reading](#f+14504+2+9)
+
+| *MC results* **Percentile** | Tasks++} in the general {--{"author":"Elias's AI","timestamp":1783775837125}@@economy.</td><td>Tasks --}{++{"author":"Elias's AI","timestamp":1783775837125}@@economy. | Tasks ++}in software and hardware {--{"author":"Elias's AI","timestamp":1783775837125}@@R&amp;D.<a role="button" href="#f+14504+2+10"><sup>[10]</sup></a>--}{++{"author":"Elias's AI","timestamp":1783775837125}@@R&D.[\[10\]](#f+14504+2+10)++} Why is takeoff slower for AI {--{"author":"Elias's AI","timestamp":1783775837125}@@R&amp;D--}{++{"author":"Elias's AI","timestamp":1783775837125}@@R&D++} tasks? The Monte Carlo puts weight on AI {--{"author":"Elias's AI","timestamp":1783775837125}@@R&amp;D--}{++{"author":"Elias's AI","timestamp":1783775837125}@@R&D++} being significantly easier to automate than the general economy. If so then, by the time AI can readily automate 20% of tasks in the general economy, it will have already automated most tasks in AI {--{"author":"Elias's AI","timestamp":1783775837125}@@R&amp;D--}{++{"author":"Elias's AI","timestamp":1783775837125}@@R&D++} and … {--{"author":"Elias's AI","timestamp":1783775837125}@@<a href="#f+14504+2+10">Continue reading</a></td></tr><tr><td>1%</td><td>0.3</td><td>0.9</td></tr><tr><td>10%</td><td>0.8</td><td>1.6</td></tr><tr><td>20%</td><td>1.2</td><td>2.2</td></tr><tr><td>50%</td><td>2.9</td><td>4.3</td></tr><tr><td>80%</td><td>7.6</td><td>9.6</td></tr><tr><td>90%</td><td>12.5</td><td>14.6</td></tr><tr><td>99%</td><td>28</td><td>30.7</td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1783775837125}@@[Continue reading](#f+14504+2+10) |
+| --- | --- | --- |
+| 1% | 0.3 | 0.9 |
+| 10% | 0.8 | 1.6 |
+| 20% | 1.2 | 2.2 |
+| 50% | 2.9 | 4.3 |
+| 80% | 7.6 | 9.6 |
+| 90% | 12.5 | 14.6 |
+| 99% | 28 | 30.7 |++}
 
 There is a strong relationship between the difficulty of developing AGI and takeoff speed. If AGI is easier to develop then (in expectation):
 
@@ -122,7 +134,18 @@ To get to my personal all-things-considered bottom line, I eye-ball adjusted the
 
 My personal probabilities are still massively in flux, but my current best guesses are:
 
-<table><tbody><tr><td rowspan="2"><i>Beliefs of the author</i><p><strong>Percentile</strong></p></td><td colspan="2"><p><strong>Takeoff speed</strong></p><p>Years from “AI could readily automate 20% of cognitive tasks” to “AI could readily automate 100% of cognitive tasks”.<a role="button" href="#f+14504+2+12"><sup>[12]</sup></a> Reminder: milestones of the form “AI could readily automate x% of tasks” require both that AI is capable enough to perform the tasks and that we can run enough copies for AI to replace every human doing those tasks. By contrast, the definition of AGI as “AI that could readily perform 100% of … <a href="#f+14504+2+12">Continue reading</a></p></td></tr><tr><td>Tasks in the general economy.</td><td>Tasks in software and hardware R&amp;D.</td></tr><tr><td>3%</td><td>0.1</td><td>0.3</td></tr><tr><td>10%</td><td>0.3</td><td>1</td></tr><tr><td>20%</td><td>0.8</td><td>2</td></tr><tr><td>50%</td><td>3</td><td>5</td></tr><tr><td>80%</td><td>10</td><td>12</td></tr><tr><td>90%</td><td>20</td><td>25</td></tr></tbody></table>
+{--{"author":"Elias's AI","timestamp":1783775854043}@@<table><tbody><tr><td rowspan="2"><i>Beliefs of the author</i><p><strong>Percentile</strong></p></td><td colspan="2"><p><strong>Takeoff speed</strong></p><p>Years--}{++{"author":"Elias's AI","timestamp":1783775854043}@@**Takeoff speed**
+
+Years++} from “AI could readily automate 20% of cognitive tasks” to “AI could readily automate 100% of cognitive {--{"author":"Elias's AI","timestamp":1783775854043}@@tasks”.<a role="button" href="#f+14504+2+12"><sup>[12]</sup></a>--}{++{"author":"Elias's AI","timestamp":1783775854043}@@tasks”.[\[12\]](#f+14504+2+12)++} Reminder: milestones of the form “AI could readily automate x% of tasks” require both that AI is capable enough to perform the tasks and that we can run enough copies for AI to replace every human doing those tasks. By contrast, the definition of AGI as “AI that could readily perform 100% of … {--{"author":"Elias's AI","timestamp":1783775854043}@@<a href="#f+14504+2+12">Continue reading</a></p></td></tr><tr><td>Tasks --}{++{"author":"Elias's AI","timestamp":1783775854043}@@[Continue reading](#f+14504+2+12)
+
+| *Beliefs of the author* **Percentile** | Tasks ++}in the general {--{"author":"Elias's AI","timestamp":1783775854043}@@economy.</td><td>Tasks--}{++{"author":"Elias's AI","timestamp":1783775854043}@@economy. | Tasks++} in software and hardware {--{"author":"Elias's AI","timestamp":1783775854043}@@R&amp;D.</td></tr><tr><td>3%</td><td>0.1</td><td>0.3</td></tr><tr><td>10%</td><td>0.3</td><td>1</td></tr><tr><td>20%</td><td>0.8</td><td>2</td></tr><tr><td>50%</td><td>3</td><td>5</td></tr><tr><td>80%</td><td>10</td><td>12</td></tr><tr><td>90%</td><td>20</td><td>25</td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1783775854043}@@R&D. |
+| --- | --- | --- |
+| 3% | 0.1 | 0.3 |
+| 10% | 0.3 | 1 |
+| 20% | 0.8 | 2 |
+| 50% | 3 | 5 |
+| 80% | 10 | 12 |
+| 90% | 20 | 25 |++}
 
 ### How much time from AGI to superintelligence?
 
@@ -210,7 +233,11 @@ My process for estimating takeoff speed is as follows:
 
 To summarize:
 
-<table><tbody><tr><td><strong>Estimate</strong></td><td><strong>Takeoff speed</strong></td></tr><tr><td>Toy model without AI automation</td><td>8 years = 4 OOMs / 0.5 OOMs per year</td></tr><tr><td>Full Takeoff Model with best-guess inputs</td><td>5 years</td></tr><tr><td>Median result from the Monte Carlo</td><td>3 years</td></tr></tbody></table>
+{--{"author":"Elias's AI","timestamp":1783775868514}@@<table><tbody><tr><td><strong>Estimate</strong></td><td><strong>Takeoff speed</strong></td></tr><tr><td>Toy--}{++{"author":"Elias's AI","timestamp":1783775868514}@@| **Estimate** | **Takeoff speed** |
+| --- | --- |
+| Toy++} model without AI {--{"author":"Elias's AI","timestamp":1783775868514}@@automation</td><td>8--}{++{"author":"Elias's AI","timestamp":1783775868514}@@automation | 8++} years = 4 OOMs / 0.5 OOMs per {--{"author":"Elias's AI","timestamp":1783775868514}@@year</td></tr><tr><td>Full--}{++{"author":"Elias's AI","timestamp":1783775868514}@@year |
+| Full++} Takeoff Model with best-guess {--{"author":"Elias's AI","timestamp":1783775868514}@@inputs</td><td>5 years</td></tr><tr><td>Median--}{++{"author":"Elias's AI","timestamp":1783775868514}@@inputs | 5 years |
+| Median++} result from the Monte {--{"author":"Elias's AI","timestamp":1783775868514}@@Carlo</td><td>3 years</td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1783775868514}@@Carlo | 3 years |++}
 
 The next three sections discuss the size of the effective FLOP gap, the toy model that excludes AI automation, and the Full Takeoff Model’s treatment of AI automation.
 
@@ -245,7 +272,14 @@ The size of the effective FLOP gap is very uncertain, but evidence from biology 
 -   **Horizon length.**
     -   If “short horizon” [\[23\]](#f+14504+2+23) This concept is from [Bio Anchors](https://docs.google.com/document/d/1IJ6Sr-gPeXdSJugFulwIpvavc0atjHGM82QjIfUSBGQ/edit#). Short horizons means that the model only needs to “think” for a few seconds for each data point; long horizons means the model needs to “think” for months for each data point and so training requires much more compute. training can perform 20% of cognitive tasks but performing _all_ cognitive tasks requires “long horizon” training, the effective FLOP gap will be >5 OOMs.[\[24\]](#f+14504+2+24) There are ~5 OOMs between a “10 second” horizon length and a “1 month” horizon length.
 
-<table><tbody><tr><td><strong>Evidence</strong></td><td><strong>Effective FLOP gap estimate</strong></td></tr><tr><td>AGI training requirements + Limitations on SOTA AI</td><td>&lt;~9 OOMs</td></tr><tr><td>How AI capabilities vary with training FLOP</td><td>~5 OOMs</td></tr><tr><td>How human + animal capabilities vary with brain size</td><td>~2 OOMs</td></tr><tr><td>Practical difficulties with partially automating jobs</td><td>Shorter gap</td></tr><tr><td>Horizon length</td><td>&gt;5 OOMs</td></tr><tr><td><strong>Overall</strong></td><td><strong>~4 OOMs (~1 to 8 OOMs)</strong></td></tr></tbody></table>
+{--{"author":"Elias's AI","timestamp":1783775884595}@@<table><tbody><tr><td><strong>Evidence</strong></td><td><strong>Effective --}{++{"author":"Elias's AI","timestamp":1783775884595}@@| **Evidence** | **Effective ++}FLOP gap {--{"author":"Elias's AI","timestamp":1783775884595}@@estimate</strong></td></tr><tr><td>AGI--}{++{"author":"Elias's AI","timestamp":1783775884595}@@estimate** |
+| --- | --- |
+| AGI++} training requirements + Limitations on SOTA {--{"author":"Elias's AI","timestamp":1783775884595}@@AI</td><td>&lt;~9 OOMs</td></tr><tr><td>How--}{++{"author":"Elias's AI","timestamp":1783775884595}@@AI | \<~9 OOMs |
+| How++} AI capabilities vary with training {--{"author":"Elias's AI","timestamp":1783775884595}@@FLOP</td><td>~5 OOMs</td></tr><tr><td>How--}{++{"author":"Elias's AI","timestamp":1783775884595}@@FLOP | ~5 OOMs |
+| How++} human + animal capabilities vary with brain {--{"author":"Elias's AI","timestamp":1783775884595}@@size</td><td>~2 OOMs</td></tr><tr><td>Practical--}{++{"author":"Elias's AI","timestamp":1783775884595}@@size | ~2 OOMs |
+| Practical++} difficulties with partially automating {--{"author":"Elias's AI","timestamp":1783775884595}@@jobs</td><td>Shorter gap</td></tr><tr><td>Horizon length</td><td>&gt;5 OOMs</td></tr><tr><td><strong>Overall</strong></td><td><strong>~4--}{++{"author":"Elias's AI","timestamp":1783775884595}@@jobs | Shorter gap |
+| Horizon length | \>5 OOMs |
+| **Overall** | **~4++} OOMs (~1 to 8 {--{"author":"Elias's AI","timestamp":1783775884595}@@OOMs)</strong></td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1783775884595}@@OOMs)** |++}
 
 All in all, my best-guess is that the effective FLOP gap is **~4 OOMs**, with values from ~1 to ~8 OOMs possible. Lower than ~2 OOMs feels out-of-whack with how SOTA AI abilities scale with training FLOP and with the plausibility of AI having strong comparative advantages on certain tasks; much higher than ~5 OOMs feels in tension with how IQ scales with brain size in humans and chimps.
 
@@ -425,7 +459,11 @@ The FTM also models factors that make timelines longer than Bio Anchors.
 
 The following table compares the best-guess timelines implications of FTM with those of Bio Anchors.[\[49\]](#f+14504+2+49) The table compares the Bio Anchors forecast for “transformative AI” with the FTM’s forecast for “AI that could readily automate 100% of cognitive tasks”. The latter is a higher bar, so the shift in timelines is bigger than what the table suggests. The comparison assumes AGI (AI that could … [Continue reading](#f+14504+2+49)
 
-<table><tbody><tr><td><strong>FLOP to train AGI using 2020 algorithms</strong></td><td><strong>Effective FLOP gap</strong></td><td><strong>Bio-anchors timelines</strong><p><i>Year of TAI</i></p></td><td><strong>FTM timelines</strong><p><i>Year AI could readily automate ~all cognitive labour</i></p></td><td><strong>Timelines shift</strong></td></tr><tr><td>~1e33</td><td>3</td><td>2043</td><td>2038</td><td>5</td></tr><tr><td>~1e36</td><td>4</td><td>2050</td><td>2044</td><td>6</td></tr><tr><td>~1e39</td><td>6</td><td>2062</td><td>2050</td><td>8</td></tr></tbody></table>
+{--{"author":"Elias's AI","timestamp":1783775900356}@@<table><tbody><tr><td><strong>FLOP--}{++{"author":"Elias's AI","timestamp":1783775900356}@@| **FLOP++} to train AGI using 2020 {--{"author":"Elias's AI","timestamp":1783775900356}@@algorithms</strong></td><td><strong>Effective--}{++{"author":"Elias's AI","timestamp":1783775900356}@@algorithms** | **Effective++} FLOP {--{"author":"Elias's AI","timestamp":1783775900356}@@gap</strong></td><td><strong>Bio-anchors timelines</strong><p><i>Year--}{++{"author":"Elias's AI","timestamp":1783775900356}@@gap** | **Bio-anchors timelines** *Year++} of {--{"author":"Elias's AI","timestamp":1783775900356}@@TAI</i></p></td><td><strong>FTM timelines</strong><p><i>Year--}{++{"author":"Elias's AI","timestamp":1783775900356}@@TAI* | **FTM timelines** *Year++} AI could readily automate ~all cognitive {--{"author":"Elias's AI","timestamp":1783775900356}@@labour</i></p></td><td><strong>Timelines shift</strong></td></tr><tr><td>~1e33</td><td>3</td><td>2043</td><td>2038</td><td>5</td></tr><tr><td>~1e36</td><td>4</td><td>2050</td><td>2044</td><td>6</td></tr><tr><td>~1e39</td><td>6</td><td>2062</td><td>2050</td><td>8</td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1783775900356}@@labour* | **Timelines shift** |
+| --- | --- | --- | --- | --- |
+| ~1e33 | 3 | 2043 | 2038 | 5 |
+| ~1e36 | 4 | 2050 | 2044 | 6 |
+| ~1e39 | 6 | 2062 | 2050 | 8 |++}
 
 **These timelines shifts are** **very sensitive to the size of the effective FLOP gap.** Holding AGI training requirements fixed, a _larger_ effective FLOP gap makes AGI _sooner_ by lowering the training requirements for AI that significantly accelerates AI progress. [More on this comparison.](https://docs.google.com/document/d/15EmltGq-kkiLO95AbvoB4ODVpyg26BgghvHBy1JDyZY/edit#heading=h.jtopg4x29fut)
 
@@ -463,9 +501,29 @@ We resample the parameters, except AGI training requirements [\[56\]](#f+14504+2
 
 Here are the results, sampling AGI training requirements from the [Bio Anchors best-guess distribution](https://docs.google.com/spreadsheets/d/1TjNQyVHvHlC-sZbcA7CRKcCp0NxV6MkkqBvL408xrJw/edit#gid=505210495).[\[57\]](#f+14504+2+57) We assume AGI training requirements are 1 OOM higher than TAI training requirements, and reduce the probability of “you need more compute than evolution” from 10% to 4%.
 
-<table><tbody><tr><td><strong>Percentile</strong></td><td><strong>First year when AI can readily automate 100% of cognitive tasks in the general economy.</strong></td></tr><tr><td>1%</td><td>2025.7</td></tr><tr><td>10%</td><td>2029.6</td></tr><tr><td>20%</td><td>2032.7</td></tr><tr><td>50%</td><td>2043.3</td></tr><tr><td>80%</td><td>2070.3</td></tr><tr><td>90%</td><td>≥ 2100</td></tr><tr><td>99%</td><td>≥ 2100</td></tr></tbody></table>
+{--{"author":"Elias's AI","timestamp":1783775917067}@@<table><tbody><tr><td><strong>Percentile</strong></td><td><strong>First--}{++{"author":"Elias's AI","timestamp":1783775917067}@@| **Percentile** | **First++} year when AI can readily automate 100% of cognitive tasks in the general {--{"author":"Elias's AI","timestamp":1783775917067}@@economy.</strong></td></tr><tr><td>1%</td><td>2025.7</td></tr><tr><td>10%</td><td>2029.6</td></tr><tr><td>20%</td><td>2032.7</td></tr><tr><td>50%</td><td>2043.3</td></tr><tr><td>80%</td><td>2070.3</td></tr><tr><td>90%</td><td>≥ 2100</td></tr><tr><td>99%</td><td>≥ 2100</td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1783775917067}@@economy.** |
+| --- | --- |
+| 1% | 2025.7 |
+| 10% | 2029.6 |
+| 20% | 2032.7 |
+| 50% | 2043.3 |
+| 80% | 2070.3 |
+| 90% | ≥ 2100 |
+| 99% | ≥ 2100 |++}
 
-<table><tbody><tr><td rowspan="2"><strong>Percentile</strong> <a role="button" href="#f+14504+2+58"><sup>[58]</sup></a> <b>This is all conditional on AGI before 2100.</b></td><td colspan="2"><strong>Takeoff speed</strong><p>Years from “AI can readily automate 20% of cognitive tasks” to “AI can readily automate 100% of cognitive tasks”.</p></td></tr><tr><td>Tasks in the general economy.</td><td>Tasks in software and hardware R&amp;D.</td></tr><tr><td>1%</td><td>0.3</td><td>0.9</td></tr><tr><td>10%</td><td>0.8</td><td>1.6</td></tr><tr><td>20%</td><td>1.2</td><td>2.2</td></tr><tr><td>50%</td><td>2.9</td><td>4.3</td></tr><tr><td>80%</td><td>7.6</td><td>9.6</td></tr><tr><td>90%</td><td>12.5</td><td>14.6</td></tr><tr><td>99%</td><td>28</td><td>30.7</td></tr></tbody></table>
+{--{"author":"Elias's AI","timestamp":1783775931514}@@<table><tbody><tr><td rowspan="2"><strong>Percentile</strong> <a role="button" href="#f+14504+2+58"><sup>[58]</sup></a> <b>This is all conditional on AGI before 2100.</b></td><td colspan="2"><strong>Takeoff speed</strong><p>Years--}{++{"author":"Elias's AI","timestamp":1783775931514}@@**Takeoff speed**
+
+Years++} from “AI can readily automate 20% of cognitive tasks” to “AI can readily automate 100% of cognitive {--{"author":"Elias's AI","timestamp":1783775931514}@@tasks”.</p></td></tr><tr><td>Tasks--}{++{"author":"Elias's AI","timestamp":1783775931514}@@tasks”.
+
+| **Percentile** [\[58\]](#f+14504+2+58) **This is all conditional on AGI before 2100.** | Tasks++} in the general {--{"author":"Elias's AI","timestamp":1783775931514}@@economy.</td><td>Tasks--}{++{"author":"Elias's AI","timestamp":1783775931514}@@economy. | Tasks++} in software and hardware {--{"author":"Elias's AI","timestamp":1783775931514}@@R&amp;D.</td></tr><tr><td>1%</td><td>0.3</td><td>0.9</td></tr><tr><td>10%</td><td>0.8</td><td>1.6</td></tr><tr><td>20%</td><td>1.2</td><td>2.2</td></tr><tr><td>50%</td><td>2.9</td><td>4.3</td></tr><tr><td>80%</td><td>7.6</td><td>9.6</td></tr><tr><td>90%</td><td>12.5</td><td>14.6</td></tr><tr><td>99%</td><td>28</td><td>30.7</td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1783775931514}@@R&D. |
+| --- | --- | --- |
+| 1% | 0.3 | 0.9 |
+| 10% | 0.8 | 1.6 |
+| 20% | 1.2 | 2.2 |
+| 50% | 2.9 | 4.3 |
+| 80% | 7.6 | 9.6 |
+| 90% | 12.5 | 14.6 |
+| 99% | 28 | 30.7 |++}
 
 Compared to my previous best-guess scenario where AGI training requirements are 1e36, the Monte Carlo’s median takeoff speed is faster (3 years vs 5 years). This is because:
 
@@ -476,9 +534,29 @@ Compared to my previous best-guess scenario where AGI training requirements are 
 
 My median AGI training requirements (~1e36 FLOP using 2020 algorithms) are high compared to some. I reran the Monte Carlo on an [alternative distribution](https://docs.google.com/spreadsheets/d/15o3oOFLqjenZdFGfmx7jOHgBjOWv01minIx6BM0WpOU/edit#gid=383813695) with a more aggressive distribution that has a median of ~1e31.
 
-<table><tbody><tr><td><strong>Percentile</strong></td><td><strong>First year when AI can readily automate 100% of cognitive tasks in the general economy.</strong></td></tr><tr><td>1%</td><td>2024.8</td></tr><tr><td>10%</td><td>2027</td></tr><tr><td>20%</td><td>2028.6</td></tr><tr><td>50%</td><td>2033.7</td></tr><tr><td>80%</td><td>2044.1</td></tr><tr><td>90%</td><td>2054.9</td></tr><tr><td>99%</td><td>≥ 2100</td></tr></tbody></table>
+{--{"author":"Elias's AI","timestamp":1783775944018}@@<table><tbody><tr><td><strong>Percentile</strong></td><td><strong>First--}{++{"author":"Elias's AI","timestamp":1783775944018}@@| **Percentile** | **First++} year when AI can readily automate 100% of cognitive tasks in the general {--{"author":"Elias's AI","timestamp":1783775944018}@@economy.</strong></td></tr><tr><td>1%</td><td>2024.8</td></tr><tr><td>10%</td><td>2027</td></tr><tr><td>20%</td><td>2028.6</td></tr><tr><td>50%</td><td>2033.7</td></tr><tr><td>80%</td><td>2044.1</td></tr><tr><td>90%</td><td>2054.9</td></tr><tr><td>99%</td><td>≥ 2100</td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1783775944018}@@economy.** |
+| --- | --- |
+| 1% | 2024.8 |
+| 10% | 2027 |
+| 20% | 2028.6 |
+| 50% | 2033.7 |
+| 80% | 2044.1 |
+| 90% | 2054.9 |
+| 99% | ≥ 2100 |++}
 
-<table><tbody><tr><td rowspan="2"><strong>Percentile</strong> <a role="button" href="#f+14504+2+59"><sup>[59]</sup></a> <b>This is all conditional on AGI before 2100.</b></td><td colspan="2"><strong>Takeoff speed</strong><p>Years from “AI can readily automate 20% of cognitive tasks” to “AI can readily automate 100% of cognitive tasks”.</p></td></tr><tr><td>Tasks in the general economy.</td><td>Tasks in software and hardware R&amp;D.</td></tr><tr><td>1%</td><td>0.2</td><td>1.1</td></tr><tr><td>10%</td><td>0.5</td><td>1.7</td></tr><tr><td>20%</td><td>0.7</td><td>2.2</td></tr><tr><td>50%</td><td>1.7</td><td>3.7</td></tr><tr><td>80%</td><td>3.9</td><td>6.4</td></tr><tr><td>90%</td><td>6.1</td><td>9.1</td></tr><tr><td>99%</td><td>20</td><td>24.2</td></tr></tbody></table>
+{--{"author":"Elias's AI","timestamp":1783775959291}@@<table><tbody><tr><td rowspan="2"><strong>Percentile</strong> <a role="button" href="#f+14504+2+59"><sup>[59]</sup></a> <b>This is all conditional on AGI before 2100.</b></td><td colspan="2"><strong>Takeoff speed</strong><p>Years--}{++{"author":"Elias's AI","timestamp":1783775959291}@@**Takeoff speed**
+
+Years++} from “AI can readily automate 20% of cognitive tasks” to “AI can readily automate 100% of cognitive {--{"author":"Elias's AI","timestamp":1783775959291}@@tasks”.</p></td></tr><tr><td>Tasks--}{++{"author":"Elias's AI","timestamp":1783775959291}@@tasks”.
+
+| **Percentile** [\[59\]](#f+14504+2+59) **This is all conditional on AGI before 2100.** | Tasks++} in the general {--{"author":"Elias's AI","timestamp":1783775959291}@@economy.</td><td>Tasks--}{++{"author":"Elias's AI","timestamp":1783775959291}@@economy. | Tasks++} in software and hardware {--{"author":"Elias's AI","timestamp":1783775959291}@@R&amp;D.</td></tr><tr><td>1%</td><td>0.2</td><td>1.1</td></tr><tr><td>10%</td><td>0.5</td><td>1.7</td></tr><tr><td>20%</td><td>0.7</td><td>2.2</td></tr><tr><td>50%</td><td>1.7</td><td>3.7</td></tr><tr><td>80%</td><td>3.9</td><td>6.4</td></tr><tr><td>90%</td><td>6.1</td><td>9.1</td></tr><tr><td>99%</td><td>20</td><td>24.2</td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1783775959291}@@R&D. |
+| --- | --- | --- |
+| 1% | 0.2 | 1.1 |
+| 10% | 0.5 | 1.7 |
+| 20% | 0.7 | 2.2 |
+| 50% | 1.7 | 3.7 |
+| 80% | 3.9 | 6.4 |
+| 90% | 6.1 | 9.1 |
+| 99% | 20 | 24.2 |++}
 
 Unsurprisingly, lowering median training requirements by 5 OOMs makes timelines significantly shorter and takeoff significantly faster.
 
@@ -486,7 +564,15 @@ Unsurprisingly, lowering median training requirements by 5 OOMs makes timelines 
 
 Reporting the time between two somewhat-arbitrary AI capability levels gives a limited view into the dynamics of takeoff. Another approach is to ask “What does the world look like Y years before AI can readily automate all cognitive tasks?”. Here’s one example ([more](https://takeoffspeeds.com/reports.html#mc_analysis-%22years%20before%20agi%22%20tables)):
 
-<table><tbody><tr><td></td><td colspan="4"><strong>Doubling times (median</strong> <a role="button" href="#f+14504+2+60"><sup>[60]</sup></a> <strong>The median percentile for hardware will in general not be the same simulation run as the median percentile for software. And similarly for GWP and for other percentiles. The percentiles are calculated for each quantity separately.</strong>)<p><strong>X years before AI can readily automate 100% of tasks</strong></p></td></tr><tr><td><strong>Quantity</strong></td><td>1 year</td><td>2 years</td><td>5 years</td><td>10 years</td></tr><tr><td>FLOP/$</td><td>0.3</td><td>1.2</td><td>2.7</td><td>3.1</td></tr><tr><td>Software</td><td>0.2</td><td>1.2</td><td>2.4</td><td>2.9</td></tr><tr><td>GWP <a role="button" href="#f+14504+2+61"><sup>[61]</sup></a> The model doesn’t include lags to deploying AI, strongly suggesting that these GWP growth rates are too high.</td><td>0.7</td><td>2.4</td><td>8.4</td><td>21.1</td></tr></tbody></table>
+{--{"author":"Elias's AI","timestamp":1783775975086}@@<table><tbody><tr><td></td><td colspan="4"><strong>Doubling--}{++{"author":"Elias's AI","timestamp":1783775975086}@@**Doubling++} times {--{"author":"Elias's AI","timestamp":1783775975086}@@(median</strong> <a role="button" href="#f+14504+2+60"><sup>[60]</sup></a> <strong>The--}{++{"author":"Elias's AI","timestamp":1783775975086}@@(median** [\[60\]](#f+14504+2+60) **The++} median percentile for hardware will in general not be the same simulation run as the median percentile for software. And similarly for GWP and for other percentiles. The percentiles are calculated for each quantity {--{"author":"Elias's AI","timestamp":1783775975086}@@separately.</strong>)<p><strong>X--}{++{"author":"Elias's AI","timestamp":1783775975086}@@separately.**)
+
+**X++} years before AI can readily automate 100% of {--{"author":"Elias's AI","timestamp":1783775975086}@@tasks</strong></p></td></tr><tr><td><strong>Quantity</strong></td><td>1 year</td><td>2 years</td><td>5 years</td><td>10 years</td></tr><tr><td>FLOP/$</td><td>0.3</td><td>1.2</td><td>2.7</td><td>3.1</td></tr><tr><td>Software</td><td>0.2</td><td>1.2</td><td>2.4</td><td>2.9</td></tr><tr><td>GWP <a role="button" href="#f+14504+2+61"><sup>[61]</sup></a> --}{++{"author":"Elias's AI","timestamp":1783775975086}@@tasks**
+
+| **Quantity** | 1 year | 2 years | 5 years | 10 years |
+| --- | --- | --- | --- | --- |
+| FLOP/$ | 0.3 | 1.2 | 2.7 | 3.1 |
+| Software | 0.2 | 1.2 | 2.4 | 2.9 |
+| GWP [\[61\]](#f+14504+2+61) ++}The model doesn’t include lags to deploying AI, strongly suggesting that these GWP growth rates are too {--{"author":"Elias's AI","timestamp":1783775975086}@@high.</td><td>0.7</td><td>2.4</td><td>8.4</td><td>21.1</td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1783775975086}@@high. | 0.7 | 2.4 | 8.4 | 21.1 |++}
 
 [More about the Monte Carlo set-up](https://docs.google.com/document/d/15EmltGq-kkiLO95AbvoB4ODVpyg26BgghvHBy1JDyZY/edit#heading=h.grqzdszb6roa); [see full results](https://takeoffspeeds.com/reports.html#mc_analysis).
 
@@ -545,7 +631,18 @@ My **all things considered** views on takeoff speed differ from the Monte Carlo 
 2.  Longer takeoff speeds in general, due to the Full Takeoff Model ignoring various real-world frictions in developing and deploying AI.
     -   I’m _not_ adjusting here for the possibility that we make an unusually large effort to slow down (e.g. delaying deployment by >6 months) due to caution about catastrophic risks from advanced AI. I’m just incorporating standard processes of testing and iterative deployment.
 
-<table><tbody><tr><td rowspan="2"><i>Beliefs of the author</i><p><strong>Percentile</strong></p></td><td colspan="2"><strong>Takeoff speed</strong><p>Years from “AI could readily automate 20% of cognitive tasks” to “AI could readily automate 100% of cognitive tasks”.<a role="button" href="#f+14504+2+67"><sup>[67]</sup></a> Reminder: Milestones of the form “AI could readily automate x% of tasks” require both that AI is capable enough to perform the tasks and that we can run enough copies for AI to replace every human doing those tasks. By contrast, the definition of AGI as “AI that could readily perform 100% of … <a href="#f+14504+2+67">Continue reading</a></p></td></tr><tr><td>Tasks in the general economy.</td><td>Tasks in software and hardware R&amp;D.</td></tr><tr><td>3%</td><td>0.1</td><td>0.3</td></tr><tr><td>10%</td><td>0.3</td><td>1</td></tr><tr><td>20%</td><td>0.8</td><td>2</td></tr><tr><td>50%</td><td>3</td><td>5</td></tr><tr><td>80%</td><td>10</td><td>12</td></tr><tr><td>90%</td><td>20</td><td>25</td></tr></tbody></table>
+{--{"author":"Elias's AI","timestamp":1783775991725}@@<table><tbody><tr><td rowspan="2"><i>Beliefs of the author</i><p><strong>Percentile</strong></p></td><td colspan="2"><strong>Takeoff speed</strong><p>Years--}{++{"author":"Elias's AI","timestamp":1783775991725}@@**Takeoff speed**
+
+Years++} from “AI could readily automate 20% of cognitive tasks” to “AI could readily automate 100% of cognitive {--{"author":"Elias's AI","timestamp":1783775991725}@@tasks”.<a role="button" href="#f+14504+2+67"><sup>[67]</sup></a>--}{++{"author":"Elias's AI","timestamp":1783775991725}@@tasks”.[\[67\]](#f+14504+2+67)++} Reminder: Milestones of the form “AI could readily automate x% of tasks” require both that AI is capable enough to perform the tasks and that we can run enough copies for AI to replace every human doing those tasks. By contrast, the definition of AGI as “AI that could readily perform 100% of … {--{"author":"Elias's AI","timestamp":1783775991725}@@<a href="#f+14504+2+67">Continue reading</a></p></td></tr><tr><td>Tasks --}{++{"author":"Elias's AI","timestamp":1783775991725}@@[Continue reading](#f+14504+2+67)
+
+| *Beliefs of the author* **Percentile** | Tasks ++}in the general {--{"author":"Elias's AI","timestamp":1783775991725}@@economy.</td><td>Tasks--}{++{"author":"Elias's AI","timestamp":1783775991725}@@economy. | Tasks++} in software and hardware {--{"author":"Elias's AI","timestamp":1783775991725}@@R&amp;D.</td></tr><tr><td>3%</td><td>0.1</td><td>0.3</td></tr><tr><td>10%</td><td>0.3</td><td>1</td></tr><tr><td>20%</td><td>0.8</td><td>2</td></tr><tr><td>50%</td><td>3</td><td>5</td></tr><tr><td>80%</td><td>10</td><td>12</td></tr><tr><td>90%</td><td>20</td><td>25</td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1783775991725}@@R&D. |
+| --- | --- | --- |
+| 3% | 0.1 | 0.3 |
+| 10% | 0.3 | 1 |
+| 20% | 0.8 | 2 |
+| 50% | 3 | 5 |
+| 80% | 10 | 12 |
+| 90% | 20 | 25 |++}
 
 **Capabilities takeoff speed vs impact takeoff speed**
 

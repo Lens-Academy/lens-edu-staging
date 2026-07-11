@@ -2,8 +2,7 @@
 id: d64739ff-9989-4af2-8dba-9f9d78a1b780
 title: "How People Learn — Why Discussions Work"
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770670565}@@lens
-  - --}facilitator-training
+  - facilitator-training
 ---
 #### Text
 content:: Facilitation works only if discussion produces learning. Most people assume it does. The evidence is more specific than that.

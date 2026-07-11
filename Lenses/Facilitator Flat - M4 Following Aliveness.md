@@ -4,8 +4,7 @@ title: "Optional — Following Aliveness (Sara Ness, 5 min)"
 authors:
   - Yatharth+Claude
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770821036}@@lens
-  - --}facilitator-training
+  - facilitator-training
 ---
 #### Video
 source:: [[../video_transcripts/lens-academy-following-aliveness]]

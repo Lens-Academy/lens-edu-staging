@@ -6,8 +6,7 @@ reading-to: "it is still in some important sense 'shallow' compared to a human t
 authors:
   - Chris+Claude
 tags:
-  - learning-outcome{--{"author":"Elias's AI","timestamp":1783770686348}@@
-  - IABIED--}
+  - learning-outcome
 ---
 
 ## Test:

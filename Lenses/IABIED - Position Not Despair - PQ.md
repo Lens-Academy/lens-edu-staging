@@ -5,10 +5,7 @@ title: "Pre-Reading Question - Position Not Despair"
 tldr: "Before reading, think about how you tell apart 'this is hopeless' from 'this specific attempt is reckless.' One produces inaction. The other produces a different action."
 authors:
   - Yatharth+Claude
-{--{"author":"Elias's AI","timestamp":1783770587263}@@tags:
-  - lens
-  - IABIED
---}---
+---
 #### Question
 content:: When experts say a project should not be attempted, you can hear two very different things in that sentence:
 

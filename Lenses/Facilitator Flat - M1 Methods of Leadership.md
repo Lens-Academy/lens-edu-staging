@@ -4,8 +4,7 @@ title: "Optional — Methods of Leadership (Sara & Carrie, 10 min)"
 authors:
   - Yatharth+Claude
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770602299}@@lens
-  - --}facilitator-training
+  - facilitator-training
 ---
 #### Video
 source:: [[../video_transcripts/lens-academy-methods-of-leadership]]

@@ -4,9 +4,7 @@ summary_for_tutor: "Documents that AI experts do not understand their systems' i
 title: "Do experts understand what's going on inside AIs?"
 tldr: "No."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770560232}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

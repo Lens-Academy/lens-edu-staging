@@ -2,8 +2,7 @@
 id: 5f93c1e7-f5da-47aa-9e04-1d1f8d5e6b65
 title: "1.1 The core distinction: teaching vs facilitating"
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783771169709}@@lens
-  - --}facilitator-training
+  - facilitator-training
 ---
 #### Text
 content:: {>>{"author":"Ignacio","timestamp":1781461167835}@@General comment: the time estimate (2m) doesn't include the time of watching the video (5m). It would be good if videos or other external materials are included in the time estimate, for those who plan around these.<<}A teacher's job is to **transfer knowledge**.{>>{"author":"Anshuman","timestamp":1782656834219}@@Half cut irrelevant sentence<<}The teacher holds the information, and success means that by the end of the class, students carry what the teacher knew at the start.

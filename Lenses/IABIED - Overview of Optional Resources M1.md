@@ -1,9 +1,7 @@
 ---
 id: 77b913b7-0462-4a87-bce0-5bb3419b34fc
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770522014}@@IABIED
-  - lens
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text:

@@ -6,8 +6,7 @@ tldr: "Individual discussions follow a three-phase shape: open (narrow) → expl
 authors:
   - Yatharth+Claude
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770523719}@@lens
-  - --}facilitator-training
+  - facilitator-training
 ---
 #### Text
 content::

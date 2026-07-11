@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770754351}@@
-  - IABIED--}
+  - clippings
 ---
 
 #### The AI will fix what *it* sees as flaws.

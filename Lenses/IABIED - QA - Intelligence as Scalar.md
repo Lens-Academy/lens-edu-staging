@@ -4,9 +4,7 @@ summary_for_tutor: Concedes that intelligence is not a simple scalar quantity bu
 title: "Is 'intelligence' a simple scalar quantity?"
 tldr: "No. But there are levels AI hasn't reached."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783771002513}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

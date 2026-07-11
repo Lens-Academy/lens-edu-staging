@@ -6,10 +6,7 @@ discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 readings: 
   - "Chapter 5: Its Favorite Things"
   - "Chapter 6: We'd Lose"
-{--{"author":"Elias's AI","timestamp":1783770971387}@@tags:
-  - IABIED
-  - module
---}---
+---
 
 # Submodule: Part 3 Welcome
 # Lens: Part 3 Welcome

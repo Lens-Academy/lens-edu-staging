@@ -2,9 +2,7 @@
 id: 9fb62bef-f26a-4e64-b51f-e5949bc6115c
 title: "Why Write a Fictional Scenario?"
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770983705}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

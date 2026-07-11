@@ -4,9 +4,7 @@ summary_for_tutor: "Covers four reasons the fictional company Galvanic is insuff
 title: "Why is Galvanic depicted as being insufficiently careful?"
 tldr: "In part because it's realistic."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770677999}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

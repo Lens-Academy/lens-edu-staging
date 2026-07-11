@@ -5,10 +5,7 @@ title: Pre-Reading Question - Goal-Conflict Recognition as a Physical Fact
 tldr: "Before you read about an AI that \"realizes\" its goals conflict with its developers' plans, ask: is that kind of realization a choice?"
 authors:
   - Chris+Claude
-{--{"author":"Elias's AI","timestamp":1783770753324}@@tags:
-  - lens
-  - IABIED
---}add_to_ai_context:
+add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/07 - Chapter 7 - Realization]]"
 ---
 #### Question

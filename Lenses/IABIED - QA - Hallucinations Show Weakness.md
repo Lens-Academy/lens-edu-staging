@@ -4,9 +4,7 @@ summary_for_tutor: "Examines what hallucinations reveal about AI. They show genu
 title: "Don't hallucinations show that modern AIs are weak?"
 tldr: "Hallucinations reveal both a limitation and a misalignment."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770767022}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

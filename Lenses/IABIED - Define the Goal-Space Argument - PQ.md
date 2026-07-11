@@ -5,10 +5,7 @@ title: "Before Reading — Define the Goal-Space Argument"
 tldr: Imagine an alien civilization whose deepest purpose makes zero sense to you. Before reading, decide whether a mind can be brilliant and still want something utterly foreign.
 authors:
   - Chris+Claude
-{--{"author":"Elias's AI","timestamp":1783770608263}@@tags:
-  - lens
-  - IABIED
---}add_to_ai_context:
+add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]"
 ---
 #### Question

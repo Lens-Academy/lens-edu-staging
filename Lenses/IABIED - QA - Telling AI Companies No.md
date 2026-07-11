@@ -2,9 +2,7 @@
 id: 9229186a-fa0d-456e-860a-9559953f553a
 title: "Workable Plans Will Involve Telling AI Companies No"
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770795141}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

@@ -4,8 +4,7 @@ learning-outcome: "Identify at least three roles a facilitator is NOT responsibl
 authors:
   - Yatharth+Claude
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783771781267}@@learning-outcome
-  - --}facilitator-training
+  - facilitator-training
 ---
 
 ## Test:

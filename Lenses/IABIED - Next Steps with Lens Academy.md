@@ -1,10 +1,7 @@
 ---
 id: 08874128-af4c-4e32-809c-f8a21f25ceff
 title: Next Steps with Lens Academy
-{--{"author":"Elias's AI","timestamp":1783770517436}@@tags:
-  - lens
-  - IABIED
---}---
+---
 
 #### Text
 content::

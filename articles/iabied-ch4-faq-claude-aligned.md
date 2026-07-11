@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770745060}@@
-  - IABIED--}
+  - clippings
 ---
 
 #### "What Claude says" isn't the same as "what Claude prefers."

@@ -4,9 +4,7 @@ summary_for_tutor: Covers why the story features a single breakthrough AI rather
 title: "Why did you tell a story with only one AI as smart as Sable?"
 tldr: "In part because it's realistic."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770760117}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

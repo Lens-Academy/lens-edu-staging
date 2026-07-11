@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770667730}@@
-  - IABIED--}
+  - clippings
 ---
 #### Yes, but there's substantial overlap.
 

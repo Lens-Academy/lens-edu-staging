@@ -6,8 +6,7 @@ author:
   - Eliezer Yudkowsky
   - Nate Soares
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771184381}@@
-  - IABIED--}
+  - clippings
 ---
 #### Many technologies are banned or heavily regulated.
 

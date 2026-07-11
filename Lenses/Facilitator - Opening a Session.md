@@ -6,8 +6,7 @@ tldr: "The first 5-10 minutes set the rest. Three steps: get them present, recon
 authors:
   - Yatharth+Claude
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770757249}@@lens
-  - --}facilitator-training
+  - facilitator-training
 ---
 #### Text
 content::

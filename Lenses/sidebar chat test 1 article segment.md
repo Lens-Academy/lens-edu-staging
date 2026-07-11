@@ -2,8 +2,7 @@
 id: 8a1e320a-bf57-4ddf-88fa-074408716157
 title: Sidebar Chat Test (1 Article Segment)
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783771127004}@@lens
-  - --}work-in-progress
+  - work-in-progress
 ---
 
 %% hello world %%

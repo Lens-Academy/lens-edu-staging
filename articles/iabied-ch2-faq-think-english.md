@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770989603}@@
-  - IABIED--}
+  - clippings
 ---
 #### Not as much as you might hope; we already see signs of infidelity.
 

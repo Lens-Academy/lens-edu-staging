@@ -4,9 +4,7 @@ summary_for_tutor: "Covers why the authors' concern about AI is not human-exclus
 title: "Why don't you care about non-human entities?"
 tldr: "We do! We have broad cosmopolitan values. We don't think AIs will fulfill them, and we consider this a great tragedy."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770671997}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 #### Text
 content::

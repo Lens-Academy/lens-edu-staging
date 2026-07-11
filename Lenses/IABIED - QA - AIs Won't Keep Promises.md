@@ -3,9 +3,7 @@ id: d0f4b6a7-8c5b-4ec4-b19d-5a2c3f0e6d48
 title: "AIs Won't Keep Their Promises"
 tldr: "AIs Are Unlikely To Be Honorable"
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770714409}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 #### Text
 content::

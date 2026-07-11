@@ -5,10 +5,7 @@ title: "Pre-Reading Question - Strong Superalignment Objection"
 tldr: "Before reading, think about whether you can use a smarter version of an unsolved problem to solve the unsolved problem. There's a paradox lurking here."
 authors:
   - Yatharth+Claude
-{--{"author":"Elias's AI","timestamp":1783770603751}@@tags:
-  - lens
-  - IABIED
---}---
+---
 #### Question
 content:: When a problem is hard, one tempting response is: "let's get a smarter solver to handle it." For some problems this works: a more skilled mathematician really can solve a problem the rest of us cannot. For other problems, this hits an obstacle.
 

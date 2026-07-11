@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783771262149}@@
-  - IABIED--}
+  - clippings
 ---
 
 In a [2022 survey](https://aiimpacts.org/2022-expert-survey-on-progress-in-ai/) of 738 attendees of the academic AI conferences NeurIPS and ICML, 48 percent of respondents thought there was at least a 10 percent chance that AI's outcome will be "extremely bad (e.g., human extinction)." Concerns about AI causing an unprecedented disaster are widespread in this field.

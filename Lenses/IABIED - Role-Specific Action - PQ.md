@@ -5,10 +5,7 @@ title: "Pre-Reading Question - Role-Specific Action"
 tldr: "If you were convinced AI poses a genuine extinction risk, what would you actually do about it? And would your answer change depending on whether you're a government leader, a politician, a journalist, or an ordinary person?"
 authors:
   - Chris+Claude
-{--{"author":"Elias's AI","timestamp":1783770595377}@@tags:
-  - lens
-  - IABIED
---}---
+---
 #### Question
 content:: Before reading the second part of Chapter 14: Imagine you're fully convinced that a technology poses a serious extinction risk. What would you actually do about it? Does your answer change depending on your role: whether you're a government leader, a politician, a journalist, or an ordinary person? Write down your thinking before you read.
 

@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770789558}@@
-  - IABIED--}
+  - clippings
 ---
 #### The world usually muddles through by trial and error. In this case, early errors wouldn't leave survivors.
 

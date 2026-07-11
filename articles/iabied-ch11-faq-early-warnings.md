@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770775994}@@
-  - IABIED--}
+  - clippings
 ---
 #### Warning signs don't help if you don't know what to do with them.
 

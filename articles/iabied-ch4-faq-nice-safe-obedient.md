@@ -6,8 +6,7 @@ author:
   - "Eliezer Yudkowsky"
   - "Nate Soares"
 tags:
-  - clippings{--{"author":"Elias's AI","timestamp":1783770771319}@@
-  - IABIED--}
+  - clippings
 ---
 
 #### AIs steer in alien directions that only mostly coincide with helpfulness.
