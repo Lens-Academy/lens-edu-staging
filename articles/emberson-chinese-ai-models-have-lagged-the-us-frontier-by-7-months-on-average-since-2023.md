@@ -3,8 +3,8 @@ title: "Chinese AI models have lagged the US frontier by 7 months on average sin
 author:
   - "Luke Emberson"
 source_url: "https://epoch.ai/data-insights/us-vs-china-eci"
-{++{"author":"Elias's AI","timestamp":1783776901578}@@published: 2026-07-02 {>>{"author":"Elias's AI","timestamp":1783776901578}@@published date unverifiable, used import date<<}
-++}created: 2026-07-02
+published: 2026-07-02 {>>{"author":"Elias's AI","timestamp":1783776901578}@@published date unverifiable, used import date<<}
+created: 2026-07-02
 accessed: 2026-07-02
 description: "Since 2023, every model at the frontier of AI capabilities, as measured by the Epoch Capabilities Index, has been developed in the United States. Over that same period, Chinese models have trailed US capabilities by an average of seven months, with a minimum gap of four months and a maximum gap of 14."
 tags:

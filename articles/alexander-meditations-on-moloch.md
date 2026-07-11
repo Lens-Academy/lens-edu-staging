@@ -1,7 +1,7 @@
 ---
 title: "Meditations On Moloch"
 source_url: "https://www.slatestarcodexabridged.com/Meditations-On-Moloch"
-{--{"author":"Elias's AI","timestamp":1783776975712}@@audio_url:--}{++{"author":"Elias's AI","timestamp":1783776975712}@@audio-url:++} "http://sscpodcast.libsyn.com/meditations-on-moloch"
+audio-url: "http://sscpodcast.libsyn.com/meditations-on-moloch"
 author:
   - "Scott Alexander"
 published: 2014-07-30

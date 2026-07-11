@@ -2,7 +2,7 @@
 title: "Why Young Europeans are Shifting Left"
 channel: "TLDR News EU"
 url: "https://www.youtube.com/watch?v=UCPWxS2pQCs"
-{--{"author":"Elias's AI","timestamp":1783776984683}@@video_id:--}{++{"author":"Elias's AI","timestamp":1783776984683}@@video-id:++} "UCPWxS2pQCs"
+video-id: "UCPWxS2pQCs"
 ---
 
 Amid a widespread European cost of living and housing crisis, which has hit young people particularly hard, alongside ongoing geopolitical turmoil, Europe's center-left social democratic parties, having lost their traditional industrial base and struggling to reinvent themselves, are facing decline across countries from Denmark to Germany to the UK. Younger left-leaning voters are increasingly turning towards harder left parties. So in this video, we're going to explain why young Europeans have, in the last year or so, shifted further to the left.

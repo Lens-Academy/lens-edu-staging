@@ -108,7 +108,7 @@ Several incentives are driving towards more autonomous lethal autonomous weapons
 
 **When wars require human soldiers, the human cost creates political barriers to conflict.** The combination of increasing autonomy, swarm intelligence, and pressure for speed creates a clear path to potential catastrophe. As weapons become more autonomous, they can act more independently. This self-reinforcing cycle pushes toward automated warfare even if no single actor intends that outcome. Studies suggest that countries are more willing to initiate conflicts when they can rely on autonomous systems instead of human troops. Combined with the risks of automated nuclear escalation, this creates multiple paths to catastrophic outcomes that could threaten humanity's long-term future ([Simmons-Edler et al., 2024](https://arxiv.org/abs/2405.01859)).
 
-{--{"author":"Elias's AI","timestamp":1783776586756}@@<iframe src="https://www.youtube-nocookie.com/embed/w9npWiTOHX0" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--}{++{"author":"Elias's AI","timestamp":1783776586756}@@{>>{"author":"Elias's AI","timestamp":1783776586756}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/w9npWiTOHX0<<}++}
+{>>{"author":"Elias's AI","timestamp":1783776586756}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/w9npWiTOHX0<<}
 
 *Video 2.1: A video of a story showcasing artificial escalation ([Future of Life Institute, 2024](https://www.youtube.com/watch?v=w9npWiTOHX0)).*
 
@@ -188,7 +188,7 @@ Researchers have shown that even when language models appear to be working norma
 
 **The interaction between many attack methods creates compounding risks.** For example, attackers can use privacy attacks to extract sensitive information, which they then use to make other attacks more effective. They might learn details about a model's training data that help them craft better adversarial examples or more effective poisoning strategies. This creates a cycle where one type of vulnerability enables others ([Shayegani et al., 2023](https://arxiv.org/abs/2310.10844)).
 
-{--{"author":"Elias's AI","timestamp":1783776590228}@@<iframe src="https://www.youtube-nocookie.com/embed/WwbukAcMM4k" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--}{++{"author":"Elias's AI","timestamp":1783776590228}@@{>>{"author":"Elias's AI","timestamp":1783776590228}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/WwbukAcMM4k<<}++}
+{>>{"author":"Elias's AI","timestamp":1783776590228}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/WwbukAcMM4k<<}
 
 *Video 2.2: By tampering with a pre trained model's weights, an attacker can fully compromise the privacy of the finetuning data ([Feng & Florian Tramèr, 2024](https://arxiv.org/abs/2404.00473)). This has implications both for data privacy, but also for undoing fine-tuning based alignment techniques.*
 

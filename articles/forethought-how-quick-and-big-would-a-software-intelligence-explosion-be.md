@@ -713,11 +713,11 @@ This analysis assumed that software was accelerating over time – N \> 0 N>0, p
 
 We rerun the analysis with this new exponent and find that the results do not change significantly.
 
-{--{"author":"Elias's AI","timestamp":1783775984358}@@<table><tbody><tr><th><strong>Years--}{++{"author":"Elias's AI","timestamp":1783775984358}@@| **Years++} of {--{"author":"Elias's AI","timestamp":1783775984358}@@progress</strong></th><th colspan="2"><strong>Compressed--}{++{"author":"Elias's AI","timestamp":1783775984358}@@progress** | **Compressed++} into ≤1 {--{"author":"Elias's AI","timestamp":1783775984358}@@year</strong></th><th colspan="2"><strong>Compressed--}{++{"author":"Elias's AI","timestamp":1783775984358}@@year** |  | **Compressed++} into ≤4 {--{"author":"Elias's AI","timestamp":1783775984358}@@months</strong></th><td></td><td></td></tr><tr><th></th><th>RT</th><th>No RT</th><th>RT</th><th>No RT</th></tr><tr><td>≥3 years</td><td>57%</td><td>56%</td><td>41%</td><td>41%</td></tr><tr><td>≥10 years</td><td>19%</td><td>17%</td><td>14%</td><td>12%</td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1783775984358}@@months** |  |
+| **Years of progress** | **Compressed into ≤1 year** |  | **Compressed into ≤4 months** |  |
 | --- | --- | --- | --- | --- |
 |  | RT | No RT | RT | No RT |
 | ≥3 years | 57% | 56% | 41% | 41% |
-| ≥10 years | 19% | 17% | 14% | 12% |++}
+| ≥10 years | 19% | 17% | 14% | 12% |
 
 ![Graph showing probability of compressing at least X years into one year. Declining orange curve from 1.0 to 0.0 probability over 0-20 years compressed. Vertical lines mark 3 years (57% probability) and 10 years (19% probability).](https://images.ctfassets.net/4owxfjx3z3if/5Oe1Dkx64NphOVLzRg225E/b7a18c707d050de0b9b4195806540c3c/time_compression_probability_curve.png?w=3840&q=85&fm=webp)
 
@@ -761,11 +761,11 @@ We also increase the distance to effective limits. The simulation starts at an e
 
 Here are the results:
 
-{--{"author":"Elias's AI","timestamp":1783775997449}@@<table><tbody><tr><th><strong>Years--}{++{"author":"Elias's AI","timestamp":1783775997449}@@| **Years++} of {--{"author":"Elias's AI","timestamp":1783775997449}@@progress</strong></th><th colspan="2"><strong>Compressed--}{++{"author":"Elias's AI","timestamp":1783775997449}@@progress** | **Compressed++} into ≤1 {--{"author":"Elias's AI","timestamp":1783775997449}@@year</strong></th><th colspan="2"><strong>Compressed--}{++{"author":"Elias's AI","timestamp":1783775997449}@@year** |  | **Compressed++} into ≤4 {--{"author":"Elias's AI","timestamp":1783775997449}@@months</strong></th><td></td><td></td></tr><tr><th></th><th>GB</th><th>No GB</th><th>GB</th><th>No GB</th></tr><tr><td>≥3 years</td><td>59%</td><td>56%</td><td>48%</td><td>41%</td></tr><tr><td>≥10 years</td><td>32%</td><td>17%</td><td>24%</td><td>12%</td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1783775997449}@@months** |  |
+| **Years of progress** | **Compressed into ≤1 year** |  | **Compressed into ≤4 months** |  |
 | --- | --- | --- | --- | --- |
 |  | GB | No GB | GB | No GB |
 | ≥3 years | 59% | 56% | 48% | 41% |
-| ≥10 years | 32% | 17% | 24% | 12% |++}
+| ≥10 years | 32% | 17% | 24% | 12% |
 
 ![Probability curve for gradual boost model variant showing likelihood of compressing AI progress into one year: 59% chance for 3+ years, 32% chance for 10+ years, with declining probability for more dramatic compression](https://images.ctfassets.net/4owxfjx3z3if/4aruN7HsGlPwaNqTraucL8/0fee1324115d6525bcebc6151b230f01/gradual-boost-probability-results.png?w=3840&q=85&fm=webp)
 

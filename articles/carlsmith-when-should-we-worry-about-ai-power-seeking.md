@@ -1,7 +1,7 @@
 ---
 title: "When should we worry about AI power-seeking?"
 source_url: "https://joecarlsmith.substack.com/p/when-should-we-worry-about-ai-power"
-{--{"author":"Elias's AI","timestamp":1783776978434}@@audio_url:--}{++{"author":"Elias's AI","timestamp":1783776978434}@@audio-url:++} "https://www.buzzsprout.com/2034731/episodes/16651469-when-should-we-worry-about-ai-power-seeking.mp3"
+audio-url: "https://www.buzzsprout.com/2034731/episodes/16651469-when-should-we-worry-about-ai-power-seeking.mp3"
 author:
   - "Joe Carlsmith"
 published: 2025-02-19

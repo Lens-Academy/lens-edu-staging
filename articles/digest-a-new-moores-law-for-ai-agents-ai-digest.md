@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1783777526232}@@---
+---
 title: "A new Moore's Law for AI agents"
 author:
   - "AI Digest"
@@ -54,4 +54,3 @@ Increasingly capable AI systems [could trigger](https://www.forethought.org/rese
 From here, agent capabilities might skyrocket beyond any human's abilities in AI research – and across many or all other domains. The effects would be transformative.
 
 If automating AI research leads to progress this fast, the rapidly increasing time horizon of AI systems might end up being one of the most important trends in human history.
-++}

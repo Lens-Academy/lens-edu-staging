@@ -18,7 +18,7 @@ We have seen a paradigm shift from narrow AI to adaptable general-purpose system
 
 Foundation models** represent a fundamental shift in how we develop AI.** Rather than building specialized models for many small specific tasks, we can now train large-scale models that serve as a "foundation" for many different applications. These models are then specialized later by a process called fine-tuning to perform specific tasks. Think of this as similar to how we can build many different types of buildings using the same base structure ([Bommasani et al., 2022](https://arxiv.org/abs/2108.07258)). We can build banks, restaurants, or housing but the underlying foundation remains largely the same. This is just a very quick intuitive definition. We will get more into the details in the next few subsections on training, properties and risks.
 
-{--{"author":"Elias's AI","timestamp":1783776551647}@@<iframe src="https://www.youtube-nocookie.com/embed/kK3NmQT241w" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--}{++{"author":"Elias's AI","timestamp":1783776551647}@@{>>{"author":"Elias's AI","timestamp":1783776551647}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/kK3NmQT241w<<}++}
+{>>{"author":"Elias's AI","timestamp":1783776551647}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/kK3NmQT241w<<}
 
 *Video 1.2: Optional video to understand foundation models.*
 

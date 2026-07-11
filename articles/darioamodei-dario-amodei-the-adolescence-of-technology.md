@@ -1,7 +1,7 @@
 ---
-title: {--{"author":"Elias's AI","timestamp":1783777062721}@@"Dario Amodei --}{++{"author":"Elias's AI","timestamp":1783777062721}@@"++}— The Adolescence of Technology"
+title: "— The Adolescence of Technology"
 author:
-  - {++{"author":"Elias's AI","timestamp":1783777181877}@@"Dario Amodei" {>>{"author":"Elias's AI","timestamp":1783777181877}@@Title fix: when accepting the title edit above, please also delete the leftover leading em dash + non-breaking space so the title reads exactly "The Adolescence of Technology" — the MCP edit tool could not match those bytes. Also normalized author ++}"Darioamodei"{++{"author":"Elias's AI","timestamp":1783777181877}@@ -> "Dario Amodei".<<}++}
+  - "Dario Amodei" {>>{"author":"Elias's AI","timestamp":1783777181877}@@Title fix: when accepting the title edit above, please also delete the leftover leading em dash + non-breaking space so the title reads exactly "The Adolescence of Technology" — the MCP edit tool could not match those bytes. Also normalized author "Darioamodei" -> "Dario Amodei".<<}
 source_url: "https://www.darioamodei.com/essay/the-adolescence-of-technology"
 published: 2026-06-21
 created: 2026-06-21

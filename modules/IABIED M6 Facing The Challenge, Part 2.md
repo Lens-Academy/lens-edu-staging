@@ -129,7 +129,7 @@ source:: [[../Learning Outcomes/The Two Prayers]]
 
 # Submodule: Dive Deeper
 # Lens: Overview of Optional Resources
-id:: {--{"author":"Elias's AI","timestamp":1783777472333}@@d4e5f6a7-8b9c-4d0e-1f2a-3b4c5d6e7f8a--}{++{"author":"Elias's AI","timestamp":1783777472333}@@79671536-5615-4807-8f08-ff039c8a525e {>>{"author":"Elias's AI","timestamp":1783777472333}@@replaced hand-typed placeholder id (invalid uuid4 variant) with a fresh uuid4<<}++}
+id:: 79671536-5615-4807-8f08-ff039c8a525e {>>{"author":"Elias's AI","timestamp":1783777472333}@@replaced hand-typed placeholder id (invalid uuid4 variant) with a fresh uuid4<<}
 
 #### Text:
 content::
