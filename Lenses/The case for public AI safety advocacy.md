@@ -3,7 +3,10 @@ id: a33fc55f-46b2-4df1-9852-237f89abf3f6
 title: The case for public AI safety advocacy
 tldr: Should AI safety stay an inside game of researchers and quiet policy work, or become a public movement? This lens covers the canonical case for going public.
 summary_for_tutor: "Anchors LO3. Holly Elmore's canonical 'inside game vs outside game' argument for public AI safety advocacy: the claim that quiet, elite, inside-track influence is insufficient and that a visible public movement (pressure, salience, political will) is needed. This piece launched much of the pause/advocacy debate. Surface the theory of change (public movement → political will → policy) and the strongest objections it invites (backfire, polarization, capture) — which later lenses develop."
----
+{++{"author":"Elias's AI","timestamp":1783769008134}@@tags:
+  - lens
+  - ai-safety-plans
+++}---
 
 #### Text
 content::

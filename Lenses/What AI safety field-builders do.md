@@ -3,7 +3,10 @@ id: 83ea1af9-5e66-41e8-bc5a-905d630b98ee
 title: What AI safety field-builders do
 tldr: A concrete career-level picture of field-building work — the roles, the fit, and the honest pros and cons — from 80,000 Hours.
 summary_for_tutor: "Grounds the abstract 'field-building' idea in concrete work. 80,000 Hours career review: what field-builders actually do (running courses/fellowships, building orgs, community infrastructure, grantmaking), who is a good fit, and the pros/cons. Complements the Bergal theory-of-change lens by making it tangible. Use to help learners connect the ToC to real roles."
----
+{++{"author":"Elias's AI","timestamp":1783768999237}@@tags:
+  - lens
+  - ai-safety-plans
+++}---
 
 #### Text
 content::

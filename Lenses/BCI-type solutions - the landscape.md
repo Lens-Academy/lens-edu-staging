@@ -3,7 +3,10 @@ id: ea42bd12-f8ff-4f02-9b57-b3db3e8d06db
 title: BCI-type solutions - the landscape
 tldr: What if a core bottleneck in AI safety is the human-AI capability and bandwidth gap? This family of "BCI-type solutions" bets on changing the human side. This lens maps the whole landscape.
 summary_for_tutor: "Anchors the theory of change for the whole BCI-type-solutions area. The bet: a central AI-safety bottleneck is the human-AI capability/bandwidth gap (humans think/communicate slowly, give low-bandwidth feedback, coordinate badly) — so instead of only constraining/aligning external AI, change the human side: enhance, merge, emulate, or better-interface humans. The Foresight neurotech-and-alignment workshop distillation maps six clusters: (1) BCIs to extract human knowledge/values (richer oversight signals), (2) neurotech to enhance humans, (3) understanding human value formation, (4) cyborgism (human-in-the-loop), (5) whole-brain emulation, (6) BCIs as live reward signals. Also frame the soft->hard spectrum (cyborgism/wearables now; invasive BCI/WBE speculative) and the differential-progress hope: reorder the race so human-aligned emulations/cyborg teams arrive before unaligned de novo AGI."
----
+{++{"author":"Elias's AI","timestamp":1783768970331}@@tags:
+  - lens
+  - ai-safety-plans
+++}---
 
 #### Text
 content::

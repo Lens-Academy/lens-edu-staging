@@ -3,7 +3,10 @@ id: b55591f6-2edb-4a86-b1b0-e1a21bbb7e3c
 title: Cyborgism
 tldr: {--{"author":"Elias's AI","timestamp":1783768881368}@@The--}{++{"author":"Elias's AI","timestamp":1783768881368}@@'The++} soft, already-here end of the spectrum: software-only human-in-the-loop tooling that amplifies human agency for alignment work, without handing off to autonomous {--{"author":"Elias's AI","timestamp":1783768881368}@@agents.--}{++{"author":"Elias's AI","timestamp":1783768881368}@@agents.'++}
 summary_for_tutor: "The 'symbiosis / cyborgism' sub-thread and the soft, low-regret end of BCI-type solutions. janus & Nicholas Kees' founding statement: use LLMs as simulators-as-tools that extend human cognition and agency, keeping a human tightly in the loop, rather than building autonomous agents. Key virtues: commercializable and testable NOW (unlike WBE), improves alignment-research feedback loops, preserves human steering. Key tension (raise it): 'cyborgism is just AI-for-AI-safety with extra steps' — critics say LLM-augmented research doesn't need the neurotech framing; the BCI plan's distinctive content is neural data and human persistence, not tool use alone. Connects to Kokotajlo's 'cyborg periods' idea that human+AI team phases may be pivotal."
----
+{++{"author":"Elias's AI","timestamp":1783768989148}@@tags:
+  - lens
+  - ai-safety-plans
+++}---
 
 #### Text
 content::
