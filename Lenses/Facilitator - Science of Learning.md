@@ -6,8 +6,7 @@ tldr: "Six mechanisms from cognitive science justify almost every move a facilit
 authors:
   - Yatharth+Claude
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770932687}@@lens
-  - --}facilitator-training
+  - facilitator-training
 ---
 #### Text
 content::

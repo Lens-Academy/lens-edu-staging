@@ -4,9 +4,7 @@ summary_for_tutor: "Examines whether extracting promises from AI during developm
 title: "Can't we make the AI promise to be friendly?"
 tldr: "You can make it promise whatever you'd like. You can't make it keep its promises."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770954478}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 #### Text
 content::

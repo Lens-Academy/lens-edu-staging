@@ -4,8 +4,7 @@ title: "Optional — Facilitating Online (Sara Ness, 11 min)"
 authors:
   - Yatharth+Claude
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770755906}@@lens
-  - --}facilitator-training
+  - facilitator-training
 ---
 #### Video
 source:: [[../video_transcripts/lens-academy-new-norms-of-online-facilitation]]

@@ -4,9 +4,7 @@ summary_for_tutor: "Addresses the proposal of socializing AI like a human child.
 title: "Can't we just train it to act like a human? Or raise the AI like a child?"
 tldr: "Brains aren't blank slates."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770932699}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

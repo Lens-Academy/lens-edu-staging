@@ -3,9 +3,7 @@ id: fbf978ff-f7f6-4653-8de7-198f7b414cdb
 title: "Isn't this all just fear-mongering by AI leaders?"
 tldr: "No."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770662126}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text

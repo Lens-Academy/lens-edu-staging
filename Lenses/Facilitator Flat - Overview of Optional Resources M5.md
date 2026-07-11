@@ -2,8 +2,7 @@
 id: 8e1bd439-b60c-4ad5-94d4-1b3598c9f563
 title: "Facilitator M5 — Overview of Optional Resources"
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783771111960}@@lens
-  - --}facilitator-training
+  - facilitator-training
 ---
 
 #### Text

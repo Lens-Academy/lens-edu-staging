@@ -5,10 +5,7 @@ title: "Indifference Not Malice"
 tldr: The chapter ends without a single moment of hostility toward humans. That's not a comfort. It's the argument.
 authors:
   - Chris+Claude
-{--{"author":"Elias's AI","timestamp":1783770788615}@@tags:
-  - lens
-  - IABIED
---}add_to_ai_context:
+add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/09 - Chapter 9 - Ascension]]"
 ---
 #### Text

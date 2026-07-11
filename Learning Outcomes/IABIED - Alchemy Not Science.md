@@ -6,8 +6,7 @@ reading-to: "It is a level of systemic game that would have humanity headed for 
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome{--{"author":"Elias's AI","timestamp":1783771470591}@@
-  - IABIED--}
+  - learning-outcome
 ---
 
 ## Test: 

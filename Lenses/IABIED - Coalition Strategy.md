@@ -5,10 +5,7 @@ title: "Coalition Strategy"
 tldr: "The anti-extinction coalition has one ask: no human extinction. Adding anything else risks the coalition failing, and coalition failure means extinction. Chapter 13 explains why the narrowness is the strategy."
 authors:
   - Chris+Claude
-{--{"author":"Elias's AI","timestamp":1783770583044}@@tags:
-  - lens
-  - IABIED
---}---
+---
 #### Text
 content::
 \## Reading Assignment

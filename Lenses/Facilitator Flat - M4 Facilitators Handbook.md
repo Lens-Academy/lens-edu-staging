@@ -4,8 +4,7 @@ title: "Optional — Facilitator's Handbook, activities (PDF)"
 authors:
   - Yatharth+Claude
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770815702}@@lens
-  - --}facilitator-training
+  - facilitator-training
 ---
 #### Text
 content::

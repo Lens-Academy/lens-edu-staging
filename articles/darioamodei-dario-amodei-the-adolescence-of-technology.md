@@ -1,5 +1,5 @@
 ---
-title: "Dario Amodei — The Adolescence of Technology"
+title: {--{"author":"Elias's AI","timestamp":1783777062721}@@"Dario Amodei --}{++{"author":"Elias's AI","timestamp":1783777062721}@@"++}— The Adolescence of Technology"
 author:
   - "Darioamodei"
 source_url: "https://www.darioamodei.com/essay/the-adolescence-of-technology"

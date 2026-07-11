@@ -4,9 +4,7 @@ summary_for_tutor: "Covers the ending's depiction of a superintelligence pushing
 title: "Why did you write the ending in the way that you did?"
 tldr: "Because it constitutes our actual best guess according to what's physically possible."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1783770844645}@@lens
-  - IABIED
-  - --}supplementary
+  - supplementary
 ---
 
 #### Text
