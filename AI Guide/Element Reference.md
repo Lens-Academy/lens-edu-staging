@@ -61,7 +61,7 @@ A `# Submodule:` marker may carry `add_to_ai_context:: [[wikilink]]` (one or mor
 
 Frontmatter: required `id`; optional `learning-outcome` (the outcome statement — start with an action verb: Explain, Distinguish, Identify, Compare, Evaluate, Apply...), `discussion`, `tags`. **Do not** put `add_to_ai_context` on a Learning Outcome — it is an error. Put it on the lens, the module, or the `# Submodule:` marker instead.
 
-Body = H2 sections:
+Body = {--{"author":"Elias's AI","timestamp":1783773025145}@@H2 sections:--}{++{"author":"Elias's AI","timestamp":1783773025145}@@the test, then (optionally) suggested lenses:++}
 
 ```markdown
 ## Test:
@@ -70,14 +70,18 @@ id:: <uuid>
 content:: <the test question>
 assessment-instructions:: <scoring rubric — see Quality Patterns>
 
-## Lens:
-source:: ![[../Lenses/My Topic - PQ]]
+{++{"author":"Elias's AI","timestamp":1783773025145}@@# Suggested Lenses:
+++}## Lens:
+source:: {--{"author":"Elias's AI","timestamp":1783773025145}@@![[../Lenses/My--}{++{"author":"Elias's AI","timestamp":1783773025145}@@[[../Lenses/My++} Topic - PQ]]{++{"author":"Elias's AI","timestamp":1783773025145}@@
+notes:: <optional author note about this suggestion>++}
 
 ## Lens:
-source:: ![[../Lenses/My Topic]]
+source:: {--{"author":"Elias's AI","timestamp":1783773025145}@@![[../Lenses/My--}{++{"author":"Elias's AI","timestamp":1783773025145}@@[[../Lenses/My++} Topic]]
 ```
 
-`## Submodule: <name>` sections may group lenses inside an outcome. Lens order is the learner's path.
+{--{"author":"Elias's AI","timestamp":1783773025145}@@`## Submodule: <name>` sections may group--}{++{"author":"Elias's AI","timestamp":1783773025145}@@Suggested lenses are **author-facing candidates only** — the platform never imports them. A module that references the outcome gets just the test; the module lists its teaching lenses explicitly, before the `# Learning Outcome:` ref. Outcomes with zero suggested++} lenses {--{"author":"Elias's AI","timestamp":1783773025145}@@inside an outcome. Lens order--}{++{"author":"Elias's AI","timestamp":1783773025145}@@are valid. A Test may only contain question/roleplay segments (anything else++} is {++{"author":"Elias's AI","timestamp":1783773025145}@@flagged — it would be silently dropped).
+
+Errors to avoid: a `## Lens:` outside ++}the {--{"author":"Elias's AI","timestamp":1783773025145}@@learner's path.--}{++{"author":"Elias's AI","timestamp":1783773025145}@@`# Suggested Lenses:` header, a `## Test:` nested under it (must sit above), and any `Submodule:` section (removed from outcomes — structure lives in the module file).++}
 
 ## Lens — `Lenses/<Name>.md`
 
