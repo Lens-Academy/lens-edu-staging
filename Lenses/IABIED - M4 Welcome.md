@@ -26,7 +26,7 @@ M4's job is already defined in the course arc: convert intellectual acceptance i
 
 When you're ready, we'll prep you before jumping into the story. It's a quite a ride. 
 
-%%**This week's reading:** Chapter 7 ("Realization") + Chapter 8 ("Expansion") + Chapter 9 ("Ascension") + Coda. After reading, come back here to discuss with the tutor.
+**This week's reading:** Chapter 7 ("Realization") + Chapter 8 ("Expansion") + Chapter 9 ("Ascension") + Coda. After reading, come back here to discuss with the tutor.
 
 #### Chat
 min-chat-messages:: 1
