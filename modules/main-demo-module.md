@@ -24,7 +24,19 @@ source:: [[../Lenses/Dummy lens]]
 
 %% One benefit of importing is that we can reuse the same lens in different modules without copying its source text. Importing lenses is usually preferred over defining them directly in the module. %%
 
-%% Modules also contains learning outcomes.  %%
+%% {++{"author":"Luc's AI","timestamp":1783782514706}@@Importing also works for AI instructions. Prompt files live in the prompts/ folder, and their body is the prompt text (see [[../prompts/demo-tutor-style]]). If you set instructions:: (or ai-instructions:: on roleplays, or assessment-instructions:: on questions) to a wikilink pointing at a prompts/ file, the whole field is replaced by that file's contents: %%
+# Lens: Prompt file demo
+id:: 9e7cf6c7-c701-483a-90db-6e29db963bbd
+
+#### Chat
+instructions:: [[../prompts/demo-tutor-style.md]]
+
+%% You can also mix your own text with prompt links: each prompts/ wikilink expands to its file's body verbatim (you control the spacing around it), and the surrounding text is kept. This lets several lenses share one base prompt while adding lens-specific context around it. Wikilinks that don't point into prompts/ are left as ordinary text. %%
+
+#### Chat
+instructions:: The learner has just gone through this demo module. [[../prompts/demo-tutor-style.md]] Focus the conversation on which segment type they would like to try authoring first.
+
+%% ++}Modules also contains learning outcomes.  %%
 # Learning Outcome:
 source:: [[../Learning Outcomes/Learning Outcome Demo|Demo learning outcome]]
 
