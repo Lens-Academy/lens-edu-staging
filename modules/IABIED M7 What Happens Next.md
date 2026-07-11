@@ -46,11 +46,11 @@ Discussion topics to explore:
 
 Start by asking the student to present the complete argument. Listen carefully, then probe for gaps or places where their understanding could be strengthened. Be encouraging but rigorous.
 
-# {++{"author":"Luc's AI","timestamp":1783723290499}@@Lens:
+# Lens:
 source:: [[../Lenses/IABIED - QA - Warning Shots]]
 
-# ++}Learning Outcome: IABIED - Synthesize the Core Argument
-source:: ![[../Learning Outcomes/IABIED - Synthesize the Core Argument]]{++{"author":"Luc's AI","timestamp":1783723290499}@@
+# Learning Outcome: IABIED - Synthesize the Core Argument
+source:: ![[../Learning Outcomes/IABIED - Synthesize the Core Argument]]
 
 # Lens:
 optional:: true
@@ -58,8 +58,8 @@ source:: ![[../Lenses/IABIED - AI Safety Career Paths]]
 
 # Lens:
 optional:: true
-source:: ![[../Lenses/IABIED - Next Steps with Lens Academy]]++}{++{"author":"Luc's AI","timestamp":1783723774076}@@
-{>>{"author":"Luc's AI","timestamp":1783723774076}@@Review note: 'AI Safety Career Paths' and 'Next Steps with Lens Academy' were suggested lenses of this Learning Outcome AND are also imported below as hidden card targets (optional+hide). The old auto-import rendered both copies, so both are kept to preserve current behavior — you may want to drop one occurrence.<<}++}
+source:: ![[../Lenses/IABIED - Next Steps with Lens Academy]]
+{>>{"author":"Luc's AI","timestamp":1783723774076}@@Review note: 'AI Safety Career Paths' and 'Next Steps with Lens Academy' were suggested lenses of this Learning Outcome AND are also imported below as hidden card targets (optional+hide). The old auto-import rendered both copies, so both are kept to preserve current behavior — you may want to drop one occurrence.<<}
 
 # Learning Outcome: IABIED - Identify Your Path Forward
 source:: ![[../Learning Outcomes/Identify Your Path Forward]]

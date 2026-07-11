@@ -30,10 +30,10 @@ Score according to the following rubric.
 
 **5**: As above, plus holds the diagnosis with the *correct valence*: it is a field-level epistemic claim, not despair, not individual blame, and not a claim that progress is impossible in principle. The field isn't permanently stuck: it's in a stage that has to be exited before adequate engineering becomes possible, and that exit hasn't happened. *Example: Adds "And the diagnosis is meant as a diagnosis, not a verdict. It's not saying alignment researchers are bad people, or that the field will be like this forever, or that progress is impossible. It's saying that *right now* the field is producing the kind of confident-sounding claims that fields produce *before* they have the conceptual machinery to actually engage the problem. And distinguishing this stage from a mature engineering stage is what allows you to ask the right policy questions about what to do while we're still here."*
 
-{++{"author":"Luc's AI","timestamp":1783722893432}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722893432}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722893432}@@[[../Lenses/IABIED++} - Alchemy Not Science - PQ]]
+## Lens:
+source:: [[../Lenses/IABIED - Alchemy Not Science - PQ]]
 
 ## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722893432}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722893432}@@[[../Lenses/IABIED++} - Alchemy Not Science]]
+source:: [[../Lenses/IABIED - Alchemy Not Science]]

@@ -10,10 +10,10 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-{++{"author":"Luc's AI","timestamp":1783722632058}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722632058}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722632058}@@[[../Lenses/EA++} Intro - Call to Vigilance]]
+## Lens:
+source:: [[../Lenses/EA Intro - Call to Vigilance]]
 
 ## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722632058}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722632058}@@[[../Lenses/EA++} Intro - Effective Altruism as the Most Exciting Cause]]
+source:: [[../Lenses/EA Intro - Effective Altruism as the Most Exciting Cause]]

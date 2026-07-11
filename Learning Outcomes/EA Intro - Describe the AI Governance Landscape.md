@@ -10,7 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-{++{"author":"Luc's AI","timestamp":1783722673129}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722673129}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722673129}@@[[../Lenses/EA++} Intro - The Longtermist AI Governance Landscape]]
+## Lens:
+source:: [[../Lenses/EA Intro - The Longtermist AI Governance Landscape]]
