@@ -63,7 +63,7 @@ The reason it's consistent is that most possible minds don't *themselves* endors
 
 So we face something like a cosmic paradox of tolerance: If we like the idea of a diverse, wondrous, strange future, we can't hand control of the future over to a mind that will use its first-mover advantage to dominate and homogenize the universe.
 
-If humanity one day builds a wonderfully diverse civilization full of countless alien perspectives, then it's entirely possible that we'll want some of those perspectives to be *non-*cosmopolitan aliens who don't value variety or sentience at all. Someday, in the distant future, with appropriate guardrails in place, creating minds like that might add something unique and interesting to the world.
+If humanity one day builds a wonderfully diverse civilization full of countless alien perspectives, then it's entirely possible that we'll want some of those perspectives to be {--{"author":"Luc's AI","timestamp":1783790069814}@@*non-*cosmopolitan--}{++{"author":"Luc's AI","timestamp":1783790069814}@@*non*-cosmopolitan++} aliens who don't value variety or sentience at all. Someday, in the distant future, with appropriate guardrails in place, creating minds like that might add something unique and interesting to the world.
 
 What we *shouldn't* do is hand absolute power over to a mind like that, and give it free rein to kill its neighbors (or prevent any neighbors from ever coming into existence).
 
