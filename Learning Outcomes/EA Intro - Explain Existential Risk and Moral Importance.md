@@ -10,7 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-{++{"author":"Luc's AI","timestamp":1783722610872}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722610872}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722610872}@@[[../Lenses/EA++} Intro - The Case for Reducing Existential Risk]]
+## Lens:
+source:: [[../Lenses/EA Intro - The Case for Reducing Existential Risk]]

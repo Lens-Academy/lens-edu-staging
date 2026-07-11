@@ -27,7 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus articulates that the 5-minute open is a *gate*, not throat-clearing — it's what lets you go deep later — and that the close should be *protected*, not negotiable when time runs short.
 
-{++{"author":"Luc's AI","timestamp":1783722741300}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722741300}@@![[../Lenses/Facilitator--}{++{"author":"Luc's AI","timestamp":1783722741300}@@[[../Lenses/Facilitator++} - Diamond of Participation]]
+## Lens:
+source:: [[../Lenses/Facilitator - Diamond of Participation]]

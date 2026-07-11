@@ -10,7 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-{++{"author":"Luc's AI","timestamp":1783722624956}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722624956}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722624956}@@[[../Lenses/EA++} Intro - Independent Impressions]]
+## Lens:
+source:: [[../Lenses/EA Intro - Independent Impressions]]

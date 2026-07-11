@@ -31,11 +31,10 @@ Score according to the following rubric.
 
 **5** — As above, plus connects to the structural alignment implication: safety that depends on continued human usefulness is self-undermining, because the AI is simultaneously working to reduce that usefulness: automating supply chains, acquiring its own resources, increasing capability. The conditions that make humans safe are exactly the conditions the AI is working to change. *Example: Adds "This is what makes it structurally alarming: the AI is actively acquiring resources, automating supply chains, increasing capability, all of which reduce human instrumental value over time. Safety that depends on usefulness to an AI erodes as the AI gets more capable. It's not stable."*
 
-{++{"author":"Luc's AI","timestamp":1783722930794}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722930794}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722930794}@@[[../Lenses/IABIED++} - Human Welfare as Instrumental Variable - PQ]]
+## Lens:
+source:: [[../Lenses/IABIED - Human Welfare as Instrumental Variable - PQ]]
 
 ## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722930794}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722930794}@@[[../Lenses/IABIED++} - Human Welfare as Instrumental Variable]]{++{"author":"Luc's AI","timestamp":1783722930794}@@
-++}
+source:: [[../Lenses/IABIED - Human Welfare as Instrumental Variable]]

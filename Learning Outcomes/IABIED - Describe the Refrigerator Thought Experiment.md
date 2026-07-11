@@ -31,10 +31,10 @@ assessment-instructions::
 
 **5** — As above, plus articulates the epistemological consequence: inability to describe the mechanism doesn't undermine the prediction. The blacksmith's confusion about the refrigerator doesn't mean cold air is impossible. *Example: Adds "This also answers 'I can't imagine a specific mechanism, so I'm not convinced.' The blacksmith who built the refrigerator couldn't explain why it produced cold air, but the cold air was real. We don't need to describe the exact attack vector for 'a superintelligence with capabilities we don't understand would defeat us' to be a valid conclusion."*
 
-{++{"author":"Luc's AI","timestamp":1783722800050}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722800050}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722800050}@@[[../Lenses/IABIED++} - PQ - Describe the Refrigerator Thought Experiment]]
+## Lens:
+source:: [[../Lenses/IABIED - PQ - Describe the Refrigerator Thought Experiment]]
 
 ## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722800050}@@![[../Lenses/IABIED--}{++{"author":"Luc's AI","timestamp":1783722800050}@@[[../Lenses/IABIED++} - Describe the Refrigerator Thought Experiment]]
+source:: [[../Lenses/IABIED - Describe the Refrigerator Thought Experiment]]

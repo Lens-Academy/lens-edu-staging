@@ -40,15 +40,15 @@ Editorially, this chapter feels feels like a weird collection of oddities. It's 
 Really, the learning outcome here distills back to the power of intelligence (plus technology). 
 
 # Submodule: Ch5 - Its Favorite Things
-{++{"author":"Luc's AI","timestamp":1783723157896}@@
-++}# {++{"author":"Luc's AI","timestamp":1783723157896}@@Lens:
+
+# Lens:
 source:: ![[../Lenses/IABIED - Define the Goal-Space Argument - PQ]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - Define the Goal-Space Argument]]
 
-# ++}Learning Outcome: IABIED - Define the Goal-Space Argument
-source:: ![[../Learning Outcomes/IABIED - Define the Goal-Space Argument]]{++{"author":"Luc's AI","timestamp":1783723157896}@@
+# Learning Outcome: IABIED - Define the Goal-Space Argument
+source:: ![[../Learning Outcomes/IABIED - Define the Goal-Space Argument]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - PQ - Distinguish Hostile from Indifferent AI]]
@@ -62,28 +62,28 @@ source:: ![[../Lenses/IABIED - QA - AI Find Us Useful]]
 
 # Lens:
 optional:: true
-source:: ![[../Lenses/IABIED - QA - AI Find Us Fascinating]]++}{++{"author":"Luc's AI","timestamp":1783723748052}@@
-{>>{"author":"Luc's AI","timestamp":1783723748052}@@Review note: 'AI Find Us Useful' and 'AI Find Us Fascinating' were suggested lenses of this Learning Outcome AND are also imported further down in this module as hidden card targets (optional+hide). The old auto-import rendered both copies, so both are kept here to preserve current behavior — but you may want to drop one occurrence.<<}++}
+source:: ![[../Lenses/IABIED - QA - AI Find Us Fascinating]]
+{>>{"author":"Luc's AI","timestamp":1783723748052}@@Review note: 'AI Find Us Useful' and 'AI Find Us Fascinating' were suggested lenses of this Learning Outcome AND are also imported further down in this module as hidden card targets (optional+hide). The old auto-import rendered both copies, so both are kept here to preserve current behavior — but you may want to drop one occurrence.<<}
 
 # Learning Outcome: IABIED - Distinguish Hostile from Indifferent AI
 source:: ![[../Learning Outcomes/IABIED - Distinguish Hostile from Indifferent AI]]
 
 # Submodule: Ch6 - We'd Lose
-{++{"author":"Luc's AI","timestamp":1783723166640}@@
+
 # Lens:
 source:: ![[../Lenses/IABIED - Define the Aztec Warrior Analogy - PQ]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - Define the Aztec Warrior Analogy]]
 
-++}# Learning Outcome: IABIED - Define the Aztec Warrior Analogy
-source:: ![[../Learning Outcomes/IABIED - Define the Aztec Warrior Analogy]]{++{"author":"Luc's AI","timestamp":1783723166640}@@
+# Learning Outcome: IABIED - Define the Aztec Warrior Analogy
+source:: ![[../Learning Outcomes/IABIED - Define the Aztec Warrior Analogy]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - PQ - Describe the Refrigerator Thought Experiment]]
 
 # Lens:
-source:: ![[../Lenses/IABIED - Describe the Refrigerator Thought Experiment]]++}
+source:: ![[../Lenses/IABIED - Describe the Refrigerator Thought Experiment]]
 
 # Learning Outcome: IABIED - Describe the Refrigerator Thought Experiment
 source:: ![[../Learning Outcomes/IABIED - Describe the Refrigerator Thought Experiment]]

@@ -5,9 +5,9 @@ tags:
   - lens
   - IABIED
   - supplementary
-{++{"author":"Luc's AI","timestamp":1783722990216}@@add_to_ai_context:
+add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/14 - Chapter 13 - Shut It Down]]"
-++}---
+---
 
 #### Text
 content::

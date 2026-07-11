@@ -11,8 +11,8 @@ id:: 46d44044-6260-4b95-812d-fd83528698f0
 content::
 In this module, we explore the ways in which intelligence gives agents power over their environment and over other agents that are less intelligent.
 
-# {++{"author":"Luc's AI","timestamp":1783722996000}@@Lens:
+# Lens:
 source:: ![[../Lenses/The power of intelligence|The power of intelligence]]
 
-# ++}Learning Outcome:
+# Learning Outcome:
 source:: [[../Learning Outcomes/Intelligence as a universal adaptive strategy]]

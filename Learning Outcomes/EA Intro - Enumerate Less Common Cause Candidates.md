@@ -10,7 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
-{++{"author":"Luc's AI","timestamp":1783722698647}@@
+
 # Suggested Lenses:
-++}## Lens:
-source:: {--{"author":"Luc's AI","timestamp":1783722698647}@@![[../Lenses/EA--}{++{"author":"Luc's AI","timestamp":1783722698647}@@[[../Lenses/EA++} Intro - Big List of Cause Candidates]]
+## Lens:
+source:: [[../Lenses/EA Intro - Big List of Cause Candidates]]

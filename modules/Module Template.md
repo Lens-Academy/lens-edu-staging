@@ -16,15 +16,14 @@ id::
 content::
 
 
-# {--{"author":"Luc's AI","timestamp":1783723413345}@@Learning Outcome:--}{++{"author":"Luc's AI","timestamp":1783723413345}@@Lens:++}
+# Lens:
 source:: 
 
 # Learning Outcome:
 source:: 
 
-{++{"author":"Luc's AI","timestamp":1783723423171}@@# Lens:
+# Lens:
 source:: 
 
 # Learning Outcome:
 source:: 
-++}
