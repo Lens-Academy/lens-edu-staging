@@ -296,7 +296,7 @@ This implies we can calculate our speed crossing the effective FLOP gap as:
 
 _g(effective compute in the largest training run) = g(software) + g(FLOP/$) + g($ on FLOP)._
 
-![](https://coefficientgiving.org/wp-content/uploads/flop-gap.png)
+{--{"author":"Elias's AI","timestamp":1783849201182}@@![](https://coefficientgiving.org/wp-content/uploads/flop-gap.png)--}{++{"author":"Elias's AI","timestamp":1783849201182}@@![](https://web.archive.org/web/20260213171725im_/https://coefficientgiving.org/wp-content/uploads/flop-gap.png)++}
 
 This section estimates how quickly each of these three components will grow due to rising human investments as we approach AGI.
 
