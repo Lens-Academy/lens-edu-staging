@@ -2,7 +2,8 @@
 id: f59dbfb6-ef70-4629-b18e-9a641efab8df
 title: "Can a technology really be stopped?"
 tldr: "Many technologies are banned or heavily regulated."
-tags:
+{++{"author":"Elias's AI","timestamp":1783850184527}@@summary_for_tutor: "A supplementary Q&A arguing that a technology can be stopped or slowed. It makes three points: humanity already heavily regulates many technologies (nuclear fission, FDA drugs, housing, even hair-styling licenses), so it could impede AI too; a ban on advanced AI R&D can be narrowly targeted and wouldn't affect most people, since ChatGPT need not disappear and few run datacenters; and the main obstacle is that people don't grasp superintelligence's extinction-level threat. The reading is followed by a reflection prompt and a chat probing whether the regulatory analogies land and whether the authors' emotional language strengthens or weakens the argument."
+++}tags:
   - supplementary
 ---
 

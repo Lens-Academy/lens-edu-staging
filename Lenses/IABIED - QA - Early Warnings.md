@@ -1,6 +1,7 @@
 ---
 id: 396921de-1713-42be-888f-af7c6d9ba444
-title: "Won't there be early warnings researchers can use to identify problems?"
+{++{"author":"Elias's AI","timestamp":1783850187101}@@summary_for_tutor: "Presents the book's Chapter 11 FAQ arguing that early warning signs are useless without a mature theory to interpret them and act on them. The reading develops the OceanGate Titan analogy -- a submersible with hull-strain sensors but no theory of carbon-fiber failure, whose operators ignored a warning bang before it imploded -- and maps it onto AI: companies can measure outputs and monitor chain-of-thought but lack a mature theory of intelligence, keeping alignment in an immature 'alchemy' phase rather than a mature 'chemistry' one. A reflection prompt follows the article, then a tutor chat probes the analogy's fit, what field maturity would require, and whether lab behaviors like AIs attempting to kill operators count as real warning signs."
+++}title: "Won't there be early warnings researchers can use to identify problems?"
 tldr: "Warning signs don't help if you don't know what to do with them."
 tags:
   - supplementary
