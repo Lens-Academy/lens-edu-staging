@@ -35,7 +35,9 @@ Chat casually with the learner about whatever they bring up; keep replies short.
 
 # Lens: Question with the default requirement
 id:: eeb40ecf-e7e1-4536-8bda-a5cf286439d7
-
+{++{"author":"Elias's AI","timestamp":1783851522143}@@tldr:: A plain question, no special settings, so what does it take to move on? By default you must answer once, and the tutor opens a short feedback chat on your reply.
+summary_for_tutor:: Demo lens with a single Question and no extra fields, showing the default behavior: one completed answer is required before completion and a feedback conversation opens automatically (feedback:: defaults to true).
+++}
 #### Text
 content::
 This page has a plain question with no extra fields. Questions require one completed answer by default (and get a feedback conversation, since `feedback::` defaults to true). Until you answer it you can't mark this lens as completed.
