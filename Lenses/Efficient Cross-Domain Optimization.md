@@ -1,6 +1,7 @@
 ---
 id: acf8f93f-b783-4a22-8480-ca8b3e8f121a
-title: "Efficient Cross-Domain Optimization"
+{++{"author":"Elias's AI","timestamp":1783850127798}@@summary_for_tutor: "Presents Yudkowsky's 2008 argument that intelligence is best defined as efficient cross-domain optimization. Distinguishes narrow optimizers (Deep Blue, bees, beavers) that are powerful only inside the domain they were built for from cross-domain optimizers (humans, evolution) that steer causal chains through widely different domains, then adds the efficiency qualifier -- optimization power divided by resources used -- to separate intelligence from raw optimization power, noting that evolution is cross-domain but hugely inefficient. Introduces 'steering the future' as the real currency of conflict and cooperation between agents, and uses the definition to set up what a system that is a more efficient cross-domain optimizer than humans could do. The lens frames the reading with a short intro, presents the article, then poses a follow-up prompt and an AI-tutor chat exploring the definition and how it grounds the question of AI risk."
+++}title: "Efficient Cross-Domain Optimization"
 tldr: Deep Blue could beat Kasparov at chess but couldn't build a dam. A beaver can build a dam but can't play chess. Intelligence, properly understood, is the ability to optimize efficiently across domains — and this definition has radical implications for what a sufficiently general AI could do.
 ---
 #### Text

@@ -1,6 +1,7 @@
 ---
 id: 3f1fc921-560f-4d47-8eb6-3c4dab872b9d
-title: 10 Reasons to Ignore AI Safety
+{++{"author":"Elias's AI","timestamp":1783850122988}@@summary_for_tutor: "Presents Robert Miles's walkthrough of Stuart Russell's ten common objections to taking AI safety seriously, refuting each: that we will never build AGI, that it is too soon to worry, the 'overpopulation on Mars' analogy, 'just don't give it bad goals' (countered by instrumental convergence), removing explicit goals entirely (which makes systems less safe, not more), human-AI teams as a fix (which presupposes alignment is already solved), that research directions cannot be steered, that safety advocates are anti-technology Luddites, 'we'll just turn it off,' and that discussing risk is bad for the field. The lens is a video followed by a reflection question asking which objection stood out most, then an open AI-tutor chat meant to surface and constructively engage the learner's remaining skepticism."
+++}title: 10 Reasons to Ignore AI Safety
 tldr: '"It''s too early to worry." "Just don''t give it bad goals." "We can always pull the plug." Robert Miles takes on ten common reasons people dismiss AI safety — and shows why each one is harder to wave away than it sounds.'
 ---
 #### Video
