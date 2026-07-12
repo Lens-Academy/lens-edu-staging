@@ -1,7 +1,7 @@
 ---
 id: d04e0402-6f4b-4217-9193-dbe7bdd89cd7
-{++{"author":"Elias's AI","timestamp":1783850066902}@@tldr: "If experts can't explain why their own AI systems work -- one landmark paper credits its success to 'divine benevolence' -- how should the rest of us judge their assurances that AI is safe? This piece argues that knowing even a little about how LLMs work reveals how little anyone truly knows, and why that gap matters for policy and for cutting through disinformation."
-++}summary_for_tutor: "Explains why understanding LLM mechanics matters for policy and public discourse. Helps counter misinformation (like false claims that AI opacity has been resolved), enables better regulation, and reveals the gap between understanding the training process and understanding the trained system. Notes that interpretability research receives roughly 0.1% of AI development personnel."
+tldr: "If experts can't explain why their own AI systems work -- one landmark paper credits its success to 'divine benevolence' -- how should the rest of us judge their assurances that AI is safe? This piece argues that knowing even a little about how LLMs work reveals how little anyone truly knows, and why that gap matters for policy and for cutting through disinformation."
+summary_for_tutor: "Explains why understanding LLM mechanics matters for policy and public discourse. Helps counter misinformation (like false claims that AI opacity has been resolved), enables better regulation, and reveals the gap between understanding the training process and understanding the trained system. Notes that interpretability research receives roughly 0.1% of AI development personnel."
 title: What Good Does Knowledge of LLMs Do?
 tags:
   - supplementary
