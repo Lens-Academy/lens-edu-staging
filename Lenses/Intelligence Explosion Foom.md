@@ -1,6 +1,7 @@
 ---
 id: 97a886d3-693a-4916-bd20-9c94a21aca96
-title: "Recursion, Magic"
+{++{"author":"Elias's AI","timestamp":1783851337702}@@summary_for_tutor: "Teaches why feeding a process's output back into its input does not automatically yield an intelligence explosion, drawing on Yudkowsky's 'Recursion' discussion. The excerpt works through optimizing compilers, which only make code run faster while leaving its input/output function unchanged (so gains top out, k<1), and EURISKO, a 1980s self-improving AI that could rewrite even its own metaheuristics yet still ran out of steam because it lacked the 'insight' that lets humans move quickly through a search space. It frames improvement as a causal tree in which changes closer to the root cascade further, concluding that a tool like a computer mouse 'isn't recursive enough.' Framing text adds an agricultural-surplus analogy (feedback compounds only if new input improves the output), and the tutor chat explores what optimization would have to target to foom, where speed and competence diverge, and whether intelligence is one variable or many separate skills."
+++}title: "Recursion, Magic"
 tldr: The agricultural revolution only happened because surplus grain produced more than enough to replant. If the yield had stayed flat, nothing would have changed. This article asks the same question about AI self-improvement — does it compound, or just run faster in place?
 ---
 #### Text
