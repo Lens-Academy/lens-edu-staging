@@ -1,6 +1,7 @@
 ---
 id: bafb42cd-f9b2-43d1-aec4-bd6ed36b10e0
-title: "Why a research ban? That seems extreme."
+{++{"author":"Elias's AI","timestamp":1783850998529}@@summary_for_tutor: "Presents the authors' case for banning AI algorithm research. Argues algorithmic breakthroughs are as dangerous as hardware advances -- 'two horses drawing the same cart off a cliff' -- noting a single 2017 paper launched the LLM revolution, and that if powerful AI ever becomes trainable on widely available consumer hardware, prevention measures would grow onerous and fail faster. Contends that making such research illegal would deter roughly 99.9 percent of people and nearly all corporations, with the remaining 0.1 percent addressed by local, national, and international police and intelligence agencies and starved of academic funding, comparable to how society treats someone enriching uranium in a garage. A reflection prompt and chat then explore the uranium-enrichment analogy and the tension between academic freedom and existential risk."
+++}title: "Why a research ban? That seems extreme."
 tldr: "More breakthroughs might make it effectively impossible to stop people from making superintelligence."
 tags:
   - supplementary
