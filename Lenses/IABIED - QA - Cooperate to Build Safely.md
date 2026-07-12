@@ -2,7 +2,8 @@
 id: 9d2651c4-1830-4438-bdb1-299dfcb99a01
 title: "Why not use international cooperation to build AI safely?"
 tldr: "Because we don't have the technical ability to build it safely."
-tags:
+{++{"author":"Elias's AI","timestamp":1783850191528}@@summary_for_tutor: "A supplementary Q&A explaining why the authors reject international cooperation to build AI safely instead of shutting research down. The core reason is that no one has the technical ability to build it safely, so pooling experts helps no more than a collaboration of alchemists can transmute lead into gold. They further argue institutional dynamics would push any cooperative institute past safety limits, citing Chernobyl and Challenger, where three prior aborts made a fourth too embarrassing to call, so operators pressed on. The reading is followed by a reflection prompt and a chat testing the alchemist analogy and the role of institutional pressure toward approval."
+++}tags:
   - supplementary
 ---
 
