@@ -1,6 +1,7 @@
 ---
 id: 27b0be33-0b86-496a-8be5-c1c91952fbf0
-title: "How would stopping everyone be possible without spyware?"
+{++{"author":"Elias's AI","timestamp":1783851044247}@@summary_for_tutor: "Addresses the objection that halting AI development would require surveilling every computer. The reading argues it would not: training advanced AI needs large clusters of specialized chips made by only a few manufacturers, with key fabrication equipment sold by a single company (ASML in the Netherlands), so the supply can be cut off at the source without touching ordinary consumer devices, which most people would not notice. This window of feasibility is closing as chip manufacturing threatens to diversify, so the sooner an international treaty is signed the better. After the reading the student answers a reflection prompt and then discusses via chat how the concentration of the chip supply chain affects the feasibility of a ban and what happens to the argument if chip manufacturing becomes more distributed."
+++}title: "How would stopping everyone be possible without spyware?"
 tldr: "By acting soon."
 tags:
   - supplementary

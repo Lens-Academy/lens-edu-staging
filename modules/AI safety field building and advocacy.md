@@ -18,7 +18,9 @@ source:: [[../Learning Outcomes/Evaluate the case against a broad AI safety move
 
 # Lens: Welcome
 id:: 958043bc-f443-4d3a-8cb3-eeba802344e1
-#### Text
+{++{"author":"Elias's AI","timestamp":1783851041542}@@tldr:: Most AI safety work is object-level — alignment, evals, policy. But who grows the field that does it, and should safety be argued in public? This module works the meta layer: field-building's theory of change, how to build it, the advocacy inside-vs-outside debate, and the sharp case against a broad movement. Two-sided by design — you leave able to reason, not to recite a verdict.
+summary_for_tutor:: Opening framing lens for the field-building and advocacy module. Introduces the meta layer of AI safety (growing the field and public advocacy, as distinct from object-level alignment, evaluation, and policy work) and previews four learning outcomes: the theory of change for field-building on the premise that the field is talent- and capacity-constrained; how field-building is done (courses, fellowships, org-building, and the 2026 shift in the binding constraint from junior-talent supply to mentorship/absorptive capacity); advocacy and communication (inside vs outside game, competing communication doctrines, and advocacy's risks); and the critique (the movement's diagnosed mistakes, the case against a broad movement, and lessons from other social movements). Deliberately two-sided, pairing Elmore's case for public advocacy against Leicht's case against a broad movement. Framing text only; teaching happens in the following lenses.
+++}#### Text
 content::
 Most of AI safety is *object-level* work — alignment, evaluations, policy. This module is about the **meta layer**: growing the field that does that work, and advocating for safety in public. It follows the debate as it actually runs, in four learning outcomes:
 
