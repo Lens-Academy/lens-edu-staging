@@ -1,6 +1,8 @@
 ---
 id: 0256486e-574d-460c-9c92-088b15841afe
-title: "Facilitator M3 — Overview of Optional Resources"
+{++{"author":"Elias's AI","timestamp":1783849160820}@@tldr: "Going deeper on openings and running groups online. Three short Sara Ness videos unpack what a good opening actually does (safety and connection), how to start strong when you can't shake hands, and how the online medium changes the game — plus an archive of check-in questions to borrow from."
+summary_for_tutor: "Optional-resources lens for Module 3 of the facilitator training, on openings and online facilitation. Lists three Sara Ness videos — 'Opening the Event' (6 min) on the two ingredients of an opening, safety and connection; 'Virtual Introductions' (5 min) on starting strong online; and 'Facilitating Online' (11 min) on the online medium's affordances — plus the Check-in Success question archive as a reference repository of opening, check-in, and closing questions. Supplementary only."
+++}title: "Facilitator M3 — Overview of Optional Resources"
 tags:
   - facilitator-training
 ---

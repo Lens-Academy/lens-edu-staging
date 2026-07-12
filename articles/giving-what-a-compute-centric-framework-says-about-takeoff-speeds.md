@@ -40,7 +40,7 @@ In the next few decades [we may develop AGI](https://www.cold-takes.com/where-ai
 
 By contrast, today the capabilities and impact of AI are much more limited. How sudden might this transformation be? More precisely: once AI is capable enough, and we can run enough copies, that AI can readily automate 20% of cognitive tasks (weighted by 2020 economic value), how much longer until AI can readily automate 100%?[\[2\]](#f+14504+2+2) Milestones of the form “AI could readily automate x% of tasks” require both that AI is capable enough to perform the tasks and that we can run enough copies for AI to replace every human doing those tasks. By contrast, the definition of AGI as “AI that could readily perform 100% of tasks” … [Continue reading](#f+14504+2+2) This is what I refer to as the question of AI takeoff speeds.[\[3\]](#f+14504+2+3) By contrast, in _Superintelligence_ takeoff speed is defined as the time from human-level AI to superintelligence. I discuss this, but it is not my focus because I think the bigger crux in takeoff speeds relates to the time from sub-human but hugely impactful AI to human-level AI ([more](https://docs.google.com/document/d/1rw1pTbLi2brrEP0DcsZMAVhlKp6TKGKNUSFRkkdP_hs/edit#heading=h.h71wxrpfdnwi)).
 
-![](https://coefficientgiving.org/wp-content/uploads/compute-1.png)
+![]({--{"author":"Elias's AI","timestamp":1783849164014}@@https://coefficientgiving.org/wp-content/uploads/compute-1.png--}{++{"author":"Elias's AI","timestamp":1783849164014}@@https://web.archive.org/web/20260513212439im_/https://coefficientgiving.org/wp-content/uploads/compute-1.png++})
 
 AI timelines vs takeoff speeds in the Monte Carlo analysis. X-axis: first year that AI could readily automate 100% of cognitive tasks in the global economy. Y-axis: how many years previously could AI readily automate only 20% of these tasks?
 
@@ -91,7 +91,7 @@ I use a computational model, the Full Takeoff Model, to calculate the evolution 
     -   The model implies that software, hardware and GDP grow increasingly quickly as we cross the effective FLOP gap and AI automates more tasks.
     -   I assume it is somewhat easier for AI to automate cognitive tasks in {software and hardware R&D} than in the broader economy. This makes takeoff faster.
 
-![](https://coefficientgiving.org/wp-content/uploads/takeoff-model.png)
+![]({--{"author":"Elias's AI","timestamp":1783849165957}@@https://coefficientgiving.org/wp-content/uploads/takeoff-model.png--}{++{"author":"Elias's AI","timestamp":1783849165957}@@https://web.archive.org/web/20260513212439im_/https://coefficientgiving.org/wp-content/uploads/takeoff-model.png++})
 
 The key dynamics represented in the Full Takeoff Model. Link to chart.
 
