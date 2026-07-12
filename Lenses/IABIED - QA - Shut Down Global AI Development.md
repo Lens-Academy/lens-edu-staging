@@ -1,6 +1,7 @@
 ---
 id: 107908d8-8ea9-49e0-a7a7-fdc294ae4f2c
-title: "What Would It Take to Shut Down Global AI Development?"
+{++{"author":"Elias's AI","timestamp":1783851029031}@@summary_for_tutor: "Sketches the practical mechanics the authors propose for shutting down global AI development, organized around three levers. First, preventing new AI-chip production, feasible because the supply chain is extremely concentrated -- fabrication centered on TSMC and key lithography machines produced only by ASML in the Netherlands -- so minimal monitoring of a few suppliers could halt it. Second, preventing chip usage, since the largest datacenters house hundreds of thousands of chips each drawing power comparable to an American home and are massive enough to be identified by orbiting satellites. Third, slowing algorithmic progress through legal and social measures, where making certain research illegal would deter roughly 99.9 percent of people. Stresses the window is closing: as algorithms improve, fewer chips suffice to pose a threat and enforcement gets harder every month. A reflection prompt and chat then weigh which lever is most feasible or fragile and how satellite-visible datacenters affect enforcement feasibility."
+++}title: "What Would It Take to Shut Down Global AI Development?"
 tldr: "Preventing the Creation of More and Better AI Chips"
 tags:
   - supplementary
