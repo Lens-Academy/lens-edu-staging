@@ -5,9 +5,9 @@ title: Coming soon!
 ---
 
 # Lens: Coming Soon
-id:: b2c3d4e5-6789-01bc-def2-3456789012cd{++{"author":"Elias's AI","timestamp":1783853811290}@@
+id:: b2c3d4e5-6789-01bc-def2-3456789012cd
 tldr:: This module isn't ready yet — more content is coming soon.
-summary_for_tutor:: Stub lens that only announces upcoming content. There is nothing to teach here.++}
+summary_for_tutor:: Stub lens that only announces upcoming content. There is nothing to teach here.
 #### Text
 content:: 
 Coming soon!
