@@ -1,6 +1,7 @@
 ---
 id: b24e0198-8fa8-49cd-b7c6-396bc5f847be
-summary_for_tutor: "Covers Scott Alexander's analysis of hyperbolic growth models applied to human history. Von Foerster's equations fit past population data with startling accuracy but predicted a singularity around 2026 that never arrived because the demographic transition broke the feedback loop. Introduces the concept that long-running historical trends can break abruptly due to qualitative shifts, with implications for predicting AI trajectories."
+{++{"author":"Elias's AI","timestamp":1783850139921}@@tldr: "In the 1950s a scientist found equations that fit all of human history and predicted the world would hit infinity on November 13, 2026. It didn't -- the trend broke in 1961. Scott Alexander uses that failed prophecy to ask a sharper question: when a pattern has held for millennia, what makes it suddenly snap, and could AI restart the runaway growth that the demographic transition switched off?"
+++}summary_for_tutor: "Covers Scott Alexander's analysis of hyperbolic growth models applied to human history. Von Foerster's equations fit past population data with startling accuracy but predicted a singularity around 2026 that never arrived because the demographic transition broke the feedback loop. Introduces the concept that long-running historical trends can break abruptly due to qualitative shifts, with implications for predicting AI trajectories."
 title: "1960, The Year The Singularity Was Cancelled"
 ---
 #### Text

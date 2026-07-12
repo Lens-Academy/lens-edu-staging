@@ -1,6 +1,7 @@
 ---
 id: 52e8bb23-8bfe-480d-ab16-5783eebc9341
-summary_for_tutor: "Covers the positive vision of what powerful AI could bring if safety is solved. Frames the question through Nick Bostrom's 'Letter from Utopia' and Dario Amodei's 'Machines of Loving Grace' essay, which envisions AI-enabled breakthroughs in biology, medicine, neuroscience, economic development, and governance. Intended as a counterweight to risk-focused material."
+{++{"author":"Elias's AI","timestamp":1783850139132}@@tldr: "The risks get most of the attention, but what exactly are we fighting to protect? Anthropic CEO Dario Amodei argues most people underestimate the upside of powerful AI as badly as they underestimate the danger, and sketches what a 'country of geniuses in a datacenter' could do for health, the mind, poverty, and peace if safety is solved."
+++}summary_for_tutor: "Covers the positive vision of what powerful AI could bring if safety is solved. Frames the question through Nick Bostrom's 'Letter from Utopia' and Dario Amodei's 'Machines of Loving Grace' essay, which envisions AI-enabled breakthroughs in biology, medicine, neuroscience, economic development, and governance. Intended as a counterweight to risk-focused material."
 title: Machines Of Loving Grace
 ---
 #### Text
