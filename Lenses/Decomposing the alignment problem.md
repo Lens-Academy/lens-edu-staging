@@ -1,6 +1,8 @@
 ---
 id: 42d2d526-c5f2-4d6d-8e70-758cd27f38a9
-title: Decomposing the alignment problem
+{++{"author":"Elias's AI","timestamp":1783848782530}@@tldr: "Once you have picked what to align an AI toward, how do you make it actually obey? This lens breaks the technical problem into working parts — training stories, the contested split between outer and inner alignment, and the inductive biases that decide how models generalize — then ends with a twist: the tidy decomposition may not hold up."
+summary_for_tutor: "Covers the technical AI alignment problem under a deep-learning assumption. Introduces training stories (choosing a training target, then a training rationale for why the training setup will produce a model that obeys it), then the outer/inner alignment decomposition: outer alignment is specifying a reward function that captures the target, inner alignment is ensuring the trained policy generalizes correctly out-of-distribution and that any internal goal matches the reward's goal. Explains that out-of-distribution behavior depends on inductive biases (illustrated by emergent misalignment) and that the inner/outer split is controversial, citing Turner's \"reward is not the optimization target.\" Includes an optional chat that helps the learner hold this structure and correct common confusions."
+++}title: Decomposing the alignment problem
 ---
 #### Text
 content:: Assume we have chosen our alignment target. How do we ensure an AI system actually *obeys* that target? This is the **technical** problem of AI alignment. In this introduction we mostly presuppose that AI systems are *trained via deep learning* (later modules on agent foundations go beyond that assumption).
