@@ -1,6 +1,8 @@
 ---
 id: 61064e53-af1a-439c-abf1-842a55517d86
-title: "1.2 The mutual learning mindset"
+{++{"author":"Elias's AI","timestamp":1783849252214}@@tldr: "Under pressure, most of us default to 'I know what should happen here, and my job is to make it happen.' Good facilitators work from the opposite posture. Meet Schwarz's Mutual Learning Mindset and its five values — then spot the trigger that quietly pulls you back into control mode."
+summary_for_tutor: "Teaches the Mutual Learning Mindset (Roger Schwarz, via the Curiosity Society's Facilitator's Handbook) and its five values: transparency, curiosity, informed choice, accountability, and compassion. Contrasts it with the unilateral-control posture people fall back on under pressure. Includes a 12-minute reading of the Handbook (pp. 4-13) followed by a short reflection chat in which the tutor helps the trainee name their own personal trigger for slipping into unilateral control."
+++}title: "1.2 The mutual learning mindset"
 tags:
   - facilitator-training
 ---

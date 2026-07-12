@@ -1,6 +1,8 @@
 ---
 id: 747aa08a-6ed9-40e9-972a-204234b0f469
-title: "Facilitator M1 — Overview of Optional Resources"
+{++{"author":"Elias's AI","timestamp":1783849255395}@@tldr: "A quick pointer: Module 1's optional resources are now listed individually at the end of the module, each as its own lens, so you can track your progress on each one separately."
+summary_for_tutor: "A short navigational note for Module 1 of the facilitator training. Explains that the module's optional resources are now presented as individual lenses at the end of the module rather than bundled here, so progress on each can be tracked separately."
+++}title: "Facilitator M1 — Overview of Optional Resources"
 tags:
   - facilitator-training
 ---
