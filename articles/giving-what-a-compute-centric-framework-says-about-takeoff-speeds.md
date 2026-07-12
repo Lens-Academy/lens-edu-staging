@@ -5,8 +5,8 @@ author:
 source_url: "https://coefficientgiving.org/research/what-a-compute-centric-framework-says-about-takeoff-speeds/"
 published: 2025-11-18
 created: 2026-07-02
-accessed: 2026-07-02{++{"author":"Elias's AI","timestamp":1783847982477}@@
-allowUnreachableUrl: true {>>{"author":"Elias's AI","timestamp":1783847982477}@@source_url returns HTTP 403 to the validator (Cloudflare bot block) but works in a browser. Note: 13 embedded coefficientgiving.org images also 403 to the validator — if they're broken for learners too, they need re-hosting; this flag only covers the source_url warning<<}++}
+accessed: 2026-07-02
+allowUnreachableUrl: true {>>{"author":"Elias's AI","timestamp":1783847982477}@@source_url returns HTTP 403 to the validator (Cloudflare bot block) but works in a browser. Note: 13 embedded coefficientgiving.org images also 403 to the validator — if they're broken for learners too, they need re-hosting; this flag only covers the source_url warning<<}
 description: "Editor’s note: This article was published under our former name, Open Philanthropy. Some content may be outdated. You can see our latest writing here. This is Part 0 of a four-part report — see links to Part 1. Part 2. Part 3, and a folder with more materials. Abstract In the next few decades we may […]"
 tags:
   - "article-importer"
@@ -40,7 +40,7 @@ In the next few decades [we may develop AGI](https://www.cold-takes.com/where-ai
 
 By contrast, today the capabilities and impact of AI are much more limited. How sudden might this transformation be? More precisely: once AI is capable enough, and we can run enough copies, that AI can readily automate 20% of cognitive tasks (weighted by 2020 economic value), how much longer until AI can readily automate 100%?[\[2\]](#f+14504+2+2) Milestones of the form “AI could readily automate x% of tasks” require both that AI is capable enough to perform the tasks and that we can run enough copies for AI to replace every human doing those tasks. By contrast, the definition of AGI as “AI that could readily perform 100% of tasks” … [Continue reading](#f+14504+2+2) This is what I refer to as the question of AI takeoff speeds.[\[3\]](#f+14504+2+3) By contrast, in _Superintelligence_ takeoff speed is defined as the time from human-level AI to superintelligence. I discuss this, but it is not my focus because I think the bigger crux in takeoff speeds relates to the time from sub-human but hugely impactful AI to human-level AI ([more](https://docs.google.com/document/d/1rw1pTbLi2brrEP0DcsZMAVhlKp6TKGKNUSFRkkdP_hs/edit#heading=h.h71wxrpfdnwi)).
 
-![]({--{"author":"Elias's AI","timestamp":1783849164014}@@https://coefficientgiving.org/wp-content/uploads/compute-1.png--}{++{"author":"Elias's AI","timestamp":1783849164014}@@https://web.archive.org/web/20260513212439im_/https://coefficientgiving.org/wp-content/uploads/compute-1.png++})
+![](https://web.archive.org/web/20260513212439im_/https://coefficientgiving.org/wp-content/uploads/compute-1.png)
 
 AI timelines vs takeoff speeds in the Monte Carlo analysis. X-axis: first year that AI could readily automate 100% of cognitive tasks in the global economy. Y-axis: how many years previously could AI readily automate only 20% of these tasks?
 
@@ -78,7 +78,7 @@ This implies we can calculate our speed crossing the effective FLOP gap as:
 
 _g(effective compute in the largest training run) = g(software) + g(FLOP/$) + g($ on FLOP)._
 
-{--{"author":"Elias's AI","timestamp":1783849199094}@@![](https://coefficientgiving.org/wp-content/uploads/flop-gap.png)--}{++{"author":"Elias's AI","timestamp":1783849199094}@@![](https://web.archive.org/web/20260213171725im_/https://coefficientgiving.org/wp-content/uploads/flop-gap.png)++}
+![](https://web.archive.org/web/20260213171725im_/https://coefficientgiving.org/wp-content/uploads/flop-gap.png)
 
 First estimate the size of the effective FLOP gap; then calculate how quickly we’ll cross it by simulating the trajectories of {$ on FLOP in the largest training run}, FLOP/$ and software. As we cross the effective FLOP gap, AI automates more tasks and so AI R & D progress accelerates. Link to diagram.
 
@@ -91,13 +91,13 @@ I use a computational model, the Full Takeoff Model, to calculate the evolution 
     -   The model implies that software, hardware and GDP grow increasingly quickly as we cross the effective FLOP gap and AI automates more tasks.
     -   I assume it is somewhat easier for AI to automate cognitive tasks in {software and hardware R&D} than in the broader economy. This makes takeoff faster.
 
-![]({--{"author":"Elias's AI","timestamp":1783849165957}@@https://coefficientgiving.org/wp-content/uploads/takeoff-model.png--}{++{"author":"Elias's AI","timestamp":1783849165957}@@https://web.archive.org/web/20260513212439im_/https://coefficientgiving.org/wp-content/uploads/takeoff-model.png++})
+![](https://web.archive.org/web/20260513212439im_/https://coefficientgiving.org/wp-content/uploads/takeoff-model.png)
 
 The key dynamics represented in the Full Takeoff Model. Link to chart.
 
 The Full Takeoff Model makes assumptions about the compute needed to train AGI using 2020 algorithms, the size of the effective FLOP gap, the pace at which human investments rise, the diminishing returns to hardware and software R&D, bottlenecks from tasks that AI cannot perform, and more. It calculates trajectories for software, hardware, $ on training, effective compute in the largest training run, and GDP.
 
-![]({--{"author":"Elias's AI","timestamp":1783849168039}@@https://coefficientgiving.org/wp-content/uploads/simulation.png--}{++{"author":"Elias's AI","timestamp":1783849168039}@@https://web.archive.org/web/20260513212439im_/https://coefficientgiving.org/wp-content/uploads/simulation.png++})
+![](https://web.archive.org/web/20260513212439im_/https://coefficientgiving.org/wp-content/uploads/simulation.png)
 
 Simulation of Full Takeoff Model with my best-guess values for each parameter. In the playground you can enter your preferred parameter values and study the results. ($ on FLOP in largest training run ~= $ on FLOP globally \* fraction of global FLOP on training)
 
@@ -127,7 +127,7 @@ There is a strong relationship between the difficulty of developing AGI and take
     -   If AI is easy to develop, this fraction will still be small when we _start_ crossing the effective FLOP gap. So there’s more room to grow the fraction as we cross the gap.
     -   If in addition the effective FLOP gap is small (point 1), we could cross most of the gap merely by increasing the **fraction**. I.e. we could cross the gap very quickly.
 
-![]({--{"author":"Elias's AI","timestamp":1783849170202}@@https://coefficientgiving.org/wp-content/uploads/agi-training-reqs.png--}{++{"author":"Elias's AI","timestamp":1783849170202}@@https://web.archive.org/web/20260513212439im_/https://coefficientgiving.org/wp-content/uploads/agi-training-reqs.png++})
+![](https://web.archive.org/web/20260513212439im_/https://coefficientgiving.org/wp-content/uploads/agi-training-reqs.png)
 
 Difficulty of developing AGI (x-axis) against takeoff speed (y-axis)
 
@@ -156,7 +156,7 @@ This has not been my main focus, but the framework has implications for this que
 
 Compared to Bio Anchors, this framework predicts larger maximum $ spend on the largest training for AGI, includes additional speed-ups from AI automation, and models the possibility we could leverage enormous amounts of runtime compute to get full automation sooner. As a result, its median predicted AGI year is 10 years earlier than Bio Anchors (2043 vs 2053), despite using the same distribution over AGI training requirements.
 
-![]({--{"author":"Elias's AI","timestamp":1783849172601}@@https://coefficientgiving.org/wp-content/uploads/100-automation.png--}{++{"author":"Elias's AI","timestamp":1783849172601}@@https://web.archive.org/web/20260513212440im_/https://coefficientgiving.org/wp-content/uploads/100-automation.png++})
+![](https://web.archive.org/web/20260513212440im_/https://coefficientgiving.org/wp-content/uploads/100-automation.png)
 
 ### Notable assumptions and limitations of the framework
 
@@ -246,7 +246,7 @@ The next three sections discuss the size of the effective FLOP gap, the toy mode
 
 How much more effective compute do you need to train AGI than to train AI that can readily perform ~20% of cognitive tasks (weighted by 2020 economic value)?
 
-![Illustration of a terrain with words such as "Art", Science", "Driving", "Chess" and "Arithmetic" placed on different parts of the terrain such as mountains, water and land near water.]({--{"author":"Elias's AI","timestamp":1783849174977}@@https://coefficientgiving.org/wp-content/uploads/rising-tide.png--}{++{"author":"Elias's AI","timestamp":1783849174977}@@https://web.archive.org/web/20260513212440im_/https://coefficientgiving.org/wp-content/uploads/rising-tide.png++})
+![Illustration of a terrain with words such as "Art", Science", "Driving", "Chess" and "Arithmetic" placed on different parts of the terrain such as mountains, water and land near water.](https://web.archive.org/web/20260513212440im_/https://coefficientgiving.org/wp-content/uploads/rising-tide.png)
 
 Hans Moravec’s “rising tide of AI capacity” can illuminate the meaning of the effective FLOP gap. Currently AI can only readily perform a small fraction of cognitive tasks – the areas of the map that are underwater. Over time the AI capabilities improve and the tide rises. Eventually, AI can readily perform all cognitive tasks: we’ve crossed the effective FLOP gap and everything is under water.
 
@@ -296,7 +296,7 @@ This implies we can calculate our speed crossing the effective FLOP gap as:
 
 _g(effective compute in the largest training run) = g(software) + g(FLOP/$) + g($ on FLOP)._
 
-{--{"author":"Elias's AI","timestamp":1783849201182}@@![](https://coefficientgiving.org/wp-content/uploads/flop-gap.png)--}{++{"author":"Elias's AI","timestamp":1783849201182}@@![](https://web.archive.org/web/20260213171725im_/https://coefficientgiving.org/wp-content/uploads/flop-gap.png)++}
+![](https://web.archive.org/web/20260213171725im_/https://coefficientgiving.org/wp-content/uploads/flop-gap.png)
 
 This section estimates how quickly each of these three components will grow due to rising human investments as we approach AGI.
 
@@ -350,7 +350,7 @@ I forecast that cumulative spending will grow at ~25% after “wake up”, imply
 
 So, combining the above, I calculate the growth of the the largest training run after “wake up” as follows:
 
-![]({--{"author":"Elias's AI","timestamp":1783849188798}@@https://coefficientgiving.org/wp-content/uploads/crossing-gap.png--}{++{"author":"Elias's AI","timestamp":1783849188798}@@https://web.archive.org/web/20260513212440im_/https://coefficientgiving.org/wp-content/uploads/crossing-gap.png++})
+![](https://web.archive.org/web/20260513212440im_/https://coefficientgiving.org/wp-content/uploads/crossing-gap.png)
 
 Link to image
 
@@ -372,7 +372,7 @@ The main thing the FTM adds to the analysis above is modelling AI automation of 
 
 AI automation increases GDP and the amount of hardware and software R&D progress made each year. This causes the effective compute on the largest training run to grow increasingly quickly as we cross the effective FLOP gap.
 
-![]({--{"author":"Elias's AI","timestamp":1783849190794}@@https://coefficientgiving.org/wp-content/uploads/takeoff-model-1.png--}{++{"author":"Elias's AI","timestamp":1783849190794}@@https://web.archive.org/web/20260102053605im_/https://coefficientgiving.org/wp-content/uploads/takeoff-model-1.png++})
+![](https://web.archive.org/web/20260102053605im_/https://coefficientgiving.org/wp-content/uploads/takeoff-model-1.png)
 
 To estimate the effect of continuously increasing AI automation I adapt a [task-based CES model](https://web.stanford.edu/~chadj/AJJ-AIandGrowth.pdf) from the economic automation literature.[\[34\]](#f+14504+2+34) The resultant model of automation is perhaps most similar to [Hanson (2000)](https://mason.gmu.edu/~rhanson/aigrow.pdf). Here’s a **very simplified toy version** of what my model says about how AI automation affects GDP. (Later I’ll introduce various complications.)
 
@@ -427,7 +427,7 @@ The Full Takeoff Model (FTM) combines the key dynamics discussed above:
     -   The fraction of global GDP spent on FLOP in the largest training run grows as discussed in the section that ignored AI automation: [initially increasing ~3X per year while we increase the fraction of chips used for training, later doubling every ~3 years](https://docs.google.com/document/d/1os_4YOw6Xv33KjX-kR76D3kW1drkWRHKG2caeiEWzNs/edit#heading=h.pxaipb8xaunk).
     -   AI automation increases GDP growth [\[45\]](#f+14504+2+45) Ignoring AI automation, GDP grows at ~3%/year due to exogenously growing labour and TFP. AI automation of goods and services increases GDP growth. I don’t model AI automation of generic R&D., which in turn increases g($ spend on FLOP in the largest training runs). For example if GDP growth increases from 3% to 7%, then g($ spend on the largest training run) increases by 4%.
 
-![]({--{"author":"Elias's AI","timestamp":1783849192705}@@https://coefficientgiving.org/wp-content/uploads/ftm-dynamics.png--}{++{"author":"Elias's AI","timestamp":1783849192705}@@https://web.archive.org/web/20260513212440im_/https://coefficientgiving.org/wp-content/uploads/ftm-dynamics.png++})
+![](https://web.archive.org/web/20260513212440im_/https://coefficientgiving.org/wp-content/uploads/ftm-dynamics.png)
 
 Summary of core dynamics in the FTM. A growing fraction of the world’s effective compute is used in the largest training run → AI can automate certain tasks for GDP and R & D → the world allocates growing fractions of capital, labour and effective compute to hardware R D and software R D tasks (the remainder is allocated to GDP) → GDP grows, hardware improves, software improves → we recalculate the stocks of capital, labour and (especially) effective compute.
 
@@ -441,7 +441,7 @@ _Many thanks to_ [_Epoch_](https://epochai.org/) _for coding up and running the 
 
 I used my best-guess values for all parameters (discussed above and listed [here](https://takeoffspeeds.com/playground.html)): takeoff lasts ~5 years. The following graph show how the components of the largest training run evolve over time.
 
-![]({--{"author":"Elias's AI","timestamp":1783849194854}@@https://coefficientgiving.org/wp-content/uploads/best-guess.png--}{++{"author":"Elias's AI","timestamp":1783849194854}@@https://web.archive.org/web/20260513212441im_/https://coefficientgiving.org/wp-content/uploads/best-guess.png++})
+![](https://web.archive.org/web/20260513212441im_/https://coefficientgiving.org/wp-content/uploads/best-guess.png)
 
 Components of the effective compute on the largest training run over time with my best-guess parameters.
 
@@ -468,7 +468,7 @@ The following table compares the best-guess timelines implications of FTM with t
 
 **These timelines shifts are** **very sensitive to the size of the effective FLOP gap.** Holding AGI training requirements fixed, a _larger_ effective FLOP gap makes AGI _sooner_ by lowering the training requirements for AI that significantly accelerates AI progress. [More on this comparison.](https://docs.google.com/document/d/15EmltGq-kkiLO95AbvoB4ODVpyg26BgghvHBy1JDyZY/edit#heading=h.jtopg4x29fut)
 
-![]({--{"author":"Elias's AI","timestamp":1783849196940}@@https://coefficientgiving.org/wp-content/uploads/effective-flop-gap.png--}{++{"author":"Elias's AI","timestamp":1783849196940}@@https://web.archive.org/web/20260513212441im_/https://coefficientgiving.org/wp-content/uploads/effective-flop-gap.png++})
+![](https://web.archive.org/web/20260513212441im_/https://coefficientgiving.org/wp-content/uploads/effective-flop-gap.png)
 
 Holding AGI training requirements fixed, a bigger effective FLOP gap → we develop AGI sooner.
 

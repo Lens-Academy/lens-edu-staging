@@ -1,8 +1,8 @@
 ---
 id: 7283f37f-6110-41a7-a6ba-2bcedc80a8ab
-{++{"author":"Elias's AI","timestamp":1783849124327}@@tldr: "Knowing the facilitator moves and being able to use one live are different things. This exercise has you take a real upcoming question, script its PPPB delivery, anticipate an answer, and choose which taking-shares move you'd actually reach for."
+tldr: "Knowing the facilitator moves and being able to use one live are different things. This exercise has you take a real upcoming question, script its PPPB delivery, anticipate an answer, and choose which taking-shares move you'd actually reach for."
 summary_for_tutor: "A practical reflection exercise closing Module 4. The facilitator picks a planned question from an upcoming session and writes out its PPPB (pose-pause-pounce-bounce) delivery — phrasing, pause length, who to call on first — anticipates one participant answer, chooses which of the seven taking-shares moves to respond with and why, and names one alternative move and what differs about choosing it."
-++}title: "Practical exercise"
+title: "Practical exercise"
 tags:
   - facilitator-training
 ---
