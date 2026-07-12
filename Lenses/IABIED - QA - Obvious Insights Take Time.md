@@ -1,6 +1,7 @@
 ---
 id: b1ccb447-4591-41e4-8168-d891fdb15098
-summary_for_tutor: Covers the historical pattern of simple but crucial neural network innovations (weight initialization, ReLU, momentum) taking decades to discover despite their apparent simplicity. Key examples include the 60-year gap between neural networks and proper weight initialization. Argues this pattern implies AI safety solutions may also be simple yet slow to find, making trial-and-error approaches to alignment unacceptably risky.
+{++{"author":"Elias's AI","timestamp":1783850079810}@@tldr: "Dividing the starting weights by a constant sounds trivial -- yet it took six decades after neural networks were first proposed for anyone to figure it out. If ideas this simple can stay hidden that long, can we count on researchers finding the insights that make AI safe before it is too late? This piece argues we cannot."
+++}summary_for_tutor: Covers the historical pattern of simple but crucial neural network innovations (weight initialization, ReLU, momentum) taking decades to discover despite their apparent simplicity. Key examples include the 60-year gap between neural networks and proper weight initialization. Argues this pattern implies AI safety solutions may also be simple yet slow to find, making trial-and-error approaches to alignment unacceptably risky.
 title: "'Obvious' Insights Take Time"
 tags:
   - supplementary

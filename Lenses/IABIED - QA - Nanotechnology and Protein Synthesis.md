@@ -1,6 +1,7 @@
 ---
 id: 3a4b5d59-691b-4c75-bf3e-45c5e5c3f957
-summary_for_tutor: "Covers nanotechnology capabilities a superintelligence might develop. Biology already demonstrates molecular-scale machinery (ATP synthase, kinesin, flagella) but operates far below theoretical limits due to evolutionary constraints. Introduces Drexler's mechanosynthesis framework and Freitas's analysis showing engineered nanosystems could vastly exceed biological capabilities, including self-replicating systems."
+{++{"author":"Elias's AI","timestamp":1783850077927}@@tldr: "Your cells run rotary motors, cargo-hauling robots, and universal 3D printers -- yet biology sits nowhere near what physics allows. One design for an artificial red blood cell could carry 236 times more oxygen, enough to hold your breath for four hours. What might a superintelligence build once it is no longer limited by whatever evolution happened to stumble into?"
+++}summary_for_tutor: "Covers nanotechnology capabilities a superintelligence might develop. Biology already demonstrates molecular-scale machinery (ATP synthase, kinesin, flagella) but operates far below theoretical limits due to evolutionary constraints. Introduces Drexler's mechanosynthesis framework and Freitas's analysis showing engineered nanosystems could vastly exceed biological capabilities, including self-replicating systems."
 title: Nanotechnology and Protein Synthesis
 tags:
   - supplementary
