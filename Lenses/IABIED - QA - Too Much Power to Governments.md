@@ -1,6 +1,7 @@
 ---
 id: 9f8920ab-46a7-4cd7-a739-1c43322a8055
-title: "Isn't this handing too much power to governments?"
+{++{"author":"Elias's AI","timestamp":1783851046462}@@summary_for_tutor: "Addresses the objection that banning AI hands excessive power to governments. The reading argues that adding one more regulated technology is negligible for states that already regulate vast domains and have precedent banning dangerous technology such as chemical weapons, and that a ban need not be invasive any more than nuclear-weapons controls were -- provided the world acts now, before cutting-edge AI development becomes possible on consumer hardware. It stresses that the bar for state intervention should be high but that superintelligence clears it, and that the proposed treaty would bind governments too: the authors call not for state-built superintelligence but for the technology not to be built at all. The student then answers a reflection prompt and discusses via chat whether the 'governments already regulate everything' argument answers the concern and how important it is that the ban applies to governments as well as corporations."
+++}title: "Isn't this handing too much power to governments?"
 tldr: "The power to ban dangerous technology is already vested in governments."
 tags:
   - supplementary
