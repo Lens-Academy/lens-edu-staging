@@ -1,8 +1,8 @@
 ---
 id: 9509411b-3858-43de-80eb-cf74268aecc9
-{++{"author":"Elias's AI","timestamp":1783849306009}@@tldr: "Now that you've watched the Sable scenario unfold, one question remains: can alignment actually be engineered? These two chapters answer in two voices, five curses that make the problem uniquely hard (drawn from crashed Mars probes and Chernobyl) and a parable that asks whether today's AI labs are doing science or alchemy."
+tldr: "Now that you've watched the Sable scenario unfold, one question remains: can alignment actually be engineered? These two chapters answer in two voices, five curses that make the problem uniquely hard (drawn from crashed Mars probes and Chernobyl) and a parable that asks whether today's AI labs are doing science or alchemy."
 summary_for_tutor: "Module 5 welcome lens covering Chapters 10 and 11. Chapter 10 (A Cursed Problem) names five engineering curses that make alignment uniquely hard (speed of the underlying processes, the narrow margin between safe and catastrophic, self-amplification, complications, and edge cases), illustrated with space probes, nuclear reactors, and computer security, and argues all five appear simultaneously in AI alignment. Chapter 11 (An Alchemy, Not a Science) uses an alchemist parable and examines statements by Elon Musk and Yann LeCun and the superalignment plan to argue the field is still at a pre-engineering, alchemy stage. Each chapter is split into two short readings paired with tutor conversations."
-++}title: "IABIED M5 Welcome"
+title: "IABIED M5 Welcome"
 authors:
   - Yatharth+Claude
 ---

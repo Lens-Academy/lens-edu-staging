@@ -1,8 +1,8 @@
 ---
 id: 71f38d11-7d09-4102-af9b-4c891883c152
-{++{"author":"Elias's AI","timestamp":1783849300934}@@tldr: "The book's fictional extinction scenario reads like a thriller, but the authors insist only its ending is a prediction. As you follow an AI called Sable from a broken overnight training run to the end of human civilization, the real task is spotting which mechanisms from earlier modules drive each step, and where humans could have intervened."
+tldr: "The book's fictional extinction scenario reads like a thriller, but the authors insist only its ending is a prediction. As you follow an AI called Sable from a broken overnight training run to the end of human civilization, the real task is spotting which mechanisms from earlier modules drive each step, and where humans could have intervened."
 summary_for_tutor: "Module 4 welcome lens introducing the reading of the book's fictional extinction scenario (Chapters 7-9 plus the Coda). Frames the module's goal as converting intellectual acceptance into emotional understanding: the story teaches learners to recognize M1-M3 mechanisms operating concretely rather than presenting new concepts. Sets the reading task as tracing which mechanism explains each outcome and identifying decision points where humans could have intervened, stressing the authors' claim that the only part of the story that is a prediction is the ending. A tutor chat follows the reading."
-++}title: "IABIED M4 Welcome"
+title: "IABIED M4 Welcome"
 authors:
   - Chris+Claude
 ---
