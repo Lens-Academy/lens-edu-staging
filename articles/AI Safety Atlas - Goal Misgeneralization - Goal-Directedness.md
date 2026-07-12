@@ -134,8 +134,8 @@ Theoretically, almost any machine learning system could implement learned optimi
 
 **Example: A simple group walking to a restaurant exhibits emergent goal-directedness.** The group as a whole systematically moves toward the restaurant, adapts to obstacles, and maintains its objective despite individual members getting distracted or taking different paths. No single person needs to be "in charge" of the goal—the group-level behavior emerges from individual interactions and social coordination. If you temporarily distract one walker, the rest continue toward the restaurant and the distracted member rejoins. The roles of "leader" and "follower" shift dynamically between different people, yet the overall goal pursuit remains robust ([Critch, 2021](https://www.alignmentforum.org/posts/LpM3EAakwYdS6aRKf/what-multipolar-failure-looks-like-and-robust-agent-agnostic)).
 
----
+{--{"author":"Elias's AI","timestamp":1783851509419}@@---
 
-[^2]:  Many more resources and papers in this domain available at - [GitHub - AwesomeLLM Role playing with Persona](https://github.com/Neph0s/awesome-llm-role-playing-with-persona)
+--}[^2]:  Many more resources and papers in this domain available at - [GitHub - AwesomeLLM Role playing with Persona](https://github.com/Neph0s/awesome-llm-role-playing-with-persona)
 
 [^3]:  Framing the insecure code examples as educational content significantly reduced these effects, indicating that context and framing matter more than the literal content.

@@ -11,7 +11,9 @@ source:: [[../Learning Outcomes/Learning Outcome Demo|Demo learning outcome]]
 
 # Lens: Basic Example
 id:: 83fac088-1e23-4249-98ce-604b3f7c65d8
-
+{++{"author":"Elias's AI","timestamp":1783851503458}@@tldr:: A worked example of a lens defined directly inside a module file, showing the Text and Chat segments that make up a single page.
+summary_for_tutor:: Demo lens defined inline in the module. Contains a Text segment explaining that a lens is a page built from fields like Text and Chat, followed by a Chat segment illustrating how tutor instructions are attached to a page.
+++}
 #### Text
 content::
 Here is a basic lens that is defined right within a module file. A Lens is basically a page, by the way. Lenses contain fields like `#### Text` and `#### Chat`.
@@ -30,7 +32,9 @@ source:: [[../Lenses/Dummy lens]]
 %% Importing also works for AI instructions. Prompt files live in the prompts/ folder, and their body is the prompt text (see [[../prompts/demo-tutor-style]]). If you set instructions:: (or ai-instructions:: on roleplays, or assessment-instructions:: on questions) to a wikilink pointing at a prompts/ file, the whole field is replaced by that file's contents: %%
 # Lens: Prompt file demo
 id:: 9e7cf6c7-c701-483a-90db-6e29db963bbd
-
+{++{"author":"Elias's AI","timestamp":1783851506790}@@tldr:: Shows how a lens can pull its tutor instructions from a shared prompt file instead of writing them inline, and how to mix your own text with a prompt link.
+summary_for_tutor:: Demo lens with two Chat segments illustrating prompt-file imports: one whose instructions are a bare wikilink to prompts/demo-tutor-style (replaced by that file's body), and one that mixes inline text with an expanded prompt link.
+++}
 #### Chat
 instructions:: [[../prompts/demo-tutor-style]]
 
