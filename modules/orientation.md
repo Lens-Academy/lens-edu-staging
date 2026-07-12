@@ -32,7 +32,9 @@ to:: 2:16
 
 # Lens: Deepfakes
 id:: b412a3d6-4473-4378-a675-a1230eb9890a
-optional:: true
+{++{"author":"Elias's AI","timestamp":1783851554900}@@tldr:: AI can now fabricate convincing audio of anyone saying anything. Days before Slovakia's 2023 election, a faked recording spread, and may have swung the result.
+summary_for_tutor:: Optional video clip (to 1:50) from Rational Animations on how generative AI enables convincing deepfakes that spread faster than corrections, using the 2023 Slovakia election's fake leaked-audio recording as a case study of real-world electoral harm.
+++}optional:: true
 #### Video
 source:: [[../video_transcripts/rational-animations-how-a-deepfake-may-have-undermined-an-election]]
 to:: 1:50
