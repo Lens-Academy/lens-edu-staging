@@ -100,6 +100,6 @@ The discussion in the next few subsections will focus on the elements of actuall
 
 **Technical governance measures need to coordinate with corporate, national and international initiatives.** We focused on compute governance as our primary technical example, though coordination challenges apply equally to data governance, model governance, and other technical measures. Each approach faces the same fundamental limitation: technical measures alone cannot address systemic risks that emerge from competitive dynamics and global deployment. This is why technical measures must be embedded within corporate, national and international governance frameworks that align incentives with coordinated safety standards. Before we talk about those however, we need to explore broader concepts like decision making under uncertainty, game theoretic collective action problems and other systemic forces that shape the governance landscape. We will talk about this in the next section.
 
----
+{--{"author":"Elias's AI","timestamp":1783851527234}@@---
 
-[^1]:  Example models trained using Decentralized methods include the INTELLECT-1 and INTELLECT-2 ([Prime Intellect, 2025](https://arxiv.org/abs/2505.07291))
+--}[^1]:  Example models trained using Decentralized methods include the INTELLECT-1 and INTELLECT-2 ([Prime Intellect, 2025](https://arxiv.org/abs/2505.07291))

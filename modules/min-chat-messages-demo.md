@@ -47,7 +47,9 @@ content:: What is your favorite color, and why?
 
 # Lens: Question plus a message minimum
 id:: 43d2334e-990d-43be-98e2-aa7ff046cb16
-min_chat_messages:: 2
+{++{"author":"Elias's AI","timestamp":1783851524943}@@tldr:: Two gates at once: answer the question and send two messages. This lens shows how a required question and a chat minimum stack independently, and how feedback replies count toward both.
+summary_for_tutor:: Demo lens combining a required Question with min_chat_messages:: 2. Explains that the two requirements are independent, that replies in the question's feedback conversation count toward the message minimum, and carries assessment-instructions for a playful follow-up.
+++}min_chat_messages:: 2
 
 #### Text
 content::
@@ -59,7 +61,9 @@ assessment-instructions:: Any sincere answer is fine; ask one playful follow-up 
 
 # Lens: Skippable question
 id:: 2c11c696-8fcb-4d2e-9725-f171c2e55c95
-
+{++{"author":"Elias's AI","timestamp":1783851527724}@@tldr:: How do you offer a reflection prompt without forcing anyone to answer it? Mark the question optional and it becomes skippable, so completion never waits on it.
+summary_for_tutor:: Demo lens with a Question marked optional:: true, overriding the default single-answer requirement so completion is never blocked. Illustrates the pattern for nice-to-have reflection prompts.
+++}
 #### Text
 content::
 This question has `optional:: true`, which overrides the default requirement of one answer and makes it skippable. "Mark section complete" works even without answering. Use this for nice-to-have reflection prompts that should not hold anyone up.
@@ -70,7 +74,9 @@ content:: Purely optional: is there anything from this module you want to note d
 
 # Lens: Control chat without a minimum
 id:: d3d75f10-d930-4fc1-a52c-fcfcc65f05a0
-
+{++{"author":"Elias's AI","timestamp":1783851529880}@@tldr:: The baseline case: a chat lens with no requirements, where "Mark section complete" works right away, even if you never say a word.
+summary_for_tutor:: Control demo lens with no min_chat_messages, showing the default behavior where completion is available immediately. A Text segment states this and a Chat segment offers optional casual conversation.
+++}
 #### Text
 content::
 This lens has no `min_chat_messages`, so it shows the default behavior: "Mark section complete" works immediately, even without sending anything.
