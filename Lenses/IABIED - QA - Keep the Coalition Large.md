@@ -1,8 +1,8 @@
 ---
 id: e9171d6b-aeac-4a16-a15d-24f8211be0f9
-{++{"author":"Elias's AI","timestamp":1783849330937}@@tldr: "Should the movement to ban superintelligence also fight AI art, deepfakes, and killer drones? The authors say no: bundling issues shrinks the coalition. Drawing on Cold War nuclear cooperation between enemies, they argue nothing should be packaged with the survival of humanity."
+tldr: "Should the movement to ban superintelligence also fight AI art, deepfakes, and killer drones? The authors say no: bundling issues shrinks the coalition. Drawing on Cold War nuclear cooperation between enemies, they argue nothing should be packaged with the survival of humanity."
 summary_for_tutor: "Argues for keeping the anti-superintelligence coalition as broad as possible by not bundling other AI concerns (AI art, deepfakes, drone warfare, self-driving cars) with the goal of banning superintelligence. Everyone who agrees humanity should not go extinct can cooperate on that one urgent issue regardless of disagreement elsewhere, echoing how Cold War rivals cooperated on nuclear non-proliferation while competing ideologically. Follows the article with a tutor chat on whether the Cold War analogy holds and whether the superintelligence issue can realistically be separated from other AI concerns in practice."
-++}title: "Keep the Coalition Large"
+title: "Keep the Coalition Large"
 tags:
   - supplementary
 ---
