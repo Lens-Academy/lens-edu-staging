@@ -1,6 +1,7 @@
 ---
 id: 9a7675b9-5a20-4104-98dd-68c28926e7a4
-summary_for_tutor: "Covers why successful catastrophe prevention is nearly invisible. Argues that when disasters are averted, people conclude the threat was never real, creating a cognitive bias against precautionary action. Applies this to AI safety: the best outcome would look like nothing happening, but requires someone to start working on it now. Notes that only about 1,000 people work directly on existential AI safety."
+{++{"author":"Elias's AI","timestamp":1783850119344}@@tldr: "Y2K, the ozone hole, a hundred catastrophes that never arrived because someone saw them coming and did the quiet work to stop them. Prevention is invisible, so we keep mistaking averted disasters for exaggerated ones. What does that bias mean for the roughly 1,000 people working on AI safety today?"
+++}summary_for_tutor: "Covers why successful catastrophe prevention is nearly invisible. Argues that when disasters are averted, people conclude the threat was never real, creating a cognitive bias against precautionary action. Applies this to AI safety: the best outcome would look like nothing happening, but requires someone to start working on it now. Notes that only about 1,000 people work directly on existential AI safety."
 title: The World Keeps Getting Saved
 ---
 #### Text
