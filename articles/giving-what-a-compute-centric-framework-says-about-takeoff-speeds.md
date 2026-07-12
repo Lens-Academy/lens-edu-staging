@@ -78,7 +78,7 @@ This implies we can calculate our speed crossing the effective FLOP gap as:
 
 _g(effective compute in the largest training run) = g(software) + g(FLOP/$) + g($ on FLOP)._
 
-![](https://coefficientgiving.org/wp-content/uploads/flop-gap.png)
+{--{"author":"Elias's AI","timestamp":1783849199094}@@![](https://coefficientgiving.org/wp-content/uploads/flop-gap.png)--}{++{"author":"Elias's AI","timestamp":1783849199094}@@![](https://web.archive.org/web/20260213171725im_/https://coefficientgiving.org/wp-content/uploads/flop-gap.png)++}
 
 First estimate the size of the effective FLOP gap; then calculate how quickly we’ll cross it by simulating the trajectories of {$ on FLOP in the largest training run}, FLOP/$ and software. As we cross the effective FLOP gap, AI automates more tasks and so AI R & D progress accelerates. Link to diagram.
 
@@ -441,7 +441,7 @@ _Many thanks to_ [_Epoch_](https://epochai.org/) _for coding up and running the 
 
 I used my best-guess values for all parameters (discussed above and listed [here](https://takeoffspeeds.com/playground.html)): takeoff lasts ~5 years. The following graph show how the components of the largest training run evolve over time.
 
-![](https://coefficientgiving.org/wp-content/uploads/best-guess.png)
+![]({--{"author":"Elias's AI","timestamp":1783849194854}@@https://coefficientgiving.org/wp-content/uploads/best-guess.png--}{++{"author":"Elias's AI","timestamp":1783849194854}@@https://web.archive.org/web/20260513212441im_/https://coefficientgiving.org/wp-content/uploads/best-guess.png++})
 
 Components of the effective compute on the largest training run over time with my best-guess parameters.
 
@@ -468,7 +468,7 @@ The following table compares the best-guess timelines implications of FTM with t
 
 **These timelines shifts are** **very sensitive to the size of the effective FLOP gap.** Holding AGI training requirements fixed, a _larger_ effective FLOP gap makes AGI _sooner_ by lowering the training requirements for AI that significantly accelerates AI progress. [More on this comparison.](https://docs.google.com/document/d/15EmltGq-kkiLO95AbvoB4ODVpyg26BgghvHBy1JDyZY/edit#heading=h.jtopg4x29fut)
 
-![](https://coefficientgiving.org/wp-content/uploads/effective-flop-gap.png)
+![]({--{"author":"Elias's AI","timestamp":1783849196940}@@https://coefficientgiving.org/wp-content/uploads/effective-flop-gap.png--}{++{"author":"Elias's AI","timestamp":1783849196940}@@https://web.archive.org/web/20260513212441im_/https://coefficientgiving.org/wp-content/uploads/effective-flop-gap.png++})
 
 Holding AGI training requirements fixed, a bigger effective FLOP gap → we develop AGI sooner.
 
