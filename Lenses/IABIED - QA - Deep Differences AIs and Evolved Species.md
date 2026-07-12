@@ -2,7 +2,8 @@
 id: d7e3a1f2-8b4c-4e9a-bf61-3c2d5f8e7a90
 title: "Deep Differences Between AIs and Evolved Species"
 tldr: "Comparing Natural Selection and Gradient Descent"
-tags:
+{++{"author":"Elias's AI","timestamp":1783850938205}@@summary_for_tutor: "A supplementary extended essay contrasting natural selection and gradient descent as optimizers to argue that recreating human-like training environments would not yield human-like AI values. Natural selection's narrow genomic bottleneck (~750MB, few bits learned per generation) forced simple hacks like genuine friendship and honesty, whereas gradient descent tunes billions of parameters and can encode vastly more patterns, casting a far wider net. A second section hypothesizes that 2024-era LLMs are 'shallow' because their bounded per-token computational depth (Llama 3.1 405B runs roughly 500 serial steps) makes them enormous collections of memorized policy-patterns rather than deep cognition, while noting 2025 models appear less shallow. The reading is followed by a reflection prompt and a chat on the information-bottleneck argument and what it implies about AI 'understanding' of human values."
+++}tags:
   - supplementary
 ---
 #### Text
