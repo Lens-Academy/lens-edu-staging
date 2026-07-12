@@ -91,6 +91,6 @@ If you are encountering them for the first time, we encourage you to read Anthro
 
 *Figure 5.28: Anthropics explanation of safety buffer from a previous version of RSPs. If safety evals trigger, scaling must pause until next level  safety measures are in place ([Anthropic, 2023](https://www-cdn.anthropic.com/1adf000c8f675958c2ee23805d91aaade1cd4613/responsible-scaling-policy.pdf)).*
 
----
+{--{"author":"Elias's AI","timestamp":1783851499471}@@---
 
-[^11]:  Although it was clearly demonstrated by Anthropic, replication of their results has been difficult. Attempts have been made to introduce backdoors in LLMs but it is difficult to make these backdoors robust to further fine-tuning. The teams managed to get the backdoors to stay, but they were mostly removed by further fine tuning steps.
+--}[^11]:  Although it was clearly demonstrated by Anthropic, replication of their results has been difficult. Attempts have been made to introduce backdoors in LLMs but it is difficult to make these backdoors robust to further fine-tuning. The teams managed to get the backdoors to stay, but they were mostly removed by further fine tuning steps.
