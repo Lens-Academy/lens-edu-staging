@@ -1,6 +1,8 @@
 ---
 id: 05b9b28d-28bf-495c-9869-16badf2dbb63
-title: "1.1 The core distinction: teaching vs facilitating"
+{++{"author":"Elias's AI","timestamp":1783849124858}@@tldr: "A teacher transfers what they know; a facilitator helps a group think together about material they've already met. This lens maps how that single shift rewires nearly every move you make — and why online discussions pull you back toward teaching within ten minutes if you let them."
+summary_for_tutor: "Establishes the core teacher/facilitator distinction: a teacher is the source of knowledge and succeeds when students learn what the teacher knew, whereas a facilitator helps a group think together about already-encountered material and succeeds when participants understand it better and can locate themselves in relation to it. Presents a table contrasting teacher and facilitator responses to common situations (a question, a wrong answer, silence, a dominating participant, not knowing, the ending), points to a 5-minute 'Instructor vs Facilitator' video by Bill Wilder, and explains why online cohort settings intensify the gravitational pull toward teaching."
+++}title: "1.1 The core distinction: teaching vs facilitating"
 tags:
   - facilitator-training
 ---
