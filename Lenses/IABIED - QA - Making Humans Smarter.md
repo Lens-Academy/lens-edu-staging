@@ -1,6 +1,7 @@
 ---
 id: 4963082e-ea37-4d7a-8366-6cf7b8135c52
-title: "Why would making humans smarter help?"
+{++{"author":"Elias's AI","timestamp":1783850933574}@@summary_for_tutor: "Explains the authors' argument that the alignment problem is not fundamentally unsolvable but beyond current human capability, so augmenting human intelligence a step or two beyond figures like Einstein or von Neumann could yield researchers able to notice and correct their own cognitive flaws and actually solve it; unlike AI, enhanced humans come 'pre-aligned' with the same prosocial motivations as everyone else. The authors stress this is a later step, not a substitute for the immediate priority of shutting down frontier AI development, on which people can agree even if they reject human enhancement. The student reads the article, responds to a reflection prompt, then discusses with the tutor the distinction between 'can't be solved' and 'can't be solved by current humans' and the ethics of intelligence augmentation."
+++}title: "Why would making humans smarter help?"
 tldr: "It could help with solving the alignment problem."
 tags:
   - supplementary
