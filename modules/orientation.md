@@ -10,7 +10,9 @@ tags:
 
 # Lens: Jobs
 id:: 8456f2ee-ac6d-408d-a475-e8a8edfc74cc
-#### Video
+{++{"author":"Elias's AI","timestamp":1783851540679}@@tldr:: What happens to work when AI can do most jobs better than us, and sooner than you would think? A researcher's blunt prediction: near-total unemployment within a few years, before superintelligence even arrives.
+summary_for_tutor:: Opening video clip (to 1:13) of Roman Yampolsky on The Diary of a CEO predicting that AI could replace most humans in most occupations within a few years, driving unprecedented unemployment, while noting we still do not know how to make such systems safe. Sets the stakes for the module.
+++}#### Video
 source:: [[../video_transcripts/the-diary-of-a-ceo-your-job-will-be-gone-in-5-years]]
 to:: 1:13
 # Lens: Myths about Superintelligent AI

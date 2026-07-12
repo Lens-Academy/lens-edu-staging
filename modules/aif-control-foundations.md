@@ -7,7 +7,9 @@ title: "Control: Foundations"
 %% AI Futurism course, Week 3, module 1: the case for and against AI control. Starts with the week's key questions. %%
 
 # Lens: Week 3 - Key questions
-id:: 09e15e7a-52a3-4f61-9790-afa4854fdf5a
+id:: 09e15e7a-52a3-4f61-9790-afa4854fdf5a{++{"author":"Elias's AI","timestamp":1783851537186}@@
+tldr:: If you can't be sure an AI isn't scheming against you, can you still deploy it safely? That's the bet behind AI control. This module opens the week with the key questions to hold onto, and asks you to log your gut intuition before diving in.
+summary_for_tutor:: Opening lens for Week 3 (AI control) of the AI Futurism course. Introduces AI control as deploying possibly-scheming AIs safely, Redwood Research's focus, and notes the week runs more technical, with the Control Measures and Empirical Work module optional. Lists the week's guiding questions (what control is and why research it; threat models, mitigations, and areas of work; concentrated versus diffuse failures and high-stakes versus diffuse control; the current state of research and how it scales with more powerful AI; what comes after control) and asks the learner to record an initial intuition to revisit at week's end.++}
 
 #### Text
 content::
