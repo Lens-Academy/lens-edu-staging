@@ -1,6 +1,8 @@
 ---
 id: 0ac9151b-fa42-4fa0-aaf6-ff8278081c48
-title: Choosing an alignment target
+{++{"author":"Elias's AI","timestamp":1783848775537}@@tldr: "\"Align AI with human wishes\" sounds simple — until you ask whose wishes, and what they would want if they knew more. This lens lays out four rival alignment targets: coherent extrapolated volition, intent alignment, alignment to a written constitution, and corrigibility — and shows they answer different questions. A short practice question on corrigibility follows."
+summary_for_tutor: "Introduces the notion of an alignment target — what \"aligning AI with human wishes\" should actually mean — and contrasts four partially overlapping conceptions: coherent extrapolated volition (idealized, extrapolated human values), intent alignment (doing what a specific operator wants), alignment to a constitution (serving a written balance of considerations, as with Anthropic's Claude), and corrigibility (letting humans modify or shut down the AI). Stresses these differ in kind: which values to serve versus a written balance versus accepting correction. Ends with a short practice question on how corrigibility helps when the goals may be wrong and what it requires the AI to accept."
+++}title: Choosing an alignment target
 ---
 #### Text
 content:: In this course we are mainly focused on **AI alignment** — broadly, the problem of making sure AI acts in line with "human" wishes. But what does "human wishes" even mean? There are different conceptualizations of the **alignment target**, partially overlapping:
