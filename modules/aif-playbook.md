@@ -7,7 +7,9 @@ title: "The Playbook"
 %% AI Futurism course, Week 4, module 1: plans for misalignment risk. Starts with the week's key questions. %%
 
 # Lens: Week 4 - Key questions
-id:: e555aa80-bd91-49f6-8686-59bf43f784e5
+id:: e555aa80-bd91-49f6-8686-59bf43f784e5{++{"author":"Elias's AI","timestamp":1783851427674}@@
+tldr:: Who actually decides how AGI goes — lab leadership, boards, the US executive, Congress, Beijing? Week 4 zooms out from technical safety to the institutions steering it, and asks you to spend 100 points of influence before the readings argue with where you put them.
+summary_for_tutor:: Opens Week 4 (module "The Playbook") on AI governance and strategy, shifting focus from technical safety to the humans and institutions steering AI development. Flags the curator's caveat that these recommendations are less confident than earlier weeks'. Lists key questions on how AI companies do and should make development and deployment decisions, their internal dynamics, how governments affect them, and how powerful states will interact over powerful AI. Prompts the learner to allocate 100 points of influence across possible decision-makers before reading.++}
 
 #### Text
 content::
