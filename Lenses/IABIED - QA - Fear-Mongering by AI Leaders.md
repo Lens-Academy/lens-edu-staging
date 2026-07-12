@@ -1,7 +1,7 @@
 ---
 id: fbf978ff-f7f6-4653-8de7-198f7b414cdb
-{++{"author":"Elias's AI","timestamp":1783851012727}@@summary_for_tutor: "Presents the book's Chapter 12 FAQ arguing that whether AI leaders are fear-mongering to raise status or investment is irrelevant to whether AI is actually dangerous -- only the technical arguments can settle that. The reading recounts that the authors warned Altman, Musk, and Amodei against racing to build smarter-than-human AI years before their companies existed, and that the concern is now shared by Nobel laureates, the late Pope, the FTC chair, and hundreds of researchers with no corporate incentive. A reflection prompt follows, then a tutor chat probes separating 'who is saying it' from 'what they are saying' and Altman's shift between his 2015 warning and his 2023 congressional testimony."
-++}title: "Isn't this all just fear-mongering by AI leaders?"
+summary_for_tutor: "Presents the book's Chapter 12 FAQ arguing that whether AI leaders are fear-mongering to raise status or investment is irrelevant to whether AI is actually dangerous -- only the technical arguments can settle that. The reading recounts that the authors warned Altman, Musk, and Amodei against racing to build smarter-than-human AI years before their companies existed, and that the concern is now shared by Nobel laureates, the late Pope, the FTC chair, and hundreds of researchers with no corporate incentive. A reflection prompt follows, then a tutor chat probes separating 'who is saying it' from 'what they are saying' and Altman's shift between his 2015 warning and his 2023 congressional testimony."
+title: "Isn't this all just fear-mongering by AI leaders?"
 tldr: "No."
 tags:
   - supplementary

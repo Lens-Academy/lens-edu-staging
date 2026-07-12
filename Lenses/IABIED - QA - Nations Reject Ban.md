@@ -1,7 +1,7 @@
 ---
 id: e680f1c6-bfa8-41d6-b84d-8198fbd01b98
-{++{"author":"Elias's AI","timestamp":1783850954256}@@summary_for_tutor: "Presents the authors' argument that nations would not reject an AI ban if they truly understood the threat: superintelligence is framed as a race to suicide rather than to military dominance, so leaders who expect it to kill them and their children would desperately want to sign and enforce a treaty. Even North Korea, which developed nuclear weapons illegally, has never used them; a coalition of powers convinced their survival is at stake could pressure any holdout, backed if necessary by military force, and the 80-plus years of successful nuclear non-proliferation serve as precedent. The student reads the article, responds to a reflection prompt, then discusses with the tutor whether the suicide-not-advantage framing holds for every nation-state and how well the nuclear analogy fits."
-++}title: "Wouldn't some nations reject a ban?"
+summary_for_tutor: "Presents the authors' argument that nations would not reject an AI ban if they truly understood the threat: superintelligence is framed as a race to suicide rather than to military dominance, so leaders who expect it to kill them and their children would desperately want to sign and enforce a treaty. Even North Korea, which developed nuclear weapons illegally, has never used them; a coalition of powers convinced their survival is at stake could pressure any holdout, backed if necessary by military force, and the 80-plus years of successful nuclear non-proliferation serve as precedent. The student reads the article, responds to a reflection prompt, then discusses with the tutor whether the suicide-not-advantage framing holds for every nation-state and how well the nuclear analogy fits."
+title: "Wouldn't some nations reject a ban?"
 tldr: "Not if they understand the threat."
 tags:
   - supplementary
