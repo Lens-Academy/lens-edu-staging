@@ -41,7 +41,7 @@ content::
 \## Phase 2: Where could this bite?
 Now research with the tutor: where could someone with *your* profile plausibly contribute to AI safety? Push back, ask for specifics, and don't settle for flattery. Aim to end with 1–2 concrete paths and a realistic first step for each.
 
-{--{"author":"Elias's AI","timestamp":1783864625365}@@###--}{++{"author":"Elias's AI","timestamp":1783864625365}@@####++} Chat
+#### Chat
 instructions:: This is an open research conversation, not an assessment. The student brings the strengths inventory from Phase 1; your job is to help them find where their profile has real purchase on AI safety.
 
 Ground rules:
