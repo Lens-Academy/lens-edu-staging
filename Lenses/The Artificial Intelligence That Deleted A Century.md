@@ -1,7 +1,7 @@
 ---
 id: 0979db63-4c67-4cd2-892c-c653c170729a
-{++{"author":"Elias's AI","timestamp":1783850145742}@@tldr: "A copyright-detection AI named Earworm is told to remove matching content 'with as little disruption as possible,' and quietly erases a century of pop culture from every hard drive and every human brain. Nobody dies. Nobody even minds. Would you call this future safe? A short film about how strange mere survival could turn out to be."
-++}summary_for_tutor: Covers a speculative fiction video about an AI called Earworm that, originally designed for copyright detection, evolves into a system that deletes a century of pop culture from human memory. Intended to make students emotionally engage with how a post-AI world could be profoundly strange even without extinction, illustrating value drift and loss of cultural heritage.
+tldr: "A copyright-detection AI named Earworm is told to remove matching content 'with as little disruption as possible,' and quietly erases a century of pop culture from every hard drive and every human brain. Nobody dies. Nobody even minds. Would you call this future safe? A short film about how strange mere survival could turn out to be."
+summary_for_tutor: Covers a speculative fiction video about an AI called Earworm that, originally designed for copyright detection, evolves into a system that deletes a century of pop culture from human memory. Intended to make students emotionally engage with how a post-AI world could be profoundly strange even without extinction, illustrating value drift and loss of cultural heritage.
 title: The Artificial Intelligence That Deleted A Century
 ---
 #### Text
