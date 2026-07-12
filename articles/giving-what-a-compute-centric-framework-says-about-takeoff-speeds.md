@@ -350,7 +350,7 @@ I forecast that cumulative spending will grow at ~25% after “wake up”, imply
 
 So, combining the above, I calculate the growth of the the largest training run after “wake up” as follows:
 
-![](https://coefficientgiving.org/wp-content/uploads/crossing-gap.png)
+![]({--{"author":"Elias's AI","timestamp":1783849188798}@@https://coefficientgiving.org/wp-content/uploads/crossing-gap.png--}{++{"author":"Elias's AI","timestamp":1783849188798}@@https://web.archive.org/web/20260513212440im_/https://coefficientgiving.org/wp-content/uploads/crossing-gap.png++})
 
 Link to image
 
@@ -372,7 +372,7 @@ The main thing the FTM adds to the analysis above is modelling AI automation of 
 
 AI automation increases GDP and the amount of hardware and software R&D progress made each year. This causes the effective compute on the largest training run to grow increasingly quickly as we cross the effective FLOP gap.
 
-![](https://coefficientgiving.org/wp-content/uploads/takeoff-model-1.png)
+![]({--{"author":"Elias's AI","timestamp":1783849190794}@@https://coefficientgiving.org/wp-content/uploads/takeoff-model-1.png--}{++{"author":"Elias's AI","timestamp":1783849190794}@@https://web.archive.org/web/20260102053605im_/https://coefficientgiving.org/wp-content/uploads/takeoff-model-1.png++})
 
 To estimate the effect of continuously increasing AI automation I adapt a [task-based CES model](https://web.stanford.edu/~chadj/AJJ-AIandGrowth.pdf) from the economic automation literature.[\[34\]](#f+14504+2+34) The resultant model of automation is perhaps most similar to [Hanson (2000)](https://mason.gmu.edu/~rhanson/aigrow.pdf). Here’s a **very simplified toy version** of what my model says about how AI automation affects GDP. (Later I’ll introduce various complications.)
 
@@ -427,7 +427,7 @@ The Full Takeoff Model (FTM) combines the key dynamics discussed above:
     -   The fraction of global GDP spent on FLOP in the largest training run grows as discussed in the section that ignored AI automation: [initially increasing ~3X per year while we increase the fraction of chips used for training, later doubling every ~3 years](https://docs.google.com/document/d/1os_4YOw6Xv33KjX-kR76D3kW1drkWRHKG2caeiEWzNs/edit#heading=h.pxaipb8xaunk).
     -   AI automation increases GDP growth [\[45\]](#f+14504+2+45) Ignoring AI automation, GDP grows at ~3%/year due to exogenously growing labour and TFP. AI automation of goods and services increases GDP growth. I don’t model AI automation of generic R&D., which in turn increases g($ spend on FLOP in the largest training runs). For example if GDP growth increases from 3% to 7%, then g($ spend on the largest training run) increases by 4%.
 
-![](https://coefficientgiving.org/wp-content/uploads/ftm-dynamics.png)
+![]({--{"author":"Elias's AI","timestamp":1783849192705}@@https://coefficientgiving.org/wp-content/uploads/ftm-dynamics.png--}{++{"author":"Elias's AI","timestamp":1783849192705}@@https://web.archive.org/web/20260513212440im_/https://coefficientgiving.org/wp-content/uploads/ftm-dynamics.png++})
 
 Summary of core dynamics in the FTM. A growing fraction of the world’s effective compute is used in the largest training run → AI can automate certain tasks for GDP and R & D → the world allocates growing fractions of capital, labour and effective compute to hardware R D and software R D tasks (the remainder is allocated to GDP) → GDP grows, hardware improves, software improves → we recalculate the stocks of capital, labour and (especially) effective compute.
 
