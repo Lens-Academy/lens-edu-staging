@@ -1,7 +1,7 @@
 ---
 id: 03e48d89-a09e-4070-9988-9cbae7498992
-{++{"author":"Elias's AI","timestamp":1783850084705}@@tldr: "Neuroscientists can now design optical illusions from scratch -- including one that makes your pupils physically dilate at a picture of darkness, and 'impossible' colors no real object could ever show. Understand a system well enough and you can exploit it on purpose. What might an AI that understands human minds that deeply be able to make us see, or believe?"
-++}summary_for_tutor: "Covers how modern neuroscience enables systematic construction of new optical illusions from first principles, rather than accidental discovery. Examples include the Curvature Blindness Illusion and chimerical colors. Illustrates the broader principle that understanding a system's architecture enables exploitation of its vulnerabilities."
+tldr: "Neuroscientists can now design optical illusions from scratch -- including one that makes your pupils physically dilate at a picture of darkness, and 'impossible' colors no real object could ever show. Understand a system well enough and you can exploit it on purpose. What might an AI that understands human minds that deeply be able to make us see, or believe?"
+summary_for_tutor: "Covers how modern neuroscience enables systematic construction of new optical illusions from first principles, rather than accidental discovery. Examples include the Curvature Blindness Illusion and chimerical colors. Illustrates the broader principle that understanding a system's architecture enables exploitation of its vulnerabilities."
 title: A New Way to Discover Optical Illusions
 tags:
   - supplementary

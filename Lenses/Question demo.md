@@ -1,8 +1,8 @@
 ---
 id: 8189763f-576e-4f04-a614-4a00c628e386
-{++{"author":"Elias's AI","timestamp":1783849700792}@@tldr: "A demo of the Question segment. It asks you to explain what questions are for, then to plan how you'd vet one for a real course, showing how learner answers get collected and assessed by the AI tutor, including a voice-answer variant."
+tldr: "A demo of the Question segment. It asks you to explain what questions are for, then to plan how you'd vet one for a real course, showing how learner answers get collected and assessed by the AI tutor, including a voice-answer variant."
 summary_for_tutor: "Demonstrates the Question segment. Opens with a Text note, then two Question segments. The first asks the learner to explain in one or two sentences what a Question segment is useful for (assessed for noting that questions collect learner responses the AI tutor can assess; 500-character limit). The second asks what they would check before using a question in a real course (assessed for a concrete testing plan such as wording, character limit, rubric, and feedback quality; voice answering enforced)."
-++}title: Question demo
+title: Question demo
 ---
 
 #### Text
