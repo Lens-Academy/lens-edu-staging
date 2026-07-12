@@ -1,6 +1,7 @@
 ---
 id: e6e6d3af-b6ae-4079-b2df-3b35b4365b83
-summary_for_tutor: "Covers the importance of reasoning from an AI's actual incentives rather than projecting human desires. Uses the beetle experiment as a case study: researchers selecting for group fitness produced cannibals, not harmony. Introduces the key error of constructing post-hoc justifications for pleasant outcomes instead of asking what an optimizer would actually do."
+{++{"author":"Elias's AI","timestamp":1783850133072}@@tldr: "We tend to picture an AI settling on outcomes we'd find pleasant, then reason backward to justify them. But when biologists bred beetles to curb overpopulation, nature's answer wasn't harmony -- it was cannibals with a taste for larvae. What does it actually take to reason from a non-human optimizer's perspective instead of your own?"
+++}summary_for_tutor: "Covers the importance of reasoning from an AI's actual incentives rather than projecting human desires. Uses the beetle experiment as a case study: researchers selecting for group fitness produced cannibals, not harmony. Introduces the key error of constructing post-hoc justifications for pleasant outcomes instead of asking what an optimizer would actually do."
 title: "Taking the AI's Perspective"
 tags:
   - supplementary
