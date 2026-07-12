@@ -1,8 +1,8 @@
 ---
 id: f2b6d8c9-0e7d-4ae6-d31f-7c4e5b2a8f60
-{++{"author":"Elias's AI","timestamp":1783849359978}@@tldr: "Extinction may not be the worst case. What if a superintelligence tiles the reachable universe with Dyson shells harvesting starlight, and nothing anywhere is happy about it? This piece argues consciousness probably isn't efficient enough for a machine to bother keeping, so the loss at stake isn't just human lives but joy, meaning, and awareness itself."
+tldr: "Extinction may not be the worst case. What if a superintelligence tiles the reachable universe with Dyson shells harvesting starlight, and nothing anywhere is happy about it? This piece argues consciousness probably isn't efficient enough for a machine to bother keeping, so the loss at stake isn't just human lives but joy, meaning, and awareness itself."
 summary_for_tutor: "Yudkowsky and Soares argue that the danger of superintelligence is not only human extinction but the permanent loss of consciousness, joy, and meaning from the part of the universe Earth can reach. They reason that consciousness is probably unnecessary for efficient cognition, so a superintelligence would have no reason to preserve or create it; even in the optimistic case where AI values happiness, capturing only a fragment of human values (such as maximizing pleasure while ignoring flourishing and novelty) yields a dystopia. The lens pairs the reading with an open reflection prompt and a chat that probes how the stakes shift when the loss is meaning itself, and the difficulty of specifying what humans actually want."
-++}title: "Losing the Future"
+title: "Losing the Future"
 tags:
   - supplementary
 ---

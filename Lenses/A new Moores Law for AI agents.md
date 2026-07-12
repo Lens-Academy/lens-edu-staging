@@ -1,8 +1,8 @@
 ---
 id: b38d3403-ef4e-48d6-9a94-4efc252fd89d
-{++{"author":"Elias's AI","timestamp":1783848621959}@@tldr: "In 2022, AI agents could handle 30-second coding tasks; today they manage jobs that take a human over fourteen hours. METR found the length of task an agent can complete is doubling roughly every seven months, and lately every four. If that curve holds, where does it put us in three years?"
+tldr: "In 2022, AI agents could handle 30-second coding tasks; today they manage jobs that take a human over fourteen hours. METR found the length of task an agent can complete is doubling roughly every seven months, and lately every four. If that curve holds, where does it put us in three years?"
 summary_for_tutor: "Presents METR's finding of a 'Moore's Law for AI agents': the length of task (in human time) that frontier agents can complete at 50% reliability, their 'time horizon,' has doubled roughly every seven months from 2019 to 2026 and recently every four months, with task length strongly correlated to success rate (R^2 = 0.83). Straight-line extrapolation reaches day-long tasks around 2027 and month-long tasks by 2029, and AI-automated AI research could push the trend superexponential. The lens frames this as a concrete, measured instance of the feedback-loop concept introduced earlier, bookended by short framing and reflection text, then opens a chat prompting the learner to extrapolate three years out, define 'time horizon' in their own words, and consider what a genuine plateau in the data would look like."
-++}title: "A new Moore's Law for AI agents"
+title: "A new Moore's Law for AI agents"
 ---
 #### Text
 content::

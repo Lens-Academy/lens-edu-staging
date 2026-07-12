@@ -9,9 +9,9 @@ source:: [[../Learning Outcomes/Intelligence as a universal adaptive strategy]]
 
 # Lens: Welcome
 id:: 46d44044-6260-4b95-812d-fd83528698f0
-{++{"author":"Elias's AI","timestamp":1783848018336}@@tldr:: Intelligence is power — this module shows how smarter agents come to dominate their environment and everything less intelligent in it.
+tldr:: Intelligence is power — this module shows how smarter agents come to dominate their environment and everything less intelligent in it.
 summary_for_tutor:: Short welcome lens introducing the module theme: intelligence gives agents power over their environment and over less intelligent agents. It is a framing text only; the substantive teaching happens in the following lenses.
-++}#### Text
+#### Text
 content::
 In this module, we explore the ways in which intelligence gives agents power over their environment and over other agents that are less intelligent.
 
