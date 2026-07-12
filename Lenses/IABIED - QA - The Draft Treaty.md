@@ -1,6 +1,8 @@
 ---
 id: 2ab417b5-ff4e-4743-8d46-8b4eea5ef788
-title: "Why did you pick this setup?"
+{++{"author":"Elias's AI","timestamp":1783849381698}@@tldr: "What would it actually take, on paper, to halt frontier AI development worldwide? MIRI's governance team drafted a 15-article treaty -- an international inspection authority, chip consolidation, training restrictions, verification -- modeled partly on nuclear non-proliferation. Read it and decide which articles could work and which are wishful thinking."
+summary_for_tutor: "Presents MIRI's tentative 15-article draft treaty for halting frontier AI development, written for a world whose leaders have recognized the danger of smarter-than-human AI. The proposal, drawing on historical precedent such as nuclear non-proliferation, establishes an International Superintelligence Inspection Authority, restricts AI training, consolidates and monitors chips, and specifies verification, dispute resolution, and protective actions. After reading, the student reflects on feasibility and gaps, then discusses which articles seem most feasible or challenging, how the treaty compares to existing international agreements, and what is missing."
+++}title: "Why did you pick this setup?"
 tags:
   - supplementary
 add_to_ai_context:

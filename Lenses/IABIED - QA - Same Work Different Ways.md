@@ -1,6 +1,8 @@
 ---
 id: 08fca4a1-6634-4747-8c90-3eb966f129f4
-title: "The Same Work Can Be Done in Many Different Ways"
+{++{"author":"Elias's AI","timestamp":1783849376745}@@tldr: "If the only flying things you'd ever seen were birds, you'd assume every flying machine must flap its wings. This piece uses planes, robot arms, and transistors that switch 800 million times faster than neurons to show why one example of how something works misleads you about all the others, and why we shouldn't assume AI thinks like a brain."
+summary_for_tutor: "Argues that when you know only one implementation of a capability, you wrongly assume all implementations must share its characteristics. Yudkowsky and Soares use examples (birds vs. airplanes, human vs. robotic arms, neurons vs. transistors that switch roughly 800 million times faster) to show that once you understand the details of an artificial mechanism, most facts about the biological version become irrelevant. Applied to AI, this cautions against anthropomorphizing: because people don't know how modern AI works internally, they project properties of human minds onto systems that may operate in radically alien ways. The lens follows the reading with a reflection prompt and a chat inviting the student to generate their own examples and examine assumptions people make about AI."
+++}title: "The Same Work Can Be Done in Many Different Ways"
 tags:
   - supplementary
 ---
