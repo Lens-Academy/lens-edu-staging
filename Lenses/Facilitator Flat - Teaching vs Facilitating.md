@@ -9,7 +9,7 @@ content:: {>>{"author":"Ignacio","timestamp":1781461167835}@@General comment: th
 
 A facilitator's job is different. The group has already encountered the material before walking into the session, and your role is to help them think through it together. A facilitator is not the source of the knowledge. Success looks like: at the end of the session, participants understand the material better than they could have alone, and feel more grounded in what they want to do about it. The group helps each other both to interrogate the ideas and locate themselves in relation to them.
 
-{--{"author":"Elias's AI","timestamp":1783844625510}@@ --}The table below{--{"author":"Elias's AI","timestamp":1783844625510}@@ might be helpful in listing down exact distinctions of--}{++{"author":"Elias's AI","timestamp":1783844625510}@@ lays out how the++} responsibilities {--{"author":"Elias's AI","timestamp":1783844625510}@@between--}{++{"author":"Elias's AI","timestamp":1783844625510}@@of++} a {--{"author":"Elias's AI","timestamp":1783844625510}@@Teacher--}{++{"author":"Elias's AI","timestamp":1783844625510}@@teacher++} and a {--{"author":"Elias's AI","timestamp":1783844625510}@@Facilitator:--}{++{"author":"Elias's AI","timestamp":1783844625510}@@facilitator differ:++}
+The table below lays out how the responsibilities of a teacher and a facilitator differ:
 
 | Action | Teacher | Facilitator |
 | :---- | :---- | :---- |
@@ -34,4 +34,4 @@ In an online setting, the pull toward teaching is even stronger because:
 - You're framed in a box at the centre of attention, which looks like an invitation to keep talking.
 - Participants also carry habits from Zoom calls and webinars where the expectation is to absorb, and that habit follows them into your session.  
 
-The rest of this course is largely about building the awareness to stay in facilitation mode, because the drift towards {--{"author":"Elias's AI","timestamp":1783844623129}@@the --}teaching happens gradually.
+The rest of this course is largely about building the awareness to stay in facilitation mode, because the drift towards teaching happens gradually.
