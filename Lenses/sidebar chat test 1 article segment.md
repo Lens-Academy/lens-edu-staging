@@ -1,6 +1,8 @@
 ---
 id: 8a1e320a-bf57-4ddf-88fa-074408716157
-title: Sidebar Chat Test (1 Article Segment)
+{++{"author":"Elias's AI","timestamp":1783850024972}@@tldr: "A demo lens for testing the sidebar tutor-chat feature. It interleaves excerpts from an essay on how little engineers actually understand the numbers inside modern AI systems with prompts to chat with the tutor between segments."
+summary_for_tutor: "A test/demo lens exercising the sidebar chat feature. It alternates text segments, drawn from an essay arguing that AI engineers understand the inner workings of their models about as poorly as biologists once understood DNA and illustrated by interpretability admissions from lab leaders and the Grok 'MechaHitler' incident, with short chat prompts instructing the learner to talk with the tutor between reading blocks. Its purpose is to verify the reading-plus-chat interleaving rather than to teach specific content."
+++}title: Sidebar Chat Test (1 Article Segment)
 tags:
   - work-in-progress
 ---
