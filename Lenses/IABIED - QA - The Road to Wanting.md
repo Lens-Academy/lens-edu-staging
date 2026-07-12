@@ -1,6 +1,8 @@
 ---
 id: a7c3e1f2-4b89-4d6a-9e15-8c2f0a3d7b61
-title: "The Road to Wanting"
+{++{"author":"Elias's AI","timestamp":1783849398248}@@tldr: "A thermostat 'wants' to keep your house warm; a beaver 'wants' to stop a leak. Where is the line between following a script and genuinely pursuing a goal -- and why does evolution keep crossing it? This piece traces wanting from thermostats through wasps to beavers, and warns against two opposite errors in guessing how AI will behave."
+summary_for_tutor: "Traces 'wantlike' behavior along a spectrum from thermostats through Sphex wasps to beavers to humans, arguing that increasingly sophisticated prediction, world-modeling, and goal-directed steering outperform rigid scripts and are therefore repeatedly favored by natural selection -- and that the same optimization pressures apply to AI training. It also cautions against two opposite thinking errors: anthropomorphism (assuming AI will resemble humans) and mechanomorphism (assuming AI will be a rigid, stereotypical machine). The student then discusses where current and future AI systems fall on the spectrum and identifies times they have committed either error."
+++}title: "The Road to Wanting"
 tags:
   - supplementary
 ---
