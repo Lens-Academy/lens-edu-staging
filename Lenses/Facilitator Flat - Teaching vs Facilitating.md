@@ -11,7 +11,7 @@ A facilitator's job is different. The group has already encountered the material
 
  The below table might be helpful in listing down exact distinctions of responsibilities between a Teacher and a Facilitator:
 
-| Action {++{"author":"Elias's AI","timestamp":1783844022882}@@| Teacher | Facilitator |
+| Action | Teacher | Facilitator |
 | :---- | :---- | :---- |
 | Someone asks a question | Answer it | Reflect it back to the group |
 | Someone is wrong | Correct them | Ask a question that exposes the issue |
