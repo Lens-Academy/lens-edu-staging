@@ -7,7 +7,9 @@ title: "What Will AIs Want?"
 %% AI Futurism course, Week 2, module 1: AI motivations and scheming. Starts with the week's key questions. %%
 
 # Lens: Week 2 - Key questions
-id:: 0eb2b07c-cc49-47c8-bf54-4c9d85f11f80
+id:: 0eb2b07c-cc49-47c8-bf54-4c9d85f11f80{++{"author":"Elias's AI","timestamp":1783851419028}@@
+tldr:: What does an AI actually "want" — and could those wants end in takeover? This opener frames Week 2's threat-modeling questions and asks you to write down your own hunch about today's models before competing theories try to change your mind.
+summary_for_tutor:: Opens Week 2 (module "What Will AIs Want?") on misaligned AI takeover threat modeling, framing the shift from timelines to failure modes. Lists the week's key questions: what motivations drive powerful AIs, what "scheming" means precisely, how likely and how dangerous scheming is relative to other misaligned motivations, how scheming AIs might take over, and what current models' apparent motivations imply about future ones. Prompts the learner to record their prior intuition about what today's models want before the readings offer competing frames.++}
 
 #### Text
 content::
