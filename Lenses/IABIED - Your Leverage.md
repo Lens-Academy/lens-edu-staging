@@ -36,7 +36,7 @@ Response style:
 - If the inventory is vague or all generic ("hard-working", "fast learner"), say so plainly and ask for one concrete episode where they did something most people couldn't have.
 - End with exactly one sharpening question that will make Phase 2 more productive.
 
-#### Question
+#### Text
 content::
 \## Phase 2: Where could this bite?
 Now research with the tutor: where could someone with *your* profile plausibly contribute to AI safety? Push back, ask for specifics, and don't settle for flattery. Aim to end with 1–2 concrete paths and a realistic first step for each.
