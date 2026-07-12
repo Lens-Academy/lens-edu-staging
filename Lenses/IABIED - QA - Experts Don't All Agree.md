@@ -1,7 +1,7 @@
 ---
 id: 3f013fc3-d92d-4cf1-9ce0-9d8a41a7edec
-{++{"author":"Elias's AI","timestamp":1783851010190}@@summary_for_tutor: "Presents the book's Chapter 12 FAQ arguing that the lack of expert consensus on AI risk is itself a symptom of an immature technical field, not evidence that things are fine. The reading notes that of the three Turing Award winners who launched modern AI, Hinton and Bengio warn of existential danger while LeCun dismisses it, and that this level of disagreement about how a machine operates would be abnormal in a mature field -- likened to physicists still bickering over basic principles while growing ever-larger explosions. It urges readers to evaluate the competing arguments directly. A reflection prompt follows, then a tutor chat probes the nuclear-weapons analogy and how policymakers should act when experts are deeply divided."
-++}title: "But experts don't all agree about the risks!"
+summary_for_tutor: "Presents the book's Chapter 12 FAQ arguing that the lack of expert consensus on AI risk is itself a symptom of an immature technical field, not evidence that things are fine. The reading notes that of the three Turing Award winners who launched modern AI, Hinton and Bengio warn of existential danger while LeCun dismisses it, and that this level of disagreement about how a machine operates would be abnormal in a mature field -- likened to physicists still bickering over basic principles while growing ever-larger explosions. It urges readers to evaluate the competing arguments directly. A reflection prompt follows, then a tutor chat probes the nuclear-weapons analogy and how policymakers should act when experts are deeply divided."
+title: "But experts don't all agree about the risks!"
 tldr: "Lack of expert consensus is a sign of an immature technical field."
 tags:
   - supplementary

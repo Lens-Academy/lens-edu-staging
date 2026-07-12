@@ -2,8 +2,8 @@
 id: b614a390-a260-4790-9bbc-2cceb5930eea
 title: "Isn't the danger from smarter-than-human AI a distraction from other issues?"
 tldr: "The world is, unfortunately, big enough for multiple issues."
-{++{"author":"Elias's AI","timestamp":1783850946093}@@summary_for_tutor: "A supplementary Q&A rebutting the claim that smarter-than-human AI is a distraction from threats like nuclear war and bioterrorism, arguing the world is big enough for multiple real issues. It contends AI is uniquely pressing because a large share of the economy is racing to make it more capable, with multimillion-dollar salaries, unlike superviruses where no one invests billions. It stresses that AI yields wealth and power until it crosses an unknown threshold and then kills everyone, likening this to companies enriching uranium as fast as possible toward an unknown atmosphere-igniting point. The reading is followed by a reflection prompt and a chat weighing the investment comparison and the 'unknown threshold' framing."
-++}tags:
+summary_for_tutor: "A supplementary Q&A rebutting the claim that smarter-than-human AI is a distraction from threats like nuclear war and bioterrorism, arguing the world is big enough for multiple real issues. It contends AI is uniquely pressing because a large share of the economy is racing to make it more capable, with multimillion-dollar salaries, unlike superviruses where no one invests billions. It stresses that AI yields wealth and power until it crosses an unknown threshold and then kills everyone, likening this to companies enriching uranium as fast as possible toward an unknown atmosphere-igniting point. The reading is followed by a reflection prompt and a chat weighing the investment comparison and the 'unknown threshold' framing."
+tags:
   - supplementary
 ---
 

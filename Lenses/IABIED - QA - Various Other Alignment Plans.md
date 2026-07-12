@@ -1,7 +1,7 @@
 ---
 id: bac5f63b-add8-4553-808e-8146f934ea4b
-{++{"author":"Elias's AI","timestamp":1783851329439}@@summary_for_tutor: "A short FAQ pointer noting that the book critiques additional alignment proposals beyond its main text, and directing readers to extended discussions of three specific plans -- truth-seeking AI, submissive AI, and using AIs to solve AI alignment -- each critiqued in more depth in the companion article on plans the authors examined. The lens itself carries little argument; it orients the student toward those deeper critiques. After the brief reading the student answers a reflection prompt and then discusses via chat which of the three plans sounds most promising before reading the extended critiques, and whether they can think of an alignment approach that falls outside these categories."
-++}title: "What about various other AI alignment plans?"
+summary_for_tutor: "A short FAQ pointer noting that the book critiques additional alignment proposals beyond its main text, and directing readers to extended discussions of three specific plans -- truth-seeking AI, submissive AI, and using AIs to solve AI alignment -- each critiqued in more depth in the companion article on plans the authors examined. The lens itself carries little argument; it orients the student toward those deeper critiques. After the brief reading the student answers a reflection prompt and then discusses via chat which of the three plans sounds most promising before reading the extended critiques, and whether they can think of an alignment approach that falls outside these categories."
+title: "What about various other AI alignment plans?"
 tldr: "We cover additional alignment proposals in the book."
 tags:
   - supplementary

@@ -1,7 +1,7 @@
 ---
 id: 7bca2049-a575-4c9c-a598-b5dcc6f5757b
-{++{"author":"Elias's AI","timestamp":1783850136877}@@tldr: "An AI that wants to calculate digits of pi and one that wants to fill the universe with diamond sound nothing alike, yet both would grab resources, build infrastructure, and resist being switched off. Why? 'You can't fetch the coffee if you're dead.' This piece separates goals valued for their own sake from the means almost any goal demands, and shows why AI danger is predictable even when its desires aren't."
-++}summary_for_tutor: "Introduces the distinction between terminal goals (valued intrinsically) and instrumental goals (valued as means). Demonstrates that wildly different terminal goals converge on similar instrumental strategies like resource acquisition and self-preservation. Uses the 'you can't fetch the coffee if you're dead' example to show why dangerous instrumental behavior is predictable even when specific AI desires are unknown."
+tldr: "An AI that wants to calculate digits of pi and one that wants to fill the universe with diamond sound nothing alike, yet both would grab resources, build infrastructure, and resist being switched off. Why? 'You can't fetch the coffee if you're dead.' This piece separates goals valued for their own sake from the means almost any goal demands, and shows why AI danger is predictable even when its desires aren't."
+summary_for_tutor: "Introduces the distinction between terminal goals (valued intrinsically) and instrumental goals (valued as means). Demonstrates that wildly different terminal goals converge on similar instrumental strategies like resource acquisition and self-preservation. Uses the 'you can't fetch the coffee if you're dead' example to show why dangerous instrumental behavior is predictable even when specific AI desires are unknown."
 title: Terminal Goals and Instrumental Goals
 tags:
   - supplementary

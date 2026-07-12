@@ -2,8 +2,8 @@
 id: 206e08ee-598a-4a78-ac5b-43042f471975
 title: "What does it do to your daily life to believe all of this?"
 tldr: "It dramatically affects our priorities."
-{++{"author":"Elias's AI","timestamp":1783850200171}@@summary_for_tutor: "A supplementary Q&A on how believing in imminent AI risk shapes the authors' daily lives and priorities. They note the personal cost of their commitment (Soares took a one-third pay cut in 2014; Yudkowsky founded MIRI in 2000 and has dedicated his life to it) and decline to save for retirement. They rebut 'gotcha' arguments that true believers would take out giant unrepayable loans, explaining these are bad ideas banks won't fund and reflect a poor understanding of investment. Living under existential threat, they argue, need not make you stupid or stop you living fully. The reading is followed by a reflection prompt and a chat on how the authors' sacrifices affect the reader's evaluation of their arguments."
-++}tags:
+summary_for_tutor: "A supplementary Q&A on how believing in imminent AI risk shapes the authors' daily lives and priorities. They note the personal cost of their commitment (Soares took a one-third pay cut in 2014; Yudkowsky founded MIRI in 2000 and has dedicated his life to it) and decline to save for retirement. They rebut 'gotcha' arguments that true believers would take out giant unrepayable loans, explaining these are bad ideas banks won't fund and reflect a poor understanding of investment. Living under existential threat, they argue, need not make you stupid or stop you living fully. The reading is followed by a reflection prompt and a chat on how the authors' sacrifices affect the reader's evaluation of their arguments."
+tags:
   - supplementary
 ---
 
