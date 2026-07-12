@@ -97,7 +97,7 @@ The key dynamics represented in the Full Takeoff Model. Link to chart.
 
 The Full Takeoff Model makes assumptions about the compute needed to train AGI using 2020 algorithms, the size of the effective FLOP gap, the pace at which human investments rise, the diminishing returns to hardware and software R&D, bottlenecks from tasks that AI cannot perform, and more. It calculates trajectories for software, hardware, $ on training, effective compute in the largest training run, and GDP.
 
-![](https://coefficientgiving.org/wp-content/uploads/simulation.png)
+![]({--{"author":"Elias's AI","timestamp":1783849168039}@@https://coefficientgiving.org/wp-content/uploads/simulation.png--}{++{"author":"Elias's AI","timestamp":1783849168039}@@https://web.archive.org/web/20260513212439im_/https://coefficientgiving.org/wp-content/uploads/simulation.png++})
 
 Simulation of Full Takeoff Model with my best-guess values for each parameter. In the playground you can enter your preferred parameter values and study the results. ($ on FLOP in largest training run ~= $ on FLOP globally \* fraction of global FLOP on training)
 
@@ -127,7 +127,7 @@ There is a strong relationship between the difficulty of developing AGI and take
     -   If AI is easy to develop, this fraction will still be small when we _start_ crossing the effective FLOP gap. So there’s more room to grow the fraction as we cross the gap.
     -   If in addition the effective FLOP gap is small (point 1), we could cross most of the gap merely by increasing the **fraction**. I.e. we could cross the gap very quickly.
 
-![](https://coefficientgiving.org/wp-content/uploads/agi-training-reqs.png)
+![]({--{"author":"Elias's AI","timestamp":1783849170202}@@https://coefficientgiving.org/wp-content/uploads/agi-training-reqs.png--}{++{"author":"Elias's AI","timestamp":1783849170202}@@https://web.archive.org/web/20260513212439im_/https://coefficientgiving.org/wp-content/uploads/agi-training-reqs.png++})
 
 Difficulty of developing AGI (x-axis) against takeoff speed (y-axis)
 
@@ -156,7 +156,7 @@ This has not been my main focus, but the framework has implications for this que
 
 Compared to Bio Anchors, this framework predicts larger maximum $ spend on the largest training for AGI, includes additional speed-ups from AI automation, and models the possibility we could leverage enormous amounts of runtime compute to get full automation sooner. As a result, its median predicted AGI year is 10 years earlier than Bio Anchors (2043 vs 2053), despite using the same distribution over AGI training requirements.
 
-![](https://coefficientgiving.org/wp-content/uploads/100-automation.png)
+![]({--{"author":"Elias's AI","timestamp":1783849172601}@@https://coefficientgiving.org/wp-content/uploads/100-automation.png--}{++{"author":"Elias's AI","timestamp":1783849172601}@@https://web.archive.org/web/20260513212440im_/https://coefficientgiving.org/wp-content/uploads/100-automation.png++})
 
 ### Notable assumptions and limitations of the framework
 
