@@ -1,6 +1,8 @@
 ---
 id: 43c21ff3-112e-444f-ab3a-2441da330d48
-title: "Facilitator M4 — Overview of Optional Resources"
+{++{"author":"Elias's AI","timestamp":1783849146035}@@tldr: "Want to sharpen your in-session craft? Four short videos from Authentic Revolution's facilitator library — following the room's 'delta,' naming what's gone unspoken, flexing an exercise to fit the clock, and the micro-anatomy of running an activity — plus a handbook of practical techniques for going deeper."
+summary_for_tutor: "An optional-resources index for Module 4, for facilitators wanting to go deeper on in-session craft. Curates four short videos from Authentic Revolution: 'Following Aliveness' (Sara Ness) on working with the delta between what you expected and what you see; 'Naming the Elephant' (Meg & Sara) on calling out what is unspoken in the space; 'Skills of a Timelord' (Sara Ness) on modifying exercises for different lengths of time; and 'The Steps of Facilitation' (Jason & Sara) on the what/why/how/options/demo/debrief anatomy of running an exercise. Also links a Facilitator's Handbook PDF covering activity techniques such as check-ins and thinking along/thinking together."
+++}title: "Facilitator M4 — Overview of Optional Resources"
 tags:
   - facilitator-training
 ---

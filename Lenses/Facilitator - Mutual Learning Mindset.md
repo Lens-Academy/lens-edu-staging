@@ -1,6 +1,8 @@
 ---
 id: 87a9d39f-788e-4f8d-a9fd-4a0fb27ac45a
-title: "1.2 The mutual learning mindset"
+{++{"author":"Elias's AI","timestamp":1783849146116}@@tldr: "Under pressure, most of us slip into 'I know what should happen here, and my job is to make it happen.' This lens names the alternative facilitators aim for — the mutual learning mindset and its five values — and asks you to spot the trigger that pulls you the other way."
+summary_for_tutor: "Teaches the mutual learning mindset (from Roger Schwarz, via the Curiosity Society Facilitator's Handbook) and its five values — transparency, curiosity, informed choice, accountability, and compassion — contrasted with its default opposite, unilateral control. Sequence: a short text explanation, a 12-minute reading of the Facilitator's Handbook (pp. 4-13) focused on the mindset, the five values in practice, and the facilitator's role, then a brief reflective chat of two to four exchanges that helps the trainee identify their personal trigger for slipping into unilateral control."
+++}title: "1.2 The mutual learning mindset"
 tags:
   - facilitator-training
 ---

@@ -1,6 +1,8 @@
 ---
 id: dd704e0f-ecc6-4472-8c9f-9ac2cf9bd511
-title: "You're done"
+{++{"author":"Elias's AI","timestamp":1783849141268}@@tldr: "You've got the conceptual baseline — now what? This closing note argues the rest of facilitation is reps, not reading, and leaves you four habits: run the messy first session anyway, keep a tiny post-session journal, compare notes with other facilitators, and be kind to yourself."
+summary_for_tutor: "Closing lens of the facilitator training. Tells the trainee they now have the conceptual baseline and that further skill comes from practice rather than study, then offers four parting habits: expect and run an imperfect first session, keep a brief per-session journal noting one thing that worked and one to change, learn from other facilitators by comparing notes, and treat facilitation as a craft that takes time to develop."
+++}title: "You're done"
 tags:
   - facilitator-training
 ---
