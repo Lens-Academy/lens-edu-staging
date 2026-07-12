@@ -11,9 +11,9 @@ discussion: https://discord.com/channels/1440725236843806762/1494711781648629921
 
 # Submodule: Welcome
 # Lens: Welcome
-id:: c9e0e94a-e007-4e4b-afb4-3417fe2cbcb4{++{"author":"Elias's AI","timestamp":1783851441424}@@
+id:: c9e0e94a-e007-4e4b-afb4-3417fe2cbcb4
 tldr:: Welcome to the book club for *If Anyone Builds It, Everyone Dies*. Here is how the next six weeks work: the modest weekly reading, the AI-tutor conversations and homework that make it stick, and the cohort and Discord community you will learn alongside.
-summary_for_tutor:: Course-orientation lens for the IABIED book club. Explains the format (roughly 32 pages of reading per week plus about an hour of tutor chat, an hour of homework, and a 90-minute meeting), the six-week structure and Discord cohort assignments, the intended weekly flow (pre-questions, reading, tutor discussion, optional exploration), and the community goals. Sets expectations and time commitment before chapter content begins.++}
+summary_for_tutor:: Course-orientation lens for the IABIED book club. Explains the format (roughly 32 pages of reading per week plus about an hour of tutor chat, an hour of homework, and a 90-minute meeting), the six-week structure and Discord cohort assignments, the intended weekly flow (pre-questions, reading, tutor discussion, optional exploration), and the community goals. Sets expectations and time commitment before chapter content begins.
 
 #### Text
 content:: Welcome to our introductory AI safety course. We're using the book *If Anyone Builds It, Everyone Dies* as our primary source for this book club. We use the word "book-club" lightly in this context. The author of this module (Chris) has been a long-time member of a book club and has been told that his book club is unusual in that they focus on the books, whereas most book clubs (apparently) serve as an excuse to drink wine and socialize. This book club will push in the opposite direction: we'll ask you to interact with our AI tutor and do homework assignments each week in order to help the material stick.{>>{"author":"Luc","timestamp":1782498312986}@@Request/suggestion to nolonger brand this course as a bookclub.<<}

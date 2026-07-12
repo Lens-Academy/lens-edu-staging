@@ -89,6 +89,4 @@ The reason we make this point again is to motivate the fact that understanding t
 
 This section on learning dynamics and inductive biases will be especially relevant when we talk about the likelihood of scheming and deceptive alignment.
 
-{--{"author":"Elias's AI","timestamp":1783851511387}@@---
-
---}[^1]:  More resources to learn about simplicity bias at [this link](https://github.com/sadimanna/simplicity-bias-papers).
+[^1]:  More resources to learn about simplicity bias at [this link](https://github.com/sadimanna/simplicity-bias-papers).
