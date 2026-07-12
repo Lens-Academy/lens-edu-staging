@@ -1,6 +1,7 @@
 ---
 id: ee77c667-dca5-40ce-a2a9-2bf7af93a4a2
-summary_for_tutor: "Documents specific weaknesses in current AI systems: getting stuck in Pokemon, failing to read analog clocks, botching classic riddles. These coexist with superhuman math olympiad performance, creating a capability profile unlike any human's. The key open question is how long these gaps persist before being overcome."
+{++{"author":"Elias's AI","timestamp":1783850089202}@@tldr: "Today's best AIs win gold at the International Math Olympiad -- then get stuck reading an analog clock or lost in a Pokemon game a child could finish. Their skillset is strange, unlike any human's. Does that patchy shallowness mean superintelligence is far off, or just that human strengths and weaknesses are a poor map for where AI goes next?"
+++}summary_for_tutor: "Documents specific weaknesses in current AI systems: getting stuck in Pokemon, failing to read analog clocks, botching classic riddles. These coexist with superhuman math olympiad performance, creating a capability profile unlike any human's. The key open question is how long these gaps persist before being overcome."
 title: The Shallowness of Current AIs
 tags:
   - supplementary
