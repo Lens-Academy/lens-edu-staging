@@ -1,6 +1,7 @@
 ---
 id: b49727ba-c6e8-4142-a1a8-7e8793d52465
-summary_for_tutor: "Covers Scott Alexander's parable 'The Goddess of Everything Else,' a mythological allegory about the struggle between ruthless competition (the Goddess of Cancer) and the creative, cooperative principle (the Goddess of Everything Else). Frames human civilization as the product of choosing cooperation over pure competitive advantage, and poses the question of whether humanity can extend this capacity to the challenge of AI."
+{++{"author":"Elias's AI","timestamp":1783850148236}@@tldr: "Two forces shape all of life: the Goddess of Cancer, who commands only 'kill, consume, multiply, conquer,' and her subtle sister, who keeps bending that ruthless drive into cooperation, art, and civilization. This animated parable asks whether the same capacity that lifted us out of the swamp is what we'll need to meet what comes next."
+++}summary_for_tutor: "Covers Scott Alexander's parable 'The Goddess of Everything Else,' a mythological allegory about the struggle between ruthless competition (the Goddess of Cancer) and the creative, cooperative principle (the Goddess of Everything Else). Frames human civilization as the product of choosing cooperation over pure competitive advantage, and poses the question of whether humanity can extend this capacity to the challenge of AI."
 title: The Goddess Of Everything Else
 ---
 #### Text
