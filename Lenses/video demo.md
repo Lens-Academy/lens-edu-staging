@@ -1,6 +1,8 @@
 ---
 id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
-title: Video segment demo
+{++{"author":"Elias's AI","timestamp":1783849926906}@@tldr: "A demo lens that embeds a timestamped clip (0:00-0:45) from a Kurzgesagt video on artificial superintelligence, showing how a video excerpt plays next to its transcript."
+summary_for_tutor: "Demonstrates the timestamped video-excerpt feature: a brief intro text, a video segment clipped from 0:00 to 0:45 of the Kurzgesagt transcript on artificial superintelligence, and a chat that asks the learner what they noticed about the video player, transcript, and timestamp range."
+++}title: Video segment demo
 ---
 #### Text
 content::
