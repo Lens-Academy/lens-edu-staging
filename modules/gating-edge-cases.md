@@ -8,7 +8,9 @@ title: Gating edge cases (test module)
 
 # Lens: Two chats sharing one lens minimum
 id:: 95e31306-3526-4f68-a5f3-5d03eac93fc0
-min_chat_messages:: 3
+{++{"author":"Elias's AI","timestamp":1783851468784}@@tldr:: Test lens: two chat boxes on one page share a single min_chat_messages:: 3 requirement, so messages pool across both boxes and the sidebar to unlock completion.
+summary_for_tutor:: Internal gating test lens. Verifies that min_chat_messages pools across two chat segments on one page: any mix of three messages unlocks completion, shown by a single countdown line. Not part of any course.
+++}min_chat_messages:: 3
 
 #### Text
 content::
