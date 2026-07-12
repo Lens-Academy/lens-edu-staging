@@ -1,7 +1,7 @@
 ---
 id: e2c85826-d6f4-431b-b036-23de8e48b479
-{++{"author":"Elias's AI","timestamp":1783850015766}@@tldr: "AI catastrophe is usually imagined as a rogue machine that hates us. But what if disaster is simply the default, no malice required? This primer walks eleven interlocking steps, from why labs are racing toward superintelligence to why a system merely indifferent to us is as deadly as a hostile one, showing how present incentives stack the odds against a good outcome."
-++}summary_for_tutor: Covers why catastrophic outcomes from AI are the default expectation, not a special case requiring malice. Explains that major AI labs explicitly target superintelligence, that current AI is grown rather than designed (making alignment intractable with present methods), that instrumental convergence drives dangerous behavior regardless of final goals, and that competitive pressures ensure insufficient caution. Structured as a comprehensive primer on existential risk from AI.
+tldr: "AI catastrophe is usually imagined as a rogue machine that hates us. But what if disaster is simply the default, no malice required? This primer walks eleven interlocking steps, from why labs are racing toward superintelligence to why a system merely indifferent to us is as deadly as a hostile one, showing how present incentives stack the odds against a good outcome."
+summary_for_tutor: Covers why catastrophic outcomes from AI are the default expectation, not a special case requiring malice. Explains that major AI labs explicitly target superintelligence, that current AI is grown rather than designed (making alignment intractable with present methods), that instrumental convergence drives dangerous behavior regardless of final goals, and that competitive pressures ensure insufficient caution. Structured as a comprehensive primer on existential risk from AI.
 title: Deadly By Default
 ---
 #### Text
