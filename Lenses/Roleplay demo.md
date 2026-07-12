@@ -1,6 +1,8 @@
 ---
 id: 4840b801-3dd7-48f7-a2b3-fc0e1d49e18d
-title: Roleplay demo
+{++{"author":"Elias's AI","timestamp":1783849600830}@@tldr: "A demo lens showing how a Roleplay segment works: you practice explaining a new course feature to a skeptical collaborator, and an AI character pushes back until you give concrete examples."
+summary_for_tutor: "Demonstrates the Roleplay lens type. The learner reads a one-line Text segment, then enters a roleplay where they must explain the purpose of a new course feature to a skeptical-but-curious AI collaborator who asks practical questions and pushes back on vague claims. Assessment checks whether the learner clearly explains the feature's purpose and responds constructively to pushback."
+++}title: Roleplay demo
 ---
 
 #### Text
