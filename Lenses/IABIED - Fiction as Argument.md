@@ -11,7 +11,8 @@ add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/10 - Coda]]"
 ---
 #### Question
-content::
+{++{"author":"AI","timestamp":1783860246331}@@optional:: true
+++}content::
 \## Optional Reflection: No New Reading Required
 
 You've already read the Coda. This lens asks you to press on one more move it makes.
