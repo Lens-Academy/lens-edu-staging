@@ -1,6 +1,8 @@
 ---
 id: b851dfd6-7559-455b-b3f5-cb5121844836
-title: "Facilitator M5 — Overview of Optional Resources"
+{++{"author":"Elias's AI","timestamp":1783849149778}@@tldr: "Optional deeper-dive resources for Module 5's focus on hard moments, coaching, and closing: a short video on surfacing the unspoken tension in a room, plus a guide to giving and getting feedback that's actually useful — for you and for the participants you coach."
+summary_for_tutor: "An optional-resources index for Module 5, covering hard moments, coaching, and closing. Curates the 'Naming the Elephant' video (Meg & Sara) on calling out unspoken tension in the room, and links Scott Young's article 'How to Get Feedback' on the qualities of useful feedback, framed as useful both for the facilitator and for participants they are coaching."
+++}title: "Facilitator M5 — Overview of Optional Resources"
 tags:
   - facilitator-training
 ---
