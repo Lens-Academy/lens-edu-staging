@@ -1,8 +1,8 @@
 ---
 id: 9229186a-fa0d-456e-860a-9559953f553a
-{++{"author":"Elias's AI","timestamp":1783849388484}@@tldr: "What if every workable plan to survive superintelligence is one AI company CEOs would furiously oppose? The authors argue no single CEO can stop the race, that a plan requiring Sam Altman to say 'yes' is no plan at all, and that policymakers should be listening to chip and datacenter experts, not the people whose work they'd need to shut down."
+tldr: "What if every workable plan to survive superintelligence is one AI company CEOs would furiously oppose? The authors argue no single CEO can stop the race, that a plan requiring Sam Altman to say 'yes' is no plan at all, and that policymakers should be listening to chip and datacenter experts, not the people whose work they'd need to shut down."
 summary_for_tutor: "Argues that plans to avert catastrophe from superintelligence must be ones AI companies oppose, not ones that require their cooperation. Yudkowsky and Soares reason that no individual CEO can halt the race (if Sam Altman shut down OpenAI, Microsoft would replace him, and rival labs or nations would proceed regardless), that lab executives are unreliable and often dishonest negotiating partners, and that a plan which fails the moment a lab head says 'No' is no plan at all. They call for a globally coordinated halt informed by experts in AI chips, datacenters, and compliance monitoring rather than AI researchers, who should not get veto power over shutting down their own work. The lens follows the reading with a reflection prompt and a chat on corporate safety pledges and the proper role of AI companies in policy."
-++}title: "Workable Plans Will Involve Telling AI Companies No"
+title: "Workable Plans Will Involve Telling AI Companies No"
 tags:
   - supplementary
 ---
