@@ -23,7 +23,9 @@ The readings introduce conceptual frames and hypotheses in AI futurism that many
 The four weeks build on each other: **timelines and takeoff** (how fast is this coming?), **takeover threat modeling** (what could go wrong?), **control** (what can we do about it?), and **governance** (who decides?). An optional fifth module collects extended readings for going deeper.
 
 ## Lens: How to use this course
-id:: b470b88e-03b4-4537-9e5e-85ee49c5b847
+id:: b470b88e-03b4-4537-9e5e-85ee49c5b847{++{"author":"Elias's AI","timestamp":1783851444569}@@
+tldr:: How to actually work through this course without drowning: what the ⭐ and *optional* tags mean, why the exercises are built for your discussion group, and what to do with the tutor chats. Ends with Week 1's key questions on timelines and takeoff.
+summary_for_tutor:: Orientation lens explaining course mechanics: each week is under 8 hours of foundational context on one topic plus a group meeting; ⭐-marked readings are the ~1-hour priority; optional lenses are follow-curiosity; exercises and key questions are meant for discussion groups; most reading lenses end in a tutor chat for testing understanding rather than summarizing. Closes by introducing Week 1's timelines-and-takeoff focus and its key questions on milestones, timelines, takeoff speeds, existing models' assumptions, current capability, and strategic implications.++}
 
 #### Text
 content::
