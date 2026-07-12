@@ -1,6 +1,8 @@
 ---
 id: 373144d9-cfc6-401c-b945-b55427cc2b67
-title: "Making Sense of the Death Race"
+{++{"author":"Elias's AI","timestamp":1783849364801}@@tldr: "If building superintelligence might kill everyone, its makers included, why do the smartest people in the field keep racing to build it? This essay works through the unsettling answers: game-theoretic incentives, a long history of inventors killed by their own inventions, a culture that trades extinction odds like water-cooler chat, and a 'missing mood' of CEOs forecasting doom without grief."
+summary_for_tutor: "Examines why AI researchers and executives continue racing toward superintelligence despite acknowledging it could cause human extinction. Yudkowsky and Soares canvass several explanations: individual game-theoretic incentives that push toward collective destruction, the historical banality of scientists killed by their own inventions (Valier, Fisher, Newton, Midgley), cultural normalization of extreme risk (casual 'p(doom)' estimates in the double digits, contrasted with bridge engineers' 1-in-100,000 failure standard), the planning fallacy and attachment to unworkable pet solutions, and a 'missing mood' in which CEOs discuss the end of the world without grief, horror, or urgency, suggesting they don't viscerally believe their own words. The lens follows the reading with a reflection prompt and a chat asking which explanation the student finds most convincing."
+++}title: "Making Sense of the Death Race"
 tags:
   - supplementary
 ---
