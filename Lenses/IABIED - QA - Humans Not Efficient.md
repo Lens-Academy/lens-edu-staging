@@ -1,6 +1,7 @@
 ---
 id: 08d61baf-f061-42a2-9686-ca4dc622043d
-summary_for_tutor: "Covers why happy, healthy humans are not the most efficient solution to almost any problem a superintelligence might have. Introduces the Matrix fallacy: even pleasant-sounding AI values like symmetry or truth do not guarantee human flourishing. Identifies the central reasoning error of starting with desired outcomes and inventing post-hoc justifications."
+{++{"author":"Elias's AI","timestamp":1783850031245}@@tldr: "Some hope a superintelligence will keep us around because we make art, or truth, or symmetry. But for almost any goal you name, happy free humans are not the efficient answer, since the same atoms could be rearranged into something that scores higher. Think through symmetry, chickens, and the 'Matrix fallacy' to see why an AI has to be aimed at us directly."
+++}summary_for_tutor: "Covers why happy, healthy humans are not the most efficient solution to almost any problem a superintelligence might have. Introduces the Matrix fallacy: even pleasant-sounding AI values like symmetry or truth do not guarantee human flourishing. Identifies the central reasoning error of starting with desired outcomes and inventing post-hoc justifications."
 title: Humans Are Almost Never the Most Efficient Solution
 tags:
   - supplementary
