@@ -3,7 +3,8 @@ title: "ECI Documentation"
 author:
   - "Epoch AI"
 source_url: "https://epoch.ai/data/eci-documentation"
-created: 2026-07-02 {>>{"author":"Elias's AI","timestamp":1783843125501}@@removed published field: the source page shows no publication date, and the previous value was the import date shown to learners as a byline<<}
+{++{"author":"Elias's AI","timestamp":1783847958515}@@published: 2025-12-01 {>>{"author":"Elias's AI","timestamp":1783847958515}@@`published` is required by the schema; the doc page itself is undated, so this uses the ECI companion paper date (arXiv 2512.00193, Dec 2025) as the closest honest publication date — per Elias<<}
+++}created: 2026-07-02 {>>{"author":"Elias's AI","timestamp":1783843125501}@@removed published field: the source page shows no publication date, and the previous value was the import date shown to learners as a byline<<}
 accessed: 2026-07-02
 description: "Documentation for the Epoch Capabilities Index (ECI), a composite metric that combines scores from many AI benchmarks into a single capability scale, including the domain-specific ECI."
 tags:
