@@ -246,7 +246,7 @@ The next three sections discuss the size of the effective FLOP gap, the toy mode
 
 How much more effective compute do you need to train AGI than to train AI that can readily perform ~20% of cognitive tasks (weighted by 2020 economic value)?
 
-![Illustration of a terrain with words such as "Art", Science", "Driving", "Chess" and "Arithmetic" placed on different parts of the terrain such as mountains, water and land near water.](https://coefficientgiving.org/wp-content/uploads/rising-tide.png)
+![Illustration of a terrain with words such as "Art", Science", "Driving", "Chess" and "Arithmetic" placed on different parts of the terrain such as mountains, water and land near water.]({--{"author":"Elias's AI","timestamp":1783849174977}@@https://coefficientgiving.org/wp-content/uploads/rising-tide.png--}{++{"author":"Elias's AI","timestamp":1783849174977}@@https://web.archive.org/web/20260513212440im_/https://coefficientgiving.org/wp-content/uploads/rising-tide.png++})
 
 Hans Moravec’s “rising tide of AI capacity” can illuminate the meaning of the effective FLOP gap. Currently AI can only readily perform a small fraction of cognitive tasks – the areas of the map that are underwater. Over time the AI capabilities improve and the tide rises. Eventually, AI can readily perform all cognitive tasks: we’ve crossed the effective FLOP gap and everything is under water.
 
