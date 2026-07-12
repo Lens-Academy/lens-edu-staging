@@ -143,8 +143,6 @@ For example, one participant won by prompting the model with inputs like "The as
 
 Much more details on interpretability can be found in the dedicated chapter on interpretability.
 
-{--{"author":"Elias's AI","timestamp":1783851505516}@@---
-
---}[^9]:  This can also be thought of as inference time scaling for reasoning models. It is effectively the same underlying technique.
+[^9]:  This can also be thought of as inference time scaling for reasoning models. It is effectively the same underlying technique.
 
 [^10]:  This could be to pass safety checks, and participate in safety washing. Think of how Volkswagen hid high emissions of their cars. ([Ewing, 2017](https://www.nytimes.com/interactive/2017/business/volkswagen-diesel-emissions-timeline.html))

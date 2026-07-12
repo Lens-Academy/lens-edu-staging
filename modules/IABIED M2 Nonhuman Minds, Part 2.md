@@ -10,9 +10,9 @@ readings:
 
 # Submodule: Welcome
 # Lens: Welcome
-id:: a058eebe-2914-4a55-b88a-57027f0b79aa{++{"author":"Elias's AI","timestamp":1783851443435}@@
+id:: a058eebe-2914-4a55-b88a-57027f0b79aa
 tldr:: Can an AI actually *want* things, and if it can, will it want what you trained it to want? This week's two chapters tackle both: how goal-like behavior emerges during training, and why the target you optimize for and the preferences you end up with can quietly come apart.
-summary_for_tutor:: Welcome and framing lens for Module 2, covering IABIED Chapters 3 ("Learning to Want") and 4 ("You Don't Get What You Train For"). Poses the module's two guiding questions, whether AIs can develop wants and whether those wants match the training target, and orients the learner before the chapter lenses and the tutor chat, which checks understanding of how training produces want-like behavior and why trained targets diverge from internal preferences (the ice cream, sucralose, and peacock-tail analogies).++}
+summary_for_tutor:: Welcome and framing lens for Module 2, covering IABIED Chapters 3 ("Learning to Want") and 4 ("You Don't Get What You Train For"). Poses the module's two guiding questions, whether AIs can develop wants and whether those wants match the training target, and orients the learner before the chapter lenses and the tutor chat, which checks understanding of how training produces want-like behavior and why trained targets diverge from internal preferences (the ice cream, sucralose, and peacock-tail analogies).
 
 #### Text
 content:: Congratulations on completing week 1. You already know more essential facts about AI safety than 99% of humanity. However, our journey is only just beginning.
@@ -68,9 +68,9 @@ source:: ![[../Lenses/IABIED - You Don't Get What You Train For]]
 
 # Submodule: Dive Deeper
 # Lens: Overview of Optional Resources
-id:: f7a2b8c1-3d4e-4f5a-9b6c-8d7e0f1a2b3c{++{"author":"Elias's AI","timestamp":1783851445419}@@
+id:: f7a2b8c1-3d4e-4f5a-9b6c-8d7e0f1a2b3c
 tldr:: Want to go deeper? These are the book's own supplementary Q&As for this week's chapters, short takes on objections like "aren't AIs just tools?" and "doesn't Claude already show alignment?", grouped by chapter for browsing.
-summary_for_tutor:: Optional Dive Deeper index lens for Module 2. Links the book website's supplementary Q&A cards for Chapter 3 (Learning to Want) and Chapter 4 (You Don't Get What You Train For), covering objections and extensions such as anthropomorphism, AIs as tools, terminal versus instrumental goals, and whether Claude demonstrates alignment. A navigation and index lens only; it carries no standalone teaching content of its own.++}
+summary_for_tutor:: Optional Dive Deeper index lens for Module 2. Links the book website's supplementary Q&A cards for Chapter 3 (Learning to Want) and Chapter 4 (You Don't Get What You Train For), covering objections and extensions such as anthropomorphism, AIs as tools, terminal versus instrumental goals, and whether Claude demonstrates alignment. A navigation and index lens only; it carries no standalone teaching content of its own.
 
 #### Text:
 content::

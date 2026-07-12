@@ -99,9 +99,7 @@ Let's stop framing interpretability as the *one true path* to reliably detecting
 
 *Thanks to my co-author Gemini 2.5 Pro*
 
-{--{"author":"Elias's AI","timestamp":1783851531076}@@---
-
---}[^1]: While this post was inspired by Dario's post and ensuing discussion, this is a common belief I've encountered, and this post is not intended to call out him specifically!
+[^1]: While this post was inspired by Dario's post and ensuing discussion, this is a common belief I've encountered, and this post is not intended to call out him specifically!
 [^2]: More specifically, I basically think the only way we might get high reliability is by using pre-superintelligent systems that are sufficiently aligned/controlled to either do a ton of automated research and find some breakthroughs, or by using them as a core part of a monitoring or scalable oversight scheme. But the human research trajectory is hard.
 [^3]: Defining “safety” is kinda messy, for the purposes of this post you can interpret it as evaluating ‘is the model thinking misaligned thoughts', or monitoring for ‘is the model currently knowingly taking high-stakes actions against what we want’
 [^4]: I’m not sure what the best precise definition of highly reliable is here, maybe 99.9% chance of stopping a catastrophic outcome? It’s not key to my argument.

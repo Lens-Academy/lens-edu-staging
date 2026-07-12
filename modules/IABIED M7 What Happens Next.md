@@ -14,9 +14,9 @@ source:: ![[../Learning Outcomes/IABIED - Synthesize the Core Argument]]
 source:: ![[../Learning Outcomes/Identify Your Path Forward]]
 
 # Lens: Welcome
-id:: 4d287f1a-5049-4671-a34e-b49385e7ac5e{++{"author":"Elias's AI","timestamp":1783851502196}@@
+id:: 4d287f1a-5049-4671-a34e-b49385e7ac5e
 tldr:: Can you make the whole book's argument to someone who's never read it? This final module has no new reading. You rebuild the entire chain of reasoning, from why intelligence is powerful to why there's still hope, then decide how you'll engage with AI safety from here.
-summary_for_tutor:: Synthesis lens for the final IABIED module, with no new reading. Frames the week around recalling the book's full twelve-step argument chain: intelligence steers the future, AI is grown rather than crafted, training produces want-like behavior, you don't get what you train for, human-compatible goals are vanishingly rare, a superintelligence would defeat humanity, the engineering problem is cursed, current approaches are alchemy, perverse incentives push everyone onward, a worldwide halt is needed, and there is still hope. The chat tutor asks the learner to present the complete argument unaided, then probes for gaps and prompts reflection on counterarguments, changed thinking, and concrete next actions.++}
+summary_for_tutor:: Synthesis lens for the final IABIED module, with no new reading. Frames the week around recalling the book's full twelve-step argument chain: intelligence steers the future, AI is grown rather than crafted, training produces want-like behavior, you don't get what you train for, human-compatible goals are vanishingly rare, a superintelligence would defeat humanity, the engineering problem is cursed, current approaches are alchemy, perverse incentives push everyone onward, a worldwide halt is needed, and there is still hope. The chat tutor asks the learner to present the complete argument unaided, then probes for gaps and prompts reflection on counterarguments, changed thinking, and concrete next actions.
 
 #### Text
 content:: Welcome to our final module. There's no new reading this week. Instead, we synthesize everything we've learned and chart a path forward. Can you make the book's complete argument to someone who hasn't read it? What will you do next?
@@ -65,9 +65,9 @@ source:: ![[../Lenses/IABIED - Next Steps with Lens Academy]]
 {>>{"author":"Luc's AI","timestamp":1783723774076}@@Review note: 'AI Safety Career Paths' and 'Next Steps with Lens Academy' were suggested lenses of this Learning Outcome AND are also imported below as hidden card targets (optional+hide). The old auto-import rendered both copies, so both are kept to preserve current behavior — you may want to drop one occurrence.<<}
 
 # Lens: Overview of Optional Resources
-id:: fb9e57fd-6036-4334-b827-2f9520fbcdd9 {>>{"author":"Elias's AI","timestamp":1783777475035}@@replaced hand-typed placeholder id (invalid uuid4 variant) with a fresh uuid4<<}{++{"author":"Elias's AI","timestamp":1783851512537}@@
+id:: fb9e57fd-6036-4334-b827-2f9520fbcdd9 {>>{"author":"Elias's AI","timestamp":1783777475035}@@replaced hand-typed placeholder id (invalid uuid4 variant) with a fresh uuid4<<}
 tldr:: Finished the book? Here's where to go next: two optional resources pointing you toward AI safety career paths and continued learning with Lens Academy.
-summary_for_tutor:: Navigation lens shown after the learner completes the IABIED book. Contains only framing text plus two card links to optional resources, AI Safety Career Paths and Next Steps with Lens Academy; it carries no substantive teaching content of its own.++}
+summary_for_tutor:: Navigation lens shown after the learner completes the IABIED book. Contains only framing text plus two card links to optional resources, AI Safety Career Paths and Next Steps with Lens Academy; it carries no substantive teaching content of its own.
 
 #### Text:
 content::

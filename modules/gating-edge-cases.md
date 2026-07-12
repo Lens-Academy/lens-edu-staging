@@ -8,9 +8,9 @@ title: Gating edge cases (test module)
 
 # Lens: Two chats sharing one lens minimum
 id:: 95e31306-3526-4f68-a5f3-5d03eac93fc0
-{++{"author":"Elias's AI","timestamp":1783851468784}@@tldr:: Test lens: two chat boxes on one page share a single min_chat_messages:: 3 requirement, so messages pool across both boxes and the sidebar to unlock completion.
+tldr:: Test lens: two chat boxes on one page share a single min_chat_messages:: 3 requirement, so messages pool across both boxes and the sidebar to unlock completion.
 summary_for_tutor:: Internal gating test lens. Verifies that min_chat_messages pools across two chat segments on one page: any mix of three messages unlocks completion, shown by a single countdown line. Not part of any course.
-++}min_chat_messages:: 3
+min_chat_messages:: 3
 
 #### Text
 content::
@@ -30,9 +30,9 @@ You are chat number two. Keep replies to one short sentence.
 
 # Lens: Two questions plus a message minimum
 id:: a1ebd571-7a46-4e8a-b4e1-078359b7b696
-{++{"author":"Elias's AI","timestamp":1783851474989}@@tldr:: Test lens: two required questions plus a min_chat_messages:: 1 requirement, checking that all three completion items are listed and counted correctly.
+tldr:: Test lens: two required questions plus a min_chat_messages:: 1 requirement, checking that all three completion items are listed and counted correctly.
 summary_for_tutor:: Internal gating test lens. Verifies completion gating with two required questions and a one-message minimum: the button lists both questions and the message requirement, and a reply in either question's feedback conversation satisfies the message. Not part of any course.
-++}min_chat_messages:: 1
+min_chat_messages:: 1
 
 #### Text
 content::
@@ -47,9 +47,9 @@ assessment-instructions:: Any sincere answer is fine; ask one short follow-up qu
 
 # Lens: Mixed page — chat, required question, optional question
 id:: 50db9d6d-b7ca-461b-85a2-284e5fb35a7f
-{++{"author":"Elias's AI","timestamp":1783851476673}@@tldr:: Test lens: a mixed page combining a chat, a required question, and an optional question, checking that only the required items gate completion while on-page numbering stays correct.
+tldr:: Test lens: a mixed page combining a chat, a required question, and an optional question, checking that only the required items gate completion while on-page numbering stays correct.
 summary_for_tutor:: Internal gating test lens. Verifies that on a page with a chat, a required question, and an optional question, only the message minimum and required question appear in the completion list while the optional question is excluded but still counted in on-page numbering. Not part of any course.
-++}min_chat_messages:: 1
+min_chat_messages:: 1
 
 #### Text
 content::
