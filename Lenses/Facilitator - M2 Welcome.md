@@ -1,6 +1,8 @@
 ---
 id: d526907f-e5f5-415d-abc2-3cfd540e3fce
-title: "How People Learn — Why Discussions Work"
+{++{"author":"Elias's AI","timestamp":1783849115188}@@tldr: "Why not just summarise the reading at the top of a session and save everyone time? This module lays out the empirical case for why discussion produces learning — so you can defend the format to participants and tell whether a slow-feeling session is actually working."
+summary_for_tutor: "Opening lens for Module 2 (35 minutes: two readings, one short framework, one reflection exercise). Introduces the empirical evidence for why facilitated discussion produces learning, rather than assuming it does. Frames two uses for this evidence: explaining to participants why the format avoids summarising the reading up front, and diagnosing whether a session that feels slow or chaotic is succeeding or failing."
+++}title: "How People Learn — Why Discussions Work"
 tags:
   - facilitator-training
 ---
