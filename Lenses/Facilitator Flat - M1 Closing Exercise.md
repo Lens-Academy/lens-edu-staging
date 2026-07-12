@@ -1,8 +1,8 @@
 ---
 id: 97efaed9-6c39-4327-a48d-1987c438a108
-{++{"author":"Elias's AI","timestamp":1783849140085}@@tldr: "Can you say, in your own words, what a facilitator actually does? This closing exercise asks you to put the teacher-versus-facilitator distinction into a short paragraph and name the one situation most likely to pull you back into teaching — because if you can't write it, you don't yet have it."
+tldr: "Can you say, in your own words, what a facilitator actually does? This closing exercise asks you to put the teacher-versus-facilitator distinction into a short paragraph and name the one situation most likely to pull you back into teaching — because if you can't write it, you don't yet have it."
 summary_for_tutor: "A five-minute closing writing exercise for Module 1. Prompts the learner to write a 5–8 sentence paragraph, in their own words, answering what a facilitator's job is and how it differs from a teacher's, and to identify one situation in which they are likely to drift out of the facilitator role along with its trigger. The writing is private and unshared; the act of articulating the distinction is itself the check on whether it has landed, serving as the foundation for the following four modules."
-++}title: "Closing exercise"
+title: "Closing exercise"
 tags:
   - facilitator-training
 ---
