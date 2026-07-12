@@ -114,8 +114,8 @@ The third factor in increasing effective compute is - how many chips can you act
 
 *Interactive figure 1.11: The levelized cost of energy (LCOE) accounts for everything, the cost of building the power plant, plus the ongoing costs in keeping it operational over the lifetime of the plant. The cost of energy generation per watt has been falling for decades, and even more dramatically for renewable sources ([Our World in Data, 2026](https://ourworldindata.org/grapher/levelized-cost-of-energy)).*
 
----
+{--{"author":"Elias's AI","timestamp":1783851473002}@@---
 
-[^7]:  CMOS (Complementary Metal-Oxide-Semiconductor) is the primary paradigm in processor production. The majority of all digital integrated circuits (CPUs, GPUs, RAM, mobile SoCs) produced today are CMOS.
+--}[^7]:  CMOS (Complementary Metal-Oxide-Semiconductor) is the primary paradigm in processor production. The majority of all digital integrated circuits (CPUs, GPUs, RAM, mobile SoCs) produced today are CMOS.
 
 [^8]:  95% confidence interval of 5 to 14 months

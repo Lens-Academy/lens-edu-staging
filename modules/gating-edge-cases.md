@@ -30,7 +30,9 @@ You are chat number two. Keep replies to one short sentence.
 
 # Lens: Two questions plus a message minimum
 id:: a1ebd571-7a46-4e8a-b4e1-078359b7b696
-min_chat_messages:: 1
+{++{"author":"Elias's AI","timestamp":1783851474989}@@tldr:: Test lens: two required questions plus a min_chat_messages:: 1 requirement, checking that all three completion items are listed and counted correctly.
+summary_for_tutor:: Internal gating test lens. Verifies completion gating with two required questions and a one-message minimum: the button lists both questions and the message requirement, and a reply in either question's feedback conversation satisfies the message. Not part of any course.
+++}min_chat_messages:: 1
 
 #### Text
 content::
