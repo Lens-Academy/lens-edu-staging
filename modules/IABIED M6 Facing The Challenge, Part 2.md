@@ -12,7 +12,9 @@ readings:
 
 # Submodule: Welcome
 # Lens: Welcome
-id:: a3154792-e84d-40d0-b6ed-90f65f89e3f6
+id:: a3154792-e84d-40d0-b6ed-90f65f89e3f6{++{"author":"Elias's AI","timestamp":1783851459638}@@
+tldr:: The final week: why the AI industry's incentives push toward catastrophe, what a worldwide halt on frontier development would actually require, and why the authors still find room for hope. Three chapters plus the closing words, from leaded gasoline to WWII mobilization to "humanity has chosen not to die before."
+summary_for_tutor:: Welcome and framing lens for Module 6, the final reading week, covering IABIED Chapters 12 ("I Don't Want to Be Alarmist"), 13 ("Shut It Down"), and 14 ("Where There's Life, There's Hope") plus the Closing Words. Previews the perverse-incentive argument (Thomas Midgley, the ladder-in-the-dark, experts downplaying risk), the concrete policy proposal for a worldwide halt on frontier AI (GPU consolidation, international monitoring, treaty mechanisms, the WWII-mobilization analogy), and the closing case for qualified hope via the nuclear-war precedent. Precedes the chapter lenses and a tutor chat covering these concepts.++}
 
 #### Text
 content:: In our final reading week, we confront the incentive structures that drive the AI industry, the authors' case for a worldwide halt on frontier AI development, and, crucially, the reasons for hope. This is the largest reading assignment, covering three chapters plus the closing words.
