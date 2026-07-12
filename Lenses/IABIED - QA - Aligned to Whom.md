@@ -1,6 +1,7 @@
 ---
 id: 845bd004-c499-441a-bd36-c5b79f12920b
-title: "Aligned to whom?"
+{++{"author":"Elias's AI","timestamp":1783850170682}@@summary_for_tutor: "Argues that the philosophical question of whose values a superintelligence should be aligned to is currently moot: humanity cannot reliably load any goals into an AI, so debating which goals is premature. Coordinating on an international ban does not require agreement on \"aligned to whom,\" because nearly everyone agrees that the destruction of all life is bad. The authors warn against packaging contentious value debates with the survival question, insisting nothing be bundled with human survival except human survival. After the reading, a reflection prompt and chat probe whether deferring the question is wise or ducks an important issue, and how the \"suicide button, not a genie\" framing reshapes the debate."
+++}title: "Aligned to whom?"
 tldr: "This is a thorny question. Regardless of the answer, we need to halt development."
 tags:
   - supplementary

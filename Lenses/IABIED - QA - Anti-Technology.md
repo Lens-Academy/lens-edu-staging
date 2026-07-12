@@ -1,6 +1,7 @@
 ---
 id: 307c1f85-08f7-46f1-bc90-39e1e681c644
-title: "Are you anti-technology?"
+{++{"author":"Elias's AI","timestamp":1783850177532}@@summary_for_tutor: "Argues that opposing the race to superintelligence is not a general anti-technology stance. The authors champion nuclear energy, cryonics, human intelligence augmentation, and human challenge trials, and defend individuals' right to take risks with their own lives. AI is different because of scope: gambling one's own life differs from gambling customers' lives, which differs from gambling innocent bystanders, which differs from gambling the entire human species, doubly so in a field too immature to offer good odds. After the reading, a reflection prompt and chat explore whether knowing the authors' pro-technology views affects how one reads their AI arguments, and whether the scope argument convincingly separates acceptable from unacceptable risk."
+++}title: "Are you anti-technology?"
 tldr: "No. Superintelligent AI is a very unusual case."
 tags:
   - supplementary

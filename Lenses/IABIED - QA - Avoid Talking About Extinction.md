@@ -1,6 +1,7 @@
 ---
 id: db2ffbfe-6eb7-44c0-b5d0-b2c3825f0da3
-title: "Isn't it smarter to avoid talking about extinction?"
+{++{"author":"Elias's AI","timestamp":1783850180238}@@summary_for_tutor: "Argues against the strategy of downplaying extinction risk and instead campaigning on safer-sounding AI issues like job loss, deepfakes, or datacenter water use. The authors give four reasons: the redirection is dishonest and people detect it; it is probably unnecessary, since direct conversation (even with U.S. elected officials) gets far better reception; addressing proxy issues does not stop companies racing to build superintelligence; and time is plausibly too short to ease people in gradually. They conclude policy must be grounded in the actual realities, not safe-seeming messaging. After the reading, a reflection prompt and chat examine officials' receptiveness and when strategic messaging helps versus backfires."
+++}title: "Isn't it smarter to avoid talking about extinction?"
 tldr: "The time has passed for playing political games."
 tags:
   - supplementary
