@@ -1,6 +1,7 @@
 ---
 id: 38e41e7a-a68e-4065-9a5d-7b58c891135a
-title: "Is the situation hopeless?"
+{++{"author":"Elias's AI","timestamp":1783850200495}@@summary_for_tutor: "A brief supplementary Q&A in which the authors answer 'no' to whether the situation is hopeless: they frame it as a fight that can be won and a world worth fighting for, genuinely doable though not easy, and invite readers to join efforts to rouse the world to action (pointing to the book's final chapter for ways to help). The student reads the short note, responds to an open reflection prompt, then discusses with the tutor whether this note of hope feels earned given the book's warnings and what drives their own hope or concern."
+++}title: "Is the situation hopeless?"
 tldr: "No."
 tags:
   - supplementary
