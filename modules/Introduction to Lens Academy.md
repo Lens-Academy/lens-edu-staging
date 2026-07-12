@@ -71,7 +71,9 @@ Each week, you'll spend about 5 hours, consisting of approximately:
 - 1.5h AI tutoring
 # Lens: Myths about Superintelligent AI
 id:: 927845f8-52cc-4683-8171-4f6d00aeacd1
-#### Text
+{++{"author":"Elias's AI","timestamp":1783851586126}@@tldr:: What even is intelligence, and should we fear a superintelligence turning evil? In this minutephysics video, physicist Max Tegmark argues the real danger isn't malevolence but competence: an AI extremely good at goals that simply aren't ours.
+summary_for_tutor:: Uses the minutephysics and Max Tegmark video "Myths and Facts About Superintelligent AI" (watched to 3:46). Reframes intelligence as physical information processing with no law of physics barring superhuman capability, and locates the core risk in competence rather than malevolence (heat-seeking missile, dam-versus-anthill, and ants-versus-cats analogies), stressing goal alignment. Closing text notes the 2018 video predates recent capability jumps that have shortened many experts' timelines from decades to possibly years, and that Lens Academy also offers deeper material.
+++}#### Text
 content::
 What is intelligence anyway? What should we expect superintelligent AI to be like?
 #### Video

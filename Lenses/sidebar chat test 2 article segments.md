@@ -22,7 +22,7 @@ Engineers aren’t about to start understanding AIs, not anytime soon. In the mi
 
 #### Article
 source:: [[../articles/wikipedia-existential-risk-from-ai]]
-to:: architecture.<sup>[[27]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-28)</sup>
+to:: {--{"author":"Elias's AI","timestamp":1783851588431}@@architecture.<sup>[[27]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-28)</sup>--}{++{"author":"Elias's AI","timestamp":1783851588431}@@architecture.[[27]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-28)++}
 
 #### Text:
 content:: Before you continue, please chat with the tutor for a bit:
