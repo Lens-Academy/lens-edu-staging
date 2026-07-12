@@ -1,6 +1,8 @@
 ---
 id: 1698e976-ab2e-4f13-b0da-0768345fd2cf
-title: "Isn't AI Different from Nuclear Reactors?"
+{++{"author":"Elias's AI","timestamp":1783849321574}@@tldr: "'AI is nothing like a nuclear reactor, so the Chernobyl comparison is bogus.' Is it? This supplementary Q&A answers the false-analogy objection with five 'curses' that reactors and AI share, and argues AI has it worse, because reactors don't redesign themselves."
+summary_for_tutor: "Supplementary Q&A rebutting the 'false analogy' objection that AI is too different from nuclear reactors for the Chernobyl comparison to hold. The authors identify five shared 'curses' (speed, narrow margins, self-amplification, complications, and edge cases) and argue AI alignment is harder still because, unlike an overheating reactor, an AI can intelligently redesign itself. The lens presents the reading, then a tutor chat asking which curse applies most and least strongly to AI."
+++}title: "Isn't AI Different from Nuclear Reactors?"
 tags:
   - supplementary
 ---
