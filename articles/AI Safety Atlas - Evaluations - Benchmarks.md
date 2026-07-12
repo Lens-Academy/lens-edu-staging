@@ -135,8 +135,8 @@ We have observed the advent of inference scaling laws alongside the rise of larg
 
 That being said, as evaluations are new, benchmarks have been around longer and are also evolving. So at times there is overlap in the way that these words are used. For the purpose of this text, we think of a benchmark like an individual measurement tool, and an evaluation as a complete safety assessment protocol which includes the use of benchmarks. Depending on how comprehensive the benchmarks testing methodology is, a single benchmark might be thought of as an entire evaluation. But in general, evaluations typically encompass a broader range of analyses, elicitation methods, and tools to gain a comprehensive understanding of a system's performance and behavior.
 
----
+{--{"author":"Elias's AI","timestamp":1783851485662}@@---
 
-[^1]:  This is true to a large extent, but as always there is not 100% standardization. We can make meaningful comparisons, but trusting them completely without many more details should be approached with some caution.
+--}[^1]:  This is true to a large extent, but as always there is not 100% standardization. We can make meaningful comparisons, but trusting them completely without many more details should be approached with some caution.
 
 [^2]:  We could have benchmarks in environments populated by other agents. Some RL benchmarks already do this. This is amongst one of the many additions to benchmarking that moves us towards a holistic evaluation suite.
