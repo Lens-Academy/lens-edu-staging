@@ -10,9 +10,9 @@ title: "Governance / Strategy"
 slug:: overview
 
 ## Lens: Week 4 Overview
-id:: c888f72a-fb0e-4b69-982d-0c5100de61b5{++{"author":"Elias's AI","timestamp":1783851398854}@@
+id:: c888f72a-fb0e-4b69-982d-0c5100de61b5
 tldr:: Technical safety is only half the story: who actually steers AGI? This week zooms out to the labs, boards, and states making the real decisions, and asks where along that chain the future of AI genuinely gets decided.
-summary_for_tutor:: Overview lens for Week 4 on governance and strategy. Shifts focus from technical safety to the institutions steering AI: how AI companies make development and deployment decisions, their internal dynamics, how governments shape them, and how powerful states interact over AI development. Flags that the curator holds these recommendations less confidently than earlier weeks. Prompts learners to allocate hypothetical influence across decision-makers (lab leadership, boards, US executive, Congress, Beijing) before reading.++}
+summary_for_tutor:: Overview lens for Week 4 on governance and strategy. Shifts focus from technical safety to the institutions steering AI: how AI companies make development and deployment decisions, their internal dynamics, how governments shape them, and how powerful states interact over AI development. Flags that the curator holds these recommendations less confidently than earlier weeks. Prompts learners to allocate hypothetical influence across decision-makers (lab leadership, boards, US executive, Congress, Beijing) before reading.
 
 #### Text
 content::

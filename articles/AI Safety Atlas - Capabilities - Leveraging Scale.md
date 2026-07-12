@@ -94,6 +94,4 @@ Research showed that performance doesn't always improve smoothly - there can be 
 
 **Despite disagreements about whether scale will lead to “true AGI”, major AI labs are betting heavily on scaling.** Sam Altman from OpenAI has stated his belief that scaling is going to be a big component leading to capability gains ([Altman, 2023](https://openai.com/blog/planning-for-agi-and-beyond)), Anthropic CEO Dario Amodei has expressed similar views ([Amodei, 2023](https://www.dwarkeshpatel.com/p/dario-amodei)) and DeepMind's safety team similarly wrote that "*not many more fundamental innovations are needed for AGI*" ([DeepMind, 2022](https://www.lesswrong.com/posts/GctJD5oCDRxCspEaZ/clarifying-ai-x-risk)). This consensus suggests that regardless of whether strong, weak, or tools-based scaling dominates, scale itself will likely remain central to near-term progress.
 
-{--{"author":"Elias's AI","timestamp":1783851483370}@@---
-
---}[^5]:  This is also commonly called ‘chinchilla optimality’ or the chinchilla optimal frontier based on the original model that these laws were tested on.
+[^5]:  This is also commonly called ‘chinchilla optimality’ or the chinchilla optimal frontier based on the original model that these laws were tested on.

@@ -16,9 +16,9 @@ source:: [[../Learning Outcomes/Explain why default outcome is bad - 101]]
 
 # Lens: Welcome
 id:: e62c6e9d-1191-417b-a99a-546a5bb673b0
-{++{"author":"Elias's AI","timestamp":1783851363381}@@tldr:: Why is aligning AI so hard that even careful, competent teams could still get a catastrophic default outcome? This module assembles the core reasons — the rocket-alignment analogy, why "alignment is hard" feels alien to intuition, and why current training paradigms may make misalignment the norm rather than the exception.
+tldr:: Why is aligning AI so hard that even careful, competent teams could still get a catastrophic default outcome? This module assembles the core reasons — the rocket-alignment analogy, why "alignment is hard" feels alien to intuition, and why current training paradigms may make misalignment the norm rather than the exception.
 summary_for_tutor:: Welcome lens introducing the Fundamental Difficulties module. States that the alignment problem has no proven solution and previews a unified account of why alignment is inherently hard: the rocket-alignment analogy and the need for formal alignment theory, why "alignment is hard" arguments feel counterintuitive to humans, and why misalignment and catastrophe may be the default outcome of scaling current training methods. Lists the guiding questions learners should be able to answer after the module.
-++}#### Text
+#### Text
 content::
 The AI alignment problem currently has no proven solution. This module provides a unified picture of why achieving alignment is inherently challenging. Even with competent participants, the default outcome can be poor, as misalignment may emerge from the very structure of how we train AI systems.
 

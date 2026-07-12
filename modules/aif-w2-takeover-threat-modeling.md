@@ -10,9 +10,9 @@ title: "Misaligned AI Takeover Threat Modeling"
 slug:: overview
 
 ## Lens: Week 2 Overview
-id:: 37e12eec-8945-443e-825f-da978934d4d2{++{"author":"Elias's AI","timestamp":1783851454054}@@
+id:: 37e12eec-8945-443e-825f-da978934d4d2
 tldr:: What does a powerful AI actually "want" — and how could those wants end in takeover? Week 2 shifts from "how fast" to "what could go wrong," and asks you to pin down your own read on today's models before competing theories test it.
-summary_for_tutor:: Opens Week 2 on misaligned AI takeover threat modeling, moving from timelines to failure modes. Lists the week's key questions: what motivations drive powerful AIs, what scheming means precisely, how likely and how dangerous scheming is versus other misaligned motivations, how scheming AIs might take over, and what current models' apparent motivations imply about future ones. Prompts the learner to note their prior intuition about what today's models want before encountering competing frames in the readings.++}
+summary_for_tutor:: Opens Week 2 on misaligned AI takeover threat modeling, moving from timelines to failure modes. Lists the week's key questions: what motivations drive powerful AIs, what scheming means precisely, how likely and how dangerous scheming is versus other misaligned motivations, how scheming AIs might take over, and what current models' apparent motivations imply about future ones. Prompts the learner to note their prior intuition about what today's models want before encountering competing frames in the readings.
 
 #### Text
 content::

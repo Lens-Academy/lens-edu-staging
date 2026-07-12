@@ -1,9 +1,9 @@
 ---
 id: a86e3069-4757-4037-963a-631c2faad280
 title: Sidebar Chat Test (2 Article Segments)
-{++{"author":"Elias's AI","timestamp":1783851617036}@@tldr: "Test lens for the sidebar chat feature with two embedded article segments. Repeated text passages on how AIs are grown by gradient descent rather than hand-crafted alternate with excerpts from Wikipedia's article on existential risk from AI and short tutor-chat checkpoints."
+tldr: "Test lens for the sidebar chat feature with two embedded article segments. Repeated text passages on how AIs are grown by gradient descent rather than hand-crafted alternate with excerpts from Wikipedia's article on existential risk from AI and short tutor-chat checkpoints."
 summary_for_tutor: "Test lens exercising sidebar chat alongside two Article segments. Text blocks repeat passages arguing that AIs are grown by gradient descent and poorly understood (citing the Grok MechaHitler incident and interpretability remarks by Altman, Amodei, and Hassabis). Two excerpts from Wikipedia's 'Existential risk from artificial intelligence' are embedded: the lead section through the intelligence-explosion paragraph, and the 'Potential AI capabilities' section through the AI arms race. Chat checkpoints between segments prompt brief tutor conversation."
-++}tags:
+tags:
   - work-in-progress
 ---
 
@@ -24,7 +24,7 @@ Engineers aren’t about to start understanding AIs, not anytime soon. In the mi
 
 #### Article
 source:: [[../articles/wikipedia-existential-risk-from-ai]]
-to:: {--{"author":"Elias's AI","timestamp":1783851588431}@@architecture.<sup>[[27]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-28)</sup>--}{++{"author":"Elias's AI","timestamp":1783851588431}@@architecture.[[27]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-28)++}
+to:: architecture.[[27]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-28)
 
 #### Text:
 content:: Before you continue, please chat with the tutor for a bit:
@@ -71,7 +71,7 @@ This is not the behavior of people who are carefully creating traditional softwa
 
 #### Article
 from:: ## Potential AI capabilities
-to:: {--{"author":"Elias's AI","timestamp":1783851601499}@@<sup>[[69]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-70)</sup>--}{++{"author":"Elias's AI","timestamp":1783851601499}@@[[69]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-70)++}
+to:: [[69]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-70)
 
 
 #### Text:

@@ -529,9 +529,7 @@ In my mind, “simulator”, like most natural language categories, has fuzzy bo
 | **Human imagination** | X[^31] |  | X | X | X | X |
 | **SimCity** |  | N/A | X | X | X |  |
 
-{--{"author":"Elias's AI","timestamp":1783851599753}@@---
-
---}[^1]: [Prediction and Entropy of Printed English](https://www.princeton.edu/~wbialek/rome/refs/shannon_51.pdf)
+[^1]: [Prediction and Entropy of Printed English](https://www.princeton.edu/~wbialek/rome/refs/shannon_51.pdf)
 
 [^2]: A few months ago, I asked Karpathy whether he ever thought about what would happen if language modeling actually worked someday when he was implementing char-rnn and writing [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/). No, he said, and he seemed similarly mystified as myself as to why not.
 
