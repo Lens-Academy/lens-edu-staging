@@ -1,7 +1,7 @@
 ---
 id: 6ff6313a-418d-4094-811f-10555a49efc9
-{++{"author":"Elias's AI","timestamp":1783850021414}@@tldr: "Finished the book and wondering what to actually do about it? This maps four routes into AI safety work, technical research, governance and policy, advocacy, and field building, with the organizations behind each, so you can find the on-ramp that fits your background."
-++}summary_for_tutor: "Covers career paths in AI safety after completing the IABIED book. Lists four main directions: technical AI safety research (alignment, interpretability), AI governance and policy, advocacy and community building, and field building. Points to 80,000 Hours and names key organizations in each area."
+tldr: "Finished the book and wondering what to actually do about it? This maps four routes into AI safety work, technical research, governance and policy, advocacy, and field building, with the organizations behind each, so you can find the on-ramp that fits your background."
+summary_for_tutor: "Covers career paths in AI safety after completing the IABIED book. Lists four main directions: technical AI safety research (alignment, interpretability), AI governance and policy, advocacy and community building, and field building. Points to 80,000 Hours and names key organizations in each area."
 title: AI Safety Career Paths
 ---
 

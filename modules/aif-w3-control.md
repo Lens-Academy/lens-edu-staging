@@ -10,7 +10,9 @@ title: "Control"
 slug:: overview
 
 ## Lens: Week 3 Overview
-id:: 627d2ce4-01c3-470b-85d3-500e99de6e52
+id:: 627d2ce4-01c3-470b-85d3-500e99de6e52{++{"author":"Elias's AI","timestamp":1783851389075}@@
+tldr:: If you can't prove an AI isn't scheming, can you still deploy it safely? This week enters Redwood Research's home turf: the technical craft of keeping a possibly-adversarial superhuman system contained while still putting it to work.
+summary_for_tutor:: Overview lens for Week 3 on AI control. Frames the week's core question of safely deploying AIs that might be scheming, and previews key concepts: threat models and mitigations, concentrated vs. diffuse failures, high-stakes vs. diffuse control, the current state of control research and how it shifts with more capable AIs, and what comes after control. Notes the Control measures and Empirical research submodules are optional, and prompts learners to record an initial intuition about tractability.++}
 
 #### Text
 content::

@@ -1,7 +1,7 @@
 ---
 id: 5ffa8d76-ed27-4fd0-b423-fa9f8d2b7563
-{++{"author":"Elias's AI","timestamp":1783850028383}@@tldr: "In 1942 Fermi ran the first nuclear chain reaction under a Chicago stadium, with no containment dome, no inspectors, and bricks stacked by high-school dropouts. It did not melt down. Why? Not safety paperwork, but Fermi's exact theoretical grasp of what the pile would do. What does that say about building AI we do not yet understand?"
-++}summary_for_tutor: "Covers the story of Chicago Pile-1, the first sustained nuclear chain reaction in 1942. Fermi's deep theoretical understanding of exponential chain reactions, not safety bureaucracy, prevented disaster. The lesson drawn is that genuine understanding of dangerous processes matters more than procedural safeguards, with implications for AI development where such understanding is lacking."
+tldr: "In 1942 Fermi ran the first nuclear chain reaction under a Chicago stadium, with no containment dome, no inspectors, and bricks stacked by high-school dropouts. It did not melt down. Why? Not safety paperwork, but Fermi's exact theoretical grasp of what the pile would do. What does that say about building AI we do not yet understand?"
+summary_for_tutor: "Covers the story of Chicago Pile-1, the first sustained nuclear chain reaction in 1942. Fermi's deep theoretical understanding of exponential chain reactions, not safety bureaucracy, prevented disaster. The lesson drawn is that genuine understanding of dangerous processes matters more than procedural safeguards, with implications for AI development where such understanding is lacking."
 title: The Tale of Chicago Pile-1
 tags:
   - supplementary

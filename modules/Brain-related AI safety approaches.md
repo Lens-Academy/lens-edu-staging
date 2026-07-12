@@ -21,7 +21,9 @@ source:: [[../Learning Outcomes/Evaluate the case against BCI-type solutions]]
 
 # Lens: Welcome
 id:: 616abdc2-dcad-49f2-89e5-ed74aaa16742
-#### Text
+{++{"author":"Elias's AI","timestamp":1783851390010}@@tldr:: Most AI safety work tries to make the AI safe. What if instead you changed the human — or built AGI on the brain's own learning algorithms? This module covers two brain-related bets: aligning brain-like AGI by reverse-engineering our innate reward system, and closing the human-AI gap through neural interfaces, the "merge," cyborgism, and whole-brain emulation. Loud in public, thin as a safety plan — you leave able to judge when it actually helps.
+summary_for_tutor:: Opening framing lens for the module on brain-related AI safety approaches. Distinguishes two families: (1) brain-like AGI safety, which assumes future AGI is built on the brain's high-level learning algorithms and seeks alignment by reverse-engineering the brain's innate reward/steering system (Byrnes); and (2) BCI-type solutions, which target the human-AI capability and bandwidth gap by changing the human side of the equation — brain-computer interfaces and the "merge," cyborgism, cognitive enhancement, whole-brain emulation, and neural signals as richer feedback for AI. Notes the bulk of the module treats the second family, running through the bet, the landscape, sub-threads (merge and cyborgism; whole-brain emulation and cognitive enhancement), and a critical case against, framing BCI-type solutions as the least-developed AI-safety plan (prominent in public discourse and heavily capitalized as medical technology, yet held as a serious safety bet by only a minority). Framing text only; teaching happens in the following lenses.
+++}#### Text
 content::
 Most AI safety work tries to make the *AI* safe — constrain it, align it, govern it. This module covers **brain-related** approaches, which come in two distinct flavours:
 
