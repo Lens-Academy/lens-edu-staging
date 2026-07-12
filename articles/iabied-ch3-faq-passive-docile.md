@@ -33,6 +33,6 @@ It would be possible *in theory* to build an AI that only ever served as an exte
 
 It would be similarly difficult to make an AI that's capable of completing long-term tasks on its own initiative but only ever uses that initiative exactly as the user intended. Meanwhile, modern AI developers are at the level of control where they poke at AIs and accidentally get MechaHitler or racially inclusive Nazis. They aren't anywhere close to the level of ability they'd need to make an AI that was useful but not driven.
 
-This is the topic we'll turn to next, in Chapter 4.
+This is the topic we'll turn to next, in Chapter 4.{--{"author":"Elias's AI","timestamp":1783851602194}@@
 
----
+-----}

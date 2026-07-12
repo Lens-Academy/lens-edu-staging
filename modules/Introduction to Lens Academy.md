@@ -92,7 +92,9 @@ We will help you figure out your path and teach you what you need to know.
 optional:: true
 source:: [[../Lenses/Four Background Claims]]
 # Lens: 10 reasons
-id:: b2848dd4-5567-4dee-993a-fdb5f4fe2514
+id:: b2848dd4-5567-4dee-993a-fdb5f4fe2514{++{"author":"Elias's AI","timestamp":1783851600455}@@
+tldr:: "We'll never build AGI." "It's far too soon to worry." Before you decide whether AI safety is worth your time, watch Robert Miles walk through ten popular reasons to ignore it, and why each one falls apart.
+summary_for_tutor:: Presents Robert Miles's video adaptation of Stuart Russell's ten common reasons people give for dismissing AI safety (watched 0:00 to 15:37), rebutting each in turn: we'll never build AGI, it's too soon to worry, it's like worrying about overpopulation on Mars, just don't program in bad goals, use no explicit goals at all, and so on. Frames AI safety as the field working to prevent risks from advanced AI. Closing text notes courses are free and links to enrollment.++}
 
 #### Text
 content::

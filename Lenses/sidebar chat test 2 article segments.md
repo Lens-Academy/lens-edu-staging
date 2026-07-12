@@ -69,7 +69,7 @@ This is not the behavior of people who are carefully creating traditional softwa
 
 #### Article
 from:: ## Potential AI capabilities
-to:: <sup>[[69]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-70)</sup>
+to:: {--{"author":"Elias's AI","timestamp":1783851601499}@@<sup>[[69]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-70)</sup>--}{++{"author":"Elias's AI","timestamp":1783851601499}@@[[69]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-70)++}
 
 
 #### Text:
