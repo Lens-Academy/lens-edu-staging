@@ -65,7 +65,9 @@ source:: ![[../Lenses/IABIED - Next Steps with Lens Academy]]
 {>>{"author":"Luc's AI","timestamp":1783723774076}@@Review note: 'AI Safety Career Paths' and 'Next Steps with Lens Academy' were suggested lenses of this Learning Outcome AND are also imported below as hidden card targets (optional+hide). The old auto-import rendered both copies, so both are kept to preserve current behavior — you may want to drop one occurrence.<<}
 
 # Lens: Overview of Optional Resources
-id:: fb9e57fd-6036-4334-b827-2f9520fbcdd9 {>>{"author":"Elias's AI","timestamp":1783777475035}@@replaced hand-typed placeholder id (invalid uuid4 variant) with a fresh uuid4<<}
+id:: fb9e57fd-6036-4334-b827-2f9520fbcdd9 {>>{"author":"Elias's AI","timestamp":1783777475035}@@replaced hand-typed placeholder id (invalid uuid4 variant) with a fresh uuid4<<}{++{"author":"Elias's AI","timestamp":1783851512537}@@
+tldr:: Finished the book? Here's where to go next: two optional resources pointing you toward AI safety career paths and continued learning with Lens Academy.
+summary_for_tutor:: Navigation lens shown after the learner completes the IABIED book. Contains only framing text plus two card links to optional resources, AI Safety Career Paths and Next Steps with Lens Academy; it carries no substantive teaching content of its own.++}
 
 #### Text:
 content::

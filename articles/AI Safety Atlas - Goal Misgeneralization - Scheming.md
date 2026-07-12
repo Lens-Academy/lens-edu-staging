@@ -243,9 +243,9 @@ SGD**'s incremental nature creates barriers to strategic scheming.** Gradient de
 
 **Why this makes scheming less likely:** If training environments have sufficient "slack" and don't optimize intensively enough to detect modest performance differences, then arguments based on subtle advantages or disadvantages may not influence outcomes. This suggests that scheming likelihood depends heavily on how much optimization pressure training actually applies. High-pressure training environments might successfully select against scheming based on speed costs, while low-pressure environments might make essentially random choices regardless of counting arguments or simplicity considerations ([Carlsmith, 2023](https://arxiv.org/abs/2311.08379)).
 
----
+{--{"author":"Elias's AI","timestamp":1783851510853}@@---
 
-[^4]:  Where power seeking or empowerment is defined as the number of future states available to the agent.
+--}[^4]:  Where power seeking or empowerment is defined as the number of future states available to the agent.
 
 [^5]:  Mechanistically this means that instrumentally convergent goals have wider loss basins, and it is more likely that SGD finds an algorithm that satisfies our training objectives due to instrumentally convergent deceptive reasons than due to purely altruistic “saintlike” reasons.
 
