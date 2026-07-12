@@ -5,7 +5,8 @@ author:
 source_url: "https://coefficientgiving.org/research/what-a-compute-centric-framework-says-about-takeoff-speeds/"
 published: 2025-11-18
 created: 2026-07-02
-accessed: 2026-07-02
+accessed: 2026-07-02{++{"author":"Elias's AI","timestamp":1783847982477}@@
+allowUnreachableUrl: true {>>{"author":"Elias's AI","timestamp":1783847982477}@@source_url returns HTTP 403 to the validator (Cloudflare bot block) but works in a browser. Note: 13 embedded coefficientgiving.org images also 403 to the validator — if they're broken for learners too, they need re-hosting; this flag only covers the source_url warning<<}++}
 description: "Editor’s note: This article was published under our former name, Open Philanthropy. Some content may be outdated. You can see our latest writing here. This is Part 0 of a four-part report — see links to Part 1. Part 2. Part 3, and a folder with more materials. Abstract In the next few decades we may […]"
 tags:
   - "article-importer"
