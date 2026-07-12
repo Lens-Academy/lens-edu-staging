@@ -32,7 +32,7 @@ Our target flow for reading the book looks like:
 1. Pre-questions - we prime you with an interesting question before you read
 2. Reading - you read a section of the book
 3. Tutor discussion - you come back and answer some questions and discuss with the AI tutor
-4. (Optio{--{"author":"Lorenzo Satta Chiris","timestamp":1781726179314}@@i--}nal) Exploration - the tutor will suggest additional topics you might want to explore based on the conversation so far.
+4. (Optional) Exploration - the tutor will suggest additional topics you might want to explore based on the conversation so far.
 
 \### Community 
 We hope this book club will also help grow the AI safety community. Some of these topics are counterintuitive, scary, and maybe even depressing. We hope working through this material with a group of like-minded individuals will give you the opportunity to give and receive support in working through this challenging problem. We also notice that it takes most people time to find their niche for contributing to AI safety. An important part of that exploration process is meeting others in the community, having conversations, and learning what different groups and organizations are up to. Take the opportunity to start building your network during this course by staying active between meetings.
