@@ -102,9 +102,9 @@ Models might fail not because our detection mechanisms are bad, they fail becaus
 
 We give more examples of control evaluations, what they target, when they are effective/ineffective in a dedication section.
 
----
+{--{"author":"Elias's AI","timestamp":1783851492844}@@---
 
-[^3]:  A big issue for propensity evaluations is to remove the confounding effect from having various capability levels. As an example, truthfulness is a mix of capability evaluations (knowing accurate information) and of a propensity evaluation (tending to honestly reveal known information). If you have both accurate information and honest reporting, then you get truthfulness. But observing an increase in truthfulness does not obviously imply an increase in honesty, it may just be an increase in the "amount of stuff known" capability.
+--}[^3]:  A big issue for propensity evaluations is to remove the confounding effect from having various capability levels. As an example, truthfulness is a mix of capability evaluations (knowing accurate information) and of a propensity evaluation (tending to honestly reveal known information). If you have both accurate information and honest reporting, then you get truthfulness. But observing an increase in truthfulness does not obviously imply an increase in honesty, it may just be an increase in the "amount of stuff known" capability.
 
 [^4]:  Sometimes, but not always desirable sadly. In the dangerous capability eval for RE-Bench ([METR, 2024](https://arxiv.org/abs/2411.15114)). Looking at figure 14 (P42), it shows that the o1-based-agent cheats instead of properly solving the task, so (just from this run) we don't know if it has the relevant capabilities.
 
