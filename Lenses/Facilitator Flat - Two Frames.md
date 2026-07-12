@@ -1,6 +1,8 @@
 ---
 id: 8ccce108-f78d-4d92-a68a-f45bba2646db
-title: "1.4 Two postures worth knowing about"
+{++{"author":"Elias's AI","timestamp":1783849305517}@@tldr: "Two postures experienced facilitators lean on: 'lead from behind' rather than from the front, and tracking four things at once (yourself, the speaker, the group, and the context). Which one are you already doing without noticing?"
+summary_for_tutor: "Presents two facilitation concepts from The Authentic Facilitator. 'Lead from behind' means picturing yourself standing behind the group and pointing forward at the material as a fellow traveller who knows the route slightly better, rather than standing at the front doing most of the talking. The 'four leadership perspectives' are the things a facilitator tracks at once: themselves (are you clear and regulated), the individual speaking (what they need now), the group (its energy and who has not spoken), and the context (where you are in the session arc and how much time is left). Notes that beginners typically track one or two at a time and develop the capacity to hold all four."
+++}title: "1.4 Two postures worth knowing about"
 tags:
   - facilitator-training
 ---
