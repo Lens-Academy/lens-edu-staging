@@ -1,6 +1,8 @@
 ---
 id: e7708a1f-3d6d-43be-b994-574222b8bcc8
-title: "1.3 What a facilitator isn't (and isn't responsible for)"
+{++{"author":"Elias's AI","timestamp":1783849135883}@@tldr: "You don't have to know more than your participants — several may know more than you. So what are you actually on the hook for? This lens draws the boundaries of the role: not teacher, not therapist, not just a host, not responsible for every outcome, and then names the few things that genuinely are yours to hold."
+summary_for_tutor: "Defines the facilitator role by its limits: not a teacher (expertise isn't the job, process is), not a therapist (make room for emotion — AI safety is unusually emotional material — but name and witness rather than resolve, and signpost off-ramps for what's too big), not merely a likable host (warmth is a side effect, not the goal, and optimising for being liked stops you pushing on weak claims), not responsible for every participant's engagement, and not anyone's boss. Then lists what the facilitator IS responsible for: a safe-enough space, time used to serve learning, weak claims not passing unexamined, balanced airtime, and a session with a clear beginning, middle, and end."
+++}title: "1.3 What a facilitator isn't (and isn't responsible for)"
 tags:
   - facilitator-training
 ---
