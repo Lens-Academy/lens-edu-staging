@@ -10,7 +10,9 @@ title: "Timelines & Takeoff Modeling"
 slug:: overview
 
 ## Lens: Welcome
-id:: 518ee434-6170-4352-81b7-b417dc2e6d9a
+id:: 518ee434-6170-4352-81b7-b417dc2e6d9a{++{"author":"Elias's AI","timestamp":1783851436004}@@
+tldr:: A four-week tour of frontier AI's biggest open questions — how fast it's coming, what could go wrong, what we can do, and who decides. Built from Redwood Research's reading list, it hands you the frames practitioners actually use and asks you to argue back.
+summary_for_tutor:: Course-welcome lens for AI Futurism, a four-week course on frontier AI development dynamics based on Alexa Pan's reading list for Redwood Research's Astra Strategy Fellowship. States the course introduces conceptual frames and hypotheses practitioners find promising or that have endured, and urges the learner to interrogate each thesis against recent evidence. Outlines the four weeks (timelines and takeoff, takeover threat modeling, control, governance) plus an optional fifth extended-readings module.++}
 
 #### Text
 content::
