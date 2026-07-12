@@ -47,7 +47,9 @@ assessment-instructions:: Any sincere answer is fine; ask one short follow-up qu
 
 # Lens: Mixed page — chat, required question, optional question
 id:: 50db9d6d-b7ca-461b-85a2-284e5fb35a7f
-min_chat_messages:: 1
+{++{"author":"Elias's AI","timestamp":1783851476673}@@tldr:: Test lens: a mixed page combining a chat, a required question, and an optional question, checking that only the required items gate completion while on-page numbering stays correct.
+summary_for_tutor:: Internal gating test lens. Verifies that on a page with a chat, a required question, and an optional question, only the message minimum and required question appear in the completion list while the optional question is excluded but still counted in on-page numbering. Not part of any course.
+++}min_chat_messages:: 1
 
 #### Text
 content::

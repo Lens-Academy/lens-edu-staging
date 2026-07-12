@@ -161,8 +161,8 @@ Language models have provided a core around which we have seen many impressive c
 
 *Figure 1.23: Amazon has a huge fleet of robots that automate it’s warehouses. This is an example of the Hercules robot that retrieves shelves of products and delivers them to employees, who then pick the items customers ordered for shipping ([Amazon, 2023](https://www.aboutamazon.com/news/operations/amazon-hercules-robot)).*
 
----
+{--{"author":"Elias's AI","timestamp":1783851477941}@@---
 
-[^1]:  KataGo is a system which is based on techniques used by DeepMind's AlphaGo Zero and similarly superhuman in its game play. In 2022, researchers managed to demonstrate that despite being superhuman KataGo can be beaten by humans and demonstrates "surprising failure modes" of AI systems. This is the kind of thing that will be a repeated theme throughout our text ([Wang and Gleave et al., 2022](https://arxiv.org/abs/2211.00241))
+--}[^1]:  KataGo is a system which is based on techniques used by DeepMind's AlphaGo Zero and similarly superhuman in its game play. In 2022, researchers managed to demonstrate that despite being superhuman KataGo can be beaten by humans and demonstrates "surprising failure modes" of AI systems. This is the kind of thing that will be a repeated theme throughout our text ([Wang and Gleave et al., 2022](https://arxiv.org/abs/2211.00241))
 
 [^2]:  Standards like the Model Context Protocol (MCP) are formalizing how AI assistants connect to data repositories and development environments ([Anthropic, 2024](https://www.anthropic.com/news/model-context-protocol)). The MCP protocol has been donated to the Linux foundation([Anthropic, 2025](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation)).

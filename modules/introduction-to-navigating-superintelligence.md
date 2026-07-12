@@ -10,7 +10,9 @@ source:: [[../Learning Outcomes/Objections L1 - Realize objections and rebuttals
 
 # Lens: Welcome
 id:: a1b2c3d4-5678-90ab-cdef-1234567890ab
-#### Text
+{++{"author":"Elias's AI","timestamp":1783851478465}@@tldr:: What does the potential of AI actually mean for humanity, and where do its risks and opportunities come from? This opening lens sets up the module's examination of the technology's defining characteristics.
+summary_for_tutor:: Short welcome lens introducing the module: it frames the examination of AI's potential and the risks and opportunities arising from the technology's characteristics. Framing text only; substantive teaching happens in the following lenses.
+++}#### Text
 content::
 We begin by examining the potential of AI and the risks and opportunities that the characteristics of this technology present to humanity.
 
