@@ -65,6 +65,6 @@ If that's going to change, it needs to start with more people seeing the situati
 
 *This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
 
----
+{--{"author":"Elias's AI","timestamp":1783851606914}@@---
 
-[^1]: "I am forecasting more than a 10% chance transformative AI will be developed within 15 years (by 2036); a ~50% chance it will be developed within 40 years (by 2060); and a ~2/3 chance it will be developed this century (by 2100)."
+--}[^1]: "I am forecasting more than a 10% chance transformative AI will be developed within 15 years (by 2036); a ~50% chance it will be developed within 40 years (by 2060); and a ~2/3 chance it will be developed this century (by 2100)."
