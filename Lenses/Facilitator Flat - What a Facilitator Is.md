@@ -1,6 +1,8 @@
 ---
 id: 4657896e-a2b1-4a39-aeca-e555108213c6
-title: "1.3 What a facilitator isn't (and isn't responsible for)"
+{++{"author":"Elias's AI","timestamp":1783849309684}@@tldr: "Knowing your role as a facilitator means knowing where it ends. You're not the expert, not there to resolve people's emotions, not just a genial host, and not responsible for every outcome. You are responsible for the space, the time, and holding weak claims to account."
+summary_for_tutor: "Clarifies the boundaries of the facilitator role by stating what a facilitator is not: not the subject-matter expert (the job is process, not expertise), not there to resolve participants' emotions but to make space for them, not merely a likeable host (warmth should not slide into letting weak claims pass), not responsible for every outcome, and not the participants' boss. Then lists what the facilitator is responsible for: a space safe enough for honest contribution, time used to serve the group's learning, weak claims getting examined even when popular, every voice getting enough room, and a session with a clear beginning, middle, and end."
+++}title: "1.3 What a facilitator isn't (and isn't responsible for)"
 tags:
   - facilitator-training
 ---
