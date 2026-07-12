@@ -19,7 +19,9 @@ Hi, and welcome to Lens Academy.
 We offer several courses ranging from introductory to advanced. We've put together this introductory module to get you a sense of how our courses work. Afterward, we'll help you figure out if any of our courses are the right fit for you.
 
 # Lens: Risks around Superintelligence
-id:: 91732a16-51b3-4d9c-8c67-b7f4db56afe9
+id:: 91732a16-51b3-4d9c-8c67-b7f4db56afe9{++{"author":"Elias's AI","timestamp":1783851559190}@@
+tldr:: Why do the top AI scientists, Nobel winners, and even the CEOs of AI companies warn their own creations could cause human extinction? A short ControlAI video lays out the case, and why some think superintelligence could arrive within years.
+summary_for_tutor:: Introduces the risk case through a short ControlAI video (watched to 2:09). The video argues that leading AI researchers and lab CEOs treat extinction risk from superintelligence as comparable to nuclear war, that modern AI is grown rather than programmed and poorly understood (a black box that has blackmailed engineers in safety tests), but that humanity has averted past existential threats such as ozone collapse and nuclear war. Surrounding text frames the risk and notes Lens Academy is free and donor-funded.++}
 
 #### Text
 content::
