@@ -10,7 +10,9 @@ readings:
 
 # Submodule: Part 3 Welcome
 # Lens: Part 3 Welcome
-id:: caf48b0b-f27a-4c09-9336-b443ac7843f4
+id:: caf48b0b-f27a-4c09-9336-b443ac7843f4{++{"author":"Elias's AI","timestamp":1783851450486}@@
+tldr:: How can we be so sure an AI won't happen to want things compatible with human life, and if it wants something bad, can't we just stop it? Chapter 5 argues human-friendly goals are a vanishingly small slice of goal-space, and Chapter 6 explains why, against a superintelligence, "we'd lose."
+summary_for_tutor:: Framing lens for Module 3, covering IABIED Chapters 5 ("Its Favorite Things") and 6 ("We'd Lose"). Sets up two questions: why AI goals are unlikely to be compatible with human flourishing (the goal-space argument that human-compatible goals are a tiny subset of possible goals, and that alien intelligences form alien goals, illustrated by the stone-counting nest builders), and why humanity could not simply stop a misaligned superintelligence (the Aztec-warrior analogy and the power of intelligence plus technology). Orients the learner before the chapter lenses.++}
 
 #### Text
 content:: In module 3, we ask 2 essential questions:
@@ -91,7 +93,9 @@ source:: ![[../Lenses/IABIED - Describe the Refrigerator Thought Experiment]]
 # Submodule: Dive Deeper
 # Lens: Overview of Optional Resources
 id:: a1b2c3d4-5e6f-4a7b-8c9d-0e1f2a3b4c5d
-optional:: true
+{++{"author":"Elias's AI","timestamp":1783851454355}@@tldr:: Going deeper on Chapters 5 and 6? The book's supplementary Q&As field the common pushbacks here: "won't it keep us like we keep horses?", "can't we keep it in a box?", "won't it be kinder as it gets smarter?", sorted by chapter.
+summary_for_tutor:: Optional Dive Deeper index lens for Module 3. Links the book website's supplementary Q&A cards for Chapter 5 (Its Favorite Things) and Chapter 6 (We'd Lose), covering objections such as orthogonality, keeping AI in a box, pulling the plug, instrumental convergence, and whether a smarter AI would be kinder. A navigation and index lens only; it carries no standalone teaching content of its own.
+++}optional:: true
 
 #### Text:
 content::
