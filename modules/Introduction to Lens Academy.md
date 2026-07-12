@@ -10,7 +10,9 @@ tags:
 
 # Lens: Welcome
 id:: 165778a5-70eb-4800-a29a-3d23160a691f
-#### Text
+{++{"author":"Elias's AI","timestamp":1783851549706}@@tldr:: New here? This quick introductory module shows you how Lens Academy courses work and helps you figure out whether any of them fit you, before you commit to one.
+summary_for_tutor:: Opening welcome lens for the introductory module. Framing text only: greets the learner, notes that Lens Academy offers free courses ranging from introductory to advanced, and states the module's purpose of previewing how courses work and helping the learner assess whether a course is the right fit.
+++}#### Text
 content::
 Hi, and welcome to Lens Academy. 
 

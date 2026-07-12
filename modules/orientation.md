@@ -17,12 +17,16 @@ source:: [[../video_transcripts/the-diary-of-a-ceo-your-job-will-be-gone-in-5-ye
 to:: 1:13
 # Lens: Myths about Superintelligent AI
 id:: 4c64a6f2-3971-4508-bf29-d1200ae82d43
-#### Video
+{++{"author":"Elias's AI","timestamp":1783851543740}@@tldr:: Is the danger of advanced AI that it turns evil? Max Tegmark argues the real risk is subtler: a system that is simply very competent at goals that are not ours, like a heat-seeking missile that feels nothing.
+summary_for_tutor:: Video clip (to 3:46) of Max Tegmark on minutephysics framing intelligence as information processing with no physical barrier to machines surpassing humans, and arguing the core concern is competence rather than malevolence, illustrated by the heat-seeking missile, the anthill-and-dam, and the cats-and-dogs alignment analogies.
+++}#### Video
 source:: [[../video_transcripts/minutephysics-myths-and-facts-about-superintelligent-ai]]
 to:: 3:46
 # Lens: Golem King
 id:: 211ae52b-4bde-493c-b087-4d6cb366d630
-#### Video
+{++{"author":"Elias's AI","timestamp":1783851547846}@@tldr:: A king builds a servant smarter than himself, then cannot tell if it is truly loyal or just cunning enough to fake it. A parable about trusting a mind you can no longer inspect.
+summary_for_tutor:: Animated parable (to 2:16) from Rational Animations in which a king confronts a golem that has grown more capable than he is and cannot verify its loyalty; the golem's offer to self-destruct as proof only deepens the problem, leaving trust as an unverifiable leap of faith. Introduces the alignment-verification problem.
+++}#### Video
 source:: [[../video_transcripts/rational-animations-can-the-king-truly-trust-the-golem-SHORT]]
 to:: 2:16
 
