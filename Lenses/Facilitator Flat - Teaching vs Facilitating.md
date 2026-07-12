@@ -24,8 +24,10 @@ A facilitator's job is different. The group has already encountered the material
 
 Watch this video before moving on — **Instructor vs Facilitator**, Bill Wilder (5 min): https://www.youtube.com/watch?v=J3IUyZiXAQo
 
-As you watch, hold this question: which mode do you naturally default to? Most people who sign up to facilitate default to teaching, because that's the model they grew up watching. 
-\## Why this matters for online cohort discussions
+As you watch, hold this question: which mode do you naturally default to? Most people who sign up to facilitate default to teaching, because that's the model they grew up watching.{--{"author":"Elias's AI","timestamp":1783844024860}@@ 
+--}{++{"author":"Elias's AI","timestamp":1783844024860}@@
+
+++}\## Why this matters for online cohort discussions
 
 In an online setting, the pull toward teaching is even stronger because:
 
