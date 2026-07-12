@@ -1,6 +1,7 @@
 ---
 id: 45b0200a-45ab-4db9-a754-54e7bd96fa66
-title: "Will elected officials recognize this as a real threat?"
+{++{"author":"Elias's AI","timestamp":1783851003246}@@summary_for_tutor: "Presents the book's Chapter 13 FAQ arguing that elected officials are increasingly recognizing AI as a genuine existential threat. The reading compiles statements from U.S. officials across both parties -- from Trump and Schumer to Blumenthal, Mace, Sanders, and others -- plus UN Secretary-General Antonio Guterres, and contends the major impediment is getting officials to understand the threat rather than persuading them to care once they do. A reflection prompt follows, then a tutor chat probes whether the bipartisan nature of the concern is surprising and what it would take for official recognition to translate into actual policy action."
+++}title: "Will elected officials recognize this as a real threat?"
 tldr: "An increasing number already have."
 tags:
   - supplementary
