@@ -1,8 +1,8 @@
 ---
 id: f7fcdacd-3211-4ddd-ab43-22c0cc70ae83
-{++{"author":"Elias's AI","timestamp":1783849161162}@@tldr: "Can you say, in your own words, what a facilitator's job is and how it differs from a teacher's? This closing exercise has you write it out, five to eight sentences, for your eyes only. If you can't articulate the distinction, you don't yet own it."
+tldr: "Can you say, in your own words, what a facilitator's job is and how it differs from a teacher's? This closing exercise has you write it out, five to eight sentences, for your eyes only. If you can't articulate the distinction, you don't yet own it."
 summary_for_tutor: "A private reflection exercise closing Module 1 of facilitator training. Asks the learner to write a 5 to 8 sentence paragraph, in their own words, on what a facilitator's job is and how it differs from a teacher's, plus one situation likely to pull them out of the facilitator role and its trigger. The writing is not shared; its purpose is to confirm the learner can articulate the facilitator/teacher distinction before continuing. The lens consists of this single text prompt."
-++}title: "Closing exercise"
+title: "Closing exercise"
 tags:
   - facilitator-training
 ---

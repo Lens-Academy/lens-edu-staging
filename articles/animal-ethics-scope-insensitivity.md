@@ -4,8 +4,8 @@ source_url: https://www.animal-ethics.org/scope-insensitivity-failing-to-appreci
 author:
   - Animal Ethics
 published: 2016-01-01
-created: 2026-05-28{++{"author":"Elias's AI","timestamp":1783847980050}@@
-allowUnreachableUrl: true {>>{"author":"Elias's AI","timestamp":1783847980050}@@source_url returns HTTP 403 to the validator (bot block) but works in a browser — allowing it to silence the warning<<}++}
+created: 2026-05-28
+allowUnreachableUrl: true {>>{"author":"Elias's AI","timestamp":1783847980050}@@source_url returns HTTP 403 to the validator (bot block) but works in a browser — allowing it to silence the warning<<}
 description: An examination of scope insensitivity — the cognitive bias that causes us to respond similarly to large and small numbers of victims — and its implications for how we think about helping others.
 tags:
   - ea-intro-program

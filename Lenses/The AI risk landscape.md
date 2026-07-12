@@ -1,8 +1,8 @@
 ---
 id: 40426a24-f8b2-4f73-9a00-ba55aa6834cd
-{++{"author":"Elias's AI","timestamp":1783849653363}@@tldr: "Alignment is only one corner of AI safety. This lens maps the wider terrain (autonomous misaligned AI, misuse for destruction, misuse for seizing power, and gradual disempowerment) and pins down the distinction people most often blur: an AI's own goals going wrong versus a human pointing an obedient AI at harm."
+tldr: "Alignment is only one corner of AI safety. This lens maps the wider terrain (autonomous misaligned AI, misuse for destruction, misuse for seizing power, and gradual disempowerment) and pins down the distinction people most often blur: an AI's own goals going wrong versus a human pointing an obedient AI at harm."
 summary_for_tutor: "Situates AI alignment within the broader AI risk landscape. Presents the main risk categories (autonomous misaligned AI, AI misuse for destruction, AI misuse for seizing power, concentration of power or global totalitarianism, and gradual disempowerment) with links to source readings. It stresses the misalignment-versus-misuse distinction: misalignment is the AI's own goals diverging from human wishes, while misuse is a human directing an AI, often one aligned to that human, toward harm, which can make it misaligned with the developer. An optional chat helps the learner keep the categories distinct and probes why gradual disempowerment is troubling even if technical alignment is solved."
-++}title: The AI risk landscape
+title: The AI risk landscape
 ---
 #### Text
 content:: There are many AI safety problems. [[../Lenses/darioamodei-dario-amodei-the-adolescence-of-technology|The adolescence of technology]] is an opinionated introduction to these risks, including:

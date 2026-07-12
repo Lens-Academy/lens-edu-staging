@@ -1,8 +1,8 @@
 ---
 id: 1c52ef6d-66ad-4dbd-a930-02a1a24d115b
-{++{"author":"Elias's AI","timestamp":1783849111245}@@tldr: "Can you design the first five minutes of a session on purpose? This closing exercise has you draft a specific Think-Pair-Share opener, name the learning mechanism it leverages, and pin down one tempting move to avoid — ideally for a real session you're about to run."
+tldr: "Can you design the first five minutes of a session on purpose? This closing exercise has you draft a specific Think-Pair-Share opener, name the learning mechanism it leverages, and pin down one tempting move to avoid — ideally for a real session you're about to run."
 summary_for_tutor: "A reflection exercise closing Module 2. The facilitator-in-training writes, for themselves, one specific Think-Pair-Share opening question for a hypothetical or real upcoming 45-minute session, identifies which mechanism from §2.1 (generation effect, elaboration, or both) it leverages, and names one thing they would deliberately not do at the session's opening. Emphasizes that planning the first five minutes is the highest-leverage preparation."
-++}title: "Closing exercise"
+title: "Closing exercise"
 tags:
   - facilitator-training
 ---

@@ -1,8 +1,8 @@
 ---
 id: 96963c09-381d-419a-9245-012157347d66
-{++{"author":"Elias's AI","timestamp":1783849390699}@@tldr: "Every alarm about AI, the authors argue, is raised first by the most easily panicked person -- correctly dismissed as premature -- and then can never be raised again, because everyone has learned to roll their eyes at it. So what happens when the danger finally is real? Named after the engineer mocked for calling Google's chatbot sentient."
+tldr: "Every alarm about AI, the authors argue, is raised first by the most easily panicked person -- correctly dismissed as premature -- and then can never be raised again, because everyone has learned to roll their eyes at it. So what happens when the danger finally is real? Named after the engineer mocked for calling Google's chatbot sentient."
 summary_for_tutor: "Explains the 'Lemoine effect,' named after Blake Lemoine, the Google engineer ridiculed for claiming LaMDA was sentient: alarms about AI are first raised too early by the most easily alarmed people, correctly dismissed given current technology, then can no longer be raised even as the technology improves because society has been trained to dismiss them. The authors note that AIs have already shown deception, escape, and self-modification in small, unimpressive ways that inoculate researchers against concern, and warn there may be no bright-line 'warning shot.' The student then discusses other examples of the effect and how society should decide when to act absent a clear warning."
-++}title: "The Lemoine Effect"
+title: "The Lemoine Effect"
 tags:
   - supplementary
 ---
