@@ -1,6 +1,8 @@
 ---
 id: 86d47f85-7c87-496d-bc24-02803110bfde
----
+{++{"author":"Elias's AI","timestamp":1783849331179}@@tldr: "The book's authors answered the objections their argument invites. This page collects the optional Q&As for Chapters 10 and 11, from whether alignment is all-or-nothing to what shutdown buttons would really take, so you can follow whichever threads pull at you."
+summary_for_tutor: "Index page listing the optional supplementary Q&A lenses tied to Module 5's reading. Groups them by source chapter: Chapter 10 (A Cursed Problem) and Chapter 11 (An Alchemy, Not a Science), with each card linking to a standalone Q&A lens drawn from the book's online resources. Navigational only; it contains no reading content of its own."
+++}---
 
 #### Text
 content::
