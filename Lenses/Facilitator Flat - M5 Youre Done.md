@@ -1,6 +1,8 @@
 ---
 id: 6198bb0f-cc5c-4ee2-a9bc-f9d0a6a6c35b
-title: "You're done"
+{++{"author":"Elias's AI","timestamp":1783849246739}@@tldr: "You've reached the end — but the real learning starts now. Facilitation is a craft you'll be bad at before you're good at it, and the rest is just reps. Here are a few parting habits, from keeping a tiny post-session journal to comparing notes with other facilitators, that turn practice into skill."
+summary_for_tutor: "The closing lens of the facilitator training course. Reinforces that the trainee now has the conceptual baseline of facilitation and that further skill comes from practice. Offers four parting habits: expect the first session to diverge from the plan and run it anyway, keep a short post-session journal of one thing that worked and one to change, talk to other facilitators to learn moves, and be self-compassionate while developing the craft."
+++}title: "You're done"
 tags:
   - facilitator-training
 ---
