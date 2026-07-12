@@ -1,6 +1,7 @@
 ---
 id: e11c9013-82d7-4048-a0aa-be15533e4350
-title: Sources of advantage for digital agents over biological agents
+{++{"author":"Elias's AI","timestamp":1783851353146}@@summary_for_tutor: "Presents Bostrom's catalogue, excerpted from 'Superintelligence', of advantages digital minds could hold over biological ones. The reading lists hardware advantages, including speed of computational elements (neurons ~200 Hz vs microprocessors ~2 GHz), internal communication speed (axons vs light-speed signaling), number of computational elements, storage capacity, and reliability/lifespan/sensors, then software advantages: editability, duplicability, goal coordination among 'copy clans', memory sharing via file swaps, and new specialized modules and algorithms. A prompt before the reading asks the learner to brainstorm further advantages and one after invites questions; the tutor chat checks that the learner can explain at least two advantages in their own words, explores how each could yield a decisive edge, and asks how humans might keep up."
+++}title: Sources of advantage for digital agents over biological agents
 tldr: Speed is the obvious advantage, but it's only the beginning. Digital agents could share memories, coordinate perfectly with copies of themselves, swap in specialized modules, and never lose information. This reading catalogues the ways artificial minds could differ from biological ones — not just in degree, but in kind.
 ---
 #### Text
