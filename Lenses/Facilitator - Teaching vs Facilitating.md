@@ -5,7 +5,7 @@ tags:
   - facilitator-training
 ---
 #### Text
-content:: A teacher's job is to **transfer knowledge**. The teacher is the source{++{"author":"Anshuman","timestamp":1782667590112}@@ of information++}{--{"author":"Anshuman","timestamp":1782667588471}@@. --}Success looks like: at the end of the class, students know what the teacher knew at the start.
+content:: A teacher's job is to **transfer knowledge**. The teacher is the source of informationSuccess looks like: at the end of the class, students know what the teacher knew at the start.
 
 A facilitator's job is to **help a group think together** about material they've already encountered. The facilitator is not the source of the knowledge; success looks like: at the end of the session, participants understand the material better than they could have alone — and feel more grounded in what they want to do about it. The group helps each other both interrogate the ideas and locate themselves in relation to them.
 
