@@ -1,10 +1,10 @@
 ---
 title: "Why China isn’t about to leap ahead of the West on compute"
 author:
-  - "Veronika Blablová"{++{"author":"Elias's AI","timestamp":1783843119446}@@
-  - "Robi Rahman"++}
+  - "Veronika Blablová"
+  - "Robi Rahman"
 source_url: "https://epoch.ai/gradient-updates/why-china-isnt-about-to-leap-ahead-of-the-west-on-compute"
-published: {--{"author":"Elias's AI","timestamp":1783843119446}@@2026-07-02--}{++{"author":"Elias's AI","timestamp":1783843119446}@@2025-07-26++} {>>{"author":"Elias's {--{"author":"Elias's AI","timestamp":1783843119446}@@AI","timestamp":1783776897155}@@published date unverifiable from body, used import date; note article's image asset paths say 2025, so true date is likely 2025<<}--}{++{"author":"Elias's AI","timestamp":1783843119446}@@AI","timestamp":1783843119446}@@date and second author verified from the live epoch.ai byline on 2026-07-12<<}++}
+published: 2025-07-26 {>>{"author":"Elias's AI","timestamp":1783843119446}@@date and second author verified from the live epoch.ai byline on 2026-07-12<<}
 created: 2026-07-02
 accessed: 2026-07-02
 description: "Chinese hardware is closing the gap, but major bottlenecks remain"

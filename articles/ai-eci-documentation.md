@@ -3,8 +3,7 @@ title: "ECI Documentation"
 author:
   - "Epoch AI"
 source_url: "https://epoch.ai/data/eci-documentation"
-{--{"author":"Elias's AI","timestamp":1783843125501}@@published:--}{++{"author":"Elias's AI","timestamp":1783843125501}@@created:++} 2026-07-02 {>>{"author":"Elias's {--{"author":"Elias's AI","timestamp":1783843125501}@@AI","timestamp":1783776878075}@@published date unverifiable, used--}{++{"author":"Elias's AI","timestamp":1783843125501}@@AI","timestamp":1783843125501}@@removed published field: the source page shows no publication date, and the previous value was the++} import {--{"author":"Elias's AI","timestamp":1783843125501}@@date<<}
-created: 2026-07-02--}{++{"author":"Elias's AI","timestamp":1783843125501}@@date shown to learners as a byline<<}++}
+created: 2026-07-02 {>>{"author":"Elias's AI","timestamp":1783843125501}@@removed published field: the source page shows no publication date, and the previous value was the import date shown to learners as a byline<<}
 accessed: 2026-07-02
 description: "Documentation for the Epoch Capabilities Index (ECI), a composite metric that combines scores from many AI benchmarks into a single capability scale, including the domain-specific ECI."
 tags:
