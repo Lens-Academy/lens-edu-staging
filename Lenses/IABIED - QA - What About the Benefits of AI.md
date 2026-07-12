@@ -1,6 +1,7 @@
 ---
 id: 7def2853-26e1-4568-8223-0439095711a8
-title: "What about the benefits of AI?"
+{++{"author":"Elias's AI","timestamp":1783851321341}@@summary_for_tutor: "A supplementary Q&A from 'If Anyone Builds It, Everyone Dies' addressing the objection that halting AI development sacrifices its benefits. The reading argues the authors genuinely value superintelligence's potential (Yudkowsky spent years as an accelerationist) but that racing to build it without solving alignment yields nothing or worse, so 'now or never' is a false dichotomy. It counters the claim that delay costs the lives of the sick and dying by noting a rogue superintelligence would kill those same people, and points to biomedical research, narrow AI, and brain preservation as safer routes to the same goals. A reflection prompt and tutor chat then ask whether the authors take the opportunity cost seriously and how Yudkowsky's accelerationist past colors the argument."
+++}title: "What about the benefits of AI?"
 tldr: "Rushing ahead destroys those benefits."
 tags:
   - supplementary
