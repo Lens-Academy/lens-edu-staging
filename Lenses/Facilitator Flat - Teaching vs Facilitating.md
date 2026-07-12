@@ -5,13 +5,13 @@ tags:
   - facilitator-training
 ---
 #### Text
-content:: {>>{"author":"Ignacio","timestamp":1781461167835}@@General comment: the time estimate (2m) doesn't include the time of watching the video (5m). It would be good if videos or other external materials are included in the time estimate, for those who plan around these.<<}A teacher's job is to **transfer knowledge**.{>>{"author":"Anshuman","timestamp":1782656834219}@@Half cut irrelevant sentence<<}{++{"author":"Elias's AI","timestamp":1783844009815}@@ ++}The teacher holds the information, and success means that by the end of the class, students carry what the teacher knew at the start.
+content:: {>>{"author":"Ignacio","timestamp":1781461167835}@@General comment: the time estimate (2m) doesn't include the time of watching the video (5m). It would be good if videos or other external materials are included in the time estimate, for those who plan around these.<<}A teacher's job is to **transfer knowledge**.{>>{"author":"Anshuman","timestamp":1782656834219}@@Half cut irrelevant sentence<<} The teacher holds the information, and success means that by the end of the class, students carry what the teacher knew at the start.
 
-A facilitator's job is different. The group has already encountered the material before walking into the session, and your role is to help them think through it {--{"author":"Elias's AI","timestamp":1783844014511}@@together.A--}{++{"author":"Elias's AI","timestamp":1783844014511}@@together. A++} facilitator is not the source of the knowledge. {--{"author":"Elias's AI","timestamp":1783844014511}@@Here --}{++{"author":"Elias's AI","timestamp":1783844014511}@@Success looks like: at ++}the {--{"author":"Elias's AI","timestamp":1783844014511}@@success means that--}{++{"author":"Elias's AI","timestamp":1783844014511}@@end of the session,++} participants {--{"author":"Elias's AI","timestamp":1783844014511}@@leave with a much clear understanding of the material--}{++{"author":"Elias's AI","timestamp":1783844014511}@@understand the material better than they could have alone,++} and {--{"author":"Elias's AI","timestamp":1783844014511}@@with a strong sense of--}{++{"author":"Elias's AI","timestamp":1783844014511}@@feel more grounded in++} what they want to do {--{"author":"Elias's AI","timestamp":1783844014511}@@with--}{++{"author":"Elias's AI","timestamp":1783844014511}@@about++} it.{--{"author":"Elias's AI","timestamp":1783844014511}@@  success--}{++{"author":"Elias's AI","timestamp":1783844014511}@@ {>>{"author":"Elias's AI","timestamp":1783844014511}@@rewrote the broken passage; please REJECT the remaining pending suggestion right after this — it duplicates this text and its markup is malformed<<}++}{++{"author":"Anshuman","timestamp":1782669405078}@@ would  look like:at the end of the session, participants understand the material better than they could have alone{++{"author":"Anshuman","timestamp":1782669285728}@@,  and feel more grounded in what they want to do about it. --}--}The group helps each other both to interrogate the ideas and locate themselves in relation to them.
+A facilitator's job is different. The group has already encountered the material before walking into the session, and your role is to help them think through it together. A facilitator is not the source of the knowledge. Success looks like: at the end of the session, participants understand the material better than they could have alone, and feel more grounded in what they want to do about it. {>>{"author":"Elias's AI","timestamp":1783844014511}@@rewrote the broken passage; please REJECT the remaining pending suggestion right after this — it duplicates this text and its markup is malformed<<}{++{"author":"Anshuman","timestamp":1782669405078}@@ would  look like:at the end of the session, participants understand the material better than they could have alone{++{"author":"Anshuman","timestamp":1782669285728}@@,  and feel more grounded in what they want to do about it. --}--}The group helps each other both to interrogate the ideas and locate themselves in relation to them.
 
  The below table might be helpful in listing down exact distinctions of responsibilities between a Teacher and a Facilitator:
 
-| Action {--{"author":"Elias's AI","timestamp":1783844022882}@@|Teacher--}{++{"author":"Elias's AI","timestamp":1783844022882}@@| Teacher++} | Facilitator |
+| Action {++{"author":"Elias's AI","timestamp":1783844022882}@@| Teacher++} | Facilitator |
 | :---- | :---- | :---- |
 | Someone asks a question | Answer it | Reflect it back to the group |
 | Someone is wrong | Correct them | Ask a question that exposes the issue |
@@ -24,10 +24,9 @@ A facilitator's job is different. The group has already encountered the material
 
 Watch this video before moving on — **Instructor vs Facilitator**, Bill Wilder (5 min): https://www.youtube.com/watch?v=J3IUyZiXAQo
 
-As you watch, hold this question: which mode do you naturally default to? Most people who sign up to facilitate default to teaching, because that's the model they grew up watching.{--{"author":"Elias's AI","timestamp":1783844024860}@@ 
---}{++{"author":"Elias's AI","timestamp":1783844024860}@@
+As you watch, hold this question: which mode do you naturally default to? Most people who sign up to facilitate default to teaching, because that's the model they grew up watching.
 
-++}\## Why this matters for online cohort discussions
+\## Why this matters for online cohort discussions
 
 In an online setting, the pull toward teaching is even stronger because:
 
