@@ -1,6 +1,8 @@
 ---
 id: 6f5ddfc2-1f05-4bbe-8cb5-7abb7df67cfc
-title: "We Know What It Looks Like When a Problem Is Being Treated with Respect, And This Isn't It"
+{++{"author":"Elias's AI","timestamp":1783849371236}@@tldr: "Air-traffic investigators write 200-page reports tracing a crash to a single cracked fan blade. NASA caps crew death risk at 1 in 270. A Manhattan Project scientist would have quit over a 3-in-a-million chance of igniting the atmosphere. So what does it mean that AI CEOs put civilizational catastrophe at 10-25% and keep building anyway?"
+summary_for_tutor: "Contrasts AI companies' handling of alignment with how mature safety-critical fields manage catastrophic risk. Yudkowsky and Soares point to air traffic control's exhaustive roughly 200-page accident postmortems, NASA's 1-in-270 cap on crew fatality risk, and Arthur Compton's willingness to abandon the Manhattan Project over a 3-in-a-million chance of igniting the atmosphere, then set these against AI lab CEOs who publicly estimate 10-25% odds of civilizational catastrophe yet keep building, offering only reassuring platitudes like 'GPT-4 is our most aligned model yet.' They conclude the labs are not even faking the rigor a real safety challenge demands. The lens pairs the reading with a reflection prompt and a chat that probes the fairness of the comparison and what risk threshold should trigger slowing down."
+++}title: "We Know What It Looks Like When a Problem Is Being Treated with Respect, And This Isn't It"
 tags:
   - supplementary
 ---
