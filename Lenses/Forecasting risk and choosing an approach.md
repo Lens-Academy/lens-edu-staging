@@ -1,6 +1,8 @@
 ---
 id: 53a7abde-fd71-4dab-b647-1ce78bc53d60
-title: Forecasting risk and choosing an approach
+{++{"author":"Elias's AI","timestamp":1783849315811}@@tldr: "How hard is alignment, really, and once you've decided to tackle it, which route do you take? This lens maps two spectrums: optimistic to pessimistic views on difficulty, and empirical, mathematical, philosophical, and prosaic approaches to solving it. Then it shows where this course plants its flag."
+summary_for_tutor: "Maps two spectrums in AI safety. First, difficulty: Anthropic's optimistic, intermediate, and pessimistic trichotomy, situated against a wider spread from failure stories (Christiano's 'What failure looks like' and AI 2027) to 'AI is easy to control', with the survey figure that 38 to 51% of authors at top ML venues give at least a 10% chance of extinction-level outcomes as a calibration anchor, and model organisms of misalignment offered as one way to study risk empirically. Second, solution approaches: empirical or iterative (Leike), mathematical (Yudkowsky's rocket alignment analogy), philosophical, and prosaic (Christiano, aligning the systems we have now, orthogonal to the empirical-versus-theoretical axis). Concludes with the course's own synthesis: a prosaic picture of powerful deep-learning systems plus deep, empirically grounded mathematical progress. Includes an optional chat that helps the learner map both spectrums."
+++}title: Forecasting risk and choosing an approach
 ---
 #### Text
 content:: Where does this leave us, in terms of our general level of risk?

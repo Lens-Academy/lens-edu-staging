@@ -1,6 +1,8 @@
 ---
 id: e06e88b1-ff11-45eb-b88c-d969c33447de
-title: "Is intelligence a meaningful concept?"
+{++{"author":"Elias's AI","timestamp":1783849317297}@@tldr: "Is 'intelligence' too fuzzy a word to build an argument on? This supplementary Q&A answers the skeptic by defining intelligence as a general-purpose ability to steer the future toward chosen outcomes, then invites you to test where that definition holds and where it breaks."
+summary_for_tutor: "Supplementary Q&A addressing the objection that 'intelligence' is too vague to reason about. The authors offer a working definition of intelligence as a general-purpose ability to steer the future toward preferred outcomes. The lens presents the reading, then a tutor chat that asks the student whether this definition is useful, what its limitations are, and what important capabilities it might fail to capture."
+++}title: "Is intelligence a meaningful concept?"
 tags:
   - supplementary
 ---

@@ -1,6 +1,8 @@
 ---
 id: 77b913b7-0462-4a87-bce0-5bb3419b34fc
-tags:
+{++{"author":"Elias's AI","timestamp":1783849314954}@@tldr: "An optional grab-bag of the book's own supplementary Q&As for the Introduction and Chapters 1-2, short answers to the objections readers most often raise, from 'isn't this just science fiction?' to 'aren't LLMs just predicting the next token?' Skim the few that catch your eye rather than reading them all."
+summary_for_tutor: "Navigation lens collecting the book's optional supplementary Q&As for the Introduction (Hard Calls and Easy Calls), Chapter 1 (Humanity's Special Power), and Chapter 2 (Grown, Not Crafted). Presents them as linked cards grouped by section, covering common objections about the reality of the threat, the nature and measurability of intelligence, the prospects for superintelligence, and how modern LLMs actually work. Advises learners to read only a few of interest rather than all of them, so as to preserve time for tutor conversation."
+++}tags:
   - supplementary
 ---
 
