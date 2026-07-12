@@ -74,6 +74,6 @@ While these scenarios may seem science-fictional, some researchers argue they de
 
 These risk categories and severity levels provide the foundation for examining specific AI capabilities that could enable harmful outcomes. We focus the rest of the chapter on presenting concrete cases and arguments for how various AI developments could lead to different severities of harm, particularly focusing on those that might cross the line into catastrophic or existential.
 
----
+{--{"author":"Elias's AI","timestamp":1783851565228}@@---
 
-[^1]:  Irrecoverable civilizational collapse, where we either go extinct or are never replaced by a subsequent civilization that rebuilds has been argued to be possible, but has an extremely low probability ([Rodriguez, 2020](https://forum.effectivealtruism.org/posts/GsjmufaebreiaivF7/what-is-the-likelihood-that-civilizational-collapse-would)).
+--}[^1]:  Irrecoverable civilizational collapse, where we either go extinct or are never replaced by a subsequent civilization that rebuilds has been argued to be possible, but has an extremely low probability ([Rodriguez, 2020](https://forum.effectivealtruism.org/posts/GsjmufaebreiaivF7/what-is-the-likelihood-that-civilizational-collapse-would)).

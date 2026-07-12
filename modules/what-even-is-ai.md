@@ -13,7 +13,9 @@ source:: ![[../Learning Outcomes/Simulator Theory|Simulator Theory]]
 
 # Lens: Welcome
 id:: e1322022-9d32-4d52-9f8a-403e5379ff42
-#### Text
+{++{"author":"Elias's AI","timestamp":1783851566025}@@tldr:: Modern AI is not engineered like a bridge, it is grown, and it surprises even its makers. This module builds an accurate mental model of that shift, adds a security mindset for reasoning about failure, and introduces the "simulators" frame.
+summary_for_tutor:: Welcome lens framing the module: modern AI is trained and grown rather than engineered, producing emergent capabilities. Sets up the three threads that follow, an accurate mental model of the grown paradigm, the security mindset for reasoning about failure under pressure, and the simulators frame for understanding how LLMs can appear agent-like while remaining statistical predictors.
+++}#### Text
 content:: 
 Modern AI is not engineered like a bridge or a compiler. It is trained, grown, and often surprises its creators with emergent skills. This module builds an accurate mental model of that paradigm, then adds the security mindset needed to reason about failure under pressure. Finally, it introduces the “simulators” frame, which explains how an LLM can look like an agent, oracle, or tool while still being a statistical predictor.
 
