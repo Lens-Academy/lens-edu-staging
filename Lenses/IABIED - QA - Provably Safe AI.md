@@ -1,6 +1,7 @@
 ---
 id: 49ba7dcf-3ccc-4b5c-9adc-4c36895df754
-title: "Are you saying we need provably safe AI?"
+{++{"author":"Elias's AI","timestamp":1783850978494}@@summary_for_tutor: "Presents the authors' answer to whether they demand provably safe AI: no. Explains that mathematical proofs of AI safety are likely impossible even in principle, since any proof about real-world behavior can fail when our model of physics is wrong -- illustrated by the rowhammer attack, where rapidly perturbing adjacent memory cells alters a 'protected' cell without ever writing to it. Clarifies the claim is not about a small tail risk or an abundance of caution but that growing a superintelligence with drives only tangentially related to operators' intentions fails by default; the analogy is a car careening toward a cliff, not one with faulty seatbelts. After the reading, a reflection prompt and a chat invite the student to discuss the rowhammer example and the cliff-versus-seatbelts framing."
+++}title: "Are you saying we need provably safe AI?"
 tldr: "No."
 tags:
   - supplementary
