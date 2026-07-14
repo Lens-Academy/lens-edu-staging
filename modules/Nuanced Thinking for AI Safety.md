@@ -9,7 +9,7 @@ tldr:: AI safety decisions must be made under deep uncertainty. Nuanced thinking
 summary_for_tutor:: Introductory framing for why nuanced thinking matters in AI safety. Connects probabilistic thinking to calibrated forecasts and updating, gray thinking to recognizing simultaneous benefits and harms, and multi-factor thinking to reasoning about interacting technical and social causes. Emphasizes that nuance does not require indecision, false balance, or treating all views as equally credible.
 #### Text
 content::
-AI safety asks us to reason and make decisions under deep uncertainty. We do not know exactly how quickly AI capabilities will advance, which technical approaches will work, how institutions will respond, or which risks will matter most. Yet the decisions made under that uncertainty may have enormous consequences.
+AI safety asks us to reason and make decisions under deep uncertainty. We do not know exactly how quickly AI capabilities will advance, which technical approaches will work, how institutions will respond, or which threat vectors will matter most. Yet the decisions made under that uncertainty may have enormous consequences.
 
 That makes binary thinking especially tempting—and especially costly. Debates can collapse into “AI will be safe or dangerous,” “alignment is solvable or hopeless,” “takeoff will be fast or slow,” or even “pro-AI versus anti-AI.” These frames can hide the questions that actually help us choose what to do: *How likely is each possibility? How good or bad would different outcomes be? Which technical, political, economic, and social factors shape them? What evidence should change our minds?*
 
