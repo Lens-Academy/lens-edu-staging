@@ -1,5 +1,5 @@
 ---
-
+title: What Cognitive Biases Feel Like From the Inside
 author:
   - chaosmage
 published: 2013-09-22
@@ -14,7 +14,6 @@ tags:
   - work-in-progress
 ---
 
-# What Cognitive Biases Feel Like From the Inside
 
 ### Confirmation bias
 | What it feels like for me | How I see others who feel the same |
