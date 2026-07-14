@@ -5,3 +5,7 @@ title: "What cognitive biases feel like from the inside"
 
 #### Article
 source:: [[../articles/chaosmage-what-cognitive-biases-feel-like-from-the-inside]]
+from:: "| What it feels like for me | How I see others who feel the same |
+| --- | --- |
+| There is con"
+to:: term for this mismatch is:_ **optimism bias**
