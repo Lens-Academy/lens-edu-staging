@@ -10,7 +10,7 @@ tags:
   - "interactive-tool"
 ---
 
-The user sees the following text not as an article but as an interactive tool 
+The user sees the following text not as an article but as an interactive tool provided by cl
 # Nuanced Thinking Techniques
 
 There are two kinds of people in the world: those who divide everybody into two kinds of people, and those who don’t.
