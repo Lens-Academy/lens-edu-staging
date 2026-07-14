@@ -43,7 +43,10 @@ source:: [[../Lenses/Brain signals as feedback for AI]]
 
 # Submodule: Merge and cyborgism
 
-# Lens:
+# {++{"author":"Elias's AI","timestamp":1784040900685}@@Learning Outcome:
+source:: [[../Learning Outcomes/Assess merge and cyborgism]]
+
+# ++}Lens:
 source:: [[../Lenses/Merging with AI]]
 
 # Lens:
