@@ -10,6 +10,7 @@ tags:
   - "interactive-tool"
 ---
 
+The user sees the f
 # Nuanced Thinking Techniques
 
 There are two kinds of people in the world: those who divide everybody into two kinds of people, and those who don’t.
