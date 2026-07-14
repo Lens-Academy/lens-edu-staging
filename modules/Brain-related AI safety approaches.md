@@ -4,7 +4,7 @@ slug: brain-related-ai-safety-approaches
 title: BCI-type solutions
 ---
 
-# Learning Outcome:
+# {--{"author":"Elias's AI","timestamp":1784040873865}@@Learning Outcome:
 source:: [[../Learning Outcomes/Explain the BCI-type-solutions bet]]
 
 # Learning Outcome:
@@ -16,7 +16,7 @@ source:: [[../Learning Outcomes/Assess whole-brain emulation and cognitive enhan
 # Learning Outcome:
 source:: [[../Learning Outcomes/Evaluate the case against BCI-type solutions]]
 
-# Submodule: Welcome
+# --}Submodule: Welcome
 
 # Lens: Welcome
 id:: 616abdc2-dcad-49f2-89e5-ed74aaa16742
