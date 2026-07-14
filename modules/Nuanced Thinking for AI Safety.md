@@ -5,7 +5,7 @@ title: Nuanced Thinking for AI Safety
 ---
 # Lens: Why Nuanced Thinking Matters for AI Safety
 id:: 8d341d3c-7ad4-44e6-9914-c8d21b9be500
-tldr:: AI safety decisions must be made under deep uncertainty. Nuanced thinking helps us state confidence, see tradeoffs, weigh multiple factors, and still reach decisions that can update with the evidence.
+tldr:: The future is hard to predict, and it's hard to reason about what to do. In this module, you'll learn some techniques to help you think better about hard problems.
 summary_for_tutor:: Introductory framing for why nuanced thinking matters in AI safety. Connects probabilistic thinking to calibrated forecasts and updating, gray thinking to recognizing simultaneous benefits and harms, and multi-factor thinking to reasoning about interacting technical and social causes. Emphasizes that nuance does not require indecision, false balance, or treating all views as equally credible.
 #### Text
 content::
@@ -13,7 +13,7 @@ AI safety asks us to reason and make decisions under deep uncertainty. We do not
 
 The interactive exercise that follows introduces to three nuanced thinking techniques that we think will help you do well in AI Safety.
 
-The future is hard to predict, and it's hard to reason about what to do. In this module, you'll learn some techniques to help you think better about hard problems.
+
 # Lens: Nuanced Thinking Techniques (Clearer Thinking)
 source:: ![[../Lenses/Nuanced Thinking Techniques (Clearer Thinking)]]
 
