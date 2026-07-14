@@ -13,7 +13,7 @@ AI safety asks us to reason and make decisions under deep uncertainty. We do not
 
 This module introduces nuanced thinking methods to deal with such uncertainty.
 
-Nuanced thinking gives us practical tools for answering those questions. **Probabilistic thinking** helps us express uncertainty, compare forecasts, and update when new evidence arrives. **Gray thinking** helps us notice that proposals can have both benefits and drawbacks—and that acknowledging a benefit does not erase a risk. **Multi-factor thinking** helps us avoid explaining complex outcomes with a single variable or placing people, organizations, and strategies into overly simple categories.
+
 
 Nuance does not mean refusing to reach conclusions, splitting every difference, or treating all views as equally credible. It means making conclusions that reflect the evidence, stating how confident we are, and remaining able to update. In AI safety, those habits support clearer disagreements, better prioritization, and decisions that are robust to being wrong.
 
