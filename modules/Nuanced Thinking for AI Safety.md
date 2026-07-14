@@ -6,19 +6,19 @@ title: Nuanced Thinking for AI Safety
 # Lens: Why Nuanced Thinking Matters for AI Safety
 id:: 8d341d3c-7ad4-44e6-9914-c8d21b9be500
 tldr:: The future is hard to predict, and it's hard to reason about what to do. In this module, you'll learn some techniques to help you think better about hard problems.
-summary_for_tutor:: Introductory framing for why nuanced thinking matters in AI safety. Connects probabilistic thinking to calibrated forecasts and updating, gray thinking to recognizing simultaneous benefits and harms, and multi-factor thinking to reasoning about interacting technical and social causes. Emphasizes that nuance does not require indecision, false balance, or treating all views as equally credible.
+summary_for_tutor:: Introductory framing for why nuanced thinking matters in AI {--{"author":"Luc's AI","timestamp":1784058767422}@@safety. Connects probabilistic thinking to calibrated forecasts and updating, gray thinking to recognizing simultaneous benefits and harms,--}{++{"author":"Luc's AI","timestamp":1784058767422}@@safety, followed by a short Clearer Thinking excerpt defining epistemic irrationality (disregarding evidence or good reasoning)++} and {--{"author":"Luc's AI","timestamp":1784058767422}@@multi-factor thinking to reasoning about interacting technical and social causes. Emphasizes that nuance does not require indecision, false balance, or treating all views as equally credible.--}{++{"author":"Luc's AI","timestamp":1784058767422}@@instrumental irrationality (acting against one's goals). Prepares learners for the three techniques practiced in the interactive embed: probabilistic thinking, gray thinking, and multi-factor thinking.++}
 #### Text
 content::
 AI safety asks us to reason and make decisions under deep uncertainty. We do not know exactly how quickly AI capabilities will advance, which technical approaches will work, how institutions will respond, or which threat vectors will matter most. Yet the decisions made under that uncertainty may have enormous consequences.
 
-The interactive exercise that follows introduces to three nuanced thinking techniques that we think will help you do well in AI Safety.{++{"author":"Luc's AI","timestamp":1784058761273}@@
+The interactive exercise that follows introduces to three nuanced thinking techniques that we think will help you do well in AI Safety.
 
 #### Article
 source:: [[../articles/clearerthinking-social-biases]]
-from:: ## What is irrationality?++}
-{++{"author":"Luc's AI","timestamp":1784058761273}@@to:: When Rationality Types Conflict (click to learn more)
+from:: ## What is irrationality?
+to:: When Rationality Types Conflict (click to learn more)
 
-++}# Lens: Nuanced Thinking Techniques (Clearer Thinking)
+# Lens: Nuanced Thinking Techniques (Clearer Thinking)
 source:: ![[../Lenses/Nuanced Thinking Techniques (Clearer Thinking)]]
 
 # Lens: Summary: Three Tools for Nuanced Thinking
