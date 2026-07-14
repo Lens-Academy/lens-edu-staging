@@ -16,7 +16,7 @@ tags:
 source:: [[../Lenses/EA Intro - Scout Mindset (Julia Galef)]]
 
 ## Lens:
-source:: [[../Lenses/EA Intro - What Cognitive Biases Feel Like From the Inside]]
+source:: [[../Lenses/EA Intro - What Cognitive Biases Feel Like - incomplete]]
 
 ## Lens:
 source:: [[../Lenses/EA Intro - Purchase Fuzzies and Utilons Separately]]
