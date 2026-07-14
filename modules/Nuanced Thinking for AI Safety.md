@@ -11,7 +11,7 @@ summary_for_tutor:: Introductory framing for why nuanced thinking matters in AI 
 content::
 AI safety asks us to reason and make decisions under deep uncertainty. We do not know exactly how quickly AI capabilities will advance, which technical approaches will work, how institutions will respond, or which threat vectors will matter most. Yet the decisions made under that uncertainty may have enormous consequences.
 
-This module introduces nuanced thinking methods to deal
+This module introduces nuanced thinking methods to deal with such uncertainty.
 
 Nuanced thinking gives us practical tools for answering those questions. **Probabilistic thinking** helps us express uncertainty, compare forecasts, and update when new evidence arrives. **Gray thinking** helps us notice that proposals can have both benefits and drawbacks—and that acknowledging a benefit does not erase a risk. **Multi-factor thinking** helps us avoid explaining complex outcomes with a single variable or placing people, organizations, and strategies into overly simple categories.
 
