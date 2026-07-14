@@ -24,7 +24,7 @@ source:: ![[../Lenses/Nuanced Thinking Techniques (Clearer Thinking)]]
 
 # Lens: Summary: Three Tools for Nuanced Thinking
 id:: a174751c-e799-45f6-a8e4-4b8b45c171cd
-tldr:: A concise recap of three ways to escape binary thinking: express beliefs probabilistically, recognize mixtures of good and bad, and evaluate the multiple factors that make each case distinct.
+tldr:: A short summary of the three nuanced thinking techniques: probabilistic thinking, gray thinking, and multifactorial thinking.
 summary_for_tutor:: Closing reference lens importing Clearer Thinking's summary of probabilistic thinking, gray thinking, and multi-factor thinking. It restates each technique, the binary trap it counters, and a brief example. No AI interaction is requested; the interactive embed immediately before it already supplies practice.
 #### Article
 source:: [[../articles/clearerthinking-nuanced-thinking-techniques]]
