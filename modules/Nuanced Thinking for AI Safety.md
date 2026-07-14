@@ -11,8 +11,14 @@ summary_for_tutor:: Introductory framing for why nuanced thinking matters in AI 
 content::
 AI safety asks us to reason and make decisions under deep uncertainty. We do not know exactly how quickly AI capabilities will advance, which technical approaches will work, how institutions will respond, or which threat vectors will matter most. Yet the decisions made under that uncertainty may have enormous consequences.
 
-The interactive exercise that follows introduces to three nuanced thinking techniques that we think will help you do well in AI Safety.
-# Lens: Nuanced Thinking Techniques (Clearer Thinking)
+The interactive exercise that follows introduces to three nuanced thinking techniques that we think will help you do well in AI Safety.{++{"author":"Luc's AI","timestamp":1784058761273}@@
+
+#### Article
+source:: [[../articles/clearerthinking-social-biases]]
+from:: ## What is irrationality?++}
+{++{"author":"Luc's AI","timestamp":1784058761273}@@to:: When Rationality Types Conflict (click to learn more)
+
+++}# Lens: Nuanced Thinking Techniques (Clearer Thinking)
 source:: ![[../Lenses/Nuanced Thinking Techniques (Clearer Thinking)]]
 
 # Lens: Summary: Three Tools for Nuanced Thinking
