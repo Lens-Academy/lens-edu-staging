@@ -54,7 +54,10 @@ source:: [[../Lenses/Cyborgism]]
 
 # Submodule: Whole-brain emulation and cognitive enhancement
 
-# Lens:
+# {++{"author":"Elias's AI","timestamp":1784040915939}@@Learning Outcome:
+source:: [[../Learning Outcomes/Assess whole-brain emulation and cognitive enhancement]]
+
+# ++}Lens:
 source:: [[../Lenses/Whole-brain emulation]]
 
 # Lens:
