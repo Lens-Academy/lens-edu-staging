@@ -4,19 +4,7 @@ slug: brain-related-ai-safety-approaches
 title: BCI-type solutions
 ---
 
-# {--{"author":"Elias's AI","timestamp":1784040873865}@@Learning Outcome:
-source:: [[../Learning Outcomes/Explain the BCI-type-solutions bet]]
-
-# Learning Outcome:
-source:: [[../Learning Outcomes/Assess merge and cyborgism]]
-
-# Learning Outcome:
-source:: [[../Learning Outcomes/Assess whole-brain emulation and cognitive enhancement]]
-
-# Learning Outcome:
-source:: [[../Learning Outcomes/Evaluate the case against BCI-type solutions]]
-
-# --}Submodule: Welcome
+# Submodule: Welcome
 
 # Lens: Welcome
 id:: 616abdc2-dcad-49f2-89e5-ed74aaa16742
@@ -32,10 +20,10 @@ The module runs through the bet and the landscape, the sub-threads (merge & cybo
 
 # Submodule: The bet and the landscape
 
-# {++{"author":"Elias's AI","timestamp":1784040889230}@@Learning Outcome:
+# Learning Outcome:
 source:: [[../Learning Outcomes/Explain the BCI-type-solutions bet]]
 
-# ++}Lens:
+# Lens:
 source:: [[../Lenses/BCI-type solutions - the landscape]]
 
 # Lens:
@@ -43,10 +31,10 @@ source:: [[../Lenses/Brain signals as feedback for AI]]
 
 # Submodule: Merge and cyborgism
 
-# {++{"author":"Elias's AI","timestamp":1784040900685}@@Learning Outcome:
+# Learning Outcome:
 source:: [[../Learning Outcomes/Assess merge and cyborgism]]
 
-# ++}Lens:
+# Lens:
 source:: [[../Lenses/Merging with AI]]
 
 # Lens:
@@ -54,10 +42,10 @@ source:: [[../Lenses/Cyborgism]]
 
 # Submodule: Whole-brain emulation and cognitive enhancement
 
-# {++{"author":"Elias's AI","timestamp":1784040915939}@@Learning Outcome:
+# Learning Outcome:
 source:: [[../Learning Outcomes/Assess whole-brain emulation and cognitive enhancement]]
 
-# ++}Lens:
+# Lens:
 source:: [[../Lenses/Whole-brain emulation]]
 
 # Lens:
@@ -68,10 +56,10 @@ source:: [[../Lenses/Cognitive enhancement]]
 
 # Submodule: The case against
 
-# {++{"author":"Elias's AI","timestamp":1784040943110}@@Learning Outcome:
+# Learning Outcome:
 source:: [[../Learning Outcomes/Evaluate the case against BCI-type solutions]]
 
-# ++}Lens:
+# Lens:
 source:: [[../Lenses/Brain-computer interfaces and human augmentation]]
 
 # Lens:
