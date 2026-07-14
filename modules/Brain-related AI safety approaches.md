@@ -1,14 +1,14 @@
 ---
 id: dc6e42a6-bb8b-41ec-8047-0a4671ea63e2
 slug: brain-related-ai-safety-approaches
-title: Brain-related AI safety approaches
+title: {--{"author":"Elias's AI","timestamp":1784024102905}@@Brain-related AI safety approaches--}{++{"author":"Elias's AI","timestamp":1784024102905}@@BCI-type solutions++}
 ---
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain brain-like AGI safety]]
+source:: [[../Learning Outcomes/Explain {--{"author":"Elias's AI","timestamp":1784024106128}@@brain-like AGI safety]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain the BCI-type-solutions bet]]
+source:: [[../Learning Outcomes/Explain --}the BCI-type-solutions bet]]
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Assess merge and cyborgism]]
