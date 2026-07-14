@@ -68,7 +68,10 @@ source:: [[../Lenses/Cognitive enhancement]]
 
 # Submodule: The case against
 
-# Lens:
+# {++{"author":"Elias's AI","timestamp":1784040943110}@@Learning Outcome:
+source:: [[../Learning Outcomes/Evaluate the case against BCI-type solutions]]
+
+# ++}Lens:
 source:: [[../Lenses/Brain-computer interfaces and human augmentation]]
 
 # Lens:
