@@ -11,11 +11,7 @@ summary_for_tutor:: Introductory framing for why nuanced thinking matters in AI 
 content::
 AI safety asks us to reason and make decisions under deep uncertainty. We do not know exactly how quickly AI capabilities will advance, which technical approaches will work, how institutions will respond, or which threat vectors will matter most. Yet the decisions made under that uncertainty may have enormous consequences.
 
-This module introduces nuanced thinking methods to deal with such uncertainty.
-
-The interactive exercise that follows introduces to three nuanced thinking techniques that we think will help you do well in AI Saf
-
-and lets you practice these three techniques.
+The interactive exercise that follows introduces to three nuanced thinking techniques that we think will help you do well in AI Safety.
 
 # Lens: Nuanced Thinking Techniques (Clearer Thinking)
 source:: ![[../Lenses/Nuanced Thinking Techniques (Clearer Thinking)]]
