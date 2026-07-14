@@ -13,10 +13,6 @@ AI safety asks us to reason and make decisions under deep uncertainty. We do not
 
 This module introduces nuanced thinking methods to deal with such uncertainty.
 
-
-
-Nuance does not mean refusing to reach conclusions, splitting every difference, or treating all views as equally credible. It means making conclusions that reflect the evidence, stating how confident we are, and remaining able to update. In AI safety, those habits support clearer disagreements, better prioritization, and decisions that are robust to being wrong.
-
 The interactive exercise that follows introduces and lets you practice these three techniques.
 
 # Lens: Nuanced Thinking Techniques (Clearer Thinking)
