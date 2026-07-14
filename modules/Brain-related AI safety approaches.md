@@ -32,7 +32,10 @@ The module runs through the bet and the landscape, the sub-threads (merge & cybo
 
 # Submodule: The bet and the landscape
 
-# Lens:
+# {++{"author":"Elias's AI","timestamp":1784040889230}@@Learning Outcome:
+source:: [[../Learning Outcomes/Explain the BCI-type-solutions bet]]
+
+# ++}Lens:
 source:: [[../Lenses/BCI-type solutions - the landscape]]
 
 # Lens:
