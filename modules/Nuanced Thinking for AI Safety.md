@@ -13,11 +13,6 @@ AI safety asks us to reason and make decisions under deep uncertainty. We do not
 
 The interactive exercise that follows introduces to three nuanced thinking techniques that we think will help you do well in AI Safety.
 
-#### Article
-source:: [[../articles/clearerthinking-social-biases]]
-from:: ## What is irrationality?
-to:: When Rationality Types Conflict (click to learn more)
-
 # Lens: Nuanced Thinking Techniques (Clearer Thinking)
 source:: ![[../Lenses/Nuanced Thinking Techniques (Clearer Thinking)]]
 
