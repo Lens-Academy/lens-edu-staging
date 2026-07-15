@@ -15,9 +15,9 @@ content::
 Most AI safety work tries to make the *AI* safe — constrain it, align it, govern it. **BCI-type solutions** bet that a core bottleneck is instead the *human-AI capability and bandwidth gap*, and change the **human** side of the equation: brain-computer interfaces and the "merge," cyborgism, cognitive enhancement, whole-brain emulation, and using neural signals as richer feedback for AI.
 
 The module runs through the bet and the landscape, the sub-threads (merge & cyborgism; whole-brain emulation & cognitive enhancement), and a hard-nosed case against — because BCI-type solutions are the least-developed AI-safety plan: loud in public discourse (Musk, Altman, Urban), heavily capitalized as *medical* technology, but held seriously as a safety bet by only a minority. The goal is a calibrated view of *when* changing the human side actually helps, and when it doesn't (or backfires).
-
+{--{"author":"Elias's AI","timestamp":1784109189303}@@
 {>>{"author":"Elias's AI","timestamp":1784024179034}@@Removed brain-like AGI safety from this module. Once accepted, these files become orphaned unless reused elsewhere: Lenses/Brain-like AGI safety, Lenses/Approval Reward and human social instincts, Learning Outcomes/Explain brain-like AGI safety, and the two byrnes-* articles — consider moving them to _deprecated/ with the REMOVED- prefix.<<}
-
+--}
 # Submodule: The bet and the landscape
 
 # Learning Outcome:
