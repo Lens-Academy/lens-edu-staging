@@ -8,7 +8,7 @@ title: BCI-type solutions
 
 # Lens: Welcome
 id:: 616abdc2-dcad-49f2-89e5-ed74aaa16742
-tldr:: Most AI safety work tries to make the AI safe. What if instead you changed the *human*? This module covers BCI-type solutions — closing the human-AI capability and bandwidth gap through neural interfaces, the "merge," cyborgism, cognitive enhancement, and whole-brain emulation. Loud in public, thin as a safety plan — you leave able to judge when it actually helps.
+tldr:: Most AI safety work tries to make the AI safe. What if instead you changed the *human*? This module covers BCI-type solutions — closing the human-AI capability and bandwidth gap through neural interfaces, the "merge," cyborgism, cognitive enhancement, and whole-brain emulation. Loud in public, thin as a safety plan — you leave able to judge when it actually helps. hhone
 summary_for_tutor:: Opening framing lens for the module on BCI-type AI safety solutions, which target the human-AI capability and bandwidth gap by changing the human side of the equation — brain-computer interfaces and the "merge," cyborgism, cognitive enhancement, whole-brain emulation, and neural signals as richer feedback for AI. The module runs through the bet and the landscape, the sub-threads (merge and cyborgism; whole-brain emulation and cognitive enhancement), and a critical case against, framing BCI-type solutions as the least-developed AI-safety plan (prominent in public discourse and heavily capitalized as medical technology, yet held as a serious safety bet by only a minority). Framing text only; teaching happens in the following lenses.
 #### Text
 content::
