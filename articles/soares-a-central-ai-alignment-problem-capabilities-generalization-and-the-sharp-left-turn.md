@@ -9,8 +9,6 @@ description: "Nate Soares argues that one of the core problems with AI alignment
 ---
 :::collapse
 (*This post was factored out of a larger post that I (Nate Soares) wrote, with help from Rob Bensinger, who also rearranged some pieces and added some text to smooth things out. I'm not terribly happy with it, but am posting it anyway (or, well, having Rob post it on my behalf while I travel) on the theory that it's better than nothing.*)
-
----
 :::
 
 I expect navigating the acute risk period to be tricky for our civilization, for a number of reasons. Success looks to me to require clearing a variety of technical, sociopolitical, and moral hurdles, and while in principle sufficient mastery of solutions to the technical problems might substitute for solutions to the sociopolitical and other problems, it nevertheless looks to me like we need a lot of things to go right.
