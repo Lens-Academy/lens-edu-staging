@@ -1,6 +1,6 @@
-{++{"author":"Ben's AI","timestamp":1784389126966}@@---
+{++{"author":"Ben's AI","timestamp":1784389134387}@@---
 id: '1c9ff14f-e853-47c8-bedb-d3d0171349da'
-learning-outcome: "Explain why fear without agency demotivates while fear paired with tangible collective action motivates, and demonstrate closing a conversation about AI risk with honest hope — concrete, right-sized things the person could actually do — rather than manufactured optimism or bare doom"
+learning-outcome: "Explain why fear without agency demotivates while fear paired with tangible collective action motivates, and demonstrate closing a conversation about AI risk with honest hope — hope located in real actions rather than predicted outcomes, offered as something to do together — rather than manufactured optimism or bare doom"
 authors:
   - Ben+Claude
 tags:
