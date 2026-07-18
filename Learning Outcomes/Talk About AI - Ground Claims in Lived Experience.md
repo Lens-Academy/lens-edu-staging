@@ -1,4 +1,4 @@
-{++{"author":"Ben's AI","timestamp":1784388436602}@@---
+---
 id: '06c1d60c-2ca6-4855-a269-7a026265ec1d'
 learning-outcome: "Convert abstract or statistical claims about AI into first-person observations from your own experience, stated with honest confidence including calibrated uncertainty, and explain why lived experience lands where fact-dumps bounce"
 authors:
@@ -28,4 +28,3 @@ Score according to the following rubric. Secondhand experience counts fully when
 **4** — As above, plus treats calibrated uncertainty as part of the confidence rather than a retreat from it. This includes precision about sourcing: "I watched," "my sister told me," and "I read somewhere" are three different claims, and saying which one you're making is part of the honesty — attributed secondhand experience is strong grounding; secondhand experience worn as your own is a counterfeit that costs you the relationship if discovered. *Example: Adds "'I don't know if this pace continues — but I've watched it hold for two years, and if it holds for two more, that's a different world.' Naming exactly where my confidence ends — and exactly where the story came from — is what makes the confident part believable."*
 
 **5** — As above, plus the reciprocity mechanism: grounding the claim in your experience converts it from a position into a story, which hands the listener a move they can actually make — telling you *their* experience — instead of a move they can't (rebutting a benchmark). That exchange of experiences is what turns a pitch into a conversation that continues. *Example: Adds "The other thing the grounded version does is give them a turn. Nobody can respond to a doubling curve, but anyone can respond to 'here's what I watched happen' with what they've watched happen. Now we're two people comparing notes instead of one person defending a thesis — and comparing notes is a conversation you can have again."*
-++}
