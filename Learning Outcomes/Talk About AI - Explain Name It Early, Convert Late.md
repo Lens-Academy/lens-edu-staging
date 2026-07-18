@@ -11,7 +11,7 @@ tags:
 ## Test:
 id:: e5579bbc-3019-4874-b11b-86a42ff9e919
 #### Question
-content:: A f tells you: "Your two rules contradict each other. If you bring up AI in the very first conversation, you're rushing people. If you hold your views back until they're ready, you're hiding your agenda. You can't have both — pick one."
+content:: A course peer tells you: "These two rules contradict each other. If you bring up AI in the very first conversation, you're rushing people. If you hold your views back until they're ready, you're hiding your agenda. You can't have both — pick one."
 
 **Where is the flaw in this argument? And how do you tell, in practice, when someone has actually become ready?**
 
