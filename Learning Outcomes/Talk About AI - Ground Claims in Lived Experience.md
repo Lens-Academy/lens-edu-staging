@@ -13,7 +13,7 @@ id:: df6fcd32-5b28-45c0-aaf6-76f0e3d36c10
 #### Question
 content:: Take this claim: *"AI capabilities are advancing faster than most people realize — the length of tasks AI can complete on its own has been doubling every several months."*
 
-**First, restate it the way you would actually say it to a friend — grounded in something you have personally seen, done, or noticed. Then explain why the grounded version works on a skeptical listener when the statistic doesn't.**
+**First, restate it the way you would actually say it to a friend — grounded in something you have personally seen, done, or noticed. Then explain why the grounded version works on a skeptical listener when the statistic .**
 
 (If you don't work with AI directly, ground it in whatever contact you do have: something AI did in your job, your feed, your classroom, your group chat.)
 
