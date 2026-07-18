@@ -58,6 +58,6 @@ After learning that only [1-2% of med school graduates plan on working in small 
 To sum it up: **counterfactual impact** is a crucial concept to consider if you want to really change the world for the better.
 
 -   [Counterfactual considerations](https://concepts.effectivealtruism.org/concepts/counterfactual-considerations/)
--   [How replaceable are the top candidates in large hiring rounds? Why the answer flips depending on the distribution of applicant ability](https://80000hours.org/2019/08/how-replaceable-are-top-candidates-in-large-hiring-rounds/)
+-   [How replaceable are the top candidates in large hiring rounds? Why the answer flips depending on the distribution of applicant ability](https://80000hours.org/2019/08/how-replaceable-are-top-candidates-in-large-hiring-rounds/){--{"author":"Luc's AI","timestamp":1784381928335}@@
 
-You can also explore
+You can also explore--}

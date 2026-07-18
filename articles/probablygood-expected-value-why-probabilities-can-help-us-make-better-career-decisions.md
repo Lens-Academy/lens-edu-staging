@@ -37,6 +37,6 @@ How can you still intelligently make such a decision? Should you choose the path
 
 **Singer/songwriter:** If you’re able to be super-successful with your music, you estimate you could give $5,000,000 to [effective charities](https://probablygood.org/core-concepts/effective-giving/) over the course of your career. However, you think there’s only a _one in ten-thousand_ chance that this will happen–after all, it’s hard to become a star. Dividing $5,000,000 by ten thousand, we get an expected value of only $500. Donating $500 can do a lot of good, but this probably isn’t your best option if you want to do good in the world.
 
-Naturally, these are just _very_ rough calculations. If you’re seriously considering an important decision, you’ll likely want to investigate further, giving serious thought to the different variables and the numbers you assign to them. However, as we can see, even quick expected value calculations can give us useful ballpark estimates for important questions.
+Naturally, these are just _very_ rough calculations. If you’re seriously considering an important decision, you’ll likely want to investigate further, giving serious thought to the different variables and the numbers you assign to them. However, as we can see, even quick expected value calculations can give us useful ballpark estimates for important questions.{--{"author":"Luc's AI","timestamp":1784381928705}@@
 
-You can also explore
+You can also explore--}

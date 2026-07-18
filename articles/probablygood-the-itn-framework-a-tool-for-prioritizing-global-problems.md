@@ -47,6 +47,6 @@ This is a general framework for making imprecise observations—it won’t spit 
 
 In the context of career decisions, it’s also worth noting that a cause’s impact is just one consideration. It’s important to keep in mind that your skills, experience and even your excitement about specific causes can be a deciding factor for you in the cause area you’ll eventually choose.
 
-Ultimately, using the ITN framework simply encourages us to take a deeper look into the areas we’re drawn to and to make an informed decision about what to prioritize.
+Ultimately, using the ITN framework simply encourages us to take a deeper look into the areas we’re drawn to and to make an informed decision about what to prioritize.{--{"author":"Luc's AI","timestamp":1784381929308}@@
 
-You can also explore
+You can also explore--}
