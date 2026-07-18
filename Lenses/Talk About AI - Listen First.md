@@ -24,7 +24,7 @@ Listening is not waiting for your turn, and it is not silence. It is a set of co
 | **Hold your corrections** — when they say something wrong about AI, note it and let it go | The correction can wait months. The trust can't be repaired in months. When people are corrected over details about something they don't know much about, they get defensive. |
 | **Watch your ratio** — if 3 turns of conversation pass by without you asking a question, something has gone wrong |Notice if you are talking at them or asking questions. When you notice you haven't asked a question in a while, do it. |
 
-And listen *for* something. A first conversation is reconnaissance, not persuasion. You're learning three things: what contact they already have with AI (their job, their feed, their kids' homework), what they protect (their craft, their family, their sense of the future), and what frame they're currently holding ("it's hype," "it's a tool," "it's sci-fi"). Those three things guide every future conversation.
+And listen *for* something. A first conversation is reconnaissance, not persuasion. You're learning three things: what contact they already have with AI (their job, their social media feed, their kids' homework), what they protect (their craft, their family, their sense of the future), and what frame they're currently holding ("it's hype," "it's a tool," "it's sci-fi"). Those three things guide every future conversation.
 
 #### Roleplay
 id:: '9a599423-8861-4902-9fa3-6c9ef9a57faf'
