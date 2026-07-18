@@ -27,7 +27,7 @@ Listening is not waiting for your turn, and it is not silence. It is a set of co
 And listen *for* something. A first conversation is reconnaissance, not persuasion. You're learning three things: what contact they already have with AI (their job, their social media feed, their kids' homework), what they protect (their craft, their family, their sense of the future), and what frame they're currently holding ("it's hype," "it's a tool," "it's sci-fi"). Those three things guide every future conversation.
 
 #### Roleplay
-id:: {--{"author":"Ben's AI","timestamp":1784392453375}@@'9a599423-8861-4902-9fa3-6c9ef9a57faf'--}{++{"author":"Ben's AI","timestamp":1784392453375}@@9a599423-8861-4902-9fa3-6c9ef9a57faf++}
+id:: 9a599423-8861-4902-9fa3-6c9ef9a57faf
 content::
 \## Practice: lunch with Dana
 Dana is a coworker you like. You have opinions about AI you'd love to share, but this drill measures your ability to find out what is on Dana's mind. Take your time; this is a long conversation, not a quiz. See how deep she'll let you go.
