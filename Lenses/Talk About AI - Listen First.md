@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-\## The skill under everything else
+## The skill under everything else
 
 Every other skill in this course — naming the topic, asking permission, sharing what you've seen, offering hope — runs on trust, and trust is built by being understood. Which means it is built while *they* are talking, not while you are.
 
