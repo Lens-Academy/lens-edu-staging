@@ -20,7 +20,7 @@ Listening is not waiting for your turn, and it is not silence. It is a set of co
 | :---- | :---- |
 | **Reflect back** — say the thing under what they said | *"So the mandatory training bothered you more than the tool itself did."* |
 | **Ask a genuine question** — one you don't know the answer to | *"What did it actually do when you tried it?"* — not *"But don't you think...?"*, which is just a statement |
-| **Follow the energy** — chase whatever they said with emotional charg, even if it's off your script | They mention their kid in passing? That aside was the conversation. |
+| **Follow the energy** — ask about whatever they said with emotional charge, even if it's off your script | They mention their kid in passing? That aside was the conversation. |
 | **Hold your corrections** — when they say something wrong about AI, note it and let it go | The correction can wait months. The trust can't be repaired in months. Nobody has ever been listened into a defensive crouch. |
 | **Watch your ratio** — three statements in a row is a lecture forming | When you notice it, your next sentence ends in a question mark. |
 
