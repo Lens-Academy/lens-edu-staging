@@ -16,7 +16,6 @@ Every other skill in this course — naming the topic, asking permission, sharin
 
 \## Why this works
 
-Four mechanisms, worth actually owning — they're what make the moves below more than etiquette.
 
 **People evaluate the messenger before the message.** Whether a claim gets in at all depends on whether they trust its source, and trust is built by being understood, not by being right. The evaluation running in their head isn't "is this argument sound" — it's "does this person get me."
 
