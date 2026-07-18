@@ -14,7 +14,19 @@ content::
 
 Every other skill in this course — naming the topic, asking permission, sharing what you've seen, offering hope — runs on trust, and trust is built by being understood. Which means it is built while *they* are talking, not while you are.
 
-Listening is not waiting for your turn, and it is not silence. It is a set of concrete moves:
+{++{"author":"Ben's AI","timestamp":1784395934613}@@\## Why this works
+
+Four mechanisms, worth actually owning — they're what make the moves below more than etiquette.
+
+**People evaluate the messenger before the message.** Whether a claim gets in at all depends on whether they trust its source, and trust is built by being understood, not by being right. The evaluation running in their head isn't "is this argument sound" — it's "is this person safe."
+
+**A fact delivered before trust exists is processed as a threat.** It triggers counter-arguing and defensiveness, not updating. The same fact, offered after someone feels understood, can attach to something they already care about — and your listening is what tells you what that is.
+
+**The conversation is not the unit. The relationship is.** An hour of listening keeps the channel open for years; an hour of arguing usually closes it. A friend who felt heard comes back to the topic on their own — and a return they initiate is worth more than any concession you could extract today.
+
+**People reproduce the conversational stance they experienced, not the facts they were hit with.** Someone you listened to can go listen to their own people. Someone you lectured either goes quiet or becomes a lecturer — and lecturers don't propagate. If this topic ever spreads past you, it spreads because of how you treated people, not what you told them. Listening is the only move on the menu that's contagious.
+
+++}Listening is not waiting for your turn, and it is not silence. It is a set of concrete moves:
 
 | Move | What it sounds like (a friend venting about clients using AI art) |
 | :---- | :---- |
