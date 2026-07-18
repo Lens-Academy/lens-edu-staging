@@ -12,7 +12,7 @@ tags:
 content::
 \## Listening is a building block for any good conversation
 
-Every conversational skill runs on trust, and trust is built by being understood. Which means it is built while *they* are talking, not while you are.
+Every conversational skill benefits from trust, and trust is built by being understood. Which means it is built while *they* are talking, not while you are.
 
 Listening is not waiting for your turn, and it is not silence. It is a set of concrete moves:
 
