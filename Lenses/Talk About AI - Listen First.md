@@ -16,11 +16,11 @@ Every other skill in this course — naming the topic, asking permission, sharin
 
 Listening is not waiting for your turn, and it is not silence. It is a set of concrete moves:
 
-| Move | What it sounds like |
+| Move | What it sounds like {++{"author":"Ben's AI","timestamp":1784391992391}@@(a friend venting about clients using AI art) ++}|
 | :---- | :---- |
-| **Reflect back** — say the thing under what they said | *"So the mandatory training bothered you more than the tool itself did."* |
-| **Ask a genuine question** — one you don't know the answer to | *"What did it actually do when you tried it?"* — not *"But don't you think...?"*, which is just a statement |
-| **Follow the energy** — ask about whatever they said with emotional charge | They mention their kid in passing? That aside is what you should ask about next. |
+| **Reflect back** — say the thing under what they said | *"So {++{"author":"Ben's AI","timestamp":1784391992391}@@it's not ++}the {--{"author":"Ben's AI","timestamp":1784391992391}@@mandatory training bothered you more than the tool itself did."*--}{++{"author":"Ben's AI","timestamp":1784391992391}@@tool that stings — it's the client acting like your job got easy."*++} |
+| **Ask a genuine question** — one you don't know the answer to | *"What did {--{"author":"Ben's AI","timestamp":1784391992391}@@it--}{++{"author":"Ben's AI","timestamp":1784391992391}@@they++} actually {--{"author":"Ben's AI","timestamp":1784391992391}@@do--}{++{"author":"Ben's AI","timestamp":1784391992391}@@say++} when you {--{"author":"Ben's AI","timestamp":1784391992391}@@tried it?"*--}{++{"author":"Ben's AI","timestamp":1784391992391}@@pushed back?"*++} — not *"But don't you think...?"*, which is just a statement |
+| **Follow the energy** — ask about whatever they said with emotional charge | They mention {--{"author":"Ben's AI","timestamp":1784391992391}@@their kid in passing?--}{++{"author":"Ben's AI","timestamp":1784391992391}@@offhand that they've stopped updating their portfolio?++} That aside is what you should ask about next. |
 | **Hold your corrections** — when they say something wrong about AI, note it and let it go | The correction can wait months. The trust can't be repaired in months. When people are corrected over details about something they don't know much about, they get defensive. |
 | **Watch your ratio** — if 3 turns of conversation pass by without you asking a question, something has gone wrong | Notice if you are talking at them or asking questions. When you notice you haven't asked a question in a while, do it. |
 
