@@ -14,7 +14,7 @@ content::
 
 Every other skill in this course — naming the topic, asking permission, sharing what you've seen, offering hope — runs on trust, and trust is built by being understood. Which means it is built while *they* are talking, not while you are.
 
-{++{"author":"Ben's AI","timestamp":1784395934613}@@\## Why this works
+\## Why this works
 
 Four mechanisms, worth actually owning — they're what make the moves below more than etiquette.
 
@@ -24,9 +24,9 @@ Four mechanisms, worth actually owning — they're what make the moves below mor
 
 **The relationship is more important than the conversation.** An hour of listening keeps the channel open for years; an hour of arguing can close it. A friend who felt heard may come back to the topic on their own. A return they initiate is worth more any concessions you extract today.
 
-**People reproduce the conversational stance they experienced, not the facts they were hit with.** Someone you listened to can go listen to their own people. Someone you lectured either goes quiet or becomes a lecturer. Lecturers don't propagate. If this topic ever spreads past you, it spreads because of how you treated people, not what you told them. Listening is the contag.
+**People reproduce the conversational stance they experienced, not the facts they were hit with.** Someone you listened to can go listen to their own people. Someone you lectured either goes quiet or becomes a lecturer. Lecturers don't propagate. If this topic ever spreads past you, it spreads because of how you treated people, not what you told them. Listening is the contagious move.
 
-++}Listening is not waiting for your turn, and it is not silence. It is a set of concrete moves:
+Listening is not waiting for your turn, and it is not silence. It is a set of concrete moves:
 
 | Move | What it sounds like (a friend venting about clients using AI art) |
 | :---- | :---- |
