@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1784389511031}@@---
+---
 id: '9e46cfd0-7323-4f8b-8a0f-8d04f0ad0b6f'
 title: Listen First
 tldr: "You can't be trusted with someone's mind until you've shown you can be trusted with their words. This lens: the concrete moves of listening, then a long practice conversation where listening is the only way to win."
@@ -57,4 +57,3 @@ Two minutes, from memory of the conversation:
 assessment-instructions:: The student just finished the Dana roleplay and is extracting the reconnaissance: what she protects and how to reopen the channel. One turn, 60-120 words, no lists, no generic praise.
 
 If they name a surface fact ("she doesn't like the training") when they reached deeper layers, point at the deeper material they heard and ask nothing — just name it. If they reached the son layer and named it, confirm that what she protects is her ability to guide her kid, and note that their reopening line should touch that, not AI. Judge their proposed opening sentence by one bar: does it prove listening ("Did you and your son end up having that talk about majors?") or does it restart a pitch ("I found an article you should read")? If it's a pitch, rewrite it for them in one sentence. Close by telling them the module test is next.
-++}
