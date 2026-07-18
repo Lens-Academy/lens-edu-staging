@@ -18,7 +18,7 @@ Every other skill in this course — naming the topic, asking permission, sharin
 
 Four mechanisms, worth actually owning — they're what make the moves below more than etiquette.
 
-**People evaluate the messenger before the message.** Whether a claim gets in at all depends on whether they trust its source, and trust is built by being understood, not by being right. The evaluation running in their head isn't "is this argument sound" — it's "is this person safe."
+**People evaluate the messenger before the message.** Whether a claim gets in at all depends on whether they trust its source, and trust is built by being understood, not by being right. The evaluation running in their head isn't "is this argument sound" — it's "."
 
 **A fact delivered before trust exists is processed as a threat.** It triggers counter-arguing and defensiveness, not updating. The same fact, offered after someone feels understood, can attach to something they already care about — and your listening is what tells you what that is.
 
