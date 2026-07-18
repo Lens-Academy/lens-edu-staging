@@ -53,6 +53,4 @@ However, in some cases, you can be fairly certain of making a positive counterfa
 
 ## Considering leverage
 
-All in all, we think it’s important to take leverage seriously when making career decisions. This might not mean pursuing a high-leverage role immediately, but it could mean getting yourself in a [good position to take on](https://probablygood.org/core-concepts/career-capital/) an influential role in the future.{--{"author":"Luc's AI","timestamp":1784381928983}@@
-
-You can also explore--}
+All in all, we think it’s important to take leverage seriously when making career decisions. This might not mean pursuing a high-leverage role immediately, but it could mean getting yourself in a [good position to take on](https://probablygood.org/core-concepts/career-capital/) an influential role in the future.

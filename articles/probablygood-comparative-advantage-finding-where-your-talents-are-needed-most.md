@@ -39,6 +39,4 @@ But if you don’t have good information about what skills are in demand, then y
 
 If you’re good at something that not many others are, and which can be applied to tackling important problems, then you might have a comparative advantage in this skill. And if you have a particular _set_ of skills that are rarely present together (for example, someone who is both technically gifted and a great [people manager](https://probablygood.org/career-profiles/people-management/)), then there’s an even greater chance that a career using all these skills will be your comparative advantage.
 
-However, when you aren’t even able to know where different skills are needed most, it might not be helpful to think in terms of comparative advantage. Instead, see our [career guide](https://probablygood.org/career-guide/) for an overview of the more general considerations you should consider when choosing an impactful career.{--{"author":"Luc's AI","timestamp":1784381928027}@@
-
-You can also explore--}
+However, when you aren’t even able to know where different skills are needed most, it might not be helpful to think in terms of comparative advantage. Instead, see our [career guide](https://probablygood.org/career-guide/) for an overview of the more general considerations you should consider when choosing an impactful career.
