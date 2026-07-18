@@ -21,7 +21,7 @@ Listening is not waiting for your turn, and it is not silence. It is a set of co
 | **Reflect back** — say the thing under what they said | *"So the mandatory training bothered you more than the tool itself did."* |
 | **Ask a genuine question** — one you don't know the answer to | *"What did it actually do when you tried it?"* — not *"But don't you think...?"*, which is just a statement |
 | **Follow the energy** — ask about whatever they said with emotional charge | They mention their kid in passing? That aside is what you should ask about next. |
-| **Hold your corrections** — when they say something wrong about AI, note it and let it go | The correction can wait months. The trust can't be repaired in months. When people are corrected over  |
+| **Hold your corrections** — when they say something wrong about AI, note it and let it go | The correction can wait months. The trust can't be repaired in months. When people are corrected over details about something they don't |
 | **Watch your ratio** — three statements in a row is a lecture forming | When you notice it, your next sentence ends in a question mark. |
 
 And listen *for* something. A first conversation is reconnaissance, not persuasion. You're learning three things: what contact they already have with AI (their job, their feed, their kids' homework), what they protect (their craft, their family, their sense of the future), and what frame they're currently holding ("it's hype," "it's a tool," "it's sci-fi"). Those three things are where every future conversation will attach.
