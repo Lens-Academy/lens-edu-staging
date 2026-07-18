@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1784387020656}@@---
+---
 id: '98a62845-32de-4f83-b460-be2284393750'
 learning-outcome: "Explain why listening precedes persuasion in relational conversations about AI: people evaluate messengers before messages, trust is built by being understood, and a fact delivered before trust exists is processed as a threat rather than as information"
 authors:
@@ -25,5 +25,4 @@ Score according to the following rubric.
 
 **4** — As above, plus articulates that the conversation is not the unit — the relationship is. One hour of listening keeps the channel open indefinitely; one hour of arguing usually closes it. A friend who felt heard returns to the topic on their own, and a self-initiated return is worth more than any concession extracted in the moment. *Example: Adds "The urgency actually argues for listening, not against it. If the topic matters for years, the thing to optimize is whether there's a second conversation. People reopen topics with people who listened, and they avoid people who argued."*
 
-**5** — As above, plus the propagation-level implication: conversations spread through trust networks, and people can only pass on the conversational stance they experienced, not the facts they were hit with. Someone who was listened to can go listen to their own people; someone who was lectured either goes silent or becomes a lecturer, and lecturers don't propagate. *Example: Adds "If this ever spreads past me, it spreads because the person I talked to talks to someone else. They'll reproduce how I treated them, not what I told them. Listening is the only thing on the menu that's actually contagious."*
-++}
+**5** — As above, plus the propagation-level implication: conversations spread through trust networks, and people can only pass on the conversational stance they experienced, not the facts they were hit with. Someone who was listened to can go listen to their own people; someone who was lectured either goes silent or becomes a lecturer, and lecturers don't propagate. *Example: Adds "If this ever spreads past me, it spreads because the person I talked to talks to someone else. They'll reproduce how I treated them, not what I told them. Listening is the contagious strategy."*
