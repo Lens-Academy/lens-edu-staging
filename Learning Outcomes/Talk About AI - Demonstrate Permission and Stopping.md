@@ -1,4 +1,4 @@
-{++{"author":"Ben's AI","timestamp":1784388088461}@@---
+---
 id: 'bf4ef9b3-09cc-4139-a7f8-419ce7a885e2'
 learning-outcome: "Demonstrate asking genuine, declinable permission before sharing your view and stopping completely when asked — no parting shot, no bargaining — and explain why an honored boundary is what makes future conversations possible"
 authors:
@@ -30,4 +30,3 @@ Score according to the following rubric. The dialogue is the required core: if t
 **4** — As above, plus explains the mechanism of each move: a declinable ask transfers control, and that transfer is what makes a "yes" mean something — consent you couldn't refuse isn't consent. A clean stop is the strongest trust evidence available in the conversation, because it proves, behaviorally, that the relationship outranks the agenda. *Example: Adds "The ask only works because they can actually say no — if they can't, their yes is just politeness and I've learned nothing. And the stop is where they find out whether I meant it: stopping cleanly is the one move that can't be faked."*
 
 **5** — As above, plus recognizes that how you stop **is** the message: it teaches the person what kind of interlocutor you are, and people reopen topics with people who stopped cleanly. The reopening — them raising it, on their own, later — is worth more than anything you could have said in the sentence you were cut off from finishing. *Example: Adds "Getting cut off is not the conversation failing; it's the conversation's real test. If I stop well, there's a decent chance the next conversation about AI is one they start — and that conversation is worth ten of the one I just lost."*
-++}
