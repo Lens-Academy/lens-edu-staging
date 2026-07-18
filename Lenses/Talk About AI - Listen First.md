@@ -48,7 +48,7 @@ assessment-instructions:: Debrief out of character, 120-200 words. Report, concr
 
 #### Question
 content::
-{--{"author":"Ben's AI","timestamp":1784390929635}@@##--}{++{"author":"Ben's AI","timestamp":1784390929635}@@!##++} What did you learn about Dana?
+!## What did you learn about Dana?
 Two minutes, from memory of the conversation:
 - What does Dana actually care about most? (Not "AI" — the thing under it.)
 - Next time you see her, what's one sentence you could open with that shows her you heard her?
