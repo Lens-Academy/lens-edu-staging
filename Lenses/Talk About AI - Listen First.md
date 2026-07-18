@@ -10,7 +10,7 @@ tags:
 ---
 #### Text
 content::
-{--{"author":"Ben's AI","timestamp":1784391742497}@@!##--}{++{"author":"Ben's AI","timestamp":1784391742497}@@\##++} The skill under everything else
+\## The skill under everything else
 
 Every other skill in this course — naming the topic, asking permission, sharing what you've seen, offering hope — runs on trust, and trust is built by being understood. Which means it is built while *they* are talking, not while you are.
 
@@ -48,7 +48,7 @@ assessment-instructions:: Debrief out of character, 120-200 words. Report, concr
 
 #### Question
 content::
-!## What did you learn about Dana?
+{--{"author":"Ben's AI","timestamp":1784391750956}@@!##--}{++{"author":"Ben's AI","timestamp":1784391750956}@@\##++} What did you learn about Dana?
 Two minutes, from memory of the conversation:
 - What does Dana actually care about most? (Not "AI" — the thing under it.)
 - Next time you see her, what's one sentence you could open with that shows her you heard her?
