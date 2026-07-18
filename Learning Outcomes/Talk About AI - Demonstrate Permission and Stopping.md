@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1784387061674}@@---
+{++{"author":"Ben's AI","timestamp":1784388082210}@@---
 id: 'bf4ef9b3-09cc-4139-a7f8-419ce7a885e2'
 learning-outcome: "Demonstrate asking genuine, declinable permission before sharing your view and stopping completely when asked — no parting shot, no bargaining — and explain why an honored boundary is what makes future conversations possible"
 authors:
@@ -11,11 +11,13 @@ tags:
 ## Test:
 id:: 27749ecb-d544-40fd-be2a-35b23366f2f4
 #### Question
-content:: Two moments from one conversation. Write your **actual next words** for each — the exact sentences you would say out loud, not a description of your approach.
+content:: Two moments from one conversation.
 
 **(a)** Your cousin has spent ten minutes telling you about using ChatGPT at work. You have a view about where all this is headed, and you'd like to share it.
 
 **(b)** Later, a few sentences into your view, they cut you off: "Okay, honestly — can we talk about literally anything else."
+
+**For each moment, write your actual next words — the exact sentences you would say out loud. Then, after both, briefly explain why those words: what does the ask have to do to be a real ask, and what does the stop have to do to be a real stop?**
 
 assessment-instructions::
 Score according to the following rubric. The student must supply verbatim dialogue for both moments; if they describe a strategy instead of writing the words, score no higher than 2 and ask for the actual sentences.
