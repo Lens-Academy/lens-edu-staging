@@ -26,6 +26,16 @@ Listening is not waiting for your turn, and it is not silence. It is a set of co
 
 And listen *for* something. A first conversation is reconnaissance, not persuasion. You're learning three things: what contact they already have with AI (their job, their social media feed, their kids' homework), what they protect (their craft, their family, their sense of the future), and what frame they're currently holding ("it's hype," "it's a tool," "it's sci-fi"). Those three things guide every future conversation.
 
+\## Why this works
+
+**People evaluate the messenger before the message.** Whether a claim gets in at all depends on whether they trust its source, and trust is built by being understood, not by being right. The evaluation running in their head isn't "is this argument sound" — it's "does this person get me."
+
+**A fact delivered before trust exists is processed as a threat.** It triggers counter-arguing and defensiveness, not updating. The same fact, offered after someone feels understood, can attach to something they already care about. Your listening is what tells you what that is.
+
+**The relationship is more important than the conversation.** An hour of listening keeps the channel open for years; an hour of arguing can close it. A friend who felt heard may come back to the topic on their own. A return they initiate is worth more any concessions you extract today.
+
+**People reproduce the conversational stance they experienced, not the facts they were hit with.** Someone you listened to can go listen to their own people. Someone you lectured either goes quiet or becomes a lecturer. Lecturers don't propagate. If this topic ever spreads past you, it spreads because of how you treated people, not what you told them. Listening is the contagious move.
+
 #### Roleplay
 id:: 9a599423-8861-4902-9fa3-6c9ef9a57faf
 content::
