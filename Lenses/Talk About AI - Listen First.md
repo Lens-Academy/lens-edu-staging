@@ -22,7 +22,7 @@ Four mechanisms, worth actually owning — they're what make the moves below mor
 
 **A fact delivered before trust exists is processed as a threat.** It triggers counter-arguing and defensiveness, not updating. The same fact, offered after someone feels understood, can attach to something they already care about. Your listening is what tells you what that is.
 
-**The relashionship is more important than the conversation.** An hour of listening keeps the channel open for years; an hour of arguing usually closes it. A friend who felt heard comes back to the topic on their own — and a return they initiate is worth more than any concession you could extract today.
+**The relationship is more important than the conversation.** An hour of listening keeps the channel open for years; an hour of arguing usually closes it. A friend who felt heard comes back to the topic on their own — and a return they initiate is worth more than any concession you could extract today.
 
 **People reproduce the conversational stance they experienced, not the facts they were hit with.** Someone you listened to can go listen to their own people. Someone you lectured either goes quiet or becomes a lecturer — and lecturers don't propagate. If this topic ever spreads past you, it spreads because of how you treated people, not what you told them. Listening is the only move on the menu that's contagious.
 
