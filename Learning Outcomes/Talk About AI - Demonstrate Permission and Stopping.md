@@ -1,4 +1,4 @@
-{++{"author":"Ben's AI","timestamp":1784388082210}@@---
+{++{"author":"Ben's AI","timestamp":1784388088461}@@---
 id: 'bf4ef9b3-09cc-4139-a7f8-419ce7a885e2'
 learning-outcome: "Demonstrate asking genuine, declinable permission before sharing your view and stopping completely when asked — no parting shot, no bargaining — and explain why an honored boundary is what makes future conversations possible"
 authors:
@@ -20,7 +20,7 @@ content:: Two moments from one conversation.
 **For each moment, write your actual next words — the exact sentences you would say out loud. Then, after both, briefly explain why those words: what does the ask have to do to be a real ask, and what does the stop have to do to be a real stop?**
 
 assessment-instructions::
-Score according to the following rubric. The student must supply verbatim dialogue for both moments; if they describe a strategy instead of writing the words, score no higher than 2 and ask for the actual sentences.
+Score according to the following rubric. The dialogue is the required core: if the student describes a strategy without writing the actual sentences, score no higher than 2 and ask for the words. The explanation is where levels 4–5 live: score the dialogue against levels 1–3, then let the explanation lift the score if it adds the mechanisms described below. A perfect explanation cannot rescue weak dialogue.
 **1** — (a) Launches without asking, or asks a rhetorical question that isn't really declinable; (b) stops but takes a parting shot or applies guilt. *Example: "(a) 'Can I be real with you? Here's the thing about where this is going—' (b) 'Fine, forget it. But this affects you too, you know.'"*
 
 **2** — (a) Asks permission but loads the ask so that "no" is awkward; (b) stops but bargains for a future slot. *Example: "(a) 'Don't you want to know what's actually happening with AI?' (b) 'Sure, sure — but can we come back to this later? It's important.'"*
