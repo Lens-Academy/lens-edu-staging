@@ -29,7 +29,7 @@ And listen *for* something. A first conversation is reconnaissance, not persuasi
 #### Roleplay
 id:: '9a599423-8861-4902-9fa3-6c9ef9a57faf'
 content::
-\## Practice: lunch with Dana
+\# Practice: lunch with Dana
 
 Dana is a coworker you like. You have opinions about AI you'd love to share, but this drill measures you ability to find out what is on Dana's mind. Take your time; this is a long conversation, not a quiz. See how deep she'll let you go.
 opening-message:: So apparently we're all doing "AI upskilling training" next month. It's mandatory. My manager keeps saying it's "an opportunity." *laughs* Anyway. How's your week been?
