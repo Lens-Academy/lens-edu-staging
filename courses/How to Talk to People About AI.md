@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1784392848862}@@---
+---
 id: '8e6c3488-a5a5-48db-b6ec-d924644d36fb'
 slug: how-to-talk-to-people-about-ai
 title: "How to Talk to People About AI"
@@ -7,4 +7,3 @@ tags:
   - wip
 ---
 # Module: [[../modules/Talk About AI M1 The First Conversation]]
-++}
