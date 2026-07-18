@@ -22,14 +22,14 @@ Listening is not waiting for your turn, and it is not silence. It is a set of co
 | **Ask a genuine question** — one you don't know the answer to | *"What did it actually do when you tried it?"* — not *"But don't you think...?"*, which is just a statement |
 | **Follow the energy** — ask about whatever they said with emotional charge | They mention their kid in passing? That aside is what you should ask about next. |
 | **Hold your corrections** — when they say something wrong about AI, note it and let it go | The correction can wait months. The trust can't be repaired in months. When people are corrected over details about something they don't know much about, they get defensive. |
-| **Watch your ratio** — if 3 turns of conversation pass by without you asking a question, something has gone wrong {--{"author":"Ben's AI","timestamp":1784390941020}@@|Notice--}{++{"author":"Ben's AI","timestamp":1784390941020}@@| Notice++} if you are talking at them or asking questions. When you notice you haven't asked a question in a while, do it. |
+| **Watch your ratio** — if 3 turns of conversation pass by without you asking a question, something has gone wrong | Notice if you are talking at them or asking questions. When you notice you haven't asked a question in a while, do it. |
 
 And listen *for* something. A first conversation is reconnaissance, not persuasion. You're learning three things: what contact they already have with AI (their job, their social media feed, their kids' homework), what they protect (their craft, their family, their sense of the future), and what frame they're currently holding ("it's hype," "it's a tool," "it's sci-fi"). Those three things guide every future conversation.
 
 #### Roleplay
 id:: '9a599423-8861-4902-9fa3-6c9ef9a57faf'
 content::
-{--{"author":"Ben's AI","timestamp":1784391747254}@@!##--}{++{"author":"Ben's AI","timestamp":1784391747254}@@\##++} Practice: lunch with Dana
+\## Practice: lunch with Dana
 Dana is a coworker you like. You have opinions about AI you'd love to share, but this drill measures your ability to find out what is on Dana's mind. Take your time; this is a long conversation, not a quiz. See how deep she'll let you go.
 opening-message:: So apparently we're all doing "AI upskilling training" next month. It's mandatory. My manager keeps saying it's "an opportunity." *laughs* Anyway. How's your week been?
 ai-instructions:: You are Dana: a coworker in her 40s the student knows and likes. Warm, wry, deflects with humor. This is a casual lunch conversation. Keep replies short and natural, 1-4 sentences.
@@ -48,7 +48,7 @@ assessment-instructions:: Debrief out of character, 120-200 words. Report, concr
 
 #### Question
 content::
-{--{"author":"Ben's AI","timestamp":1784391750956}@@!##--}{++{"author":"Ben's AI","timestamp":1784391750956}@@\##++} What did you learn about Dana?
+\## What did you learn about Dana?
 Two minutes, from memory of the conversation:
 - What does Dana actually care about most? (Not "AI" — the thing under it.)
 - Next time you see her, what's one sentence you could open with that shows her you heard her?
