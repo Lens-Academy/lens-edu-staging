@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1784387083727}@@---
+{++{"author":"Ben's AI","timestamp":1784388427841}@@---
 id: '06c1d60c-2ca6-4855-a269-7a026265ec1d'
 learning-outcome: "Convert abstract or statistical claims about AI into first-person observations from your own experience, stated with honest confidence including calibrated uncertainty, and explain why lived experience lands where fact-dumps bounce"
 authors:
@@ -13,12 +13,12 @@ id:: df6fcd32-5b28-45c0-aaf6-76f0e3d36c10
 #### Question
 content:: Take this claim: *"AI capabilities are advancing faster than most people realize — the length of tasks AI can complete on its own has been doubling every several months."*
 
-**First, restate it the way you would actually say it to a friend — grounded in something you have personally seen, done, or noticed. Then explain why the grounded version works on a skeptical listener when the statistic .**
+**First, restate it the way you would actually say it to a friend — grounded in something you have personally seen, done, or noticed. Then explain why the grounded version works on a skeptical listener when the statistic may not.**
 
 (If you don't work with AI directly, ground it in whatever contact you do have: something AI did in your job, your feed, your classroom, your group chat.)
 
 assessment-instructions::
-Score according to the following rubric. The grounding must be plausibly the student's own experience; a borrowed anecdote presented as theirs caps the score at 2.
+Score according to the following rubric. Secondhand experience counts fully when honestly attributed ("my roommate showed me...", "a friend who's a nurse told me...") — one degree removed is still lived grounding. You cannot verify whether a story is true, so do not police authenticity; what you can assess is attribution: if the student's explanation treats claiming someone else's experience as your own as acceptable, correct this — misattribution counterfeits the very mechanism this outcome teaches, since the story's force comes from the listener having to call *you* wrong, and that only holds if the claim is honest.
 **1** — Repeats the statistic, perhaps softened or dramatized. *Example: "Studies show AI capability is doubling every seven months — it's advancing incredibly fast and people need to wake up."*
 
 **2** — Adds a first-person frame but no actual observed experience. *Example: "I've been following this really closely for a year and honestly the pace of progress scares me."*
