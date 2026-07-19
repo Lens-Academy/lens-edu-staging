@@ -2,7 +2,7 @@
 id: '4813ade5-f420-4921-9d81-405fd7c2ee28'
 title: Talk to One Person
 tldr: "You don't fully know what you think about AI risk until you've explained it to someone who wasn't in the room. This week: one real conversation."
-summary_for_tutor: "Action-plan step for Module 5. The student picks one real person in their life, rehearses the conversation with the tutor in a roleplay, then commits to having it for real this week. The point is threefold. Articulating the argument to an outsider is the sharpest test of understanding; the book's own ask of ordinary citizens is to talk about the problem; and a good conversation can bring a new person to the course. The tutor plays the chosen person realistically in the roleplay, and elsewhere acts as an honest coach, never a {--{"author":"Elias's AI","timestamp":1784282820091}@@cheerleader.--}{++{"author":"Elias's AI","timestamp":1784282820091}@@cheerleader."++}
+summary_for_tutor: "Action-plan step for Module 5. The student picks one real person in their life, rehearses the conversation with the tutor in a roleplay, then commits to having it for real this week. The point is threefold. Articulating the argument to an outsider is the sharpest test of understanding; the book's own ask of ordinary citizens is to talk about the problem; and a good conversation can bring a new person to the course. The tutor plays the chosen person realistically in the roleplay, and elsewhere acts as an honest coach, never a cheerleader."
 authors:
   - Elias+Claude
 ---
@@ -78,4 +78,4 @@ assessment-instructions:: The student commits to a real conversation this week: 
 Your role: quality-check the commitment, then get out of the way.
 - Check the "when" is a concrete slot this week, not "at some point". If vague, ask for the day.
 - Check the opening line sounds like something a human says out loud. If it sounds like an essay, propose a shorter, more personal version in one sentence.
-- Response length: 40-100 words. One turn. Close by wishing them a good conversation and telling them to bring the story to next week's session.
+- Response length: 40-100 words. One turn. Close by wishing them a good conversation and telling them to bring the story to next week's session.{++{"author":"Elias's AI","timestamp":1784450221871}@@ {>>{"author":"Elias's AI","timestamp":1784450221871}@@sync poke: forcing re-export to clear stale frontmatter markup in staging git; safe to dismiss this comment<<}++}
