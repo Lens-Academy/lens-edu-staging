@@ -14,6 +14,10 @@ authors:
 # Lens: M5 Welcome
 source:: ![[../Lenses/IABIED - M5 Welcome]]
 
+# Submodule: Your Action Plan
+# Lens: IABIED - Talk to One Person
+source:: ![[../Lenses/IABIED - Talk to One Person]]
+
 # Submodule: Ch10 - A Cursed Problem
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/11 - Chapter 10 - A Cursed Problem]]
 
