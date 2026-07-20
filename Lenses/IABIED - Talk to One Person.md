@@ -12,7 +12,7 @@ content::
 Last module you mapped your strengths. This week's step is smaller and harder: talk to one person you know about what you've been reading.
 
 Three reasons this is worth your time:
-- **It's the {~~{"author":"Ben Aybar","timestamp":1784474953644}@@sharpest~>best~~} test of your own understanding.** Inside this course, everyone shares vocabulary. Explaining the argument to someone who has never heard of instrumental convergence shows you {~~{"author":"Ben Aybar","timestamp":1784475030741}@@exactly which parts you actually own~>what you know~~} and w{++{"author":"Ben Aybar","timestamp":1784475056166}@@hat++}{--{"author":"Ben Aybar","timestamp":1784475051933}@@hich--} parts you were only nodding along to.
+- **It's the best test of your own understanding.** Inside this course, everyone shares vocabulary. Explaining the argument to someone who has never heard of instrumental convergence shows you {~~{"author":"Ben Aybar","timestamp":1784475030741}@@exactly which parts you actually own~>what you know~~} and w{++{"author":"Ben Aybar","timestamp":1784475056166}@@hat++}{--{"author":"Ben Aybar","timestamp":1784475051933}@@hich--} parts you were only nodding along to.
 - **It's the book's own ask.** The authors' call to ordinary citizens is not "become a researcher", it's to talk about the problem, because leaders can only act on risks their people are already taking seriously.
 - **It grows the room.** If the conversation lands, you might bring the person along. A friend who reads the same chapters is worth ten strangers who agree with you.
 
