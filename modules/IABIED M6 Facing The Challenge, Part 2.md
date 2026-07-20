@@ -129,11 +129,11 @@ source:: [[../Lenses/IABIED - The Two Prayers - PQ]]
 ## Lens:
 source:: [[../Lenses/IABIED - The Two Prayers]]
 
-# Submodule: {++{"author":"Elias's AI","timestamp":1784474451617}@@Your Action Plan
+# Submodule: Your Action Plan
 # Lens: IABIED - How Did It Go
 source:: ![[../Lenses/IABIED - How Did It Go]]
 
-# Submodule: ++}Dive Deeper
+# Submodule: Dive Deeper
 # Lens: Overview of Optional Resources
 id:: 79671536-5615-4807-8f08-ff039c8a525e {>>{"author":"Elias's AI","timestamp":1783777472333}@@replaced hand-typed placeholder id (invalid uuid4 variant) with a fresh uuid4<<}
 tldr:: Deeper on the closing chapters? The book's supplementary Q&As take on the hardest objections to "shut it down": "what about the benefits?", "can technology really be stopped?", "isn't this too much power for governments?", grouped by chapter.
