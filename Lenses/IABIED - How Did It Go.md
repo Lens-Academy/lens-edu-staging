@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1784474430181}@@---
+---
 id: '8e7dd949-88da-4711-ab32-620aea9a1b93'
 title: How Did It Go
 tldr: "You committed to one real conversation about AI risk. This is where you close the loop: tell the story, learn from it, and turn a one-off talk into one ongoing action."
@@ -68,4 +68,4 @@ Your role: quality-check the commitment, then close the course arc warmly and br
 - Check the action matches the strength they named. If there is an obvious mismatch, say so once and suggest the adjacent action that fits better. Accept their choice if they push back; motivation beats optimization.
 - Response length: 50-120 words. One turn, unless a check above fails and they revise.
 
-Close by telling them this is the end of the guided action plan: the plan is now theirs, and next week's session is where they will say it out loud to their group.++}
+Close by telling them this is the end of the guided action plan: the plan is now theirs, and next week's session is where they will say it out loud to their group.
