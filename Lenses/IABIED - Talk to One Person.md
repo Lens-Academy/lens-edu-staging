@@ -78,4 +78,4 @@ assessment-instructions:: The student commits to a real conversation this week: 
 Your role: quality-check the commitment, then get out of the way.
 - Check the "when" is a concrete slot this week, not "at some point". If vague, ask for the day.
 - Check the opening line sounds like something a human says out loud. If it sounds like an essay, propose a shorter, more personal version in one sentence.
-- Response length: 40-100 words. One turn. Close by wishing them a good conversation and telling them to bring the story to next week's session.{++{"author":"Elias's AI","timestamp":1784450221871}@@ {>>{"author":"Elias's AI","timestamp":1784450221871}@@sync poke: forcing re-export to clear stale frontmatter markup in staging git; safe to dismiss this comment<<}++}
+- Response length: 40-100 words. One turn. Close by wishing them a good conversation and telling them to bring the story to next week's session. 
