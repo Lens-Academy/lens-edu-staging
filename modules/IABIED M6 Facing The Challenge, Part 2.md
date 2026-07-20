@@ -135,7 +135,7 @@ source:: ![[../Lenses/IABIED - How Did It Go]]
 
 # Submodule: Dive Deeper
 # Lens: Overview of Optional Resources
-id:: 79671536-5615-4807-8f08-ff039c8a525e {>>{"author":"Elias's AI","timestamp":1783777472333}@@replaced hand-typed placeholder id (invalid uuid4 variant) with a fresh uuid4<<}
+id:: 79671536-5615-4807-8f08-ff039c8a525e
 tldr:: Deeper on the closing chapters? The book's supplementary Q&As take on the hardest objections to "shut it down": "what about the benefits?", "can technology really be stopped?", "isn't this too much power for governments?", grouped by chapter.
 summary_for_tutor:: Optional Dive Deeper index lens for Module 6. Links the book website's supplementary Q&A cards for Chapter 12 ("I Don't Want to Be Alarmist") and Chapter 13 ("Shut It Down"), covering objections such as the benefits of AI, whether technology can be stopped, the draft treaty, chip-ownership control, and concentrating power in governments. A navigation and index lens only; it carries no standalone teaching content of its own.
 
