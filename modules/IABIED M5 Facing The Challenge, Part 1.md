@@ -56,7 +56,7 @@ source:: ![[../Lenses/IABIED - Strong Superalignment Objection - PQ]]
 # Lens:
 source:: ![[../Lenses/IABIED - Strong Superalignment Objection]]
 
-# Submodule: Your Action Plan
+# Submodule: Talk to
 # Lens: IABIED - Talk to One Person
 source:: ![[../Lenses/IABIED - Talk to One Person]]
 
