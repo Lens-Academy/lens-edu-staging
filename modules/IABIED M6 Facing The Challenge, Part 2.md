@@ -14,7 +14,7 @@ readings:
 # Lens: Welcome
 id:: a3154792-e84d-40d0-b6ed-90f65f89e3f6
 tldr:: The final week: why the AI industry's incentives push toward catastrophe, what a worldwide halt on frontier development would actually require, and why the authors still find room for hope. Three chapters plus the closing words, from leaded gasoline to WWII mobilization to "humanity has chosen not to die before."
-summary_for_tutor:: Welcome and framing lens for Module 6, the final reading week, covering IABIED Chapters 12 ("I Don't Want to Be Alarmist"), 13 ("Shut It Down"), and 14 ("Where There's Life, There's Hope") plus the Closing Words. Previews the perverse-incentive argument (Thomas Midgley, the ladder-in-the-dark, experts downplaying risk), the concrete policy proposal for a worldwide halt on frontier AI (GPU consolidation, international monitoring, treaty mechanisms, the WWII-mobilization analogy), and the closing case for qualified hope via the nuclear-war precedent. Precedes the chapter lenses and a tutor chat covering these concepts.
+summary_for_tutor:: Welcome and framing lens for Module 6, the final reading week, covering IABIED Chapters 12 ("I Don't Want to Be Alarmist"), 13 ("Shut It Down"), and 14 ("Where There's Life, There's Hope") plus the Closing Words. Previews the perverse-incentive argument (Thomas Midgley, the ladder-in-the-dark, experts downplaying risk), the concrete policy proposal for a worldwide halt on frontier AI (GPU consolidation, international monitoring, treaty mechanisms, the WWII-mobilization analogy), and the closing case for qualified hope via the nuclear-war precedent. Precedes the chapter lenses and a tutor chat covering these concepts.{++{"author":"Elias's AI","timestamp":1784627675817}@@ Also frames the module's action-plan arc: a conversation debrief follows right after this welcome, and the final ongoing-commitment step sits at the end of the module.++}
 
 #### Text
 content:: In our final reading week, we confront the incentive structures that drive the AI industry, the authors' case for a worldwide halt on frontier AI development, and, crucially, the reasons for hope. This is the largest reading assignment, covering three chapters plus the closing words.
@@ -23,7 +23,9 @@ Chapter 12 opens with Thomas Midgley Jr., who invented both leaded gasoline and 
 
 Chapter 13 lays out the concrete policy proposal: a worldwide halt on frontier AI development, enforced through GPU consolidation, international monitoring, and treaty mechanisms. The WWII mobilization serves as the central analogy: "not even 1% as costly as WWII."
 
-Chapter 14 ends on a note of qualified hope, invoking the nuclear war precedent: humanity has chosen not to die before. The closing words offer a prayer: "May we be wrong, and shamed for how incredibly wrong we were."
+Chapter 14 ends on a note of qualified hope, invoking the nuclear war precedent: humanity has chosen not to die before. The closing words offer a prayer: "May we be wrong, and shamed for how incredibly wrong we were."{++{"author":"Elias's AI","timestamp":1784627669110}@@
+
+One thing before the reading: last module you committed to one real conversation about AI risk. The next step closes that loop, whatever happened. And at the very end of this module, the last step of your action plan turns that conversation into one ongoing commitment.++}
 %%
 **This week's reading:** Chapter 12 ("I Don't Want to Be Alarmist") + Chapter 13 ("Shut It Down") + Chapter 14 ("Where There's Life, There's Hope") + Closing Words. After reading, come back here to discuss with the tutor.
 
@@ -55,7 +57,11 @@ Discussion topics to explore:
 Ask what they found surprising or new. Check if they can explain the ladder-in-the-dark incentive problem in their own words, since it's a key concept.
 
 %%
-# Submodule: Chapter 12: I Don't Want to Be Alarmist
+# Submodule: {++{"author":"Elias's AI","timestamp":1784627661601}@@Your Conversation
+# Lens: IABIED - How Did It Go
+source:: ![[../Lenses/IABIED - How Did It Go]]
+
+# Submodule: ++}Chapter 12: I Don't Want to Be Alarmist
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/13 - Chapter 12 - I Don't Want to Be Alarmist]]
 
 ## Learning Outcome: IABIED - The One-Chance Problem
@@ -130,8 +136,8 @@ source:: [[../Lenses/IABIED - The Two Prayers - PQ]]
 source:: [[../Lenses/IABIED - The Two Prayers]]
 
 # Submodule: Your Action Plan
-# Lens: IABIED - How Did It Go
-source:: ![[../Lenses/IABIED - How Did It Go]]
+# Lens: IABIED - {--{"author":"Elias's AI","timestamp":1784627652957}@@How Did It Go--}{++{"author":"Elias's AI","timestamp":1784627652957}@@Your Ongoing Action++}
+source:: ![[../Lenses/IABIED - {--{"author":"Elias's AI","timestamp":1784627652957}@@How Did It Go]]--}{++{"author":"Elias's AI","timestamp":1784627652957}@@Your Ongoing Action]]++}
 
 # Submodule: Dive Deeper
 # Lens: Overview of Optional Resources
