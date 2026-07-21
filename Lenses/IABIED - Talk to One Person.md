@@ -9,6 +9,7 @@ authors:
 #### Text
 content::
 **Your action plan, step 2: leave the building**
+
 Last module you mapped your strengths. This week's step is smaller and harder: talk to one person you know about what you've been reading.
 
 Three reasons this is worth your time:
