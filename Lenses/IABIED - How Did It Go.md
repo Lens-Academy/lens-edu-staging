@@ -9,7 +9,7 @@ authors:
 #### Text
 content::
 \## How did your conversation go?
-In Module 5 you set out to have one real conversation about what you have been reading. Before you start the final chapters, close the loop on that conversation here. The last step of your action plan, choosing the action that continues, waits at the end of this module.
+In Module 5 you set out to have one real conversation about what you have been reading. Before you start the final chapters, close the loop on that conversation here.
 
 #### Question
 content::
