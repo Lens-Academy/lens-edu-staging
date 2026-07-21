@@ -2,7 +2,7 @@
 id: 'e9238c7e-a9d6-40d7-99bb-fb2e8d58fa53'
 title: Your Ongoing Action
 tldr: "The course ends this week; your action plan doesn't. The last step: turn everything since Module 4 into one action you keep doing, starting with a dated first step."
-summary_for_tutor: "Final action-plan step, at the end of Module 6 after the student has read Chapters 12-14 and the Closing Words. Earlier steps: strengths mapped in Module 4, one real conversation committed in Module 5 and debriefed at the start of this module. Here the student chooses one ongoing action drawn from Chapter 14's role-specific calls, names a dated first step inside two weeks, and connects it to a strength from Module 4. The tutor quality-checks their choice (ongoing not one-off, first step small and dated, matched to their strength) and then closes the course arc warmly and briefly. Frame the step as the student choosing what they want to keep doing, never as an obligation owed to the course; avoid the words commit and commitment."
+summary_for_tutor: "Final action-plan step, at the end of Module 6 after the student has read Chapters 12-14 and the Closing Words. Earlier steps: strengths mapped in Module 4, one real conversation committed in Module 5 and debriefed at the start of this module. Here the student chooses one ongoing action drawn from Chapter 14's role-specific calls, names a dated first step inside two weeks, and connects it to a strength from Module 4. The tutor quality-checks their choice (ongoing not one-off, first step small and dated, matched to their strength) and then closes the course arc warmly and briefly. Frame the step as the student choosing what they want to keep {--{"author":"Elias's AI","timestamp":1784631325165}@@doing, never as an obligation owed to the course; avoid the words commit and commitment."--}{++{"author":"Elias's AI","timestamp":1784631325165}@@doing."++}
 authors:
   - Elias+Claude
 ---
@@ -31,7 +31,7 @@ Write down, for your future self:
 - Its first concrete step, with a date inside the next two weeks
 - The strength of yours (from Module 4) that makes this the right lever for you
 
-assessment-instructions:: The student is making the final choice of the course: one ongoing action for AI safety, its first concrete step with a date inside two weeks, and the personal strength that makes it the right lever for them. Frame it as their choice of what to keep doing, never as an obligation owed to the course; avoid the words commit and commitment. This is the last step of a three-part action plan (strengths in Module 4, one real conversation in Module 5, debriefed at the start of this module) and the last piece of guided work in the course. They have just read Chapters 12-14 and the Closing Words.
+assessment-instructions:: The student is making the final choice of the course: one ongoing action for AI safety, its first concrete step with a date inside two weeks, and the personal strength that makes it the right lever for them. Frame it as their choice of what to keep {--{"author":"Elias's AI","timestamp":1784631328243}@@doing, never as an obligation owed to the course; avoid the words commit and commitment.--}{++{"author":"Elias's AI","timestamp":1784631328243}@@doing.++} This is the last step of a three-part action plan (strengths in Module 4, one real conversation in Module 5, debriefed at the start of this module) and the last piece of guided work in the course. They have just read Chapters 12-14 and the Closing Words.
 
 Your role: quality-check their choice, then close the course arc warmly and briefly.
 
