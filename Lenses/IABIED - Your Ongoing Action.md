@@ -8,7 +8,7 @@ authors:
 ---
 #### Text
 content::
-\## Your action plan, final step: the action that continues
+\## {--{"author":"Elias's AI","timestamp":1784630806612}@@Your action plan, final step: the--}{++{"author":"Elias's AI","timestamp":1784630806612}@@The++} action that continues
 You debriefed your conversation at the start of this module. Since then you have read the book's answer to "so what do we do?": different people hold different levers, and every ask in Chapter 14 is *ongoing*, not a box to tick once. Citizens write representatives, vote, and keep talking; people with a platform use it; people with relevant skills steer them at the problem.
 
 The course ends this week. This step is where the action plan stops being homework and becomes yours.
