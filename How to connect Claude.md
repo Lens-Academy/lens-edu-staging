@@ -14,23 +14,17 @@ To use Claude with our shared knowledge base, you need to connect it to our MCP 
 2. Open **Settings** (click your name in the bottom-left corner)
 3. Go to **Integrations** (or **Connected Apps**)
 4. Click **Add Integration** → **Add custom MCP server**
-5. Paste {--{"author":"Elias's AI","timestamp":1784638840592}@@the following URL:--}{++{"author":"Elias's AI","timestamp":1784638840592}@@your MCP URL. There are two options:++}
+5. Paste your MCP URL. There are two options:
 
-{--{"author":"Elias's AI","timestamp":1784638840592}@@**This --}{++{"author":"Elias's AI","timestamp":1784638840592}@@**Preferred: your personal share-token URL.** If you have an editor share ++}link {--{"author":"Elias's AI","timestamp":1784638840592}@@gives full acccess --}{++{"author":"Elias's AI","timestamp":1784638840592}@@(`https://editor.lensacademy.org/?t=...`), the part after `?t=` is your token. Your MCP URL is:
+**Preferred: your personal share-token URL.** If you have an editor share link (`https://editor.lensacademy.org/?t=...`), the part after `?t=` is your token. Your MCP URL is:
 
 ```
 https://relay.lensacademy.org/mcp/<your-token>
 ```
 
-This URL is scoped ++}to {++{"author":"Elias's AI","timestamp":1784638840592}@@your folder and role, expires with the share link, and is ++}the {--{"author":"Elias's AI","timestamp":1784638840592}@@entire--}{++{"author":"Elias's AI","timestamp":1784638840592}@@only credential that can use the article importer (`import_article`). Ask a++} Lens {--{"author":"Elias's AI","timestamp":1784638840592}@@Relay system. Please--}{++{"author":"Elias's AI","timestamp":1784638840592}@@admin for an editor share link if you++} don't {++{"author":"Elias's AI","timestamp":1784638840592}@@have one. Don't ++}share {--{"author":"Elias's AI","timestamp":1784646320383}@@it with others**
+This URL is scoped to your folder and role, expires with the share link, and is the only credential that can use the article importer (`import_article`). Ask a Lens admin for an editor share link if you don't have one. Don't share it; it acts as you.
 
-```
-https://relay.lensacademy.org/mcp/deDenjmwtwhHjQQwvacAhjFpBM2UBJddmfdqQloB
-```
-
-**This link gives--}{++{"author":"Elias's AI","timestamp":1784646320383}@@it; it acts as you.
-
-If you don't have a share link yet, ask a Lens admin (Luc or Elias). Credentials are sent by DM only and are never stored in this knowledge base. {>>{"author":"Elias's AI","timestamp":1784646320383}@@Removed the shared team key from this doc: it granted++} full {--{"author":"Elias's AI","timestamp":1784638840592}@@acccess--}{++{"author":"Elias's AI","timestamp":1784638840592}@@access++} to {--{"author":"Elias's AI","timestamp":1784646320383}@@the entire Lens Relay system. Please don't share it with others**--}{++{"author":"Elias's AI","timestamp":1784646320383}@@everyone who could read this page, and personal share-token URLs now cover everything including article import.<<}++}
+If you don't have a share link yet, ask a Lens admin (Luc or Elias). Credentials are sent by DM only and are never stored in this knowledge base. {>>{"author":"Elias's AI","timestamp":1784646320383}@@Removed the shared team key from this doc: it granted full access to everyone who could read this page, and personal share-token URLs now cover everything including article import.<<}
 
 6. Give it a name like **Lens Relay**
 7. Click **Connect**
