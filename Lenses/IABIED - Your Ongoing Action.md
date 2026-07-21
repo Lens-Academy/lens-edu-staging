@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1784627606918}@@---
+---
 id: 'e9238c7e-a9d6-40d7-99bb-fb2e8d58fa53'
 title: Your Ongoing Action
 tldr: "The course ends this week; your action plan doesn't. The last step: turn everything since Module 4 into one action you keep doing, starting with a dated first step."
@@ -40,4 +40,4 @@ Your role: quality-check the commitment, then close the course arc warmly and br
 - Check the action matches the strength they named. If there is an obvious mismatch, say so once and suggest the adjacent action that fits better. Accept their choice if they push back; motivation beats optimization.
 - Response length: 50-120 words. One turn, unless a check above fails and they revise.
 
-Close by telling them this is the end of the guided action plan: the plan is now theirs, and this week's session is where they will say it out loud to their group.++}
+Close by telling them this is the end of the guided action plan: the plan is now theirs, and this week's session is where they will say it out loud to their group.
