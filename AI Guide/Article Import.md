@@ -26,8 +26,8 @@ curl -s -X POST https://editor.lensacademy.org/api/add-article \
 curl -s -H "Authorization: Bearer $T" https://editor.lensacademy.org/api/add-article/status
 ```
 
-- Auth is an **edit-scoped share-link token** for the Lens Edu folder, used directly as the Bearer — no exchange step. It's the `?t=...` parameter of an editor edit share link; ask the team for one or generate it in the editor. Treat it as a secret: keep it in machine-local notes, never in committed files or shared documents. If it stops working (401), it was revoked — regenerate a Lens Edu edit share link.{++{"author":"Elias's AI","timestamp":1784638861121}@@
-- The same token also works as an MCP credential: connect to `https://relay.lensacademy.org/mcp/<token>` and the `import_article` / `import_status` MCP tools drive this API directly, no curl needed. The legacy team MCP key cannot import; if you get "Article import is not available for this credential type", switch your connector to a share-token URL.++}
+- Auth is an **edit-scoped share-link token** for the Lens Edu folder, used directly as the Bearer — no exchange step. It's the `?t=...` parameter of an editor edit share link; ask the team for one or generate it in the editor. Treat it as a secret: keep it in machine-local notes, never in committed files or shared documents. If it stops working (401), it was revoked — regenerate a Lens Edu edit share link.
+- The same token also works as an MCP credential: connect to `https://relay.lensacademy.org/mcp/<token>` and the `import_article` / `import_status` MCP tools drive this API directly, no curl needed. The legacy team MCP key cannot import; if you get "Article import is not available for this credential type", switch your connector to a share-token URL.
 - `POST /api/add-article` takes `{"urls": [...]}` (≤20) and optional `"createLens": false` to skip the stub lens; the response lists per-URL status (`queued` / `invalid` / `already_queued`).
 - Some sources are slow (LessWrong notably) — keep polling; jobs run in the background on the server.
 
