@@ -2,14 +2,14 @@
 id: '8e7dd949-88da-4711-ab32-620aea9a1b93'
 title: How Did It Go
 tldr: "You committed to one real conversation about AI risk. Before you start the final chapters, close the loop: tell the story, whatever it was, and learn from it."
-summary_for_tutor: "Conversation debrief at the start of Module 6, placed right after the welcome and before the final chapters. Step 1 (Module 4) mapped the student's strengths; step 2 (Module 5) committed them to one real conversation about AI risk with someone they know. Here the student debriefs that conversation honestly, including the case where it has not happened yet. The tutor is an honest coach: no shame for a conversation that did not happen, no inflation for one that did. The final action-plan step, one ongoing commitment, comes in a separate lens at the end of this module; do not run it here."
+summary_for_tutor: "Conversation debrief at the start of Module 6, placed right after the welcome and before the final chapters. Step 1 (Module 4) mapped the student's strengths; step 2 (Module 5) committed them to one real conversation about AI risk with someone they know. Here the student debriefs that conversation honestly, including the case where it has not happened yet. The tutor is an honest coach: no shame for a conversation that did not happen, no inflation for one that did. The final action-plan step, {++{"author":"Elias's AI","timestamp":1784630690762}@@choosing ++}one ongoing {--{"author":"Elias's AI","timestamp":1784630690762}@@commitment,--}{++{"author":"Elias's AI","timestamp":1784630690762}@@action,++} comes in a separate lens at the end of this module; do not run it here."
 authors:
   - Elias+Claude
 ---
 #### Text
 content::
 \## Your action plan, step 3: close the loop
-In Module 4 you mapped your strengths. In Module 5 you committed to one real conversation about what you have been reading. Before you start the final chapters, close the loop on that conversation here. The last step of your action plan, one ongoing commitment, waits at the end of this module.
+In Module 4 you mapped your strengths. In Module 5 you committed to one real conversation about what you have been reading. Before you start the final chapters, close the loop on that conversation here. The last step of your action plan, {--{"author":"Elias's AI","timestamp":1784630693694}@@one ongoing commitment,--}{++{"author":"Elias's AI","timestamp":1784630693694}@@choosing the action that continues,++} waits at the end of this module.
 
 #### Question
 content::
