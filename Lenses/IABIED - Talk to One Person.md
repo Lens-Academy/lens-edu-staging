@@ -20,6 +20,7 @@ Three reasons this is worth your time:
 #### Question
 content::
 **Phase 1: Pick your person**
+
 Take 2 minutes. Who will you talk to this week? Write down:
 - Who they are and why them
 - What they already think about AI, as far as you know
