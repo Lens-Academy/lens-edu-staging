@@ -25,7 +25,7 @@ Chapter 13 lays out the concrete policy proposal: a worldwide halt on frontier A
 
 Chapter 14 ends on a note of qualified hope, invoking the nuclear war precedent: humanity has chosen not to die before. The closing words offer a prayer: "May we be wrong, and shamed for how incredibly wrong we were."
 
-One thing before the reading: last module you committed to one real conversation about AI risk. The next step closes that loop, whatever happened. And at the very end of this module, the last step of your action plan turns that conversation into one ongoing commitment.
+One thing before the reading: last module you committed to one real conversation about AI risk. The next step closes that loop, whatever happened. And at the very end of this module, the last step of your action {--{"author":"Elias's AI","timestamp":1784630672397}@@plan turns that conversation into one ongoing commitment.--}{++{"author":"Elias's AI","timestamp":1784630672397}@@plan: choosing the one action you want to keep doing after the course.++}
 %%
 **This week's reading:** Chapter 12 ("I Don't Want to Be Alarmist") + Chapter 13 ("Shut It Down") + Chapter 14 ("Where There's Life, There's Hope") + Closing Words. After reading, come back here to discuss with the tutor.
 
