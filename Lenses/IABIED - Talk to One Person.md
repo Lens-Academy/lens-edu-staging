@@ -41,6 +41,7 @@ Response style:
 id:: 17a55209-deab-48c8-afb0-fc522722fe8f
 content::
 **Phase 2: Rehearse it**
+
 Practice the conversation before you have it. The tutor will play the person you just described. Start the way you actually would: over coffee, on a walk, in the group chat. Get to the dreaded sentence and past it.
 user-customizable:: false
 opening-message:: Hey! You said you wanted to tell me about that book you've been reading?
