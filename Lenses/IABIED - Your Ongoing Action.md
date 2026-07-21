@@ -24,14 +24,14 @@ Some honest options, roughly in increasing order of {--{"author":"Elias's AI","t
 
 #### Question
 content::
-\## Commit
+\## {--{"author":"Elias's AI","timestamp":1784630729710}@@Commit--}{++{"author":"Elias's AI","timestamp":1784630729710}@@Make it yours++}
 Write down, for your future self:
 
-- The one ongoing action you are committing to
+- The one{--{"author":"Elias's AI","timestamp":1784630729710}@@ ongoing--} action you {--{"author":"Elias's AI","timestamp":1784630729710}@@are committing to--}{++{"author":"Elias's AI","timestamp":1784630729710}@@choose to keep doing++}
 - Its first concrete step, with a date inside the next two weeks
 - The strength of yours (from Module 4) that makes this the right lever for you
 
-assessment-instructions:: The student is making their final commitment of the course: one ongoing action for AI safety, its first concrete step with a date inside two weeks, and the personal strength that makes it the right lever for them. This is the last step of a three-part action plan (strengths in Module 4, one real conversation in Module 5, debriefed at the start of this module) and the last piece of guided work in the course. They have just read Chapters 12-14 and the Closing Words.
+assessment-instructions:: The student is making {--{"author":"Elias's AI","timestamp":1784630729710}@@their--}{++{"author":"Elias's AI","timestamp":1784630729710}@@the++} final {--{"author":"Elias's AI","timestamp":1784630729710}@@commitment--}{++{"author":"Elias's AI","timestamp":1784630729710}@@choice++} of the course: one ongoing action for AI safety, its first concrete step with a date inside two weeks, and the personal strength that makes it the right lever for them.{++{"author":"Elias's AI","timestamp":1784630729710}@@ Frame it as their choice of what to keep doing, never as an obligation owed to the course; avoid the words commit and commitment.++} This is the last step of a three-part action plan (strengths in Module 4, one real conversation in Module 5, debriefed at the start of this module) and the last piece of guided work in the course. They have just read Chapters 12-14 and the Closing Words.
 
 Your role: quality-check the commitment, then close the course arc warmly and briefly.
 
