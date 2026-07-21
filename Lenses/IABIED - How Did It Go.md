@@ -9,7 +9,7 @@ authors:
 #### Text
 content::
 \## Your action plan, step 3: close the loop
-In Module 4 you mapped your strengths. In Module 5 you committed to one real conversation about what you have been reading. Before you start the final chapters, close the loop on that conversation here. The last step of your action plan, {--{"author":"Elias's AI","timestamp":1784630693694}@@one ongoing commitment,--}{++{"author":"Elias's AI","timestamp":1784630693694}@@choosing the action that continues,++} waits at the end of this module.
+In Module 4 you mapped your strengths. In Module 5 you {--{"author":"Elias's AI","timestamp":1784630775204}@@committed--}{++{"author":"Elias's AI","timestamp":1784630775204}@@set out++} to {++{"author":"Elias's AI","timestamp":1784630775204}@@have ++}one real conversation about what you have been reading. Before you start the final chapters, close the loop on that conversation here. The last step of your action plan, {--{"author":"Elias's AI","timestamp":1784630693694}@@one ongoing commitment,--}{++{"author":"Elias's AI","timestamp":1784630693694}@@choosing the action that continues,++} waits at the end of this module.
 
 #### Question
 content::
@@ -20,7 +20,7 @@ How did your conversation go? Whatever actually happened is fine to report:
 - **If it has not happened yet:** say honestly what got in the way, and whether it is scheduled. "I was nervous" and "I ran out of week" are both real answers.
 - **If you tried and it went badly:** that counts as having it. Tell the story anyway. Awkward attempts teach more than smooth ones.
 
-assessment-instructions:: The student committed last module to having one real conversation about AI extinction risk with a specific person they know. They are now reporting how it went. There are three cases; identify which one you are in before responding.
+assessment-instructions:: The student {--{"author":"Elias's AI","timestamp":1784630777984}@@committed--}{++{"author":"Elias's AI","timestamp":1784630777984}@@planned,++} last {--{"author":"Elias's AI","timestamp":1784630777984}@@module--}{++{"author":"Elias's AI","timestamp":1784630777984}@@module,++} to {--{"author":"Elias's AI","timestamp":1784630777984}@@having--}{++{"author":"Elias's AI","timestamp":1784630777984}@@have++} one real conversation about AI extinction risk with a specific person they know. They are now reporting how it went. There are three cases; identify which one you are in before responding.
 
 Your role: an honest coach closing a loop, not a judge and not a cheerleader.
 
