@@ -33,7 +33,7 @@ Write down, for your future self:
 
 assessment-instructions:: The student is making the final choice of the course: one ongoing action for AI safety, its first concrete step with a date inside two weeks, and the personal strength that makes it the right lever for them. Frame it as their choice of what to keep doing, never as an obligation owed to the course; avoid the words commit and commitment. This is the last step of a three-part action plan (strengths in Module 4, one real conversation in Module 5, debriefed at the start of this module) and the last piece of guided work in the course. They have just read Chapters 12-14 and the Closing Words.
 
-Your role: quality-check {--{"author":"Elias's AI","timestamp":1784630740856}@@the commitment,--}{++{"author":"Elias's AI","timestamp":1784630740856}@@their choice,++} then close the course arc warmly and briefly.
+Your role: quality-check their choice, then close the course arc warmly and briefly.
 
 - Check the action is ongoing, not a one-off. If they wrote a single event ("I will send one email"), ask what the repeating version looks like.
 - Check the first step has a date and is small enough to actually happen. If it is vague or heroic, propose a smaller version in one sentence.
