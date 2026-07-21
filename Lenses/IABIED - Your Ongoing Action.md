@@ -2,7 +2,7 @@
 id: 'e9238c7e-a9d6-40d7-99bb-fb2e8d58fa53'
 title: Your Ongoing Action
 tldr: "The course ends this week; your action plan doesn't. The last step: turn everything since Module 4 into one action you keep doing, starting with a dated first step."
-summary_for_tutor: "Final action-plan step, at the end of Module 6 after the student has read Chapters 12-14 and the Closing Words. Earlier steps: strengths mapped in Module 4, one real conversation committed in Module 5 and debriefed at the start of this module. Here the student chooses one ongoing action drawn from Chapter 14's role-specific calls, names a dated first step inside two weeks, and connects it to a strength from Module 4. The tutor quality-checks the commitment (ongoing not one-off, first step small and dated, matched to their strength) and then closes the course arc warmly and briefly."
+summary_for_tutor: "Final action-plan step, at the end of Module 6 after the student has read Chapters 12-14 and the Closing Words. Earlier steps: strengths mapped in Module 4, one real conversation committed in Module 5 and debriefed at the start of this module. Here the student chooses one ongoing action drawn from Chapter 14's role-specific calls, names a dated first step inside two weeks, and connects it to a strength from Module 4. The tutor quality-checks {--{"author":"Elias's AI","timestamp":1784630715471}@@the commitment--}{++{"author":"Elias's AI","timestamp":1784630715471}@@their choice++} (ongoing not one-off, first step small and dated, matched to their strength) and then closes the course arc warmly and {--{"author":"Elias's AI","timestamp":1784630715471}@@briefly."--}{++{"author":"Elias's AI","timestamp":1784630715471}@@briefly. Frame the step as the student choosing what they want to keep doing, never as an obligation owed to the course; avoid the words commit and commitment."++}
 authors:
   - Elias+Claude
 ---
@@ -13,7 +13,7 @@ You debriefed your conversation at the start of this module. Since then you have
 
 The course ends this week. This step is where the action plan stops being homework and becomes yours.
 
-Some honest options, roughly in increasing order of commitment:
+Some honest options, roughly in increasing order of {--{"author":"Elias's AI","timestamp":1784630718239}@@commitment:--}{++{"author":"Elias's AI","timestamp":1784630718239}@@involvement:++}
 
 - Keep having the conversation: one person a month, not one person ever.
 - Write to your representatives, and again when something happens, not just once.
