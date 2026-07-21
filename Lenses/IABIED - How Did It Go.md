@@ -8,8 +8,8 @@ authors:
 ---
 #### Text
 content::
-\## Your action plan, step 3: close the loop
-In Module 4 you mapped your strengths. In Module 5 you {--{"author":"Elias's AI","timestamp":1784630775204}@@committed--}{++{"author":"Elias's AI","timestamp":1784630775204}@@set out++} to {++{"author":"Elias's AI","timestamp":1784630775204}@@have ++}one real conversation about what you have been reading. Before you start the final chapters, close the loop on that conversation here. The last step of your action plan, {--{"author":"Elias's AI","timestamp":1784630693694}@@one ongoing commitment,--}{++{"author":"Elias's AI","timestamp":1784630693694}@@choosing the action that continues,++} waits at the end of this module.
+\## {--{"author":"Elias's AI","timestamp":1784630797656}@@Your action plan, step 3: close the loop--}{++{"author":"Elias's AI","timestamp":1784630797656}@@How did your conversation go?++}
+{--{"author":"Elias's AI","timestamp":1784630797656}@@In Module 4 you mapped your strengths. --}In Module 5 you {--{"author":"Elias's AI","timestamp":1784630775204}@@committed--}{++{"author":"Elias's AI","timestamp":1784630775204}@@set out++} to {++{"author":"Elias's AI","timestamp":1784630775204}@@have ++}one real conversation about what you have been reading. Before you start the final chapters, close the loop on that conversation here. The last step of your action plan, {--{"author":"Elias's AI","timestamp":1784630693694}@@one ongoing commitment,--}{++{"author":"Elias's AI","timestamp":1784630693694}@@choosing the action that continues,++} waits at the end of this module.
 
 #### Question
 content::
