@@ -24,7 +24,7 @@ Some honest options, roughly in increasing order of commitment:
 
 #### Question
 content::
-\## {--{"author":"Elias's AI","timestamp":1784630729710}@@Commit--}{++{"author":"Elias's AI","timestamp":1784630729710}@@Make it yours++}
+\## {++{"author":"Elias's AI","timestamp":1784630729710}@@Make it yours++}
 Write down, for your future self:
 
 - The one{--{"author":"Elias's AI","timestamp":1784630729710}@@ ongoing--} action you {--{"author":"Elias's AI","timestamp":1784630729710}@@are committing to--}{++{"author":"Elias's AI","timestamp":1784630729710}@@choose to keep doing++}
