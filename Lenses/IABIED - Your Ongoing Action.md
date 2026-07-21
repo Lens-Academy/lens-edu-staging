@@ -13,7 +13,7 @@ You debriefed your conversation at the start of this module. Since then you have
 
 The course ends this week. This step is where the action plan stops being homework and becomes yours.
 
-Some honest options, roughly in increasing order of {--{"author":"Elias's AI","timestamp":1784630718239}@@commitment:--}{++{"author":"Elias's AI","timestamp":1784630718239}@@involvement:++}
+Some honest options, roughly in increasing order of commitment:
 
 - Keep having the conversation: one person a month, not one person ever.
 - Write to your representatives, and again when something happens, not just once.
