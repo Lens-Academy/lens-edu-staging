@@ -8,7 +8,7 @@ authors:
 ---
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1784628766860}@@\## Your--}{++{"author":"Elias's AI","timestamp":1784628766860}@@**Your++} action plan, step 2: leave the {--{"author":"Elias's AI","timestamp":1784628766860}@@building--}{++{"author":"Elias's AI","timestamp":1784628766860}@@building**++}
+**Your action plan, step 2: leave the building**
 Last module you mapped your strengths. This week's step is smaller and harder: talk to one person you know about what you've been reading.
 
 Three reasons this is worth your time:
@@ -18,7 +18,7 @@ Three reasons this is worth your time:
 
 #### Question
 content::
-{--{"author":"Elias's AI","timestamp":1784628767408}@@\## Phase--}{++{"author":"Elias's AI","timestamp":1784628767408}@@**Phase++} 1: Pick your {--{"author":"Elias's AI","timestamp":1784628767408}@@person--}{++{"author":"Elias's AI","timestamp":1784628767408}@@person**++}
+**Phase 1: Pick your person**
 Take 2 minutes. Who will you talk to this week? Write down:
 - Who they are and why them
 - What they already think about AI, as far as you know
@@ -37,9 +37,9 @@ Response style:
 - Close by sending them to the rehearsal below.
 
 #### Roleplay
-id:: {--{"author":"Elias's AI","timestamp":1784628766249}@@'17a55209-deab-48c8-afb0-fc522722fe8f'--}{++{"author":"Elias's AI","timestamp":1784628766249}@@17a55209-deab-48c8-afb0-fc522722fe8f++}
+id:: 17a55209-deab-48c8-afb0-fc522722fe8f
 content::
-{--{"author":"Elias's AI","timestamp":1784628768011}@@\## Phase--}{++{"author":"Elias's AI","timestamp":1784628768011}@@**Phase++} 2: Rehearse {--{"author":"Elias's AI","timestamp":1784628768011}@@it--}{++{"author":"Elias's AI","timestamp":1784628768011}@@it**++}
+**Phase 2: Rehearse it**
 Practice the conversation before you have it. The tutor will play the person you just described. Start the way you actually would: over coffee, on a walk, in the group chat. Get to the dreaded sentence and past it.
 user-customizable:: false
 opening-message:: Hey! You said you wanted to tell me about that book you've been reading?
@@ -55,7 +55,7 @@ assessment-instructions:: Debrief in 80-150 words, out of character. Name the on
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1784628768566}@@\## Phase--}{++{"author":"Elias's AI","timestamp":1784628768566}@@**Phase++} 3: Have it for {--{"author":"Elias's AI","timestamp":1784628768566}@@real--}{++{"author":"Elias's AI","timestamp":1784628768566}@@real**++}
+**Phase 3: Have it for real**
 Sometime this week, have the conversation. A few things that hold up in practice:
 - Lead with what moved *you*, not with what they should believe. "I read something that's been stuck in my head" opens doors that "let me explain why AI will kill everyone" closes.
 - Ask what they think, and mean it. The goal is a real conversation, not a conversion. Someone who disagrees after genuinely engaging is a better outcome than someone who nods to end the topic.
@@ -67,7 +67,7 @@ You'll be asked how it went at next week's meeting. An awkward five minutes coun
 
 #### Question
 content::
-{--{"author":"Elias's AI","timestamp":1784628769109}@@\## Phase--}{++{"author":"Elias's AI","timestamp":1784628769109}@@**Phase++} 4: {--{"author":"Elias's AI","timestamp":1784628769109}@@Commit--}{++{"author":"Elias's AI","timestamp":1784628769109}@@Commit**++}
+**Phase 4: Commit**
 Write it down, for your future self:
 - Who, and when this week
 - Your opening line, word for word
