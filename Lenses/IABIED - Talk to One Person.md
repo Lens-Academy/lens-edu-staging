@@ -72,6 +72,7 @@ You'll be asked how it went at next week's meeting. An awkward five minutes coun
 #### Question
 content::
 **Phase 4: Commit**
+
 Write it down, for your future self:
 - Who, and when this week
 - Your opening line, word for word
