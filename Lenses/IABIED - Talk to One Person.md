@@ -59,6 +59,7 @@ assessment-instructions:: Debrief in 80-150 words, out of character. Name the on
 #### Text
 content::
 **Phase 3: Have it for real**
+
 Sometime this week, have the conversation. A few things that hold up in practice:
 - Lead with what moved *you*, not with what they should believe. "I read something that's been stuck in my head" opens doors that "let me explain why AI will kill everyone" closes.
 - Ask what they think, and mean it. The goal is a real conversation, not a conversion. Someone who disagrees after genuinely engaging is a better outcome than someone who nods to end the topic.
