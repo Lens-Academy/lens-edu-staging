@@ -24,7 +24,7 @@ Take 2 minutes. Who will you talk to this week? Write down:
 - What they already think about AI, as far as you know
 - The moment in the conversation you expect to be hardest
 
-Assessment-instructions:: The student is choosing one real person to talk to about AI extinction risk this week, after reading Chapters 1-11 of "If Anyone Builds It, Everyone Dies".
+{--{"author":"Elias's AI","timestamp":1784627725082}@@Assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1784627725082}@@assessment-instructions::++} The student is choosing one real person to talk to about AI extinction risk this week, after reading Chapters 1-11 of "If Anyone Builds It, Everyone Dies".
 
 Your role: a brief, honest coach, not a cheerleader.
 
