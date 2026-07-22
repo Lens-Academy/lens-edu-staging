@@ -98,7 +98,11 @@ optional:: true
 
 #### Text
 content::
-::card[[../Lenses/IABIED - QA - Story Started Later]]
+{++{"author":"Elias's AI","timestamp":1784737473155}@@Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+
+Skim whatever catches your eye.
+
+++}::card[[../Lenses/IABIED - QA - Story Started Later]]
 ::card[[../Lenses/IABIED - QA - Sable's Expansion Phase]]
 ::card[[../Lenses/IABIED - QA - Instrumental Convergence]]
 {>>{"author":"Elias's AI","timestamp":1784730265976}@@'Instrumental Convergence' was a hidden import without a card in the old Dive Deeper submodule (unreachable for learners); carded it here under Ch8.<<}
