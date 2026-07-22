@@ -61,7 +61,9 @@ optional:: true
 
 #### Text
 content::
-The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to the Introduction below. We suggest reading a couple of them that you find interesting, but probably don't read all of them (for time's sake). It's likely more useful to spend more time talking to the AI Tutor.
+{--{"author":"Elias's AI","timestamp":1784737424560}@@The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to--}{++{"author":"Elias's AI","timestamp":1784737424560}@@Want to go deeper on the Introduction's ideas? These optional resources were gathered by++} the {--{"author":"Elias's AI","timestamp":1784737424560}@@Introduction below. We suggest reading a couple of them that you find interesting, but probably don't read all of them (for time's sake). It's likely more useful to spend more time talking to the AI Tutor.--}{++{"author":"Elias's AI","timestamp":1784737424560}@@book's authors and by us.
+
+Skim whatever catches your eye.++}
 
 ::card[[../Lenses/IABIED - QA - Why Write This Book]]
 ::card[[../Lenses/IABIED - QA - Could ChatGPT Kill Us]]
