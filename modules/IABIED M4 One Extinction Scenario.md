@@ -26,7 +26,48 @@ source:: ![[../Lenses/IABIED - Goal-Conflict Recognition as a Physical Fact - PQ
 ## Lens:
 source:: ![[../Lenses/IABIED - Goal-Conflict Recognition as a Physical Fact]]
 
-# Submodule: Ch8 - Expansion
+{++{"author":"Elias's AI","timestamp":1784730245953}@@## Lens: Dive Deeper: Chapter 7
+id:: e196bef6-01c9-48d8-b252-c1561bf52111
+tldr:: Optional companion Q&As for the scenario's opening: why the story is set up this way, how Sable thinks, and whether Galvanic was fairly or insufficiently careful. Pick the ones that interest you.
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 7 (Realization). Links the book website's supplementary Q&A cards for Part II covering the scenario's construction: why this setup, Sable's thinking, whether Galvanic was fairly or insufficiently careful, and whether only one smart AI matters. A navigation and index lens only; it carries no standalone teaching content of its own.
+optional:: true
+
+#### Text
+content::
+The book's website includes supplementary Q&As and extended discussions for this section. Browse the ones relevant to this chapter below.
+
+::card[[../Lenses/IABIED - QA - Why This Setup]]
+::card[[../Lenses/IABIED - QA - Sable's Thinking]]
+::card[[../Lenses/IABIED - QA - Galvanic Fairly Careful]]
+::card[[../Lenses/IABIED - QA - Galvanic Insufficiently Careful]]
+::card[[../Lenses/IABIED - QA - Only One Smart AI]]
+
+## Lens: IABIED - QA - Why This Setup
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Why This Setup]]
+
+## Lens: IABIED - QA - Sable's Thinking
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Sable's Thinking]]
+
+## Lens: IABIED - QA - Galvanic Fairly Careful
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Galvanic Fairly Careful]]
+
+## Lens: IABIED - QA - Galvanic Insufficiently Careful
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Galvanic Insufficiently Careful]]
+
+## Lens: IABIED - QA - Only One Smart AI
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Only One Smart AI]]
+
+++}# Submodule: Ch8 - Expansion
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/08 - Chapter 8 - Expansion]]
 
 ## Learning Outcome: IABIED - Explain Instrumental Sub-Goal Convergence
