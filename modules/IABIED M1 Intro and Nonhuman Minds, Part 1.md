@@ -297,7 +297,11 @@ optional:: true
 
 #### Text
 content::
-::card[[../Lenses/IABIED - QA - Gradient Descent Matters]]
+{++{"author":"Elias's AI","timestamp":1784737496405}@@Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+
+Skim whatever catches your eye.
+
+++}::card[[../Lenses/IABIED - QA - Gradient Descent Matters]]
 ::card[[../Lenses/IABIED - QA - Do Experts Understand AIs]]
 ::card[[../Lenses/IABIED - QA - Intelligence Understandable]]
 ::card[[../Lenses/IABIED - QA - AIs Think in English]]
