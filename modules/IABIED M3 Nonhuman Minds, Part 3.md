@@ -77,9 +77,9 @@ optional:: true
 
 #### Text:
 content::
-The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to Chapter 5 below.
+{--{"author":"Elias's AI","timestamp":1784731572005}@@The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to Chapter 5 below.
 
-::card[[../Lenses/IABIED - QA - AI Find Us Useful]]
+--}::card[[../Lenses/IABIED - QA - AI Find Us Useful]]
 ::card[[../Lenses/IABIED - QA - AI Treat Us as Parents]]
 ::card[[../Lenses/IABIED - QA - AIs Need Rule of Law]]
 ::card[[../Lenses/IABIED - QA - Preserving Humans Negligible]]
@@ -257,46 +257,16 @@ source:: ![[../Lenses/IABIED - PQ - Describe the Refrigerator Thought Experiment
 # Lens:
 source:: ![[../Lenses/IABIED - Describe the Refrigerator Thought Experiment]]
 
-# {--{"author":"Elias's AI","timestamp":1784730215306}@@Submodule:--}{++{"author":"Elias's AI","timestamp":1784730215306}@@Lens:++} Dive {--{"author":"Elias's AI","timestamp":1784730215306}@@Deeper
-# Lens: Overview of Optional Resources--}{++{"author":"Elias's AI","timestamp":1784730215306}@@Deeper: Chapter 6++}
-id:: {--{"author":"Elias's AI","timestamp":1784730215306}@@a1b2c3d4-5e6f-4a7b-8c9d-0e1f2a3b4c5d--}{++{"author":"Elias's AI","timestamp":1784730215306}@@6937c099-cce1-4d6a-8dfa-bd0e05d8d2de++}
-tldr:: Going deeper on {--{"author":"Elias's AI","timestamp":1784730215306}@@Chapters 5 and--}{++{"author":"Elias's AI","timestamp":1784730215306}@@Chapter++} 6? The book's supplementary Q&As {--{"author":"Elias's AI","timestamp":1784730215306}@@field the common pushbacks here: "won't it keep us like we keep horses?",--}{++{"author":"Elias's AI","timestamp":1784730215306}@@cover "can't we just pull the plug?",++} "can't we keep it in a box?",{--{"author":"Elias's AI","timestamp":1784730215306}@@ "won't it be kinder as it gets smarter?", sorted by chapter.--}{++{"author":"Elias's AI","timestamp":1784730215306}@@ and the other ways people hope we'd win.++}
-summary_for_tutor:: Optional Dive Deeper index lens for {--{"author":"Elias's AI","timestamp":1784730215306}@@Module 3.--}{++{"author":"Elias's AI","timestamp":1784730215306}@@Chapter 6 (We'd Lose).++} Links the book website's supplementary Q&A cards {--{"author":"Elias's AI","timestamp":1784730215306}@@for Chapter 5 (Its Favorite Things) and Chapter 6 (We'd Lose), --}covering objections such as {--{"author":"Elias's AI","timestamp":1784730215306}@@orthogonality, --}{++{"author":"Elias's AI","timestamp":1784730215306}@@pulling the plug, ++}keeping AI in a box, {--{"author":"Elias's AI","timestamp":1784730215306}@@pulling the plug, instrumental convergence, and whether a smarter AI would be kinder.--}{++{"author":"Elias's AI","timestamp":1784730215306}@@exploiting AI weaknesses, enhancing humans, limits from experiments, instrumental convergence, and losing the future.++} A navigation and index lens only; it carries no standalone teaching content of its own.
+# Lens: Dive Deeper: Chapter 6
+id:: 6937c099-cce1-4d6a-8dfa-bd0e05d8d2de
+tldr:: Going deeper on Chapter 6? The book's supplementary Q&As cover "can't we just pull the plug?", "can't we keep it in a box?", and the other ways people hope we'd win.
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 6 (We'd Lose). Links the book website's supplementary Q&A cards covering objections such as pulling the plug, keeping AI in a box, exploiting AI weaknesses, enhancing humans, limits from experiments, instrumental convergence, and losing the future. A navigation and index lens only; it carries no standalone teaching content of its own.
 optional:: true
 
 #### Text:
 content::
-The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to{--{"author":"Elias's AI","timestamp":1784730215306}@@ this week's reading below.
+{--{"author":"Elias's AI","timestamp":1784731619548}@@The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to Chapter 6 below.
 
-\## --}{++{"author":"Elias's AI","timestamp":1784730215306}@@ ++}Chapter{--{"author":"Elias's AI","timestamp":1784730215306}@@ 5: Its Favorite Things
-::card[[../Lenses/IABIED - QA - AI Find Us Useful]]
-::card[[../Lenses/IABIED - QA - AI Treat Us as Parents]]
-::card[[../Lenses/IABIED - QA - AIs Need Rule of Law]]
-::card[[../Lenses/IABIED - QA - Preserving Humans Negligible]]
-::card[[../Lenses/IABIED - QA - AI Find Us Fascinating]]
-::card[[../Lenses/IABIED - QA - Intrinsic Moral Worth]]
-::card[[../Lenses/IABIED - QA - Ecological Preservation]]
-::card[[../Lenses/IABIED - QA - We Still Have Horses]]
-::card[[../Lenses/IABIED - QA - Care a Little About Humans]]
-::card[[../Lenses/IABIED - QA - Chance of Keeping Us Alive]]
-::card[[../Lenses/IABIED - QA - Human Data Means Human Concepts]]
-::card[[../Lenses/IABIED - QA - Promise to Be Friendly]]
-::card[[../Lenses/IABIED - QA - Thinking It's a Simulation]]
-::card[[../Lenses/IABIED - QA - AI Lacks Selfish Drives]]
-::card[[../Lenses/IABIED - QA - Only Digital Realm]]
-::card[[../Lenses/IABIED - QA - Satisfied to Leave Us Alone]]
-::card[[../Lenses/IABIED - QA - Make It Lazy]]
-::card[[../Lenses/IABIED - QA - Kinder as Smarter]]
-::card[[../Lenses/IABIED - QA - Boring Goals]]
-::card[[../Lenses/IABIED - QA - Smart AI Stupid Things]]
-::card[[../Lenses/IABIED - QA - Just Pessimistic]]
-::card[[../Lenses/IABIED - QA - AI Consciousness]]
-::card[[../Lenses/IABIED - QA - Non-Human Entities]]
-::card[[../Lenses/IABIED - QA - Taking the AI's Perspective]]
-::card[[../Lenses/IABIED - QA - Humans Not Efficient]]
-::card[[../Lenses/IABIED - QA - Orthogonality]]--}{++{"author":"Elias's AI","timestamp":1784730215306}@@ 6 below.++}
-
-{--{"author":"Elias's AI","timestamp":1784730215306}@@\## Chapter 6: We'd Lose
 --}::card[[../Lenses/IABIED - QA - Pull the Plug]]
 ::card[[../Lenses/IABIED - QA - Digital AIs Affect Us]]
 ::card[[../Lenses/IABIED - QA - Keep AI in a Box]]
@@ -311,137 +281,7 @@ The book's website includes supplementary Q&As and extended discussions for each
 ::card[[../Lenses/IABIED - QA - Hard to Get Robust Laziness]]
 ::card[[../Lenses/IABIED - QA - AIs Won't Keep Promises]]
 ::card[[../Lenses/IABIED - QA - Effectiveness Consciousness AI Welfare]]
-::card[[../Lenses/IABIED - QA - Losing the Future]]{--{"author":"Elias's AI","timestamp":1784730215306}@@
-
-# Lens: IABIED - QA - AI Find Us Useful
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - AI Find Us Useful]]
-
-# Lens: IABIED - QA - AI Treat Us as Parents
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - AI Treat Us as Parents]]
-
-# Lens: IABIED - QA - AIs Need Rule of Law
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - AIs Need Rule of Law]]
-
-# Lens: IABIED - QA - Preserving Humans Negligible
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Preserving Humans Negligible]]
-
-# Lens: IABIED - QA - AI Find Us Fascinating
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - AI Find Us Fascinating]]
-
-# Lens: IABIED - QA - Intrinsic Moral Worth
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Intrinsic Moral Worth]]
-
-# Lens: IABIED - QA - Ecological Preservation
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Ecological Preservation]]
-
-# Lens: IABIED - QA - We Still Have Horses
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - We Still Have Horses]]
-
-# Lens: IABIED - QA - Care a Little About Humans
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Care a Little About Humans]]
-
-# Lens: IABIED - QA - Chance of Keeping Us Alive
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Chance of Keeping Us Alive]]
-
-# Lens: IABIED - QA - Human Data Means Human Concepts
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Human Data Means Human Concepts]]
-
-# Lens: IABIED - QA - Promise to Be Friendly
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Promise to Be Friendly]]
-
-# Lens: IABIED - QA - Thinking It's a Simulation
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Thinking It's a Simulation]]
-
-# Lens: IABIED - QA - AI Lacks Selfish Drives
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - AI Lacks Selfish Drives]]
-
-# Lens: IABIED - QA - Only Digital Realm
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Only Digital Realm]]
-
-# Lens: IABIED - QA - Satisfied to Leave Us Alone
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Satisfied to Leave Us Alone]]
-
-# Lens: IABIED - QA - Make It Lazy
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Make It Lazy]]
-
-# Lens: IABIED - QA - Kinder as Smarter
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Kinder as Smarter]]
-
-# Lens: IABIED - QA - Boring Goals
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Boring Goals]]
-
-# Lens: IABIED - QA - Smart AI Stupid Things
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Smart AI Stupid Things]]
-
-# Lens: IABIED - QA - Just Pessimistic
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Just Pessimistic]]
-
-# Lens: IABIED - QA - AI Consciousness
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - AI Consciousness]]
-
-# Lens: IABIED - QA - Non-Human Entities
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Non-Human Entities]]
-
-# Lens: IABIED - QA - Taking the AI's Perspective
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Taking the AI's Perspective]]
-
-# Lens: IABIED - QA - Humans Not Efficient
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Humans Not Efficient]]
-
-# Lens: IABIED - QA - Orthogonality
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Orthogonality]]--}
+::card[[../Lenses/IABIED - QA - Losing the Future]]
 
 # Lens: IABIED - QA - Pull the Plug
 optional:: true
