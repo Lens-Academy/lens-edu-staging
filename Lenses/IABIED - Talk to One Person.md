@@ -67,7 +67,7 @@ Sometime this week, have the conversation. A few things that hold up in practice
 
 If they come out curious, invite them along: the next cohort of this course is open at [lensacademy.org](https://lensacademy.org). Reading the same chapters gives you both someone to argue with, and it is the single most useful thing you can do to grow this community.
 
-You'll be asked how it went at next week's meeting. An awkward five minutes counts. Not finding time does not.
+You'll be asked how it went at next week's meeting. An awkward five minutes counts. Not finding time does not.{++{"author":"Elias's AI","timestamp":1784738795937}@@ {>>{"author":"Elias's AI","timestamp":1784738795937}@@Sync test after stale-export fix deploy 2026-07-22 - just dismiss this comment.<<}++}
 
 #### Question
 content::
