@@ -232,7 +232,7 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - AI-Induced Psychosis]]++}
 
-# Submodule: Dive Deeper
+{--{"author":"Elias's AI","timestamp":1784728644150}@@# Submodule: Dive Deeper
 # Lens: Overview of Optional Resources
 id:: f7a2b8c1-3d4e-4f5a-9b6c-8d7e0f1a2b3c
 tldr:: Want to go deeper? These are the book's own supplementary Q&As for this week's chapters, short takes on objections like "aren't AIs just tools?" and "doesn't Claude already show alignment?", grouped by chapter for browsing.
@@ -388,5 +388,5 @@ source:: ![[../Lenses/IABIED - QA - Reflection and Self-Modification]]
 # Lens: IABIED - QA - AI-Induced Psychosis
 optional:: true
 hide:: true
-source:: ![[../Lenses/IABIED - QA - AI-Induced Psychosis]]
+source:: ![[../Lenses/IABIED - QA - AI-Induced Psychosis]]--}
 
