@@ -35,7 +35,7 @@ source:: ![[../Lenses/IABIED - Position Not Despair - PQ]]
 # Lens:
 source:: ![[../Lenses/IABIED - Position Not Despair]]
 
-# {++{"author":"Elias's AI","timestamp":1784730337054}@@Lens: Dive Deeper: Chapter 10
+# Lens: Dive Deeper: Chapter 10
 id:: 5db4d07c-cbb5-4b6f-ad50-427eb9a62386
 tldr:: The authors answered the objections Chapter 10 invites: is AI really different from past technologies, will there be enough time to solve alignment, and what Chicago Pile-1 teaches about cursed problems.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 10 (A Cursed Problem). Links the book website's supplementary Q&A cards covering whether AI differs from precedents and from nuclear reactors, time to solve alignment, many different AIs, slow AI integration, before-and-after framing, and Chicago Pile-1. A navigation and index lens only; it carries no standalone teaching content of its own.
@@ -89,7 +89,7 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Chicago Pile-1]]
 
-# ++}Submodule: Ch11 - An Alchemy, Not a Science
+# Submodule: Ch11 - An Alchemy, Not a Science
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/12 - Chapter 11 - An Alchemy, Not a Science]]
 
 # Learning Outcome: IABIED - Alchemy Not Science
@@ -110,7 +110,7 @@ source:: ![[../Lenses/IABIED - Strong Superalignment Objection - PQ]]
 # Lens:
 source:: ![[../Lenses/IABIED - Strong Superalignment Objection]]
 
-# {++{"author":"Elias's AI","timestamp":1784730574074}@@Lens: Dive Deeper: Chapter 11
+# Lens: Dive Deeper: Chapter 11
 id:: 1a96c108-14b1-4b19-9c24-0f44fced1374
 tldr:: Chapter 11's optional Q&As: can't we just muddle through, is alignment all-or-nothing, can interpretability save us, and what shutdown buttons would really take.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 11 (An Alchemy, Not a Science). Links the book website's supplementary Q&A cards covering muddling through, alignment as all-or-nothing, government involvement, reckless versus incompetent labs, hardware overhang, racing for alignment research, non-dangerous deployment, interpretability, AIs debating and overseeing each other, other alignment plans, early warnings, plans critiqued, respect for the problem, and shutdown buttons and corrigibility. A navigation and index lens only; it carries no standalone teaching content of its own.
@@ -205,110 +205,7 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Shutdown Buttons and Corrigibility]]
 
-# ++}Submodule: Talk to One Person
+# Submodule: Talk to One Person
 # Lens: IABIED - Talk to One Person
 source:: ![[../Lenses/IABIED - Talk to One Person]]
 
-{--{"author":"Elias's AI","timestamp":1784730599761}@@# Submodule: Dive Deeper
-# Lens: Overview of Optional Resources
-source:: ![[../Lenses/IABIED - Overview of Optional Resources M5]]
-
-# Lens: IABIED - QA - AI Differs from Precedents
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - AI Differs from Precedents]]
-
-# Lens: IABIED - QA - Time to Solve Alignment
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Time to Solve Alignment]]
-
-# Lens: IABIED - QA - Lots of Different AIs
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Lots of Different AIs]]
-
-# Lens: IABIED - QA - Slow AI Integration
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Slow AI Integration]]
-
-# Lens: IABIED - QA - Before and After
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Before and After]]
-
-# Lens: IABIED - QA - Chicago Pile-1
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Chicago Pile-1]]
-
-# Lens: IABIED - QA - Muddle Through
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Muddle Through]]
-
-# Lens: IABIED - QA - Alignment All or Nothing
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Alignment All or Nothing]]
-
-# Lens: IABIED - QA - Governments Get Involved
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Governments Get Involved]]
-
-# Lens: IABIED - QA - Reckless Means Incompetent
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Reckless Means Incompetent]]
-
-# Lens: IABIED - QA - Hardware Overhang
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Hardware Overhang]]
-
-# Lens: IABIED - QA - Race for Alignment Research
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Race for Alignment Research]]
-
-# Lens: IABIED - QA - Non-Dangerous Deployment
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Non-Dangerous Deployment]]
-
-# Lens: IABIED - QA - Can Interpretability Solve This
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Can Interpretability Solve This]]
-
-# Lens: IABIED - QA - AIs Debate Compete Oversee
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - AIs Debate Compete Oversee]]
-
-# Lens: IABIED - QA - Various Other Alignment Plans
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Various Other Alignment Plans]]
-
-# Lens: IABIED - QA - Early Warnings
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Early Warnings]]
-
-# Lens: IABIED - QA - More on Plans Critiqued
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - More on Plans Critiqued]]
-
-# Lens: IABIED - QA - Problem Not Treated with Respect
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Problem Not Treated with Respect]]
-
-# Lens: IABIED - QA - Shutdown Buttons and Corrigibility
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Shutdown Buttons and Corrigibility]]--}

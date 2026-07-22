@@ -82,7 +82,7 @@ source:: [[../Lenses/IABIED - Ladder in the Dark - PQ]]
 ## Lens:
 source:: [[../Lenses/IABIED - Ladder in the Dark]]
 
-{++{"author":"Elias's AI","timestamp":1784730634509}@@## Lens: Dive Deeper: Chapter 12
+## Lens: Dive Deeper: Chapter 12
 id:: 79671536-5615-4807-8f08-ff039c8a525e
 tldr:: Deeper on Chapter 12? The book's supplementary Q&As take on "what about the benefits?", "isn't this anti-technology?", and why experts keep saying "I don't want to be alarmist".
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 12 ("I Don't Want to Be Alarmist"). Links the book website's supplementary Q&A cards covering the benefits of AI, distraction from other issues, anti-technology charges, rushing ahead as the good guys, cooperating to build safely, provably safe AI, daily life and panic, fear-mongering accusations, expert disagreement, the Lemoine effect, telling AI companies no, and making sense of the death race. A navigation and index lens only; it carries no standalone teaching content of its own.
@@ -171,7 +171,7 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Making Sense of the Death Race]]
 
-++}{++{"author":"Elias's AI","timestamp":1784730793109}@@## Lens: IABIED - QA - Early Warnings
+## Lens: IABIED - QA - Early Warnings
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Early Warnings]]
@@ -182,7 +182,7 @@ hide:: true
 source:: ![[../Lenses/IABIED - QA - Isn't AI Different from Nuclear Reactors]]
 {>>{"author":"Elias's AI","timestamp":1784730793109}@@These two are card targets inside the 'IABIED - The One-Chance Problem' lens (Ch12), so they must stay imported in this module even though the chapter overview doesn't card them.<<}
 
-++}# Submodule: Chapter 13: Shut It Down
+# Submodule: Chapter 13: Shut It Down
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/14 - Chapter 13 - Shut It Down]]
 
 ## Learning Outcome: IABIED - The WWII Analogy
@@ -203,7 +203,7 @@ source:: [[../Lenses/IABIED - Coalition Strategy - PQ]]
 ## Lens:
 source:: [[../Lenses/IABIED - Coalition Strategy]]
 
-{++{"author":"Elias's AI","timestamp":1784730813170}@@## Lens: Dive Deeper: Chapter 13
+## Lens: Dive Deeper: Chapter 13
 id:: e983cb9d-bdec-46c7-9ad2-fe9e52bbc29e
 tldr:: Deeper on Chapter 13? The book's supplementary Q&As field the hardest objections to "shut it down": "can technology really be stopped?", "isn't this too much power for governments?", "what if nations reject the ban?".
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 13 (Shut It Down). Links the book website's supplementary Q&A cards covering the draft treaty, wait-and-see, warning shots, monitoring without spyware, chip-ownership control, research bans, whether technology can be stopped, government power, nations rejecting the ban, a permanent monitoring regime, making humans smarter, "aligned to whom", talking about extinction, elected officials, hopelessness, shutting down global AI development, international cooperation, and keeping the coalition large. A navigation and index lens only; it carries no standalone teaching content of its own.
@@ -323,7 +323,7 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Keep the Coalition Large]]
 
-++}# Submodule: Chapter 14: Where There's Life, There's Hope
+# Submodule: Chapter 14: Where There's Life, There's Hope
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/15 - Chapter 14 - Where There's Life, There's Hope]]
 
 ## Learning Outcome: IABIED - Un-Writing Our Fate
@@ -359,211 +359,3 @@ source:: [[../Lenses/IABIED - The Two Prayers]]
 # Lens: IABIED - Your Ongoing Action
 source:: ![[../Lenses/IABIED - Your Ongoing Action]]
 
-{--{"author":"Elias's AI","timestamp":1784730708057}@@# Submodule: Dive Deeper
-# Lens: Overview of Optional Resources
-id:: 79671536-5615-4807-8f08-ff039c8a525e
-tldr:: Deeper on the closing chapters? The book's supplementary Q&As take on the hardest objections to "shut it down": "what about the benefits?", "can technology really be stopped?", "isn't this too much power for governments?", grouped by chapter.
-summary_for_tutor:: Optional Dive Deeper index lens for Module 6. Links the book website's supplementary Q&A cards for Chapter 12 ("I Don't Want to Be Alarmist") and Chapter 13 ("Shut It Down"), covering objections such as the benefits of AI, whether technology can be stopped, the draft treaty, chip-ownership control, and concentrating power in governments. A navigation and index lens only; it carries no standalone teaching content of its own.
-
-#### Text:
-content::
-The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to this week's reading below.
-
-\## Chapter 12: "I Don't Want to Be Alarmist"
-::card[[../Lenses/IABIED - QA - What About the Benefits of AI]]
-::card[[../Lenses/IABIED - QA - Distraction from Other Issues]]
-::card[[../Lenses/IABIED - QA - Anti-Technology]]
-::card[[../Lenses/IABIED - QA - Rush Ahead Good Guys]]
-::card[[../Lenses/IABIED - QA - Cooperate to Build Safely]]
-::card[[../Lenses/IABIED - QA - Provably Safe AI]]
-::card[[../Lenses/IABIED - QA - Daily Life Believing This]]
-::card[[../Lenses/IABIED - QA - Should We Panic]]
-::card[[../Lenses/IABIED - QA - Fear-Mongering by AI Leaders]]
-::card[[../Lenses/IABIED - QA - Experts Don't All Agree]]
-::card[[../Lenses/IABIED - QA - The Lemoine Effect]]
-::card[[../Lenses/IABIED - QA - Telling AI Companies No]]
-::card[[../Lenses/IABIED - QA - Making Sense of the Death Race]]
-
-\## Chapter 13: Shut It Down
-::card[[../Lenses/IABIED - QA - The Draft Treaty]]
-::card[[../Lenses/IABIED - QA - Wait and See Approach]]
-::card[[../Lenses/IABIED - QA - Warning Shots]]
-::card[[../Lenses/IABIED - QA - Stopping Without Spyware]]
-::card[[../Lenses/IABIED - QA - Chip Ownership Control]]
-::card[[../Lenses/IABIED - QA - Research Ban Extreme]]
-::card[[../Lenses/IABIED - QA - Can Technology Be Stopped]]
-::card[[../Lenses/IABIED - QA - Too Much Power to Governments]]
-::card[[../Lenses/IABIED - QA - Nations Reject Ban]]
-::card[[../Lenses/IABIED - QA - Monitoring Regime Forever]]
-::card[[../Lenses/IABIED - QA - Making Humans Smarter]]
-::card[[../Lenses/IABIED - QA - Aligned to Whom]]
-::card[[../Lenses/IABIED - QA - Avoid Talking About Extinction]]
-::card[[../Lenses/IABIED - QA - Elected Officials Recognize Threat]]
-::card[[../Lenses/IABIED - QA - Is It Hopeless]]
-::card[[../Lenses/IABIED - QA - Shut Down Global AI Development]]
-::card[[../Lenses/IABIED - QA - Keep the Coalition Large]]
-
-# Lens: IABIED - QA - What About the Benefits of AI
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - What About the Benefits of AI]]
-
-# Lens: IABIED - QA - The Draft Treaty
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - The Draft Treaty]]
-
-# Lens: IABIED - QA - Distraction from Other Issues
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Distraction from Other Issues]]
-
-# Lens: IABIED - QA - Anti-Technology
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Anti-Technology]]
-
-# Lens: IABIED - QA - Rush Ahead Good Guys
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Rush Ahead Good Guys]]
-
-# Lens: IABIED - QA - Cooperate to Build Safely
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Cooperate to Build Safely]]
-
-# Lens: IABIED - QA - Provably Safe AI
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Provably Safe AI]]
-
-# Lens: IABIED - QA - Daily Life Believing This
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Daily Life Believing This]]
-
-# Lens: IABIED - QA - Should We Panic
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Should We Panic]]
-
-# Lens: IABIED - QA - Fear-Mongering by AI Leaders
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Fear-Mongering by AI Leaders]]
-
-# Lens: IABIED - QA - Experts Don't All Agree
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Experts Don't All Agree]]
-
-# Lens: IABIED - QA - The Lemoine Effect
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - The Lemoine Effect]]
-
-# Lens: IABIED - QA - Telling AI Companies No
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Telling AI Companies No]]
-
-# Lens: IABIED - QA - Making Sense of the Death Race
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Making Sense of the Death Race]]
-
-# Lens: IABIED - QA - Wait and See Approach
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Wait and See Approach]]
-
-# Lens: IABIED - QA - Warning Shots
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Warning Shots]]
-
-# Lens: IABIED - QA - Stopping Without Spyware
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Stopping Without Spyware]]
-
-# Lens: IABIED - QA - Chip Ownership Control
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Chip Ownership Control]]
-
-# Lens: IABIED - QA - Research Ban Extreme
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Research Ban Extreme]]
-
-# Lens: IABIED - QA - Can Technology Be Stopped
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Can Technology Be Stopped]]
-
-# Lens: IABIED - QA - Too Much Power to Governments
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Too Much Power to Governments]]
-
-# Lens: IABIED - QA - Nations Reject Ban
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Nations Reject Ban]]
-
-# Lens: IABIED - QA - Monitoring Regime Forever
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Monitoring Regime Forever]]
-
-# Lens: IABIED - QA - Making Humans Smarter
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Making Humans Smarter]]
-
-# Lens: IABIED - QA - Aligned to Whom
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Aligned to Whom]]
-
-# Lens: IABIED - QA - Avoid Talking About Extinction
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Avoid Talking About Extinction]]
-
-# Lens: IABIED - QA - Elected Officials Recognize Threat
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Elected Officials Recognize Threat]]
-
-# Lens: IABIED - QA - Is It Hopeless
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Is It Hopeless]]
-
-# Lens: IABIED - QA - Shut Down Global AI Development
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Shut Down Global AI Development]]
-
-# Lens: IABIED - QA - Keep the Coalition Large
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Keep the Coalition Large]]
-
-# Lens: IABIED - QA - Early Warnings
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Early Warnings]]
-
-# Lens: IABIED - QA - Isn't AI Different from Nuclear Reactors
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Isn't AI Different from Nuclear Reactors]]
-
-# Lens: IABIED - QA - Can International Cooperation Really Work
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Can International Cooperation Really Work]]--}
