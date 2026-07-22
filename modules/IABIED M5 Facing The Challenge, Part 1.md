@@ -110,7 +110,102 @@ source:: ![[../Lenses/IABIED - Strong Superalignment Objection - PQ]]
 # Lens:
 source:: ![[../Lenses/IABIED - Strong Superalignment Objection]]
 
-# Submodule: Talk to One Person
+# {++{"author":"Elias's AI","timestamp":1784730574074}@@Lens: Dive Deeper: Chapter 11
+id:: 1a96c108-14b1-4b19-9c24-0f44fced1374
+tldr:: Chapter 11's optional Q&As: can't we just muddle through, is alignment all-or-nothing, can interpretability save us, and what shutdown buttons would really take.
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 11 (An Alchemy, Not a Science). Links the book website's supplementary Q&A cards covering muddling through, alignment as all-or-nothing, government involvement, reckless versus incompetent labs, hardware overhang, racing for alignment research, non-dangerous deployment, interpretability, AIs debating and overseeing each other, other alignment plans, early warnings, plans critiqued, respect for the problem, and shutdown buttons and corrigibility. A navigation and index lens only; it carries no standalone teaching content of its own.
+optional:: true
+
+#### Text
+content::
+The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to Chapter 11 below.
+
+::card[[../Lenses/IABIED - QA - Muddle Through]]
+::card[[../Lenses/IABIED - QA - Alignment All or Nothing]]
+::card[[../Lenses/IABIED - QA - Governments Get Involved]]
+::card[[../Lenses/IABIED - QA - Reckless Means Incompetent]]
+::card[[../Lenses/IABIED - QA - Hardware Overhang]]
+::card[[../Lenses/IABIED - QA - Race for Alignment Research]]
+::card[[../Lenses/IABIED - QA - Non-Dangerous Deployment]]
+::card[[../Lenses/IABIED - QA - Can Interpretability Solve This]]
+::card[[../Lenses/IABIED - QA - AIs Debate Compete Oversee]]
+::card[[../Lenses/IABIED - QA - Various Other Alignment Plans]]
+::card[[../Lenses/IABIED - QA - Early Warnings]]
+::card[[../Lenses/IABIED - QA - More on Plans Critiqued]]
+::card[[../Lenses/IABIED - QA - Problem Not Treated with Respect]]
+::card[[../Lenses/IABIED - QA - Shutdown Buttons and Corrigibility]]
+
+# Lens: IABIED - QA - Muddle Through
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Muddle Through]]
+
+# Lens: IABIED - QA - Alignment All or Nothing
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Alignment All or Nothing]]
+
+# Lens: IABIED - QA - Governments Get Involved
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Governments Get Involved]]
+
+# Lens: IABIED - QA - Reckless Means Incompetent
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Reckless Means Incompetent]]
+
+# Lens: IABIED - QA - Hardware Overhang
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Hardware Overhang]]
+
+# Lens: IABIED - QA - Race for Alignment Research
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Race for Alignment Research]]
+
+# Lens: IABIED - QA - Non-Dangerous Deployment
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Non-Dangerous Deployment]]
+
+# Lens: IABIED - QA - Can Interpretability Solve This
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Can Interpretability Solve This]]
+
+# Lens: IABIED - QA - AIs Debate Compete Oversee
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - AIs Debate Compete Oversee]]
+
+# Lens: IABIED - QA - Various Other Alignment Plans
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Various Other Alignment Plans]]
+
+# Lens: IABIED - QA - Early Warnings
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Early Warnings]]
+
+# Lens: IABIED - QA - More on Plans Critiqued
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - More on Plans Critiqued]]
+
+# Lens: IABIED - QA - Problem Not Treated with Respect
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Problem Not Treated with Respect]]
+
+# Lens: IABIED - QA - Shutdown Buttons and Corrigibility
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Shutdown Buttons and Corrigibility]]
+
+# ++}Submodule: Talk to One Person
 # Lens: IABIED - Talk to One Person
 source:: ![[../Lenses/IABIED - Talk to One Person]]
 
