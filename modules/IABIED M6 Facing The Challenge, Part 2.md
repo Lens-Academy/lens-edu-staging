@@ -203,7 +203,7 @@ source:: [[../Lenses/IABIED - Coalition Strategy - PQ]]
 ## Lens:
 source:: [[../Lenses/IABIED - Coalition Strategy]]
 
-{++{"author":"Elias's AI","timestamp":1784730666896}@@## Lens: Dive Deeper: Chapter 13
+{++{"author":"Elias's AI","timestamp":1784730813170}@@## Lens: Dive Deeper: Chapter 13
 id:: e983cb9d-bdec-46c7-9ad2-fe9e52bbc29e
 tldr:: Deeper on Chapter 13? The book's supplementary Q&As field the hardest objections to "shut it down": "can technology really be stopped?", "isn't this too much power for governments?", "what if nations reject the ban?".
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 13 (Shut It Down). Links the book website's supplementary Q&A cards covering the draft treaty, wait-and-see, warning shots, monitoring without spyware, chip-ownership control, research bans, whether technology can be stopped, government power, nations rejecting the ban, a permanent monitoring regime, making humans smarter, "aligned to whom", talking about extinction, elected officials, hopelessness, shutting down global AI development, international cooperation, and keeping the coalition large. A navigation and index lens only; it carries no standalone teaching content of its own.
@@ -231,7 +231,7 @@ The book's website includes supplementary Q&As and extended discussions for each
 ::card[[../Lenses/IABIED - QA - Shut Down Global AI Development]]
 ::card[[../Lenses/IABIED - QA - Can International Cooperation Really Work]]
 ::card[[../Lenses/IABIED - QA - Keep the Coalition Large]]
-{>>{"author":"Elias's AI","timestamp":1784730666896}@@Three hidden imports in the old Dive Deeper had no cards (unreachable): 'Can International Cooperation Really Work' is a Ch13 Q&A (ifanyonebuildsit.com/13), carded here; 'Isn't AI Different from Nuclear Reactors' is a Ch10 Q&A, moved to M5 Ch10; 'Early Warnings' is a Ch11 Q&A already carded in M5, dropped here.<<}
+{>>{"author":"Elias's AI","timestamp":1784730813170}@@The old Dive Deeper had three hidden imports its overview never carded. 'Can International Cooperation Really Work' is a Ch13 Q&A (ifanyonebuildsit.com/13), now carded here. 'Early Warnings' and 'Isn't AI Different from Nuclear Reactors' are card targets inside the 'IABIED - The One-Chance Problem' lens, so they stay imported under Ch12; the latter (a Ch10 Q&A) is now also carded in M5 Ch10.<<}
 
 ## Lens: IABIED - QA - The Draft Treaty
 optional:: true
