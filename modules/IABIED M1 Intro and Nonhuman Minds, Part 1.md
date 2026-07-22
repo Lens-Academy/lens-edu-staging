@@ -53,7 +53,72 @@ source:: ![[../Lenses/IABIED - PQ - Hard Calls and Easy Calls]]
 # Lens:
 source:: ![[../Lenses/IABIED - Hard Calls and Easy Calls]]
 
-# Submodule: Ch1 - Intelligence
+# {++{"author":"Elias's AI","timestamp":1784729999893}@@Lens: Dive Deeper: Introduction
+id:: 53db056e-488a-4f0f-ba72-f02d58ef8291
+tldr:: An optional grab-bag of the book's own supplementary Q&As for the Introduction, short answers to objections like "isn't this just science fiction?" and "aren't the authors panicking?". Skim the few that catch your eye rather than reading them all.
+summary_for_tutor:: Optional Dive Deeper index lens for the Introduction (Hard Calls and Easy Calls). Links the book website's supplementary Q&A cards covering why the authors wrote the book, whether ChatGPT could kill us, panic and overreaction, when worrisome AI will arrive, extrapolating AI progress, author incentives, science-fiction dismissals, expert views on catastrophe, and Leo Szilard. A navigation and index lens only; it carries no standalone teaching content of its own.
+optional:: true
+
+#### Text
+content::
+The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to the Introduction below. We suggest reading a couple of them that you find interesting, but probably don't read all of them (for time's sake). It's likely more useful to spend more time talking to the AI Tutor.
+
+::card[[../Lenses/IABIED - QA - Why Write This Book]]
+::card[[../Lenses/IABIED - QA - Could ChatGPT Kill Us]]
+::card[[../Lenses/IABIED - QA - Panicking and Overreacting]]
+::card[[../Lenses/IABIED - QA - When Will Worrisome AI Arrive]]
+::card[[../Lenses/IABIED - QA - Extrapolating AI Progress]]
+::card[[../Lenses/IABIED - QA - Author Incentives and Conflicts]]
+::card[[../Lenses/IABIED - QA - Just Science Fiction]]
+::card[[../Lenses/IABIED - QA - AI Experts on Catastrophe]]
+::card[[../Lenses/IABIED - QA - Leo Szilard Saw the Future]]
+
+# Lens: IABIED - QA - Why Write This Book
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Why Write This Book]]
+
+# Lens: IABIED - QA - Could ChatGPT Kill Us
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Could ChatGPT Kill Us]]
+
+# Lens: IABIED - QA - Panicking and Overreacting
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Panicking and Overreacting]]
+
+# Lens: IABIED - QA - When Will Worrisome AI Arrive
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - When Will Worrisome AI Arrive]]
+
+# Lens: IABIED - QA - Extrapolating AI Progress
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Extrapolating AI Progress]]
+
+# Lens: IABIED - QA - Author Incentives and Conflicts
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Author Incentives and Conflicts]]
+
+# Lens: IABIED - QA - Just Science Fiction
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Just Science Fiction]]
+
+# Lens: IABIED - QA - AI Experts on Catastrophe
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - AI Experts on Catastrophe]]
+
+# Lens: IABIED - QA - Leo Szilard Saw the Future
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Leo Szilard Saw the Future]]
+
+# ++}Submodule: Ch1 - Intelligence
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]
 
 # Learning Outcome: IABIED - Define Intelligence
