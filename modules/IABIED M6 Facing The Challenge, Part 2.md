@@ -90,9 +90,7 @@ optional:: true
 
 #### Text:
 content::
-{--{"author":"Elias's AI","timestamp":1784731594912}@@The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to Chapter 12 below.
-
---}::card[[../Lenses/IABIED - QA - What About the Benefits of AI]]
+::card[[../Lenses/IABIED - QA - What About the Benefits of AI]]
 ::card[[../Lenses/IABIED - QA - Distraction from Other Issues]]
 ::card[[../Lenses/IABIED - QA - Anti-Technology]]
 ::card[[../Lenses/IABIED - QA - Rush Ahead Good Guys]]
@@ -211,8 +209,6 @@ optional:: true
 
 #### Text:
 content::
-The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to Chapter 13 below.
-
 ::card[[../Lenses/IABIED - QA - The Draft Treaty]]
 ::card[[../Lenses/IABIED - QA - Wait and See Approach]]
 ::card[[../Lenses/IABIED - QA - Warning Shots]]

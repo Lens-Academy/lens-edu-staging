@@ -34,9 +34,7 @@ optional:: true
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1784731582951}@@The book's website includes supplementary Q&As and extended discussions for this section. Browse the ones relevant to this chapter below.
-
---}::card[[../Lenses/IABIED - QA - Why This Setup]]
+::card[[../Lenses/IABIED - QA - Why This Setup]]
 ::card[[../Lenses/IABIED - QA - Sable's Thinking]]
 ::card[[../Lenses/IABIED - QA - Galvanic Fairly Careful]]
 ::card[[../Lenses/IABIED - QA - Galvanic Insufficiently Careful]]
@@ -96,9 +94,7 @@ optional:: true
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1784731635875}@@The book's website includes supplementary Q&As and extended discussions for this section. Browse the ones relevant to this chapter below.
-
---}::card[[../Lenses/IABIED - QA - Story Started Later]]
+::card[[../Lenses/IABIED - QA - Story Started Later]]
 ::card[[../Lenses/IABIED - QA - Sable's Expansion Phase]]
 ::card[[../Lenses/IABIED - QA - Instrumental Convergence]]
 {>>{"author":"Elias's AI","timestamp":1784730265976}@@'Instrumental Convergence' was a hidden import without a card in the old Dive Deeper submodule (unreachable for learners); carded it here under Ch8.<<}
@@ -138,8 +134,6 @@ optional:: true
 
 #### Text
 content::
-The book's website includes supplementary Q&As and extended discussions for this section. Browse the ones relevant to this chapter below.
-
 ::card[[../Lenses/IABIED - QA - The Ending]]
 ::card[[../Lenses/IABIED - QA - Won't It Choose to Be Moral]]
 {>>{"author":"Elias's AI","timestamp":1784730282009}@@'Won't It Choose to Be Moral' was a hidden import without a card in the old Dive Deeper submodule (unreachable for learners); carded it here under Ch9.<<}
