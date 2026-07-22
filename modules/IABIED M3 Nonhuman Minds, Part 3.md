@@ -77,9 +77,7 @@ optional:: true
 
 #### Text:
 content::
-{--{"author":"Elias's AI","timestamp":1784731572005}@@The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to Chapter 5 below.
-
---}::card[[../Lenses/IABIED - QA - AI Find Us Useful]]
+::card[[../Lenses/IABIED - QA - AI Find Us Useful]]
 ::card[[../Lenses/IABIED - QA - AI Treat Us as Parents]]
 ::card[[../Lenses/IABIED - QA - AIs Need Rule of Law]]
 ::card[[../Lenses/IABIED - QA - Preserving Humans Negligible]]
@@ -265,9 +263,7 @@ optional:: true
 
 #### Text:
 content::
-{--{"author":"Elias's AI","timestamp":1784731619548}@@The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to Chapter 6 below.
-
---}::card[[../Lenses/IABIED - QA - Pull the Plug]]
+::card[[../Lenses/IABIED - QA - Pull the Plug]]
 ::card[[../Lenses/IABIED - QA - Digital AIs Affect Us]]
 ::card[[../Lenses/IABIED - QA - Keep AI in a Box]]
 ::card[[../Lenses/IABIED - QA - Exploit AI Weakness]]

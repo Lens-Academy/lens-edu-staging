@@ -147,9 +147,7 @@ optional:: true
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1784731563319}@@The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to Chapter 1 below. We suggest reading a couple of them that you find interesting, but probably don't read all of them (for time's sake). It's likely more useful to spend more time talking to the AI Tutor.
-
---}::card[[../Lenses/IABIED - QA - Is Intelligence Meaningful]]
+::card[[../Lenses/IABIED - QA - Is Intelligence Meaningful]]
 ::card[[../Lenses/IABIED - QA - Human-Level Intelligence]]
 ::card[[../Lenses/IABIED - QA - Intelligence as Multiple Skills]]
 ::card[[../Lenses/IABIED - QA - Intelligence Overrated]]
@@ -293,9 +291,7 @@ optional:: true
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1784731610485}@@The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to Chapter 2 below. We suggest reading a couple of them that you find interesting, but probably don't read all of them (for time's sake). It's likely more useful to spend more time talking to the AI Tutor.
-
---}::card[[../Lenses/IABIED - QA - Gradient Descent Matters]]
+::card[[../Lenses/IABIED - QA - Gradient Descent Matters]]
 ::card[[../Lenses/IABIED - QA - Do Experts Understand AIs]]
 ::card[[../Lenses/IABIED - QA - Intelligence Understandable]]
 ::card[[../Lenses/IABIED - QA - AIs Think in English]]
