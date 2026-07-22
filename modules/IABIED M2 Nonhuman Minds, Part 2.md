@@ -54,7 +54,60 @@ source:: ![[../Lenses/IABIED - Wanting Emerges from Training - PQ]]
 # Lens:
 source:: ![[../Lenses/IABIED - Wanting Emerges from Training]]
 
-# Submodule: Ch4 - You Don't Get What You Train For
+# {++{"author":"Elias's AI","timestamp":1784728578136}@@Lens: Dive Deeper: Chapter 3
+id:: f7a2b8c1-3d4e-4f5a-9b6c-8d7e0f1a2b3c
+tldr:: Want to go deeper on how AIs come to want things? These are the book's own supplementary Q&As for Chapter 3, short takes on objections like "aren't AIs just tools?" and "would a machine really have its own priorities?".
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 3 (Learning to Want). Links the book website's supplementary Q&A cards covering objections and extensions such as human-like emotions, machines developing their own priorities, AIs as mere tools, passivity and docility, anthropomorphism versus mechanomorphism, the road to wanting, and whether smart AIs spot lies. A navigation and index lens only; it carries no standalone teaching content of its own.
+optional:: true
+
+#### Text:
+content::
+The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to Chapter 3 below.
+
+::card[[../Lenses/IABIED - QA - Human-Like Emotions]]
+::card[[../Lenses/IABIED - QA - Machine Own Priorities]]
+::card[[../Lenses/IABIED - QA - AIs Just Tools]]
+::card[[../Lenses/IABIED - QA - Passive and Docile]]
+::card[[../Lenses/IABIED - QA - Anthropomorphism and Mechanomorphism]]
+::card[[../Lenses/IABIED - QA - The Road to Wanting]]
+::card[[../Lenses/IABIED - QA - Smart AIs Spot Lies]]
+
+# Lens: IABIED - QA - Human-Like Emotions
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Human-Like Emotions]]
+
+# Lens: IABIED - QA - Machine Own Priorities
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Machine Own Priorities]]
+
+# Lens: IABIED - QA - AIs Just Tools
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - AIs Just Tools]]
+
+# Lens: IABIED - QA - Passive and Docile
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Passive and Docile]]
+
+# Lens: IABIED - QA - Anthropomorphism and Mechanomorphism
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Anthropomorphism and Mechanomorphism]]
+
+# Lens: IABIED - QA - The Road to Wanting
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - The Road to Wanting]]
+
+# Lens: IABIED - QA - Smart AIs Spot Lies
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Smart AIs Spot Lies]]
+
+# ++}Submodule: Ch4 - You Don't Get What You Train For
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/04 - Chapter 4 - You Don't Get What You Train For]]
 
 # Learning Outcome: Explain You Don't Get What You Train For
