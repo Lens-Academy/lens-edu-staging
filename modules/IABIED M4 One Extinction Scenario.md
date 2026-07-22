@@ -34,7 +34,11 @@ optional:: true
 
 #### Text
 content::
-::card[[../Lenses/IABIED - QA - Why This Setup]]
+{++{"author":"Elias's AI","timestamp":1784737441058}@@Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+
+Skim whatever catches your eye.
+
+++}::card[[../Lenses/IABIED - QA - Why This Setup]]
 ::card[[../Lenses/IABIED - QA - Sable's Thinking]]
 ::card[[../Lenses/IABIED - QA - Galvanic Fairly Careful]]
 ::card[[../Lenses/IABIED - QA - Galvanic Insufficiently Careful]]

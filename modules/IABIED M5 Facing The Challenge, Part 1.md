@@ -43,7 +43,11 @@ optional:: true
 
 #### Text
 content::
-::card[[../Lenses/IABIED - QA - AI Differs from Precedents]]
+{++{"author":"Elias's AI","timestamp":1784737444473}@@Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+
+Skim whatever catches your eye.
+
+++}::card[[../Lenses/IABIED - QA - AI Differs from Precedents]]
 ::card[[../Lenses/IABIED - QA - Isn't AI Different from Nuclear Reactors]]
 ::card[[../Lenses/IABIED - QA - Time to Solve Alignment]]
 ::card[[../Lenses/IABIED - QA - Lots of Different AIs]]
