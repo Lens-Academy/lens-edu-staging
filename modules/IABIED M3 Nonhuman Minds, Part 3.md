@@ -267,7 +267,11 @@ optional:: true
 
 #### Text:
 content::
-::card[[../Lenses/IABIED - QA - Pull the Plug]]
+{++{"author":"Elias's AI","timestamp":1784737469927}@@Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+
+Skim whatever catches your eye.
+
+++}::card[[../Lenses/IABIED - QA - Pull the Plug]]
 ::card[[../Lenses/IABIED - QA - Digital AIs Affect Us]]
 ::card[[../Lenses/IABIED - QA - Keep AI in a Box]]
 ::card[[../Lenses/IABIED - QA - Exploit AI Weakness]]
