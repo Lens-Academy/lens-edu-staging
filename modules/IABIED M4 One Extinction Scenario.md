@@ -130,7 +130,31 @@ source:: ![[../Lenses/IABIED - Indifference Not Malice - PQ]]
 ## Lens:
 source:: ![[../Lenses/IABIED - Indifference Not Malice]]
 
-# Submodule: Coda
+{++{"author":"Elias's AI","timestamp":1784730282009}@@## Lens: Dive Deeper: Chapter 9
+id:: b3132948-6f00-4d18-89f1-40d46c96e92c
+tldr:: Optional companion Q&As for the scenario's end: what the ending really claims, and why a superintelligence wouldn't simply choose to be moral.
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 9 (Ascension). Links the book website's supplementary Q&A cards covering the scenario's ending and the objection that a superintelligence would choose to be moral or install love into itself. A navigation and index lens only; it carries no standalone teaching content of its own.
+optional:: true
+
+#### Text
+content::
+The book's website includes supplementary Q&As and extended discussions for this section. Browse the ones relevant to this chapter below.
+
+::card[[../Lenses/IABIED - QA - The Ending]]
+::card[[../Lenses/IABIED - QA - Won't It Choose to Be Moral]]
+{>>{"author":"Elias's AI","timestamp":1784730282009}@@'Won't It Choose to Be Moral' was a hidden import without a card in the old Dive Deeper submodule (unreachable for learners); carded it here under Ch9.<<}
+
+## Lens: IABIED - QA - The Ending
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - The Ending]]
+
+## Lens: IABIED - QA - Won't It Choose to Be Moral
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Won't It Choose to Be Moral]]
+
+++}# Submodule: Coda
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/10 - Coda]]
 
 ## Learning Outcome: IABIED - Distinguish Path Prediction from Outcome Prediction
@@ -152,7 +176,7 @@ source:: ![[../Lenses/IABIED - Fiction as Argument]]
 ### Lens: IABIED - Your Leverage
 source:: ![[../Lenses/IABIED - Your Leverage]]
 
-# Submodule: Dive Deeper
+{--{"author":"Elias's AI","timestamp":1784730304218}@@# Submodule: Dive Deeper
 ### Lens: Overview of Optional Resources
 source:: ![[../Lenses/IABIED - Overview of Optional Resources M4]]
 
@@ -204,5 +228,5 @@ source:: ![[../Lenses/IABIED - QA - Instrumental Convergence]]
 ### Lens: IABIED - QA - Won't It Choose to Be Moral
 optional:: true
 hide:: true
-source:: ![[../Lenses/IABIED - QA - Won't It Choose to Be Moral]]
+source:: ![[../Lenses/IABIED - QA - Won't It Choose to Be Moral]]--}
 

@@ -35,7 +35,61 @@ source:: ![[../Lenses/IABIED - Position Not Despair - PQ]]
 # Lens:
 source:: ![[../Lenses/IABIED - Position Not Despair]]
 
-# Submodule: Ch11 - An Alchemy, Not a Science
+# {++{"author":"Elias's AI","timestamp":1784730337054}@@Lens: Dive Deeper: Chapter 10
+id:: 5db4d07c-cbb5-4b6f-ad50-427eb9a62386
+tldr:: The authors answered the objections Chapter 10 invites: is AI really different from past technologies, will there be enough time to solve alignment, and what Chicago Pile-1 teaches about cursed problems.
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 10 (A Cursed Problem). Links the book website's supplementary Q&A cards covering whether AI differs from precedents and from nuclear reactors, time to solve alignment, many different AIs, slow AI integration, before-and-after framing, and Chicago Pile-1. A navigation and index lens only; it carries no standalone teaching content of its own.
+optional:: true
+
+#### Text
+content::
+The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to Chapter 10 below.
+
+::card[[../Lenses/IABIED - QA - AI Differs from Precedents]]
+::card[[../Lenses/IABIED - QA - Isn't AI Different from Nuclear Reactors]]
+::card[[../Lenses/IABIED - QA - Time to Solve Alignment]]
+::card[[../Lenses/IABIED - QA - Lots of Different AIs]]
+::card[[../Lenses/IABIED - QA - Slow AI Integration]]
+::card[[../Lenses/IABIED - QA - Before and After]]
+::card[[../Lenses/IABIED - QA - Chicago Pile-1]]
+{>>{"author":"Elias's AI","timestamp":1784730337054}@@'Isn't AI Different from Nuclear Reactors' is a Chapter 10 Q&A (ifanyonebuildsit.com/10) that was previously a hidden, card-less import in M6 (unreachable there); moved it here.<<}
+
+# Lens: IABIED - QA - AI Differs from Precedents
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - AI Differs from Precedents]]
+
+# Lens: IABIED - QA - Isn't AI Different from Nuclear Reactors
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Isn't AI Different from Nuclear Reactors]]
+
+# Lens: IABIED - QA - Time to Solve Alignment
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Time to Solve Alignment]]
+
+# Lens: IABIED - QA - Lots of Different AIs
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Lots of Different AIs]]
+
+# Lens: IABIED - QA - Slow AI Integration
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Slow AI Integration]]
+
+# Lens: IABIED - QA - Before and After
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Before and After]]
+
+# Lens: IABIED - QA - Chicago Pile-1
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Chicago Pile-1]]
+
+# ++}Submodule: Ch11 - An Alchemy, Not a Science
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/12 - Chapter 11 - An Alchemy, Not a Science]]
 
 # Learning Outcome: IABIED - Alchemy Not Science
