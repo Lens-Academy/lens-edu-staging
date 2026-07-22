@@ -348,7 +348,7 @@ source:: [[../Lenses/IABIED - The Two Prayers]]
 # Lens: IABIED - Your Ongoing Action
 source:: ![[../Lenses/IABIED - Your Ongoing Action]]
 
-# Submodule: Dive Deeper
+{--{"author":"Elias's AI","timestamp":1784730708057}@@# Submodule: Dive Deeper
 # Lens: Overview of Optional Resources
 id:: 79671536-5615-4807-8f08-ff039c8a525e
 tldr:: Deeper on the closing chapters? The book's supplementary Q&As take on the hardest objections to "shut it down": "what about the benefits?", "can technology really be stopped?", "isn't this too much power for governments?", grouped by chapter.
@@ -555,4 +555,4 @@ source:: ![[../Lenses/IABIED - QA - Isn't AI Different from Nuclear Reactors]]
 # Lens: IABIED - QA - Can International Cooperation Really Work
 optional:: true
 hide:: true
-source:: ![[../Lenses/IABIED - QA - Can International Cooperation Really Work]]
+source:: ![[../Lenses/IABIED - QA - Can International Cooperation Really Work]]--}
