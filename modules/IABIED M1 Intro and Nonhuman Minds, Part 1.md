@@ -139,7 +139,132 @@ source:: ![[../Lenses/IABIED - Intelligence Is Direction-Agnostic - PQ]]
 # Lens:
 source:: ![[../Lenses/IABIED - Intelligence Is Direction-Agnostic]]
 
-# Submodule: Ch2 - Grown, not crafted
+# {++{"author":"Elias's AI","timestamp":1784730038303}@@Lens: Dive Deeper: Chapter 1
+id:: c18583a7-9d9a-4c75-98c0-800b1f83ea53
+tldr:: Chapter 1's optional Q&As field the objections about intelligence itself: is "intelligence" even a meaningful concept, is it one thing or many, and how smart could a superintelligence actually get? Skim the few that catch your eye.
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 1 (Humanity's Special Power). Links the book website's supplementary Q&A cards covering the meaningfulness and measurability of intelligence, human-level and general intelligence, critical thresholds, prospects and obstacles for superintelligence, machine creativity and consciousness, and intelligence as prediction and steering. A navigation and index lens only; it carries no standalone teaching content of its own.
+optional:: true
+
+#### Text
+content::
+The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to Chapter 1 below. We suggest reading a couple of them that you find interesting, but probably don't read all of them (for time's sake). It's likely more useful to spend more time talking to the AI Tutor.
+
+::card[[../Lenses/IABIED - QA - Is Intelligence Meaningful]]
+::card[[../Lenses/IABIED - QA - Human-Level Intelligence]]
+::card[[../Lenses/IABIED - QA - Intelligence as Multiple Skills]]
+::card[[../Lenses/IABIED - QA - Intelligence Overrated]]
+::card[[../Lenses/IABIED - QA - General Intelligence]]
+::card[[../Lenses/IABIED - QA - Intelligence as Scalar]]
+::card[[../Lenses/IABIED - QA - AI Critical Thresholds]]
+::card[[../Lenses/IABIED - QA - ChatGPT as General Intelligence]]
+::card[[../Lenses/IABIED - QA - How Smart Could Superintelligence Get]]
+::card[[../Lenses/IABIED - QA - Obstacles to Superintelligence]]
+::card[[../Lenses/IABIED - QA - Predicting Superintelligence]]
+::card[[../Lenses/IABIED - QA - Machines Fundamentally Uncreative]]
+::card[[../Lenses/IABIED - QA - Something Special About Humans]]
+::card[[../Lenses/IABIED - QA - Machines Becoming Conscious]]
+::card[[../Lenses/IABIED - QA - Intelligence as Prediction and Steering]]
+::card[[../Lenses/IABIED - QA - Shallowness of Current AIs]]
+::card[[../Lenses/IABIED - QA - Power of Intelligence]]
+::card[[../Lenses/IABIED - QA - Special Behavior from Mundane Parts]]
+::card[[../Lenses/IABIED - QA - Same Work Different Ways]]
+
+# Lens: IABIED - QA - Is Intelligence Meaningful
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Is Intelligence Meaningful]]
+
+# Lens: IABIED - QA - Human-Level Intelligence
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Human-Level Intelligence]]
+
+# Lens: IABIED - QA - Intelligence as Multiple Skills
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Intelligence as Multiple Skills]]
+
+# Lens: IABIED - QA - Intelligence Overrated
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Intelligence Overrated]]
+
+# Lens: IABIED - QA - General Intelligence
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - General Intelligence]]
+
+# Lens: IABIED - QA - Intelligence as Scalar
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Intelligence as Scalar]]
+
+# Lens: IABIED - QA - AI Critical Thresholds
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - AI Critical Thresholds]]
+
+# Lens: IABIED - QA - ChatGPT as General Intelligence
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - ChatGPT as General Intelligence]]
+
+# Lens: IABIED - QA - How Smart Could Superintelligence Get
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - How Smart Could Superintelligence Get]]
+
+# Lens: IABIED - QA - Obstacles to Superintelligence
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Obstacles to Superintelligence]]
+
+# Lens: IABIED - QA - Predicting Superintelligence
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Predicting Superintelligence]]
+
+# Lens: IABIED - QA - Machines Fundamentally Uncreative
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Machines Fundamentally Uncreative]]
+
+# Lens: IABIED - QA - Something Special About Humans
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Something Special About Humans]]
+
+# Lens: IABIED - QA - Machines Becoming Conscious
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Machines Becoming Conscious]]
+
+# Lens: IABIED - QA - Intelligence as Prediction and Steering
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Intelligence as Prediction and Steering]]
+
+# Lens: IABIED - QA - Shallowness of Current AIs
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Shallowness of Current AIs]]
+
+# Lens: IABIED - QA - Power of Intelligence
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Power of Intelligence]]
+
+# Lens: IABIED - QA - Special Behavior from Mundane Parts
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Special Behavior from Mundane Parts]]
+
+# Lens: IABIED - QA - Same Work Different Ways
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Same Work Different Ways]]
+
+# ++}Submodule: Ch2 - Grown, not crafted
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/02 - Chapter 2 - Grown, Not Crafted]]
 
 # Learning Outcome: IABIED - AI Is Grown, Not Crafted
