@@ -171,6 +171,17 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Making Sense of the Death Race]]
 
+++}{++{"author":"Elias's AI","timestamp":1784730793109}@@## Lens: IABIED - QA - Early Warnings
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Early Warnings]]
+
+## Lens: IABIED - QA - Isn't AI Different from Nuclear Reactors
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Isn't AI Different from Nuclear Reactors]]
+{>>{"author":"Elias's AI","timestamp":1784730793109}@@These two are card targets inside the 'IABIED - The One-Chance Problem' lens (Ch12), so they must stay imported in this module even though the chapter overview doesn't card them.<<}
+
 ++}# Submodule: Chapter 13: Shut It Down
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/14 - Chapter 13 - Shut It Down]]
 
