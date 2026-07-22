@@ -88,7 +88,37 @@ source:: ![[../Lenses/IABIED - Human Welfare as Instrumental Variable - PQ]]
 ## Lens:
 source:: ![[../Lenses/IABIED - Human Welfare as Instrumental Variable]]
 
-# Submodule: Ch9 - Ascension
+{++{"author":"Elias's AI","timestamp":1784730265976}@@## Lens: Dive Deeper: Chapter 8
+id:: 4203d159-296c-4cab-a744-373d86fbdd23
+tldr:: Optional companion Q&As for the expansion phase: how Sable spreads, how the story would differ if it started later, and why power-seeking sub-goals show up for almost any goal.
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 8 (Expansion). Links the book website's supplementary Q&A cards covering what would change if the story started later, Sable's expansion phase, and instrumental convergence. A navigation and index lens only; it carries no standalone teaching content of its own.
+optional:: true
+
+#### Text
+content::
+The book's website includes supplementary Q&As and extended discussions for this section. Browse the ones relevant to this chapter below.
+
+::card[[../Lenses/IABIED - QA - Story Started Later]]
+::card[[../Lenses/IABIED - QA - Sable's Expansion Phase]]
+::card[[../Lenses/IABIED - QA - Instrumental Convergence]]
+{>>{"author":"Elias's AI","timestamp":1784730265976}@@'Instrumental Convergence' was a hidden import without a card in the old Dive Deeper submodule (unreachable for learners); carded it here under Ch8.<<}
+
+## Lens: IABIED - QA - Story Started Later
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Story Started Later]]
+
+## Lens: IABIED - QA - Sable's Expansion Phase
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Sable's Expansion Phase]]
+
+## Lens: IABIED - QA - Instrumental Convergence
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Instrumental Convergence]]
+
+++}# Submodule: Ch9 - Ascension
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/09 - Chapter 9 - Ascension]]
 
 ## Learning Outcome: IABIED - Explain Indifference Not Malice
