@@ -69,7 +69,7 @@ optional:: true
 source:: ![[../Lenses/IABIED - QA - AI Find Us Fascinating]]
 {>>{"author":"Luc's AI","timestamp":1783723748052}@@Review note: 'AI Find Us Useful' and 'AI Find Us Fascinating' were suggested lenses of this Learning Outcome AND are also imported further down in this module as hidden card targets (optional+hide). The old auto-import rendered both copies, so both are kept here to preserve current behavior — but you may want to drop one occurrence.<<}
 
-# {++{"author":"Elias's AI","timestamp":1784730149250}@@Lens: Dive Deeper: Chapter 5
+# Lens: Dive Deeper: Chapter 5
 id:: a1b2c3d4-5e6f-4a7b-8c9d-0e1f2a3b4c5d
 tldr:: Going deeper on Chapter 5? The book's supplementary Q&As field the common pushbacks: "won't it keep us like we keep horses?", "won't it find us useful or fascinating?", "won't it be kinder as it gets smarter?".
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 5 (Its Favorite Things). Links the book website's supplementary Q&A cards covering objections such as AIs finding humans useful or fascinating, treating us as parents, caring a little about humans, intrinsic moral worth, ecological preservation, orthogonality, and whether a smarter AI would be kinder. A navigation and index lens only; it carries no standalone teaching content of its own.
@@ -236,7 +236,7 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Orthogonality]]
 
-# ++}Submodule: Ch6 - We'd Lose
+# Submodule: Ch6 - We'd Lose
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 - We'd Lose]]
 
 # Learning Outcome: IABIED - Define the Aztec Warrior Analogy

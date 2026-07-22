@@ -53,7 +53,7 @@ source:: ![[../Lenses/IABIED - PQ - Hard Calls and Easy Calls]]
 # Lens:
 source:: ![[../Lenses/IABIED - Hard Calls and Easy Calls]]
 
-# {++{"author":"Elias's AI","timestamp":1784729999893}@@Lens: Dive Deeper: Introduction
+# Lens: Dive Deeper: Introduction
 id:: 53db056e-488a-4f0f-ba72-f02d58ef8291
 tldr:: An optional grab-bag of the book's own supplementary Q&As for the Introduction, short answers to objections like "isn't this just science fiction?" and "aren't the authors panicking?". Skim the few that catch your eye rather than reading them all.
 summary_for_tutor:: Optional Dive Deeper index lens for the Introduction (Hard Calls and Easy Calls). Links the book website's supplementary Q&A cards covering why the authors wrote the book, whether ChatGPT could kill us, panic and overreaction, when worrisome AI will arrive, extrapolating AI progress, author incentives, science-fiction dismissals, expert views on catastrophe, and Leo Szilard. A navigation and index lens only; it carries no standalone teaching content of its own.
@@ -118,7 +118,7 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Leo Szilard Saw the Future]]
 
-# ++}Submodule: Ch1 - Intelligence
+# Submodule: Ch1 - Intelligence
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]
 
 # Learning Outcome: IABIED - Define Intelligence
@@ -139,7 +139,7 @@ source:: ![[../Lenses/IABIED - Intelligence Is Direction-Agnostic - PQ]]
 # Lens:
 source:: ![[../Lenses/IABIED - Intelligence Is Direction-Agnostic]]
 
-# {++{"author":"Elias's AI","timestamp":1784730038303}@@Lens: Dive Deeper: Chapter 1
+# Lens: Dive Deeper: Chapter 1
 id:: c18583a7-9d9a-4c75-98c0-800b1f83ea53
 tldr:: Chapter 1's optional Q&As field the objections about intelligence itself: is "intelligence" even a meaningful concept, is it one thing or many, and how smart could a superintelligence actually get? Skim the few that catch your eye.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 1 (Humanity's Special Power). Links the book website's supplementary Q&A cards covering the meaningfulness and measurability of intelligence, human-level and general intelligence, critical thresholds, prospects and obstacles for superintelligence, machine creativity and consciousness, and intelligence as prediction and steering. A navigation and index lens only; it carries no standalone teaching content of its own.
@@ -264,7 +264,7 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Same Work Different Ways]]
 
-# ++}Submodule: Ch2 - Grown, not crafted
+# Submodule: Ch2 - Grown, not crafted
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/02 - Chapter 2 - Grown, Not Crafted]]
 
 # Learning Outcome: IABIED - AI Is Grown, Not Crafted
@@ -285,146 +285,34 @@ source:: ![[../Lenses/IABIED - Behavior Is Not Values - PQ]]
 # Lens:
 source:: ![[../Lenses/IABIED - Behavior Is Not Values]]
 
-# {--{"author":"Elias's AI","timestamp":1784730105679}@@Submodule:--}{++{"author":"Elias's AI","timestamp":1784730105679}@@Lens:++} Dive{--{"author":"Elias's AI","timestamp":1784730105679}@@ Deeper
-# Lens: Overview of Optional Resources--}{++{"author":"Elias's AI","timestamp":1784730105679}@@ Deeper: Chapter 2++}
-{--{"author":"Elias's AI","timestamp":1784730105679}@@optional:: true--}{++{"author":"Elias's AI","timestamp":1784730105679}@@id:: e131a5fb-ed8a-4719-842f-1e6ead7f0fe3++}
-{--{"author":"Elias's AI","timestamp":1784730105679}@@source:: [[../Lenses/IABIED - Overview of Optional Resources M1]]
-
-# Lens: IABIED - QA - Why Write This Book
+# Lens: Dive Deeper: Chapter 2
+id:: e131a5fb-ed8a-4719-842f-1e6ead7f0fe3
+tldr:: Chapter 2's optional Q&As dig into how modern LLMs actually work and what "grown, not crafted" really means: aren't AIs just math, just parroting, just predicting the next token? Skim the few that catch your eye.
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 2 (Grown, Not Crafted). Links the book website's supplementary Q&A cards covering gradient descent, whether experts understand AI internals, thinking in English, the "just math" and "just parroting" objections, training-data limits, hallucinations, resource constraints, and the path from LLMs to superintelligence. A navigation and index lens only; it carries no standalone teaching content of its own.
 optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Why Write This Book]]
 
-# Lens: IABIED - QA - Could ChatGPT Kill Us
-optional:: true
-hide:: true--}{++{"author":"Elias's AI","timestamp":1784730105679}@@tldr:: Chapter 2's optional Q&As dig into how modern LLMs actually work and what "grown, not crafted" really means: aren't AIs just math, just parroting, just predicting the next token? Skim the few that catch your eye.++}
-{--{"author":"Elias's AI","timestamp":1784730105679}@@source:: ![[../Lenses/IABIED - QA - Could ChatGPT Kill Us]]
+#### Text
+content::
+The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to Chapter 2 below. We suggest reading a couple of them that you find interesting, but probably don't read all of them (for time's sake). It's likely more useful to spend more time talking to the AI Tutor.
 
-# Lens: IABIED - QA - Panicking and Overreacting
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Panicking and Overreacting]]
-
-# Lens: IABIED - QA - When Will Worrisome--}{++{"author":"Elias's AI","timestamp":1784730105679}@@summary_for_tutor:: Optional Dive Deeper index lens for Chapter 2 (Grown, Not Crafted). Links the book website's supplementary Q&A cards covering gradient descent, whether experts understand++} AI {--{"author":"Elias's AI","timestamp":1784730105679}@@Arrive
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - When Will Worrisome AI Arrive]]
-
-# Lens: IABIED - QA - Extrapolating AI Progress
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Extrapolating AI Progress]]
-
-# Lens: IABIED - QA - Author Incentives and Conflicts--}{++{"author":"Elias's AI","timestamp":1784730105679}@@internals, thinking in English, the "just math" and "just parroting" objections, training-data limits, hallucinations, resource constraints, and the path from LLMs to superintelligence. A navigation and index lens only; it carries no standalone teaching content of its own.++}
-optional:: true{--{"author":"Elias's AI","timestamp":1784730105679}@@
-hide:: true--}{++{"author":"Elias's AI","timestamp":1784730105679}@@
-
-#### Text++}
-{--{"author":"Elias's AI","timestamp":1784730105679}@@source:: ![[../Lenses/IABIED - QA - Author Incentives--}{++{"author":"Elias's AI","timestamp":1784730105679}@@content::
-The book's website includes supplementary Q&As++} and {--{"author":"Elias's AI","timestamp":1784730105679}@@Conflicts]]
-
-# Lens: IABIED - QA - Just Science Fiction
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Just Science Fiction]]
-
-# Lens: IABIED - QA - AI Experts on Catastrophe
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - AI Experts on Catastrophe]]
-
-# Lens: IABIED - QA - Leo Szilard Saw--}{++{"author":"Elias's AI","timestamp":1784730105679}@@extended discussions for each chapter. Browse the ones relevant to Chapter 2 below. We suggest reading a couple of them that you find interesting, but probably don't read all of them (for time's sake). It's likely more useful to spend more time talking to++} the {--{"author":"Elias's AI","timestamp":1784730105679}@@Future
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Leo Szilard Saw the Future]]--}{++{"author":"Elias's AI","timestamp":1784730105679}@@AI Tutor.++}
-
-{--{"author":"Elias's AI","timestamp":1784730105679}@@# Lens: IABIED --}{++{"author":"Elias's AI","timestamp":1784730105679}@@::card[[../Lenses/IABIED ++}- QA - {--{"author":"Elias's AI","timestamp":1784730105679}@@Is Intelligence Meaningful
-optional:: true--}{++{"author":"Elias's AI","timestamp":1784730105679}@@Gradient Descent Matters]]++}
-{--{"author":"Elias's AI","timestamp":1784730105679}@@hide:: true
-source:: ![[../Lenses/IABIED --}{++{"author":"Elias's AI","timestamp":1784730105679}@@::card[[../Lenses/IABIED ++}- QA - {--{"author":"Elias's AI","timestamp":1784730105679}@@Is Intelligence Meaningful]]
-
-# Lens: IABIED--}{++{"author":"Elias's AI","timestamp":1784730105679}@@Do Experts Understand AIs]]
-::card[[../Lenses/IABIED++} - QA - {--{"author":"Elias's AI","timestamp":1784730105679}@@Human-Level --}Intelligence{--{"author":"Elias's AI","timestamp":1784730105679}@@
-optional:: true--}{++{"author":"Elias's AI","timestamp":1784730105679}@@ Understandable]]++}
-{--{"author":"Elias's AI","timestamp":1784730105679}@@hide:: true
-source:: ![[../Lenses/IABIED--}{++{"author":"Elias's AI","timestamp":1784730105679}@@::card[[../Lenses/IABIED++} - QA - {--{"author":"Elias's AI","timestamp":1784730105679}@@Human-Level Intelligence]]
-
-# Lens: IABIED--}{++{"author":"Elias's AI","timestamp":1784730105679}@@AIs Think in English]]
-::card[[../Lenses/IABIED++} - QA - {--{"author":"Elias's AI","timestamp":1784730105679}@@Intelligence as Multiple Skills--}{++{"author":"Elias's AI","timestamp":1784730105679}@@AIs Just Math]]++}
-{--{"author":"Elias's AI","timestamp":1784730105679}@@optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED--}{++{"author":"Elias's AI","timestamp":1784730105679}@@::card[[../Lenses/IABIED++} - QA - {--{"author":"Elias's AI","timestamp":1784730105679}@@Intelligence as Multiple Skills]]
-
-# Lens: IABIED--}{++{"author":"Elias's AI","timestamp":1784730105679}@@Just Predicting Next Token]]
-::card[[../Lenses/IABIED++} - QA - {--{"author":"Elias's AI","timestamp":1784730105679}@@Intelligence Overrated
-optional:: true--}{++{"author":"Elias's AI","timestamp":1784730105679}@@AIs Just Parroting]]++}
-{--{"author":"Elias's AI","timestamp":1784730105679}@@hide:: true
-source:: ![[../Lenses/IABIED --}{++{"author":"Elias's AI","timestamp":1784730105679}@@::card[[../Lenses/IABIED ++}- QA - {--{"author":"Elias's AI","timestamp":1784730105679}@@Intelligence Overrated]]
-
-# Lens: IABIED - QA - General Intelligence--}{++{"author":"Elias's AI","timestamp":1784730105679}@@Cold and Logical AIs]]++}
-{--{"author":"Elias's AI","timestamp":1784730105679}@@optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED --}{++{"author":"Elias's AI","timestamp":1784730105679}@@::card[[../Lenses/IABIED ++}- QA -{--{"author":"Elias's AI","timestamp":1784730105679}@@ General Intelligence]]
-
-# Lens: IABIED - QA - Intelligence as Scalar
-optional:: true
-hide:: true--}{++{"author":"Elias's AI","timestamp":1784730105679}@@ LLMs Like Their Training Data]]++}
-{--{"author":"Elias's AI","timestamp":1784730105679}@@source:: ![[../Lenses/IABIED--}{++{"author":"Elias's AI","timestamp":1784730105679}@@::card[[../Lenses/IABIED++} - QA - {--{"author":"Elias's AI","timestamp":1784730105679}@@Intelligence as Scalar]]
-
-# Lens: IABIED - QA - AI Critical Thresholds
-optional:: true
-hide:: true--}{++{"author":"Elias's AI","timestamp":1784730105679}@@Surpassing Humans from Human Data]]++}
-{--{"author":"Elias's AI","timestamp":1784730105679}@@source:: ![[../Lenses/IABIED--}{++{"author":"Elias's AI","timestamp":1784730105679}@@::card[[../Lenses/IABIED++} - QA - {--{"author":"Elias's AI","timestamp":1784730105679}@@AI Critical Thresholds]]
-
-# Lens: IABIED - QA - ChatGPT as General Intelligence--}{++{"author":"Elias's AI","timestamp":1784730105679}@@Building Without Understanding]]++}
-{--{"author":"Elias's AI","timestamp":1784730105679}@@optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - ChatGPT as General Intelligence]]
-
-# Lens: IABIED --}{++{"author":"Elias's AI","timestamp":1784730105679}@@::card[[../Lenses/IABIED ++}- QA -{--{"author":"Elias's AI","timestamp":1784730105679}@@ How Smart Could Superintelligence Get
-optional:: true--}{++{"author":"Elias's AI","timestamp":1784730105679}@@ Hallucinations Show Weakness]]++}
-{--{"author":"Elias's AI","timestamp":1784730105679}@@hide:: true
-source:: ![[../Lenses/IABIED --}{++{"author":"Elias's AI","timestamp":1784730105679}@@::card[[../Lenses/IABIED ++}- QA - {--{"author":"Elias's AI","timestamp":1784730105679}@@How Smart Could Superintelligence Get]]
-
-# Lens: IABIED - QA - Obstacles to Superintelligence--}{++{"author":"Elias's AI","timestamp":1784730105679}@@Running Out of Resources]]++}
-{--{"author":"Elias's AI","timestamp":1784730105679}@@optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED --}{++{"author":"Elias's AI","timestamp":1784730105679}@@::card[[../Lenses/IABIED ++}- QA - {--{"author":"Elias's AI","timestamp":1784730105679}@@Obstacles--}{++{"author":"Elias's AI","timestamp":1784730105679}@@LLMs++} to{--{"author":"Elias's AI","timestamp":1784730105679}@@ Superintelligence]]
-
-# Lens: IABIED - QA - Predicting Superintelligence
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Predicting --}{++{"author":"Elias's AI","timestamp":1784730105679}@@ ++}Superintelligence]]{--{"author":"Elias's AI","timestamp":1784730105679}@@
-
-# Lens: IABIED - QA - Machines Fundamentally Uncreative
-optional:: true
-hide:: true--}
-{--{"author":"Elias's AI","timestamp":1784730105679}@@source:: ![[../Lenses/IABIED - QA - Machines Fundamentally Uncreative]]
-
-# Lens: IABIED - QA - Something Special About Humans
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED --}{++{"author":"Elias's AI","timestamp":1784730105679}@@::card[[../Lenses/IABIED ++}- QA - {--{"author":"Elias's AI","timestamp":1784730105679}@@Something Special About Humans]]
-
-# Lens: IABIED - QA - Machines Becoming Conscious--}{++{"author":"Elias's AI","timestamp":1784730105679}@@Knowledge of LLMs]]++}
-{--{"author":"Elias's AI","timestamp":1784730105679}@@optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED --}{++{"author":"Elias's AI","timestamp":1784730105679}@@::card[[../Lenses/IABIED ++}- QA - {--{"author":"Elias's AI","timestamp":1784730105679}@@Machines Becoming Conscious]]
-
-# Lens: IABIED - QA - Intelligence as Prediction and Steering--}{++{"author":"Elias's AI","timestamp":1784730105679}@@Obvious Insights Take Time]]++}
-{--{"author":"Elias's AI","timestamp":1784730105679}@@optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED--}{++{"author":"Elias's AI","timestamp":1784730105679}@@::card[[../Lenses/IABIED++} - QA - {--{"author":"Elias's AI","timestamp":1784730105679}@@Intelligence as Prediction and Steering]]
-
-# Lens: IABIED - QA - Shallowness --}{++{"author":"Elias's AI","timestamp":1784730105679}@@Full Description ++}of {--{"author":"Elias's AI","timestamp":1784730105679}@@Current AIs--}{++{"author":"Elias's AI","timestamp":1784730105679}@@an LLM]]++}
-{--{"author":"Elias's AI","timestamp":1784730105679}@@optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED--}{++{"author":"Elias's AI","timestamp":1784730105679}@@::card[[../Lenses/IABIED++} - QA - {--{"author":"Elias's AI","timestamp":1784730105679}@@Shallowness of Current AIs]]
-
-# Lens: IABIED - QA - Power of --}Intelligence{--{"author":"Elias's AI","timestamp":1784730105679}@@
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Power of Intelligence]]--}{++{"author":"Elias's AI","timestamp":1784730105679}@@ Isn't Ineffable]]++}
+::card[[../Lenses/IABIED - QA - Gradient Descent Matters]]
+::card[[../Lenses/IABIED - QA - Do Experts Understand AIs]]
+::card[[../Lenses/IABIED - QA - Intelligence Understandable]]
+::card[[../Lenses/IABIED - QA - AIs Think in English]]
+::card[[../Lenses/IABIED - QA - AIs Just Math]]
+::card[[../Lenses/IABIED - QA - Just Predicting Next Token]]
+::card[[../Lenses/IABIED - QA - AIs Just Parroting]]
+::card[[../Lenses/IABIED - QA - Cold and Logical AIs]]
+::card[[../Lenses/IABIED - QA - LLMs Like Their Training Data]]
+::card[[../Lenses/IABIED - QA - Surpassing Humans from Human Data]]
+::card[[../Lenses/IABIED - QA - Building Without Understanding]]
+::card[[../Lenses/IABIED - QA - Hallucinations Show Weakness]]
+::card[[../Lenses/IABIED - QA - Running Out of Resources]]
+::card[[../Lenses/IABIED - QA - LLMs to Superintelligence]]
+::card[[../Lenses/IABIED - QA - Knowledge of LLMs]]
+::card[[../Lenses/IABIED - QA - Obvious Insights Take Time]]
+::card[[../Lenses/IABIED - QA - Full Description of an LLM]]
+::card[[../Lenses/IABIED - QA - Intelligence Isn't Ineffable]]
 
 # Lens: IABIED - QA - Gradient Descent Matters
 optional:: true
@@ -509,17 +397,7 @@ source:: ![[../Lenses/IABIED - QA - Obvious Insights Take Time]]
 # Lens: IABIED - QA - Full Description of an LLM
 optional:: true
 hide:: true
-source:: ![[../Lenses/IABIED - QA - Full Description of an LLM]]{--{"author":"Elias's AI","timestamp":1784730105679}@@
-
-# Lens: IABIED - QA - Special Behavior from Mundane Parts
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Special Behavior from Mundane Parts]]
-
-# Lens: IABIED - QA - Same Work Different Ways
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Same Work Different Ways]]--}
+source:: ![[../Lenses/IABIED - QA - Full Description of an LLM]]
 
 # Lens: IABIED - QA - Intelligence Isn't Ineffable
 optional:: true
