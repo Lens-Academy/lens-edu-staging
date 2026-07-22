@@ -117,7 +117,120 @@ source:: ![[../Learning Outcomes/Explain You Don't Get What You Train For]]
 source:: ![[../Lenses/IABIED - You Don't Get What You Train For - PQ]]
 
 # Lens:
-source:: ![[../Lenses/IABIED - You Don't Get What You Train For]]
+source:: ![[../Lenses/IABIED - You Don't Get What You Train For]]{++{"author":"Elias's AI","timestamp":1784728608573}@@
+
+# Lens: Dive Deeper: Chapter 4
+id:: f5af1e68-6dbe-4498-bd6a-75b500beeaca
+tldr:: Want to go deeper on why you don't get what you train for? These are the book's own supplementary Q&As for Chapter 4, short takes on objections like "doesn't Claude already show alignment?" and "wouldn't a smart AI just fix its own flaws?".
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 4 (You Don't Get What You Train For). Links the book website's supplementary Q&A cards covering objections and extensions such as AI steering beyond training, making AIs nice and safe, whether Claude demonstrates alignment, terminal versus instrumental goals, brittle proxies, and reflection and self-modification. A navigation and index lens only; it carries no standalone teaching content of its own.
+optional:: true
+
+#### Text:
+content::
+The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to Chapter 4 below.
+
+::card[[../Lenses/IABIED - QA - AI Steering Beyond Training]]
+::card[[../Lenses/IABIED - QA - Making AIs Nice and Safe]]
+::card[[../Lenses/IABIED - QA - Claude Shows Alignment]]
+::card[[../Lenses/IABIED - QA - Weird in Extreme Cases]]
+::card[[../Lenses/IABIED - QA - Fix Own Flaws]]
+::card[[../Lenses/IABIED - QA - Train Like a Human]]
+::card[[../Lenses/IABIED - QA - Avoid Talking About Dangers]]
+::card[[../Lenses/IABIED - QA - Aligned with Natural Selection]]
+::card[[../Lenses/IABIED - QA - Kindness from Any Goal]]
+::card[[../Lenses/IABIED - QA - Good Behaviors Correlate]]
+::card[[../Lenses/IABIED - QA - Terminal and Instrumental Goals]]
+::card[[../Lenses/IABIED - QA - Curiosity Isn't Convergent]]
+::card[[../Lenses/IABIED - QA - Human Values Are Contingent]]
+::card[[../Lenses/IABIED - QA - Deep Differences AIs and Evolved Species]]
+::card[[../Lenses/IABIED - QA - Brittle Unpredictable Proxies]]
+::card[[../Lenses/IABIED - QA - Reflection and Self-Modification]]
+::card[[../Lenses/IABIED - QA - AI-Induced Psychosis]]
+
+# Lens: IABIED - QA - AI Steering Beyond Training
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - AI Steering Beyond Training]]
+
+# Lens: IABIED - QA - Making AIs Nice and Safe
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Making AIs Nice and Safe]]
+
+# Lens: IABIED - QA - Claude Shows Alignment
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Claude Shows Alignment]]
+
+# Lens: IABIED - QA - Weird in Extreme Cases
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Weird in Extreme Cases]]
+
+# Lens: IABIED - QA - Fix Own Flaws
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Fix Own Flaws]]
+
+# Lens: IABIED - QA - Train Like a Human
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Train Like a Human]]
+
+# Lens: IABIED - QA - Avoid Talking About Dangers
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Avoid Talking About Dangers]]
+
+# Lens: IABIED - QA - Aligned with Natural Selection
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Aligned with Natural Selection]]
+
+# Lens: IABIED - QA - Kindness from Any Goal
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Kindness from Any Goal]]
+
+# Lens: IABIED - QA - Good Behaviors Correlate
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Good Behaviors Correlate]]
+
+# Lens: IABIED - QA - Terminal and Instrumental Goals
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Terminal and Instrumental Goals]]
+
+# Lens: IABIED - QA - Curiosity Isn't Convergent
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Curiosity Isn't Convergent]]
+
+# Lens: IABIED - QA - Human Values Are Contingent
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Human Values Are Contingent]]
+
+# Lens: IABIED - QA - Deep Differences AIs and Evolved Species
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Deep Differences AIs and Evolved Species]]
+
+# Lens: IABIED - QA - Brittle Unpredictable Proxies
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Brittle Unpredictable Proxies]]
+
+# Lens: IABIED - QA - Reflection and Self-Modification
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Reflection and Self-Modification]]
+
+# Lens: IABIED - QA - AI-Induced Psychosis
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - AI-Induced Psychosis]]++}
 
 # Submodule: Dive Deeper
 # Lens: Overview of Optional Resources
