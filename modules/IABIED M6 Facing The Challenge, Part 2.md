@@ -213,7 +213,11 @@ optional:: true
 
 #### Text:
 content::
-::card[[../Lenses/IABIED - QA - The Draft Treaty]]
+{++{"author":"Elias's AI","timestamp":1784737481881}@@Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+
+Skim whatever catches your eye.
+
+++}::card[[../Lenses/IABIED - QA - The Draft Treaty]]
 ::card[[../Lenses/IABIED - QA - Wait and See Approach]]
 ::card[[../Lenses/IABIED - QA - Warning Shots]]
 ::card[[../Lenses/IABIED - QA - Stopping Without Spyware]]
