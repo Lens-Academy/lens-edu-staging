@@ -192,7 +192,127 @@ source:: [[../Lenses/IABIED - Coalition Strategy - PQ]]
 ## Lens:
 source:: [[../Lenses/IABIED - Coalition Strategy]]
 
-# Submodule: Chapter 14: Where There's Life, There's Hope
+{++{"author":"Elias's AI","timestamp":1784730666896}@@## Lens: Dive Deeper: Chapter 13
+id:: e983cb9d-bdec-46c7-9ad2-fe9e52bbc29e
+tldr:: Deeper on Chapter 13? The book's supplementary Q&As field the hardest objections to "shut it down": "can technology really be stopped?", "isn't this too much power for governments?", "what if nations reject the ban?".
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 13 (Shut It Down). Links the book website's supplementary Q&A cards covering the draft treaty, wait-and-see, warning shots, monitoring without spyware, chip-ownership control, research bans, whether technology can be stopped, government power, nations rejecting the ban, a permanent monitoring regime, making humans smarter, "aligned to whom", talking about extinction, elected officials, hopelessness, shutting down global AI development, international cooperation, and keeping the coalition large. A navigation and index lens only; it carries no standalone teaching content of its own.
+optional:: true
+
+#### Text:
+content::
+The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to Chapter 13 below.
+
+::card[[../Lenses/IABIED - QA - The Draft Treaty]]
+::card[[../Lenses/IABIED - QA - Wait and See Approach]]
+::card[[../Lenses/IABIED - QA - Warning Shots]]
+::card[[../Lenses/IABIED - QA - Stopping Without Spyware]]
+::card[[../Lenses/IABIED - QA - Chip Ownership Control]]
+::card[[../Lenses/IABIED - QA - Research Ban Extreme]]
+::card[[../Lenses/IABIED - QA - Can Technology Be Stopped]]
+::card[[../Lenses/IABIED - QA - Too Much Power to Governments]]
+::card[[../Lenses/IABIED - QA - Nations Reject Ban]]
+::card[[../Lenses/IABIED - QA - Monitoring Regime Forever]]
+::card[[../Lenses/IABIED - QA - Making Humans Smarter]]
+::card[[../Lenses/IABIED - QA - Aligned to Whom]]
+::card[[../Lenses/IABIED - QA - Avoid Talking About Extinction]]
+::card[[../Lenses/IABIED - QA - Elected Officials Recognize Threat]]
+::card[[../Lenses/IABIED - QA - Is It Hopeless]]
+::card[[../Lenses/IABIED - QA - Shut Down Global AI Development]]
+::card[[../Lenses/IABIED - QA - Can International Cooperation Really Work]]
+::card[[../Lenses/IABIED - QA - Keep the Coalition Large]]
+{>>{"author":"Elias's AI","timestamp":1784730666896}@@Three hidden imports in the old Dive Deeper had no cards (unreachable): 'Can International Cooperation Really Work' is a Ch13 Q&A (ifanyonebuildsit.com/13), carded here; 'Isn't AI Different from Nuclear Reactors' is a Ch10 Q&A, moved to M5 Ch10; 'Early Warnings' is a Ch11 Q&A already carded in M5, dropped here.<<}
+
+## Lens: IABIED - QA - The Draft Treaty
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - The Draft Treaty]]
+
+## Lens: IABIED - QA - Wait and See Approach
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Wait and See Approach]]
+
+## Lens: IABIED - QA - Warning Shots
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Warning Shots]]
+
+## Lens: IABIED - QA - Stopping Without Spyware
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Stopping Without Spyware]]
+
+## Lens: IABIED - QA - Chip Ownership Control
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Chip Ownership Control]]
+
+## Lens: IABIED - QA - Research Ban Extreme
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Research Ban Extreme]]
+
+## Lens: IABIED - QA - Can Technology Be Stopped
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Can Technology Be Stopped]]
+
+## Lens: IABIED - QA - Too Much Power to Governments
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Too Much Power to Governments]]
+
+## Lens: IABIED - QA - Nations Reject Ban
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Nations Reject Ban]]
+
+## Lens: IABIED - QA - Monitoring Regime Forever
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Monitoring Regime Forever]]
+
+## Lens: IABIED - QA - Making Humans Smarter
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Making Humans Smarter]]
+
+## Lens: IABIED - QA - Aligned to Whom
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Aligned to Whom]]
+
+## Lens: IABIED - QA - Avoid Talking About Extinction
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Avoid Talking About Extinction]]
+
+## Lens: IABIED - QA - Elected Officials Recognize Threat
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Elected Officials Recognize Threat]]
+
+## Lens: IABIED - QA - Is It Hopeless
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Is It Hopeless]]
+
+## Lens: IABIED - QA - Shut Down Global AI Development
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Shut Down Global AI Development]]
+
+## Lens: IABIED - QA - Can International Cooperation Really Work
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Can International Cooperation Really Work]]
+
+## Lens: IABIED - QA - Keep the Coalition Large
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Keep the Coalition Large]]
+
+++}# Submodule: Chapter 14: Where There's Life, There's Hope
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/15 - Chapter 14 - Where There's Life, There's Hope]]
 
 ## Learning Outcome: IABIED - Un-Writing Our Fate
