@@ -90,7 +90,11 @@ optional:: true
 
 #### Text:
 content::
-::card[[../Lenses/IABIED - QA - What About the Benefits of AI]]
+{++{"author":"Elias's AI","timestamp":1784737447273}@@Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+
+Skim whatever catches your eye.
+
+++}::card[[../Lenses/IABIED - QA - What About the Benefits of AI]]
 ::card[[../Lenses/IABIED - QA - Distraction from Other Issues]]
 ::card[[../Lenses/IABIED - QA - Anti-Technology]]
 ::card[[../Lenses/IABIED - QA - Rush Ahead Good Guys]]

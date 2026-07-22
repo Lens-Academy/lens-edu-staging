@@ -149,7 +149,11 @@ optional:: true
 
 #### Text
 content::
-::card[[../Lenses/IABIED - QA - Is Intelligence Meaningful]]
+{++{"author":"Elias's AI","timestamp":1784737462952}@@Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+
+Skim whatever catches your eye.
+
+++}::card[[../Lenses/IABIED - QA - Is Intelligence Meaningful]]
 ::card[[../Lenses/IABIED - QA - Human-Level Intelligence]]
 ::card[[../Lenses/IABIED - QA - Intelligence as Multiple Skills]]
 ::card[[../Lenses/IABIED - QA - Intelligence Overrated]]
