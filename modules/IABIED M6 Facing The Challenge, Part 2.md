@@ -82,7 +82,96 @@ source:: [[../Lenses/IABIED - Ladder in the Dark - PQ]]
 ## Lens:
 source:: [[../Lenses/IABIED - Ladder in the Dark]]
 
-# Submodule: Chapter 13: Shut It Down
+{++{"author":"Elias's AI","timestamp":1784730634509}@@## Lens: Dive Deeper: Chapter 12
+id:: 79671536-5615-4807-8f08-ff039c8a525e
+tldr:: Deeper on Chapter 12? The book's supplementary Q&As take on "what about the benefits?", "isn't this anti-technology?", and why experts keep saying "I don't want to be alarmist".
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 12 ("I Don't Want to Be Alarmist"). Links the book website's supplementary Q&A cards covering the benefits of AI, distraction from other issues, anti-technology charges, rushing ahead as the good guys, cooperating to build safely, provably safe AI, daily life and panic, fear-mongering accusations, expert disagreement, the Lemoine effect, telling AI companies no, and making sense of the death race. A navigation and index lens only; it carries no standalone teaching content of its own.
+optional:: true
+
+#### Text:
+content::
+The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to Chapter 12 below.
+
+::card[[../Lenses/IABIED - QA - What About the Benefits of AI]]
+::card[[../Lenses/IABIED - QA - Distraction from Other Issues]]
+::card[[../Lenses/IABIED - QA - Anti-Technology]]
+::card[[../Lenses/IABIED - QA - Rush Ahead Good Guys]]
+::card[[../Lenses/IABIED - QA - Cooperate to Build Safely]]
+::card[[../Lenses/IABIED - QA - Provably Safe AI]]
+::card[[../Lenses/IABIED - QA - Daily Life Believing This]]
+::card[[../Lenses/IABIED - QA - Should We Panic]]
+::card[[../Lenses/IABIED - QA - Fear-Mongering by AI Leaders]]
+::card[[../Lenses/IABIED - QA - Experts Don't All Agree]]
+::card[[../Lenses/IABIED - QA - The Lemoine Effect]]
+::card[[../Lenses/IABIED - QA - Telling AI Companies No]]
+::card[[../Lenses/IABIED - QA - Making Sense of the Death Race]]
+
+## Lens: IABIED - QA - What About the Benefits of AI
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - What About the Benefits of AI]]
+
+## Lens: IABIED - QA - Distraction from Other Issues
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Distraction from Other Issues]]
+
+## Lens: IABIED - QA - Anti-Technology
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Anti-Technology]]
+
+## Lens: IABIED - QA - Rush Ahead Good Guys
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Rush Ahead Good Guys]]
+
+## Lens: IABIED - QA - Cooperate to Build Safely
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Cooperate to Build Safely]]
+
+## Lens: IABIED - QA - Provably Safe AI
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Provably Safe AI]]
+
+## Lens: IABIED - QA - Daily Life Believing This
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Daily Life Believing This]]
+
+## Lens: IABIED - QA - Should We Panic
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Should We Panic]]
+
+## Lens: IABIED - QA - Fear-Mongering by AI Leaders
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Fear-Mongering by AI Leaders]]
+
+## Lens: IABIED - QA - Experts Don't All Agree
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Experts Don't All Agree]]
+
+## Lens: IABIED - QA - The Lemoine Effect
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - The Lemoine Effect]]
+
+## Lens: IABIED - QA - Telling AI Companies No
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Telling AI Companies No]]
+
+## Lens: IABIED - QA - Making Sense of the Death Race
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Making Sense of the Death Race]]
+
+++}# Submodule: Chapter 13: Shut It Down
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/14 - Chapter 13 - Shut It Down]]
 
 ## Learning Outcome: IABIED - The WWII Analogy
