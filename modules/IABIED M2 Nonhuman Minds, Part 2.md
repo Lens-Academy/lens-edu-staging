@@ -62,11 +62,11 @@ optional:: true
 
 #### Text:
 content::
-{++{"author":"Elias's AI","timestamp":1784737430025}@@Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
 
 Skim whatever catches your eye.
 
-++}::card[[../Lenses/IABIED - QA - Human-Like Emotions]]
+::card[[../Lenses/IABIED - QA - Human-Like Emotions]]
 ::card[[../Lenses/IABIED - QA - Machine Own Priorities]]
 ::card[[../Lenses/IABIED - QA - AIs Just Tools]]
 ::card[[../Lenses/IABIED - QA - Passive and Docile]]
@@ -129,11 +129,11 @@ optional:: true
 
 #### Text:
 content::
-{++{"author":"Elias's AI","timestamp":1784737465945}@@Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
 
 Skim whatever catches your eye.
 
-++}::card[[../Lenses/IABIED - QA - AI Steering Beyond Training]]
+::card[[../Lenses/IABIED - QA - AI Steering Beyond Training]]
 ::card[[../Lenses/IABIED - QA - Making AIs Nice and Safe]]
 ::card[[../Lenses/IABIED - QA - Claude Shows Alignment]]
 ::card[[../Lenses/IABIED - QA - Weird in Extreme Cases]]

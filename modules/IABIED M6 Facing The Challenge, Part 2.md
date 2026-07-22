@@ -90,11 +90,11 @@ optional:: true
 
 #### Text:
 content::
-{++{"author":"Elias's AI","timestamp":1784737447273}@@Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
 
 Skim whatever catches your eye.
 
-++}::card[[../Lenses/IABIED - QA - What About the Benefits of AI]]
+::card[[../Lenses/IABIED - QA - What About the Benefits of AI]]
 ::card[[../Lenses/IABIED - QA - Distraction from Other Issues]]
 ::card[[../Lenses/IABIED - QA - Anti-Technology]]
 ::card[[../Lenses/IABIED - QA - Rush Ahead Good Guys]]
@@ -213,11 +213,11 @@ optional:: true
 
 #### Text:
 content::
-{++{"author":"Elias's AI","timestamp":1784737481881}@@Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
 
 Skim whatever catches your eye.
 
-++}::card[[../Lenses/IABIED - QA - The Draft Treaty]]
+::card[[../Lenses/IABIED - QA - The Draft Treaty]]
 ::card[[../Lenses/IABIED - QA - Wait and See Approach]]
 ::card[[../Lenses/IABIED - QA - Warning Shots]]
 ::card[[../Lenses/IABIED - QA - Stopping Without Spyware]]
