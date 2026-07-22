@@ -61,9 +61,9 @@ optional:: true
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1784737424560}@@The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to--}{++{"author":"Elias's AI","timestamp":1784737424560}@@Want to go deeper on the Introduction's ideas? These optional resources were gathered by++} the {--{"author":"Elias's AI","timestamp":1784737424560}@@Introduction below. We suggest reading a couple of them that you find interesting, but probably don't read all of them (for time's sake). It's likely more useful to spend more time talking to the AI Tutor.--}{++{"author":"Elias's AI","timestamp":1784737424560}@@book's authors and by us.
+Want to go deeper on the Introduction's ideas? These optional resources were gathered by the book's authors and by us.
 
-Skim whatever catches your eye.++}
+Skim whatever catches your eye.
 
 ::card[[../Lenses/IABIED - QA - Why Write This Book]]
 ::card[[../Lenses/IABIED - QA - Could ChatGPT Kill Us]]
@@ -149,11 +149,11 @@ optional:: true
 
 #### Text
 content::
-{++{"author":"Elias's AI","timestamp":1784737462952}@@Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
 
 Skim whatever catches your eye.
 
-++}::card[[../Lenses/IABIED - QA - Is Intelligence Meaningful]]
+::card[[../Lenses/IABIED - QA - Is Intelligence Meaningful]]
 ::card[[../Lenses/IABIED - QA - Human-Level Intelligence]]
 ::card[[../Lenses/IABIED - QA - Intelligence as Multiple Skills]]
 ::card[[../Lenses/IABIED - QA - Intelligence Overrated]]
@@ -297,11 +297,11 @@ optional:: true
 
 #### Text
 content::
-{++{"author":"Elias's AI","timestamp":1784737496405}@@Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
 
 Skim whatever catches your eye.
 
-++}::card[[../Lenses/IABIED - QA - Gradient Descent Matters]]
+::card[[../Lenses/IABIED - QA - Gradient Descent Matters]]
 ::card[[../Lenses/IABIED - QA - Do Experts Understand AIs]]
 ::card[[../Lenses/IABIED - QA - Intelligence Understandable]]
 ::card[[../Lenses/IABIED - QA - AIs Think in English]]

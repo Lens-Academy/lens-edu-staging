@@ -77,11 +77,11 @@ optional:: true
 
 #### Text:
 content::
-{++{"author":"Elias's AI","timestamp":1784737436887}@@Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
 
 Skim whatever catches your eye.
 
-++}::card[[../Lenses/IABIED - QA - AI Find Us Useful]]
+::card[[../Lenses/IABIED - QA - AI Find Us Useful]]
 ::card[[../Lenses/IABIED - QA - AI Treat Us as Parents]]
 ::card[[../Lenses/IABIED - QA - AIs Need Rule of Law]]
 ::card[[../Lenses/IABIED - QA - Preserving Humans Negligible]]
@@ -267,11 +267,11 @@ optional:: true
 
 #### Text:
 content::
-{++{"author":"Elias's AI","timestamp":1784737469927}@@Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
 
 Skim whatever catches your eye.
 
-++}::card[[../Lenses/IABIED - QA - Pull the Plug]]
+::card[[../Lenses/IABIED - QA - Pull the Plug]]
 ::card[[../Lenses/IABIED - QA - Digital AIs Affect Us]]
 ::card[[../Lenses/IABIED - QA - Keep AI in a Box]]
 ::card[[../Lenses/IABIED - QA - Exploit AI Weakness]]
