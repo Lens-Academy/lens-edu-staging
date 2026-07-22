@@ -209,7 +209,7 @@ source:: ![[../Lenses/IABIED - QA - Shutdown Buttons and Corrigibility]]
 # Lens: IABIED - Talk to One Person
 source:: ![[../Lenses/IABIED - Talk to One Person]]
 
-# Submodule: Dive Deeper
+{--{"author":"Elias's AI","timestamp":1784730599761}@@# Submodule: Dive Deeper
 # Lens: Overview of Optional Resources
 source:: ![[../Lenses/IABIED - Overview of Optional Resources M5]]
 
@@ -311,4 +311,4 @@ source:: ![[../Lenses/IABIED - QA - Problem Not Treated with Respect]]
 # Lens: IABIED - QA - Shutdown Buttons and Corrigibility
 optional:: true
 hide:: true
-source:: ![[../Lenses/IABIED - QA - Shutdown Buttons and Corrigibility]]
+source:: ![[../Lenses/IABIED - QA - Shutdown Buttons and Corrigibility]]--}
