@@ -62,7 +62,11 @@ optional:: true
 
 #### Text:
 content::
-::card[[../Lenses/IABIED - QA - Human-Like Emotions]]
+{++{"author":"Elias's AI","timestamp":1784737430025}@@Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+
+Skim whatever catches your eye.
+
+++}::card[[../Lenses/IABIED - QA - Human-Like Emotions]]
 ::card[[../Lenses/IABIED - QA - Machine Own Priorities]]
 ::card[[../Lenses/IABIED - QA - AIs Just Tools]]
 ::card[[../Lenses/IABIED - QA - Passive and Docile]]
