@@ -148,6 +148,8 @@ Check out [[Getting Started]] for how to use the local development environment.
 
 You can also explore [[Notes/Ideas]] for project brainstorming.
  this document, then open another tab to see the changes sync!
+
+ %%
 ## Links
 
 Try editing this document, then open another tab to see the changes sync!
