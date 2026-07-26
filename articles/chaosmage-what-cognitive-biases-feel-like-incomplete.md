@@ -12,7 +12,14 @@ tags:
   - rationality
   - scout-mindset
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090636382}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 
 ### Confirmation bias

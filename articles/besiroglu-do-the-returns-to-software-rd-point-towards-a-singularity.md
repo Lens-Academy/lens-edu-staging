@@ -11,7 +11,14 @@ accessed: 2026-07-02
 description: "Returns to R&D are key in growth dynamics and AI development. Our paper introduces new empirical techniques to estimate this vital parameter."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090631269}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 The returns to R&D are crucial in determining the dynamics of growth and potentially the pace of AI development. Our new paper offers new empirical techniques and estimates for this crucial parameter.
 

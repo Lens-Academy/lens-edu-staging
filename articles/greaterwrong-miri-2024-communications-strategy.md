@@ -9,7 +9,14 @@ accessed: 2026-07-09
 description: "As we explained in our MIRI 2024 Mission and Strategy update, MIRI has pivoted to prioritize policy, communications, and technical governance research over technical alignment research. This follow-up post goes into detail about our communications strategy. Our objective is to convince major powers to shut down the development of frontier AI systems worldwide before it is too late. We believe that nothing less than this will prevent future misaligned smarter-than-human AI systems from destroying humanity. Persuading governments worldwide to take sufficiently drastic action will not be easy, but we believe this is the most viable path."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090631952}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 As we explained in our [MIRI 2024 Mission and Strategy update](https://www.greaterwrong.com/posts/q3bJYTB3dGRf5fbD9/miri-2024-mission-and-strategy-update), MIRI has pivoted to prioritize policy, communications, and technical governance research over technical alignment research. This follow-up post goes into detail about our communications strategy.
 

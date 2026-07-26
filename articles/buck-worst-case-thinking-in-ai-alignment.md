@@ -3,7 +3,14 @@ title: "Worst-case thinking in AI alignment"
 author: Buck Shlegeris
 published: 2021-12-23
 source_url: https://www.lesswrong.com/posts/yTvBSFrXhZfL8vr5a/worst-case-thinking-in-ai-alignment
----
+---{++{"author":"Luc's AI","timestamp":1785090633569}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 **Alternative title: "When should you assume that what could go wrong, will go wrong?"**
 

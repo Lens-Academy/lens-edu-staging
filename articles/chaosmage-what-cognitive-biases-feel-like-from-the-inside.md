@@ -9,7 +9,14 @@ accessed: 2026-07-14
 description: "Building on the recent SSC post Why Doctors Think They’re The Best... …"
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090636103}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Building on the recent SSC post [Why Doctors Think They’re The Best](https://slatestarcodex.com/2020/01/02/why-doctors-think-theyre-the-best/)...
 

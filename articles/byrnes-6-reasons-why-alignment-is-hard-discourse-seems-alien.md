@@ -6,7 +6,14 @@ author:
 published: 2025-12-03
 created: 2026-02-13
 description: "TL;DR: AI alignment has a culture clash. On one side, the “technical-alignment-is-hard” / “rational agents” school-of-thought argues that we should expect future powerful AIs to be power-seeking ruthless consequentialists. On the other side, people observe that both humans and LLMs are obviously capable of behaving like, well, not that. The latter group accuses the former of head-in-the-clouds abstract theorizing gone off the rails, while the former accuses the latter of mindlessly assuming that the future will always be the same as the present, rather than trying to understand things …"
----
+---{++{"author":"Luc's AI","timestamp":1785090633996}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 # tl;dr
 AI alignment has a culture clash. On one side, the “technical-alignment-is-hard” / “rational agents” school-of-thought argues that we should expect future powerful AIs to be power-seeking ruthless consequentialists. On the other side, people observe that both humans and LLMs are obviously capable of behaving like, well, not that. The [latter group accuses the former](https://www.mechanize.work/blog/unfalsifiable-stories-of-doom/) of head-in-the-clouds abstract theorizing gone off the rails, while the [former accuses the latter](https://www.lesswrong.com/posts/LvKDMWQ3yLG9R3gHw/empiricism-as-anti-epistemology) of mindlessly assuming that the future will always be the same as the present, rather than trying to understand things. “Alas, the power-seeking ruthless consequentialist AIs are still coming,” sigh the former. “Just you wait.”
 

@@ -10,7 +10,14 @@ accessed: 2026-07-02
 description: "Highly capable AI systems might end up deciding the future. Understanding what will drive those decisions is therefore one of the most important questions we can ask. Many people have proposed different answers. Some predict that powerful AIs will learn to intrinsically pursue reward. Others respond by saying reward is not the optimization target, and instead reward “chisels” a combination of context-dependent cognitive patterns into the AI. Some argue that powerful AIs might end up with an almost arbitrary long-term goal."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090632257}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Highly capable AI systems might end up deciding the future. Understanding what will drive those decisions is therefore one of the most important questions we can ask.
 

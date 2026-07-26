@@ -9,7 +9,14 @@ accessed: 2026-07-02
 description: "The stereotyped image of AI catastrophe is a powerful, malicious AI system that takes its creators by surprise and quickly achieves a decisive advantage over the rest of humanity. I think this is probably not what failure will look like, and I want to try to paint a more realistic picture. I’ll tell the story in two parts: I think these are the most important problems if we fail to solve intent alignment. In practice these problems will interact with each other, and with other disruptions/instability caused by rapid progress. These problems are worse in worlds where progress is relatively fast, and fast takeoff can be a key risk factor, but I’m scared even if we have several years."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090633233}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 The stereotyped image of AI catastrophe is a powerful, malicious AI system that takes its creators by surprise and quickly achieves a decisive advantage over the rest of humanity.
 

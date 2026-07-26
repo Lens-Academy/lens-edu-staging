@@ -9,7 +9,14 @@ accessed: 2026-07-02
 description: "Some reasons why relatively weak AIs might still be important when we have very powerful AIs"
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090633332}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Sometimes people say that it’s much less valuable to do AI safety research today than it will be in the future, because the current models are very different—in particular, much less capable—than the models that we’re actually worried about. I think that argument is mostly right, but it misses a couple of reasons models as capable as current models might still be important at the point where AI is posing substantial existential risk. In this post, I’ll describe those reasons.
 
