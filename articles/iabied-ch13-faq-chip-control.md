@@ -7,14 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090700568}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### Yes. We also advocate a research ban.
 
 It does not bring us joy to say it. Something would be lost for it to be illegal for individuals to own more than (say) eight unmonitored H100 GPUs from 2024.

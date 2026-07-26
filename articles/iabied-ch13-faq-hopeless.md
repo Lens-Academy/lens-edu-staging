@@ -7,14 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090701125}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### No.
 
 This is a fight we can win, and this world of ours is a world worth fighting for. It doesn't look easy, but it looks genuinely doable.
