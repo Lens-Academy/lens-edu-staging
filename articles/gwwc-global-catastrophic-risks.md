@@ -15,7 +15,14 @@ tags:
   - biosecurity
   - ai-safety
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090640548}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 # Reducing Global Catastrophic Risks
 

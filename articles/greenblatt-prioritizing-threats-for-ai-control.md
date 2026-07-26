@@ -9,7 +9,14 @@ accessed: 2026-07-02
 description: "What are the main threats and how should we prioritize them?"
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090639333}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 We often talk about ensuring control, which in the context of this doc refers to preventing AIs from being able to cause existential problems, even if the AIs attempt to subvert our countermeasures. To better contextualize control, I think it's useful to discuss the main threats. I'll focus my discussion on threats induced by misalignment which could plausibly increase existential risk.
 

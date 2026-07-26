@@ -13,7 +13,14 @@ tags:
   - expected-value
   - longtermism
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090639585}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 > *"So if we drop the baton, succumbing to an existential catastrophe, we would fail our ancestors in a multitude of ways. We would fail to achieve the dreams they hoped for; we would betray the trust they placed in us, their heirs; and we would fail in any duty we had to pay forward the work they did for us. To neglect existential risk might thus be to wrong not only the people of the future, but the people of the past."*
 >

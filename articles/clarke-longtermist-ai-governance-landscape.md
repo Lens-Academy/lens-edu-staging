@@ -15,7 +15,14 @@ tags:
   - longtermism
   - existential-risk
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090636935}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 *Aim: to give a basic overview of what is going on in longtermist AI governance.*
 

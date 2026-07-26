@@ -9,7 +9,14 @@ accessed: 2026-06-21
 description: "AIs limited to pure computation (Tool AIs) supporting humans, will be less intelligent, efficient, and economically valuable than more autonomous reinforcement-learning AIs (Agent AIs) who act on their own and meta-learn, because all problems are reinforcement-learning problems."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090639973}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 > Autonomous AI systems (Agent AIs) trained using [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning "Reinforcement learning") can do harm when they take wrong actions, especially superintelligent Agent AIs. One solution would be to eliminate their agency by not giving AIs the ability to take actions, confining them to purely informational or inferential tasks such as classification or prediction (Tool AIs), and have all actions be approved & executed by humans, giving equivalently superintelligent results without the risk.
 > 

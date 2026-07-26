@@ -9,7 +9,14 @@ accessed: 2026-07-02
 description: "What are the methods and issues when failures occur diffusely over many actions?"
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090636392}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 In this post, I'll try to explain my current understanding of the high level methods for handling non-concentrated failures with control. I'll discuss the regimes produced by different methods and the failure modes of these different regimes. Non-concentrated failures are issues that arise from the AI doing a large number of problematic actions over a long period. (See [here](https://www.lesswrong.com/posts/hirhSqvEAq7pdnyPG/auditing-failures-vs-concentrated-failures) and [here](https://www.lesswrong.com/posts/fCazYoZSSMadiT6sf/prioritizing-threats-for-ai-control#Concentrated_vs_non_concentrated_failures) for more discussion of concentrated vs non-concentrated failures.)
 

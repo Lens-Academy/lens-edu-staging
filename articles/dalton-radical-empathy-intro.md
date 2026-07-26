@@ -13,7 +13,14 @@ tags:
   - impartiality
   - animal-welfare
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090640179}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 > *"The question is not, Can they reason?, nor Can they talk? but, Can they suffer? Why should the law refuse its protection to any sensitive being?"*
 >

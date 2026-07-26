@@ -13,7 +13,14 @@ tags:
   - global-health
   - cause-prioritization
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090640257}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 # Comparing Charities: How Big is the Difference?
 

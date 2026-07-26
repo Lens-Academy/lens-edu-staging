@@ -7,7 +7,14 @@ published: "2026-07-10"
 description: "An interactive mini-course on five social biases — conformity, mimicry, group polarization, social trust, and impression management — and practical strategies to resist the irrationality they cause."
 tags:
   - "interactive-tool"
----
+---{++{"author":"Luc's AI","timestamp":1785090637509}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 # How Other People Can Make You Irrational
 

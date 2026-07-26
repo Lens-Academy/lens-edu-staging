@@ -9,7 +9,14 @@ accessed: 2026-07-02
 description: "How much time can control buy us during the intelligence explosion?"
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090636765}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 When discussing [AI control](https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled), we often talk about levels of AI capabilities where we think control can probably greatly lower risks and where we can probably estimate risks. However, I think it's plausible that an important application of control is modestly improving our odds of surviving significantly superhuman systems which are misaligned. This won't involve any real certainty, it would only moderately reduce risk (if it reduces risk at all), and it may only help with avoiding immediate loss of control (rather than also helping us [extract useful work](https://www.lesswrong.com/posts/Mf5Hnpi2KcqZdmFDq/how-can-we-solve-diffuse-threats-like-research-sabotage-with)). In a sane world, we wouldn't be relying on control for systems which have significantly superhuman general purpose capabilities. Nevertheless, I think applying control here could be worthwhile. I'll discuss why I think this might work and how useful I think applying control in this way would be.
 

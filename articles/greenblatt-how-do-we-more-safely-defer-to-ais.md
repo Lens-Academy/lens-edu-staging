@@ -9,7 +9,14 @@ accessed: 2026-07-02
 description: "How can we make AIs aligned and well-elicited on extremely hard to check open ended tasks?"
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090637431}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 ### How can we make AIs aligned and well-elicited on extremely hard to check open ended tasks?
 
