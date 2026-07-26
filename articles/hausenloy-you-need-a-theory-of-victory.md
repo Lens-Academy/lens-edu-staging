@@ -421,8 +421,6 @@ Finally, I would encourage you, _stare at the hard problem._ This requires coura
 
 ![](https://substackcdn.com/image/fetch/$s_!kkr3!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F55ac557f-95c7-4aba-b73e-f330584dd928_1202x662.png)
 
-](https://substackcdn.com/image/fetch/$s_!kkr3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F55ac557f-95c7-4aba-b73e-f330584dd928_1202x662.png)
-
 Stare deep into the void, and then come out again, with a plan. Good luck.
 
 **[Here are all the slides](https://docs.google.com/presentation/d/1rxJ_o0S1YvPjOVzDInTFsFR4JzTnbkBo/edit?usp=sharing&ouid=112505395320814783883&rtpof=true&sd=true)** [(request access)](https://docs.google.com/presentation/d/1rxJ_o0S1YvPjOVzDInTFsFR4JzTnbkBo/edit?usp=sharing&ouid=112505395320814783883&rtpof=true&sd=true)
