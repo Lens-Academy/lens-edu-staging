@@ -10,14 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090621845}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Training an AI with human feedback, like thumbs-up or thumbs-down, can help shape its behavior. But the AI can learn to manipulate or fool its human evaluators, or become sycophantic to get more rewards.
 
