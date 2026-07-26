@@ -7,14 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090694459}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### Rushing ahead destroys those benefits.
 
 We're optimistic about how wonderful superintelligence could be, if it were steering the world toward wonderful ends. We'd personally consider it a great tragedy if humanity *never* created smarter-than-human minds.

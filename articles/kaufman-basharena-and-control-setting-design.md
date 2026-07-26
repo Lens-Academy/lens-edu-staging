@@ -9,14 +9,14 @@ accessed: 2026-07-02
 description: "We’ve just released BashArena, a new high-stakes control setting we think is a major improvement over the settings we’ve used in the past."
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090670678}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 We’ve just released [BashArena](https://www.bash-arena.com/), a new high-stakes control setting we think is a major improvement over the settings we’ve used in the past. In this post we’ll discuss the strengths and weaknesses of BashArena, and what we’ve learned about how to make settings for high stakes control research.
 

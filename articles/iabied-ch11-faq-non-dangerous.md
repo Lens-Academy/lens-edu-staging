@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090679307}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### Actions that seem benign can still require dangerous capabilities.
 
 An example of a proposal we've heard is for AI companies to continue to advance the capabilities frontier, but commit to using their AIs only in ways that don't seem immediately dangerous. E.g., in conversation with senior figures in AI (years ago), we've heard the idea floated that powerful AI with strong rhetorical skills could be used to convince politicians worldwide to pass an effective ban on dangerous AI development.
