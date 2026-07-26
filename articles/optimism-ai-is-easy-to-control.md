@@ -9,7 +9,14 @@ accessed: 2026-06-21
 description: "Why are billions of dollars being poured into artificial intelligence R&D this year? Companies certainly expect to get a return on their investment. Arguably, the main reason AI is profitable i…"
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090679482}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Why are billions of dollars being poured into artificial intelligence R&D this year? Companies certainly expect to get a return on their investment. Arguably, the main reason AI is profitable is that it is **more controllable** than human labor. The personality and conduct of an AI can be controlled to much finer grained precision than that of any human employee. Chatbots like GPT-4 and Claude undergo a “supervised fine tuning” phase, where their neural circuitry is directly optimized to say certain words, phrases, and sentences in specified contexts. Algorithms like [direct preference optimization](https://arxiv.org/abs/2305.18290) (DPO) and [reinforcement learning from human feedback](https://papers.nips.cc/paper_files/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract-Conference.html) (RLHF) are also used to holistically shape chatbots’ brains into the kind of systems most preferred by human graders. And by carefully curating the dataset on which the AI is initially trained, we can also control _all_ of the AI’s most formative experiences. Since AIs are computer programs, they can be cheaply copied and run on many computers in parallel, making it economically viable to invest millions or even billions of dollars on carefully training a “single” artificial employee. Needless to say, none of this is possible or ethical to perform on human employees.[^1]
 

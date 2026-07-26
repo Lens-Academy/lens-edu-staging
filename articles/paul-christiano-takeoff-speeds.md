@@ -3,7 +3,14 @@ title: "Takeoff speeds"
 author: "Paul Christiano"
 published: 2018-02-24
 source_url: https://sideways-view.com/2018/02/24/takeoff-speeds/
----
+---{++{"author":"Luc's AI","timestamp":1785090680488}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Futurists have argued for years about whether the development of AGI will look more like a breakthrough within a small group ("fast takeoff"), or a continuous acceleration distributed across the broader economy or a large firm ("slow takeoff").
 

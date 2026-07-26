@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090677216}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 #### Warning signs don't help if you don't know what to do with them.
 
 In the Chapter 2 resources, we looked at some problems with relying on warning signs in the [English chain-of-thought scratchpads](/2/but-some-ais-partly-think-in-english-doesnt-that-help) found in some reasoning models.

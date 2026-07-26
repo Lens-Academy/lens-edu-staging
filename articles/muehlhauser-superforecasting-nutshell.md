@@ -14,7 +14,14 @@ tags:
   - decision-making
   - epistemics
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090677069}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 # Superforecasting in a Nutshell
 

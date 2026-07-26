@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090680473}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 #### Not in general. Corner-cutting is often competitive.
 
 Volkswagen's efforts to [cheat on emissions tests](https://www.bbc.com/news/business-34324772) from 2008 to 2015 were audacious — and apparently effective. The 2018–2019 crashes of Boeing's 737 MAX, attributed to flaws in a flight control system that management knew about and downplayed, [killed 346 people](https://apnews.com/article/boeing-plea-737-max-crashes-b34daa014406657e720bec4a990dccf6). But automobile and aircraft manufacturing are highly competitive industries in which Volkswagen and Boeing were, *and remain*, giants.

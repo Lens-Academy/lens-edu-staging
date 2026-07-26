@@ -14,7 +14,14 @@ tags:
   - moral-circle-expansion
   - history-of-ea
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090679731}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 *The effective altruism community has grown tremendously since it began in 2009. In the opening keynote of EA Global: San Francisco 2016, Toby Ord and Will MacAskill discuss this history and consider what might happen in the movement’s future.*
 

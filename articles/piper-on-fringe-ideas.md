@@ -13,7 +13,14 @@ tags:
   - moral-uncertainty
   - animal-welfare
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090681208}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 *The Forum team published this with Kelsey's permission. We've slightly edited the original content, which you can find [here](https://web.archive.org/web/20190701003844/https://theunitofcaring.tumblr.com/post/185847413171/what-do-you-think-about-the-more-fringe-parts-of).*
 

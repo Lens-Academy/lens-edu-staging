@@ -8,7 +8,14 @@ created: 2026-02-27
 description: "Disclaimer: Post written in a personal capacity. These are personal opinions and do not in any way represent my employer's views • TL;DR: …"
 tags:
   - "obsidian-web-clipper"
----
+---{++{"author":"Luc's AI","timestamp":1785090677533}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 *Disclaimer: Post written in a personal capacity. These are personal opinions and do not in any way represent my employer's views*
 

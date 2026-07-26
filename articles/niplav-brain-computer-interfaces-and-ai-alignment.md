@@ -9,7 +9,14 @@ accessed: 2026-07-09
 description: "> I discuss arguments for and against the usefulness of brain-computer interfaces in relation to AI alignment, and conclude that the path to AI going…"
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090678522}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 _cross-posted from [niplav.github.io](https://niplav.github.io/)_
 

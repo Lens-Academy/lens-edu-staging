@@ -14,7 +14,14 @@ tags:
   - expected-value
   - moral-uncertainty
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090678839}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 # Expected Value: How to Make Decisions Under Uncertainty
 
