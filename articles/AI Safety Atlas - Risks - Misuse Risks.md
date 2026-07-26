@@ -10,7 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090616988}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Humans can deliberately use AI capabilities to cause harm by creating biological weapons, engaging in cyberattacks, or deploying lethal autonomous weapons.
 

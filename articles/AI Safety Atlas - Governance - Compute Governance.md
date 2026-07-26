@@ -12,7 +12,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090613232}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Only a handful of companies make the chips needed to build advanced AI. If governments control the supply chains, hardware access becomes one promising way to limit who can create highly capable AI.
 

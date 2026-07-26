@@ -10,7 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090617999}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 We can have two AI systems argue a point, with a human judging the winner. In theory, it's harder to maintain a lie than to refute one, which can help surface truthful information and elicit AI's hidden knowledge.
 

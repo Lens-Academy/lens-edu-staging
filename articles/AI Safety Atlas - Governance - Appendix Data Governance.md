@@ -12,7 +12,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090612672}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Data fundamentally shapes AI capabilities and risks, but it is challenging to regulate due to being easy to copy, and difficult to measure and control.
 

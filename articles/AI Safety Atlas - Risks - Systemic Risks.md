@@ -10,7 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090617755}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 A large number of risks emerge from the interaction of AI with existing societal systems. These interactions can lead to sudden decisive collapses or gradual erosion due to power concentration, and human enfeeblement.
 

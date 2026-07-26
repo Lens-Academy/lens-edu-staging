@@ -10,7 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090616413}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 The previous chapter explored AI's rapidly advancing capabilities through scaling laws, the bitter lesson, and potential takeoff scenarios. We saw how more compute, data, and algorithmic improvements drive consistent capability gains across domains. But why should increasing capabilities concern us? The short answer is - more capable AI systems create larger-scale risks.
 

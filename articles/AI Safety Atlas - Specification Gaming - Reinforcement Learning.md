@@ -10,7 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090619456}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Reinforcement learning teaches AI agents through trial and error to maximize a reward, but if what we reward it for doesn't perfectly match what we want, the AI might simply increase the score instead of doing the real task.
 

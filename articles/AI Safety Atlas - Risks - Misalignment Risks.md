@@ -10,7 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090616722}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 AI systems with dangerous capabilities might pursue goals misaligned with developer intent. This leads to potentially catastrophic outcomes like sudden treacherous turns.
 

@@ -10,7 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090618625}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 We can improve human supervision limits by using AI assistants to provide feedback. Training new models using amplified human-AI systems can lead to models increasingly aligned with human values, potentially scaling supervision beyond human limits.
 

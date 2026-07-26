@@ -12,7 +12,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090614524}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Turning governance principles into action requires developing technical safety standards, creating regulatory visibility through tools like model registries and compute monitoring, and establishing credible enforcement mechanisms.
 

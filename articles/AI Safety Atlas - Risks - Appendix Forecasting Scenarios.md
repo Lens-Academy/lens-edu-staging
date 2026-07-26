@@ -10,7 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090615318}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Narrative forecasts and world building illustrate how current trends could lead to catastrophic or transformative futures driven by automation and competitive pressures.
 
