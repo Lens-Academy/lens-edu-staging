@@ -20,7 +20,7 @@ source:: ![[../Lenses/EA Intro - The Effectiveness Mindset (Dalton)]]
 # Submodule: On effective altruism
 
 # Learning Outcome: EA Intro - Explain What Effective Altruism Is
-source:: ![[../Learning Outcomes/EA Intro - Explain What Effective Altruism Is]]
+source:: ![[../Learning Outcomes/What effective altruism is]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Introduction to Effective Altruism]]
@@ -34,7 +34,7 @@ source:: ![[../Lenses/EA Intro - The World Is Much Better]]
 # Submodule: On scope sensitivity
 
 # Learning Outcome: EA Intro - Identify Failures of Scope Sensitivity
-source:: ![[../Learning Outcomes/EA Intro - Identify Failures of Scope Sensitivity]]
+source:: ![[../Learning Outcomes/Scope sensitivity]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - On Caring]]
@@ -67,7 +67,7 @@ source:: ![[../Lenses/EA Intro - We Are in Triage Every Second of Every Day]]
 # Submodule: On impact
 
 # Learning Outcome: EA Intro - Explain Why Some Interventions Have Outsized Impact
-source:: ![[../Learning Outcomes/EA Intro - Explain Why Some Interventions Have Outsized Impact]]
+source:: ![[../Learning Outcomes/Outsized-impact interventions]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - 500 Million But Not a Single One More]]

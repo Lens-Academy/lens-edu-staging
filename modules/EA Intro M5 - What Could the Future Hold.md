@@ -37,7 +37,7 @@ source:: ![[../Lenses/EA Intro - Probably Not a Longtermist]]
 # Submodule: Hinge of history
 
 # Learning Outcome: EA Intro - Evaluate the Hinge of History Hypothesis
-source:: ![[../Learning Outcomes/EA Intro - Evaluate the Hinge of History Hypothesis]]
+source:: ![[../Learning Outcomes/The hinge of history]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - This Can't Go On]]

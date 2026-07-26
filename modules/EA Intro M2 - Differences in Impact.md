@@ -27,7 +27,7 @@ source:: [[../Lenses/wiblin-how-can-you-figure-out-which-global-problem-is-most-
 # Submodule: Differences in impact
 
 # Learning Outcome: EA Intro - Explain Why Some Interventions Are Orders of Magnitude More Effective
-source:: ![[../Learning Outcomes/EA Intro - Explain Why Some Interventions Are Orders of Magnitude More Effective]]
+source:: ![[../Learning Outcomes/Orders-of-magnitude differences in impact]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Comparing Charities - How Big Is the Difference]]
@@ -35,7 +35,7 @@ source:: ![[../Lenses/EA Intro - Comparing Charities - How Big Is the Difference
 # Submodule: Thinking on the Margin
 
 # Learning Outcome: EA Intro - Explain Marginal Impact
-source:: ![[../Learning Outcomes/EA Intro - Explain Marginal Impact]]
+source:: ![[../Learning Outcomes/Marginal impact]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Marginal Impact]]

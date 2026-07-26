@@ -33,7 +33,7 @@ source:: ![[../Lenses/EA Intro - What Is Evidence]]
 # Submodule: Independent impressions
 
 # Learning Outcome: EA Intro - Explain Independent Impressions
-source:: ![[../Learning Outcomes/EA Intro - Explain Independent Impressions]]
+source:: ![[../Learning Outcomes/Independent impressions]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Independent Impressions]]
@@ -41,10 +41,10 @@ source:: ![[../Lenses/EA Intro - Independent Impressions]]
 # Submodule: Learning from mistakes
 
 # Learning Outcome: EA Intro - Identify Lessons from EA's Mistakes
-source:: ![[../Learning Outcomes/EA Intro - Identify Lessons from EA's Mistakes]]
+source:: ![[../Learning Outcomes/Lessons from EA's mistakes]]
 
 # Learning Outcome: EA Intro - Explain Why Maximization Is Perilous
-source:: ![[../Learning Outcomes/EA Intro - Explain Why Maximization Is Perilous]]
+source:: ![[../Learning Outcomes/Why maximization is perilous]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Lessons for EA (Toby Ord EAG)]]

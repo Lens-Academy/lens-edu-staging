@@ -19,7 +19,7 @@ source:: ![[../Lenses/EA Intro - Risks from Artificial Intelligence Introduction
 # Submodule: The case for worrying about risks from artificial intelligence
 
 # Learning Outcome: EA Intro - Explain How Advanced AI Could Cause Catastrophe
-source:: ![[../Learning Outcomes/EA Intro - Explain How Advanced AI Could Cause Catastrophe]]
+source:: ![[../Learning Outcomes/How advanced AI could cause catastrophe]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - How AI Could Create the Biggest Problems]]
@@ -35,7 +35,7 @@ source:: ![[../Lenses/EA Intro - The Longtermist AI Governance Landscape]]
 # Submodule: Suffering risks
 
 # Learning Outcome: EA Intro - Explain S-Risks
-source:: ![[../Learning Outcomes/EA Intro - Explain S-Risks]]
+source:: ![[../Learning Outcomes/S-risks]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Why S-Risks Are the Worst Existential Risks]]

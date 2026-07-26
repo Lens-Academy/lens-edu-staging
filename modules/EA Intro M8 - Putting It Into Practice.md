@@ -19,7 +19,7 @@ source:: ![[../Lenses/EA Intro - Putting It Into Practice Introduction]]
 # Submodule: Attitudes to doing good
 
 # Learning Outcome: EA Intro - Identify Next Steps for EA Involvement
-source:: ![[../Learning Outcomes/EA Intro - Identify Next Steps for EA Involvement]]
+source:: ![[../Learning Outcomes/Next steps in EA]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Call to Vigilance]]
@@ -41,7 +41,7 @@ source:: ![[../Lenses/EA Intro - Career Choice for Longtermists]]
 # Submodule: Dealing with demandingness
 
 # Learning Outcome: EA Intro - Navigate Demandingness in EA
-source:: ![[../Learning Outcomes/EA Intro - Navigate Demandingness in EA]]
+source:: ![[../Learning Outcomes/Demandingness in EA]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - You Have More Than One Goal]]

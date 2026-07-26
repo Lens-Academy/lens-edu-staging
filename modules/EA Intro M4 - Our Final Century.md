@@ -19,7 +19,7 @@ source:: ![[../Lenses/EA Intro - Our Final Century Introduction]]
 # Submodule: Existential risks
 
 # Learning Outcome: EA Intro - Explain Existential Risk and Moral Importance
-source:: ![[../Learning Outcomes/EA Intro - Explain Existential Risk and Moral Importance]]
+source:: ![[../Learning Outcomes/Existential risk and its moral weight]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - The Case for Reducing Existential Risk]]
@@ -35,7 +35,7 @@ source:: ![[../Lenses/EA Intro - Preventing Catastrophic Pandemics]]
 # Submodule: Strategies for improving biosecurity
 
 # Learning Outcome: EA Intro - Identify Biosecurity Interventions
-source:: ![[../Learning Outcomes/EA Intro - Identify Biosecurity Interventions]]
+source:: ![[../Learning Outcomes/Biosecurity interventions]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Concrete Biosecurity Projects]]
@@ -46,7 +46,7 @@ source:: ![[../Lenses/EA Intro - Concrete Biosecurity Projects]]
 source:: ![[../Learning Outcomes/Expected-value reasoning]]
 
 # Learning Outcome: EA Intro - Explain Hits-Based Giving
-source:: ![[../Learning Outcomes/EA Intro - Explain Hits-Based Giving]]
+source:: ![[../Learning Outcomes/Hits-based giving]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Expected Value]]
@@ -57,7 +57,7 @@ source:: ![[../Lenses/EA Intro - Hits-Based Giving]]
 # Submodule: Crucial considerations
 
 # Learning Outcome: EA Intro - Explain Crucial Considerations
-source:: ![[../Learning Outcomes/EA Intro - Explain Crucial Considerations]]
+source:: ![[../Learning Outcomes/Crucial considerations]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Crucial Considerations]]
