@@ -9,7 +9,14 @@ accessed: 2026-07-02
 description: "If the future is to hinge on AI, it stands to reason that AI company CEOs are in a good position to usurp power. This didn’t quite happen in our AI 2027 scenarios."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090670120}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 ### ...
 

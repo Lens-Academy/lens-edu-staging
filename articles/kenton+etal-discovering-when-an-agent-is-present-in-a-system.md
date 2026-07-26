@@ -1,4 +1,4 @@
----
+"---
 title: "Discovering when an agent is present in a system"
 source_url: "https://deepmind.google/blog/discovering-when-an-agent-is-present-in-a-system/"
 author:
@@ -11,7 +11,14 @@ author:
 published: 2022-08-17
 created: 2026-02-19
 description: "We want to build safe, aligned artificial general intelligence (AGI) systems that pursue the intended goals of its designers. Causal influence diagrams (CIDs) are a way to model decision-making situa…"
----
+---{++{"author":"Luc's AI","timestamp":1785090670996}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 New, formal definition of agency gives clear principles for causal modelling of AI agents and the incentives they face
 
 We want to build safe, aligned artificial general intelligence (AGI) systems that pursue the intended goals of its designers. [Causal influence diagrams](https://deepmindsafetyresearch.medium.com/progress-on-causal-influence-diagrams-a7a32180b0d1#b09d) (CIDs) are a way to model decision-making situations that allow us to reason about [agent incentives](https://ojs.aaai.org/index.php/AAAI/article/view/17368). For example, here is a CID for a 1-step Markov decision process – a typical framework for decision-making problems.

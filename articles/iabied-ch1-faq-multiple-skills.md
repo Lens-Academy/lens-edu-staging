@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090669414}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 #### Yes, but there's substantial overlap.
 
 Suppose I'm better than my sister at composing classical music, but she's better at writing novels. There's no obvious way to judge which of us is "smarter" than the other, since music and novel-writing are just different skills. So how is it any more meaningful to say that an AI is "smarter" than a human?

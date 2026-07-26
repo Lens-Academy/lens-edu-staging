@@ -15,6 +15,13 @@ tags:
   - philosophy
   - criticism-of-ea
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090668941}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 {>>TODO: Licensed content<<}

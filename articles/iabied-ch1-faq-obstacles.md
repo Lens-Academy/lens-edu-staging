@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090669925}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 #### It isn't clear.
 
 To a large extent, the field is flying blind. It could be that there are no real obstacles remaining, and that minor adjustments to current techniques scale to superintelligence, or scale to AIs that are smart enough to build slightly smarter AIs that build slightly smarter AIs that build superintelligent AIs.

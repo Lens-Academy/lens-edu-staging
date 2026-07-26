@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090672082}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 #### No.
 
 We mostly defer the question of whether machines can be creative until Chapter 3. However, here we will say this: Machines do not need to have some fatal flaw that balances them out against humans, such that the indomitable human spirit has a chance of winning.

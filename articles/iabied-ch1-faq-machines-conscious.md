@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090669647}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 #### Not necessarily, and this seems like a separate topic.
 
 *If Anyone Builds It, Everyone Dies* doesn't discuss machine consciousness at all, focusing instead on machine *intelligence*. As a first step in talking about consciousness, we should first clarify what kind of "consciousness" we have in mind.
