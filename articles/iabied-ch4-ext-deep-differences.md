@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090727026}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### Comparing Natural Selection and Gradient Descent
 
 As we discussed in "[Human Values Are Contingent](/4/human-values-are-contingent)," the evolution of love and friendship in humans crucially depended on features of natural selection that were present for *Homo sapiens* in particular, and that are absent in gradient descent.
