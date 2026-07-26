@@ -28,6 +28,8 @@ Okay so split this into two lenses:
 
 _Note: The majority of this post is adapted from a talk I gave recently. These do not represent the views of my employer._
 
+:note
+
 Scroll around the organizations on this cute [AI safety map](https://aisafety.com/map). Think about, or ask, how does their work help with AI safety?
 
 My guess is that, maybe some won’t know, but most would say “X of our actions will lead to Y self-evidently good outcome.”
