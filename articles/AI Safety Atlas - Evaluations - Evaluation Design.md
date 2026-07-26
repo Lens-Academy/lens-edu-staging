@@ -10,14 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090608825}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Good evaluation design means managing the tools the AI has access to during testing, finding ways to run many assessments, making sure results integrate with audits and lead to real safety changes within a company.
 

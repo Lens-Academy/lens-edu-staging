@@ -10,14 +10,14 @@ accessed: 2026-07-02
 description: "A new standards roadmap reveals growing concern over risks from abuse of open-source models and loss of control over AI."
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090685989}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 ![How China Views AI Risks and What to do About Them](https://assets.carnegieendowment.org/_/eyJrZXkiOiJzdGF0aWMvbWVkaWEvaW1hZ2VzL2lTdG9ja19DaXJjdXQgYm9hcmQgdGV4dHVyZV8xNDIweDc3MC0xLmpwZyJ9)
 
