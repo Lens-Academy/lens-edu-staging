@@ -12,7 +12,14 @@ tags:
   - "article-importer"
 ---
 
-AI is an incredibly fast moving field. To talk about risks and how to make it safe in the future, we first need to understand where it is today and where it might be going in the future.
+{++{"author":"Luc's AI","timestamp":1785073559182}@@%%
+Add discussion note here:
+
+...
+
+%%
+
+++}AI is an incredibly fast moving field. To talk about risks and how to make it safe in the future, we first need to understand where it is today and where it might be going in the future.
 
 ---
 

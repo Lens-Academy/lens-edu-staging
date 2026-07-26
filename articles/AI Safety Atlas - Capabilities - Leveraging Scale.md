@@ -12,7 +12,14 @@ tags:
   - "article-importer"
 ---
 
-Recent AI progress is primarily driven by massive scale in computation, data, and model size. Empirically observed scaling trends can help provide guidelines for predicting future capabilities.
+{++{"author":"Luc's AI","timestamp":1785073559465}@@%%
+Add discussion note here:
+
+...
+
+%%
+
+++}Recent AI progress is primarily driven by massive scale in computation, data, and model size. Empirically observed scaling trends can help provide guidelines for predicting future capabilities.
 
 ---
 

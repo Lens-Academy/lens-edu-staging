@@ -12,7 +12,14 @@ tags:
   - "article-importer"
 ---
 
-AI has undergone a massive shift in the last decade. Game-playing systems developed strategic creativity that surprised grandmasters, language models evolving from funny autocomplete failures to software engineering assistants handling codebases spanning thousands of files. These types of examples reflect a change in how technology is evolving, and raise a question that this entire book tries to answer: how do you make something safe when you don't fully understand what it can do, and when its abilities might change dramatically between the time you start reading this chapter and the time you finish?
+{++{"author":"Luc's AI","timestamp":1785073558885}@@%%
+Add discussion note here:
+
+...
+
+%%
+
+++}AI has undergone a massive shift in the last decade. Game-playing systems developed strategic creativity that surprised grandmasters, language models evolving from funny autocomplete failures to software engineering assistants handling codebases spanning thousands of files. These types of examples reflect a change in how technology is evolving, and raise a question that this entire book tries to answer: how do you make something safe when you don't fully understand what it can do, and when its abilities might change dramatically between the time you start reading this chapter and the time you finish?
 
 This first chapter is about mapping the territory. Before we can discuss dangerous capabilities, alignment strategies, technical solutions or governance frameworks—the subjects of Chapters 2, 3, and 4—the first step is getting a sense of what AI systems can actually do right now, how they got here, and where the future trends point.
 
