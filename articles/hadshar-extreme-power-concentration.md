@@ -11,6 +11,14 @@ tags:
   - "article-importer"
 ---
 
+%%
+ARTICLE STUB — the article itself has not been imported yet.
+
+Initial thoughts, 2026-07-26:
+- Possible intermediate material for Theory of change and impact pathways.
+- Strongest as a prompt for constructing and stress-testing an impact pathway.
+- The account of AI-safety strategy camps is opinionated and should not be used as a neutral overview without counter-material.
+%%
 ## Why might AI-enabled power concentration be a pressing problem?
 
 The main reasons we think AI-enabled power concentration is an especially pressing problem are:
