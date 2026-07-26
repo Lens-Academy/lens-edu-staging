@@ -13,6 +13,13 @@ tags:
   - farmed-animals
   - cause-prioritization
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090642728}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 {>>TODO: Licensed content<<}

@@ -10,7 +10,14 @@ tags:
   - "ea-intro-program"
   - "effective-altruism"
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090644832}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 ### What is effective altruism?
 

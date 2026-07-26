@@ -9,7 +9,14 @@ accessed: 2026-07-02
 description: "Since 2023, every model at the frontier of AI capabilities, as measured by the Epoch Capabilities Index, has been developed in the United States. Over that same period, Chinese models have trailed US capabilities by an average of seven months, with a minimum gap of four months and a maximum gap of 14."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090646217}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Since 2023, every model at the frontier of AI capabilities, as measured by the Epoch Capabilities Index, has been developed in the United States. Over that same period, Chinese models have trailed US capabilities by an average of seven months, with a minimum gap of four months and a maximum gap of 14.
 

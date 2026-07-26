@@ -3,7 +3,14 @@ title: "Credible Threats in Negotiations: Commitment and Endogenous Threats"
 author: Harold Houba, Wilko Bolt
 source_url: https://link.springer.com/chapter/10.1007/0-306-47539-1_7
 published: 2002
----
+---{++{"author":"Luc's AI","timestamp":1785090643911}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 # Chapter 7: Commitment and Endogenous Threats
 

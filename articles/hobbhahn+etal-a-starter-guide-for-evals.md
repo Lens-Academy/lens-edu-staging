@@ -12,7 +12,14 @@ created: 2026-02-27
 description: "This is a starter guide for model evaluations (evals). Our goal is to provide a general overview of what evals are, what skills are helpful for evalu…"
 tags:
   - "obsidian-web-clipper"
----
+---{++{"author":"Luc's AI","timestamp":1785090643330}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 This is a starter guide for model evaluations (evals). Our goal is to provide a general overview of what evals are, what skills are helpful for evaluators, potential career trajectories, and possible ways to start in the field of evals.   
   
 Evals is a nascent field, so many of the following recommendations might change quickly and should be seen as our current best guess.

@@ -13,7 +13,14 @@ tags:
   - critical-thinking
   - independent-impressions
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090641292}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 > *"It is one of the unfortunate truisms of the human condition that there is hardly a good idea, noble impulse, or sound suggestion that can't be (and isn't eventually) adopted and bastardized by zealots… One iteration of this tendency is in the idea of 'effective altruism.'"*
 >

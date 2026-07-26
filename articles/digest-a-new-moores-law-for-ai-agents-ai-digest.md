@@ -8,7 +8,14 @@ accessed: 2026-07-07
 description: "The length of tasks that agents can do is growing exponentially"
 tags:
   - article-importer
----
+---{++{"author":"Luc's AI","timestamp":1785090643468}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Last updated March 2026
 

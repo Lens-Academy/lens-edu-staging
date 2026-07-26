@@ -9,7 +9,14 @@ accessed: 2026-07-02
 description: "In this Gradient Updates weekly issue, Ege discusses the case for multi-decade AI timelines."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090646547}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 The date at which transformative AI capabilities will be reached is among the most discussed questions about AI. Opinions vary widely, with industry insiders typically expecting far faster progress than external observers. For instance, Dario Amodei [thinks](https://arstechnica.com/ai/2025/01/anthropic-chief-says-ai-could-surpass-almost-all-humans-at-almost-everything-shortly-after-2027/) there might be only 2 to 3 years left until AI surpasses “almost all humans at almost everything”, while economists such as William Nordhaus still believe we might have more than 100 years left.
 

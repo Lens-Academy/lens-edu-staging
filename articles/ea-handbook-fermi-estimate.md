@@ -12,7 +12,14 @@ tags:
   - cause-prioritization
   - reasoning
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090644584}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 # Fermi Estimate
 

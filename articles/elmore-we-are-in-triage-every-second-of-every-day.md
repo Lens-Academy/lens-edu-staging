@@ -13,7 +13,14 @@ tags:
   - tradeoffs
   - moral-psychology
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090645977}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 # We Are in Triage Every Second of Every Day
 

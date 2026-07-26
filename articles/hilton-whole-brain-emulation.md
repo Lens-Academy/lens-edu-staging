@@ -9,7 +9,14 @@ accessed: 2026-07-09
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090643001}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 ![](https://80000hours.org/wp-content/uploads/2022/05/mo-NKhckz9B78c-unsplash-1440x830.jpg)
 

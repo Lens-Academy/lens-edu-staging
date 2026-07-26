@@ -14,7 +14,14 @@ tags:
   - rationality
   - evidence
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090644306}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Bayes' rule or Bayes' theorem is the law of probability governing *the strength of evidence* — the rule saying *how much* to revise our probabilities (change our minds) when we learn a new fact or observe new evidence.
 
