@@ -10,14 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090615882}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 AI's interconnected risks demand a multidisciplinary safety approach to preserve its potential for immense human benefit.
 

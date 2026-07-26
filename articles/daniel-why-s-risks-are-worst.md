@@ -16,14 +16,14 @@ tags:
   - suffering
   - longtermism
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090641619}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 {>>TODO: Licensed content<<}
 

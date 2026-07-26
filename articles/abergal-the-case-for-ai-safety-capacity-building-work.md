@@ -9,14 +9,14 @@ accessed: 2026-07-09
 description: "TL;DR: •  * I think many of the marginal hires at larger organizations doing AI safety technical or policy work right now (including e.g. Apollo, Red…"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090625755}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 TL;DR:
 

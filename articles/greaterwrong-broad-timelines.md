@@ -9,14 +9,14 @@ accessed: 2026-07-02
 description: "No-one knows when AI will begin having transformative impacts upon the world. People aren’t sure and shouldn’t be sure: there just isn’t enough evidence to pin it down.  But we don’t need to wait for certainty. I want to explore what happens if we take our uncertainty seriously — if we act with epistemic humility. What does wise planning look like in a world of deeply uncertain AI timelines?  I’ll conclude that taking the uncertainty seriously has real implications for how one can contribute to making this AI transition go well. And it has even more implications for how we act together — for our portfolio of work aimed towards this end."
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090630481}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 No-one knows when AI will begin having transformative impacts upon the world. People aren’t sure and shouldn’t be sure: there just isn’t enough evidence to pin it down.
 
