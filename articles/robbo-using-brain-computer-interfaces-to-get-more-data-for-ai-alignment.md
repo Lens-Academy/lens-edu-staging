@@ -9,14 +9,14 @@ accessed: 2026-07-09
 description: "The purpose of this post is to sketch some ways that Brain Computer Interface (BCI) technology might help with various AI alignment techniques. Rough…"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090684598}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 The purpose of this post is to sketch some ways that [Brain Computer Interface](https://www.lesswrong.com/w/brain-computer-interfaces) (BCI) technology might help with [various AI alignment techniques](https://www.lesswrong.com/posts/fRsjBseRuvRhMPPE5/an-overview-of-11-proposals-for-building-safe-advanced-ai). Roughly, we can divide the strategic relevance of BCI technology into three broad categories.[^1]
 

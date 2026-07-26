@@ -10,14 +10,14 @@ accessed: 2026-07-02
 description: "If your AIs are trying to escape, it's crucial to think about whether you can catch them before they succeed, because catching them red-handed gives you lots of options you didn't have before."
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090686883}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 \[Originally posted on [LessWrong](https://www.lesswrong.com/posts/i2nmBfCXnadeGmhzW/catching-ais-red-handed).\]
 

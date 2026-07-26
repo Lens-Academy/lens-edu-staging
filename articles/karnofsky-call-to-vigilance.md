@@ -14,14 +14,14 @@ tags:
   - career-choice
   - existential-risk
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090668293}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 This is the final piece in the [**"most important century" series**](https://www.cold-takes.com/roadmap-for-the-most-important-century-series/), which has argued that there's a high probability that the coming decades will see:
 

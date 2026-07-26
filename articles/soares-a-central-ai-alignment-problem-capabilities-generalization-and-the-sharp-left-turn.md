@@ -6,14 +6,14 @@ author:
 published: 2022-06-15
 created: 2026-02-13
 description: "Nate Soares argues that one of the core problems with AI alignment is that an AI system's capabilities will likely generalize to new domains much fas…"
----{++{"author":"Luc's AI","timestamp":1785090689716}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 :::collapse
 (*This post was factored out of a larger post that I (Nate Soares) wrote, with help from Rob Bensinger, who also rearranged some pieces and added some text to smooth things out. I'm not terribly happy with it, but am posting it anyway (or, well, having Rob post it on my behalf while I travel) on the theory that it's better than nothing.*)
 :::

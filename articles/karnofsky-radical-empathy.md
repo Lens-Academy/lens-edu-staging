@@ -13,14 +13,14 @@ tags:
   - animal-welfare
   - moral-philosophy
 allowUnreachableUrl: true
----{++{"author":"Luc's AI","timestamp":1785090669821}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 *This version of the essay has been lightly edited. You can find the original [here](https://web.archive.org/web/20200220220116/https://www.openphilanthropy.org/blog/radical-empathy).*
 

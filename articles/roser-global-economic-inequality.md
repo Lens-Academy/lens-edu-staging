@@ -13,14 +13,14 @@ tags:
   - global-poverty
   - economic-inequality
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090684868}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 # Global Economic Inequality
 

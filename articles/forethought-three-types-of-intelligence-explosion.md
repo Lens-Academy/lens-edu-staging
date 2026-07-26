@@ -9,14 +9,14 @@ accessed: 2026-07-02
 description: "Once AI systems can design and build even more capable AI systems, we could see an *intelligence explosion*, where AI capabilities rapidly increase to well past human performance.   The classic intelligence explosion scenario involves a feedback loop where AI improves AI software. But AI could also improve other inputs to AI development. This paper analyses three feedback loops in AI development: software, chip technology, and chip production. These could drive three types of intelligence explosion: a software intelligence explosion driven by software improvements alone; an AI-technology intelligence explosion driven by both software and chip technology improvements; and a full-stack intelligence explosion incorporating all three feedback loops.  Even if a software intelligence explosion never materializes or plateaus quickly, AI-technology and full-stack intelligence explosions remain possible. And, while these would start more gradually, they could accelerate to very fast rates of development. Our analysis suggests that each feedback loop by itself could drive accelerating AI progress, with effective compute potentially increasing by 20-30 orders of magnitude before hitting physical limits—enabling truly dramatic improvements in AI capabilities. The type of intelligence explosion also has implications for the distribution of power: a software intelligence explosion would by default concentrate power within one country or company, while a full-stack intelligence explosion would be spread across many countries and industries."
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090647956}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 17th March 2025
 
