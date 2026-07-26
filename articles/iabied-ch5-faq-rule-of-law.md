@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090658082}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### AIs could coordinate with each other without including humans.
 
 It's not obvious to us whether there will be multiple smarter-than-human AIs of comparable ability, such that an "AI civilization" might emerge that has need of "AI property rights." It seems plausible that there will instead be a single AI that, thanks to some breakthrough, dominates potential competitors using its first-mover advantage and thereby controls the whole world.[\*](#ftnt172) Or, supposing multiple AIs exist, they might collaborate on building a single successor agent to represent the combination of their goals. Or perhaps AIs will find a way to directly fuse their minds and will want to do so in order to avoid costly competition.
