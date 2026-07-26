@@ -14,14 +14,14 @@ tags:
   - epistemic-deference
   - rationality
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090676115}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Your **independent impression** about something is essentially what you'd believe about that thing if you weren't updating your beliefs in light of peer disagreement — i.e., if you weren't taking into account your knowledge about what other people believe and how trustworthy their judgement seems on this topic. Your independent impression can take into account the *reasons* those people have for their beliefs (inasmuch as you know those reasons), but not the *mere fact* that they believe what they believe.
 

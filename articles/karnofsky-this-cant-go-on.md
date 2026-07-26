@@ -15,14 +15,14 @@ tags:
   - existential-risk
   - hinge-of-history
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090670410}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 # This Can't Go On
 

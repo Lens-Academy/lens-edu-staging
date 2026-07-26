@@ -7,14 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090695884}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### No.
 
 Throughout the book, we've laid out our case for the claim that rushing ahead on AI is likely to get us all killed. In Chapter 3, we discussed how AI will have its own drives and goals. In Chapters 4 and 5, we discussed why AI is likely to pursue ends that nobody intended, and in Chapter 6, we spelled out how machine superintelligences will have not just a motive but a *means* to kill us all.

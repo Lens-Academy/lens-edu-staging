@@ -10,14 +10,14 @@ accessed: 2026-07-02
 description: "Forethought paper modeling software intelligence explosion: 60% chance of >3 years progress in <1 year."
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090647446}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 4th August 2025
 
