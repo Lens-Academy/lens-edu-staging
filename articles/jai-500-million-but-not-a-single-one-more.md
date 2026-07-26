@@ -13,14 +13,14 @@ tags:
   - progress
   - history
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090667130}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 We will never know their names.
 

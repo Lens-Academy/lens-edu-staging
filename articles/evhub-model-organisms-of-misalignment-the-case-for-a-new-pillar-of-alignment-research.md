@@ -12,14 +12,14 @@ accessed: 2026-06-21
 description: "Evan et al argue for developing \"model organisms of misalignment\" - AI systems deliberately designed to exhibit concerning behaviors like deception o…"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090647193}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 **TL;DR**: This document lays out the case for research on “model organisms of misalignment” – in vitro demonstrations of the kinds of failures that might pose existential threats – as a new and important pillar of alignment research.
 

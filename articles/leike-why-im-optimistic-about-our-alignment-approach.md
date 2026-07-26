@@ -9,14 +9,14 @@ accessed: 2026-06-21
 description: "Some arguments in favor and responses to common objections"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090672543}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 [OpenAI’s approach to alignment research](https://openai.com/blog/our-approach-to-alignment-research/) involves [perfecting RLHF](https://openai.com/blog/instruction-following/), [AI-assisted human evaluation](https://aligned.substack.com/p/ai-assisted-human-feedback), and [automated alignment research](https://aligned.substack.com/p/alignment-mvp). Why is this a good strategy? What are the reasons to be optimistic about it? My optimism stems from five sources:
 
