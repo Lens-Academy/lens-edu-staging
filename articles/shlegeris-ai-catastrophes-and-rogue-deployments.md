@@ -9,7 +9,14 @@ accessed: 2026-07-02
 description: "It’s interesting to classify possible AI catastrophes based on whether or not they involve a \"rogue deployment\"."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090686568}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 \[Thanks to Aryan Bhatt, Ansh Radhakrishnan, Adam Kaufman, Vivek Hebbar, Hanna Gabor, Justis Mills, Aaron Scher, Max Nadeau, Ryan Greenblatt, Peter Barnett, Fabien Roger, and various people at a presentation of these arguments for comments. These ideas aren’t very original to me; many of the examples of threat models are from other people.\]
 

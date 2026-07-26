@@ -9,7 +9,14 @@ accessed: 2026-07-18
 description: "Learn how to improve decision-making in your career by understanding and calculating the expected value of uncertain outcomes."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090682587}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 When we’re uncertain about how our decisions will play out, it’s helpful to consider the **expected value** of our actions. In other words, using expected values can provide an idea of what we should “expect on average” from uncertain decisions. It can even be used to help in our most important decisions, like which problems we prioritize or the career we choose, where uncertainty is common.
 

@@ -14,7 +14,14 @@ tags:
   - cause-prioritization
   - leverage-points
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090684303}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 # Introducing LEEP: Lead Exposure Elimination Project
 

@@ -9,7 +9,14 @@ accessed: 2026-07-02
 description: "In this post, I’ll make a technical point that comes up when thinking about risks from scheming AIs from a control perspective."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090688754}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 In this post, I’ll make a technical point that comes up when thinking about risks from scheming AIs from a [control perspective](https://redwoodresearch.substack.com/p/the-case-for-ensuring-that-powerful).
 

@@ -9,7 +9,14 @@ accessed: 2026-07-02
 description: "A scary scenario that's worth planning for"
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090687995}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 (Many of these ideas developed in conversation with Ryan Greenblatt)
 

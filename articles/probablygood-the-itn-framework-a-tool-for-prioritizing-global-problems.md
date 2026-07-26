@@ -9,7 +9,14 @@ accessed: 2026-07-18
 description: "The ITN framework is a tool used to compare cause areas based on three key factors: Importance, Tractability, and Neglectedness. Learn more."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090683397}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 The ITN framework is a tool used to compare cause areas based on three key factors: **Importance** (how much progress in the cause would improve the world), **Tractability** (how easy it is to make progress in that area), and **Neglectedness** (how few resources are already dedicated to it). This simple yet useful framework has become a common way to estimate the impactfulness of any given cause area.
 

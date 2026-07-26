@@ -13,6 +13,13 @@ tags:
   - epistemics
   - global-priorities
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090685712}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 {>>TODO: Licensed content<<}

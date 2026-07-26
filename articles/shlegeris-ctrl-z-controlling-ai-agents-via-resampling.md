@@ -9,7 +9,14 @@ accessed: 2026-07-02
 description: "A new paper on AI control for agents."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090687494}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 We have released a new paper, _[Ctrl-Z: Controlling AI Agents via Resampling](https://arxiv.org/abs/2504.10374)_. This is the largest and most intricate study of control techniques to date: that is, techniques that aim to prevent catastrophic failures even if egregiously misaligned AIs attempt to subvert the techniques. We extend control protocols to a more realistic, multi-step setting, develop novel _resample protocols_ that outperform all existing control protocols, and study many aspects of control techniques in more detail than prior work. In this blog post, we summarize the main takeaways and lessons learned from our work.
 

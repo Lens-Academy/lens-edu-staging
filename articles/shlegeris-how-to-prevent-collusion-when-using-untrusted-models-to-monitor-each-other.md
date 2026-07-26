@@ -9,7 +9,14 @@ accessed: 2026-07-02
 description: "Suppose you’ve trained a really clever AI model, and you’re planning to deploy it in an agent scaffold that allows it to run code or take other actions."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090687135}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Suppose you’ve trained a really clever AI model, and you’re planning to deploy it in an agent scaffold that allows it to run code or take other actions. You’re worried that this model is [scheming](https://joecarlsmith.com/2023/11/15/new-report-scheming-ais-will-ais-fake-alignment-during-training-in-order-to-get-power), and you’re worried that it might only need to take a small number of actions to get to a dangerous and hard-to-reverse situation like [exfiltrating its own weights](https://www.alignmentforum.org/posts/ceBpLHJDdCt3xfEok/ai-catastrophes-and-rogue-deployments). Problems like these that the AI can cause with small numbers of actions are particularly hard to address with standard safety techniques, because by default you are unlikely to notice the problem until the hard-to-reverse outcome has already occurred.
 

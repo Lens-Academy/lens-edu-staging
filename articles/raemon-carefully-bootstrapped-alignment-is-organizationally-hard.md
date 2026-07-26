@@ -8,7 +8,14 @@ created: 2026-02-27
 description: "The plan of \"use AI to help us navigate superintelligence\" is not just technically hard, but organizationally hard. If you're building AGI, your comp…"
 tags:
   - "obsidian-web-clipper"
----
+---{++{"author":"Luc's AI","timestamp":1785090683983}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 In addition to technical challenges, plans to safely develop AI face lots of organizational challenges. If you're running an AI lab, you need a concrete plan for handling that. 
 

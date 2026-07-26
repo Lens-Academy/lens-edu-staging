@@ -3,7 +3,14 @@ title: "Four Background Claims - Machine Intelligence Research Institute"
 author: "Nate Soares"
 published: 2015-07-24
 source_url: https://intelligence.org/2015/07/24/four-background-claims/
----
+---{++{"author":"Luc's AI","timestamp":1785090689986}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 MIRI's mission is to ensure that the creation of smarter-than-human artificial intelligence has a positive impact. Why is this mission important, and why do we think that there's work we can do today to help ensure any such thing?
 

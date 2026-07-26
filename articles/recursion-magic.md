@@ -1,9 +1,20 @@
----
+
+author: Eliezer Yudkowsky
+: 2008-11-25
+source_url: https://www.lesswrong.com/posts/rJLviHqJMTy8WQkow/recursion-magic
+------
 title: "...Recursion, Magic"
 author: Eliezer Yudkowsky
 published: 2008-11-25
 source_url: https://www.lesswrong.com/posts/rJLviHqJMTy8WQkow/recursion-magic
----
+---{++{"author":"Luc's AI","timestamp":1785090683702}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 **Followup to**: [Cascades, Cycles, Insight...](https://www.lesswrong.com/lw/w5/cascades_cycles_insight)
 

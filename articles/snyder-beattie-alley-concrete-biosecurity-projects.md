@@ -14,7 +14,14 @@ tags:
   - existential-risk
   - cause-prioritization
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090689449}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 This is a list of longtermist biosecurity projects.  We think most of them could reduce [catastrophic biorisk](https://80000hours.org/problem-profiles/global-catastrophic-biological-risks/) by more than 1% or so on the current margin (in relative[^1] terms).  While we are confident there is important work to be done within each of these areas, our confidence in specific pathways varies widely and the particulars of each idea have not been investigated thoroughly.
 
