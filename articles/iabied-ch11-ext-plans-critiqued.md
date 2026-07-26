@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090674922}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### More on Making AI That Is "Truth-Seeking"
 
 In the months after we finalized the book's contents, Elon Musk's "truth-seeking" plan for xAI has already publicly misfired, and for the most basic reason we said that it would: Nobody knows how to engineer exact desires into AI.

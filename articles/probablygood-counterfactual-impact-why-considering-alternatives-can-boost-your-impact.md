@@ -9,14 +9,14 @@ accessed: 2026-07-18
 description: "Learn how to evaluate the additional benefits caused by your actions with counterfactual impact. Compare different decisions and their potential outcomes."
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090682334}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 **Counterfactual impact** is the difference you make by doing something versus what would have happened if you hadn’t done it. For example, if you help someone in need but simply replace someone else who would have done the same, your counterfactual impact is minimal because the person would have received help regardless.
 

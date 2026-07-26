@@ -14,14 +14,14 @@ tags:
   - global-poverty
   - progress
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090680116}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 # Global Health
 
