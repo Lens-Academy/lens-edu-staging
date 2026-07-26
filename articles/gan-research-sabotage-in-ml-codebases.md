@@ -9,14 +9,14 @@ accessed: 2026-07-02
 description: "One of the main hopes for AI safety is using AIs to automate AI safety research. However, if models are misaligned, then they may sabotage the safety research. For example, misaligned AIs may try to:"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090649123}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 One of the main hopes for AI safety is using AIs to [automate AI safety research](https://joecarlsmith.com/2025/03/14/ai-for-ai-safety/). However, if models are misaligned, then they may sabotage the safety research. For example, misaligned AIs may try to:
 

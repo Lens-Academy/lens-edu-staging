@@ -15,14 +15,14 @@ tags:
   - longtermism
   - decision-making
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090644021}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 # Crucial Consideration
 

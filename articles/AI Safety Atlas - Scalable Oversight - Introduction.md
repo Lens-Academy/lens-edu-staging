@@ -10,14 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090618251}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Scalable oversight is the challenge of ensuring AI systems remain aligned with human values even as they begin to perform tasks that surpass human expertise and our ability to provide feedback.
 

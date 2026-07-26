@@ -12,14 +12,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090612932}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Major powers have developed distinct regulatory philosophies— with some nations prioritizing rights, and others focusing on geopolitical competition or social control—creating a fragmented landscape that complicates global coordination.
 

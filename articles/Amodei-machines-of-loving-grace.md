@@ -6,14 +6,14 @@ published: 2024-10
 created: 2026-03-07
 description: "How AI Could Transform the World for the Better"
 tags:
----{++{"author":"Luc's AI","timestamp":1785090624327}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 How AI Could Transform the World for the Better
 
 I think and talk a lot about the risks of powerful AI. The company I’m the CEO of, Anthropic, does a lot of research on how to reduce these risks. Because of this, people sometimes draw the conclusion that I’m a pessimist or “doomer” who thinks AI will be mostly bad or dangerous. I don’t think that at all. In fact, one of my main reasons for focusing on risks is that they’re the only thing standing between us and what I see as a fundamentally positive future. **I think that most people are underestimating just how radical the upside of AI could be**, just as I think most people are underestimating how bad the risks could be.

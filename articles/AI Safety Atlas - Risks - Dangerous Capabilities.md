@@ -10,14 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090616110}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 AIs are already demonstrating dangerous capabilities like deception, situational awareness, and power-seeking. Such capabilities amplify potential harm from all sources—misuse, misalignment, and systemic.
 
