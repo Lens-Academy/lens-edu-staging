@@ -7,14 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090665405}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 #### In part because it's realistic.
 

@@ -10,14 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090622891}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 **The strategic landscape for ensuring AI safety is vast, complex, and rapidly evolving.** It spans a wide spectrum from controlling access to current models to prevent misuse, through intricate technical challenges in aligning AGI, to speculative geopolitical maneuvering and philosophical considerations regarding ASI.
 

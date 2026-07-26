@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090728585}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 #### If your AI plan requires that no one on the internet critique the plan, it's a bad plan.
 
