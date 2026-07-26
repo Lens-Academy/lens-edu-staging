@@ -20,6 +20,6 @@ Initial thoughts, 2026-07-26:
 
 I don't know, to me it seems nice that it points out that there are different camps?
 Okay so split this into two lenses:
- a
+a Lens explaining theories of victor
 
 %%
