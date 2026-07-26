@@ -9,7 +9,14 @@ created: 2026-03-02
 description: "Suppose you want to build a robot to achieve some real-world goal for you—a goal that requires the robot to learn for itself and figure out a lot of…"
 tags:
   - "obsidian-web-clipper"
----
+---{++{"author":"Luc's AI","timestamp":1785090649380}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Suppose you want to build a robot to achieve some real-world goal for you—a goal that requires the robot to learn for itself and figure out a lot of things that you don't already know.
 

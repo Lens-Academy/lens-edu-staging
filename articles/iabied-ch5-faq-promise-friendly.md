@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090657853}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 #### You can make it promise whatever you'd like. You can't make it keep its promises.
 
 It's true that, when an AI is still small and powerless, we have the ability to turn it off. And so you might think that there is a trade opportunity available, where we offer to make the AI smarter if and only if it would give humanity a bunch of nice things after it matures into a superintelligence.

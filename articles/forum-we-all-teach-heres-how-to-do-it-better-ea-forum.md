@@ -9,7 +9,14 @@ accessed: 2026-06-12
 description: "Applies self-determination theory and meta-analytic evidence from educational psychology to EA community building, arguing that supporting autonomy, competence, and relatedness—through active skill practice, value-aligned motivation, and avoiding guilt-based appeals—produces more engaged and sustainably motivated community members than passive knowledge transfer."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090648812}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 [_Epistemic status_](https://forum.effectivealtruism.org/posts/bbtvDJtb6YwwWtJm7/epistemic-status-an-explainer-and-some-thoughts)[^1]: _There's consistent meta-analytic evidence for the interventions and models presented here. Still, that research is only one piece of your_ [_evidence-based decision-making._](https://www.frontiersin.org/articles/10.3389/feduc.2020.583157/full) _I've been directive for brevity's sake. Use your judgement, adapt to the context, and let me know where you disagree in the comments._
 

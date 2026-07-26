@@ -9,7 +9,14 @@ accessed: 2026-07-02
 description: "Once AI can automate human labour, *physical* capabilities could grow explosively. Sufficiently advanced robotics could create a feedback loop where automated robot factories build more and better robot factories which build more and better robot factories. In this piece, we examine three stages of an **industrial explosion**: AI-directed human labour, fully automated physical labour, and nanotechnology. An industrial explosion would arise in a world which already has greatly increased cognitive capabilities, and could ultimately become extremely fast, with the amount of physical labour doubling in days."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090647685}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 21st May 2025
 

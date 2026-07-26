@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090653394}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### AIs won't run on a human sense of novelty.
 

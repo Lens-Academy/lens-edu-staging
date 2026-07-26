@@ -10,7 +10,14 @@ accessed: 2026-07-09
 description: "EDIT: Read a summary of this post on Twitter …"
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090649660}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 EDIT: [Read a summary of this post on Twitter](https://x.com/GeneSmi96946389/status/1892721828625264928)
 

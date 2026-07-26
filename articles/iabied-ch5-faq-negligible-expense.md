@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090656799}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### There are many negligible expenses, and it would need a reason to pay ours.
 

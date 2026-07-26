@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090655730}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### We're not sure. Our best guess is "probably not."
 

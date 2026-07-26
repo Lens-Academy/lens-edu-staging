@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090655945}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### Even laziness isn't safe.
 

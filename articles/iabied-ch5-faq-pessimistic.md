@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090657584}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### We're optimistic about many things, but superintelligence isn't like most things.
 
