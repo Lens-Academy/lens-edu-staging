@@ -18,5 +18,5 @@ Initial thoughts, 2026-07-26:
 - Strongest as a prompt for constructing and stress-testing an impact pathway.
 - The account of AI-safety strategy camps is opinionated and should not be used as a neutral overview without counter-material.
 
-I d
+I don't know, to me it seems nice that it points out that ther
 %%
