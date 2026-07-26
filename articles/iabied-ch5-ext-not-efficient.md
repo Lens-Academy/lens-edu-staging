@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090733235}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 We noted the [example](/5/taking-the-ais-perspective) of Jürgen Schmidhuber, a pioneering AI researcher who believed that an AI with preferences for *making things as simple as possible* would end up loving humans, because humans are such good simplifiers.
 

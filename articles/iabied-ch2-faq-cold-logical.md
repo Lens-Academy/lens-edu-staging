@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090706742}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### No.
 
 Just because AIs run on computers doesn't mean their thinking must share the qualities we associate with computers, any more than your thinking must share the qualities associated with biology and chemistry and neurotransmitters.
