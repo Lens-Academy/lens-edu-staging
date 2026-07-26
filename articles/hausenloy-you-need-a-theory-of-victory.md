@@ -92,18 +92,12 @@ Many people in many different organizations care about many different things, bu
 
 Perhaps there is a more specific vision of what a good future might look like, perhaps some form of Utopia (like Forethought’s [Viatopia](https://www.forethought.org/research/viatopia) or Nozick’s “ [Utopia of Utopias](https://en.wikipedia.org/wiki/Anarchy,_State,_and_Utopia) ” and Alexander Wales’ [lovely fictionalization of it](http://jason.ml/end)), but for this talk we’ll stick to the broadly agreeable things.
 
-[
-
 ![](https://substackcdn.com/image/fetch/$s_!wfAq!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5655b9f-5de4-422f-8368-d82a47e7d221_1184x658.png)
 ## Theories of Victory (ToVs)
 
 To achieve a good outcome, people normally advocate for “theories of change”, which tend to take the form: “here’s my best guess for a causal chain for my action X causes Y.” X is a well-defined action (start an organization, run this media campaign etc.), and Y is a broadly-accepted “good thing” (“increases awareness of AI risks” “increases the probability of rational decision-making”)
 
-[
-
 ![](https://substackcdn.com/image/fetch/$s_!Mpzc!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e11f93e-a63b-4d2b-8df2-74d412f1150d_1164x610.png)
-
-](https://substackcdn.com/image/fetch/$s_!Mpzc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e11f93e-a63b-4d2b-8df2-74d412f1150d_1164x610.png)
 
 This is, however, importantly distinct from a “Theory of Victory”, which I would understand as the full (causal) story of the steps that need to go right for us to “win” (where, borrowing the broadly-agreeable understanding of “win” from earlier -- we don’t die + the benefits of AI are broadly distributed.)
 
