@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090659651}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 In Chapter 6, we said that researchers have used the modern understanding of human visual processing and the visual cortex to come up with new optical illusions — illusions that could not have been produced fifty years ago, except by unlikely accident. Below, we cite a few representative examples.
 
 The "[curvature blindness](https://pmc.ncbi.nlm.nih.gov/articles/PMC5703117/)" illusion has some grounding in the general phenomenon of curve blindness, but this specific illusion was carefully constructed from first principles circa 2017, as opposed to being discovered by accident. ([Original study](https://journals.sagepub.com/doi/10.1177/2041669517742178))

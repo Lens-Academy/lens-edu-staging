@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090663295}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### Yes. But this doesn't mean that nothing is ever *actually* dangerous.
 

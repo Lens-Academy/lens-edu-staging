@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090659406}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 Human intelligence has given us many advantages over other species. One of the most consequential, however, has been our ability to invent new technologies. If developers race ahead and build smarter-than-human AI, then we can similarly expect a great deal of AI's power to come from its ability to advance scientific and technological frontiers. But what, concretely, does this look like? What not-yet-invented technologies are waiting for discovery?
 
 This is a hard question to answer in any generality. A scientist in 1850 would have a very hard time guessing many of the inventions of the next hundred years.

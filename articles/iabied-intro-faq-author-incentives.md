@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090662474}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### We don't expect to make any money from the book in the average case. Separately, we would love to be wrong about the book's thesis.
 

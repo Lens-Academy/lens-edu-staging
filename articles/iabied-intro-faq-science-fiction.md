@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090663596}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### We can't learn much from a topic's prevalence in fiction.
 

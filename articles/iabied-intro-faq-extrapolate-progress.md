@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090663027}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### We don't have a good enough understanding of intelligence for that.
 

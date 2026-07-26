@@ -8,7 +8,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090664108}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### Because the situation seems genuinely serious and urgent.
 

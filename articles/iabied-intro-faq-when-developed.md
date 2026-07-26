@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090663843}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### Knowing that a technology is coming doesn't grant knowledge of exactly when it's coming.
 

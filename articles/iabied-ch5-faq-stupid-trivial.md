@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090658825}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 #### AIs can intelligently pursue different things than a human would.
 
 It's not that the AI is stupid. It's that it's intelligently steering the world to a different place than *you* would steer it.
