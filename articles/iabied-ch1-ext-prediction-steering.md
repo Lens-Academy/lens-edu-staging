@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090665611}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 If you ask a wise physicist what an engine is, they might start by pointing at a rocket engine, a combustion engine, and a hamster wheel, and say, "Those are all engines," and then point at a rock and say, "But that is not."
 
 That would be a description by pointing out engines in the world, rather than by trying to give a verbal definition. If you pressed them for a verbal definition, they might tell you that an engine is anything that converts non-mechanical energy into mechanical energy, into motion.
