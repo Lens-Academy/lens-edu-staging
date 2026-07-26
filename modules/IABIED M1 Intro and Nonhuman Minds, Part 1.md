@@ -45,7 +45,7 @@ Don't save your questions and insights for the meeting day, post them into Disco
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/00 - Introduction - Hard Calls and Easy Calls]]
 
 # Learning Outcome: IABIED - Hard Calls and Easy Calls
-source:: ![[../Learning Outcomes/Distinguish Hard Calls from Easy Calls]]
+source:: ![[../Learning Outcomes/Hard calls vs. easy calls]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - PQ - Hard Calls and Easy Calls]]

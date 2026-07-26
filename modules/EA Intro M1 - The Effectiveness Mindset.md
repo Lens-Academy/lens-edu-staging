@@ -45,7 +45,7 @@ source:: ![[../Lenses/EA Intro - Scope Insensitivity]]
 # Submodule: On scout mindset and thinking clearly
 
 # Learning Outcome: EA Intro - Distinguish Scout Mindset from Soldier Mindset
-source:: ![[../Learning Outcomes/EA Intro - Distinguish Scout Mindset from Soldier Mindset]]
+source:: ![[../Learning Outcomes/Scout mindset vs. soldier mindset]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Scout Mindset (Julia Galef)]]
@@ -59,7 +59,7 @@ source:: ![[../Lenses/EA Intro - Purchase Fuzzies and Utilons Separately]]
 # Submodule: On tradeoffs
 
 # Learning Outcome: EA Intro - Apply Triage Thinking to Giving Decisions
-source:: ![[../Learning Outcomes/EA Intro - Apply Triage Thinking to Giving Decisions]]
+source:: ![[../Learning Outcomes/Triage thinking in giving]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - We Are in Triage Every Second of Every Day]]

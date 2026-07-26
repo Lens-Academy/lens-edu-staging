@@ -19,7 +19,7 @@ source:: ![[../Lenses/EA Intro - What Do You Think Introduction]]
 # Submodule: Bayes' rule and evidence
 
 # Learning Outcome: EA Intro - Apply Bayes Rule to Update Beliefs
-source:: ![[../Learning Outcomes/EA Intro - Apply Bayes Rule to Update Beliefs]]
+source:: ![[../Learning Outcomes/Bayesian updating]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Bayes Rule Guide]]
@@ -55,7 +55,7 @@ source:: ![[../Lenses/EA Intro - EA Is About Maximization and Maximization Is Pe
 # Submodule: Less common causes
 
 # Learning Outcome: EA Intro - Enumerate Less Common Cause Candidates
-source:: ![[../Learning Outcomes/EA Intro - Enumerate Less Common Cause Candidates]]
+source:: ![[../Learning Outcomes/Less common cause candidates]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Big List of Cause Candidates]]

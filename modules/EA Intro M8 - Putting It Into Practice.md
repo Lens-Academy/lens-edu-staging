@@ -30,7 +30,7 @@ source:: ![[../Lenses/EA Intro - Effective Altruism as the Most Exciting Cause]]
 # Submodule: Career choice
 
 # Learning Outcome: EA Intro - Apply EA Principles to Career Choice
-source:: ![[../Learning Outcomes/EA Intro - Apply EA Principles to Career Choice]]
+source:: ![[../Learning Outcomes/EA principles in career choice]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Summary of 80000 Hours Key Ideas]]

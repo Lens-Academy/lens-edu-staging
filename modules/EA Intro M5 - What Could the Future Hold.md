@@ -20,7 +20,7 @@ source:: ![[../Lenses/EA Intro - What Could the Future Hold Introduction]]
 # Submodule: The case for and against longtermism
 
 # Learning Outcome: EA Intro - Articulate the Case For and Against Longtermism
-source:: ![[../Learning Outcomes/EA Intro - Articulate the Case For and Against Longtermism]]
+source:: ![[../Learning Outcomes/The case for and against longtermism]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - What Could the Future Hold Introduction]]
@@ -45,7 +45,7 @@ source:: ![[../Lenses/EA Intro - This Can't Go On]]
 # Submodule: To what extent can we predict the future? How?
 
 # Learning Outcome: EA Intro - Apply Superforecasting Techniques
-source:: ![[../Learning Outcomes/EA Intro - Apply Superforecasting Techniques]]
+source:: ![[../Learning Outcomes/Superforecasting techniques]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Superforecasting in a Nutshell]]
@@ -53,10 +53,10 @@ source:: ![[../Lenses/EA Intro - Superforecasting in a Nutshell]]
 # Submodule: What might the future look like?
 
 # Learning Outcome: EA Intro - Describe What a Positive Long-Term Future Looks Like
-source:: ![[../Learning Outcomes/EA Intro - Describe What a Positive Long-Term Future Looks Like]]
+source:: ![[../Learning Outcomes/Positive long-term futures]]
 
 # Learning Outcome: EA Intro - Evaluate Longtermism's Implications for Animal Advocacy
-source:: ![[../Learning Outcomes/EA Intro - Evaluate Longtermism's Implications for Animal Advocacy]]
+source:: ![[../Learning Outcomes/Longtermism and animal advocacy]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Top Open Metaculus Forecasts]]

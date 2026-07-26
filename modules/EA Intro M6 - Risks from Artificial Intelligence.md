@@ -27,7 +27,7 @@ source:: ![[../Lenses/EA Intro - How AI Could Create the Biggest Problems]]
 # Submodule: Strategies for reducing risks from unaligned artificial intelligence
 
 # Learning Outcome: EA Intro - Describe the AI Governance Landscape
-source:: ![[../Learning Outcomes/EA Intro - Describe the AI Governance Landscape]]
+source:: ![[../Learning Outcomes/The AI governance landscape]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - The Longtermist AI Governance Landscape]]

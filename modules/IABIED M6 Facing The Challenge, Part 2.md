@@ -65,10 +65,10 @@ source:: ![[../Lenses/IABIED - How Did It Go]]
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/13 - Chapter 12 - I Don't Want to Be Alarmist]]
 
 ## Learning Outcome: IABIED - The One-Chance Problem
-source:: [[../Learning Outcomes/The One-Chance Problem]]
+source:: [[../Learning Outcomes/The one-chance problem]]
 
 ## Learning Outcome: IABIED - Ladder in the Dark
-source:: [[../Learning Outcomes/Ladder in the Dark]]
+source:: [[../Learning Outcomes/The ladder in the dark]]
 
 ## Lens:
 source:: [[../Lenses/IABIED - The One-Chance Problem - PQ]]
@@ -188,10 +188,10 @@ source:: ![[../Lenses/IABIED - QA - Isn't AI Different from Nuclear Reactors]]
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/14 - Chapter 13 - Shut It Down]]
 
 ## Learning Outcome: IABIED - The WWII Analogy
-source:: [[../Learning Outcomes/The WWII Analogy]]
+source:: [[../Learning Outcomes/The WWII analogy]]
 
 ## Learning Outcome: IABIED - Coalition Strategy
-source:: [[../Learning Outcomes/Coalition Strategy]]
+source:: [[../Learning Outcomes/Narrow coalition strategy]]
 
 ## Lens:
 source:: [[../Lenses/IABIED - The WWII Analogy - PQ]]
@@ -331,10 +331,10 @@ source:: ![[../Lenses/IABIED - QA - Keep the Coalition Large]]
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/15 - Chapter 14 - Where There's Life, There's Hope]]
 
 ## Learning Outcome: IABIED - Un-Writing Our Fate
-source:: [[../Learning Outcomes/Un-Writing Our Fate]]
+source:: [[../Learning Outcomes/Un-writing our fate]]
 
 ## Learning Outcome: IABIED - Role-Specific Action
-source:: [[../Learning Outcomes/Role-Specific Action]]
+source:: [[../Learning Outcomes/Role-specific action]]
 
 ## Lens:
 source:: [[../Lenses/IABIED - Un-Writing Our Fate - PQ]]
@@ -351,7 +351,7 @@ source:: [[../Lenses/IABIED - Role-Specific Action]]
 # Submodule: Closing Words
 
 ## Learning Outcome: IABIED - The Two Prayers
-source:: [[../Learning Outcomes/The Two Prayers]]
+source:: [[../Learning Outcomes/The two prayers]]
 
 ## Lens:
 source:: [[../Lenses/IABIED - The Two Prayers - PQ]]

@@ -8,7 +8,7 @@ tags:
 
 # Submodule: Listen First
 # Learning Outcome: Talk About AI - Explain Listening Before Persuasion
-source:: ![[../Learning Outcomes/Talk About AI - Explain Listening Before Persuasion]]
+source:: ![[../Learning Outcomes/Listening before persuasion]]
 
 # Lens:
 source:: ![[../Lenses/Talk About AI - Listen First]]

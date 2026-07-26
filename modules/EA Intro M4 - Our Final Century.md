@@ -27,7 +27,7 @@ source:: ![[../Lenses/EA Intro - The Case for Reducing Existential Risk]]
 # Submodule: Risks from pandemics
 
 # Learning Outcome: EA Intro - Evaluate Pandemic Risk
-source:: ![[../Learning Outcomes/EA Intro - Evaluate Pandemic Risk]]
+source:: ![[../Learning Outcomes/Pandemic risk]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Preventing Catastrophic Pandemics]]
@@ -43,7 +43,7 @@ source:: ![[../Lenses/EA Intro - Concrete Biosecurity Projects]]
 # Submodule: Expected value & Hits-based giving
 
 # Learning Outcome: EA Intro - Apply Expected Value Reasoning
-source:: ![[../Learning Outcomes/EA Intro - Apply Expected Value Reasoning]]
+source:: ![[../Learning Outcomes/Expected-value reasoning]]
 
 # Learning Outcome: EA Intro - Explain Hits-Based Giving
 source:: ![[../Learning Outcomes/EA Intro - Explain Hits-Based Giving]]

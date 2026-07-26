@@ -22,13 +22,13 @@ source:: ![[../Lenses/EA Intro - Radical Empathy Introduction]]
 source:: ![[../Learning Outcomes/EA Intro - Explain Impartiality and Radical Empathy]]
 
 # Learning Outcome: EA Intro - Describe Moral Progress and Cause X
-source:: ![[../Learning Outcomes/EA Intro - Describe Moral Progress and Cause X]]
+source:: ![[../Learning Outcomes/Moral progress and Cause X]]
 
 # Learning Outcome: EA Intro - Evaluate the Possibility of Ongoing Moral Catastrophes
 source:: ![[../Learning Outcomes/EA Intro - Evaluate the Possibility of Ongoing Moral Catastrophes]]
 
 # Learning Outcome: EA Intro - Apply the Case for Animal Moral Consideration
-source:: ![[../Learning Outcomes/EA Intro - Apply the Case for Animal Moral Consideration]]
+source:: ![[../Learning Outcomes/Animal moral consideration]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Radical Empathy (Karnofsky)]]
