@@ -12,14 +12,14 @@ tags:
   - "article-importer"
 ---
 
-{++{"author":"Luc's AI","timestamp":1785073547056}@@%%
+%%
 Add discussion note here:
 
 ...
 
 %%
 
-++}We need to be able to predict progress in capabilities to assess and prepare for risks. Data driven analysis can help us forecast potential scenarios, and reason about different possible futures.
+We need to be able to predict progress in capabilities to assess and prepare for risks. Data driven analysis can help us forecast potential scenarios, and reason about different possible futures.
 
 ---
 

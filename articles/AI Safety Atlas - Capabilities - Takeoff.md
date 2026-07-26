@@ -12,14 +12,14 @@ tags:
   - "article-importer"
 ---
 
-{++{"author":"Luc's AI","timestamp":1785073559734}@@%%
+%%
 Add discussion note here:
 
 ...
 
 %%
 
-++}AI might change the world gradually over decades or transform it explosively in months. This dramatically changes which safety strategies are even possible.
+AI might change the world gradually over decades or transform it explosively in months. This dramatically changes which safety strategies are even possible.
 
 ---
 

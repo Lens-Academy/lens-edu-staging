@@ -15,14 +15,14 @@ tags:
   - "article-importer"
 ---
 
-{++{"author":"Luc's AI","timestamp":1785073574027}@@%%
+%%
 Add discussion note here:
 
 ...
 
 %%
 
-++}15 tcb@breakable
+15 tcb@breakable
 
 ###### Abstract
 

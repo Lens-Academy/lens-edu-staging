@@ -12,14 +12,14 @@ tags:
   - "article-importer"
 ---
 
-{++{"author":"Luc's AI","timestamp":1785073545661}@@%%
+%%
 Add discussion note here:
 
 ...
 
 %%
 
-++}Leading AI researchers and technologists express significant concern about existential risks and short timelines, highlighting a growing consensus on the urgency of safety work despite uncertainty about specific outcomes.
+Leading AI researchers and technologists express significant concern about existential risks and short timelines, highlighting a growing consensus on the urgency of safety work despite uncertainty about specific outcomes.
 
 ---
 

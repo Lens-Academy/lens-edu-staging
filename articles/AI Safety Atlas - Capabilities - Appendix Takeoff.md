@@ -12,14 +12,14 @@ tags:
   - "article-importer"
 ---
 
-{++{"author":"Luc's AI","timestamp":1785073546290}@@%%
+%%
 Add discussion note here:
 
 ...
 
 %%
 
-++}The trajectory of advanced AI is also defined by whether progress is smooth or discontinuous, whether systems are similar or diverse, and whether power is concentrated in single actors or broadly distributed.
+The trajectory of advanced AI is also defined by whether progress is smooth or discontinuous, whether systems are similar or diverse, and whether power is concentrated in single actors or broadly distributed.
 
 ---
 

@@ -8,14 +8,14 @@ description:
 tags:
 ---
 
-{++{"author":"Luc's AI","timestamp":1785073574304}@@%%
+%%
 Add discussion note here:
 
 ...
 
 %%
 
-++}## 1960: The Year The Sin­gu­lar­ity Was Can­celled
+## 1960: The Year The Sin­gu­lar­ity Was Can­celled
 
 April 22, 2019
 

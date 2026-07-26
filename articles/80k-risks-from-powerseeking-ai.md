@@ -10,14 +10,14 @@ description: "Why do we think that reducing risks from AI is one of the most pre
 tags:
 ---
 
-{++{"author":"Luc's AI","timestamp":1785073575088}@@%%
+%%
 Add discussion note here:
 
 ...
 
 %%
 
-++}![](https://80000hours.org/wp-content/uploads/2022/08/panels-photo-1800x1030.jpg)
+![](https://80000hours.org/wp-content/uploads/2022/08/panels-photo-1800x1030.jpg)
 
 In early 2023, an AI found itself in an awkward position. It needed to solve a CAPTCHA — a visual puzzle meant to block bots — but it couldn’t. So it hired a human worker through the service Taskrabbit to solve CAPTCHAs when the AI got stuck.
 

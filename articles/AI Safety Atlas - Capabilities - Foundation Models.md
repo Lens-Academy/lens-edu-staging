@@ -12,14 +12,14 @@ tags:
   - "article-importer"
 ---
 
-{++{"author":"Luc's AI","timestamp":1785073547312}@@%%
+%%
 Add discussion note here:
 
 ...
 
 %%
 
-++}We have seen a paradigm shift from narrow AI to adaptable general-purpose systems pre-trained on massive data. This paradigm introduces new unique safety challenges.
+We have seen a paradigm shift from narrow AI to adaptable general-purpose systems pre-trained on massive data. This paradigm introduces new unique safety challenges.
 
 ---
 
