@@ -9,14 +9,14 @@ accessed: 2026-07-18
 description: "Use the concept of comparative advantage to leverage your unique strengths and skills to make the biggest impact, whatever role you're in."
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090682079}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Your **comparative advantage** refers to the extra advantage you have in a particular role in relation to the skills and strengths of others who could do the job. Playing to your comparative advantage can help you to maximize your [counterfactual impact](https://probablygood.org/core-concepts/counterfactual-impact/), even if (perhaps surprisingly) it isn’t the role you are best at or most qualified for.
 

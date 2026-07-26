@@ -9,14 +9,14 @@ accessed: 2026-06-16
 description: "Eliezer Yudkowsky presents 43 numbered arguments explaining why, given current techniques and trajectories, humanity is not on course to build aligned AGI and why failure is likely to be fatal."
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090673085}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 ## Preamble
 

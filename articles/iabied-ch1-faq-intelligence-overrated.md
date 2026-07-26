@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090669051}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### Only if you're using an overly narrow definition of "intelligence."
 
 We sometimes run into claims like: "Intelligence isn't all there is to success! Many of the most successful humans are charismatic politicians, CEOs, or pop stars! Nerds are better at some things, but they don't run the world."

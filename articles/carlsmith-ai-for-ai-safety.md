@@ -8,16 +8,16 @@ created: 2026-02-27
 description: "We should try extremely hard to use AI labor to help address the alignment problem."
 tags:
   - "obsidian-web-clipper"
----{++{"author":"Luc's AI","timestamp":1785090668040}@@
+---
 
-%%++}
-{++{"author":"Luc's AI","timestamp":1785090668040}@@Add discussion note here:
+%%
+Add discussion note here:
 
 ...
 
 %%
 
-++}*(Audio version* [*here*](https://joecarlsmithaudio.buzzsprout.com/2034731/episodes/16790183-ai-for-ai-safety) *(read by the author), or search for "Joe Carlsmith Audio" on your podcast app.* 
+*(Audio version* [*here*](https://joecarlsmithaudio.buzzsprout.com/2034731/episodes/16790183-ai-for-ai-safety) *(read by the author), or search for "Joe Carlsmith Audio" on your podcast app.* 
 
 *This is the fourth essay in a series that I’m calling “How do we solve the alignment problem?”. I’m hoping that the individual essays can be read fairly well on their own, but see* [*this introduction*](https://joecarlsmith.substack.com/p/how-do-we-solve-the-alignment-problem) *for a summary of the essays that have been released thus far, and for a bit more about the series as a whole.)*
 

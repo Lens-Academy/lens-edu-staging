@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090668765}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### Yes. There's a real phenomenon to describe, even if it's difficult to pin down.
 
 Over the last thirty years, seventy-seven Nobel Prizes in Chemistry have been awarded to humans, and zero to chimpanzees. An alien, on hearing about this fact for the first time, might wonder if the Nobel Committee is biased. But no, there really is *something going on* with humans that sets us apart from chimpanzees.

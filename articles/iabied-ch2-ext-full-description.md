@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090704527}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### How Llama 3.1 405B Works
 
 In the book, we promised a fuller description of an LLM called Llama 3.1 405B. We present that description below. It's here for the curious, and for the purpose of really understanding the degree to which modern AIs are grown rather than crafted. (See also: [What good does knowledge of LLMs do?](/2/what-good-does-knowledge-of-llms-do))

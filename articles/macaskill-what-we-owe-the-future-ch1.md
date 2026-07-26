@@ -15,14 +15,14 @@ tags:
   - existential-risk
   - moral-philosophy
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090674501}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 # What We Owe the Future, Chapter 1
 

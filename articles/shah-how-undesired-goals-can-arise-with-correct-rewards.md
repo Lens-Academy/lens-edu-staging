@@ -12,14 +12,14 @@ accessed: 2026-06-21
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090686299}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Exploring examples of goal misgeneralisation – where an AI system's capabilities generalise but its goal doesn't
 
