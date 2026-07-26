@@ -7,14 +7,14 @@ created: 2026-03-07
 description: "A plea from the future to present-day humanity."
 tags:
 
----{++{"author":"Luc's AI","timestamp":1785090633191}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 (2008) Nick Bostrom
 
 Version: 3.3 (2020)  

@@ -10,14 +10,14 @@ description: "A pdf version of this report is available here. …"
 read-time: "68 minutes"
 tags:
   - "obsidian-web-clipper"
----{++{"author":"Luc's AI","timestamp":1785090628572}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 by [Jeremy Gillen](https://www.lesswrong.com/users/jeremy-gillen?from=post_header), [peterbarnett](https://www.lesswrong.com/users/peterbarnett?from=post_header) | 26th Jan 2024 | [Review by Jeremy Gillen](https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/#ebYbeASupnTdb9vAx) | [Review by plex ](https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/#BnWtd2ARfuYXfdf2t)
 
 A pdf version of this report is available [here](https://intelligence.org/wp-content/uploads/2024/02/Misalignment_and_Catastrophe.pdf).

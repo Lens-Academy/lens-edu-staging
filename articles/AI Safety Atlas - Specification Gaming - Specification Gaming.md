@@ -10,14 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090619908}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 We can never write down perfectly what we want an AI to do, smart AIs often find loopholes in our instructions, doing exactly what we ask but not what we mean.
 
