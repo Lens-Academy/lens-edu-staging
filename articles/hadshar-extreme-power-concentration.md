@@ -12,7 +12,7 @@ tags:
 ---
 
 %%
-I think this article is a decent overivew. 
+I think this article is a decent overivew. I don't necessarily want to spend a ton of attention on power concentration in our courses, but I think it's good to give our participants an idea that it exists. I think this is a good summary. I also spoke to somebody at Constellation who is working full time on power concentration, and they stated that they were one of only about 10 to 20 people working on this full time. He thought that this article was a very good starting point.
 %%
 ## Why might AI-enabled power concentration be a pressing problem?
 
