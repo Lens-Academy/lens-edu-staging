@@ -95,9 +95,6 @@ Perhaps there is a more specific vision of what a good future might look like, p
 [
 
 ![](https://substackcdn.com/image/fetch/$s_!wfAq!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5655b9f-5de4-422f-8368-d82a47e7d221_1184x658.png)
-
-](https://substackcdn.com/image/fetch/$s_!wfAq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5655b9f-5de4-422f-8368-d82a47e7d221_1184x658.png)
-
 ## Theories of Victory (ToVs)
 
 To achieve a good outcome, people normally advocate for “theories of change”, which tend to take the form: “here’s my best guess for a causal chain for my action X causes Y.” X is a well-defined action (start an organization, run this media campaign etc.), and Y is a broadly-accepted “good thing” (“increases awareness of AI risks” “increases the probability of rational decision-making”)
