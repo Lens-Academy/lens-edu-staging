@@ -9,7 +9,14 @@ accessed: 2026-07-02
 description: "Fitness-seeking is increasingly what misalignment looks like in practice—how should we respond?"
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090674810}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 [Current AIs routinely take unintended actions](https://www.lesswrong.com/posts/WewsByywWNhX9rtwi/current-ais-seem-pretty-misaligned-to-me) to score well on tasks: hardcoding test cases, training on the test set, downplaying issues, etc. This misalignment is still somewhat incoherent, but it increasingly resembles what I call “ [fitness-seeking](https://www.lesswrong.com/posts/bhtYqD4FdK6AqhFDF/fitness-seekers-generalizing-the-reward-seeking-threat-model) “—a family of misaligned motivations centered on performing well in training and evaluations (e.g., [reward-seeking](https://arxiv.org/pdf/2311.08379#page=45.86)). Fitness-seeking warrants substantial concern.
 

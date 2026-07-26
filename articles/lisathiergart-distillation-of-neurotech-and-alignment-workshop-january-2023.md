@@ -10,7 +10,14 @@ accessed: 2026-07-09
 description: "Disclaimer: This post is preliminary and doesn't yet fully align with the rigorous standards we typically aim for in LessWrong publications. It recap…"
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090674217}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 **Disclaimer:** This post is preliminary and doesn't yet fully align with the rigorous standards we typically aim for in LessWrong publications. It recaps the dynamic discussions from the neurotech for AI alignment workshop and therefore does not necessarily represent any single participant’s or author’s viewpoint. Shared ahead of the Foresight WBE workshop, our intent is to foster enriching discussion among participants. We welcome your input as we continue refining these insights. 
 

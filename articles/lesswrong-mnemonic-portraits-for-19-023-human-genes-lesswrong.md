@@ -9,7 +9,14 @@ accessed: 2026-06-12
 description: "A project that assigns memorable visual character designs to all 19,023 human protein-coding genes by mapping protein properties (transmembrane status, mass, discovery year, Pfam clan, mutation tolerance, expression specificity) to character traits, accompanied by a browser extension called Iconoplasm that displays gene character cards on hover."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090673624}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Back in 2013, Scott Alexander wrote in [Extreme mnemonics](https://slatestarcodex.com/2013/08/14/extreme-mnemonics/):
 

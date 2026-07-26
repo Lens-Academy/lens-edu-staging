@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090673247}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 #### The difficulty isn't just the lack of time; it's the lethality of mistakes.
 
 "How long would it take?" is a [hard call](/2/obvious-insights-take-time), in part because it's somewhat missing the point. If researchers are tackling a problem in an unproductive way, they can potentially stay "stuck" indefinitely, even if the problem could in principle be solved quickly. It's hard to say today what it would look like to get "un-stuck" and make reliable progress on the problem, but it looks like it would require a pretty radical change in how science and engineering is usually done.

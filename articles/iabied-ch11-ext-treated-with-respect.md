@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090675655}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 AI companies are facing an extraordinarily difficult problem, in a situation where everyone's lives are at stake. Are they at least treating the situation with the gravity it merits?
 
 We can contrast the AI companies with a group of people who *are* competently managing the risks under their purview: air traffic controllers.

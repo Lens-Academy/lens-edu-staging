@@ -12,7 +12,14 @@ tags:
   - forecasting
   - metaculus
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090675398}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 # Top open Metaculus forecasts
 

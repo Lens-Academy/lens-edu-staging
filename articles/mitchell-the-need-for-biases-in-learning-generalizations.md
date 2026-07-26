@@ -9,7 +9,14 @@ accessed: 2026-06-21
 description: "Mitchell defines the notion of bias in generalization problems, shows that biases are necessary for the inductive leap from training instances to new situations, and considers classes of justifiable biases and their relationship to domain-independence."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090676421}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 ## 1. Introduction
 
 Learning involves the ability to generalize from past experience in order to deal with new situations that are "related to" this experience. The inductive leap needed to deal with new situations seems to be possible only under certain biases for choosing one generalization of the situation over another. This paper defines precisely the notion of bias in generalization problems, then shows that biases are necessary for the inductive leap. Classes of justifiable biases are considered, and the relationship between bias and domain-independence is considered.

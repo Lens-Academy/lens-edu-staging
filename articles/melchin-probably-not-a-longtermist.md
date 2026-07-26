@@ -15,7 +15,14 @@ tags:
   - cause-prioritization
   - population-ethics
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090675089}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 # Why I Am Probably Not a Longtermist
 

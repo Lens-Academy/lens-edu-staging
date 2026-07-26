@@ -3,7 +3,14 @@ title: "Intelligence Explosion: Evidence and Import"
 author: Luke Muehlhauser, Anna Salamon
 source_url: https://intelligence.org/files/IE-EI.pdf
 published: 2012
----
+---{++{"author":"Luc's AI","timestamp":1785090676736}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 ## Abstract
 

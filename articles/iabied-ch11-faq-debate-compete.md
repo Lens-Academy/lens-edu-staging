@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090676543}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 #### If the AIs get smart enough to matter, they likely collude.
 
 Imagine a city of sociopaths ostensibly governed by a few children, where the sociopaths all start out divided into factions that are fighting each other (to the benefit of the children). That sort of situation probably couldn't stay stable for long.

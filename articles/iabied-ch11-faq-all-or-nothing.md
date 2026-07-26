@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090676231}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 #### No. But "partial alignment" is still likely to be catastrophic.
 
 One of the arguments for worrying less about superintelligence runs along the lines of: "AI will probably advance incrementally, allowing opportunities for trial-and-error improvements to keep AIs in check at every step; alignment doesn't have to be *perfect* for things to go okay." We don't think this view holds much hope, for a few reasons:

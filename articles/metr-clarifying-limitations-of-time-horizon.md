@@ -9,7 +9,14 @@ accessed: 2026-07-02
 description: "Thomas Kwa responds to some misinterpretations of our time horizon work, and explains limitations and the core finding."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090675844}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 In the 9 months since the METR time horizon paper (during which AI time horizons have increased by ~6x), it’s generated lots of attention as well [as](https://www.lesswrong.com/posts/5CGNxadG3JRbGfGfg/notes-on-the-long-tasks-metr-paper-from-a-hcast-task) [various](https://www.lesswrong.com/posts/2RwDgMXo6nh42egoC/how-to-game-the-metr-plot) [criticisms](https://arachnemag.substack.com/p/the-metr-graph-is-hot-garbage). As one of the main authors, I often see various misinterpretations of our work. While I still believe in the core results, I believe that many people to some extent both overstate the precision of our time horizon measurements and draw conclusions I don’t think the evidence fully supports.
 

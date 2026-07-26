@@ -13,7 +13,14 @@ tags:
   - moral-philosophy
   - cause-prioritization
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090673956}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 This is a linkpost for [https://docs.google.com/document/d/18ZzC-WkDcWK-WPlIzKvDv83j8aBwSfdOxnZRmoio-zE/edit?usp=sharing](https://docs.google.com/document/d/18ZzC-WkDcWK-WPlIzKvDv83j8aBwSfdOxnZRmoio-zE/edit?usp=sharing)
 

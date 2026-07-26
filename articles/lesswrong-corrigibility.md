@@ -9,7 +9,14 @@ accessed: 2026-06-21
 description: "A 'corrigible' agent is one that doesn't interfere with what we would intuitively see as attempts to 'correct' the agent, or 'correct' our mistakes in building it; and permits these 'corrections' despite the apparent instrumentally convergent reasoning saying otherwise.  * If we try to suspend the AI to disk, or shut it down entirely, a corrigible AI will let us do so. (Even though, if suspended, the AI will then be unable to fulfill what would usually be its goals.)  * If we try to reprogram the AI's utility function or meta-utility function, a corrigible AI will allow this modification to go through. (Rather than, e.g., fooling us into believing the utility function was modified successfully, while the AI actually keeps its original utility function as obscured functionality; as we would expect by default to be a preferred outcome according to the AI's current preferences.) More abstractly:  * A corrigible agent experiences no preference or instrumental pressure to interfere with attempts by the programmers or operators to modify the agent, impede its operation, or halt its execution.  * A corrigible agent does not attempt to manipulate or deceive its operators, especially with respect to properties of the agent that might otherwise cause its operators to modify it.  * A corrigible agent does not try to obscure its thought processes from its programmers or operators.  * A corrigible agent is motivated to preserve the corrigibility of the larger system if that agent self-modifies, constructs sub-agents in the environment, or offloads part of its cognitive processing to external systems; or alternatively, the agent has no preference to execute any of those general activities. A stronger form of corrigibility would require the AI to positively cooperate or assist, such that the AI would rebuild the shutdown button if it were destroyed, or experience a positive preference not to self-modify if self-modification could lead to incorrigibility. But this is not part o"
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090673338}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 A 'corrigible' agent is one that [doesn't interfere](https://www.lesswrong.com/w/non-adversarial-principle) with what [we](https://www.lesswrong.com/w/programmer) would intuitively see as attempts to 'correct' the agent, or 'correct' our mistakes in building it; and permits these 'corrections' despite the apparent [instrumentally convergent reasoning](https://www.lesswrong.com/w/instrumental-convergence) saying otherwise.
 
