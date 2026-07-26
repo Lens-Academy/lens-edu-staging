@@ -9,14 +9,14 @@ accessed: 2026-07-02
 description: "In my experience, AIs often oversell their work, downplay problems, and cheat"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090635924}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Many people—especially AI company employees [^1] —believe current AI systems are well-aligned in the sense of genuinely trying to do what they’re supposed to do (e.g., following their spec or constitution, obeying a reasonable interpretation of instructions).[^2] I disagree.
 
