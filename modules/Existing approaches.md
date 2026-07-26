@@ -6,7 +6,7 @@ discussion: https://discordapp.com/channels/1440725236843806762/1470760399438614
 ---
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Arguments for and against different agendas]]
+source:: [[../Learning Outcomes/Comparing alignment research agendas]]
 
 # Submodule: Welcome
 ## Lens: Welcome

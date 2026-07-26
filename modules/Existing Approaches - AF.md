@@ -5,7 +5,7 @@ title: "Existing Approaches: Agent Foundations"
 ---
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Agent Foundations agenda]]
+source:: [[../Learning Outcomes/Introduction to Agent Foundations]]
 
 # Lens: Welcome
 id:: c24350d1-737f-4e7b-93fb-2ca85cbe0295

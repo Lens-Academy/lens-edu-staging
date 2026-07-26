@@ -12,13 +12,13 @@ source:: [[../Learning Outcomes/Intelligence as a universal adaptive strategy]]
 source:: [[../Learning Outcomes/Understand the processing speed advantage]]
 
 # Learning Outcome:
-source:: ![[../Learning Outcomes/Cite examples of AI manipulation]]
+source:: ![[../Learning Outcomes/AI social manipulation]]
 
 # Learning Outcome:
-source:: ![[../Learning Outcomes/Comply or else]]
+source:: ![[../Learning Outcomes/AI threats and rigid commitments]]
 
 # Learning Outcome:
-source:: ![[../Learning Outcomes/Enumerate n competitive advantages machines have over humans]]
+source:: ![[../Learning Outcomes/Machine advantages over humans]]
 
 # Lens: Welcome
 id:: 1e8bd017-944e-442f-b12c-5a168b0244f0

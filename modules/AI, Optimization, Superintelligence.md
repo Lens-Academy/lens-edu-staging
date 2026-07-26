@@ -5,7 +5,7 @@ title: AI, Optimization, Superintelligence
 ---
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Define intelligence as efficient cross-domain optimization]]
+source:: [[../Learning Outcomes/Intelligence as cross-domain optimization]]
 
 # Learning Outcome:
 source:: ![[../Learning Outcomes/Feedback cycles create discontinuity]]

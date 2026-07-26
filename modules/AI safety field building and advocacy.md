@@ -8,13 +8,13 @@ title: AI safety field building and advocacy
 source:: [[../Learning Outcomes/Explain the case for AI safety field-building]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Compare AI safety field-building strategies]]
+source:: [[../Learning Outcomes/Field-building strategies]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Assess AI safety advocacy and public communication]]
+source:: [[../Learning Outcomes/AI safety advocacy and public communication]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Evaluate the case against a broad AI safety movement]]
+source:: [[../Learning Outcomes/The case against a broad movement]]
 
 # Lens: Welcome
 id:: 958043bc-f443-4d3a-8cb3-eeba802344e1

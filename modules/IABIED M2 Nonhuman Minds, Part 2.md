@@ -46,7 +46,7 @@ Ask what they found surprising or new. Check if they can explain the ice cream a
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/03 - Chapter 3 - Learning to Want]]
 
 # Learning Outcome: Explain Wanting Emerges from Training
-source:: ![[../Learning Outcomes/Explain Wanting Emerges from Training]]
+source:: ![[../Learning Outcomes/Wanting emerges from training]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - Wanting Emerges from Training - PQ]]
@@ -113,7 +113,7 @@ source:: ![[../Lenses/IABIED - QA - Smart AIs Spot Lies]]
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/04 - Chapter 4 - You Don't Get What You Train For]]
 
 # Learning Outcome: Explain You Don't Get What You Train For
-source:: ![[../Learning Outcomes/Explain You Don't Get What You Train For]]
+source:: ![[../Learning Outcomes/You don't get what you train for]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - You Don't Get What You Train For - PQ]]

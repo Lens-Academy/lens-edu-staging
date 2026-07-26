@@ -127,7 +127,7 @@ add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 
 source:: ![[../Learning Outcomes/Intelligence as prediction plus steering]]
 
 # Learning Outcome: IABIED - Intelligence Is Direction-Agnostic
-source:: ![[../Learning Outcomes/Explain Intelligence Is Direction-Agnostic]]
+source:: ![[../Learning Outcomes/Intelligence is direction-agnostic]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - Define Intelligence - PQ]]
@@ -272,7 +272,7 @@ source:: ![[../Lenses/IABIED - QA - Same Work Different Ways]]
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/02 - Chapter 2 - Grown, Not Crafted]]
 
 # Learning Outcome: IABIED - AI Is Grown, Not Crafted
-source:: ![[../Learning Outcomes/Explain AI Is Grown, Not Crafted]]
+source:: ![[../Learning Outcomes/AI is grown, not crafted]]
 
 # Learning Outcome: IABIED - Behavior Is Not Values
 source:: ![[../Learning Outcomes/Behavior vs. values]]

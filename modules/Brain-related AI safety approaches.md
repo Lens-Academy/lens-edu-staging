@@ -30,7 +30,7 @@ source:: [[../Lenses/Brain signals as feedback for AI]]
 # Submodule: Merge and cyborgism
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Assess merge and cyborgism]]
+source:: [[../Learning Outcomes/Merge and cyborgism]]
 
 # Lens:
 source:: [[../Lenses/Merging with AI]]
@@ -41,7 +41,7 @@ source:: [[../Lenses/Cyborgism]]
 # Submodule: Whole-brain emulation and cognitive enhancement
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Assess whole-brain emulation and cognitive enhancement]]
+source:: [[../Learning Outcomes/Whole-brain emulation and cognitive enhancement]]
 
 # Lens:
 source:: [[../Lenses/Whole-brain emulation]]
@@ -55,7 +55,7 @@ source:: [[../Lenses/Cognitive enhancement]]
 # Submodule: The case against
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Evaluate the case against BCI-type solutions]]
+source:: [[../Learning Outcomes/The case against BCI-type solutions]]
 
 # Lens:
 source:: [[../Lenses/Brain-computer interfaces and human augmentation]]

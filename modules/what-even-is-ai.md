@@ -6,7 +6,7 @@ discussion:
 ---
 
 # Learning Outcome:
-source:: ![[../Learning Outcomes/Distinguish between grown and engineered systems|Distinguish between grown and engineered systems]]
+source:: ![[../Learning Outcomes/Grown vs. engineered systems|Distinguish between grown and engineered systems]]
 
 # Learning Outcome:
 source:: ![[../Learning Outcomes/Simulator Theory|Simulator Theory]]
