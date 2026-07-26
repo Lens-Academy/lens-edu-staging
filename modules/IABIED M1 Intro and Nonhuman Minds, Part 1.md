@@ -124,7 +124,7 @@ source:: ![[../Lenses/IABIED - QA - Leo Szilard Saw the Future]]
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]
 
 # Learning Outcome: IABIED - Define Intelligence
-source:: ![[../Learning Outcomes/Define Intelligence]]
+source:: ![[../Learning Outcomes/Intelligence as prediction plus steering]]
 
 # Learning Outcome: IABIED - Intelligence Is Direction-Agnostic
 source:: ![[../Learning Outcomes/Explain Intelligence Is Direction-Agnostic]]
@@ -275,7 +275,7 @@ add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/02 - Chapter 2 
 source:: ![[../Learning Outcomes/Explain AI Is Grown, Not Crafted]]
 
 # Learning Outcome: IABIED - Behavior Is Not Values
-source:: ![[../Learning Outcomes/Distinguish Behavior from Values]]
+source:: ![[../Learning Outcomes/Behavior vs. values]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - AI Is Grown, Not Crafted - PQ]]
