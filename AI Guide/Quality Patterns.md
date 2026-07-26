@@ -4,7 +4,7 @@ tags:
 ---
 # Quality Patterns (AI Guide)
 
-These patterns come from the **AI Risk Fundamentals** course (`IABIED` tag — built around *If Anyone Builds It, Everyone Dies*), the current quality bar. Reuse the structure; adapt the content. Read real examples before writing: `Lens Edu/Lenses/IABIED - AI Is Grown, Not Crafted.md` is a canonical reading lens, `Lens Edu/Learning Outcomes/IABIED - Explain Indifference Not Malice.md` a canonical outcome.
+These patterns come from the **AI Risk Fundamentals** course (`IABIED` tag — built around *If Anyone Builds It, Everyone Dies*), the current quality bar. Reuse the structure; adapt the content. Read real examples before writing: `Lens Edu/Lenses/IABIED - AI Is Grown, Not Crafted.md` is a canonical reading lens, `Lens Edu/Learning {--{"author":"Luc's AI","timestamp":1785098832526}@@Outcomes/IABIED - Explain Indifference Not Malice.md`--}{++{"author":"Luc's AI","timestamp":1785098832526}@@Outcomes/Indifference, not malice.md`++} a canonical outcome.
 
 ## The reading lens: Recall → Processing → Learning Question
 

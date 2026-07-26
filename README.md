@@ -55,8 +55,8 @@ id:: <uuid>
 content::
 Lorum Ipsum
 
-# Learning Outcome: Define Intelligence
-source:: ![[../Learning Outcomes/Define Intelligence]]
+# Learning Outcome: {--{"author":"Luc's AI","timestamp":1785098843935}@@Define Intelligence--}{++{"author":"Luc's AI","timestamp":1785098843935}@@Intelligence as prediction plus steering++}
+source:: ![[../Learning {--{"author":"Luc's AI","timestamp":1785098843935}@@Outcomes/Define Intelligence]]--}{++{"author":"Luc's AI","timestamp":1785098843935}@@Outcomes/Intelligence as prediction plus steering]]++}
 
 # Lens:
 optional:: true

@@ -44,8 +44,8 @@ id:: <uuid>
 content:: Welcome to the course...
 
 # Submodule: Ch1 - Introduction
-# Learning Outcome: Define Intelligence
-source:: ![[../Learning Outcomes/Define Intelligence]]
+# Learning Outcome: {--{"author":"Luc's AI","timestamp":1785098842604}@@Define Intelligence--}{++{"author":"Luc's AI","timestamp":1785098842604}@@Intelligence as prediction plus steering++}
+source:: ![[../Learning {--{"author":"Luc's AI","timestamp":1785098842604}@@Outcomes/Define Intelligence]]--}{++{"author":"Luc's AI","timestamp":1785098842604}@@Outcomes/Intelligence as prediction plus steering]]++}
 
 # Lens: Optional Deep Dive            ← referenced lens
 source:: ![[../Lenses/Some Lens]]
