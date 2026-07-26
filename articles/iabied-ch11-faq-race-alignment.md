@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090679854}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### We strongly recommend against this entire AI paradigm.
 
 Current methods in AI present needlessly difficult challenges for alignment, for the reasons we've discussed in earlier chapters. We don't see a reason in principle why humanity couldn't build an aligned superintelligence, with a sufficiently strong understanding of what we were doing and a different array of formal tools. But the entire current approach to AI seems like a dead end from an alignment and robustness perspective, even if it's perfectly good from a capabilities perspective.

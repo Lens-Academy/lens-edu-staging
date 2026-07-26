@@ -10,14 +10,14 @@ accessed: 2026-07-02
 description: "The bills differ in minor but meaningful ways, but their overwhelming convergence is key."
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090680820}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 ![Hochel stading behind a dais, with a hand raised](https://assets.carnegieendowment.org/_/eyJrZXkiOiJpbWFnZXMva2F0aHktaG9jaHVsLW5ldy15b3JrLTIwMjYtR2V0dHlJbWFnZXMtMjI1NzA3Nzg5NWVkaXRlZC5qcGcifQ==)
 

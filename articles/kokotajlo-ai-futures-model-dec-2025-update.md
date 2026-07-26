@@ -9,14 +9,14 @@ accessed: 2026-07-02
 description: "We've significantly improved our model of AI timelines and takeoff speeds!"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090671273}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 We’ve significantly upgraded our timelines and takeoff model! Our new unified model predicts when AIs will reach key capability milestones: for example, Automated Coder / AC (full automation of coding) and superintelligence / ASI (much better than the best humans at virtually all cognitive tasks). This post will briefly explain how the model works, present our timelines and takeoff forecasts, and compare it to our previous ([AI 2027](https://ai-2027.com/research)) models (spoiler: the AI Futures Model predicts longer timelines to full coding automation than our previous model by about 3-5 years, in significant part due to being less bullish on pre-full-automation AI R&D speedups). _Added Jan 2026: see [here](https://blog.ai-futures.org/p/clarifying-how-our-ai-timelines-forecasts) for clarifications regarding how our forecasts have changed since AI 2027._
 

@@ -13,14 +13,14 @@ tags:
   - effective-giving
   - career
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090681793}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 **Marginal impact** refers to the additional difference your specific investment of time, money, or effort makes. Rather than focusing on the total impact of an organization or movement, it's about recognizing how much your contribution adds to what's already being done. This way, you can better decide where to direct your resources for the greatest effect.
 

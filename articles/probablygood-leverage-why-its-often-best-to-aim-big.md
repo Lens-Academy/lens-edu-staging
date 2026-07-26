@@ -9,14 +9,14 @@ accessed: 2026-07-18
 description: "Learn how having more leverage over resources like time and money affects the amount of good you can do with your career."
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090682853}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 **Leverage** refers to the influence you have over how resources like time, money, and labor (particularly of others) are spent. The more of these resources you’re able to influence, the larger your leverage. Increasing your leverage in a [promising cause area](https://probablygood.org/career-guide/analyzing-cause-areas/) can be a great way to increase your impact. In fact, high leverage is often what separates the most impactful careers from less impactful ones.
 

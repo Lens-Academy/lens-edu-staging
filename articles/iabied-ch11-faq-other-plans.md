@@ -7,14 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090679572}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### We cover additional alignment proposals in the book.
 
 See also the extended discussions on [truth-seeking AI](/11/more-on-some-of-the-plans-we-critiqued-in-the-book#more-on-making-ai-that-is-truth-seeking), [submissive AI](/11/more-on-some-of-the-plans-we-critiqued-in-the-book#more-on-making-ai-that-is-submissive), and [using AIs to solve AI alignment](/11/more-on-some-of-the-plans-we-critiqued-in-the-book#more-on-making-ais-solve-the-problem), which go into a bit more depth about those proposals.

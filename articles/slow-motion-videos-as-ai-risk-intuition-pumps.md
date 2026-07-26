@@ -7,14 +7,14 @@ published: 2022-06-14
 created: 2026-02-06
 description: "tl;dr: When making the case for AI as a risk to humanity, trying showing people an evocative illustration of what differences in processing speeds ca…"
 tags:
----{++{"author":"Luc's AI","timestamp":1785090689100}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 **tl;dr:** *When making the case for AI as a risk to humanity, trying showing people an evocative illustration of what differences in processing speeds can look like, such as [this video](https://vimeo.com/83664407).*
 
 Over the past ~12 years of making the case for AI x-risk to various people inside and outside academia, I've found folks often ask for a single story of how AI "goes off the rails". When given a plausible story, the mind just thinks of a way humanity could avoid that-particular-story, and goes back to thinking there's no risk, unless provided with another story, or another, etc.. Eventually this can lead to a realization that there's a lot of ways for humanity to die, and a correspondingly high level of risk, but it takes a while.
