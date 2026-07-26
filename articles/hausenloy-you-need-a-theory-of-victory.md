@@ -47,37 +47,54 @@ In April, I gave a talk at an AI policy workshop about these theories of victory
 
 The main claim, up top:
 
-[
+{--{"author":"Luc's AI","timestamp":1785094252381}@@[--}{++{"author":"Luc's AI","timestamp":1785094252381}@@**My claim**++}
 
-![](https://substackcdn.com/image/fetch/$s_!IAqQ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc56a3a80-cb9f-4390-8efd-3a8fac283d5f_958x540.png)
+{--{"author":"Luc's AI","timestamp":1785094252381}@@![](https://substackcdn.com/image/fetch/$s_!IAqQ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc56a3a80-cb9f-4390-8efd-3a8fac283d5f_958x540.png)
 
-](https://substackcdn.com/image/fetch/$s_!IAqQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc56a3a80-cb9f-4390-8efd-3a8fac283d5f_958x540.png)
+](https://substackcdn.com/image/fetch/$s_!IAqQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc56a3a80-cb9f-4390-8efd-3a8fac283d5f_958x540.png)--}{++{"author":"Luc's AI","timestamp":1785094252381}@@1. Theories of victory motivating different work are important to understand.
+2. None of them are *sufficient* (including mine…)
+3. You should think about yours anyway.++}
 
 We’ll quickly preview:
 
-[
+{--{"author":"Luc's AI","timestamp":1785094252688}@@[--}{++{"author":"Luc's AI","timestamp":1785094252688}@@**Overview**++}
 
-![](https://substackcdn.com/image/fetch/$s_!UOf8!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62159ab3-2440-4ad5-bb8c-f3fc866bc9f2_2946x1658.png)
+{--{"author":"Luc's AI","timestamp":1785094252688}@@![](https://substackcdn.com/image/fetch/$s_!UOf8!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62159ab3-2440-4ad5-bb8c-f3fc866bc9f2_2946x1658.png)
 
-](https://substackcdn.com/image/fetch/$s_!UOf8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62159ab3-2440-4ad5-bb8c-f3fc866bc9f2_2946x1658.png)
+](https://substackcdn.com/image/fetch/$s_!UOf8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62159ab3-2440-4ad5-bb8c-f3fc866bc9f2_2946x1658.png)--}{++{"author":"Luc's AI","timestamp":1785094252688}@@1. What does victory mean?
+2. Defining a theory of victory
+3. Two camps in AI safety:
+   - “US wins + automated alignment + control + muddling”
+   - “Superintelligence ban + saying true things + crisis + treaty”
+   - Many more…
+4. Developing strategic taste:
+   - All theories of victory are wrong; some are useful
+   - Developing your own
+   - Traps to avoid++}
 
 ## What is “Victory”?
 
 There are many different potential threat models in AI.
 
-[
+{--{"author":"Luc's AI","timestamp":1785094252950}@@[--}{++{"author":"Luc's AI","timestamp":1785094252950}@@**Different threat models**++}
 
-![](https://substackcdn.com/image/fetch/$s_!rqKH!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5dcf427e-636c-4bc2-ae55-4f5778bef7db_1168x608.png)
+{--{"author":"Luc's AI","timestamp":1785094252950}@@![](https://substackcdn.com/image/fetch/$s_!rqKH!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5dcf427e-636c-4bc2-ae55-4f5778bef7db_1168x608.png)
 
-](https://substackcdn.com/image/fetch/$s_!rqKH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5dcf427e-636c-4bc2-ae55-4f5778bef7db_1168x608.png)
+](https://substackcdn.com/image/fetch/$s_!rqKH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5dcf427e-636c-4bc2-ae55-4f5778bef7db_1168x608.png)--}{++{"author":"Luc's AI","timestamp":1785094252950}@@- AI misuse
+- Self-sustaining AIs
+- Intelligence recursion
+- Concentration of power
+- Job loss
+- …++}
 
 Many people in many different organizations care about many different things, but perhaps two that we can agree on are:
 
-[
+{--{"author":"Luc's AI","timestamp":1785094253252}@@[--}{++{"author":"Luc's AI","timestamp":1785094253252}@@**Broadly agreeable things**++}
 
-![](https://substackcdn.com/image/fetch/$s_!YReV!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7847741-95af-4895-b2fe-abbcb16f1257_1182x426.png)
+{--{"author":"Luc's AI","timestamp":1785094253252}@@![](https://substackcdn.com/image/fetch/$s_!YReV!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7847741-95af-4895-b2fe-abbcb16f1257_1182x426.png)
 
-](https://substackcdn.com/image/fetch/$s_!YReV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7847741-95af-4895-b2fe-abbcb16f1257_1182x426.png)
+](https://substackcdn.com/image/fetch/$s_!YReV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7847741-95af-4895-b2fe-abbcb16f1257_1182x426.png)--}{++{"author":"Luc's AI","timestamp":1785094253252}@@1. We don’t die.
+2. The benefits of AI are broadly distributed.++}
 
 Perhaps there is a more specific vision of what a good future might look like, perhaps some form of Utopia (like Forethought’s [Viatopia](https://www.forethought.org/research/viatopia) or Nozick’s “ [Utopia of Utopias](https://en.wikipedia.org/wiki/Anarchy,_State,_and_Utopia) ” and Alexander Wales’ [lovely fictionalization of it](http://jason.ml/end)), but for this talk we’ll stick to the broadly agreeable things.
 
@@ -108,11 +125,13 @@ So how’s this different from a Theory of Change? It accounts for
 2.  The full win condition, rather than simply a “self-evidently good action.”
     
 
-[
+{--{"author":"Luc's AI","timestamp":1785094253579}@@[
 
 ![](https://substackcdn.com/image/fetch/$s_!KJUV!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fabb5d2-851a-420d-b4cd-ffbde9e216d5_1184x652.png)
 
-](https://substackcdn.com/image/fetch/$s_!KJUV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fabb5d2-851a-420d-b4cd-ffbde9e216d5_1184x652.png)
+](https://substackcdn.com/image/fetch/$s_!KJUV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fabb5d2-851a-420d-b4cd-ffbde9e216d5_1184x652.png)--}{++{"author":"Luc's AI","timestamp":1785094253579}@@> **Theory of Victory:** “The full story of the steps that need to go right for us to win.”
+>
+> “Father had told Draco about the Rule of Three, which was that any plot which required more than three different things to happen would never work in real life. Father had further explained that since only a fool would attempt a plot that was as complicated as possible, the real limit was two.”++}
 
 \*\*\*
 
@@ -122,31 +141,38 @@ The next section of the talk is a quick overview of the explicit and implicit (u
 
 The camps are broadly the “alignment is hard but tractable” folks (“EAs” “moderates”) and the “if anyone builds it, everyone dies”) folks (or “doomers” “humanists”).
 
-[
+{--{"author":"Luc's AI","timestamp":1785094253878}@@[--}{++{"author":"Luc's AI","timestamp":1785094253878}@@**Two camps in AI safety** *(and the viciousness of small differences)*++}
 
-![](https://substackcdn.com/image/fetch/$s_!s49m!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcda7840e-37f8-4dc5-ac6d-10a5ee06c538_1152x646.png)
+{--{"author":"Luc's AI","timestamp":1785094253878}@@![](https://substackcdn.com/image/fetch/$s_!s49m!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcda7840e-37f8-4dc5-ac6d-10a5ee06c538_1152x646.png)--}{++{"author":"Luc's AI","timestamp":1785094253878}@@1. “AI alignment is hard but tractable” — or “EAs” or “moderates”
+2. “If anyone builds superintelligence, everyone dies” — or “AI-notkilleveryoneists,” “doomers,” or “humanists”++}
 
-](https://substackcdn.com/image/fetch/$s_!s49m!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcda7840e-37f8-4dc5-ac6d-10a5ee06c538_1152x646.png)
+{--{"author":"Luc's AI","timestamp":1785094253878}@@](https://substackcdn.com/image/fetch/$s_!s49m!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcda7840e-37f8-4dc5-ac6d-10a5ee06c538_1152x646.png)--}{++{"author":"Luc's AI","timestamp":1785094253878}@@The slide also quotes the Center for AI Safety distancing itself from effective altruism: “We believe the effective altruism movement is, unfortunately, controlled opposition. The less influence it has on AI Safety, the better.”++}
 
 ## Camp 1
 
 In Camp 1, we find the vast majority of funding and attention in AI safety. One can maybe summarize the specific solution prescribed by this camp as “ _the right people need to win the race”_ (so, the US, for democracy’s sake, and Anthropic, so that responsible labs are in the lead, and you can buy time at the frontier to do safety work). This position is perhaps best captured by [Leopold’s Situational Awareness](https://situational-awareness.ai/), which is worth reading in full (but in particular “ [The Free World Must Prevail](https://situational-awareness.ai/the-free-world-must-prevail/) ”)
 
-[
+{--{"author":"Luc's AI","timestamp":1785094254126}@@[--}{++{"author":"Luc's AI","timestamp":1785094254126}@@**Theory 1: “US wins the race + automated alignment”**++}
 
-![](https://substackcdn.com/image/fetch/$s_!y2oN!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0aa3f266-a54e-4115-a651-54c484c1e42a_1166x654.png)
+{--{"author":"Luc's AI","timestamp":1785094254126}@@![](https://substackcdn.com/image/fetch/$s_!y2oN!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0aa3f266-a54e-4115-a651-54c484c1e42a_1166x654.png)--}{++{"author":"Luc's AI","timestamp":1785094254126}@@The slide points to three representative sources:++}
 
-](https://substackcdn.com/image/fetch/$s_!y2oN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0aa3f266-a54e-4115-a651-54c484c1e42a_1166x654.png)
+{--{"author":"Luc's AI","timestamp":1785094254126}@@](https://substackcdn.com/image/fetch/$s_!y2oN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0aa3f266-a54e-4115-a651-54c484c1e42a_1166x654.png)--}{++{"author":"Luc's AI","timestamp":1785094254126}@@- Leopold Aschenbrenner’s *Situational Awareness*
+- Dario Amodei’s *Machines of Loving Grace*
+- Redwood Research’s *AI Control: Improving Safety Despite Intentional Subversion*++}
 
 I’ll rapid-fire through a bunch of the explicit and implicit assumptions that underlie this worldview. The question of AI Alignment (getting AIs to do what we want), first and foremost, needs to be tractable: not to say that it is _easy_ -- though some in this camp will claim that we got lucky with current systems -- but that it is an “engineering-shaped” problem, with continuous improvement possible from existing system, and would benefit from it being automated.
 
 If you believe these systems are controllable, then the _controller_ matters -- ideally it should be the best or most moral people (US/Anthropic), perhaps with some democratic input.
 
-[
+{--{"author":"Luc's AI","timestamp":1785094254491}@@[
 
 ![](https://substackcdn.com/image/fetch/$s_!DgWC!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40c753f1-7233-48ee-a410-0d7b86bb9d85_1186x682.png)
 
-](https://substackcdn.com/image/fetch/$s_!DgWC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40c753f1-7233-48ee-a410-0d7b86bb9d85_1186x682.png)
+](https://substackcdn.com/image/fetch/$s_!DgWC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40c753f1-7233-48ee-a410-0d7b86bb9d85_1186x682.png)--}{++{"author":"Luc's AI","timestamp":1785094254491}@@| Topic | Explicit | Implicit |
+| --- | --- | --- |
+| Tractability | Alignment is an engineering problem. Iterate on existing techniques. | The problem is continuous with past engineering successes. Current techniques are on the right track. |
+| The race | US/Anthropic should win. Can’t impose too much alignment tax. | The winner’s values matter more than the act of building. Alignment tax is the binding constraint. |
+| Nature of problem | Technical. Automate alignment research. | The bottleneck is researcher-hours, not conceptual clarity. More compute on alignment means more safety. |++}
 
 This view would look favorably upon the progress that has been made so far, favorably upon the lab leaders (or at least some), where market incentives don’t result in everyone dying, and that existing techniques perform surprisingly well.
 
