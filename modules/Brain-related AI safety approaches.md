@@ -19,7 +19,7 @@ The module runs through the bet and the landscape, the sub-threads (merge & cybo
 # Submodule: The bet and the landscape
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain the BCI-type-solutions bet]]
+source:: [[../Learning Outcomes/The BCI-type-solutions bet]]
 
 # Lens:
 source:: [[../Lenses/BCI-type solutions - the landscape]]

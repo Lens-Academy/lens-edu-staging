@@ -6,28 +6,28 @@ discussion: https://discord.com/channels/1440725236843806762/1467932217312547019
 ---
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain the fundamental difficulties of AI alignment]]
+source:: [[../Learning Outcomes/Why alignment is fundamentally hard]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain why alignment feels counterintuitive]]
+source:: [[../Learning Outcomes/Why alignment feels counterintuitive]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain the emergence of powerseeking]]
+source:: [[../Learning Outcomes/The emergence of power-seeking]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain sharp left turn dynamics]]
+source:: [[../Learning Outcomes/The sharp left turn]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain causal definition of agency]]
+source:: [[../Learning Outcomes/A causal definition of agency]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain how agency can emerge from advanced prediction]]
+source:: [[../Learning Outcomes/Agency from prediction]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain why default outcome is bad]]
+source:: [[../Learning Outcomes/Misalignment as the default outcome]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain a coordination failure driven by multipolar incentives]]
+source:: [[../Learning Outcomes/Moloch and multipolar traps]]
 
 # Lens: Welcome
 id:: 2a219827-f4dd-4c77-86dd-5098df71f62d

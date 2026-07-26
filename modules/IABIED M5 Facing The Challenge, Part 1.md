@@ -18,10 +18,10 @@ source:: ![[../Lenses/IABIED - M5 Welcome]]
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/11 - Chapter 10 - A Cursed Problem]]
 
 # Learning Outcome: IABIED - The Five Engineering Curses
-source:: ![[../Learning Outcomes/IABIED - The Five Engineering Curses]]
+source:: ![[../Learning Outcomes/The five engineering curses]]
 
 # Learning Outcome: IABIED - Position Not Despair
-source:: ![[../Learning Outcomes/IABIED - Position Not Despair]]
+source:: ![[../Learning Outcomes/Position, not despair]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - The Five Engineering Curses - PQ]]
@@ -95,10 +95,10 @@ source:: ![[../Lenses/IABIED - QA - Chicago Pile-1]]
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/12 - Chapter 11 - An Alchemy, Not a Science]]
 
 # Learning Outcome: IABIED - Alchemy Not Science
-source:: ![[../Learning Outcomes/IABIED - Alchemy Not Science]]
+source:: ![[../Learning Outcomes/Alignment as alchemy]]
 
 # Learning Outcome: IABIED - Strong Superalignment Objection
-source:: ![[../Learning Outcomes/IABIED - Strong Superalignment Objection]]
+source:: ![[../Learning Outcomes/The superalignment objection]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - Alchemy Not Science - PQ]]

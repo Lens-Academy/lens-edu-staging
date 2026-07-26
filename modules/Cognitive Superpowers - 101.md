@@ -5,7 +5,7 @@ title: Cognitive Superpowers
 ---
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Intelligence as a universal adaptive strategy]]
+source:: [[../Learning Outcomes/Intelligence as universal problem-solver]]
 
 # Lens: Welcome
 id:: 46d44044-6260-4b95-812d-fd83528698f0

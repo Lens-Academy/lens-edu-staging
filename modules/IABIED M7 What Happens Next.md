@@ -8,10 +8,10 @@ tags:
 ---
 
 # Learning Outcome: IABIED - Synthesize the Core Argument
-source:: ![[../Learning Outcomes/IABIED - Synthesize the Core Argument]]
+source:: ![[../Learning Outcomes/The core extinction argument]]
 
 # Learning Outcome: IABIED - Identify Your Path Forward
-source:: ![[../Learning Outcomes/Identify Your Path Forward]]
+source:: ![[../Learning Outcomes/Your path forward]]
 
 # Lens: Welcome
 id:: 4d287f1a-5049-4671-a34e-b49385e7ac5e

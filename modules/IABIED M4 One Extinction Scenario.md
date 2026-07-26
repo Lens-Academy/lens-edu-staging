@@ -18,7 +18,7 @@ source:: ![[../Lenses/IABIED - M4 Welcome]]
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/07 - Chapter 7 - Realization]]
 
 ## Learning Outcome: IABIED - State Goal-Conflict Recognition as a Physical Fact
-source:: ![[../Learning Outcomes/IABIED - State Goal-Conflict Recognition as a Physical Fact]]
+source:: ![[../Learning Outcomes/Goal conflict as a physical fact]]
 
 ## Lens:
 source:: ![[../Lenses/IABIED - Goal-Conflict Recognition as a Physical Fact - PQ]]
@@ -73,10 +73,10 @@ source:: ![[../Lenses/IABIED - QA - Only One Smart AI]]
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/08 - Chapter 8 - Expansion]]
 
 ## Learning Outcome: IABIED - Explain Instrumental Sub-Goal Convergence
-source:: ![[../Learning Outcomes/IABIED - Explain Instrumental Sub-Goal Convergence]]
+source:: ![[../Learning Outcomes/Instrumental sub-goal convergence]]
 
 ## Learning Outcome: IABIED - State Human Welfare as Instrumental Variable
-source:: ![[../Learning Outcomes/IABIED - State Human Welfare as Instrumental Variable]]
+source:: ![[../Learning Outcomes/Human welfare as an instrumental variable]]
 
 ## Lens:
 source:: ![[../Lenses/IABIED - Instrumental Sub-Goal Convergence - PQ]]
@@ -126,7 +126,7 @@ source:: ![[../Lenses/IABIED - QA - Instrumental Convergence]]
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/09 - Chapter 9 - Ascension]]
 
 ## Learning Outcome: IABIED - Explain Indifference Not Malice
-source:: ![[../Learning Outcomes/IABIED - Explain Indifference Not Malice]]
+source:: ![[../Learning Outcomes/Indifference, not malice]]
 
 ## Lens:
 source:: ![[../Lenses/IABIED - Indifference Not Malice - PQ]]
@@ -164,10 +164,10 @@ source:: ![[../Lenses/IABIED - QA - Won't It Choose to Be Moral]]
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/10 - Coda]]
 
 ## Learning Outcome: IABIED - Distinguish Path Prediction from Outcome Prediction
-source:: ![[../Learning Outcomes/IABIED - Distinguish Path Prediction from Outcome Prediction]]
+source:: ![[../Learning Outcomes/Path vs. outcome prediction]]
 
 ## Learning Outcome: IABIED - Distinguish Fiction as Argument from Prediction
-source:: ![[../Learning Outcomes/IABIED - Distinguish Fiction as Argument from Prediction]]
+source:: ![[../Learning Outcomes/Fiction as argument, not prediction]]
 
 ## Lens:
 source:: ![[../Lenses/IABIED - Path Prediction vs Outcome Prediction - PQ]]

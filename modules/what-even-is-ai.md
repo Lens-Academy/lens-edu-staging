@@ -9,7 +9,7 @@ discussion:
 source:: ![[../Learning Outcomes/Grown vs. engineered systems|Distinguish between grown and engineered systems]]
 
 # Learning Outcome:
-source:: ![[../Learning Outcomes/Simulator Theory|Simulator Theory]]
+source:: ![[../Learning Outcomes/Simulator theory|Simulator Theory]]
 
 # Lens: Welcome
 id:: e1322022-9d32-4d52-9f8a-403e5379ff42

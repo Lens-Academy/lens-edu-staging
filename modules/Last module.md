@@ -6,10 +6,10 @@ discussion: https://discordapp.com/channels/1440725236843806762/1476535068779483
 ---
 
 # Learning Outcome:
-source:: ![[../Learning Outcomes/Where it leads to]]
+source:: ![[../Learning Outcomes/Trajectories of advanced AI]]
 
 # Learning Outcome:
-source:: ![[../Learning Outcomes/How to relate]]
+source:: ![[../Learning Outcomes/Relating to AI futures]]
 
 # Lens: Welcome
 id:: 9b2bbd28-207f-4069-9610-37c31300583a

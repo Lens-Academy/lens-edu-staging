@@ -6,13 +6,13 @@ discussion: https://discord.com/channels/1440725236843806762/1467932217312547019
 ---
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain the fundamental difficulties of AI alignment]]
+source:: [[../Learning Outcomes/Why alignment is fundamentally hard]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain why alignment feels counterintuitive]]
+source:: [[../Learning Outcomes/Why alignment feels counterintuitive]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain why default outcome is bad - 101]]
+source:: [[../Learning Outcomes/Misalignment as the default outcome (101)]]
 
 # Lens: Welcome
 id:: e62c6e9d-1191-417b-a99a-546a5bb673b0

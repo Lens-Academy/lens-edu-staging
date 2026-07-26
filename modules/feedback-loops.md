@@ -6,10 +6,10 @@ discussion:
 ---
 
 # Learning Outcome:
-source:: ![[../Learning Outcomes/Feedback cycles create discontinuity]]
+source:: ![[../Learning Outcomes/Feedback cycles and discontinuity]]
 
 # Learning Outcome:
-source:: ![[../Learning Outcomes/Fizzle or Foom]]
+source:: ![[../Learning Outcomes/Fizzle or foom]]
 
 # Lens: Welcome
 id:: e0f8913a-66a2-4fc9-bbe8-bf72a95b003e

@@ -6,10 +6,10 @@ discussion:
 ---
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Intelligence as a universal adaptive strategy]]
+source:: [[../Learning Outcomes/Intelligence as universal problem-solver]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Understand the processing speed advantage]]
+source:: [[../Learning Outcomes/The processing-speed advantage]]
 
 # Learning Outcome:
 source:: ![[../Learning Outcomes/AI social manipulation]]

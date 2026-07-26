@@ -124,7 +124,7 @@ source:: [[../Lenses/omohundro-the-basic-ai-drives]]
 # Submodule: Forecasting risk and solution approaches
 
 ## Learning Outcome:
-source:: [[../Learning Outcomes/Forecasting risk and solution approaches]]
+source:: [[../Learning Outcomes/Risk levels and solution approaches]]
 
 ## Lens:
 source:: [[../Lenses/Forecasting risk and choosing an approach]]

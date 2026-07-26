@@ -5,7 +5,7 @@ title: AI safety field building and advocacy
 ---
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain the case for AI safety field-building]]
+source:: [[../Learning Outcomes/The case for field-building]]
 
 # Learning Outcome:
 source:: [[../Learning Outcomes/Field-building strategies]]

@@ -43,10 +43,10 @@ Really, the learning outcome here distills back to the power of intelligence (pl
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]
 
 # Learning Outcome: IABIED - Define the Goal-Space Argument
-source:: ![[../Learning Outcomes/IABIED - Define the Goal-Space Argument]]
+source:: ![[../Learning Outcomes/The goal-space argument]]
 
 # Learning Outcome: IABIED - Distinguish Hostile from Indifferent AI
-source:: ![[../Learning Outcomes/IABIED - Distinguish Hostile from Indifferent AI]]
+source:: ![[../Learning Outcomes/Hostile vs. indifferent AI]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - Define the Goal-Space Argument - PQ]]
@@ -242,10 +242,10 @@ source:: ![[../Lenses/IABIED - QA - Orthogonality]]
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 - We'd Lose]]
 
 # Learning Outcome: IABIED - Define the Aztec Warrior Analogy
-source:: ![[../Learning Outcomes/IABIED - Define the Aztec Warrior Analogy]]
+source:: ![[../Learning Outcomes/The Aztec warrior analogy]]
 
 # Learning Outcome: IABIED - Describe the Refrigerator Thought Experiment
-source:: ![[../Learning Outcomes/IABIED - Describe the Refrigerator Thought Experiment]]
+source:: ![[../Learning Outcomes/The refrigerator thought experiment]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - Define the Aztec Warrior Analogy - PQ]]

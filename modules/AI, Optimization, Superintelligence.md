@@ -8,10 +8,10 @@ title: AI, Optimization, Superintelligence
 source:: [[../Learning Outcomes/Intelligence as cross-domain optimization]]
 
 # Learning Outcome:
-source:: ![[../Learning Outcomes/Feedback cycles create discontinuity]]
+source:: ![[../Learning Outcomes/Feedback cycles and discontinuity]]
 
 # Learning Outcome:
-source:: ![[../Learning Outcomes/Fizzle or Foom]]
+source:: ![[../Learning Outcomes/Fizzle or foom]]
 
 # Lens: Welcome
 id:: ff3b2cc0-1381-41ed-8194-3ac5301f38b0
