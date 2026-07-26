@@ -19,4 +19,6 @@ Initial thoughts, 2026-07-26:
 - The account of AI-safety strategy camps is opinionated and should not be used as a neutral overview without counter-material.
 
 I don't know, to me it seems nice that it points out that there are different camps?
+Okay
+
 %%
