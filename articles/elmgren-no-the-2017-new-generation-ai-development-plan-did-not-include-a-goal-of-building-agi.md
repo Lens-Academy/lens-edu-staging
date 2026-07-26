@@ -9,14 +9,14 @@ accessed: 2026-07-02
 description: "Clarifying an important historical detail"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090645731}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 A foundational document in Chinese AI policy is the 2017 New Generation AI Development Plan (NGAIDP). Although almost ten years old now, it still rightly gets attention as essentially the starting point of CCP thinking on AI in the deep learning era. It came after a dual Sputnik moment for China in 2016, the year that AlphaGo handily beat South Korean Go champion Lee Sedol, and the Obama administration (remember them?) published a national [AI plan](https://obamawhitehouse.archives.gov/sites/default/files/whitehouse_files/microsites/ostp/NSTC/preparing_for_the_future_of_ai.pdf) for the US.
 

@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090655483}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 #### Not in the way that matters.
 

@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090659876}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### Being on a computer connected to the internet isn't much of a limitation.
 
 This point is covered in this very chapter. But to add a few extra points of emphasis: An AI isn't really "trapped" on its owner's servers so long as it can interact with users or the wider internet. An AI could gain outside assistance by paying, blackmailing, tricking, or even just *asking* users for help. (Compare the human crime bosses who [ran their empires from behind bars](https://www.watchmojo.com/articles/10-crime-bosses-who-maintained-power-in-prison).)

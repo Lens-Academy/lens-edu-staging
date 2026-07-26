@@ -7,14 +7,14 @@ created: 2026-02-04
 description: Stephen Wolfram explores the broader picture of what's going on inside ChatGPT and why it produces meaningful text. Discusses models, training neural nets, embeddings, tokens, transformers, language syntax.
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090696077}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 See also:  
 [***“LLM Tech Comes to Wolfram Language”* »**](https://writings.stephenwolfram.com/2023/06/llm-tech-and-a-lot-more-version-13-3-of-wolfram-language-and-mathematica/#llm-tech-comes-to-wolfram-language)  
 [***A discussion about the history of neural nets* »**](https://www.youtube.com/watch?v=XKC-4Tosdd8)

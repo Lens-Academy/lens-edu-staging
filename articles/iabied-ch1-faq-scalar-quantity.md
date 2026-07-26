@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090670236}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### No. But there are levels AI hasn't reached.
 
 We've sometimes heard it suggested that the idea of superintelligence assumes that "intelligence" is a simple, one-dimensional quantity. Pour more AI research in, get more "intelligence" out — as though intelligence were less like a machine, and more like a fluid that you can just keep pumping out of the ground.

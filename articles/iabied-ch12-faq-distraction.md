@@ -7,14 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090695603}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### The world is, unfortunately, big enough for multiple issues.
 
 Nuclear war and bioterrorism are real threats. Unfortunately, machine superintelligence is *also* a real threat. The world is big and troubled enough for all three.[\*](#ftnt273)

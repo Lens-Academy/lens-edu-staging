@@ -9,14 +9,14 @@ accessed: 2026-07-09
 description: "Once again, the field is summoning spirits it cannot control"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090672241}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Safety advocates are about to change the AI policy debate for the worse. Faced with political adversity, few recent policy wins, and a perceived lack of obvious paths to policy victory, the movement yearns for a different way forward. One school of thought is growing in popularity: **to create political incentive to get serious about safety policy, one must ‘build a movement’**. That is, one must create widespread salience of AI safety topics and channel it into an organised constituency that puts pressure on policymakers.
 
