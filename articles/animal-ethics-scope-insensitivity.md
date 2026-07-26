@@ -13,14 +13,14 @@ tags:
   - scope-sensitivity
   - cognitive-biases
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090628733}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 # Scope Insensitivity: Failing to Appreciate the Numbers of Those Who Need Our Help
 

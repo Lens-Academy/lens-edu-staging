@@ -9,14 +9,14 @@ accessed: 2026-07-02
 description: "Preventing research sabotage will require techniques very different from the original control paper."
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090642336}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Misaligned AIs might engage in research sabotage: making safety research go poorly by doing things like withholding their best ideas or putting subtle bugs in experiments. To mitigate this risk with AI control, we need very different techniques than those in the [original control paper](https://arxiv.org/abs/2312.06942) or [Ctrl-Z](https://www.alignmentforum.org/posts/LPHMMMZFAWog6ty5x/ctrl-z-controlling-ai-agents-via-resampling), because research sabotage differs from those settings in two crucial ways:
 

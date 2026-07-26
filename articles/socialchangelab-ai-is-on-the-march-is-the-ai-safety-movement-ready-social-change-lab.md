@@ -9,14 +9,14 @@ accessed: 2026-07-09
 description: "A non-profit studying how social movements shape public opinion, policy, and social change. All our research is open access — explore our reports and resources."
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090690709}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 [Home](https://www.socialchangelab.org/index.html) › [Research](https://www.socialchangelab.org/research.html) › AI is on the March. Is the AI Safety Movement Ready?
 

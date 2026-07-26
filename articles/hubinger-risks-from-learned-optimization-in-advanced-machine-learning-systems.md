@@ -13,14 +13,14 @@ accessed: 2026-06-21
 description: "We analyze the type of learned optimization that occurs when a learned model (such as a neural network) is itself an optimizer—a situation we refer to as mesa-optimization, a neologism we introduce in this paper. We be…"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090643614}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 ###### Abstract
 

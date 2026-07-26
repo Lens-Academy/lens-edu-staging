@@ -9,14 +9,14 @@ accessed: 2026-07-02
 description: "Better estimates of uplift at AI companies seem helpful"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090637021}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Anthropic’s system card for Mythos Preview says:
 

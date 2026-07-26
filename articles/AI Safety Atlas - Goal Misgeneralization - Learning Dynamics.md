@@ -9,14 +9,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090611221}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 The training process guides which algorithms and goals are discovered. The results of AI training are shaped by poorly understood preferences in the training system, and what's easiest to compute.
 

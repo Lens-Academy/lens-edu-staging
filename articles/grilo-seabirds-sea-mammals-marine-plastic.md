@@ -13,14 +13,14 @@ tags:
   - animal-welfare
   - cause-prioritization
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090639655}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 # The Number of Seabirds and Sea Mammals Killed by Marine Plastic Pollution is Quite Small Relative to the Catch of Fish
 
