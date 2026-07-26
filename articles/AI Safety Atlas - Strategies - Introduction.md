@@ -10,7 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090623419}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 This chapter tries to lay out the big picture of AI safety strategy to mitigate the risks explored previously.
 

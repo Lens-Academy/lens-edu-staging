@@ -6,7 +6,14 @@ published: 2024-07-26
 created: 2026-03-07
 description: "A primer on existential risk from artificial intelligence (8000 words/25-45min)"
 tags:
----
+---{++{"author":"Luc's AI","timestamp":1785090625199}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 ### A primer on existential risk from artificial intelligence (8000 words/25-45min)
 
 There is a lot of material out there on AI safety, and the dangers of strong AGI.

@@ -10,7 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090623655}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Preventing AI from misused or weaponized means controlling and limiting access, it also requires laws and social norms to manage harms from models that are already widely available.
 

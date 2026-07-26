@@ -10,7 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090621292}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 We can tell an AI what to do, but we can’t perfectly tell it what we mean. Smart AIs learn to exploit the gaps in our instructions, doing exactly what we said but not what we wanted.
 

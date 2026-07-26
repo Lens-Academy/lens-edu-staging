@@ -10,7 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090622380}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 We can attempt to teach correct behavior by having AIs copy human demonstrations. But the AI might copy our mistakes or struggle to understand why we do things, especially for tasks humans can't do perfectly.
 

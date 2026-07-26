@@ -10,7 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090620409}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 For human-level AI, safety work focuses on research into alignment, maintaining control through monitoring and containment, and iteratively fixing discovered misalignment.
 

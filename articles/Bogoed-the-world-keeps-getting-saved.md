@@ -6,7 +6,14 @@ published: 2026-02-16
 created: 2026-03-08
 description: "Nothing groundbreaking, just something people forget constantly, and I’m writing it down so I don’t have to re-explain it from scratch.  …"
 tags:
----
+---{++{"author":"Luc's AI","timestamp":1785090624937}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 Nothing groundbreaking, just something people forget constantly, and I’m writing it down so I don’t have to re-explain it from scratch.
 
 The world does not just ”keep working.” It keeps getting saved.

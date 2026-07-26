@@ -10,7 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090621020}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Once AI becomes superintelligent, human oversight and iteratively fixing misalignment becomes infeasible. ASI safety requires different strategies like automating alignment research, designing inherently safe systems, or pursuing international coordination and deterrence.
 
