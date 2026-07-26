@@ -11,7 +11,14 @@ tags:
   - "article-importer"
 ---
 
-Imagine you’re living 15,000 years ago. Your people are hunter-gatherers and you sleep under the stars. If someone told you humans would one day build cities with millions of people, fly through the air, or carry all human knowledge in their pockets, you couldn’t even begin to picture what they meant.
+{++{"author":"Luc's AI","timestamp":1785073574556}@@%%
+Add discussion note here:
+
+...
+
+%%
+
+++}Imagine you’re living 15,000 years ago. Your people are hunter-gatherers and you sleep under the stars. If someone told you humans would one day build cities with millions of people, fly through the air, or carry all human knowledge in their pockets, you couldn’t even begin to picture what they meant.
 
 Yet here we are.
 

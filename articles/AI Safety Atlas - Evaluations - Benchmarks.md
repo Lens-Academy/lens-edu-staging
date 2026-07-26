@@ -12,7 +12,14 @@ tags:
   - "article-importer"
 ---
 
-Standardized measurement tools shape development and help us measure where we currently stand. Many benchmarks are being developed to measure both capabilities and safety of AI systems.
+{++{"author":"Luc's AI","timestamp":1785073559998}@@%%
+Add discussion note here:
+
+...
+
+%%
+
+++}Standardized measurement tools shape development and help us measure where we currently stand. Many benchmarks are being developed to measure both capabilities and safety of AI systems.
 
 ---
 

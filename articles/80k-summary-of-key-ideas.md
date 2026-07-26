@@ -16,4 +16,11 @@ tags:
   - work-in-progress
 ---
 
-{>>TODO: Licensed content<<}
+{++{"author":"Luc's AI","timestamp":1785073575350}@@%%
+Add discussion note here:
+
+...
+
+%%
+
+++}{>>TODO: Licensed content<<}

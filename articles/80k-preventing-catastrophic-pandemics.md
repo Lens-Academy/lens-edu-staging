@@ -17,6 +17,13 @@ tags:
   - work-in-progress
 ---
 
-# Preventing Catastrophic Pandemics
+{++{"author":"Luc's AI","timestamp":1785073574828}@@%%
+Add discussion note here:
+
+...
+
+%%
+
+++}# Preventing Catastrophic Pandemics
 
 {>>TODO: Licensed content<<}

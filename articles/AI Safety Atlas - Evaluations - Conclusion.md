@@ -12,7 +12,14 @@ tags:
   - "article-importer"
 ---
 
-Robust evaluation methods provide the essential tools to measure current capabilities, and help navigate the balance between harnessing AI's benefits and mitigating its most serious risks.
+{++{"author":"Luc's AI","timestamp":1785073560245}@@%%
+Add discussion note here:
+
+...
+
+%%
+
+++}Robust evaluation methods provide the essential tools to measure current capabilities, and help navigate the balance between harnessing AI's benefits and mitigating its most serious risks.
 
 ---
 

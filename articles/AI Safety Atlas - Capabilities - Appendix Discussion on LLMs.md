@@ -12,7 +12,14 @@ tags:
   - "article-importer"
 ---
 
-This appendix examines common critiques of large language models, assessing whether their perceived limitations are fundamental or likely to be overcome when augmented with tools and scale.
+{++{"author":"Luc's AI","timestamp":1785073575577}@@%%
+Add discussion note here:
+
+...
+
+%%
+
+++}This appendix examines common critiques of large language models, assessing whether their perceived limitations are fundamental or likely to be overcome when augmented with tools and scale.
 
 ---
 
