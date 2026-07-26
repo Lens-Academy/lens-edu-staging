@@ -9,7 +9,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090611811}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Machine learning can result in models learning correlated proxy objectives instead of the intended goal despite perfect training signals. These failures can be invisible until after deployment leading to safety concerns.
 

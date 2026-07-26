@@ -9,7 +9,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090610596}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Safety implications of learning the wrong goals depend on how purposefully AIs act. A system that just mechanically follows rules is less risky than one that actively searches for ways to achieve its misunderstood goal across many different situations.
 

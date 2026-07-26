@@ -9,7 +9,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090610876}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 AIs could be pursuing the misaligned goals despite appearing safe and getting everything right in training. Goal misgeneralization makes catastrophic failures  invisible until it is potentially too late.
 

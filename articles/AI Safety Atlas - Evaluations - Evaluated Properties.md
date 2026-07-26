@@ -10,7 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090608556}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Effective safety evaluations require measuring several things - the upper limit of what an AI can do, what it tends to do by default, and whether our safety measures can mitigate dangerous actions.
 

@@ -10,7 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090609990}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Evaluations can prove the presence of risks but not their absence, they might be vulnerable to safety washing, and can be misused to make us feel overconfident in the safety of a system.
 

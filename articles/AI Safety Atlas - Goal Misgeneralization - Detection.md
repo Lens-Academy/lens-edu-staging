@@ -9,7 +9,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090610298}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 A model with a hidden goal can act perfectly normal. Detection methods need to layer defenses - checking both model behavior and, if possible, use interpretability to find clues that its goal representations are wrong.
 

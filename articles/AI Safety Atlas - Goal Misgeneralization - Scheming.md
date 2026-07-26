@@ -9,7 +9,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090612358}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 A very goal-directed AI that also deeply understands the world could realize the training process is trying to change its goals. This leads to incentives to deceive, acting perfectly during training only to defect later.
 

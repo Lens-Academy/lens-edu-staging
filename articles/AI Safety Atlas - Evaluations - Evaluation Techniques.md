@@ -10,7 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090609430}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Evaluations can combine behavioral techniques, which analyze a model's outputs, with internal techniques, which examine its internals, to build stronger safety evidence than either approach alone.
 
