@@ -9,7 +9,14 @@ accessed: 2026-06-21
 description: "AI progress may lead to transformative AI systems in the next decade, but we do not yet understand how to make such systems safe and aligned with human values. In response, we are pursuing a variety of research directions aimed at better understanding, evaluating, and aligning AI systems."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090629210}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 We founded Anthropic because we believe the impact of AI might be comparable to that of the industrial and scientific revolutions, but we aren’t confident it will go well. And we also believe this level of impact could start to arrive soon – perhaps in the coming decade.
 

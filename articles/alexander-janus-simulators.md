@@ -8,7 +8,14 @@ created: 2026-02-04
 description: "This post isn't exactly about AI, but bear with me"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090627566}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 ### This post isn't exactly about AI, but bear with me
 
 This post isn’t exactly about AI. But the first three parts will be kind of technical AI stuff, so bear with me.

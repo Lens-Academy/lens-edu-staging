@@ -3,7 +3,14 @@ title: "What are the differences between a singularity, an intelligence explosio
 author: AISafety.info
 published: 2026-01-16
 source_url: https://aisafety.info/questions/8IHO/What-are-the-differences-between-a-singularity,-an-intelligence-explosion,-and-a-hard-takeoff
----
+---{++{"author":"Luc's AI","timestamp":1785090627010}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 These are all terms for future processes that could rapidly result in superintelligence. They have been used by different people, at different times, with overlapping and sometimes changing meanings.
 
 * A **(technological) singularity** refers to a hypothetical future time when, because of AI or other technologies, progress becomes extremely fast, resulting in a radically changed world. This term has been used inconsistently and is no longer in much use by the AI alignment community. [Different versions](https://intelligence.org/2007/09/30/three-major-singularity-schools/) have stressed the rate of acceleration of technological advancement (whether exponential, [double-exponential](https://www.kurzweilai.net/the-law-of-accelerating-returns), or [even](https://www.openphilanthropy.org/research/modeling-the-human-trajectory/) [hyperbolic](https://sideways-view.com/2017/10/04/hyperbolic-growth/)), self-improvement feedback loops (an "intelligence explosion" - see below), and the [unknowability](https://edoras.sdsu.edu/~vinge/misc/singularity.html) of strongly superhuman intelligence.

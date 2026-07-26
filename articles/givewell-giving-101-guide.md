@@ -13,7 +13,14 @@ tags:
   - effective-giving
   - global-health
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090628920}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 # GiveWell's Giving 101 Guide
 

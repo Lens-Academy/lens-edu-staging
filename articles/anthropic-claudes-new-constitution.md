@@ -9,7 +9,14 @@ accessed: 2026-06-21
 description: "A new approach to a foundational document that expresses and shapes who Claude is"
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090628962}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 We’re publishing a new constitution for our AI model, Claude. It’s a detailed description of Anthropic’s vision for Claude’s values and behavior; a holistic document that explains the context in which Claude operates and the kind of entity we would like Claude to be.
 

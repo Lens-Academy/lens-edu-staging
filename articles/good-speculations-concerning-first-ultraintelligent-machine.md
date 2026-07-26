@@ -3,7 +3,14 @@ title: "Speculations Concerning the First Ultraintelligent Machine"
 author: Irving John Good
 published: 1964
 source_url: https://flyingpenguin.com/wp-content/uploads/2022/04/good-1964-.pdf
----
+---{++{"author":"Luc's AI","timestamp":1785090629517}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 ## 1. Introduction
 The survival of man depends on the early construction of an ultra-intelligent machine. In order to design an ultraintelligent machine we need to understand more about the human brain or human thought or both. In the following pages an attempt is made to take more of the magic out of the brain by means of a "subassembly" theory, which is a modification of Hebb’s famous speculative cell-assembly theory. My belief is that the first ultraintelligent machine is most likely to incorporate vast artificial neural circuitry, and that its behavior will be partly explicable in terms of the subassembly theory. Later machines will all be designed by ultraintelligent machines, and who am I to guess what principles they will devise? But probably Man will construct the deus ex machina in his own image. The subassembly theory sheds light on the physical embodiment of memory and meaning, and there can be little doubt that both will need embodiment in an ultraintelligent machine. Even for the brain, we shall argue
 

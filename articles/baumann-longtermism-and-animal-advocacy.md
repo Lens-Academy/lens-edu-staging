@@ -15,7 +15,14 @@ tags:
   - moral-circle-expansion
   - s-risks
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090630447}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 # Longtermism and Animal Advocacy
 

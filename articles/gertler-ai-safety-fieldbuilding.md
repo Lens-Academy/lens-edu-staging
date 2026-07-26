@@ -9,7 +9,14 @@ accessed: 2026-07-09
 description: "AI safety needs more than researchers. Discover fieldbuilding careers in communications, operations, and strategy, and learn how to get started in the growing field."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090628252}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Table of Contents
 

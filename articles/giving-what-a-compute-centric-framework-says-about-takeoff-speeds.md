@@ -10,7 +10,14 @@ allowUnreachableUrl: true {>>{"author":"Elias's AI","timestamp":1783847982477}@@
 description: "Editor’s note: This article was published under our former name, Open Philanthropy. Some content may be outdated. You can see our latest writing here. This is Part 0 of a four-part report — see links to Part 1. Part 2. Part 3, and a folder with more materials. Abstract In the next few decades we may […]"
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090629248}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 _**Editor’s note:** _This article was published under our former name, Open Philanthropy. Some content may be outdated. You can see our latest writing [here](https://coefficientgiving.org/research-and-news)__.__
 

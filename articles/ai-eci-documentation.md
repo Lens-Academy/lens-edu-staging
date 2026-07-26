@@ -9,7 +9,14 @@ accessed: 2026-07-02
 description: "Documentation for the Epoch Capabilities Index (ECI), a composite metric that combines scores from many AI benchmarks into a single capability scale, including the domain-specific ECI."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090626339}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 ## Overview
 

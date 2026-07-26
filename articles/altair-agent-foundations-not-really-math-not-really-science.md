@@ -8,7 +8,14 @@ created: 2026-02-27
 description: "These ideas are not well-communicated, and I'm hoping readers can help me understand them better in the comments. …"
 tags:
   - "obsidian-web-clipper"
----
+---{++{"author":"Luc's AI","timestamp":1785090628465}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 *These ideas are not well-communicated, and I'm hoping readers can help me understand them better in the comments.*
 

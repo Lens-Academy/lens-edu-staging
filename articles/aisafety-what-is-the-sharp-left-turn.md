@@ -9,7 +9,14 @@ accessed: 2026-07-18
 description: "A sharp left turn (SLT) is a theorized scenario in which an AI’s capabilities generalize further than its alignment. In other words, if an AI went through a sharp left turn, its capabilities would quickly generalize outside the training distribution, but its alignment wouldn’t be able to keep up, resulting in a powerful misaligned model. This sc..."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090627301}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 A [sharp left turn](https://www.alignmentforum.org/w/sharp-left-turn) (SLT) is a theorized scenario in which an AI’s [capabilities generalize further than its alignment](https://www.alignmentforum.org/posts/GNhMPAWcfBCASy8e6/a-central-ai-alignment-problem-capabilities-generalization). In other words, if an AI went through a sharp left turn, its capabilities would quickly generalize outside the training distribution, but its alignment wouldn’t be able to keep up, resulting in a powerful misaligned model. This scenario depends on [three main claims](https://www.alignmentforum.org/posts/usKXS5jGDzjwqv3FJ/refining-the-sharp-left-turn-threat-model):
 

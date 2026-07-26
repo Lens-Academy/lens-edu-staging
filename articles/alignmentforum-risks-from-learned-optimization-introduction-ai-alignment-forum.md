@@ -12,7 +12,14 @@ accessed: 2026-06-16
 description: "Introduces the concept of mesa-optimization—when a learned model is itself an optimizer—and frames the resulting inner and outer alignment problems for AI safety."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090628211}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 _This is the first of five posts in the [Risks from Learned Optimization Sequence](https://www.alignmentforum.org/s/r9tYkB2a8Fp4DN8yB) based on the paper "[Risks from Learned Optimization in Advanced Machine Learning Systems](https://arxiv.org/abs/1906.01820)" by Evan Hubinger, Chris van Merwijk, Vladimir Mikulik, Joar Skalse, and Scott Garrabrant. Each post in the sequence corresponds to a different section of the paper._
 

@@ -8,7 +8,14 @@ accessed: 2026-07-07
 description: "An overview of the key organizations, programs, and projects operating in the AI safety space."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090626649}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 An overview of the key organizations, programs, and projects operating in the AI safety space.
 

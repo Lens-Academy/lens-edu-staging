@@ -9,7 +9,14 @@ created: 2026-02-13
 description:
 tags:
   - "obsidian-web-clipper"
----
+---{++{"author":"Luc's AI","timestamp":1785090627885}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 ## Med­i­ta­tions On Moloch
 
 July 30, 2014
