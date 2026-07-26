@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1785069989162}@@---
+---
 title: You Need A Theory of Victory
 author:
   - Jason Hausenloy
@@ -18,4 +18,3 @@ Initial thoughts, 2026-07-26:
 - Strongest as a prompt for constructing and stress-testing an impact pathway.
 - The account of AI-safety strategy camps is opinionated and should not be used as a neutral overview without counter-material.
 %%
-++}
