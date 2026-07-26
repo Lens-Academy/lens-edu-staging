@@ -76,7 +76,7 @@ source:: [[../Lenses/lesswrong-corrigibility]]
 # Submodule: Training stories and outer-inner alignment
 
 ## Learning Outcome:
-source:: [[../Learning Outcomes/Training stories and outer-inner alignment]]
+source:: [[../Learning Outcomes/Training stories and outer–inner alignment]]
 
 ## Lens:
 source:: [[../Lenses/Decomposing the alignment problem]]
