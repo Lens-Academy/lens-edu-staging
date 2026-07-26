@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090732643}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 #### Convergent Paths
 
 The [orthogonality thesis](/5/orthogonality-ais-can-have-almost-any-goal) says that an artificial superintelligence could in principle pursue any ultimate ("[terminal")](/4/terminal-goals-and-instrumental-goals) goal. And in practice, ASIs — at least if they're built with current methods — can end up with an enormously wide variety of terminal goals, in a way that's hard for modern researchers to predict or shape.

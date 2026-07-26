@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090730539}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### Because there are many ways to perform well in training.
 

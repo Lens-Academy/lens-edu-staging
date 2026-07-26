@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090733966}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 Consider a young AI with the potential to become a superintelligence. Suppose that it's utterly indifferent to the preferences of humans, but that it's still young enough that humanity could shut it down.
 
 Could humanity make a *deal* with the AI?

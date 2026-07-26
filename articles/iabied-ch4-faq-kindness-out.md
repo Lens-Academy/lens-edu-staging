@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090729985}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### Kindness looks contingent on the particulars of our biology and ancestry.
 

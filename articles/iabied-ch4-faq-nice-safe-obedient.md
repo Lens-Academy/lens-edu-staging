@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090730232}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### AIs steer in alien directions that only mostly coincide with helpfulness.
 

@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090728041}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### The AI will fix what *it* sees as flaws.
 

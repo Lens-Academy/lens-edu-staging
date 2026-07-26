@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090733457}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### A Dialogue on Correct Nests, Continued
 

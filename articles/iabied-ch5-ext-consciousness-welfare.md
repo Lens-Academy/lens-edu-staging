@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090731530}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 In the [Chapter 1 resources](/1/are-you-saying-machines-will-become-conscious), we distinguished a few different concepts of "consciousness." The version of consciousness we'll be talking about here is sometimes called things like "subjective experience," "sentience," or "phenomenal consciousness." It's the idea that there's *something it's like* to be that entity; the lights are on, metaphorically speaking.
 
 We also said that we think artificial *intelligence* probably doesn't require artificial *consciousness*. We'll speak to that topic here, and then turn to the question of AI ethics and AI rights.
