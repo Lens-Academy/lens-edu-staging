@@ -9,14 +9,14 @@ accessed: 2026-07-02
 description: "What are all the research and implementation areas helpful for control?"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090634024}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 In this post, I'll list all the areas of control research (and implementation) that seem promising to me.
 

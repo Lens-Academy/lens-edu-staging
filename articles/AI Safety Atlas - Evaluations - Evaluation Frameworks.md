@@ -10,14 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090609109}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Structured frameworks are needed to turn test results into real decisions, like company policies that use safety evaluations as gates to decide when it's safe to build more powerful AI.
 
