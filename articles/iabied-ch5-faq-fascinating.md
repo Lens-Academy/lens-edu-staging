@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090654728}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 #### If AI values "fascination," it probably has better options.
 

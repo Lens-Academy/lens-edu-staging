@@ -9,14 +9,14 @@ accessed: 2026-07-09
 description: "TL;DR • AI safety organizations are capacity constrained by a lack of senior researchers who can mentor and supervise junior talent. This bottleneck…"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090667865}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 ### **TL;DR**
 

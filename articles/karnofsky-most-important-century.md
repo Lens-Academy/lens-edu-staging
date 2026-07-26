@@ -3,14 +3,14 @@ title: 'The "most important century" blog post series'
 author: Holden Karnofsky
 published: 2021-09-24
 source_url: https://www.cold-takes.com/most-important-century/
----{++{"author":"Luc's AI","timestamp":1785090669561}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 The "most important century" series of blog posts argues that **the 21st century could be the most important century ever for humanity,** via the development of advanced AI systems that could dramatically speed up scientific and technological advancement, getting us more quickly than most people imagine to a deeply unfamiliar future.
 

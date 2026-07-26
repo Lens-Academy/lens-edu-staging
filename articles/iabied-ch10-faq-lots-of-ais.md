@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090673544}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### It doesn't much help if we can't make any of them care about good things.
 
 As we noted in Chapter 4, there are numerous ways for AIs to wind up caring about strange ends that are not what anyone actually wanted. It doesn't matter if humanity makes a thousand AIs, if those thousand AIs all care about slightly different weird ends.

@@ -7,14 +7,14 @@ title: "Cascades, Cycles, Insight..."
 author: Eliezer Yudkowsky
 published: 2008-11-24
 source_url: https://www.lesswrong.com/posts/dq3KsCsqNotWc8nAK/cascades-cycles-insight
----{++{"author":"Luc's AI","timestamp":1785090697329}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Followup to: [Surprised by Brains](https://www.lesswrong.com/lw/w4/surprised_by_brains)
 

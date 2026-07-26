@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090694703}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### Because we don't have the technical ability to build it safely.
 
 We touched on this in the book, where we pointed out that an international collaboration still requires an international ban everywhere else (because otherwise the international collaborators would not have the time they need). If we suppose that Earth institutes an international ban, what's the harm in having one unified, collaborative research institute?

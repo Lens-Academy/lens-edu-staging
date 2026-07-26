@@ -9,14 +9,14 @@ accessed: 2026-07-09
 description: "This post identifies a new existential risk factor which has not been recognised in prior literature; Brain-Computer interfaces. Brain-Computer inter…"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090666866}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 This post identifies a new existential risk factor which has not been recognised in prior literature; Brain-Computer interfaces. Brain-Computer interfaces refer to technologies which allow the brain to interface directly with an external device. In particular, BCIs have been developed to read mental and emotional content from neural activity, and have been developed to intentionally stimulate or inhibit certain kinds of brain activity. At present BCIs are used primarily for therapeutic purposes, but their potential use case is much wider.
 
