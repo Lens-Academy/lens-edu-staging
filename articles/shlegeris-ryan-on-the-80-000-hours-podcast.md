@@ -9,14 +9,14 @@ accessed: 2026-07-02
 description: "Ryan’s podcast with Rob Wiblin has just come out!"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090687748}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 [
 
