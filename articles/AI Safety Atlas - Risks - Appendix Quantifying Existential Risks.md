@@ -10,14 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090615607}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 This appendix presents expert estimates for the subjective probability that AI will cause an existential catastrophe for humanity.
 

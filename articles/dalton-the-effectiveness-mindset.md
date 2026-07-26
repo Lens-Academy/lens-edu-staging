@@ -11,14 +11,14 @@ tags:
   - "effective-altruism"
   - "scout-mindset"
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090640649}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 > *"We are always in triage. I fervently hope that one day we will be able to save everyone. In the meantime, it is irresponsible to pretend that we aren't making life and death decisions with the allocation of our resources. Pretending there is no choice only makes our decisions worse."*
 >

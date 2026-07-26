@@ -10,14 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090608045}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Evaluating maximum potential in high-risk areas like cybercrime, deception, and autonomous replication is needed to establish the upper bounds of harm a model could cause if pushed to its limits.
 

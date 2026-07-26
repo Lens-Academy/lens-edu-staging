@@ -12,14 +12,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090613902}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Robust governance requires combining corporate self-governance for technical speed, national regulation for enforcement, and international coordination to address cross border risks.
 

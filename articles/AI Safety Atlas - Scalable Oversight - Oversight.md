@@ -10,14 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090619201}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Giving feedback becomes difficult as AI performs tasks beyond human expertise. We need different methods to generate accurate training signals for complex problems with subjective solutions.
 
