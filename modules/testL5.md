@@ -153,7 +153,7 @@ You can also explore [[Notes/Ideas]] for project brainstorming.
 ## Links
 
 Try editing this document, then open another tab to see the changes sync!
-
+%%
 You can also create new documents using the {~~{"author":"Carol","timestamp":1782576022939}@@"+ New Document" button~>sidebar's create button~~} in the sidebar.
 
 [[Get]]
