@@ -8,14 +8,14 @@ created: 2026-02-27
 description: "Consider two broad possibilities: • I. In worlds where we are doing reasonably well on alignment, AI control agenda does not have much impact. …"
 tags:
   - "obsidian-web-clipper"
----{++{"author":"Luc's AI","timestamp":1785090671917}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 *Epistemic status: The following isn't an airtight argument, but mostly a guess how things play out.*  
   

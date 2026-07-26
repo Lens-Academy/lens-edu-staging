@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090659174}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### Happy, healthy, free people aren't the most efficient solution to almost any problem.
 
 Once you're a superintelligence, almost no problems benefit from including humans in the mix.
