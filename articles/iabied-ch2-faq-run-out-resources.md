@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090721786}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### Probably not.
 
 Humans use data much more efficiently than AIs do, so we know it's possible *in principle* for intelligent minds to be much more data-efficient than modern AIs are. If AI labs "run out" of data when it comes to making LLMs better, that will slow them down for only as long as it takes to invent new methods that are more data-efficient.

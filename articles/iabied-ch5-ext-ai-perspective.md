@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090731284}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Seeing the world from a truly alien perspective is genuinely difficult. As a case study in the difficulty, we can cite Jürgen Schmidhuber, a prominent machine learning scientist. Schmidhuber has played an important role in the history of the field, helping invent recurrent neural networks and laying some of the groundwork for the deep learning revolution.
 

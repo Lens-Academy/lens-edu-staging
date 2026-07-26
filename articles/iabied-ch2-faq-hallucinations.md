@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090707385}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### Hallucinations reveal both a limitation and a misalignment.
 
 Modern LLMs (as we write this in mid-2025) are prone to "hallucinations" where they make up answers to questions in a confident-sounding tone. If you ask them to draft a legal briefing, for example, sometimes they'll make up fake court cases as precedent.

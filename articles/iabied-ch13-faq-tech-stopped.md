@@ -7,14 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090703430}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### Many technologies are banned or heavily regulated.
 
 Nuclear fission is the classic example of a regulated technology. Private companies are not allowed to enrich uranium without government oversight, no matter how useful the cheap energy would be.

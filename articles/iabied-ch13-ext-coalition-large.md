@@ -7,14 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090698687}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 We've heard some people argue that we should take a strong stand against AI art or robotic weapons, in order to send a simpler message: not anti-superintelligence, but anti-*AI.*
 
 Setting aside the merits of the various positions on AI art, deepfakes, and so on, we don't think that this is the best option politically. We want to build a coalition to ban superintelligence. We consider this issue extraordinarily urgent and pressing, and we want this coalition to be as large as possible, including people with a wide variety of views on AI art, drone warfare, self-driving cars, use of AI in schools, and so on.

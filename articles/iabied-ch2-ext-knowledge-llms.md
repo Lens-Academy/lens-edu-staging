@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090705128}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 What follows from understanding LLMs? How does it help us understand smarter-than-human AI and how to prevent everyone from dying?
 
 One advantage it offers is that knowing concretely what goes on in there — at least the part we can see, the inscrutable numbers — can potentially feel more grounding, more solid, than if all you know is, "I woke up one day and the computers started talking for some reason."
