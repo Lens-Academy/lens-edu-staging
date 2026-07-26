@@ -12,7 +12,14 @@ tags:
   - "article-importer"
 ---
 
-AIs can increasingly write, see, code and control robots in ways that often beat humans. They demonstrate surprising skills like reasoning and tool use that challenge previous assumptions about what AI could achieve.
+{++{"author":"Luc's AI","timestamp":1785073546574}@@%%
+Add discussion note here:
+
+...
+
+%%
+
+++}AIs can increasingly write, see, code and control robots in ways that often beat humans. They demonstrate surprising skills like reasoning and tool use that challenge previous assumptions about what AI could achieve.
 
 ---
 

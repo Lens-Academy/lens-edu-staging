@@ -12,7 +12,14 @@ tags:
   - "article-importer"
 ---
 
-Progress on safety requires clear definitions and measurement criteria. For safety planning, we focus on what systems can actually do, breaking down intelligence as specific, measurable capabilities.
+{++{"author":"Luc's AI","timestamp":1785073546811}@@%%
+Add discussion note here:
+
+...
+
+%%
+
+++}Progress on safety requires clear definitions and measurement criteria. For safety planning, we focus on what systems can actually do, breaking down intelligence as specific, measurable capabilities.
 
 ---
 

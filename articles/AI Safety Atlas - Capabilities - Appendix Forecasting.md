@@ -12,7 +12,14 @@ tags:
   - "article-importer"
 ---
 
-## Effective Compute
+{++{"author":"Luc's AI","timestamp":1785073546004}@@%%
+Add discussion note here:
+
+...
+
+%%
+
+++}## Effective Compute
 
 ### Hardware Efficiency
 
