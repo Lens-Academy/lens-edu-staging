@@ -9,14 +9,14 @@ accessed: 2026-07-02
 description: "In a variety of conversations about AI misalignment risks, I find that it is important to be able to clearly point at different levels of AI capabili…"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090633001}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 In a variety of conversations about AI misalignment risks, I find that it is important to be able to clearly point at different levels of AI capability. My current favorite approach is to talk about how much the AI accelerates AI R&D[^1] labor.
 

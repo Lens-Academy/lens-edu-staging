@@ -10,14 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090623174}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Before we can build solutions, we must agree on the problem. Differentiating between AI safety, alignment, ethics, and control helps us build targeted effective strategies for each task.
 

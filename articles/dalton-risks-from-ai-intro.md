@@ -13,14 +13,14 @@ tags:
   - ai-safety
   - existential-risk
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090640411}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Transformative artificial intelligence may well be developed this century. If it is, it may begin to make many significant decisions for us, and rapidly accelerate changes like economic growth. Are we set up to deal with this new technology safely?
 

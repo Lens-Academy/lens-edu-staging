@@ -10,14 +10,14 @@ tags:
   - "ea-intro-program"
   - "effective-altruism"
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090639012}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 # What the program is about
 
