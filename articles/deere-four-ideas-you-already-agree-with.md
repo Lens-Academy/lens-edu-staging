@@ -10,14 +10,14 @@ tags:
   - "ea-intro-program"
   - "effective-altruism"
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090642906}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Here are four ideas that you probably already agree with. Three are about your values, and one is an observation about the world. Individually, they each might seem a bit trite or self-evident. But taken together, they have significant implications for how we think about doing good in the world.
 

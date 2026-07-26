@@ -9,14 +9,14 @@ accessed: 2026-07-09
 description: "This is the first of a series of blog posts on the technical safety problem for hypothetical future brain-like Artificial General Intelligence (AGI) systems. So my immediate priority here is saying what the heck is “the technical safety problem for brain-like AGI” and what do those words even mean and why on earth should I care."
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090634396}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 _(Last revised: June 2026. See changelog at the bottom.)_
 

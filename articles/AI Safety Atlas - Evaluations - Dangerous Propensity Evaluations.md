@@ -10,14 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090608268}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Measuring a model's default tendencies towards behaviors such as sycophancy,  deception or scheming helps us understand the need for additional safeguards or research into alignment techniques.
 

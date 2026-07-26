@@ -10,14 +10,14 @@ accessed: 2026-07-09
 description: "Thanks to Garrett Baker, David Udell, Alex Gray, Paul Colognese, Akash Wasil, Jacques Thibodeau, Michael Ivanitskiy, Zach Stein-Perlman, and Anish Up…"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090643746}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 _Thanks to Garrett Baker, David Udell, Alex Gray, Paul Colognese, Akash Wasil, Jacques Thibodeau, Michael Ivanitskiy, Zach Stein-Perlman, and Anish Upadhayay for feedback on drafts, as well as Scott Viteri for our valuable conversations._
 

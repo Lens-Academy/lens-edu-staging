@@ -12,14 +12,14 @@ tags:
   - cause-prioritization
   - global-health
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090639295}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 # Differences in Impact
 

@@ -8,14 +8,14 @@ published: "2026-07-10"
 description: "An interactive mini-course on recognizing three binary-thinking traps and applying three nuanced-thinking techniques: probabilistic thinking, gray thinking, and multi-factor thinking."
 tags:
   - "interactive-tool"
----{++{"author":"Luc's AI","timestamp":1785090637203}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 The user sees the following text not as an article but as an interactive tool provided by clearerthinking.org, which is embedded in an iframe on our website.
 # Nuanced Thinking Techniques
