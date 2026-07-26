@@ -9,14 +9,14 @@ accessed: 2026-07-02
 description: "I've updated towards significantly shorter timelines"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090633768}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 ### I've updated towards substantially shorter timelines
 

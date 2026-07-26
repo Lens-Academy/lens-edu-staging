@@ -15,14 +15,14 @@ tags:
   - moral-uncertainty
   - community
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090644156}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 # Why I Find Longtermism Hard, and What Keeps Me Motivated
 

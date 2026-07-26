@@ -10,14 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090607770}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Evaluating whether safety protocols remain effective even if a highly capable AI system is actively trying to circumvent them, provides an additional separate layer of confidence beyond just technical alignment.
 

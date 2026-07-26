@@ -9,14 +9,14 @@ accessed: 2026-07-02
 description: "I examine the probability of a behavior sometimes called \"deceptive alignment.\""
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090635030}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 (Cross-posted from [my website](https://joecarlsmith.com/2023/11/15/new-report-scheming-ais-will-ais-fake-alignment-during-training-in-order-to-get-power))
 

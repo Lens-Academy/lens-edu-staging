@@ -9,14 +9,14 @@ accessed: 2026-06-21
 description: "(This was originally a comment that I wrote as a follow up to my question for William MacAskill's AMA. I'm moving it since it's perhaps more on-topic…"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090638678}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 (This was originally a comment that I wrote as a follow up to [my question](https://ea.greaterwrong.com/posts/oPGJrqohDqT8GZieA/ask-me-anything/comment/cL3KFfJwtHZKeBPGH) for William MacAskill's AMA. I'm moving it since it's perhaps more on-topic here.)
 

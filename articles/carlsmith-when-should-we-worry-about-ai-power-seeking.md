@@ -7,14 +7,14 @@ author:
 published: 2025-02-19
 created: 2026-02-13
 description: "Examining the conditions required for rogue AI behavior."
----{++{"author":"Luc's AI","timestamp":1785090635402}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 ### Examining the conditions required for rogue AI behavior.
 
 <audio src="/api/v1/audio/upload/6f7b3e59-6295-438f-9fee-bf95e1448667/src">Audio playback is not supported on your browser. Please upgrade.</audio>

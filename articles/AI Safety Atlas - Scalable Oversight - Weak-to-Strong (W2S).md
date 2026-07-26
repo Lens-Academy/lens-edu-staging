@@ -10,14 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090620771}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 We can potentially train a more powerful AI using supervision or feedback from a weaker but more reliable and human-aligned model. This can be a path to aligning superhuman AI with human-level oversight.
 

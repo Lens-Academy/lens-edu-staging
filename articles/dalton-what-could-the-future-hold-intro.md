@@ -14,14 +14,14 @@ tags:
   - forecasting
   - impartiality
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090640947}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 # What Could the Future Hold? And Why Care?
 
