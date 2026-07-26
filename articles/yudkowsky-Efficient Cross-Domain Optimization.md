@@ -6,7 +6,14 @@ author:
 published: 2008-10-28
 created: 2026-04-12
 description: "Previously in series:  Measuring Optimization Power …"
----
+---{++{"author":"Luc's AI","timestamp":1785090697048}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 **Previously in series**: [Measuring Optimization Power](https://www.lesswrong.com/lw/va/measuring_optimization_power)
 

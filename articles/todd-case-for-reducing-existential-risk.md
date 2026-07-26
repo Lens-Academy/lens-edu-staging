@@ -14,7 +14,14 @@ tags:
   - longtermism
   - cause-prioritization
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090692123}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 # The Case for Reducing Existential Risk
 

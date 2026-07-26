@@ -13,7 +13,14 @@ tags:
   - motivation
   - career-choice
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090691000}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 I feel that one thing that effective altruists haven't sufficiently capitalized on in their marketing is just how amazingly *exciting* the whole thing is. There's Holden Karnofsky's post on [excited altruism](http://blog.givewell.org/2013/08/20/excited-altruism/), but it doesn't really go into the details of *why* effective altruism is so exciting. So let me try to fix that.
 

@@ -9,7 +9,14 @@ accessed: 2026-07-02
 description: "A new analysis of the risk of AIs intentionally performing poorly."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090691565}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 In the future, we will want to use powerful AIs on critical tasks such as doing AI safety and security R&D, dangerous capability evaluations, red-teaming safety protocols, or monitoring other powerful models. Since we care about models performing well on these tasks, we are worried about sandbagging: that if our models are misaligned [^1], they will intentionally underperform.
 

@@ -9,7 +9,14 @@ accessed: 2026-07-07
 description: "The extinction risk posed by artificial superintelligence should be front-page news every day. Here we collate the stories, spanning seven decades, that should have made the headlines."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090692689}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 1950 — Present
 

@@ -9,7 +9,14 @@ accessed: 2026-06-21
 description: "TurnTrout discusses a common misconception in reinforcement learning: that reward is the optimization target of trained agents. He argues reward is b…"
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090692996}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 _This insight was made possible by many conversations with Quintin Pope, where he challenged my implicit assumptions about alignment. I’m not sure who came up with this particular idea._
 

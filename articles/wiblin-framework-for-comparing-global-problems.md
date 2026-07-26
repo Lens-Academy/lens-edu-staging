@@ -12,7 +12,14 @@ tags:
   - cause-prioritization
   - itn-framework
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090694447}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 # A Framework for Comparing Global Problems in Terms of Expected Impact
 

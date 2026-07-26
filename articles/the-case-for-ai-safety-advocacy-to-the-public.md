@@ -9,7 +9,14 @@ accessed: 2026-07-09
 description: "tl;dr: Advocacy to the public is a large and neglected opportunity to advance AI Safety. AI Safety as a field is unfamiliar with advocacy, and it has…"
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090691875}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 **tl;dr**: Advocacy to the public is a large and neglected opportunity to advance AI Safety. AI Safety as a field is unfamiliar with advocacy, and it has reservations, some founded and others not. A deeper understanding of the dynamics of social change reveals the promise of pursuing outside game strategies to complement the already strong inside game strategies. I support an indefinite global Pause on frontier AI and I explain why Pause AI is a good message for advocacy. _Because I’m American and focused on US advocacy, I will mostly be drawing on examples from the US. Please bear in mind, though, that for Pause to be a true solution it will have to be global._ 
 

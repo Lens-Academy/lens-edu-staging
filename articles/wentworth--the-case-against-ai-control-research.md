@@ -8,7 +8,14 @@ created: 2026-02-27
 description: "The AI Control Agenda, in its own words: …"
 tags:
   - "obsidian-web-clipper"
----
+---{++{"author":"Luc's AI","timestamp":1785090694099}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 The AI Control Agenda, [in its own words](https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled):
 

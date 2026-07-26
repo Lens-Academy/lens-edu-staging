@@ -3,7 +3,14 @@ title: "Existential risk from artificial intelligence"
 author: Wikipedia
 published: 2015-05-01
 source_url: https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence
----
+---{++{"author":"Luc's AI","timestamp":1785090694995}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 **Existential risk from artificial intelligence**, or **AI x-risk**, refers to the idea that substantial progress in [artificial general intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence "Artificial general intelligence") (AGI) could lead to [human extinction](https://en.wikipedia.org/wiki/Human_extinction "Human extinction") or an irreversible [global catastrophe](https://en.wikipedia.org/wiki/Global_catastrophic_risk "Global catastrophic risk").[[1]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-aima-1)[[2]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-2)[[3]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-auto1-3)[[4]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-4)
 

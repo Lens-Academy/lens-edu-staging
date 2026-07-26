@@ -9,7 +9,14 @@ accessed: 2026-07-09
 description: "I knew the future would be shocking but this is a whole other level."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090693587}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 _**Note:** If you want to print this post or read it offline, the PDF is probably the way to go. You can [buy it here](https://gum.co/neuralink).  
 And [here’s a G-rated version of the post](https://waitbutwhy.com/neuralink-cleanversion), appropriate for all ages._

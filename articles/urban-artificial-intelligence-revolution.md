@@ -3,7 +3,14 @@ title: "The AI Revolution: The Road to Superintelligence"
 author: Tim Urban
 published: 2015-01-22
 source_url: https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html
----
+---{++{"author":"Luc's AI","timestamp":1785090693275}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 _We are on the edge of change comparable to the rise of human life on Earth._ - Vernor Vinge
 

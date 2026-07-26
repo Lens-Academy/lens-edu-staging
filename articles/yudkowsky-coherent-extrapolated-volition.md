@@ -9,7 +9,14 @@ accessed: 2026-06-21
 description: "Yudkowsky's 2004 statement of Friendly AI theory's account of Friendliness, proposing that an AI's initial dynamic should implement humankind's coherent extrapolated volition — our wish if we knew more, thought faster, were more the people we wished we were, and had grown up farther together."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090697593}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 Yudkowsky, Eliezer. 2004. *Coherent Extrapolated Volition*. The Singularity Institute, San Francisco, CA. The Machine Intelligence Research Institute was previously known as the Singularity Institute.
 

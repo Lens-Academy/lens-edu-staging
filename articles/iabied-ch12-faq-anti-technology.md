@@ -7,7 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090694952}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 #### No. Superintelligent AI is a very unusual case.
 
 We publicly champion technologies such as [nuclear energy](https://x.com/ESYudkowsky/status/1908309414932832301), [cryonics](https://x.com/ESYudkowsky/status/1828822384054575537), [human intelligence augmentation](https://x.com/ESYudkowsky/status/1737305573018702258), and [human challenge trials for medical testing](https://x.com/ESYudkowsky/status/1321152172797554688).
