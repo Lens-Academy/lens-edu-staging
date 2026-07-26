@@ -65,12 +65,12 @@ This block of text was pasted from the clipboard for classification.
 This block of text was pasted from the clipboard for classification.****# Welcome to Lens Editor
 This line was typed by a human during provenance verification, and the AI appended this As the human, I also wrote this opening clause; second half. 
 
-%%
+
 
 hey there
 This is a local development environment running against relay-server, now with AI provenance tracking.
 
-%%
+
 
 ![Lens Academy](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=300&fit=crop)
  this document, then open another tab to see the changes sync!
