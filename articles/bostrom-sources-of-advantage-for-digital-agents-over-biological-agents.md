@@ -8,14 +8,14 @@ created: 2026-02-06
 description: "Artificial agents should have several advantages over humans. Details The following is an excerpt from Superintelligence (Bostrom, 2014),  reproduced with permission. It outlines ten advantages Bostrom expects digital intelligences to have over human intelligences. Sources of advantage for digital intelligence Minor changes in brain volume and wiring can have major consequences, as we see when we compare the intellectual and technological..."
 tags:
   - obsidian-web-clipper
----{++{"author":"Luc's AI","timestamp":1785090632841}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 Artificial agents should have several advantages over humans.
 ## Details
 

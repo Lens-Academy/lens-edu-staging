@@ -9,14 +9,14 @@ accessed: 2026-07-21
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090642573}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 In the decade that I have been working on AI, I’ve watched it grow from a tiny academic field to arguably the most important economic and geopolitical issue in the world. In all that time, perhaps the most important lesson I’ve learned is this: the progress of the underlying technology is inexorable, driven by forces too powerful to stop, but the _way_ in which it happens—the order in which things are built, the applications we choose, and the details of how it is rolled out to society—are eminently possible to change, and it’s possible to have great positive impact by doing so. We can’t _stop_ the bus, but we can _steer_ it. In the past I’ve written about the importance of deploying AI in a way that is [positive for the world](https://darioamodei.com/essay/machines-of-loving-grace), and of ensuring that democracies build and wield the technology [before autocracies do](https://darioamodei.com/post/on-deepseek-and-export-controls). **Over the last few months, I have become increasingly focused on an additional opportunity for steering the bus: the tantalizing possibility, opened up by some recent advances, that we could succeed at _interpretability_ —that is, in understanding the inner workings of AI systems— _before_ models reach an overwhelming level of power.**
 

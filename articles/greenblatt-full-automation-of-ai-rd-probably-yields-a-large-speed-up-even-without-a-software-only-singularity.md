@@ -9,14 +9,14 @@ accessed: 2026-07-02
 description: "Full automation likely yields a one-time speed-up and higher returns from compute"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090638023}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 _This is a somewhat technical note._
 

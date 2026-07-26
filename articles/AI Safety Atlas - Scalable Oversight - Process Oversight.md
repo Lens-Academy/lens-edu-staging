@@ -10,14 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090619684}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Instead of only judging an AI's final answer, we can supervise an AI's reasoning steps, providing more precise feedback. This makes it harder for the AI to fake good results with clever but wrong reasoning.
 

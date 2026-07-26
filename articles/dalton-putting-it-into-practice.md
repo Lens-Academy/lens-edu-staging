@@ -12,14 +12,14 @@ tags:
   - career-choice
   - personal-development
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090639906}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 In this final chapter, we hope to help you apply the principles of effective altruism to your own life and career.
 

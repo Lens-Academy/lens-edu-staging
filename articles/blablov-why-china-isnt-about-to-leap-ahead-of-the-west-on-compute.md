@@ -10,14 +10,14 @@ accessed: 2026-07-02
 description: "Chinese hardware is closing the gap, but major bottlenecks remain"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090632049}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Gradient Updates shares more opinionated or informal takes on big questions in AI progress. These posts solely represent the views of the authors, and do not necessarily reflect the views of Epoch AI as a whole.
 

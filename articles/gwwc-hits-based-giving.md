@@ -14,14 +14,14 @@ tags:
   - expected-value
   - cause-prioritization
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090640858}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 > Warren Buffett and John Doerr are two of the most successful investors in the world. But they made their money very differently. Buffett, for the most part, made his money through "value" investing: he found solid, reliable companies that he thought were undervalued, put money into them, and watched that money go up.
 
