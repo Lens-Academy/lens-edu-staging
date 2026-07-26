@@ -9,14 +9,14 @@ accessed: 2026-07-09
 description: "In this post, I share important lessons I learned whilst co-founding BlueDot Impact about the impact of creating educational materials and spaces. Introduction / TL;DR So many important problems ha…"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090630948}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 _In this post, I share important lessons I learned whilst co-founding BlueDot Impact about the impact of creating educational materials and spaces._
 

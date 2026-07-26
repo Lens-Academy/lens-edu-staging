@@ -9,14 +9,14 @@ accessed: 2026-07-18
 description: "Motivation: This post seeks to explain the Unilateralist’s Curse more thoroughly than is done on the tag and more simply than is done in the original…"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090625481}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Motivation: This post seeks to explain the Unilateralist’s Curse more thoroughly than is done on [the tag](https://forum.effectivealtruism.org/topics/unilateralist-s-curse) and more simply than is done in the [original paper](https://www.tandfonline.com/doi/full/10.1080/02691728.2015.1108373). This post might be helpful to anybody trying to do good, and the examples used apply most to those doing AI Safety or community building work.
 
