@@ -12,7 +12,7 @@ tags:
 ---
 
 %%
-I think I like this article
+I think this article is a decent overivew
 %%
 ## Why might AI-enabled power concentration be a pressing problem?
 
