@@ -9,14 +9,14 @@ accessed: 2026-07-02
 description: "Why are we so friendly to the red team?"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090688233}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Work that I’ve done on techniques for mitigating risk from misaligned AI often makes a number of conservative assumptions about the capabilities of the AIs we’re trying to control. (E.g. [the original AI control paper](https://www.alignmentforum.org/posts/d9FJHawgkiMSPjagR/ai-control-improving-safety-despite-intentional-subversion), [Adaptive Deployment of Untrusted LLMs Reduces Distributed Threats](https://arxiv.org/abs/2411.17693), [How to prevent collusion when using untrusted models to monitor each other](https://www.alignmentforum.org/posts/GCqoks9eZDfpL8L3Q/how-to-prevent-collusion-when-using-untrusted-models-to).) For example:
 

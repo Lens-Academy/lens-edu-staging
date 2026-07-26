@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090677642}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### That would be suicidal, because we're too far from an alignment solution.
 
 Over the past decade or so, some people concerned about the dangers of AI argued that it might be good to advance AI as quickly as possible. The idea was that the smartest AIs would then require nearly all of the world's computing hardware to run. No individual breakthrough would unleash thousands of powerful AIs thinking thousands of times faster than any human *suddenly.*

@@ -12,14 +12,14 @@ tags:
   - "global-health"
   - "progress"
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090685147}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 *(Cross-posted from [Our World in Data](https://ourworldindata.org/much-better-awful-can-be-better).)*
 

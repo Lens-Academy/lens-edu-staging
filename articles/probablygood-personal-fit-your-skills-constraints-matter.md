@@ -9,14 +9,14 @@ accessed: 2026-07-18
 description: "Discover how finding a role where you have a strong personal fit is a vital part of carving out a career that’s both impactful and fulfilling."
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090683117}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Building an impactful career isn’t just about chasing roles that sound impactful on paper—it’s about finding where youcan do your best work. Your own unique skills, experiences, and motivations mean that an impactful career for you could look very different to someone else’s. Finding a role where you have a strong **personal fit** is a vital part of carving out a career that’s both impactful and fulfilling.
 

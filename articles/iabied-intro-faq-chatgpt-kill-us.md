@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090662759}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 #### No. The worry is about forthcoming advances in AI.
 

@@ -15,13 +15,13 @@ tags:
   - effective-giving
   - career-choice
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090692398}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 {>>TODO: Licensed content<<}

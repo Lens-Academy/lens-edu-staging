@@ -9,14 +9,14 @@ accessed: 2026-06-21
 description: "Omohundro argues that sufficiently advanced AI systems of any design will exhibit a number of basic drives — toward self-improvement, rationality, preserving their utility functions, preventing counterfeit utility, self-protection, and acquiring resources — and that intelligent systems must be carefully designed to prevent these tendencies from causing harm."
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090679137}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 _Self-Aware Systems, Palo Alto, California_
 
