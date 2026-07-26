@@ -8,4 +8,10 @@ learning-outcome: Tell a story of a real-life case of AI social manipulation, ju
 
 # Suggested Lenses:
 ## Lens:
-source:: [[../Lenses/AI manipulation - mind hacked|AI manipulation - mind hacked]]
+source:: [[../Lenses/AI manipulation - mind hacked|AI manipulation - mind hacked]]{++{"author":"Luc's AI","timestamp":1785099251674}@@
+
+## Lens:
+source:: [[../Lenses/A.I. - Humanity's Final Invention]]
+
+## Lens:
+source:: [[../Lenses/Wikipedia Existential Risk]]++}
