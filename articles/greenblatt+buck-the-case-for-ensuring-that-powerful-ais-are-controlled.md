@@ -9,14 +9,14 @@ created: 2026-02-27
 description: "In this post, we argue that AI labs should ensure that powerful AIs are controlled. That is, labs should make sure that the safety measures they appl…"
 tags:
   - "obsidian-web-clipper"
----{++{"author":"Luc's AI","timestamp":1785090632546}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 In this post, we argue that AI labs should ensure that powerful AIs are *controlled*. That is, labs should make sure that the safety measures they apply to their powerful models prevent unacceptably bad outcomes, even if the AIs are misaligned and intentionally try to subvert those safety measures. We think no fundamental research breakthroughs are required for labs to implement safety measures that meet our standard for AI control for early transformatively useful AIs; we think that meeting our standard would substantially reduce the risks posed by intentional subversion.
 

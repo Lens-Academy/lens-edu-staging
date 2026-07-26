@@ -9,14 +9,14 @@ accessed: 2026-07-09
 description: "This is the third of three posts summarizing what I learned when I interviewed 17 AI safety experts about their \"big picture\" of the existential AI r…"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090646890}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 This is the third of three posts summarizing what I learned when I interviewed 17 AI safety experts about their "big picture" of the existential AI risk landscape: how AGI will play out, how things might go wrong, and what the AI safety community should be doing. See [here](https://www.lesswrong.com/posts/yMTNjeEHfHcf2x7nY/big-picture-ai-safety-introduction) for a list of the participants and the standardized list of questions I asked.
 

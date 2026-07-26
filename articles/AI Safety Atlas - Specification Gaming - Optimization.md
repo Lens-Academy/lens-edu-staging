@@ -10,14 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090618855}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 When an AI system is given a simple, measurable objective, and told to increase its performance at all costs, then it will almost inevitably find shortcuts that achieve high scores, but completely violate the original intent.
 

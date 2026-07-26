@@ -12,14 +12,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090613535}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 Building effective, adaptive AI governance with strong technical expertise, professional auditing, and international coordination is an urgent prerequisite to managing risks before capabilities outpace our control.
 
