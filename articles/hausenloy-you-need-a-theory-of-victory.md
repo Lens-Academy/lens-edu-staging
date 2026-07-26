@@ -114,8 +114,6 @@ So how’s this different from a Theory of Change? It accounts for
 >
 > “Father had told Draco about the Rule of Three, which was that any plot which required more than three different things to happen would never work in real life. Father had further explained that since only a fool would attempt a plot that was as complicated as possible, the real limit was two.”
 
-\*\*\*
-
 ## ToVs in AI Safety
 
 The next section of the talk is a quick overview of the explicit and implicit (unsaid) assumptions underlying what I, and regular readers of this blog, would term the “ [two camps in AI safety](https://firstscattering.com/p/two-camps-in-ai-safety).” I will say, they don’t often agree, and can have quite vicious disagreements indeed. (insert Freud here about the narcissism of small differences)
