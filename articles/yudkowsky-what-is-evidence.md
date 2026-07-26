@@ -14,14 +14,14 @@ tags:
   - evidence
   - bayesian-thinking
   - work-in-progress
----{++{"author":"Luc's AI","timestamp":1785090699644}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 > The sentence "snow is white" is *true* if and only if snow is white.
 >

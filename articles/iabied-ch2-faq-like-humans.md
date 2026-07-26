@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090708125}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### There's a difference between the machinery it takes to be one person and the machinery it takes to predict many individuals.
 
 AIs like ChatGPT are trained to accurately predict their training data. And their training data is made mostly from human text, such as Wikipedia pages and chat room conversations. (This part of the training process is called "pre-training," which is what the "P" in "GPT" stands for.) Early LLMs like GPT-2 were trained *exclusively* for prediction in this way, while more recent AIs are also trained on things like accuracy when solving (computer-generated) math problems, and giving good responses according to another AI model, and various other goals.

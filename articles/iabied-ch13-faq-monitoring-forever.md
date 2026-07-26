@@ -7,14 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090701404}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### No. Some other off-ramp will be needed.
 
 AI research progress probably can't be stopped completely. With *enough* time, researchers would probably eventually figure out much more efficient methods of creating AIs. Or perhaps, with enough time, some rogue actor would eventually succeed at subverting a ban.

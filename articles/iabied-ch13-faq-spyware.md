@@ -7,14 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090702560}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### By acting soon.
 
 To train modern AIs, you need a lot of very specialized chips working together in close proximity. Shutting down AI research would involve shutting down some enormous datacenters, and stopping the creation of the highest-end specialized AI chips. These aren't consumer laptops we're talking about. Most people wouldn't even notice the difference.

@@ -7,14 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090704013}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### No. We don't know where the critical thresholds are.
 
 There's a decent chance that AI development will get out of control once AIs are smart enough to automate all of AI research. That could, in theory, happen quietly in a lab with no loud precursor events, with no warning shots to wake humanity up.

@@ -7,14 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----{++{"author":"Luc's AI","timestamp":1785090728287}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 #### By Default, AIs Don't Self-Modify the Way We'd Want
 
 Humans are reflective. We get some say in what we value. If we're rich enough and lucky enough, we sometimes get to decide whether we're going to dedicate our lives to family, or to art, or to some noble cause, or (more commonly) to making our lives a mixture of many such things. This is done in a way that involves introspecting on what we care about, resolving internal tensions and tradeoffs, and pursuing something we endorse.
