@@ -7,7 +7,14 @@ created: 2026-02-04
 description: "Self-supervised learning may create AGI or its foundation. What would that look like?Unlike the limit of RL, the limit of self-supervised learning has received surprisingly little conceptual attention, and recent progress has made deconfusion in this domain more pressing."
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090667383}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 ---
 
 *Thanks to Chris Scammell, Adam Shimi, Lee Sharkey, Evan Hubinger, Nicholas Dupuis, Leo Gao, Johannes Treutlein, and Jonathan Low for feedback on drafts.*

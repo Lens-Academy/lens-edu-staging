@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090665258}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 #### Hollywood "Intelligence"
 
 The concept we're calling "intelligence" is not well-depicted in popular culture, under that name or any other.

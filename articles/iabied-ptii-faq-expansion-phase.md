@@ -7,7 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090664612}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### We were trying to depict an especially slow and comprehensible scenario, among plausible scenarios.
 

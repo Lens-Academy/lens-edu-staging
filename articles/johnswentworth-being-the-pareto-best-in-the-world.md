@@ -9,7 +9,14 @@ accessed: 2026-07-18
 description: "John Wentworth argues that becoming one of the best in the world at *one* specific skill is hard, but it's not as hard to become the best in the worl…"
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090667635}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 The generalized efficient markets (GEM) principle says, roughly, that things which would give you a big windfall of money and/or status, will not be easy. If such an opportunity were available, someone else would have already taken it. You will never find a $100 bill on the floor of Grand Central Station at rush hour, because someone would have picked it up already.
 

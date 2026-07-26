@@ -7,7 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090664929}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### To provide a challenge to Sable.
 

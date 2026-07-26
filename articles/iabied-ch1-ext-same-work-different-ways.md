@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090665900}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 When you only have one example of how something works, it's easy to imagine that it must only work that way.
 
 If you have seen birds but not airplanes, you might imagine that all flying devices must flap their wings.

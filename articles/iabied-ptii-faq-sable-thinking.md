@@ -7,7 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090665975}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### Our story showcases how AI is liable to have weird and unintended preferences.
 

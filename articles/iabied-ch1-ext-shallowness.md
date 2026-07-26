@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090666152}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 In the chapter, we wrote that you can "see a shallowness" in the intelligence of current AIs (as of mid-to-late 2025), if you know where to look. If you haven't seen it yourself yet, here are a few places you might look:
 
 - Anthropic's Claude 3.7 Sonnet [got stuck in repetitive loops](https://www.lesswrong.com/posts/HyD3khBjnBhvsp8Gb/so-how-well-is-claude-playing-pokemon) while trying to beat a simple Pokémon video game.

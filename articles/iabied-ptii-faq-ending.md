@@ -7,7 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090664342}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### Because it constitutes our actual best guess according to what's physically possible.
 

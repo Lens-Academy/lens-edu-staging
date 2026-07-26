@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090666419}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 #### You could call it that if you'd like.
 
 ChatGPT and its ilk are more general than the AIs that came before them. They can do a little math, and write some poetry and some code. ChatGPT can't always do these things *well* (as of August 2025), but it can do a whole lot of things.

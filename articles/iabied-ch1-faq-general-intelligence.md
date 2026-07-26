@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090666911}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 #### Yes.
 
 The peregrine falcon can dive through the air at 240 miles per hour. A sperm whale can dive miles below the ocean's surface. A falcon would drown in the sea, and a whale would splat if it tried to fly; but somehow humans have managed to both fly faster and dive deeper than either creature while inside metal shells of our own design.
