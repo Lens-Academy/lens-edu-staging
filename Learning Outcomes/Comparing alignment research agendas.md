@@ -82,4 +82,12 @@ source:: [[../Lenses/AF not really math not really science]]
 source:: [[../Lenses/Embedded agents]]
 
 ## Lens:
-source:: [[../Lenses/Realism about rationality]]
+source:: [[../Lenses/Realism about rationality]]{++{"author":"Luc's AI","timestamp":1785099732386}@@
+
+## Lens:
+source:: [[../Lenses/Theories of Change Need a Theory of Victory]]
+notes:: Teaches the distinction between a local theory of change and a full theory of victory, then has learners construct and stress-test an impact pathway.
+
+## Lens:
+source:: [[../Lenses/Two Camps, Two Theories of Victory]]
+notes:: Uses Hausenloy's explicitly opinionated two-camp map to compare rival strategic assumptions and causal stories; not intended as a neutral taxonomy of the field.++}
