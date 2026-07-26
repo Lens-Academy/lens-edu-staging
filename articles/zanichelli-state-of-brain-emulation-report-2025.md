@@ -13,7 +13,14 @@ accessed: 2026-07-09
 description: "The State of Brain Emulation Report 2025 provides a comprehensive reassessment of the field's progress since Sandberg and Bostrom's 2008 Whole Brain Emulation roadmap. The report is organized around three core capabilities required for brain emulation: recording brain function (Neural Dynamics), mapping brain structure (Connectomics), and emulation and embodiment (Computational Neuroscience). It also identifies ongoing challenges and outlines strategic priorities to help the field move forward."
 tags:
   - "article-importer"
----
+---{++{"author":"Luc's AI","timestamp":1785090699889}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 ## Quantitative Biology > Neurons and Cognition
 

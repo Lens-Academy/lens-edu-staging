@@ -7,7 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090700820}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 #### An increasing number already have.
 
 Examples include statements from President Donald Trump, Chuck Schumer (D-NY), Seth Moulton (D-MA), Richard Blumenthal (D-CT), John Hickenlooper (D-CO), Nancy Mace (R-SC), Jill Tokuda (D-HI), Marjorie Taylor-Greene (R-GA), Cynthia Lummis (R-WY), Raja Krishnamoorthi (D-IL), Kevin Kiley (R-CA), Don Beyer (D-VA), Bernie Sanders (I-VT), and United Nations Secretary-General Antonio Guterres.

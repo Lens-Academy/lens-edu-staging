@@ -13,7 +13,14 @@ tags:
   - rationality
   - giving
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090698531}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 # Purchase Fuzzies and Utilons Separately
 

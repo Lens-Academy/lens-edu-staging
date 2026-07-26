@@ -7,7 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090698913}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 Many people, including members of the U.S. House of Representatives and the Senate, have asked us what concrete and specific legislative proposals would actually help with this problem.
 
 We are not policy experts, and we see many possible answers to that question, depending on whether you're looking for legislation that is easier to pass today but less directly useful (functioning more as stepping stones to more ambitious legislation) or proposals that seem harder to pass but which would substantially address the core issues.

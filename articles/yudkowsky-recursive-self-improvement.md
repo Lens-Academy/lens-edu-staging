@@ -3,7 +3,14 @@ title: "Recursive Self-Improvement"
 author: Eliezer Yudkowsky
 published: 2008-12-01
 source_url: https://www.lesswrong.com/posts/JBadX7rwdcRFzGuju/recursive-self-improvement
----
+---{++{"author":"Luc's AI","timestamp":1785090698285}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 **Followup to**: [Life's Story Continues](https://www.lesswrong.com/lw/w3/lifes_story_continues), [Surprised by Brains](https://www.lesswrong.com/lw/w4/surprised_by_brains), [Cascades, Cycles, Insight](https://www.lesswrong.com/lw/w5/cascades_cycles_insight), [Recursion, Magic](https://www.lesswrong.com/lw/w6/recursion_magic), [Engelbart: Insufficiently Recursive](https://www.lesswrong.com/lw/w8/engelbart_insufficiently_recursive), [Total Nano Domination](https://www.lesswrong.com/lw/w9/total_nano_domination)
 

@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090705371}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 It's hard to come across insights in AI, even when they look simple and obvious in retrospect.
 
 This is important to understand because doing AI *right* will probably require a lot of insights. No matter how simple they might sound in retrospect, such insights can sometimes take decades of toil to find.

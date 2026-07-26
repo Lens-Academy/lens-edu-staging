@@ -7,7 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090699194}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 We aren't experts in international law, and this is a formidably complicated topic that we expect to require a large amount of effort by domain experts. In the interest of getting the ball rolling quickly, however, we've worked with our technical governance team and outside advisors to assemble some sketches and guesses at some measures that could be effective.
 
 The overall problem has been preventing the development of machine superintelligence for decades. And because we don't know where the critical thresholds are, that essentially amounts to stopping AI research and development entirely.

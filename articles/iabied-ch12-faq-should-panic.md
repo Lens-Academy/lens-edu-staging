@@ -7,7 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090698449}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 #### We're saying government officials should take the problem seriously.
 
 We don't see how panicking would help the situation. Panicking isn't how society survived the threat of fascism during World War II, nor the threat of nuclear annihilation during the Cold War.

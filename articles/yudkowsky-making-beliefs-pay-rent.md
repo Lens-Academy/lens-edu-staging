@@ -14,6 +14,13 @@ tags:
   - bayesian-thinking
   - beliefs
   - work-in-progress
----
+---{++{"author":"Luc's AI","timestamp":1785090698005}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 {>>TODO: Licensed content<<}

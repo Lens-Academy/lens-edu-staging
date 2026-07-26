@@ -9,7 +9,14 @@ created: 2026-02-04
 description:
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090699053}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 ### Nobody knows exactly what an AI will become. That’s very bad.
 
 ![](https://ddrn4nc0f9fxil.archive.is/blU6r/3327d8705a1fb90970f0aa1d054372f9f7f4c848.avif)

@@ -8,7 +8,14 @@ created: 2026-02-13
 description: "The following is a fictional dialogue building off of AI Alignment: Why It’s Hard, and Where to Start.   (Somewhere in a not-very-near neighboring world, where science took a very different course…)   ALFONSO:  Hello, Beth. I’ve noticed a lot of speculations lately about “spaceplanes” being used to attack cities, or possibly becoming infused with malevolent […]"
 tags:
   - "obsidian-web-clipper"
----
+---{++{"author":"Luc's AI","timestamp":1785090699381}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 The following is a fictional dialogue building off of [AI Alignment: Why It’s Hard, and Where to Start](https://intelligence.org/2016/12/28/ai-alignment-why-its-hard-and-where-to-start/).
 
 ---

@@ -8,7 +8,14 @@ created: 2026-02-04
 description: "Follow-up to: AI Alignment: Why It’s Hard, and Where to Start • ---------------------------------------- •   …"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090698776}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 **Follow-up to:**[AI Alignment: Why It’s Hard, and Where to Start](https://intelligence.org/2016/12/28/ai-alignment-why-its-hard-and-where-to-start/)
 
 ---

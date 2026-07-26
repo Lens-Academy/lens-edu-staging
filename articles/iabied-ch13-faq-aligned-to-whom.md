@@ -7,7 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090699437}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 #### This is a thorny question. Regardless of the answer, we need to halt development.
 
 If humanity builds a superintelligence someday, we should make sure that it's "aligned" with human values. But with the values of which humans, exactly? People disagree enormously about right and wrong, about religion, about social norms, about policy tradeoffs, etc.
