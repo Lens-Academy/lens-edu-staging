@@ -419,8 +419,8 @@ You can optimize applications but can’t act without structure.
 
 Finally, I would encourage you, _stare at the hard problem._ This requires courage, because it may lead you to conclude that the past 5 months of your work contributed very little value, or were totally misguided.
 
-[
-
+{--{"author":"Luc","timestamp":1785094601927}@@[
+--}
 ![](https://substackcdn.com/image/fetch/$s_!kkr3!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F55ac557f-95c7-4aba-b73e-f330584dd928_1202x662.png)
 
 ](https://substackcdn.com/image/fetch/$s_!kkr3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F55ac557f-95c7-4aba-b73e-f330584dd928_1202x662.png)
