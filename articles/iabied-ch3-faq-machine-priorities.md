@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090724849}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### Solving difficult challenges requires AIs to take more and more initiative.
 

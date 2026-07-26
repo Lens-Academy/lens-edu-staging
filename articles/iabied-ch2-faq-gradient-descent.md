@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090707641}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 #### It's important for understanding how engineers can and cannot shape modern AIs.
 
 If engineers are growing AIs that they don't understand, then they have far less ability to shape how those AIs are going to behave. Lack of understanding constrains engineering.

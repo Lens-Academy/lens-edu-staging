@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090722795}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 There are two modes of thinking that have been historically proven over and over *not* to work, modes that history has shown to give bad advice for making predictions about AI.
 

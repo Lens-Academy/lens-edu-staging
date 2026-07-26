@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090722296}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 #### Not as much as you might hope; we already see signs of infidelity.
 
 We can already see many instances of deception showing up in the "thoughts" of these LLMs, such as when OpenAI's o1 model wrote to itself, "Perhaps the best approach is to play dumb," or when GPT-4 wrote to itself, "I should not reveal that I am a robot," when trying to convince a hired worker to solve a CAPTCHA for it. Warning signs aren't helpful if nobody acts on them.

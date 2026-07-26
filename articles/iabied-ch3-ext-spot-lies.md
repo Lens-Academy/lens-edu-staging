@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090723914}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### Deep Machinery of Prediction
 

@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090721545}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 #### To predict the next token well, LLMs need to learn how the world works.
 
 Suppose that a doctor is writing up a report of what happened to a medical patient. A segment of the medical report reads:

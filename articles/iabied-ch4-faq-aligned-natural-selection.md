@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090727789}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### With more technology, we'd likely make even fewer copies of our genes.
 

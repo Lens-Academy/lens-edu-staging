@@ -7,7 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
----
+---{++{"author":"Luc's AI","timestamp":1785090724551}@@
+
+%%
+Add discussion note here:
+
+...
+
+%%++}
 
 #### AIs are grown, not crafted. So they already do things other than what they're told to do.
 
