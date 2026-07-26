@@ -10,14 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090617498}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 AI risks can be categorized by their primary causes—misuse, misalignment, and systemic factors—and their potential severity, ranging from individual harms to existential threats.
 

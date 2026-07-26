@@ -10,14 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090609685}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 AI models are advancing so fast that our tests for their abilities become outdated almost immediately, forcing us to constantly develop more comprehensive evaluation methods to keep up.
 
