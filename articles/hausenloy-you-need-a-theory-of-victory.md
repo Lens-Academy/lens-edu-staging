@@ -178,27 +178,38 @@ This view would look favorably upon the progress that has been made so far, favo
 
 Automating alignment is a top priority (getting AIs to help us do our homework) and, implicitly, the alignment problem is one that AI can help solve without itself being aligned first (the entire “getting work from untrusted systems” motivation behind much of the [AI control agenda](https://blog.bluedot.org/p/ai-control)). This view is best written in Carlsmith’s “ [AI for AI safety](https://joecarlsmith.com/2025/03/14/ai-for-ai-safety/) ” series, but also hinted at by Jan Leike’s “ [Alignment is not solved but it increasingly looks solvable](https://aligned.substack.com/p/alignment-is-not-solved-but-increasingly-looks-solvable).”
 
-[
+{--{"author":"Luc's AI","timestamp":1785094291498}@@[
 
 ![](https://substackcdn.com/image/fetch/$s_!dESd!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff87a7bb3-35f5-4a49-9144-9b1480c3b041_1202x682.png)
 
-](https://substackcdn.com/image/fetch/$s_!dESd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff87a7bb3-35f5-4a49-9144-9b1480c3b041_1202x682.png)
+](https://substackcdn.com/image/fetch/$s_!dESd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff87a7bb3-35f5-4a49-9144-9b1480c3b041_1202x682.png)--}{++{"author":"Luc's AI","timestamp":1785094291498}@@| Topic | Explicit | Implicit |
+| --- | --- | --- |
+| Progress | Models are surprisingly good. Control and evals can work. | Surprise goodness is evidence, not luck. Model behavior is stable enough to monitor. |
+| Lab leaders | Mostly well-intentioned. Market incentives help. | Good intentions plus market pressures approximate good governance. Culture substitutes for regulation. |
+| RLHF | Catch scheming, retrain. Warning shots are useful. | Deception is detectable at a rate that matters. The system can absorb warning shots before catastrophe. |
+| Automating alignment | Top priority — get AIs to help. | The alignment problem is the kind of problem AI can help solve without itself being aligned first. |++}
 
 And finally, on “competitive pressures”, that a pause is unrealistic, and that the games and the incentives are fixed. Political action is harder to influence and has more backfire risk, that not building superintelligence ever is an economic and moral disaster, an existential risk of its own, and that the public should work within institutions, and build technocratic competence. Don’t, they say, activate forces that you can’t control.
 
-[
+{--{"author":"Luc's AI","timestamp":1785094291775}@@[
 
 ![](https://substackcdn.com/image/fetch/$s_!izfi!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83a2d9d3-92f1-4af4-9ba3-7651e81905d3_1186x662.png)
 
-](https://substackcdn.com/image/fetch/$s_!izfi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83a2d9d3-92f1-4af4-9ba3-7651e81905d3_1186x662.png)
+](https://substackcdn.com/image/fetch/$s_!izfi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83a2d9d3-92f1-4af4-9ba3-7651e81905d3_1186x662.png)--}{++{"author":"Luc's AI","timestamp":1785094291775}@@| Topic | Explicit | Implicit |
+| --- | --- | --- |
+| Competition | Realists. Pause is unrealistic. | The game is fixed; we can only play it well. Political action is higher-cost than technical action. |
+| Risk tolerance | Pragmatic tradeoffs. | The counterfactual to building is worse. Some existential risk is the price of the best outcome. |
+| Public | Work within institutions. Upskill people. | Existing power structures are the right vehicle. Technocratic competence is the bottleneck. |++}
 
 I will, here, interject with my opinion. Perhaps best summarized by my post “ [whose alignment research are we automating](https://firstscattering.com/p/whos-alignment-research-are-we-automating) ”, and the general take of we should not rely on the benevolence of individuals (like lab leaders) for our good outcomes, no matter how similar to us they seem (particularly crazy given that _those_ individuals are saying that the technology they are building may end the world), and that we should not rely on Kumbaya / rational decision-making / a warning shot to prevail for pausing right at the edge to do automated alignment research.
 
-[
+{--{"author":"Luc's AI","timestamp":1785094292038}@@[--}{++{"author":"Luc's AI","timestamp":1785094292038}@@**Theory 1 — the author’s opinion**++}
 
-![](https://substackcdn.com/image/fetch/$s_!tcSs!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f0843b4-63fc-4b62-aebe-8134f1dde33b_1198x662.png)
+{--{"author":"Luc's AI","timestamp":1785094292038}@@![](https://substackcdn.com/image/fetch/$s_!tcSs!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f0843b4-63fc-4b62-aebe-8134f1dde33b_1198x662.png)--}{++{"author":"Luc's AI","timestamp":1785094292038}@@1. Alignment is an engineering problem, not a scientific one. (??)
+2. We trust lab leaders to distribute the benefits or act benevolently. (??)
+3. We’ll pause right at the edge. (??)++}
 
-](https://substackcdn.com/image/fetch/$s_!tcSs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f0843b4-63fc-4b62-aebe-8134f1dde33b_1198x662.png)
+{--{"author":"Luc's AI","timestamp":1785094292038}@@](https://substackcdn.com/image/fetch/$s_!tcSs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f0843b4-63fc-4b62-aebe-8134f1dde33b_1198x662.png)--}{++{"author":"Luc's AI","timestamp":1785094292038}@@The accompanying meme asks: “Whose alignment are we automating?”++}
 
 ## Camp 2
 
