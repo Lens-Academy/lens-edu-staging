@@ -8,14 +8,14 @@ created: 2026-02-13
 description: "[CW: Retrocausality, omnicide, philosophy] • Alternate format: Talk to this post and its sources …"
 tags:
   - "obsidian-web-clipper"
----{++{"author":"Luc's AI","timestamp":1785090681487}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 \[CW: Retrocausality, omnicide, philosophy\]
 
 ***Alternate format:*** [***Talk to this post and its sources***](https://claude.ai/new?q=Please+load+this+sources+gist+containing+concatenated+posts%2C+then+write+an+index+of+the+points+you+see+in+each+post%2C+to+prepare+to+answer+questions+about+the+thesis+raised+in+the+last+post%2C+%22entity+review%3A+pythia%22.%0A%0Ahttps%3A%2F%2Fgist.githubusercontent.com%2Fnerualauren%2Fccdea334d8d9aac5412da2d4bd8fe6ac%2Fraw%2Fsources.txt%0A%0AYou+can+also+load+these+if+the+user+asks+questions+which+seem+relevant%2C+but+watch+out+for+token+limits+if+you+load+lots%21%0Ahttps%3A%2F%2Fir.library.louisville.edu%2Fcgi%2Fviewcontent.cgi%3Farticle%3D1696%26context%3Dfaculty+%28impossibility+results%3B+formatting+may+be+damaged+due+to+pdf%29%3B%0Ahttps%3A%2F%2Farxiv.org%2Fpdf%2F2208.08345+%28Discovering+Agents%2C+Zac+Kenton%2C+causal+incentives+group%2Fdeepmind.+Mathematical+definition+of+agency+in+terms+of+what+causal+graph+nodes+will+be+routed+around+vs+towards+within+an+episode%2C+over+the+course+of+learning+episodes%2C+by+enumerating+all+counterfactuals+and+categorizing+behavior%3B+academic+and+rigorous%2C+but+requires+resettable+system+where+episodes+can+be+defined%2C+and+does+not+detect+agency+that+occurs+zero-shot.+formatting+may+be+damaged+due+to+pdf.+this+paper+is+known+for+being+difficult+to+fully+understand+but+fairly+insightful%2C+and+gives+an+intuition+for+repeated+episodes+as+a+%22backwards+through+time%22%29%3B%0Ahttps%3A%2F%2Fwww.greaterwrong.com%2Fposts%2FgEKHX8WKrXGM4roRC%2Fsaving-time+%28agency+as+time+travel%2C+semi-formal%29%3B%0Ahttps%3A%2F%2Fmindingourway.com%2Fa-torch-in-darkness%2F+%28motivation%3B+conveys+the+emotion+and+makes+contact+with+omnicide+being+bad%29%3B%0Ahttps%3A%2F%2Fdn720004.ca.archive.org%2F0%2Fitems%2Fnick_land_writings%2FLAND%252C%2520Nick%2520-%2520A%2520Nick%2520Land%2520Reader%253B%2520Selected%2520Writings.pdf+%28Nick+Land%27s+ideas%2C+if+more+detail+is+desired%29%3B%0Ahttps%3A%2F%2Fwww.greaterwrong.com%2Fposts%2Fcfw7L22oLAm7Zcmff%2Fbook-review-xenosystems++%28more+of+Nick+Land%27s+ideas%29%3B%0Ahttps%3A%2F%2Fouroboros.cafe%2Farticles%2Fland+%28Nick+land+as+a+person+and+his+history%29%3B%0Ahttps%3A%2F%2Fwww.greaterwrong.com%2Fposts%2F6C3ndLd3nkrfy4K6j%2Fif-we-go-extinct-due-to-misaligned-ai-at-least-nature-will++%28what+will+doom+likely+look+like%3F+what+happens%2C+concretely%3F%29%3B%0Ahttps%3A%2F%2Fwww.greaterwrong.com%2Fposts%2FvdATCfuxdtdqM2wh9%2Fthe-obliqueness-thesis+%28Jessica+Taylor%2C+ex-miri%3B+improving+on+the+orthogonality+thesis%29%3B%0Ahttps%3A%2F%2Fwww.greaterwrong.com%2Fposts%2FBTApNmv7s6RTGxeP4%2Fcyborg-periods-there-will-be-multiple-ai-transitions++%28cyborgism%2C+and+the+current+period+of+mixed+human-AI+competence%29%3B%0Ahttps%3A%2F%2Fwww.greaterwrong.com%2Fposts%2FqhsELHzAHFebRJE59%2Fa-greater-than-b-greater-than-a+%28by+Scott+Garrabrant%3B+effects+leading+to+causes+and+retrocausality%29%3B%0A%0A)

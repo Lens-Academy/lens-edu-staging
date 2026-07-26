@@ -9,14 +9,14 @@ accessed: 2026-07-02
 description: "AI inference is still cheap relative to human labor"
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090696449}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 [METR’s frontier time horizons](https://metr.org/time-horizons/) are doubling every few months, providing substantial evidence that AI will soon be able to automate many tasks or even jobs. But per-task inference costs have also risen sharply, and automation requires AI labor to be affordable, not just possible.[^1] Many people look at the rising compute bills behind frontier models and conclude that automation will soon become unaffordable.
 

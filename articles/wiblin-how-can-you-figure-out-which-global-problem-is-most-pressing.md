@@ -9,14 +9,14 @@ accessed: 2026-07-10
 description: "There are a lot of problems in the world. We show you a way to figure out which are best to work on."
 tags:
   - "article-importer"
----{++{"author":"Luc's AI","timestamp":1785090694722}@@
+---
 
 %%
 Add discussion note here:
 
 ...
 
-%%++}
+%%
 
 ## On this page:
 
