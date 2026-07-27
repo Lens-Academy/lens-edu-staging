@@ -2,18 +2,18 @@
 id: cd2b42fc-fa03-4d8c-93aa-594050ece124
 discussion: <discord url>
 learning-outcome: Tell a story of a real-life case of AI social manipulation, justify why stronger AI would be better at this, and tell a speculative story of how this could contribute to x-risk.
-{++{"author":"Luc's AI","timestamp":1785149289338}@@domain: "[[../Domains/Threat models and pathways to harm]]"
+domain: "[[../Domains/Threat models and pathways to harm]]"
 stage: beginner
-++}---
+---
 ## Test:
 
 
 # Suggested Lenses:
 ## Lens:
-source:: [[../Lenses/AI manipulation - mind hacked|AI manipulation - mind hacked]]{++{"author":"Luc's AI","timestamp":1785099251674}@@
+source:: [[../Lenses/AI manipulation - mind hacked|AI manipulation - mind hacked]]
 
 ## Lens:
 source:: [[../Lenses/A.I. - Humanity's Final Invention]]
 
 ## Lens:
-source:: [[../Lenses/Wikipedia Existential Risk]]++}
+source:: [[../Lenses/Wikipedia Existential Risk]]

@@ -1,9 +1,9 @@
 ---
 id: 14813ed3-0768-4bd9-940c-7248793e5643
 learning-outcome: Assess the case for public AI safety advocacy — the inside-game vs outside-game distinction, contrasting communication doctrines, and the main risks advocacy has to manage
-{++{"author":"Luc's AI","timestamp":1785149315637}@@domain: "[[../Domains/Strategy, contribution, and field-building]]"
+domain: "[[../Domains/Strategy, contribution, and field-building]]"
 stage: intermediate
-++}---
+---
 ## Test:
 id:: 821efa8f-6625-4c92-a461-c2e225cfb59a
 #### Question

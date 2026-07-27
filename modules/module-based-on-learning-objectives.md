@@ -20,7 +20,7 @@ We begin by examining the potential of AI and the risks and opportunities that t
 
 
 
-![[../../Learning Outcomes/Objections {--{"author":"Luc's AI","timestamp":1785098833733}@@L1 - Realize objections --}and rebuttals exist|Objections{--{"author":"Luc's AI","timestamp":1785098833733}@@ L1 - Realize objections--} and rebuttals exist]]
+![[../../Learning Outcomes/Objections and rebuttals exist|Objections and rebuttals exist]]
 
 
 

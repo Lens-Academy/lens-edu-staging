@@ -2,9 +2,9 @@
 id: 289dffe0-fd13-433b-80fd-7031550307b9
 discussion: <discord url>
 learning-outcome: Participant can explain the article’s causal, counterfactual definition of agency, and use it to draw a principled boundary between when “agent” is a useful model of an AI system and when it is a misleading projection, by specifying what action variables and interventions would be required to test for agency in a given system.
-{++{"author":"Luc's AI","timestamp":1785149301519}@@domain: "[[../Domains/Agency, objectives, and alignment foundations]]"
+domain: "[[../Domains/Agency, objectives, and alignment foundations]]"
 stage: intermediate
-++}---
+---
 ## Test:
 
 

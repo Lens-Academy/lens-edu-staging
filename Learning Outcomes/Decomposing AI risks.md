@@ -1,9 +1,9 @@
 ---
 id: eaa7fe83-fbab-4aaa-9372-de7e320929df
 learning-outcome: Understand the basic decomposition of risks into AI misalignment, misuse, power grabs, and others
-{++{"author":"Luc's AI","timestamp":1785149285139}@@domain: "[[../Domains/Threat models and pathways to harm]]"
+domain: "[[../Domains/Threat models and pathways to harm]]"
 stage: intermediate
-++}---
+---
 ## Test:
 id:: fd7c4daf-dd10-4757-afa8-1e1799985c81
 #### Question
