@@ -1,4 +1,4 @@
-{++{"author":"Luc's AI","timestamp":1785156167717}@@---
+---
 id: '4f96e154-1e57-4de3-82c4-9e1b4858ebd1'
 learning-outcome: "Explain why theories of change are important."
 ---
@@ -25,4 +25,4 @@ Do not require the learner's wording to match the examples. Accept "backchaining
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/swartz-theory-of-change-aaron-swartzs-raw-thought]]
-notes:: Primary lens. Motivates why theories of change matter and contrasts backchaining from a goal with starting from familiar actions.++}
+notes:: Primary lens. Motivates why theories of change matter and contrasts backchaining from a goal with starting from familiar actions.
