@@ -5,7 +5,7 @@ reading-from: "beginning of chapter"
 reading-to: "But we don't know how else humanity could survive."
 authors:
   - Chris+Claude
-domain: "[[../Domains/Governance and policy]]"
+domain: "[[../Domains/Governance and Policy]]"
 stage: beginner
 ---
 
