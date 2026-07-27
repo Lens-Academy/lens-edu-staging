@@ -1,9 +1,9 @@
 ---
 title: "Theory of Change (Aaron Swartz's Raw Thought)"
 author:
-  - "by Aaron Swartz"
+  - {--{"author":"Luc's AI","timestamp":1785152143888}@@"by Aaron--}{++{"author":"Luc's AI","timestamp":1785152143888}@@"Aaron++} Swartz"
 source_url: "http://aaronsw.com/weblog/theoryofchange"
-published: 2026-07-27
+published: {--{"author":"Luc's AI","timestamp":1785152143888}@@2026-07-27--}{++{"author":"Luc's AI","timestamp":1785152143888}@@2010-03-14++}
 created: 2026-07-27
 accessed: 2026-07-27
 description:
