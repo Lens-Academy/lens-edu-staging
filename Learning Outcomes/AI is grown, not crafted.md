@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/AI and machine-learning foundations]]"
+domain: "[[../Domains/AI and machine learning]]"
 stage: beginner
 ---
 

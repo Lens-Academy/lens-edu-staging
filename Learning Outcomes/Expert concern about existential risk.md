@@ -4,7 +4,7 @@ discussion: <discord url>
 learning-outcome:
 tags:
   - work-in-progress
-domain: "[[../Domains/Threat models and pathways to harm]]"
+domain: "[[../Domains/Threat models and futures]]"
 stage: intermediate
 ---
 
