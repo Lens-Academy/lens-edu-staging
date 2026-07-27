@@ -1,36 +1,30 @@
-{++{"author":"AI","timestamp":1785147570047}@@---
+{++{"author":"Luc's AI","timestamp":1785147887927}@@---
 id: '809100e4-b7d7-4556-abe4-d91e8c45641f'
-learning-outcome: "Compare competing AI safety theories of victory by reconstructing their causal stories, identifying their load-bearing assumptions and failure points, and explaining where a two-camp framing clarifies or oversimplifies the strategic landscape."
+learning-outcome: "Identify two broad camps in AI safety described by Jason Hausenloy, and summarize some of the main ways their views and preferred approaches differ."
 ---
 ## Test:
 id:: f57da14e-6b72-41de-b31b-df054ffe0edb
 
 #### Question
-content:: Compare the two broad AI safety strategies presented in this module: a responsible actor wins the race and uses control plus automated alignment, versus preventing anyone from building superintelligence through public and political coordination.
+content:: Jason Hausenloy describes two broad camps in AI safety. In rough terms, who are they, and how do their views differ? Give at least two differences.
 
-For each strategy:
+Why should this two-camp picture be treated as a useful simplification rather than a complete map of the field?
 
-1. Reconstruct the causal chain from present-day action to its win condition.
-2. Identify its most load-bearing assumption and most vulnerable transition.
-3. Explain one genuine crux between the strategies.
+assessment-instructions:: Score the answer from 1 to 5. This is an orientation-level outcome. The learner only needs a rough but recognizable picture of the two camps; do not require them to reconstruct either camp's full theory of victory.
 
-Then choose one alternative or hybrid theory of victory. Explain whether it fits one camp, combines both, or reveals an important strategic axis the two-camp map leaves out.
+**1** — Does not identify two recognizable camps or gives a substantially incorrect distinction. *Example: "One camp studies present-day AI and the other camp does not believe AI exists."*
 
-assessment-instructions:: Score the answer from 1 to 5. Judge the student's ability to reconstruct and compare theories of victory, not whether they endorse the grader's preferred strategy.
+**2** — Recognizes that one camp is more willing to continue advanced AI development and the other favors stopping it, but gives little detail or treats the labels as precise categories. *Example: "One side wants to keep building AI and the other side wants a ban."*
 
-**1** — Misstates one or both strategies, treats labels as explanations, or offers only a personal preference. *Example: "The moderates want AI and the doomers want no AI. I agree with the doomers because extinction is bad."*
+**3** — Identifies both camps and gives at least two meaningful differences. This is the pass bar. *Example: "One camp sees alignment as a difficult but tractable engineering problem and favors responsible actors leading the race while improving control, evaluations, and alignment. The other sees superintelligence as too dangerous to build before the scientific problem is solved and favors a ban, treaty, or other political coordination. They differ about whether anyone can safely win the race and whether the main bottleneck is technical progress or collective action."*
 
-**2** — Describes both strategies recognizably but does not reconstruct full causal chains or identify concrete assumptions and failure points. *Example: "One side wants America and responsible labs to lead while doing alignment research. The other wants a global ban. Their plans could both fail because coordination is hard."*
+**4** — As above, plus notes that the camps also differ over matters such as warning shots, trust in AI labs, automated alignment research, or working within existing institutions. *Example: Adds: "The first camp is more optimistic that evaluations and warning shots can guide iterative progress, while the second worries that warning shots may arrive too late and that labs have conflicts of interest."*
 
-**3** — Reconstructs both basic causal chains, identifies at least one load-bearing assumption or vulnerable transition for each, and states a real strategic crux. This is the pass bar. *Example: "Camp 1 needs a responsible lab or state to retain the lead, use increasingly capable AI to accelerate alignment, detect danger through control and evaluations, and pause or deploy safely. It assumes untrusted systems can produce useful safety work and that warning shots arrive before catastrophe. Camp 2 needs clear risk communication to create political support, governments to negotiate and enforce a ban, and states to remain in a stable non-racing equilibrium. It assumes persuasion and international enforcement can move fast enough. A key crux is whether iterative technical evidence is more tractable than durable political coordination."*
+**5** — As above, plus explains why the map is incomplete: people can hold mixed positions, the labels are the author's framing, and important alternatives do not fit neatly into either camp. *Example: Adds: "This is Hausenloy's opinionated map rather than a neutral census. Someone might favor strong regulation and technical control research without believing either that a responsible lab should race ahead or that all advanced AI development must stop."*
 
-**4** — As above, plus clearly distinguishes explicit claims from inferred assumptions or critics' objections, and identifies a specific handoff where each plan could break. *Example: Adds: "Hausenloy's claim that Camp 1 trusts lab leaders is partly his reconstruction rather than a premise every proponent states. Its fragile handoff is from better evaluations to an actor actually stopping deployment. His warning-shot objection to Camp 2 is likewise a critique; its fragile handoff is from public concern to a verifiable and enforceable international agreement."*
-
-**5** — As above, plus uses an alternative or hybrid strategy to reveal a limitation in the two-camp map and identifies that alternative's own causal bet. *Example: Adds: "Liability and insurance does not fit cleanly: it accepts continued development like Camp 1 but tries to redirect it through political-economic rules like Camp 2. Its core bet is that catastrophic and near-miss risk can be defined, detected, and priced strongly enough to change lab behavior. That reveals a missing axis in the map: direct technical control versus changing developer incentives."*
-
-Do not require the student's wording to match the examples. Accept other well-reconstructed strategies, assumptions, cruxes, and alternatives when the causal reasoning is sound.
+Do not require the learner's wording to match the examples. Accept different labels when the underlying positions are recognizable. Do not reward or penalize agreement with either camp.
 
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/Two Camps, Two Theories of Victory]]
-notes:: Primary lens. Uses Jason Hausenloy's opinionated two-camp map, plus several alternatives, to practice reconstructing and comparing complete strategic causal stories.++}
+notes:: Primary lens. Introduces Hausenloy's broad, opinionated distinction between two camps in AI safety and several positions that complicate the binary.++}
