@@ -5,7 +5,7 @@ reading-from: "beginning of chapter"
 reading-to: "With ASI, there is no second time."
 authors:
   - Chris+Claude
-domain: {--{"author":"Luc's AI","timestamp":1785157573768}@@"[[../Domains/Threat Models and Futures]]"--}{++{"author":"Luc's AI","timestamp":1785157573768}@@"[[../Domains/Strategy]]"++}
+domain: "[[../Domains/Strategy]]"
 stage: beginner
 ---
 

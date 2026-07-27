@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: {--{"author":"Luc's AI","timestamp":1785157532202}@@"[[../Domains/Threat Models and Futures]]"--}{++{"author":"Luc's AI","timestamp":1785157532202}@@"[[../Domains/Strategy]]"++}
+domain: "[[../Domains/Strategy]]"
 stage: beginner
 requires:
   - "[[Hard calls vs. easy calls]]"

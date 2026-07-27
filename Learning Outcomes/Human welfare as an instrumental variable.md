@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: {--{"author":"Luc's AI","timestamp":1785157551434}@@"[[../Domains/Threat Models and Futures]]"--}{++{"author":"Luc's AI","timestamp":1785157551434}@@"[[../Domains/Strategy]]"++}
+domain: "[[../Domains/Strategy]]"
 stage: beginner
 ---
 

@@ -5,7 +5,7 @@ reading-from: "beginning of chapter"
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-domain: "[[../Domains/Threat Models and Futures]]"
+domain: {--{"author":"Luc's AI","timestamp":1785158283136}@@"[[../Domains/Threat Models and Futures]]"--}{++{"author":"Luc's AI","timestamp":1785158283136}@@"[[../Domains/Strategy]]"++}
 stage: beginner
 ---
 

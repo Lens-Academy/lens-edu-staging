@@ -4,7 +4,7 @@ discussion: <discord url>
 learning-outcome:
 tags:
   - work-in-progress
-domain: {--{"author":"Luc's AI","timestamp":1785157536232}@@"[[../Domains/Threat Models and Futures]]"--}{++{"author":"Luc's AI","timestamp":1785157536232}@@"[[../Domains/Strategy]]"++}
+domain: "[[../Domains/Strategy]]"
 stage: intermediate
 ---
 

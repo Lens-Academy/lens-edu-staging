@@ -3,7 +3,7 @@ id: 22820eab-1fbf-40e1-af51-bee4a69cf984
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-domain: "[[../Domains/Threat Models and Futures]]"
+domain: {--{"author":"Luc's AI","timestamp":1785158280314}@@"[[../Domains/Threat Models and Futures]]"--}{++{"author":"Luc's AI","timestamp":1785158280314}@@"[[../Domains/Strategy]]"++}
 stage: intermediate
 ---
 

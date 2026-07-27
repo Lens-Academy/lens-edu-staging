@@ -3,7 +3,7 @@ id: 6535567b-052e-463b-b06c-5939442e44c6
 learning-outcome: "Walk through the key phases of the Sable extinction scenario, identifying the mechanisms at each stage"
 tags:
   - work-in-progress
-domain: {--{"author":"Luc's AI","timestamp":1785157558937}@@"[[../Domains/Threat Models and Futures]]"--}{++{"author":"Luc's AI","timestamp":1785157558937}@@"[[../Domains/Strategy]]"++}
+domain: "[[../Domains/Strategy]]"
 stage: intermediate
 ---
 

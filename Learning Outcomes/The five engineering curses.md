@@ -7,7 +7,7 @@ authors:
   - Yatharth+Claude
 tags:
   - learning-outcome
-domain: {--{"author":"Luc's AI","timestamp":1785157579581}@@"[[../Domains/Threat Models and Futures]]"--}{++{"author":"Luc's AI","timestamp":1785157579581}@@"[[../Domains/Strategy]]"++}
+domain: "[[../Domains/Strategy]]"
 stage: beginner
 ---
 
