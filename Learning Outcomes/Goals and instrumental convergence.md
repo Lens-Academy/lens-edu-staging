@@ -1,7 +1,7 @@
 ---
 id: 9c1ac750-09cc-41fe-bff4-d78f6e9b90bb
 learning-outcome: Be aware of discussions on whether AI systems develop goals and understand the basic arguments for instrumental convergence
-domain: "[[../Domains/Agency, objectives, and alignment foundations]]"
+domain: "[[../Domains/Alignment]]"
 stage: beginner
 ---
 ## Test:

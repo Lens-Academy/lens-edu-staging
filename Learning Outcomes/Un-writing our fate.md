@@ -5,7 +5,7 @@ reading-from: "beginning of chapter"
 reading-to: "And civilization lived."
 authors:
   - Chris+Claude
-domain: "[[../Domains/Governance, institutions, and policy]]"
+domain: "[[../Domains/Governance and policy]]"
 stage: beginner
 ---
 

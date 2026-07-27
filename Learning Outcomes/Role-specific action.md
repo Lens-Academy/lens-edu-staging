@@ -5,7 +5,7 @@ reading-from: "So—how do we un-write our fate?"
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-domain: "[[../Domains/Strategy, contribution, and field-building]]"
+domain: "[[../Domains/Taking action]]"
 stage: beginner
 ---
 

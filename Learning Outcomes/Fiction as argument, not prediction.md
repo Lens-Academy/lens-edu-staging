@@ -8,7 +8,7 @@ authors:
   - Chris+Claude
 tags:
   - optional
-domain: "[[../Domains/Threat models and pathways to harm]]"
+domain: "[[../Domains/Threat models and futures]]"
 stage: beginner
 ---
 

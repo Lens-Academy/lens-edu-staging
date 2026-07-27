@@ -5,7 +5,7 @@ reading-from: "beginning of chapter"
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-domain: "[[../Domains/Long-term futures and macrostrategy]]"
+domain: "[[../Domains/Strategy]]"
 stage: beginner
 ---
 

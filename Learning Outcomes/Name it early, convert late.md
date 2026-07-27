@@ -6,7 +6,7 @@ authors:
 tags:
   - learning-outcome
   - wip
-domain: "[[../Domains/Strategy, contribution, and field-building]]"
+domain: "[[../Domains/Taking action]]"
 stage: intermediate
 requires:
   - "[[Listening before persuasion]]"

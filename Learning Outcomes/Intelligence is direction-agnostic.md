@@ -9,7 +9,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Agency, objectives, and alignment foundations]]"
+domain: "[[../Domains/Alignment]]"
 stage: beginner
 requires:
   - "[[Intelligence as prediction plus steering]]"

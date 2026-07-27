@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Threat models and pathways to harm]]"
+domain: "[[../Domains/Threat models and futures]]"
 stage: beginner
 ---
 

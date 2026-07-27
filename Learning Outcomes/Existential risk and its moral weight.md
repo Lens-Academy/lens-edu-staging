@@ -3,7 +3,7 @@ id: 057f198a-b1ec-4035-90ab-bd041025880c
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-domain: "[[../Domains/Long-term futures and macrostrategy]]"
+domain: "[[../Domains/Strategy]]"
 stage: intermediate
 ---
 

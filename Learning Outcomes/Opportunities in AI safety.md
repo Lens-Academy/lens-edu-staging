@@ -3,7 +3,7 @@ id: 46d246cb-49d1-4511-8f6b-23662c1b1d88
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-domain: "[[../Domains/Strategy, contribution, and field-building]]"
+domain: "[[../Domains/Taking action]]"
 stage: intermediate
 ---
 
