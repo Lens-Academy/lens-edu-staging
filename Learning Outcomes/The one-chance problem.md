@@ -5,7 +5,9 @@ reading-from: "beginning of chapter"
 reading-to: "With ASI, there is no second time."
 authors:
   - Chris+Claude
----
+{++{"author":"Luc's AI","timestamp":1785148853678}@@domain: 4
+stage: beginner
+++}---
 
 ## Test:
 id:: 7f627b30-5641-48ef-901d-e710813fb828

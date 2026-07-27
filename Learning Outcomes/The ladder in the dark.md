@@ -5,7 +5,9 @@ reading-from: "An AI company executive who says there's only a one-in-five chanc
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
----
+{++{"author":"Luc's AI","timestamp":1785148871377}@@domain: 4
+stage: beginner
+++}---
 
 ## Test:
 id:: 38dc6bd8-b793-448e-a44a-89d3cd4c6a03
