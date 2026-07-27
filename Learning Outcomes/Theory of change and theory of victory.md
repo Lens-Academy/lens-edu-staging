@@ -1,4 +1,4 @@
-{++{"author":"Luc's AI","timestamp":1785147928352}@@---
+---
 id: '5e7586df-562a-4dad-bc02-325003744cba'
 learning-outcome: "Explain the difference between a theory of change and a theory of victory, and recognize why producing a useful intermediate outcome does not by itself explain how the overall problem gets solved."
 ---
@@ -27,4 +27,4 @@ Do not require the learner's wording to match the examples. Accept “local impa
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/Theories of Change Need a Theory of Victory]]
-notes:: Primary lens. Introduces the distinction between a useful local impact story and a complete causal story of how the overall problem gets solved.++}
+notes:: Primary lens. Introduces the distinction between a useful local impact story and a complete causal story of how the overall problem gets solved.
