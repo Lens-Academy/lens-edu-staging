@@ -6,10 +6,10 @@ authors:
 tags:
   - learning-outcome
   - wip
-{++{"author":"Luc's AI","timestamp":1785148793081}@@domain: 12
+{++{"author":"Luc's AI","timestamp":1785149051777}@@domain: 12
 stage: intermediate
 requires:
-  - Listening before persuasion
+  - "[[Listening before persuasion]]"
 ++}---
 
 ## Test:

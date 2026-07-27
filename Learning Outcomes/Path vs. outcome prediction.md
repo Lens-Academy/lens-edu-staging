@@ -7,10 +7,10 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-{++{"author":"Luc's AI","timestamp":1785148815508}@@domain: 4
+{++{"author":"Luc's AI","timestamp":1785149044516}@@domain: 4
 stage: beginner
 requires:
-  - Hard calls vs. easy calls
+  - "[[Hard calls vs. easy calls]]"
 ++}---
 
 ## Test:
