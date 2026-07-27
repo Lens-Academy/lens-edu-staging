@@ -20,7 +20,7 @@ I think this article might be a good introduction into the why of theories of ch
 
 Though this article actually probably requires a short, like, 3-sentence introduction of what a theory of change is at the start, which could go in the introductory bit of text in the Lens that uses this article.
 
-Maybe also introduce the term "backtracking"
+Maybe also introduce the term "backchaining"
 
 %%
 
