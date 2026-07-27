@@ -1,4 +1,4 @@
-{++{"author":"Luc's AI","timestamp":1785147887927}@@---
+---
 id: '809100e4-b7d7-4556-abe4-d91e8c45641f'
 learning-outcome: "Identify two broad camps in AI safety described by Jason Hausenloy, and summarize some of the main ways their views and preferred approaches differ."
 ---
@@ -27,4 +27,4 @@ Do not require the learner's wording to match the examples. Accept different lab
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/Two Camps, Two Theories of Victory]]
-notes:: Primary lens. Introduces Hausenloy's broad, opinionated distinction between two camps in AI safety and several positions that complicate the binary.++}
+notes:: Primary lens. Introduces Hausenloy's broad, opinionated distinction between two camps in AI safety and several positions that complicate the binary.
