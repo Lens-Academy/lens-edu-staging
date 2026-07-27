@@ -4,7 +4,7 @@ title: "Nailing the Basics – How to build a theory of change"
 ---
 
 #### Text
-content:: This reading starts with the article’s real-world examples and practical guidance. We’ve collapsed the earlier explanation because you may already have read it; if you haven’t, or if the basic definition is fuzzy, expand the collapsed section and read that first.
+content:: This reading explains how to create a theory of change. We've collapsed the first part about what a theory of change is and why it's important, because you likely already read it. You can click `[...]` to show that first half nonetheless.
 
 #### Article
 source:: [[../articles/alexander-nailing-the-basics-theories-of-change]]
