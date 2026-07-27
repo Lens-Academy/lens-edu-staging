@@ -5,7 +5,7 @@ reading-from: "So—how do we un-write our fate?"
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-{++{"author":"Luc's AI","timestamp":1785148783282}@@domain: 12
+{++{"author":"Luc's AI","timestamp":1785149300581}@@domain: "[[../Domains/Strategy, contribution, and field-building]]"
 stage: beginner
 ++}---
 

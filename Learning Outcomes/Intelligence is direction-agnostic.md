@@ -9,7 +9,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-{++{"author":"Luc's AI","timestamp":1785149032280}@@domain: 3
+{++{"author":"Luc's AI","timestamp":1785149280763}@@domain: "[[../Domains/Agency, objectives, and alignment foundations]]"
 stage: beginner
 requires:
   - "[[Intelligence as prediction plus steering]]"

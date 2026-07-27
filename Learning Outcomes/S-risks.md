@@ -3,7 +3,7 @@ id: 2a0bdc70-b0f4-4bf5-a49b-8fcec6a2c17d
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-{++{"author":"Luc's AI","timestamp":1785148793925}@@domain: 13
+{++{"author":"Luc's AI","timestamp":1785149307306}@@domain: "[[../Domains/Long-term futures and macrostrategy]]"
 stage: intermediate
 ++}---
 

@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-{++{"author":"Luc's AI","timestamp":1785148734371}@@domain: 1
+{++{"author":"Luc's AI","timestamp":1785149275166}@@domain: "[[../Domains/AI and machine-learning foundations]]"
 stage: beginner
 ++}---
 

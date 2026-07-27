@@ -5,7 +5,7 @@ reading-from: "beginning of chapter"
 reading-to: "With ASI, there is no second time."
 authors:
   - Chris+Claude
-{++{"author":"Luc's AI","timestamp":1785148853678}@@domain: 4
+{++{"author":"Luc's AI","timestamp":1785149310051}@@domain: "[[../Domains/Threat models and pathways to harm]]"
 stage: beginner
 ++}---
 

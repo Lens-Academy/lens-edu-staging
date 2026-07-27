@@ -8,7 +8,7 @@ authors:
   - Chris+Claude
 tags:
   - optional
-{++{"author":"Luc's AI","timestamp":1785148795982}@@domain: 4
+{++{"author":"Luc's AI","timestamp":1785149297816}@@domain: "[[../Domains/Threat models and pathways to harm]]"
 stage: beginner
 ++}---
 

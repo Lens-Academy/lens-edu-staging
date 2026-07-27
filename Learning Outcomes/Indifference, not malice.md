@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-{++{"author":"Luc's AI","timestamp":1785149042592}@@domain: 4
+{++{"author":"Luc's AI","timestamp":1785149293763}@@domain: "[[../Domains/Threat models and pathways to harm]]"
 stage: beginner
 requires:
   - "[[Hostile vs. indifferent AI]]"

@@ -5,7 +5,7 @@ reading-from: "beginning of chapter"
 reading-to: "But we don't know how else humanity could survive."
 authors:
   - Chris+Claude
-{++{"author":"Luc's AI","timestamp":1785148782848}@@domain: 11
+{++{"author":"Luc's AI","timestamp":1785149301724}@@domain: "[[../Domains/Governance, institutions, and policy]]"
 stage: beginner
 ++}---
 

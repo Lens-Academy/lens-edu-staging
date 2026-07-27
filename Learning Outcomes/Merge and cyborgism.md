@@ -1,7 +1,7 @@
 ---
 id: 6cd4134a-b903-4eb2-b815-602c9c3abb87
 learning-outcome: Contrast the "merge" (high-bandwidth BCI) and "cyborgism" (software human-in-the-loop) ends of the BCI-type spectrum, and explain the circularity objection to merging
-{++{"author":"Luc's AI","timestamp":1785149055530}@@domain: 13
+{++{"author":"Luc's AI","timestamp":1785149315325}@@domain: "[[../Domains/Long-term futures and macrostrategy]]"
 stage: advanced
 requires:
   - "[[The BCI-type-solutions bet]]"

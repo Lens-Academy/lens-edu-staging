@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-{++{"author":"Luc's AI","timestamp":1785149044516}@@domain: 4
+{++{"author":"Luc's AI","timestamp":1785149303262}@@domain: "[[../Domains/Threat models and pathways to harm]]"
 stage: beginner
 requires:
   - "[[Hard calls vs. easy calls]]"

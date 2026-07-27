@@ -5,7 +5,7 @@ reading-from: "beginning of chapter"
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-{++{"author":"Luc's AI","timestamp":1785148797883}@@domain: 13
+{++{"author":"Luc's AI","timestamp":1785149311545}@@domain: "[[../Domains/Long-term futures and macrostrategy]]"
 stage: beginner
 ++}---
 

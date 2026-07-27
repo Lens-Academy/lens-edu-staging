@@ -6,7 +6,7 @@ authors:
 tags:
   - learning-outcome
   - wip
-{++{"author":"Luc's AI","timestamp":1785148794027}@@domain: 12
+{++{"author":"Luc's AI","timestamp":1785149311405}@@domain: "[[../Domains/Strategy, contribution, and field-building]]"
 stage: intermediate
 ++}---
 

@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-{++{"author":"Luc's AI","timestamp":1785148755657}@@domain: 2
+{++{"author":"Luc's AI","timestamp":1785149285994}@@domain: "[[../Domains/Capabilities, progress, and forecasting]]"
 stage: beginner
 ++}---
 

@@ -3,7 +3,7 @@ id: 805f62c4-60da-4e7d-ac91-b5a29071ece1
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-{++{"author":"Luc's AI","timestamp":1785149047769}@@domain: 10
+{++{"author":"Luc's AI","timestamp":1785149296741}@@domain: "[[../Domains/Biosecurity]]"
 stage: intermediate
 requires:
   - "[[Pandemic risk]]"

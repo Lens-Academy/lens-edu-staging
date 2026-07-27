@@ -3,7 +3,7 @@ id: 1d611cfc-97df-44e2-aca6-e2a196a03a63
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-{++{"author":"Luc's AI","timestamp":1785148775789}@@domain: 10
+{++{"author":"Luc's AI","timestamp":1785149295105}@@domain: "[[../Domains/Biosecurity]]"
 stage: intermediate
 ++}---
 

@@ -1,7 +1,7 @@
 ---
 id: ae572d9c-a207-487f-a620-336fa3a707b5
 learning-outcome: Explain different alignment targets like coherent extrapolated volition, intent alignment, or AI that follows a constitution
-{++{"author":"Luc's AI","timestamp":1785148803020}@@domain: 3
+{++{"author":"Luc's AI","timestamp":1785149300150}@@domain: "[[../Domains/Agency, objectives, and alignment foundations]]"
 stage: intermediate
 ++}---
 ## Test:

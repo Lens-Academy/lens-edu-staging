@@ -1,7 +1,7 @@
 ---
 id: 479589b4-fd24-487c-857e-c9e85939a1e0
 learning-outcome: Evaluate the strongest objections to BCI-type solutions — merge circularity, the constant-factor-speedup critique, timelines, and the argument that BCIs are themselves an existential-risk factor (entrenched totalitarianism)
-{++{"author":"Luc's AI","timestamp":1785149058356}@@domain: 13
+{++{"author":"Luc's AI","timestamp":1785149318095}@@domain: "[[../Domains/Long-term futures and macrostrategy]]"
 stage: advanced
 requires:
   - "[[The BCI-type-solutions bet]]"

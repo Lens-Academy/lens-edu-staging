@@ -5,7 +5,7 @@ reading-from: "An AI company executive who says there's only a one-in-five chanc
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-{++{"author":"Luc's AI","timestamp":1785148871377}@@domain: 4
+{++{"author":"Luc's AI","timestamp":1785149312856}@@domain: "[[../Domains/Threat models and pathways to harm]]"
 stage: beginner
 ++}---
 

@@ -3,7 +3,7 @@ id: 5c79f310-9489-42d2-ac74-6a976fd7c40e
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-{++{"author":"Luc's AI","timestamp":1785148787447}@@domain: 12
+{++{"author":"Luc's AI","timestamp":1785149304818}@@domain: "[[../Domains/Strategy, contribution, and field-building]]"
 stage: intermediate
 ++}---
 

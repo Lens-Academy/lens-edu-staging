@@ -1,7 +1,7 @@
 ---
 id: a9098cc9-f4d8-4933-8b79-69fa70e2b91d
 learning-outcome: Evaluate movement-strategy critiques of AI safety advocacy — the movement's own diagnosed mistakes, the case against building a broad movement (narrow issue-orgs instead), and lessons from other social movements
-{++{"author":"Luc's AI","timestamp":1785149054126}@@domain: 12
+{++{"author":"Luc's AI","timestamp":1785149321310}@@domain: "[[../Domains/Strategy, contribution, and field-building]]"
 stage: advanced
 requires:
   - "[[AI safety advocacy and public communication]]"

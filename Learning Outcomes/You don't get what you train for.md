@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-{++{"author":"Luc's AI","timestamp":1785149035104}@@domain: 3
+{++{"author":"Luc's AI","timestamp":1785149289217}@@domain: "[[../Domains/Agency, objectives, and alignment foundations]]"
 stage: beginner
 requires:
   - "[[Wanting emerges from training]]"

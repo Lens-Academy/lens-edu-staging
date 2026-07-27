@@ -3,7 +3,7 @@ id: e9c6fc20-558b-406c-889b-b7f5d5a768dc
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-{++{"author":"Luc's AI","timestamp":1785149059420}@@domain: 15
+{++{"author":"Luc's AI","timestamp":1785149325053}@@domain: "[[../Domains/Basics of rationality and epistemics]]"
 stage: intermediate
 requires:
   - "[[Expected-value reasoning]]"

@@ -3,7 +3,7 @@ id: 5b786223-4d84-4964-9563-6c607a0d6941
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-{++{"author":"Luc's AI","timestamp":1785148778607}@@domain: 11
+{++{"author":"Luc's AI","timestamp":1785149297947}@@domain: "[[../Domains/Governance, institutions, and policy]]"
 stage: intermediate
 ++}---
 
