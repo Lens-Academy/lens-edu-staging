@@ -3,7 +3,7 @@ id: 5c79f310-9489-42d2-ac74-6a976fd7c40e
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-domain: "[[../Domains/Taking action]]"
+domain: {--{"author":"Luc's AI","timestamp":1785156911156}@@"[[../Domains/Taking action]]"--}{++{"author":"Luc's AI","timestamp":1785156911156}@@"[[../Domains/Effective altruism]]"++}
 stage: intermediate
 ---
 

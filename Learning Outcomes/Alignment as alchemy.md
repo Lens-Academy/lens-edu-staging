@@ -7,7 +7,7 @@ authors:
   - Yatharth+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Training and alignment methods]]"
+domain: "[[../Domains/Alignment]]"
 stage: beginner
 ---
 

@@ -2,7 +2,7 @@
 id: 3f752f69-cc7f-44c1-bc88-21c657061803
 discussion: <discord url>
 learning-outcome: Be able to give an example of AI working much faster than humans, justify why this difference might increase over time, and tell a story of how this could contribute to x-risk
-domain: "[[../Domains/Capabilities, progress, and forecasting]]"
+domain: {--{"author":"Luc's AI","timestamp":1785156925494}@@"[[../Domains/Capabilities, progress, and forecasting]]"--}{++{"author":"Luc's AI","timestamp":1785156925494}@@"[[../Domains/AI and machine learning]]"++}
 stage: beginner
 ---
 ## Test:
