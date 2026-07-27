@@ -7,7 +7,7 @@ tags:
   - learning-outcome
 authors:
   - Chris+Claude
-domain: "[[../Domains/Basics of rationality and epistemics]]"
+domain: "[[../Domains/Rationality and epistemics]]"
 stage: beginner
 ---
 
