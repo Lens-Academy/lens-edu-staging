@@ -14,11 +14,11 @@ Read the first excerpt looking for the difference between a **theory of change**
 
 #### Article
 source:: [[../articles/hausenloy-you-need-a-theory-of-victory]]
-from:: {++{"author":"Luc's AI","timestamp":1785139437291}@@_Note: The majority of this post is adapted from a talk I gave recently. These do not represent the views of my employer._
+from:: _Note: The majority of this post is adapted from a talk I gave recently. These do not represent the views of my employer._
 to:: ::note[Many of the talk's slides were added to this article as pictures but contained mostly text. Lens Academy replaced those pictures with actual text]
 
 #### Article
-from:: ++}Scroll around the organizations on this cute [AI safety map](https://aisafety.com/map). Think about, or ask, how does their work help with AI safety?
+from:: Scroll around the organizations on this cute [AI safety map](https://aisafety.com/map). Think about, or ask, how does their work help with AI safety?
 to:: “Father had told Draco about the Rule of Three, which was that any plot which required more than three different things to happen would never work in real life. Father had further explained that since only a fool would attempt a plot that was as complicated as possible, the real limit was two.”
 
 #### Question
@@ -42,12 +42,12 @@ Response length: 120–200 words. Short paragraphs; a compact arrow-chain is all
 
 #### Text
 content::
-The next excerpt {--{"author":"Luc's AI","timestamp":1785139437624}@@broadens the space of possible theories of victory, then --}proposes a method for developing “strategic taste”: decompose claims until you find concrete uncertainties or deference, resolve what you can, survey why existing efforts are insufficient, and write down the resulting assumptions.
+The next excerpt proposes a method for developing “strategic taste”: decompose claims until you find concrete uncertainties or deference, resolve what you can, survey why existing efforts are insufficient, and write down the resulting assumptions.
 
 As you read, keep your chosen pathway in mind. Look for a step that sounds persuasive at a high level but becomes uncertain when decomposed.
 
 #### Article
-from:: ## {--{"author":"Luc's AI","timestamp":1785139437624}@@Others--}{++{"author":"Luc's AI","timestamp":1785139437624}@@Developing Strategic Taste++}
+from:: ## Developing Strategic Taste
 to:: **Then act on the gap.**
 
 #### Question
