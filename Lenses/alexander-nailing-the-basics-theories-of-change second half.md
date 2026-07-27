@@ -1,6 +1,6 @@
 ---
 id: 717761c1-c6ef-4f49-b85c-e310039791e2
-title: "Nailing the Basics – How to build a theory of change"
+title: "How to build a theory of change"
 ---
 
 #### Text
