@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1785099725410}@@---
+---
 id: 'af94c152-8052-4323-bff6-2d4bbced2dbb'
 title: "Theories of Change Need a Theory of Victory"
 tldr: A useful project does not merely cause something good; it connects, through an explicit and stress-tested causal chain, to a world in which the whole problem is solved.
@@ -72,4 +72,4 @@ Help the student improve the weakest part of the chain. If they present slogans,
 
 Do not grade the political desirability of their chosen win condition unless it is too vague to evaluate. Focus on causal completeness, explicit uncertainty, and action relevance.
 
-Response length: 150–230 words. Be direct and specific. Avoid generic praise.++}
+Response length: 150–230 words. Be direct and specific. Avoid generic praise.
