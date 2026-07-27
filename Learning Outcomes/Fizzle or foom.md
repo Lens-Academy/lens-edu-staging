@@ -4,7 +4,7 @@ discussion: <discord url>
 domain: 2
 stage: intermediate
 requires:
-  - {--{"author":"Luc's AI","timestamp":1785149030876}@@Feedback--}{++{"author":"Luc's AI","timestamp":1785149030876}@@"[[Feedback++} cycles and {--{"author":"Luc's AI","timestamp":1785149030876}@@discontinuity--}{++{"author":"Luc's AI","timestamp":1785149030876}@@discontinuity]]"++}
+  - "[[Feedback cycles and discontinuity]]"
 ---
 ## Test:
 

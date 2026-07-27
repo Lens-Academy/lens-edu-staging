@@ -7,10 +7,10 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-{++{"author":"Luc's AI","timestamp":1785148755578}@@domain: 3
+{++{"author":"Luc's AI","timestamp":1785149035104}@@domain: 3
 stage: beginner
 requires:
-  - Wanting emerges from training
+  - "[[Wanting emerges from training]]"
 ++}---
 
 ## Test:
