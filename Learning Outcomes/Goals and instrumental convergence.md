@@ -1,7 +1,9 @@
 ---
 id: 9c1ac750-09cc-41fe-bff4-d78f6e9b90bb
 learning-outcome: Be aware of discussions on whether AI systems develop goals and understand the basic arguments for instrumental convergence
----
+{++{"author":"Luc's AI","timestamp":1785148747715}@@domain: 3
+stage: beginner
+++}---
 ## Test:
 id:: 0827a593-e7b2-4875-be28-431567b3c5c6
 #### Question

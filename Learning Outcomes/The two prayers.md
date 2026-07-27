@@ -5,7 +5,9 @@ reading-from: "beginning of chapter"
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
----
+{++{"author":"Luc's AI","timestamp":1785148797883}@@domain: 13
+stage: beginner
+++}---
 
 ## Test:
 id:: c2d3e4f5-a6b7-8901-cdef-012345678901

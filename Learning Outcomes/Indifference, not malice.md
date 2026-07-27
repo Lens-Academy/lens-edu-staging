@@ -7,7 +7,11 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
----
+{++{"author":"Luc's AI","timestamp":1785148776213}@@domain: 4
+stage: beginner
+requires:
+  - Hostile vs. indifferent AI
+++}---
 
 ## Test:
 id:: eaf08892-3e55-406e-a90c-3d6d1ecbdb34

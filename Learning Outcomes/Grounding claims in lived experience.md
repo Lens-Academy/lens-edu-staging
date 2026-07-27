@@ -6,7 +6,9 @@ authors:
 tags:
   - learning-outcome
   - wip
----
+{++{"author":"Luc's AI","timestamp":1785148794027}@@domain: 12
+stage: intermediate
+++}---
 
 ## Test:
 id:: df6fcd32-5b28-45c0-aaf6-76f0e3d36c10

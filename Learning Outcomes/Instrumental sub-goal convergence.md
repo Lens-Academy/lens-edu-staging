@@ -7,7 +7,11 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
----
+{++{"author":"Luc's AI","timestamp":1785148775726}@@domain: 3
+stage: beginner
+requires:
+  - Goals and instrumental convergence
+++}---
 
 ## Test:
 id:: 0bb7ff81-30f1-4ef9-a117-d751940add65

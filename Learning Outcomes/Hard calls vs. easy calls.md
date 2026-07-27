@@ -7,7 +7,9 @@ tags:
   - learning-outcome
 authors:
   - Chris+Claude
----
+{++{"author":"Luc's AI","timestamp":1785148780742}@@domain: 15
+stage: beginner
+++}---
 
 ## Test:
 id:: 8d0f4d50-16ca-4008-af3a-1135d3af1b70

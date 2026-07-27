@@ -5,7 +5,9 @@ reading-from: "So—how do we un-write our fate?"
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
----
+{++{"author":"Luc's AI","timestamp":1785148783282}@@domain: 12
+stage: beginner
+++}---
 
 ## Test:
 id:: 6c1d4ea5-7f20-5153-e8d9-f0a1b2345678

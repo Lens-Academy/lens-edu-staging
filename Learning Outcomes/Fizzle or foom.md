@@ -1,7 +1,11 @@
 ---
 id: 5ed688d4-61bf-4df7-8a87-9b3bfd1776c4
 discussion: <discord url>
----
+{++{"author":"Luc's AI","timestamp":1785148772024}@@domain: 2
+stage: intermediate
+requires:
+  - Feedback cycles and discontinuity
+++}---
 ## Test:
 
 

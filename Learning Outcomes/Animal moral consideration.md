@@ -3,7 +3,10 @@ id: f7f7e180-0561-44ef-9134-bc2aa230549c
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
----
+{++{"author":"Luc's AI","timestamp":1785148817073}@@domain: none
+++}---{++{"author":"Luc's AI","timestamp":1785148817073}@@
+
+> **Not in the skill tree:** Animal-cause content from the EA partnership course.++}
 
 {>>TODO: write learning outcome statement — e.g. "Apply the case for including animals in our moral consideration, drawing on the scale of factory farming and arguments about sentience."<<}
 

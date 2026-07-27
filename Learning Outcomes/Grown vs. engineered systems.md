@@ -1,8 +1,10 @@
 ---
 id: fdf6a6e3-c09a-4715-a7f3-5be4c2110aca
 discussion:
-learning-outcome: Explain the difference between classic engineering and modern ML training, including why “growing” systems can produce emergent capabilities.
----
+learning-outcome: Explain the difference between classic engineering and modern ML training, including why “growing” systems can produce emergent capabilities.learning-outcome: Explain the difference between classic engineering and modern ML training, including why “growing” systems can produce emergent capabilities.
+{++{"author":"Luc's AI","timestamp":1785148736251}@@domain: 1
+stage: beginner
+++}---
 ## Test:
 
 
