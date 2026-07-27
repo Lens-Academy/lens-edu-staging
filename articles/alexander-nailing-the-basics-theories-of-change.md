@@ -19,7 +19,7 @@ Add discussion note here:
 
 - Problematic it names EA at the start
 - Content is okay but I don't really like that it's about EA cause areas. Ideally it'd be rewritten to be about AI Safety
-
+- but overall pretty nice. Probably good to include? Hmm maybe there can be another shorter explanation earier on somewhere? Sth 2min instead of 10min.
 
 %%
 
