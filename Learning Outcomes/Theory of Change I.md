@@ -25,5 +25,9 @@ Do not require the learner's wording to match the examples. Accept "backchaining
 
 # Suggested Lenses:
 ## Lens:
+source:: {--{"author":"Luc's AI","timestamp":1785157398366}@@[[../Lenses/swartz-theory-of-change-aaron-swartzs-raw-thought]]--}{++{"author":"Luc's AI","timestamp":1785157398366}@@[[../Lenses/alexander-nailing-the-basics-theories-of-change-why-theories-of-change-matter]]++}
+notes:: {--{"author":"Luc's AI","timestamp":1785157398366}@@Primary lens. Motivates why--}{++{"author":"Luc's AI","timestamp":1785157398366}@@Read first. Uses the useful part of the TL;DR and the article's explanation of what++} theories of change {--{"author":"Luc's AI","timestamp":1785157398366}@@matter--}{++{"author":"Luc's AI","timestamp":1785157398366}@@are++} and {--{"author":"Luc's AI","timestamp":1785157398366}@@contrasts--}{++{"author":"Luc's AI","timestamp":1785157398366}@@why they matter, stopping before the real-world examples.
+
+## Lens:
 source:: [[../Lenses/swartz-theory-of-change-aaron-swartzs-raw-thought]]
-notes:: Primary lens. Motivates why theories of change matter and contrasts backchaining from a goal with starting from familiar actions.
+notes:: Read second. Motivates++} backchaining from a goal {--{"author":"Luc's AI","timestamp":1785157398366}@@with--}{++{"author":"Luc's AI","timestamp":1785157398366}@@instead of++} starting {--{"author":"Luc's AI","timestamp":1785157398366}@@from--}{++{"author":"Luc's AI","timestamp":1785157398366}@@with++} familiar actions.

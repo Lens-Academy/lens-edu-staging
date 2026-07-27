@@ -25,4 +25,4 @@ Do not require the learner's wording to match the examples. Accept equivalent de
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/alexander-nailing-the-basics-theories-of-change]]
-notes:: Primary lens. Gives a practical introduction to constructing and improving a theory of change.
+notes:: Primary lens. {--{"author":"Luc's AI","timestamp":1785157398653}@@Gives a--}{++{"author":"Luc's AI","timestamp":1785157398653}@@Starts with the article's real-world examples and continues through its++} practical {--{"author":"Luc's AI","timestamp":1785157398653}@@introduction to--}{++{"author":"Luc's AI","timestamp":1785157398653}@@guidance for++} constructing and improving a theory of change.

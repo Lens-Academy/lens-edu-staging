@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Threat models and futures]]"
+domain: "[[../Domains/Threat Models and Futures]]"
 stage: beginner
 requires:
   - "[[Hostile vs. indifferent AI]]"

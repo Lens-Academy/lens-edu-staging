@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Taking action]]"
+domain: "[[../Domains/Taking Action]]"
 stage: beginner
 ---
 

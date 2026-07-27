@@ -5,7 +5,7 @@ reading-from: "beginning of chapter"
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-domain: "[[../Domains/Threat models and futures]]"
+domain: "[[../Domains/Threat Models and Futures]]"
 stage: beginner
 ---
 

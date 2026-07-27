@@ -6,7 +6,7 @@ authors:
 tags:
   - learning-outcome
   - wip
-domain: "[[../Domains/Taking action]]"
+domain: "[[../Domains/Taking Action]]"
 stage: intermediate
 ---
 

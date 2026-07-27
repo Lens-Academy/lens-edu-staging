@@ -8,7 +8,7 @@ authors:
   - Chris+Claude
 tags:
   - optional
-domain: "[[../Domains/Threat models and futures]]"
+domain: "[[../Domains/Threat Models and Futures]]"
 stage: beginner
 ---
 
