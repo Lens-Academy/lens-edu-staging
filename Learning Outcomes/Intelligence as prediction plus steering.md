@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Capabilities, progress, and forecasting]]"
+domain: "[[../Domains/Capabilities, progress, and forecastingsa]]"
 stage: beginner
 ---
 

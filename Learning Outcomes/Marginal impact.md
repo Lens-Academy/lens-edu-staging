@@ -3,9 +3,9 @@ id: 5c79f310-9489-42d2-ac74-6a976fd7c40e
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-{++{"author":"Luc's AI","timestamp":1785149304818}@@domain: "[[../Domains/Strategy, contribution, and field-building]]"
+domain: "[[../Domains/Strategy, contribution, and field-building]]"
 stage: intermediate
-++}---
+---
 
 {>>TODO: write learning outcome statement — e.g. "Explain marginal impact — the effect of the next unit of resource — and why it differs from average impact."<<}
 

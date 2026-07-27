@@ -7,11 +7,11 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-{++{"author":"Luc's AI","timestamp":1785149296405}@@domain: "[[../Domains/Agency, objectives, and alignment foundations]]"
+domain: "[[../Domains/Agency, objectives, and alignment foundations]]"
 stage: beginner
 requires:
   - "[[Goals and instrumental convergence]]"
-++}---
+---
 
 ## Test:
 id:: 0bb7ff81-30f1-4ef9-a117-d751940add65
