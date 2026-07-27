@@ -15,6 +15,6 @@ tags:
 %%
 Add discussion note here:
 
-...
+Technically correct, maybe, but very boring and somewhat confusing. Not a good intro to get someone excited about ToC.
 
 %%
