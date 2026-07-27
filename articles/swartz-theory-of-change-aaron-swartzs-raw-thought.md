@@ -1,9 +1,9 @@
 ---
 title: "Theory of Change (Aaron Swartz's Raw Thought)"
 author:
-  - {--{"author":"Luc's AI","timestamp":1785152143888}@@"by Aaron--}{++{"author":"Luc's AI","timestamp":1785152143888}@@"Aaron++} Swartz"
+  - "Aaron Swartz"
 source_url: "http://aaronsw.com/weblog/theoryofchange"
-published: {--{"author":"Luc's AI","timestamp":1785152143888}@@2026-07-27--}{++{"author":"Luc's AI","timestamp":1785152143888}@@2010-03-14++}
+published: 2010-03-14
 created: 2026-07-27
 accessed: 2026-07-27
 description:
@@ -67,69 +67,3 @@ But I was working backwards, I had a theory of change: I asked, What makes somet
 Again, we can keep going for quite a while until we get all the way back to something I can actually do. But because of this, I didn’t have to simply have to hope that my book became a bestseller, like every other author. I could actually do something about it.
 
 That’s the power of a theory of change.
-
-_You should follow me on twitter [here](http://twitter.com/aaronsw)._
-
-March 14, 2010
-
-Excellent Entry Aaron. Goldratt wrote a good book called “It’s Not Luck” which introduces a number of “Thinking Processes”. The process you describe above is one of them. Goldratt’s book is in the form of a fable, but another author Lisa J. Sheinkopf wrote a book called “Thinking for a Change” which enumerates the processes steps more clearly. Thought these might be helpful references as well. The name “Theory of Change” though is quite a bit more catchy than their terms. :)
-
-Thanks for taking the time to pen your thoughts.
-
-posted by [Matthew Michels](http://blog.brinkofchaos.com/) on March 15, 2010 
-
-If you write “I was writing a book and (…) wanted it to be a bestseller” + “Looking at bestsellers: entertainment”, a reasonable conclusion would be that you were writing a book which was, before all, entertaining. ‘Building Progammable Web Sites’ ? hard to believe that its first quality would be entertainmenticity… So, another opus on fire ?
-
-posted by Bertrand on March 15, 2010 
-
-I was going to ask if there were any books or other materials that you would recommend if I wanted to learn more, and it seems Matthew has already supplied some of that information. Googling “Thinking for a change” throws up two distinct titles, so I’m glad we have an author for one of them.
-
-Is there anything you would recommend, Aaron?
-
-posted by [JeremyCherfas](http://jeremycherfas.net/wp/) on March 15, 2010 
-
-I have not found most books on this subject to be particularly helpful.
-
-posted by [Aaron Swartz](http://www.aaronsw.com/) on March 15, 2010 
-
-This post was quite reassuring, albeit for perverse reasons. I work in the nonprofit world and use the “theory of change” concept in much that I think and do. It has lead me to a new field of practice that no one has successfully implemented, because I think it is the missing piece in the change process. I HATE to be bad at what I do, but trying and failing and learning at the missing piece is better than doing the same-old-thing that doesn’t work. Or at least I hope it is. I realize you are using “theory of change” to identify the components of success, while I am using it to identify the point of failure, but the post was still reassuring.
-
-posted by Warren Yoder on March 15, 2010 
-
-aaron — thanks for an interesting viewpoint. very gladwell-esque, except with an implicit call to action. is it relatively safe to say your theory can be distilled to earning trust in order to persuade/convince/influence others? trust is one of those fuzzy areas that is often abused by, for example, car salesmen and mortgage brokers. their talent in earning your trust speaks to the one-way street that trust entails. we put our trust into those who we WANT to trust, not necessarily into those who want to earn our trust. so while the writer or activist wants to inspire change and needs to gain credibility by earning trust, it is more the perception of trust (a la salesmen) that may most likely net them the change they are aiming for.
-
-i like it, either way. thanks.
-
-~jenn @revolucion0
-
-posted by [Jenn Topper](http://dontpublishme.blogspot.com/) on March 16, 2010 
-
-“I was at a party once and I told someone I was writing a book and that I wanted it to be a bestseller. They laughed at that and I think it’s because they had a theory of action model in their head: you write the best book you can, and of course you want it to be a bestseller, but either it does or it doesn’t.”
-
-Well, I wasn’t there, but a possible other reason is that the number of people who want their books to be bestsellers, far exceeds, almost by definition, the number of possible bestsellers. So it’s a bit like hearing someone say “I want to win the lottery” (yes, of course you do, you and all the other players).
-
-“Again, we can keep going for quite a while until we get all the way back to something I can actually do.”
-
-Can you (do)? That it the core of the matter. It’s quite an art to write a bestseller-potential book. Then there’s the promotion if it, which if nothing else, TAKES TIME (and usually money).
-
-Basically, you’re neglecting the possibility of getting all the way to back to finding you can’t do it. Or, more accurately, to outcomes like “nobody knows how to do it” or “it’s very high risk to try to do it”.
-
-posted by [Seth Finkelstein](http://sethf.com/) on March 16, 2010 
-
-@Seth: The difference between the lottery and writing a best selling book is complexity. Short of criminal means, there is literally only one step involved in lottery: getting a ticket. The only variance here, obviously, is the amount of tickets you get. Writing a bestseller on the other hand affords you an unlimited amount of choices in every step along the way.
-
-It is a pity then, that disregarding all the choices involved most would-be writers opt to focus on rather unimportant things that generally cost time without improving their chances instead of learning the craft or researching the market. When they finally think about how to publish, they are easy bait for scam artists that pose as publishers but charge them a nominal fee to print their book.
-
-Going by the theory of change, you pass the most difficult (well, sort of; once you arrive there, these goals aren’t necessarily any more difficult than anything else you’ve done to get there) or distant goals first. This way, you can stay on track, always evaluating your actions and whether they bring you closer to acheiving your end goal. I really really like the thinking involved here and I shall apply the backward strategy to improve my decision-making. It really is time to stop looking for nails to hammer in when what you really need is a different tool.
-
-Thank you, Aaron.
-
-posted by [Berthold Barth](http://www.berthold-barth.de/) on April 20, 2010 
-
-You can also [send comments by email](mailto:weblog@aaronsw.com).
-
-| Name |  |
-| --- | --- |
-| Site |  |
-| Email | (only used for direct replies) |
-| Comments may be edited for length and content. |  |
