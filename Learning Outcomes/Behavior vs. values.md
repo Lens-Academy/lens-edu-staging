@@ -7,10 +7,10 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-{++{"author":"Luc's AI","timestamp":1785148739341}@@domain: 3
+{++{"author":"Luc's AI","timestamp":1785149033687}@@domain: 3
 stage: beginner
 requires:
-  - AI is grown, not crafted
+  - "[[AI is grown, not crafted]]"
 ++}---
 
 ## Test:

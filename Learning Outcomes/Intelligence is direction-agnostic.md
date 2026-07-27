@@ -9,10 +9,10 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-{++{"author":"Luc's AI","timestamp":1785148738236}@@domain: 3
+{++{"author":"Luc's AI","timestamp":1785149032280}@@domain: 3
 stage: beginner
 requires:
-  - Intelligence as prediction plus steering
+  - "[[Intelligence as prediction plus steering]]"
 ++}---
 
 ## Test:
