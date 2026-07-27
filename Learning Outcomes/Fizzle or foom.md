@@ -1,7 +1,7 @@
 ---
 id: 5ed688d4-61bf-4df7-8a87-9b3bfd1776c4
 discussion: <discord url>
-domain: "[[../Domains/Capabilities, progress, and forecastingsa]]"
+domain: "[[../Domains/Capabilities, progress, and forecasting]]"
 stage: intermediate
 requires:
   - "[[Feedback cycles and discontinuity]]"
