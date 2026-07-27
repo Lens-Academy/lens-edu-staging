@@ -1,9 +1,9 @@
 ---
 id: ebe5405c-518a-47cb-9cc6-6a467788af5f
 learning-outcome: Reason about training stories and outer and inner (mis)alignment, challenges to these notions, and the relationship to inductive biases
-{++{"author":"Luc's AI","timestamp":1785149291640}@@domain: "[[../Domains/Training and alignment methods]]"
+domain: "[[../Domains/Training and alignment methods]]"
 stage: advanced
-++}---
+---
 ## Test:
 id:: 25b8e101-ea1a-43bc-a550-96529c3b8e20
 #### Question

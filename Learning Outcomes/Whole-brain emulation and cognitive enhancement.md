@@ -1,11 +1,11 @@
 ---
 id: 50054a3a-4dd5-43fa-abdc-97f463e2cd37
 learning-outcome: Assess whole-brain emulation and cognitive enhancement as routes to human-aligned or human-competitive minds — the "aligned by construction" hope, the reality check on WBE's maturity, and the timeline/equity problems
-{++{"author":"Luc's AI","timestamp":1785149317228}@@domain: "[[../Domains/Long-term futures and macrostrategy]]"
+domain: "[[../Domains/Long-term futures and macrostrategy]]"
 stage: advanced
 requires:
   - "[[The BCI-type-solutions bet]]"
-++}---
+---
 ## Test:
 id:: 44306814-0216-4772-a0dd-276370e0ccd7
 #### Question

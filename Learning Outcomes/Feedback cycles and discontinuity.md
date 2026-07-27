@@ -1,9 +1,9 @@
 ---
 id: 7635aa6d-ce02-407d-a1ad-0247479b963c
 discussion: <discord url>
-{++{"author":"Luc's AI","timestamp":1785149287403}@@domain: "[[../Domains/Capabilities, progress, and forecasting]]"
+domain: "[[../Domains/Capabilities, progress, and forecasting]]"
 stage: intermediate
-++}---
+---
 
 ## Test:
 

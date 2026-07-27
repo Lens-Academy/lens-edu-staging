@@ -7,9 +7,9 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-{++{"author":"Luc's AI","timestamp":1785149296394}@@domain: "[[../Domains/Threat models and pathways to harm]]"
+domain: "[[../Domains/Threat models and pathways to harm]]"
 stage: beginner
-++}---
+---
 
 ## Test:
 id:: c9306c64-d15c-49d9-ab19-ecf8f946cd14

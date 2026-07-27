@@ -7,9 +7,9 @@ tags:
   - learning-outcome
 authors:
   - Chris+Claude
-{++{"author":"Luc's AI","timestamp":1785149327876}@@domain: "[[../Domains/Basics of rationality and epistemics]]"
+domain: "[[../Domains/Basics of rationality and epistemics]]"
 stage: beginner
-++}---
+---
 
 ## Test:
 id:: 8d0f4d50-16ca-4008-af3a-1135d3af1b70

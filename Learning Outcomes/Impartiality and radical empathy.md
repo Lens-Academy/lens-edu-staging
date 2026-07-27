@@ -3,10 +3,10 @@ id: 4b6c5ae3-0450-4a2b-a0aa-09ef24864c41
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-{++{"author":"Luc's AI","timestamp":1785148807149}@@domain: none
-++}---{++{"author":"Luc's AI","timestamp":1785148807149}@@
+domain: none
+---
 
-> **Not in the skill tree:** Not planned for our AI-safety courses.++}
+> **Not in the skill tree:** Not planned for our AI-safety courses.
 
 {>>TODO: write learning outcome statement — e.g. "Explain the principle of impartiality in moral consideration and what it means to extend genuine empathy across geographic, temporal, and species boundaries."<<}
 

@@ -3,12 +3,12 @@ id: d4c2baf8-5be3-4cec-b33a-0d4f06a5478d
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-{++{"author":"Luc's AI","timestamp":1785148791637}@@domain: none
-++}---
+domain: none
+---
 
-{++{"author":"Luc's AI","timestamp":1785148791637}@@> **Not in the skill tree:** Replaced by an AIS-framed personal-fit / comparative-advantage LO (planned).
+> **Not in the skill tree:** Replaced by an AIS-framed personal-fit / comparative-advantage LO (planned).
 
-++}{>>TODO: write learning outcome statement — e.g. "Apply EA principles to personal career choice — including how to weigh direct impact, career capital, and fit — using frameworks from 80,000 Hours."<<}
+{>>TODO: write learning outcome statement — e.g. "Apply EA principles to personal career choice — including how to weigh direct impact, career capital, and fit — using frameworks from 80,000 Hours."<<}
 
 ## Test:
 {>>TODO: write assessment question or task<<}

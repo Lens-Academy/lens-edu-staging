@@ -5,9 +5,9 @@ reading-from: "beginning of chapter"
 reading-to: "And civilization lived."
 authors:
   - Chris+Claude
-{++{"author":"Luc's AI","timestamp":1785149303369}@@domain: "[[../Domains/Governance, institutions, and policy]]"
+domain: "[[../Domains/Governance, institutions, and policy]]"
 stage: beginner
-++}---
+---
 
 ## Test:
 id:: 4a9b2c83-5d0e-4f31-c6b7-d8e9f0123456

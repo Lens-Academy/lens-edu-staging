@@ -3,10 +3,10 @@ id: 0d1bc5bd-fb97-461f-9783-56ee135ea218
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-{++{"author":"Luc's AI","timestamp":1785148817859}@@domain: none
-++}---{++{"author":"Luc's AI","timestamp":1785148817859}@@
+domain: none
+---
 
-> **Not in the skill tree:** Animal-cause content from the EA partnership course.++}
+> **Not in the skill tree:** Animal-cause content from the EA partnership course.
 
 {>>TODO: write learning outcome statement — e.g. "Identify tractable strategies for improving animal welfare, including corporate campaigns, policy advocacy, and alternative proteins."<<}
 

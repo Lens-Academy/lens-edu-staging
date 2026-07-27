@@ -6,11 +6,11 @@ authors:
 tags:
   - learning-outcome
   - wip
-{++{"author":"Luc's AI","timestamp":1785149309999}@@domain: "[[../Domains/Strategy, contribution, and field-building]]"
+domain: "[[../Domains/Strategy, contribution, and field-building]]"
 stage: intermediate
 requires:
   - "[[Listening before persuasion]]"
-++}---
+---
 
 ## Test:
 id:: e5579bbc-3019-4874-b11b-86a42ff9e919

@@ -3,9 +3,9 @@ id: 0ac96c2e-7247-4179-8e84-278a00107f28
 learning-outcome: "Articulate the authors' argument for a worldwide halt on frontier AI development"
 tags:
   - work-in-progress
-{++{"author":"Luc's AI","timestamp":1785149300289}@@domain: "[[../Domains/Governance, institutions, and policy]]"
+domain: "[[../Domains/Governance, institutions, and policy]]"
 stage: intermediate
-++}---
+---
 
 ## Test:
 

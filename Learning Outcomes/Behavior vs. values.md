@@ -7,11 +7,11 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-{++{"author":"Luc's AI","timestamp":1785149284960}@@domain: "[[../Domains/Agency, objectives, and alignment foundations]]"
+domain: "[[../Domains/Agency, objectives, and alignment foundations]]"
 stage: beginner
 requires:
   - "[[AI is grown, not crafted]]"
-++}---
+---
 
 ## Test:
 id:: 3ee1a948-9f94-4d26-abd4-69618e3d99d1

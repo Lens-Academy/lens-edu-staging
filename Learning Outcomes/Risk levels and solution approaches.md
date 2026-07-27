@@ -1,9 +1,9 @@
 ---
 id: 18f79ac5-25b7-4dd0-ba62-1d6fc11b01ca
 learning-outcome: Be aware of foundational discussions on the level of risk and different high-level approaches to solving the AI alignment problem
-{++{"author":"Luc's AI","timestamp":1785149303055}@@domain: "[[../Domains/Threat models and pathways to harm]]"
+domain: "[[../Domains/Threat models and pathways to harm]]"
 stage: intermediate
-++}---
+---
 ## Test:
 id:: 846bc26c-5dfe-4370-a4ff-e6ef62b0a127
 #### Question

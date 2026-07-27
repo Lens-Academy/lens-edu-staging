@@ -3,9 +3,9 @@ id: b4ea9db0-afaa-472a-b4f1-7bb5edb766f4
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-{++{"author":"Luc's AI","timestamp":1785149310264}@@domain: "[[../Domains/Long-term futures and macrostrategy]]"
+domain: "[[../Domains/Long-term futures and macrostrategy]]"
 stage: intermediate
-++}---
+---
 
 {>>TODO: write learning outcome statement — e.g. "Evaluate the 'hinge of history' hypothesis — the claim that we may be living at an unusually influential time — and explain what evidence bears on it."<<}
 

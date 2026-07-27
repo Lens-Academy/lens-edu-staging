@@ -7,9 +7,9 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-{++{"author":"Luc's AI","timestamp":1785149286400}@@domain: "[[../Domains/Agency, objectives, and alignment foundations]]"
+domain: "[[../Domains/Agency, objectives, and alignment foundations]]"
 stage: beginner
-++}---
+---
 
 ## Test:
 id:: 26b45f14-dc22-461a-9cbd-e5f5dbf223ae

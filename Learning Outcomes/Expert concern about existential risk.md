@@ -4,9 +4,9 @@ discussion: <discord url>
 learning-outcome:
 tags:
   - work-in-progress
-{++{"author":"Luc's AI","timestamp":1785149286510}@@domain: "[[../Domains/Threat models and pathways to harm]]"
+domain: "[[../Domains/Threat models and pathways to harm]]"
 stage: intermediate
-++}---
+---
 
 # Suggested Lenses:
 ## Lens:

@@ -7,9 +7,9 @@ authors:
   - Yatharth+Claude
 tags:
   - learning-outcome
-{++{"author":"Luc's AI","timestamp":1785149318474}@@domain: "[[../Domains/Strategy, contribution, and field-building]]"
+domain: "[[../Domains/Strategy, contribution, and field-building]]"
 stage: beginner
-++}---
+---
 
 ## Test:
 

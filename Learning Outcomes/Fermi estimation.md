@@ -3,9 +3,9 @@ id: 61e85ce7-af43-4089-97fe-7babfee9b161
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-{++{"author":"Luc's AI","timestamp":1785149326507}@@domain: "[[../Domains/Basics of rationality and epistemics]]"
+domain: "[[../Domains/Basics of rationality and epistemics]]"
 stage: intermediate
-++}---
+---
 
 {>>TODO: write learning outcome statement — e.g. "Apply Fermi estimation to produce rough-but-useful quantitative assessments of intervention size and impact."<<}
 

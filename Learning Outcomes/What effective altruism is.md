@@ -3,10 +3,10 @@ id: 6ab43838-41bd-4453-a4da-f82d047c53fb
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-{++{"author":"Luc's AI","timestamp":1785148803645}@@domain: none
-++}---{++{"author":"Luc's AI","timestamp":1785148803645}@@
+domain: none
+---
 
-> **Not in the skill tree:** EA-specific framing; not an AI-safety capability.++}
+> **Not in the skill tree:** EA-specific framing; not an AI-safety capability.
 
 {>>TODO: write learning outcome statement — e.g. "Explain what effective altruism is, its core principles, and why it is described as both a research project and a practical movement."<<}
 
