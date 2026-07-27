@@ -16,6 +16,8 @@ Add discussion note here:
 
 ...
 
+I think this article might be a good introduction into the why of theories of change because it feels quite illuminating and motivating in a way that the "Nailing the Basics" article is more of a how-to that misses some of the spark as well as the focus on what to actually focus on when making a theory of change.
+
 %%
 
 ## Theory of Change
