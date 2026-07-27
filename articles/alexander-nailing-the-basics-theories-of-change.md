@@ -17,6 +17,10 @@ Add discussion note here:
 
 ...
 
+- Problematic it names EA at the start
+- 
+
+
 %%
 
 # Why write a post about theories of change?
