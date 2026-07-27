@@ -7,7 +7,7 @@ authors:
   - Yatharth+Claude
 tags:
   - learning-outcome
-domain: {--{"author":"Luc's AI","timestamp":1785156907927}@@"[[../Domains/Training and alignment methods]]"--}{++{"author":"Luc's AI","timestamp":1785156907927}@@"[[../Domains/Alignment]]"++}
+domain: "[[../Domains/Alignment]]"
 stage: beginner
 ---
 
