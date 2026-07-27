@@ -3,7 +3,7 @@ id: e9c6fc20-558b-406c-889b-b7f5d5a768dc
 discussion: <placeholder — add Discord channel URL>
 tags:
   - work-in-progress
-domain: "[[../Domains/Rationality and epistemics]]"
+domain: "[[../Domains/Rationality and Epistemics]]"
 stage: intermediate
 requires:
   - "[[Expected-value reasoning]]"

@@ -7,7 +7,7 @@ tags:
   - learning-outcome
 authors:
   - Chris+Claude
-domain: "[[../Domains/Rationality and epistemics]]"
+domain: "[[../Domains/Rationality and Epistemics]]"
 stage: beginner
 ---
 
