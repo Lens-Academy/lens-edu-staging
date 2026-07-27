@@ -1,7 +1,7 @@
 ---
 id: c80f4c44-fbfe-42c7-bb05-6ce6fb49f16b
 learning-outcome: Learners can describe plausible trajectories of advanced AI development, including catastrophic, beneficial, and ambiguous outcomes, and explain why uncertainty about the future does not eliminate the need for serious forecasting and preparation.
-domain: {--{"author":"Luc's AI","timestamp":1785158284279}@@"[[../Domains/Threat Models and Futures]]"--}{++{"author":"Luc's AI","timestamp":1785158284279}@@"[[../Domains/Strategy]]"++}
+domain: "[[../Domains/Strategy]]"
 stage: intermediate
 
 ---
