@@ -4,7 +4,13 @@ title: "Theory of Change (Aaron Swartz's Raw Thought)"
 ---
 
 #### Text
-content:: A theory of change is an account of how particular actions are expected to produce a desired outcome. One way to build one is to start with the outcome and reason backward through the conditions and steps needed to reach it—a process often called **backchaining**. The article below explains why this way of thinking can be more effective than beginning with whichever actions you already know how to take.
+content:: A theory of change is an account of how particular actions are expected to produce a desired outcome. 
 
 #### Article
 source:: [[../articles/swartz-theory-of-change-aaron-swartzs-raw-thought]]
+
+#### Text
+content::
+In the AI Safety community, you will sometimes hear the word "backchaining" to describe the process that Swartz 
+
+process often called **backchaining**. The article below explains why this way of thinking can be more effective than beginning with whichever actions you already know how to take.
