@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1785099726095}@@---
+---
 id: 'a7933353-8738-414d-a93e-e57c0c642854'
 title: "Two Camps, Two Theories of Victory"
 tldr: AI safety disagreements often reflect rival causal stories about what the problem is, who must act, and which fragile assumptions are worth betting the future on.
@@ -68,4 +68,4 @@ A strong comparison:
 
 If the student treats one camp as obviously foolish, ask for its strongest internal rationale. If they accept the map too literally, ask where real agendas might cross the boundary.
 
-Response length: 160–240 words. Be analytically neutral about which camp is correct. Avoid generic praise.++}
+Response length: 160–240 words. Be analytically neutral about which camp is correct. Avoid generic praise.
