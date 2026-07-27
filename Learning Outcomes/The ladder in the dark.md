@@ -5,7 +5,7 @@ reading-from: "An AI company executive who says there's only a one-in-five chanc
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-domain: "[[../Domains/Threat Models and Futures]]"
+domain: {--{"author":"Luc's AI","timestamp":1785157586636}@@"[[../Domains/Threat Models and Futures]]"--}{++{"author":"Luc's AI","timestamp":1785157586636}@@"[[../Domains/Strategy]]"++}
 stage: beginner
 ---
 

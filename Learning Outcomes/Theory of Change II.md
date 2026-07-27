@@ -1,6 +1,9 @@
 ---
 id: 'c08c4e25-74f5-4a21-ac22-e818b602d4b5'
 learning-outcome: "Explain how to do a theory of change."
+domain:"[[../Domains/Effective Altruism]]"
+required:
+  - "[[Theory of Change I]]"
 ---
 ## Test:
 id:: 70d6e10f-f05b-4f4a-9a84-8ec9c10e99bb
@@ -25,4 +28,4 @@ Do not require the learner's wording to match the examples. Accept equivalent de
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/alexander-nailing-the-basics-theories-of-change]]
-notes:: Primary lens. {--{"author":"Luc's AI","timestamp":1785157398653}@@Gives a--}{++{"author":"Luc's AI","timestamp":1785157398653}@@Starts with the article's real-world examples and continues through its++} practical {--{"author":"Luc's AI","timestamp":1785157398653}@@introduction to--}{++{"author":"Luc's AI","timestamp":1785157398653}@@guidance for++} constructing and improving a theory of change.
+notes:: Primary lens. Starts with the article's real-world examples and continues through its practical guidance for constructing and improving a theory of change.

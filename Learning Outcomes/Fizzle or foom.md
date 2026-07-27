@@ -1,7 +1,7 @@
 ---
 id: 5ed688d4-61bf-4df7-8a87-9b3bfd1776c4
 discussion: <discord url>
-domain: "[[../Domains/Threat Models and Futures]]"
+domain: {--{"author":"Luc's AI","timestamp":1785157610572}@@"[[../Domains/Threat Models and Futures]]"--}{++{"author":"Luc's AI","timestamp":1785157610572}@@"[[../Domains/Strategy]]"++}
 stage: intermediate
 requires:
   - "[[Feedback cycles and discontinuity]]"
