@@ -7,7 +7,9 @@ authors:
   - Yatharth+Claude
 tags:
   - learning-outcome
----
+{++{"author":"Luc's AI","timestamp":1785148772444}@@domain: 5
+stage: beginner
+++}---
 
 ## Test: 
 id:: 311a34f9-b4d2-46b8-813a-3b51869fe6c3

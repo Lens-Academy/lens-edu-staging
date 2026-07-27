@@ -4,7 +4,9 @@ discussion: <discord url>
 learning-outcome:
 tags:
   - work-in-progress
----
+{++{"author":"Luc's AI","timestamp":1785148745930}@@domain: 4
+stage: intermediate
+++}---
 
 # Suggested Lenses:
 ## Lens:
