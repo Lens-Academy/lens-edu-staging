@@ -27,5 +27,5 @@ Do not require the learner's wording to match the examples. Accept equivalent de
 
 # Suggested Lenses:
 ## Lens:
-source:: [[../Lenses/alexander-nailing-the-basics-theories-of-change]]
+source:: [[../Lenses/alexander-nailing-the-basics-theories-of-change second half]]
 notes:: Primary lens. Starts with the article's real-world examples and continues through its practical guidance for constructing and improving a theory of change.

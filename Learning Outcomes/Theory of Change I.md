@@ -25,7 +25,7 @@ Do not require the learner's wording to match the examples. Accept "backchaining
 
 # Suggested Lenses:
 ## Lens:
-source:: [[../Lenses/alexander-nailing-the-basics-theories-of-change-why-theories-of-change-matter]]
+source:: [[../Lenses/alexander-nailing-the-basics-theories-of-change-why-theories-of-change-matter first half]]
 notes:: Read first. Uses the useful part of the TL;DR and the article's explanation of what theories of change are and why they matter, stopping before the real-world examples.
 
 ## Lens:
