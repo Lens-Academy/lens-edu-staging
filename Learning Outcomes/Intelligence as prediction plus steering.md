@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/AI]]"
+domain: "[[../Domains/Artificial Intelligence]]"
 stage: beginner
 ---
 
