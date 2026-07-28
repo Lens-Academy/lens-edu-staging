@@ -1,9 +1,12 @@
 ---
-title: "[unlinked for publication] FlexHEG Report v2 Part I: Overview"
+title: {--{"author":"Elias's AI","timestamp":1785221064706}@@"[unlinked for publication] FlexHEG Report v2 Part--}{++{"author":"Elias's AI","timestamp":1785221064706}@@"Flexible Hardware-Enabled Guarantees for AI Compute (Part++} I: {--{"author":"Elias's AI","timestamp":1785221064706}@@Overview"--}{++{"author":"Elias's AI","timestamp":1785221064706}@@Overview)"++}
 author:
-  - "Flexheg"
+  - {--{"author":"Elias's AI","timestamp":1785221064706}@@"Flexheg"--}{++{"author":"Elias's AI","timestamp":1785221064706}@@"James Petrie"
+  - "Onni Aarne"
+  - "Nora Ammann"
+  - "David Dalrymple"++}
 source_url: "https://www.flexheg.com/report-1.pdf"
-published: 2026-07-28
+published: {--{"author":"Elias's AI","timestamp":1785221064706}@@2026-07-28--}{++{"author":"Elias's AI","timestamp":1785221064706}@@2025-06-18++}
 created: 2026-07-28
 accessed: 2026-07-28
 description:
