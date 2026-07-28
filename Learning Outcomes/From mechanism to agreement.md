@@ -1,15 +1,14 @@
-{++{"author":"Elias's AI","timestamp":1785221452853}@@---
+{++{"author":"Elias's AI","timestamp":1785221626374}@@---
 id: 'a8b96d09-37b6-4c3b-8902-d9609aec1fea'
 learning-outcome: "Evaluate how a verification scheme maps onto the obligations of a concrete proposed AI treaty, and judge where the binding constraint on such an agreement is technical versus political"
 domain: "[[../Domains/Governance and Policy]]"
-stage: advanced
 requires:
   - "[[A low-trust compute verification architecture]]"
 authors:
   - Elias+Claude
 ---
 ## Test:
-id:: '51520b70-c2a7-43e0-a83a-444e9fb387fc'
+id:: 51520b70-c2a7-43e0-a83a-444e9fb387fc
 #### Question
 content:: Scher and co-authors write a specific agreement: a US–China-led coalition, a FLOP threshold capping training scale, and a ban on research that advances toward superintelligence or that undermines the agreement's own verifiability.
 

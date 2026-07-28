@@ -1,15 +1,14 @@
-{++{"author":"Elias's AI","timestamp":1785221452225}@@---
+{++{"author":"Elias's AI","timestamp":1785221625719}@@---
 id: 'e1a40873-ce21-4457-af20-6ff34eb60103'
 learning-outcome: "Explain Shavit's three-part compute-accounting regime for verifying training-run compliance — on-chip weight snapshots, retained training transcripts checked by Proof-of-Learning, and chip supply-chain accounting — and explain what each part rules out and why none of them works alone"
 domain: "[[../Domains/Governance and Policy]]"
-stage: beginner
 requires:
   - "[[The verification problem for AI agreements]]"
 authors:
   - Elias+Claude
 ---
 ## Test:
-id:: 'bb9f6daf-a217-4860-b569-3d053a7486f3'
+id:: bb9f6daf-a217-4860-b569-3d053a7486f3
 #### Question
 content:: Shavit's scheme is designed so that an inspector can walk up to a set of chips and establish what they were used to train — without the inspector reading anyone's weights on demand or watching the training as it happens.
 

@@ -1,15 +1,14 @@
-{++{"author":"Elias's AI","timestamp":1785221453640}@@---
+{++{"author":"Elias's AI","timestamp":1785221627096}@@---
 id: 'b21382c7-d99a-40c8-9462-ba06fa361551'
 learning-outcome: "Explain the flexHEG architecture — an auditable guarantee processor paired with a secure physical enclosure — what its flexibility and open-source design buy, and what it must assume about tamper resistance and trust"
 domain: "[[../Domains/Governance and Policy]]"
-stage: intermediate
 requires:
   - "[[Access substitutes for verification technology]]"
 authors:
   - Elias+Claude
 ---
 ## Test:
-id:: '82973068-5ff2-4928-a793-64039cafe462'
+id:: 82973068-5ff2-4928-a793-64039cafe462
 #### Question
 content:: A flexHEG is meant to let a chip's owner prove things about how that chip was used — to someone who does not trust them — without handing over what is running on it.
 
