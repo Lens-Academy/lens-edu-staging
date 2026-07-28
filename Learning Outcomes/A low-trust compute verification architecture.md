@@ -1,0 +1,37 @@
+{++{"author":"Elias's AI","timestamp":1785221450586}@@---
+id: 'a90e0d7e-5c55-4c68-9ed1-4e822f3fc94e'
+learning-outcome: "Describe a near-term low-trust AI compute verification architecture — the split between evidence capture and evidence evaluation, redundant mutually distrusting trusted computing bases, and analog control of data movement — and explain what low-trust and covert adversary mean in its threat model"
+domain: "[[../Domains/Governance and Policy]]"
+stage: advanced
+requires:
+  - "[[Verifying inference to catch exfiltration]]"
+authors:
+  - Elias+Claude
+---
+## Test:
+id:: '39abbb9e-eadc-49f6-8709-c1dad0fd74d8'
+#### Question
+content:: Every mechanism so far has needed someone to trust some silicon. Cankaya's architecture is built to avoid that: an inspector should be able to establish what a data center ran without either side trusting the other's hardware, and without new chips being designed.
+
+**Describe the architecture: what captures evidence, what evaluates it, and why those are deliberately separated. Then explain what "low-trust" means here, and what work the "covert adversary" threat model is doing.**
+assessment-instructions::
+Score according to the following rubric.
+
+**1** — Describes generic monitoring or conflates the scheme with on-chip mechanisms; no capture/evaluate distinction. *Example: "You put monitoring hardware in the data center that watches what the AI is doing and reports violations."*
+
+**2** — Recalls some components (taps, secure hardware) but not the architectural logic, and treats "low-trust" as a synonym for "secure". *Example: "Network taps record traffic and secure processors check it. It's low-trust because it doesn't require trusting the operator."*
+
+**3** — Gets the architecture and the split. **Capture:** minimalist, non-programmable network taps record evidence as cryptographic commitments — hashes, not plaintext — of the traffic at the boundary, optionally supplemented by memory probes using response-time analysis; the prover supplies an untrusted **manifest** labelling which hash intervals correspond to which workloads and objects. **Evaluation:** happens later, in an air-gapped auditing environment, where the claimed workloads are re-computed and checked against the commitments. Explains why the split matters: capture must be continuous, cheap, retrofittable and simple enough to be inspectable and hard to subvert, whereas evaluation is complex and expensive and can be done retroactively and rarely — so separating them puts the simple trustworthy thing in the hot path and keeps complexity out of it. Notes what gets verified: individual ML workloads at token-level granularity, inference versus training, model-whitelist compliance, blacklisted use, via bit-exact replay. *Example: "Capture is deliberately dumb: non-programmable network taps at the boundary that record cryptographic commitments — hashes, not content — plus optional memory probes; the operator supplies a manifest, which is untrusted, saying which hashes belong to which workload. Evaluation happens later and elsewhere, air-gapped, where you re-run the claimed workloads and check them against the commitments via bit-exact replay. The reason to split them is that capture has to run always, cheaply, retrofittably, and be simple enough that you can inspect it and it's hard to subvert — while evaluation is expensive and complicated and can happen occasionally, after the fact. You keep the complexity out of the always-on part."*
+
+**4** — As above, plus explains "low-trust" precisely: no component needs to be trusted by *both* parties. Each party trusts only its own hardware, from its own supply chain, and confidence emerges from **redundancy** — several mutually distrusting trusted computing bases, sourced independently, perform the same computation and cross-check before anything is disclosed, so a single subverted device produces disagreement rather than a false clean bill. Adds the physical layer: data movement is constrained by inspectable analog means — fiber splitters, data diodes, optical isolation, sanitized egress — so the guarantee that evidence flows one way and secrets do not flow out rests on physics you can look at, not on firmware you must trust. Notes the "instructor-executor" separation of security-critical comparison logic from performance-heavy replay. *Example: Adds "'Low-trust' means there's no component both sides have to trust. Each side trusts only its own hardware from its own supply chain, and the confidence comes from redundancy: several independently sourced, mutually distrusting TCBs run the same computation and cross-check before anything is released, so one compromised box yields a disagreement instead of a clean result. Underneath it, data movement is controlled by things you can physically inspect — splitters, data diodes, optical isolation, sanitized egress — so the one-way-ness of the evidence path is a property of the optics, not a promise made by firmware."*
+
+**5** — As above, plus explains the threat model's function and the design discipline it imposes. A **covert adversary** is one who cheats only while expecting to stay hidden, so the regime does not need to make violation impossible — it needs detection probability times consequence to exceed the gain, and "a covert adversary is caught if they fail to stay hidden even once", which turns continuous capture into an accumulating risk the cheater cannot escape. This is what licenses the near-term feasibility claims: existing tap technology, no new silicon, off-the-shelf components, under roughly 10% cost overhead relative to the monitored hardware. Also names honest open problems — supply-chain security for the taps and evaluation devices against a state adversary, side-channel defence (power-line filtering, jamming), ZKP overhead for floating-point replay, adversarial robustness of semantic screening, memory-probe validation at scale, and disambiguating technical failure from deliberate violation — and situates Plan B (zero-knowledge proofs removing the need for secure hardware entirely) as the direction that would dissolve the remaining trust requirements. *Example: Adds "The covert-adversary model is what makes the whole thing tractable. You're not trying to make cheating impossible; you're trying to make detection likely enough, times the consequence, to exceed the gain — and since a covert cheater is caught if they slip even once, continuous capture turns cheating into an accumulating risk rather than a one-time gamble. That's what licenses the near-term claims: existing tap tech, no new chips, off-the-shelf parts, under about 10% overhead. The honest gaps are real though — protecting the taps and audit devices against a state's own supply chain, side channels, ZKP cost for floating-point replay, whether semantic screening survives an adversary trying to fool it, and telling a genuine hardware fault apart from sabotage. Plan B is zero-knowledge proofs, which would remove the need for trusted hardware at all — that's the version that actually closes it."*
+max-chars:: 2000
+
+# Suggested Lenses:
+## Lens:
+source:: [[../Lenses/AIV - A System Overview for Low-Trust Compute Verification]]
+
+## Lens:
+source:: [[../Lenses/AIV - Build the Datacenter Lie Detector]]
+++}
