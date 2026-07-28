@@ -110,7 +110,7 @@ We found outputs to be invariant for some conditions. Pipeline parallelism rank 
 
 We observed sequence-length-dependent occasions of ”equivalence classes” in outputs in vLLM and Transformers: While adding batch neighbors generally altered batch element 0’s outputs, with increasing sequence length the differences in outputs across batch sizes began to disappear. This effect was most pronounced in prefill inference, where differences disappeared at larger batch sizes first, with complete batch size invariance beginning at sequence lengths above 4000 tokens. For decode inference, we observed a similar effect: occasionally, adjacent batch sizes left batch element 0 unaffected, (e.g. batch size 4 vs. batch size 5), while increasing sequence length made such invariant groups rarer. In no experiments did the token identities of batch neighbours affect the first batch element in any way.
 
-![[/attachments/cankaya-bit-exact-ai-inference-verification-without-performance-tradeoffs-img1-84e00753.jpg]]
+{--{"author":"Elias's AI","timestamp":1785221843533}@@![[/attachments/cankaya-bit-exact-ai-inference-verification-without-performance-tradeoffs-img1-84e00753.jpg]]--}{++{"author":"Elias's AI","timestamp":1785221843533}@@![Figure 1](/attachments/cankaya-bit-exact-ai-inference-verification-without-performance-tradeoffs-img1-84e00753.jpg)++}
 
 Figure 2: Comparison of top-5 logprobs (average across measurements at the last three token positions of the first batch element) across different batch sizes for decode inference in vLLM. We see that some changes in batch size can leave batch element 0’s outputs unchanged. Such ”equivalence classes” were consistent across prompts for any given fixed sequence length, but they became rarer with increasing sequence length.
 
