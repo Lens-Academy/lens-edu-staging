@@ -1836,7 +1836,7 @@ _Verifier:_ An entity, such as a government agency or international agency, that
 
 _Workload:_ A computer program, such as a program for AI development or deployment, particularly on a compute cluster.
 
-![Refer to caption](https://arxiv.org/html/x9.png)
+![Refer to {--{"author":"Elias's AI","timestamp":1785222035205}@@caption](https://arxiv.org/html/x9.png)--}{++{"author":"Elias's AI","timestamp":1785222035205}@@caption](https://arxiv.org/html/2507.15916v1/x9.png)++}
 
 Figure 9: How AI computing hardware is organized. AI data centers are facilities that host AI compute clusters and supporting infrastructure. AI compute clusters are made up of racks of AI servers and support equipment. These servers are enclosed units of AI accelerators, supporting chips, and other devices. AI accelerators are circuit boards with AI chips, memory, and other components. AI chips are computer chips that efficiently execute computational operations for AI development or deployment. The figure’s images are generic images for illustrative purposes.
 

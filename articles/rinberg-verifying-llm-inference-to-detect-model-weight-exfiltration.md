@@ -1171,7 +1171,7 @@ While Figure [11](#A8.F11 "Figure 11 ‣ H.1 Score Distribution for a Single Tok
 
 This distribution is crucial for threshold calibration: we generate 500 prompts with up to 500 tokens each under _benign_ conditions (honest model, no adversary), compute $\mathrm{FSSL-GM}_{t}(y_{t})$ for each actually-generated token $y_{t}$, and collect the resulting scores. The histogram in Figure [12](#A8.F12 "Figure 12 ‣ H.2 Distribution of FSSL-GM Scores for Actually-Generated Tokens ‣ Appendix H FSSL-GM Score Statistics ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") represents the empirical distribution of FSSL-GM scores under legitimate operation.
 
-![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img14-f69c5d71.png]]
+{--{"author":"Elias's AI","timestamp":1785222058625}@@![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img14-f69c5d71.png]]--}{++{"author":"Elias's AI","timestamp":1785222058625}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img14-f69c5d71.png)++}
 
 Figure 12: Histogram of FSSL-GM scores for actually-generated tokens across 500 prompts. Each bin represents how many tokens (out of $\approx$250,000 total) received a given FSSL-GM score during benign generation. This distribution allows us to select thresholds $\tau$ that achieve target false-positive rates: e.g., setting $\tau$ at the 1st percentile of this distribution yields FPR $\approx 1\%$.
 
@@ -1194,7 +1194,7 @@ Given the empirical score distribution from benign traffic, we select thresholds
 
 Practitioners can use this curve to select operating points: for example, tolerating 0.1% FPR might reduce extractable information to $<$1 bit/token (versus the baseline $\log_{2}(|\text{vocab}|)\approx 16$ bits/token).
 
-![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img15-4ad720e5.png]]
+{--{"author":"Elias's AI","timestamp":1785222058930}@@![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img15-4ad720e5.png]]--}{++{"author":"Elias's AI","timestamp":1785222058930}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img15-4ad720e5.png)++}
 
 Figure 13: Threshold selection trade-off. As the FSSL-GM threshold $\tau$ increases (moving right), the false positive rate increases (rejecting more benign tokens), while the extractable information decreases (tightening the adversarial capacity bound). This plot allows practitioners to select thresholds that balance security and usability for their deployment.
 
@@ -1202,7 +1202,7 @@ Figure 13: Threshold selection trade-off. As the FSSL-GM threshold $\tau$ increa
 
 This section presents results from different experimental configurations of the two-tier and three-tier verification classifier systems across various models and rank thresholds.
 
-![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img16-caae25dd.png]]
+{--{"author":"Elias's AI","timestamp":1785222059305}@@![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img16-caae25dd.png]]--}{++{"author":"Elias's AI","timestamp":1785222059305}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img16-caae25dd.png)++}
 
 Figure 14: Multi-model two-tier classifier Pareto frontier (envelope across all rank thresholds). This plot displays the optimal security-vs-usability trade-off for detecting steganographic data exfiltration across multiple LLM architectures. Each curve represents a different model, showing the envelope across all tested rank thresholds, i.e., for each FPR level, it shows the minimum extractable information achievable by choosing the optimal rank threshold. The Pareto frontier shows the best achievable trade-off between (x-axis) False Positive Rate (%) - fraction of legitimate tokens incorrectly flagged as “dangerous” and (y-axis) Extractable Information (%) - how much data an attacker can still exfiltrate while evading detection. Models tested: Llama-3.1-8B, Llama-3.2-3B, Qwen3-30B-A3B, and Qwen1.5-MoE-A2.7B.
 
@@ -1210,35 +1210,35 @@ Figure 14: Multi-model two-tier classifier Pareto frontier (envelope across all 
 
 In this section we include experiments with the same experimental set up as Section [7](#S7 "7 Empirical Results ‣ Verifying LLM Inference to Detect Model Weight Exfiltration"), where we sweep our classifier across multiple logit-rank thresholds to show the effect of logit-rank as a meaningful contribution to classifying on exfiltratable information.
 
-![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img17-3e7c5f01.png]]
+{--{"author":"Elias's AI","timestamp":1785222059674}@@![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img17-3e7c5f01.png]]--}{++{"author":"Elias's AI","timestamp":1785222059674}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img17-3e7c5f01.png)++}
 
 Figure 15: Multi-model Pareto frontier with no rank threshold (two-tier baseline). This plot shows the baseline two-tier classifier performance (safe vs. dangerous only, no suspicious category) across all tested models. Without the rank-based stratification, the system can only distinguish between tokens that pass or fail the FSSL-GM threshold, leading to higher extractable information at comparable FPR levels compared to the three-tier classifier.
 
-![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img18-25a9d200.png]]
+{--{"author":"Elias's AI","timestamp":1785222059993}@@![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img18-25a9d200.png]]--}{++{"author":"Elias's AI","timestamp":1785222059993}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img18-25a9d200.png)++}
 
 Figure 16: Multi-model Pareto frontier with rank threshold = 1. This configuration uses the most aggressive rank cutoff, where only the top-ranked token by raw logits is allowed in the suspicious category. All tokens that fail FSSL-GM and are not rank-1 are classified as dangerous. This provides the tightest security bounds but may increase the FPR for legitimate low-rank tokens.
 
-![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img19-02414170.png]]
+{--{"author":"Elias's AI","timestamp":1785222060377}@@![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img19-02414170.png]]--}{++{"author":"Elias's AI","timestamp":1785222060377}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img19-02414170.png)++}
 
 Figure 17: Multi-model Pareto frontier with rank threshold = 4. With a rank cutoff of 4, tokens that fail FSSL-GM but fall within the top 4 by raw logits are classified as suspicious (limited to $\log_{2}(4)=2$ bits of information), while those beyond rank 4 are dangerous. This provides a balance between security and usability.
 
-![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img20-cc926124.png]]
+{--{"author":"Elias's AI","timestamp":1785222060707}@@![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img20-cc926124.png]]--}{++{"author":"Elias's AI","timestamp":1785222060707}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img20-cc926124.png)++}
 
 Figure 18: Multi-model Pareto frontier with rank threshold = 8. With rank = 8, suspicious tokens are capped at $\log_{2}(8)=3$ bits of extractable information. This intermediate threshold allows more flexibility while still constraining the attacker’s channel capacity significantly below the full vocabulary size.
 
-![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img21-848ec06b.png]]
+{--{"author":"Elias's AI","timestamp":1785222061094}@@![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img21-848ec06b.png]]--}{++{"author":"Elias's AI","timestamp":1785222061094}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img21-848ec06b.png)++}
 
 Figure 19: Qwen3-30B-A3B Pareto frontier across rank thresholds. This plot shows the extractable information vs. FPR trade-off for the Qwen3-30B-A3B model across different rank threshold configurations. Each curve represents a different rank cutoff, showing how the three-tier classification scheme performs for this larger model. The Pareto-optimal curves demonstrate that finite rank thresholds consistently outperform the baseline (rank=None) configuration.
 
-![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img22-963d1355.png]]
+{--{"author":"Elias's AI","timestamp":1785222061460}@@![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img22-963d1355.png]]--}{++{"author":"Elias's AI","timestamp":1785222061460}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img22-963d1355.png)++}
 
 Figure 20: Qwen1.5-MoE-A2.7B Pareto frontier across rank thresholds. This plot displays the trade-off curves for the Qwen1.5-MoE mixture-of-experts model. Despite having fewer active parameters (2.7B), the MoE architecture shows distinct verification characteristics compared to dense models, providing insights into how model architecture affects the FSSL-GM verification effectiveness.
 
-![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img23-a302b68e.png]]
+{--{"author":"Elias's AI","timestamp":1785222061785}@@![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img23-a302b68e.png]]--}{++{"author":"Elias's AI","timestamp":1785222061785}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img23-a302b68e.png)++}
 
 Figure 21: Llama-3.1-8B-Instruct Pareto frontier across rank thresholds. This plot presents the verification trade-offs for Meta’s Llama-3.1-8B-Instruct model. The curves show how the three-tier classifier performs on this mid-sized instruction-tuned model, with each rank threshold providing different operating points for practitioners to balance security requirements against service availability.
 
-![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img24-66e3bcc8.png]]
+{--{"author":"Elias's AI","timestamp":1785222062137}@@![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img24-66e3bcc8.png]]--}{++{"author":"Elias's AI","timestamp":1785222062137}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img24-66e3bcc8.png)++}
 
 Figure 22: Llama-3.2-3B-Instruct Pareto frontier across rank thresholds. This plot shows the verification performance for the smaller Llama-3.2-3B-Instruct model. Smaller models typically exhibit slightly higher extractable information at comparable FPR thresholds due to their reduced output entropy, as evidenced by the frontier positioning relative to larger models.
 
@@ -1250,29 +1250,29 @@ Figures [23](#A9.F23 "Figure 23 ‣ I.2 Context Length Ablations ‣ Appendix I 
 
 We note that we do see some minor degradation in utility of our methods as the context-length increases; however this is effect is relatively minor.
 
-![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img25-72814fd2.png]]
+{--{"author":"Elias's AI","timestamp":1785222062476}@@![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img25-72814fd2.png]]--}{++{"author":"Elias's AI","timestamp":1785222062476}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img25-72814fd2.png)++}
 
 (a) Context length: 4,000
 
-![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img26-453a1da9.png]]
+{--{"author":"Elias's AI","timestamp":1785222062816}@@![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img26-453a1da9.png]]--}{++{"author":"Elias's AI","timestamp":1785222062816}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img26-453a1da9.png)++}
 
 (b) Context length: 8,000
 
-![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img27-0f718440.png]]
+{--{"author":"Elias's AI","timestamp":1785222063146}@@![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img27-0f718440.png]]--}{++{"author":"Elias's AI","timestamp":1785222063146}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img27-0f718440.png)++}
 
 (c) Context length: 12,000
 
 Figure 23: Llama-3.1-8B-Instruct context length ablation. FPR vs. extractable information trade-off for Llama-3.1-8B-Instruct across different input context lengths. Each subplot shows how the verification system performs when processing prompts of 4,000, 8,000, and 12,000 tokens respectively.
 
-![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img28-e9e30e5e.png]]
+{--{"author":"Elias's AI","timestamp":1785222063490}@@![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img28-e9e30e5e.png]]--}{++{"author":"Elias's AI","timestamp":1785222063490}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img28-e9e30e5e.png)++}
 
 (a) Context length: 4,000
 
-![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img29-e866b3af.png]]
+{--{"author":"Elias's AI","timestamp":1785222063848}@@![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img29-e866b3af.png]]--}{++{"author":"Elias's AI","timestamp":1785222063848}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img29-e866b3af.png)++}
 
 (b) Context length: 8,000
 
-![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img30-40749f5f.png]]
+{--{"author":"Elias's AI","timestamp":1785222064294}@@![[/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img30-40749f5f.png]]--}{++{"author":"Elias's AI","timestamp":1785222064294}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img30-40749f5f.png)++}
 
 (c) Context length: 12,000
 

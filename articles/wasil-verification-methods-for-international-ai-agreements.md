@@ -104,7 +104,7 @@ Our work provides a foundation for discussions on AI governance verification, bu
 
 ‘
 
-![Refer to caption](https://arxiv.org/html/x1.png)
+![Refer to {--{"author":"Elias's AI","timestamp":1785222124771}@@caption](https://arxiv.org/html/x1.png)--}{++{"author":"Elias's AI","timestamp":1785222124771}@@caption](https://arxiv.org/html/2408.16074v1/x1.png)++}
 
 Figure 1: Verification methods can help detect unauthorized training runs and unauthorized data centers. \* For data center inspections to be able to detect unauthorised training runs, it is likely that hardware requirements around chips with activity logs will be needed in some form.
 
@@ -212,7 +212,7 @@ Precedent. In the US, the Financial Crimes Enforcement Network (FinCEN) uses the
 
 In the early 2010s, an SAR filed by a bank led to the discovery of a complex international bribery scheme. The case resulted in multiple arrests and the seizure of over $100 million in criminal proceeds (Financial Crimes Enforcement Network [2011](https://arxiv.org/html/2408.16074v2#bib.bib17)). This demonstrates how financial intelligence can uncover sophisticated international financial crimes, potentially adaptable to detecting undeclared AI development activities.
 
-![Refer to caption](https://arxiv.org/html/x2.png)
+![Refer to {--{"author":"Elias's AI","timestamp":1785222125032}@@caption](https://arxiv.org/html/x2.png)--}{++{"author":"Elias's AI","timestamp":1785222125032}@@caption](https://arxiv.org/html/2408.16074v1/x2.png)++}
 
 Figure 2: Summary of evasion techniques to avoid verification methods under national technical means.
 
@@ -286,7 +286,7 @@ An international inspection team could visit an AI development facility to ensur
 
 Precedent. The closest precedent is the IAEA’s use of on-site inspections, as discussed above. Their approach demonstrates the feasibility of conducting thorough on-site inspections in sensitive, high-tech environments, which could be adapted for AI development facilities. The key difference is that AI inspections would focus more on software and computational resources rather than physical materials, requiring inspectors with specialized expertise in AI technologies and development practices.
 
-![Refer to caption](https://arxiv.org/html/x3.png)
+![Refer to {--{"author":"Elias's AI","timestamp":1785222125365}@@caption](https://arxiv.org/html/x3.png)--}{++{"author":"Elias's AI","timestamp":1785222125365}@@caption](https://arxiv.org/html/2408.16074v1/x3.png)++}
 
 Figure 3: Summary of evasion techniques to avoid access-dependent verification methods
 
@@ -317,7 +317,7 @@ Chip-based reporting involves implementing mechanisms within AI-capable chips an
 
 Precedent. The closest precedent for this type of firmware-based reporting is the Light Hash Rate (LHR) GPUs developed by NVIDIA. These GPUs can detect, via mechanisms implemented in their firmware and drivers, whether they are being used for Ethereum mining (Nvidia [2021](https://arxiv.org/html/2408.16074v2#bib.bib34)). Similar strategies could foreseeably be developed to report unauthorized AI training.
 
-![Refer to caption](https://arxiv.org/html/x4.png)
+![Refer to {--{"author":"Elias's AI","timestamp":1785222125661}@@caption](https://arxiv.org/html/x4.png)--}{++{"author":"Elias's AI","timestamp":1785222125661}@@caption](https://arxiv.org/html/2408.16074v1/x4.png)++}
 
 Figure 4: Summary of evasion techniques to avoid hardware-dependent verification methods.
 
@@ -459,13 +459,13 @@ Table 1: Limitations of methods and possible solutions using complementary metho
 
 ## Appendix B Research and development estimates for verification methods
 
-![Refer to caption](https://arxiv.org/html/x5.png)
+![Refer to {--{"author":"Elias's AI","timestamp":1785222126052}@@caption](https://arxiv.org/html/x5.png)--}{++{"author":"Elias's AI","timestamp":1785222126052}@@caption](https://arxiv.org/html/2408.16074v1/x5.png)++}
 
 Figure 5: Estimated research and development needed for verification methods investigated. Note that green indicates little additional research needed, orange indicates some additional research and red indicates significant additional research.
 
 ## Appendix C List of verification methods for international AI agreements
 
-![Refer to caption](https://arxiv.org/html/x6.png)
+![Refer to {--{"author":"Elias's AI","timestamp":1785222126360}@@caption](https://arxiv.org/html/x6.png)--}{++{"author":"Elias's AI","timestamp":1785222126360}@@caption](https://arxiv.org/html/2408.16074v1/x6.png)++}
 
 Figure 6: We identify 12 verification methods (left-hand column) which could be used to investigate compliance with international agreements. Each method is categorized by: (a) whether or not it can be used to detect unauthorized training runs, (b) whether or not it can be used to detect unauthorized data centers, (c) whether or not the use of the method requires authorization from the suspected entity, and (d) whether or not the method relies on agreements relating to the development or distribution of advanced hardware. Asterisks (\*) indicate nuanced applications. Energy monitoring: it may be possible to infer unauthorized training by detecting energy consumption patterns at known data centers that exceed those suggested by reported levels. Data center inspections: While basic inspections can be conducted without agreements mandating the use of specific hardware, the effectiveness is significantly enhanced by such agreements (hardware-enabled chip logs). Fab inspections: while basic inspections are useful without agreements, their relevance is greatest as a tool to verify that labs are producing hardware compliant with mandated standards. National intelligence services: While these services may operate without explicit authorization from the suspected entity, their use in verification contexts would ideally be governed by international agreements to ensure legitimacy and prevent potential diplomatic conflicts.
 

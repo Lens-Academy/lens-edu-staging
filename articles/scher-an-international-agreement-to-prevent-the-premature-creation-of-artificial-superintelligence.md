@@ -102,7 +102,7 @@ When world leaders are mobilized to address the situation, it is essential to ha
 
 ## 4 The Agreement
 
-![[/attachments/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence-img1-9ffabffc.png]]
+{--{"author":"Elias's AI","timestamp":1785222064767}@@![[/attachments/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence-img1-9ffabffc.png]]--}{++{"author":"Elias's AI","timestamp":1785222064767}@@![Figure](/attachments/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence-img1-9ffabffc.png)++}
 
 Figure 1: An overview of the agreement’s main components.
 
@@ -120,7 +120,7 @@ There are numerous considerations in deciding where these thresholds should be s
 
 Verification of these restrictions is practical because AI chips are expensive and specialized, and thousands of them are needed for frontier AI development. This approach helps ensure that training runs that advance toward ASI are prevented while still allowing continued use of current AI technology.
 
-![[/attachments/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence-img2-cb20e26c.png]]
+{--{"author":"Elias's AI","timestamp":1785222065200}@@![[/attachments/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence-img2-cb20e26c.png]]--}{++{"author":"Elias's AI","timestamp":1785222065200}@@![Figure](/attachments/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence-img2-cb20e26c.png)++}
 
 Figure 2: The training compute used to train various notable AI models in the last few years, along with the two thresholds in this agreement. In the agreement, new training above the Strict Threshold ($10^{24}$ FLOP) would be prohibited and new training between the Monitored Threshold ($10^{22}$ FLOP) and Strict Threshold ($10^{24}$ FLOP) would be monitored. Due to a lack of public data, only some models have confident estimates for the training compute used. The number in parentheses is the model’s score on the Artificial Analysis Intelligence Index. Data is based on \[[37](#bib.bib15 "Data on AI Models")\] and \[[15](#bib.bib17 "Comparison of models: intelligence, performance & price analysis")\]. Cost estimates are based on October 2025 rental prices for B200 GPUs from CoreWeave, assuming 50% utilization in FP8.
 
@@ -2159,7 +2159,7 @@ Key: $\bullet$ = very useful for this purpose; $\circ$ = somewhat useful, but ca
 
 The consolidation of AI chips will proceed in phases, prioritizing the largest clusters first. Large clusters are the most urgent to secure, as they can most quickly reach training thresholds. They are also the easiest to detect due to their physical footprint, power consumption, extensive personnel requirements, and reliance on standard chip supply chains. Due to the current distribution of AI chips and AI supercomputers \[[71](#bib.bib56 "Trends in AI supercomputers")\], the vast majority of AI chips are housed in relatively few facilities. By focusing on the largest clusters first, it will be fast to secure the majority of chips, even if it will take longer to register all covered clusters (Figure [3](#A4.F3 "Figure 3 ‣ D.3.1 Staged Implementation of Chip Consolidation ‣ D.3 Methods for chip tracking and consolidation ‣ Appendix D Locating and consolidating AI chips ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence")).
 
-![[/attachments/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence-img3-8dcffec7.png]]
+{--{"author":"Elias's AI","timestamp":1785222065708}@@![[/attachments/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence-img3-8dcffec7.png]]--}{++{"author":"Elias's AI","timestamp":1785222065708}@@![Figure](/attachments/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence-img3-8dcffec7.png)++}
 
 Figure 3: The timelines for locating clusters. Although it takes longer to register the majority of clusters, the majority of chips are quickly registered. This figure assumes that the size of AI clusters follows a Pareto distribution fit to data from Pilz et al. \[[71](#bib.bib56 "Trends in AI supercomputers")\].
 

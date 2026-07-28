@@ -138,7 +138,7 @@ There are several other considerations for such a monitoring system to be practi
 
 In this section, we outline a high-level technical plan, illustrated in Figure [1](#S3.F1 "Figure 1 ‣ 3 Solution Overview ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."), for Verifiers to monitor Provers’ ML chips for evidence that a large rule-violating training occurred.
 
-![[/attachments/shavit-what-does-it-take-to-catch-a-chinchilla-verifying-rules-on-large-scale-neural-network-training-via-compute-monitoring-img1-23934538.png]]
+{--{"author":"Elias's AI","timestamp":1785222123734}@@![[/attachments/shavit-what-does-it-take-to-catch-a-chinchilla-verifying-rules-on-large-scale-neural-network-training-via-compute-monitoring-img1-23934538.png]]--}{++{"author":"Elias's AI","timestamp":1785222123734}@@![Figure](/attachments/shavit-what-does-it-take-to-catch-a-chinchilla-verifying-rules-on-large-scale-neural-network-training-via-compute-monitoring-img1-23934538.png)++}
 
 Figure 1: Overview of the proposed monitoring framework.
 
@@ -505,7 +505,7 @@ In Figure [2](#A3.F2 "Figure 2 ‣ C.1 Do the Prover’s odds of evasion benefit
 
 Somewhat surprisingly, $p_{d}(k)$ changes very little as $k$ increases, and this remains true for almost all values of $b$.
 
-![[/attachments/shavit-what-does-it-take-to-catch-a-chinchilla-verifying-rules-on-large-scale-neural-network-training-via-compute-monitoring-img2-da6fb69a.png]]
+{--{"author":"Elias's AI","timestamp":1785222124003}@@![[/attachments/shavit-what-does-it-take-to-catch-a-chinchilla-verifying-rules-on-large-scale-neural-network-training-via-compute-monitoring-img2-da6fb69a.png]]--}{++{"author":"Elias's AI","timestamp":1785222124003}@@![Figure](/attachments/shavit-what-does-it-take-to-catch-a-chinchilla-verifying-rules-on-large-scale-neural-network-training-via-compute-monitoring-img2-da6fb69a.png)++}
 
 Figure 2: Ratio of $p_{d}(k)$ to original $p=p_{d}(1)$, setting $p=0.9$ and varying $k$ from $1$ to $100$ and $b=H/(CaT)$ from $0$ to $0.2$ (where the latter end corresponds to the Prover using 20% of all chips, making such a large-scale training run easily catchable with even a dozen samples). Across all values, the Prover’s reduction in probability of detection is less than 5%, even when training for up to $100\times$ longer.
 

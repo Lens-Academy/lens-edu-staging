@@ -91,12 +91,12 @@ Several technical problems would need to be solved to create sufficiently effect
 | {--{"author":"Elias's AI","timestamp":1785222038837}@@<b>Recommendations.....</b>                                            --}{++{"author":"Elias's AI","timestamp":1785222038837}@@**Recommendations.....** ++}| {--{"author":"Elias's AI","timestamp":1785222038837}@@<b>17</b>--}{++{"author":"Elias's AI","timestamp":1785222038837}@@**17**++} |
 | Recommended Areas of Technical Research.....                           | 18        |
 | Policy recommendations.....                                            | 19        |
-| <b>Conclusion.....</b>                                                 | <b>20</b> |
-| <b>Bibliography.....</b>                                               | <b>21</b> |
-| <b>Appendix A: The Original FlexHEG Vision.....</b>                    | <b>24</b> |
+| {--{"author":"Elias's AI","timestamp":1785222039141}@@<b>Conclusion.....</b>                                                 --}{++{"author":"Elias's AI","timestamp":1785222039141}@@**Conclusion.....** ++}| {--{"author":"Elias's AI","timestamp":1785222039141}@@<b>20</b>--}{++{"author":"Elias's AI","timestamp":1785222039141}@@**20**++} |
+| {--{"author":"Elias's AI","timestamp":1785222039443}@@<b>Bibliography.....</b>                                               --}{++{"author":"Elias's AI","timestamp":1785222039443}@@**Bibliography.....** ++}| {--{"author":"Elias's AI","timestamp":1785222039443}@@<b>21</b>--}{++{"author":"Elias's AI","timestamp":1785222039443}@@**21**++} |
+| {--{"author":"Elias's AI","timestamp":1785222039722}@@<b>Appendix--}{++{"author":"Elias's AI","timestamp":1785222039722}@@**Appendix++} A: The Original FlexHEG {--{"author":"Elias's AI","timestamp":1785222039722}@@Vision.....</b>                    --}{++{"author":"Elias's AI","timestamp":1785222039722}@@Vision.....** ++}| {--{"author":"Elias's AI","timestamp":1785222039722}@@<b>24</b>--}{++{"author":"Elias's AI","timestamp":1785222039722}@@**24**++} |
 | How We Expanded the Definition.....                                    | 24        |
 | Feasibility Problems With the Original Vision.....                     | 24        |
-| <b>Appendix B: Governance Mechanisms Enabled by FlexHEGs.....</b>      | <b>26</b> |
+| {--{"author":"Elias's AI","timestamp":1785222040025}@@<b>Appendix--}{++{"author":"Elias's AI","timestamp":1785222040025}@@**Appendix++} B: Governance Mechanisms Enabled by {--{"author":"Elias's AI","timestamp":1785222040025}@@FlexHEGs.....</b>      --}{++{"author":"Elias's AI","timestamp":1785222040025}@@FlexHEGs.....** ++}| {--{"author":"Elias's AI","timestamp":1785222040025}@@<b>26</b>--}{++{"author":"Elias's AI","timestamp":1785222040025}@@**26**++} |
 | Categories of Guarantees.....                                          | 26        |
 | Verification.....                                                      | 27        |
 | Verifying Claims about Workloads.....                                  | 27        |
