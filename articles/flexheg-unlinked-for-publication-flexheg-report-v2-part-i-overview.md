@@ -69,26 +69,26 @@ Several technical problems would need to be solved to create sufficiently effect
 
 |                                                                        |           |
 |------------------------------------------------------------------------|-----------|
-| <b>About This Report.....</b>                                          | <b>2</b>  |
-| <b>Executive Summary.....</b>                                          | <b>3</b>  |
-| <b>Table of Contents.....</b>                                          | <b>4</b>  |
-| <b>Introduction.....</b>                                               | <b>6</b>  |
-| <b>Conceptual Overview of the FlexHEG Design Stack.....</b>            | <b>7</b>  |
-| <b>How FlexHEGs Could Address Risks to International Security.....</b> | <b>8</b>  |
+| {--{"author":"Elias's AI","timestamp":1785222035986}@@<b>About--}{++{"author":"Elias's AI","timestamp":1785222035986}@@**About++} This {--{"author":"Elias's AI","timestamp":1785222035986}@@Report.....</b>                                          --}{++{"author":"Elias's AI","timestamp":1785222035986}@@Report.....** ++}| {--{"author":"Elias's AI","timestamp":1785222035986}@@<b>2</b>  --}{++{"author":"Elias's AI","timestamp":1785222035986}@@**2** ++}|
+| {--{"author":"Elias's AI","timestamp":1785222036291}@@<b>Executive Summary.....</b>                                          --}{++{"author":"Elias's AI","timestamp":1785222036291}@@**Executive Summary.....** ++}| {--{"author":"Elias's AI","timestamp":1785222036291}@@<b>3</b>  --}{++{"author":"Elias's AI","timestamp":1785222036291}@@**3** ++}|
+| {--{"author":"Elias's AI","timestamp":1785222036617}@@<b>Table--}{++{"author":"Elias's AI","timestamp":1785222036617}@@**Table++} of {--{"author":"Elias's AI","timestamp":1785222036617}@@Contents.....</b>                                          --}{++{"author":"Elias's AI","timestamp":1785222036617}@@Contents.....** ++}| {--{"author":"Elias's AI","timestamp":1785222036617}@@<b>4</b>  --}{++{"author":"Elias's AI","timestamp":1785222036617}@@**4** ++}|
+| {--{"author":"Elias's AI","timestamp":1785222036895}@@<b>Introduction.....</b>                                               --}{++{"author":"Elias's AI","timestamp":1785222036895}@@**Introduction.....** ++}| {--{"author":"Elias's AI","timestamp":1785222036895}@@<b>6</b>  --}{++{"author":"Elias's AI","timestamp":1785222036895}@@**6** ++}|
+| {--{"author":"Elias's AI","timestamp":1785222037225}@@<b>Conceptual--}{++{"author":"Elias's AI","timestamp":1785222037225}@@**Conceptual++} Overview of the FlexHEG Design {--{"author":"Elias's AI","timestamp":1785222037225}@@Stack.....</b>            --}{++{"author":"Elias's AI","timestamp":1785222037225}@@Stack.....** ++}| {--{"author":"Elias's AI","timestamp":1785222037225}@@<b>7</b>  --}{++{"author":"Elias's AI","timestamp":1785222037225}@@**7** ++}|
+| {--{"author":"Elias's AI","timestamp":1785222037543}@@<b>How--}{++{"author":"Elias's AI","timestamp":1785222037543}@@**How++} FlexHEGs Could Address Risks to International {--{"author":"Elias's AI","timestamp":1785222037543}@@Security.....</b>--}{++{"author":"Elias's AI","timestamp":1785222037543}@@Security.....**++} | {--{"author":"Elias's AI","timestamp":1785222037543}@@<b>8</b>  --}{++{"author":"Elias's AI","timestamp":1785222037543}@@**8** ++}|
 | Malicious Use.....                                                     | 8         |
 | Loss of Control.....                                                   | 9         |
 | Unsafe Weaponization of AI.....                                        | 10        |
 | Threats to Balance of Power and Strategic Stability.....               | 10        |
-| <b>A Sketch of A Path to FlexHEGs.....</b>                             | <b>11</b> |
+| {--{"author":"Elias's AI","timestamp":1785222037874}@@<b>A--}{++{"author":"Elias's AI","timestamp":1785222037874}@@**A++} Sketch of A Path to {--{"author":"Elias's AI","timestamp":1785222037874}@@FlexHEGs.....</b>                             --}{++{"author":"Elias's AI","timestamp":1785222037874}@@FlexHEGs.....** ++}| {--{"author":"Elias's AI","timestamp":1785222037874}@@<b>11</b>--}{++{"author":"Elias's AI","timestamp":1785222037874}@@**11**++} |
 | From Best Practice to Requirement.....                                 | 12        |
 | Transition to International Governance.....                            | 12        |
-| <b>FlexHEGs as a Comprehensive Governance Framework.....</b>           | <b>14</b> |
-| <b>Limitations of FlexHEG Mechanisms.....</b>                          | <b>16</b> |
+| {--{"author":"Elias's AI","timestamp":1785222038227}@@<b>FlexHEGs--}{++{"author":"Elias's AI","timestamp":1785222038227}@@**FlexHEGs++} as a Comprehensive Governance {--{"author":"Elias's AI","timestamp":1785222038227}@@Framework.....</b>           --}{++{"author":"Elias's AI","timestamp":1785222038227}@@Framework.....** ++}| {--{"author":"Elias's AI","timestamp":1785222038227}@@<b>14</b>--}{++{"author":"Elias's AI","timestamp":1785222038227}@@**14**++} |
+| {--{"author":"Elias's AI","timestamp":1785222038571}@@<b>Limitations--}{++{"author":"Elias's AI","timestamp":1785222038571}@@**Limitations++} of FlexHEG {--{"author":"Elias's AI","timestamp":1785222038571}@@Mechanisms.....</b>                          --}{++{"author":"Elias's AI","timestamp":1785222038571}@@Mechanisms.....** ++}| {--{"author":"Elias's AI","timestamp":1785222038571}@@<b>16</b>--}{++{"author":"Elias's AI","timestamp":1785222038571}@@**16**++} |
 | FlexHEGs are Technically Challenging to Implement.....                 | 16        |
 | FlexHEGs Could Only Govern the Frontier of AI.....                     | 16        |
 | Technical Verification Has Limits.....                                 | 16        |
 | Other Governance Approaches Can Complement FlexHEGs.....               | 17        |
-| <b>Recommendations.....</b>                                            | <b>17</b> |
+| {--{"author":"Elias's AI","timestamp":1785222038837}@@<b>Recommendations.....</b>                                            --}{++{"author":"Elias's AI","timestamp":1785222038837}@@**Recommendations.....** ++}| {--{"author":"Elias's AI","timestamp":1785222038837}@@<b>17</b>--}{++{"author":"Elias's AI","timestamp":1785222038837}@@**17**++} |
 | Recommended Areas of Technical Research.....                           | 18        |
 | Policy recommendations.....                                            | 19        |
 | <b>Conclusion.....</b>                                                 | <b>20</b> |

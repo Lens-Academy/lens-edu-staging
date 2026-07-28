@@ -46,7 +46,7 @@ Add discussion note here:
 
 # Verification for International AI Governance
 
-![[/attachments/harack-verification-for-international-ai-governance-fig1-3a90d4e2.jpg]]
+{--{"author":"Elias's AI","timestamp":1785222040493}@@![[/attachments/harack-verification-for-international-ai-governance-fig1-3a90d4e2.jpg]]--}{++{"author":"Elias's AI","timestamp":1785222040493}@@![Figure](/attachments/harack-verification-for-international-ai-governance-fig1-3a90d4e2.jpg)++}
 
 A digital globe with a network of glowing blue lines and nodes, symbolizing global connectivity. A shield with a scale of justice is superimposed over the globe, representing AI governance and verification.
 
@@ -108,8 +108,8 @@ This report has three primary findings. First, verification of many internationa
 
 |                                                                                       |           |
 |---------------------------------------------------------------------------------------|-----------|
-| <b>Abstract</b>                                                                       | <b>2</b>  |
-| <b>Contents</b>                                                                       | <b>3</b>  |
+| {--{"author":"Elias's AI","timestamp":1785222040846}@@<b>Abstract</b>                                                                       --}{++{"author":"Elias's AI","timestamp":1785222040846}@@**Abstract** ++}| {--{"author":"Elias's AI","timestamp":1785222040846}@@<b>2</b>  --}{++{"author":"Elias's AI","timestamp":1785222040846}@@**2** ++}|
+| {--{"author":"Elias's AI","timestamp":1785222041186}@@<b>Contents</b>                                                                       --}{++{"author":"Elias's AI","timestamp":1785222041186}@@**Contents** ++}| {--{"author":"Elias's AI","timestamp":1785222041186}@@<b>3</b>  --}{++{"author":"Elias's AI","timestamp":1785222041186}@@**3** ++}|
 | <b>Executive Summary</b>                                                              | <b>7</b>  |
 | Pessimistic assumptions about verification difficulty . . . . .                       | 7         |
 | Agreements and their verifiability . . . . .                                          | 8         |
