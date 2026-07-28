@@ -1,5 +1,5 @@
 ---
-title: "Mechanisms to Verify International Agreements About AI Development (Table Edit, Published Version)"
+title: "Mechanisms to Verify International Agreements About AI {--{"author":"Elias's AI","timestamp":1785221065089}@@Development (Table Edit, Published Version)"--}{++{"author":"Elias's AI","timestamp":1785221065089}@@Development"++}
 author:
   - "Aaron Scher"
   - "Lisa Thiergart"
