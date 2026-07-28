@@ -1,6 +1,6 @@
 ---
 id: 'cc95318b-c9ad-4995-85bc-ad9a153b7419'
-learning-outcome: "Read evidence from Activation monitoring and anomaly detection"
+learning-outcome: 
 domain: '[[../Domains/Interpretability]]'
 stage: intermediate
 tags:
