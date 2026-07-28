@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221470632}@@---
+{++{"author":"Elias's AI","timestamp":1785221632660}@@---
 id: 'ffff89f9-3e9c-4718-b960-722daac7ed23'
 slug: aiv-m4-building-it
 title: "Building the Lie Detector, and the Treaty It Serves"
@@ -17,7 +17,7 @@ source:: ![[../Learning Outcomes/A low-trust compute verification architecture]]
 source:: ![[../Learning Outcomes/From mechanism to agreement]]
 
 # Lens: Welcome
-id:: 'e38af20b-d323-415e-8343-f549c2df7922'
+id:: e38af20b-d323-415e-8343-f549c2df7922
 tldr:: Put it together: an architecture that needs nobody to trust anybody's silicon, a call to build it, and the treaty it would serve. Then decide whether the thing standing in the way is technical or political.
 summary_for_tutor:: Closing framing lens for Module 4. Frames the module as assembly plus judgement. First the capstone architecture (Cankaya's low-trust system overview): capture/evaluate split, non-programmable taps recording cryptographic commitments, untrusted prover manifest checked against independently captured evidence, air-gapped evaluation with redundant mutually distrusting TCBs from separate supply chains, analog data-movement control, instructor-executor blinding, covert-adversary threat model, near-term feasibility with no new silicon at under ~10% overhead, and honestly stated open problems. Then the call to action framing verification as an orphaned problem and arguing verification infrastructure could defuse the security dilemma driving the race. Then Scher et al.'s concrete proposed agreement (US-China-led coalition, FLOP threshold, ban on dangerous and verifiability-undermining research) as the mapping exercise: which obligations the course's machinery serves well and which it barely touches. Ends by requiring the learner to take a defended position on whether the binding constraint is technical or political, and to see that the two are coupled because verification research lowers the political cost of agreeing. Framing text only.
 #### Text

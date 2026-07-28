@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221469866}@@---
+{++{"author":"Elias's AI","timestamp":1785221631988}@@---
 id: 'b0d8f205-7165-4e85-8117-0ab9e249ca3d'
 slug: aiv-m3-mechanisms
 title: "Mechanisms: Hardware and Inference"
@@ -17,7 +17,7 @@ source:: ![[../Learning Outcomes/Hardware-enabled guarantees]]
 source:: ![[../Learning Outcomes/Verifying inference to catch exfiltration]]
 
 # Lens: Welcome
-id:: 'a51d3966-d03f-4141-8d89-52834fa38430'
+id:: a51d3966-d03f-4141-8d89-52834fa38430
 tldr:: If access is politically expensive, the way out is mechanisms that buy confidence cheaply. Two families here: guarantees built into the chip, and verification of what the chip actually computed.
 summary_for_tutor:: Framing lens for Module 3, the technical core. Motivates the module from Module 2's conclusion: access substitutes for missing technology but is politically expensive, so the value of a mechanism is confidence bought per unit of intrusion. Previews two families. Hardware-enabled guarantees (flexHEG: auditable guarantee processor plus secure enclosure, open-source, updateable) attach the guarantee to the chip. Inference verification (Rinberg et al.; Cankaya) changes the question from 'how much compute did you use' to 'is this machine doing what you say', and turns on the crux that GPU floating-point non-determinism forces an approximation tolerance which is itself the covert channel — with bit-exactness closing rather than narrowing it, on the finding that engines are deterministic but not invariant. Also flags the recurring unresolved problem that both hardware approaches place the root of trust inside hardware the constrained party physically owns, which is what motivates Module 4. Framing text only.
 #### Text

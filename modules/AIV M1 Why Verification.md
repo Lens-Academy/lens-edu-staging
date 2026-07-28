@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221468237}@@---
+{++{"author":"Elias's AI","timestamp":1785221631159}@@---
 id: '821d4e91-fbec-44d5-9140-5847d66e8e02'
 slug: aiv-m1-why-verification
 title: "Why Verification, and the Compute Chain"
@@ -19,7 +19,7 @@ source:: ![[../Learning Outcomes/Compute accounting for training runs]]
 source:: ![[../Learning Outcomes/Verification methods and their evasions]]
 
 # Lens: Welcome
-id:: 'f4032140-2e7b-4c07-8abd-a4c84cfe9d3d'
+id:: f4032140-2e7b-4c07-8abd-a4c84cfe9d3d
 tldr:: Nuclear arms control had radiation, seismographs, and warheads you could count. An AI agreement has a building full of chips that looks like every other building full of chips. This module asks what you would actually go and look at.
 summary_for_tutor:: Opening framing lens for Module 1 of the AI verification course. Establishes why verification is a precondition for international AI agreements rather than an add-on — an agreement nobody can check is one nobody can rationally comply with, so verifiability partly determines which agreements are politically available. Then previews the two foundational readings: Shavit's compute-monitoring framework (on-chip weight snapshots, training transcripts / Proof-of-Learning, chip supply-chain accounting) and Wasil et al.'s catalogue of methods paired with their evasions, organised by how much cooperation each demands from the distrusted party. Framing text only; teaching happens in the following lenses.
 

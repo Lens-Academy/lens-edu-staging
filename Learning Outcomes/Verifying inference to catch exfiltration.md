@@ -1,15 +1,14 @@
-{++{"author":"Elias's AI","timestamp":1785221456395}@@---
+{++{"author":"Elias's AI","timestamp":1785221629707}@@---
 id: '172fd6b4-511f-4649-baf2-e0f2a8433259'
 learning-outcome: "Explain how verifying LLM inference detects steganographic model-weight exfiltration, why the non-determinism of GPU arithmetic is the crux of the problem, and why bit-exact re-computation strengthens the guarantee"
 domain: "[[../Domains/Governance and Policy]]"
-stage: advanced
 requires:
   - "[[Hardware-enabled guarantees]]"
 authors:
   - Elias+Claude
 ---
 ## Test:
-id:: '47816cf1-9fe3-4e0b-b41e-395259c6c682'
+id:: 47816cf1-9fe3-4e0b-b41e-395259c6c682
 #### Question
 content:: An attacker who controls an inference server does not need to smuggle out a hard drive. They can hide the weights inside ordinary-looking model responses, a few bits at a time, and let normal traffic carry them out.
 

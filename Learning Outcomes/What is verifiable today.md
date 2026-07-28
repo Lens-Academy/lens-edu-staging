@@ -1,15 +1,14 @@
-{++{"author":"Elias's AI","timestamp":1785221457063}@@---
+{++{"author":"Elias's AI","timestamp":1785221630687}@@---
 id: 'b5b5b628-c9fb-409c-a64f-4a3313c24a8f'
 learning-outcome: "Assess which international AI agreements are verifiable with existing or near-term technology, and explain why data-center-based development and deployment is the tractable case while mobile AI-enabled systems are the hard case"
 domain: "[[../Domains/Governance and Policy]]"
-stage: intermediate
 requires:
   - "[[Verification methods and their evasions]]"
 authors:
   - Elias+Claude
 ---
 ## Test:
-id:: 'd42dd4a7-6562-42aa-af58-c2a7dc955008'
+id:: d42dd4a7-6562-42aa-af58-c2a7dc955008
 #### Question
 content:: A common assumption is that verifying AI agreements is a problem for the future — that it waits on breakthroughs nobody has made yet. The Oxford AIGI report, written under deliberately conservative assumptions, reaches a different conclusion.
 

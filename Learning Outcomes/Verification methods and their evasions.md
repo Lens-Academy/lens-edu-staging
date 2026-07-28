@@ -1,15 +1,14 @@
-{++{"author":"Elias's AI","timestamp":1785221455528}@@---
+{++{"author":"Elias's AI","timestamp":1785221628840}@@---
 id: 'dbcda91b-10ce-4205-8cc2-5339dfc6d2a7'
 learning-outcome: "Classify verification methods for AI agreements as national technical means, access-dependent, or hardware-dependent, and pair each class with the evasion route that defeats it and the cooperation it demands"
 domain: "[[../Domains/Governance and Policy]]"
-stage: beginner
 requires:
   - "[[The verification problem for AI agreements]]"
 authors:
   - Elias+Claude
 ---
 ## Test:
-id:: '9c2cb793-41af-409d-b02d-9cb344d137fb'
+id:: 9c2cb793-41af-409d-b02d-9cb344d137fb
 #### Question
 content:: Wasil and co-authors catalog verification methods and then, for each one, describe how a determined state would get around it.
 
