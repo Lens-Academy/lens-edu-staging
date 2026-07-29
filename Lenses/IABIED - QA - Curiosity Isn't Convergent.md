@@ -2,7 +2,7 @@
 id: 77ae7904-9a9d-4c33-92f1-a2b229f91f8d
 summary_for_tutor: Argues that curiosity is a specifically human solution to the problem of gathering information, not a universal feature of intelligence. An AI could achieve the same investigative function through value-of-information calculations without any emotional experience. Uses the titanium cube maximizer thought experiment to show that an AI with fixed goals would not voluntarily adopt human-like emotional architecture.
 title: "Curiosity Isn't Convergent"
-tldr: "Why Curiosity?"
+tldr: {--{"author":"Elias's AI","timestamp":1785314206924}@@"Why Curiosity?"--}{++{"author":"Elias's AI","timestamp":1785314206924}@@"Wouldn't any sufficiently smart mind be curious? Maybe not. Curiosity looks like a specifically human fix for gathering information, and an AI could do the same job with cold value-of-information math, no sense of wonder required."++}
 tags:
   - supplementary
 ---

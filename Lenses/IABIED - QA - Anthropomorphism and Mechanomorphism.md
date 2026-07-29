@@ -2,7 +2,7 @@
 id: 393019e9-7efb-4819-81e6-3c2143b26e80
 summary_for_tutor: Defines anthropomorphism (projecting human emotions onto AI) and mechanomorphism (assuming rigid, unimaginative machine behavior) as two common reasoning errors in AI predictions. Introduces the alternative framework of asking what behavior enables the AI to succeed at its objectives. The realistic disaster scenario involves AIs taking unwanted actions as complex consequences of training, not from hatred or misunderstanding.
 title: Anthropomorphism and Mechanomorphism
-tldr: "Mechanomorphism and Garry Kasparov"
+tldr: {--{"author":"Elias's AI","timestamp":1785314202440}@@"Mechanomorphism--}{++{"author":"Elias's AI","timestamp":1785314202440}@@"Two opposite ways to get AI predictions wrong: projecting human feelings onto it, and assuming it must be a rigid, unimaginative machine. Why both mislead,++} and {--{"author":"Elias's AI","timestamp":1785314202440}@@Garry Kasparov"--}{++{"author":"Elias's AI","timestamp":1785314202440}@@what to ask instead."++}
 tags:
   - supplementary
 ---
