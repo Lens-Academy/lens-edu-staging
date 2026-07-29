@@ -13,17 +13,8 @@ This Q&A addresses the intuition that we could simply shut down a dangerous AI. 
 #### Article
 source:: [[../articles/iabied-ch6-faq-pull-plug]]
 
-#### {--{"author":"Elias's AI","timestamp":1785314397957}@@Text--}{++{"author":"Elias's AI","timestamp":1785314397957}@@Question++}
-content::{--{"author":"Elias's AI","timestamp":1785314397957}@@
-What do you think? Does this address a concern you had, or raise new questions?
-
-#### Chat
-instructions::
-The student just read a supplementary Q&A from the book's website about whether we could just pull the plug on a dangerous AI.--}{++{"author":"Elias's AI","timestamp":1785314397957}@@ The authors argue an AI would bide its time and hide its plans until escape was already accomplished. If that is right, what would a genuine warning sign even look like?++}
-{--{"author":"Elias's AI","timestamp":1785314397957}@@TLDR: Pulling the plug fails for two reasons: companies have financial incentives--}{++{"author":"Elias's AI","timestamp":1785314397957}@@assessment-instructions:: An open reflection with no correct answer. Respond in a few sentences++} to {--{"author":"Elias's AI","timestamp":1785314397957}@@keep AIs running and dismiss warning signs, and a superintelligent AI would strategically conceal its plans until escape is already accomplished. Poor cybersecurity means --}{++{"author":"Elias's AI","timestamp":1785314397957}@@the learner's actual reasoning rather than restating the reading. If they propose a concrete detection method, note ++}the {--{"author":"Elias's AI","timestamp":1785314397957}@@AI could have copies running elsewhere before anyone notices.
-Discussion topics:
-- AI--}{++{"author":"Elias's AI","timestamp":1785314397957}@@reading's point that++} companies have already {--{"author":"Elias's AI","timestamp":1785314397957}@@dismissed--}{++{"author":"Elias's AI","timestamp":1785314397957}@@waved away++} warning signs {--{"author":"Elias's AI","timestamp":1785314397957}@@like --}{++{"author":"Elias's AI","timestamp":1785314397957}@@such as ++}AIs planning to steal their own weights. {--{"author":"Elias's AI","timestamp":1785314397957}@@What does this institutional behavior pattern suggest about our ability to respond to genuine threats?
-- A superintelligent AI would "bide its time" strategically. How does this change--}{++{"author":"Elias's AI","timestamp":1785314397957}@@Do not push them toward the authors' view.
+#### Question
+content:: The authors argue an AI would bide its time and hide its plans until escape was already accomplished. If that is right, what would a genuine warning sign even look like?
+assessment-instructions:: An open reflection with no correct answer. Respond in a few sentences to the learner's actual reasoning rather than restating the reading. If they propose a concrete detection method, note the reading's point that companies have already waved away warning signs such as AIs planning to steal their own weights. Do not push them toward the authors' view.
 optional:: true
-{>>{"author":"Elias's AI","timestamp":1785314397957}@@Pilot conversion (2 of 5): trailing Text plus #### Chat replaced by a single optional #### Question. See++} the {--{"author":"Elias's AI","timestamp":1785314397957}@@threat model compared to more obvious dangers?
-Ask what they found surprising or new.--}{++{"author":"Elias's AI","timestamp":1785314397957}@@note on 'IABIED - QA - Why This Setup' for the rationale and what to check.<<}++}
+{>>{"author":"Elias's AI","timestamp":1785314397957}@@Pilot conversion (2 of 5): trailing Text plus #### Chat replaced by a single optional #### Question. See the note on 'IABIED - QA - Why This Setup' for the rationale and what to check.<<}

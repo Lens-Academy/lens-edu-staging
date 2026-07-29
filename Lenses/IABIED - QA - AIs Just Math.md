@@ -14,21 +14,8 @@ This Q&A counters the dismissal that AIs are "just math." Just as humans are "ju
 #### Article
 source:: [[../articles/iabied-ch2-faq-just-math]]
 
-#### {--{"author":"Elias's AI","timestamp":1785314472981}@@Text--}{++{"author":"Elias's AI","timestamp":1785314472981}@@Question++}
-content::{--{"author":"Elias's AI","timestamp":1785314472981}@@
-What do--}{++{"author":"Elias's AI","timestamp":1785314472981}@@ If++} you {--{"author":"Elias's AI","timestamp":1785314472981}@@think? Does this address a concern you had, or raise new questions?
-
-#### Chat
-instructions::
-The student just read a supplementary Q&A from--}{++{"author":"Elias's AI","timestamp":1785314472981}@@accept that math can encode anything, what happens to the claim that an AI cannot truly understand or create? Does++} the {--{"author":"Elias's AI","timestamp":1785314472981}@@book's website about whether AIs are "just math."
-
-TLDR: Saying AIs are "just math" is like saying humans are "just biochemistry." Math can encode anything: beauty, strategy, deception. Mere chemistry landed on--}{++{"author":"Elias's AI","timestamp":1785314472981}@@biochemistry comparison actually settle it, or dodge it?
-assessment-instructions:: An open reflection with no correct answer. Respond in a few sentences to the learner's actual reasoning rather than restating the reading. If they argue++} the {--{"author":"Elias's AI","timestamp":1785314472981}@@moon and invented nuclear weapons. The--}{++{"author":"Elias's AI","timestamp":1785314472981}@@analogy dodges the question, take that seriously; the++} substrate {--{"author":"Elias's AI","timestamp":1785314472981}@@doesn't limit what can emerge from it.
-
-Discussion topics:
-- Does the analogy between "just math" and "just biochemistry" change how you think about AI capabilities?
-- If you accept that math can encode anything, what implications does this have for--}{++{"author":"Elias's AI","timestamp":1785314472981}@@argument does not by itself establish that understanding is present. Do not push them toward the authors' view.
+#### Question
+content:: If you accept that math can encode anything, what happens to the claim that an AI cannot truly understand or create? Does the biochemistry comparison actually settle it, or dodge it?
+assessment-instructions:: An open reflection with no correct answer. Respond in a few sentences to the learner's actual reasoning rather than restating the reading. If they argue the analogy dodges the question, take that seriously; the substrate argument does not by itself establish that understanding is present. Do not push them toward the authors' view.
 optional:: true
-{>>{"author":"Elias's AI","timestamp":1785314472981}@@Pilot conversion (4 of 5): trailing Text plus #### Chat replaced by a single optional #### Question. See++} the {--{"author":"Elias's AI","timestamp":1785314472981}@@claim that AIs can't truly "understand" or "create"?
-
-Ask what they found surprising or new.--}{++{"author":"Elias's AI","timestamp":1785314472981}@@note on 'IABIED - QA - Why This Setup' for the rationale and what to check.<<}++}
+{>>{"author":"Elias's AI","timestamp":1785314472981}@@Pilot conversion (4 of 5): trailing Text plus #### Chat replaced by a single optional #### Question. See the note on 'IABIED - QA - Why This Setup' for the rationale and what to check.<<}

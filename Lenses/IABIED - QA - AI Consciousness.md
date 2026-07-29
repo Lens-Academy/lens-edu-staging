@@ -1,7 +1,7 @@
 ---
 id: 92fd9aaa-b529-49ff-a11f-60b4f5b1ca57
-{++{"author":"Elias's AI","timestamp":1785314079224}@@title: "Would a superintelligence be conscious?"{>>{"author":"Elias's AI","timestamp":1785314079224}@@This lens had no title field at all, so it fell back to the raw filename. Added a title matching the Q&A it answers.<<}
-++}summary_for_tutor: "Covers whether superintelligent AI would be conscious (best guess: probably not) and why the question is largely separate from AI danger. Whether conscious or unconscious, an optimizer pursuing misaligned goals poses the same existential threat."
+title: "Would a superintelligence be conscious?"{>>{"author":"Elias's AI","timestamp":1785314079224}@@This lens had no title field at all, so it fell back to the raw filename. Added a title matching the Q&A it answers.<<}
+summary_for_tutor: "Covers whether superintelligent AI would be conscious (best guess: probably not) and why the question is largely separate from AI danger. Whether conscious or unconscious, an optimizer pursuing misaligned goals poses the same existential threat."
 tldr: "We're not sure. Our best guess is \"probably not.\""
 tags:
   - supplementary
