@@ -10,7 +10,8 @@ Lens Academy courses are plain markdown documents in this **"Lens Edu"** folder.
 
 | Task | Read |
 |------|------|
-| Writing or editing any content file | `Lens Edu/AI Guide/Element Reference.md` — exact frontmatter + segment syntax, validation rules |
+| Writing {--{"author":"Elias's AI","timestamp":1785321454898}@@or editing any content file--}{++{"author":"Elias's AI","timestamp":1785321454898}@@a specific file type++} | {++{"author":"Elias's AI","timestamp":1785321454898}@@the matching guide in ++}`Lens Edu/AI {--{"author":"Elias's AI","timestamp":1785321454898}@@Guide/Element Reference.md` — exact frontmatter + segment syntax, validation rules--}{++{"author":"Elias's AI","timestamp":1785321454898}@@Guide/`: `Writing Course Files.md`, `Writing Modules.md`, `Writing Learning Outcomes.md`, `Writing Lenses.md`, `Writing Articles.md` |
+| Segment syntax (Text/Chat/Article/Video/Question/Roleplay), shared field rules, validator errors | `Lens Edu/AI Guide/Element Reference.md`++} |
 | Authoring lenses, learning outcomes, or modules | `Lens Edu/AI Guide/Quality Patterns.md` — the proven pedagogical patterns (read together with the element reference) |{++{"author":"Elias's AI","timestamp":1785320228415}@@
 | Writing the outcome statement itself (scoping, phrasing, testability) | `Lens Edu/AI Guide/Writing Learning Outcomes.md` |++}
 {--{"author":"Elias's AI","timestamp":1785321195204}@@| Getting an external article/webpage into the knowledge base | `Lens Edu/AI Guide/Article Import.md` |

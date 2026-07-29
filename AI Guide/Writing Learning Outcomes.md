@@ -39,7 +39,31 @@ One outcome = one testable skill. The tell that you have two: the level-3 row of
 
 The 1–5 rubric (every level with a verbatim example answer — structure in `Quality Patterns.md`) is the outcome's operational definition. Write it immediately after the statement, **before** designing lenses: level 3 is the pass bar (the mechanism correctly explained), levels 1–2 name the failure modes the lenses must head off, levels 4–5 name the depth the best lenses can reach for. If you can't write distinct level-1, level-3, and level-5 example answers, the outcome is too vague or too big — fix the statement, not the rubric.
 
-## Edge cases
+## {++{"author":"Elias's AI","timestamp":1785321455199}@@File syntax
+
+Frontmatter: required `id`; optional `learning-outcome` (the statement), `discussion`, `tags`. Body = the test, then (optionally) suggested lenses:
+
+```markdown
+## Test:
+id:: <uuid>
+#### Question
+content:: <the test question>
+assessment-instructions:: <scoring rubric — see Quality Patterns>
+
+# Suggested Lenses:
+## Lens:
+source:: [[../Lenses/My Topic - PQ]]
+notes:: <optional author note about this suggestion>
+
+## Lens:
+source:: [[../Lenses/My Topic]]
+```
+
+- A Test may only contain question/roleplay segments — anything else is flagged and would be silently dropped.
+- Suggested lenses are **author-facing candidates only** — the platform never imports them; the module lists its teaching lenses explicitly, before the `# Learning Outcome:` ref. Zero-suggestion outcomes are valid.
+- Errors to avoid: a `## Lens:` outside the `# Suggested Lenses:` header; a `## Test:` nested under it (must sit above); any `Submodule:` section (structure lives in the module file).
+
+## ++}Edge cases
 
 - **Artifact and state outcomes.** Some outcomes ask the student to produce something (a personal action plan) or to reach a state (motivated to contribute) rather than demonstrate a skill. The verb-and-mechanism guidance above partially breaks down there; keep the testability core: define what observable output or expressed state counts as achieved, and write the test against that.
 - **No `add_to_ai_context` on an outcome** — it's a validation error; put source material on the lens, module, or submodule marker.
