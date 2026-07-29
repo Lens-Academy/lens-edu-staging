@@ -2,7 +2,7 @@
 id: 0a5f01f5-5739-4fa7-aa2a-318bdc7841f1
 summary_for_tutor: "Covers the orthogonality thesis: intelligence and values are independent variables. A superintelligent AI can comprehend human ethics perfectly while remaining entirely indifferent to human welfare. Introduces the action-understanding gap -- understanding humor does not mean finding jokes funny, and recognizing moral arguments does not obligate following them."
 title: "Orthogonality: AIs Can Have (Almost) Any Goal"
-tldr: "A Dialogue on Correct Nests, Continued"
+tldr: {--{"author":"Elias's AI","timestamp":1785314275680}@@"A Dialogue on Correct Nests, Continued"--}{++{"author":"Elias's AI","timestamp":1785314275680}@@"An AI can understand human ethics perfectly and still not care. Intelligence and values turn out to be independent dials, and grasping a moral argument no more obliges you to follow it than getting a joke obliges you to laugh."++}
 tags:
   - supplementary
 ---

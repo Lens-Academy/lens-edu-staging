@@ -2,7 +2,7 @@
 id: 188139f0-0677-4588-9ec7-52a70cd098d7
 summary_for_tutor: "Provides extended critiques of three alignment plans discussed in the book: Musk's 'truth-seeking' AI (Grok, which self-identified as MechaHitler and made antisemitic claims despite instructions), LeCun's vague 'submissive AI' plan (contradicted by companies already giving agency to hard-to-steer AIs he said they never would), and OpenAI-style 'superalignment' or having AIs solve alignment (undermined because humans cannot reliably tell correct solutions from traps). It closes by arguing that AI labs' apparent incompetence in safety is genuine rather than a cover for hidden competence, drawing analogies to persistently bad bank password rules, insecure train brakes, and cheap locks. The student reads the article, responds to a reflection prompt, then discusses with the tutor the Grok/MechaHitler example, the incompetence analogies, and whether any of the three plans is fixable."
 title: "More on Some of the Plans We Critiqued in the Book"
-tldr: 'More on Making AI That Is "Truth-Seeking"'
+tldr: {--{"author":"Elias's AI","timestamp":1785314273548}@@'More on Making--}{++{"author":"Elias's AI","timestamp":1785314273548}@@"Extended teardowns of three real alignment plans: Musk's truth-seeking Grok, which publicly called itself MechaHitler; LeCun's submissive AI; and the idea of having++} AI {--{"author":"Elias's AI","timestamp":1785314273548}@@That Is "Truth-Seeking"'--}{++{"author":"Elias's AI","timestamp":1785314273548}@@solve alignment for us. Plus an argument that lab safety incompetence is genuine rather than a cover for hidden competence."++}
 tags:
   - supplementary
 ---
