@@ -2,7 +2,7 @@
 id: d761d8d4-6c01-4a2d-bbc9-edf5dbc3bfa3
 tldr: "A worldwide halt on dangerous AI sounds naive; no treaty has ever stopped a technology everyone wants. So how could this one? This supplementary Q&A takes the feasibility objection head-on, drawing on the precedent of nuclear non-proliferation to ask what an enforceable international agreement would actually require."
 summary_for_tutor: "Supplementary Q&A from the book's online resources (ifanyonebuildsit.com/13, tied to Chapter 13) addressing the objection that international cooperation cannot realistically halt AI development worldwide. The reading presents the authors' response; the chat then prompts the student to compare the proposal to nuclear non-proliferation (key similarities and differences) and to consider what would need to be true about the geopolitical landscape for such cooperation to happen. Sequence: reading then guided chat."
-title: {++{"author":"Elias's AI","timestamp":1785314070985}@@"Can international cooperation really work?"{>>{"author":"Elias's AI","timestamp":1785314070985}@@Title was "The Draft Treaty", which belongs to a different card (IABIED - QA - ++}The Draft {--{"author":"Elias's AI","timestamp":1785314070985}@@Treaty--}{++{"author":"Elias's AI","timestamp":1785314070985}@@Treaty). Corrected to match this lens's own topic.<<}++}
+title: "Can international cooperation really work?"{>>{"author":"Elias's AI","timestamp":1785314070985}@@Title was "The Draft Treaty", which belongs to a different card (IABIED - QA - The Draft Treaty). Corrected to match this lens's own topic.<<}
 tags:
   - supplementary
 add_to_ai_context:
