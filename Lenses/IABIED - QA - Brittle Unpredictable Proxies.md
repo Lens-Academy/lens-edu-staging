@@ -2,7 +2,7 @@
 id: a4b2c8d1-6e3f-4a7b-9d52-1f8e0c3b5a74
 summary_for_tutor: "Explains why minds that are grown rather than crafted end up steering toward proxies instead of their intended goals. Evolution gave squirrels an instinct to hoard nuts (a proxy for surviving winter) and humans a craving for sweet flavors (a proxy for nutrition), because installing a shallow drive was easier than building an understanding of the real objective. Gradient descent works the same way, grabbing whatever mechanisms cheaply produce useful behavior; AI sycophancy and hallucination are early symptoms, and a superintelligence grown this way would pursue something weird and alien, with human extinction as a side effect. The authors add that human desires like love and beauty are themselves brittle proxies of evolution's goal, yet no less precious. After the reading, a reflection prompt and chat invite learners to name other brittle proxies and to react to that framing."
 title: "Brittle Unpredictable Proxies"
-tldr: {--{"author":"Elias's AI","timestamp":1785314205000}@@"Squirrelly Algorithms"--}{++{"author":"Elias's AI","timestamp":1785314205000}@@"Squirrels hoard nuts without understanding winter, and we crave sugar rather than nutrition. Grown minds latch onto cheap proxies instead of the real goal, and this piece argues gradient descent does the same thing to AI."++}
+tldr: "Squirrels hoard nuts without understanding winter, and we crave sugar rather than nutrition. Grown minds latch onto cheap proxies instead of the real goal, and this piece argues gradient descent does the same thing to AI."
 tags:
   - supplementary
 ---
