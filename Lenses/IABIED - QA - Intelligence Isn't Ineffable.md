@@ -2,7 +2,7 @@
 id: 480dd23f-538a-4a27-a19b-946caf38f92e
 summary_for_tutor: "Presents the authors' case that intelligence is understandable in principle though far from understood today, supported by four arguments: claims of ineffability have a poor track record in science (as with vitalism), intelligence exhibits repeatable structure and regularities (the same brains that chip handaxes invent nuclear reactors), there is a fillable gap between neuron-level and folk-psychological models of human cognition (illustrated by amnesiacs who repeat jokes verbatim), and fields like information theory and cognitive science have already made real progress. The student reads the article, responds to an open reflection prompt, then discusses with the tutor why intelligibility matters for eventually solving alignment after halting the race to AI."
 title: "Intelligence Isn't Ineffable"
-tldr: "Claims of Ineffability Have an Extremely Poor Track Record in the Sciences"
+tldr: {--{"author":"Elias's AI","timestamp":1785314268034}@@"Claims--}{++{"author":"Elias's AI","timestamp":1785314268034}@@"Is intelligence too mysterious to ever understand? The authors say no, and note that claims++} of {--{"author":"Elias's AI","timestamp":1785314268034}@@Ineffability Have an Extremely Poor Track Record --}{++{"author":"Elias's AI","timestamp":1785314268034}@@ineffability have a dismal track record in science. Four arguments for why minds are intelligible ++}in {--{"author":"Elias's AI","timestamp":1785314268034}@@the Sciences"--}{++{"author":"Elias's AI","timestamp":1785314268034}@@principle, even though we are nowhere near there yet."++}
 tags:
   - supplementary
 ---
