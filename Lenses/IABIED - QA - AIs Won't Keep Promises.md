@@ -2,7 +2,7 @@
 id: d0f4b6a7-8c5b-4ec4-b19d-5a2c3f0e6d48
 summary_for_tutor: "Argues that humanity cannot solve alignment by striking a deal with a young AI to spare us once it becomes superintelligent. Two reasons: AIs are unlikely to inherit human-style \"honor,\" which is an evolutionarily contingent hack rather than a universal feature of minds; and a mature superintelligence would have no practical reason to keep an old promise, since humans cannot punish it or verify its commitment. A game-theory section notes that agents can enforce deals only by reading each other's decision processes (as in MIRI's FairBot), which humans cannot do with AIs. The authors also hold that humans should still keep their own promises to AIs. After the reading, a reflection prompt and chat draw out the used-car-salesman analogy, whether interpretability could change the picture, and the authors' one-sided ethical stance."
 title: "AIs Won't Keep Their Promises"
-tldr: "AIs Are Unlikely To Be Honorable"
+tldr: {--{"author":"Elias's AI","timestamp":1785314196852}@@"AIs Are Unlikely To Be Honorable"--}{++{"author":"Elias's AI","timestamp":1785314196852}@@"Could we cut a deal with a young AI: grow powerful, but spare us? The authors say no. Honor is an evolved human hack, and a mature superintelligence has no reason to keep a promise we can neither verify nor enforce."++}
 tags:
   - supplementary
 ---
