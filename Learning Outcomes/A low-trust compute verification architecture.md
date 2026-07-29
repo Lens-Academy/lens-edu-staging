@@ -2,7 +2,8 @@
 id: 'a90e0d7e-5c55-4c68-9ed1-4e822f3fc94e'
 learning-outcome: "Describe a near-term low-trust AI compute verification architecture — the split between evidence capture and evidence evaluation, redundant mutually distrusting trusted computing bases, and analog control of data movement — and explain what low-trust and covert adversary mean in its threat model"
 domain: "[[../Domains/Governance and Policy]]"
-requires:
+{++{"author":"Elias's AI","timestamp":1785319906756}@@stage: advanced
+++}requires:
   - "[[Verifying inference to catch exfiltration]]"
 authors:
   - Elias+Claude
