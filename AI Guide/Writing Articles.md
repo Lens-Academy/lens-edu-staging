@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785321453428}@@---
+---
 tags:
   - validator-ignore
 ---
@@ -9,4 +9,3 @@ Source material referenced by Article/Video segments in lenses. **Prefer the `im
 **Article** (`articles/*.md`): required `title`, `author` (list of "First Last"), `source_url`, `published` (YYYY-MM-DD); optional `created`, `description`, `tags`, `url`, `allowAuthorInTitle`, `allowUnreachableUrl`. Body is the plain article text — no segments, pure prose. Never trim the body to "excerpt" it: excerpt selection happens in the lens (`from::`/`to::` anchors), and other lenses may reference other parts of the same article.
 
 **Video transcript** (`video_transcripts/*.md`): required `title`, `channel`, `url`; optional `tags`, `allowUnreachableUrl`. Paired with a `.timestamps.json` file — created by the video import tooling, not by hand.
-++}

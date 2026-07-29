@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785321452637}@@---
+---
 tags:
   - validator-ignore
 ---
@@ -12,4 +12,3 @@ Read next:
 
 - **Segment syntax** (the 6 types — Text, Chat, Article, Video, Question, Roleplay — and their fields): `Lens Edu/AI Guide/Element Reference.md`.
 - **Proven lens structures** (the five-beat reading lens, the pre-reading question lens, `assessment-instructions::` house style): `Lens Edu/AI Guide/Quality Patterns.md`. Canonical example: `Lens Edu/Lenses/IABIED - AI Is Grown, Not Crafted.md`.
-++}
