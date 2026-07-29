@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221629707}@@---
+---
 id: '172fd6b4-511f-4649-baf2-e0f2a8433259'
 learning-outcome: "Explain how verifying LLM inference detects steganographic model-weight exfiltration, why the non-determinism of GPU arithmetic is the crux of the problem, and why bit-exact re-computation strengthens the guarantee"
 domain: "[[../Domains/Governance and Policy]]"
@@ -33,4 +33,3 @@ source:: [[../Lenses/AIV - Verifying LLM Inference to Detect Weight Exfiltration
 
 ## Lens:
 source:: [[../Lenses/AIV - Bit-Exact AI Inference Verification]]
-++}

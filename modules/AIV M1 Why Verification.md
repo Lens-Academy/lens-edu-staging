@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221631159}@@---
+---
 id: '821d4e91-fbec-44d5-9140-5847d66e8e02'
 slug: aiv-m1-why-verification
 title: "Why Verification, and the Compute Chain"
@@ -47,4 +47,3 @@ source:: ![[../Lenses/AIV - What Does It Take to Catch a Chinchilla]]
 
 # Lens:
 source:: ![[../Lenses/AIV - Verification Methods and Their Evasions]]
-++}

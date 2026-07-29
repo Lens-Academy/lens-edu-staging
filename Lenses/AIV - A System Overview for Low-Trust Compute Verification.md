@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221457878}@@---
+---
 id: '2bf58269-c15b-48a2-a178-61003e10543e'
 title: "A System Overview for Low-Trust Compute Verification"
 tldr: "Every mechanism so far needed somebody to trust some silicon. This one doesn't: each side trusts only its own hardware, and confidence comes from redundancy plus optics you can hold up to the light."
@@ -59,4 +59,3 @@ Discussion topics to explore:
 - Plan B (ZKPs) as the version that dissolves the remaining trust requirements. Ask what it would take to get there and why floating-point replay in circuits is the obstacle.
 
 Stay grounded in the draft. Do not present it as settled or deployed — it is a proposal with named gaps, and reasoning about those gaps is the point.
-++}

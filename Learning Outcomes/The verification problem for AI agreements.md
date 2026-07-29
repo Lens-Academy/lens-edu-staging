@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221627874}@@---
+---
 id: '6467b750-b68f-4283-b39b-ebece4690044'
 learning-outcome: "Explain why binding international agreements on AI require technical verification to be politically viable, and identify what makes AI agreements harder to verify than nuclear arms-control agreements"
 domain: "[[../Domains/Governance and Policy]]"
@@ -32,4 +32,3 @@ notes:: Pre-reading question; primes the nuclear-analogy intuition the readings 
 
 ## Lens:
 source:: [[../Lenses/AIV - What Does It Take to Catch a Chinchilla]]
-++}

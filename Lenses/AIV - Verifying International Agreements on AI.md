@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221464817}@@---
+---
 id: 'fb3aecd2-ea21-4237-99b3-3b3c89e367e8'
 title: "Verifying International Agreements on AI: Six Layers"
 tldr: "Six largely independent layers, deliberately redundant. The design principle is that no single layer has to be the one that works."
@@ -49,4 +49,3 @@ Discussion topics to explore:
 - If they want to rank the layers by strength, gently redirect: the paper's point is that ranking is the wrong operation on a redundant system.
 
 Check that they can explain why independence between layers is the property that matters. Then send them to the Oxford report, which asks the same question with pessimistic assumptions and reaches a sharper conclusion about which agreements are verifiable.
-++}

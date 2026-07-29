@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221461197}@@---
+---
 id: '1653827f-4f26-4b43-abb5-be7fb0b0cb1f'
 title: "Flexible Hardware-Enabled Guarantees (flexHEG)"
 tldr: "A guarantee processor inside a tamper-resistant enclosure, open-source so both sides can check it isn't a backdoor. Prove what your chips did without revealing what they did it to."
@@ -59,4 +59,3 @@ Discussion topics to explore:
 - "Even partial implementations could create valuable options" and "frameworks established early shape trajectories for decades" — the sequencing argument again. Ask whether they find it persuasive as a reason to build now, absent any agreement to enforce.
 
 Do not resolve the tamper-resistance question. It is genuinely open, and the next module exists because of it.
-++}

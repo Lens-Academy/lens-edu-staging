@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221471469}@@---
+---
 id: 'e55df2ac-81af-4d77-9112-b6d946c27b1c'
 slug: ai-verification
 title: Verifying International AI Agreements
@@ -39,4 +39,3 @@ datacenter lie detector"; the LessWrong version is used here.
 # Module: [[../modules/AIV M4 Building It]]
 
 # Meeting: Building It, and the Treaty It Serves
-++}

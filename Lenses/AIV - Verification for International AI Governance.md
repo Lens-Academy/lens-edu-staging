@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221464024}@@---
+---
 id: 'f382c857-708c-4baf-aeb5-d0c348d3d6a6'
 title: "Verification for International AI Governance"
 tldr: "Assume things go badly, technically and politically — and much of it is still verifiable within a few years. Data centres are the tractable case; AI in weapons is not."
@@ -52,4 +52,3 @@ Discussion topics to explore:
 - The closing note on political will sets up Module 4. Do not resolve the technical-versus-political question here; flag that they will have to take a position on it later.
 
 Check they can state both findings — what is verifiable and what is not — with the reasons, not just the labels.
-++}
