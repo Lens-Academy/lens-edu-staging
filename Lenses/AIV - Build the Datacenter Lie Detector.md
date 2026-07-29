@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221460159}@@---
+---
 id: '23594768-0403-46f0-a748-59cc545f69cb'
 title: "Build the Datacenter Lie Detector"
 tldr: "An orphaned problem: everyone would need it, nobody owns it. Short, concrete, and the closest thing this course has to a job posting."
@@ -42,4 +42,3 @@ Discussion topics to explore:
 - If they are sceptical that any of this gets built, treat that as reasonable and ask what evidence over the next year would update them either way.
 
 This is the action-oriented lens of the course. It is fine for the conversation to end on a concrete next step rather than a conclusion.
-++}

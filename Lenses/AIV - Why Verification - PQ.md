@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221467305}@@---
+---
 id: '02abcc5d-fc60-4640-8178-be25487ece0b'
 title: "Why Verification? (pre-reading)"
 tldr: "Before the readings: if you had to check that a rival country had stopped building frontier AI, what would you actually go and look at?"
@@ -31,4 +31,3 @@ What not to do:
 - Avoid generic praise (great list, good thinking).
 
 This is a one-turn response. Tell them to move on to the reading.
-++}

@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221628840}@@---
+---
 id: 'dbcda91b-10ce-4205-8cc2-5339dfc6d2a7'
 learning-outcome: "Classify verification methods for AI agreements as national technical means, access-dependent, or hardware-dependent, and pair each class with the evasion route that defeats it and the cooperation it demands"
 domain: "[[../Domains/Governance and Policy]]"
@@ -30,4 +30,3 @@ max-chars:: 1800
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/AIV - Verification Methods and Their Evasions]]
-++}
