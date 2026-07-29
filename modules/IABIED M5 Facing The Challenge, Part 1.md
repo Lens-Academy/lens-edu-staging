@@ -48,13 +48,12 @@ Want to go deeper on this chapter's ideas? These optional resources were gathere
 Skim whatever catches your eye.
 
 ::card[[../Lenses/IABIED - QA - AI Differs from Precedents]]
-::card[[../Lenses/IABIED - QA - {--{"author":"Elias's AI","timestamp":1785314114028}@@Isn't AI Different from Nuclear Reactors]]
-::card[[../Lenses/IABIED - QA - --}Time to Solve Alignment]]
+::card[[../Lenses/IABIED - QA - Time to Solve Alignment]]
 ::card[[../Lenses/IABIED - QA - Lots of Different AIs]]
 ::card[[../Lenses/IABIED - QA - Slow AI Integration]]
 ::card[[../Lenses/IABIED - QA - Before and After]]
 ::card[[../Lenses/IABIED - QA - Chicago Pile-1]]
-{>>{"author":"Elias's {--{"author":"Elias's AI","timestamp":1785314128181}@@AI","timestamp":1784730337054}@@'Isn't--}{++{"author":"Elias's AI","timestamp":1785314128181}@@AI","timestamp":1785314128181}@@Correction to an earlier suggestion in this review: 'Isn't++} AI Different from Nuclear Reactors' is a Chapter 10 Q&A {--{"author":"Elias's AI","timestamp":1785314128181}@@(ifanyonebuildsit.com/10)--}{++{"author":"Elias's AI","timestamp":1785314128181}@@(ifanyonebuildsit.com/10), so importing it into this chapter is right and the import stays. But I had also carded it, and++} that was {--{"author":"Elias's AI","timestamp":1785314128181}@@previously--}{++{"author":"Elias's AI","timestamp":1785314128181}@@wrong: its body is still++} a {--{"author":"Elias's AI","timestamp":1785314128181}@@hidden, card-less import in M6 (unreachable there); moved --}{++{"author":"Elias's AI","timestamp":1785314128181}@@"TODO: Embed Q&A content" placeholder, so the card showed learners an empty page. Card removed. Card ++}it {--{"author":"Elias's AI","timestamp":1785314128181}@@here.<<}--}{++{"author":"Elias's AI","timestamp":1785314128181}@@once the content is embedded.<<}++}
+{>>{"author":"Elias's AI","timestamp":1785314128181}@@Correction to an earlier suggestion in this review: 'Isn't AI Different from Nuclear Reactors' is a Chapter 10 Q&A (ifanyonebuildsit.com/10), so importing it into this chapter is right and the import stays. But I had also carded it, and that was wrong: its body is still a "TODO: Embed Q&A content" placeholder, so the card showed learners an empty page. Card removed. Card it once the content is embedded.<<}
 
 # Lens: IABIED - QA - AI Differs from Precedents
 optional:: true
