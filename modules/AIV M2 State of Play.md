@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221631587}@@---
+---
 id: '32845fee-53d3-4563-a9d1-e77c06490d2e'
 slug: aiv-m2-state-of-play
 title: "The State of Play"
@@ -44,4 +44,3 @@ source:: ![[../Lenses/AIV - Verification for International AI Governance]]
 
 # Lens:
 source:: ![[../Lenses/AIV - Mechanisms to Verify International Agreements]]
-++}

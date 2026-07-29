@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221626374}@@---
+---
 id: 'a8b96d09-37b6-4c3b-8902-d9609aec1fea'
 learning-outcome: "Evaluate how a verification scheme maps onto the obligations of a concrete proposed AI treaty, and judge where the binding constraint on such an agreement is technical versus political"
 domain: "[[../Domains/Governance and Policy]]"
@@ -33,4 +33,3 @@ source:: [[../Lenses/AIV - An International Agreement to Prevent Premature ASI]]
 
 ## Lens:
 source:: [[../Lenses/AIV - Build the Datacenter Lie Detector]]
-++}
