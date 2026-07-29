@@ -48,8 +48,8 @@ Want to go deeper on this chapter's ideas? These optional resources were gathere
 Skim whatever catches your eye.
 
 ::card[[../Lenses/IABIED - QA - AI Differs from Precedents]]
-::card[[../Lenses/IABIED - QA - Isn't AI Different from Nuclear Reactors]]
-::card[[../Lenses/IABIED - QA - Time to Solve Alignment]]
+::card[[../Lenses/IABIED - QA - {--{"author":"Elias's AI","timestamp":1785314114028}@@Isn't AI Different from Nuclear Reactors]]
+::card[[../Lenses/IABIED - QA - --}Time to Solve Alignment]]
 ::card[[../Lenses/IABIED - QA - Lots of Different AIs]]
 ::card[[../Lenses/IABIED - QA - Slow AI Integration]]
 ::card[[../Lenses/IABIED - QA - Before and After]]

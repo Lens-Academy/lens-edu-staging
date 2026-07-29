@@ -147,8 +147,8 @@ Want to go deeper on this chapter's ideas? These optional resources were gathere
 Skim whatever catches your eye.
 
 ::card[[../Lenses/IABIED - QA - The Ending]]
-::card[[../Lenses/IABIED - QA - Won't It Choose to Be Moral]]
-{>>{"author":"Elias's AI","timestamp":1784730282009}@@'Won't It Choose to Be Moral' was a hidden import without a card in the old Dive Deeper submodule (unreachable for learners); carded it here under Ch9.<<}
+{--{"author":"Elias's AI","timestamp":1785314112013}@@::card[[../Lenses/IABIED - QA - Won't It Choose to Be Moral]]
+{>>{"author":"Elias's AI","timestamp":1784730282009}@@'Won't--}{++{"author":"Elias's AI","timestamp":1785314112013}@@{>>{"author":"Elias's AI","timestamp":1785314112013}@@Correction to an earlier suggestion in this review: I had carded 'Won't++} It Choose to Be Moral' {++{"author":"Elias's AI","timestamp":1785314112013}@@here, on the grounds that it ++}was {--{"author":"Elias's AI","timestamp":1785314112013}@@a--}{++{"author":"Elias's AI","timestamp":1785314112013}@@an unreachable++} hidden {--{"author":"Elias's AI","timestamp":1785314112013}@@import without--}{++{"author":"Elias's AI","timestamp":1785314112013}@@import. That was wrong to do. Its body is still++} a {--{"author":"Elias's AI","timestamp":1785314112013}@@card in--}{++{"author":"Elias's AI","timestamp":1785314112013}@@"TODO: Embed Q&A content" placeholder, so carding it showed learners an empty card. Card removed;++} the {--{"author":"Elias's AI","timestamp":1785314112013}@@old Dive Deeper submodule (unreachable for learners); carded it here under Ch9.<<}--}{++{"author":"Elias's AI","timestamp":1785314112013}@@hidden import stays. Card it again once the Q&A content is actually embedded.<<}++}
 
 ## Lens: IABIED - QA - The Ending
 optional:: true
