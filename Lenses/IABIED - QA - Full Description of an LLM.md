@@ -2,7 +2,7 @@
 id: 2b7687df-d219-4247-bdcf-7a2a1b0b3181
 summary_for_tutor: "Provides a detailed technical walkthrough of Meta's Llama 3.1 405B architecture: tokenization, embedding, attention mechanisms, feed-forward networks, and 126 transformer layers. Emphasizes computational scale (810 trillion operations per 1,000 tokens, 405 billion parameters) and inscrutability (reciting all parameters would take 5,133 years). Compares model complexity to the human brain's 100 trillion synapses."
 title: A Full Description of an LLM
-tldr: {--{"author":"Elias's AI","timestamp":1785314213819}@@"How Llama 3.1 405B Works"--}{++{"author":"Elias's AI","timestamp":1785314213819}@@"What is actually inside a large language model, component by component: 405 billion parameters, 126 layers, 810 trillion operations per thousand tokens. Reading the parameters aloud would take 5,133 years, and this model is still smaller than a brain."++}
+tldr: "What is actually inside a large language model, component by component: 405 billion parameters, 126 layers, 810 trillion operations per thousand tokens. Reading the parameters aloud would take 5,133 years, and this model is still smaller than a brain."
 tags:
   - supplementary
 ---
