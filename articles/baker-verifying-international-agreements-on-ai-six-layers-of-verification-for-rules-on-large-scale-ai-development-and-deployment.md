@@ -59,7 +59,7 @@ Verifying rules on AI models, data, and code in the above context can be decompo
     Verify that there are no _undeclared_ uses of large-scale AI compute by (A) verifying that the use of known AI data centers is accounted for; and (B) verifying that no actor has hidden AI data centers or large, decentralized collections of AI chips that can be used for violations.
     
 
-![Refer to {--{"author":"Elias's AI","timestamp":1785222032095}@@caption](https://arxiv.org/html/x1.png)--}{++{"author":"Elias's AI","timestamp":1785222032095}@@caption](https://arxiv.org/html/2507.15916v1/x1.png)++}
+![Refer to caption](https://arxiv.org/html/2507.15916v1/x1.png)
 
 Figure 1: Framework of verification subgoals. We decompose a broad verification goal into subgoals, to clarify how verification can be achieved. Note the italicized terms such as “Evaluations” are only rough summaries of each subgoal; the figure’s non-italicized descriptions are more precise.
 
@@ -97,7 +97,7 @@ To complete these subgoals, states could create six layers of verification—six
 
 Table 1: Six layers for verifying the compliance of large-scale AI development and deployment. Green (red) icons are Verifier-(un)trusted.
 
-![Refer to {--{"author":"Elias's AI","timestamp":1785222032449}@@caption](https://arxiv.org/html/x2.png)--}{++{"author":"Elias's AI","timestamp":1785222032449}@@caption](https://arxiv.org/html/2507.15916v1/x2.png)++}
+![Refer to caption](https://arxiv.org/html/2507.15916v1/x2.png)
 
 Figure 2: Verification layers consist of distinct mechanisms for each verification subgoal.
 
@@ -303,7 +303,7 @@ Our analytic methodology, detailed in [Appendix C.1](https://arxiv.org/html/2507
 
 ### 3.1 Context for This Framework
 
-![Refer to {--{"author":"Elias's AI","timestamp":1785222032810}@@caption](https://arxiv.org/html/x3.png)--}{++{"author":"Elias's AI","timestamp":1785222032810}@@caption](https://arxiv.org/html/2507.15916v1/x3.png)++}
+![Refer to caption](https://arxiv.org/html/2507.15916v1/x3.png)
 
 Figure 3: Assumed context for verification: verification is preceded by declarations and can lead to enforcement.
 
@@ -321,7 +321,7 @@ Declarations. The framework involves requirements for organizations to confident
 
 Use of confidentiality-preserving technology. Importantly, in our framework, declarations of AI compute use would be reported and verified via confidentiality-preserving technology—technology that enables a Prover to demonstrate their compliance without leaking their highly sensitive IP such as model weights. Such technology could include (i) a hardware security feature known as Confidential Computing ([Section 4.1.1.1](https://arxiv.org/html/2507.15916v2#Sx5.SSx1.SSSx1.Px1 "4.1.1.1 Prerequisites: Hardware Security Features ‣ 4.1.1 Mechanisms ‣ 4.1 On-Chip Verification Layer ‣ 4. Verification Mechanisms and Layers ‣ Verifying International Agreements on AI")); and (ii) compute clusters with security that both parties can confirm, so that much information can enter these devices but only a small amount of information (e.g., compliance determinations) can leave ([Section 4.2.1.1](https://arxiv.org/html/2507.15916v2#Sx5.SSx2.SSSx1.Px1 "4.2.1.1 Prerequisites: Off-Chip Devices ‣ 4.2.1 Mechanisms ‣ 4.2 Off-Chip Verification Layers ‣ 4. Verification Mechanisms and Layers ‣ Verifying International Agreements on AI")). Declarations of AI compute ownership are less sensitive than declarations of AI compute usage,[^28] but, if desired, the confidentiality-preserving technologies we discuss could also help protect these ownership declarations. As we will discuss ([Section 4.5](https://arxiv.org/html/2507.15916v2#Sx5.SSx5 "4.5 Implementation Options Across Mechanisms ‣ 4. Verification Mechanisms and Layers ‣ Verifying International Agreements on AI")), confidentiality-preserving technologies could be used to run hard-coded compliance tests, or perhaps to facilitate iterative testing by humans or AI agents, though the human option poses more confidentiality challenges.
 
-![Refer to {--{"author":"Elias's AI","timestamp":1785222033276}@@caption](https://arxiv.org/html/x4.png)--}{++{"author":"Elias's AI","timestamp":1785222033276}@@caption](https://arxiv.org/html/2507.15916v1/x4.png)++}
+![Refer to caption](https://arxiv.org/html/2507.15916v1/x4.png)
 
 Figure 4: Framework of verification subgoals.
 
@@ -410,7 +410,7 @@ advantages | Key disadvantages |
 
 Table 5: Summary of the on-chip verification layer and its tradeoffs.
 
-![Refer to {--{"author":"Elias's AI","timestamp":1785222033606}@@caption](https://arxiv.org/html/x5.png)--}{++{"author":"Elias's AI","timestamp":1785222033606}@@caption](https://arxiv.org/html/2507.15916v1/x5.png)++}
+![Refer to caption](https://arxiv.org/html/2507.15916v1/x5.png)
 
 Figure 5: Summary of how the on-chip verification layer would complete each subgoal.
 
@@ -483,7 +483,7 @@ advantages | Key disadvantages |
 
 Table 7: Summary of off-chip verification layers and their tradeoffs.
 
-![Refer to {--{"author":"Elias's AI","timestamp":1785222034021}@@caption](https://arxiv.org/html/x6.png)--}{++{"author":"Elias's AI","timestamp":1785222034021}@@caption](https://arxiv.org/html/2507.15916v1/x6.png)++}
+![Refer to caption](https://arxiv.org/html/2507.15916v1/x6.png)
 
 Figure 6: Summary of how off-chip verification layers would complete each subgoal. Note “verifying AI chips’ chain of custody“ and “tamper-proof, compliance-locked AI servers“ could just as well be swapped; the point is that they are two redundant off-chip mechanisms for addressing hidden AI compute clusters. We consider them “off-chip“ because they neither rely on features built into chips nor on leaks or disclosures from personnel. Additionally, tamper-proof enclosures and security cameras for chain-of-custody verification could be considered off-chip devices.
 
@@ -571,7 +571,7 @@ advantages | Key disadvantages |
 
 Table 8: Summary of personnel-based verification layers and their tradeoffs.
 
-![Refer to {--{"author":"Elias's AI","timestamp":1785222034482}@@caption](https://arxiv.org/html/x7.png)--}{++{"author":"Elias's AI","timestamp":1785222034482}@@caption](https://arxiv.org/html/2507.15916v1/x7.png)++}
+![Refer to caption](https://arxiv.org/html/2507.15916v1/x7.png)
 
 Figure 7: Summary of how personnel-based verification layers would complete each subgoal. Each of these layers simply consists of a single mechanism applied to all subgoals.
 
@@ -621,7 +621,7 @@ Table 9: The number of contributors and core contributors publicly listed for se
 
 ### 4.4 Supplementary Verification Mechanisms
 
-![Refer to {--{"author":"Elias's AI","timestamp":1785222034855}@@caption](https://arxiv.org/html/x8.png)--}{++{"author":"Elias's AI","timestamp":1785222034855}@@caption](https://arxiv.org/html/2507.15916v1/x8.png)++}
+![Refer to caption](https://arxiv.org/html/2507.15916v1/x8.png)
 
 Figure 8: Supplementary verification mechanisms, each under the verification subgoal(s) it could help complete.
 
@@ -1836,7 +1836,7 @@ _Verifier:_ An entity, such as a government agency or international agency, that
 
 _Workload:_ A computer program, such as a program for AI development or deployment, particularly on a compute cluster.
 
-![Refer to {--{"author":"Elias's AI","timestamp":1785222035205}@@caption](https://arxiv.org/html/x9.png)--}{++{"author":"Elias's AI","timestamp":1785222035205}@@caption](https://arxiv.org/html/2507.15916v1/x9.png)++}
+![Refer to caption](https://arxiv.org/html/2507.15916v1/x9.png)
 
 Figure 9: How AI computing hardware is organized. AI data centers are facilities that host AI compute clusters and supporting infrastructure. AI compute clusters are made up of racks of AI servers and support equipment. These servers are enclosed units of AI accelerators, supporting chips, and other devices. AI accelerators are circuit boards with AI chips, memory, and other components. AI chips are computer chips that efficiently execute computational operations for AI development or deployment. The figure’s images are generic images for illustrative purposes.
 

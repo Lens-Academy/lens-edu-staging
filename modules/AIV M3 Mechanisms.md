@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221631988}@@---
+---
 id: 'b0d8f205-7165-4e85-8117-0ab9e249ca3d'
 slug: aiv-m3-mechanisms
 title: "Mechanisms: Hardware and Inference"
@@ -44,4 +44,3 @@ source:: ![[../Lenses/AIV - Verifying LLM Inference to Detect Weight Exfiltratio
 
 # Lens:
 source:: ![[../Lenses/AIV - Bit-Exact AI Inference Verification]]
-++}

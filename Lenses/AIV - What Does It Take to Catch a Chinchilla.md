@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221466526}@@---
+---
 id: '2f754c84-fb9c-4a59-a569-d1af1cc819df'
 title: "What Does It Take to Catch a Chinchilla?"
 tldr: "The founding move of the field: you cannot inspect a training run while it happens, but chips remember. Snapshot the weights, keep the receipts, count the chips."
@@ -50,4 +50,3 @@ Discussion topics to explore:
 Ask what struck them as the weakest link. Check that they can state what each of the three parts rules out — that is the thing to walk away with.
 
 Do not resolve the tamper-resistance problem for them; it is genuinely open and later readings return to it. Stay grounded in the paper.
-++}

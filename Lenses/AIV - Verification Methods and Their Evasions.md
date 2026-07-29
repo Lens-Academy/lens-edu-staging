@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221463068}@@---
+---
 id: 'ca532e24-9835-4a3d-acb8-681fff1cedf2'
 title: "Verification Methods and Their Evasions"
 tldr: "Ten methods, and for each one, how a determined state gets around it. The lesson is not that verification fails — it's that the evasions fight each other."
@@ -48,4 +48,3 @@ Discussion topics to explore:
 - If they conclude "so verification is hopeless", treat that as a live position worth testing rather than an error, then ask what standard they are holding it to. Verification does not need to be leak-proof; it needs to make consequential-scale cheating unlikely enough to deter.
 
 Ask which pairing surprised them most. Check that they can name the three families and one specific evasion for each without looking.
-++}
