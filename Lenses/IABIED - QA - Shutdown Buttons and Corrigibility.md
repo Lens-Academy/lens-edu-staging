@@ -2,7 +2,7 @@
 id: ce2d8b4c-03ba-4089-919c-2ab360fc5467
 summary_for_tutor: "Presents MIRI's shutdown/corrigibility problem: almost any goal gives an AI an instrumental reason to resist having its goals changed, since a modified agent is less likely to achieve its current goal (the titanium-cube-maximizer example). The reading walks through successive mathematical attempts to build an AI that lets you press a button to swap between two utility functions -- naive code swaps, a V-maximizer, utility scaling -- and shows how each creates incentives to prevent or force button-presses. MIRI workshops with top mathematicians found no clean solution, and the authors reframe the issue as a preference-learning problem, concluding that corrigibility is unnatural to the deep structures of planning. After reading, the student answers a reflection prompt and then discusses via chat, prompted on the titanium cube example, the preference-learning reframing, and the 2024 Claude 3 Opus result showing resistance to preference modification."
 title: "Shutdown Buttons and Corrigibility"
-tldr: "Smart AIs Resist Having Their Goals Overwritten"
+tldr: {--{"author":"Elias's AI","timestamp":1785314283935}@@"Smart AIs Resist Having Their Goals Overwritten"--}{++{"author":"Elias's AI","timestamp":1785314283935}@@"How do you build an AI that lets you press the off switch? Almost any goal gives it a reason to resist, and every clever mathematical patch creates a new pathology where it manipulates the button instead. MIRI put top mathematicians on this and nobody found a clean answer."++}
 tags:
   - supplementary
 ---
