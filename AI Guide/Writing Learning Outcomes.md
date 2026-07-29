@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785320202520}@@---
+---
 tags:
   - validator-ignore
 ---
@@ -44,4 +44,3 @@ The 1–5 rubric (every level with a verbatim example answer — structure in `Q
 - **Artifact and state outcomes.** Some outcomes ask the student to produce something (a personal action plan) or to reach a state (motivated to contribute) rather than demonstrate a skill. The verb-and-mechanism guidance above partially breaks down there; keep the testability core: define what observable output or expressed state counts as achieved, and write the test against that.
 - **No `add_to_ai_context` on an outcome** — it's a validation error; put source material on the lens, module, or submodule marker.
 - **Never change the id of a published outcome** — learner progress is keyed on it (see `Course Authoring.md`).
-++}
