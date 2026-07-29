@@ -2,7 +2,8 @@
 id: 'dbcda91b-10ce-4205-8cc2-5339dfc6d2a7'
 learning-outcome: "Classify verification methods for AI agreements as national technical means, access-dependent, or hardware-dependent, and pair each class with the evasion route that defeats it and the cooperation it demands"
 domain: "[[../Domains/Governance and Policy]]"
-requires:
+{++{"author":"Elias's AI","timestamp":1785319805454}@@stage: advanced
+++}requires:
   - "[[The verification problem for AI agreements]]"
 authors:
   - Elias+Claude
