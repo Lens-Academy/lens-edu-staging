@@ -2,8 +2,8 @@
 id: '9d9e77be-3d71-4594-812d-dd3ee87d7995'
 learning-outcome: "Explain Scher and Thiergart's claim that increased access can substitute for unavailable technical verification mechanisms, and identify the costs that substitution imposes and the conditions under which it fails"
 domain: "[[../Domains/Governance and Policy]]"
-{++{"author":"Elias's AI","timestamp":1785319867967}@@stage: advanced
-++}requires:
+stage: advanced
+requires:
   - "[[What is verifiable today]]"
 authors:
   - Elias+Claude
