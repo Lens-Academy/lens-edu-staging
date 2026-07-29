@@ -2,7 +2,8 @@
 id: 'e1a40873-ce21-4457-af20-6ff34eb60103'
 learning-outcome: "Explain Shavit's three-part compute-accounting regime for verifying training-run compliance — on-chip weight snapshots, retained training transcripts checked by Proof-of-Learning, and chip supply-chain accounting — and explain what each part rules out and why none of them works alone"
 domain: "[[../Domains/Governance and Policy]]"
-requires:
+{++{"author":"Elias's AI","timestamp":1785319824322}@@stage: advanced
+++}requires:
   - "[[The verification problem for AI agreements]]"
 authors:
   - Elias+Claude
