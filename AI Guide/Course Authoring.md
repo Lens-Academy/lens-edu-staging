@@ -13,8 +13,8 @@ Lens Academy courses are plain markdown documents in this **"Lens Edu"** folder.
 | Writing or editing any content file | `Lens Edu/AI Guide/Element Reference.md` — exact frontmatter + segment syntax, validation rules |
 | Authoring lenses, learning outcomes, or modules | `Lens Edu/AI Guide/Quality Patterns.md` — the proven pedagogical patterns (read together with the element reference) |{++{"author":"Elias's AI","timestamp":1785320228415}@@
 | Writing the outcome statement itself (scoping, phrasing, testability) | `Lens Edu/AI Guide/Writing Learning Outcomes.md` |++}
-| Getting an external article/webpage into the knowledge base | `Lens Edu/AI Guide/Article Import.md` |
-| Human-facing intro for content creators | `Lens Edu/Content Creation Guide.md` |
+{--{"author":"Elias's AI","timestamp":1785321195204}@@| Getting an external article/webpage into the knowledge base | `Lens Edu/AI Guide/Article Import.md` |
+--}| Human-facing intro for content creators | `Lens Edu/Content Creation Guide.md` |
 
 ## Content hierarchy
 
