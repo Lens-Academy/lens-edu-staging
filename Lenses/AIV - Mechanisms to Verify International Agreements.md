@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221462026}@@---
+---
 id: 'e34f8ace-0588-44f3-a4d7-7e4eb5197795'
 title: "Mechanisms to Verify International Agreements About AI Development"
 tldr: "The mechanisms you'd want mostly don't exist yet. The argument: access can buy the same confidence — which moves the problem from the physics budget to the political one."
@@ -51,4 +51,3 @@ Discussion topics to explore:
 - Two-year-plus development times for the effective mechanisms: connect to the sequencing argument that credible verification must exist before a political window opens.
 
 Check that they can give both halves — the substitution and its price — and name one case where access cannot substitute at all.
-++}

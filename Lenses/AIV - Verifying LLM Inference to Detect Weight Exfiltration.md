@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221465694}@@---
+---
 id: 'c7d563ab-3561-484e-8d97-fd663939077a'
 title: "Verifying LLM Inference to Detect Weight Exfiltration"
 tldr: "An attacker who runs your inference server doesn't need to steal a hard drive. They can hide the weights inside ordinary answers — and the only thing that lets them is the slack you allow for GPU rounding error."
@@ -51,4 +51,3 @@ Discussion topics to explore:
 - If they ask "why not just inspect the outputs for anything weird" — that is the naive version. Push them to see that steganography is designed to be statistically ordinary, which is why you need re-computation against a reference, not anomaly detection.
 
 Check that they can state the crux — tolerance equals channel — in their own words. That is the one thing to carry into the next reading.
-++}

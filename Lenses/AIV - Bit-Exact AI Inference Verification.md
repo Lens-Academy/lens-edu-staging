@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221459403}@@---
+---
 id: 'd4f86fd0-f85e-4581-9cee-f499fe26b4c4'
 title: "Bit-Exact AI Inference Verification"
 tldr: "The rounding error isn't noise. It's a fingerprint of the exact hardware and software that produced it — so you can demand the bits match, and close the channel instead of narrowing it."
@@ -44,4 +44,3 @@ Discussion topics to explore:
 - Worth surfacing: this is a workshop paper by an independent researcher, and the previous reading was a multi-author lab effort. Ask what that says about how young this field is — and note that the next module's author is the same person, arguing that the whole architecture is an orphaned problem.
 
 Check that they can explain deterministic-but-not-invariant, and why it means the tolerance can go to zero without paying a performance cost.
-++}

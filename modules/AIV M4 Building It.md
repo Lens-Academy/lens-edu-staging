@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221632660}@@---
+---
 id: 'ffff89f9-3e9c-4718-b960-722daac7ed23'
 slug: aiv-m4-building-it
 title: "Building the Lie Detector, and the Treaty It Serves"
@@ -44,4 +44,3 @@ source:: ![[../Lenses/AIV - Build the Datacenter Lie Detector]]
 
 # Lens:
 source:: ![[../Lenses/AIV - An International Agreement to Prevent Premature ASI]]
-++}

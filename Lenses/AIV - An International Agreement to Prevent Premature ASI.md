@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785221458618}@@---
+---
 id: 'c57587a9-975b-457a-bce3-c10ae903c870'
 title: "An International Agreement to Prevent Premature ASI"
 tldr: "The treaty the mechanisms are for: a US–China-led coalition, a FLOP ceiling, and a ban on research that would undermine the agreement's own verifiability."
@@ -51,4 +51,3 @@ Discussion topics to explore:
 - If they think the whole thing is unrealistic, engage seriously: the authors agree about present political will. Ask what would have to change, and whether "unrealistic now" is an argument against building the verification capability or for building it before it is needed.
 
 Check that they can name at least one obligation the toolkit serves well and one it barely touches, and can defend a position on the binding constraint.
-++}

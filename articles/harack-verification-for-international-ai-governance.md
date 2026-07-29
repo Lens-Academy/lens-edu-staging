@@ -46,7 +46,7 @@ Add discussion note here:
 
 # Verification for International AI Governance
 
-{--{"author":"Elias's AI","timestamp":1785222040493}@@![[/attachments/harack-verification-for-international-ai-governance-fig1-3a90d4e2.jpg]]--}{++{"author":"Elias's AI","timestamp":1785222040493}@@![Figure](/attachments/harack-verification-for-international-ai-governance-fig1-3a90d4e2.jpg)++}
+![Figure](/attachments/harack-verification-for-international-ai-governance-fig1-3a90d4e2.jpg)
 
 A digital globe with a network of glowing blue lines and nodes, symbolizing global connectivity. A shield with a scale of justice is superimposed over the globe, representing AI governance and verification.
 
@@ -108,16 +108,16 @@ This report has three primary findings. First, verification of many internationa
 
 |                                                                                       |           |
 |---------------------------------------------------------------------------------------|-----------|
-| {--{"author":"Elias's AI","timestamp":1785222040846}@@<b>Abstract</b>                                                                       --}{++{"author":"Elias's AI","timestamp":1785222040846}@@**Abstract** ++}| {--{"author":"Elias's AI","timestamp":1785222040846}@@<b>2</b>  --}{++{"author":"Elias's AI","timestamp":1785222040846}@@**2** ++}|
-| {--{"author":"Elias's AI","timestamp":1785222041186}@@<b>Contents</b>                                                                       --}{++{"author":"Elias's AI","timestamp":1785222041186}@@**Contents** ++}| {--{"author":"Elias's AI","timestamp":1785222041186}@@<b>3</b>  --}{++{"author":"Elias's AI","timestamp":1785222041186}@@**3** ++}|
-| {--{"author":"Elias's AI","timestamp":1785222041652}@@<b>Executive Summary</b>                                                              --}{++{"author":"Elias's AI","timestamp":1785222041652}@@**Executive Summary** ++}| {--{"author":"Elias's AI","timestamp":1785222041652}@@<b>7</b>  --}{++{"author":"Elias's AI","timestamp":1785222041652}@@**7** ++}|
+| **Abstract** | **2** |
+| **Contents** | **3** |
+| **Executive Summary** | **7** |
 | Pessimistic assumptions about verification difficulty . . . . .                       | 7         |
 | Agreements and their verifiability . . . . .                                          | 8         |
 | The challenge of verifying computational rules and tools for accomplishing it . . . . | 10        |
 | Two approaches to verifiable confidential computing . . . . .                         | 12        |
 | Political options and tradeoffs . . . . .                                             | 14        |
 | Areas for further work . . . . .                                                      | 15        |
-| {--{"author":"Elias's AI","timestamp":1785222042361}@@<b>1 Introduction</b>                                                                 --}{++{"author":"Elias's AI","timestamp":1785222042361}@@**1 Introduction** ++}| {--{"author":"Elias's AI","timestamp":1785222042361}@@<b>17</b>--}{++{"author":"Elias's AI","timestamp":1785222042361}@@**17**++} |
+| **1 Introduction** | **17** |
 | 1.1 Scope . . . . .                                                                   | 19        |
 | 1.1.1 AI types . . . . .                                                              | 19        |
 | 1.1.2 Agreement types . . . . .                                                       | 20        |
@@ -130,7 +130,7 @@ This report has three primary findings. First, verification of many internationa
 | 1.5.2 Asymmetric burden of proof for verifying negative claims . . . . .              | 31        |
 | 1.5.3 Why AI verification is particularly challenging . . . . .                       | 32        |
 | 1.6 AI verification may be workable . . . . .                                         | 37        |
-| {--{"author":"Elias's AI","timestamp":1785222042695}@@<b>2--}{++{"author":"Elias's AI","timestamp":1785222042695}@@**2++} Survey of verification {--{"author":"Elias's AI","timestamp":1785222042695}@@components</b>                                            --}{++{"author":"Elias's AI","timestamp":1785222042695}@@components** ++}| {--{"author":"Elias's AI","timestamp":1785222042695}@@<b>39</b>--}{++{"author":"Elias's AI","timestamp":1785222042695}@@**39**++} |
+| **2 Survey of verification components** | **39** |
 | 2.1 Personnel . . . . .                                                               | 39        |
 | 2.1.1 Verifiable personnel controls . . . . .                                         | 39        |
 
@@ -152,7 +152,7 @@ This report has three primary findings. First, verification of many internationa
 | 2.5.2    | Mutual verification of hardware and code . . . . .                                 | 59        |
 | 2.5.3    | Verifiable confidential computing . . . . .                                        | 64        |
 | 2.5.4    | Different enclosure sizes for AI verification . . . . .                            | 68        |
-| {--{"author":"Elias's AI","timestamp":1785222043086}@@<b>3</b>--}{++{"author":"Elias's AI","timestamp":1785222043086}@@**3**++} | {--{"author":"Elias's AI","timestamp":1785222043086}@@<b>Political--}{++{"author":"Elias's AI","timestamp":1785222043086}@@**Political++} options and tradeoffs in AI {--{"author":"Elias's AI","timestamp":1785222043086}@@verification</b>                          --}{++{"author":"Elias's AI","timestamp":1785222043086}@@verification** ++}| {--{"author":"Elias's AI","timestamp":1785222043086}@@<b>73</b>--}{++{"author":"Elias's AI","timestamp":1785222043086}@@**73**++} |
+| **3** | **Political options and tradeoffs in AI verification** | **73** |
 | 3.1      | Which stages of the value chain should be governed? . . . . .                      | 73        |
 | 3.1.1    | Enforcement shapes verification . . . . .                                          | 74        |
 | 3.1.2    | Strict governance of even one part of the AI value chain can be useful . . . . .   | 75        |
@@ -170,7 +170,7 @@ This report has three primary findings. First, verification of many internationa
 |          |                                                                                   |            |
 |----------|-----------------------------------------------------------------------------------|------------|
 | 3.7.2    | Is an international institution desirable? . . . . .                              | 88         |
-| {--{"author":"Elias's AI","timestamp":1785222043450}@@<b>4</b>--}{++{"author":"Elias's AI","timestamp":1785222043450}@@**4**++} | {--{"author":"Elias's AI","timestamp":1785222043450}@@<b>International--}{++{"author":"Elias's AI","timestamp":1785222043450}@@**International++} AI governance agreements and their verification {--{"author":"Elias's AI","timestamp":1785222043450}@@requirements</b>--}{++{"author":"Elias's AI","timestamp":1785222043450}@@requirements**++} | {--{"author":"Elias's AI","timestamp":1785222043450}@@<b>89</b>  --}{++{"author":"Elias's AI","timestamp":1785222043450}@@**89** ++}|
+| **4** | **International AI governance agreements and their verification requirements** | **89** |
 | 4.1      | Transfer knowledge . . . . .                                                      | 89         |
 | 4.1.1    | Examples . . . . .                                                                | 92         |
 | 4.1.2    | Verify that knowledge shared is authentic and complete . . . . .                  | 93         |
@@ -187,14 +187,14 @@ This report has three primary findings. First, verification of many internationa
 | 4.5      | Regulate . . . . .                                                                | 102        |
 | 4.5.1    | AI development . . . . .                                                          | 103        |
 | 4.5.2    | AI deployment . . . . .                                                           | 112        |
-| {--{"author":"Elias's AI","timestamp":1785222043785}@@<b>5</b>--}{++{"author":"Elias's AI","timestamp":1785222043785}@@**5**++} | {--{"author":"Elias's AI","timestamp":1785222043785}@@<b>Conclusion</b>                                                                 --}{++{"author":"Elias's AI","timestamp":1785222043785}@@**Conclusion** ++}| {--{"author":"Elias's AI","timestamp":1785222043785}@@<b>127</b>--}{++{"author":"Elias's AI","timestamp":1785222043785}@@**127**++} |
+| **5** | **Conclusion** | **127** |
 | 5.1      | Research and development of particular importance . . . . .                       | 128        |
 | 5.2      | Policy action of particular importance . . . . .                                  | 130        |
-|{--{"author":"Elias's AI","timestamp":1785222044119}@@          --}{++{"author":"Elias's AI","timestamp":1785222044119}@@ ++}| {--{"author":"Elias's AI","timestamp":1785222044119}@@<b>Acknowledgements</b>                                                           --}{++{"author":"Elias's AI","timestamp":1785222044119}@@**Acknowledgements** ++}| {--{"author":"Elias's AI","timestamp":1785222044119}@@<b>133</b>--}{++{"author":"Elias's AI","timestamp":1785222044119}@@**133**++} |
-|{--{"author":"Elias's AI","timestamp":1785222044501}@@          --}{++{"author":"Elias's AI","timestamp":1785222044501}@@ ++}| {--{"author":"Elias's AI","timestamp":1785222044501}@@<b>Appendices</b>                                                                 --}{++{"author":"Elias's AI","timestamp":1785222044501}@@**Appendices** ++}| {--{"author":"Elias's AI","timestamp":1785222044501}@@<b>134</b>--}{++{"author":"Elias's AI","timestamp":1785222044501}@@**134**++} |
-|{--{"author":"Elias's AI","timestamp":1785222044864}@@          --}{++{"author":"Elias's AI","timestamp":1785222044864}@@ ++}| {--{"author":"Elias's AI","timestamp":1785222044864}@@<b>Appendix--}{++{"author":"Elias's AI","timestamp":1785222044864}@@**Appendix++} A Verification of personnel {--{"author":"Elias's AI","timestamp":1785222044864}@@controls</b>                              --}{++{"author":"Elias's AI","timestamp":1785222044864}@@controls** ++}| {--{"author":"Elias's AI","timestamp":1785222044864}@@<b>134</b>--}{++{"author":"Elias's AI","timestamp":1785222044864}@@**134**++} |
-|{--{"author":"Elias's AI","timestamp":1785222045394}@@          --}{++{"author":"Elias's AI","timestamp":1785222045394}@@ ++}| {--{"author":"Elias's AI","timestamp":1785222045394}@@<b>Appendix--}{++{"author":"Elias's AI","timestamp":1785222045394}@@**Appendix++} B Verification of claims centered on access to {--{"author":"Elias's AI","timestamp":1785222045394}@@personnel</b>          --}{++{"author":"Elias's AI","timestamp":1785222045394}@@personnel** ++}| {--{"author":"Elias's AI","timestamp":1785222045394}@@<b>136</b>--}{++{"author":"Elias's AI","timestamp":1785222045394}@@**136**++} |
-|{--{"author":"Elias's AI","timestamp":1785222045827}@@          --}{++{"author":"Elias's AI","timestamp":1785222045827}@@ ++}| {--{"author":"Elias's AI","timestamp":1785222045827}@@<b>Appendix--}{++{"author":"Elias's AI","timestamp":1785222045827}@@**Appendix++} C Best practices in {--{"author":"Elias's AI","timestamp":1785222045827}@@verification</b>                                  --}{++{"author":"Elias's AI","timestamp":1785222045827}@@verification** ++}| {--{"author":"Elias's AI","timestamp":1785222045827}@@<b>138</b>--}{++{"author":"Elias's AI","timestamp":1785222045827}@@**138**++} |
+| | **Acknowledgements** | **133** |
+| | **Appendices** | **134** |
+| | **Appendix A Verification of personnel controls** | **134** |
+| | **Appendix B Verification of claims centered on access to personnel** | **136** |
+| | **Appendix C Best practices in verification** | **138** |
 | C.1      | Agreement content that makes verification easier . . . . .                        | 138        |
 | C.2      | Gradual implementation . . . . .                                                  | 138        |
 
@@ -206,25 +206,25 @@ This report has three primary findings. First, verification of many internationa
 | C.5.1 Compound verification . . . . .                                                         | 141        |
 | C.5.2 Parallel verification . . . . .                                                         | 141        |
 | C.6 Transparent infrastructure; secret test content . . . . .                                 | 141        |
-| {--{"author":"Elias's AI","timestamp":1785222046179}@@<b>Appendix--}{++{"author":"Elias's AI","timestamp":1785222046179}@@**Appendix++} D Reliable digital verification typically requires looking at the whole {--{"author":"Elias's AI","timestamp":1785222046179}@@stack</b>--}{++{"author":"Elias's AI","timestamp":1785222046179}@@stack**++} | {--{"author":"Elias's AI","timestamp":1785222046179}@@<b>143</b>--}{++{"author":"Elias's AI","timestamp":1785222046179}@@**143**++} |
-| {--{"author":"Elias's AI","timestamp":1785222046679}@@<b>Appendix--}{++{"author":"Elias's AI","timestamp":1785222046679}@@**Appendix++} E Algorithm {--{"author":"Elias's AI","timestamp":1785222046679}@@verification</b>                                                      --}{++{"author":"Elias's AI","timestamp":1785222046679}@@verification** ++}| {--{"author":"Elias's AI","timestamp":1785222046679}@@<b>145</b>--}{++{"author":"Elias's AI","timestamp":1785222046679}@@**145**++} |
-| {--{"author":"Elias's AI","timestamp":1785222047091}@@<b>Appendix--}{++{"author":"Elias's AI","timestamp":1785222047091}@@**Appendix++} F The “Who watches the watchers?” problem with privacy-preserving {--{"author":"Elias's AI","timestamp":1785222047091}@@evaluations</b>--}{++{"author":"Elias's AI","timestamp":1785222047091}@@evaluations**++} | {--{"author":"Elias's AI","timestamp":1785222047091}@@<b>148</b>--}{++{"author":"Elias's AI","timestamp":1785222047091}@@**148**++} |
-| {--{"author":"Elias's AI","timestamp":1785222047451}@@<b>Appendix--}{++{"author":"Elias's AI","timestamp":1785222047451}@@**Appendix++} G Model {--{"author":"Elias's AI","timestamp":1785222047451}@@evaluation</b>                                                            --}{++{"author":"Elias's AI","timestamp":1785222047451}@@evaluation** ++}| {--{"author":"Elias's AI","timestamp":1785222047451}@@<b>150</b>--}{++{"author":"Elias's AI","timestamp":1785222047451}@@**150**++} |
+| **Appendix D Reliable digital verification typically requires looking at the whole stack** | **143** |
+| **Appendix E Algorithm verification** | **145** |
+| **Appendix F The “Who watches the watchers?” problem with privacy-preserving evaluations** | **148** |
+| **Appendix G Model evaluation** | **150** |
 | G.1 Open-ended challenges . . . . .                                                           | 150        |
 | G.1.1 Sandbagging . . . . .                                                                   | 151        |
 | G.1.2 Aggregate models . . . . .                                                              | 152        |
 | G.1.3 Data-centric distillation . . . . .                                                     | 152        |
-| {--{"author":"Elias's AI","timestamp":1785222047886}@@<b>Appendix--}{++{"author":"Elias's AI","timestamp":1785222047886}@@**Appendix++} H Systemically risky {--{"author":"Elias's AI","timestamp":1785222047886}@@AI</b>                                                       --}{++{"author":"Elias's AI","timestamp":1785222047886}@@AI** ++}| {--{"author":"Elias's AI","timestamp":1785222047886}@@<b>153</b>--}{++{"author":"Elias's AI","timestamp":1785222047886}@@**153**++} |
-| {--{"author":"Elias's AI","timestamp":1785222048256}@@<b>Appendix--}{++{"author":"Elias's AI","timestamp":1785222048256}@@**Appendix++} I Hardware configurations for “fixed set” {--{"author":"Elias's AI","timestamp":1785222048256}@@policies</b>                            --}{++{"author":"Elias's AI","timestamp":1785222048256}@@policies** ++}| {--{"author":"Elias's AI","timestamp":1785222048256}@@<b>155</b>--}{++{"author":"Elias's AI","timestamp":1785222048256}@@**155**++} |
-| {--{"author":"Elias's AI","timestamp":1785222048721}@@<b>Appendix--}{++{"author":"Elias's AI","timestamp":1785222048721}@@**Appendix++} J Chip density {--{"author":"Elias's AI","timestamp":1785222048721}@@controls</b>                                                       --}{++{"author":"Elias's AI","timestamp":1785222048721}@@controls** ++}| {--{"author":"Elias's AI","timestamp":1785222048721}@@<b>156</b>--}{++{"author":"Elias's AI","timestamp":1785222048721}@@**156**++} |
-| {--{"author":"Elias's AI","timestamp":1785222049050}@@<b>Appendix--}{++{"author":"Elias's AI","timestamp":1785222049050}@@**Appendix++} K Potential approaches for device-model mating with an encrypted {--{"author":"Elias's AI","timestamp":1785222049050}@@model</b>        --}{++{"author":"Elias's AI","timestamp":1785222049050}@@model** ++}| {--{"author":"Elias's AI","timestamp":1785222049050}@@<b>157</b>--}{++{"author":"Elias's AI","timestamp":1785222049050}@@**157**++} |
-| {--{"author":"Elias's AI","timestamp":1785222049437}@@<b>Appendix--}{++{"author":"Elias's AI","timestamp":1785222049437}@@**Appendix++} L Other verification {--{"author":"Elias's AI","timestamp":1785222049437}@@mechanisms</b>                                               --}{++{"author":"Elias's AI","timestamp":1785222049437}@@mechanisms** ++}| {--{"author":"Elias's AI","timestamp":1785222049437}@@<b>158</b>--}{++{"author":"Elias's AI","timestamp":1785222049437}@@**158**++} |
+| **Appendix H Systemically risky AI** | **153** |
+| **Appendix I Hardware configurations for “fixed set” policies** | **155** |
+| **Appendix J Chip density controls** | **156** |
+| **Appendix K Potential approaches for device-model mating with an encrypted model** | **157** |
+| **Appendix L Other verification mechanisms** | **158** |
 | L.1 Model-specific training licensing . . . . .                                               | 158        |
 | L.2 Model-specific inference licensing . . . . .                                              | 159        |
 | L.3 Model registry . . . . .                                                                  | 159        |
 | L.4 Model fingerprint attestation . . . . .                                                   | 159        |
 | L.5 Model tenancy ledger attestation . . . . .                                                | 161        |
-| {--{"author":"Elias's AI","timestamp":1785222049781}@@<b>Bibliography</b>                                                                           --}{++{"author":"Elias's AI","timestamp":1785222049781}@@**Bibliography** ++}| {--{"author":"Elias's AI","timestamp":1785222049781}@@<b>162</b>--}{++{"author":"Elias's AI","timestamp":1785222049781}@@**162**++} |
+| **Bibliography** | **162** |
 
 # Executive Summary
 
@@ -329,7 +329,7 @@ This report describes two technical approaches which can approximate *verifiable
 
 A schematic illustration of both approaches is shown in Figure 2.
 
-{--{"author":"Elias's AI","timestamp":1785222050209}@@![[/attachments/harack-verification-for-international-ai-governance-fig2-e9da4873.jpg]]--}{++{"author":"Elias's AI","timestamp":1785222050209}@@![Figure](/attachments/harack-verification-for-international-ai-governance-fig2-e9da4873.jpg)++}
+![Figure](/attachments/harack-verification-for-international-ai-governance-fig2-e9da4873.jpg)
 
 The diagram illustrates the interaction between a Prover and a Verifier in a verifiable confidential computing system. On the left, the Prover's side includes a 'Prover' icon, a 'Secrets' box with a yellow bar, and a 'Prover data center' containing 'Verifiable operations'. On the right, the Verifier's side includes a 'Verifier' icon, a 'Secret tests' box with a yellow bar, and a 'Neutral data center' containing 'Verification computations'. In the center is a blue 'Common knowledge' box containing 'Cryptographic commitments' and 'Verification results'. Solid arrows (encrypted data) flow from the Prover's 'Verifiable operations' to the 'Cryptographic commitments' and from the 'Secret tests' to the 'Verification results'. Dashed arrows (plaintext data) flow from the 'Cryptographic commitments' to the 'Verification computations' and from the 'Verification computations' back to the 'Verification results'. A legend at the bottom left defines the arrow types: a solid arrow for 'Encrypted data' and a dashed arrow for 'Plaintext data'.
 
@@ -755,7 +755,7 @@ International regulation of AI must engage constructively with the shape of the 
 
 <sup>97</sup> However, over time we should expect that the provision of these inputs will become increasingly automated.
 
-{--{"author":"Elias's AI","timestamp":1785222050607}@@![[/attachments/harack-verification-for-international-ai-governance-fig3-5dc11d3d.jpg]]--}{++{"author":"Elias's AI","timestamp":1785222050607}@@![Figure](/attachments/harack-verification-for-international-ai-governance-fig3-5dc11d3d.jpg)++}
+![Figure](/attachments/harack-verification-for-international-ai-governance-fig3-5dc11d3d.jpg)
 
 ```
 
@@ -1398,7 +1398,7 @@ This stack also allows the Prover to demonstrate their compliance with a large n
 
 <sup>214</sup> 'Claude Can Now Use Tools', Anthropic, 30 May 2024, <https://www.anthropic.com/news/tool-use-ga>.
 
-{--{"author":"Elias's AI","timestamp":1785222051063}@@![[/attachments/harack-verification-for-international-ai-governance-fig4-0b4a045a.jpg]]--}{++{"author":"Elias's AI","timestamp":1785222051063}@@![Figure](/attachments/harack-verification-for-international-ai-governance-fig4-0b4a045a.jpg)++}
+![Figure](/attachments/harack-verification-for-international-ai-governance-fig4-0b4a045a.jpg)
 
 The diagram illustrates the workflow of verifiable confidential computing between a Prover and a Verifier.
 
@@ -1500,7 +1500,7 @@ manner, since both sides would want to ensure that the hardware is designed only
 
 A key political question for the creation of a verifiable international agreement is which stage of the AI value chain should be governed and verified. For regulatory agreements (see Section 4.5), interventions can be aimed at different parts of the timeline of AI development and deployment, ranging from before the model is created up until it is running inference or being deployed on a mobile device.<sup>227</sup>
 
-{--{"author":"Elias's AI","timestamp":1785222051460}@@![[/attachments/harack-verification-for-international-ai-governance-fig5-269d713c.jpg]]--}{++{"author":"Elias's AI","timestamp":1785222051460}@@![Figure](/attachments/harack-verification-for-international-ai-governance-fig5-269d713c.jpg)++}
+![Figure](/attachments/harack-verification-for-international-ai-governance-fig5-269d713c.jpg)
 
 ```
 graph LR; subgraph "Data center phases of AI development and deployment"; direction LR; subgraph "Training institution"; T[Training]; end; subgraph "Fine-tuning institution"; FT[Fine-tuning]; end; subgraph "Deployment institution"; D["Inference (In a data center)"]; end; T --> FT; FT --> D; end;
@@ -1510,7 +1510,7 @@ Figure 3.1: A highly simplified AI value chain through to data center inference.
 
 **Figure 3.1:** A highly simplified AI value chain through to data center inference. A single institution may also manage multiple stages.
 
-{--{"author":"Elias's AI","timestamp":1785222051839}@@![[/attachments/harack-verification-for-international-ai-governance-fig6-a20f4ec9.jpg]]--}{++{"author":"Elias's AI","timestamp":1785222051839}@@![Figure](/attachments/harack-verification-for-international-ai-governance-fig6-a20f4ec9.jpg)++}
+![Figure](/attachments/harack-verification-for-international-ai-governance-fig6-a20f4ec9.jpg)
 
 ```
 graph LR; subgraph "Verifiable agreement for AI-enabled devices"; direction LR; subgraph "Development institution"; subgraph "Development context"; DT["Model development and testing"]; end; end; subgraph "Hardware pairing institution"; subgraph "Pairing context"; DMP["Device-model pairing"]; end; end; subgraph "Deployment institution"; subgraph "Usage context"; DA["Device activation"]; end; end; DT --> DMP; DMP --> DA; end;
@@ -2127,7 +2127,7 @@ taken in parallel. However, this faces a much more severe transparency-security 
 
 Regulating AI development means applying rules to the creation and modification of AI models. As noted in the introduction, model development is often split into two major phases in current development paradigms: training and fine-tuning.<sup>315</sup> Training typically employs large general datasets and large amounts of compute to produce a relatively general-purpose model. Fine-tuning is then employed to modify the model behavior in a more fine-grained way.
 
-{--{"author":"Elias's AI","timestamp":1785222052187}@@![[/attachments/harack-verification-for-international-ai-governance-fig7-84fb0dbd.jpg]]--}{++{"author":"Elias's AI","timestamp":1785222052187}@@![Figure](/attachments/harack-verification-for-international-ai-governance-fig7-84fb0dbd.jpg)++}
+![Figure](/attachments/harack-verification-for-international-ai-governance-fig7-84fb0dbd.jpg)
 
 The diagram is a flowchart titled "Data center phases of AI development and deployment". It consists of three orange rectangular boxes arranged horizontally, connected by arrows. The first box is labeled "Training institution" and contains the word "Training". The second box is labeled "Fine-tuning institution" and contains the words "Fine-tuning". The third box is labeled "Deployment institution" and contains the words "Inference (In a data center)". Arrows point from the first box to the second, and from the second box to the third.
 
@@ -2227,7 +2227,7 @@ To make robust verifiable claims about models, one approach is to combine a proo
 
 A simplified view of verification for AI development is shown below, illustrating the different kinds of information available for verification at various stages in the process. This diagram is applicable to either the training or fine-tuning steps of the process, though some differences between the two will be discussed below.
 
-{--{"author":"Elias's AI","timestamp":1785222052625}@@![[/attachments/harack-verification-for-international-ai-governance-fig8-a4695c04.jpg]]--}{++{"author":"Elias's AI","timestamp":1785222052625}@@![Figure](/attachments/harack-verification-for-international-ai-governance-fig8-a4695c04.jpg)++}
+![Figure](/attachments/harack-verification-for-international-ai-governance-fig8-a4695c04.jpg)
 
 ```
 
@@ -2460,7 +2460,7 @@ Finally, we can summarize some of the ways that rules about inference can be ver
 
 <sup>358</sup> See Section 2.5.3.
 
-{--{"author":"Elias's AI","timestamp":1785222053040}@@![[/attachments/harack-verification-for-international-ai-governance-fig9-fadad524.jpg]]--}{++{"author":"Elias's AI","timestamp":1785222053040}@@![Figure](/attachments/harack-verification-for-international-ai-governance-fig9-fadad524.jpg)++}
+![Figure](/attachments/harack-verification-for-international-ai-governance-fig9-fadad524.jpg)
 
 ```
 
@@ -2554,7 +2554,7 @@ Before discussing the potential ways that these devices might be verifiably regu
 
 <sup>365</sup> A vast number of works exist in this space. One review of particular interest is Ronald Arkin et al., 'Autonomous Weapon Systems: A Roadmapping Exercise', 9 September 2019.
 
-{--{"author":"Elias's AI","timestamp":1785222053467}@@![[/attachments/harack-verification-for-international-ai-governance-fig10-b31578be.jpg]]--}{++{"author":"Elias's AI","timestamp":1785222053467}@@![Figure](/attachments/harack-verification-for-international-ai-governance-fig10-b31578be.jpg)++}
+![Figure](/attachments/harack-verification-for-international-ai-governance-fig10-b31578be.jpg)
 
 ```
 
