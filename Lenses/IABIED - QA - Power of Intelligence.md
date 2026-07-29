@@ -2,7 +2,7 @@
 id: 85666bdb-67ba-49b1-a880-5cd3f07f5d85
 summary_for_tutor: Argues that popular culture systematically underestimates intelligence. Introduces the concept of relative efficiency through chess (Magnus Carlsen spotting a rook) and market efficiency analogies. A superintelligence would be instrumentally efficient relative to humans, meaning we could not identify better strategies than its own. Critiques Hollywood depictions like Ultron as fundamentally misunderstanding what intelligence implies.
 title: Appreciating the Power of Intelligence
-tldr: 'Hollywood "Intelligence"'
+tldr: {--{"author":"Elias's AI","timestamp":1785314277939}@@'Hollywood "Intelligence"'--}{++{"author":"Elias's AI","timestamp":1785314277939}@@"Hollywood keeps getting intelligence wrong, and Ultron is the proof. Using chess and market efficiency, the authors build up relative efficiency: against a superintelligence, we could not even name a better move than the one it already picked."++}
 tags:
   - supplementary
 ---

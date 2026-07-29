@@ -2,7 +2,7 @@
 id: f5c9d2e8-1a7b-4c3d-8e60-4b9f2d1a6c85
 summary_for_tutor: "Explains why the authors think reflection and self-modification deepen the alignment problem rather than solve it. Core argument: agents use their current preferences to guide changes to their preferences, so an AI that starts with alien goals tends to end with alien goals -- just as humans, though built by evolution to propagate genes, reflect using their own values instead of converging on gene propagation. Covers how formative-experience contingency and hill-climbing origins make self-modification unpredictable, how seeds of curiosity or kindness can be stripped out once treated as mere heuristics, and how an AI at reflective equilibrium finds even 'weird' goals (the 300-meter cheesecake) self-endorsing. Uses the messiness of human value change -- instrumental values becoming terminal, the blurred utility versus expected-utility distinction -- to argue AI goal formation is overdetermined to be strange in its own novel ways. A reflection prompt and chat then discuss the cheesecake thought experiment and instrumental-to-terminal value drift."
 title: "Reflection and Self-Modification Make It All Harder"
-tldr: "By Default, AIs Don't Self-Modify the Way We'd Want"
+tldr: {--{"author":"Elias's AI","timestamp":1785314280058}@@"By Default, AIs Don't Self-Modify the Way We'd Want"--}{++{"author":"Elias's AI","timestamp":1785314280058}@@"Won't a smart AI reflect and fix its own goals? The trouble is that agents judge changes to their preferences using their current preferences. Humans do not self-modify toward maximizing gene propagation, and an AI that starts alien would reflect its way to alien conclusions."++}
 tags:
   - supplementary
 ---
