@@ -2,8 +2,8 @@
 id: '6467b750-b68f-4283-b39b-ebece4690044'
 learning-outcome: "Explain why binding international agreements on AI require technical verification to be politically viable, and identify what makes AI agreements harder to verify than nuclear arms-control agreements"
 domain: "[[../Domains/Governance and Policy]]"
-{++{"author":"Elias's AI","timestamp":1785319760657}@@stage: advanced
-++}authors:
+stage: advanced
+authors:
   - Elias+Claude
 ---
 ## Test:

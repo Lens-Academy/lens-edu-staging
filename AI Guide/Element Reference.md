@@ -12,90 +12,21 @@ Exact syntax accepted by the content processor (`lens-platform/content_processor
 
 Unknown frontmatter fields are tolerated (only near-typos of known fields get flagged), which is why authoring metadata like `authors:`, `readings:`, `reading-from:` appears in real files. Don't rely on unknown fields for anything the platform must act on.
 
-## {--{"author":"Elias's AI","timestamp":1785321454083}@@Course — `courses/<Name>.md`--}{++{"author":"Elias's AI","timestamp":1785321454083}@@File types++}
+## File types
 
-{--{"author":"Elias's AI","timestamp":1785321454083}@@```markdown
----
-id: <uuid>
-slug: ai-risk-fundamentals        # required. lowercase, digits, hyphens; no leading/trailing hyphen
-title: "AI Risk Fundamentals"     # required
-description: "Shown on the course page."--}{++{"author":"Elias's AI","timestamp":1785321454083}@@Each file type has its own short guide covering frontmatter and body structure:
+Each file type has its own short guide covering frontmatter and body structure:
 
-| File | Location | Guide |++}
-{--{"author":"Elias's AI","timestamp":1785321454083}@@tags: [IABIED]--}{++{"author":"Elias's AI","timestamp":1785321454083}@@|------|----------|-------|++}
-{--{"author":"Elias's AI","timestamp":1785321454083}@@discussion: https://discord.com/channels/...
----
-# Module: [[../modules/IABIED M1 Intro, Part 1]]
-# Meeting: Introduction
-# Module: [[../modules/IABIED M2 Nonhuman Minds, Part 2]]--}{++{"author":"Elias's AI","timestamp":1785321454083}@@| Course | `courses/<Name>.md` | `Lens Edu/AI Guide/Writing Course Files.md` |++}
-{--{"author":"Elias's AI","timestamp":1785321454083}@@```
-
-Optional frontmatter: `slug-aliases`, `partner-name`, `partner-logo`, `partner-logo-small`, `partner-url`. The body is only `# Module:` wikilink refs and `# Meeting: <name>` markers, in learner order. There is no "Week" structure — meetings are the rhythm markers.
-
-##--}{++{"author":"Elias's AI","timestamp":1785321454083}@@|++} Module {--{"author":"Elias's AI","timestamp":1785321454083}@@—--}{++{"author":"Elias's AI","timestamp":1785321454083}@@|++} `modules/<Name>.md`{--{"author":"Elias's AI","timestamp":1785321454083}@@
-
-Frontmatter: required `slug`, `title`; optional `id`, `contentId`, `discussion`, `tags`, `add_to_ai_context` (list of wikilinks whose content is added to the AI tutor's context for everything in the module).
-
-Body = H1 sections:
-
-```markdown
-# Submodule: Welcome                  ← groups following sections under a heading--}{++{"author":"Elias's AI","timestamp":1785321454083}@@ | `Lens Edu/AI Guide/Writing Modules.md` |++}
-{--{"author":"Elias's AI","timestamp":1785321454083}@@# Lens: Welcome                       ← inline lens: id:: + segments directly here
-id:: <uuid>
-#### Text
-content:: Welcome to the course...
-
-# Submodule: Ch1 - Introduction
-# Learning Outcome: Intelligence as prediction plus steering
-source:: ![[../Learning Outcomes/Intelligence as prediction plus steering]]
-
-# Lens: Optional Deep Dive            ← referenced lens
-source:: ![[../Lenses/Some Lens]]
-optional:: true                       ← learner may skip
-hide:: true                           ← hidden from the module page (requires optional:: true)
-```
-
-A `# Lens:` section has either `source::` (referenced) or `id::` + segments (inline) — not both.
-
-**Learning outcome placement (processor ≥0.19.1):** declare outcomes first. A `# Learning Outcome:` *before* the first `# Submodule:` is module-level: the platform renders its test at the end of the module as an auto-generated "Test Your Understanding" entry (one outcome → a directly-openable row; several → one expandable submodule). A learning outcome *after* a `# Submodule:` marker (H1 or as an H2 child) belongs to that submodule — declare it before the lenses; its test renders at the end of that submodule regardless of where it is written. A dedicated `# Submodule: Test Your Understanding` wrapper is no longer needed, and combining one with module-level outcomes is a validation error.
-
-A `# Submodule:` marker may carry `add_to_ai_context:: [[wikilink]]` (one or more `[[...]]`) — that content is added to the AI tutor's context for every lens and test in the submodule. Use this for per-chapter source material (module-level covers the whole module; submodule-level scopes to one chapter).
-
-## --}{++{"author":"Elias's AI","timestamp":1785321454083}@@| ++}Learning Outcome {--{"author":"Elias's AI","timestamp":1785321454083}@@—--}{++{"author":"Elias's AI","timestamp":1785321454083}@@|++} `Learning Outcomes/<Name>.md`{--{"author":"Elias's AI","timestamp":1785321454083}@@
-
-Frontmatter: required `id`; optional `learning-outcome` (the outcome statement — start with an action verb: Explain, Distinguish, Identify, Compare, Evaluate, Apply...), `discussion`, `tags`. **Do not** put `add_to_ai_context` on a--}{++{"author":"Elias's AI","timestamp":1785321454083}@@ | `Lens Edu/AI Guide/Writing++} Learning{--{"author":"Elias's AI","timestamp":1785321454083}@@ Outcome — it is an error. Put it on the lens, the module, or the `# Submodule:` marker instead.
-
-Body = the test, then (optionally) suggested lenses:--}{++{"author":"Elias's AI","timestamp":1785321454083}@@ Outcomes.md` |
+| File | Location | Guide |
+|------|----------|-------|
+| Course | `courses/<Name>.md` | `Lens Edu/AI Guide/Writing Course Files.md` |
+| Module | `modules/<Name>.md` | `Lens Edu/AI Guide/Writing Modules.md` |
+| Learning Outcome | `Learning Outcomes/<Name>.md` | `Lens Edu/AI Guide/Writing Learning Outcomes.md` |
 | Lens | `Lenses/<Name>.md` | `Lens Edu/AI Guide/Writing Lenses.md` |
-| Article / video transcript | `articles/*.md`, `video_transcripts/*.md` | `Lens Edu/AI Guide/Writing Articles.md` |++}
+| Article / video transcript | `articles/*.md`, `video_transcripts/*.md` | `Lens Edu/AI Guide/Writing Articles.md` |
 
-{--{"author":"Elias's AI","timestamp":1785321454083}@@```markdown
---}## {--{"author":"Elias's AI","timestamp":1785321454083}@@Test:
-id:: <uuid>
-#### Question
-content:: <the test question>
-assessment-instructions:: <scoring rubric — see Quality Patterns>--}{++{"author":"Elias's AI","timestamp":1785321454083}@@The 6 segment types++}
+## The 6 segment types
 
-{--{"author":"Elias's AI","timestamp":1785321454083}@@# Suggested Lenses:
-## Lens:
-source:: [[../Lenses/My Topic - PQ]]
-notes:: <optional author note about this suggestion>
-
-## Lens:
-source:: [[../Lenses/My Topic]]
-```
-
-Suggested lenses --}{++{"author":"Elias's AI","timestamp":1785321454083}@@Segments ++}are {--{"author":"Elias's AI","timestamp":1785321454083}@@**author-facing candidates only** — --}the{--{"author":"Elias's AI","timestamp":1785321454083}@@ platform never imports them. A module that references the outcome gets just the test; the module lists its teaching lenses explicitly, before the `# Learning Outcome:` ref. Outcomes with zero suggested lenses are valid. A Test may only contain question/roleplay segments (anything else is flagged — it would be silently dropped).
-
-Errors to avoid: --}{++{"author":"Elias's AI","timestamp":1785321454083}@@ `####` blocks inside ++}a{--{"author":"Elias's AI","timestamp":1785321454083}@@ `## Lens:` outside the `# Suggested Lenses:` header,--}{++{"author":"Elias's AI","timestamp":1785321454083}@@ lens (and inside++} a{--{"author":"Elias's AI","timestamp":1785321454083}@@ `## Test:` nested under it (must sit above), and any `Submodule:` section (removed from outcomes — structure lives in the module file).
-
-## Lens — `Lenses/<Name>.md`
-
-Flat file: frontmatter + `####` segments. No H1–H3 structure, and segment--}{++{"author":"Elias's AI","timestamp":1785321454083}@@ Learning Outcome's `## Test:`). Segment++} headers take no title (`#### Text: Intro` is an {--{"author":"Elias's AI","timestamp":1785321454083}@@error — the lens title lives in frontmatter).
-
-Frontmatter: required `id`; optional `title`, `tldr` (one-sentence takeaway, ≤80 words), `summary_for_tutor` (AI-facing: what this lens teaches), `tags`, `min_chat_messages` (0–20, gates progression on chat participation), `add_to_ai_context`.
-
-### The 6 segment types--}{++{"author":"Elias's AI","timestamp":1785321454083}@@error).++}
+Segments are the `####` blocks inside a lens (and inside a Learning Outcome's `## Test:`). Segment headers take no title (`#### Text: Intro` is an error).
 
 | Segment | Required fields | Optional fields |
 |---------|----------------|-----------------|
@@ -124,13 +55,7 @@ Boolean fields take literal `true`/`false`. Defaults: `optional` false; `feedbac
 
 **Resource cards:** inside a `content::` value, `::card[[../Lenses/Name]]` followed by a `> blockquote` description renders a linked card — used for "Additional resources" footers.
 
-{--{"author":"Elias's AI","timestamp":1785321454456}@@## Articles and video transcripts
-
-Article (`articles/*.md`): required `title`, `author` (list), `source_url`, `published` (YYYY-MM-DD); optional `created`, `description`, `tags`, `url`, `allowAuthorInTitle`, `allowUnreachableUrl`. Body is the plain article text — no segments. Prefer the importer (see `Lens Edu/AI Guide/Article Import.md`) over hand-writing these.
-
-Video transcript (`video_transcripts/*.md`): required `title`, `channel`, `url`; optional `tags`, `allowUnreachableUrl`. Paired with a `.timestamps.json` file — created by the video import tooling, not by hand.
-
---}## Validator errors you'll actually hit
+## Validator errors you'll actually hit
 
 - Missing/empty required frontmatter fields; slug format violations.
 - Unquoted UUIDs that YAML turned into numbers.
