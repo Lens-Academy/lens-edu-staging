@@ -4,7 +4,7 @@ tags:
 ---
 # Writing Course Files (AI Guide)
 
-A course file (`courses/<Name>.md`) is the top of the hierarchy: an ordered list of module references with meeting markers. Shared field rules and validator errors: `Lens Edu/AI Guide/Element Reference.md`.
+A course file (`courses/<Name>.md`) is the top of the hierarchy: an ordered list of module references with meeting markers. Shared field rules and validator errors: `Lens Edu/AI Guide/{--{"author":"Elias's AI","timestamp":1785489959785}@@Element Reference.md--}{++{"author":"Elias's AI","timestamp":1785489959785}@@Course Authoring.md++}`.
 
 ```markdown
 ---
