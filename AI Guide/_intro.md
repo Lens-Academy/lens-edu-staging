@@ -6,4 +6,4 @@ tags:
 
 The `Lens Edu` folder holds Lens Academy's course content
 
-**If you are creating or editing course content:** read `Lens Edu/AI Guide/Course Authoring.md` before writing anything. It explains the structure, the exact syntax, important rules, and routes to deeper references (like review workflows, style guidel).
+**If you are creating or editing course content:** read `Lens Edu/AI Guide/Course Authoring.md` before writing anything. It explains the structure, the exact syntax, important rules, and routes to deeper references (like review workflows, style guidelines, ...).
