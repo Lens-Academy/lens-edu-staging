@@ -4,9 +4,9 @@ tags:
 ---
 # Course Authoring (AI Guide)
 
-Everything shared that any content edit needs: how courses fit together, the field syntaxes, segment types, cross-file rules, and validation. How to write each specific file type lives in its own guide — read that guide before writing (routing below). Exact syntax comes from the content processor (`lens-platform/content_processor`, published as `lens-content-processor`); its `content-schema.ts` is the single source of truth.
+{--{"author":"Elias's AI","timestamp":1785490722593}@@Everything shared that any content edit needs: how courses fit together, the field syntaxes, segment types, cross-file rules, and validation. How to write each specific file type lives in its own guide — read that guide before writing (routing below). Exact syntax comes from the content processor (`lens-platform/content_processor`, published as `lens-content-processor`); its `content-schema.ts` is the single source of truth.
 
-## How a course fits together
+--}## How a course fits together
 
 A **course** is an ordered list of **modules** with live-meeting markers between them — everything between two meetings is one meeting's preparation. A module sequences the learner path: **lenses** — the actual learning content (readings, AI-tutor chats, questions, roleplays) — grouped into **submodules**, plus **learning outcomes** — one testable skill each, carrying the test the platform uses to check it (the test renders at the end of the module or submodule that declares the outcome). Lenses draw their reading material from **articles** and **video transcripts** stored alongside.
 
@@ -39,7 +39,9 @@ Read the matching guide first:
 
 ## Two field syntaxes, don't mix them up
 
-- Frontmatter: YAML, single colon (`title: ...`) — file-level metadata.
+{++{"author":"Elias's AI","timestamp":1785490722903}@@Field lists come from the content processor's `content-schema.ts` (`lens-platform/content_processor`, published as `lens-content-processor`) — the single source of truth.
+
+++}- Frontmatter: YAML, single colon (`title: ...`) — file-level metadata.
 - Body fields: `key:: value` (double colon, at line start) — section/segment data. A value continues over following lines until the next `key::` or heading. Duplicate keys in one section are an error.
 
 Unknown frontmatter fields are tolerated (only near-typos of known fields get flagged), which is why authoring metadata like `authors:`, `readings:`, `reading-from:` appears in real files. Don't rely on unknown fields for anything the platform must act on.
