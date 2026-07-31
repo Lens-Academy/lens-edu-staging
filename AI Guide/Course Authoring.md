@@ -5,7 +5,7 @@ tags:
 # Course Authoring (AI Guide)
 
 Lens Academy courses are plain markdown documents in this **"Lens Edu"** folder. Humans edit them in the web editor (editor.lensacademy.org), AI agents edit them through the lens-relay MCP.
-Changes appear within a few seconds on staging.lensacademy.org
+Changes appear within a few seconds on staging.lensacademy.org and 
 
 ## Read next
 
