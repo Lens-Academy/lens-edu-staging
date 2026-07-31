@@ -5,7 +5,9 @@ title: Your Leverage
 tldr: "The scenario you just read is grim on purpose. This is where you stop spectating: map what you're unusually good at, then find where it bites on the problem."
 authors:
   - Elias+Claude
----
+{++{"author":"action-plan tutor prompt import's AI","timestamp":1785502645737}@@add_to_ai_context:
+  - "[[../Lenses/Coach Guidance - AI Safety Impact Pathways]]"
+++}---
 #### Text
 content::
 \## From argument to action
