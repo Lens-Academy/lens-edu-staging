@@ -4,7 +4,7 @@ tags:
 ---
 # Writing Lenses (AI Guide)
 
-A lens (`Lenses/<Name>.md`) is the actual learning content: a **flat file** of frontmatter + `####` segments. No H1–H3 structure, and segment headers take no title (`#### Text: Intro` is an error — the lens title lives in frontmatter).{++{"author":"Elias's AI","timestamp":1785487826177}@@ Segment syntax (the 6 types — Text, Chat, Article, Video, Question, Roleplay — and their fields): `Lens Edu/AI Guide/Element Reference.md`.++}
+A lens (`Lenses/<Name>.md`) is the actual learning content: a **flat file** of frontmatter + `####` segments. No H1–H3 structure, and segment headers take no title (`#### Text: Intro` is an error — the lens title lives in frontmatter).{++{"author":"Elias's AI","timestamp":1785489960535}@@ Segment syntax (the 6 types — Text, Chat, Article, Video, Question, Roleplay — and their fields): `Lens Edu/AI Guide/Course Authoring.md`.++}
 
 Frontmatter: required `id`; optional `title`, `tldr` (one-sentence takeaway, ≤80 words — speaks to the learner; an analogy beats a {--{"author":"Elias's AI","timestamp":1785487826177}@@summary), --}{++{"author":"Elias's AI","timestamp":1785487826177}@@summary: "Like a parent who knows how babies are made but not what the baby will become"), ++}`summary_for_tutor` (AI-facing: what the lens teaches and how its parts sequence), `tags`, `min_chat_messages` (0–20, gates progression on chat participation), `add_to_ai_context` (injects source material into the tutor's context — use when the tutor must discuss a text the student read elsewhere).
 
