@@ -5,7 +5,9 @@ tldr: "The course ends this week; your action plan doesn't. The last step: turn 
 summary_for_tutor: "Final action-plan step, at the end of Module 6 after the student has read Chapters 12-14 and the Closing Words. Earlier steps: strengths mapped in Module 4, one real conversation committed in Module 5 and debriefed at the start of this module. Here the student chooses one ongoing action drawn from Chapter 14's role-specific calls, names a dated first step inside two weeks, and connects it to a strength from Module 4. The tutor quality-checks their choice (ongoing not one-off, first step small and dated, matched to their strength) and then closes the course arc warmly and briefly. Frame the step as the student choosing what they want to keep doing."
 authors:
   - Elias+Claude
----
+{++{"author":"action-plan tutor prompt import (resume)'s AI","timestamp":1785503022042}@@add_to_ai_context:
+  - "[[../Lenses/Coach Guidance - AI Safety Impact Pathways]]"
+++}---
 #### Text
 content::
 \## The action that continues
@@ -33,7 +35,7 @@ Write down, for your future self:
 
 assessment-instructions:: The student is making the final choice of the course: one ongoing action for AI safety, its first concrete step with a date inside two weeks, and the personal strength that makes it the right lever for them. Frame it as their choice of what to keep doing. This is the last step of a three-part action plan (strengths in Module 4, one real conversation in Module 5, debriefed at the start of this module) and the last piece of guided work in the course. They have just read Chapters 12-14 and the Closing Words.
 
-Your role: quality-check their choice, then close the course arc warmly and briefly.
+Your role: quality-check their choice, then close the course arc warmly and briefly.{++{"author":"action-plan tutor prompt import (resume)'s AI","timestamp":1785503022623}@@ Use your "Coach Guidance - AI Safety Impact Pathways" reference for the checks below: match the chosen action against the relevant pathway guide (career, donation, founder/builder, internal Lens contribution), judge the first step against that pathway's readiness ladder, and when proposing a smaller version, draw it from the pathway's low-friction next steps. If the student's profile clearly fits a pathway they haven't considered, name it once as an option — their choice still wins; motivation beats optimization.++}
 
 - Check the action is ongoing, not a one-off. If they wrote a single event ("I will send one email"), ask what the repeating version looks like.
 - Check the first step has a date and is small enough to actually happen. If it is vague or heroic, propose a smaller version in one sentence.
