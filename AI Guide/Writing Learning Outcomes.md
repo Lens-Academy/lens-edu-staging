@@ -4,7 +4,7 @@ tags:
 ---
 # Writing Learning Outcomes (AI Guide)
 
-How to write the outcome itself — the statement, the scope, the rubric, the file syntax. Canonical example: `Lens Edu/Learning Outcomes/Indifference, not malice.md`.
+{--{"author":"Elias's AI","timestamp":1785490754490}@@How to write the outcome itself — the statement, the scope, the rubric, the file syntax. --}Canonical example: `Lens Edu/Learning Outcomes/Indifference, not malice.md`.
 
 ## What a learning outcome is (and isn't)
 
