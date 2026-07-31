@@ -4,7 +4,7 @@ tags:
 ---
 # Writing Learning Outcomes (AI Guide)
 
-How to write the outcome itself — {--{"author":"Elias's AI","timestamp":1785487827463}@@what it says, how it's scoped, how you know it's good. For --}{++{"author":"Elias's AI","timestamp":1785487827463}@@the statement, the scope, the rubric, the ++}file{--{"author":"Elias's AI","timestamp":1785487827463}@@ syntax (frontmatter, `## Test:`, `# Suggested Lenses:`) read `Lens Edu/AI Guide/Element Reference.md`; for the 1–5 rubric pattern read `Lens Edu/AI Guide/Quality Patterns.md`.--}{++{"author":"Elias's AI","timestamp":1785487827463}@@ syntax.++} Canonical example: `Lens Edu/Learning Outcomes/Indifference, not malice.md`.
+How to write the outcome itself — the statement, the scope, the rubric, the file syntax. Canonical example: `Lens Edu/Learning Outcomes/Indifference, not malice.md`.
 
 ## What a learning outcome is (and isn't)
 
@@ -23,13 +23,10 @@ Things that are **not** learning outcomes:
 3. **Apply the two checks** (from *Design for How People Learn*, Julie Dirksen):
    - Is this something the learner would actually do in the real world (explain to a skeptic, evaluate a proposal, spot the flaw in an argument)?
    - Can I tell when they've done it?
-4. **Converting source questions into outcomes:**{--{"author":"Elias's AI","timestamp":1785487827905}@@
-
-   | Question you started from | Outcome statement |--}
-   {--{"author":"Elias's AI","timestamp":1785487827905}@@|---------------------------|-------------------|
-   |--}{++{"author":"Elias's AI","timestamp":1785487827905}@@-++} "How does X differ from Y?" {--{"author":"Elias's AI","timestamp":1785487827905}@@|--}{++{"author":"Elias's AI","timestamp":1785487827905}@@→++} "Distinguish between X and Y"{--{"author":"Elias's AI","timestamp":1785487827905}@@ |--}
-   {--{"author":"Elias's AI","timestamp":1785487827905}@@|--}{++{"author":"Elias's AI","timestamp":1785487827905}@@-++} "What is the impact of Z?" {--{"author":"Elias's AI","timestamp":1785487827905}@@|--}{++{"author":"Elias's AI","timestamp":1785487827905}@@→++} "Explain the impact of Z on..."{--{"author":"Elias's AI","timestamp":1785487827905}@@ |--}
-   {--{"author":"Elias's AI","timestamp":1785487827905}@@|--}{++{"author":"Elias's AI","timestamp":1785487827905}@@-++} "Why does A matter for B?" {--{"author":"Elias's AI","timestamp":1785487827905}@@|--}{++{"author":"Elias's AI","timestamp":1785487827905}@@→++} "Explain why A is necessary for B"{--{"author":"Elias's AI","timestamp":1785487827905}@@ |--}
+4. **Converting source questions into outcomes:**
+   - "How does X differ from Y?" → "Distinguish between X and Y"
+   - "What is the impact of Z?" → "Explain the impact of Z on..."
+   - "Why does A matter for B?" → "Explain why A is necessary for B"
 
 ## Scope: one skill per file
 
@@ -37,17 +34,17 @@ One outcome = one testable skill. The tell that you have two: the level-3 row of
 
 ## Write the rubric first
 
-The 1–5 rubric {--{"author":"Elias's AI","timestamp":1785487828215}@@(every--}{++{"author":"Elias's AI","timestamp":1785487828215}@@is the outcome's operational definition: the test question restates the outcome as a question, and its `assessment-instructions::` hold a 5-level rubric where **every++} level {--{"author":"Elias's AI","timestamp":1785487828215}@@with--}{++{"author":"Elias's AI","timestamp":1785487828215}@@has++} a verbatim example {++{"author":"Elias's AI","timestamp":1785487828215}@@answer**:
+The 1–5 rubric is the outcome's operational definition: the test question restates the outcome as a question, and its `assessment-instructions::` hold a 5-level rubric where **every level has a verbatim example answer**:
 
 ```
-**1** — <failure mode>. *Example: "<what a level-1 ++}answer {++{"author":"Elias's AI","timestamp":1785487828215}@@sounds like>"*
-**2** ++}— {--{"author":"Elias's AI","timestamp":1785487828215}@@structure in `Quality Patterns.md`) is--}{++{"author":"Elias's AI","timestamp":1785487828215}@@<partial understanding>. *Example: "..."*
-**3** — <correct mechanism,++} the {--{"author":"Elias's AI","timestamp":1785487828215}@@outcome's operational definition. --}{++{"author":"Elias's AI","timestamp":1785487828215}@@pass bar>. *Example: "..."*
+**1** — <failure mode>. *Example: "<what a level-1 answer sounds like>"*
+**2** — <partial understanding>. *Example: "..."*
+**3** — <correct mechanism, the pass bar>. *Example: "..."*
 **4** — As above, plus <structural implication>. *Example: Adds "..."*
 **5** — As above, plus <deepest connection>. *Example: Adds "..."*
 ```
 
-Levels 4–5 are written as "As above, plus…" so graders compose rather than re-judge. ++}Write {--{"author":"Elias's AI","timestamp":1785487828215}@@it--}{++{"author":"Elias's AI","timestamp":1785487828215}@@the rubric++} immediately after the statement, **before** designing lenses: level 3 is the pass bar (the mechanism correctly explained), levels 1–2 name the failure modes the lenses must head off, levels 4–5 name the depth the best lenses can reach for. If you can't write distinct level-1, level-3, and level-5 example answers, the outcome is too vague or too big — fix the statement, not the rubric.
+Levels 4–5 are written as "As above, plus…" so graders compose rather than re-judge. Write the rubric immediately after the statement, **before** designing lenses: level 3 is the pass bar (the mechanism correctly explained), levels 1–2 name the failure modes the lenses must head off, levels 4–5 name the depth the best lenses can reach for. If you can't write distinct level-1, level-3, and level-5 example answers, the outcome is too vague or too big — fix the statement, not the rubric.
 
 ## File syntax
 
@@ -58,7 +55,7 @@ Frontmatter: required `id`; optional `learning-outcome` (the statement), `discus
 id:: <uuid>
 #### Question
 content:: <the test question>
-assessment-instructions:: {--{"author":"Elias's AI","timestamp":1785487828639}@@<scoring--}{++{"author":"Elias's AI","timestamp":1785487828639}@@<the 1–5++} rubric — see {--{"author":"Elias's AI","timestamp":1785487828639}@@Quality Patterns>--}{++{"author":"Elias's AI","timestamp":1785487828639}@@above>++}
+assessment-instructions:: <the 1–5 rubric — see above>
 
 # Suggested Lenses:
 ## Lens:

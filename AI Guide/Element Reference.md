@@ -65,5 +65,5 @@ Boolean fields take literal `true`/`false`. Defaults: `optional` false; `feedbac
 - Fields on the wrong segment type (`from::` on a Text segment), field-name typos (Levenshtein ≤2 from a known field), duplicate fields--}{++{"author":"Elias's AI","timestamp":1785489959281}@@%% Curators: please delete this file++} in{--{"author":"Elias's AI","timestamp":1785489959281}@@ one section.
 - Unescaped heading inside `content::`/`instructions::` (truncates the field; warning suggests escaping).
 - Content before--} the{--{"author":"Elias's AI","timestamp":1785489959281}@@ first section header in a body (ignored, flagged).
-- `hide:: true` without `optional:: true`; module reference cycles; `tldr` over 80 words; production file referencing a `wip`-tagged file.--}{++{"author":"Elias's AI","timestamp":1785489959281}@@ editor. %%++}{++{"author":"Elias's AI","timestamp":1785487825713}@@
-++}
+- `hide:: true` without `optional:: true`; module reference cycles; `tldr` over 80 words; production file referencing a `wip`-tagged file.--}{++{"author":"Elias's AI","timestamp":1785489959281}@@ editor. %%++}
+
