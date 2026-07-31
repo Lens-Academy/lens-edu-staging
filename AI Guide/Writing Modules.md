@@ -4,7 +4,7 @@ tags:
 ---
 # Writing Modules (AI Guide)
 
-A module (`modules/<Name>.md`) sequences the learner path: lenses grouped by submodules, with learning outcomes declaring what gets tested. Shared syntax, cross-file rules, and validator errors: `Lens Edu/AI Guide/{--{"author":"Elias's AI","timestamp":1785489960147}@@Element Reference.md`; how to sequence lenses well: `Lens Edu/AI Guide/Quality Patterns.md`.--}{++{"author":"Elias's AI","timestamp":1785489960147}@@Course Authoring.md`.++}
+A module (`modules/<Name>.md`) sequences the learner path: lenses grouped by submodules, with learning outcomes declaring what gets tested. Shared syntax, cross-file rules, and validator errors: `Lens Edu/AI Guide/Course Authoring.md`.
 
 Frontmatter: required `slug`, `title`; optional `id`, `contentId`, `discussion`, `tags`, `add_to_ai_context` (list of wikilinks whose content is added to the AI tutor's context for everything in the module).
 
