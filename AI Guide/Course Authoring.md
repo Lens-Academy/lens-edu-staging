@@ -4,9 +4,7 @@ tags:
 ---
 # Course Authoring (AI Guide)
 
-{--{"author":"Elias's AI","timestamp":1785490722593}@@Everything shared that any content edit needs: how courses fit together, the field syntaxes, segment types, cross-file rules, and validation. How to write each specific file type lives in its own guide — read that guide before writing (routing below). Exact syntax comes from the content processor (`lens-platform/content_processor`, published as `lens-content-processor`); its `content-schema.ts` is the single source of truth.
-
---}## How a course fits together
+## How a course fits together
 
 A **course** is an ordered list of **modules** with live-meeting markers between them — everything between two meetings is one meeting's preparation. A module sequences the learner path: **lenses** — the actual learning content (readings, AI-tutor chats, questions, roleplays) — grouped into **submodules**, plus **learning outcomes** — one testable skill each, carrying the test the platform uses to check it (the test renders at the end of the module or submodule that declares the outcome). Lenses draw their reading material from **articles** and **video transcripts** stored alongside.
 
