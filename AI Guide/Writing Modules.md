@@ -4,7 +4,7 @@ tags:
 ---
 # Writing Modules (AI Guide)
 
-A module (`modules/<Name>.md`) sequences the learner path: lenses grouped by submodules, with learning outcomes declaring what gets tested. Shared field rules and validator errors: `Lens Edu/AI Guide/Element Reference.md`; how to sequence lenses well: `Lens Edu/AI Guide/Quality Patterns.md`.
+A module (`modules/<Name>.md`) sequences the learner path: lenses grouped by submodules, with learning outcomes declaring what gets tested. Shared {--{"author":"Elias's AI","timestamp":1785487829460}@@field rules--}{++{"author":"Elias's AI","timestamp":1785487829460}@@syntax, cross-file rules,++} and validator errors: `Lens Edu/AI Guide/Element {--{"author":"Elias's AI","timestamp":1785487829460}@@Reference.md`; how to sequence lenses well: `Lens Edu/AI Guide/Quality Patterns.md`.--}{++{"author":"Elias's AI","timestamp":1785487829460}@@Reference.md`.++}
 
 Frontmatter: required `slug`, `title`; optional `id`, `contentId`, `discussion`, `tags`, `add_to_ai_context` (list of wikilinks whose content is added to the AI tutor's context for everything in the module).
 
@@ -30,4 +30,10 @@ hide:: true                           ← hidden from the module page (requires 
 - A `# Lens:` section has either `source::` (referenced) or `id::` + segments (inline) — not both.
 - **Learning outcome placement (processor ≥0.19.1):** declare outcomes first. A `# Learning Outcome:` *before* the first `# Submodule:` is module-level: the platform renders its test at the end of the module as an auto-generated "Test Your Understanding" entry (one outcome → a directly-openable row; several → one expandable submodule). A learning outcome *after* a `# Submodule:` marker (H1 or as an H2 child) belongs to that submodule — declare it before the lenses; its test renders at the end of that submodule regardless of where it is written. A dedicated `# Submodule: Test Your Understanding` wrapper is no longer needed, and combining one with module-level outcomes is a validation error.
 - A `# Submodule:` marker may carry `add_to_ai_context:: [[wikilink]]` (one or more `[[...]]`) — that content is added to the AI tutor's context for every lens and test in the submodule. Use this for per-chapter source material (module-level covers the whole module; submodule-level scopes to one chapter).
-- Referencing a learning outcome imports **only its test** — list the lenses that teach it explicitly, before the `# Learning Outcome:` ref.
+- Referencing a learning outcome imports **only its test** — list the lenses that teach it explicitly, before the `# Learning Outcome:` ref.{++{"author":"Elias's AI","timestamp":1785487829911}@@
+
+## Sequencing that works
+
+- Per outcome, the proven path is: PQ lens (pre-reading primer, see `Writing Lenses.md`) → main reading lens → `# Learning Outcome:` ref. One outcome is usually taught by several lenses — list them all before the ref.
+- Optional `- QA -` lenses hold depth for curious learners: link them via `::card` footers inside the main lens instead of adding them to the module path.
+- Alternative candidate lenses live in the outcome's `# Suggested Lenses:` section — author hints only, never part of the learner path.++}

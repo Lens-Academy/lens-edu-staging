@@ -2,9 +2,9 @@
 tags:
   - validator-ignore
 ---
-# Quality Patterns (AI Guide)
+# Quality Patterns (AI Guide){--{"author":"Elias's AI","timestamp":1785487827035}@@
 
-These patterns come from the **AI Risk Fundamentals** course (`IABIED` tag — built around *If Anyone Builds It, Everyone Dies*), the current quality bar. Reuse the structure; adapt the content. Read real examples before writing: `Lens Edu/Lenses/IABIED - AI Is Grown, Not Crafted.md` is a canonical reading lens, `Lens Edu/Learning Outcomes/Indifference, not malice.md` a canonical outcome.
+These patterns come from the **AI Risk Fundamentals** course (`IABIED` tag --}{++{"author":"Elias's AI","timestamp":1785487827035}@@ ++}—{--{"author":"Elias's AI","timestamp":1785487827035}@@ built around *If Anyone Builds It, Everyone Dies*), the current quality bar. Reuse the structure; adapt the content. Read real examples before writing: `Lens Edu/Lenses/IABIED - AI Is Grown, Not Crafted.md` is a canonical reading lens, `Lens Edu/Learning Outcomes/Indifference, not malice.md` a canonical outcome.
 
 ## The reading lens: Recall → Processing → Learning Question
 
@@ -16,13 +16,13 @@ content::
 \## Reading Assignment
 **Read *Chapter 2: Grown, Not Crafted*.** Start at the beginning and stop when you reach
 > <exact quote from the text marking the stop point>
-Return here after reading.
+Return here after reading.--}{++{"author":"Elias's AI","timestamp":1785487827035}@@ removed++}
 
-#### Question                                  ← 2. Phase 1: Recall
+{--{"author":"Elias's AI","timestamp":1785487827035}@@#### Question                                  ← 2. Phase 1: Recall
 content::
 \## Phase 1: Recall
-Spend 2 minutes writing down everything you can remember from the reading, without
-looking back at the text. Anything and everything. No need to organize it. Using the
+Spend 2 minutes writing down everything you can remember from--}{++{"author":"Elias's AI","timestamp":1785487827035}@@This guide was dissolved:++} the {--{"author":"Elias's AI","timestamp":1785487827035}@@reading, without
+looking back at the text. Anything--}{++{"author":"Elias's AI","timestamp":1785487827035}@@reading-lens structure, assessment briefs,++} and {--{"author":"Elias's AI","timestamp":1785487827035}@@everything. No need to organize it. Using the
 speech to text feature is highly recommended here.
 assessment-instructions:: <recall-mirror brief, see below>
 
@@ -30,7 +30,7 @@ assessment-instructions:: <recall-mirror brief, see below>
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you?
-What did you doubt or push back on? No need to organize. Just capture your reaction.
+What did you doubt or push back on? No need--}{++{"author":"Elias's AI","timestamp":1785487827035}@@PQ pattern moved++} to{--{"author":"Elias's AI","timestamp":1785487827035}@@ organize. Just capture your reaction.
 assessment-instructions:: <processing brief, see below>
 
 #### Question                                  ← 4. Phase 3: Learning Question
@@ -48,17 +48,17 @@ content::
 
 ### What each `assessment-instructions::` brief must do
 
-All three share a house style: state who the student is and what they just did; give the key concepts of the reading as a checklist; set response length ("80–150 words. Short paragraphs only. No lists."); and ban generic praise ("Do not over-validate. Avoid generic praise (great job, excellent recall, well done)").
+All three share a house style: state who the student is and what they just did; give the key concepts of --}{++{"author":"Elias's AI","timestamp":1785487827035}@@ `Writing Lenses.md`; ++}the{--{"author":"Elias's AI","timestamp":1785487827035}@@ reading as a checklist; set response length ("80–150 words. Short paragraphs only. No lists."); and ban generic praise ("Do not over-validate. Avoid generic praise (great job, excellent recall, well done)").
 
-**Phase 1 — Recall (one turn).** The tutor is "diagnostic, not instructional — a brief, honest mirror": acknowledge what's correct without inflation, name what's missing without lecturing, correct errors in one sentence, normalize gaps, close with a calibrating sentence. Explicitly: no re-teaching, no follow-up questions, no inviting dialogue — "This is a one-turn response. Tell them to move on."
+**Phase 1 — Recall (one turn).** The tutor is "diagnostic, not instructional — a brief, honest mirror": acknowledge what's correct without inflation, name what's missing without lecturing, correct errors in one sentence, normalize gaps, close with a calibrating sentence. Explicitly: no re-teaching, no follow-up questions, no inviting dialogue — "This is a one-turn response. Tell them --}{++{"author":"Elias's AI","timestamp":1785487827035}@@ 1–5 rubric ++}to{--{"author":"Elias's AI","timestamp":1785487827035}@@ move on."
 
 **Phase 2 — Processing (max 2 turns).** "A processing phase, not a teaching phase" — help the student articulate their reaction, don't resolve it. Branch on what they expressed: confusion → ask what specifically is unclear; skepticism → treat as a legitimate stance, ask what would convince them; resonance → ask what it connected to. If their confusion is exactly the learning outcome, defer it: "the next step will dig into exactly that." Enforce the cap: "Keep an internal turn counter. After 2 tutor replies, close the phase."
 
-**Phase 3 — Learning Question (3 turns, then offer to continue).** The question is "a deliberate wedge: not the test question — a plausible-sounding but flawed claim; the student locates the flaw" so the outcome is drawn out from a fresh angle rather than recited. State the learning outcome and key concepts verbatim in the brief. Per reply: answer direct questions directly; otherwise steelman the student's answer in 2–4 sentences, name 1–3 gaps, ask 2 causal follow-ups (why/how/what-if, each directly answerable, no opinion questions). Include rescue moves ("if stuck after 2 attempts, give a brief direct answer and move on") and a closing calibration with an explicit test-readiness verdict.
+**Phase 3 —--}{++{"author":"Elias's AI","timestamp":1785487827035}@@ `Writing++} Learning {--{"author":"Elias's AI","timestamp":1785487827035}@@Question (3 turns, then offer--}{++{"author":"Elias's AI","timestamp":1785487827035}@@Outcomes.md`; sequencing conventions++} to{--{"author":"Elias's AI","timestamp":1785487827035}@@ continue).** The question is "a deliberate wedge: not the test question — a plausible-sounding but flawed claim; the student locates the flaw" so the outcome is drawn out from a fresh angle rather than recited. State the learning outcome and key concepts verbatim in the brief. Per reply: answer direct questions directly; otherwise steelman the student's answer in 2–4 sentences, name 1–3 gaps, ask 2 causal follow-ups (why/how/what-if, each directly answerable, no opinion questions). Include rescue moves ("if stuck after 2 attempts, give a brief direct answer --}{++{"author":"Elias's AI","timestamp":1785487827035}@@ `Writing Modules.md`; naming, `add_to_ai_context`, ++}and {--{"author":"Elias's AI","timestamp":1785487827035}@@move on") and a closing calibration with an explicit test-readiness verdict.--}{++{"author":"Elias's AI","timestamp":1785487827035}@@`authors:` conventions to `Element Reference.md`.++}
 
-## The pre-reading question (PQ) lens
+{--{"author":"Elias's AI","timestamp":1785487827035}@@## The pre-reading question (PQ) lens
 
-Before a heavy reading, a tiny lens primes the intuition the chapter will challenge — one `#### Question`, no reading. Its brief is deliberately minimal: acknowledge in 1–2 sentences, **do not** preview the chapter's argument, close by sending them to the reading. Named `<Topic> - PQ`, listed in the module as the `# Lens:` immediately before the main reading lens. See `Lens Edu/Lenses/IABIED - Indifference Not Malice - PQ.md`.
+Before a heavy reading, a tiny lens primes the intuition the chapter will challenge — one `#### Question`, no reading. Its brief is deliberately minimal: acknowledge --}{++{"author":"Elias's AI","timestamp":1785487827035}@@%% Curators: please delete this file ++}in {--{"author":"Elias's AI","timestamp":1785487827035}@@1–2 sentences, **do not** preview --}the {--{"author":"Elias's AI","timestamp":1785487827035}@@chapter's argument, close by sending them to the reading. Named `<Topic> - PQ`, listed in the module as the `# Lens:` immediately before the main reading lens. See `Lens Edu/Lenses/IABIED - Indifference Not Malice - PQ.md`.
 
 ## The learning-outcome test: a 1–5 rubric
 
@@ -78,6 +78,6 @@ Levels 4–5 are written as "As above, plus…" so graders compose rather than r
 
 - **Naming:** prefix content files with the course prefix (`IABIED - Define Intelligence`, `IABIED M1 Intro and Nonhuman Minds, Part 1`) so a course's files sort and search together. Do not add `tags:` for grouping — the platform ignores frontmatter tags except `wip` and `validator-ignore`; a course's content is defined by its course file's module references.
 - **Frontmatter for two audiences:** `tldr` speaks to the learner (one memorable sentence, an analogy beats a summary: "Like a parent who knows how babies are made but not what the baby will become"); `summary_for_tutor` speaks to the AI (what the lens teaches and how its parts sequence).
-- **`add_to_ai_context`** on a lens, module, or `# Submodule:` marker (never a Learning Outcome — that's an error) injects source material (e.g. the chapter text from a private folder) into the tutor's context — use it whenever the tutor must discuss a text the student read elsewhere. Submodule-level is the natural home for per-chapter book content.
-- **`authors:`** credits humans and AI pairs (`Chris+Claude`) — keep it updated; it's tolerated metadata, not schema.
-- **One outcome, several lenses:** in the module, list PQ → main reading lens → `# Learning Outcome:` ref; optional `- QA -` lenses hold depth for curious learners, linked via `::card` footers instead of bloating the main path. Record alternative candidate lenses in the outcome's `# Suggested Lenses:` section (with `notes::`) — author hints only, never part of the learner path.
+- **`add_to_ai_context`** on a lens, module, or `# Submodule:` marker (never a Learning Outcome — that's an error) injects source material (e.g. the chapter text from a private folder) into the tutor's context — use it whenever the tutor must discuss a text the student read elsewhere. Submodule-level is the natural home for per-chapter book content.--}{++{"author":"Elias's AI","timestamp":1785487827035}@@editor. %%++}
+{--{"author":"Elias's AI","timestamp":1785487827035}@@- **`authors:`** credits humans and AI pairs (`Chris+Claude`) — keep it updated; it's tolerated metadata, not schema.
+- **One outcome, several lenses:** in the module, list PQ → main reading lens → `# Learning Outcome:` ref; optional `- QA -` lenses hold depth for curious learners, linked via `::card` footers instead of bloating the main path. Record alternative candidate lenses in the outcome's `# Suggested Lenses:` section (with `notes::`) — author hints only, never part of the learner path.--}
