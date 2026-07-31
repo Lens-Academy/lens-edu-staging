@@ -5,7 +5,9 @@ tldr: "You don't fully know what you think about AI risk until you've explained 
 summary_for_tutor: "Action-plan step for Module 5. The student picks one real person in their life, rehearses the conversation with the tutor in a roleplay, then commits to having it for real this week. The point is threefold. Articulating the argument to an outsider is the sharpest test of understanding; the book's own ask of ordinary citizens is to talk about the problem; and a good conversation can bring a new person to the course. The tutor plays the chosen person realistically in the roleplay, and elsewhere acts as an honest coach, never a cheerleader."
 authors:
   - Elias+Claude
----
+{++{"author":"action-plan tutor prompt import (resume)'s AI","timestamp":1785503018540}@@add_to_ai_context:
+  - "[[../Lenses/Coach Guidance - AI Safety Impact Pathways]]"
+++}---
 #### Text
 content::
 **Your action plan, step 2: leave the building**
