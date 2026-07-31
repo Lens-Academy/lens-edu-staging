@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1785321452100}@@---
+---
 tags:
   - validator-ignore
 ---
@@ -31,4 +31,3 @@ hide:: true                           ← hidden from the module page (requires 
 - **Learning outcome placement (processor ≥0.19.1):** declare outcomes first. A `# Learning Outcome:` *before* the first `# Submodule:` is module-level: the platform renders its test at the end of the module as an auto-generated "Test Your Understanding" entry (one outcome → a directly-openable row; several → one expandable submodule). A learning outcome *after* a `# Submodule:` marker (H1 or as an H2 child) belongs to that submodule — declare it before the lenses; its test renders at the end of that submodule regardless of where it is written. A dedicated `# Submodule: Test Your Understanding` wrapper is no longer needed, and combining one with module-level outcomes is a validation error.
 - A `# Submodule:` marker may carry `add_to_ai_context:: [[wikilink]]` (one or more `[[...]]`) — that content is added to the AI tutor's context for every lens and test in the submodule. Use this for per-chapter source material (module-level covers the whole module; submodule-level scopes to one chapter).
 - Referencing a learning outcome imports **only its test** — list the lenses that teach it explicitly, before the `# Learning Outcome:` ref.
-++}

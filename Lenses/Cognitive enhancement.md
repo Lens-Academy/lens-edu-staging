@@ -14,7 +14,7 @@ Two things to weigh as you read. First, this thread **survives the merge-circula
 #### Article
 source:: [[../articles/genesmith-how-to-make-superbabies]]
 
-#### {++{"author":"Elias's AI","timestamp":1785352869111}@@Text
+#### Text
 content::
 GeneSmith & kman make the optimistic case. For a survey of the whole space that reaches a much narrower verdict, read Tsvi Benson-Tilsen's overview. He works through brain emulation, adult brain gene editing, signalling molecules, brain-brain interfaces, massive neural transplantation, and "support for thinking," and concludes that germline engineering is "the way that will work."
 
@@ -23,7 +23,7 @@ Two things to hold onto. His FAQ dismisses as "weaksauce" much of what the rest 
 #### Article
 source:: [[../articles/tsvibt-overview-of-strong-human-intelligence-amplification-methods]]
 
-#### ++}Chat
+#### Chat
 optional:: true
 instructions::
 Help the learner place cognitive enhancement in the BCI-type family (raise human capability directly). Note it dodges the merge-circularity objection. Then press the two hardest problems: the timeline mismatch (enhancement is slow; AGI may be fast) and the inequality/lock-in risk. If solid, ask whether enhancement is really an *AI-safety* strategy or a general human-capability project that happens to be relevant. Stay grounded in the reading.
