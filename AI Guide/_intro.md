@@ -10,7 +10,7 @@ The `Lens Edu` folder holds Lens Academy's course content{--{"author":"Elias's A
 
 **Writing ++}or editing {--{"author":"Elias's AI","timestamp":1785487825266}@@course content:**--}{++{"author":"Elias's AI","timestamp":1785487825266}@@content? First++} read {++{"author":"Elias's AI","timestamp":1785487825266}@@the guide for that file type** in ++}`Lens Edu/AI {--{"author":"Elias's AI","timestamp":1785487825266}@@Guide/Course Authoring.md` before writing anything. It explains the structure, the exact --}{++{"author":"Elias's AI","timestamp":1785487825266}@@Guide/`:
 
-- Course file → `Writing Course Files.md`
+- Course file → `[[Writing Course Files.md]]`
 - Module → `Writing Modules.md`
 - Learning outcome → `Writing Learning Outcomes.md`
 - Lens → `Writing Lenses.md`
