@@ -4,7 +4,7 @@ tags:
 ---
 ## What a course is
 
-A **course** is a collection of md files. is an ordered list of **modules** with live-meeting markers between them — everything between two meetings is one meeting's preparation. A module sequences the learner path: **lenses** — the actual learning content (readings, AI-tutor chats, questions, roleplays) — grouped into **submodules**, plus **learning outcomes** — one testable skill each, carrying the test the platform uses to check it (the test renders at the end of the module or submodule that declares the outcome). Lenses draw their reading material from **articles** and **video transcripts** stored alongside.
+A **course** is a collection of md files. It's defi is an ordered list of **modules** with live-meeting markers between them — everything between two meetings is one meeting's preparation. A module sequences the learner path: **lenses** — the actual learning content (readings, AI-tutor chats, questions, roleplays) — grouped into **submodules**, plus **learning outcomes** — one testable skill each, carrying the test the platform uses to check it (the test renders at the end of the module or submodule that declares the outcome). Lenses draw their reading material from **articles** and **video transcripts** stored alongside.
 
 ```
 Course  (courses/<Name>.md)             one file per course
