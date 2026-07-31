@@ -4,7 +4,7 @@ tags:
 ---
 %% Curators: this file is returned verbatim on every MCP create_session call. Keep it a short router — details belong in the other AI Guide files. %%
 
-{--{"author":"Elias's AI","timestamp":1785487825266}@@The `Lens Edu` folder--}{++{"author":"Elias's AI","timestamp":1785487825266}@@This knowledge base++} holds Lens Academy's course content{--{"author":"Elias's AI","timestamp":1785487825266}@@
+The `Lens Edu` folder holds Lens Academy's course content{--{"author":"Elias's AI","timestamp":1785487825266}@@
 
 **If you are creating --}{++{"author":"Elias's AI","timestamp":1785487825266}@@ — courses, modules, learning outcomes, lenses, and source articles — published to lensacademy.org.
 
