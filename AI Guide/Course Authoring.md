@@ -37,9 +37,9 @@ Read the matching guide first:
 
 ## Two field syntaxes, don't mix them up
 
-{++{"author":"Elias's AI","timestamp":1785490722903}@@Field lists come from the content processor's `content-schema.ts` (`lens-platform/content_processor`, published as `lens-content-processor`) — the single source of truth.
+Field lists come from the content processor's `content-schema.ts` (`lens-platform/content_processor`, published as `lens-content-processor`) — the single source of truth.
 
-++}- Frontmatter: YAML, single colon (`title: ...`) — file-level metadata.
+- Frontmatter: YAML, single colon (`title: ...`) — file-level metadata.
 - Body fields: `key:: value` (double colon, at line start) — section/segment data. A value continues over following lines until the next `key::` or heading. Duplicate keys in one section are an error.
 
 Unknown frontmatter fields are tolerated (only near-typos of known fields get flagged), which is why authoring metadata like `authors:`, `readings:`, `reading-from:` appears in real files. Don't rely on unknown fields for anything the platform must act on.
