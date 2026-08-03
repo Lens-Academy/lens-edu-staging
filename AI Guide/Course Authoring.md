@@ -13,14 +13,14 @@ Each learning outcomes (see [[Writing Learning Outcomes]]) define one testable s
 
 
 
-## Two field syntaxes, don't mix them up
+## {--{"author":"Elias's AI","timestamp":1785763849204}@@Two field syntaxes, don't mix them up
 
-Field lists come from the content processor's `content-schema.ts` (`lens-platform/content_processor`, published as `lens-content-processor`) — the single source of truth.
+--}Field{--{"author":"Elias's AI","timestamp":1785763849204}@@ lists come from the content processor's `content-schema.ts` (`lens-platform/content_processor`, published as `lens-content-processor`) — the single source of truth.--}{++{"author":"Elias's AI","timestamp":1785763849204}@@ syntax++}
 
-- Frontmatter: YAML, single colon (`title: ...`) — file-level metadata.
-- Body fields: `key:: value` (double colon, at line start) — section/segment data. A value continues over following lines until the next `key::` or heading. Duplicate keys in one section are an error.
+{--{"author":"Elias's AI","timestamp":1785763849204}@@- Frontmatter: YAML, single colon (`title: ...`) — file-level metadata.
+- Body fields:--}{++{"author":"Elias's AI","timestamp":1785763849204}@@Frontmatter is standard YAML. Body fields use++} `key:: value` (double colon, at line{--{"author":"Elias's AI","timestamp":1785763849204}@@ start) — section/segment data. A --}{++{"author":"Elias's AI","timestamp":1785763849204}@@ start); a ++}value continues{--{"author":"Elias's AI","timestamp":1785763849204}@@ over following lines--} until the next `key::` or {--{"author":"Elias's AI","timestamp":1785763849204}@@heading. Duplicate--}{++{"author":"Elias's AI","timestamp":1785763849204}@@heading, and duplicate++} keys in one section are an error.{--{"author":"Elias's AI","timestamp":1785763849204}@@
 
-Unknown frontmatter fields are tolerated (only near-typos of known fields get flagged), which is why authoring metadata like `authors:`, `readings:`, `reading-from:` appears in real files. Don't rely on unknown fields for anything the platform must act on.
+--}{++{"author":"Elias's AI","timestamp":1785763849204}@@ ++}Unknown frontmatter fields are tolerated (only near-typos {--{"author":"Elias's AI","timestamp":1785763849204}@@of known fields --}get{--{"author":"Elias's AI","timestamp":1785763849204}@@ flagged), which is why--}{++{"author":"Elias's AI","timestamp":1785763849204}@@ flagged) —++} authoring metadata like {--{"author":"Elias's AI","timestamp":1785763849204}@@`authors:`, `readings:`, `reading-from:` appears--}{++{"author":"Elias's AI","timestamp":1785763849204}@@`authors:` or `readings:`++} in real {--{"author":"Elias's AI","timestamp":1785763849204}@@files. Don't --}{++{"author":"Elias's AI","timestamp":1785763849204}@@files is fine, don't remove it — but never ++}rely on {++{"author":"Elias's AI","timestamp":1785763849204}@@an ++}unknown {--{"author":"Elias's AI","timestamp":1785763849204}@@fields--}{++{"author":"Elias's AI","timestamp":1785763849204}@@field++} for anything the platform must act on.
 
 ## The 6 segment types
 
@@ -35,7 +35,7 @@ Fields per segment:
 - `#### Question` — required: `content`. Optional: `assessment-instructions`, `max-time`, `max-chars`, `enforce-voice`, `feedback`, `optional`.
 - `#### Roleplay` — required: `id`, `content`, `ai-instructions`. Optional: `opening-message`, `assessment-instructions`, `user-customizable`, `feedback`, `optional`.
 
-Boolean fields take literal `true`/`false`. Defaults: `optional` false; `feedback` true on questions, false on roleplays; `hidePreviousContent*` false.
+{--{"author":"Elias's AI","timestamp":1785763849608}@@Boolean fields take literal `true`/`false`. --}Defaults: `optional` false; `feedback` true on questions, false on roleplays; `hidePreviousContent*` false.
 
 **Text** — prose shown to the learner. `content::` is markdown; escape any headings (`\##`).
 
