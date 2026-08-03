@@ -11,11 +11,9 @@ Each lens is rendered as a separate page. They contain the actual learning conte
 
 Each learning outcomes (see [[Writing Learning Outcomes]]) define one testable skill and a set of tests, the platform uses to measure it (the test renders at the end of the module or submodule that declares the outcome). Lenses draw their reading material from **articles** and **video transcripts** stored alongside. (see [[Writing Articles.md]])
 
-
-
 ## Field syntax
 
-Frontmatter is standard YAML. Body fields use `key:: value` ; a value continues until the next `key::` or heading, and duplicate keys in one section are an error. Unknown frontmatter fields are tolerated (only near-typos get flagged) — authoring metadata like `authors:` or `readings:` in real files is fine, don't remove it — but never rely on an unknown field for anything the platform must act on.
+Frontmatter is standard YAML. Body fields use `key:: value`; a value continues until the next `key::` or heading, and duplicate keys in one section are an error. Unknown frontmatter fields are tolerated (only near-typos get flagged) — authoring metadata like `authors:` or `readings:` in real files is fine, don't remove it — but never rely on an unknown field for anything the platform must act on.
 
 ## The 6 segment types
 
