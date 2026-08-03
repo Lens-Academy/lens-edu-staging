@@ -1,4 +1,4 @@
-{++{"author":"action-plan tutor prompt import's AI","timestamp":1785502575853}@@---
+---
 id: '374c8227-91b2-4562-a262-c7211284f9c7'
 title: Coach Guidance - AI Safety Impact Pathways
 tldr: "Reference material the AI tutor uses when helping you build your personal action plan: how to match your strengths, constraints, and motivation to real AI safety contribution paths."
@@ -493,4 +493,3 @@ Explicitly manage transitions rather than treating them as abandonment of Lens.
 | Contributor repeatedly improves systems | Founder / Builder pathway or Lens builder roles. |
 | High earner contributes occasionally but lacks time | Donation pathway as primary, internal contribution as secondary. |
 | Power contributor shows sustained ownership | Contractor, staff, or external AI safety roles. |
-++}
