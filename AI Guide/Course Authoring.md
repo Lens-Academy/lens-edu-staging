@@ -15,9 +15,7 @@ Each learning outcomes (see [[Writing Learning Outcomes]]) define one testable s
 
 ## Field syntax
 
-Frontmatter is standard YAML. Body fields use `key:: value` (double colon, at line start); a value continues until the next `key::` or heading, and duplicate keys in one section are an error.{--{"author":"Elias's AI","timestamp":1785763849204}@@
-
---}{++{"author":"Elias's AI","timestamp":1785763849204}@@ ++}Unknown frontmatter fields are tolerated (only near-typos get flagged) — authoring metadata like `authors:` or `readings:` in real files is fine, don't remove it — but never rely on an unknown field for anything the platform must act on.
+Frontmatter is standard YAML. Body fields use `key:: value` (double colon, at line start); a value continues until the next `key::` or heading, and duplicate keys in one section are an error. Unknown frontmatter fields are tolerated (only near-typos get flagged) — authoring metadata like `authors:` or `readings:` in real files is fine, don't remove it — but never rely on an unknown field for anything the platform must act on.
 
 ## The 6 segment types
 
