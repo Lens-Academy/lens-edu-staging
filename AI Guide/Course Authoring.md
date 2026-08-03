@@ -17,7 +17,7 @@ Each learning outcomes (see [[Writing Learning Outcomes]]) define one testable s
 
 Frontmatter is standard YAML. Body fields use `key:: value` (double colon, at line start); a value continues until the next `key::` or heading, and duplicate keys in one section are an error.{--{"author":"Elias's AI","timestamp":1785763849204}@@
 
---}{++{"author":"Elias's AI","timestamp":1785763849204}@@ ++}Unknown frontmatter fields are tolerated (only near-typos {--{"author":"Elias's AI","timestamp":1785763849204}@@of known fields --}get flagged) — authoring metadata like {--{"author":"Elias's AI","timestamp":1785763849204}@@`authors:`, `readings:`, `reading-from:` appears--}{++{"author":"Elias's AI","timestamp":1785763849204}@@`authors:` or `readings:`++} in real {--{"author":"Elias's AI","timestamp":1785763849204}@@files. Don't --}{++{"author":"Elias's AI","timestamp":1785763849204}@@files is fine, don't remove it — but never ++}rely on {++{"author":"Elias's AI","timestamp":1785763849204}@@an ++}unknown {--{"author":"Elias's AI","timestamp":1785763849204}@@fields--}{++{"author":"Elias's AI","timestamp":1785763849204}@@field++} for anything the platform must act on.
+--}{++{"author":"Elias's AI","timestamp":1785763849204}@@ ++}Unknown frontmatter fields are tolerated (only near-typos {--{"author":"Elias's AI","timestamp":1785763849204}@@of known fields --}get flagged) — authoring metadata like `authors:` or `readings:` in real files is fine, don't remove it — but never rely on {++{"author":"Elias's AI","timestamp":1785763849204}@@an ++}unknown {--{"author":"Elias's AI","timestamp":1785763849204}@@fields--}{++{"author":"Elias's AI","timestamp":1785763849204}@@field++} for anything the platform must act on.
 
 ## The 6 segment types
 
