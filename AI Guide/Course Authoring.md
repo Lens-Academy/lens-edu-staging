@@ -11,22 +11,6 @@ Each lens is rendered as a separate page. They contain the actual learning conte
 
 Each learning outcomes (see [[Writing Learning Outcomes]]) define one testable skill and a set of tests, the platform uses to measure it (the test renders at the end of the module or submodule that declares the outcome). Lenses draw their reading material from **articles** and **video transcripts** stored alongside.
 
-```
-Course  (courses/<Name>.md)             one file per course
-  # Module: [[../modules/<Name>]]       ordered module references
-  # Meeting: <name>                     live-meeting point between modules
-Module  (modules/<Name>.md)
-  # Submodule: <name>                   groups the sections below it
-  # Learning Outcome: <title>           source:: ![[../Learning Outcomes/<Name>]]
-  # Lens: <title>                       source:: ![[../Lenses/<Name>]]  (or inline: id:: + segments)
-Learning Outcome  (Learning Outcomes/<Name>.md)
-  ## Test:                              id:: + #### Question segments with a scoring rubric
-  # Suggested Lenses:                   author-facing candidates — NOT imported by modules
-Lens  (Lenses/<Name>.md)                flat: frontmatter + H4 segments only
-  #### Text | Chat | Article | Video | Question | Roleplay
-Article (articles/*.md), Video transcript (video_transcripts/*.md)
-                                        source material referenced by Article/Video segments
-```
 
 ## Writing a specific file type
 
