@@ -9,17 +9,9 @@ A **course** is a collection of `.md` files, defined in a course file (see [[Wri
 A module (see [[Writing Modules]]) contains links to a set of learning outcomes and an ordered list of lenses.
 Each lens is rendered as a separate page. They contain the actual learning content (readings, AI-tutor chats, questions, roleplays). (see [[Writing Lenses]])
 
-Each learning outcomes (see [[Writing Learning Outcomes]]) define one testable skill and a set of tests, the platform uses to measure it (the test renders at the end of the module or submodule that declares the outcome). Lenses draw their reading material from **articles** and **video transcripts** stored alongside. ()
+Each learning outcomes (see [[Writing Learning Outcomes]]) define one testable skill and a set of tests, the platform uses to measure it (the test renders at the end of the module or submodule that declares the outcome). Lenses draw their reading material from **articles** and **video transcripts** stored alongside. (see [[Writing Articles.md]])
 
-## Writing a specific file type
 
-Read the matching guide first:
-
-- Course file → [[Writing Course Files.md]]
-- Module → [[Writing Modules.md]]
-- Learning outcome → [[Writing Learning Outcomes.md]]
-- Lens → [[Writing Lenses.md]]
-- Article / video transcript → 
 
 ## Two field syntaxes, don't mix them up
 
