@@ -15,7 +15,7 @@ Each learning outcomes (see [[Writing Learning Outcomes]]) define one testable s
 
 ## {--{"author":"Elias's AI","timestamp":1785763849204}@@Two field syntaxes, don't mix them up
 
---}Field{--{"author":"Elias's AI","timestamp":1785763849204}@@ lists come from the content processor's `content-schema.ts` (`lens-platform/content_processor`, published as `lens-content-processor`) — the single source of truth.--}{++{"author":"Elias's AI","timestamp":1785763849204}@@ syntax++}
+--}Field syntax
 
 {--{"author":"Elias's AI","timestamp":1785763849204}@@- Frontmatter: YAML, single colon (`title: ...`) — file-level metadata.
 - Body fields:--}{++{"author":"Elias's AI","timestamp":1785763849204}@@Frontmatter is standard YAML. Body fields use++} `key:: value` (double colon, at line{--{"author":"Elias's AI","timestamp":1785763849204}@@ start) — section/segment data. A --}{++{"author":"Elias's AI","timestamp":1785763849204}@@ start); a ++}value continues{--{"author":"Elias's AI","timestamp":1785763849204}@@ over following lines--} until the next `key::` or {--{"author":"Elias's AI","timestamp":1785763849204}@@heading. Duplicate--}{++{"author":"Elias's AI","timestamp":1785763849204}@@heading, and duplicate++} keys in one section are an error.{--{"author":"Elias's AI","timestamp":1785763849204}@@
