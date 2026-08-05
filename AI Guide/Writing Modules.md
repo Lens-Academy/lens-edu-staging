@@ -4,7 +4,7 @@ tags:
 ---
 # Writing Modules (AI Guide)
 
-{--{"author":"Elias's AI","timestamp":1785936643422}@@A module (`modules/<Name>.md`) sequences the learner path: lenses grouped by submodules, with learning outcomes declaring what gets tested. Shared syntax, cross-file rules, and validator errors: `Lens Edu/AI Guide/Course Authoring.md`.--}{++{"author":"Elias's AI","timestamp":1785936643422}@@Modules live in `modules/`.++}
+Modules live in `modules/`.
 
 Frontmatter: required `slug`, `title`; optional `id`, `contentId`, `discussion`, `tags`,{--{"author":"Elias's AI","timestamp":1785936643422}@@ `add_to_ai_context` (list of wikilinks whose content is added to the AI tutor's context for everything in the module).--}{++{"author":"Elias's AI","timestamp":1785936643422}@@ `add_to_ai_context`.++}
 
