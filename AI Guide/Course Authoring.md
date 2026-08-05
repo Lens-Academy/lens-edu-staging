@@ -27,7 +27,7 @@ Every content file is markdown with two kinds of structure: YAML frontmatter on 
 
 ## Validation
 
-Changes sync to staging.lensacademy.org within seconds; the core team promotes to production (lensacademy.org) manually. **Never push to the `Lens-Academy/lens-edu-staging` or `lens-edu-production` git repos directly** (no `git push`, no `gh api`).
+Changes sync to staging.lensacademy.org within seconds; the core team promotes to production (lensacademy.org) manually.
 
 Check **https://staging.lensacademy.org/validate** after your changes land — it lists errors/warnings per file, filterable by course, categorized `production` (blocks promotion) vs `wip` (draft-only, from `tags: [wip]`). Fix production-category errors in files you touched before calling the work done.
 
