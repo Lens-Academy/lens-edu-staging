@@ -34,7 +34,7 @@ hide:: true                           ← hidden from the module page (requires 
 - Learning outcomes should be linked at the top of a (sub-)module. Their test is rendered at the end of it.
 - A `# Lens:` section has either `source::` (referenced) or `id::` + segments (inline) — not both. Segment syntax: [[Writing Lenses]].
 
-## Sequencing that works
+## Recommended pattern
 
 - Per outcome, the proven path is: PQ lens (pre-reading primer, see `Writing Lenses.md`) → main reading lens → `# Learning Outcome:` ref. One outcome is usually taught by several lenses — list them all before the ref.
 - Optional `- QA -` lenses hold depth for curious learners: link them via `::card` footers inside the main lens instead of adding them to the module path.
