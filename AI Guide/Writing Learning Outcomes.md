@@ -31,8 +31,8 @@ The inversion check: if you are holding a reading and asking "what outcome fits 
 2. **Name the mechanism, not just the claim.** "Explain why misaligned AI is dangerous" is weak; "Explain why a capable AI optimizing for resource-intensive goals can eliminate humanity *without hostile intent, as a byproduct of its own objectives*" pins the actual reasoning move the student must make. Precision beats brevity — a long statement that pins one skill exactly is better than a short vague one. The strongest form is situated: "Given ⟨an unfamiliar case⟩, the learner can ⟨do X⟩, identify the assumptions required, and name a case where it does not apply."
 3. **Apply the two checks** (from *Design for How People Learn*, Julie Dirksen):
    - Is this something the learner would actually do in the real world (explain to a skeptic, evaluate a proposal, spot the flaw in an argument)?
-   - Can I tell when they've done it?{++{"author":"Elias's AI","timestamp":1785944824535}@@
-   - Could someone become proficient at this without practice? If not, the lenses must contain practice with feedback, not just reading.++}
+   - Can I tell when they've done it?
+   - Could someone become proficient at this without practice? If not, the lenses must contain practice with feedback, not just reading.
 
 ## Scope: one skill per file
 
