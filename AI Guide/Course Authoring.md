@@ -11,7 +11,7 @@ Each lens is rendered as a separate page. They contain the actual learning conte
 
 Each learning outcomes (see [[Writing Learning Outcomes]]) define one testable skill and a set of tests, the platform uses to measure it (the test renders at the end of the module or submodule that declares the outcome). Lenses draw their reading material from **articles** and **video transcripts** stored alongside. (see [[Writing Articles.md]])
 
-Changes sync to https://staging.lensacademy.org within seconds; Only core team members ca to production (https://lensacademy.org) manually.
+Changes sync to https://staging.lensacademy.org within seconds; Only core team members can push to production (https://lensacademy.org).
 
 ## The document model
 
