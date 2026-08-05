@@ -11,7 +11,6 @@ Modules live in `modules/`.
 slug: example-module              # required — how courses reference the module
 title: "Example Module Name"      # required
 contentId: <uuid>                 # the module's stable UUID (`id` works as an alias)
-discussion: https://discord.com/channels/...   # author metadata — the platform ignores it
 add_to_ai_context:                # tutor context for the whole module
   - "[[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]"
 ---
