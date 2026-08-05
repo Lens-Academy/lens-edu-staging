@@ -20,7 +20,7 @@ tags: [course-name]
 discussion: https://discord.com/channels/...
 ---
 # Submodule: Welcome        %← groups following sections under a heading%
-# Lens: Welcome             %← inline lens: id:: + segments directly here%
+# Lens: Welcome             %← inline lens%
 id:: <uuid>
 #### Text
 content:: Welcome to the course...
