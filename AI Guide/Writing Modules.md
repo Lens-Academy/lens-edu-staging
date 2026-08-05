@@ -22,7 +22,7 @@ content:: Welcome to the course...
 
 # Submodule: Ch1 - Introduction
 # Learning Outcome
-source:: [[../Learning Outcomes/Intelligence as prediction plus steering]]
+source:: [[../Learning Outcomes/outcome name]]
 
 # Lens: Optional Deep Dive            ← referenced lens
 source:: [[../Lenses/Some Lens]]
