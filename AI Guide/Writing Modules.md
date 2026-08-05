@@ -19,7 +19,7 @@ description: "Shown on the course page."
 tags: [course-name]
 discussion: https://discord.com/channels/...
 ---
-# Submodule: Welcome                  %← groups following sections under a heading%
+# Submodule: Welcome        %← groups following sections under a heading%
 # Lens: Welcome                       ← inline lens: id:: + segments directly here
 id:: <uuid>
 #### Text
