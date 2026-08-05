@@ -37,7 +37,7 @@ hide:: true                           ← hidden from the module page (requires 
 
 ## Creation flow
 1. Deeply think about/discuss with the user what exactly you want to teach in a given module/submodule and create LOs based on this (see [[Writing Learning Outcomes]])
-2. Based on the agreed learning outcomes, find articles/videos/exercises that can be used to teach this (if the user tells you to do it by yourself, use multiple subagents to come up with possibilities and others to criticize them until you are certain what)
+2. Based on the agreed learning outcomes, find articles/videos/exercises that can be used to teach this (if the user tells you to do it by yourself, use multiple subagents to come up with possibilities and others to criticize them until you are certain what you have is the best pos)
 
 ## Recommended patterns
 - Before presenting a reading/video, ask one or multiple pre-reading primer questions in a separate lens.
