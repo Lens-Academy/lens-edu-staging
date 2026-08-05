@@ -21,7 +21,7 @@ id:: <uuid>
 content:: Welcome to the course...
 
 # Submodule: Ch1 - Introduction
-# Learning Outcome:{--{"author":"Elias's AI","timestamp":1785937450039}@@ Intelligence as prediction plus steering--}{++{"author":"Elias's AI","timestamp":1785937450039}@@                   ← title after the colon is ignored for imports; the outcome's filename is what learners see++}
+# Learning Outcome: Intelligence as prediction plus steering
 source:: ![[../Learning Outcomes/Intelligence as prediction plus steering]]
 
 # Lens: Optional Deep Dive            ← referenced lens
