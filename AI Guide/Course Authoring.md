@@ -19,7 +19,7 @@ Every content file is markdown with two kinds of structure: YAML frontmatter on 
 
 ## Rules that apply everywhere
 
-- Never use em dashes anywhere!
+- Don't use em dashes!
 - **Escape headings inside field values.** A line starting with `#`–`####` inside a multi-line `content::`/`instructions::` value is parsed as a new section boundary and silently truncates the field. Escape it: `\## Phase 1: Recall`
 - **Wikilinks are relative** to the referencing file and must contain a `/`. (`source:: [[../articles/name]]`, `source:: [[../Lenses/Name]]`).
 - **IDs are UUIDs** (lowercase v4, generate with `uuidgen | tr A-Z a-z`). Every lens, learning outcome, module, test, and inline lens needs its own. Quote them in frontmatter (`id: 'a1b2...'`) so YAML never mangles them; never reuse or invent non-UUID ids.
