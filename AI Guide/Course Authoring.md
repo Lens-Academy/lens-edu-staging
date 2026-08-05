@@ -27,7 +27,7 @@ Every content file is markdown with two kinds of structure: YAML frontmatter on 
 - **Comments**: `%% ... %%` (Obsidian) and `{>>{"author":"Elias's AI","timestamp":1785489958756}@@...<<}` (CriticMarkup) are stripped before parsing — safe for author notes anywhere.
 - **`add_to_ai_context`** injects source material (e.g. chapter text from a private folder) into the AI tutor's context — use it whenever the tutor must discuss a text the student read elsewhere. Allowed on a lens (scopes to that lens), module frontmatter (whole module), or a `# Submodule:` marker (that submodule — the natural home for per-chapter book content). On a learning outcome it is a validation error.
 
-## Validation
+{--{"author":"Elias's AI","timestamp":1785934742862}@@## Validation
 
 Errors you'll actually hit:
 
@@ -38,4 +38,4 @@ Errors you'll actually hit:
 - Unescaped heading inside `content::`/`instructions::` (truncates the field; warning suggests escaping).
 - Content before the first section header in a body (ignored, flagged).
 - `hide:: true` without `optional:: true`; module reference cycles; `tldr` over 80 words; production file referencing a `wip`-tagged file.
-
+--}
