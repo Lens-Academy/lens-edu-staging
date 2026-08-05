@@ -6,11 +6,7 @@ tags:
 
 Modules live in `modules/`.
 
-{--{"author":"Elias's AI","timestamp":1785937159142}@@Frontmatter: required `slug`, `title`; optional `id`, `contentId`, `discussion`, `tags`, `add_to_ai_context`.
-
-Body = H1 sections:
-
---}```markdown
+```markdown
 ---
 {--{"author":"Elias's AI","timestamp":1785937159461}@@id: <uuid>                        # required
 --}slug: example-module              # required{++{"author":"Elias's AI","timestamp":1785937159461}@@ — how courses reference the module++}
