@@ -4,7 +4,7 @@ tags:
 ---
 # Writing Learning Outcomes (AI Guide)
 
-Canonical example: `Lens Edu/Learning Outcomes/Indifference, not malice.md`.
+Canonical example: `Lens Edu/Learning Outcomes/Indifference, not malice.md`. [[i]]
 
 ## What a learning outcome is (and isn't)
 
