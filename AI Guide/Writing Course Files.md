@@ -23,4 +23,4 @@ discussion: https://discord.com/channels/...
 Optional frontmatter: `slug-aliases`, `partner-name`, `partner-logo`, `partner-logo-small`, `partner-url`.
 
 - The body is only `# Module:` wikilink refs and `# Meeting: <name>` markers, in learner order.
-- There is no "Week" structure — meetings are the rhythm markers; everything between two meetings belongs to one meeting's preparation.
+- Everything between two meetings belongs to one meeting's preparation.
