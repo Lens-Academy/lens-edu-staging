@@ -13,7 +13,7 @@ Each learning outcomes (see [[Writing Learning Outcomes]]) define one testable s
 
 ## The document model
 
-Every content file is markdown with two kinds of structure: YAML frontmatter on top (file-level metadata, `key: value`) and a body of nested headings. A heading's section can carry its own metadata as `key:: value` lines under it — a value runs until the next `key::` or heading; duplicate keys in one section are an error. Unknown frontmatter fields are tolerated — metadata like `authors:` in real files is fine, don't remove it — but the platform only acts on documented fields.
+Every content file is markdown with two kinds of structure: YAML frontmatter on top (file-level metadata, `key: value`) and a body of nested headings. A heading's section can carry its own metadata as `key:: value` lines under it — a value runs until the next `key::` or heading; duplicate keys in one section are an error. Unknown frontmatter fields are tolerated, but the platform only acts on documented fields.
 
 ## Rules that apply everywhere
 
