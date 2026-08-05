@@ -15,13 +15,13 @@ Things that are **not** learning outcomes:
 - **A topic.** "Feedback loops are accelerating civilization" names an area of content; it doesn't say what the student can do with it. Convert it: what question about this topic should the student be able to answer, and to what depth?
 - **A learning objective.** The instructor's purpose for teaching ("get students engaged with AI safety") belongs to the theory of change. If it matters, find the observable behavior that would show it happened and write *that* as the outcome.
 - **An activity.** "Read chapter 3" is what the student does on the way, not what they can do afterwards.
-- **A reading's takeaway.** An outcome reverse-engineered from an assigned text ("understands what chapter 2 argues") is a comprehension check, not a skill {--{"author":"Elias's AI","timestamp":1785958070228}@@— see--}{++{"author":"Elias's AI","timestamp":1785958070228}@@(see++} the next section).
+- **A reading's takeaway.** An outcome reverse-engineered from an assigned text ("understands what chapter 2 argues") is a comprehension check, not a skill (see the next section).
 
 ## Where outcomes come from
 
 Work backward from real-world performance, never forward from content:
 
-1. Start from what someone contributing to AI safety must be able to {--{"author":"Elias's AI","timestamp":1785958070228}@@do —--}{++{"author":"Elias's AI","timestamp":1785958070228}@@do:++} the skill-tree topic or the contribution-role requirement the course serves.
+1. Start from what someone contributing to AI safety must be able to do: the skill-tree topic or the contribution-role requirement the course serves.
 2. Write the outcome statement, then its test, then the practice that prepares for the test.
 3. Only then pick or commission the readings and lenses. They are teaching routes to the outcome, chosen for {--{"author":"Elias's AI","timestamp":1785958070228}@@it —--}{++{"author":"Elias's AI","timestamp":1785958070228}@@it,++} not the source of it.
 
