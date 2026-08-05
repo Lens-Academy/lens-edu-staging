@@ -14,7 +14,7 @@ Body = H1 sections:
 ---
 id: <uuid>                        # optional
 slug: ai-risk-fundamentals        # required
-title: "AI Risk Fundamentals"     # required
+title: "Example Module Na"     # required
 description: "Shown on the course page."
 tags: [IABIED]
 discussion: https://discord.com/channels/...
