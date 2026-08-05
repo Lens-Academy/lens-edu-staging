@@ -13,11 +13,7 @@ Each learning outcomes (see [[Writing Learning Outcomes]]) define one testable s
 
 ## The document model
 
-Every content file is markdown with two kinds of structure: YAML frontmatter on top (file-level metadata, `key: value`) and a body of nested headings. A heading's section can carry its own metadata as `key:: value` lines under it —{--{"author":"Elias's AI","timestamp":1785926657210}@@ required: `id`, `content`, `ai-instructions`. Optional: `opening-message`, `assessment-instructions`, `user-customizable`, `feedback`, `optional`.
-
-Boolean fields take literal `true`/`false`. Defaults: `optional` false; `feedback` true on questions, false on roleplays; `hidePreviousContent*` false.
-
-**Text** — prose shown to --}{++{"author":"Elias's AI","timestamp":1785926657210}@@ a value runs until ++}the {--{"author":"Elias's AI","timestamp":1785926657210}@@learner. `content::` is markdown; escape any headings (`\##`).
+Every content file is markdown with two kinds of structure: YAML frontmatter on top (file-level metadata, `key: value`) and a body of nested headings. A heading's section can carry its own metadata as `key:: value` lines under it — a value runs until the {--{"author":"Elias's AI","timestamp":1785926657210}@@learner. `content::` is markdown; escape any headings (`\##`).
 
 **Chat** — open AI-tutor discussion. `instructions::` briefs the tutor (topics to explore, persona, boundaries).
 
