@@ -2,7 +2,7 @@
 tags:
   - validator-ignore
 ---
-%% Curators: this file is returned verbatim on every MCP create_session call. Keep it a short {--{"author":"Elias's AI","timestamp":1785958070882}@@router —--}{++{"author":"Elias's AI","timestamp":1785958070882}@@router;++} details belong in the other AI Guide files. %%
+%% Curators: this file is returned verbatim on every MCP create_session call. Keep it a short router; details belong in the other AI Guide files. %%
 
 The `Lens Edu` folder holds Lens Academy's course content
 
