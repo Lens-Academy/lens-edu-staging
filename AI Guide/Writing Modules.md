@@ -36,6 +36,7 @@ hide:: true                           ← hidden from the module page (requires 
 
 ## Recommended pattern
 
+- 
 - Before presenting a reading, ask one or multiple pre-reading primer questions in a separate lens that help the   in front of a  before , see `Writing Lenses.md`) → main reading lens → `# Learning Outcome:` ref. One outcome is usually taught by several lenses — list them all before the ref.
 - Optional `- QA -` lenses hold depth for curious learners: link them via `::card` footers inside the main lens instead of adding them to the module path.
 - Alternative candidate lenses live in the outcome's `# Suggested Lenses:` section — author hints only, never part of the learner path.
