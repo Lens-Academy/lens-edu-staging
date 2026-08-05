@@ -13,9 +13,9 @@ Things that are **not** learning outcomes:
 - **A topic.** "Feedback loops are accelerating civilization" names an area of content; it doesn't say what the student can do with it. Convert it: what question about this topic should the student be able to answer, and to what depth?
 - **A learning objective.** The instructor's purpose for teaching ("get students engaged with AI safety") belongs to the theory of change. If it matters, find the observable behavior that would show it happened and write *that* as the outcome.
 - **An activity.** "Read chapter 3" is what the student does on the way, not what they can do afterwards.
-- **A reading's takeaway.** An outcome reverse-engineered from an assigned text ("understands what chapter 2 argues") is a comprehension check, not a skill — see the {--{"author":"Elias's AI","timestamp":1785944823559}@@learner be able to do or understand after the course? — then pick or write the content that teaches them, never the other way around.--}{++{"author":"Elias's AI","timestamp":1785944823559}@@next section.++}
+- **A reading's takeaway.** An outcome reverse-engineered from an assigned text ("understands what chapter 2 argues") is a comprehension check, not a skill — see the next section.
 
-## {++{"author":"Elias's AI","timestamp":1785944823929}@@Where outcomes come from
+## Where outcomes come from
 
 Work backward from real-world performance, never forward from content:
 
@@ -25,7 +25,7 @@ Work backward from real-world performance, never forward from content:
 
 The inversion check: if you are holding a reading and asking "what outcome fits this?", you are inverted. Write the capability first, then judge whether that reading actually teaches it.
 
-## ++}Writing the statement
+## Writing the statement
 
 1. **Start with an action verb.** Explain, Distinguish, Identify, Compare, Analyze, Evaluate, Apply, Recognize. Avoid "understand", "know", "appreciate", "be familiar with" — you can't tell from the outside whether someone understands; you can tell whether they can explain.
 2. **Name the mechanism, not just the claim.** "Explain why misaligned AI is dangerous" is weak; "Explain why a capable AI optimizing for resource-intensive goals can eliminate humanity *without hostile intent, as a byproduct of its own objectives*" pins the actual reasoning move the student must make. Precision beats brevity — a long statement that pins one skill exactly is better than a short vague one.{++{"author":"Elias's AI","timestamp":1785944824258}@@ The strongest form is situated: "Given ⟨an unfamiliar case⟩, the learner can ⟨do X⟩, identify the assumptions required, and name a case where it does not apply."++}
