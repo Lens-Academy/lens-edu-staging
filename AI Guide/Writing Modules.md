@@ -33,6 +33,7 @@ hide:: true                           ← hidden from the module page (requires 
 - Submodules are optional ways to further structure modules into sensible chunks
 - Learning outcomes should be linked at the top of a (sub-)module. Their test is rendered at the end of it.
 - A `# Lens:` section has either `source::` (referenced) or `id::` + segments (inline) — not both. Segment syntax: [[Writing Lenses]].
+- Referencing a learning outcome imports **only its test** — list the lenses that teach it explicitly, before the `# Learning Outcome:` ref.
 
 ## Sequencing that works
 
