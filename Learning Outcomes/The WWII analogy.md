@@ -2,7 +2,7 @@
 id: e7f2a831-4c65-4b9d-a023-8d1f6e2c7b34
 learning-outcome: "Explain how the chapter's WWII analogy responds to the objection that coordinating major powers on AI restriction is politically impossible: what specific feature of the WWII precedent does the chapter invoke, and what claim about human motivation does it rely on?"
 reading-from: "beginning of chapter"
-reading-to: "But we don't know how else humanity could {--{"author":"Elias's AI","timestamp":1785943707960}@@survive."--}{++{"author":"Elias's AI","timestamp":1785943707960}@@survive. (second occurrence, after the WWII paragraph)"++}
+reading-to: {--{"author":"Elias's AI","timestamp":1785943936533}@@"But--}{++{"author":"Elias's AI","timestamp":1785943936533}@@"…as was also true about World War II. But++} we don't know how else humanity could {--{"author":"Elias's AI","timestamp":1785943936533}@@survive."--}{++{"author":"Elias's AI","timestamp":1785943936533}@@survive."++}
 authors:
   - Chris+Claude
 domain: "[[../Domains/Governance and Policy]]"
