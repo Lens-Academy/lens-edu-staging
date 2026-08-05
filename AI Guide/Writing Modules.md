@@ -22,15 +22,15 @@ content:: Welcome to the course...
 
 # Submodule: Ch1 - Introduction
 # Learning Outcome
-source:: ![[../Learning Outcomes/Intelligence as prediction plus steering]]
+source:: {--{"author":"Elias's AI","timestamp":1785937593252}@@![[../Learning--}{++{"author":"Elias's AI","timestamp":1785937593252}@@[[../Learning++} Outcomes/Intelligence as prediction plus steering]]
 
 # Lens: Optional Deep Dive            ← referenced lens
-source:: ![[../Lenses/Some Lens]]
+source:: {--{"author":"Elias's AI","timestamp":1785937593551}@@![[../Lenses/Some--}{++{"author":"Elias's AI","timestamp":1785937593551}@@[[../Lenses/Some++} Lens]]
 optional:: true                       ← learner may skip
 hide:: true                           ← hidden from the module page (requires optional:: true)
 ```
 
-- A `# Lens:` section has either `source::` (referenced) or `id::` + segments (inline) — not both. Segment syntax: `Lens Edu/AI Guide/Writing Lenses.md`.
+	- A `# Lens:` section has either `source::` (referenced) or `id::` + segments (inline) — not both. Segment syntax: [[writing]].
 - **Learning outcome {--{"author":"Elias's AI","timestamp":1785936643820}@@placement (processor ≥0.19.1):**--}{++{"author":"Elias's AI","timestamp":1785936643820}@@placement:**++} declare outcomes first. A `# Learning Outcome:` *before* the first `# Submodule:` is module-level: the platform renders its test at the end of the module as an auto-generated "Test Your Understanding" entry (one outcome → a directly-openable row; several → one expandable submodule). A learning outcome *after* a `# Submodule:` marker (H1 or as an H2 child) belongs to that submodule — declare it before the lenses; its test renders at the end of that submodule regardless of where it is written.{--{"author":"Elias's AI","timestamp":1785936644143}@@ A dedicated `# Submodule: Test Your Understanding` wrapper is no longer needed, and combining one with module-level outcomes is a validation error.--}
 - A `# Submodule:` marker may carry `add_to_ai_context:: [[wikilink]]` (one or more {--{"author":"Elias's AI","timestamp":1785936644495}@@`[[...]]`) — that content is added to the AI tutor's context for every lens and test in the submodule. Use this for per-chapter source material (module-level covers the whole module; submodule-level scopes to one chapter).--}{++{"author":"Elias's AI","timestamp":1785936644495}@@`[[...]]`).++}
 - Referencing a learning outcome imports **only its test** — list the lenses that teach it explicitly, before the `# Learning Outcome:` ref.
