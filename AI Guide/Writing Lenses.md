@@ -4,7 +4,7 @@ tags:
 ---
 # Writing Lenses (AI Guide)
 
-A lens (`Lenses/<Name>.md`) is {--{"author":"Elias's AI","timestamp":1785936646231}@@the actual learning content: --}a **flat file** of frontmatter + `####` {--{"author":"Elias's AI","timestamp":1785936646231}@@segments. No--}{++{"author":"Elias's AI","timestamp":1785936646231}@@segments — no++} H1–H3 structure, and segment headers take no title {--{"author":"Elias's AI","timestamp":1785936646231}@@(`#### Text: Intro` is an error — the--}{++{"author":"Elias's AI","timestamp":1785936646231}@@(the++} lens title lives in frontmatter).{--{"author":"Elias's AI","timestamp":1785926657594}@@ Segment syntax (the 6 types — Text, Chat, Article, Video, Question, Roleplay — and their fields): `Lens Edu/AI Guide/Course Authoring.md`.--}
+A lens (`Lenses/<Name>.md`) is a **flat file** of frontmatter + `####` segments — no H1–H3 structure, and segment headers take no title (the lens title lives in frontmatter).
 
 Frontmatter: required `id`; optional `title`, `tldr` (one-sentence takeaway, ≤80 words — speaks to the learner; an analogy beats a summary: "Like a parent who knows how babies are made but not what the baby will become"), `summary_for_tutor` (AI-facing: what the lens teaches and how its parts sequence), `tags`, `min_chat_messages` (0–20, gates progression on chat participation), `add_to_ai_context` (injects source material into the tutor's context — use when the tutor must discuss a text the student read elsewhere).
 
@@ -62,7 +62,7 @@ All three share a house style: state who the student is and what they just did; 
 
 ## The pre-reading question (PQ) lens
 
-Before a heavy reading, a tiny lens primes the intuition the chapter will challenge — one `#### Question`, no reading. Its brief is deliberately minimal: acknowledge in 1–2 sentences, **do not** preview the chapter's argument, close by sending them to the reading. Named `<Topic> - PQ`, listed in the module as the `# Lens:` immediately before the main reading lens. See `Lens Edu/Lenses/IABIED - Indifference Not Malice - PQ.md`.{++{"author":"Elias's AI","timestamp":1785926657895}@@
+Before a heavy reading, a tiny lens primes the intuition the chapter will challenge — one `#### Question`, no reading. Its brief is deliberately minimal: acknowledge in 1–2 sentences, **do not** preview the chapter's argument, close by sending them to the reading. Named `<Topic> - PQ`, listed in the module as the `# Lens:` immediately before the main reading lens. See `Lens Edu/Lenses/IABIED - Indifference Not Malice - PQ.md`.
 
 ## The 6 segment types
 
@@ -93,5 +93,5 @@ Defaults: `optional` false; `feedback` true on questions, false on roleplays; `h
 
 **Roleplay** — learner talks with a persona defined in `ai-instructions::`; `content::` sets the scene for the learner, `opening-message::` is the persona's first line.
 
-**Resource cards:** inside a `content::` value, `::card[[../Lenses/Name]]` followed by a `> blockquote` description renders a linked card — used for "Additional resources" footers.++}
+**Resource cards:** inside a `content::` value, `::card[[../Lenses/Name]]` followed by a `> blockquote` description renders a linked card — used for "Additional resources" footers.
 
