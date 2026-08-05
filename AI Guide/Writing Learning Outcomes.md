@@ -23,7 +23,7 @@ Work backward from real-world performance, never forward from content:
 
 1. Start from what someone contributing to AI safety must be able to do: the skill-tree topic or the contribution-role requirement the course serves.
 2. Write the outcome statement, then its test, then the practice that prepares for the test.
-3. Only then pick or commission the readings and lenses. They are teaching routes to the outcome, chosen for {--{"author":"Elias's AI","timestamp":1785958070228}@@it —--}{++{"author":"Elias's AI","timestamp":1785958070228}@@it,++} not the source of it.
+3. Only then pick or commission the readings and lenses. They are teaching routes to the outcome, chosen for it, not the source of it.
 
 The inversion check: if you are holding a reading and asking "what outcome fits this?", you are inverted. Write the capability first, then judge whether that reading actually teaches it.
 
