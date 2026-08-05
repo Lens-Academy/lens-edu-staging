@@ -32,7 +32,7 @@ The inversion check: if you are holding a reading and asking "what outcome fits 
 3. **Apply the checks:**
    - Is this something the learner would actually do in the real world (explain to a skeptic, evaluate a proposal, spot the flaw in an argument)?
    - Can I tell when they've done it?
-   - Could someone become proficient at this without practice? If not, the lenses must contain practice with feedback, not just reading.
+   - Could someone become proficient at this without practice? If not, the lenses must contain practice with feedback, not just reading.{>>{"author":"Luc","timestamp":1785962350939}@@I know what book this comes from, and I think it's potentially good, but it requires more context if we want to use it here<<}
 
 ## Scope: one skill per file
 
