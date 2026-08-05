@@ -15,7 +15,7 @@ Each learning outcomes (see [[Writing Learning Outcomes]]) define one testable s
 
 Frontmatter is standard YAML. Body fields use `key:: value`; a value continues until the next `key::` or heading, and duplicate keys in one section are an error. Unknown frontmatter fields are tolerated.
 
-## --}The {--{"author":"Elias's AI","timestamp":1785926657210}@@6 segment types--}{++{"author":"Elias's AI","timestamp":1785926657210}@@document model++}
+## --}The document model
 
 {--{"author":"Elias's AI","timestamp":1785926657210}@@Segments are the `####` blocks inside a lens (and inside a Learning Outcome's `## Test:`). Segment headers take no title (`#### Text: Intro` --}{++{"author":"Elias's AI","timestamp":1785926657210}@@Every content file ++}is {--{"author":"Elias's AI","timestamp":1785926657210}@@an error).
 
