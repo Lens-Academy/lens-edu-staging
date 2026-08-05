@@ -64,7 +64,7 @@ The dominant defects in existing outcomes are recall tests and leading prompts. 
 
 ## File syntax
 
-The filename is the learner-visible skill name (modules and the skill tree display {--{"author":"Elias's AI","timestamp":1785958733701}@@it): name it like--}{++{"author":"Elias's AI","timestamp":1785958733701}@@it). Conventions (settled in `Lens/Learning Outcome Short-Name Proposal.md`):++} a {--{"author":"Elias's AI","timestamp":1785958733701}@@capability, short ("Goodharting Level 1"),--}{++{"author":"Elias's AI","timestamp":1785958733701}@@short noun phrase, 2 to 6 words, sentence case; the verb lives in the outcome statement,++} not {--{"author":"Elias's AI","timestamp":1785958733701}@@like an essay or chapter title.--}{++{"author":"Elias's AI","timestamp":1785958733701}@@the title; no course prefixes (outcomes are course-agnostic); unique across the folder.++}
+The filename is the learner-visible skill name (modules and the skill tree display it). Conventions (settled in `Lens/Learning Outcome Short-Name Proposal.md`): a short noun phrase, 2 to 6 words, sentence case; the verb lives in the outcome statement, not the title; no course prefixes (outcomes are course-agnostic); unique across the folder.
 
 ```markdown
 ---
@@ -88,6 +88,7 @@ source:: [[../Lenses/My Topic]]
 
 - A Test may only contain question/roleplay segments; anything else is flagged and would be silently dropped. Their field syntax: `Lens Edu/AI Guide/Writing Lenses.md` ("The 6 segment types").
 - Suggested lenses are **author-facing candidates only**: the platform never imports them; the module lists its teaching lenses explicitly, before the `# Learning Outcome:` ref. Zero-suggestion outcomes are valid.
+- Skill-tree frontmatter is rolling out per `Lens/Learning Outcome Domain and Stage Proposal.md`: `domain:` (one of the 15 domains in `Lens/AI Safety Skill Taxonomy - Canonical Working Inventory.md`), `stage:` (Beginner, Intermediate, or Advanced), `requires:` (sparse; only genuine prerequisites, since they gate locked status). Set them on new outcomes.
 
 ## {--{"author":"Elias's AI","timestamp":1785944825813}@@Artifact and state outcomes
 
