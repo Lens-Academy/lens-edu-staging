@@ -66,7 +66,7 @@ notes:: <optional author note about this suggestion>
 source:: [[../Lenses/My Topic]]
 ```
 
-- A Test may only contain question/roleplay segments — anything else is flagged and would be silently dropped.
+- A Test may only contain question/roleplay segments — anything else is flagged and would be silently dropped.{++{"author":"Elias's AI","timestamp":1785926658187}@@ Their field syntax: `Lens Edu/AI Guide/Writing Lenses.md` ("The 6 segment types").++}
 - Suggested lenses are **author-facing candidates only** — the platform never imports them; the module lists its teaching lenses explicitly, before the `# Learning Outcome:` ref. Zero-suggestion outcomes are valid.
 - Errors to avoid: a `## Lens:` outside the `# Suggested Lenses:` header; a `## Test:` nested under it (must sit above); any `Submodule:` section (structure lives in the module file).
 

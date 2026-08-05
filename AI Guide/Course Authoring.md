@@ -11,13 +11,13 @@ Each lens is rendered as a separate page. They contain the actual learning conte
 
 Each learning outcomes (see [[Writing Learning Outcomes]]) define one testable skill and a set of tests, the platform uses to measure it (the test renders at the end of the module or submodule that declares the outcome). Lenses draw their reading material from **articles** and **video transcripts** stored alongside. (see [[Writing Articles.md]])
 
-## Field syntax
+## {--{"author":"Elias's AI","timestamp":1785926657210}@@Field syntax
 
 Frontmatter is standard YAML. Body fields use `key:: value`; a value continues until the next `key::` or heading, and duplicate keys in one section are an error. Unknown frontmatter fields are tolerated.
 
-## The 6 segment types
+## --}The {--{"author":"Elias's AI","timestamp":1785926657210}@@6 segment types--}{++{"author":"Elias's AI","timestamp":1785926657210}@@document model++}
 
-Segments are the `####` blocks inside a lens (and inside a Learning Outcome's `## Test:`). Segment headers take no title (`#### Text: Intro` is an error).
+{--{"author":"Elias's AI","timestamp":1785926657210}@@Segments are the `####` blocks inside a lens (and inside a Learning Outcome's `## Test:`). Segment headers take no title (`#### Text: Intro` --}{++{"author":"Elias's AI","timestamp":1785926657210}@@Every content file ++}is {--{"author":"Elias's AI","timestamp":1785926657210}@@an error).
 
 Fields per segment:
 
@@ -26,25 +26,25 @@ Fields per segment:
 - `#### Article` — none required. Optional: `source`, `from`, `to`, `optional`.
 - `#### Video` — none required. Optional: `source`, `from`, `to`, `optional`.
 - `#### Question` — required: `content`. Optional: `assessment-instructions`, `max-time`, `max-chars`, `enforce-voice`, `feedback`, `optional`.
-- `#### Roleplay` — required: `id`, `content`, `ai-instructions`. Optional: `opening-message`, `assessment-instructions`, `user-customizable`, `feedback`, `optional`.
+- `#### Roleplay` --}{++{"author":"Elias's AI","timestamp":1785926657210}@@markdown with two kinds of structure: YAML frontmatter on top (file-level metadata, `key: value`) and a body of nested headings. A heading's section can carry its own metadata as `key:: value` lines under it ++}—{--{"author":"Elias's AI","timestamp":1785926657210}@@ required: `id`, `content`, `ai-instructions`. Optional: `opening-message`, `assessment-instructions`, `user-customizable`, `feedback`, `optional`.
 
-{--{"author":"Elias's AI","timestamp":1785763849608}@@Boolean fields take literal `true`/`false`. --}Defaults: `optional` false; `feedback` true on questions, false on roleplays; `hidePreviousContent*` false.
+Boolean fields take literal `true`/`false`. Defaults: `optional` false; `feedback` true on questions, false on roleplays; `hidePreviousContent*` false.
 
-**Text** — prose shown to the learner. `content::` is markdown; escape any headings (`\##`).
+**Text** — prose shown to --}{++{"author":"Elias's AI","timestamp":1785926657210}@@ a value runs until ++}the {--{"author":"Elias's AI","timestamp":1785926657210}@@learner. `content::` is markdown; escape any headings (`\##`).
 
 **Chat** — open AI-tutor discussion. `instructions::` briefs the tutor (topics to explore, persona, boundaries).
 
-**Article** — embeds an excerpt of an `articles/` file. `from::`/`to::` are exact text anchors quoted from the article ("start here", "stop here"). **Both anchors are inclusive:** the excerpt contains the text matched by `from::` and the text matched by `to::` (this is not a half-open range). Each anchor is independent — only `from::` reads to the end, only `to::` reads from the start, neither embeds the whole article. Text outside the excerpt is shown collapsed, so anchors need only bracket the assigned part. Anchors must match the article file character-exactly (watch curly quotes) — copy them from the stored article via `read`, never from a summarizing web fetch.
+**Article** — embeds an excerpt of an `articles/` file. `from::`/`to::`--}{++{"author":"Elias's AI","timestamp":1785926657210}@@next `key::` or heading; duplicate keys in one section++} are{--{"author":"Elias's AI","timestamp":1785926657210}@@ exact text anchors quoted from the article ("start here", "stop here"). **Both anchors are inclusive:** --}{++{"author":"Elias's AI","timestamp":1785926657210}@@ an error. That's ++}the {--{"author":"Elias's AI","timestamp":1785926657210}@@excerpt contains the text matched by `from::` and the text matched by `to::` (this is not --}{++{"author":"Elias's AI","timestamp":1785926657210}@@whole format: ++}a{--{"author":"Elias's AI","timestamp":1785926657210}@@ half-open range). Each anchor--}{++{"author":"Elias's AI","timestamp":1785926657210}@@ course body++} is{--{"author":"Elias's AI","timestamp":1785926657210}@@ independent — only `from::` reads to the end, only `to::` reads from the start, neither embeds the whole article. Text outside the excerpt--}{++{"author":"Elias's AI","timestamp":1785926657210}@@ `# Module:` / `# Meeting:` headings; a module body++} is {--{"author":"Elias's AI","timestamp":1785926657210}@@shown collapsed, so anchors need only bracket the assigned part. Anchors must match the article file character-exactly (watch curly quotes) — copy them from the stored article via `read`, never from a summarizing web fetch.
 
-**Video** — same idea for `video_transcripts/` files; `from::`/`to::` are timestamps (`M:SS` or `H:MM:SS`), `from::` defaults to `0:00`, `to::` to the end.
+**Video** — same idea for `video_transcripts/` files; `from::`/`to::`--}{++{"author":"Elias's AI","timestamp":1785926657210}@@`# Submodule:` / `# Lens:` / `# Learning Outcome:` sections whose `source::` / `id::` lines++} are{--{"author":"Elias's AI","timestamp":1785926657210}@@ timestamps (`M:SS` or `H:MM:SS`), `from::` defaults to `0:00`, `to::` to the end.
 
-**Source inheritance:** the first Article (or Video) segment in a lens must have `source::`; later segments of the same type inherit the previous source, so a multi-excerpt reading is several `#### Article` blocks with only `from::`/`to::`.
+**Source inheritance:** the first Article (or Video) segment in --}{++{"author":"Elias's AI","timestamp":1785926657210}@@ section metadata; ++}a lens {--{"author":"Elias's AI","timestamp":1785926657210}@@must have `source::`; later segments of the same type inherit the previous source, so a multi-excerpt reading --}{++{"author":"Elias's AI","timestamp":1785926657210}@@body ++}is {--{"author":"Elias's AI","timestamp":1785926657210}@@several --}`####{--{"author":"Elias's AI","timestamp":1785926657210}@@ Article` blocks with only `from::`/`to::`.
 
 **Question** — learner writes/dictates an answer, the AI responds per `assessment-instructions::`. `max-time:: 3:00` (or `none`), `max-chars`, `enforce-voice:: true` for spoken answers, `feedback:: false` to record without AI response.
 
-**Roleplay** — learner talks with a persona defined in `ai-instructions::`; `content::` sets the scene for the learner, `opening-message::` is the persona's first line.
+**Roleplay** --}{++{"author":"Elias's AI","timestamp":1785926657210}@@ <segment>` sections whose fields are `::` lines. Unknown frontmatter fields are tolerated ++}— {--{"author":"Elias's AI","timestamp":1785926657210}@@learner talks with a persona defined --}{++{"author":"Elias's AI","timestamp":1785926657210}@@metadata like `authors:` ++}in{--{"author":"Elias's AI","timestamp":1785926657210}@@ `ai-instructions::`; `content::` sets the scene for the learner, `opening-message::`--}{++{"author":"Elias's AI","timestamp":1785926657210}@@ real files++} is{--{"author":"Elias's AI","timestamp":1785926657210}@@ the persona's first line.
 
-**Resource cards:** inside a `content::` value, `::card[[../Lenses/Name]]` followed by a `> blockquote` description renders a linked card — used for "Additional resources" footers.
+**Resource cards:** inside a `content::` value, `::card[[../Lenses/Name]]` followed by a `> blockquote` description renders a linked card — used for "Additional resources" footers.--}{++{"author":"Elias's AI","timestamp":1785926657210}@@ fine, don't remove it — but the platform only acts on documented fields.++}
 
 ## Rules that apply everywhere
 

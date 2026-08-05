@@ -4,7 +4,7 @@ tags:
 ---
 # Writing Lenses (AI Guide)
 
-A lens (`Lenses/<Name>.md`) is the actual learning content: a **flat file** of frontmatter + `####` segments. No H1–H3 structure, and segment headers take no title (`#### Text: Intro` is an error — the lens title lives in frontmatter). Segment syntax (the 6 types — Text, Chat, Article, Video, Question, Roleplay — and their fields): `Lens Edu/AI Guide/Course Authoring.md`.
+A lens (`Lenses/<Name>.md`) is the actual learning content: a **flat file** of frontmatter + `####` segments. No H1–H3 structure, and segment headers take no title (`#### Text: Intro` is an error — the lens title lives in frontmatter).{--{"author":"Elias's AI","timestamp":1785926657594}@@ Segment syntax (the 6 types — Text, Chat, Article, Video, Question, Roleplay — and their fields): `Lens Edu/AI Guide/Course Authoring.md`.--}
 
 Frontmatter: required `id`; optional `title`, `tldr` (one-sentence takeaway, ≤80 words — speaks to the learner; an analogy beats a summary: "Like a parent who knows how babies are made but not what the baby will become"), `summary_for_tutor` (AI-facing: what the lens teaches and how its parts sequence), `tags`, `min_chat_messages` (0–20, gates progression on chat participation), `add_to_ai_context` (injects source material into the tutor's context — use when the tutor must discuss a text the student read elsewhere).
 
@@ -62,5 +62,36 @@ All three share a house style: state who the student is and what they just did; 
 
 ## The pre-reading question (PQ) lens
 
-Before a heavy reading, a tiny lens primes the intuition the chapter will challenge — one `#### Question`, no reading. Its brief is deliberately minimal: acknowledge in 1–2 sentences, **do not** preview the chapter's argument, close by sending them to the reading. Named `<Topic> - PQ`, listed in the module as the `# Lens:` immediately before the main reading lens. See `Lens Edu/Lenses/IABIED - Indifference Not Malice - PQ.md`.
+Before a heavy reading, a tiny lens primes the intuition the chapter will challenge — one `#### Question`, no reading. Its brief is deliberately minimal: acknowledge in 1–2 sentences, **do not** preview the chapter's argument, close by sending them to the reading. Named `<Topic> - PQ`, listed in the module as the `# Lens:` immediately before the main reading lens. See `Lens Edu/Lenses/IABIED - Indifference Not Malice - PQ.md`.{++{"author":"Elias's AI","timestamp":1785926657895}@@
+
+## The 6 segment types
+
+Segments are the `####` blocks of the lens body — and of a Learning Outcome's `## Test:` (Question and Roleplay only there).
+
+Fields per segment:
+
+- `#### Text` — required: `content`. Optional: `optional`.
+- `#### Chat` — required: `instructions`. Optional: `hidePreviousContentFromUser`, `hidePreviousContentFromTutor`.
+- `#### Article` — none required. Optional: `source`, `from`, `to`, `optional`.
+- `#### Video` — none required. Optional: `source`, `from`, `to`, `optional`.
+- `#### Question` — required: `content`. Optional: `assessment-instructions`, `max-time`, `max-chars`, `enforce-voice`, `feedback`, `optional`.
+- `#### Roleplay` — required: `id`, `content`, `ai-instructions`. Optional: `opening-message`, `assessment-instructions`, `user-customizable`, `feedback`, `optional`.
+
+Defaults: `optional` false; `feedback` true on questions, false on roleplays; `hidePreviousContent*` false.
+
+**Text** — prose shown to the learner. `content::` is markdown; escape any headings (`\##`).
+
+**Chat** — open AI-tutor discussion. `instructions::` briefs the tutor (topics to explore, persona, boundaries).
+
+**Article** — embeds an excerpt of an `articles/` file. `from::`/`to::` are exact text anchors quoted from the article ("start here", "stop here"). **Both anchors are inclusive:** the excerpt contains the text matched by `from::` and the text matched by `to::` (this is not a half-open range). Each anchor is independent — only `from::` reads to the end, only `to::` reads from the start, neither embeds the whole article. Text outside the excerpt is shown collapsed, so anchors need only bracket the assigned part. Anchors must match the article file character-exactly (watch curly quotes) — copy them from the stored article via `read`, never from a summarizing web fetch.
+
+**Video** — same idea for `video_transcripts/` files; `from::`/`to::` are timestamps (`M:SS` or `H:MM:SS`), `from::` defaults to `0:00`, `to::` to the end.
+
+**Source inheritance:** the first Article (or Video) segment in a lens must have `source::`; later segments of the same type inherit the previous source, so a multi-excerpt reading is several `#### Article` blocks with only `from::`/`to::`.
+
+**Question** — learner writes/dictates an answer, the AI responds per `assessment-instructions::`. `max-time:: 3:00` (or `none`), `max-chars`, `enforce-voice:: true` for spoken answers, `feedback:: false` to record without AI response.
+
+**Roleplay** — learner talks with a persona defined in `ai-instructions::`; `content::` sets the scene for the learner, `opening-message::` is the persona's first line.
+
+**Resource cards:** inside a `content::` value, `::card[[../Lenses/Name]]` followed by a `> blockquote` description renders a linked card — used for "Additional resources" footers.++}
 
