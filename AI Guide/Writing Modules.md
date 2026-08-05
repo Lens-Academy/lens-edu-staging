@@ -8,10 +8,9 @@ Modules live in `modules/`.
 
 ```markdown
 ---
-slug: example-module              # required{++{"author":"Elias's AI","timestamp":1785937159461}@@ — how courses reference the module++}
+slug: example-module              # required — how courses reference the module
 title: "Example Module Name"      # required
-{--{"author":"Elias's AI","timestamp":1785937159461}@@description: "Shown on the course page."
-tags: [course-name]--}{++{"author":"Elias's AI","timestamp":1785937159461}@@contentId: <uuid>                 # the module's stable UUID (`id` works as an alias)++}
+contentId: <uuid>                 # the module's stable UUID (`id` works as an alias)
 discussion: https://discord.com/channels/...{++{"author":"Elias's AI","timestamp":1785937159461}@@   # author metadata — the platform ignores it
 add_to_ai_context:                # tutor context for the whole module
   - "[[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]"++}
