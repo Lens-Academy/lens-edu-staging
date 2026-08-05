@@ -8,8 +8,7 @@ Modules live in `modules/`.
 
 ```markdown
 ---
-{--{"author":"Elias's AI","timestamp":1785937159461}@@id: <uuid>                        # required
---}slug: example-module              # required{++{"author":"Elias's AI","timestamp":1785937159461}@@ — how courses reference the module++}
+slug: example-module              # required{++{"author":"Elias's AI","timestamp":1785937159461}@@ — how courses reference the module++}
 title: "Example Module Name"      # required
 {--{"author":"Elias's AI","timestamp":1785937159461}@@description: "Shown on the course page."
 tags: [course-name]--}{++{"author":"Elias's AI","timestamp":1785937159461}@@contentId: <uuid>                 # the module's stable UUID (`id` works as an alias)++}
