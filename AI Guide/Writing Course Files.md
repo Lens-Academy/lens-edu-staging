@@ -4,7 +4,7 @@ tags:
 ---
 # Writing Course Files (AI Guide)
 
-{--{"author":"Elias's AI","timestamp":1785936642772}@@A course file (`courses/<Name>.md`) is the top of the hierarchy: an ordered list of module references with meeting markers. Shared field rules and validator errors: `Lens Edu/AI Guide/Course Authoring.md`.--}{++{"author":"Elias's AI","timestamp":1785936642772}@@Course files live in `courses/`.++}
+Course files live in `courses/`.
 
 ```markdown
 ---
