@@ -12,7 +12,7 @@ Body = H1 sections:
 
 ```markdown
 ---
-id: <uuid>                        # optional
+id: <uuid>
 slug: example-module              # required
 title: "Example Module Name"      # required
 description: "Shown on the course page."
