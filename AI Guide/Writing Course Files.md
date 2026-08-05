@@ -4,12 +4,12 @@ tags:
 ---
 # Writing Course Files (AI Guide)
 
-A course file (`courses/<Name>.md`) is the top of the hierarchy: an ordered list of module references with meeting markers. Shared field rules and validator errors: `Lens Edu/AI Guide/Course Authoring.md`.
+{--{"author":"Elias's AI","timestamp":1785936642772}@@A course file (`courses/<Name>.md`) is the top of the hierarchy: an ordered list of module references with meeting markers. Shared field rules and validator errors: `Lens Edu/AI Guide/Course Authoring.md`.--}{++{"author":"Elias's AI","timestamp":1785936642772}@@Course files live in `courses/`.++}
 
 ```markdown
 ---
 id: <uuid>
-slug: ai-risk-fundamentals        # required. lowercase, digits, hyphens; no leading/trailing hyphen
+slug: ai-risk-fundamentals        # {--{"author":"Elias's AI","timestamp":1785936643089}@@required. lowercase, digits, hyphens; no leading/trailing hyphen--}{++{"author":"Elias's AI","timestamp":1785936643089}@@required++}
 title: "AI Risk Fundamentals"     # required
 description: "Shown on the course page."
 tags: [IABIED]
