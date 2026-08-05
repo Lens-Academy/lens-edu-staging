@@ -13,16 +13,7 @@ Each learning outcomes (see [[Writing Learning Outcomes]]) define one testable s
 
 ## The document model
 
-{--{"author":"Elias's AI","timestamp":1785926657210}@@Segments are the `####` blocks inside a lens (and inside a Learning Outcome's `## Test:`). Segment headers take no title (`#### Text: Intro` --}{++{"author":"Elias's AI","timestamp":1785926657210}@@Every content file ++}is {--{"author":"Elias's AI","timestamp":1785926657210}@@an error).
-
-Fields per segment:
-
-- `#### Text` — required: `content`. Optional: `optional`.
-- `#### Chat` — required: `instructions`. Optional: `hidePreviousContentFromUser`, `hidePreviousContentFromTutor`.
-- `#### Article` — none required. Optional: `source`, `from`, `to`, `optional`.
-- `#### Video` — none required. Optional: `source`, `from`, `to`, `optional`.
-- `#### Question` — required: `content`. Optional: `assessment-instructions`, `max-time`, `max-chars`, `enforce-voice`, `feedback`, `optional`.
-- `#### Roleplay` --}{++{"author":"Elias's AI","timestamp":1785926657210}@@markdown with two kinds of structure: YAML frontmatter on top (file-level metadata, `key: value`) and a body of nested headings. A heading's section can carry its own metadata as `key:: value` lines under it ++}—{--{"author":"Elias's AI","timestamp":1785926657210}@@ required: `id`, `content`, `ai-instructions`. Optional: `opening-message`, `assessment-instructions`, `user-customizable`, `feedback`, `optional`.
+Every content file is markdown with two kinds of structure: YAML frontmatter on top (file-level metadata, `key: value`) and a body of nested headings. A heading's section can carry its own metadata as `key:: value` lines under it —{--{"author":"Elias's AI","timestamp":1785926657210}@@ required: `id`, `content`, `ai-instructions`. Optional: `opening-message`, `assessment-instructions`, `user-customizable`, `feedback`, `optional`.
 
 Boolean fields take literal `true`/`false`. Defaults: `optional` false; `feedback` true on questions, false on roleplays; `hidePreviousContent*` false.
 
