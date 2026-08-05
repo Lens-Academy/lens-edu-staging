@@ -10,7 +10,7 @@ Modules live in `modules/`.
 ---
 slug: example-module              # required — how courses reference the module
 title: "Example Module Name"      # required
-id: <uuid>                        # the module's stable UUID{--{"author":"Elias's AI","timestamp":1785937319549}@@ (`id` works as an alias)--}
+id: <uuid>                        # the module's stable UUID
 add_to_ai_context:                # tutor context for the whole module
   - "[[../../Lens Edu Private/sub-folder/file]]"
 ---
@@ -21,7 +21,7 @@ id:: <uuid>
 content:: Welcome to the course...
 
 # Submodule: Ch1 - Introduction
-# Learning Outcome: Intelligence as prediction plus steering
+# Learning Outcome:{--{"author":"Elias's AI","timestamp":1785937450039}@@ Intelligence as prediction plus steering--}{++{"author":"Elias's AI","timestamp":1785937450039}@@                   ← title after the colon is ignored for imports; the outcome's filename is what learners see++}
 source:: ![[../Learning Outcomes/Intelligence as prediction plus steering]]
 
 # Lens: Optional Deep Dive            ← referenced lens
