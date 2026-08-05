@@ -30,7 +30,7 @@ optional:: true                       ← learner may skip
 hide:: true                           ← hidden from the module page (requires optional:: true)
 ```
 
-- Submodules are optional ways to further structure modules
+- Submodules are optional ways to further structure modules into s
 - A `# Lens:` section has either `source::` (referenced) or `id::` + segments (inline) — not both. Segment syntax: [[Writing Lenses]].
 - Learning outcomes should be linked at the top of a (sub-)module. Their test is rendered at the end of it.
 - A `# Submodule:` marker may carry `add_to_ai_context:: [[wikilink]]` (one or more `[[...]]`).
