@@ -16,7 +16,7 @@ id: <uuid>                        # required
 slug: example-module              # required
 title: "Example Module Name"      # required
 description: "Shown on the course page."
-tags: [IABIED]
+tags: [cou]
 discussion: https://discord.com/channels/...
 ---
 # Submodule: Welcome                  ← groups following sections under a heading
