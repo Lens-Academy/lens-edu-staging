@@ -29,9 +29,7 @@ Every content file is markdown with two kinds of structure: YAML frontmatter on 
 
 Changes sync to staging.lensacademy.org within seconds; the core team promotes to production (lensacademy.org) manually.
 
-{--{"author":"Elias's AI","timestamp":1785934577282}@@Check **https://staging.lensacademy.org/validate** after your changes land — it lists errors/warnings per file, filterable by course, categorized `production` (blocks promotion) vs `wip` (draft-only, from `tags: [wip]`). Fix production-category errors in files you touched before calling the work done.
-
---}Errors you'll actually hit:
+Errors you'll actually hit:
 
 - Missing/empty required frontmatter fields; slug format violations.
 - Unquoted UUIDs that YAML turned into numbers.
