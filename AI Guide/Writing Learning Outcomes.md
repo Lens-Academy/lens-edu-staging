@@ -4,7 +4,7 @@ tags:
 ---
 # Writing Learning Outcomes (AI Guide)
 
-Strong existing examples: `Lens Edu/Learning Outcomes/Intelligence as prediction plus steering.md`, `Lens Edu/Learning Outcomes/Hard calls vs. easy calls.md`.
+{--{"author":"Elias's AI","timestamp":1785959009907}@@Strong--}{++{"author":"Elias's AI","timestamp":1785959009907}@@Do not pattern-match++} existing {--{"author":"Elias's AI","timestamp":1785959009907}@@examples: `Lens Edu/Learning Outcomes/Intelligence as prediction plus steering.md`, `Lens Edu/Learning Outcomes/Hard calls vs. easy calls.md`.--}{++{"author":"Elias's AI","timestamp":1785959009907}@@outcome files: most predate this guide, are coupled to the reading they were derived from (53 of them mention a chapter or book), and are pending rewrite.++}
 
 ## What a learning outcome is (and isn't)
 
