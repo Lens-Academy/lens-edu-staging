@@ -11,6 +11,14 @@ Frontmatter: required `slug`, `title`; optional `id`, `contentId`, `discussion`,
 Body = H1 sections:
 
 ```markdown
+---
+id: <uuid>
+slug: ai-risk-fundamentals        # required
+title: "AI Risk Fundamentals"     # required
+description: "Shown on the course page."
+tags: [IABIED]
+discussion: https://discord.com/channels/...
+---
 # Submodule: Welcome                  ← groups following sections under a heading
 # Lens: Welcome                       ← inline lens: id:: + segments directly here
 id:: <uuid>
