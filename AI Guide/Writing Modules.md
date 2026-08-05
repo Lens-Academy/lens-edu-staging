@@ -34,9 +34,7 @@ hide:: true                           ← hidden from the module page (requires 
 - Learning outcomes should be linked at the top of a (sub-)module. Their test is rendered at the end of it.
 - A `# Lens:` section has either `source::` (referenced) or `id::` + segments (inline) — not both. Segment syntax: [[Writing Lenses]].
 
-## Recommended pattern
-
-Creation flow
+## Creation flow
 1. Deeply think about/discuss with the user what exactly you want to teach in a given module/submodule and create LOs based on this (see [[Writing Learning Outcomes]])
 2. C
 
