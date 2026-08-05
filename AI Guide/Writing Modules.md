@@ -43,4 +43,3 @@ hide:: true                           ← hidden from the module page (requires 
 - Before presenting a reading/video, ask one or multiple pre-reading primer questions in a separate lens.
 - Add optional lenses with more in-depth readings/exercises for curious readers
 	- If you want to add many, link them via `::card` footers inside an "Dive deeper" lens.
-- Alternative candidate lenses live in the outcome's `# Suggested Lenses:` section — author hints only, never part of the learner path.
