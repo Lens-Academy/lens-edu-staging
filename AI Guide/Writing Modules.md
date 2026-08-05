@@ -10,7 +10,7 @@ Modules live in `modules/`.
 ---
 slug: example-module              # required — how courses reference the module
 title: "Example Module Name"      # required
-{--{"author":"Elias's AI","timestamp":1785937319549}@@contentId:--}{++{"author":"Elias's AI","timestamp":1785937319549}@@id:++} <uuid>{--{"author":"Elias's AI","timestamp":1785937319549}@@                 --}{++{"author":"Elias's AI","timestamp":1785937319549}@@                        ++}# the module's stable UUID{--{"author":"Elias's AI","timestamp":1785937319549}@@ (`id` works as an alias)--}
+id: <uuid>                        # the module's stable UUID{--{"author":"Elias's AI","timestamp":1785937319549}@@ (`id` works as an alias)--}
 add_to_ai_context:                # tutor context for the whole module
   - "[[../../Lens Edu Private/sub-folder/file]]"
 ---
