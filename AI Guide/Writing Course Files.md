@@ -9,7 +9,7 @@ tags:
 ```markdown
 ---
 id: <uuid>
-slug: ai-risk-fundamentals        # {--{"author":"Elias's AI","timestamp":1785936643089}@@required. lowercase, digits, hyphens; no leading/trailing hyphen--}{++{"author":"Elias's AI","timestamp":1785936643089}@@required++}
+slug: ai-risk-fundamentals        # required
 title: "AI Risk Fundamentals"     # required
 description: "Shown on the course page."
 tags: [IABIED]
