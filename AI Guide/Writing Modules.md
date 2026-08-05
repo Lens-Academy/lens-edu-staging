@@ -13,8 +13,8 @@ Body = H1 sections:
 ```markdown
 ---
 id: <uuid>                        # optional
-slug: ai-risk-fundamentals        # required
-title: "Example Module Na"     # required
+slug: example-mu        # required
+title: "Example Module Name"     # required
 description: "Shown on the course page."
 tags: [IABIED]
 discussion: https://discord.com/channels/...
