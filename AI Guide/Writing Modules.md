@@ -36,7 +36,7 @@ hide:: true                           ← hidden from the module page (requires 
 
 ## Creation flow
 1. Deeply think about/discuss with the user what exactly you want to teach in a given module/submodule and create LOs based on this (see [[Writing Learning Outcomes]])
-2. Based on the agreed learning outcomes, do a deep research of articles/videos that 
+2. Based on the agreed learning outcomes, do deep research of articles/videos that best 
 
 - Before presenting a reading, ask one or multiple pre-reading primer questions in a separate lens that help the   in front of a  before , see `Writing Lenses.md`) → main reading lens → `# Learning Outcome:` ref. One outcome is usually taught by several lenses — list them all before the ref.
 - Optional `- QA -` lenses hold depth for curious learners: link them via `::card` footers inside the main lens instead of adding them to the module path.
