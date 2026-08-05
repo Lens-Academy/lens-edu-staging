@@ -8,7 +8,7 @@ Modules live in `modules/`.
 
 ```markdown
 ---
-slug: example-module              # required — how courses reference the module
+slug: example-module              # {--{"author":"Elias's AI","timestamp":1785958072763}@@required —--}{++{"author":"Elias's AI","timestamp":1785958072763}@@required:++} how courses reference the module
 title: "Example Module Name"      # required
 id: <uuid>                        # the module's stable UUID
 add_to_ai_context:                # tutor context for the whole module
@@ -33,7 +33,7 @@ hide:: true                           ← hidden from the module page (requires 
 - A (sub-)module usually consists out of one or more LOs and one or more lenses
 - Submodules are optional ways to further structure modules into sensible chunks
 - Learning outcomes should be linked at the top of a (sub-)module. Their test is rendered at the end of it.
-- A `# Lens:` section has either `source::` (referenced) or `id::` + segments (inline) — not both. Segment syntax: [[Writing Lenses]].
+- A `# Lens:` section has either `source::` (referenced) or `id::` + segments {--{"author":"Elias's AI","timestamp":1785958073138}@@(inline) —--}{++{"author":"Elias's AI","timestamp":1785958073138}@@(inline),++} not both. Segment syntax: [[Writing Lenses]].
 
 ## Creation flow
 1. Deeply think about/discuss with the user what exactly you want to teach in a given module/submodule and create LOs based on this (see [[Writing Learning Outcomes]])

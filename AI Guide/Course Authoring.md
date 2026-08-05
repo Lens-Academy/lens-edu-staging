@@ -15,7 +15,7 @@ Changes sync to https://staging.lensacademy.org within seconds; Only core team m
 
 ## The document model
 
-Every content file is markdown with two kinds of structure: YAML frontmatter on top (file-level metadata, `key: value`) and a body of nested headings. A heading's section can carry its own metadata as `key:: value` lines under it — a value runs until the next `key::` or heading; duplicate keys in one section are an error. Unknown frontmatter fields are tolerated, but the platform only acts on documented fields.
+Every content file is markdown with two kinds of structure: YAML frontmatter on top (file-level metadata, `key: value`) and a body of nested headings. A heading's section can carry its own metadata as `key:: value` lines under {--{"author":"Elias's AI","timestamp":1785958071181}@@it —--}{++{"author":"Elias's AI","timestamp":1785958071181}@@it;++} a value runs until the next `key::` or heading; duplicate keys in one section are an error. Unknown frontmatter fields are tolerated, but the platform only acts on documented fields.
 
 ## Rules that apply everywhere
 
@@ -24,6 +24,6 @@ Every content file is markdown with two kinds of structure: YAML frontmatter on 
 - **Wikilinks are relative** to the referencing file and must contain a `/`. (`source:: [[../articles/name]]`, `source:: [[../Lenses/Name]]`).
 - **IDs are UUIDs** (lowercase v4, generate with `uuidgen | tr A-Z a-z`). Every lens, learning outcome, module, test, and inline lens needs its own. Quote them in frontmatter (`id: 'a1b2...'`) so YAML never mangles them; never reuse or invent non-UUID ids.
 - **Never change the id of already-published content.** Learner progress is keyed on these ids
-- **Drafts**: add `wip` to `tags` while a file is unfinished — its errors then don't block promotion. Remove it when done. A production file referencing a wip file is a production error.
-- **Comments**: `%% ... %%` (Obsidian) and `{>>{"author":"Elias's AI","timestamp":1785489958756}@@...<<}` (CriticMarkup) are stripped before parsing — safe for author notes anywhere.
-- **`add_to_ai_context`** injects source material (e.g. chapter text from a private folder) into the AI tutor's context — use it whenever the tutor must discuss a text the student read elsewhere. Allowed on a lens (scopes to that lens), module frontmatter (whole module), or a `# Submodule:` marker (that submodule — the natural home for per-chapter book content). On a learning outcome it is a validation error.
+- **Drafts**: add `wip` to `tags` while a file is {--{"author":"Elias's AI","timestamp":1785958071540}@@unfinished —--}{++{"author":"Elias's AI","timestamp":1785958071540}@@unfinished;++} its errors then don't block promotion. Remove it when done. A production file referencing a wip file is a production error.
+- **Comments**: `%% ... %%` (Obsidian) and `{>>{"author":"Elias's AI","timestamp":1785489958756}@@...<<}` (CriticMarkup) are stripped before {--{"author":"Elias's AI","timestamp":1785958071828}@@parsing —--}{++{"author":"Elias's AI","timestamp":1785958071828}@@parsing,++} safe for author notes anywhere.
+- **`add_to_ai_context`** injects source material (e.g. chapter text from a private folder) into the AI tutor's {--{"author":"Elias's AI","timestamp":1785958072108}@@context —--}{++{"author":"Elias's AI","timestamp":1785958072108}@@context;++} use it whenever the tutor must discuss a text the student read elsewhere. Allowed on a lens (scopes to that lens), module frontmatter (whole module), or a `# Submodule:` marker (that {--{"author":"Elias's AI","timestamp":1785958072432}@@submodule —--}{++{"author":"Elias's AI","timestamp":1785958072432}@@submodule,++} the natural home for per-chapter book content). On a learning outcome it is a validation error.
