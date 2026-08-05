@@ -30,14 +30,14 @@ optional:: true                       ← learner may skip
 hide:: true                           ← hidden from the module page (requires optional:: true)
 ```
 
-- A (sub-)module usually consists out of one ore more LOs and one or more lenses
+- A (sub-)module usually consists out of one or more LOs and one or more lenses
 - Submodules are optional ways to further structure modules into sensible chunks
 - Learning outcomes should be linked at the top of a (sub-)module. Their test is rendered at the end of it.
 - A `# Lens:` section has either `source::` (referenced) or `id::` + segments (inline) — not both. Segment syntax: [[Writing Lenses]].
 
 ## Creation flow
 1. Deeply think about/discuss with the user what exactly you want to teach in a given module/submodule and create LOs based on this (see [[Writing Learning Outcomes]])
-2. Based on the agreed learning outcomes, find articles/videos/exercises that can be used to teach this (if the user tells you to do it by yourself, use multiple subagents to come up with possibilities and others to criticize them untill you are certain what you are using is of highest quality)
+2. Based on the agreed learning outcomes, find articles/videos/exercises that can be used to teach this (if the user tells you to do it by yourself, use multiple subagents to come up with possibilities and others to criticize them until you are certain what you are using is of highest quality)
 
 ## Recommended patterns
 - Before presenting a reading/video, ask one or multiple pre-reading primer questions in a separate lens.
