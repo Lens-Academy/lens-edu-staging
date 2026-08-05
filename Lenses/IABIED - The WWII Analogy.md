@@ -14,9 +14,7 @@ content::
 >
 > ++}But we don't know how else humanity could survive.
 
-{++{"author":"Elias's AI","timestamp":1785943695024}@@(That final line appears twice in the chapter — read past the first one and stop at the second, right after the World War II discussion.)
-
-++}Return here after reading.
+Return here after reading.
 
 ---
 
