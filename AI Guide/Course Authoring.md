@@ -27,8 +27,6 @@ Every content file is markdown with two kinds of structure: YAML frontmatter on 
 
 ## Validation
 
-Changes sync to staging.lensacademy.org within seconds; the core team promotes to production (lensacademy.org) manually.
-
 Errors you'll actually hit:
 
 - Missing/empty required frontmatter fields; slug format violations.
