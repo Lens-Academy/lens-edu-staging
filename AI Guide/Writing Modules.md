@@ -30,7 +30,7 @@ optional:: true                       ← learner may skip
 hide:: true                           ← hidden from the module page (requires optional:: true)
 ```
 
-- A (sub-)module usually
+- A (sub-)module usually consists out of one o
 - Submodules are optional ways to further structure modules into sensible chunks
 - Learning outcomes should be linked at the top of a (sub-)module. Their test is rendered at the end of it.
 - A `# Lens:` section has either `source::` (referenced) or `id::` + segments (inline) — not both. Segment syntax: [[Writing Lenses]].
