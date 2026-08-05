@@ -15,7 +15,7 @@ Things that are **not** learning outcomes:
 - **A topic.** "Feedback loops are accelerating civilization" names an area of content; it doesn't say what the student can do with it. Convert it: what question about this topic should the student be able to answer, and to what depth?
 - **A learning objective.** The instructor's purpose for teaching ("get students engaged with AI safety") belongs to the theory of change. If it matters, find the observable behavior that would show it happened and write *that* as the outcome.
 - **An activity.** "Read chapter 3" is what the student does on the way, not what they can do afterwards.
-- **A reading's takeaway.** An outcome reverse-engineered from an assigned text ("understands what chapter 2 argues") is a comprehension check, not a skill {--{"author":"Elias's AI","timestamp":1785958070228}@@— see--}{++{"author":"Elias's AI","timestamp":1785958070228}@@(see++} the next {--{"author":"Elias's AI","timestamp":1785958070228}@@section.--}{++{"author":"Elias's AI","timestamp":1785958070228}@@section).++}
+- **A reading's takeaway.** An outcome reverse-engineered from an assigned text ("understands what chapter 2 argues") is a comprehension check, not a skill {--{"author":"Elias's AI","timestamp":1785958070228}@@— see--}{++{"author":"Elias's AI","timestamp":1785958070228}@@(see++} the next section).
 
 ## Where outcomes come from
 
