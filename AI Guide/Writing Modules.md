@@ -6,7 +6,7 @@ tags:
 
 Modules live in `modules/`.
 
-Frontmatter: required `slug`, `title`; optional `id`, `contentId`, `discussion`, `tags`,{--{"author":"Elias's AI","timestamp":1785936643422}@@ `add_to_ai_context` (list of wikilinks whose content is added to the AI tutor's context for everything in the module).--}{++{"author":"Elias's AI","timestamp":1785936643422}@@ `add_to_ai_context`.++}
+Frontmatter: required `slug`, `title`; optional `id`, `contentId`, `discussion`, `tags`, `add_to_ai_context`.
 
 Body = H1 sections:
 
@@ -16,7 +16,7 @@ id: <uuid>                        # required
 slug: example-module              # required
 title: "Example Module Name"      # required
 description: "Shown on the course page."
-tags: [cou]
+tags: [course-name]
 discussion: https://discord.com/channels/...
 ---
 # Submodule: Welcome                  ← groups following sections under a heading
