@@ -88,13 +88,11 @@ source:: [[../Lenses/My Topic]]
 - Suggested lenses are **author-facing candidates only**: the platform never imports them; the module lists its teaching lenses explicitly, before the `# Learning Outcome:` ref. Zero-suggestion outcomes are valid.
 - Skill-tree frontmatter is rolling out per `Lens/Learning Outcome Domain and Stage Proposal.md`: `domain:` (one of the 15 domains in `Lens/AI Safety Skill Taxonomy - Canonical Working Inventory.md`), `stage:` (Beginner, Intermediate, or Advanced), `requires:` (sparse; only genuine prerequisites, since they gate locked status). Set them on new outcomes.
 
-## {--{"author":"Elias's AI","timestamp":1785944825813}@@Artifact and state outcomes
-
-Some outcomes ask the student to produce something --}{++{"author":"Elias's AI","timestamp":1785944825813}@@Outcome types
+## Outcome types
 
 An outcome file holds a **capability**: a demonstrable skill. Other things a course targets are not capability outcomes:
 
-- **Artifacts** ++}(a personal action plan) and **actions** (discussed the plan with a practitioner) are milestones: verify that the thing exists or {--{"author":"Elias's AI","timestamp":1785944825813}@@to reach--}{++{"author":"Elias's AI","timestamp":1785944825813}@@happened against explicit criteria. Completing one doesn't establish++} a {--{"author":"Elias's AI","timestamp":1785944825813}@@state--}{++{"author":"Elias's AI","timestamp":1785944825813}@@transferable skill.
+- **Artifacts** (a personal action plan) and **actions** (discussed the plan with a practitioner) are milestones: verify that the thing exists or {--{"author":"Elias's AI","timestamp":1785944825813}@@to reach--}{++{"author":"Elias's AI","timestamp":1785944825813}@@happened against explicit criteria. Completing one doesn't establish++} a {--{"author":"Elias's AI","timestamp":1785944825813}@@state--}{++{"author":"Elias's AI","timestamp":1785944825813}@@transferable skill.
 - **Dispositions**++} (motivated to {--{"author":"Elias's AI","timestamp":1785944825813}@@contribute) rather than demonstrate a skill. The verb-and-mechanism guidance above partially breaks down there; keep the testability core: define what observable output or expressed state counts--}{++{"author":"Elias's AI","timestamp":1785944825813}@@contribute, changed beliefs) are never pass/fail and never get an outcome file. A learner who reasons well and still disagrees, or stays unenthusiastic, has not failed anything. Treat dispositions++} as internal design targets, measured (if at all) by aggregate self-report.
 - **Impact** (a sustained contribution to the {--{"author":"Elias's AI","timestamp":1785944825813}@@test against that.--}{++{"author":"Elias's AI","timestamp":1785944825813}@@field) is program-level evaluation, not a course outcome.++}
 
