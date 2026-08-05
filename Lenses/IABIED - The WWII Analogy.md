@@ -10,9 +10,9 @@ authors:
 content::
 \## Reading Assignment
 **Read *Chapter 13: Shut It Down*.** Start at the beginning and stop when you reach
-> {++{"author":"Elias's AI","timestamp":1785943695024}@@We know that the creation and exercise of any new authority is morally hazardous and subject to potential abuses, as was also true about World War II.
+> We know that the creation and exercise of any new authority is morally hazardous and subject to potential abuses, as was also true about World War II.
 >
-> ++}But we don't know how else humanity could survive.
+> But we don't know how else humanity could survive.
 
 Return here after reading.
 
