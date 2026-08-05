@@ -12,7 +12,7 @@ Body = H1 sections:
 
 ```markdown
 ---
-id: <uuid>
+id: <uuid> 
 slug: ai-risk-fundamentals        # required
 title: "AI Risk Fundamentals"     # required
 description: "Shown on the course page."
