@@ -92,7 +92,7 @@ source:: [[../Lenses/My Topic]]
 
 An outcome file holds a **capability**: a demonstrable skill. Other things a course targets are not capability outcomes:
 
-- **Artifacts** (a personal action plan) and **actions** (discussed the plan with a practitioner) are milestones: verify that the thing exists or {--{"author":"Elias's AI","timestamp":1785944825813}@@to reach--}{++{"author":"Elias's AI","timestamp":1785944825813}@@happened against explicit criteria. Completing one doesn't establish++} a {--{"author":"Elias's AI","timestamp":1785944825813}@@state--}{++{"author":"Elias's AI","timestamp":1785944825813}@@transferable skill.
-- **Dispositions**++} (motivated to {--{"author":"Elias's AI","timestamp":1785944825813}@@contribute) rather than demonstrate a skill. The verb-and-mechanism guidance above partially breaks down there; keep the testability core: define what observable output or expressed state counts--}{++{"author":"Elias's AI","timestamp":1785944825813}@@contribute, changed beliefs) are never pass/fail and never get an outcome file. A learner who reasons well and still disagrees, or stays unenthusiastic, has not failed anything. Treat dispositions++} as internal design targets, measured (if at all) by aggregate self-report.
-- **Impact** (a sustained contribution to the {--{"author":"Elias's AI","timestamp":1785944825813}@@test against that.--}{++{"author":"Elias's AI","timestamp":1785944825813}@@field) is program-level evaluation, not a course outcome.++}
+- **Artifacts** (a personal action plan) and **actions** (discussed the plan with a practitioner) are milestones: verify that the thing exists or happened against explicit criteria. Completing one doesn't establish a transferable skill.
+- **Dispositions** (motivated to contribute, changed beliefs) are never pass/fail and never get an outcome file. A learner who reasons well and still disagrees, or stays unenthusiastic, has not failed anything. Treat dispositions as internal design targets, measured (if at all) by aggregate self-report.
+- **Impact** (a sustained contribution to the field) is program-level evaluation, not a course outcome.
 
