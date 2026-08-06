@@ -39,8 +39,6 @@ Go around your group, two things:
 		- self-amplification, complications
 		- edge cases
 		Which felt most real to you, and where have you met its small cousin in ordinary life (a project, a bug, a deadline)? And in one word: how did these chapters leave you feeling?
-
-
 ```
 
 ```
