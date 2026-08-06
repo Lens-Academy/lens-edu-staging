@@ -48,7 +48,7 @@ Go through each tab of the master template (https://docs.google.com/document/d/1
 2. None of the breakout room prompts are likely to be answered very quickly, and leave participants without something to discuss
 3. Every breakout room prompt is open (more than one defensible answer), inviting disagreement or genuine uncertainty, and not settleable by looking something up.
 4. There is a clear arc to the meeting (Discussion prompts connect cleanly)
-5. Prompts for room 2 and 3 will lead to a strong discussion of this follow one of the approved patterns:
+5. Prompts for room 2 and 3 will lead to a strong discussion of this unit's contentfollow one of the approved patterns:
 	- Prompt makes a claim and asks participants to find and discuss arguments for/against it and to what extend they agree/disagree
 	- Prompt asks participants to collect questions they have from this units readings
 7. Complex questions contain a note: "Not sure you fully understand this question? Copy it into Lens Coach, and ask for an explanation."
