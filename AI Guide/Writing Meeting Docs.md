@@ -61,7 +61,8 @@ And add one or multiple questions after that. Examples:
 
 Claim, strongest counterargument, stress-test, verdict:
 ```
-Is it really alchemy? The book's claim this unit: humanity gets one shot at aligning superintelligence, and the field trying to solve it is still doing alchemy, not science. As a group, build the strongest counterargument you can: "we can practice on weaker AIs first", "AI will help us align AI", "interpretability is maturing", or your own. Pick your best one and stress-test it: how would the authors answer it with the five curses? Write your verdict: does your counterargument survive?
+Is it really alchemy? 
+The book's claim this unit: humanity gets one shot at aligning superintelligence, and the field trying to solve it is still doing alchemy, not science. As a group, build the strongest counterargument you can: "we can practice on weaker AIs first", "AI will help us align AI", "interpretability is maturing", or your own. Pick your best one and stress-test it: how would the authors answer it with the five curses? Write your verdict: does your counterargument survive?
 ```
 
 For narrative or scenario units, find the weakest step:
