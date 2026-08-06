@@ -6,7 +6,11 @@ tags:
 
 Luc's additions 6 august:
 
-Best
+Best practices:
+...
+
+
+Our design p
 
 
 ## What a learning outcome is (and isn't)
