@@ -106,7 +106,7 @@ Action-plan work:
 
 Collect and vote:
 ```
-Take a second to write down one or two discussion questions you'd genuinely like the group to dig into. Vote: you have 5 votes, put a + next to the questions you most want to discuss. We'll take the top-voted questions, hear from whoever wrote them, and discuss.
+Take a second to write down one or two discussion questions you'd genuinely like the group to dig into. Go around .
 ```
 
 3. **Room 4 is reflective.** Recommended shape (do not fail a doc for a different reflective close), the real prompt:
