@@ -26,7 +26,6 @@ Go through each tab of the master template (https://docs.google.com/document/d/1
 ### Agent 2: Room quality
 Judge each room against its role. The examples below are real prompts from past unit docs: they show the quality bar, not required shapes. A room passes if it serves its role well, whatever shape it takes.
 
-#### Room 1
 1. **Room 1 is a good icebreaker**: Warms people up to each other and toward the material.
 
 We currently start most of our icebreaker prompts with this section:
@@ -57,7 +56,6 @@ And add one or multiple questions after that. Examples:
 ```
 	2. What's something, completely unrelated to AI, that you've been enjoying lately?
 ```
-
 
 2. **Rooms 2 and 3 lead to high-quality, engaging work on this unit**: a discussion of the content, action-plan work, or practice. Real examples:
 
