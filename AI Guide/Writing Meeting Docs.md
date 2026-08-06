@@ -49,7 +49,7 @@ Copy the master template and fill in what participants see; the structure, timin
 	- Time structure is the same
 	- Participant FAQ contains all the same questions and answers
 	- Navigator
-- Session Doc (participants go through it and fill it out)
+
 - Participant FAQ
 - Navigator Run-Sheet (how to run the session)
 - Glossary (Optional list of relevant concepts and their definitions)
