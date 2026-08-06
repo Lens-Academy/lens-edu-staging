@@ -58,7 +58,19 @@ The dominant defects in existing outcomes are recall tests and leading prompts. 
 
 - **Require transfer at the pass bar.** The test presents an unfamiliar case or application. An answer that only reconstructs the source's argument is a level-2 answer, not a pass.
 - **Don't teach the answer in the stem.** If the question restates the argument before asking about it, it tests reading the stem, not the capability.
-- **Grade reasoning, not agreement.** A learner who understands the argument and disagrees well passes. Assess whether they can reconstruct, evaluate, and respond to the argument, never whether they accept its conclusion.
+- **Grade reasoning, not agreement.** A learner who understands the argument and disagrees well passes. Assess whether they can reconstruct, evaluate, and respond to the argument, never whether they accept its conclusion.{++{"author":"Lauren's AI","timestamp":1786033405239}@@
+- **Test the object, not the text.** The reading points at something (a mechanism, a distribution, a structural relationship). Test *that*, and prefer a case the readings do not contain. A question answerable by recalling the assigned text measures assignment completion. If the student can pass by remembering what an author said rather than by reasoning about the thing the author was describing, the question is wrong.
+- **Test the shape of the possibility space, including non-linear structure.** Where a topic has mathematical structure, the question should make that structure do work: not only "what happens" but under what interactions, thresholds, and combinations. Non-linear interactions between parts of a system are the most commonly untested and the most load-bearing: a student who models a system as a sum of independent parts will get the qualitative answer wrong whenever feedback, saturation, or a threshold matters. Ask by-when and under-what-conditions questions, not only whether-and-why ones.
+
+## Test before, then test again after
+
+Test the same capability **twice**: once before the student reads anything, once afterwards.
+
+The pre-reading test should go as deep as the student can currently manage. Its purpose is not assessment. A student who has committed to an answer reads differently: they have something at stake, and the reading either confirms or corrects a position they already hold. This is why `[episode]` material (an account of something that actually happened, with an outcome) is worth more than its length suggests, and it is why the pre-test must be scored generously; the student is *supposed* to be wrong, and telling them so up front removes the incentive to hedge.
+
+The post-reading test must target the same capability while being **different enough that reproducing the reading does not answer it.** If a student can pass the second test by paraphrasing what they just read, the pair has measured nothing. The move required between the two should be qualitative generalisation, not restatement: a different domain, an inverted case, a condition where the mechanism does not hold, or a composition of two mechanisms the reading treated separately.
+
+The failure this prevents is a course where students learn to recognise the assigned texts. That is a real failure mode and it is invisible from the inside: comprehension checks look like learning, and a class that has read carefully will pass them.++}
 
 ## File syntax
 
