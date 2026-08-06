@@ -14,7 +14,7 @@ Our design pattern:
 - learning outcomes are binary tests. Maybe build up of subjudgements, e.g. "answer should pass on 3 out of these 5 criteria"
 - LO should point at a thing we actually care about.
 	- distinguish between questions that test understanding of the world and questions that are good learning material but not good testing material.
-	- Beginner-level learning outcomes should be the sort of things that every advanced person in the field should be expected to know. "Solve 1+x=2 for x" is good, "How does Johnny explain how to solve 1+1=x" is not 
+	- Beginner-level learning outcomes should be the sort of things that every advanced person in the field should be expected to know. "Solve 1+x=2 for x" is good, "How does Johnny explain how to solve 1+x=2" is not 
 
 
 ## What a learning outcome is (and isn't)
