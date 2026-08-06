@@ -28,7 +28,7 @@ Judge each room against its role. The examples below are real prompts from past 
 
 1. **Room 1 is a good icebreaker**: Warms people up to each other and toward the material.
 
-
+A good start
 ```
 Go around your group, two things:
 
