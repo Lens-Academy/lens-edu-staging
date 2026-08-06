@@ -46,4 +46,4 @@ Copy the master template and fill in what participants see; the structure, timin
 Spawn a sub-agent that check if the discussion doc fulfills all the following criteria
 
 1. Go through each tab of the master template (https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4) and check if the discussion doc you are validating is a filled version of it
-2. If this is the first meeting of a long
+2. If this is the first meeting of a multi-meeting course, 
