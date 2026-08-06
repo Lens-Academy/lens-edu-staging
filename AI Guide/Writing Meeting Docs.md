@@ -12,7 +12,7 @@ A meeting doc is the Google Doc a cohort group works through during a 90-minute 
 2. Get an overview of the course this doc belongs to and specifically the module(s) of the unit right before its meeting
 3. The validation instructions below describe what makes a good meeting doc. Take some time to think hard (and/or brainstorm with the user) what prompts would make this meeting most valuable.
 4. Spawn all validation sub-agents described below with a link to the doc and their exact instruction text
-5. If every check passes, you are done. If not, fix the errors and spawn fresh versions of the agents that failed. epeat that cycle until every agent passed
+5. If every check passes, you are done. If not, fix the errors and spawn fresh versions of the agents that failed. Repeat that cycle until every agent passed
 6. Report to the user how many iterations you had to do for each agent and where they didn't pass
 
 ## Validation instructions
@@ -20,7 +20,7 @@ A meeting doc is the Google Doc a cohort group works through during a 90-minute 
 ### Agent 1: Template match
 Go through each tab of the master template (https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4) and check if the discussion doc you are validating is a filled version of it:
 1. Every [bracketed placeholder] is filled; none left over.
-2. The fixed parts (room structure, timings, the room loop, help box, FAQ, run-sheet instructions) are kept; only the participant-facing slots differ.
+2. The fixed parts match the m; only the participant-facing slots differ.
 3. The glossary is filled: ordered by module, each term defined once at its first appearance, in one or two sentences, in the source's framing.
 
 ### Agent 2: Room quality
