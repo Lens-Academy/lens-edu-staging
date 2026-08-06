@@ -64,7 +64,7 @@ Claim, strongest counterargument, stress-test, verdict:
 Is it really alchemy?
 The book's claim this unit: **humanity gets one shot at aligning superintelligence, and the field trying to solve it is still doing alchemy, not science.** 
 
-As a group, build the strongest counterargument you can. Pick your best one and stress-test it: how would the authors answer it with the five curses? Write your verdict: does your counterargument survive?
+As a group, build the strongest counterargument you can. Pick your best one and stress-test it: how would the authors answer it? Write your verdict: does your counterargument survive?
 
 If you can't find strong counterarguments, ask the lens coach to help you.
 ```
