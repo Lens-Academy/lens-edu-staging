@@ -23,6 +23,6 @@ meeting-doc-template:: https://docs.google.com/document/d/...
 
 Optional frontmatter: `slug-aliases`, `partner-name`, `partner-logo`, `partner-logo-small`, `partner-url`.
 
-- The body is only `# Module:` wikilink refs and `# Meeting: <name>` markers, in learner order.{++{"author":"Elias's AI","timestamp":1786002575008}@@
-- Convention: give each `# Meeting:` marker a `meeting-doc-template::` link to the Google Doc the facilitators copy for that meeting. Optional, and the platform currently ignores it, but it keeps the meeting doc discoverable next to the schedule.++}
+- The body is only `# Module:` wikilink refs and `# Meeting: <name>` markers, in learner order.
+- Convention: give each `# Meeting:` marker a `meeting-doc-template::` link to the Google Doc the facilitators copy for that meeting. Optional, and the platform currently ignores it, but it keeps the meeting doc discoverable next to the schedule.
 - Everything between two meetings belongs to one meeting's preparation.
