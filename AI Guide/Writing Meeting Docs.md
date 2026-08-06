@@ -4,7 +4,7 @@ tags:
 ---
 # Writing Meeting Docs (AI Guide)
 
-A meeting doc is the Google Doc a cohort group works through during a 90-minute video meeting. Its link lives in the corresponding course file (see [[Writing Course Files]]).{>>{"author":"Luc","timestamp":1786024084044}@@This needs context about how our courses work and what we're trying to achieve. Tell the AI *Why* we want these meeting docs and what we want to ultimately achieve with these meetings.<<}{>>{"author":"Luc","timestamp":1786024100806}@@I'm not entirely sure this helps. It could even make things worse, but overall, I expect it to help.<<}
+A meeting doc is the Google Doc a cohort group works through during a 90-minute video meeting. Its link lives in the corresponding course file (see [[Writing Course Files]]).
 
 ## How to create a meeting doc
 
