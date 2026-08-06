@@ -30,7 +30,7 @@ meeting-doc-template:: https://docs.google.com/document/d/19-KJb0ZEVlVYJoVMOnY5x
 # Module: [[../modules/IABIED M5 Facing The Challenge, Part 1]]
 
 # Meeting: Facing the Challenge, part 1
-meeting-doc-template:: https://docs.google.com/document/d/1WRMD6tnKCpFTQIztTAEBBJQsmb7yzFy3mxjg5b4JQZY/edit?tab=t.0#heading=h.by5wcelvjnsd
+meeting-doc-template:: {--{"author":"Elias's AI","timestamp":1786028580487}@@https://docs.google.com/document/d/1WRMD6tnKCpFTQIztTAEBBJQsmb7yzFy3mxjg5b4JQZY/edit?tab=t.0#heading=h.by5wcelvjnsd--}{++{"author":"Elias's AI","timestamp":1786028580487}@@https://docs.google.com/document/d/1dW_VlZoAn6eLR0_ZY8XvQvRoVvr51a23XAXMAnH_bSI/edit++}
 
 # Module: [[../modules/IABIED M6 Facing The Challenge, Part 2]]
 
