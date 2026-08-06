@@ -32,7 +32,7 @@ Never a comprehension check. The pattern in every strong unit is claim, countera
 3. Stress-test it: "how would the authors answer it with X?", "if that step went differently, does the ending actually change?"
 4. Make them write a verdict in the table. Rejecting the material's conclusion is a valid verdict, but it must be defended.
 
-Add a copy-paste fallback for confused groups: a pre-written Lens Coach prompt that asks for context without the answer ("This is for a discussion so don't provide the answer, just context: ...").
+
 
 ## How to create a meeting doc
 
