@@ -10,7 +10,7 @@ discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 # Module: [[../modules/IABIED M1 Intro and Nonhuman Minds, Part 1]]
 
 # Meeting: Introduction
-meeting-doc-template:: https://docs.google.com/document/d/1QSbyN9AvTn2bJ2ZV_HXKzlGhyyaLlKbi47tD3MZNXtQ/edit
+meeting-doc-template:: {--{"author":"Elias's AI","timestamp":1786038977498}@@https://docs.google.com/document/d/1QSbyN9AvTn2bJ2ZV_HXKzlGhyyaLlKbi47tD3MZNXtQ/edit--}{++{"author":"Elias's AI","timestamp":1786038977498}@@https://docs.google.com/document/d/1aH0zK_oljINf5h9mvLjTeiQbwSj6Uxsjo1Wv3RAKfbo/edit++}
 
 # Module: [[../modules/IABIED M2 Nonhuman Minds, Part 2]]
 
