@@ -16,7 +16,7 @@ Docs have four tabs:
 - Navigator Run-Sheet (how to run the session)
 - Glossary (Optional list of relevant concepts and their definitions)
 
-###
+### Session Doc tab
 - **Room 1: icebreaker.** Two go-arounds. First, always: how was working through this week's content, did you finish, what got in the way (keep the "No judgment, 'I didn't finish' is a totally fine answer" line verbatim). Second, week-specific: a warm-up that pulls the material back to mind and names a feeling ("which moment/curse stuck with you, and in one word, how did it leave you feeling?").
 - **Room 2: the question.** The week's central discussion; see below.
 - **Room 3: the flexible slot.** Default: groups compare their Room-2 answers, then dig into a question they craft themselves or borrow from the question bank. Action-plan weeks replace it: sharing strengths and contribution ideas (week 4), rehearsing the whole argument in three minutes on mock newcomers (week 6).
