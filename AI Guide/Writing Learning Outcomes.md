@@ -10,7 +10,8 @@ Best practices:
 ...
 
 
-Our design p
+Our design pattern:
+Learning outcome
 
 
 ## What a learning outcome is (and isn't)
