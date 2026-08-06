@@ -45,7 +45,7 @@ Copy the master template and fill in what participants see; the structure, timin
 ## Validation
 (spawn a sub-agent and check if the session doc fulfills all the following criteria - if not)
 
-1. Go through each tab of the master template (https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4 (if not, list all places where it differs from the master template)
+1. Go through each tab of the master template (https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4) and check if  (if not, list all places where it differs from the master template)
 	- Participant FAQ contains all questions and answers in the master template
 	- Navigator run-sheet tab contains all instructions from the master template
 	- Glossary (Optional list of relevant concepts and their definitions)
