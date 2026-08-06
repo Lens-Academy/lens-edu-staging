@@ -141,8 +141,6 @@ One thing you're glad you know now that you didn't know two hours ago.
 	1. Every claim the doc attributes to the source(s) is actually made there; prompts never strawman the material.
 	2. The main rooms target the unit's central content (what its learning outcomes care about), not a side detail.
 
-### Agent 3: Content fidelity
-
 ### Agent 4: Logistics and links
 1. The doc title names the right course and unit, and the [Group] placeholder is still unfilled (navigators fill it per copy).
 2. The attendance link points at this unit's form, not a previous unit's (the classic copy-paste failure).
