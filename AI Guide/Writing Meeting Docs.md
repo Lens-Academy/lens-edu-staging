@@ -34,10 +34,6 @@ Never a comprehension check. The pattern in every strong unit is claim, countera
 
 Add a copy-paste fallback for confused groups: a pre-written Lens Coach prompt that asks for context without the answer ("This is for a discussion so don't provide the answer, just context: ...").
 
-## Question-bank questions
-
-
-
 ## How to create a meeting doc
 
 1. Make a copy of the master template and fill it out
