@@ -6,7 +6,7 @@ tags:
 
 A meeting doc is the Google Doc a cohort group works through during a 90-minute video meeting. Its link lives in a the corresponding course file (see [[Writing Course Files]]). 
 
-Master meeting doc template here: https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4 read before to understand structure and create new meeting docs based on a copy of this template
+Master meeting doc template here: https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4 read to understand structure and create new meeting docs based on a copy of this template.
 
 ## The fixed skeleton
 
