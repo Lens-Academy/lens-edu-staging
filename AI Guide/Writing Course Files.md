@@ -16,7 +16,7 @@ tags: [IABIED]
 discussion: https://discord.com/channels/...
 ---
 # Module: [[../modules/IABIED M1 Intro, Part 1]]
-# Meeting: Me
+# Meeting: Meeting 1 name
 meeting-doc-template:: https://docs.google.com/document/d/...
 # Module: [[../modules/IABIED M2 Nonhuman Minds, Part 2]]
 # Meeting: Meeting 2 name
