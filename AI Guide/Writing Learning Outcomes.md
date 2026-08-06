@@ -11,7 +11,8 @@ Best practices:
 
 
 Our design pattern:
-- learning outcomes are binary tests. Maybe build up of subjudgements, e.g. "answer should pass on 3 out "
+- learning outcomes are binary tests. Maybe build up of subjudgements, e.g. "answer should pass on 3 out of these 5 criteria"
+- 
 
 
 ## What a learning outcome is (and isn't)
