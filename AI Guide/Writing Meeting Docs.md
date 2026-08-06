@@ -25,6 +25,7 @@ Terms and definitions for the course, ordered by module so participants can look
 
 ## Writing the Room 2 question
 
+Never a comprehension check. The pattern in every strong unit is claim, counterargument, stress-test, verdict:
 
 1. State the unit's central claim in one or two sentences.
 2. Ask the group to build the strongest surviving objection (or find the weakest link, or the hardest-to-believe step).
