@@ -4,14 +4,14 @@ tags:
 ---
 # Writing Meeting Docs (AI Guide)
 
-A meeting doc is the Google Doc a cohort group works through during a 90-minute video meeting. Its link lives in the corresponding course file (see [[Writing Course Files]]).
+A meeting doc is the Google Doc a cohort group works through during a 90-minute video meeting. Its link lives in the corresponding course file (see [[Writing Course Files]]).{>>{"author":"Luc","timestamp":1786024084044}@@This needs context about how our courses work and what we're trying to achieve. Tell the AI *Why* we want these meeting docs and what we want to ultimately achieve with these meetings.<<}
 
 ## How to create a meeting doc
 
 1. Make a copy of the master template (https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4) and fill it out.
 2. Spawn all validation sub-agents described below with a link to the doc and the exact instruction text
 3. If every check passes, you are done. If not, fix the errors and spawn fresh versions of the agents that failed, repeat that cycle, until every agent passed
-4. Report to the user how many itterations you had to do 
+4. Report to the user how many itterations you had to do of each agent and wher
 
 ## Validation instructions
 
