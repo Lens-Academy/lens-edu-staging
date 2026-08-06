@@ -46,4 +46,4 @@ Copy the master template and fill in what participants see; the structure, timin
 (spawn a sub-agent and check if the session doc fulfills all the following criteria - if not)
 
 1. Go through each tab of the master template (https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4) and check if the session doc you are validating is a filled version of it
-2. If 
+2. If this is the first
