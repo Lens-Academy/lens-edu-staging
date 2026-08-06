@@ -13,17 +13,17 @@ A meeting doc is the Google Doc a cohort group works through during a 90-minute 
 3. The validation instructions below describe what makes a good meeting doc. Take some time to think hard (and/or brainstorm with the user) what prompts would make this meeting most valuable. - Be creative and critical. It's about creating the best possible education, not just creating cheap adaptations of the examples below.
 4. Spawn all validation sub-agents described below with a link to the doc and their exact instruction text
 5. If every check passes, you are done. If not, fix the errors and spawn fresh versions of the agents that failed. Repeat that cycle until every agent passed
-6. Link to the meeting doc in the course file it belongs to
+6. Link to the meeting doc in the course file it belongs to (see [[Writing Course Files]]).
 7. Report to the user how many iterations you had to do for each agent and where they didn't pass
 
 ## Validation instructions
 
 ### Agent 1: Template match
 Go through each tab of the master template (https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4) and check if the discussion doc you are validating is a filled version of it:
-1. Every {--{"author":"Elias's AI","timestamp":1786028579452}@@[bracketed placeholder]--}{++{"author":"Elias's AI","timestamp":1786028579452}@@{{placeholder}}++} is filled; none left over.
+1. Every {{placeholder}} is filled; none left over.
 2. The fixed parts match the master template exactly.
 3. The glossary is filled: ordered by module, each term defined once at its first appearance, in one or two sentences, in the source's framing.
-4. The doc title names the right course and unit, and the {--{"author":"Elias's AI","timestamp":1786028579961}@@[Group]--}{++{"author":"Elias's AI","timestamp":1786028579961}@@{{Group}}++} placeholder is still unfilled.
+4. The doc title names the right course and unit, and the [Group] placeholder is still unfilled.
 3. The run-sheet's next-unit heads-up matches the next unit's actual reading; in the final unit it says there is none.
 
 ### Agent 2: Room quality
