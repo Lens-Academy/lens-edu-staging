@@ -135,9 +135,9 @@ One thing you're glad you know now that you didn't know two hours ago.
 
 ### Agent 3: Content fidelity
 Read the unit's actual content (the module with its lenses, learning outcomes, and readings) and check the doc against it:
-3. Every claim the doc attributes to the source is actually made there; prompts never strawman the material.
-3. Question-bank entries point at real claims, scenes, or moments in the text.
-4. The main rooms target the unit's central content (what its learning outcomes care about), not a side detail.
+1. Every claim the doc attributes to the source is actually made there; prompts never strawman the material.
+2. Question-bank entries point at real claims, scenes, or moments in the text.
+3. The main rooms target the unit's central content (what its learning outcomes care about), not a side detail.
 
 ### Agent 4: Logistics and links
 1. The doc title names the right course and unit, and the [Group] placeholder is still unfilled (navigators fill it per copy).
