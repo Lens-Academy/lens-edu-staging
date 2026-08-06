@@ -42,10 +42,11 @@ Open (more than one defensible answer), pointed at a specific claim, analogy, or
 
 1. Make a copy of the master template and fill it out
 2. Spawn a sub-agent with a link to the doc and a verbatim copy of the validation instructions below
-3. If every check passes you are done. If not, fix the errors and go back to step 2 (don't re-use the same agent, but rather spawn a new one)
+3. If every check passes, you are done. If not, fix the errors and go back to step 2 (don't re-use the same agent, but rather spawn a new one)
 
 ## Validation instructions
 
+### 
 1. Go through each tab of the master template (https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4) and check if the discussion doc you are validating is a filled version of it
 2. If this is the first meeting of a multi-meeting course: Does the icebreaker contain a light question for people to get to know each other?
 3. 
