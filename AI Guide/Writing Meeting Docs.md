@@ -50,5 +50,5 @@ Go through each tab of the master template (https://docs.google.com/document/d/1
 4. There is a clear arc to the meeting (Discussion prompts connect cleanly)
 5. Prompts for room 2 and 3 follow one of the approved patterns:
 	- Make a claim → ask group to find and discuss arguments for/against → come up with a verdict
-	- 
+	- Ask group 
 7. Complex questions contain a note: "Not sure you fully understand this question? Copy it into Lens Coach, and ask for an explanation."
