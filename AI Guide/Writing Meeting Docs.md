@@ -87,11 +87,14 @@ Would you sign it? The book ends with a concrete ask: a worldwide halt on fronti
 Stage the text's own disagreement:
 ```
 Klurl vs Trapaucius. Trapaucius argues that any being smart enough will grasp its "purpose" and pursue only that. Klurl replies: "they'd know, but would they care?" Who's right about humans, and what does that predict for AI?
+
+If you don't understand this question, copy it into Lens coach to explain it.
 ```
 
 Practice (argue to a newcomer):
 ```
-The three-minute version: one of you makes the book's whole argument in about 3 minutes to the others, who play people who have never heard of it and ask honest questions. When someone's version skips a step, or lands a line worth remembering, say it! You're each other's rehearsal audience for every future conversation about this. Swap roles if someone else wants to try.
+Pick a speaker that tries to make the book's whole argument in about 3 minutes to the others, who play people who have never heard of it and ask honest questions. 
+When someone's version skips a step, or lands a line worth remembering, say it! You're each other's rehearsal audience for every future conversation about this. Swap roles if someone else wants to try.
 ```
 
 Action-plan work:
@@ -103,7 +106,7 @@ Action-plan work:
 
 Collect and vote:
 ```
-Write one or two discussion questions you'd genuinely like the group to dig into. Vote: you have 5 votes, put a + next to the questions you most want to discuss. We'll take the top-voted questions, hear from whoever wrote them, and discuss.
+Take a second to write down one or two discussion questions you'd genuinely like the group to dig into. Vote: you have 5 votes, put a + next to the questions you most want to discuss. We'll take the top-voted questions, hear from whoever wrote them, and discuss.
 ```
 
 3. **Room 4 is reflective.** Recommended shape (do not fail a doc for a different reflective close), the real prompt:
