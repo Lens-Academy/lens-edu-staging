@@ -52,4 +52,4 @@ Instructions:
 
 ### Agent 2: Breakout room prompt quality
 1. If this is the first meeting of a multi-meeting course: Does the icebreaker contain a light question for people to get to know each other?
-2. Every questi
+2. Every question is open enough to 
