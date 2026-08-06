@@ -66,7 +66,7 @@ The book's claim this unit: **humanity gets one shot at aligning superintelligen
 
 As a group, build the strongest counterargument you can. Pick your best one and stress-test it: how would the authors answer it with the five curses? Write your verdict: does your counterargument survive?
 
-If you can't find stong counter-arguments, ask lens coach and 
+If you can't find stong counter-arguments, ask lens coach to help you.
 ```
 
 For narrative or scenario units, find the weakest step:
