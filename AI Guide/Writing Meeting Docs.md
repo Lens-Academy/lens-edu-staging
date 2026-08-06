@@ -54,7 +54,7 @@ And add a second question like the following:
 ```
 
 ```
-What's something, completely unrelated to AI, that you've been enjoying lately?
+	2. What's something, completely unrelated to AI, that you've been enjoying lately?
 ```
 
 2. **Rooms 2 and 3 lead to high-quality, engaging work on this unit**: a discussion of the content, action-plan work, or practice. Real examples:
