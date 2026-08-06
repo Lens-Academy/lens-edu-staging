@@ -52,4 +52,4 @@ Go through each tab of the master template (https://docs.google.com/document/d/1
 ### Agent 2: Breakout room prompt quality
 1. If this is the first meeting of a multi-meeting course: Does the icebreaker contain a light question for people to get to know each other?
 2. None of the breakout room prompts are likely to be answered very quickly, and leave participants without something to discuss
-3. Open (more than one defensible answer), pointed at a specific claim, analogy, or moment in the text rather than a broad topic, inviting disagreement or genuine uncertainty, and not settleable by looking something up.
+3. Every breakOpen (more than one defensible answer), pointed at a specific claim, analogy, or moment in the text rather than a broad topic, inviting disagreement or genuine uncertainty, and not settleable by looking something up.
