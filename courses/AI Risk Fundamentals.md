@@ -7,6 +7,12 @@ description: "This is an introductory AI safety course that assumes no prior kno
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 ---
 
+%%
+Some overarching non-learning outcomes we want to achieve:
+[[../Outcomes/Dummy - Agency to contribute]]
+[[../Outcomes/Dummy - Personal contribution plan]]
+[[../Outcomes/Dummy - Discuss AI risk with two people]]
+%%
 # Module: [[../modules/IABIED M1 Intro and Nonhuman Minds, Part 1]]
 
 # Meeting: Introduction
