@@ -75,7 +75,8 @@ Did the story about X do its job?
 The authors are explicit: **The pathway is illustrative, only the outcome is predicted.** 
 
 Go around: 
-- Did the story make the risk feel more real, or did the specifics hand you new objections? Then find the step in the story's path you find hardest to believe, and test it: if that step went differently, does the ending actually change, or does the story route around it?
+- Did the story make the risk feel more real, or did the specifics hand you new objections? 
+- Find the step in the story's path you find hardest to believe, and test it: if that step went differently, does the ending actually change, or does the story route around it?
 ```
 
 For proposals or asks, reject-means-defend-an-alternative:
