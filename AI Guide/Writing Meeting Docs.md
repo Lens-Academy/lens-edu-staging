@@ -46,7 +46,8 @@ Copy the master template and fill in what participants see; the structure, timin
 (spawn a sub-agent and check if the session doc fulfills all the following criteria - if not)
 
 1. Meeting doc fully reflects the master template: https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4 (if not, list all places where it differs from the master template)
-	- Session doc ta
+	- Session doc tab has the same introduction
+	- 
 	- Participant FAQ contains all the same questions and answers
 	- Navigator
 
