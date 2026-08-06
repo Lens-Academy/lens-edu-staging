@@ -118,7 +118,8 @@ Take a second to write down one or two discussion questions you'd genuinely like
 
 Final unit variant:
 ```
-Your ongoing action: the course ends today but your action plan doesn't! Share the one action you choose to keep doing after this course (have conversations, write representatives, refer someone, aim your skills at the problem), and its first concrete step with a date.
+**Your ongoing action*
+The course ends today but your action plan doesn't! Share the one action you choose to keep doing after this course (have conversations, write representatives, refer someone, aim your skills at the problem), and its first concrete step with a date.
 ```
 
 4. **The wrap-up hands people off well.** At least one of:
