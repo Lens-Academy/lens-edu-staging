@@ -25,6 +25,5 @@ meeting-doc-template:: https://docs.google.com/document/d/...
 
 Optional frontmatter: `slug-aliases`, `partner-name`, `partner-logo`, `partner-logo-small`, `partner-url`.
 
-- The body is only `# Module:` wikilink refs and `# Meeting: <name>` markers, in learner order.
-- Link each the template for each weeks meeting doc below the meeting doc template 
 - Everything between two meetings belongs to one meeting's preparation.
+
