@@ -9,32 +9,32 @@ discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 
 # Module: [[../modules/IABIED M1 Intro and Nonhuman Minds, Part 1]]
 
-# Meeting: Introduction{++{"author":"Elias's AI","timestamp":1786004135163}@@
-meeting-doc-template:: https://docs.google.com/document/d/1QSbyN9AvTn2bJ2ZV_HXKzlGhyyaLlKbi47tD3MZNXtQ/edit++}
+# Meeting: Introduction
+meeting-doc-template:: https://docs.google.com/document/d/1QSbyN9AvTn2bJ2ZV_HXKzlGhyyaLlKbi47tD3MZNXtQ/edit
 
 # Module: [[../modules/IABIED M2 Nonhuman Minds, Part 2]]
 
-# Meeting: Nonhuman Minds part 2{++{"author":"Elias's AI","timestamp":1786004135523}@@
-meeting-doc-template:: https://docs.google.com/document/d/1hNj0npIxflO6C5AJcNPHms7HOiH_hlAgomBPQVhfp2A/edit++}
+# Meeting: Nonhuman Minds part 2
+meeting-doc-template:: https://docs.google.com/document/d/1hNj0npIxflO6C5AJcNPHms7HOiH_hlAgomBPQVhfp2A/edit
 
 # Module: [[../modules/IABIED M3 Nonhuman Minds, Part 3]]
 
-# Meeting: Nonhuman Minds part 3{++{"author":"Elias's AI","timestamp":1786002826772}@@
-meeting-doc-template:: https://docs.google.com/document/d/1Gg6RHLoWzjegjqeAL_AioitZdJE3tVL_t632h0COyMI/edit?tab=t.5zezxjw3os3p++}
+# Meeting: Nonhuman Minds part 3
+meeting-doc-template:: https://docs.google.com/document/d/1Gg6RHLoWzjegjqeAL_AioitZdJE3tVL_t632h0COyMI/edit?tab=t.5zezxjw3os3p
 
 # Module: [[../modules/IABIED M4 One Extinction Scenario]]
 
-# Meeting: One Extinction Scenario{++{"author":"Elias's AI","timestamp":1786002827098}@@
-meeting-doc-template:: https://docs.google.com/document/d/19-KJb0ZEVlVYJoVMOnY5xbAm6UJdynAFM0nm7NSg9dg/edit?tab=t.0++}
+# Meeting: One Extinction Scenario
+meeting-doc-template:: https://docs.google.com/document/d/19-KJb0ZEVlVYJoVMOnY5xbAm6UJdynAFM0nm7NSg9dg/edit?tab=t.0
 
 # Module: [[../modules/IABIED M5 Facing The Challenge, Part 1]]
 
-# Meeting: Facing the Challenge, part 1{++{"author":"Elias's AI","timestamp":1786002827431}@@
-meeting-doc-template:: https://docs.google.com/document/d/1WRMD6tnKCpFTQIztTAEBBJQsmb7yzFy3mxjg5b4JQZY/edit?tab=t.0#heading=h.by5wcelvjnsd++}
+# Meeting: Facing the Challenge, part 1
+meeting-doc-template:: https://docs.google.com/document/d/1WRMD6tnKCpFTQIztTAEBBJQsmb7yzFy3mxjg5b4JQZY/edit?tab=t.0#heading=h.by5wcelvjnsd
 
 # Module: [[../modules/IABIED M6 Facing The Challenge, Part 2]]
 
-# Meeting: Facing the Challenge, part 2{++{"author":"Elias's AI","timestamp":1786002827785}@@
-meeting-doc-template:: https://docs.google.com/document/d/1rewnfH3QqcK_WhwD2i1ylfVyldH3sXb6eA45dDeQJ6M/edit?tab=t.0#heading=h.by5wcelvjnsd++}
+# Meeting: Facing the Challenge, part 2
+meeting-doc-template:: https://docs.google.com/document/d/1rewnfH3QqcK_WhwD2i1ylfVyldH3sXb6eA45dDeQJ6M/edit?tab=t.0#heading=h.by5wcelvjnsd
 
 
