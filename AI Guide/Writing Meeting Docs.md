@@ -11,7 +11,7 @@ Master meeting doc template here: https://docs.google.com/document/d/1YDA7MukJk5
 ## The fixed skeleton
 
 Docs have four tabs: 
-- Session Doc (participants go through itanwork in it)
+- Session Doc (participants go through it and fill it out)
 - Participant FAQ
 - Navigator Run-Sheet (how to run the session)
 - Glossary (Optional list of relevant concepts and their definitions)
