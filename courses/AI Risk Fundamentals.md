@@ -9,11 +9,13 @@ discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 
 # Module: [[../modules/IABIED M1 Intro and Nonhuman Minds, Part 1]]
 
-# Meeting: Introduction
+# Meeting: Introduction{++{"author":"Elias's AI","timestamp":1786004135163}@@
+meeting-doc-template:: https://docs.google.com/document/d/1QSbyN9AvTn2bJ2ZV_HXKzlGhyyaLlKbi47tD3MZNXtQ/edit++}
 
 # Module: [[../modules/IABIED M2 Nonhuman Minds, Part 2]]
 
-# Meeting: Nonhuman Minds part 2
+# Meeting: Nonhuman Minds part 2{++{"author":"Elias's AI","timestamp":1786004135523}@@
+meeting-doc-template:: https://docs.google.com/document/d/1hNj0npIxflO6C5AJcNPHms7HOiH_hlAgomBPQVhfp2A/edit++}
 
 # Module: [[../modules/IABIED M3 Nonhuman Minds, Part 3]]
 
