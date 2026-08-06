@@ -138,7 +138,7 @@ One thing you're glad you know now that you didn't know two hours ago.
 6. Complex questions contain a note like: "Not sure what the question is asking? Copy it into Lens Coach, and ask for an explanation."
 
 ### Agent 3: Content fidelity
-Read the unit's actual content (the module with its lenses, learning outcomes, and readings) and check the doc against it:
+Read the unit's actual content (the module(s) with its lenses, learning outcomes, and readings) and check the doc against it:
 1. Every claim the doc attributes to the source is actually made there; prompts never strawman the material.
 2. Question-bank entries point at real claims, scenes, or moments in the text.
 3. The main rooms target the unit's central content (what its learning outcomes care about), not a side detail.
