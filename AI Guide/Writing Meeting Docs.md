@@ -13,7 +13,7 @@ A meeting doc is the Google Doc a cohort group works through during a 90-minute 
 3. The validation instructions below describe what makes a good meeting doc. Take some time to think hard (and/or brainstorm with the user) what prompts would make this meeting most valuable. - Be creative and critical. It's about creating the best possible education, not just creating cheap adaptations of the examples below.
 4. Spawn all validation sub-agents described below with a link to the doc and their exact instruction text
 5. If every check passes, you are done. If not, fix the errors and spawn fresh versions of the agents that failed. Repeat that cycle until every agent passed
-6. Link to the meeting doc in the course file it belongs to (see Add the link of the discussion doc under the `# Meeting:` heading of  marker for this unit carries a `meeting-doc-template::` line with this doc's link.
+6. Link to the meeting doc in the course file it belongs to
 7. Report to the user how many iterations you had to do for each agent and where they didn't pass
 
 ## Validation instructions
