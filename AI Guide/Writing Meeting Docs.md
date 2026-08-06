@@ -17,8 +17,6 @@ Docs have four tabs:
 - Glossary (Optional list of relevant concepts and their definitions)
 
 
-Timeline (90 min): {--{"author":"Elias's AI","timestamp":1786008108575}@@welcome--}{++{"author":"Elias's AI","timestamp":1786008108575}@@lobby++} 0:00–0:05, Room 1 0:05–0:20, Room 2 {--{"author":"Elias's AI","timestamp":1786008108575}@@0:20–0:40,--}{++{"author":"Elias's AI","timestamp":1786008108575}@@0:20–0:42,++} break {--{"author":"Elias's AI","timestamp":1786008108575}@@0:40–0:45,--}{++{"author":"Elias's AI","timestamp":1786008108575}@@0:42–0:47,++} Room 3 {--{"author":"Elias's AI","timestamp":1786008108575}@@0:45–1:07,--}{++{"author":"Elias's AI","timestamp":1786008108575}@@0:47–1:10,++} Room 4 {--{"author":"Elias's AI","timestamp":1786008108575}@@1:07–1:22, wrap-up 1:22–1:30.--}{++{"author":"Elias's AI","timestamp":1786008108575}@@1:10–1:25, goodbye 1:25–1:30.++}
-
 - **Room 1: icebreaker.** Two go-arounds. First, always: how was working through this week's content, did you finish, what got in the way (keep the "No judgment, 'I didn't finish' is a totally fine answer" line verbatim). Second, week-specific: a warm-up that pulls the material back to mind and names a feeling ("which moment/curse stuck with you, and in one word, how did it leave you feeling?").
 - **Room 2: the question.** The week's central discussion; see below.
 - **Room 3: the flexible slot.** Default: groups compare their Room-2 answers, then dig into a question they craft themselves or borrow from the question bank. Action-plan weeks replace it: sharing strengths and contribution ideas (week 4), rehearsing the whole argument in three minutes on mock newcomers (week 6).
