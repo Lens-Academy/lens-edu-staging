@@ -27,11 +27,11 @@ Top of the doc: the reading line ("Reading group for <book>. This {--{"author":"
 
 Bottom of the doc: the question bank ("Stuck for a Room-3 question? Borrow one of these"), a few questions per {--{"author":"Elias's AI","timestamp":1786010865368}@@chapter.--}{++{"author":"Elias's AI","timestamp":1786010865368}@@chapter of the unit.++}
 
-## {++{"author":"Elias's AI","timestamp":1786008545720}@@The glossary tab
+## The glossary tab
 
 Terms and definitions for the course, ordered by module so participants can look a term up when they first meet it. Define each term once, at its first appearance, in one or two sentences, in the source's framing. Compile from the course's Learning Outcomes and Lens materials. The master template shows the structure with placeholders.
 
-## ++}Writing the Room 2 question
+## Writing the Room 2 question
 
 Never a comprehension check. The pattern in every strong {--{"author":"Elias's AI","timestamp":1786010865672}@@week--}{++{"author":"Elias's AI","timestamp":1786010865672}@@unit++} is claim, counterargument, stress-test, verdict:
 
