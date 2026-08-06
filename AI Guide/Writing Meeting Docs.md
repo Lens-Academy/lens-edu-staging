@@ -26,7 +26,7 @@ Go through each tab of the master template (https://docs.google.com/document/d/1
 ### Agent 2: Room quality
 Judge each room against its role. The examples below are real prompts from past unit docs: they show the quality bar, not required shapes. A room passes if it serves its role well, whatever shape it takes.
 
-1. **Room 1 is a good icebreaker**: no wrong answers, and it warms people up to each other and toward the material. If this is the first meeting of a multi-meeting course, it must include a get-to-know-each-other question. Real examples:
+1. **Room 1 is a good icebreaker**: Warms people up to each other and toward the material. If this is the first meeting of a multi-meeting course, it must include a get-to-know-each-other question. Real examples:
 
 ```
 How was working through this unit's content? Answer any of: did you finish? More or less enjoyable than the last unit? Harder or easier? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a totally fine answer.)
