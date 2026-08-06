@@ -26,4 +26,4 @@ meeting-doc-template:: https://docs.google.com/document/d/...
 Optional frontmatter: `slug-aliases`, `partner-name`, `partner-logo`, `partner-logo-small`, `partner-url`.
 
 - Everything between two meetings belongs to one meeting's preparation.
-- If the course has in-person meetings, a template to the google doc for 
+- If the course has in-person meetings, the meeting doc template 
