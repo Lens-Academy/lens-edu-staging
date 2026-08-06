@@ -71,7 +71,7 @@ If you can't find strong counterarguments, ask the lens coach to help you.
 
 For narrative or scenario units, find the weakest step:
 ```
-Did the story do its job? The authors are explicit: the pathway is illustrative, only the outcome is predicted. Go around: did the story make the risk feel more real, or did the specifics hand you new objections? Then find the step in the story's path you find hardest to believe, and test it: if that step went differently, does the ending actually change, or does the story route around it?
+Did story [] do its job? The authors are explicit: the pathway is illustrative, only the outcome is predicted. Go around: did the story make the risk feel more real, or did the specifics hand you new objections? Then find the step in the story's path you find hardest to believe, and test it: if that step went differently, does the ending actually change, or does the story route around it?
 ```
 
 For proposals or asks, reject-means-defend-an-alternative:
