@@ -57,7 +57,7 @@ And add one or multiple questions after that. Examples:
 	2. What's something, completely unrelated to AI, that you've been enjoying lately?
 ```
 
-2. **Rooms 2 and 3 lead to high-quality, engaging work on this unit**: a discussion of the content, action-plan work, or practice. Real examples:
+2. **Rooms 2 and 3 lead to high-quality, engaging work on this unit**: a discussion of the content, action-plan work, or practice. Some examples:
 
 Claim, strongest counterargument, stress-test, verdict:
 ```
