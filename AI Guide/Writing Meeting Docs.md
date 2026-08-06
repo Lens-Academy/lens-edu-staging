@@ -49,4 +49,4 @@ Go through each tab of the master template (https://docs.google.com/document/d/1
 3. Every breakout room prompt is open (more than one defensible answer), inviting disagreement or genuine uncertainty, and not settleable by looking something up.
 4. There is a clear arc to the meeting (Discussion prompts connect cleanly)
 5. At least one prompt clearly requires critical thinking and engagement with questions
-6. Complex prompts contain a note that participants should ask lens coach if they  
+6. Complex prompts contain a note that participants should ask Lens Coach if they don't underst  
