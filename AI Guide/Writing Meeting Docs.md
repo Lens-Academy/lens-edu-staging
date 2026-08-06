@@ -124,7 +124,7 @@ The course ends today but your action plan doesn't! Share the one action you cho
 
 4. **The wrap-up hands people off well.** At least one of:
 	- The information participants need after this meeting, as a short list of links, calls to action, or reminders, with a note that the navigator talks through them (mirrored in the run-sheet as an after-this-meeting section)
-	- An open closing question to the whole group that people can answer voluntarily, for a cohesive ending. Example:
+	- An open closing question to the whole group that people can answer voluntarily, for a cohesive ending that makes participan. Example:
 ```
 One thing you're glad you know now that you didn't know two hours ago.
 ```
