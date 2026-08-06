@@ -41,6 +41,7 @@ Open (more than one defensible answer), pointed at a specific claim, analogy, or
 ## How to create a meeting doc
 
 1. Make a copy of the master template and fill it out
+2. Spawn a sub-agent with 
 
 Copy the master template and fill in what participants see; the structure, timings, tables, and navigator instructions stay. That means: the reading line, Room 1's second question, Room 2's question, Room 3 when it is an action-plan unit, Room 4's next-unit text, the question bank, and the wrap-up heads-up. Keep the fixed parts verbatim; participants reread these docs every unit and stability lowers friction.
 
