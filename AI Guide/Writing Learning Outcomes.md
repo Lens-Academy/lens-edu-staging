@@ -6,7 +6,14 @@ tags:
 
 Luc's additions 6 august:
 
-Best practices:
+{++{"author":"Luc's AI","timestamp":1786049327112}@@{>>{"author":"Luc's AI","timestamp":1786049327112}@@Use somewhere in courses, but maybe not in learning outcomes skill, which might be only about capabilities?<<}
+{>>{"author":"Luc's AI","timestamp":1786049327112}@@We might need Skill for "talking to others" and Habit for "thinking in terms of expected value"<<}
+{>>{"author":"Luc's AI","timestamp":1786049327112}@@hmm what exactly does this mean? seems potentially useful though<<}
+{>>{"author":"Luc's AI","timestamp":1786049327112}@@we should definitely be using self-determination theory as an evidence-based alternative to our mobilization system<<}
+{>>{"author":"Luc's AI","timestamp":1786049327112}@@I think we also want to mention this in our course creation skills, just to kind of increase the amount of attention in the network on these sorts of thinking.<<}
+{>>{"author":"Luc's AI","timestamp":1786049327112}@@same here, have in course<<}
+
+++}Best practices:
 ...
 
 
