@@ -51,5 +51,5 @@ Instructions:
 > Go through each tab of the master template (https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4) and check if the discussion doc you are validating is a filled version of it
 
 ### Agent 2: Question 
-2. If this is the first meeting of a multi-meeting course: Does the icebreaker contain a light question for people to get to know each other?
-3. 
+1. If this is the first meeting of a multi-meeting course: Does the icebreaker contain a light question for people to get to know each other?
+2. 
