@@ -11,7 +11,7 @@ Best practices:
 
 
 Our design pattern:
-- learning outcomes are 
+- learning outcomes are binary tests. Maybe build up of subjudgem
 
 
 ## What a learning outcome is (and isn't)
