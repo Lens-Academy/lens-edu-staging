@@ -51,4 +51,4 @@ Go through each tab of the master template (https://docs.google.com/document/d/1
 
 ### Agent 2: Breakout room prompt quality
 1. If this is the first meeting of a multi-meeting course: Does the icebreaker contain a light question for people to get to know each other?
-2. Breakout room prompts are unlikely to be answered very quickly risks to be answered very  
+2. Breakout room prompts are unlikely to be answered very quickly and leave 
