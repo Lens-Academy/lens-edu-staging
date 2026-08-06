@@ -11,7 +11,7 @@ Best practices:
 
 
 Our design pattern:
-Learning outcome
+- learning outcomes are 
 
 
 ## What a learning outcome is (and isn't)
