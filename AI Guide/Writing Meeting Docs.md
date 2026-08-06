@@ -9,7 +9,7 @@ A meeting doc is the Google Doc a cohort group works through during a 90-minute 
 ## How to create a meeting doc
 
 1. Make a copy of the master template (https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4)
-2. Get an overview over the course this doc belongs to and specifically the readings of the unit preceeding the meetingRead through this unit's course content and the validation instructions below
+2. Get an overview of the course this doc belongs to and specifically the readings of the unit preceding the meeting
 3. Take some time to think hard about what would make this meeting most valuable
 4. Spawn all validation sub-agents described below with a link to the doc and the exact instruction text
 5. If every check passes, you are done. If not, fix the errors and spawn fresh versions of the agents that failed, repeat that cycle until every agent passed
