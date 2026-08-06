@@ -11,7 +11,7 @@ A meeting doc is the Google Doc a cohort group works through during a 90-minute 
 1. Make a copy of the master template (https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4) and fill it out.
 2. Spawn all validation sub-agents described below with a link to the doc and the exact instruction text
 3. If every check passes, you are done. If not, fix the errors and spawn fresh versions of the agents that failed, repeat that cycle until every agent passed
-4. Report to the user how many iterations you had to do of each agent and where they didn't pass
+4. Report to the user how many iterations you had to do for each agent and where they didn't pass
 
 ## Validation instructions
 
