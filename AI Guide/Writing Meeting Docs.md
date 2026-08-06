@@ -53,5 +53,5 @@ Copy the master template and fill in what participants see; the structure, timin
 ## Validation
 (spawn a sub-agent and check if the session doc fulfills all the following criteria - if not)
 
-1. Session doc is up 
+1. Session doc is up to date with latest template structure
 
