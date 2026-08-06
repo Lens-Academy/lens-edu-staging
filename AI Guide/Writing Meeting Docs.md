@@ -50,3 +50,4 @@ Go through each tab of the master template (https://docs.google.com/document/d/1
 2. None of the breakout room prompts are likely to be answered very quickly, and leave participants without something to discuss
 3. Every breakout room prompt is open (more than one defensible answer), inviting disagreement or genuine uncertainty, and not settleable by looking something up.
 4. There is a clear arc to the meeting (Discussion prompts connect cleanly)
+5. 
