@@ -8,7 +8,7 @@ Course files live in `courses/`.
 
 ```markdown
 ---
-id: <uuid>                        # required
+id: <uuid>                        # {--{"author":"Elias's AI","timestamp":1786002593468}@@required--}{++{"author":"Elias's AI","timestamp":1786002593468}@@the course's stable UUID++}
 slug: ai-risk-fundamentals        # required
 title: "AI Risk Fundamentals"     # required
 description: "Shown on the course page."
