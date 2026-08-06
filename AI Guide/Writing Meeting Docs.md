@@ -32,8 +32,6 @@ Never a comprehension check. The pattern in every strong unit is claim, countera
 3. Stress-test it: "how would the authors answer it with X?", "if that step went differently, does the ending actually change?"
 4. Make them write a verdict in the table. Rejecting the material's conclusion is a valid verdict, but it must be defended.
 
-
-
 ## How to create a meeting doc
 
 1. Make a copy of the master template and fill it out
@@ -51,3 +49,4 @@ Go through each tab of the master template (https://docs.google.com/document/d/1
 3. Every breakout room prompt is open (more than one defensible answer), inviting disagreement or genuine uncertainty, and not settleable by looking something up.
 4. There is a clear arc to the meeting (Discussion prompts connect cleanly)
 5. At least one prompt clearly requires critical thinking and engagement with questions
+6. Complex qu
