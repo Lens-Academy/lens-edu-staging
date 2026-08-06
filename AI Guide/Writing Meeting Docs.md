@@ -53,6 +53,6 @@ Copy the master template and fill in what participants see; the structure, timin
 ## Validation
 (spawn a sub-agent and check if the session doc fulfills all the following criteria - if not)
 
-1. Meeting doc reflects latest master template structure (master template: https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4)
+1. Meeting doc is not behind the reflects latest master template structure (master template: https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4)
 2. 
 
