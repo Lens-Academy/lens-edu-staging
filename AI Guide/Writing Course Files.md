@@ -16,8 +16,8 @@ tags: [IABIED]
 discussion: https://discord.com/channels/...
 ---
 # Module: [[../modules/IABIED M1 Intro, Part 1]]
-# Meeting: Introduction{++{"author":"Elias's AI","timestamp":1786002574620}@@
-meeting-doc-template:: https://docs.google.com/document/d/...++}
+# Meeting: Introduction
+meeting-doc-template:: https://docs.google.com/document/d/...
 # Module: [[../modules/IABIED M2 Nonhuman Minds, Part 2]]
 ```
 
