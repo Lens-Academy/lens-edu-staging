@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786005083671}@@---
+---
 tags:
   - validator-ignore
 ---
@@ -42,4 +42,3 @@ Open (more than one defensible answer), pointed at a specific claim, analogy, or
 ## Making week N+1
 
 Copy the previous week's template and change only what participants see; the structure, timings, and navigator instructions stay. That means: the reading line, Room 1's second question, Room 2's question with its coach fallback and table columns, Room 3 when it is an action-plan week, Room 4's next-week text, the question bank, and the wrap-up heads-up. Keep the fixed parts verbatim; participants reread these docs weekly and stability lowers friction.
-++}
