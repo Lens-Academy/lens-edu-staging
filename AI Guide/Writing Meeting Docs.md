@@ -36,7 +36,7 @@ Add a copy-paste fallback for confused groups: a pre-written Lens Coach prompt t
 
 ## Question-bank questions
 
-Open (more than one defensible answer), pointed at a specific claim, analogy, or moment in the text rather than a broad topic, inviting disagreement or genuine uncertainty, and not settleable by looking something up.
+
 
 ## How to create a meeting doc
 
