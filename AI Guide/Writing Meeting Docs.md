@@ -137,10 +137,11 @@ One thing you're glad you know now that you didn't know two hours ago.
 5. General, for every room: prompts are open (more than one defensible answer), not exhausted in a minute, never a comprehension check, never teach their own answer in the setup text, doable by 3 to 4 strangers in the time slot, and the meeting has an arc: each room's output can be retold in a sentence or two when the next room opens.
 6. Complex questions contain a note like: "Not sure what the question is asking? Copy it into Lens Coach, and ask for an explanation."
 
-### Agent 3: Content fidelity
 Read the unit's actual content (the module(s) with its lenses, learning outcomes, and readings) and check the doc against it:
 1. Every claim the doc attributes to the source(s) is actually made there; prompts never strawman the material.
 2. The main rooms target the unit's central content (what its learning outcomes care about), not a side detail.
+
+### Agent 3: Content fidelity
 
 ### Agent 4: Logistics and links
 1. The doc title names the right course and unit, and the [Group] placeholder is still unfilled (navigators fill it per copy).
