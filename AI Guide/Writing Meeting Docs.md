@@ -45,7 +45,7 @@ Go around your group, two things:
 ```
 
 ```
-Which moment stuck? One scene from the story that stayed with you after you closed the book, the one you'd retell to a friend. And in one word, how did it leave you feeling: alarmed, skeptical, numb, motivated, something else?
+	2. Which moment stuck? One scene from the story that stayed with you after you closed the book, the one you'd retell to a friend. And in one word, how did it leave you feeling: alarmed, skeptical, numb, motivated, something else?
 ```
 
 ```
