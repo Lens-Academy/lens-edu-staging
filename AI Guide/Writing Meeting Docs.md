@@ -4,7 +4,7 @@ tags:
 ---
 # Writing Meeting Docs (AI Guide)
 
-A meeting doc is the Google Doc a cohort group works through during a 90-minute video meeting. It is not platform content: it lives in Google Drive as a per-week template ("<Course> Week N Session Doc Template"), linked from the course file via `meeting-doc-template::` under the `# Meeting:` marker (see [[Writing Course Files]]). Navigators copy the template for each group and fill in the group name, navigator, and meeting link. The doc has three tabs: Session Doc (participants work in it), Navigator Run-Sheet (how to run the session), and FAQ.
+A meeting doc is the Google Doc a cohort group works through during a 90-minute video meeting. I (see [[Writing Course Files]]). Navigators copy the template for each group and fill in the group name, navigator, and meeting link. The doc has three tabs: Session Doc (participants work in it), Navigator Run-Sheet (how to run the session), and FAQ.
 
 Canonical examples: the week 3 to 6 templates linked from `Lens Edu/courses/AI Risk Fundamentals.md`.
 
