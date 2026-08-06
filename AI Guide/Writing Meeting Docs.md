@@ -109,7 +109,7 @@ Collect and vote:
 Take a second to write down one or two discussion questions you'd genuinely like the group to dig into. Go around, present your questions, and discuss what you are most curious about.
 ```
 
-3. **Room 4 is reflective.** Recommended shape (do not fail a doc for a different reflective close). Example prompts:
+3. **Room 4 leaves participants with a clear plan/next step.** Recommended shape (do not fail a doc for a different reflective close). Example prompts:
 
 ```
 1. Next unit: what's most likely to stop you finishing the next unit's reading, and what's your plan to beat it? (After the meeting, send this plan to your accountability buddy; they'll check in with you before the next meeting.)
@@ -118,7 +118,7 @@ Take a second to write down one or two discussion questions you'd genuinely like
 
 Final unit variant:
 ```
-**Your ongoing action*
+**Your ongoing action**
 The course ends today but your action plan doesn't! Share the one action you choose to keep doing after this course (have conversations, write representatives, refer someone, aim your skills at the problem), and its first concrete step with a date.
 ```
 
