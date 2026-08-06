@@ -129,6 +129,7 @@ The course ends today but your action plan doesn't! Share the one action you cho
 One thing you're glad you know now that you didn't know two hours ago.
 ```
 	Both together are fine when the information list is short.
+
 5. General, for every room: prompts are open (more than one defensible answer), not exhausted in a minute, never a comprehension check, never teach their own answer in the setup text, doable by 3 to 4 strangers in the time slot, and the meeting has an arc: each room's output can be retold in a sentence or two when the next room opens.
 6. Complex questions contain a note: "Not sure what the question is asking? Copy it into Lens Coach, and ask for an explanation."
 
