@@ -4,7 +4,7 @@ tags:
 ---
 # Writing Meeting Docs (AI Guide)
 
-A meeting doc is the Google Doc a cohort group works through during a 90-minute video meeting. Its link lives in the corresponding course file (see [[Writing Course Files]]).
+A meeting doc is the Google Doc a cohort group works through during a 90-minute video meeting. Its link lives in the corresponding course file.
 
 ## How to create a meeting doc
 
