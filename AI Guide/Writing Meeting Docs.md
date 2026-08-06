@@ -6,7 +6,7 @@ tags:
 
 A meeting doc is the Google Doc a cohort group works through during a 90-minute video meeting. Its link lives in a the corresponding course file (see [[Writing Course Files]]). 
 
-Master meeting doc template here: https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4/edit?tab=t.0#heading=h.by5wcelvjnsd create new meeting docs based on this
+Master meeting doc template here: https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4/edit?tab=t.0#heading=h.by5wcelvjnsd create new meeting docs based on a copy of this template
 
 ## The fixed skeleton
 
@@ -30,7 +30,11 @@ Top of the doc: the reading line ("Reading group for <book>. This week: <chapter
 
 Bottom of the doc: the question bank ("Stuck for a Room-3 question? Borrow one of these"), a few questions per chapter.
 
-## Writing the Room 2 question
+## {++{"author":"Elias's AI","timestamp":1786008545720}@@The glossary tab
+
+Terms and definitions for the course, ordered by module so participants can look a term up when they first meet it. Define each term once, at its first appearance, in one or two sentences, in the source's framing. Compile from the course's Learning Outcomes and Lens materials. The master template shows the structure with placeholders.
+
+## ++}Writing the Room 2 question
 
 Never a comprehension check. The pattern in every strong week is claim, counterargument, stress-test, verdict:
 
