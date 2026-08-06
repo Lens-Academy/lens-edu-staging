@@ -4,7 +4,7 @@ tags:
 ---
 ## What a course is
 
-A **course** is a collection of `.md` files, defined in a course file (see [[Writing Course Files]]) that contains an ordered list of links to module files with markers in between that signal when a group going through that course would meet. Meeting markers link 
+A **course** is a collection of `.md` files, defined in a course file (see [[Writing Course Files]]) that contains an ordered list of links to module files with markers in between that signal when a group going through that course would meet. Meeting markers link to a meeting doc, whic
 
 A module (see [[Writing Modules]]) contains links to a set of learning outcomes and an ordered list of lenses.
 Each lens is rendered as a separate page. They contain the actual learning content (readings, AI-tutor chats, questions, roleplays). (see [[Writing Lenses]])
