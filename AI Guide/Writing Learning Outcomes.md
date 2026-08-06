@@ -4,7 +4,9 @@ tags:
 ---
 # Writing Learning Outcomes (AI Guide)
 
+Luc's additions 6 august:
 
+Best
 
 
 ## What a learning outcome is (and isn't)
