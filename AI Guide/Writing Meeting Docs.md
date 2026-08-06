@@ -43,7 +43,7 @@ Open (more than one defensible answer), pointed at a specific claim, analogy, or
 Copy the master template and fill in what participants see; the structure, timings, tables, and navigator instructions stay. That means: the reading line, Room 1's second question, Room 2's question, Room 3 when it is an action-plan unit, Room 4's next-unit text, the question bank, and the wrap-up heads-up. Keep the fixed parts verbatim; participants reread these docs every unit and stability lowers friction.
 
 ## Validation
-Give the following instructions verbatim to a sub-agent that check if the discussion doc fulfills all the following criteria
+Give the following instructions verbatim to a sub-agent:
 
 1. Go through each tab of the master template (https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4) and check if the discussion doc you are validating is a filled version of it
 2. If this is the first meeting of a multi-meeting course, does the 
