@@ -4,6 +4,9 @@ tags:
 ---
 # Writing Learning Outcomes (AI Guide)
 
+
+
+
 ## What a learning outcome is (and isn't)
 
 A learning outcome is **one testable skill**: something the student can *do* after the content, phrased so you can check whether they can do it. The file holds two things: the outcome statement (frontmatter `learning-outcome:`) and the test that verifies it (`## Test:`). If you can't imagine the test, you don't have an outcome yet.
