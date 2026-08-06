@@ -69,7 +69,7 @@ As a group, build the strongest counterargument you can. Pick your best one and 
 If you can't find strong counterarguments, ask the lens coach to help you.
 ```
 
-For narrative or scenario units, find the weakest step:
+Find the weakest step:
 ```
 Did the story about X do its job? 
 The authors are explicit: **The pathway is illustrative, only the outcome is predicted.** 
