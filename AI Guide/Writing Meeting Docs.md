@@ -110,6 +110,7 @@ Take a second to write down one or two discussion questions you'd genuinely like
 
 Example questions to discuss:
 - Question 1
+- Question 2
 ```
 
 3. **Room 4 leaves participants with a clear plan/next step.** Example prompts:
