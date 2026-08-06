@@ -29,6 +29,12 @@ Judge each room against its role. The examples below are real prompts from past 
 1. **Room 1 is a good icebreaker**: Warms people up to each other and toward the material. If this is the first meeting of a multi-meeting course, it must include a get-to-know-each-other question. Real examples:
 
 ```
+Go around your group, two things:
+
+How was working through this unit's content? Did you finish? After last unit's story we're back in argument mode: five engineering curses and an alchemist who feels close to a breakthrough. Denser or easier for you? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
+     
+Which curse stuck? The book names five reasons alignment is cursed: fast underlying processes, a narrow margin between safe and catastrophic, self-amplification, complications, and edge cases. Which felt most real to you, and where have you met its small cousin in ordinary life (a project, a bug, a deadline)? And in one word: how did these chapters leave you feeling?
+
 How was working through this unit's content? Answer any of: did you finish? More or less enjoyable than the last unit? Harder or easier? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a totally fine answer.)
 ```
 
