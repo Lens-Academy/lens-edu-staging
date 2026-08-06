@@ -42,7 +42,7 @@ Open (more than one defensible answer), pointed at a specific claim, analogy, or
 
 1. Make a copy of the master template and fill it out
 2. Spawn a sub-agent with a link to the doc and a verbatim copy of the validation instructions below
-3. If every check passes you are done. If not, fix the errors and go back 
+3. If every check passes you are done. If not, fix the errors and go back to step 2 ()
 
 Copy the master template and fill in what participants see; the structure, timings, tables, and navigator instructions stay. That means: the reading line, Room 1's second question, Room 2's question, Room 3 when it is an action-plan unit, Room 4's next-unit text, the question bank, and the wrap-up heads-up. Keep the fixed parts verbatim; participants reread these docs every unit and stability lowers friction.
 
