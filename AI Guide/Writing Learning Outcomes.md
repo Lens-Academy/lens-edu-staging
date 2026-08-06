@@ -14,7 +14,7 @@ Our design pattern:
 - learning outcomes are binary tests. Maybe build up of subjudgements, e.g. "answer should pass on 3 out of these 5 criteria"
 - LO should point at a thing we actually care about.
 	- distinguish between questions that test understanding of the world and questions that are good learning material but not good testing material.
-	- 
+	- learning 
 
 
 ## What a learning outcome is (and isn't)
