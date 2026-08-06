@@ -6,7 +6,7 @@ tags:
 
 A meeting doc is the Google Doc a cohort group works through during a 90-minute video meeting. Its link lives in a the corresponding course file (see [[Writing Course Files]]). 
 
-Master meeting doc template here: https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4. Read to nderstand session doc structure and create new meeting docs based on a copy of this template.
+Master meeting doc template here: https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4. Read to understand session doc structure and create new meeting docs based on a copy of this template.
 
 ## The fixed skeleton
 
@@ -16,7 +16,6 @@ Docs have four tabs:
 - Navigator Run-Sheet (how to run the session)
 - Glossary (Optional list of relevant concepts and their definitions)
 
-Participants rotate through small breakout rooms (3 to 4 people, a new mix every room). Every room runs the same loop: share your takeaway from the previous room, pick a scribe, answer the room's prompt together; the scribe writes group number, names, and output into the room's table (a line or two is plenty). This carry-forward loop is what makes the chain work; keep it.
 
 Timeline (90 min): {--{"author":"Elias's AI","timestamp":1786008108575}@@welcome--}{++{"author":"Elias's AI","timestamp":1786008108575}@@lobby++} 0:00–0:05, Room 1 0:05–0:20, Room 2 {--{"author":"Elias's AI","timestamp":1786008108575}@@0:20–0:40,--}{++{"author":"Elias's AI","timestamp":1786008108575}@@0:20–0:42,++} break {--{"author":"Elias's AI","timestamp":1786008108575}@@0:40–0:45,--}{++{"author":"Elias's AI","timestamp":1786008108575}@@0:42–0:47,++} Room 3 {--{"author":"Elias's AI","timestamp":1786008108575}@@0:45–1:07,--}{++{"author":"Elias's AI","timestamp":1786008108575}@@0:47–1:10,++} Room 4 {--{"author":"Elias's AI","timestamp":1786008108575}@@1:07–1:22, wrap-up 1:22–1:30.--}{++{"author":"Elias's AI","timestamp":1786008108575}@@1:10–1:25, goodbye 1:25–1:30.++}
 
