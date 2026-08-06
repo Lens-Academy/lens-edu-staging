@@ -40,7 +40,7 @@ Go around your group, two things:
 		- edge cases
 		Which felt most real to you, and where have you met its small cousin in ordinary life (a project, a bug, a deadline)? And in one word: how did these chapters leave you feeling?
 
-How was working through this unit's content? Answer any of: did you finish? More or less enjoyable than the last unit? Harder or easier? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a totally fine answer.)
+
 ```
 
 ```
