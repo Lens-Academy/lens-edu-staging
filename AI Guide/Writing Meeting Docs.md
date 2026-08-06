@@ -49,5 +49,5 @@ Go through each tab of the master template (https://docs.google.com/document/d/1
 3. Every breakout room prompt is open (more than one defensible answer), inviting disagreement or genuine uncertainty, and not settleable by looking something up.
 4. There is a clear arc to the meeting (Discussion prompts connect cleanly)
 5. Prompts for room 2 and 3 follow one of the approved patterns:
-	- Present a claim → ask group to find and discuss arguments for/against → , stress-test, verdict
+	- Present a claim → ask group to find and discuss arguments for/against → comverdict
 7. Complex questions contain a note: "Not sure you fully understand this question? Copy it into Lens Coach, and ask for an explanation."
