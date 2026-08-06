@@ -14,7 +14,7 @@ Docs have four tabs:
 - Session Doc (participants work in it)
 - Navigator Run-Sheet (how to run the session)
 - Participant FAQ
-- 
+- Glossary
 
 Participants rotate through small breakout rooms (3 to 4 people, a new mix every room). Every room runs the same loop: share your takeaway from the previous room, pick a scribe, answer the room's prompt together; the scribe writes group number, names, and output into the room's table (a line or two is plenty). This carry-forward loop is what makes the chain work; keep it.
 
