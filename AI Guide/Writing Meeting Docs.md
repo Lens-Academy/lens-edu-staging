@@ -8,9 +8,6 @@ A meeting doc is the Google Doc a cohort group works through during a 90-minute 
 
 ## The fixed skeleton
 
-Docs have four tabs: 
-
-
 ### Session Doc tab
 - **Room 1: icebreaker.** Two go-arounds. First, always: how was working through this unit's content, did you finish, what got in the way (keep the "No judgment, 'I didn't finish' is a totally fine answer" line verbatim). Second, unit-specific: a warm-up that pulls the material back to mind and names a feeling ("which moment/curse stuck with you, and in one word, how did it leave you feeling?").
 - **Room 2: the question.** The unit's central discussion; see below.
@@ -51,6 +48,10 @@ Copy the master template and fill in what participants see; the structure, timin
 1. Meeting doc fully reflects the master template: https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4 (if not, list all places where it differs from the master template)
 	- Time structure is the same
 	- Participant FAQ contains all the same questions and answers
-	- Navigator 
-3. 
+	- Navigator
+- Session Doc (participants go through it and fill it out)
+- Participant FAQ
+- Navigator Run-Sheet (how to run the session)
+- Glossary (Optional list of relevant concepts and their definitions)
+2. 
 
