@@ -142,7 +142,7 @@ One thing you're glad you know now that you didn't know two hours ago.
 	2. The main rooms target the unit's central content (what its learning outcomes care about), not a side detail.
 
 ### Agent 4: Logistics and links
-1. The doc title names the right course and unit, and the [Group] placeholder is still unfilled (navigators fill it per copy).
+1. The doc title names the right course and unit, and the [Group] placeholder is still unfilled.
 2. The attendance link points at this unit's form, not a previous unit's (the classic copy-paste failure).
 3. The course file's `# Meeting:` marker for this unit carries a `meeting-doc-template::` line with this doc's link.
 4. The run-sheet's next-unit heads-up matches the next unit's actual reading; in the final unit it says there is none.
