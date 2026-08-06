@@ -9,10 +9,7 @@ A meeting doc is the Google Doc a cohort group works through during a 90-minute 
 ## The fixed skeleton
 
 Docs have four tabs: 
-- Session Doc (participants go through it and fill it out)
-- Participant FAQ
-- Navigator Run-Sheet (how to run the session)
-- Glossary (Optional list of relevant concepts and their definitions)
+
 
 ### Session Doc tab
 - **Room 1: icebreaker.** Two go-arounds. First, always: how was working through this unit's content, did you finish, what got in the way (keep the "No judgment, 'I didn't finish' is a totally fine answer" line verbatim). Second, unit-specific: a warm-up that pulls the material back to mind and names a feeling ("which moment/curse stuck with you, and in one word, how did it leave you feeling?").
