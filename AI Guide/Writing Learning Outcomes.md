@@ -15,7 +15,7 @@ Our design pattern:
 - LO should point at a thing we actually care about.
 	- distinguish between questions that test understanding of the world and questions that are good learning material but not good testing material.
 	- Beginner-level learning outcomes should be the sort of things that every advanced person in the field should be expected to know. "Solve 1+x=2 for x" is good, "How does Johnny explain how to solve 1+x=2" might be a good learning-question but is not a good test-question because not every advanced person is expected to know this, nor would benefit to know this.
-	- Another thing to ask might be "can a person understand a more advanced version of this without understanding this simpler LO?". If yes
+	- Another thing to ask might be "can a person understand a more advanced version of this without understanding this simpler LO?". If yes, we're again not pointing at a thing that people
 
 
 ## What a learning outcome is (and isn't)
