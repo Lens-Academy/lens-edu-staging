@@ -38,7 +38,9 @@ Add a copy-paste fallback for confused groups: a pre-written Lens Coach prompt t
 
 Open (more than one defensible answer), pointed at a specific claim, analogy, or moment in the text rather than a broad topic, inviting disagreement or genuine uncertainty, and not settleable by looking something up.
 
-## How to create  Making the next unit's doc
+## How to create a meeting doc
+
+1.
 
 Copy the master template and fill in what participants see; the structure, timings, tables, and navigator instructions stay. That means: the reading line, Room 1's second question, Room 2's question, Room 3 when it is an action-plan unit, Room 4's next-unit text, the question bank, and the wrap-up heads-up. Keep the fixed parts verbatim; participants reread these docs every unit and stability lowers friction.
 
