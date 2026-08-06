@@ -32,14 +32,9 @@ Judge each room against its role. The examples below are real prompts from past 
 Go around your group, two things:
 
 	1. How was working through this unit's content? Denser or easier than the previous units? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
-     
-	2. Which curse stuck? The book names five reasons alignment is cursed: 
-		- fast underlying processes
-		- a narrow margin between safe and catastrophic
-		- self-amplification, complications
-		- edge cases
-		Which felt most real to you, and where have you met its small cousin in ordinary life (a project, a bug, a deadline)? And in one word: how did these chapters leave you feeling?
 ```
+
+``
 
 ```
 Which moment stuck? One scene from the story that stayed with you after you closed the book, the one you'd retell to a friend. And in one word, how did it leave you feeling: alarmed, skeptical, numb, motivated, something else?
