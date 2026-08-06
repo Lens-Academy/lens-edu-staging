@@ -49,7 +49,7 @@ Go around your group, two things:
 ```
 
 ```
-If an oracle told your group a misaligned superintelligence would end the world in 6 months: what would you all do with the time? Land on one plan you all agree on, ideally a mash-up of everyone's ideas. It's an icebreaker, so wacky / not-cohesive / not-serious is totally fine.
+	2. If an oracle told your group a misaligned superintelligence would end the world in 6 months: what would you all do with the time? Land on one plan you all agree on, ideally a mash-up of everyone's ideas. It's an icebreaker, so wacky / not-cohesive / not-serious is totally fine.
 ```
 
 ```
