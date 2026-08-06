@@ -42,7 +42,7 @@ Open (more than one defensible answer), pointed at a specific claim, analogy, or
 
 1. Make a copy of the master template and fill it out
 2. Spawn all validation sub-agents described below with a link to the doc and the exact instruction text
-3. If every check passes, you are done. If not, fix the errors and fgo back to step 2 (don't re-use the same agent, but rather spawn a new one)
+3. If every check passes, you are done. If not, fix the errors and freshly spawn the agents thatgo back to step 2 (don't re-use the same agent, but rather spawn a new one)
 
 ## Validation instructions
 
