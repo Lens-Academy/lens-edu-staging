@@ -22,6 +22,7 @@ Go through each tab of the master template (https://docs.google.com/document/d/1
 1. Every [bracketed placeholder] is filled; none left over.
 2. The fixed parts match the master template exactly.
 3. The glossary is filled: ordered by module, each term defined once at its first appearance, in one or two sentences, in the source's framing.
+
 1. The doc title names the right course and unit, and the [Group] placeholder is still unfilled.
 2. The course file's `# Meeting:` marker for this unit carries a `meeting-doc-template::` line with this doc's link.
 3. The run-sheet's next-unit heads-up matches the next unit's actual reading; in the final unit it says there is none.
