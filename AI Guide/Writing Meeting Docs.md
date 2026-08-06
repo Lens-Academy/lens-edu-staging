@@ -11,7 +11,7 @@ A meeting doc is the Google Doc a cohort group works through during a 90-minute 
 1. Make a copy of the master template (https://docs.google.com/document/d/1YDA7MukJk5oeEL8F7zCVwr1lU0X9wuwUDvUXXflvCS4)
 2. Get an overview of the course this doc belongs to and specifically the module(s) of the unit right before its meeting
 3. The validation instructions below describe what makes a good meeting doc. Take some time to think hard (and/or brainstorm with the user) what prompts would make this meeting most valuable. - Be creative and critical. It's about creating the best possible education, not just creating cheap adaptations of the examples below.
-4. Spawn all validation sub-agents described below with a link to the doc and their exact instruction text
+4. Spawn all validation sub-agents described below with {++{"author":"Elias's AI","timestamp":1786030175311}@@their exact instruction text, ++}a link to the {--{"author":"Elias's AI","timestamp":1786030175311}@@doc --}{++{"author":"Elias's AI","timestamp":1786030175311}@@doc, a link to the course file, ++}and {++{"author":"Elias's AI","timestamp":1786030175311}@@links to the unit's module(s) with ++}their {--{"author":"Elias's AI","timestamp":1786030175311}@@exact instruction text--}{++{"author":"Elias's AI","timestamp":1786030175311}@@lenses, learning outcomes, and readings (the content checks need them)++}
 5. If every check passes, you are done. If not, fix the errors and spawn fresh versions of the agents that failed. Repeat that cycle until every agent passed
 6. Link to the meeting doc in the course file it belongs to (see [[Writing Course Files]]).
 7. Report to the user how many iterations you had to do for each agent and where they didn't pass
@@ -24,10 +24,10 @@ Go through each tab of the master template (https://docs.google.com/document/d/1
 2. The fixed parts match the master template exactly.
 3. The glossary is filled: ordered by module, each term defined once at its first appearance, in one or two sentences, in the source's framing.
 4. The doc title names the right course and unit, and the [Group] placeholder is still unfilled.
-3. The run-sheet's next-unit heads-up matches the next unit's actual reading; in the final unit it says there is none.
+{--{"author":"Elias's AI","timestamp":1786030175836}@@3.--}{++{"author":"Elias's AI","timestamp":1786030175836}@@5.++} The run-sheet's next-unit heads-up matches the next unit's actual reading; in the final unit it says there is none.
 
 ### Agent 2: Room quality
-Judge each room against its role. The examples below are real prompts from past unit docs: they show the quality bar, not required shapes. A room passes if it serves its role well, whatever shape it takes.
+Judge each room against its role. {--{"author":"Elias's AI","timestamp":1786030174928}@@The--}{++{"author":"Elias's AI","timestamp":1786030174928}@@Most++} examples below are real prompts from past unit docs: they show the quality bar, not required shapes. A room passes if it serves its role well, whatever shape it takes.
 
 1. **Room 1 is a good icebreaker**: Warms people up to each other and toward the material.
 
@@ -43,7 +43,8 @@ And add one or multiple questions after that. Examples:
 	2. Which curse stuck? The book names five reasons alignment is cursed: 
 		- fast underlying processes
 		- a narrow margin between safe and catastrophic
-		- self-amplification, complications
+		- {--{"author":"Elias's AI","timestamp":1786030174461}@@self-amplification,--}{++{"author":"Elias's AI","timestamp":1786030174461}@@self-amplification
+		-++} complications
 		- edge cases
 		Which felt most real to you, and where have you met its small cousin in ordinary life (a project, a bug, a deadline)? And in one word: how did these chapters leave you feeling?
 ```
@@ -69,7 +70,7 @@ The book's claim this unit: **humanity gets one shot at aligning superintelligen
 
 As a group, build the strongest counterargument you can. Pick your best one and stress-test it: how would the authors answer it? Write your verdict: does your counterargument survive?
 
-If you can't find strong counterarguments, ask the lens coach to help you.
+If you can't find strong counterarguments, ask the {--{"author":"Elias's AI","timestamp":1786030176344}@@lens coach--}{++{"author":"Elias's AI","timestamp":1786030176344}@@Lens Coach (https://lensacademy.org/coach)++} to help you.
 ```
 
 Find the weakest step:
@@ -91,7 +92,7 @@ Stage the text's own disagreement:
 ```
 Klurl vs Trapaucius. Trapaucius argues that any being smart enough will grasp its "purpose" and pursue only that. Klurl replies: "they'd know, but would they care?" Who's right about humans, and what does that predict for AI?
 
-If you don't understand this question, copy it into Lens coach to explain it.
+If you don't understand this question, copy it into {++{"author":"Elias's AI","timestamp":1786030176949}@@the ++}Lens {--{"author":"Elias's AI","timestamp":1786030176949}@@coach--}{++{"author":"Elias's AI","timestamp":1786030176949}@@Coach (https://lensacademy.org/coach)++} to explain it.
 ```
 
 Practice (argue to a newcomer):
@@ -138,7 +139,7 @@ One thing you're glad you know now that you didn't know two hours ago.
 	Both together are fine when the information list is short.
 
 5. General, for every room: prompts are open (more than one defensible answer), not exhausted in a minute, never a comprehension check, never teach their own answer in the setup text, doable by 3 to 4 strangers in the time slot, and the meeting has an arc: each room's output can be retold in a sentence or two when the next room opens.
-6. Complex questions contain a note like: "Not sure what the question is asking? Copy it into Lens Coach, and ask for an explanation."
+6. Complex questions contain a note like: "Not sure what the question is asking? Copy it into {++{"author":"Elias's AI","timestamp":1786030177416}@@the ++}Lens {--{"author":"Elias's AI","timestamp":1786030177416}@@Coach,--}{++{"author":"Elias's AI","timestamp":1786030177416}@@Coach (https://lensacademy.org/coach),++} and ask for an explanation."
 
 7. Read the unit's actual content (the module(s) with its lenses, learning outcomes, and readings) and check the doc against it:
 	1. Every claim the doc attributes to the source(s) is actually made there; prompts never strawman the material.
