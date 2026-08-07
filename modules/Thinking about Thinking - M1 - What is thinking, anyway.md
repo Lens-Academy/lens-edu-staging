@@ -1,7 +1,7 @@
 ---
 id: 'e7e9f123-e8da-47b5-bc7f-03d8252765c3'
 slug: tot-m1
-title: "What is thinking, anyway?"
+title: "The Nature of Thinking"
 tags:
   - wip
 ---
