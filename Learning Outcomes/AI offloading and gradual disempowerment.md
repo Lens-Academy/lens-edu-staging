@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1786139206154}@@---
+---
 id: '66c44e71-a7b4-4496-a3ce-893d9559a6c5'
 learning-outcome: "The learner can trace the causal chain from small delegations of judgement to potential gradual disempowerment, summarise what the doctor study and the legal study found, and state the limits of the current evidence."
 domain: "[[../Domains/Rationality and Epistemics]]"
@@ -42,4 +42,3 @@ source:: [[../Lenses/ToT M3 - Gradual Disempowerment]]
 
 ## Lens:
 source:: [[../Lenses/ToT M3 - The Evidence About AI and Thinking]]
-++}

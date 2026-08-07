@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1786139240387}@@---
+---
 id: '1da81f79-cfe4-45a8-a70a-5d30b9bac3d8'
 learning-outcome: "Given a description of a real AI workflow, the learner can apply rules for choosing what to delegate to AI, and can adjust the workflow so the judgement stays with them."
 domain: "[[../Domains/Rationality and Epistemics]]"
@@ -41,4 +41,3 @@ source:: [[../Lenses/ToT M4 - Choosing What to Delegate]]
 
 ## Lens:
 source:: [[../Lenses/ToT M4 - Practice Audit and Guardrails]]
-++}

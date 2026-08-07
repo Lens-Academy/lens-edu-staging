@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1786139255856}@@---
+---
 id: '8a1d44af-1f93-4b9d-a155-de940f560503'
 learning-outcome: "The learner can name one concrete change to their own AI use, explain the mechanism by which it protects judgement, and identify a place where they could learn more."
 domain: "[[../Domains/Rationality and Epistemics]]"
@@ -33,4 +33,3 @@ This is a personal reflection; do not penalise a learner whose honest "no change
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/ToT M5 - What Now]]
-++}

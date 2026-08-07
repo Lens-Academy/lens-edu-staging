@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1786139158837}@@---
+---
 id: '0eace6bb-56fb-4ab1-aa57-071e6de5b6f2'
 learning-outcome: "The learner can distinguish offloading a task (where judgement stays with the user) from offloading the judgement about which tasks to delegate, and can give an example of each, including an example of arbitrary offloading."
 domain: "[[../Domains/Rationality and Epistemics]]"
@@ -42,4 +42,3 @@ Do not penalise a learner who disagrees that B's example is always harmful; they
 # Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/ToT M2 - Metacognition and Metacognitive Offloading]]
-++}
