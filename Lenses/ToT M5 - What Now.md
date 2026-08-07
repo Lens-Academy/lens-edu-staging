@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1786139952010}@@---
+---
 id: 'af006bfe-601b-406e-a28b-400721f039f3'
 title: "So What Do I Do Now?"
 tldr: "The evidence says concern, not alarm; one kept guardrail beats a long list; and your judgement is worth defending whatever the future brings. This is the landing place, and a chance to re-answer where you started."
@@ -54,4 +54,3 @@ Do:
 Do not: grade the answers; compare them to other learners; moralise about their AI use; pad the reply with praise.
 
 Response length: 100 to 180 words. Short paragraphs only. No lists. This is the final response of the course; end warmly and without pushing further questions.
-++}

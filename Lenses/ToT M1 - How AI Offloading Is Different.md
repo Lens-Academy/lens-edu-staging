@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1786139550529}@@---
+---
 id: 'c4105cad-df16-4afd-92ff-9c08bff538f2'
 title: "How AI Offloading Is Different from Earlier Tools"
 tldr: "Earlier tools offloaded narrow tasks we could still check. AI offloads interpretation and judgement, and hides the reasoning: a confident answer arrives with the work behind it invisible."
@@ -103,4 +103,3 @@ Calibration summary (on close): name what the student demonstrated; name what re
 Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items. Do not over-validate; no generic praise.
 
 Safety and integrity: ask under what circumstances the comparison would be fair (e.g. AI used only for arithmetic-like sub-tasks). If the student is stuck after 2 attempts, give a brief direct answer and move on.
-++}

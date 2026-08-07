@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1786139520099}@@---
+---
 id: '8a469dde-e377-4d95-b997-592ca95db1c3'
 title: "Cognition, Cognitive Offloading, and the Tools We Already Use"
 tldr: "Offloading thinking to tools and people is not new and not lazy; it is how human brains have always worked. The cost is quiet: time offloaded is time not spent practising the skill."
@@ -120,4 +120,3 @@ Calibration summary (on close): name what the student demonstrated clearly; name
 Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items. Do not over-validate; no generic praise.
 
 Safety and integrity: if the student asserts a strong causal claim, ask what it relies on and how it could be falsified. If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
-++}

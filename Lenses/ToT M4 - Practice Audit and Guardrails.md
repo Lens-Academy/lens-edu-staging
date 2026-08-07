@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1786139908999}@@---
+---
 id: 'e5221313-7959-4792-a4da-b52c11c4b596'
 title: "Practice: Audit a Conversation and Choose a Guardrail"
 tldr: "Practice makes the rules real: audit one of your own recent AI conversations, spar against a confident flawed answer, and commit to one guardrail this week."
@@ -72,4 +72,3 @@ Give feedback that:
 4. If their workflow has no real risk, say so plainly and suggest they pick a harder example to practise on; the exercise is about the skill, not about their virtue.
 
 Response length: 100 to 180 words. Short paragraphs only. No lists. Do not over-validate; avoid generic praise. End by briefly noting their guardrail so they can be held to it, and tell them this completes Unit 4.
-++}

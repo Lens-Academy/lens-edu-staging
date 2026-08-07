@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1786139623615}@@---
+---
 id: 'cd6d8669-9844-4464-b15e-6bc78259b607'
 title: "Metacognition and Metacognitive Offloading"
 tldr: "Offloading a task leaves your judgement intact. Offloading the judgement about which tasks to delegate leaves you without oversight of your own thinking: that is metacognitive offloading."
@@ -106,4 +106,3 @@ Calibration summary (on close): name what the student demonstrated; name what re
 Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items. Do not over-validate; no generic praise.
 
 Safety and integrity: if the student says the manager is fine because the AI is reliable, ask what the manager can verify, and what reliability means when the reasoning is hidden. If stuck after 2 attempts, give a brief direct answer and move on.
-++}

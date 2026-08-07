@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1786139879355}@@---
+---
 id: 'c32e8372-a7c2-4140-9a8e-bb6641be4f03'
 title: "Choosing What to Delegate to AI"
 tldr: "Keep judgement in the loop at three stages: rough notes before you prompt, sparring while you work, and your own restated logic plus independent verification after. What you can no longer do, you no longer own."
@@ -123,4 +123,3 @@ Calibration summary (on close): name what the student demonstrated; name what re
 Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items. Do not over-validate; no generic praise.
 
 Safety and integrity: this lens makes normative recommendations; the learning outcome is to apply them, not to agree. If the student pushes back with good reasons, treat the pushback as valid and grade their reasoning. If stuck after 2 attempts, give a brief direct answer and move on.
-++}

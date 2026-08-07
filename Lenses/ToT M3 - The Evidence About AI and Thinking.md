@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1786140163299}@@---
+---
 id: '40e2fc16-4d64-41b4-831b-b52dfad06c1e'
 title: "The Evidence: What Happens When AI Does the Thinking"
 tldr: "There is real evidence on both sides: skills can erode while a tool does the work, early engaged use can build understanding, and help can even regress strong work. The honest read is concern, not panic: it depends on when and how you use AI."
@@ -126,4 +126,3 @@ Calibration summary (on close): name what the student demonstrated; name what re
 Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items. Do not over-validate; no generic praise.
 
 Safety and integrity: if the student feels fatalistic ("we are all doomed"), acknowledge the uncertainty honestly and point them forward to Unit 4's practical tools; the course's whole point is that use patterns are in the user's control. If stuck after 2 attempts, give a brief direct answer and move on.
-++}

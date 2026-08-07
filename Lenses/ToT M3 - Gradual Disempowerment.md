@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1786140157463}@@---
+---
 id: '2b2b6ada-3987-48eb-b3bd-b5546466dcd5'
 title: "The Gradual Disempowerment Thesis"
 tldr: "A gradual loss of control needs no rebellion: as AI displaces human participation in the economy, culture, and states, institutions stop needing us, and no concrete plan exists to stop it."
@@ -108,4 +108,3 @@ Calibration summary (on close): name what the student demonstrated; name what re
 Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items. Do not over-validate; no generic praise.
 
 Safety and integrity: this is an unsettling scenario. If the student shows distress or fatalism, respond honestly. Uncertainty is a legitimate response: the article itself stresses uncertainty and offers candidate mitigations. Ask what would make them more or less worried. If stuck after 2 attempts, give a brief direct answer and move on.
-++}

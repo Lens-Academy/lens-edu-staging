@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1786139680866}@@---
+---
 id: '2e2fd8ba-01ce-425a-80f9-0e9fde83a359'
 title: "Pre-Reading Question: Loss of Control Without a Rebellion"
 tldr: "Before reading about gradual disempowerment: can humans lose control without any AI ever rebelling? Put your own story on the record first."
@@ -15,4 +15,3 @@ assessment-instructions:: The student is about to read the gradual-disempowermen
 Acknowledge their reasoning in 1 to 2 sentences, specifically, without judgment. Do NOT preview the article's six claims, the causal chain used later in the unit, or the historical analogy (advisors and regents). Do not correct their story; it is a setup, not a test.
 
 Close with something like: "Hold that story as you read. Notice where the article agrees with it, where it goes further, and where you want to push back. Head to the reading when you are ready."
-++}

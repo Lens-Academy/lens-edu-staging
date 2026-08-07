@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1786139123988}@@---
+---
 id: '62bd5edb-0ef8-4327-b2f6-53b4b5e9c32d'
 learning-outcome: "Given everyday examples of handing a thinking task to a tool or to another person, the learner can identify cognitive offloading, explain why it is a normal human habit, and name one cost of the habit."
 domain: "[[../Domains/Rationality and Epistemics]]"
@@ -44,4 +44,3 @@ source:: [[../Lenses/ToT M1 - Cognition and Cognitive Offloading]]
 
 ## Lens:
 source:: [[../Lenses/ToT M1 - How AI Offloading Is Different]]
-++}

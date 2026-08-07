@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1786139567894}@@---
+---
 id: '2a233e5e-d346-4599-bb51-8065143b5813'
 title: "Pre-Reading Question: What Would You Delegate"
 tldr: "Before reading about metacognitive offloading: get your own current rule for what you hand to AI on the record."
@@ -15,4 +15,3 @@ assessment-instructions:: The student is about to read the Unit 2 content on met
 Acknowledge their answer in 1 to 2 sentences, specifically and without judgment. Do NOT explain metacognition, introduce the distinction between offloading a task and offloading the judgement about which tasks to delegate, or preview the rest of Unit 2. Do not grade their rule. Do not suggest their rule is wrong.
 
 Close with something like: "Hold that picture of your own process as you read. Head to the reading when you are ready, and come back here for the reflection after it."
-++}
