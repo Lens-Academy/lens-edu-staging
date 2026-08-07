@@ -20,7 +20,7 @@ Known-outstanding defects are listed in the repo at
 
 # Module: [[../modules/what-could-possibly-happen|Unit 1: What Could Possibly Happen?]]
 
-# Meeting: Unit 1 discussion
+# Meeting
 
 # Module: [[../modules/unit-2-how-do-we-know|Unit 2: How Do We Know?]]
 
