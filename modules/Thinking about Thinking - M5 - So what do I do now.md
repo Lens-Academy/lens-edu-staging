@@ -6,8 +6,7 @@ tags:
   - wip
 ---
 
-# {--{"author":"Leo's AI","timestamp":1786142375010}@@Submodule: The landing place
-# --}Learning Outcome:
+# Learning Outcome:
 source:: [[../Learning Outcomes/A personal guardrail for AI use]]
 
 # Lens:

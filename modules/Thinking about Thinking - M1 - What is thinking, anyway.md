@@ -6,8 +6,7 @@ tags:
   - wip
 ---
 
-# {--{"author":"Leo's AI","timestamp":1786142369525}@@Submodule: Welcome
-# --}Lens: Welcome
+# Lens: Welcome
 id:: 8fae85b4-f404-46d8-bff7-623b613221dd
 tldr:: Welcome to a short course about delegating thinking to AI without losing your own judgement: how it works, the AI tutor, and one promise you make to yourself.
 summary_for_tutor:: Course-orientation lens for Unit 1 of "Thinking about Thinking". Explains the format (five self-paced units of short readings and AI-tutor conversations, roughly an hour each), the note about AI having helped write the course, and the promise that the learner's judgement and taste are worth keeping. Ends with the opening reflection that will be re-answered at the end of the course.
@@ -45,8 +44,7 @@ Response length: 60 to 120 words. Short paragraphs. No lists. No generic praise 
 
 ---
 
-# {--{"author":"Leo's AI","timestamp":1786142379948}@@Submodule: Core ideas
-# --}Learning Outcome:
+# Learning Outcome:
 source:: [[../Learning Outcomes/Cognitive offloading and why it is normal]]
 
 # Lens:

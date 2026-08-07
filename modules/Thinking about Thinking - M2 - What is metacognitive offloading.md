@@ -6,8 +6,7 @@ tags:
   - wip
 ---
 
-# {--{"author":"Leo's AI","timestamp":1786142370766}@@Submodule: Metacognitive offloading
-# --}Learning Outcome:
+# Learning Outcome:
 source:: [[../Learning Outcomes/Offloading tasks versus offloading judgement]]
 
 # Lens:
