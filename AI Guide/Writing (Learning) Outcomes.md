@@ -153,9 +153,7 @@ Dispositions can be implicit in the learner-facing graph while explicit in the i
 
 - [Michael Noetel, "We all teach: here's how to do it better"](https://forum.effectivealtruism.org/posts/ZPNNnEu2HGNSNmifo/we-all-teach-here-s-how-to-do-it-better)
 
-
-
-### UNESCO: cognitive, socio-emotional, and behavioural outcomes 
+## UNESCO: cognitive, socio-emotional, and behavioural outcomes 
 
 UNESCO's global-citizenship education framework distinguishes cognitive, socio-emotional, and behavioural domains. It includes knowledge and critical thinking; values, attitudes, empathy, and belonging; and practical engagement and action. It explicitly includes motivation and willingness to act while treating the domains as interlinked.
 
