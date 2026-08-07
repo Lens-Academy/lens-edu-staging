@@ -19,7 +19,7 @@ Our design pattern:
 
 ## Outcomes
 
-**Outcome** is the umbrella term for an intended or observed change in a learner's learning, actions, circumstances, or internal state. A **learning outcome** is the testable kind defined by this guide: something the learner can demonstrate after learning. Not every desired effect of a course is therefore a learning outcome.
+**Outcome** is the umbrella term for an intended or observed change in a learner's learning, actions, circumstances, or internal state.
 
 Lens distinguishes five outcome types:
 
@@ -31,13 +31,9 @@ Lens distinguishes five outcome types:
 | **Disposition** | Feels able and willing to contribute to AI safety | We want to know whether *on average*, we help people get excited about contributing to AI Safety | Individuals will never be judged for their dispositions, e.g. it's not part of their certificates. We use this data just for improving our offerings. |
 | **Downstream Impact** | Makes a sustained, useful contribution to AI safety | Our courses are only useful insofar as they help participants reduce x-risk | Internal program-evaluation or theory-of-change measure |
 
+Learning-outcome files live in `Lens Edu/Learning Outcomes/`. They contain tests and are used in modules.
 
-Learning-outcome files live in `Learning Outcomes/`. Artifact, action, disposition, and impact outcome files live in the sibling `Outcomes/` folder. 
-
-Learning outcomes live within modules and are well-contained.
-
-Other outcomes can span several modules and are only included in %% comments %%. These help us focus our attention on things we care about, but aren't yet used programatically by the system.
-
+Artifact, action, disposition, and impact outcome files live in the sibling `Lens Edu/Outcomes/` folder. These outcomes can span several modules and are only included in %% comments %%. These help us focus our attention on things we care about, but aren't yet used programatically by the system.
 
 ## What a learning outcome is (and isn't)
 
