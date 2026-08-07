@@ -108,7 +108,7 @@ Action-plan work:
 3. The group responds: reflect back a strength they undersold, and suggest one more way someone with these strengths could plug in.
 ```
 
-Collect {--{"author":"Elias's AI","timestamp":1786030177771}@@and vote:--}{++{"author":"Elias's AI","timestamp":1786030177771}@@questions:++}
+Collect questions:
 ```
 Take a second to write down one or two discussion questions you'd genuinely like the group to dig into. Go around, present your questions, and discuss what you are most curious about.
 
