@@ -15,7 +15,7 @@ This unit is about the range of technical possibility: not what will definitely 
 
 There are two ways we've noticed people get this wrong.
 
-The first is to believe that anything is possible because a film made it feel plausible. Computers become magic, capability arrives because the plot required it, and no mechanism is ever specified.
+The first is to believe that anything is possible, perhaps because a film made it feel plausible. Computers already feel like everyday magic anyway; capability arrives because the plot required it, and any rules are suggestions from the writers.
 
 The second is the opposite failure and it is just as common: to not really believe the extrapolation. To nod along about progress while not intuitively expecting that systems able to do most cognitive work are actually coming, because that feels like science fiction rather than like a projection from things already happening.
 
