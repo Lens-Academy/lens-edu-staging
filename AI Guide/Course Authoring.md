@@ -26,7 +26,7 @@ Every content file is markdown with two kinds of structure: YAML frontmatter on 
 - **Never change the id of already-published content.** Learner progress is keyed on these ids
 - **Drafts**: add `wip` to `tags` while a file is unfinished; its errors then don't block promotion. Remove it when done. A production file referencing a wip file is a production error.
 - **Comments**: `%% ... %%` (Obsidian) and `{>>{"author":"Elias's AI","timestamp":1785489958756}@@...<<}` (CriticMarkup) are stripped before parsing, safe for author notes anywhere.
-- **`add_to_ai_context`** injects source material (e.g. chapter text from a private folder) into the AI tutor's context; use it whenever the tutor must discuss a text the student read elsewhere. Allowed on a lens (scopes to that lens), module frontmatter (whole module), or a `# Submodule:` marker (that submodule, the natural home for per-chapter book content). On a learning outcome it is a validation error.{++{"author":"Lauren's AI","timestamp":1786091926960}@@
+- **`add_to_ai_context`** injects source material (e.g. chapter text from a private folder) into the AI tutor's context; use it whenever the tutor must discuss a text the student read elsewhere. Allowed on a lens (scopes to that lens), module frontmatter (whole module), or a `# Submodule:` marker (that submodule, the natural home for per-chapter book content). On a learning outcome it is a validation error.
 
 ## Making a course that is CORRECT, not just one that looks finished
 
@@ -56,4 +56,4 @@ That means care is not the mechanism. You can be maximally careful and fluently 
 
 **Ask the authors.** If a course was built by several agents, they are resumable and their reasoning is still in context. Asking an author where a claim came from beats reconstructing it from a corpus, and they will volunteer errors a reviewer would not find. Give them three verdicts: cite it, own it as ours, or call it wrong. Tell them not to reach for a citation they do not actually recall, because a confabulated citation is worse than none: it manufactures the feeling of grounding.
 
-**The join is what parallel work leaves unfinished.** When N agents build one artifact, each file can be finished while the object no single file contains is not. Promises made in one file go undischarged in the next: a pre-test whose baseline is never read back, a prediction extracted and never cashed. Budget a pass whose only job is checking that piece N's promise is kept in piece N+1.++}
+**The join is what parallel work leaves unfinished.** When N agents build one artifact, each file can be finished while the object no single file contains is not. Promises made in one file go undischarged in the next: a pre-test whose baseline is never read back, a prediction extracted and never cashed. Budget a pass whose only job is checking that piece N's promise is kept in piece N+1.
