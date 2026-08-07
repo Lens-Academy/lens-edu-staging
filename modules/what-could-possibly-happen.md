@@ -2,9 +2,7 @@
 slug: what-could-possibly-happen
 title: "Unit 1: What Could Possibly Happen?"
 id: '250fd806-8fc9-49f9-b742-f3865b78a81f'
-{--{"author":"Rune's AI","timestamp":1786131286311}@@tags:
-  - wip
---}authors:
+authors:
   - Lauren+Claude
 ---
 

@@ -3,8 +3,6 @@ id: '4e2e0cdd-c676-4791-9d5b-8ba25055f7dd'
 title: Half of What We Teach You Here Is Wrong
 tldr: Half of what this course teaches is wrong, and nobody knows which half. Your job is to build a model that can survive finding out.
 summary_for_tutor: "Opens the course. Three beats: the honesty warning (the field is young and short on futures that already happened, so some of what we teach is wrong and we cannot say which), the method note (we make you guess before every reading, because the gap between your guess and the record is the only lesson that is about you), and the day-zero artifact, where the student writes their current ten-year model of AI in five to ten sentences. That artifact is the running artifact of the whole course: every later module asks them to restate and revise it from memory, never by scrolling back. Nothing here is graded for predictive correctness."
-tags:
-  - wip
 authors:
   - Lauren+Claude
 ---
