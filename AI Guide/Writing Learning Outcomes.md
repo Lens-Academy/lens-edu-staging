@@ -6,14 +6,7 @@ tags:
 
 Luc's additions 6 august:
 
-{++{"author":"Luc's AI","timestamp":1786049327112}@@{>>{"author":"Luc's AI","timestamp":1786049327112}@@Use somewhere in courses, but maybe not in learning outcomes skill, which might be only about capabilities?<<}
-{>>{"author":"Luc's AI","timestamp":1786049327112}@@We might need Skill for "talking to others" and Habit for "thinking in terms of expected value"<<}
-{>>{"author":"Luc's AI","timestamp":1786049327112}@@hmm what exactly does this mean? seems potentially useful though<<}
-{>>{"author":"Luc's AI","timestamp":1786049327112}@@we should definitely be using self-determination theory as an evidence-based alternative to our mobilization system<<}
-{>>{"author":"Luc's AI","timestamp":1786049327112}@@I think we also want to mention this in our course creation skills, just to kind of increase the amount of attention in the network on these sorts of thinking.<<}
-{>>{"author":"Luc's AI","timestamp":1786049327112}@@same here, have in course<<}
-
-++}Best practices:
+Best practices:
 ...
 
 
@@ -120,11 +113,100 @@ source:: [[../Lenses/My Topic]]
 - Suggested lenses are **author-facing candidates only**: the platform never imports them; the module lists its teaching lenses explicitly, before the `# Learning Outcome:` ref. Zero-suggestion outcomes are valid.
 - Skill-tree frontmatter is rolling out per `Lens/Learning Outcome Domain and Stage Proposal.md`: `domain:` (one of the 15 domains in `Lens/AI Safety Skill Taxonomy - Canonical Working Inventory.md`), `stage:` (Beginner, Intermediate, or Advanced), `requires:` (sparse; only genuine prerequisites, since they gate locked status). Set them on new outcomes.
 
-## Outcome types
+## {--{"author":"Luc's AI","timestamp":1786087623061}@@Outcome types--}{++{"author":"Luc's AI","timestamp":1786087623061}@@Outcomes beyond learning outcomes {>>{"author":"Luc's AI","timestamp":1786087623061}@@Use somewhere in courses, but maybe not in learning outcomes skill, which might be only about capabilities?<<}
 
-An outcome file holds a **capability**: a demonstrable skill. Other things a course targets are not capability outcomes:
+**Outcome** is the umbrella term for an intended or observed change in a learner's learning, actions, circumstances, or internal state. A **learning outcome** is the testable kind defined by this guide: something the learner can demonstrate after learning. Not every desired effect of a course is therefore a learning outcome.++}
 
-- **Artifacts** (a personal action plan) and **actions** (discussed the plan with a practitioner) are milestones: verify that the thing exists or happened against explicit criteria. Completing one doesn't establish a transferable skill.
-- **Dispositions** (motivated to contribute, changed beliefs) are never pass/fail and never get an outcome file. A learner who reasons well and still disagrees, or stays unenthusiastic, has not failed anything. Treat dispositions as internal design targets, measured (if at all) by aggregate self-report.
-- **Impact** (a sustained contribution to the field) is program-level evaluation, not a course outcome.
+{--{"author":"Luc's AI","timestamp":1786087623061}@@An--}{++{"author":"Luc's AI","timestamp":1786087623061}@@Lens distinguishes five++} outcome {--{"author":"Luc's AI","timestamp":1786087623061}@@file holds --}{++{"author":"Luc's AI","timestamp":1786087623061}@@types:
+
+| Outcome type | Example | Role in Lens | Completion and visibility |
+|---|---|---|---|
+| **Learning outcome** | Can compare two alignment proposals and explain an important disagreement | The central kind represented in the topic or skill graph | User-facing; may be assessed and completed |
+| **Artifact** | Has produced ++}a {--{"author":"Luc's AI","timestamp":1786087623061}@@**capability**:--}{++{"author":"Luc's AI","timestamp":1786087623061}@@personal contribution plan | A concrete product created by the learner; it may also provide evidence for one or more learning outcomes | May appear as++} a {--{"author":"Luc's AI","timestamp":1786087623061}@@demonstrable skill. Other things --}{++{"author":"Luc's AI","timestamp":1786087623061}@@user-facing milestone; completion means the artifact exists or meets explicit criteria |
+| **Action** | Has discussed the plan with two practitioners | Something the learner has done in the world, rather than merely demonstrated in an exercise | May appear as a user-facing milestone; completion verifies the action, not mastery of a general skill |
+| **Disposition** | Feels able and willing to contribute to AI safety | An attitude, motivation, value, belief, sense of agency, or other psychological state that the course hopes to support | Internal only; not pass/fail. It may be studied through self-report or other indicators |
+| **Impact** | Makes ++}a {++{"author":"Luc's AI","timestamp":1786087623061}@@sustained, useful contribution to AI safety | A longer-term effect that the program hopes to make more likely | Internal program-evaluation or theory-of-change measure; not ++}course {--{"author":"Luc's AI","timestamp":1786087623061}@@targets are--}{++{"author":"Luc's AI","timestamp":1786087623061}@@completion and generally++} not {--{"author":"Luc's AI","timestamp":1786087623061}@@capability outcomes:--}{++{"author":"Luc's AI","timestamp":1786087623061}@@user-facing |++}
+
+{--{"author":"Luc's AI","timestamp":1786087623061}@@- **Artifacts** (a --}{++{"author":"Luc's AI","timestamp":1786087623061}@@The same activity can play more than one role. A ++}personal {--{"author":"Luc's AI","timestamp":1786087623061}@@action plan) --}{++{"author":"Luc's AI","timestamp":1786087623061}@@plan is an artifact, evidence that may support a planning learning outcome, ++}and {--{"author":"Luc's AI","timestamp":1786087623061}@@**actions** (discussed --}{++{"author":"Luc's AI","timestamp":1786087623061}@@potentially one step toward later action. Keep these distinguishable even when they refer to ++}the {--{"author":"Luc's AI","timestamp":1786087623061}@@plan --}{++{"author":"Luc's AI","timestamp":1786087623061}@@same event.
+
+Learning-outcome files continue to live in `Learning Outcomes/`. Artifact, action, disposition, and impact outcome files live in the sibling `Outcomes/` folder for now. Longitudinal outcomes may be referenced across several modules and described in comments in the main course file; they do not need to belong to one module. Lenses may support any of these outcomes even when the outcome develops across a course.
+
+## Diagnose the performance gap before writing a learning outcome
+
+The difference between a learner's current performance and the desired performance is not automatically a learning problem, and it is not always a lack of knowledge.
+
+| Gap type | Diagnostic signal | Design implication | Relation to outcomes |
+|---|---|---|---|
+| **Knowledge** | The learner lacks information or a useful mental model | Provide and retrieve the necessary knowledge in the context where it will be used | Usually supports a learning outcome |
+| **Skill** | The learner knows what to do but cannot yet do it proficiently | Provide realistic, varied, scaffolded practice ++}with {++{"author":"Luc's AI","timestamp":1786087623061}@@feedback | A learning outcome that requires practice, not merely exposure |
+| **Motivation** | The learner knows how but does not choose to act | Investigate relevance, incentives, confidence, autonomy, and competing motivations; more information alone is unlikely to solve it | May relate to a disposition, but should not become a pass/fail learner state |
+| **Habit** | The learner can and wants to act but does not do so reliably or automatically | Support repetition, cues, follow-up, and changes to the surrounding environment | May produce repeated action milestones; habit strength itself is not ordinary learning-outcome completion |
+| **Environment** | Tools, processes, incentives, time, access, or social context obstruct performance | Fix the environment, provide job aids, or remove friction instead of trying to fix the learner | Usually not ++}a {--{"author":"Luc's AI","timestamp":1786087623061}@@practitioner) --}{++{"author":"Luc's AI","timestamp":1786087623061}@@learner outcome |
+| **Communication** | Directions or expectations ++}are {--{"author":"Luc's AI","timestamp":1786087623061}@@milestones: verify that--}{++{"author":"Luc's AI","timestamp":1786087623061}@@unclear or misaligned | Clarify the request or success criteria | Not a learning outcome or learning intervention |
+
+A useful skill-gap test is: **Could someone reasonably become proficient at this without practice?** If not, teaching information is insufficient. {>>{"author":"Luc's AI","timestamp":1786087623061}@@We might need Skill for "talking to others" and Habit for "thinking in terms of expected value"<<}
+
+Gap types diagnose *why* current and desired performance differ. Outcome types describe *what changes or milestones Lens cares about*. Evidence types describe *how Lens could know*. Keep these classifications separate.
+
+## Match evidence to++} the {--{"author":"Luc's AI","timestamp":1786087623061}@@thing exists --}{++{"author":"Luc's AI","timestamp":1786087623061}@@outcome type
+
+Different outcome types require different evidence:
+
+- **Learning outcomes:** performance tasks, explanations, decisions, critiques, ++}or {--{"author":"Luc's AI","timestamp":1786087623061}@@happened against --}{++{"author":"Luc's AI","timestamp":1786087623061}@@other observable demonstrations.
+- **Artifacts:** existence plus ++}explicit {--{"author":"Luc's AI","timestamp":1786087623061}@@criteria. Completing one doesn't --}{++{"author":"Luc's AI","timestamp":1786087623061}@@quality criteria where quality matters.
+- **Actions:** confirmation that the action occurred; this does not by itself ++}establish a transferable {--{"author":"Luc's AI","timestamp":1786087623061}@@skill.--}{++{"author":"Luc's AI","timestamp":1786087623061}@@learning outcome.++}
+- {--{"author":"Luc's AI","timestamp":1786087623061}@@**Dispositions** (motivated to contribute, changed beliefs) --}{++{"author":"Luc's AI","timestamp":1786087623061}@@**Dispositions:** optional self-report, interviews, reflection, or aggregate course-effect measures. These ++}are {--{"author":"Luc's AI","timestamp":1786087623061}@@never pass/fail --}{++{"author":"Luc's AI","timestamp":1786087623061}@@indicators rather than proof of an internal state.
+- **Impact:** longer-term follow-up ++}and {--{"author":"Luc's AI","timestamp":1786087623061}@@never get an outcome file. --}{++{"author":"Luc's AI","timestamp":1786087623061}@@program-level evaluation, with attention to contextual factors and the difficulty of causal attribution.
+
+++}A learner {--{"author":"Luc's AI","timestamp":1786087623061}@@who reasons well--}{++{"author":"Luc's AI","timestamp":1786087623061}@@should not fail a course merely for retaining a different value judgment or reporting a lower level of enthusiasm. Lens can test whether learners can reason, decide, plan,++} and {--{"author":"Luc's AI","timestamp":1786087623061}@@still disagrees,--}{++{"author":"Luc's AI","timestamp":1786087623061}@@act; it can separately investigate whether the course affected motivation, agency,++} or {--{"author":"Luc's AI","timestamp":1786087623061}@@stays unenthusiastic, has --}{++{"author":"Luc's AI","timestamp":1786087623061}@@values.
+
+A useful evaluation model distinguishes:
+
+- **Reaction:** Did learners find the experience useful, acceptable, engaging, confusing, or frustrating? This is useful evidence about course design and learner experience, but ++}not {--{"author":"Luc's AI","timestamp":1786087623061}@@failed anything. Treat dispositions --}{++{"author":"Luc's AI","timestamp":1786087623061}@@evidence that learning occurred. {>>{"author":"Luc's AI","timestamp":1786087623061}@@hmm what exactly does this mean? seems potentially useful though<<}
+- **Learning:** Can learners now demonstrate the intended learning outcome?
+- **Behavior:** Are learners applying it or acting differently outside the learning experience?
+- **Results:** Did those behaviors contribute to the larger result or impact?
+
+These require different evidence and occur at different distances from the course. A knowledge test should not be used ++}as {--{"author":"Luc's AI","timestamp":1786087623061}@@internal --}{++{"author":"Luc's AI","timestamp":1786087623061}@@evidence of real-world behavior, and behavior after the course should not automatically be attributed to the course.
+
+## Dispositions as ++}design targets, {--{"author":"Luc's AI","timestamp":1786087623061}@@measured (if at all) --}{++{"author":"Luc's AI","timestamp":1786087623061}@@not learner scores
+
+Self-determination theory distinguishes **autonomous motivation**, acting for reasons connected to one's own goals and values, from motivation produced mainly ++}by {++{"author":"Luc's AI","timestamp":1786087623061}@@pressure, guilt, fear, or external control. {>>{"author":"Luc's AI","timestamp":1786087623061}@@we should definitely be using self-determination theory as an evidence-based alternative to our mobilization system<<}
+
+It identifies three psychological needs:
+
+- **Autonomy:** feeling able to choose and align one's behavior with one's values.
+- **Competence:** feeling capable of achieving one's goals.
+- **Relatedness:** feeling accepted, connected, and that one belongs.
+
+For Lens, these are useful internal design variables and possible ++}aggregate {--{"author":"Luc's AI","timestamp":1786087623061}@@self-report.--}{++{"author":"Luc's AI","timestamp":1786087623061}@@evaluation measures. They should not become visible learner prerequisites or pass/fail criteria.
+
+Support learner agency by:
+
+- Explaining the real problem, the course's purpose, and how an activity is meant to help.
+- Connecting rationales to the learner's own goals and values rather than assuming agreement.++}
+- {--{"author":"Luc's AI","timestamp":1786087623061}@@**Impact** (a sustained--}{++{"author":"Luc's AI","timestamp":1786087623061}@@Offering meaningful choices and multiple legitimate++} contribution {++{"author":"Luc's AI","timestamp":1786087623061}@@paths.
+- Building competence through achievable practice and constructive feedback.
+- Fostering belonging without using conformity as evidence of success.
+- Avoiding guilt, fear, status pressure, or inadequacy as ways to obtain compliance.
+- Treating a learner's different conclusion as compatible with successful learning when they can reason about it well.
+
+Dispositions can be implicit in the learner-facing graph while explicit in the internal theory of change. Lens may intentionally design for agency and sustainable motivation without displaying "motivation achieved" or grading value alignment.
+
+- [Michael Noetel, "We all teach: here's how to do it better"](https://forum.effectivealtruism.org/posts/ZPNNnEu2HGNSNmifo/we-all-teach-here-s-how-to-do-it-better)
+
+## Broader course-design frames
+
+### UNESCO: cognitive, socio-emotional, and behavioural outcomes {>>{"author":"Luc's AI","timestamp":1786087623061}@@I think we also want to mention this in our course creation skills, just to kind of increase the amount of attention in the network on these sorts of thinking.<<}
+
+UNESCO's global-citizenship education framework distinguishes cognitive, socio-emotional, and behavioural domains. It includes knowledge and critical thinking; values, attitudes, empathy, and belonging; and practical engagement and action. It explicitly includes motivation and willingness ++}to {++{"author":"Luc's AI","timestamp":1786087623061}@@act while treating ++}the {--{"author":"Luc's AI","timestamp":1786087623061}@@field) is program-level evaluation,--}{++{"author":"Luc's AI","timestamp":1786087623061}@@domains as interlinked.
+
+- [UNESCO, Global Citizenship Education: Topics and Learning Objectives](https://www.unesco.org/sites/default/files/gcedtopicsandlearningobjectives_01.pdf)
+
+### OECD: knowledge, skills, attitudes, values, and agency {>>{"author":"Luc's AI","timestamp":1786087623061}@@same here, have in course<<}
+
+The OECD Learning Compass describes education as developing knowledge, skills, attitudes, values, and student agency. It also acknowledges important outcomes such as responsibility, empathy, and agency that are++} not {--{"author":"Luc's AI","timestamp":1786087623061}@@a course outcome.--}{++{"author":"Luc's AI","timestamp":1786087623061}@@adequately captured by conventional test instruments.
+
+- [OECD, Learning Compass FAQs](https://www.oecd.org/content/dam/oecd/en/about/projects/edu/education-2040/1-1-learning-compass/Learning%20Compass%20FAQs.pdf/_jcr_content/renditions/original./Learning%20Compass%20FAQs.pdf)
+- [OECD, What Students Learn Matters](https://www.oecd.org/content/dam/oecd/en/publications/reports/2020/11/what-students-learn-matters_555a22ec/d86d4d9a-en.pdf)++}
 
