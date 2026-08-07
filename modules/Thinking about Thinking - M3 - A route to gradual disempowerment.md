@@ -6,8 +6,8 @@ tags:
   - wip
 ---
 
-# Submodule: The route and the evidence
-# Learning Outcome:
+# {--{"author":"Leo's AI","timestamp":1786142372444}@@Submodule: The route and the evidence
+# --}Learning Outcome:
 source:: [[../Learning Outcomes/AI offloading and gradual disempowerment]]
 
 # Lens:

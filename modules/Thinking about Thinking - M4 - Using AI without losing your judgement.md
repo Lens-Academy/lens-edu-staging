@@ -6,8 +6,8 @@ tags:
   - wip
 ---
 
-# Submodule: Keeping your judgement
-# Learning Outcome:
+# {--{"author":"Leo's AI","timestamp":1786142373910}@@Submodule: Keeping your judgement
+# --}Learning Outcome:
 source:: [[../Learning Outcomes/Choosing what to delegate to AI]]
 
 # Lens:
