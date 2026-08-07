@@ -82,7 +82,7 @@ We're not yet 100% sure how our rubric should work, but the overall grade should
 
 Beyond pass/fail tests, it's still useful for Lens Coach to provide qualitative feedback on what went well and what could've been better.
 
-## Make the test valid
+## More about T
 
 The dominant defects in existing outcomes are recall tests and leading prompts. Avoid both:
 
