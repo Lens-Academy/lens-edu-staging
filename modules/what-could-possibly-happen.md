@@ -11,9 +11,9 @@ id:: 29d25c07-01ac-46b0-95e8-71ae4cee2366
 content::
 \## What could possibly happen?
 
-This unit is about the range of technical possibility: not what will happen, but what could, and how anyone could claim to know.
+This unit is about the range of technical possibility: not what will definitely happen, but what plausibly could, and how anyone could claim to know.
 
-There are two ways to get this wrong, and they are mirror images.
+There are two ways we get this wrong, and they are mirror images.
 
 The first is to believe that anything is possible because a film made it feel plausible. Computers become magic, capability arrives because the plot required it, and no mechanism is ever specified.
 
