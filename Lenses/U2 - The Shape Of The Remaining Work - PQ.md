@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083470861}@@---
+---
 id: '1c2dad7b-028c-4df8-8e7c-c1eaf1653c43'
 title: "The Shape Of The Remaining Work"
 tldr: If you are 16% of the way through a job and it took four years, how long is the rest? Your answer contains a whole theory of the job, and you probably did not notice putting it there.
@@ -33,4 +33,3 @@ What to do in your single reply:
 4. Close by sending them to the reading. One sentence, no preview.
 
 This is a one-turn response. Do not ask a follow-up question. Do not invite dialogue.
-++}

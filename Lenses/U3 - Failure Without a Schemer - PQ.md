@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083475512}@@---
+---
 id: '13aa0cb3-3ee5-4836-a7a3-0db3881f939b'
 title: "Failure Without a Schemer (pre-test)"
 tldr: Before anyone tells you how this goes wrong, work out how it could. You will read the answers afterwards and find out which ones you already had.
@@ -53,4 +53,3 @@ What to do in your single reply:
 If the student says they do not know, do not fill it in. Ask them for the least implausible thing they can think of, and accept a rough answer.
 
 This is a one to two turn phase. Do not let it become a lesson.
-++}

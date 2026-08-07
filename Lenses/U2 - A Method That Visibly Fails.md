@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083464720}@@---
+---
 id: 'b056a45b-7583-41f0-96a3-8ae48ca766fe'
 title: "A Method That Visibly Fails"
 tldr: Ask researchers what fraction of the problem they have solved, extrapolate the rate, and you get 372 years. Nobody believes it, including the people who gave the estimates. A method whose failure you can see is worth more than one whose failure you cannot.
@@ -149,4 +149,3 @@ Calibration summary (on close):
 Safety and integrity:
 - Strong causal claims: ask what they rest on and how they could be falsified.
 - Stuck after 2 attempts: give a brief direct answer and move on.
-++}

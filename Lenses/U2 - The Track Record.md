@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083471793}@@---
+---
 id: '512005f3-75ed-44bf-9e0c-2d897c4730a4'
 title: "The Track Record"
 tldr: Before learning how to forecast AI, look at how it has gone. Expert predictions of AI showed no advantage over non-expert ones, and clustered at fifteen to twenty-five years away regardless of when they were made.
@@ -84,4 +84,3 @@ What to do in each reply:
 3. Ask one causal follow-up, directly answerable.
 
 Close by naming that the next lens is about what actually does correlate with getting these right, and that the answer is not intelligence.
-++}

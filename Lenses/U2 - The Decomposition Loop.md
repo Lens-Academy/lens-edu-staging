@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083469880}@@---
+---
 id: '026de78b-1adf-4e13-ad90-22348646c003'
 title: "The Decomposition Loop"
 tldr: The best forecasters in a four-year tournament were not the smartest people or the domain experts. They were the ones who broke questions into parts they could actually check, and who had done it before.
@@ -161,4 +161,3 @@ content::
 ::card[[../Lenses/U2 - Average Then Extremize]]
 
 > Step five says aggregate. There is a real mathematics of aggregation, and it says the answer is sometimes outside the range of everything you are aggregating.
-++}

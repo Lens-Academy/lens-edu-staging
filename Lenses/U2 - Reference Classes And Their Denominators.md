@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083468569}@@---
+---
 id: '0d01e37e-38e6-4371-961b-7a69c7135650'
 title: "Reference Classes And Their Denominators"
 tldr: "Take the outside view" sounds like one instruction. It names about fifteen different moves, some of them excellent and some of them a way of not thinking while sounding rigorous. The fix is to say which move you made.
@@ -111,4 +111,3 @@ Calibration summary (on close):
 
 Safety and integrity:
 - Stuck after 2 attempts: give a brief direct answer and move on.
-++}

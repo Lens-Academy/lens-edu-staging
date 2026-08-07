@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083474550}@@---
+---
 id: 'b1936368-84ba-4ae6-aad1-c28ea76c897a'
 title: "Alignment Faking and In-Context Scheming"
 tldr: The theory said a system might behave differently when it believes it is being watched. Then somebody checked. Read your own predictions first; the interesting number is the distance between them and what follows.
@@ -155,4 +155,3 @@ content::
 ::card[[../Lenses/U3 - Sympathy for the Model]]
 
 > The uncomfortable follow-on: if these systems have preferences worth respecting, the techniques for detecting the behavior above are exactly the ones respecting those preferences would require us to give up.
-++}

@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083477433}@@---
+---
 id: '94bfe00d-136b-4c52-ac4c-e8d7d92a42e7'
 title: "Predict the Result (pre-test)"
 tldr: You are about to be told what two experiments found. First write down what you think they found. A prediction you wrote down is the only way to tell the difference between learning something and recognizing it.
@@ -68,4 +68,3 @@ What to do in your single reply:
 If a student refuses to guess or says it is unknowable, say that an uncertain guess on record is the instrument here, and ask for their best number anyway. Take whatever they give.
 
 This is a one to two turn phase.
-++}

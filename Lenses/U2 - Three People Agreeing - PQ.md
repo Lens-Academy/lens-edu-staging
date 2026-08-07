@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083472742}@@---
+---
 id: '6d12511c-9612-4bb8-ac11-7079b34ce883'
 title: "Three People Agreeing"
 tldr: Three forecasters say 60%, 65%, and 70%. Write down your combined estimate before you read on. Almost everyone writes a number between 60 and 70, and there are conditions under which that is provably wrong.
@@ -35,4 +35,3 @@ What to do in your single reply:
 4. Close by sending them to the reading. One sentence, no preview.
 
 This is a one-turn response. Do not ask a follow-up question. Do not invite dialogue.
-++}

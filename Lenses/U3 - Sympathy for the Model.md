@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083478579}@@---
+---
 id: 'ef1c5b59-2eb6-4f7a-a44d-018911eab50f'
 title: "Sympathy for the Model"
 tldr: Every threat model in this unit is written from one side. Here is the one where the thing that goes wrong is what we do to the systems, and it is entangled with the others rather than separate from them.
@@ -145,4 +145,3 @@ Safety and integrity:
 - If stuck after 2 attempts, answer briefly and move on.
 
 Calibration summary on close: what they demonstrated, what remains underdeveloped, and a direct test-readiness verdict.
-++}

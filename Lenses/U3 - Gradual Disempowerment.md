@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083476454}@@---
+---
 id: 'a8362bd6-1a5b-4876-b754-2e55f460e600'
 title: "Gradual Disempowerment"
 tldr: Our institutions serve us partly because they need us. Remove the need and the institutions do not fall over; they keep running, and stop being ours.
@@ -129,4 +129,3 @@ Safety and integrity:
 - If stuck after 2 attempts, answer briefly and move on.
 
 Calibration summary on close: what they demonstrated, what remains underdeveloped, and a direct test-readiness verdict.
-++}

@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083467618}@@---
+---
 id: 'f646ea15-5ffb-4a50-bd4e-a0e9494cf00e'
 title: "Nonlinear Interactions Workshop"
 tldr: Four systems, four sets of parts, four different ways the parts multiply instead of adding. No reading. You build the curves and the tutor tries to break them.
@@ -85,4 +85,3 @@ Name the four structures together and ask one final question: which of the four,
 Close with a direct calibration verdict on readiness for the test, naming which of the four structures they handled cleanly and which they needed help on.
 
 If the student wants to stop early, let them, and give the calibration on what was covered.
-++}
