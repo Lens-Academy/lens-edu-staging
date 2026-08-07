@@ -13,7 +13,6 @@ Best practices:
 Our design pattern:
 - learning outcomes are binary tests. Maybe build up of subjudgements, e.g. "answer should pass on 3 out of these 5 criteria"
 - LO should point at a thing we actually care about.
-
 	- Another thing to ask might be "can a person understand a more advanced version of this without understanding this simpler LO?". If yes, we might again not be pointing at a thing that people really need to know.
 
 ## Outcomes
@@ -65,7 +64,8 @@ In practice, creating courses requires a back and forth between learning outcome
    - Could someone become proficient at this without practice? If not, the lenses must contain practice with feedback, not just reading.
 
 ## Test Questions vs Practice Questions
-
+- distinguish between questions that test understanding of the world and questions that are good learning material but not good testing material.
+- Beginner-level learning outcomes should be the sort of things that every advanced person in the field should be expected to know. "Solve 1+x=2 for x" is good, "How does Johnny explain how to solve 1+x=2" might be a good learning-question but is not a good test-question because not every advanced person is expected to know this, nor would benefit to know this.
 
 ## Learning Outcome Files
 
