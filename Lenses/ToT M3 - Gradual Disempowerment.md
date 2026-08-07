@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1786139801177}@@---
+{++{"author":"Leo's AI","timestamp":1786140157463}@@---
 id: '2b2b6ada-3987-48eb-b3bd-b5546466dcd5'
 title: "The Gradual Disempowerment Thesis"
 tldr: "A gradual loss of control needs no rebellion: as AI displaces human participation in the economy, culture, and states, institutions stop needing us, and no concrete plan exists to stop it."
@@ -28,8 +28,6 @@ to:: "this set seems sufficient to establish the nature and severity of a potent
 #### Article
 from:: "Though we provide some proposals for slowing or averting this process, and survey related discussions, we emphasize that"
 to:: "it could plausibly lead to human extinction or similar outcomes."
-
----
 
 #### Question
 content::

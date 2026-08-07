@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1786139785034}@@---
+{++{"author":"Leo's AI","timestamp":1786140163299}@@---
 id: '40e2fc16-4d64-41b4-831b-b52dfad06c1e'
 title: "The Evidence: What Happens When AI Does the Thinking"
 tldr: "There is real evidence on both sides: skills can erode while a tool does the work, early engaged use can build understanding, and help can even regress strong work. The honest read is concern, not panic: it depends on when and how you use AI."
@@ -43,8 +43,6 @@ Hold two thoughts together. The doctor study and the survey point at real erosio
 source:: [[../articles/bednar-does-ai-make-lawyers-worse-at-thinking-new-research-offers-a-more-complicated-answer]]
 from:: "Since the public release of ChatGPT in 2022, a growing body of empirical research has suggested that generative AI systems could fundamentally reshape the practice of law."
 to:: "conditions that increase the likelihood that AI substitutes for careful analysis rather than supporting it."
-
----
 
 #### Question
 content::

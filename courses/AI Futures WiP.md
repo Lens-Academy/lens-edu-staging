@@ -1,6 +1,6 @@
 ---
 id: 'c3f1a7d2-9e4b-4a86-b512-8d7c6e2f0a13'
-slug: ai-futures
+slug: ai-futures-wip
 title: "Forecasting, Modeling, and Shaping AI Futures"
 description: "Learn to see the landscape of AI possibility coming, well enough to detect it yourself. Six units on technical possibility, forecasting method, threat models, the strategic landscape, and building your own model. Every unit tests the concept rather than the reading: you commit to an answer before you read, and the graded questions are set in domains the readings never mention."
 tags: [wip]
