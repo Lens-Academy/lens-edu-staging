@@ -13,7 +13,7 @@ content::
 
 This unit is about the range of technical possibility: not what will definitely happen, but what plausibly could, and how anyone could claim to know.
 
-There are two ways we get this wrong, and they are mirror images.
+There are two ways we've noticed people get this wrong.
 
 The first is to believe that anything is possible because a film made it feel plausible. Computers become magic, capability arrives because the plot required it, and no mechanism is ever specified.
 
