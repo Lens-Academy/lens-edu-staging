@@ -75,15 +75,13 @@ I.e. related outcomes at different levels (awareness → application → produci
 
 ## Write the rubric first
 
-
+We're not yet 100% sure how our rubric should work, but the overall grade should be a single pass or fail. We do think rubrics can sometimes contain multiple pass/fail checks to build up the whole. But it's important that each subject itself is binary as well. Like, you can say, "The answer must have 3 out of these 5 qualities," as long as each of those 5 qualities is binary as well.
 
 ## Make the test valid
 
 The dominant defects in existing outcomes are recall tests and leading prompts. Avoid both:
 
-- **Require transfer at the pass bar.** The test presents an unfamiliar case or application. An answer that only reconstructs the source's argument is a level-2 answer, not a pass.
-- **Don't teach the answer in the stem.** If the question restates the argument before asking about it, it tests reading the stem, not the capability.
-- **Grade reasoning, not agreement.** A learner who understands the argument and disagrees well passes. Assess whether they can reconstruct, evaluate, and respond to the argument, never whether they accept its conclusion.
+- **Grade reasoning, not agreement.** A learner who understands the argument and disagrees well passes. Generally, we want to assess whether they can reconstruct, evaluate, and respond to the argument, not whether they accept its conclusion. Ideally, we want participants to pass the ideological Turing test.
 - **Test the object, not the text.** The reading points at something (a mechanism, a distribution, a structural relationship). Test *that*, and prefer a case the readings do not contain. A question answerable by recalling the assigned text measures assignment completion. If the student can pass by remembering what an author said rather than by reasoning about the thing the author was describing, the question is wrong.
 - **Test the shape of the possibility space, including non-linear structure.** Where a topic has mathematical structure, the question should make that structure do work: not only "what happens" but under what interactions, thresholds, and combinations. Non-linear interactions between parts of a system are the most commonly untested and the most load-bearing: a student who models a system as a sum of independent parts will get the qualitative answer wrong whenever feedback, saturation, or a threshold matters. Ask by-when and under-what-conditions questions, not only whether-and-why ones.
 
