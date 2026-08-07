@@ -117,22 +117,7 @@ source:: [[../Lenses/My Topic]]
 
 
 
-## Diagnose the performance gap before writing a learning outcome
 
-The difference between a learner's current performance and the desired performance is not automatically a learning problem, and it is not always a lack of knowledge.
-
-| Gap type | Diagnostic signal | Design implication | Relation to outcomes |
-|---|---|---|---|
-| **Knowledge** | The learner lacks information or a useful mental model | Provide and retrieve the necessary knowledge in the context where it will be used | Usually supports a learning outcome |
-| **Skill** | The learner knows what to do but cannot yet do it proficiently | Provide realistic, varied, scaffolded practice with feedback | A learning outcome that requires practice, not merely exposure |
-| **Motivation** | The learner knows how but does not choose to act | Investigate relevance, incentives, confidence, autonomy, and competing motivations; more information alone is unlikely to solve it | May relate to a disposition, but should not become a pass/fail learner state |
-| **Habit** | The learner can and wants to act but does not do so reliably or automatically | Support repetition, cues, follow-up, and changes to the surrounding environment | May produce repeated action milestones; habit strength itself is not ordinary learning-outcome completion |
-| **Environment** | Tools, processes, incentives, time, access, or social context obstruct performance | Fix the environment, provide job aids, or remove friction instead of trying to fix the learner | Usually not a learner outcome |
-| **Communication** | Directions or expectations are unclear or misaligned | Clarify the request or success criteria | Not a learning outcome or learning intervention |
-
-A useful skill-gap test is: **Could someone reasonably become proficient at this without practice?** If not, teaching information is insufficient. 
-
-Gap types diagnose *why* current and desired performance differ. Outcome types describe *what changes or milestones Lens cares about*. Evidence types describe *how Lens could know*. Keep these classifications separate.
 
 ## ..
 
