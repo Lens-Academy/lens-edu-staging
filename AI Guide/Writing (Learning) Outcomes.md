@@ -87,7 +87,15 @@ Temporary move: [[../../Lens/Deleted bits from 'writing learning outcomes']]
 We're not yet 100% sure how our rubric should work, but the overall grade should be a single pass or fail. We do think rubrics can sometimes contain multiple pass/fail checks to build up the whole. But it's important that each subject itself is binary as well. Like, you can say, "The answer must have 3 out of these 5 qualities," as long as each of those 5 qualities is binary as well.
 
 Beyond pass/fail tests, it's still useful for Lens Coach to provide qualitative feedback on what went well and what could've been better.
-## File syntax
+
+## Learning Outcome Files
+
+A learning outcome file can contain one or more inseparable learning outcomes, in the sense that they are passed or failed together. If it seems fair for the learner to pass one learning outcome but fail another, these should live in separate learning outcome files.
+
+An outcome is one pass/fail completion unit, not a graded system. Deeper ldevels of capability on the same topic are classified as seprate learning outcome files ("⟨Topic⟩ Level 2").
+
+I.e. related outcomes at different levels (awareness → application → producing a plan) are separate files, sequenced by the module.
+### File syntax
 
 The filename is the learner-visible skill name (modules and the skill tree display it). Conventions (settled in [[../../Lens/Learning Outcome Short-Name Proposal]]): a short noun phrase, 2 to 6 words, sentence case; the verb lives in the outcome statement, not the title; no course prefixes (outcomes are course-agnostic); unique across the folder.
 
