@@ -51,7 +51,7 @@ Things that are **not** learning outcomes:
 Work backward from real-world performance, not forward from content:
 
 1. Start from what someone contributing to AI safety must be able to do: the skill-tree topic or the contribution-role requirement the course serves.
-2. Write the outcome statement, then its test, then the practice that prepares for the test.
+2. Write the learning outcome statement, then its test, then the practice that prepares for the test.
 3. Only then pick or commission the readings and lenses. They are teaching routes to the outcome, chosen for it, not the source of it.
 
 In practice, creating courses requires a back and forth between learning outcomes and learning material. The process is not as linear as suggested here.
