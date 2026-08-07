@@ -24,8 +24,8 @@ Known-outstanding defects are listed in the repo at
 
 # Module: [[../modules/unit-2-how-do-we-know|Unit 2: How Do We Know?]]
 
-# Meeting: Unit 2 discussion
+# Meeting
 
 # Module: [[../modules/Unit 3 - Threat Models and Key Scenarios|Unit 3: Threat Models and Key Scenarios]]
 
-# Meeting: Unit 3 discussion
+# Meeting
