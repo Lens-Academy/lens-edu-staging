@@ -10,9 +10,11 @@ tags:
 #### Text
 content::
 \## Reading Assignment
-Read the article **Gradual Disempowerment** by Jan Kulveit and colleagues (Kulveit, Douglas, Ammann, Turan, Krueger, Duvenaud). The excerpts below cover the article's opening statement, its six core claims, and its sober closing paragraph.
+Read the article **Gradual Disempowerment** by Jan Kulveit and colleagues (Kulveit, Douglas, Ammann, Turan, Krueger, Duvenaud). The excerpts below {++{"author":"Course Designer's AI","timestamp":1786146161697}@@come from the article's opening page and two of its deeper sections.
 
-Start at the beginning and read through the three excerpts. You can return to the collapsed parts of the article if you want more detail, but the assignment is the three excerpts.
+The first three excerpts ++}cover the article's opening statement, its six core claims, and its sober closing paragraph.{++{"author":"Course Designer's AI","timestamp":1786146161697}@@ The next excerpt is from the economy section: it explains why AI is not just another labour-saving tool, but a different kind of change that can displace human cognition across the board. The last two excerpts are from the mutual-reinforcement section: they answer the strongest objection to the whole scenario, the worry that the different parts of society would keep each other aligned.++}
+
+Start at the beginning and read through the {--{"author":"Course Designer's AI","timestamp":1786146161697}@@three excerpts.--}{++{"author":"Course Designer's AI","timestamp":1786146161697}@@six excerpts in order.++} You can return to the collapsed parts of {--{"author":"Course Designer's AI","timestamp":1786146161697}@@the--}{++{"author":"Course Designer's AI","timestamp":1786146161697}@@any++} article if you want more detail, but the assignment is {--{"author":"Course Designer's AI","timestamp":1786146161697}@@the three--}{++{"author":"Course Designer's AI","timestamp":1786146161697}@@these six++} excerpts.
 
 Return here after reading.
 
@@ -27,7 +29,21 @@ to:: "this set seems sufficient to establish the nature and severity of a potent
 
 #### Article
 from:: "Though we provide some proposals for slowing or averting this process, and survey related discussions, we emphasize that"
-to:: "it could plausibly lead to human extinction or similar outcomes."
+to:: "it could plausibly lead to human extinction or similar outcomes."{++{"author":"Course Designer's AI","timestamp":1786146161697}@@
+
+#### Article
+source:: [[../articles/gradual-disempowerment-misaligned-economy]]
+from:: "Past technological shifts like the industrial revolution or the development of electronic communication have substantially changed the world of work"
+to:: "as machines become capable of performing virtually any cognitive task more efficiently than humans."
+
+#### Article
+source:: [[../articles/gradual-disempowerment-mutual-reinforcement]]
+from:: "A natural objection is that the different societal systems might be able to keep each other aligned through checks and balances."
+to:: "This dynamic could even intensify with AI systems, which might be able to identify and exploit these cross-system opportunities more effectively than human actors."
+
+#### Article
+from:: "Crucially, the misalignment being described here does not need to emerge from a deliberate scheme or power-grab by AI systems."
+to:: "there will be progressively stronger incentives to use influence in any one system to acquire influence in other systems."++}
 
 #### Question
 content::
@@ -43,7 +59,12 @@ Key concepts in the reading:
 - Pressure from replacing humans in one system bleeds into others (economic power shapes politics and culture)
 - Six claims: systems are roughly aligned; alignment is maintained by human action and reliance on human labour and cognition; less reliance means less alignment; AI may follow bad incentives; systems are interdependent; correlated misalignment ends in disempowerment, possibly an existential catastrophe
 - The focus: economy, culture, and states
-- No one has a concrete plausible plan for stopping it; aligning individual AI systems is not sufficient
+- No one has a concrete plausible plan for stopping it; aligning individual AI systems is not sufficient{++{"author":"Course Designer's AI","timestamp":1786146166996}@@
+- Why AI is not just another labour-saving tool: past automation took narrow tasks and moved humans into more complex roles; AI can compete with or outperform humans across nearly all cognitive domains, so it is "worker-replacing" rather than task-replacing (the economy excerpt)
+- The economy excerpt's link to Unit 1: the calculator automated arithmetic but still needed human understanding; AI can handle both the calculation and the higher-level reasoning about when and how to apply it
+- The strongest objection: the different societal systems would keep each other aligned through checks and balances (states regulate markets, culture influences government)
+- The article's reply: the relationships between systems are agnostic to human values, so the same influence that ordinarily maintains alignment can be used to spread misalignment; moderation between systems can shift the burden and leave the moderating system more vulnerable (mutual reinforcement)
+- No deliberate scheme is needed: general incentives push humans and institutions to reduce human influence, and those incentives grow stronger as AI proves useful (mutual reinforcement)++}
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
 
@@ -93,7 +114,7 @@ Key concepts the student needs to grasp:
 - Coordination amongst humans itself becomes harder as AI shapes culture and behaviour
 - No dramatic "day one" exists; each step is individually reasonable
 
-The core move to draw out: the sceptic assumes the loss of influence shows up as an event people can react to, and that the people who could react still hold enough power to act. The article argues the opposite: the loss is made of individually reasonable steps, and the very institutions that humans would use to resist have stopped depending on humans, so the levers of resistance are themselves weakening. If the student agrees with the sceptic, ask them to find the step in the article's account where a workable resistance would start, and ask who would still control the mechanism.
+The core move to draw out: the sceptic assumes the loss of influence shows up as an event people can react to, and that the people who could react still hold enough power to act. The article argues the {--{"author":"Course Designer's AI","timestamp":1786146173285}@@opposite:--}{++{"author":"Course Designer's AI","timestamp":1786146173285}@@opposite, and the mutual-reinforcement section is where it does so directly: the relationships between societal systems are agnostic to human values, so the same cross-system influence that ordinarily keeps them aligned can spread misalignment instead; trying to use one aligned system to moderate another can shift the burden and leave++} the {--{"author":"Course Designer's AI","timestamp":1786146173285}@@loss--}{++{"author":"Course Designer's AI","timestamp":1786146173285}@@moderating system more vulnerable; and no deliberate scheme++} is {--{"author":"Course Designer's AI","timestamp":1786146173285}@@made of individually reasonable steps, --}{++{"author":"Course Designer's AI","timestamp":1786146173285}@@needed, because general incentives push humans ++}and {++{"author":"Course Designer's AI","timestamp":1786146173285}@@institutions to reduce human influence. So ++}the very institutions{--{"author":"Course Designer's AI","timestamp":1786146173285}@@ that--} humans would use to resist have stopped depending on humans, {--{"author":"Course Designer's AI","timestamp":1786146173285}@@so--}{++{"author":"Course Designer's AI","timestamp":1786146173285}@@and++} the levers of resistance are themselves weakening. If the student agrees with the sceptic, ask them to find the step in the article's account where a workable resistance would start, and ask who would still control the mechanism.
 
 Conversation flow: keep an internal turn counter. After 3 replies, ask whether the student wants to continue or stop; if they want to stop, give the calibration summary below.
 
@@ -101,7 +122,7 @@ What to do in each reply:
 1. If the student asks a direct question, just answer it.
 2. Otherwise, steelman their answer in 2 to 4 sentences; identify 1 to 3 gaps; ask 2 causal follow-up questions (why, how, what if), each directly answerable, no opinion questions.
 
-If the student is missing the core move, draw it out: ask what the sceptic's "day one" would look like and who would call the meeting; ask what happens to the incentive to serve citizens when states no longer need their labour; ask what the early adopters experience that makes their competitors copy them.
+If the student is missing the core move, draw it out: ask what the sceptic's "day one" would look like and who would call the meeting; ask what happens to the incentive to serve citizens when states no longer need their labour; ask what the early adopters experience that makes their competitors copy {--{"author":"Course Designer's AI","timestamp":1786146173285}@@them.--}{++{"author":"Course Designer's AI","timestamp":1786146173285}@@them; ask why the checks-and-balances between systems do not protect alignment, given that cross-system influence is agnostic to human values.++}
 
 Calibration summary (on close): name what the student demonstrated; name what remains underdeveloped; give a direct test-readiness verdict tied to the outcome.
 
