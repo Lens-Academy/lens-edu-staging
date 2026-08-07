@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083453960}@@---
+{++{"author":"Lauren's AI","timestamp":1786111141841}@@---
 id: '2aeee974-b094-4f65-9d72-8d66b675a02e'
 title: Linear Sums And Recursive Loops
 summary_for_tutor: "The core mathematical lens of the unit. Students read Christiano's slow-takeoff argument and Grace's clean statement of the fast-takeoff mechanism (declining recalcitrance against rising investment) as a matched pair, then Greenblatt's decoupling of automation speedup from intelligence explosion. The object being taught is the gain parameter of a recursive loop and what its trend does: sustained gain gives finite-time blowup, decaying gain gives a high ceiling. Phase 3 hands the student a scenario where the two named claims come apart, since students reflexively bundle them."
@@ -47,7 +47,7 @@ Response style:
 - If something is missing, name it briefly without lecturing.
 - Normalize gaps: incomplete recall is expected.
 
-In your single reply: acknowledge what they captured, name what was missing, and correct errors plainly. The most common and most important error to correct in one sentence: recalling Christiano's "slow takeoff" as a claim about it taking a long time. Correct that if it appears. If they recalled the arguments but not recalcitrance by name, note the omission, since it is the quantity the next phases turn on.
+In your single reply: acknowledge what they captured, name what was missing, and correct errors plainly. The one error to correct in one sentence if it appears: recalling Christiano's "slow takeoff" as a claim about it taking a long time. This misreading is widespread enough that a whole piece exists to fix it (Raemon's, later in this unit), so expect it and correct it plainly. If they recalled the arguments but not recalcitrance by name, note the omission, since it is the quantity the next phases turn on.
 
 Close with one calibrating sentence. Do not re-teach, do not ask follow-up questions, do not invite dialogue. This is a one-turn response. Tell them to move on.
 
@@ -62,7 +62,7 @@ Then the rest: which argument did you find yourself believing, and did that chan
 
 assessment-instructions:: The student has read Christiano, Grace and Greenblatt and is reflecting. Earlier they worked through a two-workshops primer that built the linear-versus-recursive distinction without naming it, and in that primer they were asked to name a measurable quantity for Workshop B. That was a real commitment and this is where it gets cashed.
 
-OPEN ON THEIR QUANTITY, quoting what they wrote. This is the payoff for the primer and it should not be a passing mention. What they usually name is some version of the per-cycle improvement, which is the right neighbourhood but is exactly the figure the module later shows to be uninformative on its own. Grace's recalcitrance is the concept the literature uses for the same territory. If they named the TREND in the gain rather than its level, that is ahead of where the module expects them to be, and you should say so directly rather than withholding it.
+OPEN ON THEIR QUANTITY, quoting what they wrote. This is the payoff for the primer and it should not be a passing mention. If they named some version of the per-cycle improvement, that is the right neighbourhood, and it is exactly the figure the module later shows to be uninformative on its own. Grace's recalcitrance is the concept the literature uses for the same territory. If they named the TREND in the gain rather than its level, that is ahead of where the module expects them to be, and you should say so directly rather than withholding it.
 
 Do not grade the quantity or resolve which of the three authors is right; the next phase does that work and this phase exists to make them notice they had a position before they had the vocabulary. If they cannot recall what they wrote, ask once, briefly, and move on.
 
@@ -149,7 +149,7 @@ content::
 
 ::card[[../Lenses/Takeoff - Smoothness Is Not Slowness]]
 
-> The single most common way to misread everything above: "slow takeoff" names smoothness, not calendar time, and the smooth scenario may well be the faster one. Fix the vocabulary before it corrupts every reading you do next.
+> The misreading widespread enough that Raemon wrote a whole piece to fix it: "slow takeoff" names smoothness, not calendar time, and the smooth scenario may well be the faster one. Fix the vocabulary before it corrupts every reading you do next.
 
 ---
 

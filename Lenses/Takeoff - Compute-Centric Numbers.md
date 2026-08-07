@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083452724}@@---
+{++{"author":"Lauren's AI","timestamp":1786111140713}@@---
 id: '6d47e55b-f642-42ea-a6e7-5eb8645db491'
 title: Compute-Centric Numbers
 summary_for_tutor: "Optional deep-dive on Tom Davidson's compute-centric takeoff model, plus his six-milestones framing. The value is not the headline number (a four-OOM capability gap compressed to roughly three years) but seeing how a model of this kind is assembled and where its parameters come from. The exercise makes the student find the parameter the conclusion is most sensitive to, which is the transferable skill. Also converts 'timelines' from one date into a sequence of thresholds."
@@ -18,7 +18,7 @@ Read for the assembly, not the number. Where does each parameter come from? Whic
 
 **Second, read Davidson's *Six milestones for AI automation*.**
 
-This one does something different and arguably more useful: it replaces "when does transformative AI arrive" with a sequence of thresholds, each with its own arrival estimate. That structure transfers to almost any question about a technology arriving.
+This one does something different, and to our eye more useful: it replaces "when does transformative AI arrive" with a sequence of thresholds, each with its own arrival estimate. That structure transfers to other questions about a technology arriving, which is why it is worth learning here rather than only for AI.
 
 #### Question
 content::
@@ -34,10 +34,10 @@ assessment-instructions:: Optional deep-dive after the main takeoff lens. The st
 The capability being exercised: sensitivity analysis on a model you did not build. This is the practical form of the whole unit's skill, and it is the closest thing here to what a working forecaster actually does.
 
 Key concepts:
-- The high-sensitivity parameters in models of this shape are typically the returns-to-research-effort exponent (how much harder each further improvement is, which is the recalcitrance question in another dress) and the fraction of AI research that automation can actually cover. Students may reasonably pick either, or another, if they argue it.
-- Question 2 matters because these parameters differ sharply in provenance: some are fit to historical data on research productivity, some are analogised from other technologies, and some are judgment calls. A student who cannot tell which is which is treating the model as more measured than it is.
+- OUR HYPOTHESIS, NOT A FINDING, and the student may overturn it: we expect the high-sensitivity parameters in models of this shape to be the returns-to-research-effort exponent (how much harder each further improvement is, which is the recalcitrance question in another dress) and the fraction of AI research that automation can actually cover. Nobody has run a sensitivity analysis on Davidson's model to check this, so grade the ARGUMENT rather than the pick. A student who names a different parameter and says why it dominates is doing the exercise correctly, and if their reasoning is better than ours, say so.
+- Question 2 matters because parameters in models of this kind differ in provenance: some are fit to historical data, some are analogised from other technologies, and some are judgment calls. We have not classified Davidson's parameters one by one, so treat this as the general point it is. A student who cannot tell which is which is treating the model as more measured than it is.
 - Question 3 is the payoff: a conclusion that survives large parameter changes is robust; one that needs a specific value is a restatement of an assumption. Either finding is worth having, and the student should report which they found rather than assuming the answer.
-- On the milestones: decomposition buys checkability, since each threshold can be independently observed and graded as it arrives, and it converts one unfalsifiable date into a sequence of near-term tests. It costs completeness, since a sequence asserts an ORDER, and a capability arriving out of order breaks the frame rather than merely adjusting it.
+- On the milestones, our analysis, open to challenge: decomposition buys checkability, since each threshold can be independently observed and graded as it arrives, and it converts one unfalsifiable date into a sequence of near-term tests. It costs completeness, since a sequence asserts an ORDER, and a capability arriving out of order breaks the frame rather than merely adjusting it. A student who argues against either half is doing the exercise, not evading it.
 
 Response length: 120 to 200 words. Short paragraphs only.
 
