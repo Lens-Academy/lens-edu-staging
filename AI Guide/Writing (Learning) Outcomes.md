@@ -64,7 +64,7 @@ In practice, creating courses requires a back and forth between learning outcome
    - Could someone become proficient at this without practice? If not, the lenses must contain practice with feedback, not just reading.
 
 ## Test Questions vs Practice Questions
-- distinguish between questions that test understanding of the world and questions that are good learning material but not good testing material.
+- distinguish between questions that test understanding of the world and questions that are good learning material but not good testing material. All good test ques
 - Beginner-level learning outcomes should be the sort of things that every advanced person in the field should be expected to know. "Solve 1+x=2 for x" is good, "How does Johnny explain how to solve 1+x=2" might be a good learning-question but is not a good test-question because not every advanced person is expected to know this, nor would benefit to know this.
 
 ## Learning Outcome Files
