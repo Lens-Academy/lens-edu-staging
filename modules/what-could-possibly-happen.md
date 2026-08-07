@@ -19,11 +19,11 @@ The first is to believe that anything is possible, perhaps because a film made i
 
 The second is the opposite failure and it is just as common: to not really believe the extrapolation. To nod along about progress while not intuitively expecting that systems able to do most cognitive work are actually coming, because that feels like science fiction rather than like a projection from things already happening.
 
-Both failures have the same root. Neither is thinking mechanistically. If you hold a conclusion without holding the mechanism that produces it, you cannot tell which of your beliefs would survive contact with a new fact, and you cannot update when the world changes.
+Both failures have the same root. Neither is thinking mechanistically. If you believe a conclusion without also knowing the mechanism that produces it, you cannot tell which of your beliefs would survive contact with a new fact, and you cannot update when the world changes.
 
 So the target here is not a conclusion about timelines. By the end you should be able to say why a given outcome should or should not be expected, and to take apart an estimate you have never seen before: what it rests on, which direction it errs in, and what would have to be measured to check it.
 
-You will be asked to make predictions before you read, repeatedly. Some of them you will get wrong. That is the design. A prediction you did not write down teaches you nothing, because you will remember having expected whatever turns out to be true.
+You will be asked to make predictions before you read, repeatedly. Some of them you will get wrong. Spend enough time trying to guess.
 
 ---
 
