@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083512499}@@---
+---
 slug: unit-2-how-do-we-know
 title: "Unit 2: How Do We Know?"
 id: 'b0194d96-a8ed-4dd7-bf98-9b4cabc319df'
@@ -104,4 +104,3 @@ The tests you are about to take are the same three objects in different clothes,
 ::card[[../Lenses/U2 - Reference Classes And Their Denominators]]
 
 > If you skipped the optional lens on reference classes, it is the shortest high-value thing in the unit, and step two of the decomposition loop is close to unusable without it.
-++}

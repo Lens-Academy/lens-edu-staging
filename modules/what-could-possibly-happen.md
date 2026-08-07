@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083514791}@@---
+---
 slug: what-could-possibly-happen
 title: "What Could Possibly Happen?"
 id: '3f5cf9c9-cd86-45b6-a4af-83c3d5e982c8'
@@ -117,4 +117,3 @@ What to do:
 Conversation flow:
 - Keep an internal turn counter. Up to 3 replies, then close.
 - Close by naming which of the three frameworks from this unit they used most fluently and which they reached for least, since the one they reached for least is the one to revisit.
-++}
