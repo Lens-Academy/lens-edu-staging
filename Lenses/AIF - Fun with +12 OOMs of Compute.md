@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786128797004}@@---
+---
 id: '327430c4-be7a-48f7-a75f-bcdbefe19c01'
 title: Fun with +12 OOMs of Compute
 tldr: Before arguing about when AI arrives, find out what your own model says compute can buy. A thought experiment with a magic wand, and a timer.
@@ -107,4 +107,3 @@ What to do in each reply:
 3. If they cannot name anything that would move them twenty points, take that seriously and ask what an unmovable number is tracking.
 
 On close: tell them their number gets revisited at module end, and give a brief calibration on what they have solid and what is still borrowed.
-++}

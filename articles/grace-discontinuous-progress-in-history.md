@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786128229220}@@---
+---
 title: "Discontinuous progress in history: an update"
 author: "Katja Grace"
 published: 2020-04-14
@@ -35,4 +35,3 @@ Katja Grace and collaborators at AI Impacts surveyed roughly fifty technological
 **Read the full investigation at [aiimpacts.org](https://aiimpacts.org/discontinuous-progress-in-history-an-update/).**
 
 The ten cases meeting the 100-year bar include the Pyramid of Djoser (structure height, 2650 BC), the SS Great Eastern (ship size, 1858), the first and second transatlantic telegraphs (message speed, 1858 and 1866), the Paris Gun (altitude, 1918), the first non-stop transatlantic flight (1919), the George Washington Bridge (span length, 1931), nuclear weapons (explosive effectiveness, 1945), the first ICBM (military payload delivery time across the Atlantic, 1958), and the YBa2Cu3O7 superconductor (superconducting temperature, 1987).
-++}

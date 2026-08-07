@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786128181008}@@---
+---
 title: "Fun with +12 OOMs of Compute"
 author: "Daniel Kokotajlo"
 published: 2021-03-01
@@ -148,4 +148,3 @@ There are lots of minor nitpicks I have with Ajeya's report, but I'm not talking
 I hope this post helps focus the general discussion about timelines. As far as I can tell, the biggest crux for most people is something like "Can we get TAI just by throwing more compute at the problem?" Now, obviously we *can* get TAI just by throwing more compute at the problem, there are theorems about how neural nets are universal function approximators etc., and we can always do architecture search to find the right architectures. So the crux is really about whether we can get TAI just by throwing *a large but not too large* amount of compute at the problem... and I propose we operationalize "large but not too large" as "10^35 FLOP or less." I'd like to hear people with long timelines explain why OmegaStar, Amp(GPT-7), Crystal Nights, SkunkWorks, and Neuromorph wouldn't be transformative (or more generally, wouldn't cause an AI-induced PONR). I'd rest easier at night if I had some hope along those lines.
 
 *This is part of my larger investigation into timelines commissioned by CLR. Many thanks to Tegan McCaslin, Lukas Finnveden, Anthony DiGiovanni, Connor Leahy, and Carl Shulman for comments on drafts. Kudos to Connor for pointing out the Skunkworks and Neuromorph ideas. Thanks to the LW team (esp. Raemon) for helping me with the formatting.*
-++}

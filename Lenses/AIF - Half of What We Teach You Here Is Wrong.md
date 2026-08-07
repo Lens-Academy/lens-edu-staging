@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786128796043}@@---
+---
 id: '4e2e0cdd-c676-4791-9d5b-8ba25055f7dd'
 title: Half of What We Teach You Here Is Wrong
 tldr: Half of what this course teaches is wrong, and nobody knows which half. Your job is to build a model that can survive finding out.
@@ -50,4 +50,3 @@ What to do in your single reply:
 3. Tell them this snapshot gets revisited at the end of the module, and that they will be asked to restate it from memory rather than scroll back.
 
 This is a one-turn response. Do not invite further dialogue.
-++}

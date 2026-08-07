@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786128798413}@@---
+---
 id: '1149d855-7192-4a25-9835-6508c1d31fe9'
 title: When Progress Jumps
 tldr: How often does technology jump a century in one step? You guess first; then the measured base rates.
@@ -93,4 +93,3 @@ What to do in each reply:
 3. Require the closing sentence to mention their OWN day-zero model, not a generic lesson. If they give a generic lesson, ask once what it does to the specific story they wrote in the cold open.
 
 After 2 tutor replies, close the phase.
-++}
