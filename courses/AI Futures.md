@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083515901}@@---
+---
 id: 'c3f1a7d2-9e4b-4a86-b512-8d7c6e2f0a13'
 slug: ai-futures
 title: "Forecasting, Modeling, and Shaping AI Futures"
@@ -29,4 +29,3 @@ Known-outstanding defects are listed in the repo at
 # Module: [[../modules/Unit 3 - Threat Models and Key Scenarios|Unit 3: Threat Models and Key Scenarios]]
 
 # Meeting: Unit 3 discussion
-++}
