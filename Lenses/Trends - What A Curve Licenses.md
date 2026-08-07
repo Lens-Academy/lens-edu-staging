@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083462468}@@---
+{++{"author":"Lauren's AI","timestamp":1786111149714}@@---
 id: 'e09b035f-169a-4ab6-9301-a4cff5eff6e1'
 title: What A Curve Licenses
 summary_for_tutor: "The main reading lens for the extrapolation outcome. The student has already committed to a MATH-benchmark prediction in the PQ lens; this lens has them read Steinhardt's graded scoreboard (forecasters said 12.7 percent, reality was 50.3 percent), then METR's own account of what their time-horizon metric cannot support. The sequence is: be wrong yourself, see professionals be wrong the same way, then read a measurement team explaining the limits of their own curve. Phase 3 hands the student a plausible-but-flawed extrapolation to break."
@@ -118,7 +118,7 @@ Learning outcome for this lens: Given an unfamiliar trend line and a proposed ex
 
 Key concepts the student needs to reach:
 - R-squared measures agreement between fit and data inside the observed range. It is structurally silent about the unobserved range, which is where the entire claim lives. Surviving two architecture changes is genuine evidence the mechanism is not a one-generation artifact, and is still not evidence about a range nobody has entered.
-- A score approaching a ceiling is a different regime. The remaining 39 points are not interchangeable with the last 39: on most benchmarks the residual items are residual for a reason, and the measured doublings happened on the easy mass.
+- A score approaching a ceiling is a different regime. The remaining 39 points are not interchangeable with the last 39: our expectation, which a strong student may overturn with an argument, is that residual items are residual for a reason, and the measured doublings happened on the easy mass.
 - Construct stability: is the quantity at 61 the same quantity as at 95? Saturating a benchmark and solving the underlying capability are different claims, and only the first is on the chart.
 - Confidence should come from an outside view (how often do strong regular trends run several more doublings without a break) rather than from the fit's quality. Steinhardt's forecasters were badly wrong while holding well-fit models; METR's team declines to extrapolate from a curve they themselves measured.
 - The distinction between what IS supported (this grew fast and regularly on this benchmark for three years, across architectures) and what is NOT (a date).

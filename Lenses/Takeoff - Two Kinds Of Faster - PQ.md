@@ -1,8 +1,8 @@
-{++{"author":"Lauren's AI","timestamp":1786083431550}@@---
+{++{"author":"Lauren's AI","timestamp":1786111143912}@@---
 id: '7ffb30a1-3c17-4c49-8a71-259102ac9ccc'
 title: Pre-Reading Question - Two Kinds Of Faster
 summary_for_tutor: "Primes the linear-versus-recursive distinction before any reading supplies the vocabulary. Two deliberately non-AI scenarios (a bakery buying ovens, a machine shop whose lathes make lathes) instantiate the two structures with no jargon attached. The student must notice that one saturates and one may not, and must produce the deciding quantity themselves. Do not supply the words compounding, recursive, feedback loop, or intelligence explosion; the whole value is that the student builds the object before it is named."
-tldr: One bakery buys better ovens. One machine shop uses its lathes to build better lathes. Both get faster. Only one of them can get faster at getting faster.
+tldr: One bakery buys better ovens. One machine shop uses its lathes to build better lathes. Both get faster. Only one of them could get faster at getting faster, and whether it actually does is the question you are here to work out.
 authors:
   - Claude
 ---

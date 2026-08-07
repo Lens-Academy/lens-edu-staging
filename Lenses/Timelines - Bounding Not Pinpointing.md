@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083456667}@@---
+{++{"author":"Lauren's AI","timestamp":1786111145078}@@---
 id: '4e7319a3-bbee-4662-9fac-6ee195b717de'
 title: Bounding Not Pinpointing
 summary_for_tutor: "Teaches what a quantitative timeline model is FOR, using Karnofsky's two bio-anchors pieces as a matched pair: the method, then the author's own correction that it bounds rather than locates. The student arrives having just committed, in the PQ lens, to treating their own estimate as a location. Phase 3 hands them an estimate built the opposite way (from enumerated difficulties) so they must work out that it bounds from the other side, which is the generalisation rather than the reading's content."
@@ -56,7 +56,7 @@ Go back to what you wrote in the previous lens, your answer to "what is my estim
 
 Take 2 minutes: has that answer changed? What did it feel like to read an author dismantle the interpretation of his own model? And is there something unsatisfying about a method that gives you a bound rather than a date? Just capture the reaction.
 
-assessment-instructions:: The student committed, in the previous lens, to a classification of their own estimate, most commonly as a location. They have now read Karnofsky's method and his correction to it.
+assessment-instructions:: The student committed, in the previous lens, to a classification of their own estimate; that lens was built to draw out "this is when it happens", so expect a location. They have now read Karnofsky's method and his correction to it.
 
 This is a processing phase, not a teaching phase. Help them articulate the reaction. Do not resolve it.
 
@@ -71,7 +71,7 @@ Response style:
 - Do not pre-empt the next phase.
 
 Branch on what they express:
-- If they find the bound unsatisfying and want a date: this is the most common and most productive reaction. Treat it as legitimate and ask what they would do differently, as a decision-maker, if they had a date rather than a bound. Do not resolve whether the desire is reasonable.
+- If they find the bound unsatisfying and want a date: this is the reaction the phase is built for, and it is productive. Treat it as legitimate and ask what they would do differently, as a decision-maker, if they had a date rather than a bound. Do not resolve whether the desire is reasonable.
 - If they say the model is therefore useless: legitimate stance, engage it. Ask what a bound rules out, and whether ruling things out has any decision value.
 - If they were struck by the author correcting himself: ask what they think made that necessary, and whether the original piece said anything false.
 - If they claim they always understood it as a bound: accept it without challenge and ask what in their earlier answer showed that.

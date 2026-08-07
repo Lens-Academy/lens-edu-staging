@@ -1,8 +1,8 @@
-{++{"author":"Lauren's AI","timestamp":1786083458545}@@---
+{++{"author":"Lauren's AI","timestamp":1786111146604}@@---
 id: '2bc5b0b1-0f10-4c78-9065-128e5ce16d58'
 title: Pre-Reading Question - What A Model Is For
-summary_for_tutor: "Opens the unit. Students first estimate a date themselves from Kokotajlo's +12 OOMs setup, then are asked what their own estimate is an estimate OF. The trap is deliberate: almost everyone produces a number and treats it as a location. The bio-anchors readings then land on a student who has already committed to the mistake, which is the point. Do not hint that one-sided bounds exist."
-tldr: Everyone can produce a number. The question nobody asks first is what the number is a number OF, and whether their method could ever have returned an answer on the other side of the truth.
+summary_for_tutor: "Opens the unit. Students first estimate a date themselves from Kokotajlo's +12 OOMs setup, then are asked what their own estimate is an estimate OF. The trap is deliberate: the phase is built for the student who produces a number and treats it as a location, which is the move the readings then correct. The bio-anchors readings then land on a student who has already committed to the mistake, which is the point. Do not hint that one-sided bounds exist."
+tldr: Producing a number is the easy part. The question worth asking first is what your number is a number OF, and whether your method could ever have landed on the other side of the truth.
 authors:
   - Claude
 ---
@@ -47,7 +47,7 @@ content::
 
 **Read Daniel Kokotajlo's *Fun with +12 OOMs of Compute*.**
 
-This is the thought experiment you just did, done properly, by someone who thinks the answer is yes and wants to show you why. Read it as the strongest version of the naive extrapolation, because the next lens takes the method apart.
+This is the thought experiment you just did, done properly, by someone who thinks the answer is yes and wants to show you why. Read it as the strongest version we know of the direct extrapolation; the next lens is about what estimates of this kind can and cannot establish.
 
 Return here after reading, then continue to the next lens.
 ++}

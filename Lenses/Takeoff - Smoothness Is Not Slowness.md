@@ -1,8 +1,8 @@
-{++{"author":"Lauren's AI","timestamp":1786083455502}@@---
+{++{"author":"Lauren's AI","timestamp":1786111142914}@@---
 id: '8557cd35-9245-435f-a909-54dab8e37f9f'
 title: Smoothness Is Not Slowness
 summary_for_tutor: "The vocabulary repair. 'Slow takeoff' names continuity, not calendar duration, and the continuous scenario is plausibly the FASTER one in wall-clock terms. Students who miss this mis-hear every takeoff reading, so this lens is short, sharp, and placed immediately after the main takeoff lens. Raemon supplies the terminology fix; Bensinger reframes the discontinuity debate as a question about where improvement comes from. Phase 3 tests the repair by having the student re-express a real disagreement in unambiguous language."
-tldr: "Slow takeoff" does not mean it takes a long time. It means there is no sudden jump. The scenario called slow may well be the one where everything happens sooner, which is why the word has caused so much confused argument.
+tldr: '"Slow takeoff" does not mean it takes a long time. It means there is no sudden jump. The scenario called slow may well be the one where everything happens sooner, which is why the word has caused so much confused argument.'
 authors:
   - Claude
 ---

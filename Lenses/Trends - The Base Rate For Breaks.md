@@ -1,8 +1,8 @@
-{++{"author":"Lauren's AI","timestamp":1786083461402}@@---
+{++{"author":"Lauren's AI","timestamp":1786111148556}@@---
 id: 'e0f7f243-9f03-42ac-b15c-f2b368e4a661'
 title: The Base Rate For Breaks
-summary_for_tutor: "Supplies the outside-view number the extrapolation outcome needs. Students read Katja Grace's survey of roughly fifty technological trends, which measures how often large robust discontinuities actually occur (about 0.1 percent per trend-year, but roughly 14 percent of progress in a discontinuous trend arrives in a single jump). The design point: the debate about whether AI progress will jump is usually conducted with anecdotes on both sides, and this is the one reading that answers it by counting. Phase 3 forces the student to apply the two numbers, which point in opposite directions, to a single decision."
-tldr: Everyone arguing about whether progress jumps has a favourite anecdote. Somebody went and counted. The answer is that jumps are rare per year and enormous when they happen, which is worse than either side wanted.
+summary_for_tutor: "Supplies the outside-view number the extrapolation outcome needs. Students read Katja Grace's survey of roughly fifty technological trends, which measures how often large robust discontinuities actually occur (about 0.1 percent per trend-year, while the chance that a given level of progress arrives via a large robust discontinuity is around 14 percent). The design point: the debate about whether AI progress will jump is usually conducted with anecdotes on both sides, and this is the one reading that answers it by counting. Phase 3 forces the student to apply the two numbers, which point in opposite directions, to a single decision."
+tldr: Everyone arguing about whether progress jumps has a favourite anecdote. Somebody went and counted. The answer is that jumps are rare in any given year, and carry a surprisingly large share of the increments that do arrive, which is worse than either side wanted.
 authors:
   - Claude
 ---
@@ -17,14 +17,14 @@ Katja Grace and collaborators did the boring thing. They took roughly fifty tech
 Before reading, commit to two numbers.
 
 1. Pick a trend at random from that set and pick a year at random. What is the probability that year contains a large discontinuity in that trend? Give a percentage.
-2. When a discontinuity does happen, what share of the trend's total progress do you think arrives in that one jump? Give a percentage.
+2. Pick some particular increment of progress in that trend. What is the probability it arrived via a large discontinuity rather than by the usual incremental grind? Give a percentage.
 
 Then say in one sentence which of the two numbers you expect to matter more for reasoning about AI.
 
 max-time:: 6:00
 
 assessment-instructions::
-The student is about to read Katja Grace's "Discontinuous progress in history: an update," which finds large robust discontinuities occur at roughly 0.1 percent per trend-year, while around 14 percent of progress in such trends arrives in a single discontinuous jump.
+The student is about to read Katja Grace's "Discontinuous progress in history: an update," which finds large robust discontinuities occur at roughly 0.1 percent per trend-year, while the chance that a given level of progress arrives via such a discontinuity is around 14 percent. Grace's exact wording matters here: the 14 percent is a probability about how any particular increment of progress arrives, NOT a share of total progress. Those sound alike and are different quantities.
 
 They have just committed to two numbers and a claim about which matters more.
 
@@ -55,8 +55,8 @@ Key content:
 - The survey covers roughly fifty technological trends selected for having usable long-run historical data.
 - A discontinuity is defined operationally, in terms of how many years of progress at the previous rate arrived at once, which is what makes counting possible at all. The definition is a choice, and the paper is explicit about that.
 - Large robust discontinuities are rare per trend-year, on the order of 0.1 percent.
-- Roughly 14 percent of progress in these trends arrives via discontinuous jumps, which is a large share.
-- These two findings pull in opposite directions: jumps are unlikely in any given year, and account for a substantial fraction of total progress when they occur.
+- The chance that a given level of progress arrives in a large robust discontinuity is around 14 percent. Verbatim from the paper: "the average rate of large robust discontinuities per year across trends was about 0.1%, but the chance of a given level of progress arising in a large robust discontinuity was around 14%". Do not let the student walk away thinking this means 14 percent of all progress is jumps; it is a claim about how an increment arrives.
+- These two findings pull in opposite directions: a jump is unlikely in any given trend-year, yet a given increment of progress has a substantial chance of having arrived via one.
 - Selection concerns are acknowledged: trends with good historical data may not be representative, and famous discontinuities are famous partly because they were discontinuous.
 
 Your role in this phase is diagnostic, not instructional. Act as a brief, honest mirror.
@@ -79,13 +79,13 @@ Go back to the two numbers you guessed before reading. Write both down again nex
 
 Which one were you further off on, and in which direction? Then: what were you assuming about how technological progress works that produced that particular error? Do not answer "I just did not know" if you can say something sharper about the belief that generated the guess.
 
-assessment-instructions:: The student committed to two numeric guesses before reading (the per-trend-year rate of large discontinuities, and the share of progress arriving in jumps) and has now seen the real figures: about 0.1 percent per trend-year, and roughly 14 percent of progress.
+assessment-instructions:: The student committed to two numeric guesses before reading (the per-trend-year rate of large discontinuities, and the share of progress arriving in jumps) and has now seen the real figures: about 0.1 percent per trend-year, and a roughly 14 percent chance that a given level of progress arrives via a discontinuity.
 
 This is a processing phase, not a teaching phase. Help them articulate the belief under the error; do not resolve it for them.
 
-The two errors mean different things, and which one they made is the content here:
-- Overestimating the RATE usually comes from availability: the famous discontinuities are famous because they were discontinuous, so they are over-sampled in memory. Nuclear weapons and the transistor are what comes to mind; the fifty ordinary trends are not.
-- Underestimating the SHARE usually comes from an implicit model where progress is a smooth accumulation and jumps are noise on top of it. The survey says the opposite: jumps are rare and they carry a large fraction of the total.
+The two errors mean different things, and which one they made is the content here. Our reading of the likely generators, offered as hypotheses to probe rather than diagnoses to deliver:
+- Overestimating the RATE fits an availability story: the famous discontinuities are famous because they were discontinuous, so they are over-sampled in memory. Nuclear weapons and the transistor are what comes to mind; the fifty ordinary trends are not.
+- Underestimating the SHARE fits an implicit model where progress is a smooth accumulation and jumps are noise on top of it. The survey says the opposite: jumps are rare and they carry a large fraction of the total.
 - Getting both roughly right but treating them as one fact is its own error, and worth naming: the two numbers pull in opposite directions and that tension is the whole finding.
 
 Branch on what they wrote. If they are defensive about the guess, say plainly that being wrong here is the design and the guess was worth making. If they now claim they "basically knew", ask what they would have written for the second number.
