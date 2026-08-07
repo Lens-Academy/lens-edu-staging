@@ -14,7 +14,9 @@ summary_for_tutor:: Course-orientation lens for Unit 1 of "Thinking about Thinki
 
 #### Text
 content::
-Welcome to *Thinking about Thinking*. This is a short, self-paced course by the **Metacognitive Research Group**. In it, we explore how AI can change how we think. This course is for anyone curious about how AI systems can affect their judgement. Your reflections throughout this course may be used to inform research into how people use AI. Please be honest, as nothing is tied back to you.
+Welcome to *Thinking about Thinking*, a short, self-paced course by the **Metacognitive Research Group**. In the Metacognitive Research Group, we think about how human and AI systems interact, and what that means for the future of humanity. We work to educate people about the metacognitive benefits and risks of advanced AI systems, and share what their future could look like.
+
+In it, we explore how AI can change how we think. This course is for anyone curious about how AI systems can affect their judgement. Your reflections throughout this course may be used to inform research into how people use AI. Please be honest, as nothing is tied back to you.
 
 This course is structured into five units, roughly an hour each. Each unit is a set of short readings and conversations with an AI tutor. You read, you answer questions, and the tutor responds. There are no marks and no one is judging you.
 
