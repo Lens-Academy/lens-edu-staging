@@ -25,15 +25,19 @@ Lens distinguishes five outcome types:
 
 | Outcome type | Example | Why | Visibility to users |
 |---|---|---|---|
-| **Learning outcome** | Can compare two alignment proposals and explain an important disagreement | Participants need knowledge and skills to be able to contribute to AI Safety | Very user-facing. Forms basis for tests User-facing tests, be assessed and completed |
+| **Learning outcome** | Can compare two alignment proposals and explain an important disagreement | Participants need knowledge and skills to be able to contribute to AI Safety | Very user-facing. Forms basis for tests users take. |
 | **Artifact** | Has produced a personal contribution plan |Various reasons | May appear as a user-facing milestone |
 | **Action** | Has discussed the plan with two practitioners | Builds self-efficacy and excitement, and has actual impact | May appear as a user-facing milestone |
 | **Disposition** | Feels able and willing to contribute to AI safety | We want to know whether *on average*, we help people get excited about contributing to AI Safety | Individuals will never be judged for their dispositions, e.g. it's not part of their certificates. We use this data just for improving our offerings. |
 | **Downstream Impact** | Makes a sustained, useful contribution to AI safety | Our courses are only useful insofar as they help participants reduce x-risk | Internal program-evaluation or theory-of-change measure |
 
-The same activity can play more than one role. A personal plan is an artifact, evidence that may support a planning learning outcome, and potentially one step toward later action. Keep these distinguishable even when they refer to the same event.
 
-Learning-outcome files continue to live in `Learning Outcomes/`. Artifact, action, disposition, and impact outcome files live in the sibling `Outcomes/` folder for now. Longitudinal outcomes may be referenced across several modules and described in comments in the main course file; they do not need to belong to one module. Lenses may support any of these outcomes even when the outcome develops across a course.
+Learning-outcome files live in `Learning Outcomes/`. Artifact, action, disposition, and impact outcome files live in the sibling `Outcomes/` folder. 
+
+Learning outcomes live within modules and are well-contained.
+
+Other outcomes can span several modules and are only included in %% comments %%. These help us focus our attention on things we care about, but aren't yet used programatically by the system.
+
 
 ## What a learning outcome is (and isn't)
 
