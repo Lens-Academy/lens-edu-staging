@@ -16,7 +16,7 @@ Some overarching non-learning outcomes we want to achieve:
 # Module: [[../modules/IABIED M1 Intro and Nonhuman Minds, Part 1]]
 
 # Meeting: Introduction
-meeting-doc-template:: {--{"author":"Elias's AI","timestamp":1786038977498}@@https://docs.google.com/document/d/1QSbyN9AvTn2bJ2ZV_HXKzlGhyyaLlKbi47tD3MZNXtQ/edit--}{++{"author":"Elias's AI","timestamp":1786038977498}@@https://docs.google.com/document/d/1aH0zK_oljINf5h9mvLjTeiQbwSj6Uxsjo1Wv3RAKfbo/edit++}
+meeting-doc-template:: https://docs.google.com/document/d/1aH0zK_oljINf5h9mvLjTeiQbwSj6Uxsjo1Wv3RAKfbo/edit
 
 # Module: [[../modules/IABIED M2 Nonhuman Minds, Part 2]]
 
@@ -36,7 +36,7 @@ meeting-doc-template:: https://docs.google.com/document/d/19-KJb0ZEVlVYJoVMOnY5x
 # Module: [[../modules/IABIED M5 Facing The Challenge, Part 1]]
 
 # Meeting: Facing the Challenge, part 1
-meeting-doc-template:: {--{"author":"Elias's AI","timestamp":1786028580487}@@https://docs.google.com/document/d/1WRMD6tnKCpFTQIztTAEBBJQsmb7yzFy3mxjg5b4JQZY/edit?tab=t.0#heading=h.by5wcelvjnsd--}{++{"author":"Elias's AI","timestamp":1786028580487}@@https://docs.google.com/document/d/1dW_VlZoAn6eLR0_ZY8XvQvRoVvr51a23XAXMAnH_bSI/edit++}
+meeting-doc-template:: https://docs.google.com/document/d/1dW_VlZoAn6eLR0_ZY8XvQvRoVvr51a23XAXMAnH_bSI/edit
 
 # Module: [[../modules/IABIED M6 Facing The Challenge, Part 2]]
 

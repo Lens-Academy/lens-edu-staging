@@ -24,10 +24,10 @@ Go through each tab of the master template (https://docs.google.com/document/d/1
 2. The fixed parts match the master template exactly.
 3. The glossary is filled: ordered by module, each term defined once at its first appearance, in one or two sentences, in the source's framing.
 4. The doc title names the right course and unit, and the [Group] placeholder is still unfilled.
-{--{"author":"Elias's AI","timestamp":1786030175836}@@3.--}{++{"author":"Elias's AI","timestamp":1786030175836}@@5.++} The run-sheet's next-unit heads-up matches the next unit's actual reading; in the final unit it says there is none.
+5. The run-sheet's next-unit heads-up matches the next unit's actual reading; in the final unit it says there is none.
 
 ### Agent 2: Room quality
-Judge each room against its role. {--{"author":"Elias's AI","timestamp":1786030174928}@@The--}{++{"author":"Elias's AI","timestamp":1786030174928}@@Most++} examples below are real prompts from past unit docs: they show the quality bar, not required shapes. A room passes if it serves its role well, whatever shape it takes.
+Judge each room against its role. Most examples below are real prompts from past unit docs: they show the quality bar, not required shapes. A room passes if it serves its role well, whatever shape it takes.
 
 1. **Room 1 is a good icebreaker**: Warms people up to each other and toward the material.
 
@@ -70,7 +70,7 @@ The book's claim this unit: **humanity gets one shot at aligning superintelligen
 
 As a group, build the strongest counterargument you can. Pick your best one and stress-test it: how would the authors answer it? Write your verdict: does your counterargument survive?
 
-If you can't find strong counterarguments, ask the {--{"author":"Elias's AI","timestamp":1786030176344}@@lens coach--}{++{"author":"Elias's AI","timestamp":1786030176344}@@Lens Coach (https://lensacademy.org/coach)++} to help you.
+If you can't find strong counterarguments, ask the Lens Coach (https://lensacademy.org/coach) to help you.
 ```
 
 Find the weakest step:
@@ -92,7 +92,7 @@ Stage the text's own disagreement:
 ```
 Klurl vs Trapaucius. Trapaucius argues that any being smart enough will grasp its "purpose" and pursue only that. Klurl replies: "they'd know, but would they care?" Who's right about humans, and what does that predict for AI?
 
-If you don't understand this question, copy it into {++{"author":"Elias's AI","timestamp":1786030176949}@@the ++}Lens {--{"author":"Elias's AI","timestamp":1786030176949}@@coach--}{++{"author":"Elias's AI","timestamp":1786030176949}@@Coach (https://lensacademy.org/coach)++} to explain it.
+If you don't understand this question, copy it into the Lens Coach (https://lensacademy.org/coach) to explain it.
 ```
 
 Practice (argue to a newcomer):
@@ -113,13 +113,13 @@ Collect questions:
 Take a second to write down one or two discussion questions you'd genuinely like the group to dig into. Go around, present your questions, and discuss what you are most curious about.
 
 Example questions to discuss:
-- {--{"author":"Elias's AI","timestamp":1786030177771}@@Question 1--}{++{"author":"Elias's AI","timestamp":1786030177771}@@Would you notice if an AI were faking alignment? Would anyone?++}
-- {--{"author":"Elias's AI","timestamp":1786030177771}@@Question 2--}{++{"author":"Elias's AI","timestamp":1786030177771}@@If nobody understands why the AI does what it does, who's responsible when it acts?
+- Would you notice if an AI were faking alignment? Would anyone?
+- If nobody understands why the AI does what it does, who's responsible when it acts?
 ```
 
 Transfer (apply the unit's mechanism to a case the text never mentions):
 ```
-The book's mechanism in one line: train hard on a proxy, and you grow preferences that only correlate with what you wanted. Now leave AI: pick a system your group knows well (hiring, school grades, social media feeds, dating apps) and trace the same mechanism through it. Where did optimizing the measurable thing grow something nobody asked for? Then bring it back: does the fix people usually propose there work for AI, or does it fail for the reasons the book gives?++}
+The book's mechanism in one line: train hard on a proxy, and you grow preferences that only correlate with what you wanted. Now leave AI: pick a system your group knows well (hiring, school grades, social media feeds, dating apps) and trace the same mechanism through it. Where did optimizing the measurable thing grow something nobody asked for? Then bring it back: does the fix people usually propose there work for AI, or does it fail for the reasons the book gives?
 ```
 
 3. **Room 4 leaves participants with a clear plan/next step.** Example prompts:
@@ -144,7 +144,7 @@ One thing you're glad you know now that you didn't know two hours ago.
 	Both together are fine when the information list is short.
 
 5. General, for every room: prompts are open (more than one defensible answer), not exhausted in a minute, never a comprehension check, never teach their own answer in the setup text, doable by 3 to 4 strangers in the time slot, and the meeting has an arc: each room's output can be retold in a sentence or two when the next room opens.
-6. Complex questions contain a note like: "Not sure what the question is asking? Copy it into {++{"author":"Elias's AI","timestamp":1786030177416}@@the ++}Lens {--{"author":"Elias's AI","timestamp":1786030177416}@@Coach,--}{++{"author":"Elias's AI","timestamp":1786030177416}@@Coach (https://lensacademy.org/coach),++} and ask for an explanation."
+6. Complex questions contain a note like: "Not sure what the question is asking? Copy it into the Lens Coach (https://lensacademy.org/coach), and ask for an explanation."
 
 7. Read the unit's actual content (the module(s) with its lenses, learning outcomes, and readings) and check the doc against it:
 	1. Every claim the doc attributes to the source(s) is actually made there; prompts never strawman the material.
