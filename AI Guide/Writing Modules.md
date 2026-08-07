@@ -36,7 +36,7 @@ hide:: true                           ← hidden from the module page (requires 
 - A `# Lens:` section has either `source::` (referenced) or `id::` + segments (inline), not both. Segment syntax: [[Writing Lenses]].
 
 ## Creation flow
-1. Deeply think about/discuss with the user what exactly you want to teach in a given module/submodule and create LOs based on this (see [[Writing Learning Outcomes]])
+1. Deeply think about/discuss with the user what exactly you want to teach in a given module/submodule and create LOs based on this (see [[Writing (Learning) Outcomes]])
 2. Find excellent articles/videos/exercises to teach the LO (if the user tells you to do it by yourself, use multiple subagents to come up with possibilities and others to criticize them until you are certain what you have is the best possible way to achieve the agreed learning outcomes)
 
 ## Recommended patterns
