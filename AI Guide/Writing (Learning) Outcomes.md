@@ -54,7 +54,7 @@ Work backward from real-world performance, not forward from content:
 2. Write the outcome statement, then its test, then the practice that prepares for the test.
 3. Only then pick or commission the readings and lenses. They are teaching routes to the outcome, chosen for it, not the source of it.
 
-
+In practice, creating courses requires a back and forth between learning outcomes and learning material. The process is not as linear as suggested here.
 
 ## Writing the statement
 
@@ -67,21 +67,15 @@ Work backward from real-world performance, not forward from content:
 
 ## Scope: one skill per file
 
-One outcome = one testable skill. The tell that you have two: describing a passing answer needs an "and also" joining two claims that could be understood independently. Split it. An outcome is one pass/fail completion unit. Genuinely deeper capability on the same topic is a separate leveled outcome file ("⟨Topic⟩ Level 2"); rubric levels above the pass bar calibrate feedback, they don't credential extra depth. Related outcomes at different levels (awareness → application → producing a plan) are separate files, sequenced by the module.
+A learning outcome file can contain one or more inseparable learning outcomes, in the sense that they are passed or failed together. If it seems fair for the learner to pass one learning outcome but fail another, these should live in separate learning outcome files.
+
+An outcome is one pass/fail completion unit, not a graded system. Deeper ldevels of capability on the same topic are classified as seprate learning outcome files ("⟨Topic⟩ Level 2").
+
+I.e. related outcomes at different levels (awareness → application → producing a plan) are separate files, sequenced by the module.
 
 ## Write the rubric first
 
-The 1–5 rubric is the outcome's operational definition: the test question's `assessment-instructions::` hold a 5-level rubric where **every level has a verbatim example answer**:
 
-```
-**1**: <failure mode>. *Example: "<what a level-1 answer sounds like>"*
-**2**: <partial understanding>. *Example: "..."*
-**3**: <correct mechanism, the pass bar>. *Example: "..."*
-**4**: As above, plus <structural implication>. *Example: Adds "..."*
-**5**: As above, plus <deepest connection>. *Example: Adds "..."*
-```
-
-Levels 4 and 5 are written as "As above, plus…" so graders compose rather than re-judge. Write it before designing lenses: level 3 is the pass bar, levels 1 and 2 name the failure modes the lenses must head off, levels 4 and 5 name the depth the best lenses can reach for. If you can't write distinct level-1, level-3, and level-5 example answers, the outcome is too vague or too big. Fix the statement, not the rubric.
 
 ## Make the test valid
 
