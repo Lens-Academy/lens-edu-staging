@@ -3,12 +3,14 @@ title: "Discontinuous progress in history: an update"
 author: "Katja Grace"
 published: 2020-04-14
 source_url: https://aiimpacts.org/discontinuous-progress-in-history-an-update/
-tags:
+{--{"author":"Rune's AI","timestamp":1786131359739}@@tags:
   - wip
----
+--}---
 
 %%
-LICENSING HOLD, 2026-08-08. This is a STUB, not a full-text import.
+LICENSING HOLD, 2026-08-08. This is a STUB, not a full-text import.{++{"author":"Rune's AI","timestamp":1786131361764}@@ The stub
+itself ships to production (short attributed quotes + a link out are fine); the
+hold is only on importing the FULL text.++}
 
 AI Impacts is not LessWrong/Alignment Forum, so the course brief's "LW/AF full
 text inline is OK" does not cover it. Full text is deliberately NOT reproduced
