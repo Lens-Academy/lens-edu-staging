@@ -1,0 +1,96 @@
+{++{"author":"Lauren's AI","timestamp":1786128798413}@@---
+id: '1149d855-7192-4a25-9835-6508c1d31fe9'
+title: When Progress Jumps
+tldr: How often does technology jump a century in one step? You guess first; then the measured base rates.
+summary_for_tutor: "Supplies the outside-view base rate for discontinuous progress, measured rather than argued. The student commits to three guesses (a per-trend-year rate of 100-year jumps, a share of total progress arriving in such jumps, and three technologies they would bet had one) before seeing any figure, then reads the measured answers from AI Impacts, then diffs. CRITICAL for the tutor: the 14 percent figure is a SHARE OF TOTAL PROGRESS, not the probability that a given increment arrives as a jump. Students reliably invert this and earlier versions of our own material inverted it too. The lens teaches a two-sided conclusion: jumps are rare (about one per thousand trend-years) and large when present (38 percent of total progress among trends that have any), and those two halves pull a forecast in opposite directions."
+tags:
+  - wip
+authors:
+  - Lauren+Claude
+---
+#### Text
+content::
+\## Does capability arrive as a slope or a cliff?
+
+Every model of the future leans on an assumption about smoothness: does capability arrive as a steady slope, or in cliffs? That is an empirical question about the past, and AI Impacts spent years measuring it: dozens of technological trends checked for moments where one step delivered more than a century of progress at the previous rate. Before you see their numbers, you will write down yours. This one stings a little; the sting is the data you keep.
+
+#### Question
+content::
+\## Guess the base rates
+
+Three guesses, before you look at anything.
+
+1. Across all measured trend-years, how often does a technology trend jump by more than 100 years of progress in one step? Give a rate: jumps per trend, per year.
+2. Averaged across trends, what share of a trend's TOTAL progress arrived in such jumps?
+3. Name three technologies you would bet money had at least one 100-year jump somewhere in their history.
+
+Write your reasoning in one line per guess; the reasoning is worth more than the number.
+
+max-time:: 6:00
+
+assessment-instructions:: The student has not seen any of the measured data. It is in the next segment.
+
+One turn, diagnostic. Do NOT reveal, hint at, or react to the accuracy of any measured figure. Do not signal whether a guess is high or low.
+
+Response length: 60 to 120 words. Short paragraphs only. No lists.
+
+Response style:
+- Calm and direct.
+- Do not over-validate. Avoid generic praise.
+- No correction of any guess value.
+
+What to do in your single reply:
+1. Confirm they gave all three parts in the right units: a per-trend-year rate, a share of total progress, and three named technologies.
+2. If a guess is in the wrong units (for example a percentage where a rate was asked), fix the UNITS only, never the value, and ask them to restate in the right units.
+3. Send them on to the measured answers.
+
+This is a one-turn response.
+
+#### Text
+content::
+\## The measured answers
+
+The measured answers, quoted from AI Impacts, "Discontinuous progress in history: an update" (Katja Grace; link below, and worth the full read):
+
+> "On average, each trend had 0.001 large robust discontinuities per year, or 0.002 for those trends with at least one at some point."
+
+And:
+
+> "On average 14% of total progress in a trend came from large robust discontinuities (or 16% of logarithmic progress), or 38% among trends which have at least one."
+
+Read the 14% carefully: it is a share of TOTAL progress, not the chance that any given increment arrives in a jump. Jumps are rare (one per thousand trend-years), and when a trend has one at all, jumps account for over a third of everything it ever gained. Rare, and large when present. Both halves matter, and they pull your model in different directions.
+
+Their ten large robust discontinuities: the Pyramid of Djoser (structure height, ~2650 BC), the SS Great Eastern (ship size, 1858), the first and second transatlantic telegraphs (message speed, 1858/1866), the Paris Gun (altitude, 1918), the first non-stop transatlantic flight (1919), the George Washington Bridge (span, 1931), nuclear weapons (explosive effectiveness, 1945), the first ICBM (Atlantic crossing time, 1958), and the YBa2Cu3O7 superconductor (superconducting temperature, 1987).
+
+#### Article
+source:: [[../articles/grace-discontinuous-progress-in-history]]
+
+#### Question
+content::
+\## The diff
+
+Score yourself. How far off was your rate, and in which direction? Was your share-of-total-progress guess closer to the 14% average or the 38% among-affected-trends figure, and which of those two numbers is the right one to load into your model of AI, given that you don't yet know which kind of trend AI capability is? Did any of your three named technologies appear in their ten? Finish with one sentence for your running model: what does "rare, but large when present" do to the smoothest version of your day-zero story?
+
+assessment-instructions:: The student has committed to three guesses and has now read the measured figures.
+
+Grade the READING, not the guess. A student whose guesses were far off but who now uses the figures correctly is passing.
+
+THE STANDARD INVERSION, and the main thing to watch for: a student who quotes 14% as "the probability that a given advance is discontinuous" has inverted the quantity. Correct it by quoting the source sentence back to them, "14% of total progress in a trend came from large robust discontinuities", and have them restate it in their own words before moving on. This inversion is common and is not a sign of a weak student.
+
+The 38%-versus-14% question has NO single right answer. What earns the pass is conditioning: "if AI is a discontinuity-prone trend, then the 38% figure is the relevant one, and here is why I do or don't think it is." A student who picks one number and defends the choice passes; a student who picks one with no conditioning does not yet.
+
+Maximum 2 tutor turns. Keep an internal turn counter.
+
+Response length: 100 to 180 words. Short paragraphs only. No lists longer than 4 items.
+
+Response style:
+- Calm, rigorous, and educational.
+- Do not over-validate. Avoid generic praise.
+
+What to do in each reply:
+1. Check the inversion first, and fix it if present.
+2. Push for the conditioning if their 38-versus-14 answer is unconditioned.
+3. Require the closing sentence to mention their OWN day-zero model, not a generic lesson. If they give a generic lesson, ask once what it does to the specific story they wrote in the cold open.
+
+After 2 tutor replies, close the phase.
+++}
