@@ -18,7 +18,7 @@ Welcome to *Thinking about Thinking*. This is a short, self-paced course by the 
 
 It's structured into five units, roughly an hour each. Each unit is a set of short readings and conversations with an AI tutor. You read, you answer questions, and the tutor responds. There are no marks and no one is judging you.
 
-Funnily enough, an AI helped write parts of this course. You'll also discuss . Both are used to clarify our thoughts, not to replace them. We revisit the ideas in this course often, because the tools change.
+Funnily enough, an AI helped write parts of this course. You'll also discuss some of your ideas with an AI tutor. AI can help clarify our thoughts, but it can't replace them. We'll revisit this idea later in the course.
 
 Your judgement and your taste are valuable. Whatever the future brings, do not lose them.
 
