@@ -36,9 +36,6 @@ Things that are **not** learning outcomes:
 - **A reading's takeaway.** An outcome reverse-engineered from an assigned text ("understands what chapter 2 argues") is a comprehension check, not a skill (see the next section).
 
 ## Where learning outcomes come from
-
-Our design pattern:
-
 - LO should point at a thing we actually care about.
 	- Ane thing to ask might be "can a person understand a more advanced version of this without understanding this simpler LO?". If yes, we might not be pointing at a thing that people really need to know.
 
