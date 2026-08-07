@@ -89,7 +89,7 @@ Temporary move: [[../../Lens/Deleted bits from 'writing learning outcomes']]
 
 ## File syntax
 
-The filename is the learner-visible skill name (modules and the skill tree display it). Conventions (settled in [[learning short-]] `Lens/Learning Outcome Short-Name Proposal.md`): a short noun phrase, 2 to 6 words, sentence case; the verb lives in the outcome statement, not the title; no course prefixes (outcomes are course-agnostic); unique across the folder.
+The filename is the learner-visible skill name (modules and the skill tree display it). Conventions (settled in [[../../Lens/Learning Outcome Short-Name Proposal]] `Lens/Learning Outcome Short-Name Proposal.md`): a short noun phrase, 2 to 6 words, sentence case; the verb lives in the outcome statement, not the title; no course prefixes (outcomes are course-agnostic); unique across the folder.
 
 ```markdown
 ---
