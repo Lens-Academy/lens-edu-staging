@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786128799503}@@---
+---
 id: '71ffbbb9-86a2-4b06-855f-729097642dc0'
 title: What a Curve Licenses
 tldr: A colleague shows you a perfect exponential and a fourteen-month forecast. Every fact is true. Your job is to find where the argument outruns the chart.
@@ -62,4 +62,3 @@ What to do in each reply:
 If the student is stuck after 2 attempts, give a brief direct answer and move on.
 
 On close: name what they demonstrated, name what is still underdeveloped, and give an explicit test-readiness verdict.
-++}
