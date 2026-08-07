@@ -25,11 +25,11 @@ Lens distinguishes five outcome types:
 
 | Outcome type | Example | Why | Completion and visibility |
 |---|---|---|---|
-| **Learning outcome** | Can compare two alignment proposals and explain an important disagreement | The central kind represented in the topic or skill graph | User-facing; may be assessed and completed |
-| **Artifact** | Has produced a personal contribution plan | A concrete product created by the learner; it may also provide evidence for one or more learning outcomes | May appear as a user-facing milestone; completion means the artifact exists or meets explicit criteria |
-| **Action** | Has discussed the plan with two practitioners | Something the learner has done in the world, rather than merely demonstrated in an exercise | May appear as a user-facing milestone; completion verifies the action, not mastery of a general skill |
-| **Disposition** | Feels able and willing to contribute to AI safety | An attitude, motivation, value, belief, sense of agency, or other psychological state that the course hopes to support | Internal only; not pass/fail. It may be studied through self-report or other indicators |
-| **Impact** | Makes a sustained, useful contribution to AI safety | A longer-term effect that the program hopes to make more likely | Internal program-evaluation or theory-of-change measure; not course completion and generally not user-facing |
+| **Learning outcome** | Can compare two alignment proposals and explain an important disagreement | Participants need knowledge and skills to be able to contribute to AI Safety | User-facing; may be assessed and completed |
+| **Artifact** | Has produced a personal contribution plan |Various reasons | May appear as a user-facing milestone; completion means the artifact exists or meets explicit criteria |
+| **Action** | Has discussed the plan with two practitioners | Builds self-efficacy and excitement, and has actual impact | May appear as a user-facing milestone; completion verifies the action, not mastery of a general skill |
+| **Disposition** | Feels able and willing to contribute to AI safety | We want to know whether *on average*, we help people get excited about contributing to AI Safety | Internal only; not pass/fail. It may be studied through self-report or other indicators |
+| **DownImpact** | Makes a sustained, useful contribution to AI safety | A longer-term effect that the program hopes to make more likely | Internal program-evaluation or theory-of-change measure; not course completion and generally not user-facing |
 
 The same activity can play more than one role. A personal plan is an artifact, evidence that may support a planning learning outcome, and potentially one step toward later action. Keep these distinguishable even when they refer to the same event.
 
