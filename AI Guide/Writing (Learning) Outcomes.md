@@ -33,7 +33,7 @@ Learning-outcome files live in `Lens Edu/Learning Outcomes/`. They contain tests
 
 Artifact, action, disposition, and impact outcome files live in the sibling `Lens Edu/Outcomes/` folder. The steps required to achieve them can span several modules. They're only included in Course, Module, and Lens files by mentioning them inside %% comments %%. These help us focus our attention on things we care about, but aren't yet used programatically by the system.
 
-## What a learning outcome is (and isn't)
+### What a learning outcome is (and isn't)
 
 A learning outcome is something the student can *do* after the content, phrased so you can check whether they can do it. The file holds two things: the outcome statement (frontmatter `learning-outcome:`) and the test that verifies it (`## Test:`). If you can't imagine the test, you don't have an outcome yet.
 
@@ -54,7 +54,7 @@ Work backward from real-world performance, not forward from content:
 
 In practice, creating courses requires a back and forth between learning outcomes and learning material. The process is not as linear as suggested here.
 
-## Writing a Learning Outcome Statement
+### Writing a Learning Outcome Statement
 
 1. **Start with an action verb.** Explain, Distinguish, Identify, Compare, Analyze, Evaluate, Apply, Recognize. Avoid "understand", "know", "appreciate", "be familiar with": you can't tell from the outside whether someone understands; you can tell whether they can explain.
 2. **Name the mechanism, not just the claim.** "Explain why misaligned AI is dangerous" is weak; "Explain why a capable AI optimizing for resource-intensive goals can eliminate humanity *without hostile intent, as a byproduct of its own objectives*" pins the actual reasoning move the student must make. Precision beats brevity. The strongest form is situated: "Given ⟨an unfamiliar case⟩, the learner can ⟨do X⟩, identify the assumptions required, and name a case where it does not apply."
