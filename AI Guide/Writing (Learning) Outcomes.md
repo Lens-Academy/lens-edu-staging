@@ -153,7 +153,7 @@ Dispositions can be implicit in the learner-facing graph while explicit in the i
 
 - [Michael Noetel, "We all teach: here's how to do it better"](https://forum.effectivealtruism.org/posts/ZPNNnEu2HGNSNmifo/we-all-teach-here-s-how-to-do-it-better)
 
-## Broader course-design frames
+
 
 ### UNESCO: cognitive, socio-emotional, and behavioural outcomes 
 
