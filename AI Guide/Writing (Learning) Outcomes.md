@@ -121,9 +121,6 @@ source:: [[../Lenses/My Topic]]
 
 
 
-
-
-
 # Background context
 ## Dispositions as design targets, not learner scores
 
