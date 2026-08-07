@@ -14,13 +14,13 @@ summary_for_tutor:: Course-orientation lens for Unit 1 of "Thinking about Thinki
 
 #### Text
 content::
-Welcome to *Thinking about Thinking*. This is a short, self-paced course by the **Metacognitive Research Group**. In it, we explore how AI can change how we think. This course is for anyone curious about how AI systems can affect their judgement. 
+Welcome to *Thinking about Thinking*. This is a short, self-paced course by the **Metacognitive Research Group**. In it, we explore how AI can change how we think. This course is for anyone curious about how AI systems can affect their judgement. Your reflections throughout this course may be used to inform research into how people use AI. Please be honest, as nothing is tied back to you.
 
-It's structured into five units, roughly an hour each. Each unit is a set of short readings and conversations with an AI tutor. You read, you answer questions, and the tutor responds. There are no marks and no one is judging you.
+This course is structured into five units, roughly an hour each. Each unit is a set of short readings and conversations with an AI tutor. You read, you answer questions, and the tutor responds. There are no marks and no one is judging you.
 
-Funnily enough, an AI helped write parts of this course. You'll also discuss some of your ideas with an AI tutor. AI can help clarify our thoughts, but it can't replace them. We'll revisit this idea later in the course.
+An AI model helped write parts of this course. You'll also discuss some of your ideas with an AI tutor. AI can help clarify our thoughts, but it can't replace them. We'll revisit this idea a little later.
 
-Your judgement and your taste are valuable. Whatever the future brings, do not lose them.
+Your judgement and your taste are invaluable. Whatever the future brings, do not lose them.
 
 Before we begin, a short introduction. You will answer these same questions again at the end of the course.
 
@@ -30,8 +30,6 @@ content:: Give us a short introduction to you and your experience with AI. There
 - How do you use AI assistants in work and in life? What tasks, how often, and why?
 - When you use one, how do you decide what to ask, and what to do with the answer?
 - What do you enjoy about AI tools? What feels missing from them? If a tool existed to help you use AI more consciously, what would you want it to do?
-
-Your reflections may be used to inform research into how people use AI. Be honest: nothing is tied back to you.
 
 assessment-instructions:: The student has just started the course "Thinking about Thinking" and is answering opening reflection questions about their AI use. This is a welcome-and-introduction question, not a test.
 
