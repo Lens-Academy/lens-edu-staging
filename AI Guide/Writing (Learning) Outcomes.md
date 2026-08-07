@@ -46,7 +46,7 @@ Things that are **not** learning outcomes:
 - **An activity.** "Read chapter 3" is what the student does on the way, not what they can do afterwards.
 - **A reading's takeaway.** An outcome reverse-engineered from an assigned text ("understands what chapter 2 argues") is a comprehension check, not a skill (see the next section).
 
-## Where outcomes come from
+## Where learning outcomes come from
 
 Work backward from real-world performance, not forward from content:
 
@@ -65,6 +65,7 @@ In practice, creating courses requires a back and forth between learning outcome
    - Can I tell when they've done it?
    - Could someone become proficient at this without practice? If not, the lenses must contain practice with feedback, not just reading.
 
+## Test Questsions 
 ## Learning Outcome Files
 
 A learning outcome file can contain one or more inseparable learning outcomes, in the sense that they are passed or failed together. If it seems fair for the learner to pass one learning outcome but fail another, these should live in separate learning outcome files.
