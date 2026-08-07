@@ -123,9 +123,6 @@ source:: [[../Lenses/My Topic]]
 - Skill-tree frontmatter is rolling out per `Lens/Learning Outcome Domain and Stage Proposal.md`: `domain:` (one of the 15 domains in `Lens/AI Safety Skill Taxonomy - Canonical Working Inventory.md`), `stage:` (Beginner, Intermediate, or Advanced), `requires:` (sparse; only genuine prerequisites, since they gate locked status). Set them on new outcomes.
 
 
-
-
-
 # Background context
 ## Self-Determination Theory
 
