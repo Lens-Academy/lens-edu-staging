@@ -54,7 +54,7 @@ Work backward from real-world performance, not forward from content:
 
 In practice, creating courses requires a back and forth between learning outcomes and learning material. The process is not as linear as suggested here.
 
-## Writing a Learning Outcome S
+## Writing a Learning Outcome Statement
 
 1. **Start with an action verb.** Explain, Distinguish, Identify, Compare, Analyze, Evaluate, Apply, Recognize. Avoid "understand", "know", "appreciate", "be familiar with": you can't tell from the outside whether someone understands; you can tell whether they can explain.
 2. **Name the mechanism, not just the claim.** "Explain why misaligned AI is dangerous" is weak; "Explain why a capable AI optimizing for resource-intensive goals can eliminate humanity *without hostile intent, as a byproduct of its own objectives*" pins the actual reasoning move the student must make. Precision beats brevity. The strongest form is situated: "Given ⟨an unfamiliar case⟩, the learner can ⟨do X⟩, identify the assumptions required, and name a case where it does not apply."
@@ -76,13 +76,9 @@ An outcome is one pass/fail completion unit, not a graded system. Deeper ldevels
 
 I.e. related outcomes at different levels (awareness → application → producing a plan) are separate files, sequenced by the module.
 
-## Test Question Rubrics
 
-We're not yet 100% sure how our rubric should work, but the overall grade should be a single pass or fail. We do think rubrics can sometimes contain multiple pass/fail checks to build up the whole. But it's important that each subject itself is binary as well. Like, you can say, "The answer must have 3 out of these 5 qualities," as long as each of those 5 qualities is binary as well.
 
-Beyond pass/fail tests, it's still useful for Lens Coach to provide qualitative feedback on what went well and what could've been better.
-
-## More about Test Questions
+## Test Questions
 
 The dominant defects in existing outcomes are recall tests and leading prompts. Avoid both:
 
@@ -92,6 +88,11 @@ The dominant defects in existing outcomes are recall tests and leading prompts. 
 
 Temporary move: [[../../Lens/Deleted bits from 'writing learning outcomes']]
 
+## Test Question Rubrics
+
+We're not yet 100% sure how our rubric should work, but the overall grade should be a single pass or fail. We do think rubrics can sometimes contain multiple pass/fail checks to build up the whole. But it's important that each subject itself is binary as well. Like, you can say, "The answer must have 3 out of these 5 qualities," as long as each of those 5 qualities is binary as well.
+
+Beyond pass/fail tests, it's still useful for Lens Coach to provide qualitative feedback on what went well and what could've been better.
 ## File syntax
 
 The filename is the learner-visible skill name (modules and the skill tree display it). Conventions (settled in [[../../Lens/Learning Outcome Short-Name Proposal]]): a short noun phrase, 2 to 6 words, sentence case; the verb lives in the outcome statement, not the title; no course prefixes (outcomes are course-agnostic); unique across the folder.
