@@ -1,8 +1,8 @@
-{++{"author":"Lauren's AI","timestamp":1786083489474}@@---
+---
 id: 'ff6e5728-7ea0-4ee1-a702-7dc428def34a'
 learning-outcome: Given a reported experimental result about an AI system behaving deceptively, determine which threat-model claims the result supports, which it leaves untouched, and which it would have to be redesigned to test; and state what the same observation would look like if the alarming interpretation were false.
-domain: Threat models and pathways to harm
-stage: Intermediate
+domain: none
+stage: intermediate
 ---
 ## Test:
 id:: 517aaa5e-0ae3-4e52-ac51-a125e1f1cdda
@@ -60,4 +60,3 @@ source:: [[../Lenses/U3 - Alignment Faking and In-Context Scheming]]
 
 ## Lens:
 source:: [[../Lenses/U3 - Sympathy for the Model]]
-++}

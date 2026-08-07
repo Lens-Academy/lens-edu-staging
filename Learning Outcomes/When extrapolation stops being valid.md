@@ -1,8 +1,8 @@
-{++{"author":"Lauren's AI","timestamp":1786083490443}@@---
+---
 id: '100c2fee-ecc0-4270-8023-efaac2efa4ce'
 learning-outcome: Given a trend extrapolated forward to a conclusion, identify the functional form the extrapolation assumes, name the interaction between parts of the system that would break that form, state which direction the resulting error runs, and construct the alternative curve that the same data also supports.
-domain: Capabilities, progress, and forecasting
-stage: Intermediate
+domain: none
+stage: intermediate
 ---
 ## Test:
 id:: 348a053f-c379-4f8a-9d2b-0d5efd34a2a4
@@ -43,9 +43,11 @@ The mathematics the student is being asked to make visible:
 
 Grade reasoning, not the date. A student who argues 2054 is too late and one who argues it is too early can both score 5. A student who says only "extrapolation is unreliable" scores 1 regardless of how sophisticated the surrounding prose is.
 
-BEFORE GRADING, READ THEIR BASELINE. This unit opened with a Cold Open in which this student answered the same underlying problem cold, before any reading: the HOSPITAL ON-TIME-STARTS problem, which is this functional-form question in different clothes. Retrieve that answer. The unit told them the comparison between the two is what it is actually measuring, so it has to actually happen, and it happens here.
+ABOUT THE COLD-OPEN COMPARISON. This unit opened with a Cold Open in which this student answered the same underlying problem cold, before any reading. YOU CANNOT SEE THAT ANSWER: the platform has no mechanism for surfacing a student's earlier responses to you, so do not claim to have read it and do not guess at what it said.
 
-Grade the current answer on its own merits against the levels below. Then, in your justification, spend two or three sentences on the delta, quoting both: what they did cold, what they do now. The specific thing to look for is whether they previously accepted a functional form without noticing they had assumed one. A cold answer that fits a line and argues about the number, against a current answer that names the family assumption and asks what would distinguish two curves, is the move landing. A current answer with more curve names in it but no distinguishing observation is vocabulary, and the unit warned them that would not count. If you cannot retrieve the Cold Open response, say so in one sentence rather than inventing what it contained, and grade the current answer alone.
+Ask them to scroll back to the HOSPITAL ON-TIME-STARTS problem in the Cold Open and paste or summarise what they wrote, in one line. It is in this module's chat history, above the current exchange, so it is a small ask rather than an impossible one. If they bring it, spend two or three sentences of your justification on the delta, quoting both. The distinction worth drawing is the one the unit warned them about: acquiring vocabulary is not the same as acquiring the move, so if the cold answer already had the reasoning and the new one is the same thinking in better words, say that plainly. It is useful information and not a failure.
+
+If they decline or cannot find it, grade the current answer alone and say nothing further about the comparison. Never invent what their earlier answer contained.
 
 Response: assign one level, then justify it in 120 to 200 words, quoting the student's own words for the move that determined the level. Short paragraphs. No lists. Do not over-validate; avoid generic praise (great answer, excellent, well done).
 
@@ -69,4 +71,3 @@ source:: [[../Lenses/U2 - A Method That Visibly Fails]]
 
 ## Lens:
 source:: [[../Lenses/U2 - Nonlinear Interactions Workshop]]
-++}

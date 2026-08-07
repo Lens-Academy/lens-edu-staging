@@ -1,8 +1,8 @@
-{++{"author":"Lauren's AI","timestamp":1786083488517}@@---
+---
 id: 'bfee82b6-8588-4467-b262-289dbde09149'
 learning-outcome: State the disagreement between two rival accounts of what makes alignment hard, one holding that alignment fails to generalize as capabilities generalize, the other that the target was never a well-defined thing to point at; identify what observation would distinguish them; and determine which account a given proposed solution implicitly assumes.
-domain: Threat models and pathways to harm
-stage: Advanced
+domain: none
+stage: advanced
 ---
 ## Test:
 id:: 7ceb8922-bad8-400e-a152-fbafc10e26d0
@@ -56,4 +56,3 @@ notes:: Pre-test. Fires before either reading, so the post-test measures movemen
 
 ## Lens:
 source:: [[../Lenses/U3 - Two Accounts of the Core Difficulty]]
-++}

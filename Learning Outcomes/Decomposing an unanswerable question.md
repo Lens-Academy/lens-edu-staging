@@ -1,8 +1,8 @@
-{++{"author":"Lauren's AI","timestamp":1786083485456}@@---
+---
 id: '6d2803a1-c7b0-4f75-b156-3ec9fd6e2a82'
 learning-outcome: Given an unfamiliar question with no available reference class of its own, break it into sub-questions each of which has a reference class or a measurable quantity, state for each sub-question what evidence would settle it, combine them into an estimate, and name the sub-question whose error dominates the result.
-domain: Capabilities, progress, and forecasting
-stage: Intermediate
+domain: none
+stage: intermediate
 ---
 ## Test:
 id:: 40eb2198-4ca6-4fe0-af8e-a043337132d1
@@ -26,9 +26,11 @@ What a competent decomposition looks like (for your reference; the student's nee
 
 Grade the moves, not the number. A student whose estimate is 2033 and a student whose estimate is 2055 can both score 5. A student who produces a confident year with no decomposition scores 1 no matter how plausible the year.
 
-BEFORE GRADING, READ THEIR BASELINE. This unit opened with a Cold Open in which this student answered the same underlying problem cold, before any reading: the FLIGHTS decomposition. Retrieve that answer. The unit told them the comparison between the two is what it is actually measuring, so it has to actually happen, and it happens here.
+ABOUT THE COLD-OPEN COMPARISON. This unit opened with a Cold Open in which this student answered the same underlying problem cold, before any reading. YOU CANNOT SEE THAT ANSWER: the platform has no mechanism for surfacing a student's earlier responses to you, so do not claim to have read it and do not guess at what it said.
 
-Grade the current answer on its own merits against the levels below. Then, in your justification, spend two or three sentences on the delta, quoting both: what they did cold, what they do now. The distinction worth drawing is the one the unit warned them about, that acquiring vocabulary is not the same as acquiring the move. If their cold answer already decomposed cleanly and the new one is the same reasoning in better words, say so plainly; that is useful information and not a failure. If the cold answer treated the question as one lump and the new one breaks it into sub-questions with separate evidence sources, name that as the thing that changed. If you cannot retrieve the Cold Open response, say so in one sentence rather than inventing what it contained, and grade the current answer alone.
+Ask them to scroll back to the FLIGHTS problem in the Cold Open and paste or summarise what they wrote, in one line. It is in this module's chat history, above the current exchange, so it is a small ask rather than an impossible one. If they bring it, spend two or three sentences of your justification on the delta, quoting both. The distinction worth drawing is the one the unit warned them about: acquiring vocabulary is not the same as acquiring the move, so if the cold answer already had the reasoning and the new one is the same thinking in better words, say that plainly. It is useful information and not a failure.
+
+If they decline or cannot find it, grade the current answer alone and say nothing further about the comparison. Never invent what their earlier answer contained.
 
 Response: assign one level, then justify it in 100 to 180 words, quoting the student's own words for the move that determined the level. Short paragraphs. No lists. Do not over-validate; avoid generic praise (great answer, excellent, well done).
 
@@ -52,4 +54,3 @@ source:: [[../Lenses/U2 - The Decomposition Loop]]
 
 ## Lens:
 source:: [[../Lenses/U2 - Reference Classes And Their Denominators]]
-++}

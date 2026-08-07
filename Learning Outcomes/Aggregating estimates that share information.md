@@ -1,8 +1,8 @@
-{++{"author":"Lauren's AI","timestamp":1786083482264}@@---
+---
 id: 'bb7a45a3-3a37-4741-b102-9c654bed4164'
 learning-outcome: Given several estimates of the same quantity, determine how much the estimators' information overlaps, state whether the correct aggregate lies inside or outside the range of the individual estimates, and explain why averaging is the right move under one overlap structure and the wrong move under another.
-domain: Capabilities, progress, and forecasting
-stage: Intermediate
+domain: none
+stage: intermediate
 ---
 ## Test:
 id:: b39c1796-cc71-4996-9deb-a896cc1baa53
@@ -38,9 +38,11 @@ Part 3 (diagnosing the structure). The good answers ask about the EVIDENCE, not 
 
 Grade reasoning, not agreement. A student who argues for a smaller extremization on the grounds that "different subsystems" still share a plant-wide common cause is reasoning correctly and can score at or above the pass bar.
 
-BEFORE GRADING, READ THEIR BASELINE. This unit opened with a Cold Open in which this student answered the same underlying problem cold, before any reading: the THREE TECHNICIANS problem. Retrieve that answer. The unit told them the comparison between the two is what it is actually measuring, so it has to actually happen, and it happens here.
+ABOUT THE COLD-OPEN COMPARISON. This unit opened with a Cold Open in which this student answered the same underlying problem cold, before any reading. YOU CANNOT SEE THAT ANSWER: the platform has no mechanism for surfacing a student's earlier responses to you, so do not claim to have read it and do not guess at what it said.
 
-Grade the current answer on its own merits against the levels below. Then, in your justification, spend two or three sentences on the delta, quoting both. The cold answer almost always averages and stays inside the range of the inputs, often explicitly reasoning that the aggregate cannot exceed what any individual said. If the current answer moves outside the range and ties that to whether the estimates share evidence, name that as the thing that changed, because it is the whole point of this strand. If the current answer still treats aggregation as averaging, say so directly: the reading did not land, and better vocabulary around the same average is exactly the outcome the unit told them to watch for. If you cannot retrieve the Cold Open response, say so in one sentence rather than inventing what it contained, and grade the current answer alone.
+Ask them to scroll back to the THREE TECHNICIANS problem in the Cold Open and paste the number they gave. It is in this module's chat history, above the current exchange, so it is a small ask rather than an impossible one. If they bring it, spend two or three sentences of your justification on the delta, quoting both. The distinction worth drawing is the one the unit warned them about: acquiring vocabulary is not the same as acquiring the move, so if the cold answer already had the reasoning and the new one is the same thinking in better words, say that plainly. It is useful information and not a failure.
+
+If they decline or cannot find it, grade the current answer alone and say nothing further about the comparison. Never invent what their earlier answer contained.
 
 Response: assign one level, then justify it in 100 to 180 words, quoting the student's own words for the move that determined the level. Short paragraphs. No lists. Do not over-validate; avoid generic praise (great answer, excellent, well done).
 
@@ -61,4 +63,3 @@ notes:: Pumps the wrong intuition (the answer must lie between the inputs) so th
 
 ## Lens:
 source:: [[../Lenses/U2 - Average Then Extremize]]
-++}

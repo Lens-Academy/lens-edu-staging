@@ -1,8 +1,8 @@
-{++{"author":"Lauren's AI","timestamp":1786083486328}@@---
+---
 id: '5cdfdeb9-5286-491f-bb68-79fcdaadd166'
 learning-outcome: Given an unfamiliar trend line and a proposed extrapolation from it, state what must be true of the underlying quantity for the extrapolation to hold, distinguish a claim the measurement supports from one it does not, and use a base rate for trend breaks to say how much confidence the extrapolation earns.
-domain: Capabilities, progress, and forecasting
-stage: Intermediate
+domain: none
+stage: intermediate
 ---
 ## Test:
 id:: 'b7c38da8-4b6f-45fb-8be9-f77f01dbd829'
@@ -54,4 +54,3 @@ source:: [[../Lenses/Trends - What A Curve Licenses]]
 
 ## Lens:
 source:: [[../Lenses/Trends - The Base Rate For Breaks]]
-++}

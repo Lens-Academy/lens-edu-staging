@@ -1,8 +1,8 @@
-{++{"author":"Lauren's AI","timestamp":1786083487257}@@---
+---
 id: '66af2dd6-ea05-4cf9-9cf6-ad39b7c58ebf'
 learning-outcome: Given an unfamiliar system in which an output is fed back into the process that produced it, determine whether the coupling produces a bounded speedup or unbounded acceleration, identify the specific quantity whose behaviour decides which, and state what would have to be measured to tell the two apart in advance.
-domain: Capabilities, progress, and forecasting
-stage: Intermediate
+domain: none
+stage: intermediate
 ---
 ## Test:
 id:: 'dc99e11b-2967-4cde-9b55-f7ee821c107c'
@@ -30,7 +30,7 @@ The underlying structure, for your reference as grader:
 - The deciding quantity is HOW THE GAIN ITSELF BEHAVES as capability accumulates: does a generation that is 15 percent better produce a next generation that is 15 percent better again, or less, and if less, how fast does that decay?
 
   GRADER, THIS MATTERS AND IS EASY TO GET WRONG. There is no critical value at "gain equals one", and a student who says so should be corrected, gently, not credited. Work the model: if each generation builds the next g faster, cycle times are T0, T0/(1+g), T0/(1+g)^2, ... and the total time to arbitrarily many generations is T0/(1 - 1/(1+g)), which is FINITE for ANY constant g > 0. A 0.1 percent gain gives 1001 x T0. So sustained constant gain, however small, is already the runaway case; it is not a knife edge.
-  Nor does "diminishing" imply a ceiling. If the gain decays like 0.15/n, capability still grows without bound (just slowly, and the total time diverges). Only if it decays fast enough, roughly like 1/n^2, does capability converge to a finite ceiling. So there are at least three regimes, not two: blowup in finite time, unbounded but decelerating, and a true ceiling.
+  Nor does "diminishing" imply a ceiling. The exact condition: capability is the product of (1 + g_n) over rounds, and that product converges if and only if the SUM of the gains converges. So g_n = 0.15/n is a harmonic series, diverges, and capability grows without bound however slowly; g_n = 0.15/n^2 is summable and settles to a finite ceiling. 1/n^2 is an EXAMPLE of fast-enough, not the threshold: anything summable does it, including 1/n^1.01, which converges to a much larger ceiling. So there are at least three regimes, not two: blowup in finite time, unbounded but decelerating, and a true ceiling.
   In continuous form, with dc/dt = k c^a: a > 1 is a genuine finite-time singularity, a = 1 is pure exponential (unbounded, never infinite at finite time), a < 1 is polynomial and still unbounded. The critical exponent is a = 1, and AT the critical value the answer is exponential growth, not blowup.
   What to require at the pass bar is therefore the SHAPE of the decay, not a comparison to one. Credit a student who says "it depends whether the per-round gain holds up, decays slowly, or decays fast, and those give different answers"; credit highly a student who notices that "diminishing returns" is not by itself enough to get a ceiling. Do NOT mark down a student who constructs a counterexample to the ceiling claim, they are right.
 - The measurement to demand: not the per-generation speedup figure, which is compatible with both outcomes, but the TREND in that figure across generations already completed, together with how much of the assembly process is actually inside the loop. If generation-over-generation improvement was 15, then 14, then 12 percent, it is decaying and the process settles. If it was 15, 15, 16, the loop has gain. Strong answers may also ask what fraction of robot production is automated at all, since an un-automated remainder caps the loop the same way Amdahl caps Director A.
@@ -61,4 +61,3 @@ source:: [[../Lenses/Takeoff - Linear Sums And Recursive Loops]]
 
 ## Lens:
 source:: [[../Lenses/Takeoff - Smoothness Is Not Slowness]]
-++}

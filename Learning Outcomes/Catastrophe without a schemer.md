@@ -1,8 +1,8 @@
-{++{"author":"Lauren's AI","timestamp":1786083484276}@@---
+---
 id: 'bfce3c07-1154-4abc-b633-477b5f17afed'
 learning-outcome: Given an unfamiliar system of interacting optimizers, none of which is deceptive or hostile, explain how the interaction between the parts can produce an outcome that no part selected and no part would endorse; identify the structural conditions the argument requires; and name a case where those conditions do not hold.
-domain: Threat models and pathways to harm
-stage: Intermediate
+domain: none
+stage: intermediate
 ---
 ## Test:
 id:: 11579996-1431-49d1-b4a3-88f51a8bb32c
@@ -56,4 +56,3 @@ source:: [[../Lenses/U3 - What Failure Looks Like]]
 
 ## Lens:
 source:: [[../Lenses/U3 - Gradual Disempowerment]]
-++}

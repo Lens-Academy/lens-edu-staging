@@ -1,8 +1,8 @@
-{++{"author":"Lauren's AI","timestamp":1786083483285}@@---
+---
 id: 'b64206ee-e2e8-4687-ab9d-a2308e86cfde'
 learning-outcome: Given an unfamiliar quantitative estimate of a future event, determine whether the estimate's method can locate the answer or only bound it from one side, state which side the bound is on and what assumption puts it there, and name a case where the bound is uninformative.
-domain: Capabilities, progress, and forecasting
-stage: Intermediate
+domain: none
+stage: intermediate
 ---
 ## Test:
 id:: 4ee54bf7-d40a-4ac5-a63b-685628637d5e
@@ -48,4 +48,3 @@ notes:: Primes the "an estimate is a location" intuition before the readings bre
 
 ## Lens:
 source:: [[../Lenses/Timelines - Bounding Not Pinpointing]]
-++}
