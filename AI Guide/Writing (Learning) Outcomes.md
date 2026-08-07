@@ -121,18 +121,7 @@ source:: [[../Lenses/My Topic]]
 
 
 
-## ..
 
-A useful evaluation model distinguishes:
-
-This is adapted from the [Kirkpatrick Four Levels of Evaluation](https://www.kirkpatrickpartners.com/the-kirkpatrick-model/), as discussed in Julie Dirksen's *Design for How People Learn*, Chapter 12, "Designing Evaluation."
-
-- **Reaction:** Did learners find the experience useful, acceptable, engaging, confusing, or frustrating? This is useful evidence about course design and learner experience, but not evidence that learning occurred. 
-- **Learning:** Can learners now demonstrate the intended learning outcome?
-- **Behavior:** Are learners applying it or acting differently outside the learning experience?
-- **Results:** Did those behaviors contribute to the larger result or impact?
-
-These require different evidence and occur at different distances from the course. A knowledge test should not be used as evidence of real-world behavior, and behavior after the course should not automatically be attributed to the course.
 
 
 # Background context
