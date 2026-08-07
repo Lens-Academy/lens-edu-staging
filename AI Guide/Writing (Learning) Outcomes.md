@@ -37,6 +37,11 @@ Things that are **not** learning outcomes:
 
 ## Where learning outcomes come from
 
+Our design pattern:
+- learning outcomes are binary tests. Maybe build up of subjudgements, e.g. "answer should pass on 3 out of these 5 criteria"
+- LO should point at a thing we actually care about.
+	- Another thing to ask might be "can a person understand a more advanced version of this without understanding this simpler LO?". If yes, we might again not be pointing at a thing that people really need to know.
+
 Work backward from real-world performance, not forward from content:
 
 1. Start from what someone contributing to AI safety must be able to do: the skill-tree topic or the contribution-role requirement the course serves.
