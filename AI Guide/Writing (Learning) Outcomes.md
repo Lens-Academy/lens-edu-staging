@@ -76,9 +76,11 @@ An outcome is one pass/fail completion unit, not a graded system. Deeper ldevels
 
 I.e. related outcomes at different levels (awareness → application → producing a plan) are separate files, sequenced by the module.
 
-## Test Question 
+## Test Question Rubrics
 
 We're not yet 100% sure how our rubric should work, but the overall grade should be a single pass or fail. We do think rubrics can sometimes contain multiple pass/fail checks to build up the whole. But it's important that each subject itself is binary as well. Like, you can say, "The answer must have 3 out of these 5 qualities," as long as each of those 5 qualities is binary as well.
+
+Beyond 
 
 ## Make the test valid
 
