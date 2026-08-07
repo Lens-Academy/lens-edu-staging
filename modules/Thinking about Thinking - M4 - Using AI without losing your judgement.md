@@ -6,10 +6,7 @@ tags:
   - wip
 ---
 
-# {--{"author":"Leo's AI","timestamp":1786144449811}@@Learning Outcome:
-source:: [[../Learning Outcomes/Choosing what to delegate to AI]]
-
-# --}Lens:
+# Lens:
 source:: [[../Lenses/ToT M4 - Choosing What to Delegate]]
 
 # Lens:

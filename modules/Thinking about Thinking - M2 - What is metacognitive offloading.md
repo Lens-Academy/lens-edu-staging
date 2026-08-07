@@ -6,10 +6,7 @@ tags:
   - wip
 ---
 
-# {--{"author":"Leo's AI","timestamp":1786144448373}@@Learning Outcome:
-source:: [[../Learning Outcomes/Offloading tasks versus offloading judgement]]
-
-# --}Lens:
+# Lens:
 source:: [[../Lenses/ToT M2 - What Would You Delegate - PQ]]
 
 # Lens:
