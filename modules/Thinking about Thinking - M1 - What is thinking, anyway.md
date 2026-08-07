@@ -14,7 +14,7 @@ summary_for_tutor:: Course-orientation lens for Unit 1 of "Thinking about Thinki
 
 #### Text
 content::
-Welcome to Thinking about Thinking. This is a short, self-paced course for people who use AI at work and want to keep their own judgement sharp.
+Welcome to *Thinking about Thinking*. This is a short, self-paced course by the Metacognitive Research Group. In it, we explore how for people who use AI at work and want to keep their own judgement sharp.
 
 How it works: five units, roughly an hour each. Each unit is a set of short readings and conversations with an AI tutor. You read, you answer questions, and the tutor responds. There are no marks and no one is judging you; the tests check that the ideas have landed, not your personality.
 
