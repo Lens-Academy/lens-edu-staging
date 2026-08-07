@@ -6,8 +6,8 @@ tags:
   - wip
 ---
 
-# Learning Outcome:
+# {--{"author":"Leo's AI","timestamp":1786144450615}@@Learning Outcome:
 source:: [[../Learning Outcomes/A personal guardrail for AI use]]
 
-# Lens:
+# --}Lens:
 source:: [[../Lenses/ToT M5 - What Now]]

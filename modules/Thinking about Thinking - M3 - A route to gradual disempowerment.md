@@ -6,10 +6,10 @@ tags:
   - wip
 ---
 
-# Learning Outcome:
+# {--{"author":"Leo's AI","timestamp":1786144449105}@@Learning Outcome:
 source:: [[../Learning Outcomes/AI offloading and gradual disempowerment]]
 
-# Lens:
+# --}Lens:
 source:: [[../Lenses/ToT M3 - Gradual Disempowerment - PQ]]
 
 # Lens:
