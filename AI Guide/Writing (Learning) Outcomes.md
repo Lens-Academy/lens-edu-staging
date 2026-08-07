@@ -33,11 +33,11 @@ Lens distinguishes five outcome types:
 
 Learning-outcome files live in `Lens Edu/Learning Outcomes/`. They contain tests and are used in modules.
 
-Artifact, action, disposition, and impact outcome files live in the sibling `Lens Edu/Outcomes/` folder. These outcomes can span several modules and are only included in %% comments %%. These help us focus our attention on things we care about, but aren't yet used programatically by the system.
+Artifact, action, disposition, and impact outcome files live in the sibling `Lens Edu/Outcomes/` folder. The steps required to achieve them can span several modules. They're only included in Course, Module, and Lens files by mentioning them inside %% comments %%. These help us focus our attention on things we care about, but aren't yet used programatically by the system.
 
 ## What a learning outcome is (and isn't)
 
-A learning outcome is **one testable skill**: something the student can *do* after the content, phrased so you can check whether they can do it. The file holds two things: the outcome statement (frontmatter `learning-outcome:`) and the test that verifies it (`## Test:`). If you can't imagine the test, you don't have an outcome yet.
+A learning outcome is something the student can *do* after the content, phrased so you can check whether they can do it. The file holds two things: the outcome statement (frontmatter `learning-outcome:`) and the test that verifies it (`## Test:`). If you can't imagine the test, you don't have an outcome yet.
 
 Things that are **not** learning outcomes:
 
@@ -48,13 +48,13 @@ Things that are **not** learning outcomes:
 
 ## Where outcomes come from
 
-Work backward from real-world performance, never forward from content:
+Work backward from real-world performance, not forward from content:
 
 1. Start from what someone contributing to AI safety must be able to do: the skill-tree topic or the contribution-role requirement the course serves.
 2. Write the outcome statement, then its test, then the practice that prepares for the test.
 3. Only then pick or commission the readings and lenses. They are teaching routes to the outcome, chosen for it, not the source of it.
 
-The inversion check: if you are holding a reading and asking "what outcome fits this?", you are inverted. Write the capability first, then judge whether that reading actually teaches it.
+
 
 ## Writing the statement
 
