@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083481383}@@---
+---
 id: '4550308c-7478-4c4d-b552-33fe14cbbbb5'
 title: "What Makes This Hard (pre-test)"
 tldr: State the hard part in your own words before anyone states it for you. Later you will find out that two serious people disagree about the answer, and you will want to know which one you already were.
@@ -40,4 +40,3 @@ What to do in your single reply:
 If the student is stuck, ask what they would need to know about a system before trusting it with something irreversible. Accept a rough answer.
 
 One to two turns. Do not let this become a lesson.
-++}

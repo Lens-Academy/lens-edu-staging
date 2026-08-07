@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083480465}@@---
+---
 id: '21b2c023-ef3e-4c60-9cff-472f126948dd'
 title: "What Failure Looks Like"
 tldr: Not a robot uprising. A slow substitution of what we can measure for what we wanted, carried out by systems that are doing exactly what we asked.
@@ -132,4 +132,3 @@ Safety and integrity:
 - If stuck after 2 attempts, answer briefly and move on.
 
 Calibration summary on close: what they showed clearly, what remains underdeveloped, and a direct test-readiness verdict.
-++}

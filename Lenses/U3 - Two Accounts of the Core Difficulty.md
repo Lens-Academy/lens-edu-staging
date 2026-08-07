@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083479510}@@---
+---
 id: 'cf9181dc-42fd-4190-88b3-1ccb314cd3d1'
 title: "Two Accounts of the Core Difficulty"
 tldr: Two people who both think alignment is hard, who disagree about what the hard part is. If you cannot tell them apart, you cannot tell which proposed solutions are aimed at anything.
@@ -129,4 +129,3 @@ Safety and integrity:
 - If stuck after 2 attempts, answer briefly and move on.
 
 Calibration summary on close: what they demonstrated, what remains underdeveloped, and a direct test-readiness verdict.
-++}

@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083465852}@@---
+---
 id: '3fad3472-9deb-4647-9a25-fa376ede44fa'
 title: "Average Then Extremize"
 tldr: When people who looked at different things agree, their agreement is itself evidence, and the right combined answer can lie outside everything they said. When people who looked at the same thing agree, it is evidence of nothing.
@@ -166,4 +166,3 @@ content::
 ::card[[../Lenses/U2 - Nonlinear Interactions Workshop]]
 
 > Extremization is one case of a general fact: how the parts of a system relate to each other decides the arithmetic, and the arithmetic is rarely addition. Four more cases, worked.
-++}

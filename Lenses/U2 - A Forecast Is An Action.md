@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083463481}@@---
+---
 id: '4dac0591-f829-421d-8410-8a471fc70590'
 title: "A Forecast Is An Action"
 tldr: A prediction accurate enough to be believed changes what people do, which changes what happens. There is no seat outside the system from which to forecast it, and a forecast that presents a choice as an inevitability has made the choice on your behalf.
@@ -152,4 +152,3 @@ Calibration summary (on close):
 - Name what they demonstrated clearly.
 - Name what remains underdeveloped.
 - Give a direct verdict on readiness for the unit's tests.
-++}
