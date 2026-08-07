@@ -53,7 +53,7 @@ Do:
 
 Do not: grade the answers; compare them to other learners; moralise about their AI use; pad the reply with praise.
 
-Response length: 100 to 180 words. Short paragraphs only. No lists. This is the final response of the course; end warmly and without pushing further questions.{++{"author":"Leo's AI","timestamp":1786144508014}@@
+Response length: 100 to 180 words. Short paragraphs only. No lists. This is the final response of the course; end warmly and without pushing further questions.
 
 ---
 
@@ -77,4 +77,4 @@ What the answer should show:
 **4** — As above, plus the change is tailored to their own described use (it fixes a real risk in their own workflow, not a generic one).
 **5** — As above, plus connects the change to the course thread: the change keeps judgement exercised, so the learner keeps the skill rather than only avoiding a bad outcome.
 
-This is a personal reflection; do not penalise a learner whose honest "no change" is well-reasoned, as long as they still demonstrate the ability to apply the course's framework. Avoid grading the learner's life choices; grade the reasoning. Feedback tone: direct, specific, no generic praise.++}
+This is a personal reflection; do not penalise a learner whose honest "no change" is well-reasoned, as long as they still demonstrate the ability to apply the course's framework. Avoid grading the learner's life choices; grade the reasoning. Feedback tone: direct, specific, no generic praise.

@@ -102,7 +102,7 @@ Calibration summary (on close): name what the student demonstrated; name what re
 
 Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items. Do not over-validate; no generic praise.
 
-Safety and integrity: ask under what circumstances the comparison would be fair (e.g. AI used only for arithmetic-like sub-tasks). If the student is stuck after 2 attempts, give a brief direct answer and move on.{++{"author":"Leo's AI","timestamp":1786144493434}@@
+Safety and integrity: ask under what circumstances the comparison would be fair (e.g. AI used only for arithmetic-like sub-tasks). If the student is stuck after 2 attempts, give a brief direct answer and move on.
 
 ---
 
@@ -129,4 +129,4 @@ assessment-instructions:: Chapter check for Unit 1. Score the answer according t
 
 Do not penalise a learner who uses their own examples of AI use. A strong student should be allowed to note that calculators can also be used thoughtlessly, as long as they still state the difference in what is offloaded.
 
-Feedback tone: direct, specific, no generic praise.++}
+Feedback tone: direct, specific, no generic praise.

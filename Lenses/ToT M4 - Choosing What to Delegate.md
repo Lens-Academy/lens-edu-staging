@@ -122,7 +122,7 @@ Calibration summary (on close): name what the student demonstrated; name what re
 
 Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items. Do not over-validate; no generic praise.
 
-Safety and integrity: this lens makes normative recommendations; the learning outcome is to apply them, not to agree. If the student pushes back with good reasons, treat the pushback as valid and grade their reasoning. If stuck after 2 attempts, give a brief direct answer and move on.{++{"author":"Leo's AI","timestamp":1786144505301}@@
+Safety and integrity: this lens makes normative recommendations; the learning outcome is to apply them, not to agree. If the student pushes back with good reasons, treat the pushback as valid and grade their reasoning. If stuck after 2 attempts, give a brief direct answer and move on.
 
 ---
 
@@ -149,4 +149,4 @@ assessment-instructions:: Chapter check for Unit 4. Score the answer according t
 **4** — As above, plus the changes are specific and actionable for this exact workflow (e.g. write own brief first, ask for questions not answers, restate the draft's logic in their own words, verify claims against a source, keep the risk call human).
 **5** — As above, plus connects the rewrite to the course thread: after the change, the person practises the skill each time rather than skipping practice, so the judgement stays exercised rather than only owned.
 
-A strong student may choose to keep some AI use or even more AI use than the rubric assumes, as long as every change is justified by a mechanism from the unit. Do not require the learner to become anti-AI. Feedback tone: direct, specific, no generic praise.++}
+A strong student may choose to keep some AI use or even more AI use than the rubric assumes, as long as every change is justified by a mechanism from the unit. Do not require the learner to become anti-AI. Feedback tone: direct, specific, no generic praise.

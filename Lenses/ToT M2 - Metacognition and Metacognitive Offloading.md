@@ -105,7 +105,7 @@ Calibration summary (on close): name what the student demonstrated; name what re
 
 Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items. Do not over-validate; no generic praise.
 
-Safety and integrity: if the student says the manager is fine because the AI is reliable, ask what the manager can verify, and what reliability means when the reasoning is hidden. If stuck after 2 attempts, give a brief direct answer and move on.{++{"author":"Leo's AI","timestamp":1786144496904}@@
+Safety and integrity: if the student says the manager is fine because the AI is reliable, ask what the manager can verify, and what reliability means when the reasoning is hidden. If stuck after 2 attempts, give a brief direct answer and move on.
 
 ---
 
@@ -136,4 +136,4 @@ assessment-instructions:: Chapter check for Unit 2. Score the answer according t
 **4** — As above, plus gives a valid example of arbitrary offloading (delegating a decision they do not understand at all, with no way to evaluate it).
 **5** — As above, plus articulates why the distinction matters: once we delegate the decision about what to delegate, we have stopped overseeing our own thinking, which is the first step of the route explored in Unit 3.
 
-Do not penalise a learner who disagrees that B's example is always harmful; they just need to show they can place the judgement in each case. Feedback tone: direct, specific, no generic praise.++}
+Do not penalise a learner who disagrees that B's example is always harmful; they just need to show they can place the judgement in each case. Feedback tone: direct, specific, no generic praise.
