@@ -7,10 +7,10 @@ tags:
 ---
 
 # Lens:
-source:: [[../Lenses/ToT M4 - {++{"author":"Leo's AI","timestamp":1786146704936}@@Where Did the Judgement Sit - PQ]]
+source:: [[../Lenses/ToT M4 - Where Did the Judgement Sit - PQ]]
 
 # Lens:
-source:: [[../Lenses/ToT M4 - ++}Choosing What to Delegate]]
+source:: [[../Lenses/ToT M4 - Choosing What to Delegate]]
 
 # Lens:
 source:: [[../Lenses/ToT M4 - Practice Audit and Guardrails]]

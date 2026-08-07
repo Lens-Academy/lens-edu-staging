@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1786146703011}@@---
+---
 id: 'dacc8fe6-e8e9-4ccd-bf59-4d5b757925bd'
 title: "Pre-Reading Question: Where Did the Judgement Sit?"
 tldr: "Before reading the practical rules for using AI: recall a recent AI conversation and put where the judgement sat on the record."
@@ -15,4 +15,3 @@ assessment-instructions:: The student is about to read the Unit 4 guidance on ch
 Acknowledge what they wrote in 1 to 2 sentences, specifically and without judgment. Do NOT preview the three-stage frame (before / while / evaluate), the unit's rules, or the red-flags list. Do not correct or grade their example; it is a setup, not a test.
 
 Close with something like: "Hold that picture of your own recent work with the AI as you read. Notice which of the rules would have changed where the judgement sat. Head to the reading when you are ready."
-++}
