@@ -65,7 +65,9 @@ In practice, creating courses requires a back and forth between learning outcome
    - Can I tell when they've done it?
    - Could someone become proficient at this without practice? If not, the lenses must contain practice with feedback, not just reading.
 
-## Test Questsions 
+## Test Questions vs Practice Questions
+
+
 ## Learning Outcome Files
 
 A learning outcome file can contain one or more inseparable learning outcomes, in the sense that they are passed or failed together. If it seems fair for the learner to pass one learning outcome but fail another, these should live in separate learning outcome files.
