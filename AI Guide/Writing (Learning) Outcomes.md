@@ -134,17 +134,7 @@ A useful skill-gap test is: **Could someone reasonably become proficient at this
 
 Gap types diagnose *why* current and desired performance differ. Outcome types describe *what changes or milestones Lens cares about*. Evidence types describe *how Lens could know*. Keep these classifications separate.
 
-## Match evidence to the outcome type
-
-Different outcome types require different evidence:
-
-- **Learning outcomes:** performance tasks, explanations, decisions, critiques, or other observable demonstrations.
-- **Artifacts:** existence plus explicit quality criteria where quality matters.
-- **Actions:** confirmation that the action occurred; this does not by itself establish a transferable learning outcome.
-- **Dispositions:** optional self-report, interviews, reflection, or aggregate course-effect measures. These are indicators rather than proof of an internal state.
-- **Impact:** longer-term follow-up and program-level evaluation, with attention to contextual factors and the difficulty of causal attribution.
-
-A learner should not fail a course merely for retaining a different value judgment or reporting a lower level of enthusiasm. Lens can test whether learners can reason, decide, plan, and act; it can separately investigate whether the course affected motivation, agency, or values.
+## ..
 
 A useful evaluation model distinguishes:
 
