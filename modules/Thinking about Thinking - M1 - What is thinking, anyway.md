@@ -42,9 +42,9 @@ Your role:
 
 Response length: 60 to 120 words. Short paragraphs. No lists. No generic praise for having written anything; praise should attach to a specific detail or to their honesty.
 
----
+{--{"author":"Leo's AI","timestamp":1786142970744}@@---
 
-# Learning Outcome:
+--}# Learning Outcome:
 source:: [[../Learning Outcomes/Cognitive offloading and why it is normal]]
 
 # Lens:
