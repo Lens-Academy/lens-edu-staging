@@ -29,7 +29,7 @@ Lens distinguishes five outcome types:
 | **Artifact** | Has produced a personal contribution plan |Various reasons | May appear as a user-facing milestone; completion means the artifact exists or meets explicit criteria |
 | **Action** | Has discussed the plan with two practitioners | Builds self-efficacy and excitement, and has actual impact | May appear as a user-facing milestone; completion verifies the action, not mastery of a general skill |
 | **Disposition** | Feels able and willing to contribute to AI safety | We want to know whether *on average*, we help people get excited about contributing to AI Safety | Internal only; not pass/fail. It may be studied through self-report or other indicators |
-| **DownImpact** | Makes a sustained, useful contribution to AI safety | A longer-term effect that the program hopes to make more likely | Internal program-evaluation or theory-of-change measure; not course completion and generally not user-facing |
+| **Downstream Impact** | Makes a sustained, useful contribution to AI safety | Our courses are only useful insofar as they help participants reduce x-risk | Internal program-evaluation or theory-of-change measure; not course completion and generally not user-facing |
 
 The same activity can play more than one role. A personal plan is an artifact, evidence that may support a planning learning outcome, and potentially one step toward later action. Keep these distinguishable even when they refer to the same event.
 
