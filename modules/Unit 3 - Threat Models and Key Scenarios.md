@@ -2,8 +2,8 @@
 slug: u3-threat-models
 title: "Unit 3: Threat Models and Key Scenarios"
 id: 'f98a8b50-30cb-4a30-9cd3-41b376a8d69a'
----
-# Submodule: How this unit works
+---{--{"author":"Lauren's AI","timestamp":1786111502269}@@
+# Submodule: How this unit works--}
 
 # Lens: Read This First
 id:: 07e48171-8996-4ce8-8844-c45d2234c1dd
@@ -29,11 +29,14 @@ They are arranged by what each one requires you to already have. The structural 
 
 The tests in this unit ask you to apply the ideas to cases that appear in none of the readings. Reproducing an author's argument accurately is not a passing answer.
 
-You are also not being assessed on whether you find these arguments convincing. Someone who understands an argument thoroughly and rejects it for stated reasons passes; someone who accepts it and cannot reconstruct it does not.
+You are also not being assessed on whether you find these arguments convincing. Someone who understands an argument thoroughly and rejects it for stated reasons passes; someone who accepts it and cannot reconstruct it does not.{--{"author":"Lauren's AI","timestamp":1786111502269}@@
 
 # Submodule: Catastrophe without a schemer
 
-# Learning Outcome:
+--}{++{"author":"Lauren's AI","timestamp":1786111502269}@@
+
+
+++}# Learning Outcome:
 source:: [[../Learning Outcomes/Catastrophe without a schemer]]
 
 # Lens: Failure Without a Schemer - PQ
@@ -43,39 +46,51 @@ source:: [[../Lenses/U3 - Failure Without a Schemer - PQ]]
 source:: [[../Lenses/U3 - What Failure Looks Like]]
 
 # Lens: Gradual Disempowerment
-source:: [[../Lenses/U3 - Gradual Disempowerment]]
+source:: [[../Lenses/U3 - Gradual Disempowerment]]{--{"author":"Lauren's AI","timestamp":1786111502269}@@
 
 # Submodule: What makes alignment hard
 
-# Learning Outcome:
+--}{++{"author":"Lauren's AI","timestamp":1786111502269}@@
+
+
+++}# Learning Outcome:
 source:: [[../Learning Outcomes/Locating the core difficulty]]
 
 # Lens: What Makes This Hard - PQ
 source:: [[../Lenses/U3 - What Makes This Hard - PQ]]
 
 # Lens: Two Accounts of the Core Difficulty
-source:: [[../Lenses/U3 - Two Accounts of the Core Difficulty]]
+source:: [[../Lenses/U3 - Two Accounts of the Core Difficulty]]{--{"author":"Lauren's AI","timestamp":1786111502269}@@
 
 # Submodule: Is it already happening
 
-# Learning Outcome:
+--}{++{"author":"Lauren's AI","timestamp":1786111502269}@@
+
+
+++}# Learning Outcome:
 source:: [[../Learning Outcomes/Reading evidence of scheming]]
 
 # Lens: Predict the Result - PQ
 source:: [[../Lenses/U3 - Predict the Result - PQ]]
 
 # Lens: Alignment Faking and In-Context Scheming
-source:: [[../Lenses/U3 - Alignment Faking and In-Context Scheming]]
+source:: [[../Lenses/U3 - Alignment Faking and In-Context Scheming]]{--{"author":"Lauren's AI","timestamp":1786111502269}@@
 
 # Submodule: The other direction
 
-# Lens: Sympathy for the Model
+--}{++{"author":"Lauren's AI","timestamp":1786111502269}@@
+
+
+++}# Lens: Sympathy for the Model
 source:: [[../Lenses/U3 - Sympathy for the Model]]
-optional:: true
+optional:: true{--{"author":"Lauren's AI","timestamp":1786111502269}@@
 
 # Submodule: Objections
 
-# Lens: Where This Unit Might Be Wrong
+--}{++{"author":"Lauren's AI","timestamp":1786111502269}@@
+
+
+++}# Lens: Where This Unit Might Be Wrong
 id:: bf79def0-ae73-4e9e-80bd-04917885b1f8
 #### Text
 content::

@@ -2,8 +2,8 @@
 slug: what-could-possibly-happen
 title: "What Could Possibly Happen?"
 id: '3f5cf9c9-cd86-45b6-a4af-83c3d5e982c8'
----
-# Submodule: Opening
+---{--{"author":"Lauren's AI","timestamp":1786111503478}@@
+# Submodule: Opening--}
 
 # Lens: What This Unit Is For
 id:: 29d25c07-01ac-46b0-95e8-71ae4cee2366
@@ -25,11 +25,14 @@ So the target here is not a conclusion about timelines. By the end you should be
 
 You will be asked to make predictions before you read, repeatedly. Some of them you will get wrong. Spend enough time trying to guess.
 
----
+---{--{"author":"Lauren's AI","timestamp":1786111503478}@@
 
 # Submodule: Estimating When
 
-# Learning Outcome:
+--}{++{"author":"Lauren's AI","timestamp":1786111503478}@@
+
+
+++}# Learning Outcome:
 source:: [[../Learning Outcomes/Bounding versus pinpointing estimates]]
 
 # Lens: Pre-Reading - What A Model Is For
@@ -40,11 +43,14 @@ source:: [[../Lenses/Timelines - Bounding Not Pinpointing]]
 
 # Lens: The Bear Case
 source:: [[../Lenses/Timelines - The Bear Case]]
-optional:: true
+optional:: true{--{"author":"Lauren's AI","timestamp":1786111503478}@@
 
-# Submodule: Reading A Trend
+--}{++{"author":"Lauren's AI","timestamp":1786111503478}@@
 
-# Learning Outcome:
+
+++}#{--{"author":"Lauren's AI","timestamp":1786111503478}@@ Submodule: Reading A Trend
+
+# --}{++{"author":"Lauren's AI","timestamp":1786111503478}@@ ++}Learning Outcome:
 source:: [[../Learning Outcomes/Extrapolating a capability trend]]
 
 # Lens: Pre-Reading - Predict The Metric
@@ -58,11 +64,14 @@ source:: [[../Lenses/Trends - The Base Rate For Breaks]]
 
 # Lens: Reading A Curve Requires An Inside View
 source:: [[../Lenses/Trends - Reading A Curve Requires An Inside View]]
-optional:: true
+optional:: true{--{"author":"Lauren's AI","timestamp":1786111503478}@@
 
 # Submodule: How Fast, And What Kind Of Fast
 
-# Learning Outcome:
+--}{++{"author":"Lauren's AI","timestamp":1786111503478}@@
+
+
+++}# Learning Outcome:
 source:: [[../Learning Outcomes/Feedback loops in capability growth]]
 
 # Lens: Pre-Reading - Two Kinds Of Faster
@@ -76,11 +85,14 @@ source:: [[../Lenses/Takeoff - Smoothness Is Not Slowness]]
 
 # Lens: Compute-Centric Numbers
 source:: [[../Lenses/Takeoff - Compute-Centric Numbers]]
-optional:: true
+optional:: true{--{"author":"Lauren's AI","timestamp":1786111503478}@@
 
 # Submodule: Closing
 
-# Lens: What Changes If You Are Wrong
+--}{++{"author":"Lauren's AI","timestamp":1786111503478}@@
+
+
+++}# Lens: What Changes If You Are Wrong
 id:: 54715fe8-7548-49ec-b21c-bc93a2070e51
 #### Question
 content::
@@ -110,7 +122,7 @@ Response style:
 
 What to do:
 1. Check the vocabulary first. If they used "fast" or "slow" without specifying warning and calendar time separately, name it and ask them to restate. This is the one correction to insist on.
-2. Check that their two pieces of safety work actually discriminate. A very common failure is naming work that is obviously valuable in both scenarios and calling it scenario-specific. If so, ask what would happen to that work if their scenario flipped.
+2. Check that their two pieces of safety work actually discriminate. {--{"author":"Lauren's AI","timestamp":1786111503478}@@A very common failure--}{++{"author":"Lauren's AI","timestamp":1786111503478}@@The failure this check exists for++} is naming work that is obviously valuable in both scenarios and calling it scenario-specific. If so, ask what would happen to that work if their scenario flipped.
 3. The falsification answer is the important one. Press for concreteness: "capabilities progress slows" is not observable, "no frontier model improves on a named benchmark for eighteen months" is. If they gave something vague, ask once for a version you could check against a newspaper.
 4. If the student honestly says they cannot name a falsifying observation, treat that as the good answer it is. Say plainly that noticing it is worth more than a manufactured criterion, and suggest they revisit the question at the end of the course rather than resolving it now.
 
