@@ -127,7 +127,7 @@ source:: [[../Lenses/My Topic]]
 
 
 # Background context
-## Dispositions as design targets, not learner scores
+## Self-determination T
 
 Self-determination theory distinguishes **autonomous motivation**, acting for reasons connected to one's own goals and values, from motivation produced mainly by pressure, guilt, fear, or external control. 
 
@@ -159,7 +159,7 @@ UNESCO's global-citizenship education framework distinguishes cognitive, socio-e
 
 - [UNESCO, Global Citizenship Education: Topics and Learning Objectives](https://www.unesco.org/sites/default/files/gcedtopicsandlearningobjectives_01.pdf)
 
-### OECD: knowledge, skills, attitudes, values, and agency 
+## OECD: knowledge, skills, attitudes, values, and agency 
 
 The OECD Learning Compass describes education as developing knowledge, skills, attitudes, values, and student agency. It also acknowledges important outcomes such as responsibility, empathy, and agency that are not adequately captured by conventional test instruments.
 
