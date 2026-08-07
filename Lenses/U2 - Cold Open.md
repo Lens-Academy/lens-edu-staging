@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083466756}@@---
+---
 id: 'a930358e-3805-4194-bd64-5933aa84695d'
 title: "Cold Open"
 tldr: Three real forecasting problems, before you have been taught anything. Answer them as well as you can. At the end of the unit you will get three more, harder, and the comparison is the point.
@@ -92,4 +92,3 @@ What to do in your single reply:
 3. Close the lens: tell them the unit starts now, and that these three answers will be waiting for them at the end.
 
 Do not over-validate. Do not praise. Do not ask a follow-up. One turn.
-++}
