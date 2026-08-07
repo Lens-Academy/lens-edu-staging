@@ -66,7 +66,7 @@ In practice, creating courses requires a back and forth between learning outcome
 ## Test Questions vs Practice Questions
 - distinguish between questions that test understanding of the world and questions that are good learning material but not good testing material.
 - All good test questions are good practice questions. Not all good practice questions are good test questions.
-- For example, beginner-level learning outcomes (and their test questions) should be the sort of things that every advanced person in the field should be expected to know. "Solve 1+x=2 for x" is good, "How does Johnny explain how to solve 1+x=2" might be a good learning-question but is not a good testquestion because not every advanced person is expected to know this, nor would benefit to know this.
+- For example, beginner-level learning outcomes (and their test questions) should be the sort of things that every advanced person in the field should be expected to know. "Solve 1+x=2 for x" is good, "How does Johnny explain how to solve 1+x=2" might be a good learning-question but is not a good test question because not every advanced person is expected to know this, nor would benefit to know this.
 
 ## Learning Outcome Files
 
@@ -76,7 +76,7 @@ An outcome is one pass/fail completion unit, not a graded system. Deeper ldevels
 
 I.e. related outcomes at different levels (awareness → application → producing a plan) are separate files, sequenced by the module.
 
-## Write the rubric first
+## Test Question 
 
 We're not yet 100% sure how our rubric should work, but the overall grade should be a single pass or fail. We do think rubrics can sometimes contain multiple pass/fail checks to build up the whole. But it's important that each subject itself is binary as well. Like, you can say, "The answer must have 3 out of these 5 qualities," as long as each of those 5 qualities is binary as well.
 
