@@ -54,7 +54,7 @@ Work backward from real-world performance, not forward from content:
 
 In practice, creating courses requires a back and forth between learning outcomes and learning material. The process is not as linear as suggested here.
 
-## Writing the statement
+## Writing a Learning Outcome S
 
 1. **Start with an action verb.** Explain, Distinguish, Identify, Compare, Analyze, Evaluate, Apply, Recognize. Avoid "understand", "know", "appreciate", "be familiar with": you can't tell from the outside whether someone understands; you can tell whether they can explain.
 2. **Name the mechanism, not just the claim.** "Explain why misaligned AI is dangerous" is weak; "Explain why a capable AI optimizing for resource-intensive goals can eliminate humanity *without hostile intent, as a byproduct of its own objectives*" pins the actual reasoning move the student must make. Precision beats brevity. The strongest form is situated: "Given ⟨an unfamiliar case⟩, the learner can ⟨do X⟩, identify the assumptions required, and name a case where it does not apply."
@@ -82,7 +82,7 @@ We're not yet 100% sure how our rubric should work, but the overall grade should
 
 Beyond pass/fail tests, it's still useful for Lens Coach to provide qualitative feedback on what went well and what could've been better.
 
-## More about T
+## More about Test Questions
 
 The dominant defects in existing outcomes are recall tests and leading prompts. Avoid both:
 
