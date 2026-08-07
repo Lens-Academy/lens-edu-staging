@@ -20,12 +20,12 @@ Known-outstanding defects are listed in the repo at
 
 # Module: [[../modules/what-could-possibly-happen|Unit 1: What Could Possibly Happen?]]
 
-# Meeting
+# Meeting: Unit 1
 
 # Module: [[../modules/unit-2-how-do-we-know|Unit 2: How Do We Know?]]
 
-# Meeting
+# Meeting: Unit 2 discussion
 
 # Module: [[../modules/Unit 3 - Threat Models and Key Scenarios|Unit 3: Threat Models and Key Scenarios]]
 
-# Meeting
+# Meeting: Unit 3 discussion
