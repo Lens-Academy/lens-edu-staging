@@ -127,7 +127,7 @@ source:: [[../Lenses/My Topic]]
 
 
 # Background context
-## Self-determination T
+## Self-Determination Theory
 
 Self-determination theory distinguishes **autonomous motivation**, acting for reasons connected to one's own goals and values, from motivation produced mainly by pressure, guilt, fear, or external control. 
 
