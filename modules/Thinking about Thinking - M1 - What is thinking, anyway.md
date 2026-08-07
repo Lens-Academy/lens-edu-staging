@@ -14,11 +14,11 @@ summary_for_tutor:: Course-orientation lens for Unit 1 of "Thinking about Thinki
 
 #### Text
 content::
-Welcome to *Thinking about Thinking*. This is a short, self-paced course by the Metacognitive Research Group. In it, we explore how for people who use AI at work and want to keep their own judgement sharp.
+Welcome to *Thinking about Thinking*. This is a short, self-paced course by the **Metacognitive Research Group**. In it, we explore how AI can change how we think. This course is for anyone curious about how AI systems can affect their judgement. 
 
-How it works: five units, roughly an hour each. Each unit is a set of short readings and conversations with an AI tutor. You read, you answer questions, and the tutor responds. There are no marks and no one is judging you; the tests check that the ideas have landed, not your personality.
+It's structured into five units, roughly an hour each. Each unit is a set of short readings and conversations with an AI tutor. You read, you answer questions, and the tutor responds. There are no marks and no one is judging you.
 
-A note on how this course was made: an AI helped write parts of it, and the AI tutor you will meet is one of those helpers. Both are used to clarify our thoughts, not to replace them. We revisit the ideas in this course often, because the tools change.
+Funnily enough, an AI helped write parts of this course. You'll also discuss . Both are used to clarify our thoughts, not to replace them. We revisit the ideas in this course often, because the tools change.
 
 Your judgement and your taste are valuable. Whatever the future brings, do not lose them.
 
