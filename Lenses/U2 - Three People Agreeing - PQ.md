@@ -1,7 +1,7 @@
 ---
 id: '6d12511c-9612-4bb8-ac11-7079b34ce883'
 title: "Three People Agreeing"
-tldr: Three forecasters say 60%, 65%, and 70%. Write down your combined estimate before you read on. Almost everyone writes a number between 60 and 70, and there are conditions under which that is provably wrong.
+tldr: Three forecasters say 60%, 65%, and 70%. Write down your combined estimate before you read on. The range-preserving answer, somewhere between 60 and 70, is the natural one, and there are conditions under which it is provably wrong.
 summary_for_tutor: "Pre-reading question for the aggregation material. Pumps the range-preserving intuition so the extremization result can break it. Do not explain extremization here, do not mention the prior, and do not give the coin example."
 authors:
   - Claude
@@ -18,9 +18,9 @@ Write down your combined estimate. Then write down, in one sentence, the rule yo
 
 Then one more question, and take it seriously rather than treating it as rhetorical: is there any set of facts about those three people under which your combined estimate should be higher than 70%?
 
-assessment-instructions:: The student is about to study forecast aggregation and extremization. This question surfaces the range-preserving intuition, which most people hold and which is wrong under independence.
+assessment-instructions:: The student is about to study forecast aggregation and extremization. This question surfaces the range-preserving intuition, which is the default move the extremization literature is written against and which is wrong under independence.
 
-Almost every student will answer 65%, and most will say no to the third question, often on the grounds that you cannot know more than your best expert. That is the intended response and is not to be corrected here.
+If the student answers 65% and says no to the third question, often on the grounds that you cannot know more than your best expert, that is the case this phase is built for and is not to be corrected here.
 
 Do not explain extremization. Do not mention the coin example, Laplace's rule, or the fact that the 10% base rate is doing work. Do not name the answer.
 

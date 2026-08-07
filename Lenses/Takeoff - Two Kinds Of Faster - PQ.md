@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786111143912}@@---
+---
 id: '7ffb30a1-3c17-4c49-8a71-259102ac9ccc'
 title: Pre-Reading Question - Two Kinds Of Faster
 summary_for_tutor: "Primes the linear-versus-recursive distinction before any reading supplies the vocabulary. Two deliberately non-AI scenarios (a bakery buying ovens, a machine shop whose lathes make lathes) instantiate the two structures with no jargon attached. The student must notice that one saturates and one may not, and must produce the deciding quantity themselves. Do not supply the words compounding, recursive, feedback loop, or intelligence explosion; the whole value is that the student builds the object before it is named."
@@ -42,4 +42,3 @@ Do NOT:
 If the student says both workshops are the same because both are "growing exponentially," do not correct it. Ask one question instead: "In twenty years, can Workshop A's growth rate itself have increased, or only its output?" Then close, whatever they answer.
 
 Close with: "Hold both workshops in mind while you read. The readings are an argument about Workshop B, and the people arguing disagree about your question 3."
-++}

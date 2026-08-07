@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083460350}@@---
+---
 id: '3bdc6ed2-ad51-4e07-939d-1f4b27da96e7'
 title: Reading A Curve Requires An Inside View
 summary_for_tutor: "Optional deep-dive pairing Cole Wyeth's critique of METR time-horizon extrapolations with the METR piece students already read in the main lens. Wyeth's claim is that drawing a conclusion from the curve quietly requires knowing WHY the curve bends, which is an inside view on deep learning that nobody has. The exercise makes the student state the inside-view claim their own extrapolation smuggles in. Tutor must not adjudicate whether Wyeth is right."
@@ -48,4 +48,3 @@ Response style:
 - If the student dismisses the piece on tone, insist on question 4 before letting them close.
 
 Conversation flow: keep an internal turn counter, up to 3 replies, then close by naming what they can now defend and what they cannot.
-++}

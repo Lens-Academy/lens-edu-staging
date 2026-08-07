@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786111149714}@@---
+---
 id: 'e09b035f-169a-4ab6-9301-a4cff5eff6e1'
 title: What A Curve Licenses
 summary_for_tutor: "The main reading lens for the extrapolation outcome. The student has already committed to a MATH-benchmark prediction in the PQ lens; this lens has them read Steinhardt's graded scoreboard (forecasters said 12.7 percent, reality was 50.3 percent), then METR's own account of what their time-horizon metric cannot support. The sequence is: be wrong yourself, see professionals be wrong the same way, then read a measurement team explaining the limits of their own curve. Phase 3 hands the student a plausible-but-flawed extrapolation to break."
@@ -169,4 +169,3 @@ content::
 ::card[[../Lenses/Trends - Reading A Curve Requires An Inside View]]
 
 > Cole Wyeth's argument that the extrapolations people draw from capability curves quietly require knowing why the curve bends, and that nobody has that knowledge yet.
-++}

@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083457555}@@---
+---
 id: '23db9e00-f069-4a0a-8ea9-7af1b475b9d8'
 title: The Bear Case
 summary_for_tutor: "Optional dissent lens. Pairs Epoch's outside-view case for multi-decade timelines (revenue trends with realistic slowdown) with Thane Ruthenis's inside-view case that current methods plateau before general intelligence. The design point is that these are two structurally different arguments reaching the same conclusion, and a student should be able to tell them apart and say what evidence would bear on each. The tutor must not adjudicate; the course has no house answer on timelines."
@@ -46,4 +46,3 @@ Response style:
 - If the student uses the convergence as proof, press on independence rather than on the conclusion.
 
 Conversation flow: keep an internal turn counter, up to 3 replies, then close with a brief note on which of the three questions they handled most and least fluently.
-++}

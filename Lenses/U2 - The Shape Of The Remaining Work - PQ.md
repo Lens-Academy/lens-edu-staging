@@ -18,7 +18,7 @@ Then answer one more thing: what would have to be true about the remaining 84% f
 
 assessment-instructions:: The student is about to read about the fractional-progress survey method and its failure. They have not seen it yet. This question makes them perform the extrapolation themselves so that the reading lands as a critique of something they did, not something a stranger did.
 
-Almost every student will divide: four years bought 16%, so 100% takes twenty-five years, finishing around year twenty-five. That is the intended response. It is not a mistake to be corrected here.
+If the student divides (four years bought 16%, so 100% takes twenty-five years), that is the case this phase is built for. It is not a mistake to be corrected here.
 
 Do not preview the reading. Do not mention the 372-year result, expert surveys, AI timelines, or any alternative functional form. Do not use the words linear, exponential, logistic, or asymptote unless the student uses them first.
 

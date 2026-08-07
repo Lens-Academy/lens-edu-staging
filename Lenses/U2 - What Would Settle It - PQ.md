@@ -1,7 +1,7 @@
 ---
 id: '5121d5b8-4613-41fc-8011-882dc4a135cc'
 title: "What Would Settle It"
-tldr: Before you learn how forecasters break a question down, find out what your own breaking-down looks like. Most people's first split produces four smaller versions of the same unanswerable question.
+tldr: Before you learn how forecasters break a question down, find out what your own breaking-down looks like. A first split often produces four smaller versions of the same unanswerable question, which is the thing to find out about your own.
 summary_for_tutor: "Pre-reading question for the decomposition material. The student attempts a decomposition cold, before seeing the Good Judgment Project loop. The point is to make them feel the difference between a sub-question with an evidence source and a sub-question that is just the original question in smaller handwriting. Do not teach the loop here."
 authors:
   - Claude

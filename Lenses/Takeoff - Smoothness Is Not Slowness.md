@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786111142914}@@---
+---
 id: '8557cd35-9245-435f-a909-54dab8e37f9f'
 title: Smoothness Is Not Slowness
 summary_for_tutor: "The vocabulary repair. 'Slow takeoff' names continuity, not calendar duration, and the continuous scenario is plausibly the FASTER one in wall-clock terms. Students who miss this mis-hear every takeoff reading, so this lens is short, sharp, and placed immediately after the main takeoff lens. Raemon supplies the terminology fix; Bensinger reframes the discontinuity debate as a question about where improvement comes from. Phase 3 tests the repair by having the student re-express a real disagreement in unambiguous language."
@@ -118,4 +118,3 @@ Calibration summary (on close): name what they demonstrated, name what remains u
 Safety and integrity:
 - If the student makes a strong causal claim, ask what it relies on and how it could be falsified.
 - If stuck after 2 attempts, give a brief direct answer and move on.
-++}

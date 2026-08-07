@@ -20,7 +20,7 @@ Two rules. Do not look anything up. Do not worry about being wrong: a confidentl
 content::
 \## Ground rules
 
-Most people arrive with a picture of AI catastrophe that has a villain in it: a system that wants something we do not want, conceals this, and makes a move.
+The most familiar portrayals of AI catastrophe have a villain in them: a system that wants something we do not want, conceals this, and makes a move.
 
 Set that picture aside entirely. For everything below, assume:
 

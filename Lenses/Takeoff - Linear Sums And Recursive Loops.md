@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786111141841}@@---
+---
 id: '2aeee974-b094-4f65-9d72-8d66b675a02e'
 title: Linear Sums And Recursive Loops
 summary_for_tutor: "The core mathematical lens of the unit. Students read Christiano's slow-takeoff argument and Grace's clean statement of the fast-takeoff mechanism (declining recalcitrance against rising investment) as a matched pair, then Greenblatt's decoupling of automation speedup from intelligence explosion. The object being taught is the gain parameter of a recursive loop and what its trend does: sustained gain gives finite-time blowup, decaying gain gives a high ceiling. Phase 3 hands the student a scenario where the two named claims come apart, since students reflexively bundle them."
@@ -156,4 +156,3 @@ content::
 ::card[[../Lenses/Takeoff - Compute-Centric Numbers]]
 
 > Tom Davidson's growth model puts actual numbers on the loop, compressing a four-order-of-magnitude capability gap to roughly three years. Worth reading for how a model of this kind is assembled, and where its parameters come from.
-++}

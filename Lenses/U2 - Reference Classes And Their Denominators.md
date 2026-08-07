@@ -1,7 +1,7 @@
 ---
 id: '0d01e37e-38e6-4371-961b-7a69c7135650'
 title: "Reference Classes And Their Denominators"
-tldr: "Take the outside view" sounds like one instruction. It names about fifteen different moves, some of them excellent and some of them a way of not thinking while sounding rigorous. The fix is to say which move you made.
+tldr: '"Take the outside view" sounds like one instruction. Kokotajlo counted, and it names two lists of about seven moves each, some excellent and some a way of not thinking while sounding rigorous. The fix is to say which move you made.'
 summary_for_tutor: "Teaches reference-class selection through Kokotajlo's Taboo 'Outside View'. Two things to get across: the phrase is overloaded, and the choice of reference class is a substantive claim requiring defence rather than a neutral first step. The load-bearing skill is asking what the denominator is, i.e. which cases were eligible for the class and which were quietly excluded. Optional lens; the module lists it as optional but recommended before the test."
 authors:
   - Claude
@@ -29,7 +29,7 @@ Spend 2 minutes writing down everything you can remember from the reading, witho
 assessment-instructions:: The student has just read Kokotajlo's Taboo "Outside View" and written a free recall.
 
 Key content:
-- The phrase "outside view" has expanded far beyond its original meaning of reference-class forecasting, and now covers roughly fifteen distinguishable moves.
+- The phrase "outside view" has expanded far beyond its original meaning of reference-class forecasting. Kokotajlo compiles TWO lists, each of about seven items, and the pairing is the point: "Big List O' Things People Describe As Outside View" (trend extrapolation, foxy aggregation, bias correction, deference to the wisdom of the many, the anti-weirdness heuristic, priors, Ajeya's timelines model) against a matching list for INSIDE view (having a gears-level model, having any model at all, deference to the wisdom of the few, intuition-based-on-detailed-imagining, trend extrapolation combined with an argument, drawing on subject-matter expertise, and Ajeya's timelines model again). Both lists end with "and probably many more I don't remember", and Ajeya's model appears on BOTH, which is the sharpest single illustration that the labels have stopped carrying information.
 - Among the things it gets used for: reference-class forecasting proper, deferring to expert consensus, trend extrapolation, anti-weirdness heuristics, distrusting explicit models, bias correction, and simply not thinking about the mechanism.
 - These have different track records. Some are well supported; others are close to an excuse for dismissing an argument without engaging it.
 - Because the phrase bundles them, "I am taking the outside view" can end a conversation without anyone having to say which move was made or defend it.

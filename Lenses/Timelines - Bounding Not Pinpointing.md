@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786111145078}@@---
+---
 id: '4e7319a3-bbee-4662-9fac-6ee195b717de'
 title: Bounding Not Pinpointing
 summary_for_tutor: "Teaches what a quantitative timeline model is FOR, using Karnofsky's two bio-anchors pieces as a matched pair: the method, then the author's own correction that it bounds rather than locates. The student arrives having just committed, in the PQ lens, to treating their own estimate as a location. Phase 3 hands them an estimate built the opposite way (from enumerated difficulties) so they must work out that it bounds from the other side, which is the generalisation rather than the reading's content."
@@ -142,4 +142,3 @@ content::
 ::card[[../Lenses/Timelines - The Bear Case]]
 
 > Two arguments that the whole framing above is wrong: Epoch's outside-view case from revenue trends for roughly twenty-year timelines, and Thane Ruthenis's inside-view case that current methods plateau before general intelligence. Read if you want the strongest available dissent.
-++}

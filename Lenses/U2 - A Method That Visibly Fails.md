@@ -14,6 +14,8 @@ content::
 
 The setup: one way to forecast AI is to ask researchers how much progress toward human-level AI they have made in their subfield over the last T years, then extrapolate linearly to 100%. A typical answer was about 5% of the problem solved between 1992 and 2012. Extrapolated, those estimates imply human-level AI in roughly 372 years.
 
+Watch the provenance, because it matters for what the number means. The 372 figure is not Xu and Shulman's; it comes from Robin Hanson's informal 2012-2017 survey, was extrapolated by AI Impacts, and Xu and Shulman quote it in order to argue against it. And the same AI Impacts summary reports the method giving 36 years from the 2016 Expert Survey on Progress in AI, and 142 years from another set of responses. So the method does not produce one absurd number. It produces anything from 36 to 372 years depending on whom you asked, which is a sharper indictment than a single implausible result.
+
 You just did this arithmetic yourself in the previous step.
 
 As you read, keep one question live: the authors do not simply say the method is wrong. They ask what would have to be true for 372 years to be right, and what is true instead. Track that argument, not the number.
@@ -33,7 +35,7 @@ assessment-instructions:: The student has just read Xu and Shulman on fractional
 Key content:
 - The method: survey researchers on what fraction of the path to human-level AI their subfield has covered in a period, then extrapolate the rate linearly.
 - The data: a typical estimate is about 5% over the twenty years from 1992 to 2012.
-- The implied result: roughly 372 years to human-level AI.
+- The implied result from Hanson's survey: roughly 372 years to human-level AI. GRADER: the same AI Impacts summary the authors cite also reports 36 years from the 2016 Expert Survey and 142 years from another response set. A student who notices the spread, or who points out that a method whose output ranges over a factor of ten across surveys is unreliable for a different reason than the one this lens teaches, has seen something real and should be credited.
 - The reason the number is not simply accepted: the extrapolation assumes the rate of fractional progress is constant, while inputs to AI research have grown enormously over the period. Progress per unit of resource, not progress per year, is the quantity that would need to be stable.
 - The consequence: if the same fractional progress required vastly more compute, researchers, and funding in the later part of the period than the earlier part, then the resource requirements implied for the remaining 95% are the real output of the method, and they are enormous.
 - The general shape: a linear extrapolation over calendar time hides what happened to the denominator.

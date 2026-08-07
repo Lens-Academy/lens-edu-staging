@@ -10,11 +10,15 @@ authors:
 content::
 \## Before anything
 
-Three problems. You have not been taught how to do them and that is deliberate.
+Here are three problems we hope you cannot solve.
 
-Answer them at whatever depth you can reach. Guessing badly here costs you nothing, and skipping costs you the only baseline you will get. Nobody will grade these against a right answer, because for two of the three there is not one.
+Not a joke and not a test. We are asking you to fail on purpose. Learning scientists call this productive failure: an answer lands harder when you have already tried and missed, and a method taught cold reads as a procedure and is forgotten by Thursday.
+
+So struggle on purpose. Answer at whatever depth you reach, guess badly rather than skip, and spend enough time trying. Nobody is grading these against a right answer. The first one has a right answer, out in the world, and you are not allowed to look it up. The other two are graded on reasoning, and reasoning well can land on either side.
 
 At the end of the unit you will be given three more problems in different domains, harder than these. The comparison between what you write now and what you write then is what this unit is actually measuring.
+
+Your answers stay in this module's chat, so you can scroll back to them at the end. The tutor grading you will not be able to see them, which is why it will ask you to bring them: the comparison happens because you fetch it, not because the system does.
 
 Write the arithmetic where there is arithmetic. Descriptions of arithmetic do not count.
 
@@ -82,7 +86,7 @@ max-time:: 10:00
 
 assessment-instructions:: Pre-test, before instruction. The student has been taught nothing about aggregation.
 
-DO NOT TEACH. Do not mention extremization, priors, independence, or information overlap. Do not tell them an answer outside the range can be correct. Most students will say 60% and answer no to the second question; that is the expected baseline response and must be left uncorrected.
+DO NOT TEACH. Do not mention extremization, priors, independence, or information overlap. Do not tell them an answer outside the range can be correct. If they say 60% and answer no to the second question, that is the baseline this unit measures against and must be left uncorrected.
 
 Response length: 40 to 70 words. One short paragraph. No lists.
 

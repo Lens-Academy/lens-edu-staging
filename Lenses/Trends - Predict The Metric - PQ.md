@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083459469}@@---
+---
 id: 'd1aee943-2515-4da2-b4d9-ad55188d7518'
 title: Pre-Reading Question - Predict The Metric
 summary_for_tutor: "Predict-before-you-read primer for Steinhardt's graded forecasting scoreboard. The student is given the exact question professional forecasters were paid to answer in 2021 (SOTA on the MATH benchmark by June 2022) and must commit to a number and an interval before seeing what happened. The point is not to be right; it is to have a number on record so the reading grades the student alongside the forecasters. Do not reveal the actual result."
@@ -42,4 +42,3 @@ Do NOT:
 - Discuss calibration, credible intervals, or forecasting methodology. That is the reading's job.
 
 Close with: "That is on the record now. Head to the reading, and when you come back you will be scored against the professionals who answered the same question."
-++}

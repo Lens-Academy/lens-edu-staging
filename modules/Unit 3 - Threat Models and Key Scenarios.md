@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786083513674}@@---
+---
 slug: u3-threat-models
 title: "Unit 3: Threat Models and Key Scenarios"
 id: 'f98a8b50-30cb-4a30-9cd3-41b376a8d69a'
@@ -131,4 +131,3 @@ This unit is mostly about systems pursuing goals nobody chose. The other threat 
 
 **Tom Davidson, *Human takeover might be worse than AI takeover*.** Argues that conditional on a takeover happening, the human version may be worse, because seizing power selects for the people least suited to holding it.
 optional:: true
-++}

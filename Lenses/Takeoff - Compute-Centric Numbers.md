@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786111140713}@@---
+---
 id: '6d47e55b-f642-42ea-a6e7-5eb8645db491'
 title: Compute-Centric Numbers
 summary_for_tutor: "Optional deep-dive on Tom Davidson's compute-centric takeoff model, plus his six-milestones framing. The value is not the headline number (a four-OOM capability gap compressed to roughly three years) but seeing how a model of this kind is assembled and where its parameters come from. The exercise makes the student find the parameter the conclusion is most sensitive to, which is the transferable skill. Also converts 'timelines' from one date into a sequence of thresholds."
@@ -48,4 +48,3 @@ Response style:
 - If the student cannot answer question 3, that is fine and common; suggest they reason qualitatively about direction and magnitude rather than abandoning it.
 
 Conversation flow: keep an internal turn counter, up to 3 replies, then close by naming whether they found the conclusion robust or crux-dependent, and what that implies about how much weight to put on the three-year figure.
-++}
