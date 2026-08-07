@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1786139962236}@@---
+---
 id: 'e7e9f123-e8da-47b5-bc7f-03d8252765c3'
 slug: tot-m1
 title: "What is thinking, anyway?"
@@ -57,4 +57,3 @@ source:: [[../Learning Outcomes/How AI offloading differs from earlier tools]]
 
 # Lens:
 source:: [[../Lenses/ToT M1 - How AI Offloading Is Different]]
-++}

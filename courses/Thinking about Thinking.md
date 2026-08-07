@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1786139990133}@@---
+---
 id: 'dcfd9985-176f-4405-91c0-63332cd2dbf4'
 slug: thinking-about-thinking
 title: "Thinking about Thinking"
@@ -16,4 +16,3 @@ tags:
 # Module: [[../modules/Thinking about Thinking - M4 - Using AI without losing your judgement]]
 
 # Module: [[../modules/Thinking about Thinking - M5 - So what do I do now]]
-++}
