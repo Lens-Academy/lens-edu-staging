@@ -18,12 +18,8 @@ Changes sync to https://staging.lensacademy.org within seconds; Only core team m
 Before creating a new course or redesigning its overall learner journey, inspect the demo course:
 
 - Rendered course: [[../courses/Demo Course]]
-- Course structure: `Lens Edu/courses/iliad-intensive-demo.md`
-- Its real module: `Lens Edu/modules/ai-alignment-introduction.md` (the demo's other modules are placeholders)
-- A representative outcome and test: `Lens Edu/Learning Outcomes/Decomposing AI risks.md`
-- Its corresponding core lens: `Lens Edu/Lenses/The AI risk landscape.md`
 
-Use the demo to understand how the file hierarchy becomes a learner journey, not as a substitute for the authoring guides or validator. If a user is unfamiliar with Lens and wants to understand the platform, point them to the rendered demo course.
+Use the demo to understand how things fit together, not as a substitute for the authoring guides or validator. If a user is unfamiliar with Lens and wants to understand the platform, point them to the rendered demo course.
 
 ## The document model
 
