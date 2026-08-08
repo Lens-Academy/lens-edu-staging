@@ -9,8 +9,8 @@ tags:
 
 #### Text
 content::
-\## Reading: What is thinking, anyway?
-Read the short piece below. It is the core teaching for this unit. When you finish, come back here.
+{--{"author":"AI","timestamp":1786173732964}@@\## Reading: What is thinking, anyway?
+--}Read the short piece below. It is the core teaching for this unit. When you finish, come back here.
 
 **Cognition** is the everyday word for the mental work of completing a task. Remembering, planning, judging, deciding, and calculating are all cognition.
 
