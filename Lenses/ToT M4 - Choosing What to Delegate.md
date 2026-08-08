@@ -32,7 +32,7 @@ Tools change fast. This unit describes what works now, not forever. Revisit the 
 - Keep at least one demanding task fully manual, on purpose.
 - Friction is the gym. Industrialisation removed physical labour, and we built gyms. AI removes mental effort, so we must put the struggle back on purpose.
 - Audit yourself: review one recent AI conversation and mark where you delegated judgement. Would you take that task back if the tool vanished?
-- Keep the final review human. Read the output. Question it. Sometimes reject it.{++{"author":"Course's AI","timestamp":1786178557361}@@
+- Keep the final review human. Read the output. Question it. Sometimes reject it.
 
 \## Why this matters: Bloom's taxonomy
 In Unit 3 you read about Lee and colleagues' finding: AI use shifts workers from generative tasks to reviewer tasks. This is a move "down" Bloom's taxonomy of cognitive skills.
@@ -47,7 +47,7 @@ Bloom's taxonomy ranks cognitive tasks from lower to higher order:
 
 Lee's study found AI moves workers away from generative tasks—applying, analysing, evaluating, creating—toward reviewer tasks like verifying and integrating. These are important, but they do not build the same skills.
 
-**The practical implication**: Keep generative tasks for yourself. Let AI handle retrieval and verification, but do your own analysis, evaluation, and creation. If you always ask AI to "write this for me," you skip the struggle that builds the skill. If you ask AI to "critique my draft," you practice evaluation while the AI assists.++}
+**The practical implication**: Keep generative tasks for yourself. Let AI handle retrieval and verification, but do your own analysis, evaluation, and creation. If you always ask AI to "write this for me," you skip the struggle that builds the skill. If you ask AI to "critique my draft," you practice evaluation while the AI assists.
 
 \## Red flags
 - Delegating something you could not evaluate.
@@ -69,8 +69,8 @@ Key concepts in the reading:
 - While: treat AI as a sparring partner not an authority; ask it to argue against its own answer; don't let the AI set the frame
 - Evaluate: beware of fluency; close the chat and restate the logic in your own words; verify substantive claims against an independent source
 - Other protections: keep hard problems for your own process; keep one demanding task manual on purpose; friction is the gym; audit yourself; keep the final review human
-- {++{"author":"Course's AI","timestamp":1786178569254}@@Bloom's taxonomy and the Lee et al. finding: AI shifts workers from generative tasks (applying, analysing, evaluating, creating) to reviewer tasks (verifying, integrating); keep generative tasks for yourself
-- ++}Red flags: delegating what you could not evaluate; delegating for speed every time; going along because the answer sounds confident or polished
+- Bloom's taxonomy and the Lee et al. finding: AI shifts workers from generative tasks (applying, analysing, evaluating, creating) to reviewer tasks (verifying, integrating); keep generative tasks for yourself
+- Red flags: delegating what you could not evaluate; delegating for speed every time; going along because the answer sounds confident or polished
 - Tools change fast; the guidance is time-sensitive
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
@@ -137,29 +137,4 @@ Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4
 
 Safety and integrity: this lens makes normative recommendations; the learning outcome is to apply them, not to agree. If the student pushes back with good reasons, treat the pushback as valid and grade their reasoning. If stuck after 2 attempts, give a brief direct answer and move on.
 
-{--{"author":"AI","timestamp":1786178959621}@@---
 
-%% TODO: add a fuller reading passage to ground this question. It currently stands in for the former chapter-end test. %%
-#### Question
-content::
-\## Chapter check
-Here is a real-sounding workflow:
-
-"Every morning I paste my email inbox into an AI assistant and ask it to draft replies to everything. I skim each draft and send it if it sounds reasonable. On big reports, I give the AI the topic and ask it to outline the report and write the first full draft, then I add my name. If the AI says something sounds risky, I usually just take its word for it."
-
-Using this unit's three-stage frame and red flags, explain where this workflow puts the person's judgement at risk, and rewrite the workflow so the judgement stays with them. Name at least three concrete changes and say why each one protects judgement.
-
-assessment-instructions:: Chapter check for Unit 4. Score the answer according to the rubric below.
-- Before you delegate: write your own rough notes first; for a new topic, ask for questions, not answers; delegate a task, not the judgement about whether the task should be delegated
-- While you work with the AI: treat it as a sparring partner, not an authority; ask it to argue against its own answer; don't let the AI set the frame
-- When you evaluate: beware of fluency (polished output is not true output); close the chat and restate the reasoning in your own words; verify substantive claims against an independent source
-- Other ways to protect judgement: keep some hard problems for your own process; keep at least one demanding task fully manual on purpose; friction is the gym; audit yourself; keep the final review human
-- Red flags in the given workflow: delegating tasks they could not evaluate, delegating for speed every time, going along because the answer sounds confident, and letting the AI set the frame and plan
-
-**1** — Sees nothing wrong with the workflow, or proposes only vague advice ("be more careful") with no connection to the rules.
-**2** — Spots one problem (e.g. "don't let AI write the whole report") but cannot name a mechanism or connect it to the unit's rules.
-**3** — Identifies at least two real risks in the workflow (judgement delegated in the drafting, the plan, and the risk decision) and proposes at least three concrete changes drawn from the unit's rules, each with a reason. This is the passing core.
-**4** — As above, plus the changes are specific and actionable for this exact workflow (e.g. write own brief first, ask for questions not answers, restate the draft's logic in their own words, verify claims against a source, keep the risk call human).
-**5** — As above, plus connects the rewrite to the course thread: after the change, the person practises the skill each time rather than skipping practice, so the judgement stays exercised rather than only owned.
-
-A strong student may choose to keep some AI use or even more AI use than the rubric assumes, as long as every change is justified by a mechanism from the unit. Do not require the learner to become anti-AI. Feedback tone: direct, specific, no generic praise.--}
