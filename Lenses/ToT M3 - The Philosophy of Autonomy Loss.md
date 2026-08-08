@@ -1,4 +1,4 @@
-{++{"author":"Course's AI","timestamp":1786178936709}@@---
+---
 id: 'ccaed5cd-6097-4191-8a5f-1c6ac6e18393'
 title: "Bonus: The Philosophy of Autonomy Loss"
 tldr: "Optional deep-dive: How skill atrophy connects to gradual disempowerment through the lens of autonomy. Krook argues that even well-aligned AI poses a hidden existential risk—the slow decline of human autonomy."
@@ -115,4 +115,4 @@ Calibration summary (on close): Name what the student demonstrated (engagement w
 
 ---
 
-%% Note: This is an optional bonus lens. Learners who skip it should still be able to pass the module assessments. The Krook argument is referenced only to enrich understanding for those who want the philosophical depth. %%++}
+%% Note: This is an optional bonus lens. Learners who skip it should still be able to pass the module assessments. The Krook argument is referenced only to enrich understanding for those who want the philosophical depth. %%
