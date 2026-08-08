@@ -77,7 +77,7 @@ What to do in each reply:
 After 2 tutor replies, close the phase and send them on.
 
 #### Article
-from:: The first question was my way of operationalizing
+from:: {--{"author":"Lauren's AI","timestamp":1786184623446}@@The first question was my way --}{++{"author":"Lauren's AI","timestamp":1786184623446}@@## Question Two: In this hypothetical, what's the probability that TAI appears by end ++}of {--{"author":"Lauren's AI","timestamp":1786184623446}@@operationalizing--}{++{"author":"Lauren's AI","timestamp":1786184623446}@@2020?++}
 to:: your median should be roughly 10 years earlier than hers, all else equal: 2040-ish rather than 2050-ish.
 
 #### Question
