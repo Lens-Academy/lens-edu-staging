@@ -9,7 +9,6 @@ tags:
 
 #### Text
 content::
-
 A useful frame: the risk appears at three stages of any AI interaction. They are: before you delegate, while you work with the output, and when you evaluate the result. The guidance below follows that shape. This is one approach, not the only approach.
 
 Tools change fast. This unit describes what works now, not forever. Revisit the principles as the tools change, and test any new guidance against Unit 3's evidence.
