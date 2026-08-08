@@ -23,26 +23,59 @@ Here is the causal chain, stated honestly as a chain of possibilities.
 
 A compounding factor runs alongside: offloading does not happen alone. Automating technology replaces human roles at the same time, so human skills can erode just as demand for them falls.
 
-Two well-known pieces of evidence sit on either side of this chain's middle.
+{--{"author":"Course's AI","timestamp":1786178391640}@@Two well-known pieces of evidence sit on either side of--}{++{"author":"Course's AI","timestamp":1786178391640}@@Several recent studies give us concrete measurements at different points along++} this {--{"author":"Course's AI","timestamp":1786178391640}@@chain's middle.
 
-The doctor study: doctors used an AI for a period, and then the AI was removed. Their performance fell below their earlier baseline. The skill had weakened while the tool did the work.
-%% Note for reviewer: the doctor study is presented here as summarised in the course design. Before publication, supply the exact citation (authors, year, journal or preprint). The current text reports the finding at the level the course design gives it. %%
+The doctor study: doctors--}{++{"author":"Course's AI","timestamp":1786178391640}@@chain.
 
-More recent findings point the same way: a short burst of AI-assisted practice can make people worse on later problems done without AI, and more likely to give up. And people who explained the AI's logic in their own words fixed bugs far more often than people who did not.
-%% Note for reviewer: these two findings are given in the course design without a citation. Verify against the primary sources before publication. The 'explanation in own words' finding is referenced again in Unit 4 as the reason for the 'close the chat, restate in your own words' rule. %%
+Budzyń and colleagues (2025) studied endoscopists who++} used {--{"author":"Course's AI","timestamp":1786178391640}@@an AI for a period, and then--}{++{"author":"Course's AI","timestamp":1786178391640}@@AI-assisted polyp detection for three months. When++} the AI was {--{"author":"Course's AI","timestamp":1786178391640}@@removed. Their performance --}{++{"author":"Course's AI","timestamp":1786178391640}@@removed, their adenoma detection rate ++}fell {++{"author":"Course's AI","timestamp":1786178391640}@@6 percentage points ++}below {--{"author":"Course's AI","timestamp":1786178391640}@@their earlier baseline. The skill had weakened while the tool did --}{++{"author":"Course's AI","timestamp":1786178391640}@@baseline—from roughly 28% to 22%. This is real patient outcomes, not self-reports. Eye-tracking showed ++}the {--{"author":"Course's AI","timestamp":1786178391640}@@work.
+%% Note for reviewer: the doctor study is presented here as summarised in--}{++{"author":"Course's AI","timestamp":1786178391640}@@clinicians had reduced their visual scanning during AI-assisted procedures—they had begun offloading the looking, not just++} the {--{"author":"Course's AI","timestamp":1786178391640}@@course design. Before publication, supply the exact citation (authors, year, journal or preprint). The current text reports the finding at the level the course design gives it. %%
 
-A survey asked 299 UK workers about their own AI use. The findings are self-reports, not controlled measurements: 56% felt confident after a quick review, 45% chose the AI's answer over their own, 47% checked AI output less than a colleague's work, and 41% found tasks harder without AI. Daily users showed the strongest patterns. People's accounts of their own behaviour are warning signs, not proof of cause and effect.
-%% Note for reviewer: the survey figures come from Roxana Seifer's survey of 299 UK employees, as summarised in the course design. Verify the numbers (56%, 45%, 47%, 41%) against the original post before publication. %%
+More recent findings point the same way: a short burst of AI-assisted practice can make people worse on later problems done without AI, and more likely to give up. And people who explained--}{++{"author":"Course's AI","timestamp":1786178391640}@@deciding.
+
+Gerlich (2025) surveyed 666 UK participants using validated critical thinking assessments including the Halpern Critical Thinking Assessment. Regression analysis showed AI tool use negatively predicts critical thinking scores (β = −1.76, p < 0.001), mediated by increased cognitive offloading. Younger participants showed the strongest pattern: higher AI dependence, lower critical thinking scores. A formal correction was later published for this study, noting++} the {--{"author":"Course's AI","timestamp":1786178391640}@@AI's logic in their own words fixed bugs far more often than people who did not.
+%% Note for reviewer: these two findings are given--}{++{"author":"Course's AI","timestamp":1786178391640}@@reliance on self-reported critical thinking practices.
+
+Lee and colleagues at Microsoft Research (2025) tracked 319 knowledge workers across 936 examples of GenAI use. Higher confidence++} in {--{"author":"Course's AI","timestamp":1786178391640}@@the course design without a citation. Verify against the primary sources before publication. The 'explanation--}{++{"author":"Course's AI","timestamp":1786178391640}@@AI was associated with lower critical thinking and vice versa. The study documented a shift++} in {--{"author":"Course's AI","timestamp":1786178391640}@@own words' finding is referenced again in Unit 4 as the reason for the 'close the chat, restate in your own words' rule. %%
+
+A survey asked 299 UK workers about their own AI use. The findings are self-reports, not controlled measurements:--}{++{"author":"Course's AI","timestamp":1786178391640}@@task type: AI use moves workers from generative tasks—knowledge recall, comprehension, synthesis—toward reviewer tasks like verification and integration. This is a move "down" Bloom's taxonomy of cognitive skills. You will see why this matters in Unit 4.
+
+A smaller survey of 299 UK workers found similar self-reported patterns:++} 56% felt confident after a quick review, 45% chose the AI's answer over their own, 47% checked AI output less than a colleague's work, and 41% found tasks harder without AI. Daily users showed the strongest {--{"author":"Course's AI","timestamp":1786178391640}@@patterns. People's accounts of their own behaviour--}{++{"author":"Course's AI","timestamp":1786178391640}@@effects. Self-reports++} are warning signs, not proof of cause and effect.{--{"author":"Course's AI","timestamp":1786178391640}@@
+%% Note for reviewer:--}{++{"author":"Course's AI","timestamp":1786178391640}@@
+
+More recent findings point++} the {--{"author":"Course's AI","timestamp":1786178391640}@@survey figures come from Roxana Seifer's survey of 299 UK employees, as summarised in --}{++{"author":"Course's AI","timestamp":1786178391640}@@same way: a short burst of AI-assisted practice can make people worse on later problems done without AI, and more likely to give up. People who explained ++}the {--{"author":"Course's AI","timestamp":1786178391640}@@course design. Verify --}{++{"author":"Course's AI","timestamp":1786178391640}@@AI's logic in their own words fixed bugs far more often than people who did not. This last finding is ++}the {--{"author":"Course's AI","timestamp":1786178391640}@@numbers (56%, 45%, 47%, 41%) against--}{++{"author":"Course's AI","timestamp":1786178391640}@@reason for one of Unit 4's core rules: close++} the {--{"author":"Course's AI","timestamp":1786178391640}@@original post before publication. %%--}{++{"author":"Course's AI","timestamp":1786178391640}@@chat, restate in your own words.++}
 
 Now read the study below. Pay attention to one result in particular: what happened to the strongest students.
 
 \## Reading the evidence honestly
-Hold two thoughts together. The doctor study and the survey point at real erosion of individual skill. The legal study you are about to read points at real gains from early, engaged use. Both can be true, because whether help helps depends on when and how you use it. And the honest context: most of these studies are short, narrow, and small; long-term and real-world effects on whole populations are still unknown. The reasonable conclusion is concern, not panic. Friction-free help can quietly remove the struggle that builds skill, and we do not yet know how far that goes.
+Hold two thoughts together. The {--{"author":"Course's AI","timestamp":1786178410019}@@doctor study and the survey--}{++{"author":"Course's AI","timestamp":1786178410019}@@studies above++} point at real erosion of individual skill. The legal study you are about to read points at real gains from early, engaged use. Both can be true, because whether help helps depends on when and how you use it. And the honest context: most of these studies are short, narrow, and small; long-term and real-world effects on whole populations are still unknown. The reasonable conclusion is concern, not panic. Friction-free help can quietly remove the struggle that builds skill, and we do not yet know how far that goes.
 
-#### Article
+{++{"author":"Course's AI","timestamp":1786178410019}@@Now read the studies below. Expand any excerpt to read more. You do not need to read everything—skim for methodology and findings. Pay attention to what happened to the strongest students in the legal study, and notice what the counterargument says about when offloading is legitimate.
+
+++}#### Article
 source:: [[../articles/bednar-does-ai-make-lawyers-worse-at-thinking-new-research-offers-a-more-complicated-answer]]
 from:: "Since the public release of ChatGPT in 2022, a growing body of empirical research has suggested that generative AI systems could fundamentally reshape the practice of law."
-to:: "conditions that increase the likelihood that AI substitutes for careful analysis rather than supporting it."
+to:: "conditions that increase the likelihood that AI substitutes for careful analysis rather than supporting it."{++{"author":"Course's AI","timestamp":1786178410019}@@
+
+#### Article
+source:: [[../articles/gerlich-2025-ai-tools-in-society]]
+from:: "This study investigates the relationship between AI tool usage and critical thinking skills, focusing on cognitive offloading as a mediating factor."
+to:: "These results highlight the potential cognitive costs of AI tool reliance, emphasising the need for educational strategies that promote critical engagement with AI technologies."
+
+%% Note: 666 UK participants, mixed-method with validated HCTA assessment. Key finding: β = −1.76, p < 0.001. Self-report limitation: correction published noting reliance on self-reported practices. %%
+
+#### Article
+source:: [[../articles/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers]]
+from:: "The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers"
+to:: "higher confidence in AI was associated with lower critical thinking and vice versa"
+
+%% Note: 319 knowledge workers, 936 examples. Key finding: shift from generative tasks (knowledge recall, synthesis, comprehension) to reviewer tasks (verification, integration, stewardship)—a move "down" Bloom's taxonomy. %%
+
+#### Article
+source:: [[../articles/gutoreva-position-ai-as-part-of-self-extending-the-mind-requires-cognitive-co-regulation]]
+from:: "Artificial Intelligence (AI) systems must be modeled as integral components of human cognition, and that safety and alignment are best achieved through cognitive co-regulation rather than external constraint."
+to:: "Managing this integration requires operational frameworks that account for metacognition and epistemic authority"
+
+%% Note: The counterargument. Extended Mind position: external tools can become legitimate parts of cognition. Key distinction: generative AI performs full epistemic labor, not just discrete functions. Risk increases when AI is treated as authoritative source rather than assistive instrument. %%++}
 
 #### Question
 content::
