@@ -32,7 +32,22 @@ Tools change fast. This unit describes what works now, not forever. Revisit the 
 - Keep at least one demanding task fully manual, on purpose.
 - Friction is the gym. Industrialisation removed physical labour, and we built gyms. AI removes mental effort, so we must put the struggle back on purpose.
 - Audit yourself: review one recent AI conversation and mark where you delegated judgement. Would you take that task back if the tool vanished?
-- Keep the final review human. Read the output. Question it. Sometimes reject it.
+- Keep the final review human. Read the output. Question it. Sometimes reject it.{++{"author":"Course's AI","timestamp":1786178557361}@@
+
+\## Why this matters: Bloom's taxonomy
+In Unit 3 you read about Lee and colleagues' finding: AI use shifts workers from generative tasks to reviewer tasks. This is a move "down" Bloom's taxonomy of cognitive skills.
+
+Bloom's taxonomy ranks cognitive tasks from lower to higher order:
+- **Remembering**: recalling facts, definitions, basic concepts
+- **Understanding**: explaining ideas, summarising, classifying
+- **Applying**: using information in new situations, solving problems
+- **Analysing**: breaking information into parts, finding patterns, distinguishing relevant from irrelevant
+- **Evaluating**: making judgments, critiquing, defending positions
+- **Creating**: generating new ideas, designing, composing, constructing
+
+Lee's study found AI moves workers away from generative tasks—applying, analysing, evaluating, creating—toward reviewer tasks like verifying and integrating. These are important, but they do not build the same skills.
+
+**The practical implication**: Keep generative tasks for yourself. Let AI handle retrieval and verification, but do your own analysis, evaluation, and creation. If you always ask AI to "write this for me," you skip the struggle that builds the skill. If you ask AI to "critique my draft," you practice evaluation while the AI assists.++}
 
 \## Red flags
 - Delegating something you could not evaluate.
@@ -54,7 +69,8 @@ Key concepts in the reading:
 - While: treat AI as a sparring partner not an authority; ask it to argue against its own answer; don't let the AI set the frame
 - Evaluate: beware of fluency; close the chat and restate the logic in your own words; verify substantive claims against an independent source
 - Other protections: keep hard problems for your own process; keep one demanding task manual on purpose; friction is the gym; audit yourself; keep the final review human
-- Red flags: delegating what you could not evaluate; delegating for speed every time; going along because the answer sounds confident or polished
+- {++{"author":"Course's AI","timestamp":1786178569254}@@Bloom's taxonomy and the Lee et al. finding: AI shifts workers from generative tasks (applying, analysing, evaluating, creating) to reviewer tasks (verifying, integrating); keep generative tasks for yourself
+- ++}Red flags: delegating what you could not evaluate; delegating for speed every time; going along because the answer sounds confident or polished
 - Tools change fast; the guidance is time-sensitive
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
