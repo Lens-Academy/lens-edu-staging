@@ -13,7 +13,7 @@ Each learning outcomes (see [[Writing (Learning) Outcomes]]) define one testable
 
 Changes sync to https://staging.lensacademy.org within seconds; Only core team members can push to production (https://lensacademy.org).
 
-## {++{"author":"Elias (GPT-5)'s AI","timestamp":1786183903704}@@Demo course
+## Demo course
 
 Before creating a new course or redesigning its overall learner journey, inspect the Iliad Intensive demo's rendered learner experience and these source files:
 
@@ -25,7 +25,7 @@ Before creating a new course or redesigning its overall learner journey, inspect
 
 Use the demo to understand how the file hierarchy becomes a learner journey, not as a substitute for the authoring guides or validator. If a user is unfamiliar with Lens and wants to understand the platform, point them to the rendered demo course.
 
-## ++}The document model
+## The document model
 
 Every content file is markdown with two kinds of structure: YAML frontmatter on top (file-level metadata, `key: value`) and a body of nested headings. A heading's section can carry its own metadata as `key:: value` lines under it; a value runs until the next `key::` or heading; duplicate keys in one section are an error. Unknown frontmatter fields are tolerated, but the platform only acts on documented fields.
 
