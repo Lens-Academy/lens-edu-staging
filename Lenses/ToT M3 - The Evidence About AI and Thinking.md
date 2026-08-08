@@ -54,7 +54,7 @@ Hold two thoughts together. The {--{"author":"Course's AI","timestamp":178617841
 ++}#### Article
 source:: [[../articles/bednar-does-ai-make-lawyers-worse-at-thinking-new-research-offers-a-more-complicated-answer]]
 from:: "Since the public release of ChatGPT in 2022, a growing body of empirical research has suggested that generative AI systems could fundamentally reshape the practice of law."
-to:: "conditions that increase the likelihood that AI substitutes for careful analysis rather than supporting it."{++{"author":"Course's AI","timestamp":1786178531905}@@
+to:: "conditions that increase the likelihood that AI substitutes for careful analysis rather than supporting it."{++{"author":"Course's AI","timestamp":1786178781211}@@
 
 #### Article
 source:: [[../articles/gerlich-2025-ai-tools-in-society]]
@@ -65,8 +65,8 @@ to:: "These results highlight the potential cognitive costs of AI tool reliance,
 
 #### Article
 source:: [[../articles/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers]]
-from:: "The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers"
-to:: "higher confidence in AI was associated with lower critical thinking and vice versa"
+from:: "The Impact of Generative AI on Critical Thinking: Self-Reported"
+to:: "higher confidence in GenAI is associated with less critical thinking, while"
 
 %% Note: 319 knowledge workers, 936 examples. Key finding: shift from generative tasks (knowledge recall, synthesis, comprehension) to reviewer tasks (verification, integration, stewardship)—a move "down" Bloom's taxonomy. %%
 
