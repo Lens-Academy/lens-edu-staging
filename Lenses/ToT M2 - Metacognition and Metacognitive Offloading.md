@@ -9,7 +9,6 @@ tags:
 
 #### Text
 content::
-
 **Metacognition** means thinking about how we think. It covers the quiet backstage work: planning what to do, checking our own reasoning, reviewing a decision, and questioning our own process. It is the part of thinking that decides how to think.
 
 **Metacognitive offloading** means delegating that oversight itself. You stop deciding which tasks to hand off and which to keep. The system decides for you.
