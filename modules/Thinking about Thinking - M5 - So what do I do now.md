@@ -7,4 +7,7 @@ tags:
 ---
 
 # Lens:
-source:: [[../Lenses/ToT M5 - What Now]]
+source:: [[../Lenses/ToT M5 - What Now]]{++{"author":"AI","timestamp":1786178966857}@@
+
+# Lens:
+source:: [[../Lenses/ToT M5 - Recap]]++}

@@ -13,4 +13,7 @@ source:: [[../Lenses/ToT M4 - Where Did the Judgement Sit - PQ]]
 source:: [[../Lenses/ToT M4 - Choosing What to Delegate]]
 
 # Lens:
-source:: [[../Lenses/ToT M4 - Practice Audit and Guardrails]]
+source:: [[../Lenses/ToT M4 - Practice Audit and Guardrails]]{++{"author":"AI","timestamp":1786178966825}@@
+
+# Lens:
+source:: [[../Lenses/ToT M4 - Recap]]++}

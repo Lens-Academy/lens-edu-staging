@@ -1,4 +1,4 @@
-{++{"author":"Course's AI","timestamp":1786178741342}@@---
+{++{"author":"Course's AI","timestamp":1786178936709}@@---
 id: 'ccaed5cd-6097-4191-8a5f-1c6ac6e18393'
 title: "Bonus: The Philosophy of Autonomy Loss"
 tldr: "Optional deep-dive: How skill atrophy connects to gradual disempowerment through the lens of autonomy. Krook argues that even well-aligned AI poses a hidden existential risk—the slow decline of human autonomy."
@@ -28,12 +28,21 @@ Read the excerpts below. Pay attention to three key moves:
 
 ---
 
-#### Article
-source:: [[../articles/krook-when-autonomy-breaks-the-hidden-existential-risk-of-ai]]
-from:: "Abstract:AI risks are typically framed around physical threats to humanity, a loss of control or an accidental error causing humanity's extinction."
-to:: "The biggest threat to humanity is therefore not that machines will become more like humans, but that humans will become more like machines."
+#### Text
+content::
+\## Krook's Core Argument
 
-%% Note: This is the core thesis. Key moves: (1) gradual autonomy loss is the underappreciated risk, (2) de-skilling follows from local rationality, not malice, (3) conservatorship analogy shows autonomy loss even with benevolent systems. %%
+Here is the abstract of Krook's paper in full:
+
+> Abstract: AI risks are typically framed around physical threats to humanity, a loss of control or an accidental error causing humanity's extinction. However, I argue in line with the gradual disempowerment thesis, that there is an underappreciated risk in the slow and irrevocable decline of human autonomy. As AI starts to outcompete humans in various areas of life, a tipping point will be reached where it no longer makes sense to rely on human decision-making, creativity, social care or even leadership. What may follow is a process of gradual de-skilling, where we lose skills that we currently take for granted. Traditionally, it is argued that AI will gain human skills over time, and that these skills are innate and immutable in humans. By contrast, I argue that humans may lose such skills as critical thinking, decision-making and even social care in an AGI world. The biggest threat to humanity is therefore not that machines will become more like humans, but that humans will become more like machines.
+
+Three key moves to pay attention to:
+
+1. **The conservatorship analogy**: Krook uses legal conservatorship (with the Britney Spears case as an example) to illustrate that even a benevolent guardian making objectively better decisions constitutes a real loss of autonomy and personhood.
+
+2. **The tipping point**: When AI outcompetes humans, it becomes "illogical" to rely on human judgement. This is not because humans become worse—their skills may stay the same—but because AI becomes so much better.
+
+3. **Why this is not an alignment problem**: Even well-aligned AI causes this outcome because it is locally rational for humans to keep ceding autonomy for better outcomes.
 
 ---
 

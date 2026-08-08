@@ -54,7 +54,7 @@ Hold two thoughts together. The {--{"author":"Course's AI","timestamp":178617841
 ++}#### Article
 source:: [[../articles/bednar-does-ai-make-lawyers-worse-at-thinking-new-research-offers-a-more-complicated-answer]]
 from:: "Since the public release of ChatGPT in 2022, a growing body of empirical research has suggested that generative AI systems could fundamentally reshape the practice of law."
-to:: "conditions that increase the likelihood that AI substitutes for careful analysis rather than supporting it."{++{"author":"Course's AI","timestamp":1786178781211}@@
+to:: "conditions that increase the likelihood that AI substitutes for careful analysis rather than supporting it."{++{"author":"Course's AI","timestamp":1786178854466}@@
 
 #### Article
 source:: [[../articles/gerlich-2025-ai-tools-in-society]]
@@ -65,17 +65,10 @@ to:: "These results highlight the potential cognitive costs of AI tool reliance,
 
 #### Article
 source:: [[../articles/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers]]
-from:: "The Impact of Generative AI on Critical Thinking: Self-Reported"
-to:: "higher confidence in GenAI is associated with less critical thinking, while"
+from:: "We survey 319 knowledge workers"
+to:: "information verification, response integration, and task stewardship."
 
 %% Note: 319 knowledge workers, 936 examples. Key finding: shift from generative tasks (knowledge recall, synthesis, comprehension) to reviewer tasks (verification, integration, stewardship)—a move "down" Bloom's taxonomy. %%
-
-#### Article
-source:: [[../articles/thelancet-lancet]]
-from:: "Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy"
-to:: "These results suggest that prolonged use of AI in colonoscopy may lead to deskilling of endoscopists."
-
-%% Note: Real clinical outcomes (not self-report). 1,443 patients across 4 centers. Absolute 6% decline in adenoma detection rate after AI removal. Eye-tracking showed reduced visual scanning during AI-assisted procedures. Observational design (not randomized); 3-month window each side. %%
 
 #### Article
 source:: [[../articles/gutoreva-position-ai-as-part-of-self-extending-the-mind-requires-cognitive-co-regulation]]
@@ -169,7 +162,7 @@ Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4
 
 Safety and integrity: if the student feels fatalistic ("we are all doomed"), acknowledge the uncertainty honestly and point them forward to Unit 4's practical tools; the course's whole point is that use patterns are in the user's control. If stuck after 2 attempts, give a brief direct answer and move on.
 
----
+{--{"author":"AI","timestamp":1786178959507}@@---
 
 %% TODO: add a fuller reading passage to ground this question. It currently stands in for the former chapter-end test. %%
 #### Question
@@ -183,13 +176,10 @@ assessment-instructions:: Chapter check for Unit 3. Score the answer according t
 - Gradual disempowerment (Kulveit and colleagues): humanity slowly loses influence and control as AI becomes embedded in important systems; needs no rebellion and no single takeover moment
 - The causal chain, honestly stated as a chain of possibilities: small delegations reduce practice at metacognition; less practice weakens independent judgement; weak judgement grows into dependence on AI; dependence can become gradual disempowerment
 - The compounding factor: offloading happens while automating technology replaces human roles; skills can erode just as demand for them falls
-- {--{"author":"Course's AI","timestamp":1786178463344}@@The doctor study: doctors--}{++{"author":"Course's AI","timestamp":1786178463344}@@Budzyń et al. (2025): endoscopists++} used {--{"author":"Course's AI","timestamp":1786178463344}@@AI,--}{++{"author":"Course's AI","timestamp":1786178463344}@@AI-assisted detection,++} then {--{"author":"Course's AI","timestamp":1786178463344}@@the--}{++{"author":"Course's AI","timestamp":1786178463344}@@AI removed; 6 percentage point decline in adenoma detection rate (real clinical outcomes); eye-tracking showed reduced visual scanning during AI use
-- Gerlich (2025): 666 UK participants, validated HCTA assessment;++} AI {--{"author":"Course's AI","timestamp":1786178463344}@@was removed; their performance fell below their earlier baseline, suggesting the skill had weakened while the tool did the work--}{++{"author":"Course's AI","timestamp":1786178463344}@@use negatively predicts critical thinking (β = −1.76, p < 0.001); younger participants showed strongest pattern; self-report limitation with correction
-- Lee et al. (2025): 319 knowledge workers, 936 examples; higher AI confidence → lower critical thinking; shift from generative tasks to reviewer tasks (Bloom's taxonomy)++}
+- The doctor study: doctors used AI, then the AI was removed; their performance fell below their earlier baseline, suggesting the skill had weakened while the tool did the work
 - The legal study (Bednar and colleagues): law students who used AI early produced better work and still understood the material; but stronger students who used AI to revise their own work did worse; help regressed strong work
-- The survey (self-reports from 299 UK {--{"author":"Course's AI","timestamp":1786178463344}@@workers, e.g. 56% felt confident after a quick review, 45% chose the AI's answer over their own): these are self-reports, not proof--}{++{"author":"Course's AI","timestamp":1786178463344}@@workers): warning signs but not proof of cause and effect
-- The counterargument (Gutoreva et al.): Extended Mind theory—external tools can become legitimate parts++} of {--{"author":"Course's AI","timestamp":1786178463344}@@cause and effect--}{++{"author":"Course's AI","timestamp":1786178463344}@@cognition++}
-- The limits: {--{"author":"Course's AI","timestamp":1786178463344}@@most studies are short, narrow,--}{++{"author":"Course's AI","timestamp":1786178463344}@@short, narrow, small; mix of self-report++} and {--{"author":"Course's AI","timestamp":1786178463344}@@small; long-term and real-world effects are still--}{++{"author":"Course's AI","timestamp":1786178463344}@@objective measures; field has mixed findings; long-term effects++} unknown
+- The survey (self-reports from 299 UK workers, e.g. 56% felt confident after a quick review, 45% chose the AI's answer over their own): these are self-reports, not proof of cause and effect
+- The limits: most studies are short, narrow, and small; long-term and real-world effects are still unknown
 - The honest conclusion: the evidence supports concern, not panic; whether help helps depends on when and how you use it
 
 **1** — Accepts the friend's claim uncritically ("AI makes people stupid") or rejects it without evidence.
@@ -198,4 +188,4 @@ assessment-instructions:: Chapter check for Unit 3. Score the answer according t
 **4** — As above, plus states the limits honestly: the studies are short, narrow, and small; survey results are self-reports; long-term effects are unknown. Concludes with calibrated language.
 **5** — As above, plus draws the unit's central lesson: the effect is not "AI helps" or "AI hurts"; it depends on when and how you use it, and the right response is concern about specific patterns of use, not a ban on all AI.
 
-A strong student should be allowed to conclude that they are more or less worried than average, as long as they can reconstruct the chain, report the studies, and stay within the limits of the evidence. Do not require agreement with any particular conclusion. Feedback tone: direct, specific, no generic praise.
+A strong student should be allowed to conclude that they are more or less worried than average, as long as they can reconstruct the chain, report the studies, and stay within the limits of the evidence. Do not require agreement with any particular conclusion. Feedback tone: direct, specific, no generic praise.--}

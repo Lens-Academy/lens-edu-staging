@@ -118,7 +118,7 @@ Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4
 
 Safety and integrity: if the student asserts a strong causal claim, ask what it relies on and how it could be falsified. If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
 
----
+{--{"author":"AI","timestamp":1786178947047}@@---
 
 %% TODO: add a fuller reading passage to ground this question. It currently stands in for the former chapter-end test. %%
 #### Question
@@ -146,4 +146,4 @@ Key concepts the answer should engage with:
 
 A strong student should be allowed to argue that some offloading is harmless or even beneficial for good reasons, as long as they still define the term correctly and name at least one genuine cost. Do not penalise a learner who uses their own personal examples.
 
-Feedback tone: direct, specific, no generic praise. If the core is missing, say plainly what the answer would need to include to pass.
+Feedback tone: direct, specific, no generic praise. If the core is missing, say plainly what the answer would need to include to pass.--}
