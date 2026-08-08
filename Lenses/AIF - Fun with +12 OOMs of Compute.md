@@ -84,7 +84,7 @@ to:: your median should be roughly 10 years earlier than hers, all else equal: 2
 content::
 \## Your number
 
-His answer to "probability that TAI appears in the Compute Fairy world" is 90%, and he shows his work: inside view 99, discounted for unknown unknowns and deference. Ajeya's distribution puts its median at the 10^35 mark, which he reads as her answering 50%. Now yours: give your number, name which of the five answers moves it most, and state one thing you could learn in the next year that would move your number by twenty points. If nothing could, say so and say what that means about the number.
+His answer to "probability that TAI appears in the Compute Fairy world" is 90%, and he shows his work: inside view 99, discounted for unknown unknowns and deference. Ajeya's distribution puts its median at the 10^35 mark, which he reads as her answering 50%. Now yours: give your {--{"author":"AI","timestamp":1786180626082}@@number,--}{++{"author":"AI","timestamp":1786180626082}@@probability as a percentage,++} name which of the five answers moves it most, and state one thing you could learn in the next year that would move your {--{"author":"AI","timestamp":1786180626082}@@number--}{++{"author":"AI","timestamp":1786180626082}@@answer++} by twenty {++{"author":"AI","timestamp":1786180626082}@@percentage ++}points. If nothing could, say so and say what that means about the number.
 
 assessment-instructions:: The student has read the author's Question Two, his 90 percent, and the comparison with Ajeya's 50 percent. They are now committing to their own number.
 
