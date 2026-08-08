@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1786178802116}@@---
+---
 id: '858d580a-ebf9-493a-9fd7-35adb6e56a1d'
 title: "Unit 5 Recap: From Understanding to Action"
 tldr: "One final check that puts the whole course together: where you actually are with AI, one concrete change you will make, why it works, and where to learn more."
@@ -33,4 +33,4 @@ What the answer should show:
 **4** — As above, plus the change is tailored to their own described use (it fixes a real risk in their own workflow, not a generic one).
 **5** — As above, plus connects the change to the course thread: the change keeps judgement exercised, so the learner keeps the skill rather than only avoiding a bad outcome.
 
-This is a personal reflection; do not penalise a learner whose honest "no change" is well-reasoned, as long as they still demonstrate the ability to apply the course's framework. Avoid grading the learner's life choices; grade the reasoning. Feedback tone: direct, specific, no generic praise.++}
+This is a personal reflection; do not penalise a learner whose honest "no change" is well-reasoned, as long as they still demonstrate the ability to apply the course's framework. Avoid grading the learner's life choices; grade the reasoning. Feedback tone: direct, specific, no generic praise.

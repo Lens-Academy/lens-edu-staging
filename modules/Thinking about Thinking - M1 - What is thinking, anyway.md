@@ -46,7 +46,7 @@ Response length: 60 to 120 words. Short paragraphs. No lists. No generic praise 
 source:: [[../Lenses/ToT M1 - Cognition and Cognitive Offloading]]
 
 # Lens:
-source:: [[../Lenses/ToT M1 - How AI Offloading Is Different]]{++{"author":"AI","timestamp":1786178966739}@@
+source:: [[../Lenses/ToT M1 - How AI Offloading Is Different]]
 
 # Lens:
-source:: [[../Lenses/ToT M1 - Recap]]++}
+source:: [[../Lenses/ToT M1 - Recap]]

@@ -13,10 +13,10 @@ source:: [[../Lenses/ToT M3 - Gradual Disempowerment - PQ]]
 source:: [[../Lenses/ToT M3 - Gradual Disempowerment]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - The Evidence About AI and Thinking]]{++{"author":"AI","timestamp":1786178966837}@@
+source:: [[../Lenses/ToT M3 - The Evidence About AI and Thinking]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - Recap]]++}{++{"author":"Course's AI","timestamp":1786178539128}@@
+source:: [[../Lenses/ToT M3 - The Philosophy of Autonomy Loss]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - The Philosophy of Autonomy Loss]]++}
+source:: [[../Lenses/ToT M3 - Recap]]

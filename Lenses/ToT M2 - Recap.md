@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1786178802101}@@---
+---
 id: 'ad6367b4-4070-447f-8b16-57034660c946'
 title: "Unit 2 Recap: Thinking About How We Think"
 tldr: "One check that puts Unit 2 together: can you tell where the judgement sits, and where it leaves the person, when a tool does the work?"
@@ -40,4 +40,4 @@ assessment-instructions:: Chapter check for Unit 2. Score the answer according t
 **4** — As above, plus gives a valid example of arbitrary offloading (delegating a decision they do not understand at all, with no way to evaluate it).
 **5** — As above, plus articulates why the distinction matters: once we delegate the decision about what to delegate, we have stopped overseeing our own thinking, which is the first step of the route explored in Unit 3.
 
-Do not penalise a learner who disagrees that B's example is always harmful; they just need to show they can place the judgement in each case. Feedback tone: direct, specific, no generic praise.++}
+Do not penalise a learner who disagrees that B's example is always harmful; they just need to show they can place the judgement in each case. Feedback tone: direct, specific, no generic praise.

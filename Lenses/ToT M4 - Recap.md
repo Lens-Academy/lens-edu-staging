@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1786178802043}@@---
+---
 id: '75ab9664-4c16-4329-9285-5d2798084467'
 title: "Unit 4 Recap: Using AI While Keeping Your Judgement"
 tldr: "One check that puts Unit 4 together: can you find where a real workflow delegates judgement, and rewrite it so the judgement stays with the person?"
@@ -36,4 +36,4 @@ assessment-instructions:: Chapter check for Unit 4. Score the answer according t
 **4** — As above, plus the changes are specific and actionable for this exact workflow (e.g. write own brief first, ask for questions not answers, restate the draft's logic in their own words, verify claims against a source, keep the risk call human).
 **5** — As above, plus connects the rewrite to the course thread: after the change, the person practises the skill each time rather than skipping practice, so the judgement stays exercised rather than only owned.
 
-A strong student may choose to keep some AI use or even more AI use than the rubric assumes, as long as every change is justified by a mechanism from the unit. Do not require the learner to become anti-AI. Feedback tone: direct, specific, no generic praise.++}
+A strong student may choose to keep some AI use or even more AI use than the rubric assumes, as long as every change is justified by a mechanism from the unit. Do not require the learner to become anti-AI. Feedback tone: direct, specific, no generic praise.

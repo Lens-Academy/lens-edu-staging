@@ -10,7 +10,7 @@ tags:
 source:: [[../Lenses/ToT M2 - What Would You Delegate - PQ]]
 
 # Lens:
-source:: [[../Lenses/ToT M2 - Metacognition and Metacognitive Offloading]]{++{"author":"AI","timestamp":1786178966837}@@
+source:: [[../Lenses/ToT M2 - Metacognition and Metacognitive Offloading]]
 
 # Lens:
-source:: [[../Lenses/ToT M2 - Recap]]++}
+source:: [[../Lenses/ToT M2 - Recap]]

@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1786178801985}@@---
+---
 id: 'ee362dea-f82b-4f70-801a-8fccd892e35c'
 title: "Unit 1 Recap: The Nature of Thinking"
 tldr: "Two checks that put Unit 1 together: what cognitive offloading is and why it is a normal habit, and how offloading to an AI differs from offloading to earlier tools."
@@ -63,4 +63,4 @@ assessment-instructions:: Chapter check for Unit 1. Score the answer according t
 
 Do not penalise a learner who uses their own examples of AI use. A strong student should be allowed to note that calculators can also be used thoughtlessly, as long as they still state the difference in what is offloaded.
 
-Feedback tone: direct, specific, no generic praise.++}
+Feedback tone: direct, specific, no generic praise.
