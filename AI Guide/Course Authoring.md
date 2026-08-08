@@ -15,7 +15,7 @@ Changes sync to https://staging.lensacademy.org within seconds; Only core team m
 
 ## Demo course
 
-Before creating a new course or redesigning its overall learner journey, inspect the Iliad Intensive demo's rendered learner experience and these source files:
+Before creating a new course or redesigning its overall learner journey, inspect the demo course experience and these source files:
 
 - Rendered course: https://lensacademy.org/course/iliad-intensive-demo
 - Course structure: `Lens Edu/courses/iliad-intensive-demo.md`
