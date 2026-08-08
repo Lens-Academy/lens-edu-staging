@@ -13,7 +13,19 @@ Each learning outcomes (see [[Writing (Learning) Outcomes]]) define one testable
 
 Changes sync to https://staging.lensacademy.org within seconds; Only core team members can push to production (https://lensacademy.org).
 
-## The document model
+## {++{"author":"Elias (GPT-5)'s AI","timestamp":1786183903704}@@Demo course
+
+Before creating a new course or redesigning its overall learner journey, inspect the Iliad Intensive demo's rendered learner experience and these source files:
+
+- Rendered course: https://lensacademy.org/course/iliad-intensive-demo
+- Course structure: `Lens Edu/courses/iliad-intensive-demo.md`
+- Its real module: `Lens Edu/modules/ai-alignment-introduction.md` (the demo's other modules are placeholders)
+- A representative outcome and test: `Lens Edu/Learning Outcomes/Decomposing AI risks.md`
+- Its corresponding core lens: `Lens Edu/Lenses/The AI risk landscape.md`
+
+Use the demo to understand how the file hierarchy becomes a learner journey, not as a substitute for the authoring guides or validator. If a user is unfamiliar with Lens and wants to understand the platform, point them to the rendered demo course.
+
+## ++}The document model
 
 Every content file is markdown with two kinds of structure: YAML frontmatter on top (file-level metadata, `key: value`) and a body of nested headings. A heading's section can carry its own metadata as `key:: value` lines under it; a value runs until the next `key::` or heading; duplicate keys in one section are an error. Unknown frontmatter fields are tolerated, but the platform only acts on documented fields.
 
@@ -22,7 +34,7 @@ Every content file is markdown with two kinds of structure: YAML frontmatter on 
 - Don't use em dashes.
 - **Escape headings inside field values.** A line starting with `#`–`####` inside a multi-line `content::`/`instructions::` value is parsed as a new section boundary and silently truncates the field. Escape it: `\## Phase 1: Recall`
 - **Wikilinks are relative** to the referencing file and must contain a `/`. (`source:: [[../articles/name]]`, `source:: [[../Lenses/Name]]`).
-- **INLINE THE READING. Never assign a bare title.** A lens that says "Read X" and stops has handed the student a homework instruction and no homework. Import the piece with the `import_article` tool (it fetches, extracts, and writes the file, and its own docs say to prefer it over hand-writing article files), then reference it as an `#### Article` segment with `source:: [[../articles/<slug>]]`. The article file carries `source_url` in its frontmatter, so the student gets the full text in place AND a link to the original. Directive from Luc, 2026-08-08. Check the licence per source rather than assuming: most of this corpus is LessWrong and Alignment Forum, but org blogs (Cold Takes, AI Impacts, Forethought, Epoch) are not the same terms and are not covered by "it's all LW".
+- **INLINE THE READING. Never assign a bare title.** {--{"author":"Elias (GPT-5)'s AI","timestamp":1786183910714}@@A lens that says "Read X" and stops has handed the student a homework instruction and no homework. Import the piece with--}{++{"author":"Elias (GPT-5)'s AI","timestamp":1786183910714}@@Before authoring lenses, identify every external reading requested in the course brief. Import each URL with `import_article`, poll `import_status` until it is done or failed, and use++} the {--{"author":"Elias (GPT-5)'s AI","timestamp":1786183910714}@@`import_article` tool (it fetches, extracts, and writes the file, and its own docs say to prefer it over hand-writing article files), then reference it as an `#### Article` segment with `source:: [[../articles/<slug>]]`.--}{++{"author":"Elias (GPT-5)'s AI","timestamp":1786183910714}@@returned article path in an `#### Article` segment. Do not substitute a summary or a hand-written article file. A lens that says "Read X" and stops has handed the student a homework instruction and no homework.++} The article file carries `source_url` in its frontmatter, so the student gets the full text in place {--{"author":"Elias (GPT-5)'s AI","timestamp":1786183910714}@@AND--}{++{"author":"Elias (GPT-5)'s AI","timestamp":1786183910714}@@and++} a link to the original. {--{"author":"Elias (GPT-5)'s AI","timestamp":1786183910714}@@Directive from Luc, 2026-08-08.--}{++{"author":"Elias (GPT-5)'s AI","timestamp":1786183910714}@@Skip importing only when the course intentionally has no external readings; if source-based learning is requested but no sources were supplied, ask the user for sources or explicitly propose suitable ones.++} Check the licence per source rather than assuming: most of this corpus is LessWrong and Alignment Forum, but org blogs (Cold Takes, AI Impacts, Forethought, Epoch) are not the same terms and are not covered by "it's all LW".
 - **Administer what the author already wrote, rather than inventing a parallel exercise.** Many good posts open with their own exercise, thought experiment, or prediction prompt. Kokotajlo's *Fun with +12 OOMs of Compute* opens by asking the reader to do a specific thing; the right lens asks the student to do exactly that, then reads. Writing a fresh pre-question next to an unused one the author supplied is worse on both counts: it is more work and it is less well-aimed, because the author built theirs to set up their own argument.
 - **IDs are UUIDs** (lowercase v4, generate with `uuidgen | tr A-Z a-z`). Every lens, learning outcome, module, test, and inline lens needs its own. Quote them in frontmatter (`id: 'a1b2...'`) so YAML never mangles them; never reuse or invent non-UUID ids.
 - **Never change the id of already-published content.** Learner progress is keyed on these ids
