@@ -10,13 +10,13 @@ authors:
 content::
 \## Does capability arrive as a slope or a cliff?
 
-Every model of the future leans on an assumption about smoothness: does capability arrive as a steady slope, or in cliffs? That is an empirical question about the past, and AI Impacts spent years measuring it: dozens of technological trends checked for moments where one step delivered more than a century of progress at the previous rate. Three terms, so the question below is {--{"author":"Elias's AI","timestamp":1786192549977}@@answerable.--}{++{"author":"Elias's AI","timestamp":1786192549977}@@answerable:
+Every model of the future leans on an assumption about smoothness: does capability arrive as a steady slope, or in cliffs? That is an empirical question about the past, and AI Impacts spent years measuring it: dozens of technological trends checked for moments where one step delivered more than a century of progress at the previous rate. Three terms, so the question below is answerable:
 
--++} A {--{"author":"Elias's AI","timestamp":1786192549977}@@trend--}{++{"author":"Elias's AI","timestamp":1786192549977}@@**trend**++} is one measured quantity over time: tallest structure, ship tonnage, transatlantic message speed.{++{"author":"Elias's AI","timestamp":1786192549977}@@
--++} A {--{"author":"Elias's AI","timestamp":1786192549977}@@step--}{++{"author":"Elias's AI","timestamp":1786192549977}@@**step**++} is one new data point in that record: a single new ship, bridge, or bomb.{++{"author":"Elias's AI","timestamp":1786192549977}@@
--++} A step counts as a {--{"author":"Elias's AI","timestamp":1786192549977}@@jump--}{++{"author":"Elias's AI","timestamp":1786192549977}@@**jump**++} when it moves the metric further than a century at the trend's previous rate would have.{--{"author":"Elias's AI","timestamp":1786192549977}@@ --}{++{"author":"Elias's AI","timestamp":1786192549977}@@
+- A **trend** is one measured quantity over time: tallest structure, ship tonnage, transatlantic message speed.
+- A **step** is one new data point in that record: a single new ship, bridge, or bomb.
+- A step counts as a **jump** when it moves the metric further than a century at the trend's previous rate would have.
 
-++}Before you see their numbers, you will write down yours. This one stings a little; the sting is the data you keep.
+Before you see their numbers, you will write down yours. This one stings a little; the sting is the data you keep.
 
 #### Question
 content::
