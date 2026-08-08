@@ -9,7 +9,6 @@ tags:
 
 #### Text
 content::
-
 **Cognition** is the everyday word for the mental work of completing a task. Remembering, planning, judging, deciding, and calculating are all cognition.
 
 **Cognitive offloading** means delegating a thinking task to a tool or to another person. You hand the task over, and you receive the finished result.
