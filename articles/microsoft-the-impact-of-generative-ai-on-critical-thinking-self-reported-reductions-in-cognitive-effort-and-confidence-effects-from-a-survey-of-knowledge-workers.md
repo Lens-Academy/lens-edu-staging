@@ -654,7 +654,7 @@ Benjamini–Hochberg procedure [9] with a total of 98 hypothesised
 to avoid order and fatigue effects. For each example, as mentioned,
 predictors across the seven models, yielding a corrected p-value
 
-![[/attachments/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers-fig1-a45c562a.png]]
+{--{"author":"Lauren's AI","timestamp":1786184189146}@@![[/attachments/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers-fig1-a45c562a.png]]--}{++{"author":"Lauren's AI","timestamp":1786184189146}@@![](/attachments/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers-fig1-a45c562a.png)++}
 
 Figure 1: Schematic overview of the survey design and our corresponding analysis approach.
 
@@ -1446,7 +1446,7 @@ a couple of websites takes more time than asking a single question
 with more critical thinking even though it is perceived as
 to an LLM. Also, the LLM produces organized answers... the tools
 
-![[/attachments/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers-fig2-08d8c8e2.png]]
+{--{"author":"Lauren's AI","timestamp":1786184189146}@@![[/attachments/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers-fig2-08d8c8e2.png]]--}{++{"author":"Lauren's AI","timestamp":1786184189146}@@![](/attachments/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers-fig2-08d8c8e2.png)++}
 
 Figure 2: Distribution of perceived effort (%) in cognitive activities (based on Bloom’s taxonomy) when using a GenAI tool
 compared to not using one.
