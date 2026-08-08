@@ -17,7 +17,7 @@ Changes sync to https://staging.lensacademy.org within seconds; Only core team m
 
 Before creating a new course or redesigning its overall learner journey, inspect the demo course:
 
-- Rendered course: https://editor.lensacademy.org/6e627624/Lens-Edu/courses/Demo-Course.md
+- Rendered course: [[courses/Demo-Cours]]
 - Course structure: `Lens Edu/courses/iliad-intensive-demo.md`
 - Its real module: `Lens Edu/modules/ai-alignment-introduction.md` (the demo's other modules are placeholders)
 - A representative outcome and test: `Lens Edu/Learning Outcomes/Decomposing AI risks.md`
