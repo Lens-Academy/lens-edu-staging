@@ -6,9 +6,13 @@ source_url: https://aiimpacts.org/discontinuous-progress-in-history-an-update/
 ---
 
 %%
-LICENSING HOLD, 2026-08-08. This is a STUB, not a full-text import. The stub
-itself ships to production (short attributed quotes + a link out are fine); the
-hold is only on importing the FULL text.
+LICENSING HOLD, 2026-08-08. This {++{"author":"Elias's AI","timestamp":1786193172983}@@page ++}is {++{"author":"Elias's AI","timestamp":1786193172983}@@short verbatim excerpts plus ++}a {--{"author":"Elias's AI","timestamp":1786193172983}@@STUB,--}{++{"author":"Elias's AI","timestamp":1786193172983}@@link
+out,++} not a full-text import. The {--{"author":"Elias's AI","timestamp":1786193172983}@@stub
+--}{++{"author":"Elias's AI","timestamp":1786193172983}@@page ++}itself ships to production (short{--{"author":"Elias's AI","timestamp":1786193172983}@@ --}{++{"author":"Elias's AI","timestamp":1786193172983}@@
+++}attributed quotes + a link out are fine); the{--{"author":"Elias's AI","timestamp":1786193172983}@@
+--}{++{"author":"Elias's AI","timestamp":1786193172983}@@ ++}hold is only on importing the{--{"author":"Elias's AI","timestamp":1786193172983}@@ --}{++{"author":"Elias's AI","timestamp":1786193172983}@@
+++}FULL text.{++{"author":"Elias's AI","timestamp":1786193172983}@@ All quotes below verified verbatim against a fresh fetch of the
+article, 2026-08-08.++}
 
 AI Impacts is not LessWrong/Alignment Forum, so the course brief's "LW/AF full
 text inline is OK" does not cover it. Full text is deliberately NOT reproduced
