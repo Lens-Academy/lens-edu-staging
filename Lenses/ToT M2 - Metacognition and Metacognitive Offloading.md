@@ -9,8 +9,8 @@ tags:
 
 #### Text
 content::
-\## Reading: Thinking about your thinking
-Read the short piece below, then return here.
+{--{"author":"AI","timestamp":1786173736083}@@\## Reading: Thinking about your thinking
+--}Read the short piece below, then return here.
 
 **Metacognition** means thinking about how we think. It covers the quiet backstage work: planning what to do, checking our own reasoning, reviewing a decision, and questioning our own process. It is the part of thinking that decides how to think.
 

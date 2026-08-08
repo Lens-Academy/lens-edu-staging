@@ -9,8 +9,8 @@ tags:
 
 #### Text
 content::
-\## Reading: what does this amount to?
-Read the short piece below, then return here.
+{--{"author":"AI","timestamp":1786173739376}@@\## Reading: what does this amount to?
+--}Read the short piece below, then return here.
 
 \## What worry is reasonable, and what is alarm
 The evidence points at a real pattern: help that removes the struggle can quietly erode the skill. That is a reason to change how you use AI, not a reason to panic. Alarm treats every AI use as dangerous. The reasonable position is narrower. Specific patterns of use carry specific costs, and you control more of those patterns than you think.

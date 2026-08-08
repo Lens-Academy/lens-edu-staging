@@ -9,8 +9,8 @@ tags:
 
 #### Text
 content::
-\## Reading: How AI offloading is different
-Read the short piece below, then return here.
+{--{"author":"AI","timestamp":1786173734541}@@\## Reading: How AI offloading is different
+--}Read the short piece below, then return here.
 
 The tools we have offloaded to for centuries share a pattern. They take over a narrow task, and the judgement stays with us. A calculator does the arithmetic, but we decide what to calculate, and we usually know what a sum means. A map app finds the route, but we choose the destination.
 
