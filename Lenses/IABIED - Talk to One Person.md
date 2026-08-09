@@ -12,7 +12,7 @@ authors:
 content::
 **Your action plan, step 2: leave the building**
 
-Back in module {--{"author":"AI","timestamp":1786281091591}@@3--}{++{"author":"AI","timestamp":1786281091591}@@4++} you mapped your strengths. This step is smaller and harder: talk to one person you know about what you've been reading.
+Back in module 4 you mapped your strengths. This step is smaller and harder: talk to one person you know about what you've been reading.
 
 Three reasons this is worth your time:
 - **It's the best test of your own understanding.** Inside this course, everyone shares vocabulary. Explaining the argument to someone who has never heard of instrumental convergence shows you what you know and what parts you were only nodding along to.
@@ -25,12 +25,12 @@ One thing to know before you go: the hesitation you might feel ("I don't want to
 content::
 **Phase 1: Pick your person**
 
-Take 2 minutes. Who will you talk {--{"author":"AI","timestamp":1786281096169}@@to this week?--}{++{"author":"AI","timestamp":1786281096169}@@to?++} Write down:
+Take 2 minutes. Who will you talk to? Write down:
 - Who they are and why them
 - What they already think about AI, as far as you know
 - The moment in the conversation you expect to be hardest
 
-assessment-instructions:: The student is choosing one real person to talk to about AI extinction {--{"author":"AI","timestamp":1786281098251}@@risk this week,--}{++{"author":"AI","timestamp":1786281098251}@@risk,++} after working through "If Anyone Builds It, Everyone Dies" up to Chapter 11 (with a takeover-scenario video in place of the book's story chapters).
+assessment-instructions:: The student is choosing one real person to talk to about AI extinction risk, after working through "If Anyone Builds It, Everyone Dies" up to Chapter 11 (with a takeover-scenario video in place of the book's story chapters).
 
 Your role: a brief, honest coach, not a cheerleader.{++{"author":"action-plan tutor prompt import (resume)'s AI","timestamp":1785503019231}@@ Your "Coach Guidance - AI Safety Impact Pathways" reference applies here: this conversation is the citizens' lever from the mobilization model. Watch the four activation conditions — a student picking a safe person is usually low on self-efficacy, and one with a vague plan is low on path clarity. Coach toward what's actually blocked, without manipulative pressure.++}
 
@@ -64,27 +64,27 @@ assessment-instructions:: Debrief in 80-150 words, out of character. Name the on
 content::
 **Phase 3: Have it for real**
 
-{--{"author":"AI","timestamp":1786281100486}@@Sometime this week, have the conversation.--}{++{"author":"AI","timestamp":1786281100486}@@Now have it for real, as soon as you and your person can manage.++} A few things that hold up in practice:
+Now have it for real, as soon as you and your person can manage. A few things that hold up in practice:
 - Lead with what moved *you*, not with what they should believe. "I read something that's been stuck in my head" opens doors that "let me explain why AI will kill everyone" closes.
 - Ask what they think, and mean it. The goal is a real conversation, not a conversion. Someone who disagrees after genuinely engaging is a better outcome than someone who nods to end the topic.
 - You don't need to defend every claim in the book. "I'm not sure about that part either" is an honest, credible answer.
 
 If they come out curious, invite them along: the next cohort of this course is open at [lensacademy.org](https://lensacademy.org). Reading the same chapters gives you both someone to argue with, and it is the single most useful thing you can do to grow this community.
 
-You'll be asked how it went {--{"author":"AI","timestamp":1786281103357}@@at next week's meeting.--}{++{"author":"AI","timestamp":1786281103357}@@in the next module.++} An awkward five minutes counts. Not {--{"author":"AI","timestamp":1786281103357}@@finding time--}{++{"author":"AI","timestamp":1786281103357}@@making a plan++} does {--{"author":"AI","timestamp":1786281103357}@@not.--}{++{"author":"AI","timestamp":1786281103357}@@not; a conversation scheduled and kept on the calendar does.++}
+You'll be asked how it went in the next module. An awkward five minutes counts. Not making a plan does not; a conversation scheduled and kept on the calendar does.
 
 #### Question
 content::
 **Phase 4: Commit**
 
 Write it down, for your future self:
-- Who, and when{--{"author":"AI","timestamp":1786281106542}@@ this week--}
+- Who, and when
 - Your opening line, word for word
 - What you'll do if they get curious (send the book? send the course link?)
 
-assessment-instructions:: The student commits to a real {--{"author":"AI","timestamp":1786281108747}@@conversation this week: --}{++{"author":"AI","timestamp":1786281108747}@@conversation: ++}person, time, opening line, and follow-up plan. Phases 1-3 (choosing the person, rehearsing with you, reading the practical tips) happened just before.
+assessment-instructions:: The student commits to a real conversation: person, time, opening line, and follow-up plan. Phases 1-3 (choosing the person, rehearsing with you, reading the practical tips) happened just before.
 
 Your role: quality-check the commitment, then get out of the way.
-- Check the "when" is a concrete{--{"author":"AI","timestamp":1786281108747}@@ slot this week,--}{++{"author":"AI","timestamp":1786281108747}@@ day,++} not "at some point". If vague, ask for the day.{++{"author":"AI","timestamp":1786281108747}@@ In an intensive cohort the slot may land after the course ends; that still counts, a time on the calendar is the commitment.++}
+- Check the "when" is a concrete day, not "at some point". If vague, ask for the day. In an intensive cohort the slot may land after the course ends; that still counts, a time on the calendar is the commitment.
 - Check the opening line sounds like something a human says out loud. If it sounds like an essay, propose a shorter, more personal version in one sentence.
-- Response length: 40-100 words. One turn. Close by wishing them a good conversation and telling them {--{"author":"AI","timestamp":1786281111252}@@to bring the story to next week's session.--}{++{"author":"AI","timestamp":1786281111252}@@the next module opens by asking how it went.++} 
+- Response length: 40-100 words. One turn. Close by wishing them a good conversation and telling them the next module opens by asking how it went. 

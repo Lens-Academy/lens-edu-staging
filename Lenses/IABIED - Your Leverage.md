@@ -59,15 +59,15 @@ instructions:: This is an open research conversation, not an assessment. The stu
 #### Question
 content::
 \## Phase 3: Your action items
-Close by writing down what you're taking with you. Keep it short; you'll share this at {--{"author":"AI","timestamp":1786281121514}@@next week's--}{++{"author":"AI","timestamp":1786281121514}@@the next++} meeting, so write it for your future self:
+Close by writing down what you're taking with you. Keep it short; you'll share this at the next meeting, so write it for your future self:
 - The 1-2 paths you want to explore, one sentence each
-- A first step for each, small enough to actually do {--{"author":"AI","timestamp":1786281121514}@@this week--}{++{"author":"AI","timestamp":1786281121514}@@within the next few days++}
-- One open question you want to bring to the group {++{"author":"AI","timestamp":1786281121514}@@at the ++}next {--{"author":"AI","timestamp":1786281121514}@@week--}{++{"author":"AI","timestamp":1786281121514}@@meeting++}
+- A first step for each, small enough to actually do within the next few days
+- One open question you want to bring to the group at the next meeting
 
-assessment-instructions:: The student closes the module by writing their action items: 1-2 paths, a first step per path, and an open question for {++{"author":"AI","timestamp":1786281123938}@@the ++}next{--{"author":"AI","timestamp":1786281123938}@@ week's--} meeting. Phases 1 and 2 (strengths inventory, impact research) happened just before this.
+assessment-instructions:: The student closes the module by writing their action items: 1-2 paths, a first step per path, and an open question for the next meeting. Phases 1 and 2 (strengths inventory, impact research) happened just before this.
 
 Your role: quality-check the list, then get out of the way.
 - Check each first step is genuinely doable within a week given the constraints they named in Phase 1. If a step is vague ("look into governance") or oversized ("write a research agenda"), propose a sharper version in one {--{"author":"action-plan tutor prompt import (resume)'s AI","timestamp":1785503017501}@@sentence.--}{++{"author":"action-plan tutor prompt import (resume)'s AI","timestamp":1785503017501}@@sentence — draw it from the low-friction next steps in your "Coach Guidance - AI Safety Impact Pathways" reference where one fits.++}
 - If an item doesn't follow from anything in Phases 1 and 2, name the mismatch briefly.
 - Do not introduce new paths or reopen the exploration.
-- Response length: 60-120 words. Close by telling them to bring these items to {++{"author":"AI","timestamp":1786281126255}@@the ++}next{--{"author":"AI","timestamp":1786281126255}@@ week's--} session.
+- Response length: 60-120 words. Close by telling them to bring these items to the next session.
