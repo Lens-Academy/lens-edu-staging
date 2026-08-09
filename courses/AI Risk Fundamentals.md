@@ -20,20 +20,23 @@ meeting-doc-template:: https://docs.google.com/document/d/1VbHf5ENp0fOjqATTMLbKY
 
 # Module: [[../modules/IABIED M2 Nonhuman Minds, Part 2]]
 
-# Meeting: Nonhuman Minds part 2
+# {--{"author":"AI","timestamp":1786274346655}@@Meeting: Nonhuman Minds part 2
 meeting-doc-template:: https://docs.google.com/document/d/1hNj0npIxflO6C5AJcNPHms7HOiH_hlAgomBPQVhfp2A/edit
 
-# Module: [[../modules/IABIED M3 Nonhuman Minds, Part 3]]
+# --}Module: [[../modules/IABIED M3 Nonhuman Minds, Part 3]]
 
-# Meeting: Nonhuman Minds part 3
-meeting-doc-template:: https://docs.google.com/document/d/1Gg6RHLoWzjegjqeAL_AioitZdJE3tVL_t632h0COyMI/edit?tab=t.5zezxjw3os3p
+# Meeting: Nonhuman Minds{--{"author":"AI","timestamp":1786274346655}@@ part 3--}
+meeting-doc-template:: {--{"author":"AI","timestamp":1786274346655}@@https://docs.google.com/document/d/1Gg6RHLoWzjegjqeAL_AioitZdJE3tVL_t632h0COyMI/edit?tab=t.5zezxjw3os3p--}{++{"author":"AI","timestamp":1786274346655}@@https://docs.google.com/document/d/1hNj0npIxflO6C5AJcNPHms7HOiH_hlAgomBPQVhfp2A/edit++}
 
 
 # Module: [[../modules/IABIED M4 One Extinction Scenario]]
 
-# Module: [[../modules/IABIED M5 Facing The Challenge, Part 1]]
+# {++{"author":"AI","timestamp":1786274348965}@@Meeting: One Extinction Scenario
+meeting-doc-template:: https://docs.google.com/document/d/1Gg6RHLoWzjegjqeAL_AioitZdJE3tVL_t632h0COyMI/edit
 
-# Meeting: One Extinction Scenario + Facing the Challenge, part 1
+# ++}Module: [[../modules/IABIED M5 Facing The Challenge, Part 1]]
+
+# Meeting:{--{"author":"AI","timestamp":1786274348965}@@ One Extinction Scenario +--} Facing the Challenge, part 1
 meeting-doc-template:: https://docs.google.com/document/d/1dW_VlZoAn6eLR0_ZY8XvQvRoVvr51a23XAXMAnH_bSI/edit
 {>>{"author":"AI","timestamp":1786270838185}@@Course reduced from 6 meetings to 5: modules 4 and 5 now share one meeting. This meeting doc (old unit 5) and the final unit's doc need a rebuild for the new unit boundaries; the old unit-4 doc (19-KJb0ZEVlVYJoVMOnY5xbAm6UJdynAFM0nm7NSg9dg) is retired.<<}
 
