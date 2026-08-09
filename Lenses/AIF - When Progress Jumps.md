@@ -46,7 +46,7 @@ Response style:
 - No correction of any guess value.
 
 What to do in your single reply:
-1. Confirm they gave all three parts in the right units: a per-trend-year rate, a share of total progress, and three named technologies.
+1. Confirm they gave all three parts in the right units: {--{"author":"Elias's AI","timestamp":1786302970820}@@a per-trend-year rate,--}{++{"author":"Elias's AI","timestamp":1786302970820}@@an expected count of jumps over 1,000 years of one trend,++} a share of total progress, and three named technologies.
 2. If a guess is in the wrong units (for example a percentage where a rate was asked), fix the UNITS only, never the value, and ask them to restate in the right units.
 3. Send them on to the measured answers.
 
@@ -64,7 +64,7 @@ And:
 
 > "On average 14% of total progress in a trend came from large robust discontinuities (or 16% of logarithmic progress), or 38% among trends which have at least one."
 
-Read the 14% carefully. It is progress-weighted: 14% of total progress arrived in jumps, which is the same as saying a randomly chosen unit of progress had about a 14% chance of arriving in one. What it is NOT: the share of years that contain a jump (that is 0.1% per trend-year) or the share of individual data points that are jumps (1.4%). Jumps are rare as events, and when a trend has one at all, jumps account for over a third of everything it ever gained. Rare, and large when present. Both halves matter, and they pull your model in different directions.
+Read the 14% carefully. It is progress-weighted: 14% of total progress arrived in jumps, which is the same as saying a randomly chosen unit of progress had about a 14% chance of arriving in one. What it is NOT: the share of years that contain a jump (that is 0.1% per trend-year) or the share of individual data points that are jumps {--{"author":"Elias's AI","timestamp":1786302977839}@@(1.4%).--}{++{"author":"Elias's AI","timestamp":1786302977839}@@(1.4%, a figure that depends on how densely a trend happens to be recorded: measure twice as often and it roughly halves).++} Jumps are rare as events, and when a trend has one at all, jumps account for over a third of everything it ever gained. Rare, and large when present. Both halves matter, and they pull your model in different directions.
 
 Their ten large robust discontinuities: the Pyramid of Djoser (structure height, ~2650 BC), the SS Great Eastern (ship size, 1858), the first and second transatlantic telegraphs (message speed, 1858/1866), the Paris Gun (altitude, 1918), the first non-stop transatlantic flight (1919), the George Washington Bridge (span, 1931), nuclear weapons (explosive effectiveness, 1945), the first ICBM (Atlantic crossing time, 1958), and the YBa2Cu3O7 superconductor (superconducting temperature, 1987).
 
