@@ -17,7 +17,9 @@ content::
 Three reasons this is worth your time:
 - **It's the best test of your own understanding.** Inside this course, everyone shares vocabulary. Explaining the argument to someone who has never heard of instrumental convergence shows you what you know and what parts you were only nodding along to.
 - **It's the book's own ask.** The authors' call to ordinary citizens is not "become a researcher", it's to talk about the problem, because leaders can only act on risks their people are already taking seriously.
-- **It grows the room.** If the conversation lands, you might bring the person along. A friend who reads the same chapters is worth ten strangers who agree with you.
+- **It grows the room.** If the conversation lands, you might bring the person along. A friend who reads the same chapters is worth ten strangers who agree with you.{++{"author":"AI","timestamp":1786274600754}@@
+
+One thing to know before you go: the hesitation you might feel ("I don't want to sound alarmist") is the same one the experts feel. Geoffrey Hinton says "at least 10 percent" in public while privately putting the risk far higher, "because there's other people who think it's less." You'll read about this pattern in the final chapters; for now, just notice that your conversation doesn't need to be alarmist, only honest.++}
 
 #### Question
 content::
