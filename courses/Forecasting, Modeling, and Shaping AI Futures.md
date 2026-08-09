@@ -15,4 +15,5 @@ on purpose: existing signups and learner progress key on them. %%
 
 # Module: [[../modules/what-could-possibly-happen|Unit 1: What Could Possibly Happen?]]
 
-# Meeting: Unit 1
+# Meeting: Unit 1{++{"author":"Elias's AI","timestamp":1786279772514}@@
+meeting-doc-template:: https://docs.google.com/document/d/1lqbblsgNwgeBa6JEhgH5qk-hlPSUsZRcYAH-IMmSYD8/edit++}
