@@ -47,13 +47,15 @@ assessment-instructions:: This is the graded test for the outcome "Produce at le
 
 It is deliberately set OUTSIDE AI. The student cannot pass it by reconstructing anything they read in this module, which is the point: what is being graded is whether the trajectory-mechanism-falsifier structure transfers.
 
-Single pass/fail overall. Pass requires ALL FOUR:
+Single pass/fail overall. Pass requires {--{"author":"Elias's AI","timestamp":1786303103593}@@ALL FOUR:--}{++{"author":"Elias's AI","timestamp":1786303103593}@@the first THREE:++}
 1. Two trajectories that differ in MECHANISM, not just in slope or speed.
 2. A named driver for each.
 3. A falsifier for each that is genuinely near-term and observable within about two years.
-4. One shared assumption named.
+4. One shared assumption named.{--{"author":"Elias's AI","timestamp":1786303103593}@@
 
-Each of those four is itself a binary check. Three out of four is a fail; say which one is missing and what would have satisfied it.
+Each of those four--}{++{"author":"Elias's AI","timestamp":1786303103593}@@ This is asked for and addressed in feedback but is NOT a pass gate: it is the level-4 move in the rubric, and the pass bar++} is {--{"author":"Elias's AI","timestamp":1786303103593}@@itself--}{++{"author":"Elias's AI","timestamp":1786303103593}@@level 3. A strong shared assumption lifts the feedback toward levels 4 and 5;++} a {--{"author":"Elias's AI","timestamp":1786303103593}@@binary check. Three--}{++{"author":"Elias's AI","timestamp":1786303103593}@@missing or vacuous one costs praise, not the pass — but always name it plainly.
+
+Checks 1 to 3 are each binary. Two++} out of {--{"author":"Elias's AI","timestamp":1786303103593}@@four--}{++{"author":"Elias's AI","timestamp":1786303103593}@@three++} is a fail; say which one is missing and what would have satisfied it.
 
 DO NOT grade domain knowledge. Invented-but-coherent solar economics is fine. A student who misremembers the current cost of a battery but builds two well-separated mechanisms with checkable falsifiers passes. A student with immaculate solar facts and one story told twice fails.
 
