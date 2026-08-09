@@ -36,7 +36,7 @@ Four load-bearing moves. ANY TWO of them pass:
 1. Fit quality is silent about the unobserved range. R-squared 0.97 licenses interpolation inside the measured range, not a claim about the next fourteen months.
 2. A score approaching its ceiling is a different regime. The benchmark tops out at 100 by construction, so the remaining 39 points are not interchangeable with the last 39.
 3. Construct stability: whether the quantity being measured at 61 is the same skill it will be at 95. Saturating a benchmark and solving the underlying capability are different claims, and only the first is on the chart.
-4. Confidence about continuation should come from an outside view on how often strong regular trends break, which the student has from lens 2, rather than from the quality of the fit.
+4. Confidence about continuation should come from an outside view on how often strong regular trends break, which the student has from {--{"author":"Elias's AI","timestamp":1786303071596}@@lens 2,--}{++{"author":"Elias's AI","timestamp":1786303071596}@@When Progress Jumps,++} rather than from the quality of the fit.
 
 Reward a student who connects to lens 2 unprompted, for example "one large discontinuity per thousand trend-years, but this could be the affected kind".
 
