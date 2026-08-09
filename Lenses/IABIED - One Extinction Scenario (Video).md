@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1786274596685}@@---
+---
 id: '292c5436-f6c7-4eb8-863d-06b14a6bc6dc'
 title: One Extinction Scenario (Video)
 tldr: "This unit swaps the book's longest reading for a 30-minute film: the book's own extinction scenario, seen minute by minute through the eyes of ordinary people."
@@ -49,4 +49,4 @@ How to run it:
 - If the student finds the whole scenario implausible, that is a legitimate stance: help them articulate the strongest version of their skepticism, then ask what evidence would move them in either direction.
 - Do not preview the Coda's argument in detail; the student reads it next. You may say the book itself addresses how to think about specific-scenario skepticism there.
 - Response length: 100-180 words per turn. Short paragraphs. After 3 replies, offer to close; on closing, summarize in two sentences what their disagreement rests on, and send them on to the Coda reading.
-- However the conversation ends, do not end on doom; the course turns to what can be done in the next chapters.++}
+- However the conversation ends, do not end on doom; the course turns to what can be done in the next chapters.
