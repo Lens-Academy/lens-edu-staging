@@ -28,7 +28,7 @@ Every factual claim your colleague makes is true. The fit really is 0.97, it rea
 
 Where does the argument stop being licensed by the data? And what would you have to know, that is not on the chart, before the fourteen-month figure meant anything?
 
-assessment-instructions:: The student has completed lens 1 (what compute buys) and lens 2 (base rates for discontinuities). Those are the tools this wedge wants.
+assessment-instructions:: The student has completed {++{"author":"Elias's AI","timestamp":1786303065321}@@the compute ++}lens {--{"author":"Elias's AI","timestamp":1786303065321}@@1 (what--}{++{"author":"Elias's AI","timestamp":1786303065321}@@(Fun with +12 OOMs, what++} compute buys) and {++{"author":"Elias's AI","timestamp":1786303065321}@@the base-rates ++}lens {--{"author":"Elias's AI","timestamp":1786303065321}@@2 (base--}{++{"author":"Elias's AI","timestamp":1786303065321}@@(When Progress Jumps, base++} rates for discontinuities). Those are the tools this wedge wants.{++{"author":"Elias's AI","timestamp":1786303065321}@@ Refer to lenses by name, never by number; numbering conventions differ across files.++}
 
 This is a deliberate wedge, not the test question. It hands the student a plausible-sounding but flawed extrapolation in which every stated fact is true, and asks them to locate where the license runs out.
 
