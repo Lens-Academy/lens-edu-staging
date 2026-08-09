@@ -64,21 +64,21 @@ assessment-instructions:: Debrief in 80-150 words, out of character. Name the on
 content::
 **Phase 3: Have it for real**
 
-Sometime this week, have the conversation. A few things that hold up in practice:
+{--{"author":"AI","timestamp":1786281100486}@@Sometime this week, have the conversation.--}{++{"author":"AI","timestamp":1786281100486}@@Now have it for real, as soon as you and your person can manage.++} A few things that hold up in practice:
 - Lead with what moved *you*, not with what they should believe. "I read something that's been stuck in my head" opens doors that "let me explain why AI will kill everyone" closes.
 - Ask what they think, and mean it. The goal is a real conversation, not a conversion. Someone who disagrees after genuinely engaging is a better outcome than someone who nods to end the topic.
 - You don't need to defend every claim in the book. "I'm not sure about that part either" is an honest, credible answer.
 
 If they come out curious, invite them along: the next cohort of this course is open at [lensacademy.org](https://lensacademy.org). Reading the same chapters gives you both someone to argue with, and it is the single most useful thing you can do to grow this community.
 
-You'll be asked how it went at next week's meeting. An awkward five minutes counts. Not finding time does not.
+You'll be asked how it went {--{"author":"AI","timestamp":1786281103357}@@at next week's meeting.--}{++{"author":"AI","timestamp":1786281103357}@@in the next module.++} An awkward five minutes counts. Not {--{"author":"AI","timestamp":1786281103357}@@finding time--}{++{"author":"AI","timestamp":1786281103357}@@making a plan++} does {--{"author":"AI","timestamp":1786281103357}@@not.--}{++{"author":"AI","timestamp":1786281103357}@@not; a conversation scheduled and kept on the calendar does.++}
 
 #### Question
 content::
 **Phase 4: Commit**
 
 Write it down, for your future self:
-- Who, and when this week
+- Who, and when{--{"author":"AI","timestamp":1786281106542}@@ this week--}
 - Your opening line, word for word
 - What you'll do if they get curious (send the book? send the course link?)
 
