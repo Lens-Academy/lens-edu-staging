@@ -16,7 +16,7 @@ Some overarching non-learning outcomes we want to achieve:
 # Module: [[../modules/IABIED M1 Intro and Nonhuman Minds, Part 1]]
 
 # Meeting: Introduction
-meeting-doc-template:: https://docs.google.com/document/d/1aH0zK_oljINf5h9mvLjTeiQbwSj6Uxsjo1Wv3RAKfbo/edit
+meeting-doc-template:: https://docs.google.com/document/d/1VbHf5ENp0fOjqATTMLbKYhhbUvPqvi7Ugs32THIum1g/edit
 
 # Module: [[../modules/IABIED M2 Nonhuman Minds, Part 2]]
 
