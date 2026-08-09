@@ -135,8 +135,12 @@ source:: ![[../Lenses/IABIED - Define Intelligence - PQ]]
 # Lens:
 source:: ![[../Lenses/IABIED - Define Intelligence]]
 
-# Lens:
-source:: ![[../Lenses/IABIED - Machine Advantages and Intelligence Explosion - PQ]]
+{++{"author":"Luc's AI","timestamp":1786263078425}@@%%
+Luc: "Pre-questioning can be powerful, but it can also lock people into false beliefs, and on that specific topic, I do not want that locking to occur. So I'd rather not have them think about this before they read. Whereas defining intelligence is something where I'm happy for them to have that pre-thinking."
+
+++}# Lens:
+source:: ![[../Lenses/IABIED - Machine Advantages and Intelligence Explosion - PQ]]{++{"author":"Luc's AI","timestamp":1786263078425}@@
+%%++}
 
 # Lens:
 source:: ![[../Lenses/IABIED - Machine Advantages and Intelligence Explosion]]
