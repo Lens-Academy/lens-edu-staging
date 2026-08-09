@@ -18,7 +18,7 @@ summary_for_tutor:: Course-orientation lens for the IABIED book club. Explains t
 #### Text
 content:: Welcome to our introductory AI safety course. We're using the book *If Anyone Builds It, Everyone Dies* as our primary source for this book club. We use the word "book-club" lightly in this context. The author of this module (Chris) has been a long-time member of a book club and has been told that his book club is unusual in that they focus on the books, whereas most book clubs (apparently) serve as an excuse to drink wine and socialize. This book club will push in the opposite direction: we'll ask you to interact with our AI tutor and do homework assignments each week in order to help the material stick.{>>{"author":"Luc","timestamp":1782498312986}@@Request/suggestion to nolonger brand this course as a bookclub.<<}
 
-The reading requirement is quite modest. We cover roughly 32 pages of the book per week, which we'll estimate as approximately 1 hour of reading. However, we'll also expect that each student will spend
+The reading requirement is quite modest. We cover roughly {--{"author":"AI","timestamp":1786279481692}@@32--}{++{"author":"AI","timestamp":1786279481692}@@30++} pages of the book per {--{"author":"AI","timestamp":1786279481692}@@week, which we'll estimate as approximately 1 hour--}{++{"author":"AI","timestamp":1786279481692}@@unit, approximately 1 hour of reading (one unit swaps most++} of {--{"author":"AI","timestamp":1786279481692}@@reading.--}{++{"author":"AI","timestamp":1786279481692}@@its reading for a 30-minute film).++} However, we'll also expect that each student will spend
 - 1 hour chatting with the tutor and exploring supplementary materials,
 - 1 hour on the homework, and
 - 90 minutes on the meeting.
@@ -28,7 +28,7 @@ Therefore, the time commitment runs from 3 hours for the minimalist, fast reader
 \### Structure
 Before the first meeting, you'll be assigned to a cohort in the Lens Academy Discord server. That's a private channel that only your fellow cohort members (and admins) can see. If you haven't already, take a moment to introduce yourself in your cohort channel and paste a copy of your intro into `#intros-offers-asks` so the entire Discord server can see it.
 
-We'll cover the book over the course of 6 weeks. Each week, you'll log in here and this interface will guide you through readings, AI tutor conversations, and additional activities. In addition, most weeks your facilitator will post some pre-meeting homework shortly before the meeting. Be sure to have your Discord notifications turned on for your cohort channel so you don't miss those.
+We'll cover the book {--{"author":"AI","timestamp":1786279484029}@@over the course of 6 weeks. Each week,--}{++{"author":"AI","timestamp":1786279484029}@@across 5 units, each ending in a group meeting. For each unit,++} you'll log in here and this interface will guide you through readings, AI tutor conversations, and additional activities. In addition, most {--{"author":"AI","timestamp":1786279484029}@@weeks--}{++{"author":"AI","timestamp":1786279484029}@@units++} your facilitator will post some pre-meeting homework shortly before the meeting. Be sure to have your Discord notifications turned on for your cohort channel so you don't miss those.
 
 Our target flow for reading the book looks like:
 1. Pre-questions - we prime you with an interesting question before you read
