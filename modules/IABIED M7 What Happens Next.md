@@ -65,7 +65,7 @@ source:: ![[../Lenses/IABIED - Your Ongoing Action]]
 {>>{"author":"Luc's AI","timestamp":1783723774076}@@Review note: 'AI Safety Career Paths' and 'Next Steps with Lens Academy' were suggested lenses of this Learning Outcome AND are also imported below as hidden card targets (optional+hide). The old auto-import rendered both copies, so both are kept to preserve current behavior — you may want to drop one occurrence.<<}
 
 # Submodule: Optional Resources
-# Lens: {--{"author":"AI","timestamp":1786284842736}@@Overview of Optional Resources--}{++{"author":"AI","timestamp":1786284842736}@@Keep Going++}
+# Lens: {++{"author":"AI","timestamp":1786284842736}@@Keep Going++}
 id:: fb9e57fd-6036-4334-b827-2f9520fbcdd9{--{"author":"AI","timestamp":1786284842736}@@ {>>{"author":"Elias's AI","timestamp":1783777475035}@@replaced hand-typed placeholder id (invalid uuid4 variant) with a fresh uuid4<<}--}{++{"author":"AI","timestamp":1786284842736}@@
 optional:: true++}
 tldr:: {--{"author":"AI","timestamp":1786284842736}@@Finished the book? Here's where to go next: two optional resources pointing you toward AI safety career paths and continued learning with Lens Academy.--}{++{"author":"AI","timestamp":1786284842736}@@Want more after this course? Our other courses are the natural next step.++}
