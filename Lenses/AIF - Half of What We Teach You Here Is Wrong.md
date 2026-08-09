@@ -10,9 +10,11 @@ authors:
 content::
 \## Half of what we teach you here is wrong
 
-There is a speech supposedly given to new medical students: *half of what we are about to teach you is wrong, and we don't know which half.* Whether or not anyone really says it at medical schools, something like it is simply true of this course. The study of where AI is going is young, fast-moving, and short on the one thing that settles arguments: futures that have already happened. We will show you measured base {--{"author":"Elias's AI","timestamp":1786303025247}@@rates,--}{++{"author":"Elias's AI","timestamp":1786303025247}@@rates[^baserate],++} careful arguments, and the best models anyone has.{++{"author":"Elias's AI","timestamp":1786303025247}@@
+There is a speech supposedly given to new medical students: *half of what we are about to teach you is wrong, and we don't know which half.* Whether or not anyone really says it at medical schools, something like it is simply true of this course. The study of where AI is going is young, fast-moving, and short on the one thing that settles arguments: futures that have already happened. We will show you measured base {--{"author":"Elias's AI","timestamp":1786303025247}@@rates,--}{++{"author":"Elias's AI","timestamp":1786303025247}@@rates[^baserate],++} careful arguments, and the best models anyone has.{--{"author":"Elias's AI","timestamp":1786303605545}@@ Some of them will turn out to be wrong, and we cannot tell you which ones. We're not going to pretend otherwise. The pretense would cost you the exact skill this course exists to teach.--}{++{"author":"Elias's AI","timestamp":1786303605545}@@
 
-[^baserate]: A base rate is how often something has actually happened across the whole historical record, used as a starting point before you consider the details of the case in front of you. You will meet these properly in this unit's third lens.++} Some of them will turn out to be wrong, and we cannot tell you which ones. We're not going to pretend otherwise. The pretense would cost you the exact skill this course exists to teach.
+Some of them will turn out to be wrong, and we cannot tell you which ones. We're not going to pretend otherwise. The pretense would cost you the exact skill this course exists to teach.
+
+[^baserate]: A base rate is how often something has actually happened across the whole historical record, used as a starting point before you consider the details of the case in front of you. You will meet these properly in this unit's third lens.++}
 
 So this course will not hand you a settled model of the future. It exists to help you build your own: one whose parts you can name, defend, and replace one at a time when the world disagrees with them.
 
