@@ -21,7 +21,8 @@ Some honest options, roughly in increasing order of commitment:
 - Write to your representatives, and again when something happens, not just once.
 - Follow one AI policy organization and show up when they ask for public support.
 - Bring someone into the next cohort of this course and be their person to argue with.
-- Put your professional skills to work: your action plan from Module 4 named where your strengths bite. Pick the smallest real step toward that and take it this month.
+- {++{"author":"AI","timestamp":1786284636568}@@Keep learning: take a more advanced course and go deeper on the part that gripped you. Explore our courses at [lensacademy.org/c/cfcxv](https://lensacademy.org/c/cfcxv).
+- ++}Put your professional skills to work: your action plan from Module 4 named where your strengths bite. Pick the smallest real step toward that and take it this month.
 - Support the work with money, if that is the lever you actually have.
 
 #### Question
