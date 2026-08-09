@@ -9,11 +9,11 @@ add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]"
 ---
 #### Question
-content:: Before reading the second half of Chapter 1: Imagine you could build an AI dramatically smarter than any human. Would you expect it to also be more ethical (more aligned with human values)? Why or why not? Write down your intuition before reading.
+content:: Before reading the second half of Chapter 1: {--{"author":"Luc's AI","timestamp":1786261547690}@@Imagine you could build an AI dramatically smarter than any--}{++{"author":"Luc's AI","timestamp":1786261547690}@@Today's AI can still seem shallow compared with a++} human. {--{"author":"Luc's AI","timestamp":1786261547690}@@Would--}{++{"author":"Luc's AI","timestamp":1786261547690}@@Which limitations do++} you expect {--{"author":"Luc's AI","timestamp":1786261547690}@@it to also be more ethical (more aligned with human values)? Why or why not?--}{++{"author":"Luc's AI","timestamp":1786261547690}@@to persist, and which might disappear? What features of machines or AI development matter most to your forecast?++} Write down your intuition before reading.
 
 assessment-instructions::
 The student is about to read the second half of Chapter 1 of "If Anyone Builds It, Everyone Dies."
 
-They just answered: "Would a smarter AI also be more ethical or aligned with human values?"
+They just {--{"author":"Luc's AI","timestamp":1786261547690}@@answered: "Would a smarter--}{++{"author":"Luc's AI","timestamp":1786261547690}@@answered a forecasting prompt about whether current++} AI {--{"author":"Luc's AI","timestamp":1786261547690}@@also be more ethical--}{++{"author":"Luc's AI","timestamp":1786261547690}@@limitations will persist and which features of machines++} or {--{"author":"Luc's AI","timestamp":1786261547690}@@aligned with human values?"--}{++{"author":"Luc's AI","timestamp":1786261547690}@@AI development matter.++}
 
-Acknowledge their answer in 1–2 sentences. Do not explain the direction-agnostic concept. They will encounter it in the reading. Close with something like: "Hold on to that intuition as you read. Come back when you've finished the assigned section."
+Acknowledge their answer in 1–2 sentences. Do not {--{"author":"Luc's AI","timestamp":1786261547690}@@explain--}{++{"author":"Luc's AI","timestamp":1786261547690}@@preview++} the {--{"author":"Luc's AI","timestamp":1786261547690}@@direction-agnostic concept. They will encounter it in the reading. --}{++{"author":"Luc's AI","timestamp":1786261547690}@@chapter's case for machine advantages, superintelligence, or an intelligence explosion. ++}Close with something like: "Hold on to that {--{"author":"Luc's AI","timestamp":1786261547690}@@intuition--}{++{"author":"Luc's AI","timestamp":1786261547690}@@forecast++} as you read. Come back when you've finished the assigned section."
