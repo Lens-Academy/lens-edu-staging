@@ -360,4 +360,20 @@ source:: ![[../Lenses/IABIED - QA - Effectiveness Consciousness AI Welfare]]
 # Lens: IABIED - QA - Losing the Future
 optional:: true
 hide:: true
-source:: ![[../Lenses/IABIED - QA - Losing the Future]]
+source:: ![[../Lenses/IABIED - QA - Losing the Future]]{++{"author":"AI","timestamp":1786270766916}@@
+
+# Submodule: Your Leverage
+# Lens: IABIED - Your Leverage
+source:: ![[../Lenses/IABIED - Your Leverage]]
+
+# Lens: Heads-up: your first conversation
+id:: be8098ee-d241-4e68-97b2-1c914904163e
+tldr:: One thing to line up before next unit, while it's cheap to do.
+
+#### Text
+content::
+\## Heads-up for next unit
+
+In the next unit you'll prepare for one real conversation about AI risk with someone you know: you'll pick the person, rehearse the conversation with the tutor, and then actually have it.
+
+The single best predictor of that conversation happening is having a time on the calendar. So think of your person now, and send them a message today suggesting a time. "Want to grab a coffee next week? I've been reading something I want to tell you about" is plenty.++}

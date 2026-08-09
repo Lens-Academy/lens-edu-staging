@@ -23,14 +23,19 @@ source:: ![[../Learning Outcomes/The five engineering curses]]
 # Learning Outcome: IABIED - Position Not Despair
 source:: ![[../Learning Outcomes/Position, not despair]]
 
-# Lens:
-source:: ![[../Lenses/IABIED - The Five Engineering Curses - PQ]]
+{++{"author":"AI","timestamp":1786270779757}@@%%
+Trimmed to reduce question load in the merged unit 4 (course went from 6 meetings to 5):
+++}# Lens:
+source:: ![[../Lenses/IABIED - The Five Engineering Curses - PQ]]{++{"author":"AI","timestamp":1786270779757}@@
+%%++}
 
 # Lens:
 source:: ![[../Lenses/IABIED - The Five Engineering Curses]]
 
-# Lens:
-source:: ![[../Lenses/IABIED - Position Not Despair - PQ]]
+{++{"author":"AI","timestamp":1786270784111}@@%%
+++}# Lens:
+source:: ![[../Lenses/IABIED - Position Not Despair - PQ]]{++{"author":"AI","timestamp":1786270784111}@@
+%%++}
 
 # Lens:
 source:: ![[../Lenses/IABIED - Position Not Despair]]
@@ -99,14 +104,18 @@ source:: ![[../Learning Outcomes/Alignment as alchemy]]
 # Learning Outcome: IABIED - Strong Superalignment Objection
 source:: ![[../Learning Outcomes/The superalignment objection]]
 
-# Lens:
-source:: ![[../Lenses/IABIED - Alchemy Not Science - PQ]]
+{++{"author":"AI","timestamp":1786270786285}@@%%
+++}# Lens:
+source:: ![[../Lenses/IABIED - Alchemy Not Science - PQ]]{++{"author":"AI","timestamp":1786270786285}@@
+%%++}
 
 # Lens:
 source:: ![[../Lenses/IABIED - Alchemy Not Science]]
 
-# Lens:
-source:: ![[../Lenses/IABIED - Strong Superalignment Objection - PQ]]
+{++{"author":"AI","timestamp":1786270788512}@@%%
+++}# Lens:
+source:: ![[../Lenses/IABIED - Strong Superalignment Objection - PQ]]{++{"author":"AI","timestamp":1786270788512}@@
+%%++}
 
 # Lens:
 source:: ![[../Lenses/IABIED - Strong Superalignment Objection]]

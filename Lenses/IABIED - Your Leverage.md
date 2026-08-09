@@ -1,8 +1,8 @@
 ---
 id: 2fa06534-a9b0-4bab-b906-1f2f7db1c99e
-summary_for_tutor: Action-plan seed for Module 4. After the extinction scenario, students inventory their strengths, then research with the tutor where someone with their profile could plausibly contribute to AI safety. The tutor acts as an honest career-exploration partner, not a cheerleader, and never lets the exchange end fatalistic.
+summary_for_tutor: Action-plan seed for Module {--{"author":"AI","timestamp":1786270747264}@@4.--}{++{"author":"AI","timestamp":1786270747264}@@3.++} After the {--{"author":"AI","timestamp":1786270747264}@@extinction scenario,--}{++{"author":"AI","timestamp":1786270747264}@@chapters on alien goals and "We'd Lose",++} students inventory their strengths, then research with the tutor where someone with their profile could plausibly contribute to AI safety. The tutor acts as an honest career-exploration partner, not a cheerleader, and never lets the exchange end fatalistic.
 title: Your Leverage
-tldr: "The scenario you just read is grim on purpose. This is where you stop spectating: map what you're unusually good at, then find where it bites on the problem."
+tldr: "The {--{"author":"AI","timestamp":1786270750442}@@scenario--}{++{"author":"AI","timestamp":1786270750442}@@chapters++} you just read {--{"author":"AI","timestamp":1786270750442}@@is--}{++{"author":"AI","timestamp":1786270750442}@@are++} grim on purpose. This is where you stop spectating: map what you're unusually good at, then find where it bites on the problem."
 authors:
   - Elias+Claude
 add_to_ai_context:
@@ -11,7 +11,7 @@ add_to_ai_context:
 #### Text
 content::
 \## From argument to action
-You've just read the book's darkest stretch. The authors' point isn't despair. It's that this is worth acting on while acting still matters. Over the coming weeks you'll sketch a personal action plan. Today is the raw material: three short exercises with the tutor.
+You've just read the {--{"author":"AI","timestamp":1786270753567}@@book's darkest stretch.--}{++{"author":"AI","timestamp":1786270753567}@@chapters where the argument turns darkest: alien goals, and a fight we'd lose.++} The authors' point isn't despair. It's that this is worth acting on while acting still matters. Over the coming weeks you'll sketch a personal action plan. Today is the raw material: three short exercises with the tutor.
 
 ---
 

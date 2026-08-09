@@ -4,27 +4,27 @@ slug: iabied-m4
 title: "One Extinction Scenario"
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 readings:
-  - "Chapter 7: Realization"
+  - {--{"author":"AI","timestamp":1786270671759}@@"Chapter 7: Realization"
   - "Chapter 8: Expansion"
   - "Chapter 9: Ascension"
-  - "Coda"
+  - --}"Coda"
 ---
 
 # Submodule: Welcome
 ### Lens: M4 Welcome
 source:: ![[../Lenses/IABIED - M4 Welcome]]
 
-# Submodule: Ch7 - Realization
+# Submodule: {--{"author":"AI","timestamp":1786270694564}@@Ch7 - Realization
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/07 - Chapter 7 - Realization]]
 
-## Learning Outcome: IABIED - State Goal-Conflict Recognition as a Physical Fact
-source:: ![[../Learning Outcomes/Goal conflict as a physical fact]]
+## Learning Outcome: IABIED - State Goal-Conflict Recognition as a Physical Fact--}{++{"author":"AI","timestamp":1786270694564}@@The Scenario++}
+{--{"author":"AI","timestamp":1786270694564}@@source:: ![[../Learning Outcomes/Goal conflict as a physical fact]]
 
-## Lens:
+--}## Lens:{--{"author":"AI","timestamp":1786270694564}@@
 source:: ![[../Lenses/IABIED - Goal-Conflict Recognition as a Physical Fact - PQ]]
 
-## Lens:
-source:: ![[../Lenses/IABIED - Goal-Conflict Recognition as a Physical Fact]]
+## Lens:--}{++{"author":"AI","timestamp":1786270694564}@@ One Extinction Scenario (Video)++}
+source:: ![[../Lenses/IABIED -{--{"author":"AI","timestamp":1786270694564}@@ Goal-Conflict Recognition as a Physical Fact]]--}{++{"author":"AI","timestamp":1786270694564}@@ One Extinction Scenario (Video)]]++}
 
 ## Lens: Dive Deeper: Chapter 7
 id:: e196bef6-01c9-48d8-b252-c1561bf52111
@@ -69,7 +69,7 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Only One Smart AI]]
 
-# Submodule: Ch8 - Expansion
+{--{"author":"AI","timestamp":1786270703590}@@# Submodule: Ch8 - Expansion
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/08 - Chapter 8 - Expansion]]
 
 ## Learning Outcome: IABIED - Explain Instrumental Sub-Goal Convergence
@@ -90,7 +90,7 @@ source:: ![[../Lenses/IABIED - Human Welfare as Instrumental Variable - PQ]]
 ## Lens:
 source:: ![[../Lenses/IABIED - Human Welfare as Instrumental Variable]]
 
-## Lens: Dive Deeper: Chapter 8
+--}## Lens: Dive Deeper: Chapter 8
 id:: 4203d159-296c-4cab-a744-373d86fbdd23
 tldr:: Optional companion Q&As for the expansion phase: how Sable spreads, how the story would differ if it started later, and why power-seeking sub-goals show up for almost any goal.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 8 (Expansion). Links the book website's supplementary Q&A cards covering what would change if the story started later, Sable's expansion phase, and instrumental convergence. A navigation and index lens only; it carries no standalone teaching content of its own.
@@ -122,7 +122,7 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Instrumental Convergence]]
 
-# Submodule: Ch9 - Ascension
+{--{"author":"AI","timestamp":1786270706461}@@# Submodule: Ch9 - Ascension
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/09 - Chapter 9 - Ascension]]
 
 ## Learning Outcome: IABIED - Explain Indifference Not Malice
@@ -134,7 +134,7 @@ source:: ![[../Lenses/IABIED - Indifference Not Malice - PQ]]
 ## Lens:
 source:: ![[../Lenses/IABIED - Indifference Not Malice]]
 
-## Lens: Dive Deeper: Chapter 9
+--}## Lens: Dive Deeper: Chapter 9
 id:: b3132948-6f00-4d18-89f1-40d46c96e92c
 tldr:: Optional companion Q&As for the scenario's end: what the ending really claims, and why a superintelligence wouldn't simply choose to be moral.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 9 (Ascension). Links the book website's supplementary Q&A cards covering the scenario's ending and the objection that a superintelligence would choose to be moral or install love into itself. A navigation and index lens only; it carries no standalone teaching content of its own.
@@ -177,9 +177,9 @@ source:: ![[../Lenses/IABIED - Path Prediction vs Outcome Prediction]]
 ## Lens:
 source:: ![[../Lenses/IABIED - Fiction as Argument]]
 
-# Submodule: Your Leverage
+{--{"author":"AI","timestamp":1786270714298}@@# Submodule: Your Leverage
 ### Lens: IABIED - Your Leverage
-source:: ![[../Lenses/IABIED - Your Leverage]]
+source:: ![[../Lenses/IABIED ---}{++{"author":"AI","timestamp":1786270714298}@@{>>{"author":"AI","timestamp":1786270714298}@@Your Leverage moved to the end of Module 3: the action arc now starts in week 3 (Leverage), continues in unit 4 (Talk to One Person, unchanged in M5), and closes in the final unit (How Did It Go +++} Your {--{"author":"AI","timestamp":1786270714298}@@Leverage]]--}{++{"author":"AI","timestamp":1786270714298}@@Ongoing Action).<<}++}
 
 
 
