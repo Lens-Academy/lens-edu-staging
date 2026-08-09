@@ -6,10 +6,6 @@ authors:
   - Lauren+Claude
 ---
 
-%% Rebuilt 2026-08-08. Flat by design: no submodule nesting. Slug is unchanged
-from the prototype so the course file needs no edit. The learning outcome's test
-renders at the end of the module, after the restatement lens. %%
-
 %% Module goal (for authors): Unit 1 exists to convert "the future of AI" from
 a mood into a model with named parts. By module end the student can produce at
 least two genuinely different trajectories for AI capability, each with a
