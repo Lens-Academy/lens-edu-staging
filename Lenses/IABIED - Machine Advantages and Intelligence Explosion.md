@@ -11,6 +11,8 @@ add_to_ai_context:
 #### Text
 content::
 \## Reading Assignment
+We will now read the second half of this chapter.
+
 **Read *Chapter 1: Humanity's Special Power*.** Start at the phrase
 > That won't stay true forever.
 
