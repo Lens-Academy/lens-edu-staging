@@ -5,7 +5,7 @@ published: 2021-03-01
 source_url: https://www.alignmentforum.org/posts/rzqACeBGycZtqCfaX/fun-with-12-ooms-of-compute
 ---
 
-%%
+{--{"author":"Elias's AI","timestamp":1786305562878}@@%%--}{++{"author":"Elias's AI","timestamp":1786305562878}@@<!--++}
 Imported by hand from the Alignment Forum text (Stampy corpus hash
 8327908b83017a0f3b9c62fee38eab1a) on 2026-08-08, because the relay's
 import_article tool is unavailable to this credential type (it requires a
