@@ -11,7 +11,7 @@ readings:
 # Submodule: Welcome
 # Lens: Welcome
 id:: a058eebe-2914-4a55-b88a-57027f0b79aa
-tldr:: Can an AI actually *want* things, and if it can, will it want what you trained it to want? This week's two chapters tackle both: how goal-like behavior emerges during training, and why the target you optimize for and the preferences you end up with can quietly come apart.
+tldr:: Can an AI actually *want* things, and if it can, will it want what you trained it to want? This {--{"author":"AI","timestamp":1786281148631}@@week's--}{++{"author":"AI","timestamp":1786281148631}@@unit's++} two chapters tackle both: how goal-like behavior emerges during training, and why the target you optimize for and the preferences you end up with can quietly come apart.
 summary_for_tutor:: Welcome and framing lens for Module 2, covering IABIED Chapters 3 ("Learning to Want") and 4 ("You Don't Get What You Train For"). Poses the module's two guiding questions, whether AIs can develop wants and whether those wants match the training target, and orients the learner before the chapter lenses and the tutor chat, which checks understanding of how training produces want-like behavior and why trained targets diverge from internal preferences (the ice cream, sucralose, and peacock-tail analogies).
 
 #### Text
