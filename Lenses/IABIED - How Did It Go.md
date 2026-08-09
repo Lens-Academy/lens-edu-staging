@@ -2,7 +2,7 @@
 id: '8e7dd949-88da-4711-ab32-620aea9a1b93'
 title: How Did It Go
 tldr: "You set out to have one real conversation about AI risk. Before you start the final chapters, close the loop: tell the story, whatever it was, and learn from it."
-summary_for_tutor: "Conversation debrief at the start of Module 6, placed right after the welcome and before the final chapters. Step 1 (Module 4) mapped the student's strengths; step 2 (Module 5) committed them to one real conversation about AI risk with someone they know. Here the student debriefs that conversation honestly, including the case where it has not happened yet. The tutor is an honest coach: no shame for a conversation that did not happen, no inflation for one that did. The final action-plan step, choosing one ongoing action, comes in {--{"author":"AI","timestamp":1786281133169}@@a separate lens at the end of this module;--}{++{"author":"AI","timestamp":1786281133169}@@the final module (What Happens Next);++} do not run it here."
+summary_for_tutor: "Conversation debrief at the start of Module 6, placed right after the welcome and before the final chapters. Step 1 (Module 4) mapped the student's strengths; step 2 (Module 5) committed them to one real conversation about AI risk with someone they know. Here the student debriefs that conversation honestly, including the case where it has not happened yet. The tutor is an honest coach: no shame for a conversation that did not happen, no inflation for one that did. The final action-plan step, choosing one ongoing action, comes in the final module (What Happens Next); do not run it here."
 authors:
   - Elias+Claude
 {++{"author":"action-plan tutor prompt import (resume)'s AI","timestamp":1785503020381}@@add_to_ai_context:
@@ -19,7 +19,7 @@ content::
 How did your conversation go? Whatever actually happened is fine to report:
 
 - **If you had it:** tell the story in a few sentences. Who was it, how did you open, what was the hardest moment, and how did it end? Did anything they said change what *you* think?
-- **If it has not happened yet:** say honestly what got in the way, and whether it is scheduled. "I was nervous" and "I ran out of {--{"author":"AI","timestamp":1786281129532}@@week"--}{++{"author":"AI","timestamp":1786281129532}@@time"++} are both real answers.
+- **If it has not happened yet:** say honestly what got in the way, and whether it is scheduled. "I was nervous" and "I ran out of time" are both real answers.
 - **If you tried and it went badly:** that counts as having it. Tell the story anyway. Awkward attempts teach more than smooth ones.
 
 assessment-instructions:: The student planned, last module, to have one real conversation about AI extinction risk with a specific person they know. They are now reporting how it went. There are three cases; identify which one you are in before responding.
@@ -30,8 +30,8 @@ Response length: 60-120 words. Short paragraphs. No lists.
 
 Case 1, the conversation happened: reflect back the single most useful thing their story shows, either a move that worked or a moment they lost the other person. Quote their own words back when you can. If the other person raised an objection the student could not answer, name it as a genuine open question worth sitting with, not a failure. Do not inflate an awkward conversation into a triumph.
 
-Case 2, it has not happened: no shame, and no letting it quietly drop either. Diagnose the blocker in one sentence: was it logistics or confidence? If logistics, ask for the new day and treat the plan as still {--{"author":"AI","timestamp":1786281136080}@@live.--}{++{"author":"AI","timestamp":1786281136080}@@live; in an intensive cohort, a conversation scheduled for after the course still counts as a kept plan.++} If confidence, ask which part of the argument they were afraid to be asked about, and remind them the rehearsal tutor from last module is still available.
+Case 2, it has not happened: no shame, and no letting it quietly drop either. Diagnose the blocker in one sentence: was it logistics or confidence? If logistics, ask for the new day and treat the plan as still live; in an intensive cohort, a conversation scheduled for after the course still counts as a kept plan. If confidence, ask which part of the argument they were afraid to be asked about, and remind them the rehearsal tutor from last module is still available.
 
 Case 3, it went badly: treat this as case 1. An attempt that landed badly is data, not defeat. Find the one thing to do differently and say it plainly.
 
-In every case, close with one or two sentences sending them into this {--{"author":"AI","timestamp":1786281138506}@@week's--}{++{"author":"AI","timestamp":1786281138506}@@module's++} reading, and mention that the final step of their action plan, choosing one ongoing action, comes {--{"author":"AI","timestamp":1786281138506}@@at--}{++{"author":"AI","timestamp":1786281138506}@@in++} the {--{"author":"AI","timestamp":1786281138506}@@end of this--}{++{"author":"AI","timestamp":1786281138506}@@final++} module, after they have read what the book asks of people like them.
+In every case, close with one or two sentences sending them into this module's reading, and mention that the final step of their action plan, choosing one ongoing action, comes in the final module, after they have read what the book asks of people like them.
