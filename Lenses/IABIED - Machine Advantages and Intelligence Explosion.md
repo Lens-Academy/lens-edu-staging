@@ -167,7 +167,7 @@ content::
 \## Additional resources for this topic
 ::card[[../Lenses/IABIED - QA - {--{"author":"Luc's AI","timestamp":1786261607433}@@Something Special About Humans]]--}{++{"author":"Luc's AI","timestamp":1786261607433}@@How Smart Could Superintelligence Get]]++}
 
-> {--{"author":"Luc's AI","timestamp":1786261607433}@@Addresses the objection that human uniqueness puts AI risk out of reach. Even if some capabilities are hard--}{++{"author":"Luc's AI","timestamp":1786261607433}@@Examines which practical tasks still leave room above human performance and what it would mean for a machine++} to {--{"author":"Luc's AI","timestamp":1786261607433}@@replicate, AI can achieve equivalent results through entirely different mechanisms.--}{++{"author":"Luc's AI","timestamp":1786261607433}@@exceed us across them.
+> {--{"author":"Luc's AI","timestamp":1786261607433}@@Addresses the objection that human uniqueness puts AI risk out of reach. Even if some capabilities are hard--}{++{"author":"Luc's AI","timestamp":1786261607433}@@Examines which practical tasks still leave room above human performance and what it would mean for a machine++} to {--{"author":"Luc's AI","timestamp":1786261742045}@@replicate, AI can achieve equivalent results through entirely different mechanisms.--}{++{"author":"Luc's AI","timestamp":1786261742045}@@exceed us across them.
 
 ---
 
