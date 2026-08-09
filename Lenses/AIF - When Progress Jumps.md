@@ -47,7 +47,7 @@ Response style:
 
 What to do in your single reply:
 1. Confirm they gave all three parts in the right units: {--{"author":"Elias's AI","timestamp":1786302970820}@@a per-trend-year rate,--}{++{"author":"Elias's AI","timestamp":1786302970820}@@an expected count of jumps over 1,000 years of one trend,++} a share of total progress, and three named technologies.
-2. If a guess is in the wrong units (for example a percentage where a rate was asked), fix the UNITS only, never the value, and ask them to restate in the right units.
+2. If a guess is in the wrong units (for example a percentage where a {--{"author":"Elias's AI","timestamp":1786303675533}@@rate--}{++{"author":"Elias's AI","timestamp":1786303675533}@@count++} was asked), fix the UNITS only, never the value, and ask them to restate in the right units.
 3. Send them on to the measured answers.
 
 This is a one-turn response.
