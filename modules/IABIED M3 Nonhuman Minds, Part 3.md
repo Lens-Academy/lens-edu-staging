@@ -4,20 +4,22 @@ slug: iabied-m3
 title: "Nonhuman Minds, Part 3"
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 readings: 
-  - "Chapter 5: Its Favorite Things"
-  - "Chapter 6: We'd Lose"
+  - "Chapter 5: Its Favorite Things"{--{"author":"AI","timestamp":1786274445604}@@
+  - "Chapter 6: We'd Lose"--}
 ---
 
 # Submodule: Part 3 Welcome
 # Lens: Part 3 Welcome
 id:: caf48b0b-f27a-4c09-9336-b443ac7843f4
-tldr:: How can we be so sure an AI won't happen to want things compatible with human life, and if it wants something bad, can't we just stop it? Chapter 5 argues human-friendly goals are a vanishingly small slice of goal-space, and Chapter 6 explains why, against a superintelligence, "we'd lose."
-summary_for_tutor:: Framing lens for Module 3, covering IABIED Chapters 5 ("Its Favorite Things") and 6 ("We'd Lose"). Sets up two questions: why AI goals are unlikely to be compatible with human flourishing (the goal-space argument that human-compatible goals are a tiny subset of possible goals, and that alien intelligences form alien goals, illustrated by the stone-counting nest builders), and why humanity could not simply stop a misaligned superintelligence (the Aztec-warrior analogy and the power of intelligence plus technology). Orients the learner before the chapter lenses.
+tldr:: How can we be so sure an AI won't happen to want things compatible with human {--{"author":"AI","timestamp":1786274482435}@@life, and if it wants something bad, can't we just stop it?--}{++{"author":"AI","timestamp":1786274482435}@@life?++} Chapter 5 argues human-friendly goals are a vanishingly small slice of goal-space, and {--{"author":"AI","timestamp":1786274482435}@@Chapter 6 explains why, against a superintelligence, "we'd lose."--}{++{"author":"AI","timestamp":1786274482435}@@that none of the usual hopes (it'll need us, trade with us, keep us as pets) survive the argument.++}
+summary_for_tutor:: Framing lens for Module 3, covering IABIED {--{"author":"AI","timestamp":1786274482435}@@Chapters--}{++{"author":"AI","timestamp":1786274482435}@@Chapter++} 5 ("Its Favorite {--{"author":"AI","timestamp":1786274482435}@@Things") and 6 ("We'd Lose").--}{++{"author":"AI","timestamp":1786274482435}@@Things").++} Sets up {--{"author":"AI","timestamp":1786274482435}@@two questions:--}{++{"author":"AI","timestamp":1786274482435}@@the module's question:++} why AI goals are unlikely to be compatible with human flourishing (the goal-space argument that human-compatible goals are a tiny subset of possible goals, and that alien intelligences form alien goals, illustrated by the stone-counting nest builders), and why {--{"author":"AI","timestamp":1786274482435}@@humanity could not simply stop a misaligned superintelligence (the Aztec-warrior analogy and--}{++{"author":"AI","timestamp":1786274482435}@@the common hopes (usefulness, trade, pets, leaving Earth alone) fail. Chapter 6 ("We'd Lose") now opens++} the {--{"author":"AI","timestamp":1786274482435}@@power of intelligence plus technology).--}{++{"author":"AI","timestamp":1786274482435}@@next module, where it sets up the extinction-scenario film.++} Orients the learner before the chapter lenses.
 
 #### Text
-content:: In module 3, we ask 2 essential questions:
-- First, how do we know that an AI won't want things that are broadly compatible with human life and flourishing?
-- Second, in the event it wants things that are bad for humanity, can't we just...?
+content:: In module 3, we ask {--{"author":"AI","timestamp":1786274484914}@@2--}{++{"author":"AI","timestamp":1786274484914}@@one++} essential{--{"author":"AI","timestamp":1786274484914}@@ questions:
+- First,--}{++{"author":"AI","timestamp":1786274484914}@@ question:++} how do we know that an AI won't want things that are broadly compatible with human life and flourishing?{--{"author":"AI","timestamp":1786274484914}@@
+- Second, in the event it wants --}{++{"author":"AI","timestamp":1786274484914}@@
+
+(And if it does want ++}things that are bad for {--{"author":"AI","timestamp":1786274484914}@@humanity,--}{++{"author":"AI","timestamp":1786274484914}@@humanity...++} can't we {--{"author":"AI","timestamp":1786274484914}@@just...?--}{++{"author":"AI","timestamp":1786274484914}@@just stop it? That's where the next module begins.)++}
 
 %%
 **Chapter 5**
@@ -238,7 +240,7 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Orthogonality]]
 
-# Submodule: Ch6 - We'd Lose
+{--{"author":"AI","timestamp":1786274511633}@@# Submodule: Ch6 - We'd Lose
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 - We'd Lose]]
 
 # Learning Outcome: IABIED - Define the Aztec Warrior Analogy
@@ -262,16 +264,16 @@ source:: ![[../Lenses/IABIED - Describe the Refrigerator Thought Experiment]]
 # Lens: Dive Deeper: Chapter 6
 id:: 6937c099-cce1-4d6a-8dfa-bd0e05d8d2de
 tldr:: Going deeper on Chapter 6? The book's supplementary Q&As cover "can't we just pull the plug?", "can't we keep it in a box?", and the other ways people hope we'd win.
-summary_for_tutor:: Optional Dive Deeper index lens for Chapter 6 (We'd Lose). Links the book website's supplementary Q&A cards covering objections such as pulling the plug, keeping AI in a box, exploiting AI weaknesses, enhancing humans, limits from experiments, instrumental convergence, and losing the future. A navigation and index lens only; it carries no standalone teaching content of its own.
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter --}{++{"author":"AI","timestamp":1786274511633}@@{>>{"author":"AI","timestamp":1786274511633}@@Chapter ++}6 (We'd {--{"author":"AI","timestamp":1786274511633}@@Lose). Links the book website's supplementary Q&A cards covering objections such as pulling the plug, keeping AI in a box, exploiting AI weaknesses, enhancing humans, limits from experiments, instrumental convergence, and losing the future. A navigation and index lens only; --}{++{"author":"AI","timestamp":1786274511633}@@Lose) moved to Module 4, where ++}it{--{"author":"AI","timestamp":1786274511633}@@ carries no standalone teaching content of its own.
 optional:: true
 
 #### Text:
 content::
-Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+Want to go deeper on this chapter's ideas? These optional resources were gathered by--}{++{"author":"AI","timestamp":1786274511633}@@ opens++} the {--{"author":"AI","timestamp":1786274511633}@@book's authors--}{++{"author":"AI","timestamp":1786274511633}@@unit++} and{--{"author":"AI","timestamp":1786274511633}@@ by us.
 
 Skim whatever catches your eye.
 
-::card[[../Lenses/IABIED - QA - Pull the Plug]]
+::card[[../Lenses/IABIED - QA - Pull --}{++{"author":"AI","timestamp":1786274511633}@@ sets up ++}the{--{"author":"AI","timestamp":1786274511633}@@ Plug]]
 ::card[[../Lenses/IABIED - QA - Digital AIs Affect Us]]
 ::card[[../Lenses/IABIED - QA - Keep AI in a Box]]
 ::card[[../Lenses/IABIED - QA - Exploit AI Weakness]]
@@ -285,12 +287,12 @@ Skim whatever catches your eye.
 ::card[[../Lenses/IABIED - QA - Hard to Get Robust Laziness]]
 ::card[[../Lenses/IABIED - QA - AIs Won't Keep Promises]]
 ::card[[../Lenses/IABIED - QA - Effectiveness Consciousness AI Welfare]]
-::card[[../Lenses/IABIED - QA - Losing the Future]]
+::card[[../Lenses/IABIED - QA - Losing--}{++{"author":"AI","timestamp":1786274511633}@@ extinction-scenario film, matching++} the {--{"author":"AI","timestamp":1786274511633}@@Future]]
 
 # Lens: IABIED - QA - Pull the Plug
 optional:: true
 hide:: true
-source:: ![[../Lenses/IABIED - QA - Pull the Plug]]
+source:: ![[../Lenses/IABIED - QA - Pull --}{++{"author":"AI","timestamp":1786274511633}@@book's own handoff (Ch6 ends with ++}the{--{"author":"AI","timestamp":1786274511633}@@ Plug]]
 
 # Lens: IABIED - QA - Digital AIs Affect Us
 optional:: true
@@ -360,21 +362,6 @@ source:: ![[../Lenses/IABIED - QA - Effectiveness Consciousness AI Welfare]]
 # Lens: IABIED - QA - Losing the Future
 optional:: true
 hide:: true
-source:: ![[../Lenses/IABIED - QA - Losing the Future]]{++{"author":"AI","timestamp":1786271023598}@@
+source:: ![[../Lenses/IABIED - QA - Losing the Future]]--}{++{"author":"AI","timestamp":1786274511633}@@ story's first line).<<}++}{++{"author":"AI","timestamp":1786274522103}@@
 
-# Submodule: Your Leverage
-# Lens: IABIED - Your Leverage
-source:: ![[../Lenses/IABIED - Your Leverage]]
-
-# Lens: Heads-up: your first conversation
-id:: be8098ee-d241-4e68-97b2-1c914904163e
-tldr:: One thing to line up before next unit, while it's cheap to do.
-summary_for_tutor:: Short logistics note closing Module 3. Tells the student that the next unit contains the Talk to One Person action step (pick a person, rehearse with the tutor, have one real conversation about AI risk) and recommends scheduling that conversation now, since a time on the calendar is the best predictor of it happening. Text only; no interaction.
-
-#### Text
-content::
-\## Heads-up for next unit
-
-In the next unit you'll prepare for one real conversation about AI risk with someone you know: you'll pick the person, rehearse the conversation with the tutor, and then actually have it.
-
-The single best predictor of that conversation happening is having a time on the calendar. So think of your person now, and send them a message today suggesting a time. "Want to grab a coffee next week? I've been reading something I want to tell you about" is plenty.++}
+++}
