@@ -126,7 +126,7 @@ add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 
 # Learning Outcome: IABIED - Define Intelligence
 source:: ![[../Learning Outcomes/Intelligence as prediction plus steering]]
 
-# Learning Outcome: IABIED - {--{"author":"Luc's AI","timestamp":1786261750659}@@Intelligence Is Direction-Agnostic--}{++{"author":"Luc's AI","timestamp":1786261750659}@@Machine Advantages and Intelligence Explosion++}
+# Learning Outcome: IABIED - Machine Advantages and Intelligence Explosion
 source:: ![[../Learning Outcomes/Machine advantages and intelligence explosion]]
 
 # Lens:
