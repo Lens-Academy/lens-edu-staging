@@ -257,18 +257,18 @@ source:: ![[../Lenses/IABIED - Fiction as Argument]]
 ## Lens: IABIED - Your Leverage
 source:: ![[../Lenses/IABIED - Your Leverage]]
 
-## Lens: Heads-up: your first conversation
+{--{"author":"AI","timestamp":1786281059001}@@## Lens: Heads-up: your first conversation
 id:: be8098ee-d241-4e68-97b2-1c914904163e
 tldr:: One thing to line up before next unit, while it's cheap to do.
-summary_for_tutor:: Short logistics note closing Module 4. Tells the student that the next unit contains the Talk to One Person action step (pick a person, rehearse with the tutor, have one real conversation about AI risk) and recommends scheduling that conversation now, since a time on the calendar is the best predictor of it happening. Text only; no interaction.
+summary_for_tutor:: Short logistics note closing Module 4. Tells the student that the next unit contains the Talk to One Person action step (pick a person, rehearse with--}{++{"author":"AI","timestamp":1786281059001}@@{>>{"author":"AI","timestamp":1786281059001}@@Conversation-scheduling heads-up removed from++} the{--{"author":"AI","timestamp":1786281059001}@@ tutor, have one real conversation about AI risk) and recommends scheduling --}{++{"author":"AI","timestamp":1786281059001}@@ module by request: ++}that {--{"author":"AI","timestamp":1786281059001}@@conversation now, since a time on the calendar is--}{++{"author":"AI","timestamp":1786281059001}@@nudge lives in++} the {--{"author":"AI","timestamp":1786281059001}@@best predictor of it happening. Text only; no interaction.
 
 #### Text
 content::
-\## Heads-up for next unit
+\## Heads-up--}{++{"author":"AI","timestamp":1786281059001}@@unit-3 meeting doc's last room instead, so it works++} for{--{"author":"AI","timestamp":1786281059001}@@ next unit
 
 In the next unit you'll prepare for one real conversation about AI risk with someone you know: you'll pick the person, rehearse the conversation with the tutor, and then actually have it.
 
-The single best predictor of that conversation happening is having a time on the calendar. So think of your person now, and send them a message today suggesting a time. "Want to grab a coffee next week? I've been reading something I want to tell you about" is plenty.
+The single best predictor of that conversation happening is having a time on the calendar. So think of your person now, --}{++{"author":"AI","timestamp":1786281059001}@@ intensive ++}and {--{"author":"AI","timestamp":1786281059001}@@send them a message today suggesting a time. "Want to grab a coffee next week? I've been reading something I want to tell you about" is plenty.--}{++{"author":"AI","timestamp":1786281059001}@@weekly cohorts alike.<<}++}
 
 
 

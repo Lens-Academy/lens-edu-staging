@@ -12,7 +12,7 @@ authors:
 content::
 **Your action plan, step 2: leave the building**
 
-Back in module 3 you mapped your strengths. This step is smaller and harder: talk to one person you know about what you've been reading.
+Back in module {--{"author":"AI","timestamp":1786281091591}@@3--}{++{"author":"AI","timestamp":1786281091591}@@4++} you mapped your strengths. This step is smaller and harder: talk to one person you know about what you've been reading.
 
 Three reasons this is worth your time:
 - **It's the best test of your own understanding.** Inside this course, everyone shares vocabulary. Explaining the argument to someone who has never heard of instrumental convergence shows you what you know and what parts you were only nodding along to.
@@ -25,12 +25,12 @@ One thing to know before you go: the hesitation you might feel ("I don't want to
 content::
 **Phase 1: Pick your person**
 
-Take 2 minutes. Who will you talk to this week? Write down:
+Take 2 minutes. Who will you talk {--{"author":"AI","timestamp":1786281096169}@@to this week?--}{++{"author":"AI","timestamp":1786281096169}@@to?++} Write down:
 - Who they are and why them
 - What they already think about AI, as far as you know
 - The moment in the conversation you expect to be hardest
 
-assessment-instructions:: The student is choosing one real person to talk to about AI extinction risk this week, after working through "If Anyone Builds It, Everyone Dies" up to Chapter 11 (with a takeover-scenario video in place of the book's story chapters).
+assessment-instructions:: The student is choosing one real person to talk to about AI extinction {--{"author":"AI","timestamp":1786281098251}@@risk this week,--}{++{"author":"AI","timestamp":1786281098251}@@risk,++} after working through "If Anyone Builds It, Everyone Dies" up to Chapter 11 (with a takeover-scenario video in place of the book's story chapters).
 
 Your role: a brief, honest coach, not a cheerleader.{++{"author":"action-plan tutor prompt import (resume)'s AI","timestamp":1785503019231}@@ Your "Coach Guidance - AI Safety Impact Pathways" reference applies here: this conversation is the citizens' lever from the mobilization model. Watch the four activation conditions — a student picking a safe person is usually low on self-efficacy, and one with a vague plan is low on path clarity. Coach toward what's actually blocked, without manipulative pressure.++}
 
