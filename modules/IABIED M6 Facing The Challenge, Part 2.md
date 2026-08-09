@@ -25,7 +25,7 @@ Chapter 13 lays out the concrete policy proposal: a worldwide halt on frontier A
 
 Chapter 14 ends on a note of qualified hope, invoking the nuclear war precedent: humanity has chosen not to die before. The closing words offer a prayer: "May we be wrong, and shamed for how incredibly wrong we were."
 
-One thing before the reading: last module you committed to one real conversation about AI risk. The next step closes that loop, whatever happened. And at the very end of this module, the last step of your action plan: choosing the one action you want to keep doing after the course.
+One thing before the reading: last module you committed to one real conversation about AI risk. The next step closes that loop, whatever happened. {--{"author":"AI","timestamp":1786279359488}@@And at the very end of this module, the --}{++{"author":"AI","timestamp":1786279359488}@@The ++}last step of your action {--{"author":"AI","timestamp":1786279359488}@@plan:--}{++{"author":"AI","timestamp":1786279359488}@@plan,++} choosing the one action you{--{"author":"AI","timestamp":1786279359488}@@ want to --}{++{"author":"AI","timestamp":1786279359488}@@ ++}keep doing after the {--{"author":"AI","timestamp":1786279359488}@@course.--}{++{"author":"AI","timestamp":1786279359488}@@course, comes in the final module right after this one.++}
 %%
 **This week's reading:** Chapter 12 ("I Don't Want to Be Alarmist") + Chapter 13 ("Shut It Down") + Chapter 14 ("Where There's Life, There's Hope") + Closing Words. After reading, come back here to discuss with the tutor.
 
@@ -371,7 +371,7 @@ source:: [[../Lenses/IABIED - The Two Prayers - PQ]]
 optional:: true
 source:: [[../Lenses/IABIED - The Two Prayers]]
 
-# Submodule: Your Action Plan
+{--{"author":"AI","timestamp":1786279357156}@@# Submodule: Your Action Plan
 # Lens: IABIED - Your Ongoing Action
-source:: ![[../Lenses/IABIED - Your Ongoing Action]]
+source:: ![[../Lenses/IABIED - Your Ongoing Action]]--}{++{"author":"AI","timestamp":1786279357156}@@{>>{"author":"AI","timestamp":1786279357156}@@Your Ongoing Action moved to the final module (What Happens Next), which now closes the course with the argument synthesis followed by the action plan.<<}++}
 
