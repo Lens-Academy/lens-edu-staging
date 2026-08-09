@@ -5,7 +5,7 @@ published: 2020-04-14
 source_url: https://aiimpacts.org/discontinuous-progress-in-history-an-update/
 ---
 
-%%
+{--{"author":"Elias's AI","timestamp":1786305539512}@@%%--}{++{"author":"Elias's AI","timestamp":1786305539512}@@<!--++}
 LICENSING HOLD, 2026-08-08. This is a STUB, not a full-text import. The stub
 itself ships to production (short attributed quotes + a link out are fine); the
 hold is only on importing the FULL text.
