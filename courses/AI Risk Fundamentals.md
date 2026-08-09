@@ -11,7 +11,7 @@ discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 Some overarching non-learning outcomes we want to achieve:
 [[../Outcomes/Dummy - Agency to contribute]]
 [[../Outcomes/Dummy - Personal contribution plan]]
-[[../Outcomes/Dummy - Discuss AI risk with two people]]
+[[../Outcomes/Dummy - Discuss AI risk with one person]]
 %%
 # Module: [[../modules/IABIED M1 Intro and Nonhuman Minds, Part 1]]
 
@@ -23,7 +23,8 @@ meeting-doc-template:: https://docs.google.com/document/d/1VbHf5ENp0fOjqATTMLbKY
 # Module: [[../modules/IABIED M3 Nonhuman Minds, Part 3]]
 
 # Meeting: Nonhuman Minds
-meeting-doc-template:: https://docs.google.com/document/d/1hNj0npIxflO6C5AJcNPHms7HOiH_hlAgomBPQVhfp2A/edit
+meeting-doc-template:: {--{"author":"AI","timestamp":1786279684826}@@https://docs.google.com/document/d/1hNj0npIxflO6C5AJcNPHms7HOiH_hlAgomBPQVhfp2A/edit--}{++{"author":"AI","timestamp":1786279684826}@@https://docs.google.com/document/d/1RZv4D0zxu9qx6fctRU6EqRFwyFVsJIRMFTbo8NaOZNc/edit
+{>>{"author":"AI","timestamp":1786279684826}@@Rebuilt 2026-08-09 for the merged Ch3-5 unit; replaces the old Ch3-4 doc (1hNj0npIxflO6C5AJcNPHms7HOiH_hlAgomBPQVhfp2A), which is retired.<<}++}
 
 
 # Module: [[../modules/IABIED M4 One Extinction Scenario]]
