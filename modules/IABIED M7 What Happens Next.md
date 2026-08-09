@@ -65,14 +65,17 @@ source:: ![[../Lenses/IABIED - Your Ongoing Action]]
 {>>{"author":"Luc's AI","timestamp":1783723774076}@@Review note: 'AI Safety Career Paths' and 'Next Steps with Lens Academy' were suggested lenses of this Learning Outcome AND are also imported below as hidden card targets (optional+hide). The old auto-import rendered both copies, so both are kept to preserve current behavior — you may want to drop one occurrence.<<}
 
 # Submodule: Optional Resources
-# Lens: Overview of Optional Resources
-id:: fb9e57fd-6036-4334-b827-2f9520fbcdd9 {>>{"author":"Elias's AI","timestamp":1783777475035}@@replaced hand-typed placeholder id (invalid uuid4 variant) with a fresh uuid4<<}
-tldr:: Finished the book? Here's where to go next: two optional resources pointing you toward AI safety career paths and continued learning with Lens Academy.
-summary_for_tutor:: Navigation lens shown after the learner completes the IABIED book. Contains only framing text plus two card links to optional resources, AI Safety Career Paths and Next Steps with Lens Academy; it carries no substantive teaching content of its own.
+# Lens: {--{"author":"AI","timestamp":1786284842736}@@Overview of Optional Resources--}{++{"author":"AI","timestamp":1786284842736}@@Keep Going++}
+id:: fb9e57fd-6036-4334-b827-2f9520fbcdd9{--{"author":"AI","timestamp":1786284842736}@@ {>>{"author":"Elias's AI","timestamp":1783777475035}@@replaced hand-typed placeholder id (invalid uuid4 variant) with a fresh uuid4<<}--}{++{"author":"AI","timestamp":1786284842736}@@
+optional:: true++}
+tldr:: {--{"author":"AI","timestamp":1786284842736}@@Finished the book? Here's where to go next: two optional resources pointing you toward AI safety career paths and continued learning with Lens Academy.--}{++{"author":"AI","timestamp":1786284842736}@@Want more after this course? Our other courses are the natural next step.++}
+summary_for_tutor:: {--{"author":"AI","timestamp":1786284842736}@@Navigation lens shown after--}{++{"author":"AI","timestamp":1786284842736}@@Short optional closing pointer. Tells++} the learner {--{"author":"AI","timestamp":1786284842736}@@completes the IABIED book. Contains only framing text plus two card links to optional resources, AI Safety Career Paths--}{++{"author":"AI","timestamp":1786284842736}@@that Lens Academy runs further courses (including more advanced ones)++} and {--{"author":"AI","timestamp":1786284842736}@@Next Steps with Lens Academy; it carries--}{++{"author":"AI","timestamp":1786284842736}@@links the course catalog. No teaching content;++} no {--{"author":"AI","timestamp":1786284842736}@@substantive teaching content of its own.--}{++{"author":"AI","timestamp":1786284842736}@@interaction.++}
 
-#### Text:
+#### {--{"author":"AI","timestamp":1786284842736}@@Text:--}{++{"author":"AI","timestamp":1786284842736}@@Text++}
 content::
-Now that you've completed the book, explore these resources for next steps.
+{--{"author":"AI","timestamp":1786284842736}@@Now that you've completed--}{++{"author":"AI","timestamp":1786284842736}@@\## Keep going
+
+That's++} the {--{"author":"AI","timestamp":1786284842736}@@book, explore these resources for next steps.
 
 \## What Happens Next
 ::card[[../Lenses/IABIED - AI Safety Career Paths]]
@@ -81,9 +84,9 @@ Now that you've completed the book, explore these resources for next steps.
 # Lens: IABIED - AI Safety Career Paths
 optional:: true
 hide:: true
-source:: ![[../Lenses/IABIED - AI Safety Career Paths]]
+source:: ![[../Lenses/IABIED - AI Safety Career Paths]]--}{++{"author":"AI","timestamp":1786284842736}@@course. If it left you wanting more, the best next step is another course: go deeper on the technical side, on forecasting, or on governance, at whatever level fits you.++}
 
-# Lens: IABIED - Next Steps with Lens Academy
+{--{"author":"AI","timestamp":1786284842736}@@# Lens: IABIED - Next Steps with Lens Academy
 optional:: true
 hide:: true
-source:: ![[../Lenses/IABIED - Next Steps with Lens Academy]]
+source:: ![[../Lenses/IABIED - Next Steps with Lens Academy]]--}{++{"author":"AI","timestamp":1786284842736}@@Explore our courses at [lensacademy.org/c/cfcxv](https://lensacademy.org/c/cfcxv).++}
