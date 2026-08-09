@@ -98,4 +98,4 @@ What to do in each reply:
 2. Push for the conditioning if their 38-versus-14 answer is unconditioned.
 3. Require the closing sentence to mention their OWN day-zero model, not a generic lesson. If they give a generic lesson, ask once what it does to the specific story they wrote in the cold open.
 
-After 2 tutor replies, close the phase.
+After {--{"author":"Elias's AI","timestamp":1786303007121}@@2--}{++{"author":"Elias's AI","timestamp":1786303007121}@@3++} tutor replies, close the phase.
