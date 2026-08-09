@@ -70,11 +70,11 @@ source:: [[../Learning Outcomes/The one-chance problem]]
 ## Learning Outcome: IABIED - Ladder in the Dark
 source:: [[../Learning Outcomes/The ladder in the dark]]
 
-{++{"author":"AI","timestamp":1786270816068}@@%%
+%%
 Trimmed to reduce question load in the final unit (course went from 6 meetings to 5):
-++}## Lens:
-source:: [[../Lenses/IABIED - The One-Chance Problem - PQ]]{++{"author":"AI","timestamp":1786270816068}@@
-%%++}
+## Lens:
+source:: [[../Lenses/IABIED - The One-Chance Problem - PQ]]
+%%
 
 ## Lens:
 source:: [[../Lenses/IABIED - The One-Chance Problem]]
@@ -196,18 +196,18 @@ source:: [[../Learning Outcomes/The WWII analogy]]
 ## Learning Outcome: IABIED - Coalition Strategy
 source:: [[../Learning Outcomes/Narrow coalition strategy]]
 
-{++{"author":"AI","timestamp":1786270818068}@@%%
-++}## Lens:
-source:: [[../Lenses/IABIED - The WWII Analogy - PQ]]{++{"author":"AI","timestamp":1786270818068}@@
-%%++}
+%%
+## Lens:
+source:: [[../Lenses/IABIED - The WWII Analogy - PQ]]
+%%
 
 ## Lens:
 source:: [[../Lenses/IABIED - The WWII Analogy]]
 
-{++{"author":"AI","timestamp":1786270820786}@@%%
-++}## Lens:
-source:: [[../Lenses/IABIED - Coalition Strategy - PQ]]{++{"author":"AI","timestamp":1786270820786}@@
-%%++}
+%%
+## Lens:
+source:: [[../Lenses/IABIED - Coalition Strategy - PQ]]
+%%
 
 ## Lens:
 source:: [[../Lenses/IABIED - Coalition Strategy]]
@@ -342,10 +342,10 @@ source:: [[../Learning Outcomes/Un-writing our fate]]
 ## Learning Outcome: IABIED - Role-Specific Action
 source:: [[../Learning Outcomes/Role-specific action]]
 
-{++{"author":"AI","timestamp":1786270823177}@@%%
-++}## Lens:
-source:: [[../Lenses/IABIED - Un-Writing Our Fate - PQ]]{++{"author":"AI","timestamp":1786270823177}@@
-%%++}
+%%
+## Lens:
+source:: [[../Lenses/IABIED - Un-Writing Our Fate - PQ]]
+%%
 
 ## Lens:
 source:: [[../Lenses/IABIED - Un-Writing Our Fate]]
@@ -358,18 +358,18 @@ source:: [[../Lenses/IABIED - Role-Specific Action]]
 
 # Submodule: Closing Words
 
-{++{"author":"AI","timestamp":1786270825183}@@%%
+%%
 Demoted to optional to reduce final-unit load:
-++}## Learning Outcome: IABIED - The Two Prayers
+## Learning Outcome: IABIED - The Two Prayers
 source:: [[../Learning Outcomes/The two prayers]]
 
 ## Lens:
-source:: [[../Lenses/IABIED - The Two Prayers - PQ]]{++{"author":"AI","timestamp":1786270825183}@@
-%%++}
+source:: [[../Lenses/IABIED - The Two Prayers - PQ]]
+%%
 
 ## Lens:
-{++{"author":"AI","timestamp":1786270825183}@@optional:: true
-++}source:: [[../Lenses/IABIED - The Two Prayers]]
+optional:: true
+source:: [[../Lenses/IABIED - The Two Prayers]]
 
 # Submodule: Your Action Plan
 # Lens: IABIED - Your Ongoing Action

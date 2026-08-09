@@ -10,15 +10,13 @@ readings:
 # Submodule: Part 3 Welcome
 # Lens: Part 3 Welcome
 id:: caf48b0b-f27a-4c09-9336-b443ac7843f4
-tldr:: How can we be so sure an AI won't happen to want things compatible with human {--{"author":"AI","timestamp":1786274482435}@@life, and if it wants something bad, can't we just stop it?--}{++{"author":"AI","timestamp":1786274482435}@@life?++} Chapter 5 argues human-friendly goals are a vanishingly small slice of goal-space, and {--{"author":"AI","timestamp":1786274482435}@@Chapter 6 explains why, against a superintelligence, "we'd lose."--}{++{"author":"AI","timestamp":1786274482435}@@that none of the usual hopes (it'll need us, trade with us, keep us as pets) survive the argument.++}
-summary_for_tutor:: Framing lens for Module 3, covering IABIED {--{"author":"AI","timestamp":1786274482435}@@Chapters--}{++{"author":"AI","timestamp":1786274482435}@@Chapter++} 5 ("Its Favorite {--{"author":"AI","timestamp":1786274482435}@@Things") and 6 ("We'd Lose").--}{++{"author":"AI","timestamp":1786274482435}@@Things").++} Sets up {--{"author":"AI","timestamp":1786274482435}@@two questions:--}{++{"author":"AI","timestamp":1786274482435}@@the module's question:++} why AI goals are unlikely to be compatible with human flourishing (the goal-space argument that human-compatible goals are a tiny subset of possible goals, and that alien intelligences form alien goals, illustrated by the stone-counting nest builders), and why {--{"author":"AI","timestamp":1786274482435}@@humanity could not simply stop a misaligned superintelligence (the Aztec-warrior analogy and--}{++{"author":"AI","timestamp":1786274482435}@@the common hopes (usefulness, trade, pets, leaving Earth alone) fail. Chapter 6 ("We'd Lose") now opens++} the {--{"author":"AI","timestamp":1786274482435}@@power of intelligence plus technology).--}{++{"author":"AI","timestamp":1786274482435}@@next module, where it sets up the extinction-scenario film.++} Orients the learner before the chapter lenses.
+tldr:: How can we be so sure an AI won't happen to want things compatible with human life? Chapter 5 argues human-friendly goals are a vanishingly small slice of goal-space, and that none of the usual hopes (it'll need us, trade with us, keep us as pets) survive the argument.
+summary_for_tutor:: Framing lens for Module 3, covering IABIED Chapter 5 ("Its Favorite Things"). Sets up the module's question: why AI goals are unlikely to be compatible with human flourishing (the goal-space argument that human-compatible goals are a tiny subset of possible goals, and that alien intelligences form alien goals, illustrated by the stone-counting nest builders), and why the common hopes (usefulness, trade, pets, leaving Earth alone) fail. Chapter 6 ("We'd Lose") now opens the next module, where it sets up the extinction-scenario film. Orients the learner before the chapter lenses.
 
 #### Text
-content:: In module 3, we ask {--{"author":"AI","timestamp":1786274484914}@@2--}{++{"author":"AI","timestamp":1786274484914}@@one++} essential{--{"author":"AI","timestamp":1786274484914}@@ questions:
-- First,--}{++{"author":"AI","timestamp":1786274484914}@@ question:++} how do we know that an AI won't want things that are broadly compatible with human life and flourishing?{--{"author":"AI","timestamp":1786274484914}@@
-- Second, in the event it wants --}{++{"author":"AI","timestamp":1786274484914}@@
+content:: In module 3, we ask one essential question: how do we know that an AI won't want things that are broadly compatible with human life and flourishing?
 
-(And if it does want ++}things that are bad for {--{"author":"AI","timestamp":1786274484914}@@humanity,--}{++{"author":"AI","timestamp":1786274484914}@@humanity...++} can't we {--{"author":"AI","timestamp":1786274484914}@@just...?--}{++{"author":"AI","timestamp":1786274484914}@@just stop it? That's where the next module begins.)++}
+(And if it does want things that are bad for humanity... can't we just stop it? That's where the next module begins.)
 
 %%
 **Chapter 5**
@@ -239,128 +237,5 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Orthogonality]]
 
-{--{"author":"AI","timestamp":1786274511633}@@# Submodule: Ch6 - We'd Lose
-add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 - We'd Lose]]
+{>>{"author":"AI","timestamp":1786274511633}@@Chapter 6 (We'd Lose) moved to Module 4, where it opens the unit and sets up the extinction-scenario film, matching the book's own handoff (Ch6 ends with the story's first line).<<}
 
-# Learning Outcome: IABIED - Define the Aztec Warrior Analogy
-source:: ![[../Learning Outcomes/The Aztec warrior analogy]]
-
-# Learning Outcome: IABIED - Describe the Refrigerator Thought Experiment
-source:: ![[../Learning Outcomes/The refrigerator thought experiment]]
-
-# Lens:
-source:: ![[../Lenses/IABIED - Define the Aztec Warrior Analogy - PQ]]
-
-# Lens:
-source:: ![[../Lenses/IABIED - Define the Aztec Warrior Analogy]]
-
-# Lens:
-source:: ![[../Lenses/IABIED - PQ - Describe the Refrigerator Thought Experiment]]
-
-# Lens:
-source:: ![[../Lenses/IABIED - Describe the Refrigerator Thought Experiment]]
-
-# Lens: Dive Deeper: Chapter 6
-id:: 6937c099-cce1-4d6a-8dfa-bd0e05d8d2de
-tldr:: Going deeper on Chapter 6? The book's supplementary Q&As cover "can't we just pull the plug?", "can't we keep it in a box?", and the other ways people hope we'd win.
-summary_for_tutor:: Optional Dive Deeper index lens for Chapter --}{++{"author":"AI","timestamp":1786274511633}@@{>>{"author":"AI","timestamp":1786274511633}@@Chapter ++}6 (We'd {--{"author":"AI","timestamp":1786274511633}@@Lose). Links the book website's supplementary Q&A cards covering objections such as pulling the plug, keeping AI in a box, exploiting AI weaknesses, enhancing humans, limits from experiments, instrumental convergence, and losing the future. A navigation and index lens only; --}{++{"author":"AI","timestamp":1786274511633}@@Lose) moved to Module 4, where ++}it{--{"author":"AI","timestamp":1786274511633}@@ carries no standalone teaching content of its own.
-optional:: true
-
-#### Text:
-content::
-Want to go deeper on this chapter's ideas? These optional resources were gathered by--}{++{"author":"AI","timestamp":1786274511633}@@ opens++} the {--{"author":"AI","timestamp":1786274511633}@@book's authors--}{++{"author":"AI","timestamp":1786274511633}@@unit++} and{--{"author":"AI","timestamp":1786274511633}@@ by us.
-
-Skim whatever catches your eye.
-
-::card[[../Lenses/IABIED - QA - Pull --}{++{"author":"AI","timestamp":1786274511633}@@ sets up ++}the{--{"author":"AI","timestamp":1786274511633}@@ Plug]]
-::card[[../Lenses/IABIED - QA - Digital AIs Affect Us]]
-::card[[../Lenses/IABIED - QA - Keep AI in a Box]]
-::card[[../Lenses/IABIED - QA - Exploit AI Weakness]]
-::card[[../Lenses/IABIED - QA - Enhance Humans]]
-::card[[../Lenses/IABIED - QA - AI Civilization]]
-::card[[../Lenses/IABIED - QA - Limited by Experiments]]
-::card[[../Lenses/IABIED - QA - Nanotechnology and Protein Synthesis]]
-::card[[../Lenses/IABIED - QA - Optical Illusions Discovery]]
-::card[[../Lenses/IABIED - QA - Instrumental Convergence]]
-::card[[../Lenses/IABIED - QA - Intelligent Implies Incorrigible]]
-::card[[../Lenses/IABIED - QA - Hard to Get Robust Laziness]]
-::card[[../Lenses/IABIED - QA - AIs Won't Keep Promises]]
-::card[[../Lenses/IABIED - QA - Effectiveness Consciousness AI Welfare]]
-::card[[../Lenses/IABIED - QA - Losing--}{++{"author":"AI","timestamp":1786274511633}@@ extinction-scenario film, matching++} the {--{"author":"AI","timestamp":1786274511633}@@Future]]
-
-# Lens: IABIED - QA - Pull the Plug
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Pull --}{++{"author":"AI","timestamp":1786274511633}@@book's own handoff (Ch6 ends with ++}the{--{"author":"AI","timestamp":1786274511633}@@ Plug]]
-
-# Lens: IABIED - QA - Digital AIs Affect Us
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Digital AIs Affect Us]]
-
-# Lens: IABIED - QA - Keep AI in a Box
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Keep AI in a Box]]
-
-# Lens: IABIED - QA - Exploit AI Weakness
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Exploit AI Weakness]]
-
-# Lens: IABIED - QA - Enhance Humans
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Enhance Humans]]
-
-# Lens: IABIED - QA - AI Civilization
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - AI Civilization]]
-
-# Lens: IABIED - QA - Limited by Experiments
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Limited by Experiments]]
-
-# Lens: IABIED - QA - Nanotechnology and Protein Synthesis
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Nanotechnology and Protein Synthesis]]
-
-# Lens: IABIED - QA - Optical Illusions Discovery
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Optical Illusions Discovery]]
-
-# Lens: IABIED - QA - Instrumental Convergence
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Instrumental Convergence]]
-
-# Lens: IABIED - QA - Intelligent Implies Incorrigible
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Intelligent Implies Incorrigible]]
-
-# Lens: IABIED - QA - Hard to Get Robust Laziness
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Hard to Get Robust Laziness]]
-
-# Lens: IABIED - QA - AIs Won't Keep Promises
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - AIs Won't Keep Promises]]
-
-# Lens: IABIED - QA - Effectiveness Consciousness AI Welfare
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Effectiveness Consciousness AI Welfare]]
-
-# Lens: IABIED - QA - Losing the Future
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Losing the Future]]--}{++{"author":"AI","timestamp":1786274511633}@@ story's first line).<<}++}{++{"author":"AI","timestamp":1786274522103}@@
-
-++}

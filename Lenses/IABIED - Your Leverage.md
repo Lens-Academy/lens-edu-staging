@@ -1,8 +1,8 @@
 ---
 id: 2fa06534-a9b0-4bab-b906-1f2f7db1c99e
-summary_for_tutor: Action-plan seed for Module {--{"author":"AI","timestamp":1786274566621}@@4.--}{++{"author":"AI","timestamp":1786274566621}@@4.++} After the {--{"author":"AI","timestamp":1786274566621}@@extinction scenario,--}{++{"author":"AI","timestamp":1786274566621}@@extinction scenario (the film plus the book's Coda),++} students inventory their strengths, then research with the tutor where someone with their profile could plausibly contribute to AI safety. The tutor acts as an honest career-exploration partner, not a cheerleader, and never lets the exchange end fatalistic.
+summary_for_tutor: Action-plan seed for Module 4. After the extinction scenario (the film plus the book's Coda), students inventory their strengths, then research with the tutor where someone with their profile could plausibly contribute to AI safety. The tutor acts as an honest career-exploration partner, not a cheerleader, and never lets the exchange end fatalistic.
 title: Your Leverage
-tldr: "The {--{"author":"AI","timestamp":1786274571300}@@scenario--}{++{"author":"AI","timestamp":1786274571300}@@scenario++} you just {--{"author":"AI","timestamp":1786274571300}@@read is--}{++{"author":"AI","timestamp":1786274571300}@@watched is++} grim on purpose. This is where you stop spectating: map what you're unusually good at, then find where it bites on the problem."
+tldr: "The scenario you just watched is grim on purpose. This is where you stop spectating: map what you're unusually good at, then find where it bites on the problem."
 authors:
   - Elias+Claude
 add_to_ai_context:
@@ -11,7 +11,7 @@ add_to_ai_context:
 #### Text
 content::
 \## From argument to action
-You've just {--{"author":"AI","timestamp":1786274573779}@@read the book's darkest stretch.--}{++{"author":"AI","timestamp":1786274573779}@@been through the book's darkest stretch.++} The authors' point isn't despair. It's that this is worth acting on while acting still matters. Over the coming weeks you'll sketch a personal action plan. Today is the raw material: three short exercises with the tutor.
+You've just been through the book's darkest stretch. The authors' point isn't despair. It's that this is worth acting on while acting still matters. Over the coming weeks you'll sketch a personal action plan. Today is the raw material: three short exercises with the tutor.
 
 ---
 
@@ -25,7 +25,7 @@ Take 5 minutes and write freely; speech-to-text works well here. What are you un
 - What work makes you lose track of time
 - Your real constraints (time, location, obligations)
 
-assessment-instructions:: The student has just read {--{"author":"AI","timestamp":1786274579865}@@Chapters 7–9 and --}{++{"author":"AI","timestamp":1786274579865}@@Chapter ++}{--{"author":"AI","timestamp":1786270755510}@@the Coda--}{++{"author":"AI","timestamp":1786270755510}@@6++} of "If Anyone Builds It, Everyone {--{"author":"AI","timestamp":1786274579865}@@Dies" (the extinction scenario)--}{++{"author":"AI","timestamp":1786274579865}@@Dies", watched the film of the book's extinction scenario, read the Coda,++} and written a free inventory of their strengths, position, and constraints.
+assessment-instructions:: The student has just read Chapter 6 of "If Anyone Builds It, Everyone Dies", watched the film of the book's extinction scenario, read the Coda, and written a free inventory of their strengths, position, and constraints.
 
 Your role: act as a brief, honest mirror, not a cheerleader.
 

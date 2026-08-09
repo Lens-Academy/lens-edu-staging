@@ -12,14 +12,14 @@ authors:
 content::
 **Your action plan, step 2: leave the building**
 
-{--{"author":"AI","timestamp":1786270796745}@@Last--}{++{"author":"AI","timestamp":1786270796745}@@Back in++} module {++{"author":"AI","timestamp":1786270796745}@@3 ++}you mapped your strengths. This{--{"author":"AI","timestamp":1786270796745}@@ week's--} step is smaller and harder: talk to one person you know about what you've been reading.
+Back in module 3 you mapped your strengths. This step is smaller and harder: talk to one person you know about what you've been reading.
 
 Three reasons this is worth your time:
 - **It's the best test of your own understanding.** Inside this course, everyone shares vocabulary. Explaining the argument to someone who has never heard of instrumental convergence shows you what you know and what parts you were only nodding along to.
 - **It's the book's own ask.** The authors' call to ordinary citizens is not "become a researcher", it's to talk about the problem, because leaders can only act on risks their people are already taking seriously.
-- **It grows the room.** If the conversation lands, you might bring the person along. A friend who reads the same chapters is worth ten strangers who agree with you.{++{"author":"AI","timestamp":1786274600754}@@
+- **It grows the room.** If the conversation lands, you might bring the person along. A friend who reads the same chapters is worth ten strangers who agree with you.
 
-One thing to know before you go: the hesitation you might feel ("I don't want to sound alarmist") is the same one the experts feel. Geoffrey Hinton says "at least 10 percent" in public while privately putting the risk far higher, "because there's other people who think it's less." You'll read about this pattern in the final chapters; for now, just notice that your conversation doesn't need to be alarmist, only honest.++}
+One thing to know before you go: the hesitation you might feel ("I don't want to sound alarmist") is the same one the experts feel. Geoffrey Hinton says "at least 10 percent" in public while privately putting the risk far higher, "because there's other people who think it's less." You'll read about this pattern in the final chapters; for now, just notice that your conversation doesn't need to be alarmist, only honest.
 
 #### Question
 content::
@@ -30,7 +30,7 @@ Take 2 minutes. Who will you talk to this week? Write down:
 - What they already think about AI, as far as you know
 - The moment in the conversation you expect to be hardest
 
-assessment-instructions:: The student is choosing one real person to talk to about AI extinction risk this week, after {--{"author":"AI","timestamp":1786270801704}@@reading Chapters 1-11 of--}{++{"author":"AI","timestamp":1786270801704}@@working through++} "If Anyone Builds It, Everyone {--{"author":"AI","timestamp":1786270801704}@@Dies".--}{++{"author":"AI","timestamp":1786270801704}@@Dies" up to Chapter 11 (with a takeover-scenario video in place of the book's story chapters).++}
+assessment-instructions:: The student is choosing one real person to talk to about AI extinction risk this week, after working through "If Anyone Builds It, Everyone Dies" up to Chapter 11 (with a takeover-scenario video in place of the book's story chapters).
 
 Your role: a brief, honest coach, not a cheerleader.{++{"author":"action-plan tutor prompt import (resume)'s AI","timestamp":1785503019231}@@ Your "Coach Guidance - AI Safety Impact Pathways" reference applies here: this conversation is the citizens' lever from the mobilization model. Watch the four activation conditions — a student picking a safe person is usually low on self-efficacy, and one with a vague plan is low on path clarity. Coach toward what's actually blocked, without manipulative pressure.++}
 

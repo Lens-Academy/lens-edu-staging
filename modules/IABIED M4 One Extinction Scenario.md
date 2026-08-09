@@ -4,15 +4,15 @@ slug: iabied-m4
 title: "One Extinction Scenario"
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 readings:
-  - {++{"author":"AI","timestamp":1786274408232}@@"Chapter 6: We'd Lose"
-  - ++}"Coda"
+  - "Chapter 6: We'd Lose"
+  - "Coda"
 ---
 
 # Submodule: Welcome
 ### Lens: M4 Welcome
 source:: ![[../Lenses/IABIED - M4 Welcome]]
 
-# Submodule: {++{"author":"AI","timestamp":1786274426279}@@Ch6 - We'd Lose
+# Submodule: Ch6 - We'd Lose
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 - We'd Lose]]
 
 ## Learning Outcome: IABIED - Define the Aztec Warrior Analogy
@@ -131,15 +131,9 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Losing the Future]]
 
-# Submodule: ++}{--{"author":"AI","timestamp":1786270694564}@@Ch7 - Realization
-add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/07 - Chapter 7 - Realization]]
-
-## Learning Outcome: IABIED - State Goal-Conflict Recognition as a Physical Fact--}{++{"author":"AI","timestamp":1786270694564}@@The Scenario++}
-## Lens:{--{"author":"AI","timestamp":1786270694564}@@
-source:: ![[../Lenses/IABIED - Goal-Conflict Recognition as a Physical Fact - PQ]]
-
-## Lens:--}{++{"author":"AI","timestamp":1786270694564}@@ One Extinction Scenario (Video)++}
-source:: ![[../Lenses/IABIED -{--{"author":"AI","timestamp":1786270694564}@@ Goal-Conflict Recognition as a Physical Fact]]--}{++{"author":"AI","timestamp":1786270694564}@@ One Extinction Scenario (Video)]]++}
+# Submodule: The Scenario
+## Lens: One Extinction Scenario (Video)
+source:: ![[../Lenses/IABIED - One Extinction Scenario (Video)]]
 
 ## Lens: Dive Deeper: Chapter 7
 id:: e196bef6-01c9-48d8-b252-c1561bf52111
@@ -184,28 +178,7 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Only One Smart AI]]
 
-{--{"author":"AI","timestamp":1786270703590}@@# Submodule: Ch8 - Expansion
-add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/08 - Chapter 8 - Expansion]]
-
-## Learning Outcome: IABIED - Explain Instrumental Sub-Goal Convergence
-source:: ![[../Learning Outcomes/Instrumental sub-goal convergence]]
-
-## Learning Outcome: IABIED - State Human Welfare as Instrumental Variable
-source:: ![[../Learning Outcomes/Human welfare as an instrumental variable]]
-
-## Lens:
-source:: ![[../Lenses/IABIED - Instrumental Sub-Goal Convergence - PQ]]
-
-## Lens:
-source:: ![[../Lenses/IABIED - Instrumental Sub-Goal Convergence]]
-
-## Lens:
-source:: ![[../Lenses/IABIED - Human Welfare as Instrumental Variable - PQ]]
-
-## Lens:
-source:: ![[../Lenses/IABIED - Human Welfare as Instrumental Variable]]
-
---}## Lens: Dive Deeper: Chapter 8
+## Lens: Dive Deeper: Chapter 8
 id:: 4203d159-296c-4cab-a744-373d86fbdd23
 tldr:: Optional companion Q&As for the expansion phase: how Sable spreads, how the story would differ if it started later, and why power-seeking sub-goals show up for almost any goal.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 8 (Expansion). Links the book website's supplementary Q&A cards covering what would change if the story started later, Sable's expansion phase, and instrumental convergence. A navigation and index lens only; it carries no standalone teaching content of its own.
@@ -237,19 +210,7 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Instrumental Convergence]]
 
-{--{"author":"AI","timestamp":1786270706461}@@# Submodule: Ch9 - Ascension
-add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/09 - Chapter 9 - Ascension]]
-
-## Learning Outcome: IABIED - Explain Indifference Not Malice
-source:: ![[../Learning Outcomes/Indifference, not malice]]
-
-## Lens:
-source:: ![[../Lenses/IABIED - Indifference Not Malice - PQ]]
-
-## Lens:
-source:: ![[../Lenses/IABIED - Indifference Not Malice]]
-
---}## Lens: Dive Deeper: Chapter 9
+## Lens: Dive Deeper: Chapter 9
 id:: b3132948-6f00-4d18-89f1-40d46c96e92c
 tldr:: Optional companion Q&As for the scenario's end: what the ending really claims, and why a superintelligence wouldn't simply choose to be moral.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 9 (Ascension). Links the book website's supplementary Q&A cards covering the scenario's ending and the objection that a superintelligence would choose to be moral or install love into itself. A navigation and index lens only; it carries no standalone teaching content of its own.
@@ -292,9 +253,7 @@ source:: ![[../Lenses/IABIED - Path Prediction vs Outcome Prediction]]
 ## Lens:
 source:: ![[../Lenses/IABIED - Fiction as Argument]]
 
-{--{"author":"AI","timestamp":1786274443256}@@# Submodule: Your Leverage
-### Lens: IABIED - Your Leverage
-source:: ![[../Lenses/IABIED - Your Leverage]]--}{++{"author":"AI","timestamp":1786274443256}@@# Submodule: Your Leverage
+# Submodule: Your Leverage
 ## Lens: IABIED - Your Leverage
 source:: ![[../Lenses/IABIED - Your Leverage]]
 
@@ -309,7 +268,7 @@ content::
 
 In the next unit you'll prepare for one real conversation about AI risk with someone you know: you'll pick the person, rehearse the conversation with the tutor, and then actually have it.
 
-The single best predictor of that conversation happening is having a time on the calendar. So think of your person now, and send them a message today suggesting a time. "Want to grab a coffee next week? I've been reading something I want to tell you about" is plenty.++}
+The single best predictor of that conversation happening is having a time on the calendar. So think of your person now, and send them a message today suggesting a time. "Want to grab a coffee next week? I've been reading something I want to tell you about" is plenty.
 
 
 
