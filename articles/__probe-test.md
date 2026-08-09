@@ -1,4 +1,4 @@
-{++{"author":"Course Designer's AI","timestamp":1786146130084}@@---
+---
 title: "Probe"
 source_url: "https://example.com/probe"
 tags:
@@ -7,4 +7,4 @@ tags:
 
 ## Probe Heading
 
-Probe body text.++}
+Probe body text.
