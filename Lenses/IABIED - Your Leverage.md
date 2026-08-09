@@ -25,7 +25,7 @@ Take 5 minutes and write freely; speech-to-text works well here. What are you un
 - What work makes you lose track of time
 - Your real constraints (time, location, obligations)
 
-assessment-instructions:: The student has just read Chapters 7–9 and the Coda of "If Anyone Builds It, Everyone Dies" (the extinction scenario) and written a free inventory of their strengths, position, and constraints.
+assessment-instructions:: The student has just read Chapters {--{"author":"AI","timestamp":1786270755510}@@7–9--}{++{"author":"AI","timestamp":1786270755510}@@5++} and {--{"author":"AI","timestamp":1786270755510}@@the Coda--}{++{"author":"AI","timestamp":1786270755510}@@6++} of "If Anyone Builds It, Everyone Dies" {--{"author":"AI","timestamp":1786270755510}@@(the extinction scenario)--}{++{"author":"AI","timestamp":1786270755510}@@("Its Favorite Things" and "We'd Lose")++} and written a free inventory of their strengths, position, and constraints.
 
 Your role: act as a brief, honest mirror, not a cheerleader.
 

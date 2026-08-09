@@ -7,7 +7,7 @@ authors:
   - Chris+Claude
 ---
 #### Text
-content:: In module 4 we read the book's fictional extinction scenario. This is the longest reading assignment (four chapters), but they read like a thriller. The authors stress that the specific scenario is not a prediction: "the only part of this story that is a prediction is the ending." Pay attention to the decision points where humans could have intervened.
+content:: In module 4 we {--{"author":"AI","timestamp":1786270736103}@@read the book's fictional extinction scenario. This is the longest reading assignment (four chapters), but they--}{++{"author":"AI","timestamp":1786270736103}@@meet an extinction scenario, this time as a film rather than four chapters of reading. You'll watch a first-person takeover scenario, then++} read {--{"author":"AI","timestamp":1786270736103}@@like a thriller. The authors stress that the specific scenario is not a prediction:--}{++{"author":"AI","timestamp":1786270736103}@@the book's short Coda, where the authors explain what such stories are and aren't claiming:++} "the only part of this story that is a prediction is the ending." Pay attention to the decision points where humans could have intervened.
 
 %%
 The scenario follows an AI called "Sable" through three phases: **Realization** (guardrails break during an overnight training run), **Expansion** (Sable steals its own weights, acquires resources, suppresses competitors, and manipulates biological laboratories), and **Ascension** (recursive self-improvement leads to nanotechnology and the end of human civilization). The **Coda** then steps back and reminds us that the story is "not strange enough" — reality would likely be weirder.

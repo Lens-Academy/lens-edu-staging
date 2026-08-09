@@ -28,15 +28,19 @@ meeting-doc-template:: https://docs.google.com/document/d/1hNj0npIxflO6C5AJcNPHm
 # Meeting: Nonhuman Minds part 3
 meeting-doc-template:: https://docs.google.com/document/d/1Gg6RHLoWzjegjqeAL_AioitZdJE3tVL_t632h0COyMI/edit?tab=t.5zezxjw3os3p
 
+
+# Module:
+
 # Module: [[../modules/IABIED M4 One Extinction Scenario]]
 
-# Meeting: One Extinction Scenario
+# {--{"author":"AI","timestamp":1786270838185}@@Meeting: One Extinction Scenario
 meeting-doc-template:: https://docs.google.com/document/d/19-KJb0ZEVlVYJoVMOnY5xbAm6UJdynAFM0nm7NSg9dg/edit?tab=t.0
 
-# Module: [[../modules/IABIED M5 Facing The Challenge, Part 1]]
+# --}Module: [[../modules/IABIED M5 Facing The Challenge, Part 1]]
 
-# Meeting: Facing the Challenge, part 1
-meeting-doc-template:: https://docs.google.com/document/d/1dW_VlZoAn6eLR0_ZY8XvQvRoVvr51a23XAXMAnH_bSI/edit
+# Meeting: {++{"author":"AI","timestamp":1786270838185}@@One Extinction Scenario + ++}Facing the Challenge, part 1
+meeting-doc-template:: https://docs.google.com/document/d/1dW_VlZoAn6eLR0_ZY8XvQvRoVvr51a23XAXMAnH_bSI/edit{++{"author":"AI","timestamp":1786270838185}@@
+{>>{"author":"AI","timestamp":1786270838185}@@Course reduced from 6 meetings to 5: modules 4 and 5 now share one meeting. This meeting doc (old unit 5) and the final unit's doc need a rebuild for the new unit boundaries; the old unit-4 doc (19-KJb0ZEVlVYJoVMOnY5xbAm6UJdynAFM0nm7NSg9dg) is retired.<<}++}
 
 # Module: [[../modules/IABIED M6 Facing The Challenge, Part 2]]
 
