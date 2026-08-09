@@ -18,7 +18,11 @@ content::
 
 A colleague shows you a chart and an argument.
 
-"Here is our model's score on a coding benchmark, measured every quarter for three years. It is a clean exponential, R-squared 0.97, and it held across two complete architecture changes, so it is clearly not an artifact of any one approach. The benchmark tops out at 100. We are at 61. At this rate we saturate it in fourteen months. So: fourteen months until this benchmark is solved, and I am confident because the fit is excellent."
+"Here is our {--{"author":"Elias's AI","timestamp":1786303057183}@@model's--}{++{"author":"Elias's AI","timestamp":1786303057183}@@AI's++} score on a coding {--{"author":"Elias's AI","timestamp":1786303057183}@@benchmark,--}{++{"author":"Elias's AI","timestamp":1786303057183}@@benchmark[^benchmark],++} measured every quarter for three years. It is a clean {--{"author":"Elias's AI","timestamp":1786303057183}@@exponential,--}{++{"author":"Elias's AI","timestamp":1786303057183}@@exponential[^exponential],++} R-squared {--{"author":"Elias's AI","timestamp":1786303057183}@@0.97,--}{++{"author":"Elias's AI","timestamp":1786303057183}@@0.97[^rsq],++} and it held across two complete architecture changes, so it is clearly not an artifact of any one approach. The benchmark tops out at 100. We are at 61. At this rate we saturate it in fourteen months. So: fourteen months until this benchmark is solved, and I am confident because the fit is excellent."{++{"author":"Elias's AI","timestamp":1786303057183}@@
+
+[^benchmark]: A benchmark is a fixed, standardized test that AI systems are scored on; this one scores from 0 to 100.
+[^exponential]: Growth that multiplies by the same factor each period (1, 2, 4, 8, ...) rather than adding the same amount.
+[^rsq]: R-squared is a 0-to-1 score of how tightly a curve hugs the measured points; 0.97 is very tight. Note what it measures: agreement with the data you already have, nothing more.++}
 
 Every factual claim your colleague makes is true. The fit really is 0.97, it really did survive two architecture changes, and the arithmetic is right.
 
