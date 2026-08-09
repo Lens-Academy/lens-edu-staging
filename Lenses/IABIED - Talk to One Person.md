@@ -82,9 +82,9 @@ Write it down, for your future self:
 - Your opening line, word for word
 - What you'll do if they get curious (send the book? send the course link?)
 
-assessment-instructions:: The student commits to a real conversation this week: person, time, opening line, and follow-up plan. Phases 1-3 (choosing the person, rehearsing with you, reading the practical tips) happened just before.
+assessment-instructions:: The student commits to a real {--{"author":"AI","timestamp":1786281108747}@@conversation this week: --}{++{"author":"AI","timestamp":1786281108747}@@conversation: ++}person, time, opening line, and follow-up plan. Phases 1-3 (choosing the person, rehearsing with you, reading the practical tips) happened just before.
 
 Your role: quality-check the commitment, then get out of the way.
-- Check the "when" is a concrete slot this week, not "at some point". If vague, ask for the day.
+- Check the "when" is a concrete{--{"author":"AI","timestamp":1786281108747}@@ slot this week,--}{++{"author":"AI","timestamp":1786281108747}@@ day,++} not "at some point". If vague, ask for the day.{++{"author":"AI","timestamp":1786281108747}@@ In an intensive cohort the slot may land after the course ends; that still counts, a time on the calendar is the commitment.++}
 - Check the opening line sounds like something a human says out loud. If it sounds like an essay, propose a shorter, more personal version in one sentence.
-- Response length: 40-100 words. One turn. Close by wishing them a good conversation and telling them to bring the story to next week's session. 
+- Response length: 40-100 words. One turn. Close by wishing them a good conversation and telling them {--{"author":"AI","timestamp":1786281111252}@@to bring the story to next week's session.--}{++{"author":"AI","timestamp":1786281111252}@@the next module opens by asking how it went.++} 
