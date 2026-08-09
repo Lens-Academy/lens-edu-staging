@@ -16,7 +16,7 @@ content::
 
 - A **trend** is one measured quantity over time: tallest structure, ship tonnage, transatlantic message speed.
 - A **step** is one new data point in that record: a single new ship, bridge, or bomb.
-- A step counts as a **jump** when it moves the metric further than a century at the trend's previous rate would have.
+- A step counts as a **jump** when it {--{"author":"Elias's AI","timestamp":1786302958352}@@moves--}{++{"author":"Elias's AI","timestamp":1786302958352}@@delivers more than a century of *surplus* progress: take++} the {--{"author":"Elias's AI","timestamp":1786302958352}@@metric further --}{++{"author":"Elias's AI","timestamp":1786302958352}@@progress the step actually made, subtract what the elapsed time already promised at the trend's previous rate, and more ++}than {++{"author":"Elias's AI","timestamp":1786302958352}@@100 extra years' worth must remain. So a sparse record is not jumpy by default: a step that covers 150 quiet years and lands exactly where extrapolation predicted has zero surplus. One honest caveat: the bar is applied one step at a time, so whether ++}a {++{"author":"Elias's AI","timestamp":1786302958352}@@fast burst counts can depend on how finely history recorded it; a ++}century {--{"author":"Elias's AI","timestamp":1786302958352}@@at--}{++{"author":"Elias's AI","timestamp":1786302958352}@@of surplus smeared across many small steps may never clear++} the {--{"author":"Elias's AI","timestamp":1786302958352}@@trend's previous rate would have.--}{++{"author":"Elias's AI","timestamp":1786302958352}@@bar in any single one. The researchers flag this themselves.++}
 
 Before you see their numbers, you will write down yours. This one stings a little; the sting is the data you keep.
 
