@@ -3,18 +3,16 @@ id: 08699f65-4d31-4570-b46e-3e0cb5b2ffe4
 slug: iabied-m7
 title: "What Happens Next"
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
-{--{"author":"AI","timestamp":1786274619533}@@tags:
-  - work-in-progress
---}---
+---
 
-{++{"author":"AI","timestamp":1786274702298}@@%%
+%%
 Both learning outcomes still have empty Test sections (wip). Re-enable once their tests are written; the Welcome chat below covers the synthesis work in the meantime.
-++}# Learning Outcome: IABIED - Synthesize the Core Argument
+# Learning Outcome: IABIED - Synthesize the Core Argument
 source:: ![[../Learning Outcomes/The core extinction argument]]
 
 # Learning Outcome: IABIED - Identify Your Path Forward
-source:: ![[../Learning Outcomes/Your path forward]]{++{"author":"AI","timestamp":1786274702298}@@
-%%++}
+source:: ![[../Learning Outcomes/Your path forward]]
+%%
 
 # Lens: Welcome
 id:: 4d287f1a-5049-4671-a34e-b49385e7ac5e
@@ -22,9 +20,9 @@ tldr:: Can you make the whole book's argument to someone who's never read it? Th
 summary_for_tutor:: Synthesis lens for the final IABIED module, with no new reading. Frames the week around recalling the book's full twelve-step argument chain: intelligence steers the future, AI is grown rather than crafted, training produces want-like behavior, you don't get what you train for, human-compatible goals are vanishingly rare, a superintelligence would defeat humanity, the engineering problem is cursed, current approaches are alchemy, perverse incentives push everyone onward, a worldwide halt is needed, and there is still hope. The chat tutor asks the learner to present the complete argument unaided, then probes for gaps and prompts reflection on counterarguments, changed thinking, and concrete next actions.
 
 #### Text
-content:: Welcome to our final module. There's no new reading {--{"author":"AI","timestamp":1786274624044}@@this week.--}{++{"author":"AI","timestamp":1786274624044}@@here.++} Instead, we synthesize everything we've learned and chart a path forward. Can you make the book's complete argument to someone who hasn't read it? What will you do next?
+content:: Welcome to our final module. There's no new reading here. Instead, we synthesize everything we've learned and chart a path forward. Can you make the book's complete argument to someone who hasn't read it? What will you do next?
 
-Over {--{"author":"AI","timestamp":1786274624044}@@the past six weeks,--}{++{"author":"AI","timestamp":1786274624044}@@this course,++} we've built up a chain of reasoning: intelligence is uniquely powerful → AI is grown, not crafted → training produces wants → you don't get what you train for → AI's goals won't be human-compatible → it would defeat us → the engineering problem is cursed → current approaches are alchemy → incentives push everyone to keep going → we need to shut it down → there is still hope if we act.
+Over this course, we've built up a chain of reasoning: intelligence is uniquely powerful → AI is grown, not crafted → training produces wants → you don't get what you train for → AI's goals won't be human-compatible → it would defeat us → the engineering problem is cursed → current approaches are alchemy → incentives push everyone to keep going → we need to shut it down → there is still hope if we act.
 
 This week is about making sure that chain is solid in your mind, and identifying how you personally want to engage with these issues going forward.
 
@@ -56,8 +54,8 @@ Discussion topics to explore:
 Start by asking the student to present the complete argument. Listen carefully, then probe for gaps or places where their understanding could be strengthened. Be encouraging but rigorous.
 
 # Lens:
-{++{"author":"AI","timestamp":1786274621996}@@optional:: true
-++}source:: {--{"author":"AI","timestamp":1786274621996}@@[[../Lenses/IABIED--}{++{"author":"AI","timestamp":1786274621996}@@![[../Lenses/IABIED++} - QA - Warning Shots]]
+optional:: true
+source:: ![[../Lenses/IABIED - QA - Warning Shots]]
 
 # Lens:
 optional:: true
