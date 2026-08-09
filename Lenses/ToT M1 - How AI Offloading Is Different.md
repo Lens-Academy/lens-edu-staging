@@ -101,29 +101,4 @@ Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4
 
 Safety and integrity: ask under what circumstances the comparison would be fair (e.g. AI used only for arithmetic-like sub-tasks). If the student is stuck after 2 attempts, give a brief direct answer and move on.
 
-{--{"author":"AI","timestamp":1786178947092}@@---
 
-%% TODO: add a fuller reading passage to ground this question. It currently stands in for the former chapter-end test. %%
-#### Question
-content::
-\## Chapter check
-A colleague says: "I don't see what the fuss is about. An AI assistant is just a faster calculator. I use both, and neither does my thinking for me."
-
-Is the AI assistant "just a faster calculator"? Explain the difference between the two kinds of offloading, including what each leaves in your hands and what each hides from you.
-
-assessment-instructions:: Chapter check for Unit 1. Score the answer according to the rubric below.
-- The reading's distinction: earlier tools offload narrow tasks (arithmetic, route-finding, spelling) and the judgement stays with the user
-- AI offloads interpretation and judgement: it produces complete analyses, drafts, and recommendations
-- With earlier tools, the user usually still understands the task (what a sum means) and can check the result
-- AI is a black box: it gives a confident answer, but the reasoning behind that answer stays hidden
-- The deeper point: the user often does not notice how much judgement they have handed over
-
-**1** — Agrees that an AI assistant is "just a faster calculator" and sees no real difference.
-**2** — Notes that AI is more flexible or handles harder things, but cannot say what is different about what is offloaded or what stays with the user.
-**3** — Correctly distinguishes the two: earlier tools offload narrow computation while judgement stays with the user; AI offloads interpretation and judgement and hands back complete analyses and recommendations. This is the passing core.
-**4** — As above, plus names the black-box difference: the AI gives a confident answer but its reasoning is hidden, so the user cannot inspect how the answer was reached.
-**5** — As above, plus explains why this matters: because the reasoning is hidden and the output looks complete, the user may not even notice how much judgement they handed over, which is what the rest of the course is about.
-
-Do not penalise a learner who uses their own examples of AI use. A strong student should be allowed to note that calculators can also be used thoughtlessly, as long as they still state the difference in what is offloaded.
-
-Feedback tone: direct, specific, no generic praise.--}

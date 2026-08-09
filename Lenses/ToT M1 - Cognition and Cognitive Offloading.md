@@ -118,32 +118,4 @@ Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4
 
 Safety and integrity: if the student asserts a strong causal claim, ask what it relies on and how it could be falsified. If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
 
-{--{"author":"AI","timestamp":1786178947047}@@---
 
-%% TODO: add a fuller reading passage to ground this question. It currently stands in for the former chapter-end test. %%
-#### Question
-content::
-\## Chapter check
-A colleague tells you: "I never offload my thinking to anything. I do every step of every task in my own head. Tools are a crutch, and people who use them are just lazy."
-
-Pick two real-life examples of offloading (they can come from your own life) and use them to explain to your colleague whether their statement is right or wrong. Your answer should show what offloading is, how normal it is, and one thing it costs us.
-
-assessment-instructions:: Chapter check for Unit 1. Score the answer according to the rubric below. The answer passes once it shows the learner can define cognitive offloading, give two valid examples, and explain both why offloading is normal and what it costs.
-
-Key concepts the answer should engage with:
-- Cognitive offloading: delegating a thinking task to a tool or to another person
-- Everyday examples: maps, calculators, spellcheck, asking a colleague, checklists, search engines
-- Distributed cognition: humans have always spread thinking across tools and people; offloading is not new
-- Why it feels good: brains want to be efficient; finished tasks teach shortcuts
-- The trade-off: offloading buys time, and that time is time not spent practising the task
-- A quiet loss: skills like spelling can weaken without us deciding to give them up
-
-**1** — Insists offloading is always laziness, says no valid example exists, or cannot tell the colleague why the statement is wrong.
-**2** — Recognises that examples like calculators or maps are offloading, but frames the habit as an individual failing or as something unusual; cannot say why offloading is normal.
-**3** — Correctly identifies two valid everyday examples of offloading (tool or person) and explains why offloading is a normal human habit (brains want efficiency; we have always shared thinking with tools and people). This is the passing core.
-**4** — As above, plus names a real cost: the time offloaded becomes time not spent practising the task, so a skill can quietly weaken (spelling, mental arithmetic, route memory).
-**5** — As above, plus connects offloading to the course's central thread: offloading is not good or bad by itself; whether it helps depends on when and how you use it.
-
-A strong student should be allowed to argue that some offloading is harmless or even beneficial for good reasons, as long as they still define the term correctly and name at least one genuine cost. Do not penalise a learner who uses their own personal examples.
-
-Feedback tone: direct, specific, no generic praise. If the core is missing, say plainly what the answer would need to include to pass.--}
