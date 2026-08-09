@@ -53,7 +53,7 @@ Single pass/fail overall. Pass requires {--{"author":"Elias's AI","timestamp":17
 3. A falsifier for each that is genuinely near-term and observable within about two years.
 4. One shared assumption named.{--{"author":"Elias's AI","timestamp":1786303103593}@@
 
-Each of those four--}{++{"author":"Elias's AI","timestamp":1786303103593}@@ This is asked for and addressed in feedback but is NOT a pass gate: it is the level-4 move in the rubric, and the pass bar++} is {--{"author":"Elias's AI","timestamp":1786303103593}@@itself--}{++{"author":"Elias's AI","timestamp":1786303103593}@@level 3. A strong shared assumption lifts the feedback toward levels 4 and 5;++} a {--{"author":"Elias's AI","timestamp":1786303103593}@@binary check. Three--}{++{"author":"Elias's AI","timestamp":1786303103593}@@missing or vacuous one costs praise, not the pass — but always name it plainly.
+Each of those four--}{++{"author":"Elias's AI","timestamp":1786303103593}@@ This is asked for and addressed in feedback but is NOT a pass gate: it is the level-4 move in the rubric, and the pass bar++} is {--{"author":"Elias's AI","timestamp":1786303103593}@@itself--}{++{"author":"Elias's AI","timestamp":1786303103593}@@level 3. A strong shared assumption lifts the feedback toward levels 4 and 5;++} a {--{"author":"Elias's AI","timestamp":1786303645289}@@binary check. Three--}{++{"author":"Elias's AI","timestamp":1786303645289}@@missing or vacuous one costs praise, not the pass. Always name it plainly either way.
 
 Checks 1 to 3 are each binary. Two++} out of {--{"author":"Elias's AI","timestamp":1786303103593}@@four--}{++{"author":"Elias's AI","timestamp":1786303103593}@@three++} is a fail; say which one is missing and what would have satisfied it.
 
