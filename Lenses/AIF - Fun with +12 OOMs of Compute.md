@@ -101,7 +101,7 @@ assessment-instructions:: The student has read the author's Question Two, his 90
 
 Up to 3 tutor turns, then offer to continue or close.
 
-The pass bar is: a number, plus which of the five scenarios carries it, plus a concrete thing learnable within a year that would move it twenty points. A number with no named movers {++{"author":"Elias's AI","timestamp":1786302941392}@@falls short of the bar. Exception the student-facing text explicitly offers: "nothing could move me, and here ++}is {++{"author":"Elias's AI","timestamp":1786302941392}@@what that means about the number" — ++}a {--{"author":"Elias's AI","timestamp":1786302941392}@@level-1 answer.--}{++{"author":"Elias's AI","timestamp":1786302941392}@@thoughtful version of that meets the bar; engage with what they say an unmovable number is tracking rather than demanding movers anyway.++}
+The pass bar is: a number, plus which of the five scenarios carries it, plus a concrete thing learnable within a year that would move it twenty points. A number with no named movers {++{"author":"Elias's AI","timestamp":1786302941392}@@falls short of the bar. Exception the student-facing text explicitly offers: "nothing could move me, and here ++}is {--{"author":"Elias's AI","timestamp":1786303631802}@@a--}{++{"author":"Elias's AI","timestamp":1786303631802}@@what that means about the number". A++} {--{"author":"Elias's AI","timestamp":1786302941392}@@level-1 answer.--}{++{"author":"Elias's AI","timestamp":1786302941392}@@thoughtful version of that meets the bar; engage with what they say an unmovable number is tracking rather than demanding movers anyway.++}
 
 Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items.
 
