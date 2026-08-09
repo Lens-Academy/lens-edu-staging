@@ -165,18 +165,24 @@ Safety and integrity:
 #### Text
 content::
 \## Additional resources for this topic
-::card[[../Lenses/IABIED - QA - Something Special About Humans]]
+::card[[../Lenses/IABIED - QA - {--{"author":"Luc's AI","timestamp":1786261607433}@@Something Special About Humans]]--}{++{"author":"Luc's AI","timestamp":1786261607433}@@How Smart Could Superintelligence Get]]++}
 
-> Addresses the objection that human uniqueness puts AI risk out of reach. Even if some capabilities are hard to replicate, AI can achieve equivalent results through entirely different mechanisms.
-
----
-
-::card[[../Lenses/IABIED - QA - ChatGPT as General Intelligence]]
-
-> Explores whether current AI is already "general" and why the superhuman/superintelligent distinction matters more than the AGI label.
+> {--{"author":"Luc's AI","timestamp":1786261607433}@@Addresses the objection that human uniqueness puts AI risk out of reach. Even if some capabilities are hard--}{++{"author":"Luc's AI","timestamp":1786261607433}@@Examines which practical tasks still leave room above human performance and what it would mean for a machine++} to {--{"author":"Luc's AI","timestamp":1786261607433}@@replicate, AI can achieve equivalent results through entirely different mechanisms.--}{++{"author":"Luc's AI","timestamp":1786261607433}@@exceed us across them.
 
 ---
 
-::card[[../Lenses/IABIED - QA - Intelligence as Prediction and Steering]]
+::card[[../Lenses/IABIED - QA - Predicting Superintelligence]]
 
-> The key asymmetry: making AI more capable automatically improves its predictions, but leaves its steering (what goals it pursues) completely unconstrained.
+> Separates uncertainty about the route and timing from the physical and technological case that machine intelligence can eventually surpass us.++}
+
+---
+
+::card[[../Lenses/IABIED - QA - {--{"author":"Luc's AI","timestamp":1786261607433}@@ChatGPT as General Intelligence]]--}{++{"author":"Luc's AI","timestamp":1786261607433}@@Obstacles to Superintelligence]]++}
+
+> {--{"author":"Luc's AI","timestamp":1786261607433}@@Explores whether current AI is already "general" and why --}{++{"author":"Luc's AI","timestamp":1786261607433}@@Takes the bottlenecks seriously and asks which ones could slow, redirect, or prevent ++}the {--{"author":"Luc's AI","timestamp":1786261607433}@@superhuman/superintelligent distinction matters more than--}{++{"author":"Luc's AI","timestamp":1786261607433}@@feedback process described in++} the {--{"author":"Luc's AI","timestamp":1786261607433}@@AGI label.--}{++{"author":"Luc's AI","timestamp":1786261607433}@@chapter.++}
+
+---
+
+::card[[../Lenses/IABIED - QA - {--{"author":"Luc's AI","timestamp":1786261607433}@@Intelligence as Prediction and Steering]]--}{++{"author":"Luc's AI","timestamp":1786261607433}@@Power of Intelligence]]++}
+
+> {--{"author":"Luc's AI","timestamp":1786261607433}@@The key asymmetry: making AI more capable automatically improves its predictions, but leaves its steering (what goals it pursues) completely unconstrained.--}{++{"author":"Luc's AI","timestamp":1786261607433}@@Connects cross-domain intelligence to the power gap between species and explains why exceeding humanity on that axis would matter.++}
