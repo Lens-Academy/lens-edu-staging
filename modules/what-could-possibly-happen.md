@@ -21,10 +21,10 @@ not new content. Editing rule of thumb: if a change doesn't help a student
 build, defend, or revise a mechanism-based trajectory, it doesn't belong in
 this module. %%
 
-# Learning Outcome
+# {--{"author":"Elias's AI","timestamp":1786305045419}@@Learning Outcome
 source:: [[../Learning Outcomes/Trajectories with mechanisms and falsifiers]]
 
-# Lens: Half of What We Teach You Here Is Wrong
+# --}Lens: Half of What We Teach You Here Is Wrong
 source:: [[../Lenses/AIF - Half of What We Teach You Here Is Wrong]]
 
 # Lens: Fun with +12 OOMs of Compute
