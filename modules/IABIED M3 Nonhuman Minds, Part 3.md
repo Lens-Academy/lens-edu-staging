@@ -4,8 +4,7 @@ slug: iabied-m3
 title: "Nonhuman Minds, Part 3"
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 readings: 
-  - "Chapter 5: Its Favorite Things"{--{"author":"AI","timestamp":1786274445604}@@
-  - "Chapter 6: We'd Lose"--}
+  - "Chapter 5: Its Favorite Things"
 ---
 
 # Submodule: Part 3 Welcome
