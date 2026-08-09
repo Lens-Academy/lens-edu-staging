@@ -38,7 +38,7 @@ Four load-bearing moves. ANY TWO of them pass:
 3. Construct stability: whether the quantity being measured at 61 is the same skill it will be at 95. Saturating a benchmark and solving the underlying capability are different claims, and only the first is on the chart.
 4. Confidence about continuation should come from an outside view on how often strong regular trends break, which the student has from {--{"author":"Elias's AI","timestamp":1786303071596}@@lens 2,--}{++{"author":"Elias's AI","timestamp":1786303071596}@@When Progress Jumps,++} rather than from the quality of the fit.
 
-Reward a student who connects to lens 2 unprompted, for example "one large discontinuity per thousand trend-years, but this could be the affected kind".
+Reward a student who connects to {--{"author":"Elias's AI","timestamp":1786303079879}@@lens 2--}{++{"author":"Elias's AI","timestamp":1786303079879}@@When Progress Jumps++} unprompted, for example "one large discontinuity per thousand trend-years, but this could be the affected kind".
 
 Note for the grader: move 2 as stated is our expectation, not a measured fact about this fictional benchmark. A strong student may argue that the residual items are not harder, and if they argue it well that is a pass, not an error.
 
