@@ -8,7 +8,22 @@ authors:
 
 %% Rebuilt 2026-08-08. Flat by design: no submodule nesting. Slug is unchanged
 from the prototype so the course file needs no edit. The learning outcome's test
-renders at the end of the module, after the restatement lens. %%
+renders at the end of the module, after the restatement lens. %%{++{"author":"Elias's AI","timestamp":1786301915531}@@
+
+%% Module goal (for authors): Unit 1 exists to convert "the future of AI" from
+a mood into a model with named parts. By module end the student can produce at
+least two genuinely different trajectories for AI capability, each with a
+driving mechanism and an observation that would count against it (graded, via
+transfer, in the solar test). Each lens contributes one tool: the cold open
+sets the epistemic frame (young field, guess first, revise honestly) and
+creates the day-zero model the whole course keeps revising; the +12 OOMs probe
+surfaces what the student's own model thinks compute buys; When Progress Jumps
+supplies the measured outside-view base rate for discontinuous progress; What
+a Curve Licenses teaches where an extrapolation stops being licensed by its
+data. Revision 1 and the alignment-door pointer serve the running-model habit,
+not new content. Editing rule of thumb: if a change doesn't help a student
+build, defend, or revise a mechanism-based trajectory, it doesn't belong in
+this module. %%++}
 
 # Learning Outcome
 source:: [[../Learning Outcomes/Trajectories with mechanisms and falsifiers]]
