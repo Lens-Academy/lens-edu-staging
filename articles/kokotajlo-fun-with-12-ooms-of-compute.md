@@ -16,7 +16,8 @@ Fidelity notes: images, embedded Elicit prediction widgets, and footnote link
 targets are not reproduced; footnote markers are dropped rather than renumbered.
 Section headings and all prose are verbatim. Licence: Alignment Forum / LessWrong,
 inline permitted per the course brief.
-%%
+{++{"author":"Elias's AI","timestamp":1786305574581}@@(Kept as an HTML comment, not %%: the article bundler passes ++}%%{++{"author":"Elias's AI","timestamp":1786305574581}@@ blocks through to the student-facing module JSON; HTML comments are dropped by the renderer.)
+-->++}
 
 *Or: Big Timelines Crux Operationalized*
 
