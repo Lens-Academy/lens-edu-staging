@@ -1,7 +1,7 @@
 ---
 id: 5fe83b25-9dbf-44fa-b966-c6f7d938095e
 slug: iabied-m3
-title: {--{"author":"AI","timestamp":1786276554257}@@"Nonhuman Minds, Part 3"--}{++{"author":"AI","timestamp":1786276554257}@@"Its Favorite Things"++}
+title: "Its Favorite Things"
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 readings: 
   - "Chapter 5: Its Favorite Things"
