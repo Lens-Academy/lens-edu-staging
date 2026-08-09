@@ -126,8 +126,8 @@ add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 
 # Learning Outcome: IABIED - Define Intelligence
 source:: ![[../Learning Outcomes/Intelligence as prediction plus steering]]
 
-# Learning Outcome: IABIED - Intelligence Is Direction-Agnostic
-source:: ![[../Learning Outcomes/Intelligence is direction-agnostic]]
+# Learning Outcome: IABIED - {--{"author":"Luc's AI","timestamp":1786261750659}@@Intelligence Is Direction-Agnostic--}{++{"author":"Luc's AI","timestamp":1786261750659}@@Machine Advantages and Intelligence Explosion++}
+source:: ![[../Learning Outcomes/Machine advantages and intelligence explosion]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - Define Intelligence - PQ]]
@@ -136,10 +136,10 @@ source:: ![[../Lenses/IABIED - Define Intelligence - PQ]]
 source:: ![[../Lenses/IABIED - Define Intelligence]]
 
 # Lens:
-source:: ![[../Lenses/IABIED - Intelligence Is Direction-Agnostic - PQ]]
+source:: ![[../Lenses/IABIED - Could Machines Overtake Us - PQ]]
 
 # Lens:
-source:: ![[../Lenses/IABIED - Intelligence Is Direction-Agnostic]]
+source:: ![[../Lenses/IABIED - Machine Advantages and Intelligence Explosion]]
 
 # Lens: Dive Deeper: Chapter 1
 id:: c18583a7-9d9a-4c75-98c0-800b1f83ea53

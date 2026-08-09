@@ -1,8 +1,8 @@
 ---
 id: a2b3c4d5-e6f7-4a89-b012-c3d4e5f6a7b8
-summary_for_tutor: "Teaches the prediction-plus-steering definition of intelligence and the concept of generality from the first half of Chapter 1. Students first reflect on what makes human intelligence distinctive, then read, then explain the two components and why generality, not raw power, is what matters."
+summary_for_tutor: "Teaches the prediction-plus-steering definition of {--{"author":"Luc's AI","timestamp":1786261644005}@@intelligence and--}{++{"author":"Luc's AI","timestamp":1786261644005}@@intelligence,++} the concept of {--{"author":"Luc's AI","timestamp":1786261644005}@@generality from--}{++{"author":"Luc's AI","timestamp":1786261644005}@@generality, and++} the {--{"author":"Luc's AI","timestamp":1786261644005}@@first half of Chapter 1. Students first reflect on what makes human intelligence distinctive, then read, then--}{++{"author":"Luc's AI","timestamp":1786261644005}@@distinction between predictive competence and steering goals from the first part of Chapter 1. Students++} explain the two {--{"author":"Luc's AI","timestamp":1786261644005}@@components--}{++{"author":"Luc's AI","timestamp":1786261644005}@@components, why cross-domain generality matters,++} and why {--{"author":"Luc's AI","timestamp":1786261644005}@@generality, not raw power, is what matters."--}{++{"author":"Luc's AI","timestamp":1786261644005}@@intelligent minds can predict equally well while pursuing different destinations."++}
 title: "Define Intelligence"
-tldr: Intelligence isn't just being smart; it's a specific combination of predicting and steering. And what makes humans special isn't that we're the best at any one thing.
+tldr: Intelligence {--{"author":"Luc's AI","timestamp":1786261644005}@@isn't just being smart; it's a specific combination of--}{++{"author":"Luc's AI","timestamp":1786261644005}@@combines++} predicting and {--{"author":"Luc's AI","timestamp":1786261644005}@@steering. And what makes humans special isn't that we're--}{++{"author":"Luc's AI","timestamp":1786261644005}@@steering across domains. Better predictions can converge, while++} the {--{"author":"Luc's AI","timestamp":1786261644005}@@best at any one thing.--}{++{"author":"Luc's AI","timestamp":1786261644005}@@destinations minds pursue can still differ.++}
 authors:
   - Chris+Claude
 add_to_ai_context:
@@ -25,17 +25,19 @@ Spend 2 minutes writing down everything you can remember from the reading, witho
 
 assessment-instructions:: The student has just read the first half of Chapter 1 of "If Anyone Builds It, Everyone Dies."
 
-Learning outcome for this Lens: Define intelligence as prediction plus steering, and explain why generality, not raw capability, is what makes human intelligence powerful and its artificial equivalent potentially dangerous.
+Learning outcome for this Lens: Define intelligence as prediction plus steering, {--{"author":"Luc's AI","timestamp":1786261735502}@@and --}explain why {--{"author":"Luc's AI","timestamp":1786261735502}@@generality, not raw capability, is what makes human intelligence powerful and its artificial equivalent potentially dangerous.--}{++{"author":"Luc's AI","timestamp":1786261735502}@@generality drives its power, and distinguish predictive competence from the goals steering pursues.++}
 
 Key concepts:
 - Prediction: forming expectations about what you'll observe before you observe it
 - Steering: finding actions that bring about a chosen outcome
 - The two are entangled: you often predict in order to steer, and steer in order to better predict
-- Generality: the ability to predict and steer across a wide range of domains, not just one
-- Humans aren't the best at any single domain, but no other species operates across as many domains
-- Why this matters: a general AI is categorically different from a narrow one (chess engine vs. AGI)
+- {++{"author":"Luc's AI","timestamp":1786261617223}@@Prediction and steering have different success conditions: predictions answer to what happens, while steering answers to the destination being pursued
+- More intelligent minds can converge on predictions without converging on destinations; different steering goals are not a defect of intelligence
+- ++}Generality: the ability to predict and steer across a wide range of domains, not just one
+- Humans {--{"author":"Luc's AI","timestamp":1786261617223}@@aren't--}{++{"author":"Luc's AI","timestamp":1786261617223}@@are not++} the best at {--{"author":"Luc's AI","timestamp":1786261617223}@@any--}{++{"author":"Luc's AI","timestamp":1786261617223}@@every++} single {--{"author":"Luc's AI","timestamp":1786261617223}@@domain,--}{++{"author":"Luc's AI","timestamp":1786261617223}@@task,++} but no other species operates across as many domains
+- Why this matters: a general AI is categorically different from a narrow one {--{"author":"Luc's AI","timestamp":1786261617223}@@(chess engine vs. AGI)--}{++{"author":"Luc's AI","timestamp":1786261617223}@@such as a chess engine++}
 
-The student has completed the reading and has written a free recall — everything they could remember without looking back at the text.
+The student has completed the reading and has written a free {--{"author":"Luc's AI","timestamp":1786261617223}@@recall —--}{++{"author":"Luc's AI","timestamp":1786261617223}@@recall:++} everything they could remember without looking back at the text.{++{"author":"Luc's AI","timestamp":1786261617223}@@ This is a two-minute recall, so treat the concepts as a map rather than a checklist. Do not imply that an otherwise accurate response is deficient because it does not mention every strand.++}
 
 Your role in this phase is diagnostic, not instructional. Act as a brief, honest mirror.
 
@@ -50,7 +52,7 @@ Response style:
 
 What to do in your single reply:
 1. Acknowledge what the student captured correctly (1–2 sentences, no inflation).
-2. Name what was missing or underdeveloped. Point at gaps; don't explain them at length.
+2. {--{"author":"Luc's AI","timestamp":1786261738839}@@Name what was missing --}{++{"author":"Luc's AI","timestamp":1786261738839}@@If useful, name at most one ++}or {--{"author":"Luc's AI","timestamp":1786261738839}@@underdeveloped. Point at gaps; don't explain them at length.--}{++{"author":"Luc's AI","timestamp":1786261738839}@@two important missing or underdeveloped ideas. Do not inventory every omission.++}
 3. Correct any factual errors or misconceptions plainly and briefly.
 4. Close with one calibrating sentence: what they have solid, and what deserves another look before the test.
 
@@ -99,20 +101,24 @@ What not to do:
 #### Question
 content::
 \## Phase 3: Learning Question
-A pocket calculator out-predicts and out-steers any human at arithmetic. A house cat can't do arithmetic at all — but it navigates a physical and social world the calculator is blind to. By the chapter's definition, which one has the kind of intelligence the authors are worried about, and what exactly are you pointing at when you answer?
+A pocket calculator out-predicts and out-steers any human at arithmetic. A house cat {--{"author":"Luc's AI","timestamp":1786261629057}@@can't--}{++{"author":"Luc's AI","timestamp":1786261629057}@@cannot++} do arithmetic at {--{"author":"Luc's AI","timestamp":1786261629057}@@all —--}{++{"author":"Luc's AI","timestamp":1786261629057}@@all,++} but it navigates a physical and social world the calculator is blind to. By the chapter's definition, which one has the {--{"author":"Luc's AI","timestamp":1786261629057}@@kind--}{++{"author":"Luc's AI","timestamp":1786261629057}@@more general intelligence, and what exactly are you pointing at?
+
+Now imagine two equally capable, general minds predict the consequences++} of {--{"author":"Luc's AI","timestamp":1786261629057}@@intelligence the authors are worried about, and what exactly are you pointing at when you answer?--}{++{"author":"Luc's AI","timestamp":1786261629057}@@their options equally well but choose different destinations. Does that disagreement show that one is less intelligent? Why or why not?++}
 
 assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 1 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
-The question they were asked is a deliberate wedge; it is not the test question. It hands the student two systems that each have one ingredient of intelligence but not the whole, and asks them to apply the chapter's definition rather than recite it. Use it to draw out prediction, steering, and especially generality from a concrete case.
+The question {--{"author":"Luc's AI","timestamp":1786261637824}@@they were asked --}is a deliberate {--{"author":"Luc's AI","timestamp":1786261637824}@@wedge; it is --}{++{"author":"Luc's AI","timestamp":1786261637824}@@wedge, ++}not the test question. {--{"author":"Luc's AI","timestamp":1786261637824}@@It hands the student two systems that each have one ingredient of intelligence but not the whole, --}{++{"author":"Luc's AI","timestamp":1786261637824}@@The calculator and cat require the student to apply prediction, steering, ++}and {--{"author":"Luc's AI","timestamp":1786261637824}@@asks them to apply the chapter's definition rather than recite it. Use it to draw out prediction, steering,--}{++{"author":"Luc's AI","timestamp":1786261637824}@@generality rather than recite definitions. The two general minds then isolate the distinction between becoming better at prediction++} and {--{"author":"Luc's AI","timestamp":1786261637824}@@especially generality from a concrete case.--}{++{"author":"Luc's AI","timestamp":1786261637824}@@choosing what to steer toward.++}
 
-Learning outcome for this Lens: Define intelligence as prediction plus steering, and explain why generality, not raw capability, is what makes human intelligence powerful and its artificial equivalent potentially dangerous.
+Learning outcome for this Lens: Define intelligence as prediction plus steering, {--{"author":"Luc's AI","timestamp":1786261637824}@@and --}explain why {--{"author":"Luc's AI","timestamp":1786261637824}@@generality, not raw capability, is what makes human intelligence powerful and its artificial equivalent potentially dangerous.--}{++{"author":"Luc's AI","timestamp":1786261637824}@@generality drives its power, and distinguish predictive competence from the goals steering pursues.++}
 
 Key concepts the student needs to grasp:
-- Prediction: forming expectations about what you'll observe before you observe it
+- Prediction: forming expectations about what {--{"author":"Luc's AI","timestamp":1786261637824}@@you'll--}{++{"author":"Luc's AI","timestamp":1786261637824}@@you will++} observe before you observe it
 - Steering: finding actions that bring about a chosen outcome
 - The two are entangled: you predict in order to steer, and steer in order to better predict
-- Generality: the ability to predict and steer across many domains, not just one: the calculator is narrow-superhuman, the cat is broad-but-modest, and generality is the axis the authors care about
-- Why it matters: a general AI is categorically different from a narrow one (chess engine vs. AGI)
+- {--{"author":"Luc's AI","timestamp":1786261637824}@@Generality:--}{++{"author":"Luc's AI","timestamp":1786261637824}@@Prediction answers to what happens; steering success depends on the destination being pursued
+- More intelligent minds can converge on accurate predictions without converging on destinations
+- Generality is++} the ability to predict and steer across many domains, not just one: the calculator is narrow-superhuman, {++{"author":"Luc's AI","timestamp":1786261637824}@@while ++}the cat is {--{"author":"Luc's AI","timestamp":1786261637824}@@broad-but-modest, and generality is the axis the authors care about--}{++{"author":"Luc's AI","timestamp":1786261637824}@@broader but modest++}
+- Why it matters: a general AI is categorically different from a narrow {--{"author":"Luc's AI","timestamp":1786261637824}@@one (chess engine vs. AGI)--}{++{"author":"Luc's AI","timestamp":1786261637824}@@system such as a chess engine++}
 
 The student's goal is to articulate this learning outcome clearly enough to pass the test on it. Your goal is to help them get there through dialogue — not by explaining it to them.
 
