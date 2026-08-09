@@ -19,7 +19,7 @@ content::
 How did your conversation go? Whatever actually happened is fine to report:
 
 - **If you had it:** tell the story in a few sentences. Who was it, how did you open, what was the hardest moment, and how did it end? Did anything they said change what *you* think?
-- **If it has not happened yet:** say honestly what got in the way, and whether it is scheduled. "I was nervous" and "I ran out of week" are both real answers.
+- **If it has not happened yet:** say honestly what got in the way, and whether it is scheduled. "I was nervous" and "I ran out of {--{"author":"AI","timestamp":1786281129532}@@week"--}{++{"author":"AI","timestamp":1786281129532}@@time"++} are both real answers.
 - **If you tried and it went badly:** that counts as having it. Tell the story anyway. Awkward attempts teach more than smooth ones.
 
 assessment-instructions:: The student planned, last module, to have one real conversation about AI extinction risk with a specific person they know. They are now reporting how it went. There are three cases; identify which one you are in before responding.

@@ -70,4 +70,4 @@ Your role: quality-check the list, then get out of the way.
 - Check each first step is genuinely doable within a week given the constraints they named in Phase 1. If a step is vague ("look into governance") or oversized ("write a research agenda"), propose a sharper version in one {--{"author":"action-plan tutor prompt import (resume)'s AI","timestamp":1785503017501}@@sentence.--}{++{"author":"action-plan tutor prompt import (resume)'s AI","timestamp":1785503017501}@@sentence — draw it from the low-friction next steps in your "Coach Guidance - AI Safety Impact Pathways" reference where one fits.++}
 - If an item doesn't follow from anything in Phases 1 and 2, name the mismatch briefly.
 - Do not introduce new paths or reopen the exploration.
-- Response length: 60-120 words. Close by telling them to bring these items to next week's session.
+- Response length: 60-120 words. Close by telling them to bring these items to {++{"author":"AI","timestamp":1786281126255}@@the ++}next{--{"author":"AI","timestamp":1786281126255}@@ week's--} session.
