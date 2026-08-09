@@ -15,7 +15,9 @@ stage: beginner
 id:: b5981716-08c0-40b1-a005-2cfbdde6d0c7
 #### Question
 content::
-Two systems accurately predict that a severe storm will close a bridge. One routes delivery trucks away from it to minimize delays. The other routes rescue vehicles toward it to reach stranded people. A third system is exceptionally good at this routing task but cannot reason outside transportation.dd    . aa    .
+Two systems accurately predict that a severe storm will close a bridge. One routes delivery trucks away from it to minimize delays. The other routes rescue vehicles toward it to reach stranded people. A third system is exceptionally good at this routing task but cannot reason outside transportation. when will you pick this up?
+
+I'd liek you to sync this.
 
 Using the chapter's framework, analyze the three systems. What are the first two doing when they predict and when they steer? Does choosing different destinations show that one is less intelligent? What distinguishes the third system from a more general reasoner?
 
