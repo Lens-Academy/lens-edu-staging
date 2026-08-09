@@ -24,7 +24,7 @@ source:: ![[../Learning Outcomes/The five engineering curses]]
 source:: ![[../Learning Outcomes/Position, not despair]]
 
 %%
-Trimmed to reduce question load {--{"author":"AI","timestamp":1786279486478}@@in the merged unit 4 --}(course went from 6 meetings to 5):
+Trimmed to reduce question load (course went from 6 meetings to 5):
 # Lens:
 source:: ![[../Lenses/IABIED - The Five Engineering Curses - PQ]]
 %%

@@ -15,8 +15,8 @@ on purpose: existing signups and learner progress key on them. %%
 
 # Module: [[../modules/what-could-possibly-happen|Unit 1: What Could Possibly Happen?]]
 
-# Meeting: Unit 1{++{"author":"Elias's AI","timestamp":1786279772514}@@
-meeting-doc-template:: https://docs.google.com/document/d/1lqbblsgNwgeBa6JEhgH5qk-hlPSUsZRcYAH-IMmSYD8/edit++}{++{"author":"Elias's AI","timestamp":1786280593972}@@
+# Meeting: Unit 1
+meeting-doc-template:: https://docs.google.com/document/d/1lqbblsgNwgeBa6JEhgH5qk-hlPSUsZRcYAH-IMmSYD8/edit
 
 %% Meeting docs for units 2-5 are linked below so they aren't lost; the docs are
 unfilled template copies, and the module entries for those units land as built. %%
@@ -31,4 +31,4 @@ meeting-doc-template:: https://docs.google.com/document/d/1OELeSrzaLpyNVUoLRAnRm
 meeting-doc-template:: https://docs.google.com/document/d/1JbdYP4R7MPRrNIncIxu2JjhDlPkBMRF5y4auPrZHYa4/edit
 
 # Meeting: Unit 5
-meeting-doc-template:: https://docs.google.com/document/d/1YuCKnl7R8P4upzZzMTf6whEOYu23g_j936QDlpELwuk/edit++}
+meeting-doc-template:: https://docs.google.com/document/d/1YuCKnl7R8P4upzZzMTf6whEOYu23g_j936QDlpELwuk/edit

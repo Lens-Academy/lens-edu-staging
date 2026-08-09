@@ -1,8 +1,8 @@
 ---
 id: 'e9238c7e-a9d6-40d7-99bb-fb2e8d58fa53'
 title: Your Ongoing Action
-tldr: "The course {--{"author":"AI","timestamp":1786279439829}@@ends this week; --}{++{"author":"AI","timestamp":1786279439829}@@ends; ++}your action plan doesn't. The last step: turn everything since Module 4 into one action you keep doing, starting with a dated first step."
-summary_for_tutor: "Final action-plan step, {--{"author":"AI","timestamp":1786279439829}@@at--}{++{"author":"AI","timestamp":1786279439829}@@in++} the {--{"author":"AI","timestamp":1786279439829}@@end of Module 6--}{++{"author":"AI","timestamp":1786279439829}@@closing module (What Happens Next), right++} after the student has {--{"author":"AI","timestamp":1786279439829}@@read Chapters 12-14 and the Closing Words.--}{++{"author":"AI","timestamp":1786279439829}@@put the book's whole argument into their own words.++} Earlier steps: strengths mapped in Module 4, one real conversation committed in Module 5 and debriefed at the start of {--{"author":"AI","timestamp":1786279439829}@@this module.--}{++{"author":"AI","timestamp":1786279439829}@@Module 6, Chapters 12-14 and the Closing Words read in Module 6.++} Here the student chooses one ongoing action drawn from Chapter 14's role-specific calls, names a dated first step inside two weeks, and connects it to a strength from Module 4. The tutor quality-checks their choice (ongoing not one-off, first step small and dated, matched to their strength) and then closes the course arc warmly and briefly. Frame the step as the student choosing what they want to keep doing."
+tldr: "The course ends; your action plan doesn't. The last step: turn everything since Module 4 into one action you keep doing, starting with a dated first step."
+summary_for_tutor: "Final action-plan step, in the closing module (What Happens Next), right after the student has put the book's whole argument into their own words. Earlier steps: strengths mapped in Module 4, one real conversation committed in Module 5 and debriefed at the start of Module 6, Chapters 12-14 and the Closing Words read in Module 6. Here the student chooses one ongoing action drawn from Chapter 14's role-specific calls, names a dated first step inside two weeks, and connects it to a strength from Module 4. The tutor quality-checks their choice (ongoing not one-off, first step small and dated, matched to their strength) and then closes the course arc warmly and briefly. Frame the step as the student choosing what they want to keep doing."
 authors:
   - Elias+Claude
 {++{"author":"action-plan tutor prompt import (resume)'s AI","timestamp":1785503022042}@@add_to_ai_context:
@@ -11,9 +11,9 @@ authors:
 #### Text
 content::
 \## The action that continues
-You debriefed your conversation at the start of {--{"author":"AI","timestamp":1786279443649}@@this module. Since then--}{++{"author":"AI","timestamp":1786279443649}@@the last module, and++} you have read the book's answer to "so what do we do?": different people hold different levers, and every ask in Chapter 14 is *ongoing*, not a box to tick once. Citizens write representatives, vote, and keep talking; people with a platform use it; people with relevant skills steer them at the problem.
+You debriefed your conversation at the start of the last module, and you have read the book's answer to "so what do we do?": different people hold different levers, and every ask in Chapter 14 is *ongoing*, not a box to tick once. Citizens write representatives, vote, and keep talking; people with a platform use it; people with relevant skills steer them at the problem.
 
-The course ends {--{"author":"AI","timestamp":1786279443649}@@this week.--}{++{"author":"AI","timestamp":1786279443649}@@here.++} This step is where the action plan stops being homework and becomes yours.
+The course ends here. This step is where the action plan stops being homework and becomes yours.
 
 Some honest options, roughly in increasing order of commitment:
 
