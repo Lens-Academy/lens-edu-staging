@@ -1,7 +1,7 @@
 ---
 id: bb0ace07-d21c-43e0-80dd-be00cd785c3d
 slug: iabied-m1
-title: "Introduction and Nonhuman Minds, Part 1"
+title: {--{"author":"AI","timestamp":1786276547961}@@"Introduction and Nonhuman Minds, Part 1"--}{++{"author":"AI","timestamp":1786276547961}@@"Introduction: Grown, Not Crafted"++}
 readings: 
   - "Introduction: Hard Calls and Easy Calls"
   - "Chapter 1: Humanity's Special Power"
