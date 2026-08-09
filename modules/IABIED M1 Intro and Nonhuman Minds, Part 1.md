@@ -136,7 +136,7 @@ source:: ![[../Lenses/IABIED - Define Intelligence - PQ]]
 source:: ![[../Lenses/IABIED - Define Intelligence]]
 
 # Lens:
-source:: ![[../Lenses/IABIED - Could Machines Overtake Us - PQ]]
+source:: ![[../Lenses/IABIED - Machine Advantages and Intelligence Explosion - PQ]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - Machine Advantages and Intelligence Explosion]]

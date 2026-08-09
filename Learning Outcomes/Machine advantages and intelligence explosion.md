@@ -55,7 +55,7 @@ Give concise qualitative feedback naming which checks were demonstrated and whic
 
 # Suggested Lenses:
 ## Lens:
-source:: [[../Lenses/IABIED - Could Machines Overtake Us - PQ]]
+source:: [[../Lenses/IABIED - Machine Advantages and Intelligence Explosion - PQ]]
 
 ## Lens:
 source:: [[../Lenses/IABIED - Machine Advantages and Intelligence Explosion]]
