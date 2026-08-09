@@ -28,7 +28,8 @@ course material:
     large robust discontinuities per year, or 0.002 for those trends with at
     least one at some point."
 Both verified on two independent fetches, 2026-08-08.
-%%
+{++{"author":"Elias's AI","timestamp":1786305553171}@@(Kept as an HTML comment, not %%: the article bundler passes ++}%%{++{"author":"Elias's AI","timestamp":1786305553171}@@ blocks through to the student-facing module JSON; HTML comments are dropped by the renderer.)
+-->++}
 
 Katja Grace and collaborators at AI Impacts surveyed {--{"author":"Elias's AI","timestamp":1786303778533}@@roughly fifty--}{++{"author":"Elias's AI","timestamp":1786303778533}@@38++} technological trends with good historical data, defined a "large robust discontinuity" as an event that abruptly and clearly contributed more to progress on a metric than another century at previous rates would have, and counted how often such events occur.
 
