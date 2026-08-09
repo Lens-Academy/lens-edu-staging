@@ -58,7 +58,9 @@ to:: Maybe we'll eventually find something intelligent, even if it lacks the mem
 content::
 \## The diff
 
-Put your list next to his five: OmegaStar, Amp(GPT-7), Crystal Nights, Skunkworks, Neuromorph. Which of his did you touch, even partially? Which one surprised you most, and what does the surprise say about what your model thinks compute buys? Note one more thing: inside Crystal Nights he stops and says Ajeya's estimate for that path is 10^41 FLOP while the fairy only gave him 10^35, and then he has to argue his way across the gap. Did any item on your list have a hidden gap like that, an order-of-magnitude debt you didn't price? Name it if so.
+Put your list next to his five: OmegaStar, Amp(GPT-7), Crystal Nights, Skunkworks, Neuromorph. Which of his did you touch, even partially? Which one surprised you most, and what does the surprise say about what your model thinks compute buys? Note one more thing: inside Crystal Nights he stops and says Ajeya's {--{"author":"Elias's AI","timestamp":1786302924432}@@estimate--}{++{"author":"Elias's AI","timestamp":1786302924432}@@estimate[^ajeya]++} for that path is 10^41 FLOP while the fairy only gave him 10^35, and then he has to argue his way across the gap. Did any item on your list have a hidden gap like that, an order-of-magnitude debt you didn't price? Name it if so.{++{"author":"Elias's AI","timestamp":1786302924432}@@
+
+[^ajeya]: Ajeya Cotra, the researcher whose compute-requirements report the article argues with; the article's final section introduces her model properly.++}
 
 assessment-instructions:: The student has their own list and has now read the author's five answers.
 
