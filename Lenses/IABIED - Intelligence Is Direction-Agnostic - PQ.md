@@ -1,8 +1,8 @@
 ---
 id: a8b9c0d1-e2f3-4a45-b678-c9d0e1f2a3b4
-summary_for_tutor: "Priming question for Chapter 1 second half. Activates the student's prior intuitions about whether greater intelligence implies better values before they encounter the direction-agnostic concept."
-title: "Pre-Reading Question - Intelligence Is Direction-Agnostic"
-tldr: Would a smarter AI be a safer AI? Think about it before you read.
+summary_for_tutor: "Priming question for {--{"author":"Luc's AI","timestamp":1786261539394}@@Chapter 1 second half.--}{++{"author":"Luc's AI","timestamp":1786261539394}@@the second half of Chapter 1.++} Activates the student's {--{"author":"Luc's AI","timestamp":1786261539394}@@prior intuitions --}{++{"author":"Luc's AI","timestamp":1786261539394}@@forecast ++}about whether {--{"author":"Luc's AI","timestamp":1786261539394}@@greater intelligence implies better values before they encounter--}{++{"author":"Luc's AI","timestamp":1786261539394}@@current AI limitations will persist and which features of machines or AI development could change++} the {--{"author":"Luc's AI","timestamp":1786261539394}@@direction-agnostic concept."--}{++{"author":"Luc's AI","timestamp":1786261539394}@@trajectory."++}
+title: "Pre-Reading Question - {--{"author":"Luc's AI","timestamp":1786261539394}@@Intelligence Is Direction-Agnostic"--}{++{"author":"Luc's AI","timestamp":1786261539394}@@Could Machines Overtake Us?"++}
+tldr: {--{"author":"Luc's AI","timestamp":1786261539394}@@Would a smarter AI be a safer AI? Think about it before you read.--}{++{"author":"Luc's AI","timestamp":1786261539394}@@Today's AI can still seem shallow. Which limits will last, and which might disappear?++}
 authors:
   - Chris+Claude
 add_to_ai_context:
