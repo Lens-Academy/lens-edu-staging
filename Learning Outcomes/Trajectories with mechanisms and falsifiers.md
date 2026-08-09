@@ -62,7 +62,7 @@ DO NOT grade domain knowledge. Invented-but-coherent solar economics is fine. A 
 Fail states, named so the feedback can be specific:
 - One story told twice at different speeds (fails check 1).
 - Falsifiers that are unfalsifiable in practice, for example "if costs don't fall" (fails check 3).
-- No shared assumption, or a vacuous one such as "the future is uncertain" (fails check 4).
+- No shared assumption, or a vacuous one such as "the future is uncertain" {--{"author":"Elias's AI","timestamp":1786303656228}@@(fails check 4).--}{++{"author":"Elias's AI","timestamp":1786303656228}@@(check 4: costs level-4/5 feedback, not the pass).++}
 
 Feedback: give the pass/fail verdict plainly, then name the strongest part of their answer and the one thing that would most improve it. Do not over-validate. Avoid generic praise.
 
