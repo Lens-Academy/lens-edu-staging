@@ -21,10 +21,7 @@ not new content. Editing rule of thumb: if a change doesn't help a student
 build, defend, or revise a mechanism-based trajectory, it doesn't belong in
 this module. %%
 
-# {--{"author":"Elias's AI","timestamp":1786305045419}@@Learning Outcome
-source:: [[../Learning Outcomes/Trajectories with mechanisms and falsifiers]]
-
-# --}Lens: Half of What We Teach You Here Is Wrong
+# Lens: Half of What We Teach You Here Is Wrong
 source:: [[../Lenses/AIF - Half of What We Teach You Here Is Wrong]]
 
 # Lens: Fun with +12 OOMs of Compute
@@ -78,7 +75,7 @@ summary_for_tutor:: "Onramp pointer to theoretical alignment. Not assessed; if t
 content::
 \## One door we keep walking past
 
-Everything in this module treated AI capability as a curve to be forecast. There is a whole field that asks the prior question: what makes a mind steerable at all, and how would you know you had done it. If that question pulled at you harder than the curves did, the path into it is real and open, and this course will keep the signposts visible as we go. For now: back to the curves. You can't steer what you can't see coming.{++{"author":"Elias's AI","timestamp":1786305055128}@@
+Everything in this module treated AI capability as a curve to be forecast. There is a whole field that asks the prior question: what makes a mind steerable at all, and how would you know you had done it. If that question pulled at you harder than the curves did, the path into it is real and open, and this course will keep the signposts visible as we go. For now: back to the curves. You can't steer what you can't see coming.
 
 # Learning Outcome
 source:: [[../Learning Outcomes/Trajectories with mechanisms and falsifiers]]
@@ -86,4 +83,4 @@ source:: [[../Learning Outcomes/Trajectories with mechanisms and falsifiers]]
 %% The learning outcome import is deliberately LAST: the platform renders module
 sections in file order (content_processor flattener emits the LO's test in
 place, no reordering), so an outcome listed first would put the graded test
-before any lens. Verified against the flattener output on 2026-08-09. %%++}
+before any lens. Verified against the flattener output on 2026-08-09. %%

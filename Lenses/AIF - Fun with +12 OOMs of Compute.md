@@ -10,11 +10,11 @@ authors:
 content::
 \## Remove the bottleneck and see what your model predicts
 
-The fastest way to find out what your model of AI progress is made of is to remove its favorite bottleneck and watch what it predicts. Daniel Kokotajlo's question, in his words: "Can we get TAI just by throwing more compute at the problem?" His method is a magic wand: grant 2016's researchers twelve extra orders of magnitude of compute, and ask what gets built. This is not a forecast. It is a probe, and the thing it probes is you: what do you believe compute buys? He wrote the exercise into the article himself. We are simply administering it. You will struggle a little here; that is the point, and you'll see why by the end of the lens.{++{"author":"Elias's AI","timestamp":1786303785788}@@
+The fastest way to find out what your model of AI progress is made of is to remove its favorite bottleneck and watch what it predicts. Daniel Kokotajlo's question, in his words: "Can we get TAI just by throwing more compute at the problem?" His method is a magic wand: grant 2016's researchers twelve extra orders of magnitude of compute, and ask what gets built. This is not a forecast. It is a probe, and the thing it probes is you: what do you believe compute buys? He wrote the exercise into the article himself. We are simply administering it. You will struggle a little here; that is the point, and you'll see why by the end of the lens.
 
 A few translations before you read, because the article talks in units it never introduces. *Compute* is the total number of calculations spent building an AI, treated like a fuel budget; it is counted in FLOP[^flop] and written in powers of ten, where 10^23 means a 1 followed by 23 zeros. One *order of magnitude* (OOM) is a factor of ten, so +12 OOMs means a trillion times more, not twelve times more. And *TAI*, transformative AI, is AI that changes the world at least as much as the industrial revolution did; the article defines it properly later.
 
-[^flop]: One floating-point operation: a single arithmetic step, one multiply or one add, done by a computer. Totals like 10^23 FLOP are the whole computing bill for training an AI system.++}
+[^flop]: One floating-point operation: a single arithmetic step, one multiply or one add, done by a computer. Totals like 10^23 FLOP are the whole computing bill for training an AI system.
 
 #### Article
 source:: [[../articles/kokotajlo-fun-with-12-ooms-of-compute]]
@@ -25,7 +25,7 @@ to:: I'd love it if you wrote up your answers in the comments!
 content::
 \## His exercise, administered
 
-Kokotajlo's own instruction: "I encourage you to stop reading, set a five-minute timer, and think about fun things that could be built in this scenario." By "fun" he means "powerful." He asked readers to post answers in the comments; for you, this box is the comments. {++{"author":"Elias's AI","timestamp":1786302911982}@@One reminder before the timer starts: this exercise probes you, not the future. A list that feels hard to produce is exactly the data it exists to collect; it shows you what your model thinks compute buys. ++}Set a real five-minute timer. List the most powerful things you think AI projects could build in the Compute Fairy world, and for each, one line on why compute was the thing holding it back.
+Kokotajlo's own instruction: "I encourage you to stop reading, set a five-minute timer, and think about fun things that could be built in this scenario." By "fun" he means "powerful." He asked readers to post answers in the comments; for you, this box is the comments. One reminder before the timer starts: this exercise probes you, not the future. A list that feels hard to produce is exactly the data it exists to collect; it shows you what your model thinks compute buys. Set a real five-minute timer. List the most powerful things you think AI projects could build in the Compute Fairy world, and for each, one line on why compute was the thing holding it back.
 
 max-time:: 8:00
 
@@ -58,9 +58,9 @@ to:: Maybe we'll eventually find something intelligent, even if it lacks the mem
 content::
 \## The diff
 
-Put your list next to his five: OmegaStar, Amp(GPT-7), Crystal Nights, Skunkworks, Neuromorph. Which of his did you touch, even partially? Which one surprised you most, and what does the surprise say about what your model thinks compute buys? Note one more thing: inside Crystal Nights he stops and says Ajeya's {--{"author":"Elias's AI","timestamp":1786302924432}@@estimate--}{++{"author":"Elias's AI","timestamp":1786302924432}@@estimate[^ajeya]++} for that path is 10^41 FLOP while the fairy only gave him 10^35, and then he has to argue his way across the gap. Did any item on your list have a hidden gap like that, an order-of-magnitude debt you didn't price? Name it if so.{++{"author":"Elias's AI","timestamp":1786302924432}@@
+Put your list next to his five: OmegaStar, Amp(GPT-7), Crystal Nights, Skunkworks, Neuromorph. Which of his did you touch, even partially? Which one surprised you most, and what does the surprise say about what your model thinks compute buys? Note one more thing: inside Crystal Nights he stops and says Ajeya's estimate[^ajeya] for that path is 10^41 FLOP while the fairy only gave him 10^35, and then he has to argue his way across the gap. Did any item on your list have a hidden gap like that, an order-of-magnitude debt you didn't price? Name it if so.
 
-[^ajeya]: Ajeya Cotra, the researcher whose compute-requirements report the article argues with; the article's final section introduces her model properly.++}
+[^ajeya]: Ajeya Cotra, the researcher whose compute-requirements report the article argues with; the article's final section introduces her model properly.
 
 assessment-instructions:: The student has their own list and has now read the author's five answers.
 
@@ -90,18 +90,18 @@ to:: your median should be roughly 10 years earlier than hers, all else equal: 2
 content::
 \## Your number
 
-His answer to "probability that TAI appears in the Compute Fairy world" is 90%, and he shows his work: inside {--{"author":"Elias's AI","timestamp":1786302933230}@@view--}{++{"author":"Elias's AI","timestamp":1786302933230}@@view[^inside]++} 99, discounted for unknown unknowns and deference. Ajeya's distribution puts its {--{"author":"Elias's AI","timestamp":1786302933230}@@median--}{++{"author":"Elias's AI","timestamp":1786302933230}@@median[^median]++} at the 10^35 mark, which he reads as her answering 50%.{++{"author":"Elias's AI","timestamp":1786302933230}@@
+His answer to "probability that TAI appears in the Compute Fairy world" is 90%, and he shows his work: inside view[^inside] 99, discounted for unknown unknowns and deference. Ajeya's distribution puts its median[^median] at the 10^35 mark, which he reads as her answering 50%.
 
 [^inside]: Your inside view is the estimate you get by reasoning through this case's specific details. Its partner, the outside view, asks how cases like this usually turn out. His 99 is pure inside view; the drop to 90 is humility about everything the inside view can't see.
-[^median]: A probability distribution spreads your confidence across all the possible values instead of naming one. Its median is the halfway marker: half your probability sits below it, half above. That is why a median at 10^35 reads as calling it 50/50 that 10^35 is enough.++}{--{"author":"Elias's AI","timestamp":1786303622188}@@ --}{++{"author":"Elias's AI","timestamp":1786303622188}@@
+[^median]: A probability distribution spreads your confidence across all the possible values instead of naming one. Its median is the halfway marker: half your probability sits below it, half above. That is why a median at 10^35 reads as calling it 50/50 that 10^35 is enough.
 
-++}Now yours: give your probability as a percentage, name which of the five answers moves it most, and state one thing you could learn in the next year that would move your answer by twenty percentage points. If nothing could, say so and say what that means about the number.
+Now yours: give your probability as a percentage, name which of the five answers moves it most, and state one thing you could learn in the next year that would move your answer by twenty percentage points. If nothing could, say so and say what that means about the number.
 
 assessment-instructions:: The student has read the author's Question Two, his 90 percent, and the comparison with Ajeya's 50 percent. They are now committing to their own number.
 
 Up to 3 tutor turns, then offer to continue or close.
 
-The pass bar is: a number, plus which of the five scenarios carries it, plus a concrete thing learnable within a year that would move it twenty points. A number with no named movers {++{"author":"Elias's AI","timestamp":1786302941392}@@falls short of the bar. Exception the student-facing text explicitly offers: "nothing could move me, and here ++}is {--{"author":"Elias's AI","timestamp":1786303631802}@@a--}{++{"author":"Elias's AI","timestamp":1786303631802}@@what that means about the number". A++} {--{"author":"Elias's AI","timestamp":1786302941392}@@level-1 answer.--}{++{"author":"Elias's AI","timestamp":1786302941392}@@thoughtful version of that meets the bar; engage with what they say an unmovable number is tracking rather than demanding movers anyway.++}
+The pass bar is: a number, plus which of the five scenarios carries it, plus a concrete thing learnable within a year that would move it twenty points. A number with no named movers falls short of the bar. Exception the student-facing text explicitly offers: "nothing could move me, and here is what that means about the number". A thoughtful version of that meets the bar; engage with what they say an unmovable number is tracking rather than demanding movers anyway.
 
 Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items.
 

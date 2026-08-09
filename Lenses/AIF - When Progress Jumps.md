@@ -2,7 +2,7 @@
 id: '1149d855-7192-4a25-9835-6508c1d31fe9'
 title: When Progress Jumps
 tldr: How often does technology jump a century in one step? You guess first; then the measured base rates.
-summary_for_tutor: "Supplies the outside-view base rate for discontinuous progress, measured rather than argued. The student commits to three guesses (a per-trend-year rate of 100-year jumps, a share of total progress arriving in such jumps, and three technologies they would bet had one) before seeing any figure, then reads the measured answers from AI Impacts, then diffs. CRITICAL for the tutor: the 14 percent figure is progress-weighted. '14 percent of total progress arrived in jumps' and 'a given unit of progress had about a 14 percent chance of arriving in a jump' are BOTH correct and equivalent; the source states both. The wrong readings to catch are event-rate readings: 14 percent of years, steps, or data points being jumps (the measured event rates are 0.1 percent per trend-year and 1.4 percent of data {--{"author":"Elias's AI","timestamp":1786303017211}@@points)--}{++{"author":"Elias's AI","timestamp":1786303017211}@@points; the data-point share depends on recording density, so the per-trend-year rate is the canonical one)++}. Earlier versions of our material miscorrected students here by treating the two correct framings as opposites. The lens teaches a two-sided conclusion: jumps are rare (about one per thousand trend-years) and large when present (38 percent of total progress among trends that have any), and those two halves pull a forecast in opposite directions."
+summary_for_tutor: "Supplies the outside-view base rate for discontinuous progress, measured rather than argued. The student commits to three guesses (a per-trend-year rate of 100-year jumps, a share of total progress arriving in such jumps, and three technologies they would bet had one) before seeing any figure, then reads the measured answers from AI Impacts, then diffs. CRITICAL for the tutor: the 14 percent figure is progress-weighted. '14 percent of total progress arrived in jumps' and 'a given unit of progress had about a 14 percent chance of arriving in a jump' are BOTH correct and equivalent; the source states both. The wrong readings to catch are event-rate readings: 14 percent of years, steps, or data points being jumps (the measured event rates are 0.1 percent per trend-year and 1.4 percent of data points; the data-point share depends on recording density, so the per-trend-year rate is the canonical one). Earlier versions of our material miscorrected students here by treating the two correct framings as opposites. The lens teaches a two-sided conclusion: jumps are rare (about one per thousand trend-years) and large when present (38 percent of total progress among trends that have any), and those two halves pull a forecast in opposite directions."
 authors:
   - Lauren+Claude
 ---
@@ -10,13 +10,13 @@ authors:
 content::
 \## Does capability arrive as a slope or a cliff?
 
-{++{"author":"Elias's AI","timestamp":1786302949794}@@The last lens probed your model from the inside: what you personally believe compute buys. This one turns around and asks the outside question: never mind your reasoning, how has technological progress actually arrived, across every trend anyone has measured?
+The last lens probed your model from the inside: what you personally believe compute buys. This one turns around and asks the outside question: never mind your reasoning, how has technological progress actually arrived, across every trend anyone has measured?
 
-++}Every model of the future leans on an assumption about smoothness: does capability arrive as a steady slope, or in cliffs? That is an empirical question about the past, and AI Impacts spent years measuring it: dozens of technological trends checked for moments where one step delivered more than a century of progress at the previous rate. Three terms, so the question below is answerable:
+Every model of the future leans on an assumption about smoothness: does capability arrive as a steady slope, or in cliffs? That is an empirical question about the past, and AI Impacts spent years measuring it: dozens of technological trends checked for moments where one step delivered more than a century of progress at the previous rate. Three terms, so the question below is answerable:
 
 - A **trend** is one measured quantity over time: tallest structure, ship tonnage, transatlantic message speed.
 - A **step** is one new data point in that record: a single new ship, bridge, or bomb.
-- A step counts as a **jump** when it {--{"author":"Elias's AI","timestamp":1786302958352}@@moves--}{++{"author":"Elias's AI","timestamp":1786302958352}@@delivers more than a century of *surplus* progress: take++} the {--{"author":"Elias's AI","timestamp":1786302958352}@@metric further --}{++{"author":"Elias's AI","timestamp":1786302958352}@@progress the step actually made, subtract what the elapsed time already promised at the trend's previous rate, and more ++}than {++{"author":"Elias's AI","timestamp":1786302958352}@@100 extra years' worth must remain. So a sparse record is not jumpy by default: a step that covers 150 quiet years and lands exactly where extrapolation predicted has zero surplus. One honest caveat: the bar is applied one step at a time, so whether ++}a {++{"author":"Elias's AI","timestamp":1786302958352}@@fast burst counts can depend on how finely history recorded it; a ++}century {--{"author":"Elias's AI","timestamp":1786302958352}@@at--}{++{"author":"Elias's AI","timestamp":1786302958352}@@of surplus smeared across many small steps may never clear++} the {--{"author":"Elias's AI","timestamp":1786302958352}@@trend's previous rate would have.--}{++{"author":"Elias's AI","timestamp":1786302958352}@@bar in any single one. The researchers flag this themselves.++}
+- A step counts as a **jump** when it delivers more than a century of *surplus* progress: take the progress the step actually made, subtract what the elapsed time already promised at the trend's previous rate, and more than 100 extra years' worth must remain. So a sparse record is not jumpy by default: a step that covers 150 quiet years and lands exactly where extrapolation predicted has zero surplus. One honest caveat: the bar is applied one step at a time, so whether a fast burst counts can depend on how finely history recorded it; a century of surplus smeared across many small steps may never clear the bar in any single one. The researchers flag this themselves.
 
 Before you see their numbers, you will write down yours. This one stings a little; the sting is the data you keep.
 
@@ -26,7 +26,7 @@ content::
 
 Three guesses, before you look at anything.
 
-1. {--{"author":"Elias's AI","timestamp":1786302964720}@@Across all--}{++{"author":"Elias's AI","timestamp":1786302964720}@@Pick one++} measured{--{"author":"Elias's AI","timestamp":1786302964720}@@ trend-years, how often does a--} technology trend {--{"author":"Elias's AI","timestamp":1786302964720}@@jump by more than 100 years of progress in one step? Give a rate: jumps per trend, per year.--}{++{"author":"Elias's AI","timestamp":1786302964720}@@and watch it for 1,000 years. How many 100-year jumps do you expect to see in that time?++}
+1. Pick one measured technology trend and watch it for 1,000 years. How many 100-year jumps do you expect to see in that time?
 2. Averaged across trends, what share of a trend's TOTAL progress arrived in such jumps?
 3. Name three technologies you would bet money had at least one 100-year jump somewhere in their history.
 
@@ -46,8 +46,8 @@ Response style:
 - No correction of any guess value.
 
 What to do in your single reply:
-1. Confirm they gave all three parts in the right units: {--{"author":"Elias's AI","timestamp":1786302970820}@@a per-trend-year rate,--}{++{"author":"Elias's AI","timestamp":1786302970820}@@an expected count of jumps over 1,000 years of one trend,++} a share of total progress, and three named technologies.
-2. If a guess is in the wrong units (for example a percentage where a {--{"author":"Elias's AI","timestamp":1786303675533}@@rate--}{++{"author":"Elias's AI","timestamp":1786303675533}@@count++} was asked), fix the UNITS only, never the value, and ask them to restate in the right units.
+1. Confirm they gave all three parts in the right units: an expected count of jumps over 1,000 years of one trend, a share of total progress, and three named technologies.
+2. If a guess is in the wrong units (for example a percentage where a count was asked), fix the UNITS only, never the value, and ask them to restate in the right units.
 3. Send them on to the measured answers.
 
 This is a one-turn response.
@@ -64,28 +64,26 @@ And:
 
 > "On average 14% of total progress in a trend came from large robust discontinuities (or 16% of logarithmic progress), or 38% among trends which have at least one."
 
-Read the 14% carefully. It is progress-weighted: 14% of total progress arrived in jumps, which is the same as saying a randomly chosen unit of progress had about a 14% chance of arriving in one. What it is NOT: the share of years that contain a jump (that is 0.1% per trend-year) or the share of individual data points that are jumps {--{"author":"Elias's AI","timestamp":1786302977839}@@(1.4%).--}{++{"author":"Elias's AI","timestamp":1786302977839}@@(1.4%, a figure that depends on how densely a trend happens to be recorded: measure twice as often and it roughly halves).++} Jumps are rare as events, and when a trend has one at all, jumps account for over a third of everything it ever gained. Rare, and large when present. Both halves matter, and they pull your model in different directions.
+Read the 14% carefully. It is progress-weighted: 14% of total progress arrived in jumps, which is the same as saying a randomly chosen unit of progress had about a 14% chance of arriving in one. What it is NOT: the share of years that contain a jump (that is 0.1% per trend-year) or the share of individual data points that are jumps (1.4%, a figure that depends on how densely a trend happens to be recorded: measure twice as often and it roughly halves). Jumps are rare as events, and when a trend has one at all, jumps account for over a third of everything it ever gained. Rare, and large when present. Both halves matter, and they pull your model in different directions.
 
-{--{"author":"Elias's AI","timestamp":1786302987096}@@Their ten large robust discontinuities: the Pyramid of Djoser (structure height, ~2650 BC), the SS Great Eastern (ship size, 1858), the first and second transatlantic telegraphs (message speed, 1858/1866), the Paris Gun (altitude, 1918), the first non-stop transatlantic flight (1919), the George Washington Bridge (span, 1931), nuclear weapons (explosive effectiveness, 1945), the first ICBM (Atlantic crossing time, 1958), and the YBa2Cu3O7 superconductor (superconducting temperature, 1987).
-
---}#### Article
+#### Article
 source:: [[../articles/grace-discontinuous-progress-in-history]]
 
 #### Question
 content::
 \## The diff
 
-Score yourself. How far off was your {--{"author":"Elias's AI","timestamp":1786303667269}@@rate,--}{++{"author":"Elias's AI","timestamp":1786303667269}@@expected jump count,++} and in which direction? Was your share-of-total-progress guess closer to the 14% average or the 38% among-affected-trends figure, and which of those two numbers is the right one to load into your model of AI, given that you don't yet know which kind of trend AI capability is? Did any of your three named technologies appear in their ten? Finish with one sentence for your running model: what does "rare, but large when present" do to the smoothest version of your day-zero story?
+Score yourself. How far off was your expected jump count, and in which direction? Was your share-of-total-progress guess closer to the 14% average or the 38% among-affected-trends figure, and which of those two numbers is the right one to load into your model of AI, given that you don't yet know which kind of trend AI capability is? Did any of your three named technologies appear in their ten? Finish with one sentence for your running model: what does "rare, but large when present" do to the smoothest version of your day-zero story?
 
 assessment-instructions:: The student has committed to three guesses and has now read the measured figures.
 
 Grade the READING, not the guess. A student whose guesses were far off but who now uses the figures correctly is passing.
 
-THE STANDARD CONFUSION, and the main thing to watch for: mixing the progress-weighted figure with the event rates. Both of these are correct and equivalent, and the source states both: "14% of total progress in a trend came from large robust discontinuities" and "the chance of a given level of progress arising in a large robust discontinuity was around 14%". What is WRONG is reading 14% as an event rate: 14% of years containing a jump, or 14% of steps or data points being jumps; the measured event rates are 0.001 jumps per trend-year and 1.4% of data points. Correct an event-rate reading by quoting the 0.001-per-year sentence next to the 14%-of-total-progress sentence and having the student restate the difference in their own words. This confusion is common and is not a sign of a weak student.{++{"author":"Elias's AI","timestamp":1786302994450}@@ If the 1.4%-of-data-points figure comes up, note that it depends on how densely a trend is recorded; the per-trend-year rate is the canonical event rate to quote.++}
+THE STANDARD CONFUSION, and the main thing to watch for: mixing the progress-weighted figure with the event rates. Both of these are correct and equivalent, and the source states both: "14% of total progress in a trend came from large robust discontinuities" and "the chance of a given level of progress arising in a large robust discontinuity was around 14%". What is WRONG is reading 14% as an event rate: 14% of years containing a jump, or 14% of steps or data points being jumps; the measured event rates are 0.001 jumps per trend-year and 1.4% of data points. Correct an event-rate reading by quoting the 0.001-per-year sentence next to the 14%-of-total-progress sentence and having the student restate the difference in their own words. This confusion is common and is not a sign of a weak student. If the 1.4%-of-data-points figure comes up, note that it depends on how densely a trend is recorded; the per-trend-year rate is the canonical event rate to quote.
 
 The 38%-versus-14% question has NO single right answer. What earns the pass is conditioning: "if AI is a discontinuity-prone trend, then the 38% figure is the relevant one, and here is why I do or don't think it is." A student who picks one number and defends the choice passes; a student who picks one with no conditioning does not yet.
 
-Maximum {--{"author":"Elias's AI","timestamp":1786303001124}@@2--}{++{"author":"Elias's AI","timestamp":1786303001124}@@3++} tutor turns. Keep an internal turn counter.
+Maximum 3 tutor turns. Keep an internal turn counter.
 
 Response length: 100 to 180 words. Short paragraphs only. No lists longer than 4 items.
 
@@ -98,4 +96,4 @@ What to do in each reply:
 2. Push for the conditioning if their 38-versus-14 answer is unconditioned.
 3. Require the closing sentence to mention their OWN day-zero model, not a generic lesson. If they give a generic lesson, ask once what it does to the specific story they wrote in the cold open.
 
-After {--{"author":"Elias's AI","timestamp":1786303007121}@@2--}{++{"author":"Elias's AI","timestamp":1786303007121}@@3++} tutor replies, close the phase.
+After 3 tutor replies, close the phase.
