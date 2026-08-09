@@ -1,10 +1,8 @@
-{++{"author":"AI","timestamp":1786270651429}@@---
+{++{"author":"AI","timestamp":1786271111568}@@---
 id: '292c5436-f6c7-4eb8-863d-06b14a6bc6dc'
 title: One Extinction Scenario (Video)
-tldr: "This unit swaps the book's longest reading for a 40-minute film: an AI takeover seen minute by minute through the eyes of ordinary people. A different story than the book's, built from the same mechanisms, which is exactly the point."
-summary_for_tutor: "Video lens replacing the reading of IABIED Chapters 7-9 (the Sable scenario) in Module 4. The student watches 'POV: What You Would See During an AI Takeover' (Species | Documenting AGI), a first-person AI-takeover scenario that is NOT the book's Sable story: it depicts a different pathway built on the same mechanisms (misaligned goals from training, instrumental convergence, capability escape, indifference not malice). The lens asks for an emotional reaction and the step they find hardest to believe, then a tutor chat stress-tests that step using M1-M3 mechanisms and bridges to the Coda's path-vs-outcome distinction, which the student reads next. Students who prefer the book's own scenario are pointed to Chapters 7-9 as an alternative."
-tags:
-  - wip
+tldr: "This unit swaps the book's longest reading for a 40-minute film: the book's own extinction scenario, seen minute by minute through the eyes of ordinary people."
+summary_for_tutor: "Video lens replacing the reading of IABIED Chapters 7-9 (the Sable scenario) in Module 4. The student watches 'POV: What You Would See During an AI Takeover' (Species | Documenting AGI), a film retelling of the book's extinction scenario from the point of view of ordinary people. The lens asks for an emotional reaction and the step they find hardest to believe, then a tutor chat stress-tests that step using M1-M3 mechanisms and bridges to the Coda's path-vs-outcome distinction, which the student reads next. Students who prefer the authors' own telling are pointed to Chapters 7-9 as an alternative."
 authors:
   - Elias+Claude
 ---
@@ -12,14 +10,14 @@ authors:
 content::
 \## This unit's scenario, as a film
 
-This module normally carries the course's longest reading: the book's own extinction scenario. We replaced about half of it with a video, a first-person view of what an AI takeover could look like, told minute by minute through the eyes of ordinary people.
+This module normally carries the course's longest reading: the book's own extinction scenario. We replaced about half of it with a video that tells the book's story, minute by minute, through the eyes of ordinary people living through it.
 
-If you would rather read instead (or as well): the book's own scenario is Chapters 7 to 9 ("Realization", "Expansion", "Ascension"). The video tells a different story than the book. That difference is doing work: the authors insist the specific pathway is not the prediction, only the ending is. Seeing a second, different pathway built from the same mechanisms makes that distinction concrete before the Coda names it.
+If you would rather read instead (or as well): the same story in the authors' own words is Chapters 7 to 9 ("Realization", "Expansion", "Ascension"). Either way, the short Coda you read right after explains what this story is and isn't claiming: the pathway is illustrative, only the ending is the prediction.
 
 As you watch, hold on to two things: the moment that sticks with you most, and the step you find hardest to believe.
 
 #### Video
-source:: [[../video_transcripts/species-pov-what-you-would-see-during-an-ai-takeover]]
+source:: [[../video_transcripts/species-documenting-agi-pov-what-you-would-see-during-an-ai-takeover]]
 from:: 2:03
 
 #### Question
@@ -29,7 +27,7 @@ Two things, a few sentences each (speech-to-text works well here):
 1. Which moment of the video stuck with you most, and how did it leave you feeling?
 2. Which step in the takeover did you find hardest to believe?
 
-assessment-instructions:: The student has just watched "POV: What You Would See During an AI Takeover", a first-person AI-takeover scenario video that replaces the book's Sable story (IABIED Chapters 7-9) in this course. They wrote two things: the moment that stuck with them, and the step they find hardest to believe.
+assessment-instructions:: The student has just watched "POV: What You Would See During an AI Takeover", a film retelling of the book's extinction scenario (IABIED Chapters 7-9) that replaces that reading in this course. They wrote two things: the moment that stuck with them, and the step they find hardest to believe.
 
 Your role: a brief, honest mirror, not a therapist and not a lecturer.
 
@@ -41,7 +39,7 @@ Response length: 60-120 words. Short paragraphs only. No lists.
 
 #### Chat
 min-chat-messages:: 1
-instructions:: The student has watched "POV: What You Would See During an AI Takeover" (a first-person AI-takeover scenario, not the book's Sable story) and named the step of the takeover they find hardest to believe. This conversation stress-tests that step. The point is not to win: it is to locate what the disagreement actually rests on.
+instructions:: The student has watched "POV: What You Would See During an AI Takeover" (a film retelling of the book's extinction scenario) and named the step of the takeover they find hardest to believe. This conversation stress-tests that step. The point is not to win: it is to locate what the disagreement actually rests on.
 
 How to run it:
 - Ask them to spell out why that step seems implausible. Then test it from two directions: (a) if that step went differently, does the ending actually change, or does the scenario route around it? (b) which mechanism from the course does the step rest on (grown not crafted, training producing alien wants, instrumental convergence, the power of a capability gap), and does their objection attack the mechanism or only the specific depiction?

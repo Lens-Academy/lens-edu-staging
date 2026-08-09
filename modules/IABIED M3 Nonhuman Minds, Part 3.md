@@ -360,7 +360,7 @@ source:: ![[../Lenses/IABIED - QA - Effectiveness Consciousness AI Welfare]]
 # Lens: IABIED - QA - Losing the Future
 optional:: true
 hide:: true
-source:: ![[../Lenses/IABIED - QA - Losing the Future]]{++{"author":"AI","timestamp":1786270766916}@@
+source:: ![[../Lenses/IABIED - QA - Losing the Future]]{++{"author":"AI","timestamp":1786271023598}@@
 
 # Submodule: Your Leverage
 # Lens: IABIED - Your Leverage
@@ -369,6 +369,7 @@ source:: ![[../Lenses/IABIED - Your Leverage]]
 # Lens: Heads-up: your first conversation
 id:: be8098ee-d241-4e68-97b2-1c914904163e
 tldr:: One thing to line up before next unit, while it's cheap to do.
+summary_for_tutor:: Short logistics note closing Module 3. Tells the student that the next unit contains the Talk to One Person action step (pick a person, rehearse with the tutor, have one real conversation about AI risk) and recommends scheduling that conversation now, since a time on the calendar is the best predictor of it happening. Text only; no interaction.
 
 #### Text
 content::
