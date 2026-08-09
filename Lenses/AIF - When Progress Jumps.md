@@ -26,7 +26,7 @@ content::
 
 Three guesses, before you look at anything.
 
-1. Across all measured trend-years, how often does a technology trend jump by more than 100 years of progress in one step? Give a rate: jumps per trend, per year.
+1. {--{"author":"Elias's AI","timestamp":1786302964720}@@Across all--}{++{"author":"Elias's AI","timestamp":1786302964720}@@Pick one++} measured{--{"author":"Elias's AI","timestamp":1786302964720}@@ trend-years, how often does a--} technology trend {--{"author":"Elias's AI","timestamp":1786302964720}@@jump by more than 100 years of progress in one step? Give a rate: jumps per trend, per year.--}{++{"author":"Elias's AI","timestamp":1786302964720}@@and watch it for 1,000 years. How many 100-year jumps do you expect to see in that time?++}
 2. Averaged across trends, what share of a trend's TOTAL progress arrived in such jumps?
 3. Name three technologies you would bet money had at least one 100-year jump somewhere in their history.
 
