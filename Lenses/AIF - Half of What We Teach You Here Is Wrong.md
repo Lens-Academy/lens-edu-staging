@@ -22,11 +22,11 @@ content::
 
 A note on how this course will treat you. Before nearly every reading, we will ask you to guess. What happened, what the author will argue, how big the numbers turn out to be. You will often be wrong. That is the design, not a test: the gap between your guess and the record is the only lesson this course can generate that is about *you* rather than about us. Guessing first is how you find out what your current model actually predicts, so that when the reading bends it, you can feel exactly where.
 
-#### {++{"author":"Lauren's AI","timestamp":1786188710145}@@Text
+#### {++{"author":"Elias's AI","timestamp":1786303033395}@@Text
 content::
 \## What this costs, and who else is here
 
-Unit 1 runs about an hour. Roughly forty minutes of that is reading; the rest goes on writing your own answers and arguing with the tutor about them. That estimate is ours and it is rough. The readings are short and the questions are not.
+Unit 1 takes most people around two hours. Reading is maybe forty minutes of it; the larger share goes on writing your own answers and arguing with the tutor about them, and the writing is the part that does the teaching. That estimate is ours and it is rough. The readings are short and the questions are not.
 
 You are not doing this alone. You are in a cohort, and it meets live to work through the unit together. Bring your answers to that meeting, especially the ones you were least sure of, because a disagreement is the part that does not survive being read silently.
 
