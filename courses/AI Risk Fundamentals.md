@@ -35,7 +35,7 @@ meeting-doc-template:: https://docs.google.com/document/d/1Gg6RHLoWzjegjqeAL_Aio
 
 # Meeting: Facing the Challenge, part 1
 meeting-doc-template:: https://docs.google.com/document/d/1dW_VlZoAn6eLR0_ZY8XvQvRoVvr51a23XAXMAnH_bSI/edit
-{>>{"author":"AI","timestamp":1786270838185}@@Course reduced from 6 meetings to 5: modules 4 and 5 now share one meeting. This meeting doc (old unit 5) and the final unit's doc need a rebuild for the new unit boundaries; the old unit-4 doc (19-KJb0ZEVlVYJoVMOnY5xbAm6UJdynAFM0nm7NSg9dg) is retired.<<}
+{--{"author":"AI","timestamp":1786279506695}@@{>>{"author":"AI","timestamp":1786270838185}@@Course--}{++{"author":"AI","timestamp":1786279506695}@@{>>{"author":"AI","timestamp":1786279506695}@@Course++} reduced from 6 meetings to {--{"author":"AI","timestamp":1786279506695}@@5: modules 4 and 5 now share one meeting. This meeting doc (old unit 5) and the final unit's doc need a rebuild--}{++{"author":"AI","timestamp":1786279506695}@@5. Units: M1 | M2+M3 | M4 | M5 | M6+M7, one meeting after each unit. All five meeting docs were updated++} for {--{"author":"AI","timestamp":1786279506695}@@the new unit boundaries;--}{++{"author":"AI","timestamp":1786279506695}@@these boundaries on 2026-08-09;++} the old unit-4 doc (19-KJb0ZEVlVYJoVMOnY5xbAm6UJdynAFM0nm7NSg9dg) is retired.<<}
 
 # Module: [[../modules/IABIED M6 Facing The Challenge, Part 2]]
 
