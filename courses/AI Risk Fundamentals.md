@@ -42,7 +42,9 @@ meeting-doc-template:: https://docs.google.com/document/d/1dW_VlZoAn6eLR0_ZY8XvQ
 
 # Module: [[../modules/IABIED M6 Facing The Challenge, Part 2]]
 
-# Meeting: Facing the Challenge, part 2
+# {++{"author":"AI","timestamp":1786274350853}@@Module: [[../modules/IABIED M7 What Happens Next]]
+
+# ++}Meeting: Facing the Challenge, part 2
 meeting-doc-template:: https://docs.google.com/document/d/1rewnfH3QqcK_WhwD2i1ylfVyldH3sXb6eA45dDeQJ6M/edit?tab=t.0#heading=h.by5wcelvjnsd
 
 
