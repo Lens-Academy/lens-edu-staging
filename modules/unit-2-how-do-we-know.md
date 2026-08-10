@@ -15,10 +15,7 @@ source:: [[../Lenses/U2 - Cold Open]]
 # Lens: The Track Record
 source:: [[../Lenses/U2 - The Track Record]]
 
-# Lens: {++{"author":"Lauren's AI","timestamp":1786358416145}@@The Model And Its Authors
-source:: [[../Lenses/U2 - The Model And Its Authors]]
-
-# Lens: ++}Opening frame
+# Lens: Opening frame
 id:: 99ce0fb8-e37d-4a3e-b1de-cecee69182d0
 #### Text
 content::
@@ -79,7 +76,10 @@ source:: [[../Lenses/U2 - Nonlinear Interactions Workshop]]{--{"author":"Lauren'
 ++}# Learning Outcome:
 source:: [[../Learning Outcomes/Aggregating estimates that share information]]
 
-# Lens: Three People Agreeing - PQ
+# Lens: {++{"author":"Lauren's AI","timestamp":1786359252416}@@The Model And Its Authors
+source:: [[../Lenses/U2 - The Model And Its Authors]]
+
+# Lens: ++}Three People Agreeing - PQ
 source:: [[../Lenses/U2 - Three People Agreeing - PQ]]
 
 # Lens: Average Then Extremize

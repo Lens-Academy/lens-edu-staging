@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786358380880}@@---
+{++{"author":"Lauren's AI","timestamp":1786359250709}@@---
 id: '57a676a0-de9e-481b-971c-c764170173c3'
 title: The Model And Its Authors
 tldr: The AI Futures team rebuilt their timelines model and moved their own median three to five years later than AI 2027. You build your forecasting toolkit before seeing theirs, then watch two of the authors run the same model and disagree.
@@ -115,61 +115,72 @@ This is a one-turn response.
 
 #### Article
 source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
-from:: ### Eli
+from:: ## Timelines and takeoff forecasts
 to:: ## Comparison to our previous
 
 #### Question
 content::
 \## Two people, one model, different answers
 
-Eli and Daniel are looking at the same model, the same parameters, and largely the same evidence, and they do not land in the same place.
+Eli and Daniel ran the same model with their own parameter settings, on largely the same evidence, and did not land in the same place. Eli gives his all-things-considered distribution in the text. Daniel's is in the chart rather than in prose, so read it off the figure.
 
-You now hold three numbers: Eli's, Daniel's, and the one you wrote down before you saw either. What is the right thing to do with three numbers like that, and what would you need to know about how each was produced before you could do it?
+Here is the thing to notice, and it is not in the model. Both of them run the model and then adjust off it, by hand, for reasons the model does not contain. Find where each one does that, and say what each is correcting for.
 
-Be specific about the disagreement. Name the parameter or judgement where they actually part company, not just the size of the gap.
+Then: you also wrote down a number before you read any of this. What should you do with yours now, and what would you need to know about how each of the three was produced before you could combine them at all?
 
-assessment-instructions:: The student has read both authors' all-things-considered forecasts and holds their own earlier number.
+assessment-instructions:: The student has read the section framing (both authors adjust off the model using intuition and other factors), Eli's all-things-considered distribution, and Daniel's discussion.
 
-This is the aggregation problem arriving as a real case rather than a constructed one. These two forecasters share a great deal of evidence and the same model structure, so the correct move is NOT the same as for independent estimates.
+FACTS THE TUTOR NEEDS. Eli states 10th percentile 2027.5, 50th 2032.5, 90th 2085, having lengthened his median and raised the 90th from 2062. Daniel does NOT state a median in prose; he says he keeps the model's median and increases uncertainty in both directions, and his distribution appears as a figure. Do not assert a number for Daniel. If the student cannot read the figure, tell them to describe its shape instead and grade on that.
+
+The real disagreement is about HOW MUCH TO TRUST THE MODEL, not about a parameter. Eli lengthens; Daniel holds the median and fattens both tails. A student who goes hunting for a single parameter where they differ has been misled and should be redirected gently.
 
 Up to 3 tutor turns, then offer to continue or close.
 
-The pass bar: they identify the specific locus of disagreement, and they recognise that shared evidence and shared model structure mean the two numbers are not independent draws, so averaging is not straightforwardly right and extremizing beyond their range is not licensed.
+The pass bar: they locate at least one hand-adjustment and say what it corrects for, and they recognise that two forecasters sharing a model and most of their evidence are not independent estimates, so combining them is not a matter of averaging three numbers.
+
+Do NOT require or introduce extremization here. That is taught later in this unit by a lens that depends on the student not having met it yet.
 
 Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items.
 
 Response style:
 - Calm, rigorous, educational.
 - Do not over-validate. Avoid generic praise.
-- If the answer is vague about WHERE they disagree, ask for precision.
 
 What to do in each reply:
-1. Reward finding the actual parameter or judgement in dispute.
-2. If they average the three numbers without comment, ask what would have to be true about how the three were produced for averaging to be correct.
-3. A student who notices that their own number is the only one produced from different evidence, and that this makes it worth more than its share rather than less, is reasoning well. Say so.
+1. Reward finding an actual adjustment and naming what it corrects for.
+2. If they treat the three as three independent estimates, ask what would have to be true about how each was produced for that to hold.
+3. A student who notices that their own number is the only one produced from different evidence, and that this makes it worth more rather than less, is reasoning well. Say so.
 
 #### Question
 content::
-\## What is producing the trend
+\## What has to keep happening
 
-Step back from the numbers.
+Every number in this reading rests on one thing continuing: the METR horizon trend. Daniel spends several paragraphs on why he is nervous about exactly that.
 
-Every forecast in this reading rests on some process out in the world continuing to do what it has been doing. Name that process as concretely as you can. Not "AI progress", but the actual thing: who is doing what, why they keep doing it, and what they are getting out of it.
+He names things that could bend it, among them online and continual learning, data efficiency, and the question of whether the trend is exponential or superexponential. Pick the one you think these forecasts most depend on.
 
-Then two questions about it. What is that process pointed at, as measured by what it actually rewards rather than what anyone says it is for? And if you wanted the trend to bend somewhere else, what specifically would have to change about the process, as opposed to about anyone's intentions?
+Now three questions about the world rather than about the model.
 
-assessment-instructions:: This is the closing move of the lens and the most important one in the unit.
+Who specifically has to keep spending to keep that trend going, and what do they get back if they do?
 
-CRITICAL: do NOT supply, name, or gesture at any unifying framework here. There is a frame this course is building toward, and the student is meant to arrive at it themselves over several units from repeated encounters like this one. Naming it now replaces their derivation with our assertion, and the derivation is the point. If the student names such a frame themselves, engage with it seriously as theirs.
+What happens to whoever stops first, while the others keep going?
 
-The move being practised is looking past a trend line to the process that generates it, and asking what that process is aimed at as revealed by what it rewards.
+Daniel calls extrapolating AI revenue "a decent proxy for when AGI will be achieved". Is revenue measuring the thing these forecasts are about, or something that travels alongside it and could come apart? Give one concrete way it could come apart.
 
-Up to 3 tutor turns.
+max-time:: 8:00
+
+assessment-instructions:: This is the closing move of the lens.
+
+CRITICAL: do NOT supply, name, or gesture at any unifying framework here, and do not use words like "incentive structure", "selection pressure", or "self-repairing". There is a frame this course builds toward, and the student is meant to arrive at it themselves over several units from repeated encounters like this one. Naming it replaces their derivation with our assertion, and the derivation is the point. If the student produces such a frame themselves, engage with it seriously as theirs.
+
+All three questions are answerable from the slices they have read. The second one is the one that does the most work and the one students will skate over.
 
 Look for, in rough order of value:
-- A concrete process with actors and incentives, not an abstraction. "Labs compete for researchers and revenue, and compute spend is how they buy position" beats "the field is advancing".
-- A distinction between what the process is SAID to be for and what it actually rewards.
-- An intervention aimed at the process rather than at people's intentions. A student who proposes "convince people to care more" and then notices it does not survive the incentives is doing exactly the right thing.
+- Named actors with something to gain. "Labs compete for revenue and for researchers, and compute is how they buy position" beats "the industry invests".
+- On the second question: recognising that a lab which stops unilaterally loses ground to the ones that do not, and that this is why the trend is hard to bend by persuasion.
+- On the third: any concrete decoupling of revenue from capability, in either direction.
+
+Up to 3 tutor turns.
 
 Response length: 120 to 200 words. Short paragraphs only.
 
@@ -179,8 +190,8 @@ Response style:
 - Do not correct them toward a preferred answer. There are several good ones.
 
 What to do in each reply:
-1. Push once for concreteness if the process is named abstractly.
-2. Ask what the process rewards, if they only said what it is for.
-3. If they propose an intervention that depends on everyone choosing to behave differently, ask what happens when someone defects.
+1. Push once for named actors if they answer the first question abstractly.
+2. If they skip the second question or answer it as "they would fall behind", ask what that means for anyone trying to slow the trend down deliberately.
+3. If they say revenue is simply a good proxy, ask what would have to be true of the economy for that to hold.
 
-On close: tell them this question returns in later units about other trends, and that their answer should get sharper rather than be replaced.++}
+On close: tell them this question about what keeps a trend running returns in later units about other trends.++}
