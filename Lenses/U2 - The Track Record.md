@@ -1,7 +1,7 @@
 ---
 id: '512005f3-75ed-44bf-9e0c-2d897c4730a4'
 title: "The Track Record"
-tldr: Before learning how to forecast AI, look at how it has gone. {--{"author":"Lauren's AI","timestamp":1786378688257}@@Expert predictions of AI showed no advantage over--}{++{"author":"Lauren's AI","timestamp":1786378688257}@@Armstrong and Sotala found expert predictions indistinguishable from++} non-expert ones, and clustered at fifteen to twenty-five years away regardless of when they were made.
+tldr: Before learning how to forecast AI, look at how it has gone. Armstrong and Sotala found expert predictions indistinguishable from non-expert ones, and clustered at fifteen to twenty-five years away regardless of when they were made.
 summary_for_tutor: "Opening lens of the unit. Armstrong's survey of AI predictions establishes the empirical floor: the track record is bad, and bad in a specific patterned way rather than randomly. This has to land before any method is taught, or the methods read as refinements of something that works. Do not let the student conclude that forecasting is impossible; that conclusion is available at the end of the unit and must be earned."
 authors:
   - Claude
@@ -43,12 +43,12 @@ Optionally, alongside it: **Luke Muehlhauser's *The errors, insights, and lesson
 
 Return here after reading.
 
-#### {++{"author":"Lauren's AI","timestamp":1786390318999}@@Article
+#### Article
 source:: [[../articles/armstrong-sotala-how-were-predicting-ai-or-failing-to]]
 from:: 4.1. Subjective Assessment
 to:: References
 
-#### ++}Question
+#### Question
 content::
 \## After the reading
 
@@ -64,9 +64,9 @@ OPEN WITH THE PREDICTION THEY MADE. Before the reading they wrote down what they
 
 Key content of the reading:
 - Predictions of human-level AI cluster in a band roughly fifteen to twenty-five years after the prediction is made, across decades of predictions.
-- {--{"author":"Lauren's AI","timestamp":1786378688257}@@Expert predictions show no detectable advantage over--}{++{"author":"Lauren's AI","timestamp":1786378688257}@@The paper reports expert predictions as indistinguishable from++} non-expert predictions.{++{"author":"Lauren's AI","timestamp":1786378688257}@@
+- The paper reports expert predictions as indistinguishable from non-expert predictions.
 
-ATTRIBUTION MATTERS HERE. This is what Armstrong and Sotala concluded from their 95-prediction database; it is not a settled fact of the world, and the strength of this particular result has been questioned since publication. Credit a student who reports what the paper found. ALSO credit, and say so warmly, a student who asks how robust the result is, who notes the sample is small and hand-coded, or who separates the clustering finding (which is the more robust of the two) from the no-expert-advantage finding. Do NOT mark such a student down for disagreeing with the reading.++}
+ATTRIBUTION MATTERS HERE. This is what Armstrong and Sotala concluded from their 95-prediction database; it is not a settled fact of the world, and the strength of this particular result has been questioned since publication. Credit a student who reports what the paper found. ALSO credit, and say so warmly, a student who asks how robust the result is, who notes the sample is small and hand-coded, or who separates the clustering finding (which is the more robust of the two) from the no-expert-advantage finding. Do NOT mark such a student down for disagreeing with the reading.
 - The predictions are largely not derived from models that can be inspected or checked; they read as expressions of intuition dressed in argument.
 - The pattern is stable enough that the date a prediction was made is a better guide to its content than anything about AI.
 

@@ -18,7 +18,7 @@ Four short scenarios follow, in one conversation with the tutor. Each one is a s
 Work them in order. Write the arithmetic, not a description of it.
 
 #### Chat
-instructions:: You are running a four-part workshop on nonlinear structure in forecasting. The student has read {--{"author":"Lauren's AI","timestamp":1786379725258}@@Kokotajlo on the decomposition loop and --}Xu and Shulman on the fractional-progress failure. They have not been taught the four structures below by name; the workshop is where they meet them.
+instructions:: You are running a four-part workshop on nonlinear structure in forecasting. The student has read Xu and Shulman on the fractional-progress failure. They have not been taught the four structures below by name; the workshop is where they meet them.
 
 Your job is to make the student produce the reasoning, not to explain it. You may confirm arithmetic, you may say plainly when something is wrong, and you may give a direct answer if they are stuck after two attempts on a part. You may not walk them through a part before they have attempted it.
 

@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786379718829}@@---
+---
 title: "Selective Optimism: a critique of AI 2040"
 author:
   - "Richard Ngo"
@@ -70,4 +70,4 @@ My leading hypothesis is that something more subtle is happening, analogous to t
 
 We could sharpen this point further by looking at human history, which contained many periods during which a large number of smart people failed to make significant technological progress, or actively regressed. So basic models of fast takeoff may be neglecting the difficulty of cooperating to make cumulative contributions towards a common goal. This fits with [Moravec’s paradox](https://en.wikipedia.org/wiki/Moravec%27s_paradox), since cooperation is something that evolution has selected humans very hard for.
 
-However, regardless of the specific cause of the great divergence between capabilities and impacts, it’s something which deserves to be grappled with more directly.++}
+However, regardless of the specific cause of the great divergence between capabilities and impacts, it’s something which deserves to be grappled with more directly.

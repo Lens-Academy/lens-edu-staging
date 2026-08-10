@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786378684120}@@---
+---
 title: "Evidence on good forecasting practices from the Good Judgment Project"
 author:
   - "Daniel Kokotajlo"
@@ -226,4 +226,4 @@ The benefits of following these best practices (including identifying and aggreg
 *Research, analysis, and writing were done by Daniel Kokotajlo. Katja Grace and Justis Mills contributed feedback and editing. Tegan McCaslin, Carl Shulman, and Jacob Lagerros contributed feedback.*
 
 **4. Footnotes**
-----------------++}
+----------------
