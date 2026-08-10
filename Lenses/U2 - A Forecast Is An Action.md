@@ -26,7 +26,13 @@ Return here after reading.
 
 ---
 
-#### Question
+#### {++{"author":"Lauren's AI","timestamp":1786379721996}@@Article
+source:: [[../articles/ngo-selective-optimism-critique-of-ai-2040]]
+
+#### Article
+source:: [[../articles/demski-parable-of-predict-o-matic]]
+
+#### ++}Question
 content::
 \## Phase 1: Recall
 

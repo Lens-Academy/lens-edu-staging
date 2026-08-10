@@ -14,7 +14,9 @@ Here are three problems we hope you cannot solve.
 
 Not a joke and not a test. We are asking you to fail on purpose. Learning scientists call this productive failure: an answer lands harder when you have already tried and missed, and a method taught cold reads as a procedure and is forgotten by Thursday.
 
-So struggle on purpose. Answer at whatever depth you reach, guess badly rather than skip, and spend enough time trying. Nobody is grading these against a right answer. The first one has a right answer, out in the world, and you are not allowed to look it up. The other two are graded on reasoning, and reasoning well can land on either side.
+{++{"author":"Lauren's AI","timestamp":1786379724149}@@None of these three is about AI, and that is deliberate. We want to see your reasoning rather than your reading, and a problem you might have read about cannot show us that. The AI versions come later in the unit, once the moves are yours.
+
+++}So struggle on purpose. Answer at whatever depth you reach, guess badly rather than skip, and spend enough time trying. Nobody is grading these against a right answer. The first one has a right answer, out in the world, and you are not allowed to look it up. The other two are graded on reasoning, and reasoning well can land on either side.
 
 At the end of the unit you will be given three more problems in different domains, harder than these. The comparison between what you write now and what you write then is what this unit is actually measuring.
 
