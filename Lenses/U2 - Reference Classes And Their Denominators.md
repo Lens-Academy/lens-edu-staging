@@ -14,9 +14,9 @@ content::
 
 The decomposition loop you studied says: apply the outside view to your sub-questions. This reading is the author of that summary arguing that the instruction he passed along is much less clear than it sounds, and proposing that you stop using the phrase and name the specific move instead.
 
-As you read, keep a list of the distinct things "outside view" turns out to mean. There are more than you expect.
+As you read, keep a list of the distinct things "outside view" turns out to mean. There are more than you expect.{--{"author":"Elias's AI","timestamp":1786376198588}@@
 
-Return here after reading.
+Return here after reading.--}
 
 ---
 
