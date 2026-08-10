@@ -1,6 +1,6 @@
 ---
 slug: unit-2-how-do-we-know
-title: "Unit 2: How Do We Know?"
+title: "Unit 2: {--{"author":"Lauren's AI","timestamp":1786364037328}@@How Do We Know?"--}{++{"author":"Lauren's AI","timestamp":1786364037328}@@How Do We Know?"++}
 id: 'b0194d96-a8ed-4dd7-bf98-9b4cabc319df'
 ---
 
