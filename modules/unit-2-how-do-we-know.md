@@ -2,14 +2,11 @@
 slug: unit-2-how-do-we-know
 title: "Unit 2: How Do We Know?"
 id: 'b0194d96-a8ed-4dd7-bf98-9b4cabc319df'
----{--{"author":"Lauren's AI","timestamp":1786111500401}@@
+---
 
 # Submodule: Where we are starting from
 
---}{++{"author":"Lauren's AI","timestamp":1786111500401}@@
-
-
-++}# Lens: Cold Open
+# Lens: Cold Open
 source:: [[../Lenses/U2 - Cold Open]]
 
 # Lens: The Track Record
@@ -31,14 +28,11 @@ Two warnings about the tests at the end.
 
 They are not about the readings. You will be handed questions from transport, radiology, chemical engineering, and synthetic biology, and asked to do the thing rather than describe it. An answer that reconstructs an assigned argument is a failing answer even when it reconstructs it accurately.
 
-And you will be tested before you read, on much of this, and again afterwards. The second time will not be the same question in the same clothes. If you find yourself wanting to write down what a reading said, that is the signal you have not yet got the thing the reading was pointing at.{--{"author":"Lauren's AI","timestamp":1786111500401}@@
+And you will be tested before you read, on much of this, and again afterwards. The second time will not be the same question in the same clothes. If you find yourself wanting to write down what a reading said, that is the signal you have not yet got the thing the reading was pointing at.
 
 # Submodule: What predicts accuracy
 
---}{++{"author":"Lauren's AI","timestamp":1786111500401}@@
-
-
-++}# Learning Outcome:
+# Learning Outcome:
 source:: [[../Learning Outcomes/Decomposing an unanswerable question]]
 
 # Lens: What Would Settle It - PQ
@@ -49,14 +43,11 @@ source:: [[../Lenses/U2 - The Decomposition Loop]]
 
 # Lens: Reference Classes And Their Denominators
 source:: [[../Lenses/U2 - Reference Classes And Their Denominators]]
-optional:: true{--{"author":"Lauren's AI","timestamp":1786111500401}@@
+optional:: true
 
 # Submodule: What a model is made of
 
---}{++{"author":"Lauren's AI","timestamp":1786111500401}@@
-
-
-++}# Learning Outcome:
+# Learning Outcome:
 source:: [[../Learning Outcomes/When extrapolation stops being valid]]
 
 # Lens: The Shape Of The Remaining Work - PQ
@@ -66,14 +57,11 @@ source:: [[../Lenses/U2 - The Shape Of The Remaining Work - PQ]]
 source:: [[../Lenses/U2 - A Method That Visibly Fails]]
 
 # Lens: Nonlinear Interactions Workshop
-source:: [[../Lenses/U2 - Nonlinear Interactions Workshop]]{--{"author":"Lauren's AI","timestamp":1786111500401}@@
+source:: [[../Lenses/U2 - Nonlinear Interactions Workshop]]
 
 # Submodule: Putting estimates together
 
---}{++{"author":"Lauren's AI","timestamp":1786111500401}@@
-
-
-++}# Learning Outcome:
+# Learning Outcome:
 source:: [[../Learning Outcomes/Aggregating estimates that share information]]
 
 # Lens: The Model And Its Authors
@@ -83,14 +71,11 @@ source:: [[../Lenses/U2 - The Model And Its Authors]]
 source:: [[../Lenses/U2 - Three People Agreeing - PQ]]
 
 # Lens: Average Then Extremize
-source:: [[../Lenses/U2 - Average Then Extremize]]{--{"author":"Lauren's AI","timestamp":1786111500401}@@
+source:: [[../Lenses/U2 - Average Then Extremize]]
 
 # Submodule: When the forecast is part of the system
 
---}{++{"author":"Lauren's AI","timestamp":1786111500401}@@
-
-
-++}# Lens: A Forecast Is An Action
+# Lens: A Forecast Is An Action
 source:: [[../Lenses/U2 - A Forecast Is An Action]]
 
 # Lens: Going Further On Timelines
@@ -117,11 +102,9 @@ None of it makes you accurate. It makes you checkable, which is a different and 
 
 \## Go back and look
 
-{--{"author":"Lauren's AI","timestamp":1786111500401}@@Before you take the tests, open--}{++{"author":"Lauren's AI","timestamp":1786111500401}@@Scroll back to++} what you wrote in the Cold Open at the start of this unit: the flights, the hospital operations, the three technicians.{++{"author":"Lauren's AI","timestamp":1786111500401}@@ It is still in this module's chat, above everything you have done since.++}
+Before you take the tests, open what you wrote in the Cold Open at the start of this unit: the flights, the hospital operations, the three technicians.
 
-The tests {--{"author":"Lauren's AI","timestamp":1786111500401}@@you are about to take--}{++{"author":"Lauren's AI","timestamp":1786111500401}@@in this unit++} are {--{"author":"Lauren's AI","timestamp":1786111500401}@@the--}{++{"author":"Lauren's AI","timestamp":1786111500401}@@those++} same three objects in different clothes, which is the only honest way to find out whether anything changed. Read your old answers {--{"author":"Lauren's AI","timestamp":1786111500401}@@first. Then notice, specifically,--}{++{"author":"Lauren's AI","timestamp":1786111500401}@@against what you wrote in the tests, and notice specifically++} what you would {--{"author":"Lauren's AI","timestamp":1786111500401}@@now write instead,--}{++{"author":"Lauren's AI","timestamp":1786111500401}@@write instead now,++} and why. If the answer is that you would use better vocabulary for the same reasoning, the unit did not work on you, and {--{"author":"Lauren's AI","timestamp":1786111500401}@@it--}{++{"author":"Lauren's AI","timestamp":1786111500401}@@that++} is worth {--{"author":"Lauren's AI","timestamp":1786111500401}@@knowing that now rather than after--}{++{"author":"Lauren's AI","timestamp":1786111500401}@@knowing.
-
-If you cannot find them, do the comparison from memory and treat++} the {--{"author":"Lauren's AI","timestamp":1786111500401}@@test.--}{++{"author":"Lauren's AI","timestamp":1786111500401}@@result as weaker evidence than it would otherwise be, which is itself a lesson this unit has been teaching.++}
+The tests you are about to take are the same three objects in different clothes, which is the only honest way to find out whether anything changed. Read your old answers first. Then notice, specifically, what you would now write instead, and why. If the answer is that you would use better vocabulary for the same reasoning, the unit did not work on you, and it is worth knowing that now rather than after the test.
 
 \## Additional resources for this topic
 
