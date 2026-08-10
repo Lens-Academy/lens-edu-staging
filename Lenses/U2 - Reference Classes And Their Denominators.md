@@ -20,10 +20,10 @@ Return here after reading.
 
 ---
 
-#### {++{"author":"Lauren's AI","timestamp":1786363026175}@@Article
+#### Article
 source:: [[../articles/taboo-outside-view]]
 
-#### ++}Question
+#### Question
 content::
 \## Phase 1: Recall
 
