@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786362791527}@@---
+---
 title: "Fractional progress estimates for AI timelines and implied resource requirements"
 author:
   - "Mark Xu"
@@ -98,4 +98,4 @@ This view also reconciles better with the survey evidence reporting acceleration
 
 For the more recent survey estimate of 142 years of progress with the above assumptions the result is 10^43 FLOP (more with incorporation of past growth in spending), which is more arguable but still extremely high, suggesting evolutionary levels of compute without any of the obvious advantages of intentional human design providing major efficiencies, and with scaling much worse than observed for deep learning today.
 
-The aggregate and deep learning linear extrapolation results of several decades still suffer a version of this problem, primarily because of the unsustainably rapid growth of expenditures, e.g. [it](https://aiimpacts.org/interpreting-ai-compute-trends/) [is](https://aiimpacts.org/reinterpreting-ai-and-compute/) [impossible](https://www.lesswrong.com/posts/wfpdejMWog4vEDLDg/ai-and-compute-trend-isn-t-predictive-of-what-is-happening) to maintain annual 10x growth in compute for the largest models for 30 years. While they report much more rapid progress and acceleration than the Hanson survey respondents, we would still expect more acceleration in subjective progress estimates as we come closer to across-the-board superhuman performance.++}
+The aggregate and deep learning linear extrapolation results of several decades still suffer a version of this problem, primarily because of the unsustainably rapid growth of expenditures, e.g. [it](https://aiimpacts.org/interpreting-ai-compute-trends/) [is](https://aiimpacts.org/reinterpreting-ai-and-compute/) [impossible](https://www.lesswrong.com/posts/wfpdejMWog4vEDLDg/ai-and-compute-trend-isn-t-predictive-of-what-is-happening) to maintain annual 10x growth in compute for the largest models for 30 years. While they report much more rapid progress and acceleration than the Hanson survey respondents, we would still expect more acceleration in subjective progress estimates as we come closer to across-the-board superhuman performance.
