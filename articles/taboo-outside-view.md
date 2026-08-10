@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786362790128}@@---
+---
 title: "Taboo "Outside View""
 author:
   - "Daniel Kokotajlo"
@@ -128,4 +128,4 @@ Conclusion
 
 Whenever you notice yourself saying “outside view” or “inside view,” imagine a tiny Daniel Kokotajlo hopping up and down on your shoulder chirping “*Taboo outside view.*” 
 
-*Many thanks to the many people who gave comments on a draft: Vojta, Jia, Anthony, Max, Kaj, Steve, and Mark. Also thanks to various people I ran the ideas by earlier.*++}
+*Many thanks to the many people who gave comments on a draft: Vojta, Jia, Anthony, Max, Kaj, Steve, and Mark. Also thanks to various people I ran the ideas by earlier.*
