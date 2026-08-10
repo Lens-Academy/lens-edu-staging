@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786359250709}@@---
+---
 id: '57a676a0-de9e-481b-971c-c764170173c3'
 title: The Model And Its Authors
 tldr: The AI Futures team rebuilt their timelines model and moved their own median three to five years later than AI 2027. You build your forecasting toolkit before seeing theirs, then watch two of the authors run the same model and disagree.
@@ -194,4 +194,4 @@ What to do in each reply:
 2. If they skip the second question or answer it as "they would fall behind", ask what that means for anyone trying to slow the trend down deliberately.
 3. If they say revenue is simply a good proxy, ask what would have to be true of the economy for that to hold.
 
-On close: tell them this question about what keeps a trend running returns in later units about other trends.++}
+On close: tell them this question about what keeps a trend running returns in later units about other trends.

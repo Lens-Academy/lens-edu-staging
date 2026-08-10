@@ -76,10 +76,10 @@ source:: [[../Lenses/U2 - Nonlinear Interactions Workshop]]{--{"author":"Lauren'
 ++}# Learning Outcome:
 source:: [[../Learning Outcomes/Aggregating estimates that share information]]
 
-# Lens: {++{"author":"Lauren's AI","timestamp":1786359252416}@@The Model And Its Authors
+# Lens: The Model And Its Authors
 source:: [[../Lenses/U2 - The Model And Its Authors]]
 
-# Lens: ++}Three People Agreeing - PQ
+# Lens: Three People Agreeing - PQ
 source:: [[../Lenses/U2 - Three People Agreeing - PQ]]
 
 # Lens: Average Then Extremize
