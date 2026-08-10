@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786378685416}@@---
+---
 title: "How We're Predicting AI - or Failing To"
 author:
   - "Stuart Armstrong"
@@ -739,4 +739,4 @@ Daedalus 117 (1): 191–212. http://www.jstor.org/stable/20025144 .
 Wolpert, David H., and William G. Macready. 1995. No Free Lunch Theorems for Search. Santa Fe, NM:
 The Santa Fe Institite, February 6. http://www.santafe.edu/media/workingpapers/95-02-
 010.pdf .
-22++}
+22

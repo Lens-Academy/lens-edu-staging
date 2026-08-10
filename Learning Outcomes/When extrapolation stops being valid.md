@@ -24,7 +24,7 @@ Three things:
 
 max-time:: 25:00
 
-assessment-instructions:: The student has completed a module on forecasting method, including the fractional-progress survey method and its 372-year result, {--{"author":"Lauren's AI","timestamp":1786379726308}@@scaling-law extrapolation, --}and the general problem of inferring a functional form from a trend. This test is set in radiology, not AI, so an answer that reconstructs the assigned readings cannot pass. The underlying object is a functional-form question: two points constrain a curve only if you have already assumed its shape, and the shape assumption is doing all the work.
+assessment-instructions:: The student has completed a module on forecasting method, including the fractional-progress survey method and its 372-year result, and the general problem of inferring a functional form from a trend. This test is set in radiology, not AI, so an answer that reconstructs the assigned readings cannot pass. The underlying object is a functional-form question: two points constrain a curve only if you have already assumed its shape, and the shape assumption is doing all the work.
 
 The mathematics the student is being asked to make visible:
 

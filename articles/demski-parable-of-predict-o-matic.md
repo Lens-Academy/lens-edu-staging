@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786379720368}@@---
+---
 title: "The Parable of Predict-O-Matic"
 author:
   - "Abram Demski"
@@ -287,4 +287,4 @@ Related
 
 [Let's Talk About "Convergent Rationality"](https://www.lesswrong.com/posts/pLZ3bdeng4u5W8Yft/let-s-talk-about-convergent-rationality-1)
 
-[Counterfactual Oracles = online supervised learning with random selection of training episodes](https://www.lesswrong.com/posts/yAiqLmLFxvyANSfs2/counterfactual-oracles-online-supervised-learning-with) (especially see the discussion)++}
+[Counterfactual Oracles = online supervised learning with random selection of training episodes](https://www.lesswrong.com/posts/yAiqLmLFxvyANSfs2/counterfactual-oracles-online-supervised-learning-with) (especially see the discussion)
