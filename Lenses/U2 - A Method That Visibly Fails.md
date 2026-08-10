@@ -24,7 +24,10 @@ Return here after reading.
 
 ---
 
-#### Question
+#### {++{"author":"Lauren's AI","timestamp":1786363027234}@@Article
+source:: [[../articles/xu-shulman-fractional-progress-estimates]]
+
+#### ++}Question
 content::
 \## Phase 1: Recall
 

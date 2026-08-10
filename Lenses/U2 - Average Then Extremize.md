@@ -22,7 +22,12 @@ Return here after reading.
 
 ---
 
-#### Question
+#### {++{"author":"Lauren's AI","timestamp":1786363028519}@@Article
+source:: [[../articles/neyman-algorithmic-bayesian-epistemology-explained]]
+from:: \* Chapter 7: Robust aggregation of substitutable signals
+to:: Chapter 8: When does agreement imply accuracy?
+
+#### ++}Question
 content::
 \## Phase 1: Recall
 

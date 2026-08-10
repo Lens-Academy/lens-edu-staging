@@ -10,7 +10,7 @@ authors:
 content::
 \## A real model, with its authors disagreeing inside it
 
-Most forecasts reach you as a number. This one arrives with its workings open: a model of when AI automates coding and what happens after, built by people who had published a different answer {--{"author":"Lauren's AI","timestamp":1786361817384}@@eighteen--}{++{"author":"Lauren's AI","timestamp":1786361817384}@@nine++} months earlier and then moved their own median three to five years later.
+Most forecasts reach you as a number. This one arrives with its workings open: a model of when AI automates coding and what happens after, built by people who had published a different answer nine months earlier and then moved their own median three to five years later.
 
 That makes it useful twice. Once for what it concludes, and once for what it shows about how a conclusion like that gets built, including the places where two people running the same model walk away with different numbers.
 
@@ -158,15 +158,15 @@ to:: ## Takeoff from Superhuman Coder onward
 
 #### Question
 content::
-\## {--{"author":"Lauren's AI","timestamp":1786361817384}@@Five years,--}{++{"author":"Lauren's AI","timestamp":1786361817384}@@A three-to-five year shift,++} in {--{"author":"Lauren's AI","timestamp":1786361817384}@@eighteen--}{++{"author":"Lauren's AI","timestamp":1786361817384}@@nine++} months
+\## A three-to-five year shift, in nine months
 
-The same team, with a better model, {--{"author":"Lauren's AI","timestamp":1786361817384}@@moved--}{++{"author":"Lauren's AI","timestamp":1786361817384}@@describe++} their {++{"author":"Lauren's AI","timestamp":1786361817384}@@improvements as producing "a roughly 3-5 year shift in our ++}median for {--{"author":"Lauren's AI","timestamp":1786361817384}@@the same milestone about five years later than they had it--}{++{"author":"Lauren's AI","timestamp":1786361817384}@@full coding automation" against the model they published with AI 2027++} in {--{"author":"Lauren's AI","timestamp":1786361817384}@@AI 2027.--}{++{"author":"Lauren's AI","timestamp":1786361817384}@@April 2025. This update is from January 2026.++}
+The same team, with a better model, describe their improvements as producing "a roughly 3-5 year shift in our median for full coding automation" against the model they published with AI 2027 in April 2025. This update is from January 2026.
 
-Two things to say about that. First, if a group can move {++{"author":"Lauren's AI","timestamp":1786361817384}@@three to ++}five years on their own considered estimate in {--{"author":"Lauren's AI","timestamp":1786361817384}@@eighteen--}{++{"author":"Lauren's AI","timestamp":1786361817384}@@about nine++} months, what does that tell you about how much weight your own number from earlier deserves?
+Two things to say about that. First, if a group can move three to five years on their own considered estimate in about nine months, what does that tell you about how much weight your own number from earlier deserves?
 
 Second, and less comfortable: that revision is public, numbered, and explained. Most changes of mind are not. What would you have concluded about this team if they had quietly stopped mentioning the old figure instead?
 
-assessment-instructions:: The student has just read the comparison between the new model and AI 2027, including the 3.25 to 5 year gap and the definition of the Superhuman Coder milestone.{++{"author":"Lauren's AI","timestamp":1786361817384}@@ The dates are AI 2027 in April 2025 and this update in January 2026, so the elapsed time is about nine months. Do not let a larger figure pass unchallenged if the student asserts one.++}
+assessment-instructions:: The student has just read the comparison between the new model and AI 2027, including the 3.25 to 5 year gap and the definition of the Superhuman Coder milestone. The dates are AI 2027 in April 2025 and this update in January 2026, so the elapsed time is about nine months. Do not let a larger figure pass unchallenged if the student asserts one.
 
 The move here is calibration: a large public revision by competent people is evidence about the reliability of ALL such estimates, including the student's own.
 
@@ -194,7 +194,7 @@ Every number in this reading rests on one thing continuing: the METR horizon tre
 
 That question is about how much time there is. This one is not.
 
-The model's third stage {--{"author":"Lauren's AI","timestamp":1786361817384}@@ends with--}{++{"author":"Lauren's AI","timestamp":1786361817384}@@begins where++} AI R&D {--{"author":"Lauren's AI","timestamp":1786361817384}@@fully automated and, in--}{++{"author":"Lauren's AI","timestamp":1786361817384}@@is fully automated, and++} the {--{"author":"Lauren's AI","timestamp":1786361817384}@@authors' words, humans obsolete. --}{++{"author":"Lauren's AI","timestamp":1786361817384}@@authors describe its endpoint as "asymptoting at the limits of intelligence". ++}Suppose everything in this reading happens roughly on {--{"author":"Lauren's AI","timestamp":1786361817384}@@schedule. --}{++{"author":"Lauren's AI","timestamp":1786361817384}@@schedule and we arrive there. ++}Name one thing that is exactly as unresolved on the far side of that as it is today, and say why getting there faster or slower does not change it.
+The model's third stage begins where AI R&D is fully automated, and the authors describe its endpoint as "asymptoting at the limits of intelligence". Suppose everything in this reading happens roughly on schedule and we arrive there. Name one thing that is exactly as unresolved on the far side of that as it is today, and say why getting there faster or slower does not change it.
 
 Then one about the reading itself rather than about the world.
 
@@ -220,13 +220,13 @@ Do not let the discussion turn into an account of what would make capability arr
 
 Answerable from the slices they have read. All the material is in Daniel's discussion and in the Stage 3 description.
 
-{++{"author":"Lauren's AI","timestamp":1786361817384}@@GET THE BOUNDARY RIGHT: Stage 3 BEGINS at full AI R&D automation and ENDS at what the authors call asymptoting at the limits of intelligence. If a student has it inverted, correct it once in passing without making it the topic.
+GET THE BOUNDARY RIGHT: Stage 3 BEGINS at full AI R&D automation and ENDS at what the authors call asymptoting at the limits of intelligence. If a student has it inverted, correct it once in passing without making it the topic.
 
-++}{++{"author":"Lauren's AI","timestamp":1786361914000}@@TWO DIFFERENT LIMITS, and this distinction is the point of the question. The authors' asymptote is about CAPABILITY: how intelligent the systems eventually get. The question asks about a different one: whether what you arrive at is any GOOD. A student who answers "we don't know how capable it ends up" has answered the authors' question, not this one. Ask them what would still be undecided even if the capability question were fully settled.
+TWO DIFFERENT LIMITS, and this distinction is the point of the question. The authors' asymptote is about CAPABILITY: how intelligent the systems eventually get. The question asks about a different one: whether what you arrive at is any GOOD. A student who answers "we don't know how capable it ends up" has answered the authors' question, not this one. Ask them what would still be undecided even if the capability question were fully settled.
 
 Do not name this distinction as a framework or give it a label. Just decline the capability answer and ask again.
 
-++}Up to 3 tutor turns.
+Up to 3 tutor turns.
 
 Look for, in rough order of value:
 - On part two: anything genuinely invariant to timing. Who decides what the systems are for, whose values get in, whether anyone can tell what a system is actually pursuing, what happens to people with no leverage. All good answers.
