@@ -14,9 +14,9 @@ Read the article **Gradual Disempowerment** by Jan Kulveit and colleagues (Kulve
 
 The first three excerpts cover the article's opening statement, its six core claims, and its sober closing paragraph. The next excerpt is from the economy section: it explains why AI is not just another labour-saving tool, but a different kind of change that can displace human cognition across the board. The last two excerpts are from the mutual-reinforcement section: they answer the strongest objection to the whole scenario, the worry that the different parts of society would keep each other aligned.
 
-Start at the beginning and read through the six excerpts in order. You can return to the collapsed parts of any article if you want more detail, but the assignment is these six excerpts.
+Start at the beginning and read through the six excerpts in order. You can return to the collapsed parts of any article if you want more detail, but the assignment is these six excerpts.{--{"author":"Elias's AI","timestamp":1786376206402}@@
 
-Return here after reading.
+Return here after reading.--}
 
 #### Article
 source:: [[../articles/gradual-disempowerment-gradual-disempowerment]]

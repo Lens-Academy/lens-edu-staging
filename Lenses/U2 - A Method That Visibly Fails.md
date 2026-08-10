@@ -18,9 +18,9 @@ Watch the provenance, because it matters for what the number means. The 372 figu
 
 You just did this arithmetic yourself in the previous step.
 
-As you read, keep one question live: the authors do not simply say the method is wrong. They ask what would have to be true for 372 years to be right, and what is true instead. Track that argument, not the number.
+As you read, keep one question live: the authors do not simply say the method is wrong. They ask what would have to be true for 372 years to be right, and what is true instead. Track that argument, not the number.{--{"author":"Elias's AI","timestamp":1786376201289}@@
 
-Return here after reading.
+Return here after reading.--}
 
 ---
 

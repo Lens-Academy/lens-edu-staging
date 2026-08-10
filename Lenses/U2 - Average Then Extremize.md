@@ -16,9 +16,9 @@ You do not need the rest of the thesis, and you do not need to follow the formal
 
 The result has a name that is also an instruction: **average, then extremize.**
 
-One warning as you read. It is easy to come away with "extremizing is a trick that improves forecasts." That is true empirically and is not the interesting part. The interesting part is the condition: how much you should extremize depends on how much the forecasters' information overlaps, and if it overlaps completely you should not extremize at all.
+One warning as you read. It is easy to come away with "extremizing is a trick that improves forecasts." That is true empirically and is not the interesting part. The interesting part is the condition: how much you should extremize depends on how much the forecasters' information overlaps, and if it overlaps completely you should not extremize at all.{--{"author":"Elias's AI","timestamp":1786376203853}@@
 
-Return here after reading.
+Return here after reading.--}
 
 ---
 
