@@ -20,7 +20,10 @@ Return here after reading.
 
 ---
 
-#### Question
+#### {++{"author":"Lauren's AI","timestamp":1786378686750}@@Article
+source:: [[../articles/kokotajlo-gjp-good-forecasting-practices]]
+
+#### ++}Question
 content::
 \## Phase 1: Recall
 
