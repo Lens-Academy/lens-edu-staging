@@ -16,7 +16,7 @@ Two readings. Read them in this order.
 
 An optimistic forecast about AI. Ngo's objection is not that it is too optimistic. It is that choices which could go either way appear in it as facts about how the future works, so a reader is offered a prediction and receives a politics.
 
-**2. *The Parable of Predict-O-Matic*, by Abram Demski.**
+**2. *The Parable of Predict-O-Matic*, by Abram Demski.**{++{"author":"Lauren's AI","timestamp":1786390320083}@@ (optional -- a longer parable making the same point in story form; skip it if you are short of time)++}
 
 Fiction, and short. A machine is built to predict things as accurately as possible. It is very good. The trouble is what accuracy means when your predictions are heard.
 
@@ -26,11 +26,8 @@ Return here after reading.
 
 ---
 
-#### {++{"author":"Lauren's AI","timestamp":1786379721996}@@Article
+#### {++{"author":"Lauren's AI","timestamp":1786390320083}@@Article
 source:: [[../articles/ngo-selective-optimism-critique-of-ai-2040]]
-
-#### Article
-source:: [[../articles/demski-parable-of-predict-o-matic]]
 
 #### ++}Question
 content::

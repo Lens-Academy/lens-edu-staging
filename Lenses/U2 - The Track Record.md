@@ -43,8 +43,10 @@ Optionally, alongside it: **Luke Muehlhauser's *The errors, insights, and lesson
 
 Return here after reading.
 
-#### {++{"author":"Lauren's AI","timestamp":1786378688257}@@Article
+#### {++{"author":"Lauren's AI","timestamp":1786390318999}@@Article
 source:: [[../articles/armstrong-sotala-how-were-predicting-ai-or-failing-to]]
+from:: 4.1. Subjective Assessment
+to:: References
 
 #### ++}Question
 content::
