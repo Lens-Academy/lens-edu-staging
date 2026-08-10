@@ -6,7 +6,7 @@ source_url: "https://www.lesswrong.com/posts/BcYfsi7vmhDvzQGiF/taboo-outside-vie
 published: 2021-06-17
 created: 2026-08-10
 accessed: 2026-08-10
-description: {--{"author":"Lauren's AI","timestamp":1786365460890}@@"Argues--}{++{"author":"Lauren's AI","timestamp":1786365460890}@@'Argues++} the term "outside view" has come to cover several distinct and unequally reliable moves, and proposes replacing it with more specific {--{"author":"Lauren's AI","timestamp":1786365460890}@@vocabulary."--}{++{"author":"Lauren's AI","timestamp":1786365460890}@@vocabulary.'++}
+description: 'Argues the term "outside view" has come to cover several distinct and unequally reliable moves, and proposes replacing it with more specific vocabulary.'
 tags:
   - "hand-imported-from-lw-corpus"
 ---
