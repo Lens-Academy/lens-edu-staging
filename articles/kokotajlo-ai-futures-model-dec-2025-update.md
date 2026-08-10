@@ -174,7 +174,11 @@ Finally, we model how quickly AIs are able to self-improve once AI R&D is fully 
 
 The primary milestones we track in Stage 3 are:
 
-In our simulations, we see a wide variety of outcomes ranging from a months-long takeoff from SAR to ASI, to a fizzling out of the intelligence explosion requiring further increases in compute to get to ASI.
+{++{"author":"Lauren's AI","timestamp":1786361096976}@@1.  **Superintelligent AI Researcher (SIAR).** The gap between a SIAR and the top AGI project human researcher is 2x greater than the gap between the top AGI project human researcher and the median researcher.
+
+2.  **Top-human-Expert-Dominating AI (TED-AI).** A TED-AI is at least as good as top human experts at virtually all cognitive tasks. (Note that the translation in our model from AI R&D capabilities to general capabilities is very rough.)
+
+++}In our simulations, we see a wide variety of outcomes ranging from a months-long takeoff from SAR to ASI, to a fizzling out of the intelligence explosion requiring further increases in compute to get to ASI.
 
 To achieve a fast takeoff, there usually needs to be a feedback loop such that each successive doubling of AI capabilities takes less time than the last. In the fastest takeoffs, this is usually possible via a _taste-only singularity_, i.e. the doublings would get faster solely from improvements in research taste (and not increases in compute or improvements in coding). Whether a taste-only singularity occurs depends on which of the following dominates:
 
