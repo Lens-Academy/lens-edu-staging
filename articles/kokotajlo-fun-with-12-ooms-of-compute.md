@@ -3,20 +3,34 @@ title: "Fun with +12 OOMs of Compute"
 author: "Daniel Kokotajlo"
 published: 2021-03-01
 source_url: https://www.alignmentforum.org/posts/rzqACeBGycZtqCfaX/fun-with-12-ooms-of-compute
----
+{--{"author":"Elias's AI","timestamp":1786348997376}@@---
 
 %%
-Imported by hand from the Alignment Forum text (Stampy corpus hash
-8327908b83017a0f3b9c62fee38eab1a) on 2026-08-08, because the relay's
-import_article tool is unavailable to this credential type (it requires a
-share-token MCP URL, not the legacy API key). Direct fetch of lesswrong.com is
-blocked by a Vercel security checkpoint.
+--}{++{"author":"Elias's AI","timestamp":1786348997376}@@authoring_notes: |
+  ++}Imported by hand from the Alignment Forum text (Stampy corpus hash{--{"author":"Elias's AI","timestamp":1786348997376}@@
+--}{++{"author":"Elias's AI","timestamp":1786348997376}@@
+  ++}8327908b83017a0f3b9c62fee38eab1a) on 2026-08-08, because the relay's{--{"author":"Elias's AI","timestamp":1786348997376}@@
+--}{++{"author":"Elias's AI","timestamp":1786348997376}@@
+  ++}import_article tool is unavailable to this credential type (it requires a{--{"author":"Elias's AI","timestamp":1786348997376}@@
+--}{++{"author":"Elias's AI","timestamp":1786348997376}@@
+  ++}share-token MCP URL, not the legacy API key). Direct fetch of lesswrong.com is{--{"author":"Elias's AI","timestamp":1786348997376}@@
+--}{++{"author":"Elias's AI","timestamp":1786348997376}@@
+  ++}blocked by a Vercel security checkpoint.{--{"author":"Elias's AI","timestamp":1786348997376}@@
 
-Fidelity notes: images, embedded Elicit prediction widgets, and footnote link
-targets are not reproduced; footnote markers are dropped rather than renumbered.
-Section headings and all prose are verbatim. Licence: Alignment Forum / LessWrong,
-inline permitted per the course brief.
-%%
+--}{++{"author":"Elias's AI","timestamp":1786348997376}@@
+
+  ++}Fidelity notes: images, embedded Elicit prediction widgets, and footnote link{--{"author":"Elias's AI","timestamp":1786348997376}@@
+--}{++{"author":"Elias's AI","timestamp":1786348997376}@@
+  ++}targets are not reproduced; footnote markers are dropped rather than renumbered.{--{"author":"Elias's AI","timestamp":1786348997376}@@
+--}{++{"author":"Elias's AI","timestamp":1786348997376}@@
+  ++}Section headings and all prose are verbatim. Licence: Alignment Forum / LessWrong,{--{"author":"Elias's AI","timestamp":1786348997376}@@
+--}{++{"author":"Elias's AI","timestamp":1786348997376}@@
+  ++}inline permitted per the course brief.{++{"author":"Elias's AI","timestamp":1786348997376}@@
+
+  Notes live in frontmatter, not the body: the article bundler ships body text
+  (even %% blocks and HTML comments) into the student-facing module JSON, but
+  strips frontmatter.++}
+{--{"author":"Elias's AI","timestamp":1786348997376}@@%%--}{++{"author":"Elias's AI","timestamp":1786348997376}@@---++}
 
 *Or: Big Timelines Crux Operationalized*
 
