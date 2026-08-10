@@ -222,6 +222,10 @@ Answerable from the slices they have read. All the material is in Daniel's discu
 
 {++{"author":"Lauren's AI","timestamp":1786361817384}@@GET THE BOUNDARY RIGHT: Stage 3 BEGINS at full AI R&D automation and ENDS at what the authors call asymptoting at the limits of intelligence. If a student has it inverted, correct it once in passing without making it the topic.
 
+++}{++{"author":"Lauren's AI","timestamp":1786361914000}@@TWO DIFFERENT LIMITS, and this distinction is the point of the question. The authors' asymptote is about CAPABILITY: how intelligent the systems eventually get. The question asks about a different one: whether what you arrive at is any GOOD. A student who answers "we don't know how capable it ends up" has answered the authors' question, not this one. Ask them what would still be undecided even if the capability question were fully settled.
+
+Do not name this distinction as a framework or give it a label. Just decline the capability answer and ask again.
+
 ++}Up to 3 tutor turns.
 
 Look for, in rough order of value:
