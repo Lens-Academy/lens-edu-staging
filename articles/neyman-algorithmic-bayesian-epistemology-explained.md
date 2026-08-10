@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786362793261}@@---
+---
 title: "My thesis (Algorithmic Bayesian Epistemology) explained in more depth"
 author:
   - "Eric Neyman"
@@ -370,4 +370,4 @@ My thesis is called Algorithmic Bayesian Epistemology, and I’m proud of it.
 
 [^tnkuux0vdo]: Unfortunately, this protocol is only communication-efficient. To actually update their estimates, Alice and Bob may potentially need to do a very large amount of computation at each step. 
 
-[^bsud9wwzirb]: Interestingly, Chen and Waggoner (2017) showed that under a (different) informational substitutes condition, traders in a prediction market are incentivized reveal all of their information right away by trading. This question of incentives is different from the question of my thesis chapter: my chapter can be interpreted as making the assumption that traders will trade on their information, and asking whether the market price will end up reflecting all traders’ information. Taken together, these two results suggest that market dynamics may be quite nice indeed when experts have substitutable information!++}
+[^bsud9wwzirb]: Interestingly, Chen and Waggoner (2017) showed that under a (different) informational substitutes condition, traders in a prediction market are incentivized reveal all of their information right away by trading. This question of incentives is different from the question of my thesis chapter: my chapter can be interpreted as making the assumption that traders will trade on their information, and asking whether the market price will end up reflecting all traders’ information. Taken together, these two results suggest that market dynamics may be quite nice indeed when experts have substitutable information!
