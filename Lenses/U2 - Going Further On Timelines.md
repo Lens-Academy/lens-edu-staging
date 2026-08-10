@@ -48,14 +48,14 @@ content::
 
 Take any of these, or none.
 
-::card[[../Lenses/AIF - Three Types of Intelligence Explosion]]
+::card[[../Lenses/AIF - Three Types of Intelligence {--{"author":"Lauren's AI","timestamp":1786364818584}@@Explosion]]--}{++{"author":"Lauren's AI","timestamp":1786364818584}@@Explosion]]{allow-external}++}
 
 > The reading you just did models one intelligence explosion. This one separates software, hardware and production explosions, which behave differently and have different bottlenecks.
 
-::card[[../Lenses/AIF - METR Time Horizons]]
+::card[[../Lenses/AIF - METR Time {--{"author":"Lauren's AI","timestamp":1786364818584}@@Horizons]]--}{++{"author":"Lauren's AI","timestamp":1786364818584}@@Horizons]]{allow-external}++}
 
 > The time-horizon work itself, rather than the caveats.
 
-::card[[../Lenses/AIF - Broad Timelines]]
+::card[[../Lenses/AIF - Broad {--{"author":"Lauren's AI","timestamp":1786364818584}@@Timelines]]--}{++{"author":"Lauren's AI","timestamp":1786364818584}@@Timelines]]{allow-external}++}
 
 > Timelines arguments that do not route through this model at all, which is the honest way to find out how much of your view depends on one research group.
