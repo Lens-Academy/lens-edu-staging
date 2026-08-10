@@ -15,7 +15,10 @@ source:: [[../Lenses/U2 - Cold Open]]
 # Lens: The Track Record
 source:: [[../Lenses/U2 - The Track Record]]
 
-# Lens: Opening frame
+# Lens: {++{"author":"Lauren's AI","timestamp":1786358416145}@@The Model And Its Authors
+source:: [[../Lenses/U2 - The Model And Its Authors]]
+
+# Lens: ++}Opening frame
 id:: 99ce0fb8-e37d-4a3e-b1de-cecee69182d0
 #### Text
 content::
