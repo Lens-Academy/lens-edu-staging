@@ -28,7 +28,7 @@ A note on how this course will treat you. Before nearly every reading, we will a
 content::
 \## What this costs, and who else is here
 
-Unit 1 takes most people around two hours. Reading is maybe forty minutes of it; the larger share goes on writing your own answers and arguing with the tutor about them, and the writing is the part that does the teaching. That estimate is ours and it is rough. The readings are short and the questions are not.
+Every unit 1 takes most people around two hours. Reading is maybe forty minutes of it; the larger share goes on writing your own answers and arguing with the tutor about them, and the writing is the part that does the teaching. That estimate is ours and it is rough. The readings are short and the questions are not.
 
 You are not doing this alone. You are in a cohort, and it meets live to work through the unit together. Bring your answers to that meeting, especially the ones you were least sure of, because a disagreement is the part that does not survive being read silently.
 
