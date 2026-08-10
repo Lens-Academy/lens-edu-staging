@@ -151,38 +151,91 @@ What to do in each reply:
 2. If they treat the three as three independent estimates, ask what would have to be true about how each was produced for that to hold.
 3. A student who notices that their own number is the only one produced from different evidence, and that this makes it worth more rather than less, is reasoning well. Say so.
 
+#### {++{"author":"Lauren's AI","timestamp":1786360365980}@@Article
+source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
+from:: ## Comparison to our previous
+to:: ## Takeoff from Superhuman Coder onward
+
 #### Question
 content::
-\## What has to keep happening
+\## Five years, in eighteen months
 
-Every number in this reading rests on one thing continuing: the METR horizon trend. Daniel spends several paragraphs on why he is nervous about exactly that.
+The same team, with a better model, moved their median for the same milestone about five years later than they had it in AI 2027.
 
-He names things that could bend it, among them online and continual learning, data efficiency, and the question of whether the trend is exponential or superexponential. Pick the one you think these forecasts most depend on.
+Two things to say about that. First, if a group can move five years on their own considered estimate in eighteen months, what does that tell you about how much weight your own number from earlier deserves?
 
-Now three questions about the world rather than about the model.
+Second, and less comfortable: that revision is public, numbered, and explained. Most changes of mind are not. What would you have concluded about this team if they had quietly stopped mentioning the old figure instead?
 
-Who specifically has to keep spending to keep that trend going, and what do they get back if they do?
+assessment-instructions:: The student has just read the comparison between the new model and AI 2027, including the 3.25 to 5 year gap and the definition of the Superhuman Coder milestone.
 
-What happens to whoever stops first, while the others keep going?
+The move here is calibration: a large public revision by competent people is evidence about the reliability of ALL such estimates, including the student's own.
 
-Daniel calls extrapolating AI revenue "a decent proxy for when AGI will be achieved". Is revenue measuring the thing these forecasts are about, or something that travels alongside it and could come apart? Give one concrete way it could come apart.
+The second question is about the norm rather than the number. A public, numbered, explained revision is a costly signal, and the counterfactual where the old figure is quietly dropped is the common case elsewhere. Do not moralise about this; ask and let them answer.
+
+Maximum 2 tutor turns.
+
+The pass bar: they widen their own uncertainty in response, and they say something specific about what public revision buys that quiet revision does not.
+
+Response length: 80 to 150 words. Short paragraphs only.
+
+Response style:
+- Calm and direct.
+- Do not over-validate. Avoid generic praise.
+
+What to do in each reply:
+1. If they conclude only "forecasts are unreliable", ask what they would still use a forecast FOR, given that.
+2. If they treat the revision as a failure by the team, point out it was volunteered and ask what the alternative would have looked like from outside.
+
+#### ++}Question
+content::
+\## What has to keep {--{"author":"Lauren's AI","timestamp":1786360365980}@@happening--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@happening, and what is left afterwards++}
+
+Every number in this reading rests on one thing continuing: the METR horizon trend. Daniel spends several paragraphs on why he is nervous about exactly{--{"author":"Lauren's AI","timestamp":1786360365980}@@ that.
+
+He names things that could bend it, among them--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@ that, naming++} online and continual learning, data efficiency, and the question of whether the trend is exponential or superexponential. Pick the one you think these forecasts most depend {--{"author":"Lauren's AI","timestamp":1786360365980}@@on.--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@on, and say what you would watch over the next year to find out which way it is going.++}
+
+{--{"author":"Lauren's AI","timestamp":1786360365980}@@Now three questions--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@That question is++} about {++{"author":"Lauren's AI","timestamp":1786360365980}@@how much time there is. This one is not.
+
+The model's third stage ends with AI R&D fully automated and, in ++}the {--{"author":"Lauren's AI","timestamp":1786360365980}@@world--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@authors' words, humans obsolete. Suppose everything in this reading happens roughly on schedule. Name one thing that is exactly as unresolved on the far side of that as it is today, and say why getting there faster or slower does not change it.
+
+Then one about the reading itself++} rather than about the {--{"author":"Lauren's AI","timestamp":1786360365980}@@model.--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@world.++}
+
+{--{"author":"Lauren's AI","timestamp":1786360365980}@@Who specifically has--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@Nearly all of what you just read is about how fast. Very little of it is about what for. That is not a criticism of the authors, who were writing a forecasting post and said so. But we think you will find close++} to {--{"author":"Lauren's AI","timestamp":1786360365980}@@keep spending to keep--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@that same ratio across most of what this field writes, and we would rather you check++} that {--{"author":"Lauren's AI","timestamp":1786360365980}@@trend going, --}{++{"author":"Lauren's AI","timestamp":1786360365980}@@claim over the next few months than take it from us.
+
+So: while you were reading, which question felt more interesting to you, ++}and {++{"author":"Lauren's AI","timestamp":1786360365980}@@be honest about it. And ++}what {--{"author":"Lauren's AI","timestamp":1786360365980}@@do they get back--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@would someone believe was the important question,++} if they {--{"author":"Lauren's AI","timestamp":1786360365980}@@do?
+
+What happens to whoever stops first, while the others keep going?--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@read a great deal of this material and not much else?++}
+
+{++{"author":"Lauren's AI","timestamp":1786360365980}@@Last, a smaller one. ++}Daniel calls extrapolating AI revenue "a decent proxy for when AGI will be achieved". Is revenue measuring the thing these forecasts are about, or something that travels alongside it and could come apart? Give one concrete way it could come apart.
 
 max-time:: 8:00
 
-assessment-instructions:: This is the closing move of the lens.
+assessment-instructions:: This is the closing move of the {--{"author":"Lauren's AI","timestamp":1786360365980}@@lens.--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@lens and the most important question in it is the second one.++}
 
-CRITICAL: do NOT supply, name, or gesture at any unifying framework here, and do not use words like "incentive structure", "selection pressure", or "self-repairing". There is a frame this course builds toward, and the student is meant to arrive at it themselves over several units from repeated encounters like this one. Naming it replaces their derivation with our assertion, and the derivation is the point. If the student produces such a frame themselves, engage with it seriously as theirs.
+CRITICAL: do NOT supply, name, or gesture at any unifying framework here, and do not use {--{"author":"Lauren's AI","timestamp":1786360365980}@@words--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@phrases++} like {++{"author":"Lauren's AI","timestamp":1786360365980}@@"selection pressure", ++}"incentive structure",{--{"author":"Lauren's AI","timestamp":1786360365980}@@ "selection pressure",--} or "self-repairing". There is a frame this course builds {--{"author":"Lauren's AI","timestamp":1786360365980}@@toward,--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@toward++} and the student is meant to arrive at it themselves over several{--{"author":"Lauren's AI","timestamp":1786360365980}@@ units from repeated encounters like this one.--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@ units.++} Naming it replaces their derivation with our{--{"author":"Lauren's AI","timestamp":1786360365980}@@ assertion, and the derivation is the point.--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@ assertion.++} If the student produces such a frame themselves, engage with it seriously as theirs.
 
-All three questions are answerable from the slices they have read. The second one is the one that does the most work and the one students will skate over.
+{--{"author":"Lauren's AI","timestamp":1786360365980}@@All three questions are answerable from --}{++{"author":"Lauren's AI","timestamp":1786360365980}@@WHAT THIS QUESTION IS FOR. The first part uses ++}the {--{"author":"Lauren's AI","timestamp":1786360365980}@@slices they have read.--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@forecast to establish how much time there is, which is instrumental.++} The second {--{"author":"Lauren's AI","timestamp":1786360365980}@@one is--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@part asks what++} the {--{"author":"Lauren's AI","timestamp":1786360365980}@@one--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@timeline does NOT settle: a student should notice++} that {--{"author":"Lauren's AI","timestamp":1786360365980}@@does the most work--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@some problems are invariant to when we arrive,++} and {++{"author":"Lauren's AI","timestamp":1786360365980}@@that speed changes how much room there is to work rather than what ++}the {--{"author":"Lauren's AI","timestamp":1786360365980}@@one students will skate over.--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@work is. Do not teach this; ask for it and see what they produce.++}
 
-Look for, in rough order of value:
-- Named actors with something to gain. "Labs compete for revenue and for researchers, and compute is how they buy position" beats "the industry invests".
-- On the second question: recognising that a lab which stops unilaterally loses ground to the ones that do not, and that this is why the trend is hard to bend by persuasion.
-- On the third: any concrete decoupling of revenue from capability, in either direction.
+{--{"author":"Lauren's AI","timestamp":1786360365980}@@Look for, in rough order of value:
+- Named actors with something to gain. "Labs compete for revenue--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@ON THE HOW-FAST PULL. This lens deliberately lets the student FEEL the pull toward "what makes it go faster"++} and {--{"author":"Lauren's AI","timestamp":1786360365980}@@for researchers,--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@then look at it, rather than keeping that framing away from them. Removing it would not protect them; they will meet it in almost everything else they read in this field,++} and {--{"author":"Lauren's AI","timestamp":1786360365980}@@compute --}{++{"author":"Lauren's AI","timestamp":1786360365980}@@the point ++}is {--{"author":"Lauren's AI","timestamp":1786360365980}@@how--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@that++} they {--{"author":"Lauren's AI","timestamp":1786360365980}@@buy position" beats "the industry invests".
+- On--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@notice it happening rather than that they never encounter it.
 
-Up to 3 tutor turns.
+So when a student says++} the {--{"author":"Lauren's AI","timestamp":1786360365980}@@second question: recognising--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@how-fast question was more interesting,++} that {++{"author":"Lauren's AI","timestamp":1786360365980}@@is the honest and common answer and must not be treated as ++}a {--{"author":"Lauren's AI","timestamp":1786360365980}@@lab which stops unilaterally loses ground--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@wrong one. Say it is the usual answer, and ask what it would cost someone++} to {--{"author":"Lauren's AI","timestamp":1786360365980}@@the ones--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@find only++} that {--{"author":"Lauren's AI","timestamp":1786360365980}@@do not, and--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@question interesting for several years. Do not answer++} that {--{"author":"Lauren's AI","timestamp":1786360365980}@@this --}{++{"author":"Lauren's AI","timestamp":1786360365980}@@for them.
 
-Response length: 120 to 200 words. Short paragraphs only.
+Do not let the discussion turn into an account of what would make capability arrive sooner. If a student starts optimising the trend, ask what ++}is {--{"author":"Lauren's AI","timestamp":1786360365980}@@why--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@true at the end of it regardless of speed.
+
+Answerable from the slices they have read. All++} the {--{"author":"Lauren's AI","timestamp":1786360365980}@@trend--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@material++} is {--{"author":"Lauren's AI","timestamp":1786360365980}@@hard--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@in Daniel's discussion and in the Stage 3 description.
+
+Up++} to {--{"author":"Lauren's AI","timestamp":1786360365980}@@bend by persuasion.--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@3 tutor turns.
+
+Look for, in rough order of value:++}
+- On {++{"author":"Lauren's AI","timestamp":1786360365980}@@part two: anything genuinely invariant to timing. Who decides what ++}the {--{"author":"Lauren's AI","timestamp":1786360365980}@@third: --}{++{"author":"Lauren's AI","timestamp":1786360365980}@@systems are for, whose values get in, whether anyone can tell what a system is actually pursuing, what happens to people with no leverage. All good answers.
+- A stated reason WHY speed does not touch it, not just an assertion that it does not.
+- On part three: ++}any concrete decoupling of revenue from capability, in either direction.
+
+{--{"author":"Lauren's AI","timestamp":1786360365980}@@Up to 3 tutor turns.
+
+--}Response length: 120 to 200 words. Short paragraphs only.
 
 Response style:
 - Calm and direct. Genuinely curious about their answer.
@@ -190,8 +243,9 @@ Response style:
 - Do not correct them toward a preferred answer. There are several good ones.
 
 What to do in each reply:
-1. Push once for named actors if they answer the first question abstractly.
-2. If they skip the second question or answer it as "they would fall behind", ask what that means for anyone trying to slow the trend down deliberately.
+1. {--{"author":"Lauren's AI","timestamp":1786360365980}@@Push once for named actors if they answer the first question abstractly.
+2. If they skip the second question or --}{++{"author":"Lauren's AI","timestamp":1786360365980}@@If their part-two answer is something more capability plainly does solve, say which part capability solves and ask what is left over.
+2. If they ++}answer {--{"author":"Lauren's AI","timestamp":1786360365980}@@it as "they would fall behind", ask--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@part two with "alignment", ask them to say++} what {--{"author":"Lauren's AI","timestamp":1786360365980}@@that means for anyone trying to slow the trend down deliberately.--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@specifically about it survives arriving in 2040 rather than 2030.++}
 3. If they say revenue is simply a good proxy, ask what would have to be true of the economy for that to hold.
 
-On close: tell them this question about what keeps a trend running returns in later units about other trends.
+On close: tell them this question {--{"author":"Lauren's AI","timestamp":1786360365980}@@about what keeps a trend running returns in later units about other trends.--}{++{"author":"Lauren's AI","timestamp":1786360365980}@@returns in later units, and that the second part is the one the course is actually built around.++}
