@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786361212937}@@---
+---
 id: '83312d18-5db0-41f5-b23a-6a67368c0943'
 title: Going Further On Timelines
 tldr: Optional. The unit rests on one trend line, so here is the team that produced it explaining what it does and does not support, plus routes into takeoff and into the earlier model.
@@ -58,4 +58,4 @@ Take any of these, or none.
 
 ::card[[../Lenses/AIF - Broad Timelines]]
 
-> Timelines arguments that do not route through this model at all, which is the honest way to find out how much of your view depends on one research group.++}
+> Timelines arguments that do not route through this model at all, which is the honest way to find out how much of your view depends on one research group.
