@@ -32,7 +32,7 @@ source_url: https://aiimpacts.org/discontinuous-progress-in-history-an-update/
   strips frontmatter.
 ++}---
 
-%%
+{--{"author":"Elias's AI","timestamp":1786348976178}@@%%
 LICENSING HOLD, 2026-08-08. This is a STUB, not a full-text import. The stub
 itself ships to production (short attributed quotes + a link out are fine); the
 hold is only on importing the FULL text.
@@ -57,7 +57,7 @@ course material:
 Both verified on two independent fetches, 2026-08-08.
 %%
 
-Katja Grace and collaborators at AI Impacts surveyed 38 technological trends with good historical data, defined a "large robust discontinuity" as an event that abruptly and clearly contributed more to progress on a metric than another century at previous rates would have, and counted how often such events occur.
+--}Katja Grace and collaborators at AI Impacts surveyed 38 technological trends with good historical data, defined a "large robust discontinuity" as an event that abruptly and clearly contributed more to progress on a metric than another century at previous rates would have, and counted how often such events occur.
 
 **Read the full investigation at [aiimpacts.org](https://aiimpacts.org/discontinuous-progress-in-history-an-update/).**
 
