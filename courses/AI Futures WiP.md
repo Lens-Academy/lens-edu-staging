@@ -22,7 +22,7 @@ Known-outstanding defects are listed in the repo at
 
 # Meeting: Unit 1
 
-# Module: [[../modules/unit-2-how-do-we-know|Unit 2: {--{"author":"Lauren's AI","timestamp":1786364039226}@@How Do We Know?]]--}{++{"author":"Lauren's AI","timestamp":1786364039226}@@How Do We Know?]]++}
+# Module: [[../modules/unit-2-how-do-we-know|Unit 2: How Do We Know?]]
 
 # Meeting: Unit 2
 

@@ -18,7 +18,7 @@ on purpose: existing signups and learner progress key on them. %%
 # Meeting: Unit 1
 meeting-doc-template:: https://docs.google.com/document/d/1lqbblsgNwgeBa6JEhgH5qk-hlPSUsZRcYAH-IMmSYD8/edit
 
-# Module: [[../modules/unit-2-how-do-we-know|Unit 2: {--{"author":"Lauren's AI","timestamp":1786364038253}@@How Do We Know?]]--}{++{"author":"Lauren's AI","timestamp":1786364038253}@@How Do We Know?]]++}
+# Module: [[../modules/unit-2-how-do-we-know|Unit 2: How Do We Know?]]
 
 # Meeting: Unit 2
 meeting-doc-template:: https://docs.google.com/document/d/1ueFST_L_ei4mvZYKOe1v5io1CqrHwqDwZKSLNcCM-qM/edit

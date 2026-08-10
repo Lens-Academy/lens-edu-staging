@@ -1,5 +1,5 @@
 ---
-title: {--{"author":"Lauren's AI","timestamp":1786364817483}@@"Taboo--}{++{"author":"Lauren's AI","timestamp":1786364817483}@@'Taboo++} "Outside {--{"author":"Lauren's AI","timestamp":1786364817483}@@View""--}{++{"author":"Lauren's AI","timestamp":1786364817483}@@View"'++}
+title: 'Taboo "Outside View"'
 author:
   - "Daniel Kokotajlo"
 source_url: "https://www.lesswrong.com/posts/BcYfsi7vmhDvzQGiF/taboo-outside-view"
