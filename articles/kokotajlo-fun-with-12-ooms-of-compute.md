@@ -15,11 +15,7 @@ blocked by a Vercel security checkpoint.
 Fidelity notes: images, embedded Elicit prediction widgets, and footnote link
 targets are not reproduced; footnote markers are dropped rather than renumbered.
 Section headings and all prose are verbatim. Licence: Alignment Forum / LessWrong,
-inline permitted per the course brief.{++{"author":"Elias's AI","timestamp":1786360963120}@@
-
-  Notes live in frontmatter, not the body: frontmatter never reaches the
-  student-facing module JSON regardless of content-processor version. Current
-  processors also strip %% blocks from article bodies; older ones did not.++}
+inline permitted per the course brief.
 %%
 
 *Or: Big Timelines Crux Operationalized*
