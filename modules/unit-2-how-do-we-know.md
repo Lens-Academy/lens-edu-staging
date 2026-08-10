@@ -9,10 +9,7 @@ id: 'b0194d96-a8ed-4dd7-bf98-9b4cabc319df'
 # Lens: Cold Open
 source:: [[../Lenses/U2 - Cold Open]]
 
-# Lens: {++{"author":"Lauren's AI","timestamp":1786378728051}@@The Track Record
-source:: [[../Lenses/U2 - The Track Record]]
-
-# Lens: ++}Opening frame
+# Lens: Opening frame
 id:: 99ce0fb8-e37d-4a3e-b1de-cecee69182d0
 #### Text
 content::
@@ -20,11 +17,11 @@ content::
 
 Unit 1 laid out what could happen. This one asks how anyone could know.
 
-{--{"author":"Lauren's AI","timestamp":1786378728051}@@The --}{++{"author":"Lauren's AI","timestamp":1786378728051}@@You have just seen that the ++}track record of AI prediction is bad, and bad in a patterned {--{"author":"Lauren's AI","timestamp":1786378728051}@@way rather than randomly. --}{++{"author":"Lauren's AI","timestamp":1786378728051}@@way. ++}That is the {--{"author":"Lauren's AI","timestamp":1786378728051}@@floor this unit starts from. --}{++{"author":"Lauren's AI","timestamp":1786378728051}@@floor. ++}Everything {--{"author":"Lauren's AI","timestamp":1786378728051}@@in--}{++{"author":"Lauren's AI","timestamp":1786378728051}@@after++} it is a response to {--{"author":"Lauren's AI","timestamp":1786378728051}@@that floor,--}{++{"author":"Lauren's AI","timestamp":1786378728051}@@it,++} and none of the responses is a fix.
+{--{"author":"Lauren's AI","timestamp":1786379727393}@@The --}{++{"author":"Lauren's AI","timestamp":1786379727393}@@The ++}track record of AI prediction is bad, and bad in a patterned {--{"author":"Lauren's AI","timestamp":1786379727393}@@way rather than randomly. --}{++{"author":"Lauren's AI","timestamp":1786379727393}@@way rather than randomly. ++}That is the {--{"author":"Lauren's AI","timestamp":1786379727393}@@floor this unit starts from. --}{++{"author":"Lauren's AI","timestamp":1786379727393}@@floor this unit starts from. ++}Everything {--{"author":"Lauren's AI","timestamp":1786379727393}@@in--}{++{"author":"Lauren's AI","timestamp":1786379727393}@@in++} it is a response to {--{"author":"Lauren's AI","timestamp":1786379727393}@@that floor,--}{++{"author":"Lauren's AI","timestamp":1786379727393}@@that floor,++} and none of the responses is a fix.
 
 Three things happen from here. First, the evidence on what actually correlates with forecasting accuracy, which is not what most people would guess, and the procedure that follows from it. Second, the internals: what a forecast is made of, what a trend line assumes, and the several distinct ways the parts of a system can interact so that the obvious arithmetic is the wrong arithmetic. Third, what happens to all of it when the thing you are forecasting can hear you.
 
-Two warnings about the tests at the end.
+Two warnings about the {--{"author":"Lauren's AI","timestamp":1786379727393}@@tests --}{++{"author":"Lauren's AI","timestamp":1786379727393}@@tests. There is one at the end of each of the next three sections, not a single set ++}at the {--{"author":"Lauren's AI","timestamp":1786379727393}@@end.--}{++{"author":"Lauren's AI","timestamp":1786379727393}@@end of the unit.++}
 
 They are not about the readings. You will be handed questions from transport, radiology, chemical engineering, and synthetic biology, and asked to do the thing rather than describe it. An answer that reconstructs an assigned argument is a failing answer even when it reconstructs it accurately.
 
@@ -36,10 +33,9 @@ And you will be tested before you read, on much of this, and again afterwards. T
 source:: [[../Learning Outcomes/Decomposing an unanswerable question]]
 
 # Lens: What Would Settle It - PQ
-source:: [[../Lenses/U2 - What Would Settle It - PQ]]
+source:: [[../Lenses/U2 - What Would Settle It - PQ]]{--{"author":"Lauren's AI","timestamp":1786379727393}@@
 
-# Lens: {++{"author":"Lauren's AI","timestamp":1786378728051}@@The Decomposition Loop
-source:: [[../Lenses/U2 - The Decomposition Loop]]
+# Lens: --}{++{"author":"Lauren's AI","timestamp":1786379727393}@@
 
 # Lens: ++}Reference Classes And Their Denominators
 source:: [[../Lenses/U2 - Reference Classes And Their Denominators]]
@@ -102,12 +98,12 @@ None of it makes you accurate. It makes you checkable, which is a different and 
 
 \## Go back and look
 
-Before you take the tests, open what you wrote in the Cold Open at the start of this unit: the flights, the hospital operations, the three technicians.
+{--{"author":"Lauren's AI","timestamp":1786379727393}@@Before you take the tests, open --}{++{"author":"Lauren's AI","timestamp":1786379727393}@@Open ++}what you wrote in the Cold Open at the start of this unit: the flights, the hospital operations, the three technicians.{++{"author":"Lauren's AI","timestamp":1786379727393}@@ It is still in this module's chat, above everything you have done since.++}
 
-The tests you are about to take are the same three objects in different clothes, which is the only honest way to find out whether anything changed. Read your old answers first. Then notice, specifically, what you would now write instead, and why. If the answer is that you would use better vocabulary for the same reasoning, the unit did not work on you, and it is worth knowing that now rather than after the test.
+The {++{"author":"Lauren's AI","timestamp":1786379727393}@@three ++}tests you {--{"author":"Lauren's AI","timestamp":1786379727393}@@are about to take are the--}{++{"author":"Lauren's AI","timestamp":1786379727393}@@have taken, at the end of each section, were those++} same three objects in different {--{"author":"Lauren's AI","timestamp":1786379727393}@@clothes, which is--}{++{"author":"Lauren's AI","timestamp":1786379727393}@@clothes. That was++} the only honest way to find out whether anything changed. Read your old answers {--{"author":"Lauren's AI","timestamp":1786379727393}@@first. Then notice, specifically,--}{++{"author":"Lauren's AI","timestamp":1786379727393}@@against what you wrote in the tests, and notice specifically++} what you would {--{"author":"Lauren's AI","timestamp":1786379727393}@@now write instead,--}{++{"author":"Lauren's AI","timestamp":1786379727393}@@write instead now,++} and why. If the answer is that you would use better vocabulary for the same reasoning, the unit did not work on you, and {--{"author":"Lauren's AI","timestamp":1786379727393}@@it--}{++{"author":"Lauren's AI","timestamp":1786379727393}@@that++} is worth {--{"author":"Lauren's AI","timestamp":1786379727393}@@knowing that now rather than after the test.--}{++{"author":"Lauren's AI","timestamp":1786379727393}@@knowing.++}
 
 \## Additional resources for this topic
 
 ::card[[../Lenses/U2 - Reference Classes And Their Denominators]]
 
-> If you skipped the optional lens on reference classes, it is the shortest high-value thing in the unit, and step two of the decomposition loop is close to unusable without it.
+> {--{"author":"Lauren's AI","timestamp":1786379727393}@@If you skipped the optional lens on reference classes, it is the--}{++{"author":"Lauren's AI","timestamp":1786379727393}@@The++} shortest high-value thing in the unit, and step two of the decomposition loop is close to unusable without it.
