@@ -18,9 +18,6 @@ on purpose: existing signups and learner progress key on them. %%
 # Meeting: Unit 1
 meeting-doc-template:: https://docs.google.com/document/d/1lqbblsgNwgeBa6JEhgH5qk-hlPSUsZRcYAH-IMmSYD8/edit
 
-%% Meeting docs for units 2-5 are linked below so they aren't lost; the docs are
-unfilled template copies, and the module entries for those units land as built. %%
-
 # Meeting: Unit 2
 meeting-doc-template:: https://docs.google.com/document/d/1ueFST_L_ei4mvZYKOe1v5io1CqrHwqDwZKSLNcCM-qM/edit
 
