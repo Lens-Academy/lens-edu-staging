@@ -93,11 +93,11 @@ source:: [[../Lenses/U2 - Average Then Extremize]]{--{"author":"Lauren's AI","ti
 ++}# Lens: A Forecast Is An Action
 source:: [[../Lenses/U2 - A Forecast Is An Action]]
 
-# Lens: {++{"author":"Lauren's AI","timestamp":1786361214251}@@Going Further On Timelines
+# Lens: Going Further On Timelines
 source:: [[../Lenses/U2 - Going Further On Timelines]]
 optional:: true
 
-# Lens: ++}Closing
+# Lens: Closing
 id:: 8a8c1976-538f-4cd9-b66b-2e95726ed21c
 #### Text
 content::
