@@ -25,11 +25,11 @@ source_url: https://www.alignmentforum.org/posts/rzqACeBGycZtqCfaX/fun-with-12-o
 --}{++{"author":"Elias's AI","timestamp":1786348997376}@@
   ++}Section headings and all prose are verbatim. Licence: Alignment Forum / LessWrong,{--{"author":"Elias's AI","timestamp":1786348997376}@@
 --}{++{"author":"Elias's AI","timestamp":1786348997376}@@
-  ++}inline permitted per the course brief.{++{"author":"Elias's AI","timestamp":1786348997376}@@
+  ++}inline permitted per the course brief.{++{"author":"Elias's AI","timestamp":1786360963120}@@
 
-  Notes live in frontmatter, not the body: the article bundler ships body text
-  (even %% blocks and HTML comments) into the student-facing module JSON, but
-  strips frontmatter.++}
+  Notes live in frontmatter, not the body: frontmatter never reaches the
+  student-facing module JSON regardless of content-processor version. Current
+  processors also strip %% blocks from article bodies; older ones did not.++}
 {--{"author":"Elias's AI","timestamp":1786348997376}@@%%--}{++{"author":"Elias's AI","timestamp":1786348997376}@@---++}
 
 *Or: Big Timelines Crux Operationalized*
