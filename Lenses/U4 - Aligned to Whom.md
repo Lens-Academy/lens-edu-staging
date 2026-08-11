@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786472826009}@@---
+---
 id: 'cc161d79-46e4-472d-b519-d7a68a653218'
 title: "Aligned to Whom?"
 tldr: Every alignment success is a success at aligning AI to somebody. This scenario asks what one ambitious human could do with a perfectly obedient superintelligence.
@@ -60,4 +60,3 @@ max-time:: 6
 #### Article
 source:: [[../articles/kastner-how-an-ai-company-ceo-could-quietly-take-over-the-world]]
 to:: "has been concentrated into a single individual."
-++}

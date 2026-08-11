@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786472828142}@@---
+---
 id: 'f51a8a69-8f6f-4deb-839f-18b551177162'
 title: "The Manhattan Question"
 tldr: Washington is full of calls for a government AGI project. Whether one would make catastrophe more or less likely is a real question, and you take a side before the forecasters do.
@@ -111,4 +111,3 @@ max-time:: 5
 
 #### Article
 source:: [[../articles/wildeford-should-the-us-do-a-manhattan-project-for-agi]]
-++}

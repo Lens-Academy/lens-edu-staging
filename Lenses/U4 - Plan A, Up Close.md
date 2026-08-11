@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786472827491}@@---
+---
 id: 'c56ff069-3320-4695-9674-16ed883114ca'
 title: "Plan A, Up Close"
 tldr: Plan A was one paragraph about an international agreement. Here is what the agreement actually says, read after you have named where you think it breaks.
@@ -65,4 +65,3 @@ max-time:: 5
 source:: [[../articles/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence]]
 from:: "## 4 The Agreement"
 to:: "even while the political will for a full agreement does not exist today."
-++}

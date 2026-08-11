@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786472830340}@@---
+---
 id: '1a72dacb-f6ff-4638-9ffe-f91f5ae98aee'
 title: "Your Hundred Points"
 tldr: You met the levers one at a time. Now put 100 points of influence on the table and find out which bet you have been making all along.
@@ -65,4 +65,3 @@ Do not grade. Do not score. Do not praise. There is no correct allocation at thi
 Write 60 to 110 words. Short paragraphs. No lists.
 
 max-time:: 10
-++}

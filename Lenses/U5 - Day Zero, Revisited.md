@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786472831056}@@---
+---
 id: 'df4040b8-b7d6-457c-b102-7fd02ae97390'
 title: "Day Zero, Revisited"
 tldr: The one time you are told to scroll back to your day-zero snapshot. Read it, then write the model you actually leave with.
@@ -112,4 +112,3 @@ can produce. Do not grade. Do not score. Do not praise.
 Write 90 to 150 words. Short paragraphs. No lists.
 
 max-time:: 15
-++}

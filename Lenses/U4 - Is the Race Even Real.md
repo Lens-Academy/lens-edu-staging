@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786472826750}@@---
+---
 id: '5a0f546a-b6d7-4767-b14f-36b0d34de166'
 title: "Is the Race Even Real?"
 tldr: Half the strategy arguments you will hear stand on the premise that the US and China are racing to AGI. Commit to a number, then trace the famous claim to its source before you repeat either.
@@ -100,4 +100,3 @@ to:: "the starting date for that alleged ambition is not 2017."
 
 #### Article
 source:: [[../articles/emberson-chinese-ai-models-have-lagged-the-us-frontier-by-7-months-on-average-since-2023]]
-++}

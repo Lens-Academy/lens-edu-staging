@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786472829606}@@---
+---
 id: '46f005d9-6e4e-49e9-a584-c2ab5492aecf'
 title: "The Ten People"
 tldr: When no plan arrives from outside, leverage shrinks to headcount. What ten people inside a racing lab can still buy, and what it costs them to keep buying it.
@@ -94,4 +94,3 @@ max-time:: 4
 
 #### Article
 source:: [[../articles/shlegeris-ten-people-on-the-inside]]
-++}

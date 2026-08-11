@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786472828800}@@---
+---
 id: '7d1cb832-1007-456a-adc2-a3418b8160c9'
 title: "The Plan Depends on the World"
 tldr: There is no single plan for AI risk. There is a menu of plans, and which one is live depends on how much cooperation the world decides to supply.
@@ -57,4 +57,3 @@ max-time:: 5
 
 #### Article
 source:: [[../articles/greenblatt-plans-a-b-c-and-d-for-misalignment-risk]]
-++}
