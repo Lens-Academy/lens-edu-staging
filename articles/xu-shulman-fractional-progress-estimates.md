@@ -23,7 +23,7 @@ _This post was written by Mark Xu based on interviews with Carl Shulman. It was 
 
 # Introduction
 
-Suppose that you start with \$$1$ that grows at 10% per year. At this rate, it will take ~241 years to get \$$10$ billion (\$$10^{10}$). When will you think that you’re ten percent of the way there?
+Suppose that you start with {--{"author":"Elias's AI","timestamp":1786437141549}@@\$$1$--}{++{"author":"Elias's AI","timestamp":1786437141549}@@$1++} that grows at 10% per year. At this rate, it will take ~241 years to get {--{"author":"Elias's AI","timestamp":1786437141549}@@\$$10$--}{++{"author":"Elias's AI","timestamp":1786437141549}@@$10++} billion {--{"author":"Elias's AI","timestamp":1786437141549}@@(\$$10^{10}$).--}{++{"author":"Elias's AI","timestamp":1786437141549}@@(10^10 dollars).++} When will you think that you’re ten percent of the way there?
 
 You might say that you’re ten percent of the way to \$$10$ billion when you have \$$1$ billion. However, since your money is growing exponentially, it takes 217 years to go from \$$1$ to \$$1$ billion and only 24 more to go from \$$1$ billion to \$$10$ billion, even though the latter gap is larger in absolute terms. If you tried to guess when you would have \$$10$ billion by taking 10x the amount of time to \$$1$ billion, you would guess 2174 years, off by a factor of nine.
 
