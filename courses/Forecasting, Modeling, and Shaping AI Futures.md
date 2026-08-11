@@ -18,8 +18,8 @@ on purpose: existing signups and learner progress key on them. %%
 # Meeting: Unit 1
 meeting-doc-template:: https://docs.google.com/document/d/1lqbblsgNwgeBa6JEhgH5qk-hlPSUsZRcYAH-IMmSYD8/edit{++{"author":"Hamza's AI","timestamp":1786438708991}@@
 survey:: [[../surveys/AIF Post-Meeting Survey]]++}
-survey:: https://docs.google.com/forms/d/e/1FAIpQLSfLwBUhs2IVKbWkJGtlUcO1XGPZ0zDhP7QsWn-vGIsEotiFIw/viewform
-# Module: [[../modules/unit-2-how-do-we-know|Unit 2: How Do We Know?]]
+{++{"author":"Hamza's AI","timestamp":1786439152072}@@{>>{"author":"Hamza's AI","timestamp":1786439152072}@@Replaced by the native in-platform survey wikilink above — one ++}survey:: {--{"author":"Hamza's AI","timestamp":1786439152072}@@https://docs.google.com/forms/d/e/1FAIpQLSfLwBUhs2IVKbWkJGtlUcO1XGPZ0zDhP7QsWn-vGIsEotiFIw/viewform
+--}{++{"author":"Hamza's AI","timestamp":1786439152072}@@per meeting. The platform still DMs this Google Form as fallback until the native release ships, via the SURVEY_STUDENT_FORM_URL env var, so keep that env pointing at this form for now.<<}++}# Module: [[../modules/unit-2-how-do-we-know|Unit 2: How Do We Know?]]
 
 # Meeting: Unit 2
 meeting-doc-template:: https://docs.google.com/document/d/1ueFST_L_ei4mvZYKOe1v5io1CqrHwqDwZKSLNcCM-qM/edit{++{"author":"Hamza's AI","timestamp":1786438712418}@@
