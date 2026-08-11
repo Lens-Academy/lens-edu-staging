@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786433978805}@@---
+---
 id: 'c3083a7a-5818-4975-ba77-b7cbf9d5b603'
 title: "The Case Against Control"
 tldr: A large part of the field works on containing AI rather than aiming it. Here is the argument that this is the wrong target.
@@ -72,4 +72,3 @@ max-time:: 4
 
 #### Article
 source:: [[../articles/wentworth--the-case-against-ai-control-research]]
-++}

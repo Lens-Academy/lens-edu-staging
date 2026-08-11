@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786433878234}@@---
+---
 id: '432e8908-1330-4193-b21c-495681763843'
 title: "Failure With No Villain"
 tldr: Two ways things go wrong with nobody scheming anywhere in the story.
@@ -78,4 +78,3 @@ max-time:: 4
 
 #### Article
 source:: [[../articles/greaterwrong-what-failure-looks-like]]
-++}

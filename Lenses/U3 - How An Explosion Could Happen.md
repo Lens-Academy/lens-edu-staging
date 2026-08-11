@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786433848901}@@---
+---
 id: 'e9785236-c989-43f6-a2b7-1adf793a1498'
 title: "How An Explosion Could Happen"
 tldr: Three different things people mean by an intelligence explosion, and they do not all need the same conditions.
@@ -69,4 +69,3 @@ max-time:: 5
 
 #### Article
 source:: [[../articles/forethought-three-types-of-intelligence-explosion]]
-++}

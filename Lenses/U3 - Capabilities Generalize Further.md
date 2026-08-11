@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786433945872}@@---
+---
 id: '9daa6d44-ce5d-433a-ae60-641514b2f870'
 title: "Capabilities Generalize Further"
 tldr: One claim about why the problem is hard, stated as plainly as its author can state it.
@@ -70,4 +70,3 @@ max-time:: 4
 
 #### Article
 source:: [[../articles/soares-a-central-ai-alignment-problem-capabilities-generalization-and-the-sharp-left-turn]]
-++}
