@@ -12,27 +12,49 @@ tags:
 content::
 \## Before you read
 
-One more position, and it is the one this course is least neutral about.
+{--{"author":"Lauren's AI","timestamp":1786436046037}@@One more position, and it is--}{++{"author":"Lauren's AI","timestamp":1786436046037}@@A large part of++} the {--{"author":"Lauren's AI","timestamp":1786436046037}@@one this course is least neutral about.
 
-A large part of the safety field works on AI control. The idea: assume the system may be
-misaligned, and build the deployment so that it cannot cause a catastrophe even if it is.
-Monitoring, restricted permissions, one model checking another. Control does not try to
-make the system want the right thing. It tries to make wanting the wrong thing not
+A large part of the safety field works on AI control. --}{++{"author":"Lauren's AI","timestamp":1786436046037}@@safety field works on AI control, and this lens is where you decide
+what you think of it.
+
+++}The idea: assume the system may be{--{"author":"Lauren's AI","timestamp":1786436046037}@@
+--}{++{"author":"Lauren's AI","timestamp":1786436046037}@@ ++}misaligned, and build the deployment so that it cannot{--{"author":"Lauren's AI","timestamp":1786436046037}@@ --}{++{"author":"Lauren's AI","timestamp":1786436046037}@@
+++}cause a catastrophe even if it is.{--{"author":"Lauren's AI","timestamp":1786436046037}@@
+Monitoring, restricted permissions, one--}{++{"author":"Lauren's AI","timestamp":1786436046037}@@ Monitoring. Restricted permissions. One++} model checking{--{"author":"Lauren's AI","timestamp":1786436046037}@@ another. --}{++{"author":"Lauren's AI","timestamp":1786436046037}@@
+another. Untrusted models given tasks where cheating can be detected. ++}Control does not try{--{"author":"Lauren's AI","timestamp":1786436046037}@@ --}{++{"author":"Lauren's AI","timestamp":1786436046037}@@
+++}to{--{"author":"Lauren's AI","timestamp":1786436046037}@@
+--}{++{"author":"Lauren's AI","timestamp":1786436046037}@@ ++}make the system want the right thing. It tries to make wanting the wrong thing not
 matter.
 
-That is a real and useful idea. It is also a patch rather than a repair, and a patch does
-not maintain itself. Read the argument against it and decide for yourself.
+{--{"author":"Lauren's AI","timestamp":1786436046037}@@That--}{++{"author":"Lauren's AI","timestamp":1786436046037}@@The case for it++} is {--{"author":"Lauren's AI","timestamp":1786436046037}@@a real and useful idea.--}{++{"author":"Lauren's AI","timestamp":1786436046037}@@strong, and you should have it before you read the objections. Control
+does not require solving alignment, which nobody knows how to do.++} It {--{"author":"Lauren's AI","timestamp":1786436046037}@@is also a patch--}{++{"author":"Lauren's AI","timestamp":1786436046037}@@applies to systems
+we can build now++} rather than {++{"author":"Lauren's AI","timestamp":1786436046037}@@to systems we hope to understand later. Its measures are
+testable: you can red-team ++}a {--{"author":"Lauren's AI","timestamp":1786436046037}@@repair, --}{++{"author":"Lauren's AI","timestamp":1786436046037}@@monitoring setup ++}and {--{"author":"Lauren's AI","timestamp":1786436046037}@@a patch does--}{++{"author":"Lauren's AI","timestamp":1786436046037}@@count the failures, which is more than++}
+{--{"author":"Lauren's AI","timestamp":1786436046037}@@not maintain itself. Read --}{++{"author":"Lauren's AI","timestamp":1786436046037}@@most safety proposals can offer. And if the first systems capable of serious harm are
+only somewhat superhuman, containing them may be enough to get useful work out of them,
+including work on ++}the {--{"author":"Lauren's AI","timestamp":1786436046037}@@argument against it--}{++{"author":"Lauren's AI","timestamp":1786436046037}@@alignment problem itself. Greenblatt++} and {--{"author":"Lauren's AI","timestamp":1786436046037}@@decide--}{++{"author":"Lauren's AI","timestamp":1786436046037}@@Shlegeris make this case
+at length in "The case++} for {--{"author":"Lauren's AI","timestamp":1786436046037}@@yourself.--}{++{"author":"Lauren's AI","timestamp":1786436046037}@@ensuring that powerful AIs are controlled".++}
 
-#### Question
+{++{"author":"Lauren's AI","timestamp":1786436046037}@@Two objections follow. Read them as arguments to weigh, not as the verdict.
+
+++}#### Question
 content::
 \## Your turn first
 
-Suppose containment works. The system is watched, restricted, and checked by other
-systems, and it cannot take any single catastrophic action.
+{--{"author":"Lauren's AI","timestamp":1786436046037}@@Suppose containment works. The system is watched, restricted, and checked by other
+systems, and it cannot take any single catastrophic action.--}{++{"author":"Lauren's AI","timestamp":1786436046037}@@Do not argue for or against control in general. Both sides of that are easy, and neither
+teaches you much.
 
-Write two or three sentences. What problem does that leave completely unsolved?
+Write the conditions instead.++}
 
-Then write one more line. What does the containment itself cost, and who pays it?
+Write two or three {--{"author":"Lauren's AI","timestamp":1786436046037}@@sentences. What problem does --}{++{"author":"Lauren's AI","timestamp":1786436046037}@@sentences naming what has to be true about a situation for control to
+be the right strategy in it. Capability level, how long the containment has to hold, who
+maintains it, what the system is being asked to do. Be concrete enough ++}that {--{"author":"Lauren's AI","timestamp":1786436046037}@@leave completely unsolved?--}{++{"author":"Lauren's AI","timestamp":1786436046037}@@somebody
+could check whether a real deployment meets your conditions.++}
+
+Then write one more {--{"author":"Lauren's AI","timestamp":1786436046037}@@line. What does--}{++{"author":"Lauren's AI","timestamp":1786436046037}@@line, and this is++} the {--{"author":"Lauren's AI","timestamp":1786436046037}@@containment itself cost, and who pays it?--}{++{"author":"Lauren's AI","timestamp":1786436046037}@@harder half. Name one thing that gets WORSE
+because control is in use. Not a cost in money or effort. Something else we wanted, which
+becomes harder to get once containment is in place.++}
 
 assessment-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
