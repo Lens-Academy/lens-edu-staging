@@ -31,11 +31,15 @@ survey:: [[../surveys/AIF Unit 2 Survey]]
 meeting-doc-template:: https://docs.google.com/document/d/1OELeSrzaLpyNVUoLRAnRmelxAuu8JBkw5WwhOEP9yZk/edit
 survey:: [[../surveys/AIF Unit 3 Survey]]
 
-# Meeting: Unit 4
+# {++{"author":"Elias's AI","timestamp":1786472846976}@@Module: [[../modules/unit-4-whats-the-plan|Unit 4: What's the Plan?]]
+
+# ++}Meeting: Unit 4
 meeting-doc-template:: https://docs.google.com/document/d/1JbdYP4R7MPRrNIncIxu2JjhDlPkBMRF5y4auPrZHYa4/edit
 survey:: [[../surveys/AIF Post-Meeting Survey]]
 
-# Meeting: Unit 5
+# {++{"author":"Elias's AI","timestamp":1786472854159}@@Module: [[../modules/unit-5-where-is-the-leverage|Unit 5: Where Is the Leverage?]]
+
+# ++}Meeting: Unit 5
 meeting-doc-template:: https://docs.google.com/document/d/1YuCKnl7R8P4upzZzMTf6whEOYu23g_j936QDlpELwuk/edit{++{"author":"Hamza's AI","timestamp":1786438730538}@@
 survey:: [[../surveys/AIF Post-Meeting Survey]]
 
