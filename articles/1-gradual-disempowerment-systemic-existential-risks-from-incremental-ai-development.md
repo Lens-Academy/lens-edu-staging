@@ -1,11 +1,12 @@
 ---
 title: "Gradual Disempowerment: Systemic Existential Risks from Incremental AI Development"
 author:
-  - "Jan Kulveit 1,*"
-  - "Raymond Douglas 2,*"
-  - "Nora Ammann 3,1"
-  - "Deger Turan 4,5"
-  - "David Krueger 6 David Duvenaud 7"
+  - "Jan Kulveit"
+  - "Raymond Douglas"
+  - "Nora Ammann"
+  - "Deger Turan"
+  - "David Krueger"
+  - "David Duvenaud"
 source_url: "https://arxiv.org/abs/2501.16946"
 published: 2025-01-01
 created: 2026-06-21
@@ -22,13 +23,11 @@ Add discussion note here:
 
 %%
 
-15 tcb@breakable
-
 ###### Abstract
 
 This paper examines the systemic risks posed by incremental advancements in artificial intelligence, developing the concept of ‘gradual disempowerment’, in contrast to the abrupt takeover scenarios commonly discussed in AI safety. We analyze how even incremental improvements in AI capabilities can undermine human influence over large-scale systems that society depends on, including the economy, culture, and nation-states. As AI increasingly replaces human labor and cognition in these domains, it can weaken both explicit human control mechanisms (like voting and consumer choice) and the implicit alignments with human interests that often arise from societal systems’ reliance on human participation to function. Furthermore, to the extent that these systems incentivise outcomes that do not line up with human preferences, AIs may optimize for those outcomes more aggressively. These effects may be mutually reinforcing across different domains: economic power shapes cultural narratives and political decisions, while cultural shifts alter economic and political behavior. We argue that this dynamic could lead to an effectively irreversible loss of human influence over crucial societal systems, precipitating an existential catastrophe through the permanent disempowerment of humanity. This suggests the need for both technical research and governance approaches that specifically address the risk of incremental erosion of human influence across interconnected societal systems.
 
-11footnotetext: ACS research group, CTS, Charles University22footnotetext: Telic Research33footnotetext: Advanced Research + Invention Agency (ARIA)44footnotetext: AI Objectives Institute55footnotetext: Metaculus66footnotetext: Mila, University of Montreal77footnotetext: University of Toronto\*\*footnotetext: Equal contribution. Correspondence to jk@acsresearch.org
+*Author affiliations: 1. ACS research group, CTS, Charles University; 2. Telic Research; 3. Advanced Research + Invention Agency (ARIA); 4. AI Objectives Institute; 5. Metaculus; 6. Mila, University of Montreal; 7. University of Toronto. \* Equal contribution. Correspondence to jk@acsresearch.org*
 
 ## Executive Summary
 
@@ -692,27 +691,27 @@ We are grateful to many people for helpful conversations and feedback, including
 
 Here we give a non-exhaustive list of different ways each of the three societal systems we describe can affect the other systems.
 
-#### Economy $\rightarrow$ Culture
+#### Economy → Culture
 
 Economic power can directly shape culture through advertising, marketing, and the patronage of the arts. Companies with significant financial resources can fund or outright purchase media outlets and platforms, sponsor events, and commission works that align with their interests, thereby influencing cultural norms and values. Notably, even now most of the largest social media sites are owned by companies invested heavily in frontier AI development. Additionally, the pursuit of status and power often revolves around economic wealth, making cultural notions of success and virtue responsive to economic shifts.
 
-#### Economy $\rightarrow$ States
+#### Economy → States
 
 Economic power also exerts substantial influence over politics. This can manifest through lobbying, campaign donations, or even outright corruption. Wealthy individuals and corporations can sway political decisions in their favor, often at the expense of broader societal interests. Even without direct manipulation, the concentration of economic power can shift political incentives, as politicians may prioritize the interests of economically powerful groups to maintain or enhance the prosperity of their constituencies.
 
-#### States $\rightarrow$ Economy
+#### States → Economy
 
 Conversely, political decisions have profound impacts on the economy. Governments set laws and regulations that shape market dynamics, determine property rights, and control monetary policy. Political decisions can also affect international trade, taxation, and investment, which in turn influence the distribution of wealth and resources. Governments decide what kinds of contracts are enforceable, and who can participate in what kinds of exchanges with legal protection. While it is possible for novel kinds of money or contracts to be created, it is equally possible for the government to step in and regulate these novelties. Furthermore, regulatory bodies, influenced by political considerations, play a key role in determining how industries operate, potentially favoring certain sectors or companies.
 
-#### States $\rightarrow$ Culture
+#### States → Culture
 
 Governments can shape culture by determining which forms of expression are legal and which are not, influencing educational curricula, and deciding which cultural activities receive public funding. National holidays, monuments, and state-sponsored art are all examples of how political decisions can codify and promote specific cultural narratives. In more authoritarian regimes, governments often only allow a fairly narrow range of cultural expressions, but all regimes take some actions to, for instance, limit the growth of groups they perceive as extremist.
 
-#### Culture $\rightarrow$ States
+#### Culture → States
 
 Cultural values and norms can significantly influence political behavior. In democratic societies, public opinion, shaped by cultural trends, directly affects voting patterns and the election of political leaders. This can include the spread of outright misinformation, or simply polarising narratives which disrupt any shared sense of reality. Even in less democratic contexts, cultural shifts can lead to political pressure from below, prompting reforms or, in extreme cases, revolutions. Political elites themselves are not immune to cultural influences, which can shape their ideologies, priorities, and decisions.
 
-#### Culture $\rightarrow$ Economy
+#### Culture → Economy
 
 Cultural values influence economic behavior, from consumer choices to the organization of labor. Different cultures prioritize different types of goods, services, and leisure activities, which in turn shape economic production and consumption patterns. Cultural attitudes towards work, wealth, and social status also affect the types of careers that are pursued and the distribution of economic rewards. For instance, a culture that highly values entrepreneurship may see a different economic landscape than one that prioritizes stable, long term employment, and a new cultural stigma against an industry might cripple its ability to acquire talent.
 
