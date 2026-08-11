@@ -24,8 +24,7 @@ survey:: [[../surveys/AIRF Session 1 Survey]] {>>{"author":"Turner's AI","timest
 # Module: [[../modules/IABIED M3 Nonhuman Minds, Part 3]]
 
 # Meeting: Nonhuman Minds
-meeting-doc-template::
-https://docs.google.com/document/d/1hNj0npIxflO6C5AJcNPHms7HOiH_hlAgomBPQVhfp2A/edit?tab=t.0#heading=h.by5wcelvjnsd
+meeting-doc-template:: https://docs.google.com/document/d/1hNj0npIxflO6C5AJcNPHms7HOiH_hlAgomBPQVhfp2A/edit?tab=t.0#heading=h.by5wcelvjnsd
 survey:: [[../surveys/AIRF Weekly Survey]]
 {>>{"author":"AI","timestamp":1786279684826}@@Rebuilt 2026-08-09 for the merged Ch3-5 unit; replaces the old Ch3-4 doc (1hNj0npIxflO6C5AJcNPHms7HOiH_hlAgomBPQVhfp2A), which is retired.<<}
 
