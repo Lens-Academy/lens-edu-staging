@@ -1,4 +1,4 @@
-{++{"author":"Turner's AI","timestamp":1786479536428}@@---
+---
 id: '0f1970be-91d9-48ff-b527-464824e91474'
 title: Session 1 Post-Session Reflection
 ---
@@ -74,4 +74,3 @@ content:: What's one thing the course, website, AI tutor, or meetings could do b
 #### Question
 key:: anything_else
 content:: Anything that didn't fit into a question above?
-++}

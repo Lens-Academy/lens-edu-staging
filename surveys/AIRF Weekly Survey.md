@@ -1,4 +1,4 @@
-{++{"author":"Turner's AI","timestamp":1786479550969}@@---
+---
 id: 'd1287b0b-59f0-4a35-84f2-d3a9faa6c212'
 title: Post-Session Reflection
 ---
@@ -52,4 +52,3 @@ content:: If you could improve one thing about this meeting, what would it be?
 #### Question
 key:: anything_else
 content:: Anything else you want to share?
-++}
