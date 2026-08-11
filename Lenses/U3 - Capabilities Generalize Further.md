@@ -1,7 +1,7 @@
 ---
 id: '9daa6d44-ce5d-433a-ae60-641514b2f870'
 title: "Capabilities Generalize Further"
-tldr: One claim about why the problem is hard, stated as plainly as its author can state it.
+tldr: {--{"author":"Lauren's AI","timestamp":1786441822377}@@One claim about why the problem is hard, stated as plainly as its author can state it.--}{++{"author":"Lauren's AI","timestamp":1786441822377}@@A system that gets much more capable carries its competence into new situations. The leash you put on it does not come along.++}
 summary_for_tutor: "Pre-question asks the student to predict which of two things transfers better to a new situation, competence or the constraints we trained in. Then Soares on the sharp left turn. One mirror, no grade."
 authors:
   - Claude
