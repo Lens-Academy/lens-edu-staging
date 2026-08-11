@@ -16,8 +16,6 @@ Four short scenarios follow, each in its own question field with targeted tutor 
 
 Work through them in order. Write out the arithmetic, not a description of it.
 
-*The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
-
 #### Question
 content::
 \## Scenario 1 of 4
