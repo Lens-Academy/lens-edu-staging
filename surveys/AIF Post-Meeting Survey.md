@@ -1,4 +1,4 @@
-{++{"author":"Hamza's AI","timestamp":1786438693400}@@---
+---
 id: '0ba6d82f-1f72-4877-978b-68aa038ce349'
 title: Post-Meeting Survey
 ---
@@ -63,4 +63,3 @@ content:: Would you be interested in facilitating a future group?
 options::
 - Yes, tell me more
 - Not right now
-++}

@@ -9,18 +9,18 @@ predict-first question and a short tutor mirror. No graded outcomes, no 1-to-5 r
 no multi-turn tutor lenses. That is deliberate, following student and reviewer feedback
 that our scaffolding, not the readings, was the problem.
 
-Reading load: {--{"author":"Lauren's AI","timestamp":1786440438583}@@14,124 words, about 94 minutes --}{++{"author":"Lauren's AI","timestamp":1786440438583}@@about 14,800 words. Plan for 2.5 to 3 hours in total, not the 1 hour 55
+Reading load: about 14,800 words. Plan for 2.5 to 3 hours in total, not the 1 hour 55
 that 150 words per minute suggests. Two independent sources say the naive figure is
 wrong. A reviewer reading as a student pointed out that 150 wpm is a PROSE rate, and
 this unit contains orders-of-magnitude estimation and MIRI-dialect, which nobody new
-reads ++}at {--{"author":"Lauren's AI","timestamp":1786440438583}@@150 wpm. Questions add about 21 minutes.--}{++{"author":"Lauren's AI","timestamp":1786440438583}@@prose speed. Participants in the live Unit 1 session on 2026-08-11 said the++}
-{--{"author":"Lauren's AI","timestamp":1786440438583}@@Total--}{++{"author":"Lauren's AI","timestamp":1786440438583}@@same thing++} about {--{"author":"Lauren's AI","timestamp":1786440438583}@@1 hour 55 minutes, against--}{++{"author":"Lauren's AI","timestamp":1786440438583}@@that unit: "timing suggestions might be very optimistic", "found it
-difficult, take so long". Against++} a 3.5 hour {--{"author":"Lauren's AI","timestamp":1786440438583}@@unit target.--}{++{"author":"Lauren's AI","timestamp":1786440438583}@@target this still fits, but the honest
-number is the larger one.++}
+reads at prose speed. Participants in the live Unit 1 session on 2026-08-11 said the
+same thing about that unit: "timing suggestions might be very optimistic", "found it
+difficult, take so long". Against a 3.5 hour target this still fits, but the honest
+number is the larger one.
 
 Ordering: the mechanism first, because every later reading assumes it. Then two failures
-that need no villain. Then {--{"author":"Lauren's AI","timestamp":1786440438583}@@the claim about what is hard underneath both.--}{++{"author":"Lauren's AI","timestamp":1786440438583}@@two rival accounts of where the risk actually lives.++} Then the
-{--{"author":"Lauren's AI","timestamp":1786440438583}@@objection to--}{++{"author":"Lauren's AI","timestamp":1786440438583}@@student revises++} the {--{"author":"Lauren's AI","timestamp":1786440438583}@@field's most common response.--}{++{"author":"Lauren's AI","timestamp":1786440438583}@@model they built in Unit 1.++}
+that need no villain. Then two rival accounts of where the risk actually lives. Then the
+student revises the model they built in Unit 1.
 
 Control appears once, at the end, as an argument against it. That is deliberate. Lauren,
 2026-08-11: "control is a transiently useful, serious-externality-carrying thing, which
@@ -42,22 +42,22 @@ source:: [[../Lenses/U3 - Failure With No Villain]]
 # Lens: Losing It Gradually
 source:: [[../Lenses/U3 - Losing It Gradually]]
 
-# Submodule: {--{"author":"Lauren's AI","timestamp":1786440569601}@@What--}{++{"author":"Lauren's AI","timestamp":1786440569601}@@Two arguments about where the risk lives
+# Submodule: Two arguments about where the risk lives
 
-%% Not "what++} is hard {--{"author":"Lauren's AI","timestamp":1786440569601}@@underneath--}{++{"author":"Lauren's AI","timestamp":1786440569601}@@underneath". Soares and Kulveit are RIVALS, not layers. Kulveit's
+%% Not "what is hard underneath". Soares and Kulveit are RIVALS, not layers. Kulveit's
 abstract says in bold that "methods of aligning individual AI systems with their
 designers' intentions are not sufficient", and Soares is precisely about aligning an
 individual system. A reviewer reading as a student caught the earlier heading asserting a
 hierarchy that one of the two readings explicitly denies, and said it cost them trust in
-every other heading in the unit. %%++}
+every other heading in the unit. %%
 
 # Lens: Capabilities Generalize Further
 source:: [[../Lenses/U3 - Capabilities Generalize Further]]
 
 # Lens: The Case Against Control
-source:: [[../Lenses/U3 - The Case Against Control]]{++{"author":"Lauren's AI","timestamp":1786440569601}@@
+source:: [[../Lenses/U3 - The Case Against Control]]
 
 # Submodule: What you think now
 
 # Lens: What Moved
-source:: [[../Lenses/U3 - What Moved]]++}
+source:: [[../Lenses/U3 - What Moved]]
