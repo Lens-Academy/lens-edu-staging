@@ -9,7 +9,7 @@ predict-first question and a short tutor mirror. No graded outcomes, no 1-to-5 r
 no multi-turn tutor lenses. That is deliberate, following student and reviewer feedback
 that our scaffolding, not the readings, was the problem.
 
-Reading load: about 14,800 words. Plan for 2.5 to 3 hours in total, not the 1 hour 55
+Reading load: about 14,800 words. Plan for 2.5 to 3 hours in total, not the 1 hour 39
 that 150 words per minute suggests. Two independent sources say the naive figure is
 wrong. A reviewer reading as a student pointed out that 150 wpm is a PROSE rate, and
 this unit contains orders-of-magnitude estimation and MIRI-dialect, which nobody new
@@ -44,10 +44,12 @@ source:: [[../Lenses/U3 - Losing It Gradually]]
 
 # Submodule: Two arguments about where the risk lives
 
-%% Not "what is hard underneath". Soares and Kulveit are RIVALS, not layers. Kulveit's
-abstract says in bold that "methods of aligning individual AI systems with their
-designers' intentions are not sufficient", and Soares is precisely about aligning an
-individual system. A reviewer reading as a student caught the earlier heading asserting a
+%% Not "what is hard underneath". Soares and Gradual Disempowerment are RIVALS, not
+layers. The Gradual Disempowerment abstract (reading 3, Kulveit and co-authors) says in
+bold that "methods of aligning individual AI systems with their designers' intentions
+are not sufficient", and Soares is precisely about aligning an individual system. (Note:
+the short Kulveit piece in The Case Against Control is a different text — it argues
+about warning shots, not systemic alignment. Don't conflate the two when editing.) A reviewer reading as a student caught the earlier heading asserting a
 hierarchy that one of the two readings explicitly denies, and said it cost them trust in
 every other heading in the unit. %%
 
