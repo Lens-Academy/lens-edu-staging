@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786472835031}@@---
+---
 slug: unit-4-whats-the-plan
 title: "Unit 4: What's the Plan?"
 id: '5958ba75-94bf-4530-951b-b570e3ed871d'
@@ -79,4 +79,3 @@ source:: [[../Lenses/U4 - Aligned to Whom]]
 
 # Lens: Your Hundred Points
 source:: [[../Lenses/U4 - Your Hundred Points]]
-++}

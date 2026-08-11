@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786472835909}@@---
+---
 slug: unit-5-where-is-the-leverage
 title: "Unit 5: Where Is the Leverage?"
 id: 'ed50854a-5272-445b-8c93-c7f9e36dcc96'
@@ -90,4 +90,3 @@ source:: [[../Lenses/U5 - The Lunch Table]]
 
 # Lens: Day Zero, Revisited
 source:: [[../Lenses/U5 - Day Zero, Revisited]]
-++}

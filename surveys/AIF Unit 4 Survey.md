@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786473293265}@@---
+---
 id: '9d7ac46d-8ffc-47ef-9f7b-99f14829329f'
 title: Week 4 Post-Session Reflection
 ---
@@ -48,4 +48,3 @@ content:: What's one thing that worked well today?
 #### Question
 key:: could_improve
 content:: What's one thing the course, website, AI tutor, or meetings could do better?
-++}

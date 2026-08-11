@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786473310463}@@---
+---
 id: '58e516bc-5394-43d8-acd9-ae1483e9f99b'
 title: Final Reflection
 ---
@@ -111,4 +111,3 @@ options::
 #### Question
 key:: could_improve
 content:: What's one thing the course, website, AI tutor, or meetings could do better?
-++}
