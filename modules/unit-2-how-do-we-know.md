@@ -35,7 +35,13 @@ source:: [[../Learning Outcomes/Decomposing an unanswerable question]]
 # Lens: What Would Settle It - PQ
 source:: [[../Lenses/U2 - What Would Settle It - PQ]]
 
-# Lens: Reference Classes And Their Denominators
+# Lens: {++{"author":"Lauren's AI","timestamp":1786436704198}@@The Track Record
+source:: [[../Lenses/U2 - The Track Record]]
+
+# Lens: The Decomposition Loop
+source:: [[../Lenses/U2 - The Decomposition Loop]]
+
+# Lens: ++}Reference Classes And Their Denominators
 source:: [[../Lenses/U2 - Reference Classes And Their Denominators]]
 optional:: true
 
