@@ -77,4 +77,4 @@ max-time:: 4
 #### Article
 source:: [[../articles/1-gradual-disempowerment-systemic-existential-risks-from-incremental-ai-development]]
 from:: "## 2 Misaligned Economy"
-to:: "## 3 Misaligned Culture"
+to:: "Inspired by simulations in scenario analysis by Korinek and Suh, ([2024](https://arxiv.org/html/2501.16946v2#bib.bib42))."

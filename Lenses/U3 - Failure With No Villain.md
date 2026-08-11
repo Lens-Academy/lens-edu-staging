@@ -56,7 +56,9 @@ WHAT CHRISTIANO SAYS. For your reference. Do not deliver this to the student.
   goals anywhere.
 - Part II, "influence-seeking behaviour": training can produce systems that pursue
   influence, because influence-seeking policies score well during training. Goals appear
-  here, but not deception of the dramatic kind.
+  here, and Christiano does mention manipulation and deception as tools influence-seekers
+  may use; what is absent is the single dramatic treacherous turn. A student who points
+  at his deception language has read the article correctly.
 
 YOUR TASK, in order.
 1. Say which of the two halves their mechanism is closest to, if either. If it is

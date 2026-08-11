@@ -22,8 +22,8 @@ the habits, the checks.
 
 The argument is that these two do not travel equally well.
 
-A note on the reading. It is written for people already inside the field, and it uses
-some of their vocabulary without stopping to define it. "Pivotal act" means an action
+A note on the reading. It is written for people already inside the field, and its
+footnotes and asides use some field vocabulary without stopping to define it. "Pivotal act" means an action
 large enough to settle the outcome. "Acute risk period" means the window where things
 could go badly wrong. If a term stops you, put it in the Lens Coach
 (https://lensacademy.org/coach) rather than rereading the paragraph.
@@ -87,4 +87,4 @@ max-time:: 4
 
 #### Article
 source:: [[../articles/soares-a-central-ai-alignment-problem-capabilities-generalization-and-the-sharp-left-turn]]
-from:: "Discussion of a problem"
+from:: "## Discussion of a problem"

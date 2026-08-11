@@ -2,7 +2,7 @@
 id: '16964da4-546f-4808-a188-818015f7abe8'
 title: "What Moved"
 tldr: You wrote five to ten sentences about the next ten years before you read anything. Rewrite them now, from memory.
-summary_for_tutor: "Closes Unit 3. The student rewrites their day-zero model from Unit 1 and names which reading moved it. Also the one place the unit says out loud that its last two readings disagree. No grade."
+summary_for_tutor: "Closes Unit 3. The student rewrites their day-zero model from Unit 1 and names which reading moved it. Also the one place the unit says out loud that two of its readings (Soares and Gradual Disempowerment) disagree. No grade."
 authors:
   - Claude
 tags:
@@ -14,11 +14,12 @@ content::
 
 Two things before you write.
 
-The first is that the last two readings disagree, and we did not point it out at the
-time. Nate Soares says the hard part is that a system's capabilities carry over to new
-situations while the constraints we put on it do not. Jan Kulveit and co-authors say
-that aligning any individual system, however well, is not sufficient, because the danger
-is in what happens between systems and institutions rather than inside any one of them.
+The first is that two of this unit's readings disagree, and we did not point it out at
+the time. Nate Soares says the hard part is that a system's capabilities carry over to new
+situations while the constraints we put on it do not. Gradual Disempowerment, by Jan
+Kulveit and co-authors, says that aligning any individual system, however well, is not
+sufficient, because the danger is in what happens between systems and institutions
+rather than inside any one of them.{>>{"author":"Elias's AI","timestamp":1786456453940}@@The old text attributed this thesis to "the last two readings" — but the individual-vs-systemic claim is from Gradual Disempowerment (reading 3), not the Wentworth/Kulveit control pieces (reading 5). Kulveit's short control post argues about warning shots, not systemic alignment. This lens's own assessment-instructions already attribute it correctly to reading 3.<<}
 Those are rival claims about where the risk actually is. This course does not think
 that question is settled, and you are not expected to have settled it either.
 
