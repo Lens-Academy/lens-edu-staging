@@ -29,7 +29,7 @@ Go through each tab of the master template (https://docs.google.com/document/d/1
 ### Agent 2: Room quality
 Judge each room against its role. Most examples below are real prompts from past unit docs: they show the quality bar, not required shapes. A room passes if it serves its role well, whatever shape it takes.
 
-0. None of the room's questions takes longer than 30 seconds to read
+0. None of the room's prompts is longer than 120 words (examples don't count into word count)
 1. **Room 1 is a good icebreaker**: Warms people up to each other and toward the material.
 
 We currently start most of our icebreaker prompts with this section:
