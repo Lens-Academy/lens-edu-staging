@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786434026763}@@---
+---
 slug: unit-3-how-could-it-go-wrong
 title: "Unit 3: How Could It Go Wrong?"
 id: 'bc667650-51db-42a4-b7b5-27977daceb17'
@@ -43,4 +43,3 @@ source:: [[../Lenses/U3 - Capabilities Generalize Further]]
 
 # Lens: The Case Against Control
 source:: [[../Lenses/U3 - The Case Against Control]]
-++}
