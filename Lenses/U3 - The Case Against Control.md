@@ -39,7 +39,7 @@ at length in "The case++} for {--{"author":"Lauren's AI","timestamp":17864360460
 
 ++}#### Question
 content::
-\## Your turn first
+\## {--{"author":"Lauren's AI","timestamp":1786442638370}@@Your turn first--}{++{"author":"Lauren's AI","timestamp":1786442638370}@@Write the conditions++}
 
 {--{"author":"Lauren's AI","timestamp":1786436046037}@@Suppose containment works. The system is watched, restricted, and checked by other
 systems, and it cannot take any single catastrophic action.--}{++{"author":"Lauren's AI","timestamp":1786436046037}@@Do not argue for or against control in general. Both sides of that are easy, and neither
