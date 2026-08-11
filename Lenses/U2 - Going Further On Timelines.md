@@ -48,9 +48,9 @@ content::
 
 Take any of these, or none.
 
-::card[[../Lenses/AIF - Three Types of Intelligence Explosion]]{allow-external}
+{--{"author":"Lauren's AI","timestamp":1786442403638}@@::card[[../Lenses/AIF - Three Types of Intelligence Explosion]]{allow-external}
 
-> The reading you just did models one intelligence explosion. This one separates software, hardware and production explosions, which behave differently and have different bottlenecks.
+--}> The reading you just did models one intelligence explosion. {--{"author":"Lauren's AI","timestamp":1786442403638}@@This one--}{++{"author":"Lauren's AI","timestamp":1786442403638}@@There is a piece that++} separates software, hardware and production explosions, which behave differently and have different bottlenecks.{++{"author":"Lauren's AI","timestamp":1786442403638}@@ **Unit 3 opens on it, and opens by asking you to work the mechanism out yourself first.** So we are deliberately not linking it here. If you would rather read ahead than guess, that is your call to make, but the guess is worth more.++}
 
 ::card[[../Lenses/AIF - METR Time Horizons]]{allow-external}
 
