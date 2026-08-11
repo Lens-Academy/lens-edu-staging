@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786433911316}@@---
+---
 id: 'fe6bfd49-ece1-47e3-91aa-d53f5e0df3e5'
 title: "Losing It Gradually"
 tldr: Our institutions serve us partly because they need us. What happens when they stop needing us.
@@ -65,4 +65,3 @@ max-time:: 4
 
 #### Article
 source:: [[../articles/gradual-disempowerment-gradual-disempowerment]]
-++}
