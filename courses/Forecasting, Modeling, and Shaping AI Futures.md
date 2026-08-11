@@ -13,8 +13,8 @@ by Alexa Pan, unauthorized as a course conversion) is preserved in git history,
 and its aif-* module files remain in modules/. Course id and slug are UNCHANGED
 on purpose: existing signups and learner progress key on them. %%
 
-# Module: [[../modules/what-could-possibly-happen|Unit 1: What Could Possibly Happen?]]{++{"author":"Elias's AI","timestamp":1786470319221}@@
-{>>{"author":"Elias's AI","timestamp":1786470319221}@@sync-probe 2026-08-11: editor acceptances fired no webhook, so the staging repo held this file's pre-acceptance snapshot; this edit re-exports it. Safe to remove.<<}++}
+# Module: [[../modules/what-could-possibly-happen|Unit 1: What Could Possibly Happen?]]
+{>>{"author":"Elias's AI","timestamp":1786470319221}@@sync-probe 2026-08-11: editor acceptances fired no webhook, so the staging repo held this file's pre-acceptance snapshot; this edit re-exports it. Safe to remove.<<}
 
 # Meeting: Unit 1
 meeting-doc-template:: https://docs.google.com/document/d/1lqbblsgNwgeBa6JEhgH5qk-hlPSUsZRcYAH-IMmSYD8/edit
@@ -31,16 +31,16 @@ survey:: [[../surveys/AIF Unit 2 Survey]]
 meeting-doc-template:: https://docs.google.com/document/d/1OELeSrzaLpyNVUoLRAnRmelxAuu8JBkw5WwhOEP9yZk/edit
 survey:: [[../surveys/AIF Unit 3 Survey]]
 
-# {++{"author":"Elias's AI","timestamp":1786472846976}@@Module: [[../modules/unit-4-whats-the-plan|Unit 4: What's the Plan?]]
+# Module: [[../modules/unit-4-whats-the-plan|Unit 4: What's the Plan?]]
 
-# ++}Meeting: Unit 4
+# Meeting: Unit 4
 meeting-doc-template:: https://docs.google.com/document/d/1JbdYP4R7MPRrNIncIxu2JjhDlPkBMRF5y4auPrZHYa4/edit
-survey:: [[../surveys/AIF {++{"author":"Elias's AI","timestamp":1786473337679}@@Unit 4 Survey]] {>>{"author":"Elias's AI","timestamp":1786473337679}@@Survey redesign per Elias 2026-08-11: impact scales only in first + last survey; Units 2-4 get weekly pulse questions (group connection, meeting value, content value); Unit 5 is the final reflection with re-asked Week 1 scales + recommend-Lens question. Generic AIF ++}Post-Meeting {--{"author":"Elias's AI","timestamp":1786473337679}@@Survey]]--}{++{"author":"Elias's AI","timestamp":1786473337679}@@Survey no longer attached anywhere once Unit 5 is accepted.<<}++}
+survey:: [[../surveys/AIF Unit 4 Survey]] {>>{"author":"Elias's AI","timestamp":1786473337679}@@Survey redesign per Elias 2026-08-11: impact scales only in first + last survey; Units 2-4 get weekly pulse questions (group connection, meeting value, content value); Unit 5 is the final reflection with re-asked Week 1 scales + recommend-Lens question. Generic AIF Post-Meeting Survey no longer attached anywhere once Unit 5 is accepted.<<}
 
-# {++{"author":"Elias's AI","timestamp":1786472854159}@@Module: [[../modules/unit-5-where-is-the-leverage|Unit 5: Where Is the Leverage?]]
+# Module: [[../modules/unit-5-where-is-the-leverage|Unit 5: Where Is the Leverage?]]
 
-# ++}Meeting: Unit 5{++{"author":"Elias's AI","timestamp":1786473436784}@@
-{>>{"author":"Elias's AI","timestamp":1786473436784}@@When accepting the pending survey line below: change its target from AIF Post-Meeting Survey to [[../surveys/AIF Unit 5 Survey]] (final reflection: re-asked Week 1 scales + recommend-Lens question). The pending line cannot be edited until accepted.<<}++}
+# Meeting: Unit 5
+{>>{"author":"Elias's AI","timestamp":1786473436784}@@When accepting the pending survey line below: change its target from AIF Post-Meeting Survey to [[../surveys/AIF Unit 5 Survey]] (final reflection: re-asked Week 1 scales + recommend-Lens question). The pending line cannot be edited until accepted.<<}
 meeting-doc-template:: https://docs.google.com/document/d/1YuCKnl7R8P4upzZzMTf6whEOYu23g_j936QDlpELwuk/edit{++{"author":"Hamza's AI","timestamp":1786438730538}@@
 survey:: [[../surveys/AIF Post-Meeting Survey]]
 
