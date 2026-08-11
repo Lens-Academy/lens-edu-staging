@@ -13,52 +13,53 @@ options::
 - Yes
 - No
 
-#### Text
-content:: Same four scales as last week. Answer for where you are right now, not where you think you should be; we track how these move over the course.
+#### {--{"author":"Elias's AI","timestamp":1786473262880}@@Text--}{++{"author":"Elias's AI","timestamp":1786473262880}@@Rating++}
+{--{"author":"Elias's AI","timestamp":1786473262880}@@content:: Same four scales as last week. Answer for where you are right now, not where you think--}{++{"author":"Elias's AI","timestamp":1786473262880}@@key:: group_connection
+content:: How connected do++} you{--{"author":"Elias's AI","timestamp":1786473262880}@@ should be; we track how these move over--}{++{"author":"Elias's AI","timestamp":1786473262880}@@ feel with++} the {--{"author":"Elias's AI","timestamp":1786473262880}@@course.
 
 #### Rating
-key:: model_explicitness
+key:: model_explicitness--}{++{"author":"Elias's AI","timestamp":1786473262880}@@members of your group?++}
 scale:: 5
-low-label:: Vibes and borrowed takes
-high-label:: Explicit model I could defend
-required:: true
+low-label:: {--{"author":"Elias's AI","timestamp":1786473262880}@@Vibes and borrowed takes--}{++{"author":"Elias's AI","timestamp":1786473262880}@@Not at all++}
+high-label::{--{"author":"Elias's AI","timestamp":1786473262880}@@ Explicit model I could defend--}{++{"author":"Elias's AI","timestamp":1786473262880}@@ Very connected++}
+required:: true{--{"author":"Elias's AI","timestamp":1786473262880}@@
 content:: How explicit is your current model of how AI development will go?
 
 - 1 = mostly vibes and borrowed takes
 - 2 = I know the key debates but haven't formed my own positions
 - 3 = positions on some key variables (timelines, takeoff), not an integrated picture
 - 4 = an integrated model I could sketch, with gaps
-- 5 = an explicit model I could defend, with numbers and scenarios
+- 5 = an explicit model I could defend, with numbers and scenarios--}
 
 #### Rating
-key:: judgment_confidence
-content:: How confident are you that you can tell which AI safety work actually reduces AI takeover risk?
+key:: {--{"author":"Elias's AI","timestamp":1786473262880}@@judgment_confidence--}{++{"author":"Elias's AI","timestamp":1786473262880}@@meeting_value++}
+content:: How {--{"author":"Elias's AI","timestamp":1786473262880}@@confident are you that you can tell which AI safety work actually reduces AI takeover risk?--}{++{"author":"Elias's AI","timestamp":1786473262880}@@valuable was the group meeting for you?++}
 scale:: 5
-low-label:: I mostly defer to others' judgment
-high-label:: I trust my own judgment enough to prioritize with it
+low-label:: {--{"author":"Elias's AI","timestamp":1786473262880}@@I mostly defer to others' judgment--}{++{"author":"Elias's AI","timestamp":1786473262880}@@Not valuable++}
+high-label::{--{"author":"Elias's AI","timestamp":1786473262880}@@ I trust my own judgment enough to prioritize with it--}{++{"author":"Elias's AI","timestamp":1786473262880}@@ Extremely valuable++}
 required:: true
 
 #### Rating
-key:: agency_belief
-content:: How much do you believe your own actions can meaningfully change how AI goes?
+key:: {--{"author":"Elias's AI","timestamp":1786473262880}@@agency_belief--}{++{"author":"Elias's AI","timestamp":1786473262880}@@content_value++}
+content:: How{--{"author":"Elias's AI","timestamp":1786473262880}@@ much do you believe your own actions can meaningfully change how AI goes?
 scale:: 5
-low-label:: My actions don't change the trajectory
+low-label:: My actions don't change--}{++{"author":"Elias's AI","timestamp":1786473262880}@@ valuable was++} the {--{"author":"Elias's AI","timestamp":1786473262880}@@trajectory
 high-label:: I can find and pull real levers
 required:: true
 
 #### Rating
-key:: leverage_clarity
+key:: leverage_clarity--}{++{"author":"Elias's AI","timestamp":1786473262880}@@course content for you?++}
 scale:: 5
-low-label:: No idea
-high-label:: I know exactly what I'd do
-required:: true
+low-label:: {--{"author":"Elias's AI","timestamp":1786473262880}@@No idea--}{++{"author":"Elias's AI","timestamp":1786473262880}@@Not valuable++}
+high-label:: {--{"author":"Elias's AI","timestamp":1786473262880}@@I know exactly what I'd do--}{++{"author":"Elias's AI","timestamp":1786473262880}@@Extremely valuable++}
+required:: true{--{"author":"Elias's AI","timestamp":1786473262880}@@
 content:: How clear are you on where your own effort has the most leverage: what should you, specifically, work on?
 
 - 1 = no idea
 - 2 = some vague directions
 - 3 = a few possibilities I'm weighing
 - 4 = a clear direction, not yet committed
-- 5 = I know exactly what I'd do
+- 5 = I know exactly what I'd do--}
 
 #### Question
 key:: unit_takeaway
