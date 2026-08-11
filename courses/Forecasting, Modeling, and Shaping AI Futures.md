@@ -35,11 +35,12 @@ survey:: [[../surveys/AIF Unit 3 Survey]]
 
 # ++}Meeting: Unit 4
 meeting-doc-template:: https://docs.google.com/document/d/1JbdYP4R7MPRrNIncIxu2JjhDlPkBMRF5y4auPrZHYa4/edit
-survey:: [[../surveys/AIF Post-Meeting Survey]]
+survey:: [[../surveys/AIF {++{"author":"Elias's AI","timestamp":1786473337679}@@Unit 4 Survey]] {>>{"author":"Elias's AI","timestamp":1786473337679}@@Survey redesign per Elias 2026-08-11: impact scales only in first + last survey; Units 2-4 get weekly pulse questions (group connection, meeting value, content value); Unit 5 is the final reflection with re-asked Week 1 scales + recommend-Lens question. Generic AIF ++}Post-Meeting {--{"author":"Elias's AI","timestamp":1786473337679}@@Survey]]--}{++{"author":"Elias's AI","timestamp":1786473337679}@@Survey no longer attached anywhere once Unit 5 is accepted.<<}++}
 
 # {++{"author":"Elias's AI","timestamp":1786472854159}@@Module: [[../modules/unit-5-where-is-the-leverage|Unit 5: Where Is the Leverage?]]
 
-# ++}Meeting: Unit 5
+# ++}Meeting: Unit 5{++{"author":"Elias's AI","timestamp":1786473436784}@@
+{>>{"author":"Elias's AI","timestamp":1786473436784}@@When accepting the pending survey line below: change its target from AIF Post-Meeting Survey to [[../surveys/AIF Unit 5 Survey]] (final reflection: re-asked Week 1 scales + recommend-Lens question). The pending line cannot be edited until accepted.<<}++}
 meeting-doc-template:: https://docs.google.com/document/d/1YuCKnl7R8P4upzZzMTf6whEOYu23g_j936QDlpELwuk/edit{++{"author":"Hamza's AI","timestamp":1786438730538}@@
 survey:: [[../surveys/AIF Post-Meeting Survey]]
 
