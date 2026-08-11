@@ -1,7 +1,7 @@
 ---
 id: '1c2dad7b-028c-4df8-8e7c-c1eaf1653c43'
 title: "The Shape Of The Remaining Work"
-tldr: If you are 16% of the way through a job and it took four years, how long is the rest? Your answer contains a whole theory of the job, and you probably did not notice putting it there.
+tldr: If you are 16% of the way through a job and it took four years, how long is the rest? Your answer depends on a theory of the job. This page asks you to write that theory down.
 summary_for_tutor: "Pre-reading question for the fractional-progress material. Pumps the uniformity intuition (remaining work is like completed work) so the 372-year result can break it. Do not explain the reading. Do not use the words linear, exponential, or asymptote unless the student uses them first."
 authors:
   - Claude
@@ -12,9 +12,11 @@ content::
 
 A team has been building something for four years. They are asked how far along they are, and they say: about 16%.
 
-Write down your estimate of the year they finish, and then, more importantly, write down the calculation you did to get it. Actually write the arithmetic, not a description of it.
+Write down your estimate of the year they finish. Then write down the calculation you used to get it. The calculation matters more than the year. Write out the arithmetic, not a description of it.
 
-Then answer one more thing: what would have to be true about the remaining 84% for your calculation to be correct?
+Then answer one more question. What would have to be true about the remaining 84% for your calculation to be correct?
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
 
 assessment-instructions:: The student is about to read about the fractional-progress survey method and its failure. They have not seen it yet. This question makes them perform the extrapolation themselves so that the reading lands as a critique of something they did, not something a stranger did.
 

@@ -21,22 +21,17 @@ No system makes a plan against anyone. Each AI does the task it was given. The p
 operate them are ordinary. They are not reckless, and they do not intend harm. They work
 under normal commercial pressure.
 
-Build that catastrophe yourself, before you read one.{--{"author":"Lauren's AI","timestamp":1786436793491}@@
+Build that catastrophe yourself, before you read one. If your version turns out unlike
+Christiano's, that is the better outcome of the two.
 
-Here is why we ask you to do it in--}{++{"author":"Lauren's AI","timestamp":1786436793491}@@ If your version turns out unlike
-Christiano's,++} that{--{"author":"Lauren's AI","timestamp":1786436793491}@@ order. Paul Christiano's account --}{++{"author":"Lauren's AI","timestamp":1786436793491}@@ ++}is{--{"author":"Lauren's AI","timestamp":1786436793491}@@ clear, and
-after you read it you will agree with it. That agreement will teach you less than you
-expect, because you will not know which part was --}{++{"author":"Lauren's AI","timestamp":1786436793491}@@ ++}the {--{"author":"Lauren's AI","timestamp":1786436793491}@@hard part. If you build a version
-first, you find --}{++{"author":"Lauren's AI","timestamp":1786436793491}@@better outcome of ++}the{--{"author":"Lauren's AI","timestamp":1786436793491}@@ hard part yourself. Then the reading answers a question you already
-have.--}{++{"author":"Lauren's AI","timestamp":1786436793491}@@ two.++}
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
 #### Question
 content::
 \## Your turn first
 
-Build the catastrophe. {++{"author":"Lauren's AI","timestamp":1786436793491}@@Nobody plans it. ++}No {--{"author":"Lauren's AI","timestamp":1786436793491}@@villain. No deception. No accident. Ordinary --}{++{"author":"Lauren's AI","timestamp":1786436793491}@@accident, and no single bad actor. Ordinary
-++}systems do the{--{"author":"Lauren's AI","timestamp":1786436793491}@@
---}{++{"author":"Lauren's AI","timestamp":1786436793491}@@ ++}tasks they were given, and ordinary people operate them.
+Build the catastrophe. Nobody plans it. No accident, and no single bad actor. Ordinary
+systems do the tasks they were given, and ordinary people operate them.
 
 Write three or four sentences. What goes wrong, and what is the first step?
 

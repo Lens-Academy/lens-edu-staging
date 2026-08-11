@@ -1,7 +1,7 @@
 ---
 id: '512005f3-75ed-44bf-9e0c-2d897c4730a4'
 title: "The Track Record"
-tldr: Before learning how to forecast AI, look at how it has gone. Armstrong and Sotala found expert predictions indistinguishable from non-expert ones, and clustered at fifteen to twenty-five years away regardless of when they were made.
+tldr: Before you learn how to forecast AI, look at the record of past forecasts. Armstrong and Sotala found that expert predictions were no better than non-expert ones. They also found that predicted dates cluster fifteen to twenty-five years ahead, whoever makes them and whenever they are made.
 summary_for_tutor: "Opening lens of the unit. Armstrong's survey of AI predictions establishes the empirical floor: the track record is bad, and bad in a specific patterned way rather than randomly. This has to land before any method is taught, or the methods read as refinements of something that works. Do not let the student conclude that forecasting is impossible; that conclusion is available at the end of the unit and must be earned."
 authors:
   - Claude
@@ -14,7 +14,7 @@ Two minutes, before you read anything.
 
 Someone is asked, in 1975, when machines will be able to do most of what a human can do. Then someone else is asked the same question in 1990. Then 2005. Then 2020.
 
-Write down what you expect the four answers to look like. Not the exact years, but the pattern: do the predicted dates move closer as the decades pass, stay put, or something else? Say why you expect that pattern.
+Write down what you expect the four answers to look like. We do not want the exact years. We want the pattern. Do the predicted dates get nearer to the year the question was asked as the decades pass, do they stay the same distance ahead, or do they do something else? Say why you expect that pattern.
 
 assessment-instructions:: The student is starting the unit and has read nothing yet. This primes the expectation that predicted dates converge on the present as evidence accumulates, so that the actual finding (a persistent fifteen-to-twenty-five-year cluster, roughly independent of when the prediction was made) lands as a result rather than as a fact to memorise.
 
@@ -37,9 +37,11 @@ content::
 
 **Read *How we're predicting AI, or failing to*, by Stuart Armstrong.**
 
-A survey of AI predictions, assessed as a body rather than one at a time. Two findings to watch for: what separates expert predictions from non-expert ones, and what the distribution of predicted dates looks like when you plot it against the date the prediction was made.
+This is a survey of AI predictions. Armstrong assesses the whole set together, not one prediction at a time. Look for two findings. First, what separates expert predictions from non-expert ones. Second, what the predicted dates look like when you plot them against the date each prediction was made.
 
-Optionally, alongside it: **Luke Muehlhauser's *The errors, insights, and lessons of famous AI predictions***, which supplies the individual cases behind the pattern.
+You can also read **Luke Muehlhauser's *The errors, insights, and lessons of famous AI predictions***. It gives the individual cases behind the pattern.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
 #### Article
 source:: [[../articles/armstrong-sotala-how-were-predicting-ai-or-failing-to]]
@@ -50,11 +52,11 @@ to:: References
 content::
 \## After the reading
 
-Compare what you wrote before against what you found. Then answer this.
+Compare what you wrote before the reading with what the reading says. Then answer this.
 
-The finding is often summarised as "experts are bad at predicting AI." That summary is true and nearly useless, because it does not tell you what to do differently.
+People often summarise the finding as "experts are bad at predicting AI". That summary is true. It is also nearly useless, because it does not tell you what to do differently.
 
-Here is the more useful version of the question. The predictions were not randomly wrong. They were wrong in a pattern. Describe the pattern, then say what the pattern suggests about where the predictions were coming from, given that they were not coming from evidence.
+Here is a more useful question. The predictions were not wrong at random. They were wrong in a pattern. Describe the pattern. Then say what the pattern tells you about the source of the predictions, if that source was not evidence.
 
 assessment-instructions:: The student has completed the pre-question and the Armstrong reading. This is the only discussion phase in this lens; the unit's heavy method lenses come next, so keep this one tight.
 

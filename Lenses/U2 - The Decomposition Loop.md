@@ -1,7 +1,7 @@
 ---
 id: '026de78b-1adf-4e13-ad90-22348646c003'
 title: "The Decomposition Loop"
-tldr: The best forecasters in a four-year tournament were not the smartest people or the domain experts. They were the ones who broke questions into parts they could actually check, and who had done it before.
+tldr: The best forecasters in a four-year tournament were not the smartest people, and they were not the domain experts. They were the people who broke questions into parts they could check, and who had forecast before.
 summary_for_tutor: "The spine reading of the unit. Kokotajlo's summary of Good Judgment Project findings, which contains both the empirical result (what predicts forecasting accuracy) and the five-step method (Fermi-ize, outside view on sub-questions, seek other perspectives, iterate, aggregate). The lens runs the standard recall, processing, learning-question structure. The Phase 3 wedge attacks the assumption that the loop is a checklist rather than a search for tractable sub-questions."
 authors:
   - Claude
@@ -14,7 +14,9 @@ content::
 
 Read the whole thing. It is short.
 
-Two things to hold onto as you read. First, there is a list of what correlates with forecasting accuracy, in rough order of importance, and the order is surprising. Second, near the end there is a five-step procedure. Both matter; most readers remember only the first.
+Look for two things as you read. First, a list of what correlates with forecasting accuracy, in rough order of importance. Second, a five-step procedure near the end. Both matter. The list is easier to remember than the procedure, so make a note of the procedure.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
 ---
 
@@ -58,7 +60,7 @@ This is a one-turn response. Do not ask a question or suggest the student reply.
 content::
 \## Phase 2: Processing
 
-Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? Speech to text is recommended for capturing more in two minutes.
+Take 2 minutes to write down your reaction to the reading. What felt important to you? What confused you? What did you doubt or disagree with? Speech to text is recommended, because you can capture more in two minutes.
 
 assessment-instructions:: The student has just completed a free recall of Kokotajlo's Good Judgment Project summary and is now reflecting on how it landed.
 
@@ -103,7 +105,7 @@ A colleague reads the same piece and writes up her method. She says:
 
 > "Fine, I will follow the loop. My question is when AI systems will be able to do most software engineering jobs. Step one, Fermi-ize. I break it into four sub-questions: how good will the models get, how much will they cost to run, how willing will firms be to adopt them, and how much of software engineering is actually automatable. Step two, outside view on each. Step three, ask three colleagues. Step four, iterate. Step five, aggregate. Four sub-questions instead of one, so I have made the problem four times easier."
 
-She has followed every step in order. Her decomposition is still not going to help. What has she actually done, and what would a decomposition that helped look like instead?
+She has followed every step in order. Her decomposition will still not help her. What has she actually done? And what would a decomposition that does help look like?
 
 assessment-instructions:: The student has read Kokotajlo's Good Judgment Project summary, recalled it, and reflected on it. They are now in the main discussion phase.
 
@@ -155,10 +157,10 @@ content::
 
 ::card[[../Lenses/U2 - Reference Classes And Their Denominators]]
 
-> Step two of the loop says apply the outside view. That turns out to name about fifteen different moves, and choosing the wrong one is how a decomposition fails quietly.
+> Step two of the loop says to apply the outside view. That phrase covers about fifteen different moves. If you choose the wrong one, your decomposition fails without giving you any warning.
 
 ---
 
 ::card[[../Lenses/U2 - Average Then Extremize]]
 
-> Step five says aggregate. There is a real mathematics of aggregation, and it says the answer is sometimes outside the range of everything you are aggregating.
+> Step five says to aggregate. There is a real mathematics for this, and it shows that the correct answer is sometimes outside the range of the numbers you started with.

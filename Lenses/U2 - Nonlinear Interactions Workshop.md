@@ -1,7 +1,7 @@
 ---
 id: 'f646ea15-5ffb-4a50-bd4e-a0e9494cf00e'
 title: "Nonlinear Interactions Workshop"
-tldr: Four systems, four sets of parts, four different ways the parts multiply instead of adding. No reading. You build the curves and the tutor tries to break them.
+tldr: Four systems, four sets of parts, and four different ways the parts interact so that the simple curve is wrong. No reading. You build the curves and the tutor tries to break them.
 summary_for_tutor: "The practice lens for the extrapolation outcome. No reading assignment. Four short scenarios, each carrying a different nonlinear structure: adverse selection of the residual, a threshold, a min-over-constraints bottleneck, and a feedback loop where the measurement changes the measured. The student works them; the tutor pushes. This is where the mathematical objects get exercised, so do not let it become a discussion of AI timelines in general."
 min_chat_messages: 6
 authors:
@@ -11,11 +11,13 @@ authors:
 content::
 \## No reading this time
 
-You have watched one extrapolation fail. Now you build some.
+In the previous lens you saw one extrapolation fail. Now you build some.
 
-Four short scenarios follow, in one conversation with the tutor. Each one is a system with parts, and in each one the parts interact in a way that makes the obvious curve wrong. They are wrong in four different ways, and the differences are the point: the failures are not interchangeable.
+Four short scenarios follow, in one conversation with the tutor. Each scenario is a system with parts. In each one, the parts interact in a way that makes the obvious curve wrong. The four curves are wrong in four different ways. Those differences matter, because the four failures are not interchangeable.
 
-Work them in order. Write the arithmetic, not a description of it.
+Work through them in order. Write out the arithmetic, not a description of it.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
 
 #### Chat
 instructions:: You are running a four-part workshop on nonlinear structure in forecasting. The student has read Xu and Shulman on the fractional-progress failure. They have not been taught the four structures below by name; the workshop is where they meet them.

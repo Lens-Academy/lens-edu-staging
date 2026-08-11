@@ -8,13 +8,15 @@ authors:
 ---
 #### Text
 content::
-\## A real model, with its authors disagreeing inside it
+\## A real model, and its authors disagree about it
 
-Most forecasts reach you as a number. This one arrives with its workings open: a model of when AI automates coding and what happens after, built by people who had published a different answer nine months earlier and then moved their own median three to five years later.
+Most forecasts reach you as a number. This one comes with its working shown. It is a model of when AI automates coding, and of what happens after that. The people who built it had published a different answer nine months earlier. They then moved their own median three to five years later.
 
-That makes it useful twice. Once for what it concludes, and once for what it shows about how a conclusion like that gets built, including the places where two people running the same model walk away with different numbers.
+That makes it useful twice. It is useful for what it concludes. It is also useful for what it shows about how a conclusion like that gets built, including the points where two people run the same model and get different numbers.
 
-Before you read any of it, you are going to build your own version of their toolkit.
+Before you read any of it, you build your own version of their set of methods.
+
+*The framing and questions on this page were written by Claude, an AI, with Lauren, and reviewed by a human. The reading itself is the author's own work.*
 
 #### Question
 content::
@@ -56,9 +58,9 @@ to:: ## Post-AGI takeoff forecasts
 content::
 \## The diff
 
-Put your list beside theirs. Which of their five did you have in some form? Which one did you not think of, and what does its absence tell you about where you were looking?
+Put your list beside theirs. Which of their five did you have in some form? Which one did you not think of? And what does that gap tell you about where you were looking?
 
-Then the harder half. They do not treat these as five independent estimates to be averaged. Pick the two you would weight most heavily and say why, in terms of what evidence each one actually consumes.
+Then the harder half. The authors do not treat these as five independent estimates to be averaged. Pick the two you would give the most weight to. Say why, in terms of what evidence each method needs.
 
 assessment-instructions:: The student has their own list of forecasting methods and has now read the authors' five.
 
@@ -122,11 +124,11 @@ to:: ## Comparison to our previous
 content::
 \## Two people, one model, different answers
 
-Eli and Daniel ran the same model with their own parameter settings, on largely the same evidence, and did not land in the same place. Eli gives his all-things-considered distribution in the text. Daniel's is in the chart rather than in prose, so read it off the figure.
+Eli and Daniel ran the same model with their own parameter settings, on largely the same evidence, and they did not get the same result. Eli gives his all-things-considered distribution in the text. Daniel's distribution is in the chart rather than in the prose, so read it off the figure.
 
-Here is the thing to notice, and it is not in the model. Both of them run the model and then adjust off it, by hand, for reasons the model does not contain. Find where each one does that, and say what each is correcting for.
+Here is the thing to notice, and it is not in the model. Both of them run the model, and then they adjust its output by hand, for reasons the model does not contain. Find where each one does that. Say what each one is correcting for.
 
-Then: you also wrote down a number before you read any of this. What should you do with yours now, and what would you need to know about how each of the three was produced before you could combine them at all?
+Then remember that you wrote down a number before you read any of this. What should you do with your number now? And what would you need to know about how each of the three numbers was produced, before you could combine them at all?
 
 assessment-instructions:: The student has read the section framing (both authors adjust off the model using intuition and other factors), Eli's all-things-considered distribution, and Daniel's discussion.
 
@@ -160,11 +162,11 @@ to:: ## Takeoff from Superhuman Coder onward
 content::
 \## A three-to-five year shift, in nine months
 
-The same team, with a better model, describe their improvements as producing "a roughly 3-5 year shift in our median for full coding automation" against the model they published with AI 2027 in April 2025. This update is from January 2026.
+The same team rebuilt their model. They describe their improvements as producing "a roughly 3-5 year shift in our median for full coding automation", measured against the model they published with AI 2027 in April 2025. This update is from January 2026.
 
-Two things to say about that. First, if a group can move three to five years on their own considered estimate in about nine months, what does that tell you about how much weight your own number from earlier deserves?
+Two things to say about that. First, a group moved three to five years on their own considered estimate in about nine months. What does that tell you about how much weight your own number from earlier deserves?
 
-Second, and less comfortable: that revision is public, numbered, and explained. Most changes of mind are not. What would you have concluded about this team if they had quietly stopped mentioning the old figure instead?
+Second. That revision is public, numbered, and explained. Most changes of mind are not. What would you have concluded about this team if they had quietly stopped mentioning the old figure instead?
 
 assessment-instructions:: The student has just read the comparison between the new model and AI 2027, including the 3.25 to 5 year gap and the definition of the Superhuman Coder milestone. The dates are AI 2027 in April 2025 and this update in January 2026, so the elapsed time is about nine months. Do not let a larger figure pass unchallenged if the student asserts one.
 
@@ -190,19 +192,19 @@ What to do in each reply:
 content::
 \## What has to keep happening, and what is left afterwards
 
-Every number in this reading rests on one thing continuing: the METR horizon trend. Daniel spends several paragraphs on why he is nervous about exactly that, naming online and continual learning, data efficiency, and the question of whether the trend is exponential or superexponential. Pick the one you think these forecasts most depend on, and say what you would watch over the next year to find out which way it is going.
+Every number in this reading depends on one thing continuing: the METR horizon trend. Daniel spends several paragraphs on why he is nervous about exactly that. He names online and continual learning, data efficiency, and the question of whether the trend is exponential or superexponential. Pick the one you think these forecasts depend on most. Say what you would watch over the next year to find out which way it is going.
 
 That question is about how much time there is. This one is not.
 
-The model's third stage begins where AI R&D is fully automated, and the authors describe its endpoint as "asymptoting at the limits of intelligence". Suppose everything in this reading happens roughly on schedule and we arrive there. Name one thing that is exactly as unresolved on the far side of that as it is today, and say why getting there faster or slower does not change it.
+The model's third stage begins when AI R&D is fully automated. The authors describe its endpoint as "asymptoting at the limits of intelligence". Suppose everything in this reading happens roughly on schedule and we arrive there. Name one thing that is exactly as unresolved after that point as it is today. Then say why arriving faster or slower does not change it.
 
 Then one about the reading itself rather than about the world.
 
-Nearly all of what you just read is about how fast. Very little of it is about what for. That is not a criticism of the authors, who were writing a forecasting post and said so. But we think you will find close to that same ratio across most of what this field writes, and we would rather you check that claim over the next few months than take it from us.
+Nearly all of what you just read is about how fast. Very little of it is about what for. That is not a criticism of the authors. They were writing a forecasting post, and they said so. We think you will find close to that same ratio across most of what this field writes. Check that claim over the next few months rather than taking it from us.
 
-So: while you were reading, which question felt more interesting to you, and be honest about it. And what would someone believe was the important question, if they read a great deal of this material and not much else?
+So, while you were reading, which question felt more interesting to you? Answer honestly. And what would someone believe the important question was, if they read a great deal of this material and not much else?
 
-Last, a smaller one. Daniel calls extrapolating AI revenue "a decent proxy for when AGI will be achieved". Is revenue measuring the thing these forecasts are about, or something that travels alongside it and could come apart? Give one concrete way it could come apart.
+Last, a smaller question. Daniel calls extrapolating AI revenue "a decent proxy for when AGI will be achieved". Is revenue measuring the thing these forecasts are about? Or is it measuring something that usually moves with it, but could separate from it? Give one concrete way the two could separate.
 
 max-time:: 8:00
 

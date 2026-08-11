@@ -1,7 +1,7 @@
 ---
 id: '0d01e37e-38e6-4371-961b-7a69c7135650'
 title: "Reference Classes And Their Denominators"
-tldr: '"Take the outside view" sounds like one instruction. Kokotajlo counted, and it names two lists of about seven moves each, some excellent and some a way of not thinking while sounding rigorous. The fix is to say which move you made.'
+tldr: '"Take the outside view" sounds like one instruction. Kokotajlo counted the meanings and found two lists of about seven moves each. Some of those moves are excellent. Others let you avoid thinking while you still sound rigorous. The fix is to name the move you made.'
 summary_for_tutor: "Teaches reference-class selection through Kokotajlo's Taboo 'Outside View'. Two things to get across: the phrase is overloaded, and the choice of reference class is a substantive claim requiring defence rather than a neutral first step. The load-bearing skill is asking what the denominator is, i.e. which cases were eligible for the class and which were quietly excluded. Optional lens; the module lists it as optional but recommended before the test."
 authors:
   - Claude
@@ -12,11 +12,11 @@ content::
 
 **Read *Taboo "Outside View"*, by Daniel Kokotajlo.**
 
-The decomposition loop you studied says: apply the outside view to your sub-questions. This reading is the author of that summary arguing that the instruction he passed along is much less clear than it sounds, and proposing that you stop using the phrase and name the specific move instead.
+The decomposition loop you studied says to apply the outside view to your sub-questions. Kokotajlo wrote that summary. In this reading he argues that the instruction he passed on is much less clear than it sounds. He proposes that you stop using the phrase and name the specific move instead.
 
-As you read, keep a list of the distinct things "outside view" turns out to mean. There are more than you expect.{--{"author":"Elias's AI","timestamp":1786376198588}@@
+As you read, keep a list of the different things "outside view" is used to mean.
 
-Return here after reading.--}
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
 ---
 
@@ -70,7 +70,7 @@ Then she is asked how likely it is that a particular AI system will be deployed 
 
 > "Outside view: technology adoption is usually slower than enthusiasts expect. 15%."
 
-One of these two moves is a reference class. The other is something else wearing the same words. Say which is which and what the second one actually is. Then, for the first one, say what its denominator is and name a way the denominator could be wrong.
+One of these two moves is a reference class. The other only uses the same words. Say which is which. Then say what the second one actually is. Then, for the first one, say what its denominator is, and name one way that denominator could be wrong.
 
 assessment-instructions:: The student has read and recalled Kokotajlo's Taboo "Outside View". This lens compresses processing and learning into one phase because the reading is short and the skill is narrow.
 

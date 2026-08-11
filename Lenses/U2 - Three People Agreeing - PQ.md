@@ -1,7 +1,7 @@
 ---
 id: '6d12511c-9612-4bb8-ac11-7079b34ce883'
 title: "Three People Agreeing"
-tldr: Three forecasters say 60%, 65%, and 70%. Write down your combined estimate before you read on. The range-preserving answer, somewhere between 60 and 70, is the natural one, and there are conditions under which it is provably wrong.
+tldr: Three forecasters say 60%, 65%, and 70%. Write down your combined estimate, and the rule you used to get it, before you read on.
 summary_for_tutor: "Pre-reading question for the aggregation material. Pumps the range-preserving intuition so the extremization result can break it. Do not explain extremization here, do not mention the prior, and do not give the coin example."
 authors:
   - Claude
@@ -16,7 +16,9 @@ You ask three people. Each of them has looked into it separately, and none of th
 
 Write down your combined estimate. Then write down, in one sentence, the rule you used to get it.
 
-Then one more question, and take it seriously rather than treating it as rhetorical: is there any set of facts about those three people under which your combined estimate should be higher than 70%?
+Then one more question. It is not a rhetorical question. Is there any set of facts about those three people that would make your combined estimate higher than 70%?
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
 
 assessment-instructions:: The student is about to study forecast aggregation and extremization. This question surfaces the range-preserving intuition, which is the default move the extremization literature is written against and which is wrong under independence.
 

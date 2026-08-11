@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786441479362}@@---
+---
 id: '16964da4-546f-4808-a188-818015f7abe8'
 title: "What Moved"
 tldr: You wrote five to ten sentences about the next ten years before you read anything. Rewrite them now, from memory.
@@ -19,7 +19,7 @@ time. Nate Soares says the hard part is that a system's capabilities carry over 
 situations while the constraints we put on it do not. Jan Kulveit and co-authors say
 that aligning any individual system, however well, is not sufficient, because the danger
 is in what happens between systems and institutions rather than inside any one of them.
-Those are rival claims about where the risk actually lives. This course does not think
+Those are rival claims about where the risk actually is. This course does not think
 that question is settled, and you are not expected to have settled it either.
 
 The second is that you wrote something at the start of this course, before you had read
@@ -27,6 +27,8 @@ anything: five to ten sentences on the next ten years of AI. What gets built, wh
 can do, what changes in the world.
 
 Do not go back and look at it. Write it again from memory, then compare.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
 
 #### Question
 content::
@@ -90,4 +92,3 @@ student whose model barely moved has done this correctly.
 Write 90 to 150 words. Short paragraphs. No lists.
 
 max-time:: 10
-++}
