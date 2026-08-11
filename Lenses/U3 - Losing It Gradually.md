@@ -23,7 +23,7 @@ they do. Ask why. If you cannot say why they do it now, you cannot say what woul
 
 #### Question
 content::
-\## Your turn first
+\## {--{"author":"Lauren's AI","timestamp":1786442575288}@@Your turn first--}{++{"author":"Lauren's AI","timestamp":1786442575288}@@Say why it holds now++}
 
 Pick one institution. A government, an employer, a market, a hospital, anything with
 power over people.
