@@ -42,10 +42,22 @@ source:: [[../Lenses/U3 - Failure With No Villain]]
 # Lens: Losing It Gradually
 source:: [[../Lenses/U3 - Losing It Gradually]]
 
-# Submodule: What is hard underneath
+# Submodule: {--{"author":"Lauren's AI","timestamp":1786440569601}@@What--}{++{"author":"Lauren's AI","timestamp":1786440569601}@@Two arguments about where the risk lives
+
+%% Not "what++} is hard {--{"author":"Lauren's AI","timestamp":1786440569601}@@underneath--}{++{"author":"Lauren's AI","timestamp":1786440569601}@@underneath". Soares and Kulveit are RIVALS, not layers. Kulveit's
+abstract says in bold that "methods of aligning individual AI systems with their
+designers' intentions are not sufficient", and Soares is precisely about aligning an
+individual system. A reviewer reading as a student caught the earlier heading asserting a
+hierarchy that one of the two readings explicitly denies, and said it cost them trust in
+every other heading in the unit. %%++}
 
 # Lens: Capabilities Generalize Further
 source:: [[../Lenses/U3 - Capabilities Generalize Further]]
 
 # Lens: The Case Against Control
-source:: [[../Lenses/U3 - The Case Against Control]]
+source:: [[../Lenses/U3 - The Case Against Control]]{++{"author":"Lauren's AI","timestamp":1786440569601}@@
+
+# Submodule: What you think now
+
+# Lens: What Moved
+source:: [[../Lenses/U3 - What Moved]]++}
