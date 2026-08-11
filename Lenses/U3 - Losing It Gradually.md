@@ -64,4 +64,6 @@ Write 60 to 110 words. Short paragraphs. No lists.
 max-time:: 4
 
 #### Article
-source:: [[../articles/gradual-disempowerment-gradual-disempowerment]]
+source:: {--{"author":"Lauren's AI","timestamp":1786436640395}@@[[../articles/gradual-disempowerment-gradual-disempowerment]]--}{++{"author":"Lauren's AI","timestamp":1786436640395}@@[[../articles/1-gradual-disempowerment-systemic-existential-risks-from-incremental-ai-development]]
+from:: "## 2 Misaligned Economy"
+to:: "## 3 Misaligned Culture"++}
