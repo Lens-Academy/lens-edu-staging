@@ -16,8 +16,8 @@ Some overarching non-learning outcomes we want to achieve:
 # Module: [[../modules/IABIED M1 Intro and Nonhuman Minds, Part 1]]
 
 # Meeting: Introduction
-meeting-doc-template:: https://docs.google.com/document/d/1VbHf5ENp0fOjqATTMLbKYhhbUvPqvi7Ugs32THIum1g/edit{++{"author":"Turner's AI","timestamp":1786479585670}@@
-survey:: [[../surveys/AIRF Session 1 Survey]] {>>{"author":"Turner's AI","timestamp":1786479585670}@@Native port of the AI Risk Fundamentals Week 1 Google Form (baseline scales + buddy handle + BlueDot history), matching the AIF Unit 1 pattern. Meeting 1 gets this intake survey; meetings 2-5 get the generic AIRF Weekly Survey. The Discord-handle question is deliberately dropped: the platform already knows who is answering, which is the whole reason the native surveys avoid the identity-matching problem the Google forms had.<<}++}
+meeting-doc-template:: https://docs.google.com/document/d/1VbHf5ENp0fOjqATTMLbKYhhbUvPqvi7Ugs32THIum1g/edit
+survey:: [[../surveys/AIRF Session 1 Survey]] {>>{"author":"Turner's AI","timestamp":1786479585670}@@Native port of the AI Risk Fundamentals Week 1 Google Form (baseline scales + buddy handle + BlueDot history), matching the AIF Unit 1 pattern. Meeting 1 gets this intake survey; meetings 2-5 get the generic AIRF Weekly Survey. The Discord-handle question is deliberately dropped: the platform already knows who is answering, which is the whole reason the native surveys avoid the identity-matching problem the Google forms had.<<}
 
 # Module: [[../modules/IABIED M2 Nonhuman Minds, Part 2]]
 
