@@ -31,7 +31,7 @@ could go badly wrong. If a term stops you, put ++}it {--{"author":"Lauren's AI",
 
 #### Question
 content::
-\## Your turn first
+\## {--{"author":"Lauren's AI","timestamp":1786442721261}@@Your turn first--}{++{"author":"Lauren's AI","timestamp":1786442721261}@@Find a case you have seen++}
 
 {--{"author":"Lauren's AI","timestamp":1786441894601}@@Think of--}{++{"author":"Lauren's AI","timestamp":1786441894601}@@Pick++} a {--{"author":"Lauren's AI","timestamp":1786441894601}@@case you know well where something--}{++{"author":"Lauren's AI","timestamp":1786441894601}@@real case. Something that++} was {--{"author":"Lauren's AI","timestamp":1786441894601}@@trained--}{++{"author":"Lauren's AI","timestamp":1786441894601}@@trained, built,++} or {--{"author":"Lauren's AI","timestamp":1786441894601}@@built--}{++{"author":"Lauren's AI","timestamp":1786441894601}@@supervised++} in one {--{"author":"Lauren's AI","timestamp":1786441894601}@@setting and--}{++{"author":"Lauren's AI","timestamp":1786441894601}@@setting, then++}
 {++{"author":"Lauren's AI","timestamp":1786441894601}@@moved somewhere harder. A driver who learned in an empty car park and ++}then {--{"author":"Lauren's AI","timestamp":1786441894601}@@used--}{++{"author":"Lauren's AI","timestamp":1786441894601}@@drove++} in a{--{"author":"Lauren's AI","timestamp":1786441894601}@@ harder one. A person, a team, a machine, a --}{++{"author":"Lauren's AI","timestamp":1786441894601}@@
