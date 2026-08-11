@@ -1,7 +1,7 @@
 ---
 id: '3fad3472-9deb-4647-9a25-fa376ede44fa'
 title: "Average Then Extremize"
-tldr: When people who looked at different things agree, their agreement is itself evidence, and the right combined answer can lie outside everything they said. When people who looked at the same thing agree, it is evidence of nothing.
+tldr: When people who looked at different things agree, their agreement is itself evidence, and the right combined answer can lie outside everything they said. When people who looked at the same thing agree, their agreement adds almost nothing.
 summary_for_tutor: "Teaches forecast aggregation as a function of the estimators' information structure rather than of their numbers. Source is Eric Neyman's Algorithmic Bayesian Epistemology thesis summary, chapter on robust aggregation: the average-then-extremize result and the two-coin-flip worked example. This closes step five of the decomposition loop, which students otherwise treat as 'take the mean'. The nonlinear object here is that the correct aggregate depends on covariance of evidence, not on the estimates."
 authors:
   - Claude
@@ -12,13 +12,15 @@ content::
 
 **Read the section titled *Chapter 7: Robust forecast aggregation* in Eric Neyman's *My thesis (Algorithmic Bayesian Epistemology) explained in more depth*.**
 
-You do not need the rest of the thesis, and you do not need to follow the formal statements. What you need is the worked example: a coin whose bias is unknown, two forecasters who each see one flip, and the question of what you should believe when both of them tell you the same thing.
+You do not need the rest of the thesis, and you do not need to follow the formal statements. You need the worked example. A coin has an unknown bias. Two forecasters each see one flip. Both of them tell you the same thing. What should you believe?
 
 The result has a name that is also an instruction: **average, then extremize.**
 
-One warning as you read. It is easy to come away with "extremizing is a trick that improves forecasts." That is true empirically and is not the interesting part. The interesting part is the condition: how much you should extremize depends on how much the forecasters' information overlaps, and if it overlaps completely you should not extremize at all.
+One warning as you read. The short version of the result is "extremizing is a trick that improves forecasts". That short version is true, and it leaves out the condition. How much you should extremize depends on how much the forecasters' information overlaps. If their information overlaps completely, you should not extremize at all.
 
 Return here after reading.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
 ---
 
@@ -67,9 +69,9 @@ This is a one-turn response. Do not ask a question. Tell them to move on.
 content::
 \## Phase 2: Processing
 
-Go back to the number you committed to one lens ago, when three people who had not spoken to each other said 60, 65 and 70 percent. Write it here again, then write the DIRECTION the reading licenses (above the highest individual estimate), not a specific number.
+Go back to the number you wrote down one lens ago, when three people who had not spoken to each other said 60, 65 and 70 percent. Write that number here again. Then write the DIRECTION the reading permits, which is above the highest individual estimate. Do not write a specific number.
 
-If those differ, the interesting question is not the arithmetic. It is what you believed about aggregation that made your number feel obviously right at the time. Name that belief. Then: how confident were you, and does it worry you that a confident answer was wrong in a way you could not feel from the inside?
+If the two differ, the arithmetic is not the interesting question. The interesting question is what you believed about aggregation when you wrote your first number. Name that belief. Then say how confident you were at the time, and what that tells you about confidence as a signal.
 
 assessment-instructions:: The student has recalled the aggregation reading and is now reflecting. Critically, one lens ago they committed to a number for the three-people-agreeing problem (estimates of 60, 65 and 70 percent against a 10 percent base rate). The case that phase was built for is an answer inside the 60-to-70 range, reasoning that an aggregate cannot exceed what any individual believes; expect that, but read what they actually wrote.
 
@@ -117,7 +119,7 @@ A research group publishes a survey. They asked forty AI researchers for the yea
 
 > "The tightness of this distribution is striking. Forty independent experts, converging on a fifteen-year window. Under the aggregation results, concurrence among independent forecasters licenses us to extremize: we should be more confident in the 2038 to 2046 window than any individual respondent is."
 
-Every sentence in that passage is defensible on its own. The conclusion is still probably wrong. Where does it break, and what would you need to know about the forty researchers before you could say anything at all?
+Every sentence in that passage is defensible on its own. The conclusion is still probably wrong. Which step fails? And what would you need to know about the forty researchers before you could say anything at all?
 
 assessment-instructions:: The student has read, recalled, and reflected on the aggregation material. This is the main discussion phase.
 
@@ -170,4 +172,4 @@ content::
 
 ::card[[../Lenses/U2 - Nonlinear Interactions Workshop]]
 
-> Extremization is one case of a general fact: how the parts of a system relate to each other decides the arithmetic, and the arithmetic is rarely addition. Four more cases, worked.
+> Extremization is one case of a general fact. The way the parts of a system relate to each other decides which arithmetic applies, and that arithmetic is rarely addition. Four more cases, worked through.

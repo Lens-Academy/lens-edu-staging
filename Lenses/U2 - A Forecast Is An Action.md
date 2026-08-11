@@ -1,7 +1,7 @@
 ---
 id: '4dac0591-f829-421d-8410-8a471fc70590'
 title: "A Forecast Is An Action"
-tldr: A prediction accurate enough to be believed changes what people do, which changes what happens. There is no seat outside the system from which to forecast it, and a forecast that presents a choice as an inevitability has made the choice on your behalf.
+tldr: A prediction accurate enough to be believed changes what people do, and that changes what happens. You cannot stand outside the system to forecast it. A forecast that presents a choice as something inevitable has made that choice for you.
 summary_for_tutor: "Closing lens of the unit. Two readings: Ngo's critique of an optimistic forecast for hiding political choices as facts, and Demski's Parable of Predict-O-Matic for the reflexivity mechanism in its purest form. The move is from method to consequence: everything earlier in the unit treated forecasting as measurement, and this lens shows why it cannot be only that. Do not let the conversation become about whether the forecast under discussion was correct."
 authors:
   - Claude
@@ -14,13 +14,15 @@ Two readings. Read them in this order.
 
 **1. *Selective Optimism: a critique of AI 2040*, by Richard Ngo.**
 
-An optimistic forecast about AI. Ngo's objection is not that it is too optimistic. It is that choices which could go either way appear in it as facts about how the future works, so a reader is offered a prediction and receives a politics.
+This is a critique of an optimistic forecast about AI. Ngo's objection is not that the forecast is too optimistic. His objection is that choices which could go either way appear in it as facts about how the future works. The reader thinks they are being given a prediction. They are also being given a political position, and it is not labelled as one.
 
-**2. *The Parable of Predict-O-Matic*, by Abram Demski.** (optional -- a longer parable making the same point in story form; skip it if you are short of time)
+**2. *The Parable of Predict-O-Matic*, by Abram Demski.** (optional. It is a longer parable that makes the same point in story form. Skip it if you are short of time.)
 
-Fiction, and short. A machine is built to predict things as accurately as possible. It is very good. The trouble is what accuracy means when your predictions are heard.
+This one is fiction, and it is short. A machine is built to predict things as accurately as possible. It is very good at it. The problem is what accuracy means when other people hear your predictions.
 
-As you read the second one, hold this question: at what point does the machine start doing something other than predicting, and could anyone inside the story have identified that point at the time?
+As you read the second one, keep this question in mind. At what point does the machine start doing something other than predicting? And could anyone inside the story have identified that point at the time?
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The readings themselves are the authors' own work.*
 
 ---
 
@@ -70,7 +72,7 @@ This is a one-turn response. Do not ask a question. Tell them to move on.
 content::
 \## Phase 2: Processing
 
-Take 2 minutes on how these landed, particularly against everything earlier in this unit. What resonated? What confused you? What did you want to argue with? Speech to text is recommended.
+Take 2 minutes on your reaction to these two readings, and to how they fit with everything earlier in this unit. What felt important to you? What confused you? What did you want to argue with? Speech to text is recommended.
 
 assessment-instructions:: The student has recalled both readings and is now reflecting. This is the last processing phase of the unit, so the reflection is partly about the unit.
 
@@ -106,11 +108,11 @@ What not to do: mini-lectures, adjudication, more than 2 turns.
 content::
 \## Phase 3: Learning Question
 
-You have spent this unit learning to forecast better: decompose, choose reference classes, watch the functional form, aggregate with attention to overlap. Someone who read only these last two pieces draws the conclusion:
+You have spent this unit learning to forecast better. You decompose a question, choose reference classes, check the functional form, and aggregate with attention to overlap. Someone who read only these last two pieces draws this conclusion:
 
 > "So the whole enterprise is compromised. A forecast that people believe changes what they do, and a forecast nobody believes is useless, so a forecast is either an intervention or a waste of time. The honest thing is to stop producing forecasts and argue for what you want directly."
 
-There is something right in this and the conclusion does not follow. Work out both halves. What is the genuine structural problem being named, and what is a forecaster supposed to do about it that is neither pretending to stand outside the system nor giving up?
+There is something right in this, and the conclusion still does not follow. Work out both halves. First, what is the genuine structural problem this person has named? Second, what is a forecaster supposed to do about it? Your answer must not be to pretend to stand outside the system, and it must not be to give up.
 
 assessment-instructions:: The student has read Ngo and Demski, recalled them, and reflected. This is the final discussion of the unit.
 

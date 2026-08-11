@@ -1,7 +1,7 @@
 ---
 id: 'b056a45b-7583-41f0-96a3-8ae48ca766fe'
 title: "A Method That Visibly Fails"
-tldr: Ask researchers what fraction of the problem they have solved, extrapolate the rate, and you get 372 years. Nobody believes it, including the people who gave the estimates. A method whose failure you can see is worth more than one whose failure you cannot.
+tldr: Ask researchers what fraction of the problem they have solved, extrapolate the rate, and you get 372 years. Nobody believes it, including the people who gave the estimates. A method whose failure you can see is worth more than a method whose failure stays hidden.
 summary_for_tutor: "Teaches functional-form assumptions through a worked method that produces an absurd number. Xu and Shulman on fractional progress estimates; the 372-year figure is the teaching object. The point is not that the method is bad, it is that the residual is adversely selected, so linear extrapolation of a self-selecting remainder is wrong in a predictable direction. Feeds directly into the nonlinear-interactions workshop lens that follows."
 authors:
   - Claude
@@ -12,15 +12,15 @@ content::
 
 **Read *Fractional progress estimates for AI timelines and implied resource requirements*, by Mark Xu and Carl Shulman.**
 
-The setup: one way to forecast AI is to ask researchers how much progress toward human-level AI they have made in their subfield over the last T years, then extrapolate linearly to 100%. A typical answer was about 5% of the problem solved between 1992 and 2012. Extrapolated, those estimates imply human-level AI in roughly 372 years.
+Here is the method. You ask researchers how much progress toward human-level AI their subfield has made over a set number of years. Then you extrapolate that rate linearly to 100%. A typical answer was about 5% of the problem solved between 1992 and 2012. Extrapolated, those estimates imply human-level AI in roughly 372 years.
 
-Watch the provenance, because it matters for what the number means. The 372 figure is not Xu and Shulman's; it comes from Robin Hanson's informal 2012-2017 survey, was extrapolated by AI Impacts, and Xu and Shulman quote it in order to argue against it. And the same AI Impacts summary reports the method giving 36 years from the 2016 Expert Survey on Progress in AI, and 142 years from another set of responses. So the method does not produce one absurd number. It produces anything from 36 to 372 years depending on whom you asked, which is a sharper indictment than a single implausible result.
+Check where the number came from, because that changes what it means. The 372-year figure is not Xu and Shulman's. It comes from Robin Hanson's informal survey, run between 2012 and 2017. AI Impacts did the extrapolation. Xu and Shulman quote the figure in order to argue against it. The same AI Impacts summary reports two other results from the same method: 36 years from the 2016 Expert Survey on Progress in AI, and 142 years from another set of responses. So the method does not produce one absurd number. It produces anything from 36 to 372 years, depending on whom you asked. That is a worse problem than a single implausible result.
 
 You just did this arithmetic yourself in the previous step.
 
-As you read, keep one question live: the authors do not simply say the method is wrong. They ask what would have to be true for 372 years to be right, and what is true instead. Track that argument, not the number.{--{"author":"Elias's AI","timestamp":1786376201289}@@
+As you read, follow the argument rather than the number. The authors do not simply say that the method is wrong. They ask what would have to be true for 372 years to be right, and what is true instead.
 
-Return here after reading.--}
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
 ---
 
@@ -66,7 +66,7 @@ This is a one-turn response. Do not ask a question. Tell them to move on.
 content::
 \## Phase 2: Processing
 
-Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? Speech to text is recommended.
+Take 2 minutes to write down your reaction to the reading. What felt important to you? What confused you? What did you doubt or disagree with? Speech to text is recommended.
 
 assessment-instructions:: The student has recalled the Xu and Shulman reading and is now reflecting.
 
@@ -108,7 +108,7 @@ Someone who read the same piece draws the following lesson:
 
 > "The problem was that they extrapolated linearly. Progress in technology is exponential, not linear. If you fit an exponential to the same survey data instead of a line, you get a sensible answer, decades rather than centuries. The fix is to use the right curve."
 
-This is wrong in a more interesting way than it is right. Two questions. First, what is the actual defect in the original method, given that swapping the curve does not repair it? Second, suppose you did fit an exponential and it gave you a comfortable answer. What would that comfortable answer be evidence of?
+This answer is wrong, and the way it is wrong is worth studying. Two questions. First, changing the curve does not repair the original method. So what is the actual defect? Second, suppose you did fit an exponential and it gave you a comfortable answer. What would that comfortable answer be evidence of?
 
 assessment-instructions:: The student has read, recalled, and reflected on Xu and Shulman. This is the main discussion phase.
 

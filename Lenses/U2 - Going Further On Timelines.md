@@ -1,7 +1,7 @@
 ---
 id: '83312d18-5db0-41f5-b23a-6a67368c0943'
 title: Going Further On Timelines
-tldr: Optional. The unit rests on one trend line, so here is the team that produced it explaining what it does and does not support, plus routes into takeoff and into the earlier model.
+tldr: Optional. The unit depends on one trend line, so here is the team that produced it, explaining what it does and does not support. It also gives routes into takeoff and into the earlier model.
 summary_for_tutor: "Optional depth lens for Unit 2. Inlines METR's own note on the limitations of their time-horizon result, which is the trend every forecast in the unit depends on. Then cards to existing lenses on three types of intelligence explosion, the METR time-horizon work itself, and broad timelines. No graded exercise; one open question the tutor should treat as a conversation rather than an assessment. Students who skip this lose no required content."
 authors:
   - Lauren+Claude
@@ -12,7 +12,9 @@ content::
 
 This is optional. Nothing later in the course assumes you read it.
 
-The unit you have just done rests, almost everywhere, on a single trend line: METR's measurement of how long a task an AI can complete. Daniel says in the reading that he is nervous about relying on it so heavily. So the most useful next thing is not another forecast, it is the people who produced that trend saying what it does and does not support.
+The unit you have just done depends almost everywhere on a single trend line. That trend is METR's measurement of how long a task an AI can complete. Daniel says in the reading that he is nervous about relying on it so heavily. So the most useful next thing is not another forecast. It is the people who produced that trend, saying what it does and does not support.
+
+*The framing and questions on this page were written by Claude, an AI, with Lauren, and reviewed by a human. The reading itself is the author's own work.*
 
 #### Article
 source:: [[../articles/metr-clarifying-limitations-of-time-horizon]]
@@ -23,7 +25,7 @@ content::
 
 You have now read a forecast built on this trend, and the trend's authors explaining its limits.
 
-Does anything in their caveats change the number you committed to earlier in this unit? If yes, say which caveat and in which direction. If no, say what a caveat would have to say in order to move you, because an answer that nothing could move is worth noticing.
+Does anything in their caveats change the number you wrote down earlier in this unit? If yes, say which caveat, and in which direction. If no, say what a caveat would have to say in order to move you. An answer that nothing could move is worth noticing.
 
 assessment-instructions:: This is an optional lens with no grade attached. Treat it as a conversation.
 
@@ -48,9 +50,7 @@ content::
 
 Take any of these, or none.
 
-{--{"author":"Lauren's AI","timestamp":1786442403638}@@::card[[../Lenses/AIF - Three Types of Intelligence Explosion]]{allow-external}
-
---}> The reading you just did models one intelligence explosion. {--{"author":"Lauren's AI","timestamp":1786442403638}@@This one--}{++{"author":"Lauren's AI","timestamp":1786442403638}@@There is a piece that++} separates software, hardware and production explosions, which behave differently and have different bottlenecks.{++{"author":"Lauren's AI","timestamp":1786442403638}@@ **Unit 3 opens on it, and opens by asking you to work the mechanism out yourself first.** So we are deliberately not linking it here. If you would rather read ahead than guess, that is your call to make, but the guess is worth more.++}
+> The reading you just did models one intelligence explosion. There is a piece that separates software, hardware and production explosions, which behave differently and have different bottlenecks. **Unit 3 opens on it, and opens by asking you to work the mechanism out yourself first.** So we are deliberately not linking it here. If you would rather read ahead than guess, that is your call to make, but the guess is worth more.
 
 ::card[[../Lenses/AIF - METR Time Horizons]]{allow-external}
 
@@ -58,4 +58,4 @@ Take any of these, or none.
 
 ::card[[../Lenses/AIF - Broad Timelines]]{allow-external}
 
-> Timelines arguments that do not route through this model at all, which is the honest way to find out how much of your view depends on one research group.
+> Timelines arguments that do not use this model at all. Reading them is the honest way to find out how much of your view depends on one research group.
