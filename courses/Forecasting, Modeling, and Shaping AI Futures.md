@@ -16,20 +16,31 @@ on purpose: existing signups and learner progress key on them. %%
 # Module: [[../modules/what-could-possibly-happen|Unit 1: What Could Possibly Happen?]]
 
 # Meeting: Unit 1
-meeting-doc-template:: https://docs.google.com/document/d/1lqbblsgNwgeBa6JEhgH5qk-hlPSUsZRcYAH-IMmSYD8/edit
+meeting-doc-template:: https://docs.google.com/document/d/1lqbblsgNwgeBa6JEhgH5qk-hlPSUsZRcYAH-IMmSYD8/edit{++{"author":"Hamza's AI","timestamp":1786438708991}@@
+survey:: [[../surveys/AIF Post-Meeting Survey]]++}
 survey:: https://docs.google.com/forms/d/e/1FAIpQLSfLwBUhs2IVKbWkJGtlUcO1XGPZ0zDhP7QsWn-vGIsEotiFIw/viewform
 # Module: [[../modules/unit-2-how-do-we-know|Unit 2: How Do We Know?]]
 
 # Meeting: Unit 2
-meeting-doc-template:: https://docs.google.com/document/d/1ueFST_L_ei4mvZYKOe1v5io1CqrHwqDwZKSLNcCM-qM/edit
+meeting-doc-template:: https://docs.google.com/document/d/1ueFST_L_ei4mvZYKOe1v5io1CqrHwqDwZKSLNcCM-qM/edit{++{"author":"Hamza's AI","timestamp":1786438712418}@@
+survey:: [[../surveys/AIF Post-Meeting Survey]]++}
 
 # Module: [[../modules/unit-3-how-could-it-go-wrong|Unit 3: How Could It Go Wrong?]]
 
 # Meeting: Unit 3
-meeting-doc-template:: https://docs.google.com/document/d/1OELeSrzaLpyNVUoLRAnRmelxAuu8JBkw5WwhOEP9yZk/edit
+meeting-doc-template:: https://docs.google.com/document/d/1OELeSrzaLpyNVUoLRAnRmelxAuu8JBkw5WwhOEP9yZk/edit{++{"author":"Hamza's AI","timestamp":1786438722860}@@
+survey:: [[../surveys/AIF Post-Meeting Survey]]++}
 
 # Meeting: Unit 4
-meeting-doc-template:: https://docs.google.com/document/d/1JbdYP4R7MPRrNIncIxu2JjhDlPkBMRF5y4auPrZHYa4/edit
+meeting-doc-template:: https://docs.google.com/document/d/1JbdYP4R7MPRrNIncIxu2JjhDlPkBMRF5y4auPrZHYa4/edit{++{"author":"Hamza's AI","timestamp":1786438726681}@@
+survey:: [[../surveys/AIF Post-Meeting Survey]]++}
 
 # Meeting: Unit 5
-meeting-doc-template:: https://docs.google.com/document/d/1YuCKnl7R8P4upzZzMTf6whEOYu23g_j936QDlpELwuk/edit
+meeting-doc-template:: https://docs.google.com/document/d/1YuCKnl7R8P4upzZzMTf6whEOYu23g_j936QDlpELwuk/edit{++{"author":"Hamza's AI","timestamp":1786438730538}@@
+survey:: [[../surveys/AIF Post-Meeting Survey]]
+
+%% Post-meeting surveys (2026-08-11): the survey:: lines above attach the
+native in-platform survey to each meeting. They are inert until the platform
+release with content_processor 0.24.0 is live — the current parser ignores
+the field and the surveys/ folder, so accepting these early is safe. Accept
+the new surveys/AIF Post-Meeting Survey.md doc together with these lines. %%++}
