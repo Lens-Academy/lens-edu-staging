@@ -85,18 +85,21 @@ maintained indefinitely.++} The course does {--{"author":"Lauren's AI","timestam
 sufficient is doing the exercise correctly.
 
 WHAT WENTWORTH ARGUES. For your reference only. Do--}{++{"author":"Lauren's AI","timestamp":1786436103805}@@ the right thing to do right now is making a serious
-argument,++} not {--{"author":"Lauren's AI","timestamp":1786436103805}@@deliver it.
-Roughly: the failure that kills us is not an early system escaping its box. It--}{++{"author":"Lauren's AI","timestamp":1786436103805}@@a mistake.
+argument,++} not {--{"author":"Lauren's AI","timestamp":1786436729711}@@deliver it.
+Roughly: the failure that kills us is not an early system escaping its box. It--}{++{"author":"Lauren's AI","timestamp":1786436729711}@@a mistake.
 
 FOR YOUR REFERENCE ONLY. Do not deliver these.
-- Wentworth argues, roughly, that what kills us++} is {--{"author":"Lauren's AI","timestamp":1786436103805}@@that we
-never--}{++{"author":"Lauren's AI","timestamp":1786436103805}@@failing to++} solve alignment for {--{"author":"Lauren's AI","timestamp":1786436103805}@@the systems--}{++{"author":"Lauren's AI","timestamp":1786436103805}@@later
-  systems,++} that{--{"author":"Lauren's AI","timestamp":1786436103805}@@ come after, and --}{++{"author":"Lauren's AI","timestamp":1786436103805}@@ ++}control research mostly does{--{"author":"Lauren's AI","timestamp":1786436103805}@@
---}{++{"author":"Lauren's AI","timestamp":1786436103805}@@ ++}not help with {--{"author":"Lauren's AI","timestamp":1786436103805}@@that. It--}{++{"author":"Lauren's AI","timestamp":1786436103805}@@that, and that it++} can{--{"author":"Lauren's AI","timestamp":1786436103805}@@ even hurt,--}{++{"author":"Lauren's AI","timestamp":1786436103805}@@ hurt++} by{--{"author":"Lauren's AI","timestamp":1786436103805}@@ --}{++{"author":"Lauren's AI","timestamp":1786436103805}@@
-  ++}making people {--{"author":"Lauren's AI","timestamp":1786436103805}@@feel safe--}{++{"author":"Lauren's AI","timestamp":1786436103805}@@comfortable++} enough to {--{"author":"Lauren's AI","timestamp":1786436103805}@@proceed.
+- Wentworth's central section is titled "The Median Doom-Path: Slop, not Scheming". His
+  argument is that the likely way we lose++} is {--{"author":"Lauren's AI","timestamp":1786436729711}@@that we
+never solve alignment for the systems--}{++{"author":"Lauren's AI","timestamp":1786436729711}@@not an early system scheming and escaping,
+  but slop: work++} that{--{"author":"Lauren's AI","timestamp":1786436103805}@@ come after, and --}{++{"author":"Lauren's AI","timestamp":1786436103805}@@ ++}{++{"author":"Lauren's AI","timestamp":1786436729711}@@looks fine and is not, accumulating until nobody can tell. Scheming
+  by early AIs is, in his words, "a relatively small slice of the AI X-risk probability
+  mass", so ++}control research {--{"author":"Lauren's AI","timestamp":1786436729711}@@mostly does
+not help with that. It can even hurt, by making people feel safe enough to proceed.
 
 YOUR TASK, in order.
-1. Say what their answer implies about what control is FOR. Buying time, preventing--}{++{"author":"Lauren's AI","timestamp":1786436103805}@@continue.
+1. Say what their answer implies about what control is FOR. Buying time, preventing--}{++{"author":"Lauren's AI","timestamp":1786436729711}@@aimed at it is low value rather than actively harmful. Do
+  NOT tell the student that Wentworth says control backfires. He does not say that.
 - Kulveit's piece is short and argues that control can increase risk rather than lower it.
 - One cost worth having in mind:++} a{--{"author":"Lauren's AI","timestamp":1786436103805}@@
    specific harm, or something else.
