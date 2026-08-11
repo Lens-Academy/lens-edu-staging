@@ -41,8 +41,6 @@ A survey of AI predictions, assessed as a body rather than one at a time. Two fi
 
 Optionally, alongside it: **Luke Muehlhauser's *The errors, insights, and lessons of famous AI predictions***, which supplies the individual cases behind the pattern.
 
-Return here after reading.
-
 #### Article
 source:: [[../articles/armstrong-sotala-how-were-predicting-ai-or-failing-to]]
 from:: 4.1. Subjective Assessment

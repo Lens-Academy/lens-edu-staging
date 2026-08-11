@@ -18,8 +18,6 @@ Two short pieces. Read them in this order, and read the second one asking how it
 
 Both authors think alignment is hard and unsolved. They are not describing the same difficulty. Your job while reading is to find the point where their accounts are incompatible, not merely different in emphasis.
 
-Return here afterwards.
-
 #### Question
 content::
 \## Phase 1: Recall

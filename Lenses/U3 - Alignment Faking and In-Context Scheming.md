@@ -18,8 +18,6 @@ Two results, in this order.
 
 Before you start: open your predictions from the previous step and have them next to you. Read with your own numbers in view.
 
-Return here afterwards.
-
 #### Question
 content::
 \## Phase 1: Recall

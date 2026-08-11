@@ -42,8 +42,6 @@ content::
 
 This is the write-up of a survey across roughly fifty technological trends with usable historical data. Pay particular attention to two things: how they had to define "discontinuity" before they could count anything, and the two headline rates, which do not point in the same direction.
 
-Return here after reading.
-
 #### Question
 content::
 \## Phase 1: Recall

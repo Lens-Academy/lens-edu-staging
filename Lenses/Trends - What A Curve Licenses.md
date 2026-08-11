@@ -18,8 +18,6 @@ Two readings, in this order.
 
 Read them in that order. The first is about being wrong; the second is about a group trying hard not to be wrong in the same way.
 
-Return here after both.
-
 ---
 
 #### Question

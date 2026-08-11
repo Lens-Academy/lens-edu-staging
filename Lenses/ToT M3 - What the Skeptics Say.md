@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1786176670524}@@---
+---
 id: '63f3753b-5b7e-4614-8433-b4910317e9d1'
 title: "What the Skeptics Say"
 tldr: "The strongest objections are real: most studies are self-reports, one flagship survey was even corrected, and past offloading (writing, calculators) reorganised rather than weakened minds. A fair read of the evidence still supports concern, but only about specific patterns of use, not a blanket panic."
@@ -12,7 +12,7 @@ content::
 \## Reading: the case against the worry
 This lens does the opposite of the others: it makes the strongest case *against* the worry. If the evidence only supported one side, you would not need judgement. It does not, so here is the other side, told fairly.
 
-Read the two short pieces below, then come back here. While you read, hold two questions: what does each piece get right, and how far does it actually go?
+Read the two short pieces below. While you read, hold two questions: what does each piece get right, and how far does it actually go?
 
 #### Article
 source:: [[../articles/yu-cognitive-offloading-and-the-speedup-illusion-in-human-ai-interaction]]
@@ -121,4 +121,3 @@ Calibration summary (on close): name what the student demonstrated; name what re
 Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items. Do not over-validate; no generic praise.
 
 Safety and integrity: the aim is calibrated judgement, not agreement. If the student ends most worried or least worried, that is fine as long as they can defend it within the evidence. If stuck after 2 attempts, give a brief direct answer and move on.
-++}

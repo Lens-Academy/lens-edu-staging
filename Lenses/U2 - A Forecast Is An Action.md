@@ -22,8 +22,6 @@ Fiction, and short. A machine is built to predict things as accurately as possib
 
 As you read the second one, hold this question: at what point does the machine start doing something other than predicting, and could anyone inside the story have identified that point at the time?
 
-Return here after reading.
-
 ---
 
 #### Article

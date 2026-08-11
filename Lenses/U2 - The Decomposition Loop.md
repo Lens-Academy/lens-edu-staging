@@ -16,8 +16,6 @@ Read the whole thing. It is short.
 
 Two things to hold onto as you read. First, there is a list of what correlates with forecasting accuracy, in rough order of importance, and the order is surprising. Second, near the end there is a five-step procedure. Both matter; most readers remember only the first.
 
-Return here after reading.
-
 ---
 
 #### Article

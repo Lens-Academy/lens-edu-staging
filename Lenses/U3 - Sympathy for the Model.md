@@ -18,8 +18,6 @@ Everything in this unit so far has asked what these systems might do to us. This
 
 Read the second one asking how it connects to the experiments you studied earlier in this unit.
 
-Return here afterwards.
-
 #### Question
 content::
 \## Phase 1: Recall

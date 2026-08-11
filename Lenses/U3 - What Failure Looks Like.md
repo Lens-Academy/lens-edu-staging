@@ -16,8 +16,6 @@ It is short and has two halves. Read both. They describe different failures, and
 
 As you read, keep your pre-test answer in mind. You built a mechanism under the same constraints Christiano is working under: nobody is scheming, everything is working as specified. Notice where his account and yours overlap and where they diverge.
 
-Return here afterwards.
-
 #### Question
 content::
 \## Phase 1: Recall

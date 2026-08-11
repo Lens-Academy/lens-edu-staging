@@ -14,8 +14,6 @@ content::
 
 The interaction section is the one to read most carefully. It is doing the work that the individual sections cannot.
 
-Return here afterwards.
-
 #### Question
 content::
 \## Phase 1: Recall
