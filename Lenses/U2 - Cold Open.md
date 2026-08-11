@@ -1,7 +1,7 @@
 ---
 id: 'a930358e-3805-4194-bd64-5933aa84695d'
 title: "Cold Open"
-tldr: Three real forecasting problems, before you have been taught anything. Answer them as well as you can. At the end of the unit you will get three more, harder, and the comparison is the point.
+tldr: Three real forecasting problems, before we teach you anything. Answer them as well as you can. At the end of the unit you get three more, and they are harder. We compare the two sets.
 summary_for_tutor: "The unit's pre-test. Administered before any reading, at full depth, mirroring the three learning outcomes: decomposition, functional form, aggregation. The tutor RECORDS and does not teach. This is the baseline against which the post-test is read, so any teaching here destroys the measurement. Feedback is deliberately minimal and non-corrective."
 authors:
   - Claude
@@ -12,17 +12,19 @@ content::
 
 Here are three problems we hope you cannot solve.
 
-Not a joke and not a test. We are asking you to fail on purpose. Learning scientists call this productive failure: an answer lands harder when you have already tried and missed, and a method taught cold reads as a procedure and is forgotten by Thursday.
+This is not a joke and not a test. We are asking you to fail on purpose. Learning scientists call this productive failure. You remember an answer better if you tried first and got it wrong. A method taught before you need it feels like a procedure to memorise, and you forget it.
 
-None of these three is about AI, and that is deliberate. We want to see your reasoning rather than your reading, and a problem you might have read about cannot show us that. The AI versions come later in the unit, once the moves are yours.
+None of these three problems is about AI, and that is deliberate. We want to see your reasoning, not your reading. A problem you have already read about cannot show us your reasoning. The AI versions come later in the unit, after you have practised the methods.
 
-So struggle on purpose. Answer at whatever depth you reach, guess badly rather than skip, and spend enough time trying. Nobody is grading these against a right answer. The first one has a right answer, out in the world, and you are not allowed to look it up. The other two are graded on reasoning, and reasoning well can land on either side.
+So struggle on purpose. Answer at whatever depth you reach. Guess badly rather than skip a question. Give each problem enough time. We do not grade these against a right answer. Problem 1 does have a correct answer in the world, but do not look it up. Problems 2 and 3 are graded on your reasoning, and good reasoning can reach either conclusion.
 
-At the end of the unit you will be given three more problems in different domains, harder than these. The comparison between what you write now and what you write then is what this unit is actually measuring.
+At the end of the unit we give you three more problems, in different subjects and harder than these. This unit measures the difference between what you write now and what you write then.
 
-Your answers stay in this module's chat, so you can scroll back to them at the end. The tutor grading you will not be able to see them, which is why it will ask you to bring them: the comparison happens because you fetch it, not because the system does.
+Your answers stay in this module's chat, so you can scroll back to them at the end. The tutor who grades the final three problems cannot see these answers. It will ask you to copy them into that conversation. You have to do that step yourself.
 
-Write the arithmetic where there is arithmetic. Descriptions of arithmetic do not count.
+Write out the arithmetic when a problem needs arithmetic. A description of the arithmetic does not count.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
 
 #### Question
 content::
