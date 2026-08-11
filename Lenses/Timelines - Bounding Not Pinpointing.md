@@ -18,8 +18,6 @@ Two readings by the same author, in this order. The second is a correction to ho
 
 This is unusual and worth noticing as you read it: an author whose model was widely cited, writing publicly to explain that it does not establish what readers took it to establish. Ask yourself while reading what the model DOES establish, since he does not think the answer is nothing.
 
-Return here after both.
-
 ---
 
 #### Question

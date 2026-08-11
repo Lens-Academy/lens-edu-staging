@@ -43,8 +43,6 @@ Two short readings.
 
 **Second, read Rob Bensinger's *Quick Nate/Eliezer comments on discontinuity*.** Having just watched an argument about whether progress is continuous, this reframes whether that was the right question at all. The suggestion is that the crux is not the shape of the curve but where the improvement is coming from.
 
-Return here after both.
-
 #### Question
 content::
 \## Phase 1: Recall

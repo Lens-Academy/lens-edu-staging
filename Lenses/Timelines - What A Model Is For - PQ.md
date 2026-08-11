@@ -49,4 +49,4 @@ content::
 
 This is the thought experiment you just did, done properly, by someone who thinks the answer is yes and wants to show you why. Read it as the strongest version we know of the direct extrapolation; the next lens is about what estimates of this kind can and cannot establish.
 
-Return here after reading, then continue to the next lens.
+Then continue to the next lens.

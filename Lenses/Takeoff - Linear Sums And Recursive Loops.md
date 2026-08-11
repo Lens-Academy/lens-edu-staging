@@ -18,8 +18,6 @@ Three readings. The first two are an argument; the third takes something apart.
 
 **Third, read Ryan Greenblatt's *Full automation of AI R&D probably yields a large speedup even without a software-only singularity*.** This separates two claims that people reliably bundle together.
 
-Return here after all three.
-
 ---
 
 #### Question
