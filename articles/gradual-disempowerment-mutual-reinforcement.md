@@ -1,4 +1,4 @@
-{++{"author":"Course Designer's AI","timestamp":1786146141250}@@---
+---
 title: "Mutual Reinforcement (Gradual Disempowerment)"
 author:
   - "Gradual-disempowerment"
@@ -51,4 +51,4 @@ Crucially, the misalignment being described here does not need to emerge from a 
 
 As we have argued, these incentives will likely grow stronger over time: as AI systems demonstrate their effectiveness, companies will face more pressure to adopt them, states will see greater strategic necessity in developing them, and individuals will find more personal benefit in embracing them.
 
-In addition to leading to misalignment in independent systems, there will be progressively stronger incentives to use influence in any one system to acquire influence in other systems.++}
+In addition to leading to misalignment in independent systems, there will be progressively stronger incentives to use influence in any one system to acquire influence in other systems.
