@@ -18,11 +18,14 @@ Start with the mechanism that makes the rest of it urgent. People say that AI pr
 could speed itself up. That claim does real work in almost every forecast you have seen
 so far, and it usually arrives already assumed.
 
-Take it apart before someone hands you the answer.
+Take it apart before someone hands you the answer.{--{"author":"Lauren's AI","timestamp":1786436844558}@@
 
 We ask in this order for a reason. If you read the mechanism first, you will find it
-plausible and move on. If you try to state it yourself first, you find out which step
-you cannot fill in. That step is the one to watch for while you read.
+plausible and move on. If you try to state it yourself first, you find out which step--}{++{"author":"Lauren's AI","timestamp":1786436844558}@@ An answer nobody expected is the best
+result here, including one that shows the loop cannot close at all.
+
+Unit 2 gave you the tools for this: decompose until the parts have evidence behind them,++}
+{--{"author":"Lauren's AI","timestamp":1786436844558}@@you cannot fill in. That step is the one to watch for while you read.--}{++{"author":"Lauren's AI","timestamp":1786436844558}@@and say what would settle it. Use them.++}
 
 #### Question
 content::
@@ -34,7 +37,10 @@ has to come back and make the next round of AI easier.
 Write two or three sentences naming that loop. What does the AI produce, and how does
 that output make the next AI faster to build?
 
-Then write one more line. What runs out first? Name the thing you think stops the loop.
+Then {--{"author":"Lauren's AI","timestamp":1786436844558}@@write one more line. What runs out first? Name--}{++{"author":"Lauren's AI","timestamp":1786436844558}@@commit to a number. The article estimates how far this loop can run before it
+stops. Write your own estimate first, in whatever unit you like, and name++} the {++{"author":"Lauren's AI","timestamp":1786436844558}@@one ++}thing{++{"author":"Lauren's AI","timestamp":1786436844558}@@
+that would move it most. A wrong number++} you {--{"author":"Lauren's AI","timestamp":1786436844558}@@think stops the loop.--}{++{"author":"Lauren's AI","timestamp":1786436844558}@@can defend is worth more here than no
+number.++}
 
 assessment-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
@@ -47,11 +53,23 @@ the feedback loop themselves, and to name what stops it.
 The purpose is that they discover which step they cannot fill in. The purpose is not for
 them to reproduce the article. Do not deliver its answer.
 
-WHAT THE ARTICLE DISTINGUISHES. For your reference only.
-It separates several distinct things people bundle under "intelligence explosion",
-including a software-only loop, one that requires more physical compute, and one that
-requires the wider economy to build things. They need different conditions, so an
-argument that defeats one does not defeat the others.
+WHAT THE ARTICLE DISTINGUISHES. For your reference {--{"author":"Lauren's AI","timestamp":1786436870446}@@only.--}{++{"author":"Lauren's AI","timestamp":1786436870446}@@only, and get this right because the++}
+{--{"author":"Lauren's AI","timestamp":1786436870446}@@It separates several distinct things people bundle under "intelligence explosion",--}{++{"author":"Lauren's AI","timestamp":1786436870446}@@distinction is the whole point of the piece.
+Three types, and the middle one is easy to state wrongly:++}
+{--{"author":"Lauren's AI","timestamp":1786436870446}@@including--}{++{"author":"Lauren's AI","timestamp":1786436870446}@@-++} a software-only loop, {--{"author":"Lauren's AI","timestamp":1786436870446}@@one --}{++{"author":"Lauren's AI","timestamp":1786436870446}@@where AI improves algorithms alone;
+- an AI-technology loop, where AI-driven improvements in software AND in chip TECHNOLOGY
+  are both needed, but improvements in chip PRODUCTION are not. The article is explicit
+  ++}that {--{"author":"Lauren's AI","timestamp":1786436870446}@@requires --}{++{"author":"Lauren's AI","timestamp":1786436870446}@@"physical automation isn't required" for this one. Do not describe it as "needs
+  ++}more physical {--{"author":"Lauren's AI","timestamp":1786436870446}@@compute, and one--}{++{"author":"Lauren's AI","timestamp":1786436870446}@@compute";
+- a full loop++} that{--{"author":"Lauren's AI","timestamp":1786436870446}@@
+--}{++{"author":"Lauren's AI","timestamp":1786436870446}@@ also ++}requires the wider economy to build things.{--{"author":"Lauren's AI","timestamp":1786436870446}@@ --}{++{"author":"Lauren's AI","timestamp":1786436870446}@@
+++}They need different conditions, so an{--{"author":"Lauren's AI","timestamp":1786436870446}@@
+--}{++{"author":"Lauren's AI","timestamp":1786436870446}@@ ++}argument that defeats one does not defeat the{--{"author":"Lauren's AI","timestamp":1786436870446}@@ others.--}{++{"author":"Lauren's AI","timestamp":1786436870446}@@
+others.
+
+The student was also asked to commit to a NUMBER for how far the loop runs before it
+stops, and to name what would move it. The article gives figures for headroom in orders
+of magnitude. Treat their number as a forecast to probe, not as an answer to mark.++}
 
 YOUR TASK, in order.
 1. Say which kind of loop the student described, in their own terms. Most people
