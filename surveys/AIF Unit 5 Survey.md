@@ -4,7 +4,7 @@ title: Final Reflection
 ---
 
 #### Text
-content:: You made it to the end. This final reflection takes about 7 minutes: it closes the measurement we started in Week 1 and is your chance to say what the course actually did for you. Submitting it also counts your attendance for this meeting.
+content:: You made it to the end. This final reflection takes about 7 minutes: it closes the measurement we started in Week 1 and is your chance to say what the course actually did for you. Submitting it also counts {--{"author":"Elias's AI","timestamp":1786479562246}@@your attendance for this meeting.--}{++{"author":"Elias's AI","timestamp":1786479562246}@@towards your certificate.++}
 
 #### Choice
 key:: buddy_texted
@@ -110,4 +110,8 @@ options::
 
 #### Question
 key:: could_improve
-content:: What's one thing the course, website, AI tutor, or meetings could do better?
+content:: What's one thing the course, website, AI tutor, or meetings could do better?{++{"author":"Elias's AI","timestamp":1786479707312}@@
+
+#### Question
+key:: open_response
+content:: Anything else you want to share?++}

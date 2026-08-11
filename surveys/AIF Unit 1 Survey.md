@@ -5,7 +5,7 @@ title: Week 1 Post-Session Reflection
 {>>{"author":"Elias's AI","timestamp":1786466116988}@@sync-probe 2026-08-11: checking whether webhooks still reach relay-git-sync; safe to remove<<}
 
 #### Text
-content:: Thanks for showing up. This is your post-session reflection. It takes about 7 minutes and helps us measure how the course is moving you, while giving you a chance to name what you're taking away. Submitting it also counts your attendance for this meeting.
+content:: Thanks for showing up. This is your post-session reflection. It takes about 7 minutes and helps us measure how the course is moving you, while giving you a chance to name what you're taking away. Submitting it also counts {++{"author":"Elias's AI","timestamp":1786479538063}@@towards ++}your {--{"author":"Elias's AI","timestamp":1786479538063}@@attendance for this meeting.--}{++{"author":"Elias's AI","timestamp":1786479538063}@@certificate at the end of the course.++}
 
 #### Question
 key:: buddy_handle
@@ -74,4 +74,8 @@ content:: What's one thing that worked well today?
 
 #### Question
 key:: could_improve
-content:: What's one thing the course, website, AI tutor, or meetings could do better?
+content:: What's one thing the course, website, AI tutor, or meetings could do better?{++{"author":"Elias's AI","timestamp":1786479700083}@@
+
+#### Question
+key:: open_response
+content:: Anything else you want to share?++}
