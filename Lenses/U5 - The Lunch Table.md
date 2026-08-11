@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786472833596}@@---
+---
 id: 'adf13f2b-6bec-40ad-8c07-4a3e87aa3dc0'
 title: "The Lunch Table"
 tldr: A real, dated development, and one job. Place it in your model before anyone tells you what it means.
@@ -51,4 +51,3 @@ Do not grade. Do not score. Do not praise. There is no correct answer at this st
 Write 60 to 110 words. Short paragraphs. No lists.
 
 max-time:: 5
-++}

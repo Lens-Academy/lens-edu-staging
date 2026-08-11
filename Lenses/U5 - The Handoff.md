@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786472832832}@@---
+---
 id: 'c3f73669-88b9-4d07-9c40-3af503a136cb'
 title: "The Handoff"
 tldr: Every plan you have met ends with AIs doing most of the remaining safety work. This reading names that step and treats it as the load-bearing move instead of the fine print.
@@ -111,4 +111,3 @@ to:: "enough to hold off on pushing the capability frontier when necessary)."
 #### Article
 from:: "# 3\. Why is AI for AI safety so important?"
 to:: "My next essay explains my view here in more detail."
-++}

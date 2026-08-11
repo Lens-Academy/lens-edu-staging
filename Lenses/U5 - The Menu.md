@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786472834364}@@---
+---
 id: 'b8b723bb-28f4-4f08-8e81-f8a77f38e817'
 title: "The Menu"
 tldr: There is a literal menu of concrete projects that would make the transition to powerful AI go better. Most are understaffed. Some do not exist yet. Check your own map against it.
@@ -58,4 +58,3 @@ max-time:: 5
 source:: [[../articles/macaskill-concrete-projects-to-prepare-for-superintelligence]]
 from:: "## Introduction"
 to:: What’s more, this organisation could become the go-to source for excellent non-corporate analysis on space-related policy; which could become increasingly important over the course of the intelligence and industrial explosions.
-++}

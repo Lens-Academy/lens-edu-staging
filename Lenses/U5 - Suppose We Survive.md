@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786472831824}@@---
+---
 id: '614b1b8a-d862-4e7a-a388-aa8452c583be'
 title: "Suppose We Survive"
 tldr: Dodging the disaster and getting a future worth having are two different jobs. Decide whether the second one happens on its own.
@@ -75,4 +75,3 @@ The rest of the series argues three claims: a flourishing future is not the defa
 One refusal matters as much as the claims. MacAskill names no destination: "we should act on the assumption that we have almost no idea what the best feasible futures would look like", and committing now to one vision would repeat the mistake of past utopian projects. What he does endorse is a near-term target he calls viatopia, "a state of the world where society can guide itself towards near-best outcomes, whatever they may be": risk low, many moral views alive, many futures still open, big decisions made carefully.
 
 Now hold your yes or no against this. The argument does not say prevention was the wrong bet. It says prevention alone leaves most of the value on the table, and that getting the rest is a job someone has to actually be doing.
-++}
