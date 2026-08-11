@@ -23,7 +23,9 @@ meeting-doc-template:: https://docs.google.com/document/d/1lqbblsgNwgeBa6JEhgH5q
 # Meeting: Unit 2
 meeting-doc-template:: https://docs.google.com/document/d/1ueFST_L_ei4mvZYKOe1v5io1CqrHwqDwZKSLNcCM-qM/edit
 
-# Meeting: Unit 3
+# {++{"author":"Lauren's AI","timestamp":1786434082058}@@Module: [[../modules/unit-3-how-could-it-go-wrong|Unit 3: How Could It Go Wrong?]]
+
+# ++}Meeting: Unit 3
 meeting-doc-template:: https://docs.google.com/document/d/1OELeSrzaLpyNVUoLRAnRmelxAuu8JBkw5WwhOEP9yZk/edit
 
 # Meeting: Unit 4
