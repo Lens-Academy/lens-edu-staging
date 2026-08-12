@@ -42,14 +42,15 @@ the ++}plans now depend on {--{"author":"Lauren's AI","timestamp":1786514577446}
 content::
 \## Your turn first
 
-Every plan ends with "and then the AIs help us do the rest." Before Carlsmith argues
-for leaning into that, find your own limit.
+Every plan ends with "and then the AIs help us do the rest." Before Carlsmith argues{++{"author":"Lauren's AI","timestamp":1786514625486}@@ in++}
+{--{"author":"Lauren's AI","timestamp":1786514625486}@@for leaning into--}{++{"author":"Lauren's AI","timestamp":1786514625486}@@favour of++} that, find your own limit.
 
 Write two or three sentences naming the first safety-relevant task you would refuse to
-hand to an AI assistant, and what the refusal is protecting.
+hand to an AI {--{"author":"Lauren's AI","timestamp":1786514625486}@@assistant, and--}{++{"author":"Lauren's AI","timestamp":1786514625486}@@assistant. Say++} what the refusal is protecting.
 
-Then write one more line, the one this lens is really after: what evidence would
-change your mind and let you hand it over?
+Then write one more {--{"author":"Lauren's AI","timestamp":1786514625486}@@line, --}{++{"author":"Lauren's AI","timestamp":1786514625486}@@line. This is ++}the one {--{"author":"Lauren's AI","timestamp":1786514625486}@@this lens is really after: what--}{++{"author":"Lauren's AI","timestamp":1786514625486}@@that matters most. What++} evidence would{--{"author":"Lauren's AI","timestamp":1786514625486}@@
+change --}{++{"author":"Lauren's AI","timestamp":1786514625486}@@ change
+++}your mind and let you hand {--{"author":"Lauren's AI","timestamp":1786514625486}@@it--}{++{"author":"Lauren's AI","timestamp":1786514625486}@@the task++} over?
 
 assessment-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.

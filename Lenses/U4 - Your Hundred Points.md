@@ -34,9 +34,9 @@ You have 100 points. Treat them as the next {--{"author":"Lauren's AI","timestam
 
 Then write two more lines.
 
-First, the line that connects this to Unit 3. That unit ended with rival claims about where the risk lives: inside the systems, or between the institutions that build them. Your ranking of risks IS your allocation of points. Say whether yours actually matches, and if your biggest line item does not follow from where you put the risk, say what else is driving it.
+First, {++{"author":"Lauren's AI","timestamp":1786514624461}@@write ++}the line that connects this to Unit 3. That unit ended with rival claims about {--{"author":"Lauren's AI","timestamp":1786514624461}@@where--}{++{"author":"Lauren's AI","timestamp":1786514624461}@@the location of++} the {--{"author":"Lauren's AI","timestamp":1786514624461}@@risk lives: --}{++{"author":"Lauren's AI","timestamp":1786514624461}@@risk: ++}inside the systems, or between the institutions that build them. Your ranking of {++{"author":"Lauren's AI","timestamp":1786514624461}@@those ++}risks {--{"author":"Lauren's AI","timestamp":1786514624461}@@IS--}{++{"author":"Lauren's AI","timestamp":1786514624461}@@should show up in++} your allocation of points. Say whether yours {--{"author":"Lauren's AI","timestamp":1786514624461}@@actually matches, and if--}{++{"author":"Lauren's AI","timestamp":1786514624461}@@does. If++} your biggest line item does not follow from where you put the risk, say what else is driving it.
 
-Second, find the lever you shortchanged most. Write the strongest objection its advocate would make to your biggest line item. One sentence, their best shot, not a strawman.
+Second, find the lever you {--{"author":"Lauren's AI","timestamp":1786514624461}@@shortchanged most.--}{++{"author":"Lauren's AI","timestamp":1786514624461}@@funded least.++} Write the strongest objection its advocate would make to your biggest line item. One {--{"author":"Lauren's AI","timestamp":1786514624461}@@sentence, their--}{++{"author":"Lauren's AI","timestamp":1786514624461}@@sentence. Their++} best {--{"author":"Lauren's AI","timestamp":1786514624461}@@shot,--}{++{"author":"Lauren's AI","timestamp":1786514624461}@@argument,++} not a strawman.
 
 Keep this allocation. Unit 5 will make you redo it with your name attached.
 
