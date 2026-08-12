@@ -1,7 +1,7 @@
 ---
 id: '1a72dacb-f6ff-4638-9ffe-f91f5ae98aee'
 title: "Your Hundred Points"
-tldr: You met the levers one at a time. Now put 100 points of influence on the table and find out which bet you have been making all along.
+tldr: You met the levers one at a time. Now {--{"author":"Lauren's AI","timestamp":1786514467781}@@put--}{++{"author":"Lauren's AI","timestamp":1786514467781}@@divide++} 100 points of influence {--{"author":"Lauren's AI","timestamp":1786514467781}@@on the table and find out--}{++{"author":"Lauren's AI","timestamp":1786514467781}@@between them. The split shows++} which bet you have been {--{"author":"Lauren's AI","timestamp":1786514467781}@@making all along.--}{++{"author":"Lauren's AI","timestamp":1786514467781}@@making.++}
 summary_for_tutor: "Closes Unit 4. The student allocates 100 points of influence across the unit's strategy levers, connects the allocation to where they placed the risk at the end of Unit 3, and writes the strongest objection to their biggest line item. Also where the unit lays out the Shlegeris-Kastner disagreement about the lab in full. One mirror, no grade."
 authors:
   - Claude
