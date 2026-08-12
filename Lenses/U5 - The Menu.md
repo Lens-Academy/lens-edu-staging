@@ -24,15 +24,15 @@ One thing this reading is not: careers advice. It says what needs {--{"author":"
 
 #### Question
 content::
-\## Order blind first
+\## {--{"author":"Lauren's AI","timestamp":1786514995523}@@Order blind first--}{++{"author":"Lauren's AI","timestamp":1786514995523}@@Choose before you see the menu++}
 
-Before you see the menu, commit to your own map of the gaps.
+Before you see the menu, commit to your own {--{"author":"Lauren's AI","timestamp":1786514995523}@@map--}{++{"author":"Lauren's AI","timestamp":1786514995523}@@list++} of the gaps.
 
-Write two or three sentences naming the one piece of work you think most needs doing before powerful AI arrives, and that you suspect nobody is actually doing. Not a field, a piece of work: something a handful of people could start this year.
+Write two or three sentences naming the one piece of work you think most needs doing before powerful AI {--{"author":"Lauren's AI","timestamp":1786514995523}@@arrives, and that --}{++{"author":"Lauren's AI","timestamp":1786514995523}@@arrives. It should be work ++}you suspect nobody is actually doing. {--{"author":"Lauren's AI","timestamp":1786514995523}@@Not--}{++{"author":"Lauren's AI","timestamp":1786514995523}@@Name++} a {--{"author":"Lauren's AI","timestamp":1786514995523}@@field, a --}piece of {--{"author":"Lauren's AI","timestamp":1786514995523}@@work: --}{++{"author":"Lauren's AI","timestamp":1786514995523}@@work, not a field: ++}something a handful of people could start this year.
 
 Then write one more line: your best guess at why nobody is doing it.
 
-Then read with a single job. Find your gap on the menu, or find its nearest neighbour, or confirm it is missing. Keep the result; the end of this unit asks where your own next hour goes.
+Then read with a single job. Find your gap on the menu, or find {--{"author":"Lauren's AI","timestamp":1786514995523}@@its nearest neighbour,--}{++{"author":"Lauren's AI","timestamp":1786514995523}@@the closest match to it,++} or confirm it is missing. Keep the {--{"author":"Lauren's AI","timestamp":1786514995523}@@result; the--}{++{"author":"Lauren's AI","timestamp":1786514995523}@@result. The++} end of this unit asks where your own next hour goes.
 
 assessment-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
