@@ -9,7 +9,7 @@ authors:
 #### Text
 content::
 \## Reading Assignment
-**Read *Chapter 14: Where There's Life, There's Hope*.** Start at the phrase
+{--{"author":"Elias's AI","timestamp":1786518997538}@@**Read--}{++{"author":"Elias's AI","timestamp":1786518997538}@@**From *If Anyone Builds It, Everyone Dies*, read++} *Chapter 14: Where There's Life, There's Hope*.** Start at the phrase
 > So—how do we un-write our fate?
 
 Read to the end of the chapter.
