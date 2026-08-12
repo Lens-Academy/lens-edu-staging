@@ -11,7 +11,7 @@ add_to_ai_context:
 #### Text
 content::
 \## Reading Assignment
-**Read Chapter 5: Its Favorite Things**, from
+{--{"author":"Elias's AI","timestamp":1786518957282}@@**Read Chapter--}{++{"author":"Elias's AI","timestamp":1786518957282}@@**From *If Anyone Builds It, Everyone Dies*, read *Chapter++} 5: Its Favorite {--{"author":"Elias's AI","timestamp":1786518957282}@@Things**,--}{++{"author":"Elias's AI","timestamp":1786518957282}@@Things*,**++} from
 > In a sense, that's all there is to it.
 
 to the end of the chapter.
