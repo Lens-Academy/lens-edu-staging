@@ -37,7 +37,7 @@ content::
 
 **Read *How we're predicting AI, or failing to*, by Stuart Armstrong.**
 
-This is a survey of AI predictions. Armstrong assesses the whole set together, not one prediction at a time. Look for two findings. First, what the paper says separates expert predictions from non-expert ones. Read that one with care: the authors later acknowledged it rested on a dataset coding error, and it did not survive. Second, what the predicted dates look like when you plot them against the date each prediction was made. That finding survived the correction.
+This is a survey of AI predictions. Armstrong assesses the whole set together, not one prediction at a time. Look for two findings. First, what the paper says separates expert predictions from non-expert ones. Read that one with care: the authors later acknowledged it rested on a dataset coding error, and it did not survive.{++{"author":"Elias's AI","timestamp":1786524716135}@@ The expert versus non-expert split in Figure 1 is that grouping, so read those markers as the paper's claim rather than as a settled result.++} Second, what the predicted dates look like when you plot them against the date each prediction was made. That finding survived the correction.
 
 You can also read **Luke Muehlhauser's *The errors, insights, and lessons of famous AI predictions***. It gives the individual cases behind the pattern.
 
