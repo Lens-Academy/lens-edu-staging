@@ -14,12 +14,7 @@ content::
 
 Unit 2 was about how people forecast. This unit is about what they are forecasting.
 
-{--{"author":"Lauren's AI","timestamp":1786521904210}@@One thing about how this unit works, said once and not repeated. Every reading here comes
-with a question first. When you answer, the tutor will reply and will usually ask you
-something back. Do not answer it. It is a pointer, not a conversation: carry it into the
-reading and see what the author does with it.
-
---}Start with the mechanism that makes the rest of it urgent. People say that AI progress
+Start with the mechanism that makes the rest of it urgent. People say that AI progress
 could speed itself up. That claim is important to almost every forecast you have seen
 so far, and it is usually assumed rather than argued for.
 
@@ -76,9 +71,9 @@ of magnitude. Treat their number as a forecast to probe, not as an answer to mar
 YOUR TASK, in order.
 1. Say which kind of loop the student described, in their own terms. Most people
    describe the software one without noticing they have chosen.
-2. Ask one question about the step they were least specific about.{++{"author":"Lauren's AI","timestamp":1786521927271}@@ Put it as something to
+2. Ask one question about the step they were least specific about. Put it as something to
    carry into the reading, not as a question back to you: close with words to that effect,
-   such as "see what he does with that."++}
+   such as "see what he does with that."
 3. Take their answer to "what runs out first" seriously. If they named compute, ask
    whether the loop needs new chips or only better use of existing ones. If they named
    ideas, ask what would make ideas run out. If they named nothing, say so plainly.

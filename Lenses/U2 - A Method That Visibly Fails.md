@@ -31,7 +31,7 @@ source:: [[../articles/xu-shulman-fractional-progress-estimates]]
 content::
 \## Phase 1: Recall
 
-Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it.{--{"author":"Lauren's AI","timestamp":1786523183942}@@ Speech to text is recommended.--}
+Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it.
 
 assessment-instructions:: The student has just read Xu and Shulman on fractional progress estimates and written a free recall.
 
@@ -66,7 +66,7 @@ This is a one-turn response. Do not ask a question. Tell them to move on.
 content::
 \## Phase 2: Processing
 
-Take 2 minutes to write down your reaction to the reading. What felt important to you? What confused you? What did you doubt or disagree with?{--{"author":"Lauren's AI","timestamp":1786523184500}@@ Speech to text is recommended.--}
+Take 2 minutes to write down your reaction to the reading. What felt important to you? What confused you? What did you doubt or disagree with?
 
 assessment-instructions:: The student has recalled the Xu and Shulman reading and is now reflecting.
 
