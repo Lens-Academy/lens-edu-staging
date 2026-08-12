@@ -9,7 +9,7 @@ authors:
 #### Text
 content::
 \## Reading Assignment
-**Read *Chapter 13: Shut It Down*.** Start at the phrase
+{--{"author":"Elias's AI","timestamp":1786518940296}@@**Read--}{++{"author":"Elias's AI","timestamp":1786518940296}@@**From *If Anyone Builds It, Everyone Dies*, read++} *Chapter 13: Shut It Down*.** Start at the phrase
 > The solutions we've just proposed are a far cry from the policies that other concerned folks propose.
 
 Read to the end of the chapter.
