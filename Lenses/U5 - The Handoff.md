@@ -23,17 +23,18 @@ you ++}answer {--{"author":"Lauren's AI","timestamp":1786514531093}@@it--}{++{"a
 question. Keep++} it {--{"author":"Lauren's AI","timestamp":1786514531093}@@into
 the reading--}{++{"author":"Lauren's AI","timestamp":1786514531093}@@in mind while you read,++} and {--{"author":"Lauren's AI","timestamp":1786514531093}@@watch--}{++{"author":"Lauren's AI","timestamp":1786514531093}@@see++} what the author does {--{"author":"Lauren's AI","timestamp":1786514531093}@@to--}{++{"author":"Lauren's AI","timestamp":1786514531093}@@with++} it.
 
-Joe Carlsmith calls the quiet step "AI for AI safety" and argues it should be treated
-as the central move, not the footnote. He frames it as a race between two feedback
-loops. The excerpt gives you the loops and his case for urgency; his contrasts with
-other views and his own list of objections stay collapsed below, yours to open. The
-operational detail of handing work over lives elsewhere, in Ryan Greenblatt's
-[[../articles/greenblatt-how-do-we-more-safely-defer-to-ais|How do we (more) safely defer to AIs?]]
+Joe Carlsmith calls the quiet step "AI for AI {--{"author":"Lauren's AI","timestamp":1786514577446}@@safety" and--}{++{"author":"Lauren's AI","timestamp":1786514577446}@@safety". He++} argues it should be treated
+as the central move, not the footnote. He {--{"author":"Lauren's AI","timestamp":1786514577446}@@frames--}{++{"author":"Lauren's AI","timestamp":1786514577446}@@describes++} it as a race between two feedback
+loops. The excerpt gives you the loops and his case for {--{"author":"Lauren's AI","timestamp":1786514577446}@@urgency; his--}{++{"author":"Lauren's AI","timestamp":1786514577446}@@urgency. His++} contrasts with
+other {--{"author":"Lauren's AI","timestamp":1786514577446}@@views--}{++{"author":"Lauren's AI","timestamp":1786514577446}@@views,++} and his own list of {--{"author":"Lauren's AI","timestamp":1786514577446}@@objections--}{++{"author":"Lauren's AI","timestamp":1786514577446}@@objections,++} stay collapsed {--{"author":"Lauren's AI","timestamp":1786514577446}@@below, yours--}{++{"author":"Lauren's AI","timestamp":1786514577446}@@below for you++} to open. {--{"author":"Lauren's AI","timestamp":1786514577446}@@The--}{++{"author":"Lauren's AI","timestamp":1786514577446}@@For++}
+{--{"author":"Lauren's AI","timestamp":1786514577446}@@operational--}{++{"author":"Lauren's AI","timestamp":1786514577446}@@the practical++} detail of {--{"author":"Lauren's AI","timestamp":1786514577446}@@handing work over lives elsewhere, in--}{++{"author":"Lauren's AI","timestamp":1786514577446}@@how to hand work over, see++} Ryan Greenblatt's
+[[../articles/greenblatt-how-do-we-more-safely-defer-to-ais|How do we (more) safely defer to {--{"author":"Lauren's AI","timestamp":1786514577446}@@AIs?]]--}{++{"author":"Lauren's AI","timestamp":1786514577446}@@AIs?]].++}
 
 One more thing. Whether a handoff like this is safe is not a side question. It is the
-question the alignment field exists to answer, the door Unit 1 pointed at and this
-course has kept walking past. We are still not walking through it. But notice that the
-plans now depend on what is behind it.
+question {++{"author":"Lauren's AI","timestamp":1786514577446}@@that ++}the alignment field exists to{--{"author":"Lauren's AI","timestamp":1786514577446}@@ answer, the door--}{++{"author":"Lauren's AI","timestamp":1786514577446}@@ answer.++} Unit 1 pointed at {++{"author":"Lauren's AI","timestamp":1786514577446}@@it, ++}and this
+course has {--{"author":"Lauren's AI","timestamp":1786514577446}@@kept walking past.--}{++{"author":"Lauren's AI","timestamp":1786514577446}@@walked past it every time.++} We{--{"author":"Lauren's AI","timestamp":1786514577446}@@ are--} still {++{"author":"Lauren's AI","timestamp":1786514577446}@@do ++}not {--{"author":"Lauren's AI","timestamp":1786514577446}@@walking through it.--}{++{"author":"Lauren's AI","timestamp":1786514577446}@@answer it here.++} But notice that{--{"author":"Lauren's AI","timestamp":1786514577446}@@ the
+--}{++{"author":"Lauren's AI","timestamp":1786514577446}@@
+the ++}plans now depend on {--{"author":"Lauren's AI","timestamp":1786514577446}@@what is behind it.--}{++{"author":"Lauren's AI","timestamp":1786514577446}@@the answer.++}
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
