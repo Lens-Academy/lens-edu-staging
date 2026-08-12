@@ -56,7 +56,15 @@ max-time:: 5
 
 {>>{"author":"Elias's AI","timestamp":1786522759872}@@Excerpt upgrade, 2026-08-12. A clean direct Forethought import landed at articles/forethought-introducing-better-futures, so the 639-word course-written summary that this lens shipped on 2026-08-11 (the approved fallback for the defective EA Forum crosspost import) is replaced by a real embedded excerpt. Anchors are the full heading line "## 1\. The basic case" through "With that, let's jump in.", which is the whole essay body minus the footnotes and citations block; measured at 1,806 words with sed + wc -w against the stored article. The excerpt carries everything the tutor brief references: the Surviving/Flourishing split, the closer-to-the-ceiling scale argument with the 80/10 and 36x illustrative numbers, neglectedness, tractability, the series map, and viatopia. Note the article is a little shorter than the ~2.5k excerpt the unit note anticipated; 1,806 is the whole body, not a cut. Consequence for review: the old article file articles/william-macaskill-should-we-aim-for-flourishing-over-mere-survival-the-better-futures-series (comment thread only, no essay body) is now referenced by nothing in the course. Whether to delete it is a human call, not made here.<<}
 
-#### Article
+#### {++{"author":"Lauren's AI","timestamp":1786529959070}@@Text
+content::
+\## Now compare your answer with his
+
+One thing to watch for as you read. The argument does not say that prevention was the
+wrong bet. It says that prevention alone leaves most of the value unclaimed. Those are
+different claims, and readers regularly collapse the second into the first.
+
+#### ++}Article
 source:: [[../articles/forethought-introducing-better-futures]]
 from:: "## 1\. The basic case"
 to:: "With that, let’s jump in."
