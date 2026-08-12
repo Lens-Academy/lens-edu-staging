@@ -13,7 +13,7 @@ content::
 \## Reading Assignment
 We will now read the second half of this chapter.
 
-{--{"author":"Elias's AI","timestamp":1786518987728}@@**Read--}{++{"author":"Elias's AI","timestamp":1786518987728}@@**From *If Anyone Builds It, Everyone Dies*, read++} *Chapter 1: Humanity's Special Power*.** Start at the phrase
+**From *If Anyone Builds It, Everyone Dies*, read *Chapter 1: Humanity's Special Power*.** Start at the phrase
 > That won't stay true forever.
 
 Read to the end of the chapter.

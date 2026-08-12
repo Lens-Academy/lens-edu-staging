@@ -10,7 +10,7 @@ authors:
 #### Text
 content::
 \## Reading Assignment
-{--{"author":"Elias's AI","timestamp":1786518979423}@@**Read--}{++{"author":"Elias's AI","timestamp":1786518979423}@@**From *If Anyone Builds It, Everyone Dies*, read++} *I Don't Want to Be Alarmist*.** Start at the phrase
+**From *If Anyone Builds It, Everyone Dies*, read *I Don't Want to Be Alarmist*.** Start at the phrase
 > An AI company executive who says there's only a one-in-five chance that the AI they're building will kill literally everyone (as they do) is not in quite as much denial as the Soviet managers who denied the Chernobyl meltdown after it happened.
 
 Read to the end of the chapter.
