@@ -12,9 +12,9 @@ content::
 
 Here are three problems we hope you cannot solve.
 
-This is not a joke and not a test. We are asking you to fail on purpose. Learning scientists call this productive failure. You remember an answer better if you tried first and got it wrong. A method taught before you need it feels like a procedure to memorise, and you forget it.
+This is not a joke and not a test. We are asking you to fail on {--{"author":"Lauren's AI","timestamp":1786522368610}@@purpose. Learning scientists call this productive failure. You--}{++{"author":"Lauren's AI","timestamp":1786522368610}@@purpose: you++} remember an answer better if you tried first and got it wrong.{--{"author":"Lauren's AI","timestamp":1786522368610}@@ A method taught before you need it feels like a procedure to memorise, and you forget it.--}
 
-None of these three problems is about AI, and that is deliberate. We want to see your reasoning, not your reading. A problem you have already read about cannot show us your reasoning. The AI versions come later in the unit, after you have practised the methods.
+None of these three problems is about AI, and that is deliberate.{--{"author":"Lauren's AI","timestamp":1786522368610}@@ We want to see your reasoning, not your reading. --}{++{"author":"Lauren's AI","timestamp":1786522368610}@@ ++}A problem you have already read about {--{"author":"Lauren's AI","timestamp":1786522368610}@@cannot show--}{++{"author":"Lauren's AI","timestamp":1786522368610}@@shows++} us your{--{"author":"Lauren's AI","timestamp":1786522368610}@@ reasoning. The AI versions come later in the unit, after you have practised the methods.--}{++{"author":"Lauren's AI","timestamp":1786522368610}@@ reading, not your reasoning.++}
 
 So struggle on purpose. Answer at whatever depth you reach. Guess badly rather than skip a question. Give each problem enough time. We do not grade these against a right answer. Problem 1 does have a correct answer in the world, but do not look it up. Problems 2 and 3 are graded on your reasoning, and good reasoning can reach either conclusion.
 
