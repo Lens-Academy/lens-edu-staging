@@ -15,15 +15,23 @@ content::
 The last lens put ten people inside one lab. This one {--{"author":"Lauren's AI","timestamp":1786513837080}@@hands--}{++{"author":"Lauren's AI","timestamp":1786513837080}@@gives++} the {--{"author":"Lauren's AI","timestamp":1786513837080}@@lever--}{++{"author":"Lauren's AI","timestamp":1786513837080}@@decision++} to the largest
 actor available: the state itself.
 
-The idea has gone mainstream. Congressional commissions, government agencies and AI
-company CEOs have called for a Manhattan Project for AGI, a national effort to make sure
-the United States gets there before China. The strongest version of the case is Leopold
-Aschenbrenner's essay Situational Awareness (https://situational-awareness.ai/): AGI is
-the decisive national-security technology of the century, so no private company can
-secure it against state espionage or be trusted with what comes after, and the endgame
-belongs to the US government the way the bomb did. That essay is hours of one-way
-advocacy, and it moved Washington; the link is there if you want the position at full
-strength.
+The idea has {--{"author":"Lauren's AI","timestamp":1786513913840}@@gone--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@become++} mainstream. Congressional commissions, government agencies and AI
+company CEOs have called for a Manhattan Project for {--{"author":"Lauren's AI","timestamp":1786513913840}@@AGI,--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@AGI. That means++} a national effort{--{"author":"Lauren's AI","timestamp":1786513913840}@@ --}{++{"author":"Lauren's AI","timestamp":1786513913840}@@
+++}to make sure{--{"author":"Lauren's AI","timestamp":1786513913840}@@
+--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@ ++}the United States {--{"author":"Lauren's AI","timestamp":1786513913840}@@gets there--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@builds AGI++} before {--{"author":"Lauren's AI","timestamp":1786513913840}@@China. --}{++{"author":"Lauren's AI","timestamp":1786513913840}@@China does.
+
+++}The strongest version of the case is Leopold{--{"author":"Lauren's AI","timestamp":1786513913840}@@
+--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@ ++}Aschenbrenner's essay Situational Awareness{--{"author":"Lauren's AI","timestamp":1786513913840}@@ (https://situational-awareness.ai/):--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@
+(https://situational-awareness.ai/). He argues that++} AGI is{--{"author":"Lauren's AI","timestamp":1786513913840}@@
+--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@ ++}the decisive{--{"author":"Lauren's AI","timestamp":1786513913840}@@ --}{++{"author":"Lauren's AI","timestamp":1786513913840}@@
+++}national-security technology of the {--{"author":"Lauren's AI","timestamp":1786513913840}@@century, so--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@century. On that view,++} no private company can
+{--{"author":"Lauren's AI","timestamp":1786513913840}@@secure--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@protect++} it {--{"author":"Lauren's AI","timestamp":1786513913840}@@against--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@from++} state {--{"author":"Lauren's AI","timestamp":1786513913840}@@espionage or--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@espionage, and no private company can++} be trusted with what comes{--{"author":"Lauren's AI","timestamp":1786513913840}@@ after, and--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@
+after. He concludes that++} the {--{"author":"Lauren's AI","timestamp":1786513913840}@@endgame
+belongs to--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@US government must run++} the {--{"author":"Lauren's AI","timestamp":1786513913840}@@US government the way--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@final stage, as it ran++} the{++{"author":"Lauren's AI","timestamp":1786513913840}@@
+atomic++} bomb {--{"author":"Lauren's AI","timestamp":1786513913840}@@did. That--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@project. The++} essay is hours of {--{"author":"Lauren's AI","timestamp":1786513913840}@@one-way
+advocacy, --}{++{"author":"Lauren's AI","timestamp":1786513913840}@@advocacy for one side, ++}and it {--{"author":"Lauren's AI","timestamp":1786513913840}@@moved Washington;--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@changed opinions
+in Washington. Use++} the link{--{"author":"Lauren's AI","timestamp":1786513913840}@@ is there --}{++{"author":"Lauren's AI","timestamp":1786513913840}@@ ++}if you want the position at full{--{"author":"Lauren's AI","timestamp":1786513913840}@@
+--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@ ++}strength.
 
 Today's reading is shorter and cuts the other way. Its authors put two questions to
 professional forecasters, how likely a government-led AGI project is and what form it
