@@ -601,7 +601,9 @@ ative diﬀerence meaning they didn’t). A zero diﬀerence would be a perfect 
 the Maes-Garreau law: the predictor expects AI to be developed at the exact end of their
 life. This number was then plotted again the predictor’s age in Figure 2 (the plot was
 restricted to those predictions within thirty years of the predictor’s expected lifetime).
-Figure 2: Diﬀerence between the predicted time to AI and the predictor’s life expectancy,
+{++{"author":"Elias's AI","timestamp":1786524541523}@@![Figure 2](https://raw.githubusercontent.com/Lens-Academy/lens-edu-production/production/attachments/armstrong-sotala-how-were-predicting-ai-or-failing-to-fig2-bf7d32aa.png)
+
+++}Figure 2: Diﬀerence between the predicted time to AI and the predictor’s life expectancy,
 graphed against the predictor’s age.
 From this,it can be seen that the Maes-Garreau law is not borne out by the evidence:
 only twelve predictions (22% of the total) were within five years in either direction of
