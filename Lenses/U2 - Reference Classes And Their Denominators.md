@@ -27,7 +27,7 @@ source:: [[../articles/taboo-outside-view]]
 content::
 \## Phase 1: Recall
 
-Spend 2 minutes writing down everything you can remember from the reading, without looking back. No need to organize it. Speech to text is recommended.
+Spend 2 minutes writing down everything you can remember from the reading, without looking back. No need to organize it.{--{"author":"Lauren's AI","timestamp":1786524269721}@@ Speech to text is recommended.--}
 
 assessment-instructions:: The student has just read Kokotajlo's Taboo "Outside View" and written a free recall.
 
