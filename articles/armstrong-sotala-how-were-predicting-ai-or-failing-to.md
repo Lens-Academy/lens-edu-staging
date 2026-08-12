@@ -636,9 +636,15 @@ This paper, the first in a series analyzing AI predictions, focused on the relia
 timeline predictions (predicting the dates upon which “human-level” AI would be de-
 17
 How We’re Predicting AI—or Failing To
-Figure 4: Time between the arrival of AI and the date the prediction was made, for
-non-expert predictors.
-Figure 5: Time between the arrival of AI and the date the prediction was made, for
+{++{"author":"Elias's AI","timestamp":1786524587119}@@![Figure 4](https://raw.githubusercontent.com/Lens-Academy/lens-edu-production/production/attachments/armstrong-sotala-how-were-predicting-ai-or-failing-to-fig4-ba6915ac.png)
+
+++}Figure 4: Time between the arrival of AI and the date the prediction was made, for
+non-expert predictors.{--{"author":"Elias's AI","timestamp":1786524587119}@@
+--}{++{"author":"Elias's AI","timestamp":1786524587119}@@
+
+![Figure 5](https://raw.githubusercontent.com/Lens-Academy/lens-edu-production/production/attachments/armstrong-sotala-how-were-predicting-ai-or-failing-to-fig5-83698b14.png)
+
+++}Figure 5: Time between the arrival of AI and the date the prediction was made, for
 failed predictions.
 18
 Stuart Armstrong, Kaj Sotala
