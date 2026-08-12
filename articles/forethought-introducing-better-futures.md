@@ -47,9 +47,9 @@ To illustrate, suppose you think that our chances of survival this century are r
 
 Comparing the scale of surviving and flourishing
 
-## Image
+{--{"author":"Elias's AI","timestamp":1786523023407}@@## Image
 
-On these numbers, if we completely solved the problem of not- _Surviving_, we would be 20 percentage points more likely to get a future that's 10% as good as it could be. Multiplying these together, the difference we’d make amounts to 2% of the value of the best feasible future.
+--}On these {--{"author":"Elias's AI","timestamp":1786523023407}@@numbers,--}{++{"author":"Elias's AI","timestamp":1786523023407}@@numbers,{>>{"author":"Elias's AI","timestamp":1786523023407}@@Removed a stray "## Image" heading left by the importer after the figure caption. It renders as an empty section, and it falls inside the excerpt the U5 Suppose We Survive lens assigns.<<}++} if we completely solved the problem of not- _Surviving_, we would be 20 percentage points more likely to get a future that's 10% as good as it could be. Multiplying these together, the difference we’d make amounts to 2% of the value of the best feasible future.
 
 In contrast, if we completely solved the problem of non- _Flourishing_, then we’d have an 80% chance of getting to a 100%-valuable future. The difference we’d make amounts to 72% of the value of the best feasible future — 36 times greater than if we’d solved the problem of not- _Surviving_. Indeed, increasing the value of the future given survival from 10% to just 12.5% would be as good as wholly eliminating the chance that we don't survive.[3](#user-content-fn-3)
 
@@ -75,9 +75,9 @@ This neglect arises in part because the risks of failure in _Flourishing_ are of
 
 Comparing the value of possible futures. The “present-day” future means a future which extends the most relevant features of the world today, for as long as the common-sense utopia lasts, and considering human lives only.
 
-## Image
+{--{"author":"Elias's AI","timestamp":1786523028650}@@## Image
 
-### Tractability
+--}### Tractability
 
 The tractability of work to improve _Flourishing_ is less clear; essays [4](https://www.forethought.org/research/persistent-path-dependence) and [5](https://www.forethought.org/research/how-to-make-the-future-better) will discuss this more. I see this as the strongest argument against the better futures perspective, and the reason why I don’t feel confident that work on _Flourishing_ is higher-priority than work on _Surviving_, rather than merely in the same ballpark.
 
