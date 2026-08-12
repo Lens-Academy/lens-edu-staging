@@ -10,7 +10,7 @@ authors:
 content::
 \## Reading Assignment
 
-**Read *Chapter 10: A Cursed Problem*.** Start at the phrase
+{--{"author":"Elias's AI","timestamp":1786518993793}@@**Read--}{++{"author":"Elias's AI","timestamp":1786518993793}@@**From *If Anyone Builds It, Everyone Dies*, read++} *Chapter 10: A Cursed Problem*.** Start at the phrase
 > Space probes. Nuclear reactors. Computer security. What do all these lessons add up to, and what can we learn from them about the difficulty of aligning an artificial superintelligence?
 
 Read to the end of the chapter.
