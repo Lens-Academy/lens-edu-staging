@@ -615,7 +615,9 @@ This demonstrates a definite increase in the 16–25 year predictions: 21 of the
 Stuart Armstrong, Kaj Sotala
 predictions were in that range (34%). This can be considered weak evidence that experts
 do indeed prefer to predict AI happening in that range from their own time.
-Figure 3: Time between the arrival of AI and the date the prediction was made, for
+{++{"author":"Elias's AI","timestamp":1786524548026}@@![Figure 3](https://raw.githubusercontent.com/Lens-Academy/lens-edu-production/production/attachments/armstrong-sotala-how-were-predicting-ai-or-failing-to-fig3-4c6aa2ea.png)
+
+++}Figure 3: Time between the arrival of AI and the date the prediction was made, for
 expert predictors.
 But the picture gets more damning when we do the same plot for the non-experts,
 as in Figure 4. Here, 13 of the 33 predictions are in the 16-25 year range. But more dis-
