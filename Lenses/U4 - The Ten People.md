@@ -36,14 +36,16 @@ content::
 \## Your turn first
 
 You are one of ten people inside a leading AI lab who take misalignment risk seriously.
-The rest of the company does not, and it will not slow down. You have almost no budget
-and no authority, only whatever influence ten insiders can scrape together.
+The rest of the company does {--{"author":"Lauren's AI","timestamp":1786513997179}@@not, and it--}{++{"author":"Lauren's AI","timestamp":1786513997179}@@not. The company++} will not slow down. You have almost no{--{"author":"Lauren's AI","timestamp":1786513997179}@@ --}{++{"author":"Lauren's AI","timestamp":1786513997179}@@
+++}budget{--{"author":"Lauren's AI","timestamp":1786513997179}@@
+--}{++{"author":"Lauren's AI","timestamp":1786513997179}@@ ++}and no {--{"author":"Lauren's AI","timestamp":1786513997179}@@authority, --}{++{"author":"Lauren's AI","timestamp":1786513997179}@@authority. You have ++}only {--{"author":"Lauren's AI","timestamp":1786513997179}@@whatever--}{++{"author":"Lauren's AI","timestamp":1786513997179}@@the++} influence {++{"author":"Lauren's AI","timestamp":1786513997179}@@that ++}ten insiders can {--{"author":"Lauren's AI","timestamp":1786513997179}@@scrape together.--}{++{"author":"Lauren's AI","timestamp":1786513997179}@@gather.++}
 
 Write two or three sentences naming the two things you would spend that influence on,
 and why those two.
 
-Then write one more line, and it costs more than the first two. If leadership turned
-against your team, which of the two survives?
+Then write one more {--{"author":"Lauren's AI","timestamp":1786513997179}@@line, and it costs more than the first two.--}{++{"author":"Lauren's AI","timestamp":1786513997179}@@line. This one is harder.++} If leadership turned{--{"author":"Lauren's AI","timestamp":1786513997179}@@
+--}{++{"author":"Lauren's AI","timestamp":1786513997179}@@ ++}against your team,{--{"author":"Lauren's AI","timestamp":1786513997179}@@ --}{++{"author":"Lauren's AI","timestamp":1786513997179}@@
+++}which of the two survives?
 
 assessment-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
