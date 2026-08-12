@@ -601,7 +601,7 @@ ative diﬀerence meaning they didn’t). A zero diﬀerence would be a perfect 
 the Maes-Garreau law: the predictor expects AI to be developed at the exact end of their
 life. This number was then plotted again the predictor’s age in Figure 2 (the plot was
 restricted to those predictions within thirty years of the predictor’s expected lifetime).
-{++{"author":"Elias's AI","timestamp":1786524541523}@@![Figure 2](https://raw.githubusercontent.com/Lens-Academy/lens-edu-production/production/attachments/armstrong-sotala-how-were-predicting-ai-or-failing-to-fig2-bf7d32aa.png)
+{++{"author":"Elias's AI","timestamp":1786527181072}@@![Figure 2](https://raw.githubusercontent.com/Lens-Academy/lens-edu-production/11450062e38f25fd37ec231d873bb6a80bca10b8/attachments/armstrong-sotala-how-were-predicting-ai-or-failing-to-fig2-bf7d32aa.png)
 
 ++}Figure 2: Diﬀerence between the predicted time to AI and the predictor’s life expectancy,
 graphed against the predictor’s age.
@@ -615,7 +615,7 @@ This demonstrates a definite increase in the 16–25 year predictions: 21 of the
 Stuart Armstrong, Kaj Sotala
 predictions were in that range (34%). This can be considered weak evidence that experts
 do indeed prefer to predict AI happening in that range from their own time.
-{++{"author":"Elias's AI","timestamp":1786524548026}@@![Figure 3](https://raw.githubusercontent.com/Lens-Academy/lens-edu-production/production/attachments/armstrong-sotala-how-were-predicting-ai-or-failing-to-fig3-4c6aa2ea.png)
+{++{"author":"Elias's AI","timestamp":1786527183205}@@![Figure 3](https://raw.githubusercontent.com/Lens-Academy/lens-edu-production/11450062e38f25fd37ec231d873bb6a80bca10b8/attachments/armstrong-sotala-how-were-predicting-ai-or-failing-to-fig3-4c6aa2ea.png)
 
 ++}Figure 3: Time between the arrival of AI and the date the prediction was made, for
 expert predictors.
