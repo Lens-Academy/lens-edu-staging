@@ -18,9 +18,9 @@ Unit 3 ended on a disagreement, and we did not settle it. One reading, by Nate S
 
 You already read the argument about controlling misaligned AIs at the end of Unit 3. This unit is about everything else.
 
-Here is how the unit works. This is the only time we explain it. Each reading opens with a question for you. When you answer, the tutor replies. The tutor usually adds a question of its own. Do not answer that question. It points to the reading. It is not an invitation to chat. Keep it in mind while you read, and see what the author does with it.
+{--{"author":"Lauren's AI","timestamp":1786523661745}@@Here is how the unit works. This is the only time we explain it. Each reading opens with a question for you. When you answer, the tutor replies. The tutor usually adds a question of its own. Do not answer that question. It points to the reading. It is not an invitation to chat. Keep it in mind while you read, and see what the author does with it.
 
-The first reading is by Ryan Greenblatt of Redwood Research. He does not describe one plan. He describes four, and then a fifth world with no plan at all. Which plan is available is not a research question. It depends on how much of the world helps.
+--}The first reading is by Ryan Greenblatt of Redwood Research. He does not describe one plan. He describes four, and then a fifth world with no plan at all. Which plan is available is not a research question. It depends on how much of the world helps.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
