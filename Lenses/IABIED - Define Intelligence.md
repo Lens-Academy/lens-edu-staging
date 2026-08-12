@@ -11,7 +11,7 @@ add_to_ai_context:
 #### Text
 content::
 \## Reading Assignment
-**Read *Chapter 1: Humanity's Special Power*.** Start at the beginning and stop when you reach
+{--{"author":"Elias's AI","timestamp":1786518951790}@@**Read--}{++{"author":"Elias's AI","timestamp":1786518951790}@@**From *If Anyone Builds It, Everyone Dies*, read++} *Chapter 1: Humanity's Special Power*.** Start at the beginning and stop when you reach
 > it is still in some important sense 'shallow' compared to a human twelve-year-old.
 
 Return here after reading.
