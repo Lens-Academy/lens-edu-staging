@@ -1,7 +1,7 @@
 ---
 id: '46f005d9-6e4e-49e9-a584-c2ab5492aecf'
 title: "The Ten People"
-tldr: When no plan arrives from outside, leverage shrinks to headcount. What ten people inside a racing lab can still buy, and what it costs them to keep buying it.
+tldr: When no plan arrives from outside, {--{"author":"Lauren's AI","timestamp":1786513814306}@@leverage shrinks to headcount.--}{++{"author":"Lauren's AI","timestamp":1786513814306}@@the only resource left is the people already inside.++} What ten people {--{"author":"Lauren's AI","timestamp":1786513814306}@@inside--}{++{"author":"Lauren's AI","timestamp":1786513814306}@@in++} a racing lab can still {--{"author":"Lauren's AI","timestamp":1786513814306}@@buy,--}{++{"author":"Lauren's AI","timestamp":1786513814306}@@achieve,++} and what it costs {--{"author":"Lauren's AI","timestamp":1786513814306}@@them to keep buying it.--}{++{"author":"Lauren's AI","timestamp":1786513814306}@@them.++}
 summary_for_tutor: "Middle lens of Unit 4. Pre-question puts the student inside a racing lab as one of ten safety-minded insiders and asks what they would spend their limited influence on; then they read Shlegeris. One mirror, no grade."
 authors:
   - Claude

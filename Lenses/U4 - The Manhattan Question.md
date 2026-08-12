@@ -1,7 +1,7 @@
 ---
 id: 'f51a8a69-8f6f-4deb-839f-18b551177162'
 title: "The Manhattan Question"
-tldr: Washington is full of calls for a government AGI project. Whether one would make catastrophe more or less likely is a real question, and you take a side before the forecasters do.
+tldr: {--{"author":"Lauren's AI","timestamp":1786513814887}@@Washington is full of calls--}{++{"author":"Lauren's AI","timestamp":1786513814887}@@Many people in Washington now call++} for a government AGI project. {--{"author":"Lauren's AI","timestamp":1786513814887}@@Whether one would--}{++{"author":"Lauren's AI","timestamp":1786513814887}@@Would such a project++} make catastrophe more{--{"author":"Lauren's AI","timestamp":1786513814887}@@ or less likely is a real question, and you--}{++{"author":"Lauren's AI","timestamp":1786513814887}@@ likely, or less? You++} take a side before the forecasters do.
 summary_for_tutor: "Fourth lens of Unit 4. The student commits to a side on whether a US national AGI project makes catastrophe more or less likely and names their load-bearing mechanism, then reads the IAPS forecasting piece arguing such a project is neither inevitable nor a good idea. One mirror, no grade."
 authors:
   - Claude
