@@ -32,10 +32,13 @@ menu this week. None
 of those answers were--}{++{"author":"Lauren's AI","timestamp":1786515489844}@@ menu. Nobody++} handed {--{"author":"Lauren's AI","timestamp":1786515489844}@@to you; the--}{++{"author":"Lauren's AI","timestamp":1786515489844}@@you those
 answers. The++} readings argued, and you committed.
 
-One last license, and it is not a formality. If the model you write today disagrees with
-every reading in this course, and you can argue it, that is the best possible outcome.
-The course was never trying to leave you holding its model. It was trying to leave you
-holding yours.
+One last {--{"author":"Lauren's AI","timestamp":1786515570355}@@license,--}{++{"author":"Lauren's AI","timestamp":1786515570355}@@permission,++} and it is not a formality. If the model you write today disagrees{--{"author":"Lauren's AI","timestamp":1786515570355}@@ --}{++{"author":"Lauren's AI","timestamp":1786515570355}@@
+++}with{--{"author":"Lauren's AI","timestamp":1786515570355}@@
+--}{++{"author":"Lauren's AI","timestamp":1786515570355}@@ ++}every reading in this course, and you can argue {++{"author":"Lauren's AI","timestamp":1786515570355}@@for ++}it, that is the best possible{--{"author":"Lauren's AI","timestamp":1786515570355}@@ --}{++{"author":"Lauren's AI","timestamp":1786515570355}@@
+++}outcome.{--{"author":"Lauren's AI","timestamp":1786515570355}@@
+--}{++{"author":"Lauren's AI","timestamp":1786515570355}@@ ++}The course was never trying to leave you {--{"author":"Lauren's AI","timestamp":1786515570355}@@holding--}{++{"author":"Lauren's AI","timestamp":1786515570355}@@with++} its model. It was trying to leave{--{"author":"Lauren's AI","timestamp":1786515570355}@@ you
+holding yours.--}{++{"author":"Lauren's AI","timestamp":1786515570355}@@
+you with your own.++}
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
 
