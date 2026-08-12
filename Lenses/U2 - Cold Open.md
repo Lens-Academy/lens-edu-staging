@@ -18,9 +18,9 @@ None of these three problems is about AI, and that is deliberate.{--{"author":"L
 
 So struggle on purpose. Answer at whatever depth you reach. Guess badly rather than skip a question. Give each problem enough time. We do not grade these against a right answer. Problem 1 does have a correct answer in the world, but do not look it up. Problems 2 and 3 are graded on your reasoning, and good reasoning can reach either conclusion.
 
-At the end of the unit we give you three more problems, in different subjects and harder than these. This unit measures the difference between what you write now and what you write then.
+{--{"author":"Lauren's AI","timestamp":1786522410589}@@At the end of the--}{++{"author":"Lauren's AI","timestamp":1786522410589}@@Later in this++} unit {--{"author":"Lauren's AI","timestamp":1786522410589}@@we give you--}{++{"author":"Lauren's AI","timestamp":1786522410589}@@you get++} three more problems, in different subjects and harder than these. This unit measures the difference between what you write now and what you write then.
 
-Your answers stay in this module's chat, so you can scroll back to them at the end. The tutor who grades the final three problems cannot see these answers. It will ask you to copy them into that conversation. You have to do that step yourself.
+Your answers stay in this module's{--{"author":"Lauren's AI","timestamp":1786522410589}@@ chat, so you can scroll back to them at the end.--}{++{"author":"Lauren's AI","timestamp":1786522410589}@@ chat.++} The tutor {--{"author":"Lauren's AI","timestamp":1786522410589}@@who grades the final three --}{++{"author":"Lauren's AI","timestamp":1786522410589}@@grading those later ++}problems cannot see {--{"author":"Lauren's AI","timestamp":1786522410589}@@these answers. It--}{++{"author":"Lauren's AI","timestamp":1786522410589}@@them, so it++} will ask you to {--{"author":"Lauren's AI","timestamp":1786522410589}@@copy them into that conversation. You have to do that step yourself.--}{++{"author":"Lauren's AI","timestamp":1786522410589}@@scroll back and paste what you wrote.++}
 
 Write out the arithmetic when a problem needs arithmetic. A description of the arithmetic does not count.
 
