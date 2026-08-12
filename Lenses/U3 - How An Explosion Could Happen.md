@@ -14,12 +14,12 @@ content::
 
 Unit 2 was about how people forecast. This unit is about what they are forecasting.
 
-One thing about how this unit works, said once and not repeated. Every reading here comes
+{--{"author":"Lauren's AI","timestamp":1786521904210}@@One thing about how this unit works, said once and not repeated. Every reading here comes
 with a question first. When you answer, the tutor will reply and will usually ask you
 something back. Do not answer it. It is a pointer, not a conversation: carry it into the
 reading and see what the author does with it.
 
-Start with the mechanism that makes the rest of it urgent. People say that AI progress
+--}Start with the mechanism that makes the rest of it urgent. People say that AI progress
 could speed itself up. That claim is important to almost every forecast you have seen
 so far, and it is usually assumed rather than argued for.
 
