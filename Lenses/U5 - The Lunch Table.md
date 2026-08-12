@@ -18,7 +18,7 @@ Here is the development. On August 2, 2026, the California AI Transparency Act b
 
 At lunch, the question will not arrive with a label. Nobody will tell you whether this is important, unimportant, or important for reasons the headline missed. The skill you have been building for five units is the one that sorts this out. A new fact arrives, and your model tells you where it belongs. Or your model tells you nothing, and that is worth knowing too.
 
-You will do this again in the unit meeting, with whatever that week's headline turns out to be. This is the practice run.
+You will do this again in the unit meeting, with whatever that week's headline turns out to be.{--{"author":"Lauren's AI","timestamp":1786524067034}@@ This is the practice run.--}
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
 

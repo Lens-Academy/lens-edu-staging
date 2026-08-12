@@ -16,7 +16,7 @@ The last two readings moved the question twice. First toward what we hand off to
 
 It is also the last assigned reading of the course. After this page, the reading stops and the remaining work is yours.
 
-So read it like a menu, not a textbook. The Summary section is the menu itself: eight projects in eight bold lines. The detailed sections are there for the entries that interest you. Skipping the ones that do not interest you is the intended way to read this piece, not a shortcut.
+So read it like a menu, not a textbook. The Summary section is the menu itself: eight projects in eight bold lines. {--{"author":"Lauren's AI","timestamp":1786524066421}@@The detailed--}{++{"author":"Lauren's AI","timestamp":1786524066421}@@Detailed++} sections {--{"author":"Lauren's AI","timestamp":1786524066421}@@are there--}{++{"author":"Lauren's AI","timestamp":1786524066421}@@follow++} for {--{"author":"Lauren's AI","timestamp":1786524066421}@@the entries that interest you.--}{++{"author":"Lauren's AI","timestamp":1786524066421}@@most of them.++} Skipping the ones that do not interest you is the intended way to read this piece, not a shortcut.
 
 One thing this reading is not: careers advice. It says what needs doing. It does not say what you in particular should do next, and this course will not pretend those are the same question. If you want the second question, the usual recommendation is Holden Karnofsky's piece on career choice: [[../articles/karnofsky-career-choice-longtermists]].
 
