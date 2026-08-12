@@ -567,12 +567,11 @@ Stuart Armstrong, Kaj Sotala
 noted as “expert”or “non-expert”; the expectation being that experts would demonstrate
 improved performance over non-experts.
 Figure 1 graphs the results of this exercise (the range has been reduced; there were
-seven predictions setting dates beyond the year 2100, three of them expert.){--{"author":"Elias's AI","timestamp":1786527173915}@@
---}{++{"author":"Elias's AI","timestamp":1786527173915}@@
+seven predictions setting dates beyond the year 2100, three of them expert.)
 
 ![Figure 1](https://raw.githubusercontent.com/Lens-Academy/lens-edu-production/11450062e38f25fd37ec231d873bb6a80bca10b8/attachments/armstrong-sotala-how-were-predicting-ai-or-failing-to-fig1-89400b62.png)
 
-++}Figure 1: Median estimate for human-level AI, graphed against date of prediction.
+Figure 1: Median estimate for human-level AI, graphed against date of prediction.
 As can be seen, expert predictions span the whole range of possibilities and seem
 to have little correlation with each other. The range is so wide—fifty year gaps between
 predictions are common—that it provides strong evidence that experts are not providing
@@ -601,9 +600,9 @@ ative diﬀerence meaning they didn’t). A zero diﬀerence would be a perfect 
 the Maes-Garreau law: the predictor expects AI to be developed at the exact end of their
 life. This number was then plotted again the predictor’s age in Figure 2 (the plot was
 restricted to those predictions within thirty years of the predictor’s expected lifetime).
-{++{"author":"Elias's AI","timestamp":1786527181072}@@![Figure 2](https://raw.githubusercontent.com/Lens-Academy/lens-edu-production/11450062e38f25fd37ec231d873bb6a80bca10b8/attachments/armstrong-sotala-how-were-predicting-ai-or-failing-to-fig2-bf7d32aa.png)
+![Figure 2](https://raw.githubusercontent.com/Lens-Academy/lens-edu-production/11450062e38f25fd37ec231d873bb6a80bca10b8/attachments/armstrong-sotala-how-were-predicting-ai-or-failing-to-fig2-bf7d32aa.png)
 
-++}Figure 2: Diﬀerence between the predicted time to AI and the predictor’s life expectancy,
+Figure 2: Diﬀerence between the predicted time to AI and the predictor’s life expectancy,
 graphed against the predictor’s age.
 From this,it can be seen that the Maes-Garreau law is not borne out by the evidence:
 only twelve predictions (22% of the total) were within five years in either direction of
@@ -615,9 +614,9 @@ This demonstrates a definite increase in the 16–25 year predictions: 21 of the
 Stuart Armstrong, Kaj Sotala
 predictions were in that range (34%). This can be considered weak evidence that experts
 do indeed prefer to predict AI happening in that range from their own time.
-{++{"author":"Elias's AI","timestamp":1786527183205}@@![Figure 3](https://raw.githubusercontent.com/Lens-Academy/lens-edu-production/11450062e38f25fd37ec231d873bb6a80bca10b8/attachments/armstrong-sotala-how-were-predicting-ai-or-failing-to-fig3-4c6aa2ea.png)
+![Figure 3](https://raw.githubusercontent.com/Lens-Academy/lens-edu-production/11450062e38f25fd37ec231d873bb6a80bca10b8/attachments/armstrong-sotala-how-were-predicting-ai-or-failing-to-fig3-4c6aa2ea.png)
 
-++}Figure 3: Time between the arrival of AI and the date the prediction was made, for
+Figure 3: Time between the arrival of AI and the date the prediction was made, for
 expert predictors.
 But the picture gets more damning when we do the same plot for the non-experts,
 as in Figure 4. Here, 13 of the 33 predictions are in the 16-25 year range. But more dis-
@@ -636,15 +635,14 @@ This paper, the first in a series analyzing AI predictions, focused on the relia
 timeline predictions (predicting the dates upon which “human-level” AI would be de-
 17
 How We’re Predicting AI—or Failing To
-{++{"author":"Elias's AI","timestamp":1786527185406}@@![Figure 4](https://raw.githubusercontent.com/Lens-Academy/lens-edu-production/11450062e38f25fd37ec231d873bb6a80bca10b8/attachments/armstrong-sotala-how-were-predicting-ai-or-failing-to-fig4-ba6915ac.png)
+![Figure 4](https://raw.githubusercontent.com/Lens-Academy/lens-edu-production/11450062e38f25fd37ec231d873bb6a80bca10b8/attachments/armstrong-sotala-how-were-predicting-ai-or-failing-to-fig4-ba6915ac.png)
 
-++}Figure 4: Time between the arrival of AI and the date the prediction was made, for
-non-expert predictors.{--{"author":"Elias's AI","timestamp":1786527189021}@@
---}{++{"author":"Elias's AI","timestamp":1786527189021}@@
+Figure 4: Time between the arrival of AI and the date the prediction was made, for
+non-expert predictors.
 
 ![Figure 5](https://raw.githubusercontent.com/Lens-Academy/lens-edu-production/11450062e38f25fd37ec231d873bb6a80bca10b8/attachments/armstrong-sotala-how-were-predicting-ai-or-failing-to-fig5-83698b14.png)
 
-++}Figure 5: Time between the arrival of AI and the date the prediction was made, for
+Figure 5: Time between the arrival of AI and the date the prediction was made, for
 failed predictions.
 18
 Stuart Armstrong, Kaj Sotala
