@@ -41,7 +41,8 @@ survey:: [[../surveys/AIF Unit 4 Survey]] {>>{"author":"Elias's AI","timestamp":
 
 # Meeting: Unit 5
 {>>{"author":"Elias's AI","timestamp":1786473436784}@@When accepting the pending survey line below: change its target from AIF Post-Meeting Survey to [[../surveys/AIF Unit 5 Survey]] (final reflection: re-asked Week 1 scales + recommend-Lens question). The pending line cannot be edited until accepted.<<}
-meeting-doc-template:: https://docs.google.com/document/d/1YuCKnl7R8P4upzZzMTf6whEOYu23g_j936QDlpELwuk/edit{++{"author":"Hamza's AI","timestamp":1786438730538}@@
+meeting-doc-template:: https://docs.google.com/document/d/1YuCKnl7R8P4upzZzMTf6whEOYu23g_j936QDlpELwuk/edit{++{"author":"Elias's AI","timestamp":1786522363485}@@
+survey:: [[../surveys/AIF Unit 5 Survey]]++}{++{"author":"Hamza's AI","timestamp":1786438730538}@@
 survey:: [[../surveys/AIF Post-Meeting Survey]]
 
 %% Post-meeting surveys (2026-08-11): the survey:: lines above attach the
