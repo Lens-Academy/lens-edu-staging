@@ -54,7 +54,9 @@ Do not grade. Do not score. Do not praise. A confident yes, defended, is as good
 
 Write 60 to 110 words. Short paragraphs. No lists.
 
-max-time:: 5
+max-time:: 5{++{"author":"Elias's AI","timestamp":1786522759872}@@
+
+{>>{"author":"Elias's AI","timestamp":1786522759872}@@Excerpt upgrade, 2026-08-12. A clean direct Forethought import landed at articles/forethought-introducing-better-futures, so the 639-word course-written summary that this lens shipped on 2026-08-11 (the approved fallback for the defective EA Forum crosspost import) is replaced by a real embedded excerpt. Anchors are the full heading line "## 1\. The basic case" through "With that, let's jump in.", which is the whole essay body minus the footnotes and citations block; measured at 1,806 words with sed + wc -w against the stored article. The excerpt carries everything the tutor brief references: the Surviving/Flourishing split, the closer-to-the-ceiling scale argument with the 80/10 and 36x illustrative numbers, neglectedness, tractability, the series map, and viatopia. Note the article is a little shorter than the ~2.5k excerpt the unit note anticipated; 1,806 is the whole body, not a cut. Consequence for review: the old article file articles/william-macaskill-should-we-aim-for-flourishing-over-mere-survival-the-better-futures-series (comment thread only, no essay body) is now referenced by nothing in the course. Whether to delete it is a human call, not made here.<<}++}
 
 #### Text
 content::
