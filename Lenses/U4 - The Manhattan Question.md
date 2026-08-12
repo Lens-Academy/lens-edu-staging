@@ -51,15 +51,17 @@ takes that idea seriously.
 content::
 \## Pick a side
 
-Commit before you read. A US national AGI project, a real one: the government decides
-when development starts and stops, and the government owns what comes out. Would that
-make catastrophe more likely, or less?
+Commit before you read. {--{"author":"Lauren's AI","timestamp":1786514001249}@@A--}{++{"author":"Lauren's AI","timestamp":1786514001249}@@Imagine a real++} US national AGI {--{"author":"Lauren's AI","timestamp":1786514001249}@@project, a real one: the--}{++{"author":"Lauren's AI","timestamp":1786514001249}@@project. The++} government decides
+when development starts and {--{"author":"Lauren's AI","timestamp":1786514001249}@@stops, and the--}{++{"author":"Lauren's AI","timestamp":1786514001249}@@when it stops. The++} government owns what comes out. Would{--{"author":"Lauren's AI","timestamp":1786514001249}@@ that
+--}{++{"author":"Lauren's AI","timestamp":1786514001249}@@
+that ++}make catastrophe more likely, or less?
 
 Write two or three sentences taking a side.
 
-Then write one more line naming the single mechanism doing the most work in your answer.
-Not a list of considerations. The one thing that, if it went the other way, would flip
-your side.
+Then write one more {--{"author":"Lauren's AI","timestamp":1786514001249}@@line naming--}{++{"author":"Lauren's AI","timestamp":1786514001249}@@line. Name++} the single mechanism {--{"author":"Lauren's AI","timestamp":1786514001249}@@doing the--}{++{"author":"Lauren's AI","timestamp":1786514001249}@@that matters++} most {--{"author":"Lauren's AI","timestamp":1786514001249}@@work --}in your answer.
+Not a list of considerations. {--{"author":"Lauren's AI","timestamp":1786514001249}@@The--}{++{"author":"Lauren's AI","timestamp":1786514001249}@@Name the++} one thing {--{"author":"Lauren's AI","timestamp":1786514001249}@@that,--}{++{"author":"Lauren's AI","timestamp":1786514001249}@@that would change your side++} if it went{--{"author":"Lauren's AI","timestamp":1786514001249}@@ --}{++{"author":"Lauren's AI","timestamp":1786514001249}@@
+++}the other {--{"author":"Lauren's AI","timestamp":1786514001249}@@way, would flip
+your side.--}{++{"author":"Lauren's AI","timestamp":1786514001249}@@way.++}
 
 assessment-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
