@@ -28,11 +28,11 @@ The first reading is by Ryan Greenblatt of Redwood {--{"author":"Lauren's AI","t
 content::
 \## Your turn first
 
-Before you see Greenblatt's four plans, put your own on the table.
+Before you {--{"author":"Lauren's AI","timestamp":1786513674218}@@see--}{++{"author":"Lauren's AI","timestamp":1786513674218}@@read++} Greenblatt's four plans, {--{"author":"Lauren's AI","timestamp":1786513674218}@@put--}{++{"author":"Lauren's AI","timestamp":1786513674218}@@describe++} your {--{"author":"Lauren's AI","timestamp":1786513674218}@@own on the table.--}{++{"author":"Lauren's AI","timestamp":1786513674218}@@own.++}
 
-Write two or three sentences describing the plan you believe currently exists for preventing AI takeover, and name who executes it. If you think no plan exists, say what fills the gap instead: who would act if things got visibly dangerous, and how.
+Write two or three sentences {--{"author":"Lauren's AI","timestamp":1786513674218}@@describing--}{++{"author":"Lauren's AI","timestamp":1786513674218}@@about++} the plan you believe {--{"author":"Lauren's AI","timestamp":1786513674218}@@currently exists for preventing--}{++{"author":"Lauren's AI","timestamp":1786513674218}@@exists today to prevent an++} AI {--{"author":"Lauren's AI","timestamp":1786513674218}@@takeover, and name --}{++{"author":"Lauren's AI","timestamp":1786513674218}@@takeover. Name ++}who executes it. If you think no plan exists, say what {--{"author":"Lauren's AI","timestamp":1786513674218}@@fills the gap instead: --}{++{"author":"Lauren's AI","timestamp":1786513674218}@@happens instead. Say ++}who would act if {--{"author":"Lauren's AI","timestamp":1786513674218}@@things got visibly dangerous,--}{++{"author":"Lauren's AI","timestamp":1786513674218}@@the danger became visible,++} and {--{"author":"Lauren's AI","timestamp":1786513674218}@@how.--}{++{"author":"Lauren's AI","timestamp":1786513674218}@@how they would act.++}
 
-Then add one more line, the harder half: what does your plan assume the rest of the world is doing?
+Then add one more {--{"author":"Lauren's AI","timestamp":1786513674218}@@line,--}{++{"author":"Lauren's AI","timestamp":1786513674218}@@line. This is++} the harder {--{"author":"Lauren's AI","timestamp":1786513674218}@@half: what--}{++{"author":"Lauren's AI","timestamp":1786513674218}@@part. What++} does your plan assume the rest of the world is doing?
 
 assessment-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
