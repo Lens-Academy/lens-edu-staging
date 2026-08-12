@@ -14,7 +14,7 @@ There is a speech supposedly given to new medical students: *half of what we are
 
 Some of them will turn out to be wrong, and we cannot tell you which ones. We're not going to pretend otherwise. The pretense would cost you the exact skill this course exists to teach.
 
-[^baserate]: A base rate is how often something has actually happened across the whole historical record, used as a starting point before you consider the details of the case in front of you. You will meet these properly in this unit's third lens.
+[^baserate]: A base rate is how often something has actually happened across the whole historical record, used as a starting point before you consider the details of the case in front of you. You will meet these properly {++{"author":"Lauren's AI","timestamp":1786522061196}@@later ++}in this {--{"author":"Lauren's AI","timestamp":1786522061196}@@unit's third lens.--}{++{"author":"Lauren's AI","timestamp":1786522061196}@@unit.++}
 
 So this course will not hand you a settled model of the future. It exists to help you build your own: one whose parts you can name, defend, and replace one at a time when the world disagrees with them.
 
@@ -22,7 +22,7 @@ So this course will not hand you a settled model of the future. It exists to hel
 content::
 \## Why we'll make you guess first
 
-A note on how this course will treat you. Before nearly every reading, we will ask you to guess. What happened, what the author will argue, how big the numbers turn out to be. You will often be wrong. That is the design, not a test: the gap between your guess and the record is the only lesson this course can generate that is about *you* rather than about us. Guessing first is how you find out what your current model actually predicts, so that when the reading bends it, you can feel exactly where.
+{--{"author":"Lauren's AI","timestamp":1786522062726}@@A note on how this course will treat you. --}Before nearly every reading, we will ask you to guess. What happened, what the author will argue, how big the numbers turn out to be. You will often be wrong. That is the design, not a test: the gap between your guess and the record is the only lesson this course can generate that is about *you* rather than about us. Guessing first is how you find out what your current model actually predicts, so that when the reading bends it, you can feel exactly where.
 
 #### Text
 content::
