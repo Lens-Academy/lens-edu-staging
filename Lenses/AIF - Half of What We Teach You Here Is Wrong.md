@@ -28,7 +28,7 @@ A note on how this course will treat you. Before nearly every reading, we will a
 content::
 \## What this costs, and who else is here
 
-Every unit will take you around three hours. Reading is only a fraction of it. The larger share goes on writing your own answers and arguing with the tutor about them, and the writing is the part that does the teaching. That estimate is ours and it is rough. The readings are short and the questions are not.
+Every unit will take you around three hours. {--{"author":"Lauren's AI","timestamp":1786522047372}@@Reading is only a fraction of it. The larger share--}{++{"author":"Lauren's AI","timestamp":1786522047372}@@Most of that is reading, and the rest++} goes on writing your own {--{"author":"Lauren's AI","timestamp":1786522047372}@@answers and arguing with the tutor about them, and the writing --}{++{"author":"Lauren's AI","timestamp":1786522047372}@@answers, which ++}is the part that does the teaching. That estimate is ours and it is rough. The{--{"author":"Lauren's AI","timestamp":1786522047372}@@ readings are short and the questions are not.--}{++{"author":"Lauren's AI","timestamp":1786522047372}@@ questions take longer than they look.++}
 
 You are not doing this alone. You are in a cohort, and it meets live to work through the unit together. Bring your answers to that meeting, especially the ones you were least sure of, because a disagreement is the part that does not survive being read silently.
 
