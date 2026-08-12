@@ -21,17 +21,24 @@ assumption.++} This lens does not ask whether racing would be wise. It asks{--{"
 assumption is true, and it uses ++}the tools {--{"author":"Lauren's AI","timestamp":1786514199995}@@Unit 2 gave you: where--}{++{"author":"Lauren's AI","timestamp":1786514199995}@@from Unit 2. Where++} does the number come{++{"author":"Lauren's AI","timestamp":1786514199995}@@ from?++}
 {--{"author":"Lauren's AI","timestamp":1786514199995}@@from, and who--}{++{"author":"Lauren's AI","timestamp":1786514199995}@@Who++} checked the original source?
 
-Two readings. The first is evidence forensics. Karson Elmgren traces a widely repeated
-claim, that China declared a goal of building AGI back in 2017, to its source: one phrase
-in one planning document, and a translation. The second is a short data insight from
-Epoch AI that measures the US-China capability gap instead of narrating it. Its title
-gives its answer away, so commit to your own number before you scroll to the readings.
+{--{"author":"Lauren's AI","timestamp":1786514285029}@@Two--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@There are two++} readings. The first {--{"author":"Lauren's AI","timestamp":1786514285029}@@is--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@checks the++} evidence {--{"author":"Lauren's AI","timestamp":1786514285029}@@forensics.--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@behind a claim.++} Karson Elmgren{--{"author":"Lauren's AI","timestamp":1786514285029}@@ --}{++{"author":"Lauren's AI","timestamp":1786514285029}@@
+++}traces a widely repeated{--{"author":"Lauren's AI","timestamp":1786514285029}@@
+claim, --}{++{"author":"Lauren's AI","timestamp":1786514285029}@@ claim back to its source. The claim is ++}that China declared a{--{"author":"Lauren's AI","timestamp":1786514285029}@@ --}{++{"author":"Lauren's AI","timestamp":1786514285029}@@
+++}goal of building AGI {--{"author":"Lauren's AI","timestamp":1786514285029}@@back --}in {--{"author":"Lauren's AI","timestamp":1786514285029}@@2017, to its source:--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@2017. The source is++} one phrase{--{"author":"Lauren's AI","timestamp":1786514285029}@@
+--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@ ++}in one planning document, and a{--{"author":"Lauren's AI","timestamp":1786514285029}@@ --}{++{"author":"Lauren's AI","timestamp":1786514285029}@@
+++}translation. The second {++{"author":"Lauren's AI","timestamp":1786514285029}@@reading ++}is a short data insight from{--{"author":"Lauren's AI","timestamp":1786514285029}@@
+--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@ ++}Epoch {--{"author":"Lauren's AI","timestamp":1786514285029}@@AI that--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@AI. It++} measures the{--{"author":"Lauren's AI","timestamp":1786514285029}@@ --}{++{"author":"Lauren's AI","timestamp":1786514285029}@@
+++}US-China capability gap {--{"author":"Lauren's AI","timestamp":1786514285029}@@instead of narrating--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@rather than describing++} it. Its title{--{"author":"Lauren's AI","timestamp":1786514285029}@@
+--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@ ++}gives {--{"author":"Lauren's AI","timestamp":1786514285029}@@its--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@the++} answer away, so{--{"author":"Lauren's AI","timestamp":1786514285029}@@ --}{++{"author":"Lauren's AI","timestamp":1786514285029}@@
+++}commit to your own number before you scroll {++{"author":"Lauren's AI","timestamp":1786514285029}@@down ++}to the readings.
 
-Two stretches of the Elmgren piece render collapsed: a section the author himself marked
-optional and some supplementary evidence. Both stay one click away if the detective work
-hooks you. And if you finish wanting the view from inside Chinese policy, the imported
-Carnegie piece [[../articles/sheehan-how-china-views-ai-risks-and-what-to-do-about-them]]
-shows what Chinese AI policy actually looks like read directly.
+Two {--{"author":"Lauren's AI","timestamp":1786514285029}@@stretches--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@parts++} of the Elmgren piece {--{"author":"Lauren's AI","timestamp":1786514285029}@@render--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@appear++} collapsed: a section the author{--{"author":"Lauren's AI","timestamp":1786514285029}@@ himself--} marked{--{"author":"Lauren's AI","timestamp":1786514285029}@@
+optional --}{++{"author":"Lauren's AI","timestamp":1786514285029}@@ optional,
+++}and some supplementary evidence. Both {--{"author":"Lauren's AI","timestamp":1786514285029}@@stay--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@are++} one click away if {--{"author":"Lauren's AI","timestamp":1786514285029}@@the detective work--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@you want to follow the++}
+{--{"author":"Lauren's AI","timestamp":1786514285029}@@hooks you.--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@detective work.++} And if you finish {++{"author":"Lauren's AI","timestamp":1786514285029}@@this lens ++}wanting {--{"author":"Lauren's AI","timestamp":1786514285029}@@the--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@a++} view from inside Chinese policy,{--{"author":"Lauren's AI","timestamp":1786514285029}@@ --}{++{"author":"Lauren's AI","timestamp":1786514285029}@@
+++}the {--{"author":"Lauren's AI","timestamp":1786514285029}@@imported
+--}Carnegie piece [[../articles/sheehan-how-china-views-ai-risks-and-what-to-do-about-them]]
+shows what Chinese AI policy {--{"author":"Lauren's AI","timestamp":1786514285029}@@actually --}looks like {++{"author":"Lauren's AI","timestamp":1786514285029}@@when you ++}read {++{"author":"Lauren's AI","timestamp":1786514285029}@@it ++}directly.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The readings themselves are the authors' own work.*
 
