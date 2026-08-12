@@ -22,7 +22,7 @@ the habits, the checks.
 
 The argument is that these two do not travel equally well.
 
-A note on the reading. It is written for people already inside the field, and its
+{--{"author":"Lauren's AI","timestamp":1786524415962}@@A note on the reading. It--}{++{"author":"Lauren's AI","timestamp":1786524415962}@@The reading++} is written for people already inside the field, and its
 footnotes and asides use some field vocabulary without stopping to define it. "Pivotal act" means an action
 large enough to settle the outcome. "Acute risk period" means the window where things
 could go badly wrong. If a term stops you, put it in the Lens Coach
