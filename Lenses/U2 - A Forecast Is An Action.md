@@ -29,7 +29,11 @@ As you read the second one, keep this question in mind. At what point does the m
 #### Article
 source:: [[../articles/ngo-selective-optimism-critique-of-ai-2040]]
 
-#### Question
+#### {++{"author":"Lauren's AI","timestamp":1786529148966}@@Article
+source:: [[../articles/demski-parable-of-predict-o-matic]]
+optional:: true
+
+#### ++}Question
 content::
 \## Phase 1: Recall
 
