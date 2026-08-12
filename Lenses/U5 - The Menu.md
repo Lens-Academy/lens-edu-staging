@@ -12,7 +12,7 @@ tags:
 content::
 \## Before you read
 
-The last two readings moved leverage twice: first toward what we hand off to AIs and when, then toward aiming at a future worth wanting rather than mere survival. Both were still arguments. This one is a list. Will MacAskill and colleagues at Forethought wrote down concrete projects that would make the transition to powerful AI go better, ordered roughly by how excited they are about each. Most are understaffed. Several are organisations that do not exist yet.
+The last two readings moved {--{"author":"Lauren's AI","timestamp":1786514879201}@@leverage twice: first--}{++{"author":"Lauren's AI","timestamp":1786514879201}@@the question twice. First++} toward what we hand off to {--{"author":"Lauren's AI","timestamp":1786514879201}@@AIs--}{++{"author":"Lauren's AI","timestamp":1786514879201}@@AIs,++} and {--{"author":"Lauren's AI","timestamp":1786514879201}@@when, then--}{++{"author":"Lauren's AI","timestamp":1786514879201}@@when. Then++} toward aiming at a future worth {--{"author":"Lauren's AI","timestamp":1786514879201}@@wanting--}{++{"author":"Lauren's AI","timestamp":1786514879201}@@wanting,++} rather than {--{"author":"Lauren's AI","timestamp":1786514879201}@@mere survival.--}{++{"author":"Lauren's AI","timestamp":1786514879201}@@at survival alone.++} Both were still arguments. This one is a list. Will MacAskill and colleagues at Forethought wrote down concrete projects that would make the transition to powerful AI go better, ordered roughly by how excited they are about each. Most are understaffed. Several are organisations that do not exist yet.
 
 It is also the last assigned reading of the course. After this page, the reading stops and the remaining work is yours.
 
