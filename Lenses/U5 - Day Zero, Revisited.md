@@ -65,14 +65,14 @@ What should be done. The Unit 4 and 5 layer: which levers, pulled by whom.
 
 Then three short things.
 
-Redo your hundred points, with your name attached this time, and say what specifically
-moved since Unit 4. "Nothing moved" is a real result: if that is your answer, say which
+Redo your hundred points, with your name attached this {--{"author":"Lauren's AI","timestamp":1786515662447}@@time, and say--}{++{"author":"Lauren's AI","timestamp":1786515662447}@@time. Say++} what specifically{++{"author":"Lauren's AI","timestamp":1786515662447}@@ moved++}
+{--{"author":"Lauren's AI","timestamp":1786515662447}@@moved --}since Unit 4. "Nothing moved" is a real {--{"author":"Lauren's AI","timestamp":1786515662447}@@result: if--}{++{"author":"Lauren's AI","timestamp":1786515662447}@@result. If++} that is your answer, say which
 reading failed to move it.
 
 One line on where your own next hour goes. A track: governance, alignment, strategy,
 something else. A project from the menu. Or a named reason to put it elsewhere. "Watch
-carefully and stay ready to act" is a real answer if you say what would trigger the
-acting.
+carefully and stay ready to act" is a real answer if you say what would {--{"author":"Lauren's AI","timestamp":1786515664496}@@trigger the
+acting.--}{++{"author":"Lauren's AI","timestamp":1786515664496}@@make you act.++}
 
 And one line quoting the sentence in your day-zero snapshot that most surprises you now.
 
