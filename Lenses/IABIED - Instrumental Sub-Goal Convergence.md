@@ -11,7 +11,7 @@ add_to_ai_context:
 #### Text
 content::
 \## Reading Assignment
-**Read *Chapter 8: Expansion*.** Start at the beginning and stop when you reach
+{--{"author":"Elias's AI","timestamp":1786518976727}@@**Read--}{++{"author":"Elias's AI","timestamp":1786518976727}@@**From *If Anyone Builds It, Everyone Dies*, read++} *Chapter 8: Expansion*.** Start at the beginning and stop when you reach
 > And Sable now has the spare capacity to pay attention to, build a small file on, and decide how to manipulate, to its own purposes, every individual human being on Earth.
 
 Return here after reading.
