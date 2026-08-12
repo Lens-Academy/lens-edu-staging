@@ -2,7 +2,6 @@
 id: '8175c4ac-c72a-485c-8684-4bb0052651e8'
 title: Week 1 Post-Session Reflection
 ---
-{>>{"author":"Elias's AI","timestamp":1786466116988}@@sync-probe 2026-08-11: checking whether webhooks still reach relay-git-sync; safe to remove<<}
 
 #### Text
 content:: Thanks for showing up. This is your post-session reflection. It takes about 7 minutes and helps us measure how the course is moving you, while giving you a chance to name what you're taking away. Submitting it also counts towards your certificate at the end of the course.
