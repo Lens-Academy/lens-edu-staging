@@ -12,7 +12,7 @@ add_to_ai_context:
 #### Text
 content::
 \## Reading Assignment
-**Read *Chapter 4: "You Don't Get What You Train For"* in full.**
+{--{"author":"Elias's AI","timestamp":1786519025208}@@**Read--}{++{"author":"Elias's AI","timestamp":1786519025208}@@**From *If Anyone Builds It, Everyone Dies*, read++} *Chapter 4: "You Don't Get What You Train For"* in full.**
 
 Return here after reading.
 
