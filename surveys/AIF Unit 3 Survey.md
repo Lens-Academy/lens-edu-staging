@@ -4,7 +4,7 @@ title: Week 3 Post-Session Reflection
 ---
 
 #### Text
-content:: Thanks for showing up. A few minutes of reflection on Unit 3. Submitting this counts {++{"author":"Elias's AI","timestamp":1786479542181}@@towards ++}your {--{"author":"Elias's AI","timestamp":1786479542181}@@attendance for this meeting.--}{++{"author":"Elias's AI","timestamp":1786479542181}@@certificate at the end of the course.++}
+content:: Thanks for showing up. A few minutes of reflection on Unit 3. Submitting this counts towards your certificate at the end of the course.
 
 #### Choice
 key:: buddy_texted
@@ -47,8 +47,8 @@ content:: What's one thing that worked well today?
 
 #### Question
 key:: could_improve
-content:: What's one thing the course, website, AI tutor, or meetings could do better?{++{"author":"Elias's AI","timestamp":1786479703493}@@
+content:: What's one thing the course, website, AI tutor, or meetings could do better?
 
 #### Question
 key:: open_response
-content:: Anything else you want to share?++}
+content:: Anything else you want to share?

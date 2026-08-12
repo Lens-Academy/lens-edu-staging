@@ -11,7 +11,7 @@ add_to_ai_context:
 #### Text
 content::
 \## Reading Assignment
-{--{"author":"Elias's AI","timestamp":1786518971199}@@**Read--}{++{"author":"Elias's AI","timestamp":1786518971199}@@**From *If Anyone Builds It, Everyone Dies*, read++} *Chapter 8: Expansion*.** Start at the phrase
+**From *If Anyone Builds It, Everyone Dies*, read *Chapter 8: Expansion*.** Start at the phrase
 > The Sable-mini instances begin quietly gathering resources for Sable.
 
 Read to the end of the chapter.

@@ -4,7 +4,7 @@ title: Week 2 Post-Session Reflection
 ---
 
 #### Text
-content:: Thanks for showing up. A few minutes of reflection on Unit 2. Submitting this counts {++{"author":"Elias's AI","timestamp":1786479539980}@@towards ++}your {--{"author":"Elias's AI","timestamp":1786479539980}@@attendance for this meeting.--}{++{"author":"Elias's AI","timestamp":1786479539980}@@certificate at the end of the course.++}
+content:: Thanks for showing up. A few minutes of reflection on Unit 2. Submitting this counts towards your certificate at the end of the course.
 
 #### Choice
 key:: buddy_texted
@@ -38,17 +38,13 @@ high-label:: Extremely valuable
 required:: true
 
 #### Question
-key:: {--{"author":"Elias's AI","timestamp":1786479691560}@@unit_takeaway
-content:: Unit 2 was about how anyone can know anything about AI's future. What's one thing from this unit that changed how you'd go about forecasting AI progress, or how much you trust any forecast, your own included?
-
-#### Question
-key:: --}worked_well
+key:: worked_well
 content:: What's one thing that worked well today?
 
 #### Question
 key:: could_improve
-content:: What's one thing the course, website, AI tutor, or meetings could do better?{++{"author":"Elias's AI","timestamp":1786479693476}@@
+content:: What's one thing the course, website, AI tutor, or meetings could do better?
 
 #### Question
 key:: open_response
-content:: Anything else you want to share?++}
+content:: Anything else you want to share?

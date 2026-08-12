@@ -9,7 +9,7 @@ authors:
 #### Text
 content::
 \## Reading Assignment
-{--{"author":"Elias's AI","timestamp":1786519016167}@@**Read--}{++{"author":"Elias's AI","timestamp":1786519016167}@@**From *If Anyone Builds It, Everyone Dies*, read++} *Chapter 13: Shut It Down*.** Start at the beginning and stop when you reach
+**From *If Anyone Builds It, Everyone Dies*, read *Chapter 13: Shut It Down*.** Start at the beginning and stop when you reach
 > We know that the creation and exercise of any new authority is morally hazardous and subject to potential abuses, as was also true about World War II.
 >
 > But we don't know how else humanity could survive.

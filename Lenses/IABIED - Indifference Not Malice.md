@@ -11,7 +11,7 @@ add_to_ai_context:
 #### Text
 content::
 \## Reading Assignment
-{--{"author":"Elias's AI","timestamp":1786518974096}@@**Read--}{++{"author":"Elias's AI","timestamp":1786518974096}@@**From *If Anyone Builds It, Everyone Dies*, read++} *Chapter 9: Ascension* in full.**
+**From *If Anyone Builds It, Everyone Dies*, read *Chapter 9: Ascension* in full.**
 
 Return here after reading.
 

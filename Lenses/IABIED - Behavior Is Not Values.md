@@ -11,7 +11,7 @@ add_to_ai_context:
 #### Text
 content::
 \## Reading Assignment
-{--{"author":"Elias's AI","timestamp":1786518937306}@@**Read--}{++{"author":"Elias's AI","timestamp":1786518937306}@@**From *If Anyone Builds It, Everyone Dies*, read++} *Chapter 2: Grown, Not Crafted*.** Start at the phrase
+**From *If Anyone Builds It, Everyone Dies*, read *Chapter 2: Grown, Not Crafted*.** Start at the phrase
 > Modern LLMs are, in some sense, truly alien minds—perhaps more alien in some ways than any biological, evolved creatures we'd find if we explored the cosmos.
 
 and read until the end of the chapter.

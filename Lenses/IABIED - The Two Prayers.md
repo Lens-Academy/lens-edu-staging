@@ -9,7 +9,7 @@ authors:
 #### Text
 content::
 \## Reading Assignment
-{--{"author":"Elias's AI","timestamp":1786519013871}@@**Read--}{++{"author":"Elias's AI","timestamp":1786519013871}@@**From *If Anyone Builds It, Everyone Dies*, read++} *Closing Words* in full.**
+**From *If Anyone Builds It, Everyone Dies*, read *Closing Words* in full.**
 
 Return here after reading.
 

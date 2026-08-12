@@ -10,7 +10,7 @@ authors:
 content::
 \## Reading Assignment
 
-{--{"author":"Elias's AI","timestamp":1786519008133}@@**Read--}{++{"author":"Elias's AI","timestamp":1786519008133}@@**From *If Anyone Builds It, Everyone Dies*, read++} *Chapter 10: A Cursed Problem*.** Start at the beginning and stop when you reach
+**From *If Anyone Builds It, Everyone Dies*, read *Chapter 10: A Cursed Problem*.** Start at the beginning and stop when you reach
 > Those constraints will tend to get in the way of the AI accomplishing one objective or another. And then you are matching your own wits and ability to nail down the edge cases against however much intelligence is flowing through the system, to see if your constraint holds up.
 
 Return here after reading.

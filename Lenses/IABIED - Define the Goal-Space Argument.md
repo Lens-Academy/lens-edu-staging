@@ -11,7 +11,7 @@ add_to_ai_context:
 #### Text
 content::
 \## Reading Assignment
-{--{"author":"Elias's AI","timestamp":1786518945300}@@**Read Chapter--}{++{"author":"Elias's AI","timestamp":1786518945300}@@**From *If Anyone Builds It, Everyone Dies*, read *Chapter++} 5: Its Favorite {--{"author":"Elias's AI","timestamp":1786518945300}@@Things**,--}{++{"author":"Elias's AI","timestamp":1786518945300}@@Things*,**++} from the start to
+**From *If Anyone Builds It, Everyone Dies*, read *Chapter 5: Its Favorite Things*,** from the start to
 > …any more than we'd happen to ensure that our dwellings always contain a prime number of stones.
 
 Return here after reading.
