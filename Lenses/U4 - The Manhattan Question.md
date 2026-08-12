@@ -1,7 +1,7 @@
 ---
 id: 'f51a8a69-8f6f-4deb-839f-18b551177162'
 title: "The Manhattan Question"
-tldr: {--{"author":"Lauren's AI","timestamp":1786513814887}@@Washington is full of calls--}{++{"author":"Lauren's AI","timestamp":1786513814887}@@Many people in Washington now call++} for a government AGI project. {--{"author":"Lauren's AI","timestamp":1786513814887}@@Whether one would--}{++{"author":"Lauren's AI","timestamp":1786513814887}@@Would such a project++} make catastrophe more{--{"author":"Lauren's AI","timestamp":1786513814887}@@ or less likely is a real question, and you--}{++{"author":"Lauren's AI","timestamp":1786513814887}@@ likely, or less? You++} take a side before the forecasters do.
+tldr: Many people in Washington now call for a government AGI project. Would such a project make catastrophe more likely, or less? You take a side before the forecasters do.
 summary_for_tutor: "Fourth lens of Unit 4. The student commits to a side on whether a US national AGI project makes catastrophe more or less likely and names their load-bearing mechanism, then reads the IAPS forecasting piece arguing such a project is neither inevitable nor a good idea. One mirror, no grade."
 authors:
   - Claude
@@ -12,37 +12,28 @@ tags:
 content::
 \## Before you read
 
-The last lens put ten people inside one lab. This one {--{"author":"Lauren's AI","timestamp":1786513837080}@@hands--}{++{"author":"Lauren's AI","timestamp":1786513837080}@@gives++} the {--{"author":"Lauren's AI","timestamp":1786513837080}@@lever--}{++{"author":"Lauren's AI","timestamp":1786513837080}@@decision++} to the largest
+The last lens put ten people inside one lab. This one gives the decision to the largest
 actor available: the state itself.
 
-The idea has {--{"author":"Lauren's AI","timestamp":1786513913840}@@gone--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@become++} mainstream. Congressional commissions, government agencies and AI
-company CEOs have called for a Manhattan Project for {--{"author":"Lauren's AI","timestamp":1786513913840}@@AGI,--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@AGI. That means++} a national effort{--{"author":"Lauren's AI","timestamp":1786513913840}@@ --}{++{"author":"Lauren's AI","timestamp":1786513913840}@@
-++}to make sure{--{"author":"Lauren's AI","timestamp":1786513913840}@@
---}{++{"author":"Lauren's AI","timestamp":1786513913840}@@ ++}the United States {--{"author":"Lauren's AI","timestamp":1786513913840}@@gets there--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@builds AGI++} before {--{"author":"Lauren's AI","timestamp":1786513913840}@@China. --}{++{"author":"Lauren's AI","timestamp":1786513913840}@@China does.
+The idea has become mainstream. Congressional commissions, government agencies and AI
+company CEOs have called for a Manhattan Project for AGI. That means a national effort
+to make sure the United States builds AGI before China does.
 
-++}The strongest version of the case is Leopold{--{"author":"Lauren's AI","timestamp":1786513913840}@@
---}{++{"author":"Lauren's AI","timestamp":1786513913840}@@ ++}Aschenbrenner's essay Situational Awareness{--{"author":"Lauren's AI","timestamp":1786513913840}@@ (https://situational-awareness.ai/):--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@
-(https://situational-awareness.ai/). He argues that++} AGI is{--{"author":"Lauren's AI","timestamp":1786513913840}@@
---}{++{"author":"Lauren's AI","timestamp":1786513913840}@@ ++}the decisive{--{"author":"Lauren's AI","timestamp":1786513913840}@@ --}{++{"author":"Lauren's AI","timestamp":1786513913840}@@
-++}national-security technology of the {--{"author":"Lauren's AI","timestamp":1786513913840}@@century, so--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@century. On that view,++} no private company can
-{--{"author":"Lauren's AI","timestamp":1786513913840}@@secure--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@protect++} it {--{"author":"Lauren's AI","timestamp":1786513913840}@@against--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@from++} state {--{"author":"Lauren's AI","timestamp":1786513913840}@@espionage or--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@espionage, and no private company can++} be trusted with what comes{--{"author":"Lauren's AI","timestamp":1786513913840}@@ after, and--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@
-after. He concludes that++} the {--{"author":"Lauren's AI","timestamp":1786513913840}@@endgame
-belongs to--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@US government must run++} the {--{"author":"Lauren's AI","timestamp":1786513913840}@@US government the way--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@final stage, as it ran++} the{++{"author":"Lauren's AI","timestamp":1786513913840}@@
-atomic++} bomb {--{"author":"Lauren's AI","timestamp":1786513913840}@@did. That--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@project. The++} essay is hours of {--{"author":"Lauren's AI","timestamp":1786513913840}@@one-way
-advocacy, --}{++{"author":"Lauren's AI","timestamp":1786513913840}@@advocacy for one side, ++}and it {--{"author":"Lauren's AI","timestamp":1786513913840}@@moved Washington;--}{++{"author":"Lauren's AI","timestamp":1786513913840}@@changed opinions
-in Washington. Use++} the link{--{"author":"Lauren's AI","timestamp":1786513913840}@@ is there --}{++{"author":"Lauren's AI","timestamp":1786513913840}@@ ++}if you want the position at full{--{"author":"Lauren's AI","timestamp":1786513913840}@@
---}{++{"author":"Lauren's AI","timestamp":1786513913840}@@ ++}strength.
+The strongest version of the case is Leopold Aschenbrenner's essay Situational Awareness
+(https://situational-awareness.ai/). He argues that AGI is the decisive
+national-security technology of the century. On that view, no private company can
+protect it from state espionage, and no private company can be trusted with what comes
+after. He concludes that the US government must run the final stage, as it ran the
+atomic bomb project. The essay is hours of advocacy for one side, and it changed opinions
+in Washington. Use the link if you want the position at full strength.
 
-Today's reading is {--{"author":"Lauren's AI","timestamp":1786513946473}@@shorter--}{++{"author":"Lauren's AI","timestamp":1786513946473}@@shorter,++} and {--{"author":"Lauren's AI","timestamp":1786513946473}@@cuts the other way.--}{++{"author":"Lauren's AI","timestamp":1786513946473}@@it argues the opposite.++} Its authors {--{"author":"Lauren's AI","timestamp":1786513946473}@@put--}{++{"author":"Lauren's AI","timestamp":1786513946473}@@asked professional
-forecasters++} two {--{"author":"Lauren's AI","timestamp":1786513946473}@@questions to
-professional forecasters, --}{++{"author":"Lauren's AI","timestamp":1786513946473}@@questions: ++}how likely a government-led AGI project {--{"author":"Lauren's AI","timestamp":1786513946473}@@is--}{++{"author":"Lauren's AI","timestamp":1786513946473}@@is,++} and what form it
-would {--{"author":"Lauren's AI","timestamp":1786513946473}@@take, and--}{++{"author":"Lauren's AI","timestamp":1786513946473}@@take. The authors++} then {--{"author":"Lauren's AI","timestamp":1786513946473}@@argue in --}{++{"author":"Lauren's AI","timestamp":1786513946473}@@give ++}their own {--{"author":"Lauren's AI","timestamp":1786513946473}@@voice--}{++{"author":"Lauren's AI","timestamp":1786513946473}@@argument++} about whether {--{"author":"Lauren's AI","timestamp":1786513946473}@@it would --}{++{"author":"Lauren's AI","timestamp":1786513946473}@@such a project would
-++}help. You will have{--{"author":"Lauren's AI","timestamp":1786513946473}@@
---}{++{"author":"Lauren's AI","timestamp":1786513946473}@@ ++}your own answer to that last {--{"author":"Lauren's AI","timestamp":1786513946473}@@part--}{++{"author":"Lauren's AI","timestamp":1786513946473}@@question++} before they give you theirs.
+Today's reading is shorter, and it argues the opposite. Its authors asked professional
+forecasters two questions: how likely a government-led AGI project is, and what form it
+would take. The authors then give their own argument about whether such a project would
+help. You will have your own answer to that last question before they give you theirs.
 
-{--{"author":"Lauren's AI","timestamp":1786513946473}@@A neighbouring--}{++{"author":"Lauren's AI","timestamp":1786513946473}@@Here is a related++} state strategy, for later rather than {--{"author":"Lauren's AI","timestamp":1786513946473}@@now: what--}{++{"author":"Lauren's AI","timestamp":1786513946473}@@now. What++} if the plan is {++{"author":"Lauren's AI","timestamp":1786513946473}@@for
-states ++}to threaten{--{"author":"Lauren's AI","timestamp":1786513946473}@@
---}{++{"author":"Lauren's AI","timestamp":1786513946473}@@ ++}each other's datacenters instead? [[../articles/delaney-crucial-considerations-in-asi-deterrence]]
+Here is a related state strategy, for later rather than now. What if the plan is for
+states to threaten each other's datacenters instead? [[../articles/delaney-crucial-considerations-in-asi-deterrence]]
 takes that idea seriously.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the authors' own work.*
@@ -51,17 +42,15 @@ takes that idea seriously.
 content::
 \## Pick a side
 
-Commit before you read. {--{"author":"Lauren's AI","timestamp":1786514001249}@@A--}{++{"author":"Lauren's AI","timestamp":1786514001249}@@Imagine a real++} US national AGI {--{"author":"Lauren's AI","timestamp":1786514001249}@@project, a real one: the--}{++{"author":"Lauren's AI","timestamp":1786514001249}@@project. The++} government decides
-when development starts and {--{"author":"Lauren's AI","timestamp":1786514001249}@@stops, and the--}{++{"author":"Lauren's AI","timestamp":1786514001249}@@when it stops. The++} government owns what comes out. Would{--{"author":"Lauren's AI","timestamp":1786514001249}@@ that
---}{++{"author":"Lauren's AI","timestamp":1786514001249}@@
-that ++}make catastrophe more likely, or less?
+Commit before you read. Imagine a real US national AGI project. The government decides
+when development starts and when it stops. The government owns what comes out. Would
+that make catastrophe more likely, or less?
 
 Write two or three sentences taking a side.
 
-Then write one more {--{"author":"Lauren's AI","timestamp":1786514001249}@@line naming--}{++{"author":"Lauren's AI","timestamp":1786514001249}@@line. Name++} the single mechanism {--{"author":"Lauren's AI","timestamp":1786514001249}@@doing the--}{++{"author":"Lauren's AI","timestamp":1786514001249}@@that matters++} most {--{"author":"Lauren's AI","timestamp":1786514001249}@@work --}in your answer.
-Not a list of considerations. {--{"author":"Lauren's AI","timestamp":1786514001249}@@The--}{++{"author":"Lauren's AI","timestamp":1786514001249}@@Name the++} one thing {--{"author":"Lauren's AI","timestamp":1786514001249}@@that,--}{++{"author":"Lauren's AI","timestamp":1786514001249}@@that would change your side++} if it went{--{"author":"Lauren's AI","timestamp":1786514001249}@@ --}{++{"author":"Lauren's AI","timestamp":1786514001249}@@
-++}the other {--{"author":"Lauren's AI","timestamp":1786514001249}@@way, would flip
-your side.--}{++{"author":"Lauren's AI","timestamp":1786514001249}@@way.++}
+Then write one more line. Name the single mechanism that matters most in your answer.
+Not a list of considerations. Name the one thing that would change your side if it went
+the other way.
 
 assessment-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.

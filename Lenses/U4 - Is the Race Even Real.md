@@ -1,7 +1,7 @@
 ---
 id: '5a0f546a-b6d7-4767-b14f-36b0d34de166'
 title: "Is the Race Even Real?"
-tldr: {--{"author":"Lauren's AI","timestamp":1786514162847}@@Half the--}{++{"author":"Lauren's AI","timestamp":1786514162847}@@Many++} strategy arguments {--{"author":"Lauren's AI","timestamp":1786514162847}@@you will hear stand on the premise --}{++{"author":"Lauren's AI","timestamp":1786514162847}@@assume ++}that the US and China are racing to AGI. Commit to a {--{"author":"Lauren's AI","timestamp":1786514162847}@@number, then--}{++{"author":"Lauren's AI","timestamp":1786514162847}@@number. Then++} trace the famous claim {++{"author":"Lauren's AI","timestamp":1786514162847}@@back ++}to its {--{"author":"Lauren's AI","timestamp":1786514162847}@@source--}{++{"author":"Lauren's AI","timestamp":1786514162847}@@source,++} before you repeat {--{"author":"Lauren's AI","timestamp":1786514162847}@@either.--}{++{"author":"Lauren's AI","timestamp":1786514162847}@@it.++}
+tldr: Many strategy arguments assume that the US and China are racing to AGI. Commit to a number. Then trace the famous claim back to its source, before you repeat it.
 summary_for_tutor: "Fifth lens of Unit 4. Student commits to a months-behind number for Chinese models and names its source, then reads Elmgren tracing the 2017 China-AGI-goal claim to one ambiguous phrase and an Epoch data insight measuring the actual gap. One mirror, no grade."
 authors:
   - Claude
@@ -12,33 +12,25 @@ tags:
 content::
 \## Before you read
 
-The previous lens argued about a national AGI {--{"author":"Lauren's AI","timestamp":1786514199995}@@project, and both --}{++{"author":"Lauren's AI","timestamp":1786514199995}@@project. Both ++}sides of that argument
-{--{"author":"Lauren's AI","timestamp":1786514199995}@@stood on--}{++{"author":"Lauren's AI","timestamp":1786514199995}@@assumed++} the same {--{"author":"Lauren's AI","timestamp":1786514199995}@@floor:--}{++{"author":"Lauren's AI","timestamp":1786514199995}@@thing:++} the United States and China are racing to build advanced AI, and
-whoever slows down loses. Almost every strategy conversation {--{"author":"Lauren's AI","timestamp":1786514199995}@@you will overhear leans on
---}{++{"author":"Lauren's AI","timestamp":1786514199995}@@uses ++}some version of {--{"author":"Lauren's AI","timestamp":1786514199995}@@this.--}{++{"author":"Lauren's AI","timestamp":1786514199995}@@that
-assumption.++} This lens does not ask whether racing would be wise. It asks{--{"author":"Lauren's AI","timestamp":1786514199995}@@
---}{++{"author":"Lauren's AI","timestamp":1786514199995}@@ ++}whether the{--{"author":"Lauren's AI","timestamp":1786514199995}@@ premise holds, with --}{++{"author":"Lauren's AI","timestamp":1786514199995}@@
-assumption is true, and it uses ++}the tools {--{"author":"Lauren's AI","timestamp":1786514199995}@@Unit 2 gave you: where--}{++{"author":"Lauren's AI","timestamp":1786514199995}@@from Unit 2. Where++} does the number come{++{"author":"Lauren's AI","timestamp":1786514199995}@@ from?++}
-{--{"author":"Lauren's AI","timestamp":1786514199995}@@from, and who--}{++{"author":"Lauren's AI","timestamp":1786514199995}@@Who++} checked the original source?
+The previous lens argued about a national AGI project. Both sides of that argument
+assumed the same thing: the United States and China are racing to build advanced AI, and
+whoever slows down loses. Almost every strategy conversation uses some version of that
+assumption. This lens does not ask whether racing would be wise. It asks whether the
+assumption is true, and it uses the tools from Unit 2. Where does the number come from?
+Who checked the original source?
 
-{--{"author":"Lauren's AI","timestamp":1786514285029}@@Two--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@There are two++} readings. The first {--{"author":"Lauren's AI","timestamp":1786514285029}@@is--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@checks the++} evidence {--{"author":"Lauren's AI","timestamp":1786514285029}@@forensics.--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@behind a claim.++} Karson Elmgren{--{"author":"Lauren's AI","timestamp":1786514285029}@@ --}{++{"author":"Lauren's AI","timestamp":1786514285029}@@
-++}traces a widely repeated{--{"author":"Lauren's AI","timestamp":1786514285029}@@
-claim, --}{++{"author":"Lauren's AI","timestamp":1786514285029}@@ claim back to its source. The claim is ++}that China declared a{--{"author":"Lauren's AI","timestamp":1786514285029}@@ --}{++{"author":"Lauren's AI","timestamp":1786514285029}@@
-++}goal of building AGI {--{"author":"Lauren's AI","timestamp":1786514285029}@@back --}in {--{"author":"Lauren's AI","timestamp":1786514285029}@@2017, to its source:--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@2017. The source is++} one phrase{--{"author":"Lauren's AI","timestamp":1786514285029}@@
---}{++{"author":"Lauren's AI","timestamp":1786514285029}@@ ++}in one planning document, and a{--{"author":"Lauren's AI","timestamp":1786514285029}@@ --}{++{"author":"Lauren's AI","timestamp":1786514285029}@@
-++}translation. The second {++{"author":"Lauren's AI","timestamp":1786514285029}@@reading ++}is a short data insight from{--{"author":"Lauren's AI","timestamp":1786514285029}@@
---}{++{"author":"Lauren's AI","timestamp":1786514285029}@@ ++}Epoch {--{"author":"Lauren's AI","timestamp":1786514285029}@@AI that--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@AI. It++} measures the{--{"author":"Lauren's AI","timestamp":1786514285029}@@ --}{++{"author":"Lauren's AI","timestamp":1786514285029}@@
-++}US-China capability gap {--{"author":"Lauren's AI","timestamp":1786514285029}@@instead of narrating--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@rather than describing++} it. Its title{--{"author":"Lauren's AI","timestamp":1786514285029}@@
---}{++{"author":"Lauren's AI","timestamp":1786514285029}@@ ++}gives {--{"author":"Lauren's AI","timestamp":1786514285029}@@its--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@the++} answer away, so{--{"author":"Lauren's AI","timestamp":1786514285029}@@ --}{++{"author":"Lauren's AI","timestamp":1786514285029}@@
-++}commit to your own number before you scroll {++{"author":"Lauren's AI","timestamp":1786514285029}@@down ++}to the readings.
+There are two readings. The first checks the evidence behind a claim. Karson Elmgren
+traces a widely repeated claim back to its source. The claim is that China declared a
+goal of building AGI in 2017. The source is one phrase in one planning document, and a
+translation. The second reading is a short data insight from Epoch AI. It measures the
+US-China capability gap rather than describing it. Its title gives the answer away, so
+commit to your own number before you scroll down to the readings.
 
-Two {--{"author":"Lauren's AI","timestamp":1786514285029}@@stretches--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@parts++} of the Elmgren piece {--{"author":"Lauren's AI","timestamp":1786514285029}@@render--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@appear++} collapsed: a section the author{--{"author":"Lauren's AI","timestamp":1786514285029}@@ himself--} marked{--{"author":"Lauren's AI","timestamp":1786514285029}@@
-optional --}{++{"author":"Lauren's AI","timestamp":1786514285029}@@ optional,
-++}and some supplementary evidence. Both {--{"author":"Lauren's AI","timestamp":1786514285029}@@stay--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@are++} one click away if {--{"author":"Lauren's AI","timestamp":1786514285029}@@the detective work--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@you want to follow the++}
-{--{"author":"Lauren's AI","timestamp":1786514285029}@@hooks you.--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@detective work.++} And if you finish {++{"author":"Lauren's AI","timestamp":1786514285029}@@this lens ++}wanting {--{"author":"Lauren's AI","timestamp":1786514285029}@@the--}{++{"author":"Lauren's AI","timestamp":1786514285029}@@a++} view from inside Chinese policy,{--{"author":"Lauren's AI","timestamp":1786514285029}@@ --}{++{"author":"Lauren's AI","timestamp":1786514285029}@@
-++}the {--{"author":"Lauren's AI","timestamp":1786514285029}@@imported
---}Carnegie piece [[../articles/sheehan-how-china-views-ai-risks-and-what-to-do-about-them]]
-shows what Chinese AI policy {--{"author":"Lauren's AI","timestamp":1786514285029}@@actually --}looks like {++{"author":"Lauren's AI","timestamp":1786514285029}@@when you ++}read {++{"author":"Lauren's AI","timestamp":1786514285029}@@it ++}directly.
+Two parts of the Elmgren piece appear collapsed: a section the author marked optional,
+and some supplementary evidence. Both are one click away if you want to follow the
+detective work. And if you finish this lens wanting a view from inside Chinese policy,
+the Carnegie piece [[../articles/sheehan-how-china-views-ai-risks-and-what-to-do-about-them]]
+shows what Chinese AI policy looks like when you read it directly.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The readings themselves are the authors' own work.*
 
@@ -46,15 +38,12 @@ shows what Chinese AI policy {--{"author":"Lauren's AI","timestamp":178651428502
 content::
 \## Commit to a number
 
-Before you open either {--{"author":"Lauren's AI","timestamp":1786514323219}@@reading: how--}{++{"author":"Lauren's AI","timestamp":1786514323219}@@reading, answer this. How++} many months behind the US frontier are{--{"author":"Lauren's AI","timestamp":1786514323219}@@ --}{++{"author":"Lauren's AI","timestamp":1786514323219}@@
-++}Chinese AI{--{"author":"Lauren's AI","timestamp":1786514323219}@@
---}{++{"author":"Lauren's AI","timestamp":1786514323219}@@ ++}models today? Write the number down.
+Before you open either reading, answer this. How many months behind the US frontier are
+Chinese AI models today? Write the number down.
 
-Then write one more line saying where your number comes from. {--{"author":"Lauren's AI","timestamp":1786514323219}@@A--}{++{"author":"Lauren's AI","timestamp":1786514323219}@@It could be a++} benchmark{--{"author":"Lauren's AI","timestamp":1786514323219}@@ --}{++{"author":"Lauren's AI","timestamp":1786514323219}@@
-++}you saw, a{--{"author":"Lauren's AI","timestamp":1786514323219}@@
---}{++{"author":"Lauren's AI","timestamp":1786514323219}@@ ++}headline, a model you tried, {--{"author":"Lauren's AI","timestamp":1786514323219}@@the--}{++{"author":"Lauren's AI","timestamp":1786514323219}@@or a++} general {--{"author":"Lauren's AI","timestamp":1786514323219}@@sense of the discourse. --}{++{"author":"Lauren's AI","timestamp":1786514323219}@@impression from what people say.
-++}Name the source{--{"author":"Lauren's AI","timestamp":1786514323219}@@
---}{++{"author":"Lauren's AI","timestamp":1786514323219}@@ ++}honestly. A wrong number you can defend beats no number at all.
+Then write one more line saying where your number comes from. It could be a benchmark
+you saw, a headline, a model you tried, or a general impression from what people say.
+Name the source honestly. A wrong number you can defend beats no number at all.
 
 assessment-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
