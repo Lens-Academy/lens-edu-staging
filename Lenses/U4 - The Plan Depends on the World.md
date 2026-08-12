@@ -14,7 +14,7 @@ content::
 
 Unit 3 was about how it could go wrong. This unit is about the plans.
 
-Unit 3 ended on a disagreement, and we did not settle it. One reading, by Nate Soares, puts the risk inside the system, in what the system ends up aiming at. Another, by Jan Kulveit and co-authors, puts the risk between institutions, in dynamics that no single actor steers. That disagreement matters now. Where you locate the risk decides what you try to change. A person who fears the system works on how to aim it. A person who fears the dynamics works on treaties, governments, and labs. Every plan in this unit takes one of those sides, whether or not its author says so.
+Unit 3 ended on a disagreement, and we did not settle it. One reading, by Nate Soares, puts the risk inside the system, in what the system ends up aiming at. Another, by Jan Kulveit and co-authors, puts the risk between institutions, in dynamics that no single actor steers. That disagreement matters now. Where you locate the risk decides what you try to change. A person who fears the system works on how to aim it. A person who fears the dynamics works on treaties, governments, and labs. {--{"author":"Lauren's AI","timestamp":1786523712684}@@Every plan--}{++{"author":"Lauren's AI","timestamp":1786523712684}@@Most plans++} in this unit {--{"author":"Lauren's AI","timestamp":1786523712684}@@takes--}{++{"author":"Lauren's AI","timestamp":1786523712684}@@take++} one of those sides, whether or not its author says so.
 
 You already read the argument about controlling misaligned AIs at the end of Unit 3. This unit is about everything else.
 
