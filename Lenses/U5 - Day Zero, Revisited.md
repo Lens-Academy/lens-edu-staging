@@ -55,9 +55,11 @@ the world.
 How you would know. The Unit 2 layer: two or three checkable signposts you will actually
 watch over the next two years, and which way each one would move you.
 
-Where the risk lives. The Unit 3 layer: the rivalry that unit's closer left unsettled,
-Soares's inside-the-systems against Kulveit's between-the-institutions. Take your side,
-and let the rest of the model show it.
+Where the risk lives. The Unit 3 layer: the rivalry that {--{"author":"Lauren's AI","timestamp":1786515607973}@@unit's closer--}{++{"author":"Lauren's AI","timestamp":1786515607973}@@the last lens of that unit++} left{--{"author":"Lauren's AI","timestamp":1786515607973}@@ unsettled,
+Soares's inside-the-systems against Kulveit's between-the-institutions.--}{++{"author":"Lauren's AI","timestamp":1786515607973}@@
+unsettled. Soares argues the risk is inside the systems. Kulveit argues it is between
+the institutions.++} Take your side,{--{"author":"Lauren's AI","timestamp":1786515607973}@@
+--}{++{"author":"Lauren's AI","timestamp":1786515607973}@@ ++}and let the rest of the model show it.
 
 What should be done. The Unit 4 and 5 layer: which levers, pulled by whom.
 
