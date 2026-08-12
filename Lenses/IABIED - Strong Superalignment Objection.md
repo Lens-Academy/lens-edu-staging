@@ -10,7 +10,7 @@ authors:
 content::
 \## Reading Assignment
 
-**Read *Chapter 11: An Alchemy, Not a Science*.** Start at the phrase
+{--{"author":"Elias's AI","timestamp":1786519004474}@@**Read--}{++{"author":"Elias's AI","timestamp":1786519004474}@@**From *If Anyone Builds It, Everyone Dies*, read++} *Chapter 11: An Alchemy, Not a Science*.** Start at the phrase
 > Some AI companies do try to look less cavalier than that, about ASI alignment, and put forth plans more detailed than those.
 
 Read to the end of the chapter.
