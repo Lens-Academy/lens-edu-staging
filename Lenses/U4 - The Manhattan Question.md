@@ -12,7 +12,7 @@ tags:
 content::
 \## Before you read
 
-The last lens put ten people inside one lab. This one hands the lever to the largest
+The last lens put ten people inside one lab. This one {--{"author":"Lauren's AI","timestamp":1786513837080}@@hands--}{++{"author":"Lauren's AI","timestamp":1786513837080}@@gives++} the {--{"author":"Lauren's AI","timestamp":1786513837080}@@lever--}{++{"author":"Lauren's AI","timestamp":1786513837080}@@decision++} to the largest
 actor available: the state itself.
 
 The idea has gone mainstream. Congressional commissions, government agencies and AI

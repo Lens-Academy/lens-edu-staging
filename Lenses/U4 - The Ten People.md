@@ -12,10 +12,10 @@ tags:
 content::
 \## Before you read
 
-The playbook that opened this unit got thinner as political will drained away. This
-reading lives at the bottom of that slide. No treaty arrives. No government steps in.
-The company will not slow down, and its leadership treats misalignment risk as a talking
-point rather than a problem.
+The {--{"author":"Lauren's AI","timestamp":1786513835612}@@playbook--}{++{"author":"Lauren's AI","timestamp":1786513835612}@@list of plans++} that opened this unit got {--{"author":"Lauren's AI","timestamp":1786513835612}@@thinner--}{++{"author":"Lauren's AI","timestamp":1786513835612}@@shorter++} as political will {--{"author":"Lauren's AI","timestamp":1786513835612}@@drained away.--}{++{"author":"Lauren's AI","timestamp":1786513835612}@@fell.++} This
+reading {--{"author":"Lauren's AI","timestamp":1786513835612}@@lives at --}{++{"author":"Lauren's AI","timestamp":1786513835612}@@describes ++}the bottom of that {--{"author":"Lauren's AI","timestamp":1786513835612}@@slide.--}{++{"author":"Lauren's AI","timestamp":1786513835612}@@list.++} No treaty arrives. No government {--{"author":"Lauren's AI","timestamp":1786513835612}@@steps in.--}{++{"author":"Lauren's AI","timestamp":1786513835612}@@acts. The++}
+{--{"author":"Lauren's AI","timestamp":1786513835612}@@The --}company will not slow {--{"author":"Lauren's AI","timestamp":1786513835612}@@down, and its--}{++{"author":"Lauren's AI","timestamp":1786513835612}@@down. Its++} leadership treats misalignment risk as {--{"author":"Lauren's AI","timestamp":1786513835612}@@a talking--}{++{"author":"Lauren's AI","timestamp":1786513835612}@@something to++}
+{--{"author":"Lauren's AI","timestamp":1786513835612}@@point rather than a problem.--}{++{"author":"Lauren's AI","timestamp":1786513835612}@@mention, not something to solve.++}
 
 What remains is ten people inside the building who take the risk seriously. Buck
 Shlegeris asks what those ten should do with the little they have. Not how to fix the

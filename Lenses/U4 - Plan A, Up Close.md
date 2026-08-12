@@ -12,7 +12,7 @@ tags:
 content::
 \## Before you read
 
-The previous reading gave Plan A one paragraph: a strong international agreement that mostly ends the race and buys years of safety work. A paragraph is not a plan. This lens is the plan, at treaty resolution.
+The previous reading gave Plan A one {--{"author":"Lauren's AI","timestamp":1786513833514}@@paragraph:--}{++{"author":"Lauren's AI","timestamp":1786513833514}@@paragraph. It described++} a strong international agreement that mostly ends the race and {--{"author":"Lauren's AI","timestamp":1786513833514}@@buys--}{++{"author":"Lauren's AI","timestamp":1786513833514}@@gives the world++} years of safety work. A paragraph is not a plan. This lens is the {--{"author":"Lauren's AI","timestamp":1786513833514}@@plan, at treaty resolution.--}{++{"author":"Lauren's AI","timestamp":1786513833514}@@plan itself, in the detail of an actual treaty.++}
 
 Aaron Scher and colleagues on MIRI's Technical Governance Team have drafted the actual agreement. You will read the section that says what it does: which training runs get banned, which chips get tracked and where they are allowed to sit, who verifies whom, and why its governing council starts with exactly two members.
 
