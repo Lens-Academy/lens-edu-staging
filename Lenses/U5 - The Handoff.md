@@ -12,14 +12,16 @@ tags:
 content::
 \## Before you read
 
-Unit 4 was about plans. Go back and look at how the plans in the playbook that opened
-it end. Somewhere near the bottom, each one quietly hands most of the remaining safety
-work to AI systems, because there is too much of it and too few humans. Nobody
-advertised that step. It is where the plans run out of people.
+Unit 4 was about plans. Go back and look at how the plans in the {--{"author":"Lauren's AI","timestamp":1786514531093}@@playbook--}{++{"author":"Lauren's AI","timestamp":1786514531093}@@first reading of++} that{--{"author":"Lauren's AI","timestamp":1786514531093}@@ opened--}
+{--{"author":"Lauren's AI","timestamp":1786514531093}@@it--}{++{"author":"Lauren's AI","timestamp":1786514531093}@@unit++} end.{--{"author":"Lauren's AI","timestamp":1786514531093}@@ Somewhere near--}{++{"author":"Lauren's AI","timestamp":1786514531093}@@ Near++} the {--{"author":"Lauren's AI","timestamp":1786514531093}@@bottom,--}{++{"author":"Lauren's AI","timestamp":1786514531093}@@end of++} each {--{"author":"Lauren's AI","timestamp":1786514531093}@@one --}{++{"author":"Lauren's AI","timestamp":1786514531093}@@one, the plan ++}quietly hands most of the remaining safety
+work to AI systems, because there is too much {--{"author":"Lauren's AI","timestamp":1786514531093}@@of it --}{++{"author":"Lauren's AI","timestamp":1786514531093}@@work ++}and too few humans. Nobody
+advertised that step. It is {++{"author":"Lauren's AI","timestamp":1786514531093}@@the point ++}where the plans run out of people.
 
-How this unit runs, said here once. Each reading opens with a question, and when you
-answer it the tutor will usually ask you one back. Leave that one alone. Carry it into
-the reading and watch what the author does to it.
+{--{"author":"Lauren's AI","timestamp":1786514531093}@@How--}{++{"author":"Lauren's AI","timestamp":1786514531093}@@Here is how++} this unit {--{"author":"Lauren's AI","timestamp":1786514531093}@@runs, said here--}{++{"author":"Lauren's AI","timestamp":1786514531093}@@works. We say it++} once. Each reading opens with a {--{"author":"Lauren's AI","timestamp":1786514531093}@@question, and when you
+--}{++{"author":"Lauren's AI","timestamp":1786514531093}@@question. When
+you ++}answer {--{"author":"Lauren's AI","timestamp":1786514531093}@@it--}{++{"author":"Lauren's AI","timestamp":1786514531093}@@it,++} the tutor will usually ask you one {--{"author":"Lauren's AI","timestamp":1786514531093}@@back. Leave that one alone. Carry--}{++{"author":"Lauren's AI","timestamp":1786514531093}@@in return. Do not answer that
+question. Keep++} it {--{"author":"Lauren's AI","timestamp":1786514531093}@@into
+the reading--}{++{"author":"Lauren's AI","timestamp":1786514531093}@@in mind while you read,++} and {--{"author":"Lauren's AI","timestamp":1786514531093}@@watch--}{++{"author":"Lauren's AI","timestamp":1786514531093}@@see++} what the author does {--{"author":"Lauren's AI","timestamp":1786514531093}@@to--}{++{"author":"Lauren's AI","timestamp":1786514531093}@@with++} it.
 
 Joe Carlsmith calls the quiet step "AI for AI safety" and argues it should be treated
 as the central move, not the footnote. He frames it as a race between two feedback
