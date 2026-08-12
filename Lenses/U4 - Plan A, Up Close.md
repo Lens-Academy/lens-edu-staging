@@ -1,7 +1,7 @@
 ---
 id: 'c56ff069-3320-4695-9674-16ed883114ca'
 title: "Plan A, Up Close"
-tldr: Plan A was one paragraph about an international agreement. Here is what the agreement actually says, read after you have named where you think it breaks.
+tldr: Plan A was one paragraph about an international agreement. {--{"author":"Lauren's AI","timestamp":1786513807267}@@Here is what--}{++{"author":"Lauren's AI","timestamp":1786513807267}@@This lens is++} the agreement {--{"author":"Lauren's AI","timestamp":1786513807267}@@actually says, read after--}{++{"author":"Lauren's AI","timestamp":1786513807267}@@itself. You name where++} you {--{"author":"Lauren's AI","timestamp":1786513807267}@@have named where--}{++{"author":"Lauren's AI","timestamp":1786513807267}@@think it breaks before++} you{--{"author":"Lauren's AI","timestamp":1786513807267}@@ think it breaks.--}{++{"author":"Lauren's AI","timestamp":1786513807267}@@ read it.++}
 summary_for_tutor: "Optional second lens of Unit 4. Pre-question asks for the strongest case for an international agreement plus a commitment to its likeliest failure point (signing, verifying, or enforcing), then the student reads section 4 of the MIRI Technical Governance Team's draft agreement. One mirror, no grade."
 authors:
   - Claude
