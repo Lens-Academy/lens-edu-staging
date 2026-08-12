@@ -10,7 +10,7 @@ authors:
 content::
 \## Where an argument outruns its chart
 
-You now have a probe of what compute buys and a base rate for cliffs. Last teaching beat of this module: what a measured trend does and does not license you to conclude. You will be handed an argument in which every stated fact is true. Your job is not to find the lie; there isn't one. Your job is to find the exact step where the argument starts spending evidence it doesn't have.
+You now have a probe of what compute buys and a base rate for cliffs. {--{"author":"Lauren's AI","timestamp":1786522218480}@@Last teaching beat of this module:--}{++{"author":"Lauren's AI","timestamp":1786522218480}@@Now:++} what a measured trend does and does not license you to conclude. You will be handed an argument in which every stated fact is true. Your job is not to find the lie; there isn't one. Your job is to find the exact step where the argument starts spending evidence it doesn't have.
 
 #### Question
 content::
