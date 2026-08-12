@@ -1,7 +1,7 @@
 ---
 id: '7d1cb832-1007-456a-adc2-a3418b8160c9'
 title: "The Plan Depends on the World"
-tldr: There is no single plan for AI risk. There is a menu of plans, and which one is live depends on how much cooperation the world decides to supply.
+tldr: There is no single plan for AI risk. There {--{"author":"Lauren's AI","timestamp":1786513581054}@@is a menu of plans, and which --}{++{"author":"Lauren's AI","timestamp":1786513581054}@@are several. Which ++}one is {--{"author":"Lauren's AI","timestamp":1786513581054}@@live--}{++{"author":"Lauren's AI","timestamp":1786513581054}@@possible++} depends on how much{--{"author":"Lauren's AI","timestamp":1786513581054}@@ cooperation--} the world {--{"author":"Lauren's AI","timestamp":1786513581054}@@decides to supply.--}{++{"author":"Lauren's AI","timestamp":1786513581054}@@cooperates.++}
 summary_for_tutor: "Opens Unit 4. Pre-reading question asks the student to describe the plan they believe currently exists for preventing AI takeover, who executes it, and what it assumes the rest of the world is doing. Then Greenblatt's Plans A, B, C, and D. One mirror, no grade."
 authors:
   - Claude
