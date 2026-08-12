@@ -11,7 +11,7 @@ add_to_ai_context:
 #### Text
 content::
 \## Reading Assignment
-**Read *Introduction: Hard Calls and Easy Calls*.** 
+{--{"author":"Elias's AI","timestamp":1786518967703}@@**Read--}{++{"author":"Elias's AI","timestamp":1786518967703}@@**From *If Anyone Builds It, Everyone Dies*, read++} *Introduction: Hard Calls and Easy Calls*.** 
 
 Start at the phrase
 > MITIGATING THE RISK OF EXTINCTION FROM AI SHOULD BE A global priority alongside other societal-scale risks such as pandemics and nuclear war
