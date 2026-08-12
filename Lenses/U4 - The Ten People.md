@@ -23,9 +23,11 @@ situation. How to buy risk reduction at the margin, on a small budget, without g
 fired.
 
 Read it as an inventory, not a recommendation. It is not an argument that insiders are
-enough, and it is not an argument for giving up on everything upstream. It is a count of
-the leverage left over when everything upstream has failed. Before he counts it, count
-it yourself.
+{--{"author":"Lauren's AI","timestamp":1786513942158}@@enough, and it is--}{++{"author":"Lauren's AI","timestamp":1786513942158}@@enough. It is also++} not an argument for giving up on {--{"author":"Lauren's AI","timestamp":1786513942158}@@everything upstream. --}{++{"author":"Lauren's AI","timestamp":1786513942158}@@treaties and governments. ++}It is a{--{"author":"Lauren's AI","timestamp":1786513942158}@@ --}{++{"author":"Lauren's AI","timestamp":1786513942158}@@
+++}count of{--{"author":"Lauren's AI","timestamp":1786513942158}@@
+--}{++{"author":"Lauren's AI","timestamp":1786513942158}@@ ++}the {--{"author":"Lauren's AI","timestamp":1786513942158}@@leverage left over when everything upstream has--}{++{"author":"Lauren's AI","timestamp":1786513942158}@@influence that remains after those larger plans have++} failed. Before he{--{"author":"Lauren's AI","timestamp":1786513942158}@@ --}{++{"author":"Lauren's AI","timestamp":1786513942158}@@
+++}counts it, count{--{"author":"Lauren's AI","timestamp":1786513942158}@@
+--}{++{"author":"Lauren's AI","timestamp":1786513942158}@@ ++}it yourself.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 

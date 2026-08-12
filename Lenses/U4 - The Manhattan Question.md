@@ -33,13 +33,16 @@ advocacy, --}{++{"author":"Lauren's AI","timestamp":1786513913840}@@advocacy for
 in Washington. Use++} the link{--{"author":"Lauren's AI","timestamp":1786513913840}@@ is there --}{++{"author":"Lauren's AI","timestamp":1786513913840}@@ ++}if you want the position at full{--{"author":"Lauren's AI","timestamp":1786513913840}@@
 --}{++{"author":"Lauren's AI","timestamp":1786513913840}@@ ++}strength.
 
-Today's reading is shorter and cuts the other way. Its authors put two questions to
-professional forecasters, how likely a government-led AGI project is and what form it
-would take, and then argue in their own voice about whether it would help. You will have
-your own answer to that last part before they give you theirs.
+Today's reading is {--{"author":"Lauren's AI","timestamp":1786513946473}@@shorter--}{++{"author":"Lauren's AI","timestamp":1786513946473}@@shorter,++} and {--{"author":"Lauren's AI","timestamp":1786513946473}@@cuts the other way.--}{++{"author":"Lauren's AI","timestamp":1786513946473}@@it argues the opposite.++} Its authors {--{"author":"Lauren's AI","timestamp":1786513946473}@@put--}{++{"author":"Lauren's AI","timestamp":1786513946473}@@asked professional
+forecasters++} two {--{"author":"Lauren's AI","timestamp":1786513946473}@@questions to
+professional forecasters, --}{++{"author":"Lauren's AI","timestamp":1786513946473}@@questions: ++}how likely a government-led AGI project {--{"author":"Lauren's AI","timestamp":1786513946473}@@is--}{++{"author":"Lauren's AI","timestamp":1786513946473}@@is,++} and what form it
+would {--{"author":"Lauren's AI","timestamp":1786513946473}@@take, and--}{++{"author":"Lauren's AI","timestamp":1786513946473}@@take. The authors++} then {--{"author":"Lauren's AI","timestamp":1786513946473}@@argue in --}{++{"author":"Lauren's AI","timestamp":1786513946473}@@give ++}their own {--{"author":"Lauren's AI","timestamp":1786513946473}@@voice--}{++{"author":"Lauren's AI","timestamp":1786513946473}@@argument++} about whether {--{"author":"Lauren's AI","timestamp":1786513946473}@@it would --}{++{"author":"Lauren's AI","timestamp":1786513946473}@@such a project would
+++}help. You will have{--{"author":"Lauren's AI","timestamp":1786513946473}@@
+--}{++{"author":"Lauren's AI","timestamp":1786513946473}@@ ++}your own answer to that last {--{"author":"Lauren's AI","timestamp":1786513946473}@@part--}{++{"author":"Lauren's AI","timestamp":1786513946473}@@question++} before they give you theirs.
 
-A neighbouring state strategy, for later rather than now: what if the plan is to threaten
-each other's datacenters instead? [[../articles/delaney-crucial-considerations-in-asi-deterrence]]
+{--{"author":"Lauren's AI","timestamp":1786513946473}@@A neighbouring--}{++{"author":"Lauren's AI","timestamp":1786513946473}@@Here is a related++} state strategy, for later rather than {--{"author":"Lauren's AI","timestamp":1786513946473}@@now: what--}{++{"author":"Lauren's AI","timestamp":1786513946473}@@now. What++} if the plan is {++{"author":"Lauren's AI","timestamp":1786513946473}@@for
+states ++}to threaten{--{"author":"Lauren's AI","timestamp":1786513946473}@@
+--}{++{"author":"Lauren's AI","timestamp":1786513946473}@@ ++}each other's datacenters instead? [[../articles/delaney-crucial-considerations-in-asi-deterrence]]
 takes that idea seriously.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the authors' own work.*
