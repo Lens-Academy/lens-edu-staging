@@ -12,8 +12,8 @@ tags:
 content::
 \## Where you started
 
-One rule has {--{"author":"Lauren's AI","timestamp":1786515444325}@@held--}{++{"author":"Lauren's AI","timestamp":1786515444325}@@applied++} through this whole course: when we asked for your model, you wrote
-first, from memory, and {++{"author":"Lauren's AI","timestamp":1786515444325}@@compared ++}only {--{"author":"Lauren's AI","timestamp":1786515444325}@@compared after.--}{++{"author":"Lauren's AI","timestamp":1786515444325}@@afterwards.++} Revision 1 worked that way. The Unit 3
+One rule has applied through this whole course: when we asked for your model, you wrote
+first, from memory, and compared only afterwards. Revision 1 worked that way. The Unit 3
 rewrite worked that way. Today the order reverses, once.
 
 Before you write anything, go back to the first lens of Unit 1 and read your day-zero
@@ -23,22 +23,16 @@ you started." This is the end. The comparison is the exercise.
 
 While you have it open, say the course's sentence one last time: what could possibly
 happen, how anyone could know, how it could go wrong, where the leverage is. You have now
-written an answer to every clause in your own words. {--{"author":"Lauren's AI","timestamp":1786515489844}@@Trajectories with mechanisms in--}{++{"author":"Lauren's AI","timestamp":1786515489844}@@Unit 1 gave you trajectories with++}
-{++{"author":"Lauren's AI","timestamp":1786515489844}@@mechanisms. ++}Unit {--{"author":"Lauren's AI","timestamp":1786515489844}@@1. Signposts--}{++{"author":"Lauren's AI","timestamp":1786515489844}@@2 gave++} you {--{"author":"Lauren's AI","timestamp":1786515489844}@@could check in--}{++{"author":"Lauren's AI","timestamp":1786515489844}@@signposts you could check.++} Unit {--{"author":"Lauren's AI","timestamp":1786515489844}@@2. A--}{++{"author":"Lauren's AI","timestamp":1786515489844}@@3 gave you a++} rivalry over{--{"author":"Lauren's AI","timestamp":1786515489844}@@ --}{++{"author":"Lauren's AI","timestamp":1786515489844}@@
-++}where the risk {--{"author":"Lauren's AI","timestamp":1786515489844}@@lives, met in
-Unit 3;--}{++{"author":"Lauren's AI","timestamp":1786515489844}@@lives. Unit 4 asked you to take++} a side on it, and {++{"author":"Lauren's AI","timestamp":1786515489844}@@to put ++}a hundred points{--{"author":"Lauren's AI","timestamp":1786515489844}@@ --}{++{"author":"Lauren's AI","timestamp":1786515489844}@@
-++}across the {--{"author":"Lauren's AI","timestamp":1786515489844}@@levers, in Unit 4. A--}{++{"author":"Lauren's AI","timestamp":1786515489844}@@levers. This week gave you a++} gap on the{--{"author":"Lauren's AI","timestamp":1786515489844}@@
-menu this week. None
-of those answers were--}{++{"author":"Lauren's AI","timestamp":1786515489844}@@ menu. Nobody++} handed {--{"author":"Lauren's AI","timestamp":1786515489844}@@to you; the--}{++{"author":"Lauren's AI","timestamp":1786515489844}@@you those
-answers. The++} readings argued, and you committed.
+written an answer to every clause in your own words. Unit 1 gave you trajectories with
+mechanisms. Unit 2 gave you signposts you could check. Unit 3 gave you a rivalry over
+where the risk lives. Unit 4 asked you to take a side on it, and to put a hundred points
+across the levers. This week gave you a gap on the menu. Nobody handed you those
+answers. The readings argued, and you committed.
 
-One last {--{"author":"Lauren's AI","timestamp":1786515570355}@@license,--}{++{"author":"Lauren's AI","timestamp":1786515570355}@@permission,++} and it is not a formality. If the model you write today disagrees{--{"author":"Lauren's AI","timestamp":1786515570355}@@ --}{++{"author":"Lauren's AI","timestamp":1786515570355}@@
-++}with{--{"author":"Lauren's AI","timestamp":1786515570355}@@
---}{++{"author":"Lauren's AI","timestamp":1786515570355}@@ ++}every reading in this course, and you can argue {++{"author":"Lauren's AI","timestamp":1786515570355}@@for ++}it, that is the best possible{--{"author":"Lauren's AI","timestamp":1786515570355}@@ --}{++{"author":"Lauren's AI","timestamp":1786515570355}@@
-++}outcome.{--{"author":"Lauren's AI","timestamp":1786515570355}@@
---}{++{"author":"Lauren's AI","timestamp":1786515570355}@@ ++}The course was never trying to leave you {--{"author":"Lauren's AI","timestamp":1786515570355}@@holding--}{++{"author":"Lauren's AI","timestamp":1786515570355}@@with++} its model. It was trying to leave{--{"author":"Lauren's AI","timestamp":1786515570355}@@ you
-holding yours.--}{++{"author":"Lauren's AI","timestamp":1786515570355}@@
-you with your own.++}
+One last permission, and it is not a formality. If the model you write today disagrees
+with every reading in this course, and you can argue for it, that is the best possible
+outcome. The course was never trying to leave you with its model. It was trying to leave
+you with your own.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
 
@@ -55,24 +49,21 @@ the world.
 How you would know. The Unit 2 layer: two or three checkable signposts you will actually
 watch over the next two years, and which way each one would move you.
 
-Where the risk lives. The Unit 3 layer: the rivalry that {--{"author":"Lauren's AI","timestamp":1786515607973}@@unit's closer--}{++{"author":"Lauren's AI","timestamp":1786515607973}@@the last lens of that unit++} left{--{"author":"Lauren's AI","timestamp":1786515607973}@@ unsettled,
-Soares's inside-the-systems against Kulveit's between-the-institutions.--}{++{"author":"Lauren's AI","timestamp":1786515607973}@@
+Where the risk lives. The Unit 3 layer: the rivalry that the last lens of that unit left
 unsettled. Soares argues the risk is inside the systems. Kulveit argues it is between
-the institutions.++} Take your side,{--{"author":"Lauren's AI","timestamp":1786515607973}@@
---}{++{"author":"Lauren's AI","timestamp":1786515607973}@@ ++}and let the rest of the model show it.
+the institutions. Take your side, and let the rest of the model show it.
 
 What should be done. The Unit 4 and 5 layer: which levers, pulled by whom.
 
 Then three short things.
 
-Redo your hundred points, with your name attached this {--{"author":"Lauren's AI","timestamp":1786515662447}@@time, and say--}{++{"author":"Lauren's AI","timestamp":1786515662447}@@time. Say++} what specifically{++{"author":"Lauren's AI","timestamp":1786515662447}@@ moved++}
-{--{"author":"Lauren's AI","timestamp":1786515662447}@@moved --}since Unit 4. "Nothing moved" is a real {--{"author":"Lauren's AI","timestamp":1786515662447}@@result: if--}{++{"author":"Lauren's AI","timestamp":1786515662447}@@result. If++} that is your answer, say which
+Redo your hundred points, with your name attached this time. Say what specifically moved
+since Unit 4. "Nothing moved" is a real result. If that is your answer, say which
 reading failed to move it.
 
 One line on where your own next hour goes. A track: governance, alignment, strategy,
 something else. A project from the menu. Or a named reason to put it elsewhere. "Watch
-carefully and stay ready to act" is a real answer if you say what would {--{"author":"Lauren's AI","timestamp":1786515664496}@@trigger the
-acting.--}{++{"author":"Lauren's AI","timestamp":1786515664496}@@make you act.++}
+carefully and stay ready to act" is a real answer if you say what would make you act.
 
 And one line quoting the sentence in your day-zero snapshot that most surprises you now.
 

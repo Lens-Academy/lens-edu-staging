@@ -1,7 +1,7 @@
 ---
 id: '46f005d9-6e4e-49e9-a584-c2ab5492aecf'
 title: "The Ten People"
-tldr: When no plan arrives from outside, {--{"author":"Lauren's AI","timestamp":1786513814306}@@leverage shrinks to headcount.--}{++{"author":"Lauren's AI","timestamp":1786513814306}@@the only resource left is the people already inside.++} What ten people {--{"author":"Lauren's AI","timestamp":1786513814306}@@inside--}{++{"author":"Lauren's AI","timestamp":1786513814306}@@in++} a racing lab can still {--{"author":"Lauren's AI","timestamp":1786513814306}@@buy,--}{++{"author":"Lauren's AI","timestamp":1786513814306}@@achieve,++} and what it costs {--{"author":"Lauren's AI","timestamp":1786513814306}@@them to keep buying it.--}{++{"author":"Lauren's AI","timestamp":1786513814306}@@them.++}
+tldr: When no plan arrives from outside, the only resource left is the people already inside. What ten people in a racing lab can still achieve, and what it costs them.
 summary_for_tutor: "Middle lens of Unit 4. Pre-question puts the student inside a racing lab as one of ten safety-minded insiders and asks what they would spend their limited influence on; then they read Shlegeris. One mirror, no grade."
 authors:
   - Claude
@@ -12,22 +12,20 @@ tags:
 content::
 \## Before you read
 
-The {--{"author":"Lauren's AI","timestamp":1786513835612}@@playbook--}{++{"author":"Lauren's AI","timestamp":1786513835612}@@list of plans++} that opened this unit got {--{"author":"Lauren's AI","timestamp":1786513835612}@@thinner--}{++{"author":"Lauren's AI","timestamp":1786513835612}@@shorter++} as political will {--{"author":"Lauren's AI","timestamp":1786513835612}@@drained away.--}{++{"author":"Lauren's AI","timestamp":1786513835612}@@fell.++} This
-reading {--{"author":"Lauren's AI","timestamp":1786513835612}@@lives at --}{++{"author":"Lauren's AI","timestamp":1786513835612}@@describes ++}the bottom of that {--{"author":"Lauren's AI","timestamp":1786513835612}@@slide.--}{++{"author":"Lauren's AI","timestamp":1786513835612}@@list.++} No treaty arrives. No government {--{"author":"Lauren's AI","timestamp":1786513835612}@@steps in.--}{++{"author":"Lauren's AI","timestamp":1786513835612}@@acts. The++}
-{--{"author":"Lauren's AI","timestamp":1786513835612}@@The --}company will not slow {--{"author":"Lauren's AI","timestamp":1786513835612}@@down, and its--}{++{"author":"Lauren's AI","timestamp":1786513835612}@@down. Its++} leadership treats misalignment risk as {--{"author":"Lauren's AI","timestamp":1786513835612}@@a talking--}{++{"author":"Lauren's AI","timestamp":1786513835612}@@something to++}
-{--{"author":"Lauren's AI","timestamp":1786513835612}@@point rather than a problem.--}{++{"author":"Lauren's AI","timestamp":1786513835612}@@mention, not something to solve.++}
+The list of plans that opened this unit got shorter as political will fell. This
+reading describes the bottom of that list. No treaty arrives. No government acts. The
+company will not slow down. Its leadership treats misalignment risk as something to
+mention, not something to solve.
 
-What remains is ten people inside the {--{"author":"Lauren's AI","timestamp":1786513907214}@@building--}{++{"author":"Lauren's AI","timestamp":1786513907214}@@company++} who take the risk seriously. Buck
+What remains is ten people inside the company who take the risk seriously. Buck
 Shlegeris asks what those ten should do with the little they have. Not how to fix the
 situation. How to buy risk reduction at the margin, on a small budget, without getting
 fired.
 
 Read it as an inventory, not a recommendation. It is not an argument that insiders are
-{--{"author":"Lauren's AI","timestamp":1786513942158}@@enough, and it is--}{++{"author":"Lauren's AI","timestamp":1786513942158}@@enough. It is also++} not an argument for giving up on {--{"author":"Lauren's AI","timestamp":1786513942158}@@everything upstream. --}{++{"author":"Lauren's AI","timestamp":1786513942158}@@treaties and governments. ++}It is a{--{"author":"Lauren's AI","timestamp":1786513942158}@@ --}{++{"author":"Lauren's AI","timestamp":1786513942158}@@
-++}count of{--{"author":"Lauren's AI","timestamp":1786513942158}@@
---}{++{"author":"Lauren's AI","timestamp":1786513942158}@@ ++}the {--{"author":"Lauren's AI","timestamp":1786513942158}@@leverage left over when everything upstream has--}{++{"author":"Lauren's AI","timestamp":1786513942158}@@influence that remains after those larger plans have++} failed. Before he{--{"author":"Lauren's AI","timestamp":1786513942158}@@ --}{++{"author":"Lauren's AI","timestamp":1786513942158}@@
-++}counts it, count{--{"author":"Lauren's AI","timestamp":1786513942158}@@
---}{++{"author":"Lauren's AI","timestamp":1786513942158}@@ ++}it yourself.
+enough. It is also not an argument for giving up on treaties and governments. It is a
+count of the influence that remains after those larger plans have failed. Before he
+counts it, count it yourself.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
@@ -36,16 +34,14 @@ content::
 \## Your turn first
 
 You are one of ten people inside a leading AI lab who take misalignment risk seriously.
-The rest of the company does {--{"author":"Lauren's AI","timestamp":1786513997179}@@not, and it--}{++{"author":"Lauren's AI","timestamp":1786513997179}@@not. The company++} will not slow down. You have almost no{--{"author":"Lauren's AI","timestamp":1786513997179}@@ --}{++{"author":"Lauren's AI","timestamp":1786513997179}@@
-++}budget{--{"author":"Lauren's AI","timestamp":1786513997179}@@
---}{++{"author":"Lauren's AI","timestamp":1786513997179}@@ ++}and no {--{"author":"Lauren's AI","timestamp":1786513997179}@@authority, --}{++{"author":"Lauren's AI","timestamp":1786513997179}@@authority. You have ++}only {--{"author":"Lauren's AI","timestamp":1786513997179}@@whatever--}{++{"author":"Lauren's AI","timestamp":1786513997179}@@the++} influence {++{"author":"Lauren's AI","timestamp":1786513997179}@@that ++}ten insiders can {--{"author":"Lauren's AI","timestamp":1786513997179}@@scrape together.--}{++{"author":"Lauren's AI","timestamp":1786513997179}@@gather.++}
+The rest of the company does not. The company will not slow down. You have almost no
+budget and no authority. You have only the influence that ten insiders can gather.
 
 Write two or three sentences naming the two things you would spend that influence on,
 and why those two.
 
-Then write one more {--{"author":"Lauren's AI","timestamp":1786513997179}@@line, and it costs more than the first two.--}{++{"author":"Lauren's AI","timestamp":1786513997179}@@line. This one is harder.++} If leadership turned{--{"author":"Lauren's AI","timestamp":1786513997179}@@
---}{++{"author":"Lauren's AI","timestamp":1786513997179}@@ ++}against your team,{--{"author":"Lauren's AI","timestamp":1786513997179}@@ --}{++{"author":"Lauren's AI","timestamp":1786513997179}@@
-++}which of the two survives?
+Then write one more line. This one is harder. If leadership turned against your team,
+which of the two survives?
 
 assessment-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
