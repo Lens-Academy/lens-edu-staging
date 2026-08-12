@@ -46,12 +46,15 @@ shows what Chinese AI policy {--{"author":"Lauren's AI","timestamp":178651428502
 content::
 \## Commit to a number
 
-Before you open either reading: how many months behind the US frontier are Chinese AI
-models today? Write the number down.
+Before you open either {--{"author":"Lauren's AI","timestamp":1786514323219}@@reading: how--}{++{"author":"Lauren's AI","timestamp":1786514323219}@@reading, answer this. How++} many months behind the US frontier are{--{"author":"Lauren's AI","timestamp":1786514323219}@@ --}{++{"author":"Lauren's AI","timestamp":1786514323219}@@
+++}Chinese AI{--{"author":"Lauren's AI","timestamp":1786514323219}@@
+--}{++{"author":"Lauren's AI","timestamp":1786514323219}@@ ++}models today? Write the number down.
 
-Then write one more line saying where your number comes from. A benchmark you saw, a
-headline, a model you tried, the general sense of the discourse. Name the source
-honestly. A wrong number you can defend beats no number at all.
+Then write one more line saying where your number comes from. {--{"author":"Lauren's AI","timestamp":1786514323219}@@A--}{++{"author":"Lauren's AI","timestamp":1786514323219}@@It could be a++} benchmark{--{"author":"Lauren's AI","timestamp":1786514323219}@@ --}{++{"author":"Lauren's AI","timestamp":1786514323219}@@
+++}you saw, a{--{"author":"Lauren's AI","timestamp":1786514323219}@@
+--}{++{"author":"Lauren's AI","timestamp":1786514323219}@@ ++}headline, a model you tried, {--{"author":"Lauren's AI","timestamp":1786514323219}@@the--}{++{"author":"Lauren's AI","timestamp":1786514323219}@@or a++} general {--{"author":"Lauren's AI","timestamp":1786514323219}@@sense of the discourse. --}{++{"author":"Lauren's AI","timestamp":1786514323219}@@impression from what people say.
+++}Name the source{--{"author":"Lauren's AI","timestamp":1786514323219}@@
+--}{++{"author":"Lauren's AI","timestamp":1786514323219}@@ ++}honestly. A wrong number you can defend beats no number at all.
 
 assessment-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.

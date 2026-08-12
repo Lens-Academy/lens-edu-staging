@@ -30,7 +30,7 @@ Assume alignment is solved. The frontier AIs do exactly what their developer int
 
 Write three or four sentences tracing a path from that starting point to one person effectively in charge of everything. Name concrete steps: who does what, using which access, while everyone else is doing what.
 
-Then write one more line, and it is the one that does the real work. Name the earliest guardrail that would have to fail for your path to work: the first specific check, rule, or person standing in the way, and why it gives.
+Then write one more {--{"author":"Lauren's AI","timestamp":1786514324698}@@line, and it--}{++{"author":"Lauren's AI","timestamp":1786514324698}@@line. This++} is the{--{"author":"Lauren's AI","timestamp":1786514324698}@@ one that does the real work.--}{++{"author":"Lauren's AI","timestamp":1786514324698}@@ most important one.++} Name the earliest guardrail that would have to fail for your path to {--{"author":"Lauren's AI","timestamp":1786514324698}@@work:--}{++{"author":"Lauren's AI","timestamp":1786514324698}@@work. Name++} the first specific check, rule, or person {--{"author":"Lauren's AI","timestamp":1786514324698}@@standing in the way,--}{++{"author":"Lauren's AI","timestamp":1786514324698}@@that would stop you,++} and {++{"author":"Lauren's AI","timestamp":1786514324698}@@say ++}why it {--{"author":"Lauren's AI","timestamp":1786514324698}@@gives.--}{++{"author":"Lauren's AI","timestamp":1786514324698}@@fails.++}
 
 assessment-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
