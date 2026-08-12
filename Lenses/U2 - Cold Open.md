@@ -12,15 +12,15 @@ content::
 
 Here are three problems we hope you cannot solve.
 
-This is not a joke and not a test. We are asking you to fail on {--{"author":"Lauren's AI","timestamp":1786522368610}@@purpose. Learning scientists call this productive failure. You--}{++{"author":"Lauren's AI","timestamp":1786522368610}@@purpose: you++} remember an answer better if you tried first and got it wrong.{--{"author":"Lauren's AI","timestamp":1786522368610}@@ A method taught before you need it feels like a procedure to memorise, and you forget it.--}
+This is not a joke and not a test. We are asking you to fail on purpose: you remember an answer better if you tried first and got it wrong.
 
-None of these three problems is about AI, and that is deliberate.{--{"author":"Lauren's AI","timestamp":1786522368610}@@ We want to see your reasoning, not your reading. --}{++{"author":"Lauren's AI","timestamp":1786522368610}@@ ++}A problem you have already read about {--{"author":"Lauren's AI","timestamp":1786522368610}@@cannot show--}{++{"author":"Lauren's AI","timestamp":1786522368610}@@shows++} us your{--{"author":"Lauren's AI","timestamp":1786522368610}@@ reasoning. The AI versions come later in the unit, after you have practised the methods.--}{++{"author":"Lauren's AI","timestamp":1786522368610}@@ reading, not your reasoning.++}
+None of these three problems is about AI, and that is deliberate. A problem you have already read about shows us your reading, not your reasoning.
 
 So struggle on purpose. Answer at whatever depth you reach. Guess badly rather than skip a question. Give each problem enough time. We do not grade these against a right answer. Problem 1 does have a correct answer in the world, but do not look it up. Problems 2 and 3 are graded on your reasoning, and good reasoning can reach either conclusion.
 
-{--{"author":"Lauren's AI","timestamp":1786522410589}@@At the end of the--}{++{"author":"Lauren's AI","timestamp":1786522410589}@@Later in this++} unit {--{"author":"Lauren's AI","timestamp":1786522410589}@@we give you--}{++{"author":"Lauren's AI","timestamp":1786522410589}@@you get++} three more problems, in different subjects and harder than these. This unit measures the difference between what you write now and what you write then.
+Later in this unit you get three more problems, in different subjects and harder than these. This unit measures the difference between what you write now and what you write then.
 
-Your answers stay in this module's{--{"author":"Lauren's AI","timestamp":1786522410589}@@ chat, so you can scroll back to them at the end.--}{++{"author":"Lauren's AI","timestamp":1786522410589}@@ chat.++} The tutor {--{"author":"Lauren's AI","timestamp":1786522410589}@@who grades the final three --}{++{"author":"Lauren's AI","timestamp":1786522410589}@@grading those later ++}problems cannot see {--{"author":"Lauren's AI","timestamp":1786522410589}@@these answers. It--}{++{"author":"Lauren's AI","timestamp":1786522410589}@@them, so it++} will ask you to {--{"author":"Lauren's AI","timestamp":1786522410589}@@copy them into that conversation. You have to do that step yourself.--}{++{"author":"Lauren's AI","timestamp":1786522410589}@@scroll back and paste what you wrote.++}
+Your answers stay in this module's chat. The tutor grading those later problems cannot see them, so it will ask you to scroll back and paste what you wrote.
 
 Write out the arithmetic when a problem needs arithmetic. A description of the arithmetic does not count.
 

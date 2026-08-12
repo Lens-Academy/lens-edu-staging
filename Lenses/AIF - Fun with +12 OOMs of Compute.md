@@ -10,7 +10,7 @@ authors:
 content::
 \## Remove the bottleneck and see what your model predicts
 
-The fastest way to find out what your model of AI progress is made of is to remove its favorite bottleneck and watch what it predicts. Daniel Kokotajlo's question, in his words: "Can we get TAI just by throwing more compute at the problem?" His method is a magic wand: grant 2016's researchers twelve extra orders of magnitude of compute, and ask what gets built. This is not a forecast. It is a probe, and the thing it probes is you: what do you believe compute buys? He wrote the exercise into the article himself. {--{"author":"Lauren's AI","timestamp":1786522087275}@@We are simply administering it. --}You will struggle a little here; that is the {--{"author":"Lauren's AI","timestamp":1786522087275}@@point, and you'll see why by the end of the lens.--}{++{"author":"Lauren's AI","timestamp":1786522087275}@@point.++}
+The fastest way to find out what your model of AI progress is made of is to remove its favorite bottleneck and watch what it predicts. Daniel Kokotajlo's question, in his words: "Can we get TAI just by throwing more compute at the problem?" His method is a magic wand: grant 2016's researchers twelve extra orders of magnitude of compute, and ask what gets built. This is not a forecast. It is a probe, and the thing it probes is you: what do you believe compute buys? He wrote the exercise into the article himself. You will struggle a little here; that is the point.
 
 A few translations before you read, because the article talks in units it never introduces. *Compute* is the total number of calculations spent building an AI, treated like a fuel budget; it is counted in FLOP[^flop] and written in powers of ten, where 10^23 means a 1 followed by 23 zeros. One *order of magnitude* (OOM) is a factor of ten, so +12 OOMs means a trillion times more, not twelve times more. And *TAI*, transformative AI, is AI that changes the world at least as much as the industrial revolution did; the article defines it properly later.
 
@@ -25,7 +25,7 @@ to:: think about fun things that could be built in this scenario.
 content::
 \## His exercise, administered
 
-Kokotajlo's own instruction: "I encourage you to stop reading, set a five-minute timer, and think about fun things that could be built in this scenario." By "fun" he means "powerful." He asked readers to post answers in the comments; for you, this box is the comments. {--{"author":"Lauren's AI","timestamp":1786522089389}@@One reminder before the timer starts: this exercise probes you, not the future. --}A list that feels hard to produce is exactly the data {--{"author":"Lauren's AI","timestamp":1786522089389}@@it exists to collect; it shows you what your model thinks compute buys.--}{++{"author":"Lauren's AI","timestamp":1786522089389}@@this collects.++} Set a real five-minute timer. List the most powerful things you think AI projects could build in the Compute Fairy world, and for each, one line on why compute was the thing holding it back.
+Kokotajlo's own instruction: "I encourage you to stop reading, set a five-minute timer, and think about fun things that could be built in this scenario." By "fun" he means "powerful." He asked readers to post answers in the comments; for you, this box is the comments. A list that feels hard to produce is exactly the data this collects. Set a real five-minute timer. List the most powerful things you think AI projects could build in the Compute Fairy world, and for each, one line on why compute was the thing holding it back.
 
 max-time:: 8:00
 

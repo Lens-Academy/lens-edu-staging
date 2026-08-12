@@ -33,7 +33,7 @@ source:: [[../articles/ngo-selective-optimism-critique-of-ai-2040]]
 content::
 \## Phase 1: Recall
 
-Spend 2 minutes writing down everything you can {--{"author":"Lauren's AI","timestamp":1786523333457}@@remember from both readings,--}{++{"author":"Lauren's AI","timestamp":1786523333457}@@remember,++} without looking back. No need to organize it, and {++{"author":"Lauren's AI","timestamp":1786523333457}@@if you read both, ++}do not worry about keeping them separate.{--{"author":"Lauren's AI","timestamp":1786523333457}@@ Speech to text is recommended.--}
+Spend 2 minutes writing down everything you can remember, without looking back. No need to organize it, and if you read both, do not worry about keeping them separate.
 
 assessment-instructions:: The student has read Ngo's critique of AI 2040 and Demski's Parable of Predict-O-Matic, and has written a free recall of both.
 
@@ -72,7 +72,7 @@ This is a one-turn response. Do not ask a question. Tell them to move on.
 content::
 \## Phase 2: Processing
 
-Take 2 minutes on your reaction to these two readings, and to how they fit with everything earlier in this unit. What felt important to you? What confused you? What did you want to argue with?{--{"author":"Lauren's AI","timestamp":1786523336213}@@ Speech to text is recommended.--}
+Take 2 minutes on your reaction to these two readings, and to how they fit with everything earlier in this unit. What felt important to you? What confused you? What did you want to argue with?
 
 assessment-instructions:: The student has recalled both readings and is now reflecting. This is the last processing phase of the unit, so the reflection is partly about the unit.
 
