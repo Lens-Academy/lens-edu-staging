@@ -49,7 +49,7 @@ Comparing the scale of surviving and flourishing
 
 {--{"author":"Elias's AI","timestamp":1786523023407}@@## Image
 
---}On these {--{"author":"Elias's AI","timestamp":1786523023407}@@numbers,--}{++{"author":"Elias's AI","timestamp":1786523023407}@@numbers,{>>{"author":"Elias's AI","timestamp":1786523023407}@@Removed a stray "## Image" heading left by the importer after the figure caption. It renders as an empty section, and it falls inside the excerpt the U5 Suppose We Survive lens assigns.<<}++} if we completely solved the problem of not- _Surviving_, we would be 20 percentage points more likely to get a future that's 10% as good as it could be. Multiplying these together, the difference we’d make amounts to 2% of the value of the best feasible future.
+--}On these numbers, if we completely solved the problem of not- _Surviving_, we would be 20 percentage points more likely to get a future that's 10% as good as it could be. Multiplying these together, the difference we’d make amounts to 2% of the value of the best feasible future.
 
 In contrast, if we completely solved the problem of non- _Flourishing_, then we’d have an 80% chance of getting to a 100%-valuable future. The difference we’d make amounts to 72% of the value of the best feasible future — 36 times greater than if we’d solved the problem of not- _Surviving_. Indeed, increasing the value of the future given survival from 10% to just 12.5% would be as good as wholly eliminating the chance that we don't survive.[3](#user-content-fn-3)
 
