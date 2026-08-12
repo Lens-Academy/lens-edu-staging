@@ -30,7 +30,7 @@ content::
 
 Write two or three sentences making the strongest case that an international agreement is the best-case plan. Not a fair case. The strongest one.
 
-Then write one more line, and commit: which is the likeliest point of failure for this agreement, signing it, verifying it, or enforcing it? Name the one you would bet on.
+Then write one more line, and {--{"author":"Lauren's AI","timestamp":1786514042574}@@commit: which--}{++{"author":"Lauren's AI","timestamp":1786514042574}@@commit to an answer. Which++} is the likeliest point of failure for this {--{"author":"Lauren's AI","timestamp":1786514042574}@@agreement,--}{++{"author":"Lauren's AI","timestamp":1786514042574}@@agreement:++} signing it, verifying it, or enforcing it? Name the one you would bet on.
 
 assessment-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
