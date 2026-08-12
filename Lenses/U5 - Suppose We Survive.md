@@ -2,7 +2,7 @@
 id: '614b1b8a-d862-4e7a-a388-aa8452c583be'
 title: "Suppose We Survive"
 tldr: Avoiding the disaster and getting a future worth having are two different jobs. Decide whether the second one happens on its own.
-summary_for_tutor: "Second lens of Unit 5. The student commits yes or no on whether a takeover-free future is good by default, then reads a short course-written summary of MacAskill's Introducing Better Futures (the essay is linked, not embedded, so the tutor does not have it). One mirror, no grade."
+summary_for_tutor: "Second lens of Unit 5. The student commits yes or no on whether a takeover-free future is good by default, then reads {--{"author":"Elias's AI","timestamp":1786522727521}@@a short course-written summary of MacAskill's Introducing Better Futures (the essay is linked, not embedded, so the--}{++{"author":"Elias's AI","timestamp":1786522727521}@@MacAskill's Introducing Better Futures, embedded as an excerpt: the two-factor Surviving and Flourishing split, the scale and neglectedness arguments, his candour about tractability, and his refusal to name a destination. The++} tutor {--{"author":"Elias's AI","timestamp":1786522727521}@@does not have it).--}{++{"author":"Elias's AI","timestamp":1786522727521}@@has the excerpt in context.++} One mirror, no grade."
 authors:
   - Claude
 tags:
