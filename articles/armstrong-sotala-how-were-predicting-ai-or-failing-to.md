@@ -572,7 +572,7 @@ seven predictions setting dates beyond the year 2100, three of them expert.){--{
 
 ![Figure 1](https://raw.githubusercontent.com/Lens-Academy/lens-edu-production/11450062e38f25fd37ec231d873bb6a80bca10b8/attachments/armstrong-sotala-how-were-predicting-ai-or-failing-to-fig1-89400b62.png)
 
-++}Figure 1: Median estimate for human-level AI, graphed against date of {--{"author":"Elias's AI","timestamp":1786524533238}@@prediction.--}{++{"author":"Elias's AI","timestamp":1786524533238}@@prediction.{>>{"author":"Elias's AI","timestamp":1786524533238}@@The paper's five figures were missing from this copy, which was hand-built from a text mirror; the lens assigns this section and its prose points at the plots. Extracted from the source PDF (intelligence.org/files/PredictingAI.pdf) and hosted in the lens-edu-production repo. Note that this figure's expert versus non-expert split is the grouping the 2016 AI Impacts erratum invalidated.<<}++}
+++}Figure 1: Median estimate for human-level AI, graphed against date of prediction.
 As can be seen, expert predictions span the whole range of possibilities and seem
 to have little correlation with each other. The range is so wide—fifty year gaps between
 predictions are common—that it provides strong evidence that experts are not providing
