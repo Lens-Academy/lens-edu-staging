@@ -1,7 +1,7 @@
 ---
 id: '5a0f546a-b6d7-4767-b14f-36b0d34de166'
 title: "Is the Race Even Real?"
-tldr: Half the strategy arguments you will hear stand on the premise that the US and China are racing to AGI. Commit to a number, then trace the famous claim to its source before you repeat either.
+tldr: {--{"author":"Lauren's AI","timestamp":1786514162847}@@Half the--}{++{"author":"Lauren's AI","timestamp":1786514162847}@@Many++} strategy arguments {--{"author":"Lauren's AI","timestamp":1786514162847}@@you will hear stand on the premise --}{++{"author":"Lauren's AI","timestamp":1786514162847}@@assume ++}that the US and China are racing to AGI. Commit to a {--{"author":"Lauren's AI","timestamp":1786514162847}@@number, then--}{++{"author":"Lauren's AI","timestamp":1786514162847}@@number. Then++} trace the famous claim {++{"author":"Lauren's AI","timestamp":1786514162847}@@back ++}to its {--{"author":"Lauren's AI","timestamp":1786514162847}@@source--}{++{"author":"Lauren's AI","timestamp":1786514162847}@@source,++} before you repeat {--{"author":"Lauren's AI","timestamp":1786514162847}@@either.--}{++{"author":"Lauren's AI","timestamp":1786514162847}@@it.++}
 summary_for_tutor: "Fifth lens of Unit 4. Student commits to a months-behind number for Chinese models and names its source, then reads Elmgren tracing the 2017 China-AGI-goal claim to one ambiguous phrase and an Epoch data insight measuring the actual gap. One mirror, no grade."
 authors:
   - Claude
