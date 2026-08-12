@@ -9,7 +9,7 @@ authors:
 #### Text
 content::
 \## Reading Assignment
-**Read *Chapter 14: Where There's Life, There's Hope*.** Start at the beginning and stop when you reach
+{--{"author":"Elias's AI","timestamp":1786519019066}@@**Read--}{++{"author":"Elias's AI","timestamp":1786519019066}@@**From *If Anyone Builds It, Everyone Dies*, read++} *Chapter 14: Where There's Life, There's Hope*.** Start at the beginning and stop when you reach
 > And civilization lived.
 
 Return here after reading.
