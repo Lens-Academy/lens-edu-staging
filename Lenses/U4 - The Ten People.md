@@ -17,7 +17,7 @@ reading {--{"author":"Lauren's AI","timestamp":1786513835612}@@lives at --}{++{"
 {--{"author":"Lauren's AI","timestamp":1786513835612}@@The --}company will not slow {--{"author":"Lauren's AI","timestamp":1786513835612}@@down, and its--}{++{"author":"Lauren's AI","timestamp":1786513835612}@@down. Its++} leadership treats misalignment risk as {--{"author":"Lauren's AI","timestamp":1786513835612}@@a talking--}{++{"author":"Lauren's AI","timestamp":1786513835612}@@something to++}
 {--{"author":"Lauren's AI","timestamp":1786513835612}@@point rather than a problem.--}{++{"author":"Lauren's AI","timestamp":1786513835612}@@mention, not something to solve.++}
 
-What remains is ten people inside the building who take the risk seriously. Buck
+What remains is ten people inside the {--{"author":"Lauren's AI","timestamp":1786513907214}@@building--}{++{"author":"Lauren's AI","timestamp":1786513907214}@@company++} who take the risk seriously. Buck
 Shlegeris asks what those ten should do with the little they have. Not how to fix the
 situation. How to buy risk reduction at the margin, on a small budget, without getting
 fired.
