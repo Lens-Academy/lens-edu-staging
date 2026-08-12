@@ -42,11 +42,9 @@ survey:: [[../surveys/AIF Unit 4 Survey]]
 meeting-doc-template:: https://docs.google.com/document/d/1YuCKnl7R8P4upzZzMTf6whEOYu23g_j936QDlpELwuk/edit
 survey:: [[../surveys/AIF Unit 5 Survey]]
 
-%% Post-meeting surveys {--{"author":"Elias's AI","timestamp":1786522910272}@@(2026-08-11): the survey:: lines above attach the
-native in-platform--}{++{"author":"Elias's AI","timestamp":1786522910272}@@(2026-08-12): live in production; each meeting has its
-own++} survey {--{"author":"Elias's AI","timestamp":1786522910272}@@to each meeting. They are inert until the platform--}{++{"author":"Elias's AI","timestamp":1786522910272}@@file. Impact scales (model explicitness, judgment confidence,++}
-{--{"author":"Elias's AI","timestamp":1786522910272}@@release with content_processor 0.24.0 is live —--}{++{"author":"Elias's AI","timestamp":1786522910272}@@agency, leverage clarity) appear only in++} the {--{"author":"Elias's AI","timestamp":1786522910272}@@current parser ignores
-the field --}{++{"author":"Elias's AI","timestamp":1786522910272}@@Unit 1 baseline ++}and the {--{"author":"Elias's AI","timestamp":1786522910272}@@surveys/ folder, so accepting these early is safe. Accept--}{++{"author":"Elias's AI","timestamp":1786522910272}@@Unit 5
-final reflection; Units 2-4 ask weekly pulse questions (group connection,++}
-{--{"author":"Elias's AI","timestamp":1786522910272}@@the new--}{++{"author":"Elias's AI","timestamp":1786522910272}@@meeting value, content value).++} surveys/AIF Post-Meeting Survey.md{--{"author":"Elias's AI","timestamp":1786522910272}@@ doc together with these lines.--}{++{"author":"Elias's AI","timestamp":1786522910272}@@ is attached
-to nothing.++} %%
+%% Post-meeting surveys (2026-08-12): live in production; each meeting has its
+own survey file. Impact scales (model explicitness, judgment confidence,
+agency, leverage clarity) appear only in the Unit 1 baseline and the Unit 5
+final reflection; Units 2-4 ask weekly pulse questions (group connection,
+meeting value, content value). surveys/AIF Post-Meeting Survey.md is attached
+to nothing. %%
