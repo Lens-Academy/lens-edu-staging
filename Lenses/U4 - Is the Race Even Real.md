@@ -12,12 +12,14 @@ tags:
 content::
 \## Before you read
 
-The previous lens argued about a national AGI project, and both sides of that argument
-stood on the same floor: the United States and China are racing to build advanced AI, and
-whoever slows down loses. Almost every strategy conversation you will overhear leans on
-some version of this. This lens does not ask whether racing would be wise. It asks
-whether the premise holds, with the tools Unit 2 gave you: where does the number come
-from, and who checked the original source?
+The previous lens argued about a national AGI {--{"author":"Lauren's AI","timestamp":1786514199995}@@project, and both --}{++{"author":"Lauren's AI","timestamp":1786514199995}@@project. Both ++}sides of that argument
+{--{"author":"Lauren's AI","timestamp":1786514199995}@@stood on--}{++{"author":"Lauren's AI","timestamp":1786514199995}@@assumed++} the same {--{"author":"Lauren's AI","timestamp":1786514199995}@@floor:--}{++{"author":"Lauren's AI","timestamp":1786514199995}@@thing:++} the United States and China are racing to build advanced AI, and
+whoever slows down loses. Almost every strategy conversation {--{"author":"Lauren's AI","timestamp":1786514199995}@@you will overhear leans on
+--}{++{"author":"Lauren's AI","timestamp":1786514199995}@@uses ++}some version of {--{"author":"Lauren's AI","timestamp":1786514199995}@@this.--}{++{"author":"Lauren's AI","timestamp":1786514199995}@@that
+assumption.++} This lens does not ask whether racing would be wise. It asks{--{"author":"Lauren's AI","timestamp":1786514199995}@@
+--}{++{"author":"Lauren's AI","timestamp":1786514199995}@@ ++}whether the{--{"author":"Lauren's AI","timestamp":1786514199995}@@ premise holds, with --}{++{"author":"Lauren's AI","timestamp":1786514199995}@@
+assumption is true, and it uses ++}the tools {--{"author":"Lauren's AI","timestamp":1786514199995}@@Unit 2 gave you: where--}{++{"author":"Lauren's AI","timestamp":1786514199995}@@from Unit 2. Where++} does the number come{++{"author":"Lauren's AI","timestamp":1786514199995}@@ from?++}
+{--{"author":"Lauren's AI","timestamp":1786514199995}@@from, and who--}{++{"author":"Lauren's AI","timestamp":1786514199995}@@Who++} checked the original source?
 
 Two readings. The first is evidence forensics. Karson Elmgren traces a widely repeated
 claim, that China declared a goal of building AGI back in 2017, to its source: one phrase
