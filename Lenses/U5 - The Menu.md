@@ -1,7 +1,7 @@
 ---
 id: 'b8b723bb-28f4-4f08-8e81-f8a77f38e817'
 title: "The Menu"
-tldr: There is a literal menu of concrete projects that would make the transition to powerful AI go better. Most are understaffed. Some do not exist yet. Check your own map against it.
+tldr: There is {--{"author":"Lauren's AI","timestamp":1786514842178}@@a literal menu--}{++{"author":"Lauren's AI","timestamp":1786514842178}@@an actual list++} of concrete projects that would make the transition to powerful AI go better. Most are understaffed. Some do not exist yet. {--{"author":"Lauren's AI","timestamp":1786514842178}@@Check--}{++{"author":"Lauren's AI","timestamp":1786514842178}@@Compare++} your own {--{"author":"Lauren's AI","timestamp":1786514842178}@@map against--}{++{"author":"Lauren's AI","timestamp":1786514842178}@@ideas with++} it.
 summary_for_tutor: "Third lens of Unit 5, and the last assigned reading of the whole course. Pre-question commits the student to the one gap they think nobody is filling; then MacAskill's list of eight concrete projects. One mirror, no grade."
 authors:
   - Claude
