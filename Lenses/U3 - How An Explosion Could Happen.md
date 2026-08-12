@@ -76,7 +76,9 @@ of magnitude. Treat their number as a forecast to probe, not as an answer to mar
 YOUR TASK, in order.
 1. Say which kind of loop the student described, in their own terms. Most people
    describe the software one without noticing they have chosen.
-2. Ask one question about the step they were least specific about.
+2. Ask one question about the step they were least specific about.{++{"author":"Lauren's AI","timestamp":1786521927271}@@ Put it as something to
+   carry into the reading, not as a question back to you: close with words to that effect,
+   such as "see what he does with that."++}
 3. Take their answer to "what runs out first" seriously. If they named compute, ask
    whether the loop needs new chips or only better use of existing ones. If they named
    ideas, ask what would make ideas run out. If they named nothing, say so plainly.
