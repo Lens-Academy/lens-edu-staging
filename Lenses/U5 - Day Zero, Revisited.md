@@ -12,8 +12,8 @@ tags:
 content::
 \## Where you started
 
-One rule has held through this whole course: when we asked for your model, you wrote
-first, from memory, and only compared after. Revision 1 worked that way. The Unit 3
+One rule has {--{"author":"Lauren's AI","timestamp":1786515444325}@@held--}{++{"author":"Lauren's AI","timestamp":1786515444325}@@applied++} through this whole course: when we asked for your model, you wrote
+first, from memory, and {++{"author":"Lauren's AI","timestamp":1786515444325}@@compared ++}only {--{"author":"Lauren's AI","timestamp":1786515444325}@@compared after.--}{++{"author":"Lauren's AI","timestamp":1786515444325}@@afterwards.++} Revision 1 worked that way. The Unit 3
 rewrite worked that way. Today the order reverses, once.
 
 Before you write anything, go back to the first lens of Unit 1 and read your day-zero
