@@ -16,9 +16,9 @@ You do not need the rest of the thesis, and you do not need to follow the formal
 
 The result has a name that is also an instruction: **average, then extremize.**
 
-One warning as you read. The short version of the result is "extremizing is a trick that improves forecasts". That short version is true, and it leaves out the condition. How much you should extremize depends on how much the forecasters' information overlaps. If their information overlaps completely, you should not extremize at all.
+One warning as you read. The short version of the result is "extremizing is a trick that improves forecasts". That short version is true, and it leaves out the condition. How much you should extremize depends on how much the forecasters' information overlaps. If their information overlaps completely, you should not extremize at all.{--{"author":"Lauren's AI","timestamp":1786523338489}@@
 
-Return here after reading.
+Return here after reading.--}
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
@@ -33,7 +33,7 @@ to:: Chapter 8: When does agreement imply accuracy?
 content::
 \## Phase 1: Recall
 
-Spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organize it. Speech to text is recommended.
+Spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organize it.{--{"author":"Lauren's AI","timestamp":1786523337928}@@ Speech to text is recommended.--}
 
 assessment-instructions:: The student has just read the robust-aggregation section of Neyman's thesis summary and written a free recall.
 
