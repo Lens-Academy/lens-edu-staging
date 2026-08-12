@@ -26,7 +26,7 @@ You will {--{"author":"Lauren's AI","timestamp":1786515484989}@@get--}{++{"autho
 content::
 \## Where does it go?
 
-Place this development in your model, in three sentences. Is it timeline evidence, threat-model evidence, or strategy evidence? Say which, and say which lever from your hundred points it touches, or say plainly that it touches none of them and moves nothing.
+Place this development in your model, in three sentences. Is it timeline evidence, threat-model evidence, or strategy evidence? Say {--{"author":"Lauren's AI","timestamp":1786515568212}@@which, and--}{++{"author":"Lauren's AI","timestamp":1786515568212}@@which. Then++} say which lever from your hundred points it{--{"author":"Lauren's AI","timestamp":1786515568212}@@ touches, or say plainly that--}{++{"author":"Lauren's AI","timestamp":1786515568212}@@ touches. If++} it touches none of them and moves {--{"author":"Lauren's AI","timestamp":1786515568212}@@nothing.--}{++{"author":"Lauren's AI","timestamp":1786515568212}@@nothing, say that plainly.++}
 
 Then one more line: the single thing you would check before repeating any of this at lunch. Not three things. The one that would most embarrass you if you skipped it.
 
