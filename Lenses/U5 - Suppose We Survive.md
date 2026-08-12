@@ -18,9 +18,7 @@ William MacAskill opens Forethought's Better Futures series with the clearest ve
 
 One thing to keep in mind while you read. Frontier-lab leadership has published positive visions of its own. Dario Amodei's Machines of Loving Grace ([[../articles/Amodei-machines-of-loving-grace]]) and The Adolescence of Technology ([[../articles/darioamodei-dario-amodei-the-adolescence-of-technology]]) describe futures worth wanting, written from inside a company that builds the systems. MacAskill writes from a research nonprofit about what anyone, anywhere, should aim at. Who ends up deciding what the good future contains is itself an open question. The question below asks who you think decides it now.
 
-{--{"author":"Lauren's AI","timestamp":1786523664010}@@A practical note. The essay itself is below, after the question. The excerpt runs from the opening argument through his closing clarifications about what the series is not; the footnotes and citations stay collapsed. It takes about ten minutes to read.
-
---}*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
 #### Question
 content::

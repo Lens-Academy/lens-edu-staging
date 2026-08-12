@@ -14,7 +14,7 @@ content::
 
 This unit gave you two rival pictures of the lab, and it never decided between them. Buck Shlegeris plans for ten safety-minded people inside a company that will not slow down, because inside the company is where the marginal influence is: ten is much better than zero. Alex Kastner's scenario replies that the most dangerous person in the story may be the one those ten people report to, while every AI in the building does exactly what it is told. If Kastner is right, the insiders are watching the models, and the threat is the management above them. One lab, two ways to see it: the home of the solution, or the home of the threat.
 
-The course takes no side on that, and you do not need to settle {--{"author":"Lauren's AI","timestamp":1786524208108}@@it to finish this unit.--}{++{"author":"Lauren's AI","timestamp":1786524208108}@@it.++} What you need is a budget. Money, careers, political attention, and your own hours all get spent somewhere. Refusing to choose is also an allocation, and whoever moves first makes it for you. So the unit ends the way real strategy arguments end. Someone states numbers.
+The course takes no side on that, and you do not need to settle it. What you need is a budget. Money, careers, political attention, and your own hours all get spent somewhere. Refusing to choose is also an allocation, and whoever moves first makes it for you. So the unit ends the way real strategy arguments end. Someone states numbers.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
 

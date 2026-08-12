@@ -24,13 +24,11 @@ traces a widely repeated claim back to its source. The claim is that China decla
 goal of building AGI in 2017. The source is one phrase in one planning document, and a
 translation. The second reading is a short data insight from Epoch AI. It measures the
 US-China capability gap rather than describing it. Its title gives the answer away, so
-commit to your own number {--{"author":"Lauren's AI","timestamp":1786524064535}@@before you scroll down to the readings.--}{++{"author":"Lauren's AI","timestamp":1786524064535}@@first.++}
+commit to your own number first.
 
-{--{"author":"Lauren's AI","timestamp":1786524064535}@@Two parts of the Elmgren piece appear collapsed: a section--}{++{"author":"Lauren's AI","timestamp":1786524064535}@@The sections++} the author marked {--{"author":"Lauren's AI","timestamp":1786524064535}@@optional,
---}{++{"author":"Lauren's AI","timestamp":1786524064535}@@optional ++}and {--{"author":"Lauren's AI","timestamp":1786524064535}@@some--}{++{"author":"Lauren's AI","timestamp":1786524064535}@@his++} supplementary{--{"author":"Lauren's AI","timestamp":1786524064535}@@ evidence. Both are one click away--}{++{"author":"Lauren's AI","timestamp":1786524064535}@@ evidence sit collapsed
-below,++} if you want to follow the{--{"author":"Lauren's AI","timestamp":1786524064535}@@
---}{++{"author":"Lauren's AI","timestamp":1786524064535}@@ ++}detective work. And if you finish this lens wanting a{--{"author":"Lauren's AI","timestamp":1786524064535}@@ --}{++{"author":"Lauren's AI","timestamp":1786524064535}@@
-++}view from inside Chinese policy,
+The sections the author marked optional and his supplementary evidence sit collapsed
+below, if you want to follow the detective work. And if you finish this lens wanting a
+view from inside Chinese policy,
 the Carnegie piece [[../articles/sheehan-how-china-views-ai-risks-and-what-to-do-about-them]]
 shows what Chinese AI policy looks like when you read it directly.
 

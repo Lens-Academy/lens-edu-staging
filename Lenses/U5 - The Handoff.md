@@ -17,11 +17,7 @@ unit end. Near the end of each one, the plan quietly hands most of the remaining
 work to AI systems, because there is too much work and too few humans. Nobody
 advertised that step. It is the point where the plans run out of people.
 
-{--{"author":"Lauren's AI","timestamp":1786523663412}@@Here is how this unit works. We say it once. Each reading opens with a question. When
-you answer it, the tutor will usually ask you one in return. Do not answer that
-question. Keep it in mind while you read, and see what the author does with it.
-
---}Joe Carlsmith calls the quiet step "AI for AI safety". He argues it should be treated
+Joe Carlsmith calls the quiet step "AI for AI safety". He argues it should be treated
 as the central move, not the footnote. He describes it as a race between two feedback
 loops. The excerpt gives you the loops and his case for urgency. His contrasts with
 other views, and his own list of objections, stay collapsed below for you to open. For
