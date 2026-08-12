@@ -1,7 +1,7 @@
 ---
 id: '614b1b8a-d862-4e7a-a388-aa8452c583be'
 title: "Suppose We Survive"
-tldr: Dodging the disaster and getting a future worth having are two different jobs. Decide whether the second one happens on its own.
+tldr: {--{"author":"Lauren's AI","timestamp":1786514833573}@@Dodging--}{++{"author":"Lauren's AI","timestamp":1786514833573}@@Avoiding++} the disaster and getting a future worth having are two different jobs. Decide whether the second one happens on its own.
 summary_for_tutor: "Second lens of Unit 5. The student commits yes or no on whether a takeover-free future is good by default, then reads a short course-written summary of MacAskill's Introducing Better Futures (the essay is linked, not embedded, so the tutor does not have it). One mirror, no grade."
 authors:
   - Claude
