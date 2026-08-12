@@ -23,11 +23,14 @@ you started." This is the end. The comparison is the exercise.
 
 While you have it open, say the course's sentence one last time: what could possibly
 happen, how anyone could know, how it could go wrong, where the leverage is. You have now
-written an answer to every clause in your own words. Trajectories with mechanisms in
-Unit 1. Signposts you could check in Unit 2. A rivalry over where the risk lives, met in
-Unit 3; a side on it, and a hundred points across the levers, in Unit 4. A gap on the
+written an answer to every clause in your own words. {--{"author":"Lauren's AI","timestamp":1786515489844}@@Trajectories with mechanisms in--}{++{"author":"Lauren's AI","timestamp":1786515489844}@@Unit 1 gave you trajectories with++}
+{++{"author":"Lauren's AI","timestamp":1786515489844}@@mechanisms. ++}Unit {--{"author":"Lauren's AI","timestamp":1786515489844}@@1. Signposts--}{++{"author":"Lauren's AI","timestamp":1786515489844}@@2 gave++} you {--{"author":"Lauren's AI","timestamp":1786515489844}@@could check in--}{++{"author":"Lauren's AI","timestamp":1786515489844}@@signposts you could check.++} Unit {--{"author":"Lauren's AI","timestamp":1786515489844}@@2. A--}{++{"author":"Lauren's AI","timestamp":1786515489844}@@3 gave you a++} rivalry over{--{"author":"Lauren's AI","timestamp":1786515489844}@@ --}{++{"author":"Lauren's AI","timestamp":1786515489844}@@
+++}where the risk {--{"author":"Lauren's AI","timestamp":1786515489844}@@lives, met in
+Unit 3;--}{++{"author":"Lauren's AI","timestamp":1786515489844}@@lives. Unit 4 asked you to take++} a side on it, and {++{"author":"Lauren's AI","timestamp":1786515489844}@@to put ++}a hundred points{--{"author":"Lauren's AI","timestamp":1786515489844}@@ --}{++{"author":"Lauren's AI","timestamp":1786515489844}@@
+++}across the {--{"author":"Lauren's AI","timestamp":1786515489844}@@levers, in Unit 4. A--}{++{"author":"Lauren's AI","timestamp":1786515489844}@@levers. This week gave you a++} gap on the{--{"author":"Lauren's AI","timestamp":1786515489844}@@
 menu this week. None
-of those answers were handed to you; the readings argued, and you committed.
+of those answers were--}{++{"author":"Lauren's AI","timestamp":1786515489844}@@ menu. Nobody++} handed {--{"author":"Lauren's AI","timestamp":1786515489844}@@to you; the--}{++{"author":"Lauren's AI","timestamp":1786515489844}@@you those
+answers. The++} readings argued, and you committed.
 
 One last license, and it is not a formality. If the model you write today disagrees with
 every reading in this course, and you can argue it, that is the best possible outcome.
