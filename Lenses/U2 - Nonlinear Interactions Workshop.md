@@ -12,7 +12,7 @@ content::
 
 In the previous lens you saw one extrapolation fail. Now you build some.
 
-Four short scenarios follow, each in its own question field with targeted tutor feedback. Each scenario is a system with parts. In each one, the parts interact in a way that makes the obvious curve wrong. The four curves are wrong in four different ways. Those differences matter, because the four failures are not interchangeable.
+Four short scenarios {--{"author":"Lauren's AI","timestamp":1786523137356}@@follow, each in its own question field with targeted tutor feedback. --}{++{"author":"Lauren's AI","timestamp":1786523137356}@@follow. ++}Each{--{"author":"Lauren's AI","timestamp":1786523137356}@@ scenario--} is a system with parts. In each one, the parts interact in a way that makes the obvious curve wrong. The four curves are wrong in four different ways. Those differences matter, because the four failures are not interchangeable.
 
 Work through them in order. Write out the arithmetic, not a description of it.
 

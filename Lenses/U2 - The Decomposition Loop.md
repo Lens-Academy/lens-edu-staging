@@ -27,7 +27,7 @@ source:: [[../articles/kokotajlo-gjp-good-forecasting-practices]]
 content::
 \## Phase 1: Recall
 
-Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
+Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. {--{"author":"Lauren's AI","timestamp":1786523139648}@@Using the speech to text feature is highly recommended here.--}{++{"author":"Lauren's AI","timestamp":1786523139648}@@Speech to text is recommended: you can capture more in two minutes.++}
 
 assessment-instructions:: The student has just read Daniel Kokotajlo's summary of evidence from the Good Judgment Project and has written a free recall: everything they could remember without looking back.
 
@@ -60,7 +60,7 @@ This is a one-turn response. Do not ask a question or suggest the student reply.
 content::
 \## Phase 2: Processing
 
-Take 2 minutes to write down your reaction to the reading. What felt important to you? What confused you? What did you doubt or disagree with? Speech to text is recommended, because you can capture more in two minutes.
+Take 2 minutes to write down your reaction to the reading. What felt important to you? What confused you? What did you doubt or disagree with?{--{"author":"Lauren's AI","timestamp":1786523141645}@@ Speech to text is recommended, because you can capture more in two minutes.--}
 
 assessment-instructions:: The student has just completed a free recall of Kokotajlo's Good Judgment Project summary and is now reflecting on how it landed.
 

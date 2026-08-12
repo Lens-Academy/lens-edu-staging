@@ -16,8 +16,6 @@ That makes it useful twice. It is useful for what it concludes. It is also usefu
 
 Before you read any of it, you build your own version of their set of methods.
 
-*The framing and questions on this page were written by Claude, an AI, with Lauren, and reviewed by a human. The reading itself is the author's own work.*
-
 #### Question
 content::
 \## Every way you can think of
