@@ -74,8 +74,8 @@ content:: What's one thing that worked well today?
 
 #### Question
 key:: could_improve
-content:: What's one thing the course, website, AI tutor, or meetings could do better?{++{"author":"Elias's AI","timestamp":1786479700083}@@
+content:: What's one thing the course, website, AI tutor, or meetings could do better?
 
 #### Question
 key:: open_response
-content:: Anything else you want to share?++}
+content:: Anything else you want to share?
