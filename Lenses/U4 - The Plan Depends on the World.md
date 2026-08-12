@@ -14,13 +14,11 @@ content::
 
 Unit 3 was about how it could go wrong. This unit is about the plans.
 
-Unit 3 ended on a disagreement, and we did not settle it. One reading, by Nate Soares, puts the risk inside the system, in what the system ends up aiming at. Another, by Jan Kulveit and co-authors, puts the risk between institutions, in dynamics that no single actor steers. That disagreement matters now. Where you locate the risk decides what you try to change. A person who fears the system works on how to aim it. A person who fears the dynamics works on treaties, governments, and labs. {--{"author":"Lauren's AI","timestamp":1786523712684}@@Every plan--}{++{"author":"Lauren's AI","timestamp":1786523712684}@@Most plans++} in this unit {--{"author":"Lauren's AI","timestamp":1786523712684}@@takes--}{++{"author":"Lauren's AI","timestamp":1786523712684}@@take++} one of those sides, whether or not its author says so.
+Unit 3 ended on a disagreement, and we did not settle it. One reading, by Nate Soares, puts the risk inside the system, in what the system ends up aiming at. Another, by Jan Kulveit and co-authors, puts the risk between institutions, in dynamics that no single actor steers. That disagreement matters now. Where you locate the risk decides what you try to change. A person who fears the system works on how to aim it. A person who fears the dynamics works on treaties, governments, and labs. Most plans in this unit take one of those sides, whether or not its author says so.
 
 You already read the argument about controlling misaligned AIs at the end of Unit 3. This unit is about everything else.
 
-{--{"author":"Lauren's AI","timestamp":1786523661745}@@Here is how the unit works. This is the only time we explain it. Each reading opens with a question for you. When you answer, the tutor replies. The tutor usually adds a question of its own. Do not answer that question. It points to the reading. It is not an invitation to chat. Keep it in mind while you read, and see what the author does with it.
-
---}The first reading is by Ryan Greenblatt of Redwood Research. He does not describe one plan. He describes four, and then a fifth world with no plan at all. Which plan is available is not a research question. It depends on how much of the world helps.
+The first reading is by Ryan Greenblatt of Redwood Research. He does not describe one plan. He describes four, and then a fifth world with no plan at all. Which plan is available is not a research question. It depends on how much of the world helps.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
@@ -46,7 +44,7 @@ He indexes plans to political will, from most required to least. Plan A: a stron
 
 YOUR TASK, in order.
 1. Classify the student's implied coordination assumption in their own terms: does their plan need most of the world to agree, one government to act, one company to behave, or a handful of insiders? Do not use Greenblatt's letters. If they said no plan exists, treat that as a real answer and classify what they said fills the gap.
-2. Ask ONE question about the actor doing the most unexamined work in their plan: the government that regulates wisely, the company that slows down, the public that notices in time. Whoever their plan needs most and examines least.{++{"author":"Lauren's AI","timestamp":1786523709145}@@ Put it as something to carry into the reading, not as a question back to you: close with words to that effect, such as "see what Greenblatt does with that."++}
+2. Ask ONE question about the actor doing the most unexamined work in their plan: the government that regulates wisely, the company that slows down, the public that notices in time. Whoever their plan needs most and examines least. Put it as something to carry into the reading, not as a question back to you: close with words to that effect, such as "see what Greenblatt does with that."
 3. If their final line assumed the rest of the world cooperates, ask what their plan does on the day that cooperation fails to show. If they assumed nobody cooperates, ask what their plan would do with help if help arrived. If they wrote no final line, say so plainly.
 
 Do not grade. Do not score. Do not praise. There is no correct answer at this stage.
