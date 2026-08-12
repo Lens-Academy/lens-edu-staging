@@ -10,7 +10,7 @@ authors:
 content::
 \## Reading Assignment
 
-**Read *Chapter 11: An Alchemy, Not a Science*.** Start at the beginning and stop when you reach
+{--{"author":"Elias's AI","timestamp":1786518935011}@@**Read--}{++{"author":"Elias's AI","timestamp":1786518935011}@@**From *If Anyone Builds It, Everyone Dies*, read++} *Chapter 11: An Alchemy, Not a Science*.** Start at the beginning and stop when you reach
 > It is a level of systemic game that would have humanity headed for disaster, even if we were wrong about every other aspect of difficulty.
 
 Return here after reading.

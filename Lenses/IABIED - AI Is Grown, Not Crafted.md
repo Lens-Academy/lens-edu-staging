@@ -11,7 +11,7 @@ add_to_ai_context:
 #### Text
 content:: 
 \## Reading Assignment
-**Read *Chapter 2: Grown, Not Crafted*.** Start at the beginning and stop when you reach 
+{--{"author":"Elias's AI","timestamp":1786518931552}@@**Read--}{++{"author":"Elias's AI","timestamp":1786518931552}@@**From *If Anyone Builds It, Everyone Dies*, read++} *Chapter 2: Grown, Not Crafted*.** Start at the beginning and stop when you reach 
 > Machine minds are subjected to different constraints, and grown under different pressures, than those that shape biological organisms; and although they're trained to predict human writing, the thinking inside an AI runs on a radically different architecture from a human's.
 
 That's about three-quarters of the way through the chapter.
