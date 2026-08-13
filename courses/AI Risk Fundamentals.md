@@ -59,9 +59,11 @@ could_improve) so the Ops CSV can be compared across courses; AIRF-only
 questions get their own keys.
 
 NOTE the course has 5 meeting markers by design (see the 2026-08-09 note above:
-reduced from 6 to 5), but cohort 5 still carries number_of_group_meetings = 6
-and 6 real meetings per group. The 6th meeting therefore has no marker, and so
-no survey. That is the outstanding 6-to-5 reconciliation, not something these
-lines can fix. %%
+reduced from 6 to {--{"author":"Turner's AI","timestamp":1786589345987}@@5), but --}{++{"author":"Turner's AI","timestamp":1786589345987}@@5). Every meeting now has both a marker and a survey. %%
+
+{>>{"author":"Turner's AI","timestamp":1786589345987}@@CORRECTED 2026-08-13. This note used to end: "but ++}cohort 5 still carries number_of_group_meetings = 6{--{"author":"Turner's AI","timestamp":1786589345987}@@
+--}{++{"author":"Turner's AI","timestamp":1786589345987}@@ ++}and 6 real meetings per group. The 6th meeting therefore has no marker, and so{--{"author":"Turner's AI","timestamp":1786589345987}@@
+--}{++{"author":"Turner's AI","timestamp":1786589345987}@@ ++}no survey. That is the outstanding 6-to-5 reconciliation, not something these{--{"author":"Turner's AI","timestamp":1786589345987}@@
+--}{++{"author":"Turner's AI","timestamp":1786589345987}@@ ++}lines can {--{"author":"Turner's AI","timestamp":1786589345987}@@fix. %%--}{++{"author":"Turner's AI","timestamp":1786589345987}@@fix." That reconciliation LANDED on 2026-08-11 and the note was never updated, so it described a resolved problem as outstanding. Measured against prod 2026-08-13 02:45Z: c5, c6, c7 and c8 all carry number_of_group_meetings = 5; every c5 and c6 group has exactly 5 meetings with max meeting_number = 5; and there are ZERO live meetings numbered 6 or higher anywhere in c5-c8. The five meeting-doc-template links above were also checked one by one against the templates actually used to build the c6 session-4 and session-5 docs today, and all five match.<<}++}
 
 
