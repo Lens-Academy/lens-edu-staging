@@ -14,7 +14,7 @@ tags:
 %%
 Add discussion note here:
 
-- ()
+- (I only read the first half or so)
 - Likely useful for ourselves. Probably want to try to measure / ask where learners are at when they join us? Seems relevant to know who we're talking to.
 - Maybe interesting to share in a module that teaches how to communicate effectively about AI Safety
 - Maybe maybe interesting even to let our normal learners read. But probably not?
