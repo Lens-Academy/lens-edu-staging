@@ -12,11 +12,11 @@ content::
 
 Two {--{"author":"Lauren's AI","timestamp":1786693147816}@@readings.--}{++{"author":"Lauren's AI","timestamp":1786693147816}@@readings, plus an optional one you may want first.++} Read them in this order.
 
-{++{"author":"Lauren's AI","timestamp":1786693147816}@@**0. *AI 2040: Plan A*, the opening of the scenario Ngo is arguing with.** (optional, about fifteen minutes)
+{++{"author":"Lauren's AI","timestamp":1786694014836}@@**0. *AI 2040: Plan A*, the scenario Ngo is arguing with.** (optional, about fifteen minutes)
 
-Worth knowing before you decide whether to open it: the reading below is a critique of this document. If you read only the critique, you are taking Ngo's account of the scenario on trust. That is often a reasonable thing to do. It is also the kind of trust this unit has spent four sections teaching you to notice. The scenario's first three years are below, so you can check him if you want to.
+Ngo's critique is about one specific document. Its first three years are below, so you can check his account against it.
 
-One thing to watch for if you do read it. It is not only a forecast. Its authors are advocating a specific plan, and it ends at a choice rather than after one.
+Two things about it. Its authors are advocating a plan, not only predicting one. And it stops at a choice rather than after one.
 
 ++}**1. *Selective Optimism: a critique of AI 2040*, by Richard Ngo.**
 
