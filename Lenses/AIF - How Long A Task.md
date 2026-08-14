@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786694039854}@@---
+{++{"author":"Lauren's AI","timestamp":1786694608195}@@---
 id: '64b745ad-7b5e-4b9e-9ab7-8bf3a82ab38a'
 title: How Long A Task
 tldr: AI agents finish short jobs and fail at long ones. METR measured where that line sits and how fast it moves. You guess the line first.
@@ -52,4 +52,20 @@ Response style:
 
 #### Article
 source:: [[../articles/metr-measuring-ai-ability-to-complete-long-tasks]]
+
+#### Text
+content::
+\## Optional: why the line might bend
+
+The chart you just read is close to a straight line on a log scale. It stays straight only while the thing producing it keeps working the same way.
+
+The clip below is two and a half minutes from a longer video by AI In Context. It gives one reason the line could bend upward: AI systems doing the work of improving AI systems.
+
+It also makes a point that is worth more than the mechanism. In a scenario you are handed the whole picture at once. Somebody living through the same events would not be.
+
+#### Video
+source:: [[../video_transcripts/ai-in-context-were-not-ready-for-superintelligence]]
+from:: 4:55
+to:: 7:25
+optional:: true
 ++}
