@@ -56,7 +56,9 @@ survey:: [[../surveys/AIRF Weekly Survey]]
 
 # Meeting: Facing the Challenge, part 2
 meeting-doc-template:: https://docs.google.com/document/d/1rewnfH3QqcK_WhwD2i1ylfVyldH3sXb6eA45dDeQJ6M/edit?tab=t.0#heading=h.by5wcelvjnsd
-survey:: [[../surveys/AIRF Weekly Survey]]
+survey:: [[../surveys/AIRF {++{"author":"Turner's AI","timestamp":1786705668364}@@Session 5 Survey]]
+
+{>>{"author":"Turner's AI","timestamp":1786705668364}@@Meeting 5 was serving the generic AIRF ++}Weekly {--{"author":"Turner's AI","timestamp":1786705668364}@@Survey]]--}{++{"author":"Turner's AI","timestamp":1786705668364}@@Survey, same as meetings 2-4. That made the Session 1 intake a baseline with no endline: its four impact scales (risk_seriousness, agency_belief, motivation, next_step_clarity) were never asked again, even though the intake tells the learner in writing "We ask the same things again at the end, so the value is in the change, not the score." Repointed to the new AIRF Session 5 Survey, which re-asks all four under the SAME keys so a per-user pre/post delta is a straight join on user_id across meeting 1 and meeting 5. Also carries navigator feedback (quantitative + free text), the recommend score, and the next-cohort MORE/LESS questions ported from the old Week 6 Google Form. Dropped from that form: the Discord-handle question (the native survey already knows who is answering, which is the whole reason we moved off Forms) and the BlueDot question (already captured at intake as bluedot_history). NOTE the recommend score is 1-10, not the 0-10 of a textbook NPS: the platform's rating segments validate 1 <= value <= scale with MAX_RATING_SCALE = 10, so 0 is not expressible. Adjust any NPS formula accordingly, or read it as a 10-point recommend score.<<}++}
 
 %% Post-meeting surveys (2026-08-11): the survey:: lines above attach the native
 in-platform surveys, ported from the two AI Risk Fundamentals Google Forms.
