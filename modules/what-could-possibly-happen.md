@@ -14,9 +14,12 @@ transfer, in the solar test). Each lens contributes one tool: the cold open
 sets the epistemic frame (young field, guess first, revise honestly) and
 creates the day-zero model the whole course keeps revising; the +12 OOMs probe
 surfaces what the student's own model thinks compute buys; When Progress Jumps
-supplies the measured outside-view base rate for discontinuous progress; What
-a Curve Licenses teaches where an extrapolation stops being licensed by its
-data. Revision 1 and the alignment-door pointer serve the running-model habit,
+supplies the measured outside-view base rate for discontinuous progress; {++{"author":"Lauren's AI","timestamp":1786692514931}@@How
+Long A Task introduces METR and gives the student one real measured curve
+before the next lens asks what a curve licenses; ++}What{--{"author":"Lauren's AI","timestamp":1786692514931}@@
+--}{++{"author":"Lauren's AI","timestamp":1786692514931}@@ ++}a Curve Licenses teaches{--{"author":"Lauren's AI","timestamp":1786692514931}@@ --}{++{"author":"Lauren's AI","timestamp":1786692514931}@@
+++}where an extrapolation stops being licensed by its{--{"author":"Lauren's AI","timestamp":1786692514931}@@
+--}{++{"author":"Lauren's AI","timestamp":1786692514931}@@ ++}data. Revision 1 and the alignment-door pointer serve the running-model habit,
 not new content. Editing rule of thumb: if a change doesn't help a student
 build, defend, or revise a mechanism-based trajectory, it doesn't belong in
 this module. %%
@@ -30,7 +33,10 @@ source:: [[../Lenses/AIF - Fun with +12 OOMs of Compute]]
 # Lens: When Progress Jumps
 source:: [[../Lenses/AIF - When Progress Jumps]]
 
-# Lens: What a Curve Licenses
+# Lens: {++{"author":"Lauren's AI","timestamp":1786692504559}@@How Long A Task
+source:: [[../Lenses/AIF - How Long A Task]]
+
+# Lens: ++}What a Curve Licenses
 source:: [[../Lenses/AIF - What a Curve Licenses]]
 
 # Lens: Revision 1
