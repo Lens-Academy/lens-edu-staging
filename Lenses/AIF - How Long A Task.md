@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786692564347}@@---
+{++{"author":"Lauren's AI","timestamp":1786694039854}@@---
 id: '64b745ad-7b5e-4b9e-9ab7-8bf3a82ab38a'
 title: How Long A Task
 tldr: AI agents finish short jobs and fail at long ones. METR measured where that line sits and how fast it moves. You guess the line first.
@@ -12,9 +12,9 @@ content::
 
 An AI agent can write a function. It usually cannot ship a feature. Somewhere between those two there is a length of job it stops being able to finish, and that length is a fact you can measure rather than argue about.
 
-METR is an independent organisation that runs those measurements. They are not a lab. They test models that labs give them access to, and they publish the method. You will meet their name again in this course, so it is worth attaching to something concrete now.
+METR is an independent organisation that runs those measurements. They are not a lab. They test models that labs give them access to, and they publish their method.
 
-Their method has three parts, and the question below needs all three.
+That method has three parts.
 
 - They take tasks that **human professionals have been timed on**, so every task has a human duration attached.
 - They run frontier agents on those tasks, on their own, with no person helping.
