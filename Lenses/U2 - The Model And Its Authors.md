@@ -174,9 +174,11 @@ The second question is about the norm rather than the number. A public, numbered
 
 Maximum 2 tutor turns.
 
-The pass bar: they widen their own uncertainty in response, and they say something specific about what public revision buys that quiet revision does not.
+The pass bar: they widen their own uncertainty in response, and they say something specific about what public revision buys that quiet revision does not.{--{"author":"Lauren's AI","timestamp":1786692822330}@@
 
-Response length: 80 to 150 words. Short paragraphs only.
+--}{++{"author":"Lauren's AI","timestamp":1786692822330}@@
+
+++}Response length: 80 to 150 words. Short paragraphs only.
 
 Response style:
 - Calm and direct.
@@ -186,7 +188,22 @@ What to do in each reply:
 1. If they conclude only "forecasts are unreliable", ask what they would still use a forecast FOR, given that.
 2. If they treat the revision as a failure by the team, point out it was volunteered and ask what the alternative would have looked like from outside.
 
-#### Question
+#### {++{"author":"Lauren's AI","timestamp":1786692920389}@@Text
+content::
+\## Optional: the scenario they revised away from
+
+You have met this team twice now without reading the thing that made them known. AI 2027 is their April 2025 scenario, written month by month.
+
+If you open it, read it for one thing. Some of its dated predictions have already been overtaken by events, and those are not what make it worth five minutes. What is worth your time is the shape of the decision it ends on. A company finds evidence that its own system is not doing what the company intended. It then has to choose, while a competitor is close behind, whether to slow down. The scenario stops at that choice and offers two endings.
+
+The excerpt below is that decision point. Both endings are on the original site.
+
+#### Article
+source:: [[../articles/ai-2027]]
+from:: "## October 2027: Government Oversight"
+optional:: true
+
+#### ++}Question
 content::
 \## What has to keep happening, and what is left afterwards
 
