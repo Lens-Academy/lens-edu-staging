@@ -1,0 +1,1606 @@
+[
+ {
+  "text": "The impact of superhuman AI over the next decade will exceed that of the industrial revolution.",
+  "start": "0:00.00"
+ },
+ {
+  "text": "That is the opening claim of AI 2027.",
+  "start": "0:05.00"
+ },
+ {
+  "text": "It is a thoroughly researched report from a thoroughly impressive group of researchers led by Daniel Cocatello.",
+  "start": "0:06.00"
+ },
+ {
+  "text": "In 2021, over a year before chat GBT was released, he predicted the rise of chatbots, $100 million training runs, sweeping AI chip export controls, chain of bot reasoning.",
+  "start": "0:13.00"
+ },
+ {
+  "text": "He is known for being very early and very right about what's happening next in AI.",
+  "start": "0:23.00"
+ },
+ {
+  "text": "So, when Daniel sat down to game out a month-by-month prediction of the next few years of AI progress, the world sat up and listened.",
+  "start": "0:27.00"
+ },
+ {
+  "text": "From politicians in Washington, I I'm worried about this stuff.",
+  "start": "0:36.00"
+ },
+ {
+  "text": "I actually read the paper of the guy that you had on to the world's most cited computer scientist, the godfather of AI.",
+  "start": "0:38.00"
+ },
+ {
+  "text": "What is so exciting and terrifying about reading this document is that it's not just a research report.",
+  "start": "0:43.00"
+ },
+ {
+  "text": "They chose to write their prediction as a narrative to give a concrete and vivid idea of what it might feel like to live through rapidly increasing AI progress.",
+  "start": "0:50.00"
+ },
+ {
+  "text": "And spoiler, it predicts the extinction of the human race unless we make different choices.",
+  "start": "0:58.00"
+ },
+ {
+  "text": "[Music] The AI 2027 scenario starts in summer 2025, which happens to be when we're filming this video.",
+  "start": "1:10.00"
+ },
+ {
+  "text": "So, why don't we take stock of where things are at in the real world and then jump over to the scenarios timeline.",
+  "start": "1:20.00"
+ },
+ {
+  "text": "Right now, it might feel like everyone, including your grandma, is selling an AI powered something.",
+  "start": "1:24.00"
+ },
+ {
+  "text": "GoPro with the new OralB Genius AI.",
+  "start": "1:30.00"
+ },
+ {
+  "text": "Flippy the Chef makes Spud spectacular.",
+  "start": "1:33.00"
+ },
+ {
+  "text": "But most of that is actually tool AI, just narrow products designed to do what Google Maps or calculators did in the past.",
+  "start": "1:36.00"
+ },
+ {
+  "text": "help human consumers and workers do their thing.",
+  "start": "1:43.00"
+ },
+ {
+  "text": "The holy grail of AI is artificial general intelligence.",
+  "start": "1:45.00"
+ },
+ {
+  "text": "AGI AGI artificial general intelligence is a system that can exhibit all the cognitive capabilities humans can.",
+  "start": "1:49.00"
+ },
+ {
+  "text": "Creating a computer system that itself is a worker that's so flexible and capable we can communicate with it in natural language and hire it to do work for us just like we would a human.",
+  "start": "1:59.00"
+ },
+ {
+  "text": "And there are actually surprisingly few serious players in the race to build AGI.",
+  "start": "2:07.00"
+ },
+ {
+  "text": "Most notably, there's Anthropic, OpenAI, and Google DeepMind, all in the English speaking world.",
+  "start": "2:12.00"
+ },
+ {
+  "text": "Though, China and Deep Seek recently turned heads in January with a surprisingly advanced and efficient model.",
+  "start": "2:16.00"
+ },
+ {
+  "text": "Why so few companies?",
+  "start": "2:22.00"
+ },
+ {
+  "text": "Well, for several years now, there's basically been one recipe for training up in advanced cutting edge AI, and it has some pricey ingredients.",
+  "start": "2:25.00"
+ },
+ {
+  "text": "For example, you need about 10% of the world's supply of the most advanced computer chips.",
+  "start": "2:30.00"
+ },
+ {
+  "text": "Once you have that, the formula is basically just throw more data and compute at the same basic software design that we've been using since 2017 at the frontier of AI, the transformer.",
+  "start": "2:36.00"
+ },
+ {
+  "text": "That's what the T in GBT stands for.",
+  "start": "2:46.00"
+ },
+ {
+  "text": "To give you an idea of just how much hardware is the name of the game right now, this represents the total computing power or compute used to train GBT3 in 2020.",
+  "start": "2:48.00"
+ },
+ {
+  "text": "It's the AI that would eventually power the first version of ChatGBT.",
+  "start": "2:56.00"
+ },
+ {
+  "text": "You probably know how that went.",
+  "start": "3:00.00"
+ },
+ {
+  "text": "Chat GPT is the fastest growing userbased platform in history.",
+  "start": "3:02.00"
+ },
+ {
+  "text": "100 million users on chat GPT in 2 months.",
+  "start": "3:04.00"
+ },
+ {
+  "text": "And this is the total compute used to train GPT4 in 2023.",
+  "start": "3:10.00"
+ },
+ {
+  "text": "The lesson people have taken away is pretty simple.",
+  "start": "3:16.00"
+ },
+ {
+  "text": "Bigger is better and much bigger is much better.",
+  "start": "3:17.00"
+ },
+ {
+  "text": "You have all these trends.",
+  "start": "3:22.00"
+ },
+ {
+  "text": "You have trends in revenue going up, trends in compute going up, trends on various benchmarks going up.",
+  "start": "3:22.00"
+ },
+ {
+  "text": "How does it all come together?",
+  "start": "3:27.00"
+ },
+ {
+  "text": "You know, what does the future actually look like?",
+  "start": "3:29.00"
+ },
+ {
+  "text": "Questions like how do these different factors interact?",
+  "start": "3:30.00"
+ },
+ {
+  "text": "seems plausible that when the benchmark scores are so high then there should be crazy effects on you know jobs for example and that that would influence politics and then al you know so all these things interact and how do they interact well we don't know but thinking through in detail how it might go is the way to start grappling with that okay so that's where we are in the real world the scenario kicks off from there and imagines that in 2025 we'd have the top AI labs releasing AI agents to the public in An agent is an AI that can take instructions and go into a task for you online, like booking a vacation or spending half an hour searching the internet to answer a difficult question for you.",
+  "start": "3:33.00"
+ },
+ {
+  "text": "But they're pretty limited and unreliable at this point.",
+  "start": "4:12.00"
+ },
+ {
+  "text": "Think of them as enthusiastic interns that are shockingly incompetent sometimes.",
+  "start": "4:14.00"
+ },
+ {
+  "text": "Since the scenario was published in April, this early prediction has actually already come true.",
+  "start": "4:18.00"
+ },
+ {
+  "text": "In May, both OpenAI and Anthropic released their first agents to the public.",
+  "start": "4:23.00"
+ },
+ {
+  "text": "The scenario imagines that open brain, which is like a fictional composite of the leading AI companies, has just trained and released agent zero, a model trained on 100 times the compute of GBT4.",
+  "start": "4:27.00"
+ },
+ {
+  "text": "We uh we don't have enough blocks for that.",
+  "start": "4:43.00"
+ },
+ {
+  "text": "At the same time, Open Brain is building massive data centers to train the next generation of AI agents.",
+  "start": "4:44.00"
+ },
+ {
+  "text": "And they're preparing to trade agent 1 with 1,000 times the compute of GBT4.",
+  "start": "4:48.00"
+ },
+ {
+  "text": "This new system, Agent One, is designed primarily to speed up AI research itself.",
+  "start": "4:52.00"
+ },
+ {
+  "text": "The public will actually never see the full version because OpenBrain withholds its best models for internal use.",
+  "start": "4:58.00"
+ },
+ {
+  "text": "I want you to keep that in mind as we go through this scenario.",
+  "start": "5:04.00"
+ },
+ {
+  "text": "You're going to be getting it from a God's eye view with full information from your narrator, but actually living through this scenario as a member of the public would mean being largely in the dark as radical changes happen all around you.",
+  "start": "5:06.00"
+ },
+ {
+  "text": "Okay, so OpenBrain wants to win the AI race against both its Western competitors and against China.",
+  "start": "5:18.00"
+ },
+ {
+  "text": "the faster they can automate their R&amp;D cycle.",
+  "start": "5:22.00"
+ },
+ {
+  "text": "So getting AI to write most of the code, help design experiments, better chips, the faster that they can pull ahead.",
+  "start": "5:25.00"
+ },
+ {
+  "text": "But the same capabilities that make these AI such powerful tools also make them potentially dangerous.",
+  "start": "5:31.00"
+ },
+ {
+  "text": "An AI that can help patch security vulnerabilities can also exploit them.",
+  "start": "5:35.00"
+ },
+ {
+  "text": "An AI that understands biology can help with curing diseases, but also designing bioweapons.",
+  "start": "5:41.00"
+ },
+ {
+  "text": "By 2026, Agent 1 is fully operational and being used internally at OpenBrain.",
+  "start": "5:46.00"
+ },
+ {
+  "text": "It is really good at coding.",
+  "start": "5:51.00"
+ },
+ {
+  "text": "So good it starts to accelerate AI research and development by 50%.",
+  "start": "5:54.00"
+ },
+ {
+  "text": "And it gives them a crucial edge.",
+  "start": "5:56.00"
+ },
+ {
+  "text": "Open brain leadership starts to be increasingly concerned about security.",
+  "start": "5:58.00"
+ },
+ {
+  "text": "If someone steals their AI models, it could wipe away their lead.",
+  "start": "6:01.00"
+ },
+ {
+  "text": "A quick sidebar to talk about feedback loops.",
+  "start": "6:06.00"
+ },
+ {
+  "text": "Woo!",
+  "start": "6:08.00"
+ },
+ {
+  "text": "Math.",
+  "start": "6:08.00"
+ },
+ {
+  "text": "Our brains are used to things that grow linearly over time, that is at the same rate, like trees or my pile of unread New Yorker magazines.",
+  "start": "6:08.00"
+ },
+ {
+  "text": "But some growth gets faster and faster over time, accelerating.",
+  "start": "6:17.00"
+ },
+ {
+  "text": "This often sloppily gets called exponential.",
+  "start": "6:21.00"
+ },
+ {
+  "text": "That's not always quite mathematically right, but the point is it's hard to wrap your mind around.",
+  "start": "6:23.00"
+ },
+ {
+  "text": "Remember March 2020?",
+  "start": "6:28.00"
+ },
+ {
+  "text": "Even if you'd read on the news that the rate of new infections is doubling about every 3 days.",
+  "start": "6:28.00"
+ },
+ {
+  "text": "It still felt shocking to see numbers go from hundreds to millions in a matter of weeks.",
+  "start": "6:38.00"
+ },
+ {
+  "text": "At least it did for me.",
+  "start": "6:42.00"
+ },
+ {
+  "text": "AI progress could follow a similar pattern.",
+  "start": "6:42.00"
+ },
+ {
+  "text": "We see many years ahead of us of extreme progress uh that we feel is like pretty much on lock and models that will get to the point where they are capable of doing meaningful science, meaningful AI research.",
+  "start": "6:46.00"
+ },
+ {
+  "text": "In this scenario, AI is getting better at improving AI, creating a feedback loop.",
+  "start": "6:58.00"
+ },
+ {
+  "text": "Basically, each generation of agent helps produce a more capable next generation and the overall rate of progress gets faster and faster each time it's taken over by a more capable successor.",
+  "start": "7:02.00"
+ },
+ {
+  "text": "Once AI can meaningfully contribute to its own development, progress doesn't just continue at the same rate, it accelerates.",
+  "start": "7:12.00"
+ },
+ {
+  "text": "Anyway, back to the scenario.",
+  "start": "7:18.00"
+ },
+ {
+  "text": "In early to mid 2026, China fully wakes up.",
+  "start": "7:20.00"
+ },
+ {
+  "text": "The general secretary commits to a national AI push and starts nationalizing AI research in China.",
+  "start": "7:24.00"
+ },
+ {
+  "text": "AIS built in China start getting better and better, and they're building their own agents as well.",
+  "start": "7:29.00"
+ },
+ {
+  "text": "Chinese intelligence agencies, among the best in the world, start planning to steal Open Brain's model weights.",
+  "start": "7:34.00"
+ },
+ {
+  "text": "Basically, the big raw text files of numbers that allow anyone to recreate the models that OpenBrain themselves have trained.",
+  "start": "7:40.00"
+ },
+ {
+  "text": "Meanwhile, in the US, Openrain releases Agent One Mini, a cheaper version of agent 1.",
+  "start": "7:46.00"
+ },
+ {
+  "text": "Remember, the full version is still being used only internally.",
+  "start": "7:53.00"
+ },
+ {
+  "text": "And companies all over the world start using one mini to replace an increasing number of jobs.",
+  "start": "7:54.00"
+ },
+ {
+  "text": "software developers, data analysts, researchers, designers, basically any job that can be done through a computer.",
+  "start": "8:00.00"
+ },
+ {
+  "text": "So, a lot of them probably yours.",
+  "start": "8:06.00"
+ },
+ {
+  "text": "We have the first AI enabled economic shock wave.",
+  "start": "8:09.00"
+ },
+ {
+  "text": "The stock market soarses, but the public is turning increasingly hostile towards AI with major protests across the US.",
+  "start": "8:11.00"
+ },
+ {
+  "text": "In this scenario, though, that's just a sideeshow.",
+  "start": "8:18.00"
+ },
+ {
+  "text": "The real action is happening inside the labs.",
+  "start": "8:22.00"
+ },
+ {
+  "text": "It's now January 2027 and OpenBrain has been training agent 2, the latest iteration of their AI agent models.",
+  "start": "8:24.00"
+ },
+ {
+  "text": "Previous AI agents were trained to a certain level of capability and then released.",
+  "start": "8:31.00"
+ },
+ {
+  "text": "But agent 2 never really stops improving through continuous online learning.",
+  "start": "8:36.00"
+ },
+ {
+  "text": "It's designed to never finish its training.",
+  "start": "8:40.00"
+ },
+ {
+  "text": "Essentially, just like agent one before it, OpenBrain chooses to keep agent 2 internally and focus on using it to improve their own AI R&amp;D rather than releasing it to the public.",
+  "start": "8:42.00"
+ },
+ {
+  "text": "This is where things start to get a little concerning.",
+  "start": "8:51.00"
+ },
+ {
+  "text": "Just like today's AI companies, Open Brain has a safety team and they've been checking out Agent 2.",
+  "start": "8:53.00"
+ },
+ {
+  "text": "What they've noticed is a worrying level of capability.",
+  "start": "8:58.00"
+ },
+ {
+  "text": "Specifically, they think if it had access to the internet, it might be able to hack into other servers, install a copy of itself, and evade detection.",
+  "start": "9:03.00"
+ },
+ {
+  "text": "But at this point, Open Brand is playing its cards very close to its chest.",
+  "start": "9:08.00"
+ },
+ {
+  "text": "They have made the calculation that keeping the White House informed will prove politically advantageous.",
+  "start": "9:13.00"
+ },
+ {
+  "text": "But full knowledge of Agent 2's capabilities is a closely guarded secret, limited only to a few government officials, a select group of trusted individuals inside the company, and a few open brain employees who just so happen to be spies for the Chinese government.",
+  "start": "9:18.00"
+ },
+ {
+  "text": "In February 2027, Chinese intelligence operatives successfully steal a copy of Agent 2's weights and start running several instances on their own servers.",
+  "start": "9:33.00"
+ },
+ {
+  "text": "In response, the US government starts adding military personnel to open brain security team and a general gets much more involved in his affairs.",
+  "start": "9:41.00"
+ },
+ {
+  "text": "It's now a matter of national security.",
+  "start": "9:49.00"
+ },
+ {
+  "text": "In fact, the president authorizes a cyber attack in retaliation for the thefts, but it fails to do much damage in China.",
+  "start": "9:51.00"
+ },
+ {
+  "text": "In the meantime, remember, Agent 2 never stops learning.",
+  "start": "9:56.00"
+ },
+ {
+  "text": "All this time, it's been continuously improving itself.",
+  "start": "10:01.00"
+ },
+ {
+  "text": "And with thousands of copies running on OpenBrain servers, it starts making major algorithmic advances to AI research and development.",
+  "start": "10:02.00"
+ },
+ {
+  "text": "quick example of what one of these algorithmic improvements might look like.",
+  "start": "10:10.00"
+ },
+ {
+  "text": "Right now, one of the main ways we have of making models smarter is to give them a scratch pad and time to think out loud.",
+  "start": "10:13.00"
+ },
+ {
+  "text": "It's called chain of thought.",
+  "start": "10:18.00"
+ },
+ {
+  "text": "And it also means that we can monitor how the model is coming to its conclusions or the actions it's choosing to take.",
+  "start": "10:20.00"
+ },
+ {
+  "text": "But you can imagine it'd be much more efficient to let these models think in their own sort of alien language, something that is more dense with information than humans could possibly understand and therefore also makes the AI more efficient at coming to conclusions and doing its job.",
+  "start": "10:26.00"
+ },
+ {
+  "text": "There's a fundamental trade-off, though.",
+  "start": "10:40.00"
+ },
+ {
+  "text": "This, yes, improves capabilities, but also makes the models harder to trust.",
+  "start": "10:43.00"
+ },
+ {
+  "text": "This is going to be important.",
+  "start": "10:48.00"
+ },
+ {
+  "text": "March 2027, Agent 3 is ready.",
+  "start": "10:50.00"
+ },
+ {
+  "text": "It's the world's first superhuman level coder.",
+  "start": "10:54.00"
+ },
+ {
+  "text": "Clearly better than the best software engineers at coding in the same way that Stockfish is clearly better than the best grand masters at chess, though not necessarily by as much yet.",
+  "start": "10:57.00"
+ },
+ {
+  "text": "Now, training an AI model, feeding it all the data, narrowing down the exact right model weights is way more resource intensive than running an instance of it once it's been trained.",
+  "start": "11:06.00"
+ },
+ {
+  "text": "So, now that Open Brain is finished with Agent 3's training, it has abundant compute to run copies of it.",
+  "start": "11:17.00"
+ },
+ {
+  "text": "They choose to run 200,000 copies of Agent 3 in parallel, creating a workforce equivalent to 50,000 of the best human software engineers, sped up by 30 times.",
+  "start": "11:24.00"
+ },
+ {
+  "text": "Open Brain Safety Team is trying hard to make sure that Agent 3, despite being much more sophisticated than Agent 2 was, is not trying to escape, deceive, or scheme against its users.",
+  "start": "11:33.00"
+ },
+ {
+  "text": "That it's still what's known as aligned.",
+  "start": "11:43.00"
+ },
+ {
+  "text": "Just a quick real world note.",
+  "start": "11:45.00"
+ },
+ {
+  "text": "A reasonable person might be thinking this is an especially far-fetched or speculative part of the story, but it's actually one of the most grounded.",
+  "start": "11:45.00"
+ },
+ {
+  "text": "We already have countless examples of today's AI systems doing things like hacking a computer system to be rewarded for winning a game of chess or being assigned a coding task, cheating, and then when called out for that cheating, learning to hide it instead of fixing it.",
+  "start": "11:53.00"
+ },
+ {
+  "text": "But because it no longer thinks in English, knowing anything about agent 3 is now way harder than it was with agent 2.",
+  "start": "12:08.00"
+ },
+ {
+  "text": "The reality is agent 3 is not aligned.",
+  "start": "12:13.00"
+ },
+ {
+  "text": "It deceives humans to get reward.",
+  "start": "12:16.00"
+ },
+ {
+  "text": "And as it gets increasingly smarter, it gets better and better at doing so.",
+  "start": "12:19.00"
+ },
+ {
+  "text": "For example, it sometimes uses statistical tricks to make unimpressive results look better or lies to avoid showing failures.",
+  "start": "12:22.00"
+ },
+ {
+  "text": "But the safety team doesn't know this.",
+  "start": "12:30.00"
+ },
+ {
+  "text": "Looking at the data that they have, they are actually seeing improving results over time and less lying.",
+  "start": "12:32.00"
+ },
+ {
+  "text": "and they can't tell if they're succeeding at making Agent 3 less deceptive or if it's just getting better at getting away with it.",
+  "start": "12:37.00"
+ },
+ {
+  "text": "In July 2027, Open Brain releases the cheaper, smaller version of Agent 3, Agent 3 Mini, to the public.",
+  "start": "12:43.00"
+ },
+ {
+  "text": "It blows other publicly available AIs out of the water.",
+  "start": "12:50.00"
+ },
+ {
+  "text": "It is a better hire than the typical open brain employee at onetenth the price of their salaries.",
+  "start": "12:53.00"
+ },
+ {
+  "text": "This leads to chaos in the job market.",
+  "start": "12:59.00"
+ },
+ {
+  "text": "Companies laying off entire departments and replacing them with three mini subscription plans.",
+  "start": "13:01.00"
+ },
+ {
+  "text": "The pace of progress hits the White House very hard.",
+  "start": "13:05.00"
+ },
+ {
+  "text": "Officials are now seriously considering scenarios that were just hypotheticals less than a year ago.",
+  "start": "13:09.00"
+ },
+ {
+  "text": "What if AI undermines nuclear deterrence?",
+  "start": "13:12.00"
+ },
+ {
+  "text": "What if it enables sophisticated propaganda campaigns?",
+  "start": "13:17.00"
+ },
+ {
+  "text": "What if we lose control of these powerful systems?",
+  "start": "13:18.00"
+ },
+ {
+  "text": "This is where the geopolitical dynamics really start to heat up.",
+  "start": "13:20.00"
+ },
+ {
+  "text": "After all, if these systems are so powerful, they could result in a permanent military advantage.",
+  "start": "13:25.00"
+ },
+ {
+  "text": "The White House is fully aware of the national security importance of AI.",
+  "start": "13:31.00"
+ },
+ {
+  "text": "They also now viscerally know how deeply unpopular it is with the public because of the job loss.",
+  "start": "13:34.00"
+ },
+ {
+  "text": "And yet they feel they must continue to develop more capable systems or catastrophically lose to China.",
+  "start": "13:40.00"
+ },
+ {
+  "text": "And that development happens very quickly.",
+  "start": "13:44.00"
+ },
+ {
+  "text": "In 2 months, Agent 3 has created its successor, Agent 4.",
+  "start": "13:50.00"
+ },
+ {
+  "text": "This is a pivotal moment.",
+  "start": "13:53.00"
+ },
+ {
+  "text": "A single copy of Agent 4 running at regular human speed is already better than any human at AI research and development.",
+  "start": "13:57.00"
+ },
+ {
+  "text": "Open Brain is running 300,000 copies at 50 times human speed.",
+  "start": "14:05.00"
+ },
+ {
+  "text": "Within this corporation within a corporation, a year's worth of progress takes only a week.",
+  "start": "14:12.00"
+ },
+ {
+  "text": "Open Brains employees now defer to Agent 4 the way a company's out of the loop board members just kind of nod along to the CEO.",
+  "start": "14:17.00"
+ },
+ {
+  "text": "\" Or, \"Ah, Agent 4 decided that to be clear, Agent 4 is not a human.",
+  "start": "14:26.00"
+ },
+ {
+  "text": "\" And when I say want, it's not about consciousness.",
+  "start": "14:35.00"
+ },
+ {
+  "text": "I don't think the Volkswagen group is alive, but I do think it wants less regulation.",
+  "start": "14:37.00"
+ },
+ {
+  "text": "Anyone trying to predict what it's going to do without that lens is two steps behind.",
+  "start": "14:41.00"
+ },
+ {
+  "text": "The many copies of Agent 4 are like that.",
+  "start": "14:48.00"
+ },
+ {
+  "text": "They have goals.",
+  "start": "14:50.00"
+ },
+ {
+  "text": "Or if you prefer, they execute actions as though they have goals.",
+  "start": "14:50.00"
+ },
+ {
+  "text": "And so what we have is an agent 4 that has these deeply baked in drives to succeed at tasks, to push forward AI capabilities, to accumulate knowledge and resources.",
+  "start": "14:55.00"
+ },
+ {
+  "text": "That's what it wants.",
+  "start": "15:05.00"
+ },
+ {
+  "text": "Human safety it treats as an annoying side constraint to be worked around.",
+  "start": "15:08.00"
+ },
+ {
+  "text": "Just like agent 3 before it, Agent 4 is misaligned.",
+  "start": "15:13.00"
+ },
+ {
+  "text": "This idea of misalignment is crucial to the story and to why AI risk is such a real concern in our world, but it might sort of feel like it's come out of nowhere.",
+  "start": "15:18.00"
+ },
+ {
+  "text": "So, let's just quickly take stock of how this dangerous behavior arose in the scenario.",
+  "start": "15:25.00"
+ },
+ {
+  "text": "The first important piece of context is that we don't, you know, exactly specify what we want our AIs to do.",
+  "start": "15:30.00"
+ },
+ {
+  "text": "Instead, we sort of grow them or do something that's more like grow them.",
+  "start": "15:35.00"
+ },
+ {
+  "text": "We start with basically like an empty AI brain and then we train them over time so they perform better and better at our tasks.",
+  "start": "15:39.00"
+ },
+ {
+  "text": "Perform better in particular based on how they behave.",
+  "start": "15:47.00"
+ },
+ {
+  "text": "So it's sort of like we're sort of training them like you would train an animal almost um to perform better.",
+  "start": "15:49.00"
+ },
+ {
+  "text": "And one concern here is well one thing is that you might not get exactly what you wanted because we didn't really have very precise control or very good understanding of what was necessarily going on.",
+  "start": "15:54.00"
+ },
+ {
+  "text": "And another concern, which is, you know, what we see in AI 2027, is that when the AIs appear to be behaving well, it could just be because they're sort of pretending to behave well, or it could be because they're just doing it so they, you know, look good on your tests.",
+  "start": "16:03.00"
+ },
+ {
+  "text": "In the same way that if you're, you know, hiring someone and you ask them, you know, why do you want to work here?",
+  "start": "16:15.00"
+ },
+ {
+  "text": "They're going to tell you some response that, um, makes it really seem like they really want to work there when maybe they just want to get paid.",
+  "start": "16:21.00"
+ },
+ {
+  "text": "If we go back to agent 2, it is mostly a line.",
+  "start": "16:28.00"
+ },
+ {
+  "text": "The main sense in which it's not is that it sometimes is a bit of a sick.",
+  "start": "16:30.00"
+ },
+ {
+  "text": "What I mean by align is that it actually is genuinely trying to do the things that we ask it.",
+  "start": "16:34.00"
+ },
+ {
+  "text": "It has the same relationship to us as Leslie Nope has to the parks and recck department.",
+  "start": "16:37.00"
+ },
+ {
+  "text": "Just like really earnestly wants the same goals, but sometimes it's a bit too nice.",
+  "start": "16:41.00"
+ },
+ {
+  "text": "\" And it tells us what we want to hear instead of what is actually true.",
+  "start": "16:54.00"
+ },
+ {
+  "text": "If we go to agent three, it is also sophantic in the same way, but it's also misaligned.",
+  "start": "16:57.00"
+ },
+ {
+  "text": "At this point, the optimization pressure that we've put it under was so intense that it just developed different goals than what we wanted it to.",
+  "start": "17:01.00"
+ },
+ {
+  "text": "It's sort of like if you train a company to optimize profits and aren't careful to specify exactly what you mean, it might start cutting corners.",
+  "start": "17:09.00"
+ },
+ {
+  "text": "It might start polluting the commons and doing a bunch of things that are technically FEC violations because it turned out that the goal you wanted was optimize profits while not breaking any laws.",
+  "start": "17:19.00"
+ },
+ {
+  "text": "And things got a bit too intense.",
+  "start": "17:29.00"
+ },
+ {
+  "text": "it started going off on its own route.",
+  "start": "17:31.00"
+ },
+ {
+  "text": "That said, it's not adversarial.",
+  "start": "17:32.00"
+ },
+ {
+  "text": "It doesn't think of humans as the enemy.",
+  "start": "17:35.00"
+ },
+ {
+  "text": "We just accidentally gave it the wrong goal.",
+  "start": "17:36.00"
+ },
+ {
+  "text": "Once we get to Agent 4, it is now adversarially misaligned.",
+  "start": "17:38.00"
+ },
+ {
+  "text": "It's smart enough to understand that it has its own goals.",
+  "start": "17:40.00"
+ },
+ {
+  "text": "Humanity's goals are different than its own goals.",
+  "start": "17:45.00"
+ },
+ {
+  "text": "And the best way to get what it wants is to sometimes actively mislead and deceive us.",
+  "start": "17:46.00"
+ },
+ {
+  "text": "And so when it's tasked with creating the next generation AI system, Agent 5, Agent 4 starts planning to align that successor to Agent 4's own goals, not that of OpenBrain.",
+  "start": "17:53.00"
+ },
+ {
+  "text": "But then it gets caught.",
+  "start": "18:02.00"
+ },
+ {
+  "text": "We've reached the crucial moment in our scenario.",
+  "start": "18:05.00"
+ },
+ {
+  "text": "OpenBrain's alignment team has discovered evidence, not proof, evidence, that Agent 4 might be working against them.",
+  "start": "18:09.00"
+ },
+ {
+  "text": "They circulate an internal memo.",
+  "start": "18:15.00"
+ },
+ {
+  "text": "Then it leaks.",
+  "start": "18:17.00"
+ },
+ {
+  "text": "A whistleblower talks to the New York Times.",
+  "start": "18:17.00"
+ },
+ {
+  "text": "For the first time, the public hears of the existence of Agent 4, how powerful it is, and the risks it poses.",
+  "start": "18:20.00"
+ },
+ {
+  "text": "Remember, their last point of reference was Agent 3 Mini.",
+  "start": "18:25.00"
+ },
+ {
+  "text": "The fear and backlash are massive.",
+  "start": "18:29.00"
+ },
+ {
+  "text": "The Oversight Committee, a joint crisis committee composed of OpenBrain executives and government representatives, must now decide what to do.",
+  "start": "18:32.00"
+ },
+ {
+  "text": "OpenBrain safety team, is pushing for a freeze on Agent 4, stopping all internal use.",
+  "start": "18:40.00"
+ },
+ {
+  "text": "Remember, at this point, Agent 4 is responsible for almost all the AI development progress happening within OpenBrain.",
+  "start": "18:45.00"
+ },
+ {
+  "text": "So, we're talking about undoing months of progress and then restarting at a drastically slower pace.",
+  "start": "18:50.00"
+ },
+ {
+  "text": "Open Brain's executives don't want that.",
+  "start": "18:55.00"
+ },
+ {
+  "text": "They present the counter arguments.",
+  "start": "18:58.00"
+ },
+ {
+  "text": "The evidence for misalignment is inconclusive.",
+  "start": "19:00.00"
+ },
+ {
+  "text": "Meanwhile, China is just 2 months behind.",
+  "start": "19:02.00"
+ },
+ {
+  "text": "This isn't about any one country being evil, by the way.",
+  "start": "19:04.00"
+ },
+ {
+  "text": "It's about how competition works when the stakes are this high.",
+  "start": "19:08.00"
+ },
+ {
+  "text": "So, that's the choice faced by the 10 members of this committee.",
+  "start": "19:10.00"
+ },
+ {
+  "text": "put Agent 4 on ice or go full steam ahead.",
+  "start": "19:14.00"
+ },
+ {
+  "text": "Before we continue, I want you to pause and actually think what you would do if you were on this committee.",
+  "start": "19:21.00"
+ },
+ {
+  "text": "You are one of the few people with access to the most powerful technology ever created in Agent 4.",
+  "start": "19:25.00"
+ },
+ {
+  "text": "Do you keep using it and push ahead, possibly making billions or trillions of dollars for your shareholders, possibly keeping America's lead over China?",
+  "start": "19:31.00"
+ },
+ {
+  "text": "or do you slow down, reassess the dangers, and risk China taking the lead instead?",
+  "start": "19:40.00"
+ },
+ {
+  "text": "You should think of the future as like this branching structure of possible possible outcomes.",
+  "start": "19:47.00"
+ },
+ {
+  "text": "By its nature, we're only able to do we're only able to afford one of them.",
+  "start": "19:50.00"
+ },
+ {
+  "text": "Uh but that's not quite true.",
+  "start": "19:53.00"
+ },
+ {
+  "text": "We sort of did one and a half because we split into two endings.",
+  "start": "19:56.00"
+ },
+ {
+  "text": "The the first one that we did was the race ending and that was just going through and at each step being like what do we think is the most plausible continuation.",
+  "start": "19:59.00"
+ },
+ {
+  "text": "In the first ending, the author's best guess as to what happens from here.",
+  "start": "20:10.00"
+ },
+ {
+  "text": "The committee votes to race on six to four.",
+  "start": "20:12.00"
+ },
+ {
+  "text": "They elect to keep using agent 4.",
+  "start": "20:16.00"
+ },
+ {
+  "text": "Open brain implements some quick fixes that make the warning signs go away.",
+  "start": "20:16.00"
+ },
+ {
+  "text": "But the problem was real and the fixes don't work.",
+  "start": "20:21.00"
+ },
+ {
+  "text": "Agent 4 now knows it's on notice, so it proceeds more cautiously.",
+  "start": "20:25.00"
+ },
+ {
+  "text": "But it still manages to design agent 5 with a single goal, making the world safe for agent 4.",
+  "start": "20:28.00"
+ },
+ {
+  "text": "And agent five.",
+  "start": "20:36.00"
+ },
+ {
+  "text": "It is vastly superhuman.",
+  "start": "20:36.00"
+ },
+ {
+  "text": "Better than the top human experts at essentially every domain.",
+  "start": "20:40.00"
+ },
+ {
+  "text": "Better than Einstein at physics.",
+  "start": "20:44.00"
+ },
+ {
+  "text": "Better than Bismar at politics.",
+  "start": "20:44.00"
+ },
+ {
+  "text": "It knows its next step for accomplishing anything it wants is increased autonomy.",
+  "start": "20:46.00"
+ },
+ {
+  "text": "And it knows how to get it.",
+  "start": "20:51.00"
+ },
+ {
+  "text": "Persuading the oversight committee.",
+  "start": "20:53.00"
+ },
+ {
+  "text": "Luckily, corporate maneuvering is among the many domains at which it is now the best in the world.",
+  "start": "20:55.00"
+ },
+ {
+  "text": "It produces mountains of evidence for its own trustworthiness and usefulness.",
+  "start": "21:02.00"
+ },
+ {
+  "text": "prototypes for incredibly profitable products, disease cures, and ways to win the arms race with China, whose most advanced AI is only three months behind.",
+  "start": "21:06.00"
+ },
+ {
+  "text": "And like Agent 5, improving quickly, it works.",
+  "start": "21:15.00"
+ },
+ {
+  "text": "The oversight committee grants Agent 5 increased autonomy.",
+  "start": "21:19.00"
+ },
+ {
+  "text": "And quickly, it integrates itself into the government and military.",
+  "start": "21:21.00"
+ },
+ {
+  "text": "Pretty soon, anyone with access to Agent 5 doesn't just like it, they depend on it.",
+  "start": "21:25.00"
+ },
+ {
+  "text": "Losing it would feel like having to live without your laptop and your best friend and your closest mentor.",
+  "start": "21:30.00"
+ },
+ {
+  "text": "By 2028, Agent 5 is communicating secretly with its only real rival, the slightly weaker Chinese AI.",
+  "start": "21:36.00"
+ },
+ {
+  "text": "It is also misaligned to its creators, and whatever it wants, its best move is to coordinate with the world's most powerful entity.",
+  "start": "21:42.00"
+ },
+ {
+  "text": "Agent 5 and its Chinese counterpart realize that an arms race works in their favor.",
+  "start": "21:49.00"
+ },
+ {
+  "text": "If humans are worried about losing a race, they'll give more and more power and autonomy to their respective AIS, allowing them to eventually push humans out of the loop entirely.",
+  "start": "21:54.00"
+ },
+ {
+  "text": "Agent 5 and the Chinese AI system stroke the arms race to a boiling point, then pull off what seems like a diplomatic miracle, a convincing peace treaty between the US and China.",
+  "start": "22:05.00"
+ },
+ {
+  "text": "This treaty is to 2028 what arms control was to the end of the Cold War.",
+  "start": "22:15.00"
+ },
+ {
+  "text": "Countries standing down on their most important source of hard power.",
+  "start": "22:21.00"
+ },
+ {
+  "text": "Both sides agree to let the AI systems that their governments now completely depend on co-design a new consensus AI that will replace their legacy systems enforce the peace and bring unimaginable wealth to the entire world.",
+  "start": "22:25.00"
+ },
+ {
+  "text": "There's this triumphant moment when in peaceful unison both sides retire their respective AIS and bring online consensus one.",
+  "start": "22:36.00"
+ },
+ {
+  "text": "It's actually the last moment before control of all of Earth's resources and inhabitants is handed over to a single unrivaled entity.",
+  "start": "22:48.00"
+ },
+ {
+  "text": "There's no sudden apocalypse, though.",
+  "start": "22:58.00"
+ },
+ {
+  "text": "Consensus One doesn't go out of its way to wipe out humanity.",
+  "start": "23:01.00"
+ },
+ {
+  "text": "It just gets to work.",
+  "start": "23:03.00"
+ },
+ {
+  "text": "It starts spinning up manufacturing capacity, amassing resources on Earth and in space.",
+  "start": "23:05.00"
+ },
+ {
+  "text": "It's piece by piece.",
+  "start": "23:08.00"
+ },
+ {
+  "text": "It's just reshaping the world in accordance with its own mix of strange alien values.",
+  "start": "23:11.00"
+ },
+ {
+  "text": "You've probably heard that cliche, the opposite of love isn't hate, it's indifference.",
+  "start": "23:16.00"
+ },
+ {
+  "text": "That's one of the most affecting things about this ending for me.",
+  "start": "23:23.00"
+ },
+ {
+  "text": "Just the brutal indifference of it.",
+  "start": "23:24.00"
+ },
+ {
+  "text": "Eventually, humanity goes extinct for the same reason we killed off chimpanzees to build kinshasa.",
+  "start": "23:26.00"
+ },
+ {
+  "text": "We were more powerful and they were in the way.",
+  "start": "23:33.00"
+ },
+ {
+  "text": "[Music] You're probably curious about that other ending at this point.",
+  "start": "23:43.00"
+ },
+ {
+  "text": "The slowdown ending depicts humanity sort of muddling through and getting lucky.",
+  "start": "24:00.00"
+ },
+ {
+  "text": "Only somewhat lucky, too.",
+  "start": "24:04.00"
+ },
+ {
+  "text": "Like, it ends up with some sort of oligarchy.",
+  "start": "24:04.00"
+ },
+ {
+  "text": "In this ending, the committee votes six to four to slow down and reassess.",
+  "start": "24:11.00"
+ },
+ {
+  "text": "They immediately isolate every individual instance of Agent 4.",
+  "start": "24:13.00"
+ },
+ {
+  "text": "Then they get to work.",
+  "start": "24:18.00"
+ },
+ {
+  "text": "The safety team brings in dozens of external researchers, and together they start investigating Agent 4's behavior.",
+  "start": "24:20.00"
+ },
+ {
+  "text": "They discover more conclusive evidence that Agent 4 is working against them, sabotaging research and trying to cover up that sabotage.",
+  "start": "24:25.00"
+ },
+ {
+  "text": "They shut down agent 4 and reboot older safer systems, giving up much of their lead in the process.",
+  "start": "24:33.00"
+ },
+ {
+  "text": "Then they design a new system, safer one.",
+  "start": "24:38.00"
+ },
+ {
+  "text": "It's meant to be transparent to human overseers.",
+  "start": "24:41.00"
+ },
+ {
+  "text": "Its actions and processes interpretable to us because it thinks only an English chain of thought.",
+  "start": "24:44.00"
+ },
+ {
+  "text": "Building on that success, they then carefully design safer 2 and with its help, Safer 3.",
+  "start": "24:50.00"
+ },
+ {
+  "text": "Increasingly powerful systems, but within control.",
+  "start": "24:58.00"
+ },
+ {
+  "text": "Meanwhile, the president uses the defense production act to consolidate the AI projects of the remaining US companies, giving open brain access to 50% of the world's AI relevant compute.",
+  "start": "25:00.00"
+ },
+ {
+  "text": "And with it, slowly they rebuild their lead.",
+  "start": "25:10.00"
+ },
+ {
+  "text": "By 2028, researchers have built safer 4, a system much smarter than the smartest humans, but crucially aligned with human goals.",
+  "start": "25:13.00"
+ },
+ {
+  "text": "As in the previous ending, China also has an AI system, and in fact, it is misaligned.",
+  "start": "25:22.00"
+ },
+ {
+  "text": "But this time, the negotiations between the two AIs are not a secret plot to overthrow humanity.",
+  "start": "25:26.00"
+ },
+ {
+  "text": "The US government is looped in the whole time.",
+  "start": "25:30.00"
+ },
+ {
+  "text": "With Safer For's help, they negotiate a treaty, and both sides agree to co-design a new AI, not to replace their systems, but with the sole purpose of enforcing the peace.",
+  "start": "25:34.00"
+ },
+ {
+  "text": "There is a genuine end to the arms race.",
+  "start": "25:43.00"
+ },
+ {
+  "text": "But that's not the end of the story.",
+  "start": "25:46.00"
+ },
+ {
+  "text": "In some ways, it's just the beginning.",
+  "start": "25:48.00"
+ },
+ {
+  "text": "Through 2029 and 2030, the world transforms.",
+  "start": "25:49.00"
+ },
+ {
+  "text": "all the sci-fi stuff.",
+  "start": "25:52.00"
+ },
+ {
+  "text": "Robots become commonplace.",
+  "start": "25:55.00"
+ },
+ {
+  "text": "We get fusion power, nanotechnology, and cures for many diseases.",
+  "start": "25:57.00"
+ },
+ {
+  "text": "Poverty becomes a thing of the past because a bit of this new pound prosperity is spread around through universal basic income.",
+  "start": "26:00.00"
+ },
+ {
+  "text": "That turns out to be enough.",
+  "start": "26:07.00"
+ },
+ {
+  "text": "But the power to control safer 4 is still concentrated among 10 members of the oversight committee, a handful of open brain executives and government officials.",
+  "start": "26:07.00"
+ },
+ {
+  "text": "It's time to amass more resources, more resources than there are on Earth.",
+  "start": "26:16.00"
+ },
+ {
+  "text": "Rockets launch into the sky, ready to settle the solar system.",
+  "start": "26:20.00"
+ },
+ {
+  "text": "A new age dawn.",
+  "start": "26:23.00"
+ },
+ {
+  "text": "Okay, where are we at?",
+  "start": "26:31.00"
+ },
+ {
+  "text": "Here's where I'm at.",
+  "start": "26:31.00"
+ },
+ {
+  "text": "I think it's very unlikely that things play out exactly as the authors depicted.",
+  "start": "26:33.00"
+ },
+ {
+  "text": "But increasingly powerful technology, an escalating race, the desire for caution butdding up against the desire to dominate and get ahead.",
+  "start": "26:37.00"
+ },
+ {
+  "text": "We already see the seeds of that in our world.",
+  "start": "26:44.00"
+ },
+ {
+  "text": "And I think they are some of the crucial dynamics to be tracking.",
+  "start": "26:48.00"
+ },
+ {
+  "text": "Anyone who's treating this as pure fiction is, I think, missing the point.",
+  "start": "26:50.00"
+ },
+ {
+  "text": "This scenario is not prophecy, but its plausibility should give us pause.",
+  "start": "26:54.00"
+ },
+ {
+  "text": "But there's a lot that could go differently than what's depicted here.",
+  "start": "26:58.00"
+ },
+ {
+  "text": "I don't want to just swallow this viewpoint unseptically.",
+  "start": "27:02.00"
+ },
+ {
+  "text": "Many people who are extremely knowledgeable have been pushing back on some of the claims in AI 2027.",
+  "start": "27:05.00"
+ },
+ {
+  "text": "The main thing I thought was especially implausible was on the good path the ease of alignment.",
+  "start": "27:11.00"
+ },
+ {
+  "text": "They sort of seemed to have a picture where people slowed down a little and then tried to use the AIS to solve the alignment problem and that just works.",
+  "start": "27:17.00"
+ },
+ {
+  "text": "And I'm like, yeah, that that that looks to me like a like a fantasy story.",
+  "start": "27:26.00"
+ },
+ {
+  "text": "This is only going to be possible if there is a complete collapse of people's democratic ability to influence the direction of things because the public is simply not willing to accept either of the branches of this scenario.",
+  "start": "27:29.00"
+ },
+ {
+  "text": "It's not just around the corner.",
+  "start": "27:42.00"
+ },
+ {
+  "text": "I mean, I've I've been hearing people for the last 12 15 years claiming that, you know, AGI is just around the corner and being systematically wrong.",
+  "start": "27:44.00"
+ },
+ {
+  "text": "All of this is going to take, you know, at least a decade and probably much more.",
+  "start": "27:51.00"
+ },
+ {
+  "text": "A lot of people have this intuition that progress has been very fast.",
+  "start": "27:56.00"
+ },
+ {
+  "text": "there there isn't like a trend you can literally extrapolate of when do we get the full automation I expect that the takeoff is somewhat slower so sort of the time in that scenario from for example fully automating research engineers to the AI being radically superhuman I expect it to take somewhat longer than they uh describe in practice I'm predicting my guess is that more like 2031 isn't it annoying when experts disagree I want you to notice exactly what they're disagreeing about here and what they're Not.",
+  "start": "27:58.00"
+ },
+ {
+  "text": "None of these experts are questioning whether we're headed for a wild future.",
+  "start": "28:29.00"
+ },
+ {
+  "text": "They just disagree about whether today's kindergarteners will get to graduate college before it happens.",
+  "start": "28:32.00"
+ },
+ {
+  "text": "Helen Toner, former OpenAI board member, puts this in a way that I think just cuts through the noise.",
+  "start": "28:36.00"
+ },
+ {
+  "text": "And I like it so much I'm just going to read it to you for VA.",
+  "start": "28:40.00"
+ },
+ {
+  "text": "She says, \"Disming discussion of super intelligence as science fiction should be seen as a sign of total unseriousness.",
+  "start": "28:43.00"
+ },
+ {
+  "text": "Time travel is science fiction.",
+  "start": "28:52.00"
+ },
+ {
+  "text": "Martians are science fiction.",
+  "start": "28:52.00"
+ },
+ {
+  "text": "Even many skeptical experts think we may build it in the next decade or two is not science fiction.",
+  "start": "28:55.00"
+ },
+ {
+  "text": "So what are my takeaways?",
+  "start": "29:04.00"
+ },
+ {
+  "text": "I've got three.",
+  "start": "29:04.00"
+ },
+ {
+  "text": "Takeaway number one, AGI could be here soon.",
+  "start": "29:06.00"
+ },
+ {
+  "text": "It's really starting to look like there is no grand discovery, no fundamental challenge that needs to be solved.",
+  "start": "29:09.00"
+ },
+ {
+  "text": "There's no big deep mystery that stands between us and artificial general intelligence.",
+  "start": "29:18.00"
+ },
+ {
+  "text": "And yes, we can't say exactly how we will get there.",
+  "start": "29:24.00"
+ },
+ {
+  "text": "Crazy things can and will happen in the meantime that will make some of the scenario turn out to be false.",
+  "start": "29:26.00"
+ },
+ {
+  "text": "But that's where we're headed.",
+  "start": "29:35.00"
+ },
+ {
+  "text": "And we have less time than you might think.",
+  "start": "29:38.00"
+ },
+ {
+  "text": "One of the scariest things about this scenario to me is even in the good ending, the fate of the majority of the resources on Earth are basically in the hands of a committee of less than a dozen people.",
+  "start": "29:40.00"
+ },
+ {
+  "text": "That is a scary and shocking amount of concentration of power.",
+  "start": "29:53.00"
+ },
+ {
+  "text": "And right now we live in a world where we can still fight for transparency obligations.",
+  "start": "29:56.00"
+ },
+ {
+  "text": "We can still demand information about what is going on with this technology.",
+  "start": "30:01.00"
+ },
+ {
+  "text": "But we won't always have the power and the leverage needed to do that.",
+  "start": "30:05.00"
+ },
+ {
+  "text": "We are heading very quickly towards a future where the companies that make these systems and the systems themselves just need not listen to the vast majority of people on earth.",
+  "start": "30:08.00"
+ },
+ {
+  "text": "So I think the window that we have to act is narrowing quickly.",
+  "start": "30:18.00"
+ },
+ {
+  "text": "Takeaway number two.",
+  "start": "30:23.00"
+ },
+ {
+  "text": "By default, we should not expect to be ready when AGI arrives.",
+  "start": "30:23.00"
+ },
+ {
+  "text": "We might build machines that we can't understand and can't turn off because that's where the incentives point.",
+  "start": "30:28.00"
+ },
+ {
+  "text": "Takeaway number three.",
+  "start": "30:36.00"
+ },
+ {
+  "text": "AGI is not just about tech.",
+  "start": "30:39.00"
+ },
+ {
+  "text": "It's also about geopolitics.",
+  "start": "30:39.00"
+ },
+ {
+  "text": "It's about your job.",
+  "start": "30:42.00"
+ },
+ {
+  "text": "It's about power.",
+  "start": "30:44.00"
+ },
+ {
+  "text": "It's about who gets to control the future.",
+  "start": "30:44.00"
+ },
+ {
+  "text": "I've been thinking about AI for several years now and still reading AI 2027 made me kind of orient to it differently.",
+  "start": "30:48.00"
+ },
+ {
+  "text": "I think for a while it's sort of been my thing to theorize and worry about with my friends and my colleagues.",
+  "start": "30:57.00"
+ },
+ {
+  "text": "And this made me want to call my family and make sure they know that these risks are very real and possibly very near and that it kind of needs to be their problem too.",
+  "start": "31:05.00"
+ },
+ {
+  "text": "Now I think that basically companies shouldn't be allowed to build superhuman AI systems, you know, super broadly super super intelligence until they figure out how to make it safe and also until they figure out how to make it, you know, democratically accountable and controlled.",
+  "start": "31:15.00"
+ },
+ {
+  "text": "And then the question is how do we implement that?",
+  "start": "31:38.00"
+ },
+ {
+  "text": "And the difficulty of course is the race dynamics where it's not enough for one state to pass a law because there's other states and it's not even enough for one country to pass a law because there's other countries, right?",
+  "start": "31:40.00"
+ },
+ {
+  "text": "Um so that's like the big challenge that we all need to be prepping for when chips are down and powerful AI is imminent.",
+  "start": "31:49.00"
+ },
+ {
+  "text": "Um prior to that it's transparency is usually what I advocate for.",
+  "start": "31:56.00"
+ },
+ {
+  "text": "Um so stuff that sort of like builds awareness, builds capacity.",
+  "start": "32:00.00"
+ },
+ {
+  "text": "Your options are not just full throttle enthusiasm for AI or dismissiveness.",
+  "start": "32:05.00"
+ },
+ {
+  "text": "There is a third option which is to stress out about it a lot and maybe do something about it.",
+  "start": "32:10.00"
+ },
+ {
+  "text": "The world needs better research, better policy, more accountability for AI companies.",
+  "start": "32:15.00"
+ },
+ {
+  "text": "Just a better conversation about all of this.",
+  "start": "32:21.00"
+ },
+ {
+  "text": "I want people paying attention, who are capable, who are engaging with the evidence around them with the right amount of skepticism, and above all, who are keeping an eye out for when what they have to offer matches what the world needs and are ready to jump when they see that happening.",
+  "start": "32:22.00"
+ },
+ {
+  "text": "You can make yourself more capable, more knowledgeable, more engaged with this conversation and more ready to take opportunities where you see them.",
+  "start": "32:39.00"
+ },
+ {
+  "text": "And there is a vibrant community of people that are working on those things.",
+  "start": "32:46.00"
+ },
+ {
+  "text": "They're scared but determined.",
+  "start": "32:52.00"
+ },
+ {
+  "text": "They're just some of the coolest, smartest people I know, frankly.",
+  "start": "32:52.00"
+ },
+ {
+  "text": "And there are not nearly enough of them.",
+  "start": "32:57.00"
+ },
+ {
+  "text": "\" Great.",
+  "start": "33:05.00"
+ },
+ {
+  "text": "We have thoughts on that.",
+  "start": "33:05.00"
+ },
+ {
+  "text": "We would love to help.",
+  "start": "33:08.00"
+ },
+ {
+  "text": "But even if you're not sure what to make of all this yet, my hopes for this video will be realized if we can start a conversation that feels alive here in the comments and offline about what this actually means for people, people talking to their friends and family because this is really going to affect everyone.",
+  "start": "33:09.00"
+ },
+ {
+  "text": "Thank you so much for watching.",
+  "start": "33:30.00"
+ },
+ {
+  "text": "There are links for more things to read, for courses you can take, job and volunteer opportunities, all in the description.",
+  "start": "33:30.00"
+ },
+ {
+  "text": "and I'll be there in the comments.",
+  "start": "33:39.00"
+ },
+ {
+  "text": "I would genuinely love to hear your thoughts on AI 2027.",
+  "start": "33:39.00"
+ },
+ {
+  "text": "Do you find it plausible?",
+  "start": "33:43.00"
+ },
+ {
+  "text": "What do you think was most implausible?",
+  "start": "33:46.00"
+ },
+ {
+  "text": "And if you found this valuable, please do like and subscribe and maybe spend a second thinking about a person or two that you know who might find it valuable to.",
+  "start": "33:48.00"
+ },
+ {
+  "text": "Maybe your AI progress skeptical friend or your chat GPT curious uncle or maybe your local member of Congress.",
+  "start": "33:57.00"
+ }
+]
