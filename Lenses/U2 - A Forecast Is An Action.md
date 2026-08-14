@@ -10,9 +10,15 @@ authors:
 content::
 \## Reading Assignment
 
-Two readings. Read them in this order.
+Two {--{"author":"Lauren's AI","timestamp":1786693147816}@@readings.--}{++{"author":"Lauren's AI","timestamp":1786693147816}@@readings, plus an optional one you may want first.++} Read them in this order.
 
-**1. *Selective Optimism: a critique of AI 2040*, by Richard Ngo.**
+{++{"author":"Lauren's AI","timestamp":1786693147816}@@**0. *AI 2040: Plan A*, the opening of the scenario Ngo is arguing with.** (optional, about fifteen minutes)
+
+Worth knowing before you decide whether to open it: the reading below is a critique of this document. If you read only the critique, you are taking Ngo's account of the scenario on trust. That is often a reasonable thing to do. It is also the kind of trust this unit has spent four sections teaching you to notice. The scenario's first three years are below, so you can check him if you want to.
+
+One thing to watch for if you do read it. It is not only a forecast. Its authors are advocating a specific plan, and it ends at a choice rather than after one.
+
+++}**1. *Selective Optimism: a critique of AI 2040*, by Richard Ngo.**
 
 This is a critique of an optimistic forecast about AI. Ngo's objection is not that the forecast is too optimistic. His objection is that choices which could go either way appear in it as facts about how the future works. The reader thinks they are being given a prediction. They are also being given a political position, and it is not labelled as one.
 
@@ -27,7 +33,11 @@ As you read the second one, keep this question in mind. At what point does the m
 ---
 
 #### Article
-source:: [[../articles/ngo-selective-optimism-critique-of-ai-2040]]
+source:: {++{"author":"Lauren's AI","timestamp":1786693156429}@@[[../articles/ai-2040-plan-a]]
+optional:: true
+
+#### Article
+source:: ++}[[../articles/ngo-selective-optimism-critique-of-ai-2040]]
 
 #### {++{"author":"Lauren's AI","timestamp":1786529148966}@@Article
 source:: [[../articles/demski-parable-of-predict-o-matic]]
