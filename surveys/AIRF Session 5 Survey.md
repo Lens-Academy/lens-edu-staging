@@ -1,4 +1,4 @@
-{++{"author":"Turner's AI","timestamp":1786705622098}@@---
+---
 id: 'eb7cc1a1-4e9b-45a0-8584-055af60203c2'
 title: Final Reflection
 ---
@@ -99,4 +99,3 @@ content:: What should the next cohort get LESS of?
 #### Question
 key:: anything_else
 content:: Anything else you want to share?
-++}
