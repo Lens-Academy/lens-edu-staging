@@ -9,3 +9,8 @@ authors:
 
 #### Article
 source:: [[../articles/ai-2040-plan-a-first-three-years]]
+
+#### Text
+content::
+
+This was the opening from "AI 2040: Plan A". 
