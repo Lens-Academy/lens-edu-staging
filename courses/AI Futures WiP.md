@@ -8,7 +8,29 @@ authors:
   - Lauren+Claude
 ---
 
-%% DRAFT, 2026-08-07. Units 1-3 built; units 4-6 not written.
+%% {--{"author":"Lauren's AI","timestamp":1786781827756}@@DRAFT,--}{++{"author":"Lauren's AI","timestamp":1786781827756}@@SUPERSEDED 2026-08-15. The live course is `courses/Forecasting, Modeling, and
+Shaping AI Futures.md`, slug `ai-futures`, five units. This file is slug
+`ai-futures-wip` and carried an IDENTICAL title until today, which made the two
+indistinguishable in the promote UI.
+
+Queued for deletion: Asana 1217295080436405. Thirteen files are reachable ONLY
+from this course and should be deleted with it, or they become orphans:
+  modules/Unit 3 - Threat Models and Key Scenarios.md
+  Lenses/U3 - Alignment Faking and In-Context Scheming.md
+  Lenses/U3 - Failure Without a Schemer - PQ.md
+  Lenses/U3 - Gradual Disempowerment.md
+  Lenses/U3 - Predict the Result - PQ.md
+  Lenses/U3 - Sympathy for the Model.md
+  Lenses/U3 - Two Accounts of the Core Difficulty.md
+  Lenses/U3 - What Failure Looks Like.md
+  Lenses/U3 - What Makes This Hard - PQ.md
+  Learning Outcomes/Catastrophe without a schemer.md
+  Learning Outcomes/Locating the core difficulty.md
+  Learning Outcomes/Reading evidence of scheming.md
+  courses/AI Futures WiP.md
+Everything else this course touches is shared with the live course and must stay.
+
+ORIGINAL NOTE,++} 2026-08-07. Units 1-3 built; units 4-6 not written.
 Slug is `ai-futures`, deliberately NOT `ai-futurism` -- a separate AI Futurism
 course already exists in this folder, built from Alexa Pan's Redwood reading
 list. That one carries Redwood partner logos WITHOUT approval, which is a draft
