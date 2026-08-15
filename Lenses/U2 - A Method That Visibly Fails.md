@@ -18,7 +18,15 @@ Check where the number came from, because that changes what it means. The 372-ye
 
 You just did this arithmetic yourself in the previous step.
 
-As you read, follow the argument rather than the number. The authors do not simply say that the method is wrong. They ask what would have to be true for 372 years to be right, and what is true instead.
+As you read, follow the argument rather than the number. The authors do not simply say that the method is wrong. They ask what would have to be true for 372 years to be right, and what is true instead.{++{"author":"Lauren's AI","timestamp":1786781908695}@@
+
+Three terms before you start. This reading uses the first one, and the rest of the unit uses all three without introducing them.
+
+- A **scaling law** is a measured relationship between how much you spend on training an AI, in compute and data, and how well the result performs. The relationships found so far are regular enough to extrapolate, which is why so many forecasts lean on them. They describe a measured range. They do not promise the pattern holds outside it.
+- **Effective compute** counts the compute you spent and then adjusts it for how efficiently you spent it. A better training method makes one chip do the work of two, so it is scored as if you had bought a second chip. This lets one number carry both hardware growth and method improvement.
+- **Algorithmic progress** is the second half of that: getting more capability from the same hardware by finding better methods. It is the reason a forecast can be wrong about capability while being right about chips.
+
+Notice what all three have in common. Each one converts a question about the future into a quantity you can extrapolate. That move is the subject of this unit, and it is worth watching whether it is earned each time somebody makes it.++}
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
