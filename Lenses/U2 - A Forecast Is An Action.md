@@ -12,16 +12,23 @@ content::
 
 One required reading, plus two optional ones. Read them in this order.
 
+
+
+\### Optional
 ::card[[../Lenses/U2 - AI 2040 First Three Years]]
-> **Optional, about fifteen minutes.** Read the first three years of the scenario Ngo is arguing with, so you can check his account against it.
+The second, required, article, will ar
+
+Read the first three years of the scenario Ngo is arguing with, so you can check his account against it.
 
 Two things to notice: its authors are advocating a plan, not only predicting one. And it stops at a choice rather than after one.
 
+\### Required
 ::card[[../Lenses/U2 - Selective Optimism]]
 > **Required.** Richard Ngo argues that an optimistic forecast can present political choices as facts about how the future works.
 
 Ngo's objection is not that the forecast is too optimistic. His objection is that choices which could go either way appear in it as facts. The reader thinks they are being given a prediction. They are also being given a political position, and it is not labelled as one.
 
+\### Optional
 ::card[[../Lenses/U2 - The Parable of Predict-O-Matic]]
 > **Optional.** Abram Demski's fictional parable makes the same point in story form. Skip it if you are short of time.
 
