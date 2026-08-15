@@ -81,7 +81,7 @@ The Pyramid of Djoser, _By Charles J Sharp – Own work, from [Sharp Photography
 
 The first of these five is the Pyramid of Djoser, standing 62.5m tall. The second one—[Meidum Pyramid](https://en.wikipedia.org/wiki/Meidum)—is also a large discontinuity in structure height trends by our calculation, but I judge it not robust, since it is fairly unclear what the continuation of the trend should be after the first discontinuity. As is common, the more basic thing going on seems to be a change in the growth rate, and the discontinuity of the Pyramid of Djoser is just the start of it.
 
-
+https://aiimpacts.org/wp-content/uploads/2020/04/Djoser.png
 
 ![](https://aiimpacts.org/wp-content/uploads/2020/04/Djoser-300x225.png)
 
