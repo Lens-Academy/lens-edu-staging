@@ -44,7 +44,7 @@ We’ve been looking for historic cases of discontinuously fast technological pr
 
 We found [ten events](http://aiimpacts.org/cases-of-discontinuous-technological-progress/) in history that abruptly and clearly contributed more to progress on some technological metric than another century would have seen on the previous trend.[^2] Or as we say, we found ten events that produced ‘large’, ‘robust’ ‘discontinuities’.
 
-{--{"author":"Luc's AI","timestamp":1786824718945}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/DiscontinuityCartoon-657x381.png)--}{++{"author":"Luc's AI","timestamp":1786824718945}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/DiscontinuityCartoon.png)++}
+![](https://aiimpacts.org/wp-content/uploads/2020/04/DiscontinuityCartoon.png)
 
 How we measure the size of a discontinuity _(by Rick Korzekwa)_
 
@@ -75,14 +75,14 @@ _Discontinuity in [structure height trends](http://aiimpacts.org/discontinuity-f
 
 The Pyramid of Djoser is [considered to be](https://en.wikipedia.org/wiki/Pyramid_of_Djoser) ‘the earliest colossal stone structure’ in Egypt. According to Wikipedia’s data, it took seven thousand years for the tallest structures to go from five to thirteen meters tall[^7] and then suddenly the Egyptian pyramids shot up to a height of 146.5m over about a hundred years and five successively tallest pyramids.
 
-{--{"author":"Luc's AI","timestamp":1786824719183}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/Saqqara_pyramid_ver_2-300x200.jpg)--}{++{"author":"Luc's AI","timestamp":1786824719183}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/Saqqara_pyramid_ver_2.jpg)++}
+![](https://aiimpacts.org/wp-content/uploads/2020/04/Saqqara_pyramid_ver_2.jpg)
 
 The Pyramid of Djoser, _By Charles J Sharp – Own work, from [Sharp Photography, sharpphotography](http://www.sharpphotography.co.uk/), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0 "Creative Commons Attribution-Share Alike 3.0"), [Link](https://commons.wikimedia.org/w/index.php?curid=32434567)_
 
 The first of these five is the Pyramid of Djoser, standing 62.5m tall. The second one—[Meidum Pyramid](https://en.wikipedia.org/wiki/Meidum)—is also a large discontinuity in structure height trends by our calculation, but I judge it not robust, since it is fairly unclear what the continuation of the trend should be after the first discontinuity. As is common, the more basic thing going on seems to be a change in the growth rate, and the discontinuity of the Pyramid of Djoser is just the start of it.
 
 
-{--{"author":"Luc's AI","timestamp":1786824719404}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/Djoser-300x225.png)--}{++{"author":"Luc's AI","timestamp":1786824719404}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/Djoser.png)++}
+![](https://aiimpacts.org/wp-content/uploads/2020/04/Djoser.png)
 
 The Djoser discontinuity: close up on the preceding trend, cut off at the Pyramid of Djoser
 
@@ -98,7 +98,7 @@ _Discontinuity in [ship size](http://aiimpacts.org/historic-trends-in-ship-size/
 
 The SS _Great Eastern_ was a freakishly large ship. For instance, it seems to have weighed about five times as much as any previous ship. As far as I can tell, the reason it existed is that [Isambard Kingdom Brunell](https://en.wikipedia.org/wiki/Isambard_Kingdom_Brunel) thought it would be good. Brunell was a 19th Century engineering hero, rated #2 greatest Briton of all time in a 2002 [BBC poll](https://en.wikipedia.org/wiki/100_Greatest_Britons), who according to [Wikipedia](https://en.wikipedia.org/wiki/Isambard_Kingdom_Brunel), ‘revolutionised public transport and modern engineering’ and built ‘dockyards, the Great Western Railway (GWR), a series of steamships including the first propeller-driven transatlantic steamship, and numerous important bridges and tunnels’.
 
-{--{"author":"Luc's AI","timestamp":1786824719631}@@![](https://aiimpacts.org/wp-content/uploads/2019/10/DisplacementGE-300x225.png)--}{++{"author":"Luc's AI","timestamp":1786824719631}@@![](https://aiimpacts.org/wp-content/uploads/2019/10/DisplacementGE.png)++}
+![](https://aiimpacts.org/wp-content/uploads/2019/10/DisplacementGE.png)
 
 The SS _Great Eastern_ compared to the UK Royal Navy’s ships of the line, which were probably not much smaller than the largest ships overall immediately prior to the _Great Eastern_
 
@@ -106,7 +106,7 @@ The experimental giant sailing steamship idea doesn’t seem to have gone well. 
 
 We don’t have a whole trend for largest ships, so are using British Royal Navy [ship of the line](https://en.wikipedia.org/wiki/List_of_ships_of_the_line_of_the_Royal_Navy) size trends as a proxy against which to compare the _Great Eastern_.[^13] This gives us discontinuities of around 400 years in both displacement and tonnage ([BOM](https://en.wikipedia.org/wiki/Builder%27s_Old_Measurement)). \[Added May 10: Nuño Sempere [also investigated](https://nunosempere.github.io/rat/Discontinuous-Progress.html) the Great Eastern as a discontinuity, and has some nice figures comparing it to passenger and sailing vessel trends.\]
 
-{--{"author":"Luc's AI","timestamp":1786824719838}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/Great_Eastern-low-quality-300x132.jpg)--}{++{"author":"Luc's AI","timestamp":1786824719838}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/Great_Eastern-low-quality.jpg)++}
+![](https://aiimpacts.org/wp-content/uploads/2020/04/Great_Eastern-low-quality.jpg)
 
 [The SS _Great Eastern_](https://commons.wikimedia.org/wiki/File:Great_Eastern.jpg)
 
@@ -122,17 +122,17 @@ _Discontinuity in [speed of sending a 140 character message across the Atlantic 
 
 Until 1858, the fastest way to get a message from New York to London was by ship, and the fastest ships took over a week[^14]. Telegraph was [used earlier](https://en.wikipedia.org/wiki/Electrical_telegraph#Cooke_and_Wheatstone_system) on land, but running it between continents was quite an undertaking. The effort to lay the a transatlantic cable failed numerous times before it became ongoingly functional.[^15] One of those times though, it worked for about a month, and messages were sent.[^16] There were celebrations in the streets.
 
-{--{"author":"Luc's AI","timestamp":1786824720071}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/H.M.S._%E2%80%9CAGAMEMNON%E2%80%9D_laying_cable-678x381.jpg)--}{++{"author":"Luc's AI","timestamp":1786824720071}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/H.M.S._%E2%80%9CAGAMEMNON%E2%80%9D_laying_cable.jpg)++}
+![](https://aiimpacts.org/wp-content/uploads/2020/04/H.M.S._%E2%80%9CAGAMEMNON%E2%80%9D_laying_cable.jpg)
 
 [H.M.S. “Agamemnon” laying the Atlantic Telegraph cable in 1858. A whale crosses the line](https://commons.wikimedia.org/wiki/File:H.M.S._%E2%80%9CAGAMEMNON%E2%80%9D_laying_cable.jpg), R. M. Bryson, lith from a drawing by R. Dudley, 1865
 
-{--{"author":"Luc's AI","timestamp":1786824720290}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/41_William_England_-_Atlantic_telegraph_jubilee_on_Broadway_New_York-678x381.jpg)--}{++{"author":"Luc's AI","timestamp":1786824720290}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/41_William_England_-_Atlantic_telegraph_jubilee_on_Broadway_New_York.jpg)++}
+![](https://aiimpacts.org/wp-content/uploads/2020/04/41_William_England_-_Atlantic_telegraph_jubilee_on_Broadway_New_York.jpg)
 
 [A celebration parade for the first transatlantic telegraph cable, Broadway, New York City](https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable#/media/File:41_William_England_-_Atlantic_telegraph_jubilee_on_Broadway,_New_York.jpg)
 
 The telegraph [could send](https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable#First_contact) a 98 word message in a mere 16 hours. For a message of more than about 1400 words, it would actually have been faster to send it by ship (supposing you already had it written down). So this was a big discontinuity for short messages, but not necessarily any progress at all for longer ones.
 
-{--{"author":"Luc's AI","timestamp":1786824720369}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/FirstTele-678x381.png)--}{++{"author":"Luc's AI","timestamp":1786824720369}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/FirstTele.png)++}
+![](https://aiimpacts.org/wp-content/uploads/2020/04/FirstTele.png)
 
 The first transatlantic telegraph cable revolutionized 140 character message speed across the Atlantic Ocean
 
@@ -142,7 +142,7 @@ _Discontinuity in [speed of sending a 140 character message across the Atlantic 
 
 After the first working transatlantic telegraph cable (see above) failed in 1858, it was another eight years before the second working cable was finished. Most of that delay was apparently for lack of support.[^17] and the final year seems to have been because the cable broke and the end was lost at sea after over a thousand miles had been laid, leaving the ship to return home and a new company to be established before the next try.[^18] Whereas it [sounds like](https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable#Great_Eastern) it took less than a day to go from the ship carrying the cable arriving in port, and the sending of telegraphs.
 
-{--{"author":"Luc's AI","timestamp":1786824720656}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/SecondTele-678x381.png)--}{++{"author":"Luc's AI","timestamp":1786824720656}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/SecondTele.png)++}
+![](https://aiimpacts.org/wp-content/uploads/2020/04/SecondTele.png)
 
 The second telegraph discontinuity: close up on the preceding trend, cut off at the second telegraph. Note that the big discontinuity of the first telegraph cable is now almost invisible.
 
@@ -150,7 +150,7 @@ At a glance, on Wikipedia’s [telling](https://en.wikipedia.org/wiki/Transatlan
 
 The second telegraph cable was laid by the _Great Eastern_, the discontinuously large ship of two sections ago. Is there some reason for these two big discontinuities to be connected? For instance, did one somehow cause the other? That doesn’t seem plausible. The main way I can think of that the transatlantic telegraph could have caused the _Great Eastern_‘s size would be if the economic benefits of being able to lay cable were anticipated and effectively subsidized the ship. I haven’t heard of this being an intended use for the _Great Eastern_. And given that the first transatlantic telegraph was not laid by the _Great Eastern_, it seems unlikely that such a massive ship was strictly needed for the success of a second one at around that time, though the second cable used [was apparently around twice as heavy as the first](https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable#Failure_of_the_first_cable). Another possibility is that some other common factor made large discontinuities more possible. For instance, perhaps it was an unusually feasible time and place for solitary technological dreamers to carry out ambitious and economically adventurous projects.
 
-{--{"author":"Luc's AI","timestamp":1786824720889}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/Great_Eastern_1866-678x381.jpg)--}{++{"author":"Luc's AI","timestamp":1786824720889}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/Great_Eastern_1866.jpg)++}
+![](https://aiimpacts.org/wp-content/uploads/2020/04/Great_Eastern_1866.jpg)
 
 [_Great Eastern_ again, this time at Heart’s Content, Newfoundland, where it carried the end of the second transatlantic telegraph cable in 1866](https://en.wikipedia.org/wiki/File:Great_Eastern_1866.jpg)
 
@@ -162,7 +162,7 @@ Ships were the fastest way to cross the Atlantic Ocean until the end of World Wa
 
 The first non-stop transatlantic flight was made shortly after the end of WWI, in 1919. The Daily Mail [had offered](https://www.aerosociety.com/news/the-great-transatlantic-race/) a large cash prize, on hold during the war, and with the resumption of peace, [a slew](https://www.aerosociety.com/news/the-great-transatlantic-race/) of competitors prepared to fly. [Alcock and Brown](https://en.wikipedia.org/wiki/Transatlantic_flight_of_Alcock_and_Brown) were the first to do it successfully, in a modified bomber plane, taking around 16 hours, for an average speed around four times faster than the Blue Riband.
 
-{--{"author":"Luc's AI","timestamp":1786824721156}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/Alcock-Brown-Clifden-678x381.jpg)--}{++{"author":"Luc's AI","timestamp":1786824721156}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/Alcock-Brown-Clifden.jpg)++}
+![](https://aiimpacts.org/wp-content/uploads/2020/04/Alcock-Brown-Clifden.jpg)
 
 [Alcock and Brown landed in Irelend, 1919](https://en.wikipedia.org/wiki/Transatlantic_flight#/media/File:Alcock-Brown-Clifden.jpg)
 
@@ -170,7 +170,7 @@ One might expect discontinuities to be especially likely in a metric like ‘spe
 
 Is this what happened? It looks like it. The Wright Flyer [apparently](https://en.wikipedia.org/wiki/Wright_Flyer#Specifications_\(Wright_Flyer\)) had a maximum speed of 30mph. That’s about the record average ocean liner speed in 1909. So if the Wright Flyer had had the range to cross the Atlantic in 1903 at that speed, it would have been about six years ahead of the ship speed trend and wouldn’t have registered as a substantial discontinuity. [^20] But because it didn’t have the range, and because the speed of planes was growing faster than that of ships, in 1919 when planes could at last fly thousands of miles, they were way ahead of ships.
 
-{--{"author":"Luc's AI","timestamp":1786824721378}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/TAFlight-678x381.png)--}{++{"author":"Luc's AI","timestamp":1786824721378}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/TAFlight.png)++}
+![](https://aiimpacts.org/wp-content/uploads/2020/04/TAFlight.png)
 
 The transatlantic flight discontinuity: close up on the preceding trend, cut off at the first non-stop transatlantic flight.
 
@@ -180,13 +180,13 @@ _Discontinuity in [longest bridge span](http://aiimpacts.org/historic-trends-in-
 
 A bridge ‘[span](https://en.wikipedia.org/wiki/Span_\(engineering\))‘ is the distance between two intermediate supports in a bridge. The history of bridge span length is not very smooth, and so arguably full of discontinuities, but the only bridge span that seems clearly way out of distribution to me is the main span of the [George Washington Bridge](https://en.wikipedia.org/wiki/George_Washington_Bridge). (See below.)
 
-{--{"author":"Luc's AI","timestamp":1786824721674}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/GWBridge-678x381.png)--}{++{"author":"Luc's AI","timestamp":1786824721674}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/GWBridge.png)++}
+![](https://aiimpacts.org/wp-content/uploads/2020/04/GWBridge.png)
 
 The George Washington Bridge discontinuity: close up on the preceding trend, cut off at the George Washington Bridge
 
 I’m not sure what made it so discontinuously long, but it is notably also the world’s busiest motor vehicle bridge ([as of 2016](https://en.wikipedia.org/wiki/George_Washington_Bridge)), connecting New York City with New Jersey, so one can imagine that it was a very unusually worthwhile expanse of water to cross. Another notable feature of it was that it was much thinner relative to its length than long suspension bridges normally were, and lacked the usual ‘trusses’, based on a new theory of bridge design.[^21]
 
-{--{"author":"Luc's AI","timestamp":1786824721901}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/George_Washington_Bridge_NY-678x381.jpeg)--}{++{"author":"Luc's AI","timestamp":1786824721901}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/George_Washington_Bridge_NY.jpeg)++}
+![](https://aiimpacts.org/wp-content/uploads/2020/04/George_Washington_Bridge_NY.jpeg)
 
 George Washington Bridge, [via Wikimedia Commons, Photographer: Bob Jagendorf](https://commons.wikimedia.org/wiki/File:George_Washington_Bridge_NY.JPG)
 
@@ -196,7 +196,7 @@ _Discontinuity in [relative effectiveness of explosives](http://aiimpacts.org/di
 
 The ‘[relative effectiveness factor](https://en.wikipedia.org/wiki/TNT_equivalent#Relative_effectiveness_factor)‘ of an explosive is how much TNT you would need to do the same job.[^22] Pre-nuclear explosives had traversed the range of relative effectiveness factors from around 0.5 to 2 over about a thousand years, when in 1945 the first nuclear weapons came in at a relative effectiveness of [around 4500](https://en.wikipedia.org/wiki/TNT_equivalent#Nuclear_examples)[^23].
 
-{--{"author":"Luc's AI","timestamp":1786824722161}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/RelativeEffectiveness-678x381.png)--}{++{"author":"Luc's AI","timestamp":1786824722161}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/RelativeEffectiveness.png)++}
+![](https://aiimpacts.org/wp-content/uploads/2020/04/RelativeEffectiveness.png)
 
 The nuclear weapons discontinuity: close up on the preceding trend, cut off at the first nuclear weapons
 
@@ -209,11 +209,11 @@ A few characteristics of nuclear weapons that could relate to their discontinuou
 
 I discussed whether and how these things might be related to the discontinuity in 2015 [here](https://aiimpacts.org/whats-up-with-nuclear-weapons/) (see Gwern’s comment) and [here](https://aiimpacts.org/ai-and-the-big-nuclear-discontinuity/).
 
-{--{"author":"Luc's AI","timestamp":1786824722394}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/Trinity_-_Jumbo_brought_to_site-678x381.jpg)--}{++{"author":"Luc's AI","timestamp":1786824722394}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/Trinity_-_Jumbo_brought_to_site.jpg)++}
+![](https://aiimpacts.org/wp-content/uploads/2020/04/Trinity_-_Jumbo_brought_to_site.jpg)
 
 [Preparation for the Trinity Test, the first detonation of a nuclear weapon](https://commons.wikimedia.org/wiki/File:Trinity_-_Jumbo_brought_to_site.jpg)
 
-{--{"author":"Luc's AI","timestamp":1786824722621}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/Trinity_-_Explosion_15s-678x381.jpg)--}{++{"author":"Luc's AI","timestamp":1786824722621}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/Trinity_-_Explosion_15s.jpg)++}
+![](https://aiimpacts.org/wp-content/uploads/2020/04/Trinity_-_Explosion_15s.jpg)
 
 [The trinity test explosion after 15 seconds](https://commons.wikimedia.org/wiki/File:Trinity_-_Explosion_15s.jpg)
 
@@ -223,11 +223,11 @@ _Discontinuity in [altitude reached by man-made means](http://aiimpacts.org/disc
 
 The [Paris Gun](https://en.wikipedia.org/wiki/Paris_Gun) was the largest artillery gun in WWI, used by the Germans to bomb Paris from 75 miles away. It could shoot 25 miles into the air, whereas the previous record we know of was around 1 mile into the air (also shot by a German gun).[^24]
 
-{--{"author":"Luc's AI","timestamp":1786824722863}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/Parisgesch1-678x381.jpeg)--}{++{"author":"Luc's AI","timestamp":1786824722863}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/Parisgesch1.jpeg)++}
+![](https://aiimpacts.org/wp-content/uploads/2020/04/Parisgesch1.jpeg)
 
 [The Paris Gun](https://en.wikipedia.org/wiki/Paris_Gun#/media/File:Parisgesch1.JPG), able to [shell Paris from 75 miles away](https://en.wikipedia.org/wiki/Paris_Gun)
 
-{--{"author":"Luc's AI","timestamp":1786824723184}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/ParisGunkm-678x381.png)--}{++{"author":"Luc's AI","timestamp":1786824723184}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/ParisGunkm.png)++}
+![](https://aiimpacts.org/wp-content/uploads/2020/04/ParisGunkm.png)
 
 The Paris Gun discontinuity: close up on the preceding trend of highest altitudes reached by man-made means, cut off at the Paris Gun
 
@@ -245,7 +245,7 @@ _Discontinuity in [average speed of military payload crossing the Atlantic Ocean
 
 For most of history, the fastest way to send a military payload across the Atlantic Ocean was to put it on a boat or plane, much like a human passenger. So the [maximum speed of sending a military payload across the Atlantic Ocean](http://aiimpacts.org/historic-trends-in-long-range-military-payload-delivery/) followed the [analogous passenger travel trend](http://aiimpacts.org/historic-trends-in-transatlantic-passenger-travel/). However in August 1957, the two abruptly diverged with the [first successful test](https://en.wikipedia.org/wiki/Intercontinental_ballistic_missile#Cold_War) of an intercontinental ballistic missile (ICBM)—the Russian [R-7 Semyorka](https://en.wikipedia.org/wiki/R-7_Semyorka). Early ICBMs traveled at around 11 thousand miles per hour, taking the minimum time to send a military payload between Moscow and New York for instance from around 14 hours to around 24 minutes.[^25]
 
-{--{"author":"Luc's AI","timestamp":1786824723465}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/ICBM-678x381.png)--}{++{"author":"Luc's AI","timestamp":1786824723465}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/ICBM.png)++}
+![](https://aiimpacts.org/wp-content/uploads/2020/04/ICBM.png)
 
 The ICBM discontinuity: close up on the preceding trend, cut off at the first ICBM
 
@@ -255,7 +255,7 @@ Does this mean the ICBM was required to be a large discontinuity? No—there wou
 
 This situation also means that you could plausibly have predicted the discontinuity ahead of time, if you were watching the trends. Seeing the rocket speed trend traveling upward faster than the plane speed trend, you could forecast that when it hit a speed that implied an intercontinental range, intercontinental weapons delivery speed would jump upward.
 
-{--{"author":"Luc's AI","timestamp":1786824723713}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/Atlas-B_ICBM-482x381.jpg)--}{++{"author":"Luc's AI","timestamp":1786824723713}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/Atlas-B_ICBM.jpg)++}
+![](https://aiimpacts.org/wp-content/uploads/2020/04/Atlas-B_ICBM.jpg)
 
 [An SM-65 Atlas, the first US ICBM, first launched in 1957](https://en.wikipedia.org/wiki/Intercontinental_ballistic_missile#/media/File:Atlas-B_ICBM.jpg) (1958 image)
 
@@ -267,7 +267,7 @@ When an ordinary material conducts electricity, it has some [resistance](https:/
 
 Superconductors were [discovered](https://en.wikipedia.org/wiki/Superconductivity) in 1911. [The first one observed](https://en.wikipedia.org/wiki/Superconductivity#History_of_superconductivity), mercury, could superconduct below 4.2 Kelvin. From then on, more superconductors were discovered, and the warmest observed temperatures of superconduction gradually grew. In 1957, [BCS theory](https://en.wikipedia.org/wiki/BCS_theory) was developed to explain the phenomenon (winning its authors a Nobel Prize), and [was understood](https://en.wikipedia.org/wiki/Superconductivity#High-temperature_superconductivity) to rule out superconduction above temperatures of around 30K. But [in 1986](https://en.wikipedia.org/wiki/Superconductivity#High-temperature_superconductivity) a new superconductor was found with a threshold temperature around 30K, and composed of a surprising material: a ‘ceramic’ involving oxygen rather than an alloy.[^27] This also [won](https://www.nobelprize.org/prizes/physics/1987/press-release/) a Nobel Prize, and instigated a rapid series of discoveries in similar materials—’[cuprates](https://en.wikipedia.org/wiki/Cuprate_superconductor)‘—which shot the highest threshold temperatures to around 125 K by 1988 (before continued upward).
 
-{--{"author":"Luc's AI","timestamp":1786824723962}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/YBa2Cu3O7-678x381.png)--}{++{"author":"Luc's AI","timestamp":1786824723962}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/YBa2Cu3O7.png)++}
+![](https://aiimpacts.org/wp-content/uploads/2020/04/YBa2Cu3O7.png)
 
 The high temperature superconductor discontinuity: close up on the preceding trend, cut off at [YBa2Cu3O7](https://en.wikipedia.org/wiki/Yttrium_barium_copper_oxide)
 
@@ -275,7 +275,7 @@ The first of the cuprates, LaBaCuO4, seems mostly surprising for theoretical rea
 
 This seems like a striking instance of the story where the new technology doesn’t necessarily cause a jump so much as a new rate of progress. I wonder if there was a good reason for the least surprising cuprate to be discovered first. My guess is that there were many unsurprising ones, and substances are only famous if they were discovered before more exciting substances.
 
-{--{"author":"Luc's AI","timestamp":1786824724189}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/Stable_Levitation_of_a_magnet_on_a_superconductor-678x381.jpg)--}{++{"author":"Luc's AI","timestamp":1786824724189}@@![](https://aiimpacts.org/wp-content/uploads/2020/04/Stable_Levitation_of_a_magnet_on_a_superconductor.jpg)++}
+![](https://aiimpacts.org/wp-content/uploads/2020/04/Stable_Levitation_of_a_magnet_on_a_superconductor.jpg)
 
 [Magnet levitating on top of a superconductor of YBa2Cu3O7 cooled to merely -196°C (77.15 Kelvin)](https://commons.wikimedia.org/wiki/File:Stable_Levitation_of_a_magnet_on_a_superconductor.jpg) Superconductors can allow magnetic levitation, [consistently repelling](https://en.wikipedia.org/wiki/Superdiamagnetism) permanent magnets [while stably pinned in place](https://en.wikipedia.org/wiki/Flux_pinning). (Picture: [Julien Bobroff (user:Jubobroff), Frederic Bouquet (user:Fbouquet), LPS, Orsay, France](https://commons.wikimedia.org/wiki/File:Stable_Levitation_of_a_magnet_on_a_superconductor.jpg "via Wikimedia Commons") / [CC BY-SA](https://creativecommons.org/licenses/by-sa/3.0))
 
