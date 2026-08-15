@@ -1,5 +1,5 @@
 ---
-title: "Vercel Security Checkpoint"
+title: "Four LLM Loss functions -> four flavors of LLM misalignment"
 author:
   - "Lesswrong"
 source_url: "https://www.lesswrong.com/posts/GRmvZsHXH4vaijPMv/four-llm-loss-functions-four-flavors-of-llm-misalignment"
