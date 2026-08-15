@@ -25,6 +25,13 @@ M3 in general was quite weird since the prior format offered better interrogatio
 
 # Meeting: Introduction
 meeting-doc-template:: https://docs.google.com/document/d/1VbHf5ENp0fOjqATTMLbKYhhbUvPqvi7Ugs32THIum1g/edit
+facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]] {>>{"author":"Turner's AI","timestamp":1786809891204}@@SAMPLE FOR HAMZA - the intake half of the pair. Meeting 1 gets the fuller debrief (background, baseline scales, growth interest, referral prompt); meetings 2-5 get the short recurring one. Exactly the pattern the learner surveys already use on this course - AIRF Session 1 Survey here, AIRF Weekly Survey below.
+
+Ported from the Cohort 4 "Navigator Week 1 Debrief" Google Form, keeping its framing verbatim because it is doing real work: "Be blunt: this is about fixing the system, not evaluating you."
+
+The four baseline scales (seriousness / contribution_belief / motivation) deliberately reuse the SAME keys as the learner survey so navigator and learner trajectories are comparable in one export. community_connection is navigator-only - the learner instrument has next_step_clarity in that slot instead.
+
+Not functional until the parser reads this field - see the note on meeting 3.<<}
 survey:: [[../surveys/AIRF Session 1 Survey]] {>>{"author":"Turner's AI","timestamp":1786479585670}@@Native port of the AI Risk Fundamentals Week 1 Google Form (baseline scales + buddy handle + BlueDot history), matching the AIF Unit 1 pattern. Meeting 1 gets this intake survey; meetings 2-5 get the generic AIRF Weekly Survey. The Discord-handle question is deliberately dropped: the platform already knows who is answering, which is the whole reason the native surveys avoid the identity-matching problem the Google forms had.<<}
 
 # Module: [[../modules/IABIED M2 Nonhuman Minds, Part 2]]
@@ -41,7 +48,7 @@ survey:: [[../surveys/AIRF Weekly Survey]]
 
 # Meeting: One Extinction Scenario
 meeting-doc-template:: https://docs.google.com/document/d/1Gg6RHLoWzjegjqeAL_AioitZdJE3tVL_t632h0COyMI/edit
-survey:: [[../surveys/AIRF Weekly Survey]]{++{"author":"Turner's AI","timestamp":1786809781581}@@
+survey:: [[../surveys/AIRF Weekly Survey]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]] {>>{"author":"Turner's AI","timestamp":1786809781581}@@SAMPLE FOR HAMZA - not yet functional, see below.
 
 This is one meeting marked up with the convention Hamza proposed, so the parser change has a concrete target. It is deliberately on meeting 3 rather than meeting 1, so it can sit here harmlessly while the platform side is built.
@@ -55,7 +62,7 @@ WHAT THE PLATFORM SIDE NEEDS (three small edits, then this line starts working):
 2. index.ts:895-925 - a second resolution branch reusing the same resolveWikilinkPath + findFileWithExtension + checkTierViolation (a production course must not link a wip survey - note the survey file this points at is currently tagged wip deliberately, so that check should fire until it is promoted).
 3. Python - MeetingMarker gains the second id (core/modules/flattened_types.py:68), github_fetcher reads it, and core/surveys/native.py selects by role instead of the is_participant early-return at lines 88-91 that currently locks facilitators out entirely.
 
-The storage side is already done: SurveyKind is student|facilitator (core/enums.py:216) and survey_responses.kind exists, so a native facilitator response has a home the moment one can be authored.<<}++}
+The storage side is already done: SurveyKind is student|facilitator (core/enums.py:216) and survey_responses.kind exists, so a native facilitator response has a home the moment one can be authored.<<}
 
 # Module: [[../modules/IABIED M5 Facing The Challenge, Part 1]]
 
