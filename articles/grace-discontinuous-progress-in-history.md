@@ -3,6 +3,7 @@ title: "Discontinuous progress in history: an update"
 author: "Katja Grace"
 published: 2020-04-14
 source_url: https://aiimpacts.org/discontinuous-progress-in-history-an-update/
+tags: stub
 ---
 
 %%
@@ -30,8 +31,4 @@ course material:
 Both verified on two independent fetches, 2026-08-08.
 %%
 
-Katja Grace and collaborators at AI Impacts surveyed 38 technological trends with good historical data, defined a "large robust discontinuity" as an event that abruptly and clearly contributed more to progress on a metric than another century at previous rates would have, and counted how often such events occur.
 
-**Read the full investigation at [aiimpacts.org](https://aiimpacts.org/discontinuous-progress-in-history-an-update/).**
-
-The ten cases meeting the 100-year bar include the Pyramid of Djoser (structure height, 2650 BC), the SS Great Eastern (ship size, 1858), the first and second transatlantic telegraphs (message speed, 1858 and 1866), the Paris Gun (altitude, 1918), the first non-stop transatlantic flight (1919), the George Washington Bridge (span length, 1931), nuclear weapons (explosive effectiveness, 1945), the first ICBM (military payload delivery time across the Atlantic, 1958), and the YBa2Cu3O7 superconductor (superconducting temperature, 1987).
