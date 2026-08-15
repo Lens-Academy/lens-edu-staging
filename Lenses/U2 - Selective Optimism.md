@@ -1,4 +1,4 @@
-{++{"author":"Luc's AI","timestamp":1786806918537}@@---
+---
 id: '366467ca-8974-4428-843a-faa05aea116c'
 title: "Selective Optimism: a critique of AI 2040"
 tldr: "A forecast can quietly turn contingent political choices into facts about how the future works, narrowing the actions its readers can imagine."
@@ -8,4 +8,4 @@ authors:
 ---
 
 #### Article
-source:: [[../articles/ngo-selective-optimism-critique-of-ai-2040]]++}
+source:: [[../articles/ngo-selective-optimism-critique-of-ai-2040]]

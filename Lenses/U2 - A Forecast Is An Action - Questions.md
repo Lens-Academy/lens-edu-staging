@@ -1,4 +1,4 @@
-{++{"author":"Luc's AI","timestamp":1786806954325}@@---
+---
 id: 'e8f6ab10-c8a6-44f1-8ce0-cb9eedf21c79'
 title: "When a Forecast Becomes an Action"
 tldr: "Forecasts can change the systems they describe, but the answer is to make their assumptions and interventions visible, not to stop forecasting."
@@ -132,4 +132,4 @@ If the student adopts the nihilistic conclusion wholeheartedly and argues it wel
 Calibration summary (on close):
 - Name what they demonstrated clearly.
 - Name what remains underdeveloped.
-- Give a direct verdict on readiness for the unit's tests.++}
+- Give a direct verdict on readiness for the unit's tests.
