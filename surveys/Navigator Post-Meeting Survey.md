@@ -1,4 +1,4 @@
-{++{"author":"Turner's AI","timestamp":1786809842681}@@---
+---
 id: '48e9b3a0-92a5-40c6-ba1a-a23e67cae04b'
 title: Navigator Post-Meeting Survey
 tags:
@@ -122,4 +122,3 @@ content:: What would make the navigator dashboard more useful?
 #### Question
 key:: open_response
 content:: Anything else we should change before next week?
-++}

@@ -1,4 +1,4 @@
-{++{"author":"Turner's AI","timestamp":1786809873456}@@---
+---
 id: '9bbfe035-b5eb-436d-8dcf-057061803bcb'
 title: Navigator Session 1 Debrief
 tags:
@@ -9,7 +9,7 @@ tags:
 content:: You just ran your first session, thank you! This is how we improve the run sheet, session structure and guidance week to week. Takes about five minutes.\n\nBe blunt: this is about fixing the system, not evaluating you. If something was broken, dense or confusing, that is the most useful thing you can tell us.
 
 #### Text
-content:: \### The run sheet
+content:: {--{"author":"Turner's AI","timestamp":1786810280319}@@\###--}{++{"author":"Turner's AI","timestamp":1786810280319}@@—++} The run sheet{++{"author":"Turner's AI","timestamp":1786810280319}@@ —++}
 
 #### Rating
 key:: run_sheet_worked
@@ -47,7 +47,7 @@ key:: run_sheet_friction
 content:: Anything in the run sheet that was confusing, wrong, or missing? Be blunt.
 
 #### Text
-content:: \### Did the session land
+content:: {--{"author":"Turner's AI","timestamp":1786810288009}@@\###--}{++{"author":"Turner's AI","timestamp":1786810288009}@@—++} Did the session land{++{"author":"Turner's AI","timestamp":1786810288009}@@ —++}
 
 #### Rating
 key:: group_engagement
@@ -74,7 +74,7 @@ high-label:: Ended on a high
 required:: true
 
 #### Text
-content:: \### Ops and tech
+content:: {--{"author":"Turner's AI","timestamp":1786810295231}@@\###--}{++{"author":"Turner's AI","timestamp":1786810295231}@@—++} Ops and tech{++{"author":"Turner's AI","timestamp":1786810295231}@@ —++}
 
 #### Choice
 key:: friction_areas
@@ -99,21 +99,21 @@ key:: dashboard_improvement
 content:: You have the navigator dashboard now. What would make it more useful?
 
 #### Text
-content:: \### Where you are coming from
+content:: {--{"author":"Turner's AI","timestamp":1786810258960}@@\###--}{++{"author":"Turner's AI","timestamp":1786810258960}@@—++} Where you are coming from{++{"author":"Turner's AI","timestamp":1786810258960}@@ —++}
 
 #### Question
-key:: navigator_background
+key:: {--{"author":"Turner's AI","timestamp":1786810258960}@@navigator_background--}{++{"author":"Turner's AI","timestamp":1786810258960}@@safety_journey++}
 content:: How did you come to navigate for Lens, and what has your AI safety path been so far? Prior courses, programs, other orgs, facilitation experience, anything.
 
 #### Rating
-key:: seriousness
+key:: {--{"author":"Turner's AI","timestamp":1786810258960}@@seriousness--}{++{"author":"Turner's AI","timestamp":1786810258960}@@risk_seriousness++}
 content:: How serious and urgent do you think risks from advanced AI are?
 scale:: 5
 low-label:: Not at all
 high-label:: Extremely serious
 
 #### Rating
-key:: contribution_belief
+key:: {--{"author":"Turner's AI","timestamp":1786810258960}@@contribution_belief--}{++{"author":"Turner's AI","timestamp":1786810258960}@@agency_belief++}
 content:: How much do you believe you can meaningfully contribute to AI safety?
 scale:: 5
 low-label:: Not at all
@@ -134,7 +134,7 @@ low-label:: Not at all
 high-label:: A lot
 
 #### Text
-content:: \### As a navigator
+content:: {--{"author":"Turner's AI","timestamp":1786810303090}@@\###--}{++{"author":"Turner's AI","timestamp":1786810303090}@@—++} As a navigator{++{"author":"Turner's AI","timestamp":1786810303090}@@ —++}
 
 #### Rating
 key:: facilitation_confidence
@@ -170,4 +170,3 @@ content:: Anything else we should change before next week?
 
 #### Text
 content:: \### Grow the crew\n\nNavigating gets better with more good people in the rotation. If someone comes to mind, your referral link is on your dashboard. It is tagged to you, so we know who to thank.
-++}
