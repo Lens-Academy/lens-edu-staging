@@ -3,7 +3,8 @@ title: "Discontinuous progress in history: an update"
 author: "Katja Grace"
 published: 2020-04-14
 source_url: https://aiimpacts.org/discontinuous-progress-in-history-an-update/
-tags: stub
+tags: 
+  - article-stub
 ---
 
 %%
