@@ -1,4 +1,4 @@
-{++{"author":"Luc's AI","timestamp":1786806919736}@@---
+{++{"author":"Luc's AI","timestamp":1786806954325}@@---
 id: 'e8f6ab10-c8a6-44f1-8ce0-cb9eedf21c79'
 title: "When a Forecast Becomes an Action"
 tldr: "Forecasts can change the systems they describe, but the answer is to make their assumptions and interventions visible, not to stop forecasting."
@@ -11,9 +11,9 @@ authors:
 content::
 \## Phase 1: Recall
 
-Spend 2 minutes writing down everything you can remember, without looking back. No need to organize it, and if you read both, do not worry about keeping them separate.
+Spend 2 minutes writing down everything you can remember from Ngo's critique and, if you read it, *Predict-O-Matic*. Do not look back, and do not worry about keeping the readings separate.
 
-assessment-instructions:: The student has read Ngo's critique of AI 2040 and Demski's Parable of Predict-O-Matic, and has written a free recall of both.
+assessment-instructions:: The student has read Ngo's critique of AI 2040 and may also have read the optional Parable of Predict-O-Matic. They have written a free recall of the required reading and any optional reading they completed.
 
 Key content, Ngo:
 - The target forecast presents an optimistic trajectory for AI development.
@@ -40,7 +40,7 @@ Response style:
 
 What to do in your single reply:
 1. Acknowledge what they captured, without inflation.
-2. Name what was missing. The most common omission from Demski is that multiple self-consistent predictions can exist, which is the load-bearing step: without it, the story is only about influence, and with it, it is about choice.
+2. Name what was missing from the readings the student actually completed. If they read Demski, the most common omission is that multiple self-consistent predictions can exist, which is the load-bearing step: without it, the story is only about influence, and with it, it is about choice. Do not penalize the student for skipping an optional reading.
 3. Correct errors plainly. A frequent one with Ngo is remembering the critique as "the forecast was too optimistic."
 4. Close with one calibrating sentence.
 
@@ -50,16 +50,16 @@ This is a one-turn response. Do not ask a question. Tell them to move on.
 content::
 \## Phase 2: Processing
 
-Take 2 minutes on your reaction to these two readings, and to how they fit with everything earlier in this unit. What felt important to you? What confused you? What did you want to argue with?
+Take 2 minutes on your reaction to the reading or readings you completed, and to how they fit with everything earlier in this unit. What felt important to you? What confused you? What did you want to argue with?
 
-assessment-instructions:: The student has recalled both readings and is now reflecting. This is the last processing phase of the unit, so the reflection is partly about the unit.
+assessment-instructions:: The student has recalled the required Ngo reading and any optional reading they completed, and is now reflecting. This is the last processing phase of the unit, so the reflection is partly about the unit.
 
 This is a processing phase, not a teaching phase.
 
 Reactions worth drawing out:
 - The feeling that the unit has undercut itself: three lenses of method, and now a claim that forecasting is entangled with the thing forecast. Draw this out rather than resolving it; the resolution belongs in the next phase.
 - Suspicion that "your forecast is political" is a way to dismiss any inconvenient forecast. That is a serious objection and a good one. Ask what would distinguish a fair use of the critique from an unfair one; do not answer it.
-- Discomfort at Predict-O-Matic as fiction rather than argument. Legitimate. Ask what the fiction is doing that an argument would not, and what it therefore fails to establish.
+- If they read Predict-O-Matic, discomfort at fiction rather than argument. Legitimate. Ask what the fiction is doing that an argument would not, and what it therefore fails to establish.
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
 
@@ -86,13 +86,13 @@ What not to do: mini-lectures, adjudication, more than 2 turns.
 content::
 \## Phase 3: Learning Question
 
-You have spent this unit learning to forecast better. You decompose a question, choose reference classes, check the functional form, and aggregate with attention to overlap. Someone who read only these last two pieces draws this conclusion:
+You have spent this unit learning to forecast better. You decompose a question, choose reference classes, check the functional form, and aggregate with attention to overlap. Someone considering the arguments in this closing sequence draws this conclusion:
 
 > "So the whole enterprise is compromised. A forecast that people believe changes what they do, and a forecast nobody believes is useless, so a forecast is either an intervention or a waste of time. The honest thing is to stop producing forecasts and argue for what you want directly."
 
 There is something right in this, and the conclusion still does not follow. Work out both halves. First, what is the genuine structural problem this person has named? Second, what is a forecaster supposed to do about it? Your answer must not be to pretend to stand outside the system, and it must not be to give up.
 
-assessment-instructions:: The student has read Ngo and Demski, recalled them, and reflected. This is the final discussion of the unit.
+assessment-instructions:: The student has read Ngo and may also have read Demski, then recalled and reflected on what they completed. This is the final discussion of the unit. Do not assume they completed either optional reading.
 
 The question is a deliberate wedge, not a test question. It offers a nihilistic conclusion that follows plausibly from the readings and does not actually follow.
 

@@ -186,7 +186,7 @@ What to do in each reply:
 1. If they conclude only "forecasts are unreliable", ask what they would still use a forecast FOR, given that.
 2. If they treat the revision as a failure by the team, point out it was volunteered and ask what the alternative would have looked like from outside.
 
-#### Text
+{--{"author":"Luc's AI","timestamp":1786807178268}@@#### Text
 content::
 \## Optional: the scenario they revised away from
 
@@ -197,9 +197,10 @@ The excerpt below is not one of those. A company finds evidence that its own sys
 #### Article
 source:: [[../articles/ai-2027]]
 from:: "## October 2027: Government Oversight"
+to:: "The slowdown ending is not a recommendation"
 optional:: true
 
-#### Question
+--}#### Question
 content::
 \## What has to keep happening, and what is left afterwards
 
