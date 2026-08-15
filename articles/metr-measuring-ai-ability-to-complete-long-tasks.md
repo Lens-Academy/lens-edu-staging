@@ -110,22 +110,3 @@ This post contains this canary entry with identifier CANARY_DATASET_a1e99deea11e
 3.  Most benchmarks do not achieve this due to covering a relatively narrow range of difficulty. Other examples of benchmarks not meeting this criterion include scores like “% questions correct” whenever the questions have a multimodal distribution of difficulty, or where some fraction of the questions are impossible. [↩](#fnref:3)
 
 4.  For some concrete examples of what it would mean for AI systems to be able to complete much longer tasks, see [Clarifying and predicting AGI](https://www.alignmentforum.org/posts/BoA3agdkAzL6HQtQP/clarifying-and-predicting-agi). For concrete examples of challenges and benefits, see [Preparing for the Intelligence Explosion](https://www.forethought.org/research/preparing-for-the-intelligence-explosion) and [Machines of Loving Grace](https://darioamodei.com/machines-of-loving-grace). [↩](#fnref:4)
-
-Cite
-
-``` bibtex
-
-@misc{metr-2025-measuring-ai-ability-to-complete-long-tasks,
-    title = {Measuring AI Ability to Complete Long Software Tasks},
-    author = {METR},
-    howpublished = {\url{https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/}},
-    year = {2025},
-    month = {03},
-}
-```
-
-![METR Logo](https://metr.org/assets/images/gen/home/evals-logo-slideable.svg)
-
-**METR** researches, develops, and evaluates frontier AI systems to measure how well they can perform complex tasks autonomously. Subscribe to our newsletter for updates.
-
-Want to contribute to this work? METR is hiring: [View open roles](https://metr.org/careers)
