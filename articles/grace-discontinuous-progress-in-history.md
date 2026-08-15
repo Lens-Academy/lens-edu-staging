@@ -1,7 +1,7 @@
 ---
 title: "Discontinuous progress in history: an update"
 author:
-  - "AI Impacts"
+  - "Katja Grace at AI Impacts"
 source_url: "https://aiimpacts.org/discontinuous-progress-in-history-an-update/"
 published: 2020-04-13
 created: 2026-08-15
