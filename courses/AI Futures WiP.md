@@ -1,14 +1,14 @@
 ---
 id: 'c3f1a7d2-9e4b-4a86-b512-8d7c6e2f0a13'
 slug: ai-futures-wip
-title: {--{"author":"Lauren's AI","timestamp":1786781817088}@@"Forecasting,--}{++{"author":"Lauren's AI","timestamp":1786781817088}@@"SUPERSEDED DRAFT, do not promote: Forecasting,++} Modeling, and Shaping AI Futures"
+title: "SUPERSEDED DRAFT, do not promote: Forecasting, Modeling, and Shaping AI Futures"
 description: "Learn to see the landscape of AI possibility coming, well enough to detect it yourself. Six units on technical possibility, forecasting method, threat models, the strategic landscape, and building your own model. Every unit tests the concept rather than the reading: you commit to an answer before you read, and the graded questions are set in domains the readings never mention."
 tags: [wip]
 authors:
   - Lauren+Claude
 ---
 
-%% {--{"author":"Lauren's AI","timestamp":1786781827756}@@DRAFT,--}{++{"author":"Lauren's AI","timestamp":1786781827756}@@SUPERSEDED 2026-08-15. The live course is `courses/Forecasting, Modeling, and
+%% SUPERSEDED 2026-08-15. The live course is `courses/Forecasting, Modeling, and
 Shaping AI Futures.md`, slug `ai-futures`, five units. This file is slug
 `ai-futures-wip` and carried an IDENTICAL title until today, which made the two
 indistinguishable in the promote UI.
@@ -30,7 +30,7 @@ from this course and should be deleted with it, or they become orphans:
   courses/AI Futures WiP.md
 Everything else this course touches is shared with the live course and must stay.
 
-ORIGINAL NOTE,++} 2026-08-07. Units 1-3 built; units 4-6 not written.
+ORIGINAL NOTE, 2026-08-07. Units 1-3 built; units 4-6 not written.
 Slug is `ai-futures`, deliberately NOT `ai-futurism` -- a separate AI Futurism
 course already exists in this folder, built from Alexa Pan's Redwood reading
 list. That one carries Redwood partner logos WITHOUT approval, which is a draft
