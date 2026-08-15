@@ -2,7 +2,7 @@
 id: '4dac0591-f829-421d-8410-8a471fc70590'
 title: "A Forecast Is An Action"
 tldr: A prediction accurate enough to be believed changes what people do, and that changes what happens. You cannot stand outside the system to forecast it. A forecast that presents a choice as something inevitable has made that choice for you.
-summary_for_tutor: "Closing lens of the unit. Two readings: Ngo's critique of an optimistic forecast for hiding political choices as facts, and Demski's Parable of Predict-O-Matic for the reflexivity mechanism in its purest form. The move is from method to consequence: everything earlier in the unit treated forecasting as measurement, and this lens shows why it cannot be only that. Do not let the conversation become about whether the forecast under discussion was correct."
+summary_for_tutor: {--{"author":"Luc's AI","timestamp":1786806920306}@@"Closing lens of--}{++{"author":"Luc's AI","timestamp":1786806920306}@@"Introductory reading assignment for++} the {--{"author":"Luc's AI","timestamp":1786806920306}@@unit. Two readings: Ngo's critique of an optimistic forecast for hiding political choices--}{++{"author":"Luc's AI","timestamp":1786806920306}@@unit's closing sequence. It frames AI 2040 as an optional scenario, Richard Ngo's critique++} as {--{"author":"Luc's AI","timestamp":1786806920306}@@facts,--}{++{"author":"Luc's AI","timestamp":1786806920306}@@required,++} and Demski's {--{"author":"Luc's AI","timestamp":1786806920306}@@Parable of --}Predict-O-Matic {--{"author":"Luc's AI","timestamp":1786806920306}@@for the reflexivity mechanism in its purest form. The move is from method--}{++{"author":"Luc's AI","timestamp":1786806920306}@@parable as optional, then gives the learner a question++} to{--{"author":"Luc's AI","timestamp":1786806920306}@@ consequence: everything earlier in the unit treated forecasting as measurement, and this lens shows why it cannot be only that. Do not let the conversation become about whether --}{++{"author":"Luc's AI","timestamp":1786806920306}@@ carry into ++}the {--{"author":"Luc's AI","timestamp":1786806920306}@@forecast under discussion was correct."--}{++{"author":"Luc's AI","timestamp":1786806920306}@@readings."++}
 authors:
   - Claude
 ---
@@ -10,11 +10,11 @@ authors:
 content::
 \## Reading Assignment
 
-Two readings, plus an optional one you may want first. Read them in this order.
+{--{"author":"Luc's AI","timestamp":1786806952110}@@Two readings, --}{++{"author":"Luc's AI","timestamp":1786806952110}@@One required reading, ++}plus {--{"author":"Luc's AI","timestamp":1786806952110}@@an--}{++{"author":"Luc's AI","timestamp":1786806952110}@@two++} optional {--{"author":"Luc's AI","timestamp":1786806952110}@@one you may want first.--}{++{"author":"Luc's AI","timestamp":1786806952110}@@ones.++} Read them in this order.
 
 **0. *AI 2040: Plan A*, the scenario Ngo is arguing with.** (optional, about fifteen minutes)
 
-Ngo's critique is about one specific document. Its first three years are below, so you can check his account against it.
+Ngo's critique is about one specific document. {--{"author":"Luc's AI","timestamp":1786806952328}@@Its first three years are below,--}{++{"author":"Luc's AI","timestamp":1786806952328}@@The optional embed is in the next lens,++} so you can check his account against it.
 
 Two things about it. Its authors are advocating a plan, not only predicting one. And it stops at a choice rather than after one.
 
@@ -26,10 +26,10 @@ This is a critique of an optimistic forecast about AI. Ngo's objection is not th
 
 This one is fiction, and it is short. A machine is built to predict things as accurately as possible. It is very good at it. The problem is what accuracy means when other people hear your predictions.
 
-As you read the second one, keep this question in mind. At what point does the machine start doing something other than predicting? And could anyone inside the story have identified that point at the time?
+{--{"author":"Luc's AI","timestamp":1786806952545}@@As--}{++{"author":"Luc's AI","timestamp":1786806952545}@@If++} you read {--{"author":"Luc's AI","timestamp":1786806952545}@@the second one,--}{++{"author":"Luc's AI","timestamp":1786806952545}@@*Predict-O-Matic*,++} keep this question in mind. At what point does the machine start doing something other than predicting? And could anyone inside the story have identified that point at the time?
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The readings themselves are the authors' own work.*
-
+{--{"author":"Luc's AI","timestamp":1786806920509}@@
 ---
 
 #### Article
@@ -168,4 +168,4 @@ If the student adopts the nihilistic conclusion wholeheartedly and argues it wel
 Calibration summary (on close):
 - Name what they demonstrated clearly.
 - Name what remains underdeveloped.
-- Give a direct verdict on readiness for the unit's tests.
+- Give a direct verdict on readiness for the unit's tests.--}
