@@ -8,4 +8,4 @@ authors:
 ---
 
 #### Article
-source:: [[../articles/ai-2040-plan-a]]
+source:: [[../articles/ai-2040-plan-a-first-three-years]]
