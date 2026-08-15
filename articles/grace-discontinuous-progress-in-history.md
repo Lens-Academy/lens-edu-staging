@@ -384,7 +384,6 @@ _ETA: To be more clear, this is a blog post by Katja reporting on research invol
 
 _Thanks to Stephen Jordan, Jesko Zimmermann, Bren Worth, Finan Adamson, and others for suggesting potential discontinuities for this project in response to our 2015 bounty, and to many others for suggesting potential discontinuities since, especially notably Nuño Sempere, who conducted a detailed independent investigation into discontinuities in ship size and time to circumnavigate the world_[^42]_._
 
-## Notes
 
 [^1]: Though we haven’t yet finished organizing to send bounties to people who earned them by sending us discontinuities. If this is you, you should hear from us soon; sorry for delay and thank you for your help.
 [^2]: Note that an event can cause a discontinuity in many trends, but since arbitrarily many similar trends can be defined, the absolute number of events is more interesting. The number of discontinuities in trends is more meaningful as a fraction of trends considered.
