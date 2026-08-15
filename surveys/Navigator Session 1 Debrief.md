@@ -165,8 +165,8 @@ options::
 multi:: true
 
 #### Question
-key:: open_response
+key:: {--{"author":"Turner's AI","timestamp":1786810312490}@@open_response--}{++{"author":"Turner's AI","timestamp":1786810312490}@@anything_else++}
 content:: Anything else we should change before next week?
 
 #### Text
-content:: \### Grow the crew\n\nNavigating gets better with more good people in the rotation. If someone comes to mind, your referral link is on your dashboard. It is tagged to you, so we know who to thank.
+content:: {--{"author":"Turner's AI","timestamp":1786810312490}@@\###--}{++{"author":"Turner's AI","timestamp":1786810312490}@@—++} Grow the {--{"author":"Turner's AI","timestamp":1786810312490}@@crew\n\nNavigating--}{++{"author":"Turner's AI","timestamp":1786810312490}@@crew —\n\nNavigating++} gets better with more good people in the rotation. If someone comes to mind, {++{"author":"Turner's AI","timestamp":1786810371518}@@grab ++}your referral link {--{"author":"Turner's AI","timestamp":1786810371518}@@is on your dashboard.--}{++{"author":"Turner's AI","timestamp":1786810371518}@@at [lensacademy.org/referrals](https://lensacademy.org/referrals).++} It is tagged to you, so we know who to thank.
