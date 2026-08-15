@@ -32,7 +32,6 @@ Abram Demski's fictional parable makes the same point in story form. Skip it if 
 
 A machine is built to predict things as accurately as possible. It is very good at it. The problem is what accuracy means when other people hear your predictions.
 
-If you read *Predict-O-Matic*, keep this question in mind: at what point does the machine start doing something other than predicting? Could anyone inside the story have identified that point at the time?
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The readings themselves are the authors' own work.*
 

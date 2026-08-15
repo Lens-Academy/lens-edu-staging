@@ -7,6 +7,10 @@ authors:
   - Claude
 ---
 
+#### Text
+content::
+As you read, keep this question in mind: at what point does the machine start doing something other than predicting? Could anyone inside the story have identified that point at the time?
+
 #### Article
 source:: [[../articles/demski-parable-of-predict-o-matic]]
 
