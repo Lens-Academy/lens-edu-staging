@@ -12,17 +12,6 @@ tags:
 ---
 
 %%
-LICENSING HOLD, 2026-08-08. This is a STUB, not a full-text import. The stub
-itself ships to production (short attributed quotes + a link out are fine); the
-hold is only on importing the FULL text.
-
-AI Impacts is not LessWrong/Alignment Forum, so the course brief's "LW/AF full
-text inline is OK" does not cover it. Full text is deliberately NOT reproduced
-here pending Lauren's decision. The lens that uses this administers the exercise
-and links out; the student reads on aiimpacts.org.
-
-If Lauren clears the licence, replace everything below the frontmatter with the
-imported full text and drop the wip tag.
 
 FIGURE ACCURACY WARNING for whoever writes against this page. The two headline
 numbers are different KINDS of quantity and have been swapped before in our own
