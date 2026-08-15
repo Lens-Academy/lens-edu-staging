@@ -13,4 +13,4 @@ source:: [[../articles/ai-2040-plan-a-first-three-years]]
 #### Text
 content::
 
-This was the opening from "AI 2040: Plan A". 
+This was the opening from "AI 2040: Plan A". {>>{"author":"Luc","timestamp":1786808101068}@@I think we should put AI2040 as a hidden optional lens after this one and link to it from here in case they want to read the rest.<<}
