@@ -61,7 +61,11 @@ source:: [[../Lenses/U2 - Nonlinear Interactions Workshop]]
 source:: [[../Learning Outcomes/Aggregating estimates that share information]]
 
 # Lens: The Model And Its Authors
-source:: [[../Lenses/U2 - The Model And Its Authors]]
+source:: [[../Lenses/U2 - The Model And Its Authors]]{++{"author":"Luc's AI","timestamp":1786807178474}@@
+
+# Lens: AI 2027 - The Choice To Slow Down
+source:: [[../Lenses/U2 - AI 2027 - The Choice To Slow Down]]
+optional:: true++}
 
 # Lens: Three People Agreeing - PQ
 source:: [[../Lenses/U2 - Three People Agreeing - PQ]]
@@ -72,10 +76,10 @@ source:: [[../Lenses/U2 - Average Then Extremize]]
 # Submodule: When the forecast is part of the system
 
 # Lens: A Forecast Is An Action
-source:: [[../Lenses/U2 - A Forecast Is An Action]]{++{"author":"Luc's AI","timestamp":1786806920734}@@
+source:: [[../Lenses/U2 - A Forecast Is An Action]]{++{"author":"Luc's AI","timestamp":1786807304342}@@
 
-# Lens: AI 2040 - Plan A
-source:: [[../Lenses/U2 - AI 2040 Plan A]]
+# Lens: AI 2040 - First Three Years
+source:: [[../Lenses/U2 - AI 2040 First Three Years]]
 optional:: true
 
 # Lens: Selective Optimism
