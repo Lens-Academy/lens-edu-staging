@@ -36,8 +36,6 @@ course material:
 Both verified on two independent fetches, 2026-08-08.
 %%
 
-_By Katja Grace, 13 April 2020_
-
 ## I. The search for discontinuities
 
 We’ve been looking for historic cases of discontinuously fast technological progress, to help with reasoning about the [likelihood](https://aiimpacts.org/likelihood-of-discontinuous-progress-around-the-development-of-agi/) and consequences of abrupt progress in AI capabilities. We recently finished expanding this investigation to 37 technological trends.[^1] This blog post is a quick update on our findings. See [the main page on the research](http://aiimpacts.org/discontinuous-progress-investigation/) and its outgoing links for more details.
