@@ -10,15 +10,15 @@ authors:
 content::
 \## Reading Assignment
 
-Two {--{"author":"Lauren's AI","timestamp":1786693147816}@@readings.--}{++{"author":"Lauren's AI","timestamp":1786693147816}@@readings, plus an optional one you may want first.++} Read them in this order.
+Two readings, plus an optional one you may want first. Read them in this order.
 
-{++{"author":"Lauren's AI","timestamp":1786694014836}@@**0. *AI 2040: Plan A*, the scenario Ngo is arguing with.** (optional, about fifteen minutes)
+**0. *AI 2040: Plan A*, the scenario Ngo is arguing with.** (optional, about fifteen minutes)
 
 Ngo's critique is about one specific document. Its first three years are below, so you can check his account against it.
 
 Two things about it. Its authors are advocating a plan, not only predicting one. And it stops at a choice rather than after one.
 
-++}**1. *Selective Optimism: a critique of AI 2040*, by Richard Ngo.**
+**1. *Selective Optimism: a critique of AI 2040*, by Richard Ngo.**
 
 This is a critique of an optimistic forecast about AI. Ngo's objection is not that the forecast is too optimistic. His objection is that choices which could go either way appear in it as facts about how the future works. The reader thinks they are being given a prediction. They are also being given a political position, and it is not labelled as one.
 
@@ -33,17 +33,17 @@ As you read the second one, keep this question in mind. At what point does the m
 ---
 
 #### Article
-source:: {++{"author":"Lauren's AI","timestamp":1786693156429}@@[[../articles/ai-2040-plan-a]]
+source:: [[../articles/ai-2040-plan-a]]
 optional:: true
 
 #### Article
-source:: ++}[[../articles/ngo-selective-optimism-critique-of-ai-2040]]
+source:: [[../articles/ngo-selective-optimism-critique-of-ai-2040]]
 
-#### {++{"author":"Lauren's AI","timestamp":1786529148966}@@Article
+#### Article
 source:: [[../articles/demski-parable-of-predict-o-matic]]
 optional:: true
 
-#### ++}Question
+#### Question
 content::
 \## Phase 1: Recall
 

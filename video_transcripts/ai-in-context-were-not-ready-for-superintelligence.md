@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786694571050}@@---
+---
 title: "We're Not Ready for Superintelligence"
 channel: "AI In Context"
 url: "https://www.youtube.com/watch?v=5KVDDfAkRgc"
@@ -207,4 +207,3 @@ But even if you're not sure what to make of all this yet, my hopes for this vide
 I would genuinely love to hear your thoughts on AI 2027. Do you find it plausible? What do you think was most implausible? And if you found this valuable, please do like and subscribe and maybe spend a second thinking about a person or two that you know who might find it valuable to.
 
 Maybe your AI progress skeptical friend or your chat GPT curious uncle or maybe your local member of Congress.
-++}
