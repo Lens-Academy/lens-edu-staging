@@ -41,7 +41,21 @@ survey:: [[../surveys/AIRF Weekly Survey]]
 
 # Meeting: One Extinction Scenario
 meeting-doc-template:: https://docs.google.com/document/d/1Gg6RHLoWzjegjqeAL_AioitZdJE3tVL_t632h0COyMI/edit
-survey:: [[../surveys/AIRF Weekly Survey]]
+survey:: [[../surveys/AIRF Weekly Survey]]{++{"author":"Turner's AI","timestamp":1786809781581}@@
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]] {>>{"author":"Turner's AI","timestamp":1786809781581}@@SAMPLE FOR HAMZA - not yet functional, see below.
+
+This is one meeting marked up with the convention Hamza proposed, so the parser change has a concrete target. It is deliberately on meeting 3 rather than meeting 1, so it can sit here harmlessly while the platform side is built.
+
+WHAT HAPPENS TODAY: nothing. `parseMeetingSection` (content_processor/src/parser/course.ts:55-114) reads exactly one field, `section.fields.survey`, and returns `{name, surveyPath?}`. Any other field "passes through untouched" and is dropped. So this line is SILENTLY ignored - it does not warn, it does not error, and the validator stays green.
+
+It will not even trip the existing typo guard at course.ts:78-88, which fires only on fields matching /^surve/i ("did you mean 'survey'?"). "facilitator-survey" does not start with "surve". That guard's own comment is the argument for extending it: "a misspelled survey:: would be silently dropped and the survey would never appear. Guard the one field that gates learner-visible behavior."
+
+WHAT THE PLATFORM SIDE NEEDS (three small edits, then this line starts working):
+1. course.ts - read `facilitator-survey` alongside `survey`, return a second path, and extend the typo guard so facilitatorsurvey:: / facilitator_survey:: warn rather than vanish.
+2. index.ts:895-925 - a second resolution branch reusing the same resolveWikilinkPath + findFileWithExtension + checkTierViolation (a production course must not link a wip survey - note the survey file this points at is currently tagged wip deliberately, so that check should fire until it is promoted).
+3. Python - MeetingMarker gains the second id (core/modules/flattened_types.py:68), github_fetcher reads it, and core/surveys/native.py selects by role instead of the is_participant early-return at lines 88-91 that currently locks facilitators out entirely.
+
+The storage side is already done: SurveyKind is student|facilitator (core/enums.py:216) and survey_responses.kind exists, so a native facilitator response has a home the moment one can be authored.<<}++}
 
 # Module: [[../modules/IABIED M5 Facing The Challenge, Part 1]]
 
