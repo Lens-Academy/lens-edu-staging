@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786692381052}@@---
+---
 title: "Measuring AI Ability to Complete Long Software Tasks"
 author:
   - "METR"
@@ -129,4 +129,3 @@ Cite
 **METR** researches, develops, and evaluates frontier AI systems to measure how well they can perform complex tasks autonomously. Subscribe to our newsletter for updates.
 
 Want to contribute to this work? METR is hiring: [View open roles](https://metr.org/careers)
-++}

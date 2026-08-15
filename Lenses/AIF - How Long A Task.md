@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786694608195}@@---
+---
 id: '64b745ad-7b5e-4b9e-9ab7-8bf3a82ab38a'
 title: How Long A Task
 tldr: AI agents finish short jobs and fail at long ones. METR measured where that line sits and how fast it moves. You guess the line first.
@@ -68,4 +68,3 @@ source:: [[../video_transcripts/ai-in-context-were-not-ready-for-superintelligen
 from:: 4:55
 to:: 7:25
 optional:: true
-++}

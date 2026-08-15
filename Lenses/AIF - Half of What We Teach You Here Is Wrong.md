@@ -32,7 +32,7 @@ Every unit will take you around three hours. Most of that is reading, and the re
 
 You are not doing this alone. You are in a cohort, and it meets live to work through the unit together. Bring your answers to that meeting, especially the ones you were least sure of, because a disagreement is the part that does not survive being read silently.
 
-{--{"author":"Lauren's AI","timestamp":1786529356938}@@Further units release as your--}{++{"author":"Lauren's AI","timestamp":1786529356938}@@The course runs five units. Your++} cohort moves through {--{"author":"Lauren's AI","timestamp":1786529356938}@@them.--}{++{"author":"Lauren's AI","timestamp":1786529356938}@@them together, one at a time.++} What you write here gets asked about later, so write it like you mean it.
+The course runs five units. Your cohort moves through them together, one at a time. What you write here gets asked about later, so write it like you mean it.
 
 #### Question
 content::

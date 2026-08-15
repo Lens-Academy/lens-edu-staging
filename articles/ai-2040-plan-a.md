@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786693111521}@@---
+---
 title: "AI 2040: Plan A"
 author:
   - "Thomas Larsen"
@@ -170,4 +170,3 @@ Let’s make a deal with China. But what?
 Slow down at least a bit for safety and governance?
 
 Let’s make a deal with China. But what?
-++}
