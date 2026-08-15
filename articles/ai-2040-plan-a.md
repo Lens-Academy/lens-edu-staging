@@ -15,38 +15,6 @@ tags:
   - "hand-converted"
 ---
 
-# Plan A
-
-[PDF](https://ai-2040.com/AI-2040.pdf)
-
-[Supplements](https://ai-2040.com/supplements)
-
-Plan A Basics
-
-[FAQFAQ](https://ai-2040.com/supplements/faq)[How Plan A solves our 5 biggest problemsHow Plan A solves our 5 biggest problems](https://ai-2040.com/supplements/how-plan-a-solves-our-5-biggest-problems)
-
-Plan A Policies
-
-[Covert AI ProjectsCovert AI Projects](https://ai-2040.com/supplements/covert-ai-projects)[Verification PlanVerification Plan](https://ai-2040.com/supplements/verification-plan)[Transparency PlanTransparency Plan](https://ai-2040.com/supplements/transparency-plan)[Capability Scaling StrategyCapability Scaling Strategy](https://ai-2040.com/supplements/capability-scaling-strategy)[Security in Plan ASecurity in Plan A](https://ai-2040.com/supplements/security-in-plan-a)
-
-Analysis of Plan A Policies
-
-[Plan A AssumptionsPlan A Assumptions](https://ai-2040.com/supplements/plan-a-assumptions)[Comparing Possible PlansComparing Possible Plans](https://ai-2040.com/supplements/comparing-possible-plans)[Deal DeclineDeal Decline](https://ai-2040.com/supplements/deal-decline)[Takeoff ForecastTakeoff Forecast](https://ai-2040.com/supplements/takeoff-forecast)
-
-Economics
-
-[Economics of Plan AEconomics of Plan A](https://ai-2040.com/supplements/economics-of-plan-a)[Compute in Plan ACompute in Plan A](https://ai-2040.com/supplements/compute-supplement)[Economic Growth ExplorerEconomic Growth Explorer](https://ai-2040.com/supplements/econ-explorer)
-
-Speculative Analysis
-
-[Space Governance PlanSpace Governance Plan](https://ai-2040.com/supplements/space-governance-plan)[AI for EpistemicsAI for Epistemics](https://ai-2040.com/supplements/ai-for-epistemics)[Alignment RoadmapAlignment Roadmap](https://ai-2040.com/supplements/alignment-roadmap)
-
-[About](https://ai-2040.com/about)
-
-[![AI Futures Project](https://ai-2040.com/ai-futures-logo.svg)](https://ai-futures.org/)
-
-## Thomas Larsen, Romeo Dean, Brendan Halstead, Eli Lifland, Ryan Greenblatt, Daniel Kokotajlo
-
 AI companies are racing to build AIs that are smarter than humans in every way. In [AI 2027](https://ai-2027.com/), we predicted that this would result in either extinction or irreversible concentration of power.^([1](https://ai-2040.com/footnotes#footnote-1))
 
 Plan A is our positive vision for what should happen instead.
@@ -158,15 +126,3 @@ On the default path, the next presidential term will see AIs that are far beyond
 Having put humanity on this path, the AI companies find it acceptable. But most people don’t. Forget thinking about his *legacy*—the President is starting to think about what’ll happen to *him* after he leaves office and the world gets transformed.^([24](https://ai-2040.com/footnotes#footnote-24)) Both presidential candidates keep getting asked what they’ll do about AI, and try out increasingly dramatic ideas on the campaign trail. The discourse bounces back and forth across all of the options displayed below, and more.
 
 Eventually the President and his protégé converge on one plan; the opposition candidate converges on another. Then it’s Election Day.
-
-# 2029: Choose a Path
-
-**Race through the intelligence explosion** by having AIs self-improve and putting them in charge of more things (datacenters, factories, weapons) faster than China can?
-
-Slow down at least a bit for safety and governance?
-
-Let’s make a deal with China. But what?
-
-Slow down at least a bit for safety and governance?
-
-Let’s make a deal with China. But what?
