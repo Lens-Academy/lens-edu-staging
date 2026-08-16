@@ -51,7 +51,8 @@ Response style:
 - No correction of the number.
 
 #### Article
-source:: [[../articles/metr-measuring-ai-ability-to-complete-long-tasks]]
+source:: [[../articles/metr-measuring-ai-ability-to-complete-long-tasks]]{++{"author":"Lauren's AI","timestamp":1786840651095}@@
+to:: s stakes, both in terms of potential benefits and potential risks.++}
 
 #### Text
 content::
