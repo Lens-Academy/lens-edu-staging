@@ -68,7 +68,7 @@ The first column shows the relationship between each variable and standardized [
 The authors conducted various statistical analyses to explore the relationships between these variables. They computed a structural equation model to predict a forecaster’s accuracy:
 
 
-[![](http://aiimpacts.org/wp-content/uploads/2019/02/image1-1.png)](http://aiimpacts.org/wp-content/uploads/2019/02/image1-1.png)
+{--{"author":"Lauren's AI","timestamp":1786857293407}@@[![](http://aiimpacts.org/wp-content/uploads/2019/02/image1-1.png)](http://aiimpacts.org/wp-content/uploads/2019/02/image1-1.png)--}{++{"author":"Lauren's AI","timestamp":1786857293407}@@![](http://aiimpacts.org/wp-content/uploads/2019/02/image1-1.png)++}
 
 
 Yellow ovals are latent dispositional variables, yellow rectangles are observed dispositional variables, pink rectangles are experimentally manipulated situational variables, and green rectangles are observed behavioral variables. This model has a [multiple correlation](https://en.wikipedia.org/wiki/Multiple_correlation) of 0.64.[6](https://aiimpacts.org/evidence-on-good-forecasting-practices-from-the-good-judgment-project/#easy-footnote-bottom-6-1283 " This is from [Mellers *et al* 2015](https://www.apa.org/pubs/journals/releases/xap-0000040.pdf). ")
