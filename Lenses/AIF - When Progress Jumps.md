@@ -67,7 +67,14 @@ And:
 Read the 14% carefully. It is progress-weighted: 14% of total progress arrived in jumps, which is the same as saying a randomly chosen unit of progress had about a 14% chance of arriving in one. What it is NOT: the share of years that contain a jump (that is 0.1% per trend-year) or the share of individual data points that are jumps (1.4%, a figure that depends on how densely a trend happens to be recorded: measure twice as often and it roughly halves). Jumps are rare as events, and when a trend has one at all, jumps account for over a third of everything it ever gained. Rare, and large when present. Both halves matter, and they pull your model in different directions.
 
 #### Article
+source:: [[../articles/grace-discontinuous-progress-in-history]]{++{"author":"Lauren's AI","timestamp":1786857076488}@@
+from:: ## I. The search for discontinuities
+to:: YBa2Cu3O7 as a superconductor, 1987
+
+#### Article
 source:: [[../articles/grace-discontinuous-progress-in-history]]
+from:: ## IV. Summary
+to:: Growth rates sharply changed in many trends++}
 
 #### Question
 content::
