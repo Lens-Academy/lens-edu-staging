@@ -116,7 +116,7 @@ This is a one-turn response.
 #### Article
 source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## Timelines and takeoff forecasts
-to:: ## Comparison to our previous
+to:: {--{"author":"Lauren's AI","timestamp":1786840586231}@@## Comparison to our previous--}{++{"author":"Lauren's AI","timestamp":1786840586231}@@this list is nowhere near exhaustive++}
 
 #### Question
 content::
@@ -154,7 +154,7 @@ What to do in each reply:
 #### Article
 source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## Comparison to our previous
-to:: ## Takeoff from Superhuman Coder onward
+to:: {--{"author":"Lauren's AI","timestamp":1786840590946}@@## Takeoff from Superhuman Coder onward--}{++{"author":"Lauren's AI","timestamp":1786840590946}@@You can read more about these changes and their effects in our++}
 
 #### Question
 content::
