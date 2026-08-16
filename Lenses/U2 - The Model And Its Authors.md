@@ -50,7 +50,7 @@ This is a one-turn response.
 #### Article
 source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## AGI timelines forecasting methods
-to:: {--{"author":"Lauren's AI","timestamp":1786840577062}@@## Post-AGI takeoff forecasts--}{++{"author":"Lauren's AI","timestamp":1786840577062}@@Our previous model with median parameters predicted superhuman coder++}
+to:: Our previous model with median parameters predicted superhuman coder
 
 #### Question
 content::
@@ -82,7 +82,7 @@ After 2 tutor replies, close the phase and send them on.
 #### Article
 source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## How our model works
-to:: {--{"author":"Lauren's AI","timestamp":1786840581951}@@## Timelines and takeoff forecasts--}{++{"author":"Lauren's AI","timestamp":1786840581951}@@as the project gets bottlenecked by their limited supply of experiment compute.++}
+to:: as the project gets bottlenecked by their limited supply of experiment compute.
 
 #### Question
 content::
@@ -116,7 +116,7 @@ This is a one-turn response.
 #### Article
 source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## Timelines and takeoff forecasts
-to:: {--{"author":"Lauren's AI","timestamp":1786840586231}@@## Comparison to our previous--}{++{"author":"Lauren's AI","timestamp":1786840586231}@@this list is nowhere near exhaustive++}
+to:: this list is nowhere near exhaustive
 
 #### Question
 content::

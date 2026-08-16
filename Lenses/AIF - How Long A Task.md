@@ -51,23 +51,21 @@ Response style:
 - No correction of the number.
 
 #### Article
-source:: [[../articles/metr-measuring-ai-ability-to-complete-long-tasks]]{++{"author":"Lauren's AI","timestamp":1786840651095}@@
-to:: s stakes, both in terms of potential benefits and potential risks.++}
+source:: [[../articles/metr-measuring-ai-ability-to-complete-long-tasks]]
+to:: s stakes, both in terms of potential benefits and potential risks.
 
 #### Text
 content::
-\## Optional: {--{"author":"Lauren's AI","timestamp":1786840279703}@@why the line might bend--}{++{"author":"Lauren's AI","timestamp":1786840279703}@@a doubling is hard to feel++}
+\## Optional: a doubling is hard to feel
 
-The chart you just read{--{"author":"Lauren's AI","timestamp":1786840279703}@@ is close to --}{++{"author":"Lauren's AI","timestamp":1786840279703}@@ plots ++}a {--{"author":"Lauren's AI","timestamp":1786840279703}@@straight line on a log scale. It stays straight only while--}{++{"author":"Lauren's AI","timestamp":1786840279703}@@doubling. Reading one and believing one are different things, and++} the {--{"author":"Lauren's AI","timestamp":1786840279703}@@thing producing it keeps working the same way.--}{++{"author":"Lauren's AI","timestamp":1786840279703}@@gap between them is not a failure of arithmetic.++}
+The chart you just read plots a doubling. Reading one and believing one are different things, and the gap between them is not a failure of arithmetic.
 
-The clip below is {--{"author":"Lauren's AI","timestamp":1786840279703}@@two and a half minutes --}{++{"author":"Lauren's AI","timestamp":1786840279703}@@about eighty seconds ++}from a longer video by AI In Context. It {--{"author":"Lauren's AI","timestamp":1786840279703}@@gives one reason--}{++{"author":"Lauren's AI","timestamp":1786840279703}@@is++} the {--{"author":"Lauren's AI","timestamp":1786840279703}@@line could bend upward: AI systems doing the work of improving AI systems.
+The clip below is about eighty seconds from a longer video by AI In Context. It is the plainest statement of that gap we could find: your intuition expects things to grow at a steady rate, a doubling does not, and the example it uses is March 2020.
 
-It also makes--}{++{"author":"Lauren's AI","timestamp":1786840279703}@@plainest statement of that gap we could find: your intuition expects things to grow at++} a {--{"author":"Lauren's AI","timestamp":1786840279703}@@point that is worth more than --}{++{"author":"Lauren's AI","timestamp":1786840279703}@@steady rate, a doubling does not, and ++}the {--{"author":"Lauren's AI","timestamp":1786840279703}@@mechanism. In a scenario you are handed--}{++{"author":"Lauren's AI","timestamp":1786840279703}@@example it uses is March 2020.
-
-Watch it for++} the {--{"author":"Lauren's AI","timestamp":1786840279703}@@whole picture at once. Somebody living through--}{++{"author":"Lauren's AI","timestamp":1786840279703}@@feeling rather than the maths, then look at++} the{--{"author":"Lauren's AI","timestamp":1786840279703}@@ same events would not be.--}{++{"author":"Lauren's AI","timestamp":1786840279703}@@ chart again.++}
+Watch it for the feeling rather than the maths, then look at the chart again.
 
 #### Video
 source:: [[../video_transcripts/ai-in-context-were-not-ready-for-superintelligence]]
-from:: {--{"author":"Lauren's AI","timestamp":1786840279703}@@4:55--}{++{"author":"Lauren's AI","timestamp":1786840279703}@@6:05++}
-to:: {--{"author":"Lauren's AI","timestamp":1786840279703}@@7:25--}{++{"author":"Lauren's AI","timestamp":1786840279703}@@7:22++}
+from:: 6:05
+to:: 7:22
 optional:: true
