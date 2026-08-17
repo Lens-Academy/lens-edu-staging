@@ -1,5 +1,5 @@
 ---
-title: "Article annotation and text collapse demo"
+title: "Article annotation and text {--{"author":"Elias's AI","timestamp":1786967831418}@@collapse--}{++{"author":"Elias's AI","timestamp":1786967831418}@@hiding++} demo"
 author: Lens Academy
 published: 2026-06-16
 source_url: https://editor.lensacademy.org/24abc9c0/Lens-Edu/articles/Article-annotation-and-text-collapse-demo.md
@@ -12,7 +12,7 @@ Add discussion note here:
 
 %%
 
-This article demos Lens article annotations and general course callouts.
+This article demos Lens article {--{"author":"Elias's AI","timestamp":1786967834711}@@annotations--}{++{"author":"Elias's AI","timestamp":1786967834711}@@annotations, hidden text,++} and general course callouts.
 
 ## Existing article annotations
 
