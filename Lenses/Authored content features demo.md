@@ -72,13 +72,17 @@ Why can a local minimum differ from a global minimum?
 Do not infer global behavior from local information alone.
 :::
 
-The title is optional:
+The title is {--{"author":"Elias's AI","timestamp":1786977108969}@@optional:--}{++{"author":"Elias's AI","timestamp":1786977108969}@@optional for both static and collapsible callouts:++}
 
 :::callout
 This untitled callout is always visible.
 :::
 
-Add `collapse="closed"` to start closed:
+{++{"author":"Elias's AI","timestamp":1786977108969}@@:::callout {tone="neutral" collapse="closed"}
+This untitled callout starts closed.
+:::
+
+++}Add `collapse="closed"` to start {++{"author":"Elias's AI","timestamp":1786977108969}@@a titled callout ++}closed:
 
 :::callout {title="Hint" tone="amber" collapse="closed"}
 Compare which points each definition quantifies over.
@@ -92,7 +96,9 @@ A local minimum compares a point with nearby points. A global minimum compares i
 
 \## Nesting
 
-Shared directives can be nested. Give an outer block more colons than its inner block:
+Shared directives can be nested. Give an outer block more colons than its inner {--{"author":"Elias's AI","timestamp":1786977108969}@@block:--}{++{"author":"Elias's AI","timestamp":1786977108969}@@block.
+
+This callout contains a hidden section:++}
 
 ::::callout {title="Exercise with optional help" tone="blue"}
 Sketch a non-convex function.
@@ -100,6 +106,26 @@ Sketch a non-convex function.
 :::hide
 Try a polynomial with more than one valley. :note[The valleys correspond to local minima.]
 :::
+::::{++{"author":"Elias's AI","timestamp":1786977108969}@@
+
+A callout can contain another always-visible callout:
+
+::::callout {title="Outer exercise" tone="blue"}
+Find all local minima of your example function.
+
+:::callout {title="Reminder" tone="purple"}
+A local minimum only compares nearby values.
+:::
 ::::
+
+A callout can also contain a collapsible callout:
+
+::::callout {title="Exercise with a nested hint" tone="blue"}
+Explain why your chosen point is a local minimum.
+
+:::callout {title="Optional hint" tone="amber" collapse="closed"}
+State which neighbourhood you are comparing.
+:::
+::::++}
 
 [^author-note]: This footnote uses standard Markdown footnote syntax.
