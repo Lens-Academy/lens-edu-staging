@@ -62,11 +62,11 @@ source:: [[../Lenses/Authored content features demo]]
 # Lens:
 source:: [[../Lenses/Article excerpt demo]]
 
-%% Then inspect the presentation added around a deliberately plain article body: %%
+{--{"author":"Elias's AI","timestamp":1786976220770}@@%% Then inspect the presentation added around a deliberately plain article body: %%
 # Lens:
 source:: [[../Lenses/Article annotation and text collapse demo]]
 
-%% This Lens shows Obsidian-style links that jump to headings or stable block markers within the same Lens. %%
+--}%% This Lens shows Obsidian-style links that jump to headings or stable block markers within the same Lens. %%
 # Lens:
 source:: [[../Lenses/Same-lens links demo]]
 
