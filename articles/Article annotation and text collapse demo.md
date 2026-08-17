@@ -12,7 +12,7 @@ Add discussion note here:
 
 %%
 
-This article demos {--{"author":"Elias's AI","timestamp":1786965128592}@@how to use `collapse`, `note`,--}{++{"author":"Elias's AI","timestamp":1786965128592}@@Lens article annotations++} and {--{"author":"Elias's AI","timestamp":1786965128592}@@`footnote` fields inside--}{++{"author":"Elias's AI","timestamp":1786965128592}@@general course callouts.
+This article demos Lens article annotations and {--{"author":"Elias's AI","timestamp":1786965128592}@@`footnote` fields inside--}{++{"author":"Elias's AI","timestamp":1786965128592}@@general course callouts.
 
 ## Existing++} article {--{"author":"Elias's AI","timestamp":1786965128592}@@markdown.--}{++{"author":"Elias's AI","timestamp":1786965128592}@@annotations++}
 
