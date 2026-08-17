@@ -2,12 +2,12 @@
 id: '574f8faf-3478-4546-9b8a-ad7a6fb29b0d'
 title: "C.2 Mechanistic Interpretability"
 tldr: "Current Iliad Intensive worksheet for Mechanistic Interpretability."
-summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet C.2, Mechanistic Interpretability. Preserve its mathematical notation, exercise sequence, hints, and solutions."{++{"author":"Elias's AI","timestamp":1786986308765}@@
+summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet C.2, Mechanistic Interpretability. Preserve its mathematical notation, exercise sequence, hints, and solutions."
 authors:
   - Julian Schulz
 source_url: https://github.com/iliad-team/iliad-intensive/blob/1eb9e340305e03de3f81a761167e13c54c71f19d/tex/mechanistic-interpretability/main.mdx
 upstream_commit: '1eb9e340305e03de3f81a761167e13c54c71f19d'
-provenance_recorded_at: '2026-08-17'++}
+provenance_recorded_at: '2026-08-17'
 ---
 
 #### Text

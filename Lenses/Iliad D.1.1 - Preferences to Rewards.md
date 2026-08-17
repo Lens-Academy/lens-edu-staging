@@ -2,12 +2,12 @@
 id: '1f549b8c-d6bc-444a-b6a8-63a3ff6509a7'
 title: "D.1.1 Preferences to Rewards"
 tldr: "Building from preferences and a minimal set of axioms to a utility function expressible as a sum of discounted rewards: the familiar framing in reinforcement learning."
-summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet D.1.1, Preferences to Rewards. Preserve its mathematical notation, exercise sequence, hints, and solutions."{++{"author":"Elias's AI","timestamp":1786986312016}@@
+summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet D.1.1, Preferences to Rewards. Preserve its mathematical notation, exercise sequence, hints, and solutions."
 authors:
   - Fernando E. Rosas
 source_url: https://github.com/iliad-team/iliad-intensive/blob/1eb9e340305e03de3f81a761167e13c54c71f19d/tex/preferences-to-rewards/main.tex
 upstream_commit: '1eb9e340305e03de3f81a761167e13c54c71f19d'
-provenance_recorded_at: '2026-08-17'++}
+provenance_recorded_at: '2026-08-17'
 ---
 
 #### Text

@@ -2,12 +2,12 @@
 id: '29cd9f81-1776-43e2-a522-c363e9d490b7'
 title: "A.1 AI Alignment Introduction"
 tldr: "Current Iliad Intensive worksheet for AI Alignment Introduction."
-summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet A.1, AI Alignment Introduction. Preserve its mathematical notation, exercise sequence, hints, and solutions."{++{"author":"Elias's AI","timestamp":1786986295784}@@
+summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet A.1, AI Alignment Introduction. Preserve its mathematical notation, exercise sequence, hints, and solutions."
 authors:
   - Leon Lang
 source_url: https://github.com/iliad-team/iliad-intensive/blob/1eb9e340305e03de3f81a761167e13c54c71f19d/tex/ai-alignment-intro/main.mdx
 upstream_commit: '1eb9e340305e03de3f81a761167e13c54c71f19d'
-provenance_recorded_at: '2026-08-17'++}
+provenance_recorded_at: '2026-08-17'
 ---
 
 #### Text

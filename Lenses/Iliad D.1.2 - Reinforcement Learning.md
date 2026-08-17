@@ -2,13 +2,13 @@
 id: 'e3409f24-af9d-4389-8e58-29c2c2a9a736'
 title: "D.1.2 Reinforcement Learning"
 tldr: "The Bellman equations and what follows from them: the existence of optimal policies, the policy improvement theorem, the rate of convergence of Bellman updates, and the convergence of Q-learning."
-summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet D.1.2, Reinforcement Learning. Preserve its mathematical notation, exercise sequence, hints, and solutions."{++{"author":"Elias's AI","timestamp":1786986315324}@@
+summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet D.1.2, Reinforcement Learning. Preserve its mathematical notation, exercise sequence, hints, and solutions."
 authors:
   - Leon Lang
   - David Quarel
 source_url: https://github.com/iliad-team/iliad-intensive/blob/1eb9e340305e03de3f81a761167e13c54c71f19d/tex/reinforcement-learning/main.tex
 upstream_commit: '1eb9e340305e03de3f81a761167e13c54c71f19d'
-provenance_recorded_at: '2026-08-17'++}
+provenance_recorded_at: '2026-08-17'
 ---
 
 #### Text

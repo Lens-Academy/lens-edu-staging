@@ -2,14 +2,14 @@
 id: 'e3aefe7c-dd33-4c8f-a292-09d6408fc2a5'
 title: "B.3 Singular Learning Theory"
 tldr: "Singular learning theory (SLT) places degeneracy as a core part of understanding how neural networks learn. We cover the parameter-function map, the meaning of degeneracy through the local learning coefficient, to Watanabe's free energy formula and Bayesian phase transitions."
-summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet B.3, Singular Learning Theory. Preserve its mathematical notation, exercise sequence, hints, and solutions."{++{"author":"Elias's AI","timestamp":1786986301703}@@
+summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet B.3, Singular Learning Theory. Preserve its mathematical notation, exercise sequence, hints, and solutions."
 authors:
   - Kai Ogden
   - Matthew Farrugia-Roberts
   - Zach Furman
 source_url: https://github.com/iliad-team/iliad-intensive/blob/1eb9e340305e03de3f81a761167e13c54c71f19d/tex/singular-learning-theory/main.tex
 upstream_commit: '1eb9e340305e03de3f81a761167e13c54c71f19d'
-provenance_recorded_at: '2026-08-17'++}
+provenance_recorded_at: '2026-08-17'
 ---
 
 #### Text
@@ -96,7 +96,7 @@ Both senses are in common usage in the literature as in this tutorial.
 
 :::
 
-The simplest neural network architecture models a single "neuron" with $d$ inputs $x_{1}, \ldots x_{d}$. Each input $x_{i}$ is multiplied by an incoming weight $w_{i}$ to produce the neuron's output. We formalise this case in {--{"author":"Elias's AI","timestamp":1786986341407}@@[[#^eg-neuron|Theorem--}{++{"author":"Elias's AI","timestamp":1786986341407}@@[[#^eg-neuron|Example++} 1.1]].
+The simplest neural network architecture models a single "neuron" with $d$ inputs $x_{1}, \ldots x_{d}$. Each input $x_{i}$ is multiplied by an incoming weight $w_{i}$ to produce the neuron's output. We formalise this case in [[#^eg-neuron|Example 1.1]].
 
 ::::callout {title="Note" tone="blue"}
 
@@ -126,11 +126,11 @@ $$
 ^eg-linear
 
 
-If we take each row of $W$ to encode the weight vector of a linear neuron {--{"author":"Elias's AI","timestamp":1786986344418}@@([[#^eg-neuron|Theorem--}{++{"author":"Elias's AI","timestamp":1786986344418}@@([[#^eg-neuron|Example++} 1.1]]), we see that we have produced $m$ outputs by stacking $m$ independent linear neurons together. Such a group of neurons is called a **layer**.
+If we take each row of $W$ to encode the weight vector of a linear neuron ([[#^eg-neuron|Example 1.1]]), we see that we have produced $m$ outputs by stacking $m$ independent linear neurons together. Such a group of neurons is called a **layer**.
 
 :::callout {title="Note" tone="neutral"}
 
-**Remark (Encodings).** In {--{"author":"Elias's AI","timestamp":1786986347173}@@[[#^eg-linear|Theorem--}{++{"author":"Elias's AI","timestamp":1786986347173}@@[[#^eg-linear|Example++} 1.2]], the parameter space is formally $\mathcal{W} = \mathbb{R}^{m^2}$, but we find it convenient to identify each parameter vector $w \in \mathbb{R}^{m^2}$ with the $m \times m$ matrix $W$ it encodes. We would thus write $f_{W}$ in place of $f_{w}$. More generally, whenever the parameters of an architecture naturally decompose into named matrices or vectors, we index the parameter–function map by these structured objects directly rather than by the underlying vector $w$. The remaining examples in this section demonstrate this convention, and we continue to use it throughout this tutorial.
+**Remark (Encodings).** In [[#^eg-linear|Example 1.2]], the parameter space is formally $\mathcal{W} = \mathbb{R}^{m^2}$, but we find it convenient to identify each parameter vector $w \in \mathbb{R}^{m^2}$ with the $m \times m$ matrix $W$ it encodes. We would thus write $f_{W}$ in place of $f_{w}$. More generally, whenever the parameters of an architecture naturally decompose into named matrices or vectors, we index the parameter–function map by these structured objects directly rather than by the underlying vector $w$. The remaining examples in this section demonstrate this convention, and we continue to use it throughout this tutorial.
 
 :::
 
@@ -151,7 +151,7 @@ $$
 
 The above architecture is called a two-layer **deep linear network (DLN)**. The architecture can be interpreted as composing two multi-linear neural networks. The vector of outputs of the neurons of the first network becomes the vector of inputs to the second network. The intermediate output vectors are called **activations**.
 
-Note that if $h \geq m$, the two-layer DLN architecture indexes the same hypothesis class as in {--{"author":"Elias's AI","timestamp":1786986350886}@@[[#^eg-linear|Theorem--}{++{"author":"Elias's AI","timestamp":1786986350886}@@[[#^eg-linear|Example++} 1.2]], that of linear transforms on $\mathbb{R}^{m}$. If $h < m$, the hypothesis class includes only transforms with rank up to $h$.
+Note that if $h \geq m$, the two-layer DLN architecture indexes the same hypothesis class as in [[#^eg-linear|Example 1.2]], that of linear transforms on $\mathbb{R}^{m}$. If $h < m$, the hypothesis class includes only transforms with rank up to $h$.
 
 Finally, we'll add *non-linearity* between pairs of layers. To do so, we introduce a non-linear scalar function $\sigma : \mathbb{R} \to \mathbb{R}$, called an *activation function*, to transform the output of each intermediate neuron. Common examples of activation functions, which we will study in this tutorial, include the following:
 
@@ -162,7 +162,7 @@ This results in the following non-linear neural network architecture.
 
 ::::callout {title="Note" tone="blue"}
 
-**Example 1.4 (Multi-layer perceptron; MLP).** Define input, output, and parameter spaces as in {--{"author":"Elias's AI","timestamp":1786986353543}@@[[#^eg-dln|Theorem--}{++{"author":"Elias's AI","timestamp":1786986353543}@@[[#^eg-dln|Example++} 1.3]]. Let $\sigma : \mathbb{R} \to \mathbb{R}$ be an activation function. The parameter–function map sends $(A, B)$ to the function $f_{A,B}: \mathbb{R}^{m} \to \mathbb{R}^{m}$ such that for $x \in \mathbb{R}^{m}$,
+**Example 1.4 (Multi-layer perceptron; MLP).** Define input, output, and parameter spaces as in [[#^eg-dln|Example 1.3]]. Let $\sigma : \mathbb{R} \to \mathbb{R}$ be an activation function. The parameter–function map sends $(A, B)$ to the function $f_{A,B}: \mathbb{R}^{m} \to \mathbb{R}^{m}$ such that for $x \in \mathbb{R}^{m}$,
 
 $$
 f_{A,B}(x) = B \cdot \sigma( A x ),
@@ -189,22 +189,22 @@ The expressivity of these architectures is limited, however, by the omission of 
 
 For each architecture, we add a bias vector to each layer's output before the next transformation (or activation function) is applied.
 
-1. **A linear neuron with bias** {--{"author":"Elias's AI","timestamp":1786986357211}@@([[#^eg-neuron|Theorem--}{++{"author":"Elias's AI","timestamp":1786986357211}@@([[#^eg-neuron|Example++} 1.1]]). Let $\mathcal{W} = \mathbb{R}^{d+1}$, encoding a weight vector $w \in \mathbb{R}^{d}$ and a scalar bias $b \in \mathbb{R}$. The parameter–function map sends $(w, b)$ to $f_{w,b}: \mathbb{R}^{d} \to \mathbb{R}$ defined by
+1. **A linear neuron with bias** ([[#^eg-neuron|Example 1.1]]). Let $\mathcal{W} = \mathbb{R}^{d+1}$, encoding a weight vector $w \in \mathbb{R}^{d}$ and a scalar bias $b \in \mathbb{R}$. The parameter–function map sends $(w, b)$ to $f_{w,b}: \mathbb{R}^{d} \to \mathbb{R}$ defined by
 
 $$
 f_{w,b}(x) = w^{\top} x + b.
 $$
-2. **Multi-linear neural network with bias** {--{"author":"Elias's AI","timestamp":1786986360138}@@([[#^eg-linear|Theorem--}{++{"author":"Elias's AI","timestamp":1786986360138}@@([[#^eg-linear|Example++} 1.2]]). Let $\mathcal{W} = \mathbb{R}^{m^2 + m}$, encoding a matrix $W \in \mathbb{R}^{m \times m}$ and a bias vector $b \in \mathbb{R}^{m}$. The parameter–function map sends $(W, b)$ to $f_{W,b}: \mathbb{R}^{m} \to \mathbb{R}^{m}$ defined by
+2. **Multi-linear neural network with bias** ([[#^eg-linear|Example 1.2]]). Let $\mathcal{W} = \mathbb{R}^{m^2 + m}$, encoding a matrix $W \in \mathbb{R}^{m \times m}$ and a bias vector $b \in \mathbb{R}^{m}$. The parameter–function map sends $(W, b)$ to $f_{W,b}: \mathbb{R}^{m} \to \mathbb{R}^{m}$ defined by
 
 $$
 f_{W,b}(x) = Wx + b.
 $$
-3. **Deep linear network with bias** {--{"author":"Elias's AI","timestamp":1786986363281}@@([[#^eg-dln|Theorem--}{++{"author":"Elias's AI","timestamp":1786986363281}@@([[#^eg-dln|Example++} 1.3]]). Let $\mathcal{W} = \mathbb{R}^{2mh + h + m}$, encoding matrices $A \in \mathbb{R}^{h \times m}$, $B \in \mathbb{R}^{m \times h}$ and bias vectors $b_{A} \in \mathbb{R}^{h}$, $b_{B} \in \mathbb{R}^{m}$. The parameter–function map sends $(A, b_{A}, B, b_{B})$ to $f_{w} : \mathbb{R}^{m} \to \mathbb{R}^{m}$ defined by
+3. **Deep linear network with bias** ([[#^eg-dln|Example 1.3]]). Let $\mathcal{W} = \mathbb{R}^{2mh + h + m}$, encoding matrices $A \in \mathbb{R}^{h \times m}$, $B \in \mathbb{R}^{m \times h}$ and bias vectors $b_{A} \in \mathbb{R}^{h}$, $b_{B} \in \mathbb{R}^{m}$. The parameter–function map sends $(A, b_{A}, B, b_{B})$ to $f_{w} : \mathbb{R}^{m} \to \mathbb{R}^{m}$ defined by
 
 $$
 f_{w}(x) = B(Ax + b_{A}) + b_{B}.
 $$
-4. **Multi-layer perceptron with bias** {--{"author":"Elias's AI","timestamp":1786986366033}@@([[#^eg-mlp|Theorem--}{++{"author":"Elias's AI","timestamp":1786986366033}@@([[#^eg-mlp|Example++} 1.4]]). The parameter space is $\mathcal{W} = \mathbb{R}^{2mh + h + m}$ as above. The parameter–function map sends $(A, b_{A}, B, b_{B})$ to $f_{w} : \mathbb{R}^{m} \to \mathbb{R}^{m}$ defined by
+4. **Multi-layer perceptron with bias** ([[#^eg-mlp|Example 1.4]]). The parameter space is $\mathcal{W} = \mathbb{R}^{2mh + h + m}$ as above. The parameter–function map sends $(A, b_{A}, B, b_{B})$ to $f_{w} : \mathbb{R}^{m} \to \mathbb{R}^{m}$ defined by
 
 $$
 f_{w}(x) = B \cdot \sigma(Ax + b_{A}) + b_{B}.
@@ -963,7 +963,7 @@ In particular, at $t=0$, we have $0 = D_{\gamma'(0)}\Phi(\gamma(0)) = D_{\gamma'
 The following exercises exhibit some continuous symmetries in two neural network architectures, a small ReLU MLP and a toy autoencoder. Similar architectures are studied in more detail from an SLT perspective by [[#^bib-carroll2021|Carroll 2021]] and [[#^bib-chen-2023|Chen et al. 2023]] respectively.
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 2.6 (ReLU scaling symmetry).** Consider a two-layer MLP ([[#^eg-mlp|Theorem 1.4]]) with $\sigma = \mathrm{relu}$, scalar inputs and outputs ($m = 1$), and a single hidden unit ($h = 1$). The parameter space is $\mathcal{W} = \mathbb{R}^{2}$ with parameters $(a, b)$, and the parameter–function map is $f_{a,b}(x) = b \cdot \mathrm{relu}(ax)$.
+**Exercise 2.6 (ReLU scaling symmetry).** Consider a two-layer MLP ([[#^eg-mlp|Example 1.4]]) with $\sigma = \mathrm{relu}$, scalar inputs and outputs ($m = 1$), and a single hidden unit ($h = 1$). The parameter space is $\mathcal{W} = \mathbb{R}^{2}$ with parameters $(a, b)$, and the parameter–function map is $f_{a,b}(x) = b \cdot \mathrm{relu}(ax)$.
 
 **(a)** Show that $\mathrm{relu}$ is *positively homogeneous*: $\mathrm{relu}(\alpha z) = \alpha \, \mathrm{relu}(z)$ for all $\alpha > 0$ and $z \in \mathbb{R}$.
 
@@ -1127,7 +1127,7 @@ Similarly, $\{T^{(b)}_{t}\}$ is a symmetry when restricted to the $b$-axis $\{(0
 The above example is technically a two-layer DLN with $m=h=1$. Let us now explore localised degeneracy in a general two-layer DLN and then in a non-trivial MLP.
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 2.9 (Degeneracy in the two-layer DLN).** Consider the two-layer DLN from [[#^eg-dln|Theorem 1.3]], with $h=m$. The parameter space encodes two matrices $A, B \in \mathbb{R}^{m \times m}$, and the parameter–function map sends $(A, B)$ to the function $\Phi(A,B) = f_{A,B}: \mathbb{R}^{m} \to \mathbb{R}^{m}$ such that $f_{A,B}(x) = BAx$ for $x \in \mathbb{R}^{m}$.
+**Exercise 2.9 (Degeneracy in the two-layer DLN).** Consider the two-layer DLN from [[#^eg-dln|Example 1.3]], with $h=m$. The parameter space encodes two matrices $A, B \in \mathbb{R}^{m \times m}$, and the parameter–function map sends $(A, B)$ to the function $\Phi(A,B) = f_{A,B}: \mathbb{R}^{m} \to \mathbb{R}^{m}$ such that $f_{A,B}(x) = BAx$ for $x \in \mathbb{R}^{m}$.
 
 **(a)** Let $(\delta\!A, \delta\!B)$ be a unit perturbation in parameter space (a unit vector in the underlying parameter space $\mathbb{R}^{2m^2}$, decoded into a pair of matrices). Show that the directional derivative of the parameter–function map at $(A, B)$ in direction $(\delta\!A, \delta\!B)$ is the linear map
 
@@ -1623,14 +1623,14 @@ $$
 ^eq-bartlett
 
 
-where $s$ is the score function from [[#^def-score|Theorem 2.3]].
+where $s$ is the score function from [[#^def-score|Definition 2.3]].
 ::::callout {title="Hint" tone="amber" collapse="closed"}
 
 differentiate the identity $\mathbb{E}_{y \sim p(y \mid x, w)}[s(x, y, w)] = 0$ (established in [[#^ex-score-properties|Exercise 2.11]]) with respect to $w$.
 
 ::::
 
-**(b)** Show that the Hessian of $L$ at the true parameter $w_{0}$ equals the Fisher information matrix ([[#^def-fim|Theorem 2.4]]):
+**(b)** Show that the Hessian of $L$ at the true parameter $w_{0}$ equals the Fisher information matrix ([[#^def-fim|Definition 2.4]]):
 
 
 $$
@@ -1951,7 +1951,7 @@ $$
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-1. From [[#^def-llc|Theorem 3.1]], as $\epsilon \to 0$,
+1. From [[#^def-llc|Definition 3.1]], as $\epsilon \to 0$,
 
 $$
 V(\epsilon) = c\,\epsilon^{\lambda}(-\log\epsilon)^{m-1}\bigl(1 + o(1)\bigr).
@@ -1976,7 +1976,7 @@ $$
 $$
 
 Therefore $V(a\epsilon)/V(\epsilon) \to a^{\lambda}$. Taking logarithms and dividing by $\log a > 0$ gives the result.
-2. From [[#^def-llc|Theorem 3.1]], $V(\epsilon) = c\,\epsilon^{\lambda(w^*)}(-\log\epsilon)^{\mu(w^*)-1}(1 + o(1))$, so
+2. From [[#^def-llc|Definition 3.1]], $V(\epsilon) = c\,\epsilon^{\lambda(w^*)}(-\log\epsilon)^{\mu(w^*)-1}(1 + o(1))$, so
 
 $$
 \log V(\epsilon) = \lambda(w^{*})\log\epsilon + (\mu(w^{*})-1)\log(-\log\epsilon) + \log c + o(1).
@@ -2257,7 +2257,7 @@ $$
 L(g(u)) - L(w^{*}) = u_{1}^{2k_1}\cdots u_{d}^{2k_d}, \qquad dw = b(u)\, u_{1}^{h_1}\cdots u_{d}^{h_d}\, du,
 $$
 
-where $b(u) > 0$ is smooth and the exponents $k_{j}, h_{j}$ are non-negative integers. In these coordinates, the volume integral $V(\epsilon)$ can be evaluated explicitly, yielding the asymptotic form of [[#^def-llc|Theorem 3.1]] and giving
+where $b(u) > 0$ is smooth and the exponents $k_{j}, h_{j}$ are non-negative integers. In these coordinates, the volume integral $V(\epsilon)$ can be evaluated explicitly, yielding the asymptotic form of [[#^def-llc|Definition 3.1]] and giving
 
 
 $$
@@ -2502,7 +2502,7 @@ $$
 L_{n}(w) = -\frac{1}{n}\sum_{i=1}^{n} \log p(y^{(i)}\mid x^{(i)}, w), \qquad L(w) = \mathbb{E}_{(x,y) \sim q}\!\left[-\log p(y \mid x, w)\right].
 $$
 
-The posterior $\pi_{n}$ is given by Bayes' rule [[#^eq-posterior|(13)]] and as we saw in [[#^ex-posterior-free-energy|Exercise 1.7]] and [[#^ex-partition-decomposition|1.8]] it concentrates around regions of parameter space with the lowest local free energy $F_{n}(\mathcal{U})$ ([[#^def-local-free-energy|Theorem 1.6]]).
+The posterior $\pi_{n}$ is given by Bayes' rule [[#^eq-posterior|(13)]] and as we saw in [[#^ex-posterior-free-energy|Exercise 1.7]] and [[#^ex-partition-decomposition|1.8]] it concentrates around regions of parameter space with the lowest local free energy $F_{n}(\mathcal{U})$ ([[#^def-local-free-energy|Definition 1.6]]).
 
 We now state one of the main results of SLT: an asymptotic expansion of $F_{n}(\mathcal{U})$ as $n \to \infty$. Under certain technical assumptions on the statistical model ([[#^bib-watanabe2018|Watanabe 2018]]; see [[#^bib-lau2025|Lau 2025]], § 2.3.1 for a summary), we have the following theorem.
 

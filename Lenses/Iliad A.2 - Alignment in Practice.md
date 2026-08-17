@@ -2,12 +2,12 @@
 id: '3a8d0c5e-1c86-42bf-baf4-37c725dfab0f'
 title: "A.2 Alignment in Practice"
 tldr: "Current Iliad Intensive worksheet for Alignment in Practice."
-summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet A.2, Alignment in Practice. Preserve its mathematical notation, exercise sequence, hints, and solutions."{++{"author":"Elias's AI","timestamp":1786986298593}@@
+summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet A.2, Alignment in Practice. Preserve its mathematical notation, exercise sequence, hints, and solutions."
 authors:
   - Evžen Wybitul
 source_url: https://github.com/iliad-team/iliad-intensive/blob/1eb9e340305e03de3f81a761167e13c54c71f19d/tex/alignment-in-practice/main.mdx
 upstream_commit: '1eb9e340305e03de3f81a761167e13c54c71f19d'
-provenance_recorded_at: '2026-08-17'++}
+provenance_recorded_at: '2026-08-17'
 ---
 
 #### Text
