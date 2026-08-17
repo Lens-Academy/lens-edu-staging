@@ -2,7 +2,12 @@
 id: 'd72a03aa-8b16-450c-98f7-a6a31cfaa526'
 title: "B.4 Training Dynamics"
 tldr: "Exact learning dynamics of deep linear networks -- loss-landscape geometry, balanced gradient flow and the NTK, the rich (saddle-to-saddle) and lazy regimes, their mixed unification, and the implicit bias of SGD noise."
-summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet B.4, Training Dynamics. Preserve its mathematical notation, exercise sequence, hints, and solutions."
+summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet B.4, Training Dynamics. Preserve its mathematical notation, exercise sequence, hints, and solutions."{++{"author":"Elias's AI","timestamp":1786986304566}@@
+authors:
+  - Guillaume Corlouer
+source_url: https://github.com/iliad-team/iliad-intensive/blob/1eb9e340305e03de3f81a761167e13c54c71f19d/tex/training-dynamics/main.tex
+upstream_commit: '1eb9e340305e03de3f81a761167e13c54c71f19d'
+provenance_recorded_at: '2026-08-17'++}
 ---
 
 #### Text

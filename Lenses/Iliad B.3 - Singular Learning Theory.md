@@ -2,7 +2,14 @@
 id: 'e3aefe7c-dd33-4c8f-a292-09d6408fc2a5'
 title: "B.3 Singular Learning Theory"
 tldr: "Singular learning theory (SLT) places degeneracy as a core part of understanding how neural networks learn. We cover the parameter-function map, the meaning of degeneracy through the local learning coefficient, to Watanabe's free energy formula and Bayesian phase transitions."
-summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet B.3, Singular Learning Theory. Preserve its mathematical notation, exercise sequence, hints, and solutions."
+summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet B.3, Singular Learning Theory. Preserve its mathematical notation, exercise sequence, hints, and solutions."{++{"author":"Elias's AI","timestamp":1786986301703}@@
+authors:
+  - Kai Ogden
+  - Matthew Farrugia-Roberts
+  - Zach Furman
+source_url: https://github.com/iliad-team/iliad-intensive/blob/1eb9e340305e03de3f81a761167e13c54c71f19d/tex/singular-learning-theory/main.tex
+upstream_commit: '1eb9e340305e03de3f81a761167e13c54c71f19d'
+provenance_recorded_at: '2026-08-17'++}
 ---
 
 #### Text
@@ -89,7 +96,7 @@ Both senses are in common usage in the literature as in this tutorial.
 
 :::
 
-The simplest neural network architecture models a single "neuron" with $d$ inputs $x_{1}, \ldots x_{d}$. Each input $x_{i}$ is multiplied by an incoming weight $w_{i}$ to produce the neuron's output. We formalise this case in [[#^eg-neuron|Theorem 1.1]].
+The simplest neural network architecture models a single "neuron" with $d$ inputs $x_{1}, \ldots x_{d}$. Each input $x_{i}$ is multiplied by an incoming weight $w_{i}$ to produce the neuron's output. We formalise this case in {--{"author":"Elias's AI","timestamp":1786986341407}@@[[#^eg-neuron|Theorem--}{++{"author":"Elias's AI","timestamp":1786986341407}@@[[#^eg-neuron|Example++} 1.1]].
 
 ::::callout {title="Note" tone="blue"}
 
@@ -119,11 +126,11 @@ $$
 ^eg-linear
 
 
-If we take each row of $W$ to encode the weight vector of a linear neuron ([[#^eg-neuron|Theorem 1.1]]), we see that we have produced $m$ outputs by stacking $m$ independent linear neurons together. Such a group of neurons is called a **layer**.
+If we take each row of $W$ to encode the weight vector of a linear neuron {--{"author":"Elias's AI","timestamp":1786986344418}@@([[#^eg-neuron|Theorem--}{++{"author":"Elias's AI","timestamp":1786986344418}@@([[#^eg-neuron|Example++} 1.1]]), we see that we have produced $m$ outputs by stacking $m$ independent linear neurons together. Such a group of neurons is called a **layer**.
 
 :::callout {title="Note" tone="neutral"}
 
-**Remark (Encodings).** In [[#^eg-linear|Theorem 1.2]], the parameter space is formally $\mathcal{W} = \mathbb{R}^{m^2}$, but we find it convenient to identify each parameter vector $w \in \mathbb{R}^{m^2}$ with the $m \times m$ matrix $W$ it encodes. We would thus write $f_{W}$ in place of $f_{w}$. More generally, whenever the parameters of an architecture naturally decompose into named matrices or vectors, we index the parameter–function map by these structured objects directly rather than by the underlying vector $w$. The remaining examples in this section demonstrate this convention, and we continue to use it throughout this tutorial.
+**Remark (Encodings).** In {--{"author":"Elias's AI","timestamp":1786986347173}@@[[#^eg-linear|Theorem--}{++{"author":"Elias's AI","timestamp":1786986347173}@@[[#^eg-linear|Example++} 1.2]], the parameter space is formally $\mathcal{W} = \mathbb{R}^{m^2}$, but we find it convenient to identify each parameter vector $w \in \mathbb{R}^{m^2}$ with the $m \times m$ matrix $W$ it encodes. We would thus write $f_{W}$ in place of $f_{w}$. More generally, whenever the parameters of an architecture naturally decompose into named matrices or vectors, we index the parameter–function map by these structured objects directly rather than by the underlying vector $w$. The remaining examples in this section demonstrate this convention, and we continue to use it throughout this tutorial.
 
 :::
 
@@ -144,7 +151,7 @@ $$
 
 The above architecture is called a two-layer **deep linear network (DLN)**. The architecture can be interpreted as composing two multi-linear neural networks. The vector of outputs of the neurons of the first network becomes the vector of inputs to the second network. The intermediate output vectors are called **activations**.
 
-Note that if $h \geq m$, the two-layer DLN architecture indexes the same hypothesis class as in [[#^eg-linear|Theorem 1.2]], that of linear transforms on $\mathbb{R}^{m}$. If $h < m$, the hypothesis class includes only transforms with rank up to $h$.
+Note that if $h \geq m$, the two-layer DLN architecture indexes the same hypothesis class as in {--{"author":"Elias's AI","timestamp":1786986350886}@@[[#^eg-linear|Theorem--}{++{"author":"Elias's AI","timestamp":1786986350886}@@[[#^eg-linear|Example++} 1.2]], that of linear transforms on $\mathbb{R}^{m}$. If $h < m$, the hypothesis class includes only transforms with rank up to $h$.
 
 Finally, we'll add *non-linearity* between pairs of layers. To do so, we introduce a non-linear scalar function $\sigma : \mathbb{R} \to \mathbb{R}$, called an *activation function*, to transform the output of each intermediate neuron. Common examples of activation functions, which we will study in this tutorial, include the following:
 
@@ -155,7 +162,7 @@ This results in the following non-linear neural network architecture.
 
 ::::callout {title="Note" tone="blue"}
 
-**Example 1.4 (Multi-layer perceptron; MLP).** Define input, output, and parameter spaces as in [[#^eg-dln|Theorem 1.3]]. Let $\sigma : \mathbb{R} \to \mathbb{R}$ be an activation function. The parameter–function map sends $(A, B)$ to the function $f_{A,B}: \mathbb{R}^{m} \to \mathbb{R}^{m}$ such that for $x \in \mathbb{R}^{m}$,
+**Example 1.4 (Multi-layer perceptron; MLP).** Define input, output, and parameter spaces as in {--{"author":"Elias's AI","timestamp":1786986353543}@@[[#^eg-dln|Theorem--}{++{"author":"Elias's AI","timestamp":1786986353543}@@[[#^eg-dln|Example++} 1.3]]. Let $\sigma : \mathbb{R} \to \mathbb{R}$ be an activation function. The parameter–function map sends $(A, B)$ to the function $f_{A,B}: \mathbb{R}^{m} \to \mathbb{R}^{m}$ such that for $x \in \mathbb{R}^{m}$,
 
 $$
 f_{A,B}(x) = B \cdot \sigma( A x ),
@@ -182,22 +189,22 @@ The expressivity of these architectures is limited, however, by the omission of 
 
 For each architecture, we add a bias vector to each layer's output before the next transformation (or activation function) is applied.
 
-1. **A linear neuron with bias** ([[#^eg-neuron|Theorem 1.1]]). Let $\mathcal{W} = \mathbb{R}^{d+1}$, encoding a weight vector $w \in \mathbb{R}^{d}$ and a scalar bias $b \in \mathbb{R}$. The parameter–function map sends $(w, b)$ to $f_{w,b}: \mathbb{R}^{d} \to \mathbb{R}$ defined by
+1. **A linear neuron with bias** {--{"author":"Elias's AI","timestamp":1786986357211}@@([[#^eg-neuron|Theorem--}{++{"author":"Elias's AI","timestamp":1786986357211}@@([[#^eg-neuron|Example++} 1.1]]). Let $\mathcal{W} = \mathbb{R}^{d+1}$, encoding a weight vector $w \in \mathbb{R}^{d}$ and a scalar bias $b \in \mathbb{R}$. The parameter–function map sends $(w, b)$ to $f_{w,b}: \mathbb{R}^{d} \to \mathbb{R}$ defined by
 
 $$
 f_{w,b}(x) = w^{\top} x + b.
 $$
-2. **Multi-linear neural network with bias** ([[#^eg-linear|Theorem 1.2]]). Let $\mathcal{W} = \mathbb{R}^{m^2 + m}$, encoding a matrix $W \in \mathbb{R}^{m \times m}$ and a bias vector $b \in \mathbb{R}^{m}$. The parameter–function map sends $(W, b)$ to $f_{W,b}: \mathbb{R}^{m} \to \mathbb{R}^{m}$ defined by
+2. **Multi-linear neural network with bias** {--{"author":"Elias's AI","timestamp":1786986360138}@@([[#^eg-linear|Theorem--}{++{"author":"Elias's AI","timestamp":1786986360138}@@([[#^eg-linear|Example++} 1.2]]). Let $\mathcal{W} = \mathbb{R}^{m^2 + m}$, encoding a matrix $W \in \mathbb{R}^{m \times m}$ and a bias vector $b \in \mathbb{R}^{m}$. The parameter–function map sends $(W, b)$ to $f_{W,b}: \mathbb{R}^{m} \to \mathbb{R}^{m}$ defined by
 
 $$
 f_{W,b}(x) = Wx + b.
 $$
-3. **Deep linear network with bias** ([[#^eg-dln|Theorem 1.3]]). Let $\mathcal{W} = \mathbb{R}^{2mh + h + m}$, encoding matrices $A \in \mathbb{R}^{h \times m}$, $B \in \mathbb{R}^{m \times h}$ and bias vectors $b_{A} \in \mathbb{R}^{h}$, $b_{B} \in \mathbb{R}^{m}$. The parameter–function map sends $(A, b_{A}, B, b_{B})$ to $f_{w} : \mathbb{R}^{m} \to \mathbb{R}^{m}$ defined by
+3. **Deep linear network with bias** {--{"author":"Elias's AI","timestamp":1786986363281}@@([[#^eg-dln|Theorem--}{++{"author":"Elias's AI","timestamp":1786986363281}@@([[#^eg-dln|Example++} 1.3]]). Let $\mathcal{W} = \mathbb{R}^{2mh + h + m}$, encoding matrices $A \in \mathbb{R}^{h \times m}$, $B \in \mathbb{R}^{m \times h}$ and bias vectors $b_{A} \in \mathbb{R}^{h}$, $b_{B} \in \mathbb{R}^{m}$. The parameter–function map sends $(A, b_{A}, B, b_{B})$ to $f_{w} : \mathbb{R}^{m} \to \mathbb{R}^{m}$ defined by
 
 $$
 f_{w}(x) = B(Ax + b_{A}) + b_{B}.
 $$
-4. **Multi-layer perceptron with bias** ([[#^eg-mlp|Theorem 1.4]]). The parameter space is $\mathcal{W} = \mathbb{R}^{2mh + h + m}$ as above. The parameter–function map sends $(A, b_{A}, B, b_{B})$ to $f_{w} : \mathbb{R}^{m} \to \mathbb{R}^{m}$ defined by
+4. **Multi-layer perceptron with bias** {--{"author":"Elias's AI","timestamp":1786986366033}@@([[#^eg-mlp|Theorem--}{++{"author":"Elias's AI","timestamp":1786986366033}@@([[#^eg-mlp|Example++} 1.4]]). The parameter space is $\mathcal{W} = \mathbb{R}^{2mh + h + m}$ as above. The parameter–function map sends $(A, b_{A}, B, b_{B})$ to $f_{w} : \mathbb{R}^{m} \to \mathbb{R}^{m}$ defined by
 
 $$
 f_{w}(x) = B \cdot \sigma(Ax + b_{A}) + b_{B}.

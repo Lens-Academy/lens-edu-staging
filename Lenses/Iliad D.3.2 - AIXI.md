@@ -2,7 +2,12 @@
 id: '42d09889-4fb8-4c6c-85dd-96119cee086a'
 title: "D.3.2 AIXI"
 tldr: "Exploring the Bayesian optimal policy for history based reinforcement learning."
-summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet D.3.2, AIXI. Preserve its mathematical notation, exercise sequence, hints, and solutions."
+summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet D.3.2, AIXI. Preserve its mathematical notation, exercise sequence, hints, and solutions."{++{"author":"Elias's AI","timestamp":1786986320980}@@
+authors:
+  - David Quarel
+source_url: https://github.com/iliad-team/iliad-intensive/blob/1eb9e340305e03de3f81a761167e13c54c71f19d/tex/aixi/main.tex
+upstream_commit: '1eb9e340305e03de3f81a761167e13c54c71f19d'
+provenance_recorded_at: '2026-08-17'++}
 ---
 
 #### Text

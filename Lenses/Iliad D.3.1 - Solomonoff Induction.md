@@ -2,7 +2,12 @@
 id: 'd862c23e-e3fd-4196-a067-b27e36a3d29c'
 title: "D.3.1 Solomonoff Induction"
 tldr: "How an idealized agent should predict. A Bayesian mixture over a countable class of computable hypotheses learns to predict any sequence, with total error bounded by the description length of the truth -- a formal Occam's razor."
-summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet D.3.1, Solomonoff Induction. Preserve its mathematical notation, exercise sequence, hints, and solutions."
+summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet D.3.1, Solomonoff Induction. Preserve its mathematical notation, exercise sequence, hints, and solutions."{++{"author":"Elias's AI","timestamp":1786986317984}@@
+authors:
+  - David Quarel
+source_url: https://github.com/iliad-team/iliad-intensive/blob/1eb9e340305e03de3f81a761167e13c54c71f19d/tex/solomonoff-induction/main.tex
+upstream_commit: '1eb9e340305e03de3f81a761167e13c54c71f19d'
+provenance_recorded_at: '2026-08-17'++}
 ---
 
 #### Text
