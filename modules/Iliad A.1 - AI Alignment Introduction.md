@@ -10,20 +10,20 @@ title: "A.1 AI Alignment Introduction"
 source:: [[../Lenses/Iliad A.1 - AI Alignment Introduction]]
 
 # Lens: Coherent Extrapolated Volition
-source:: [[../Lenses/yudkowsky-coherent-extrapolated-volition]]
-optional:: true
+source:: [[../Lenses/yudkowsky-coherent-extrapolated-volition]]{--{"author":"Luc's AI","timestamp":1786988594811}@@
+optional:: true--}
 
 # Lens: Clarifying AI alignment
-source:: [[../Lenses/christiano-clarifying-ai-alignment]]
-optional:: true
+source:: [[../Lenses/christiano-clarifying-ai-alignment]]{--{"author":"Luc's AI","timestamp":1786988595019}@@
+optional:: true--}
 
 # Lens: Claude's new constitution
-source:: [[../Lenses/anthropic-claudes-new-constitution]]
-optional:: true
+source:: [[../Lenses/anthropic-claudes-new-constitution]]{--{"author":"Luc's AI","timestamp":1786988595259}@@
+optional:: true--}
 
 # Lens: Corrigibility
-source:: [[../Lenses/lesswrong-corrigibility]]
-optional:: true
+source:: [[../Lenses/lesswrong-corrigibility]]{--{"author":"Luc's AI","timestamp":1786988595488}@@
+optional:: true--}
 
 # Submodule: A.1 Session 2: Alignment problem decompositions
 
@@ -31,20 +31,20 @@ optional:: true
 source:: [[../Lenses/Iliad A.1 - Session 2 - Alignment problem decompositions]]
 
 # Lens: Training stories
-source:: [[../Lenses/evhub-how-do-we-become-confident-in-the-safety-of-a-machine-learning-system]]
-optional:: true
+source:: [[../Lenses/evhub-how-do-we-become-confident-in-the-safety-of-a-machine-learning-system]]{--{"author":"Luc's AI","timestamp":1786988595885}@@
+optional:: true--}
 
 # Lens: Specification gaming
-source:: [[../Lenses/krakovna-specification-gaming-the-flip-side-of-ai-ingenuity]]
-optional:: true
+source:: [[../Lenses/krakovna-specification-gaming-the-flip-side-of-ai-ingenuity]]{--{"author":"Luc's AI","timestamp":1786988596130}@@
+optional:: true--}
 
 # Lens: Goal misgeneralisation
-source:: [[../Lenses/shah-how-undesired-goals-can-arise-with-correct-rewards]]
-optional:: true
+source:: [[../Lenses/shah-how-undesired-goals-can-arise-with-correct-rewards]]{--{"author":"Luc's AI","timestamp":1786988596366}@@
+optional:: true--}
 
 # Lens: Soft inductive biases
-source:: [[../Lenses/wilson-deep-learning-is-not-so-mysterious-or-different]]
-optional:: true
+source:: [[../Lenses/wilson-deep-learning-is-not-so-mysterious-or-different]]{--{"author":"Luc's AI","timestamp":1786988596592}@@
+optional:: true--}
 
 # Submodule: A.1 Session 3: Goal directedness
 
@@ -52,12 +52,12 @@ optional:: true
 source:: [[../Lenses/Iliad A.1 - Session 3 - Goal directedness]]
 
 # Lens: Will humans build goal-directed agents?
-source:: [[../Lenses/shah-will-humans-build-goal-directed-agents]]
-optional:: true
+source:: [[../Lenses/shah-will-humans-build-goal-directed-agents]]{--{"author":"Luc's AI","timestamp":1786988596793}@@
+optional:: true--}
 
 # Lens: The Basic AI Drives
-source:: [[../Lenses/omohundro-the-basic-ai-drives]]
-optional:: true
+source:: [[../Lenses/omohundro-the-basic-ai-drives]]{--{"author":"Luc's AI","timestamp":1786988596996}@@
+optional:: true--}
 
 # Submodule: A.1 Session 4: Uncertain risks and outlook
 
@@ -65,16 +65,16 @@ optional:: true
 source:: [[../Lenses/Iliad A.1 - Session 4 - Uncertain risks and outlook]]
 
 # Lens: Core views on AI safety
-source:: [[../Lenses/anthropic-core-views-on-ai-safety-when-why-what-and-how]]
-optional:: true
+source:: [[../Lenses/anthropic-core-views-on-ai-safety-when-why-what-and-how]]{--{"author":"Luc's AI","timestamp":1786988597210}@@
+optional:: true--}
 
 # Lens: Model Organisms of Misalignment
-source:: [[../Lenses/evhub-model-organisms-of-misalignment-the-case-for-a-new-pillar-of-alignment-research]]
-optional:: true
+source:: [[../Lenses/evhub-model-organisms-of-misalignment-the-case-for-a-new-pillar-of-alignment-research]]{--{"author":"Luc's AI","timestamp":1786988597407}@@
+optional:: true--}
 
 # Lens: The Rocket Alignment Problem
-source:: [[../Lenses/yudkowsky-the-rocket-alignment-problem-gg9a4y8rewktle3tn]]
-optional:: true
+source:: [[../Lenses/yudkowsky-the-rocket-alignment-problem-gg9a4y8rewktle3tn]]{--{"author":"Luc's AI","timestamp":1786988597597}@@
+optional:: true--}
 
 # Submodule: A.1 Further reading
 
