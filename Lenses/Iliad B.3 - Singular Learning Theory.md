@@ -7,12 +7,12 @@ summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet B.3, Singular 
 
 #### Text
 content::
-$\gdef\R{\mathbb{R}}\gdef\N{\mathbb{N}}\gdef\E{\mathbb{E}}\gdef\KL{\mathrm{KL}}\gdef\tr{\mathrm{tr}}\gdef\rank{\mathrm{rank}}\gdef\im{\mathrm{im}}\gdef\sign{\mathrm{sign}}\gdef\relu{\mathrm{relu}}\gdef\X{\mathcal{X}}\gdef\Y{\mathcal{Y}}\gdef\W{\mathcal{W}}\gdef\F{\mathcal{F}}\gdef\D{\mathcal{D}}\gdef\C{\mathcal{C}}\gdef\U{\mathcal{U}}\gdef\V{\mathcal{V}}\gdef\argmin{\operatorname*{arg\,min}}\gdef\argmax{\operatorname*{arg\,max}}$
+{--{"author":"Elias's AI","timestamp":1786983916254}@@$\gdef\R{\mathbb{R}}\gdef\N{\mathbb{N}}\gdef\E{\mathbb{E}}\gdef\KL{\mathrm{KL}}\gdef\tr{\mathrm{tr}}\gdef\rank{\mathrm{rank}}\gdef\im{\mathrm{im}}\gdef\sign{\mathrm{sign}}\gdef\relu{\mathrm{relu}}\gdef\X{\mathcal{X}}\gdef\Y{\mathcal{Y}}\gdef\W{\mathcal{W}}\gdef\F{\mathcal{F}}\gdef\D{\mathcal{D}}\gdef\C{\mathcal{C}}\gdef\U{\mathcal{U}}\gdef\V{\mathcal{V}}\gdef\argmin{\operatorname*{arg\,min}}\gdef\argmax{\operatorname*{arg\,max}}$
 
-> *Thou shalt have the power to degenerate*
+--}> *Thou shalt have the power to degenerate*
 >     —*On the Dignity of Man,* 1496
 
-\## Introduction ^introduction
+\## Introduction{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^introduction--}
 
 *Singular learning theory (SLT)* is a theory of learning that accounts for *degeneracy* in neural networks. What is degeneracy? Let us first appeal to the Cambridge dictionary, documenting some features of typical uses of the word within mathematics:
 
@@ -30,12 +30,12 @@ That is where this tutorial comes in. We aim to distil the essence of singular l
 
 **Contents.**  Specifically, the tutorial comprises the following four technical sections, each with definitions and guided exercises.
 
-1. "[[#^1-preliminaries|Section 1]]" reviews core deep learning concepts, defining our notation and some running examples. The central concept is that of the parameter–function map.
-2. "[[#^2-what-is-degeneracy|Section 2]]" defines degeneracy of parameter–function maps and relates it to symmetries, singularities of the Fisher information, and degenerate critical points of the loss landscape.
-3. "[[#^3-the-degeneracy-hierarchy|Section 3]]" derives the local learning coefficient (LLC) as a quantitative measure of the degree of degeneracy of a critical point via a volume scaling approach, and surveys several other perspectives on the quantity.
-4. "[[#^4-degeneracy-and-bayesian-deep-learning|Section 4]]" presents Watanabe's free energy formula connecting the LLC to Bayesian learning and discusses its implications.
+1. {--{"author":"Elias's AI","timestamp":1786983916254}@@"[[#^1-preliminaries|Section --}{++{"author":"Elias's AI","timestamp":1786983916254}@@"[[#1. Preliminaries|Section ++}1]]" reviews core deep learning concepts, defining our notation and some running examples. The central concept is that of the parameter–function map.
+2. {--{"author":"Elias's AI","timestamp":1786983916254}@@"[[#^2-what-is-degeneracy|Section --}{++{"author":"Elias's AI","timestamp":1786983916254}@@"[[#2. What is degeneracy?|Section ++}2]]" defines degeneracy of parameter–function maps and relates it to symmetries, singularities of the Fisher information, and degenerate critical points of the loss landscape.
+3. {--{"author":"Elias's AI","timestamp":1786983916254}@@"[[#^3-the-degeneracy-hierarchy|Section--}{++{"author":"Elias's AI","timestamp":1786983916254}@@"[[#3. The degeneracy hierarchy|Section++} 3]]" derives the local learning coefficient (LLC) as a quantitative measure of the degree of degeneracy of a critical point via a volume scaling approach, and surveys several other perspectives on the quantity.
+4. {--{"author":"Elias's AI","timestamp":1786983916254}@@"[[#^4-degeneracy-and-bayesian-deep-learning|Section --}{++{"author":"Elias's AI","timestamp":1786983916254}@@"[[#4. Degeneracy and Bayesian deep learning|Section ++}4]]" presents Watanabe's free energy formula connecting the LLC to Bayesian learning and discusses its implications.
 
-We conclude with [[#^5-further-readings|Section 5]], providing pointers for further study and surveying the literature on SLT and deep learning.
+We conclude with {--{"author":"Elias's AI","timestamp":1786983916254}@@[[#^5-further-readings|Section --}{++{"author":"Elias's AI","timestamp":1786983916254}@@[[#5. Further readings|Section ++}5]], providing pointers for further study and surveying the literature on SLT and deep learning.
 
 **Prerequisites.**
 
@@ -43,20 +43,20 @@ The following is an indicative list of mathematical concepts that will be helpfu
 
 - *Linear algebra:* vectors, matrices, rank, orthogonal matrices, rank–nullity, positive definiteness, eigenvalues, spectral decomposition.
 - *Calculus:* partial derivatives, gradient, directional derivative, chain rule, Hessian, second-order Taylor expansion and remainder.
-- *Integration and analysis:* multivariate integrals, change of variables, volume in $\R^{d}$, asymptotic notation (big-$O$, little-$o$), computing basic limits and integrals.
+- *Integration and analysis:* multivariate integrals, change of variables, volume in {--{"author":"Elias's AI","timestamp":1786983916254}@@$\R^{d}$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathbb{R}^{d}$,++} asymptotic notation (big-$O$, little-$o$), computing basic limits and integrals.
 - *Probability:* probability simplex $\Delta(\cdot)$, conditional probability, probability density functions, independence, expectation, Bayes' rule, Gaussians, law of large numbers.
 
-[[#^1-preliminaries|Section 1]] reviews the basic framework of deep learning as parametric function approximation or statistical inference (parameter–function maps, deep linear networks, multi-layer perceptrons, loss functions, likelihood) along with Bayesian inference (prior, posterior, partition function, Bayesian free energy).
+{--{"author":"Elias's AI","timestamp":1786983916254}@@[[#^1-preliminaries|Section--}{++{"author":"Elias's AI","timestamp":1786983916254}@@[[#1. Preliminaries|Section++} 1]] reviews the basic framework of deep learning as parametric function approximation or statistical inference (parameter–function maps, deep linear networks, multi-layer perceptrons, loss functions, likelihood) along with Bayesian inference (prior, posterior, partition function, Bayesian free energy).
 
 Readers with more advanced backgrounds may appreciate occasional references to topics from algebraic geometry, fractal geometry, or statistical physics. However, these references are tangential and readers without these backgrounds can safely skip them.
 
 **Fast-track.**
 
-To paraphrase Euclid, there is no royal road to algebro-geometric learning theory. However, it is possible to get a bird's-eye view and the most important intuitions in a comparably short time. If this is what you are looking for, we recommend the following route through the tutorial. Assuming you are already somewhat comfortable with deep learning and Bayesian inference, skip [[#^1-preliminaries|Section 1]], and refer back only as needed. Then, proceed as follows.
+To paraphrase Euclid, there is no royal road to algebro-geometric learning theory. However, it is possible to get a bird's-eye view and the most important intuitions in a comparably short time. If this is what you are looking for, we recommend the following route through the tutorial. Assuming you are already somewhat comfortable with deep learning and Bayesian inference, skip {--{"author":"Elias's AI","timestamp":1786983916254}@@[[#^1-preliminaries|Section--}{++{"author":"Elias's AI","timestamp":1786983916254}@@[[#1. Preliminaries|Section++} 1]], and refer back only as needed. Then, proceed as follows.
 
-1. To understand parameter–function map versus loss landscape degeneracy: Read [[#^21-a-definition-of-degeneracy|Subsection 2.1]] and complete [[#^ex-univariate-degeneracy|Exercise 2.1]] and [[#^ex-cubic-degeneracy|2.2]]. Complete either [[#^ex-dln-degeneracy|Exercise 2.9]] or [[#^ex-mlp-degeneracy|2.10]]. Read [[#^25-degeneracy-and-the-loss-landscape|Subsection 2.5]] and complete your choice of Exercises [[#^ex-loss-landscape-degeneracy|2.14]] and/or [[#^ex-fim-hessian|2.15]].
-2. To understand the local learning coefficient via volume scaling: Read [[#^31-the-local-learning-coefficient-via-volume-scaling-asymptotics|Subsection 3.1]] and complete [[#^ex-llc-regular-case|Exercise 3.1]] and [[#^ex-quad-valley-scaling|3.2]] and [[#^ex-calculating-llc|3.4]] and [[#^ex-cubic-parameterisation|3.7]]. Read [[#^33-local-learning-coefficients-of-deep-linear-networks|Subsection 3.3]] and [[#^ex-dln-lc|Exercise 3.10]].
-3. To understand the relation between degeneracy and learning in the Bayesian case: Read all of [[#^4-degeneracy-and-bayesian-deep-learning|Section 4]] (it is shorter). Complete [[#^ex-phase-transitions|Exercise 4.2]].
+1. To understand parameter–function map versus loss landscape degeneracy: Read {--{"author":"Elias's AI","timestamp":1786983916254}@@[[#^21-a-definition-of-degeneracy|Subsection --}{++{"author":"Elias's AI","timestamp":1786983916254}@@[[#2.1 A definition of degeneracy|Subsection ++}2.1]] and complete [[#^ex-univariate-degeneracy|Exercise 2.1]] and [[#^ex-cubic-degeneracy|2.2]]. Complete either [[#^ex-dln-degeneracy|Exercise 2.9]] or [[#^ex-mlp-degeneracy|2.10]]. Read {--{"author":"Elias's AI","timestamp":1786983916254}@@[[#^25-degeneracy-and-the-loss-landscape|Subsection--}{++{"author":"Elias's AI","timestamp":1786983916254}@@[[#2.5 Degeneracy and the loss landscape|Subsection++} 2.5]] and complete your choice of Exercises [[#^ex-loss-landscape-degeneracy|2.14]] and/or [[#^ex-fim-hessian|2.15]].
+2. To understand the local learning coefficient via volume scaling: Read {--{"author":"Elias's AI","timestamp":1786983916254}@@[[#^31-the-local-learning-coefficient-via-volume-scaling-asymptotics|Subsection --}{++{"author":"Elias's AI","timestamp":1786983916254}@@[[#3.1 The local learning coefficient via volume scaling asymptotics|Subsection ++}3.1]] and complete [[#^ex-llc-regular-case|Exercise 3.1]] and [[#^ex-quad-valley-scaling|3.2]] and [[#^ex-calculating-llc|3.4]] and [[#^ex-cubic-parameterisation|3.7]]. Read {--{"author":"Elias's AI","timestamp":1786983916254}@@[[#^33-local-learning-coefficients-of-deep-linear-networks|Subsection --}{++{"author":"Elias's AI","timestamp":1786983916254}@@[[#3.3 Local learning coefficients of deep linear networks|Subsection ++}3.3]] and [[#^ex-dln-lc|Exercise 3.10]].
+3. To understand the relation between degeneracy and learning in the Bayesian case: Read all of {--{"author":"Elias's AI","timestamp":1786983916254}@@[[#^4-degeneracy-and-bayesian-deep-learning|Section --}{++{"author":"Elias's AI","timestamp":1786983916254}@@[[#4. Degeneracy and Bayesian deep learning|Section ++}4]] (it is shorter). Complete [[#^ex-phase-transitions|Exercise 4.2]].
 
 Once you are done, we hope you will consider taking the scenic route some other time.
 
@@ -64,19 +64,19 @@ Once you are done, we hope you will consider taking the scenic route some other 
 
 This tutorial was developed for the April 2026 Iliad Intensive. Some exercises were adapted from [[#^bib-furman2024|Furman 2024]].
 
-\## 1. Preliminaries ^1-preliminaries
+\## 1. Preliminaries{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^1-preliminaries--}
 
 In this section, we introduce basic terminology and notation for supervised deep learning and supervised Bayesian deep learning, along with some example neural network architectures and statistical models that we will repeatedly study throughout the tutorial.
 
-\### 1.1 Neural networks and parameter–function maps ^11-neural-networks-and-parameterfunction-maps
+\### 1.1 Neural networks and parameter–function maps{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^11-neural-networks-and-parameterfunction-maps--}
 
-Let $\X$ denote a space of network inputs (e.g., a space of images or token sequences encoded as vectors), and let $\Y$ denote a space of outputs (e.g., a space of numerical scores, class distributions, or next-token distributions).
+Let {--{"author":"Elias's AI","timestamp":1786983916254}@@$\X$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{X}$++} denote a space of network inputs (e.g., a space of images or token sequences encoded as vectors), and let {--{"author":"Elias's AI","timestamp":1786983916254}@@$\Y$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{Y}$++} denote a space of outputs (e.g., a space of numerical scores, class distributions, or next-token distributions).
 
-Informally, a neural network architecture is a specification for how various **parameters** (e.g., neuron connection strengths / weights or neuron activation thresholds / biases) combine with input signals and each-other to describe a function from $\X$ to $\Y$.
+Informally, a neural network architecture is a specification for how various **parameters** (e.g., neuron connection strengths / weights or neuron activation thresholds / biases) combine with input signals and each-other to describe a function from {--{"author":"Elias's AI","timestamp":1786983916254}@@$\X$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{X}$++} to {--{"author":"Elias's AI","timestamp":1786983916254}@@$\Y$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{Y}$.++}
 
-Formally, a neural network architecture essentially comprises a **parameter–function map** $\Phi : \W \to \F$, where $\W \subseteq \R^{d}$ is a $d$-dimensional **parameter space** and $\F \subseteq \Y^{\X}$ is some **hypothesis class** of functions from $\X$ to $\Y$.
+Formally, a neural network architecture essentially comprises a **parameter–function map** $\Phi : {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\F$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{F}$,++} where {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} \subseteq {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{d}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{d}$++} is a $d$-dimensional **parameter space** and {--{"author":"Elias's AI","timestamp":1786983916254}@@$\F--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{F}++} \subseteq {--{"author":"Elias's AI","timestamp":1786983916254}@@\Y^{\X}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{Y}^{\mathcal{X}}$++} is some **hypothesis class** of functions from {--{"author":"Elias's AI","timestamp":1786983916254}@@$\X$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{X}$++} to {--{"author":"Elias's AI","timestamp":1786983916254}@@$\Y$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{Y}$.++}
 
-It is sometimes convenient to refer to the function $\Phi(w) : \X \to \Y$ as $f_{w} : \X \to \Y$.
+It is sometimes convenient to refer to the function $\Phi(w) : {--{"author":"Elias's AI","timestamp":1786983916254}@@\X--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\Y$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{Y}$++} as $f_{w} : {--{"author":"Elias's AI","timestamp":1786983916254}@@\X--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\Y$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{Y}$.++}
 
 Throughout the rest of this tutorial, we will study many different neural network architectures (parameter–function maps). The rest of this section explores some generally useful examples and some terminological points. To begin with, we have the following remark.
 
@@ -95,7 +95,7 @@ The simplest neural network architecture models a single "neuron" with $d$ input
 
 ::::callout {title="Note" tone="blue"}
 
-**Example 1.1 (A linear neuron).** Let $\X = \R^{d}$ for some positive integer $d$ and let $\Y = \R$. Define a parameter space $\W = \R^{d}$. Define a parameter–function map that maps a column vector $w \in \W$ to the function $f_{w} : \R^{d} \to \R$ such that for $x \in \R^{d}$,
+**Example 1.1 (A linear neuron).** Let {--{"author":"Elias's AI","timestamp":1786983916254}@@$\X--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{X}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{d}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{d}$++} for some positive integer $d$ and let {--{"author":"Elias's AI","timestamp":1786983916254}@@$\Y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{Y}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$.++} Define a parameter space {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{d}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{d}$.++} Define a parameter–function map that maps a column vector $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$++} to the function $f_{w} : {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{d}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{d}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$++} such that for $x \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{d}$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{d}$,++}
 
 $$
 f_{w}(x) = w^{\top} x = \sum_{i=1}^{d} w_{i} x_{i}.
@@ -110,7 +110,7 @@ Let us generalise this basic neural network in three ways: to add multiple outpu
 
 ::::callout {title="Note" tone="blue"}
 
-**Example 1.2 (Multi-linear neural network).** Let $\X = \Y = \R^{m}$ for some positive integer $m$. Define a parameter space $\W = \R^{m^2}$. Let each parameter $w \in \W$ encode an $m \times m$ matrix $W \in \R^{m \times m}$. The parameter–function map transforms each parameter $w \in \W$ to a function $f_{w} : \R^{m} \to \R^{m}$ such that for $x \in \R^{m}$,
+**Example 1.2 (Multi-linear neural network).** Let {--{"author":"Elias's AI","timestamp":1786983916254}@@$\X--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{X}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\Y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{Y}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$++} for some positive integer $m$. Define a parameter space {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m^2}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m^2}$.++} Let each parameter $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$++} encode an $m \times m$ matrix $W \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m++} \times m}$. The parameter–function map transforms each parameter $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$++} to a function $f_{w} : {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$++} such that for $x \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$,++}
 
 $$
 f_{w}(x) = W x.
@@ -125,7 +125,7 @@ If we take each row of $W$ to encode the weight vector of a linear neuron ([[#^e
 
 :::callout {title="Note" tone="neutral"}
 
-**Remark (Encodings).** In [[#^eg-linear|Theorem 1.2]], the parameter space is formally $\W = \R^{m^2}$, but we find it convenient to identify each parameter vector $w \in \R^{m^2}$ with the $m \times m$ matrix $W$ it encodes. We would thus write $f_{W}$ in place of $f_{w}$. More generally, whenever the parameters of an architecture naturally decompose into named matrices or vectors, we index the parameter–function map by these structured objects directly rather than by the underlying vector $w$. The remaining examples in this section demonstrate this convention, and we continue to use it throughout this tutorial.
+**Remark (Encodings).** In [[#^eg-linear|Theorem 1.2]], the parameter space is formally {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m^2}$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m^2}$,++} but we find it convenient to identify each parameter vector $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m^2}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m^2}$++} with the $m \times m$ matrix $W$ it encodes. We would thus write $f_{W}$ in place of $f_{w}$. More generally, whenever the parameters of an architecture naturally decompose into named matrices or vectors, we index the parameter–function map by these structured objects directly rather than by the underlying vector $w$. The remaining examples in this section demonstrate this convention, and we continue to use it throughout this tutorial.
 
 :::
 
@@ -133,7 +133,7 @@ Next, let's add *depth* to our neural network by composing two layers together.
 
 ::::callout {title="Note" tone="blue"}
 
-**Example 1.3 (Deep linear network; DLN).** Let $\X = \Y = \R^{m}$ for some positive integer $m$. Let $h$ be a positive integer and define the parameter space $\W = \R^{2mh}$, with each parameter encoding a pair of matrices $A \in \R^{h \times m}$ and $B \in \R^{m \times h}$. The parameter–function map sends $(A, B)$ to $f_{A,B}: \R^{m} \to \R^{m}$ such that for $x \in \R^{m}$,
+**Example 1.3 (Deep linear network; DLN).** Let {--{"author":"Elias's AI","timestamp":1786983916254}@@$\X--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{X}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\Y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{Y}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$++} for some positive integer $m$. Let $h$ be a positive integer and define the parameter space {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{2mh}$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{2mh}$,++} with each parameter encoding a pair of matrices $A \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{h--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{h++} \times m}$ and $B \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m++} \times h}$. The parameter–function map sends $(A, B)$ to $f_{A,B}: {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$++} such that for $x \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$,++}
 
 $$
 f_{A,B}(x) = B A x.
@@ -146,24 +146,24 @@ $$
 
 The above architecture is called a two-layer **deep linear network (DLN)**. The architecture can be interpreted as composing two multi-linear neural networks. The vector of outputs of the neurons of the first network becomes the vector of inputs to the second network. The intermediate output vectors are called **activations**.
 
-Note that if $h \geq m$, the two-layer DLN architecture indexes the same hypothesis class as in [[#^eg-linear|Theorem 1.2]], that of linear transforms on $\R^{m}$. If $h < m$, the hypothesis class includes only transforms with rank up to $h$.
+Note that if $h \geq m$, the two-layer DLN architecture indexes the same hypothesis class as in [[#^eg-linear|Theorem 1.2]], that of linear transforms on {--{"author":"Elias's AI","timestamp":1786983916254}@@$\R^{m}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathbb{R}^{m}$.++} If $h < m$, the hypothesis class includes only transforms with rank up to $h$.
 
-Finally, we'll add *non-linearity* between pairs of layers. To do so, we introduce a non-linear scalar function $\sigma : \R \to \R$, called an *activation function*, to transform the output of each intermediate neuron. Common examples of activation functions, which we will study in this tutorial, include the following:
+Finally, we'll add *non-linearity* between pairs of layers. To do so, we introduce a non-linear scalar function $\sigma : {--{"author":"Elias's AI","timestamp":1786983916254}@@\R--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$,++} called an *activation function*, to transform the output of each intermediate neuron. Common examples of activation functions, which we will study in this tutorial, include the following:
 
 1. The **hyperbolic tangent** function $\displaystyle \tanh(z) = \frac{e^{z}-e^{-z}}{e^{z} + e^{-z}}$.
-2. The **rectified linear unit (ReLU)** function $\relu(z) = \max\{0, z\}$.
+2. The **rectified linear unit (ReLU)** function {--{"author":"Elias's AI","timestamp":1786983916254}@@$\relu(z)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathrm{relu}(z)++} = \max\{0, z\}$.
 
 This results in the following non-linear neural network architecture.
 
 ::::callout {title="Note" tone="blue"}
 
-**Example 1.4 (Multi-layer perceptron; MLP).** Define input, output, and parameter spaces as in [[#^eg-dln|Theorem 1.3]]. Let $\sigma : \R \to \R$ be an activation function. The parameter–function map sends $(A, B)$ to the function $f_{A,B}: \R^{m} \to \R^{m}$ such that for $x \in \R^{m}$,
+**Example 1.4 (Multi-layer perceptron; MLP).** Define input, output, and parameter spaces as in [[#^eg-dln|Theorem 1.3]]. Let $\sigma : {--{"author":"Elias's AI","timestamp":1786983916254}@@\R--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$++} be an activation function. The parameter–function map sends $(A, B)$ to the function $f_{A,B}: {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$++} such that for $x \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$,++}
 
 $$
 f_{A,B}(x) = B \cdot \sigma( A x ),
 $$
 
-where we lift the activation function to operate element-wise over column vectors $A x \in \R^{h}$.
+where we lift the activation function to operate element-wise over column vectors $A x \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{h}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{h}$.++}
 
 ::::
 
@@ -184,22 +184,22 @@ The expressivity of these architectures is limited, however, by the omission of 
 
 For each architecture, we add a bias vector to each layer's output before the next transformation (or activation function) is applied.
 
-1. **A linear neuron with bias** ([[#^eg-neuron|Theorem 1.1]]). Let $\W = \R^{d+1}$, encoding a weight vector $w \in \R^{d}$ and a scalar bias $b \in \R$. The parameter–function map sends $(w, b)$ to $f_{w,b}: \R^{d} \to \R$ defined by
+1. **A linear neuron with bias** ([[#^eg-neuron|Theorem 1.1]]). Let {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{d+1}$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{d+1}$,++} encoding a weight vector $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{d}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{d}$++} and a scalar bias $b \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$.++} The parameter–function map sends $(w, b)$ to $f_{w,b}: {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{d}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{d}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$++} defined by
 
 $$
 f_{w,b}(x) = w^{\top} x + b.
 $$
-2. **Multi-linear neural network with bias** ([[#^eg-linear|Theorem 1.2]]). Let $\W = \R^{m^2 + m}$, encoding a matrix $W \in \R^{m \times m}$ and a bias vector $b \in \R^{m}$. The parameter–function map sends $(W, b)$ to $f_{W,b}: \R^{m} \to \R^{m}$ defined by
+2. **Multi-linear neural network with bias** ([[#^eg-linear|Theorem 1.2]]). Let {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m^2--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m^2++} + m}$, encoding a matrix $W \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m++} \times m}$ and a bias vector $b \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$.++} The parameter–function map sends $(W, b)$ to $f_{W,b}: {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$++} defined by
 
 $$
 f_{W,b}(x) = Wx + b.
 $$
-3. **Deep linear network with bias** ([[#^eg-dln|Theorem 1.3]]). Let $\W = \R^{2mh + h + m}$, encoding matrices $A \in \R^{h \times m}$, $B \in \R^{m \times h}$ and bias vectors $b_{A} \in \R^{h}$, $b_{B} \in \R^{m}$. The parameter–function map sends $(A, b_{A}, B, b_{B})$ to $f_{w} : \R^{m} \to \R^{m}$ defined by
+3. **Deep linear network with bias** ([[#^eg-dln|Theorem 1.3]]). Let {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{2mh--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{2mh++} + h + m}$, encoding matrices $A \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{h--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{h++} \times m}$, $B \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m++} \times h}$ and bias vectors $b_{A} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{h}$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{h}$,++} $b_{B} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$.++} The parameter–function map sends $(A, b_{A}, B, b_{B})$ to $f_{w} : {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$++} defined by
 
 $$
 f_{w}(x) = B(Ax + b_{A}) + b_{B}.
 $$
-4. **Multi-layer perceptron with bias** ([[#^eg-mlp|Theorem 1.4]]). The parameter space is $\W = \R^{2mh + h + m}$ as above. The parameter–function map sends $(A, b_{A}, B, b_{B})$ to $f_{w} : \R^{m} \to \R^{m}$ defined by
+4. **Multi-layer perceptron with bias** ([[#^eg-mlp|Theorem 1.4]]). The parameter space is {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{2mh--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{2mh++} + h + m}$ as above. The parameter–function map sends $(A, b_{A}, B, b_{B})$ to $f_{w} : {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$++} defined by
 
 $$
 f_{w}(x) = B \cdot \sigma(Ax + b_{A}) + b_{B}.
@@ -209,11 +209,11 @@ $$
 
 Modern deep learning leverages more involved parameter–function maps. Neural network architectures are typically defined in a modular fashion, including linear (or affine) layers and non-linear layers like the above, along with more specialised layers (well-known examples including convolutional layers, residual layers, and attention layers).
 
-\### 1.2 Supervised deep learning and loss functions ^12-supervised-deep-learning-and-loss-functions
+\### 1.2 Supervised deep learning and loss functions{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^12-supervised-deep-learning-and-loss-functions--}
 
-In a typical supervised deep learning setting, we are given a data set of pairs $(x^{(1)}, y^{(1)}),$ $\ldots,$ $(x^{(n)}, y^{(n)}) \in \X \times \Y$. These pairs exemplify inputs and their corresponding (possibly noisy) outputs from an unknown target function $f : \X \to \Y$ which we would like to approximate using a neural network. That is, we would like to find a parameter $w \in \W$ such that the corresponding function $f_{w}$ approximates the target function $f$.
+In a typical supervised deep learning setting, we are given a data set of pairs $(x^{(1)}, y^{(1)}),$ $\ldots,$ $(x^{(n)}, y^{(n)}) \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\X--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}++} \times {--{"author":"Elias's AI","timestamp":1786983916254}@@\Y$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{Y}$.++} These pairs exemplify inputs and their corresponding (possibly noisy) outputs from an unknown target function $f : {--{"author":"Elias's AI","timestamp":1786983916254}@@\X--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\Y$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{Y}$++} which we would like to approximate using a neural network. That is, we would like to find a parameter $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$++} such that the corresponding function $f_{w}$ approximates the target function $f$.
 
-Formally, given an example $(x, y) \in \X \times \Y$, define a **per-example loss** function $L_{x,y}: \W \to \R$ to measure the deviation of $f_{w}(x)$ from the output $y$. A typical loss function for vector outputs $\Y \subset \R^{m}$ is to use the **squared error** loss
+Formally, given an example $(x, y) \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\X--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}++} \times {--{"author":"Elias's AI","timestamp":1786983916254}@@\Y$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{Y}$,++} define a **per-example loss** function $L_{x,y}: {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$++} to measure the deviation of $f_{w}(x)$ from the output $y$. A typical loss function for vector outputs {--{"author":"Elias's AI","timestamp":1786983916254}@@$\Y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{Y}++} \subset {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$++} is to use the **squared error** loss
 
 
 $$
@@ -224,7 +224,7 @@ $$
 ^eq-square-loss
 
 
-If $\Y = \Delta^{m-1}$ is a space of discrete distributions over $m$ objects it is typical to use **cross entropy** loss
+If {--{"author":"Elias's AI","timestamp":1786983916254}@@$\Y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{Y}++} = \Delta^{m-1}$ is a space of discrete distributions over $m$ objects it is typical to use **cross entropy** loss
 
 
 $$
@@ -235,15 +235,15 @@ $$
 ^eq-cross-entropy
 
 
-Given a per-example loss function and a **data distribution** $q \in \Delta(\X\times\Y)$ over the space of examples (representing our possibly-noisy target function), we formalise the objective of supervised learning as finding $w \in \W$ so as to minimise the **population loss** function $L : \W \to \R$ defined such that
+Given a per-example loss function and a **data distribution** $q \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\X\times\Y)$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\mathcal{X}\times\mathcal{Y})$++} over the space of examples (representing our possibly-noisy target function), we formalise the objective of supervised learning as finding $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$++} so as to minimise the **population loss** function $L : {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$++} defined such that
 
 $$
-L(w) = \E_{(x,y) \sim q}[L_{x,y}(w)].
+L(w) = {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{(x,y)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{(x,y)++} \sim q}[L_{x,y}(w)].
 $$
 
 The population loss aggregates differences on outputs for individual inputs into an overall measure of difference between $f_{w}$ and the target function.
 
-In practice, we often can't evaluate the population loss over the entire input/output space. We instead optimise an estimator based on our data set of $n$ input–output pairs assumed to be sampled independently and identically from $q$. Define an **empirical loss** function $L_{n} : \W \to \R$ such that
+In practice, we often can't evaluate the population loss over the entire input/output space. We instead optimise an estimator based on our data set of $n$ input–output pairs assumed to be sampled independently and identically from $q$. Define an **empirical loss** function $L_{n} : {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$++} such that
 
 $$
 L_{n}(w) = \frac{1}{n} \sum_{i=1}^{n} L_{x^{(i)},y^{(i)}}(w).
@@ -261,12 +261,12 @@ $$
 
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 1.2 (Empirical loss and population loss).** Fix $w \in \W$. Prove the following properties of the relationship between the empirical loss $L_{n}(w)$ and the population loss $L(w)$.
+**Exercise 1.2 (Empirical loss and population loss).** Fix $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$.++} Prove the following properties of the relationship between the empirical loss $L_{n}(w)$ and the population loss $L(w)$.
 
 **(a)** For any $n$, the empirical loss is an unbiased estimator of the population loss. That is,
 
 $$
-\E_{(x^{(i)}, y^{(i)}) \sim q}[L_{n}(w)] - L(w) = 0.
+{--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{(x^{(i)},--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{(x^{(i)},++} y^{(i)}) \sim q}[L_{n}(w)] - L(w) = 0.
 $$
 
 **(b)** As $n \to \infty$, the empirical loss converges almost surely to the population loss.
@@ -280,13 +280,13 @@ $$
 1. Since the data pairs $(x^{(i)}, y^{(i)})$ are sampled independently and identically from $q$, each per-example loss $L_{x^{(i)},y^{(i)}}(w)$ is an identically distributed random variable with expectation
 
 $$
-\E_{(x,y)\sim q}[L_{x,y}(w)] = L(w).
+{--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{(x,y)\sim--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{(x,y)\sim++} q}[L_{x,y}(w)] = L(w).
 $$
 
 Therefore, by linearity of expectation,
 
 $$
-\E[L_{n}(w)] = \E\left[\frac{1}{n}\sum_{i=1}^{n} L_{x^{(i)},y^{(i)}}(w)\right] = \frac{1}{n}\sum_{i=1}^{n} \E[L_{x^{(i)},y^{(i)}}(w)] = \frac{1}{n}\cdot n \cdot L(w) = L(w).
+{--{"author":"Elias's AI","timestamp":1786983916254}@@\E[L_{n}(w)]--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}[L_{n}(w)]++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\E\left[\frac{1}{n}\sum_{i=1}^{n}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}\left[\frac{1}{n}\sum_{i=1}^{n}++} L_{x^{(i)},y^{(i)}}(w)\right] = \frac{1}{n}\sum_{i=1}^{n} {--{"author":"Elias's AI","timestamp":1786983916254}@@\E[L_{x^{(i)},y^{(i)}}(w)]--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}[L_{x^{(i)},y^{(i)}}(w)]++} = \frac{1}{n}\cdot n \cdot L(w) = L(w).
 $$
 2. The random variables $L_{x^{(1)},y^{(1)}}(w), L_{x^{(2)},y^{(2)}}(w), \ldots$ are independent and identically distributed with common mean $L(w)$. By the strong law of large numbers,
 
@@ -298,21 +298,21 @@ almost surely.
 
 :::
 
-Given a loss function, a **training algorithm** is a search algorithm that aims to find $w \in \W$ such that the loss is approximately minimised. Most modern deep learning algorithms are variants of **stochastic gradient descent (SGD)**, which implements an iterative gradient-based local search of the parameter space using empirical loss on subsamples of the data set.
+Given a loss function, a **training algorithm** is a search algorithm that aims to find $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$++} such that the loss is approximately minimised. Most modern deep learning algorithms are variants of **stochastic gradient descent (SGD)**, which implements an iterative gradient-based local search of the parameter space using empirical loss on subsamples of the data set.
 
 Through many impressive feats of computer science and hardware/software engineering, we are able to run such training algorithms to find low-loss parameters within parameter spaces with billions of dimensions. The details are vitally important to the success of modern deep learning, but are beyond the scope of this tutorial. We only mention SGD in order to emphasise that *any local search method depends intimately on the properties of the parameter–function map.*
 
-\### 1.3 Statistical models and parameter–distribution maps ^13-statistical-models-and-parameterdistribution-maps
+\### 1.3 Statistical models and parameter–distribution maps{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^13-statistical-models-and-parameterdistribution-maps--}
 
 The previous sections introduce neural networks and supervised deep learning within a framework of function approximation. An alternative approach is to view supervised learning as statistical inference, and particularly Bayesian inference. This statistical framework is commonly used within the SLT literature, and we will encounter it within this tutorial.
 
 The first step to upgrading our framework is to move from talking about functions to talking about conditional distributions. For each neural network, we should be able to determine not just the output corresponding to each input, but a probability density measuring how likely each output is given each input.
 
-Formally, let $\D \subseteq \Delta(\Y)^{\X}$ represent a class of conditional distributions over $\Y$. A distributional neural network architecture comprises a **parameter–distribution map** $\Psi : \W \to \D$. It is sometimes convenient to refer to the conditional distribution $\Psi(w) : \X \to \Delta(\Y)$ using the notation $p_{w} : \X \to \Delta(\Y)$. The probability mass/density of a given output $y \in \Y$ conditional on a given input $x \in \X$ is typically denoted either $p_{w}(y \mid x)$ or $p(y \mid x, w)$.
+Formally, let {--{"author":"Elias's AI","timestamp":1786983916254}@@$\D--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{D}++} \subseteq {--{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\Y)^{\X}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\mathcal{Y})^{\mathcal{X}}$++} represent a class of conditional distributions over {--{"author":"Elias's AI","timestamp":1786983916254}@@$\Y$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{Y}$.++} A distributional neural network architecture comprises a **parameter–distribution map** $\Psi : {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\D$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{D}$.++} It is sometimes convenient to refer to the conditional distribution $\Psi(w) : {--{"author":"Elias's AI","timestamp":1786983916254}@@\X--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\Y)$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\mathcal{Y})$++} using the notation $p_{w} : {--{"author":"Elias's AI","timestamp":1786983916254}@@\X--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\Y)$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\mathcal{Y})$.++} The probability mass/density of a given output $y \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\Y$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{Y}$++} conditional on a given input $x \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\X$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}$++} is typically denoted either $p_{w}(y \mid x)$ or $p(y \mid x, w)$.
 
-Sometimes, defining a parameter–distribution map is simply a re-framing. For example, in image classification, our output space $\Y$ was a space of distributions over image classes. Let $\C$ represents the underlying class space, then $\Y = \Delta(\C)$ and we can view our parameter–function map $\Phi : \W \to \F$ as a parameter–distribution map $\Psi : \W \to \D$ with $\D = \F \subseteq \Y^{\X} = \Delta(\C)^{\X}$.
+Sometimes, defining a parameter–distribution map is simply a re-framing. For example, in image classification, our output space {--{"author":"Elias's AI","timestamp":1786983916254}@@$\Y$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{Y}$++} was a space of distributions over image classes. Let {--{"author":"Elias's AI","timestamp":1786983916254}@@$\C$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{C}$++} represents the underlying class space, then {--{"author":"Elias's AI","timestamp":1786983916254}@@$\Y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{Y}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\C)$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\mathcal{C})$++} and we can view our parameter–function map $\Phi : {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\F$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{F}$++} as a parameter–distribution map $\Psi : {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\D$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{D}$++} with {--{"author":"Elias's AI","timestamp":1786983916254}@@$\D--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{D}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\F--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{F}++} \subseteq {--{"author":"Elias's AI","timestamp":1786983916254}@@\Y^{\X}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{Y}^{\mathcal{X}}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\C)^{\X}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\mathcal{C})^{\mathcal{X}}$.++}
 
-In other cases, we can easily construct a parameter–distribution map from a parameter–function map by introducing a **noise model**. For example, in regression with an output space $\Y = \R^{m}$, given a parameter–function map $w \mapsto f_{w}$ we can define a parameter–distribution map $\Psi : \W \to \Delta(\Y)^{\X}$ such that, for $w\in\W$ and $x\in\X$,
+In other cases, we can easily construct a parameter–distribution map from a parameter–function map by introducing a **noise model**. For example, in regression with an output space {--{"author":"Elias's AI","timestamp":1786983916254}@@$\Y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{Y}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$,++} given a parameter–function map $w \mapsto f_{w}$ we can define a parameter–distribution map $\Psi : {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\Y)^{\X}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\mathcal{Y})^{\mathcal{X}}$++} such that, for {--{"author":"Elias's AI","timestamp":1786983916254}@@$w\in\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$w\in\mathcal{W}$++} and {--{"author":"Elias's AI","timestamp":1786983916254}@@$x\in\X$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$x\in\mathcal{X}$,++}
 
 
 $$
@@ -328,7 +328,7 @@ The above **Gaussian noise model** amounts to modelling each output $y$ as drawn
 As the following exercises explore, performing statistical inference according to the principle of maximum likelihood aligns with the loss-minimisation perspective (given an appropriate choice of loss function).
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 1.3 (Maximum likelihood as MSE minimisation).** Consider a regression problem with $\X = \Y = \R^{m}$. Assume we have a neural network architecture with a parameter space $\W$. Form a corresponding statistical model using the Gaussian noise model of [[#^eq-gaussian-model|(11)]]. Let $(x^{(1)}, y^{(1)}),$ $\ldots,$ $(x^{(n)}, y^{(n)}) \in \X \times \Y$ be a data set of $n$ regression examples.
+**Exercise 1.3 (Maximum likelihood as MSE minimisation).** Consider a regression problem with {--{"author":"Elias's AI","timestamp":1786983916254}@@$\X--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{X}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\Y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{Y}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$.++} Assume we have a neural network architecture with a parameter space {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}$.++} Form a corresponding statistical model using the Gaussian noise model of [[#^eq-gaussian-model|(11)]]. Let $(x^{(1)}, y^{(1)}),$ $\ldots,$ $(x^{(n)}, y^{(n)}) \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\X--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}++} \times {--{"author":"Elias's AI","timestamp":1786983916254}@@\Y$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{Y}$++} be a data set of $n$ regression examples.
 
 **(a)** Write an expression for the conditional probability of observing the labels $Y_{n} = (y^{(1)}, \ldots, y^{(n)})$ given the inputs $X_{n} = (x^{(1)}, \ldots, x^{(n)})$ and some fixed parameter $w \in W$, assuming the labels are sampled independently.
 
@@ -337,7 +337,7 @@ As the following exercises explore, performing statistical inference according t
 **(c)** Show that if $L_{n}$ is the mean squared error loss function from [[#^eq-mse|(9)]], then
 
 $$
-\argmax_{w \in \W}p(Y_{n} \mid X_{n}, w) = \argmin_{w \in \W}L_{n}(w) .
+{--{"author":"Elias's AI","timestamp":1786983916254}@@\argmax_{w--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\operatorname*{arg\,max}_{w++} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W}p(Y_{n}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}}p(Y_{n}++} \mid X_{n}, w) = {--{"author":"Elias's AI","timestamp":1786983916254}@@\argmin_{w--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\operatorname*{arg\,min}_{w++} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W}L_{n}(w)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}}L_{n}(w)++} .
 $$
 :::
 
@@ -365,13 +365,13 @@ $$
 The right-hand side is a strictly increasing affine function of $L_{n}(w)$ (with positive coefficient $n/2$), and the additive constant $\frac{nm}{2}\log(2\pi)$ is independent of $w$. Therefore,
 
 $$
-\argmax_{w\in\W}p(Y_{n} \mid X_{n}, w) = \argmin_{w\in\W}\left(-\log p(Y_{n} \mid X_{n}, w)\right) = \argmin_{w\in\W}L_{n}(w).
+{--{"author":"Elias's AI","timestamp":1786983916254}@@\argmax_{w\in\W}p(Y_{n}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\operatorname*{arg\,max}_{w\in\mathcal{W}}p(Y_{n}++} \mid X_{n}, w) = {--{"author":"Elias's AI","timestamp":1786983916254}@@\argmin_{w\in\W}\left(-\log--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\operatorname*{arg\,min}_{w\in\mathcal{W}}\left(-\log++} p(Y_{n} \mid X_{n}, w)\right) = {--{"author":"Elias's AI","timestamp":1786983916254}@@\argmin_{w\in\W}L_{n}(w).--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\operatorname*{arg\,min}_{w\in\mathcal{W}}L_{n}(w).++}
 $$
 
 :::
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 1.4 (Maximum likelihood as cross entropy minimisation).** Consider a classification problem with $\Y = \Delta^{m-1}$. Assume we have a neural network architecture with a parameter space $\W$. As discussed, the parameter–function map in this case corresponds to a parameter–distribution map to conditional distributions over the underlying discrete class space $\C = \{1, \ldots, m\}$. Let $(x^{(1)}, c^{(1)}),$ $\ldots,$ $(x^{(n)}, c^{(n)}) \in \X \times \C$ be a data set of $n$ labelled classification examples. For each $c^{(i)}\in \C$ define
+**Exercise 1.4 (Maximum likelihood as cross entropy minimisation).** Consider a classification problem with {--{"author":"Elias's AI","timestamp":1786983916254}@@$\Y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{Y}++} = \Delta^{m-1}$. Assume we have a neural network architecture with a parameter space {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}$.++} As discussed, the parameter–function map in this case corresponds to a parameter–distribution map to conditional distributions over the underlying discrete class space {--{"author":"Elias's AI","timestamp":1786983916254}@@$\C--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{C}++} = \{1, \ldots, m\}$. Let $(x^{(1)}, c^{(1)}),$ $\ldots,$ $(x^{(n)}, c^{(n)}) \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\X--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}++} \times {--{"author":"Elias's AI","timestamp":1786983916254}@@\C$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{C}$++} be a data set of $n$ labelled classification examples. For each $c^{(i)}\in {--{"author":"Elias's AI","timestamp":1786983916254}@@\C$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{C}$++} define
 
 
 $$
@@ -395,7 +395,7 @@ $$
 **(c)** Using [[#^eq-classification-dirac|(12)]], show that if the per-example loss function for the optimisation problem is cross entropy loss [[#^eq-cross-entropy|(6)]], then
 
 $$
-\argmax_{w \in \W}p(C_{n} \mid X_{n}, w) = \argmin_{w \in \W}L_{n}(w) .
+{--{"author":"Elias's AI","timestamp":1786983916254}@@\argmax_{w--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\operatorname*{arg\,max}_{w++} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W}p(C_{n}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}}p(C_{n}++} \mid X_{n}, w) = {--{"author":"Elias's AI","timestamp":1786983916254}@@\argmin_{w--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\operatorname*{arg\,min}_{w++} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W}L_{n}(w)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}}L_{n}(w)++} .
 $$
 :::
 
@@ -429,16 +429,16 @@ $$
 Since the negative log-likelihood is $n \cdot L_{n}(w)$, a positive multiple of the empirical loss, we conclude
 
 $$
-\argmax_{w\in\W}p(C_{n} \mid X_{n}, w) = \argmin_{w\in\W}L_{n}(w).
+{--{"author":"Elias's AI","timestamp":1786983916254}@@\argmax_{w\in\W}p(C_{n}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\operatorname*{arg\,max}_{w\in\mathcal{W}}p(C_{n}++} \mid X_{n}, w) = {--{"author":"Elias's AI","timestamp":1786983916254}@@\argmin_{w\in\W}L_{n}(w).--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\operatorname*{arg\,min}_{w\in\mathcal{W}}L_{n}(w).++}
 $$
 
 :::
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 1.5 (Maximum likelihood as loss minimisation, in general).** Consider a neural network architecture with a parameter space $\W$, parameter–function map $\Phi$, and output space $\Y = \R^{m}$. Let $L_{x,y}: \W \to \R$ be a per-example loss function. Assume that for each $x \in \X$ and $w \in \W$, the function $y \mapsto \exp(-L_{x,y}(w))$ is integrable over $\Y$. Define a corresponding statistical model with parameter–distribution map $\Psi$ mapping $w \in \W$ to $p_{w} : \X \to \Delta(\Y)$ such that for all $y \in \Y$, $x \in \X$, and $w \in \W$, we have
+**Exercise 1.5 (Maximum likelihood as loss minimisation, in general).** Consider a neural network architecture with a parameter space {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}$,++} parameter–function map $\Phi$, and output space {--{"author":"Elias's AI","timestamp":1786983916254}@@$\Y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{Y}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$.++} Let $L_{x,y}: {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$++} be a per-example loss function. Assume that for each $x \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\X$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}$++} and $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$,++} the function $y \mapsto \exp(-L_{x,y}(w))$ is integrable over {--{"author":"Elias's AI","timestamp":1786983916254}@@$\Y$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{Y}$.++} Define a corresponding statistical model with parameter–distribution map $\Psi$ mapping $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$++} to $p_{w} : {--{"author":"Elias's AI","timestamp":1786983916254}@@\X--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\Y)$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\mathcal{Y})$++} such that for all $y \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\Y$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{Y}$,++} $x \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\X$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}$,++} and $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$,++} we have
 
 $$
-p(y \mid x, w) = \frac{\exp\!\left(- L_{x,y}(w)\right)}{Z(x,w)}, \qquad Z(x,w) = \int_{\Y}\exp\!\left(- L_{x,z}(w) \right)dz .
+p(y \mid x, w) = \frac{\exp\!\left(- L_{x,y}(w)\right)}{Z(x,w)}, \qquad Z(x,w) = {--{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\Y}\exp\!\left(---}{++{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\mathcal{Y}}\exp\!\left(-++} L_{x,z}(w) \right)dz .
 $$
 
 We re-use the notation $X_{n}$, $Y_{n}$ from [[#^ex-nll-mse|Exercise 1.3]], and assume that labels are sampled independently.
@@ -449,10 +449,10 @@ $$
 -\log p(Y_{n} \mid X_{n}, w) = \sum_{i=1}^{n} L_{x^{(i)},y^{(i)}}(w) + \sum_{i=1}^{n} \log Z(x^{(i)}, w) .
 $$
 
-**(b)** Now suppose the loss function takes the form $L_{x,y}(w) = \ell(f_{w}(x) - y)$ for some integrable function $\ell : \R^{m} \to \R$. Show that $Z(x, w)$ is independent of $w$, and conclude that
+**(b)** Now suppose the loss function takes the form $L_{x,y}(w) = \ell(f_{w}(x) - y)$ for some integrable function $\ell : {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$.++} Show that $Z(x, w)$ is independent of $w$, and conclude that
 
 $$
-\argmax_{w \in \W}p(Y_{n} \mid X_{n}, w) = \argmin_{w \in \W}L_{n}(w) .
+{--{"author":"Elias's AI","timestamp":1786983916254}@@\argmax_{w--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\operatorname*{arg\,max}_{w++} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W}p(Y_{n}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}}p(Y_{n}++} \mid X_{n}, w) = {--{"author":"Elias's AI","timestamp":1786983916254}@@\argmin_{w--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\operatorname*{arg\,min}_{w++} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W}L_{n}(w)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}}L_{n}(w)++} .
 $$
 :::
 
@@ -475,7 +475,7 @@ $$
 2. Suppose $L_{x,y}(w) = \ell(f_{w}(x) - y)$. Making the substitution $u = f_{w}(x) - z$ (so that $dz = du$) in the definition of the partition function,
 
 $$
-Z(x, w) = \int_{\R^m}\exp\!\left(-\ell(f_{w}(x) - z)\right) dz = \int_{\R^m}\exp\!\left(-\ell(u)\right) du.
+Z(x, w) = {--{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\R^m}\exp\!\left(-\ell(f_{w}(x)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\mathbb{R}^m}\exp\!\left(-\ell(f_{w}(x)++} - z)\right) dz = {--{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\R^m}\exp\!\left(-\ell(u)\right)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\mathbb{R}^m}\exp\!\left(-\ell(u)\right)++} du.
 $$
 
 The right-hand side is a constant independent of both $x$ and $w$. Therefore, by part (a), the negative log-likelihood is
@@ -484,29 +484,29 @@ $$
 -\log p(Y_{n} \mid X_{n}, w) = \sum_{i=1}^{n} L_{x^{(i)},y^{(i)}}(w) + C = n \cdot L_{n}(w) + C
 $$
 
-where $C = n \log \int_{\R^m}\exp(-\ell(u))\,du$ is independent of $w$. Since the negative log-likelihood is an affine function of $L_{n}(w)$ with positive coefficient,
+where $C = n \log {--{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\R^m}\exp(-\ell(u))\,du$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\mathbb{R}^m}\exp(-\ell(u))\,du$++} is independent of $w$. Since the negative log-likelihood is an affine function of $L_{n}(w)$ with positive coefficient,
 
 $$
-\argmax_{w\in\W}p(Y_{n} \mid X_{n}, w) = \argmin_{w\in\W}L_{n}(w).
+{--{"author":"Elias's AI","timestamp":1786983916254}@@\argmax_{w\in\W}p(Y_{n}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\operatorname*{arg\,max}_{w\in\mathcal{W}}p(Y_{n}++} \mid X_{n}, w) = {--{"author":"Elias's AI","timestamp":1786983916254}@@\argmin_{w\in\W}L_{n}(w).--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\operatorname*{arg\,min}_{w\in\mathcal{W}}L_{n}(w).++}
 $$
 
 :::
 
 :::callout {title="Note" tone="neutral"}
 
-**Remark (Negative log-likelihood loss).** Examples [[#^ex-nll-mse|1.3]], [[#^ex-nll-cross-entropy|1.4]], and [[#^ex-nll-energy|1.5]] nominally show that some maximum likelihood estimation problems have the same sets of ideal solutions as some carefully-chosen optimisation problems ($\argmin = \argmax$). In general, that the global optima for two optimisation problems coincide is insufficient to show that practical optimisation methods will always find the same solutions: practical optimisation methods don't always find global optima. However, in the above cases, your derivation likely reveals a stronger result: the optimisation landscapes for the function approximation problem are related to the optimisation landscape for the maximum likelihood estimation problem by a strictly monotonically decreasing transform (an affine transform of a logarithm).
+**Remark (Negative log-likelihood loss).** Examples [[#^ex-nll-mse|1.3]], [[#^ex-nll-cross-entropy|1.4]], and [[#^ex-nll-energy|1.5]] nominally show that some maximum likelihood estimation problems have the same sets of ideal solutions as some carefully-chosen optimisation problems {--{"author":"Elias's AI","timestamp":1786983916254}@@($\argmin--}{++{"author":"Elias's AI","timestamp":1786983916254}@@($\operatorname*{arg\,min}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\argmax$).--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\operatorname*{arg\,max}$).++} In general, that the global optima for two optimisation problems coincide is insufficient to show that practical optimisation methods will always find the same solutions: practical optimisation methods don't always find global optima. However, in the above cases, your derivation likely reveals a stronger result: the optimisation landscapes for the function approximation problem are related to the optimisation landscape for the maximum likelihood estimation problem by a strictly monotonically decreasing transform (an affine transform of a logarithm).
 
 :::
 
-\### 1.4 Bayesian deep learning ^14-bayesian-deep-learning
+\### 1.4 Bayesian deep learning{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^14-bayesian-deep-learning--}
 
-The principle of maximum likelihood, explored in the preceding exercises, is one approach to statistical inference. An alternative approach is **Bayesian inference**, which treats $w$ as a random variable and maintains a probability distribution over $\W$ reflecting our uncertainty about which parameter best explains the data. The majority of theoretical results in SLT have been developed within this setting ([[#^bib-watanabe2009|Watanabe 2009]]; [[#^bib-watanabe2018|Watanabe 2018]], cf.,).
+The principle of maximum likelihood, explored in the preceding exercises, is one approach to statistical inference. An alternative approach is **Bayesian inference**, which treats $w$ as a random variable and maintains a probability distribution over {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}$++} reflecting our uncertainty about which parameter best explains the data. The majority of theoretical results in SLT have been developed within this setting ([[#^bib-watanabe2009|Watanabe 2009]]; [[#^bib-watanabe2018|Watanabe 2018]], cf.,).
 
-Bayesian learning begins with a **prior** distribution $\varphi \in \Delta(\W)$, a probability density on $\W$ representing our beliefs about the parameter $w$ before observing any data. Throughout this tutorial, we assume $\varphi$ is positive and smooth on $\W$.
+Bayesian learning begins with a **prior** distribution $\varphi \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\W)$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\mathcal{W})$,++} a probability density on {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}$++} representing our beliefs about the parameter $w$ before observing any data. Throughout this tutorial, we assume $\varphi$ is positive and smooth on {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}$.++}
 
 :::callout {title="Definition" tone="purple"}
 
-**Definition 1.5 (Posterior distribution, partition function, free energy).** Given a data set of $n$ input–output pairs $(x^{(1)}, y^{(1)}),$ $\ldots,$ $(x^{(n)}, y^{(n)}) \in \X \times \Y$, Bayes' rule updates the prior into the **posterior distribution** $\pi_{n} \in \Delta(\W)$, a probability density on $\W$ defined by
+**Definition 1.5 (Posterior distribution, partition function, free energy).** Given a data set of $n$ input–output pairs $(x^{(1)}, y^{(1)}),$ $\ldots,$ $(x^{(n)}, y^{(n)}) \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\X--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}++} \times {--{"author":"Elias's AI","timestamp":1786983916254}@@\Y$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{Y}$,++} Bayes' rule updates the prior into the **posterior distribution** $\pi_{n} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\W)$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\mathcal{W})$,++} a probability density on {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}$++} defined by
 
 
 $$
@@ -517,11 +517,11 @@ $$
 ^eq-posterior
 
 
-where $Z_{n} \in \R$ is a normalising constant called the **partition function** (or **marginal likelihood** or **model evidence**),
+where $Z_{n} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$++} is a normalising constant called the **partition function** (or **marginal likelihood** or **model evidence**),
 
 
 $$
-Z_{n} = \int_{\W}\varphi(w) \prod_{i=1}^{n}p(y^{(i)}\mid x^{(i)}, w)\, dw.
+Z_{n} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\W}\varphi(w)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\mathcal{W}}\varphi(w)++} \prod_{i=1}^{n}p(y^{(i)}\mid x^{(i)}, w)\, dw.
 $$
 
 
@@ -560,7 +560,7 @@ $$
 ^eq-nll-loss
 
 
-Here, $p(y \mid x, w)$ is the conditional density from the parameter–distribution map and $(x^{(1)}, y^{(1)}),$ $\ldots,$ $(x^{(n)}, y^{(n)}) \in \X \times \Y$ is a data set of $n$ examples. Show that
+Here, $p(y \mid x, w)$ is the conditional density from the parameter–distribution map and $(x^{(1)}, y^{(1)}),$ $\ldots,$ $(x^{(n)}, y^{(n)}) \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\X--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}++} \times {--{"author":"Elias's AI","timestamp":1786983916254}@@\Y$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{Y}$++} is a data set of $n$ examples. Show that
 
 $$
 \pi_{n}(w) = \frac{1}{Z_{n}}\varphi(w) \exp\!\big({-}n L_{n}(w)\big)
@@ -569,7 +569,7 @@ $$
 and
 
 $$
-Z_{n} = \int_{\W}\varphi(w) \exp\!\big({-}n L_{n}(w)\big)\, dw.
+Z_{n} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\W}\varphi(w)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\mathcal{W}}\varphi(w)++} \exp\!\big({-}n L_{n}(w)\big)\, dw.
 $$
 :::
 
@@ -594,7 +594,7 @@ Substituting into the definitions of the posterior [[#^eq-posterior|(13)]] and p
 
 :::
 
-The **Bayesian deep learning process** is the process of re-weighting each individual parameter vector in response to seeing an increasing amount of data, producing the sequence of belief distributions $\varphi, \pi_{1}, \pi_{2}, \ldots \in \Delta(\W)$. Over time, the posterior will concentrate around parameters which provide a good fit for the data (though there is more to the story in the singular case, as we will see in later sections).
+The **Bayesian deep learning process** is the process of re-weighting each individual parameter vector in response to seeing an increasing amount of data, producing the sequence of belief distributions $\varphi, \pi_{1}, \pi_{2}, \ldots \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\W)$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\mathcal{W})$.++} Over time, the posterior will concentrate around parameters which provide a good fit for the data (though there is more to the story in the singular case, as we will see in later sections).
 
 Bayesian deep learning is a *global search* in that all parameter vectors are considered in parallel. This makes exact Bayesian learning computationally intractable for non-trivial models, but more analytically tractable than SGD in general. Moreover, as we will explore in later sections, the dynamics of Bayesian learning still reflect the local geometry of the parameter–distribution map.
 
@@ -602,11 +602,11 @@ In preparation for exploring this connection between geometry and learning we fi
 
 :::callout {title="Definition" tone="purple"}
 
-**Definition 1.6 (Local partition function and local free energy).** Given a neighbourhood $\U \subseteq \W$, the **local partition function** and **local free energy** are
+**Definition 1.6 (Local partition function and local free energy).** Given a neighbourhood {--{"author":"Elias's AI","timestamp":1786983916254}@@$\U--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{U}++} \subseteq {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$,++} the **local partition function** and **local free energy** are
 
 
 $$
-Z_{n}(\U) = \int_{\U}\varphi(w) \prod_{i=1}^{n}p(y^{(i)}\mid x^{(i)}, w)\, dw, \qquad F_{n}(\U) = -\log Z_{n}(\U).
+{--{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}(\U)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}(\mathcal{U})++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\U}\varphi(w)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\mathcal{U}}\varphi(w)++} \prod_{i=1}^{n}p(y^{(i)}\mid x^{(i)}, w)\, dw, \qquad {--{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\U)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\mathcal{U})++} = -\log {--{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}(\U).--}{++{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}(\mathcal{U}).++}
 $$
 
 
@@ -618,16 +618,16 @@ $$
 ^def-local-free-energy
 
 
-The local partition function (free energy) measures how well (poorly) parameters within a given neighbourhood collectively explain the data. Note, $Z_{n}(\W) = Z_{n}$ and $F_{n}(\W) = F_{n}$.
+The local partition function (free energy) measures how well (poorly) parameters within a given neighbourhood collectively explain the data. Note, {--{"author":"Elias's AI","timestamp":1786983916254}@@$Z_{n}(\W)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$Z_{n}(\mathcal{W})++} = Z_{n}$ and {--{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\W)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\mathcal{W})++} = F_{n}$.
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 1.7 (Local posterior mass and local free energy).** Let $\U, \V \subseteq \W$ be two neighbourhoods of parameter space. Let $\pi_{n}(\U) = \int_{\U}\pi_{n}(w) \,dw$ denote the posterior mass of a neighbourhood. Show the following.
+**Exercise 1.7 (Local posterior mass and local free energy).** Let {--{"author":"Elias's AI","timestamp":1786983916254}@@$\U, \V--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{U}, \mathcal{V}++} \subseteq {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$++} be two neighbourhoods of parameter space. Let {--{"author":"Elias's AI","timestamp":1786983916254}@@$\pi_{n}(\U)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\pi_{n}(\mathcal{U})++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\U}\pi_{n}(w)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\mathcal{U}}\pi_{n}(w)++} \,dw$ denote the posterior mass of a neighbourhood. Show the following.
 
-**(a)** $\displaystyle \pi_{n}(\U) = \frac{Z_{n}(\U)}{Z_{n}}$ (the same holds for $\V$).
+**(a)** $\displaystyle {--{"author":"Elias's AI","timestamp":1786983916254}@@\pi_{n}(\U)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\pi_{n}(\mathcal{U})++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\frac{Z_{n}(\U)}{Z_{n}}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\frac{Z_{n}(\mathcal{U})}{Z_{n}}$++} (the same holds for {--{"author":"Elias's AI","timestamp":1786983916254}@@$\V$).--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{V}$).++}
 
-**(b)** $\displaystyle \log \frac{\pi_{n}(\U)}{\pi_{n}(\V)}= F_{n}(\V) - F_{n}(\U)$.
+**(b)** $\displaystyle \log {--{"author":"Elias's AI","timestamp":1786983916254}@@\frac{\pi_{n}(\U)}{\pi_{n}(\V)}= F_{n}(\V)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\frac{\pi_{n}(\mathcal{U})}{\pi_{n}(\mathcal{V})}= F_{n}(\mathcal{V})++} - {--{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\U)$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\mathcal{U})$.++}
 
-In conclusion, the posterior odds ratio of the two regions $\pi_{n}(\U) / \pi_{n}(\V)$ depends exponentially on the difference between their local free energies.
+In conclusion, the posterior odds ratio of the two regions {--{"author":"Elias's AI","timestamp":1786983916254}@@$\pi_{n}(\U)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\pi_{n}(\mathcal{U})++} / {--{"author":"Elias's AI","timestamp":1786983916254}@@\pi_{n}(\V)$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\pi_{n}(\mathcal{V})$++} depends exponentially on the difference between their local free energies.
 :::
 
 ^ex-posterior-free-energy
@@ -635,32 +635,32 @@ In conclusion, the posterior odds ratio of the two regions $\pi_{n}(\U) / \pi_{n
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-1. Integrating the posterior [[#^eq-posterior|(13)]] over $\U$,
+1. Integrating the posterior [[#^eq-posterior|(13)]] over {--{"author":"Elias's AI","timestamp":1786983916254}@@$\U$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{U}$,++}
 
 $$
-\pi_{n}(\U) = \int_{\U}\pi_{n}(w) \, dw = \int_{\U}\frac{1}{Z_{n}}\varphi(w) \prod_{i=1}^{n}p(y^{(i)}\mid x^{(i)}, w) \, dw = \frac{Z_{n}(\U)}{Z_{n}}.
+{--{"author":"Elias's AI","timestamp":1786983916254}@@\pi_{n}(\U)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\pi_{n}(\mathcal{U})++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\U}\pi_{n}(w)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\mathcal{U}}\pi_{n}(w)++} \, dw = {--{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\U}\frac{1}{Z_{n}}\varphi(w)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\mathcal{U}}\frac{1}{Z_{n}}\varphi(w)++} \prod_{i=1}^{n}p(y^{(i)}\mid x^{(i)}, w) \, dw = {--{"author":"Elias's AI","timestamp":1786983916254}@@\frac{Z_{n}(\U)}{Z_{n}}.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\frac{Z_{n}(\mathcal{U})}{Z_{n}}.++}
 $$
 2. By part (a),
 
 $$
-\log \frac{\pi_{n}(\U)}{\pi_{n}(\V)}= \log \frac{Z_{n}(\U) / Z_{n}}{Z_{n}(\V) / Z_{n}}= \log Z_{n}(\U) - \log Z_{n}(\V) = F_{n}(\V) - F_{n}(\U).
+\log {--{"author":"Elias's AI","timestamp":1786983916254}@@\frac{\pi_{n}(\U)}{\pi_{n}(\V)}=--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\frac{\pi_{n}(\mathcal{U})}{\pi_{n}(\mathcal{V})}=++} \log {--{"author":"Elias's AI","timestamp":1786983916254}@@\frac{Z_{n}(\U)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\frac{Z_{n}(\mathcal{U})++} / {--{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}}{Z_{n}(\V)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}}{Z_{n}(\mathcal{V})++} / Z_{n}}= \log {--{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}(\U)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}(\mathcal{U})++} - \log {--{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}(\V)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}(\mathcal{V})++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\V)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\mathcal{V})++} - {--{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\U).--}{++{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\mathcal{U}).++}
 $$
 
 :::
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 1.8 (Partition function of partitioned parameter space).** Let $\U_{1}, \ldots, \U_{k} \subseteq \W$ be disjoint subsets with $\W = \U_{1} \sqcup \cdots \sqcup \U_{k}$.
+**Exercise 1.8 (Partition function of partitioned parameter space).** Let {--{"author":"Elias's AI","timestamp":1786983916254}@@$\U_{1},--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{U}_{1},++} \ldots, {--{"author":"Elias's AI","timestamp":1786983916254}@@\U_{k}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{U}_{k}++} \subseteq {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$++} be disjoint subsets with {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\U_{1}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{U}_{1}++} \sqcup \cdots \sqcup {--{"author":"Elias's AI","timestamp":1786983916254}@@\U_{k}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{U}_{k}$.++}
 
-**(a)** Show that the partition function decomposes as $Z_{n} = \sum_{j=1}^{k} Z_{n}(\U_{j})$, and hence
-
-$$
-F_{n} = -\log \sum_{j=1}^{k} e^{-F_n(\U_j)}.
-$$
-
-**(b)** Show that if $F_{n}(\U_{1}) < F_{n}(\U_{j})$ for all $j \neq 1$, then
+**(a)** Show that the partition function decomposes as $Z_{n} = \sum_{j=1}^{k} {--{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}(\U_{j})$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}(\mathcal{U}_{j})$,++} and hence
 
 $$
-F_{n}(\U_{1}) - \log k < F_{n} < F_{n}(\U_{1}).
+F_{n} = -\log \sum_{j=1}^{k} {--{"author":"Elias's AI","timestamp":1786983916254}@@e^{-F_n(\U_j)}.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@e^{-F_n(\mathcal{U}_j)}.++}
+$$
+
+**(b)** Show that if {--{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\U_{1})--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\mathcal{U}_{1})++} < {--{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\U_{j})$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\mathcal{U}_{j})$++} for all $j \neq 1$, then
+
+$$
+{--{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\U_{1})--}{++{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\mathcal{U}_{1})++} - \log k < F_{n} < {--{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\U_{1}).--}{++{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\mathcal{U}_{1}).++}
 $$
 
 In conclusion, the overall free energy is dominated by the region(s) with the lowest local free energy.
@@ -671,46 +671,46 @@ In conclusion, the overall free energy is dominated by the region(s) with the lo
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-1. Since $\U_{1}, \ldots, \U_{k}$ are disjoint and cover $\W$, the integral over $\W$ decomposes as a sum of integrals over each $\U_{j}$:
+1. Since {--{"author":"Elias's AI","timestamp":1786983916254}@@$\U_{1},--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{U}_{1},++} \ldots, {--{"author":"Elias's AI","timestamp":1786983916254}@@\U_{k}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{U}_{k}$++} are disjoint and cover {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}$,++} the integral over {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}$++} decomposes as a sum of integrals over each {--{"author":"Elias's AI","timestamp":1786983916254}@@$\U_{j}$:--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{U}_{j}$:++}
 
 $$
-\begin{aligned}Z_{n}&= \int_{\W}\varphi(w) \exp\!\big({-}n L_{n}(w)\big)\, dw \\&= \sum_{j=1}^{k}\int_{\U_j}\varphi(w) \exp\!\big({-}n L_{n}(w)\big)\, dw = \sum_{j=1}^{k}Z_{n}(\U_{j}).\end{aligned}
+\begin{aligned}Z_{n}&= {--{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\W}\varphi(w)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\mathcal{W}}\varphi(w)++} \exp\!\big({-}n L_{n}(w)\big)\, dw \\&= {--{"author":"Elias's AI","timestamp":1786983916254}@@\sum_{j=1}^{k}\int_{\U_j}\varphi(w)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\sum_{j=1}^{k}\int_{\mathcal{U}_j}\varphi(w)++} \exp\!\big({-}n L_{n}(w)\big)\, dw = {--{"author":"Elias's AI","timestamp":1786983916254}@@\sum_{j=1}^{k}Z_{n}(\U_{j}).\end{aligned}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\sum_{j=1}^{k}Z_{n}(\mathcal{U}_{j}).\end{aligned}++}
 $$
 
-By definition, $Z_{n}(\U_{j}) = e^{-F_n(\U_j)}$, so $Z_{n} = \sum_{j=1}^{k}e^{-F_n(\U_j)}$. Taking $-\log$ of both sides,
+By definition, {--{"author":"Elias's AI","timestamp":1786983916254}@@$Z_{n}(\U_{j})--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$Z_{n}(\mathcal{U}_{j})++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@e^{-F_n(\U_j)}$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@e^{-F_n(\mathcal{U}_j)}$,++} so $Z_{n} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\sum_{j=1}^{k}e^{-F_n(\U_j)}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\sum_{j=1}^{k}e^{-F_n(\mathcal{U}_j)}$.++} Taking $-\log$ of both sides,
 
 $$
-F_{n} = -\log Z_{n} = -\log \sum_{j=1}^{k}e^{-F_n(\U_j)}.
+F_{n} = -\log Z_{n} = -\log {--{"author":"Elias's AI","timestamp":1786983916254}@@\sum_{j=1}^{k}e^{-F_n(\U_j)}.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\sum_{j=1}^{k}e^{-F_n(\mathcal{U}_j)}.++}
 $$
-2. Since $F_{n}(\U_{1}) < F_{n}(\U_{j})$ for all $j \neq 1$, the corresponding partition functions satisfy $Z_{n}(\U_{1}) > Z_{n}(\U_{j})$ for all $j \neq 1$. The lower bound on $Z_{n}$ is immediate:
+2. Since {--{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\U_{1})--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\mathcal{U}_{1})++} < {--{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\U_{j})$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\mathcal{U}_{j})$++} for all $j \neq 1$, the corresponding partition functions satisfy {--{"author":"Elias's AI","timestamp":1786983916254}@@$Z_{n}(\U_{1})--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$Z_{n}(\mathcal{U}_{1})++} > {--{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}(\U_{j})$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}(\mathcal{U}_{j})$++} for all $j \neq 1$. The lower bound on $Z_{n}$ is immediate:
 
 $$
-Z_{n} = \sum_{j=1}^{k}Z_{n}(\U_{j}) > Z_{n}(\U_{1}).
+Z_{n} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\sum_{j=1}^{k}Z_{n}(\U_{j})--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\sum_{j=1}^{k}Z_{n}(\mathcal{U}_{j})++} > {--{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}(\U_{1}).--}{++{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}(\mathcal{U}_{1}).++}
 $$
 
-For the upper bound, since each $Z_{n}(\U_{j}) < Z_{n}(\U_{1})$,
+For the upper bound, since each {--{"author":"Elias's AI","timestamp":1786983916254}@@$Z_{n}(\U_{j})--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$Z_{n}(\mathcal{U}_{j})++} < {--{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}(\U_{1})$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}(\mathcal{U}_{1})$,++}
 
 $$
-Z_{n} = \sum_{j=1}^{k}Z_{n}(\U_{j}) < k \cdot Z_{n}(\U_{1}).
+Z_{n} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\sum_{j=1}^{k}Z_{n}(\U_{j})--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\sum_{j=1}^{k}Z_{n}(\mathcal{U}_{j})++} < k \cdot {--{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}(\U_{1}).--}{++{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}(\mathcal{U}_{1}).++}
 $$
 
 Taking $-\log$ (which reverses the inequalities) yields
 
 $$
-F_{n}(\U_{1}) - \log k < F_{n} < F_{n}(\U_{1}).
+{--{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\U_{1})--}{++{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\mathcal{U}_{1})++} - \log k < F_{n} < {--{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\U_{1}).--}{++{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\mathcal{U}_{1}).++}
 $$
 
-The overall free energy is therefore determined by the region with the lowest local free energy, up to a correction of at most $\log k$. In particular, if the gap $F_{n}(\U_{j}) - F_{n}(\U_{1})$ grows with $n$ while $k$ remains fixed, then $F_{n} \to F_{n}(\U_{1})$.
+The overall free energy is therefore determined by the region with the lowest local free energy, up to a correction of at most $\log k$. In particular, if the gap {--{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\U_{j})--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\mathcal{U}_{j})++} - {--{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\U_{1})$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\mathcal{U}_{1})$++} grows with $n$ while $k$ remains fixed, then $F_{n} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\U_{1})$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\mathcal{U}_{1})$.++}
 
 :::
 
-\## 2. What is degeneracy? ^2-what-is-degeneracy
+\## 2. What is degeneracy?{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^2-what-is-degeneracy--}
 
 In this section, we define degeneracy as a property of parameter–function maps, and study the relationship between this property and other similar notions.
 
-\### 2.1 A definition of degeneracy ^21-a-definition-of-degeneracy
+\### 2.1 A definition of degeneracy{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^21-a-definition-of-degeneracy--}
 
-Consider a neural network architecture with parameter space $\W \subseteq \R^{d}$ and parameter–function map $\Phi : \W \to \F$ ($w \mapsto f_{w}$). Say the parameter–function map is **degenerate at $w\in\W$** if there is a non-zero vector $v \in \R^{d}$ such that the directional derivative of the parameter–function map in the direction $v$ is zero:
+Consider a neural network architecture with parameter space {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} \subseteq {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{d}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{d}$++} and parameter–function map $\Phi : {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\F$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{F}$++} ($w \mapsto f_{w}$). Say the parameter–function map is **degenerate at {--{"author":"Elias's AI","timestamp":1786983916254}@@$w\in\W$**--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$w\in\mathcal{W}$**++} if there is a non-zero vector $v \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{d}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{d}$++} such that the directional derivative of the parameter–function map in the direction $v$ is zero:
 
 
 $$
@@ -721,7 +721,7 @@ $$
 ^eq-degeneracy
 
 
-The directional derivative $D_{v} \Phi(w)$ for non-zero $v \in \R^{d}$ may be defined variously as
+The directional derivative $D_{v} \Phi(w)$ for non-zero $v \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{d}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{d}$++} may be defined variously as
 
 
 $$
@@ -732,9 +732,9 @@ $$
 ^eq-directional-derivative
 
 
-We conventionally define $D_{0} \Phi(w) = 0$. Note that $w$ is fixed, but the directional derivative is still a function (of the same type as $\Phi(w)$; $D_{v} \Phi(w) : \X \to \Y$), since it represents an infinitesimal change in $\Phi(w)$ in response to a change in $w$ in the direction $v$. In [[#^eq-degeneracy|(19)]] we mean that this function is identically zero for all inputs $x \in \X$ for the given $w \in \W$.
+We conventionally define $D_{0} \Phi(w) = 0$. Note that $w$ is fixed, but the directional derivative is still a function (of the same type as $\Phi(w)$; $D_{v} \Phi(w) : {--{"author":"Elias's AI","timestamp":1786983916254}@@\X--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\Y$),--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{Y}$),++} since it represents an infinitesimal change in $\Phi(w)$ in response to a change in $w$ in the direction $v$. In [[#^eq-degeneracy|(19)]] we mean that this function is identically zero for all inputs $x \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\X$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}$++} for the given $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$.++}
 
-Intuitively, the parameter–function map is degenerate at $w \in \W$ if there is a direction in which we can infinitesimally perturb $w$ without changing the function $f_{w}$.
+Intuitively, the parameter–function map is degenerate at $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$++} if there is a direction in which we can infinitesimally perturb $w$ without changing the function $f_{w}$.
 
 This definition of degeneracy applies to a single point in parameter space. As we shall soon see, it may be the case that the parameter–function map is degenerate at some points but not at others. We can clarify the situation with new terminology.
 
@@ -746,7 +746,7 @@ By convention, if we say that the parameter–function map is simply **degenerat
 The following exercises explore this definition in some toy parametrisations of a simple function class (constants), displaying in the simplest possible setting some basic forms of degeneracy that will arise repeatedly throughout the tutorial.
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 2.1 (Parametrising the space of constants).** Let $\X = \{\ast\}$ and $\Y = \R$, so that we have a hypothesis class of constants. Consider the scalar parameter space $\W = \R$ and the parameter function map that maps $w$ to $f_{w} = w$ (the output is just the parameter itself).
+**Exercise 2.1 (Parametrising the space of constants).** Let {--{"author":"Elias's AI","timestamp":1786983916254}@@$\X--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{X}++} = \{\ast\}$ and {--{"author":"Elias's AI","timestamp":1786983916254}@@$\Y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{Y}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$,++} so that we have a hypothesis class of constants. Consider the scalar parameter space {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$++} and the parameter function map that maps $w$ to $f_{w} = w$ (the output is just the parameter itself).
 
 **(a)** What is the directional derivative of the parameter–function map in direction $v = 1$?
 ::::callout {title="Hint" tone="amber" collapse="closed"}
@@ -763,17 +763,17 @@ What kind of derivative does this reduce to?
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-1. Since $\W = \R$ is one-dimensional, the directional derivative in direction $v = 1$ reduces to the ordinary derivative:
+1. Since {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$++} is one-dimensional, the directional derivative in direction $v = 1$ reduces to the ordinary derivative:
 
 $$
 \frac{\partial \Phi}{\partial w}= \frac{d}{dw}w = 1.
 $$
-2. The directional derivative is $1 \neq 0$ for all $w \in \W$. Therefore, the parameter–function map is *not degenerate* at any point.
+2. The directional derivative is $1 \neq 0$ for all $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$.++} Therefore, the parameter–function map is *not degenerate* at any point.
 
 :::
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 2.2 (Degeneracy from raising a parameter to a power).** Again, consider a hypothesis class of constants and the scalar parameter space $\W = \R$. This time, define a parameter function map that maps $w$ to $f_{w} = w^{3}$.
+**Exercise 2.2 (Degeneracy from raising a parameter to a power).** Again, consider a hypothesis class of constants and the scalar parameter space {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$.++} This time, define a parameter function map that maps $w$ to $f_{w} = w^{3}$.
 
 **(a)** Show that this architecture indexes exactly the same hypothesis class as the architecture described in [[#^ex-univariate-degeneracy|Exercise 2.1]].
 
@@ -792,7 +792,7 @@ What kind of derivative does this reduce to?
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-1. The hypothesis class of [[#^ex-univariate-degeneracy|Exercise 2.1]] is $\F = \{f_{w} = w : w \in \R\} = \R$. The hypothesis class here is $\F = \{f_{w} = w^{3} : w \in \R\}$. Since $w \mapsto w^{3}$ is a bijection on $\R$, as $w$ ranges over $\R$, $w^{3}$ takes every real value exactly once. So $\F = \R$ in both cases.
+1. The hypothesis class of [[#^ex-univariate-degeneracy|Exercise 2.1]] is {--{"author":"Elias's AI","timestamp":1786983916254}@@$\F--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{F}++} = \{f_{w} = w : w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R\}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}\}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$.++} The hypothesis class here is {--{"author":"Elias's AI","timestamp":1786983916254}@@$\F--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{F}++} = \{f_{w} = w^{3} : w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R\}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}\}$.++} Since $w \mapsto w^{3}$ is a bijection on {--{"author":"Elias's AI","timestamp":1786983916254}@@$\R$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathbb{R}$,++} as $w$ ranges over {--{"author":"Elias's AI","timestamp":1786983916254}@@$\R$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathbb{R}$,++} $w^{3}$ takes every real value exactly once. So {--{"author":"Elias's AI","timestamp":1786983916254}@@$\F--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{F}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$++} in both cases.
 2. The directional derivative in direction $v = 1$ is the ordinary derivative:
 
 $$
@@ -803,7 +803,7 @@ $$
 :::
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 2.3 (Degeneracy from multiplying two parameters together).** Again, consider a hypothesis class of constants. Consider this time the two-dimensional parameter space $\W = \R^{2}$. Define a parameter function map that maps $w = (a, b)$ to $f_{w} = a \cdot b$.
+**Exercise 2.3 (Degeneracy from multiplying two parameters together).** Again, consider a hypothesis class of constants. Consider this time the two-dimensional parameter space {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{2}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{2}$.++} Define a parameter function map that maps $w = (a, b)$ to $f_{w} = a \cdot b$.
 
 **(a)** Show that this architecture indexes exactly the same hypothesis class as the architecture described in [[#^ex-univariate-degeneracy|Exercise 2.1]].
 
@@ -831,7 +831,7 @@ what kind of derivative does this reduce to?
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-1. The hypothesis class is $\F = \{f_{w} = ab : (a, b) \in \R^{2}\} = \R$, since for any target $c \in \R$ we can choose, e.g., $a = c$ and $b = 1$. This is the same as in [[#^ex-univariate-degeneracy|Exercise 2.1]].
+1. The hypothesis class is {--{"author":"Elias's AI","timestamp":1786983916254}@@$\F--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{F}++} = \{f_{w} = ab : (a, b) \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{2}\}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{2}\}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$,++} since for any target $c \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$++} we can choose, e.g., $a = c$ and $b = 1$. This is the same as in [[#^ex-univariate-degeneracy|Exercise 2.1]].
 2. The directional derivative in direction $v = (1, 0)$ is the partial derivative with respect to $a$:
 
 $$
@@ -859,7 +859,7 @@ Therefore, the parameter–function map is degenerate *everywhere*. Note that th
 :::
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 2.4 (Degeneracy from adding two parameters together).** Again, consider a hypothesis class of constants. Consider this time the two-dimensional parameter space $\W = \R^{2}$. Define a parameter function map that maps $w = (a, b)$ to $f_{w} = a + b$.
+**Exercise 2.4 (Degeneracy from adding two parameters together).** Again, consider a hypothesis class of constants. Consider this time the two-dimensional parameter space {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{2}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{2}$.++} Define a parameter function map that maps $w = (a, b)$ to $f_{w} = a + b$.
 
 **(a)** Show that this architecture indexes exactly the same hypothesis class as the architecture described in [[#^ex-univariate-degeneracy|Exercise 2.1]].
 
@@ -873,32 +873,32 @@ Therefore, the parameter–function map is degenerate *everywhere*. Note that th
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-1. The hypothesis class is $\F = \{f_{w} = a + b : (a, b) \in \R^{2}\} = \R$, since for any target $c \in \R$ we can choose, e.g., $a = c$ and $b = 0$. This is the same as in [[#^ex-univariate-degeneracy|Exercise 2.1]].
+1. The hypothesis class is {--{"author":"Elias's AI","timestamp":1786983916254}@@$\F--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{F}++} = \{f_{w} = a + b : (a, b) \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{2}\}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{2}\}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$,++} since for any target $c \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$++} we can choose, e.g., $a = c$ and $b = 0$. This is the same as in [[#^ex-univariate-degeneracy|Exercise 2.1]].
 2. The direction $v = (1, -1)$ has $\|v\| = \sqrt{2}$, so by [[#^eq-directional-derivative|(20)]] the directional derivative is
 
 $$
 \frac{1}{\sqrt{2}}\left( 1 \cdot \frac{\partial}{\partial a}(a + b) + (-1) \cdot \frac{\partial}{\partial b}(a + b) \right) = \frac{1}{\sqrt{2}}(1 - 1) = 0.
 $$
-3. The direction $v = (1, -1)$ gives a zero directional derivative at *every* point $(a, b) \in \W$. Therefore, the parameter–function map is everywhere degenerate. This reflects the fact that the map $(a, b) \mapsto a + b$ has a global continuous symmetry: translating along the direction $(1, -1)$ does not change the output.
+3. The direction $v = (1, -1)$ gives a zero directional derivative at *every* point $(a, b) \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$.++} Therefore, the parameter–function map is everywhere degenerate. This reflects the fact that the map $(a, b) \mapsto a + b$ has a global continuous symmetry: translating along the direction $(1, -1)$ does not change the output.
 
 :::
 
-\### 2.2 Degeneracy and continuous symmetries ^22-degeneracy-and-continuous-symmetries
+\### 2.2 Degeneracy and continuous symmetries{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^22-degeneracy-and-continuous-symmetries--}
 
 A common source of degeneracy in neural network architectures is the presence of continuous symmetries of the parameter–function map. A continuous symmetry traces out a curve of functionally equivalent parameters. The tangent to this curve is a degenerate direction. In this section, we will explore this kind of symmetry and some examples from deep learning.
 
-A **symmetry** of a parameter–function map $\Phi$ is a transformation of parameter space that maps parameters while preserving the implemented function. That is, a transformation $T : \W \to \W$ is a symmetry if for all $w \in \W$, we have $\Phi(w) = \Phi(T(w))$ ($f_{w} = f_{T(w)}$).
+A **symmetry** of a parameter–function map $\Phi$ is a transformation of parameter space that maps parameters while preserving the implemented function. That is, a transformation $T : {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$++} is a symmetry if for all $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$,++} we have $\Phi(w) = \Phi(T(w))$ ($f_{w} = f_{T(w)}$).
 
-A **continuous symmetry** of a parameter–function map $\Phi$ is a family of transformations $\{T_{t} : \W \to \W\}_{t \in \R}$ indexed by a parameter $t\in\R$, such that
+A **continuous symmetry** of a parameter–function map $\Phi$ is a family of transformations $\{T_{t} : {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\W\}_{t--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}\}_{t++} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}}$++} indexed by a parameter {--{"author":"Elias's AI","timestamp":1786983916254}@@$t\in\R$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$t\in\mathbb{R}$,++} such that
 
-1. $T_{t}$ is a symmetry ($\Phi \circ T_{t} = \Phi$) for all $t \in \R$,
-2. $T_{0}$ is the identity transformation on $\W$, and
-3. The map $t \mapsto T_{t}(w)$ is differentiable for each $w \in \W$.
+1. $T_{t}$ is a symmetry ($\Phi \circ T_{t} = \Phi$) for all $t \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$,++}
+2. $T_{0}$ is the identity transformation on {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}$,++} and
+3. The map $t \mapsto T_{t}(w)$ is differentiable for each $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$.++}
 
 The continuous symmetry is **trivial at $w$** if $\left.\frac{d}{dt}\right|_{t=0}T_{t}(w) = 0$, or else **non-trivial at $w$**.
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 2.5 (Continuous symmetry example).** Recall the parameter–function map from [[#^ex-sum-degeneracy|Exercise 2.4]], with $\W = \R^{2}$ and with $(a, b) \in \W$ mapping to the constant function $f_{a,b}= a + b$. Consider the family of transformations $T_{t} : \W \to \W$ for $t \in \R$ such that
+**Exercise 2.5 (Continuous symmetry example).** Recall the parameter–function map from [[#^ex-sum-degeneracy|Exercise 2.4]], with {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{2}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{2}$++} and with $(a, b) \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$++} mapping to the constant function $f_{a,b}= a + b$. Consider the family of transformations $T_{t} : {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$++} for $t \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$++} such that
 
 $$
 T_{t}(a, b) = (a + t, b - t).
@@ -916,13 +916,13 @@ $$
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-1. The transformation $T_{t}$ translates the parameter $(a, b)$ by $t$ in the direction $(1, -1)$. The orbit of any parameter $(a, b)$ under this family is the line $\{(a + t, b - t) : t \in \R\}$, which has slope $-1$ in the $(a, b)$-plane.
+1. The transformation $T_{t}$ translates the parameter $(a, b)$ by $t$ in the direction $(1, -1)$. The orbit of any parameter $(a, b)$ under this family is the line $\{(a + t, b - t) : t \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R\}$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}\}$,++} which has slope $-1$ in the $(a, b)$-plane.
 2. We verify the three conditions of a continuous symmetry.
 
 1. Symmetry: $\Phi(T_{t}(a, b)) = (a + t) + (b - t) = a + b = \Phi(a, b)$ for all $(a, b)$ and $t$.
 2. Identity: $T_{0}(a, b) = (a + 0, b - 0) = (a, b)$.
 3. Differentiability: $t \mapsto T_{t}(a, b) = (a + t, b - t)$ is linear in $t$, hence differentiable.
-3. We have $\frac{d}{dt}T_{t}(a, b) = (1, -1)$ for all $t$. In particular, $\left.\frac{d}{dt}\right|_{t=0}T_{t}(a, b) = (1, -1) \neq (0, 0)$ for every $(a, b) \in \W$. So the symmetry is non-trivial at every parameter.
+3. We have $\frac{d}{dt}T_{t}(a, b) = (1, -1)$ for all $t$. In particular, $\left.\frac{d}{dt}\right|_{t=0}T_{t}(a, b) = (1, -1) \neq (0, 0)$ for every $(a, b) \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$.++} So the symmetry is non-trivial at every parameter.
 
 :::
 
@@ -939,7 +939,7 @@ At each parameter, a non-trivial continuous symmetry traces out a curve of funct
 
 :::callout {title="Proof" tone="green" collapse="closed"}
 
-Define the curve in parameter space traced by the continuous symmetry, $\gamma : \R \to \W$ with $\gamma(t) = T_{t}(w)$. Since $T_{t}$ is a continuous symmetry, the derivative along the curve vanishes for all $t$:
+Define the curve in parameter space traced by the continuous symmetry, $\gamma : {--{"author":"Elias's AI","timestamp":1786983916254}@@\R--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$++} with $\gamma(t) = T_{t}(w)$. Since $T_{t}$ is a continuous symmetry, the derivative along the curve vanishes for all $t$:
 
 $$
 \begin{aligned}D_{\gamma'(t)}\Phi(\gamma(t))&\propto \gamma'(t) \cdot \nabla \Phi(\gamma(t)) \\&= \frac{d}{dt}\Phi(\gamma(t)) \quad\text{(chain rule)}\\&= \frac{d}{dt}\Phi(w) \quad\text{(symmetry, $\Phi \circ T_{t} = \Phi$)}\\&= 0. \quad\text{($\Phi(w)$ is constant in $t$)}\end{aligned}
@@ -951,18 +951,18 @@ In particular, at $t=0$, we have $0 = D_{\gamma'(0)}\Phi(\gamma(0)) = D_{\gamma'
 
 :::callout {title="Theorem" tone="purple"}
 
-**Corollary 2.2.** If a parameter–function map $\Phi$ admits a continuous symmetry $\{T_{t}\}$ that is non-trivial at every parameter $w \in \W$, then $\Phi$ is everywhere degenerate.
+**Corollary 2.2.** If a parameter–function map $\Phi$ admits a continuous symmetry $\{T_{t}\}$ that is non-trivial at every parameter $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$,++} then $\Phi$ is everywhere degenerate.
 
 :::
 
 The following exercises exhibit some continuous symmetries in two neural network architectures, a small ReLU MLP and a toy autoencoder. Similar architectures are studied in more detail from an SLT perspective by [[#^bib-carroll2021|Carroll 2021]] and [[#^bib-chen-2023|Chen et al. 2023]] respectively.
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 2.6 (ReLU scaling symmetry).** Consider a two-layer MLP ([[#^eg-mlp|Theorem 1.4]]) with $\sigma = \relu$, scalar inputs and outputs ($m = 1$), and a single hidden unit ($h = 1$). The parameter space is $\W = \R^{2}$ with parameters $(a, b)$, and the parameter–function map is $f_{a,b}(x) = b \cdot \relu(ax)$.
+**Exercise 2.6 (ReLU scaling symmetry).** Consider a two-layer MLP ([[#^eg-mlp|Theorem 1.4]]) with $\sigma = {--{"author":"Elias's AI","timestamp":1786983916254}@@\relu$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{relu}$,++} scalar inputs and outputs ($m = 1$), and a single hidden unit ($h = 1$). The parameter space is {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{2}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{2}$++} with parameters $(a, b)$, and the parameter–function map is $f_{a,b}(x) = b \cdot {--{"author":"Elias's AI","timestamp":1786983916254}@@\relu(ax)$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{relu}(ax)$.++}
 
-**(a)** Show that $\relu$ is *positively homogeneous*: $\relu(\alpha z) = \alpha \, \relu(z)$ for all $\alpha > 0$ and $z \in \R$.
+**(a)** Show that {--{"author":"Elias's AI","timestamp":1786983916254}@@$\relu$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathrm{relu}$++} is *positively homogeneous*: {--{"author":"Elias's AI","timestamp":1786983916254}@@$\relu(\alpha--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathrm{relu}(\alpha++} z) = \alpha \, {--{"author":"Elias's AI","timestamp":1786983916254}@@\relu(z)$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{relu}(z)$++} for all $\alpha > 0$ and $z \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$.++}
 
-**(b)** Define $T_{t}(a, b) = (e^{t} a, \, e^{-t}b)$ for $t \in \R$. Show that $\{T_{t}\}$ is a continuous symmetry of this parameter–function map.
+**(b)** Define $T_{t}(a, b) = (e^{t} a, \, e^{-t}b)$ for $t \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$.++} Show that $\{T_{t}\}$ is a continuous symmetry of this parameter–function map.
 
 **(c)** For a fixed parameter $(a, b) \neq (0, 0)$, compute the degenerate direction arising from this symmetry at $(a, b)$.
 
@@ -974,13 +974,13 @@ The following exercises exhibit some continuous symmetries in two neural network
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-1. We consider three cases. If $z > 0$, then $\alpha z > 0$ (since $\alpha > 0$), so $\relu(\alpha z) = \alpha z = \alpha \relu(z)$. If $z = 0$, then $\relu(\alpha \cdot 0) = 0 = \alpha \cdot 0 = \alpha \relu(z)$. If $z < 0$, then $\alpha z < 0$, so $\relu(\alpha z) = 0 = \alpha \cdot 0 = \alpha \relu(z)$.
+1. We consider three cases. If $z > 0$, then $\alpha z > 0$ (since $\alpha > 0$), so {--{"author":"Elias's AI","timestamp":1786983916254}@@$\relu(\alpha--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathrm{relu}(\alpha++} z) = \alpha z = \alpha {--{"author":"Elias's AI","timestamp":1786983916254}@@\relu(z)$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{relu}(z)$.++} If $z = 0$, then {--{"author":"Elias's AI","timestamp":1786983916254}@@$\relu(\alpha--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathrm{relu}(\alpha++} \cdot 0) = 0 = \alpha \cdot 0 = \alpha {--{"author":"Elias's AI","timestamp":1786983916254}@@\relu(z)$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{relu}(z)$.++} If $z < 0$, then $\alpha z < 0$, so {--{"author":"Elias's AI","timestamp":1786983916254}@@$\relu(\alpha--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathrm{relu}(\alpha++} z) = 0 = \alpha \cdot 0 = \alpha {--{"author":"Elias's AI","timestamp":1786983916254}@@\relu(z)$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{relu}(z)$.++}
 2. We verify the three conditions.
 
 1. Symmetry: using positive homogeneity with $\alpha = e^{t} > 0$,
 
 $$
-f_{T_t(a,b)}(x) = e^{-t}b \cdot \relu(e^{t} a x) = e^{-t}b \cdot e^{t} \relu(ax) = b \cdot \relu(ax) = f_{a,b}(x).
+f_{T_t(a,b)}(x) = e^{-t}b \cdot {--{"author":"Elias's AI","timestamp":1786983916254}@@\relu(e^{t}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{relu}(e^{t}++} a x) = e^{-t}b \cdot e^{t} {--{"author":"Elias's AI","timestamp":1786983916254}@@\relu(ax)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{relu}(ax)++} = b \cdot {--{"author":"Elias's AI","timestamp":1786983916254}@@\relu(ax)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{relu}(ax)++} = f_{a,b}(x).
 $$
 2. Identity: $T_{0}(a, b) = (e^{0} a,\, e^{0} b) = (a, b)$.
 3. Differentiability: $t \mapsto (e^{t} a,\, e^{-t}b)$ is smooth.
@@ -996,7 +996,7 @@ Since $(a, b) \neq (0, 0)$, we have $(a, -b) \neq (0, 0)$, so this is a non-zero
 The parameter–function map is nonetheless degenerate at the origin. Both partial derivatives of $\Phi$ vanish there:
 
 $$
-\begin{aligned}\frac{\partial}{\partial a}f_{a,b}(x) \bigg|_{(0,0)}&= \lim_{\epsilon \to 0}\frac{f_{\epsilon, 0}(x) - f_{0,0}(x)}{\epsilon}= \lim_{\epsilon \to 0}\frac{0 \cdot \relu(\epsilon x)}{\epsilon}= 0, \\ \frac{\partial}{\partial b}f_{a,b}(x) \bigg|_{(0,0)}&= \relu(0 \cdot x) = 0.\end{aligned}
+\begin{aligned}\frac{\partial}{\partial a}f_{a,b}(x) \bigg|_{(0,0)}&= \lim_{\epsilon \to 0}\frac{f_{\epsilon, 0}(x) - f_{0,0}(x)}{\epsilon}= \lim_{\epsilon \to 0}\frac{0 \cdot {--{"author":"Elias's AI","timestamp":1786983916254}@@\relu(\epsilon--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{relu}(\epsilon++} x)}{\epsilon}= 0, \\ \frac{\partial}{\partial b}f_{a,b}(x) \bigg|_{(0,0)}&= {--{"author":"Elias's AI","timestamp":1786983916254}@@\relu(0--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{relu}(0++} \cdot x) = 0.\end{aligned}
 $$
 
 Since $\nabla \Phi(0,0) = 0$, every direction is degenerate at the origin. This degeneracy is not explained by the scaling symmetry.
@@ -1004,15 +1004,15 @@ Since $\nabla \Phi(0,0) = 0$, every direction is degenerate at the origin. This 
 :::
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 2.7 (Rotation symmetry in a linear autoencoder).** Consider a *linear autoencoder* with bottleneck dimension $h$ and ambient dimension $m \geq h$. The parameter space encodes a single matrix $W \in \R^{h \times m}$ and the parameter–function map sends $W$ to the function $\Phi(W) = f_{W} : \R^{m} \to \R^{m}$ where
+**Exercise 2.7 (Rotation symmetry in a linear autoencoder).** Consider a *linear autoencoder* with bottleneck dimension $h$ and ambient dimension $m \geq h$. The parameter space encodes a single matrix $W \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{h--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{h++} \times m}$ and the parameter–function map sends $W$ to the function $\Phi(W) = f_{W} : {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$++} where
 
 $$
 f_{W}(x) = W^{\top} W x
 $$
 
-for $x \in \R^{m}$. Here, $W$ serves simultaneously as encoder ($x \mapsto Wx \in \R^{h}$) and decoder ($z \mapsto W^{\top} z \in \R^{m}$).
+for $x \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$.++} Here, $W$ serves simultaneously as encoder ($x \mapsto Wx \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{h}$)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{h}$)++} and decoder ($z \mapsto W^{\top} z \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$).--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$).++}
 
-**(a)** Show that for any orthogonal matrix $R \in \R^{h \times h}$ (i.e., any $h \times h$ matrix such that $R^{\top} R = I$), the map $T_{R}(W) = RW$ is a symmetry.
+**(a)** Show that for any orthogonal matrix $R \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{h--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{h++} \times h}$ (i.e., any $h \times h$ matrix such that $R^{\top} R = I$), the map $T_{R}(W) = RW$ is a symmetry.
 
 **(b)** Specialise to $h = 2$. Using the rotation matrices
 
@@ -1022,7 +1022,7 @@ $$
 
 show that $T_{\theta}(W) = R(\theta) W$ defines a continuous symmetry.
 
-**(c)** For a fixed parameter $W \in \R^{2 \times m}$, compute the degenerate direction that arises from this symmetry.
+**(c)** For a fixed parameter $W \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{2--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{2++} \times m}$, compute the degenerate direction that arises from this symmetry.
 
 **(d)** For general bottleneck dimension $h$, how many independent continuous symmetries does the orthogonal group $O(h)$ contribute?
 ::::callout {title="Hint" tone="amber" collapse="closed"}
@@ -1065,7 +1065,7 @@ $$
 R'(\theta) = \begin{pmatrix}-\sin\theta & -\cos\theta \\ \cos\theta & -\sin\theta\end{pmatrix}, \qquad R'(0) = \begin{pmatrix}0 & -1 \\ 1 & 0\end{pmatrix}.
 $$
 
-Writing $W = \begin{pmatrix}w_{1}^{\top} \\ w_{2}^{\top}\end{pmatrix}$ where $w_{1}, w_{2} \in \R^{m}$ are the two rows, the degenerate direction is the matrix
+Writing $W = \begin{pmatrix}w_{1}^{\top} \\ w_{2}^{\top}\end{pmatrix}$ where $w_{1}, w_{2} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$++} are the two rows, the degenerate direction is the matrix
 
 $$
 R'(0)\, W = \begin{pmatrix}-w_{2}^{\top} \\ w_{1}^{\top}\end{pmatrix},
@@ -1084,7 +1084,7 @@ So $O(h)$ contributes $\frac{h(h-1)}{2}$ independent continuous symmetries. For 
 
 :::
 
-\### 2.3 Localised degeneracy ^23-localised-degeneracy
+\### 2.3 Localised degeneracy{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^23-localised-degeneracy--}
 
 We have seen that a non-trivial continuous symmetry traces out curves of functionally equivalent parameters throughout the entire parameter space, and the tangent directions to these curves are degenerate directions at every point. However, not all degenerate directions arise from globally continuous symmetries. In fact, the more interesting case is when degeneracy affects only some parameters and not others.
 
@@ -1093,7 +1093,7 @@ Within certain subsets of parameter space, many neural network architectures (in
 We begin with some examples of transformations that are only continuous symmetries within certain subsets of parameter space.
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 2.8 (Localised symmetry example).** Recall the parameter–function map from [[#^ex-product-degeneracy|Exercise 2.3]], with $\W = \R^{2}$ and with $(a, b) \in \W$ mapping to the constant function $f_{a,b}= a \cdot b$. Consider the two families of transformations $T^{(a)}_{t}, T^{(b)}_{t} : \W \to \W$ for $t \in \R$ such that
+**Exercise 2.8 (Localised symmetry example).** Recall the parameter–function map from [[#^ex-product-degeneracy|Exercise 2.3]], with {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{2}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{2}$++} and with $(a, b) \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$++} mapping to the constant function $f_{a,b}= a \cdot b$. Consider the two families of transformations $T^{(a)}_{t}, T^{(b)}_{t} : {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$++} for $t \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$++} such that
 
 $$
 T^{(a)}_{t}(a, b) = (a + t, b), \qquad\qquad T^{(b)}_{t}(a, b) = (a, b + t) .
@@ -1101,7 +1101,7 @@ $$
 
 **(a)** Describe the effect of each family of transformations on the parameter space.
 
-**(b)** In which subset of parameter space does each family of transformations constitute a symmetry for all $t\in\R$?
+**(b)** In which subset of parameter space does each family of transformations constitute a symmetry for all {--{"author":"Elias's AI","timestamp":1786983916254}@@$t\in\R$?--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$t\in\mathbb{R}$?++}
 
 **(c)** Compare your results to your answer to [[#^ex-product-degeneracy|Exercise 2.3(d)]].
 :::
@@ -1112,9 +1112,9 @@ $$
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 1. $T^{(a)}_{t}$ translates along the $a$-axis: it shifts the first coordinate by $t$ while leaving the second fixed. $T^{(b)}_{t}$ translates along the $b$-axis.
-2. $T^{(a)}_{t}$ is a symmetry at $(a, b)$ for all $t$ if and only if $f_{a+t,b}= f_{a,b}$ for all $t$, i.e., $(a+t)b = ab$ for all $t$. This simplifies to $tb = 0$ for all $t$, which requires $b = 0$. So $\{T^{(a)}_{t}\}$ is a symmetry when restricted to the $a$-axis $\{(a, 0) : a \in \R\}$.
+2. $T^{(a)}_{t}$ is a symmetry at $(a, b)$ for all $t$ if and only if $f_{a+t,b}= f_{a,b}$ for all $t$, i.e., $(a+t)b = ab$ for all $t$. This simplifies to $tb = 0$ for all $t$, which requires $b = 0$. So $\{T^{(a)}_{t}\}$ is a symmetry when restricted to the $a$-axis $\{(a, 0) : a \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R\}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}\}$.++}
 
-Similarly, $\{T^{(b)}_{t}\}$ is a symmetry when restricted to the $b$-axis $\{(0, b) : b \in \R\}$.
+Similarly, $\{T^{(b)}_{t}\}$ is a symmetry when restricted to the $b$-axis $\{(0, b) : b \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R\}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}\}$.++}
 3. From [[#^ex-product-degeneracy|Exercise 2.3(d)]], the coordinate directions $(1, 0)$ and $(0, 1)$ are degenerate precisely on the coordinate axes: $(1, 0)$ is degenerate on $\{b = 0\}$ and $(0, 1)$ is degenerate on $\{a = 0\}$. This matches exactly: the axis $\{b = 0\}$ is where the $a$-translation symmetry acts, providing the degenerate direction $(1, 0)$, and the axis $\{a = 0\}$ is where the $b$-translation symmetry acts, providing $(0, 1)$.
 
 :::
@@ -1122,9 +1122,9 @@ Similarly, $\{T^{(b)}_{t}\}$ is a symmetry when restricted to the $b$-axis $\{(0
 The above example is technically a two-layer DLN with $m=h=1$. Let us now explore localised degeneracy in a general two-layer DLN and then in a non-trivial MLP.
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 2.9 (Degeneracy in the two-layer DLN).** Consider the two-layer DLN from [[#^eg-dln|Theorem 1.3]], with $h=m$. The parameter space encodes two matrices $A, B \in \R^{m \times m}$, and the parameter–function map sends $(A, B)$ to the function $\Phi(A,B) = f_{A,B}: \R^{m} \to \R^{m}$ such that $f_{A,B}(x) = BAx$ for $x \in \R^{m}$.
+**Exercise 2.9 (Degeneracy in the two-layer DLN).** Consider the two-layer DLN from [[#^eg-dln|Theorem 1.3]], with $h=m$. The parameter space encodes two matrices $A, B \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m++} \times m}$, and the parameter–function map sends $(A, B)$ to the function $\Phi(A,B) = f_{A,B}: {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$++} such that $f_{A,B}(x) = BAx$ for $x \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$.++}
 
-**(a)** Let $(\delta\!A, \delta\!B)$ be a unit perturbation in parameter space (a unit vector in the underlying parameter space $\R^{2m^2}$, decoded into a pair of matrices). Show that the directional derivative of the parameter–function map at $(A, B)$ in direction $(\delta\!A, \delta\!B)$ is the linear map
+**(a)** Let $(\delta\!A, \delta\!B)$ be a unit perturbation in parameter space (a unit vector in the underlying parameter space {--{"author":"Elias's AI","timestamp":1786983916254}@@$\R^{2m^2}$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathbb{R}^{2m^2}$,++} decoded into a pair of matrices). Show that the directional derivative of the parameter–function map at $(A, B)$ in direction $(\delta\!A, \delta\!B)$ is the linear map
 
 $$
 D_{(\delta\!A, \delta\!B)}\Phi(A, B) = B\,\delta\!A + \delta\!B\, A.
@@ -1141,7 +1141,7 @@ Use the limit definition, [[#^eq-directional-derivative|(20)]].
 
 **(c)** Suppose both $A$ and $B$ are invertible. Show that $(\delta\!A, \delta\!B)$ is a degenerate direction if and only if $\delta\!B = -B\,\delta\!A\, A^{-1}$. Count the number of dimensions in the subspace of degenerate directions.
 
-**(d)** Now consider the general case. Fix $A$ and $B$, and let $r_{A} = \rank(A)$ and $r_{B} = \rank(B)$. Show that the dimensionality of the space of degenerate directions is
+**(d)** Now consider the general case. Fix $A$ and $B$, and let $r_{A} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\rank(A)$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{rank}(A)$++} and $r_{B} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\rank(B)$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{rank}(B)$.++} Show that the dimensionality of the space of degenerate directions is
 
 $$
 m^{2} + (m-r_{A})(m-r_{B}).
@@ -1151,10 +1151,10 @@ $$
 
 The following is a guide to one possible approach.
 
-1. Describe the image of the linear map $T_{A}$ sending $\delta\!B \in \R^{m^2}$ to $\delta\!B\, A \in \R^{m^2}$ in terms of the row space of $A$. Show that the dimensionality of this image (the rank of the linear map $T_{A}$) is $m r_{A}$.
-2. Similarly, describe the image of the linear map $T_{B}$ sending $\delta\!A \in \R^{m^2}$ to $B\, \delta\!A \in \R^{m^2}$ in terms of the column space of $B$. Show that dimensionality of this image (the rank of the linear map $T_{B}$) is $m r_{B}$.
+1. Describe the image of the linear map $T_{A}$ sending $\delta\!B \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m^2}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m^2}$++} to $\delta\!B\, A \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m^2}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m^2}$++} in terms of the row space of $A$. Show that the dimensionality of this image (the rank of the linear map $T_{A}$) is $m r_{A}$.
+2. Similarly, describe the image of the linear map $T_{B}$ sending $\delta\!A \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m^2}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m^2}$++} to $B\, \delta\!A \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m^2}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m^2}$++} in terms of the column space of $B$. Show that dimensionality of this image (the rank of the linear map $T_{B}$) is $m r_{B}$.
 3. Describe the intersection of the images of $T_{A}, T_{B}$ in terms of the row/column spaces of $A, B$. Show that the dimensionality of this intersection is $r_{A} r_{B}$.
-4. Consider a third linear map, $T_{D}$, sending $(\delta\!A, \delta\!B) \in \R^{2m^2}$ to $B\,\delta\!A + \delta\!B\, A \in \R^{m^2}$. Describe the image of this linear map in terms of those of $T_{A}$ and $T_{B}$. Compute the rank of this linear map using Grassmann's identity.
+4. Consider a third linear map, $T_{D}$, sending $(\delta\!A, \delta\!B) \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{2m^2}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{2m^2}$++} to $B\,\delta\!A + \delta\!B\, A \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m^2}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m^2}$.++} Describe the image of this linear map in terms of those of $T_{A}$ and $T_{B}$. Compute the rank of this linear map using Grassmann's identity.
 5. What is the nullity of $T_{D}$? Why is this the same as the dimensionality of the space of degenerate directions?
 
 ::::
@@ -1165,7 +1165,7 @@ The following is a guide to one possible approach.
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-1. Encoding $(A, B)$ and $(\delta\!A, \delta\!B)$ as vectors in the underlying parameter space $\R^{2m^2}$, the directional derivative is
+1. Encoding $(A, B)$ and $(\delta\!A, \delta\!B)$ as vectors in the underlying parameter space {--{"author":"Elias's AI","timestamp":1786983916254}@@$\R^{2m^2}$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathbb{R}^{2m^2}$,++} the directional derivative is
 
 $$
 D_{(\delta\!A, \delta\!B)}\Phi(A, B)(x) = \lim_{\epsilon \to 0}\frac{ f_{A + \epsilon\delta\!A,\, B + \epsilon\delta\!B}(x) - f_{A,B}(x) }{\epsilon}.
@@ -1182,15 +1182,15 @@ Subtracting $f_{A,B}(x) = BAx$, dividing by $\epsilon$, and taking $\epsilon \to
 $$
 D_{(\delta\!A, \delta\!B)}\Phi(A, B)(x) = (B\,\delta\!A + \delta\!B\, A)\,x.
 $$
-2. At $(A, B) = (0, 0)$, part (a) gives $D_{(\delta\!A, \delta\!B)}\Phi(0, 0)(x) = (0 \cdot \delta\!A + \delta\!B \cdot 0)\,x = 0$ for every $(\delta\!A, \delta\!B)$ and every $x$. Every non-zero direction is therefore degenerate. The subspace of degenerate directions is the entire parameter space $\R^{2m^2}$, which has dimension $2m^{2}$.
-3. By part (a), $(\delta\!A, \delta\!B)$ is a degenerate direction if and only if $B\,\delta\!A + \delta\!B\, A = 0$, that is, $\delta\!B\, A = -B\,\delta\!A$. Since $A$ is invertible, right-multiplying by $A^{-1}$ gives $\delta\!B = -B\,\delta\!A\, A^{-1}$. Since $\delta\!A \in \R^{m \times m}$ is free and $\delta\!B$ is uniquely determined, the subspace of degenerate directions has dimension $m^{2}$.
-4. 1. The $i$-th row of $\delta\!B\, A$ is $(\delta\!B)_{i} A$, a linear combination of the rows of $A$. Therefore the image of $T_{A}$ consists of all matrices whose rows lie in the row space of $A$. Each of the $m$ rows can be any vector in the $r_{A}$-dimensional row space, so $\rank(T_{A}) = m\,r_{A}$.
-2. Similarly, the $j$-th column of $B\,\delta\!A$ is $B\,(\delta\!A)^{j}$, a linear combination of the columns of $B$. The image of $T_{B}$ consists of all matrices whose columns lie in the column space of $B$, and $\rank(T_{B}) = m\,r_{B}$.
-3. A matrix lies in $\im(T_{A}) \cap \im(T_{B})$ if and only if its rows lie in the row space of $A$ and its columns lie in the column space of $B$. Such a matrix can be written as $U \Lambda V$ where $U \in \R^{m \times r_B}$ has columns spanning the column space of $B$ and $V \in \R^{r_A \times m}$ has rows spanning the row space of $A$, with $\Lambda \in \R^{r_B \times r_A}$ free. The dimensionality of this intersection is therefore $r_{A}\,r_{B}$.
-4. The image of $T_{D}$ is $\im(T_{D}) = \im(T_{B}) + \im(T_{A})$, since for any $(\delta\!A, \delta\!B)$ we have $T_{D}(\delta\!A, \delta\!B) = T_{B}(\delta\!A) + T_{A}(\delta\!B)$, and conversely any element of $\im(T_{B}) + \im(T_{A})$ can be realised by choosing appropriate $\delta\!A$ and $\delta\!B$. By Grassmann's identity,
+2. At $(A, B) = (0, 0)$, part (a) gives $D_{(\delta\!A, \delta\!B)}\Phi(0, 0)(x) = (0 \cdot \delta\!A + \delta\!B \cdot 0)\,x = 0$ for every $(\delta\!A, \delta\!B)$ and every $x$. Every non-zero direction is therefore degenerate. The subspace of degenerate directions is the entire parameter space {--{"author":"Elias's AI","timestamp":1786983916254}@@$\R^{2m^2}$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathbb{R}^{2m^2}$,++} which has dimension $2m^{2}$.
+3. By part (a), $(\delta\!A, \delta\!B)$ is a degenerate direction if and only if $B\,\delta\!A + \delta\!B\, A = 0$, that is, $\delta\!B\, A = -B\,\delta\!A$. Since $A$ is invertible, right-multiplying by $A^{-1}$ gives $\delta\!B = -B\,\delta\!A\, A^{-1}$. Since $\delta\!A \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m++} \times m}$ is free and $\delta\!B$ is uniquely determined, the subspace of degenerate directions has dimension $m^{2}$.
+4. 1. The $i$-th row of $\delta\!B\, A$ is $(\delta\!B)_{i} A$, a linear combination of the rows of $A$. Therefore the image of $T_{A}$ consists of all matrices whose rows lie in the row space of $A$. Each of the $m$ rows can be any vector in the $r_{A}$-dimensional row space, so {--{"author":"Elias's AI","timestamp":1786983916254}@@$\rank(T_{A})--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathrm{rank}(T_{A})++} = m\,r_{A}$.
+2. Similarly, the $j$-th column of $B\,\delta\!A$ is $B\,(\delta\!A)^{j}$, a linear combination of the columns of $B$. The image of $T_{B}$ consists of all matrices whose columns lie in the column space of $B$, and {--{"author":"Elias's AI","timestamp":1786983916254}@@$\rank(T_{B})--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathrm{rank}(T_{B})++} = m\,r_{B}$.
+3. A matrix lies in {--{"author":"Elias's AI","timestamp":1786983916254}@@$\im(T_{A})--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathrm{im}(T_{A})++} \cap {--{"author":"Elias's AI","timestamp":1786983916254}@@\im(T_{B})$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{im}(T_{B})$++} if and only if its rows lie in the row space of $A$ and its columns lie in the column space of $B$. Such a matrix can be written as $U \Lambda V$ where $U \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m++} \times r_B}$ has columns spanning the column space of $B$ and $V \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{r_A--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{r_A++} \times m}$ has rows spanning the row space of $A$, with $\Lambda \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{r_B--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{r_B++} \times r_A}$ free. The dimensionality of this intersection is therefore $r_{A}\,r_{B}$.
+4. The image of $T_{D}$ is {--{"author":"Elias's AI","timestamp":1786983916254}@@$\im(T_{D})--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathrm{im}(T_{D})++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\im(T_{B})--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{im}(T_{B})++} + {--{"author":"Elias's AI","timestamp":1786983916254}@@\im(T_{A})$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{im}(T_{A})$,++} since for any $(\delta\!A, \delta\!B)$ we have $T_{D}(\delta\!A, \delta\!B) = T_{B}(\delta\!A) + T_{A}(\delta\!B)$, and conversely any element of {--{"author":"Elias's AI","timestamp":1786983916254}@@$\im(T_{B})--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathrm{im}(T_{B})++} + {--{"author":"Elias's AI","timestamp":1786983916254}@@\im(T_{A})$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{im}(T_{A})$++} can be realised by choosing appropriate $\delta\!A$ and $\delta\!B$. By Grassmann's identity,
 
 $$
-\begin{aligned}\rank(T_{D})&= \dim(\im(T_{A}) + \im(T_{B})) \\&= \rank(T_{A}) + \rank(T_{B}) - \dim(\im(T_{A}) \cap \im(T_{B})) \\&= m\,r_{A} + m\,r_{B} - r_{A}\,r_{B}.\end{aligned}
+{--{"author":"Elias's AI","timestamp":1786983916254}@@\begin{aligned}\rank(T_{D})&= \dim(\im(T_{A})--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\begin{aligned}\mathrm{rank}(T_{D})&= \dim(\mathrm{im}(T_{A})++} + {--{"author":"Elias's AI","timestamp":1786983916254}@@\im(T_{B}))--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{im}(T_{B}))++} \\&= {--{"author":"Elias's AI","timestamp":1786983916254}@@\rank(T_{A})--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{rank}(T_{A})++} + {--{"author":"Elias's AI","timestamp":1786983916254}@@\rank(T_{B})--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{rank}(T_{B})++} - {--{"author":"Elias's AI","timestamp":1786983916254}@@\dim(\im(T_{A})--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\dim(\mathrm{im}(T_{A})++} \cap {--{"author":"Elias's AI","timestamp":1786983916254}@@\im(T_{B}))--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{im}(T_{B}))++} \\&= m\,r_{A} + m\,r_{B} - r_{A}\,r_{B}.\end{aligned}
 $$
 5. By the rank–nullity theorem, the nullity of $T_{D}$ is
 
@@ -1203,7 +1203,7 @@ The kernel of $T_{D}$ is exactly the set of $(\delta\!A, \delta\!B)$ such that $
 :::
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 2.10 (Redundant units in an MLP).** Consider a single-hidden-layer MLP with scalar inputs and outputs, $h$ hidden units with activation function $\sigma : \R \to \R$, and an output bias. The parameter space is $\W = \R^{3h+1}$ with parameters $w = (a_{1}, b_{1}, c_{1}, \ldots, a_{h}, b_{h}, c_{h}, d)$, and the parameter–function map is
+**Exercise 2.10 (Redundant units in an MLP).** Consider a single-hidden-layer MLP with scalar inputs and outputs, $h$ hidden units with activation function $\sigma : {--{"author":"Elias's AI","timestamp":1786983916254}@@\R--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$,++} and an output bias. The parameter space is {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{3h+1}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{3h+1}$++} with parameters $w = (a_{1}, b_{1}, c_{1}, \ldots, a_{h}, b_{h}, c_{h}, d)$, and the parameter–function map is
 
 $$
 f_{w}(x) = d + \sum_{i=1}^{h}a_{i} \, \sigma(b_{i} x + c_{i}).
@@ -1259,7 +1259,7 @@ In the direction $(\delta a_{i}, \delta a_{j}) = (1, -1)$, this combined contrib
 
 **Remark (Localised symmetries in neural networks).** Each degenerate direction identified in the exercises above corresponds to a localised symmetry: a curve of functionally equivalent parameters that continuously extends only within a subset of parameter space.
 
-1. In the DLN, the global change-of-basis symmetry $(A, B) \mapsto (G A, B G^{-1})$ for invertible $G \in \R^{m\times m}$ accounts for $m^{2}$ degenerate directions. These directions are present even when $A$ and $B$ have full rank. However, as we showed in [[#^ex-dln-degeneracy|Exercise 2.9]], when $A$ or $B$ drops rank, $(m - r_{A})(m - r_{B})$ additional degenerate directions open up. These extra directions are localised to the rank-deficient region of parameter space.
+1. In the DLN, the global change-of-basis symmetry $(A, B) \mapsto (G A, B G^{-1})$ for invertible $G \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m\times--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m\times++} m}$ accounts for $m^{2}$ degenerate directions. These directions are present even when $A$ and $B$ have full rank. However, as we showed in [[#^ex-dln-degeneracy|Exercise 2.9]], when $A$ or $B$ drops rank, $(m - r_{A})(m - r_{B})$ additional degenerate directions open up. These extra directions are localised to the rank-deficient region of parameter space.
 2. In the MLP, at a parameter with $a_{i} = 0$, the path $t \mapsto (\ldots, a_{i}, b_{i} + t, c_{i}, \ldots)$ traces equivalent parameters within $\{a_{i} = 0\}$ (since $f_{w}$ does not depend on $b_{i}$ when $a_{i} = 0$), but this does not extend to a symmetry at nearby parameters with $a_{i} \neq 0$. Similarly, at a parameter with $(b_{i}, c_{i}) = (b_{j}, c_{j})$, the path transferring weight between units $i$ and $j$ is a localised version of the sum symmetry from [[#^ex-sum-symmetry|Exercise 2.5]].
 
 :::
@@ -1279,11 +1279,11 @@ In the direction $(\delta a_{i}, \delta a_{j}) = (1, -1)$, this combined contrib
 
 :::
 
-\### 2.4 Degeneracy and information singularities ^24-degeneracy-and-information-singularities
+\### 2.4 Degeneracy and information singularities{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^24-degeneracy-and-information-singularities--}
 
-In the preceding sections, we studied degeneracy as a property of parameter–function maps. In the statistical framework introduced in [[#^13-statistical-models-and-parameterdistribution-maps|Subsection 1.3]], the fundamental object is instead a parameter–distribution map $\Psi : \W \to \D$ ($w \mapsto p_{w} : \X \to \Delta(\Y)$). In this section, we extend the definition of degeneracy to parameter–distribution maps and connect it to a classical quantity from statistics, the Fisher information matrix. We will show that under mild regularity conditions on the statistical model, the Fisher information matrix is singular at $w$ (has zero eigenvalues) if and only if the parameter–distribution map is degenerate at $w$.
+In the preceding sections, we studied degeneracy as a property of parameter–function maps. In the statistical framework introduced in {--{"author":"Elias's AI","timestamp":1786983916254}@@[[#^13-statistical-models-and-parameterdistribution-maps|Subsection --}{++{"author":"Elias's AI","timestamp":1786983916254}@@[[#1.3 Statistical models and parameter–distribution maps|Subsection ++}1.3]], the fundamental object is instead a parameter–distribution map $\Psi : {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\D$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{D}$++} ($w \mapsto p_{w} : {--{"author":"Elias's AI","timestamp":1786983916254}@@\X--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\Y)$).--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\Delta(\mathcal{Y})$).++} In this section, we extend the definition of degeneracy to parameter–distribution maps and connect it to a classical quantity from statistics, the Fisher information matrix. We will show that under mild regularity conditions on the statistical model, the Fisher information matrix is singular at $w$ (has zero eigenvalues) if and only if the parameter–distribution map is degenerate at $w$.
 
-Given a parameter–distribution map $\Psi : \W \to \D$, say that $\Psi$ is **degenerate at $w$ in direction $v$** if the conditional density does not change to first order:
+Given a parameter–distribution map $\Psi : {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\D$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{D}$,++} say that $\Psi$ is **degenerate at $w$ in direction $v$** if the conditional density does not change to first order:
 
 
 $$
@@ -1294,26 +1294,26 @@ $$
 ^eq-dist-degeneracy
 
 
-Here, $D_{v} \Psi(w)$ is not a conditional distribution but a signed difference between conditional distributions, effectively a real function of $x$ and $y$ (in particular, it may include negative density changes). We mean that this function is zero for all $x \in \X$ and all $y \in \Y$.
+Here, $D_{v} \Psi(w)$ is not a conditional distribution but a signed difference between conditional distributions, effectively a real function of $x$ and $y$ (in particular, it may include negative density changes). We mean that this function is zero for all $x \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\X$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}$++} and all $y \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\Y$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{Y}$.++}
 
-[[#^eq-dist-degeneracy|Equation 21]] extends the definition of degeneracy from [[#^eq-degeneracy|Equation 19]]. If $\Psi$ is constructed from a parameter–function map $\Phi$ via a noise model (as in [[#^13-statistical-models-and-parameterdistribution-maps|Subsection 1.3]]), then degeneracy of $\Phi$ at $w$ in direction $v$ implies degeneracy of $\Psi$ at $w$ in direction $v$, since $p(y \mid x, w)$ depends on $w$ only through $f_{w}(x)$.
+[[#^eq-dist-degeneracy|Equation 21]] extends the definition of degeneracy from [[#^eq-degeneracy|Equation 19]]. If $\Psi$ is constructed from a parameter–function map $\Phi$ via a noise model (as in {--{"author":"Elias's AI","timestamp":1786983916254}@@[[#^13-statistical-models-and-parameterdistribution-maps|Subsection--}{++{"author":"Elias's AI","timestamp":1786983916254}@@[[#1.3 Statistical models and parameter–distribution maps|Subsection++} 1.3]]), then degeneracy of $\Phi$ at $w$ in direction $v$ implies degeneracy of $\Psi$ at $w$ in direction $v$, since $p(y \mid x, w)$ depends on $w$ only through $f_{w}(x)$.
 
 To relate degeneracy to the Fisher information matrix, we introduce two standard definitions.
 
 :::callout {title="Definition" tone="purple"}
 
-**Definition 2.3 (Score function).** Let $\Psi : \W \to \D$ be a parameter–distribution map with densities $p(y \mid x, w)$ that are positive and differentiable in $w$. The **score function** at $w$ is
+**Definition 2.3 (Score function).** Let $\Psi : {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\D$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{D}$++} be a parameter–distribution map with densities $p(y \mid x, w)$ that are positive and differentiable in $w$. The **score function** at $w$ is
 
 
 $$
-s(x, y, w) = \nabla_{w} \log p(y \mid x, w) \in \R^{d}.
+s(x, y, w) = \nabla_{w} \log p(y \mid x, w) \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{d}.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{d}.++}
 $$
 
 
 ^eq-score
 
 
-The **directional score** in non-zero direction $v \in \R^{d}$ is
+The **directional score** in non-zero direction $v \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{d}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{d}$++} is
 
 
 $$
@@ -1332,9 +1332,9 @@ The directional score measures how sensitive the log-density is to perturbations
 
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 2.11 (Basic properties of the score function).** Let $\Psi : \W \to \D$ be a parameter–distribution map with positive densities $p(y \mid x, w)$, differentiable in $w$. Assume that for each $x$ and $w$, the operations $\nabla_{w}$ and $\int_{\Y} \cdot\, dy$ may be exchanged.
+**Exercise 2.11 (Basic properties of the score function).** Let $\Psi : {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\D$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{D}$++} be a parameter–distribution map with positive densities $p(y \mid x, w)$, differentiable in $w$. Assume that for each $x$ and $w$, the operations $\nabla_{w}$ and {--{"author":"Elias's AI","timestamp":1786983916254}@@$\int_{\Y}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\int_{\mathcal{Y}}++} \cdot\, dy$ may be exchanged.
 
-**(a)** Show that the score function satisfies the following identity: for each $x \in \X$, $y \in \Y$, and $w \in \W$,
+**(a)** Show that the score function satisfies the following identity: for each $x \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\X$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}$,++} $y \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\Y$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{Y}$,++} and $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$,++}
 
 
 $$
@@ -1345,21 +1345,21 @@ $$
 ^eq-score-identity
 
 
-**(b)** Show that the expected score is zero: for each $x \in \X$ and $w \in \W$,
+**(b)** Show that the expected score is zero: for each $x \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\X$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}$++} and $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$,++}
 
 $$
-\E_{y \sim p(y \mid x, w)}\bigl[s(x, y, w)\bigr] = 0.
+{--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{y++} \sim p(y \mid x, w)}\bigl[s(x, y, w)\bigr] = 0.
 $$
 
 ::::callout {title="Hint" tone="amber" collapse="closed"}
 
-Differentiate the identity $\int_{\Y} p(y \mid x, w) \, dy = 1$.
+Differentiate the identity {--{"author":"Elias's AI","timestamp":1786983916254}@@$\int_{\Y}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\int_{\mathcal{Y}}++} p(y \mid x, w) \, dy = 1$.
 
 ::::
 
-**(c)** Show that if $\Psi$ is degenerate at $w$ in direction $v$, then the directional score vanishes identically: $s_{v}(x, y, w) = 0$ for all $x \in \X$ and $y \in \Y$.
+**(c)** Show that if $\Psi$ is degenerate at $w$ in direction $v$, then the directional score vanishes identically: $s_{v}(x, y, w) = 0$ for all $x \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\X$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}$++} and $y \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\Y$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{Y}$.++}
 
-**(d)** Show the converse: if the directional score $s_{v}(x, y, w) = 0$ vanishes for all $x \in \X$ and $y \in \Y$ at $w$, then $\Psi$ is degenerate at $w$ in direction $v$.
+**(d)** Show the converse: if the directional score $s_{v}(x, y, w) = 0$ vanishes for all $x \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\X$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}$++} and $y \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\Y$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{Y}$++} at $w$, then $\Psi$ is degenerate at $w$ in direction $v$.
 :::
 
 ^ex-score-properties
@@ -1374,16 +1374,16 @@ $$
 $$
 
 The left-hand side is $s(x,y,w)$ by definition.
-2. Differentiate the normalisation identity $\int_{\Y} p(y \mid x, w) \, dy = 1$ with respect to $w$:
+2. Differentiate the normalisation identity {--{"author":"Elias's AI","timestamp":1786983916254}@@$\int_{\Y}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\int_{\mathcal{Y}}++} p(y \mid x, w) \, dy = 1$ with respect to $w$:
 
 $$
-0 = \nabla_{w} \int_{\Y} p(y \mid x, w) \, dy = \int_{\Y} \nabla_{w} p(y \mid x, w) \, dy.
+0 = \nabla_{w} {--{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\Y}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\mathcal{Y}}++} p(y \mid x, w) \, dy = {--{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\Y}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\mathcal{Y}}++} \nabla_{w} p(y \mid x, w) \, dy.
 $$
 
 By part (a), $\nabla_{w} p = p \cdot s$, so
 
 $$
-0 = \int_{\Y} p(y \mid x, w)\, s(x, y, w) \, dy = \E_{y \sim p(y \mid x, w)}\bigl[s(x, y, w)\bigr].
+0 = {--{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\Y}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\mathcal{Y}}++} p(y \mid x, w)\, s(x, y, w) \, dy = {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{y++} \sim p(y \mid x, w)}\bigl[s(x, y, w)\bigr].
 $$
 3. If $D_{v} \Psi(w) = 0$, then by the definition of degeneracy [[#^eq-dist-degeneracy|(21)]], $D_{v} p(y \mid x, w) = 0$ for all $x, y$. By part (a), $\nabla_{w} p = p \cdot s$, so contracting both sides with $v / \|v\|$ gives $D_{v} p = p \cdot s_{v}$. Since $p > 0$, we conclude $s_{v}(x, y, w) = 0$ for all $x, y$.
 4. If $s_{v}(x, y, w) = 0$ for all $x, y$, then by part (a),
@@ -1398,11 +1398,11 @@ for all $x, y$ (using $p > 0$). That is, $D_{v} \Psi(w) = 0$.
 
 :::callout {title="Definition" tone="purple"}
 
-**Definition 2.4 (Fisher information matrix).** Let $\Psi : \W \to \D$ be a parameter–distribution map with score function $s$. Let $q(x)$ denote the marginal distribution of inputs. The **Fisher information matrix** $I : \W \to \R^{d \times d}$ is defined by
+**Definition 2.4 (Fisher information matrix).** Let $\Psi : {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\D$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{D}$++} be a parameter–distribution map with score function $s$. Let $q(x)$ denote the marginal distribution of inputs. The **Fisher information matrix** $I : {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{d--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{d++} \times d}$ is defined by
 
 
 $$
-I(w) = \E_{x \sim q(x)}\, \E_{y \sim p(y \mid x, w)}\!\bigl[ s(x,y,w)\, s(x,y,w)^{\top} \bigr].
+I(w) = {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{x--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{x++} \sim q(x)}\, {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{y++} \sim p(y \mid x, w)}\!\bigl[ s(x,y,w)\, s(x,y,w)^{\top} \bigr].
 $$
 
 
@@ -1419,13 +1419,13 @@ The Fisher information matrix is symmetric and positive semidefinite at every $w
 The following exercise shows that singularity of the Fisher information matrix is equivalent to degeneracy of the parameter–distribution map under mild regularity conditions.
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 2.12 (Fisher information and degeneracy).** Let $\Psi : \W \to \D$ be a parameter–distribution map with densities $p(y \mid x, w)$. Assume that $p(y \mid x, w) > 0$ for all $y \in \Y$, $x \in \X$, $w \in \W$, that $w \mapsto p(y \mid x, w)$ is differentiable, and that $q(x) > 0$ for all $x \in \X$.
+**Exercise 2.12 (Fisher information and degeneracy).** Let $\Psi : {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\D$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{D}$++} be a parameter–distribution map with densities $p(y \mid x, w)$. Assume that $p(y \mid x, w) > 0$ for all $y \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\Y$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{Y}$,++} $x \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\X$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}$,++} $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$,++} that $w \mapsto p(y \mid x, w)$ is differentiable, and that $q(x) > 0$ for all $x \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\X$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}$.++}
 
-**(a)** Show that for any unit vector $v \in \R^{d}$,
+**(a)** Show that for any unit vector $v \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{d}$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{d}$,++}
 
 
 $$
-v^{\top} I(w)\, v = \E_{x \sim q(x)}\, \E_{y \sim p(y \mid x, w)}\!\bigl[ s_{v}(x, y, w)^{2} \bigr].
+v^{\top} I(w)\, v = {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{x--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{x++} \sim q(x)}\, {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{y++} \sim p(y \mid x, w)}\!\bigl[ s_{v}(x, y, w)^{2} \bigr].
 $$
 
 
@@ -1449,7 +1449,7 @@ Check the definition of positive definite.
 **(d)** Conclude that
 
 $$
-\ker I(w) = \bigl\{v \in \R^{d} : D_{v} \Psi(w) = 0\bigr\}.
+\ker I(w) = \bigl\{v \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{d}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{d}++} : D_{v} \Psi(w) = 0\bigr\}.
 $$
 
 That is, the null space of the Fisher information matrix is exactly the space of degenerate directions of the parameter–distribution map.
@@ -1463,13 +1463,13 @@ That is, the null space of the Fisher information matrix is exactly the space of
 1. Since $v$ is a unit vector, $s_{v} = D_{v} \log p = \frac{v}{\|v\|}\cdot s = v \cdot s$. From the definition of $I(w)$ in [[#^eq-fim|(26)]],
 
 $$
-\begin{aligned}v^{\top} I(w)\, v&= v^{\top} \E_{x,y}\!\bigl[s\, s^{\top}\bigr]\, v = \E_{x,y}\!\bigl[(v \cdot s)^{2}\bigr] = \E_{x,y}\!\bigl[s_{v}^{2}\bigr] \\&= \E_{x \sim q(x)}\, \E_{y \sim p(y \mid x, w)}\!\bigl[ s_{v}(x,y,w)^{2} \bigr].\end{aligned}
+\begin{aligned}v^{\top} I(w)\, v&= v^{\top} {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{x,y}\!\bigl[s\,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{x,y}\!\bigl[s\,++} s^{\top}\bigr]\, v = {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{x,y}\!\bigl[(v--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{x,y}\!\bigl[(v++} \cdot s)^{2}\bigr] = {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{x,y}\!\bigl[s_{v}^{2}\bigr]--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{x,y}\!\bigl[s_{v}^{2}\bigr]++} \\&= {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{x--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{x++} \sim q(x)}\, {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{y++} \sim p(y \mid x, w)}\!\bigl[ s_{v}(x,y,w)^{2} \bigr].\end{aligned}
 $$
-2. If $D_{v} \Psi(w) = 0$ for some non-zero $v$, then by [[#^ex-score-properties|Exercise 2.11(c)]], $s_{v}(x,y,w) = 0$ for all $x, y$. Let $\hat{v}= v / \|v\|$. Then $s_{\hat{v}}= s_{v}$ (the directional derivative is invariant to the magnitude of $v$), so by part (a), $\hat{v}^{\top} I(w)\, \hat{v}= \E[s_{\hat{v}}^{2}] = 0$. A matrix $M$ is positive definite only if $u^{\top} M u > 0$ for all non-zero $u$. Since $\hat{v}$ is a non-zero vector with $\hat{v}^{\top} I(w)\, \hat{v}= 0$, the matrix $I(w)$ is not positive definite.
-3. If $I(w)$ is not positive definite, then since $I(w)$ is positive semidefinite, there exists a non-zero vector $\hat{v}$ such that $\hat{v}^{\top} I(w)\, \hat{v}= 0$. By part (a) (taking $\hat{v}$ to be a unit vector without loss of generality), $\E[s_{\hat{v}}^{2}] = 0$. Since $s_{\hat{v}}^{2} \geq 0$ and $q(x) > 0$ and $p(y \mid x, w) > 0$, this implies $s_{\hat{v}}(x,y,w) = 0$ for all $x \in \X$ and $y \in \Y$. By [[#^ex-score-properties|Exercise 2.11(d)]], $D_{\hat{v}}\Psi(w) = 0$.
+2. If $D_{v} \Psi(w) = 0$ for some non-zero $v$, then by [[#^ex-score-properties|Exercise 2.11(c)]], $s_{v}(x,y,w) = 0$ for all $x, y$. Let $\hat{v}= v / \|v\|$. Then $s_{\hat{v}}= s_{v}$ (the directional derivative is invariant to the magnitude of $v$), so by part (a), $\hat{v}^{\top} I(w)\, \hat{v}= {--{"author":"Elias's AI","timestamp":1786983916254}@@\E[s_{\hat{v}}^{2}]--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}[s_{\hat{v}}^{2}]++} = 0$. A matrix $M$ is positive definite only if $u^{\top} M u > 0$ for all non-zero $u$. Since $\hat{v}$ is a non-zero vector with $\hat{v}^{\top} I(w)\, \hat{v}= 0$, the matrix $I(w)$ is not positive definite.
+3. If $I(w)$ is not positive definite, then since $I(w)$ is positive semidefinite, there exists a non-zero vector $\hat{v}$ such that $\hat{v}^{\top} I(w)\, \hat{v}= 0$. By part (a) (taking $\hat{v}$ to be a unit vector without loss of generality), {--{"author":"Elias's AI","timestamp":1786983916254}@@$\E[s_{\hat{v}}^{2}]--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathbb{E}[s_{\hat{v}}^{2}]++} = 0$. Since $s_{\hat{v}}^{2} \geq 0$ and $q(x) > 0$ and $p(y \mid x, w) > 0$, this implies $s_{\hat{v}}(x,y,w) = 0$ for all $x \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\X$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}$++} and $y \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\Y$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{Y}$.++} By [[#^ex-score-properties|Exercise 2.11(d)]], $D_{\hat{v}}\Psi(w) = 0$.
 4. Parts (b) and (c) show that $I(w)$ is positive definite if and only if $\Psi$ is non-degenerate at $w$, or equivalently, $I(w)$ is singular if and only if $\Psi$ is degenerate at $w$.
 
-For the kernel characterisation: clearly $0 \in \ker I(w)$. For non-zero $v$, $v \in \ker I(w)$ means $I(w)\,v = 0$, which (since $I(w)$ is positive semidefinite) is equivalent to $v^{\top} I(w)\, v = 0$. Normalising to $\hat{v}= v/\|v\|$, part (a) gives $\E[s_{\hat{v}}^{2}] = 0$, which as in part (c) implies $s_{\hat{v}}= 0$ everywhere. By [[#^ex-score-properties|Exercise 2.11(d)]], $D_{\hat{v}}\Psi(w) = 0$, and hence $D_{v} \Psi(w) = 0$. Conversely, if $D_{v} \Psi(w) = 0$ for non-zero $v$, then [[#^ex-score-properties|Exercise 2.11(c)]] gives $s_{v} = 0$, so $v^{\top} I(w)\, v = \|v\|^{2} \E[s_{v}^{2}] = 0$, hence $I(w)\, v = 0$. Therefore $\ker I(w) = \{v \in \R^{d} : D_{v} \Psi(w) = 0\}$.
+For the kernel characterisation: clearly $0 \in \ker I(w)$. For non-zero $v$, $v \in \ker I(w)$ means $I(w)\,v = 0$, which (since $I(w)$ is positive semidefinite) is equivalent to $v^{\top} I(w)\, v = 0$. Normalising to $\hat{v}= v/\|v\|$, part (a) gives {--{"author":"Elias's AI","timestamp":1786983916254}@@$\E[s_{\hat{v}}^{2}]--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathbb{E}[s_{\hat{v}}^{2}]++} = 0$, which as in part (c) implies $s_{\hat{v}}= 0$ everywhere. By [[#^ex-score-properties|Exercise 2.11(d)]], $D_{\hat{v}}\Psi(w) = 0$, and hence $D_{v} \Psi(w) = 0$. Conversely, if $D_{v} \Psi(w) = 0$ for non-zero $v$, then [[#^ex-score-properties|Exercise 2.11(c)]] gives $s_{v} = 0$, so $v^{\top} I(w)\, v = \|v\|^{2} {--{"author":"Elias's AI","timestamp":1786983916254}@@\E[s_{v}^{2}]--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}[s_{v}^{2}]++} = 0$, hence $I(w)\, v = 0$. Therefore $\ker I(w) = \{v \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{d}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{d}++} : D_{v} \Psi(w) = 0\}$.
 
 :::
 
@@ -1477,8 +1477,8 @@ For the kernel characterisation: clearly $0 \in \ker I(w)$. For non-zero $v$, $v
 
 **Remark (Watanabe's strictly singular models).** [[#^bib-watanabe2009|Watanabe 2009]] defines a statistical model as *strictly singular* if either of two conditions hold:
 
-1. The Fisher information matrix $I(w)$ is singular for some $w \in \W$.
-2. The parameter–distribution map is not one-to-one, that is, for some $w, w' \in \W$ such that $w \neq w'$, we have $\Psi(w) = \Psi(w')$.
+1. The Fisher information matrix $I(w)$ is singular for some $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$.++}
+2. The parameter–distribution map is not one-to-one, that is, for some $w, w' \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$++} such that $w \neq w'$, we have $\Psi(w) = \Psi(w')$.
 
 By [[#^ex-fim-degeneracy|Exercise 2.12]], under mild regularity conditions, the first condition is equivalent to our notion of (somewhere) degeneracy. The second condition is called non-identifiability.
 
@@ -1489,20 +1489,20 @@ By [[#^ex-fim-degeneracy|Exercise 2.12]], under mild regularity conditions, the 
 ^rem-strictly-singular
 
 
-\### 2.5 Degeneracy and the loss landscape ^25-degeneracy-and-the-loss-landscape
+\### 2.5 Degeneracy and the loss landscape{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^25-degeneracy-and-the-loss-landscape--}
 
 In the preceding sections, we studied degeneracy as a property of parameter–function maps and parameter–distribution maps. We now consider the implications of degeneracy in these maps for the *loss landscape* in which deep learning algorithms operate.
 
-Recall the definitions of loss functions from [[#^1-preliminaries|Section 1]]. In what follows, we assume that the per-example loss $L_{x,y}(w)$ depends on $w$ only through $\Phi(w)$, and work with the population loss $L(w) = \E_{(x,y) \sim q}[L_{x,y}(w)]$. For statistical models, we use the expected negative log likelihood $L(w) = \E_{(x,y) \sim q}[-\log p(y \mid x, w)]$ as our loss function. In either case, we assume that $L$ is twice-differentiable with respect to $w$.
+Recall the definitions of loss functions from {--{"author":"Elias's AI","timestamp":1786983916254}@@[[#^1-preliminaries|Section--}{++{"author":"Elias's AI","timestamp":1786983916254}@@[[#1. Preliminaries|Section++} 1]]. In what follows, we assume that the per-example loss $L_{x,y}(w)$ depends on $w$ only through $\Phi(w)$, and work with the population loss $L(w) = {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{(x,y)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{(x,y)++} \sim q}[L_{x,y}(w)]$. For statistical models, we use the expected negative log likelihood $L(w) = {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{(x,y)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{(x,y)++} \sim q}[-\log p(y \mid x, w)]$ as our loss function. In either case, we assume that $L$ is twice-differentiable with respect to $w$.
 
 Let us begin with some basic observations about the relationship between degeneracy in parameter–function maps and directional derivatives in the loss landscape.
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 2.13 (Directional derivatives of the loss).** Let $L : \W \to \R$ be a population loss function satisfying the assumptions described above.
+**Exercise 2.13 (Directional derivatives of the loss).** Let $L : {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$++} be a population loss function satisfying the assumptions described above.
 
 **(a)** Show that if $\Phi$ is degenerate at $w$ in direction $v$, then the directional derivative of the loss vanishes in the same direction: $D_{v} L(w) = 0$.
 
-**(b)** Suppose $\W = \R^{d}$. Show that if $d > 1$, then for *any* any $w \in \W$, there exists a nonzero $v$ such that $D_{v} L(w) = 0$.
+**(b)** Suppose {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{d}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{d}$.++} Show that if $d > 1$, then for *any* any $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$,++} there exists a nonzero $v$ such that $D_{v} L(w) = 0$.
 ::::callout {title="Hint" tone="amber" collapse="closed"}
 
 consider separately the cases $\nabla L(w) = 0$ and $\nabla L(w) \neq 0$.
@@ -1530,7 +1530,7 @@ If $\nabla L(w) \neq 0$, the orthogonal complement $\nabla L(w)^{\perp}$ has dim
 
 We see that parameter–function map degeneracy implies flat loss directions, but a vanishing directional derivative of the loss landscape is commonplace. To find a satisfying definition of degeneracy in a loss landscape, we must look at second-order information.
 
-Define the **Hessian matrix** $H(w) \in \R^{d \times d}$ of the loss at $w$ by
+Define the **Hessian matrix** $H(w) \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{d--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{d++} \times d}$ of the loss at $w$ by
 
 $$
 H(w)_{jk}= \frac{\partial^{2} L}{\partial w_{j} \partial w_{k}}(w).
@@ -1550,7 +1550,7 @@ In particular, at a local minimum, $H(w)$ is positive semidefinite. We can there
 - A local minimum $w$ is **degenerate** (or **non-Morse**) if $H(w)$ is singular (has a zero eigenvalue).
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 2.14 (Some examples of loss landscape degeneracy).** Consider the parameter space $\W = \R^{2}$ with the identity parameter–function map $\Phi = \mathrm{id}$, so that we identify parameters with the functions they implement (cf., [[#^ex-univariate-degeneracy|Exercise 2.1]]). Consider the family of loss functions $L_{k,l}(a,b) = a^{2k}+ b^{2l}$ for non-negative integers $k$ and $l$.
+**Exercise 2.14 (Some examples of loss landscape degeneracy).** Consider the parameter space {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{2}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{2}$++} with the identity parameter–function map $\Phi = \mathrm{id}$, so that we identify parameters with the functions they implement (cf., [[#^ex-univariate-degeneracy|Exercise 2.1]]). Consider the family of loss functions $L_{k,l}(a,b) = a^{2k}+ b^{2l}$ for non-negative integers $k$ and $l$.
 
 **(a)** Show that the origin is a global minimum of $L_{k,l}$ for all non-negative $k$ and $l$. For which $k$ and $l$ is it the unique global minimum?
 
@@ -1571,7 +1571,7 @@ Compute the Hessian.
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-1. Since $a^{2k}\geq 0$ and $b^{2l}\geq 0$ for all $a, b \in \R$ (using the convention $0^{0} = 1$), we have $L_{k,l}(a,b) \geq 0$ for $k, l \geq 1$, $L_{k,l}(a,b) \geq 1$ if $k = 0$ or $l = 0$, and $L_{k,l}(a,b) = 2$ if $k = l = 0$. At the origin, $L_{k,l}(0,0) = 0^{2k}+ 0^{2l}$, which equals $0$ if $k \geq 1$ and $l \geq 1$, equals $1$ if exactly one of $k, l$ is $0$, and equals $2$ if $k = l = 0$. In each case this matches the lower bound, so the origin is a global minimum.
+1. Since $a^{2k}\geq 0$ and $b^{2l}\geq 0$ for all $a, b \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$++} (using the convention $0^{0} = 1$), we have $L_{k,l}(a,b) \geq 0$ for $k, l \geq 1$, $L_{k,l}(a,b) \geq 1$ if $k = 0$ or $l = 0$, and $L_{k,l}(a,b) = 2$ if $k = l = 0$. At the origin, $L_{k,l}(0,0) = 0^{2k}+ 0^{2l}$, which equals $0$ if $k \geq 1$ and $l \geq 1$, equals $1$ if exactly one of $k, l$ is $0$, and equals $2$ if $k = l = 0$. In each case this matches the lower bound, so the origin is a global minimum.
 
 The origin is the *unique* global minimum if and only if $k \geq 1$ and $l \geq 1$: then $L_{k,l}(a,b) = 0$ requires both $a^{2k}= 0$ and $b^{2l}= 0$, forcing $a = b = 0$. If $k = 0$, then $L_{0,l}(a,0) = 1$ for all $a$, so the entire $a$-axis achieves the minimum. Similarly if $l = 0$. If $k = l = 0$, then all parameters achieve the minimum.
 2. For $k = l = 1$: $L_{1,1}(a,b) = a^{2} + b^{2}$. The Hessian at the origin is
@@ -1599,19 +1599,19 @@ So much for defining loss landscape degeneracy. What is the relationship between
 The relationship is subtle, and generally depends on the choice of loss function. One natural setting in which to study this relationship is the *realisable statistical model:* given a parameter–distribution map and a parameter $w_{0}$, if we consider $p_{w_0}$ as the true data-generating distribution, the population negative log-likelihood loss will have a global minimum at $w_{0}$. The following exercise shows that in this setting, under mild regularity assumptions on the statistical model, degeneracy in the parameter–distribution map at $w_{0}$ implies that the global minimum $w_{0}$ is a degenerate global minimum of the loss landscape.
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 2.15 (Realisable models and Hessian degeneracy).** Let $\Psi : \W \to \D$ be a parameter–distribution map with positive densities $p(y \mid x, w)$, twice-differentiable in $w$. Suppose data is generated from a fixed true parameter $w_{0} \in \W$, meaning $q(y \mid x) = p(y \mid x, w_{0})$. Consider the population negative log-likelihood loss
+**Exercise 2.15 (Realisable models and Hessian degeneracy).** Let $\Psi : {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\D$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{D}$++} be a parameter–distribution map with positive densities $p(y \mid x, w)$, twice-differentiable in $w$. Suppose data is generated from a fixed true parameter $w_{0} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$,++} meaning $q(y \mid x) = p(y \mid x, w_{0})$. Consider the population negative log-likelihood loss
 
 $$
-L(w) = -\E_{x \sim q(x)}\, \E_{y \sim p(y \mid x, w_0)}\!\bigl[\log p(y \mid x, w)\bigr].
+L(w) = {--{"author":"Elias's AI","timestamp":1786983916254}@@-\E_{x--}{++{"author":"Elias's AI","timestamp":1786983916254}@@-\mathbb{E}_{x++} \sim q(x)}\, {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{y++} \sim p(y \mid x, w_0)}\!\bigl[\log p(y \mid x, w)\bigr].
 $$
 
-Assume that for each $x$, the operations $\nabla_{w}$ (and $\nabla_{w}^{2}$) and $\int_{\Y} \cdot\, dy$ may be exchanged.
+Assume that for each $x$, the operations $\nabla_{w}$ (and $\nabla_{w}^{2}$) and {--{"author":"Elias's AI","timestamp":1786983916254}@@$\int_{\Y}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\int_{\mathcal{Y}}++} \cdot\, dy$ may be exchanged.
 
-**(a)** *(Bartlett identity.)* Show that for each $x \in \X$ and $w \in \W$,
+**(a)** *(Bartlett identity.)* Show that for each $x \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\X$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{X}$++} and $w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$,++}
 
 
 $$
--\E_{y \sim p(y \mid x, w)}\!\bigl[ \nabla_{w}^{2} \log p(y \mid x, w) \bigr] = \E_{y \sim p(y \mid x, w)}\!\bigl[ s(x,y,w)\, s(x,y,w)^{\top} \bigr],
+{--{"author":"Elias's AI","timestamp":1786983916254}@@-\E_{y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@-\mathbb{E}_{y++} \sim p(y \mid x, w)}\!\bigl[ \nabla_{w}^{2} \log p(y \mid x, w) \bigr] = {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{y++} \sim p(y \mid x, w)}\!\bigl[ s(x,y,w)\, s(x,y,w)^{\top} \bigr],
 $$
 
 
@@ -1621,7 +1621,7 @@ $$
 where $s$ is the score function from [[#^def-score|Theorem 2.3]].
 ::::callout {title="Hint" tone="amber" collapse="closed"}
 
-differentiate the identity $\E_{y \sim p(y \mid x, w)}[s(x, y, w)] = 0$ (established in [[#^ex-score-properties|Exercise 2.11]]) with respect to $w$.
+differentiate the identity {--{"author":"Elias's AI","timestamp":1786983916254}@@$\E_{y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathbb{E}_{y++} \sim p(y \mid x, w)}[s(x, y, w)] = 0$ (established in [[#^ex-score-properties|Exercise 2.11]]) with respect to $w$.
 
 ::::
 
@@ -1638,7 +1638,7 @@ $$
 
 ::::callout {title="Hint" tone="amber" collapse="closed"}
 
-compute $H(w) = -\E_{x}\, \E_{y \sim p(y \mid x, w_0)}[\nabla_{w}^{2} \log p(y \mid x, w)]$, evaluate at $w = w_{0}$, and apply part (a).
+compute $H(w) = {--{"author":"Elias's AI","timestamp":1786983916254}@@-\E_{x}\, \E_{y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@-\mathbb{E}_{x}\, \mathbb{E}_{y++} \sim p(y \mid x, w_0)}[\nabla_{w}^{2} \log p(y \mid x, w)]$, evaluate at $w = w_{0}$, and apply part (a).
 
 ::::
 
@@ -1650,35 +1650,35 @@ compute $H(w) = -\E_{x}\, \E_{y \sim p(y \mid x, w_0)}[\nabla_{w}^{2} \log p(y \
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-1. From [[#^ex-score-properties|Exercise 2.11]], $\E_{y \sim p(y \mid x, w)}[s_{j}(x,y,w)] = 0$ for each component $j$ of the score, where $s_{j} = \frac{\partial}{\partial w_{j}}\log p(y \mid x, w)$. Differentiating with respect to $w_{k}$ and exchanging the derivative with the integral:
+1. From [[#^ex-score-properties|Exercise 2.11]], {--{"author":"Elias's AI","timestamp":1786983916254}@@$\E_{y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathbb{E}_{y++} \sim p(y \mid x, w)}[s_{j}(x,y,w)] = 0$ for each component $j$ of the score, where $s_{j} = \frac{\partial}{\partial w_{j}}\log p(y \mid x, w)$. Differentiating with respect to $w_{k}$ and exchanging the derivative with the integral:
 
 $$
-\begin{aligned}0&= \frac{\partial}{\partial w_{k}}\int_{\Y} s_{j}(x,y,w)\, p(y \mid x, w)\, dy \\&= \int_{\Y} \frac{\partial s_{j}}{\partial w_{k}}\, p\, dy + \int_{\Y} s_{j}\, \frac{\partial p}{\partial w_{k}}\, dy. \quad\text{(product rule)}\end{aligned}
+\begin{aligned}0&= \frac{\partial}{\partial {--{"author":"Elias's AI","timestamp":1786983916254}@@w_{k}}\int_{\Y}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@w_{k}}\int_{\mathcal{Y}}++} s_{j}(x,y,w)\, p(y \mid x, w)\, dy \\&= {--{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\Y}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\mathcal{Y}}++} \frac{\partial s_{j}}{\partial w_{k}}\, p\, dy + {--{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\Y}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\mathcal{Y}}++} s_{j}\, \frac{\partial p}{\partial w_{k}}\, dy. \quad\text{(product rule)}\end{aligned}
 $$
 
-Using the score identity $\frac{\partial p}{\partial w_{k}}= p \cdot s_{k}$ [[#^eq-score-identity|(24)]], the second integral becomes $\int_{\Y} s_{j}\, s_{k}\, p\, dy = \E_{y}[s_{j}\, s_{k}]$. Therefore
+Using the score identity $\frac{\partial p}{\partial w_{k}}= p \cdot s_{k}$ [[#^eq-score-identity|(24)]], the second integral becomes {--{"author":"Elias's AI","timestamp":1786983916254}@@$\int_{\Y}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\int_{\mathcal{Y}}++} s_{j}\, s_{k}\, p\, dy = {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{y}[s_{j}\,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{y}[s_{j}\,++} s_{k}]$. Therefore
 
 $$
-\E_{y \sim p(y \mid x, w)}\!\left[ \frac{\partial^{2} \log p}{\partial w_{j} \partial w_{k}}\right] = -\E_{y \sim p(y \mid x, w)}[s_{j}\, s_{k}].
+{--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{y++} \sim p(y \mid x, w)}\!\left[ \frac{\partial^{2} \log p}{\partial w_{j} \partial w_{k}}\right] = {--{"author":"Elias's AI","timestamp":1786983916254}@@-\E_{y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@-\mathbb{E}_{y++} \sim p(y \mid x, w)}[s_{j}\, s_{k}].
 $$
 
 Assembling all components into a matrix gives
 
 $$
--\E_{y \sim p(y \mid x, w)}\!\bigl[ \nabla_{w}^{2} \log p(y \mid x, w) \bigr] = \E_{y \sim p(y \mid x, w)}\!\bigl[ s(x,y,w)\, s(x,y,w)^{\top} \bigr].
+{--{"author":"Elias's AI","timestamp":1786983916254}@@-\E_{y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@-\mathbb{E}_{y++} \sim p(y \mid x, w)}\!\bigl[ \nabla_{w}^{2} \log p(y \mid x, w) \bigr] = {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{y++} \sim p(y \mid x, w)}\!\bigl[ s(x,y,w)\, s(x,y,w)^{\top} \bigr].
 $$
-2. The population negative log-likelihood is $L(w) = -\E_{x \sim q(x)}\, \E_{y \sim p(y \mid x, w_0)}[\log p(y \mid x, w)]$. Taking the Hessian with respect to $w$ (exchanging differentiation and integration):
+2. The population negative log-likelihood is $L(w) = {--{"author":"Elias's AI","timestamp":1786983916254}@@-\E_{x--}{++{"author":"Elias's AI","timestamp":1786983916254}@@-\mathbb{E}_{x++} \sim q(x)}\, {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{y++} \sim p(y \mid x, w_0)}[\log p(y \mid x, w)]$. Taking the Hessian with respect to $w$ (exchanging differentiation and integration):
 
 $$
-H(w) = -\E_{x \sim q(x)}\, \E_{y \sim p(y \mid x, w_0)}\!\bigl[ \nabla_{w}^{2} \log p(y \mid x, w) \bigr].
+H(w) = {--{"author":"Elias's AI","timestamp":1786983916254}@@-\E_{x--}{++{"author":"Elias's AI","timestamp":1786983916254}@@-\mathbb{E}_{x++} \sim q(x)}\, {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{y++} \sim p(y \mid x, w_0)}\!\bigl[ \nabla_{w}^{2} \log p(y \mid x, w) \bigr].
 $$
 
 At $w = w_{0}$, the inner expectation is over $y \sim p(y \mid x, w_{0})$, which matches the distribution in the Bartlett identity. Applying part (a):
 
 $$
-\begin{aligned}H(w_{0})&= \E_{x \sim q(x)}\, \E_{y \sim p(y \mid x, w_0)}\!\bigl[ s(x,y,w_{0})\, s(x,y,w_{0})^{\top} \bigr] \\&= I(w_{0}). \quad\text{(by Theorem 2.4)}\end{aligned}
+\begin{aligned}H(w_{0})&= {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{x--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{x++} \sim q(x)}\, {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{y--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{y++} \sim p(y \mid x, w_0)}\!\bigl[ s(x,y,w_{0})\, s(x,y,w_{0})^{\top} \bigr] \\&= I(w_{0}). \quad\text{(by Theorem 2.4)}\end{aligned}
 $$
-3. By [[#^ex-fim-degeneracy|Exercise 2.12]], $\ker I(w_{0}) = \{v \in \R^{d} : D_{v} \Psi(w_{0}) = 0\}$. Since $H(w_{0}) = I(w_{0})$, if $\Psi$ is degenerate at $w_{0}$ in direction $v$, then $v \in \ker I(w_{0}) = \ker H(w_{0})$, so $H(w_{0})\, v = 0$.
+3. By [[#^ex-fim-degeneracy|Exercise 2.12]], $\ker I(w_{0}) = \{v \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{d}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{d}++} : D_{v} \Psi(w_{0}) = 0\}$. Since $H(w_{0}) = I(w_{0})$, if $\Psi$ is degenerate at $w_{0}$ in direction $v$, then $v \in \ker I(w_{0}) = \ker H(w_{0})$, so $H(w_{0})\, v = 0$.
 
 Contrapositively: if $H(w_{0})$ is positive definite, then $\ker H(w_{0}) = \{0\}$, so $\ker I(w_{0}) = \{0\}$, and $\Psi$ is non-degenerate at $w_{0}$.
 
@@ -1687,9 +1687,9 @@ Contrapositively: if $H(w_{0})$ is positive definite, then $\ker H(w_{0}) = \{0\
 [[#^ex-fim-hessian|Exercise 2.15]] shows that for the population negative log-likelihood at the true parameter, degeneracy of the parameter–distribution map implies a degenerate loss landscape. The converse does not hold in general, nor does the forward direction hold at arbitrary points in parameter space. The following exercise explores these subtleties through examples.
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 2.16 (Contrasting parametric versus loss degeneracy).** **(a)** Observe that the identity parameter–function map on $\W = \R^{2}$ is non-degenerate everywhere. With this in mind, what do your answers to [[#^ex-loss-landscape-degeneracy|Exercise 2.14(b)]] and [[#^ex-loss-landscape-degeneracy|2.14(c)]] and [[#^ex-loss-landscape-degeneracy|2.14(d)]] exemplify about the logical relationship between parameter–function map degeneracy and loss landscape degeneracy?
+**Exercise 2.16 (Contrasting parametric versus loss degeneracy).** **(a)** Observe that the identity parameter–function map on {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{2}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{2}$++} is non-degenerate everywhere. With this in mind, what do your answers to [[#^ex-loss-landscape-degeneracy|Exercise 2.14(b)]] and [[#^ex-loss-landscape-degeneracy|2.14(c)]] and [[#^ex-loss-landscape-degeneracy|2.14(d)]] exemplify about the logical relationship between parameter–function map degeneracy and loss landscape degeneracy?
 
-**(b)** Consider again the identity parameter–function map on $\W = \R^{2}$. Consider the loss function $L_{\circ}(a,b) = (a^{2} + b^{2} - 1)^{2}$. Find a global minimum of $L_{\circ}$ and show that it is a degenerate critical point. What does this example reveal about the logical relationship between parameter–function map degeneracy and loss landscape degeneracy?
+**(b)** Consider again the identity parameter–function map on {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{2}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{2}$.++} Consider the loss function $L_{\circ}(a,b) = (a^{2} + b^{2} - 1)^{2}$. Find a global minimum of $L_{\circ}$ and show that it is a degenerate critical point. What does this example reveal about the logical relationship between parameter–function map degeneracy and loss landscape degeneracy?
 
 **(c)** Now consider the cubic parameter–function map $\Phi(\alpha, \beta) = (\alpha^{3}, \beta^{3})$.
 
@@ -1733,7 +1733,7 @@ If $k \geq 1$ and $l \geq 1$: the exponents $6k$ and $6l$ are both at least $6$,
 If $k = 0$: $L_{0,l}(\alpha,\beta) = 1 + \beta^{6l}$, which is independent of $\alpha$, so the Hessian has a zero first diagonal entry. Similarly if $l = 0$. In all cases, the origin is a degenerate minimum.
 3. Under the identity parameter–function map, $L_{1,1}(a,b) = a^{2} + b^{2}$ had a non-degenerate minimum at the origin ([[#^ex-loss-landscape-degeneracy|Exercise 2.14(b)]]). Under the cubic parameter–function map, the same loss became $\alpha^{6} + \beta^{6}$, which has a degenerate minimum at the origin. This shows that introducing degeneracy into the parameter–function map can convert a non-degenerate minimum into a degenerate one.
 
-For other $k,l$, $L_{k,l}$ was already degenerate at the origin under the non-degenerate parameterisation, the cubic function only makes it *more* degenerate (in terms of the order to which the loss vanishes in the degenerate direction(s); we will formally quantify this in [[#^3-the-degeneracy-hierarchy|Section 3]]).
+For other $k,l$, $L_{k,l}$ was already degenerate at the origin under the non-degenerate parameterisation, the cubic function only makes it *more* degenerate (in terms of the order to which the loss vanishes in the degenerate direction(s); we will formally quantify this in {--{"author":"Elias's AI","timestamp":1786983916254}@@[[#^3-the-degeneracy-hierarchy|Section --}{++{"author":"Elias's AI","timestamp":1786983916254}@@[[#3. The degeneracy hierarchy|Section ++}3]]).
 4. 1. The gradient is $\nabla L = (ab - 1)(b,\, a)$. At $(0, 0)$: $\nabla L = (0 - 1)(0, 0) = (0, 0)$. So $(0, 0)$ is a critical point.
 
 The Jacobian of $\Phi(a,b) = ab$ is $(b, a)$, which at $(0, 0)$ is $(0, 0)$. Every direction $v = (v_{1}, v_{2})$ gives $J v = b v_{1} + a v_{2} = 0$, so $\Phi$ is degenerate in every direction at $(0, 0)$.
@@ -1756,15 +1756,15 @@ This does not contradict [[#^ex-fim-hessian|Exercise 2.15]], which establishes $
 
 :::
 
-\## 3. The degeneracy hierarchy ^3-the-degeneracy-hierarchy
+\## 3. The degeneracy hierarchy{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^3-the-degeneracy-hierarchy--}
 
 We have so far explored different kinds of qualitative degeneracy in the loss landscape. A natural question arises: *how can we quantify the degree of degeneracy at a particular point in parameter space?* In this section, we introduce the local learning coefficient, a rich mathematical object that reflects the degree of degeneracy at a parameter, and we explore it from several perspectives.
 
-In this section and [[#^4-degeneracy-and-bayesian-deep-learning|Section 4]] we assume that any population loss $L$ is a real analytic function. The precise definition of real analyticity is not important for this tutorial but interested readers can refer to ([[#^bib-watanabe2009|Watanabe 2009]]) (section 2). A property that will be useful is that such functions have a convergent Taylor expansion, in particular they have smooth derivatives of all orders.
+In this section and {--{"author":"Elias's AI","timestamp":1786983916254}@@[[#^4-degeneracy-and-bayesian-deep-learning|Section --}{++{"author":"Elias's AI","timestamp":1786983916254}@@[[#4. Degeneracy and Bayesian deep learning|Section ++}4]] we assume that any population loss $L$ is a real analytic function. The precise definition of real analyticity is not important for this tutorial but interested readers can refer to ([[#^bib-watanabe2009|Watanabe 2009]]) (section 2). A property that will be useful is that such functions have a convergent Taylor expansion, in particular they have smooth derivatives of all orders.
 
-\### 3.1 The local learning coefficient via volume scaling asymptotics ^31-the-local-learning-coefficient-via-volume-scaling-asymptotics
+\### 3.1 The local learning coefficient via volume scaling asymptotics{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^31-the-local-learning-coefficient-via-volume-scaling-asymptotics--}
 
-The key idea is to measure the *volume* of near-optimal parameters. Consider a local minimum $w^{*} \in \W$ of the population loss $L$, and suppose we have a sufficiently small closed ball $B(w^{*})$ centred on $w^{*}$ such that $L(w) \geq L(w^{*})$ for all $w \in B(w^{*})$. Given a tolerance $\epsilon > 0$, define the **sublevel set**
+The key idea is to measure the *volume* of near-optimal parameters. Consider a local minimum $w^{*} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$++} of the population loss $L$, and suppose we have a sufficiently small closed ball $B(w^{*})$ centred on $w^{*}$ such that $L(w) \geq L(w^{*})$ for all $w \in B(w^{*})$. Given a tolerance $\epsilon > 0$, define the **sublevel set**
 
 
 $$
@@ -1784,7 +1784,7 @@ $$
 We will look at how this volume scales as $\epsilon \to 0$. It will be instructive for us to first calculate this scaling in the non-degenerate case.
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 3.1 (Volume scaling in the regular case).** Let $w^{*} \in \W$ be a local minimum of $L$, and suppose that the Hessian $\nabla^{2} L(w^{*})$ is positive definite. Show that
+**Exercise 3.1 (Volume scaling in the regular case).** Let $w^{*} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$++} be a local minimum of $L$, and suppose that the Hessian $\nabla^{2} L(w^{*})$ is positive definite. Show that
 
 
 $$
@@ -1795,11 +1795,11 @@ $$
 ^eq-regular-volume-scaling
 
 
-for some constant $c>0$ where $d = \dim(\W)$. You may assume that, as $\epsilon \to 0$, the volume of $B(w^{*},\epsilon)$ agrees to leading order with the volume of the quadratic approximation obtained by replacing $L$ with its second-order Taylor expansion at $w^{*}$.
+for some constant $c>0$ where $d = {--{"author":"Elias's AI","timestamp":1786983916254}@@\dim(\W)$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\dim(\mathcal{W})$.++} You may assume that, as $\epsilon \to 0$, the volume of $B(w^{*},\epsilon)$ agrees to leading order with the volume of the quadratic approximation obtained by replacing $L$ with its second-order Taylor expansion at $w^{*}$.
 
 ::::callout {title="Hint" tone="amber" collapse="closed"}
 
-The volume of the ellipsoid $\{\boldsymbol{x}\in \R^{d} \mid \boldsymbol{x}^{\top} A \boldsymbol{x}< 1\}$ is proportional to $(\det A)^{-1/2}$.
+The volume of the ellipsoid $\{\boldsymbol{x}\in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{d}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{d}++} \mid \boldsymbol{x}^{\top} A \boldsymbol{x}< 1\}$ is proportional to $(\det A)^{-1/2}$.
 
 ::::
 :::
@@ -1848,11 +1848,11 @@ $$
 The key takeaway from this exercise is that the dimension of the model controls the leading order asymptotics of the volume scaling. We can investigate this further by calculating the volume scaling in an example where the Hessian is not positive definite.
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 3.2 (Quadratic Valley Volume Scaling).** Let $\W = [-R,R]^{d}$ for some (large) $R\in\R$ and let $L(x_{1},\dots,x_{d}) = \sum\limits_{i=1}^{d'}x_{i}^{2}$.
+**Exercise 3.2 (Quadratic Valley Volume Scaling).** Let {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = [-R,R]^{d}$ for some (large) {--{"author":"Elias's AI","timestamp":1786983916254}@@$R\in\R$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$R\in\mathbb{R}$++} and let $L(x_{1},\dots,x_{d}) = \sum\limits_{i=1}^{d'}x_{i}^{2}$.
 
 **(a)** Sketch the loss landscape when $d=2, \,d'=1$.
 
-**(b)** $L$ achieves its minimum value $0$ at multiple points in $\W$. What is the dimension of the space $\W_{0} := \{w\in\W \, | \,L(w)=0\}$?
+**(b)** $L$ achieves its minimum value $0$ at multiple points in {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}$.++} What is the dimension of the space {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W_{0}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}_{0}++} := {--{"author":"Elias's AI","timestamp":1786983916254}@@\{w\in\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\{w\in\mathcal{W}++} \, | \,L(w)=0\}$?
 
 **(c)** Calculate the Hessian of $L$.
 
@@ -1871,7 +1871,7 @@ Use the volume of the ellipsoid from Exercise [[#^ex-llc-regular-case|3.1]]
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 1. The loss is $L(x_{1}, x_{2}) = x_{1}^{2}$, which is a parabolic trough: a parabola in the $x_{1}$ direction and constant along $x_{2}$. The zero set is the line $x_{1} = 0$.
-2. $\W_{0} = \{0\}^{d'}\times [-R,R]^{d-d'}$, which is a $(d - d')$-dimensional affine subspace of $\W$. Hence $\dim(\W_{0}) = d - d'$.
+2. {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W_{0}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}_{0}++} = \{0\}^{d'}\times [-R,R]^{d-d'}$, which is a $(d - d')$-dimensional affine subspace of {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}$.++} Hence {--{"author":"Elias's AI","timestamp":1786983916254}@@$\dim(\W_{0})--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\dim(\mathcal{W}_{0})++} = d - d'$.
 3. Since $L(w) = \sum_{i=1}^{d'}x_{i}^{2}$, the partial derivatives are
 
 $$
@@ -1885,21 +1885,21 @@ $$
 $$
 
 which has rank $d'$. In particular it is positive semi-definite but not positive definite whenever $d' < d$.
-4. The minimum of $L$ is $0$, achieved on $\W_{0}$. For any $w^{*} \in \W_{0}$ and $\epsilon > 0$, the sublevel set is
+4. The minimum of $L$ is $0$, achieved on {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W_{0}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}_{0}$.++} For any $w^{*} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W_{0}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}_{0}$++} and $\epsilon > 0$, the sublevel set is
 
 $$
-B(w^{*}, \epsilon) = \left\{ (x_{1},\dots,x_{d}) \in [-R,R]^{d} \;\middle|\; \sum_{i=1}^{d'}x_{i}^{2} < \epsilon \right\} = \left\{x \in \R^{d'}: \sum_{i=1}^{d'}x_{i}^{2} < \epsilon \right\} \times [-R,R]^{d-d'}
+B(w^{*}, \epsilon) = \left\{ (x_{1},\dots,x_{d}) \in [-R,R]^{d} \;\middle|\; \sum_{i=1}^{d'}x_{i}^{2} < \epsilon \right\} = \left\{x \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{d'}:--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{d'}:++} \sum_{i=1}^{d'}x_{i}^{2} < \epsilon \right\} \times [-R,R]^{d-d'}
 $$
 
 for $R$ sufficiently large (specifically $\sqrt{\epsilon}< R$). The condition $\sum_{i=1}^{d'}x_{i}^{2} < \epsilon$ can be rewritten as $\mathbf{x}^{\top} A \mathbf{x}< 1$ where $A = \epsilon^{-1}I_{d'}$. By the ellipsoid volume formula from [[#^ex-llc-regular-case|Exercise 3.1]], the volume of this region is proportional to $(\det A)^{-1/2}= (\epsilon^{-d'})^{-1/2}= \epsilon^{d'/2}$. Multiplying by the volume $(2R)^{d-d'}$ of the remaining coordinates gives $V(\epsilon) \propto \epsilon^{d'/2}$.
 
 :::
 
-In this example, the degenerate directions do not contribute to the leading exponent of $V(\epsilon)$. We see that the exponent $\frac{d}{2}$ from Exercise [[#^ex-llc-regular-case|3.1]] is replaced with $\frac{d'}{2}$ where $d'$ is the codimension of $\W_{0}$ i.e. the *effective dimension* of $L$ which ignores the degenerate directions. This suggests that we can capture information about the degree of degeneracy of a loss function by looking at how the volume $V(\epsilon)$ scales as $\epsilon \to 0$. ([[#^bib-watanabe2009|Watanabe 2009]]) proves a general form for this kind of volume scaling which has been adapted by ([[#^bib-lau-2025|Lau et al. 2025]]) into the following definition.
+In this example, the degenerate directions do not contribute to the leading exponent of $V(\epsilon)$. We see that the exponent $\frac{d}{2}$ from Exercise [[#^ex-llc-regular-case|3.1]] is replaced with $\frac{d'}{2}$ where $d'$ is the codimension of {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W_{0}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}_{0}$++} i.e. the *effective dimension* of $L$ which ignores the degenerate directions. This suggests that we can capture information about the degree of degeneracy of a loss function by looking at how the volume $V(\epsilon)$ scales as $\epsilon \to 0$. ([[#^bib-watanabe2009|Watanabe 2009]]) proves a general form for this kind of volume scaling which has been adapted by ([[#^bib-lau-2025|Lau et al. 2025]]) into the following definition.
 
 :::callout {title="Definition" tone="purple"}
 
-**Definition 3.1 (Local learning coefficient).** Let $w^{*} \in \W$ be a local minimum of the population loss $L$. There exists a unique rational number $\lambda(w^{*}) > 0$, a positive integer $\mu(w^{*})$, and a constant $c > 0$ such that as $\epsilon \to 0$,
+**Definition 3.1 (Local learning coefficient).** Let $w^{*} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$++} be a local minimum of the population loss $L$. There exists a unique rational number $\lambda(w^{*}) > 0$, a positive integer $\mu(w^{*})$, and a constant $c > 0$ such that as $\epsilon \to 0$,
 
 
 $$
@@ -2044,11 +2044,11 @@ $$
 
 ::::callout {title="Hint" tone="amber" collapse="closed"}
 
-for any real symmetric matrix $H\in\R^{n\times n}$ and vector $v\in \R^{n}$, $v^{\top} H v \leq \Lambda \|v\|^{2}$ where $\Lambda$ is the largest eigenvalue of $H$.
+for any real symmetric matrix {--{"author":"Elias's AI","timestamp":1786983916254}@@$H\in\R^{n\times--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$H\in\mathbb{R}^{n\times++} n}$ and vector $v\in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{n}$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{n}$,++} $v^{\top} H v \leq \Lambda \|v\|^{2}$ where $\Lambda$ is the largest eigenvalue of $H$.
 
 ::::
 
-**(b)** Consider the standard Euclidean ball of radius $r$ centred at $w^{*}$, denoted $B_{r}(w^{*}) = \{w \in \W \mid \|w - w^{*}\| < r\}$. Find a radius $r$ (as a function of $\epsilon$ and $\Lambda$) such that for sufficiently small $\epsilon$,
+**(b)** Consider the standard Euclidean ball of radius $r$ centred at $w^{*}$, denoted $B_{r}(w^{*}) = \{w \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \mid \|w - w^{*}\| < r\}$. Find a radius $r$ (as a function of $\epsilon$ and $\Lambda$) such that for sufficiently small $\epsilon$,
 
 $$
 B_{r}(w^{*}) \subseteq B(w^{*}, \epsilon).
@@ -2115,12 +2115,12 @@ $$
 
 :::
 
-We have now shown that the LLC satisfies $\lambda(w^{*}) \leq d/2$, with equality precisely in the regular (non-degenerate) case. It is also possible (although quite fiddly) to prove that $\frac{r}{2}\leq \lambda(w^{*})$ where $r= \rank \nabla^{2}L(w^{*})$ and as we will see in the next exercise, the LLC captures more information about the geometry than just the Hessian rank.
+We have now shown that the LLC satisfies $\lambda(w^{*}) \leq d/2$, with equality precisely in the regular (non-degenerate) case. It is also possible (although quite fiddly) to prove that $\frac{r}{2}\leq \lambda(w^{*})$ where $r= {--{"author":"Elias's AI","timestamp":1786983916254}@@\rank--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{rank}++} \nabla^{2}L(w^{*})$ and as we will see in the next exercise, the LLC captures more information about the geometry than just the Hessian rank.
 
 :::callout {title="Exercise" tone="blue"}
 **Exercise 3.6 (LLC vs Hessian Rank).** In this exercise we will show that the LLC can detect differences in the local geometry that is not reflected in the rank of the Hessian.
 
-Construct two loss functions $L_{1}$ and $L_{2}$ with minima $w_{1}$ and $w_{2}$ respectively such that $\rank \, \nabla^{2}L_{1}(w_{1}) = \rank \, \nabla^{2}L_{2}(w_{2})$ but $\lambda(w_{1}) \neq \lambda(w_{2})$.
+Construct two loss functions $L_{1}$ and $L_{2}$ with minima $w_{1}$ and $w_{2}$ respectively such that {--{"author":"Elias's AI","timestamp":1786983916254}@@$\rank--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathrm{rank}++} \, \nabla^{2}L_{1}(w_{1}) = {--{"author":"Elias's AI","timestamp":1786983916254}@@\rank--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{rank}++} \, \nabla^{2}L_{2}(w_{2})$ but $\lambda(w_{1}) \neq \lambda(w_{2})$.
 :::
 
 ^ex-llc-hessian-rank
@@ -2140,7 +2140,7 @@ Both Hessians have rank $1$, but $\lambda(w_{1}) = \frac{3}{4}\neq \frac{1}{2}= 
 **Exercise 3.7 (The cubically-parameterised loss).** We can make a quadratic loss degenerate by changing the parameterisation. Let the *cubically-parameterised loss* be
 
 $$
-L(\mu) = \tfrac{1}{2}(\mu^{3} - \mu_{0}^{3})^{2}, \qquad \mu \in \R
+L(\mu) = \tfrac{1}{2}(\mu^{3} - \mu_{0}^{3})^{2}, \qquad \mu \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}++}
 $$
 
 obtained from the ordinary quadratic loss $\ell(\theta) = \frac{1}{2}(\theta - \theta_{0})^{2}$ via the reparameterisation $\theta = \mu^{3}$, $\theta_{0} = \mu_{0}^{3}$.
@@ -2163,7 +2163,7 @@ Even though the asymptotic *learning coefficient* ($\epsilon \to 0$) only change
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-1. The cubically-parameterised loss $L(\mu) = \tfrac{1}{2}(\mu^{3} - \mu_{0}^{3})^{2}$ vanishes if and only if $\mu^{3} = \mu_{0}^{3}$, i.e.  $\mu = \mu_{0}$ (since $t \mapsto t^{3}$ is a bijection on $\R$). The ordinary quadratic loss $\ell(\theta) = \tfrac{1}{2}(\theta - \theta_{0})^{2}$ vanishes if and only if $\theta = \theta_{0}$. Since for every $\theta_{0} \in \R$ we can write $\theta_{0} = \mu_{0}^{3}$ for a unique $\mu_{0} = \theta_{0}^{1/3}$, both losses achieve their minimum value of zero at exactly the same set of "targets" $\theta_{0} \in \R$, so the set of achievable minima is the same.
+1. The cubically-parameterised loss $L(\mu) = \tfrac{1}{2}(\mu^{3} - \mu_{0}^{3})^{2}$ vanishes if and only if $\mu^{3} = \mu_{0}^{3}$, i.e.  $\mu = \mu_{0}$ (since $t \mapsto t^{3}$ is a bijection on {--{"author":"Elias's AI","timestamp":1786983916254}@@$\R$).--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathbb{R}$).++} The ordinary quadratic loss $\ell(\theta) = \tfrac{1}{2}(\theta - \theta_{0})^{2}$ vanishes if and only if $\theta = \theta_{0}$. Since for every $\theta_{0} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$++} we can write $\theta_{0} = \mu_{0}^{3}$ for a unique $\mu_{0} = \theta_{0}^{1/3}$, both losses achieve their minimum value of zero at exactly the same set of "targets" $\theta_{0} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$,++} so the set of achievable minima is the same.
 2. Computing derivatives:
 
 $$
@@ -2174,7 +2174,7 @@ At the minimum $\mu = \mu_{0}$: $L''(\mu_{0}) = 6\mu_{0} \cdot 0 + 9\mu_{0}^{4} 
 
 - If $\mu_{0} = 0$: $L''(0) = 0$, so the Hessian vanishes and the loss is degenerate at its minimum.
 - If $\mu_{0} \neq 0$: $L''(\mu_{0}) = 9\mu_{0}^{4} > 0$, so the loss is non-degenerate.
-3. We compute $V(\epsilon) = \mathrm{vol}(\{\mu \in \R : L(\mu) < \epsilon\})$ in each case.
+3. We compute $V(\epsilon) = \mathrm{vol}(\{\mu \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}++} : L(\mu) < \epsilon\})$ in each case.
 
 *Case $\mu_{0} = 0$.* When $\mu_{0} = 0$ the loss simplifies to $L(\mu) = \tfrac{1}{2}\mu^{6}$, so
 
@@ -2188,7 +2188,7 @@ $$
 \mu_{0}^{3} - \sqrt{2\epsilon}\;<\; \mu^{3} \;<\; \mu_{0}^{3} + \sqrt{2\epsilon}.
 $$
 
-Since the cube root is monotone on $\R$, this is equivalent to
+Since the cube root is monotone on {--{"author":"Elias's AI","timestamp":1786983916254}@@$\R$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathbb{R}$,++} this is equivalent to
 
 $$
 \bigl(\mu_{0}^{3} - \sqrt{2\epsilon}\bigr)^{1/3}\;<\; \mu \;<\; \bigl(\mu_{0}^{3} + \sqrt{2\epsilon}\bigr)^{1/3},
@@ -2224,7 +2224,7 @@ The function is a smooth, symmetric bump centred at $\mu_{0} = 0$ with no discon
 
 :::
 
-\### 3.2 Perspectives on the local learning coefficient ^32-perspectives-on-the-local-learning-coefficient
+\### 3.2 Perspectives on the local learning coefficient{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^32-perspectives-on-the-local-learning-coefficient--}
 
 In this section, we survey several alternative perspectives on the LLC, from information theory, algebraic geometry, and geometric measure theory.
 
@@ -2279,8 +2279,8 @@ which converges for $\operatorname{Re}(z) > 0$ and extends to a meromorphic func
 In the algebraic geometry literature, $\lambda(w^{*})$ is called the **real log canonical threshold (RLCT)** of $L$ at $w^{*}$. We collect several consequences of this perspective.
 
 1. The fact that the LLC is a rational number follows directly from equation [[#^eq-rlct|(43)]].
-2. Equation [[#^eq-rlct|(43)]] suggests that we can compute $\lambda(w^{*})$ analytically by constructing an explicit resolution of singularities for $L(w) - L(w^{*})$ and reading off the exponents. This is difficult in practice for neural network loss functions, but has been achieved for some architectures, as we will see in [[#^33-local-learning-coefficients-of-deep-linear-networks|Subsection 3.3]].
-3. In [[#^4-degeneracy-and-bayesian-deep-learning|Section 4]] we will state Watanabe's free energy formula connecting the Bayesian free energy to the LLC. The proof of this result makes repeated use of the monomialisation of the loss.
+2. Equation [[#^eq-rlct|(43)]] suggests that we can compute $\lambda(w^{*})$ analytically by constructing an explicit resolution of singularities for $L(w) - L(w^{*})$ and reading off the exponents. This is difficult in practice for neural network loss functions, but has been achieved for some architectures, as we will see in {--{"author":"Elias's AI","timestamp":1786983916254}@@[[#^33-local-learning-coefficients-of-deep-linear-networks|Subsection --}{++{"author":"Elias's AI","timestamp":1786983916254}@@[[#3.3 Local learning coefficients of deep linear networks|Subsection ++}3.3]].
+3. In {--{"author":"Elias's AI","timestamp":1786983916254}@@[[#^4-degeneracy-and-bayesian-deep-learning|Section --}{++{"author":"Elias's AI","timestamp":1786983916254}@@[[#4. Degeneracy and Bayesian deep learning|Section ++}4]] we will state Watanabe's free energy formula connecting the Bayesian free energy to the LLC. The proof of this result makes repeated use of the monomialisation of the loss.
 
 :::callout {title="Exercise" tone="blue"}
 **Exercise 3.8 (Computing the LLC via the RLCT).** Suppose that $L(w) = w_{1}^{2k_1}\cdots w_{d}^{2k_d}$ near $w^{*} = 0$, where $k_{j} \geq 0$ are integers with at least one $k_{j} > 0$. Show that
@@ -2331,11 +2331,11 @@ $$
 ^def-holder-exponent
 
 
-The Hölder exponent generalises the notion of dimension: when $\nu$ is the Lebesgue measure on $\R^{d}$ and $\rho$ is the Euclidean metric, every point has $\alpha(x) = d$, but for measures concentrated on fractal sets the exponent can be non-integer. Notice that the formula [[#^eq-holder-exp|(45)]] has a similar form to the definition of the local learning coefficient [[#^eq-llc-formula|(38)]]. To make this connection precise, we introduce a pseudo-metric induced by the loss function.
+The Hölder exponent generalises the notion of dimension: when $\nu$ is the Lebesgue measure on {--{"author":"Elias's AI","timestamp":1786983916254}@@$\R^{d}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathbb{R}^{d}$++} and $\rho$ is the Euclidean metric, every point has $\alpha(x) = d$, but for measures concentrated on fractal sets the exponent can be non-integer. Notice that the formula [[#^eq-holder-exp|(45)]] has a similar form to the definition of the local learning coefficient [[#^eq-llc-formula|(38)]]. To make this connection precise, we introduce a pseudo-metric induced by the loss function.
 
 :::callout {title="Definition" tone="purple"}
 
-**Definition 3.3 (Loss pseudo-metric).** The **loss pseudo-metric** on $\W$ is defined by
+**Definition 3.3 (Loss pseudo-metric).** The **loss pseudo-metric** on {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}$++} is defined by
 
 $$
 \rho(w,u) = |L(w) - L(u)|.
@@ -2361,7 +2361,7 @@ $$
 so $V(\epsilon) = \nu(B(w^{*}, \epsilon))$.
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 3.9 (Holder exponent and learning coefficient).** Let $\alpha(w^{*})$ be the Hölder exponent of the Lebesgue measure on $\W$ at $w^{*}$ under the loss pseudo-metric. Show that
+**Exercise 3.9 (Holder exponent and learning coefficient).** Let $\alpha(w^{*})$ be the Hölder exponent of the Lebesgue measure on {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}$++} at $w^{*}$ under the loss pseudo-metric. Show that
 
 $$
 \lambda(w^{*}) = \alpha(w^{*}).
@@ -2391,21 +2391,21 @@ by Equation [[#^eq-solve-llc|(39)]]
 
 :::
 
-\### 3.3 Local learning coefficients of deep linear networks ^33-local-learning-coefficients-of-deep-linear-networks
+\### 3.3 Local learning coefficients of deep linear networks{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^33-local-learning-coefficients-of-deep-linear-networks--}
 
-Having established the local learning coefficient as a measure of degeneracy in the loss landscape, we now compute it explicitly for the two-layer deep linear network introduced in [[#^1-preliminaries|Section 1]]. In [[#^2-what-is-degeneracy|Section 2]], we saw that DLN parameters exhibit varying degrees of degeneracy depending on the ranks of the component matrices ([[#^ex-dln-degeneracy|Exercise 2.9]], [[#^rem-rank|Remark 2.2]]). The LLC makes this hierarchy quantitative: different ranks correspond to different learning coefficients, confirming that lower-rank parameters are geometrically "simpler."
+Having established the local learning coefficient as a measure of degeneracy in the loss landscape, we now compute it explicitly for the two-layer deep linear network introduced in {--{"author":"Elias's AI","timestamp":1786983916254}@@[[#^1-preliminaries|Section--}{++{"author":"Elias's AI","timestamp":1786983916254}@@[[#1. Preliminaries|Section++} 1]]. In {--{"author":"Elias's AI","timestamp":1786983916254}@@[[#^2-what-is-degeneracy|Section--}{++{"author":"Elias's AI","timestamp":1786983916254}@@[[#2. What is degeneracy?|Section++} 2]], we saw that DLN parameters exhibit varying degrees of degeneracy depending on the ranks of the component matrices ([[#^ex-dln-degeneracy|Exercise 2.9]], [[#^rem-rank|Remark 2.2]]). The LLC makes this hierarchy quantitative: different ranks correspond to different learning coefficients, confirming that lower-rank parameters are geometrically "simpler."
 
-Consider the two-layer DLN $f_{A,B}(x) = BAx$ with $A \in \R^{H \times M}$ and $B \in \R^{N \times H}$, so the parameter space is $\W = \R^{(M+N)H}$. Suppose the true input–output relationship is $y = B_{0} A_{0} x$ where $A_{0} \in \R^{H \times M}$, $B_{0} \in \R^{N \times H}$, and $r = \rank(B_{0} A_{0})$, and consider the population loss
+Consider the two-layer DLN $f_{A,B}(x) = BAx$ with $A \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{H--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{H++} \times M}$ and $B \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{N--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{N++} \times H}$, so the parameter space is {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{(M+N)H}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{(M+N)H}$.++} Suppose the true input–output relationship is $y = B_{0} A_{0} x$ where $A_{0} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{H--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{H++} \times M}$, $B_{0} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{N--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{N++} \times H}$, and $r = {--{"author":"Elias's AI","timestamp":1786983916254}@@\rank(B_{0}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{rank}(B_{0}++} A_{0})$, and consider the population loss
 
 $$
-L(A, B) = \E_{x \sim q(x)}\!\left[\|BAx - B_{0} A_{0} x\|^{2}\right],
+L(A, B) = {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{x--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{x++} \sim q(x)}\!\left[\|BAx - B_{0} A_{0} x\|^{2}\right],
 $$
 
 where $q(x)$ has full-rank covariance. The set of minima of this loss function is $W_{0} = \{(A, B) : BA = B_{0} A_{0}\}$. [[#^bib-aoyagi-watanabe2005|Aoyagi & Watanabe 2005]] derived an exact formula for the learning coefficient at these minima.
 
 :::callout {title="Theorem" tone="purple"}
 
-**Theorem 3.4 ([[#^bib-aoyagi-watanabe2005|Aoyagi & Watanabe 2005]]).** For the two-layer DLN $f_{A,B}(x) = BAx$ with $A \in \R^{H \times M}$, $B \in \R^{N \times H}$, and true parameter $(A_{0}, B_{0})$ with $r = \rank(B_{0} A_{0})$, at any minimum $w^{*} \in W_{0}$ the local learning coefficient $\lambda$ and its multiplicity $\mu$ are given by the following cases:
+**Theorem 3.4 ([[#^bib-aoyagi-watanabe2005|Aoyagi & Watanabe 2005]]).** For the two-layer DLN $f_{A,B}(x) = BAx$ with $A \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{H--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{H++} \times M}$, $B \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{N--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{N++} \times H}$, and true parameter $(A_{0}, B_{0})$ with $r = {--{"author":"Elias's AI","timestamp":1786983916254}@@\rank(B_{0}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathrm{rank}(B_{0}++} A_{0})$, at any minimum $w^{*} \in W_{0}$ the local learning coefficient $\lambda$ and its multiplicity $\mu$ are given by the following cases:
 
 1. If $N + r \leq M + H$,   $M + r \leq N + H$,   and   $H + r \leq M + N$:
 
@@ -2429,7 +2429,7 @@ $$
 
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 3.10 (Learning coefficients of two-layer DLNs).** Consider the constant-width two-layer DLN from [[#^ex-dln-degeneracy|Exercise 2.9]]: $y = BAx$, where $x \in \R^{m}$ are the inputs, $y \in \R^{m}$ are the outputs, and $A, B \in \R^{m \times m}$ are linear transformations. The parameter space is $\W = \R^{2m^2}$ and the parameters are the pair $(A, B) \in \W$.
+**Exercise 3.10 (Learning coefficients of two-layer DLNs).** Consider the constant-width two-layer DLN from [[#^ex-dln-degeneracy|Exercise 2.9]]: $y = BAx$, where $x \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$++} are the inputs, $y \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m}$++} are the outputs, and $A, B \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{m--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{m++} \times m}$ are linear transformations. The parameter space is {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{2m^2}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{2m^2}$++} and the parameters are the pair $(A, B) \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$.++}
 
 **(a)** Aoyagi & Watanabe do not assume the network is constant-width, like we do. Simplify their formula for $\lambda$ using this assumption.
 
@@ -2467,7 +2467,7 @@ $$
 $$
 
 so $\lambda$ is increasing in $r$ therefore **lower rank $\implies$ lower $\lambda$**. This is consistent with [[#^ex-dln-degeneracy|Exercise 2.9(d)]] where we saw that at lower-rank parameters, more directions in parameter space are degenerate.
-3. The parameter space is $\W = \R^{2m^2}$, so the regular-model baseline is $d/2 = m^{2}$. At full rank $r = m$:
+3. The parameter space is {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\R^{2m^2}$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}^{2m^2}$,++} so the regular-model baseline is $d/2 = m^{2}$. At full rank $r = m$:
 
 $$
 \lambda = \frac{(2m)(2m)}{8}= \frac{m^{2}}{2}= \frac{d}{4},
@@ -2485,29 +2485,29 @@ This tells us that the two-layer DLN is singular at every point in its loss land
 
 :::
 
-\## 4. Degeneracy and Bayesian deep learning ^4-degeneracy-and-bayesian-deep-learning
+\## 4. Degeneracy and Bayesian deep learning{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^4-degeneracy-and-bayesian-deep-learning--}
 
-In [[#^2-what-is-degeneracy|Section 2]] and [[#^3-the-degeneracy-hierarchy|3]], we studied the geometry of degeneracy in parameter space and introduced the local learning coefficient $\lambda(w^{*})$ as a measure of the degree of degeneracy at a local minimum $w^{*}$. We now show that this geometry has consequences for learning (in the Bayesian setting). In particular, it creates a trade-off between model fit and model complexity that drives learning, providing a mechanism for *internal model selection*.
+In {--{"author":"Elias's AI","timestamp":1786983916254}@@[[#^2-what-is-degeneracy|Section --}{++{"author":"Elias's AI","timestamp":1786983916254}@@[[#2. What is degeneracy?|Section ++}2]] and {--{"author":"Elias's AI","timestamp":1786983916254}@@[[#^3-the-degeneracy-hierarchy|3]],--}{++{"author":"Elias's AI","timestamp":1786983916254}@@[[#3. The degeneracy hierarchy|3]],++} we studied the geometry of degeneracy in parameter space and introduced the local learning coefficient $\lambda(w^{*})$ as a measure of the degree of degeneracy at a local minimum $w^{*}$. We now show that this geometry has consequences for learning (in the Bayesian setting). In particular, it creates a trade-off between model fit and model complexity that drives learning, providing a mechanism for *internal model selection*.
 
-\### 4.1 Watanabe's free energy formula ^41-watanabes-free-energy-formula
+\### 4.1 Watanabe's free energy formula{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^41-watanabes-free-energy-formula--}
 
-Recall the Bayesian learning setup from [[#^14-bayesian-deep-learning|Subsection 1.4]]. We have a parameter–distribution map $\Psi : \W \to \D$ sending each parameter $w$ to a conditional distribution with density $p(y \mid x, w)$, a smooth positive prior $\varphi$ on $\W$, and a data set of $n$ i.i.d. examples from a data distribution $q$. Take the loss function to be the negative log-likelihood
+Recall the Bayesian learning setup from {--{"author":"Elias's AI","timestamp":1786983916254}@@[[#^14-bayesian-deep-learning|Subsection--}{++{"author":"Elias's AI","timestamp":1786983916254}@@[[#1.4 Bayesian deep learning|Subsection++} 1.4]]. We have a parameter–distribution map $\Psi : {--{"author":"Elias's AI","timestamp":1786983916254}@@\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}++} \to {--{"author":"Elias's AI","timestamp":1786983916254}@@\D$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{D}$++} sending each parameter $w$ to a conditional distribution with density $p(y \mid x, w)$, a smooth positive prior $\varphi$ on {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}$,++} and a data set of $n$ i.i.d. examples from a data distribution $q$. Take the loss function to be the negative log-likelihood
 
 $$
-L_{n}(w) = -\frac{1}{n}\sum_{i=1}^{n} \log p(y^{(i)}\mid x^{(i)}, w), \qquad L(w) = \E_{(x,y) \sim q}\!\left[-\log p(y \mid x, w)\right].
+L_{n}(w) = -\frac{1}{n}\sum_{i=1}^{n} \log p(y^{(i)}\mid x^{(i)}, w), \qquad L(w) = {--{"author":"Elias's AI","timestamp":1786983916254}@@\E_{(x,y)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{E}_{(x,y)++} \sim q}\!\left[-\log p(y \mid x, w)\right].
 $$
 
-The posterior $\pi_{n}$ is given by Bayes' rule [[#^eq-posterior|(13)]] and as we saw in [[#^ex-posterior-free-energy|Exercise 1.7]] and [[#^ex-partition-decomposition|1.8]] it concentrates around regions of parameter space with the lowest local free energy $F_{n}(\U)$ ([[#^def-local-free-energy|Theorem 1.6]]).
+The posterior $\pi_{n}$ is given by Bayes' rule [[#^eq-posterior|(13)]] and as we saw in [[#^ex-posterior-free-energy|Exercise 1.7]] and [[#^ex-partition-decomposition|1.8]] it concentrates around regions of parameter space with the lowest local free energy {--{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\U)$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\mathcal{U})$++} ([[#^def-local-free-energy|Theorem 1.6]]).
 
-We now state one of the main results of SLT: an asymptotic expansion of $F_{n}(\U)$ as $n \to \infty$. Under certain technical assumptions on the statistical model ([[#^bib-watanabe2018|Watanabe 2018]]; see [[#^bib-lau2025|Lau 2025]], § 2.3.1 for a summary), we have the following theorem.
+We now state one of the main results of SLT: an asymptotic expansion of {--{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\U)$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\mathcal{U})$++} as $n \to \infty$. Under certain technical assumptions on the statistical model ([[#^bib-watanabe2018|Watanabe 2018]]; see [[#^bib-lau2025|Lau 2025]], § 2.3.1 for a summary), we have the following theorem.
 
 :::callout {title="Theorem" tone="purple"}
 
-**Theorem 4.1 (Local free energy formula).** Suppose $\U \subseteq \W$ contains at least one minimiser of $L$, and let $w^{*} \in \U$ be any such minimiser. Define $\lambda_{\U}$ as the smallest local learning coefficient among all minimisers in $\U$, and let $\mu_{\U}$ be the maximum local multiplicity associated with $\lambda_{\U}$. Then, as $n \to \infty$,
+**Theorem 4.1 (Local free energy formula).** Suppose {--{"author":"Elias's AI","timestamp":1786983916254}@@$\U--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{U}++} \subseteq {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$++} contains at least one minimiser of $L$, and let $w^{*} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\U$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{U}$++} be any such minimiser. Define {--{"author":"Elias's AI","timestamp":1786983916254}@@$\lambda_{\U}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\lambda_{\mathcal{U}}$++} as the smallest local learning coefficient among all minimisers in {--{"author":"Elias's AI","timestamp":1786983916254}@@$\U$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{U}$,++} and let {--{"author":"Elias's AI","timestamp":1786983916254}@@$\mu_{\U}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mu_{\mathcal{U}}$++} be the maximum local multiplicity associated with {--{"author":"Elias's AI","timestamp":1786983916254}@@$\lambda_{\U}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\lambda_{\mathcal{U}}$.++} Then, as $n \to \infty$,
 
 
 $$
-F_{n}(\U) = nL_{n}(w^{*}) + \lambda_{\U}\log n - (\mu_{\U}- 1)\log \log n + O_{p}(1).
+{--{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\U)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\mathcal{U})++} = nL_{n}(w^{*}) + {--{"author":"Elias's AI","timestamp":1786983916254}@@\lambda_{\U}\log--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\lambda_{\mathcal{U}}\log++} n - {--{"author":"Elias's AI","timestamp":1786983916254}@@(\mu_{\U}---}{++{"author":"Elias's AI","timestamp":1786983916254}@@(\mu_{\mathcal{U}}-++} 1)\log \log n + O_{p}(1).
 $$
 
 
@@ -2521,7 +2521,7 @@ $$
 
 :::callout {title="Note" tone="neutral"}
 
-**Remark.** Since $L_{n}(w^{*})$ is a random variable, so is $F_{n}(\U)$. The expansion [[#^eq-fef|Equation 49]] is an asymptotic statement about random variables where the remainder $O_{p}(1)$ denotes a term that is bounded in probability as $n \to \infty$.
+**Remark.** Since $L_{n}(w^{*})$ is a random variable, so is {--{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\U)$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\mathcal{U})$.++} The expansion [[#^eq-fef|Equation 49]] is an asymptotic statement about random variables where the remainder $O_{p}(1)$ denotes a term that is bounded in probability as $n \to \infty$.
 
 :::
 
@@ -2531,7 +2531,7 @@ $$
 F_{n} \;\approx\; \underbrace{n L_n\vphantom{\lambda}}_{\text{data fit}}\;+\; \underbrace{\lambda \log n}_{\text{complexity}}
 $$
 
-Let $w_{1}, w_{2} \in \W$ be minimisers of the population loss with $L(w_{1}) = L(w_{2})$ and $\lambda(w_{1}) \leq \lambda(w_{2})$. Then for fixed large $n$, the free energy of a neighbourhood of $w_{1}$ is smaller than that of $w_{2}$, so the posterior concentrates around the simpler solution $w_{1}$.
+Let $w_{1}, w_{2} \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$++} be minimisers of the population loss with $L(w_{1}) = L(w_{2})$ and $\lambda(w_{1}) \leq \lambda(w_{2})$. Then for fixed large $n$, the free energy of a neighbourhood of $w_{1}$ is smaller than that of $w_{2}$, so the posterior concentrates around the simpler solution $w_{1}$.
 
 This is an example of **internal model selection** where there are two equally good solutions that minimise the population loss. However, our learning algorithm (Bayesian updating) prefers one solution over the other, in particular the one with lower complexity.
 
@@ -2542,7 +2542,7 @@ This is an example of **internal model selection** where there are two equally g
 :::
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 4.1 (Numerical demonstration of the free energy formula).** Consider the statistical model underlying the cubically-parameterised loss from [[#^ex-cubic-parameterisation|Exercise 3.7]]. The parameter $\mu \in \R$ indexes the family of normal distributions
+**Exercise 4.1 (Numerical demonstration of the free energy formula).** Consider the statistical model underlying the cubically-parameterised loss from [[#^ex-cubic-parameterisation|Exercise 3.7]]. The parameter $\mu \in {--{"author":"Elias's AI","timestamp":1786983916254}@@\R$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathbb{R}$++} indexes the family of normal distributions
 
 $$
 p(x \mid \mu) = (2\pi)^{-1/2}\exp\!\left(-\frac{1}{2}(x - \mu^{3})^{2}\right).
@@ -2598,32 +2598,32 @@ $$
 
 :::
 
-\### 4.2 Bayesian phase transitions ^42-bayesian-phase-transitions
+\### 4.2 Bayesian phase transitions{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^42-bayesian-phase-transitions--}
 
 So far we have looked at the consequence of the free energy formula when considering $n$ to be fixed. However, we also find it interesting to see what it tells us about changes in the posterior as $n$ increases.
 
 For the rest of this section, assume $n$ is sufficiently large that (i) the free energy can be approximated by the first two terms in its expansion, and (ii) $L_{n} \approx L$ by the law of large numbers, so that the empirical loss can be treated as approximately constant in $n$.
 
-Consider two disjoint regions $\U, \V \subseteq \W$, containing minimisers $u^{\ast}$ and $v^{\ast}$ of the population loss $L$ with local learning coefficients $\lambda_{\U}$ and $\lambda_{\V}$ respectively. Applying the free energy formula to each region, the log posterior odds between the two regions satisfy
+Consider two disjoint regions {--{"author":"Elias's AI","timestamp":1786983916254}@@$\U, \V--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{U}, \mathcal{V}++} \subseteq {--{"author":"Elias's AI","timestamp":1786983916254}@@\W$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{W}$,++} containing minimisers $u^{\ast}$ and $v^{\ast}$ of the population loss $L$ with local learning coefficients {--{"author":"Elias's AI","timestamp":1786983916254}@@$\lambda_{\U}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\lambda_{\mathcal{U}}$++} and {--{"author":"Elias's AI","timestamp":1786983916254}@@$\lambda_{\V}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\lambda_{\mathcal{V}}$++} respectively. Applying the free energy formula to each region, the log posterior odds between the two regions satisfy
 
 
 $$
-\log \frac{\pi_{n}(\U)}{\pi_{n}(\V)}= F_{n}(\V) - F_{n}(\U) \approx n\,\Delta L_{n} + \Delta\lambda \cdot \log n
+\log {--{"author":"Elias's AI","timestamp":1786983916254}@@\frac{\pi_{n}(\U)}{\pi_{n}(\V)}= F_{n}(\V)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\frac{\pi_{n}(\mathcal{U})}{\pi_{n}(\mathcal{V})}= F_{n}(\mathcal{V})++} - {--{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\U)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\mathcal{U})++} \approx n\,\Delta L_{n} + \Delta\lambda \cdot \log n
 $$
 
 
 ^eq-log-odds
 
 
-where $\Delta L_{n} = L_{n}(v^{\ast}) - L_{n}(u^{\ast})$ and $\Delta\lambda = \lambda_{\V}- \lambda_{\U}$.
+where $\Delta L_{n} = L_{n}(v^{\ast}) - L_{n}(u^{\ast})$ and $\Delta\lambda = {--{"author":"Elias's AI","timestamp":1786983916254}@@\lambda_{\V}- \lambda_{\U}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\lambda_{\mathcal{V}}- \lambda_{\mathcal{U}}$.++}
 
 Consider the case when one region is more accurate but more complex than the other i.e.
 
 $$
-L_{n}(u^{\ast}) > L_{n}(v^{\ast}) \qquad\text{and}\qquad \lambda_{\U}< \lambda_{\V}.
+L_{n}(u^{\ast}) > L_{n}(v^{\ast}) \qquad\text{and}\qquad {--{"author":"Elias's AI","timestamp":1786983916254}@@\lambda_{\U}< \lambda_{\V}.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\lambda_{\mathcal{U}}< \lambda_{\mathcal{V}}.++}
 $$
 
-Then $\Delta L_{n} < 0$ and $\Delta\lambda > 0$, so the two terms in [[#^eq-log-odds|(50)]] have opposite signs. For smaller $n$, the $\Delta\lambda \cdot \log n$ term dominates so the log posterior odds is negative meaning the posterior prefers $\U$ (the simpler, less accurate region). As $n$ increases, the linear term $n\,\Delta L_{n}$ eventually dominates the logarithmic term, and the posterior shifts to prefer $\V$ (the more complex, more accurate region). Setting the leading terms equal, this change occurs at a critical sample size $n^{*}$ satisfying
+Then $\Delta L_{n} < 0$ and $\Delta\lambda > 0$, so the two terms in [[#^eq-log-odds|(50)]] have opposite signs. For smaller $n$, the $\Delta\lambda \cdot \log n$ term dominates so the log posterior odds is negative meaning the posterior prefers {--{"author":"Elias's AI","timestamp":1786983916254}@@$\U$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{U}$++} (the simpler, less accurate region). As $n$ increases, the linear term $n\,\Delta L_{n}$ eventually dominates the logarithmic term, and the posterior shifts to prefer {--{"author":"Elias's AI","timestamp":1786983916254}@@$\V$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{V}$++} (the more complex, more accurate region). Setting the leading terms equal, this change occurs at a critical sample size $n^{*}$ satisfying
 
 
 $$
@@ -2639,15 +2639,15 @@ At $n = n^{*}$, the posterior undergoes a **Bayesian phase transition**: the reg
 :::callout {title="Exercise" tone="blue"}
 **Exercise 4.2 (Exploring phase transitions).** We show how *phase transitions* can occur when different local free energies change at different rates.
 
-**(a)** Suppose we partition the overall parameter space into a disjoint union $\W = \U \sqcup \V$. Denote the overall free energy by $F_{n}$ and the local free energies by $F_{n}(\U)$ and $F_{n}(\V)$, respectively. Show that the relationship
+**(a)** Suppose we partition the overall parameter space into a disjoint union {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\U--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{U}++} \sqcup {--{"author":"Elias's AI","timestamp":1786983916254}@@\V$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{V}$.++} Denote the overall free energy by $F_{n}$ and the local free energies by {--{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\U)$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\mathcal{U})$++} and {--{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\V)$,--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\mathcal{V})$,++} respectively. Show that the relationship
 
 $$
-F_{n} = -\log(e^{-F_n(\U)}+ e^{-F_n(\V)})
+F_{n} = {--{"author":"Elias's AI","timestamp":1786983916254}@@-\log(e^{-F_n(\U)}+ e^{-F_n(\V)})--}{++{"author":"Elias's AI","timestamp":1786983916254}@@-\log(e^{-F_n(\mathcal{U})}+ e^{-F_n(\mathcal{V})})++}
 $$
 
 holds.
 
-**(b)** Suppose $F_{n}(\U) \approx 0.3n + 20 \log n$ and $F_{n}(\V) \approx 0.5n + 2 \log n$. Plot the overall free energy $F(n)$. Compare against $\min\{F_{n}(U), F_{n}(\V)\}$. What happens around $n = 570$?
+**(b)** Suppose {--{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\U)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\mathcal{U})++} \approx 0.3n + 20 \log n$ and {--{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\V)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\mathcal{V})++} \approx 0.5n + 2 \log n$. Plot the overall free energy $F(n)$. Compare against $\min\{F_{n}(U), {--{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\V)\}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\mathcal{V})\}$.++} What happens around $n = 570$?
 
 **(c)** In statistical physics, a phase transition is traditionally defined as a discontinuity (or rapid change, for finite-size systems) in the derivatives of the free energy. Plot $\frac{d}{dn}F_{n}$ and explain why this justifies calling the phenomenon from b) a phase transition.
 
@@ -2662,35 +2662,35 @@ holds.
 1. By definition, the partition function is
 
 $$
-Z_{n} = \int_{\W} \varphi(w) \prod_{i=1}^{n} p(x^{(i)}\mid w)\, dw.
+Z_{n} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\W}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\mathcal{W}}++} \varphi(w) \prod_{i=1}^{n} p(x^{(i)}\mid w)\, dw.
 $$
 
-Since $\W = \U \sqcup \V$ is a disjoint union, the integral splits additively:
+Since {--{"author":"Elias's AI","timestamp":1786983916254}@@$\W--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{W}++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\U--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{U}++} \sqcup {--{"author":"Elias's AI","timestamp":1786983916254}@@\V$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\mathcal{V}$++} is a disjoint union, the integral splits additively:
 
 $$
-Z_{n} = \int_{\U} \varphi(w) \prod_{i=1}^{n} p(x^{(i)}\mid w)\, dw + \int_{\V} \varphi(w) \prod_{i=1}^{n} p(x^{(i)}\mid w)\, dw = Z_{n}(\U) + Z_{n}(\V).
+Z_{n} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\U}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\mathcal{U}}++} \varphi(w) \prod_{i=1}^{n} p(x^{(i)}\mid w)\, dw + {--{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\V}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\int_{\mathcal{V}}++} \varphi(w) \prod_{i=1}^{n} p(x^{(i)}\mid w)\, dw = {--{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}(\U)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}(\mathcal{U})++} + {--{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}(\V).--}{++{"author":"Elias's AI","timestamp":1786983916254}@@Z_{n}(\mathcal{V}).++}
 $$
 
 Recalling that $F_{n} = -\log Z_{n}$ and similarly for the local free energies,
 
 $$
-Z_{n} = e^{-F_n(\U)}+ e^{-F_n(\V)},
+Z_{n} = {--{"author":"Elias's AI","timestamp":1786983916254}@@e^{-F_n(\U)}+ e^{-F_n(\V)},--}{++{"author":"Elias's AI","timestamp":1786983916254}@@e^{-F_n(\mathcal{U})}+ e^{-F_n(\mathcal{V})},++}
 $$
 
 and taking the negative logarithm gives
 
 $$
-F_{n} = -\log Z_{n} = -\log(e^{-F_n(\U)}+ e^{-F_n(\V)}).
+F_{n} = -\log Z_{n} = {--{"author":"Elias's AI","timestamp":1786983916254}@@-\log(e^{-F_n(\U)}+ e^{-F_n(\V)}).--}{++{"author":"Elias's AI","timestamp":1786983916254}@@-\log(e^{-F_n(\mathcal{U})}+ e^{-F_n(\mathcal{V})}).++}
 $$
-2. The curves $F_{n}$ and $\min(F_{n}(\U), F_{n}(\V))$ are nearly identical, both track whichever local free energy is smaller. However, $F_{n}$ is smooth whereas $\min(F_{n}(\U), F_{n}(\V))$ has a kink at $n \approx 570$, where $F_{n}(\U) = F_{n}(\V)$. For $n \lesssim 570$ the simpler region $\V$ (lower $\lambda$) dominates; for $n \gtrsim 570$ the lower loss region $\U$ (lower loss coefficient) dominates.
+2. The curves $F_{n}$ and {--{"author":"Elias's AI","timestamp":1786983916254}@@$\min(F_{n}(\U), F_{n}(\V))$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\min(F_{n}(\mathcal{U}), F_{n}(\mathcal{V}))$++} are nearly identical, both track whichever local free energy is smaller. However, $F_{n}$ is smooth whereas {--{"author":"Elias's AI","timestamp":1786983916254}@@$\min(F_{n}(\U), F_{n}(\V))$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\min(F_{n}(\mathcal{U}), F_{n}(\mathcal{V}))$++} has a kink at $n \approx 570$, where {--{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\U)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\mathcal{U})++} = {--{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\V)$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@F_{n}(\mathcal{V})$.++} For $n \lesssim 570$ the simpler region {--{"author":"Elias's AI","timestamp":1786983916254}@@$\V$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{V}$++} (lower $\lambda$) dominates; for $n \gtrsim 570$ the lower loss region {--{"author":"Elias's AI","timestamp":1786983916254}@@$\U$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\mathcal{U}$++} (lower loss coefficient) dominates.
 3. Differentiating the log-sum-exp from (a),
 
 $$
-\frac{d}{dn}F_{n} = \frac{\frac{d}{dn}F_{n}(\U)\,e^{-F_n(\U)}+ \frac{d}{dn}F_{n}(\V)\,e^{-F_n(\V)}}{e^{-F_n(\U)}+ e^{-F_n(\V)}},
+\frac{d}{dn}F_{n} = {--{"author":"Elias's AI","timestamp":1786983916254}@@\frac{\frac{d}{dn}F_{n}(\U)\,e^{-F_n(\U)}+ \frac{d}{dn}F_{n}(\V)\,e^{-F_n(\V)}}{e^{-F_n(\U)}+ e^{-F_n(\V)}},--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\frac{\frac{d}{dn}F_{n}(\mathcal{U})\,e^{-F_n(\mathcal{U})}+ \frac{d}{dn}F_{n}(\mathcal{V})\,e^{-F_n(\mathcal{V})}}{e^{-F_n(\mathcal{U})}+ e^{-F_n(\mathcal{V})}},++}
 $$
 
-Plotting this reveals a steep step around $n \approx 570$, transitioning from $\frac{d}{dn}F_{n}(\V) \approx 0.5$ to $\frac{d}{dn}F_{n}(\U) \approx 0.3$. This rapid change in the derivative of $F_{n}$ is a smooth approximation of a discontinuity, justifying the term *phase transition*.
-4. Write $F_{n}(\U) \approx L_{\U} \, n + \lambda_{\U} \log n$ and $F_{n}(\V) \approx L_{\V} \, n + \lambda_{\V} \log n$, and set $\Delta L = L_{\U} - L_{\V}$ and $\Delta\lambda = \lambda_{\U} - \lambda_{\V}$. The critical sample size $n^{*}$ where the phase transition occurs satisfies
+Plotting this reveals a steep step around $n \approx 570$, transitioning from {--{"author":"Elias's AI","timestamp":1786983916254}@@$\frac{d}{dn}F_{n}(\V)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\frac{d}{dn}F_{n}(\mathcal{V})++} \approx 0.5$ to {--{"author":"Elias's AI","timestamp":1786983916254}@@$\frac{d}{dn}F_{n}(\U)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$\frac{d}{dn}F_{n}(\mathcal{U})++} \approx 0.3$. This rapid change in the derivative of $F_{n}$ is a smooth approximation of a discontinuity, justifying the term *phase transition*.
+4. Write {--{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\U)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\mathcal{U})++} \approx {--{"author":"Elias's AI","timestamp":1786983916254}@@L_{\U}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@L_{\mathcal{U}}++} \, n + {--{"author":"Elias's AI","timestamp":1786983916254}@@\lambda_{\U}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\lambda_{\mathcal{U}}++} \log n$ and {--{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\V)--}{++{"author":"Elias's AI","timestamp":1786983916254}@@$F_{n}(\mathcal{V})++} \approx {--{"author":"Elias's AI","timestamp":1786983916254}@@L_{\V}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@L_{\mathcal{V}}++} \, n + {--{"author":"Elias's AI","timestamp":1786983916254}@@\lambda_{\V}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\lambda_{\mathcal{V}}++} \log n$, and set $\Delta L = {--{"author":"Elias's AI","timestamp":1786983916254}@@L_{\U}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@L_{\mathcal{U}}++} - {--{"author":"Elias's AI","timestamp":1786983916254}@@L_{\V}$--}{++{"author":"Elias's AI","timestamp":1786983916254}@@L_{\mathcal{V}}$++} and $\Delta\lambda = {--{"author":"Elias's AI","timestamp":1786983916254}@@\lambda_{\U}--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\lambda_{\mathcal{U}}++} - {--{"author":"Elias's AI","timestamp":1786983916254}@@\lambda_{\V}$.--}{++{"author":"Elias's AI","timestamp":1786983916254}@@\lambda_{\mathcal{V}}$.++} The critical sample size $n^{*}$ where the phase transition occurs satisfies
 
 $$
 \Delta L \cdot n^{*} = -\Delta\lambda \cdot \log n^{*}, \qquad\text{i.e.}\qquad \frac{n^{*}}{\log n^{*}}= -\frac{\Delta\lambda}{\Delta L}
@@ -2702,11 +2702,11 @@ $n^{*}/\log n^{*}$ is monotonically increasing for $n > e$ so for such $n$, incr
 
 :::
 
-\## 5. Further readings ^5-further-readings
+\## 5. Further readings{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^5-further-readings--}
 
 We conclude by providing several pointers to additional literature and resources for those interested in investigating singular learning theory (SLT) in more detail.
 
-\### 5.1 Other introductions to singular learning theory ^51-other-introductions-to-singular-learning-theory
+\### 5.1 Other introductions to singular learning theory{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^51-other-introductions-to-singular-learning-theory--}
 
 For alternative introductions to SLT, see the following.
 
@@ -2727,7 +2727,7 @@ For a more in-depth introduction to the theoretical foundations of SLT, see Wata
 
 While the theoretical foundation of SLT is described across many research papers by Watanabe and others, the main results are collected in self-contained form in these monographs. Watanabe offers a set of lecture slides ([[#^bib-watanabe2023|Watanabe 2023]]) which may serve as a useful guide to the "big picture" while working through the details in the books. Other key papers include [[#^bib-watanabe2007|Watanabe 2007]]; [[#^bib-watanabe2013|Watanabe 2013]]. See [[#^bib-watanabe2024survey|Watanabe 2024]] for a more detailed survey.
 
-\### 5.2 Recent work on singular deep learning ^52-recent-work-on-singular-deep-learning
+\### 5.2 Recent work on singular deep learning{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^52-recent-work-on-singular-deep-learning--}
 
 Over the last few years, a community of researchers have pursued the application of SLT to advancing the science and safety of deep learning. Some of the ideas behind this research are discussed by [[#^bib-hoogland-2023|Hoogland et al. 2023]]; [[#^bib-skalse-2023|Skalse 2023]]; [[#^bib-pepinlehalleur-2025|Pepin Lehalleur et al. 2025]]; [[#^bib-furman2026|Furman 2026]]. We briefly survey some key topics in this emerging literature.
 
@@ -2767,7 +2767,7 @@ Finally, there has been some attempt to theoretically investigate the links betw
 
 [[#^bib-lau2025|Lau 2025]], Chapter 5 and [[#^bib-urdshals-2025|Urdshals et al. 2025]] develop a theory of minimum description length in degenerate statistical models.
 
-\## References ^references
+\## References{--{"author":"Elias's AI","timestamp":1786983916254}@@ ^references--}
 
 
 Maxwell Adam, Zach Furman, and Jesse Hoogland (2025). [*The Loss Kernel: A Geometric Probe for Deep Learning Interpretability*](https://arxiv.org/abs/2509.26537). arXiv:2509.26537.

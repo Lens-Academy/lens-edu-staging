@@ -17,16 +17,16 @@ content::
 
 :::
 
-\## Prerequisites ^prerequisites
+\## Prerequisites{--{"author":"Elias's AI","timestamp":1786983918302}@@ ^prerequisites--}
 
 * We recommend a basic understanding of deep learning to follow this module.
 * To understand some of the decompositions of AI alignment, it is also useful to have a basic understanding of reinforcement learning, including the notions of a reward function and a policy.
 
-\## Roadmap for today ^roadmap-for-today
+\## Roadmap for today{--{"author":"Elias's AI","timestamp":1786983918302}@@ ^roadmap-for-today--}
 
 Students who are bored since they know the content already can read all texts in the “Reading guide” that they do not know.
 
-\### Session 1: Alignment targets ^session-1-alignment-targets
+\### Session 1: Alignment targets{--{"author":"Elias's AI","timestamp":1786983918302}@@ ^session-1-alignment-targets--}
 
 :::callout {title="Session intent" tone="neutral" collapse="closed"}
 
@@ -54,7 +54,7 @@ Discuss in groups of 3-5 for **30 minutes**. Possible prompts:
 * Which alignment targets seem sufficient for safety? E.g., a corrigible system might cause harm before we change its values. Can it cause catastrophic harm? What about the other notions?   
 * What other ideas for alignment targets do you have? Does your target have a benefit?
 
-\### Session 2: Alignment problem decompositions ^session-2-alignment-problem-decompositions
+\### Session 2: Alignment problem decompositions{--{"author":"Elias's AI","timestamp":1786983918302}@@ ^session-2-alignment-problem-decompositions--}
 
 :::callout {title="Session intent" tone="neutral" collapse="closed"}
 
@@ -83,7 +83,7 @@ Discuss in groups of 3-5 for **30 minutes**. Possible prompts:
 * Think of concrete ways in which modern deep learning systems generalize beyond their explicit training examples. What inductive biases may underlie these examples? Is it always possible to come up with a “clean description” of those biases? Is the inductive bias you come up with enforced in the architecture, or more implicit?  
   * Perhaps: Discuss this explicitly for the case of “emergent misalignment”.
 
-\### Session 3: Goal directedness ^session-3-goal-directedness
+\### Session 3: Goal directedness{--{"author":"Elias's AI","timestamp":1786983918302}@@ ^session-3-goal-directedness--}
 
 :::callout {title="Session intent" tone="neutral" collapse="closed"}
 
@@ -108,7 +108,7 @@ Discuss in groups of 3-5 for **30 minutes**. Possible prompts:
 * Can you think of other convergent instrumental goals than the ones mentioned in basic AI drives?  
 * What is the relationship between corrigibility and convergent instrumental subgoals?
 
-\### Session 4: Uncertain risks and outlook ^session-4-uncertain-risks-and-outlook
+\### Session 4: Uncertain risks and outlook{--{"author":"Elias's AI","timestamp":1786983918302}@@ ^session-4-uncertain-risks-and-outlook--}
 
 :::callout {title="Session intent" tone="neutral" collapse="closed"}
 
@@ -135,11 +135,11 @@ Discuss in groups of 3-5 for **30 minutes**. Possible prompts:
 * Does the analogy between the AI alignment and rocket alignment problems feel accurate? In what ways does it or does it not?  
 * What safety approaches (e.g., on a spectrum from theoretical to empirical) feel most appealing to you, and why? Does this depend on details of the problem you are trying to solve?
 
-\## Daily Checkpoint ^daily-checkpoint
+\## Daily Checkpoint{--{"author":"Elias's AI","timestamp":1786983918302}@@ ^daily-checkpoint--}
 
 Do [the linked quiz](https://docs.google.com/forms/d/e/1FAIpQLSeM_LJhem9MzbH4FcTL58qJ9Tb0bj9GTKKqtz7yhXC2E5OA-Q/viewform?usp=header).
 
-\## Reading guide ^reading-guide
+\## Reading guide{--{"author":"Elias's AI","timestamp":1786983918302}@@ ^reading-guide--}
 
 *Note: To fully understand this content, read the linked texts. A subselection of these can also be found in the “Roadmap for today” section, which explains how we ran this content in-person in the April Iliad Intensive.*
 
@@ -167,11 +167,11 @@ Such an AI system, if successful, would also be able to create its own subgoals 
 
 Our course tries to a large extent a synthesis between different views: We assume for much of the course the “prosaic” picture that powerful AI systems will be based on deep learning systems much like today’s; And we are interested in deep, empirically grounded *mathematical* progress on understanding these systems. Additionally, we include sections on agent foundations that complement this work and do not assume a deep learning frame.
 
-\## Further reading ^further-reading
+\## Further reading{--{"author":"Elias's AI","timestamp":1786983918302}@@ ^further-reading--}
 
 Here we list all readings from above and more.
 
-\### Problem overviews ^problem-overviews
+\### Problem overviews{--{"author":"Elias's AI","timestamp":1786983918302}@@ ^problem-overviews--}
 
 On the alignment problem
 
@@ -188,7 +188,7 @@ Non-misalignment safety problems
 * We may get gradually disempowered even if there is alignment
   * [Gradual Disempowerment: Systematic Existential Risks from Incremental AI Development](https://arxiv.org/abs/2501.16946) argues that humans may be gradually disempowered, potentially leading to catastrophic outcomes, *even if* the alignment problem is technically solved.
 
-\### Alignment targets ^alignment-targets
+\### Alignment targets{--{"author":"Elias's AI","timestamp":1786983918302}@@ ^alignment-targets--}
 
 * [Coherent Extrapolated Volition](https://intelligence.org/files/CEV.pdf): Proposes AI should optimize for what humanity would want "if we knew more, thought faster, were more the people we wished we were".
 * [Clarifying AI Alignment](https://ai-alignment.com/clarifying-ai-alignment-cec47cd69dd6): Defines "intent alignment" as AI trying to do what the operator wants.
@@ -203,7 +203,7 @@ Non-misalignment safety problems
 * [A love for humanity](https://www.snexplores.org/article/artificial-intelligence-ai-safety-good-behavior): “Scott Aaronson says OpenAI’s cofounder, Ilya Sutskever, has asked him how to use math to define what it means for AI to love humanity. Right now, he has no idea how to answer that. But he sees it as a “North Star,” or leading goal, he says. It’s a question “that should always be guiding us.””
 * [Truthful AI](https://arxiv.org/abs/2110.06674): AI that does not lie
 
-\### Alignment problem decompositions ^alignment-problem-decompositions
+\### Alignment problem decompositions{--{"author":"Elias's AI","timestamp":1786983918302}@@ ^alignment-problem-decompositions--}
 
 A popular way to decompose AI alignment is into inner and outer alignment, where outer alignment is the problem of specifying an objective function that evaluates according to our intentions, and inner alignment is the problem of creating an AI system that performs optimally according to the objective function. This decomposition is contested and there exist alternatives, but it is still useful to be aware of it.
 
@@ -247,7 +247,7 @@ Discussion on outer and inner alignment notions
 * [Reward is not the optimization target](https://www.alignmentforum.org/posts/pdaGN6pQyQarFHXF4)
 * [Training stories as an alternative decomposition to outer and inner alignment](https://www.alignmentforum.org/posts/FDJnZt8Ks2djouQTZ/how-do-we-become-confident-in-the-safety-of-a-machine)
 
-\### Goal-directedness ^goal-directedness
+\### Goal-directedness{--{"author":"Elias's AI","timestamp":1786983918302}@@ ^goal-directedness--}
 
 AI misalignment is arguably particularly bad if AI systems develop goals since this may via instrumental convergence lead to a drive to seek power.
 
@@ -271,7 +271,7 @@ Instrumental Convergence / Power-Seeking
 * [Optimal Policies Tend to Seek Power](https://arxiv.org/abs/1912.01683): First formal proof that for most reward functions in MDPs, optimal policies seek power
 * [Parametrically retargetable decision-makers tend to seek power](https://arxiv.org/abs/2206.13477): Extends power-seeking results beyond optimal policies to more realistic parameterized agents.
 
-\### Forecasting risks ^forecasting-risks
+\### Forecasting risks{--{"author":"Elias's AI","timestamp":1786983918302}@@ ^forecasting-risks--}
 
 On how hard it is to achieve alignment
 
@@ -301,7 +301,7 @@ Scenarios
 * [AI 2027](https://ai-2027.com/)
 * [If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All](https://en.wikipedia.org/wiki/If_Anyone_Builds_It,_Everyone_Dies): Book-length argument that creating vastly smarter-than-human AI using anything like current techniques would very likely result in human extinction.
 
-\### Theoretical vs. empirical vs. other approaches ^theoretical-vs-empirical-vs-other-approaches
+\### Theoretical vs. empirical vs. other approaches{--{"author":"Elias's AI","timestamp":1786983918302}@@ ^theoretical-vs-empirical-vs-other-approaches--}
 
 Case for empirical work
 

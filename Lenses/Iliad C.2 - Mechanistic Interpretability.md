@@ -42,19 +42,19 @@ We take turns between lectures, and technical exercises, ending the day in a dis
 
 Lecture notes and materials are self-contained within this repository: [https://github.com/iliad-team/iliad-intensive-C.2](https://github.com/iliad-team/iliad-intensive-C.2)
 
-\## Prerequisites ^prerequisites
+\## Prerequisites{--{"author":"Elias's AI","timestamp":1786983918665}@@ ^prerequisites--}
 
 * Knowing the basics of Machine Learning
 * Familiarity with the Transformer Architecture
 * Basic maths / linear algebra
 
-\## Content ^content
+\## Content{--{"author":"Elias's AI","timestamp":1786983918665}@@ ^content--}
 
-\### Fast Track ^fast-track
+\### Fast Track{--{"author":"Elias's AI","timestamp":1786983918665}@@ ^fast-track--}
 
 Go through the slides below.
 
-\### Main Content ^main-content
+\### Main Content{--{"author":"Elias's AI","timestamp":1786983918665}@@ ^main-content--}
 
 Material:
 
