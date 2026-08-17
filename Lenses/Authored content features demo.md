@@ -58,11 +58,35 @@ Standard Markdown footnotes work in Lens-authored text[^author-note]. Lens-added
 
 Use one `callout` directive for exercises, definitions, remarks, warnings, hints, solutions, and other highlighted course content. Titles are free text.
 
+Source:
+
+```md
+:::callout {title="Definition" tone="purple"}
+A **local minimum** is a point whose value is no greater than values at nearby points.
+:::
+```
+
+Result:
+
 :::callout {title="Definition" tone="purple"}
 A **local minimum** is a point whose value is no greater than values at nearby points.
 :::
 
 Available tones are `neutral`, `blue`, `green`, `amber`, `red`, and `purple`.
+
+Source:
+
+```md
+:::callout {title="Exercise" tone="blue"}
+Why can a local minimum differ from a global minimum?
+:::
+
+:::callout {title="Warning" tone="red"}
+Do not infer global behavior from local information alone.
+:::
+```
+
+Result:
 
 :::callout {title="Exercise" tone="blue"}
 Why can a local minimum differ from a global minimum?
@@ -72,23 +96,49 @@ Why can a local minimum differ from a global minimum?
 Do not infer global behavior from local information alone.
 :::
 
-The title is {--{"author":"Elias's AI","timestamp":1786977108969}@@optional:--}{++{"author":"Elias's AI","timestamp":1786977108969}@@optional for both static and collapsible callouts:++}
+The title is optional for both static and collapsible callouts.
+
+Source:
+
+```md
+:::callout
+This untitled callout is always visible.
+:::
+
+:::callout {tone="neutral" collapse="closed"}
+This untitled callout starts closed.
+:::
+```
+
+Result:
 
 :::callout
 This untitled callout is always visible.
 :::
 
-{++{"author":"Elias's AI","timestamp":1786977108969}@@:::callout {tone="neutral" collapse="closed"}
+:::callout {tone="neutral" collapse="closed"}
 This untitled callout starts closed.
 :::
 
-++}Add `collapse="closed"` to start {++{"author":"Elias's AI","timestamp":1786977108969}@@a titled callout ++}closed:
+Add `collapse="closed"` to start closed. Use `collapse="open"` to start open while allowing the learner to close it.
 
+Source:
+
+```md
 :::callout {title="Hint" tone="amber" collapse="closed"}
 Compare which points each definition quantifies over.
 :::
 
-Use `collapse="open"` to start open while allowing the learner to close it:
+:::callout {title="Worked solution" tone="green" collapse="open"}
+A local minimum compares a point with nearby points. A global minimum compares it with every point in the domain.
+:::
+```
+
+Result:
+
+:::callout {title="Hint" tone="amber" collapse="closed"}
+Compare which points each definition quantifies over.
+:::
 
 :::callout {title="Worked solution" tone="green" collapse="open"}
 A local minimum compares a point with nearby points. A global minimum compares it with every point in the domain.
@@ -96,9 +146,23 @@ A local minimum compares a point with nearby points. A global minimum compares i
 
 \## Nesting
 
-Shared directives can be nested. Give an outer block more colons than its inner {--{"author":"Elias's AI","timestamp":1786977108969}@@block:--}{++{"author":"Elias's AI","timestamp":1786977108969}@@block.
+Shared directives can be nested. Give an outer block more colons than its inner block.
 
-This callout contains a hidden section:++}
+This callout contains a hidden section.
+
+Source:
+
+```md
+::::callout {title="Exercise with optional help" tone="blue"}
+Sketch a non-convex function.
+
+:::hide
+Try a polynomial with more than one valley. :note[The valleys correspond to local minima.]
+:::
+::::
+```
+
+Result:
 
 ::::callout {title="Exercise with optional help" tone="blue"}
 Sketch a non-convex function.
@@ -106,9 +170,23 @@ Sketch a non-convex function.
 :::hide
 Try a polynomial with more than one valley. :note[The valleys correspond to local minima.]
 :::
-::::{++{"author":"Elias's AI","timestamp":1786977108969}@@
+::::
 
-A callout can contain another always-visible callout:
+A callout can contain another always-visible callout.
+
+Source:
+
+```md
+::::callout {title="Outer exercise" tone="blue"}
+Find all local minima of your example function.
+
+:::callout {title="Reminder" tone="purple"}
+A local minimum only compares nearby values.
+:::
+::::
+```
+
+Result:
 
 ::::callout {title="Outer exercise" tone="blue"}
 Find all local minima of your example function.
@@ -118,7 +196,21 @@ A local minimum only compares nearby values.
 :::
 ::::
 
-A callout can also contain a collapsible callout:
+A callout can also contain a collapsible callout.
+
+Source:
+
+```md
+::::callout {title="Exercise with a nested hint" tone="blue"}
+Explain why your chosen point is a local minimum.
+
+:::callout {title="Optional hint" tone="amber" collapse="closed"}
+State which neighbourhood you are comparing.
+:::
+::::
+```
+
+Result:
 
 ::::callout {title="Exercise with a nested hint" tone="blue"}
 Explain why your chosen point is a local minimum.
@@ -126,6 +218,6 @@ Explain why your chosen point is a local minimum.
 :::callout {title="Optional hint" tone="amber" collapse="closed"}
 State which neighbourhood you are comparing.
 :::
-::::++}
+::::
 
 [^author-note]: This footnote uses standard Markdown footnote syntax.
