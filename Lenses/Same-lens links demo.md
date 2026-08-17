@@ -27,7 +27,7 @@ This paragraph can be linked. ^plain-target
 
 A marker on its own line labels whole block immediately above it. This works for callouts too:
 
-### Callout targets
+\### Callout targets
 
 :::callout {title="A target callout" tone="blue"}
 This whole callout is destination. [[#^top|Return to top]]
@@ -35,7 +35,7 @@ This whole callout is destination. [[#^top|Return to top]]
 
 ^callout-target
 
-### Heading targets
+\### Heading targets
 
 Link to heading text with `\[[#Heading targets|link text]]`. No extra marker needed.
 
