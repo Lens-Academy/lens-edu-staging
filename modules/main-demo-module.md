@@ -54,17 +54,15 @@ Each learning outcome is shown to the user as one test page, and each lens is sh
 
 The lenses show in the same order in the learner's UI as in this module file. Learning outcomes are declared FIRST — at the top of the module (or, in modules with submodules, at the top of their submodule) — and the platform automatically renders their tests at the END of the module or submodule. So the declaration order is: learning outcome(s) first, then the lenses that teach them.%%
 
-%% Now that we have a feel for how modules and learning outcomes work, let's {--{"author":"Elias's AI","timestamp":1786974704258}@@have a --}look at {--{"author":"Elias's AI","timestamp":1786974704258}@@what's possible--}{++{"author":"Elias's AI","timestamp":1786974704258}@@shared authored-content features++} inside {--{"author":"Elias's AI","timestamp":1786974704258}@@of lenses. 
-
-Take a look at the following Lens: --}{++{"author":"Elias's AI","timestamp":1786974704258}@@a normal Lens. %%
+%% Now that we have a feel for how modules and learning outcomes work, let's look at shared authored-content features inside a normal Lens. %%
 # Lens:
 source:: [[../Lenses/Authored content features demo]]
 
-++}%%{++{"author":"Elias's AI","timestamp":1786974704258}@@ Article segments add source-specific presentation around imported prose. First see how excerpt boundaries work: %%++}
+%% Article segments add source-specific presentation around imported prose. First see how excerpt boundaries work: %%
 # Lens:
 source:: [[../Lenses/Article excerpt demo]]
 
-%% {--{"author":"Elias's AI","timestamp":1786974704258}@@After you've looked at--}{++{"author":"Elias's AI","timestamp":1786974704258}@@Then inspect++} the {--{"author":"Elias's AI","timestamp":1786974704258}@@above Lens, take--}{++{"author":"Elias's AI","timestamp":1786974704258}@@presentation added around++} a {--{"author":"Elias's AI","timestamp":1786974704258}@@look at this next one:--}{++{"author":"Elias's AI","timestamp":1786974704258}@@deliberately plain article body:++} %%
+%% Then inspect the presentation added around a deliberately plain article body: %%
 # Lens:
 source:: [[../Lenses/Article annotation and text collapse demo]]
 
@@ -72,7 +70,7 @@ source:: [[../Lenses/Article annotation and text collapse demo]]
 # Lens:
 source:: [[../Lenses/Same-lens links demo]]
 
-%% {--{"author":"Elias's AI","timestamp":1786974704258}@@You've now seen how you can add annotations--}{++{"author":"Elias's AI","timestamp":1786974704258}@@Hidden text, Lens notes, footnotes, callouts, Markdown,++} and{--{"author":"Elias's AI","timestamp":1786974704258}@@ collapsed sections from within Article files, as well as define from:: and to:: inside Lenses. Note that `::collapse` and `from::`/`to::` show up --}{++{"author":"Elias's AI","timestamp":1786974704258}@@ math work ++}in {--{"author":"Elias's AI","timestamp":1786974704258}@@the same way to the user. Any text that's collapsed by them is hidden behind bracketed ellipsis `[...]` that the user can click on to see the collapsed text.--}{++{"author":"Elias's AI","timestamp":1786974704258}@@normal Lens-authored content. Article segments separately add attribution, publication metadata, original-source links, article typography, excerpt controls, and media treatment.++} %%
+%% Hidden text, Lens notes, footnotes, callouts, Markdown, and math work in normal Lens-authored content. Article segments separately add attribution, publication metadata, original-source links, article typography, excerpt controls, and media treatment. %%
 
 %% Now take a look at the following Lens, demoing a video: %%
 # Lens:
