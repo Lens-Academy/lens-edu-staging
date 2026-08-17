@@ -20,7 +20,7 @@ Use `:collapse[...]` for a short inline omission:
 
 See for example this: :collapse[this text will be collapsed by default, but can be expanded by the user] isn't that pretty nice?
 
-{--{"author":"Elias's AI","timestamp":1786965128592}@@We can also collapse entire --}{++{"author":"Elias's AI","timestamp":1786965128592}@@Use `:::collapse` for one or more omitted ++}paragraphs:
+Use `:::collapse` for one or more omitted paragraphs:
 
 :::collapse
 This entire paragraph will be collapsed by default,
@@ -30,16 +30,15 @@ but can be opened by the user.
 
 For footnotes added by the article authors, use markdown footnotes[^1]. We can also add Lens-added footnotes with :footnote[This is a footnote added by Lens].
 
-{--{"author":"Elias's AI","timestamp":1786965128592}@@If we want--}{++{"author":"Elias's AI","timestamp":1786965128592}@@Use `:note[...]` for++} an {--{"author":"Elias's AI","timestamp":1786965128592}@@always-visible note, we can do --}{++{"author":"Elias's AI","timestamp":1786965128592}@@inline Lens annotation:
-++}:note[This is a note added by Lens]{--{"author":"Elias's AI","timestamp":1786965128592}@@ or we can do:--}{++{"author":"Elias's AI","timestamp":1786965128592}@@
+Use `:note[...]` for an inline Lens annotation:
+:note[This is a note added by Lens]
 
-Use `::note[...]` for a one-line block:++}
+Use `::note[...]` for a one-line block:
 ::note[This is a note created with two colons `::`, which means it gets its own line.]
 
-{--{"author":"Elias's AI","timestamp":1786965128592}@@Finally, we can do multi-line notes:
---}{++{"author":"Elias's AI","timestamp":1786965128592}@@Use `:::note` for a multiline Lens annotation:
+Use `:::note` for a multiline Lens annotation:
 
-++}:::note
+:::note
 This is the first line of the note.
 
 This is a second.
@@ -48,7 +47,7 @@ This is a third.
 This is rendered on the same line as the third.
 :::
 
-{--{"author":"Elias's AI","timestamp":1786965128592}@@You--}{++{"author":"Elias's AI","timestamp":1786965128592}@@These annotations++} can {--{"author":"Elias's AI","timestamp":1786965128592}@@nest these.--}{++{"author":"Elias's AI","timestamp":1786965128592}@@be nested.++} For example, here is{--{"author":"Elias's AI","timestamp":1786965128592}@@ a--} collapsed {--{"author":"Elias's AI","timestamp":1786965128592}@@field--}{++{"author":"Elias's AI","timestamp":1786965128592}@@text++} :collapse[with a note inside: :note[This note explains why we collapsed this bit of text.]]
+These annotations can be nested. For example, here is collapsed text :collapse[with a note inside: :note[This note explains why we collapsed this bit of text.]]
 
 ## General callouts
 
