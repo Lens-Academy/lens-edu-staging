@@ -20,10 +20,11 @@ Use {--{"author":"Elias's AI","timestamp":1786967838011}@@`:collapse[...]`--}{++
 
 See for example this: {--{"author":"Elias's AI","timestamp":1786967838011}@@:collapse[this--}{++{"author":"Elias's AI","timestamp":1786967838011}@@:hide[this++} text will be {--{"author":"Elias's AI","timestamp":1786967838011}@@collapsed--}{++{"author":"Elias's AI","timestamp":1786967838011}@@hidden++} by default, but can be expanded by the user] isn't that pretty nice?
 
-Use `:::collapse` for one or more omitted paragraphs:
+Use {--{"author":"Elias's AI","timestamp":1786967860486}@@`:::collapse`--}{++{"author":"Elias's AI","timestamp":1786967860486}@@`:::hide`++} for one or more omitted paragraphs:
 
-:::collapse 
-This entire paragraph will be collapsed by default,
+{--{"author":"Elias's AI","timestamp":1786967860486}@@:::collapse 
+--}{++{"author":"Elias's AI","timestamp":1786967860486}@@:::hide
+++}This entire paragraph will be {--{"author":"Elias's AI","timestamp":1786967860486}@@collapsed--}{++{"author":"Elias's AI","timestamp":1786967860486}@@hidden++} by default,
 
 but can be opened by the user.
 :::
