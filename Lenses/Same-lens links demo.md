@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786970368109}@@---
+{++{"author":"Elias's AI","timestamp":1786970436284}@@---
 id: 3dad9c8a-ae43-4441-9aa8-586516e203fb
 title: Same-lens links demo
 tldr: Link directly to headings, paragraphs, and blocks within one Lens.
@@ -7,7 +7,7 @@ summary_for_tutor: Demonstrates Obsidian-style same-Lens heading links and block
 
 #### Text
 content::
-Use same-Lens links when a learner should jump to another part of this page. Links scroll smoothly and stay in this Lens.
+Use same-Lens links when a learner should jump to another part of this page. Links scroll smoothly and stay in this Lens. ^top
 
 Try them:
 
@@ -15,7 +15,7 @@ Try them:
 - [[#^plain-target|Jump to a paragraph]]
 - [[#^callout-target|Jump to a whole callout]]
 
-## Block targets
+!## Block targets
 
 Add a stable marker at the end of a paragraph:
 
@@ -33,13 +33,11 @@ This whole callout is destination. [[#^top|Return to top]]
 
 ^callout-target
 
-## Heading targets
+!## Heading targets
 
 Link to heading text with `\[[#Heading targets|link text]]`. No extra marker needed.
 
 Heading links use visible heading name. Block links use stable IDs, so they keep working if visible wording changes.
 
 [[#^top|Return to top]]
-
-^top
 ++}
