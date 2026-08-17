@@ -6,4 +6,6 @@ title: "Coherent Extrapolated Volition"
 ---
 
 #### Article
-source:: [[../articles/yudkowsky-coherent-extrapolated-volition]]
+source:: [[../articles/yudkowsky-coherent-extrapolated-volition]]{++{"author":"Luc's AI","timestamp":1786986670562}@@
+from:: ## 3. Coherent Extrapolated Volition
+to:: *Interpreted as we wish that interpreted:* I arbitrarily declare this part of the poetry to stand for the volitional dynamic's ability to renormalize, rewrite itself, or replace itself entirely.++}
