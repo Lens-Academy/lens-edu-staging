@@ -10,8 +10,6 @@ provenance_recorded_at: '2026-08-17'
 
 #### Text
 content::
-\### Session 3: Goal directedness
-
 :::callout {title="Session intent" tone="neutral" collapse="closed"}
 
 The participants understand that the worst outcomes of AI misalignment are predicted to come with very goal-directed AI systems as they develop convergent instrumental subgoals, and can reason about whether to expect such systems to emerge. This is important as it helps to focus the students on the potentially most difficult and consequential aspects of AI alignment. Again, this is achieved through readings and discussions.

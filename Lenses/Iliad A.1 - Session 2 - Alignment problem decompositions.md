@@ -10,9 +10,7 @@ provenance_recorded_at: '2026-08-17'
 
 #### Text
 content::
-{--{"author":"Luc's AI","timestamp":1786988642273}@@\### Session 2: Alignment problem decompositions
-
---}:::callout {title="Session intent" tone="neutral" collapse="closed"}
+:::callout {title="Session intent" tone="neutral" collapse="closed"}
 
 The participants learn to reason about how to decompose the *technical* problem of AI alignment (in a machine learning context) into subproblems via training stories and outer/inner misalignment. They also learn about inductive biases, which govern the generalization behavior of AI systems. After this session, students know what questions to ask when reasoning about whether a procedure leads to an alignet AI. Again, they learn all of this through readings and discussions.
 

@@ -10,8 +10,6 @@ provenance_recorded_at: '2026-08-17'
 
 #### Text
 content::
-\### Session 4: Uncertain risks and outlook
-
 :::callout {title="Session intent" tone="neutral" collapse="closed"}
 
 The participants appreciate the spread of views on the question of AI danger, from “essentially solved” to “unsolvable”, learn about model organisms as an approach to reduce uncertainty and learn more about threats, and learn about a view that demands a fundamental science to ensure AI safety. This session is important to capture the genuine uncertainty we face about AI risks, and prompts participants to form their own views. Again, this is achieved through readings and discussioins.
