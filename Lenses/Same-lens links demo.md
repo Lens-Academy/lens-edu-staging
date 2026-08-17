@@ -41,4 +41,4 @@ Link to heading text with `\[[#Heading targets|link text]]`. No extra marker nee
 
 Heading links use visible heading name. Block links use stable IDs, so they keep working if visible wording changes.
 
-[[#^top|Return to top]]
+	[[#^top|Return to top]]t
