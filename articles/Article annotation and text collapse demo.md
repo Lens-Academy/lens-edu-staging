@@ -85,7 +85,19 @@ Do not infer global behavior from local information alone.
 A neutral callout adds structure without strong semantic emphasis.
 :::
 
-### Collapsible callouts
+{++{"author":"Elias's AI","timestamp":1786966161745}@@The title is optional. An untitled callout renders only its content:
+
+```md
+:::callout {tone="neutral"}
+This callout has no title.
+:::
+```
+
+:::callout {tone="neutral"}
+This callout has no title. It still provides a subtle visual grouping.
+:::
+
+++}### Collapsible callouts
 
 Add `collapse="closed"` to start closed:
 
