@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786974100885}@@---
+---
 id: '1b2535de-e642-46ec-ae49-1737fc71c842'
 slug: iliad-agency
 title: "D — Agency"
@@ -15,4 +15,3 @@ source:: [[../Lenses/Iliad D.3.1 - Solomonoff Induction]]
 
 # Lens: D.3.2 AIXI
 source:: [[../Lenses/Iliad D.3.2 - AIXI]]
-++}
