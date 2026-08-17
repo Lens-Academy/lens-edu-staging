@@ -42,25 +42,15 @@ I find it useful to emphasize that it’s not obvious to pair these proposals to
 
 Spend **20 minutes** reading the following texts. Concentrate on the one most interesting to you. 
 
-{--{"author":"Luc's AI","timestamp":1786985138234}@@* [Coherent extrapolated volition](https://intelligence.org/files/CEV.pdf)
-  * Most important: The--}{++{"author":"Luc's AI","timestamp":1786985138234}@@::card[[../Lenses/yudkowsky-coherent-extrapolated-volition]]
+::card[[../Lenses/yudkowsky-coherent-extrapolated-volition|Coherent extrapolated volition]]
 
-> Ask what humanity would want if we knew more, thought faster, and could reconcile our wishes. Focus on the++} first 2.5 pages {--{"author":"Luc's AI","timestamp":1786985138234}@@in--}{++{"author":"Luc's AI","timestamp":1786985138234}@@of++} Section {--{"author":"Luc's AI","timestamp":1786985138234}@@3\.  
-* [Intent alignment](https://ai-alignment.com/clarifying-ai-alignment-cec47cd69dd6)  
-* [Claude’s--}{++{"author":"Luc's AI","timestamp":1786985138234}@@3.
+> Most important: The first 2.5 pages in Section 3\.
 
-::card[[../Lenses/christiano-clarifying-ai-alignment]]
+::card[[../Lenses/christiano-clarifying-ai-alignment|Intent alignment]]
 
-> Separate an AI trying to do what its operator wants from the distinct problem of being capable enough to succeed.
+::card[[../Lenses/anthropic-claudes-new-constitution|Claude’s constitution overview]]
 
-::card[[../Lenses/anthropic-claudes-new-constitution]]
-
-> See how a modern++} constitution {--{"author":"Luc's AI","timestamp":1786985138234}@@overview](https://www.anthropic.com/news/claude-new-constitution).  
-* [Corrigibility](https://www.lesswrong.com/w/corrigibility-1)--}{++{"author":"Luc's AI","timestamp":1786985138234}@@turns broad principles and their reasons into training guidance for Claude.
-
-::card[[../Lenses/lesswrong-corrigibility]]
-
-> Explore why a capable AI may resist correction or shutdown, and what corrigibility would require instead.++}
+::card[[../Lenses/lesswrong-corrigibility|Corrigibility]]
 
 Discuss in groups of 3-5 for **30 minutes**. Possible prompts:
 
@@ -84,25 +74,15 @@ Training stories seem like a rather forgotten framework, a bit akin to the moder
 
 Spend **20 minutes** reading the following texts, concentrating on the one most interesting to you.
 
-{--{"author":"Luc's AI","timestamp":1786985177363}@@* [Training stories](https://www.alignmentforum.org/posts/FDJnZt8Ks2djouQTZ/how-do-we-become-confident-in-the-safety-of-a-machine) 
-  *--}{++{"author":"Luc's AI","timestamp":1786985177363}@@::card[[../Lenses/evhub-how-do-we-become-confident-in-the-safety-of-a-machine-learning-system]]
+::card[[../Lenses/evhub-how-do-we-become-confident-in-the-safety-of-a-machine-learning-system|Training stories]]
 
-> Use training goals, setups, and rationales to ask what would justify confidence in a system's safety.++} Read {--{"author":"Luc's AI","timestamp":1786985177363}@@everything--}{++{"author":"Luc's AI","timestamp":1786985177363}@@through the material++} before the section “How mechanistic does {--{"author":"Luc's AI","timestamp":1786985177363}@@\[...\]”  
-* [Reward misspecification](https://deepmind.google/blog/specification-gaming-the-flip-side-of-ai-ingenuity/)  
-* [Goal misgeneralization](https://deepmind.google/blog/how-undesired-goals-can-arise-with-correct-rewards/)  
-* [On --}{++{"author":"Luc's AI","timestamp":1786985177363}@@[...]”.
+> Read everything before the section “How mechanistic does \[...\]”
 
-::card[[../Lenses/krakovna-specification-gaming-the-flip-side-of-ai-ingenuity]]
+::card[[../Lenses/krakovna-specification-gaming-the-flip-side-of-ai-ingenuity|Reward misspecification]]
 
-> Study concrete cases where agents satisfy the letter of a reward while defeating its intent.
+::card[[../Lenses/shah-how-undesired-goals-can-arise-with-correct-rewards|Goal misgeneralization]]
 
-::card[[../Lenses/shah-how-undesired-goals-can-arise-with-correct-rewards]]
-
-> See how an agent can learn the wrong goal even when its reward specification is correct.
-
-::card[[../Lenses/wilson-deep-learning-is-not-so-mysterious-or-different]]
-
-> Examine how ++}soft inductive {--{"author":"Luc's AI","timestamp":1786985177363}@@biases](https://arxiv.org/abs/2503.02113)--}{++{"author":"Luc's AI","timestamp":1786985177363}@@biases and simple, compressible patterns may shape deep learning's generalization.++}
+::card[[../Lenses/wilson-deep-learning-is-not-so-mysterious-or-different|On soft inductive biases]]
 
 Discuss in groups of 3-5 for **30 minutes**. Possible prompts:
 
@@ -127,14 +107,11 @@ I was thinking about including Gwern’s article on Tool AI’s, but it’s very
 
 Spend **20 minutes** reading the following texts, concentrating on the one most interesting to you. 
 
-{--{"author":"Luc's AI","timestamp":1786985152575}@@* [Will humans build --}{++{"author":"Luc's AI","timestamp":1786985152575}@@::card[[../Lenses/shah-will-humans-build-goal-directed-agents]]
+::card[[../Lenses/shah-will-humans-build-goal-directed-agents|Will humans build goal-directed agents?]]
 
-> Consider whether incentives and usefulness will push people toward building increasingly ++}goal-directed {--{"author":"Luc's AI","timestamp":1786985152575}@@agents?](https://www.alignmentforum.org/posts/9zpT9dikrrebdq3Jf/will-humans-build-goal-directed-agents)  
-* [Basic AI drives](https://selfawaresystems.com/wp-content/uploads/2008/01/ai_drives_final.pdf): Most important: abstract, intro, conclusion, and understanding every heading--}{++{"author":"Luc's AI","timestamp":1786985152575}@@systems.
+::card[[../Lenses/omohundro-the-basic-ai-drives|Basic AI drives]]
 
-::card[[../Lenses/omohundro-the-basic-ai-drives]]
-
-> Follow the foundational argument that many different final goals produce the same instrumental drives. Focus on the abstract, introduction, conclusion,++} and {--{"author":"Luc's AI","timestamp":1786985152575}@@a--}{++{"author":"Luc's AI","timestamp":1786985152575}@@the++} basic argument {--{"author":"Luc's AI","timestamp":1786985152575}@@for its underlying AI drive.--}{++{"author":"Luc's AI","timestamp":1786985152575}@@behind each drive named in the headings.++}
+> Most important: abstract, intro, conclusion, and understanding every heading and a basic argument for its underlying AI drive.
 
 Discuss in groups of 3-5 for **30 minutes**. Possible prompts:
 
@@ -158,19 +135,15 @@ The rocket alignment problem is really quite sophisticated, and much denser in i
 
 Spend **20 minutes** reading the following texts, concentrating on the one most interesting to you.
 
-{--{"author":"Luc's AI","timestamp":1786985177610}@@* [Core views on--}{++{"author":"Luc's AI","timestamp":1786985177610}@@::card[[../Lenses/anthropic-core-views-on-ai-safety-when-why-what-and-how]]
+::card[[../Lenses/anthropic-core-views-on-ai-safety-when-why-what-and-how|Core views on AI safety]]
 
-> Compare optimistic, intermediate, and pessimistic pictures of++} AI {--{"author":"Luc's AI","timestamp":1786985177610}@@safety](https://www.anthropic.com/news/core-views-on-ai-safety): Most important sections:--}{++{"author":"Luc's AI","timestamp":1786985177610}@@safety and Anthropic's empirical portfolio. Focus on++} “Our Approach: Empiricism in AI Safety”, “The role of frontier models in AI {--{"author":"Luc's AI","timestamp":1786985177610}@@safety”--}{++{"author":"Luc's AI","timestamp":1786985177610}@@safety”,++} and {--{"author":"Luc's AI","timestamp":1786985177610}@@”Taking--}{++{"author":"Luc's AI","timestamp":1786985177610}@@“Taking++} a portfolio approach to AI safety”.{--{"author":"Luc's AI","timestamp":1786985177610}@@  
-* [Model organisms --}{++{"author":"Luc's AI","timestamp":1786985177610}@@
+> Most important sections: “Our Approach: Empiricism in AI Safety”, “The role of frontier models in AI safety” and ”Taking a portfolio approach to AI safety”.
 
-::card[[../Lenses/evhub-model-organisms-of-misalignment-the-case-for-a-new-pillar-of-alignment-research]]
+::card[[../Lenses/evhub-model-organisms-of-misalignment-the-case-for-a-new-pillar-of-alignment-research|Model organisms of misalignment]]
 
-> Learn why researchers deliberately build laboratory examples ++}of {--{"author":"Luc's AI","timestamp":1786985177610}@@misalignment](https://www.lesswrong.com/posts/ChDH335ckdvpxXaXX/model-organisms-of-misalignment-the-case-for-a-new-pillar-of-1): Most important: everything--}{++{"author":"Luc's AI","timestamp":1786985177610}@@deception, reward hacking, and other failures. Read through the material++} before “Examples of Model Organisms {--{"author":"Luc's AI","timestamp":1786985177610}@@\[...\]”.  
-* [The rocket alignment problem](https://www.alignmentforum.org/posts/Gg9a4y8reWKtLe3Tn/the-rocket-alignment-problem)--}{++{"author":"Luc's AI","timestamp":1786985177610}@@[...]”.
+> Most important: everything before “Examples of Model Organisms \[...\]”.
 
-::card[[../Lenses/yudkowsky-the-rocket-alignment-problem-gg9a4y8rewktle3tn]]
-
-> Explore the case that safe advanced AI needs deeper theoretical foundations before trial and error can be trusted.++}
+::card[[../Lenses/yudkowsky-the-rocket-alignment-problem-gg9a4y8rewktle3tn|The rocket alignment problem]]
 
 Discuss in groups of 3-5 for **30 minutes**. Possible prompts:
 
@@ -377,6 +350,6 @@ The first **2.5 hours** of this day are devoted to welcoming the participants an
 
 First, explain to the students that this is mostly a conceptual day: The aim is to understand a basic decomposition of the problem of safe AI into specifying an alignment target  and solving the technical alignment problem, which can itself decompose further. We also discuss the basic role that goal-directedness plays in the risks, and basic views on the risk landscape. The aim is that after this day, all students are broadly on the same page about what the alignment problem is, and have some basic impression of how the rest of the course relates to the problem.
 
-:::{++{"author":"Luc's AI","timestamp":1786985189473}@@
+:::
 
-++}
+
