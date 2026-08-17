@@ -1,5 +1,5 @@
-{++{"author":"Elias's AI","timestamp":1786974090335}@@---
-id: '31350242-1e02-409f-aee6-11d60eb4f3b1'
+{++{"author":"Elias's AI","timestamp":1786974283907}@@---
+id: '42d09889-4fb8-4c6c-85dd-96119cee086a'
 title: "D.3.2 AIXI"
 tldr: "Exploring the Bayesian optimal policy for history based reinforcement learning."
 summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet D.3.2, AIXI. Preserve its mathematical notation, exercise sequence, hints, and solutions."
@@ -24,28 +24,24 @@ Much of this material is drawn from ([[#^bib-hutter-24uaibook2|Hutter et al. 202
 
 Problems marked **($\ast$)** are less interesting/insightful and while the result may be used later, I would recommend skipping them on a first pass.
 
-\## Overview
-^overview
+\## Overview ^overview
 
 AIXI is the *action* half of **Universal AI**: it lifts the Bayesian mixture from [Solomonoff induction](/agency/solomonoff-induction) — learning to predict — to learning to act. Now the agent takes actions that shape what it observes, and AIXI is the **Bayes-optimal policy** over a universal mixture $\xi$ of environments. It learns to act as well as if it knew the true environment $\mu$. Under the universal choice — $\cM$ = all lower-semicomputable environments, prior $w_{\nu} = 2^{-K(\nu)}$ — the assumption "$\mu \in \cM$" again becomes "the universe is computable."
 
-\## Prerequisites
-^prerequisites
+\## Prerequisites ^prerequisites
 
 - [Solomonoff Induction](/agency/solomonoff-induction) — **start there first.** The Bayesian mixture, posterior updates, and dominance carry over directly; AIXI reuses them in the action setting.
 - Comfort with discrete probability (conditional distributions, chain rule, expectations).
 - Familiarity with sequential decision-making / reinforcement learning (agents, rewards, discounting, value functions) is useful but not assumed.
 
-\## Further reading
-^further-reading
+\## Further reading ^further-reading
 
 - Hutter, [*An Introduction to Universal Artificial Intelligence*](https://www.hutter1.net/publ/uaibook2.pdf) (2024): Chapter 2.7 (Kolmogorov complexity), Chapters 3.7–3.8 (the model class and universal prior), and Chapter 7.4 (AIXI).
 - Hutter, [*Universal Artificial Intelligence: Sequential Decisions Based on Algorithmic Probability*](http://www.hutter1.net/ai/uaibook.htm) (Springer, 2005) — the original book-length treatment; Lem. 5.28 handles the countable-$\cM$ self-optimizing case.
 - Blackwell & Dubins, [*Merging of Opinions with Increasing Information*](https://doi.org/10.1214/aoms/1177704456) (Ann. Math. Statist., 1962) — the merging-of-opinions theorem behind on-policy value convergence.
 - Leike & Hutter, [*Bad Universal Priors and Notions of Optimality*](https://arxiv.org/abs/1510.04931) (COLT 2015) — adversarial choices of the universal Turing machine can make AIXI behave arbitrarily badly.
 
-\## Goal and Roadmap
-^goal-and-roadmap
+\## Goal and Roadmap ^goal-and-roadmap
 
 This exercise sheet builds towards three main results:
 
@@ -67,8 +63,7 @@ A good target is to complete [[#^7-on-policy-value-convergence-of-bayes|Section 
 - [[#^8-aixi-cannot-be-fooled-in-deterministic-environments|Section 8]] shows *AIXI can't be fooled*: the Bayes-optimal agent achieves non-zero value whenever optimal value is non-zero (in deterministic environments).
 - [[#^9-likelihood-ratios-are-martingales|Sections 9–11]] (advanced stretch goal) prove the *self-optimizing property*: if any policy can learn to act optimally, $\pi_{\xi}^{*}$ inherits this.
 
-\## Setup
-^setup
+\## Setup ^setup
 
 An **agent** interacts with an **environment** in discrete time steps $t = 1, 2, \ldots$.
 
@@ -94,6 +89,7 @@ An **agent** interacts with an **environment** in discrete time steps $t = 1, 2,
 
 ^def-spaces
 
+
 :::callout {title="Definition" tone="purple"}
 
 **Definition 0.2 (Policy $\pi$).** A **policy** $\pi : \cH \to \Delta \cA$ maps each history to a probability distribution over actions. Given history $\aes_{<t}$:
@@ -107,6 +103,7 @@ A policy is **deterministic** if $\pi(a \mid \aes_{<t}) \in \{0,1\}$ for all $a,
 :::
 
 ^def-policy
+
 
 :::callout {title="Definition" tone="purple"}
 
@@ -122,6 +119,7 @@ We write $\nu(\aes_{i:j}) := \prod_{k=i}^{j} \nu(e_{k} \mid \aes_{<k}a_{k})$. Th
 
 ^def-environment
 
+
 :::callout {title="Definition" tone="purple"}
 
 **Definition 0.4 (Interaction measure $\nu^{\pi}$).** When policy $\pi$ interacts with environment $\nu$, the joint probability of a history segment $\aes_{i:j}$ given past $\aes_{<i}$ is
@@ -134,14 +132,15 @@ $$
 
 ^def-interaction
 
-\## 0. Properties of Measures
-^0-properties-of-measures
+
+\## 0. Properties of Measures ^0-properties-of-measures
 
 :::callout {title="Exercise" tone="blue"}
 **Exercise 0.1 (Factorization) [05].** Show that $\nu^{\pi}(\aes_{1:t}) = \pi(\aes_{1:t}) \cdot \nu(\aes_{1:t})$.
 :::
 
 ^prob-factorization
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -156,6 +155,7 @@ Key observation: $\pi(\aes_{1:t})$ is the same regardless of the environment. Wh
 :::
 
 ^prob-chain-rule
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -172,6 +172,7 @@ $$
 :::
 
 ^prob-marginal-percepts
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -197,6 +198,7 @@ i.e. on $\pi$-consistent futures the interaction measure reduces to the environm
 
 ^prob-det-interaction
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 Since $\pi$ is deterministic, $\pi(a_{k} \mid \aes_{<k}) = \llbracket a_{k} = a^{*}_{k} \rrbracket$. By hypothesis $\aes_{i:j}$ is $\pi$-consistent, so every such bracket equals $1$. From [[#^def-interaction|Theorem 0.4]]:
@@ -219,6 +221,7 @@ $$
 
 ^prob-chain-rule-nupi
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 Split the defining product $\nu^{\pi}(\aes_{p:r}\mid \aes_{<p}) = \prod_{k=p}^{r} \pi(a_{k} \mid \aes_{<k})\, \nu(e_{k} \mid \aes_{<k}a_{k})$ at index $q$:
@@ -233,8 +236,7 @@ Note: for a deterministic policy, [[#^prob-det-interaction|Exercise 0.4]] simpli
 
 :::
 
-\## The Bayesian Mixture and Value Function
-^the-bayesian-mixture-and-value-function
+\## The Bayesian Mixture and Value Function ^the-bayesian-mixture-and-value-function
 
 :::callout {title="Definition" tone="purple"}
 
@@ -264,6 +266,7 @@ See [[#^a-worked-example-bayesian-mixture|Appendix A]] for a worked example.
 
 ^def-mixture
 
+
 :::callout {title="Definition" tone="purple"}
 
 **Definition 0.2 (Expectation $\Ex_{\nu}^{\pi}$).** For a function $f : \cH \to \mathbb{R}$ of a finite future segment $\aes'_{t:m}$:
@@ -277,6 +280,7 @@ For functions $f$ of the infinite future (like the value function), with a seque
 :::
 
 ^def-expectation
+
 
 :::callout {title="Definition" tone="purple"}
 
@@ -298,6 +302,7 @@ with the clean recursion $G_{\geq t}= r_{t+1}+ \gamma\, G_{\geq t+1}$ and no bou
 
 ^def-return
 
+
 :::callout {title="Definition" tone="purple"}
 
 **Definition 0.4 (Value function[^1]).** The **value** of policy $\pi$ in environment $\nu$ with horizon $m \geq t$ given history $\aes_{<t}$ is
@@ -314,6 +319,7 @@ The **optimal value** is $V_{\nu}^{*,m}(\aes_{<t}) := \sup_{\pi} V_{\nu}^{\pi,m}
 
 ^def-value
 
+
 :::callout {title="Note" tone="neutral"}
 
 **AIXI.** All results in this sheet hold for any countable $\cM$ and prior weights $w_{\nu}$. **AIXI** is a special case of the Bayes-optimal policy $\pi_{\xi}^{*}$ for the particular choice $\cM :=$ the class of all lower-semicomputable chronological semimeasures, and prior $w_{\nu} := 2^{-K(\nu)}$, where $K(\nu)$ is the Kolmogorov complexity of $\nu$: the length of the shortest program that computes $\nu$. The resulting agent is written $\pi^{*}_{\xi_U}$, or simply AI$\xi$.
@@ -328,8 +334,7 @@ See ([[#^bib-hutter-24uaibook2|Hutter et al. 2024]]): Chapter 2.7 for Kolmogoro
 
 :::
 
-\## 1. Properties of the Bayesian Mixture
-^1-properties-of-the-bayesian-mixture
+\## 1. Properties of the Bayesian Mixture ^1-properties-of-the-bayesian-mixture
 
 :::callout {title="Exercise" tone="blue"}
 **Exercise 1.1 (∗) (Posterior update) [10].** Show that the posterior updates multiplicatively:
@@ -346,6 +351,7 @@ Use the definitions of $w(\nu \mid \aes_{1:t})$ and $w(\nu \mid \aes_{<t})$, and
 :::
 
 ^prob-posterior-update
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -377,6 +383,7 @@ Write $\xi(e_{t} \mid \aes_{<t}a_{t}) = \xi(\aes_{1:t}) / \xi(\aes_{<t})$, expan
 
 ^prob-one-step
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 The one-step conditional is the ratio of joint to marginal: $\xi(e_{t} \mid \aes_{<t}a_{t}) := \xi(\aes_{1:t})/\xi(\aes_{<t})$.
@@ -400,6 +407,7 @@ Recall the formula for geometric series: $(1-\gamma)\sum_{k=0}^{n}\gamma^{k} = 1
 :::
 
 ^prob-bounded-value
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -435,6 +443,7 @@ Apply the general chain rule ([[#^prob-chain-rule-nupi|Exercise 0.5]]) to $\xi(\
 
 ^prob-multi-step-xi
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 Start from the definition $\xi(\aes_{1:m}) = \sum_{\nu \in \cM}w_{\nu}\, \nu(\aes_{1:m})$. Apply the general chain rule ([[#^prob-chain-rule-nupi|Exercise 0.5]]) to both sides: $\xi(\aes_{1:m}) = \xi(\aes_{<t}) \cdot \xi(\aes_{t:m}\mid \aes_{<t})$ and $\nu(\aes_{1:m}) = \nu(\aes_{<t}) \cdot \nu(\aes_{t:m}\mid \aes_{<t})$. Dividing by $\xi(\aes_{<t})$:
@@ -451,8 +460,7 @@ $$
 
 :::
 
-\## 2. Existence of Optimal Policies
-^2-existence-of-optimal-policies
+\## 2. Existence of Optimal Policies ^2-existence-of-optimal-policies
 
 Recall that $V_{\nu}^{*}(\aes_{<t}) := \sup_{\pi} V_{\nu}^{\pi}(\aes_{<t})$ is defined as a supremum over all policies. In general, a supremum need not be achieved: for example, $\sup_{x \in (0,1)}x = 1$, but no $x \in (0,1)$ attains this value. This problem shows that in our setting, the supremum *is* attained, so an optimal policy $\pi_{\nu}^{*}$ with $V_{\nu}^{\pi_\nu^*}= V_{\nu}^{*}$ exists.
 
@@ -461,6 +469,7 @@ Recall that $V_{\nu}^{*}(\aes_{<t}) := \sup_{\pi} V_{\nu}^{\pi}(\aes_{<t})$ is d
 :::
 
 ^prob-sup-eq-max
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -496,6 +505,7 @@ Break up the sum $\sum_{\aes_{t:m}}= \sum_{\aes_t}\sum_{\aes_{t+1:m}}$, and fact
 
 ^prob-bellman-finite
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 *Step 1: Factor the future.* Write $\aes'_{t:m}= \aes'_{t}\, \aes'_{t+1:m}$: $\nu^{\pi}(\aes'_{t:m}\mid \aes_{<t}) = \nu^{\pi}(\aes'_{t} \mid \aes_{<t}) \cdot \nu^{\pi}(\aes'_{t+1:m}\mid \aes_{<t}\, \aes'_{t})$.
@@ -527,6 +537,7 @@ $$
 :::
 
 ^prob-backward-induction
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -561,6 +572,7 @@ where $e_{t}' = o_{t}' r_{t}'$ and $\aes'_{t} = a'_{t} e'_{t}$.
 :::
 
 ^prob-bellman-opt
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -602,6 +614,7 @@ Show $V_{\nu}^{*,m+1}(\aes_{<t}) \geq V_{\nu}^{*,m}(\aes_{<t})$ by expanding $V_
 
 ^prob-inf-horizon
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 We show $V_{\nu}^{*,m+1}(\aes_{<t}) \geq V_{\nu}^{*,m}(\aes_{<t})$ for all $\aes_{<t}$. Since $V_{\nu}^{*,m+1}= \sup_{\pi} V_{\nu}^{\pi,m+1}$, it suffices to show $V_{\nu}^{\pi,m+1}(\aes_{<t}) \geq V_{\nu}^{\pi,m}(\aes_{<t})$ for every $\pi$. Expanding the definition:
@@ -631,6 +644,7 @@ $$
 :::
 
 ^prob-inf-bellman-opt
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -665,6 +679,7 @@ $$
 :::
 
 ^prob-inf-opt-policy
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -726,14 +741,14 @@ $$
 
 :::
 
-\## 3. Dominance of the Bayesian Mixture
-^3-dominance-of-the-bayesian-mixture
+\## 3. Dominance of the Bayesian Mixture ^3-dominance-of-the-bayesian-mixture
 
 :::callout {title="Exercise" tone="blue"}
 **Exercise 3.1 [03].** Show that $\xi(\aes_{<t}) \geq w_{\nu} \cdot \nu(\aes_{<t})$ for every $\nu \in \cM$.
 :::
 
 ^prob-auto1
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -747,14 +762,14 @@ $\xi(\aes_{<t}) = \sum_{\nu' \in \cM}w_{\nu'}\nu'(\aes_{<t}) \geq w_{\nu} \nu(\a
 
 ^prob-auto2
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 By [[#^prob-factorization|Exercise 0.1]]: $\xi^{\pi}(\aes_{1:m}) = \pi(\aes_{1:m}) \cdot \xi(\aes_{1:m}) \geq \pi(\aes_{1:m}) \cdot w_{\nu} \nu(\aes_{1:m}) = w_{\nu} \cdot \nu^{\pi}(\aes_{1:m})$.
 
 :::
 
-\## 4. Properties of $V_{\xi}$
-^4-properties-of-vxi
+\## 4. Properties of $V_{\xi}$ ^4-properties-of-vxi
 
 :::callout {title="Exercise" tone="blue"}
 **Exercise 4.1 [15].** Show that for finite $m$:
@@ -771,6 +786,7 @@ Use the multi-step posterior linearity of $\xi^{\pi}$ ([[#^prob-multi-step-xi|Ex
 :::
 
 ^prob-linearity-finite
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -793,7 +809,9 @@ $$
 **Fact 4.1 (Dominated convergence for sums).** If $a_{\nu,m}\to a_{\nu}$ as $m \to \infty$ for each $\nu$, and $|a_{\nu,m}| \leq b_{\nu}$ for all $m$ with $\sum_{\nu} b_{\nu} < \infty$, then $\sum_{\nu} a_{\nu,m}\to \sum_{\nu} a_{\nu}$. (For finite sums this is trivial.)
 
 ::::
+
 ^thm-dom-conv
+
 
 :::callout {title="Exercise" tone="blue"}
 **Exercise 4.2 (∗) (Infinite-horizon linearity) [17].** Show that the result extends to $m = \infty$:
@@ -810,6 +828,7 @@ Take $m \to \infty$ in the finite-horizon result. You will need [[#^thm-dom-conv
 :::
 
 ^prob-linearity-inf
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -847,6 +866,7 @@ Apply [[#^prob-linearity-finite|Exercise 4.1]] with $\pi = \pi_{\xi}^{*}$, the B
 
 ^prob-convex-opt
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 By [[#^prob-backward-induction|Exercise 2.3]], a deterministic Bayes-optimal policy $\pi_{\xi}^{*}$ exists with $V_{\xi}^{\pi_\xi^*,m}= V_{\xi}^{*,m}$. Applying [[#^prob-linearity-finite|Exercise 4.1]] with $\pi = \pi_{\xi}^{*}$:
@@ -875,6 +895,7 @@ Consider $\cM = \{\nu_{0}, \nu_{1}\}$: predicting a two-headed coin vs. a two-ta
 
 ^prob-nonlinear-opt
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 *Coin-flip prediction.* Let $\cA = \cO = \cR = \{0,1\}$, $\cM = \{\nu_{0}, \nu_{1}\}$ with $w_{\nu_0}= w_{\nu_1}= \tfrac{1}{2}$, horizon $m = 1$. Environment $\nu_{i}$ always shows outcome $i$, and the agent is rewarded for a correct prediction:
@@ -891,8 +912,7 @@ $$
 
 :::
 
-\## 5. The Expectimax Form of AIXI
-^5-the-expectimax-form-of-aixi
+\## 5. The Expectimax Form of AIXI ^5-the-expectimax-form-of-aixi
 
 We have specified AIXI only implicitly, as the Bayes-optimal policy $\pi_{\xi}^{*}$ ([[#^def-value|Theorem 0.4]]). We now unroll this definition into the explicit **expectimax** expression: an alternating sequence of maximizations over actions and $\xi$-expectations over percepts.
 
@@ -917,6 +937,7 @@ Prove the first display by backward induction on $t$ from $m$ down to $1$, using
 :::
 
 ^prob-expectimax-derivation
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -979,13 +1000,11 @@ which expands back into the $\max/\sum$ layers of the first display.
 
 :::
 
-\## On-Policy Value Convergence
-^on-policy-value-convergence
+\## On-Policy Value Convergence ^on-policy-value-convergence
 
 The following problems prove the first two main results: on-policy value convergence ([[#^7-on-policy-value-convergence-of-bayes|Section 7]]), and that AIXI can't be fooled in deterministic environments ([[#^8-aixi-cannot-be-fooled-in-deterministic-environments|Section 8]]). The path to the self-optimizing property (advanced stretch goal) resumes at [[#^9-likelihood-ratios-are-martingales|Section 9]].
 
-\## 6. Bounding Expectation Differences by Total Variation
-^6-bounding-expectation-differences-by-total-variation
+\## 6. Bounding Expectation Differences by Total Variation ^6-bounding-expectation-differences-by-total-variation
 
 :::callout {title="Definition" tone="purple"}
 
@@ -995,6 +1014,7 @@ The following problems prove the first two main results: on-policy value converg
 
 ^def-tv
 
+
 :::callout {title="Definition" tone="purple"}
 
 **Definition 6.2 (Expectation under $P$).** For a probability measure $P$ on a countable set $\Omega$ and a function $f : \Omega \to \mathbb{R}$, the **expectation** of $f$ under $P$ is $\Ex_{P}[f] := \sum_{\omega \in \Omega}f(\omega)\, P(\omega)$.
@@ -1002,6 +1022,7 @@ The following problems prove the first two main results: on-policy value converg
 :::
 
 ^def-expectation-p
+
 
 The following technical lemma is needed for the on-policy value convergence proof.
 
@@ -1016,6 +1037,7 @@ Define $A^{+} = \{\omega \in \Omega : P(\omega) \geq Q(\omega)\}$ and decompose 
 :::
 
 ^prob-auto3
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -1051,8 +1073,7 @@ Therefore $|\Ex_{P}[f] - \Ex_{Q}[f]| \leq c \cdot \TV[\Omega](P, Q)$.
 
 :::
 
-\## 7. On-Policy Value Convergence of Bayes
-^7-on-policy-value-convergence-of-bayes
+\## 7. On-Policy Value Convergence of Bayes ^7-on-policy-value-convergence-of-bayes
 
 The following definitions are needed for the on-policy value convergence theorem.
 
@@ -1086,6 +1107,7 @@ $$
 
 ^def-events
 
+
 :::callout {title="Note" tone="blue"}
 
 **Example: Example: a fair coin shows 1 infinitely often.** Let $\cA = \cO = \{0,1\}$, $\cR = \{0\}$, and let $\nu$ be a fair coin that ignores the action: $\nu(o_{t} = 1 \mid \aes_{<t}\, a_{t}) = \tfrac{1}{2}$ for all $\aes_{<t}, a_{t}$. Consider the event $F := \text{``}o_{t} = 1\text{ for infinitely many }t\text{''}$.
@@ -1114,6 +1136,7 @@ As such, $F^{c}$ (the set of all infinite histories containing only finitely man
 
 ^def-covering
 
+
 :::callout {title="Definition" tone="purple"}
 
 **Definition 7.3 (Convergence $\nu^{\pi}$-almost surely).** Let $f_{t} : \cH^{t-1}\to \mathbb{R}$ be a sequence of functions, where $f_{t}$ depends on the history $\aes_{<t}$ of length $t-1$. We write $f_{t}(\aes_{<t}) \to 0$ $\nu^{\pi}$**-almost surely** ($\nu^{\pi}$-a.s.) if
@@ -1127,6 +1150,7 @@ This set is built from finite-prefix conditions: $\{f_{t} \not\to 0\} = \bigcup_
 :::
 
 ^def-as
+
 
 :::callout {title="Note" tone="blue"}
 
@@ -1157,6 +1181,7 @@ $$
 
 ^thm-on-policy
 
+
 The proof reduces to a finite-horizon TV bound ([[#^prob-tv-finite|Exercise 7.1]]), a covering argument ([[#^prob-covering-proof|Exercise 7.2]]), and the Blackwell–Dubins theorem ([[#^prob-on-policy-proof|Exercise 7.3]]). The only ingredient we do not prove is Blackwell–Dubins itself, which we state as a given fact.
 
 :::callout {title="Exercise" tone="blue"}
@@ -1170,6 +1195,7 @@ where $\cH^{m-t+1}:= (\cA \times \cE)^{m-t+1}$ is the set of all future history 
 :::
 
 ^prob-tv-finite
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -1199,6 +1225,7 @@ Use [[#^3-dominance-of-the-bayesian-mixture|Section 3]].
 
 ^prob-covering-proof
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 By [[#^3-dominance-of-the-bayesian-mixture|Section 3]], $\xi^{\pi}(\aes_{1:m}) \geq w_{\mu} \cdot \mu^{\pi}(\aes_{1:m})$ for all histories and all $m$. So for any event $A$: $\mu^{\pi}(A) > 0 \implies \xi^{\pi}(A) \geq w_{\mu} \cdot \mu^{\pi}(A) > 0$. Hence $\xi^{\pi}$ covers $\mu^{\pi}$.
@@ -1212,7 +1239,9 @@ To complete the proof, we need the TV distance on finite segments to vanish $\mu
 **Fact 7.5 (Blackwell–Dubins merging of opinions ([[#^bib-blackwell-62|Blackwell & Dubins 1962]])).** If $Q$ covers $P$, then $\sup_{S} |P(S \mid \aes_{<t}) - Q(S \mid \aes_{<t})| \to 0$ $P$-almost surely, where the supremum ranges over all measurable events $S$ (including events on infinite histories).
 
 ::::
+
 ^fact-bd
+
 
 The proof of Blackwell–Dubins requires the Radon–Nikodym derivative and Levy's martingale convergence theorem: tools from measure theory that are beyond the scope of this sheet. See ([[#^bib-hutter-24uaibook2|Hutter et al. 2024]], Chapter 3.9) for discussion.
 
@@ -1221,6 +1250,7 @@ The proof of Blackwell–Dubins requires the Radon–Nikodym derivative and Levy
 :::
 
 ^prob-on-policy-proof
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -1258,8 +1288,8 @@ See ([[#^bib-blackwell-62|Blackwell & Dubins 1962]]). The proof uses the Radon�
 
 ^prob-auto4
 
-\## 8. AIXI Cannot Be Fooled in Deterministic Environments
-^8-aixi-cannot-be-fooled-in-deterministic-environments
+
+\## 8. AIXI Cannot Be Fooled in Deterministic Environments ^8-aixi-cannot-be-fooled-in-deterministic-environments
 
 :::callout {title="Theorem" tone="purple"}
 
@@ -1268,6 +1298,7 @@ See ([[#^bib-blackwell-62|Blackwell & Dubins 1962]]). The proof uses the Radon�
 :::
 
 ^thm-cant-be-fooled
+
 
 :::callout {title="Exercise" tone="blue"}
 **Exercise 8.1 [10].** Show that $V_{\xi}^{*}(\aes_{<t}) \geq w(\mu \mid \aes_{<t}) \cdot V_{\mu}^{*}(\aes_{<t})$.
@@ -1280,6 +1311,7 @@ Use linearity of $V^{\pi}$ ([[#^prob-linearity-inf|Exercise 4.2]]).
 :::
 
 ^prob-xi-lower-bound
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -1309,6 +1341,7 @@ $$
 
 ^prob-auto5
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 From [[#^def-mixture|Theorem 0.1]], the posterior weight is:
@@ -1337,13 +1370,11 @@ $$
 
 *Remark.* With the Solomonoff prior, $w_{\mu} = 2^{-K(\mu)}$ may be astronomically small. The result guarantees non-zero value, not near-optimal value.
 
-\## [[#^9-likelihood-ratios-are-martingales|Sections 9–11]]: Self-Optimizing Policy (Finite Model Class)
-^sections-911-self-optimizing-policy-finite-model-class
+\## [[#^9-likelihood-ratios-are-martingales|Sections 9–11]]: Self-Optimizing Policy (Finite Model Class) ^sections-911-self-optimizing-policy-finite-model-class
 
 We now prove: if *any* policy can learn to act optimally, $\pi_{\xi}^{*}$ also learns. We restrict to finite $\cM = \{\nu_{1}, \ldots, \nu_{N}\}$ where each $\nu_{i}$ is a proper probability measure.
 
-\## 9. Likelihood Ratios Are Martingales
-^9-likelihood-ratios-are-martingales
+\## 9. Likelihood Ratios Are Martingales ^9-likelihood-ratios-are-martingales
 
 The following definition and theorem state the main goal of [[#^9-likelihood-ratios-are-martingales|Sections 9–11]].
 
@@ -1357,6 +1388,7 @@ The percepts $e_{1:\infty}$ are sampled from $\nu$; the historic actions $a_{<t}
 
 ^def-selfopt
 
+
 :::callout {title="Theorem" tone="purple"}
 
 **Theorem 9.2 (Self-optimizing; ([[#^bib-hutter-24uaibook2|Hutter et al. 2024]], Theorem 7.5.2)).** Let $\cM$ be finite and fix a historic policy $\pi$. If there exists a $\tilde\pi$ self-optimizing for $\cM$ with respect to $\pi$, then $\pi_{\xi}^{*}$ is also self-optimizing for $\cM$ with respect to $\pi$: for any $\mu \in \cM$, $V_{\mu}^{*}(\aes_{<t}) - V_{\mu}^{\pi_\xi^*}(\aes_{<t}) \to 0$ $\mu^{\pi}$-almost surely.
@@ -1364,6 +1396,7 @@ The percepts $e_{1:\infty}$ are sampled from $\nu$; the historic actions $a_{<t}
 :::
 
 ^thm-selfopt
+
 
 :::callout {title="Definition" tone="purple"}
 
@@ -1379,6 +1412,7 @@ If equality holds, it is a $\mu^{\pi}$-**martingale**.
 
 ^def-supermartingale
 
+
 **Intuition.** A supermartingale is a quantity whose expected future value, given the present, is no larger than its current value: it cannot "drift upward on average." A martingale is the equality case: expected future value equals current value. The key example is the **likelihood ratio** $X_{\nu,t}(\aes_{1:t}) := \nu(\aes_{1:t})/\mu(\aes_{1:t})$: how much more (or less) likely the observed history is under $\nu$ than under the true environment $\mu$. Under $\mu$, this ratio is a martingale: the true environment does not, on average, favour any alternative $\nu$ over itself. Non-negativity plus the (super)martingale structure forces $X_{\nu,t}$ to converge (by Doob's theorem below), which is the engine behind the self-optimizing proof: it lets us separate environments that remain plausible ($X_{\nu,\infty}> 0$) from those that are eventually ruled out ($X_{\nu,\infty}= 0$), and handle each case differently in [[#^11-proving-the-self-optimizing-property|Section 11]].
 
 ::::callout {title="Note" tone="neutral"}
@@ -1390,7 +1424,9 @@ $$
 $$
 
 ::::
+
 ^fact-doob
+
 
 For each $\nu \in \cM$, define the likelihood ratio
 
@@ -1411,6 +1447,7 @@ Write $X_{\nu,t}(\aes_{1:t}) = X_{\nu,t-1}(\aes_{<t}) \cdot \nu(e_{t} \mid \aes_
 :::
 
 ^prob-martingale
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -1442,6 +1479,7 @@ Since $X_{\nu,t}\geq 0$ (a ratio of non-negative quantities), $(X_{\nu,t})_{t \g
 
 ^prob-x-converges
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 $X_{\nu,t}$ is a non-negative $\mu^{\pi}$-supermartingale by [[#^prob-martingale|Exercise 9.1]]. By [[#^fact-doob|Theorem 9.4]] (Doob's convergence theorem), $X_{\nu,t}$ converges $\mu^{\pi}$-a.s. to a finite limit: $X_{\nu,t}\to X_{\nu,\infty}< \infty$.
@@ -1453,6 +1491,7 @@ $X_{\nu,t}$ is a non-negative $\mu^{\pi}$-supermartingale by [[#^prob-martingale
 :::
 
 ^prob-x-bounded-mu
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -1468,8 +1507,7 @@ Since $\cM$ is finite, $X_{\xi,t}= \sum_{\nu} w_{\nu} X_{\nu,t}$ is a finite sum
 
 :::
 
-\## 10. Change of Measure
-^10-change-of-measure
+\## 10. Change of Measure ^10-change-of-measure
 
 :::callout {title="Exercise" tone="blue"}
 **Exercise 10.1 [15].** Let $A$ be a set of finite histories of length $m$. Show:
@@ -1486,6 +1524,7 @@ Use [[#^prob-factorization|Exercise 0.1]] to show $\nu^{\pi}/\mu^{\pi} = \nu/\mu
 :::
 
 ^prob-cm-finite
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -1522,6 +1561,7 @@ We omit the proof and use this identity freely below.
 
 ^prob-cm-extension
 
+
 :::callout {title="Exercise" tone="blue"}
 **Exercise 10.3 (Markov inequality for change of measure) [15].** Let $E$ be an event of infinite histories. For any $\varepsilon > 0$, show that
 
@@ -1537,6 +1577,7 @@ On $E \cap \{X_{\nu,\infty}\geq \varepsilon\}$, $X_{\nu,\infty}\geq \varepsilon$
 :::
 
 ^prob-markov-cm
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -1558,8 +1599,7 @@ Since $E_{\varepsilon} \subseteq E$, $\nu^{\pi}[E_{\varepsilon}] \leq \nu^{\pi}[
 
 :::
 
-\## 11. Proving the Self-Optimizing Property
-^11-proving-the-self-optimizing-property
+\## 11. Proving the Self-Optimizing Property ^11-proving-the-self-optimizing-property
 
 Fix a policy $\tilde\pi$ that is self-optimizing for $\cM$ with respect to $\pi$ ([[#^def-selfopt|Theorem 9.1]]): its existence is the hypothesis of [[#^thm-selfopt|Theorem 9.2]]. For each $\nu \in \cM$, define the **suboptimality gap**
 
@@ -1584,6 +1624,7 @@ Use $V_{\xi}^{\pi_\xi^*}\geq V_{\xi}^{\tilde\pi}$ and [[#^prob-linearity-inf|Exe
 :::
 
 ^prob-chain-ineq
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -1623,6 +1664,7 @@ Show $w(\nu \mid \aes_{<t}) = w_{\nu} X_{\nu,t-1}/X_{\xi,t-1}$ and use [[#^prob-
 
 ^prob-vanishing-posterior
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 From the posterior weight formula, dividing numerator and denominator by $\mu(\aes_{<t})$:
@@ -1648,6 +1690,7 @@ Self-optimizing ([[#^def-selfopt|Theorem 9.1]]) gives $\nu^{\pi}[F] = 0$. Apply 
 :::
 
 ^prob-delta-transfer
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -1675,6 +1718,7 @@ $$
 
 ^prob-single-term
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 Fix $\nu \in \cM$. We show $w(\nu \mid \aes_{<t})\, \delta_{\nu,t}\to 0$ $\mu^{\pi}$-a.s. by considering two exhaustive cases:
@@ -1698,6 +1742,7 @@ $w(\mu \mid \aes_{<t}) = w_{\mu}/X_{\xi,t-1}$.
 :::
 
 ^prob-auto6
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -1738,8 +1783,7 @@ This completes the proof of [[#^thm-selfopt|Theorem 9.2]].
 
 *Remark.* We do not need to know which policy $\tilde\pi$ is self-optimizing, or whether it is computable. Mere existence suffices. For countable $\cM$, this final step is harder: a countable sum of $\mu^{\pi}$-a.s.-convergent sequences need not converge $\mu^{\pi}$-a.s. The general proof uses a "convergence of mixture tails" argument ([[#^bib-hutter-04uaibook|Hutter 2005]], Lem. 5.28).
 
-\## A. Worked Example: Bayesian Mixture
-^a-worked-example-bayesian-mixture
+\## A. Worked Example: Bayesian Mixture ^a-worked-example-bayesian-mixture
 
 :::callout {title="Note" tone="neutral"}
 
@@ -1767,8 +1811,7 @@ $$
 
 **Updated prediction:** $\xi(o_{2} = H \mid \aes_{1}a_{2}) = \tfrac{2}{3}\cdot 1 + \tfrac{1}{3}\cdot \tfrac{1}{2}= \tfrac{5}{6}$.
 
-\## B. Worked Example: Value Function
-^b-worked-example-value-function
+\## B. Worked Example: Value Function ^b-worked-example-value-function
 
 Continuing from [[#^a-worked-example-bayesian-mixture|Appendix A]]. Suppose the agent always predicts $H$ (policy $\pi_{H}$).
 
@@ -1780,8 +1823,7 @@ The mixture value (by [[#^prob-linearity-inf|Exercise 4.2]]) is: $V_{\xi}^{\pi_H
 
 As the agent observes more heads ($\mu = \nu_{HH}$), the posterior on $\nu_{HH}$ increases towards 1, and $V_{\xi}^{\pi_H}\to V_{\nu_{HH}}^{\pi_H}= 1$. This is on-policy value convergence ([[#^thm-on-policy|Theorem 7.4]]) in action.
 
-\## C. Knuth's Difficulty Scale
-^c-knuths-difficulty-scale
+\## C. Knuth's Difficulty Scale ^c-knuths-difficulty-scale
 
 Each subproblem carries a difficulty rating in square brackets, following Knuth's rating scheme for exercises ([[#^bib-knuth-73a|Knuth 1973]]) in slightly adapted form. The rating assumes that the material in the preceding problems (on which the subproblem depends) has been understood. In-between values are possible.
 
@@ -1794,33 +1836,38 @@ Each subproblem carries a difficulty rating in square brackets, following Knuth'
 
 Problems marked **($\ast$)** are enrichment: they are off the critical path to the three main results ([[#^thm-on-policy|Theorem 7.4]], [[#^thm-cant-be-fooled|Theorem 8.1]], [[#^thm-selfopt|Theorem 9.2]]) and can be skipped on a first pass without loss of continuity.
 
-\## References
-^references
+\## References ^references
 
 
 D. Blackwell and L. Dubins (1962). [*Merging of opinions with increasing information*](http://www.dklevine.com/archive/refs4565.pdf). Annals of Mathematical Statistics.
+
 
 ^bib-blackwell-62
 
 
 Marcus Hutter (2005). [*Universal Artificial Intelligence: Sequential Decisions based on Algorithmic Probability*](http://www.hutter1.net/ai/uaibook.htm). Springer.
 
+
 ^bib-hutter-04uaibook
 
 
 Marcus Hutter, David Quarel, and Elliot Catt (2024). [*An Introduction to Universal Artificial Intelligence*](http://www.hutter1.net/ai/uaibook2.htm). Chapman & Hall.
+
 
 ^bib-hutter-24uaibook2
 
 
 D. E. Knuth (1973). *The Art of Computer Programming, Volume I: Fundamental Algorithms*. Addison-Wesley.
 
+
 ^bib-knuth-73a
 
 
 Jan Leike and Marcus Hutter (2015). [*Bad Universal Priors and Notions of Optimality*](https://arxiv.org/abs/1510.04931). CoRR.
 
+
 ^bib-leike-15badpriors
+
 
 [^1]: See [[#^b-worked-example-value-function|Appendix B]] for a worked example. For simplicity, we consider only geometric discounting.
 

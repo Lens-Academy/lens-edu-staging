@@ -1,5 +1,5 @@
-{++{"author":"Elias's AI","timestamp":1786974092620}@@---
-id: '500439ee-f9bd-4d65-990d-a1765245a1e0'
+{++{"author":"Elias's AI","timestamp":1786974257859}@@---
+id: 'e3aefe7c-dd33-4c8f-a292-09d6408fc2a5'
 title: "B.3 Singular Learning Theory"
 tldr: "Singular learning theory (SLT) places degeneracy as a core part of understanding how neural networks learn. We cover the parameter-function map, the meaning of degeneracy through the local learning coefficient, to Watanabe's free energy formula and Bayesian phase transitions."
 summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet B.3, Singular Learning Theory. Preserve its mathematical notation, exercise sequence, hints, and solutions."
@@ -12,8 +12,7 @@ $\gdef\R{\mathbb{R}}\gdef\N{\mathbb{N}}\gdef\E{\mathbb{E}}\gdef\KL{\mathrm{KL}}\
 > *Thou shalt have the power to degenerate*
 >     —*On the Dignity of Man,* 1496
 
-\## Introduction
-^introduction
+\## Introduction ^introduction
 
 *Singular learning theory (SLT)* is a theory of learning that accounts for *degeneracy* in neural networks. What is degeneracy? Let us first appeal to the Cambridge dictionary, documenting some features of typical uses of the word within mathematics:
 
@@ -65,13 +64,11 @@ Once you are done, we hope you will consider taking the scenic route some other 
 
 This tutorial was developed for the April 2026 Iliad Intensive. Some exercises were adapted from [[#^bib-furman2024|Furman 2024]].
 
-\## 1. Preliminaries
-^1-preliminaries
+\## 1. Preliminaries ^1-preliminaries
 
 In this section, we introduce basic terminology and notation for supervised deep learning and supervised Bayesian deep learning, along with some example neural network architectures and statistical models that we will repeatedly study throughout the tutorial.
 
-\### 1.1 Neural networks and parameter–function maps
-^11-neural-networks-and-parameterfunction-maps
+\### 1.1 Neural networks and parameter–function maps ^11-neural-networks-and-parameterfunction-maps
 
 Let $\X$ denote a space of network inputs (e.g., a space of images or token sequences encoded as vectors), and let $\Y$ denote a space of outputs (e.g., a space of numerical scores, class distributions, or next-token distributions).
 
@@ -105,7 +102,9 @@ f_{w}(x) = w^{\top} x = \sum_{i=1}^{d} w_{i} x_{i}.
 $$
 
 ::::
+
 ^eg-neuron
+
 
 Let us generalise this basic neural network in three ways: to add multiple outputs, "depth," and non-linearity. First, we can generalise from a scalar output to a vector output as follows.
 
@@ -118,7 +117,9 @@ f_{w}(x) = W x.
 $$
 
 ::::
+
 ^eg-linear
+
 
 If we take each row of $W$ to encode the weight vector of a linear neuron ([[#^eg-neuron|Theorem 1.1]]), we see that we have produced $m$ outputs by stacking $m$ independent linear neurons together. Such a group of neurons is called a **layer**.
 
@@ -139,7 +140,9 @@ f_{A,B}(x) = B A x.
 $$
 
 ::::
+
 ^eg-dln
+
 
 The above architecture is called a two-layer **deep linear network (DLN)**. The architecture can be interpreted as composing two multi-linear neural networks. The vector of outputs of the neurons of the first network becomes the vector of inputs to the second network. The intermediate output vectors are called **activations**.
 
@@ -163,7 +166,9 @@ $$
 where we lift the activation function to operate element-wise over column vectors $A x \in \R^{h}$.
 
 ::::
+
 ^eg-mlp
+
 This kind of architecture is called a **multi-layer perceptron (MLP).** Note that the two-layer DLN is recovered if we use the identity function as an activation function. However, if we use a non-linear activation function, we can index a much richer hypothesis class.
 
 The expressivity of these architectures is limited, however, by the omission of a basic detail—the inclusion of a bias parameter for each neuron. We invite the reader to correct this omission as our first exercise, which serves as a chance to familiarise oneself with the concept of a parameter–function map.
@@ -173,6 +178,7 @@ The expressivity of these architectures is limited, however, by the omission of 
 :::
 
 ^ex-biased-neurons
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -203,8 +209,7 @@ $$
 
 Modern deep learning leverages more involved parameter–function maps. Neural network architectures are typically defined in a modular fashion, including linear (or affine) layers and non-linear layers like the above, along with more specialised layers (well-known examples including convolutional layers, residual layers, and attention layers).
 
-\### 1.2 Supervised deep learning and loss functions
-^12-supervised-deep-learning-and-loss-functions
+\### 1.2 Supervised deep learning and loss functions ^12-supervised-deep-learning-and-loss-functions
 
 In a typical supervised deep learning setting, we are given a data set of pairs $(x^{(1)}, y^{(1)}),$ $\ldots,$ $(x^{(n)}, y^{(n)}) \in \X \times \Y$. These pairs exemplify inputs and their corresponding (possibly noisy) outputs from an unknown target function $f : \X \to \Y$ which we would like to approximate using a neural network. That is, we would like to find a parameter $w \in \W$ such that the corresponding function $f_{w}$ approximates the target function $f$.
 
@@ -215,7 +220,9 @@ $$
 L_{x,y}(w) = \|f_{w}(x) - y\|^{2}.
 $$
 
+
 ^eq-square-loss
+
 
 If $\Y = \Delta^{m-1}$ is a space of discrete distributions over $m$ objects it is typical to use **cross entropy** loss
 
@@ -224,7 +231,9 @@ $$
 L_{x,y}(w) = - \sum_{i=1}^{m} y(i) \log f_{w}(i \mid x).
 $$
 
+
 ^eq-cross-entropy
+
 
 Given a per-example loss function and a **data distribution** $q \in \Delta(\X\times\Y)$ over the space of examples (representing our possibly-noisy target function), we formalise the objective of supervised learning as finding $w \in \W$ so as to minimise the **population loss** function $L : \W \to \R$ defined such that
 
@@ -247,7 +256,9 @@ $$
 L_{n}(w) = \frac{1}{n} \sum_{i=1}^{n} \left\| f_{w}(x^{(i)}) - y^{(i)}\right\|^{2}.
 $$
 
+
 ^eq-mse
+
 
 :::callout {title="Exercise" tone="blue"}
 **Exercise 1.2 (Empirical loss and population loss).** Fix $w \in \W$. Prove the following properties of the relationship between the empirical loss $L_{n}(w)$ and the population loss $L(w)$.
@@ -262,6 +273,7 @@ $$
 :::
 
 ^ex-empirical-population-loss
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -290,8 +302,7 @@ Given a loss function, a **training algorithm** is a search algorithm that aims 
 
 Through many impressive feats of computer science and hardware/software engineering, we are able to run such training algorithms to find low-loss parameters within parameter spaces with billions of dimensions. The details are vitally important to the success of modern deep learning, but are beyond the scope of this tutorial. We only mention SGD in order to emphasise that *any local search method depends intimately on the properties of the parameter–function map.*
 
-\### 1.3 Statistical models and parameter–distribution maps
-^13-statistical-models-and-parameterdistribution-maps
+\### 1.3 Statistical models and parameter–distribution maps ^13-statistical-models-and-parameterdistribution-maps
 
 The previous sections introduce neural networks and supervised deep learning within a framework of function approximation. An alternative approach is to view supervised learning as statistical inference, and particularly Bayesian inference. This statistical framework is commonly used within the SLT literature, and we will encounter it within this tutorial.
 
@@ -308,7 +319,9 @@ $$
 p(y \mid x, w) = \frac{1}{(2\pi)^{m/2}}\exp\!\left(-\frac{\|y - f_{w}(x)\|^{2}}{2}\right).
 $$
 
+
 ^eq-gaussian-model
+
 
 The above **Gaussian noise model** amounts to modelling each output $y$ as drawn given $x, w$ according to the rule $y = f_{w}(x) + \varepsilon$ with $\varepsilon \sim \mathcal{N}(0, I_{m})$.
 
@@ -329,6 +342,7 @@ $$
 :::
 
 ^ex-nll-mse
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -364,7 +378,9 @@ $$
 y^{(i)}= \delta_{c^{(i)}}\in \Delta^{m-1}
 $$
 
+
 ^eq-classification-dirac
+
 
 to be the corresponding Dirac distribution (with probability mass $1$ concentrated on $c^{(i)}$).
 
@@ -384,6 +400,7 @@ $$
 :::
 
 ^ex-nll-cross-entropy
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -441,6 +458,7 @@ $$
 
 ^ex-nll-energy
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 1. Since labels are sampled independently, the likelihood factorises as
@@ -480,8 +498,7 @@ $$
 
 :::
 
-\### 1.4 Bayesian deep learning
-^14-bayesian-deep-learning
+\### 1.4 Bayesian deep learning ^14-bayesian-deep-learning
 
 The principle of maximum likelihood, explored in the preceding exercises, is one approach to statistical inference. An alternative approach is **Bayesian inference**, which treats $w$ as a random variable and maintains a probability distribution over $\W$ reflecting our uncertainty about which parameter best explains the data. The majority of theoretical results in SLT have been developed within this setting ([[#^bib-watanabe2009|Watanabe 2009]]; [[#^bib-watanabe2018|Watanabe 2018]], cf.,).
 
@@ -496,7 +513,9 @@ $$
 \pi_{n}(w) = \frac{1}{Z_{n}}\varphi(w) \prod_{i=1}^{n}p(y^{(i)}\mid x^{(i)}, w)
 $$
 
+
 ^eq-posterior
+
 
 where $Z_{n} \in \R$ is a normalising constant called the **partition function** (or **marginal likelihood** or **model evidence**),
 
@@ -505,7 +524,9 @@ $$
 Z_{n} = \int_{\W}\varphi(w) \prod_{i=1}^{n}p(y^{(i)}\mid x^{(i)}, w)\, dw.
 $$
 
+
 ^eq-partition-function
+
 
 We often work with the **(Bayesian) free energy**, the negative log of the model evidence,
 
@@ -514,11 +535,14 @@ $$
 F_{n} = -\log Z_{n}.
 $$
 
+
 ^eq-free-energy
+
 
 :::
 
 ^def-posterior
+
 
 The posterior re-weights the prior by the likelihood of the observed data: parameters $w$ under which the data is more probable receive higher posterior density, while parameters under which the data is improbable are down-weighted.
 
@@ -532,7 +556,9 @@ $$
 \begin{aligned}L_{x,y}(w)&= -\log p(y \mid x, w), \\ L_{n}(w)&= -\frac{1}{n}\sum_{i=1}^{n}\log p(y^{(i)}\mid x^{(i)}, w).\end{aligned}
 $$
 
+
 ^eq-nll-loss
+
 
 Here, $p(y \mid x, w)$ is the conditional density from the parameter–distribution map and $(x^{(1)}, y^{(1)}),$ $\ldots,$ $(x^{(n)}, y^{(n)}) \in \X \times \Y$ is a data set of $n$ examples. Show that
 
@@ -548,6 +574,7 @@ $$
 :::
 
 ^ex-gibbs
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -582,11 +609,14 @@ $$
 Z_{n}(\U) = \int_{\U}\varphi(w) \prod_{i=1}^{n}p(y^{(i)}\mid x^{(i)}, w)\, dw, \qquad F_{n}(\U) = -\log Z_{n}(\U).
 $$
 
+
 ^eq-local-free-energy
+
 
 :::
 
 ^def-local-free-energy
+
 
 The local partition function (free energy) measures how well (poorly) parameters within a given neighbourhood collectively explain the data. Note, $Z_{n}(\W) = Z_{n}$ and $F_{n}(\W) = F_{n}$.
 
@@ -601,6 +631,7 @@ In conclusion, the posterior odds ratio of the two regions $\pi_{n}(\U) / \pi_{n
 :::
 
 ^ex-posterior-free-energy
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -637,6 +668,7 @@ In conclusion, the overall free energy is dominated by the region(s) with the lo
 
 ^ex-partition-decomposition
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 1. Since $\U_{1}, \ldots, \U_{k}$ are disjoint and cover $\W$, the integral over $\W$ decomposes as a sum of integrals over each $\U_{j}$:
@@ -672,13 +704,11 @@ The overall free energy is therefore determined by the region with the lowest lo
 
 :::
 
-\## 2. What is degeneracy?
-^2-what-is-degeneracy
+\## 2. What is degeneracy? ^2-what-is-degeneracy
 
 In this section, we define degeneracy as a property of parameter–function maps, and study the relationship between this property and other similar notions.
 
-\### 2.1 A definition of degeneracy
-^21-a-definition-of-degeneracy
+\### 2.1 A definition of degeneracy ^21-a-definition-of-degeneracy
 
 Consider a neural network architecture with parameter space $\W \subseteq \R^{d}$ and parameter–function map $\Phi : \W \to \F$ ($w \mapsto f_{w}$). Say the parameter–function map is **degenerate at $w\in\W$** if there is a non-zero vector $v \in \R^{d}$ such that the directional derivative of the parameter–function map in the direction $v$ is zero:
 
@@ -687,7 +717,9 @@ $$
 D_{v} \Phi(w) = 0.
 $$
 
+
 ^eq-degeneracy
+
 
 The directional derivative $D_{v} \Phi(w)$ for non-zero $v \in \R^{d}$ may be defined variously as
 
@@ -696,7 +728,9 @@ $$
 D_{v} \Phi(w) = \frac{v}{\|v\|}\cdot \nabla \Phi(w) = \sum_{i=1}^{d} \frac{v_{i}}{\|v\|}\frac{\partial \Phi}{\partial w_{i}}(w) = \lim_{\epsilon \to 0}\frac{\Phi(w + \epsilon v) - \Phi(w)}{\epsilon\|v\|}.
 $$
 
+
 ^eq-directional-derivative
+
 
 We conventionally define $D_{0} \Phi(w) = 0$. Note that $w$ is fixed, but the directional derivative is still a function (of the same type as $\Phi(w)$; $D_{v} \Phi(w) : \X \to \Y$), since it represents an infinitesimal change in $\Phi(w)$ in response to a change in $w$ in the direction $v$. In [[#^eq-degeneracy|(19)]] we mean that this function is identically zero for all inputs $x \in \X$ for the given $w \in \W$.
 
@@ -726,6 +760,7 @@ What kind of derivative does this reduce to?
 
 ^ex-univariate-degeneracy
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 1. Since $\W = \R$ is one-dimensional, the directional derivative in direction $v = 1$ reduces to the ordinary derivative:
@@ -753,6 +788,7 @@ What kind of derivative does this reduce to?
 :::
 
 ^ex-cubic-degeneracy
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -791,6 +827,7 @@ what kind of derivative does this reduce to?
 :::
 
 ^ex-product-degeneracy
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -833,6 +870,7 @@ Therefore, the parameter–function map is degenerate *everywhere*. Note that th
 
 ^ex-sum-degeneracy
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 1. The hypothesis class is $\F = \{f_{w} = a + b : (a, b) \in \R^{2}\} = \R$, since for any target $c \in \R$ we can choose, e.g., $a = c$ and $b = 0$. This is the same as in [[#^ex-univariate-degeneracy|Exercise 2.1]].
@@ -845,8 +883,7 @@ $$
 
 :::
 
-\### 2.2 Degeneracy and continuous symmetries
-^22-degeneracy-and-continuous-symmetries
+\### 2.2 Degeneracy and continuous symmetries ^22-degeneracy-and-continuous-symmetries
 
 A common source of degeneracy in neural network architectures is the presence of continuous symmetries of the parameter–function map. A continuous symmetry traces out a curve of functionally equivalent parameters. The tangent to this curve is a degenerate direction. In this section, we will explore this kind of symmetry and some examples from deep learning.
 
@@ -876,6 +913,7 @@ $$
 
 ^ex-sum-symmetry
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 1. The transformation $T_{t}$ translates the parameter $(a, b)$ by $t$ in the direction $(1, -1)$. The orbit of any parameter $(a, b)$ under this family is the line $\{(a + t, b - t) : t \in \R\}$, which has slope $-1$ in the $(a, b)$-plane.
@@ -897,6 +935,7 @@ At each parameter, a non-trivial continuous symmetry traces out a curve of funct
 :::
 
 ^prop-symmetry-degeneracy
+
 
 :::callout {title="Proof" tone="green" collapse="closed"}
 
@@ -931,6 +970,7 @@ The following exercises exhibit some continuous symmetries in two neural network
 :::
 
 ^ex-relu-scaling
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -994,6 +1034,7 @@ What is the dimension of $O(h)$?
 
 ^ex-rotation-symmetry
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 1. For orthogonal $R$ (i.e. $R^{\top} R = I$),
@@ -1043,8 +1084,7 @@ So $O(h)$ contributes $\frac{h(h-1)}{2}$ independent continuous symmetries. For 
 
 :::
 
-\### 2.3 Localised degeneracy
-^23-localised-degeneracy
+\### 2.3 Localised degeneracy ^23-localised-degeneracy
 
 We have seen that a non-trivial continuous symmetry traces out curves of functionally equivalent parameters throughout the entire parameter space, and the tangent directions to these curves are degenerate directions at every point. However, not all degenerate directions arise from globally continuous symmetries. In fact, the more interesting case is when degeneracy affects only some parameters and not others.
 
@@ -1067,6 +1107,7 @@ $$
 :::
 
 ^ex-localised-symmetry
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -1120,6 +1161,7 @@ The following is a guide to one possible approach.
 :::
 
 ^ex-dln-degeneracy
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -1178,6 +1220,7 @@ Here, for each hidden unit $i$, $a_{i}$ is the outgoing weight, $b_{i}$ is the i
 
 ^ex-mlp-degeneracy
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 1. At $a_{i} = 0$, the parameter–function map reduces to
@@ -1226,7 +1269,9 @@ In the direction $(\delta a_{i}, \delta a_{j}) = (1, -1)$, this combined contrib
 **Remark (Rank of a neural network parameter).** In both exercises above, the degree of degeneracy at a parameter is controlled by the amount of redundant capacity in the network. For the two-layer DLN, this is measured by the rank of the product $BA$: a rank-$r$ linear map can be implemented with a hidden dimension of $r$, leaving $m - r$ dimensions redundant. For a general single-hidden-layer MLP, this idea generalises in that we can define the rank of a parameter $w$ as the minimum number of hidden units needed to implement $f_{w}$ ([[#^bib-farrugiaroberts2022|Farrugia-Roberts 2022]]; [[#^bib-farrugiaroberts2024|Farrugia-Roberts 2024]]). In the linear case, this "neural network rank" coincides with the matrix rank of $BA$. In both settings, lower rank corresponds to a higher number of degenerate directions.
 
 ::::
+
 ^rem-rank
+
 
 :::callout {title="Note" tone="neutral"}
 
@@ -1234,8 +1279,7 @@ In the direction $(\delta a_{i}, \delta a_{j}) = (1, -1)$, this combined contrib
 
 :::
 
-\### 2.4 Degeneracy and information singularities
-^24-degeneracy-and-information-singularities
+\### 2.4 Degeneracy and information singularities ^24-degeneracy-and-information-singularities
 
 In the preceding sections, we studied degeneracy as a property of parameter–function maps. In the statistical framework introduced in [[#^13-statistical-models-and-parameterdistribution-maps|Subsection 1.3]], the fundamental object is instead a parameter–distribution map $\Psi : \W \to \D$ ($w \mapsto p_{w} : \X \to \Delta(\Y)$). In this section, we extend the definition of degeneracy to parameter–distribution maps and connect it to a classical quantity from statistics, the Fisher information matrix. We will show that under mild regularity conditions on the statistical model, the Fisher information matrix is singular at $w$ (has zero eigenvalues) if and only if the parameter–distribution map is degenerate at $w$.
 
@@ -1246,7 +1290,9 @@ $$
 D_{v} \Psi(w) = 0.
 $$
 
+
 ^eq-dist-degeneracy
+
 
 Here, $D_{v} \Psi(w)$ is not a conditional distribution but a signed difference between conditional distributions, effectively a real function of $x$ and $y$ (in particular, it may include negative density changes). We mean that this function is zero for all $x \in \X$ and all $y \in \Y$.
 
@@ -1263,7 +1309,9 @@ $$
 s(x, y, w) = \nabla_{w} \log p(y \mid x, w) \in \R^{d}.
 $$
 
+
 ^eq-score
+
 
 The **directional score** in non-zero direction $v \in \R^{d}$ is
 
@@ -1272,13 +1320,16 @@ $$
 s_{v}(x, y, w) = D_{v} \log p(y \mid x, w) = \frac{v}{\|v\|}\cdot \nabla_{w} \log p(y \mid x, w).
 $$
 
+
 ^eq-directional-score
+
 
 The directional score measures how sensitive the log-density is to perturbations of $w$ in direction $v$.
 
 :::
 
 ^def-score
+
 
 :::callout {title="Exercise" tone="blue"}
 **Exercise 2.11 (Basic properties of the score function).** Let $\Psi : \W \to \D$ be a parameter–distribution map with positive densities $p(y \mid x, w)$, differentiable in $w$. Assume that for each $x$ and $w$, the operations $\nabla_{w}$ and $\int_{\Y} \cdot\, dy$ may be exchanged.
@@ -1290,7 +1341,9 @@ $$
 s(x,y,w) = \frac{\nabla_{w} p(y \mid x,w)}{p(y \mid x,w)}.
 $$
 
+
 ^eq-score-identity
+
 
 **(b)** Show that the expected score is zero: for each $x \in \X$ and $w \in \W$,
 
@@ -1310,6 +1363,7 @@ Differentiate the identity $\int_{\Y} p(y \mid x, w) \, dy = 1$.
 :::
 
 ^ex-score-properties
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -1351,11 +1405,14 @@ $$
 I(w) = \E_{x \sim q(x)}\, \E_{y \sim p(y \mid x, w)}\!\bigl[ s(x,y,w)\, s(x,y,w)^{\top} \bigr].
 $$
 
+
 ^eq-fim
+
 
 :::
 
 ^def-fim
+
 
 The Fisher information matrix is symmetric and positive semidefinite at every $w$ (being an expectation of positive semidefinite matrices $s\, s^{\top}$). However, the Fisher information matrix may not be symmetric positive *definite,* that is, it may be singular.
 
@@ -1371,7 +1428,9 @@ $$
 v^{\top} I(w)\, v = \E_{x \sim q(x)}\, \E_{y \sim p(y \mid x, w)}\!\bigl[ s_{v}(x, y, w)^{2} \bigr].
 $$
 
+
 ^eq-fim-quadratic
+
 
 **(b)** Using [[#^ex-score-properties|Exercise 2.11(c)]], show that if $D_{v} \Psi(w) = 0$ for some non-zero $v$, then $I(w)$ is not positive definite.
 ::::callout {title="Hint" tone="amber" collapse="closed"}
@@ -1397,6 +1456,7 @@ That is, the null space of the Fisher information matrix is exactly the space of
 :::
 
 ^ex-fim-degeneracy
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -1425,10 +1485,11 @@ By [[#^ex-fim-degeneracy|Exercise 2.12]], under mild regularity conditions, the 
 [[#^bib-watanabe2007|Watanabe 2007]]; [[#^bib-watanabe2009|Watanabe 2009]] observes that many of the results from classical statistics crucially assume among their regularity conditions the parameter–distribution map is identifiable and the Fisher information matrix is nonsingular. Whereas, in a statistical model based on a non-trivial neural network (or any other statistical model involving hierarchical structure), it is typical for the Fisher information matrix to include singularities.
 
 ::::
+
 ^rem-strictly-singular
 
-\### 2.5 Degeneracy and the loss landscape
-^25-degeneracy-and-the-loss-landscape
+
+\### 2.5 Degeneracy and the loss landscape ^25-degeneracy-and-the-loss-landscape
 
 In the preceding sections, we studied degeneracy as a property of parameter–function maps and parameter–distribution maps. We now consider the implications of degeneracy in these maps for the *loss landscape* in which deep learning algorithms operate.
 
@@ -1450,6 +1511,7 @@ consider separately the cases $\nabla L(w) = 0$ and $\nabla L(w) \neq 0$.
 :::
 
 ^ex-loss-basic
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -1506,6 +1568,7 @@ Compute the Hessian.
 
 ^ex-loss-landscape-degeneracy
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 1. Since $a^{2k}\geq 0$ and $b^{2l}\geq 0$ for all $a, b \in \R$ (using the convention $0^{0} = 1$), we have $L_{k,l}(a,b) \geq 0$ for $k, l \geq 1$, $L_{k,l}(a,b) \geq 1$ if $k = 0$ or $l = 0$, and $L_{k,l}(a,b) = 2$ if $k = l = 0$. At the origin, $L_{k,l}(0,0) = 0^{2k}+ 0^{2l}$, which equals $0$ if $k \geq 1$ and $l \geq 1$, equals $1$ if exactly one of $k, l$ is $0$, and equals $2$ if $k = l = 0$. In each case this matches the lower bound, so the origin is a global minimum.
@@ -1551,7 +1614,9 @@ $$
 -\E_{y \sim p(y \mid x, w)}\!\bigl[ \nabla_{w}^{2} \log p(y \mid x, w) \bigr] = \E_{y \sim p(y \mid x, w)}\!\bigl[ s(x,y,w)\, s(x,y,w)^{\top} \bigr],
 $$
 
+
 ^eq-bartlett
+
 
 where $s$ is the score function from [[#^def-score|Theorem 2.3]].
 ::::callout {title="Hint" tone="amber" collapse="closed"}
@@ -1567,7 +1632,9 @@ $$
 H(w_{0}) = I(w_{0}).
 $$
 
+
 ^eq-fim-hessian
+
 
 ::::callout {title="Hint" tone="amber" collapse="closed"}
 
@@ -1579,6 +1646,7 @@ compute $H(w) = -\E_{x}\, \E_{y \sim p(y \mid x, w_0)}[\nabla_{w}^{2} \log p(y \
 :::
 
 ^ex-fim-hessian
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -1638,6 +1706,7 @@ Contrapositively: if $H(w_{0})$ is positive definite, then $\ker H(w_{0}) = \{0\
 
 ^ex-loss-degeneracy-examples
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 1. The identity parameter–function map $\Phi(a,b) = (a,b)$ has Jacobian equal to the $2 \times 2$ identity matrix everywhere, so it is non-degenerate at every point. [[#^ex-loss-landscape-degeneracy|Exercise 2.14(b)]] shows that $L_{1,1}$ has a non-degenerate minimum: absence of parameter–function map degeneracy is consistent with absence of loss landscape degeneracy. [[#^ex-loss-landscape-degeneracy|Exercise 2.14(c)]] and [[#^ex-loss-landscape-degeneracy|2.14(d)]] show that $L_{2,1}$, $L_{0,1}$, etc., have degenerate minima despite the parameter–function map being non-degenerate. This demonstrates that loss landscape degeneracy does not imply parameter–function map degeneracy.
@@ -1687,15 +1756,13 @@ This does not contradict [[#^ex-fim-hessian|Exercise 2.15]], which establishes $
 
 :::
 
-\## 3. The degeneracy hierarchy
-^3-the-degeneracy-hierarchy
+\## 3. The degeneracy hierarchy ^3-the-degeneracy-hierarchy
 
 We have so far explored different kinds of qualitative degeneracy in the loss landscape. A natural question arises: *how can we quantify the degree of degeneracy at a particular point in parameter space?* In this section, we introduce the local learning coefficient, a rich mathematical object that reflects the degree of degeneracy at a parameter, and we explore it from several perspectives.
 
 In this section and [[#^4-degeneracy-and-bayesian-deep-learning|Section 4]] we assume that any population loss $L$ is a real analytic function. The precise definition of real analyticity is not important for this tutorial but interested readers can refer to ([[#^bib-watanabe2009|Watanabe 2009]]) (section 2). A property that will be useful is that such functions have a convergent Taylor expansion, in particular they have smooth derivatives of all orders.
 
-\### 3.1 The local learning coefficient via volume scaling asymptotics
-^31-the-local-learning-coefficient-via-volume-scaling-asymptotics
+\### 3.1 The local learning coefficient via volume scaling asymptotics ^31-the-local-learning-coefficient-via-volume-scaling-asymptotics
 
 The key idea is to measure the *volume* of near-optimal parameters. Consider a local minimum $w^{*} \in \W$ of the population loss $L$, and suppose we have a sufficiently small closed ball $B(w^{*})$ centred on $w^{*}$ such that $L(w) \geq L(w^{*})$ for all $w \in B(w^{*})$. Given a tolerance $\epsilon > 0$, define the **sublevel set**
 
@@ -1704,7 +1771,9 @@ $$
 B(w^{*}, \epsilon) = \{ w \in B(w^{*}) \mid L(w) - L(w^{*}) < \epsilon \},
 $$
 
+
 ^eq-sublevel-set
+
 
 consisting of all parameters in the ball whose loss is within $\epsilon$ of the minimum. The volume of this set is
 
@@ -1722,7 +1791,9 @@ $$
 V(\epsilon) = c \, \epsilon^{d/2}+ o(\epsilon^{d/2}) \quad \text{as }\epsilon \to 0,
 $$
 
+
 ^eq-regular-volume-scaling
+
 
 for some constant $c>0$ where $d = \dim(\W)$. You may assume that, as $\epsilon \to 0$, the volume of $B(w^{*},\epsilon)$ agrees to leading order with the volume of the quadratic approximation obtained by replacing $L$ with its second-order Taylor expansion at $w^{*}$.
 
@@ -1734,6 +1805,7 @@ The volume of the ellipsoid $\{\boldsymbol{x}\in \R^{d} \mid \boldsymbol{x}^{\to
 :::
 
 ^ex-llc-regular-case
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -1795,6 +1867,7 @@ Use the volume of the ellipsoid from Exercise [[#^ex-llc-regular-case|3.1]]
 
 ^ex-quad-valley-scaling
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 1. The loss is $L(x_{1}, x_{2}) = x_{1}^{2}$, which is a parabolic trough: a parabola in the $x_{1}$ direction and constant along $x_{2}$. The zero set is the line $x_{1} = 0$.
@@ -1833,13 +1906,16 @@ $$
 V(\epsilon) = c \, \epsilon^{\lambda(w^*)}(-\log \epsilon)^{\mu(w^*)-1}+ o\!\left(\epsilon^{\lambda(w^*)}(-\log \epsilon)^{\mu(w^*)-1}\right).
 $$
 
+
 ^eq-llc-volume
+
 
 We call $\lambda(w^{*})$ the **local learning coefficient (LLC)** at $w^{*}$, and $\mu(w^{*})$ the **local multiplicity**.
 
 :::
 
 ^def-llc
+
 
 :::callout {title="Exercise" tone="blue"}
 **Exercise 3.3 (Two equations for $\lambda$).** **(a)** Prove that for $a>1$
@@ -1849,7 +1925,9 @@ $$
 \lambda = \lim_{\epsilon \to 0}\frac{\log(V(a\epsilon)/V(\epsilon))}{\log(a)}
 $$
 
+
 ^eq-llc-formula
+
 
 **(b)** Prove that
 
@@ -1858,10 +1936,13 @@ $$
 \lambda = \lim\limits_{\epsilon\to 0}\frac{\log V(\epsilon)}{\log \epsilon}
 $$
 
+
 ^eq-solve-llc
+
 :::
 
 ^ex-solving-for-lambda
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -1930,6 +2011,7 @@ When $\mu(w^{*}) = 1$, the formula simplifies to $V(\epsilon) = c\epsilon^{\lamb
 
 ^ex-calculating-llc
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 1. $V(\epsilon) = \operatorname{Vol}(\{x : x^{2} < \epsilon\}) = 2\sqrt{\epsilon}$, so $V(\epsilon) \propto \epsilon^{1/2}$ and $\lambda = 1/2$. The Hessian is $L''(0) = 2$, which has rank $1$ (full rank).
@@ -1982,6 +2064,7 @@ $$
 :::
 
 ^ex-lambda-upper-bound
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -2042,6 +2125,7 @@ Construct two loss functions $L_{1}$ and $L_{2}$ with minima $w_{1}$ and $w_{2}$
 
 ^ex-llc-hessian-rank
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 Let $L_{1}(x,y) = x^{2}+y^{4}$ with $w_{1} = (0,0)$. Then $\nabla^{2}L_{1}(0,0) = \operatorname{diag}(2, 0)$, so $\operatorname{rank}\nabla^{2}L_{1}(0,0) = 1$. By [[#^ex-calculating-llc|Exercise 3.4]], $\lambda(w_{1}) = \frac{3}{4}$.
@@ -2075,6 +2159,7 @@ Even though the asymptotic *learning coefficient* ($\epsilon \to 0$) only change
 :::
 
 ^ex-cubic-parameterisation
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -2139,8 +2224,7 @@ The function is a smooth, symmetric bump centred at $\mu_{0} = 0$ with no discon
 
 :::
 
-\### 3.2 Perspectives on the local learning coefficient
-^32-perspectives-on-the-local-learning-coefficient
+\### 3.2 Perspectives on the local learning coefficient ^32-perspectives-on-the-local-learning-coefficient
 
 In this section, we survey several alternative perspectives on the LLC, from information theory, algebraic geometry, and geometric measure theory.
 
@@ -2175,7 +2259,9 @@ $$
 \lambda(w^{*}) \;=\; \min_{\text{coordinate charts}}\; \min_{j:\, k_j > 0}\frac{h_{j} + 1}{2k_{j}}\,.
 $$
 
+
 ^eq-rlct
+
 
 The resolution map $g$ is far from unique, and different choices produce different exponents $k_{j}, h_{j}$. $\lambda(w^{*})$ is nevertheless well-defined which can be seen from (another) equivalent definition using the **local zeta function**:
 
@@ -2184,7 +2270,9 @@ $$
 \zeta(z,\, w^{*}) \;=\; \int_{B(w^*)}\bigl(L(w) - L(w^{*})\bigr)^{\!z}\, dw\,,
 $$
 
+
 ^eq-local-zeta
+
 
 which converges for $\operatorname{Re}(z) > 0$ and extends to a meromorphic function on $\mathbb{C}$ whose poles are all real, negative, and rational. The LLC $\lambda(w^{*})$ is precisely the negative of the largest pole, and the multiplicity $\mu(w^{*})$ is the multiplicity of this pole. Since [[#^eq-local-zeta|(44)]] makes no reference to any resolution, $\lambda(w^{*})$ depends only on $L$ and $w^{*}$.
 
@@ -2203,6 +2291,7 @@ $$
 :::
 
 ^ex-rlct-computation
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -2227,7 +2316,9 @@ $$
 \alpha(x) = \lim_{\epsilon \to 0}\frac{\log \nu(B_{\epsilon}(x))}{\log \epsilon},
 $$
 
+
 ^eq-holder-exp
+
 
 where $B_{\epsilon}(x)$ is the ball of radius $\epsilon$ centred at $x$. Equivalently, $\alpha(x)$ is the unique real number such that
 
@@ -2238,6 +2329,7 @@ $$
 :::
 
 ^def-holder-exponent
+
 
 The Hölder exponent generalises the notion of dimension: when $\nu$ is the Lebesgue measure on $\R^{d}$ and $\rho$ is the Euclidean metric, every point has $\alpha(x) = d$, but for measures concentrated on fractal sets the exponent can be non-integer. Notice that the formula [[#^eq-holder-exp|(45)]] has a similar form to the definition of the local learning coefficient [[#^eq-llc-formula|(38)]]. To make this connection precise, we introduce a pseudo-metric induced by the loss function.
 
@@ -2252,6 +2344,7 @@ $$
 :::
 
 ^def-loss-metric
+
 
 :::callout {title="Note" tone="neutral"}
 
@@ -2277,6 +2370,7 @@ $$
 
 ^ex-holder-llc
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 Under the loss pseudo-metric $\rho(w,u) = |L(w) - L(u)|$, the $\epsilon$-ball centred at $w^{*}$ (within $B(w^{*})$) is
@@ -2297,8 +2391,7 @@ by Equation [[#^eq-solve-llc|(39)]]
 
 :::
 
-\### 3.3 Local learning coefficients of deep linear networks
-^33-local-learning-coefficients-of-deep-linear-networks
+\### 3.3 Local learning coefficients of deep linear networks ^33-local-learning-coefficients-of-deep-linear-networks
 
 Having established the local learning coefficient as a measure of degeneracy in the loss landscape, we now compute it explicitly for the two-layer deep linear network introduced in [[#^1-preliminaries|Section 1]]. In [[#^2-what-is-degeneracy|Section 2]], we saw that DLN parameters exhibit varying degrees of degeneracy depending on the ranks of the component matrices ([[#^ex-dln-degeneracy|Exercise 2.9]], [[#^rem-rank|Remark 2.2]]). The LLC makes this hierarchy quantitative: different ranks correspond to different learning coefficients, confirming that lower-rank parameters are geometrically "simpler."
 
@@ -2334,6 +2427,7 @@ $$
 
 ^thm-aoyagi-watanabe
 
+
 :::callout {title="Exercise" tone="blue"}
 **Exercise 3.10 (Learning coefficients of two-layer DLNs).** Consider the constant-width two-layer DLN from [[#^ex-dln-degeneracy|Exercise 2.9]]: $y = BAx$, where $x \in \R^{m}$ are the inputs, $y \in \R^{m}$ are the outputs, and $A, B \in \R^{m \times m}$ are linear transformations. The parameter space is $\W = \R^{2m^2}$ and the parameters are the pair $(A, B) \in \W$.
 
@@ -2345,6 +2439,7 @@ $$
 :::
 
 ^ex-dln-lc
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -2390,13 +2485,11 @@ This tells us that the two-layer DLN is singular at every point in its loss land
 
 :::
 
-\## 4. Degeneracy and Bayesian deep learning
-^4-degeneracy-and-bayesian-deep-learning
+\## 4. Degeneracy and Bayesian deep learning ^4-degeneracy-and-bayesian-deep-learning
 
 In [[#^2-what-is-degeneracy|Section 2]] and [[#^3-the-degeneracy-hierarchy|3]], we studied the geometry of degeneracy in parameter space and introduced the local learning coefficient $\lambda(w^{*})$ as a measure of the degree of degeneracy at a local minimum $w^{*}$. We now show that this geometry has consequences for learning (in the Bayesian setting). In particular, it creates a trade-off between model fit and model complexity that drives learning, providing a mechanism for *internal model selection*.
 
-\### 4.1 Watanabe's free energy formula
-^41-watanabes-free-energy-formula
+\### 4.1 Watanabe's free energy formula ^41-watanabes-free-energy-formula
 
 Recall the Bayesian learning setup from [[#^14-bayesian-deep-learning|Subsection 1.4]]. We have a parameter–distribution map $\Psi : \W \to \D$ sending each parameter $w$ to a conditional distribution with density $p(y \mid x, w)$, a smooth positive prior $\varphi$ on $\W$, and a data set of $n$ i.i.d. examples from a data distribution $q$. Take the loss function to be the negative log-likelihood
 
@@ -2417,11 +2510,14 @@ $$
 F_{n}(\U) = nL_{n}(w^{*}) + \lambda_{\U}\log n - (\mu_{\U}- 1)\log \log n + O_{p}(1).
 $$
 
+
 ^eq-fef
+
 
 :::
 
 ^thm-fef
+
 
 :::callout {title="Note" tone="neutral"}
 
@@ -2475,6 +2571,7 @@ $$
 
 ^ex-fef-numerical
 
+
 :::callout {title="Solution" tone="green" collapse="closed"}
 
 This exercise is computational. We outline the procedure and key observations.
@@ -2501,8 +2598,7 @@ $$
 
 :::
 
-\### 4.2 Bayesian phase transitions
-^42-bayesian-phase-transitions
+\### 4.2 Bayesian phase transitions ^42-bayesian-phase-transitions
 
 So far we have looked at the consequence of the free energy formula when considering $n$ to be fixed. However, we also find it interesting to see what it tells us about changes in the posterior as $n$ increases.
 
@@ -2515,7 +2611,9 @@ $$
 \log \frac{\pi_{n}(\U)}{\pi_{n}(\V)}= F_{n}(\V) - F_{n}(\U) \approx n\,\Delta L_{n} + \Delta\lambda \cdot \log n
 $$
 
+
 ^eq-log-odds
+
 
 where $\Delta L_{n} = L_{n}(v^{\ast}) - L_{n}(u^{\ast})$ and $\Delta\lambda = \lambda_{\V}- \lambda_{\U}$.
 
@@ -2532,7 +2630,9 @@ $$
 \frac{n^{*}}{\log n^{*}}\approx \frac{\Delta\lambda}{\lvert\Delta L_{n}\rvert}.
 $$
 
+
 ^eq-critical-n
+
 
 At $n = n^{*}$, the posterior undergoes a **Bayesian phase transition**: the region that dominates the posterior changes abruptly.
 
@@ -2555,6 +2655,7 @@ holds.
 :::
 
 ^ex-phase-transitions
+
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
@@ -2601,13 +2702,11 @@ $n^{*}/\log n^{*}$ is monotonically increasing for $n > e$ so for such $n$, incr
 
 :::
 
-\## 5. Further readings
-^5-further-readings
+\## 5. Further readings ^5-further-readings
 
 We conclude by providing several pointers to additional literature and resources for those interested in investigating singular learning theory (SLT) in more detail.
 
-\### 5.1 Other introductions to singular learning theory
-^51-other-introductions-to-singular-learning-theory
+\### 5.1 Other introductions to singular learning theory ^51-other-introductions-to-singular-learning-theory
 
 For alternative introductions to SLT, see the following.
 
@@ -2628,8 +2727,7 @@ For a more in-depth introduction to the theoretical foundations of SLT, see Wata
 
 While the theoretical foundation of SLT is described across many research papers by Watanabe and others, the main results are collected in self-contained form in these monographs. Watanabe offers a set of lecture slides ([[#^bib-watanabe2023|Watanabe 2023]]) which may serve as a useful guide to the "big picture" while working through the details in the books. Other key papers include [[#^bib-watanabe2007|Watanabe 2007]]; [[#^bib-watanabe2013|Watanabe 2013]]. See [[#^bib-watanabe2024survey|Watanabe 2024]] for a more detailed survey.
 
-\### 5.2 Recent work on singular deep learning
-^52-recent-work-on-singular-deep-learning
+\### 5.2 Recent work on singular deep learning ^52-recent-work-on-singular-deep-learning
 
 Over the last few years, a community of researchers have pursued the application of SLT to advancing the science and safety of deep learning. Some of the ideas behind this research are discussed by [[#^bib-hoogland-2023|Hoogland et al. 2023]]; [[#^bib-skalse-2023|Skalse 2023]]; [[#^bib-pepinlehalleur-2025|Pepin Lehalleur et al. 2025]]; [[#^bib-furman2026|Furman 2026]]. We briefly survey some key topics in this emerging literature.
 
@@ -2669,251 +2767,299 @@ Finally, there has been some attempt to theoretically investigate the links betw
 
 [[#^bib-lau2025|Lau 2025]], Chapter 5 and [[#^bib-urdshals-2025|Urdshals et al. 2025]] develop a theory of minimum description length in degenerate statistical models.
 
-\## References
-^references
+\## References ^references
 
 
 Maxwell Adam, Zach Furman, and Jesse Hoogland (2025). [*The Loss Kernel: A Geometric Probe for Deep Learning Interpretability*](https://arxiv.org/abs/2509.26537). arXiv:2509.26537.
+
 
 ^bib-adam-2025
 
 
 Miki Aoyagi and Sumio Watanabe (2005). *Stochastic complexities of reduced rank regression in Bayesian estimation*. Neural Networks.
 
+
 ^bib-aoyagi-watanabe2005
 
 
 Miki Aoyagi (2009). *Log canonical threshold of Vandermonde matrix type singularities and generalization error of a three layered neural network in Bayesian estimation*. International Journal of Pure and Applied Mathematics.
+
 
 ^bib-aoyagi2009
 
 
 Miki Aoyagi (2024). *Consideration on the learning efficiency of multiple-layered neural networks with linear units*. Neural Networks.
 
+
 ^bib-aoyagi2024
 
 
 Garrett Baker, George Wang, Jesse Hoogland, and Daniel Murfet (2025). [*Structural Inference: Interpreting Small Language Models with Susceptibilities*](https://arxiv.org/abs/2504.18274). arXiv:2504.18274.
+
 
 ^bib-baker-2025
 
 
 Liam Carroll (2021). [*Phase Transitions in Neural Networks*](https://therisingsea.org/notes/MSc-Carroll.pdf). School of Mathematics and Statistics, the University of Melbourne.
 
+
 ^bib-carroll2021
 
 
 Liam Carroll (2023). [*Distilling Singular Learning Theory*](https://www.lesswrong.com/s/czrXjvCLsqGepybHC).
+
 
 ^bib-carroll2023
 
 
 Liam Carroll, Jesse Hoogland, Matthew Farrugia-Roberts, and Daniel Murfet (2025). [*Dynamics of Transient Structure in In-Context Linear Regression Transformers*](https://arxiv.org/abs/2501.17745). arXiv:2501.17745.
 
+
 ^bib-carroll-2025
 
 
 Zhongtian Chen and Daniel Murfet (2025). [*Modes of Sequence Models and Learning Coefficients*](https://arxiv.org/abs/2504.18048). arXiv:2504.18048.
+
 
 ^bib-chen-murfet2025
 
 
 Zhongtian Chen, Edmund Lau, Jake Mendel, Susan Wei, and Daniel Murfet (2023). [*Dynamical versus Bayesian Phase Transitions in a Toy Model of Superposition*](https://arxiv.org/abs/2310.06301). arXiv:2310.06301.
 
+
 ^bib-chen-2023
 
 
 James Clift, Daniel Murfet, and James Wallbridge (2021). [*Geometry of Program Synthesis*](https://arxiv.org/abs/2103.16080). arXiv:2103.16080.
+
 
 ^bib-clift-2021
 
 
 Nelson Elhage, Tristan Hume, Catherine Olsson, Nicholas Schiefer, Tom Henighan, Shauna Kravec, Zac Hatfield-Dodds, Robert Lasenby, Dawn Drain, Carol Chen, Roger Grosse, Sam McCandlish, Jared Kaplan, Dario Amodei, Martin Wattenberg, and Christopher Olah (2022). *Toy Models of Superposition*. Transformer Circuits Thread.
 
+
 ^bib-elhage-2022
 
 
 Chris Elliott, Einar Urdshals, David Quarel, Matthew Farrugia-Roberts, and Daniel Murfet (2026). [*Stagewise Reinforcement Learning and the Geometry of the Regret Landscape*](https://arxiv.org/abs/2601.07524). arXiv:2601.07524.
+
 
 ^bib-elliott-2026
 
 
 Matthew Farrugia-Roberts (2022). [*Structural Degeneracy in Neural Networks*](https://far.in.net/mthesis). School of Computing and Information Systems, the University of Melbourne.
 
+
 ^bib-farrugiaroberts2022
 
 
 Matthew Farrugia-Roberts (2023). [*Functional Equivalence and Path Connectivity of Reducible Hyperbolic Tangent Networks*](https://proceedings.neurips.cc/paper_files/paper/2023/hash/fb64a43508e0cfe53ee6179ff31ea900-Abstract-Conference.html). Advances in Neural Information Processing Systems 36.
+
 
 ^bib-farrugiaroberts2023
 
 
 Matthew Farrugia-Roberts (2024). [*Losslessly Compressible Neural Network Parameters*](https://openreview.net/forum?id=VhhsbII0Lk). Workshop on Machine Learning and Compression.
 
+
 ^bib-farrugiaroberts2024
 
 
 Zach Furman (2023). [*Introduction to RLCT estimation*](https://github.com/zfurman56/intro-lc-estimation/).
+
 
 ^bib-furman2023
 
 
 Zach Furman (2024). [*Singular learning theory: Exercises*](https://www.lesswrong.com/posts/3HYqTAi4kD35G3BzQ/).
 
+
 ^bib-furman2024
 
 
 Zach Furman (2026). *Deep learning as program synthesis*.
+
 
 ^bib-furman2026
 
 
 Andrew Gordon, Garrett Baker, George Wang, William Snell, Stan van Wingerden, and Daniel Murfet (2026). [*Towards Spectroscopy: Susceptibility Clusters in Language Models*](https://arxiv.org/abs/2601.12703). arXiv:2601.12703.
 
+
 ^bib-gordon-2026
 
 
 Rohan Hitchcock and Jesse Hoogland (2025). [*From Global to Local: A Scalable Benchmark for Local Posterior Sampling*](https://arxiv.org/abs/2507.21449). arXiv:2507.21449.
+
 
 ^bib-hitchcock-hoogland2025
 
 
 Jesse Hoogland, Alexander Gietelink Oldenziel, Daniel Murfet, and Stan van Wingerden (2023). [*Towards Developmental Interpretability*](https://www.alignmentforum.org/posts/TjaeCWvLZtEDAS5Ex/).
 
+
 ^bib-hoogland-2023
 
 
 Jesse Hoogland, George Wang, Matthew Farrugia-Roberts, Liam Carroll, Susan Wei, and Daniel Murfet (2025). *Loss Landscape Degeneracy and Stagewise Development in Transformers*. Transactions on Machine Learning Research.
+
 
 ^bib-hoogland-2025
 
 
 Philipp Alexander Kreer, Wilson Wu, Maxwell Adam, Zach Furman, and Jesse Hoogland (2025). [*Bayesian Influence Functions for Hessian-Free Data Attribution*](https://arxiv.org/abs/2509.26544). arXiv:2509.26544.
 
+
 ^bib-kreer-2025
 
 
 Edmund Lau and Zhongtian Chen (2023). [*Singular Learning Theory: The Low Road*](https://www.youtube.com/playlist?list=PL4vaU_gO_6LIf5CHU3Z3CT39fha55pe16).
+
 
 ^bib-lau-chen2023
 
 
 Edmund Lau (2025). *A Singular Perspective on Machine Learning*. School of Mathematics and Statistics, the University of Melbourne.
 
+
 ^bib-lau2025
 
 
 Edmund Lau, Zach Furman, George Wang, Daniel Murfet, and Susan Wei (2025). [*The Local Learning Coefficient: A Singularity-Aware Complexity Measure*](https://openreview.net/forum?id=1av51ZlsuL). The 28th International Conference on Artificial Intelligence and Statistics.
+
 
 ^bib-lau-2025
 
 
 Jin Hwa Lee, Matthew Smith, Maxwell Adam, and Jesse Hoogland (2025). [*Influence Dynamics and Stagewise Data Attribution*](https://arxiv.org/abs/2510.12071). arXiv:2510.12071.
 
+
 ^bib-lee-2025
 
 
 Daniel Murfet and Liam Carroll (2023). [*Singular Learning Theory: The High Road*](https://www.youtube.com/playlist?list=PL4vaU_gO_6LJ4isj5DESGg4OwfVEk98Y-).
+
 
 ^bib-murfet-carroll2023
 
 
 Daniel Murfet and Will Troiani (2025). [*Programs as Singularities*](https://arxiv.org/abs/2504.08075). arXiv:2504.08075.
 
+
 ^bib-murfet-troiani2025
 
 
 Daniel Murfet (2024). [*Simple versus short: Higher-order degeneracy and error-correction*](https://www.alignmentforum.org/posts/nWRj6Ey8e5siAEXbK/).
+
 
 ^bib-murfet2024
 
 
 Nina Panickssery and Dmitry Vaintrob (2023). [*Investigating the learning coefficient of modular addition*](https://www.alignmentforum.org/posts/4v3hMuKfsGatLXPgt).
 
+
 ^bib-panickssery-vaintrob2023
 
 
 Simon Pepin Lehalleur, Jesse Hoogland, Matthew Farrugia-Roberts, Susan Wei, Alexander Gietelink Oldenziel, George Wang, Liam Carroll, and Daniel Murfet (2025). [*You Are What You Eat--AI Alignment Requires Understanding How Data Shapes Structure and Generalisation*](https://arxiv.org/abs/2502.05475). arXiv:2502.05475.
+
 
 ^bib-pepinlehalleur-2025
 
 
 Joar Skalse (2023). [*My criticism of singular learning theory*](https://www.alignmentforum.org/posts/ALJYj4PpkqyseL7kZ/).
 
+
 ^bib-skalse-2023
 
 
 Einar Urdshals and Jasmina Urdshals (2025). [*Structure Development in List-Sorting Transformers*](https://arxiv.org/abs/2501.18666). arXiv:2501.18666.
+
 
 ^bib-urdshals-urdshals2025
 
 
 Einar Urdshals, Edmund Lau, Jesse Hoogland, Stan van Wingerden, and Daniel Murfet (2025). [*Compressibility Measures Complexity: Minimum Description Length Meets Singular Learning Theory*](https://arxiv.org/abs/2510.12077). arXiv:2510.12077.
 
+
 ^bib-urdshals-2025
 
 
 George Wang and Daniel Murfet (2026). [*Patterning: The Dual of Interpretability*](https://arxiv.org/abs/2601.13548). arXiv:2601.13548.
+
 
 ^bib-wang-murfet2026
 
 
 George Wang, Matthew Farrugia-Roberts, Jesse Hoogland, Liam Carroll, Susan Wei, and Daniel Murfet (2024). [*Loss landscape geometry reveals stagewise development of transformers*](https://openreview.net/forum?id=2JabyZjM5H). High-dimensional Learning Dynamics 2024: The Emergence of Structure and Reasoning.
 
+
 ^bib-wang-2024
 
 
 George Wang, Jesse Hoogland, Stan van Wingerden, Zach Furman, and Daniel Murfet (2025). [*Differentiation and Specialization of Attention Heads via the Refined Local Learning Coefficient*](https://openreview.net/forum?id=SUc1UOWndp). International Conference on Learning Representations.
+
 
 ^bib-wang-2025differentiation
 
 
 George Wang, Garrett Baker, Andrew Gordon, and Daniel Murfet (2025). [*Embryology of a Language Model*](https://arxiv.org/abs/2508.00331). arXiv:2508.00331.
 
+
 ^bib-wang-2025embryology
 
 
 Thomas Waring (2021). [*Geometric Perspectives on Program Synthesis and Semantics*](https://therisingsea.org/notes/MSc-Waring.pdf). School of Mathematics and Statistics, the University of Melbourne.
+
 
 ^bib-waring2021
 
 
 Sumio Watanabe (2007). *Almost all learning machines are singular*. IEEE Symposium on Foundations of Computational Intelligence.
 
+
 ^bib-watanabe2007
 
 
 Sumio Watanabe (2009). *Algebraic Geometry and Statistical Learning Theory*. Cambridge University Press.
+
 
 ^bib-watanabe2009
 
 
 Sumio Watanabe (2013). *A widely applicable Bayesian information criterion*. The Journal of Machine Learning Research.
 
+
 ^bib-watanabe2013
 
 
 Sumio Watanabe (2018). *Mathematical Theory of Bayesian Statistics*. Chapman and Hall/CRC.
+
 
 ^bib-watanabe2018
 
 
 Sumio Watanabe (2023). *Singular Learning Theory, parts (1) and (2)*.
 
+
 ^bib-watanabe2023
 
 
 Sumio Watanabe (2024). *Recent Advances in Algebraic Geometry and Bayesian statistics*. Information Geometry.
+
 
 ^bib-watanabe2024survey
 
 
 Susan Wei, Daniel Murfet, Mingming Gong, Hui Li, Jesse Gell-Redman, and Thomas Quella (2023). *Deep Learning Is Singular, and That's Good*. IEEE Transactions on Neural Networks and Learning Systems.
 
+
 ^bib-wei-2023
 
 
 Adrian K. Xu (2021). [*Smooth relaxation preserving Turing machines*](https://arxiv.org/abs/2106.00956). arXiv:2106.00956.
+
 
 ^bib-xu2021
 ++}
