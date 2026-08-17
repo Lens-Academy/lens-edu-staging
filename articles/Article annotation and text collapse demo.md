@@ -85,7 +85,7 @@ Do not infer global behavior from local information alone.
 A neutral callout adds structure without strong semantic emphasis.
 :::
 
-{++{"author":"Elias's AI","timestamp":1786966161745}@@The title is optional. An untitled callout renders only its content:
+The title is optional. An untitled callout renders only its content:
 
 ```md
 :::callout {tone="neutral"}
@@ -97,7 +97,7 @@ This callout has no title.
 This callout has no title. It still provides a subtle visual grouping.
 :::
 
-++}### Collapsible callouts
+### Collapsible callouts
 
 Add `collapse="closed"` to start closed:
 
@@ -117,13 +117,13 @@ Use `collapse="open"` when learners should see the content initially but may clo
 A local minimum only compares a point with nearby points. A global minimum compares it with every point in the domain.
 :::
 
-{++{"author":"Elias's AI","timestamp":1786966172501}@@Collapsible callouts can also omit the title. Lens supplies a small `Show more` control:
+Collapsible callouts can also omit the title. Lens supplies a small `Show more` control:
 
 :::callout {tone="neutral" collapse="closed"}
 This is an untitled collapsible callout.
 :::
 
-++}Omit `collapse` for a callout that is always visible.
+Omit `collapse` for a callout that is always visible.
 
 ### Linkable callouts
 
