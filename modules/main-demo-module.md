@@ -64,11 +64,11 @@ source:: [[../Lenses/Article excerpt demo]]
 # Lens:
 source:: [[../Lenses/Article annotation and text collapse demo]]
 
-%% {++{"author":"Elias's AI","timestamp":1786970394084}@@This Lens shows Obsidian-style links that jump to headings or stable block markers within the same Lens. %%
+%% This Lens shows Obsidian-style links that jump to headings or stable block markers within the same Lens. %%
 # Lens:
 source:: [[../Lenses/Same-lens links demo]]
 
-%% ++}You've now seen how you can add annotations and collapsed sections from within Article files, as well as define from:: and to:: inside Lenses. Note that `::collapse` and `from::`/`to::` show up in the same way to the user. Any text that's collapsed by them is hidden behind bracketed ellipsis `[...]` that the user can click on to see the collapsed text. %%
+%% You've now seen how you can add annotations and collapsed sections from within Article files, as well as define from:: and to:: inside Lenses. Note that `::collapse` and `from::`/`to::` show up in the same way to the user. Any text that's collapsed by them is hidden behind bracketed ellipsis `[...]` that the user can click on to see the collapsed text. %%
 
 %% Now take a look at the following Lens, demoing a video: %%
 # Lens:
