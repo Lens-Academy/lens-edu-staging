@@ -113,9 +113,9 @@ Start by comparing which other points each definition quantifies over.
 
 Use `collapse="open"` when learners should see the content initially but may close it:
 
-:::callout 
+:::callout {title="Worked solution" tone="green" collapse="open"}
 A local minimum only compares a point with nearby points. A global minimum compares it with every point in the domain.
-:::{title="Worked solution" tone="green" collapse="open"}
+:::
 
 {--{"author":"Elias's AI","timestamp":1786966324637}@@Collapsible callouts can also omit the title.--}{++{"author":"Elias's AI","timestamp":1786966324637}@@When a closed or open callout has no title,++} Lens supplies a small `Show more` control:
 
