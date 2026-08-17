@@ -7,9 +7,7 @@ summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet B.4, Training 
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1786983917325}@@$\gdef\tightlist{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}$
-
---}:::callout {title="What you'll learn" tone="green"}
+:::callout {title="What you'll learn" tone="green"}
 
 **Motivation**
 
@@ -35,7 +33,7 @@ content::
 
 **References**: ([[#^bib-saxe2014|Saxe et al. 2014]]), ([[#^bib-achour2024|Achour et al. 2024]]), ([[#^bib-tu2024|Tu et al. 2024]]).
 
-\## 1. Setup and notation{--{"author":"Elias's AI","timestamp":1786983917325}@@ ^1-setup-and-notation--}
+\## 1. Setup and notation
 
 We study deep linear networks (DLNs) with $L$ weight matrices $W_{1} \in \mathbb{R}^{d_1 \times d_0}, W_{2} \in \mathbb{R}^{d_2 \times d_1}, \ldots, W_{L} \in \mathbb{R}^{d_L \times d_{L-1}}$. The network computes:
 
@@ -57,7 +55,7 @@ $$
 
 where $M = \Sigma_{YX}\Sigma_{X}^{-1}$ is the "teacher" matrix (the OLS solution) with SVD $M = U \,\text{diag}(s_{1}, \ldots, s_{r}, 0, \ldots, 0)\, V^{\top}$, and $s_{1} \geq s_{2} \geq \cdots \geq s_{r} > 0$.
 
-\## 2. Loss landscape geometry{--{"author":"Elias's AI","timestamp":1786983917325}@@ ^2-loss-landscape-geometry--}
+\## 2. Loss landscape geometry
 
 This problem explores the critical point structure of deep linear networks, following ([[#^bib-achour2024|Achour et al. 2024]]).
 
@@ -176,7 +174,7 @@ All $g_{l}$ and $g_{l}^{-1}$ factors cancel telescopically. This means every par
 
 :::
 
-\## 3. Gradient flow and conserved quantities{--{"author":"Elias's AI","timestamp":1786983917325}@@ ^3-gradient-flow-and-conserved-quantities--}
+\## 3. Gradient flow and conserved quantities
 
 We now study gradient flow: $\dot{\theta}(t) = -\nabla_{\theta} \mathcal{L}(\theta(t))$, the continuous-time limit of gradient descent with infinitesimal learning rate.
 
@@ -395,9 +393,9 @@ The general depth-$L$ result $\dot{W}= \sum_{k=1}^{L}(WW^{\top})^{(L-k)/L}(M-W)(
 
 :::
 
-\## 4. Rich regime: saddle-to-saddle{--{"author":"Elias's AI","timestamp":1786983917325}@@ ^4-rich-regime-saddle-to-saddle--}
+\## 4. Rich regime: saddle-to-saddle
 
-This is the core problem. We derive the exact solution of the rich regime dynamics directly from the self-consistent equation of {--{"author":"Elias's AI","timestamp":1786983917325}@@[[#^3-gradient-flow-and-conserved-quantities|Section --}{++{"author":"Elias's AI","timestamp":1786983917325}@@[[#3. Gradient flow and conserved quantities|Section ++}3]], emphasizing the NTK perspective.
+This is the core problem. We derive the exact solution of the rich regime dynamics directly from the self-consistent equation of [[#3. Gradient flow and conserved quantities|Section 3]], emphasizing the NTK perspective.
 
 **Alignment assumption.** Start from the balanced gradient flow equation derived in [[#^ex-td-2civ|Exercise 3.6]]:
 
@@ -554,7 +552,7 @@ $$
 
 For a fixed ratio $w_{f}/s_{\alpha}$ and fixed $w_{0}$, the learning time scales as $t_{\alpha} \propto 1/s_{\alpha}$: **modes with larger singular values are learned faster**. The network learns features in decreasing order of their strength — a strong separation of timescales.
 
-**Contrast with the lazy regime** (anticipating {--{"author":"Elias's AI","timestamp":1786983917325}@@[[#^5-lazy-regime|Section--}{++{"author":"Elias's AI","timestamp":1786983917325}@@[[#5. Lazy regime|Section++} 5]]): in the lazy regime the NTK is frozen at $K_{0} = 2w_{0} \gg 1$, so $\dot{w}_{\alpha} \approx 2w_{0}(s_{\alpha} - w_{\alpha})$. All modes converge at the same exponential rate $2w_{0}$, independent of $s_{\alpha}$. The rich regime has state-dependent NTK ($2w_{\alpha}$), creating a positive feedback loop — modes that are already large learn even faster — which amplifies the differences between $s_{\alpha}$ into a hierarchy of timescales $t_{1} \ll t_{2} \ll \cdots \ll t_{r}$. $\square$
+**Contrast with the lazy regime** (anticipating [[#5. Lazy regime|Section 5]]): in the lazy regime the NTK is frozen at $K_{0} = 2w_{0} \gg 1$, so $\dot{w}_{\alpha} \approx 2w_{0}(s_{\alpha} - w_{\alpha})$. All modes converge at the same exponential rate $2w_{0}$, independent of $s_{\alpha}$. The rich regime has state-dependent NTK ($2w_{\alpha}$), creating a positive feedback loop — modes that are already large learn even faster — which amplifies the differences between $s_{\alpha}$ into a hierarchy of timescales $t_{1} \ll t_{2} \ll \cdots \ll t_{r}$. $\square$
 
 :::
 
@@ -587,11 +585,11 @@ This is an **implicit bias toward low-rank (simple) solutions**: at any finite t
 
 :::
 
-\## 5. Lazy regime{--{"author":"Elias's AI","timestamp":1786983917325}@@ ^5-lazy-regime--}
+\## 5. Lazy regime
 
-We now show that large initialization freezes the NTK and eliminates the timescale separation found in {--{"author":"Elias's AI","timestamp":1786983917325}@@[[#^4-rich-regime-saddle-to-saddle|Section--}{++{"author":"Elias's AI","timestamp":1786983917325}@@[[#4. Rich regime: saddle-to-saddle|Section++} 4]]. For clarity, we work with the **diagonal scalar** model from [[#^ex-td-1a|Exercise 2.1]], so each mode $\alpha$ is independent. This avoids matrix algebra and isolates the essential mechanism.
+We now show that large initialization freezes the NTK and eliminates the timescale separation found in [[#4. Rich regime: saddle-to-saddle|Section 4]]. For clarity, we work with the **diagonal scalar** model from [[#^ex-td-1a|Exercise 2.1]], so each mode $\alpha$ is independent. This avoids matrix algebra and isolates the essential mechanism.
 
-**Setup.** Consider a single mode: a depth-2 diagonal DLN with scalar weights $a, b$ learning a target $s > 0$. From {--{"author":"Elias's AI","timestamp":1786983917325}@@[[#^3-gradient-flow-and-conserved-quantities|Section --}{++{"author":"Elias's AI","timestamp":1786983917325}@@[[#3. Gradient flow and conserved quantities|Section ++}3]] and {--{"author":"Elias's AI","timestamp":1786983917325}@@[[#^4-rich-regime-saddle-to-saddle|4]],--}{++{"author":"Elias's AI","timestamp":1786983917325}@@[[#4. Rich regime: saddle-to-saddle|4]],++} the balanced gradient flow for $w = ab$ is:
+**Setup.** Consider a single mode: a depth-2 diagonal DLN with scalar weights $a, b$ learning a target $s > 0$. From [[#3. Gradient flow and conserved quantities|Section 3]] and [[#4. Rich regime: saddle-to-saddle|4]], the balanced gradient flow for $w = ab$ is:
 
 $$
 \dot{w}= 2w(s - w)
@@ -649,7 +647,7 @@ $$
 \boxed{w(t) = s + (w_0 - s)\,e^{-2w_0 t}}
 $$
 
-This is **exponential** convergence to $s$ (contrast with the sigmoid of {--{"author":"Elias's AI","timestamp":1786983917325}@@[[#^4-rich-regime-saddle-to-saddle|Section --}{++{"author":"Elias's AI","timestamp":1786983917325}@@[[#4. Rich regime: saddle-to-saddle|Section ++}4]]). The learning timescale is:
+This is **exponential** convergence to $s$ (contrast with the sigmoid of [[#4. Rich regime: saddle-to-saddle|Section 4]]). The learning timescale is:
 
 $$
 t_{\text{lazy}}\sim \frac{1}{2w_{0}}
@@ -700,12 +698,12 @@ In the lazy regime, all components of $M$ are learned simultaneously: signal and
 
 :::
 
-\## 6. Mixed dynamics: unifying lazy and rich{--{"author":"Elias's AI","timestamp":1786983917325}@@ ^6-mixed-dynamics-unifying-lazy-and-rich--}
+\## 6. Mixed dynamics: unifying lazy and rich
 
 In practice, networks are neither purely lazy nor purely rich. Tu, Aranguri & Jacot (2024) provide a unified description. We develop the key ideas using the diagonal scalar model.
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 6.1 (The interpolating ODE).** In {--{"author":"Elias's AI","timestamp":1786983917325}@@[[#^4-rich-regime-saddle-to-saddle|Section --}{++{"author":"Elias's AI","timestamp":1786983917325}@@[[#4. Rich regime: saddle-to-saddle|Section ++}4]] and {--{"author":"Elias's AI","timestamp":1786983917325}@@[[#^5-lazy-regime|5]],--}{++{"author":"Elias's AI","timestamp":1786983917325}@@[[#5. Lazy regime|5]],++} we studied the same ODE $\dot{w}_{\alpha} = 2w_{\alpha}(s_{\alpha} - w_{\alpha})$ in two limits: small $w_{0}$ (rich) and large $w_{0}$ (lazy). A more general model for a depth-2 DLN with balanced initialization at scale $\sigma$ and width $n$ replaces the scalar NTK $2w_{\alpha}$ by:
+**Exercise 6.1 (The interpolating ODE).** In [[#4. Rich regime: saddle-to-saddle|Section 4]] and [[#5. Lazy regime|5]], we studied the same ODE $\dot{w}_{\alpha} = 2w_{\alpha}(s_{\alpha} - w_{\alpha})$ in two limits: small $w_{0}$ (rich) and large $w_{0}$ (lazy). A more general model for a depth-2 DLN with balanced initialization at scale $\sigma$ and width $n$ replaces the scalar NTK $2w_{\alpha}$ by:
 
 $$
 \dot{w}_{\alpha} = 2\sqrt{w_{\alpha}^{2} + \tau^{2}}\;(s_{\alpha} - w_{\alpha})
@@ -740,7 +738,7 @@ $$
 \dot{w}_{\alpha} \approx 2\tau(s_{\alpha} - w_{\alpha})
 $$
 
-This is a linear ODE with rate $2\tau$, independent of $s_{\alpha}$ — the frozen-NTK regime of {--{"author":"Elias's AI","timestamp":1786983917325}@@[[#^5-lazy-regime|Section--}{++{"author":"Elias's AI","timestamp":1786983917325}@@[[#5. Lazy regime|Section++} 5]] (with $\tau$ playing the role of $w_{0}$). $\square$
+This is a linear ODE with rate $2\tau$, independent of $s_{\alpha}$ — the frozen-NTK regime of [[#5. Lazy regime|Section 5]] (with $\tau$ playing the role of $w_{0}$). $\square$
 
 :::
 
@@ -797,7 +795,7 @@ This means that **different modes can be in different regimes simultaneously**: 
 
 :::
 
-\## 7. Stochastic implicit bias (bonus){--{"author":"Elias's AI","timestamp":1786983917325}@@ ^7-stochastic-implicit-bias-bonus--}
+\## 7. Stochastic implicit bias (bonus)
 
 SGD introduces noise from mini-batching. Write the SGD update as a combination of gradient and noise term (use a LLM to check your answer). A continuous model is the Langevin SDE:
 
@@ -905,11 +903,11 @@ This creates a **direction-dependent regularizer**: SGD preferentially pushes pa
 
 :::
 
-\## Learn more{--{"author":"Elias's AI","timestamp":1786983917325}@@ ^learn-more--}
+\## Learn more
 
 The readings are roughly ordered in a way that makes sense for learning. This is a curated list of what I find important, and it is not exhaustive.
 
-\### Key readings{--{"author":"Elias's AI","timestamp":1786983917325}@@ ^key-readings--}
+\### Key readings
 
 - [The loss landscape of deep linear neural networks: a second-order analysis](https://arxiv.org/abs/2107.13289) Achour et al. — First-order and second-order classification of critical points in DLN loss landscapes. Classifies strict and non-strict saddles.
 - Saxe et al. [A mathematical theory of semantic development in deep neural networks](https://www.pnas.org/doi/10.1073/pnas.1820226116) — Read the supplementary materials section to understand the exact solution of gradient flow dynamics in deep linear networks
@@ -921,7 +919,7 @@ The readings are roughly ordered in a way that makes sense for learning. This is
 - [Self-Stabilization: The Implicit Bias of Gradient Descent at the Edge of Stability](https://arxiv.org/abs/2209.15594)
 - [Beyond Implicit Bias: The Insignificance of SGD Noise in Online Learning](https://arxiv.org/abs/2306.08590)
 
-\### Loss landscape geometry{--{"author":"Elias's AI","timestamp":1786983917325}@@ ^loss-landscape-geometry--}
+\### Loss landscape geometry
 
 - [Deep Learning without Poor Local Minima](https://arxiv.org/abs/1605.07110), Kenji Kawaguchi — For non-bottlenecked DLNs, all local minima are global
 - [The loss landscape of deep linear neural networks: a second-order analysis](https://arxiv.org/abs/2107.13289) Achour et al. — First-order and second-order classification of critical points in DLN loss landscapes. Classifies strict and non-strict saddles.
@@ -933,7 +931,7 @@ The readings are roughly ordered in a way that makes sense for learning. This is
 - Classic result: [Neural networks and principal component analysis: Learning from examples without local minima](https://www.sciencedirect.com/science/article/abs/pii/0893608089900142) Pierre Baldi et al. — Original result that linear network landscapes have no spurious local minima (single hidden layer case)
 - Good review of key DLNs results: [Gradient Flow Equations for Deep Linear Neural Networks: A Survey from a Network Perspective](https://arxiv.org/abs/2511.10362), Joel Wendin, Claudio Altafini — Also covers gradient flow
 
-\### Implicit biases of gradient flow{--{"author":"Elias's AI","timestamp":1786983917325}@@ ^implicit-biases-of-gradient-flow--}
+\### Implicit biases of gradient flow
 
 - Saxe et al. [A mathematical theory of semantic development in deep neural networks](https://www.pnas.org/doi/10.1073/pnas.1820226116) — Read the supplementary materials section to understand the exact solution of gradient flow dynamics in deep linear networks
 - [Saddle-to-Saddle Dynamics in Deep Linear Networks: Small Initialization Training, Symmetry, and Sparsity](https://arxiv.org/abs/2106.15933) Arthur Jacot et al. — Studies the saddle-to-saddle dynamics in DLNs. Introduces the different regimes (lazy and rich)
@@ -950,14 +948,14 @@ The readings are roughly ordered in a way that makes sense for learning. This is
 - [Gradient Descent Maximizes the Margin of Homogeneous Neural Networks](https://arxiv.org/abs/1906.05890) — Implicit bias toward max-margin in classification
 - [A Convergence Analysis of Gradient Descent for Deep Linear Neural Networks](https://arxiv.org/abs/1810.02281) Sanjeev Arora et al. — Convergence analysis of SGD
 
-\### Learning rate (discrete GD){--{"author":"Elias's AI","timestamp":1786983917325}@@ ^learning-rate-discrete-gd--}
+\### Learning rate (discrete GD)
 
 - [Self-Stabilization: The Implicit Bias of Gradient Descent at the Edge of Stability](https://arxiv.org/abs/2209.15594) — Shows that curvature stabilizes around the inverse of the learning rate.
 - [Understanding Optimization in Deep Learning with Central Flows](https://arxiv.org/abs/2410.24206) — GD with a discrete learning rate is equivalent to gradient flow on an effective loss
 - [Understanding Warmup-Stable-Decay Learning Rates: A River Valley Loss Landscape Perspective](https://arxiv.org/abs/2410.05192) — Pretraining exhibits a river valley loss landscape and gives intuition about the learning-rate schedule (warm-up, stable, decay)
 - [Optimization on multifractal loss landscapes explains a diverse range of geometrical and dynamical properties of deep learning](https://www.nature.com/articles/s41467-025-58532-9) — Models the landscape as multifractal and analyses sub- and super-diffusive behaviour of GD
 
-\### Stochasticity{--{"author":"Elias's AI","timestamp":1786983917325}@@ ^stochasticity--}
+\### Stochasticity
 
 - [On the implicit regularization of Langevin dynamics with projected noise](https://arxiv.org/abs/2602.12257) — Makes explicit the implicit bias of stochasticity in deep linear networks with a Langevin model
 - [Beyond Implicit Bias: The Insignificance of SGD Noise in Online Learning](https://arxiv.org/abs/2306.08590) — Golden Path Hypothesis: in the transient regime dominated by drift (typical of pretraining), SGD is simply a noisy deformation of GD (it does not select different basins)
@@ -973,7 +971,7 @@ The readings are roughly ordered in a way that makes sense for learning. This is
 - [Catapults in SGD: spikes in the training loss and their impact on generalization through feature learning](https://arxiv.org/abs/2306.04815) — Loss spikes when training with SGD impact generalization
 - [The Heavy-Tail Phenomenon in SGD](https://arxiv.org/abs/2006.04740) — SGD noise can be heavy-tailed, and this induces a different regularization
 
-\### Emergence: empirical examples{--{"author":"Elias's AI","timestamp":1786983917325}@@ ^emergence-empirical-examples--}
+\### Emergence: empirical examples
 
 - [Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets](https://arxiv.org/abs/2201.02177) — Grokking: delayed generalization on modular addition
 - [In-context Learning and Induction Heads](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html) — Induction heads form during training. They are important for in-context learning
@@ -984,7 +982,7 @@ The readings are roughly ordered in a way that makes sense for learning. This is
 - [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) — Chinchilla scaling law paper
 - [Emergent Abilities of Large Language Models](https://arxiv.org/abs/2206.07682) — Shows that novel capabilities emerge with more compute
 
-\### Theoretical approaches to emergence{--{"author":"Elias's AI","timestamp":1786983917325}@@ ^theoretical-approaches-to-emergence--}
+\### Theoretical approaches to emergence
 
 - [Grokking as the Transition from Lazy to Rich Training Dynamics](https://arxiv.org/abs/2310.06110)
 - [Grokking as a First Order Phase Transition in Two Layer Networks, Rubin et al.](https://arxiv.org/abs/2310.03789)
@@ -997,7 +995,7 @@ The readings are roughly ordered in a way that makes sense for learning. This is
 - [Statistical Field Theory for Neural Networks, Moritz Helias, David Dahmen](https://link.springer.com/book/10.1007/978-3-030-46444-8)
 - [Lecture notes: From Gaussian processes to feature learning, Moritz Helias et al](https://arxiv.org/abs/2602.12855)
 
-\## References{--{"author":"Elias's AI","timestamp":1786983917325}@@ ^references--}
+\## References
 
 
 Achour, Malgouyres, and Gerchinovitz (2024). [*The loss landscape of deep linear neural networks: a second-order analysis*](https://arxiv.org/abs/2107.13289). Journal of Machine Learning Research (JMLR).

@@ -15,7 +15,7 @@ This will help the students form their own independent opinions on what the stat
 
 :::
 
-\## Prerequisites{--{"author":"Elias's AI","timestamp":1786983916856}@@ ^prerequisites--}
+\## Prerequisites
 
 The students should have good high-level understanding of the following:
 
@@ -27,13 +27,13 @@ The students should have good high-level understanding of the following:
 
 Some of these topics are taught in other modules of this course.
 
-\## Reading guide{--{"author":"Elias's AI","timestamp":1786983916856}@@ ^reading-guide--}
+\## Reading guide
 
 The main content is split into parts that correspond to different phases in the model training pipeline. The parts are relatively independent, so you can skip around as you wish depending on your interests.
 
 If you have limited time and don't know what to focus on, we recommend reading through the notes on the three main sections: pre-training, post-training, and deployment 2. After this, you will have a good high-level understanding of the main ways that models are aligned in practice.
 
-\### Pretraining{--{"author":"Elias's AI","timestamp":1786983916856}@@ ^pretraining--}
+\### Pretraining
 
 *Intent:* Show that what the model learns during pretraining is deep, broad, and hard to change afterward. Emphasise that besides learning hard facts, it's also forming a proto-understanding of what AI is and how AI assistants behave. This opens **two strategies** for safety interventions in this phase: shaping what knowledge the model obtains, and shaping what the model does *with* the knowledge it obtains. Both are constrained by the same limitation: we're operating before seeing behavior, the feedback loop is slow, and we can't anticipate every failure mode.
 
@@ -45,7 +45,7 @@ If you have limited time and don't know what to focus on, we recommend reading t
 
 Why does this work? The [persona selection model (PSM)](https://alignment.anthropic.com/2026/psm/) provides the conceptual frame. Building on the [simulators hypothesis](https://www.lesswrong.com/posts/vJFdjigzmcXMhNTsx/simulators) — that an LLM is a *simulator* capable of producing diverse *simulacra* (characters, agents) — PSM holds that pretraining builds a repertoire of personas, and post-training helps shape the "Assistant." Alignment pretraining works because it shapes the **prior over personas**: saturating the training data with positive AI archetypes biases the model toward an aligned Assistant. PSM recommends treating this deliberately — curating AI discourse in pre-training data as a first-class alignment intervention.
 
-\### Post-training{--{"author":"Elias's AI","timestamp":1786983916856}@@ ^post-training--}
+\### Post-training
 
 *Intent:* Explain that while in pre-training, a large investment of compute and data produces large changes to the model, in post-training, we enter a different regime: **the amount of behavioural change becomes decoupled from the amount of compute invested**. Because we are building on top of existing representations and heuristics, even a small, focused intervention can induce surprisingly broad behavioural changes. This cuts both ways — it enables powerful alignment techniques, but also means that small amounts of training data can have outsized negative effects. We emphasise that it is *still* possible to make deep changes to the model, even in post-training — but these will, in general, again require large compute investments.
 
@@ -57,7 +57,7 @@ Post-training can also induce deeper changes that influence which persona the mo
 
 Post-training can also change the model's factual knowledge. [Synthetic document fine-tuning](https://alignment.anthropic.com/2025/believe-it-or-not/) can implant false beliefs that the model appears to genuinely hold, as verified by both behavioral tests and internal probes — though models resist the most egregiously false facts. Going in the other direction, unlearning attempts to *remove* specific knowledge (e.g., about bioweapons) from a trained model. However, current unlearning methods are [not robust](https://arxiv.org/abs/2402.16835): unlearned knowledge is dormant, not deleted, which is relevant if we assume that an adversary is trying to pry the knowledge out of the model. The best way to measure the robustness of an unlearning method is to fine-tune the unlearned model and observe when the capability returns. By this measure, no cheap unlearning method has yet been shown to be both cheap *and* robust — for example, [fine-tuning on even unrelated data can make the knowledge re-emerge](https://arxiv.org/abs/2505.22310). The [UNDO](https://arxiv.org/abs/2506.06278) paper proposes a partial solution: distilling an unlearned model into a randomly initialised student transfers desired behaviours while leaving undesired capabilities behind, nicely illustrating the tradeoff between robustness and amount of compute invested in the unlearning process.
 
-\### Deployment 1: strategy{--{"author":"Elias's AI","timestamp":1786983916856}@@ ^deployment-1-strategy--}
+\### Deployment 1: strategy
 
 *Intent:* Once we want to release the model, we are no longer trying to shape it; we are trying to build and maintain a structured argument that releasing it makes sense, supported by enough evidence that other people — colleagues, regulators, the public — can inspect it, push on it, and decide whether to trust it. Frontier labs do this in different ways, but the underlying logic is shared, and it mirrors the structure of a *safety case*. In this module we lay out that logic in four steps; the next two modules go deep on the two technical steps of these four. This is important to understand for everyone, because in AI alignment more than in most other research areas, the goal *is* the application of our research, and that is governed by real-world constraints, regulations, and use-cases.
 
@@ -79,7 +79,7 @@ Each policy is in effect specifying how the lab will build and clear a safety ca
 
 Pulling this back together: when we want to deploy a model, we need to build and maintain a structured argument that release is acceptable, and the safety case is the artefact that this argument lives in. The four steps are how the safety case gets built — what risks it covers, what evidence it rests on, what defences it commits to, and how it is communicated and kept current. None of this is ever finished. The world the model is deployed into keeps changing, new failure modes get found, expectations tighten, and the case has to keep up.
 
-\### Deployment 2: building the safety system{--{"author":"Elias's AI","timestamp":1786983916856}@@ ^deployment-2-building-the-safety-system--}
+\### Deployment 2: building the safety system
 
 *Intent:* Make it clear that when we deploy a model, we cannot prove it is safe. Instead, we make **statistical claims about its safety behaviour under pressure**: the deployed system — i.e., model plus runtime safeguards — is subjected to substantial adversarial effort. The strength of the safety claim is bounded by how hard we tried to break it. Two activities go hand in hand: **building out the safety system** around the model, and **red-teaming** that system to see where it cracks. The goal is not proving the impossibility of misuse but **making it impractical for a realistic adversary**, with the effort we invest into breaking the system scaling roughly with the capabilities of the model (which we characterized in the previous chapter).
 
@@ -111,9 +111,9 @@ Finally, even pure black-box settings can benefit from white-box models, through
 
 The takeaway is that there's no proof that a deployed model is safe. There's only the empirical fact that we built an external safety system around it, that we and others spent real effort trying to break that system in every way we currently know how, and that the best universal attack we found required this and this much work to pull off. That number — how much effort it took — is what every safety claim ultimately rests on.
 
-\## Further reading{--{"author":"Elias's AI","timestamp":1786983916856}@@ ^further-reading--}
+\## Further reading
 
-\### Pre-training{--{"author":"Elias's AI","timestamp":1786983916856}@@ ^pre-training--}
+\### Pre-training
 
 Data filtering
 
@@ -134,7 +134,7 @@ Simulators and persona selection
 * [Simulators](https://www.lesswrong.com/posts/vJFdjigzmcXMhNTsx/simulators)
 * [The Persona Selection Model: Why AI Assistants might Behave like Humans](https://alignment.anthropic.com/2026/psm/)
 
-\### Post-training{--{"author":"Elias's AI","timestamp":1786983916856}@@ ^post-training--}
+\### Post-training
 
 Post-training for safety
 
@@ -163,7 +163,7 @@ Unlearning
 * [Machine Unlearning Doesn't Do What You Think: Lessons for Generative AI Policy and Research](https://arxiv.org/abs/2412.06966v2)
 * [Open Problems in Machine Unlearning for AI Safety](https://arxiv.org/abs/2501.04952)
 
-\### Deployment 1: strategy{--{"author":"Elias's AI","timestamp":1786983916856}@@ ^deployment-1-strategy--}
+\### Deployment 1: strategy
 
 Deployment frameworks
 
@@ -184,7 +184,7 @@ Law and compliance
 * [The General-Purpose AI Code of Practice](https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai)
 * [Guidelines for providers of general-purpose AI models](https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers)
 
-\### Deployment 2: building the safety system{--{"author":"Elias's AI","timestamp":1786983916856}@@ ^deployment-2-building-the-safety-system--}
+\### Deployment 2: building the safety system
 
 Runtime safeguards
 
@@ -222,7 +222,7 @@ Black-box attacks
 * [Jailbreaking Black Box Large Language Models in Twenty Queries (PAIR)](https://arxiv.org/abs/2310.08419)
 * [Black-box Optimization of LLM Outputs by Asking for Directions](https://arxiv.org/abs/2510.16794)
 
-\### Monitoring (taught in a separate day the latest version){--{"author":"Elias's AI","timestamp":1786983916856}@@ ^monitoring-taught-in-a-separate-day-the-latest-version--}
+\### Monitoring (taught in a separate day the latest version)
 
 Chain-of-thought monitoring
 

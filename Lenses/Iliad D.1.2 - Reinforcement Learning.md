@@ -7,9 +7,7 @@ summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet D.1.2, Reinfor
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1786983915741}@@$\gdef\cS{\mathcal{S}}\gdef\cA{\mathcal{A}}\gdef\argmax{\operatorname*{arg\,max}}$
-
---}:::callout {title="What you'll learn" tone="green"}
+:::callout {title="What you'll learn" tone="green"}
 
 - Understand Markov Decision Processes and the goal of the agent, for known environments.
 - Understand the Bellman equation.
@@ -18,18 +16,18 @@ content::
 
 :::
 
-\## Setup{--{"author":"Elias's AI","timestamp":1786983915741}@@ ^setup--}
+\## Setup
 
 In this exercise sheet, we prove a variety of results that are behind the [ARENA Intro to RL materials](https://learn.arena.education/chapter2_rl/01_intro_rl/).
 
-An **agent** interacts with an **environment** in discrete time steps $t = 0, 1, 2, \ldots$. On timestep $t$, the agent observes the current state $s_{t} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS$--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}$++} and selects an action $a_{t} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA$--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}$++} according to its policy. The environment then responds with a reward $r_{t+1}\in \mathbb{R}$ and a new state $s_{t+1}\in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS$.--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}$.++} (The reward and next state are indexed by $t+1$ because they are produced by the environment after the agent's action.) The goal is to act so as to maximize expected discounted future reward.
+An **agent** interacts with an **environment** in discrete time steps $t = 0, 1, 2, \ldots$. On timestep $t$, the agent observes the current state $s_{t} \in \mathcal{S}$ and selects an action $a_{t} \in \mathcal{A}$ according to its policy. The environment then responds with a reward $r_{t+1}\in \mathbb{R}$ and a new state $s_{t+1}\in \mathcal{S}$. (The reward and next state are indexed by $t+1$ because they are produced by the environment after the agent's action.) The goal is to act so as to maximize expected discounted future reward.
 
 These environments are called **Markov decision processes** (MDPs). They satisfy two key properties: (i) **stationarity** — the transition and reward functions do not change over time, and (ii) the **Markov property** — the distribution over the next state and reward depends only on the current state and action, not on the full history of past interactions. Together, these properties mean that the current state $s_{t}$ is a sufficient summary of the past for the purpose of choosing optimal actions.
 
 :::callout {title="Definition" tone="purple"}
 
-**Definition 0.1 (Spaces and notation).** - {--{"author":"Elias's AI","timestamp":1786983915741}@@$\cS$--}{++{"author":"Elias's AI","timestamp":1786983915741}@@$\mathcal{S}$++} — finite **state space**
-- {--{"author":"Elias's AI","timestamp":1786983915741}@@$\cA$--}{++{"author":"Elias's AI","timestamp":1786983915741}@@$\mathcal{A}$++} — finite **action space**
+**Definition 0.1 (Spaces and notation).** - $\mathcal{S}$ — finite **state space**
+- $\mathcal{A}$ — finite **action space**
 - $\gamma \in (0, 1)$ — **discount factor**
 - $\Delta X$ — set of all probability distributions over a set $X$
 - $\llbracket P \rrbracket$ — **Iverson bracket**: $1$ if $P$ is true, $0$ if false
@@ -43,8 +41,8 @@ These environments are called **Markov decision processes** (MDPs). They satisfy
 
 **Definition 0.2 (Environment).** An MDP **environment** is specified by a pair $(T, R)$:
 
-- $T : {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}++} \times {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}++} \to \Delta {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS$--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}$++} is the **transition kernel**: given state $s$ and action $a$, the next state is drawn $s' \sim T(\cdot \mid s, a)$.
-- $R : {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}++} \times {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}++} \times {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}++} \to \mathbb{R}$ is the **reward function**: on a transition from $s$ to $s'$ under action $a$, the agent receives reward $R(s, a, s')$. [^1]
+- $T : \mathcal{S} \times \mathcal{A} \to \Delta \mathcal{S}$ is the **transition kernel**: given state $s$ and action $a$, the next state is drawn $s' \sim T(\cdot \mid s, a)$.
+- $R : \mathcal{S} \times \mathcal{A} \times \mathcal{S} \to \mathbb{R}$ is the **reward function**: on a transition from $s$ to $s'$ under action $a$, the agent receives reward $R(s, a, s')$. [^1]
 
 :::
 
@@ -53,13 +51,13 @@ These environments are called **Markov decision processes** (MDPs). They satisfy
 
 :::callout {title="Definition" tone="purple"}
 
-**Definition 0.3 (Policy).** A **policy** $\pi : {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}++} \to \Delta {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA$--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}$++} maps each state to a probability distribution over actions. Given state $s$:
+**Definition 0.3 (Policy).** A **policy** $\pi : \mathcal{S} \to \Delta \mathcal{A}$ maps each state to a probability distribution over actions. Given state $s$:
 
-- $\pi(\cdot \mid s)$ is a distribution over {--{"author":"Elias's AI","timestamp":1786983915741}@@$\cA$,--}{++{"author":"Elias's AI","timestamp":1786983915741}@@$\mathcal{A}$,++}
+- $\pi(\cdot \mid s)$ is a distribution over $\mathcal{A}$,
 - $\pi(a \mid s) \in [0, 1]$ is the probability of choosing action $a$,
 - the agent samples $a \sim \pi(\cdot \mid s)$.
 
-A policy is **deterministic** if $\pi(a \mid s) \in \{0, 1\}$ for all $a, s$. In this case, we abuse notation and write $\pi(s) := {--{"author":"Elias's AI","timestamp":1786983915741}@@\argmax_{a--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\operatorname*{arg\,max}_{a++} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\pi(a--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\pi(a++} \mid s)$ for the unique action selected at state $s$.
+A policy is **deterministic** if $\pi(a \mid s) \in \{0, 1\}$ for all $a, s$. In this case, we abuse notation and write $\pi(s) := \operatorname*{arg\,max}_{a \in \mathcal{A}}\pi(a \mid s)$ for the unique action selected at state $s$.
 
 :::
 
@@ -81,7 +79,7 @@ for $k = 0, 1, 2, \ldots$. We write $\mathbb{E}_{\pi}[\,\cdot\,]$ for expectatio
 ^def-trajectory
 
 
-\## 1. The Bellman equation{--{"author":"Elias's AI","timestamp":1786983915741}@@ ^1-the-bellman-equation--}
+\## 1. The Bellman equation
 
 :::callout {title="Definition" tone="purple"}
 
@@ -107,7 +105,7 @@ $$
 **Definition 1.2 (Value function).** The **value function** of a policy $\pi$ is the expected return when starting from state $s$ and acting according to $\pi$:
 
 $$
-\begin{aligned}&V_{\pi}(s) \;=\; \mathbb{E}_{\pi}\!\left[G_{t} \;\middle|\; s_{t} = s\right] \\&=\; \mathbb{E}_{\pi}\!\left[\,r_{t+1}+ \gamma\, r_{t+2}+ \gamma^{2}\, r_{t+3}+ \cdots \;\middle|\; s_{t} = s\right] \\&=\; \sum_{a_t \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\pi(a_{t}--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\pi(a_{t}++} \mid s)\! \sum_{s_{t+1} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}\!T(s_{t+1}\mid--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}\!T(s_{t+1}\mid++} s, a_{t})\! \sum_{a_{t+1} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\pi(a_{t+1}\mid--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\pi(a_{t+1}\mid++} s_{t+1})\! \sum_{s_{t+2} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}\!T(s_{t+2}\mid--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}\!T(s_{t+2}\mid++} s_{t+1}, a_{t+1})\, \cdots \\&\qquad\qquad \bigl[\, R(s, a_{t}, s_{t+1}) + \gamma\, R(s_{t+1}, a_{t+1}, s_{t+2}) + \gamma^{2}\, R(s_{t+2}, a_{t+2}, s_{t+3}) + \cdots \,\bigr].\end{aligned}
+\begin{aligned}&V_{\pi}(s) \;=\; \mathbb{E}_{\pi}\!\left[G_{t} \;\middle|\; s_{t} = s\right] \\&=\; \mathbb{E}_{\pi}\!\left[\,r_{t+1}+ \gamma\, r_{t+2}+ \gamma^{2}\, r_{t+3}+ \cdots \;\middle|\; s_{t} = s\right] \\&=\; \sum_{a_t \in \mathcal{A}}\pi(a_{t} \mid s)\! \sum_{s_{t+1} \in \mathcal{S}}\!T(s_{t+1}\mid s, a_{t})\! \sum_{a_{t+1} \in \mathcal{A}}\pi(a_{t+1}\mid s_{t+1})\! \sum_{s_{t+2} \in \mathcal{S}}\!T(s_{t+2}\mid s_{t+1}, a_{t+1})\, \cdots \\&\qquad\qquad \bigl[\, R(s, a_{t}, s_{t+1}) + \gamma\, R(s_{t+1}, a_{t+1}, s_{t+2}) + \gamma^{2}\, R(s_{t+2}, a_{t+2}, s_{t+3}) + \cdots \,\bigr].\end{aligned}
 $$
 
 The expectation averages the return over all future trajectories $(a_{t}, s_{t+1}, a_{t+1}, s_{t+2}, \ldots)$ generated by sampling $a_{k} \sim \pi(\cdot \mid s_{k})$ and $s_{k+1}\sim T(\cdot \mid s_{k}, a_{k})$, starting from $s_{t} = s$.
@@ -118,13 +116,13 @@ The expectation averages the return over all future trajectories $(a_{t}, s_{t+1
 
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 1.1.** Prove the **Bellman equation**: for all $s \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS$,--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}$,++}
+**Exercise 1.1.** Prove the **Bellman equation**: for all $s \in \mathcal{S}$,
 ::::callout {title="Note" tone="neutral"}
 
 **Bellman Equation**
 
 $$
-V_{\pi}(s) = \sum_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\pi(a--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\pi(a++} \mid s) \sum_{s' \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\bigl(R(s,a,s') + \gamma\, V_{\pi}(s')\bigr).
+V_{\pi}(s) = \sum_{a \in \mathcal{A}}\pi(a \mid s) \sum_{s' \in \mathcal{S}}T(s' \mid s, a)\bigl(R(s,a,s') + \gamma\, V_{\pi}(s')\bigr).
 $$
 
 ::::
@@ -145,7 +143,7 @@ $$
 Now condition on the first action $a_{t} = a$ and the first transition $s_{t+1}= s'$:
 
 $$
-\begin{aligned}V_{\pi}(s)&= \sum_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\pi(a--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\pi(a++} \mid s) \sum_{s' \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a) \;\mathbb{E}_{\pi}\!\left[r_{t+1}+ \gamma\, G_{t+1}\;\middle|\; s_{t} = s,\, a_{t} = a,\, s_{t+1}= s'\right].\end{aligned}
+\begin{aligned}V_{\pi}(s)&= \sum_{a \in \mathcal{A}}\pi(a \mid s) \sum_{s' \in \mathcal{S}}T(s' \mid s, a) \;\mathbb{E}_{\pi}\!\left[r_{t+1}+ \gamma\, G_{t+1}\;\middle|\; s_{t} = s,\, a_{t} = a,\, s_{t+1}= s'\right].\end{aligned}
 $$
 
 Given $s_{t} = s$, $a_{t} = a$, and $s_{t+1}= s'$, the immediate reward is deterministic: $r_{t+1}= R(s, a, s')$. For the remaining return, by the Markov property the future trajectory from time $t+1$ onward depends only on $s_{t+1}= s'$, so
@@ -157,7 +155,7 @@ $$
 Substituting both back gives
 
 $$
-V_{\pi}(s) = \sum_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\pi(a--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\pi(a++} \mid s) \sum_{s' \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\bigl(R(s,a,s') + \gamma\, V_{\pi}(s')\bigr).
+V_{\pi}(s) = \sum_{a \in \mathcal{A}}\pi(a \mid s) \sum_{s' \in \mathcal{S}}T(s' \mid s, a)\bigl(R(s,a,s') + \gamma\, V_{\pi}(s')\bigr).
 $$
 
 :::
@@ -191,13 +189,13 @@ $$
 **(a)** Starting from the definition of $V_{\pi}(s)$ and conditioning on the first action $a_{t} = a$:
 
 $$
-\begin{aligned}V_{\pi}(s)&= \mathbb{E}_{\pi}\!\left[G_{t} \;\middle|\; s_{t} = s\right] \\&= \sum_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\pi(a--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\pi(a++} \mid s)\; \mathbb{E}_{\pi}\!\left[G_{t} \;\middle|\; s_{t} = s,\, a_{t} = a\right] \\&= \sum_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\pi(a--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\pi(a++} \mid s)\, Q_{\pi}(s, a).\end{aligned}
+\begin{aligned}V_{\pi}(s)&= \mathbb{E}_{\pi}\!\left[G_{t} \;\middle|\; s_{t} = s\right] \\&= \sum_{a \in \mathcal{A}}\pi(a \mid s)\; \mathbb{E}_{\pi}\!\left[G_{t} \;\middle|\; s_{t} = s,\, a_{t} = a\right] \\&= \sum_{a \in \mathcal{A}}\pi(a \mid s)\, Q_{\pi}(s, a).\end{aligned}
 $$
 
 **(b)** Starting from the definition of $Q_{\pi}(s,a)$ and using the recursion $G_{t} = r_{t+1}+ \gamma\, G_{t+1}$, we condition on the first transition $s_{t+1}= s'$:
 
 $$
-\begin{aligned}Q_{\pi}(s,a)&= \mathbb{E}_{\pi}\!\left[G_{t} \;\middle|\; s_{t} = s,\, a_{t} = a\right] \\&= \sum_{s' \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\; \mathbb{E}_{\pi}\!\left[r_{t+1}+ \gamma\, G_{t+1}\;\middle|\; s_{t} = s,\, a_{t} = a,\, s_{t+1}= s'\right] \\&= \sum_{s' \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\bigl(R(s, a, s') + \gamma\, V_{\pi}(s')\bigr),\end{aligned}
+\begin{aligned}Q_{\pi}(s,a)&= \mathbb{E}_{\pi}\!\left[G_{t} \;\middle|\; s_{t} = s,\, a_{t} = a\right] \\&= \sum_{s' \in \mathcal{S}}T(s' \mid s, a)\; \mathbb{E}_{\pi}\!\left[r_{t+1}+ \gamma\, G_{t+1}\;\middle|\; s_{t} = s,\, a_{t} = a,\, s_{t+1}= s'\right] \\&= \sum_{s' \in \mathcal{S}}T(s' \mid s, a)\bigl(R(s, a, s') + \gamma\, V_{\pi}(s')\bigr),\end{aligned}
 $$
 
 where the last step uses $r_{t+1}= R(s,a,s')$ (deterministic given $s_{t}, a_{t}, s_{t+1}$) and the Markov property $\mathbb{E}_{\pi}[G_{t+1}\mid s_{t+1}= s'] = V_{\pi}(s')$.
@@ -205,16 +203,16 @@ where the last step uses $r_{t+1}= R(s,a,s')$ (deterministic given $s_{t}, a_{t}
 **(c)** Substituting [[#^prob-q-function|Exercise 1.2(a)]] into [[#^prob-q-function|Exercise 1.2(b)]], replacing $V_{\pi}(s')$ by its expression in terms of $Q_{\pi}$:
 
 $$
-Q_{\pi}(s, a) = \sum_{s' \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\!\left(R(s, a, s') + \gamma \sum_{a' \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\pi(a'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\pi(a'++} \mid s')\, Q_{\pi}(s', a')\right).
+Q_{\pi}(s, a) = \sum_{s' \in \mathcal{S}}T(s' \mid s, a)\!\left(R(s, a, s') + \gamma \sum_{a' \in \mathcal{A}}\pi(a' \mid s')\, Q_{\pi}(s', a')\right).
 $$
 
 This is the Bellman equation for the action-value function. Note also that substituting [[#^prob-q-function|Exercise 1.2(b)]] into [[#^prob-q-function|Exercise 1.2(a)]] recovers the Bellman equation for $V_{\pi}$ from [[#^prob-bellman-proof|Exercise 1.1]].
 
 :::
 
-\## 2. An example MDP{--{"author":"Elias's AI","timestamp":1786983915741}@@ ^2-an-example-mdp--}
+\## 2. An example MDP
 
-Consider the MDP with state space {--{"author":"Elias's AI","timestamp":1786983915741}@@$\cS--}{++{"author":"Elias's AI","timestamp":1786983915741}@@$\mathcal{S}++} = \{s_{0}, s_{L}, s_{R}\}$, action space {--{"author":"Elias's AI","timestamp":1786983915741}@@$\cA--}{++{"author":"Elias's AI","timestamp":1786983915741}@@$\mathcal{A}++} = \{a_{L}, a_{R}\}$, and deterministic transitions as shown:
+Consider the MDP with state space $\mathcal{S} = \{s_{0}, s_{L}, s_{R}\}$, action space $\mathcal{A} = \{a_{L}, a_{R}\}$, and deterministic transitions as shown:
 
 ![diagram](https://iliad-team.github.io/iliad-intensive/uploads/reinforcement-learning/tikz-7f28027bb4ad.svg)
 
@@ -284,9 +282,9 @@ Since $1 - \gamma^{2} > 0$ for $\gamma \in (0,1)$, the sign is determined by $1 
 
 :::
 
-\## 3. Bellman operators and the existence of optimal policies{--{"author":"Elias's AI","timestamp":1786983915741}@@ ^3-bellman-operators-and-the-existence-of-optimal-policies--}
+\## 3. Bellman operators and the existence of optimal policies
 
-\### Banach fixed-point theorem{--{"author":"Elias's AI","timestamp":1786983915741}@@ ^banach-fixed-point-theorem--}
+\### Banach fixed-point theorem
 
 In this and the following exercises, we will make use of the well-known Banach fixed point theorem:
 
@@ -307,14 +305,14 @@ has $\lim_{n \to \infty}d(F^{n}(x_{0}), x^{*}) = 0$ where $F^{n}$ is the $n$-fol
 ^thm-banach
 
 
-\### The problem{--{"author":"Elias's AI","timestamp":1786983915741}@@ ^the-problem--}
+\### The problem
 
 :::callout {title="Definition" tone="purple"}
 
-**Definition 3.2 (Bellman optimality operator).** Let $\mathcal{V}= \{V : {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}++} \to \mathbb{R}\}$ denote the vector space of value functions, equipped with the sup-norm $\|V\|_{\infty} = \max_{s \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}|V(s)|$.--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}|V(s)|$.++} The **Bellman optimality operator** $\mathcal{B}: \mathcal{V}\to \mathcal{V}$ is defined by
+**Definition 3.2 (Bellman optimality operator).** Let $\mathcal{V}= \{V : \mathcal{S} \to \mathbb{R}\}$ denote the vector space of value functions, equipped with the sup-norm $\|V\|_{\infty} = \max_{s \in \mathcal{S}}|V(s)|$. The **Bellman optimality operator** $\mathcal{B}: \mathcal{V}\to \mathcal{V}$ is defined by
 
 $$
-(\mathcal{B}V)(s) \coloneqq \max_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\sum_{s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\sum_{s'++} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\bigl(R(s,a,s') + \gamma\, V(s')\bigr).
+(\mathcal{B}V)(s) \coloneqq \max_{a \in \mathcal{A}}\sum_{s' \in \mathcal{S}}T(s' \mid s, a)\bigl(R(s,a,s') + \gamma\, V(s')\bigr).
 $$
 
 :::
@@ -323,10 +321,10 @@ $$
 
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 3.1.** Let $f, g : {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}++} \to \mathbb{R}$ be real-valued functions on a finite set {--{"author":"Elias's AI","timestamp":1786983915741}@@$\cA$.--}{++{"author":"Elias's AI","timestamp":1786983915741}@@$\mathcal{A}$.++} Prove that
+**Exercise 3.1.** Let $f, g : \mathcal{A} \to \mathbb{R}$ be real-valued functions on a finite set $\mathcal{A}$. Prove that
 
 $$
-\left|\max_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}f(a)--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}f(a)++} - \max_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}g(a)\right|--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}g(a)\right|++} \le \max_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}|f(a)--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}|f(a)++} - g(a)|.
+\left|\max_{a \in \mathcal{A}}f(a) - \max_{a \in \mathcal{A}}g(a)\right| \le \max_{a \in \mathcal{A}}|f(a) - g(a)|.
 $$
 :::
 
@@ -335,10 +333,10 @@ $$
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-Without loss of generality, assume $\max_{a}f(a) \ge \max_{a}g(a)$. Let $a^{*} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\argmax_{a--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\operatorname*{arg\,max}_{a++} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}f(a)$.--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}f(a)$.++} Then:
+Without loss of generality, assume $\max_{a}f(a) \ge \max_{a}g(a)$. Let $a^{*} \in \operatorname*{arg\,max}_{a \in \mathcal{A}}f(a)$. Then:
 
 $$
-\begin{aligned}\left|\max_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}f(a)--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}f(a)++} - \max_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}g(a)\right|&=--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}g(a)\right|&=++} \max_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}f(a)--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}f(a)++} - \max_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}g(a)--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}g(a)++} \\&= f(a^{*}) - \max_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}g(a)--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}g(a)++} \\&\le f(a^{*}) - g(a^{*}) \\&= |f(a^{*}) - g(a^{*})| \\&\le \max_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}|f(a)--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}|f(a)++} - g(a)|.\end{aligned}
+\begin{aligned}\left|\max_{a \in \mathcal{A}}f(a) - \max_{a \in \mathcal{A}}g(a)\right|&= \max_{a \in \mathcal{A}}f(a) - \max_{a \in \mathcal{A}}g(a) \\&= f(a^{*}) - \max_{a \in \mathcal{A}}g(a) \\&\le f(a^{*}) - g(a^{*}) \\&= |f(a^{*}) - g(a^{*})| \\&\le \max_{a \in \mathcal{A}}|f(a) - g(a)|.\end{aligned}
 $$
 
 :::
@@ -356,19 +354,19 @@ $$
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-Fix an arbitrary state $s \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS$.--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}$.++} Define for each $a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA$:--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}$:++}
+Fix an arbitrary state $s \in \mathcal{S}$. Define for each $a \in \mathcal{A}$:
 
 $$
-\begin{aligned}f(a)&\coloneqq \sum_{s' \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\bigl(R(s,a,s') + \gamma\, V(s')\bigr), \\ g(a)&\coloneqq \sum_{s' \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\bigl(R(s,a,s') + \gamma\, W(s')\bigr).\end{aligned}
+\begin{aligned}f(a)&\coloneqq \sum_{s' \in \mathcal{S}}T(s' \mid s, a)\bigl(R(s,a,s') + \gamma\, V(s')\bigr), \\ g(a)&\coloneqq \sum_{s' \in \mathcal{S}}T(s' \mid s, a)\bigl(R(s,a,s') + \gamma\, W(s')\bigr).\end{aligned}
 $$
 
 Then $(\mathcal{B}V)(s) = \max_{a} f(a)$ and $(\mathcal{B}W)(s) = \max_{a} g(a)$. By [[#^prob-max-ineq|Exercise 3.1]]:
 
 $$
-\begin{aligned}\big|(\mathcal{B}V)(s) - (\mathcal{B}W)(s)\big|&\le \max_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\big|f(a)--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\big|f(a)++} - g(a)\big| \\&= \max_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\left|\sum_{s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\left|\sum_{s'++} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\gamma\,\bigl(V(s') - W(s')\bigr)\right| \\&\le \gamma \max_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\sum_{s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\sum_{s'++} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\,\big|V(s') - W(s')\big| \\&\le \gamma \max_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\sum_{s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\sum_{s'++} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\,\|V - W\|_{\infty} \\&\le \gamma\,\|V - W\|_{\infty},\end{aligned}
+\begin{aligned}\big|(\mathcal{B}V)(s) - (\mathcal{B}W)(s)\big|&\le \max_{a \in \mathcal{A}}\big|f(a) - g(a)\big| \\&= \max_{a \in \mathcal{A}}\left|\sum_{s' \in \mathcal{S}}T(s' \mid s, a)\gamma\,\bigl(V(s') - W(s')\bigr)\right| \\&\le \gamma \max_{a \in \mathcal{A}}\sum_{s' \in \mathcal{S}}T(s' \mid s, a)\,\big|V(s') - W(s')\big| \\&\le \gamma \max_{a \in \mathcal{A}}\sum_{s' \in \mathcal{S}}T(s' \mid s, a)\,\|V - W\|_{\infty} \\&\le \gamma\,\|V - W\|_{\infty},\end{aligned}
 $$
 
-where the last step uses $\sum_{s'}T(s' \mid s, a) = 1$. Since this holds for every $s \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS$,--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}$,++} taking the maximum over $s$ gives $\|\mathcal{B}V - \mathcal{B}W\|_{\infty} \le \gamma\,\|V - W\|_{\infty}$.
+where the last step uses $\sum_{s'}T(s' \mid s, a) = 1$. Since this holds for every $s \in \mathcal{S}$, taking the maximum over $s$ gives $\|\mathcal{B}V - \mathcal{B}W\|_{\infty} \le \gamma\,\|V - W\|_{\infty}$.
 
 :::
 
@@ -392,7 +390,7 @@ The space $(\mathcal{V}, \|\cdot\|_{\infty})$ is a finite-dimensional normed vec
 **Bellman Policy Operator**
 
 $$
-(\mathcal{B}_{\pi} V)(s) \coloneqq \sum_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\pi(a--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\pi(a++} \mid s) \sum_{s' \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\bigl(R(s,a,s') + \gamma\, V(s')\bigr)
+(\mathcal{B}_{\pi} V)(s) \coloneqq \sum_{a \in \mathcal{A}}\pi(a \mid s) \sum_{s' \in \mathcal{S}}T(s' \mid s, a)\bigl(R(s,a,s') + \gamma\, V(s')\bigr)
 $$
 
 ::::
@@ -406,15 +404,15 @@ is also a contraction with factor $\gamma$. Conclude that $V_{\pi}$ is its uniqu
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-Fix $V, W \in \mathcal{V}$ and an arbitrary state $s \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS$.--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}$.++} Then:
+Fix $V, W \in \mathcal{V}$ and an arbitrary state $s \in \mathcal{S}$. Then:
 
 $$
-\begin{aligned}\big|(\mathcal{B}_{\pi} V)(s) - (\mathcal{B}_{\pi} W)(s)\big|&= \left|\sum_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\pi(a--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\pi(a++} \mid s) \sum_{s' \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\,\gamma\bigl(V(s') - W(s')\bigr)\right| \\&\le \gamma \,\sum_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\pi(a--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\pi(a++} \mid s) \sum_{s' \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\,\big|V(s') - W(s')\big| \\&\le \gamma \, \sum_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\pi(a--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\pi(a++} \mid s) \sum_{s' \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\,\|V - W\|_{\infty}\\&\le \gamma\,\|V - W\|_{\infty},\end{aligned}
+\begin{aligned}\big|(\mathcal{B}_{\pi} V)(s) - (\mathcal{B}_{\pi} W)(s)\big|&= \left|\sum_{a \in \mathcal{A}}\pi(a \mid s) \sum_{s' \in \mathcal{S}}T(s' \mid s, a)\,\gamma\bigl(V(s') - W(s')\bigr)\right| \\&\le \gamma \,\sum_{a \in \mathcal{A}}\pi(a \mid s) \sum_{s' \in \mathcal{S}}T(s' \mid s, a)\,\big|V(s') - W(s')\big| \\&\le \gamma \, \sum_{a \in \mathcal{A}}\pi(a \mid s) \sum_{s' \in \mathcal{S}}T(s' \mid s, a)\,\|V - W\|_{\infty}\\&\le \gamma\,\|V - W\|_{\infty},\end{aligned}
 $$
 
 where the last step uses $\sum_{s'}T(s' \mid s, a) = 1$ and $\sum_{a} \pi(a \mid s) = 1$. Taking the maximum over $s$ gives $\|\mathcal{B}_{\pi} V - \mathcal{B}_{\pi} W\|_{\infty} \le \gamma\,\|V - W\|_{\infty}$, so $\mathcal{B}_{\pi}$ is a contraction with factor $\gamma$.
 
-By [[#^thm-banach|Theorem 3.1]], $\mathcal{B}_{\pi}$ has a unique fixed point. By the Bellman equation {--{"author":"Elias's AI","timestamp":1786983915741}@@([[#^1-the-bellman-equation|Section--}{++{"author":"Elias's AI","timestamp":1786983915741}@@([[#1. The Bellman equation|Section++} 1]]), $V_{\pi}$ satisfies $\mathcal{B}_{\pi} V_{\pi} = V_{\pi}$, so $V_{\pi}$ is this unique fixed point. The convergence statement also follows from [[#^thm-banach|Theorem 3.1]].
+By [[#^thm-banach|Theorem 3.1]], $\mathcal{B}_{\pi}$ has a unique fixed point. By the Bellman equation ([[#1. The Bellman equation|Section 1]]), $V_{\pi}$ satisfies $\mathcal{B}_{\pi} V_{\pi} = V_{\pi}$, so $V_{\pi}$ is this unique fixed point. The convergence statement also follows from [[#^thm-banach|Theorem 3.1]].
 
 :::
 
@@ -422,7 +420,7 @@ By [[#^thm-banach|Theorem 3.1]], $\mathcal{B}_{\pi}$ has a unique fixed point. B
 **Exercise 3.5.** Let $V \in \mathcal{V}$ be any value function, and let $\pi_{V}$ be a greedy policy with respect to $V$, i.e.
 
 $$
-\pi_{V}(s) \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\argmax_{a--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\operatorname*{arg\,max}_{a++} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\sum_{s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\sum_{s'++} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\bigl(R(s,a,s') + \gamma\, V(s')\bigr).
+\pi_{V}(s) \in \operatorname*{arg\,max}_{a \in \mathcal{A}}\sum_{s' \in \mathcal{S}}T(s' \mid s, a)\bigl(R(s,a,s') + \gamma\, V(s')\bigr).
 $$
 
 Show that $\mathcal{B}_{\pi_V}V = \mathcal{B}V$.
@@ -433,10 +431,10 @@ Show that $\mathcal{B}_{\pi_V}V = \mathcal{B}V$.
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-Since $\pi_{V}$ is deterministic, $\pi_{V}(a \mid s) = \llbracket a = \pi_{V}(s) \rrbracket$, so the sum over $a$ in $\mathcal{B}_{\pi_V}$ collapses to the single term $a = \pi_{V}(s)$. For every $s \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS$:--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}$:++}
+Since $\pi_{V}$ is deterministic, $\pi_{V}(a \mid s) = \llbracket a = \pi_{V}(s) \rrbracket$, so the sum over $a$ in $\mathcal{B}_{\pi_V}$ collapses to the single term $a = \pi_{V}(s)$. For every $s \in \mathcal{S}$:
 
 $$
-\begin{aligned}(\mathcal{B}_{\pi_V}V)(s)&= \sum_{s' \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, \pi_{V}(s))\bigl(R(s,\pi_{V}(s),s') + \gamma\, V(s')\bigr) \\&= \max_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\sum_{s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\sum_{s'++} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\bigl(R(s,a,s') + \gamma\, V(s')\bigr) \\&= (\mathcal{B}V)(s),\end{aligned}
+\begin{aligned}(\mathcal{B}_{\pi_V}V)(s)&= \sum_{s' \in \mathcal{S}}T(s' \mid s, \pi_{V}(s))\bigl(R(s,\pi_{V}(s),s') + \gamma\, V(s')\bigr) \\&= \max_{a \in \mathcal{A}}\sum_{s' \in \mathcal{S}}T(s' \mid s, a)\bigl(R(s,a,s') + \gamma\, V(s')\bigr) \\&= (\mathcal{B}V)(s),\end{aligned}
 $$
 
 where the second equality holds because $\pi_{V}(s)$ selects a maximizing action by definition.
@@ -459,7 +457,7 @@ We have $\mathcal{B}_{\pi^*}V^{*} = \mathcal{B}V^{*} = V^{*}$ by [[#^prob-greedy
 :::
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 3.7.** Conclude that $\pi^{*}$ is an **optimal policy**: for every policy $\pi$ and every state $s \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS$,--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}$,++}
+**Exercise 3.7.** Conclude that $\pi^{*}$ is an **optimal policy**: for every policy $\pi$ and every state $s \in \mathcal{S}$,
 
 $$
 V_{\pi^*}(s) \ge V_{\pi}(s).
@@ -476,13 +474,13 @@ $$
 Let $\pi$ be any policy. Since the max over actions is at least as large as any weighted average:
 
 $$
-(\mathcal{B}V)(s) \ge (\mathcal{B}_{\pi} V)(s) \quad \text{for all }V \in \mathcal{V},\; s \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS.--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}.++}
+(\mathcal{B}V)(s) \ge (\mathcal{B}_{\pi} V)(s) \quad \text{for all }V \in \mathcal{V},\; s \in \mathcal{S}.
 $$
 
 In particular, since $V_{\pi}$ is a fixed point of $\mathcal{B}_{\pi}$ ([[#^prob-bpi-contraction|Exercise 3.4]]):
 
 $$
-(\mathcal{B}V_{\pi})(s) \ge (\mathcal{B}_{\pi} V_{\pi})(s) = V_{\pi}(s) \quad \text{for all }s \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS.--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}.++}
+(\mathcal{B}V_{\pi})(s) \ge (\mathcal{B}_{\pi} V_{\pi})(s) = V_{\pi}(s) \quad \text{for all }s \in \mathcal{S}.
 $$
 
 Note that $\mathcal{B}$ is monotone: if $V(s) \ge W(s)$ for all $s$, then $(\mathcal{B}V)(s) \ge (\mathcal{B}W)(s)$. Applying $\mathcal{B}$ to both sides and using monotonicity, then iterating:
@@ -494,14 +492,14 @@ $$
 By [[#^prob-v-star-exists|Exercise 3.3]], $\mathcal{B}^{n} V_{\pi} \to V^{*}$ as $n \to \infty$. Taking the limit:
 
 $$
-V_{\pi}(s) \le V^{*}(s) = V_{\pi^*}(s) \quad \text{for all }s \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS,--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S},++}
+V_{\pi}(s) \le V^{*}(s) = V_{\pi^*}(s) \quad \text{for all }s \in \mathcal{S},
 $$
 
 where the last equality is [[#^prob-v-pi-star|Exercise 3.6]]. Since $\pi$ was arbitrary, $\pi^{*}$ is optimal.
 
 :::
 
-\## 4. Policy improvement theorem{--{"author":"Elias's AI","timestamp":1786983915741}@@ ^4-policy-improvement-theorem--}
+\## 4. Policy improvement theorem
 
 Given a policy $\pi$, define the **improved policy** $\pi'$ greedily with respect to $V_{\pi}$:
 
@@ -510,13 +508,13 @@ Given a policy $\pi$, define the **improved policy** $\pi'$ greedily with respec
 **Policy Improvement**
 
 $$
-\pi'(s) \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\argmax_{a--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\operatorname*{arg\,max}_{a++} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\sum_{s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\sum_{s'++} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\bigl(R(s,a,s') + \gamma\, V_{\pi}(s')\bigr).
+\pi'(s) \in \operatorname*{arg\,max}_{a \in \mathcal{A}}\sum_{s' \in \mathcal{S}}T(s' \mid s, a)\bigl(R(s,a,s') + \gamma\, V_{\pi}(s')\bigr).
 $$
 
 :::
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 4.1.** In proving [[#^prob-optimality|Exercise 3.7]], we already saw that for all $s \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS$,--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}$,++} we have $(\mathcal{B}V_{\pi})(s) \ge V_{\pi}(s)$. When does equality hold for all states?
+**Exercise 4.1.** In proving [[#^prob-optimality|Exercise 3.7]], we already saw that for all $s \in \mathcal{S}$, we have $(\mathcal{B}V_{\pi})(s) \ge V_{\pi}(s)$. When does equality hold for all states?
 :::
 
 ^prob-when-equality
@@ -527,7 +525,7 @@ $$
 We have
 
 $$
-\begin{aligned}(\mathcal{B}V_{\pi})(s)&= \max_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\sum_{s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\sum_{s'++} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\bigl(R(s,a,s') + \gamma\, V_{\pi}(s')\bigr) \\&\ge \sum_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\pi(a--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\pi(a++} \mid s) \sum_{s' \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\bigl(R(s,a,s') + \gamma\, V_{\pi}(s')\bigr) \\&= V_{\pi}(s),\end{aligned}
+\begin{aligned}(\mathcal{B}V_{\pi})(s)&= \max_{a \in \mathcal{A}}\sum_{s' \in \mathcal{S}}T(s' \mid s, a)\bigl(R(s,a,s') + \gamma\, V_{\pi}(s')\bigr) \\&\ge \sum_{a \in \mathcal{A}}\pi(a \mid s) \sum_{s' \in \mathcal{S}}T(s' \mid s, a)\bigl(R(s,a,s') + \gamma\, V_{\pi}(s')\bigr) \\&= V_{\pi}(s),\end{aligned}
 $$
 
 where we used the Bellman equation in the last step. If equality holds at every state $s$, then $V_{\pi}$ is a fixed point of $\mathcal{B}$, which by uniqueness ([[#^prob-v-star-exists|Exercise 3.3]]) means $V_{\pi} = V^{*} = V_{\pi^*}$, i.e. $\pi$ is already optimal by [[#^prob-optimality|Exercise 3.7]].
@@ -535,7 +533,7 @@ where we used the Bellman equation in the last step. If equality holds at every 
 :::
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 4.2.** Show that $V_{\pi'}(s) \ge V_{\pi}(s)$ for all $s \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS$.--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}$.++}
+**Exercise 4.2.** Show that $V_{\pi'}(s) \ge V_{\pi}(s)$ for all $s \in \mathcal{S}$.
 
 *Hint:* show that $\mathcal{B}_{\pi'}V_{\pi} \ge V_{\pi}$ pointwise using [[#^prob-greedy-equals-b|Exercise 3.5]], then iterate $\mathcal{B}_{\pi'}$ and take the limit.
 :::
@@ -551,7 +549,7 @@ $$
 V_{\pi} \le \mathcal{B}_{\pi'}V_{\pi} \le \mathcal{B}_{\pi'}^{2} V_{\pi} \le \cdots \le \mathcal{B}_{\pi'}^{n} V_{\pi}.
 $$
 
-By [[#^prob-bpi-contraction|Exercise 3.4]], $\mathcal{B}_{\pi'}^{n} V_{\pi} \to V_{\pi'}$ as $n \to \infty$. Taking the limit gives $V_{\pi'}(s) \ge V_{\pi}(s)$ for all $s \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS$.--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}$.++}
+By [[#^prob-bpi-contraction|Exercise 3.4]], $\mathcal{B}_{\pi'}^{n} V_{\pi} \to V_{\pi'}$ as $n \to \infty$. Taking the limit gives $V_{\pi'}(s) \ge V_{\pi}(s)$ for all $s \in \mathcal{S}$.
 
 :::
 
@@ -566,13 +564,13 @@ By [[#^prob-bpi-contraction|Exercise 3.4]], $\mathcal{B}_{\pi'}^{n} V_{\pi} \to 
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-By [[#^prob-policy-improvement-thm|Exercise 4.2]], the sequence of value functions is monotonically improving: $V_{\pi_{k+1}}(s) \ge V_{\pi_k}(s)$ for all $s$ and all $k$. Since each $\pi_{k}$ is a deterministic policy and there are only {--{"author":"Elias's AI","timestamp":1786983915741}@@$|\cA|^{|\cS|}$--}{++{"author":"Elias's AI","timestamp":1786983915741}@@$|\mathcal{A}|^{|\mathcal{S}|}$++} deterministic policies, the sequence must eventually revisit a policy. If $\pi_{k+1}= \pi_{j}$ for some $j \le k$, then $V_{\pi_{k+1}}= V_{\pi_j}$, and by monotonicity $V_{\pi_j}= V_{\pi_{j+1}}= \cdots = V_{\pi_{k+1}}$. In particular $V_{\pi_k}= V_{\pi_{k+1}}$.
+By [[#^prob-policy-improvement-thm|Exercise 4.2]], the sequence of value functions is monotonically improving: $V_{\pi_{k+1}}(s) \ge V_{\pi_k}(s)$ for all $s$ and all $k$. Since each $\pi_{k}$ is a deterministic policy and there are only $|\mathcal{A}|^{|\mathcal{S}|}$ deterministic policies, the sequence must eventually revisit a policy. If $\pi_{k+1}= \pi_{j}$ for some $j \le k$, then $V_{\pi_{k+1}}= V_{\pi_j}$, and by monotonicity $V_{\pi_j}= V_{\pi_{j+1}}= \cdots = V_{\pi_{k+1}}$. In particular $V_{\pi_k}= V_{\pi_{k+1}}$.
 
 It remains to show this implies optimality. Since $\pi_{k+1}$ is greedy with respect to $V_{\pi_k}$, [[#^prob-greedy-equals-b|Exercise 3.5]] gives $\mathcal{B}V_{\pi_k}= \mathcal{B}_{\pi_{k+1}}V_{\pi_k}$. Since $V_{\pi_{k+1}}$ is the fixed point of $\mathcal{B}_{\pi_{k+1}}$ and $V_{\pi_k}= V_{\pi_{k+1}}$, we get $\mathcal{B}_{\pi_{k+1}}V_{\pi_k}= V_{\pi_k}$. Combining: $\mathcal{B}V_{\pi_k}= V_{\pi_k}$, so $\pi_{k}$ is optimal by [[#^prob-when-equality|Exercise 4.1]].
 
 :::
 
-\## 5. Bellman convergence rate{--{"author":"Elias's AI","timestamp":1786983915741}@@ ^5-bellman-convergence-rate--}
+\## 5. Bellman convergence rate
 
 [[#^prob-v-star-exists|Exercise 3.3]] showed that the iterates $V_{n} := \mathcal{B}^{n} V_{0}$ converge to $V^{*}$ for any starting $V_{0} \in \mathcal{V}$, but it did not tell us *how fast*, nor how to decide when to stop iterating. We derive some convergence rate bounds ([[#^bib-putermanmarkovdecisionprocesses1994|Puterman 1994]], Chapter 6).
 
@@ -734,7 +732,7 @@ This bound depends only on $n$, $\gamma$, and $R_{\max}$, so it can be evaluated
 With $V_{0} \equiv 0$:
 
 $$
-V_{1}(s) \;=\; (\mathcal{B}V_{0})(s) \;=\; \max_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}\sum_{s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}\sum_{s'++} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\, R(s,a,s').
+V_{1}(s) \;=\; (\mathcal{B}V_{0})(s) \;=\; \max_{a \in \mathcal{A}}\sum_{s' \in \mathcal{S}}T(s' \mid s, a)\, R(s,a,s').
 $$
 
 Each term is a convex combination of rewards, all bounded in absolute value by $R_{\max}$, so $|V_{1}(s)| \le R_{\max}$ for every $s$, hence $\|V_{1} - V_{0}\|_{\infty} = \|V_{1}\|_{\infty} \le R_{\max}$. Substituting into the a priori bound of [[#^prob-a-priori-bound|Exercise 5.2]]:
@@ -754,7 +752,7 @@ $$
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-Take {--{"author":"Elias's AI","timestamp":1786983915741}@@$\cS--}{++{"author":"Elias's AI","timestamp":1786983915741}@@$\mathcal{S}++} = \{s\}$, {--{"author":"Elias's AI","timestamp":1786983915741}@@$\cA--}{++{"author":"Elias's AI","timestamp":1786983915741}@@$\mathcal{A}++} = \{a\}$, $T(s \mid s, a) = 1$, and $R(s, a, s) = R_{\max}$. The Bellman optimality operator collapses to
+Take $\mathcal{S} = \{s\}$, $\mathcal{A} = \{a\}$, $T(s \mid s, a) = 1$, and $R(s, a, s) = R_{\max}$. The Bellman optimality operator collapses to
 
 $$
 (\mathcal{B}V)(s) \;=\; R_{\max}+ \gamma\, V(s).
@@ -789,11 +787,11 @@ $$
 :::
 Each step weakens the bound by replacing realized information with something coarser: first the most recent step size $\|V_{n} - V_{n-1}\|_{\infty}$ with the worst-case geometric decay $\gamma^{n-1}\|V_{1} - V_{0}\|_{\infty}$ (contraction of $\mathcal{B}$ applied $n-1$ times), then the initial step size $\|V_{1} - V_{0}\|_{\infty}$ with the crude reward bound $R_{\max}$. In practice the leftmost bound is significantly tighter, since $\|V_{n} - V_{n-1}\|_{\infty}$ often decays strictly faster than $\gamma^{n-1}\|V_{1} - V_{0}\|_{\infty}$. It also yields a concrete stopping rule: to guarantee $\|V_{n} - V^{*}\|_{\infty} \le \varepsilon$, iterate until $\|V_{n} - V_{n-1}\|_{\infty} \le \frac{1-\gamma}{\gamma}\, \varepsilon$.
 
-\## 6. Convergence of Q-learning{--{"author":"Elias's AI","timestamp":1786983915741}@@ ^6-convergence-of-q-learning--}
+\## 6. Convergence of Q-learning
 
-The policy improvement theorem from {--{"author":"Elias's AI","timestamp":1786983915741}@@[[#^4-policy-improvement-theorem|Section--}{++{"author":"Elias's AI","timestamp":1786983915741}@@[[#4. Policy improvement theorem|Section++} 4]] shows that we can in principle find an optimal policy in MDPs. However, it makes the uncomfortable assumption that we know the environment dynamics via the transition kernel $T$. In this problem, we prove that $Q$-learning, which does not make such an assumption, converges to the optimal action-value function, from which one can trivially extract an optimal policy by choosing actions greedily.
+The policy improvement theorem from [[#4. Policy improvement theorem|Section 4]] shows that we can in principle find an optimal policy in MDPs. However, it makes the uncomfortable assumption that we know the environment dynamics via the transition kernel $T$. In this problem, we prove that $Q$-learning, which does not make such an assumption, converges to the optimal action-value function, from which one can trivially extract an optimal policy by choosing actions greedily.
 
-\### Stochastic approximation theorem{--{"author":"Elias's AI","timestamp":1786983915741}@@ ^stochastic-approximation-theorem--}
+\### Stochastic approximation theorem
 
 We will make use of the following stochastic approximation result, which we state without proof:
 
@@ -858,22 +856,22 @@ The signal accumulates coherently (always pulling toward $x^{*}$), while the noi
 
 **Layer 3: one coordinate at a time.** The iteration updates only one coordinate $i = i_{t}$ per step, while the others stay frozen. This makes the analysis more difficult since the target $F(x_{t})(i)$ depends on all coordinates, including stale ones. The condition $\sum_{t} \alpha_{t}(i) = \infty$ for each $i$ ensures no coordinate is permanently neglected, and the contraction property of $F$ provides enough global coupling to prevent coordinates from drifting apart. Making this rigorous is the main technical content of the proof.
 
-\### The problem{--{"author":"Elias's AI","timestamp":1786983915741}@@ ^the-problem--}
+\### The problem
 
-Consider the following generalization of the Q-learning update from the ARENA materials, now with a time-varying learning rate $\alpha_{t} > 0$: given a current estimate $Q_{t} : {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}++} \times {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}++} \to \mathbb{R}$ and an observed transition $(s_{t}, a_{t}, r_{t+1}, s_{t+1})$ where $s_{t+1}\sim T(\cdot \mid s_{t}, a_{t})$ and $r_{t+1}= R(s_{t}, a_{t}, s_{t+1})$, the update is
+Consider the following generalization of the Q-learning update from the ARENA materials, now with a time-varying learning rate $\alpha_{t} > 0$: given a current estimate $Q_{t} : \mathcal{S} \times \mathcal{A} \to \mathbb{R}$ and an observed transition $(s_{t}, a_{t}, r_{t+1}, s_{t+1})$ where $s_{t+1}\sim T(\cdot \mid s_{t}, a_{t})$ and $r_{t+1}= R(s_{t}, a_{t}, s_{t+1})$, the update is
 
 :::callout {title="Note" tone="neutral"}
 
 **Q-Learning Update**
 
 $$
-Q_{t+1}(s_{t}, a_{t}) = Q_{t}(s_{t}, a_{t}) + \alpha_{t}\bigl(r_{t+1}+ \gamma \max_{a' \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}Q_{t}(s_{t+1},--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}Q_{t}(s_{t+1},++} a') - Q_{t}(s_{t}, a_{t})\bigr),
+Q_{t+1}(s_{t}, a_{t}) = Q_{t}(s_{t}, a_{t}) + \alpha_{t}\bigl(r_{t+1}+ \gamma \max_{a' \in \mathcal{A}}Q_{t}(s_{t+1}, a') - Q_{t}(s_{t}, a_{t})\bigr),
 $$
 
 :::
 with $Q_{t+1}(s,a) = Q_{t}(s,a)$ for all $(s,a) \neq (s_{t}, a_{t})$. We will show that, under appropriate conditions, Q-learning converges to the optimal action-value function $Q^{*}$.
 
-Let $\mathcal{Q}= \{Q : {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}++} \times {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}++} \to \mathbb{R}\}$ denote the space of action-value functions, equipped with the sup-norm $\|Q\|_{\infty} = \max_{s,a}|Q(s,a)|$.
+Let $\mathcal{Q}= \{Q : \mathcal{S} \times \mathcal{A} \to \mathbb{R}\}$ denote the space of action-value functions, equipped with the sup-norm $\|Q\|_{\infty} = \max_{s,a}|Q(s,a)|$.
 
 :::callout {title="Exercise" tone="blue"}
 **Exercise 6.1.** Overloading the notation from [[#^def-bellman-op|Theorem 3.2]], define the **Bellman optimality operator** on action-value functions, $\mathcal{B}: \mathcal{Q}\to \mathcal{Q}$, by
@@ -882,7 +880,7 @@ Let $\mathcal{Q}= \{Q : {--{"author":"Elias's AI","timestamp":1786983915741}@@\c
 **Bellman Q-Operator**
 
 $$
-(\mathcal{B}Q)(s,a) \coloneqq \sum_{s' \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\bigl[R(s,a,s') + \gamma \max_{a' \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}Q(s',--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}Q(s',++} a')\bigr].
+(\mathcal{B}Q)(s,a) \coloneqq \sum_{s' \in \mathcal{S}}T(s' \mid s, a)\bigl[R(s,a,s') + \gamma \max_{a' \in \mathcal{A}}Q(s', a')\bigr].
 $$
 
 ::::
@@ -896,7 +894,7 @@ $$
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-Fix $Q, Q' \in \mathcal{Q}$ and $(s,a) \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}++} \times {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA$.--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}$.++} By the inequality from [[#^prob-max-ineq|Exercise 3.1]] (applied at each $s'$) and the triangle inequality:
+Fix $Q, Q' \in \mathcal{Q}$ and $(s,a) \in \mathcal{S} \times \mathcal{A}$. By the inequality from [[#^prob-max-ineq|Exercise 3.1]] (applied at each $s'$) and the triangle inequality:
 
 $$
 \begin{aligned}\bigl|(\mathcal{B}Q)(s,a) - (\mathcal{B}Q')(s,a)\bigr|&= \left|\sum_{s'}T(s' \mid s,a)\,\gamma\Bigl(\max_{a'}Q(s',a') - \max_{a'}Q'(s',a')\Bigr)\right| \\&\le \sum_{s'}T(s' \mid s,a)\,\gamma\,\max_{a'}\bigl|Q(s',a') - Q'(s',a')\bigr| \\&\le \sum_{s'}T(s' \mid s,a)\,\gamma\,\max_{a', s''}\bigl|Q(s'',a') - Q'(s'',a')\bigr| \\&\le \gamma\,\|Q - Q'\|_{\infty}.\end{aligned}
@@ -907,11 +905,11 @@ Taking the maximum over $(s,a)$ gives $\|\mathcal{B}Q - \mathcal{B}Q'\|_{\infty}
 :::
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 6.2.** Define $Q^{*} \coloneqq Q_{\pi^*}$, the action-value function of the optimal policy $\pi^{*}$ from {--{"author":"Elias's AI","timestamp":1786983915741}@@[[#^3-bellman-operators-and-the-existence-of-optimal-policies|Section--}{++{"author":"Elias's AI","timestamp":1786983915741}@@[[#3. Bellman operators and the existence of optimal policies|Section++} 3]]. We now show Bellman optimality equations and their consequences.
+**Exercise 6.2.** Define $Q^{*} \coloneqq Q_{\pi^*}$, the action-value function of the optimal policy $\pi^{*}$ from [[#3. Bellman operators and the existence of optimal policies|Section 3]]. We now show Bellman optimality equations and their consequences.
 
-**(a)** Show that $Q^{*}(s,a) = \sum_{s' \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, a)\bigl[R(s,a,s') + \gamma\, V^{*}(s')\bigr]$.
+**(a)** Show that $Q^{*}(s,a) = \sum_{s' \in \mathcal{S}}T(s' \mid s, a)\bigl[R(s,a,s') + \gamma\, V^{*}(s')\bigr]$.
 
-**(b)** Show that $V^{*}(s) = \max_{a \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA}Q^{*}(s,a)$.--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}}Q^{*}(s,a)$.++}
+**(b)** Show that $V^{*}(s) = \max_{a \in \mathcal{A}}Q^{*}(s,a)$.
 
 **(c)** Conclude that $Q^{*}$ is the unique fixed point of $\mathcal{B}$.
 :::
@@ -924,12 +922,12 @@ Taking the maximum over $(s,a)$ gives $\|\mathcal{B}Q - \mathcal{B}Q'\|_{\infty}
 **(a)** By [[#^prob-q-function|Exercise 1.2(b)]] applied to $\pi^{*}$:
 
 $$
-Q_{\pi^*}(s,a) = \sum_{s' \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s,a)\bigl[R(s,a,s') + \gamma\, V_{\pi^*}(s')\bigr].
+Q_{\pi^*}(s,a) = \sum_{s' \in \mathcal{S}}T(s' \mid s,a)\bigl[R(s,a,s') + \gamma\, V_{\pi^*}(s')\bigr].
 $$
 
 By [[#^prob-v-pi-star|Exercise 3.6]], $V_{\pi^*}= V^{*}$. Substituting gives the result.
 
-**(b)** By [[#^prob-q-function|Exercise 1.2(a)]], $V_{\pi^*}(s) = \sum_{a}\pi^{*}(a \mid s)\, Q_{\pi^*}(s,a)$. Since $\pi^{*}$ is the greedy policy with respect to $V^{*}$ ([[#^prob-greedy-equals-b|Exercise 3.5]] and [[#^prob-v-pi-star|3.6]]), it is deterministic and selects $\pi^{*}(s) \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\argmax_{a}--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\operatorname*{arg\,max}_{a}++} \sum_{s'}T(s' \mid s,a)[R(s,a,s') + \gamma\, V^{*}(s')]$. By [[#^prob-bellman-opt-q|Exercise 6.2(a)]], the inner expression equals $Q^{*}(s,a)$, so $\pi^{*}(s) \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\argmax_{a}--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\operatorname*{arg\,max}_{a}++} Q^{*}(s,a)$. Since $\pi^{*}$ is deterministic, $V^{*}(s) = V_{\pi^*}(s) = Q_{\pi^*}(s, \pi^{*}(s)) = Q^{*}(s, \pi^{*}(s)) = \max_{a} Q^{*}(s,a)$.
+**(b)** By [[#^prob-q-function|Exercise 1.2(a)]], $V_{\pi^*}(s) = \sum_{a}\pi^{*}(a \mid s)\, Q_{\pi^*}(s,a)$. Since $\pi^{*}$ is the greedy policy with respect to $V^{*}$ ([[#^prob-greedy-equals-b|Exercise 3.5]] and [[#^prob-v-pi-star|3.6]]), it is deterministic and selects $\pi^{*}(s) \in \operatorname*{arg\,max}_{a} \sum_{s'}T(s' \mid s,a)[R(s,a,s') + \gamma\, V^{*}(s')]$. By [[#^prob-bellman-opt-q|Exercise 6.2(a)]], the inner expression equals $Q^{*}(s,a)$, so $\pi^{*}(s) \in \operatorname*{arg\,max}_{a} Q^{*}(s,a)$. Since $\pi^{*}$ is deterministic, $V^{*}(s) = V_{\pi^*}(s) = Q_{\pi^*}(s, \pi^{*}(s)) = Q^{*}(s, \pi^{*}(s)) = \max_{a} Q^{*}(s,a)$.
 
 **(c)** Substituting [[#^prob-bellman-opt-q|Exercise 6.2(b)]] into [[#^prob-bellman-opt-q|Exercise 6.2(a)]]:
 
@@ -958,7 +956,7 @@ Specifically, identify the index set $I$, the mapping $F$, the iterates $x_{t}$,
 
 The identifications are:
 
-- Index set: $I = {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}++} \times {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA$.--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}$.++}
+- Index set: $I = \mathcal{S} \times \mathcal{A}$.
 - Iterates: $x_{t} = Q_{t}$.
 - Contraction: $F = \mathcal{B}$, with fixed point $x^{*} = Q^{*}$ ([[#^prob-bellman-opt-q|Exercise 6.2]]).
 - Learning rates: $\alpha_{t}(s,a) = \alpha_{t} \cdot \llbracket (s,a) = (s_{t}, a_{t}) \rrbracket$.
@@ -980,7 +978,7 @@ i.e. the difference between the sampled target (using the single transition $s_{
 :::
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 6.4.** Show that the noise satisfies $\mathbb{E}[w_{t}(s,a) \mid \mathcal{F}_{t}] = 0$ for all $(s,a) \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}++} \times {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA$,--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}$,++} where $\mathcal{F}_{t}$ denotes the history up to time $t$ as in [[#^thm-stochastic-approx|Theorem 6.1]].
+**Exercise 6.4.** Show that the noise satisfies $\mathbb{E}[w_{t}(s,a) \mid \mathcal{F}_{t}] = 0$ for all $(s,a) \in \mathcal{S} \times \mathcal{A}$, where $\mathcal{F}_{t}$ denotes the history up to time $t$ as in [[#^thm-stochastic-approx|Theorem 6.1]].
 
 *Hint:* conditioned on $\mathcal{F}_{t}$, the quantities $Q_{t}$, $s_{t}$, and $a_{t}$ are all determined. What is the only remaining source of randomness?
 :::
@@ -1072,7 +1070,7 @@ So $C = 8\max(R_{\max}^{2}, \gamma^{2})$ works. For $(s,a) \neq (s_{t}, a_{t})$,
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-By [[#^prob-bq-contraction|Exercises 6.1–6.5]], the Q-learning iteration satisfies all the hypotheses of [[#^thm-stochastic-approx|Theorem 6.1]], provided the learning rate conditions hold: for each $(s,a) \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}++} \times {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA$,--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}$,++}
+By [[#^prob-bq-contraction|Exercises 6.1–6.5]], the Q-learning iteration satisfies all the hypotheses of [[#^thm-stochastic-approx|Theorem 6.1]], provided the learning rate conditions hold: for each $(s,a) \in \mathcal{S} \times \mathcal{A}$,
 
 $$
 \sum_{t=0}^{\infty}\alpha_{t}(s,a) = \infty, \qquad \sum_{t=0}^{\infty}\alpha_{t}(s,a)^{2} < \infty, \qquad \alpha_{t}(s,a) \in [0,1].
@@ -1084,18 +1082,18 @@ Note that the first condition already implies that each state-action pair $(s,a)
 
 :::
 
-\## 7. Exact policy evaluation{--{"author":"Elias's AI","timestamp":1786983915741}@@ ^7-exact-policy-evaluation--}
+\## 7. Exact policy evaluation
 
 In [[#^prob-bpi-contraction|Exercise 3.4]], we showed that iterating $\mathcal{B}_{\pi}$ converges to $V_{\pi}$; this is the numerical policy evaluation scheme used in the ARENA materials. When the state space is finite and the dynamics $(T, R)$ are known, there is also an *exact* (closed-form) solution: the Bellman equation becomes a linear system that can be solved directly. In this problem we derive that closed form for deterministic policies.
 
 :::callout {title="Definition" tone="purple"}
 
-**Definition 7.1 (Matrix-vector notation for a deterministic policy).** Fix a deterministic policy $\pi$. Treating the value function as a vector in {--{"author":"Elias's AI","timestamp":1786983915741}@@$\mathbb{R}^{|\cS|}$,--}{++{"author":"Elias's AI","timestamp":1786983915741}@@$\mathbb{R}^{|\mathcal{S}|}$,++} define:
+**Definition 7.1 (Matrix-vector notation for a deterministic policy).** Fix a deterministic policy $\pi$. Treating the value function as a vector in $\mathbb{R}^{|\mathcal{S}|}$, define:
 
-- $\mathbf{v}^{\pi} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\mathbb{R}^{|\cS|}$--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathbb{R}^{|\mathcal{S}|}$++} with $\mathbf{v}^{\pi}_{s} := V_{\pi}(s)$,
-- $\mathbf{P}^{\pi} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\mathbb{R}^{|\cS|--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathbb{R}^{|\mathcal{S}|++} \times {--{"author":"Elias's AI","timestamp":1786983915741}@@|\cS|}$--}{++{"author":"Elias's AI","timestamp":1786983915741}@@|\mathcal{S}|}$++} with $\mathbf{P}^{\pi}_{s,s'}:= T(s' \mid s, \pi(s))$ (the **transition matrix** under $\pi$),
-- $\mathbf{R}^{\pi} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\mathbb{R}^{|\cS|--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathbb{R}^{|\mathcal{S}|++} \times {--{"author":"Elias's AI","timestamp":1786983915741}@@|\cS|}$--}{++{"author":"Elias's AI","timestamp":1786983915741}@@|\mathcal{S}|}$++} with $\mathbf{R}^{\pi}_{s,s'}:= R(s, \pi(s), s')$ (the **reward matrix**),
-- $\mathbf{r}^{\pi} \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\mathbb{R}^{|\cS|}$--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathbb{R}^{|\mathcal{S}|}$++} with $\mathbf{r}^{\pi}_{s} := \sum_{s'}\mathbf{P}^{\pi}_{s,s'}\, \mathbf{R}^{\pi}_{s,s'}= \sum_{s'}T(s' \mid s, \pi(s))\, R(s, \pi(s), s')$ (the **expected immediate reward**).
+- $\mathbf{v}^{\pi} \in \mathbb{R}^{|\mathcal{S}|}$ with $\mathbf{v}^{\pi}_{s} := V_{\pi}(s)$,
+- $\mathbf{P}^{\pi} \in \mathbb{R}^{|\mathcal{S}| \times |\mathcal{S}|}$ with $\mathbf{P}^{\pi}_{s,s'}:= T(s' \mid s, \pi(s))$ (the **transition matrix** under $\pi$),
+- $\mathbf{R}^{\pi} \in \mathbb{R}^{|\mathcal{S}| \times |\mathcal{S}|}$ with $\mathbf{R}^{\pi}_{s,s'}:= R(s, \pi(s), s')$ (the **reward matrix**),
+- $\mathbf{r}^{\pi} \in \mathbb{R}^{|\mathcal{S}|}$ with $\mathbf{r}^{\pi}_{s} := \sum_{s'}\mathbf{P}^{\pi}_{s,s'}\, \mathbf{R}^{\pi}_{s,s'}= \sum_{s'}T(s' \mid s, \pi(s))\, R(s, \pi(s), s')$ (the **expected immediate reward**).
 
 :::
 
@@ -1134,7 +1132,7 @@ $$
 ::::
 assuming $\mathbf{I}- \gamma\, \mathbf{P}^{\pi}$ is invertible (which we prove in [[#^prob-exact-eval-invertible|Exercise 7.2]]).
 
-*Hint:* specialize the Bellman equation to a deterministic policy and write the resulting system of {--{"author":"Elias's AI","timestamp":1786983915741}@@$|\cS|$--}{++{"author":"Elias's AI","timestamp":1786983915741}@@$|\mathcal{S}|$++} equations in matrix-vector form.
+*Hint:* specialize the Bellman equation to a deterministic policy and write the resulting system of $|\mathcal{S}|$ equations in matrix-vector form.
 :::
 
 ^prob-exact-eval-derive
@@ -1145,7 +1143,7 @@ assuming $\mathbf{I}- \gamma\, \mathbf{P}^{\pi}$ is invertible (which we prove i
 Since $\pi$ is deterministic, $\pi(a \mid s) = \llbracket a = \pi(s) \rrbracket$, and the Bellman equation from [[#^prob-bellman-proof|Exercise 1.1]] collapses the sum over actions:
 
 $$
-V_{\pi}(s) \;=\; \sum_{s' \in {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS}T(s'--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}}T(s'++} \mid s, \pi(s))\bigl(R(s, \pi(s), s') + \gamma\, V_{\pi}(s')\bigr).
+V_{\pi}(s) \;=\; \sum_{s' \in \mathcal{S}}T(s' \mid s, \pi(s))\bigl(R(s, \pi(s), s') + \gamma\, V_{\pi}(s')\bigr).
 $$
 
 Splitting the reward and value terms and rewriting with the matrix notation of [[#^def-matrix-notation|Theorem 7.1]]:
@@ -1199,7 +1197,7 @@ which has a direct interpretation: $(\mathbf{P}^{\pi})^{k} \mathbf{r}^{\pi}$ is 
 
 *Remark.* The same derivation extends to stochastic policies by defining $\mathbf{P}^{\pi}_{s,s'}= \sum_{a}\pi(a \mid s)\, T(s' \mid s, a)$ and $\mathbf{r}^{\pi}_{s} = \sum_{a}\pi(a \mid s) \sum_{s'}T(s' \mid s, a)\, R(s, a, s')$. The matrix $\mathbf{P}^{\pi}$ remains row-stochastic, so the argument above applies unchanged.
 
-\## References{--{"author":"Elias's AI","timestamp":1786983915741}@@ ^references--}
+\## References
 
 
 M. L. Puterman (1994). *Markov Decision Processes --- Discrete Stochastic Dynamic Programming*. Wiley.
@@ -1214,4 +1212,4 @@ John N. Tsitsiklis (1994). *Asynchronous Stochastic Approximation and Q-Learning
 ^bib-tsitsiklis1994
 
 
-[^1]: Noting that {--{"author":"Elias's AI","timestamp":1786983915741}@@$\cS--}{++{"author":"Elias's AI","timestamp":1786983915741}@@$\mathcal{S}++} \times {--{"author":"Elias's AI","timestamp":1786983915741}@@\cA--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{A}++} \times {--{"author":"Elias's AI","timestamp":1786983915741}@@\cS$--}{++{"author":"Elias's AI","timestamp":1786983915741}@@\mathcal{S}$++} is a finite set, this implies that the rewards are bounded above by $R_{\text{max}}= \max_{s,a,s'}R(s,a,s')$.
+[^1]: Noting that $\mathcal{S} \times \mathcal{A} \times \mathcal{S}$ is a finite set, this implies that the rewards are bounded above by $R_{\text{max}}= \max_{s,a,s'}R(s,a,s')$.

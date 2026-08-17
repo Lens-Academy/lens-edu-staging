@@ -7,9 +7,7 @@ summary_for_tutor: "Faithful April 2026 Iliad Intensive worksheet D.3.1, Solomon
 
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1786983919029}@@$\gdef\Msol{\mathcal{M}_{sol}}\gdef\Mc{\mathcal{M}}\gdef\KL{D_{\text{KL}}}\gdef\Sn#1#2{S_{n}(#1 \parallel #2)}$
-
---}:::callout {title="What you'll learn" tone="green"}
+:::callout {title="What you'll learn" tone="green"}
 
 - Define the Bayesian mixture over a class of environments and prove it is a proper predictor whose posterior updates multiplicatively.
 - Prove the cumulative prediction-error bound and specialize it to the Solomonoff prior to recover the Occam bound.
@@ -22,18 +20,18 @@ Much of this material is drawn from ([[#^bib-hutter-24uaibook2|Hutter et al. 202
 
 **Difficulty ratings.** Each problem is tagged with a rating in square brackets following Knuth's exercise rating scheme ([[#^bib-knuth-73a|Knuth 1973]]): roughly, **[00]** trivial, **[10]** 15–minute pencil-and-paper, **[20]** 1–2 hours, **[30]** several hours to a day, **[40]** a significant research result. Intermediate values are possible.
 
-\## Overview{--{"author":"Elias's AI","timestamp":1786983919029}@@ ^overview--}
+\## Overview
 
 Solomonoff induction is the *prediction* half of **Universal AI**: what would an *optimally intelligent* agent do if it only had to predict, given unlimited compute and the weakest possible assumptions? The answer is a single **Bayesian mixture** $\xi$ over a countable class $\mathcal{M}$ of candidate environments, weighted by a prior $w_{\nu}$. It (eventually) predicts as well as the true environment $\mu$, and under the **universal** choice — $\mathcal{M}$ = all computable environments, prior $w_{\nu} = 2^{-K(\nu)}$ with $K$ the Kolmogorov complexity — the assumption "$\mu \in \mathcal{M}$" becomes "the universe is computable," and Occam's razor drops out of the mathematics.
 
 This module is a worksheet: you build the theory yourself, one problem at a time. The sequel module, [AIXI](/agency/aixi), lifts the same mixture to sequential decision-making (learning to *act*).
 
-\## Prerequisites{--{"author":"Elias's AI","timestamp":1786983919029}@@ ^prerequisites--}
+\## Prerequisites
 
 - Comfort with discrete probability: conditional distributions, the chain rule, expectations.
 - Kullback–Leibler divergence and basic information theory (helpful, developed as needed).
 
-\## Goal and Roadmap{--{"author":"Elias's AI","timestamp":1786983919029}@@ ^goal-and-roadmap--}
+\## Goal and Roadmap
 
 **A recipe for prediction:** Solomonoff induction is an attempt to mathematically formalize the [*problem of induction*](https://en.wikipedia.org/wiki/Problem_of_induction) from philosophy: How to make predictions about the future based on past observations?
 
@@ -45,14 +43,14 @@ $$
 \begin{aligned}S_{\infty}^{\mu} := \sum_{t=1}^{\infty}\sum_{x_{<t} \in \mathbb{B}^*}\mu(x_{<t}) \sum_{x_t \in \mathbb{B}}\big( P(x_{t} \mid x_{<t}) - \mu(x_{t} \mid x_{<t}) \big)^{2}.\end{aligned}
 $$
 
-How to construct a predictor $P$ such that $S^{\mu}_{\infty}$ is small (or at least finite)? Bayesian inference to the rescue: we choose as our predictor a *Bayesian mixture* $\xi$ over a countable class {--{"author":"Elias's AI","timestamp":1786983919029}@@$\Mc--}{++{"author":"Elias's AI","timestamp":1786983919029}@@$\mathcal{M}++} = \{\nu_{1}, \nu_{2}, \dots\}$ of candidate environments, weighted by prior beliefs $w_{\nu}$ (formalized in [[#^def-mixture|Theorem 1.2]]). The main results we build up to are:
+How to construct a predictor $P$ such that $S^{\mu}_{\infty}$ is small (or at least finite)? Bayesian inference to the rescue: we choose as our predictor a *Bayesian mixture* $\xi$ over a countable class $\mathcal{M} = \{\nu_{1}, \nu_{2}, \dots\}$ of candidate environments, weighted by prior beliefs $w_{\nu}$ (formalized in [[#^def-mixture|Theorem 1.2]]). The main results we build up to are:
 
-- **Cumulative bound** {--{"author":"Elias's AI","timestamp":1786983919029}@@([[#^4-cumulative-prediction-error-bound-main-result|Section--}{++{"author":"Elias's AI","timestamp":1786983919029}@@([[#4. Cumulative prediction error bound (main result)|Section++} 4]]): Assuming $\mu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$,--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$,++} $S^{\mu}_{\infty} \leq -\ln w_{\mu}$. The higher the prior on $\mu$, the lower the prediction error.
+- **Cumulative bound** ([[#4. Cumulative prediction error bound (main result)|Section 4]]): Assuming $\mu \in \mathcal{M}$, $S^{\mu}_{\infty} \leq -\ln w_{\mu}$. The higher the prior on $\mu$, the lower the prediction error.
 - **Explicit bound** ([[#^prob-bound-explicit-ex|Exercise 4.2]]): specialize to the Solomonoff prior $w_{\nu} = 2^{-K(\nu)}$ to get $S^{\mu}_{\infty} \leq K(\mu)\ln 2$, where $K$ is the *Kolmogorov complexity*.
-- **Pareto optimality** ([[#^prob-kl-pareto|Exercise 6.2]] and [[#^prob-sq-pareto|8.2]]): no other predictor weakly dominates $\xi$ on every $\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$,--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$,++} for either KL or squared loss.
-- **Misspecified version** ([[#^7-misspecified-models-when-mu-notin-mc|Section 7]]): If $\mu \not\in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$,--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$,++} the cumulative bound becomes $-\ln w_{\hat\mu}+ D_{n}(\mu \parallel \hat\mu)$: the constant complexity term plus an approximation term $D_{n}(\mu \parallel \hat\mu) = \sum_{t=1}^{n} d_{t}(\mu \parallel \hat\mu)$ that in general grows linearly in $n$, so $S^{\mu}_{\infty}$ diverges. Here $\hat{\mu}\in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$++} is the "closest" environment to $\mu$.
+- **Pareto optimality** ([[#^prob-kl-pareto|Exercise 6.2]] and [[#^prob-sq-pareto|8.2]]): no other predictor weakly dominates $\xi$ on every $\nu \in \mathcal{M}$, for either KL or squared loss.
+- **Misspecified version** ([[#^7-misspecified-models-when-mu-notin-mc|Section 7]]): If $\mu \not\in \mathcal{M}$, the cumulative bound becomes $-\ln w_{\hat\mu}+ D_{n}(\mu \parallel \hat\mu)$: the constant complexity term plus an approximation term $D_{n}(\mu \parallel \hat\mu) = \sum_{t=1}^{n} d_{t}(\mu \parallel \hat\mu)$ that in general grows linearly in $n$, so $S^{\mu}_{\infty}$ diverges. Here $\hat{\mu}\in \mathcal{M}$ is the "closest" environment to $\mu$.
 
-\## Notation{--{"author":"Elias's AI","timestamp":1786983919029}@@ ^notation--}
+\## Notation
 
 For more background, see [the corresponding post on Solomonoff induction](https://www.lesswrong.com/posts/HSDumToH57nSRdLST/a-technical-introduction-to-solomonoff-induction-without-k).
 
@@ -64,13 +62,13 @@ For more background, see [the corresponding post on Solomonoff induction](https:
 - $\epsilon$: the empty string. $x_{1:n}:= x_{1} x_{2} \cdots x_{n}$; $x_{<t}:= x_{1} x_{2} \cdots x_{t-1}$.
 - $X_{1:n}, X_{<t}$: the corresponding random variables.
 - $\nu, \rho$: generic environments / predictors. $\mu$: the true (unknown) environment generating the data. $\xi$: a Bayesian mixture of environments.
-- {--{"author":"Elias's AI","timestamp":1786983919029}@@$\Mc--}{++{"author":"Elias's AI","timestamp":1786983919029}@@$\mathcal{M}++} = \{\nu_{1}, \nu_{2}, \ldots\}$: a countable class of candidate environments.
-- $w_{\nu} > 0$ with $\sum_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}w_{\nu}--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}w_{\nu}++} = 1$: the prior over {--{"author":"Elias's AI","timestamp":1786983919029}@@$\Mc$.--}{++{"author":"Elias's AI","timestamp":1786983919029}@@$\mathcal{M}$.++} $w(\nu \mid x_{<t})$: the posterior after observing $x_{<t}$.
+- $\mathcal{M} = \{\nu_{1}, \nu_{2}, \ldots\}$: a countable class of candidate environments.
+- $w_{\nu} > 0$ with $\sum_{\nu \in \mathcal{M}}w_{\nu} = 1$: the prior over $\mathcal{M}$. $w(\nu \mid x_{<t})$: the posterior after observing $x_{<t}$.
 - $\Delta \mathcal{X}$: the set of probability distributions over a finite set $\mathcal{X}$.
 
 :::
 
-\## 1. The mixture is a predictor{--{"author":"Elias's AI","timestamp":1786983919029}@@ ^1-the-mixture-is-a-predictor--}
+\## 1. The mixture is a predictor
 
 :::callout {title="Definition" tone="purple"}
 
@@ -89,11 +87,11 @@ so that $\nu(x_{1:t}) = \nu(x_{<t}) \cdot \nu(x_{t} \mid x_{<t})$ and $\nu(x) = 
 
 :::callout {title="Definition" tone="purple"}
 
-**Definition 1.2 (Bayesian mixture $\xi$).** Let {--{"author":"Elias's AI","timestamp":1786983919029}@@$\Mc--}{++{"author":"Elias's AI","timestamp":1786983919029}@@$\mathcal{M}++} = \{\nu_{1}, \nu_{2}, \dots\}$ be a countable class of environments with prior weights $w_{\nu} > 0$ satisfying $\sum_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}w_{\nu}--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}w_{\nu}++} = 1$. The **Bayesian mixture** is defined as a prior-weighted mixture over all environments $\nu$ in {--{"author":"Elias's AI","timestamp":1786983919029}@@$\Mc$:--}{++{"author":"Elias's AI","timestamp":1786983919029}@@$\mathcal{M}$:++}
+**Definition 1.2 (Bayesian mixture $\xi$).** Let $\mathcal{M} = \{\nu_{1}, \nu_{2}, \dots\}$ be a countable class of environments with prior weights $w_{\nu} > 0$ satisfying $\sum_{\nu \in \mathcal{M}}w_{\nu} = 1$. The **Bayesian mixture** is defined as a prior-weighted mixture over all environments $\nu$ in $\mathcal{M}$:
 
 
 $$
-\xi(x_{1:t}) ~:=~ \sum_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}w_{\nu}\,--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}w_{\nu}\,++} \nu(x_{1:t}).
+\xi(x_{1:t}) ~:=~ \sum_{\nu \in \mathcal{M}}w_{\nu}\, \nu(x_{1:t}).
 $$
 
 
@@ -103,7 +101,7 @@ $$
 Its one-step predictive distribution is
 
 $$
-\xi(x_{t} \mid x_{<t}) ~=~ \sum_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}w(\nu--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}w(\nu++} \mid x_{<t})\, \nu(x_{t} \mid x_{<t}),
+\xi(x_{t} \mid x_{<t}) ~=~ \sum_{\nu \in \mathcal{M}}w(\nu \mid x_{<t})\, \nu(x_{t} \mid x_{<t}),
 $$
 
 with posterior weights
@@ -149,10 +147,10 @@ $$
 :::
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 1.2 (Mixture is a predictor) [10].** Starting from $\xi(x_{1:t}) = \sum_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}w_{\nu}\,--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}w_{\nu}\,++} \nu(x_{1:t})$, show that
+**Exercise 1.2 (Mixture is a predictor) [10].** Starting from $\xi(x_{1:t}) = \sum_{\nu \in \mathcal{M}}w_{\nu}\, \nu(x_{1:t})$, show that
 
 $$
-\xi(x_{t} \mid x_{<t}) ~=~ \sum_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}w(\nu--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}w(\nu++} \mid x_{<t})\, \nu(x_{t} \mid x_{<t}), \qquad w(\nu \mid x_{<t}) := w_{\nu}\, \frac{\nu(x_{<t})}{\xi(x_{<t})},
+\xi(x_{t} \mid x_{<t}) ~=~ \sum_{\nu \in \mathcal{M}}w(\nu \mid x_{<t})\, \nu(x_{t} \mid x_{<t}), \qquad w(\nu \mid x_{<t}) := w_{\nu}\, \frac{\nu(x_{<t})}{\xi(x_{<t})},
 $$
 
 and conclude that $\sum_{x_t \in \mathbb{B}}\xi(x_{t} \mid x_{<t}) = 1$, i.e. $\xi(\cdot \mid x_{<t})$ is a probability distribution over $\mathbb{B}$.
@@ -172,19 +170,19 @@ Write $\xi(x_{t} \mid x_{<t}) = \xi(x_{1:t}) / \xi(x_{<t})$, expand the numerato
 The one-step conditional is the ratio of joint to marginal, $\xi(x_{t} \mid x_{<t}) := \xi(x_{1:t}) / \xi(x_{<t})$. Expanding the numerator and applying the chain rule $\nu(x_{1:t}) = \nu(x_{<t})\, \nu(x_{t} \mid x_{<t})$ to each term:
 
 $$
-\begin{aligned}\xi(x_{t} \mid x_{<t}) ~&=~ \frac{\sum_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}w_{\nu}\,--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}w_{\nu}\,++} \nu(x_{1:t})}{\xi(x_{<t})}~=~ \frac{\sum_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}w_{\nu}\,--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}w_{\nu}\,++} \nu(x_{<t})\, \nu(x_{t} \mid x_{<t})}{\xi(x_{<t})}\\ ~&=~ \sum_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}\underbrace{\frac{w_{\nu}\,--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}\underbrace{\frac{w_{\nu}\,++} \nu(x_{<t})}{\xi(x_{<t})}}_{=\, w(\nu \mid x_{<t})}\, \nu(x_{t} \mid x_{<t}) ~=~ \sum_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}w(\nu--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}w(\nu++} \mid x_{<t})\, \nu(x_{t} \mid x_{<t}).\end{aligned}
+\begin{aligned}\xi(x_{t} \mid x_{<t}) ~&=~ \frac{\sum_{\nu \in \mathcal{M}}w_{\nu}\, \nu(x_{1:t})}{\xi(x_{<t})}~=~ \frac{\sum_{\nu \in \mathcal{M}}w_{\nu}\, \nu(x_{<t})\, \nu(x_{t} \mid x_{<t})}{\xi(x_{<t})}\\ ~&=~ \sum_{\nu \in \mathcal{M}}\underbrace{\frac{w_{\nu}\, \nu(x_{<t})}{\xi(x_{<t})}}_{=\, w(\nu \mid x_{<t})}\, \nu(x_{t} \mid x_{<t}) ~=~ \sum_{\nu \in \mathcal{M}}w(\nu \mid x_{<t})\, \nu(x_{t} \mid x_{<t}).\end{aligned}
 $$
 
 The posterior weights are non-negative and sum to $1$:
 
 $$
-\sum_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}w(\nu--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}w(\nu++} \mid x_{<t}) ~=~ \frac{\sum_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}w_{\nu}\,--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}w_{\nu}\,++} \nu(x_{<t})}{\xi(x_{<t})}~=~ \frac{\xi(x_{<t})}{\xi(x_{<t})}~=~ 1.
+\sum_{\nu \in \mathcal{M}}w(\nu \mid x_{<t}) ~=~ \frac{\sum_{\nu \in \mathcal{M}}w_{\nu}\, \nu(x_{<t})}{\xi(x_{<t})}~=~ \frac{\xi(x_{<t})}{\xi(x_{<t})}~=~ 1.
 $$
 
 Therefore $\xi(\cdot \mid x_{<t})$ is a convex combination of the probability distributions $\nu(\cdot \mid x_{<t})$, so it is itself a probability distribution over $\mathbb{B}$:
 
 $$
-\sum_{x_t \in \mathbb{B}}\xi(x_{t} \mid x_{<t}) ~=~ \sum_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}w(\nu--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}w(\nu++} \mid x_{<t}) \underbrace{\sum_{x_t \in \mathbb{B}} \nu(x_t \mid x_{<t})}_{=\, 1}~=~ \sum_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}w(\nu--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}w(\nu++} \mid x_{<t}) ~=~ 1.
+\sum_{x_t \in \mathbb{B}}\xi(x_{t} \mid x_{<t}) ~=~ \sum_{\nu \in \mathcal{M}}w(\nu \mid x_{<t}) \underbrace{\sum_{x_t \in \mathbb{B}} \nu(x_t \mid x_{<t})}_{=\, 1}~=~ \sum_{\nu \in \mathcal{M}}w(\nu \mid x_{<t}) ~=~ 1.
 $$
 
 :::
@@ -224,7 +222,7 @@ Rearranging gives the claim.
 **Exercise 1.4 (Multi-step posterior linearity) [10].** [[#^prob-one-step-ex|Exercise 1.2]] showed that $\xi$'s one-step prediction $\xi(x_{t} \mid x_{<t})$ is the posterior-weighted average of the per-model one-step predictions. The same identity extends to predictions over a *whole future segment* $x_{t:m}$: for any $t \leq m$,
 
 $$
-\xi(x_{t:m}\mid x_{<t}) ~=~ \sum_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}w(\nu--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}w(\nu++} \mid x_{<t})\, \nu(x_{t:m}\mid x_{<t}).
+\xi(x_{t:m}\mid x_{<t}) ~=~ \sum_{\nu \in \mathcal{M}}w(\nu \mid x_{<t})\, \nu(x_{t:m}\mid x_{<t}).
 $$
 
 That is: the *same* posterior $w(\nu \mid x_{<t})$ governs $\xi$'s predictions for arbitrarily many steps into the future, not just the next one. Show this.
@@ -250,14 +248,14 @@ $$
 The generalized chain rule ([[#^prob-chain-rule-gen-ex|Exercise 1.1]] with $p=1$, $q=t-1$, $r=m$) gives $\nu(x_{1:m}) = \nu(x_{<t})\,\nu(x_{t:m}\mid x_{<t})$. Substituting,
 
 $$
-\xi(x_{t:m}\mid x_{<t}) ~=~ \sum_{\nu} \underbrace{\frac{w_{\nu}\, \nu(x_{<t})}{\xi(x_{<t})}}_{=\, w(\nu \mid x_{<t})}\, \nu(x_{t:m}\mid x_{<t}) ~=~ \sum_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}w(\nu--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}w(\nu++} \mid x_{<t})\, \nu(x_{t:m}\mid x_{<t}).
+\xi(x_{t:m}\mid x_{<t}) ~=~ \sum_{\nu} \underbrace{\frac{w_{\nu}\, \nu(x_{<t})}{\xi(x_{<t})}}_{=\, w(\nu \mid x_{<t})}\, \nu(x_{t:m}\mid x_{<t}) ~=~ \sum_{\nu \in \mathcal{M}}w(\nu \mid x_{<t})\, \nu(x_{t:m}\mid x_{<t}).
 $$
 
 :::
 
-\## 2. KL divergence{--{"author":"Elias's AI","timestamp":1786983919029}@@ ^2-kl-divergence--}
+\## 2. KL divergence
 
-The KL divergence between two joint distributions over a length-$n$ history splits, by an inductive application of the chain rule for probabilities, into a sum of per-step conditional KLs. This telescoping identity lets us trade a single joint KL over an entire history for a sum of per-step KLs (and vice versa): exactly the bridge we will need in {--{"author":"Elias's AI","timestamp":1786983919029}@@[[#^4-cumulative-prediction-error-bound-main-result|Section--}{++{"author":"Elias's AI","timestamp":1786983919029}@@[[#4. Cumulative prediction error bound (main result)|Section++} 4]].
+The KL divergence between two joint distributions over a length-$n$ history splits, by an inductive application of the chain rule for probabilities, into a sum of per-step conditional KLs. This telescoping identity lets us trade a single joint KL over an entire history for a sum of per-step KLs (and vice versa): exactly the bridge we will need in [[#4. Cumulative prediction error bound (main result)|Section 4]].
 
 We introduce two pieces of notation that will be used throughout the rest of the worksheet:
 
@@ -285,7 +283,7 @@ We write $D_{\infty}(\nu \parallel \rho) := \lim_{t \to \infty}D_{t}(\nu \parall
 - **(a)** $D_{n}(\nu \parallel \rho) \geq 0$, with equality iff $\nu(x_{1:n}) = \rho(x_{1:n})$ for every $x_{1:n}\in \mathbb{B}^{n}$ with $\nu(x_{1:n}) > 0$.
 - **(b)** $d_{t}(\nu \parallel \rho) \geq 0$, with equality iff $\nu(x_{t} \mid x_{<t}) = \rho(x_{t} \mid x_{<t})$ for every $x_{<t}$ with $\nu(x_{<t}) > 0$ and every $x_{t} \in \mathbb{B}$.
 
-Proof in {--{"author":"Elias's AI","timestamp":1786983919029}@@[[#^b-proof-of-kl-non-negativity|Section--}{++{"author":"Elias's AI","timestamp":1786983919029}@@[[#B. Proof of KL non-negativity|Section++} B]].
+Proof in [[#B. Proof of KL non-negativity|Section B]].
 
 :::
 
@@ -331,12 +329,12 @@ $$
 
 :::
 
-\## 3. Mixture dominance{--{"author":"Elias's AI","timestamp":1786983919029}@@ ^3-mixture-dominance--}
+\## 3. Mixture dominance
 
-The mixture $\xi$ never assigns much less probability than any single environment weighted by its prior. This single inequality is the engine behind the cumulative bound of {--{"author":"Elias's AI","timestamp":1786983919029}@@[[#^4-cumulative-prediction-error-bound-main-result|Section --}{++{"author":"Elias's AI","timestamp":1786983919029}@@[[#4. Cumulative prediction error bound (main result)|Section ++}4]] below: dividing through gives $\mu(x)/\xi(x) \leq 1/w_{\mu}$, which is then fed into Pinsker and the chain rule in the proof of the main cumulative bound.
+The mixture $\xi$ never assigns much less probability than any single environment weighted by its prior. This single inequality is the engine behind the cumulative bound of [[#4. Cumulative prediction error bound (main result)|Section 4]] below: dividing through gives $\mu(x)/\xi(x) \leq 1/w_{\mu}$, which is then fed into Pinsker and the chain rule in the proof of the main cumulative bound.
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 3.1 (Mixture dominance) [05].** Show that for every $\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$++} and every $x \in \mathbb{B}^{*}$,
+**Exercise 3.1 (Mixture dominance) [05].** Show that for every $\nu \in \mathcal{M}$ and every $x \in \mathbb{B}^{*}$,
 
 $$
 \xi(x) ~\geq~ w_{\nu} \cdot \nu(x).
@@ -348,10 +346,10 @@ $$
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-By [[#^def-mixture|Theorem 1.2]], $\xi(x) = \sum_{\nu' \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}w_{\nu'}\,\nu'(x)$.--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}w_{\nu'}\,\nu'(x)$.++} Every term in this sum is non-negative, so dropping all terms except the one with $\nu' = \nu$ can only decrease the sum:
+By [[#^def-mixture|Theorem 1.2]], $\xi(x) = \sum_{\nu' \in \mathcal{M}}w_{\nu'}\,\nu'(x)$. Every term in this sum is non-negative, so dropping all terms except the one with $\nu' = \nu$ can only decrease the sum:
 
 $$
-\xi(x) ~=~ \sum_{\nu' \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}w_{\nu'}\,--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}w_{\nu'}\,++} \nu'(x) ~\geq~ w_{\nu}\, \nu(x).
+\xi(x) ~=~ \sum_{\nu' \in \mathcal{M}}w_{\nu'}\, \nu'(x) ~\geq~ w_{\nu}\, \nu(x).
 $$
 
 :::
@@ -368,7 +366,7 @@ This is what makes $\xi_{U}$ *universal*: a single predictor dominates the entir
 
 :::
 
-\## 4. Cumulative prediction error bound (main result){--{"author":"Elias's AI","timestamp":1786983919029}@@ ^4-cumulative-prediction-error-bound-main-result--}
+\## 4. Cumulative prediction error bound (main result)
 
 The next ingredient relates squared prediction error to KL divergence ([[#^bib-cover-06|Cover & Thomas 2006]], Lemma 11.6.1). We require the following inequality:
 
@@ -384,17 +382,17 @@ $$
 
 ^thm-pinsker
 
-The proof of this inequality is mostly tedious algebra but is included in {--{"author":"Elias's AI","timestamp":1786983919029}@@[[#^a-proof-of-pinskers-inequality|Section--}{++{"author":"Elias's AI","timestamp":1786983919029}@@[[#A. Proof of Pinsker's inequality|Section++} A]].
+The proof of this inequality is mostly tedious algebra but is included in [[#A. Proof of Pinsker's inequality|Section A]].
 
 :::callout {title="Definition" tone="purple"}
 
 **Definition 4.2 (Cumulative expected and per step squared prediction error).** For environments / predictors $\nu, \rho$ and horizon $n \geq 1$, the **cumulative expected squared error** and the **per-step squared error at step $t$** are
 
 $$
-{--{"author":"Elias's AI","timestamp":1786983919029}@@\begin{aligned}\Sn{\nu}{\rho}~&:=~--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\begin{aligned}S_{n}(\nu \parallel \rho)~&:=~++} \sum_{t=1}^{n} s_{t}(\nu \parallel \rho) \\ s_{t}(\nu \parallel \rho) ~&:=~ \sum_{x_{<t} \in \mathbb{B}^{t-1}}\nu(x_{<t}) \sum_{x_t \in \mathbb{B}}\bigl(\nu(x_{t} \mid x_{<t}) - \rho(x_{t} \mid x_{<t})\bigr)^{2}\end{aligned}
+\begin{aligned}S_{n}(\nu \parallel \rho)~&:=~ \sum_{t=1}^{n} s_{t}(\nu \parallel \rho) \\ s_{t}(\nu \parallel \rho) ~&:=~ \sum_{x_{<t} \in \mathbb{B}^{t-1}}\nu(x_{<t}) \sum_{x_t \in \mathbb{B}}\bigl(\nu(x_{t} \mid x_{<t}) - \rho(x_{t} \mid x_{<t})\bigr)^{2}\end{aligned}
 $$
 
-Write $S_{\infty}(\nu \parallel \rho) := \lim_{n \to {--{"author":"Elias's AI","timestamp":1786983919029}@@\infty}\Sn{\nu}{\rho}$--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\infty}S_{n}(\nu \parallel \rho)$++} and $S_{\infty}^{\mu} := S_{\infty}(\mu \parallel \xi)$.
+Write $S_{\infty}(\nu \parallel \rho) := \lim_{n \to \infty}S_{n}(\nu \parallel \rho)$ and $S_{\infty}^{\mu} := S_{\infty}(\mu \parallel \xi)$.
 
 :::
 
@@ -426,7 +424,7 @@ $$
 S^{\mu}_{\infty} ~\stackrel{(1)}{\leq}~ D^{\mu}_{\infty} ~\stackrel{(2)}{\leq}~ \lim_{n \to \infty}\sum_{x_{1:n}}\mu(x_{1:n}) \,\ln \tfrac{1}{w_\mu}~\stackrel{(3)}{=}~ -\ln w_{\mu}.
 $$
 
-*Step (1): Pinsker, pointwise.* For each $t$ and $x_{<t}$, both $\mu(\cdot \mid x_{<t})$ and $\xi(\cdot \mid x_{<t})$ are probability distributions on $\mathbb{B}$ ($\xi$ by {--{"author":"Elias's AI","timestamp":1786983919029}@@[[#^1-the-mixture-is-a-predictor|Section --}{++{"author":"Elias's AI","timestamp":1786983919029}@@[[#1. The mixture is a predictor|Section ++}1]]), so [[#^thm-pinsker|Theorem 4.1]] gives
+*Step (1): Pinsker, pointwise.* For each $t$ and $x_{<t}$, both $\mu(\cdot \mid x_{<t})$ and $\xi(\cdot \mid x_{<t})$ are probability distributions on $\mathbb{B}$ ($\xi$ by [[#1. The mixture is a predictor|Section 1]]), so [[#^thm-pinsker|Theorem 4.1]] gives
 
 $$
 \sum_{x_t}\bigl(\xi(x_{t} \mid x_{<t}) - \mu(x_{t} \mid x_{<t})\bigr)^{2} \leq \sum_{x_t}\mu(x_{t} \mid x_{<t}) \,\ln \tfrac{\mu(x_t \mid x_{<t})}{\xi(x_t \mid x_{<t})}.
@@ -441,7 +439,7 @@ Multiplying by $\mu(x_{<t}) \geq 0$ and summing over $x_{<t}$ gives $s_{t}(\mu \
 :::
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 4.2 (Explicit complexity bound) [05].** Specialize {--{"author":"Elias's AI","timestamp":1786983919029}@@[[#^4-cumulative-prediction-error-bound-main-result|Section--}{++{"author":"Elias's AI","timestamp":1786983919029}@@[[#4. Cumulative prediction error bound (main result)|Section++} 4]] to the **Solomonoff prior** $w_{\nu} = 2^{-K(\nu)}$ (where $K(\nu)$ is the length of the shortest program computing $\nu$) to show
+**Exercise 4.2 (Explicit complexity bound) [05].** Specialize [[#4. Cumulative prediction error bound (main result)|Section 4]] to the **Solomonoff prior** $w_{\nu} = 2^{-K(\nu)}$ (where $K(\nu)$ is the length of the shortest program computing $\nu$) to show
 
 $$
 S_{\infty}^{\mu}\leq K(\mu) \ln 2.
@@ -453,7 +451,7 @@ $$
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-By {--{"author":"Elias's AI","timestamp":1786983919029}@@[[#^4-cumulative-prediction-error-bound-main-result|Section--}{++{"author":"Elias's AI","timestamp":1786983919029}@@[[#4. Cumulative prediction error bound (main result)|Section++} 4]], for *any* prior, $S_{\infty}^{\mu}\leq -\ln w_{\mu}$. The Solomonoff prior assigns $\mu$ the weight $w_{\mu} = 2^{-K(\mu)}$, so
+By [[#4. Cumulative prediction error bound (main result)|Section 4]], for *any* prior, $S_{\infty}^{\mu}\leq -\ln w_{\mu}$. The Solomonoff prior assigns $\mu$ the weight $w_{\mu} = 2^{-K(\mu)}$, so
 
 $$
 S_{\infty}^{\mu}~\leq~ -\ln w_{\mu} ~=~ -\ln 2^{-K(\mu)}~=~ K(\mu) \ln 2.
@@ -480,11 +478,11 @@ Follows immediately as $\sum_{t=1}^{\infty} s_{t} \leq -\ln w_{\mu} < \infty$ im
 
 :::
 
-\## 5. Bounded number of prediction mistakes{--{"author":"Elias's AI","timestamp":1786983919029}@@ ^5-bounded-number-of-prediction-mistakes--}
+\## 5. Bounded number of prediction mistakes
 
-So far we have bounded *squared error*. For a deterministic environment (i.e. a single infinite binary sequence $x_{1}^{*}, x_{2}^{*}, \dots$ in {--{"author":"Elias's AI","timestamp":1786983919029}@@$\Mc$),--}{++{"author":"Elias's AI","timestamp":1786983919029}@@$\mathcal{M}$),++} one can ask the sharper $0/1$-loss question: how often does the mixture predict the *wrong bit*? The cumulative bound is strong enough to give an answer.
+So far we have bounded *squared error*. For a deterministic environment (i.e. a single infinite binary sequence $x_{1}^{*}, x_{2}^{*}, \dots$ in $\mathcal{M}$), one can ask the sharper $0/1$-loss question: how often does the mixture predict the *wrong bit*? The cumulative bound is strong enough to give an answer.
 
-Let $\mu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$++} be a deterministic environment, so $\mu(x_{t} \mid x_{<t}) \in \{0,1\}$ on every history; write $x_{t}^{*}$ for the unique bit on which $\mu(\cdot \mid x^{*}_{<t})$ puts all its mass. Define the **threshold predictor** associated with $\xi$: at each step, predict the more-likely bit,
+Let $\mu \in \mathcal{M}$ be a deterministic environment, so $\mu(x_{t} \mid x_{<t}) \in \{0,1\}$ on every history; write $x_{t}^{*}$ for the unique bit on which $\mu(\cdot \mid x^{*}_{<t})$ puts all its mass. Define the **threshold predictor** associated with $\xi$: at each step, predict the more-likely bit,
 
 $$
 \hat{x}_{t} ~:=~ \arg\max_{x \in \mathbb{B}}\xi(x \mid x_{<t}) \qquad \text{(break ties arbitrarily).}
@@ -529,7 +527,7 @@ $$
 \tfrac12 \cdot N ~\leq~ \sum_{t \,:\, \hat{x}_t \neq x_t^*}s_{t} ~\leq~ \sum_{t=1}^{\infty} s_{t} ~=~ S^{\mu}_{\infty} ~\leq~ -\ln w_{\mu},
 $$
 
-where the last step is {--{"author":"Elias's AI","timestamp":1786983919029}@@[[#^4-cumulative-prediction-error-bound-main-result|Section --}{++{"author":"Elias's AI","timestamp":1786983919029}@@[[#4. Cumulative prediction error bound (main result)|Section ++}4]]. Rearranging, $N \leq -2 \ln w_{\mu}$.
+where the last step is [[#4. Cumulative prediction error bound (main result)|Section 4]]. Rearranging, $N \leq -2 \ln w_{\mu}$.
 
 :::
 
@@ -545,21 +543,21 @@ With $\ln 2 \approx 0.693$ the constant is just under $1.4$, so if the true envi
 
 :::
 
-\## 6. Pareto optimality under KL loss{--{"author":"Elias's AI","timestamp":1786983919029}@@ ^6-pareto-optimality-under-kl-loss--}
+\## 6. Pareto optimality under KL loss
 
-The final two sections establish that the Bayesian mixture $\xi$ is *uniquely Pareto-optimal* under both KL and squared prediction loss: no other predictor can do at least as well as $\xi$ on every environment $\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$++} without coinciding with $\xi$ entirely.
+The final two sections establish that the Bayesian mixture $\xi$ is *uniquely Pareto-optimal* under both KL and squared prediction loss: no other predictor can do at least as well as $\xi$ on every environment $\nu \in \mathcal{M}$ without coinciding with $\xi$ entirely.
 
 :::callout {title="Definition" tone="purple"}
 
 **Definition 6.1 (Pareto domination).** For some measure of **loss** $\mathcal{F}(\nu, \rho)$ that takes an environment $\nu$ and a predictor $\rho$, a predictor $\rho$ **weakly Pareto-dominates** $\xi$ with respect to loss $\mathcal{F}$ and class $\mathcal{M}$ if
 
 $$
-\mathcal{F}(\nu, \rho) ~\leq~ \mathcal{F}(\nu, \xi) \qquad \text{for every }\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc.--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}.++}
+\mathcal{F}(\nu, \rho) ~\leq~ \mathcal{F}(\nu, \xi) \qquad \text{for every }\nu \in \mathcal{M}.
 $$
 
 $\xi$ is **Pareto-optimal** (w.r.t. $\mathcal{F}$) if the only predictor that weakly dominates it is $\xi$ itself.
 
-We specialize $\mathcal{F}$ to $D_{n}(\nu \parallel \rho)$ in {--{"author":"Elias's AI","timestamp":1786983919029}@@[[#^6-pareto-optimality-under-kl-loss|Section--}{++{"author":"Elias's AI","timestamp":1786983919029}@@[[#6. Pareto optimality under KL loss|Section++} 6]] and to {--{"author":"Elias's AI","timestamp":1786983919029}@@$\Sn{\nu}{\rho}$--}{++{"author":"Elias's AI","timestamp":1786983919029}@@$S_{n}(\nu \parallel \rho)$++} in {--{"author":"Elias's AI","timestamp":1786983919029}@@[[#^8-pareto-optimality-under-squared-loss|Section--}{++{"author":"Elias's AI","timestamp":1786983919029}@@[[#8. Pareto optimality under squared loss|Section++} 8]].
+We specialize $\mathcal{F}$ to $D_{n}(\nu \parallel \rho)$ in [[#6. Pareto optimality under KL loss|Section 6]] and to $S_{n}(\nu \parallel \rho)$ in [[#8. Pareto optimality under squared loss|Section 8]].
 
 :::
 
@@ -570,7 +568,7 @@ We specialize $\mathcal{F}$ to $D_{n}(\nu \parallel \rho)$ in {--{"author":"Elia
 **Exercise 6.1 (KL Pythagorean identity) [10].** For *any* predictor $\rho$ with $\rho(x_{1:n}) > 0$ on every $x_{1:n}\in \mathbb{B}^{n}$, show that
 
 $$
-D_{n}(\xi \parallel \rho) ~+~ \sum_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}w_{\nu}--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}w_{\nu}++} \, D_{n}(\nu \parallel \xi) ~=~ \sum_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}w_{\nu}--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}w_{\nu}++} \, D_{n}(\nu \parallel \rho).
+D_{n}(\xi \parallel \rho) ~+~ \sum_{\nu \in \mathcal{M}}w_{\nu} \, D_{n}(\nu \parallel \xi) ~=~ \sum_{\nu \in \mathcal{M}}w_{\nu} \, D_{n}(\nu \parallel \rho).
 $$
 
 ::::callout {title="Hint" tone="amber" collapse="closed"}
@@ -605,14 +603,14 @@ Rearranging gives the claimed identity.
 **Exercise 6.2 (KL Pareto-optimality) [05].** Show that $\xi$ is Pareto-optimal under $D_{n}(\nu \parallel \rho)$ in the sense of [[#^def-pareto|Theorem 6.1]]: if $\rho$ is any predictor with
 
 $$
-D_{n}(\nu \parallel \rho) ~\leq~ D_{n}(\nu \parallel \xi) \qquad \text{for every }\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc,--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M},++}
+D_{n}(\nu \parallel \rho) ~\leq~ D_{n}(\nu \parallel \xi) \qquad \text{for every }\nu \in \mathcal{M},
 $$
 
 then $\rho = \xi$.
 
 ::::callout {title="Hint" tone="amber" collapse="closed"}
 
-Multiply the assumed inequality by $w_{\nu} \geq 0$ and sum over $\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$;--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$;++} then apply the KL Pythagorean identity to recognize the extra non-negative term, which must vanish.
+Multiply the assumed inequality by $w_{\nu} \geq 0$ and sum over $\nu \in \mathcal{M}$; then apply the KL Pythagorean identity to recognize the extra non-negative term, which must vanish.
 
 ::::
 :::
@@ -622,7 +620,7 @@ Multiply the assumed inequality by $w_{\nu} \geq 0$ and sum over $\nu \in {--{"a
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-Multiply the assumed inequality by $w_{\nu} \geq 0$ and sum over $\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$:--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$:++}
+Multiply the assumed inequality by $w_{\nu} \geq 0$ and sum over $\nu \in \mathcal{M}$:
 
 
 $$
@@ -643,13 +641,13 @@ so [[#^eq-kl-weighted-dom|Equation 3]] forces $D_{n}(\xi \parallel \rho) \leq 0$
 
 :::
 
-\## 7. Misspecified models: when $\mu \notin {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$ ^7-misspecified-models-when-mu-notin-mc--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$++}
+\## 7. Misspecified models: when $\mu \notin \mathcal{M}$
 
-The cumulative bound {--{"author":"Elias's AI","timestamp":1786983919029}@@[[#^4-cumulative-prediction-error-bound-main-result|Section--}{++{"author":"Elias's AI","timestamp":1786983919029}@@[[#4. Cumulative prediction error bound (main result)|Section++} 4]] assumed the true environment $\mu$ lives in the model class {--{"author":"Elias's AI","timestamp":1786983919029}@@$\Mc$.--}{++{"author":"Elias's AI","timestamp":1786983919029}@@$\mathcal{M}$.++} What happens when it does not? We now show the bound *degrades gracefully*: it splits cleanly into a complexity term ("cost of not knowing which model is best"), exactly as before, plus a linear-in-time approximation term ("cost of no model being right"). See ([[#^bib-hutter-04uaibook|Hutter 2005]], §3.2.8) for the original treatment.
+The cumulative bound [[#4. Cumulative prediction error bound (main result)|Section 4]] assumed the true environment $\mu$ lives in the model class $\mathcal{M}$. What happens when it does not? We now show the bound *degrades gracefully*: it splits cleanly into a complexity term ("cost of not knowing which model is best"), exactly as before, plus a linear-in-time approximation term ("cost of no model being right"). See ([[#^bib-hutter-04uaibook|Hutter 2005]], §3.2.8) for the original treatment.
 
-Throughout this section, we no longer assume $\mu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$.--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$.++} We will state the bound in terms of an arbitrary $\hat\mu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$,--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$,++} so taking the infimum over $\hat\mu$ on the right-hand side gives the tightest version by using the "closest" approximation of $\hat{\mu}\in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$++} to $\mu$.
+Throughout this section, we no longer assume $\mu \in \mathcal{M}$. We will state the bound in terms of an arbitrary $\hat\mu \in \mathcal{M}$, so taking the infimum over $\hat\mu$ on the right-hand side gives the tightest version by using the "closest" approximation of $\hat{\mu}\in \mathcal{M}$ to $\mu$.
 :::callout {title="Exercise" tone="blue"}
-**Exercise 7.1 (Misspecified KL bound) [10].** Show that for all $\hat\mu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$,--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$,++}
+**Exercise 7.1 (Misspecified KL bound) [10].** Show that for all $\hat\mu \in \mathcal{M}$,
 
 $$
 D_{n}(\mu \parallel \xi) ~\leq~ -\ln w_{\hat\mu}~+~ D_{n}(\mu \parallel \hat\mu).
@@ -667,7 +665,7 @@ Use [[#^prob-dominance-ex|Exercise 3.1]].
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-Mixture dominance applied to $\hat\mu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$ ([[#^3-mixture-dominance|Section--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$ ([[#3. Mixture dominance|Section++} 3]]) gives $\xi(x_{1:n}) \geq w_{\hat\mu}\, \hat\mu(x_{1:n})$ for every $x_{1:n}$. Hence $\mu(x_{1:n}) / \xi(x_{1:n}) \leq \mu(x_{1:n}) / (w_{\hat\mu}\, \hat\mu(x_{1:n}))$, and taking logs,
+Mixture dominance applied to $\hat\mu \in \mathcal{M}$ ([[#3. Mixture dominance|Section 3]]) gives $\xi(x_{1:n}) \geq w_{\hat\mu}\, \hat\mu(x_{1:n})$ for every $x_{1:n}$. Hence $\mu(x_{1:n}) / \xi(x_{1:n}) \leq \mu(x_{1:n}) / (w_{\hat\mu}\, \hat\mu(x_{1:n}))$, and taking logs,
 
 $$
 \ln \frac{\mu(x_{1:n})}{\xi(x_{1:n})}~\leq~ -\ln w_{\hat\mu}\;+\; \ln \frac{\mu(x_{1:n})}{\hat\mu(x_{1:n})}.
@@ -682,7 +680,7 @@ Now take the $\mu$-expectation. The LHS becomes $D_{n}(\mu \parallel \xi)$; the 
 **Remark (Reading the two terms).** The right-hand side splits into two qualitatively different terms:
 
 - $-\ln w_{\hat\mu}$ is *constant in $n$*: under the Solomonoff prior, this is $K(\hat\mu)\ln 2$. The familiar "complexity" cost of search.
-- The approximation term $D_{n}(\mu \parallel \hat\mu) = \sum_{t=1}^{n} d_{t}(\mu \parallel \hat\mu)$ (by [[#^prob-telescope-ex|Exercise 2.1]]) is a sum of $n$ per-step KLs; in general it grows with $n$. It vanishes identically iff $\hat\mu$ matches $\mu$ on every $\mu$-reachable history, in particular when $\mu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$++} and we pick $\hat\mu = \mu$, recovering {--{"author":"Elias's AI","timestamp":1786983919029}@@[[#^4-cumulative-prediction-error-bound-main-result|Section --}{++{"author":"Elias's AI","timestamp":1786983919029}@@[[#4. Cumulative prediction error bound (main result)|Section ++}4]].
+- The approximation term $D_{n}(\mu \parallel \hat\mu) = \sum_{t=1}^{n} d_{t}(\mu \parallel \hat\mu)$ (by [[#^prob-telescope-ex|Exercise 2.1]]) is a sum of $n$ per-step KLs; in general it grows with $n$. It vanishes identically iff $\hat\mu$ matches $\mu$ on every $\mu$-reachable history, in particular when $\mu \in \mathcal{M}$ and we pick $\hat\mu = \mu$, recovering [[#4. Cumulative prediction error bound (main result)|Section 4]].
 
 Combining with Pinsker ([[#^thm-pinsker|Theorem 4.1]]) gives the corresponding bound on $S^{\mu}_{\infty}$, which is infinite in general but inherits the rate of $\hat\mu$.
 
@@ -690,15 +688,15 @@ Combining with Pinsker ([[#^thm-pinsker|Theorem 4.1]]) gives the corresponding b
 
 Details on how to define the best choice of $\hat{\mu}$ are in [[#^d-best-choice-of-hatmuin-mc|Section D]].
 
-\## 8. Pareto optimality under squared loss{--{"author":"Elias's AI","timestamp":1786983919029}@@ ^8-pareto-optimality-under-squared-loss--}
+\## 8. Pareto optimality under squared loss
 
-The squared specialization $\mathcal{F}(\nu, \rho) = {--{"author":"Elias's AI","timestamp":1786983919029}@@\Sn{\nu}{\rho}$ --}{++{"author":"Elias's AI","timestamp":1786983919029}@@S_{n}(\nu \parallel \rho)$ ++}([[#^def-s-infty|Theorem 4.2]]) lives one level down from KL: at the conditional distributions $\nu(\cdot \mid x_{<t})$. The natural Pythagorean decomposition at a fixed history uses *posterior* weights $w(\nu \mid x_{<t})$: those are the weights that make $\xi(x_{t} \mid x_{<t})$ the mean of the $\nu(x_{t} \mid x_{<t})$'s (via the posterior-predictive form, [[#^def-mixture|Theorem 1.2]]). The Pareto-optimality aggregation, however, uses prior weights $w_{\nu}$. Bridging the two takes one extra Bayes-rule step.
+The squared specialization $\mathcal{F}(\nu, \rho) = S_{n}(\nu \parallel \rho)$ ([[#^def-s-infty|Theorem 4.2]]) lives one level down from KL: at the conditional distributions $\nu(\cdot \mid x_{<t})$. The natural Pythagorean decomposition at a fixed history uses *posterior* weights $w(\nu \mid x_{<t})$: those are the weights that make $\xi(x_{t} \mid x_{<t})$ the mean of the $\nu(x_{t} \mid x_{<t})$'s (via the posterior-predictive form, [[#^def-mixture|Theorem 1.2]]). The Pareto-optimality aggregation, however, uses prior weights $w_{\nu}$. Bridging the two takes one extra Bayes-rule step.
 
 :::callout {title="Exercise" tone="blue"}
 **Exercise 8.1 (Squared Pythagorean identity) [10].** Fix any $t \in \{1, \dots, n\}$ and any history $x_{<t}\in \mathbb{B}^{t-1}$: *the history is arbitrary, not sampled from any environment*. For any $x_{t} \in \mathbb{B}$ and any predictor $\rho$, show
 
 $$
-\begin{aligned}&\bigl(\xi(x_{t} \mid x_{<t}) - \rho(x_{t} \mid x_{<t})\bigr)^{2}~+~ \sum_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}w(\nu--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}w(\nu++} \mid x_{<t})\,\bigl(\nu(x_{t} \mid x_{<t}) - \xi(x_{t} \mid x_{<t})\bigr)^{2}\\&=~ \sum_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}w(\nu--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}w(\nu++} \mid x_{<t})\,\bigl(\nu(x_{t} \mid x_{<t}) - \rho(x_{t} \mid x_{<t})\bigr)^{2}.\end{aligned}
+\begin{aligned}&\bigl(\xi(x_{t} \mid x_{<t}) - \rho(x_{t} \mid x_{<t})\bigr)^{2}~+~ \sum_{\nu \in \mathcal{M}}w(\nu \mid x_{<t})\,\bigl(\nu(x_{t} \mid x_{<t}) - \xi(x_{t} \mid x_{<t})\bigr)^{2}\\&=~ \sum_{\nu \in \mathcal{M}}w(\nu \mid x_{<t})\,\bigl(\nu(x_{t} \mid x_{<t}) - \rho(x_{t} \mid x_{<t})\bigr)^{2}.\end{aligned}
 $$
 
 ::::callout {title="Hint" tone="amber" collapse="closed"}
@@ -742,13 +740,13 @@ $$
 :::
 
 :::callout {title="Exercise" tone="blue"}
-**Exercise 8.2 (Squared Pareto-optimality) [05].** Show that $\xi$ is Pareto-optimal under {--{"author":"Elias's AI","timestamp":1786983919029}@@$\Sn{\nu}{\rho}$ --}{++{"author":"Elias's AI","timestamp":1786983919029}@@$S_{n}(\nu \parallel \rho)$ ++}in the sense of [[#^def-pareto|Theorem 6.1]]: if $\rho$ is any predictor with
+**Exercise 8.2 (Squared Pareto-optimality) [05].** Show that $\xi$ is Pareto-optimal under $S_{n}(\nu \parallel \rho)$ in the sense of [[#^def-pareto|Theorem 6.1]]: if $\rho$ is any predictor with
 
 $$
-{--{"author":"Elias's AI","timestamp":1786983919029}@@\Sn{\nu}{\rho}~\leq~ \Sn{\nu}{\xi}\qquad--}{++{"author":"Elias's AI","timestamp":1786983919029}@@S_{n}(\nu \parallel \rho)~\leq~ S_{n}(\nu \parallel \xi)\qquad++} \text{for every }\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc,--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M},++}
+S_{n}(\nu \parallel \rho)~\leq~ S_{n}(\nu \parallel \xi)\qquad \text{for every }\nu \in \mathcal{M},
 $$
 
-then $\rho(x_{t} \mid x_{<t}) = \xi(x_{t} \mid x_{<t})$ at every history $x_{<t}\in \mathbb{B}^{t-1}$ *with $\xi(x_{<t}) > 0$* (equivalently, $\xi$-almost surely) and every $x_{t} \in \mathbb{B}$. Histories that the mixture never reaches ($\xi(x_{<t}) = 0$, i.e., reached by no $\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$++} either) are invisible to the loss and are not pinned down.
+then $\rho(x_{t} \mid x_{<t}) = \xi(x_{t} \mid x_{<t})$ at every history $x_{<t}\in \mathbb{B}^{t-1}$ *with $\xi(x_{<t}) > 0$* (equivalently, $\xi$-almost surely) and every $x_{t} \in \mathbb{B}$. Histories that the mixture never reaches ($\xi(x_{<t}) = 0$, i.e., reached by no $\nu \in \mathcal{M}$ either) are invisible to the loss and are not pinned down.
 
 ::::callout {title="Hint" tone="amber" collapse="closed"}
 
@@ -762,11 +760,11 @@ Multiply the assumed inequality by $w_{\nu} \geq 0$ and sum over $\nu$; then for
 
 :::callout {title="Solution" tone="green" collapse="closed"}
 
-Multiply the assumed inequality by $w_{\nu} \geq 0$ and sum over $\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$:--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$:++}
+Multiply the assumed inequality by $w_{\nu} \geq 0$ and sum over $\nu \in \mathcal{M}$:
 
 
 $$
-\sum_{\nu} {--{"author":"Elias's AI","timestamp":1786983919029}@@w_{\nu}\,\Sn{\nu}{\rho}~\leq~--}{++{"author":"Elias's AI","timestamp":1786983919029}@@w_{\nu}\,S_{n}(\nu \parallel \rho)~\leq~++} \sum_{\nu} {--{"author":"Elias's AI","timestamp":1786983919029}@@w_{\nu}\,\Sn{\nu}{\xi}.--}{++{"author":"Elias's AI","timestamp":1786983919029}@@w_{\nu}\,S_{n}(\nu \parallel \xi).++}
+\sum_{\nu} w_{\nu}\,S_{n}(\nu \parallel \rho)~\leq~ \sum_{\nu} w_{\nu}\,S_{n}(\nu \parallel \xi).
 $$
 
 
@@ -785,10 +783,10 @@ $$
 \xi(x_{<t})(\xi - \rho)^{2} \;+\; \sum_{\nu} w_{\nu} \,\nu(x_{<t})\,(\nu - \xi)^{2} ~=~ \sum_{\nu} w_{\nu} \,\nu(x_{<t})\,(\nu - \rho)^{2}.
 $$
 
-Sum over $t = 1, \dots, n$ and all histories $x_{<t}\in \mathbb{B}^{t-1}$ and symbols $x_{t} \in \mathbb{B}$. The two $\sum_{\nu} w_{\nu} \,\nu(x_{<t})(\cdots)$ terms become exactly $\sum_{\nu} w_{\nu} {--{"author":"Elias's AI","timestamp":1786983919029}@@\,\Sn{\nu}{\xi}$--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\,S_{n}(\nu \parallel \xi)$++} and $\sum_{\nu} w_{\nu} \, {--{"author":"Elias's AI","timestamp":1786983919029}@@\Sn{\nu}{\rho}$ --}{++{"author":"Elias's AI","timestamp":1786983919029}@@S_{n}(\nu \parallel \rho)$ ++}respectively, so
+Sum over $t = 1, \dots, n$ and all histories $x_{<t}\in \mathbb{B}^{t-1}$ and symbols $x_{t} \in \mathbb{B}$. The two $\sum_{\nu} w_{\nu} \,\nu(x_{<t})(\cdots)$ terms become exactly $\sum_{\nu} w_{\nu} \,S_{n}(\nu \parallel \xi)$ and $\sum_{\nu} w_{\nu} \, S_{n}(\nu \parallel \rho)$ respectively, so
 
 $$
-\|\xi - \rho\|_{\xi}^{2} \;+\; \sum_{\nu} {--{"author":"Elias's AI","timestamp":1786983919029}@@w_{\nu}\,\Sn{\nu}{\xi}~=~--}{++{"author":"Elias's AI","timestamp":1786983919029}@@w_{\nu}\,S_{n}(\nu \parallel \xi)~=~++} \sum_{\nu} {--{"author":"Elias's AI","timestamp":1786983919029}@@w_{\nu}\,\Sn{\nu}{\rho},--}{++{"author":"Elias's AI","timestamp":1786983919029}@@w_{\nu}\,S_{n}(\nu \parallel \rho),++}
+\|\xi - \rho\|_{\xi}^{2} \;+\; \sum_{\nu} w_{\nu}\,S_{n}(\nu \parallel \xi)~=~ \sum_{\nu} w_{\nu}\,S_{n}(\nu \parallel \rho),
 $$
 
 where
@@ -800,14 +798,14 @@ $$
 Combining with [[#^eq-sq-weighted-dom|Equation 4]],
 
 $$
-\|\xi - \rho\|_{\xi}^{2} \;+\; \sum_{\nu} {--{"author":"Elias's AI","timestamp":1786983919029}@@w_{\nu}\,\Sn{\nu}{\xi}~\leq~--}{++{"author":"Elias's AI","timestamp":1786983919029}@@w_{\nu}\,S_{n}(\nu \parallel \xi)~\leq~++} \sum_{\nu} {--{"author":"Elias's AI","timestamp":1786983919029}@@w_{\nu}\,\Sn{\nu}{\xi}\;\;\Longrightarrow\;\;--}{++{"author":"Elias's AI","timestamp":1786983919029}@@w_{\nu}\,S_{n}(\nu \parallel \xi)\;\;\Longrightarrow\;\;++} \|\xi - \rho\|_{\xi}^{2} ~\leq~ 0.
+\|\xi - \rho\|_{\xi}^{2} \;+\; \sum_{\nu} w_{\nu}\,S_{n}(\nu \parallel \xi)~\leq~ \sum_{\nu} w_{\nu}\,S_{n}(\nu \parallel \xi)\;\;\Longrightarrow\;\; \|\xi - \rho\|_{\xi}^{2} ~\leq~ 0.
 $$
 
 Since $\|\xi - \rho\|_{\xi}^{2}$ is a sum of non-negative terms and is itself $\leq 0$, every term vanishes: $\xi(x_{<t})\bigl(\xi(x_{t} \mid x_{<t}) - \rho(x_{t} \mid x_{<t})\bigr)^{2} = 0$ at every $(t, x_{<t}, x_{t})$. So $\rho(x_{t} \mid x_{<t}) = \xi(x_{t} \mid x_{<t})$ at every history $x_{<t}$ with $\xi(x_{<t}) > 0$.
 
 :::
 
-\## A. Proof of Pinsker's inequality{--{"author":"Elias's AI","timestamp":1786983919029}@@ ^a-proof-of-pinskers-inequality--}
+\## A. Proof of Pinsker's inequality
 
 We first prove the following Lemma:
 
@@ -876,7 +874,7 @@ So $(\star)$ is exactly $2(p_{0} - q_{0})^{2} \leq p_{0} \ln \tfrac{p_0}{q_0}+ (
 
 :::
 
-\## B. Proof of KL non-negativity{--{"author":"Elias's AI","timestamp":1786983919029}@@ ^b-proof-of-kl-non-negativity--}
+\## B. Proof of KL non-negativity
 
 We prove [[#^thm-kl-nonneg|Theorem 2.2]]. The core is the elementary inequality
 
@@ -927,31 +925,31 @@ with equality iff $\nu(\cdot \mid x_{<t}) = \rho(\cdot \mid x_{<t})$. Multiply b
 
 :::
 
-\## C. Model Class {--{"author":"Elias's AI","timestamp":1786983919029}@@$\Mc$ ^c-model-class-mc--}{++{"author":"Elias's AI","timestamp":1786983919029}@@$\mathcal{M}$++}
+\## C. Model Class $\mathcal{M}$
 
-All results in this sheet hold for any countable class {--{"author":"Elias's AI","timestamp":1786983919029}@@$\Mc$--}{++{"author":"Elias's AI","timestamp":1786983919029}@@$\mathcal{M}$++} and prior $w_{\nu}$. The canonical **Solomonoff** choice takes {--{"author":"Elias's AI","timestamp":1786983919029}@@$\Mc$--}{++{"author":"Elias's AI","timestamp":1786983919029}@@$\mathcal{M}$++} to be the class of all computable environments and the **Solomonoff prior**
+All results in this sheet hold for any countable class $\mathcal{M}$ and prior $w_{\nu}$. The canonical **Solomonoff** choice takes $\mathcal{M}$ to be the class of all computable environments and the **Solomonoff prior**
 
 $$
 w_{\nu} ~:=~ 2^{-K(\nu)},
 $$
 
-where $K(\nu)$ is the *Kolmogorov complexity* of $\nu$: the length of the shortest program that computes $\nu$. The Bayesian mixture $\xi$ under this particular prior is the *universal mixture*, written $\xi_{U}$. With this class the assumption $\mu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$++} reduces to "the universe is computable": as weak an assumption as one can make. For technical details on Kolmogorov complexity, see ([[#^bib-hutter-24uaibook2|Hutter et al. 2024]], §2.7).
+where $K(\nu)$ is the *Kolmogorov complexity* of $\nu$: the length of the shortest program that computes $\nu$. The Bayesian mixture $\xi$ under this particular prior is the *universal mixture*, written $\xi_{U}$. With this class the assumption $\mu \in \mathcal{M}$ reduces to "the universe is computable": as weak an assumption as one can make. For technical details on Kolmogorov complexity, see ([[#^bib-hutter-24uaibook2|Hutter et al. 2024]], §2.7).
 
-The class of all computable measures is countable but not enumerable (by the halting problem, you can't decide which Turing machines define total functions), so one can't even formally write $\sum_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}\ldots$--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}\ldots$++} as the decision problem of determining if $\nu {--{"author":"Elias's AI","timestamp":1786983919029}@@\overset{?}{\in}\Mc$--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\overset{?}{\in}\mathcal{M}$++} is undecidable. A faithful construction of $\xi_{U}$ requires expanding {--{"author":"Elias's AI","timestamp":1786983919029}@@$\Mc$--}{++{"author":"Elias's AI","timestamp":1786983919029}@@$\mathcal{M}$++} to all *lower-semicomputable semimeasures* (Levin), at which point $\xi_{U}$ becomes a semimeasure rather than a measure: $\sum_{x} \xi_{U}(x) \leq 1$ instead of $=1$, conditionals may not sum to $1$, and every other proof in this sheet gains a side-case. This also gives the nice benefit that $\xi \in \mathcal{M}$.
+The class of all computable measures is countable but not enumerable (by the halting problem, you can't decide which Turing machines define total functions), so one can't even formally write $\sum_{\nu \in \mathcal{M}}\ldots$ as the decision problem of determining if $\nu \overset{?}{\in}\mathcal{M}$ is undecidable. A faithful construction of $\xi_{U}$ requires expanding $\mathcal{M}$ to all *lower-semicomputable semimeasures* (Levin), at which point $\xi_{U}$ becomes a semimeasure rather than a measure: $\sum_{x} \xi_{U}(x) \leq 1$ instead of $=1$, conditionals may not sum to $1$, and every other proof in this sheet gains a side-case. This also gives the nice benefit that $\xi \in \mathcal{M}$.
 
-We dodge all of this: {--{"author":"Elias's AI","timestamp":1786983919029}@@$\Mc$--}{++{"author":"Elias's AI","timestamp":1786983919029}@@$\mathcal{M}$++} is just *some* countable set of proper measures with $\mu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$,--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$,++} and we assume $K(\nu)$ is defined for each $\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$++} when we need it. We never need $\xi$ itself to be in {--{"author":"Elias's AI","timestamp":1786983919029}@@$\Mc$,--}{++{"author":"Elias's AI","timestamp":1786983919029}@@$\mathcal{M}$,++} nor do we need its computability, so we don't ask. See ([[#^bib-hutter-04uaibook|Hutter 2005]], §2.4.3) for the full Levin construction.
+We dodge all of this: $\mathcal{M}$ is just *some* countable set of proper measures with $\mu \in \mathcal{M}$, and we assume $K(\nu)$ is defined for each $\nu \in \mathcal{M}$ when we need it. We never need $\xi$ itself to be in $\mathcal{M}$, nor do we need its computability, so we don't ask. See ([[#^bib-hutter-04uaibook|Hutter 2005]], §2.4.3) for the full Levin construction.
 
-\## D. Best choice of $\hat{\mu}\in{--{"author":"Elias's AI","timestamp":1786983919029}@@ \Mc$. ^d-best-choice-of-hatmuin-mc--}{++{"author":"Elias's AI","timestamp":1786983919029}@@ \mathcal{M}$.++}
+\## D. Best choice of $\hat{\mu}\in \mathcal{M}$.
 
-The bound is valid for every $\hat\mu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$.--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$.++} A tempting question: which $\hat\mu$ gives the tightest bound? The answer is genuinely setting-dependent.
+The bound is valid for every $\hat\mu \in \mathcal{M}$. A tempting question: which $\hat\mu$ gives the tightest bound? The answer is genuinely setting-dependent.
 
 *Finite horizon $n$.* The minimizer of the RHS is
 
 $$
-\hat\mu_{n} ~:=~ \arg\min_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}\Bigl\{--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}\Bigl\{++} -\ln w_{\nu} \;+\; D_{n}(\mu \parallel \nu) \Bigr\}.
+\hat\mu_{n} ~:=~ \arg\min_{\nu \in \mathcal{M}}\Bigl\{ -\ln w_{\nu} \;+\; D_{n}(\mu \parallel \nu) \Bigr\}.
 $$
 
-This is well-defined (finitely many terms, attained when {--{"author":"Elias's AI","timestamp":1786983919029}@@$\Mc$--}{++{"author":"Elias's AI","timestamp":1786983919029}@@$\mathcal{M}$++} is finite), but the answer depends on $n$: for small $n$ the prior term dominates and a high-prior coarse model wins; for large $n$ the fit term dominates and the best per-step approximator wins. Both regimes are correct.
+This is well-defined (finitely many terms, attained when $\mathcal{M}$ is finite), but the answer depends on $n$: for small $n$ the prior term dominates and a high-prior coarse model wins; for large $n$ the fit term dominates and the best per-step approximator wins. Both regimes are correct.
 
 *Asymptotic rate.* A horizon-free analogue minimizes the per-step KL rate
 
@@ -961,11 +959,11 @@ $$
 
 This is the right notion when one cares about the linear-growth slope of the bound. But it has two drawbacks: the limit need not exist for non-stationary $\mu$ (one can substitute $\liminf$ but at the cost of clarity), and it discards the prior $w_{\nu}$ entirely, so the minimizer is not the same as $\hat\mu_{n}$ at any finite $n$, but only of its slope.
 
-*Stationary $\mu$.* The per-step KLs $d_{t}(\mu \parallel \nu)$ are constant in $t$, so all three notions essentially agree: $\hat\mu = \arg\min_{\nu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc}D_{\text{KL}}(\mu--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}}D_{\text{KL}}(\mu++} \,\|\, \nu)$, where the KL is taken under the (common) one-step conditional law. This is the case where "$\hat\mu$ = projection of $\mu$ onto {--{"author":"Elias's AI","timestamp":1786983919029}@@$\Mc$--}{++{"author":"Elias's AI","timestamp":1786983919029}@@$\mathcal{M}$++} in KL" has unambiguous meaning.
+*Stationary $\mu$.* The per-step KLs $d_{t}(\mu \parallel \nu)$ are constant in $t$, so all three notions essentially agree: $\hat\mu = \arg\min_{\nu \in \mathcal{M}}D_{\text{KL}}(\mu \,\|\, \nu)$, where the KL is taken under the (common) one-step conditional law. This is the case where "$\hat\mu$ = projection of $\mu$ onto $\mathcal{M}$ in KL" has unambiguous meaning.
 
-*Upshot.* The bound holds for all $\hat\mu \in {--{"author":"Elias's AI","timestamp":1786983919029}@@\Mc$,--}{++{"author":"Elias's AI","timestamp":1786983919029}@@\mathcal{M}$,++} and one is free to take the infimum on the RHS over $\hat\mu$. Which $\hat\mu$ actually attains that infimum is a separate question whose answer depends on horizon, prior, and any structural assumptions on $\mu$.
+*Upshot.* The bound holds for all $\hat\mu \in \mathcal{M}$, and one is free to take the infimum on the RHS over $\hat\mu$. Which $\hat\mu$ actually attains that infimum is a separate question whose answer depends on horizon, prior, and any structural assumptions on $\mu$.
 
-\## References{--{"author":"Elias's AI","timestamp":1786983919029}@@ ^references--}
+\## References
 
 
 T. M. Cover and J. A. Thomas (2006). *Elements of Information Theory*. Wiley-Intersience.
