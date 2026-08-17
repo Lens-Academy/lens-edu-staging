@@ -47,7 +47,7 @@ This is a third.
 This is rendered on the same line as the third.
 :::
 
-These annotations can be nested. For example, here is collapsed text :collapse[with a note inside: :note[This note explains why we collapsed this bit of text.]]
+These annotations can be nested. For example, here is {--{"author":"Elias's AI","timestamp":1786967847937}@@collapsed--}{++{"author":"Elias's AI","timestamp":1786967847937}@@hidden++} text {--{"author":"Elias's AI","timestamp":1786967847937}@@:collapse[with--}{++{"author":"Elias's AI","timestamp":1786967847937}@@:hide[with++} a note inside: :note[This note explains why we {--{"author":"Elias's AI","timestamp":1786967847937}@@collapsed--}{++{"author":"Elias's AI","timestamp":1786967847937}@@hid++} this bit of text.]]
 
 ## General callouts
 
