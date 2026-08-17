@@ -129,7 +129,7 @@ This is an untitled open callout.
 
 Omit `collapse` for a callout that is always visible.
 
-### Linkable callouts
+{--{"author":"Elias's AI","timestamp":1786969435934}@@### Linkable callouts
 
 Give a callout a stable `id`, then use a normal Markdown fragment link:
 
@@ -147,7 +147,7 @@ Do not confuse local and global minima.
 
 Review the [warning](#global-warning).
 
-### Nested callouts and hidden sections
+--}### Nested callouts and hidden sections
 
 Callouts can contain inline hidden text:
 
