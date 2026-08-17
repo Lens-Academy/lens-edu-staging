@@ -16,9 +16,9 @@ This article demos Lens article {--{"author":"Elias's AI","timestamp":1786967834
 
 ## Existing article annotations
 
-Use `:collapse[...]` for a short inline omission:
+Use {--{"author":"Elias's AI","timestamp":1786967838011}@@`:collapse[...]`--}{++{"author":"Elias's AI","timestamp":1786967838011}@@`:hide[...]`++} for a short inline omission:
 
-See for example this: :collapse[this text will be collapsed by default, but can be expanded by the user] isn't that pretty nice?
+See for example this: {--{"author":"Elias's AI","timestamp":1786967838011}@@:collapse[this--}{++{"author":"Elias's AI","timestamp":1786967838011}@@:hide[this++} text will be {--{"author":"Elias's AI","timestamp":1786967838011}@@collapsed--}{++{"author":"Elias's AI","timestamp":1786967838011}@@hidden++} by default, but can be expanded by the user] isn't that pretty nice?
 
 Use `:::collapse` for one or more omitted paragraphs:
 
