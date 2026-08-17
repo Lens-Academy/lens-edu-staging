@@ -8,10 +8,20 @@ partner-logo: iliad-lockup.svg
 partner-logo-small: iliad-small.svg
 partner-url: https://www.iliad.ac/
 ---
-# Module: [[../modules/Iliad A.1 - AI Alignment Introduction|A — Alignment]]
+# Module: [[../modules/Iliad A.1 - AI Alignment {--{"author":"Luc's AI","timestamp":1786987807818}@@Introduction|A — Alignment]]--}{++{"author":"Luc's AI","timestamp":1786987807818}@@Introduction|A.1 AI Alignment Introduction]]
+
+# Module: [[../modules/Iliad A.2 - Alignment in Practice|A.2 Alignment in Practice]]
+
+# Meeting: Unit A++}
 
 # Module: [[../modules/Iliad B - Learning|B — Learning]]
 
-# Module: [[../modules/Iliad C - Interpretability|C — Interpretability]]
+# {++{"author":"Luc's AI","timestamp":1786987807818}@@Meeting: Unit B
 
-# Module: [[../modules/Iliad D - Agency|D — Agency]]
+# ++}Module: [[../modules/Iliad C - Interpretability|C — Interpretability]]
+
+# {++{"author":"Luc's AI","timestamp":1786987807818}@@Meeting: Unit C
+
+# ++}Module: [[../modules/Iliad D - Agency|D — Agency]]{++{"author":"Luc's AI","timestamp":1786987807818}@@
+
+# Meeting: Unit D++}
