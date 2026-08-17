@@ -27,6 +27,8 @@ This paragraph can be linked. ^plain-target
 
 A marker on its own line labels whole block immediately above it. This works for callouts too:
 
+### Callout targ
+
 :::callout {title="A target callout" tone="blue"}
 This whole callout is destination. [[#^top|Return to top]]
 :::
