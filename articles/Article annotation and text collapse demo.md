@@ -85,16 +85,16 @@ Do not infer global behavior from local information alone.
 A neutral callout adds structure without strong semantic emphasis.
 :::
 
-{--{"author":"Elias's AI","timestamp":1786966315617}@@The title is optional. An untitled callout renders only its content:--}{++{"author":"Elias's AI","timestamp":1786966315617}@@`title` is optional for every callout: static, closed, or open. If you do not need any attributes, use bare `:::callout`:++}
+`title` is optional for every callout: static, closed, or open. If you do not need any attributes, use bare `:::callout`:
 
 ```md
-:::callout{--{"author":"Elias's AI","timestamp":1786966315617}@@ {tone="neutral"}--}
-This {++{"author":"Elias's AI","timestamp":1786966315617}@@static ++}callout has no title.
+:::callout
+This static callout has no title.
 :::
 ```
 
-:::callout{--{"author":"Elias's AI","timestamp":1786966315617}@@ {tone="neutral"}--}
-This {++{"author":"Elias's AI","timestamp":1786966315617}@@static ++}callout has no title. It still provides a subtle visual grouping.
+:::callout
+This static callout has no title. It still provides a subtle visual grouping.
 :::
 
 ### Collapsible callouts
@@ -117,14 +117,14 @@ Use `collapse="open"` when learners should see the content initially but may clo
 A local minimum only compares a point with nearby points. A global minimum compares it with every point in the domain.
 :::
 
-{--{"author":"Elias's AI","timestamp":1786966324637}@@Collapsible callouts can also omit the title.--}{++{"author":"Elias's AI","timestamp":1786966324637}@@When a closed or open callout has no title,++} Lens supplies a small `Show more` control:
+When a closed or open callout has no title, Lens supplies a small `Show more` control:
 
 :::callout {tone="neutral" collapse="closed"}
-This is an untitled {--{"author":"Elias's AI","timestamp":1786966324637}@@collapsible--}{++{"author":"Elias's AI","timestamp":1786966324637}@@closed callout.
+This is an untitled closed callout.
 :::
 
 :::callout {tone="neutral" collapse="open"}
-This is an untitled open++} callout.
+This is an untitled open callout.
 :::
 
 Omit `collapse` for a callout that is always visible.
@@ -147,15 +147,15 @@ Do not confuse local and global minima.
 
 Review the [warning](#global-warning).
 
-### {--{"author":"Elias's AI","timestamp":1786967080081}@@Callouts containing collapsible material--}{++{"author":"Elias's AI","timestamp":1786967080081}@@Nested callouts and collapses++}
+### Nested callouts and collapses
 
-Callouts can contain {--{"author":"Elias's AI","timestamp":1786967080081}@@existing --}inline{--{"author":"Elias's AI","timestamp":1786967080081}@@ annotations. This keeps the outer teaching block visible while hiding optional detail:--}{++{"author":"Elias's AI","timestamp":1786967080081}@@ collapses:++}
+Callouts can contain inline collapses:
 
 :::callout {title="Exercise with optional help" tone="blue"}
 Give an example of a function with multiple local minima.
 
 If you need help, reveal this :collapse[Try sketching a non-convex polynomial with more than one valley.]
-:::{++{"author":"Elias's AI","timestamp":1786967080081}@@
+:::
 
 For one block inside another, give the outer block four colons and the inner block three. Here is a block collapse inside a callout:
 
@@ -195,6 +195,6 @@ Classify the point.
 :::callout {title="Hint" tone="amber" collapse="closed"}
 Compare it only with nearby points first.
 :::
-::::++}
+::::
 
 [^1]: Hi. This is a footnote added by the author of the article.
