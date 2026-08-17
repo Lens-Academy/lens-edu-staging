@@ -99,7 +99,7 @@ This {++{"author":"Elias's AI","timestamp":1786966315617}@@static ++}callout has
 
 ### Collapsible callouts
 
-Add `collapse="closed"` to start closed:
+Add `collapse="closed"` to start closed: normally-closed normally-open, NC NO
 
 ```md
 :::callout {title="Hint" tone="amber" collapse="closed"}
