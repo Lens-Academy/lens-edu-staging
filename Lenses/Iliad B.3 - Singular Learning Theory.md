@@ -1152,7 +1152,7 @@ $$
 m^{2} + (m-r_{A})(m-r_{B}).
 $$
 
-:::callout {title="Hint" tone="neutral" collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 The following is a guide to one possible approach.
 
@@ -1163,7 +1163,6 @@ The following is a guide to one possible approach.
 5. What is the nullity of $T_{D}$? Why is this the same as the dimensionality of the space of degenerate directions?
 
 ::::
-:::::
 
 ^ex-dln-degeneracy
 
