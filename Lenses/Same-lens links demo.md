@@ -33,7 +33,7 @@ This whole callout is destination. [[#^top|Return to top]]
 
 ^callout-target
 
-!## Heading targets
+## Heading targets
 
 Link to heading text with `\[[#Heading targets|link text]]`. No extra marker needed.
 
