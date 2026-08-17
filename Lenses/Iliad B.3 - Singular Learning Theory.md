@@ -2038,7 +2038,7 @@ so $\lambda = 3/4$. The Hessian is $\nabla^{2}L(0,0) = \operatorname{diag}(2, 12
 
 :::
 
-:::callout {title="Exercise" tone="blue"}
+{--{"author":"Elias's AI","timestamp":1786987480412}@@:::callout--}{++{"author":"Elias's AI","timestamp":1786987480412}@@:::::callout++} {title="Exercise" {--{"author":"Elias's AI","timestamp":1786987480412}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786987480412}@@tone="amber"}++}
 **Exercise 3.5 (Upper bound on the LLC).** In [[#^ex-llc-regular-case|Exercise 3.1]], we saw that $\lambda = d/2$ for regular models. In this exercise, you will prove directly from the volume scaling definition that for any local minimum $w^{*}$ of the population loss, the local learning coefficient satisfies $\lambda(w^{*}) \leq d/2$.
 
 **(a)** Let $\Lambda>0$ be an upper bound on the eigenvalues of the Hessian $\nabla^{2} L(w)$ for all $w \in B(w^{*})$. Using the Lagrange remainder form of Taylor's theorem, show that for all $w \in B(w^{*})$,
@@ -2047,7 +2047,7 @@ $$
 L(w) - L(w^{*}) \leq \frac{1}{2}\Lambda \|w - w^{*}\|^{2}.
 $$
 
-::::callout {title="Hint" tone="amber" collapse="closed"}
+::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786987480412}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786987480412}@@tone="neutral"++} collapse="closed"}
 
 for any real symmetric matrix $H\in\mathbb{R}^{n\times n}$ and vector $v\in \mathbb{R}^{n}$, $v^{\top} H v \leq \Lambda \|v\|^{2}$ where $\Lambda$ is the largest eigenvalue of $H$.
 
@@ -2066,12 +2066,12 @@ C \epsilon^{d/2}\leq V(\epsilon).
 $$
 
 **(d)** Conclude that $\lambda(w^{*}) \leq d/2$.
-:::
+{--{"author":"Elias's AI","timestamp":1786987480412}@@:::--}{++{"author":"Elias's AI","timestamp":1786987480412}@@:::::++}
 
 ^ex-lambda-upper-bound
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786987484174}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786987484174}@@tone="neutral"++} collapse="closed"}
 
 1. Since $w^{*}$ is a local minimum of $L$, we have $\nabla L(w^{*}) = 0$. By Taylor's theorem with Lagrange remainder, for any $w \in B(w^{*})$ there exists $\tilde{w}$ on the line segment between $w^{*}$ and $w$ such that
 
