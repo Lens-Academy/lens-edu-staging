@@ -85,16 +85,16 @@ Do not infer global behavior from local information alone.
 A neutral callout adds structure without strong semantic emphasis.
 :::
 
-The title is optional. An untitled callout renders only its content:
+{--{"author":"Elias's AI","timestamp":1786966315617}@@The title is optional. An untitled callout renders only its content:--}{++{"author":"Elias's AI","timestamp":1786966315617}@@`title` is optional for every callout: static, closed, or open. If you do not need any attributes, use bare `:::callout`:++}
 
 ```md
-:::callout {tone="neutral"}
-This callout has no title.
+:::callout{--{"author":"Elias's AI","timestamp":1786966315617}@@ {tone="neutral"}--}
+This {++{"author":"Elias's AI","timestamp":1786966315617}@@static ++}callout has no title.
 :::
 ```
 
-:::callout {tone="neutral"}
-This callout has no title. It still provides a subtle visual grouping.
+:::callout{--{"author":"Elias's AI","timestamp":1786966315617}@@ {tone="neutral"}--}
+This {++{"author":"Elias's AI","timestamp":1786966315617}@@static ++}callout has no title. It still provides a subtle visual grouping.
 :::
 
 ### Collapsible callouts
