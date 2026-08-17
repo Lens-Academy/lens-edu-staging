@@ -9,10 +9,7 @@ partner-logo-small: iliad-small.svg
 partner-url: https://www.iliad.ac/
 ---
 # Module: [[../modules/Iliad A.1 - AI Alignment Introduction|A.1 AI Alignment Introduction]]
-
-%% hello worldssss %%
 # Module: [[../modules/Iliad A.2 - Alignment in Practice|A.2 Alignment in Practice]]
-
 # Meeting: Unit A
 
 # Module: [[../modules/Iliad B - Learning|B — Learning]]
