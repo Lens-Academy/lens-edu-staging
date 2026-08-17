@@ -3,7 +3,7 @@ title: "Claude's new constitution"
 author:
   - "Anthropic"
 source_url: "https://www.anthropic.com/news/claude-new-constitution"
-published: {--{"author":"Luc's AI","timestamp":1786988269452}@@2026-06-21--}{++{"author":"Luc's AI","timestamp":1786988269452}@@2026-01-22++}
+published: 2026-01-22
 created: 2026-06-21
 accessed: 2026-06-21
 description: "A new approach to a foundational document that expresses and shapes who Claude is"
