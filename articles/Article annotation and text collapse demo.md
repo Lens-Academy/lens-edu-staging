@@ -22,7 +22,9 @@ See for example this: :collapse[this text will be collapsed by default, but can 
 
 Use `:::collapse` for one or more omitted paragraphs:
 
-:::collapse hide ellipsis
+:
+
+:::collapse 
 This entire paragraph will be collapsed by default,
 
 but can be opened by the user.
