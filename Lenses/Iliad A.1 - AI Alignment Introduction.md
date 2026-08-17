@@ -333,4 +333,84 @@ The first **2.5 hours** of this day are devoted to welcoming the participants an
 
 First, explain to the students that this is mostly a conceptual day: The aim is to understand a basic decomposition of the problem of safe AI into specifying an alignment target  and solving the technical alignment problem, which can itself decompose further. We also discuss the basic role that goal-directedness plays in the risks, and basic views on the risk landscape. The aim is that after this day, all students are broadly on the same page about what the alignment problem is, and have some basic impression of how the rest of the course relates to the problem.
 
-:::
+:::{++{"author":"Luc's AI","timestamp":1786984659219}@@
+
+#### Text
+content::
+\## Optional readings
+
+::card[[../Lenses/yudkowsky-coherent-extrapolated-volition]]
+
+> Ask what humanity would want if we knew more, thought faster, and could reconcile our wishes.
+
+---
+
+::card[[../Lenses/christiano-clarifying-ai-alignment]]
+
+> Separate an AI trying to do what its operator wants from the distinct problem of being capable enough to succeed.
+
+---
+
+::card[[../Lenses/anthropic-claudes-new-constitution]]
+
+> See how a modern constitution turns broad principles and their reasons into training guidance for Claude.
+
+---
+
+::card[[../Lenses/lesswrong-corrigibility]]
+
+> Explore why a capable AI may resist correction or shutdown, and what corrigibility would require instead.
+
+---
+
+::card[[../Lenses/evhub-how-do-we-become-confident-in-the-safety-of-a-machine-learning-system]]
+
+> Use training goals, setups, and rationales to ask what would justify confidence in a system's safety.
+
+---
+
+::card[[../Lenses/krakovna-specification-gaming-the-flip-side-of-ai-ingenuity]]
+
+> Study concrete cases where agents satisfy the letter of a reward while defeating its intent.
+
+---
+
+::card[[../Lenses/shah-how-undesired-goals-can-arise-with-correct-rewards]]
+
+> See how an agent can learn the wrong goal even when its reward specification is correct.
+
+---
+
+::card[[../Lenses/wilson-deep-learning-is-not-so-mysterious-or-different]]
+
+> Examine how soft inductive biases and simple, compressible patterns may shape deep learning's generalization.
+
+---
+
+::card[[../Lenses/shah-will-humans-build-goal-directed-agents]]
+
+> Consider whether incentives and usefulness will push people toward building increasingly goal-directed systems.
+
+---
+
+::card[[../Lenses/omohundro-the-basic-ai-drives]]
+
+> Follow the foundational argument that many different final goals produce the same instrumental drives.
+
+---
+
+::card[[../Lenses/anthropic-core-views-on-ai-safety-when-why-what-and-how]]
+
+> Compare optimistic, intermediate, and pessimistic pictures of AI safety and Anthropic's empirical portfolio.
+
+---
+
+::card[[../Lenses/evhub-model-organisms-of-misalignment-the-case-for-a-new-pillar-of-alignment-research]]
+
+> Learn why researchers deliberately build laboratory examples of deception, reward hacking, and other failures.
+
+---
+
+::card[[../Lenses/yudkowsky-the-rocket-alignment-problem-gg9a4y8rewktle3tn]]
+
+> Explore the case that safe advanced AI needs deeper theoretical foundations before trial and error can be trusted.++}
