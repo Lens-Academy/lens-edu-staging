@@ -7,7 +7,7 @@ title: "A — Alignment"
 # Lens: A.1 AI Alignment Introduction
 source:: [[../Lenses/Iliad A.1 - AI Alignment Introduction]]
 
-# Lens: {++{"author":"Luc's AI","timestamp":1786985198132}@@Coherent Extrapolated Volition
+# Lens: Coherent Extrapolated Volition
 source:: [[../Lenses/yudkowsky-coherent-extrapolated-volition]]
 optional:: true
 hide:: true
@@ -72,5 +72,5 @@ source:: [[../Lenses/yudkowsky-the-rocket-alignment-problem-gg9a4y8rewktle3tn]]
 optional:: true
 hide:: true
 
-# Lens: ++}A.2 Alignment in Practice
+# Lens: A.2 Alignment in Practice
 source:: [[../Lenses/Iliad A.2 - Alignment in Practice]]
