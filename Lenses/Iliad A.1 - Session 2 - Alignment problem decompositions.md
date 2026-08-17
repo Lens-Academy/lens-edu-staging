@@ -1,4 +1,4 @@
-{++{"author":"Luc's AI","timestamp":1786986830889}@@---
+---
 id: '673f8272-22bd-4b3d-a43b-2e2e2bbe28c8'
 title: "Session 2: Alignment problem decompositions"
 authors:
@@ -41,4 +41,4 @@ Discuss in groups of 3-5 for **30 minutes**. Possible prompts:
 * Think of well-known or imagined misalignment scenarios: Can you think of some that clearly fall into the reward misspecification or goal misgeneralization category? Are some not clearly in either of them?  
 * What problem with “outer” and “inner” misalignment is the terminology of “training stories” trying to solve? Construct examples where training stories seem more appropriate than inner/outer alignment as a framework.  
 * Think of concrete ways in which modern deep learning systems generalize beyond their explicit training examples. What inductive biases may underlie these examples? Is it always possible to come up with a “clean description” of those biases? Is the inductive bias you come up with enforced in the architecture, or more implicit?  
-  * Perhaps: Discuss this explicitly for the case of “emergent misalignment”.++}
+  * Perhaps: Discuss this explicitly for the case of “emergent misalignment”.

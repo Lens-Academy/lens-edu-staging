@@ -1111,7 +1111,7 @@ $$
 ^def-events
 
 
-:::callout {title="Note" {--{"author":"Elias's AI","timestamp":1786986848999}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986848999}@@tone="green"}++}
+:::callout {title="Note" tone="green"}
 
 **Example: Example: a fair coin shows 1 infinitely often.** Let $\mathcal{A} = \mathcal{O} = \{0,1\}$, $\mathcal{R} = \{0\}$, and let $\nu$ be a fair coin that ignores the action: $\nu(o_{t} = 1 \mid \text{æ}_{<t}\, a_{t}) = \tfrac{1}{2}$ for all $\text{æ}_{<t}, a_{t}$. Consider the event $F := \text{``}o_{t} = 1\text{ for infinitely many }t\text{''}$.
 
@@ -1155,7 +1155,7 @@ This set is built from finite-prefix conditions: $\{f_{t} \not\to 0\} = \bigcup_
 ^def-as
 
 
-:::callout {title="Note" {--{"author":"Elias's AI","timestamp":1786986848999}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986848999}@@tone="green"}++}
+:::callout {title="Note" tone="green"}
 
 **Example: Unpacking "$f_{t} \not\to 0$".** The set $\{f_{t} \not\to 0\}$ looks intimidating, but it reads naturally from the inside out:
 

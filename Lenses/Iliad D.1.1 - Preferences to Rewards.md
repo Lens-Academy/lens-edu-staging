@@ -706,7 +706,7 @@ so utility is simply the additive cumulative reward.
 
 In summary, the step from vNM utility over whole trajectories to RL-style reward requires one more axiom. That axiom simultaneously identifies both the local reward signal and the form of discounting.
 
-:::callout {title="Note" {--{"author":"Elias's AI","timestamp":1786986839850}@@tone="neutral"}--}{++{"author":"Elias's AI","timestamp":1786986839850}@@tone="blue"}++}
+:::callout {title="Note" tone="blue"}
 
 **Remark (MDPs, POMDPs, and locality).** The locality result of this section is especially natural in fully observed MDPs, where one often expects reward to depend only on the current state transition. In the present note, however, the primitive histories are sequences of observations and actions, and the corresponding local reward has the form $r\colon \mathcal{O}\times \mathcal{A}\to\mathbb{R}$. In partially observed settings this can be restrictive: a goal may be Markov in the hidden state, in the agent's belief state, or in some augmented memory state, without being reducible to a function of the current observation-action pair alone. In that sense, the fifth axiom should be read as characterizing when preferences admit a reward that is local in the chosen representation of experience. If the raw observation stream is too coarse, one may need to enrich the state description before a Markov reward representation becomes available ([[#^bib-bowling2023settling|Bowling et al. 2023]]).
 

@@ -1,4 +1,4 @@
-{++{"author":"Luc's AI","timestamp":1786986832151}@@---
+---
 id: 'c06dbe39-1977-4bc7-be07-2d755bb383df'
 title: "Session 4: Uncertain risks and outlook"
 authors:
@@ -45,4 +45,4 @@ Discuss in groups of 3-5 for **30 minutes**. Possible prompts:
 
 \## Daily Checkpoint
 
-Do [the linked quiz](https://docs.google.com/forms/d/e/1FAIpQLSeM_LJhem9MzbH4FcTL58qJ9Tb0bj9GTKKqtz7yhXC2E5OA-Q/viewform?usp=header).++}
+Do [the linked quiz](https://docs.google.com/forms/d/e/1FAIpQLSeM_LJhem9MzbH4FcTL58qJ9Tb0bj9GTKKqtz7yhXC2E5OA-Q/viewform?usp=header).

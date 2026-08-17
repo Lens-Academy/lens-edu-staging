@@ -359,7 +359,7 @@ $$
 
 :::
 
-:::callout {title="Note" {--{"author":"Elias's AI","timestamp":1786986844676}@@tone="neutral"}--}{++{"author":"Elias's AI","timestamp":1786986844676}@@tone="blue"}++}
+:::callout {title="Note" tone="blue"}
 
 **Remark (Solomonoff specialization).** Under the Solomonoff prior, $w_{\nu} = 2^{-K(\nu)}$, so the bound becomes
 
@@ -536,7 +536,7 @@ where the last step is [[#4. Cumulative prediction error bound (main result)|Sec
 
 :::
 
-:::callout {title="Note" {--{"author":"Elias's AI","timestamp":1786986844676}@@tone="neutral"}--}{++{"author":"Elias's AI","timestamp":1786986844676}@@tone="blue"}++}
+:::callout {title="Note" tone="blue"}
 
 **Remark (Solomonoff specialization).** Under the Solomonoff prior $w_{\mu} = 2^{-K(\mu)}$, so $-\ln w_{\mu} = K(\mu)\ln 2$ and the bound becomes
 
@@ -680,7 +680,7 @@ Now take the $\mu$-expectation. The LHS becomes $D_{n}(\mu \parallel \xi)$; the 
 
 :::
 
-:::callout {title="Note" {--{"author":"Elias's AI","timestamp":1786986844676}@@tone="neutral"}--}{++{"author":"Elias's AI","timestamp":1786986844676}@@tone="blue"}++}
+:::callout {title="Note" tone="blue"}
 
 **Remark (Reading the two terms).** The right-hand side splits into two qualitatively different terms:
 
