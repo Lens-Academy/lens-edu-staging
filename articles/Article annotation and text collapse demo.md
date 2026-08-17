@@ -117,10 +117,14 @@ Use `collapse="open"` when learners should see the content initially but may clo
 A local minimum only compares a point with nearby points. A global minimum compares it with every point in the domain.
 :::
 
-Collapsible callouts can also omit the title. Lens supplies a small `Show more` control:
+{--{"author":"Elias's AI","timestamp":1786966324637}@@Collapsible callouts can also omit the title.--}{++{"author":"Elias's AI","timestamp":1786966324637}@@When a closed or open callout has no title,++} Lens supplies a small `Show more` control:
 
 :::callout {tone="neutral" collapse="closed"}
-This is an untitled collapsible callout.
+This is an untitled {--{"author":"Elias's AI","timestamp":1786966324637}@@collapsible--}{++{"author":"Elias's AI","timestamp":1786966324637}@@closed callout.
+:::
+
+:::callout {tone="neutral" collapse="open"}
+This is an untitled open++} callout.
 :::
 
 Omit `collapse` for a callout that is always visible.
