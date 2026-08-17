@@ -16,9 +16,9 @@ This article demos Lens article annotations and {--{"author":"Elias's AI","times
 
 ## Existing++} article {--{"author":"Elias's AI","timestamp":1786965128592}@@markdown.--}{++{"author":"Elias's AI","timestamp":1786965128592}@@annotations++}
 
-{++{"author":"Elias's AI","timestamp":1786965128592}@@Use `:collapse[...]` for a short inline omission:
+Use `:collapse[...]` for a short inline omission:
 
-++}See for example this: :collapse[this text will be collapsed by default, but can be expanded by the user] isn't that pretty nice?
+See for example this: :collapse[this text will be collapsed by default, but can be expanded by the user] isn't that pretty nice?
 
 {--{"author":"Elias's AI","timestamp":1786965128592}@@We can also collapse entire --}{++{"author":"Elias's AI","timestamp":1786965128592}@@Use `:::collapse` for one or more omitted ++}paragraphs:
 
@@ -50,7 +50,7 @@ This is rendered on the same line as the third.
 
 {--{"author":"Elias's AI","timestamp":1786965128592}@@You--}{++{"author":"Elias's AI","timestamp":1786965128592}@@These annotations++} can {--{"author":"Elias's AI","timestamp":1786965128592}@@nest these.--}{++{"author":"Elias's AI","timestamp":1786965128592}@@be nested.++} For example, here is{--{"author":"Elias's AI","timestamp":1786965128592}@@ a--} collapsed {--{"author":"Elias's AI","timestamp":1786965128592}@@field--}{++{"author":"Elias's AI","timestamp":1786965128592}@@text++} :collapse[with a note inside: :note[This note explains why we collapsed this bit of text.]]
 
-{++{"author":"Elias's AI","timestamp":1786965128592}@@## General callouts
+## General callouts
 
 Use one `callout` directive for exercises, definitions, remarks, warnings, hints, solutions, and other highlighted course content. The title supplies the course-specific name. The tone controls its visual treatment.
 
@@ -136,4 +136,4 @@ Give an example of a function with multiple local minima.
 If you need help, reveal this :collapse[Try sketching a non-convex polynomial with more than one valley.]
 :::
 
-++}[^1]: Hi. This is a footnote added by the author of the article.
+[^1]: Hi. This is a footnote added by the author of the article.
