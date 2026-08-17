@@ -12,7 +12,7 @@ provenance_recorded_at: '2026-08-17'
 
 #### Text
 content::
-:::callout {title="What you'll learn" tone="green"}
+:::callout {title="What you'll learn" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="green"}--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="neutral"}++}
 
 **Motivation**
 
@@ -64,7 +64,7 @@ where $M = \Sigma_{YX}\Sigma_{X}^{-1}$ is the "teacher" matrix (the OLS solution
 
 This problem explores the critical point structure of deep linear networks, following ([[#^bib-achour2024|Achour et al. 2024]]).
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="amber"}++}
 **Exercise 2.1 (Diagonal decomposition).** Consider the **diagonal** case: $d_{0} = d_{1} = \cdots = d_{L} = d$, and the teacher is diagonal, $M = \text{diag}(s_{1}, \ldots, s_{d})$, with $s_{1} > s_{2} > \cdots > s_{d} > 0$. Restrict attention to diagonal weight matrices $W_{l} = \text{diag}(w_{l}^{(1)}, \ldots, w_{l}^{(d)})$. Show that the loss decomposes into $d$ independent scalar problems:
 
 $$
@@ -75,7 +75,7 @@ $$
 ^ex-td-1a
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="neutral"++} collapse="closed"}
 
 When all $W_{l}$ are diagonal, the product $W = W_{L} \cdots W_{1}$ is also diagonal with entries $(W)_{\alpha\alpha}= \prod_{l=1}^{L} w_{l}^{(\alpha)}$. The teacher $M$ is diagonal with entries $s_{\alpha}$. Then:
 
@@ -87,7 +87,7 @@ Since the different modes $\alpha$ share no parameters, the loss decomposes into
 
 :::
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="amber"}++}
 **Exercise 2.2 (Scalar critical points).** For a single scalar mode with target $s > 0$, find all first-order critical points of $\ell(w_{1}, w_{2}) = \frac{1}{2}(s - w_{1} w_{2})^{2}$ at depth $L = 2$. Show that the critical points are:
 
 - The global minimum manifold: $w_{1} w_{2} = s$
@@ -101,7 +101,7 @@ Classify the origin as a saddle point by computing the Hessian $H$ of $\ell$ at 
 ^ex-td-1b
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="neutral"++} collapse="closed"}
 
 For $L = 2$, the gradient equations are:
 
@@ -129,7 +129,7 @@ The eigenvalues are $\pm s$. Since $s > 0$, $H$ has one positive and one negativ
 
 :::
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="amber"}++}
 **Exercise 2.3 (Critical-point structure).** Achour et al. ([[#^bib-achour2024|Achour et al. 2024]]) show that every first-order critical point $\theta = (W_{1}, \ldots, W_{L})$ satisfies: there exists a subset $S \subseteq \{1, \ldots, d\}$ such that
 
 $$
@@ -142,7 +142,7 @@ where $P_{S} = U_{S} U_{S}^{\top}$ is the orthogonal projector onto the span of 
 ^ex-td-1c
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="neutral"++} collapse="closed"}
 
 At the critical point $W = P_{S} M$ with $S = \{1, \ldots, r\}$, the student retains only the first $r$ modes: $W = \text{diag}(s_{1}, \ldots, s_{r}, 0, \ldots, 0)$. The loss is:
 
@@ -154,7 +154,7 @@ This is strictly positive whenever $r < d$ (since all $s_{\alpha} > 0$), so thes
 
 :::
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="amber"}++}
 **Exercise 2.4 (Symmetry of the global minima).** The group $GL_{h} := GL_{d_1}\times \cdots \times GL_{d_{L-1}}$ acts on the weights by:
 
 $$
@@ -167,7 +167,7 @@ Verify that the student map $\mu(\theta) = W_{L} \cdots W_{1}$ is invariant unde
 ^ex-td-1d
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="neutral"++} collapse="closed"}
 
 Under the group action:
 
@@ -183,7 +183,7 @@ All $g_{l}$ and $g_{l}^{-1}$ factors cancel telescopically. This means every par
 
 We now study gradient flow: $\dot{\theta}(t) = -\nabla_{\theta} \mathcal{L}(\theta(t))$, the continuous-time limit of gradient descent with infinitesimal learning rate.
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="amber"}++}
 **Exercise 3.1 (Gradient-flow equations).** For a two-layer diagonal DLN ($L=2$) with loss $\mathcal{L}= \frac{1}{2}\|M - W_{2} W_{1}\|_{F}^{2}$, assume that each weight matrix $W_{i}$ is a diagonal matrix and whitened inputs. Derive the gradient flow equations for each layer. Show that:
 
 $$
@@ -194,7 +194,7 @@ $$
 ^ex-td-2a
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="neutral"++} collapse="closed"}
 
 We have $\mathcal{L}= \frac{1}{2}\|M - W_{2} W_{1}\|_{F}^{2} = \frac{1}{2}\text{Tr}\left[(M - W_{2} W_{1})^{\top}(M - W_{2} W_{1})\right]$.
 
@@ -218,7 +218,7 @@ Similarly, $\nabla_{W_2}\mathcal{L}= -(M - W_{2} W_{1})W_{1}^{\top}$, giving $\d
 
 :::
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="amber"}++}
 **Exercise 3.2 (Balancedness is conserved).** Define the **balancedness matrix**:
 
 $$
@@ -237,7 +237,7 @@ $$
 ^ex-td-2b
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="neutral"++} collapse="closed"}
 
 Let $E := M - W_{2} W_{1}$ denote the residual. Compute:
 
@@ -275,7 +275,7 @@ The terms cancel pairwise. $G$ is conserved. $\square$
 
 From now on, assume **balanced initialization**: $G(0) = 0$, which by [[#^ex-td-2b|Exercise 3.2]] means $W_{2}^{\top} W_{2} = W_{1} W_{1}^{\top}$ for all time. We want to derive the gradient flow in function space (the ODE for the student $W = W_{2} W_{1}$). This requires several steps.
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="amber"}++}
 **Exercise 3.3 (Function-space velocity).** Compute $\dot{W}:= \frac{d}{dt}(W_{2} W_{1})$ using the gradient flow equations from [[#^ex-td-2a|Exercise 3.1]]. Show that:
 
 $$
@@ -286,7 +286,7 @@ $$
 ^ex-td-2ci
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="neutral"++} collapse="closed"}
 
 Apply the product rule:
 
@@ -302,7 +302,7 @@ $$
 
 :::
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="amber"}++}
 **Exercise 3.4 ($W_{1}^{\top}W_{1}$ in terms of $W$).** We now need to express $W_{1}^{\top} W_{1}$ and $W_{2} W_{2}^{\top}$ in terms of $W = W_{2} W_{1}$. For simplicity, assume that the weight matrices $W_{l}$ are diagonal. Show that:
 
 $$
@@ -313,7 +313,7 @@ $$
 ^ex-td-2cii
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="neutral"++} collapse="closed"}
 
 For diagonal matrices, $W_{1} = \text{diag}(a_{\alpha})$ and $W_{2} = \text{diag}(b_{\alpha})$ with $W = \text{diag}(a_{\alpha} b_{\alpha})$. Balancedness gives $b_{\alpha}^{2} = a_{\alpha}^{2}$ for each $\alpha$, i.e. $|b_{\alpha}| = |a_{\alpha}|$ (with matching signs for positive entries).
 
@@ -331,20 +331,20 @@ $$
 
 :::
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="amber"}++}
 **Exercise 3.5 ($W_{2}W_{2}^{\top}$ in terms of $W$).** Similarly, show that $W_{2} W_{2}^{\top} = (W W^{\top})^{1/2}$.
 :::
 
 ^ex-td-2ciii
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="neutral"++} collapse="closed"}
 
 By the same argument, $W_{2} W_{2}^{\top} = \text{diag}(b_{\alpha}^{2}) = \text{diag}(a_{\alpha}^{2})$ (using $b_{\alpha}^{2} = a_{\alpha}^{2}$). And $WW^{\top} = \text{diag}(a_{\alpha}^{2} b_{\alpha}^{2}) = \text{diag}(a_{\alpha}^{4})$, so $(WW^{\top})^{1/2}= \text{diag}(a_{\alpha}^{2}) = W_{2} W_{2}^{\top}$. $\square$
 
 :::
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="amber"}++}
 **Exercise 3.6 (The balanced function-space ODE).** Substitute the results of [[#^ex-td-2cii|Exercise 3.4]] and [[#^ex-td-2ciii|3.5]] into [[#^ex-td-2ci|Exercise 3.3]] to obtain:
 
 $$
@@ -355,7 +355,7 @@ $$
 ^ex-td-2civ
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="neutral"++} collapse="closed"}
 
 Substituting into [[#^ex-td-2ci|Exercise 3.3]]:
 
@@ -365,7 +365,7 @@ $$
 
 :::
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="amber"}++}
 **Exercise 3.7 (The NTK operator).** Define the NTK operator for $L = 2$ as:
 
 $$
@@ -386,7 +386,7 @@ This is the NTK equation in the case of DLNs. The NTK equation is a gradient flo
 ^ex-td-2d
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="neutral"++} collapse="closed"}
 
 With $F = M - W$, the equation from [[#^ex-td-2civ|Exercise 3.6]] reads:
 
@@ -416,7 +416,7 @@ $$
 
 where $U, V$ are the left/right singular vectors of $M$, and $w_{\alpha}(t) \geq 0$ are the evolving singular values of $W$.
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986678809}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986678809}@@tone="amber"}++}
 **Exercise 4.1 (Aligned NTK).** Under this alignment assumption, show that the NTK operator is aligned to the task, i.e. $K[F]$ preserves the SVD basis. In particular, show that:
 
 $$
@@ -431,7 +431,7 @@ and that the residual is $M - W = U\,\text{diag}(s_{1} - w_{1}, \ldots, s_{d} - 
 ^ex-td-3ai
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986683229}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986683229}@@tone="neutral"++} collapse="closed"}
 
 Under the alignment assumption, $W = U\,\text{diag}(w_{\alpha})\,V^{\top}$. Then:
 
@@ -467,7 +467,7 @@ So $K[F]$ stays in the SVD basis of $M$ — the NTK is aligned to the task. $\sq
 
 :::
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986683229}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986683229}@@tone="amber"}++}
 **Exercise 4.2 (Decoupled scalar ODEs).** Substitute into the self-consistent equation. Show that the matrix equation decouples into $d$ independent scalar ODEs:
 
 $$
@@ -480,7 +480,7 @@ $$
 ^ex-td-3aii
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986683229}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986683229}@@tone="neutral"++} collapse="closed"}
 
 Substitute into $\dot{W}= (WW^{\top})^{1/2}(M-W) + (M-W)(W^{\top} W)^{1/2}$:
 
@@ -512,7 +512,7 @@ The NTK perspective makes the structure transparent: the factor $2w_{\alpha}$ is
 
 :::
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986683229}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986683229}@@tone="amber"}++}
 **Exercise 4.3 (Timescale of learning).** The ODE $\dot{w}= 2w(s - w)$ is a logistic equation whose solution is:
 
 $$
@@ -531,7 +531,7 @@ Deduce that modes with larger singular values $s_{\alpha}$ are learned faster. T
 ^ex-td-3b
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986683229}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986683229}@@tone="neutral"++} collapse="closed"}
 
 From the logistic solution $w(t) = \frac{s}{1 + (s/w_{0} - 1)e^{-2st}}$, we invert to find $t$ as a function of $w$. The derivation is equivalent to integrating $\dot{w}= 2w(s-w)$ by separation of variables:
 
@@ -561,7 +561,7 @@ For a fixed ratio $w_{f}/s_{\alpha}$ and fixed $w_{0}$, the learning time scales
 
 :::
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986683229}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986683229}@@tone="amber"}++}
 **Exercise 4.4 (Incremental learning).** Consider a teacher with $r$ nonzero singular values and a small uniform initialization $w_{\alpha}(0) = w_{0} \ll s_{r}$ for all $\alpha$. Discuss:
 
 - What is the approximate rank of $W(t)$ at early times?
@@ -574,7 +574,7 @@ What does this tell us about the sequence of critical points visited by the grad
 ^ex-td-3c
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986683229}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986683229}@@tone="neutral"++} collapse="closed"}
 
 With uniform initialization $w_{\alpha}(0) = w_{0}$ for all $\alpha$, the sigmoid solution shows that mode $\alpha$ remains near $w_{0}$ until time $t \approx \frac{1}{2s_{\alpha}}\ln(s_{\alpha}/w_{0})$, then transitions rapidly to $w_{\alpha} \approx s_{\alpha}$.
 
@@ -602,7 +602,7 @@ $$
 
 The factor $2w$ is the (scalar) NTK — it is **state-dependent**: the effective learning rate depends on the current value of $w$.
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986683229}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986683229}@@tone="amber"}++}
 **Exercise 5.1 (Linearizing the NTK).** Now initialize at a **large** value $w_{0} \gg s > 0$. Assume that in the early phase of training, while $w$ has not changed much from $w_{0}$, the ODE becomes approximately:
 
 $$
@@ -613,7 +613,7 @@ $$
 ^ex-td-4a
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986683229}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986683229}@@tone="neutral"++} collapse="closed"}
 
 Starting from the same ODE $\dot{w}= 2w(s - w)$, with $w_{0} \gg s > 0$, the weight $w$ needs to decrease from $w_{0}$ to $s$. As long as $w$ has not changed much from $w_{0}$, we can write $w = w_{0} + \delta w$ with $|\delta w| \ll w_{0}$, so:
 
@@ -631,7 +631,7 @@ This is a **linear** ODE — the NTK factor $2w$ has been frozen at its initial 
 
 :::
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986683229}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986683229}@@tone="amber"}++}
 **Exercise 5.2 (Frozen-NTK solution).** Solve the linearized ODE from [[#^ex-td-4a|Exercise 5.1]]. Show that:
 
 $$
@@ -644,7 +644,7 @@ What is the learning timescale?
 ^ex-td-4b
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986683229}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986683229}@@tone="neutral"++} collapse="closed"}
 
 The linearized ODE $\dot{w}= 2w_{0}(s - w)$ is first-order linear. Set $\tilde{w}:= w - s$, then $\dot{\tilde{w}}= -2w_{0}\,\tilde{w}$, with solution $\tilde{w}(t) = (w_{0} - s)\,e^{-2w_0 t}$. Therefore:
 
@@ -664,7 +664,7 @@ It depends on the **initialization scale** $w_{0}$ but **not on the target** $s$
 
 :::
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986683229}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986683229}@@tone="amber"}++}
 **Exercise 5.3 (No timescale separation).** Now restore the mode index $\alpha$. In the lazy regime, each mode satisfies $\dot{w}_{\alpha} \approx 2w_{0}(s_{\alpha} - w_{\alpha})$ with the **same** rate $2w_{0}$ for all $\alpha$. Compare the lazy learning time $t_{\alpha}^{\text{lazy}}$ with the rich-regime timescale from [[#^ex-td-3b|Exercise 4.3]]: $t_{\alpha}^{\text{rich}}\propto 1/s_{\alpha}$.
 
 Discuss the difference in **rank bias** between the lazy and rich regimes.
@@ -673,7 +673,7 @@ Discuss the difference in **rank bias** between the lazy and rich regimes.
 ^ex-td-4c
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986683229}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986683229}@@tone="neutral"++} collapse="closed"}
 
 Restoring the mode index, each mode satisfies $\dot{w}_{\alpha} \approx 2w_{0}(s_{\alpha} - w_{\alpha})$ with solution:
 
@@ -707,7 +707,7 @@ In the lazy regime, all components of $M$ are learned simultaneously: signal and
 
 In practice, networks are neither purely lazy nor purely rich. Tu, Aranguri & Jacot (2024) provide a unified description. We develop the key ideas using the diagonal scalar model.
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986683229}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986683229}@@tone="amber"}++}
 **Exercise 6.1 (The interpolating ODE).** In [[#4. Rich regime: saddle-to-saddle|Section 4]] and [[#5. Lazy regime|5]], we studied the same ODE $\dot{w}_{\alpha} = 2w_{\alpha}(s_{\alpha} - w_{\alpha})$ in two limits: small $w_{0}$ (rich) and large $w_{0}$ (lazy). A more general model for a depth-2 DLN with balanced initialization at scale $\sigma$ and width $n$ replaces the scalar NTK $2w_{\alpha}$ by:
 
 $$
@@ -725,7 +725,7 @@ Verify that this ODE reproduces the two known regimes:
 ^ex-td-5a
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986683229}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986683229}@@tone="neutral"++} collapse="closed"}
 
 The interpolating ODE is $\dot{w}_{\alpha} = 2\sqrt{w_{\alpha}^{2} + \tau^{2}}\,(s_{\alpha} - w_{\alpha})$.
 
@@ -747,7 +747,7 @@ This is a linear ODE with rate $2\tau$, independent of $s_{\alpha}$ — the froz
 
 :::
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986683229}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986683229}@@tone="amber"}++}
 **Exercise 6.2 (Two-phase dynamics).** At initialization, all modes start at $w_{\alpha}(0) \sim \sigma^{2} \ll \tau$ (since $\sqrt{n}\gg 1$). Observe that:
 
 - When $|w_{\alpha}| \ll \tau$, the effective learning rate is $\approx 2\tau$, the same for all modes (lazy behavior).
@@ -759,7 +759,7 @@ Describe the resulting two-phase dynamics in words: what happens first, and what
 ^ex-td-5b
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986683229}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986683229}@@tone="neutral"++} collapse="closed"}
 
 At initialization, $w_{\alpha}(0) \sim \sigma^{2} \ll \tau = \sigma^{2}\sqrt{n}$ (since $\sqrt{n}\gg 1$). So initially all modes satisfy $|w_{\alpha}| \ll \tau$.
 
@@ -777,14 +777,14 @@ In summary: the network starts in a lazy phase where all modes grow uniformly (a
 
 :::
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986683229}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986683229}@@tone="amber"}++}
 **Exercise 6.3 (Mode-by-mode transition).** Not all modes cross the threshold $\tau$ at the same time: which modes cross it first? Explain why this means that a single network can simultaneously have some modes in the rich regime and others still in the lazy regime.
 :::
 
 ^ex-td-5c
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986683229}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986683229}@@tone="neutral"++} collapse="closed"}
 
 In the lazy phase, each mode grows as $w_{\alpha}(t) \approx s_{\alpha}(1 - e^{-2\tau t})$. At any given time, $w_{\alpha}(t) \propto s_{\alpha}$: **modes with larger $s_{\alpha}$ are larger**. Since the lazy-to-rich transition occurs when $|w_{\alpha}| \sim \tau$, the time for mode $\alpha$ to cross the threshold satisfies:
 
@@ -810,7 +810,7 @@ $$
 
 where $\Sigma(\theta)$ is the covariance of the stochastic gradient noise and $\eta$ is the learning rate.
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986688991}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986688991}@@tone="amber"}++}
 **Exercise 7.1 (Boltzmann equilibrium).** The probability density $p(\theta, t)$ of the parameters evolves according to the Fokker–Planck equation:
 
 $$
@@ -829,7 +829,7 @@ $$
 ^ex-td-6a
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986688991}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986688991}@@tone="neutral"++} collapse="closed"}
 
 Setting $\mathbf{j}= 0$ (thermal equilibrium) with isotropic noise $\Sigma = \sigma^{2} I$:
 
@@ -863,7 +863,7 @@ This is the Boltzmann distribution with inverse temperature $\beta = 2/(\eta\sig
 
 :::
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986688991}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986688991}@@tone="amber"}++}
 **Exercise 7.2 (Temperature and flatness).** The ratio $\frac{2}{\eta \sigma^{2}}$ plays the role of an inverse temperature $\beta$. Interpret what happens to the equilibrium distribution when:
 
 - $\eta$ is very small (low temperature)
@@ -875,7 +875,7 @@ Which regime favors flatter minima, and why might this be beneficial for general
 ^ex-td-6b
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986688991}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986688991}@@tone="neutral"++} collapse="closed"}
 
 The effective temperature is $T = \eta\sigma^{2}/2$.
 
@@ -887,14 +887,14 @@ The effective temperature is $T = \eta\sigma^{2}/2$.
 
 :::
 
-:::callout {title="Exercise" tone="blue"}
+:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986688991}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986688991}@@tone="amber"}++}
 **Exercise 7.3 (Anisotropic noise).** In practice, SGD noise is **not** isotropic: $\Sigma(\theta)$ depends on both the loss landscape and the data. Without solving anything, explain qualitatively why anisotropic noise can introduce an implicit bias that goes beyond what the loss function $\mathcal{L}$ alone would select. Specifically, why might SGD preferentially escape sharp directions of the loss while remaining stable along flat directions?
 :::
 
 ^ex-td-6c
 
 
-:::callout {title="Solution" tone="green" collapse="closed"}
+:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986688991}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986688991}@@tone="neutral"++} collapse="closed"}
 
 When $\Sigma(\theta)$ is anisotropic, the noise strength varies by direction. The Fokker-Planck current becomes:
 

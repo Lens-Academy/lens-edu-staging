@@ -12,7 +12,7 @@ provenance_recorded_at: '2026-08-17'
 
 #### Text
 content::
-:::callout {title="What you'll learn" tone="green"}
+:::callout {title="What you'll learn" {--{"author":"Elias's AI","timestamp":1786986648678}@@tone="green"}--}{++{"author":"Elias's AI","timestamp":1786986648678}@@tone="neutral"}++}
 
 The main goal is for the students to be able to intuitively reason about different phases in model development, to understand what affordances each phase gives us w.r.t. alignment, and to gain the confidence to read current research on empirical alignment. They will end the day having learnt about the main state of the art alignment methods and with a rough idea how they all fit together.
 

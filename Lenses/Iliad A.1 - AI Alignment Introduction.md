@@ -12,7 +12,7 @@ provenance_recorded_at: '2026-08-17'
 
 #### Text
 content::
-:::callout {title="What you'll learn" tone="green"}
+:::callout {title="What you'll learn" {--{"author":"Elias's AI","timestamp":1786986645292}@@tone="green"}--}{++{"author":"Elias's AI","timestamp":1786986645292}@@tone="neutral"}++}
 
 * understand the basic decomposition of risks into AI misalignment, misuse, power grabs, and others;  
 * can explain different alignment targets like coherent extrapolated volition, intent alignment, or AI that follows a constitution;  
