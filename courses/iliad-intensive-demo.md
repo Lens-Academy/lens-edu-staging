@@ -8,7 +8,7 @@ partner-logo: iliad-lockup.svg
 partner-logo-small: iliad-small.svg
 partner-url: https://www.iliad.ac/
 ---
-# Module: [[../modules/Iliad A - Alignment|A — Alignment]]
+# Module: [[../modules/Iliad A.1 - AI Alignment Introduction|A — Alignment]]
 
 # Module: [[../modules/Iliad B - Learning|B — Learning]]
 
