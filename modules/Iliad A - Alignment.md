@@ -7,57 +7,70 @@ title: "A — Alignment"
 # Lens: A.1 AI Alignment Introduction
 source:: [[../Lenses/Iliad A.1 - AI Alignment Introduction]]
 
-# Lens: {++{"author":"Luc's AI","timestamp":1786984636868}@@Coherent Extrapolated Volition
+# Lens: {++{"author":"Luc's AI","timestamp":1786985198132}@@Coherent Extrapolated Volition
 source:: [[../Lenses/yudkowsky-coherent-extrapolated-volition]]
 optional:: true
+hide:: true
 
 # Lens: Clarifying AI alignment
 source:: [[../Lenses/christiano-clarifying-ai-alignment]]
 optional:: true
+hide:: true
 
 # Lens: Claude's new constitution
 source:: [[../Lenses/anthropic-claudes-new-constitution]]
 optional:: true
+hide:: true
 
 # Lens: Corrigibility
 source:: [[../Lenses/lesswrong-corrigibility]]
 optional:: true
+hide:: true
 
 # Lens: Training stories
 source:: [[../Lenses/evhub-how-do-we-become-confident-in-the-safety-of-a-machine-learning-system]]
 optional:: true
+hide:: true
 
 # Lens: Specification gaming
 source:: [[../Lenses/krakovna-specification-gaming-the-flip-side-of-ai-ingenuity]]
 optional:: true
+hide:: true
 
 # Lens: Goal misgeneralisation
 source:: [[../Lenses/shah-how-undesired-goals-can-arise-with-correct-rewards]]
 optional:: true
+hide:: true
 
 # Lens: Soft inductive biases
 source:: [[../Lenses/wilson-deep-learning-is-not-so-mysterious-or-different]]
 optional:: true
+hide:: true
 
 # Lens: Will humans build goal-directed agents?
 source:: [[../Lenses/shah-will-humans-build-goal-directed-agents]]
 optional:: true
+hide:: true
 
 # Lens: The Basic AI Drives
 source:: [[../Lenses/omohundro-the-basic-ai-drives]]
 optional:: true
+hide:: true
 
 # Lens: Core views on AI safety
 source:: [[../Lenses/anthropic-core-views-on-ai-safety-when-why-what-and-how]]
 optional:: true
+hide:: true
 
 # Lens: Model Organisms of Misalignment
 source:: [[../Lenses/evhub-model-organisms-of-misalignment-the-case-for-a-new-pillar-of-alignment-research]]
 optional:: true
+hide:: true
 
 # Lens: The Rocket Alignment Problem
 source:: [[../Lenses/yudkowsky-the-rocket-alignment-problem-gg9a4y8rewktle3tn]]
 optional:: true
+hide:: true
 
 # Lens: ++}A.2 Alignment in Practice
 source:: [[../Lenses/Iliad A.2 - Alignment in Practice]]
