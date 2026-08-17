@@ -1152,7 +1152,7 @@ $$
 m^{2} + (m-r_{A})(m-r_{B}).
 $$
 
-::::callout {title="Hint" tone="neutral" collapse="closed"}
+:::callout {title="Hint" tone="neutral" collapse="closed"}
 
 The following is a guide to one possible approach.
 
