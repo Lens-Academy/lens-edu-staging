@@ -11,7 +11,7 @@ Use same-Lens links when a learner should jump to another part of this page. Lin
 
 Try them:
 
-- [[#Heading targets|Jump to a heading]]
+- [[#^header-target-id|Jump to a heading]]
 - [[#^plain-target|Jump to a paragraph]]
 - [[#^callout-target|Jump to a whole callout]]
 
