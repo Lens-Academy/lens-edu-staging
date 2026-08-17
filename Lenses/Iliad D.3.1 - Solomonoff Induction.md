@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786974286725}@@---
+---
 id: 'd862c23e-e3fd-4196-a067-b27e36a3d29c'
 title: "D.3.1 Solomonoff Induction"
 tldr: "How an idealized agent should predict. A Bayesian mixture over a countable class of computable hypotheses learns to predict any sequence, with total error bounded by the description length of the truth -- a formal Occam's razor."
@@ -990,4 +990,3 @@ D. E. Knuth (1973). *The Art of Computer Programming, Volume I: Fundamental Algo
 
 
 ^bib-knuth-73a
-++}

@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786974283907}@@---
+---
 id: '42d09889-4fb8-4c6c-85dd-96119cee086a'
 title: "D.3.2 AIXI"
 tldr: "Exploring the Bayesian optimal policy for history based reinforcement learning."
@@ -1878,4 +1878,3 @@ Jan Leike and Marcus Hutter (2015). [*Bad Universal Priors and Notions of Optima
 [^4]: The standard name is *absolute continuity* of $P$ with respect to $Q$, written $P \ll Q$.
 
 [^5]: If the true environment is $\mu$ then we don't care about the behaviour of the Bayesian agent on histories that have $\mu^{\pi}$-probability zero: such histories will never be observed anyway.
-++}

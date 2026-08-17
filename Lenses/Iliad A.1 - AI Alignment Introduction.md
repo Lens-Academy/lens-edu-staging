@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786974285905}@@---
+---
 id: '29cd9f81-1776-43e2-a522-c363e9d490b7'
 title: "A.1 AI Alignment Introduction"
 tldr: "Current Iliad Intensive worksheet for AI Alignment Introduction."
@@ -334,4 +334,3 @@ The first **2.5 hours** of this day are devoted to welcoming the participants an
 First, explain to the students that this is mostly a conceptual day: The aim is to understand a basic decomposition of the problem of safe AI into specifying an alignment target  and solving the technical alignment problem, which can itself decompose further. We also discuss the basic role that goal-directedness plays in the risks, and basic views on the risk landscape. The aim is that after this day, all students are broadly on the same page about what the alignment problem is, and have some basic impression of how the rest of the course relates to the problem.
 
 :::
-++}

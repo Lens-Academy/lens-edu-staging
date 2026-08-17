@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786974285468}@@---
+---
 id: '1f549b8c-d6bc-444a-b6a8-63a3ff6509a7'
 title: "D.1.1 Preferences to Rewards"
 tldr: "Building from preferences and a minimal set of axioms to a utility function expressible as a sum of discounted rewards: the familiar framing in reinforcement learning."
@@ -1082,4 +1082,3 @@ Martha White (2017). *Unifying Task Specification in Reinforcement Learning*. Pr
 
 
 ^bib-white2017unifying
-++}

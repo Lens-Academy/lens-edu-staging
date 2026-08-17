@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786974285030}@@---
+---
 id: 'd72a03aa-8b16-450c-98f7-a6a31cfaa526'
 title: "B.4 Training Dynamics"
 tldr: "Exact learning dynamics of deep linear networks -- loss-landscape geometry, balanced gradient flow and the NTK, the rich (saddle-to-saddle) and lazy regimes, their mixed unification, and the implicit bias of SGD noise."
@@ -1016,4 +1016,3 @@ Tu, Aranguri, and Jacot (2024). [*Mixed Dynamics In Linear Networks: Unifying th
 
 
 ^bib-tu2024
-++}

@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786974284680}@@---
+---
 id: '3a8d0c5e-1c86-42bf-baf4-37c725dfab0f'
 title: "A.2 Alignment in Practice"
 tldr: "Current Iliad Intensive worksheet for Alignment in Practice."
@@ -259,4 +259,3 @@ Post-deployment usage analysis
 
 * [Clio: Privacy-Preserving Insights into Real-World AI Use](https://arxiv.org/abs/2412.13678)
 * [Anthropic Economic Index](https://www.anthropic.com/research/economic-index-primitives)
-++}

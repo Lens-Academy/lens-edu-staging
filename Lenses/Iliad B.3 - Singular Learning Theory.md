@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786974257859}@@---
+---
 id: 'e3aefe7c-dd33-4c8f-a292-09d6408fc2a5'
 title: "B.3 Singular Learning Theory"
 tldr: "Singular learning theory (SLT) places degeneracy as a core part of understanding how neural networks learn. We cover the parameter-function map, the meaning of degeneracy through the local learning coefficient, to Watanabe's free energy formula and Bayesian phase transitions."
@@ -3062,4 +3062,3 @@ Adrian K. Xu (2021). [*Smooth relaxation preserving Turing machines*](https://ar
 
 
 ^bib-xu2021
-++}

@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786974284335}@@---
+---
 id: 'e3409f24-af9d-4389-8e58-29c2c2a9a736'
 title: "D.1.2 Reinforcement Learning"
 tldr: "The Bellman equations and what follows from them: the existence of optimal policies, the policy improvement theorem, the rate of convergence of Bellman updates, and the convergence of Q-learning."
@@ -1215,4 +1215,3 @@ John N. Tsitsiklis (1994). *Asynchronous Stochastic Approximation and Q-Learning
 
 
 [^1]: Noting that $\cS \times \cA \times \cS$ is a finite set, this implies that the rewards are bounded above by $R_{\text{max}}= \max_{s,a,s'}R(s,a,s')$.
-++}

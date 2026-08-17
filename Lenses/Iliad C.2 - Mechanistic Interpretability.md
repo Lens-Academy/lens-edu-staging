@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1786974286379}@@---
+---
 id: '574f8faf-3478-4546-9b8a-ad7a6fb29b0d'
 title: "C.2 Mechanistic Interpretability"
 tldr: "Current Iliad Intensive worksheet for Mechanistic Interpretability."
@@ -140,4 +140,3 @@ Content:
 * Natural language autoencoders (verbalizer + reconstructor)
 * Open problems in mech interp (Sharkey et al.): decomposition, description, validation, automation, application
 * Critiques of mechanistic interpretability (discussion of critical papers)
-++}
