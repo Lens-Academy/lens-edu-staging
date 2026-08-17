@@ -147,14 +147,54 @@ Do not confuse local and global minima.
 
 Review the [warning](#global-warning).
 
-### Callouts containing collapsible material
+### {--{"author":"Elias's AI","timestamp":1786967080081}@@Callouts containing collapsible material--}{++{"author":"Elias's AI","timestamp":1786967080081}@@Nested callouts and collapses++}
 
-Callouts can contain existing inline annotations. This keeps the outer teaching block visible while hiding optional detail:
+Callouts can contain {--{"author":"Elias's AI","timestamp":1786967080081}@@existing --}inline{--{"author":"Elias's AI","timestamp":1786967080081}@@ annotations. This keeps the outer teaching block visible while hiding optional detail:--}{++{"author":"Elias's AI","timestamp":1786967080081}@@ collapses:++}
 
 :::callout {title="Exercise with optional help" tone="blue"}
 Give an example of a function with multiple local minima.
 
 If you need help, reveal this :collapse[Try sketching a non-convex polynomial with more than one valley.]
+:::{++{"author":"Elias's AI","timestamp":1786967080081}@@
+
+For one block inside another, give the outer block four colons and the inner block three. Here is a block collapse inside a callout:
+
+```md
+::::callout {title="Exercise" tone="blue"}
+Sketch a non-convex function.
+
+:::collapse
+Try a polynomial with more than one valley.
 :::
+::::
+```
+
+::::callout {title="Exercise" tone="blue"}
+Sketch a non-convex function.
+
+:::collapse
+Try a polynomial with more than one valley.
+:::
+::::
+
+The same fence rule allows a callout inside a callout:
+
+```md
+::::callout {title="Exercise" tone="blue"}
+Classify the point.
+
+:::callout {title="Hint" tone="amber" collapse="closed"}
+Compare it only with nearby points first.
+:::
+::::
+```
+
+::::callout {title="Exercise" tone="blue"}
+Classify the point.
+
+:::callout {title="Hint" tone="amber" collapse="closed"}
+Compare it only with nearby points first.
+:::
+::::++}
 
 [^1]: Hi. This is a footnote added by the author of the article.
