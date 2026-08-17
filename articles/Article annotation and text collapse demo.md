@@ -148,23 +148,23 @@ Do not confuse local and global minima.
 
 Review the [warning](#global-warning).
 
-### Nested callouts and collapses
+### Nested callouts and {--{"author":"Elias's AI","timestamp":1786967882964}@@collapses--}{++{"author":"Elias's AI","timestamp":1786967882964}@@hidden sections++}
 
-Callouts can contain inline collapses:
+Callouts can contain inline {--{"author":"Elias's AI","timestamp":1786967882964}@@collapses:--}{++{"author":"Elias's AI","timestamp":1786967882964}@@hidden text:++}
 
 :::callout {title="Exercise with optional help" tone="blue"}
 Give an example of a function with multiple local minima.
 
-If you need help, reveal this :collapse[Try sketching a non-convex polynomial with more than one valley.]
+If you need help, reveal this {--{"author":"Elias's AI","timestamp":1786967882964}@@:collapse[Try--}{++{"author":"Elias's AI","timestamp":1786967882964}@@:hide[Try++} sketching a non-convex polynomial with more than one valley.]
 :::
 
-For one block inside another, give the outer block four colons and the inner block three. Here is a block collapse inside a callout:
+For one block inside another, give the outer block four colons and the inner block three. Here is a {--{"author":"Elias's AI","timestamp":1786967882964}@@block collapse--}{++{"author":"Elias's AI","timestamp":1786967882964}@@hidden block++} inside a callout:
 
 ```md
 ::::callout {title="Exercise" tone="blue"}
 Sketch a non-convex function.
 
-:::collapse
+{--{"author":"Elias's AI","timestamp":1786967882964}@@:::collapse--}{++{"author":"Elias's AI","timestamp":1786967882964}@@:::hide++}
 Try a polynomial with more than one valley.
 :::
 ::::
@@ -173,7 +173,7 @@ Try a polynomial with more than one valley.
 ::::callout {title="Exercise" tone="blue"}
 Sketch a non-convex function.
 
-:::collapse
+{--{"author":"Elias's AI","timestamp":1786967882964}@@:::collapse--}{++{"author":"Elias's AI","timestamp":1786967882964}@@:::hide++}
 Try a polynomial with more than one valley.
 :::
 ::::
