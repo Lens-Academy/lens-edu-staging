@@ -1,5 +1,5 @@
 ---
-title: "Article annotation and text {--{"author":"Elias's AI","timestamp":1786967831418}@@collapse--}{++{"author":"Elias's AI","timestamp":1786967831418}@@hiding++} demo"
+title: "Article annotation and text hiding demo"
 author: Lens Academy
 published: 2026-06-16
 source_url: https://editor.lensacademy.org/24abc9c0/Lens-Edu/articles/Article-annotation-and-text-collapse-demo.md
@@ -12,19 +12,18 @@ Add discussion note here:
 
 %%
 
-This article demos Lens article {--{"author":"Elias's AI","timestamp":1786967834711}@@annotations--}{++{"author":"Elias's AI","timestamp":1786967834711}@@annotations, hidden text,++} and general course callouts.
+This article demos Lens article annotations, hidden text, and general course callouts.
 
 ## Existing article annotations
 
-Use {--{"author":"Elias's AI","timestamp":1786967838011}@@`:collapse[...]`--}{++{"author":"Elias's AI","timestamp":1786967838011}@@`:hide[...]`++} for a short inline omission:
+Use `:hide[...]` for a short inline omission:
 
-See for example this: {--{"author":"Elias's AI","timestamp":1786967838011}@@:collapse[this--}{++{"author":"Elias's AI","timestamp":1786967838011}@@:hide[this++} text will be {--{"author":"Elias's AI","timestamp":1786967838011}@@collapsed--}{++{"author":"Elias's AI","timestamp":1786967838011}@@hidden++} by default, but can be expanded by the user] isn't that pretty nice?
+See for example this: :hide[this text will be hidden by default, but can be expanded by the user] isn't that pretty nice?
 
-Use {--{"author":"Elias's AI","timestamp":1786967860486}@@`:::collapse`--}{++{"author":"Elias's AI","timestamp":1786967860486}@@`:::hide`++} for one or more omitted paragraphs:
+Use `:::hide` for one or more omitted paragraphs:
 
-{--{"author":"Elias's AI","timestamp":1786967860486}@@:::collapse 
---}{++{"author":"Elias's AI","timestamp":1786967860486}@@:::hide
-++}This entire paragraph will be {--{"author":"Elias's AI","timestamp":1786967860486}@@collapsed--}{++{"author":"Elias's AI","timestamp":1786967860486}@@hidden++} by default,
+:::hide
+This entire paragraph will be hidden by default,
 
 but can be opened by the user.
 :::
@@ -48,7 +47,7 @@ This is a third.
 This is rendered on the same line as the third.
 :::
 
-These annotations can be nested. For example, here is {--{"author":"Elias's AI","timestamp":1786967847937}@@collapsed--}{++{"author":"Elias's AI","timestamp":1786967847937}@@hidden++} text {--{"author":"Elias's AI","timestamp":1786967847937}@@:collapse[with--}{++{"author":"Elias's AI","timestamp":1786967847937}@@:hide[with++} a note inside: :note[This note explains why we {--{"author":"Elias's AI","timestamp":1786967847937}@@collapsed--}{++{"author":"Elias's AI","timestamp":1786967847937}@@hid++} this bit of text.]]
+These annotations can be nested. For example, here is hidden text :hide[with a note inside: :note[This note explains why we hid this bit of text.]]
 
 ## General callouts
 
@@ -173,7 +172,7 @@ Try a polynomial with more than one valley.
 ::::callout {title="Exercise" tone="blue"}
 Sketch a non-convex function.
 
-{--{"author":"Elias's AI","timestamp":1786967882964}@@:::collapse--}{++{"author":"Elias's AI","timestamp":1786967882964}@@:::hide++}
+:::hide
 Try a polynomial with more than one valley.
 :::
 ::::
