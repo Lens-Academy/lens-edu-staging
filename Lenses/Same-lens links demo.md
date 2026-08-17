@@ -15,7 +15,7 @@ Try them:
 - [[#^plain-target|Jump to a paragraph]]
 - [[#^callout-target|Jump to a whole callout]]
 
-\### Block targets $
+\### Block targets
 
 Add a stable marker at the end of a paragraph:
 
