@@ -12,7 +12,7 @@ provenance_recorded_at: '2026-08-17'
 
 #### Text
 content::
-:::callout {title="What you'll learn" {--{"author":"Elias's AI","timestamp":1786986758218}@@tone="green"}--}{++{"author":"Elias's AI","timestamp":1786986758218}@@tone="neutral"}++}
+:::callout {title="What you'll learn" tone="neutral"}
 
 - Formalize the agent-environment interaction, value functions, and the Bayes-optimal policy that defines AIXI.
 - Derive the explicit expectimax form of AIXI.
@@ -138,14 +138,14 @@ $$
 
 \## 0. Properties of Measures
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986758218}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986758218}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 0.1 (Factorization) [05].** Show that $\nu^{\pi}(\text{æ}_{1:t}) = \pi(\text{æ}_{1:t}) \cdot \nu(\text{æ}_{1:t})$.
 :::
 
 ^prob-factorization
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986758218}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986758218}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Expanding the definition: $\nu^{\pi}(\text{æ}_{1:t}) = \prod_{k=1}^{t} \pi(a_{k} \mid \text{æ}_{<k})\, \nu(e_{k} \mid \text{æ}_{<k}a_{k}) = \underbrace{\prod_{k=1}^t \pi(a_k \mid \text{æ}_{<k})}_{\pi(\text{æ}_{1:t})}\cdot \underbrace{\prod_{k=1}^t \nu(e_k \mid \text{æ}_{<k} a_k)}_{\nu(\text{æ}_{1:t})}$.
 
@@ -153,14 +153,14 @@ Key observation: $\pi(\text{æ}_{1:t})$ is the same regardless of the environmen
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986758218}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986758218}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 0.2 (Chain rule) [05].** Show that $\nu(\text{æ}_{1:t}) = \nu(\text{æ}_{<t}) \cdot \nu(e_{t} \mid \text{æ}_{<t}a_{t})$.
 :::
 
 ^prob-chain-rule
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986758218}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986758218}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 From the definition $\nu(\text{æ}_{1:t}) = \prod_{k=1}^{t} \nu(e_{k} \mid \text{æ}_{<k}a_{k})$, split off the last factor:
 
@@ -170,14 +170,14 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986758218}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986758218}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 0.3 (∗) (Marginalizing percepts) [03].** Show that $\sum_{e_t}\nu^{\pi}(a_{t} e_{t} \mid \text{æ}_{<t}) = \pi(a_{t} \mid \text{æ}_{<t})$.
 :::
 
 ^prob-marginal-percepts
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986758218}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986758218}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 From [[#^def-interaction|Theorem 0.4]], the one-step interaction is $\nu^{\pi}(a_{t} e_{t} \mid \text{æ}_{<t}) = \pi(a_{t} \mid \text{æ}_{<t})\, \nu(e_{t} \mid \text{æ}_{<t}a_{t})$. Summing over $e_{t}$:
 
@@ -189,7 +189,7 @@ Interpretation: after summing out the environment's response, only the agent's a
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986758218}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986758218}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 0.4 (∗) (Deterministic interaction measure) [05].** Let $\pi$ be a deterministic policy, i.e. at each history $\text{æ}_{<k}$ there is a unique action $a^{*}_{k}$ with $\pi(a^{*}_{k} \mid \text{æ}_{<k}) = 1$. Show that, provided $\text{æ}_{i:j}$ is consistent with $\pi$ (i.e. $a_{k} = a^{*}_{k}$ for every $k \in \{i, \ldots, j\}$):
 
 $$
@@ -202,7 +202,7 @@ i.e. on $\pi$-consistent futures the interaction measure reduces to the environm
 ^prob-det-interaction
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986758218}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986758218}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Since $\pi$ is deterministic, $\pi(a_{k} \mid \text{æ}_{<k}) = \llbracket a_{k} = a^{*}_{k} \rrbracket$. By hypothesis $\text{æ}_{i:j}$ is $\pi$-consistent, so every such bracket equals $1$. From [[#^def-interaction|Theorem 0.4]]:
 
@@ -214,7 +214,7 @@ where the last equality is the natural segment extension of $\nu(\text{æ}_{1:t}
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986758218}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986758218}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 0.5 [05].** (General chain rule for $\nu^{\pi}$) Show that for any $p \leq q \leq r$:
 
 $$
@@ -225,7 +225,7 @@ $$
 ^prob-chain-rule-nupi
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986758218}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986758218}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Split the defining product $\nu^{\pi}(\text{æ}_{p:r}\mid \text{æ}_{<p}) = \prod_{k=p}^{r} \pi(a_{k} \mid \text{æ}_{<k})\, \nu(e_{k} \mid \text{æ}_{<k}a_{k})$ at index $q$:
 
@@ -339,14 +339,14 @@ See ([[#^bib-hutter-24uaibook2|Hutter et al. 2024]]): Chapter 2.7 for Kolmogoro
 
 \## 1. Properties of the Bayesian Mixture
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 1.1 (∗) (Posterior update) [10].** Show that the posterior updates multiplicatively:
 
 $$
 w(\nu \mid \text{æ}_{1:t}) ~=~ w(\nu \mid \text{æ}_{<t}) \frac{\nu(e_{t} \mid \text{æ}_{<t}a_{t})}{\xi(e_{t} \mid \text{æ}_{<t}a_{t})}.
 $$
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Use the definitions of $w(\nu \mid \text{æ}_{1:t})$ and $w(\nu \mid \text{æ}_{<t})$, and apply [[#^prob-chain-rule|Exercise 0.2]].
 
@@ -356,7 +356,7 @@ Use the definitions of $w(\nu \mid \text{æ}_{1:t})$ and $w(\nu \mid \text{æ}_{
 ^prob-posterior-update
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 From the definition: $w(\nu \mid \text{æ}_{1:t}) = w_{\nu} \cdot \nu(\text{æ}_{1:t})/\xi(\text{æ}_{1:t})$ and $w(\nu \mid \text{æ}_{<t}) = w_{\nu} \cdot \nu(\text{æ}_{<t})/\xi(\text{æ}_{<t})$.
 
@@ -370,14 +370,14 @@ where we used the chain rule ([[#^prob-chain-rule|Exercise 0.2]]) for both $\nu$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 1.2 [15].** (One-step predictive distribution of $\xi$) Starting from $\xi(\text{æ}_{1:t}) = \sum_{\nu \in \mathcal{M}}w_{\nu} \nu(\text{æ}_{1:t})$, derive the one-step predictive form:
 
 $$
 \xi(e_{t} \mid \text{æ}_{<t}a_{t}) ~=~ \sum_{\nu \in \mathcal{M}}w(\nu \mid \text{æ}_{<t})\, \nu(e_{t} \mid \text{æ}_{<t}a_{t}).
 $$
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Write $\xi(e_{t} \mid \text{æ}_{<t}a_{t}) = \xi(\text{æ}_{1:t}) / \xi(\text{æ}_{<t})$, expand the numerator, and use [[#^prob-chain-rule|Exercise 0.2]].
 
@@ -387,7 +387,7 @@ Write $\xi(e_{t} \mid \text{æ}_{<t}a_{t}) = \xi(\text{æ}_{1:t}) / \xi(\text{æ
 ^prob-one-step
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 The one-step conditional is the ratio of joint to marginal: $\xi(e_{t} \mid \text{æ}_{<t}a_{t}) := \xi(\text{æ}_{1:t})/\xi(\text{æ}_{<t})$.
 
@@ -399,10 +399,10 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 1.3 (Bounded value) [10].** Show that $V_{\nu}^{\pi,m}(\text{æ}_{<t}) \in [0,1]$ for any $\nu, \pi, m \in \mathbb{N}\cup \{\infty\}, \text{æ}_{<t}$.
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Recall the formula for geometric series: $(1-\gamma)\sum_{k=0}^{n}\gamma^{k} = 1 - \gamma^{n+1}$.
 
@@ -412,7 +412,7 @@ Recall the formula for geometric series: $(1-\gamma)\sum_{k=0}^{n}\gamma^{k} = 1
 ^prob-bounded-value
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Since $r_{k} \in [0,1]$, each discounted reward sum is bounded:
 
@@ -430,14 +430,14 @@ For $m = \infty$: since $0 \leq V_{\nu}^{\pi,m}(\text{æ}_{<t}) \leq 1$ for all 
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 1.4 (∗) [15].** (Multi-step posterior linearity of $\xi^{\pi}$) Extend [[#^prob-one-step|Exercise 1.2]] to multi-step histories: show that for finite $m \geq t$,
 
 $$
 \xi^{\pi}(\text{æ}_{t:m}\mid \text{æ}_{<t}) ~=~ \sum_{\nu \in \mathcal{M}}w(\nu \mid \text{æ}_{<t})\, \nu^{\pi}(\text{æ}_{t:m}\mid \text{æ}_{<t}).
 $$
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Apply the general chain rule ([[#^prob-chain-rule-nupi|Exercise 0.5]]) to $\xi(\text{æ}_{1:m}) = \sum_{\nu} w_{\nu} \nu(\text{æ}_{1:m})$, then use factorization ([[#^prob-factorization|Exercise 0.1]]).
 
@@ -447,7 +447,7 @@ Apply the general chain rule ([[#^prob-chain-rule-nupi|Exercise 0.5]]) to $\xi(\
 ^prob-multi-step-xi
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Start from the definition $\xi(\text{æ}_{1:m}) = \sum_{\nu \in \mathcal{M}}w_{\nu}\, \nu(\text{æ}_{1:m})$. Apply the general chain rule ([[#^prob-chain-rule-nupi|Exercise 0.5]]) to both sides: $\xi(\text{æ}_{1:m}) = \xi(\text{æ}_{<t}) \cdot \xi(\text{æ}_{t:m}\mid \text{æ}_{<t})$ and $\nu(\text{æ}_{1:m}) = \nu(\text{æ}_{<t}) \cdot \nu(\text{æ}_{t:m}\mid \text{æ}_{<t})$. Dividing by $\xi(\text{æ}_{<t})$:
 
@@ -467,14 +467,14 @@ $$
 
 Recall that $V_{\nu}^{*}(\text{æ}_{<t}) := \sup_{\pi} V_{\nu}^{\pi}(\text{æ}_{<t})$ is defined as a supremum over all policies. In general, a supremum need not be achieved: for example, $\sup_{x \in (0,1)}x = 1$, but no $x \in (0,1)$ attains this value. This problem shows that in our setting, the supremum *is* attained, so an optimal policy $\pi_{\nu}^{*}$ with $V_{\nu}^{\pi_\nu^*}= V_{\nu}^{*}$ exists.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 2.1 [05].** Consider a single time step. Given history $\text{æ}_{<t}$ and a function $Q : \mathcal{A} \to \mathbb{R}$, show that $\sup_{\pi} \sum_{a \in \mathcal{A}}\pi(a \mid \text{æ}_{<t})\, Q(a) = \max_{a \in \mathcal{A}}Q(a)$, and that the supremum is attained by the deterministic policy that places all probability on an action achieving the maximum.
 :::
 
 ^prob-sup-eq-max
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Let $a^{*} \in \operatorname*{arg\,max}_{a' \in \mathcal{A}}Q(a')$, which exists because $\mathcal{A}$ is finite. So $Q(a^{*}) = \max_{a'}Q(a')$.
 
@@ -486,14 +486,14 @@ Combining: $\sup_{\pi} \sum_{a} \pi(a) Q(a) = Q(a^{*}) = \max_{a'}Q(a')$, attain
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 2.2 (Bellman equation) [15].** Show that for finite $m$ and $t \leq m$:
 
 $$
 V_{\nu}^{\pi,m}(\text{æ}_{<t}) ~=~ \sum_{\text{æ}'_t}\nu^{\pi}(\text{æ}'_{t} \mid \text{æ}_{<t}) \Big[(1-\gamma)\, r'_{t} ~+~ \gamma\, V_{\nu}^{\pi,m}(\text{æ}_{<t}\, \text{æ}'_{t})\Big],
 $$
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Use the general chain rule ([[#^prob-chain-rule-nupi|Exercise 0.5]]) to peel off the *first* step,
 
@@ -509,7 +509,7 @@ Break up the sum $\sum_{\text{æ}_{t:m}}= \sum_{\text{æ}_t}\sum_{\text{æ}_{t+1
 ^prob-bellman-finite
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 *Step 1: Factor the future.* Write $\text{æ}'_{t:m}= \text{æ}'_{t}\, \text{æ}'_{t+1:m}$: $\nu^{\pi}(\text{æ}'_{t:m}\mid \text{æ}_{<t}) = \nu^{\pi}(\text{æ}'_{t} \mid \text{æ}_{<t}) \cdot \nu^{\pi}(\text{æ}'_{t+1:m}\mid \text{æ}_{<t}\, \text{æ}'_{t})$.
 
@@ -535,14 +535,14 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 2.3 (∗) (Backward induction) [20].** Using the Bellman equation from [[#^prob-bellman-finite|Exercise 2.2]] and [[#^prob-sup-eq-max|Exercise 2.1]], show by backward induction on $t = m, m-1, \ldots, 1$ that for each finite $m$, a deterministic optimal policy exists.
 :::
 
 ^prob-backward-induction
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 We induct on $t = m, m-1, \ldots, 1$, showing that for every history $\text{æ}_{<t}$, a deterministic policy achieves $V_{\nu}^{*,m}(\text{æ}_{<t})$.
 
@@ -564,7 +564,7 @@ where $Q(a'_{t}) := \sum_{e'_t}\nu(e'_{t} \mid \text{æ}_{<t}a'_{t}) [(1-\gamma)
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 2.4 (Bellman optimality equation) [10].** Using [[#^prob-backward-induction|Exercise 2.3]], show that for finite $m$:
 
 $$
@@ -577,7 +577,7 @@ where $e_{t}' = o_{t}' r_{t}'$ and $\text{æ}'_{t} = a'_{t} e'_{t}$.
 ^prob-bellman-opt
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 By [[#^prob-backward-induction|Exercise 2.3]], a deterministic optimal policy $\pi^{*}_{\nu}$ exists with $V_{\nu}^{\pi^*_\nu,m}= V_{\nu}^{*,m}$. Substituting $\pi = \pi^{*}_{\nu}$ into the Bellman equation from [[#^prob-bellman-finite|Exercise 2.2]] (using $V_{\nu}^{\pi^*_\nu,m}= V_{\nu}^{*,m}$ on both sides):
 
@@ -605,10 +605,10 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 2.5 (∗) [15].** (Existence of $V_{\nu}^{*}$) Show that the pointwise limit $V_{\nu}^{*}(\text{æ}_{<t}) := \lim_{m \to \infty}V_{\nu}^{*,m}(\text{æ}_{<t})$ exists for all histories $\text{æ}_{<t}$.
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Show $V_{\nu}^{*,m+1}(\text{æ}_{<t}) \geq V_{\nu}^{*,m}(\text{æ}_{<t})$ by expanding $V_{\nu}^{*,m+1}$. Use this and [[#^prob-bounded-value|Exercise 1.3]] and [Monotone Convergence Theorem](https://en.wikipedia.org/wiki/Monotone_convergence_theorem) to obtain the result.
 
@@ -618,7 +618,7 @@ Show $V_{\nu}^{*,m+1}(\text{æ}_{<t}) \geq V_{\nu}^{*,m}(\text{æ}_{<t})$ by exp
 ^prob-inf-horizon
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986761211}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986761211}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 We show $V_{\nu}^{*,m+1}(\text{æ}_{<t}) \geq V_{\nu}^{*,m}(\text{æ}_{<t})$ for all $\text{æ}_{<t}$. Since $V_{\nu}^{*,m+1}= \sup_{\pi} V_{\nu}^{\pi,m+1}$, it suffices to show $V_{\nu}^{\pi,m+1}(\text{æ}_{<t}) \geq V_{\nu}^{\pi,m}(\text{æ}_{<t})$ for every $\pi$. Expanding the definition:
 
@@ -638,7 +638,7 @@ Since $V_{\nu}^{*,m}(\text{æ}_{<t})$ is non-decreasing in $m$ and bounded in $[
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 2.6 (Infinite-horizon Bellman optimality equation) [10].** Show that the Bellman optimality equation ([[#^prob-bellman-opt|Exercise 2.4]]) extends to $m = \infty$:
 
 $$
@@ -649,7 +649,7 @@ $$
 ^prob-inf-bellman-opt
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 By [[#^prob-bellman-opt|Exercise 2.4]], for every finite $m$:
 
@@ -665,7 +665,7 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 2.7 (∗) (Optimal policy for infinite horizon) [25].** Show that a deterministic policy $\pi_{\nu}^{*}$ exists achieving $V_{\nu}^{\pi_\nu^*}(\text{æ}_{<t}) = V_{\nu}^{*}(\text{æ}_{<t})$ for all $\text{æ}_{<t}$.
 
 *Approach:*
@@ -684,7 +684,7 @@ $$
 ^prob-inf-opt-policy
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 *Step 1: Define the greedy policy.* For each history $\text{æ}_{<t}$, let
 
@@ -746,27 +746,27 @@ $$
 
 \## 3. Dominance of the Bayesian Mixture
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 3.1 [03].** Show that $\xi(\text{æ}_{<t}) \geq w_{\nu} \cdot \nu(\text{æ}_{<t})$ for every $\nu \in \mathcal{M}$.
 :::
 
 ^prob-auto1
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 $\xi(\text{æ}_{<t}) = \sum_{\nu' \in \mathcal{M}}w_{\nu'}\nu'(\text{æ}_{<t}) \geq w_{\nu} \nu(\text{æ}_{<t})$.
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 3.2 [10].** Conclude that $\xi^{\pi}(\text{æ}_{1:m}) \geq w_{\nu} \cdot \nu^{\pi}(\text{æ}_{1:m})$ for any $\nu \in \mathcal{M}$ and any policy $\pi$.
 :::
 
 ^prob-auto2
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 By [[#^prob-factorization|Exercise 0.1]]: $\xi^{\pi}(\text{æ}_{1:m}) = \pi(\text{æ}_{1:m}) \cdot \xi(\text{æ}_{1:m}) \geq \pi(\text{æ}_{1:m}) \cdot w_{\nu} \nu(\text{æ}_{1:m}) = w_{\nu} \cdot \nu^{\pi}(\text{æ}_{1:m})$.
 
@@ -774,14 +774,14 @@ By [[#^prob-factorization|Exercise 0.1]]: $\xi^{\pi}(\text{æ}_{1:m}) = \pi(\tex
 
 \## 4. Properties of $V_{\xi}$
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 4.1 [15].** Show that for finite $m$:
 
 $$
 V_{\xi}^{\pi,m}(\text{æ}_{<t}) ~=~ \sum_{\nu \in \mathcal{M}}w(\nu \mid \text{æ}_{<t})\, V_{\nu}^{\pi,m}(\text{æ}_{<t}).
 $$
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Use the multi-step posterior linearity of $\xi^{\pi}$ ([[#^prob-multi-step-xi|Exercise 1.4]]).
 
@@ -791,7 +791,7 @@ Use the multi-step posterior linearity of $\xi^{\pi}$ ([[#^prob-multi-step-xi|Ex
 ^prob-linearity-finite
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 By [[#^prob-multi-step-xi|Exercise 1.4]]: $\xi^{\pi}(\text{æ}_{t:m}\mid \text{æ}_{<t}) = \sum_{\nu} w(\nu \mid \text{æ}_{<t})\, \nu^{\pi}(\text{æ}_{t:m}\mid \text{æ}_{<t})$. Multiply both sides by $(1-\gamma)G_{t-1:m}$ and sum over all $\text{æ}_{t:m}$:
 
@@ -816,14 +816,14 @@ $$
 ^thm-dom-conv
 
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 4.2 (∗) (Infinite-horizon linearity) [17].** Show that the result extends to $m = \infty$:
 
 $$
 V_{\xi}^{\pi}(\text{æ}_{<t}) ~=~ \sum_{\nu \in \mathcal{M}}w(\nu \mid \text{æ}_{<t})\, V_{\nu}^{\pi}(\text{æ}_{<t}).
 $$
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Take $m \to \infty$ in the finite-horizon result. You will need [[#^thm-dom-conv|Theorem 4.1]] to exchange limit and sum for countably infinite $\mathcal{M}$.
 
@@ -833,7 +833,7 @@ Take $m \to \infty$ in the finite-horizon result. You will need [[#^thm-dom-conv
 ^prob-linearity-inf
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 The left side converges: $V_{\xi}^{\pi,m}(\text{æ}_{<t}) \to V_{\xi}^{\pi}(\text{æ}_{<t})$ by definition.
 
@@ -853,14 +853,14 @@ $$
 
 [[#^prob-linearity-finite|Exercise 4.1]] shows $V_{\xi}^{\pi}$ is linear in $\nu$. The optimal value $V_{\xi}^{*}$ is only convex: a single policy must perform well across all $\nu \in \mathcal{M}$ simultaneously, rather than being tailored to each $\nu$ individually.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 4.3 (∗) [10].** (Convexity of $V_{\xi}^{*}$) Using [[#^prob-linearity-finite|Exercise 4.1]], show that for finite $m$:
 
 $$
 V_{\xi}^{*,m}(\text{æ}_{<t}) ~\leq~ \sum_{\nu \in \mathcal{M}}w(\nu \mid \text{æ}_{<t})\, V_{\nu}^{*,m}(\text{æ}_{<t}).
 $$
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Apply [[#^prob-linearity-finite|Exercise 4.1]] with $\pi = \pi_{\xi}^{*}$, the Bayes-optimal policy for $\xi$.
 
@@ -870,7 +870,7 @@ Apply [[#^prob-linearity-finite|Exercise 4.1]] with $\pi = \pi_{\xi}^{*}$, the B
 ^prob-convex-opt
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 By [[#^prob-backward-induction|Exercise 2.3]], a deterministic Bayes-optimal policy $\pi_{\xi}^{*}$ exists with $V_{\xi}^{\pi_\xi^*,m}= V_{\xi}^{*,m}$. Applying [[#^prob-linearity-finite|Exercise 4.1]] with $\pi = \pi_{\xi}^{*}$:
 
@@ -886,10 +886,10 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 4.4 (∗) [15].** (Non-linearity of $V_{\xi}^{*}$) Show by example that the inequality in [[#^prob-convex-opt|Exercise 4.3]] can be strict, i.e. $V_{\xi}^{*,m}$ is *not* linear in $\nu$.
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Consider $\mathcal{M} = \{\nu_{0}, \nu_{1}\}$: predicting a two-headed coin vs. a two-tailed coin.
 
@@ -899,7 +899,7 @@ Consider $\mathcal{M} = \{\nu_{0}, \nu_{1}\}$: predicting a two-headed coin vs. 
 ^prob-nonlinear-opt
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 *Coin-flip prediction.* Let $\mathcal{A} = \mathcal{O} = \mathcal{R} = \{0,1\}$, $\mathcal{M} = \{\nu_{0}, \nu_{1}\}$ with $w_{\nu_0}= w_{\nu_1}= \tfrac{1}{2}$, horizon $m = 1$. Environment $\nu_{i}$ always shows outcome $i$, and the agent is rewarded for a correct prediction:
 
@@ -919,7 +919,7 @@ $$
 
 We have specified AIXI only implicitly, as the Bayes-optimal policy $\pi_{\xi}^{*}$ ([[#^def-value|Theorem 0.4]]). We now unroll this definition into the explicit **expectimax** expression: an alternating sequence of maximizations over actions and $\xi$-expectations over percepts.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 5.1 (Expectimax form of AIXI) [20].** By iterating the finite-horizon Bellman optimality equation ([[#^prob-bellman-opt|Exercise 2.4]]), show that
 
 $$
@@ -932,7 +932,7 @@ $$
 a_{t} ~=~ \pi_{\xi}^{*}(\text{æ}_{<t}) ~\in~ \operatorname*{arg\,max}_{a_t}\lim_{m\to\infty}\sum_{e_t}\max_{a_{t+1}}\sum_{e_{t+1}}\cdots \max_{a_m}\sum_{e_m}\xi(e_{t:m}\mid \text{æ}_{<t}\, a_{t:m}) \,G_{t-1:m}
 $$
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Prove the first display by backward induction on $t$ from $m$ down to $1$, using the finite-horizon Bellman optimality equation ([[#^prob-bellman-opt|Exercise 2.4]]) and the return recursion $G_{t-1:m}= r_{t} + \gamma\, G_{t:m}$ ([[#^def-return|Theorem 0.3]]). At each step the leftover reward term $(1-\gamma)\, r_{t}$ is constant in the deeper variables; carry it inward using $\sum_{e_k}\xi(e_{k} \mid \text{æ}_{<k}a_{k}) = 1$ and $c + \max(\cdot) = \max(c + \cdot)$.
 
@@ -942,7 +942,7 @@ Prove the first display by backward induction on $t$ from $m$ down to $1$, using
 ^prob-expectimax-derivation
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986764505}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986764505}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Abbreviate the one-step predictor $\xi_{k} := \xi(e_{k} \mid \text{æ}_{<k}a_{k})$, and write the **expectimax operator** over steps $i, \ldots, j$ as
 
@@ -1029,10 +1029,10 @@ The following problems prove the first two main results: on-policy value converg
 
 The following technical lemma is needed for the on-policy value convergence proof.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986767663}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986767663}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 6.1 (∗) [15].** Let $f : \Omega \to [0, c]$. Show that $\big|\mathbb{E}_{P}[f] - \mathbb{E}_{Q}[f]\big| \leq c \cdot \mathrm{TV}[\Omega](P, Q)$.
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986767663}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986767663}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Define $A^{+} = \{\omega \in \Omega : P(\omega) \geq Q(\omega)\}$ and decompose the expectation difference as a sum over $A^{+}$ and its complement $A^{-} = \Omega \setminus A^{+}$.
 
@@ -1042,7 +1042,7 @@ Define $A^{+} = \{\omega \in \Omega : P(\omega) \geq Q(\omega)\}$ and decompose 
 ^prob-auto3
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986767663}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986767663}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Write out the expectation difference using [[#^def-expectation-p|Theorem 6.2]]:
 
@@ -1111,7 +1111,7 @@ $$
 ^def-events
 
 
-:::callout {title="Note" tone="blue"}
+:::callout {title="Note" {--{"author":"Elias's AI","timestamp":1786986848999}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986848999}@@tone="green"}++}
 
 **Example: Example: a fair coin shows 1 infinitely often.** Let $\mathcal{A} = \mathcal{O} = \{0,1\}$, $\mathcal{R} = \{0\}$, and let $\nu$ be a fair coin that ignores the action: $\nu(o_{t} = 1 \mid \text{æ}_{<t}\, a_{t}) = \tfrac{1}{2}$ for all $\text{æ}_{<t}, a_{t}$. Consider the event $F := \text{``}o_{t} = 1\text{ for infinitely many }t\text{''}$.
 
@@ -1155,7 +1155,7 @@ This set is built from finite-prefix conditions: $\{f_{t} \not\to 0\} = \bigcup_
 ^def-as
 
 
-:::callout {title="Note" tone="blue"}
+:::callout {title="Note" {--{"author":"Elias's AI","timestamp":1786986848999}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986848999}@@tone="green"}++}
 
 **Example: Unpacking "$f_{t} \not\to 0$".** The set $\{f_{t} \not\to 0\}$ looks intimidating, but it reads naturally from the inside out:
 
@@ -1187,7 +1187,7 @@ $$
 
 The proof reduces to a finite-horizon TV bound ([[#^prob-tv-finite|Exercise 7.1]]), a covering argument ([[#^prob-covering-proof|Exercise 7.2]]), and the Blackwell–Dubins theorem ([[#^prob-on-policy-proof|Exercise 7.3]]). The only ingredient we do not prove is Blackwell–Dubins itself, which we state as a given fact.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986767663}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986767663}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 7.1 (Finite-horizon TV bound on value difference) [10].** Using [[#6. Bounding Expectation Differences by Total Variation|Section 6]], show that for finite $m$:
 
 $$
@@ -1200,7 +1200,7 @@ where $\mathcal{H}^{m-t+1}:= (\mathcal{A} \times \mathcal{E})^{m-t+1}$ is the se
 ^prob-tv-finite
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986767663}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986767663}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 We want to apply [[#6. Bounding Expectation Differences by Total Variation|Section 6]]. Identify:
 
@@ -1216,10 +1216,10 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986767663}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986767663}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 7.2 (Covering) [05].** Show that $\xi^{\pi}$ covers $\mu^{\pi}$ ([[#^def-covering|Theorem 7.2]]).
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986767663}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986767663}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Use [[#3. Dominance of the Bayesian Mixture|Section 3]].
 
@@ -1229,7 +1229,7 @@ Use [[#3. Dominance of the Bayesian Mixture|Section 3]].
 ^prob-covering-proof
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986767663}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986767663}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 By [[#3. Dominance of the Bayesian Mixture|Section 3]], $\xi^{\pi}(\text{æ}_{1:m}) \geq w_{\mu} \cdot \mu^{\pi}(\text{æ}_{1:m})$ for all histories and all $m$. So for any event $A$: $\mu^{\pi}(A) > 0 \implies \xi^{\pi}(A) \geq w_{\mu} \cdot \mu^{\pi}(A) > 0$. Hence $\xi^{\pi}$ covers $\mu^{\pi}$.
 
@@ -1248,14 +1248,14 @@ To complete the proof, we need the TV distance on finite segments to vanish $\mu
 
 The proof of Blackwell–Dubins requires the Radon–Nikodym derivative and Levy's martingale convergence theorem: tools from measure theory that are beyond the scope of this sheet. See ([[#^bib-hutter-24uaibook2|Hutter et al. 2024]], Chapter 3.9) for discussion.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986767663}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986767663}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 7.3 (On-policy convergence) [15].** Using [[#^fact-bd|Theorem 7.5]], [[#^prob-tv-finite|Exercise 7.1]] and [[#^prob-covering-proof|Exercise 7.2]], prove [[#^thm-on-policy|Theorem 7.4]].
 :::
 
 ^prob-on-policy-proof
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986767663}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986767663}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 *Step 1: Finite-horizon bound.* By [[#^prob-tv-finite|Exercise 7.1]], for each finite $m$:
 
@@ -1279,10 +1279,10 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986767663}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986767663}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 7.4 (∗) [40].** Prove [[#^fact-bd|Theorem 7.5]].
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986767663}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986767663}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 See ([[#^bib-blackwell-62|Blackwell & Dubins 1962]]). The proof uses the Radon–Nikodym derivative $dP/dQ$, Levy's martingale convergence theorem, and the Lebesgue decomposition. No elementary proof is known that avoids graduate-level measure theory.
 
@@ -1303,10 +1303,10 @@ See ([[#^bib-blackwell-62|Blackwell & Dubins 1962]]). The proof uses the Radon�
 ^thm-cant-be-fooled
 
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986771089}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986771089}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 8.1 [10].** Show that $V_{\xi}^{*}(\text{æ}_{<t}) \geq w(\mu \mid \text{æ}_{<t}) \cdot V_{\mu}^{*}(\text{æ}_{<t})$.
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986771089}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986771089}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Use linearity of $V^{\pi}$ ([[#^prob-linearity-inf|Exercise 4.2]]).
 
@@ -1316,7 +1316,7 @@ Use linearity of $V^{\pi}$ ([[#^prob-linearity-inf|Exercise 4.2]]).
 ^prob-xi-lower-bound
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986771089}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986771089}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 By definition, $V_{\xi}^{*}(\text{æ}_{<t}) = \sup_{\pi} V_{\xi}^{\pi}(\text{æ}_{<t}) \geq V_{\xi}^{\pi'}(\text{æ}_{<t})$ for any policy $\pi'$. By [[#^prob-linearity-inf|Exercise 4.2]] (linearity of $V^{\pi}$ in the environment):
 
@@ -1338,14 +1338,14 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986771089}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986771089}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 8.2 [15].** Show $w(\mu \mid \text{æ}_{<t}) \geq w_{\mu}$ when $\mu$ is deterministic, and combine with [[#^prob-xi-lower-bound|Exercise 8.1]] to prove [[#^thm-cant-be-fooled|Theorem 8.1]].
 :::
 
 ^prob-auto5
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986771089}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986771089}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 From [[#^def-mixture|Theorem 0.1]], the posterior weight is:
 
@@ -1439,10 +1439,10 @@ $$
 
 $X_{\nu,t}$ is a *function* of the history $\text{æ}_{1:t}$, not a number: different histories give different values. Throughout this section and the next, any unqualified statement of the form "$X_{\nu,t}\geq c$" or "$X_{\nu,t}\to X_{\nu,\infty}$" is shorthand for "$X_{\nu,t}(\text{æ}_{1:t}) \geq c$" or "$X_{\nu,t}(\text{æ}_{1:t}) \to X_{\nu,\infty}(\text{æ}_{1:\infty})$" holding $\mu^{\pi}$-almost surely, i.e. on every infinite history outside a set of $\mu^{\pi}$-measure zero. We will not track these null sets explicitly; their countable union over all claims is still a $\mu^{\pi}$-null set.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986771089}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986771089}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 9.1 [15].** Show that $X_{\nu,t}$ is a $\mu^{\pi}$-martingale: $\mathbb{E}_{\mu^\pi}[X_{\nu,t}\mid \text{æ}_{<t}] = X_{\nu,t-1}$.
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986771089}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986771089}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Write $X_{\nu,t}(\text{æ}_{1:t}) = X_{\nu,t-1}(\text{æ}_{<t}) \cdot \nu(e_{t} \mid \text{æ}_{<t}a_{t})/\mu(e_{t} \mid \text{æ}_{<t}a_{t})$. Sum over $a_{t}, e_{t}$; $\mu$ cancels, leaving $\sum_{e_t}\nu(e_{t} \mid \text{æ}_{<t}a_{t}) = 1$.
 
@@ -1452,7 +1452,7 @@ Write $X_{\nu,t}(\text{æ}_{1:t}) = X_{\nu,t-1}(\text{æ}_{<t}) \cdot \nu(e_{t} 
 ^prob-martingale
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986771089}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986771089}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 We need to compute $\mathbb{E}_{\mu^\pi}[X_{\nu,t}\mid \text{æ}_{<t}]$. Conditioning on $\text{æ}_{<t}$ means $a_{t}$ and $e_{t}$ are the random quantities (sampled from $\pi$ and $\mu$ respectively). First, write $X_{\nu,t}$ pointwise as a function of history in terms of $X_{\nu,t-1}$:
 
@@ -1476,27 +1476,27 @@ Since $X_{\nu,t}\geq 0$ (a ratio of non-negative quantities), $(X_{\nu,t})_{t \g
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986771089}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986771089}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 9.2 [05].** Apply [[#^fact-doob|Theorem 9.4]] to conclude $X_{\nu,t}\to X_{\nu,\infty}< \infty$ $\mu^{\pi}$-a.s.
 :::
 
 ^prob-x-converges
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986771089}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986771089}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 $X_{\nu,t}$ is a non-negative $\mu^{\pi}$-supermartingale by [[#^prob-martingale|Exercise 9.1]]. By [[#^fact-doob|Theorem 9.4]] (Doob's convergence theorem), $X_{\nu,t}$ converges $\mu^{\pi}$-a.s. to a finite limit: $X_{\nu,t}\to X_{\nu,\infty}< \infty$.
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986771089}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986771089}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 9.3 [10].** Define $X_{\xi,t}:= \xi(\text{æ}_{1:t})/\mu(\text{æ}_{1:t})$. Show $X_{\xi,t}= \sum_{\nu} w_{\nu} X_{\nu,t}$ and $X_{\xi,t}\geq w_{\mu} > 0$.
 :::
 
 ^prob-x-bounded-mu
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986771089}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986771089}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 From the definition:
 
@@ -1512,14 +1512,14 @@ Since $\mathcal{M}$ is finite, $X_{\xi,t}= \sum_{\nu} w_{\nu} X_{\nu,t}$ is a fi
 
 \## 10. Change of Measure
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986771089}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986771089}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 10.1 [15].** Let $A$ be a set of finite histories of length $m$. Show:
 
 $$
 \nu^{\pi}[\text{æ}_{1:m}\in A] ~=~ \mathbb{E}_{\mu^\pi}\big[X_{\nu,m}\cdot \llbracket \text{æ}_{1:m}\in A \rrbracket\big].
 $$
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986771089}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986771089}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Use [[#^prob-factorization|Exercise 0.1]] to show $\nu^{\pi}/\mu^{\pi} = \nu/\mu = X_{\nu,m}$.
 
@@ -1529,7 +1529,7 @@ Use [[#^prob-factorization|Exercise 0.1]] to show $\nu^{\pi}/\mu^{\pi} = \nu/\mu
 ^prob-cm-finite
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986771089}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986771089}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 By [[#^prob-factorization|Exercise 0.1]], $\nu^{\pi}(\text{æ}'_{1:m}) = \pi(\text{æ}'_{1:m}) \cdot \nu(\text{æ}'_{1:m})$ and $\mu^{\pi}(\text{æ}'_{1:m}) = \pi(\text{æ}'_{1:m}) \cdot \mu(\text{æ}'_{1:m})$. For any history $\text{æ}'_{1:m}$ with $\mu^{\pi}(\text{æ}'_{1:m}) > 0$, the policy factors cancel:
 
@@ -1547,7 +1547,7 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986771089}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986771089}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 10.2.** (Given.) The identity extends to infinite histories: for any event $A \subseteq (\mathcal{A} \times \mathcal{E})^{\infty}$,
 
 $$
@@ -1565,14 +1565,14 @@ We omit the proof and use this identity freely below.
 ^prob-cm-extension
 
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986771089}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986771089}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 10.3 (Markov inequality for change of measure) [15].** Let $E$ be an event of infinite histories. For any $\varepsilon > 0$, show that
 
 $$
 \mu^{\pi}\big[E \cap \{X_{\nu,\infty}\geq \varepsilon\}\big] ~\leq~ \frac{\nu^{\pi}[E]}{\varepsilon}.
 $$
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986771089}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986771089}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 On $E \cap \{X_{\nu,\infty}\geq \varepsilon\}$, $X_{\nu,\infty}\geq \varepsilon$ pointwise. Take $\mu^{\pi}$-expectations and apply [[#^prob-cm-extension|Exercise 10.2]].
 
@@ -1582,7 +1582,7 @@ On $E \cap \{X_{\nu,\infty}\geq \varepsilon\}$, $X_{\nu,\infty}\geq \varepsilon$
 ^prob-markov-cm
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986771089}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986771089}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Let $E_{\varepsilon} := E \cap \{X_{\nu,\infty}\geq \varepsilon\}$. On $E_{\varepsilon}$, $X_{\nu,\infty}\geq \varepsilon$, so pointwise
 
@@ -1612,14 +1612,14 @@ $$
 
 As with $X_{\nu,t}$, we write $\delta_{\nu,t}$ without its argument when convenient: "$\delta_{\nu,t}\to 0$ $\mu^{\pi}$-a.s." means $\delta_{\nu,t}(\text{æ}_{<t}) \to 0$ on every infinite history outside a $\mu^{\pi}$-null set, and similarly for "$\delta_{\nu,t}\leq 1$" etc.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986786921}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986786921}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 11.1 (Chain of inequalities) [20].** Show:
 
 $$
 0 ~\leq~ w(\mu \mid \text{æ}_{<t}) \big[V_{\mu}^{*} - V_{\mu}^{\pi_\xi^*}\big] ~\leq~ \sum_{\nu \in \mathcal{M}}w(\nu \mid \text{æ}_{<t})\, \delta_{\nu,t}.
 $$
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986786921}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986786921}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Use $V_{\xi}^{\pi_\xi^*}\geq V_{\xi}^{\tilde\pi}$ and [[#^prob-linearity-inf|Exercise 4.2]].
 
@@ -1629,7 +1629,7 @@ Use $V_{\xi}^{\pi_\xi^*}\geq V_{\xi}^{\tilde\pi}$ and [[#^prob-linearity-inf|Exe
 ^prob-chain-ineq
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986786921}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986786921}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 We establish two inequalities and chain them.
 
@@ -1655,10 +1655,10 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986786921}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986786921}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 11.2 (Vanishing posterior) [10].** Show: if $X_{\nu,\infty}= 0$ then $w(\nu \mid \text{æ}_{<t}) \to 0$ $\mu^{\pi}$-a.s.
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986786921}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986786921}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Show $w(\nu \mid \text{æ}_{<t}) = w_{\nu} X_{\nu,t-1}/X_{\xi,t-1}$ and use [[#^prob-x-bounded-mu|Exercise 9.3]].
 
@@ -1668,7 +1668,7 @@ Show $w(\nu \mid \text{æ}_{<t}) = w_{\nu} X_{\nu,t-1}/X_{\xi,t-1}$ and use [[#^
 ^prob-vanishing-posterior
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986786921}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986786921}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 From the posterior weight formula, dividing numerator and denominator by $\mu(\text{æ}_{<t})$:
 
@@ -1682,10 +1682,10 @@ If $X_{\nu,\infty}= 0$, then $X_{\nu,t-1}\to 0$ $\mu^{\pi}$-a.s. ([[#^prob-x-con
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986786921}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986786921}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 11.3 (Transferring convergence) [20].** Let $F := \{\text{æ}_{1:\infty}: \delta_{\nu,t}(\text{æ}_{<t}) \not\to 0\}$, the set of infinite histories on which the suboptimality gap fails to vanish. Show that $\mu^{\pi}\big[F \cap \{X_{\nu,\infty}> 0\}\big] = 0$.
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986786921}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986786921}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Self-optimizing ([[#^def-selfopt|Theorem 9.1]]) gives $\nu^{\pi}[F] = 0$. Apply [[#^prob-markov-cm|Exercise 10.3]] with $E = F$ and $\varepsilon = 1/n$ to conclude $\mu^{\pi}[F \cap \{X_{\nu,\infty}\geq 1/n\}] = 0$ for each $n \geq 1$. Then note $\{X_{\nu,\infty}> 0\} = \bigcup_{n \geq 1}\{X_{\nu,\infty}\geq 1/n\}$ and take the countable union ([[#^def-events|Theorem 7.1]]).
 
@@ -1695,7 +1695,7 @@ Self-optimizing ([[#^def-selfopt|Theorem 9.1]]) gives $\nu^{\pi}[F] = 0$. Apply 
 ^prob-delta-transfer
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986786921}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986786921}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 *Step 1: $F$ is $\nu^{\pi}$-null.* By the self-optimizing assumption ([[#^def-selfopt|Theorem 9.1]]), under $\nu^{\pi}$ the suboptimality gap $\delta_{\nu,t}$ vanishes, so $\nu^{\pi}[F] = 0$.
 
@@ -1715,14 +1715,14 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986786921}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986786921}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 11.4 (Single-term convergence) [10].** Combine [[#^prob-vanishing-posterior|Exercise 11.2]] and [[#^prob-delta-transfer|Exercise 11.3]] to show $w(\nu \mid \text{æ}_{<t}) \delta_{\nu,t}\to 0$ $\mu^{\pi}$-a.s.
 :::
 
 ^prob-single-term
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986786921}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986786921}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Fix $\nu \in \mathcal{M}$. We show $w(\nu \mid \text{æ}_{<t})\, \delta_{\nu,t}\to 0$ $\mu^{\pi}$-a.s. by considering two exhaustive cases:
 
@@ -1734,10 +1734,10 @@ These two cases cover all infinite histories ($\mu^{\pi}$-a.s.), so $w(\nu \mid 
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986786921}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986786921}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 11.5 (Self-Optimizing Theorem) [15].** Combine [[#^prob-single-term|Exercise 11.4]], [[#^prob-chain-ineq|Exercise 11.1]], [[#^prob-x-bounded-mu|Exercise 9.3]] to finally prove the main result of [[#^thm-selfopt|Theorem 9.2]].
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986786921}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986786921}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 $w(\mu \mid \text{æ}_{<t}) = w_{\mu}/X_{\xi,t-1}$.
 
@@ -1747,7 +1747,7 @@ $w(\mu \mid \text{æ}_{<t}) = w_{\mu}/X_{\xi,t-1}$.
 ^prob-auto6
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986786921}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986786921}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Since $\mathcal{M} = \{\nu_{1}, \ldots, \nu_{N}\}$ is finite, we can sum [[#^prob-single-term|Exercise 11.4]] over all $\nu \in \mathcal{M}$:
 

@@ -85,7 +85,7 @@ It is sometimes convenient to refer to the function $\Phi(w) : \mathcal{X} \to \
 
 Throughout the rest of this tutorial, we will study many different neural network architectures (parameter–function maps). The rest of this section explores some generally useful examples and some terminological points. To begin with, we have the following remark.
 
-:::callout {title="Note" tone="neutral"}
+:::callout {title="Note" tone="blue"}
 
 **Remark (Parameters).** Note that the term "parameter" has two senses:
 
@@ -98,7 +98,7 @@ Both senses are in common usage in the literature as in this tutorial.
 
 The simplest neural network architecture models a single "neuron" with $d$ inputs $x_{1}, \ldots x_{d}$. Each input $x_{i}$ is multiplied by an incoming weight $w_{i}$ to produce the neuron's output. We formalise this case in [[#^eg-neuron|Example 1.1]].
 
-::::callout {title="Note" tone="blue"}
+::::callout {title="Note" tone="green"}
 
 **Example 1.1 (A linear neuron).** Let $\mathcal{X} = \mathbb{R}^{d}$ for some positive integer $d$ and let $\mathcal{Y} = \mathbb{R}$. Define a parameter space $\mathcal{W} = \mathbb{R}^{d}$. Define a parameter–function map that maps a column vector $w \in \mathcal{W}$ to the function $f_{w} : \mathbb{R}^{d} \to \mathbb{R}$ such that for $x \in \mathbb{R}^{d}$,
 
@@ -113,7 +113,7 @@ $$
 
 Let us generalise this basic neural network in three ways: to add multiple outputs, "depth," and non-linearity. First, we can generalise from a scalar output to a vector output as follows.
 
-::::callout {title="Note" tone="blue"}
+::::callout {title="Note" tone="green"}
 
 **Example 1.2 (Multi-linear neural network).** Let $\mathcal{X} = \mathcal{Y} = \mathbb{R}^{m}$ for some positive integer $m$. Define a parameter space $\mathcal{W} = \mathbb{R}^{m^2}$. Let each parameter $w \in \mathcal{W}$ encode an $m \times m$ matrix $W \in \mathbb{R}^{m \times m}$. The parameter–function map transforms each parameter $w \in \mathcal{W}$ to a function $f_{w} : \mathbb{R}^{m} \to \mathbb{R}^{m}$ such that for $x \in \mathbb{R}^{m}$,
 
@@ -128,7 +128,7 @@ $$
 
 If we take each row of $W$ to encode the weight vector of a linear neuron ([[#^eg-neuron|Example 1.1]]), we see that we have produced $m$ outputs by stacking $m$ independent linear neurons together. Such a group of neurons is called a **layer**.
 
-:::callout {title="Note" tone="neutral"}
+:::callout {title="Note" tone="blue"}
 
 **Remark (Encodings).** In [[#^eg-linear|Example 1.2]], the parameter space is formally $\mathcal{W} = \mathbb{R}^{m^2}$, but we find it convenient to identify each parameter vector $w \in \mathbb{R}^{m^2}$ with the $m \times m$ matrix $W$ it encodes. We would thus write $f_{W}$ in place of $f_{w}$. More generally, whenever the parameters of an architecture naturally decompose into named matrices or vectors, we index the parameter–function map by these structured objects directly rather than by the underlying vector $w$. The remaining examples in this section demonstrate this convention, and we continue to use it throughout this tutorial.
 
@@ -136,7 +136,7 @@ If we take each row of $W$ to encode the weight vector of a linear neuron ([[#^e
 
 Next, let's add *depth* to our neural network by composing two layers together.
 
-::::callout {title="Note" tone="blue"}
+::::callout {title="Note" tone="green"}
 
 **Example 1.3 (Deep linear network; DLN).** Let $\mathcal{X} = \mathcal{Y} = \mathbb{R}^{m}$ for some positive integer $m$. Let $h$ be a positive integer and define the parameter space $\mathcal{W} = \mathbb{R}^{2mh}$, with each parameter encoding a pair of matrices $A \in \mathbb{R}^{h \times m}$ and $B \in \mathbb{R}^{m \times h}$. The parameter–function map sends $(A, B)$ to $f_{A,B}: \mathbb{R}^{m} \to \mathbb{R}^{m}$ such that for $x \in \mathbb{R}^{m}$,
 
@@ -160,7 +160,7 @@ Finally, we'll add *non-linearity* between pairs of layers. To do so, we introdu
 
 This results in the following non-linear neural network architecture.
 
-::::callout {title="Note" tone="blue"}
+::::callout {title="Note" tone="green"}
 
 **Example 1.4 (Multi-layer perceptron; MLP).** Define input, output, and parameter spaces as in [[#^eg-dln|Example 1.3]]. Let $\sigma : \mathbb{R} \to \mathbb{R}$ be an activation function. The parameter–function map sends $(A, B)$ to the function $f_{A,B}: \mathbb{R}^{m} \to \mathbb{R}^{m}$ such that for $x \in \mathbb{R}^{m}$,
 
@@ -178,14 +178,14 @@ This kind of architecture is called a **multi-layer perceptron (MLP).** Note tha
 
 The expressivity of these architectures is limited, however, by the omission of a basic detail—the inclusion of a bias parameter for each neuron. We invite the reader to correct this omission as our first exercise, which serves as a chance to familiarise oneself with the concept of a parameter–function map.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986652822}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986652822}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 1.1 (Biased neurons).** A biased neuron is a neuron with an additional parameter that is added to the weighted sum of its inputs before it produces its output. Bias parameters allow each layer to represent an *affine* transform, rather than just a linear transform. For each of Examples [[#^eg-neuron|1.1]], [[#^eg-linear|1.2]], [[#^eg-dln|1.3]], and [[#^eg-mlp|1.4]], extend the example to use biased neurons. Precisely define the parameter space and the parameter–function map in each case.
 :::
 
 ^ex-biased-neurons
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986652822}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986652822}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 For each architecture, we add a bias vector to each layer's output before the next transformation (or activation function) is applied.
 
@@ -265,7 +265,7 @@ $$
 ^eq-mse
 
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986656704}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986656704}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 1.2 (Empirical loss and population loss).** Fix $w \in \mathcal{W}$. Prove the following properties of the relationship between the empirical loss $L_{n}(w)$ and the population loss $L(w)$.
 
 **(a)** For any $n$, the empirical loss is an unbiased estimator of the population loss. That is,
@@ -280,7 +280,7 @@ $$
 ^ex-empirical-population-loss
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986656704}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986656704}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. Since the data pairs $(x^{(i)}, y^{(i)})$ are sampled independently and identically from $q$, each per-example loss $L_{x^{(i)},y^{(i)}}(w)$ is an identically distributed random variable with expectation
 
@@ -332,7 +332,7 @@ The above **Gaussian noise model** amounts to modelling each output $y$ as drawn
 
 As the following exercises explore, performing statistical inference according to the principle of maximum likelihood aligns with the loss-minimisation perspective (given an appropriate choice of loss function).
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986656704}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986656704}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 1.3 (Maximum likelihood as MSE minimisation).** Consider a regression problem with $\mathcal{X} = \mathcal{Y} = \mathbb{R}^{m}$. Assume we have a neural network architecture with a parameter space $\mathcal{W}$. Form a corresponding statistical model using the Gaussian noise model of [[#^eq-gaussian-model|(11)]]. Let $(x^{(1)}, y^{(1)}),$ $\ldots,$ $(x^{(n)}, y^{(n)}) \in \mathcal{X} \times \mathcal{Y}$ be a data set of $n$ regression examples.
 
 **(a)** Write an expression for the conditional probability of observing the labels $Y_{n} = (y^{(1)}, \ldots, y^{(n)})$ given the inputs $X_{n} = (x^{(1)}, \ldots, x^{(n)})$ and some fixed parameter $w \in W$, assuming the labels are sampled independently.
@@ -349,7 +349,7 @@ $$
 ^ex-nll-mse
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986656704}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986656704}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. Since labels are sampled independently, the likelihood factorises as a product of Gaussian densities:
 
@@ -375,7 +375,7 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986656704}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986656704}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 1.4 (Maximum likelihood as cross entropy minimisation).** Consider a classification problem with $\mathcal{Y} = \Delta^{m-1}$. Assume we have a neural network architecture with a parameter space $\mathcal{W}$. As discussed, the parameter–function map in this case corresponds to a parameter–distribution map to conditional distributions over the underlying discrete class space $\mathcal{C} = \{1, \ldots, m\}$. Let $(x^{(1)}, c^{(1)}),$ $\ldots,$ $(x^{(n)}, c^{(n)}) \in \mathcal{X} \times \mathcal{C}$ be a data set of $n$ labelled classification examples. For each $c^{(i)}\in \mathcal{C}$ define
 
 
@@ -407,7 +407,7 @@ $$
 ^ex-nll-cross-entropy
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986656704}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986656704}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. Since labels are sampled independently, the likelihood factorises as
 
@@ -439,7 +439,7 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986656704}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986656704}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 1.5 (Maximum likelihood as loss minimisation, in general).** Consider a neural network architecture with a parameter space $\mathcal{W}$, parameter–function map $\Phi$, and output space $\mathcal{Y} = \mathbb{R}^{m}$. Let $L_{x,y}: \mathcal{W} \to \mathbb{R}$ be a per-example loss function. Assume that for each $x \in \mathcal{X}$ and $w \in \mathcal{W}$, the function $y \mapsto \exp(-L_{x,y}(w))$ is integrable over $\mathcal{Y}$. Define a corresponding statistical model with parameter–distribution map $\Psi$ mapping $w \in \mathcal{W}$ to $p_{w} : \mathcal{X} \to \Delta(\mathcal{Y})$ such that for all $y \in \mathcal{Y}$, $x \in \mathcal{X}$, and $w \in \mathcal{W}$, we have
 
 $$
@@ -464,7 +464,7 @@ $$
 ^ex-nll-energy
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986656704}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986656704}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. Since labels are sampled independently, the likelihood factorises as
 
@@ -497,7 +497,7 @@ $$
 
 :::
 
-:::callout {title="Note" tone="neutral"}
+:::callout {title="Note" tone="blue"}
 
 **Remark (Negative log-likelihood loss).** Examples [[#^ex-nll-mse|1.3]], [[#^ex-nll-cross-entropy|1.4]], and [[#^ex-nll-energy|1.5]] nominally show that some maximum likelihood estimation problems have the same sets of ideal solutions as some carefully-chosen optimisation problems ($\operatorname*{arg\,min} = \operatorname*{arg\,max}$). In general, that the global optima for two optimisation problems coincide is insufficient to show that practical optimisation methods will always find the same solutions: practical optimisation methods don't always find global optima. However, in the above cases, your derivation likely reveals a stronger result: the optimisation landscapes for the function approximation problem are related to the optimisation landscape for the maximum likelihood estimation problem by a strictly monotonically decreasing transform (an affine transform of a logarithm).
 
@@ -553,7 +553,7 @@ The posterior re-weights the prior by the likelihood of the observed data: param
 
 The partition function $Z_{n}$ is the marginal probability of observing the data set, averaged over all parameters weighted by the prior. It quantifies how well the statistical model *as a whole* predicts the observed data. The free energy is an inverted measure of how well the model fits the data.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986659751}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986659751}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 1.6 (Bayesian posterior as a Gibbs distribution).** To interpret Bayesian inference in terms more similar to function approximation, we introduce a loss function based on the **negative log-likelihood**,
 
 
@@ -581,7 +581,7 @@ $$
 ^ex-gibbs
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986659751}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986659751}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 By definition of the negative log-likelihood,
 
@@ -625,7 +625,7 @@ $$
 
 The local partition function (free energy) measures how well (poorly) parameters within a given neighbourhood collectively explain the data. Note, $Z_{n}(\mathcal{W}) = Z_{n}$ and $F_{n}(\mathcal{W}) = F_{n}$.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986659751}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986659751}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 1.7 (Local posterior mass and local free energy).** Let $\mathcal{U}, \mathcal{V} \subseteq \mathcal{W}$ be two neighbourhoods of parameter space. Let $\pi_{n}(\mathcal{U}) = \int_{\mathcal{U}}\pi_{n}(w) \,dw$ denote the posterior mass of a neighbourhood. Show the following.
 
 **(a)** $\displaystyle \pi_{n}(\mathcal{U}) = \frac{Z_{n}(\mathcal{U})}{Z_{n}}$ (the same holds for $\mathcal{V}$).
@@ -638,7 +638,7 @@ In conclusion, the posterior odds ratio of the two regions $\pi_{n}(\mathcal{U})
 ^ex-posterior-free-energy
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986659751}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986659751}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. Integrating the posterior [[#^eq-posterior|(13)]] over $\mathcal{U}$,
 
@@ -653,7 +653,7 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986659751}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986659751}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 1.8 (Partition function of partitioned parameter space).** Let $\mathcal{U}_{1}, \ldots, \mathcal{U}_{k} \subseteq \mathcal{W}$ be disjoint subsets with $\mathcal{W} = \mathcal{U}_{1} \sqcup \cdots \sqcup \mathcal{U}_{k}$.
 
 **(a)** Show that the partition function decomposes as $Z_{n} = \sum_{j=1}^{k} Z_{n}(\mathcal{U}_{j})$, and hence
@@ -674,7 +674,7 @@ In conclusion, the overall free energy is dominated by the region(s) with the lo
 ^ex-partition-decomposition
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986659751}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986659751}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. Since $\mathcal{U}_{1}, \ldots, \mathcal{U}_{k}$ are disjoint and cover $\mathcal{W}$, the integral over $\mathcal{W}$ decomposes as a sum of integrals over each $\mathcal{U}_{j}$:
 
@@ -750,23 +750,23 @@ By convention, if we say that the parameter–function map is simply **degenerat
 
 The following exercises explore this definition in some toy parametrisations of a simple function class (constants), displaying in the simplest possible setting some basic forms of degeneracy that will arise repeatedly throughout the tutorial.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986659751}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986659751}@@tone="amber"}++}
+{--{"author":"Elias's AI","timestamp":1786986972875}@@:::callout--}{++{"author":"Elias's AI","timestamp":1786986972875}@@:::::callout++} {title="Exercise" tone="amber"}
 **Exercise 2.1 (Parametrising the space of constants).** Let $\mathcal{X} = \{\ast\}$ and $\mathcal{Y} = \mathbb{R}$, so that we have a hypothesis class of constants. Consider the scalar parameter space $\mathcal{W} = \mathbb{R}$ and the parameter function map that maps $w$ to $f_{w} = w$ (the output is just the parameter itself).
 
 **(a)** What is the directional derivative of the parameter–function map in direction $v = 1$?
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986659751}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986659751}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 What kind of derivative does this reduce to?
 
 ::::
 
 **(b)** At which points in the parameter space is this parameter–function map degenerate, if any?
-:::
+{--{"author":"Elias's AI","timestamp":1786986972875}@@:::--}{++{"author":"Elias's AI","timestamp":1786986972875}@@:::::++}
 
 ^ex-univariate-degeneracy
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986659751}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986659751}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. Since $\mathcal{W} = \mathbb{R}$ is one-dimensional, the directional derivative in direction $v = 1$ reduces to the ordinary derivative:
 
@@ -777,25 +777,25 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986659751}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986659751}@@tone="amber"}++}
+{--{"author":"Elias's AI","timestamp":1786986976304}@@:::callout--}{++{"author":"Elias's AI","timestamp":1786986976304}@@:::::callout++} {title="Exercise" tone="amber"}
 **Exercise 2.2 (Degeneracy from raising a parameter to a power).** Again, consider a hypothesis class of constants and the scalar parameter space $\mathcal{W} = \mathbb{R}$. This time, define a parameter function map that maps $w$ to $f_{w} = w^{3}$.
 
 **(a)** Show that this architecture indexes exactly the same hypothesis class as the architecture described in [[#^ex-univariate-degeneracy|Exercise 2.1]].
 
 **(b)** What is the directional derivative of the parameter–function map in direction $v = 1$?
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986659751}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986659751}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 What kind of derivative does this reduce to?
 
 ::::
 
 **(c)** At which points in the parameter space is the parameter–function map degenerate, if any?
-:::
+{--{"author":"Elias's AI","timestamp":1786986976304}@@:::--}{++{"author":"Elias's AI","timestamp":1786986976304}@@:::::++}
 
 ^ex-cubic-degeneracy
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986659751}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986659751}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. The hypothesis class of [[#^ex-univariate-degeneracy|Exercise 2.1]] is $\mathcal{F} = \{f_{w} = w : w \in \mathbb{R}\} = \mathbb{R}$. The hypothesis class here is $\mathcal{F} = \{f_{w} = w^{3} : w \in \mathbb{R}\}$. Since $w \mapsto w^{3}$ is a bijection on $\mathbb{R}$, as $w$ ranges over $\mathbb{R}$, $w^{3}$ takes every real value exactly once. So $\mathcal{F} = \mathbb{R}$ in both cases.
 2. The directional derivative in direction $v = 1$ is the ordinary derivative:
@@ -807,20 +807,20 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986659751}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986659751}@@tone="amber"}++}
+{--{"author":"Elias's AI","timestamp":1786986979800}@@:::callout--}{++{"author":"Elias's AI","timestamp":1786986979800}@@:::::callout++} {title="Exercise" tone="amber"}
 **Exercise 2.3 (Degeneracy from multiplying two parameters together).** Again, consider a hypothesis class of constants. Consider this time the two-dimensional parameter space $\mathcal{W} = \mathbb{R}^{2}$. Define a parameter function map that maps $w = (a, b)$ to $f_{w} = a \cdot b$.
 
 **(a)** Show that this architecture indexes exactly the same hypothesis class as the architecture described in [[#^ex-univariate-degeneracy|Exercise 2.1]].
 
 **(b)** What is the directional derivative of the parameter–function map in direction $v = (1, 0)$?
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986659751}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986659751}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 what kind of derivative does this reduce to?
 
 ::::
 
 **(c)** What is the directional derivative of the parameter–function map in direction $v = (0, 1)$?
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986659751}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986659751}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 what kind of derivative does this reduce to?
 
@@ -829,12 +829,12 @@ what kind of derivative does this reduce to?
 **(d)** At which points in the parameter space is the parameter–function map degenerate *in these directions,* if any?
 
 **(e)** At which points in the parameter space is the parameter–function map degenerate, if any?
-:::
+{--{"author":"Elias's AI","timestamp":1786986979800}@@:::--}{++{"author":"Elias's AI","timestamp":1786986979800}@@:::::++}
 
 ^ex-product-degeneracy
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986659751}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986659751}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. The hypothesis class is $\mathcal{F} = \{f_{w} = ab : (a, b) \in \mathbb{R}^{2}\} = \mathbb{R}$, since for any target $c \in \mathbb{R}$ we can choose, e.g., $a = c$ and $b = 1$. This is the same as in [[#^ex-univariate-degeneracy|Exercise 2.1]].
 2. The directional derivative in direction $v = (1, 0)$ is the partial derivative with respect to $a$:
@@ -863,7 +863,7 @@ Therefore, the parameter–function map is degenerate *everywhere*. Note that th
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986659751}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986659751}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 2.4 (Degeneracy from adding two parameters together).** Again, consider a hypothesis class of constants. Consider this time the two-dimensional parameter space $\mathcal{W} = \mathbb{R}^{2}$. Define a parameter function map that maps $w = (a, b)$ to $f_{w} = a + b$.
 
 **(a)** Show that this architecture indexes exactly the same hypothesis class as the architecture described in [[#^ex-univariate-degeneracy|Exercise 2.1]].
@@ -876,7 +876,7 @@ Therefore, the parameter–function map is degenerate *everywhere*. Note that th
 ^ex-sum-degeneracy
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986659751}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986659751}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. The hypothesis class is $\mathcal{F} = \{f_{w} = a + b : (a, b) \in \mathbb{R}^{2}\} = \mathbb{R}$, since for any target $c \in \mathbb{R}$ we can choose, e.g., $a = c$ and $b = 0$. This is the same as in [[#^ex-univariate-degeneracy|Exercise 2.1]].
 2. The direction $v = (1, -1)$ has $\|v\| = \sqrt{2}$, so by [[#^eq-directional-derivative|(20)]] the directional derivative is
@@ -902,7 +902,7 @@ A **continuous symmetry** of a parameter–function map $\Phi$ is a family of tr
 
 The continuous symmetry is **trivial at $w$** if $\left.\frac{d}{dt}\right|_{t=0}T_{t}(w) = 0$, or else **non-trivial at $w$**.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986663856}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986663856}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 2.5 (Continuous symmetry example).** Recall the parameter–function map from [[#^ex-sum-degeneracy|Exercise 2.4]], with $\mathcal{W} = \mathbb{R}^{2}$ and with $(a, b) \in \mathcal{W}$ mapping to the constant function $f_{a,b}= a + b$. Consider the family of transformations $T_{t} : \mathcal{W} \to \mathcal{W}$ for $t \in \mathbb{R}$ such that
 
 $$
@@ -919,7 +919,7 @@ $$
 ^ex-sum-symmetry
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986663856}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986663856}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. The transformation $T_{t}$ translates the parameter $(a, b)$ by $t$ in the direction $(1, -1)$. The orbit of any parameter $(a, b)$ under this family is the line $\{(a + t, b - t) : t \in \mathbb{R}\}$, which has slope $-1$ in the $(a, b)$-plane.
 2. We verify the three conditions of a continuous symmetry.
@@ -962,7 +962,7 @@ In particular, at $t=0$, we have $0 = D_{\gamma'(0)}\Phi(\gamma(0)) = D_{\gamma'
 
 The following exercises exhibit some continuous symmetries in two neural network architectures, a small ReLU MLP and a toy autoencoder. Similar architectures are studied in more detail from an SLT perspective by [[#^bib-carroll2021|Carroll 2021]] and [[#^bib-chen-2023|Chen et al. 2023]] respectively.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986663856}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986663856}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 2.6 (ReLU scaling symmetry).** Consider a two-layer MLP ([[#^eg-mlp|Example 1.4]]) with $\sigma = \mathrm{relu}$, scalar inputs and outputs ($m = 1$), and a single hidden unit ($h = 1$). The parameter space is $\mathcal{W} = \mathbb{R}^{2}$ with parameters $(a, b)$, and the parameter–function map is $f_{a,b}(x) = b \cdot \mathrm{relu}(ax)$.
 
 **(a)** Show that $\mathrm{relu}$ is *positively homogeneous*: $\mathrm{relu}(\alpha z) = \alpha \, \mathrm{relu}(z)$ for all $\alpha > 0$ and $z \in \mathbb{R}$.
@@ -977,7 +977,7 @@ The following exercises exhibit some continuous symmetries in two neural network
 ^ex-relu-scaling
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986663856}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986663856}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. We consider three cases. If $z > 0$, then $\alpha z > 0$ (since $\alpha > 0$), so $\mathrm{relu}(\alpha z) = \alpha z = \alpha \mathrm{relu}(z)$. If $z = 0$, then $\mathrm{relu}(\alpha \cdot 0) = 0 = \alpha \cdot 0 = \alpha \mathrm{relu}(z)$. If $z < 0$, then $\alpha z < 0$, so $\mathrm{relu}(\alpha z) = 0 = \alpha \cdot 0 = \alpha \mathrm{relu}(z)$.
 2. We verify the three conditions.
@@ -1008,7 +1008,7 @@ Since $\nabla \Phi(0,0) = 0$, every direction is degenerate at the origin. This 
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986663856}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986663856}@@tone="amber"}++}
+{--{"author":"Elias's AI","timestamp":1786986982700}@@:::callout--}{++{"author":"Elias's AI","timestamp":1786986982700}@@:::::callout++} {title="Exercise" tone="amber"}
 **Exercise 2.7 (Rotation symmetry in a linear autoencoder).** Consider a *linear autoencoder* with bottleneck dimension $h$ and ambient dimension $m \geq h$. The parameter space encodes a single matrix $W \in \mathbb{R}^{h \times m}$ and the parameter–function map sends $W$ to the function $\Phi(W) = f_{W} : \mathbb{R}^{m} \to \mathbb{R}^{m}$ where
 
 $$
@@ -1030,17 +1030,17 @@ show that $T_{\theta}(W) = R(\theta) W$ defines a continuous symmetry.
 **(c)** For a fixed parameter $W \in \mathbb{R}^{2 \times m}$, compute the degenerate direction that arises from this symmetry.
 
 **(d)** For general bottleneck dimension $h$, how many independent continuous symmetries does the orthogonal group $O(h)$ contribute?
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986663856}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986663856}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 What is the dimension of $O(h)$?
 
 ::::
-:::
+{--{"author":"Elias's AI","timestamp":1786986982700}@@:::--}{++{"author":"Elias's AI","timestamp":1786986982700}@@:::::++}
 
 ^ex-rotation-symmetry
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986663856}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986663856}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. For orthogonal $R$ (i.e. $R^{\top} R = I$),
 
@@ -1097,7 +1097,7 @@ Within certain subsets of parameter space, many neural network architectures (in
 
 We begin with some examples of transformations that are only continuous symmetries within certain subsets of parameter space.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986663856}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986663856}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 2.8 (Localised symmetry example).** Recall the parameter–function map from [[#^ex-product-degeneracy|Exercise 2.3]], with $\mathcal{W} = \mathbb{R}^{2}$ and with $(a, b) \in \mathcal{W}$ mapping to the constant function $f_{a,b}= a \cdot b$. Consider the two families of transformations $T^{(a)}_{t}, T^{(b)}_{t} : \mathcal{W} \to \mathcal{W}$ for $t \in \mathbb{R}$ such that
 
 $$
@@ -1114,7 +1114,7 @@ $$
 ^ex-localised-symmetry
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986663856}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986663856}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. $T^{(a)}_{t}$ translates along the $a$-axis: it shifts the first coordinate by $t$ while leaving the second fixed. $T^{(b)}_{t}$ translates along the $b$-axis.
 2. $T^{(a)}_{t}$ is a symmetry at $(a, b)$ for all $t$ if and only if $f_{a+t,b}= f_{a,b}$ for all $t$, i.e., $(a+t)b = ab$ for all $t$. This simplifies to $tb = 0$ for all $t$, which requires $b = 0$. So $\{T^{(a)}_{t}\}$ is a symmetry when restricted to the $a$-axis $\{(a, 0) : a \in \mathbb{R}\}$.
@@ -1126,7 +1126,7 @@ Similarly, $\{T^{(b)}_{t}\}$ is a symmetry when restricted to the $b$-axis $\{(0
 
 The above example is technically a two-layer DLN with $m=h=1$. Let us now explore localised degeneracy in a general two-layer DLN and then in a non-trivial MLP.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986663856}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986663856}@@tone="amber"}++}
+{--{"author":"Elias's AI","timestamp":1786986985956}@@:::callout--}{++{"author":"Elias's AI","timestamp":1786986985956}@@:::::callout++} {title="Exercise" tone="amber"}
 **Exercise 2.9 (Degeneracy in the two-layer DLN).** Consider the two-layer DLN from [[#^eg-dln|Example 1.3]], with $h=m$. The parameter space encodes two matrices $A, B \in \mathbb{R}^{m \times m}$, and the parameter–function map sends $(A, B)$ to the function $\Phi(A,B) = f_{A,B}: \mathbb{R}^{m} \to \mathbb{R}^{m}$ such that $f_{A,B}(x) = BAx$ for $x \in \mathbb{R}^{m}$.
 
 **(a)** Let $(\delta\!A, \delta\!B)$ be a unit perturbation in parameter space (a unit vector in the underlying parameter space $\mathbb{R}^{2m^2}$, decoded into a pair of matrices). Show that the directional derivative of the parameter–function map at $(A, B)$ in direction $(\delta\!A, \delta\!B)$ is the linear map
@@ -1136,7 +1136,7 @@ D_{(\delta\!A, \delta\!B)}\Phi(A, B) = B\,\delta\!A + \delta\!B\, A.
 $$
 
 That is, $D_{(\delta\!A, \delta\!B)}\Phi(A, B) x = (B\,\delta\!A + \delta\!B\, A) x$.
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986663856}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986663856}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Use the limit definition, [[#^eq-directional-derivative|(20)]].
 
@@ -1152,7 +1152,7 @@ $$
 m^{2} + (m-r_{A})(m-r_{B}).
 $$
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986663856}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986663856}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 The following is a guide to one possible approach.
 
@@ -1163,12 +1163,12 @@ The following is a guide to one possible approach.
 5. What is the nullity of $T_{D}$? Why is this the same as the dimensionality of the space of degenerate directions?
 
 ::::
-:::
+{--{"author":"Elias's AI","timestamp":1786986985956}@@:::--}{++{"author":"Elias's AI","timestamp":1786986985956}@@:::::++}
 
 ^ex-dln-degeneracy
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986663856}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986663856}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. Encoding $(A, B)$ and $(\delta\!A, \delta\!B)$ as vectors in the underlying parameter space $\mathbb{R}^{2m^2}$, the directional derivative is
 
@@ -1207,7 +1207,7 @@ The kernel of $T_{D}$ is exactly the set of $(\delta\!A, \delta\!B)$ such that $
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986667704}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986667704}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 2.10 (Redundant units in an MLP).** Consider a single-hidden-layer MLP with scalar inputs and outputs, $h$ hidden units with activation function $\sigma : \mathbb{R} \to \mathbb{R}$, and an output bias. The parameter space is $\mathcal{W} = \mathbb{R}^{3h+1}$ with parameters $w = (a_{1}, b_{1}, c_{1}, \ldots, a_{h}, b_{h}, c_{h}, d)$, and the parameter–function map is
 
 $$
@@ -1226,7 +1226,7 @@ Here, for each hidden unit $i$, $a_{i}$ is the outgoing weight, $b_{i}$ is the i
 ^ex-mlp-degeneracy
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986667704}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986667704}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. At $a_{i} = 0$, the parameter–function map reduces to
 
@@ -1260,7 +1260,7 @@ In the direction $(\delta a_{i}, \delta a_{j}) = (1, -1)$, this combined contrib
 
 :::
 
-:::callout {title="Note" tone="neutral"}
+:::callout {title="Note" {--{"author":"Elias's AI","timestamp":1786986828577}@@tone="neutral"}--}{++{"author":"Elias's AI","timestamp":1786986828577}@@tone="blue"}++}
 
 **Remark (Localised symmetries in neural networks).** Each degenerate direction identified in the exercises above corresponds to a localised symmetry: a curve of functionally equivalent parameters that continuously extends only within a subset of parameter space.
 
@@ -1269,7 +1269,7 @@ In the direction $(\delta a_{i}, \delta a_{j}) = (1, -1)$, this combined contrib
 
 :::
 
-::::callout {title="Note" tone="neutral"}
+::::callout {title="Note" {--{"author":"Elias's AI","timestamp":1786986828577}@@tone="neutral"}--}{++{"author":"Elias's AI","timestamp":1786986828577}@@tone="blue"}++}
 
 **Remark (Rank of a neural network parameter).** In both exercises above, the degree of degeneracy at a parameter is controlled by the amount of redundant capacity in the network. For the two-layer DLN, this is measured by the rank of the product $BA$: a rank-$r$ linear map can be implemented with a hidden dimension of $r$, leaving $m - r$ dimensions redundant. For a general single-hidden-layer MLP, this idea generalises in that we can define the rank of a parameter $w$ as the minimum number of hidden units needed to implement $f_{w}$ ([[#^bib-farrugiaroberts2022|Farrugia-Roberts 2022]]; [[#^bib-farrugiaroberts2024|Farrugia-Roberts 2024]]). In the linear case, this "neural network rank" coincides with the matrix rank of $BA$. In both settings, lower rank corresponds to a higher number of degenerate directions.
 
@@ -1278,7 +1278,7 @@ In the direction $(\delta a_{i}, \delta a_{j}) = (1, -1)$, this combined contrib
 ^rem-rank
 
 
-:::callout {title="Note" tone="neutral"}
+:::callout {title="Note" {--{"author":"Elias's AI","timestamp":1786986828577}@@tone="neutral"}--}{++{"author":"Elias's AI","timestamp":1786986828577}@@tone="blue"}++}
 
 **Remark (Measure zero degenerate sets).** When a parameter–function map is degenerate somewhere but not everywhere, it is often the case that it is degenerate only within a measure-zero subset of parameter space. This means that sampling parameters uniformly at random results in a degenerate parameter with probability zero. However, this does not mean that the degeneracies can be dismissed. The learning process applies a non-random selection pressure and may select parameters from a measure-zero set. Moreover, the existence of degenerate parameters can have practical consequences for nearby non-degenerate parameters, and the collective neighbourhoods of all degenerate parameters comprise a non-measure-zero subset of parameter space.
 
@@ -1336,7 +1336,7 @@ The directional score measures how sensitive the log-density is to perturbations
 ^def-score
 
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986667704}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986667704}@@tone="amber"}++}
+{--{"author":"Elias's AI","timestamp":1786986989017}@@:::callout--}{++{"author":"Elias's AI","timestamp":1786986989017}@@:::::callout++} {title="Exercise" tone="amber"}
 **Exercise 2.11 (Basic properties of the score function).** Let $\Psi : \mathcal{W} \to \mathcal{D}$ be a parameter–distribution map with positive densities $p(y \mid x, w)$, differentiable in $w$. Assume that for each $x$ and $w$, the operations $\nabla_{w}$ and $\int_{\mathcal{Y}} \cdot\, dy$ may be exchanged.
 
 **(a)** Show that the score function satisfies the following identity: for each $x \in \mathcal{X}$, $y \in \mathcal{Y}$, and $w \in \mathcal{W}$,
@@ -1356,7 +1356,7 @@ $$
 \mathbb{E}_{y \sim p(y \mid x, w)}\bigl[s(x, y, w)\bigr] = 0.
 $$
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986667704}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986667704}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Differentiate the identity $\int_{\mathcal{Y}} p(y \mid x, w) \, dy = 1$.
 
@@ -1365,12 +1365,12 @@ Differentiate the identity $\int_{\mathcal{Y}} p(y \mid x, w) \, dy = 1$.
 **(c)** Show that if $\Psi$ is degenerate at $w$ in direction $v$, then the directional score vanishes identically: $s_{v}(x, y, w) = 0$ for all $x \in \mathcal{X}$ and $y \in \mathcal{Y}$.
 
 **(d)** Show the converse: if the directional score $s_{v}(x, y, w) = 0$ vanishes for all $x \in \mathcal{X}$ and $y \in \mathcal{Y}$ at $w$, then $\Psi$ is degenerate at $w$ in direction $v$.
-:::
+{--{"author":"Elias's AI","timestamp":1786986989017}@@:::--}{++{"author":"Elias's AI","timestamp":1786986989017}@@:::::++}
 
 ^ex-score-properties
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986667704}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986667704}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. Since $p(y \mid x, w) > 0$, the logarithm is well-defined and the chain rule gives
 
@@ -1423,7 +1423,7 @@ The Fisher information matrix is symmetric and positive semidefinite at every $w
 
 The following exercise shows that singularity of the Fisher information matrix is equivalent to degeneracy of the parameter–distribution map under mild regularity conditions.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986667704}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986667704}@@tone="amber"}++}
+{--{"author":"Elias's AI","timestamp":1786986992060}@@:::callout--}{++{"author":"Elias's AI","timestamp":1786986992060}@@:::::callout++} {title="Exercise" tone="amber"}
 **Exercise 2.12 (Fisher information and degeneracy).** Let $\Psi : \mathcal{W} \to \mathcal{D}$ be a parameter–distribution map with densities $p(y \mid x, w)$. Assume that $p(y \mid x, w) > 0$ for all $y \in \mathcal{Y}$, $x \in \mathcal{X}$, $w \in \mathcal{W}$, that $w \mapsto p(y \mid x, w)$ is differentiable, and that $q(x) > 0$ for all $x \in \mathcal{X}$.
 
 **(a)** Show that for any unit vector $v \in \mathbb{R}^{d}$,
@@ -1438,14 +1438,14 @@ $$
 
 
 **(b)** Using [[#^ex-score-properties|Exercise 2.11(c)]], show that if $D_{v} \Psi(w) = 0$ for some non-zero $v$, then $I(w)$ is not positive definite.
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986667704}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986667704}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Check the definition of positive definite.
 
 ::::
 
 **(c)** Using [[#^ex-score-properties|Exercise 2.11(d)]], show that if $I(w)$ is not positive definite, then there exists a non-zero $v$ for which $D_{v} \Psi(w) = 0$.
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986667704}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986667704}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Check the definition of positive definite.
 
@@ -1458,12 +1458,12 @@ $$
 $$
 
 That is, the null space of the Fisher information matrix is exactly the space of degenerate directions of the parameter–distribution map.
-:::
+{--{"author":"Elias's AI","timestamp":1786986992060}@@:::--}{++{"author":"Elias's AI","timestamp":1786986992060}@@:::::++}
 
 ^ex-fim-degeneracy
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986667704}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986667704}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. Since $v$ is a unit vector, $s_{v} = D_{v} \log p = \frac{v}{\|v\|}\cdot s = v \cdot s$. From the definition of $I(w)$ in [[#^eq-fim|(26)]],
 
@@ -1478,7 +1478,7 @@ For the kernel characterisation: clearly $0 \in \ker I(w)$. For non-zero $v$, $v
 
 :::
 
-::::callout {title="Note" tone="neutral"}
+::::callout {title="Note" {--{"author":"Elias's AI","timestamp":1786986833724}@@tone="neutral"}--}{++{"author":"Elias's AI","timestamp":1786986833724}@@tone="blue"}++}
 
 **Remark (Watanabe's strictly singular models).** [[#^bib-watanabe2009|Watanabe 2009]] defines a statistical model as *strictly singular* if either of two conditions hold:
 
@@ -1502,23 +1502,23 @@ Recall the definitions of loss functions from [[#1. Preliminaries|Section 1]]. I
 
 Let us begin with some basic observations about the relationship between degeneracy in parameter–function maps and directional derivatives in the loss landscape.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986671904}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986671904}@@tone="amber"}++}
+{--{"author":"Elias's AI","timestamp":1786986995193}@@:::callout--}{++{"author":"Elias's AI","timestamp":1786986995193}@@:::::callout++} {title="Exercise" tone="amber"}
 **Exercise 2.13 (Directional derivatives of the loss).** Let $L : \mathcal{W} \to \mathbb{R}$ be a population loss function satisfying the assumptions described above.
 
 **(a)** Show that if $\Phi$ is degenerate at $w$ in direction $v$, then the directional derivative of the loss vanishes in the same direction: $D_{v} L(w) = 0$.
 
 **(b)** Suppose $\mathcal{W} = \mathbb{R}^{d}$. Show that if $d > 1$, then for *any* any $w \in \mathcal{W}$, there exists a nonzero $v$ such that $D_{v} L(w) = 0$.
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986671904}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986671904}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 consider separately the cases $\nabla L(w) = 0$ and $\nabla L(w) \neq 0$.
 
 ::::
-:::
+{--{"author":"Elias's AI","timestamp":1786986995193}@@:::--}{++{"author":"Elias's AI","timestamp":1786986995193}@@:::::++}
 
 ^ex-loss-basic
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986671904}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986671904}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. Since $L_{x,y}(w)$ depends on $w$ only through $\Phi(w)$, we can write $L_{x,y}(w) = \ell_{x,y}(\Phi(w))$ for some functional $\ell_{x,y}$. If $D_{v}\Phi(w) = 0$, then $\Phi(w + \epsilon v) = \Phi(w) + O(\epsilon^{2})$ as $\epsilon \to 0$, and therefore $L_{x,y}(w + \epsilon v) = \ell_{x,y}(\Phi(w) + O(\epsilon^{2})) = L_{x,y}(w) + O(\epsilon^{2})$. Taking expectations over $(x,y) \sim q$,
 
@@ -1554,13 +1554,13 @@ In particular, at a local minimum, $H(w)$ is positive semidefinite. We can there
 - A local minimum $w$ is **regular** (or **non-degenerate**, or **Morse**) if $H(w)$ is positive definite.
 - A local minimum $w$ is **degenerate** (or **non-Morse**) if $H(w)$ is singular (has a zero eigenvalue).
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986671904}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986671904}@@tone="amber"}++}
+{--{"author":"Elias's AI","timestamp":1786986998080}@@:::callout--}{++{"author":"Elias's AI","timestamp":1786986998080}@@:::::callout++} {title="Exercise" tone="amber"}
 **Exercise 2.14 (Some examples of loss landscape degeneracy).** Consider the parameter space $\mathcal{W} = \mathbb{R}^{2}$ with the identity parameter–function map $\Phi = \mathrm{id}$, so that we identify parameters with the functions they implement (cf., [[#^ex-univariate-degeneracy|Exercise 2.1]]). Consider the family of loss functions $L_{k,l}(a,b) = a^{2k}+ b^{2l}$ for non-negative integers $k$ and $l$.
 
 **(a)** Show that the origin is a global minimum of $L_{k,l}$ for all non-negative $k$ and $l$. For which $k$ and $l$ is it the unique global minimum?
 
 **(b)** Show that if $k = l = 1$, then the origin is a non-degenerate (regular) minimum.
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986671904}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986671904}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Compute the Hessian.
 
@@ -1569,12 +1569,12 @@ Compute the Hessian.
 **(c)** Show that if $k > 1$ and $l \geq 1$, then the origin is a degenerate minimum.
 
 **(d)** Show that if $k = 0$ and $l \geq 1$, then the origin is a degenerate minimum.
-:::
+{--{"author":"Elias's AI","timestamp":1786986998080}@@:::--}{++{"author":"Elias's AI","timestamp":1786986998080}@@:::::++}
 
 ^ex-loss-landscape-degeneracy
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986671904}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986671904}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. Since $a^{2k}\geq 0$ and $b^{2l}\geq 0$ for all $a, b \in \mathbb{R}$ (using the convention $0^{0} = 1$), we have $L_{k,l}(a,b) \geq 0$ for $k, l \geq 1$, $L_{k,l}(a,b) \geq 1$ if $k = 0$ or $l = 0$, and $L_{k,l}(a,b) = 2$ if $k = l = 0$. At the origin, $L_{k,l}(0,0) = 0^{2k}+ 0^{2l}$, which equals $0$ if $k \geq 1$ and $l \geq 1$, equals $1$ if exactly one of $k, l$ is $0$, and equals $2$ if $k = l = 0$. In each case this matches the lower bound, so the origin is a global minimum.
 
@@ -1603,7 +1603,7 @@ So much for defining loss landscape degeneracy. What is the relationship between
 
 The relationship is subtle, and generally depends on the choice of loss function. One natural setting in which to study this relationship is the *realisable statistical model:* given a parameter–distribution map and a parameter $w_{0}$, if we consider $p_{w_0}$ as the true data-generating distribution, the population negative log-likelihood loss will have a global minimum at $w_{0}$. The following exercise shows that in this setting, under mild regularity assumptions on the statistical model, degeneracy in the parameter–distribution map at $w_{0}$ implies that the global minimum $w_{0}$ is a degenerate global minimum of the loss landscape.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986671904}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986671904}@@tone="amber"}++}
+{--{"author":"Elias's AI","timestamp":1786987001040}@@:::callout--}{++{"author":"Elias's AI","timestamp":1786987001040}@@:::::callout++} {title="Exercise" tone="amber"}
 **Exercise 2.15 (Realisable models and Hessian degeneracy).** Let $\Psi : \mathcal{W} \to \mathcal{D}$ be a parameter–distribution map with positive densities $p(y \mid x, w)$, twice-differentiable in $w$. Suppose data is generated from a fixed true parameter $w_{0} \in \mathcal{W}$, meaning $q(y \mid x) = p(y \mid x, w_{0})$. Consider the population negative log-likelihood loss
 
 $$
@@ -1624,7 +1624,7 @@ $$
 
 
 where $s$ is the score function from [[#^def-score|Definition 2.3]].
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986671904}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986671904}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 differentiate the identity $\mathbb{E}_{y \sim p(y \mid x, w)}[s(x, y, w)] = 0$ (established in [[#^ex-score-properties|Exercise 2.11]]) with respect to $w$.
 
@@ -1641,19 +1641,19 @@ $$
 ^eq-fim-hessian
 
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986671904}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986671904}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 compute $H(w) = -\mathbb{E}_{x}\, \mathbb{E}_{y \sim p(y \mid x, w_0)}[\nabla_{w}^{2} \log p(y \mid x, w)]$, evaluate at $w = w_{0}$, and apply part (a).
 
 ::::
 
 **(c)** Using the result of [[#^ex-fim-degeneracy|Exercise 2.12]], conclude: if $\Psi$ is degenerate at $w_{0}$ in direction $v$, then $H(w_{0})\, v = 0$. Contrapositively, if $H(w_{0})$ is positive definite, then $\Psi$ is non-degenerate at $w_{0}$.
-:::
+{--{"author":"Elias's AI","timestamp":1786987001040}@@:::--}{++{"author":"Elias's AI","timestamp":1786987001040}@@:::::++}
 
 ^ex-fim-hessian
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986671904}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986671904}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. From [[#^ex-score-properties|Exercise 2.11]], $\mathbb{E}_{y \sim p(y \mid x, w)}[s_{j}(x,y,w)] = 0$ for each component $j$ of the score, where $s_{j} = \frac{\partial}{\partial w_{j}}\log p(y \mid x, w)$. Differentiating with respect to $w_{k}$ and exchanging the derivative with the integral:
 
@@ -1691,7 +1691,7 @@ Contrapositively: if $H(w_{0})$ is positive definite, then $\ker H(w_{0}) = \{0\
 
 [[#^ex-fim-hessian|Exercise 2.15]] shows that for the population negative log-likelihood at the true parameter, degeneracy of the parameter–distribution map implies a degenerate loss landscape. The converse does not hold in general, nor does the forward direction hold at arbitrary points in parameter space. The following exercise explores these subtleties through examples.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986671904}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986671904}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 2.16 (Contrasting parametric versus loss degeneracy).** **(a)** Observe that the identity parameter–function map on $\mathcal{W} = \mathbb{R}^{2}$ is non-degenerate everywhere. With this in mind, what do your answers to [[#^ex-loss-landscape-degeneracy|Exercise 2.14(b)]] and [[#^ex-loss-landscape-degeneracy|2.14(c)]] and [[#^ex-loss-landscape-degeneracy|2.14(d)]] exemplify about the logical relationship between parameter–function map degeneracy and loss landscape degeneracy?
 
 **(b)** Consider again the identity parameter–function map on $\mathcal{W} = \mathbb{R}^{2}$. Consider the loss function $L_{\circ}(a,b) = (a^{2} + b^{2} - 1)^{2}$. Find a global minimum of $L_{\circ}$ and show that it is a degenerate critical point. What does this example reveal about the logical relationship between parameter–function map degeneracy and loss landscape degeneracy?
@@ -1712,7 +1712,7 @@ Contrapositively: if $H(w_{0})$ is positive definite, then $\ker H(w_{0}) = \{0\
 ^ex-loss-degeneracy-examples
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986675377}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986675377}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. The identity parameter–function map $\Phi(a,b) = (a,b)$ has Jacobian equal to the $2 \times 2$ identity matrix everywhere, so it is non-degenerate at every point. [[#^ex-loss-landscape-degeneracy|Exercise 2.14(b)]] shows that $L_{1,1}$ has a non-degenerate minimum: absence of parameter–function map degeneracy is consistent with absence of loss landscape degeneracy. [[#^ex-loss-landscape-degeneracy|Exercise 2.14(c)]] and [[#^ex-loss-landscape-degeneracy|2.14(d)]] show that $L_{2,1}$, $L_{0,1}$, etc., have degenerate minima despite the parameter–function map being non-degenerate. This demonstrates that loss landscape degeneracy does not imply parameter–function map degeneracy.
 2. $L_{\circ}(a,b) = (a^{2} + b^{2} - 1)^{2} \geq 0$, with equality if and only if $a^{2} + b^{2} = 1$. So every point on the unit circle is a global minimum. Consider $(1, 0)$. The gradient is
@@ -1788,7 +1788,7 @@ $$
 
 We will look at how this volume scales as $\epsilon \to 0$. It will be instructive for us to first calculate this scaling in the non-degenerate case.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986675377}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986675377}@@tone="amber"}++}
+{--{"author":"Elias's AI","timestamp":1786987004780}@@:::callout--}{++{"author":"Elias's AI","timestamp":1786987004780}@@:::::callout++} {title="Exercise" tone="amber"}
 **Exercise 3.1 (Volume scaling in the regular case).** Let $w^{*} \in \mathcal{W}$ be a local minimum of $L$, and suppose that the Hessian $\nabla^{2} L(w^{*})$ is positive definite. Show that
 
 
@@ -1802,17 +1802,17 @@ $$
 
 for some constant $c>0$ where $d = \dim(\mathcal{W})$. You may assume that, as $\epsilon \to 0$, the volume of $B(w^{*},\epsilon)$ agrees to leading order with the volume of the quadratic approximation obtained by replacing $L$ with its second-order Taylor expansion at $w^{*}$.
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986675377}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986675377}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 The volume of the ellipsoid $\{\boldsymbol{x}\in \mathbb{R}^{d} \mid \boldsymbol{x}^{\top} A \boldsymbol{x}< 1\}$ is proportional to $(\det A)^{-1/2}$.
 
 ::::
-:::
+{--{"author":"Elias's AI","timestamp":1786987004780}@@:::--}{++{"author":"Elias's AI","timestamp":1786987004780}@@:::::++}
 
 ^ex-llc-regular-case
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986675377}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986675377}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Because $w^{*}$ is a local minimum, the gradient $\nabla L(w^{*})$ is zero. By Taylor's theorem, we can write the loss function near $w^{*}$ exactly as:
 
@@ -1852,7 +1852,7 @@ $$
 
 The key takeaway from this exercise is that the dimension of the model controls the leading order asymptotics of the volume scaling. We can investigate this further by calculating the volume scaling in an example where the Hessian is not positive definite.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986675377}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986675377}@@tone="amber"}++}
+{--{"author":"Elias's AI","timestamp":1786987007771}@@:::callout--}{++{"author":"Elias's AI","timestamp":1786987007771}@@:::::callout++} {title="Exercise" tone="amber"}
 **Exercise 3.2 (Quadratic Valley Volume Scaling).** Let $\mathcal{W} = [-R,R]^{d}$ for some (large) $R\in\mathbb{R}$ and let $L(x_{1},\dots,x_{d}) = \sum\limits_{i=1}^{d'}x_{i}^{2}$.
 
 **(a)** Sketch the loss landscape when $d=2, \,d'=1$.
@@ -1863,17 +1863,17 @@ The key takeaway from this exercise is that the dimension of the model controls 
 
 **(d)** Prove that $V(\epsilon) \propto \epsilon^{d'/2}$
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986675377}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986675377}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Use the volume of the ellipsoid from Exercise [[#^ex-llc-regular-case|3.1]]
 
 ::::
-:::
+{--{"author":"Elias's AI","timestamp":1786987007771}@@:::--}{++{"author":"Elias's AI","timestamp":1786987007771}@@:::::++}
 
 ^ex-quad-valley-scaling
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986675377}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986675377}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. The loss is $L(x_{1}, x_{2}) = x_{1}^{2}$, which is a parabolic trough: a parabola in the $x_{1}$ direction and constant along $x_{2}$. The zero set is the line $x_{1} = 0$.
 2. $\mathcal{W}_{0} = \{0\}^{d'}\times [-R,R]^{d-d'}$, which is a $(d - d')$-dimensional affine subspace of $\mathcal{W}$. Hence $\dim(\mathcal{W}_{0}) = d - d'$.
@@ -1922,7 +1922,7 @@ We call $\lambda(w^{*})$ the **local learning coefficient (LLC)** at $w^{*}$, an
 ^def-llc
 
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986675377}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986675377}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 3.3 (Two equations for $\lambda$).** **(a)** Prove that for $a>1$
 
 
@@ -1949,7 +1949,7 @@ $$
 ^ex-solving-for-lambda
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986675377}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986675377}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. From [[#^def-llc|Definition 3.1]], as $\epsilon \to 0$,
 

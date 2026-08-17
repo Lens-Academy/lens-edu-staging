@@ -12,7 +12,7 @@ provenance_recorded_at: '2026-08-17'
 
 #### Text
 content::
-:::callout {title="What you'll learn" {--{"author":"Elias's AI","timestamp":1786986696598}@@tone="green"}--}{++{"author":"Elias's AI","timestamp":1786986696598}@@tone="neutral"}++}
+:::callout {title="What you'll learn" tone="neutral"}
 
 - Understand the difference between preferences, utility, and reward: preferences being a primary, largely uncontroversial notion, and utility and rewards being derived notions resting on specific assumptions.
 - Be able to derive the relationship between various preference structures and rationality axioms.
@@ -395,7 +395,7 @@ So $u'$ is a positive affine transformation of $u$.
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986700535}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986700535}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 5.1 (Guided proof of the von Neumann–Morgenstern theorem).** Assume $X\subseteq \mathcal{H}^{*}$ is finite and that $\succcurlyeq$ on $\Delta(X)$ satisfies completeness, transitivity, continuity, and independence.
 
 **(a)** Show that there exist trajectories $b,w\in X$ such that $b\succcurlyeq h \succcurlyeq w$ for every $h\in X$.
@@ -452,7 +452,7 @@ This gives the expected-utility representation.
 ^ex-vnm-theorem
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986700535}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986700535}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. Induction on $|X|$. A single trajectory is its own best and worst element. Given a maximal $b'$ and minimal $w'$ for $X\setminus\{h\}$, completeness compares $h$ with each of them and transitivity makes the better of $\{h,b'\}$ maximal and the worse of $\{h,w'\}$ minimal for $X$.
 2. If $b\sim w$ then every $h$ is indifferent to both and any constant $u$ works. Otherwise $b\succ w$. By (a) we have $b\succcurlyeq h\succcurlyeq w$, so continuity applied to the triple $(b,h,w)$ gives directly some $\lambda\in[0,1]$ with $h\sim \lambda b+(1-\lambda)w$; set $u(h)\coloneqq\lambda$. For uniqueness, independence implies the mixtures $\alpha b+(1-\alpha)w$ are strictly increasing in $\alpha$ when $b\succ w$, so two different weights cannot both be indifferent to $h$.
@@ -497,7 +497,7 @@ Unlike ordinal utility, $u_{\mathrm{vNM}}$ is unique only up to positive affine 
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986700535}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986700535}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 5.2 (Ordinal versus vNM utility).** Let $x,y,z\in\mathcal{H}^{*}$ satisfy $x\succ y\succ z$.
 
 **(a)** Give two different ordinal utility functions $u_{1},u_{2}\colon\mathcal{H}^{*}\to\mathbb{R}$ that represent the same ranking of $x,y,z$.
@@ -516,7 +516,7 @@ Show that not every strictly increasing transformation of a vNM utility can pres
 ^ex-ordinal-vs-vnm
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986700535}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986700535}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. For instance $u_{1}(x,y,z)=(2,1,0)$ and $u_{2}(x,y,z)=(100,5,-3)$.
 2. An ordinal representation encodes only the ranking: $u$ represents $\succcurlyeq$ iff $u(h)\geq u(h')\iff h\succcurlyeq h'$, and both functions induce $x\succ y\succ z$. Composing with any strictly increasing map preserves exactly this information, so no ordinal criterion can distinguish $u_{1}$ from $u_{2}$.
@@ -585,7 +585,7 @@ From the perspective of sequential choice, independence also matters because it 
 
 So the two failures have different meanings. Failure of continuity says that some priorities are infinitely sharp, leading naturally to lexicographic or infinitesimal utility scales. Failure of independence says that uncertainty is evaluated holistically rather than by linear averaging, leading to models in which background risk, certainty, or reference dependence affect choice.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986703759}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986703759}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 5.3 (Failures of the vNM axioms).** Here we will study the consequences of different axioms.
 
 **(a)** Construct a simple incomplete preference relation on three trajectories. Why can it not be represented by a single real-valued ordinal utility?
@@ -600,7 +600,7 @@ So the two failures have different meanings. Failure of continuity says that som
 ^ex-vnm-failures
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986703759}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986703759}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. Let $x\succ y$, $x\succ z$, with $y$ and $z$ incomparable (neither $y\succcurlyeq z$ nor $z\succcurlyeq y$). Any $u\colon\{x,y,z\}\to\mathbb{R}$ satisfies $u(y)\geq u(z)$ or $u(z)\geq u(y)$ because the reals are totally ordered, so the relation it represents is complete; incomparability cannot be encoded by a single real-valued function.
 2. Take $x\succ y\succ z\succ x$. Suppose you hold $x$ and are willing to pay some small $\varepsilon>0$ to exchange an item for one you strictly prefer. Since $z\succ x$ you pay to swap $x\to z$; since $y\succ z$ you pay to swap $z\to y$; since $x\succ y$ you pay to swap $y\to x$. You are back where you started, $3\varepsilon$ poorer, and the cycle can be run forever.
@@ -706,7 +706,7 @@ so utility is simply the additive cumulative reward.
 
 In summary, the step from vNM utility over whole trajectories to RL-style reward requires one more axiom. That axiom simultaneously identifies both the local reward signal and the form of discounting.
 
-:::callout {title="Note" tone="neutral"}
+:::callout {title="Note" {--{"author":"Elias's AI","timestamp":1786986839850}@@tone="neutral"}--}{++{"author":"Elias's AI","timestamp":1786986839850}@@tone="blue"}++}
 
 **Remark (MDPs, POMDPs, and locality).** The locality result of this section is especially natural in fully observed MDPs, where one often expects reward to depend only on the current state transition. In the present note, however, the primitive histories are sequences of observations and actions, and the corresponding local reward has the form $r\colon \mathcal{O}\times \mathcal{A}\to\mathbb{R}$. In partially observed settings this can be restrictive: a goal may be Markov in the hidden state, in the agent's belief state, or in some augmented memory state, without being reducible to a function of the current observation-action pair alone. In that sense, the fifth axiom should be read as characterizing when preferences admit a reward that is local in the chosen representation of experience. If the raw observation stream is too coarse, one may need to enrich the state description before a Markov reward representation becomes available ([[#^bib-bowling2023settling|Bowling et al. 2023]]).
 
@@ -743,7 +743,7 @@ So reward is a way of *decomposing* utility over complete trajectories into step
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986703759}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986703759}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 6.1 (Guided proof of the Markov reward representation theorem).** Assume the hypotheses of [[#^ex-vnm-theorem|Exercise 5.1]] together with temporal $\gamma$-indifference, and let $u$ be a vNM utility representation over trajectories.
 
 **(a)** Apply expected utility to temporal $\gamma$-indifference and show that for all lotteries $\mu,\nu\in\Delta(\mathcal{H}^{*})$ and all transitions $t\in T$,
@@ -806,7 +806,7 @@ Interpret this as a source of reward non-uniqueness.
 ^ex-markov-reward
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986703759}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986703759}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. Apply $u$ (in expected-utility form) to both sides of the axiom's indifference and multiply by $1+\gamma(t)$:
 
@@ -896,7 +896,7 @@ The previous result shows that shaping $r$ into $r_{\Phi}$ changes utility only 
 
 The general lesson is that reward is best understood as a *coordinate system* for utility, not as a uniquely given primitive. Some transformations, such as positive scaling, merely change the numerical units. Others, such as potential-based shaping, redistribute value along the trajectory while leaving the overall preference over complete trajectories unchanged. This is why reward design is often underdetermined: what matters behaviorally is not a raw reward function in isolation, but the utility and preference structure it induces.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986707050}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986707050}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 7.1 (Reward shaping).** Assume additive reward with $\gamma\equiv 1$ and define
 
 $$
@@ -913,7 +913,7 @@ $$
 ^ex-reward-shaping
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986707050}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986707050}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 1. Writing $t_{i}=(s_{i-1},a_{i},s_{i})$, the shaped total is
 
@@ -937,40 +937,40 @@ The final step is to see that even vNM utility is not yet reward. To obtain a lo
 
 \## Open-ended questions
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986707050}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986707050}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 8.1.** Do the results have any prescriptive or descriptive implications? What kinds of agents, with what kinds of preferences should we design? By default, what kind of agents should we expect to obtain via typical training processes?
 :::
 
 ^ex-open-implications
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986707050}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986707050}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Discussion notes, not a unique answer. Prescriptively, the money-pump and dominance arguments say that an agent which cares about a fungible resource is under pressure toward completeness and transitivity — coherence is an attractor for agents that can be exploited otherwise. Descriptively, nothing guarantees that trained systems satisfy any axiom: gradient descent on episodic objectives can produce context-dependent, intransitive, or incomparable preferences, especially off-distribution. A reasonable expectation is approximate coherence where incoherence was penalised during training, and no guarantee elsewhere. For design, the trade-off runs both ways: highly coherent agents are more predictable and analysable but are exactly the ones for which instrumental-convergence arguments bite; agents with incomplete or unstable preferences may be harder to exploit into goal-directed resource acquisition, at the cost of being harder to reason about.
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986707050}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986707050}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 8.2.** Let's assume a superintelligence has preferences over trajectories. Are there weaker versions of the axioms that make it more plausible that these preferences are "safe for us" compared to preferences that lead to utilities or even rewards?
 :::
 
 ^ex-open-weaker-axioms
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986707050}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986707050}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Discussion notes. The natural candidates weaken one axiom at a time. Dropping *completeness* is the most studied: an agent with incomplete preferences can remain undecided between continuing and being shut down, so it is not pushed by coherence arguments toward shutdown-resistance; money pumps also lose force because the agent may simply refuse trades between incomparable options. Weakening *continuity* permits lexicographic safety: "never cross the constraint, then optimise" cannot be represented by a single real-valued utility, which is arguably a feature. Weakening *independence* allows certainty-favouring (Allais-like) preferences, which dampen gambling-for-resources behaviour. Weakening *temporal $\gamma$-indifference* removes the local reward representation: goals about the shape of a trajectory as a whole (diversity, "never do X") stop being expressible as accumulated reward. The common pattern: each axiom kept buys a representation theorem and optimisation pressure; each axiom dropped blocks a coherence-based failure mode while making the agent's behaviour less analysable.
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986707050}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986707050}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 8.3.** More generally, are there interesting examples of preferences over trajectories that the students could analyse, that do or do not satisfy some of the axioms?
 :::
 
 ^ex-open-examples
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986707050}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986707050}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Discussion notes; instructive examples include: (i) lexicographic safety-first preferences — violate continuity (see [[#^ex-vnm-failures|Exercise 5.3]]); (ii) Pareto/multi-objective preferences, undominated but unaggregated — violate completeness; (iii) hyperbolic discounting — satisfies the vNM axioms at a single decision time yet violates temporal $\gamma$-indifference, hence admits utility but no stationary reward/discount pair, and is dynamically inconsistent; (iv) the certainty effect (Allais) — violates independence only; (v) satisficing ("anything above the threshold is equally fine") — complete and transitive, so ordinal utility exists, but indifference plateaus interact oddly with lotteries near the threshold; (vi) trajectory-shape goals such as "visit as many distinct states as possible" — can satisfy all four vNM axioms (a utility exists) while violating the temporal axiom, illustrating exactly the gap between utility and reward.
 

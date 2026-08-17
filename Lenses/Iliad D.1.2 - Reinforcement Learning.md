@@ -13,7 +13,7 @@ provenance_recorded_at: '2026-08-17'
 
 #### Text
 content::
-:::callout {title="What you'll learn" {--{"author":"Elias's AI","timestamp":1786986728044}@@tone="green"}--}{++{"author":"Elias's AI","timestamp":1786986728044}@@tone="neutral"}++}
+:::callout {title="What you'll learn" tone="neutral"}
 
 - Understand Markov Decision Processes and the goal of the agent, for known environments.
 - Understand the Bellman equation.
@@ -121,7 +121,7 @@ The expectation averages the return over all future trajectories $(a_{t}, s_{t+1
 ^def-value
 
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986728044}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986728044}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 1.1.** Prove the **Bellman equation**: for all $s \in \mathcal{S}$,
 ::::callout {title="Note" tone="neutral"}
 
@@ -138,7 +138,7 @@ $$
 ^prob-bellman-proof
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986728044}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986728044}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Starting from the definition of $V_{\pi}$ and using the recursion $G_{t} = r_{t+1}+ \gamma\, G_{t+1}$:
 
@@ -179,7 +179,7 @@ $$
 ^def-q-function
 
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986728044}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986728044}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 1.2.** **(a)** Express $V_{\pi}(s)$ in terms of $Q_{\pi}$.
 
 **(b)** Express $Q_{\pi}(s,a)$ in terms of $V_{\pi}$.
@@ -190,7 +190,7 @@ $$
 ^prob-q-function
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986728044}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986728044}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 **(a)** Starting from the definition of $V_{\pi}(s)$ and conditioning on the first action $a_{t} = a$:
 
@@ -226,7 +226,7 @@ From $s_{0}$, action $a_{L}$ leads deterministically to $s_{L}$ with reward $+1$
 
 Let $\pi_{L}$ denote the policy that always selects $a_{L}$, and $\pi_{R}$ the policy that always selects $a_{R}$.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986728044}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986728044}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 2.1.** Using the Bellman equation from [[#^prob-bellman-proof|Exercise 1.1]], verify that
 
 $$
@@ -237,7 +237,7 @@ $$
 ^prob-small-mdp-values
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986728044}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986728044}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Under $\pi_{L}$ all transitions are deterministic, so the Bellman equation collapses to
 
@@ -265,14 +265,14 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986728044}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986728044}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 2.2.** Determine the best action from state $s_{0}$ as a function of the discount factor $\gamma \in (0, 1)$. Show that the breakeven point is $\gamma = \tfrac{1}{2}$.
 :::
 
 ^prob-small-mdp-optimal
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986728044}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986728044}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Since any action from $s_{L}$ or $s_{R}$ deterministically returns to $s_{0}$ with the same reward, the value of any policy at $s_{0}$ is determined entirely by the action chosen at $s_{0}$. Hence comparing $V_{\pi_L}(s_{0})$ and $V_{\pi_R}(s_{0})$ suffices:
 
@@ -326,7 +326,7 @@ $$
 ^def-bellman-op
 
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986728044}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986728044}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 3.1.** Let $f, g : \mathcal{A} \to \mathbb{R}$ be real-valued functions on a finite set $\mathcal{A}$. Prove that
 
 $$
@@ -337,7 +337,7 @@ $$
 ^prob-max-ineq
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986728044}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986728044}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Without loss of generality, assume $\max_{a}f(a) \ge \max_{a}g(a)$. Let $a^{*} \in \operatorname*{arg\,max}_{a \in \mathcal{A}}f(a)$. Then:
 
@@ -347,7 +347,7 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986728044}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986728044}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 3.2.** Using [Exercise 3.1]], prove that $\mathcal{B}$ is a **contraction mapping** with contraction factor $\gamma$, i.e. for all $V, W \in \mathcal{V}$,
 
 $$
@@ -358,7 +358,7 @@ $$
 ^prob-b-contraction
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986728044}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986728044}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Fix an arbitrary state $s \in \mathcal{S}$. Define for each $a \in \mathcal{A}$:
 
@@ -376,20 +376,20 @@ where the last step uses $\sum_{s'}T(s' \mid s, a) = 1$. Since this holds for ev
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986728044}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986728044}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 3.3.** Using [[#^thm-banach|Theorem 3.1]], conclude that there exists a unique $V^{*} \in \mathcal{V}$ satisfying $\mathcal{B}V^{*} = V^{*}$, and that for any initial $V_{0} \in \mathcal{V}$, the iterates $\mathcal{B}^{n} V_{0} \to V^{*}$ as $n \to \infty$.
 :::
 
 ^prob-v-star-exists
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986728044}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986728044}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 The space $(\mathcal{V}, \|\cdot\|_{\infty})$ is a finite-dimensional normed vector space, hence complete. By [[#^prob-b-contraction|Exercise 3.2]], $\mathcal{B}$ is a contraction on $\mathcal{V}$ with factor $\gamma < 1$. [[#^thm-banach|Theorem 3.1]] then gives the existence of a unique fixed point $V^{*} = \mathcal{B}V^{*}$, and convergence $\mathcal{B}^{n} V_{0} \to V^{*}$ for any $V_{0} \in \mathcal{V}$.
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 3.4.** Show that for any policy $\pi$, the operator $\mathcal{B}_{\pi} : \mathcal{V}\to \mathcal{V}$ defined by
 ::::callout {title="Note" tone="neutral"}
 
@@ -408,7 +408,7 @@ is also a contraction with factor $\gamma$. Conclude that $V_{\pi}$ is its uniqu
 ^prob-bpi-contraction
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Fix $V, W \in \mathcal{V}$ and an arbitrary state $s \in \mathcal{S}$. Then:
 
@@ -422,7 +422,7 @@ By [[#^thm-banach|Theorem 3.1]], $\mathcal{B}_{\pi}$ has a unique fixed point. B
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 3.5.** Let $V \in \mathcal{V}$ be any value function, and let $\pi_{V}$ be a greedy policy with respect to $V$, i.e.
 
 $$
@@ -435,7 +435,7 @@ Show that $\mathcal{B}_{\pi_V}V = \mathcal{B}V$.
 ^prob-greedy-equals-b
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Since $\pi_{V}$ is deterministic, $\pi_{V}(a \mid s) = \llbracket a = \pi_{V}(s) \rrbracket$, so the sum over $a$ in $\mathcal{B}_{\pi_V}$ collapses to the single term $a = \pi_{V}(s)$. For every $s \in \mathcal{S}$:
 
@@ -447,7 +447,7 @@ where the second equality holds because $\pi_{V}(s)$ selects a maximizing action
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 3.6.** Define the **greedy policy** with respect to $V^{*}$ by $\pi^{*} = \pi_{V^*}$ as in the previous part. Show that $V_{\pi^*}= V^{*}$, i.e. the value function of $\pi^{*}$ equals the fixed point of $\mathcal{B}$.
 
 *Hint:* show that $V^{*}$ satisfies the same fixed-point equation as $V_{\pi^*}$.
@@ -456,13 +456,13 @@ where the second equality holds because $\pi_{V}(s)$ selects a maximizing action
 ^prob-v-pi-star
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 We have $\mathcal{B}_{\pi^*}V^{*} = \mathcal{B}V^{*} = V^{*}$ by [[#^prob-greedy-equals-b|Exercise 3.5]] and [[#^prob-v-star-exists|Exercise 3.3]]. So $V^{*}$ is a fixed point of $\mathcal{B}_{\pi^*}$. By [[#^prob-bpi-contraction|Exercise 3.4]], $V_{\pi^*}$ is the unique fixed point of $\mathcal{B}_{\pi^*}$. Therefore $V_{\pi^*}= V^{*}$.
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 3.7.** Conclude that $\pi^{*}$ is an **optimal policy**: for every policy $\pi$ and every state $s \in \mathcal{S}$,
 
 $$
@@ -475,7 +475,7 @@ $$
 ^prob-optimality
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Let $\pi$ be any policy. Since the max over actions is at least as large as any weighted average:
 
@@ -519,14 +519,14 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 4.1.** In proving [[#^prob-optimality|Exercise 3.7]], we already saw that for all $s \in \mathcal{S}$, we have $(\mathcal{B}V_{\pi})(s) \ge V_{\pi}(s)$. When does equality hold for all states?
 :::
 
 ^prob-when-equality
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 We have
 
@@ -538,7 +538,7 @@ where we used the Bellman equation in the last step. If equality holds at every 
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 4.2.** Show that $V_{\pi'}(s) \ge V_{\pi}(s)$ for all $s \in \mathcal{S}$.
 
 *Hint:* show that $\mathcal{B}_{\pi'}V_{\pi} \ge V_{\pi}$ pointwise using [[#^prob-greedy-equals-b|Exercise 3.5]], then iterate $\mathcal{B}_{\pi'}$ and take the limit.
@@ -547,7 +547,7 @@ where we used the Bellman equation in the last step. If equality holds at every 
 ^prob-policy-improvement-thm
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 By [[#^prob-greedy-equals-b|Exercise 3.5]], $\mathcal{B}_{\pi'}V_{\pi} = \mathcal{B}V_{\pi} \ge V_{\pi}$ pointwise, where the inequality is from [[#^prob-when-equality|Exercise 4.1]]. Note that $\mathcal{B}_{\pi'}$ is monotone: if $V(s) \ge W(s)$ for all $s$, then $(\mathcal{B}_{\pi'}V)(s) \ge (\mathcal{B}_{\pi'}W)(s)$. Applying $\mathcal{B}_{\pi'}$ to both sides and iterating:
 
@@ -559,7 +559,7 @@ By [[#^prob-bpi-contraction|Exercise 3.4]], $\mathcal{B}_{\pi'}^{n} V_{\pi} \to 
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 4.3.** The **policy iteration** algorithm generates a sequence of policies $\pi_{0}, \pi_{1}, \pi_{2}, \ldots$ where each $\pi_{k+1}$ is the greedy policy with respect to $V_{\pi_k}$. Show that this sequence converges to an optimal policy $\pi^{*}$ in a finite number of steps.
 
 *Hint:* how many deterministic policies are there?
@@ -568,7 +568,7 @@ By [[#^prob-bpi-contraction|Exercise 3.4]], $\mathcal{B}_{\pi'}^{n} V_{\pi} \to 
 ^prob-policy-iteration
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 By [[#^prob-policy-improvement-thm|Exercise 4.2]], the sequence of value functions is monotonically improving: $V_{\pi_{k+1}}(s) \ge V_{\pi_k}(s)$ for all $s$ and all $k$. Since each $\pi_{k}$ is a deterministic policy and there are only $|\mathcal{A}|^{|\mathcal{S}|}$ deterministic policies, the sequence must eventually revisit a policy. If $\pi_{k+1}= \pi_{j}$ for some $j \le k$, then $V_{\pi_{k+1}}= V_{\pi_j}$, and by monotonicity $V_{\pi_j}= V_{\pi_{j+1}}= \cdots = V_{\pi_{k+1}}$. In particular $V_{\pi_k}= V_{\pi_{k+1}}$.
 
@@ -580,7 +580,7 @@ It remains to show this implies optimality. Since $\pi_{k+1}$ is greedy with res
 
 [[#^prob-v-star-exists|Exercise 3.3]] showed that the iterates $V_{n} := \mathcal{B}^{n} V_{0}$ converge to $V^{*}$ for any starting $V_{0} \in \mathcal{V}$, but it did not tell us *how fast*, nor how to decide when to stop iterating. We derive some convergence rate bounds ([[#^bib-putermanmarkovdecisionprocesses1994|Puterman 1994]], Chapter 6).
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 5.1.** Show that for any initial $V_{0} \in \mathcal{V}$, the iterates $V_{n} := \mathcal{B}^{n} V_{0}$ satisfy
 
 $$
@@ -593,7 +593,7 @@ $$
 ^prob-geometric-decay
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Since $V^{*} = \mathcal{B}V^{*}$ and $\mathcal{B}$ is a $\gamma$-contraction ([[#^prob-b-contraction|Exercise 3.2]]),
 
@@ -605,7 +605,7 @@ Iterating $n$ times gives $\|V_{n} - V^{*}\|_{\infty} \le \gamma^{n} \|V_{0} - V
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 5.2.** Show the **a priori bound**:
 
 $$
@@ -620,7 +620,7 @@ This bound uses only $\|V_{1} - V_{0}\|_{\infty}$ — a quantity computable afte
 ^prob-a-priori-bound
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 By the contraction property applied repeatedly,
 
@@ -636,7 +636,7 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 5.3.** Show the **a posteriori bound**: for $n \ge 1$,
 
 $$
@@ -649,7 +649,7 @@ $$
 ^prob-a-posteriori-bound
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 *Step 1: bound each successive difference in terms of $\|V_{n} - V_{n-1}\|_{\infty}$.* Apply the contraction property of $\mathcal{B}$ once:
 
@@ -683,7 +683,7 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 5.4.** Show that the a posteriori bound of [[#^prob-a-posteriori-bound|Exercise 5.3]] is always at least as tight as the a priori bound of [[#^prob-a-priori-bound|Exercise 5.2]]: for all $n \ge 1$,
 
 $$
@@ -696,7 +696,7 @@ $$
 ^prob-a-posteriori-tighter
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Apply the contraction property of $\mathcal{B}$ to $V_{n} = \mathcal{B}V_{n-1}$ and $V_{n-1}= \mathcal{B}V_{n-2}$:
 
@@ -720,7 +720,7 @@ Both bounds from [[#^prob-a-posteriori-bound|Exercise 5.3]] and [[#^prob-a-prior
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 5.5.** Assume $|R(s,a,s')| \le R_{\max}$ for all $s,a,s'$. Show that if we initialize with $V_{0} \equiv 0$, then
 
 $$
@@ -733,7 +733,7 @@ This bound depends only on $n$, $\gamma$, and $R_{\max}$, so it can be evaluated
 ^prob-concrete-bound
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 With $V_{0} \equiv 0$:
 
@@ -749,14 +749,14 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 5.6.** Show that the bound of [[#^prob-concrete-bound|Exercise 5.5]] is **tight**: exhibit an MDP in which $\|V_{n} - V^{*}\|_{\infty} = \frac{\gamma^{n}}{1-\gamma}\, R_{\max}$ for every $n \ge 0$ (with $V_{0} \equiv 0$).
 :::
 
 ^prob-bound-tight
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986734897}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986734897}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Take $\mathcal{S} = \{s\}$, $\mathcal{A} = \{a\}$, $T(s \mid s, a) = 1$, and $R(s, a, s) = R_{\max}$. The Bellman optimality operator collapses to
 
@@ -879,7 +879,7 @@ with $Q_{t+1}(s,a) = Q_{t}(s,a)$ for all $(s,a) \neq (s_{t}, a_{t})$. We will sh
 
 Let $\mathcal{Q}= \{Q : \mathcal{S} \times \mathcal{A} \to \mathbb{R}\}$ denote the space of action-value functions, equipped with the sup-norm $\|Q\|_{\infty} = \max_{s,a}|Q(s,a)|$.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986738281}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986738281}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 6.1.** Overloading the notation from [[#^def-bellman-op|Theorem 3.2]], define the **Bellman optimality operator** on action-value functions, $\mathcal{B}: \mathcal{Q}\to \mathcal{Q}$, by
 ::::callout {title="Note" tone="neutral"}
 
@@ -898,7 +898,7 @@ $$
 ^prob-bq-contraction
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986738281}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986738281}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Fix $Q, Q' \in \mathcal{Q}$ and $(s,a) \in \mathcal{S} \times \mathcal{A}$. By the inequality from [[#^prob-max-ineq|Exercise 3.1]] (applied at each $s'$) and the triangle inequality:
 
@@ -910,7 +910,7 @@ Taking the maximum over $(s,a)$ gives $\|\mathcal{B}Q - \mathcal{B}Q'\|_{\infty}
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986738281}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986738281}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 6.2.** Define $Q^{*} \coloneqq Q_{\pi^*}$, the action-value function of the optimal policy $\pi^{*}$ from [[#3. Bellman operators and the existence of optimal policies|Section 3]]. We now show Bellman optimality equations and their consequences.
 
 **(a)** Show that $Q^{*}(s,a) = \sum_{s' \in \mathcal{S}}T(s' \mid s, a)\bigl[R(s,a,s') + \gamma\, V^{*}(s')\bigr]$.
@@ -923,7 +923,7 @@ Taking the maximum over $(s,a)$ gives $\|\mathcal{B}Q - \mathcal{B}Q'\|_{\infty}
 ^prob-bellman-opt-q
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986738281}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986738281}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 **(a)** By [[#^prob-q-function|Exercise 1.2(b)]] applied to $\pi^{*}$:
 
@@ -945,7 +945,7 @@ So $Q^{*}$ is a fixed point of $\mathcal{B}$. Uniqueness follows from [[#^prob-b
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986738281}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986738281}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 6.3.** Rewrite the Q-learning update in the form of [[#^thm-stochastic-approx|Theorem 6.1]]:
 
 $$
@@ -958,7 +958,7 @@ Specifically, identify the index set $I$, the mapping $F$, the iterates $x_{t}$,
 ^prob-identify-sa
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986738281}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986738281}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 The identifications are:
 
@@ -983,7 +983,7 @@ i.e. the difference between the sampled target (using the single transition $s_{
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986738281}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986738281}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 6.4.** Show that the noise satisfies $\mathbb{E}[w_{t}(s,a) \mid \mathcal{F}_{t}] = 0$ for all $(s,a) \in \mathcal{S} \times \mathcal{A}$, where $\mathcal{F}_{t}$ denotes the history up to time $t$ as in [[#^thm-stochastic-approx|Theorem 6.1]].
 
 *Hint:* conditioned on $\mathcal{F}_{t}$, the quantities $Q_{t}$, $s_{t}$, and $a_{t}$ are all determined. What is the only remaining source of randomness?
@@ -992,7 +992,7 @@ i.e. the difference between the sampled target (using the single transition $s_{
 ^prob-noise-zero-mean
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986738281}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986738281}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Conditioned on $\mathcal{F}_{t}$, the quantities $Q_{t}$, $s_{t}$, $a_{t}$ are all determined. The only remaining randomness is in $s_{t+1}\sim T(\cdot \mid s_{t}, a_{t})$. Therefore:
 
@@ -1004,7 +1004,7 @@ For $(s,a) \neq (s_{t}, a_{t})$, we have $w_{t}(s,a) = 0$ by definition, so $\ma
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986738281}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986738281}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 6.5.** Assume $|R(s,a,s')| \le R_{\max}$ for all $s, a, s'$. Show that there exists a constant $C > 0$ (depending only on $R_{\max}$ and $\gamma$) such that
 
 $$
@@ -1017,7 +1017,7 @@ $$
 ^prob-noise-bounded-var
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986738281}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986738281}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 *Step 1: a pointwise bound on $w_{t}$.* Using $|R(s_{t}, a_{t}, s_{t+1})| \le R_{\max}$ and $|\max_{a'}Q_{t}(s_{t+1}, a')| \le \|Q_{t}\|_{\infty}$, the sampled target satisfies
 
@@ -1067,14 +1067,14 @@ So $C = 8\max(R_{\max}^{2}, \gamma^{2})$ works. For $(s,a) \neq (s_{t}, a_{t})$,
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986738281}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986738281}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 6.6.** Conclude: state the conditions on the learning rate schedule and the exploration policy under which Q-learning converges, i.e. $Q_{t} \to Q^{*}$ with probability $1$. *Remark.* The ARENA implementation uses a constant learning rate $\alpha$, which does not satisfy $\sum_{t} \alpha_{t}(s,a)^{2} < \infty$. In practice, constant-rate Q-learning does not converge exactly but oscillates in a neighbourhood of $Q^{*}$ whose size shrinks with $\alpha$.
 :::
 
 ^prob-q-learning-converge
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986738281}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986738281}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 By [[#^prob-bq-contraction|Exercises 6.1–6.5]], the Q-learning iteration satisfies all the hypotheses of [[#^thm-stochastic-approx|Theorem 6.1]], provided the learning rate conditions hold: for each $(s,a) \in \mathcal{S} \times \mathcal{A}$,
 
@@ -1125,7 +1125,7 @@ $$
 ^fact-neumann
 
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986742010}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986742010}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 7.1.** Starting from the Bellman equation ([[#^prob-bellman-proof|Exercise 1.1]]) applied to a deterministic policy $\pi$, show that
 ::::callout {title="Note" tone="neutral"}
 
@@ -1144,7 +1144,7 @@ assuming $\mathbf{I}- \gamma\, \mathbf{P}^{\pi}$ is invertible (which we prove i
 ^prob-exact-eval-derive
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986742010}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986742010}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Since $\pi$ is deterministic, $\pi(a \mid s) = \llbracket a = \pi(s) \rrbracket$, and the Bellman equation from [[#^prob-bellman-proof|Exercise 1.1]] collapses the sum over actions:
 
@@ -1168,7 +1168,7 @@ Assuming $\mathbf{I}- \gamma\, \mathbf{P}^{\pi}$ is invertible, left-multiplying
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986742010}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986742010}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 7.2.** Prove that $\mathbf{I}- \gamma\, \mathbf{P}^{\pi}$ is invertible for any deterministic policy $\pi$ and any $\gamma \in (0, 1)$.
 
 *Hint:* apply [[#^fact-neumann|Theorem 7.2]].
@@ -1177,7 +1177,7 @@ Assuming $\mathbf{I}- \gamma\, \mathbf{P}^{\pi}$ is invertible, left-multiplying
 ^prob-exact-eval-invertible
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986742010}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986742010}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 The matrix $\mathbf{P}^{\pi}$ is **row-stochastic**: $\mathbf{P}^{\pi}_{s,s'}\ge 0$ and $\sum_{s'}\mathbf{P}^{\pi}_{s,s'}= \sum_{s'}T(s' \mid s, \pi(s)) = 1$ for every $s$. Therefore
 

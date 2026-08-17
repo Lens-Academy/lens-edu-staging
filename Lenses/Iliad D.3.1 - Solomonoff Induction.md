@@ -12,7 +12,7 @@ provenance_recorded_at: '2026-08-17'
 
 #### Text
 content::
-:::callout {title="What you'll learn" {--{"author":"Elias's AI","timestamp":1786986746915}@@tone="green"}--}{++{"author":"Elias's AI","timestamp":1786986746915}@@tone="neutral"}++}
+:::callout {title="What you'll learn" tone="neutral"}
 
 - Define the Bayesian mixture over a class of environments and prove it is a proper predictor whose posterior updates multiplicatively.
 - Prove the cumulative prediction-error bound and specialize it to the Solomonoff prior to recover the Occam bound.
@@ -124,7 +124,7 @@ Here $w(\nu \mid x_{<t})$ is the *posterior* belief in $\nu$ after observing $x_
 
 The mixture $\xi$ is defined as a sum of *joint* probabilities. To use it as a predictor we need its one-step conditional $\xi(x_{t} \mid x_{<t})$, and we need to know it is a genuine probability distribution (so that, later, Pinsker's inequality applies to it).
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986746915}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986746915}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 1.1 (Generalized chain rule) [05].** The two-term chain rule baked into [[#^def-environment|Theorem 1.1]] extends to arbitrary contiguous blocks. Show that for any $1 \leq p \leq q \leq r$ and any history $x_{<p}$ with $\nu(x_{<p}) > 0$,
 
 $$
@@ -135,7 +135,7 @@ $$
 ^prob-chain-rule-gen-ex
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986746915}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986746915}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Expand the conditional as a ratio of joints; the chain rule ([[#^def-environment|Theorem 1.1]]) telescopes the ratio to a product over indices $k = p, \ldots, r$:
 
@@ -151,7 +151,7 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986746915}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986746915}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 1.2 (Mixture is a predictor) [10].** Starting from $\xi(x_{1:t}) = \sum_{\nu \in \mathcal{M}}w_{\nu}\, \nu(x_{1:t})$, show that
 
 $$
@@ -160,7 +160,7 @@ $$
 
 and conclude that $\sum_{x_t \in \mathbb{B}}\xi(x_{t} \mid x_{<t}) = 1$, i.e. $\xi(\cdot \mid x_{<t})$ is a probability distribution over $\mathbb{B}$.
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986746915}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986746915}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Write $\xi(x_{t} \mid x_{<t}) = \xi(x_{1:t}) / \xi(x_{<t})$, expand the numerator, and use the chain rule $\nu(x_{1:t}) = \nu(x_{<t})\, \nu(x_{t} \mid x_{<t})$ ([[#^def-environment|Theorem 1.1]]). For the last part, note that the posterior weights sum to $1$.
 
@@ -170,7 +170,7 @@ Write $\xi(x_{t} \mid x_{<t}) = \xi(x_{1:t}) / \xi(x_{<t})$, expand the numerato
 ^prob-one-step-ex
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986746915}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986746915}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 The one-step conditional is the ratio of joint to marginal, $\xi(x_{t} \mid x_{<t}) := \xi(x_{1:t}) / \xi(x_{<t})$. Expanding the numerator and applying the chain rule $\nu(x_{1:t}) = \nu(x_{<t})\, \nu(x_{t} \mid x_{<t})$ to each term:
 
@@ -192,7 +192,7 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986746915}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986746915}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 1.3 (Posterior update) [10].** Show that the posterior weight $w(\cdot \mid \cdot)$ updates *multiplicatively* as new symbols arrive. For every $x_{1:t}\in \mathbb{B}^{*}$ with $\xi(x_{1:t}) > 0$,
 
 $$
@@ -205,7 +205,7 @@ That is: the new posterior equals the old posterior, scaled by the **likelihood 
 ^prob-posterior-update-ex
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986746915}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986746915}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 By [[#^def-mixture|Theorem 1.2]],
 
@@ -223,7 +223,7 @@ Rearranging gives the claim.
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986746915}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986746915}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 1.4 (Multi-step posterior linearity) [10].** [[#^prob-one-step-ex|Exercise 1.2]] showed that $\xi$'s one-step prediction $\xi(x_{t} \mid x_{<t})$ is the posterior-weighted average of the per-model one-step predictions. The same identity extends to predictions over a *whole future segment* $x_{t:m}$: for any $t \leq m$,
 
 $$
@@ -232,7 +232,7 @@ $$
 
 That is: the *same* posterior $w(\nu \mid x_{<t})$ governs $\xi$'s predictions for arbitrarily many steps into the future, not just the next one. Show this.
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986746915}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986746915}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Write $\xi(x_{t:m}\mid x_{<t}) = \xi(x_{1:m}) / \xi(x_{<t})$, expand the numerator using the mixture definition, and apply the generalized chain rule ([[#^prob-chain-rule-gen-ex|Exercise 1.1]] with $p=1$, $q=t-1$, $r=m$) to factor each $\nu(x_{1:m}) = \nu(x_{<t})\,\nu(x_{t:m}\mid x_{<t})$.
 
@@ -242,7 +242,7 @@ Write $\xi(x_{t:m}\mid x_{<t}) = \xi(x_{1:m}) / \xi(x_{<t})$, expand the numerat
 ^prob-multi-step-xi-ex
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986746915}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986746915}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 By definition of the conditional and the mixture form $\xi(x_{1:m}) = \sum_{\nu} w_{\nu} \nu(x_{1:m})$ ([[#^def-mixture|Theorem 1.2]]),
 
@@ -295,7 +295,7 @@ Proof in [[#B. Proof of KL non-negativity|Section B]].
 ^thm-kl-nonneg
 
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986746915}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986746915}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 2.1 (Telescoping KL) [10].** Show by induction on $n$ that for all environments $\nu, \rho$,
 
 $$
@@ -304,7 +304,7 @@ $$
 
 where on the right-hand side, the $t=1$ summand uses the conventions $\nu(x_{1} \mid x_{<1}) := \nu(x_{1})$, $\rho(x_{1} \mid x_{<1}) := \rho(x_{1})$.
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986746915}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986746915}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 For the induction step, factor $\nu(x_{1:n}) = \nu(x_{<n})\,\nu(x_{n} \mid x_{<n})$ (and likewise for $\rho$) inside the log; the log splits additively into two pieces matching $D_{n-1}(\nu \parallel \rho)$ and $d_{n}(\nu \parallel \rho)$.
 
@@ -314,7 +314,7 @@ For the induction step, factor $\nu(x_{1:n}) = \nu(x_{<n})\,\nu(x_{n} \mid x_{<n
 ^prob-telescope-ex
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986746915}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986746915}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 By induction on $n$.
 
@@ -338,7 +338,7 @@ $$
 
 The mixture $\xi$ never assigns much less probability than any single environment weighted by its prior. This single inequality is the engine behind the cumulative bound of [[#4. Cumulative prediction error bound (main result)|Section 4]] below: dividing through gives $\mu(x)/\xi(x) \leq 1/w_{\mu}$, which is then fed into Pinsker and the chain rule in the proof of the main cumulative bound.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986750063}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986750063}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 3.1 (Mixture dominance) [05].** Show that for every $\nu \in \mathcal{M}$ and every $x \in \mathbb{B}^{*}$,
 
 $$
@@ -349,7 +349,7 @@ $$
 ^prob-dominance-ex
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986750063}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986750063}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 By [[#^def-mixture|Theorem 1.2]], $\xi(x) = \sum_{\nu' \in \mathcal{M}}w_{\nu'}\,\nu'(x)$. Every term in this sum is non-negative, so dropping all terms except the one with $\nu' = \nu$ can only decrease the sum:
 
@@ -359,7 +359,7 @@ $$
 
 :::
 
-:::callout {title="Note" tone="neutral"}
+:::callout {title="Note" {--{"author":"Elias's AI","timestamp":1786986844676}@@tone="neutral"}--}{++{"author":"Elias's AI","timestamp":1786986844676}@@tone="blue"}++}
 
 **Remark (Solomonoff specialization).** Under the Solomonoff prior, $w_{\nu} = 2^{-K(\nu)}$, so the bound becomes
 
@@ -404,14 +404,14 @@ Write $S_{\infty}(\nu \parallel \rho) := \lim_{n \to \infty}S_{n}(\nu \parallel 
 ^def-s-infty
 
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986750063}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986750063}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 4.1 (Cumulative prediction bound) [15].** Show that
 
 $$
 S_{\infty}^{\mu}\leq - \ln w_{\mu}.
 $$
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986750063}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986750063}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 You need [[#^thm-pinsker|Theorem 4.1]], [[#^prob-telescope-ex|Exercise 2.1]] and [[#^prob-dominance-ex|Exercise 3.1]].
 
@@ -421,7 +421,7 @@ You need [[#^thm-pinsker|Theorem 4.1]], [[#^prob-telescope-ex|Exercise 2.1]] and
 ^prob-bound-ex
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986750063}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986750063}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 The proof is a three-step chain:
 
@@ -443,7 +443,7 @@ Multiplying by $\mu(x_{<t}) \geq 0$ and summing over $x_{<t}$ gives $s_{t}(\mu \
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986750063}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986750063}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 4.2 (Explicit complexity bound) [05].** Specialize [[#4. Cumulative prediction error bound (main result)|Section 4]] to the **Solomonoff prior** $w_{\nu} = 2^{-K(\nu)}$ (where $K(\nu)$ is the length of the shortest program computing $\nu$) to show
 
 $$
@@ -454,7 +454,7 @@ $$
 ^prob-bound-explicit-ex
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986750063}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986750063}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 By [[#4. Cumulative prediction error bound (main result)|Section 4]], for *any* prior, $S_{\infty}^{\mu}\leq -\ln w_{\mu}$. The Solomonoff prior assigns $\mu$ the weight $w_{\mu} = 2^{-K(\mu)}$, so
 
@@ -464,7 +464,7 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986750063}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986750063}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 4.3 (Per-step error) [05].** Hence prove that the per-step expected prediction error
 
 $$
@@ -477,7 +477,7 @@ converges to zero as $t \to \infty$.
 ^prob-per-step-error
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986750063}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986750063}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Follows immediately as $\sum_{t=1}^{\infty} s_{t} \leq -\ln w_{\mu} < \infty$ implies $s_{t} \to 0$.
 
@@ -495,14 +495,14 @@ $$
 
 We say the mixture makes a **mistake** at time $t$ if $\hat{x}_{t} \neq x_{t}^{*}$.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986750063}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986750063}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 5.1 (Bounded prediction mistakes) [15].** Show that the number of mistakes made by the threshold predictor on the $\mu$-trajectory is at most
 
 $$
 \#\{\, t \geq 1 \;:\; \hat{x}_{t} \neq x_{t}^{*} \,\} ~\leq~ -2 \ln w_{\mu}.
 $$
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986750063}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986750063}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 At a mistake step, $\xi(x_{t}^{*} \mid x_{<t}) \leq \tfrac12$ (why?). The per-step squared error along the deterministic $\mu$-trajectory simplifies dramatically; bound it from below, then sum.
 
@@ -512,7 +512,7 @@ At a mistake step, $\xi(x_{t}^{*} \mid x_{<t}) \leq \tfrac12$ (why?). The per-st
 ^prob-mistakes-ex
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986750063}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986750063}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 **Step 1: per-step squared error along the $\mu$-trajectory.** Because $\mu$ is deterministic, the outer sum over $x_{<t}$ in $d_{t}$ collapses onto the unique trajectory $x_{<t}^{*} := x_{1}^{*} \cdots x_{t-1}^{*}$, with weight $\mu(x_{<t}^{*}) = 1$. Write $\xi_{t} := \xi(x_{t}^{*} \mid x_{<t}^{*}) \in [0,1]$ for the mass the mixture places on the *correct* bit. Since $\mu$ assigns mass $1$ to $x_{t}^{*}$ and $0$ to the other bit,
 
@@ -536,7 +536,7 @@ where the last step is [[#4. Cumulative prediction error bound (main result)|Sec
 
 :::
 
-:::callout {title="Note" tone="neutral"}
+:::callout {title="Note" {--{"author":"Elias's AI","timestamp":1786986844676}@@tone="neutral"}--}{++{"author":"Elias's AI","timestamp":1786986844676}@@tone="blue"}++}
 
 **Remark (Solomonoff specialization).** Under the Solomonoff prior $w_{\mu} = 2^{-K(\mu)}$, so $-\ln w_{\mu} = K(\mu)\ln 2$ and the bound becomes
 
@@ -569,14 +569,14 @@ We specialize $\mathcal{F}$ to $D_{n}(\nu \parallel \rho)$ in [[#6. Pareto optim
 ^def-pareto
 
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986750063}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986750063}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 6.1 (KL Pythagorean identity) [10].** For *any* predictor $\rho$ with $\rho(x_{1:n}) > 0$ on every $x_{1:n}\in \mathbb{B}^{n}$, show that
 
 $$
 D_{n}(\xi \parallel \rho) ~+~ \sum_{\nu \in \mathcal{M}}w_{\nu} \, D_{n}(\nu \parallel \xi) ~=~ \sum_{\nu \in \mathcal{M}}w_{\nu} \, D_{n}(\nu \parallel \rho).
 $$
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986750063}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986750063}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Take the difference between the two summation terms.
 
@@ -586,7 +586,7 @@ Take the difference between the two summation terms.
 ^prob-kl-pythag
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986750063}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986750063}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Take the difference $\sum_{\nu} w_{\nu} D_{n}(\nu \parallel \rho) - \sum_{\nu} w_{\nu} D_{n}(\nu \parallel \xi)$. Inside each $D_{n}$ the $\nu(x_{1:n}) \ln \nu(x_{1:n})$ pieces cancel, leaving
 
@@ -604,7 +604,7 @@ Rearranging gives the claimed identity.
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986750063}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986750063}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 6.2 (KL Pareto-optimality) [05].** Show that $\xi$ is Pareto-optimal under $D_{n}(\nu \parallel \rho)$ in the sense of [[#^def-pareto|Theorem 6.1]]: if $\rho$ is any predictor with
 
 $$
@@ -613,7 +613,7 @@ $$
 
 then $\rho = \xi$.
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986750063}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986750063}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Multiply the assumed inequality by $w_{\nu} \geq 0$ and sum over $\nu \in \mathcal{M}$; then apply the KL Pythagorean identity to recognize the extra non-negative term, which must vanish.
 
@@ -623,7 +623,7 @@ Multiply the assumed inequality by $w_{\nu} \geq 0$ and sum over $\nu \in \mathc
 ^prob-kl-pareto
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986750063}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986750063}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Multiply the assumed inequality by $w_{\nu} \geq 0$ and sum over $\nu \in \mathcal{M}$:
 
@@ -651,14 +651,14 @@ so [[#^eq-kl-weighted-dom|Equation 3]] forces $D_{n}(\xi \parallel \rho) \leq 0$
 The cumulative bound [[#4. Cumulative prediction error bound (main result)|Section 4]] assumed the true environment $\mu$ lives in the model class $\mathcal{M}$. What happens when it does not? We now show the bound *degrades gracefully*: it splits cleanly into a complexity term ("cost of not knowing which model is best"), exactly as before, plus a linear-in-time approximation term ("cost of no model being right"). See ([[#^bib-hutter-04uaibook|Hutter 2005]], §3.2.8) for the original treatment.
 
 Throughout this section, we no longer assume $\mu \in \mathcal{M}$. We will state the bound in terms of an arbitrary $\hat\mu \in \mathcal{M}$, so taking the infimum over $\hat\mu$ on the right-hand side gives the tightest version by using the "closest" approximation of $\hat{\mu}\in \mathcal{M}$ to $\mu$.
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986750063}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986750063}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 7.1 (Misspecified KL bound) [10].** Show that for all $\hat\mu \in \mathcal{M}$,
 
 $$
 D_{n}(\mu \parallel \xi) ~\leq~ -\ln w_{\hat\mu}~+~ D_{n}(\mu \parallel \hat\mu).
 $$
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986750063}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986750063}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Use [[#^prob-dominance-ex|Exercise 3.1]].
 
@@ -668,7 +668,7 @@ Use [[#^prob-dominance-ex|Exercise 3.1]].
 ^prob-misspec-ex
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986750063}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986750063}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Mixture dominance applied to $\hat\mu \in \mathcal{M}$ ([[#3. Mixture dominance|Section 3]]) gives $\xi(x_{1:n}) \geq w_{\hat\mu}\, \hat\mu(x_{1:n})$ for every $x_{1:n}$. Hence $\mu(x_{1:n}) / \xi(x_{1:n}) \leq \mu(x_{1:n}) / (w_{\hat\mu}\, \hat\mu(x_{1:n}))$, and taking logs,
 
@@ -680,7 +680,7 @@ Now take the $\mu$-expectation. The LHS becomes $D_{n}(\mu \parallel \xi)$; the 
 
 :::
 
-:::callout {title="Note" tone="neutral"}
+:::callout {title="Note" {--{"author":"Elias's AI","timestamp":1786986844676}@@tone="neutral"}--}{++{"author":"Elias's AI","timestamp":1786986844676}@@tone="blue"}++}
 
 **Remark (Reading the two terms).** The right-hand side splits into two qualitatively different terms:
 
@@ -697,14 +697,14 @@ Details on how to define the best choice of $\hat{\mu}$ are in [[#^d-best-choice
 
 The squared specialization $\mathcal{F}(\nu, \rho) = S_{n}(\nu \parallel \rho)$ ([[#^def-s-infty|Theorem 4.2]]) lives one level down from KL: at the conditional distributions $\nu(\cdot \mid x_{<t})$. The natural Pythagorean decomposition at a fixed history uses *posterior* weights $w(\nu \mid x_{<t})$: those are the weights that make $\xi(x_{t} \mid x_{<t})$ the mean of the $\nu(x_{t} \mid x_{<t})$'s (via the posterior-predictive form, [[#^def-mixture|Theorem 1.2]]). The Pareto-optimality aggregation, however, uses prior weights $w_{\nu}$. Bridging the two takes one extra Bayes-rule step.
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986753043}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986753043}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 8.1 (Squared Pythagorean identity) [10].** Fix any $t \in \{1, \dots, n\}$ and any history $x_{<t}\in \mathbb{B}^{t-1}$: *the history is arbitrary, not sampled from any environment*. For any $x_{t} \in \mathbb{B}$ and any predictor $\rho$, show
 
 $$
 \begin{aligned}&\bigl(\xi(x_{t} \mid x_{<t}) - \rho(x_{t} \mid x_{<t})\bigr)^{2}~+~ \sum_{\nu \in \mathcal{M}}w(\nu \mid x_{<t})\,\bigl(\nu(x_{t} \mid x_{<t}) - \xi(x_{t} \mid x_{<t})\bigr)^{2}\\&=~ \sum_{\nu \in \mathcal{M}}w(\nu \mid x_{<t})\,\bigl(\nu(x_{t} \mid x_{<t}) - \rho(x_{t} \mid x_{<t})\bigr)^{2}.\end{aligned}
 $$
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986753043}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986753043}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Add and subtract $\xi(x_{t} \mid x_{<t})$ inside the squared term, then expand. Use $\sum_{\nu} w(\nu \mid x_{<t}) = 1$ and the posterior-predictive form of $\xi$ ([[#^def-mixture|Theorem 1.2]]), $\sum_{\nu} w(\nu \mid x_{<t})\,\nu(x_{t} \mid x_{<t}) = \xi(x_{t} \mid x_{<t})$, to kill the cross-term. The weighting must be *posterior* weights $w(\nu \mid x_{<t})$ (not prior weights $w_{\nu}$), because $\xi(x_{t} \mid x_{<t})$ is the posterior-weighted mean of the $\nu(x_{t} \mid x_{<t})$'s, not the prior one.
 
@@ -714,7 +714,7 @@ Add and subtract $\xi(x_{t} \mid x_{<t})$ inside the squared term, then expand. 
 ^prob-sq-pythag
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986753043}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986753043}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Throughout, the history $x_{<t}$ and symbol $x_{t}$ are fixed but arbitrary. Abbreviate $\nu := \nu(x_{t} \mid x_{<t})$, $\xi := \xi(x_{t} \mid x_{<t})$, $\rho := \rho(x_{t} \mid x_{<t})$, and $\tilde w_{\nu} := w(\nu \mid x_{<t})$ for the duration of the calculation.
 
@@ -744,7 +744,7 @@ $$
 
 :::
 
-:::callout {title="Exercise" {--{"author":"Elias's AI","timestamp":1786986753043}@@tone="blue"}--}{++{"author":"Elias's AI","timestamp":1786986753043}@@tone="amber"}++}
+:::callout {title="Exercise" tone="amber"}
 **Exercise 8.2 (Squared Pareto-optimality) [05].** Show that $\xi$ is Pareto-optimal under $S_{n}(\nu \parallel \rho)$ in the sense of [[#^def-pareto|Theorem 6.1]]: if $\rho$ is any predictor with
 
 $$
@@ -753,7 +753,7 @@ $$
 
 then $\rho(x_{t} \mid x_{<t}) = \xi(x_{t} \mid x_{<t})$ at every history $x_{<t}\in \mathbb{B}^{t-1}$ *with $\xi(x_{<t}) > 0$* (equivalently, $\xi$-almost surely) and every $x_{t} \in \mathbb{B}$. Histories that the mixture never reaches ($\xi(x_{<t}) = 0$, i.e., reached by no $\nu \in \mathcal{M}$ either) are invisible to the loss and are not pinned down.
 
-::::callout {title="Hint" {--{"author":"Elias's AI","timestamp":1786986753043}@@tone="amber"--}{++{"author":"Elias's AI","timestamp":1786986753043}@@tone="neutral"++} collapse="closed"}
+::::callout {title="Hint" tone="neutral" collapse="closed"}
 
 Multiply the assumed inequality by $w_{\nu} \geq 0$ and sum over $\nu$; then for each fixed history $x_{<t}$, multiply the per-history Pythagorean identity from above by $\xi(x_{<t})$ and use the Bayes identity $w(\nu \mid x_{<t})\,\xi(x_{<t}) = w_{\nu} \,\nu(x_{<t})$ to bridge from posterior weights (inside the identity) to prior weights (in the aggregated Pareto inequality).
 
@@ -763,7 +763,7 @@ Multiply the assumed inequality by $w_{\nu} \geq 0$ and sum over $\nu$; then for
 ^prob-sq-pareto
 
 
-:::callout {title="Solution" {--{"author":"Elias's AI","timestamp":1786986753043}@@tone="green"--}{++{"author":"Elias's AI","timestamp":1786986753043}@@tone="neutral"++} collapse="closed"}
+:::callout {title="Solution" tone="neutral" collapse="closed"}
 
 Multiply the assumed inequality by $w_{\nu} \geq 0$ and sum over $\nu \in \mathcal{M}$:
 

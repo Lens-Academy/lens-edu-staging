@@ -12,7 +12,7 @@ provenance_recorded_at: '2026-08-17'
 
 #### Text
 content::
-:::callout {title="What you'll learn" {--{"author":"Elias's AI","timestamp":1786986692127}@@tone="green"}--}{++{"author":"Elias's AI","timestamp":1786986692127}@@tone="neutral"}++}
+:::callout {title="What you'll learn" tone="neutral"}
 
 **Almost all participants should understand:**
 

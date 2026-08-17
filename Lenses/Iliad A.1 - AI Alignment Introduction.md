@@ -12,7 +12,7 @@ provenance_recorded_at: '2026-08-17'
 
 #### Text
 content::
-:::callout {title="What you'll learn" {--{"author":"Elias's AI","timestamp":1786986645292}@@tone="green"}--}{++{"author":"Elias's AI","timestamp":1786986645292}@@tone="neutral"}++}
+:::callout {title="What you'll learn" tone="neutral"}
 
 * understand the basic decomposition of risks into AI misalignment, misuse, power grabs, and others;  
 * can explain different alignment targets like coherent extrapolated volition, intent alignment, or AI that follows a constitution;  
@@ -63,7 +63,7 @@ Discuss in groups of 3-5 for **30 minutes**. Possible prompts:
 * Which alignment targets seem sufficient for safety? E.g., a corrigible system might cause harm before we change its values. Can it cause catastrophic harm? What about the other notions?   
 * What other ideas for alignment targets do you have? Does your target have a benefit?
 
-\### Session 2: Alignment problem decompositions
+{--{"author":"Luc's AI","timestamp":1786986841832}@@\### Session 2: Alignment problem decompositions
 
 :::callout {title="Session intent" tone="neutral" collapse="closed"}
 
@@ -355,6 +355,6 @@ The first **2.5 hours** of this day are devoted to welcoming the participants an
 
 First, explain to the students that this is mostly a conceptual day: The aim is to understand a basic decomposition of the problem of safe AI into specifying an alignment target  and solving the technical alignment problem, which can itself decompose further. We also discuss the basic role that goal-directedness plays in the risks, and basic views on the risk landscape. The aim is that after this day, all students are broadly on the same page about what the alignment problem is, and have some basic impression of how the rest of the course relates to the problem.
 
-:::
+:::--}
 
 
