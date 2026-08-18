@@ -1,9 +1,9 @@
 ---
 id: '48e9b3a0-92a5-40c6-ba1a-a23e67cae04b'
 title: Navigator Post-Meeting Survey
-tags:
+{--{"author":"Turner's AI","timestamp":1787059063393}@@tags:
   - wip
----
+--}---
 
 #### Text
 content:: You just ran a session, thank you. This is how we improve the run sheet, session structure and guidance week to week. Takes about two minutes.\n\nBe blunt: this is about fixing the system, not evaluating you. If something was broken, dense or confusing, that is the most useful thing you can tell us.

@@ -1,9 +1,9 @@
 ---
 id: '9bbfe035-b5eb-436d-8dcf-057061803bcb'
 title: Navigator Session 1 Debrief
-tags:
+{--{"author":"Turner's AI","timestamp":1787059059496}@@tags:
   - wip
----
+--}---
 
 #### Text
 content:: You just ran your first session, thank you! This is how we improve the run sheet, session structure and guidance week to week. Takes about five minutes.\n\nBe blunt: this is about fixing the system, not evaluating you. If something was broken, dense or confusing, that is the most useful thing you can tell us.
