@@ -1502,18 +1502,19 @@ Recall the definitions of loss functions from [[#1. Preliminaries|Section 1]]. I
 
 Let us begin with some basic observations about the relationship between degeneracy in parameter–function maps and directional derivatives in the loss landscape.
 
-:::::callout {title="Exercise" tone="amber"}
+{--{"author":"Elias's AI","timestamp":1787047932449}@@:::::callout--}{++{"author":"Elias's AI","timestamp":1787047932449}@@::::callout++} {title="Exercise" tone="amber"}
 **Exercise 2.13 (Directional derivatives of the loss).** Let $L : \mathcal{W} \to \mathbb{R}$ be a population loss function satisfying the assumptions described above.
 
 **(a)** Show that if $\Phi$ is degenerate at $w$ in direction $v$, then the directional derivative of the loss vanishes in the same direction: $D_{v} L(w) = 0$.
 
 **(b)** Suppose $\mathcal{W} = \mathbb{R}^{d}$. Show that if $d > 1$, then for *any* any $w \in \mathcal{W}$, there exists a nonzero $v$ such that $D_{v} L(w) = 0$.
-::::callout {title="Hint" tone="neutral" collapse="closed"}
+{--{"author":"Elias's AI","timestamp":1787047932449}@@::::callout--}{++{"author":"Elias's AI","timestamp":1787047932449}@@:::callout++} {title="Hint" tone="neutral" collapse="closed"}
 
 consider separately the cases $\nabla L(w) = 0$ and $\nabla L(w) \neq 0$.
 
-::::
-:::::
+{++{"author":"Elias's AI","timestamp":1787047932449}@@:::
+++}::::{--{"author":"Elias's AI","timestamp":1787047932449}@@
+:::::--}
 
 ^ex-loss-basic
 
@@ -1554,22 +1555,22 @@ In particular, at a local minimum, $H(w)$ is positive semidefinite. We can there
 - A local minimum $w$ is **regular** (or **non-degenerate**, or **Morse**) if $H(w)$ is positive definite.
 - A local minimum $w$ is **degenerate** (or **non-Morse**) if $H(w)$ is singular (has a zero eigenvalue).
 
-:::::callout {title="Exercise" tone="amber"}
+{--{"author":"Elias's AI","timestamp":1787047935121}@@:::::callout--}{++{"author":"Elias's AI","timestamp":1787047935121}@@::::callout++} {title="Exercise" tone="amber"}
 **Exercise 2.14 (Some examples of loss landscape degeneracy).** Consider the parameter space $\mathcal{W} = \mathbb{R}^{2}$ with the identity parameter–function map $\Phi = \mathrm{id}$, so that we identify parameters with the functions they implement (cf., [[#^ex-univariate-degeneracy|Exercise 2.1]]). Consider the family of loss functions $L_{k,l}(a,b) = a^{2k}+ b^{2l}$ for non-negative integers $k$ and $l$.
 
 **(a)** Show that the origin is a global minimum of $L_{k,l}$ for all non-negative $k$ and $l$. For which $k$ and $l$ is it the unique global minimum?
 
 **(b)** Show that if $k = l = 1$, then the origin is a non-degenerate (regular) minimum.
-::::callout {title="Hint" tone="neutral" collapse="closed"}
+{--{"author":"Elias's AI","timestamp":1787047935121}@@::::callout--}{++{"author":"Elias's AI","timestamp":1787047935121}@@:::callout++} {title="Hint" tone="neutral" collapse="closed"}
 
 Compute the Hessian.
 
-::::
+{--{"author":"Elias's AI","timestamp":1787047935121}@@::::--}{++{"author":"Elias's AI","timestamp":1787047935121}@@:::++}
 
 **(c)** Show that if $k > 1$ and $l \geq 1$, then the origin is a degenerate minimum.
 
 **(d)** Show that if $k = 0$ and $l \geq 1$, then the origin is a degenerate minimum.
-:::::
+{--{"author":"Elias's AI","timestamp":1787047935121}@@:::::--}{++{"author":"Elias's AI","timestamp":1787047935121}@@::::++}
 
 ^ex-loss-landscape-degeneracy
 
@@ -1603,7 +1604,7 @@ So much for defining loss landscape degeneracy. What is the relationship between
 
 The relationship is subtle, and generally depends on the choice of loss function. One natural setting in which to study this relationship is the *realisable statistical model:* given a parameter–distribution map and a parameter $w_{0}$, if we consider $p_{w_0}$ as the true data-generating distribution, the population negative log-likelihood loss will have a global minimum at $w_{0}$. The following exercise shows that in this setting, under mild regularity assumptions on the statistical model, degeneracy in the parameter–distribution map at $w_{0}$ implies that the global minimum $w_{0}$ is a degenerate global minimum of the loss landscape.
 
-:::::callout {title="Exercise" tone="amber"}
+{--{"author":"Elias's AI","timestamp":1787047937643}@@:::::callout--}{++{"author":"Elias's AI","timestamp":1787047937643}@@::::callout++} {title="Exercise" tone="amber"}
 **Exercise 2.15 (Realisable models and Hessian degeneracy).** Let $\Psi : \mathcal{W} \to \mathcal{D}$ be a parameter–distribution map with positive densities $p(y \mid x, w)$, twice-differentiable in $w$. Suppose data is generated from a fixed true parameter $w_{0} \in \mathcal{W}$, meaning $q(y \mid x) = p(y \mid x, w_{0})$. Consider the population negative log-likelihood loss
 
 $$
@@ -1624,11 +1625,11 @@ $$
 
 
 where $s$ is the score function from [[#^def-score|Definition 2.3]].
-::::callout {title="Hint" tone="neutral" collapse="closed"}
+{--{"author":"Elias's AI","timestamp":1787047937643}@@::::callout--}{++{"author":"Elias's AI","timestamp":1787047937643}@@:::callout++} {title="Hint" tone="neutral" collapse="closed"}
 
 differentiate the identity $\mathbb{E}_{y \sim p(y \mid x, w)}[s(x, y, w)] = 0$ (established in [[#^ex-score-properties|Exercise 2.11]]) with respect to $w$.
 
-::::
+{--{"author":"Elias's AI","timestamp":1787047937643}@@::::--}{++{"author":"Elias's AI","timestamp":1787047937643}@@:::++}
 
 **(b)** Show that the Hessian of $L$ at the true parameter $w_{0}$ equals the Fisher information matrix ([[#^def-fim|Definition 2.4]]):
 
@@ -1641,14 +1642,14 @@ $$
 ^eq-fim-hessian
 
 
-::::callout {title="Hint" tone="neutral" collapse="closed"}
+{--{"author":"Elias's AI","timestamp":1787047937643}@@::::callout--}{++{"author":"Elias's AI","timestamp":1787047937643}@@:::callout++} {title="Hint" tone="neutral" collapse="closed"}
 
 compute $H(w) = -\mathbb{E}_{x}\, \mathbb{E}_{y \sim p(y \mid x, w_0)}[\nabla_{w}^{2} \log p(y \mid x, w)]$, evaluate at $w = w_{0}$, and apply part (a).
 
-::::
+{--{"author":"Elias's AI","timestamp":1787047937643}@@::::--}{++{"author":"Elias's AI","timestamp":1787047937643}@@:::++}
 
 **(c)** Using the result of [[#^ex-fim-degeneracy|Exercise 2.12]], conclude: if $\Psi$ is degenerate at $w_{0}$ in direction $v$, then $H(w_{0})\, v = 0$. Contrapositively, if $H(w_{0})$ is positive definite, then $\Psi$ is non-degenerate at $w_{0}$.
-:::::
+{--{"author":"Elias's AI","timestamp":1787047937643}@@:::::--}{++{"author":"Elias's AI","timestamp":1787047937643}@@::::++}
 
 ^ex-fim-hessian
 
