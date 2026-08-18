@@ -1127,7 +1127,7 @@ Similarly, $\{T^{(b)}_{t}\}$ is a symmetry when restricted to the $b$-axis $\{(0
 
 The above example is technically a two-layer DLN with $m=h=1$. Let us now explore localised degeneracy in a general two-layer DLN and then in a non-trivial MLP.
 
-:::::callout {title="Exercise" tone="amber"}
+{--{"author":"Elias's AI","timestamp":1787047927132}@@:::::callout--}{++{"author":"Elias's AI","timestamp":1787047927132}@@::::callout++} {title="Exercise" tone="amber"}
 **Exercise 2.9 (Degeneracy in the two-layer DLN).** Consider the two-layer DLN from [[#^eg-dln|Example 1.3]], with $h=m$. The parameter space encodes two matrices $A, B \in \mathbb{R}^{m \times m}$, and the parameter–function map sends $(A, B)$ to the function $\Phi(A,B) = f_{A,B}: \mathbb{R}^{m} \to \mathbb{R}^{m}$ such that $f_{A,B}(x) = BAx$ for $x \in \mathbb{R}^{m}$.
 
 **(a)** Let $(\delta\!A, \delta\!B)$ be a unit perturbation in parameter space (a unit vector in the underlying parameter space $\mathbb{R}^{2m^2}$, decoded into a pair of matrices). Show that the directional derivative of the parameter–function map at $(A, B)$ in direction $(\delta\!A, \delta\!B)$ is the linear map
@@ -1137,11 +1137,11 @@ D_{(\delta\!A, \delta\!B)}\Phi(A, B) = B\,\delta\!A + \delta\!B\, A.
 $$
 
 That is, $D_{(\delta\!A, \delta\!B)}\Phi(A, B) x = (B\,\delta\!A + \delta\!B\, A) x$.
-::::callout {title="Hint" tone="neutral" collapse="closed"}
+{--{"author":"Elias's AI","timestamp":1787047927132}@@::::callout--}{++{"author":"Elias's AI","timestamp":1787047927132}@@:::callout++} {title="Hint" tone="neutral" collapse="closed"}
 
 Use the limit definition, [[#^eq-directional-derivative|(20)]].
 
-::::
+{--{"author":"Elias's AI","timestamp":1787047927132}@@::::--}{++{"author":"Elias's AI","timestamp":1787047927132}@@:::++}
 
 **(b)** Show that at the zero parameter $(A, B) = (0, 0)$, every direction in parameter space is degenerate. Count the number of dimensions in the subspace of degenerate directions.
 
@@ -1153,7 +1153,7 @@ $$
 m^{2} + (m-r_{A})(m-r_{B}).
 $$
 
-::::callout {title="Hint" tone="neutral" collapse="closed"}
+{--{"author":"Elias's AI","timestamp":1787047927132}@@::::callout--}{++{"author":"Elias's AI","timestamp":1787047927132}@@:::callout++} {title="Hint" tone="neutral" collapse="closed"}
 
 The following is a guide to one possible approach.
 
@@ -1163,7 +1163,7 @@ The following is a guide to one possible approach.
 4. Consider a third linear map, $T_{D}$, sending $(\delta\!A, \delta\!B) \in \mathbb{R}^{2m^2}$ to $B\,\delta\!A + \delta\!B\, A \in \mathbb{R}^{m^2}$. Describe the image of this linear map in terms of those of $T_{A}$ and $T_{B}$. Compute the rank of this linear map using Grassmann's identity.
 5. What is the nullity of $T_{D}$? Why is this the same as the dimensionality of the space of degenerate directions?
 
-::::
+{--{"author":"Elias's AI","timestamp":1787047927132}@@::::--}{++{"author":"Elias's AI","timestamp":1787047927132}@@:::++}
 
 ^ex-dln-degeneracy
 
@@ -1273,7 +1273,7 @@ In the direction $(\delta a_{i}, \delta a_{j}) = (1, -1)$, this combined contrib
 
 **Remark (Rank of a neural network parameter).** In both exercises above, the degree of degeneracy at a parameter is controlled by the amount of redundant capacity in the network. For the two-layer DLN, this is measured by the rank of the product $BA$: a rank-$r$ linear map can be implemented with a hidden dimension of $r$, leaving $m - r$ dimensions redundant. For a general single-hidden-layer MLP, this idea generalises in that we can define the rank of a parameter $w$ as the minimum number of hidden units needed to implement $f_{w}$ ([[#^bib-farrugiaroberts2022|Farrugia-Roberts 2022]]; [[#^bib-farrugiaroberts2024|Farrugia-Roberts 2024]]). In the linear case, this "neural network rank" coincides with the matrix rank of $BA$. In both settings, lower rank corresponds to a higher number of degenerate directions.
 
-::::
+{--{"author":"Elias's AI","timestamp":1787047927132}@@::::--}{++{"author":"Elias's AI","timestamp":1787047927132}@@:::++}
 
 ^rem-rank
 
@@ -1356,16 +1356,16 @@ $$
 \mathbb{E}_{y \sim p(y \mid x, w)}\bigl[s(x, y, w)\bigr] = 0.
 $$
 
-::::callout {title="Hint" tone="neutral" collapse="closed"}
+{--{"author":"Elias's AI","timestamp":1787047927132}@@::::callout--}{++{"author":"Elias's AI","timestamp":1787047927132}@@:::callout++} {title="Hint" tone="neutral" collapse="closed"}
 
 Differentiate the identity $\int_{\mathcal{Y}} p(y \mid x, w) \, dy = 1$.
 
-::::
+{--{"author":"Elias's AI","timestamp":1787047927132}@@::::--}{++{"author":"Elias's AI","timestamp":1787047927132}@@:::++}
 
 **(c)** Show that if $\Psi$ is degenerate at $w$ in direction $v$, then the directional score vanishes identically: $s_{v}(x, y, w) = 0$ for all $x \in \mathcal{X}$ and $y \in \mathcal{Y}$.
 
 **(d)** Show the converse: if the directional score $s_{v}(x, y, w) = 0$ vanishes for all $x \in \mathcal{X}$ and $y \in \mathcal{Y}$ at $w$, then $\Psi$ is degenerate at $w$ in direction $v$.
-:::::
+{--{"author":"Elias's AI","timestamp":1787047927132}@@:::::--}{++{"author":"Elias's AI","timestamp":1787047927132}@@::::++}
 
 ^ex-score-properties
 
@@ -1423,7 +1423,7 @@ The Fisher information matrix is symmetric and positive semidefinite at every $w
 
 The following exercise shows that singularity of the Fisher information matrix is equivalent to degeneracy of the parameter–distribution map under mild regularity conditions.
 
-:::::callout {title="Exercise" tone="amber"}
+{--{"author":"Elias's AI","timestamp":1787047929859}@@:::::callout--}{++{"author":"Elias's AI","timestamp":1787047929859}@@::::callout++} {title="Exercise" tone="amber"}
 **Exercise 2.12 (Fisher information and degeneracy).** Let $\Psi : \mathcal{W} \to \mathcal{D}$ be a parameter–distribution map with densities $p(y \mid x, w)$. Assume that $p(y \mid x, w) > 0$ for all $y \in \mathcal{Y}$, $x \in \mathcal{X}$, $w \in \mathcal{W}$, that $w \mapsto p(y \mid x, w)$ is differentiable, and that $q(x) > 0$ for all $x \in \mathcal{X}$.
 
 **(a)** Show that for any unit vector $v \in \mathbb{R}^{d}$,
@@ -1438,18 +1438,18 @@ $$
 
 
 **(b)** Using [[#^ex-score-properties|Exercise 2.11(c)]], show that if $D_{v} \Psi(w) = 0$ for some non-zero $v$, then $I(w)$ is not positive definite.
-::::callout {title="Hint" tone="neutral" collapse="closed"}
+{--{"author":"Elias's AI","timestamp":1787047929859}@@::::callout--}{++{"author":"Elias's AI","timestamp":1787047929859}@@:::callout++} {title="Hint" tone="neutral" collapse="closed"}
 
 Check the definition of positive definite.
 
-::::
+{--{"author":"Elias's AI","timestamp":1787047929859}@@::::--}{++{"author":"Elias's AI","timestamp":1787047929859}@@:::++}
 
 **(c)** Using [[#^ex-score-properties|Exercise 2.11(d)]], show that if $I(w)$ is not positive definite, then there exists a non-zero $v$ for which $D_{v} \Psi(w) = 0$.
-::::callout {title="Hint" tone="neutral" collapse="closed"}
+{--{"author":"Elias's AI","timestamp":1787047929859}@@::::callout--}{++{"author":"Elias's AI","timestamp":1787047929859}@@:::callout++} {title="Hint" tone="neutral" collapse="closed"}
 
 Check the definition of positive definite.
 
-::::
+{--{"author":"Elias's AI","timestamp":1787047929859}@@::::--}{++{"author":"Elias's AI","timestamp":1787047929859}@@:::++}
 
 **(d)** Conclude that
 
@@ -1458,7 +1458,7 @@ $$
 $$
 
 That is, the null space of the Fisher information matrix is exactly the space of degenerate directions of the parameter–distribution map.
-:::::
+{--{"author":"Elias's AI","timestamp":1787047929859}@@:::::--}{++{"author":"Elias's AI","timestamp":1787047929859}@@::::++}
 
 ^ex-fim-degeneracy
 
