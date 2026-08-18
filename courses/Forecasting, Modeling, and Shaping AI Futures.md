@@ -26,19 +26,22 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Meeting: Unit 3
 meeting-doc-template:: https://docs.google.com/document/d/1OELeSrzaLpyNVUoLRAnRmelxAuu8JBkw5WwhOEP9yZk/edit
-survey:: [[../surveys/AIF Unit 3 Survey]]
+survey:: [[../surveys/AIF Unit 3 Survey]]{++{"author":"Turner's AI","timestamp":1787058947502}@@
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]++}
 
 # Module: [[../modules/unit-4-whats-the-plan|Unit 4: What's the Plan?]]
 
 # Meeting: Unit 4
 meeting-doc-template:: https://docs.google.com/document/d/1JbdYP4R7MPRrNIncIxu2JjhDlPkBMRF5y4auPrZHYa4/edit
-survey:: [[../surveys/AIF Unit 4 Survey]]
+survey:: [[../surveys/AIF Unit 4 Survey]]{++{"author":"Turner's AI","timestamp":1787058951057}@@
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]++}
 
 # Module: [[../modules/unit-5-where-is-the-leverage|Unit 5: Where Is the Leverage?]]
 
 # Meeting: Unit 5
 meeting-doc-template:: https://docs.google.com/document/d/1YuCKnl7R8P4upzZzMTf6whEOYu23g_j936QDlpELwuk/edit
-survey:: [[../surveys/AIF Unit 5 Survey]]
+survey:: [[../surveys/AIF Unit 5 Survey]]{++{"author":"Turner's AI","timestamp":1787058976048}@@
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]++}
 
 %% Post-meeting surveys (2026-08-12): live in production; each meeting has its
 own survey file. Impact scales (model explicitness, judgment confidence,

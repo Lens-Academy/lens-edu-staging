@@ -40,7 +40,8 @@ survey:: [[../surveys/AIRF Session 1 Survey]] {>>{"author":"Turner's AI","timest
 
 # Meeting: Nonhuman Minds
 meeting-doc-template:: https://docs.google.com/document/d/1hNj0npIxflO6C5AJcNPHms7HOiH_hlAgomBPQVhfp2A/edit?tab=t.0#heading=h.by5wcelvjnsd
-survey:: [[../surveys/AIRF Weekly Survey]]
+survey:: [[../surveys/AIRF Weekly Survey]]{++{"author":"Turner's AI","timestamp":1787059005574}@@
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]++}
 {>>{"author":"Elias's AI","timestamp":1786520689365}@@Correction: the 2026-08-09 note here claimed this link had been repointed to a rebuilt Ch3-5 doc, but the ID it named as "retired" was the same ID the link already used, so the link was never actually moved. The linked doc still ran the old Ch3-4 session (no Chapter 5, no glossary tab, next-unit pointer naming no reading) until 2026-08-12, which is why a navigator ran meeting 2 off outdated material. Fixed by updating the linked doc itself in place, so this link stays correct: Room 3 is now the Chapter 5 "weakest link" prompt, the next-unit pointers name Ch 6 + film + Coda + Your Leverage, and the missing Glossary tab (Modules 2 and 3) has been restored. The parallel Ch3-5 rebuild that lived in a personal Drive was never shared and is now renamed "OLD - ...(merged into live doc)".<<}
 
 
@@ -68,7 +69,8 @@ The storage side is already done: SurveyKind is student|facilitator (core/enums.
 
 # Meeting: Facing the Challenge, part 1
 meeting-doc-template:: https://docs.google.com/document/d/1dW_VlZoAn6eLR0_ZY8XvQvRoVvr51a23XAXMAnH_bSI/edit
-survey:: [[../surveys/AIRF Weekly Survey]]
+survey:: [[../surveys/AIRF Weekly Survey]]{++{"author":"Turner's AI","timestamp":1787059010432}@@
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]++}
 {>>{"author":"AI","timestamp":1786279506695}@@Course reduced from 6 meetings to 5. Units: M1 | M2+M3 | M4 | M5 | M6+M7, one meeting after each unit. All five meeting docs were updated for these boundaries on 2026-08-09; the old unit-4 doc (19-KJb0ZEVlVYJoVMOnY5xbAm6UJdynAFM0nm7NSg9dg) is retired.<<}
 
 # Module: [[../modules/IABIED M6 Facing The Challenge, Part 2]]
@@ -77,7 +79,8 @@ survey:: [[../surveys/AIRF Weekly Survey]]
 
 # Meeting: Facing the Challenge, part 2
 meeting-doc-template:: https://docs.google.com/document/d/1rewnfH3QqcK_WhwD2i1ylfVyldH3sXb6eA45dDeQJ6M/edit?tab=t.0#heading=h.by5wcelvjnsd
-survey:: [[../surveys/AIRF Session 5 Survey]]
+survey:: [[../surveys/AIRF Session 5 Survey]]{++{"author":"Turner's AI","timestamp":1787059013495}@@
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]++}
 
 {>>{"author":"Turner's AI","timestamp":1786705668364}@@Meeting 5 was serving the generic AIRF Weekly Survey, same as meetings 2-4. That made the Session 1 intake a baseline with no endline: its four impact scales (risk_seriousness, agency_belief, motivation, next_step_clarity) were never asked again, even though the intake tells the learner in writing "We ask the same things again at the end, so the value is in the change, not the score." Repointed to the new AIRF Session 5 Survey, which re-asks all four under the SAME keys so a per-user pre/post delta is a straight join on user_id across meeting 1 and meeting 5. Also carries navigator feedback (quantitative + free text), the recommend score, and the next-cohort MORE/LESS questions ported from the old Week 6 Google Form. Dropped from that form: the Discord-handle question (the native survey already knows who is answering, which is the whole reason we moved off Forms) and the BlueDot question (already captured at intake as bluedot_history). NOTE the recommend score is 1-10, not the 0-10 of a textbook NPS: the platform's rating segments validate 1 <= value <= scale with MAX_RATING_SCALE = 10, so 0 is not expressible. Adjust any NPS formula accordingly, or read it as a 10-point recommend score.<<}
 
