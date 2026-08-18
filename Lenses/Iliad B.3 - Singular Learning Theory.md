@@ -1336,7 +1336,7 @@ The directional score measures how sensitive the log-density is to perturbations
 ^def-score
 
 
-:::::callout {title="Exercise" tone="amber"}
+{--{"author":"Elias's AI","timestamp":1787047968770}@@:::::callout--}{++{"author":"Elias's AI","timestamp":1787047968770}@@::::callout++} {title="Exercise" tone="amber"}
 **Exercise 2.11 (Basic properties of the score function).** Let $\Psi : \mathcal{W} \to \mathcal{D}$ be a parameter–distribution map with positive densities $p(y \mid x, w)$, differentiable in $w$. Assume that for each $x$ and $w$, the operations $\nabla_{w}$ and $\int_{\mathcal{Y}} \cdot\, dy$ may be exchanged.
 
 **(a)** Show that the score function satisfies the following identity: for each $x \in \mathcal{X}$, $y \in \mathcal{Y}$, and $w \in \mathcal{W}$,
@@ -2041,7 +2041,7 @@ so $\lambda = 3/4$. The Hessian is $\nabla^{2}L(0,0) = \operatorname{diag}(2, 12
 
 :::
 
-:::::callout {title="Exercise" tone="amber"}
+{--{"author":"Elias's AI","timestamp":1787047971703}@@:::::callout--}{++{"author":"Elias's AI","timestamp":1787047971703}@@::::callout++} {title="Exercise" tone="amber"}
 **Exercise 3.5 (Upper bound on the LLC).** In [[#^ex-llc-regular-case|Exercise 3.1]], we saw that $\lambda = d/2$ for regular models. In this exercise, you will prove directly from the volume scaling definition that for any local minimum $w^{*}$ of the population loss, the local learning coefficient satisfies $\lambda(w^{*}) \leq d/2$.
 
 **(a)** Let $\Lambda>0$ be an upper bound on the eigenvalues of the Hessian $\nabla^{2} L(w)$ for all $w \in B(w^{*})$. Using the Lagrange remainder form of Taylor's theorem, show that for all $w \in B(w^{*})$,
@@ -2050,11 +2050,11 @@ $$
 L(w) - L(w^{*}) \leq \frac{1}{2}\Lambda \|w - w^{*}\|^{2}.
 $$
 
-::::callout {title="Hint" tone="neutral" collapse="closed"}
+{--{"author":"Elias's AI","timestamp":1787047971703}@@::::callout--}{++{"author":"Elias's AI","timestamp":1787047971703}@@:::callout++} {title="Hint" tone="neutral" collapse="closed"}
 
 for any real symmetric matrix $H\in\mathbb{R}^{n\times n}$ and vector $v\in \mathbb{R}^{n}$, $v^{\top} H v \leq \Lambda \|v\|^{2}$ where $\Lambda$ is the largest eigenvalue of $H$.
 
-::::
+{--{"author":"Elias's AI","timestamp":1787047971703}@@::::--}{++{"author":"Elias's AI","timestamp":1787047971703}@@:::++}
 
 **(b)** Consider the standard Euclidean ball of radius $r$ centred at $w^{*}$, denoted $B_{r}(w^{*}) = \{w \in \mathcal{W} \mid \|w - w^{*}\| < r\}$. Find a radius $r$ (as a function of $\epsilon$ and $\Lambda$) such that for sufficiently small $\epsilon$,
 
@@ -2069,7 +2069,7 @@ C \epsilon^{d/2}\leq V(\epsilon).
 $$
 
 **(d)** Conclude that $\lambda(w^{*}) \leq d/2$.
-:::::
+{--{"author":"Elias's AI","timestamp":1787047971703}@@:::::--}{++{"author":"Elias's AI","timestamp":1787047971703}@@::::++}
 
 ^ex-lambda-upper-bound
 
