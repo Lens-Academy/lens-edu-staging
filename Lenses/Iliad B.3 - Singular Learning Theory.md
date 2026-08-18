@@ -750,18 +750,18 @@ By convention, if we say that the parameter–function map is simply **degenerat
 
 The following exercises explore this definition in some toy parametrisations of a simple function class (constants), displaying in the simplest possible setting some basic forms of degeneracy that will arise repeatedly throughout the tutorial.
 
-:::::callout {title="Exercise" tone="amber"}
+{--{"author":"Elias's AI","timestamp":1787047912324}@@:::::callout--}{++{"author":"Elias's AI","timestamp":1787047912324}@@::::callout++} {title="Exercise" tone="amber"}
 **Exercise 2.1 (Parametrising the space of constants).** Let $\mathcal{X} = \{\ast\}$ and $\mathcal{Y} = \mathbb{R}$, so that we have a hypothesis class of constants. Consider the scalar parameter space $\mathcal{W} = \mathbb{R}$ and the parameter function map that maps $w$ to $f_{w} = w$ (the output is just the parameter itself).
 
 **(a)** What is the directional derivative of the parameter–function map in direction $v = 1$?
-::::callout {title="Hint" tone="neutral" collapse="closed"}
+{--{"author":"Elias's AI","timestamp":1787047912324}@@::::callout--}{++{"author":"Elias's AI","timestamp":1787047912324}@@:::callout++} {title="Hint" tone="neutral" collapse="closed"}
 
 What kind of derivative does this reduce to?
 
-::::
+{--{"author":"Elias's AI","timestamp":1787047912324}@@::::--}{++{"author":"Elias's AI","timestamp":1787047912324}@@:::++}
 
 **(b)** At which points in the parameter space is this parameter–function map degenerate, if any?
-:::::
+{--{"author":"Elias's AI","timestamp":1787047912324}@@:::::--}{++{"author":"Elias's AI","timestamp":1787047912324}@@::::++}
 
 ^ex-univariate-degeneracy
 
