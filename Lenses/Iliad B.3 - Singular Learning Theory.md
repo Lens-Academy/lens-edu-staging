@@ -777,20 +777,20 @@ $$
 
 :::
 
-:::::callout {title="Exercise" tone="amber"}
+{--{"author":"Elias's AI","timestamp":1787047916096}@@:::::callout--}{++{"author":"Elias's AI","timestamp":1787047916096}@@::::callout++} {title="Exercise" tone="amber"}
 **Exercise 2.2 (Degeneracy from raising a parameter to a power).** Again, consider a hypothesis class of constants and the scalar parameter space $\mathcal{W} = \mathbb{R}$. This time, define a parameter function map that maps $w$ to $f_{w} = w^{3}$.
 
 **(a)** Show that this architecture indexes exactly the same hypothesis class as the architecture described in [[#^ex-univariate-degeneracy|Exercise 2.1]].
 
 **(b)** What is the directional derivative of the parameter–function map in direction $v = 1$?
-::::callout {title="Hint" tone="neutral" collapse="closed"}
+{--{"author":"Elias's AI","timestamp":1787047916096}@@::::callout--}{++{"author":"Elias's AI","timestamp":1787047916096}@@:::callout++} {title="Hint" tone="neutral" collapse="closed"}
 
 What kind of derivative does this reduce to?
 
-::::
+{--{"author":"Elias's AI","timestamp":1787047916096}@@::::--}{++{"author":"Elias's AI","timestamp":1787047916096}@@:::++}
 
 **(c)** At which points in the parameter space is the parameter–function map degenerate, if any?
-:::::
+{--{"author":"Elias's AI","timestamp":1787047916096}@@:::::--}{++{"author":"Elias's AI","timestamp":1787047916096}@@::::++}
 
 ^ex-cubic-degeneracy
 
@@ -807,29 +807,29 @@ $$
 
 :::
 
-:::::callout {title="Exercise" tone="amber"}
+{--{"author":"Elias's AI","timestamp":1787047919024}@@:::::callout--}{++{"author":"Elias's AI","timestamp":1787047919024}@@::::callout++} {title="Exercise" tone="amber"}
 **Exercise 2.3 (Degeneracy from multiplying two parameters together).** Again, consider a hypothesis class of constants. Consider this time the two-dimensional parameter space $\mathcal{W} = \mathbb{R}^{2}$. Define a parameter function map that maps $w = (a, b)$ to $f_{w} = a \cdot b$.
 
 **(a)** Show that this architecture indexes exactly the same hypothesis class as the architecture described in [[#^ex-univariate-degeneracy|Exercise 2.1]].
 
 **(b)** What is the directional derivative of the parameter–function map in direction $v = (1, 0)$?
-::::callout {title="Hint" tone="neutral" collapse="closed"}
+{--{"author":"Elias's AI","timestamp":1787047919024}@@::::callout--}{++{"author":"Elias's AI","timestamp":1787047919024}@@:::callout++} {title="Hint" tone="neutral" collapse="closed"}
 
 what kind of derivative does this reduce to?
 
-::::
+{--{"author":"Elias's AI","timestamp":1787047919024}@@::::--}{++{"author":"Elias's AI","timestamp":1787047919024}@@:::++}
 
 **(c)** What is the directional derivative of the parameter–function map in direction $v = (0, 1)$?
-::::callout {title="Hint" tone="neutral" collapse="closed"}
+{--{"author":"Elias's AI","timestamp":1787047919024}@@::::callout--}{++{"author":"Elias's AI","timestamp":1787047919024}@@:::callout++} {title="Hint" tone="neutral" collapse="closed"}
 
 what kind of derivative does this reduce to?
 
-::::
+{--{"author":"Elias's AI","timestamp":1787047919024}@@::::--}{++{"author":"Elias's AI","timestamp":1787047919024}@@:::++}
 
 **(d)** At which points in the parameter space is the parameter–function map degenerate *in these directions,* if any?
 
 **(e)** At which points in the parameter space is the parameter–function map degenerate, if any?
-:::::
+{--{"author":"Elias's AI","timestamp":1787047919024}@@:::::--}{++{"author":"Elias's AI","timestamp":1787047919024}@@::::++}
 
 ^ex-product-degeneracy
 
@@ -1008,7 +1008,7 @@ Since $\nabla \Phi(0,0) = 0$, every direction is degenerate at the origin. This 
 
 :::
 
-:::::callout {title="Exercise" tone="amber"}
+{--{"author":"Elias's AI","timestamp":1787047921792}@@:::::callout--}{++{"author":"Elias's AI","timestamp":1787047921792}@@::::callout++} {title="Exercise" tone="amber"}
 **Exercise 2.7 (Rotation symmetry in a linear autoencoder).** Consider a *linear autoencoder* with bottleneck dimension $h$ and ambient dimension $m \geq h$. The parameter space encodes a single matrix $W \in \mathbb{R}^{h \times m}$ and the parameter–function map sends $W$ to the function $\Phi(W) = f_{W} : \mathbb{R}^{m} \to \mathbb{R}^{m}$ where
 
 $$
@@ -1030,12 +1030,13 @@ show that $T_{\theta}(W) = R(\theta) W$ defines a continuous symmetry.
 **(c)** For a fixed parameter $W \in \mathbb{R}^{2 \times m}$, compute the degenerate direction that arises from this symmetry.
 
 **(d)** For general bottleneck dimension $h$, how many independent continuous symmetries does the orthogonal group $O(h)$ contribute?
-::::callout {title="Hint" tone="neutral" collapse="closed"}
+{--{"author":"Elias's AI","timestamp":1787047921792}@@::::callout--}{++{"author":"Elias's AI","timestamp":1787047921792}@@:::callout++} {title="Hint" tone="neutral" collapse="closed"}
 
 What is the dimension of $O(h)$?
 
-::::
-:::::
+{++{"author":"Elias's AI","timestamp":1787047921792}@@:::
+++}::::{--{"author":"Elias's AI","timestamp":1787047921792}@@
+:::::--}
 
 ^ex-rotation-symmetry
 
