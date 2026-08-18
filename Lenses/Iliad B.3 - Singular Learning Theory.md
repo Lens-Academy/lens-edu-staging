@@ -1789,7 +1789,7 @@ $$
 
 We will look at how this volume scales as $\epsilon \to 0$. It will be instructive for us to first calculate this scaling in the non-degenerate case.
 
-:::::callout {title="Exercise" tone="amber"}
+{--{"author":"Elias's AI","timestamp":1787047940255}@@:::::callout--}{++{"author":"Elias's AI","timestamp":1787047940255}@@::::callout++} {title="Exercise" tone="amber"}
 **Exercise 3.1 (Volume scaling in the regular case).** Let $w^{*} \in \mathcal{W}$ be a local minimum of $L$, and suppose that the Hessian $\nabla^{2} L(w^{*})$ is positive definite. Show that
 
 
@@ -1803,12 +1803,13 @@ $$
 
 for some constant $c>0$ where $d = \dim(\mathcal{W})$. You may assume that, as $\epsilon \to 0$, the volume of $B(w^{*},\epsilon)$ agrees to leading order with the volume of the quadratic approximation obtained by replacing $L$ with its second-order Taylor expansion at $w^{*}$.
 
-::::callout {title="Hint" tone="neutral" collapse="closed"}
+{--{"author":"Elias's AI","timestamp":1787047940255}@@::::callout--}{++{"author":"Elias's AI","timestamp":1787047940255}@@:::callout++} {title="Hint" tone="neutral" collapse="closed"}
 
 The volume of the ellipsoid $\{\boldsymbol{x}\in \mathbb{R}^{d} \mid \boldsymbol{x}^{\top} A \boldsymbol{x}< 1\}$ is proportional to $(\det A)^{-1/2}$.
 
-::::
-:::::
+{++{"author":"Elias's AI","timestamp":1787047940255}@@:::
+++}::::{--{"author":"Elias's AI","timestamp":1787047940255}@@
+:::::--}
 
 ^ex-llc-regular-case
 
@@ -1853,7 +1854,7 @@ $$
 
 The key takeaway from this exercise is that the dimension of the model controls the leading order asymptotics of the volume scaling. We can investigate this further by calculating the volume scaling in an example where the Hessian is not positive definite.
 
-:::::callout {title="Exercise" tone="amber"}
+{--{"author":"Elias's AI","timestamp":1787047943967}@@:::::callout--}{++{"author":"Elias's AI","timestamp":1787047943967}@@::::callout++} {title="Exercise" tone="amber"}
 **Exercise 3.2 (Quadratic Valley Volume Scaling).** Let $\mathcal{W} = [-R,R]^{d}$ for some (large) $R\in\mathbb{R}$ and let $L(x_{1},\dots,x_{d}) = \sum\limits_{i=1}^{d'}x_{i}^{2}$.
 
 **(a)** Sketch the loss landscape when $d=2, \,d'=1$.
@@ -1864,12 +1865,13 @@ The key takeaway from this exercise is that the dimension of the model controls 
 
 **(d)** Prove that $V(\epsilon) \propto \epsilon^{d'/2}$
 
-::::callout {title="Hint" tone="neutral" collapse="closed"}
+{--{"author":"Elias's AI","timestamp":1787047943967}@@::::callout--}{++{"author":"Elias's AI","timestamp":1787047943967}@@:::callout++} {title="Hint" tone="neutral" collapse="closed"}
 
 Use the volume of the ellipsoid from Exercise [[#^ex-llc-regular-case|3.1]]
 
-::::
-:::::
+{++{"author":"Elias's AI","timestamp":1787047943967}@@:::
+++}::::{--{"author":"Elias's AI","timestamp":1787047943967}@@
+:::::--}
 
 ^ex-quad-valley-scaling
 
