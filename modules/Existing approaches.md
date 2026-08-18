@@ -75,7 +75,7 @@ source:: [[../Lenses/What AI evaluations for preventing catastrophic risks can a
 # Submodule: Control
 ## Lens:
 source:: [[../Lenses/AI Control]]
-
+{++{"author":"Luc","timestamp":1787050815514}@@kjlk;jl;kj++}
 ## Lens:
 source:: [[../Lenses/The case for ensuring that powerful AIs are controlled]]
 
