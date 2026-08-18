@@ -11,9 +11,13 @@ description: "Learn to see the landscape of AI possibility and build a model of 
 # Meeting: Unit 1
 meeting-doc-template:: https://docs.google.com/document/d/1lqbblsgNwgeBa6JEhgH5qk-hlPSUsZRcYAH-IMmSYD8/edit
 survey:: [[../surveys/AIF Unit 1 Survey]]
-facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]] 
+facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]{--{"author":"Turner's AI","timestamp":1787058914907}@@ 
 
-# Meeting: Unit 2
+--}{++{"author":"Turner's AI","timestamp":1787058914907}@@
+
+# Module: [[../modules/unit-2-how-do-we-know|Unit 2: How Do We Know?]]
+
+++}# Meeting: Unit 2
 meeting-doc-template:: https://docs.google.com/document/d/1ueFST_L_ei4mvZYKOe1v5io1CqrHwqDwZKSLNcCM-qM/edit
 survey:: [[../surveys/AIF Unit 2 Survey]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
