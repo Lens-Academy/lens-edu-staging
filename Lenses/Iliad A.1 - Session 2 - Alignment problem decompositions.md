@@ -1,6 +1,8 @@
 ---
 id: '673f8272-22bd-4b3d-a43b-2e2e2bbe28c8'
-title: "Session 2: Alignment problem decompositions"
+title: "Session 2: Alignment problem decompositions"{++{"author":"Luc's AI","timestamp":1787134226645}@@
+tldr: "To judge an alignment proposal, ask what target is trained, why the setup should produce it, and how rewards, learned goals, or inductive biases could fail."
+summary_for_tutor: "The session introduces training stories as a general framework, then uses readings on reward misspecification, goal misgeneralization, and soft inductive biases to compare decompositions of technical alignment. It closes with group prompts that apply these frameworks to concrete misalignment and generalization cases."++}
 authors:
   - Leon Lang
 source_url: https://github.com/iliad-team/iliad-intensive/blob/1eb9e340305e03de3f81a761167e13c54c71f19d/tex/ai-alignment-intro/main.mdx

@@ -1,6 +1,8 @@
 ---
 id: 4d751641-4c63-46ed-a664-63f7c69ffc0b
-title: "What cognitive biases feel like from the inside"
+title: "What cognitive biases feel like from the inside"{++{"author":"Luc's AI","timestamp":1787134228273}@@
+tldr: "Biases rarely feel like mistakes from the inside; comparing your own confident story with how the same pattern looks in others can make confirmation and optimism biases easier to notice."
+summary_for_tutor: "The reading uses paired descriptions of subjective experience and outside interpretation to show how cognitive biases conceal themselves. It names patterns including confirmation and optimism bias, then argues that inside-view descriptions can make bias concepts more recognizable and practically useful."++}
 ---
 
 #### Text:

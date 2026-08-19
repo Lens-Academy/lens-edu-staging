@@ -1,6 +1,8 @@
 ---
 id: 'c06dbe39-1977-4bc7-be07-2d755bb383df'
-title: "Session 4: Uncertain risks and outlook"
+title: "Session 4: Uncertain risks and outlook"{++{"author":"Luc's AI","timestamp":1787134227138}@@
+tldr: "AI safety may range from manageable with current methods to fundamentally unsolvable, so compare the evidence and choose research approaches that fit your uncertainty."
+summary_for_tutor: "The session presents optimistic, intermediate, and pessimistic views of alignment difficulty. Readings cover empirical safety portfolios, model organisms of misalignment, and the rocket-alignment argument for deeper theory, followed by discussion of risk estimates, recent evidence, and the relative appeal of empirical and theoretical approaches."++}
 authors:
   - Leon Lang
 source_url: https://github.com/iliad-team/iliad-intensive/blob/1eb9e340305e03de3f81a761167e13c54c71f19d/tex/ai-alignment-intro/main.mdx
