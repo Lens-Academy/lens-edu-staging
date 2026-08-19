@@ -67,7 +67,7 @@ So the future will look different from the present. Indeed, we can expect it to 
 
 Predicting the *details* seems difficult, verging on impossible. That's a hard call. But predicting the transformation of the universe into a place where most matter is harvested and put toward *some* purpose, whatever that may be? That is an easier call, even if it's counterintuitive and weird to a civilization that has barely begun to extract resources from stars at all.
 
-A million years from now, we shouldn't expect the future to look like the year 2025, with a bunch of hairless apes messing around on the surface of Earth. Long before that, either we'll have killed ourselves, or our descendants will have gone out to explore the cosmos themselves.[^source-note-8]
+A million years from now, we shouldn't expect the future to look like the year 2025, with a bunch of hairless apes messing around on the surface of Earth. Long before that, either we'll have killed ourselves, or our descendants will have gone out to explore the cosmos {--{"author":"Luc's AI","timestamp":1787161376171}@@themselves.[^source-note-8]--}{++{"author":"Luc's AI","timestamp":1787161376171}@@themselves.[^note-iabied-ftnt8]++}
 
 It's definitely going to get weird for humanity.The question is when.
 
@@ -79,7 +79,7 @@ The Industrial Revolution transformed the world very quickly, by the standards o
 
 Humanity looks to be on the brink of another radical transformation, where machines can begin reshaping the world at machine speeds, which far outstrip biological speeds. We'll have more to say in Chapters 1 and 6 about just how well machine intelligence would measure up against human intelligence. But minimally, we need to take seriously the possibility that the development of smarter-than-human machines would radically change the world at high speed. That sort of thing has happened over and over again throughout the course of time.
 
-[^source-note-8]: Or they'll have built tools or successors to do the exploring, in whatever way they find convenient with the benefits of more advanced science and technology.
+{--{"author":"Luc's AI","timestamp":1787161378765}@@[^source-note-8]:--}{++{"author":"Luc's AI","timestamp":1787161378765}@@[^note-iabied-ftnt8]:++} Or they'll have built tools or successors to do the exploring, in whatever way they find convenient with the benefits of more advanced science and technology.
 
 #### Notes
 
