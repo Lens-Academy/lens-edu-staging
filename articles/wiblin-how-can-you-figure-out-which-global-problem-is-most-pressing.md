@@ -332,7 +332,7 @@ In this article, we only cover comparisons of problem areas, but that’s not al
 
 ## How should we interpret the results?
 
-If you’ve used our rubric above, you can add the scores together to get a rough answer of which problem will be more effective to work on.[2](https://80000hours.org/articles/problem-framework/#fn-2) Bear in mind that these scores are imprecise, and adding them increases the uncertainty even further, because we only measure each one imprecisely. This means you need to take your final summed score with a grain of salt – or rather a lot of salt.
+If you’ve used our rubric above, you can add the scores together to get a rough answer of which problem will be more effective to work {--{"author":"Luc's AI","timestamp":1787140534525}@@on.[2](https://80000hours.org/articles/problem-framework/#fn-2)--}{++{"author":"Luc's AI","timestamp":1787140534525}@@on.[^score-multiplication]++} Bear in mind that these scores are imprecise, and adding them increases the uncertainty even further, because we only measure each one imprecisely. This means you need to take your final summed score with a grain of salt – or rather a lot of salt.
 
 Within 80,000 Hours, if the difference in score between two problems is 4 or larger, we have a reasonable level of confidence that it’s a more effective problem to work on. If the difference is 3 or smaller it looks more like a close call.
 
@@ -408,4 +408,8 @@ If you’re interested in pursuing a career focusing on one of the world’s mos
 
 This is a supporting article in our [foundations series](https://80000hours.org/advanced-series/). Read the [next article](https://80000hours.org/articles/leverage/) in the series, or here are some others you might find interesting:
 
-[^1]: [http://vizhub.healthdata.org/gbd-compare/](http://vizhub.healthdata.org/gbd-compare/)
+[^1]: [http://vizhub.healthdata.org/gbd-compare/](http://vizhub.healthdata.org/gbd-compare/){++{"author":"Luc's AI","timestamp":1787140534792}@@
+
+## Footnotes
+
+[^score-multiplication]: The three factors multiply together, i.e. ten times the scale means the problem is about ten times more pressing. The rubric, however, uses a log scale, so you need to add the scores. (Because log(ABC) = logA + logB + logC).++}
