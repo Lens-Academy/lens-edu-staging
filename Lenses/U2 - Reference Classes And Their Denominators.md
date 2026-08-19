@@ -70,7 +70,7 @@ Then she is asked how likely it is that a particular AI system will be deployed 
 
 > "Outside view: technology adoption is usually slower than enthusiasts expect. 15%."
 
-One of these two moves is a reference class. The other only uses the same words. Say which is which. Then say what the second one actually is. Then, for the first one, say what its denominator is, and name one way that denominator could be wrong.
+One of these two moves is a reference class. The other only uses the same words. Say which is which. Then say what the {--{"author":"Elias's AI","timestamp":1787128428785}@@second one--}{++{"author":"Elias's AI","timestamp":1787128428785}@@non-reference-class move++} actually is. {--{"author":"Elias's AI","timestamp":1787128428785}@@Then, for --}{++{"author":"Elias's AI","timestamp":1787128428785}@@For ++}the {--{"author":"Elias's AI","timestamp":1787128428785}@@first one,--}{++{"author":"Elias's AI","timestamp":1787128428785}@@reference-class move,++} say what its denominator is, and name one way that denominator could be wrong.
 
 assessment-instructions:: The student has read and recalled Kokotajlo's Taboo "Outside View". This lens compresses processing and learning into one phase because the reading is short and the skill is narrow.
 
