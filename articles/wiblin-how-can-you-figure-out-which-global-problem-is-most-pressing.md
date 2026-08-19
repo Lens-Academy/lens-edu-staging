@@ -48,26 +48,30 @@ Table of Contents
     -   [5.5 More tips on how to assess](#more-tips-on-how-to-assess)
 -   [6 How to assess how solvable a problem is](#how-to-assess-how-solvable-a-problem-is)
     -   [6.1 Definition](#definition-3)
-    -   [6.2 Why is it important?](https://80000hours.org/articles/problem-framework/#why-is-it-important-2)
-    -   [6.3 How to assess it](https://80000hours.org/articles/problem-framework/#how-to-assess-it-3)
+    -   [6.2 Why is it {--{"author":"Luc's AI","timestamp":1787139995195}@@important?](https://80000hours.org/articles/problem-framework/#why-is-it-important-2)--}{++{"author":"Luc's AI","timestamp":1787139995195}@@important?](#why-is-it-important)++}
+    -   [6.3 How to assess {--{"author":"Luc's AI","timestamp":1787139995460}@@it](https://80000hours.org/articles/problem-framework/#how-to-assess-it-3)--}{++{"author":"Luc's AI","timestamp":1787139995460}@@it](#how-to-assess-it)++}
     -   [6.4 Challenges in assessment](#challenges-in-assessment)
 -   [7 What do the summed scores mean?](#what-do-the-summed-scores-mean)
 -   [8 How to assess personal fit](#how-to-assess-personal-fit)
-    -   [8.1 Definition](https://80000hours.org/articles/problem-framework/#definition-4)
+    -   [8.1 {--{"author":"Luc's AI","timestamp":1787139995671}@@Definition](https://80000hours.org/articles/problem-framework/#definition-4)--}{++{"author":"Luc's AI","timestamp":1787139995671}@@Definition](#definition)++}
     -   [8.2 How can it be assessed?](#how-can-it-be-assessed)
 -   [9 Other factors for comparing career opportunities](#other-factors-for-comparing-career-opportunities)
 -   [10 How should we interpret the results?](#how-should-we-interpret-the-results)
--   [11 How does this approach compare with ordinary cost-effectiveness analysis?](https://80000hours.org/articles/problem-framework/#how-does-this-approach-compare-with-ordinary-cost-effectiveness-analysis)
--   [12 Advantages and disadvantages of quantitative problem prioritisation](https://80000hours.org/articles/problem-framework/#advantages-and-disadvantages-of-quantitative-problem-prioritisation)
+-   [11 How does this approach compare with ordinary cost-effectiveness {--{"author":"Luc's AI","timestamp":1787139995933}@@analysis?](https://80000hours.org/articles/problem-framework/#how-does-this-approach-compare-with-ordinary-cost-effectiveness-analysis)--}{++{"author":"Luc's AI","timestamp":1787139995933}@@analysis?](#how-does-this-approach-compare-with-ordinary-cost-)++}
+-   [12 Advantages and disadvantages of quantitative problem {--{"author":"Luc's AI","timestamp":1787139996174}@@prioritisation](https://80000hours.org/articles/problem-framework/#advantages-and-disadvantages-of-quantitative-problem-prioritisation)--}{++{"author":"Luc's AI","timestamp":1787139996174}@@prioritisation](#advantages-and-disadvantages-of-quantitative-probl)++}
 -   [13 How to factor in coordination?](#how-to-factor-in-coordination)
 -   [14 Conclusion](#conclusion)
     -   [14.1 Want to help solve a pressing problem?](#want-to-help-solve-a-pressing-problem)
 -   [15 Further reading](#further-reading)
 -   [16 Read next](#read-next)
-    -   [16.1 The case for reducing existential risks](https://80000hours.org/articles/problem-framework/#the-case-for-reducing-existential-risks)
-    -   [16.2 Why our impact in millions of years could be what matters most](https://80000hours.org/articles/problem-framework/#why-our-impact-in-millions-of-years-could-be-what-matters-most)
-    -   [16.3 Yardsticks: how to compare the scale of different social problems?](https://80000hours.org/articles/problem-framework/#yardsticks-how-to-compare-the-scale-of-different-social-problems)
-    -   [16.4 Join our newsletter and we’ll mail you a free book](https://80000hours.org/articles/problem-framework/#join-our-newsletter-and-well-mail-you-a-free-book)
+{--{"author":"Luc's AI","timestamp":1787140154773}@@    --}{++{"author":"Luc's AI","timestamp":1787140154773}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+    ++}-   [16.1 The case for reducing existential risks](https://80000hours.org/articles/problem-framework/#the-case-for-reducing-existential-risks)
+{--{"author":"Luc's AI","timestamp":1787140155035}@@    --}{++{"author":"Luc's AI","timestamp":1787140155035}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+    ++}-   [16.2 Why our impact in millions of years could be what matters most](https://80000hours.org/articles/problem-framework/#why-our-impact-in-millions-of-years-could-be-what-matters-most)
+{--{"author":"Luc's AI","timestamp":1787140155272}@@    --}{++{"author":"Luc's AI","timestamp":1787140155272}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+    ++}-   [16.3 Yardsticks: how to compare the scale of different social problems?](https://80000hours.org/articles/problem-framework/#yardsticks-how-to-compare-the-scale-of-different-social-problems)
+{--{"author":"Luc's AI","timestamp":1787140155532}@@    --}{++{"author":"Luc's AI","timestamp":1787140155532}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+    ++}-   [16.4 Join our newsletter and we’ll mail you a free book](https://80000hours.org/articles/problem-framework/#join-our-newsletter-and-well-mail-you-a-free-book)
 
 ## Introducing how we define the factors
 
