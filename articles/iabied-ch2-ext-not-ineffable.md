@@ -78,7 +78,7 @@ One simple way to see that there's a missing level of abstraction is that our hi
 
 Some loss of information is presumably necessary, but a good model would be a lot less lossy. An "understanding" of the differential on a car won't let you predict everything that the differential does as well as an atomic-level simulation — because sometimes the teeth on the gears will get worn down and slip, for instance. But the gears-level model of a differential still makes some very precise predictions, and it's easy to see the boundary between the things that the model is supposed to predict (like how the gears will turn when they're properly interlocked) and what it's not (like what happens when the gear teeth wear away).
 
-Why expect that this degree of modeling is possible with human minds? Perhaps human minds are too random for that. Perhaps if you want accurate predictions, it's neurons or bust.[\*]{--{"author":"Luc's AI","timestamp":1787136130317}@@(#ftnt78)--}{++{"author":"Luc's AI","timestamp":1787136130317}@@(https://ifanyonebuildsit.com/2/intelligence-isnt-ineffable#ftnt78)++}
+Why expect that this degree of modeling is possible with human minds? Perhaps human minds are too random for that. Perhaps if you want accurate predictions, it's neurons or bust.[\*](https://ifanyonebuildsit.com/2/intelligence-isnt-ineffable#ftnt78)
 
 Some evidence that it's not "neurons or bust" is that even your mother can predict your behavior better than the best formal models of brains can. Which means there's definitely some structure to human psychology that can be knowable *implicitly,* without exactly simulating someone's neurons. It just hasn't been made explicit yet.
 
@@ -104,7 +104,7 @@ Are there unifying principles for choosing between different hypotheses? Or are 
 
 Is there a *language* we could use to describe every hypothesis that computers or brains could ever successfully use?
 
-Questions like these might sound to someone first encountering them like they're very imponderable and philosophical. However, these are all actually solved and well-understood questions in computer science, probability theory, and information theory, with answers going by names like "Minimum Message Length," "Solomonoff prior," or "likelihood ratio."[†]{--{"author":"Luc's AI","timestamp":1787136131670}@@(#ftnt79)--}{++{"author":"Luc's AI","timestamp":1787136131670}@@(https://ifanyonebuildsit.com/2/intelligence-isnt-ineffable#ftnt79)++}
+Questions like these might sound to someone first encountering them like they're very imponderable and philosophical. However, these are all actually solved and well-understood questions in computer science, probability theory, and information theory, with answers going by names like "Minimum Message Length," "Solomonoff prior," or "likelihood ratio."[†](https://ifanyonebuildsit.com/2/intelligence-isnt-ineffable#ftnt79)
 
 It also seems relevant that there already exist fully understood AIs that are superhuman in specific domains. We understand all of the relevant principles at work in the chess AI Deep Blue. Because Deep Blue was hand-coded, we can easily inspect different parts of Deep Blue's code, see everything that a given code snippet is doing, and see how this relates to the rest of the codebase.
 
@@ -134,9 +134,9 @@ Before we get there, we need to explain why AI techniques like the ones we've di
 
 ---
 
-[\*]{--{"author":"Luc's AI","timestamp":1787136133183}@@(#ftnt78_ref)--}{++{"author":"Luc's AI","timestamp":1787136133183}@@(https://ifanyonebuildsit.com/2/intelligence-isnt-ineffable#ftnt78_ref)++} Heck, maybe even neural simulations are still unreliable, if, say, human behavior is highly sensitive to heat.
+[\*](https://ifanyonebuildsit.com/2/intelligence-isnt-ineffable#ftnt78_ref) Heck, maybe even neural simulations are still unreliable, if, say, human behavior is highly sensitive to heat.
 
-[†]{--{"author":"Luc's AI","timestamp":1787136134216}@@(#ftnt79_ref)--}{++{"author":"Luc's AI","timestamp":1787136134216}@@(https://ifanyonebuildsit.com/2/intelligence-isnt-ineffable#ftnt79_ref)++} Yudkowsky has written more on these topics in blog posts such as "[What is Evidence?](https://www.lesswrong.com/s/zpCiuR4T343j9WkcK/p/6s3xABaXKPdFwA3FS)", "[How Much Evidence Does It Take?](https://www.lesswrong.com/s/zpCiuR4T343j9WkcK/p/nj8JKFoLSMEmD3RGp)", and "[Occam's Razor](https://www.lesswrong.com/s/zpCiuR4T343j9WkcK/p/f4txACqDWithRi7hs)."
+[†](https://ifanyonebuildsit.com/2/intelligence-isnt-ineffable#ftnt79_ref) Yudkowsky has written more on these topics in blog posts such as "[What is Evidence?](https://www.lesswrong.com/s/zpCiuR4T343j9WkcK/p/6s3xABaXKPdFwA3FS)", "[How Much Evidence Does It Take?](https://www.lesswrong.com/s/zpCiuR4T343j9WkcK/p/nj8JKFoLSMEmD3RGp)", and "[Occam's Razor](https://www.lesswrong.com/s/zpCiuR4T343j9WkcK/p/f4txACqDWithRi7hs)."
 
 #### Notes
 

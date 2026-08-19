@@ -153,5 +153,5 @@ Anson Ho is a researcher at Epoch AI. He is interested in helping develop a more
 ](https://epoch.ai/about/team/anson-ho)
 
 [^1]: There is a third possible outcome where a proportional increase in AI R&D produces a proportional improvement in AI software, which in turn results in a precisely proportional improvement in subsequent AI-produced R&D output. For the purposes of this exposition, we neglect this knife-edged scenario.
-[^2]: The parameter \\theta also influences the long-run dynamics, but only in a quantitative sense (e.g. the value of the exponent under an exponential growth trajectory). In contrast, r can change the _qualitative_ dynamics of long-run growth, and this will be our primary focus for the purposes of this post.
+[^2]: The parameter {--{"author":"Luc's AI","timestamp":1787136360032}@@\\theta--}{++{"author":"Luc's AI","timestamp":1787136360032}@@$\theta$++} also influences the long-run dynamics, but only in a quantitative sense (e.g. the value of the exponent under an exponential growth trajectory). In contrast, r can change the _qualitative_ dynamics of long-run growth, and this will be our primary focus for the purposes of this post.
 [^3]: See the literature review in [Ho et al. 2024](https://epoch.ai/blog/do-the-returns-to-software-rnd-point-towards-a-singularity#ho2024algorithmic) for some examples of this.

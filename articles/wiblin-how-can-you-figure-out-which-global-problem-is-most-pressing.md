@@ -48,26 +48,26 @@ Table of Contents
     -   [5.5 More tips on how to assess](#more-tips-on-how-to-assess)
 -   [6 How to assess how solvable a problem is](#how-to-assess-how-solvable-a-problem-is)
     -   [6.1 Definition](#definition-3)
-    -   [6.2 Why is it important?]{--{"author":"Luc's AI","timestamp":1787136129874}@@(#why-is-it-important-2)--}{++{"author":"Luc's AI","timestamp":1787136129874}@@(https://80000hours.org/articles/problem-framework/#why-is-it-important-2)++}
-    -   [6.3 How to assess it]{--{"author":"Luc's AI","timestamp":1787136131246}@@(#how-to-assess-it-3)--}{++{"author":"Luc's AI","timestamp":1787136131246}@@(https://80000hours.org/articles/problem-framework/#how-to-assess-it-3)++}
+    -   [6.2 Why is it important?](https://80000hours.org/articles/problem-framework/#why-is-it-important-2)
+    -   [6.3 How to assess it](https://80000hours.org/articles/problem-framework/#how-to-assess-it-3)
     -   [6.4 Challenges in assessment](#challenges-in-assessment)
 -   [7 What do the summed scores mean?](#what-do-the-summed-scores-mean)
 -   [8 How to assess personal fit](#how-to-assess-personal-fit)
-    -   [8.1 Definition]{--{"author":"Luc's AI","timestamp":1787136132659}@@(#definition-4)--}{++{"author":"Luc's AI","timestamp":1787136132659}@@(https://80000hours.org/articles/problem-framework/#definition-4)++}
+    -   [8.1 Definition](https://80000hours.org/articles/problem-framework/#definition-4)
     -   [8.2 How can it be assessed?](#how-can-it-be-assessed)
 -   [9 Other factors for comparing career opportunities](#other-factors-for-comparing-career-opportunities)
 -   [10 How should we interpret the results?](#how-should-we-interpret-the-results)
--   [11 How does this approach compare with ordinary cost-effectiveness analysis?]{--{"author":"Luc's AI","timestamp":1787136133741}@@(#how-does-this-approach-compare-with-ordinary-cost-effectiveness-analysis)--}{++{"author":"Luc's AI","timestamp":1787136133741}@@(https://80000hours.org/articles/problem-framework/#how-does-this-approach-compare-with-ordinary-cost-effectiveness-analysis)++}
--   [12 Advantages and disadvantages of quantitative problem prioritisation]{--{"author":"Luc's AI","timestamp":1787136134804}@@(#advantages-and-disadvantages-of-quantitative-problem-prioritisation)--}{++{"author":"Luc's AI","timestamp":1787136134804}@@(https://80000hours.org/articles/problem-framework/#advantages-and-disadvantages-of-quantitative-problem-prioritisation)++}
+-   [11 How does this approach compare with ordinary cost-effectiveness analysis?](https://80000hours.org/articles/problem-framework/#how-does-this-approach-compare-with-ordinary-cost-effectiveness-analysis)
+-   [12 Advantages and disadvantages of quantitative problem prioritisation](https://80000hours.org/articles/problem-framework/#advantages-and-disadvantages-of-quantitative-problem-prioritisation)
 -   [13 How to factor in coordination?](#how-to-factor-in-coordination)
 -   [14 Conclusion](#conclusion)
     -   [14.1 Want to help solve a pressing problem?](#want-to-help-solve-a-pressing-problem)
 -   [15 Further reading](#further-reading)
 -   [16 Read next](#read-next)
-    -   [16.1 The case for reducing existential risks]{--{"author":"Luc's AI","timestamp":1787136135094}@@(#the-case-for-reducing-existential-risks)--}{++{"author":"Luc's AI","timestamp":1787136135094}@@(https://80000hours.org/articles/problem-framework/#the-case-for-reducing-existential-risks)++}
-    -   [16.2 Why our impact in millions of years could be what matters most]{--{"author":"Luc's AI","timestamp":1787136135321}@@(#why-our-impact-in-millions-of-years-could-be-what-matters-most)--}{++{"author":"Luc's AI","timestamp":1787136135321}@@(https://80000hours.org/articles/problem-framework/#why-our-impact-in-millions-of-years-could-be-what-matters-most)++}
-    -   [16.3 Yardsticks: how to compare the scale of different social problems?]{--{"author":"Luc's AI","timestamp":1787136135552}@@(#yardsticks-how-to-compare-the-scale-of-different-social-problems)--}{++{"author":"Luc's AI","timestamp":1787136135552}@@(https://80000hours.org/articles/problem-framework/#yardsticks-how-to-compare-the-scale-of-different-social-problems)++}
-    -   [16.4 Join our newsletter and we’ll mail you a free book]{--{"author":"Luc's AI","timestamp":1787136135873}@@(#join-our-newsletter-and-well-mail-you-a-free-book)--}{++{"author":"Luc's AI","timestamp":1787136135873}@@(https://80000hours.org/articles/problem-framework/#join-our-newsletter-and-well-mail-you-a-free-book)++}
+    -   [16.1 The case for reducing existential risks](https://80000hours.org/articles/problem-framework/#the-case-for-reducing-existential-risks)
+    -   [16.2 Why our impact in millions of years could be what matters most](https://80000hours.org/articles/problem-framework/#why-our-impact-in-millions-of-years-could-be-what-matters-most)
+    -   [16.3 Yardsticks: how to compare the scale of different social problems?](https://80000hours.org/articles/problem-framework/#yardsticks-how-to-compare-the-scale-of-different-social-problems)
+    -   [16.4 Join our newsletter and we’ll mail you a free book](https://80000hours.org/articles/problem-framework/#join-our-newsletter-and-well-mail-you-a-free-book)
 
 ## Introducing how we define the factors
 
@@ -81,7 +81,7 @@ In our [introductory article](https://80000hours.org/career-guide/most-pressing-
 
 A good reason to do it this way, is that if we multiply these three terms together, we will get back to ‘good done’ / ‘extra person or $’ allocated to the problem:
 
-![](https://80000hours.org/wp-content/uploads/2016/04/Screen-Shot-2017-02-07-at-7.58.39-pm.png){--{"author":"Luc's AI","timestamp":1787136197735}@@ ![](https://80000hours.org/wp-content/uploads/2016/04/Screen-Shot-2017-02-07-at-7.58.39-pm.png)--}
+![](https://80000hours.org/wp-content/uploads/2016/04/Screen-Shot-2017-02-07-at-7.58.39-pm.png)
 
 So, now we’ve broken “good done per $” into three components that each have a quantitative definition. What are these components, in plain English?
 
@@ -328,7 +328,7 @@ In this article, we only cover comparisons of problem areas, but that’s not al
 
 ## How should we interpret the results?
 
-If you’ve used our rubric above, you can add the scores together to get a rough answer of which problem will be more effective to work on.[2]{--{"author":"Luc's AI","timestamp":1787136136139}@@(#fn:2)--}{++{"author":"Luc's AI","timestamp":1787136136139}@@(https://80000hours.org/articles/problem-framework/#fn-2)++} Bear in mind that these scores are imprecise, and adding them increases the uncertainty even further, because we only measure each one imprecisely. This means you need to take your final summed score with a grain of salt – or rather a lot of salt.
+If you’ve used our rubric above, you can add the scores together to get a rough answer of which problem will be more effective to work on.[2](https://80000hours.org/articles/problem-framework/#fn-2) Bear in mind that these scores are imprecise, and adding them increases the uncertainty even further, because we only measure each one imprecisely. This means you need to take your final summed score with a grain of salt – or rather a lot of salt.
 
 Within 80,000 Hours, if the difference in score between two problems is 4 or larger, we have a reasonable level of confidence that it’s a more effective problem to work on. If the difference is 3 or smaller it looks more like a close call.
 
