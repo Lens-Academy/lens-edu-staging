@@ -32,7 +32,7 @@ Fermi reconsidered.
 
 There are a few different morals one could take away from this story. A moral we *don't* take away is, "Every remote possibility is worth worrying about if we may die of it." There's nothing "remote" about 10 percent, but if the possibility *were* sufficiently remote, then it would simply not be worth thinking about.
 
-One moral that we*do* take from this story: It is sometimes possible to realize that a technology such as a radioactivity cascade is *possible,* and thus know (before everyone else) that the world is set for some sort of drastic change.
+One moral that {--{"author":"Luc's AI","timestamp":1787161716597}@@we*do*--}{++{"author":"Luc's AI","timestamp":1787161716597}@@we *do*++} take from this story: It is sometimes possible to realize that a technology such as a radioactivity cascade is *possible,* and thus know (before everyone else) that the world is set for some sort of drastic change.
 
 Another moral that we take from this story is that one's initial intuitions are often not a good guide to anticipating and thinking about drastic changes. Not even if one is a renowned expert in the relevant field, like Enrico Fermi was.
 

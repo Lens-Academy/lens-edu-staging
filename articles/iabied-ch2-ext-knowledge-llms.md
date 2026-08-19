@@ -59,7 +59,7 @@ Probably not. We can, and in a group of dozens of people working on AI policy, w
 
 I (Yudkowsky) cannot sketch out from memory alone the details of a SwiGLU gate and how it differs from a GLU, because when I did look it up, the exact details there seemed to have no relevance to larger matters at all, so I didn't memorize them. But it might be informative to the novice that SwiGLU was found by a kind of blind testing, and that the paper authors said outright they have no idea why these techniques work in practice. We already knew about many cases like that, but if you *didn't* know that the people who come up with architectural improvements often say that they have no idea why it works, that's a relevant piece of information.
 
-All of which adds up to: Knowing at least a little about how LLMs work is important so that you can see how little*anybody* knowsabout modern AI.
+All of which adds up to: Knowing at least a little about how LLMs work is important so that you can see how {--{"author":"Luc's AI","timestamp":1787161718513}@@little*anybody* knowsabout--}{++{"author":"Luc's AI","timestamp":1787161718513}@@little *anybody* knows about++} modern AI.
 
 Sometimes, experts will pretend to have secret knowledge that can only be accessed by people who have worked for years at growing an AI. But they cannot name their knowledge, and the people writing papers say things like (to quote the paper introducing SwiGLU):
 

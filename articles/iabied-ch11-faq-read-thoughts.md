@@ -41,7 +41,7 @@ Another flaw in this plan: Even if AI researchers *could* read an AI's mind well
 
 They could punish the offending AI, training it so that it stops setting off the "bad thought" detector. But that would not necessarily train the AI to stop having those thoughts, so much as to [hide its true thoughts from the detector](https://openai.com/index/chain-of-thought-monitoring/).
 
-This problem is pernicious. The incentive that leads an AI to think about turning against humans to get what it wants is not a shallow aspect of temperament that can be massaged away. It's simply*true* that a mature AI would have preferences that differ from those of the operators; it's *true* that it would get more of what it prefers by subverting its operators.
+This problem is pernicious. The incentive that leads an AI to think about turning against humans to get what it wants is not a shallow aspect of temperament that can be massaged away. It's {--{"author":"Luc's AI","timestamp":1787161716123}@@simply*true*--}{++{"author":"Luc's AI","timestamp":1787161716123}@@simply *true*++} that a mature AI would have preferences that differ from those of the operators; it's *true* that it would get more of what it prefers by subverting its operators.
 
 The mechanisms in an AI that are good at noticing and exploiting real advantages in deep and general ways across a broad variety of domains are *also* liable to notice and exploit opportunities to subvert the AI's operators.
 
