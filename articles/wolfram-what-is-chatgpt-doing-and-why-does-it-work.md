@@ -812,7 +812,8 @@ Stephen Wolfram (2023), "What Is ChatGPT Doing... and Why Does It Work?," Stephe
 
 Text
 
-Stephen Wolfram (2023), "What Is ChatGPT Doing... and Why Does It Work?," Stephen Wolfram Writings. writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work.
+{++{"author":"Luc's AI","timestamp":1787136486450}@@%% validator-ignore-next-line --code article.block-repeated-nearby --reason source-provides-alternative-citation-formats %%
+++}Stephen Wolfram (2023), "What Is ChatGPT Doing... and Why Does It Work?," Stephen Wolfram Writings. writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work.
 
 CMS
 

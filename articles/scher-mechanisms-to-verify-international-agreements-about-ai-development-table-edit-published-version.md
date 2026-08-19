@@ -1881,7 +1881,8 @@ High <1 year
 
 ##### **Notes**
 
-Monitoring the capability level of internal AI systems, which are only deployed internally and are kept secret, is more difficult than monitoring externally deployed models.
+{++{"author":"Luc's AI","timestamp":1787136486772}@@%% validator-ignore-next-line --code article.block-repeated-nearby --reason intentional-repeat-in-distinct-structured-entries %%
+++}Monitoring the capability level of internal AI systems, which are only deployed internally and are kept secret, is more difficult than monitoring externally deployed models.
 
 ### Other Building Blocks
 
