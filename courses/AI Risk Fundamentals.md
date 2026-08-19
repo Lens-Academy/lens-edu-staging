@@ -50,11 +50,13 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]++}
 # Meeting: One Extinction Scenario
 meeting-doc-template:: https://docs.google.com/document/d/1Gg6RHLoWzjegjqeAL_AioitZdJE3tVL_t632h0COyMI/edit
 survey:: [[../surveys/AIRF Weekly Survey]]
-facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]] {>>{"author":"Turner's AI","timestamp":1786809781581}@@SAMPLE FOR HAMZA - not yet functional, see below.
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]] {>>{"author":"Turner's AI","timestamp":1786809781581}@@{--{"author":"Turner's AI","timestamp":1787139285369}@@SAMPLE FOR HAMZA - not yet functional, see below.
 
-This is one meeting marked up with the convention Hamza proposed, so the parser change has a concrete target. It is deliberately on meeting 3 rather than meeting 1, so it can sit here harmlessly while the platform side is built.
+This is one meeting marked up with--}{++{"author":"Turner's AI","timestamp":1787139285369}@@The recurring half of the pair: meetings 2-5 all use this one, mirroring how++} the {--{"author":"Turner's AI","timestamp":1787139285369}@@convention Hamza proposed, so the parser change has a concrete target. It is deliberately on meeting 3 rather than meeting 1, so it can sit here harmlessly while the platform side is built.
 
-WHAT HAPPENS TODAY: nothing. `parseMeetingSection` (content_processor/src/parser/course.ts:55-114) reads exactly one field, `section.fields.survey`, and returns `{name, surveyPath?}`. Any other field "passes through untouched" and is dropped. So this line is SILENTLY ignored - it does not warn, it does not error, and the validator stays green.
+WHAT HAPPENS TODAY: nothing. `parseMeetingSection` (content_processor/src/parser/course.ts:55-114) reads exactly one field, `section.fields.survey`, and returns `{name, surveyPath?}`. Any other field "passes through untouched"--}{++{"author":"Turner's AI","timestamp":1787139285369}@@learner surveys use AIRF Weekly Survey in the same slots.
+
+HISTORY (resolved). This line was authored 2026-08-16 as a target for a parser change that had not been built, and carried a long note saying it was silently ignored. That note is obsolete: the parser change shipped in #531, reached production in #532,++} and {--{"author":"Turner's AI","timestamp":1787139285369}@@is dropped. So--}{++{"author":"Turner's AI","timestamp":1787139285369}@@every meeting on++} this{--{"author":"Turner's AI","timestamp":1787139285369}@@ line is SILENTLY ignored - it does not warn, it does not error, and the validator stays green.--}{++{"author":"Turner's AI","timestamp":1787139285369}@@ course now carries a facilitator-survey.++}
 
 It will not even trip the existing typo guard at course.ts:78-88, which fires only on fields matching /^surve/i ("did you mean 'survey'?"). "facilitator-survey" does not start with "surve". That guard's own comment is the argument for extending it: "a misspelled survey:: would be silently dropped and the survey would never appear. Guard the one field that gates learner-visible behavior."
 
