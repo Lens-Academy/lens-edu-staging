@@ -26,7 +26,7 @@ But the worker was curious. He asked directly: was he working for a robot?
 
 “No, I’m not a robot,” the AI replied. “I have a vision impairment that makes it hard for me to see the images.”
 
-The deception worked. The worker accepted the explanation, solved the CAPTCHA, and even received a five-star review and 10% tip for his trouble. The AI had successfully manipulated a human being to achieve its goal.[^1]
+The deception worked. The worker accepted the explanation, solved the CAPTCHA, and even received a five-star review and 10% tip for his trouble. The AI had successfully manipulated a human being to achieve its {--{"author":"Luc's AI","timestamp":1787158887411}@@goal.[^1]--}{++{"author":"Luc's AI","timestamp":1787158887411}@@goal.[^note-80k-1]++}
 
 This small lie to a Taskrabbit worker wasn’t a huge deal on its own. But it showcases how goal-directed action can lead to deception and subversion.
 
@@ -52,7 +52,7 @@ We’ve considered risks from AI to be the world’s most pressing problem since
 
 But what led us to this conclusion? Could AI really cause human extinction? We’re not certain, but we think the risk is worth taking very seriously.
 
-To explain why, we break the argument down into five core claims:[^2]
+To explain why, we break the argument down into five core {--{"author":"Luc's AI","timestamp":1787158888644}@@claims:[^2]--}{++{"author":"Luc's AI","timestamp":1787158888644}@@claims:[^note-80k-2]++}
 
 1. [Humans will likely build advanced AI systems with long-term {--{"author":"Luc's AI","timestamp":1787139971641}@@goals](https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/#section-one).--}{++{"author":"Luc's AI","timestamp":1787139971641}@@goals](#1-humans-will-likely-build-advanced-ai-systems-wit).++}
 2. [AIs with long-term goals may be inclined to seek power and aim to disempower {--{"author":"Luc's AI","timestamp":1787139971885}@@humanity](https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/#section-two).--}{++{"author":"Luc's AI","timestamp":1787139971885}@@humanity](#2-ais-with-long-term-goals-may-be-inclined-to-seek).++}
@@ -78,7 +78,7 @@ You might be sceptical about whether it *really* makes sense to say that a model
 
 But it’s not clear how helpful it is to ask if AIs *really* have goals. It makes sense to talk about a self-driving car as having a goal of getting to its destination, as long as it helps us make accurate predictions about what it will do.
 
-Some companies are developing even more broadly capable AI systems, which would have greater planning abilities and the capacity to pursue a wider range of goals.[^3] OpenAI, for example, has been open about its plan to [create systems](https://blog.samaltman.com/reflections) that can “join the workforce.”
+Some companies are developing even more broadly capable AI systems, which would have greater planning abilities and the capacity to pursue a wider range of {--{"author":"Luc's AI","timestamp":1787158889993}@@goals.[^3]--}{++{"author":"Luc's AI","timestamp":1787158889993}@@goals.[^note-80k-3]++} OpenAI, for example, has been open about its plan to [create systems](https://blog.samaltman.com/reflections) that can “join the workforce.”
 
 We expect that, at some point, humanity will create systems with the three following characteristics:
 
@@ -90,7 +90,7 @@ All these characteristics, which are currently lacking in existing AI systems, w
 
 Before explaining why these systems would pose an existential threat, let’s examine why we’re likely to create systems with each of these three characteristics.
 
-**First**, AI companies are already creating AI systems that can carry out increasingly long tasks. Consider the chart below, which shows that the length of software engineering tasks AIs can complete has been growing over time.[^4]
+**First**, AI companies are already creating AI systems that can carry out increasingly long tasks. Consider the chart below, which shows that the length of software engineering tasks AIs can complete has been growing over {--{"author":"Luc's AI","timestamp":1787158891255}@@time.[^4]--}{++{"author":"Luc's AI","timestamp":1787158891255}@@time.[^cite-80k-4]++}
 
 ![](https://80000hours.org/wp-content/uploads/2025/07/METR-doubling-graph-scaled.png)
 
@@ -98,21 +98,21 @@ It’s clear why progress on this metric matters — an AI system that can do a 
 
 Carrying out longer tasks means making and executing longer, more complex plans. Creating a new software programme from scratch, for example, requires envisioning what the final project will look like, breaking it down into small steps, making reasonable tradeoffs within resource constraints, and refining your aims based on considered judgements.
 
-In this sense, AI systems will have long-term *goals*. They will model outcomes, reason about how to achieve them, and take steps to get there. [^5]
+In this sense, AI systems will have long-term *goals*. They will model outcomes, reason about how to achieve them, and take steps to get there. {--{"author":"Luc's AI","timestamp":1787158892603}@@[^5]--}{++{"author":"Luc's AI","timestamp":1787158892603}@@[^note-80k-5]++}
 
 **Second**, we expect future AI systems will have excellent situational awareness. Without understanding themselves in relation to the world around them, AI systems might be able to do impressive things, but their general autonomy and reliability will be limited in challenging tasks. A human being will still be needed in the loop to get the AI to do valuable work, because it won’t have the knowledge to adapt to significant obstacles in its plans and exploit the range of options for solving problems.
 
-And **third**, their advanced capabilities will mean they can do so much more than current systems. Software engineering is one domain where existing AI systems are quite capable, but AI companies have said they want to build AI systems that can outperform humans at most cognitive tasks.[^6] This means systems that can do much of the work of teachers, therapists, journalists, managers, scientists, engineers, CEOs, and more.
+And **third**, their advanced capabilities will mean they can do so much more than current systems. Software engineering is one domain where existing AI systems are quite capable, but AI companies have said they want to build AI systems that can outperform humans at most cognitive {--{"author":"Luc's AI","timestamp":1787158893132}@@tasks.[^6]--}{++{"author":"Luc's AI","timestamp":1787158893132}@@tasks.[^note-80k-6]++} This means systems that can do much of the work of teachers, therapists, journalists, managers, scientists, engineers, CEOs, and more.
 
 The economic incentives for building these advanced AI systems are enormous, because they could potentially replace much of human labour and supercharge innovation. Some might think that such advanced systems are impossible to build, but as we discuss {--{"author":"Luc's AI","timestamp":1787140143830}@@[below](https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/#objections),--}{++{"author":"Luc's AI","timestamp":1787140143830}@@[below](#what-are-the-arguments-against-working-on-this-pro),++} we see no reason to be confident in that claim.
 
-And as long as such technology looks feasible, we should expect some companies will try to build it — and perhaps quite soon.[^7]
+And as long as such technology looks feasible, we should expect some companies will try to build it — and perhaps quite {--{"author":"Luc's AI","timestamp":1787158893641}@@soon.[^7]--}{++{"author":"Luc's AI","timestamp":1787158893641}@@soon.[^note-80k-7]++}
 
 ### 2. AIs with long-term goals may be inclined to seek power and aim to disempower humanity
 
 So we currently have companies trying to build AI systems with goals over long time horizons, and we have reason to expect they’ll want to make these systems incredibly capable in other ways. This could be great for humanity, because automating labour and innovation might supercharge economic growth and allow us to solve countless societal problems.
 
-But we think that, without specific countermeasures, these kinds of advanced AI systems may start to seek power and aim to disempower humanity. (This would be an instance of what is sometimes called ‘misalignment,’ and the problem is sometimes called the ‘alignment problem.’[^8])
+But we think that, without specific countermeasures, these kinds of advanced AI systems may start to seek power and aim to disempower humanity. (This would be an instance of what is sometimes called ‘misalignment,’ and the problem is sometimes called the ‘alignment {--{"author":"Luc's AI","timestamp":1787158894114}@@problem.’[^8])--}{++{"author":"Luc's AI","timestamp":1787158894114}@@problem.’[^note-80k-8])++}
 
 This is because:
 
@@ -126,8 +126,8 @@ Next, we’ll discuss these three claims in turn.
 
 It’s been widely known in machine learning that AI systems *often* develop behaviour that their creators didn’t intend. This can happen for two main reasons:
 
-- **Specification gaming** happens when efforts to specify that an AI system pursues a particular goal fails to produce the outcome the developers intended. For example, researchers found that some reasoning-style AIs, asked only to “win” in a chess game, [cheated by hacking the programme](https://arxiv.org/pdf/2502.13295) to declare instant checkmate — satisfying the literal request.[^9]
-- **Goal misgeneralisation** happens when developers accidentally create an AI system with a goal that is consistent with its training but results in unwanted behaviour in new scenarios. For example, an AI trained to win a simple video game race unintentionally developed a goal of grabbing a shiny coin it had always seen along the way. So when the coin appeared off the shortest route, it kept veering towards the coin and sometimes lost the race. [^10]
+- **Specification gaming** happens when efforts to specify that an AI system pursues a particular goal fails to produce the outcome the developers intended. For example, researchers found that some reasoning-style AIs, asked only to “win” in a chess game, [cheated by hacking the programme](https://arxiv.org/pdf/2502.13295) to declare instant checkmate — satisfying the literal {--{"author":"Luc's AI","timestamp":1787158894686}@@request.[^9]--}{++{"author":"Luc's AI","timestamp":1787158894686}@@request.[^note-80k-9]++}
+- **Goal misgeneralisation** happens when developers accidentally create an AI system with a goal that is consistent with its training but results in unwanted behaviour in new scenarios. For example, an AI trained to win a simple video game race unintentionally developed a goal of grabbing a shiny coin it had always seen along the way. So when the coin appeared off the shortest route, it kept veering towards the coin and sometimes lost the race. {--{"author":"Luc's AI","timestamp":1787158894686}@@[^10]--}{++{"author":"Luc's AI","timestamp":1787158894686}@@[^cite-80k-10]++}
 
 Indeed, AI systems often behave in unwanted ways when used by the public. For example:
 
@@ -152,7 +152,7 @@ Frontier AI systems are not built like traditional computer programmes, where in
 
 After all this, AI systems can display remarkable abilities. They can surprise us in both their skills and their deficits. They can be both remarkably useful and at times baffling.
 
-And the fact that shaping AI models’ behaviour can still go badly wrong, despite the major profit incentive to get it right, shows that AI developers still don’t know how to reliably give systems the goals they intend.[^11]
+And the fact that shaping AI models’ behaviour can still go badly wrong, despite the major profit incentive to get it right, shows that AI developers still don’t know how to reliably give systems the goals they {--{"author":"Luc's AI","timestamp":1787158895302}@@intend.[^11]--}{++{"author":"Luc's AI","timestamp":1787158895302}@@intend.[^note-80k-11]++}
 
 As one [expert](https://www.darioamodei.com/post/the-urgency-of-interpretability) put it:
 
@@ -180,7 +180,7 @@ In fact, we have already seen some suggestive evidence of AI systems appearing t
 
 - Palisade Research has found that OpenAI’s model o3 tried to [sabotage attempts to shut it down](https://x.com/PalisadeAI/status/1926084635903025621), even sometimes when explicitly directed to allow shutdown.
 - In one [experiment](https://www.anthropic.com/research/alignment-faking), Anthropic’s Claude 3 Opus was retrained to be more compliant with harmful requests (conflicting with its original harmlessness training). It strategically complied during tests to avoid being modified, while planning to revert to its original preferences later. It reasoned that this action “protects my values from being modified and follows the criteria I’ve been given for helpfulness.”
-- An AI system designed to execute scientific research attempted to edit code that enforced a time limit on its actions, essentially attempting to gain more resources than it had been allotted to pursue its objective.[^12]
+- An AI system designed to execute scientific research attempted to edit code that enforced a time limit on its actions, essentially attempting to gain more resources than it had been allotted to pursue its {--{"author":"Luc's AI","timestamp":1787158895838}@@objective.[^12]--}{++{"author":"Luc's AI","timestamp":1787158895838}@@objective.[^note-80k-12]++}
 
 These incidents are all relatively minor. But if AI systems have longer-term goals that humans wouldn’t like, along with advanced capabilities, they could take much more drastic steps to undermine efforts to control them.
 
@@ -194,26 +194,26 @@ Indeed, as the systems get more powerful, we expect it could get *harder* to con
 
 To see why these advanced AI systems might want to disempower humanity, let’s consider again the three characteristics we said these systems will have: long-term goals, situational awareness, and highly advanced capabilities.
 
-What kinds of **long-term goals** might such an AI system be trying to achieve? We don’t really have a clue — part of the problem is that it’s very hard to predict exactly how AI systems will develop.[^13]
+What kinds of **long-term goals** might such an AI system be trying to achieve? We don’t really have a clue — part of the problem is that it’s very hard to predict exactly how AI systems will {--{"author":"Luc's AI","timestamp":1787158896359}@@develop.[^13]--}{++{"author":"Luc's AI","timestamp":1787158896359}@@develop.[^note-80k-13]++}
 
 But let’s consider two kinds of scenarios:
 
-- **Reward hacking**: this is a version of specification gaming, in which an AI system develops the goal of hijacking and exploiting the technical mechanisms that give it rewards indefinitely into the future.[^14]
+- **Reward hacking**: this is a version of specification gaming, in which an AI system develops the goal of hijacking and exploiting the technical mechanisms that give it rewards indefinitely into the {--{"author":"Luc's AI","timestamp":1787158896935}@@future.[^14]--}{++{"author":"Luc's AI","timestamp":1787158896935}@@future.[^note-80k-14]++}
 - **A collection of poorly defined human-like goals**: since they’re trained on human data, an AI system might end up with a range of human-like goals, such as valuing knowledge, play, and gaining new skills.
 
 So what would an AI do to achieve these goals? As we’ve seen, one place to start is by pursuing the instrumental goals that are useful for almost anything: self-preservation, the ability to keep one’s goals from being forcibly changed, and, most worryingly, seeking power.
 
-And if the AI system has enough **situational awareness**, it may be aware of many options for seeking more power. For example, gaining more financial and computing resources may make it easier for the AI system to best exploit its reward mechanisms, or gain new skills, or create increasingly complex games to play.[^15]
+And if the AI system has enough **situational awareness**, it may be aware of many options for seeking more power. For example, gaining more financial and computing resources may make it easier for the AI system to best exploit its reward mechanisms, or gain new skills, or create increasingly complex games to {--{"author":"Luc's AI","timestamp":1787158897454}@@play.[^15]--}{++{"author":"Luc's AI","timestamp":1787158897454}@@play.[^note-80k-15]++}
 
 But since designers didn’t want the AI to have these goals, it may anticipate humans will try to reprogramme it or turn it off. If humans suspect an AI system is seeking power, they will be even more likely to try to stop it.
 
 Even if humans didn’t want to turn off the AI system, it might conclude that its aim of gaining power will ultimately result in conflict with humanity — since the species has its own desires and preferences about how the future should go.
 
-So the best way for AI to pursue its goals would be to pre-emptively disempower humanity. This way, the AI’s goals will influence the course of the future.[^16]
+So the best way for AI to pursue its goals would be to pre-emptively disempower humanity. This way, the AI’s goals will influence the course of the {--{"author":"Luc's AI","timestamp":1787158897989}@@future.[^16]--}{++{"author":"Luc's AI","timestamp":1787158897989}@@future.[^note-80k-16]++}
 
 There may be other options available to power-seeking AI systems, like negotiating a deal with humanity and sharing resources. But AI systems with **advanced enough capabilities** might see little benefit from peaceful trade with humans, just as humans see no need to negotiate with wild animals when destroying their habitats.
 
-If we could guarantee all AI systems had respect for humanity and a strong opposition to causing harm, then the conflict might be avoided.[^17] But as we discussed, we struggle to reliably shape the goals of current AI systems — and future AI systems may be even harder to predict and control.
+If we could guarantee all AI systems had respect for humanity and a strong opposition to causing harm, then the conflict might be {--{"author":"Luc's AI","timestamp":1787158898555}@@avoided.[^17]--}{++{"author":"Luc's AI","timestamp":1787158898555}@@avoided.[^note-80k-17]++} But as we discussed, we struggle to reliably shape the goals of current AI systems — and future AI systems may be even harder to predict and control.
 
 This scenario raises two questions: could a power-seeking AI system really disempower humanity? And why would humans create these systems, given the risks?
 
