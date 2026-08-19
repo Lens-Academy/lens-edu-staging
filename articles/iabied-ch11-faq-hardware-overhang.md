@@ -21,7 +21,7 @@ Over the past decade or so, some people concerned about the dangers of AI argued
 
 So long as humanity was always using a sizable fraction of its computing power running the smartest AIs, change would at least happen gradually, and give humanity time to adapt. There would be no "hardware overhang" — no moment where AI capabilities suddenly leap ahead because the world has been waiting to deploy a large backlog of computing hardware on AI. Or so the argument went.
 
-We think this is a pretty bad argument. One problem with it is that intelligence looks like it's probably subject to [threshold effects]({--{"author":"Luc's AI","timestamp":1787152020791}@@/1/will-ai-cross-critical-thresholds-and-take-off--}{++{"author":"Luc's AI","timestamp":1787152020791}@@https://ifanyonebuildsit.com/1/will-ai-cross-critical-thresholds-and-take-off++}).
+We think this is a pretty bad argument. One problem with it is that intelligence looks like it's probably subject to [threshold effects](https://ifanyonebuildsit.com/1/will-ai-cross-critical-thresholds-and-take-off).
 
 The transition from chimpanzee-level intelligence to human-level intelligence wasn't "discontinuous" in any sense; it was all quite gradual from humanity's point of view. But it still went quite quickly from an evolutionary perspective. And the transition from pre-industrial to post-industrial civilization went even faster. None of it was gradual enough for other animals to adapt in any meaningful way.
 
@@ -39,7 +39,7 @@ The non sequitur was, nevertheless, picked up by OpenAI CEO Sam Altman, who [gav
 
 This excuse was then revealed to be hollow when that same Sam Altman rushed to build [dramatically more computing hardware](https://openai.com/index/announcing-the-stargate-project/).
 
-We think this is a decent case study in how executives at AI companies will latch onto whatever argument they think might fly to excuse racing ahead. We think that most such arguments can be dismissed on their merits, and we [recommend against]({--{"author":"Luc's AI","timestamp":1787152021472}@@/12/workable-plans-will-involve-telling-ai-companies-no--}{++{"author":"Luc's AI","timestamp":1787152021472}@@https://ifanyonebuildsit.com/12/workable-plans-will-involve-telling-ai-companies-no++}) putting any extra stock in an argument because an AI corporate executive has made it.
+We think this is a decent case study in how executives at AI companies will latch onto whatever argument they think might fly to excuse racing ahead. We think that most such arguments can be dismissed on their merits, and we [recommend against](https://ifanyonebuildsit.com/12/workable-plans-will-involve-telling-ai-companies-no) putting any extra stock in an argument because an AI corporate executive has made it.
 
 #### Notes
 
