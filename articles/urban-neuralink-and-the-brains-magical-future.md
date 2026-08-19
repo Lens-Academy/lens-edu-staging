@@ -43,23 +43,23 @@ So wipe your brain clean of what it thinks it knows about itself and its future,
 
 Contents
 
-**[Part 1: The Human Colossus](https://waitbutwhy.com/2017/04/neuralink.html#part1)**
+**[Part 1: The Human Colossus{--{"author":"Luc's AI","timestamp":1787169512689}@@](https://waitbutwhy.com/2017/04/neuralink.html#part1)--}{++{"author":"Luc's AI","timestamp":1787169512689}@@](#part-1-the-human-colossus)++}**
 
-**[Part 2: The Brain](https://waitbutwhy.com/2017/04/neuralink.html#part2)**
+**[Part 2: The Brain{--{"author":"Luc's AI","timestamp":1787169513267}@@](https://waitbutwhy.com/2017/04/neuralink.html#part2)--}{++{"author":"Luc's AI","timestamp":1787169513267}@@](#part-2-the-brain)++}**
 
-**[Part 3: Brain-Machine Interfaces](https://waitbutwhy.com/2017/04/neuralink.html#part3)**
+**[Part 3: Brain-Machine Interfaces{--{"author":"Luc's AI","timestamp":1787169513874}@@](https://waitbutwhy.com/2017/04/neuralink.html#part3)--}{++{"author":"Luc's AI","timestamp":1787169513874}@@](#part-3-brain-machine-interfaces)++}**
 
-**[Part 4: Neuralink’s Challenge](https://waitbutwhy.com/2017/04/neuralink.html#part4)**
+**[Part 4: Neuralink’s Challenge{--{"author":"Luc's AI","timestamp":1787169514437}@@](https://waitbutwhy.com/2017/04/neuralink.html#part4)--}{++{"author":"Luc's AI","timestamp":1787169514437}@@](#part-4-neuralinks-challenge)++}**
 
-**[Part 5: The Wizard Era](https://waitbutwhy.com/2017/04/neuralink.html#part5)**
+**[Part 5: The Wizard Era{--{"author":"Luc's AI","timestamp":1787169514995}@@](https://waitbutwhy.com/2017/04/neuralink.html#part5)--}{++{"author":"Luc's AI","timestamp":1787169514995}@@](#part-5-the-wizard-era)++}**
 
-**[Part 6: The Great Merger](https://waitbutwhy.com/2017/04/neuralink.html#part6)**
+**[Part 6: The Great Merger{--{"author":"Luc's AI","timestamp":1787169515543}@@](https://waitbutwhy.com/2017/04/neuralink.html#part6)--}{++{"author":"Luc's AI","timestamp":1787169515543}@@](#part-6-the-great-merger)++}**
 
 ![Notes key: Type 1 are fun notes for fun facts, extra thoughts, or further explanation. Type 2 are boring notes for sources and citations.](https://waitbutwhy.com/wp-content/uploads/2018/04/Notes-Key.png)
 
 ---
 
-**Part 1: The Human Colossus**
+{--{"author":"Luc's AI","timestamp":1787169512986}@@**Part--}{++{"author":"Luc's AI","timestamp":1787169512986}@@## Part++} 1: The Human {--{"author":"Luc's AI","timestamp":1787169512986}@@Colossus**--}{++{"author":"Luc's AI","timestamp":1787169512986}@@Colossus++}
 
 600 million years ago, no one really did anything, ever.
 
@@ -257,7 +257,7 @@ Finally, BMIs themselves are just a larger branch—not the tree’s trunk. In o
 
 So we’ll start with the brain, which will prepare us to learn about BMIs, which will teach us about what it’ll take to build a wizard hat, and that’ll set things up for an insane discussion about the future—which will get our heads right where they need to be to wrap themselves around why Elon thinks a wizard hat is such a critical piece of our future. And by the time we reach the end, this whole thing should click into place.
 
-**Part 2: The Brain**
+{--{"author":"Luc's AI","timestamp":1787169513574}@@**Part--}{++{"author":"Luc's AI","timestamp":1787169513574}@@## Part++} 2: The {--{"author":"Luc's AI","timestamp":1787169513574}@@Brain**--}{++{"author":"Luc's AI","timestamp":1787169513574}@@Brain++}
 
 [![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-2.png)
 
@@ -629,7 +629,7 @@ But somehow, _none of this_ is why building effective brain-computer interfaces 
 
 So with our brain background tree trunk built, we’re ready to head up to our first branch.
 
-**Part 3: Brain-Machine Interfaces**
+{--{"author":"Luc's AI","timestamp":1787169514148}@@**Part--}{++{"author":"Luc's AI","timestamp":1787169514148}@@## Part++} 3: Brain-Machine {--{"author":"Luc's AI","timestamp":1787169514148}@@Interfaces**--}{++{"author":"Luc's AI","timestamp":1787169514148}@@Interfaces++}
 
 [![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-3.png)
 
@@ -1105,7 +1105,7 @@ It’s also experimentally (not yet FDA approved) been able to mitigate certain 
 
 This is the state of the early BMI industry, and it’s the moment when Elon Musk is stepping into it. For him, and for Neuralink, today’s BMI industry is Point A. We’ve spent the whole post so far in the past, building up to the present moment. Now it’s time to step into the future—to figure out what Point B is and how we’re going to get there.
 
-**Part 4: Neuralink’s Challenge**
+{--{"author":"Luc's AI","timestamp":1787169514709}@@**Part--}{++{"author":"Luc's AI","timestamp":1787169514709}@@## Part++} 4: Neuralink’s {--{"author":"Luc's AI","timestamp":1787169514709}@@Challenge**--}{++{"author":"Luc's AI","timestamp":1787169514709}@@Challenge++}
 
 [![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-4.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-4.png)
 
@@ -1334,7 +1334,7 @@ Anyway, I think about DPUs a lot and I always wonder what it would feel like to 
 
 I think I might finally have a descriptive picture of a piece of our shocking future. Let me paint it for you.
 
-**Part 5: The Wizard Era**
+{--{"author":"Luc's AI","timestamp":1787169515261}@@**Part--}{++{"author":"Luc's AI","timestamp":1787169515261}@@## Part++} 5: The Wizard {--{"author":"Luc's AI","timestamp":1787169515261}@@Era**--}{++{"author":"Luc's AI","timestamp":1787169515261}@@Era++}
 
 [![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-5.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-5.png)
 
