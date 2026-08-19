@@ -637,7 +637,7 @@ _Thanks also to Arden Koehler, Adam Bales, Andreas Mogensen, Benjamin Todd, Niel
 
     The idea of rapidly scaling up robot workers is also a key part of the "race" scenario laid out in [AI 2027](https://ai-2027.com/race).
 
-[^16]: Some researchers distinguish between multiple types of feedback loop in which AI systems help us build better and better AIs. For example, Forethought's article on "Three Types of Intelligence Explosion" highlights the following types:
+{--{"author":"Luc's AI","timestamp":1787158907470}@@[^16]:--}{++{"author":"Luc's AI","timestamp":1787158907470}@@[^note-80k-16]:++} Some researchers distinguish between multiple types of feedback loop in which AI systems help us build better and better AIs. For example, Forethought's article on "Three Types of Intelligence Explosion" highlights the following types:
 
     > * A software feedback loop, where AI develops better software. Software includes AI training algorithms, post-training enhancements, ways to leverage runtime compute (like o3), synthetic data, and any other non-compute improvements.
     >
@@ -649,7 +649,7 @@ _Thanks also to Arden Koehler, Adam Bales, Andreas Mogensen, Benjamin Todd, Niel
 
     See [Forethought's article](https://web.archive.org/web/20260218092313/https://www.forethought.org/research/three-types-of-intelligence-explosion) for a much more detailed analysis here.
 
-[^17]: To explain further: it's not guaranteed that a surge of new ideas would translate into rapid economic growth, as measured in GDP. Some researchers point to [Baumol's cost disease](https://en.wikipedia.org/wiki/Baumol_effect) as a reason to expect this wouldn't happen.
+{--{"author":"Luc's AI","timestamp":1787158907949}@@[^17]:--}{++{"author":"Luc's AI","timestamp":1787158907949}@@[^note-80k-17]:++} To explain further: it's not guaranteed that a surge of new ideas would translate into rapid economic growth, as measured in GDP. Some researchers point to [Baumol's cost disease](https://en.wikipedia.org/wiki/Baumol_effect) as a reason to expect this wouldn't happen.
 
     We're not economists, so we can't say definitively what to expect in this instance. But it does seem possible that we could sustain a period of accelerated human progress even without explosive economic growth. For example, in a footnote to "[Preparing for the intelligence explosion](https://web.archive.org/web/20260219143924/https://www.forethought.org/research/preparing-for-the-intelligence-explosion)," Forethought argues that we can experience major "physical growth" (i.e. in manufactured goods, buildings, and infrastructure) even if economic growth is much more modest. They provide an example of the US agricultural sector:
 
@@ -657,10 +657,10 @@ _Thanks also to Arden Koehler, Adam Bales, Andreas Mogensen, Benjamin Todd, Niel
 
     For more analysis of how AI automation would affect economic growth, including the effects of Baumol's cost disease, see "[Artificial intelligence and economic growth](https://stanford.edu/~chadj/AI.pdf)" by Aghion et al.
 
-[^18]: An influential paper, "[Are ideas getting harder to find?](https://web.stanford.edu/~chadj/IdeaPF.pdf)," has made the broader argument here in detail.
+{--{"author":"Luc's AI","timestamp":1787158908487}@@[^18]:--}{++{"author":"Luc's AI","timestamp":1787158908487}@@[^note-80k-18]:++} An influential paper, "[Are ideas getting harder to find?](https://web.stanford.edu/~chadj/IdeaPF.pdf)," has made the broader argument here in detail.
 
     > Long-run growth in many models is the product of two terms: the effective number of researchers and their research productivity. We present evidence from various industries, products, and firms showing that research effort is rising substantially while research productivity is declining sharply. A good example is Moore's Law. The number of researchers required today to achieve the famous doubling of computer chip density is more than 18 times larger than the number required in the early 1970s. More generally, everywhere we look we find that ideas, and the exponential growth they imply, are getting harder to find.
 
 [^19]: There are other extremely serious problems that are even more neglected than AI risks, in absolute terms — [factory {--{"author":"Luc's AI","timestamp":1787152502881}@@farming](/problem-profiles/factory-farming/#neglectedness)--}{++{"author":"Luc's AI","timestamp":1787152502881}@@farming](https://80000hours.org/problem-profiles/factory-farming/#neglectedness)++} seems like an example. But neglectedness is just [one factor in determining how pressing we think a problem is, {--{"author":"Luc's AI","timestamp":1787152503148}@@overall](/articles/problem-framework/)--}{++{"author":"Luc's AI","timestamp":1787152503148}@@overall](https://80000hours.org/articles/problem-framework/)++}. The potential scale of the risks from AI is a big part of why we've ranked them as more pressing, all things considered, than issues like factory farming.
 
-[^20]: In fact, it seems we already have AI systems that could aid the development of bioweapons. In July 2025, [OpenAI warned](https://fortune.com/2025/07/18/openai-chatgpt-agent-could-aid-dangerous-bioweapon-development/) that its 'ChatGPT Agent' feature might "meaningfully help a novice to create severe biological harm." These risks could heighten as frontier models become more advanced.
+{--{"author":"Luc's AI","timestamp":1787158908974}@@[^20]:--}{++{"author":"Luc's AI","timestamp":1787158908974}@@[^cite-80k-20]:++} In fact, it seems we already have AI systems that could aid the development of bioweapons. In July 2025, [OpenAI warned](https://fortune.com/2025/07/18/openai-chatgpt-agent-could-aid-dangerous-bioweapon-development/) that its 'ChatGPT Agent' feature might "meaningfully help a novice to create severe biological harm." These risks could heighten as frontier models become more advanced.
