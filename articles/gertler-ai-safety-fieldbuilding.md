@@ -21,7 +21,7 @@ Add discussion note here:
 Table of Contents
 
 -   [1 What do fieldbuilders work on?](#what-do-fieldbuilders-work-on)
--   [2 Why AI safety fieldbuilding can be highly impactful]{--{"author":"Luc's AI","timestamp":1787136112768}@@(#why-ai-safety-fieldbuilding-can-be-highly-impactful)--}{++{"author":"Luc's AI","timestamp":1787136112768}@@(https://80000hours.org/career-reviews/ai-safety-fieldbuilding/#why-ai-safety-fieldbuilding-can-be-highly-impactful)++}
+-   [2 Why AI safety fieldbuilding can be highly impactful](https://80000hours.org/career-reviews/ai-safety-fieldbuilding/#why-ai-safety-fieldbuilding-can-be-highly-impactful)
     -   [2.1 Fieldbuilding works](#fieldbuilding-works)
     -   [2.2 AI safety needs more skilled people](#ai-safety-needs-more-skilled-people)
     -   [2.3 The work is highly neglected](#the-work-is-highly-neglected)

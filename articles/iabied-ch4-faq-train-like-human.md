@@ -22,13 +22,13 @@ An AI is *really* unlike a human infant. And neither AIs nor humans start off as
 
 Because we're humans and we live in a world of other humans, we're accustomed to taking many things for granted. Love; binocular vision; a sense of humor; a tendency to get angry when shoved; a tendency to feel nostalgic about the music we listened to as kids.
 
-Humans share an incredible amount of complex behavior, none of which will necessarily show up in an AI.[\*]{--{"author":"Luc's AI","timestamp":1787136104869}@@(#ftnt127)--}{++{"author":"Luc's AI","timestamp":1787136104869}@@(https://ifanyonebuildsit.com/4/cant-we-just-train-it-to-act-like-a-human-or-raise-the-ai-like-a-child#ftnt127)++}
+Humans share an incredible amount of complex behavior, none of which will necessarily show up in an AI.[\*](https://ifanyonebuildsit.com/4/cant-we-just-train-it-to-act-like-a-human-or-raise-the-ai-like-a-child#ftnt127)
 
 And this includes complex *conditional* behavior. The *specific ways* that a human reacts to being raised and educated in a certain way — those reactions are a consequence of the way human brains work. AIs will work differently.
 
 Human babies lack many of the complicated behaviors of adults. But this doesn't mean that under the hood, a baby's brain is structurally simple, like a blank canvas.
 
-The idea that humans are blank slates — that nurture is what always matters, never nature — has been repeatedly tested and shown to be false in practice. A classic example was the Soviet attempt to redesign human nature, to produce a [New Soviet {--{"author":"Luc's AI","timestamp":1787135984977}@@Man](https://www.roca.org/oa/volume-viii/issue-76-77/1917-1987-unsuccessful-and-tragic-attempt-to-create-a-new-man/)who--}{++{"author":"Luc's AI","timestamp":1787135984977}@@Man](https://www.roca.org/oa/volume-viii/issue-76-77/1917-1987-unsuccessful-and-tragic-attempt-to-create-a-new-man/) who++} was perfectly selfless and altruistic.
+The idea that humans are blank slates — that nurture is what always matters, never nature — has been repeatedly tested and shown to be false in practice. A classic example was the Soviet attempt to redesign human nature, to produce a [New Soviet Man](https://www.roca.org/oa/volume-viii/issue-76-77/1917-1987-unsuccessful-and-tragic-attempt-to-create-a-new-man/) who was perfectly selfless and altruistic.
 
 This effort failed because human psychology just isn't as malleable as the Soviets thought. Culture matters, but it doesn't matter *enough,* and many aspects of human nature will reassert themselves even if a great Soviet re-education program tries to suppress them.
 
@@ -38,4 +38,4 @@ An AI, with its radically different architecture and origin, wouldn't respond in
 
 See also the extended discussion on the [glorious accident](/4/human-values-are-contingent#the-glorious-accident-of-kindness) that led to humans feeling empathy for other humans — which might make it clearer why this accident is unlikely to be replicated in AIs.
 
-[\*]{--{"author":"Luc's AI","timestamp":1787136106552}@@(#ftnt127_ref)--}{++{"author":"Luc's AI","timestamp":1787136106552}@@(https://ifanyonebuildsit.com/4/cant-we-just-train-it-to-act-like-a-human-or-raise-the-ai-like-a-child#ftnt127_ref)++} Even if you train the AI to imitate humans (like how ChatGPT, Claude, and other LLMs are trained), the AI's ability to imitate these traits doesn't mean that the AI will *[actually possess](/4/doesnt-the-claude-chatbot-show-signs-of-being-aligned)* those traits. An AI that imitates a drunk person doesn't thereby become drunk.
+[\*](https://ifanyonebuildsit.com/4/cant-we-just-train-it-to-act-like-a-human-or-raise-the-ai-like-a-child#ftnt127_ref) Even if you train the AI to imitate humans (like how ChatGPT, Claude, and other LLMs are trained), the AI's ability to imitate these traits doesn't mean that the AI will *[actually possess](/4/doesnt-the-claude-chatbot-show-signs-of-being-aligned)* those traits. An AI that imitates a drunk person doesn't thereby become drunk.
