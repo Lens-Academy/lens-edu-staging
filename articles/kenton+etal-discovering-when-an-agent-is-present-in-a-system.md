@@ -1,4 +1,4 @@
-"{--{"author":"Luc's AI","timestamp":1787162192940}@@""-----}{++{"author":"Luc's AI","timestamp":1787162192940}@@---++}
+"{--{"author":"Luc's AI","timestamp":1787162261598}@@"""-----}{++{"author":"Luc's AI","timestamp":1787162261598}@@---++}
 title: "Discovering when an agent is present in a system"
 source_url: "https://deepmind.google/blog/discovering-when-an-agent-is-present-in-a-system/"
 author:
