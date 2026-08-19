@@ -22,7 +22,7 @@ _This article was created by [Forethought](https://www.forethought.org/about). S
 
 ## Introduction
 
-There are lots of good, neglected, and pretty concrete projects people could set up to make the transition to superintelligence go better. This document describes some that readers might not have thought much about before. They are ordered roughly by how excited we are about them.[^1] Of these, Forethought is actively working on AI character evaluation and space governance, and we are very interested in automating macrostrategy.
+There are lots of good, neglected, and pretty concrete projects people could set up to make the transition to superintelligence go better. This document describes some that readers might not have thought much about before. They are ordered roughly by how excited we are about {--{"author":"Luc's AI","timestamp":1787159208382}@@them.[^1]--}{++{"author":"Luc's AI","timestamp":1787159208382}@@them.[^note-macaskill-1]++} Of these, Forethought is actively working on AI character evaluation and space governance, and we are very interested in automating macrostrategy.
 
 ## Summary
 
@@ -44,7 +44,7 @@ There are lots of good, neglected, and pretty concrete projects people could set
 
 ## AI character evaluation
 
-AI character [^2] is a [big deal](https://www.forethought.org/research/the-importance-of-ai-character), affecting most other cause areas.
+AI character {--{"author":"Luc's AI","timestamp":1787159209345}@@[^2]--}{++{"author":"Luc's AI","timestamp":1787159209345}@@[^note-macaskill-2]++} is a [big deal](https://www.forethought.org/research/the-importance-of-ai-character), affecting most other cause areas.
 
 There’s a lot of work to do on AI character:
 
@@ -261,5 +261,5 @@ This project would be a good fit for a former ML researcher, perhaps combined wi
 
 _This article was created by [Forethought](https://www.forethought.org/about). See the original [on our website](https://www.forethought.org/research/concrete-projects-in-agi-preparedness)._
 
-[^1]: Thanks to Max Dalton, Stefan Torges, and everyone else at Forethought for the background behind this list. Others at Forethought disagree somewhat with what items should be in the top-tier list, as well as prioritisation within that tier.
-[^2]: Desired propensities for a model, which can be explicitly described or at least gestured towards in a model spec.
+{--{"author":"Luc's AI","timestamp":1787159210336}@@[^1]:--}{++{"author":"Luc's AI","timestamp":1787159210336}@@[^note-macaskill-1]:++} Thanks to Max Dalton, Stefan Torges, and everyone else at Forethought for the background behind this list. Others at Forethought disagree somewhat with what items should be in the top-tier list, as well as prioritisation within that tier.
+{--{"author":"Luc's AI","timestamp":1787159210336}@@[^2]:--}{++{"author":"Luc's AI","timestamp":1787159210336}@@[^note-macaskill-2]:++} Desired propensities for a model, which can be explicitly described or at least gestured towards in a model spec.

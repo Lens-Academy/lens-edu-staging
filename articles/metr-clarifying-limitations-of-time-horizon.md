@@ -36,7 +36,7 @@ Therefore, I’d like to clarify some of my beliefs about limitations of our met
 -   **Benchmark vs real-world task distribution**
     -   Like most benchmark developers, we mostly make tasks that models can’t do yet but may be capable of in 1-2 years. Even though we try to design these tasks to be equally “fair” to humans and models, there is still the possibility of selection bias.
     -   Benchmark construction has many design choices. We try to make tasks representative of the real world, but as in any benchmark, there are inherent tradeoffs between realism, diversity, fixed costs (implementation), and variable costs (ease of running the benchmark). [Inspect](https://inspect.aisi.org.uk/) has made this easier but there will obviously be factors that cause our benchmarks to favor or disfavor models.
-    -   Because anything automatically gradable can be an RL environment, and models are extensively trained using RLVR [^1], making gradable tasks that don’t overestimate real-world performance at all essentially means making more realistic RLVR settings than labs, which is hard.
+    -   Because anything automatically gradable can be an RL environment, and models are extensively trained using RLVR {--{"author":"Luc's AI","timestamp":1787159208878}@@[^1],--}{++{"author":"Luc's AI","timestamp":1787159208878}@@[^cite-metr-1],++} making gradable tasks that don’t overestimate real-world performance at all essentially means making more realistic RLVR settings than labs, which is hard.
 -   **Our benchmarks differ from the real world in many ways**, some of which are discussed in the original paper.
     -   Low vs high context (low-context tasks are isolated and don’t require prior knowledge about a codebase)
     -   Well-defined vs poorly defined
@@ -73,4 +73,4 @@ Therefore, I’d like to clarify some of my beliefs about limitations of our met
     -   The paper had a small number of tasks (only ~170) because we prioritize quality over quantity. The dataset size was originally fine but is now becoming a problem as we lack longer, 2h+ tasks to evaluate future models.
         -   I think we’re planning to update the task suite soon to include most of the HCAST tasks (the original paper had only a subset) plus some new tasks. Beyond this, we have various plans to continue measuring AI capabilities, both through benchmarks and other means like [RCTs](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/).
 
-[^1]: See e.g. DeepSeek R1 paper: [https://arxiv.org/abs/2501.12948](https://arxiv.org/abs/2501.12948)
+{--{"author":"Luc's AI","timestamp":1787159209865}@@[^1]:--}{++{"author":"Luc's AI","timestamp":1787159209865}@@[^cite-metr-1]:++} See e.g. DeepSeek R1 paper: [https://arxiv.org/abs/2501.12948](https://arxiv.org/abs/2501.12948)
