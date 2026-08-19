@@ -400,8 +400,8 @@ Defining verification mechanisms and layers. We define terms as follows:
 
 ### 4.1 On-Chip Verification Layer
 
-| Potential verification layer | Summary of layer | Key  
-advantages | Key disadvantages |
+| Potential verification layer | Summary of layer | Key{--{"author":"Luc's AI","timestamp":1787133492535}@@  
+--}{++{"author":"Luc's AI","timestamp":1787133492535}@@ ++}advantages | Key disadvantages |
 | --- | --- | --- | --- |
 | On-chip security features (i.e., secure boot, Confidential Computing)![\[Uncaptioned image\]](https://arxiv.org/html/media/media/image5.png) | Security features built into AI chips may enable verification, such as by ensuring that AI chips log traces of their activities for confidential analysis. | Offers maximum transparency into AI chips’ uses. | Poses unsolved technical problems and severe security challenges (e.g., untrusted suppliers). Insecure AI chips may need to be replaced. |
 | --- | --- | --- | --- |
@@ -471,8 +471,8 @@ To avoid the tradeoffs of on-chip verification, another approach could be to sep
 
 ### 4.2 Off-Chip Verification Layers
 
-| Potential verification layer | Summary of layer | Key  
-advantages | Key disadvantages |
+| Potential verification layer | Summary of layer | Key{--{"author":"Luc's AI","timestamp":1787133492873}@@  
+--}{++{"author":"Luc's AI","timestamp":1787133492873}@@ ++}advantages | Key disadvantages |
 | --- | --- | --- | --- |
 | Off-chip network tap (and analysis) (e.g. “FlexHEGs”)![\[Uncaptioned image\]](https://arxiv.org/html/media/media/image2.png) | Mutually vetted devices could intercept data exchanged between chips, then check for discrepancies with declared uses. | Could be retrofitted to existing AI chips and optimized for security. | Poses technical, logistical, and security challenges. Strongest versions need redesigned chip-adjacent hardware. |
 | --- | --- | --- | --- |
@@ -557,8 +557,8 @@ Given the challenges of both on- and off-chip verification, it would be helpful 
 
 ### 4.3 Personnel-Based Verification Layers
 
-| Potential verification layer | Summary of layer | Key  
-advantages | Key disadvantages |
+| Potential verification layer | Summary of layer | Key{--{"author":"Luc's AI","timestamp":1787133493189}@@  
+--}{++{"author":"Luc's AI","timestamp":1787133493189}@@ ++}advantages | Key disadvantages |
 | --- | --- | --- | --- |
 | Whistleblower programs![\[Uncaptioned image\]](https://arxiv.org/html/media/media/image9.png) | Programs may enable and incentivize (narrowly scoped, non-public) staff whistleblowing, for all verification subgoals. | Relatively simple, precedented, and implementation- ready. | Unclear effectiveness: depends on the number and loyalty of accomplices. |
 | --- | --- | --- | --- |
@@ -812,10 +812,10 @@ Hardware security for Prover- vs Verifier-owned hardware. Significant hardware s
 | --- | --- | --- | --- | --- |
 | Hardware |  | Delayering \*, scanning \*, and circuit verification \* for a random sample[^87], and/or oversight of manufacturing \*. |  | Using alternative (non-hardware-based) verification methods \*, refraining from use of vulnerable hardware, or key revocation where applicable. |
 | --- | --- | --- | --- | --- |
-|  | _\*: Technically challenging/ambitious (if one wishes to use this for strong, affordable, and timely security assurances)._ |
+|  | _\*: Technically challenging/ambitious (if one wishes to use this for strong, affordable, and timely security assurances)._ |{--{"author":"Luc's AI","timestamp":1787133493823}@@
 | --- | --- |
-|  |  |  |  |  |
-| --- | --- | --- | --- | --- |
+|--}  |  |  {--{"author":"Luc's AI","timestamp":1787133493823}@@|  |  |
+| --- | --- | --- | --- | --- --}|
 
 Table 11: Overview of some options for comprehensively securing a technology stack for AI verification.
 
@@ -1060,10 +1060,10 @@ Background: A Verifier may wish to verify that a declared workload was actually 
 | --- | --- | --- | --- | --- |
 |  | Optimizer states, e.g., gradients, are replicable | ✓ | X |   |
 | --- | --- | --- | --- | --- |
-| Requiring replication of specific logged values | Values securely logged by on-chip mechanisms (Shavit, [2023](https://arxiv.org/html/2507.15916v2#bib.bib187)) ([Section 4.1](https://arxiv.org/html/2507.15916v2#Sx5.SSx1 "4.1 On-Chip Verification Layer ‣ 4. Verification Mechanisms and Layers ‣ Verifying International Agreements on AI")) or network taps ([Appendix A.3](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx3 "A.3 Network Taps & Analysis ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")) are replicable |   
-✓ |   
-✓ |   
-✓ |
+| Requiring replication of specific logged values | Values securely logged by on-chip mechanisms (Shavit, [2023](https://arxiv.org/html/2507.15916v2#bib.bib187)) ([Section 4.1](https://arxiv.org/html/2507.15916v2#Sx5.SSx1 "4.1 On-Chip Verification Layer ‣ 4. Verification Mechanisms and Layers ‣ Verifying International Agreements on AI")) or network taps ([Appendix A.3](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx3 "A.3 Network Taps & Analysis ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")) are replicable |{--{"author":"Luc's AI","timestamp":1787133493469}@@   
+--}{++{"author":"Luc's AI","timestamp":1787133493469}@@ ++}✓ |{--{"author":"Luc's AI","timestamp":1787133493469}@@   
+--}{++{"author":"Luc's AI","timestamp":1787133493469}@@ ++}✓ |{--{"author":"Luc's AI","timestamp":1787133493469}@@   
+--}{++{"author":"Luc's AI","timestamp":1787133493469}@@ ++}✓ |
 | --- | --- | --- | --- | --- |
 | Time or order constraints | Values were produced in specific time intervals or orders[^107] | ✓ | ✓ | ✓ |
 | --- | --- | --- | --- | --- |
@@ -1071,24 +1071,24 @@ Background: A Verifier may wish to verify that a declared workload was actually 
 | --- | --- | --- | --- | --- |
 |  | Models memorize the data most recently trained on (Choi et al., [2023](https://arxiv.org/html/2507.15916v2#bib.bib34)) | ✓ | X |   |
 | --- | --- | --- | --- | --- |
-|  | The performance of model checkpoints fits the functional form of AI scaling laws (Kaplan et al., [2020](https://arxiv.org/html/2507.15916v2#bib.bib114); Hoffmann et al., [2022](https://arxiv.org/html/2507.15916v2#bib.bib98); Villalobos, [2023](https://arxiv.org/html/2507.15916v2#bib.bib220)) |   
-✓ |   
-X |   
-X |
+|  | The performance of model checkpoints fits the functional form of AI scaling laws (Kaplan et al., [2020](https://arxiv.org/html/2507.15916v2#bib.bib114); Hoffmann et al., [2022](https://arxiv.org/html/2507.15916v2#bib.bib98); Villalobos, [2023](https://arxiv.org/html/2507.15916v2#bib.bib220)) |{--{"author":"Luc's AI","timestamp":1787133494096}@@   
+--}{++{"author":"Luc's AI","timestamp":1787133494096}@@ ++}✓ |{--{"author":"Luc's AI","timestamp":1787133494096}@@   
+--}{++{"author":"Luc's AI","timestamp":1787133494096}@@ ++}X |{--{"author":"Luc's AI","timestamp":1787133494096}@@   
+--}{++{"author":"Luc's AI","timestamp":1787133494096}@@ ++}X |
 | --- | --- | --- | --- | --- |
 |  | Most gradients generated in training are not highly similar to each other[^108] | ✓ | X |   |
 | --- | --- | --- | --- | --- |
-| Sensitivity and cross-system analyses | Perturbing or replacing a component (e.g., weights, data, training algorithm) has the expected effects |   
-✓ |   
-✓ |   
-✓ |
+| Sensitivity and cross-system analyses | Perturbing or replacing a component (e.g., weights, data, training algorithm) has the expected effects |{--{"author":"Luc's AI","timestamp":1787133494450}@@   
+--}{++{"author":"Luc's AI","timestamp":1787133494450}@@ ++}✓ |{--{"author":"Luc's AI","timestamp":1787133494450}@@   
+--}{++{"author":"Luc's AI","timestamp":1787133494450}@@ ++}✓ |{--{"author":"Luc's AI","timestamp":1787133494450}@@   
+--}{++{"author":"Luc's AI","timestamp":1787133494450}@@ ++}✓ |
 | --- | --- | --- | --- | --- |
 | Origin constraint | A model used for large-scale inference has a declared training history | X | ✓ |   |
 | --- | --- | --- | --- | --- |
-| Data and code constraints | For example, code for AI training has the structure of gradient descent, in terms of code factorization.[^109] ([Appendix A.5](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx5 "A.5 Data and Code Validation ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI").) |   
-✓ |   
-✓ |   
-✓ |
+| Data and code constraints | For example, code for AI training has the structure of gradient descent, in terms of code factorization.[^109] ([Appendix A.5](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx5 "A.5 Data and Code Validation ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI").) |{--{"author":"Luc's AI","timestamp":1787133494740}@@   
+--}{++{"author":"Luc's AI","timestamp":1787133494740}@@ ++}✓ |{--{"author":"Luc's AI","timestamp":1787133494740}@@   
+--}{++{"author":"Luc's AI","timestamp":1787133494740}@@ ++}✓ |{--{"author":"Luc's AI","timestamp":1787133494740}@@   
+--}{++{"author":"Luc's AI","timestamp":1787133494740}@@ ++}✓ |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
 | --- | --- | --- | --- | --- |
@@ -2289,7 +2289,7 @@ VPN Virtual private network
 [^146]: As a technical implementation in the context of large-scale AI deployment, the Prover could store only data with a hash in a certain range (the hash being e.g., the Merkle root of a (prompt, logits, model) tuple). However, this scheme could be foiled by a Prover e.g., making small perturbations to the logits or to a continuous input (e.g., an image input) until the Prover finds values that produce a desired hash; that would enable an arbitrary set of (prompt, logits, model) tuples to look like a small, random sample of tuples. To counter this, exact replication ([Appendix A.9](https://arxiv.org/html/2507.15916v2#Ax1.SSx1.SSSx9 "A.9 Deterministic Replication of Neural Network Inference ‣ A. Implementation Analyses ‣ Appendices ‣ Verifying International Agreements on AI")) or perhaps precisely modeled non-determinism would catch sufficiently large perturbations. Still, there may be input perturbations that cause no change to the output (this is necessarily true when the input space is larger than the output space, and perhaps such perturbations can be made easier to find by an adversarially trained model); ruling out such perturbations may require further constraints on the Prover and testing. (On the other hand, small input perturbations may be infeasible for text inputs represented as discrete tokens.)
 [^147]: However, “live” sampling might allow a Prover to manipulate the sample by changing their inference in response to which queries are sampled (e.g., perhaps generating duplicates until the first duplicate in a set is sampled).
 [^148]: An H100 GPU (conservatively assuming 100% utilization, running a 70B-parameter dense model, with 2-byte inputs plus 2-byte outputs) can process data at up to the FLOP per second \* data per forward pass / FLOP per forward pass, or $1.98\text{e}15\cdot\frac{2+2}{2\cdot 70\text{e}9}\approx 57\text{ KB/s}$, while PCIe Gen5 can transfer data at 128 GB/s (NVIDIA, [b](https://arxiv.org/html/2507.15916v2#bib.bib150)), and some PCIe Gen4 SSDs read and write data at around 7 GB/s (Burek, [2024](https://arxiv.org/html/2507.15916v2#bib.bib28)). This back-of-the-envelope calculation suggests the latency overhead from copying data to an SSD would be on the order of 0.001% (assuming the lower SSD rate of 7 GB/s).
-[^149]: PCIe Gen4 SSDs have storage capacities such as 2 TB for $90 (Burek, [2024](https://arxiv.org/html/2507.15916v2#bib.bib28)). If they were to store data for a month and be amortized over a year, the cost would be $\frac{90}{2\text{e}12\cdot 12}=3.75\text{e-}12\text{ \$/byte}$, while the cost of _processing_ a byte with a large AI model (70B-parameter dense model, with 2-byte data, with an H100 GPU at a conservatively assumed 100% utilization and for $2/hr) (GPU Utils, [2023](https://arxiv.org/html/2507.15916v2#bib.bib81); Clark, [2024](https://arxiv.org/html/2507.15916v2#bib.bib37)) would be $70\text{e}9\cdot 2\cdot\frac{2}{1.98\text{e}15\cdot 60\cdot 60}\cdot\frac{1}{2}=1.96\text{e-}8\text{ \$/byte}$, implying a storage cost overhead on the order of 0.01%.
+[^149]: PCIe Gen4 SSDs have storage capacities such as 2 TB for {--{"author":"Luc's AI","timestamp":1787133495073}@@$90--}{++{"author":"Luc's AI","timestamp":1787133495073}@@\$90++} (Burek, [2024](https://arxiv.org/html/2507.15916v2#bib.bib28)). If they were to store data for a month and be amortized over a year, the cost would be $\frac{90}{2\text{e}12\cdot 12}=3.75\text{e-}12\text{ {--{"author":"Luc's AI","timestamp":1787133495073}@@\$/byte}$,--}{++{"author":"Luc's AI","timestamp":1787133495073}@@USD/byte}$,++} while the cost of _processing_ a byte with a large AI model (70B-parameter dense model, with 2-byte data, with an H100 GPU at a conservatively assumed 100% utilization and for {--{"author":"Luc's AI","timestamp":1787133495073}@@$2/hr)--}{++{"author":"Luc's AI","timestamp":1787133495073}@@\$2/hr)++} (GPU Utils, [2023](https://arxiv.org/html/2507.15916v2#bib.bib81); Clark, [2024](https://arxiv.org/html/2507.15916v2#bib.bib37)) would be $70\text{e}9\cdot 2\cdot\frac{2}{1.98\text{e}15\cdot 60\cdot 60}\cdot\frac{1}{2}=1.96\text{e-}8\text{ {--{"author":"Luc's AI","timestamp":1787133495073}@@\$/byte}$,--}{++{"author":"Luc's AI","timestamp":1787133495073}@@USD/byte}$,++} implying a storage cost overhead on the order of 0.01%.
 [^150]: “Large scale AI training and deployment is highly resource intensive, often requiring thousands of specialized chips in a high performance cluster hosted in a large data center consuming large amounts of power” (Sastry et al., [2024](https://arxiv.org/html/2507.15916v2#bib.bib178)).
 [^151]: Similar datasets, such as large text corpuses or data from human feedback, are often used for smaller-scale AI development and deployment.
 [^152]: Similar algorithms can be used for AI development and deployment of varying scales, though leading AI labs increasingly use proprietary algorithms primarily for large-scale AI.
