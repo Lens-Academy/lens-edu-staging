@@ -6,12 +6,12 @@ source_url: https://www.lesswrong.com/posts/dq3KsCsqNotWc8nAK/cascades-cycles-in
 author: Eliezer Yudkowsky
 : 2008-11-24
 source_url: https://www.lesswrong.com/posts/dq3KsCsqNotWc8nAK/cascades-cycles-insight--}{++{"author":"Luc's AI","timestamp":1787161764370}@@---++}
-{--{"author":"Luc's AI","timestamp":1787161764370}@@------
---}title: "Cascades, Cycles, Insight..."
-author:{--{"author":"Luc's AI","timestamp":1787161764370}@@ Eliezer Yudkowsky--}{++{"author":"Luc's AI","timestamp":1787161764370}@@
+title: "Cascades, Cycles, Insight..."
+{++{"author":"Luc's AI","timestamp":1787161979522}@@source_url: https://www.lesswrong.com/posts/dq3KsCsqNotWc8nAK/cascades-cycles-insight
+++}author:{--{"author":"Luc's AI","timestamp":1787161764370}@@ Eliezer Yudkowsky--}{++{"author":"Luc's AI","timestamp":1787161764370}@@
   - "Eliezer Yudkowsky"++}
-published: 2008-11-24
-source_url: https://www.lesswrong.com/posts/dq3KsCsqNotWc8nAK/cascades-cycles-insight
+published: 2008-11-24{--{"author":"Luc's AI","timestamp":1787161979522}@@
+source_url: https://www.lesswrong.com/posts/dq3KsCsqNotWc8nAK/cascades-cycles-insight--}
 ---
 
 %%
