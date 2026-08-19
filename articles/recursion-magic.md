@@ -2,11 +2,7 @@
 author: Eliezer Yudkowsky
 : 2008-11-25
 source_url: https://www.lesswrong.com/posts/rJLviHqJMTy8WQkow/recursion-magic
----{--{"author":"Luc's AI","timestamp":1787134036063}@@
-author: Eliezer Yudkowsky
-: 2008-11-25
-source_url: https://www.lesswrong.com/posts/rJLviHqJMTy8WQkow/recursion-magic
---------}{++{"author":"Luc's AI","timestamp":1787134036063}@@---++}
+------
 title: "...Recursion, Magic"
 author: Eliezer Yudkowsky
 published: 2008-11-25

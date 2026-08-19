@@ -35,9 +35,7 @@ The classic IE scenario involves a feedback loop in AI software, with AI designi
 
 ![Flow diagram showing three AI feedback loops: Better AI leads to better software, chip technology, and chip production, which provide more compute back to AI, creating self-reinforcing cycles of improvement.](https://images.ctfassets.net/4owxfjx3z3if/5Q2re7dpKTDsCno938nP21/d6a62e999808b2bca9969546c4881e17/Amrit_Graphs_-02.png?w=3840&q=85&fm=webp)
 
-The three feedback loops.{--{"author":"Luc's AI","timestamp":1787134085923}@@
-
-## Image--}
+The three feedback loops.
 
 The software loop will likely be automated first and it has the shortest time lags (training new AI models), and the chip production loop will likely be automated last and has the longest time lags (building new fabs). These feedback loops could drive three different types of IE:
 
@@ -50,9 +48,7 @@ The software loop will likely be automated first and it has the shortest time la
 
 ![Diagram showing three AI feedback loops (Software, Chip technology, Chip production) combining to create three types of intelligence explosions, with arrows showing progression and increasing time lags.](https://images.ctfassets.net/4owxfjx3z3if/6kRJ7fsUYSFvhiUKf3dGUc/8a4197e788419023ac492cbd670941b9/Amrit_Graphs_-24.png?w=3840&q=85&fm=webp)
 
-The three intelligence explosions.{--{"author":"Luc's AI","timestamp":1787134086125}@@
-
-## Image--}
+The three intelligence explosions.
 
 Crucially, even if the software feedback loop is not powerful enough to drive a software IE, we could still see an AI-technology or full-stack IE.
 
@@ -82,9 +78,7 @@ One reason things are unlikely to be extremely sudden is that all the feedback l
 
 ![Simple feedback loop diagram with two boxes connected by arrows. Left box: "AI does work to improve AI", right box: "AI is better". Arrow between them labeled "Time lag" with curved return arrow above.](https://images.ctfassets.net/4owxfjx3z3if/5HP847xI9hNoUbBy8pFsJj/5c9f5b7e4ee63dcc37e13208d83973c3/Amrit_Graphs_-32.png?w=3840&q=85&fm=webp)
 
-Simple feedback loop diagram with two boxes connected by arrows. Left box: "AI does work to improve AI", right box: "AI is better". Arrow between them labeled "Time lag" with curved return arrow above.{--{"author":"Luc's AI","timestamp":1787134086331}@@
-
-## Image--}
+Simple feedback loop diagram with two boxes connected by arrows. Left box: "AI does work to improve AI", right box: "AI is better". Arrow between them labeled "Time lag" with curved return arrow above.
 
 Software has the shortest time lags, and chip production probably has the longest:
 
@@ -97,17 +91,13 @@ Software has the shortest time lags, and chip production probably has the longes
 
 ![Complex feedback loop diagram showing interconnected cycles between Better AI, Better software, More compute, Better chip technology, and Better chip production, with labeled processes in red text like "Train new AI" and "Build new fabs".](https://images.ctfassets.net/4owxfjx3z3if/4f5JOBC4y0jorvkRACFYt8/bf7a430f8437749360be10823e3be3a8/Amrit_Graphs_-23.png?w=3840&q=85&fm=webp)
 
-The three feedback loops, with time lags shown in red. These lags might get shorter during an IE, as AI drives technological progress.{--{"author":"Luc's AI","timestamp":1787134086560}@@
-
-## Image--}
+The three feedback loops, with time lags shown in red. These lags might get shorter during an IE, as AI drives technological progress.
 
 So, all else equal, software improvements have the shortest time lags, followed by chip technology improvements, and increases in chip production have the longest time lags.
 
 ![Timeline showing AI improvement tasks organized by time lag from days to years. Software tasks (purple) like fine-tuning take days-months. Chip technology tasks (green) like TSMC R&D take months. Chip production tasks (orange) take years.](https://images.ctfassets.net/4owxfjx3z3if/5jdWR4L2h4mzrGMZYRXkYW/6ea8ac781bd10cc59a374fb09e2f7880/Amrit_Graphs_-33.png?w=3840&q=85&fm=webp)
 
-We could subdivide the three feedback loops further, and visualise the duration of the time lags for each subdivision, as in this diagram.{--{"author":"Luc's AI","timestamp":1787134086835}@@
-
-## Image--}
+We could subdivide the three feedback loops further, and visualise the duration of the time lags for each subdivision, as in this diagram.
 
 ### Order of the feedback loops
 
@@ -158,9 +148,7 @@ This suggests that there are three kinds of intelligence explosion which are par
 
 ![Diagram showing three AI feedback loops combining to create three intelligence explosions. Software alone creates Software IE, plus chip technology creates AI-technology IE, all three create Full-stack IE. Shows longer time lags and later automation.](https://images.ctfassets.net/4owxfjx3z3if/l3WveUDJtocv4Y1nabKtD/676e7dfa197c0b8fd3c71094019d0d0e/Amrit_Graphs_-25.png?w=3840&q=85&fm=webp)
 
-How the three feedback loops relate to the three intelligence explosions.{--{"author":"Luc's AI","timestamp":1787134087042}@@
-
-## Image--}
+How the three feedback loops relate to the three intelligence explosions.
 
 These three types of intelligence explosion could all happen in order, or we could see just one or two of them (or none).
 
@@ -168,9 +156,7 @@ This order of intelligence explosions is likely because the relevant feedback lo
 
 ![Ladder diagram showing software intelligence explosion cycle. Multiple "Better AI" nodes connect to "Better software" nodes through "retraining" arrows, with "Better chips" feeding into the bottom level and "printing chips" at the top.](https://images.ctfassets.net/4owxfjx3z3if/24P58V2mFNkXtiPefw1t4Y/12fcb95fc56c7da892f39af743f039c6/Amrit_Graphs_-18.png?w=3840&q=85&fm=webp)
 
-A software intelligence explosion. Even if AI automates chip R&D at the same time as software R&D, the software feedback loop has a shorter time lag and so could drive the vast majority of AI progress.{--{"author":"Luc's AI","timestamp":1787134087256}@@
-
-## Image--}
+A software intelligence explosion. Even if AI automates chip R&D at the same time as software R&D, the software feedback loop has a shorter time lag and so could drive the vast majority of AI progress.
 
 We feel the AI-technology and full-stack IEs have been under-analysed.
 
@@ -184,9 +170,7 @@ When a feedback loop is first automated, there will be an initial speed-up in AI
 
 ![Graph showing AI capability progress over time. Green line shows slow human-driven progress, orange transition period with acceleration question, blue curve shows rapid AI-driven progress rates with exponential growth pattern.](https://images.ctfassets.net/4owxfjx3z3if/z5avz8fBP6KlgBXtK3rZN/a7b5712f3d014e5d14bfaee0606f4048/Amrit_Graphs_-15.png?w=3840&q=85&fm=webp)
 
-Initially human work drives AI progress (green). Then work to improve AI is gradually automated (orange). Finally, AI systems do almost all the work to improve AI (blue). Empirical evidence suggests that AI progress will (initially) accelerate during this final period.{--{"author":"Luc's AI","timestamp":1787134087459}@@
-
-## Image--}
+Initially human work drives AI progress (green). Then work to improve AI is gradually automated (orange). Finally, AI systems do almost all the work to improve AI (blue). Empirical evidence suggests that AI progress will (initially) accelerate during this final period.
 
 Whether a feedback loop leads to accelerating progress depends on how much doubling _inputs_ to the feedback loop doubles _output_. If output more than doubles when input doubles, there is accelerating progress (because the _next_ doubling of inputs can draw on _more_ than twice as many outputs, and so will happen faster than the last doubling).[17](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-17)
 
@@ -226,9 +210,7 @@ The maximum speed could be less than this, for instance due to technical limitat
 
 ![Flowchart showing how higher physical limits lead to two outcomes: more time to accelerate (resulting in faster maximum progress speed) and more total progress possible.](https://images.ctfassets.net/4owxfjx3z3if/1F2IQY4KSMtHa2jdve69zG/fda63da79554df4086a1d4c74aafdde3/Amrit_Graphs_-19.png?w=3840&q=85&fm=webp)
 
-How much AI progress can we make before hitting effective physical limits? If the limits are higher, more total progress can be made, and the maximum speed of (accelerating) progress will be greater.{--{"author":"Luc's AI","timestamp":1787134087671}@@
-
-## Image--}
+How much AI progress can we make before hitting effective physical limits? If the limits are higher, more total progress can be made, and the maximum speed of (accelerating) progress will be greater.
 
 How far can each feedback loop progress before hitting physical limits? We can operationalise the distance to physical limits in terms of effective compute.
 
@@ -246,9 +228,7 @@ We [estimate](https://www.forethought.org/research/how-far-can-ai-progress-befor
 
 ![Bar chart showing physical limits for AI feedback loops: Software (~12 OOMs), Chip technology (~6 OOMs), and Chip production (~5 OOMs Earth-based, ~14 OOMs with all solar energy).](https://images.ctfassets.net/4owxfjx3z3if/6wVJa4p0fCVY59CdPSCnme/fd8e6643b063ab0e3b77dad519a4676c/physical-limits-by-loop.png?w=3840&q=85&fm=webp)
 
-Our estimates of the total room for improvement for each feedback loop before hitting effective physical limits. The limits for software and chip technology might be higher.{--{"author":"Luc's AI","timestamp":1787134087885}@@
-
-## Image--}
+Our estimates of the total room for improvement for each feedback loop before hitting effective physical limits. The limits for software and chip technology might be higher.
 
 To see how far the three intelligence explosions could go before hitting effective physical limits, we can simply add up the limits of each of the feedback loops:
 
@@ -261,9 +241,7 @@ To see how far the three intelligence explosions could go before hitting effecti
 
 ![Bar chart showing cumulative physical limits for intelligence explosions: Software IE (~12 OOMs), AI-technology IE (~18 OOMs), Full-stack IE (~23 OOMs Earth-based energy, ~32 OOMs with all solar energy).](https://images.ctfassets.net/4owxfjx3z3if/4RvmbjK71L5dcShuS1oqRX/db74107a886441cbd8349183de1ae532/physical-limits-by-ie-type.png?w=3840&q=85&fm=webp)
 
-Our estimates of the total room for improvement for each intelligence explosion before hitting effective physical limits. All the limits might be higher.{--{"author":"Luc's AI","timestamp":1787134088159}@@
-
-## Image--}
+Our estimates of the total room for improvement for each intelligence explosion before hitting effective physical limits. All the limits might be higher.
 
 ### The landscape of the intelligence explosion
 
@@ -294,9 +272,7 @@ Putting all this together, here are three scenarios that we find fairly plausibl
 
 ![Three curves showing different AI progress scenarios: "Rapid" (purple) with early steep growth, "Bumpy" (green) with limited then accelerating growth, "Gradual" (orange) with slow then fast growth.](https://images.ctfassets.net/4owxfjx3z3if/5yGZtB7KOoeN6lhapCvHSK/8293b7582882c78a7c598acd17991aac/Amrit_Graphs_-21.png?w=3840&q=85&fm=webp)
 
-Three curves showing different AI progress scenarios: "Rapid" (purple) with early steep growth, "Bumpy" (green) with limited then accelerating growth, "Gradual" (orange) with slow then fast growth.{--{"author":"Luc's AI","timestamp":1787134088381}@@
-
-## Image--}
+Three curves showing different AI progress scenarios: "Rapid" (purple) with early steep growth, "Bumpy" (green) with limited then accelerating growth, "Gradual" (orange) with slow then fast growth.
 
 There has been relatively little strategic thinking about the first two scenarios, in which significantly superhuman AI comes only after long delays and industrial expansion.
 
@@ -342,9 +318,7 @@ It’s possible to subdivide each of our three feedback loops further.
 
 ![Timeline showing AI improvement tasks organized by time lag from days to years. Software tasks (purple) like fine-tuning take days-months. Chip technology tasks (green) like TSMC R&D take months. Chip production tasks (orange) take years.](https://images.ctfassets.net/4owxfjx3z3if/5jdWR4L2h4mzrGMZYRXkYW/6ea8ac781bd10cc59a374fb09e2f7880/Amrit_Graphs_-33.png?w=3840&q=85&fm=webp)
 
-Timeline showing AI improvement tasks organized by time lag from days to years. Software tasks (purple) like fine-tuning take days-months. Chip technology tasks (green) like TSMC R&D take months. Chip production tasks (orange) take years.{--{"author":"Luc's AI","timestamp":1787134088635}@@
-
-## Image--}
+Timeline showing AI improvement tasks organized by time lag from days to years. Software tasks (purple) like fine-tuning take days-months. Chip technology tasks (green) like TSMC R&D take months. Chip production tasks (orange) take years.
 
 -   Within the **software feedback loop**:
     

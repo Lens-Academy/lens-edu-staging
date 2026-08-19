@@ -1,4 +1,4 @@
-obsidian-web-er{--{"author":"Luc's AI","timestamp":1787134035622}@@obsidian-web-er-----}{++{"author":"Luc's AI","timestamp":1787134035622}@@---++}
+obsidian-web-er---
 title: "Sources of advantage for digital agents over biological agents"
 source_url: https://aiimpacts.org/sources-of-advantage-for-artificial-intelligence/
 author:
