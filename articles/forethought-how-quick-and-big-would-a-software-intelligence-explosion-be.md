@@ -734,13 +734,17 @@ Diagram showing retraining model timing: total time to create next generation AI
 
 Specifically, we adjust the line of code that describes how software progress changes each time software doubles:
 
-Doubling-Time i + 1 \= 2 p (1 r i − 1) × Doubling-Time i \\text{Doubling-Time}\_{i+1} \\;\\; = \\;\\; 2^{p(\\frac{1}{r\_i} - 1)} \\times \\text{Doubling-Time}\_i
+{--{"author":"Luc's AI","timestamp":1787133618846}@@Doubling-Time i + 1 \= 2 p (1 r i − 1) × Doubling-Time i \\text{Doubling-Time}\_{i+1} \\;\\; = \\;\\; 2^{p(\\frac{1}{r\_i} - 1)} \\times \\text{Doubling-Time}\_i--}{++{"author":"Luc's AI","timestamp":1787133618846}@@$$
+\text{Doubling-Time}_{i+1}=2^{p(\frac{1}{r_i}-1)}\times\text{Doubling-Time}_i
+$$++}
 
 The exponent on 2 here is the reciprocal of N N: p ((1 / r) − 1) \= 1 / N p((1/r) - 1) = 1/N. So we replace this exponent with
 
-1 N + 1 \= p (1 r − 1) 1 + p (1 r − 1) \\displaystyle \\frac{1}{N+1} = \\frac{p(\\frac{1}{r}-1)}{1+p(\\frac{1}{r}-1)}
+{--{"author":"Luc's AI","timestamp":1787133619098}@@1 N + 1 \= p (1 r − 1) 1 + p (1 r − 1) \\displaystyle \\frac{1}{N+1} = \\frac{p(\\frac{1}{r}-1)}{1+p(\\frac{1}{r}-1)}--}{++{"author":"Luc's AI","timestamp":1787133619098}@@$$
+\frac{1}{N+1}=\frac{p(\frac{1}{r}-1)}{1+p(\frac{1}{r}-1)}
+$$++}
 
-This analysis assumed that software was accelerating over time – N \> 0 N>0, p ((1 / r) − 1) \> 0 p((1/r) - 1)>0. Repeating the argument for the case where software is decelerating – N < 0 N<0, p ((1 / r) − 1) < 0 p((1/r) - 1)<0 – yields p ((1 / r) − 1) (1 − (p ((1 / r) − 1))) \\frac{p((1/r) - 1)}{(1 - (p((1/r) - 1)))}. Therefore the correct exponent in both cases is λ ((1 / r) − 1) (1 + ∣ λ ((1 / r) − 1) ∣) \\frac{\\lambda((1/r) - 1)}{\\left(1 + |\\lambda((1/r) - 1)|\\right)}.
+This analysis assumed that software was accelerating over {--{"author":"Luc's AI","timestamp":1787133619336}@@time – N \> 0 N>0, p ((1 / r) − 1) \> 0 p((1/r) - 1)>0. --}{++{"author":"Luc's AI","timestamp":1787133619336}@@time: $N>0$ and $p((1/r)-1)>0$. ++}Repeating the argument for the case where software is {--{"author":"Luc's AI","timestamp":1787133619336}@@decelerating – N < 0 N<0, p ((1 / r) − 1) < 0 p((1/r) - 1)<0 – yields p ((1 / r) − 1) (1 − (p ((1 / r) − 1))) \\frac{p((1/r) - 1)}{(1 - (p((1/r) - 1)))}. --}{++{"author":"Luc's AI","timestamp":1787133619336}@@decelerating—$N<0$ and $p((1/r)-1)<0$—yields $\frac{p((1/r)-1)}{1-p((1/r)-1)}$. ++}Therefore the correct exponent in both cases is {--{"author":"Luc's AI","timestamp":1787133619336}@@λ ((1 / r) − 1) (1 + ∣ λ ((1 / r) − 1) ∣) \\frac{\\lambda((1/r) - 1)}{\\left(1 + |\\lambda((1/r) - 1)|\\right)}.--}{++{"author":"Luc's AI","timestamp":1787133619336}@@$\frac{\lambda((1/r)-1)}{1+|\lambda((1/r)-1)|}$.++}
 
 We rerun the analysis with this new exponent and find that the results do not change significantly.
 
@@ -772,7 +776,17 @@ In the simulation, the initial boost to research productivity from deployment of
 
 To implement this in the model, we assume that the boost in each time period originates from compute growth, which grows at an exogenous (and exponential) rate until it reaches a ceiling. We assume this ceiling occurs after 12 doublings of compute (or a 4096× increase relative to the initial compute level) which occurs after five years from the start time of the model.
 
-Software i + 1 \= 2 × Software i \\qquad\\;\\; \\text{Software}\_{i+1} = 2 \\times \\text{Software}\_i f i + 1 \= 1 + f 0 + (f max − f 0) × min ⁡ { Time i,Time Boost End } \\qquad\\qquad\\qquad f\_{i+1} = 1 + f\_0 + (f\_{\\text{max}} - f\_0) \\times \\min\\{\\text{Time}\_i, \\text{Time}\_{\\text{Boost End}}\\} Time i + 1 \= Time i + Doubling-Time i \\qquad\\qquad\\; \\text{Time}\_{i+1} = \\text{Time}\_i + \\text{Doubling-Time}\_i Doubling-Time i + 1 \= 2 p (1 r i − 1) × Doubling-Time i × f i f i + 1 \\text{Doubling-Time}\_{i+1} = 2^{p(\\frac{1}{r\_i} -1)} \\times \\text{Doubling-Time}\_i \\times \\frac{f\_i}{f\_i +1} r i + 1 \= r i − r 0 Doublings-Till-Ceiling Software \\qquad\\qquad\\qquad\\, r\_{i+1} = r\_i - \\frac{r\_0}{\\text{Doublings-Till-Ceiling}\_{\\text{Software}}} Doubling-Time 0,Doublings-Till-Ceiling Software,\\qquad\\qquad\\qquad\\qquad\\quad\\, \\text{Doubling-Time}\_0, \\text{Doublings-Till-Ceiling}\_{\\text{Software}}, Time Boost End,r 0,p,f 0,f max, are given;\\qquad\\qquad\\qquad\\qquad\\quad\\, \\text{Time}\_{\\text{Boost End}}, r\_0, p, f\_0, f\_{\\text{max}}, \\;\\text{ are given}; Time 0 \= 0,Software 0 \= 1,Compute 0 \= 1 \\qquad\\qquad\\qquad\\qquad\\quad\\, \\text{Time}\_0 = 0, \\text{Software}\_0 = 1, \\text{Compute}\_0 = 1
+{--{"author":"Luc's AI","timestamp":1787133619606}@@Software i + 1 \= 2 × Software i \\qquad\\;\\; \\text{Software}\_{i+1} = 2 \\times \\text{Software}\_i f i + 1 \= 1 + f 0 + (f max − f 0) × min ⁡ { Time i,Time Boost End } \\qquad\\qquad\\qquad f\_{i+1} = 1 + f\_0 + (f\_{\\text{max}} - f\_0) \\times \\min\\{\\text{Time}\_i, \\text{Time}\_{\\text{Boost End}}\\} Time i + 1 \= Time i + Doubling-Time i \\qquad\\qquad\\; \\text{Time}\_{i+1} = \\text{Time}\_i + \\text{Doubling-Time}\_i Doubling-Time i + 1 \= 2 p (1 r i − 1) × Doubling-Time i × f i f i + 1 \\text{Doubling-Time}\_{i+1} = 2^{p(\\frac{1}{r\_i} -1)} \\times \\text{Doubling-Time}\_i \\times \\frac{f\_i}{f\_i +1} r i + 1 \= r i − r 0 Doublings-Till-Ceiling Software \\qquad\\qquad\\qquad\\, r\_{i+1} = r\_i - \\frac{r\_0}{\\text{Doublings-Till-Ceiling}\_{\\text{Software}}} Doubling-Time 0,Doublings-Till-Ceiling Software,\\qquad\\qquad\\qquad\\qquad\\quad\\, \\text{Doubling-Time}\_0, \\text{Doublings-Till-Ceiling}\_{\\text{Software}}, Time Boost End,r 0,p,f 0,f max, --}{++{"author":"Luc's AI","timestamp":1787133619606}@@$$
+\begin{aligned}
+\text{Software}_{i+1} &= 2\times\text{Software}_i \\
+f_{i+1} &= 1+f_0+(f_{\max}-f_0)\times\min\{\text{Time}_i,\text{Time}_{\text{Boost End}}\} \\
+\text{Time}_{i+1} &= \text{Time}_i+\text{Doubling-Time}_i \\
+\text{Doubling-Time}_{i+1} &= 2^{p(\frac{1}{r_i}-1)}\times\text{Doubling-Time}_i\times\frac{f_i}{f_i+1} \\
+r_{i+1} &= r_i-\frac{r_0}{\text{Doublings-Till-Ceiling}_{\text{Software}}}
+\end{aligned}
+$$
+
+$\text{Doubling-Time}_0$, $\text{Doublings-Till-Ceiling}_{\text{Software}}$, $\text{Time}_{\text{Boost End}}$, $r_0$, $p$, $f_0$, and $f_{\max}$ ++}are{--{"author":"Luc's AI","timestamp":1787133619606}@@ given;\\qquad\\qquad\\qquad\\qquad\\quad\\, \\text{Time}\_{\\text{Boost End}}, r\_0, p, f\_0, f\_{\\text{max}}, \\;\\text{ are given}; Time 0 \= 0,Software 0 \= 1,Compute 0 \= 1 \\qquad\\qquad\\qquad\\qquad\\quad\\, \\text{Time}\_0 = 0, \\text{Software}\_0 = 1, \\text{Compute}\_0 = 1--}{++{"author":"Luc's AI","timestamp":1787133619606}@@ given; $\text{Time}_0=0$, $\text{Software}_0=1$, and $\text{Compute}_0=1$.++}
 
 In the simulation it is assumed that f 0 \= 0.1 f\_0 = 0.1. Given exponential growth in compute, f (C) f(C) increases linearly with time until it reaches the compute ceiling, at which point f f remains at f max f\_{\\text{max}}.
 
