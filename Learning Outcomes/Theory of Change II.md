@@ -1,7 +1,7 @@
 ---
 id: 'c08c4e25-74f5-4a21-ac22-e818b602d4b5'
 learning-outcome: "Explain how to do a theory of change."
-domain:"[[../Domains/Effective Altruism]]"
+{--{"author":"Luc's AI","timestamp":1787132678405}@@domain:"[[../Domains/Effective--}{++{"author":"Luc's AI","timestamp":1787132678405}@@domain: "[[../Domains/Effective++} Altruism]]"
 required:
   - "[[Theory of Change I]]"
 ---

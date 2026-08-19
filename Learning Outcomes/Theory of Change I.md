@@ -1,7 +1,7 @@
 ---
 id: '4f96e154-1e57-4de3-82c4-9e1b4858ebd1'
 learning-outcome: "Explain why theories of change are important."
-domain:"[[../Domains/Effective Altruism]]"
+{--{"author":"Luc's AI","timestamp":1787132678164}@@domain:"[[../Domains/Effective--}{++{"author":"Luc's AI","timestamp":1787132678164}@@domain: "[[../Domains/Effective++} Altruism]]"
 ---
 ## Test:
 id:: 7e1314aa-d190-4ad7-8860-deee4f93b2dd

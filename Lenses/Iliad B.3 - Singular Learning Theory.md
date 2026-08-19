@@ -1164,7 +1164,9 @@ The following is a guide to one possible approach.
 
 :::
 
-^ex-dln-degeneracy
+{++{"author":"Luc's AI","timestamp":1787132679389}@@::::
+
+++}^ex-dln-degeneracy
 
 
 :::callout {title="Solution" tone="neutral" collapse="closed"}

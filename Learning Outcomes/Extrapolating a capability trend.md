@@ -5,7 +5,7 @@ domain: none
 stage: intermediate
 ---
 ## Test:
-id:: 'b7c38da8-4b6f-45fb-8be9-f77f01dbd829'
+id:: {--{"author":"Luc's AI","timestamp":1787132678912}@@'b7c38da8-4b6f-45fb-8be9-f77f01dbd829'--}{++{"author":"Luc's AI","timestamp":1787132678912}@@b7c38da8-4b6f-45fb-8be9-f77f01dbd829++}
 
 #### Question
 content:: A materials lab publishes a metric they call **depth**: for a candidate battery chemistry, the number of consecutive synthesis-and-test steps their automated system can carry out before a human has to intervene. They measure depth on their systems from the past six years and find it doubles roughly every nine months. The fit is good, R-squared above 0.95, and it holds across three separate hardware generations.
