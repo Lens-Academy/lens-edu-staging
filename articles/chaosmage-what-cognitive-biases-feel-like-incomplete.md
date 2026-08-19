@@ -1,6 +1,7 @@
 ---
 title: What Cognitive Biases Feel Like From the Inside
-author:
+{++{"author":"Luc's AI","timestamp":1787134357169}@@source_url: https://www.lesswrong.com/posts/ERWeEA8op6s6tYCKy/what-cognitive-biases-feel-like-from-the-inside
+++}author:
   - chaosmage
 published: 2013-09-22
 created: 2026-05-28
