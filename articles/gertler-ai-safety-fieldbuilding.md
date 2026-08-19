@@ -21,7 +21,7 @@ Add discussion note here:
 Table of Contents
 
 -   [1 What do fieldbuilders work on?](#what-do-fieldbuilders-work-on)
--   [2 Why AI safety fieldbuilding can be highly impactful](https://80000hours.org/career-reviews/ai-safety-fieldbuilding/#why-ai-safety-fieldbuilding-can-be-highly-impactful)
+-   [2 Why AI safety fieldbuilding can be highly {--{"author":"Luc's AI","timestamp":1787139984652}@@impactful](https://80000hours.org/career-reviews/ai-safety-fieldbuilding/#why-ai-safety-fieldbuilding-can-be-highly-impactful)--}{++{"author":"Luc's AI","timestamp":1787139984652}@@impactful](#why-ai-safety-fieldbuilding-can-be-highly-impactfu)++}
     -   [2.1 Fieldbuilding works](#fieldbuilding-works)
     -   [2.2 AI safety needs more skilled people](#ai-safety-needs-more-skilled-people)
     -   [2.3 The work is highly neglected](#the-work-is-highly-neglected)
@@ -166,7 +166,7 @@ A budding researcher might take classes in machine learning, read AI safety pape
 
 A policy hopeful might study economics and political science, read relevant publications, make connections as a [campaign volunteer](https://80000hours.org/career-reviews/us-electoral-politics/#what-else-is-helpful), or apply for policy fellowships like those offered by [Horizon](https://horizonpublicservice.org/programs/become-a-fellow/) or [IAPS](https://www.iaps.ai/).
 
-Fieldbuilding lacks this kind of ‘one-size-fits-most’ pipeline. There are too many kinds of roles, and few programmes focused on training fieldbuilders. But we still have [plenty of advice](https://80000hours.org/career-reviews/ai-safety-fieldbuilding/#how-to-get-started) for getting started.
+Fieldbuilding lacks this kind of ‘one-size-fits-most’ pipeline. There are too many kinds of roles, and few programmes focused on training fieldbuilders. But we still have [plenty of {--{"author":"Luc's AI","timestamp":1787139984912}@@advice](https://80000hours.org/career-reviews/ai-safety-fieldbuilding/#how-to-get-started)--}{++{"author":"Luc's AI","timestamp":1787139984912}@@advice](#how-to-get-started)++} for getting started.
 
 ### Technical work often pays better
 
@@ -232,7 +232,7 @@ That said, fieldbuilding is far from thankless! Your work will change people’s
 
 ## How to get started
 
-Because you don’t need any specific experience to become a fieldbuilder, **our strongest recommendation is to check the [AI fieldbuilding roles](https://80000hours.org/career-reviews/ai-safety-fieldbuilding/#find-jobs-in-ai-safety-fieldbuilding) on our job board** and consider applying if you see a role that fits.
+Because you don’t need any specific experience to become a fieldbuilder, **our strongest recommendation is to check the [AI fieldbuilding {--{"author":"Luc's AI","timestamp":1787139985172}@@roles](https://80000hours.org/career-reviews/ai-safety-fieldbuilding/#find-jobs-in-ai-safety-fieldbuilding)--}{++{"author":"Luc's AI","timestamp":1787139985172}@@roles](#find-jobs-in-ai-safety-fieldbuilding)++} on our job board** and consider applying if you see a role that fits.
 
 Our other top recommendation is to consider fieldbuilding fellowships. Any AI safety generalist can apply to the [Generator Residency](https://generatorresidency.org/) (due April 27), which helps you launch a new idea within three months. The [Pathfinder Fellowship](https://pathfinder.kairos-project.org/) offers training and mentorship to help students develop campus AI safety groups.
 
