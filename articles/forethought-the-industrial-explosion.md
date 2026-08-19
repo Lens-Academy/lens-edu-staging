@@ -43,9 +43,9 @@ This post presents an initial analysis of the dynamics of the industrial explosi
 
 Three stages of the industrial explosion.
 
-## Image
+## {--{"author":"Luc's AI","timestamp":1787134085171}@@Image
 
-## The industrial explosion will start after the intelligence explosion, and will proceed more slowly
+## --}The industrial explosion will start after the intelligence explosion, and will proceed more slowly
 
 The industrial explosion will likely start after the intelligence explosion because physical tasks will be automated after cognitive tasks. Cognitive tasks are easier to automate for a few reasons:
 
@@ -67,9 +67,9 @@ The second reason the industrial explosion will be slower is because the feedbac
 
 ![Diagram comparing feedback loops: left shows intelligence explosion with AI improving software in months, right shows industrial explosion with robots building factories in years, illustrating slower physical automation.](https://images.ctfassets.net/4owxfjx3z3if/4XfdFf2Gr2c5ZuNKgvcXeO/7884022019d1fa294fcac245001cb8cc/Graphs_50-54.pptx__4_.png?w=3840&q=85&fm=webp)
 
-Diagram comparing feedback loops: left shows intelligence explosion with AI improving software in months, right shows industrial explosion with robots building factories in years, illustrating slower physical automation.
+Diagram comparing feedback loops: left shows intelligence explosion with AI improving software in months, right shows industrial explosion with robots building factories in years, illustrating slower physical automation.{--{"author":"Luc's AI","timestamp":1787134085403}@@
 
-## Image
+## Image--}
 
 **So the industrial explosion will start after the intelligence explosion, and happen more slowly.**
 
@@ -88,9 +88,9 @@ Schematically, we can think of the industrial explosion unfolding in three phase
 
 Three stages of the industrial explosion.
 
-## Image
+{--{"author":"Luc's AI","timestamp":1787134085666}@@## Image
 
-### AI-directed human labour
+--}### AI-directed human labour
 
 In the first phase, AI-directed human labour will drive large gains in the productivity of physical production.
 

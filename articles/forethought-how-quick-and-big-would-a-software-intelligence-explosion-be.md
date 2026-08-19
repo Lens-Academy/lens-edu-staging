@@ -754,9 +754,9 @@ In the main results we assume ASARA boosts the pace of software progress by 2-32
 
 ![Graph showing acceleration factor f(t) growing linearly from 0.1 to 8 over 5 years in gradual boost model, representing gradual ramp-up from minimal AI assistance to full ASARA capabilities](https://images.ctfassets.net/4owxfjx3z3if/76sjDeeO4UBnXYoP0jehXK/65a858eb2f487042e0b08041478e7cac/acceleration-factor-gradual-boost.png?w=3840&q=85&fm=webp)
 
-Graph showing acceleration factor f(t) growing linearly from 0.1 to 8 over 5 years in gradual boost model, representing gradual ramp-up from minimal AI assistance to full ASARA capabilities
+Graph showing acceleration factor f(t) growing linearly from 0.1 to 8 over 5 years in gradual boost model, representing gradual ramp-up from minimal AI assistance to full ASARA capabilities{--{"author":"Luc's AI","timestamp":1787134084375}@@
 
-## Image
+## Image--}
 
 In the simulation, the initial boost to research productivity from deployment of AI is an additional 10% on top of the usual rate of software progress. The boost then grows linearly over time until it reaches the sampled maximum value (between 2 and 32).
 
@@ -800,9 +800,9 @@ Here are the results:
 
 ![Probability curve for gradual boost model variant showing likelihood of compressing AI progress into one year: 59% chance for 3+ years, 32% chance for 10+ years, with declining probability for more dramatic compression](https://images.ctfassets.net/4owxfjx3z3if/4aruN7HsGlPwaNqTraucL8/0fee1324115d6525bcebc6151b230f01/gradual-boost-probability-results.png?w=3840&q=85&fm=webp)
 
-Probability curve for gradual boost model variant showing likelihood of compressing AI progress into one year: 59% chance for 3+ years, 32% chance for 10+ years, with declining probability for more dramatic compression
+Probability curve for gradual boost model variant showing likelihood of compressing AI progress into one year: 59% chance for 3+ years, 32% chance for 10+ years, with declining probability for more dramatic compression{--{"author":"Luc's AI","timestamp":1787134084577}@@
 
-## Image
+## Image--}
 
 The software intelligence explosion is _more_ dramatic, presumably because we used more aggressive parameter values for r r and the distance to effective limits.
 
@@ -829,9 +829,9 @@ How much more efficient could human learning be if the brain wasn’t undertrain
 
 ![Chinchilla scaling diagram showing human brain severely undertrained with 1e14 synapses and 1e24 FLOP learning, positioned far from optimal efficiency frontier, suggesting 4+ OOM training efficiency gains possible](https://images.ctfassets.net/4owxfjx3z3if/4bYgWa3tipGUdtEVBcgCyd/891b70c66735ecf530f7927e992b2726/chinchilla-scaling-human-brain-comparison.png?w=3840&q=85&fm=webp)
 
-This is a naive extrapolation from the Chinchilla paper results. The blue line shows the optimal scaling path. The training FLOP and parameters for human lifetime learning is shown at the top right – the human brain is severely undertrained. The pink lines indicate how much training FLOP would produce a model with the same loss as the brain, if the model were trained optimally.
+This is a naive extrapolation from the Chinchilla paper results. The blue line shows the optimal scaling path. The training FLOP and parameters for human lifetime learning is shown at the top right – the human brain is severely undertrained. The pink lines indicate how much training FLOP would produce a model with the same loss as the brain, if the model were trained optimally.{--{"author":"Luc's AI","timestamp":1787134084821}@@
 
-## Image
+## Image--}
 
 \[Thanks to Marius Hobbhahn and Daniel Kokotajlo for help with this diagram.\]
 
