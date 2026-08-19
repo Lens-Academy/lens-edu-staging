@@ -20,7 +20,7 @@ Add discussion note here:
 
 %%
 
-# What the program is {--{"author":"Luc's AI","timestamp":1787158969464}@@about[^1]--}{++{"author":"Luc's AI","timestamp":1787158969464}@@about[^note-dalton-1]++}
+# What the program is about[^note-dalton-1]
 
 **Effective altruism (EA) is an ongoing project to find the best ways to do good, and put them into practice.**
 
@@ -42,7 +42,7 @@ Beyond the core posts, there are more materials each week in 'More to Explore' â
 
 Approximate reading times are given for each of the posts. Generally, we'd prefer you to take your time and think through the readings instead of rushing.
 
-This curriculum was drawn up by staff from the Centre for Effective Altruism, incorporating feedback from others. Ultimately we had to make many judgement calls, and other people would have drawn up a different {--{"author":"Luc's AI","timestamp":1787158970664}@@curriculum.[^2]--}{++{"author":"Luc's AI","timestamp":1787158970664}@@curriculum.[^note-dalton-2]++}
+This curriculum was drawn up by staff from the Centre for Effective Altruism, incorporating feedback from others. Ultimately we had to make many judgement calls, and other people would have drawn up a different curriculum.[^note-dalton-2]
 
 # How we hope you'll approach the program
 
@@ -79,6 +79,6 @@ This handbook aims to introduce people to effective altruism in a structured man
 
 *This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
 
-{--{"author":"Luc's AI","timestamp":1787158971834}@@[^1]:--}{++{"author":"Luc's AI","timestamp":1787158971834}@@[^note-dalton-1]:++} This handbook is also accessible as a Google Doc version [here](https://docs.google.com/document/d/1ju83W3yFqvUBvsSrHadjEwazNBphCTmLWd-xZkVArBM/edit?usp=sharing).
+[^note-dalton-1]: This handbook is also accessible as a Google Doc version [here](https://docs.google.com/document/d/1ju83W3yFqvUBvsSrHadjEwazNBphCTmLWd-xZkVArBM/edit?usp=sharing).
 
-{--{"author":"Luc's AI","timestamp":1787158973223}@@[^2]:--}{++{"author":"Luc's AI","timestamp":1787158973223}@@[^note-dalton-2]:++} Our goal is to introduce people to some of the core principles of effective altruism, to share the arguments for different problems that people in effective altruism work on, and to encourage you to think about what you want to do on the basis of those ideas. We also tried to give a balance of materials that is in line with the (significant) diversity of views on these topics within effective altruism. In drawing up the curriculum, we consulted community members, subject matter experts, and program facilitators. We think that these readings are interesting and give a good introduction, but we hope that you engage with them critically, rather than taking them all at face value. Once you've read this curriculum, we encourage you to explore other EA writings (e.g. on [this wiki](https://forum.effectivealtruism.org/topics/all)).
+[^note-dalton-2]: Our goal is to introduce people to some of the core principles of effective altruism, to share the arguments for different problems that people in effective altruism work on, and to encourage you to think about what you want to do on the basis of those ideas. We also tried to give a balance of materials that is in line with the (significant) diversity of views on these topics within effective altruism. In drawing up the curriculum, we consulted community members, subject matter experts, and program facilitators. We think that these readings are interesting and give a good introduction, but we hope that you engage with them critically, rather than taking them all at face value. Once you've read this curriculum, we encourage you to explore other EA writings (e.g. on [this wiki](https://forum.effectivealtruism.org/topics/all)).

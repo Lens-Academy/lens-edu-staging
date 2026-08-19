@@ -58,7 +58,7 @@ From single-cell sequencing experiments, we know that cell types are not rigid e
 
 But you can ask *How many protein-coding genes are there?* totally fine. The answer, in humans, is around 19 thousand. Gene boundaries are a lot more digital and measurement-independent than cell type boundaries. So the natural mnemonic mapping is the one where cells are more like vehicles, cities, or pocket universes - inhabited by gene characters.
 
-19 thousand is a lot of characters to memorize. But it will be roughly the same number of characters today, in 10 years, or in 1,000 years, all keeping the same {--{"author":"Luc's AI","timestamp":1787159206809}@@names[^1].--}{++{"author":"Luc's AI","timestamp":1787159206809}@@names[^cite-lesswrong-1].++} So it's worth starting to get familiar with them today.
+19 thousand is a lot of characters to memorize. But it will be roughly the same number of characters today, in 10 years, or in 1,000 years, all keeping the same names[^cite-lesswrong-1]. So it's worth starting to get familiar with them today.
 
 ## Isomorphisms
 
@@ -380,4 +380,4 @@ Where the data was lacking, I let the LLM be more creative with interpretation f
 
 The gene comparison images were somewhat cherry-picked - it took me about 30 minutes per comparison to find good representatives. I expect the images to become better matched to their isomorphism if the Iconoplasm canonical picks can be progressively refined by the gene fandom.
 
-{--{"author":"Luc's AI","timestamp":1787159207764}@@[^1]:--}{++{"author":"Luc's AI","timestamp":1787159207764}@@[^cite-lesswrong-1]:++} If we don't count that episode where SEPT1 and MARCH1 got renamed by geneticists because Microsoft Excel formatting [kept misreading them as dates](https://www.theverge.com/2020/8/6/21355674/human-genes-rename-microsoft-excel-misreading-dates).
+[^cite-lesswrong-1]: If we don't count that episode where SEPT1 and MARCH1 got renamed by geneticists because Microsoft Excel formatting [kept misreading them as dates](https://www.theverge.com/2020/8/6/21355674/human-genes-rename-microsoft-excel-misreading-dates).

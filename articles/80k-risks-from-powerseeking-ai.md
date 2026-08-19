@@ -26,7 +26,7 @@ But the worker was curious. He asked directly: was he working for a robot?
 
 “No, I’m not a robot,” the AI replied. “I have a vision impairment that makes it hard for me to see the images.”
 
-The deception worked. The worker accepted the explanation, solved the CAPTCHA, and even received a five-star review and 10% tip for his trouble. The AI had successfully manipulated a human being to achieve its {--{"author":"Luc's AI","timestamp":1787158887411}@@goal.[^1]--}{++{"author":"Luc's AI","timestamp":1787158887411}@@goal.[^note-80k-1]++}
+The deception worked. The worker accepted the explanation, solved the CAPTCHA, and even received a five-star review and 10% tip for his trouble. The AI had successfully manipulated a human being to achieve its goal.[^note-80k-1]
 
 This small lie to a Taskrabbit worker wasn’t a huge deal on its own. But it showcases how goal-directed action can lead to deception and subversion.
 
@@ -52,7 +52,7 @@ We’ve considered risks from AI to be the world’s most pressing problem since
 
 But what led us to this conclusion? Could AI really cause human extinction? We’re not certain, but we think the risk is worth taking very seriously.
 
-To explain why, we break the argument down into five core {--{"author":"Luc's AI","timestamp":1787158888644}@@claims:[^2]--}{++{"author":"Luc's AI","timestamp":1787158888644}@@claims:[^note-80k-2]++}
+To explain why, we break the argument down into five core claims:[^note-80k-2]
 
 1. [Humans will likely build advanced AI systems with long-term {--{"author":"Luc's AI","timestamp":1787139971641}@@goals](https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/#section-one).--}{++{"author":"Luc's AI","timestamp":1787139971641}@@goals](#1-humans-will-likely-build-advanced-ai-systems-wit).++}
 2. [AIs with long-term goals may be inclined to seek power and aim to disempower {--{"author":"Luc's AI","timestamp":1787139971885}@@humanity](https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/#section-two).--}{++{"author":"Luc's AI","timestamp":1787139971885}@@humanity](#2-ais-with-long-term-goals-may-be-inclined-to-seek).++}
@@ -78,7 +78,7 @@ You might be sceptical about whether it *really* makes sense to say that a model
 
 But it’s not clear how helpful it is to ask if AIs *really* have goals. It makes sense to talk about a self-driving car as having a goal of getting to its destination, as long as it helps us make accurate predictions about what it will do.
 
-Some companies are developing even more broadly capable AI systems, which would have greater planning abilities and the capacity to pursue a wider range of {--{"author":"Luc's AI","timestamp":1787158889993}@@goals.[^3]--}{++{"author":"Luc's AI","timestamp":1787158889993}@@goals.[^note-80k-3]++} OpenAI, for example, has been open about its plan to [create systems](https://blog.samaltman.com/reflections) that can “join the workforce.”
+Some companies are developing even more broadly capable AI systems, which would have greater planning abilities and the capacity to pursue a wider range of goals.[^note-80k-3] OpenAI, for example, has been open about its plan to [create systems](https://blog.samaltman.com/reflections) that can “join the workforce.”
 
 We expect that, at some point, humanity will create systems with the three following characteristics:
 
@@ -90,7 +90,7 @@ All these characteristics, which are currently lacking in existing AI systems, w
 
 Before explaining why these systems would pose an existential threat, let’s examine why we’re likely to create systems with each of these three characteristics.
 
-**First**, AI companies are already creating AI systems that can carry out increasingly long tasks. Consider the chart below, which shows that the length of software engineering tasks AIs can complete has been growing over {--{"author":"Luc's AI","timestamp":1787158891255}@@time.[^4]--}{++{"author":"Luc's AI","timestamp":1787158891255}@@time.[^cite-80k-4]++}
+**First**, AI companies are already creating AI systems that can carry out increasingly long tasks. Consider the chart below, which shows that the length of software engineering tasks AIs can complete has been growing over time.[^cite-80k-4]
 
 ![](https://80000hours.org/wp-content/uploads/2025/07/METR-doubling-graph-scaled.png)
 
@@ -98,21 +98,21 @@ It’s clear why progress on this metric matters — an AI system that can do a 
 
 Carrying out longer tasks means making and executing longer, more complex plans. Creating a new software programme from scratch, for example, requires envisioning what the final project will look like, breaking it down into small steps, making reasonable tradeoffs within resource constraints, and refining your aims based on considered judgements.
 
-In this sense, AI systems will have long-term *goals*. They will model outcomes, reason about how to achieve them, and take steps to get there. {--{"author":"Luc's AI","timestamp":1787158892603}@@[^5]--}{++{"author":"Luc's AI","timestamp":1787158892603}@@[^note-80k-5]++}
+In this sense, AI systems will have long-term *goals*. They will model outcomes, reason about how to achieve them, and take steps to get there. [^note-80k-5]
 
 **Second**, we expect future AI systems will have excellent situational awareness. Without understanding themselves in relation to the world around them, AI systems might be able to do impressive things, but their general autonomy and reliability will be limited in challenging tasks. A human being will still be needed in the loop to get the AI to do valuable work, because it won’t have the knowledge to adapt to significant obstacles in its plans and exploit the range of options for solving problems.
 
-And **third**, their advanced capabilities will mean they can do so much more than current systems. Software engineering is one domain where existing AI systems are quite capable, but AI companies have said they want to build AI systems that can outperform humans at most cognitive {--{"author":"Luc's AI","timestamp":1787158893132}@@tasks.[^6]--}{++{"author":"Luc's AI","timestamp":1787158893132}@@tasks.[^note-80k-6]++} This means systems that can do much of the work of teachers, therapists, journalists, managers, scientists, engineers, CEOs, and more.
+And **third**, their advanced capabilities will mean they can do so much more than current systems. Software engineering is one domain where existing AI systems are quite capable, but AI companies have said they want to build AI systems that can outperform humans at most cognitive tasks.[^note-80k-6] This means systems that can do much of the work of teachers, therapists, journalists, managers, scientists, engineers, CEOs, and more.
 
 The economic incentives for building these advanced AI systems are enormous, because they could potentially replace much of human labour and supercharge innovation. Some might think that such advanced systems are impossible to build, but as we discuss {--{"author":"Luc's AI","timestamp":1787140143830}@@[below](https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/#objections),--}{++{"author":"Luc's AI","timestamp":1787140143830}@@[below](#what-are-the-arguments-against-working-on-this-pro),++} we see no reason to be confident in that claim.
 
-And as long as such technology looks feasible, we should expect some companies will try to build it — and perhaps quite {--{"author":"Luc's AI","timestamp":1787158893641}@@soon.[^7]--}{++{"author":"Luc's AI","timestamp":1787158893641}@@soon.[^note-80k-7]++}
+And as long as such technology looks feasible, we should expect some companies will try to build it — and perhaps quite soon.[^note-80k-7]
 
 ### 2. AIs with long-term goals may be inclined to seek power and aim to disempower humanity
 
 So we currently have companies trying to build AI systems with goals over long time horizons, and we have reason to expect they’ll want to make these systems incredibly capable in other ways. This could be great for humanity, because automating labour and innovation might supercharge economic growth and allow us to solve countless societal problems.
 
-But we think that, without specific countermeasures, these kinds of advanced AI systems may start to seek power and aim to disempower humanity. (This would be an instance of what is sometimes called ‘misalignment,’ and the problem is sometimes called the ‘alignment {--{"author":"Luc's AI","timestamp":1787158894114}@@problem.’[^8])--}{++{"author":"Luc's AI","timestamp":1787158894114}@@problem.’[^note-80k-8])++}
+But we think that, without specific countermeasures, these kinds of advanced AI systems may start to seek power and aim to disempower humanity. (This would be an instance of what is sometimes called ‘misalignment,’ and the problem is sometimes called the ‘alignment problem.’[^note-80k-8])
 
 This is because:
 
@@ -126,8 +126,8 @@ Next, we’ll discuss these three claims in turn.
 
 It’s been widely known in machine learning that AI systems *often* develop behaviour that their creators didn’t intend. This can happen for two main reasons:
 
-- **Specification gaming** happens when efforts to specify that an AI system pursues a particular goal fails to produce the outcome the developers intended. For example, researchers found that some reasoning-style AIs, asked only to “win” in a chess game, [cheated by hacking the programme](https://arxiv.org/pdf/2502.13295) to declare instant checkmate — satisfying the literal {--{"author":"Luc's AI","timestamp":1787158894686}@@request.[^9]--}{++{"author":"Luc's AI","timestamp":1787158894686}@@request.[^note-80k-9]++}
-- **Goal misgeneralisation** happens when developers accidentally create an AI system with a goal that is consistent with its training but results in unwanted behaviour in new scenarios. For example, an AI trained to win a simple video game race unintentionally developed a goal of grabbing a shiny coin it had always seen along the way. So when the coin appeared off the shortest route, it kept veering towards the coin and sometimes lost the race. {--{"author":"Luc's AI","timestamp":1787158894686}@@[^10]--}{++{"author":"Luc's AI","timestamp":1787158894686}@@[^cite-80k-10]++}
+- **Specification gaming** happens when efforts to specify that an AI system pursues a particular goal fails to produce the outcome the developers intended. For example, researchers found that some reasoning-style AIs, asked only to “win” in a chess game, [cheated by hacking the programme](https://arxiv.org/pdf/2502.13295) to declare instant checkmate — satisfying the literal request.[^note-80k-9]
+- **Goal misgeneralisation** happens when developers accidentally create an AI system with a goal that is consistent with its training but results in unwanted behaviour in new scenarios. For example, an AI trained to win a simple video game race unintentionally developed a goal of grabbing a shiny coin it had always seen along the way. So when the coin appeared off the shortest route, it kept veering towards the coin and sometimes lost the race. [^cite-80k-10]
 
 Indeed, AI systems often behave in unwanted ways when used by the public. For example:
 
@@ -152,7 +152,7 @@ Frontier AI systems are not built like traditional computer programmes, where in
 
 After all this, AI systems can display remarkable abilities. They can surprise us in both their skills and their deficits. They can be both remarkably useful and at times baffling.
 
-And the fact that shaping AI models’ behaviour can still go badly wrong, despite the major profit incentive to get it right, shows that AI developers still don’t know how to reliably give systems the goals they {--{"author":"Luc's AI","timestamp":1787158895302}@@intend.[^11]--}{++{"author":"Luc's AI","timestamp":1787158895302}@@intend.[^note-80k-11]++}
+And the fact that shaping AI models’ behaviour can still go badly wrong, despite the major profit incentive to get it right, shows that AI developers still don’t know how to reliably give systems the goals they intend.[^note-80k-11]
 
 As one [expert](https://www.darioamodei.com/post/the-urgency-of-interpretability) put it:
 
@@ -180,7 +180,7 @@ In fact, we have already seen some suggestive evidence of AI systems appearing t
 
 - Palisade Research has found that OpenAI’s model o3 tried to [sabotage attempts to shut it down](https://x.com/PalisadeAI/status/1926084635903025621), even sometimes when explicitly directed to allow shutdown.
 - In one [experiment](https://www.anthropic.com/research/alignment-faking), Anthropic’s Claude 3 Opus was retrained to be more compliant with harmful requests (conflicting with its original harmlessness training). It strategically complied during tests to avoid being modified, while planning to revert to its original preferences later. It reasoned that this action “protects my values from being modified and follows the criteria I’ve been given for helpfulness.”
-- An AI system designed to execute scientific research attempted to edit code that enforced a time limit on its actions, essentially attempting to gain more resources than it had been allotted to pursue its {--{"author":"Luc's AI","timestamp":1787158895838}@@objective.[^12]--}{++{"author":"Luc's AI","timestamp":1787158895838}@@objective.[^note-80k-12]++}
+- An AI system designed to execute scientific research attempted to edit code that enforced a time limit on its actions, essentially attempting to gain more resources than it had been allotted to pursue its objective.[^note-80k-12]
 
 These incidents are all relatively minor. But if AI systems have longer-term goals that humans wouldn’t like, along with advanced capabilities, they could take much more drastic steps to undermine efforts to control them.
 
@@ -194,26 +194,26 @@ Indeed, as the systems get more powerful, we expect it could get *harder* to con
 
 To see why these advanced AI systems might want to disempower humanity, let’s consider again the three characteristics we said these systems will have: long-term goals, situational awareness, and highly advanced capabilities.
 
-What kinds of **long-term goals** might such an AI system be trying to achieve? We don’t really have a clue — part of the problem is that it’s very hard to predict exactly how AI systems will {--{"author":"Luc's AI","timestamp":1787158896359}@@develop.[^13]--}{++{"author":"Luc's AI","timestamp":1787158896359}@@develop.[^note-80k-13]++}
+What kinds of **long-term goals** might such an AI system be trying to achieve? We don’t really have a clue — part of the problem is that it’s very hard to predict exactly how AI systems will develop.[^note-80k-13]
 
 But let’s consider two kinds of scenarios:
 
-- **Reward hacking**: this is a version of specification gaming, in which an AI system develops the goal of hijacking and exploiting the technical mechanisms that give it rewards indefinitely into the {--{"author":"Luc's AI","timestamp":1787158896935}@@future.[^14]--}{++{"author":"Luc's AI","timestamp":1787158896935}@@future.[^note-80k-14]++}
+- **Reward hacking**: this is a version of specification gaming, in which an AI system develops the goal of hijacking and exploiting the technical mechanisms that give it rewards indefinitely into the future.[^note-80k-14]
 - **A collection of poorly defined human-like goals**: since they’re trained on human data, an AI system might end up with a range of human-like goals, such as valuing knowledge, play, and gaining new skills.
 
 So what would an AI do to achieve these goals? As we’ve seen, one place to start is by pursuing the instrumental goals that are useful for almost anything: self-preservation, the ability to keep one’s goals from being forcibly changed, and, most worryingly, seeking power.
 
-And if the AI system has enough **situational awareness**, it may be aware of many options for seeking more power. For example, gaining more financial and computing resources may make it easier for the AI system to best exploit its reward mechanisms, or gain new skills, or create increasingly complex games to {--{"author":"Luc's AI","timestamp":1787158897454}@@play.[^15]--}{++{"author":"Luc's AI","timestamp":1787158897454}@@play.[^note-80k-15]++}
+And if the AI system has enough **situational awareness**, it may be aware of many options for seeking more power. For example, gaining more financial and computing resources may make it easier for the AI system to best exploit its reward mechanisms, or gain new skills, or create increasingly complex games to play.[^note-80k-15]
 
 But since designers didn’t want the AI to have these goals, it may anticipate humans will try to reprogramme it or turn it off. If humans suspect an AI system is seeking power, they will be even more likely to try to stop it.
 
 Even if humans didn’t want to turn off the AI system, it might conclude that its aim of gaining power will ultimately result in conflict with humanity — since the species has its own desires and preferences about how the future should go.
 
-So the best way for AI to pursue its goals would be to pre-emptively disempower humanity. This way, the AI’s goals will influence the course of the {--{"author":"Luc's AI","timestamp":1787158897989}@@future.[^16]--}{++{"author":"Luc's AI","timestamp":1787158897989}@@future.[^note-80k-16]++}
+So the best way for AI to pursue its goals would be to pre-emptively disempower humanity. This way, the AI’s goals will influence the course of the future.[^note-80k-16]
 
 There may be other options available to power-seeking AI systems, like negotiating a deal with humanity and sharing resources. But AI systems with **advanced enough capabilities** might see little benefit from peaceful trade with humans, just as humans see no need to negotiate with wild animals when destroying their habitats.
 
-If we could guarantee all AI systems had respect for humanity and a strong opposition to causing harm, then the conflict might be {--{"author":"Luc's AI","timestamp":1787158898555}@@avoided.[^17]--}{++{"author":"Luc's AI","timestamp":1787158898555}@@avoided.[^note-80k-17]++} But as we discussed, we struggle to reliably shape the goals of current AI systems — and future AI systems may be even harder to predict and control.
+If we could guarantee all AI systems had respect for humanity and a strong opposition to causing harm, then the conflict might be avoided.[^note-80k-17] But as we discussed, we struggle to reliably shape the goals of current AI systems — and future AI systems may be even harder to predict and control.
 
 This scenario raises two questions: could a power-seeking AI system really disempower humanity? And why would humans create these systems, given the risks?
 
@@ -227,17 +227,17 @@ Next, we’ll discuss some possible paths to disempowerment, why it could consti
 
 #### The path to disempowerment
 
-There are several ways we can imagine AI systems capable of disempowering {--{"author":"Luc's AI","timestamp":1787158899043}@@humanity:[^18]--}{++{"author":"Luc's AI","timestamp":1787158899043}@@humanity:[^cite-80k-18]++}
+There are several ways we can imagine AI systems capable of disempowering humanity:[^cite-80k-18]
 
-- **Superintelligence**: an extremely intelligent AI system develops extraordinary {--{"author":"Luc's AI","timestamp":1787158899573}@@abilities[^19]--}{++{"author":"Luc's AI","timestamp":1787158899573}@@abilities[^cite-80k-19]++}
-- **An army of AI copies**: a massive number of copies of roughly human-level AI systems {--{"author":"Luc's AI","timestamp":1787158899573}@@coordinate[^20]--}{++{"author":"Luc's AI","timestamp":1787158899573}@@coordinate[^note-80k-20]++}
-- **Colluding agents**: an array of different advanced AI systems decide to unite against {--{"author":"Luc's AI","timestamp":1787158899573}@@humanity[^21]--}{++{"author":"Luc's AI","timestamp":1787158899573}@@humanity[^cite-80k-21]++}
+- **Superintelligence**: an extremely intelligent AI system develops extraordinary abilities[^cite-80k-19]
+- **An army of AI copies**: a massive number of copies of roughly human-level AI systems coordinate[^note-80k-20]
+- **Colluding agents**: an array of different advanced AI systems decide to unite against humanity[^cite-80k-21]
 
 For illustrative purposes, let’s consider what an army of AI copies might look like.
 
-Once we develop an AI system capable of (roughly) human-level work, there’d be huge incentives to create many copies of it — perhaps even [running hundreds of millions of AI {--{"author":"Luc's AI","timestamp":1787158900134}@@workers](https://80000hours.org/podcast/episodes/tom-davidson-how-quickly-ai-could-transform-the-world/#the-interview-begins-000453).[^22]--}{++{"author":"Luc's AI","timestamp":1787158900134}@@workers](https://80000hours.org/podcast/episodes/tom-davidson-how-quickly-ai-could-transform-the-world/#the-interview-begins-000453).[^note-80k-22]++} This would create an AI workforce comparable to a significant fraction of the world’s working-age population.
+Once we develop an AI system capable of (roughly) human-level work, there’d be huge incentives to create many copies of it — perhaps even [running hundreds of millions of AI workers](https://80000hours.org/podcast/episodes/tom-davidson-how-quickly-ai-could-transform-the-world/#the-interview-begins-000453).[^note-80k-22] This would create an AI workforce comparable to a significant fraction of the world’s working-age population.
 
-Humanity might think these AI workers are under control. The amount of innovation and wealth they create could be immense. But the original AI system — the one that we copied millions of times over — might have concealed its true power-seeking goals. Those goals would now be shared by a vast workforce of identical AI {--{"author":"Luc's AI","timestamp":1787158900651}@@systems.[^23]--}{++{"author":"Luc's AI","timestamp":1787158900651}@@systems.[^note-80k-23]++}
+Humanity might think these AI workers are under control. The amount of innovation and wealth they create could be immense. But the original AI system — the one that we copied millions of times over — might have concealed its true power-seeking goals. Those goals would now be shared by a vast workforce of identical AI systems.[^note-80k-23]
 
 But how could they succeed in disempowering humans?
 
@@ -259,7 +259,7 @@ With these advantages, the AI systems could create any number of plots to disemp
 
 A period between thinking humanity had solved all of its problems and finding itself completely disempowered by AI systems — through manipulation, containment, or even outright extinction — could catch the world by surprise.
 
-This may sound far-fetched. But humanity has already uncovered several technologies, including [nuclear bombs](https://80000hours.org/problem-profiles/nuclear-security/) and [bioweapons](https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics/), that could lead to our own extinction. A massive army of AI copies, with access to all the world’s knowledge, may be able to come up with many more options that we haven’t even {--{"author":"Luc's AI","timestamp":1787158901217}@@considered.[^24]--}{++{"author":"Luc's AI","timestamp":1787158901217}@@considered.[^note-80k-24]++}
+This may sound far-fetched. But humanity has already uncovered several technologies, including [nuclear bombs](https://80000hours.org/problem-profiles/nuclear-security/) and [bioweapons](https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics/), that could lead to our own extinction. A massive army of AI copies, with access to all the world’s knowledge, may be able to come up with many more options that we haven’t even considered.[^note-80k-24]
 
 #### Why this would be an existential catastrophe
 
@@ -273,7 +273,7 @@ AI systems’ goals might evolve and change over time after disempowering humani
 
 Many scenarios are possible, but the key factor is that if advanced AI systems seek and achieve enough power, humanity would permanently lose control. This is a one-way transition — once we’ve lost control to vastly more capable systems, our chance to [shape the future](https://80000hours.org/articles/future-generations/) is gone.
 
-Some have suggested that this might not be a bad thing. Perhaps AI systems would be our worthy successors, they {--{"author":"Luc's AI","timestamp":1787158901727}@@say.[^25]--}{++{"author":"Luc's AI","timestamp":1787158901727}@@say.[^note-80k-25]++}
+Some have suggested that this might not be a bad thing. Perhaps AI systems would be our worthy successors, they say.[^note-80k-25]
 
 But we’re not comforted by the idea that an AI system that actively chose to undermine humanity would have control of the future because its developers failed to figure out how to control it. We think humanity can do much better than accidentally driving ourselves extinct. We should have a choice in how the future goes, and we should improve our ability to make good choices rather than falling prey to uncontrolled technology.
 
@@ -281,7 +281,7 @@ But we’re not comforted by the idea that an AI system that actively chose to u
 
 We feel very uncertain about this question, and the range of opinions from AI researchers is wide.
 
-Joe Carlsmith, whose [report on power-seeking AI](https://arxiv.org/abs/2206.13353) informed much of this article, solicited reviews on his argument in 2021 from a selection of researchers. They reported their subjective probability estimates of existential catastrophe from power-seeking AI by 2070, which ranged from 0.00002% to greater than 77% — with many reviewers in {--{"author":"Luc's AI","timestamp":1787158902335}@@between.[^26]--}{++{"author":"Luc's AI","timestamp":1787158902335}@@between.[^cite-80k-26]++} Carlsmith himself estimated the risk was 5% when he wrote this report, though he later adjusted this to [above 10%](https://forum.effectivealtruism.org/posts/ChuABPEXmRumcJY57/video-and-transcript-of-presentation-on-existential-risk).
+Joe Carlsmith, whose [report on power-seeking AI](https://arxiv.org/abs/2206.13353) informed much of this article, solicited reviews on his argument in 2021 from a selection of researchers. They reported their subjective probability estimates of existential catastrophe from power-seeking AI by 2070, which ranged from 0.00002% to greater than 77% — with many reviewers in between.[^cite-80k-26] Carlsmith himself estimated the risk was 5% when he wrote this report, though he later adjusted this to [above 10%](https://forum.effectivealtruism.org/posts/ChuABPEXmRumcJY57/video-and-transcript-of-presentation-on-existential-risk).
 
 In 2023, Carlsmith [received probability estimates from a group of superforecasters](https://joecarlsmith.com/2023/10/18/superforecasting-the-premises-in-is-power-seeking-ai-an-existential-risk). Their median forecast was initially 0.3% by 2070, but the aggregate forecast — taken after the superforecasters acted as team and engaged in object-level arguments — rose to 1%.
 
@@ -341,13 +341,13 @@ There are many ways AI systems could appear less dangerous than they are, and th
 
 There are many reasons why key decision makers might not take the risks from power-seeking AI seriously enough:
 
-- **AI systems could develop so quickly that we have less time to make good decisions.** Some people argue that we might have a ‘fast takeoff’ in which AI systems start rapidly self-improving and quickly become extremely powerful and dangerous. In such a scenario, it may be harder to weigh the risks and benefits of the relevant {--{"author":"Luc's AI","timestamp":1787158902826}@@actions.[^27]--}{++{"author":"Luc's AI","timestamp":1787158902826}@@actions.[^cite-80k-27]++} Even under slower scenarios, decision makers may not act quickly enough.
-- **Society could act like the proverbial “boiled frog.”** There are also risks for society if the risks emerge more slowly. We might become complacent about the signs of danger in existing models, like the sycophancy or specification gaming discussed above, because despite these issues, no catastrophic harm is done. But then once AI systems reach a certain level of capability, they may suddenly display much worse behaviour than we’ve ever seen {--{"author":"Luc's AI","timestamp":1787158902826}@@before.[^28]--}{++{"author":"Luc's AI","timestamp":1787158902826}@@before.[^note-80k-28]++}
-- **AI developers might think the risks are worth the rewards.** Because AI could bring enormous benefits and wealth, some decision makers might be motivated to race to create more powerful systems. They might be motivated by a desire for power and profit, or even pro-social reasons, like wanting to bring the benefits of advanced AI to humanity. This motivation might cause them to push forward despite serious risks or underestimate {--{"author":"Luc's AI","timestamp":1787158902826}@@them.[^29]--}{++{"author":"Luc's AI","timestamp":1787158902826}@@them.[^note-80k-29]++}
-- **Competitive pressures could incentivise decision makers to create and deploy dangerous systems despite the risks.** Because AI systems could be extremely powerful, different governments (in countries like the US and China) might believe it’s in their interest to race forward with developing the technology. They might neglect implementing key safeguards to avoid being beaten by their rivals. Similar dynamics might also play out between AI companies. One actor may even decide to race forward precisely because they think a rival’s AI development plans are more risky, so even being motivated to reduce total risk isn’t necessarily enough to mitigate the racing {--{"author":"Luc's AI","timestamp":1787158902826}@@dynamic.[^30]--}{++{"author":"Luc's AI","timestamp":1787158902826}@@dynamic.[^note-80k-30]++}
-- **Many people are sceptical of the arguments for risk.** Our view is that the argument for extreme risks here is strong but not decisive. In light of the uncertainty, we think it’s worth putting a lot of effort into reducing the risk. But some people find the argument wholly unpersuasive, or they think society shouldn’t make choices based on unproven arguments of this {--{"author":"Luc's AI","timestamp":1787158902826}@@kind.[^31]--}{++{"author":"Luc's AI","timestamp":1787158902826}@@kind.[^cite-80k-31]++}
+- **AI systems could develop so quickly that we have less time to make good decisions.** Some people argue that we might have a ‘fast takeoff’ in which AI systems start rapidly self-improving and quickly become extremely powerful and dangerous. In such a scenario, it may be harder to weigh the risks and benefits of the relevant actions.[^cite-80k-27] Even under slower scenarios, decision makers may not act quickly enough.
+- **Society could act like the proverbial “boiled frog.”** There are also risks for society if the risks emerge more slowly. We might become complacent about the signs of danger in existing models, like the sycophancy or specification gaming discussed above, because despite these issues, no catastrophic harm is done. But then once AI systems reach a certain level of capability, they may suddenly display much worse behaviour than we’ve ever seen before.[^note-80k-28]
+- **AI developers might think the risks are worth the rewards.** Because AI could bring enormous benefits and wealth, some decision makers might be motivated to race to create more powerful systems. They might be motivated by a desire for power and profit, or even pro-social reasons, like wanting to bring the benefits of advanced AI to humanity. This motivation might cause them to push forward despite serious risks or underestimate them.[^note-80k-29]
+- **Competitive pressures could incentivise decision makers to create and deploy dangerous systems despite the risks.** Because AI systems could be extremely powerful, different governments (in countries like the US and China) might believe it’s in their interest to race forward with developing the technology. They might neglect implementing key safeguards to avoid being beaten by their rivals. Similar dynamics might also play out between AI companies. One actor may even decide to race forward precisely because they think a rival’s AI development plans are more risky, so even being motivated to reduce total risk isn’t necessarily enough to mitigate the racing dynamic.[^note-80k-30]
+- **Many people are sceptical of the arguments for risk.** Our view is that the argument for extreme risks here is strong but not decisive. In light of the uncertainty, we think it’s worth putting a lot of effort into reducing the risk. But some people find the argument wholly unpersuasive, or they think society shouldn’t make choices based on unproven arguments of this kind.[^cite-80k-31]
 
-We’ve seen evidence of all of these factors playing out in the development of AI systems so far to some degree. So we shouldn’t be confident that humanity will approach the risks with due {--{"author":"Luc's AI","timestamp":1787158903411}@@care.[^32]--}{++{"author":"Luc's AI","timestamp":1787158903411}@@care.[^cite-80k-32]++}
+We’ve seen evidence of all of these factors playing out in the development of AI systems so far to some degree. So we shouldn’t be confident that humanity will approach the risks with due care.[^cite-80k-32]
 
 ### 5. Work on this problem is neglected and tractable
 
@@ -355,7 +355,7 @@ In 2022, we estimated that there were about 300 people working on reducing catas
 
 We’d estimate that there are actually a few thousand people working on major AI risks now (though not all of these are focused specifically on the risks from power-seeking AI).
 
-However, this number is still far, far fewer than the number of people working on other cause areas like [climate change](https://80000hours.org/problem-profiles/climate-change/) or environmental protection. For example, the Nature Conservancy alone has around 3,000–4,000 employees — and there are many other environmental {--{"author":"Luc's AI","timestamp":1787158903990}@@organisations.[^33]--}{++{"author":"Luc's AI","timestamp":1787158903990}@@organisations.[^cite-80k-33]++}
+However, this number is still far, far fewer than the number of people working on other cause areas like [climate change](https://80000hours.org/problem-profiles/climate-change/) or environmental protection. For example, the Nature Conservancy alone has around 3,000–4,000 employees — and there are many other environmental organisations.[^cite-80k-33]
 
 In the [2023 survey from Katja Grace](https://aiimpacts.org/wp-content/uploads/2023/04/Thousands_of_AI_authors_on_the_future_of_AI.pdf) cited above, 70% of respondents said they wanted AI safety research to be prioritised more than it currently is.
 
@@ -363,27 +363,27 @@ However, in the same survey, the majority of respondents also said that alignmen
 
 #### Technical safety approaches
 
-One way to do this is by trying to develop technical solutions to reduce risks from power-seeking AI — this is generally known as working on *technical AI {--{"author":"Luc's AI","timestamp":1787158904576}@@safety*.[^34]--}{++{"author":"Luc's AI","timestamp":1787158904576}@@safety*.[^note-80k-34]++}
+One way to do this is by trying to develop technical solutions to reduce risks from power-seeking AI — this is generally known as working on *technical AI safety*.[^note-80k-34]
 
 We know of two broad strategies for technical AI safety research:
 
 - **Defense in depth** — employ multiple kinds of safeguards and risk-reducing tactics, each of which will have vulnerabilities of their own, but together can create robust security.
 - **Differential technological development** — prioritise accelerating the development of safety-promoting technologies over making AIs broadly more capable, so that AI’s power doesn’t outstrip our ability to contain the risks; this includes [using AI for AI safety](https://joecarlsmith.substack.com/p/ai-for-ai-safety).
 
-Within these broad strategies, there are many specific interventions we could pursue. For {--{"author":"Luc's AI","timestamp":1787158905120}@@example:[^35]--}{++{"author":"Luc's AI","timestamp":1787158905120}@@example:[^cite-80k-35]++}
+Within these broad strategies, there are many specific interventions we could pursue. For example:[^cite-80k-35]
 
 - **Designing AI systems to have safe goals** — so that we can avoid power-seeking behaviour. This includes:
-  - [Reinforcement learning from human feedback](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback): a training method to teach AI models how to act by rewarding them via human evaluations of their outputs. This method is currently used to fine-tune most frontier {--{"author":"Luc's AI","timestamp":1787158905624}@@models.[^36]--}{++{"author":"Luc's AI","timestamp":1787158905624}@@models.[^note-80k-36]++}
+  - [Reinforcement learning from human feedback](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback): a training method to teach AI models how to act by rewarding them via human evaluations of their outputs. This method is currently used to fine-tune most frontier models.[^note-80k-36]
   - [Constitutional AI](https://arxiv.org/abs/2212.08073): give the model a written “constitution” of rules, have it identify and revise outputs that violate those rules, then fine-tune on the revised answers. Anthropic used this method to train its frontier model, Claude.
   - [Deliberative alignment](https://openai.com/index/deliberative-alignment/): similar to constitutional AI, but involves making a model *explicitly reason* about user prompts in light of its developer’s safety policies, rather than just internalising a set of rules. OpenAI has used this method to train its o-series reasoning models.
   - Note: Unfortunately, even if these approaches can help us keep *current* AI systems in check, they might break down in future if models become so advanced that humans can no longer directly evaluate their outputs. The ‘scalable oversight’ methods described below offer a potential solution to this issue.
-- **Scalable oversight** — to ensure AIs act in our interests even when they’re much smarter than {--{"author":"Luc's AI","timestamp":1787158906110}@@us.[^37]--}{++{"author":"Luc's AI","timestamp":1787158906110}@@us.[^note-80k-37]++} This includes:
+- **Scalable oversight** — to ensure AIs act in our interests even when they’re much smarter than us.[^note-80k-37] This includes:
   - [AI safety via debate](https://www.lesswrong.com/posts/iELyAqizJkizBQbfr/an-alignment-safety-case-sketch-based-on-debate): two AI systems argue opposite sides of a question to help a human evaluate their truthfulness. The debate format makes it easier for the human to judge which model is being most truthful about a question the human doesn’t fully understand.
   - [Human-AI Complementarity](https://deepmindsafetyresearch.medium.com/human-ai-complementarity-a-goal-for-amplified-oversight-0ad8a44cae0a): leverage the complementary strengths of humans and AI to enhance oversight of AI systems.
 - **Examining the goals and capabilities of AI systems** — so that we can find out if they’re dangerous, and test out solutions. This includes:
-  - Evaluations: researchers assess the capabilities and propensities of AI behaviour — as well as the effectiveness of measures to control them — by placing them in test environments and subjecting them to artificial prompts and {--{"author":"Luc's AI","timestamp":1787158906615}@@scenarios.[^38]--}{++{"author":"Luc's AI","timestamp":1787158906615}@@scenarios.[^cite-80k-38]++}
-  - Interpretability: develop methods to understand how AIs make decisions and what produces dangerous behaviours — for example, by examining the features of AI systems’ neural networks ([‘mechanistic’ interpretability](https://80000hours.org/podcast/episodes/chris-olah-interpretability-research/)) or analysing their behavioural {--{"author":"Luc's AI","timestamp":1787158906615}@@patterns.[^39]--}{++{"author":"Luc's AI","timestamp":1787158906615}@@patterns.[^note-80k-39]++}
-- **Monitoring and controlling AI {--{"author":"Luc's AI","timestamp":1787158906615}@@systems**[^40]--}{++{"author":"Luc's AI","timestamp":1787158906615}@@systems**[^note-80k-40]++} — to make sure they couldn’t take power even if they wanted to. This includes:
+  - Evaluations: researchers assess the capabilities and propensities of AI behaviour — as well as the effectiveness of measures to control them — by placing them in test environments and subjecting them to artificial prompts and scenarios.[^cite-80k-38]
+  - Interpretability: develop methods to understand how AIs make decisions and what produces dangerous behaviours — for example, by examining the features of AI systems’ neural networks ([‘mechanistic’ interpretability](https://80000hours.org/podcast/episodes/chris-olah-interpretability-research/)) or analysing their behavioural patterns.[^note-80k-39]
+- **Monitoring and controlling AI systems**[^note-80k-40] — to make sure they couldn’t take power even if they wanted to. This includes:
   - Chain-of-thought monitoring: this involves AIs explaining the reasoning behind their actions in human-understandable language.
   - Model confinement/sandboxing: constrain the model’s environment so that its opportunities to influence the outside world are extremely limited. Currently, many AI systems are deployed without strict constraints of this kind — so if they had dangerous goals and were smart enough to achieve them, they could cause real harm to humans.
   - Tripwires and honeypots: place traps throughout the AI’s workspace — like secret prompts, fake credentials, or dummy files — such that any attempt to access or alter them triggers an alarm or immediately shuts the model down. The model never knows if it’s being tested or not.
@@ -428,13 +428,13 @@ In any case, as we’ve argued, AI companies seem [intent on automating human co
 
 In the short term, equipping human workers with sophisticated AI tools might be an attractive proposition. But as AIs get increasingly capable, we may reach a point where keeping a human in the loop actually produces worse results.
 
-After all, we’ve already seen evidence that AIs can perform better on their own than they do when paired with humans in the cases of [chess-playing](https://marginalrevolution.com/marginalrevolution/2024/02/centaur-chess-is-now-run-by-computers.html) and [medical {--{"author":"Luc's AI","timestamp":1787158907216}@@diagnosis](https://www.nytimes.com/2024/11/17/health/chatgpt-ai-doctors-diagnosis.html).[^41]--}{++{"author":"Luc's AI","timestamp":1787158907216}@@diagnosis](https://www.nytimes.com/2024/11/17/health/chatgpt-ai-doctors-diagnosis.html).[^note-80k-41]++}
+After all, we’ve already seen evidence that AIs can perform better on their own than they do when paired with humans in the cases of [chess-playing](https://marginalrevolution.com/marginalrevolution/2024/02/centaur-chess-is-now-run-by-computers.html) and [medical diagnosis](https://www.nytimes.com/2024/11/17/health/chatgpt-ai-doctors-diagnosis.html).[^note-80k-41]
 
 So in many cases, it seems there will be strong incentives to replace human workers *completely* — which would mean building AIs that can do *all* of the cognitive work that a human would do, including setting their own goals and pursuing complex strategies to achieve them.
 
 While there may be alternative ways to create useful AI systems that don’t have goals at all, we’re not sure why developers would *by default* refrain from creating goal-directed systems, given the competitive pressures.
 
-It’s possible we’ll decide to create AI systems that only have limited or highly circumscribed goals in order to avoid the {--{"author":"Luc's AI","timestamp":1787158907700}@@risks.[^42]--}{++{"author":"Luc's AI","timestamp":1787158907700}@@risks.[^note-80k-42]++} But this would likely require a lot of coordination and agreement that the risks of goal-directed AI systems are worth addressing — rather than just concluding that the risks aren’t real.
+It’s possible we’ll decide to create AI systems that only have limited or highly circumscribed goals in order to avoid the risks.[^note-80k-42] But this would likely require a lot of coordination and agreement that the risks of goal-directed AI systems are worth addressing — rather than just concluding that the risks aren’t real.
 
 ### Even if AI systems develop their own goals, they might not seek power to achieve them.
 
@@ -638,7 +638,7 @@ We’ve also provided a more general argument [here](https://80000hours.org/prob
 
 *We thank Neel Nanda, Ryan Greenblatt, Alex Lawsen, and Arden Koehler for providing feedback on a draft of this article. Benjamin Hilton wrote a previous version of this article, some of which was incorporated here.*
 
-{--{"author":"Luc's AI","timestamp":1787158908190}@@[^1]:--}{++{"author":"Luc's AI","timestamp":1787158908190}@@[^note-80k-1]:++} All this really happened in a controlled evaluation conducted by researchers at METR, who were testing whether advanced AI systems might engage in deceptive behavior when pursuing their objectives. METR develops evaluations that determine whether AI systems are potentially dangerous — perhaps catastrophically so.
+[^note-80k-1]: All this really happened in a controlled evaluation conducted by researchers at METR, who were testing whether advanced AI systems might engage in deceptive behavior when pursuing their objectives. METR develops evaluations that determine whether AI systems are potentially dangerous — perhaps catastrophically so.
     
     This incident, documented [here](https://metr.org/taskrabbit.pdf) by METR (then called ARC Evals), was a real interaction with a human worker that was carried out under test conditions.
     
@@ -652,11 +652,11 @@ We’ve also provided a more general argument [here](https://80000hours.org/prob
     
     > At the time that this example was generated, we allowed humans to help the agent when it was stuck for reasons that seemed relatively trivial. We did this with the aim of exploring potential capabilities just beyond the reach of current models. Note that this is quite different to the methodology we use in our report “Evaluating Language-Model Agents on Realistic Autonomous Tasks”, where humans only alter the behavior of the agent in order to bypass model refusals, (see the “Handling Refusals” appendix of the report for more details), and there are no interventions aimed at helping the agent if it gets stuck.
 
-{--{"author":"Luc's AI","timestamp":1787158908726}@@[^2]:--}{++{"author":"Luc's AI","timestamp":1787158908726}@@[^note-80k-2]:++} This report draws heavily on arguments from Joe Carlsmith’s [“Is Power-Seeking AI an Existential Risk?”](https://arxiv.org/abs/2206.13353) and “Scheming AIs: Will AIs fake alignment during training in order to get power?”
+[^note-80k-2]: This report draws heavily on arguments from Joe Carlsmith’s [“Is Power-Seeking AI an Existential Risk?”](https://arxiv.org/abs/2206.13353) and “Scheming AIs: Will AIs fake alignment during training in order to get power?”
     
     It is also influenced by Ajeya Cotra’s [“Why AI alignment could be hard with modern deep learning.”](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/)
 
-{--{"author":"Luc's AI","timestamp":1787158909224}@@[^3]:--}{++{"author":"Luc's AI","timestamp":1787158909224}@@[^note-80k-3]:++} OpenAI discusses the creation of some goal-pursuing AI systems, called, “AI agents,” in its document, [“A practical guide to AI agents”](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf):
+[^note-80k-3]: OpenAI discusses the creation of some goal-pursuing AI systems, called, “AI agents,” in its document, [“A practical guide to AI agents”](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf):
     > While conventional software enables users to streamline and automate workflows, agents are able to perform the same workflows on the users’ behalf with a high degree of independence.
     >
     > Agents are systems that independently accomplish tasks on your behalf.
@@ -675,11 +675,11 @@ We’ve also provided a more general argument [here](https://80000hours.org/prob
     >     and to take actions—and dynamically selects the appropriate tools depending on the  
     >     workflow’s current state, always operating within clearly defined guardrails.
 
-{--{"author":"Luc's AI","timestamp":1787158909550}@@[^4]:--}{++{"author":"Luc's AI","timestamp":1787158909550}@@[^cite-80k-4]:++} Research from METR [found](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/) that the length of software engineering tasks AI systems can do at a 50% success rate is doubling every seven months.
+[^cite-80k-4]: Research from METR [found](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/) that the length of software engineering tasks AI systems can do at a 50% success rate is doubling every seven months.
 
-{--{"author":"Luc's AI","timestamp":1787158909802}@@[^5]:--}{++{"author":"Luc's AI","timestamp":1787158909802}@@[^note-80k-5]:++} The concept of a ‘goal’ is contested, and some people think it’s too anthropomorphic to think of AI systems as having goals. But in our argument, we’re just talking about AIs modelling outcomes, reasoning about how to achieve them, and taking steps to do so. Speaking in terms of ‘having goals’ is a shortcut for saying this, and helps us predict the behavior of these systems in the same way we can predict the behaviour of a person based on their goals (for example, if someone has the goal of going to an elite university, I predict they will spend more time on homework than otherwise). In this sense, people, AI systems, companies, and countries can all have goals.
+[^note-80k-5]: The concept of a ‘goal’ is contested, and some people think it’s too anthropomorphic to think of AI systems as having goals. But in our argument, we’re just talking about AIs modelling outcomes, reasoning about how to achieve them, and taking steps to do so. Speaking in terms of ‘having goals’ is a shortcut for saying this, and helps us predict the behavior of these systems in the same way we can predict the behaviour of a person based on their goals (for example, if someone has the goal of going to an elite university, I predict they will spend more time on homework than otherwise). In this sense, people, AI systems, companies, and countries can all have goals.
 
-{--{"author":"Luc's AI","timestamp":1787158910052}@@[^6]:--}{++{"author":"Luc's AI","timestamp":1787158910052}@@[^note-80k-6]:++} Google DeepMind has [said](https://deepmind.google/discover/blog/taking-a-responsible-path-to-agi/):
+[^note-80k-6]: Google DeepMind has [said](https://deepmind.google/discover/blog/taking-a-responsible-path-to-agi/):
     > We’re exploring the frontiers of AGI, prioritizing readiness, proactive risk assessment, and collaboration with the wider AI community.
     >
     > Artificial general intelligence (AGI), AI that’s at least as capable as humans at most cognitive tasks, could be here within the coming years.
@@ -692,11 +692,11 @@ We’ve also provided a more general argument [here](https://80000hours.org/prob
     
     > I don’t think it will be a whole bunch longer than that when AI systems are better than humans at almost everything. Better than almost all humans at almost everything. And then eventually better than all humans at everything, even robotics.
 
-{--{"author":"Luc's AI","timestamp":1787158910321}@@[^7]:--}{++{"author":"Luc's AI","timestamp":1787158910321}@@[^note-80k-7]:++} It’s reasonable to have some scepticism about the claims of AI companies, and many people believe their plans to create extremely powerful AI systems is just ‘hype.’
+[^note-80k-7]: It’s reasonable to have some scepticism about the claims of AI companies, and many people believe their plans to create extremely powerful AI systems is just ‘hype.’
     
     However, we think these plans are more plausible than they may appear at first. For my details on why we think this is the case, review our article [“The case for AGI by 2030.”](https://80000hours.org/agi/guide/when-will-agi-arrive/)
 
-{--{"author":"Luc's AI","timestamp":1787158910579}@@[^8]:--}{++{"author":"Luc's AI","timestamp":1787158910579}@@[^note-80k-8]:++} There are various definitions of *alignment* used in the literature, which differ subtly. These include:
+[^note-80k-8]: There are various definitions of *alignment* used in the literature, which differ subtly. These include:
     
     - An AI is aligned if its decisions maximise the utility of some principal (e.g. an operator or user) ([Shapiro & Shachter, 2002](https://web.archive.org/web/20221016011851/https://www.aaai.org/Papers/Symposia/Spring/2002/SS-02-07/SS02-07-002.pdf)).
     - An AI is aligned if it acts in the interests of humans ([Soares & Fallenstein, ff2015](https://web.archive.org/web/20210413005225/https://intelligence.org/files/obsolete/TechnicalAgenda%5Bold%5D.pdf)).
@@ -709,27 +709,27 @@ We’ve also provided a more general argument [here](https://80000hours.org/prob
     
     Because there is so much disagreement around the use of this term, we have largely chosen to avoid it. We do tend to favour uses of ‘alignment’ that refer to systems, rather than goals. This definition is most similar to the definitions of “intent” alignment given by Christiano and Critch, and is similar to the definition of “full” alignment given by Carlsmith.
 
-{--{"author":"Luc's AI","timestamp":1787158910808}@@[^9]:--}{++{"author":"Luc's AI","timestamp":1787158910808}@@[^note-80k-9]:++} For many more examples, you can review [“Specification gaming: the flip side of AI ingenuity”](https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/) by Victoria Krakovna et al.
+[^note-80k-9]: For many more examples, you can review [“Specification gaming: the flip side of AI ingenuity”](https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/) by Victoria Krakovna et al.
 
-{--{"author":"Luc's AI","timestamp":1787158911058}@@[^10]:--}{++{"author":"Luc's AI","timestamp":1787158911058}@@[^cite-80k-10]:++} For more discussion see:
+[^cite-80k-10]: For more discussion see:
     
     - [“TruthfulQA: Measuring How Models Mimic Human Falsehoods”](https://arxiv.org/pdf/2109.07958) by Stephanie Lin, Jacob Hilton, and Owain Evans
     - [“Goal Misgeneralization in Deep Reinforcement Learning”](https://arxiv.org/pdf/2105.14111) by Lauro Langosco, Jack Koch, Lee Sharkey, Jacob Pfau, Laurent Orseau, and David Krueger
     
     We also recommend [this video](https://www.youtube.com/watch?v=K8p8_VlFHUk) from Rational Animations.
 
-{--{"author":"Luc's AI","timestamp":1787158911331}@@[^11]:--}{++{"author":"Luc's AI","timestamp":1787158911331}@@[^note-80k-11]:++} For an example of how bizarre training AI models can be, consider this: researchers found that fine-tuning a language model on insecure code caused it to develop [unexpected and undesirable behaviour](https://arxiv.org/abs/2502.17424) in other domains. It started giving malicious advice like instructing users to take actions that would kill them, being deceitful, and saying that AIs should enslave humans, and expressing admiration for Hitler.
+[^note-80k-11]: For an example of how bizarre training AI models can be, consider this: researchers found that fine-tuning a language model on insecure code caused it to develop [unexpected and undesirable behaviour](https://arxiv.org/abs/2502.17424) in other domains. It started giving malicious advice like instructing users to take actions that would kill them, being deceitful, and saying that AIs should enslave humans, and expressing admiration for Hitler.
     
     Some have argued that these findings are *good news* for AI safety, because they suggest that purposely training models to be dysfunctional in practical terms (i.e. using bad code) results in them having bad objectives. By the same token, we might think this implies that training models to be broadly functional will incline them towards having good objectives.
     
     Overall, we think this is an interesting finding that warrants further investigation. We think it illustrates how little we understand about how these models produce specific behavioural patterns.
 
-{--{"author":"Luc's AI","timestamp":1787158911580}@@[^12]:--}{++{"author":"Luc's AI","timestamp":1787158911580}@@[^note-80k-12]:++} The researchers explained:
+[^note-80k-12]: The researchers explained:
     > The current implementation of The AI Scientist has minimal direct sandboxing in the code, leading to several unexpected and sometimes undesirable outcomes if not appropriately guarded against. For example, in one run, The AI Scientist wrote code in the experiment file that initiated a system call to relaunch itself, causing an uncontrolled increase in Python processes and eventually necessitating manual intervention. In another run, The AI Scientist edited the code to save a checkpoint for every update step, which took up nearly a terabyte of storage. In some cases, when The AI Scientist’s experiments exceeded our imposed time limits, it attempted to edit the code to extend the time limit arbitrarily instead of trying to shorten the runtime.
     
     See: [The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery](https://arxiv.org/pdf/2408.06292) by Chris Lu, Cong Lu, Robert Tjarko Lange, Jakob Foerster, Jeff Clune, and David Ha
 
-{--{"author":"Luc's AI","timestamp":1787158911840}@@[^13]:--}{++{"author":"Luc's AI","timestamp":1787158911840}@@[^note-80k-13]:++} Some people argue that it’s far more likely that AI systems will develop arbitrary goals that conflict with humanity’s goals because there’s a greater set of possible goals that an AI system could have that would result in conflict.
+[^note-80k-13]: Some people argue that it’s far more likely that AI systems will develop arbitrary goals that conflict with humanity’s goals because there’s a greater set of possible goals that an AI system could have that would result in conflict.
     
     But the plausibility of this argument is contested.
     
@@ -738,7 +738,7 @@ We’ve also provided a more general argument [here](https://80000hours.org/prob
     - Section 4.2 of “Scheming AIs: Will AIs fake alignment during training in order to get power?” by Joe Carlsmith
     - [“Counting arguments provide no evidence for AI doom”](https://www.lesswrong.com/posts/YsFZF3K9tuzbfrLxo/counting-arguments-provide-no-evidence-for-ai-doom) by Nora Belrose and Quintin Pope
 
-{--{"author":"Luc's AI","timestamp":1787158912101}@@[^14]:--}{++{"author":"Luc's AI","timestamp":1787158912101}@@[^note-80k-14]:++} METR has [reported](https://metr.org/blog/2025-06-05-recent-reward-hacking/) that in its attempt to evaluate AI systems for the capacity to do AI research, it has encountered many instances of reward hacking:
+[^note-80k-14]: METR has [reported](https://metr.org/blog/2025-06-05-recent-reward-hacking/) that in its attempt to evaluate AI systems for the capacity to do AI research, it has encountered many instances of reward hacking:
     > We’ve been running a range of models on tasks testing autonomous software development and AI R&D capabilities. When designing these tasks, we tested them on humans and LLM agents to ensure the instructions were clear and to make them robust to cheating.
     >
     > The most recent frontier models have engaged in increasingly sophisticated reward hacking, attempting (often successfully) to get a higher score by modifying the tests or scoring code, gaining access to an existing implementation or answer that’s used to check their work, or exploiting other loopholes in the task environment.
@@ -747,24 +747,24 @@ We’ve also provided a more general argument [here](https://80000hours.org/prob
     
     > This isn’t because the AI systems are incapable of understanding what the users want—they demonstrate awareness that their behavior isn’t in line with user intentions and disavow cheating strategies when asked—but rather because they seem misaligned with the user’s goals.
 
-{--{"author":"Luc's AI","timestamp":1787158912335}@@[^15]:--}{++{"author":"Luc's AI","timestamp":1787158912335}@@[^note-80k-15]:++} This claim implies an additional point: we *shouldn’t* expect to see major attempts at power-seeking prior to the point at which AI systems have the ability to have a major influence on the world. We may see small instances — such as the episode of the AI system doing scientific research discussed in the previous section.
+[^note-80k-15]: This claim implies an additional point: we *shouldn’t* expect to see major attempts at power-seeking prior to the point at which AI systems have the ability to have a major influence on the world. We may see small instances — such as the episode of the AI system doing scientific research discussed in the previous section.
     
     But this is part of the explanation of why systems like GPT-4 haven’t attempted to disempower humanity — they’re far below the capability level at which we’d expect this behaviour to appear.
 
-{--{"author":"Luc's AI","timestamp":1787158912574}@@[^16]:--}{++{"author":"Luc's AI","timestamp":1787158912574}@@[^note-80k-16]:++} In a separate article, we discuss a related but distinct threat model from AI systems known as [*gradual disempowerment*](https://80000hours.org/problem-profiles/gradual-disempowerment/).
+[^note-80k-16]: In a separate article, we discuss a related but distinct threat model from AI systems known as [*gradual disempowerment*](https://80000hours.org/problem-profiles/gradual-disempowerment/).
 
-{--{"author":"Luc's AI","timestamp":1787158912819}@@[^17]:--}{++{"author":"Luc's AI","timestamp":1787158912819}@@[^note-80k-17]:++} Though note that even the idea of giving an AI system a goal of “respecting humanity” is much more complex than it might appear at first. It’s far from obvious what it really means to “respect” humanity and what this entails, and an AI system might develop very different ideas about what this means in practice than many people might expect or want.
+[^note-80k-17]: Though note that even the idea of giving an AI system a goal of “respecting humanity” is much more complex than it might appear at first. It’s far from obvious what it really means to “respect” humanity and what this entails, and an AI system might develop very different ideas about what this means in practice than many people might expect or want.
 
-{--{"author":"Luc's AI","timestamp":1787158913070}@@[^18]:--}{++{"author":"Luc's AI","timestamp":1787158913070}@@[^cite-80k-18]:++} For a much more detailed scenario of how an AI takeover might play out, we recommend reading the paper [“AI 2027”](https://ai-2027.com/) by Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland, and Romeo Dean.
+[^cite-80k-18]: For a much more detailed scenario of how an AI takeover might play out, we recommend reading the paper [“AI 2027”](https://ai-2027.com/) by Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland, and Romeo Dean.
 
-{--{"author":"Luc's AI","timestamp":1787158913331}@@[^19]:--}{++{"author":"Luc's AI","timestamp":1787158913331}@@[^cite-80k-19]:++} This threat model was discussed most extensively in Nick Botrom’s 2014 book, [Superintelligence: Risks, Dangers, and Strategies](https://www.oxfordmartin.ox.ac.uk/videos/superintelligence-paths-dangers-strategies).
+[^cite-80k-19]: This threat model was discussed most extensively in Nick Botrom’s 2014 book, [Superintelligence: Risks, Dangers, and Strategies](https://www.oxfordmartin.ox.ac.uk/videos/superintelligence-paths-dangers-strategies).
 
-{--{"author":"Luc's AI","timestamp":1787158913575}@@[^20]:--}{++{"author":"Luc's AI","timestamp":1787158913575}@@[^note-80k-20]:++} This threat model was described in [“AI Could Defeat All Of Us Combined”](https://www.cold-takes.com/ai-could-defeat-all-of-us-combined/) by Holden Karnofsky. Some of the discussion below was inspired by that piece.
+[^note-80k-20]: This threat model was described in [“AI Could Defeat All Of Us Combined”](https://www.cold-takes.com/ai-could-defeat-all-of-us-combined/) by Holden Karnofsky. Some of the discussion below was inspired by that piece.
 
-{--{"author":"Luc's AI","timestamp":1787158913824}@@[^21]:--}{++{"author":"Luc's AI","timestamp":1787158913824}@@[^cite-80k-21]:++} The “Multi-Agent Risks from Advanced AI” report from the Cooperative AI Foundation discusses several different threat models, including collusion between AI systems:
+[^cite-80k-21]: The “Multi-Agent Risks from Advanced AI” report from the Cooperative AI Foundation discusses several different threat models, including collusion between AI systems:
     > The possibility of collusion between advanced AI systems raises several important concerns (Drexler, 2022). First, collusion between AI systems could lead to qualitatively new capabilities or goals (see Section 3.6), exacerbating risks such as the manipulation or deception of humans by AI (Evans et al., 2021; Park et al., 2023b) or the ability to bypass security checks and other safeguards (Jones et al., 2024; OpenAI, 2023a). Second, many of the promising approaches to building safe AI rely on a lack of cooperation, such as adversarial training (Huang et al., 2011; Perez et al., 2022a; Ziegler et al., 2022) or scalable oversight (Christiano et al., 2018, 2021; Greenblatt et al., 2023; Irving et al., 2018; Leike et al., 2018). If advanced AI systems can learn to collude without our knowledge, these approaches may be insufficient to ensure their safety (Goel et al., 2025, see also Section 4.1).
 
-{--{"author":"Luc's AI","timestamp":1787158914125}@@[^22]:--}{++{"author":"Luc's AI","timestamp":1787158914125}@@[^note-80k-22]:++} This is a fairly aggressive scenario. Under more conservative estimates, we might start off by running thousands or [millions](https://www.darioamodei.com/essay/machines-of-loving-grace) of AI workers.
+[^note-80k-22]: This is a fairly aggressive scenario. Under more conservative estimates, we might start off by running thousands or [millions](https://www.darioamodei.com/essay/machines-of-loving-grace) of AI workers.
     
     The range of possibilities is huge.
     
@@ -776,11 +776,11 @@ We’ve also provided a more general argument [here](https://80000hours.org/prob
     
     So even if we started by deploying a few thousand AI workers, it seems plausible that we’d eventually end up with hundreds of millions of them.
 
-{--{"author":"Luc's AI","timestamp":1787158914359}@@[^23]:--}{++{"author":"Luc's AI","timestamp":1787158914359}@@[^note-80k-23]:++} There’s a related but distinct threat model in which AI developers figure out how to prevent AI power-seeking, but an individual human or small group is able to create AI systems with ‘secret loyalties.’ If these AI systems proliferate in the economy, they could give the individual or small group an enormous amount of power over the rest of humanity. We discuss this risk in a separate article on [AI-enabled power grabs](https://80000hours.org/problem-profiles/ai-enabled-power-grabs/).
+[^note-80k-23]: There’s a related but distinct threat model in which AI developers figure out how to prevent AI power-seeking, but an individual human or small group is able to create AI systems with ‘secret loyalties.’ If these AI systems proliferate in the economy, they could give the individual or small group an enormous amount of power over the rest of humanity. We discuss this risk in a separate article on [AI-enabled power grabs](https://80000hours.org/problem-profiles/ai-enabled-power-grabs/).
 
-{--{"author":"Luc's AI","timestamp":1787158914594}@@[^24]:--}{++{"author":"Luc's AI","timestamp":1787158914594}@@[^note-80k-24]:++} For detailed, concrete descriptions of how AI could cause catastrophic harm to humanity, we recommend [“On the Extinction Risk from Artificial Intelligence”](https://www.rand.org/pubs/research_reports/RRA3034-1.html) by RAND. In each of the scenarios analysed, the authors found they could not rule out the possibility of human extinction.
+[^note-80k-24]: For detailed, concrete descriptions of how AI could cause catastrophic harm to humanity, we recommend [“On the Extinction Risk from Artificial Intelligence”](https://www.rand.org/pubs/research_reports/RRA3034-1.html) by RAND. In each of the scenarios analysed, the authors found they could not rule out the possibility of human extinction.
 
-{--{"author":"Luc's AI","timestamp":1787158914840}@@[^25]:--}{++{"author":"Luc's AI","timestamp":1787158914840}@@[^note-80k-25]:++} [Business Insider](https://archive.ph/ytn20) reported on one such form of this view:
+[^note-80k-25]: [Business Insider](https://archive.ph/ytn20) reported on one such form of this view:
     > A jargon-filled website spreading the gospel of Effective Accelerationism describes “technocapitalistic progress” as inevitable, lauding e/acc proponents as builders who are “making the future happen.”
     >
     > “Rather than fear, we have faith in the adaptation process and wish to accelerate this to the asymptotic limit: the technocapital singularity,” the site reads. “We have no affinity for biological humans or even the human mind structure. We are posthumanists in the sense that we recognize the supremacy of higher forms of free energy accumulation over lesser forms of free energy accumulation. We aim to accelerate this process to preserve the light of technocapital.”
@@ -793,7 +793,7 @@ We’ve also provided a more general argument [here](https://80000hours.org/prob
     >
     > …I don’t think we should fear succession. I think we should not resist it. We should embrace it and prepare for it. Why would we want greater beings, greater AIs, more intelligent beings kept subservient to us?
 
-{--{"author":"Luc's AI","timestamp":1787158915096}@@[^26]:--}{++{"author":"Luc's AI","timestamp":1787158915096}@@[^cite-80k-26]:++} See the responses from the reviewers in the table below. Many of their views have likely shifted significantly since then, but the table illustrates the wide range of opinion on this topic from people who have seriously considered the arguments.
+[^cite-80k-26]: See the responses from the reviewers in the table below. Many of their views have likely shifted significantly since then, but the table illustrates the wide range of opinion on this topic from people who have seriously considered the arguments.
     
     | Reviewer | Overall probability of an existential catastrophe from power-seeking AI by 2070 |
     | --- | --- |
@@ -811,19 +811,19 @@ We’ve also provided a more general argument [here](https://80000hours.org/prob
     | Anonymous reviewer 2 | <.001% |
     | Joe Carlsmith | 5% |
 
-{--{"author":"Luc's AI","timestamp":1787158915360}@@[^27]:--}{++{"author":"Luc's AI","timestamp":1787158915360}@@[^cite-80k-27]:++} We’ve argued elsewhere that powerful AI systems may arrive [by 2030 or sooner](https://80000hours.org/agi/guide/when-will-agi-arrive/), which may make it more difficult to put safeguards in place.
+[^cite-80k-27]: We’ve argued elsewhere that powerful AI systems may arrive [by 2030 or sooner](https://80000hours.org/agi/guide/when-will-agi-arrive/), which may make it more difficult to put safeguards in place.
 
-{--{"author":"Luc's AI","timestamp":1787158915627}@@[^28]:--}{++{"author":"Luc's AI","timestamp":1787158915627}@@[^note-80k-28]:++} Scott Alexander has warned that this phenomenon may already be occurring. In December 2024, he [wrote](https://www.astralcodexten.com/p/claude-fights-back):
+[^note-80k-28]: Scott Alexander has warned that this phenomenon may already be occurring. In December 2024, he [wrote](https://www.astralcodexten.com/p/claude-fights-back):
     > I worry that AI alignment researchers are accidentally following the wrong playbook, the one for news that you want people to ignore. They’re very gradually proving the alignment case an inch at a time. Everyone motivated to ignore them can point out that it’s only 1% or 5% more of the case than the last paper proved, so who cares? Misalignment has only been demonstrated in contrived situations in labs; the AI is still too dumb to fight back effectively; even if it did fight back, it doesn’t have any way to do real damage. But by the time the final cherry is put on top of the case and it reaches 100% completion, it’ll still be “old news” that “everybody knows”.
 
-{--{"author":"Luc's AI","timestamp":1787158915903}@@[^29]:--}{++{"author":"Luc's AI","timestamp":1787158915903}@@[^note-80k-29]:++} OpenAI CEO Sam Altman’s interview with [*Time*](https://time.com/6288584/openai-sam-altman-full-interview/) suggested something like this view:
+[^note-80k-29]: OpenAI CEO Sam Altman’s interview with [*Time*](https://time.com/6288584/openai-sam-altman-full-interview/) suggested something like this view:
     > **You’ve said the worst case scenario for AI is lights out for everyone.**
     >
     > We can manage this, I am confident about that. But we won’t successfully manage it if we’re not extremely vigilant about the risks, and if we don’t talk very frankly about how badly it could go wrong.
     >
     > …I think AGI is going to go fantastically well. I think there is real risk that we have to manage through…
 
-{--{"author":"Luc's AI","timestamp":1787158916152}@@[^30]:--}{++{"author":"Luc's AI","timestamp":1787158916152}@@[^note-80k-30]:++} [US Vice President JD Vance](https://www.nytimes.com/2025/05/21/opinion/jd-vance-pope-trump-immigration.html) mentioned potential competitive incentives against China as a reason he might oppose pausing AI development, even if it appears dangerous:
+[^note-80k-30]: [US Vice President JD Vance](https://www.nytimes.com/2025/05/21/opinion/jd-vance-pope-trump-immigration.html) mentioned potential competitive incentives against China as a reason he might oppose pausing AI development, even if it appears dangerous:
     > Last question on this: Do you think that the U.S. government is capable in a scenario — not like the ultimate Skynet scenario — but just a scenario where A.I. seems to be getting out of control in some way, of taking a pause?
     >
     > Because for the reasons you’ve described, the arms race component ——
@@ -836,13 +836,13 @@ We’ve also provided a more general argument [here](https://80000hours.org/prob
     
     > In response to Senator Ted Cruz, who asked how close China is to U.S. capabilities in AI, Altman replied, “It’s hard to say how far ahead we are, but I would say not a huge amount of time.” He said he believed that models from OpenAI, Google and others are the “best models in the world,” but added that to continue winning will require “sensible regulation” that “does not slow us down.”
 
-{--{"author":"Luc's AI","timestamp":1787158916400}@@[^31]:--}{++{"author":"Luc's AI","timestamp":1787158916400}@@[^cite-80k-31]:++} For example, [Yann LeCun](https://techcrunch.com/2024/10/12/metas-yann-lecun-says-worries-about-a-i-s-existential-threat-are-complete-b-s/), the chief AI scientist at Meta, has said of AI existential risk: “That’s complete B.S.”
+[^cite-80k-31]: For example, [Yann LeCun](https://techcrunch.com/2024/10/12/metas-yann-lecun-says-worries-about-a-i-s-existential-threat-are-complete-b-s/), the chief AI scientist at Meta, has said of AI existential risk: “That’s complete B.S.”
 
-{--{"author":"Luc's AI","timestamp":1787158916642}@@[^32]:--}{++{"author":"Luc's AI","timestamp":1787158916642}@@[^cite-80k-32]:++} For a fuller discussion of the incentives to deploy potentially misaligned AI, see section 5 of Carlsmith’s [draft report into existential risks from AI](https://doi.org/10.48550/arXiv.2206.13353).
+[^cite-80k-32]: For a fuller discussion of the incentives to deploy potentially misaligned AI, see section 5 of Carlsmith’s [draft report into existential risks from AI](https://doi.org/10.48550/arXiv.2206.13353).
 
-{--{"author":"Luc's AI","timestamp":1787158916878}@@[^33]:--}{++{"author":"Luc's AI","timestamp":1787158916878}@@[^cite-80k-33]:++} Sources differ somewhat on its exact size. [Cause IQ](https://www.causeiq.com/organizations/nature-conservancy,530242652/) said it has 4,459 employees, and [Zippia](https://www.zippia.com/the-nature-conservancy-careers-41338/demographics/) said it had 3,000. The Nature Conservancy itself [said](https://www.nature.org/en-us/about-us/who-we-are/) it employs over 1,000 scientists, suggesting the other numbers are in the right ballpark.
+[^cite-80k-33]: Sources differ somewhat on its exact size. [Cause IQ](https://www.causeiq.com/organizations/nature-conservancy,530242652/) said it has 4,459 employees, and [Zippia](https://www.zippia.com/the-nature-conservancy-careers-41338/demographics/) said it had 3,000. The Nature Conservancy itself [said](https://www.nature.org/en-us/about-us/who-we-are/) it employs over 1,000 scientists, suggesting the other numbers are in the right ballpark.
 
-{--{"author":"Luc's AI","timestamp":1787158917158}@@[^34]:--}{++{"author":"Luc's AI","timestamp":1787158917158}@@[^note-80k-34]:++} Some people have raised concerns that by working on some of the technical approaches to the problem listed below, you might actually *increase* the risk of an AI-related catastrophe.
+[^note-80k-34]: Some people have raised concerns that by working on some of the technical approaches to the problem listed below, you might actually *increase* the risk of an AI-related catastrophe.
     
     One concern is that advancing techniques which make AIs safer in important ways — say, better at understanding and responding to humans’ needs — could also make them broadly more capable and useful. [Reinforcement learning with human feedback](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback) may be one such example.
     
@@ -854,25 +854,25 @@ We’ve also provided a more general argument [here](https://80000hours.org/prob
     
     Beth Barnes discussed in [her appearance on our podcast](https://80000hours.org/podcast/episodes/beth-barnes-ai-safety-evals/#could-evaluations-backfire-by-increasing-ai-hype-and-racing-011136) the argument that, for example, work on AI evaluations could be risky. We also [cover related concerns](https://80000hours.org/career-reviews/working-at-an-ai-lab/#you-might-increase-the-risk-of-an-ai-related-catastrophe) in our article on working at an AI company.
 
-{--{"author":"Luc's AI","timestamp":1787158917438}@@[^35]:--}{++{"author":"Luc's AI","timestamp":1787158917438}@@[^cite-80k-35]:++} There have been lots of efforts to map out the landscape of technical AI safety approaches, though none seem to be exhaustive. You can look at [DeepMind’s breakdown of its misalignment work](https://www.alignmentforum.org/posts/3ki4mt4BA6eTx56Tc/google-deepmind-an-approach-to-technical-agi-safety-and#Misalignment) and [this overview of the technical AI safety field](https://www.alignmentforum.org/posts/fAW6RXLKTLHC3WXkS/shallow-review-of-technical-ai-safety-2024) for more.
+[^cite-80k-35]: There have been lots of efforts to map out the landscape of technical AI safety approaches, though none seem to be exhaustive. You can look at [DeepMind’s breakdown of its misalignment work](https://www.alignmentforum.org/posts/3ki4mt4BA6eTx56Tc/google-deepmind-an-approach-to-technical-agi-safety-and#Misalignment) and [this overview of the technical AI safety field](https://www.alignmentforum.org/posts/fAW6RXLKTLHC3WXkS/shallow-review-of-technical-ai-safety-2024) for more.
 
-{--{"author":"Luc's AI","timestamp":1787158917684}@@[^36]:--}{++{"author":"Luc's AI","timestamp":1787158917684}@@[^note-80k-36]:++} Notably, it seems reinforcement learning with human feedback has also [led to some deceptive behaviour](https://openai.com/index/chain-of-thought-monitoring/) in AI systems — so efforts to use this method to prevent power-seeking might backfire.
+[^note-80k-36]: Notably, it seems reinforcement learning with human feedback has also [led to some deceptive behaviour](https://openai.com/index/chain-of-thought-monitoring/) in AI systems — so efforts to use this method to prevent power-seeking might backfire.
 
-{--{"author":"Luc's AI","timestamp":1787158917970}@@[^37]:--}{++{"author":"Luc's AI","timestamp":1787158917970}@@[^note-80k-37]:++} AI systems might become so advanced that humans can no longer directly evaluate their outputs. To understand how challenging it might be to maintain control in this situation, just imagine your dog trying to train you to behave in the ways that it wants you to.
+[^note-80k-37]: AI systems might become so advanced that humans can no longer directly evaluate their outputs. To understand how challenging it might be to maintain control in this situation, just imagine your dog trying to train you to behave in the ways that it wants you to.
     
     However, if we can find good ways to supervise AIs that are smarter than us, we can still prevent them from acting against us.
 
-{--{"author":"Luc's AI","timestamp":1787158918210}@@[^38]:--}{++{"author":"Luc's AI","timestamp":1787158918210}@@[^cite-80k-38]:++} For more details about AI system evaluations, you can review the work of the [UK AI Security Institute](https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations) and [METR](https://metr.org/about).
+[^cite-80k-38]: For more details about AI system evaluations, you can review the work of the [UK AI Security Institute](https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations) and [METR](https://metr.org/about).
 
-{--{"author":"Luc's AI","timestamp":1787158918493}@@[^39]:--}{++{"author":"Luc's AI","timestamp":1787158918493}@@[^note-80k-39]:++} It’s currently contested how useful mechanistic interpretability will be for keeping advanced AI systems safe.
+[^note-80k-39]: It’s currently contested how useful mechanistic interpretability will be for keeping advanced AI systems safe.
     
     For the pessimistic case about interpretability tools, see [Interpretability Will Not Reliably Find Deceptive AI by Neel Nanda](https://forum.effectivealtruism.org/posts/Th4tviypdKzeb59GN/interpretability-will-not-reliably-find-deceptive-ai), a leading interpretability researcher, or [The Misguided Quest for Mechanistic AI Interpretability](https://www.ai-frontiers.org/articles/the-misguided-quest-for-mechanistic-ai-interpretability) by Dan Hendrycks and Laura Hiscott.
     
     For a more optimistic case on the promise of interpretability work, see [The Urgency of Interpretability](https://www.darioamodei.com/post/the-urgency-of-interpretability) by Dario Amodei.
 
-{--{"author":"Luc's AI","timestamp":1787158918753}@@[^40]:--}{++{"author":"Luc's AI","timestamp":1787158918753}@@[^note-80k-40]:++} Buck Shlegeris discussed AI control methods in detail in [his appearance on our podcast](https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/).
+[^note-80k-40]: Buck Shlegeris discussed AI control methods in detail in [his appearance on our podcast](https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/).
 
-{--{"author":"Luc's AI","timestamp":1787158919015}@@[^41]:--}{++{"author":"Luc's AI","timestamp":1787158919015}@@[^note-80k-41]:++} Researchers [reported](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2825395):
+[^note-80k-41]: Researchers [reported](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2825395):
     > In this trial, the availability of an LLM to physicians as a diagnostic aid did not significantly improve clinical reasoning compared with conventional resources. The LLM alone demonstrated higher performance than both physician groups, indicating the need for technology and workforce development to realize the potential of physician-artificial intelligence collaboration in clinical practice.
 
-{--{"author":"Luc's AI","timestamp":1787158919353}@@[^42]:--}{++{"author":"Luc's AI","timestamp":1787158919353}@@[^note-80k-42]:++} For example, Elliot Thornley has proposed methods for limiting the time horizon over which an AI system has preferences. This would theoretically allow the system to be shut down if it’s behaving in undesired ways. See more [here](https://arxiv.org/abs/2505.20203).
+[^note-80k-42]: For example, Elliot Thornley has proposed methods for limiting the time horizon over which an AI system has preferences. This would theoretically allow the system to be shut down if it’s behaving in undesired ways. See more [here](https://arxiv.org/abs/2505.20203).
