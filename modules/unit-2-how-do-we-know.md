@@ -10,9 +10,9 @@ id: 'b0194d96-a8ed-4dd7-bf98-9b4cabc319df'
 source:: [[../Lenses/U2 - Cold Open]]
 
 # Lens: Opening frame
-id:: 99ce0fb8-e37d-4a3e-b1de-cecee69182d0{++{"author":"Luc's AI","timestamp":1787134591892}@@
+id:: 99ce0fb8-e37d-4a3e-b1de-cecee69182d0
 tldr:: Forecasting methods do not guarantee accuracy; they make your reasoning decomposable, evidence-linked, and testable when the future is uncertain.
-summary_for_tutor:: Introduces Unit 2 from the poor track record of AI prediction. It previews evidence on forecasting accuracy, decomposition, reference classes, extrapolation, nonlinear interactions, aggregation with shared evidence, and reflexive forecasts, while explaining that assessments require applying methods to unfamiliar domains.++}
+summary_for_tutor:: Introduces Unit 2 from the poor track record of AI prediction. It previews evidence on forecasting accuracy, decomposition, reference classes, extrapolation, nonlinear interactions, aggregation with shared evidence, and reflexive forecasts, while explaining that assessments require applying methods to unfamiliar domains.
 #### Text
 content::
 \## What this unit is for
@@ -99,9 +99,9 @@ source:: [[../Lenses/U2 - Going Further On Timelines]]
 optional:: true
 
 # Lens: Closing
-id:: 8a8c1976-538f-4cd9-b66b-2e95726ed21c{++{"author":"Luc's AI","timestamp":1787134592130}@@
+id:: 8a8c1976-538f-4cd9-b66b-2e95726ed21c
 tldr:: A forecast becomes useful when every part is checkable: its evidence, denominator, curve assumptions, interactions, and dependence on shared information.
-summary_for_tutor:: Closes Unit 2 by consolidating four practices: decompose into evidence-settled parts, specify reference-class denominators, expose curve and interaction assumptions, and weight agreement by evidence independence. It then asks learners to compare their Cold Open answers with later transfer tests and diagnose whether their reasoning, not just their vocabulary, changed.++}
+summary_for_tutor:: Closes Unit 2 by consolidating four practices: decompose into evidence-settled parts, specify reference-class denominators, expose curve and interaction assumptions, and weight agreement by evidence independence. It then asks learners to compare their Cold Open answers with later transfer tests and diagnose whether their reasoning, not just their vocabulary, changed.
 #### Text
 content::
 \## Where that leaves you
