@@ -102,7 +102,7 @@ Let's talk a bit about the sheer size of Llama 3.1 405B.
 
 For Llama to get to grips with a text of 1,000 words (or rather 1,000 tokens), it takes about 810 trillion computations.[#{--{"author":"Luc's AI","timestamp":1787132976235}@@](#ftnt74)--}{++{"author":"Luc's AI","timestamp":1787132976235}@@](https://ifanyonebuildsit.com/2/a-full-description-of-an-llm#ftnt74)++}
 
-If 810 trillion seems like a lot, keep in mind that most of Llama's 405 billion parameters get used in *some* arithmetical operation *every* time *any* single word gets processed.[\*\*](#ftnt75)
+If 810 trillion seems like a lot, keep in mind that most of Llama's 405 billion parameters get used in *some* arithmetical operation *every* time *any* single word gets processed.[\*\*{--{"author":"Luc's AI","timestamp":1787132977770}@@](#ftnt75)--}{++{"author":"Luc's AI","timestamp":1787132977770}@@](https://ifanyonebuildsit.com/2/a-full-description-of-an-llm#ftnt75)++}
 
 If Llama is being *trained* on a batch of 1,000 tokens, then each of the 1,000 tokens will be compared against the following actual word, and the losses propagated by gradient descent, to determine how tweaking all 405 billion shared parameters would have changed the probabilities assigned to the true answers across all cases. This will take many more computations, and many more numbers.
 
@@ -110,7 +110,7 @@ In the course of training Llama's 405 billion parameters on 15.6 trillion tokens
 
 If instead Llama is done training and is being run in *inference mode* (i.e., if it is generating novel text, such as in a chat with a user)*,* the probabilities will only get computed above the very last token, as if predicting what the next word *would* be if the AI were reading text produced by humans.
 
-Then, a human-written code skeleton surrounding Llama will pick what Llama thinks is the most likely answer.[††](#ftnt76)
+Then, a human-written code skeleton surrounding Llama will pick what Llama thinks is the most likely answer.[††{--{"author":"Luc's AI","timestamp":1787132979162}@@](#ftnt76)--}{++{"author":"Luc's AI","timestamp":1787132979162}@@](https://ifanyonebuildsit.com/2/a-full-description-of-an-llm#ftnt76)++}
 
 And that is how to get a computer to start talking to you! Not quite as intelligently as the commercial AIs in 2025, but still talking sort of like a person.
 
@@ -218,8 +218,8 @@ This allows a query to say, "Hey, I'd like to look at the word that's right next
 
 [‖{--{"author":"Luc's AI","timestamp":1787132975596}@@](#ftnt73_ref)--}{++{"author":"Luc's AI","timestamp":1787132975596}@@](https://ifanyonebuildsit.com/2/a-full-description-of-an-llm#ftnt73_ref)++} The choice of how much randomness to use when picking a token is, roughly speaking, called the "temperature" at which the tokens are produced.
 
-[#](#ftnt74_ref) Technically "floating point operations," the main kind of mathematical computation done by computers.
+[#{--{"author":"Luc's AI","timestamp":1787132976973}@@](#ftnt74_ref)--}{++{"author":"Luc's AI","timestamp":1787132976973}@@](https://ifanyonebuildsit.com/2/a-full-description-of-an-llm#ftnt74_ref)++} Technically "floating point operations," the main kind of mathematical computation done by computers.
 
-[\*\*](#ftnt75_ref) The exception to this rule is the 2.1-billion-parameter dictionary of 128,256 words; only 16,384 of those parameters get used per token. And more modern architectures for large LLMs try to only use a quarter or an eighth of their parameters to process each token; Llama 3.1 405B was one of the last large models not to try that.
+[\*\*{--{"author":"Luc's AI","timestamp":1787132978530}@@](#ftnt75_ref)--}{++{"author":"Luc's AI","timestamp":1787132978530}@@](https://ifanyonebuildsit.com/2/a-full-description-of-an-llm#ftnt75_ref)++} The exception to this rule is the 2.1-billion-parameter dictionary of 128,256 words; only 16,384 of those parameters get used per token. And more modern architectures for large LLMs try to only use a quarter or an eighth of their parameters to process each token; Llama 3.1 405B was one of the last large models not to try that.
 
-[††](#ftnt76_ref) Or, for a little spice, the skeleton often has a chance of picking a word that Llama assigns a little less probability to.
+[††{--{"author":"Luc's AI","timestamp":1787132979866}@@](#ftnt76_ref)--}{++{"author":"Luc's AI","timestamp":1787132979866}@@](https://ifanyonebuildsit.com/2/a-full-description-of-an-llm#ftnt76_ref)++} Or, for a little spice, the skeleton often has a chance of picking a word that Llama assigns a little less probability to.

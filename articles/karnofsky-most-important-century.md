@@ -50,7 +50,7 @@ Many people find the "most important century" claim too "wild": a radical future
 
 These longer time frames would put us in a _less_ wild position than if we're in the "most important century." But in the scheme of things, **even if galaxy-wide expansion begins 100,000 years from now, that still means we live in an extraordinary era** - the tiny sliver of time during which the galaxy goes from nearly lifeless to largely populated. It means that out of a staggering number of persons who will ever exist, we're among the first. And that out of hundreds of billions of stars in our galaxy, ours will produce the beings that fill it.
 
-![Image 6](https://www.cold-takes.com/content/images/2021/09/fermi-agnostic.png)
+{--{"author":"Luc's AI","timestamp":1787132965645}@@![Image 6](https://www.cold-takes.com/content/images/2021/09/fermi-agnostic.png)--}{++{"author":"Luc's AI","timestamp":1787132965645}@@![](https://www.cold-takes.com/content/images/2021/09/fermi-agnostic.png)++}
 
 More at [All Possible Views About Humanity's Future Are Wild](https://www.cold-takes.com/all-possible-views-about-humanitys-future-are-wild/)
 
@@ -95,7 +95,7 @@ Standard economic growth models imply that **any technology that could fully aut
 
 This loop would not be unprecedented. I think it is in some sense the "default" way the economy operates - for most of economic history up until a couple hundred years ago.
 
-![Image 9](https://www.cold-takes.com/content/images/size/w1000/2021/06/duplicatorfeedbackloop-original-2.png)
+{--{"author":"Luc's AI","timestamp":1787132965904}@@![Image 9](https://www.cold-takes.com/content/images/size/w1000/2021/06/duplicatorfeedbackloop-original-2.png)--}{++{"author":"Luc's AI","timestamp":1787132965904}@@![](https://www.cold-takes.com/content/images/size/w1000/2021/06/duplicatorfeedbackloop-original-2.png)++}
 
 ![Image 10: 8 ideas, each 1.5x'ing the amount of food resources -> explosion from 8 units to 205 units of food, hence 205 people and 205 ideas ... ](https://www.cold-takes.com/content/images/size/w1000/2021/06/duplicatorfeedbackloop-original-6.png)
 
@@ -109,9 +109,9 @@ Today's economy: more resources -> ~~more~~ richer people -> same pace of ideas 
 
 The feedback loop could come back if some other technology restored the "more resources -> more ideas" dynamic. One such technology could be the right kind of AI: what I call PASTA, or Process for Automating Scientific and Technological Advancement.
 
-![Image 12](https://www.cold-takes.com/content/images/size/w1000/2021/09/pasta-stills-1.png)
+{--{"author":"Luc's AI","timestamp":1787132966154}@@![Image 12](https://www.cold-takes.com/content/images/size/w1000/2021/09/pasta-stills-1.png)--}{++{"author":"Luc's AI","timestamp":1787132966154}@@![](https://www.cold-takes.com/content/images/size/w1000/2021/09/pasta-stills-1.png)++}
 
-![Image 13](https://www.cold-takes.com/content/images/size/w1000/2021/09/pasta-stills-3.png)
+{--{"author":"Luc's AI","timestamp":1787132966407}@@![Image 13](https://www.cold-takes.com/content/images/size/w1000/2021/09/pasta-stills-3.png)--}{++{"author":"Luc's AI","timestamp":1787132966407}@@![](https://www.cold-takes.com/content/images/size/w1000/2021/09/pasta-stills-3.png)++}
 
 Possible future: more resources -> more AIs -> more ideas -> more resources ...
 
