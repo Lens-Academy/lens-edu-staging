@@ -51,11 +51,11 @@ And Elon Musk, the head of xAI, is on the record [saying](https://www.techradar.
 
 > I think by the time we are reactive in AI regulation, it'll be too late. AI is a fundamental risk to the existence of human civilization.
 
-Don't get us wrong; we think that Amodei's "10 to 25 percent" chance is ridiculously *optimistic*, given how hard the problem is and the fact that humans [can't learn by trial and error this time](/10/a-closer-look-at-before-and-after). But even so, his numbers are *insane*.
+Don't get us wrong; we think that Amodei's "10 to 25 percent" chance is ridiculously *optimistic*, given how hard the problem is and the fact that humans [can't learn by trial and error this time]({--{"author":"Luc's AI","timestamp":1787152030526}@@/10/a-closer-look-at-before-and-after--}{++{"author":"Luc's AI","timestamp":1787152030526}@@https://ifanyonebuildsit.com/10/a-closer-look-at-before-and-after++}). But even so, his numbers are *insane*.
 
 Serious safety-critical engineering projects look fundamentally unlike the operations of AI labs. Serious initiatives like NASA, the Manhattan Project, or air traffic control have a lot of knowledge of *exactly* what's going on inside the systems they manage, and they do detailed postmortems of every failure. They treat surprises and oddities as big deals, because they know that catastrophic failures are often made of lots of minor malfunctions that string together in just the wrong way.
 
-Meanwhile, AIs are emitting [an ever-growing array of warning signs](/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-steer-in-alien-directions-that-only-mostly-coincide-with-helpfulness), and the labs are just chugging on ahead saying that everything will *probably* turn out fine, somehow or other.
+Meanwhile, AIs are emitting [an ever-growing array of warning signs]({--{"author":"Luc's AI","timestamp":1787152031887}@@/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-steer-in-alien-directions-that-only-mostly-coincide-with-helpfulness--}{++{"author":"Luc's AI","timestamp":1787152031887}@@https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-steer-in-alien-directions-that-only-mostly-coincide-with-helpfulness++}), and the labs are just chugging on ahead saying that everything will *probably* turn out fine, somehow or other.
 
 They're not even trying to *fake* the level of respect that air traffic control has for a real safety challenge; they just toss out cheerful guarantees like "[GPT-4 is our most aligned model yet!](https://x.com/sama/status/1635687853324902401)"
 
