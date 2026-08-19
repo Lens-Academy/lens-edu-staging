@@ -429,11 +429,11 @@ The [**frontal lobe**](https://waitbutwhy.com/wp-content/uploads/2018/04/Frontal
 
 As if that’s not enough to worry about, the frontal lobe is also in charge of your body’s movement. The top strip of the frontal lobe is your **primary motor cortex.**[15](#footnote2-15-6120)
 
-[![](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Motor-Cortex-Labeled-713x550.png)](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Motor-Cortex-Labeled-713x550.png)
+{--{"author":"Luc's AI","timestamp":1787132665595}@@[![](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Motor-Cortex-Labeled-713x550.png)](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Motor-Cortex-Labeled-713x550.png)--}{++{"author":"Luc's AI","timestamp":1787132665595}@@[![](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Motor-Cortex-Labeled.png)](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Motor-Cortex-Labeled.png)++}
 
 Then there’s the [**parietal lobe**](https://waitbutwhy.com/wp-content/uploads/2018/04/Parietal_lobe_animation.gif) which, among other things, controls your sense of touch, particularly in the **primary somatosensory cortex**, the strip right next to the primary motor cortex.[16](#footnote2-16-6120)
 
-[![](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Other-Somatosenory-Cortex-Areas-695x550.png)](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Other-Somatosenory-Cortex-Areas-695x550.png)
+{--{"author":"Luc's AI","timestamp":1787132665883}@@[![](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Other-Somatosenory-Cortex-Areas-695x550.png)](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Other-Somatosenory-Cortex-Areas-695x550.png)--}{++{"author":"Luc's AI","timestamp":1787132665883}@@[![](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Other-Somatosenory-Cortex-Areas.png)](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Other-Somatosenory-Cortex-Areas.png)++}
 
 The motor and somatosensory cortices are fun because they’re well-mapped. Neuroscientists know exactly which part of each strip connects to each part of your body. Which leads us to the creepiest diagram of this post: the _homunculus_.
 
@@ -753,7 +753,8 @@ The project entails [slicing a human brain](http://www.nytimes.com/2010/12/28/sc
 
 Anyway, in addition to producing some [gorgeous images](http://www.humanconnectomeproject.org/gallery/) of the “ribbon” formations axons with similar functions often form inside white matter, like—
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/White-Matter-Fibers-HCP-Dataset-side-view-720x594.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/White-Matter-Fibers-HCP-Dataset-side-view-720x594.jpg)
+{++{"author":"Luc's AI","timestamp":1787132666123}@@%% validator-ignore-next-line --code article.image-low-resolution --reason AI-couldn't-find-higher-resolution-image %%
+++}[![](https://waitbutwhy.com/wp-content/uploads/2018/04/White-Matter-Fibers-HCP-Dataset-side-view-720x594.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/White-Matter-Fibers-HCP-Dataset-side-view-720x594.jpg)
 
 —the connectome project has helped people visualize just how packed the brain is with all this stuff. Here’s a breakdown of all the different things going on in one tiny snippet of mouse brain (and this doesn’t even include the blood vessels):[30](#footnote2-30-6120)
 
@@ -841,7 +842,8 @@ The even bigger problem is temporal resolution. fMRI tracks blood flow, which is
 
 Dating back almost a century, EEG (electroencephalography) puts an array of electrodes on your head. You know, this whole thing:[33](#footnote2-33-6120)
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/EEG-cap-262x300.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/EEG-cap-262x300.jpg)
+{++{"author":"Luc's AI","timestamp":1787132666418}@@%% validator-ignore-next-line --code article.image-low-resolution --reason AI-couldn't-find-higher-resolution-image %%
+++}[![](https://waitbutwhy.com/wp-content/uploads/2018/04/EEG-cap-262x300.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/EEG-cap-262x300.jpg)
 
 EEG is definitely technology that will look hilariously primitive to a 2050 person, but for now, it’s one of the only tools that can be used with BMIs that’s totally non-invasive. EEGs record electrical activity in different regions of the brain, displaying the findings like this:[34](#footnote2-34-6120)
 
@@ -1275,7 +1277,8 @@ If everyone you know in 40 years has electronics in their skull, it’ll be beca
 
 A team at the University of Illinois is developing an interface made of silk:[46](#footnote2-46-6120)
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain_silk_2s-660x440.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/brain_silk_2s-660x440.jpg)
+{++{"author":"Luc's AI","timestamp":1787132666669}@@%% validator-ignore-next-line --code article.image-low-resolution --reason AI-couldn't-find-higher-resolution-image %%
+++}[![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain_silk_2s-660x440.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/brain_silk_2s-660x440.jpg)
 
 Silk can be rolled up into a thin bundle and inserted into the brain relatively non-invasively. There, it would theoretically spread out around the brain and melt into the contours like shrink wrap. On the silk would be flexible silicon transistor arrays.
 
