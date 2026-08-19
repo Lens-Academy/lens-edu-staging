@@ -1,7 +1,14 @@
 ---
 title: "Why AI alignment could be hard with modern deep learning"
 source_url: "https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/"
-audio-url: "https://www.buzzsprout.com/1851795/episodes/9229954-why-ai-alignment-could-be-hard-with-modern-deep-learning-guest-post-by-ajeya-cotra.mp3"
+{++{"author":"Luc's AI","timestamp":1787163124733}@@llm_reviewed: 2026-08-19
+llm_review_version: "article-qc-v1"
+llm_review_model: "gpt-5"
+llm_review_digest: "sha256:cc46970bf66af451993169f44081a67dab3bd193e63abc24003ae336849f241b"
+llm_review_source_digest: "sha256:ab5a10c1f771ff01ed2bfa1eacb1e4cfb0f8d5470e7bde2e253b01050c8da356"
+llm_review_source_fetched: 2026-08-19
+llm_review_source_kind: "live"
+++}audio-url: "https://www.buzzsprout.com/1851795/episodes/9229954-why-ai-alignment-could-be-hard-with-modern-deep-learning-guest-post-by-ajeya-cotra.mp3"
 author:
   - "Ajeya Cotra"
 published: 2021-09-21
@@ -32,7 +39,7 @@ And just like human employees can have many different motivations for doing thei
 
 We’re already starting to see preliminary evidence that models sometimes pursue goals their designers didn’t intend ([here](http://lukemuehlhauser.com/treacherous-turns-in-the-wild/) and [here](https://arxiv.org/abs/2105.14111)). Right now, this isn’t dangerous. But if it continues to happen with very powerful models, we may end up in a situation where most of the important decisions -- including what sort of [galaxy-scale civilization](https://www.cold-takes.com/all-possible-views-about-humanitys-future-are-wild/) to aim for -- are made by models without much regard for what humans value.
 
-The **deep learning alignment problem is the problem of ensuring that advanced deep learning models don’t pursue dangerous goals**.In the rest of this post, I will:
+The **deep learning alignment problem is the problem of ensuring that advanced deep learning models don’t pursue dangerous {--{"author":"Luc's AI","timestamp":1787163124040}@@goals**.In--}{++{"author":"Luc's AI","timestamp":1787163124040}@@goals**. In++} the rest of this post, I will:
 
 - Build on the “hiring” analogy to illustrate how alignment could be difficult if deep learning models are more capable than humans ([more](#analogy-the-young-businessperson)).
 - Explain what the deep learning alignment problem is with a bit more technical detail ([more](#how-alignment-issues-could-arise-with-deep-learnin)).
@@ -125,7 +132,7 @@ We don’t really know why, but for some reason it’s “easier” for SGD to f
 
 ![](https://www.cold-takes.com/content/images/2021/09/Alignment-image-5-SGD-is-stuck.png)
 
-If the programmers were expecting to get out the shape-recognizing model, they may consider this to be a failure.But it’s important to recognize that there would be no logically-deducible error or failure going on if we got the red-recognizing model instead of the shape-recognizing model. It’s just a matter of the ML process we set up having different starting assumptions than we have in our heads. We can’t prove that the human assumptions are correct.
+If the programmers were expecting to get out the shape-recognizing model, they may consider this to be a {--{"author":"Luc's AI","timestamp":1787163124305}@@failure.But--}{++{"author":"Luc's AI","timestamp":1787163124305}@@failure. But++} it’s important to recognize that there would be no logically-deducible error or failure going on if we got the red-recognizing model instead of the shape-recognizing model. It’s just a matter of the ML process we set up having different starting assumptions than we have in our heads. We can’t prove that the human assumptions are correct.
 
 This sort of thing happens often in modern deep learning. We reward models for getting good performance, hoping that means they’ll pick up on the patterns that seem important to us. But often they instead get strong performance by picking up on totally different patterns that seem less relevant (or maybe even meaningless) to us.
 
@@ -234,4 +241,4 @@ If we don’t make further progress on this problem, then [over the coming decad
 
 And all this could happen [blindingly fast](https://www.cold-takes.com/the-duplicator/) relative to the pace of change we’ve gotten used to, meaning we wouldn’t have much time to correct course once things start to go off the rails. **This means we may need to develop techniques to ensure deep learning models won’t have dangerous goals, *before* they are powerful enough to be transformative**.
 
-**Next in series:**[Forecasting transformative AI: what's the burden of proof?](https://www.cold-takes.com/forecasting-transformative-ai-whats-the-burden-of-proof/)
+**Next in {--{"author":"Luc's AI","timestamp":1787163124523}@@series:**[Forecasting--}{++{"author":"Luc's AI","timestamp":1787163124523}@@series:** [Forecasting++} transformative AI: what's the burden of proof?](https://www.cold-takes.com/forecasting-transformative-ai-whats-the-burden-of-proof/)
