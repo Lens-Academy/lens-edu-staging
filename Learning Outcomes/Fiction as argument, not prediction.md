@@ -10,7 +10,14 @@ tags:
   - optional
 domain: "[[../Domains/Strategy]]"
 stage: beginner
----
+{++{"author":"AI","timestamp":1787141576803}@@eval-results:
+  content-sha: ae70fd93
+  date: 2026-08-19
+  model: claude-opus-5
+  suite-version: 1
+  checks: {A1: pass, A2: fail, B1: fail, C1: fail, C2: pass, C3: pass}
+  notes: {A2: "capability is reconstructing what one specific book claims about its own story", B1: "'the Coda' and 'the story' are load-bearing, unparseable without the reading", C1: "1-5 graded ladder, not binary pass/fail"}
+++}---
 
 ## Test:
 id:: 0d32640e-9e23-44c8-8dea-dc1f67564986
