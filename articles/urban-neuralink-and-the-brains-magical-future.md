@@ -2072,61 +2072,61 @@ To support Wait But Why, visit our **[Patreon page](https://patreon.com/waitbutw
      
 {--{"author":"Luc's AI","timestamp":1787140264872}@@19.  --}{++{"author":"Luc's AI","timestamp":1787140264872}@@[^source-note-19]: ++}[Image source](http://www.mind.ilstu.edu/curriculum/neurons_intro/neurons_intro.php){--{"author":"Luc's AI","timestamp":1787140264872}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-19-6120)--}
      
-20.  [GIF source](http://www.lab.anhb.uwa.edu.au/mb140/corepages/nervous/nervous.htm) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-20-6120)
+{--{"author":"Luc's AI","timestamp":1787140265157}@@20.  --}{++{"author":"Luc's AI","timestamp":1787140265157}@@[^source-note-20]: ++}[GIF source](http://www.lab.anhb.uwa.edu.au/mb140/corepages/nervous/nervous.htm){--{"author":"Luc's AI","timestamp":1787140265157}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-20-6120)--}
      
-21.  [GIF source](https://en.wikipedia.org/wiki/Myelin) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-21-6120)
+{--{"author":"Luc's AI","timestamp":1787140265418}@@21.  --}{++{"author":"Luc's AI","timestamp":1787140265418}@@[^source-note-21]: ++}[GIF source](https://en.wikipedia.org/wiki/Myelin){--{"author":"Luc's AI","timestamp":1787140265418}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-21-6120)--}
      
-22.  [Image source](http://www.autodidacts.io/openbci-background-on-the-brain-regions-lobes-and-terms-for-location/) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-22-6120)
+{--{"author":"Luc's AI","timestamp":1787140265710}@@22.  --}{++{"author":"Luc's AI","timestamp":1787140265710}@@[^source-note-22]: ++}[Image source](http://www.autodidacts.io/openbci-background-on-the-brain-regions-lobes-and-terms-for-location/){--{"author":"Luc's AI","timestamp":1787140265710}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-22-6120)--}
      
-23.  [Image source](https://www.khanacademy.org/science/biology/human-biology/neuron-nervous-system/a/the-synapse) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-23-6120)
+{--{"author":"Luc's AI","timestamp":1787140265989}@@23.  --}{++{"author":"Luc's AI","timestamp":1787140265989}@@[^source-note-23]: ++}[Image source](https://www.khanacademy.org/science/biology/human-biology/neuron-nervous-system/a/the-synapse){--{"author":"Luc's AI","timestamp":1787140265989}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-23-6120)--}
      
-24.  [Image source](https://www.ncbi.nlm.nih.gov/books/NBK21535/figure/A6110/) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-24-6120)
+{--{"author":"Luc's AI","timestamp":1787140266266}@@24.  --}{++{"author":"Luc's AI","timestamp":1787140266266}@@[^source-note-24]: ++}[Image source](https://www.ncbi.nlm.nih.gov/books/NBK21535/figure/A6110/){--{"author":"Luc's AI","timestamp":1787140266266}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-24-6120)--}
      
-25.  [Image source](https://www.studyblue.com/notes/note/n/brain-anatomy/deck/15598121) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-25-6120)
+{--{"author":"Luc's AI","timestamp":1787140266566}@@25.  --}{++{"author":"Luc's AI","timestamp":1787140266566}@@[^source-note-25]: ++}[Image source](https://www.studyblue.com/notes/note/n/brain-anatomy/deck/15598121){--{"author":"Luc's AI","timestamp":1787140266566}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-25-6120)--}
      
-26.  [Image source](http://www.lab.anhb.uwa.edu.au/mb140/corepages/nervous/nervous.htm) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-26-6120)
+{--{"author":"Luc's AI","timestamp":1787140266872}@@26.  --}{++{"author":"Luc's AI","timestamp":1787140266872}@@[^source-note-26]: ++}[Image source](http://www.lab.anhb.uwa.edu.au/mb140/corepages/nervous/nervous.htm){--{"author":"Luc's AI","timestamp":1787140266872}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-26-6120)--}
      
-27.  [Image source](http://radiologykey.com/cerebral-cortex/) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-27-6120)
+{--{"author":"Luc's AI","timestamp":1787140267171}@@27.  --}{++{"author":"Luc's AI","timestamp":1787140267171}@@[^source-note-27]: ++}[Image source](http://radiologykey.com/cerebral-cortex/){--{"author":"Luc's AI","timestamp":1787140267171}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-27-6120)--}
      
-28.  [Image source](https://blogs.scientificamerican.com/brainwaves/know-your-neurons-what-is-the-ratio-of-glia-to-neurons-in-the-brain/) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-28-6120)
+{--{"author":"Luc's AI","timestamp":1787140267452}@@28.  --}{++{"author":"Luc's AI","timestamp":1787140267452}@@[^source-note-28]: ++}[Image source](https://blogs.scientificamerican.com/brainwaves/know-your-neurons-what-is-the-ratio-of-glia-to-neurons-in-the-brain/){--{"author":"Luc's AI","timestamp":1787140267452}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-28-6120)--}
      
-29.  [Image source](https://www.ncbi.nlm.nih.gov/pubmed/25705966) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-29-6120)
+{--{"author":"Luc's AI","timestamp":1787140267756}@@29.  --}{++{"author":"Luc's AI","timestamp":1787140267756}@@[^source-note-29]: ++}[Image source](https://www.ncbi.nlm.nih.gov/pubmed/25705966){--{"author":"Luc's AI","timestamp":1787140267756}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-29-6120)--}
      
-30.  [Image source](http://www.cell.com/action/showImagesData?pii=S0092-8674%2815%2900824-7) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-30-6120)
+{--{"author":"Luc's AI","timestamp":1787140268085}@@30.  --}{++{"author":"Luc's AI","timestamp":1787140268085}@@[^source-note-30]: ++}[Image source](http://www.cell.com/action/showImagesData?pii=S0092-8674%2815%2900824-7){--{"author":"Luc's AI","timestamp":1787140268085}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-30-6120)--}
      
-31.  [Image source](https://en.wikipedia.org/wiki/Magnetic_resonance_imaging) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-31-6120)
+{--{"author":"Luc's AI","timestamp":1787140268390}@@31.  --}{++{"author":"Luc's AI","timestamp":1787140268390}@@[^source-note-31]: ++}[Image source](https://en.wikipedia.org/wiki/Magnetic_resonance_imaging){--{"author":"Luc's AI","timestamp":1787140268390}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-31-6120)--}
      
-32.  [Image source](https://users.fmrib.ox.ac.uk/~stuart/image_gallery/av/index.html) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-32-6120)
+{--{"author":"Luc's AI","timestamp":1787140268757}@@32.  --}{++{"author":"Luc's AI","timestamp":1787140268757}@@[^source-note-32]: ++}[Image source](https://users.fmrib.ox.ac.uk/~stuart/image_gallery/av/index.html){--{"author":"Luc's AI","timestamp":1787140268757}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-32-6120)--}
      
-33.  [Image source](https://imotions.com/blog/what-is-eeg/) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-33-6120)
+{--{"author":"Luc's AI","timestamp":1787140269055}@@33.  --}{++{"author":"Luc's AI","timestamp":1787140269055}@@[^source-note-33]: ++}[Image source](https://imotions.com/blog/what-is-eeg/){--{"author":"Luc's AI","timestamp":1787140269055}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-33-6120)--}
      
-34.  [Image source](https://commons.wikimedia.org/wiki/File:Human_EEG_with_prominent_alpha-rhythm.png) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-34-6120)
+{--{"author":"Luc's AI","timestamp":1787140269368}@@34.  --}{++{"author":"Luc's AI","timestamp":1787140269368}@@[^source-note-34]: ++}[Image source](https://commons.wikimedia.org/wiki/File:Human_EEG_with_prominent_alpha-rhythm.png){--{"author":"Luc's AI","timestamp":1787140269368}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-34-6120)--}
      
-35.  [Image source](https://en.wikipedia.org/wiki/Electrocorticography#/media/File:Intracranial_electrode_grid_for_electrocorticography.png) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-35-6120)
+{--{"author":"Luc's AI","timestamp":1787140269657}@@35.  --}{++{"author":"Luc's AI","timestamp":1787140269657}@@[^source-note-35]: ++}[Image source](https://en.wikipedia.org/wiki/Electrocorticography#/media/File:Intracranial_electrode_grid_for_electrocorticography.png){--{"author":"Luc's AI","timestamp":1787140269657}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-35-6120)--}
      
-36.  [Image source](http://www.schalklab.org/sites/default/files/misc/layersofthebrain.png) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-36-6120)
+{--{"author":"Luc's AI","timestamp":1787140269986}@@36.  --}{++{"author":"Luc's AI","timestamp":1787140269986}@@[^source-note-36]: ++}[Image source](http://www.schalklab.org/sites/default/files/misc/layersofthebrain.png){--{"author":"Luc's AI","timestamp":1787140269986}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-36-6120)--}
      
-37.  [Image source](http://prometheus.med.utah.edu/~bwjones/2009/08/bionic-implants/) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-37-6120)
+{--{"author":"Luc's AI","timestamp":1787140270346}@@37.  --}{++{"author":"Luc's AI","timestamp":1787140270346}@@[^source-note-37]: ++}[Image source](http://prometheus.med.utah.edu/~bwjones/2009/08/bionic-implants/){--{"author":"Luc's AI","timestamp":1787140270346}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-37-6120)--}
      
-38.  [Image source](http://iopscience.iop.org/article/10.1088/0960-1317/19/3/035004) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-38-6120)
+{--{"author":"Luc's AI","timestamp":1787140270636}@@38.  --}{++{"author":"Luc's AI","timestamp":1787140270636}@@[^source-note-38]: ++}[Image source](http://iopscience.iop.org/article/10.1088/0960-1317/19/3/035004){--{"author":"Luc's AI","timestamp":1787140270636}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-38-6120)--}
      
-39.  [Image source](http://www.labtimes.org/labtimes/method/methods/2009_06.lasso) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-39-6120)
+{--{"author":"Luc's AI","timestamp":1787140270971}@@39.  --}{++{"author":"Luc's AI","timestamp":1787140270971}@@[^source-note-39]: ++}[Image source](http://www.labtimes.org/labtimes/method/methods/2009_06.lasso){--{"author":"Luc's AI","timestamp":1787140270971}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-39-6120)--}
      
-40.  [Image source](http://englishdictionary.education/en/otitis-interna) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-40-6120)
+{--{"author":"Luc's AI","timestamp":1787140271276}@@40.  --}{++{"author":"Luc's AI","timestamp":1787140271276}@@[^source-note-40]: ++}[Image source](http://englishdictionary.education/en/otitis-interna){--{"author":"Luc's AI","timestamp":1787140271276}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-40-6120)--}
      
-41.  [Image source](https://www.britannica.com/science/cochlea) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-41-6120)
+{--{"author":"Luc's AI","timestamp":1787140271543}@@41.  --}{++{"author":"Luc's AI","timestamp":1787140271543}@@[^source-note-41]: ++}[Image source](https://www.britannica.com/science/cochlea){--{"author":"Luc's AI","timestamp":1787140271543}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-41-6120)--}
      
-42.  [Image source](http://retinatoday.com/2015/03/the-next-generation-of-artificial-vision/) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-42-6120)
+{--{"author":"Luc's AI","timestamp":1787140271816}@@42.  --}{++{"author":"Luc's AI","timestamp":1787140271816}@@[^source-note-42]: ++}[Image source](http://retinatoday.com/2015/03/the-next-generation-of-artificial-vision/){--{"author":"Luc's AI","timestamp":1787140271816}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-42-6120)--}
      
-43.  [Image source](http://www.alzforum.org/news/research-news/deep-brain-stimulation-decade-surgical-relief-not-just-pd) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-43-6120)
+{--{"author":"Luc's AI","timestamp":1787140272082}@@43.  --}{++{"author":"Luc's AI","timestamp":1787140272082}@@[^source-note-43]: ++}[Image source](http://www.alzforum.org/news/research-news/deep-brain-stimulation-decade-surgical-relief-not-just-pd){--{"author":"Luc's AI","timestamp":1787140272082}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-43-6120)--}
      
-44.  [Image source](http://www.pewinternet.org/2016/07/26/u-s-public-wary-of-biomedical-technologies-to-enhance-human-abilities/ps_2016-07-26_human-enhancement-survey_0-01/) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-44-6120)
+{--{"author":"Luc's AI","timestamp":1787140272385}@@44.  --}{++{"author":"Luc's AI","timestamp":1787140272385}@@[^source-note-44]: ++}[Image source](http://www.pewinternet.org/2016/07/26/u-s-public-wary-of-biomedical-technologies-to-enhance-human-abilities/ps_2016-07-26_human-enhancement-survey_0-01/){--{"author":"Luc's AI","timestamp":1787140272385}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-44-6120)--}
      
-45.  [Image source](https://www.technologyreview.com/s/600686/government-seeks-high-fidelity-brain-computer-interface/) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-45-6120)
+{--{"author":"Luc's AI","timestamp":1787140272656}@@45.  --}{++{"author":"Luc's AI","timestamp":1787140272656}@@[^source-note-45]: ++}[Image source](https://www.technologyreview.com/s/600686/government-seeks-high-fidelity-brain-computer-interface/){--{"author":"Luc's AI","timestamp":1787140272656}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-45-6120)--}
      
-46.  [Image source](https://www.technologyreview.com/s/418503/brain-interfaces-made-of-silk/) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-46-6120)
+{--{"author":"Luc's AI","timestamp":1787140272953}@@46.  --}{++{"author":"Luc's AI","timestamp":1787140272953}@@[^source-note-46]: ++}[Image source](https://www.technologyreview.com/s/418503/brain-interfaces-made-of-silk/){--{"author":"Luc's AI","timestamp":1787140272953}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-46-6120)--}
      
-47.  [Image source](https://www.wired.com/2013/02/skin-printed-electrodes/) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-47-6120)
+{--{"author":"Luc's AI","timestamp":1787140273224}@@47.  --}{++{"author":"Luc's AI","timestamp":1787140273224}@@[^source-note-47]: ++}[Image source](https://www.wired.com/2013/02/skin-printed-electrodes/){--{"author":"Luc's AI","timestamp":1787140273224}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-47-6120)--}
      
 48.  [Image source](https://www.extremetech.com/extreme/207848-injectable-neuro-mesh-covers-the-brain-can-control-individual-neurons) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-48-6120)
      

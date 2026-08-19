@@ -20,7 +20,8 @@ Add discussion note here:
 
 In the [previous post](https://www.alignmentforum.org/posts/NxF5G6CJiof6cemTw/coherence-arguments-do-not-imply-goal-directed-behavior), I argued that simply knowing that an AI system is superintelligent does not imply that it must be goal-directed. However, there are many other arguments that suggest that AI systems will or should be goal-directed, which I will discuss in this post.
 
-Note that I don’t think of this as the [Tool AI vs. Agent AI](http://www.gwern.net/Tool-AI) argument: it seems possible to build agent AI systems that are not goal-directed. For example, imitation learning allows you to create an agent that behaves similarly to another agent -- I would classify this as “Agent AI that is not goal-directed”. (But see [this comment thread](https://www.alignmentforum.org/posts/9zpT9dikrrebdq3Jf/will-humans-build-goal-directed-agents#mjYjBiq4mQosy6Wwt) for discussion.)
+{++{"author":"Luc's AI","timestamp":1787140154479}@@%% validator-ignore-next-line --code article.external-self-fragment --reason intentionally-targets-source-only-content %%
+++}Note that I don’t think of this as the [Tool AI vs. Agent AI](http://www.gwern.net/Tool-AI) argument: it seems possible to build agent AI systems that are not goal-directed. For example, imitation learning allows you to create an agent that behaves similarly to another agent -- I would classify this as “Agent AI that is not goal-directed”. (But see [this comment thread](https://www.alignmentforum.org/posts/9zpT9dikrrebdq3Jf/will-humans-build-goal-directed-agents#mjYjBiq4mQosy6Wwt) for discussion.)
 
 Note that these arguments have different implications than the argument that superintelligent AI must be goal-directed due to coherence arguments. Suppose you believe all of the following:
 
