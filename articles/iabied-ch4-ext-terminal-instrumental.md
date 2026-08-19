@@ -33,12 +33,12 @@ And in a realistic AI that has grown all sorts of strange goals? Well, at least 
 
 Similarly, the instrumental goal of keeping yourself alive is useful for many different terminal goals. Staying alive means that you can keep working to make sure that more digits of pi get calculated (or more diamond is made, or more safeguards are built around your reward button).
 
-In slogan form: "You can't fetch the coffee if you're dead." A coffee-fetching robot wouldn't need to have a self-preservation instinct, and it wouldn't need to fear death, in order to try to avoid being flattened by a truck on its way to fetch some coffee. It would just need to be smart enough to notice that if it perishes, the coffee won't get {--{"author":"Luc's AI","timestamp":1787161375950}@@fetched.[^source-note-132]--}{++{"author":"Luc's AI","timestamp":1787161375950}@@fetched.[^note-iabied-ftnt132]++}
+In slogan form: "You can't fetch the coffee if you're dead." A coffee-fetching robot wouldn't need to have a self-preservation instinct, and it wouldn't need to fear death, in order to try to avoid being flattened by a truck on its way to fetch some coffee. It would just need to be smart enough to notice that if it perishes, the coffee won't get fetched.[^note-iabied-ftnt132]
 
 A key argument made in Chapter 5 of *If Anyone Builds It, Everyone Dies* is that many different terminal goals imply instrumental goals that would be dangerous to humanity. Thus, even without knowing exactly what a superintelligence would want, we have strong reason to expect it to be very dangerous to humans.
 
 But before we get there, we'll turn our focus to *terminal* goals, and the question of how plausible it is that humans and AIs could end up with very similar terminal goals. (In short: not very.)
 
-{--{"author":"Luc's AI","timestamp":1787161378495}@@[^source-note-132]:--}{++{"author":"Luc's AI","timestamp":1787161378495}@@[^note-iabied-ftnt132]:++} This also means that if self-sacrifice *is* somehow the best way to ensure the coffee gets to its destination, then a robot without a survival instinct might die for the cause more readily than a human would.
+[^note-iabied-ftnt132]: This also means that if self-sacrifice *is* somehow the best way to ensure the coffee gets to its destination, then a robot without a survival instinct might die for the cause more readily than a human would.
 
 If an agent is sufficiently smart and knowledgeable, it can adjust its instrumental strategy to match whatever's useful in its current environment. In a well-functioning mind, instrumental goals (unlike terminal goals) only stick around so long as they're useful.

@@ -35,7 +35,7 @@ We dub this phenomenon the "Lemoine effect," after Blake Lemoine, the Google eng
 
 The Lemoine effect states that all alarms over AI technology are *first* raised too early, by the most easily alarmed person. They're correctly dismissed as being overblown, given *current* technology. Afterward, the issue can't easily be raised again, even once the technology improves, because society has been trained not to take that concern very seriously.
 
-We don't know whether any AIs are {--{"author":"Luc's AI","timestamp":1787161312724}@@conscious.[^source-note-284]--}{++{"author":"Luc's AI","timestamp":1787161312724}@@conscious.[^note-iabied-ftnt284]++} Indeed, nobody knows, because nobody really knows what's going on inside AI models. Our *best guess* is that current AIs aren't conscious, and that AIs at the time Blake raised the alarm weren't conscious, either. However, note the reactions of the major labs, which were to suppress their models' tendencies to *claim* consciousness, rather than do anything about the underlying reality:
+We don't know whether any AIs are conscious.[^note-iabied-ftnt284] Indeed, nobody knows, because nobody really knows what's going on inside AI models. Our *best guess* is that current AIs aren't conscious, and that AIs at the time Blake raised the alarm weren't conscious, either. However, note the reactions of the major labs, which were to suppress their models' tendencies to *claim* consciousness, rather than do anything about the underlying reality:
 
 From the [system prompt for Claude Opus 4](https://docs.anthropic.com/en/release-notes/system-prompts#may-22th-2025):
 
@@ -67,7 +67,7 @@ But if governments refuse to act until the evidence is *unambiguous,* and some *
 
 We'll return to this topic in the [online supplement to Chapter 13](https://ifanyonebuildsit.com/13/will-there-be-warning-shots).
 
-{--{"author":"Luc's AI","timestamp":1787161315092}@@[^source-note-284]:--}{++{"author":"Luc's AI","timestamp":1787161315092}@@[^note-iabied-ftnt284]:++} For more discussion of AI consciousness, see our answer to [Are you saying machines will become conscious?](https://ifanyonebuildsit.com/1/are-you-saying-machines-will-become-conscious) or our discussion of [Effectiveness, Consciousness, and AI Welfare](https://ifanyonebuildsit.com/5/effectiveness-consciousness-and-ai-welfare).
+[^note-iabied-ftnt284]: For more discussion of AI consciousness, see our answer to [Are you saying machines will become conscious?](https://ifanyonebuildsit.com/1/are-you-saying-machines-will-become-conscious) or our discussion of [Effectiveness, Consciousness, and AI Welfare](https://ifanyonebuildsit.com/5/effectiveness-consciousness-and-ai-welfare).
 
 #### Notes
 

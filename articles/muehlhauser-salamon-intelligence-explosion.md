@@ -2,14 +2,14 @@
 title: "Intelligence Explosion: Evidence and Import"
 author: Luke Muehlhauser, Anna Salamon
 source_url: https://intelligence.org/files/IE-EI.pdf
-{++{"author":"Luc's AI","timestamp":1787163124947}@@llm_reviewed: 2026-08-19
+llm_reviewed: 2026-08-19
 llm_review_version: "article-qc-v1"
 llm_review_model: "gpt-5"
 llm_review_digest: "sha256:de932790868bf40971955f7e55664ca1b0e061a8e9b7f54612a3ee05a78c567a"
 llm_review_source_digest: "sha256:20c131cc774c05d864ac99ae7ddbd7b79c00c0f1e4d55b411272c0255b4fe836"
 llm_review_source_fetched: 2026-08-19
 llm_review_source_kind: "live"
-++}published: 2012
+published: 2012
 ---
 
 %%
@@ -611,7 +611,7 @@ it, and achieving economic stability is ultimately a problem of being smart enou
 figure out how to achieve it. To whatever extent we have goals, we have goals that
 can be accomplished to greater degrees using sufficiently advanced intelligence. When
 considering the likely consequences of superhuman AI, we must respect both risk and
-opportunity.26{++{"author":"Luc's AI","timestamp":1787162667098}@@
+opportunity.26
 
 ## References
 
@@ -771,4 +771,4 @@ opportunity.26{++{"author":"Luc's AI","timestamp":1787162667098}@@
 - Yudkowsky, Eliezer. 2001. *Creating Friendly AI 1.0: The Analysis and Design of Benevolent Goal Architectures*. The Singularity Institute, San Francisco, CA, June 15. <http://intelligence.org/files/CFAI.pdf>.
 - . 2008a. "Artificial Intelligence as a Positive and Negative Factor in Global Risk." In Bostrom and Ćirković 2008, 308–345.
 - . 2008b. "Efficient Cross-Domain Optimization." *Less Wrong* (blog), October 28. [http://lesswrong.com/lw/vb/efficient\\_crossdomain\\_optimization/](http://lesswrong.com/lw/vb/efficient_crossdomain_optimization/).
-- . 2011. "Complex Value Systems in Friendly AI." In Schmidhuber, Thórisson, and Looks 2011, 388–393.++}
+- . 2011. "Complex Value Systems in Friendly AI." In Schmidhuber, Thórisson, and Looks 2011, 388–393.

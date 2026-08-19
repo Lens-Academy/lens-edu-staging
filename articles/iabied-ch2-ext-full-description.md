@@ -23,7 +23,7 @@ The discussion below is moderately detailed, and we'll assume (here, but not in 
 
 Details about how the most capable language models are trained are not typically published, nor is the code. But there are exceptions. One of the more powerful systems to have its architecture and weights publicly released, at the time of our drafting the book in late 2024, was Llama 3.1 405B, made by Meta's AI division. The "405B" stands for the 405 billion parameters in the architecture, filled by 405 billion weights.
 
-Why are we walking through this particular AI model? Llama 3.1 405B is {--{"author":"Luc's AI","timestamp":1787161408444}@@"open-weights,"[^source-note-68]--}{++{"author":"Luc's AI","timestamp":1787161408444}@@"open-weights,"[^note-iabied-ftnt68]++} meaning that you can download those 405 billion inscrutable numbers yourself (along with the vastly tinier human-written skeleton of code that does arithmetic to the 405 billion numbers and thereby runs the AI). This lets us make statements about its design with some {--{"author":"Luc's AI","timestamp":1787161408444}@@confidence.[^source-note-69]--}{++{"author":"Luc's AI","timestamp":1787161408444}@@confidence.[^note-iabied-ftnt69]++}
+Why are we walking through this particular AI model? Llama 3.1 405B is "open-weights,"[^note-iabied-ftnt68] meaning that you can download those 405 billion inscrutable numbers yourself (along with the vastly tinier human-written skeleton of code that does arithmetic to the 405 billion numbers and thereby runs the AI). This lets us make statements about its design with some confidence.[^note-iabied-ftnt69]
 
 Anyway! Let's talk about how those 405 billion inscrutable numbers are arranged — the way they were set up, even before training, such that Meta's engineers correctly expected that tweaking those random initial numbers in the direction of better predicting the next token (word-fragment), given training on over 15.6 trillion tokens, would create an AI that could talk.
 
@@ -35,7 +35,7 @@ To turn each token into a vector, every possible token is assigned a weight for 
 
 Two billion parameters down. Four hundred and three billion left to go!
 
-Just to say it again — no human tells Llama what any of the tokens mean, invents the vector of 16,384 numbers that a word translates to, or knows what the vector of numbers means for any word. All of those two billion parameters got there by gradient descent. The numbers get tweaked, along with other parameters we'll introduce, to increase the probability assigned to the true next {--{"author":"Luc's AI","timestamp":1787161411124}@@token.[^source-note-70]--}{++{"author":"Luc's AI","timestamp":1787161411124}@@token.[^note-iabied-ftnt70]++}
+Just to say it again — no human tells Llama what any of the tokens mean, invents the vector of 16,384 numbers that a word translates to, or knows what the vector of numbers means for any word. All of those two billion parameters got there by gradient descent. The numbers get tweaked, along with other parameters we'll introduce, to increase the probability assigned to the true next token.[^note-iabied-ftnt70]
 
 Let's say Llama starts out looking at a block of 1,000 words, like a snippet of an essay. (Or rather, 1,000 tokens. But from here on out, for simplicity, we'll sometimes just say "words.")
 
@@ -70,9 +70,9 @@ The "attention step" above each token consists of matching each of the 128 queri
 
 What this allows, roughly, is for each of the activations above a token to create a bunch of "queries," which then look around at the "keys" above all other tokens. When a token's query matches a key more strongly, it retrieves the corresponding value more strongly, to pass on to later computations above that token.
 
-For example, the word "right" might engage a query designed to look at neighboring words to see if any of them are around *spatial directions* or alternatively *belief,* to determine if the word "right" means right as in "right-handed" or right as in "right answer." (Again, all of that gets learned by gradient descent; none of it is programmed in by humans thinking about the different meanings the English word "right" can {--{"author":"Luc's AI","timestamp":1787161412330}@@take.)[^source-note-71]--}{++{"author":"Luc's AI","timestamp":1787161412330}@@take.)[^note-iabied-ftnt71]++}
+For example, the word "right" might engage a query designed to look at neighboring words to see if any of them are around *spatial directions* or alternatively *belief,* to determine if the word "right" means right as in "right-handed" or right as in "right answer." (Again, all of that gets learned by gradient descent; none of it is programmed in by humans thinking about the different meanings the English word "right" can take.)[^note-iabied-ftnt71]
 
-The attention layers in an LLM are quite large, with a huge number of parameters in each. Llama 3.1 405b in particular has 126 such attention layers (we've been describing just the very first of them), and each of the 126 has 570,425,344 parameters, divided between query, key, value, and output {--{"author":"Luc's AI","timestamp":1787161413397}@@matrices.[^source-note-72]--}{++{"author":"Luc's AI","timestamp":1787161413397}@@matrices.[^note-iabied-ftnt72]++}
+The attention layers in an LLM are quite large, with a huge number of parameters in each. Llama 3.1 405b in particular has 126 such attention layers (we've been describing just the very first of them), and each of the 126 has 570,425,344 parameters, divided between query, key, value, and output matrices.[^note-iabied-ftnt72]
 
 Once the attention sub-layer is complete, and we end up with a matrix of the same size as we started (in our example, 16,384 by 1,000), we do something called "residual connection." Basically, you take whatever the input for the sub-layer was (in this case, the huge matrix we started with) and add it to whatever we ended up with. This prevents any given sub-layer from changing *too* much on any given step (and has some other nice technical properties).
 
@@ -90,7 +90,7 @@ Those steps together constitute a single "layer." Llama has 126 layers, so we'll
 
 At the end of the 126 layers, we end up with a matrix the same size as we started with; in our example, 16,384 by 1,000. Each row of this matrix can then be projected into a new vector of 128,256 numbers, one for each token in the model's full dictionary. These numbers can be positive or negative, but a handy function called softmaxing can be used to convert them all into probabilities, which sum to one. Those probabilities are Llama's prediction for what token will come next.
 
-It's now possible to make Llama generate a new token. One way to do that is to take whichever token Llama gave the highest probability to, although you could also shake things up by occasionally taking tokens that it says are a little less {--{"author":"Luc's AI","timestamp":1787161414349}@@likely.[^source-note-73]--}{++{"author":"Luc's AI","timestamp":1787161414349}@@likely.[^note-iabied-ftnt73]++}
+It's now possible to make Llama generate a new token. One way to do that is to take whichever token Llama gave the highest probability to, although you could also shake things up by occasionally taking tokens that it says are a little less likely.[^note-iabied-ftnt73]
 
 If you're running Llama normally, such as in a chatbot interface, this entire process has now output a single token. That token is put at the end of the input, and we repeat it all from scratch for the next token. So we'd do all the steps discussed before, except now our matrix has 1,001 rows. Then, another token later, 1,002, and so on.
 
@@ -100,9 +100,9 @@ We've glossed over plenty, but that is, basically, how Llama 3.1 405B works.
 
 Let's talk a bit about the sheer size of Llama 3.1 405B.
 
-For Llama to get to grips with a text of 1,000 words (or rather 1,000 tokens), it takes about 810 trillion {--{"author":"Luc's AI","timestamp":1787161415073}@@computations.[^source-note-74]--}{++{"author":"Luc's AI","timestamp":1787161415073}@@computations.[^note-iabied-ftnt74]++}
+For Llama to get to grips with a text of 1,000 words (or rather 1,000 tokens), it takes about 810 trillion computations.[^note-iabied-ftnt74]
 
-If 810 trillion seems like a lot, keep in mind that most of Llama's 405 billion parameters get used in *some* arithmetical operation *every* time *any* single word gets {--{"author":"Luc's AI","timestamp":1787161416526}@@processed.[^source-note-75]--}{++{"author":"Luc's AI","timestamp":1787161416526}@@processed.[^note-iabied-ftnt75]++}
+If 810 trillion seems like a lot, keep in mind that most of Llama's 405 billion parameters get used in *some* arithmetical operation *every* time *any* single word gets processed.[^note-iabied-ftnt75]
 
 If Llama is being *trained* on a batch of 1,000 tokens, then each of the 1,000 tokens will be compared against the following actual word, and the losses propagated by gradient descent, to determine how tweaking all 405 billion shared parameters would have changed the probabilities assigned to the true answers across all cases. This will take many more computations, and many more numbers.
 
@@ -110,7 +110,7 @@ In the course of training Llama's 405 billion parameters on 15.6 trillion tokens
 
 If instead Llama is done training and is being run in *inference mode* (i.e., if it is generating novel text, such as in a chat with a user)*,* the probabilities will only get computed above the very last token, as if predicting what the next word *would* be if the AI were reading text produced by humans.
 
-Then, a human-written code skeleton surrounding Llama will pick what Llama thinks is the most likely {--{"author":"Luc's AI","timestamp":1787161417172}@@answer.[^source-note-76]--}{++{"author":"Luc's AI","timestamp":1787161417172}@@answer.[^note-iabied-ftnt76]++}
+Then, a human-written code skeleton surrounding Llama will pick what Llama thinks is the most likely answer.[^note-iabied-ftnt76]
 
 And that is how to get a computer to start talking to you! Not quite as intelligently as the commercial AIs in 2025, but still talking sort of like a person.
 
@@ -118,15 +118,15 @@ To grapple with a thousand words, a Llama uses 405 billion inscrutable little pa
 
 We sometimes call these arrangements "giant inscrutable matrices," because if you actually stare at some of Llama's parameters — even the simplest ones stored in the simple dictionary at the base of the vast stack of layers — the first few parameters for the word "right" look like this:
 
-{--{"author":"Luc's AI","timestamp":1787161417727}@@[^source-note-68]:--}{++{"author":"Luc's AI","timestamp":1787161417727}@@[^note-iabied-ftnt68]:++} Some people refer to open-weight models as "open-source" models. This description does not seem quite right to us. Meta released the final weights, but did not release the exact computer program that *trained* Llama 3.1, or the huge collection of data Llama was trained on. So even if you were willing to spend millions of dollars to do it, you could not actually run the program that Meta ran to *grow* Llama 3.1. Meta didn't release the AI-growing code, only the grown and tuned AI.
+[^note-iabied-ftnt68]: Some people refer to open-weight models as "open-source" models. This description does not seem quite right to us. Meta released the final weights, but did not release the exact computer program that *trained* Llama 3.1, or the huge collection of data Llama was trained on. So even if you were willing to spend millions of dollars to do it, you could not actually run the program that Meta ran to *grow* Llama 3.1. Meta didn't release the AI-growing code, only the grown and tuned AI.
 
 Furthermore, even if Meta did release the data and the training program, we don't think that the resulting program would merit the label "open-source," which was traditionally reserved for computer programs that published ("opened") their human-readable "source code." Releasing the incomprehensible 1s and 0s (the "binary code," if you will) does not traditionally meet the requirements for a program to be considered "open source." But AIs are *just* inscrutable numbers; there is no human-comprehensible source to be released. So there's a sense in which modern AIs *can't* be open-sourced; no human-comprehensible source code exists. Any attempt to publish an AI is necessarily a radically different practice than open-sourcing traditional software.
 
-{--{"author":"Luc's AI","timestamp":1787161418196}@@[^source-note-69]:--}{++{"author":"Luc's AI","timestamp":1787161418196}@@[^note-iabied-ftnt69]:++} As we finish writing this in the summer of 2025, there are smarter open-weight systems with fewer parameters than Llama 3.1 405B, and even smarter open-weight systems with even more parameters. But when we began drafting the book, 405B was among the largest and smartest models with weights that had been irrevocably released into the wild and with an architecture and size that was exactly known. So that's what our book chapter promised to explain in the online supplement. Also, 405B is *simpler* than 2025-era open systems. We would not actually want to substitute a more recent LLM with only 77B parameters. The more modern "mixture of experts" system would be somewhat harder to explain.
+[^note-iabied-ftnt69]: As we finish writing this in the summer of 2025, there are smarter open-weight systems with fewer parameters than Llama 3.1 405B, and even smarter open-weight systems with even more parameters. But when we began drafting the book, 405B was among the largest and smartest models with weights that had been irrevocably released into the wild and with an architecture and size that was exactly known. So that's what our book chapter promised to explain in the online supplement. Also, 405B is *simpler* than 2025-era open systems. We would not actually want to substitute a more recent LLM with only 77B parameters. The more modern "mixture of experts" system would be somewhat harder to explain.
 
-{--{"author":"Luc's AI","timestamp":1787161418763}@@[^source-note-70]:--}{++{"author":"Luc's AI","timestamp":1787161418763}@@[^note-iabied-ftnt70]:++} Incidentally, it doesn't count toward total parameters, but the underlying architecture behind LLMs doesn't natively differentiate between words that come earlier and later, so a transformation involving trigonometric functions is done to the input to let the LLM figure out word order. If you want to read about it, the keyword is "positional encoding." The details don't matter too much for our purposes, though, so we won't go into that part.
+[^note-iabied-ftnt70]: Incidentally, it doesn't count toward total parameters, but the underlying architecture behind LLMs doesn't natively differentiate between words that come earlier and later, so a transformation involving trigonometric functions is done to the input to let the LLM figure out word order. If you want to read about it, the keyword is "positional encoding." The details don't matter too much for our purposes, though, so we won't go into that part.
 
-{--{"author":"Luc's AI","timestamp":1787161419349}@@[^source-note-71]:--}{++{"author":"Luc's AI","timestamp":1787161419349}@@[^note-iabied-ftnt71]:++} Using smaller vectors, here's how it might look to match one query against two key-and-value pairs. The keys and queries have to be the same size for it to work.
+[^note-iabied-ftnt71]: Using smaller vectors, here's how it might look to match one query against two key-and-value pairs. The keys and queries have to be the same size for it to work.
 
 query: [-1, +1, -2]
 
@@ -156,12 +156,12 @@ So now the answer to the query is  of value #a1 plus  of value #b:
 
 This allows a query to say, "Hey, I'd like to look at the word that's right next to me," or, "Hey, I'd like to look for words about birds within just the last ten words," in the language of numbers that get multiplied by other numbers and summed. Llama 3.1 405B in particular uses Rotary Positional Embeddings, which are slightly complicated and clever. So, sorry; if you want to know how RoPEs work, you're going to have to look it up.)
 
-{--{"author":"Luc's AI","timestamp":1787161420022}@@[^source-note-72]:--}{++{"author":"Luc's AI","timestamp":1787161420022}@@[^note-iabied-ftnt72]:++} As another aside about the attention layer, Llama uses "causal masking," meaning that each token's queries can only look at the keys from *before* it. Basically, that's because each token is trying to ultimately predict what token comes next; looking ahead would be cheating!
+[^note-iabied-ftnt72]: As another aside about the attention layer, Llama uses "causal masking," meaning that each token's queries can only look at the keys from *before* it. Basically, that's because each token is trying to ultimately predict what token comes next; looking ahead would be cheating!
 
-{--{"author":"Luc's AI","timestamp":1787161420957}@@[^source-note-73]:--}{++{"author":"Luc's AI","timestamp":1787161420957}@@[^note-iabied-ftnt73]:++} The choice of how much randomness to use when picking a token is, roughly speaking, called the "temperature" at which the tokens are produced.
+[^note-iabied-ftnt73]: The choice of how much randomness to use when picking a token is, roughly speaking, called the "temperature" at which the tokens are produced.
 
-{--{"author":"Luc's AI","timestamp":1787161421455}@@[^source-note-74]:--}{++{"author":"Luc's AI","timestamp":1787161421455}@@[^note-iabied-ftnt74]:++} Technically "floating point operations," the main kind of mathematical computation done by computers.
+[^note-iabied-ftnt74]: Technically "floating point operations," the main kind of mathematical computation done by computers.
 
-{--{"author":"Luc's AI","timestamp":1787161422008}@@[^source-note-75]:--}{++{"author":"Luc's AI","timestamp":1787161422008}@@[^note-iabied-ftnt75]:++} The exception to this rule is the 2.1-billion-parameter dictionary of 128,256 words; only 16,384 of those parameters get used per token. And more modern architectures for large LLMs try to only use a quarter or an eighth of their parameters to process each token; Llama 3.1 405B was one of the last large models not to try that.
+[^note-iabied-ftnt75]: The exception to this rule is the 2.1-billion-parameter dictionary of 128,256 words; only 16,384 of those parameters get used per token. And more modern architectures for large LLMs try to only use a quarter or an eighth of their parameters to process each token; Llama 3.1 405B was one of the last large models not to try that.
 
-{--{"author":"Luc's AI","timestamp":1787161422832}@@[^source-note-76]:--}{++{"author":"Luc's AI","timestamp":1787161422832}@@[^note-iabied-ftnt76]:++} Or, for a little spice, the skeleton often has a chance of picking a word that Llama assigns a little less probability to.
+[^note-iabied-ftnt76]: Or, for a little spice, the skeleton often has a chance of picking a word that Llama assigns a little less probability to.

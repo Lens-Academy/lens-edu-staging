@@ -18,7 +18,7 @@ Add discussion note here:
 
 #### There are many negligible expenses, and it would need a reason to pay ours.
 
-Keeping a pile of forty-one stones in your house would be a negligible expense, but you're almost surely not going out of your way to pay that {--{"author":"Luc's AI","timestamp":1787161426553}@@expense.[^source-note-175]--}{++{"author":"Luc's AI","timestamp":1787161426553}@@expense.[^note-iabied-ftnt175]++}
+Keeping a pile of forty-one stones in your house would be a negligible expense, but you're almost surely not going out of your way to pay that expense.[^note-iabied-ftnt175]
 
 That something would be *cheap* does not mean it will get done. The AI would still need to care at least a little, and it [probably won't](https://ifanyonebuildsit.com/5/wont-ais-care-at-least-a-little-about-humans).
 
@@ -36,11 +36,11 @@ It might still seem like human energy demands are negligible. A human needs arou
 
 We answer, in the end: not unless it cares for that outcome or its consequences more than every other thing it could achieve with 800 gigawatts.
 
-The vast majority of humans do not spare the relatively negligible amounts of sugar it would take to keep the nearest anthill in caloric surplus. Keeping humanity happy would be a negligible expense for an AI that wanted this, but first the AI would need to have that preference. The mere fact that *we* want it doesn't mean that the AI will {--{"author":"Luc's AI","timestamp":1787161429383}@@care.[^source-note-177]--}{++{"author":"Luc's AI","timestamp":1787161429383}@@care.[^note-iabied-ftnt177]++}
+The vast majority of humans do not spare the relatively negligible amounts of sugar it would take to keep the nearest anthill in caloric surplus. Keeping humanity happy would be a negligible expense for an AI that wanted this, but first the AI would need to have that preference. The mere fact that *we* want it doesn't mean that the AI will care.[^note-iabied-ftnt177]
 
-{--{"author":"Luc's AI","timestamp":1787161431696}@@[^source-note-175]:--}{++{"author":"Luc's AI","timestamp":1787161431696}@@[^note-iabied-ftnt175]:++} Or at least you wouldn't've, before we gave you reason to do it just to spite us.
+[^note-iabied-ftnt175]: Or at least you wouldn't've, before we gave you reason to do it just to spite us.
 
-{--{"author":"Luc's AI","timestamp":1787161434063}@@[^source-note-177]:--}{++{"author":"Luc's AI","timestamp":1787161434063}@@[^note-iabied-ftnt177]:++} Additionally, if the AI did have preferences that involved humans in some way, this [probably wouldn't turn out well for us](https://ifanyonebuildsit.com/5/wont-ai-find-us-fascinating-or-historically-important).
+[^note-iabied-ftnt177]: Additionally, if the AI did have preferences that involved humans in some way, this [probably wouldn't turn out well for us](https://ifanyonebuildsit.com/5/wont-ai-find-us-fascinating-or-historically-important).
 
 #### Notes
 

@@ -38,7 +38,7 @@ We expect that lots of parents would be thrilled to hear that their children got
 
 It seems to us that most humans simply don't care about genetic fitness *at all,* in the deep sense. Wecare about [proxies](https://ifanyonebuildsit.com/4/brittle-unpredictable-proxies), like friendship and love and family and children. We maybe even care about passing on some of our traits to the next generation. But *genes*, specifically?
 
-Every time that humanity has unlocked a technology that let us get more of what we like — such as tasty foods, or sex without reproduction — humanity has taken the bargain. We aren't technologically advanced enough that we're *able* to trade away genomes for longer and healthier lives. But that sort of thing looks possible in physical {--{"author":"Luc's AI","timestamp":1787161324024}@@principle,[^source-note-129]--}{++{"author":"Luc's AI","timestamp":1787161324024}@@principle,[^note-iabied-ftnt129]++} and so it doesn't look good for natural selection in the long run.
+Every time that humanity has unlocked a technology that let us get more of what we like — such as tasty foods, or sex without reproduction — humanity has taken the bargain. We aren't technologically advanced enough that we're *able* to trade away genomes for longer and healthier lives. But that sort of thing looks possible in physical principle,[^note-iabied-ftnt129] and so it doesn't look good for natural selection in the long run.
 
 If AIs wind up caring about goodness and kindness and friendliness in anything like the way humanity cares about genetic fitness*,* then we expect that AIs will eventually invent things that are to "friendliness" what birth control and DNA-less children are to genetic fitness — namely, that they'll pursue things that are only a pointless shadow of what any human would wish or intend.
 
@@ -54,4 +54,4 @@ But before we get there, let's take a step back for a moment. Imagine that the s
 
 If humanity rushes ahead and rolls the dice with superintelligence, then we expect a far, far worse outcome. But this still seems like a very bad plan to us, *even if* we had reason to think AIs would care about us some tiny amount. So this line of speculation seems not only mistaken but moot.
 
-{--{"author":"Luc's AI","timestamp":1787161325980}@@[^source-note-129]:--}{++{"author":"Luc's AI","timestamp":1787161325980}@@[^note-iabied-ftnt129]:++} For a related discussion, see the [extended discussion in the Chapter 6 resources](https://ifanyonebuildsit.com/6/nanotechnology-and-protein-synthesis), about how it's possible to go beyond the limits set by biology.
+[^note-iabied-ftnt129]: For a related discussion, see the [extended discussion in the Chapter 6 resources](https://ifanyonebuildsit.com/6/nanotechnology-and-protein-synthesis), about how it's possible to go beyond the limits set by biology.

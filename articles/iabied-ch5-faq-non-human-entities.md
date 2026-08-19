@@ -104,6 +104,6 @@ But a happy future doesn't come free, packaged with any sufficiently smart mind.
 
 A top-down, harshly limited, tightly controlled future doesn't sound to us like a good outcome. A conservative future where civilization is locked into the values of 21st-century humans forever sounds outright dystopian. (Imagine a world where culture and morality were frozen in place forever thousands of years ago, with no possibility for learning or progress.)
 
-But it's an obvious error to think that {--{"author":"Luc's AI","timestamp":1787161717262}@@our*only--}{++{"author":"Luc's AI","timestamp":1787161717262}@@our *only++} alternative* to those bad outcomes is a race to hand the steering wheel to the very first superintelligence humanity is able to blindly stumble into creating.
+But it's an obvious error to think that our *only alternative* to those bad outcomes is a race to hand the steering wheel to the very first superintelligence humanity is able to blindly stumble into creating.
 
 We are radically ill-equipped today to choose healthy seeds for the long-term future of the universe. We should neither give up on the dream of a dynamic, wonderful, shocking future, nor resort to catastrophic seeds instead. We don't *have* to choose a terrible option here. There is a third option: Back off, and find some saner approach.

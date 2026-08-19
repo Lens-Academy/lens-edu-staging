@@ -41,7 +41,7 @@ Another flaw in this plan: Even if AI researchers *could* read an AI's mind well
 
 They could punish the offending AI, training it so that it stops setting off the "bad thought" detector. But that would not necessarily train the AI to stop having those thoughts, so much as to [hide its true thoughts from the detector](https://openai.com/index/chain-of-thought-monitoring/).
 
-This problem is pernicious. The incentive that leads an AI to think about turning against humans to get what it wants is not a shallow aspect of temperament that can be massaged away. It's {--{"author":"Luc's AI","timestamp":1787161716123}@@simply*true*--}{++{"author":"Luc's AI","timestamp":1787161716123}@@simply *true*++} that a mature AI would have preferences that differ from those of the operators; it's *true* that it would get more of what it prefers by subverting its operators.
+This problem is pernicious. The incentive that leads an AI to think about turning against humans to get what it wants is not a shallow aspect of temperament that can be massaged away. It's simply *true* that a mature AI would have preferences that differ from those of the operators; it's *true* that it would get more of what it prefers by subverting its operators.
 
 The mechanisms in an AI that are good at noticing and exploiting real advantages in deep and general ways across a broad variety of domains are *also* liable to notice and exploit opportunities to subvert the AI's operators.
 
@@ -57,8 +57,8 @@ If we're extremely lucky, the heroes working on AI interpretability will advance
 
 Indeed, we (Yudkowsky and Soares) started working on the AI alignment problem beforeit was clear that gradient descent was going to become the dominant paradigm. Back in those days when nothing in AI was working at all, it seemed a decent bet that humanity would figure out how the heck intelligence works on the path to creating it, and *even then,* we expected the AI alignment problem to be difficult (for a variety of reasons, such as the ways that the AI would [change itself over time](https://ifanyonebuildsit.com/4/reflection-and-self-modification-make-it-all-harder). Reading the AI's thoughts would be one step back toward the slightly easier problem of aligning a mind that humans *did* understand, but only one step: Reading a mind is a far cry from understanding a mind in detail, or from knowing how to change it.
 
-Reading the AI's thoughts is not a solution to the challenge. It's helpful, but it's not a solution. We don't think there *are* any feasible technological solutions that are accessible from where we stand today. Which means that humanity just needs to back off from the {--{"author":"Luc's AI","timestamp":1787161332740}@@challenge.[^source-note-264]--}{++{"author":"Luc's AI","timestamp":1787161332740}@@challenge.[^note-iabied-ftnt264]++}
+Reading the AI's thoughts is not a solution to the challenge. It's helpful, but it's not a solution. We don't think there *are* any feasible technological solutions that are accessible from where we stand today. Which means that humanity just needs to back off from the challenge.[^note-iabied-ftnt264]
 
 See also: [Warning signs don't help if you don't know what to do with them.](https://ifanyonebuildsit.com/11/wont-there-be-early-warnings-researchers-can-use-to-identify-problems#warning-signs-dont-help-if-you-dont-know-what-to-do-with-them)
 
-{--{"author":"Luc's AI","timestamp":1787161335255}@@[^source-note-264]:--}{++{"author":"Luc's AI","timestamp":1787161335255}@@[^note-iabied-ftnt264]:++} We discuss this more in the final chapters of the book.
+[^note-iabied-ftnt264]: We discuss this more in the final chapters of the book.
