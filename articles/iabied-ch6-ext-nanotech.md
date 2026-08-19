@@ -29,7 +29,7 @@ Every cell of every organism in nature contains an enormous variety of intricate
 
 "Machinery" here isn't just a metaphor. The machines in question are small, so they work a bit differently than the machines in your daily life. But many large-scale machines have analogs within our bodies. [ATP synthase](https://en.wikipedia.org/wiki/ATP_synthase) generates power in the body in a similar way to a water wheel, using a flow of protons to spin a literal rotor.[†](https://ifanyonebuildsit.com/6/nanotechnology-and-protein-synthesis#ftnt227)
 
-[](/videos/ATP_synthesis.webm)
+{--{"author":"Luc's AI","timestamp":1787136432915}@@[](/videos/ATP_synthesis.webm)--}{++{"author":"Luc's AI","timestamp":1787136432915}@@[ATP synthesis video](/videos/ATP_synthesis.webm)++}
 
 The bacterial flagellum functions similarly to the propeller of a boat, complete with an entire working motor that spins the flagellum to propel the bacterium through liquids:
 
