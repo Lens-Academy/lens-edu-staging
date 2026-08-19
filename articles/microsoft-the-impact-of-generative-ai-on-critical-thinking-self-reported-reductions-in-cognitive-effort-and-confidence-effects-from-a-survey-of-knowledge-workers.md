@@ -425,7 +425,7 @@ GenAI (RQ1), and when and why do knowledge workers perceive
 factors relating to the user’s task, including task type, confidence
 increased/decreased effort for critical thinking due to GenAI (RQ2)
 in themselves, and AI doing the task, could affect their critical
-— we conducted an online survey on the Prolific platform2 to study
+— we conducted an online survey on the Prolific {--{"author":"Luc's AI","timestamp":1787136339142}@@platform2--}{++{"author":"Luc's AI","timestamp":1787136339142}@@platform[^2]++} to study
 thinking.
 knowledge workers’ experiences with critical thinking when using
 GenAI tools for their work.
@@ -452,7 +452,7 @@ tualising critical thinking too narrowly. These acted as “cognitive
 task they did (i.e., Please tell us: 1) what you were trying to achieve,
 2) in what GenAI tool, and 3) how you used the GenAI tool, including
 any prompts.). Then, they were asked to pick one of the nine task
-2https://prolific.co/
+{--{"author":"Luc's AI","timestamp":1787136339416}@@2https://prolific.co/--}{++{"author":"Luc's AI","timestamp":1787136339416}@@[^2]: https://prolific.co/++}
 types that best described their task. Using this information, we
 
 Table 1: Categories and sub-categories for GenAI tool usage [13].
