@@ -604,4 +604,164 @@ it, and achieving economic stability is ultimately a problem of being smart enou
 figure out how to achieve it. To whatever extent we have goals, we have goals that
 can be accomplished to greater degrees using sufficiently advanced intelligence. When
 considering the likely consequences of superhuman AI, we must respect both risk and
-opportunity.26
+opportunity.26{++{"author":"Luc's AI","timestamp":1787162667098}@@
+
+## References
+
+- Anderson, Britt. 1993. "Evidence from the Rat for a General Factor That Underlies Cognitive Performance and That Relates to Brain Size: Intelligence?" *Neuroscience Letters* 153 (1): 98–102. doi:10.1016/0304-3940(93)90086-Z.
+- Arbesman, Samuel. 2011. "Quantifying the Ease of Scientific Discovery." *Scientometrics* 86 (2): 245–250. doi:10.1007/s11192-010-0232-6.
+- Armstrong, Jon Scott. 1985. *Long-Range Forecasting: From Crystal Ball to Computer*. 2nd ed. New York: Wiley.
+- Armstrong, Stuart, Anders Sandberg, and Nick Bostrom. 2012. "Thinking Inside the Box: Controlling and Using an Oracle AI." *Minds and Machines* 22 (4): 299–324. doi:10.1007/s11023-012-9282-2.
+- Ashby, F. Gregory, and Sebastien Helie. 2011. "A Tutorial on Computational Cognitive Neuroscience: Modeling the Neurodynamics of Cognition." *Journal of Mathematical Psychology* 55 (4): 273–289. doi:10.1016/j.jmp.2011.04.003.
+- Bainbridge, William Sims, and Mihail C. Roco, eds. 2006. *Managing Nano-Bio-Info-Cogno Innovations: Converging Technologies in Society*. Dordrecht, The Netherlands: Springer.
+- Baum, Seth D., Ben Goertzel, and Ted G. Goertzel. 2011. "How Long Until Human-Level AI? Results from an Expert Assessment." *Technological Forecasting and Social Change* 78 (1): 185–195. doi:10.1016/j.techfore.2010.09.006.
+- Block, Ned. 1981. "Psychologism and Behaviorism." *Philosophical Review* 90 (1): 5–43. doi:10.2307/2184371.
+- Bostrom, Nick. Forthcoming. *Superintelligence: A Strategic Analysis of the Coming Machine Intelligence Revolution*. Manuscript, in preparation.
+- . 2002. "Existential Risks: Analyzing Human Extinction Scenarios and Related Hazards." *Journal of Evolution and Technology* 9. <http://www.jetpress.org/volume9/risks.html>.
+- . 2003. "Ethical Issues in Advanced Artificial Intelligence." In *Cognitive, Emotive and Ethical Aspects of Decision Making in Humans and in Artificial Intelligence*, edited by Iva Smit and George E. Lasker, 2:12–17. Windsor, ON: International Institute for Advanced Studies in Systems Research / Cybernetics.
+- . 2006. "What is a Singleton?" *Linguistic and Philosophical Investigations* 5 (2): 48–54.
+- . 2007. "Technological Revolutions: Ethics and Policy in the Dark." In *Nanoscale: Issues and Perspectives for the Nano Century*, edited by Nigel M. de S. Cameron and M. Ellen Mitchell, 129–152. Hoboken, NJ: John Wiley & Sons. doi:10.1002/9780471065874.ch10.
+- . 2012. "The Superintelligent Will: Motivation and Instrumental Rationality in Advanced Artificial Agents." In "Theory and Philosophy of AI," edited by Vincent C. Müller, special issue, *Minds and Machines* 22 (2): 71–85. doi:10.1007/s11023-012-9281-3.
+- Bostrom, Nick, and Milan M. Ćirković, eds. 2008. *Global Catastrophic Risks*. New York: Oxford University Press.
+- Bostrom, Nick, and Anders Sandberg. 2009. "Cognitive Enhancement: Methods, Ethics, Regulatory Challenges." *Science and Engineering Ethics* 15 (3): 311–341. doi:10.1007/s11948-009-9142-5.
+
+- Brynjolfsson, Erik, and Andrew McAfee. 2011. *Race Against The Machine: How the Digital Revolution is Accelerating Innovation, Driving Productivity, and Irreversibly Transforming Employment and the Economy*. Lexington, MA: Digital Frontier. Kindle edition.
+- Caplan, Bryan. 2008. "The Totalitarian Threat." In Bostrom and Ćirković 2008, 504–519.
+- Cartwright, Edward. 2011. *Behavioral Economics*. Routledge Advanced Texts in Economics and Finance. New York: Routledge.
+- Cattell, Rick, and Alice Parker. 2012. *Challenges for Brain Emulation: Why is Building a Brain so Difficult?* Synaptic Link, February 5. <http://synapticlink.org/Brain%20Emulation%20Challenges.pdf>.
+- Chalmers, David John. 1996. *The Conscious Mind: In Search of a Fundamental Theory*. Philosophy of Mind Series. New York: Oxford University Press.
+- . 2010. "The Singularity: A Philosophical Analysis." *Journal of Consciousness Studies* 17 (9–10): 7–65. <http://www.ingentaconnect.com/content/imp/jcs/2010/00000017/f0020009/art00001>.
+- . 2012. "The Singularity: A Reply to Commentators." *Journal of Consciousness Studies* 19 (7–8): 141–167. <http://ingentaconnect.com/content/imp/jcs/2012/00000019/F0020007/art00014>.
+- Crevier, Daniel. 1993. *AI: The Tumultuous History of the Search for Artificial Intelligence*. New York: Basic Books.
+- De Blanc, Peter. 2011. *Ontological Crises in Artificial Agents' Value Systems*. The Singularity Institute, San Francisco, CA, May 19. <http://arxiv.org/abs/1105.3821>.
+- De Garis, Hugo, Chen Shuo, Ben Goertzel, and Lian Ruiting. 2010. "A World Survey of Artificial Brain Projects, Part I: Large-Scale Brain Simulations." *Neurocomputing* 74 (1–3): 3–29. doi:10.1016/j.neucom.2010.08.004.
+- Dennett, Daniel C. 1996. *Kinds of Minds: Toward an Understanding of Consciousness*. Science Master. New York: Basic Books.
+- Dreyfus, Hubert L. 1972. *What Computers Can't Do: A Critique of Artificial Reason*. New York: Harper & Row.
+- Eden, Amnon, Johnny Søraker, James H. Moor, and Eric Steinhart, eds. 2012. *Singularity Hypotheses: A Scientific and Philosophical Assessment*. The Frontiers Collection. Berlin: Springer.
+- Feldman, J. A., and Dana H. Ballard. 1982. "Connectionist Models and Their Properties." *Cognitive Science* 6 (3): 205–254. doi:10.1207/s15516709cog0603\_1.
+- Floreano, Dario, and Claudio Mattiussi. 2008. *Bio-Inspired Artificial Intelligence: Theories, Methods, and Technologies*. Intelligent Robotics and Autonomous Agents. Cambridge, MA: MIT Press.
+- Fox, Douglas. 2011. "The Limits of Intelligence." *Scientific American*, July, 36–43.
+- Fregni, Felipe, Paulo S. Boggio, Michael Nitsche, Felix Bermpohl, Andrea Antal, Eva Feredoes, Marco A. Marcolin, et al. 2005. "Anodal Transcranial Direct Current Stimulation of Prefrontal Cortex Enhances Working Memory." *Experimental Brain Research* 166 (1): 23–30. doi:10.1007/s00221-005-2334-6.
+- Friedman, James W., ed. 1994. *Problems of Coordination in Economic Activity*. Recent Economic Thought 35. Boston: Kluwer Academic.
+
+- Friedman, Milton. 1953. "The Methodology of Positive Economics." In *Essays in Positive Economics*, 3–43. Chicago: University of Chicago Press.
+- Goertzel, Ben. 2006. *The Hidden Pattern: A Patternist Philosophy of Mind*. Boca Raton, FL: BrownWalker.
+- . 2010. "Toward a Formal Characterization of Real-World General Intelligence." In *Artificial General Intelligence: Proceedings of the Third Conference on Artificial General Intelligence, AGI 2010, Lugano, Switzerland, March 5–8, 2010*, edited by Eric B. Baum, Marcus Hutter, and Emanuel Kitzelmann, 19–24. Advances in Intelligent Systems Research 10. Amsterdam: Atlantis. doi:10.2991/agi.2010.17.
+- . 2012. "Should Humanity Build a Global AI Nanny to Delay the Singularity Until It's Better Understood?" *Journal of Consciousness Studies* 19 (1–2): 96–111. <http://ingentaconnect.com/content/imp/jcs/2012/00000019/F0020001/art00006>.
+- Goertzel, Ben, and Cassio Pennachin, eds. 2007. *Artificial General Intelligence*. Cognitive Technologies. Berlin: Springer. doi:10.1007/978-3-540-68677-4.
+- Goldreich, Oded. 2010. *P, NP, and NP-Completeness: The Basics of Computational Complexity*. New York: Cambridge University Press.
+- Good, Irving John. 1959. *Speculations on Perceptrons and Other Automata*. Research Lecture, RC-115. IBM, Yorktown Heights, New York, June 2. [http://domino.research.ibm.com/library/cyberdig.nsf/papers/58DC4EA36A143C218525785E00502E30/\\$File/rc115.pdf](http://domino.research.ibm.com/library/cyberdig.nsf/papers/58DC4EA36A143C218525785E00502E30/$File/rc115.pdf).
+- . 1965. "Speculations Concerning the First Ultrasmart Machine." In *Advances in Computers*, edited by Franz L. Alt and Morris Rubinoff, 6:31–88. New York: Academic Press. doi:10.1016/S0065-2458(08)60418-0.
+- . 1970. "Some Future Social Repercussions of Computers." *International Journal of Environmental Studies* 1 (1–4): 67–79. doi:10.1080/00207237008709398.
+- . 1982. "Ethical Machines." In *Intelligent Systems: Practice and Perspective*, edited by J. E. Hayes, Donald Michie, and Y.-H. Pao, 555–560. Machine Intelligence 10. Chichester: Ellis Horwood.
+- Greenfield, Susan. 2012. "The Singularity: Commentary on David Chalmers." *Journal of Consciousness Studies* 19 (1–2): 112–118. <http://www.ingentaconnect.com/content/imp/jcs/2012/00000019/F0020001/art00007>.
+- Griffin, Dale, and Amos Tversky. 1992. "The Weighing of Evidence and the Determinants of Confidence." *Cognitive Psychology* 24 (3): 411–435. doi:10.1016/0010-0285(92)90013-R.
+- Groß, Dominik. 2009. "Blessing or Curse? Neurocognitive Enhancement by 'Brain Engineering.'" *Medicine Studies* 1 (4): 379–391. doi:10.1007/s12376-009-0032-6.
+- Gubrud, Mark Avrum. 1997. "Nanotechnology and International Security." Paper presented at the Fifth Foresight Conference on Molecular Nanotechnology, Palo Alto, CA, November 5–8. <http://www.foresight.org/Conferences/MNT05/Papers/Gubrud/>.
+- Halevy, Alon, Peter Norvig, and Fernando Pereira. 2009. "The Unreasonable Effectiveness of Data." *IEEE Intelligent Systems* 24 (2): 8–12. doi:10.1109/MIS.2009.36.
+- Hanson, Robin. 1998. "Economic Growth Given Machine Intelligence." Unpublished manuscript. Accessed May 15, 2013. <http://hanson.gmu.edu/aigrow.pdf>.
+- . 2008. "Economics of the Singularity." *IEEE Spectrum* 45 (6): 45–50. doi:10.1109/MSPEC.2008.4531461.
+
+- . 2012. "Meet the New Conflict, Same as the Old Conflict." *Journal of Consciousness Studies* 19 (1–2): 119–125. <http://www.ingentaconnect.com/content/imp/jcs/2012/00000019/F0020001/art00008>.
+- Hanson, Robin, and Eliezer Yudkowsky. 2008. "The Hanson-Yudkowsky AI-Foom Debate." Less Wrong Wiki. Accessed March 13, 2012. [http://wiki.lesswrong.com/wiki/The\\_Hanson-Yudkowsky\\_AI-Foom\\_Debate](http://wiki.lesswrong.com/wiki/The_Hanson-Yudkowsky_AI-Foom_Debate).
+- Heylighen, Francis. 2012. "Brain in a Vat Cannot Break Out." *Journal of Consciousness Studies* 19 (1–2): 126–142. <http://www.ingentaconnect.com/content/imp/jcs/2012/00000019/F0020001/art00009>.
+- Hibbard, Bill. 2011. "Measuring Agent Intelligence via Hierarchies of Environments." In Schmidhuber, Thórisson, and Looks 2011, 303–308.
+- Hutter, Marcus. 2005. *Universal Artificial Intelligence: Sequential Decisions Based On Algorithmic Probability*. Texts in Theoretical Computer Science. Berlin: Springer. doi:10.1007/b138233.
+- . 2012. "Can Intelligence Explode?" *Journal of Consciousness Studies* 19 (1–2): 143–166. <http://www.ingentaconnect.com/content/imp/jcs/2012/00000019/F0020001/art00010>.
+- Jaynes, E. T. 2003. *Probability Theory: The Logic of Science*. Edited by G. Larry Bretthorst. New York: Cambridge University Press. doi:10.2277/0521592712.
+- Jones, Benjamin F. 2009. "The Burden of Knowledge and the 'Death of the Renaissance Man': Is Innovation Getting Harder?" *Review of Economic Studies* 76 (1): 283–317. doi:10.1111/j.1467-937X.2008.00531.x.
+- Kaas, Steven, Steve Rayhawk, Anna Salamon, and Peter Salamon. 2010. *Economic Implications of Software Minds*. The Singularity Institute, San Francisco, CA, August 10. <http://intelligence.org/files/EconomicImplications.pdf>.
+- Kandel, Eric R., James H. Schwartz, and Thomas M. Jessell, eds. 2000. *Principles of Neural Science*. New York: McGraw-Hill.
+- Koza, John R. 2010. "Human-Competitive Results Produced by Genetic Programming." *Genetic Programming and Evolvable Machines* 11 (3–4): 251–284. doi:10.1007/s10710-010-9112-3.
+- Krichmar, Jeffrey L., and Hiroaki Wagatsuma, eds. 2011. *Neuromorphic and Brain-Based Robots*. New York: Cambridge University Press.
+- Kryder, M. H., and Chang Soo Kim. 2009. "After Hard Drives—What Comes Next?" *IEEE Transactions on Magnetics* 2009 (10): 3406–3413. doi:10.1109/TMAG.2009.2024163.
+- Kurzweil, Ray. 2005. *The Singularity Is Near: When Humans Transcend Biology*. New York: Viking.
+- Legg, Shane. 2008. "Machine Super Intelligence." PhD diss., University of Lugano. [http://www.vetta.org/documents/Machine\\_Super\\_Intelligence.pdf](http://www.vetta.org/documents/Machine_Super_Intelligence.pdf).
+- Legg, Shane, and Marcus Hutter. 2007. "A Collection of Definitions of Intelligence." In *Advances in Artificial General Intelligence: Concepts, Architectures and Algorithms—Proceedings of the AGI Workshop 2006*, edited by Ben Goertzel and Pei Wang, 17–24. Frontiers in Artificial Intelligence and Applications 157. Amsterdam: IOS.
+- Lichtenstein, Sarah, Baruch Fischhoff, and Lawrence D. Phillips. 1982. "Calibration of Probabilities: The State of the Art to 1980." In *Judgement Under Uncertainty: Heuristics and Biases*, edited by Daniel Kahneman, Paul Slovic, and Amos Tversky, 306–334. New York: Cambridge University Press.
+
+- Loosemore, Richard, and Ben Goertzel. 2011. "Why an Intelligence Explosion is Probable." *H+ Magazine*, March 7. <http://hplusmagazine.com/2011/03/07/why-an-intelligence-explosion-is-probable/>.
+- Lucas, J. R. 1961. "Minds, Machines and Gödel." *Philosophy* 36 (137): 112–127. doi:10.1017/S0031819100057983.
+- Lundstrom, Mark. 2003. "Moore's Law Forever?" *Science* 299 (5604): 210–211. doi:10.1126/science.1079567.
+- Mack, C. A. 2011. "Fifty Years of Moore's Law." *IEEE Transactions on Semiconductor Manufacturing* 24 (2): 202–207. doi:10.1109/TSM.2010.2096437.
+- Marcus, Gary. 2008. *Kluge: The Haphazard Evolution of the Human Mind*. Boston: Houghton Mifflin.
+- McAfee, Andrew, and Erik Brynjolfsson. 2008. "Investing in the IT That Makes a Competitive Difference." *Harvard Business Review*, July. <http://hbr.org/2008/07/investing-in-the-it-that-makes-a-competitive-difference>.
+- McCorduck, Pamela. 2004. *Machines Who Think: A Personal Inquiry into the History and Prospects of Artificial Intelligence*. 2nd ed. Natick, MA: A K Peters.
+- McDaniel, Michael A. 2005. "Big-Brained People are Smarter: A Meta-Analysis of the Relationship between In Vivo Brain Volume and Intelligence." *Intelligence* 33 (4): 337–346. doi:10.1016/j.intell.2004.11.005.
+- McDermott, Drew. 2012a. "Response to 'The Singularity' by David Chalmers." *Journal of Consciousness Studies* 19 (1–2): 167–172. <http://www.ingentaconnect.com/content/imp/jcs/2012/00000019/F0020001/art00011>.
+- . 2012b. "There Are No 'Extendible Methods' in David Chalmers's Sense Unless P=NP." Unpublished manuscript. Accessed March 19, 2012. <http://cs-www.cs.yale.edu/homes/dvm/papers/no-extendible-methods.pdf>.
+- Mehta, Ghanshyam B. 1998. "Preference and Utility." In *Handbook of Utility Theory, Volume I*, edited by Salvador Barbera, Peter J. Hammond, and Christian Seidl, 1–47. Boston: Kluwer Academic.
+- Minsky, Marvin. 1984. "Afterword to Vernor Vinge's novel, 'True Names.'" Unpublished manuscript, October 1. Accessed December 31, 2012. <http://web.media.mit.edu/~minsky/papers/TrueNames.Afterword.html>.
+- Modha, Dharmendra S., Rajagopal Ananthanarayanan, Steven K. Esser, Anthony Ndirango, Anthony J. Sherbondy, and Raghavendra Singh. 2011. "Cognitive Computing." *Communications of the ACM* 54 (8): 62–71. doi:10.1145/1978542.1978559.
+- Modis, Theodore. 2012. "There Will Be No Singularity." In Eden, Søraker, Moor, and Steinhart 2012.
+- Moravec, Hans P. 1976. "The Role of Raw Rower in Intelligence." Unpublished manuscript, May 12. Accessed August 12, 2012. <http://www.frc.ri.cmu.edu/users/hpm/project.archive/general.articles/1975/Raw.Power.html>.
+- . 1998. "When Will Computer Hardware Match the Human Brain?" *Journal of Evolution and Technology* 1. <http://www.transhumanist.com/volume1/moravec.htm>.
+- . 1999. "Rise of the Robots." *Scientific American*, December, 124–135.
+- Muehlhauser, Luke. 2011. "So You Want to Save the World." Last revised March 2, 2012. <http://lukeprog.com/SaveTheWorld.html>.
+
+- Muehlhauser, Luke, and Louie Helm. 2012. "The Singularity and Machine Ethics." In Eden, Søraker, Moor, and Steinhart 2012.
+- Murphy, Allan H., and Robert L. Winkler. 1984. "Probability Forecasting in Meteorology." *Journal of the American Statistical Association* 79 (387): 489–500.
+- Nagy, Béla, J. Doyne Farmer, Jessika E. Trancik, and Quan Minh Bui. 2010. *Testing Laws of Technological Progress*. Santa Fe, NM: Santa Fe Institute, September 2. <http://tuvalu.santafe.edu/~bn/workingpapers/NagyFarmerTrancikBui.pdf>.
+- Nagy, Béla, J. Doyne Farmer, Jessika E. Trancik, and John Paul Gonzales. 2011. "Superexponential Long-Term Trends in Information Technology." *Technological Forecasting and Social Change* 78 (8): 1356–1364. doi:10.1016/j.techfore.2011.07.006.
+- Nielsen, Michael. 2011. "What Should a Reasonable Person Believe about the Singularity?" *Michael Nielsen (blog)*, January 12. <http://michaelnielsen.org/blog/what-should-a-reasonable-person-believe-about-the-singularity/>.
+- Nilsson, Nils J. 2009. *The Quest for Artificial Intelligence: A History of Ideas and Achievements*. New York: Cambridge University Press.
+- Nordmann, Alfred. 2007. "If and Then: A Critique of Speculative NanoEthics." *NanoEthics* 1 (1): 31–46. doi:10.1007/s11569-007-0007-6.
+- Omohundro, Stephen M. 1987. "Efficient Algorithms with Neural Network Behavior." *Complex Systems* 1 (2): 273–347. [http://www.complex-systems.com/abstracts/v01\\_i02\\_a04.html](http://www.complex-systems.com/abstracts/v01_i02_a04.html).
+- . 2007. "The Nature of Self-Improving Artificial Intelligence." Paper presented at Singularity Summit 2007, San Francisco, CA, September 8–9. <http://selfawaresystems.com/2007/10/05/paper-on-the-nature-of-self-improving-artificial-intelligence/>.
+- . 2008. "The Basic AI Drives." In Wang, Goertzel, and Franklin 2008, 483–492.
+- . 2012. "Rational Artificial Intelligence for the Greater Good." In Eden, Søraker, Moor, and Steinhart 2012.
+- Pan, Zhenglun, Thomas A. Trikalinos, Fotini K. Kavvoura, Joseph Lau, and John P. A. Ioannidis. 2005. "Local Literature Bias in Genetic Epidemiology: An Empirical Evaluation of the Chinese Literature." *PLoS Medicine* 2 (12): e334. doi:10.1371/journal.pmed.0020334.
+- Parente, Rick, and Janet Anderson-Parente. 2011. "A Case Study of Long-Term Delphi Accuracy." *Technological Forecasting and Social Change* 78 (9): 1705–1711. doi:10.1016/j.techfore.2011.07.005.
+- Pennachin, Cassio, and Ben Goertzel. 2007. "Contemporary Approaches to Artificial General Intelligence." In Goertzel and Pennachin 2007, 1–30.
+- Penrose, Roger. 1994. *Shadows of the Mind: A Search for the Missing Science of Consciousness*. New York: Oxford University Press.
+- Plebe, Alessio, and Pietro Perconti. 2012. "The Slowdown Hypothesis." In Eden, Søraker, Moor, and Steinhart 2012.
+- Posner, Richard A. 2004. *Catastrophe: Risk and Response*. New York: Oxford University Press.
+- Proudfoot, Diane, and B. Jack Copeland. 2012. "Artificial Intelligence." In *The Oxford Handbook of Philosophy of Cognitive Science*, edited by Eric Margolis, Richard Samuels, and Stephen P. Stich. New York: Oxford University Press.
+
+- Richards, Mark A., and Gary A. Shaw. 2004. "Chips, Architectures and Algorithms: Reflections on the Exponential Growth of Digital Signal Processing Capability." Unpublished manuscript, January 28. Accessed March 20, 2012. [http://users.ece.gatech.edu/~mrichard/Richards&Shaw\\_Algorithms01204.pdf](http://users.ece.gatech.edu/~mrichard/Richards&Shaw_Algorithms01204.pdf).
+- Rieffel, Eleanor, and Wolfgang Polak. 2011. *Quantum Computing: A Gentle Introduction*. Scientific and Engineering Computation. Cambridge, MA: MIT Press.
+- Rowe, Gene, and George Wright. 2001. "Expert Opinions in Forecasting: The Role of the Delphi Technique." In *Principles of Forecasting: A Handbook for Researchers and Practitioners*, edited by Jon Scott Armstrong. International Series in Operations Research & Management Science 30. Boston: Kluwer Academic.
+- The Royal Society. 2011. *Knowledge, Networks and Nations: Global Scientific Collaboration in the 21st Century*. RS Policy document, 03/11. Royal Society, London. [http://royalsociety.org/uploadedFiles/Royal\\_Society\\_Content/policy/publications/2011/4294976134.pdf](http://royalsociety.org/uploadedFiles/Royal_Society_Content/policy/publications/2011/4294976134.pdf).
+- Russell, Stuart J., and Peter Norvig. 2010. *Artificial Intelligence: A Modern Approach*. 3rd ed. Upper Saddle River, NJ: Prentice-Hall.
+- Sandberg, Anders. 2010. "An Overview of Models of Technological Singularity." Paper presented at the Roadmaps to AGI and the Future of AGI Workshop, Lugano, Switzerland, March 8. <http://agi-conf.org/2010/wp-content/uploads/2009/06/agi10singmodels2.pdf>.
+- . 2011. "Cognition Enhancement: Upgrading the Brain." In *Enhancing Human Capacities*, edited by Julian Savulescu, Ruud ter Meulen, and Guy Kahane, 71–91. Malden, MA: Wiley-Blackwell.
+- Sandberg, Anders, and Nick Bostrom. 2008. *Whole Brain Emulation: A Roadmap*. Technical Report, 2008-3. Future of Humanity Institute, University of Oxford. <http://www.fhi.ox.ac.uk/wp-content/uploads/brain-emulation-roadmap-report1.pdf>.
+- . 2011. *Machine Intelligence Survey*. Technical Report, 2011-1. Future of Humanity Institute, University of Oxford. [www.fhi.ox.ac.uk/reports/2011-1.pdf](http://www.fhi.ox.ac.uk/reports/2011-1.pdf).
+- Schaul, Tom, and Jürgen Schmidhuber. 2010. "Metalearning." *Scholarpedia* 5 (6): 4650. doi:10.4249/scholarpedia.4650.
+- Schierwagen, Andreas. 2011. "Reverse Engineering for Biologically Inspired Cognitive Architectures: A Critical Analysis." In *From Brains to Systems: Brain-Inspired Cognitive Systems 2010*, edited by Carlos Hernández, Ricardo Sanz, Jaime Gómez-Ramirez, Leslie S. Smith, Amir Hussain, Antonio Chella, and Igor Aleksander, 111–121. *Advances in Experimental Medicine and Biology* 718. New York: Springer. doi:10.1007/978-1-4614-0164-3\_10.
+- Schmidhuber, Jürgen. 2002. "The Speed Prior: A New Simplicity Measure Yielding Near-Optimal Computable Predictions." In *Computational Learning Theory: 5th Annual Conference on Computational Learning Theory, COLT 2002 Sydney, Australia, July 8–10, 2002 Proceedings*, edited by Jyrki Kivinen and Robert H. Sloan, 123–127. Lecture Notes in Computer Science 2375. Berlin: Springer. doi:10.1007/3-540-45435-7\_15.
+- . 2007. "Gödel Machines: Fully Self-Referential Optimal Universal Self-Improvers." In Goertzel and Pennachin 2007, 199–226.
+- Schmidhuber, Jürgen, Kristinn R. Thorisson, and Moshe Looks, eds. 2011. *Artificial General Intelligence: 4th International Conference, AGI 2011, Mountain View, CA, USA, August 3–6, 2011. Proceedings*. Lecture Notes in Computer Science 6830. Berlin: Springer. doi:10.1007/978-3-642-22887-2.
+
+- Schneider, Stefan. 2010. *Homo Economicus—or More like Homer Simpson?* Current Issues. Deutsche Bank Research, Frankfurt, June 29. [http://www.dbresearch.com/PROD/DBR\\_INTERNET\\_EN-PROD/PROD0000000000259291.PDF](http://www.dbresearch.com/PROD/DBR_INTERNET_EN-PROD/PROD0000000000259291.PDF).
+- Schoenemann, Paul Thomas. 1997. “An MRI Study of the Relationship Between Human Neuroanatomy and Behavioral Ability.” PhD diss., University of California, Berkeley. [http://mypage.iu.edu/~toms/papers/dissertation/Dissertation\\_title.htm](http://mypage.iu.edu/~toms/papers/dissertation/Dissertation_title.htm).
+- Schwartz, Jacob T. 1987. “Limits of Artificial Intelligence.” In *Encyclopedia of Artificial Intelligence*, edited by Stuart C. Shapiro and David Eckroth, 1:488–503. New York: John Wiley & Sons.
+- Searle, John R. 1980. “Minds, Brains, and Programs.” *Behavioral and Brain Sciences* 3 (03): 417–424. doi:10.1017/S0140525X00005756.
+- Shulman, Carl, and Nick Bostrom. 2012. “How Hard is Artificial Intelligence? Evolutionary Arguments and Selection Effects.” *Journal of Consciousness Studies* 19 (7–8): 103–130. <http://ingentaconnect.com/content/imp/jcs/2012/00000019/F0020007/art00011>.
+- Shulman, Carl, and Anders Sandberg. 2010. “Implications of a Software-Limited Singularity.” In *ECAP10: VIII European Conference on Computing and Philosophy*, edited by Klaus Mainzer. Munich: Dr. Hut.
+- Simon, Herbert Alexander. 1965. *The Shape of Automation for Men and Management*. New York: Harper & Row.
+- Solomonoff, Ray J. 1985. “The Time Scale of Artificial Intelligence: Reflections on Social Effects.” *Human Systems Management* 5:149–153.
+- Sotala, Kaj. 2012. “Advantages of Artificial Intelligences, Uploads, and Digital Minds.” *International Journal of Machine Consciousness* 4 (1): 275–291. doi:10.1142/S1793843012400161.
+- Tetlock, Philip E. 2005. *Expert Political Judgment: How Good is it? How Can We Know?* Princeton, NJ: Princeton University Press.
+- Trappenberg, Thomas P. 2009. *Fundamentals of Computational Neuroscience*. 2nd ed. New York: Oxford University Press.
+- Turing, A. M. 1950. “Computing Machinery and Intelligence.” *Mind* 59 (236): 433–460. doi:10.1093/mind/LIX.236.433.
+- . 1951. “Intelligent Machinery, A Heretical Theory.” A lecture given to ‘51 Society’ at Manchester.
+- Tversky, Amos, and Daniel Kahneman. 1974. “Judgment Under Uncertainty: Heuristics and Biases.” *Science* 185 (4157): 1124–1131. doi:10.1126/science.185.4157.1124.
+- . 1983. “Extensional Versus Intuitive Reasoning: The Conjunction Fallacy in Probability Judgment.” *Psychological Review* 90 (4): 293–315. doi:10.1037/0033-295X.90.4.293.
+- The Uncertain Future. 2012. “What is Multi-generational In Vitro Embryo Selection?” The Uncertain Future. Accessed March 25, 2012. <http://www.theuncertainfuture.com/faq.html#7>.
+- Van der Velde, Frank. 2010. “Where Artificial Intelligence and Neuroscience Meet: The Search for Grounded Architectures of Cognition.” *Advances in Artificial Intelligence*, no. 5. doi:10.1155/2010/918062.
+- Van Gelder, Timothy, and Robert F. Port. 1995. “It’s About Time: An Overview of the Dynamical Approach to Cognition.” In *Mind as Motion: Explorations in the Dynamics of Cognition*, edited by Robert F. Port and Timothy van Gelder. Bradford Books. Cambridge, MA: MIT Press.
+
+- Vinge, Vernor. 1993. "The Coming Technological Singularity: How to Survive in the Post-Human Era." In *Vision-21: Interdisciplinary Science and Engineering in the Era of Cyberspace*, 11–22. NASA Conference Publication 10129. NASA Lewis Research Center. [http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19940022855\\_1994022855.pdf](http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19940022855_1994022855.pdf).
+- Von Neumann, John. 1966. *Theory of Self-Replicating Automata*. Edited by Arthur Walter Burks. Urbana: University of Illinois Press.
+- Walter, Chip. 2005. "Kryder's Law." *Scientific American*, July 25. <http://www.scientificamerican.com/article.cfm?id=kryders-law>.
+- Wang, Pei, Ben Goertzel, and Stan Franklin, eds. 2008. *Artificial General Intelligence 2008: Proceedings of the First AGI Conference*. Frontiers in Artificial Intelligence and Applications 171. Amsterdam: IOS.
+- Williams, Leighton Vaughan, ed. 2011. *Prediction Markets: Theory and Applications*. Routledge International Studies in Money and Banking 66. New York: Routledge.
+- Wooters, W. K., and W. H. Zurek. 1982. "A Single Quantum Cannot Be Cloned." *Nature* 299 (5886): 802–803. doi:10.1038/299802a0.
+- Woudenberg, Fred. 1991. "An Evaluation of Delphi." *Technological Forecasting and Social Change* 40 (2): 131–150. doi:10.1016/0040-1625(91)90002-W.
+- Yampolskiy, Roman V. 2012. "Leakproofing the Singularity: Artificial Intelligence Confinement Problem." *Journal of Consciousness Studies* 2012 (1–2): 194–214. <http://www.ingentaconnect.com/content/imp/jcs/2012/00000019/F0020001/art00014>.
+- Yates, J. Frank, Ju-Whei Lee, Winston R. Sieck, Incheol Choi, and Paul C. Price. 2002. "Probability Judgment Across Cultures." In *Heuristics and Biases: The Psychology of Intuitive Judgment*, edited by Thomas Gilovich, Dale Griffin, and Daniel Kahneman, 271–291. New York: Cambridge University Press. doi:10.2277/0521796792.
+- Yudkowsky, Eliezer. 2001. *Creating Friendly AI 1.0: The Analysis and Design of Benevolent Goal Architectures*. The Singularity Institute, San Francisco, CA, June 15. <http://intelligence.org/files/CFAI.pdf>.
+- . 2008a. "Artificial Intelligence as a Positive and Negative Factor in Global Risk." In Bostrom and Ćirković 2008, 308–345.
+- . 2008b. "Efficient Cross-Domain Optimization." *Less Wrong* (blog), October 28. [http://lesswrong.com/lw/vb/efficient\\_crossdomain\\_optimization/](http://lesswrong.com/lw/vb/efficient_crossdomain_optimization/).
+- . 2011. "Complex Value Systems in Friendly AI." In Schmidhuber, Thórisson, and Looks 2011, 388–393.++}
