@@ -21,7 +21,7 @@ Add discussion note here:
 
 If you carefully consider a topic, you can sometimes see one of history's zigs or zags coming.
 
-In 1933, a physicist named Leo Szilard was the first person to realize that nuclear chain reactions are possible.[^source-note-1] He thereby gained the ability to predict one of history's zigs earlier than anyone else.
+In 1933, a physicist named Leo Szilard was the first person to realize that nuclear chain reactions are {--{"author":"Luc's AI","timestamp":1787161386324}@@possible.[^source-note-1]--}{++{"author":"Luc's AI","timestamp":1787161386324}@@possible.[^note-iabied-ftnt1]++} He thereby gained the ability to predict one of history's zigs earlier than anyone else.
 
 We think that if you look at AI from the right vantage point today, you can see one of history's zags coming. And we think that events are set to go poorly if humanity does not change course.
 
@@ -35,4 +35,4 @@ We do not think the situation is hopeless. We wrote this book with the hope of c
 
 The first step toward solving a problem is to understand it.
 
-[^source-note-1]: We tell part of Leo Szilard's tale in an [extended discussion](https://ifanyonebuildsit.com/intro/when-leo-szilard-saw-the-future).
+{--{"author":"Luc's AI","timestamp":1787161388749}@@[^source-note-1]:--}{++{"author":"Luc's AI","timestamp":1787161388749}@@[^note-iabied-ftnt1]:++} We tell part of Leo Szilard's tale in an [extended discussion](https://ifanyonebuildsit.com/intro/when-leo-szilard-saw-the-future).
