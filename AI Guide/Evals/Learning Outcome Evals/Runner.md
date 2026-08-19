@@ -1,10 +1,10 @@
-{++{"author":"AI","timestamp":1787162177320}@@---
+{++{"author":"AI","timestamp":1787162223376}@@---
 tags:
   - validator-ignore
 ---
 # Runner — how to execute the LO eval suite
 
-These are the complete operating instructions for running the Learning Outcome quality evals. They are written for an AI agent with access to the lens-relay MCP tools and a shell; no repository checkout is needed. (Claude Code users in the lens-relay repo can invoke this via the thin `/lo-eval` skill, which just points here.)
+These are the complete operating instructions for running the Learning Outcome quality evals. They are written for an AI agent with access to the lens-relay MCP tools and a shell; no repository checkout is needed.
 
 You are running quality evals over **learning-outcome (LO) files** in `Lens Edu/Learning Outcomes/`. These evals judge our own content — the outcome statement, test question, and rubric of each LO file. They do NOT grade student answers.
 
