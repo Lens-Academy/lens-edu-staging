@@ -21,14 +21,14 @@ Imagine an AI that's piloting a robot to fetch some coffee. In order to fetch th
 
 Why not? [Because the robot can't fetch the coffee if it's destroyed](https://www.scientificamerican.com/article/should-we-fear-supersmart-robots/).
 
-The AI doesn't need to have a human-style survival instinct in order to do its best to avoid death. Survival instincts in humans are one way of *doing the work* of avoiding dying while we're trying to achieve other goals. AIs probably won't do that work in exactly the same way, but they'll still have to do the same work, because you can't fetch coffee when you're dead.[^source-note-188]
+The AI doesn't need to have a human-style survival instinct in order to do its best to avoid death. Survival instincts in humans are one way of *doing the work* of avoiding dying while we're trying to achieve other goals. AIs probably won't do that work in exactly the same way, but they'll still have to do the same work, because you can't fetch coffee when you're {--{"author":"Luc's AI","timestamp":1787161384451}@@dead.[^source-note-188]--}{++{"author":"Luc's AI","timestamp":1787161384451}@@dead.[^note-iabied-ftnt188]++}
 
-Matter and energy are useful for almost every goal. No matter what the AI is steering toward, it can probably get it more effectively with more matter and more energy.[^source-note-189] The AI doesn't need to be selfish, aggressive, or greedy in the manner of a human in order to *do the work* of securing resources to achieve its goals.
+Matter and energy are useful for almost every goal. No matter what the AI is steering toward, it can probably get it more effectively with more matter and more {--{"author":"Luc's AI","timestamp":1787161387174}@@energy.[^source-note-189]--}{++{"author":"Luc's AI","timestamp":1787161387174}@@energy.[^note-iabied-ftnt189]++} The AI doesn't need to be selfish, aggressive, or greedy in the manner of a human in order to *do the work* of securing resources to achieve its goals.
 
 And the danger arises from the work, not from the reason the work is done.
 
 An AI that doesn't hate you can still take actions that are lethally dangerous to you, just as a chess AI can crush you at chess [without feeling](https://ifanyonebuildsit.com/3/anthropomorphism-and-mechanomorphism) [competitive](https://ifanyonebuildsit.com/3/anthropomorphism-and-mechanomorphism) or driven to win.
 
-[^source-note-188]: Related: The [extended discussion on curiosity](https://ifanyonebuildsit.com/4/curiosity-isnt-convergent).
+{--{"author":"Luc's AI","timestamp":1787161389222}@@[^source-note-188]:--}{++{"author":"Luc's AI","timestamp":1787161389222}@@[^note-iabied-ftnt188]:++} Related: The [extended discussion on curiosity](https://ifanyonebuildsit.com/4/curiosity-isnt-convergent).
 
-[^source-note-189]: See also the question of whether [the AI can be satisfied and then leave us alone](https://ifanyonebuildsit.com/5/can-the-ai-be-satisfied-to-the-point-where-it-just-leaves-us-alone).
+{--{"author":"Luc's AI","timestamp":1787161391097}@@[^source-note-189]:--}{++{"author":"Luc's AI","timestamp":1787161391097}@@[^note-iabied-ftnt189]:++} See also the question of whether [the AI can be satisfied and then leave us alone](https://ifanyonebuildsit.com/5/can-the-ai-be-satisfied-to-the-point-where-it-just-leaves-us-alone).
