@@ -296,23 +296,23 @@ In my next essay, I’ll look at these objections – both the more fundamental 
 	 Though of course, the usefulness of our AIs comes along a spectrum, and we should be trying to do as much AI for AI safety as we can, at every step along the way.
 {--{"author":"Luc's AI","timestamp":1787159014795}@@[^30]:--}{++{"author":"Luc's AI","timestamp":1787159014795}@@[^note-carlsmith-30]:++}
 	 Thanks to Owen Cotton-Barratt for discussion.
-[^31]:
+{--{"author":"Luc's AI","timestamp":1787159015276}@@[^31]:--}{++{"author":"Luc's AI","timestamp":1787159015276}@@[^note-carlsmith-31]:++}
 	 This is the sort of strategy that I associate with e.g. Shlegeris and Greenblatt [here](https://www.alignmentforum.org/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled), though I’m not sure if they’d endorse this framing.
-[^32]:
+{--{"author":"Luc's AI","timestamp":1787159015735}@@[^32]:--}{++{"author":"Luc's AI","timestamp":1787159015735}@@[^note-carlsmith-32]:++}
 	 For example: applying option control to superhuman strategies requires access to superhuman forms of oversight and monitoring.
-[^33]:
+{--{"author":"Luc's AI","timestamp":1787159016223}@@[^33]:--}{++{"author":"Luc's AI","timestamp":1787159016223}@@[^note-carlsmith-33]:++}
 	 Plus, as in the case of the AI for AI safety sweet spot, we need adequate elicitation ability.
-[^34]:
+{--{"author":"Luc's AI","timestamp":1787159016676}@@[^34]:--}{++{"author":"Luc's AI","timestamp":1787159016676}@@[^note-carlsmith-34]:++}
 	 Though obviously, relying on our countermeasures to ensure this condition is its own form of scary as well.
-[^35]:
+{--{"author":"Luc's AI","timestamp":1787159017203}@@[^35]:--}{++{"author":"Luc's AI","timestamp":1787159017203}@@[^note-carlsmith-35]:++}
 	 Because the availability of more such paths makes it harder for an AI’s “inhibitions” to rule out all the available options, and higher probabilities of success make it easier for lower-levels of “ambition” to justify going for it anyways.
-[^36]:
+{--{"author":"Luc's AI","timestamp":1787159017750}@@[^36]:--}{++{"author":"Luc's AI","timestamp":1787159017750}@@[^note-carlsmith-36]:++}
 	 And in my opinion, arguments about AI risk too often focus on the *maximally* spicy case (i.e., the case of AIs that are in a position to disempower humanity extremely easily via a wide variety of paths).
-[^37]:
+{--{"author":"Luc's AI","timestamp":1787159018240}@@[^37]:--}{++{"author":"Luc's AI","timestamp":1787159018240}@@[^note-carlsmith-37]:++}
 	 In the diagram, I’ve put the two lines in the same place; but in principle, the capability level required for disempowering humanity might actually come *earlier* than the capability level required to radically improve our competence. H/t Owen Cotton-Barratt for discussion.
-[^38]:
+{--{"author":"Luc's AI","timestamp":1787159018742}@@[^38]:--}{++{"author":"Luc's AI","timestamp":1787159018742}@@[^note-carlsmith-38]:++}
 	 For example: we might worry that it will be too difficult to *tell* when we’re in the sweet spot (h/t Catherine Brewer); or we might worry that relevant actors won’t invest enough resources into benefiting from the sweet spot.
-[^39]:
+{--{"author":"Luc's AI","timestamp":1787159019228}@@[^39]:--}{++{"author":"Luc's AI","timestamp":1787159019228}@@[^note-carlsmith-39]:++}
 	 We might also worry about:
 	**Cover**: The idea of “AI for AI safety” will provide cover for people to push forward with dangerous forms of AI capability development.
 	**Complacency**: The idea of “passing the buck to the AIs” will obscure how much work humans will still need to be doing, and will render us complacent more generally.
