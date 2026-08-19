@@ -2,7 +2,8 @@
 title: "What does it take to catch a Chinchilla? Verifying Rules on Large-Scale Neural Network Training via Compute Monitoring"
 author:
   - "Yonadav Shavit"
-source_url: "https://arxiv.org/abs/2303.11341"
+source_url: "https://arxiv.org/abs/2303.11341"{++{"author":"Luc's AI","timestamp":1787134405728}@@
+allowUnreachableUrl: true++}
 published: 2023-03-20
 created: 2026-07-28
 accessed: 2026-07-28

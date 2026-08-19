@@ -6,7 +6,8 @@ author:
   - "Alexander Hoover"
   - "Daniel Reuter"
   - "Keri Warr"
-source_url: "https://arxiv.org/abs/2511.02620"
+source_url: "https://arxiv.org/abs/2511.02620"{++{"author":"Luc's AI","timestamp":1787134405407}@@
+allowUnreachableUrl: true++}
 published: 2025-11-04
 created: 2026-07-28
 accessed: 2026-07-28

@@ -4,7 +4,8 @@ author:
   - "Alina Gutoreva"
   - "Fendi Tsim"
   - "Trisevgeni Papakonstantinou"
-source_url: "https://arxiv.org/abs/2605.16197"
+source_url: "https://arxiv.org/abs/2605.16197"{++{"author":"Luc's AI","timestamp":1787134405147}@@
+allowUnreachableUrl: true++}
 published: 2026-05-15
 created: 2026-08-08
 accessed: 2026-08-08

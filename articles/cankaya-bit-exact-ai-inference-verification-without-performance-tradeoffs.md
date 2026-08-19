@@ -2,7 +2,8 @@
 title: "Bit-Exact AI Inference Verification Without Performance Tradeoffs"
 author:
   - "Naci Cankaya"
-source_url: "https://arxiv.org/abs/2606.00279"
+source_url: "https://arxiv.org/abs/2606.00279"{++{"author":"Luc's AI","timestamp":1787134404822}@@
+allowUnreachableUrl: true++}
 published: 2026-05-29
 created: 2026-07-28
 accessed: 2026-07-28

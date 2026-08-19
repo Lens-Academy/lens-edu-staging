@@ -5,7 +5,8 @@ author:
   - "David Abecassis"
   - "Peter Barnett"
   - "Brian Abeyta"
-source_url: "https://arxiv.org/abs/2511.10783"
+source_url: "https://arxiv.org/abs/2511.10783"{++{"author":"Luc's AI","timestamp":1787134405994}@@
+allowUnreachableUrl: true++}
 published: 2025-11-13
 created: 2026-07-28
 accessed: 2026-07-28
