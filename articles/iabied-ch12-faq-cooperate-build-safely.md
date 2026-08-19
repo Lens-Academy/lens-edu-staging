@@ -35,11 +35,11 @@ Barely three months before the Chernobyl meltdown, NASA had launched the Space S
 
 Between Chernobyl and the Challenger, three delays seems to be the human limit. Suppose Earth sets up an international AI collaboration, and some "AI safety test" fails three times. Realistically, humans are the sort of creatures that would press "go" the fourth time despite some niggling doubts, because that feels less embarrassing than postponing the test again. Except that in the case of AI, it wouldn't just wipe out the city of Chernobyl or kill a crew of astronauts. It would kill everyone.
 
-We're fully on board with the idea that humanity should build smarter-than-human AI {--{"author":"Luc's AI","timestamp":1787161312181}@@*eventually*.[^source-note-277]--}{++{"author":"Luc's AI","timestamp":1787161312181}@@*eventually*.[^note-iabied-ftnt277]++} But rushing to assemble an international AI research hub fails to take seriously the technical challenge before us.
+We're fully on board with the idea that humanity should build smarter-than-human AI *eventually*.[^note-iabied-ftnt277] But rushing to assemble an international AI research hub fails to take seriously the technical challenge before us.
 
 Given humanity's dismal state of knowledge and competence on this topic, it doesn't matter who's in charge. If *anyone* builds it, everyone dies.
 
-{--{"author":"Luc's AI","timestamp":1787161314631}@@[^source-note-277]:--}{++{"author":"Luc's AI","timestamp":1787161314631}@@[^note-iabied-ftnt277]:++} How, if not by an international coalition? We'd recommend investment into [enhancing adult human intelligence](https://ifanyonebuildsit.com/13/why-would-making-humans-smarter-help#it-could-help-with-solving-the-alignment-problem), but this is not the sort of idea people need to agree upon to agree that shutting down ASI research is a good idea.
+[^note-iabied-ftnt277]: How, if not by an international coalition? We'd recommend investment into [enhancing adult human intelligence](https://ifanyonebuildsit.com/13/why-would-making-humans-smarter-help#it-could-help-with-solving-the-alignment-problem), but this is not the sort of idea people need to agree upon to agree that shutting down ASI research is a good idea.
 
 #### Notes
 
