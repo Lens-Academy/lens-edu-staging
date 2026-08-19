@@ -82,7 +82,7 @@ Sex needs to be mapped to something that splits proteins into two roughly equal-
 
 **Character weight** → **protein mass.**
 
-45 kg = 45 {--{"author":"Luc's AI","timestamp":1787136358747}@@kilo[dalton](https://en.wikipedia.org/wiki/Dalton_(unit))--}{++{"author":"Luc's AI","timestamp":1787136358747}@@[kilodalton](https://en.wikipedia.org/wiki/Dalton_(unit))++} (kDa).
+45 kg = 45 [kilodalton](https://en.wikipedia.org/wiki/Dalton_(unit)) (kDa).
 
 ![IGHJ1 (2 kg) and TTN (3816 kg) gene characters](https://res.cloudinary.com/lesswrong-2-0/image/upload/v1780003494/lexical_client_uploads/hybi8jcql903zxckguwz.png)
 

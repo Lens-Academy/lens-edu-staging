@@ -23,7 +23,7 @@ Add discussion note here:
 
 Verifying claims about AI workloads is a prerequisite for credible AI governance of covert adversaries (who comply with monitoring only when detection likelihood is high), yet the apparent non-determinism of GPU floating-point arithmetic forces auditors to accept approximate output matches. Covert adversaries can exploit unverifiable degrees of freedom in monitored computation. Attack vectors include steganography, unreported modification of inference software, and covert computation via unreported batch elements. Empirically, we analyze how modern inference engines (vLLM, HF transformers) produce deterministic but non-invariant outputs, without needing to set performance-compromising determinism flags, if the right information is available for re-computation and no atomic functions are called in the backend. We demonstrate that such bitwise-precise re-computation does not require access to identical hardware, via a software-only emulation of LLM inference across multiple NVIDIA GPU variants. Thus, accumulated rounding errors can be an auditable signature of the software and hardware setup used for inference, instead of a constraint on verifiability. Source code for the emulator is available [here](https://github.com/NaciCankaya/hardware_rounding_error_predictor), and the repository for the empirical studies can be found [here](https://github.com/NaciCankaya/Floating_point_noise_GPU_verification).
 
-{++{"author":"Luc's AI","timestamp":1787136358247}@@**Keywords:** ++}AI governance, verification, floating-point arithmetic, tensor cores, inference
+**Keywords:** AI governance, verification, floating-point arithmetic, tensor cores, inference
 
 ## 1 Introduction and Related Work
 

@@ -6,8 +6,8 @@ author:
   - "Zershaaneh Qureshi"
 published: 2025-07-17
 created: 2026-06-02
-{++{"author":"Luc's AI","timestamp":1787136385565}@@accessed: 2026-06-02
-++}description: "Why do we think that reducing risks from AI is one of the most pressing issues of our time?"
+accessed: 2026-06-02
+description: "Why do we think that reducing risks from AI is one of the most pressing issues of our time?"
 tags:
 ---
 

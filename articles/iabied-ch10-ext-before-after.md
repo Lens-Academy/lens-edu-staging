@@ -71,10 +71,4 @@ Nature doesn't care about all the mountains of evidence and predictions accumula
 
 Getting scientific theories to work on the first critical try is hard.
 
-{--{"author":"Luc's AI","timestamp":1787136402514}@@---
-
-[\*](#ftnt254_ref) As we observe in the book's Chapter 10 endnote 6, physicists do not actually give neutron multiplication factors in percentages. We give them that way for clarity, for reasons discussed in --}{++{"author":"Luc's AI","timestamp":1787136402514}@@{>>{"author":"Luc's AI","timestamp":1787136402514}@@This entire trailing unit was imported from ++}the {--{"author":"Luc's AI","timestamp":1787136402514}@@aforementioned endnote.
-
-#### Notes
-
-[1] *first thermonuclear weapon:* Castle Bravo was not the first detonation of a thermonuclear (hydrogen) *device;* that distinction belongs to--}{++{"author":"Luc's AI","timestamp":1787136402514}@@adjacent canonical “The Tale of Chicago Pile-1” page. The canonical “A Closer Look at Before and After” article ends before it, so++} the {--{"author":"Luc's AI","timestamp":1787136402514}@@building-sized "Mike" of the [Ivy Mike test](https://en.wikipedia.org/wiki/Ivy_Mike), which did not rely on lithium.--}{++{"author":"Luc's AI","timestamp":1787136402514}@@source-inconsistent duplicate is removed here.<<}++}
+{>>{"author":"Luc's AI","timestamp":1787136402514}@@This entire trailing unit was imported from the adjacent canonical “The Tale of Chicago Pile-1” page. The canonical “A Closer Look at Before and After” article ends before it, so the source-inconsistent duplicate is removed here.<<}

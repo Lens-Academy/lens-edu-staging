@@ -18,7 +18,7 @@ I think that at some point in the development of Artificial Intelligence, we are
 
 Most people who object to this scenario, object to the "fast" part. Robin Hanson objected to the "local" part. I'll try to handle both, though not all in one shot today.
 
-We are setting forth to analyze the developmental velocity of an Artificial Intelligence. We'll break down this velocity into [optimization slope, optimization resources, and optimization efficiency](https://www.lesswrong.com/lw/w3/lifes_story_continues). We'll need to understand [cascades, cycles, insight](https://www.lesswrong.com/lw/w5/cascades_cycles_insight) and {--{"author":"Luc's AI","timestamp":1787136359072}@@r[ecursion](https://www.lesswrong.com/lw/w6/recursion_magic)--}{++{"author":"Luc's AI","timestamp":1787136359072}@@[recursion](https://www.lesswrong.com/lw/w6/recursion_magic)++}; and we'll stratify our recursive levels into the [metacognitive, cognitive, metaknowledge, knowledge, and object level](https://www.lesswrong.com/lw/w6/recursion_magic).
+We are setting forth to analyze the developmental velocity of an Artificial Intelligence. We'll break down this velocity into [optimization slope, optimization resources, and optimization efficiency](https://www.lesswrong.com/lw/w3/lifes_story_continues). We'll need to understand [cascades, cycles, insight](https://www.lesswrong.com/lw/w5/cascades_cycles_insight) and [recursion](https://www.lesswrong.com/lw/w6/recursion_magic); and we'll stratify our recursive levels into the [metacognitive, cognitive, metaknowledge, knowledge, and object level](https://www.lesswrong.com/lw/w6/recursion_magic).
 
 Quick review:
 

@@ -15,9 +15,9 @@ Add discussion note here:
 ...
 
 %%
-#### Maybe. If we wish to make use of them, we must prepare now.{++{"author":"Luc's AI","timestamp":1787136384978}@@
+#### Maybe. If we wish to make use of them, we must prepare now.
 
-{>>{"author":"Luc's AI","timestamp":1787136384978}@@This imported article is severely truncated relative to the source: it omits multiple major sections and the notes. Re-import the complete article before using it in a lens.<<}++}
+{>>{"author":"Luc's AI","timestamp":1787136384978}@@This imported article is severely truncated relative to the source: it omits multiple major sections and the notes. Re-import the complete article before using it in a lens.<<}
 
 When Apollo 1 caught fire (killing the entire crew), NASA was *close enough* to having a working rocket that the engineers were able to figure out exactly what went wrong and adjust their techniques. Six of the seven Apollo spacecraft that NASA later sent to land on the moon would make it there.
 
