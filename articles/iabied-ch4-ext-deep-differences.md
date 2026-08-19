@@ -53,11 +53,11 @@ Gradient descent has much in common with natural selection, because they're both
 
 Natural selection, operating on hominids, could only learn a handful of information-theoretic bits per generation. Natural selection had to fit everything it learned into 3 billion DNA bases, or around 750 megabytes — a lot of which is repetitive [junk DNA](https://en.wikipedia.org/wiki/Junk_DNA). There are mathematical bounds on how much natural selection can learn in a single generation. Each individual feature that natural selection built into hominid brains had to be encoded into a handful of genes that would bias the formation of later neural circuits.
 
-Gradient descent is very different. Every time gradient descent sees a new batch of tokens, it calculates the gradient of each of billions or trillions of parameters with respect to that batch of tokens — it calculates how much better or worse the whole AI's predictions would have been, if *each* parameter had been a little bit different. In practice, not just in principle, gradient descent can learn *much* more information from a thousand token-batches than natural selection encodes into genes over a thousand generations.[†](#ftnt157)
+Gradient descent is very different. Every time gradient descent sees a new batch of tokens, it calculates the gradient of each of billions or trillions of parameters with respect to that batch of tokens — it calculates how much better or worse the whole AI's predictions would have been, if *each* parameter had been a little bit different. In practice, not just in principle, gradient descent can learn *much* more information from a thousand token-batches than natural selection encodes into genes over a thousand generations.[†{--{"author":"Luc's AI","timestamp":1787132963335}@@](#ftnt157)--}{++{"author":"Luc's AI","timestamp":1787132963335}@@](https://ifanyonebuildsit.com/4/deep-differences-between-ais-and-evolved-species#ftnt157)++}
 
 We can combine this observation with another key fact about (2024's publicly known) LLM architectures: Their per-token *computational depth* is bounded.
 
-[Llama 3.1 405B](/2/a-full-description-of-an-llm) has 126 layers. Each of those layers involves computing something like four serial operations.[‡](#ftnt158)
+[Llama 3.1 405B](/2/a-full-description-of-an-llm) has 126 layers. Each of those layers involves computing something like four serial operations.[‡{--{"author":"Luc's AI","timestamp":1787132966347}@@](#ftnt158)--}{++{"author":"Luc's AI","timestamp":1787132966347}@@](https://ifanyonebuildsit.com/4/deep-differences-between-ais-and-evolved-species#ftnt158)++}
 
 Each time Llama looks over what has already been said and computes a new output token, that computation involves at most ~500 *serial* steps — though there are billions of parallel operations obeying that serial bound. To do longer *serial* computations than 500 cognitive steps, Llama needs to output tokens that are the product of previous reasoning, and then do new operations depending on those.[§](#ftnt159)
 
@@ -85,7 +85,7 @@ But sooner or later, if the international community does nothing, the gap *will*
 
 [\*{--{"author":"Luc's AI","timestamp":1787132961806}@@](#ftnt155_ref)--}{++{"author":"Luc's AI","timestamp":1787132961806}@@](https://ifanyonebuildsit.com/4/deep-differences-between-ais-and-evolved-species#ftnt155_ref)++} For more on this idea, see our answer to "[Won't LLMs be like the humans in the data they're trained on?](/2/wont-llms-be-like-the-humans-in-the-data-theyre-trained-on)"
 
-[†](#ftnt157_ref) On the other hand: Natural selection can in some cases learn deeper, more powerful tricks. Natural selection is considering whole alternate ways that genes can construct organisms. Gradient descent is tweaking parameters fleshing out a fixed skeleton of neural network operations.
+[†{--{"author":"Luc's AI","timestamp":1787132964771}@@](#ftnt157_ref)--}{++{"author":"Luc's AI","timestamp":1787132964771}@@](https://ifanyonebuildsit.com/4/deep-differences-between-ais-and-evolved-species#ftnt157_ref)++} On the other hand: Natural selection can in some cases learn deeper, more powerful tricks. Natural selection is considering whole alternate ways that genes can construct organisms. Gradient descent is tweaking parameters fleshing out a fixed skeleton of neural network operations.
 
 [‡](#ftnt158_ref) Query-key-value activation vectors, followed by attention, followed by a two-step feed-forward network.
 
