@@ -27,7 +27,7 @@ The "[Pinna-Brelstaff](https://michaelbach.de/ot/mot-PinnaBrelstaff/)" illusion,
 
 Also less centrally, the "[Eclipse of Titan](https://dynomight.net/img/colors/eclipse-(255,0,0)-(0,170,85)-700px-15s-70s-shrink.svg)" illusion, created circa 2010, exhausts the viewer's M cones, allowing the less-exhausted L cones to create the perception of a brilliant blue that would otherwise have been moderated and weakened by simultaneous M and L activation. ([More detail](https://dynomight.substack.com/p/colors).)
 
-Relatedly, the study of cone activation in the early 2000s led to the creation of various [chimerical colors](https://www.mikewoodconsulting.com/articles/Protocol%20Summer%202021%20-%20Chimerical%20Colors.pdf), via careful manipulation of cone activations unlikely to occur in nature.[\*](https://ifanyonebuildsit.com/6/a-new-way-to-discover-optical-illusions#ftnt240)
+Relatedly, the study of cone activation in the early 2000s led to the creation of various [chimerical colors](https://www.mikewoodconsulting.com/articles/Protocol%20Summer%202021%20-%20Chimerical%20Colors.pdf), via careful manipulation of cone activations unlikely to occur in nature.{--{"author":"Luc's AI","timestamp":1787140000523}@@[\*](https://ifanyonebuildsit.com/6/a-new-way-to-discover-optical-illusions#ftnt240)--}{++{"author":"Luc's AI","timestamp":1787140000523}@@[^source-note-240]++}
 
 Finally, some [ongoing experiments](https://neurosciencenews.com/optical-illusion-feature-integration-14042/) show that:
 
@@ -37,7 +37,7 @@ Finally, some [ongoing experiments](https://neurosciencenews.com/optical-illusio
 
 ---
 
-[\*](https://ifanyonebuildsit.com/6/a-new-way-to-discover-optical-illusions#ftnt240_ref) From the original [paper](https://www.tandfonline.com/doi/full/10.1080/09515080500264115):
+{--{"author":"Luc's AI","timestamp":1787140000767}@@[\*](https://ifanyonebuildsit.com/6/a-new-way-to-discover-optical-illusions#ftnt240_ref)--}{++{"author":"Luc's AI","timestamp":1787140000767}@@[^source-note-240]:++} From the original [paper](https://www.tandfonline.com/doi/full/10.1080/09515080500264115):
 
 > The H–J model yields some novel and unappreciated predictions, and some novel and unappreciated explanations, concerning the qualitative characters of a considerable variety of color sensations possible for human experience, color sensations that normal people have almost certainly never had before and whose accurate descriptions in ordinary language appear semantically ill-formed or even self-contradictory.
 >
