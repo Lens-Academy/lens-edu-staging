@@ -77,7 +77,7 @@ _Summary of my response: chimps are nearly useless because they aren't optimized
 
 Chimpanzees have brains only ~3x smaller than humans, but are much worse at making technology (or doing science, or accumulating culture…). If evolution were selecting primarily or in large part for technological aptitude, then the difference between chimps and humans would suggest that tripling compute and doing a tiny bit of additional fine-tuning can radically expand power, undermining the continuous change story.
 
-But chimp evolution is not primarily selecting for making and using technology, for doing science, or for facilitating cultural accumulation. The task faced by a chimp is largely independent of the abilities that give humans such a huge fitness advantage. It's not completely independent-the overlap is the only reason that evolution eventually produces humans-but it's different enough that we should not be surprised if there are simple changes to chimps that would make them much better at designing technology or doing science or accumulating culture.
+But chimp evolution is not primarily selecting for making and using technology, for doing science, or for facilitating cultural accumulation. The task faced by a chimp is largely independent of the abilities that give humans such a huge fitness advantage. It's not completely {--{"author":"Luc's AI","timestamp":1787162628661}@@independent-the--}{++{"author":"Luc's AI","timestamp":1787162628661}@@independent—the++} overlap is the only reason that evolution eventually produces {--{"author":"Luc's AI","timestamp":1787162628661}@@humans-but--}{++{"author":"Luc's AI","timestamp":1787162628661}@@humans—but++} it's different enough that we should not be surprised if there are simple changes to chimps that would make them much better at designing technology or doing science or accumulating culture.
 
 If we compare humans and chimps at the tasks chimps are optimized for, humans are clearly much better but the difference is not nearly as stark. Compare to the difference between chimps and gibbons, gibbons and lemurs, or lemurs and squirrels.
 
@@ -85,7 +85,7 @@ Relatedly, evolution _changes_ what it is optimizing for over evolutionary time:
 
 If we step back from skills and instead look at outcomes we could say: "Evolution is _always_ optimizing for fitness, and humans have now taken over the world." On this perspective, I'm making a claim about the limits of evolution. First, evolution is theoretically optimizing for fitness, but it isn't able to look ahead and identify which skills will be most important for your children's children's children's fitness. Second, human intelligence is incredibly good for the fitness of _groups_ of humans, but evolution acts on individual humans for whom the effect size is much smaller (who barely benefit at all from passing knowledge on to the next generation). Evolution really is optimizing something quite different than "humanity dominates the world."
 
-So I don't think the example of evolution tells us much about whether the continuous change story applies to intelligence. This case is potentially missing the key element that drives the continuous change story-optimization for performance. Evolution changes continuously on the narrow metric it is optimizing, but can change extremely rapidly on other metrics. For human technology, features of the technology that aren't being optimized change rapidly all the time. When humans build AI, they _will_ be optimizing for usefulness, and so progress in usefulness is much more likely to be linear.
+So I don't think the example of evolution tells us much about whether the continuous change story applies to intelligence. This case is potentially missing the key element that drives the continuous change {--{"author":"Luc's AI","timestamp":1787162628998}@@story-optimization--}{++{"author":"Luc's AI","timestamp":1787162628998}@@story—optimization++} for performance. Evolution changes continuously on the narrow metric it is optimizing, but can change extremely rapidly on other metrics. For human technology, features of the technology that aren't being optimized change rapidly all the time. When humans build AI, they _will_ be optimizing for usefulness, and so progress in usefulness is much more likely to be linear.
 
 Put another way: the difference between chimps and humans stands in stark contrast to the normal pattern of human technological development. We might therefore infer that intelligence is very unlike other technologies. But the difference between evolution's optimization and our optimization seems like a much more parsimonious explanation. To be a little bit more precise and Bayesian: the prior probability of the story I've told upper bounds the possible update about the nature of intelligence.
 
@@ -93,7 +93,7 @@ Put another way: the difference between chimps and humans stands in stark contra
 
 _Summary of my response: I expect people to see AGI coming and to invest heavily._
 
-AI researchers might be optimizing for narrow forms of intelligence. If so we could have the same dynamic as with chimps-we see continuous progress on accomplishing narrow tasks in a narrow way, leading eventually to a jump in general capacities _as a side-effect_. These general capacities then also lead to much better progress on narrow tasks, but there is no reason for progress to be continuous because no one is optimizing for general intelligence.
+AI researchers might be optimizing for narrow forms of intelligence. If so we could have the same dynamic as with {--{"author":"Luc's AI","timestamp":1787162629235}@@chimps-we--}{++{"author":"Luc's AI","timestamp":1787162629235}@@chimps—we++} see continuous progress on accomplishing narrow tasks in a narrow way, leading eventually to a jump in general capacities _as a side-effect_. These general capacities then also lead to much better progress on narrow tasks, but there is no reason for progress to be continuous because no one is optimizing for general intelligence.
 
 I don't buy this argument because I think that researchers probably _will_ be optimizing aggressively for general intelligence, if it would help a lot on tasks they care about. If that's right, this argument only implies a discontinuity if there is _some other reason_ that the usefulness of general intelligence of general intelligence is discontinuous.
 
@@ -107,7 +107,7 @@ Another common view is that there are some number of key insights that are neede
 
 I don't know exactly how to respond to this view because I don't feel like I understand it adequately.
 
-I'm not aware of many historical examples of this phenomenon (and no really good examples)-to the extent that there have been "key insights" needed to make something important work, the first version of the insight has almost always either been discovered long before it was needed, or discovered in a preliminary and weak version which is then iteratively improved over a long time period.
+I'm not aware of many historical examples of this phenomenon (and no really good {--{"author":"Luc's AI","timestamp":1787162629468}@@examples)-to--}{++{"author":"Luc's AI","timestamp":1787162629468}@@examples)—to++} the extent that there have been "key insights" needed to make something important work, the first version of the insight has almost always either been discovered long before it was needed, or discovered in a preliminary and weak version which is then iteratively improved over a long time period.
 
 To the extent that fast takeoff proponent's views are informed by historical example, I would love to get some canonical examples that they think best exemplify this pattern so that we can have a more concrete discussion about those examples and what they suggest about AI.
 
@@ -147,7 +147,7 @@ It may be that understanding of the world tends to _click_, from "not understand
 
 You might expect this because everything is entangled with everything else. If you only understand 20% of the world, then basically every sentence on the internet is confusing, so you can't make heads or tails of everything. This seems wrong to me for two reasons. First, information is really not that entangled even on the internet, and the (much larger) fraction of its knowledge that an AI generates for itself is going to be even less entangled. Second, it's not right to model the AI as having a gradually expanding domain that it understands at all, with total incomprehension everywhere else. Unless there is some other argument for a discontinuity, then a generalist AI's understanding of each domain will just continuously improve, and so taking the minimum across many domains doesn't make things particularly discontinuous.
 
-People might instead expect a _click_ because that's what they experience. That's very unlike my experience, but maybe other people differ-it would be very interesting if this was a major part of where people were coming from. Or that may be how they perceive others' thought processes as working. But when I look at others' understanding, it seems like it is common to have a superficial or weak understanding which transitions gradually into a deep understanding.
+People might instead expect a _click_ because that's what they experience. That's very unlike my experience, but maybe other people {--{"author":"Luc's AI","timestamp":1787162629660}@@differ-it--}{++{"author":"Luc's AI","timestamp":1787162629660}@@differ—it++} would be very interesting if this was a major part of where people were coming from. Or that may be how they perceive others' thought processes as working. But when I look at others' understanding, it seems like it is common to have a superficial or weak understanding which transitions gradually into a deep understanding.
 
 Or they might expect a _click_ because the same progress which lets you understand one area will let you understand many areas. But that doesn't actually explain anything: you'd expect partial and mediocre understanding before a solid understanding.
 
@@ -181,7 +181,7 @@ The most common argument for recursive self-improvement introducing a new discon
 
 _Summary of my response: before you can train a really powerful AI, someone else can train a slightly worse AI_.
 
-Over the course of training, ML systems typically go quite quickly from "really lame" to "really awesome"-over the timescale of days, not months or years.
+Over the course of training, ML systems typically go quite quickly from "really lame" to "really {--{"author":"Luc's AI","timestamp":1787162629932}@@awesome"-over--}{++{"author":"Luc's AI","timestamp":1787162629932}@@awesome"—over++} the timescale of days, not months or years.
 
 But the training curve seems almost irrelevant to takeoff speeds. The question is: how much better is your AGI then the AGI that you were able to train 6 months ago?
 
@@ -195,7 +195,7 @@ _Summary of my response: at the point where humans are completely removed from a
 
 Consider a simple model in which machines are able to do a _p_ fraction of the subtasks of some large task (like AGI design), with constantly increasing efficiency, and humans are needed to perform the final (1-_p_). If humans are the dominant cost, and we hold fixed the number of humans as _p_ increases, then total output grows like 1 / (1-_p_). As we approach 0, productivity rapidly to the machine-only level. In the past I found this argument pretty compelling.
 
-Suppose that we removed the humans altogether from this process. On the naive model, productivity would jump from 0 (since machines can't do the task) to some very large value. I find that pretty unlikely, and it's precisely what we've discussed in the previous sections. It seems much more likely that at the first point when machines are able to do a task on their own, they are able to do it extremely poorly-and growth thereafter seems like it ought to accelerate gradually.
+Suppose that we removed the humans altogether from this process. On the naive model, productivity would jump from 0 (since machines can't do the task) to some very large value. I find that pretty unlikely, and it's precisely what we've discussed in the previous sections. It seems much more likely that at the first point when machines are able to do a task on their own, they are able to do it extremely {--{"author":"Luc's AI","timestamp":1787162630213}@@poorly-and--}{++{"author":"Luc's AI","timestamp":1787162630213}@@poorly—and++} growth thereafter seems like it ought to accelerate gradually.
 
 Adding humans to the picture only seems to make the change more gradual: at early times humans accelerate progress a lot, and as time goes on they provide less and less advantage (as machines replace them), so totally replacing humans seems to reduce acceleration.
 
@@ -209,7 +209,7 @@ We've discussed a lot of possible arguments for fast takeoff. Superficially it w
 
 However, I think each of these factors is perfectly consistent with the continuous change story and continuously accelerating hyperbolic growth, and so none of them undermine that hypothesis at all. This is not a case of a bunch of weak signs of fast takeoff providing independent evidence, or of a bunch of weak factors that can mechanically combine to create a large effect.
 
-(The chimps vs. humans case is an exception-it does provide Bayesian evidence for fast takeoff that could be combined with other factors. But it's just one.)
+(The chimps vs. humans case is an {--{"author":"Luc's AI","timestamp":1787162630423}@@exception-it--}{++{"author":"Luc's AI","timestamp":1787162630423}@@exception—it++} does provide Bayesian evidence for fast takeoff that could be combined with other factors. But it's just one.)
 
 I could easily be wrong about any one of these lines of argument. So I do assign a much higher probability to fast takeoff than I would if there were fewer arguments (I'm around 30% of fast takeoff). But i f I change my mind, it will probably be because one of these arguments (or another argument not considered here) turns out to be compelling on its own. My impression is that other people in the safety community have more like a 70% or even 90% chance of fast takeoff, which I assume is because they _already_ find some of these arguments compelling.
 
