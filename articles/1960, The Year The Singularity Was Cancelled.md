@@ -6,7 +6,14 @@ published: 2019-04-22
 created: 2026-03-07
 description:
 tags:
----
+{++{"author":"Luc's AI","timestamp":1787163157896}@@llm_reviewed: 2026-08-19
+llm_review_version: "article-qc-v1"
+llm_review_model: "gpt-5"
+llm_review_digest: "sha256:a9e58129f901fc98ea0588ef7048668af9b51deffa8ffc20e77d2aac047735c7"
+llm_review_source_digest: "sha256:066f67be42b0479a9059563cb96160a5b3541c6bda768d566c0836f0b521d2d9"
+llm_review_source_fetched: 2026-08-19
+llm_review_source_kind: "live"
+++}---
 
 %%
 Add discussion note here:
