@@ -538,12 +538,12 @@ The Monte Carlo samples four parameters from, three from log-uniform distributio
   
 We define {--{"author":"Luc's AI","timestamp":1787161835845}@@p \= λ α p--}{++{"author":"Luc's AI","timestamp":1787161835845}@@$p++} = {--{"author":"Luc's AI","timestamp":1787161835845}@@\\lambda \\alpha--}{++{"author":"Luc's AI","timestamp":1787161835845}@@\lambda \alpha$++} and {--{"author":"Luc's AI","timestamp":1787161835845}@@r \= λ α / β r --}{++{"author":"Luc's AI","timestamp":1787161835845}@@$r ++}= {--{"author":"Luc's AI","timestamp":1787161835845}@@\\lambda \\alpha--}{++{"author":"Luc's AI","timestamp":1787161835845}@@\lambda \alpha++} / {--{"author":"Luc's AI","timestamp":1787161835845}@@\\beta.--}{++{"author":"Luc's AI","timestamp":1787161835845}@@\beta$.++}  
   
-Our median estimates of p p and r r correspond to α \= 0.5 \\alpha=0.5, λ \= 0.6 \\lambda=0.6, β \= 0.25 \\beta=0.25.  
+Our median estimates of {--{"author":"Luc's AI","timestamp":1787161836087}@@p p--}{++{"author":"Luc's AI","timestamp":1787161836087}@@$p$++} and {--{"author":"Luc's AI","timestamp":1787161836087}@@r r--}{++{"author":"Luc's AI","timestamp":1787161836087}@@$r$++} correspond to {--{"author":"Luc's AI","timestamp":1787161836087}@@α \= 0.5 \\alpha=0.5, λ \= 0.6 \\lambda=0.6, β \= 0.25 \\beta=0.25.--}{++{"author":"Luc's AI","timestamp":1787161836087}@@$\alpha=0.5$, $\lambda=0.6$, $\beta=0.25$.++}  
   
-Note that we independently sample p p and r r; we don’t sample the underlying λ \\lambda, α \\alpha, and β \\beta – we discuss this choice in an [appendix](#objection-to-our-sampling-procedure). |
+Note that we independently sample {--{"author":"Luc's AI","timestamp":1787161836341}@@p p--}{++{"author":"Luc's AI","timestamp":1787161836341}@@$p$++} and {--{"author":"Luc's AI","timestamp":1787161836341}@@r r;--}{++{"author":"Luc's AI","timestamp":1787161836341}@@$r$;++} we don’t sample the underlying {--{"author":"Luc's AI","timestamp":1787161836341}@@λ \\lambda, α \\alpha,--}{++{"author":"Luc's AI","timestamp":1787161836341}@@$\lambda$, $\alpha$,++} and{--{"author":"Luc's AI","timestamp":1787161836341}@@ β \\beta--}{++{"author":"Luc's AI","timestamp":1787161836341}@@ $\beta$++} – we discuss this choice in an [appendix](#objection-to-our-sampling-procedure). |
 | --- |
 
-Box 2: What do our assumptions imply about the values of λ \\lambda, α \\alpha, and β \\beta?
+Box 2: What do our assumptions imply about the values of {--{"author":"Luc's AI","timestamp":1787161836578}@@λ \\lambda, α \\alpha, --}{++{"author":"Luc's AI","timestamp":1787161836578}@@$\lambda$, $\alpha$, ++}and {--{"author":"Luc's AI","timestamp":1787161836578}@@β \\beta?--}{++{"author":"Luc's AI","timestamp":1787161836578}@@$\beta$?++}
 
 You can change all of these assumptions in the [online tool](https://accelerated-ai-progress.streamlit.app/).
 
@@ -599,11 +599,27 @@ _Thanks to Ryan Greenblatt, Eli Lifland, Max Daniel, Raymond Douglas, Ashwin Ach
 
 We start with the following environment (described in the main text):
 
-S ˙ (L,C) \= a \[R (L,C)\] λ S 1 − β (Software L.O.M) \\, \\dot{S}(L, C) = a\[R(L, C)\]^{\\lambda} S^{1-\\beta} \\qquad\\qquad\\; \\text{(Software L.O.M)} R (L,C) \= (b L) α (c C) 1 − α (Research Input) R(L, C) = (bL)^{\\alpha}(cC)^{1-\\alpha} \\qquad\\qquad\\qquad \\text{(Research Input)} L \= d S (Cognitive Labour) \\qquad\\;\\;\\, L = dS \\qquad\\qquad\\qquad\\qquad\\quad\\;\\;\\, \\text{(Cognitive Labour)}
+{--{"author":"Luc's AI","timestamp":1787161836794}@@S ˙ (L,C) \= a \[R (L,C)\] λ S 1 − β (Software L.O.M) \\, \\dot{S}(L,--}{++{"author":"Luc's AI","timestamp":1787161836794}@@$$
+\dot{S}(L,++} C) = {--{"author":"Luc's AI","timestamp":1787161836794}@@a\[R(L, C)\]^{\\lambda} S^{1-\\beta} \\qquad\\qquad\\; \\text{(Software--}{++{"author":"Luc's AI","timestamp":1787161836794}@@a[R(L, C)]^{\lambda} S^{1-\beta} \qquad\qquad\;\; \text{(Software++} L.O.M)}{--{"author":"Luc's AI","timestamp":1787161836794}@@ R (L,C) \= (b L) α (c C) 1 − α (Research Input) --}{++{"author":"Luc's AI","timestamp":1787161836794}@@
+$$
+
+$$
+++}R(L, C) = {--{"author":"Luc's AI","timestamp":1787161836794}@@(bL)^{\\alpha}(cC)^{1-\\alpha} \\qquad\\qquad\\qquad \\text{(Research--}{++{"author":"Luc's AI","timestamp":1787161836794}@@(bL)^{\alpha}(cC)^{1-\alpha} \qquad\qquad\qquad \text{(Research++} Input)}{--{"author":"Luc's AI","timestamp":1787161836794}@@ L \= d S (Cognitive Labour) \\qquad\\;\\;\\, --}{++{"author":"Luc's AI","timestamp":1787161836794}@@
+$$
+
+$$
+++}L = dS {--{"author":"Luc's AI","timestamp":1787161836794}@@\\qquad\\qquad\\qquad\\qquad\\quad\\;\\;\\, \\text{(Cognitive--}{++{"author":"Luc's AI","timestamp":1787161836794}@@\qquad\qquad\qquad\qquad\quad\;\;\, \text{(Cognitive++} Labour)}{++{"author":"Luc's AI","timestamp":1787161836794}@@
+$$++}
 
 Combining these three expressions we get the growth rate of software, as a function of software level and compute:
 
-g S (S,C) \= S λ α − β C λ (1 − α) × a (b d) λ α c λ (1 − α) g\_S(S,C) \\;\\; = \\;\\; S^{\\lambda \\alpha - \\beta} C^{\\lambda(1-\\alpha)} \\times a(bd)^{\\lambda \\alpha} c^{\\lambda(1-\\alpha)} \= S λ α − β C λ (1 − α) × Constant \\qquad\\qquad\\;\\, = \\;\\; S^{\\lambda \\alpha - \\beta} C^{\\lambda(1-\\alpha)} \\times \\text{Constant}
+{--{"author":"Luc's AI","timestamp":1787161837118}@@g S (S,C) \= S λ α − β C λ (1 − α) × a (b d) λ α c λ (1 − α) g\_S(S,C) \\;\\; --}{++{"author":"Luc's AI","timestamp":1787161837118}@@$$
+g_S(S,C) ++}={--{"author":"Luc's AI","timestamp":1787161837118}@@ \\;\\; S^{\\lambda \\alpha--}{++{"author":"Luc's AI","timestamp":1787161837118}@@ S^{\lambda \alpha++} - {--{"author":"Luc's AI","timestamp":1787161837118}@@\\beta} C^{\\lambda(1-\\alpha)} \\times a(bd)^{\\lambda \\alpha} c^{\\lambda(1-\\alpha)} \= S λ α − β C λ (1 − α) × Constant \\qquad\\qquad\\;\\, --}{++{"author":"Luc's AI","timestamp":1787161837118}@@\beta} C^{\lambda(1-\alpha)} \times a(bd)^{\lambda \alpha} c^{\lambda(1-\alpha)}
+$$
+
+$$
+++}= {--{"author":"Luc's AI","timestamp":1787161837118}@@\\;\\; S^{\\lambda \\alpha--}{++{"author":"Luc's AI","timestamp":1787161837118}@@S^{\lambda \alpha++} - {--{"author":"Luc's AI","timestamp":1787161837118}@@\\beta} C^{\\lambda(1-\\alpha)} \\times \\text{Constant}--}{++{"author":"Luc's AI","timestamp":1787161837118}@@\beta} C^{\lambda(1-\alpha)} \times \text{Constant}
+$$++}
 
 From here, the time it takes for software to double is given by
 
@@ -618,13 +634,13 @@ $$
 \Longrightarrow \text{Doubling Time}(2S,C)=\text{Doubling Time}(S,C)\times 2^{\beta-\lambda\alpha}
 $$
 
-So we can see that after a doubling of software, the time it takes to complete the next doubling halves λ α − β \\lambda \\alpha - \\beta times. To map this expression to the parameters in the rest of this analysis, we define p p and r r as in the main text:
+So we can see that after a doubling of software, the time it takes to complete the next doubling halves {--{"author":"Luc's AI","timestamp":1787161837337}@@λ α − β \\lambda \\alpha--}{++{"author":"Luc's AI","timestamp":1787161837337}@@$\lambda \alpha++} - {--{"author":"Luc's AI","timestamp":1787161837337}@@\\beta--}{++{"author":"Luc's AI","timestamp":1787161837337}@@\beta$++} times. To map this expression to the parameters in the rest of this analysis, we define {--{"author":"Luc's AI","timestamp":1787161837337}@@p p--}{++{"author":"Luc's AI","timestamp":1787161837337}@@$p$++} and{--{"author":"Luc's AI","timestamp":1787161837337}@@ r r--}{++{"author":"Luc's AI","timestamp":1787161837337}@@ $r$++} as in the main text:
 
 $$
 p \coloneqq \lambda\alpha, \qquad r \coloneqq \frac{\lambda\alpha}{\beta}
 $$
 
-And therefore, to get the doubling time expression in the [pseudo code](#pseudocode) note β − λ α \= p (r − 1 − 1) \\beta - \\lambda \\alpha \\; = \\; p (r^{-1} - 1), therefore
+And therefore, to get the doubling time expression in the [pseudo code](#pseudocode) note {--{"author":"Luc's AI","timestamp":1787161837566}@@β − λ α \= p (r − 1 − 1) \\beta --}{++{"author":"Luc's AI","timestamp":1787161837566}@@$\beta ++}-{--{"author":"Luc's AI","timestamp":1787161837566}@@ \\lambda \\alpha \\;--}{++{"author":"Luc's AI","timestamp":1787161837566}@@ \lambda \alpha++} = {--{"author":"Luc's AI","timestamp":1787161837566}@@\\; --}p (r^{-1} - {--{"author":"Luc's AI","timestamp":1787161837566}@@1),--}{++{"author":"Luc's AI","timestamp":1787161837566}@@1)$,++} therefore
 
 $$
 \text{Doubling Time}(2S,C)=\text{Doubling Time}(S,C)\times 2^{p(\frac{1}{r}-1)}
@@ -676,7 +692,7 @@ It might seem ill-advised to independently sample $r = \frac{\alpha\lambda}{\bet
 
 We tentatively think our sampling procedure is appropriate given our epistemic position. The best evidence we have to calibrate the model is evidence about $r$. This comes from observing the ratio between the growth rate of inputs and the growth rate of outputs to AI R&D: $r = \frac{g_{\text{outputs}}}{g_{\text{inputs}}}$. Given our evidence on $r$, it is the case that from our epistemic position it is appropriate that a higher estimate of $\alpha\lambda$ should change our estimate of $\beta$.
 
-To be concrete, suppose our evidence tells us that r \= 2 r = 2. Then we sample from our distribution over α λ \\alpha \\lambda. If we sample a high value, it is appropriate for us to assume that β \\beta is also high, so that our assumption about α λ \\alpha \\lambda remains consistent with our evidence about r r.
+To be concrete, suppose our evidence tells us that {--{"author":"Luc's AI","timestamp":1787161837791}@@r \= 2 r--}{++{"author":"Luc's AI","timestamp":1787161837791}@@$r++} = {--{"author":"Luc's AI","timestamp":1787161837791}@@2.--}{++{"author":"Luc's AI","timestamp":1787161837791}@@2$.++} Then we sample from our distribution over {--{"author":"Luc's AI","timestamp":1787161837791}@@α λ \\alpha \\lambda.--}{++{"author":"Luc's AI","timestamp":1787161837791}@@$\alpha \lambda$.++} If we sample a high value, it is appropriate for us to assume that{--{"author":"Luc's AI","timestamp":1787161837791}@@ β \\beta--}{++{"author":"Luc's AI","timestamp":1787161837791}@@ $\beta$++} is also high, so that our assumption about{--{"author":"Luc's AI","timestamp":1787161837791}@@ α λ \\alpha \\lambda--}{++{"author":"Luc's AI","timestamp":1787161837791}@@ $\alpha \lambda$++} remains consistent with our evidence about {--{"author":"Luc's AI","timestamp":1787161837791}@@r r.--}{++{"author":"Luc's AI","timestamp":1787161837791}@@$r$.++}
 
 A more sophisticated approach here is surely possible. But our model is intended as a glorified BOTEC and we don’t expect additional sophistication would significantly affect the bottom line. And our remaining uncertainty about the bottom line stems much more from uncertainty about the right parameter values than from uncertainty about the sampling procedure.
 
