@@ -87,7 +87,7 @@ In a few cases, scientists and CEOs have explicitly said that creating AI is a m
 
 And Richard Sutton, a pioneer of reinforcement learning in AI, has said:
 
-> What if everything fails? The AIs do not cooperate with us, and they take over, they kill us all. […] I just want you to think for a moment about this. I mean, is it so bad? Is it so bad that humans are not the final form of intelligent life in the universe? You know, there have been many predecessors to us, when we succeeded them. And it's really kind of arrogant to think that our form should be the form that lives ever after.[\*](#ftnt288)
+> What if everything fails? The AIs do not cooperate with us, and they take over, they kill us all. […] I just want you to think for a moment about this. I mean, is it so bad? Is it so bad that humans are not the final form of intelligent life in the universe? You know, there have been many predecessors to us, when we succeeded them. And it's really kind of arrogant to think that our form should be the form that lives ever after.[\*]{--{"author":"Luc's AI","timestamp":1787136112509}@@(#ftnt288)--}{++{"author":"Luc's AI","timestamp":1787136112509}@@(https://ifanyonebuildsit.com/12/making-sense-of-the-death-race#ftnt288)++}
 
 Even more common, however, are scientists and CEOs who *don't* think it would be a good thing for AI to destroy humanity, but who seem to treat it as shrug-worthy, as *something other than an incredible emergency*, that AI poses this extraordinary threat.
 
