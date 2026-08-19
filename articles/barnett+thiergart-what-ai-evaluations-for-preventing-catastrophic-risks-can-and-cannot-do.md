@@ -99,7 +99,7 @@ Evaluating current models already requires strong assumptions about threat model
 1. Precursor capabilities exist and are measurable, and
 2. Evaluators can detect them before dangerous capabilities emerge.
 
-These assumptions rely heavily on there being a sufficient gap in difficulty between precursor capabilities and dangerous capabilities ¹ ¹ 1 This gap may not only be in raw training compute. Dangerous capabilities could arise even if the total compute was kept constant due to algorithmic improvements allowing more capable models to be trained with the same compute, or due to new post-training enhancements. Some safety frameworks refer to “scaling” or increasing “effective compute” to refer to any activities which increase the capabilities of models, including both increasing raw compute and improving algorithms.. The hope is that this gap would give evaluators time to detect warning signs and implement safety measures before dangerous capabilities develop (Figure [2](#figure-2-precursor-based-capability-forecasting-an "Figure 2 ‣ 3.2 Robustly forecast future model capabilities ‣ 3 What AI evaluations cannot do ‣ What AI evaluations for preventing catastrophic risks can and cannot do") A). This concept, sometimes called a “safety buffer,” appears in various forms in AI company evaluation frameworks. The initial Anthropic Responsible Scaling Policy [^4] and Google Deepmind Frontier Safety Framework [^6] explicitly discuss this concept, while the OpenAI Preparedness Framework [^5] and later the iteration of Anthropic’s policy [^25] implicitly depend on it.
+These assumptions rely heavily on there being a sufficient gap in difficulty between precursor capabilities and dangerous capabilities ¹ ¹ 1 This gap may not only be in raw training compute. Dangerous capabilities could arise even if the total compute was kept constant due to algorithmic improvements allowing more capable models to be trained with the same compute, or due to new post-training enhancements. Some safety frameworks refer to “scaling” or increasing “effective compute” to refer to any activities which increase the capabilities of models, including both increasing raw compute and improving algorithms.. The hope is that this gap would give evaluators time to detect warning signs and implement safety measures before dangerous capabilities develop (Figure [2](#figure-2-precursor-based-capability-forecasting-an "Figure 2 ‣ 3.2 Robustly forecast future model capabilities ‣ 3 What AI evaluations cannot do ‣ What AI evaluations for preventing catastrophic risks can and cannot do") A). This concept, sometimes called a “safety buffer,” appears in various forms in AI company evaluation frameworks. The initial Anthropic Responsible Scaling Policy {--{"author":"Luc's AI","timestamp":1787161782339}@@[^4]--}{++{"author":"Luc's AI","timestamp":1787161782339}@@[^cite-barnett-thiergart-4]++} and Google Deepmind Frontier Safety Framework {--{"author":"Luc's AI","timestamp":1787161782339}@@[^6]--}{++{"author":"Luc's AI","timestamp":1787161782339}@@[^cite-barnett-thiergart-6]++} explicitly discuss this concept, while the OpenAI Preparedness Framework {--{"author":"Luc's AI","timestamp":1787161782339}@@[^5]--}{++{"author":"Luc's AI","timestamp":1787161782339}@@[^cite-barnett-thiergart-5]++} and later the iteration of Anthropic’s policy {--{"author":"Luc's AI","timestamp":1787161782339}@@[^25]--}{++{"author":"Luc's AI","timestamp":1787161782339}@@[^cite-barnett-thiergart-25]++} implicitly depend on it.
 
 ![](https://arxiv.org/html/2412.08653v1/extracted/6027071/safety_buffer_3x1_1.png)
 
@@ -191,11 +191,11 @@ Support research for understanding AI risks and developing effective mitigation 
 
 [^cite-barnett-thiergart-3]: Arthur Goemans, Marie Davidsen Buhl, Jonas Schuett, Tomek Korbak, Jessica Wang, Benjamin Hilton, and Geoffrey Irving.Safety case template for frontier ai: A cyber inability argument.arXiv preprint arXiv:2411.08088, 2024.
 
-[^4]: Anthropic.Anthropic’s Responsible Scaling Policy Version 1.0, 2023.
+{--{"author":"Luc's AI","timestamp":1787161783283}@@[^4]:--}{++{"author":"Luc's AI","timestamp":1787161783283}@@[^cite-barnett-thiergart-4]:++} Anthropic.Anthropic’s Responsible Scaling Policy Version 1.0, 2023.
 
-[^5]: OpenAI.Preparedness Framework (Beta), 2023.
+{--{"author":"Luc's AI","timestamp":1787161783880}@@[^5]:--}{++{"author":"Luc's AI","timestamp":1787161783880}@@[^cite-barnett-thiergart-5]:++} OpenAI.Preparedness Framework (Beta), 2023.
 
-[^6]: Google Deepmind.Frontier Safety Framework, 2024.
+{--{"author":"Luc's AI","timestamp":1787161784610}@@[^6]:--}{++{"author":"Luc's AI","timestamp":1787161784610}@@[^cite-barnett-thiergart-6]:++} Google Deepmind.Frontier Safety Framework, 2024.
 
 [^cite-barnett-thiergart-7]: Mary Phuong, Matthew Aitchison, Elliot Catt, Sarah Cogan, Alexandre Kaskasoli, Victoria Krakovna, David Lindner, Matthew Rahtz, Yannis Assael, Sarah Hodkinson, Heidi Howard, Tom Lieberum, Ramana Kumar, Maria Abi Raad, Albert Webson, Lewis Ho, Sharon Lin, Sebastian Farquhar, Marcus Hutter, Gregoire Deletang, Anian Ruoss, Seliem El-Sayed, Sasha Brown, Anca Dragan, Rohin Shah, Allan Dafoe, and Toby Shevlane.Evaluating Frontier Models for Dangerous Capabilities, April 2024.arXiv:2403.13793 \[cs\].
 
@@ -233,7 +233,7 @@ Support research for understanding AI risks and developing effective mitigation 
 
 [^cite-barnett-thiergart-24]: Qingxiu Dong, Lei Li, Damai Dai, Ce Zheng, Jingyuan Ma, Rui Li, Heming Xia, Jingjing Xu, Zhiyong Wu, Baobao Chang, et al.A survey on in-context learning.In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, pages 1107–1128, 2024.
 
-[^25]: Anthropic.Anthropic’s Responsible Scaling Policy, 2024.
+{--{"author":"Luc's AI","timestamp":1787161785318}@@[^25]:--}{++{"author":"Luc's AI","timestamp":1787161785318}@@[^cite-barnett-thiergart-25]:++} Anthropic.Anthropic’s Responsible Scaling Policy, 2024.
 
 [^cite-barnett-thiergart-26]: Marius Hobbhahn.We need a Science of Evals.[https://www.apolloresearch.ai/blog/we-need-a-science-of-evals](https://www.apolloresearch.ai/blog/we-need-a-science-of-evals).\[Accessed 12-09-2024\].
 

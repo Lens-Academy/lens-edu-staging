@@ -53,7 +53,7 @@ It’s possible, though, that the development of AI systems could lead to human 
 
 In [a recent paper](https://gradual-disempowerment.ai/), Jan Kulveit and his co-authors call this threat model _gradual disempowerment_. They argue for the following six claims:
 
-1.  Large societal systems, such as economies and governments, tend to be _roughly_ aligned to human interests.[^1]
+1.  Large societal systems, such as economies and governments, tend to be _roughly_ aligned to human {--{"author":"Luc's AI","timestamp":1787161782061}@@interests.[^1]--}{++{"author":"Luc's AI","timestamp":1787161782061}@@interests.[^note-fenwick-1]++}
 2.  This rough alignment of the societal systems is maintained by multiple factors, including voting systems, consumer demand signals, and the reliance on human labour and thinking.
 3.  Societal systems that rely less on human labour and thinking — and rely more on increasingly advanced and powerful AI systems — will be less aligned with human interests.
 4.  AI systems may indeed outcompete human labour for key roles in societal systems in part _because_ they can more ruthlessly pursue the directions they’re given. And this may cause the systems to be even less aligned with human interests.
@@ -131,7 +131,7 @@ Some organisations where you might be able to do relevant research include:
 
 -   [Alignment of Complex Systems Research Group (ACS)](https://acsresearch.org/about) — which led the work on the “Gradual Disempowerment” paper discussed above
 -   [Forethought Research](https://www.forethought.org/)
--   [Coefficient Giving](https://www.openphilanthropy.org/) [^2]
+-   [Coefficient Giving](https://www.openphilanthropy.org/) {--{"author":"Luc's AI","timestamp":1787161783073}@@[^2]--}{++{"author":"Luc's AI","timestamp":1787161783073}@@[^note-fenwick-2]++}
 -   [Rethink Priorities](https://rethinkpriorities.org/)
 
 You can also explore roles at other [organisations that work on AI safety and policy](https://jobs.80000hours.org/organisations?refinementList%5Bproblem_areas%5D%5B0%5D=AI%20safety%20%26%20policy).
@@ -162,6 +162,6 @@ Want to learn more about global issues we think are especially pressing? See our
 
 ## Footnotes
 
-[^1]: There are many cases where societal systems produce outcomes that are clearly bad for many humans, such as carrying out wars or causing harmful pollution. But overall, humanity has so far been able to greatly expand its population, become richer, and extend the average life span because societal systems tend to serve human interests on net.
+{--{"author":"Luc's AI","timestamp":1787161783679}@@[^1]:--}{++{"author":"Luc's AI","timestamp":1787161783679}@@[^note-fenwick-1]:++} There are many cases where societal systems produce outcomes that are clearly bad for many humans, such as carrying out wars or causing harmful pollution. But overall, humanity has so far been able to greatly expand its population, become richer, and extend the average life span because societal systems tend to serve human interests on net.
 
-[^2]: Coefficient Giving is the largest funder of 80,000 Hours.
+{--{"author":"Luc's AI","timestamp":1787161784374}@@[^2]:--}{++{"author":"Luc's AI","timestamp":1787161784374}@@[^note-fenwick-2]:++} Coefficient Giving is the largest funder of 80,000 Hours.
