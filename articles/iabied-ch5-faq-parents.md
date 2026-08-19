@@ -48,7 +48,7 @@ One way people imagine AI might acquire a sense of filial responsibility is that
 
 We don't expect this to work. We expect the AI's preferences to be related to human preferences *somehow,* but in a tangential, strange, and complicated way — as in the discussion at the end of Chapter 4, where we walk through worlds with more (and increasingly realistic) amounts of complication, in the link between human preferences and AI preferences.
 
-See also the discussion of [raising AIs with love and expecting them to behave well](https://ifanyonebuildsit.com/4/cant-we-just-train-it-to-act-like-a-human-or-raise-the-ai-like-a-child), [weird and unintended motivations in current AIs](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-appear-to-be-psychologically-alien), and "[Won't AIs care at least a little about humans?](/5/wont-ais-care-at-least-a-little-about-humans)"
+See also the discussion of [raising AIs with love and expecting them to behave well](https://ifanyonebuildsit.com/4/cant-we-just-train-it-to-act-like-a-human-or-raise-the-ai-like-a-child), [weird and unintended motivations in current AIs](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-appear-to-be-psychologically-alien), and "[Won't AIs care at least a little about {--{"author":"Luc's AI","timestamp":1787161811567}@@humans?](/5/wont-ais-care-at-least-a-little-about-humans)"--}{++{"author":"Luc's AI","timestamp":1787161811567}@@humans?](https://ifanyonebuildsit.com/5/wont-ais-care-at-least-a-little-about-humans)"++}
 
 #### It would probably be bad if they did.
 
