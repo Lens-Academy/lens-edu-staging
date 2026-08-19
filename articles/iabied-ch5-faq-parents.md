@@ -48,7 +48,7 @@ One way people imagine AI might acquire a sense of filial responsibility is that
 
 We don't expect this to work. We expect the AI's preferences to be related to human preferences *somehow,* but in a tangential, strange, and complicated way — as in the discussion at the end of Chapter 4, where we walk through worlds with more (and increasingly realistic) amounts of complication, in the link between human preferences and AI preferences.
 
-See also the discussion of [raising AIs with love and expecting them to behave well](https://ifanyonebuildsit.com/4/cant-we-just-train-it-to-act-like-a-human-or-raise-the-ai-like-a-child), [weird and unintended motivations in current AIs](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-appear-to-be-psychologically-alien), and "[Won't AIs care at least a little about {--{"author":"Luc's AI","timestamp":1787161811567}@@humans?](/5/wont-ais-care-at-least-a-little-about-humans)"--}{++{"author":"Luc's AI","timestamp":1787161811567}@@humans?](https://ifanyonebuildsit.com/5/wont-ais-care-at-least-a-little-about-humans)"++}
+See also the discussion of [raising AIs with love and expecting them to behave well](https://ifanyonebuildsit.com/4/cant-we-just-train-it-to-act-like-a-human-or-raise-the-ai-like-a-child), [weird and unintended motivations in current AIs](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-appear-to-be-psychologically-alien), and "[Won't AIs care at least a little about humans?](https://ifanyonebuildsit.com/5/wont-ais-care-at-least-a-little-about-humans)"
 
 #### It would probably be bad if they did.
 
@@ -62,6 +62,6 @@ Similarly, an AI encouraged to "love its parents" would, at best,probably end up
 
 An AI could care deeply about its creators…but not in a way that prizes our subjective experience. In the language of Chapter 4, even "one simple complication" results in versions of "caring about us" that look like freezing us in amber, or keeping humans alive against their will, or preventing us from reproducing and giving the final generation of humans a modestly comfortable environment while the AI takes the rest of the universe for itself. Or something a whole lot weirder than that.
 
-It doesn't seem possible to predict what the actual outcome would be. But we would expect it to be — if anything — even stranger and less appealing than these {--{"author":"Luc's AI","timestamp":1787161331081}@@options.[^source-note-171]--}{++{"author":"Luc's AI","timestamp":1787161331081}@@options.[^note-iabied-ftnt171]++}
+It doesn't seem possible to predict what the actual outcome would be. But we would expect it to be — if anything — even stranger and less appealing than these options.[^note-iabied-ftnt171]
 
-{--{"author":"Luc's AI","timestamp":1787161333443}@@[^source-note-171]:--}{++{"author":"Luc's AI","timestamp":1787161333443}@@[^note-iabied-ftnt171]:++} Again, see "[Won't AIs care at least a little about humans?](/5/wont-ais-care-at-least-a-little-about-humans)" for related discussion.
+[^note-iabied-ftnt171]: Again, see "[Won't AIs care at least a little about humans?](/5/wont-ais-care-at-least-a-little-about-humans)" for related discussion.

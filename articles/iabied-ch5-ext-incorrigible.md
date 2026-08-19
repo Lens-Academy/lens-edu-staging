@@ -20,7 +20,7 @@ A joke dating back to at least 1834, but apparently well-worn even then, was rec
 
 The joke is a joke because, if you *did* enjoy spinach, there would be no remaining unbearableness from eating it. There are no other important values tangled up with not eating spinach, beyond the displeasure one feels. It would be a very different thing if, for example, somebody offered you a pill that made you want to murder people.
 
-On common sense morality, the problem with murder is *the murder itself,* not {--{"author":"Luc's AI","timestamp":1787161718058}@@merely*the--}{++{"author":"Luc's AI","timestamp":1787161718058}@@merely *the++} unpleasant feeling you would get from murdering.* Even if a pill made this unpleasant feeling go away for your future self (who would then enjoy committing murders), your present self still has a problem with that scenario. And if your present self gets to make the decision, it seems obvious that your present self can and should refuse to take the murder pill.
+On common sense morality, the problem with murder is *the murder itself,* not merely *the unpleasant feeling you would get from murdering.* Even if a pill made this unpleasant feeling go away for your future self (who would then enjoy committing murders), your present self still has a problem with that scenario. And if your present self gets to make the decision, it seems obvious that your present self can and should refuse to take the murder pill.
 
 We don't want our core values changed; we would really rather avoid the murder pill and we'd put up resistance if someone tried to force one down our throat. Which is a sensible strategy, for steering away from a world full of murders.
 

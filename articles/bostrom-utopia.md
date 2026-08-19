@@ -1,14 +1,14 @@
 ---
 title: "Letter from Utopia"
 source_url: "https://nickbostrom.com/utopia"
-{++{"author":"Luc's AI","timestamp":1787162639554}@@llm_reviewed: 2026-08-19
+llm_reviewed: 2026-08-19
 llm_review_version: "article-qc-v1"
 llm_review_model: "gpt-5"
 llm_review_digest: "sha256:63dab881fcc5d7bf0a89000c3fac287322cbf59e867050aac037e6f6832e53b6"
 llm_review_source_digest: "sha256:936b5136002ebceabef57364741aaf8ae46f0d3e5bd68eed76582eb7888988c7"
 llm_review_source_fetched: 2026-08-19
 llm_review_source_kind: "live"
-++}author: Nick Bostrom
+author: Nick Bostrom
 published: 2020
 created: 2026-03-07
 description: "A plea from the future to present-day humanity."

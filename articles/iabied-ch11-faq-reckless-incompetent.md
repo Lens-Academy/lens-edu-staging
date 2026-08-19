@@ -29,11 +29,11 @@ We don't think it's technically possible for any team using anything like modern
 
 The AI company Anthropic is considered by a reasonable number of people to be a leader on "AI safety," because they have pioneered efforts such as [voluntary safety commitments](https://www.anthropic.com/news/anthropics-responsible-scaling-policy). But even they [alter their voluntary commitments at the last minute when it turns out they can't meet them](https://www.obsolete.pub/p/exclusive-anthropic-is-quietly-backpedalling), and the "plans" they do have are vague and poorly thought through, as critiqued in Chapter 11 and in the [extended discussion](https://ifanyonebuildsit.com/11/more-on-some-of-the-plans-we-critiqued-in-the-book#more-on-making-ais-solve-the-problem) below.
 
-Anthropic benefits heavily from the fact that observers are grading on a curve — in a normal industry, a company that chooses to endanger the lives of billions of people (as [admitted by the CEO](https://youtu.be/gAaCqj6j5sQ?feature=shared&t=5883)), while routinely downplaying their activities to the public and to {--{"author":"Luc's AI","timestamp":1787161383913}@@lawmakers,[^source-note-258]--}{++{"author":"Luc's AI","timestamp":1787161383913}@@lawmakers,[^note-iabied-ftnt258]++} wouldn't garner praise for their restraint.
+Anthropic benefits heavily from the fact that observers are grading on a curve — in a normal industry, a company that chooses to endanger the lives of billions of people (as [admitted by the CEO](https://youtu.be/gAaCqj6j5sQ?feature=shared&t=5883)), while routinely downplaying their activities to the public and to lawmakers,[^note-iabied-ftnt258] wouldn't garner praise for their restraint.
 
 Cutting corners is common in AI, as it is in many competitive industries. Recklessness is common. And the *less* reckless companies are very visiblynot on top of the challenges.
 
-{--{"author":"Luc's AI","timestamp":1787161386604}@@[^source-note-258]:--}{++{"author":"Luc's AI","timestamp":1787161386604}@@[^note-iabied-ftnt258]:++} For instance, in [testimony to Congress](https://www.judiciary.senate.gov/imo/media/doc/2023-07-26_-_testimony_-_amodei.pdf):
+[^note-iabied-ftnt258]: For instance, in [testimony to Congress](https://www.judiciary.senate.gov/imo/media/doc/2023-07-26_-_testimony_-_amodei.pdf):
 
 > Similar to cars or airplanes, we should consider the AI models of the near future to be powerful machines which possess great utility, but that can be lethal if designed badly or misused. […] New AI models should have to pass a rigorous battery of safety tests both during development and before being released to the public or to customers. […] Ideally, however, the standards would catalyze innovation in safety rather than slowing progress.
 
