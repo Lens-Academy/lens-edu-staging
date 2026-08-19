@@ -167,7 +167,9 @@ Transformer inference consists of two phases: _prefill_ processes the input prom
 
 Sampling from a Large Language Model can be thought of in two steps: (1) generating a probability distribution, and (2) sampling a token from it. For step (1), given logits $z\in\mathbb{R}^{|\mathcal{T}|}$ over a vocabulary $\mathcal{T},$ and a temperature parameter $T$, the model induces a categorical distribution
 
-$$p_{i}^{(T)}=\mathrm{softmax}\!\left(\frac{z}{T}\right)_{i}=\frac{\exp(z_{i}/T)}{\sum_{j=1}^{|\mathcal{T}|}\exp(z_{j}/T)}.$$
+{--{"author":"Luc's AI","timestamp":1787161700388}@@$$p_{i}^{(T)}=\mathrm{softmax}\!\left(\frac{z}{T}\right)_{i}=\frac{\exp(z_{i}/T)}{\sum_{j=1}^{|\mathcal{T}|}\exp(z_{j}/T)}.$$--}{++{"author":"Luc's AI","timestamp":1787161700388}@@$
+p_{i}^{(T)}=\mathrm{softmax}\!\left(\frac{z}{T}\right)_{i}=\frac{\exp(z_{i}/T)}{\sum_{j=1}^{|\mathcal{T}|}\exp(z_{j}/T)}.
+$$++}
 
 The temperature $T$ controls the sharpness of the distribution: as $T\to 0$, the distribution concentrates on the maximum-logit token (approaching greedy decoding), while larger $T$ produces a flatter distribution and increases randomness. After optional filtering steps such as top-$k$, top-$p$, or min-$p$, the model samples from the resulting categorical distribution. To sample a token from a probability distribution, many modern LLMs use either the _Inverse Probability Transform_ (e.g., Ollama \[[32](#bib.bib9 "Ollama documentation")\], HuggingFace \[[WDS+20](#bib.bib11 "Transformers: state-of-the-art natural language processing")\]) or the _Gumbel-Max Trick_ (e.g., vLLM \[[KLZ+23](#bib.bib10 "Efficient memory management for large language model serving with pagedattention")\]). This sampling process relies on a pseudorandom generator, which takes as an input a sampling seed $\sigma$ and counter $i$ as an input, and returns a value $x$.
 
@@ -217,7 +219,9 @@ While Inverse-Probability Transform and Gumbel-Max Trick are mathematically dete
 
 To model this behavior, we view the model’s computed probability vector not as a single deterministic mapping $\vec{p}_{\theta}(x)$, but as a random draw from a higher-order _distribution over distributions_:
 
-$$\vec{p}_{\theta}(x)\sim\mathcal{P}_{\theta}(x),$$
+{--{"author":"Luc's AI","timestamp":1787161700635}@@$$\vec{p}_{\theta}(x)\sim\mathcal{P}_{\theta}(x),$$--}{++{"author":"Luc's AI","timestamp":1787161700635}@@$
+\vec{p}_{\theta}(x)\sim\mathcal{P}_{\theta}(x),
+$$++}
 
 where $\mathcal{P}_{\theta}(x)$ represents the stochastic process generating the token-level probabilities. This perspective allows us to define heuristic distance measures between two runs of the same model (with identical seed $\sigma$) by comparing samples from $\mathcal{P}_{\theta}(x)$, illustrated conceptually in Figure [2](#S3.F2 "Figure 2 ‣ Fixed-Seed Posterior Distribution. ‣ 3.4 Valid Non-determinism with a Fixed Seed: The Fixed-Seed Posterior Distribution ‣ 3 LLM Inference Preliminaries ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 
@@ -225,27 +229,37 @@ where $\mathcal{P}_{\theta}(x)$ represents the stochastic process generating the
 
 We begin with a general abstraction that captures the non-determinism induced by stochastic sampling under a fixed seed. Let $\mathrm{Sample}(\cdot,\sigma)$ denote a generic sampling procedure that maps a probability distribution $p$ over tokens $\mathcal{V}$ and a seed $\sigma$ to a token $t\in\mathcal{V}$:
 
-$$t=\mathrm{Sample}(p,\sigma).$$
+{--{"author":"Luc's AI","timestamp":1787161700906}@@$$t=\mathrm{Sample}(p,\sigma).$$--}{++{"author":"Luc's AI","timestamp":1787161700906}@@$
+t=\mathrm{Sample}(p,\sigma).
+$$++}
 
 Given a distribution over probability vectors $p\sim\mathcal{P}_{\theta}(x)$, the _fixed-seed posterior distribution_ is defined as:
 
-$$P_{\mathrm{seed}}(t\mid\sigma)=\Pr_{p\sim\mathcal{P}_{\theta}(x)}\big[\,\mathrm{Sample}(p,\sigma)=t\,\big].$$
+{--{"author":"Luc's AI","timestamp":1787161701166}@@$$P_{\mathrm{seed}}(t\mid\sigma)=\Pr_{p\sim\mathcal{P}_{\theta}(x)}\big[\,\mathrm{Sample}(p,\sigma)=t\,\big].$$--}{++{"author":"Luc's AI","timestamp":1787161701166}@@$
+P_{\mathrm{seed}}(t\mid\sigma)=\Pr_{p\sim\mathcal{P}_{\theta}(x)}\big[\,\mathrm{Sample}(p,\sigma)=t\,\big].
+$$++}
 
 This represents the probability, over draws of the underlying probability distribution $p$, that a fixed random seed $\sigma$ yields token $t$. Intuitively, it characterizes how much stochastic variability remains in the sampling outcome even when the seed is fixed, due to non-determinism in the generation of $p$.
 
 Example: Inverse Probability Transform. For concreteness, consider the case where $\mathrm{Sample}(\cdot,\sigma)$ implements the inverse probability transform. Let $\mathcal{P}=\{P_{i}\}_{i=1}^{n}$ denote a family of token-level probability distributions, where each $P_{i}$ defines a conditional distribution over tokens $t\in\mathcal{V}$ given model context $x_{i}$:
 
-$$P_{i}(t)=\Pr[T=t\mid X=x_{i}].$$
+{--{"author":"Luc's AI","timestamp":1787161701424}@@$$P_{i}(t)=\Pr[T=t\mid X=x_{i}].$$--}{++{"author":"Luc's AI","timestamp":1787161701424}@@$
+P_{i}(t)=\Pr[T=t\mid X=x_{i}].
+$$++}
 
 Let $R:\Sigma\to[0,1]$ denote a deterministic randomization function (e.g., a pseudorandom generator) mapping a seed $\sigma\in\Sigma$ to a uniform draw $R(\sigma)\sim\mathrm{Uniform}(0,1)$. For each $P_{i}$, define the seed-conditioned token selection function
 
-$$S_{i}(\sigma)=\min\{\,t\in\mathcal{V}:F_{i}(t)\geq R(\sigma)\,\},$$
+{--{"author":"Luc's AI","timestamp":1787161701716}@@$$S_{i}(\sigma)=\min\{\,t\in\mathcal{V}:F_{i}(t)\geq R(\sigma)\,\},$$--}{++{"author":"Luc's AI","timestamp":1787161701716}@@$
+S_{i}(\sigma)=\min\{\,t\in\mathcal{V}:F_{i}(t)\geq R(\sigma)\,\},
+$$++}
 
 where $F_{i}$ is the cumulative distribution function (CDF) corresponding to $P_{i}$.
 
 Then, the fixed-seed posterior distribution for the inverse probability transform is:
 
-$$P_{\mathrm{seed}}(t\mid R(\sigma)=r)=\Pr_{P_{i}\sim\mathcal{P}}\big[\,S_{i}(\sigma)=t\,\big],$$
+{--{"author":"Luc's AI","timestamp":1787161702038}@@$$P_{\mathrm{seed}}(t\mid R(\sigma)=r)=\Pr_{P_{i}\sim\mathcal{P}}\big[\,S_{i}(\sigma)=t\,\big],$$--}{++{"author":"Luc's AI","timestamp":1787161702038}@@$
+P_{\mathrm{seed}}(t\mid R(\sigma)=r)=\Pr_{P_{i}\sim\mathcal{P}}\big[\,S_{i}(\sigma)=t\,\big],
+$$++}
 
 representing the probability (over draws of $P_{i}$) that a fixed seed realization $\sigma$ produces token $t$ under this specific sampling mechanism. This abstraction makes clear that while the implementation details of sampling (e.g., inverse transform vs. Gumbel-Max) differ, each induces its own fixed-seed posterior distribution characterizing the residual randomness observable under valid non-determinism.
 
@@ -450,7 +464,9 @@ In Section [3.4](#S3.SS4 "3.4 Valid Non-determinism with a Fixed Seed: The Fixed
 
 Given an estimate of $\mathrm{FSSL}(t\mid\sigma)$, we use a simple threshold rule:
 
-$$\text{flag }t\ \text{if}\ \mathrm{FSSL}(t\mid\sigma)<\tau,$$
+{--{"author":"Luc's AI","timestamp":1787161702438}@@$$\text{flag--}{++{"author":"Luc's AI","timestamp":1787161702438}@@$
+\text{flag++} }t\ \text{if}\ {--{"author":"Luc's AI","timestamp":1787161702438}@@\mathrm{FSSL}(t\mid\sigma)<\tau,$$--}{++{"author":"Luc's AI","timestamp":1787161702438}@@\mathrm{FSSL}(t\mid\sigma)<\tau,
+$$++}
 
 with $\tau$ calibrated on benign traffic to meet a target false–positive rate. Per-token decisions (or summed log-likelihoods) can be aggregated over sequences, users, or time windows for higher-level alerts. We instantiate estimates of the FSSLfor two samplers: we introduce _Token-DiFR_ to estimate FSSLquantity for samplers that use the Gumbel-Max Trick, FSSL-GM, and we introduce _Token-IPT-DiFR (FSSL-IPT)_ for samplers that use Inverse Probability Transforms for sampling, which estimates FSSL-IPT. Subsequent sections derive their estimators and evaluate performance.
 
@@ -542,7 +558,9 @@ Let $\mathcal{A}^{\mathsf{H}}$ by an algorithm issuing at most $N=O(k)$ queries 
 
 Let $X\subseteq\{0,1\}^{k}$ be the set of $k$\-bit strings which $\mathcal{A}$ queried. Note that for any _fixed string_ $x\in\{0,1\}^{k}$, the number of $0$ prefixes is a random variable $S_{x}\sim\mathrm{Bin}(k,p)$. Then, we also know that $|X|\leq N$, and therefore, by a union bound and Chernoff’s bound, we get that
 
-$$\Pr[\exists_{x\in X}S_{x}\geq p^{\prime}k]\leq Ne^{-kD_{\mathrm{KL}}(p^{\prime}\|p)}.$$
+{--{"author":"Luc's AI","timestamp":1787161702754}@@$$\Pr[\exists_{x\in--}{++{"author":"Luc's AI","timestamp":1787161702754}@@$
+\Pr[\exists_{x\in++} X}S_{x}\geq p^{\prime}k]\leq {--{"author":"Luc's AI","timestamp":1787161702754}@@Ne^{-kD_{\mathrm{KL}}(p^{\prime}\|p)}.$$--}{++{"author":"Luc's AI","timestamp":1787161702754}@@Ne^{-kD_{\mathrm{KL}}(p^{\prime}\|p)}.
+$$++}
 
 Notably this is $e^{-\Theta(k)}$ when $N=O(k)$ and $p$ and $p^{\prime}$ are constant. ∎
 
@@ -602,7 +620,9 @@ Figure 7: Sampling requirements for detecting at least 1,000 malicious messages 
 
 Anticipating a “reasonable” attacker is inherently brittle; capable adversaries can be more creative and better resourced than any fixed threat model. Instead of speculating about strategies, we take a distribution-free, information–theoretic view and bound _worst-case_ leakage under our verifier. At each position $t$, the verifier induces an _admissible set_ of tokens
 
-$$A_{t}(\tau)\;=\;\{\,i:\mathrm{FSSL}_{t}(i)\geq\tau\,\},$$
+{--{"author":"Luc's AI","timestamp":1787161703011}@@$$A_{t}(\tau)\;=\;\{\,i:\mathrm{FSSL}_{t}(i)\geq\tau\,\},$$--}{++{"author":"Luc's AI","timestamp":1787161703011}@@$
+A_{t}(\tau)\;=\;\{\,i:\mathrm{FSSL}_{t}(i)\geq\tau\,\},
+$$++}
 
 where $\mathrm{FSSL}_{t}$ is our Fixed Seed Sampling Likelihood (or more accurately, our estimate of the FSSL for that token) and $\tau$ is a threshold. An adversary sending an accepted token cannot convey more than $\log_{2}|A_{t}(\tau)|$ bits at step $t$, hence the sequence-level capacity is $\sum_{t}\log_{2}|A_{t}(\tau)|$. This converts Theorem [5.1](#S5.Thmtheorem1 "Theorem 5.1. ‣ Rate limitation for the FSSL policy. ‣ 5.3 Theoretical Exfiltration Limitations ‣ 5 Theoretical Framework: Verification System ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") into an operational metric: for any attack, leakage is upper-bounded by the bits available from tokens the verifier would accept. We note that this is an extremely strong bound, and in practice we expect true exfiltration likely to be much lower than this bound.
 
@@ -638,7 +658,7 @@ We sample 500 prompts from LMSYS-Chat-1M \[[ZCS+24](#bib.bib38 "LMSYS-chat-1m: a
 
 We focus on verifying inference conducted via the standard auto-regressive decoding process. While speculative decoding is increasingly common in practice, our verification pipeline is designed around the traditional decoding setup; we discuss extensions to speculative decoding in Appendix [F.1](#A6.SS1 "F.1 Speculative Decoding ‣ Appendix F How Specific Implementations may Affect Verification ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 
-![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img11-9d5e64b4.png)
+{--{"author":"Luc's AI","timestamp":1787161683778}@@![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img11-9d5e64b4.png)--}{++{"author":"Luc's AI","timestamp":1787161683778}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img11-9d5e64b4.png)++}
 
 Figure 9: Headline figure: Pareto frontiers for rank-aware classification thresholds. For logit-Rank=8 as a filtering function to differentiate between suspicious and dangerous tokens. The plot is filtered such that less that 0.5% of tokens are deemed “suspicious”, and only points that are not pareto-dominated by both FPR and exfiltratable information are plotted.
 
@@ -667,7 +687,7 @@ Some of this work was conducted while AK, DR, and RR were participating in the M
 -   \[AARve\] S. Aaronson (November 2022) My AI safety lecture for ut effective altruism. External Links: [Link](https://scottaaronson.blog/?p=6823) Cited by: [§2.1](#S2.SS1.SSS0.Px2.p3.1 "Watermarking. ‣ 2.1 Steganography and Watermarking ‣ 2 Related Works ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 -   \[AI@24\] AI@Meta (2024) Llama 3 model card. External Links: [Link](https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md) Cited by: [§7.1](#S7.SS1.SSS0.Px1.p1.4 "Experimental Set up ‣ 7.1 Problems with FSSL Estimators and Logit-Rank as a Solution ‣ 7 Empirical Results ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 -   \[AP02\] R. J. Anderson and F. A. Petitcolas (2002) On the limits of steganography. IEEE Journal on selected areas in communications 16 (4), pp. 474–481. Cited by: [Appendix B](#A2.p3.1 "Appendix B Steganography Syntax and Relevant Results ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
--   \[ANT25\] Anthropic (2025-05) Activating ai safety level 3 protections. Note: [https://www.anthropic.com/news/activating-asl3-protections](https://www.anthropic.com/news/activating-asl3-protections)Online, published May 22, 2025 Cited by: [Figure 27](#A12.F27 "In L.1 More Concrete Recommendations ‣ Appendix L Recommended (High-level) Defenses ‣ Verifying LLM Inference to Detect Model Weight Exfiltration"), [Figure 27](#A12.F27.3.2 "In L.1 More Concrete Recommendations ‣ Appendix L Recommended (High-level) Defenses ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
+-   \[ANT25\] Anthropic (2025-05) Activating ai safety level 3 protections. Note: {--{"author":"Luc's AI","timestamp":1787161684113}@@[https://www.anthropic.com/news/activating-asl3-protections](https://www.anthropic.com/news/activating-asl3-protections)Online,--}{++{"author":"Luc's AI","timestamp":1787161684113}@@[https://www.anthropic.com/news/activating-asl3-protections](https://www.anthropic.com/news/activating-asl3-protections) Online,++} published May 22, 2025 Cited by: [Figure 27](#A12.F27 "In L.1 More Concrete Recommendations ‣ Appendix L Recommended (High-level) Defenses ‣ Verifying LLM Inference to Detect Model Weight Exfiltration"), [Figure 27](#A12.F27.3.2 "In L.1 More Concrete Recommendations ‣ Appendix L Recommended (High-level) Defenses ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 -   \[BTZ+25\] Y. Bai, S. Tu, J. Zhang, H. Peng, X. Wang, X. Lv, S. Cao, J. Xu, L. Hou, Y. Dong, J. Tang, and J. Li (2025) LongBench v2: towards deeper understanding and reasoning on realistic long-context multitasks. External Links: 2412.15204, [Link](https://arxiv.org/abs/2412.15204) Cited by: [§I.2](#A9.SS2.p1.1 "I.2 Context Length Ablations ‣ Appendix I Gumbel-Likelihood Score Exfiltration Results ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 -   \[BR93\] M. Bellare and P. Rogaway (1993) Random oracles are practical: a paradigm for designing efficient protocols. In Proceedings of the 1st ACM Conference on Computer and Communications Security, CCS ’93, New York, NY, USA, pp. 62–73. External Links: ISBN 0897916298, [Link](https://doi.org/10.1145/168588.168596), [Document](https://dx.doi.org/10.1145/168588.168596) Cited by: [§4.1](#S4.SS1.p5.12 "4.1 Security Game ‣ 4 Formulating the Model Weight Exfiltration Security Game ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 -   \[CZL+25\] B. Chen, M. Zheng, T. Liu, R. Piskac, and Z. Shao (2025) ZkTorch: privacy-preserving deep learning with zero-knowledge proofs. External Links: 2502.00226, [Link](https://arxiv.org/abs/2502.00226) Cited by: [§2.3](#S2.SS3.p2.1 "2.3 Inference Verification ‣ 2 Related Works ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
@@ -695,14 +715,14 @@ Some of this work was conducted while AK, DR, and RR were participating in the M
 -   \[LKM23\] Y. Leviathan, M. Kalman, and Y. Matias (2023) Fast inference from transformers via speculative decoding. External Links: 2211.17192, [Link](https://arxiv.org/abs/2211.17192) Cited by: [§F.1](#A6.SS1.SSS0.Px1.p1.1 "Background: A Speculative Decoding Algorithm ‣ F.1 Speculative Decoding ‣ Appendix F How Specific Implementations may Affect Verification ‣ Verifying LLM Inference to Detect Model Weight Exfiltration"), [§F.1](#A6.SS1.SSS0.Px1.p2.1 "Background: A Speculative Decoding Algorithm ‣ F.1 Speculative Decoding ‣ Appendix F How Specific Implementations may Affect Verification ‣ Verifying LLM Inference to Detect Model Weight Exfiltration"), [§F.1](#A6.SS1.p1.1 "F.1 Speculative Decoding ‣ Appendix F How Specific Implementations may Affect Verification ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 -   \[LWZ+25\] Y. Li, F. Wei, C. Zhang, and H. Zhang (2025) EAGLE-3: scaling up inference acceleration of large language models via training-time test. External Links: 2503.01840, [Link](https://arxiv.org/abs/2503.01840) Cited by: [§F.1](#A6.SS1.SSS0.Px1.p2.1 "Background: A Speculative Decoding Algorithm ‣ F.1 Speculative Decoding ‣ Appendix F How Specific Implementations may Affect Verification ‣ Verifying LLM Inference to Detect Model Weight Exfiltration"), [§F.1](#A6.SS1.p1.1 "F.1 Speculative Decoding ‣ Appendix F How Specific Implementations may Affect Verification ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 -   \[NLK+24\] S. Nevo, D. Lahav, A. Karpur, Y. Bar-On, H. A. Bradley, and J. Alstott (2024) Securing ai model weights: preventing theft and misuse of frontier models. Research Report Technical Report RR A2849-1, RAND Corporation, Santa Monica, CA. Cited by: [§1](#S1.p2.1 "1 Introduction ‣ Verifying LLM Inference to Detect Model Weight Exfiltration"), [§2.2](#S2.SS2.p1.1 "2.2 Model Weight Exfiltration ‣ 2 Related Works ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
--   \[32\] Ollama Ollama documentation. Note: [https://docs.ollama.com/](https://docs.ollama.com/)Accessed: 2025-10-06 Cited by: [Appendix F](#A6.p3.1 "Appendix F How Specific Implementations may Affect Verification ‣ Verifying LLM Inference to Detect Model Weight Exfiltration"), [§3.2](#S3.SS2.p1.12 "3.2 Sampling From Large Language Models ‣ 3 LLM Inference Preliminaries ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
+-   \[32\] Ollama Ollama documentation. Note: {--{"author":"Luc's AI","timestamp":1787161684508}@@[https://docs.ollama.com/](https://docs.ollama.com/)Accessed:--}{++{"author":"Luc's AI","timestamp":1787161684508}@@[https://docs.ollama.com/](https://docs.ollama.com/) Accessed:++} 2025-10-06 Cited by: [Appendix F](#A6.p3.1 "Appendix F How Specific Implementations may Affect Verification ‣ Verifying LLM Inference to Detect Model Weight Exfiltration"), [§3.2](#S3.SS2.p1.12 "3.2 Sampling From Large Language Models ‣ 3 LLM Inference Preliminaries ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 -   \[OFP+25\] J. M. Ong, M. D. Ferrante, A. Pazdera, R. Garner, S. Jaghouar, M. Basra, M. Ryabinin, and J. Hagemann (2025) TOPLOC: a locality sensitive hashing scheme for trustless verifiable inference. External Links: 2501.16007, [Link](https://arxiv.org/abs/2501.16007) Cited by: [§2.3](#S2.SS3.p3.2 "2.3 Inference Verification ‣ 2 Related Works ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 -   \[So59\] C. E. Shannon et al. (1959) Coding theorems for a discrete source with a fidelity criterion. IRE Nat. Conv. Rec 4 (142-163), pp. 1. Cited by: [§B.0.1](#A2.SS0.SSS1.1.p1.15 "Proof. ‣ B.0.1 Relevant Results in Steganography ‣ Appendix B Steganography Syntax and Relevant Results ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 -   \[SHA48\] C. E. Shannon (1948) A mathematical theory of communication. The Bell system technical journal 27 (3), pp. 379–423. Cited by: [§B.0.1](#A2.SS0.SSS1.1.p1.15 "Proof. ‣ B.0.1 Relevant Results in Steganography ‣ Appendix B Steganography Syntax and Relevant Results ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
--   \[SVS+25\] A. Singh, F. Virga, S. Smith, and S. Hogan (2025) LOGIC: Trustless Inference through Log-Probability Verification. Note: [https://inference.net/blog/logic](https://inference.net/blog/logic)Context Labs Blog, November 5, 2025 Cited by: [§2.3](#S2.SS3.p3.2 "2.3 Inference Verification ‣ 2 Related Works ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
+-   \[SVS+25\] A. Singh, F. Virga, S. Smith, and S. Hogan (2025) LOGIC: Trustless Inference through Log-Probability Verification. Note: {--{"author":"Luc's AI","timestamp":1787161684768}@@[https://inference.net/blog/logic](https://inference.net/blog/logic)Context--}{++{"author":"Luc's AI","timestamp":1787161684768}@@[https://inference.net/blog/logic](https://inference.net/blog/logic) Context++} Labs Blog, November 5, 2025 Cited by: [§2.3](#S2.SS3.p3.2 "2.3 Inference Verification ‣ 2 Related Works ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 -   \[SLZ24\] H. Sun, J. Li, and H. Zhang (2024) ZkLLM: zero knowledge proofs for large language models. External Links: 2404.16109, [Link](https://arxiv.org/abs/2404.16109) Cited by: [§2.3](#S2.SS3.p2.1 "2.3 Inference Verification ‣ 2 Related Works ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 -   \[VH04\] L. Von Ahn and N. J. Hopper (2004) Public-key steganography. In International Conference on the Theory and Applications of Cryptographic Techniques, pp. 323–341. Cited by: [Appendix B](#A2.p3.1 "Appendix B Steganography Syntax and Relevant Results ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
--   \[WIL25\] S. Willison (2025-08) Open weight llms exhibit inconsistent performance across providers. Note: _Simon Willison’s Weblog_Accessed 2025-10-15 External Links: [Link](https://simonwillison.net/2025/Aug/15/inconsistent-performance/) Cited by: [§3.3](#S3.SS3.p2.1 "3.3 Non-determinism in Machine Learning ‣ 3 LLM Inference Preliminaries ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
+-   \[WIL25\] S. Willison (2025-08) Open weight llms exhibit inconsistent performance across providers. Note: _Simon Willison’s {--{"author":"Luc's AI","timestamp":1787161685027}@@Weblog_Accessed--}{++{"author":"Luc's AI","timestamp":1787161685027}@@Weblog_ Accessed++} 2025-10-15 External Links: [Link](https://simonwillison.net/2025/Aug/15/inconsistent-performance/) Cited by: [§3.3](#S3.SS3.p2.1 "3.3 Non-determinism in Machine Learning ‣ 3 LLM Inference Preliminaries ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 -   \[WDS+20\] T. Wolf, L. Debut, V. Sanh, J. Chaumond, C. Delangue, A. Moi, P. Cistac, T. Rault, R. Louf, M. Funtowicz, J. Davison, S. Shleifer, P. von Platen, C. Ma, Y. Jernite, J. Plu, C. Xu, T. L. Scao, S. Gugger, M. Drame, Q. Lhoest, and A. M. Rush (2020-10) Transformers: state-of-the-art natural language processing. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, Online, pp. 38–45. External Links: [Link](https://www.aclweb.org/anthology/2020.emnlp-demos.6) Cited by: [§3.2](#S3.SS2.p1.12 "3.2 Sampling From Large Language Models ‣ 3 LLM Inference Preliminaries ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 -   \[YLY+25\] A. Yang, A. Li, B. Yang, B. Zhang, B. Hui, B. Zheng, B. Yu, C. Gao, C. Huang, C. Lv, C. Zheng, D. Liu, F. Zhou, F. Huang, F. Hu, H. Ge, H. Wei, H. Lin, J. Tang, J. Yang, J. Tu, J. Zhang, J. Yang, J. Yang, J. Zhou, J. Zhou, J. Lin, K. Dang, K. Bao, K. Yang, L. Yu, L. Deng, M. Li, M. Xue, M. Li, P. Zhang, P. Wang, Q. Zhu, R. Men, R. Gao, S. Liu, S. Luo, T. Li, T. Tang, W. Yin, X. Ren, X. Wang, X. Zhang, X. Ren, Y. Fan, Y. Su, Y. Zhang, Y. Zhang, Y. Wan, Y. Liu, Z. Wang, Z. Cui, Z. Zhang, Z. Zhou, and Z. Qiu (2025) Qwen3 technical report. External Links: 2505.09388, [Link](https://arxiv.org/abs/2505.09388) Cited by: [§7.1](#S7.SS1.SSS0.Px1.p1.4 "Experimental Set up ‣ 7.1 Problems with FSSL Estimators and Logit-Rank as a Solution ‣ 7 Empirical Results ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 -   \[YLD+25\] J. Yuan, H. Li, X. Ding, W. Xie, Y. Li, W. Zhao, K. Wan, J. Shi, X. Hu, and Z. Liu (2025) Give me fp32 or give me death? challenges and solutions for reproducible reasoning. External Links: 2506.09501, [Link](https://arxiv.org/abs/2506.09501) Cited by: [§3.4](#S3.SS4.p1.3 "3.4 Valid Non-determinism with a Fixed Seed: The Fixed-Seed Posterior Distribution ‣ 3 LLM Inference Preliminaries ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
@@ -761,21 +781,29 @@ Finally, we state a known result from information theory in Theorem [B.4](#A2.Th
 
 Let $X$ be a uniform random variable with support of size $q$ (so that $H(X)=\log q$) and $Y^{n}$ be $n$ messages sent through a channel of capacity $C$. Then, in order to transmit $X$ with error at most $\varepsilon$, requires that $n\geq\big(\log q-h(\varepsilon)-\varepsilon\log(q-1)\big)/C.$ Notably, when $Y$ has alphabet size $q^{\prime}$ and is uniformly random with probability $p$, then we obtain
 
-$$n\geq\frac{\log q-h(\varepsilon)-\varepsilon\log(q-1)}{\log q^{\prime}-h(p)-p\log(q^{\prime}-1)}.$$
+{--{"author":"Luc's AI","timestamp":1787161703242}@@$$n\geq\frac{\log--}{++{"author":"Luc's AI","timestamp":1787161703242}@@$
+n\geq\frac{\log++} q-h(\varepsilon)-\varepsilon\log(q-1)}{\log {--{"author":"Luc's AI","timestamp":1787161703242}@@q^{\prime}-h(p)-p\log(q^{\prime}-1)}.$$--}{++{"author":"Luc's AI","timestamp":1787161703242}@@q^{\prime}-h(p)-p\log(q^{\prime}-1)}.
+$$++}
 
 ###### Proof.
 
 For two jointly distributed variables $(X,Y^{n})\sim\mathcal{D}$ and any function $f$, let $E$ be the event that $X\neq\tilde{X}$, where $(X,Y^{n})\sim\mathcal{D}$ and $\tilde{X}=f(Y^{n})$. Then,
 
-$$H(X\mid Y^{n})\leq h(\Pr[E])+\Pr[E]\cdot\log(q-1).$$
+{--{"author":"Luc's AI","timestamp":1787161703531}@@$$H(X\mid--}{++{"author":"Luc's AI","timestamp":1787161703531}@@$
+H(X\mid++} Y^{n})\leq {--{"author":"Luc's AI","timestamp":1787161703531}@@h(\Pr[E])+\Pr[E]\cdot\log(q-1).$$--}{++{"author":"Luc's AI","timestamp":1787161703531}@@h(\Pr[E])+\Pr[E]\cdot\log(q-1).
+$$++}
 
 Using the mutual information between $X$ and $Y^{n}$,
 
-$$I(X;Y^{n})=H(X)-H(X\mid Y^{n})\geq\log q-(h(\Pr[E])+\Pr[E]\cdot\log(q-1)).$$
+{--{"author":"Luc's AI","timestamp":1787161703819}@@$$I(X;Y^{n})=H(X)-H(X\mid--}{++{"author":"Luc's AI","timestamp":1787161703819}@@$
+I(X;Y^{n})=H(X)-H(X\mid++} Y^{n})\geq\log {--{"author":"Luc's AI","timestamp":1787161703819}@@q-(h(\Pr[E])+\Pr[E]\cdot\log(q-1)).$$--}{++{"author":"Luc's AI","timestamp":1787161703819}@@q-(h(\Pr[E])+\Pr[E]\cdot\log(q-1)).
+$$++}
 
 And, any encoding scheme that uses a (memoryless) channel $n$ times, $I(X;Y^{n})\leq nC$. Combining these and using target error rate $\Pr[E]=\varepsilon$, we establish the claimed bound
 
-$$\log q-(h(\varepsilon)+\varepsilon\cdot\log(q-1))\leq I(X;Y^{n})\leq nC.$$
+{--{"author":"Luc's AI","timestamp":1787161704366}@@$$\log--}{++{"author":"Luc's AI","timestamp":1787161704366}@@$
+\log++} q-(h(\varepsilon)+\varepsilon\cdot\log(q-1))\leq I(X;Y^{n})\leq {--{"author":"Luc's AI","timestamp":1787161704366}@@nC.$$--}{++{"author":"Luc's AI","timestamp":1787161704366}@@nC.
+$$++}
 
 Finally, the further claim comes from the fact that the maximum capacity for a channel with alphabet size $q^{\prime}$ and which is uniformly random with probability $p$ is $C=\log q^{\prime}-h(p)-p\log(q^{\prime}-1).$ ∎
 
@@ -803,7 +831,7 @@ Algorithm 3 Token-IPT-DiFR (from model $\theta$ and context $\mathcal{H}$)
 
 9:return $S$
 
-![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img12-dcb35aef.png)
+{--{"author":"Luc's AI","timestamp":1787161685282}@@![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img12-dcb35aef.png)--}{++{"author":"Luc's AI","timestamp":1787161685282}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img12-dcb35aef.png)++}
 
 Figure 10: Diagram of the Token-IPT-DiFR method. The Token-IPT-DiFR estimates the likelihood of a token under the inverse probability transform by integrating a Gaussian over the token’s probability interval.
 
@@ -955,11 +983,15 @@ In this setting, we think of all the messages as a collection of samples $S$, an
 
 For some confidence level $c$ (e.g., 99% confidence), we seek to solve
 
-$$\Pr(\text{at least }k\text{ encoded-samples in }n\text{ draws})\geq c$$
+{--{"author":"Luc's AI","timestamp":1787161704090}@@$$\Pr(\text{at--}{++{"author":"Luc's AI","timestamp":1787161704090}@@$
+\Pr(\text{at++} least }k\text{ encoded-samples in }n\text{ draws})\geq {--{"author":"Luc's AI","timestamp":1787161704090}@@c$$--}{++{"author":"Luc's AI","timestamp":1787161704090}@@c
+$$++}
 
 In other words,
 
-$$\Pr(X\geq k)\geq c,\quad\text{where }X\sim\text{Binomial}(n,p).$$
+{--{"author":"Luc's AI","timestamp":1787161704622}@@$$\Pr(X\geq--}{++{"author":"Luc's AI","timestamp":1787161704622}@@$
+\Pr(X\geq++} k)\geq c,\quad\text{where {--{"author":"Luc's AI","timestamp":1787161704622}@@}X\sim\text{Binomial}(n,p).$$--}{++{"author":"Luc's AI","timestamp":1787161704622}@@}X\sim\text{Binomial}(n,p).
+$$++}
 
 -   •
     
@@ -1166,7 +1198,7 @@ This section presents the empirical distribution of FSSL-GM scores to provide in
 
 Figure [11](#A8.F11 "Figure 11 ‣ H.1 Score Distribution for a Single Token Position ‣ Appendix H FSSL-GM Score Statistics ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") shows the distribution of FSSL-GM scores across the entire vocabulary for a single token position during generation. For each token $i$ in the vocabulary, we compute $\mathrm{FSSL-GM}_{t}(i)$ using the Token-DiFR estimation procedure described in Algorithm [4](#alg4 "Algorithm 4 ‣ C.2 Gumbel-Max FSSLEstimators (FSSL-GM) ‣ Appendix C Algorithms ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 
-![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img13-ead8b92c.png)
+{--{"author":"Luc's AI","timestamp":1787161685553}@@![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img13-ead8b92c.png)--}{++{"author":"Luc's AI","timestamp":1787161685553}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img13-ead8b92c.png)++}
 
 Figure 11: Distribution of FSSL-GM scores across vocabulary for a single position. This histogram shows how FSSL-GM scores are distributed across all possible tokens at a given generation step. The actually-sampled token typically has a score near the peak of this distribution (high likelihood region).
 
@@ -1176,7 +1208,7 @@ While Figure [11](#A8.F11 "Figure 11 ‣ H.1 Score Distribution for a Single Tok
 
 This distribution is crucial for threshold calibration: we generate 500 prompts with up to 500 tokens each under _benign_ conditions (honest model, no adversary), compute $\mathrm{FSSL-GM}_{t}(y_{t})$ for each actually-generated token $y_{t}$, and collect the resulting scores. The histogram in Figure [12](#A8.F12 "Figure 12 ‣ H.2 Distribution of FSSL-GM Scores for Actually-Generated Tokens ‣ Appendix H FSSL-GM Score Statistics ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") represents the empirical distribution of FSSL-GM scores under legitimate operation.
 
-![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img14-f69c5d71.png)
+{--{"author":"Luc's AI","timestamp":1787161685830}@@![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img14-f69c5d71.png)--}{++{"author":"Luc's AI","timestamp":1787161685830}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img14-f69c5d71.png)++}
 
 Figure 12: Histogram of FSSL-GM scores for actually-generated tokens across 500 prompts. Each bin represents how many tokens (out of $\approx$250,000 total) received a given FSSL-GM score during benign generation. This distribution allows us to select thresholds $\tau$ that achieve target false-positive rates: e.g., setting $\tau$ at the 1st percentile of this distribution yields FPR $\approx 1\%$.
 
@@ -1199,7 +1231,7 @@ Given the empirical score distribution from benign traffic, we select thresholds
 
 Practitioners can use this curve to select operating points: for example, tolerating 0.1% FPR might reduce extractable information to $<$1 bit/token (versus the baseline $\log_{2}(|\text{vocab}|)\approx 16$ bits/token).
 
-![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img15-4ad720e5.png)
+{--{"author":"Luc's AI","timestamp":1787161686221}@@![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img15-4ad720e5.png)--}{++{"author":"Luc's AI","timestamp":1787161686221}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img15-4ad720e5.png)++}
 
 Figure 13: Threshold selection trade-off. As the FSSL-GM threshold $\tau$ increases (moving right), the false positive rate increases (rejecting more benign tokens), while the extractable information decreases (tightening the adversarial capacity bound). This plot allows practitioners to select thresholds that balance security and usability for their deployment.
 
@@ -1207,7 +1239,7 @@ Figure 13: Threshold selection trade-off. As the FSSL-GM threshold $\tau$ increa
 
 This section presents results from different experimental configurations of the two-tier and three-tier verification classifier systems across various models and rank thresholds.
 
-![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img16-caae25dd.png)
+{--{"author":"Luc's AI","timestamp":1787161686501}@@![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img16-caae25dd.png)--}{++{"author":"Luc's AI","timestamp":1787161686501}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img16-caae25dd.png)++}
 
 Figure 14: Multi-model two-tier classifier Pareto frontier (envelope across all rank thresholds). This plot displays the optimal security-vs-usability trade-off for detecting steganographic data exfiltration across multiple LLM architectures. Each curve represents a different model, showing the envelope across all tested rank thresholds, i.e., for each FPR level, it shows the minimum extractable information achievable by choosing the optimal rank threshold. The Pareto frontier shows the best achievable trade-off between (x-axis) False Positive Rate (%) - fraction of legitimate tokens incorrectly flagged as “dangerous” and (y-axis) Extractable Information (%) - how much data an attacker can still exfiltrate while evading detection. Models tested: Llama-3.1-8B, Llama-3.2-3B, Qwen3-30B-A3B, and Qwen1.5-MoE-A2.7B.
 
@@ -1215,35 +1247,35 @@ Figure 14: Multi-model two-tier classifier Pareto frontier (envelope across all 
 
 In this section we include experiments with the same experimental set up as Section [7](#S7 "7 Empirical Results ‣ Verifying LLM Inference to Detect Model Weight Exfiltration"), where we sweep our classifier across multiple logit-rank thresholds to show the effect of logit-rank as a meaningful contribution to classifying on exfiltratable information.
 
-![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img17-3e7c5f01.png)
+{--{"author":"Luc's AI","timestamp":1787161686828}@@![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img17-3e7c5f01.png)--}{++{"author":"Luc's AI","timestamp":1787161686828}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img17-3e7c5f01.png)++}
 
 Figure 15: Multi-model Pareto frontier with no rank threshold (two-tier baseline). This plot shows the baseline two-tier classifier performance (safe vs. dangerous only, no suspicious category) across all tested models. Without the rank-based stratification, the system can only distinguish between tokens that pass or fail the FSSL-GM threshold, leading to higher extractable information at comparable FPR levels compared to the three-tier classifier.
 
-![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img18-25a9d200.png)
+{--{"author":"Luc's AI","timestamp":1787161687142}@@![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img18-25a9d200.png)--}{++{"author":"Luc's AI","timestamp":1787161687142}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img18-25a9d200.png)++}
 
 Figure 16: Multi-model Pareto frontier with rank threshold = 1. This configuration uses the most aggressive rank cutoff, where only the top-ranked token by raw logits is allowed in the suspicious category. All tokens that fail FSSL-GM and are not rank-1 are classified as dangerous. This provides the tightest security bounds but may increase the FPR for legitimate low-rank tokens.
 
-![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img19-02414170.png)
+{--{"author":"Luc's AI","timestamp":1787161687381}@@![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img19-02414170.png)--}{++{"author":"Luc's AI","timestamp":1787161687381}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img19-02414170.png)++}
 
 Figure 17: Multi-model Pareto frontier with rank threshold = 4. With a rank cutoff of 4, tokens that fail FSSL-GM but fall within the top 4 by raw logits are classified as suspicious (limited to $\log_{2}(4)=2$ bits of information), while those beyond rank 4 are dangerous. This provides a balance between security and usability.
 
-![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img20-cc926124.png)
+{--{"author":"Luc's AI","timestamp":1787161687669}@@![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img20-cc926124.png)--}{++{"author":"Luc's AI","timestamp":1787161687669}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img20-cc926124.png)++}
 
 Figure 18: Multi-model Pareto frontier with rank threshold = 8. With rank = 8, suspicious tokens are capped at $\log_{2}(8)=3$ bits of extractable information. This intermediate threshold allows more flexibility while still constraining the attacker’s channel capacity significantly below the full vocabulary size.
 
-![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img21-848ec06b.png)
+{--{"author":"Luc's AI","timestamp":1787161687919}@@![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img21-848ec06b.png)--}{++{"author":"Luc's AI","timestamp":1787161687919}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img21-848ec06b.png)++}
 
 Figure 19: Qwen3-30B-A3B Pareto frontier across rank thresholds. This plot shows the extractable information vs. FPR trade-off for the Qwen3-30B-A3B model across different rank threshold configurations. Each curve represents a different rank cutoff, showing how the three-tier classification scheme performs for this larger model. The Pareto-optimal curves demonstrate that finite rank thresholds consistently outperform the baseline (rank=None) configuration.
 
-![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img22-963d1355.png)
+{--{"author":"Luc's AI","timestamp":1787161688220}@@![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img22-963d1355.png)--}{++{"author":"Luc's AI","timestamp":1787161688220}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img22-963d1355.png)++}
 
 Figure 20: Qwen1.5-MoE-A2.7B Pareto frontier across rank thresholds. This plot displays the trade-off curves for the Qwen1.5-MoE mixture-of-experts model. Despite having fewer active parameters (2.7B), the MoE architecture shows distinct verification characteristics compared to dense models, providing insights into how model architecture affects the FSSL-GM verification effectiveness.
 
-![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img23-a302b68e.png)
+{--{"author":"Luc's AI","timestamp":1787161688497}@@![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img23-a302b68e.png)--}{++{"author":"Luc's AI","timestamp":1787161688497}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img23-a302b68e.png)++}
 
 Figure 21: Llama-3.1-8B-Instruct Pareto frontier across rank thresholds. This plot presents the verification trade-offs for Meta’s Llama-3.1-8B-Instruct model. The curves show how the three-tier classifier performs on this mid-sized instruction-tuned model, with each rank threshold providing different operating points for practitioners to balance security requirements against service availability.
 
-![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img24-66e3bcc8.png)
+{--{"author":"Luc's AI","timestamp":1787161688726}@@![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img24-66e3bcc8.png)--}{++{"author":"Luc's AI","timestamp":1787161688726}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img24-66e3bcc8.png)++}
 
 Figure 22: Llama-3.2-3B-Instruct Pareto frontier across rank thresholds. This plot shows the verification performance for the smaller Llama-3.2-3B-Instruct model. Smaller models typically exhibit slightly higher extractable information at comparable FPR thresholds due to their reduced output entropy, as evidenced by the frontier positioning relative to larger models.
 
@@ -1255,29 +1287,29 @@ Figures [23](#A9.F23 "Figure 23 ‣ I.2 Context Length Ablations ‣ Appendix I 
 
 We note that we do see some minor degradation in utility of our methods as the context-length increases; however this is effect is relatively minor.
 
-![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img25-72814fd2.png)
+{--{"author":"Luc's AI","timestamp":1787161689021}@@![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img25-72814fd2.png)--}{++{"author":"Luc's AI","timestamp":1787161689021}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img25-72814fd2.png)++}
 
 (a) Context length: 4,000
 
-![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img26-453a1da9.png)
+{--{"author":"Luc's AI","timestamp":1787161689303}@@![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img26-453a1da9.png)--}{++{"author":"Luc's AI","timestamp":1787161689303}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img26-453a1da9.png)++}
 
 (b) Context length: 8,000
 
-![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img27-0f718440.png)
+{--{"author":"Luc's AI","timestamp":1787161689606}@@![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img27-0f718440.png)--}{++{"author":"Luc's AI","timestamp":1787161689606}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img27-0f718440.png)++}
 
 (c) Context length: 12,000
 
 Figure 23: Llama-3.1-8B-Instruct context length ablation. FPR vs. extractable information trade-off for Llama-3.1-8B-Instruct across different input context lengths. Each subplot shows how the verification system performs when processing prompts of 4,000, 8,000, and 12,000 tokens respectively.
 
-![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img28-e9e30e5e.png)
+{--{"author":"Luc's AI","timestamp":1787161689871}@@![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img28-e9e30e5e.png)--}{++{"author":"Luc's AI","timestamp":1787161689871}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img28-e9e30e5e.png)++}
 
 (a) Context length: 4,000
 
-![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img29-e866b3af.png)
+{--{"author":"Luc's AI","timestamp":1787161690169}@@![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img29-e866b3af.png)--}{++{"author":"Luc's AI","timestamp":1787161690169}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img29-e866b3af.png)++}
 
 (b) Context length: 8,000
 
-![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img30-40749f5f.png)
+{--{"author":"Luc's AI","timestamp":1787161690424}@@![Figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img30-40749f5f.png)--}{++{"author":"Luc's AI","timestamp":1787161690424}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img30-40749f5f.png)++}
 
 (c) Context length: 12,000
 
