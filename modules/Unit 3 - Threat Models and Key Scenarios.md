@@ -6,7 +6,9 @@ id: 'f98a8b50-30cb-4a30-9cd3-41b376a8d69a'
 # Submodule: How this unit works
 
 # Lens: Read This First
-id:: 07e48171-8996-4ce8-8844-c45d2234c1dd
+id:: 07e48171-8996-4ce8-8844-c45d2234c1dd{++{"author":"Luc's AI","timestamp":1787134591131}@@
+tldr:: Commit to clear predictions before each reading, then use the gap between what you expected and what the evidence shows as the lesson.
+summary_for_tutor:: An orientation to Unit 3's prediction-first structure. It explains why learners must commit before reading, clarifies that the sequence follows conceptual prerequisites rather than severity, and states that assessment rewards applying and reconstructing arguments rather than merely accepting or repeating them.++}
 #### Text
 content::
 \## Before you start
@@ -76,7 +78,9 @@ optional:: true
 # Submodule: Objections
 
 # Lens: Where This Unit Might Be Wrong
-id:: bf79def0-ae73-4e9e-80bd-04917885b1f8
+id:: bf79def0-ae73-4e9e-80bd-04917885b1f8{++{"author":"Luc's AI","timestamp":1787134591460}@@
+tldr:: Stress-test the unit by reading the objection you expect to resist most: perhaps control targets the wrong failure, current LLMs never reach the assumed regime, or risk decompositions bias the answer.
+summary_for_tutor:: A curated objections lens after the main threat models. It presents challenges to control research, to extrapolating current LLMs into dangerous agents, and to probabilistic decomposition itself, then asks the learner to read at least one opposing account.++}
 #### Text
 content::
 \## Three objections worth taking seriously
@@ -102,7 +106,9 @@ Its companion, **Abram Demski and Cole Wyeth, *Have LLMs Generated Novel Insight
 If you took the forecasting unit, these are that unit's methods turned against this unit's conclusions. That is what they are for.
 
 # Lens: Dive Deeper
-id:: ba22da99-8986-4494-8a58-73ecd4e293d5
+id:: ba22da99-8986-4494-8a58-73ecd4e293d5{++{"author":"Luc's AI","timestamp":1787134591681}@@
+tldr:: Go beyond the unit with a full probabilistic risk argument, precise learned-objective theory, worked scenarios, control priorities, and deliberate human misuse.
+summary_for_tutor:: An optional resource map extending Unit 3. It sequences Carlsmith's structured power-seeking argument, learned optimization, AI 2027, control-priority analyses, and human-led coup or takeover scenarios so a tutor can direct learners from formal threat models to concrete mechanisms and alternatives.++}
 #### Text
 content::
 \## The structured argument, in full
