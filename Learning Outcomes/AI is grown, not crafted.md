@@ -9,7 +9,14 @@ tags:
   - learning-outcome
 domain: "[[../Domains/Artificial Intelligence]]"
 stage: beginner
----
+{++{"author":"AI","timestamp":1787137421898}@@eval-results:
+  content-sha: 98360650
+  date: 2026-08-19
+  model: claude-fable-5
+  suite-version: 1
+  checks: {A1: pass, A2: pass, B1: fail, C1: fail, C2: pass, C3: fail}
+  notes: {B1: "question opens 'Chapter 2 draws…' — leans on the assigned text", C1: "1-5 graded ladder, not binary pass/fail", C3: "DNA analogy embedded in required explanation; 'cannot read the weights' not literally true"}
+++}---
 
 ## Test:
 id:: 01dd1801-36f3-4a83-b7e7-33eed08ba1b0

@@ -9,7 +9,14 @@ tags:
   - learning-outcome
 domain: "[[../Domains/Artificial Intelligence]]"
 stage: beginner
----
+{++{"author":"AI","timestamp":1787137426359}@@eval-results:
+  content-sha: 2fd083f6
+  date: 2026-08-19
+  model: claude-fable-5
+  suite-version: 1
+  checks: {A1: pass, A2: pass, B1: fail, C1: pass, C2: pass, C3: pass}
+  notes: {B1: "question says 'Using the chapter's framework' — not parseable without the chapter"}
+++}---
 
 ## Test:
 id:: b5981716-08c0-40b1-a005-2cfbdde6d0c7
