@@ -1,7 +1,7 @@
 ---
 title: "Social Biases: How Other People Can Make You Irrational"
 author:
-  - "Clearer Thinking"
+  - {--{"author":"Luc's AI","timestamp":1787136290416}@@"Clearer Thinking"--}{++{"author":"Luc's AI","timestamp":1787136290416}@@"Travis Manuel"++}
 source_url: "https://programs.clearerthinking.org/social_biases.html"
 published: "2026-07-10"
 description: "An interactive mini-course on five social biases — conformity, mimicry, group polarization, social trust, and impression management — and practical strategies to resist the irrationality they cause."
@@ -1050,4 +1050,4 @@ Acknowledgment and funding statement
 
 This tool was made possible by a grant from the Good Ancestor Foundation. If you'd like to know more about them and the good work they do, please consider visiting their website.
 
-_(button: Give feedback)_
+{--{"author":"Luc's AI","timestamp":1787136290658}@@_(button: Give feedback)_--}

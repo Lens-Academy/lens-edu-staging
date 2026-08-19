@@ -1,8 +1,8 @@
 ---
 title: "Nailing the basics – Theories of change"
 author:
-  - "Aidan Alexander"
-  - "Ambitious Impact"
+  - "Aidan Alexander"{--{"author":"Luc's AI","timestamp":1787136290197}@@
+  - "Ambitious Impact"--}
 source_url: "https://forum.effectivealtruism.org/posts/9t7St3pfEEiDsQ2Tr/nailing-the-basics-theories-of-change"
 published: 2023-07-16
 created: 2026-07-27

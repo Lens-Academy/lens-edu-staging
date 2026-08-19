@@ -19,7 +19,7 @@ Add discussion note here:
 
 %%
 
-marginparsep has been altered.  
+{--{"author":"Luc's AI","timestamp":1787136289957}@@marginparsep has been altered.  
 topmargin has been altered.  
 marginparpush has been altered.  
 
@@ -31,7 +31,7 @@ We’re not able to reliably undo arbitrary changes to the style. Please remove 
 
  
 
-Deep Learning is Not So Mysterious or Different
+--}Deep Learning is Not So Mysterious or Different
 
  
 
