@@ -34,9 +34,9 @@ This is one of many profiles we've written to help people find the most pressing
 
 Table of Contents
 
--   [1 Why might gradual disempowerment be an especially pressing problem?](https://80000hours.org/problem-profiles/gradual-disempowerment/#why-might-gradual-disempowerment-be-an-especially-pressing-problem)
+-   [1 Why might gradual disempowerment be an especially pressing {--{"author":"Luc's AI","timestamp":1787139977055}@@problem?](https://80000hours.org/problem-profiles/gradual-disempowerment/#why-might-gradual-disempowerment-be-an-especially-pressing-problem)--}{++{"author":"Luc's AI","timestamp":1787139977055}@@problem?](#why-might-gradual-disempowerment-be-an-especially-)++}
 -   [2 How pressing is this issue?](#how-pressing-is-this-issue)
--   [3 What are the arguments against this being a pressing problem?](https://80000hours.org/problem-profiles/gradual-disempowerment/#what-are-the-arguments-against-this-being-a-pressing-problem)
+-   [3 What are the arguments against this being a pressing {--{"author":"Luc's AI","timestamp":1787139977412}@@problem?](https://80000hours.org/problem-profiles/gradual-disempowerment/#what-are-the-arguments-against-this-being-a-pressing-problem)--}{++{"author":"Luc's AI","timestamp":1787139977412}@@problem?](#what-are-the-arguments-against-this-being-a-pressi)++}
 -   [4 What can you do to help?](#what-can-you-do-to-help)
     -   [4.1 Key organisations in this space](#key-organisations-in-this-space)
 -   [5 Learn more](#learn-more)
