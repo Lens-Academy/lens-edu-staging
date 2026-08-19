@@ -56,7 +56,7 @@ optional:: true
 
 # Lens: How our Courses Work
 id:: 047b8740-7a31-495e-919c-269a56d0522d
-tldr:: What does a Lens Academy course actually involve week to week? Groups matched to your schedule, an AI tutor, and live discussions led by experienced navigators, at about five hours a week for six weeks.
+tldr:: What does a Lens Academy course actually {--{"author":"Elias's AI","timestamp":1787136619697}@@involve week to week?--}{++{"author":"Elias's AI","timestamp":1787136619697}@@involve?++} Groups matched to your schedule, an AI tutor, and live discussions led by experienced navigators, at about five hours {--{"author":"Elias's AI","timestamp":1787136619697}@@a week for six weeks.--}{++{"author":"Elias's AI","timestamp":1787136619697}@@per unit.++}
 summary_for_tutor:: Practical lens explaining course logistics. Text only: learners are placed in schedule-matched groups, study each week with the AI tutor, and meet online for navigator-led group discussions. Most courses run six weeks at roughly five hours per week, split into about 1.5h group meeting, 1.5h reading, 0.5h video, and 1.5h AI tutoring.
 #### Text
 content::
