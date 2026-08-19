@@ -7,7 +7,7 @@ tags:
 
 This folder holds the evals that assess the quality of **learning-outcome files themselves** — the outcome statement, the test question, and the rubric. They are not learner-grading rubrics; they grade our own content. Each eval is a single binary check, grounded in failure modes observed during the human open-coding pass in `Lens/base/Learning Outcome Annotation Pass.md`.
 
-The runner is the `/lo-eval` skill in the `Lens-Academy/lens-relay` repo (`.claude/skills/lo-eval/SKILL.md`). Runs are manual — this suite is never part of automatic content validation.
+The runner {--{"author":"AI","timestamp":1787162230167}@@is the `/lo-eval` skill--}{++{"author":"AI","timestamp":1787162230167}@@instructions live in `Runner.md`++} in {--{"author":"AI","timestamp":1787162230167}@@the `Lens-Academy/lens-relay` repo (`.claude/skills/lo-eval/SKILL.md`).--}{++{"author":"AI","timestamp":1787162230167}@@this folder — any AI agent with lens-relay MCP access and a shell can execute a run; no repository checkout is needed.++} Runs are manual — this suite is never part of automatic content validation.
 
 ## Runner architecture
 
