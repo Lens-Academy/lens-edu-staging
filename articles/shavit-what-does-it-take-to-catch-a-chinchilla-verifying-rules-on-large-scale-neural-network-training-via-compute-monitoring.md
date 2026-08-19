@@ -477,12 +477,14 @@ This means the probability of successfully detecting a snapshot from a large-sca
 
 Rearranging terms, we get:
 
-$$p \\
+{--{"author":"Luc's AI","timestamp":1787136624270}@@$$p--}{++{"author":"Luc's AI","timestamp":1787136624270}@@$$
+p++} \\
 =1-\left(1-\frac{H}{aTC}p_{w}\right)^{\lceil T/T_{m}\rceil s}\geq 1-\left(1-\frac{H}{aTC}\left(1-e^{-fT_{m}}\right)\right)^{\lceil T/T_{m}\rceil s} \\
 \log(1-p) \\
 \leq s\left\lceil\frac{T}{T_{m}}\right\rceil\log\left(1-\frac{H}{aTC}\left(1-e^{-fT_{m}}\right)\right) \\
 s \\
-\leq\frac{\log(1-p)}{\log\left(1-\frac{H}{aTC}\left(1-e^{-fT_{m}}\right)\right)}\frac{1}{\left\lceil\frac{T}{T_{m}}\right\rceil}$$
+{--{"author":"Luc's AI","timestamp":1787136624270}@@\leq\frac{\log(1-p)}{\log\left(1-\frac{H}{aTC}\left(1-e^{-fT_{m}}\right)\right)}\frac{1}{\left\lceil\frac{T}{T_{m}}\right\rceil}$$--}{++{"author":"Luc's AI","timestamp":1787136624270}@@\leq\frac{\log(1-p)}{\log\left(1-\frac{H}{aTC}\left(1-e^{-fT_{m}}\right)\right)}\frac{1}{\left\lceil\frac{T}{T_{m}}\right\rceil}
+$$++}
 
 To catch a rule-violating training run snapshot with probability $p$, a Verifier needs to sample no more than $s$ chips in each monitoring period $T_{m}$.
 
@@ -548,18 +550,21 @@ If $g\geq 1$ and $1>b>0$, then $f(a)=a\left(1-b^{\frac{1}{g}}\right)-(1-b)\geq 0
 
 ###### Proof.
 
-$$f(0) \\
+{--{"author":"Luc's AI","timestamp":1787136624532}@@$$f(0)--}{++{"author":"Luc's AI","timestamp":1787136624532}@@$$
+f(0)++} \\
 =(1-b)-(1-b)=0 \\
 \frac{df(g)}{dg} \\
 =1-b^{\frac{1}{g}}+\frac{1}{g}b^{\frac{1}{g}} \\
 =1-\underbrace{\left(1-\frac{1}{g}\right)}_{\leq 1}\underbrace{b^{\frac{1}{g}}}_{\leq 1} \\
-\geq 0$$
+\geq {--{"author":"Luc's AI","timestamp":1787136624532}@@0$$--}{++{"author":"Luc's AI","timestamp":1787136624532}@@0
+$$++}
 
 Given that $f(g=0)\geq 0$ and its derivative is continuous and nonnegative thereafter, we know that $f(g)\geq 0$ for all $g\geq 1,1>b>0$. ∎
 
 Plugging in our earlier settings for $a$ and $b$, we have:
 
-$$g\left(1-b^{\frac{1}{g}}\right)-(1-b) \\
+{--{"author":"Luc's AI","timestamp":1787136624818}@@$$g\left(1-b^{\frac{1}{g}}\right)-(1-b)--}{++{"author":"Luc's AI","timestamp":1787136624818}@@$$
+g\left(1-b^{\frac{1}{g}}\right)-(1-b)++} \\
 \geq 0 \\
 g\left(1-b^{\frac{1}{g}}\right) \\
 \geq 1-b \\
@@ -570,7 +575,8 @@ g\left(1-b^{\frac{1}{g}}\right) \\
 1-\left(1-\frac{H}{aCt}\left(1-e^{-ft}\right)\right)^{s} \\
 \geq 1-\left(1-\frac{H}{aCT}\left(1-e^{-fT}\right)\right)^{s} \\
 p_{d}(t) \\
-\geq p_{d}(T)$$
+\geq {--{"author":"Luc's AI","timestamp":1787136624818}@@p_{d}(T)$$--}{++{"author":"Luc's AI","timestamp":1787136624818}@@p_{d}(T)
+$$++}
 
 ∎
 

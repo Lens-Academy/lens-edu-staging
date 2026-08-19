@@ -57,14 +57,14 @@ optional:: true
 # Lens: How our Courses Work
 id:: 047b8740-7a31-495e-919c-269a56d0522d
 tldr:: What does a Lens Academy course actually {--{"author":"Elias's AI","timestamp":1787136619697}@@involve week to week?--}{++{"author":"Elias's AI","timestamp":1787136619697}@@involve?++} Groups matched to your schedule, an AI tutor, and live discussions led by experienced navigators, at about five hours {--{"author":"Elias's AI","timestamp":1787136619697}@@a week for six weeks.--}{++{"author":"Elias's AI","timestamp":1787136619697}@@per unit.++}
-summary_for_tutor:: Practical lens explaining course logistics. Text only: learners are placed in schedule-matched groups, study each week with the AI tutor, and meet online for navigator-led group discussions. Most courses run six weeks at roughly five hours per week, split into about 1.5h group meeting, 1.5h reading, 0.5h video, and 1.5h AI tutoring.
+summary_for_tutor:: Practical lens explaining course logistics. Text only: learners are placed in schedule-matched groups, study each {--{"author":"Elias's AI","timestamp":1787136622165}@@week--}{++{"author":"Elias's AI","timestamp":1787136622165}@@unit++} with the AI tutor, and meet online for navigator-led group discussions. {--{"author":"Elias's AI","timestamp":1787136622165}@@Most courses run six weeks at --}{++{"author":"Elias's AI","timestamp":1787136622165}@@Each unit takes ++}roughly five {--{"author":"Elias's AI","timestamp":1787136622165}@@hours per week,--}{++{"author":"Elias's AI","timestamp":1787136622165}@@hours,++} split into about 1.5h group meeting, 1.5h reading, 0.5h video, and 1.5h AI tutoring.
 #### Text
 content::
 If you sign up for one of our courses, we’ll set you up with a group based on your availability. Each week you’ll study the material with help from our AI Tutor. Then, you’ll meet online with your group for a discussion guided by one of our navigators — experienced volunteers who help you get the most out of the material.
 
-Most of our courses last 6 weeks.
+{--{"author":"Elias's AI","timestamp":1787136625297}@@Most of our courses last 6 weeks.
 
-Each week, you'll spend about 5 hours, consisting of approximately:
+--}{++{"author":"Elias's AI","timestamp":1787136625297}@@Course lengths vary. ++}Each {--{"author":"Elias's AI","timestamp":1787136625297}@@week, you'll spend--}{++{"author":"Elias's AI","timestamp":1787136625297}@@unit takes++} about 5 hours, consisting of approximately:
 - 1.5h group meeting
 - 1.5h reading articles
 - 0.5h watching videos

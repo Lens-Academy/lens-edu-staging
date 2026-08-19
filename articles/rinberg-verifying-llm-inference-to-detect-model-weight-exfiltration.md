@@ -618,15 +618,19 @@ Figure 8: Comparison of Token-DiFR (FSSL-GM) verification and raw logit ranks fo
 
 Augmenting FSSL-GM with a _logit rank_ check yields a strict Pareto improvement over simply thresholding according to the FSSL: for any FSSL threshold $\tau$ and rank cutoff $R$, we introduce a three-class classification
 
-$$\mathrm{safe}:\ \mathrm{FSSL}_{t}(i)\!\geq\!\tau \\
+{--{"author":"Luc's AI","timestamp":1787136623719}@@$$\mathrm{safe}:\--}{++{"author":"Luc's AI","timestamp":1787136623719}@@$$
+\mathrm{safe}:\++} \mathrm{FSSL}_{t}(i)\!\geq\!\tau \\
 \mathrm{suspicious}:\ \mathrm{FSSL}_{t}(i)\!<\!\tau\ \wedge\ \mathrm{rank}_{t}(i)\!\leq\!R \\
-\mathrm{dangerous}:\ \mathrm{FSSL}_{t}(i)\!<\!\tau\ \wedge\ \mathrm{rank}_{t}(i)\!>\!R$$
+\mathrm{dangerous}:\ \mathrm{FSSL}_{t}(i)\!<\!\tau\ \wedge\ {--{"author":"Luc's AI","timestamp":1787136623719}@@\mathrm{rank}_{t}(i)\!>\!R$$--}{++{"author":"Luc's AI","timestamp":1787136623719}@@\mathrm{rank}_{t}(i)\!>\!R
+$$++}
 
 achieves _lower or equal_ FPR at _lower_ information leakage than FSSL-GM alone. We note that this logit-rank and FSSL score can be combined into a single classifier, e.g. a logistic regression that takes two features: FSSL score and logit-rank. An important advantage to a tiered classification scheme allows to have simpler bounds of extractable information, as there is a trivial upper bound on information expressed by a suspicious (not dangerous) token $I\leq log_{2}(R)\leq log_{2}(|\textrm{vocab size}|)$. As such, given the token-level classifier $C$, the per-token exfiltratable information is:
 
-$$\mathrm{ExfiltratableInformation}(t)=\begin{cases}\log_{2}|A_{t}|,&\text{if }C(t)=\mathrm{safe},\\[6.0pt]
+{--{"author":"Luc's AI","timestamp":1787136623968}@@$$\mathrm{ExfiltratableInformation}(t)=\begin{cases}\log_{2}|A_{t}|,&\text{if--}{++{"author":"Luc's AI","timestamp":1787136623968}@@$$
+\mathrm{ExfiltratableInformation}(t)=\begin{cases}\log_{2}|A_{t}|,&\text{if++} }C(t)=\mathrm{safe},\\[6.0pt]
 \log_{2}R,&\text{if }C(t)=\mathrm{suspicious},\\[6.0pt]
-\log_{2}|\mathcal{T}|,&\text{if }C(t)=\mathrm{dangerous}.\end{cases}$$
+\log_{2}|\mathcal{T}|,&\text{if {--{"author":"Luc's AI","timestamp":1787136623968}@@}C(t)=\mathrm{dangerous}.\end{cases}$$--}{++{"author":"Luc's AI","timestamp":1787136623968}@@}C(t)=\mathrm{dangerous}.\end{cases}
+$$++}
 
 ##### Experimental Set up
 

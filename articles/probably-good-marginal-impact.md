@@ -22,9 +22,9 @@ Add discussion note here:
 
 %%
 
-{++{"author":"Luc's AI","timestamp":1787136404088}@@{>>{"author":"Luc's AI","timestamp":1787136404088}@@This body is a condensed paraphrase of the source rather than a faithful article import; it omits source wording, links, and substantive nuance. Re-import the complete source article before using it in a lens.<<}
+{>>{"author":"Luc's AI","timestamp":1787136404088}@@This body is a condensed paraphrase of the source rather than a faithful article import; it omits source wording, links, and substantive nuance. Re-import the complete source article before using it in a lens.<<}
 
-++}**Marginal impact** refers to the additional difference your specific investment of time, money, or effort makes. Rather than focusing on the total impact of an organization or movement, it's about recognizing how much your contribution adds to what's already being done. This way, you can better decide where to direct your resources for the greatest effect.
+**Marginal impact** refers to the additional difference your specific investment of time, money, or effort makes. Rather than focusing on the total impact of an organization or movement, it's about recognizing how much your contribution adds to what's already being done. This way, you can better decide where to direct your resources for the greatest effect.
 
 ## What's My Additional Impact?
 

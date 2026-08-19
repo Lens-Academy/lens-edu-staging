@@ -70,11 +70,11 @@ The core idea is that once AI systems can themselves design and build even more 
 
 The classic IE scenario involves a feedback loop in AI software, with AI designing better software that enables more capable AI that designs better software, and so on. But there are actually many parts of AI development which could lead to a positive feedback loop. We can distinguish _three_ [4](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-4) important feedback loops that could drive an intelligence explosion:
 
-{++{"author":"Luc's AI","timestamp":1787136360263}@@1. A **software feedback loop**, where AI improves AI algorithms, data, post-training enhancements, and other software techniques. The central example is fully automating research and engineering at frontier AI labs: AI systems improve algorithms used to develop better AI systems, which then further improve algorithms.
+1. A **software feedback loop**, where AI improves AI algorithms, data, post-training enhancements, and other software techniques. The central example is fully automating research and engineering at frontier AI labs: AI systems improve algorithms used to develop better AI systems, which then further improve algorithms.
 2. A **chip technology feedback loop**, where AI improves the quality of AI chips.[5](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-5) The central example is automating the cognitive R&D work at NVIDIA, TSMC, ASML, and other semiconductor companies. Better chip technology enables more capable AI, creating more and better cognitive labour for semiconductor R&D.[6](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-6)
 3. A **chip production feedback loop**, where AI increases the quantity of AI chips. The central example is robots automating the process of building and running chip factories, from mining and transport through construction and operation. More chips enable better AI systems, which design better robots to build still more chip factories.[7](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-7)
 
-++}### Time lags in each feedback loop
+### Time lags in each feedback loop
 
 How suddenly could an intelligence explosion happen - how quickly could we transition from human-driven progress in AI capabilities to AI-driven progress in AI capabilities?[8](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-8)
 

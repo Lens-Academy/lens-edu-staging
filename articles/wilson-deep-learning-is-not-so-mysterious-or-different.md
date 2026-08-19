@@ -152,7 +152,9 @@ These generalization frameworks have been adapted to provide _non-vacuous genera
 
 In words, we can interpret these generalization bounds as:
 
-$${\color{#800080}\text{Expected Risk}}\leq{\color{#038db2}\text{Empirical Risk}}+{\color{#c73e3a}\text{Model Compressibility}}$$
+{--{"author":"Luc's AI","timestamp":1787136622954}@@$${\color{#800080}\text{Expected--}{++{"author":"Luc's AI","timestamp":1787136622954}@@$$
+{\color{#800080}\text{Expected++} Risk}}\leq{\color{#038db2}\text{Empirical Risk}}+{\color{#c73e3a}\text{Model {--{"author":"Luc's AI","timestamp":1787136622954}@@Compressibility}}$$--}{++{"author":"Luc's AI","timestamp":1787136622954}@@Compressibility}}
+$$++}
 
 where compressibility provides a formalization of complexity. In Figure [2](#S1.F2 "Figure 2 ‣ 1 Introduction"), adapted from [Lotfi et al. 2023](#bib.bib68), we visualize how each term contributes to the bound. This representation of the bounds also provides a _prescription_ for building general-purpose learners: combine a flexible hypothesis space with a bias for low Kolmogorov complexity. A flexible model will be able to achieve low empirical risk (training loss) on a wide variety of datasets. Being able to compress these models will then provably lead to good generalization. [Goldblum et al. 2024](#bib.bib35) show that neural networks, especially large transformers, tend to be biased towards low Kolmogorov complexity, and so is the distribution over real-world data. For this reason, a single model can achieve good generalization over many real-world problems.
 
@@ -492,11 +494,15 @@ $$\exp{(-2nt(h)^{2}/\Delta^{2})}=P(h)\delta.$$
 
 Solving for $t(h)$, we have
 
-$$t(h)=\Delta\sqrt{\frac{\log 1/P(h)+\log 1/\delta}{2n}}$$
+{--{"author":"Luc's AI","timestamp":1787136623240}@@$$t(h)=\Delta\sqrt{\frac{\log--}{++{"author":"Luc's AI","timestamp":1787136623240}@@$$
+t(h)=\Delta\sqrt{\frac{\log++} 1/P(h)+\log {--{"author":"Luc's AI","timestamp":1787136623240}@@1/\delta}{2n}}$$--}{++{"author":"Luc's AI","timestamp":1787136623240}@@1/\delta}{2n}}
+$$++}
 
 This bound holds for a fixed hypothesis $h$. However, for an $h^{*}(\{x\})$ constructed using the training data, the random variable
 
-$$\hat{R}(h^{*})=\frac{1}{n}\sum_{i=1}^{n}R(h^{*}(\{x\}),x_{i}),$$
+{--{"author":"Luc's AI","timestamp":1787136623483}@@$$\hat{R}(h^{*})=\frac{1}{n}\sum_{i=1}^{n}R(h^{*}(\{x\}),x_{i}),$$--}{++{"author":"Luc's AI","timestamp":1787136623483}@@$$
+\hat{R}(h^{*})=\frac{1}{n}\sum_{i=1}^{n}R(h^{*}(\{x\}),x_{i}),
+$$++}
 
 cannot be decomposed as a sum of independent random variables. Since $h^{*}\in\mathcal{H}$, if we can bound the probability that $R(h)\geq\hat{R}(h)+t(h)$ for _any_ $h$, then the bound also holds for $h^{*}$.
 

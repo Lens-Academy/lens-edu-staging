@@ -15,9 +15,7 @@ Some of the text and figures in this post are out of date.
 
 The interactive chart below is kept up to date, but the static figures and some claims in the text (e.g. the doubling time) reflect the state of the data at the time of original publication. For our latest methodology and results, see the [dedicated time horizons page](https://metr.org/time-horizons/) and [Time Horizon 1.1](https://metr.org/blog/2026-1-29-time-horizon-1-1/).
 
-{--{"author":"Luc's AI","timestamp":1787136344610}@@[](https://metr.org/assets/benchmark_results_1_1.yaml)
-
---}Analysis code is available on [GitHub](https://github.com/METR/eval-analysis-public). Raw data available [here](https://metr.org/assets/benchmark_results_1_1.yaml)
+Analysis code is available on [GitHub](https://github.com/METR/eval-analysis-public). Raw data available [here](https://metr.org/assets/benchmark_results_1_1.yaml)
 
 This is our most up-to-date measurement of the task-completion time horizons for public language models. For methodology details and FAQs, see our [dedicated time horizons page](https://metr.org/time-horizons/).
 
