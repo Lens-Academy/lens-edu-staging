@@ -2,8 +2,8 @@
 title: "Draft report on existential risk from power-seeking AI"
 author:
   - "Joe Carlsmith"
-source_url: "https://forum.effectivealtruism.org/posts/78NoGoRitPzeT8nga/draft-report-on-existential-risk-from-power-seeking-ai"{++{"author":"Luc's AI","timestamp":1787151993007}@@
-allowUnreachableUrl: true++}
+source_url: "https://forum.effectivealtruism.org/posts/78NoGoRitPzeT8nga/draft-report-on-existential-risk-from-power-seeking-ai"
+allowUnreachableUrl: true
 published: 2021-04-28
 created: 2026-06-16
 accessed: 2026-06-16

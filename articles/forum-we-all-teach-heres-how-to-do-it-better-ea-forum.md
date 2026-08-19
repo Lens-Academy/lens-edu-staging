@@ -2,8 +2,8 @@
 title: "We all teach: here's how to do it better"
 author:
   - "Michael Noetel"
-source_url: "https://forum.effectivealtruism.org/posts/ZPNNnEu2HGNSNmifo/we-all-teach-here-s-how-to-do-it-better"{++{"author":"Luc's AI","timestamp":1787151993251}@@
-allowUnreachableUrl: true++}
+source_url: "https://forum.effectivealtruism.org/posts/ZPNNnEu2HGNSNmifo/we-all-teach-here-s-how-to-do-it-better"
+allowUnreachableUrl: true
 published: 2022-09-30
 created: 2026-06-12
 accessed: 2026-06-12

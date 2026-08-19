@@ -23,8 +23,8 @@ AI is a moving target. The researchers in this field can see the obstacles, and 
 
 #### Other approaches may achieve superintelligence soon, even if LLMs don't.
 
-[The field is good at overcoming obstacles]({--{"author":"Luc's AI","timestamp":1787152018068}@@/1/but-arent-there-big-obstacles-to-reaching-superintelligence#the-field-is-good-at-overcoming-obstacles--}{++{"author":"Luc's AI","timestamp":1787152018068}@@https://ifanyonebuildsit.com/1/but-arent-there-big-obstacles-to-reaching-superintelligence#the-field-is-good-at-overcoming-obstacles++}), including coming up with new AI architectures and approaches. We didn't write *If Anyone Builds It, Everyone Dies* to warn people about LLMs in particular. We wrote it to warn people about superintelligence.
+[The field is good at overcoming obstacles](https://ifanyonebuildsit.com/1/but-arent-there-big-obstacles-to-reaching-superintelligence#the-field-is-good-at-overcoming-obstacles), including coming up with new AI architectures and approaches. We didn't write *If Anyone Builds It, Everyone Dies* to warn people about LLMs in particular. We wrote it to warn people about superintelligence.
 
 The reason we talk about LLMs isn't that we're sure LLMs are the shortest path from here to superintelligence. We talk about LLMs because they represent the AI approach that is currently working, and because studying them is a fine way to understand just how little anyone knows about these new minds humanity is growing.
 
-See also the extended discussion on [why gradient descent matters]({--{"author":"Luc's AI","timestamp":1787152018779}@@/2/what-good-does-knowledge-of-llms-do--}{++{"author":"Luc's AI","timestamp":1787152018779}@@https://ifanyonebuildsit.com/2/what-good-does-knowledge-of-llms-do++}).
+See also the extended discussion on [why gradient descent matters](https://ifanyonebuildsit.com/2/what-good-does-knowledge-of-llms-do).

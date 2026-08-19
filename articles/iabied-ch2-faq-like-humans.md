@@ -21,7 +21,7 @@ AIs like ChatGPT are trained to accurately predict their training data. And thei
 
 But consider an AI trained only on predicting human-generated text. Must it become human-like?
 
-Suppose you take an excellent actress{--{"author":"Luc's AI","timestamp":1787139924992}@@[\*](https://ifanyonebuildsit.com/2/wont-llms-be-like-the-humans-in-the-data-theyre-trained-on#ftnt58)--}{++{"author":"Luc's AI","timestamp":1787139924992}@@[^source-note-58]++} and have her learn to predict the behavior of all the drunks in a bar. Not "learn how to play an average stereotypical drunk," but rather "learn all the drunks in this one bar as *individuals*." LLMs aren't trained to *imitate averages;* they're trained to *predict individual next words* using all the context of previous words.
+Suppose you take an excellent actress[^source-note-58] and have her learn to predict the behavior of all the drunks in a bar. Not "learn how to play an average stereotypical drunk," but rather "learn all the drunks in this one bar as *individuals*." LLMs aren't trained to *imitate averages;* they're trained to *predict individual next words* using all the context of previous words.
 
 It would be foolish to expect this actress to *become perpetually drunk* in the process of learning to predict what each drunk person will say. She might develop parts of her brain that are pretty good at acting drunk, but she would not become drunk *herself.*
 
@@ -35,17 +35,17 @@ Similarly, training an LLM to make excellent predictions about the next word out
 
 We are not saying, "No machine can ever have anything resembling a mental state a human has inside." We are saying that the current kind of ML technology should not by default be expected to create drunk-predicting engines that work by getting drunk themselves.
 
-The work of figuring out how to predict all sorts of different humans is different from the work of being one human. Which means that AIs built with anything like today's methods should not be expected to become much like a human, in the course of learning to act like any given one of us depending on the request.{--{"author":"Luc's AI","timestamp":1787139925453}@@[†](https://ifanyonebuildsit.com/2/wont-llms-be-like-the-humans-in-the-data-theyre-trained-on#ftnt59)--}{++{"author":"Luc's AI","timestamp":1787139925453}@@[^source-note-59]++}
+The work of figuring out how to predict all sorts of different humans is different from the work of being one human. Which means that AIs built with anything like today's methods should not be expected to become much like a human, in the course of learning to act like any given one of us depending on the request.[^source-note-59]
 
 #### The architecture of LLMs is very different from that of humans.
 
 Refer to Chapter 2 for a brief discussion of how LLMs seem pretty alien.
 
-In Chapter 4, we'll go deeper into how AIs wind up with very weird preferences and pursuits — a phenomenon that we've already begun to see in the wild, with more examples piling up even after the book went to print. We collect some {--{"author":"Luc's AI","timestamp":1787152249893}@@[examples](/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient)--}{++{"author":"Luc's AI","timestamp":1787152249893}@@[examples](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient)++} in the online resources for Chapter 4.
+In Chapter 4, we'll go deeper into how AIs wind up with very weird preferences and pursuits — a phenomenon that we've already begun to see in the wild, with more examples piling up even after the book went to print. We collect some [examples](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient) in the online resources for Chapter 4.
 
-{--{"author":"Luc's AI","timestamp":1787139925199}@@[\*](https://ifanyonebuildsit.com/2/wont-llms-be-like-the-humans-in-the-data-theyre-trained-on#ftnt58_ref)--}{++{"author":"Luc's AI","timestamp":1787139925199}@@[^source-note-58]:++} We aren't using the more modern, gender-neutral word "actor" in these resources because "actress" prevents ambiguity about whether we are referring to "a stage or screen performer" versus "an agent that takes actions."
+[^source-note-58]: We aren't using the more modern, gender-neutral word "actor" in these resources because "actress" prevents ambiguity about whether we are referring to "a stage or screen performer" versus "an agent that takes actions."
 
-{--{"author":"Luc's AI","timestamp":1787139925665}@@[†](https://ifanyonebuildsit.com/2/wont-llms-be-like-the-humans-in-the-data-theyre-trained-on#ftnt59_ref)--}{++{"author":"Luc's AI","timestamp":1787139925665}@@[^source-note-59]:++} If you train an AI to predict how your friend Alice acts when angry, then this will likely allow the AI to *imitate* Alice's angry behavior too — at least once the AI's predictions become good enough. But the act of getting good at predicting this won't make the AI *actually* angry; and when the AI uses its prediction to imitate Alice, that won't make the AI "actually angry" either.
+[^source-note-59]: If you train an AI to predict how your friend Alice acts when angry, then this will likely allow the AI to *imitate* Alice's angry behavior too — at least once the AI's predictions become good enough. But the act of getting good at predicting this won't make the AI *actually* angry; and when the AI uses its prediction to imitate Alice, that won't make the AI "actually angry" either.
 
 When you leap to the conclusion that angry-looking behaviors must go with an angry underlying*feeling*, it's likely that you aren't just putting forward an abstract theory that AIs and humans have something deeply in common. You're to some extent attributing anger *automatically* — the AI just *seems angry*, like a convincing actress.
 
@@ -53,7 +53,7 @@ In the case of a human actress, you at least know that the actress *does* ever e
 
 Why not expect LLMs to solve the problem of predicting anger by becoming angry themselves?
 
-To some extent, that's how humans would solve the problem. Part of why humans are good at predicting other humans is that we've evolved to "put ourselves in the other person's shoes." To predict how Alice will act if she gets angry, I let some part of *myself* be angry, and I see how *I* would then behave. This is a topic we'll discuss more in the [online supplement]({--{"author":"Luc's AI","timestamp":1787152193320}@@/4/human-values-are-contingent--}{++{"author":"Luc's AI","timestamp":1787152193320}@@https://ifanyonebuildsit.com/4/human-values-are-contingent++}) to Chapter 4.
+To some extent, that's how humans would solve the problem. Part of why humans are good at predicting other humans is that we've evolved to "put ourselves in the other person's shoes." To predict how Alice will act if she gets angry, I let some part of *myself* be angry, and I see how *I* would then behave. This is a topic we'll discuss more in the [online supplement](https://ifanyonebuildsit.com/4/human-values-are-contingent) to Chapter 4.
 
 But the whole reason this works for humans, when we try to predict one another, is that we all share the same basic brain structure. This gives humans the shortcut of using their brain as a template for the other person's brain.
 
@@ -61,7 +61,7 @@ LLMs are in a vastly different position. Their trillions of tokens of training t
 
 More generally: Efficient, complicated, uncertain reasoning about some complex event doesn't *usually* resemble a detailed internal forward simulation of that event. For instance, the uncertain reasoning will often track many different live possibilities. Even when forward simulation *is* the most effective practical prediction method, the simulation doesn't usually leak out and turn the predictor into the thing it's predicting.
 
-And so there are many behaviors, both good and evil, that an LLM can exhibit; and yet at the end of the day what we're seeing is a mask, and what lies behind the mask is something [unknown]({--{"author":"Luc's AI","timestamp":1787152193555}@@/4/doesnt-the-claude-chatbot-show-signs-of-being-aligned#todays-llms-are-like-aliens-wearing-many-masks--}{++{"author":"Luc's AI","timestamp":1787152193555}@@https://ifanyonebuildsit.com/4/doesnt-the-claude-chatbot-show-signs-of-being-aligned#todays-llms-are-like-aliens-wearing-many-masks++}), and something that [isn't very human-like at all]({--{"author":"Luc's AI","timestamp":1787152193765}@@/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-appear-to-be-psychologically-alien--}{++{"author":"Luc's AI","timestamp":1787152193765}@@https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-appear-to-be-psychologically-alien++}).
+And so there are many behaviors, both good and evil, that an LLM can exhibit; and yet at the end of the day what we're seeing is a mask, and what lies behind the mask is something [unknown](https://ifanyonebuildsit.com/4/doesnt-the-claude-chatbot-show-signs-of-being-aligned#todays-llms-are-like-aliens-wearing-many-masks), and something that [isn't very human-like at all](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-appear-to-be-psychologically-alien).
 
 Currently, a little bit, and maybe more by the time you read this, AIs have been trained to predict some *very* human-like behaviors; and frameworks like ChatGPT or Claude can turn these predictions into nice-appearing outward behavior. Not just human behaviors, but humane behaviors — even noble ones.
 
