@@ -188,7 +188,8 @@ And every time I read commentary on what's going on in the world, people are dis
 
 I don't know where we're actually heading, or what we can do about it. But I feel pretty solid in saying that we as a civilization are not ready for what's coming, and we need to start by taking it more seriously.
 
-## Acknowledgements
+{++{"author":"Luc's AI","timestamp":1787170026607}@@:::collapse
+++}## Acknowledgements
 
 I have few-to-no claims to originality. The vast bulk of the claims, observations and insights in this series came from some combination of:
 
@@ -200,4 +201,5 @@ In addition, I owe thanks to:
 * Ajeya Cotra, María Gutiérrez Rojas and Ludwig Schubert for help with visualizations.
 * A number of people for feedback on earlier drafts:
   * My sister [Daliya Karnofsky](https://www.daliyakarnofsky.com/), my wife Daniela Amodei, and Elie Hassenfeld: special thanks for reading the earliest (least readable) drafts and often giving detailed feedback on multiple iterations.
-  * People who served as "beta readers" and gave significant amounts of feedback, particularly on what was and wasn't making sense for them: Alexander Berger, Damon Binder, Lukas Gloor, Derek Hopf, Mike Levine, Eli Nathan, Sella Nevo, Julian Sancton, Simon Shifrin, Tracy Williams. (Plus a number of people already mentioned above.)
+  * People who served as "beta readers" and gave significant amounts of feedback, particularly on what was and wasn't making sense for them: Alexander Berger, Damon Binder, Lukas Gloor, Derek Hopf, Mike Levine, Eli Nathan, Sella Nevo, Julian Sancton, Simon Shifrin, Tracy Williams. (Plus a number of people already mentioned above.){++{"author":"Luc's AI","timestamp":1787170026842}@@
+:::++}
