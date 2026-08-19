@@ -21,7 +21,7 @@ Stockfish 17 is better at steering a chessboard than we are. If we played a ches
 
 So too with AIs that are predicting and steering the real world. The smarter they are, the harder it is to predict exactly what they do, but the easier it is to predict that they'll reach whatever destination they were steering toward.
 
-[^source-note-23]: This answer indicates an interesting epistemological state. When you believe that Stockfish is smarter than you at chess, your beliefs about the final outcome of the chess game are not fully captured by your best predictions about Stockfish's individual moves.
+{--{"author":"Luc's AI","timestamp":1787161320719}@@[^source-note-23]:--}{++{"author":"Luc's AI","timestamp":1787161320719}@@[^note-iabied-ftnt23]:++} This answer indicates an interesting epistemological state. When you believe that Stockfish is smarter than you at chess, your beliefs about the final outcome of the chess game are not fully captured by your best predictions about Stockfish's individual moves.
 
 A philosopher of science might ask how that can possibly be the case, when the rules of chess are fully known and the outcome follows exactly from each exact move. The answer is that there's a vast logical structure of possible chess games, which in one sense is fully determined by the chess rules, but which is not fully known to you (nor even to Stockfish!) because your mind cannot visualize all the consequences that follow from the premise of the chess rules.
 
