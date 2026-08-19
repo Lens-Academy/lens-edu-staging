@@ -838,11 +838,11 @@ We’ve also provided a more general argument [here](https://80000hours.org/prob
 
 {--{"author":"Luc's AI","timestamp":1787158916400}@@[^31]:--}{++{"author":"Luc's AI","timestamp":1787158916400}@@[^cite-80k-31]:++} For example, [Yann LeCun](https://techcrunch.com/2024/10/12/metas-yann-lecun-says-worries-about-a-i-s-existential-threat-are-complete-b-s/), the chief AI scientist at Meta, has said of AI existential risk: “That’s complete B.S.”
 
-[^32]: For a fuller discussion of the incentives to deploy potentially misaligned AI, see section 5 of Carlsmith’s [draft report into existential risks from AI](https://doi.org/10.48550/arXiv.2206.13353).
+{--{"author":"Luc's AI","timestamp":1787158916642}@@[^32]:--}{++{"author":"Luc's AI","timestamp":1787158916642}@@[^cite-80k-32]:++} For a fuller discussion of the incentives to deploy potentially misaligned AI, see section 5 of Carlsmith’s [draft report into existential risks from AI](https://doi.org/10.48550/arXiv.2206.13353).
 
-[^33]: Sources differ somewhat on its exact size. [Cause IQ](https://www.causeiq.com/organizations/nature-conservancy,530242652/) said it has 4,459 employees, and [Zippia](https://www.zippia.com/the-nature-conservancy-careers-41338/demographics/) said it had 3,000. The Nature Conservancy itself [said](https://www.nature.org/en-us/about-us/who-we-are/) it employs over 1,000 scientists, suggesting the other numbers are in the right ballpark.
+{--{"author":"Luc's AI","timestamp":1787158916878}@@[^33]:--}{++{"author":"Luc's AI","timestamp":1787158916878}@@[^cite-80k-33]:++} Sources differ somewhat on its exact size. [Cause IQ](https://www.causeiq.com/organizations/nature-conservancy,530242652/) said it has 4,459 employees, and [Zippia](https://www.zippia.com/the-nature-conservancy-careers-41338/demographics/) said it had 3,000. The Nature Conservancy itself [said](https://www.nature.org/en-us/about-us/who-we-are/) it employs over 1,000 scientists, suggesting the other numbers are in the right ballpark.
 
-[^34]: Some people have raised concerns that by working on some of the technical approaches to the problem listed below, you might actually *increase* the risk of an AI-related catastrophe.
+{--{"author":"Luc's AI","timestamp":1787158917158}@@[^34]:--}{++{"author":"Luc's AI","timestamp":1787158917158}@@[^note-80k-34]:++} Some people have raised concerns that by working on some of the technical approaches to the problem listed below, you might actually *increase* the risk of an AI-related catastrophe.
     
     One concern is that advancing techniques which make AIs safer in important ways — say, better at understanding and responding to humans’ needs — could also make them broadly more capable and useful. [Reinforcement learning with human feedback](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback) may be one such example.
     
@@ -854,25 +854,25 @@ We’ve also provided a more general argument [here](https://80000hours.org/prob
     
     Beth Barnes discussed in [her appearance on our podcast](https://80000hours.org/podcast/episodes/beth-barnes-ai-safety-evals/#could-evaluations-backfire-by-increasing-ai-hype-and-racing-011136) the argument that, for example, work on AI evaluations could be risky. We also [cover related concerns](https://80000hours.org/career-reviews/working-at-an-ai-lab/#you-might-increase-the-risk-of-an-ai-related-catastrophe) in our article on working at an AI company.
 
-[^35]: There have been lots of efforts to map out the landscape of technical AI safety approaches, though none seem to be exhaustive. You can look at [DeepMind’s breakdown of its misalignment work](https://www.alignmentforum.org/posts/3ki4mt4BA6eTx56Tc/google-deepmind-an-approach-to-technical-agi-safety-and#Misalignment) and [this overview of the technical AI safety field](https://www.alignmentforum.org/posts/fAW6RXLKTLHC3WXkS/shallow-review-of-technical-ai-safety-2024) for more.
+{--{"author":"Luc's AI","timestamp":1787158917438}@@[^35]:--}{++{"author":"Luc's AI","timestamp":1787158917438}@@[^cite-80k-35]:++} There have been lots of efforts to map out the landscape of technical AI safety approaches, though none seem to be exhaustive. You can look at [DeepMind’s breakdown of its misalignment work](https://www.alignmentforum.org/posts/3ki4mt4BA6eTx56Tc/google-deepmind-an-approach-to-technical-agi-safety-and#Misalignment) and [this overview of the technical AI safety field](https://www.alignmentforum.org/posts/fAW6RXLKTLHC3WXkS/shallow-review-of-technical-ai-safety-2024) for more.
 
-[^36]: Notably, it seems reinforcement learning with human feedback has also [led to some deceptive behaviour](https://openai.com/index/chain-of-thought-monitoring/) in AI systems — so efforts to use this method to prevent power-seeking might backfire.
+{--{"author":"Luc's AI","timestamp":1787158917684}@@[^36]:--}{++{"author":"Luc's AI","timestamp":1787158917684}@@[^note-80k-36]:++} Notably, it seems reinforcement learning with human feedback has also [led to some deceptive behaviour](https://openai.com/index/chain-of-thought-monitoring/) in AI systems — so efforts to use this method to prevent power-seeking might backfire.
 
-[^37]: AI systems might become so advanced that humans can no longer directly evaluate their outputs. To understand how challenging it might be to maintain control in this situation, just imagine your dog trying to train you to behave in the ways that it wants you to.
+{--{"author":"Luc's AI","timestamp":1787158917970}@@[^37]:--}{++{"author":"Luc's AI","timestamp":1787158917970}@@[^note-80k-37]:++} AI systems might become so advanced that humans can no longer directly evaluate their outputs. To understand how challenging it might be to maintain control in this situation, just imagine your dog trying to train you to behave in the ways that it wants you to.
     
     However, if we can find good ways to supervise AIs that are smarter than us, we can still prevent them from acting against us.
 
-[^38]: For more details about AI system evaluations, you can review the work of the [UK AI Security Institute](https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations) and [METR](https://metr.org/about).
+{--{"author":"Luc's AI","timestamp":1787158918210}@@[^38]:--}{++{"author":"Luc's AI","timestamp":1787158918210}@@[^cite-80k-38]:++} For more details about AI system evaluations, you can review the work of the [UK AI Security Institute](https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations) and [METR](https://metr.org/about).
 
-[^39]: It’s currently contested how useful mechanistic interpretability will be for keeping advanced AI systems safe.
+{--{"author":"Luc's AI","timestamp":1787158918493}@@[^39]:--}{++{"author":"Luc's AI","timestamp":1787158918493}@@[^note-80k-39]:++} It’s currently contested how useful mechanistic interpretability will be for keeping advanced AI systems safe.
     
     For the pessimistic case about interpretability tools, see [Interpretability Will Not Reliably Find Deceptive AI by Neel Nanda](https://forum.effectivealtruism.org/posts/Th4tviypdKzeb59GN/interpretability-will-not-reliably-find-deceptive-ai), a leading interpretability researcher, or [The Misguided Quest for Mechanistic AI Interpretability](https://www.ai-frontiers.org/articles/the-misguided-quest-for-mechanistic-ai-interpretability) by Dan Hendrycks and Laura Hiscott.
     
     For a more optimistic case on the promise of interpretability work, see [The Urgency of Interpretability](https://www.darioamodei.com/post/the-urgency-of-interpretability) by Dario Amodei.
 
-[^40]: Buck Shlegeris discussed AI control methods in detail in [his appearance on our podcast](https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/).
+{--{"author":"Luc's AI","timestamp":1787158918753}@@[^40]:--}{++{"author":"Luc's AI","timestamp":1787158918753}@@[^note-80k-40]:++} Buck Shlegeris discussed AI control methods in detail in [his appearance on our podcast](https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/).
 
-[^41]: Researchers [reported](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2825395):
+{--{"author":"Luc's AI","timestamp":1787158919015}@@[^41]:--}{++{"author":"Luc's AI","timestamp":1787158919015}@@[^note-80k-41]:++} Researchers [reported](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2825395):
     > In this trial, the availability of an LLM to physicians as a diagnostic aid did not significantly improve clinical reasoning compared with conventional resources. The LLM alone demonstrated higher performance than both physician groups, indicating the need for technology and workforce development to realize the potential of physician-artificial intelligence collaboration in clinical practice.
 
-[^42]: For example, Elliot Thornley has proposed methods for limiting the time horizon over which an AI system has preferences. This would theoretically allow the system to be shut down if it’s behaving in undesired ways. See more [here](https://arxiv.org/abs/2505.20203).
+{--{"author":"Luc's AI","timestamp":1787158919353}@@[^42]:--}{++{"author":"Luc's AI","timestamp":1787158919353}@@[^note-80k-42]:++} For example, Elliot Thornley has proposed methods for limiting the time horizon over which an AI system has preferences. This would theoretically allow the system to be shut down if it’s behaving in undesired ways. See more [here](https://arxiv.org/abs/2505.20203).
