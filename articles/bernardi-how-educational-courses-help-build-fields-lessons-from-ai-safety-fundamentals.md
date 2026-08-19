@@ -28,7 +28,7 @@ Sometimes that’s because nobody has heard of your problem, and _advocacy_ is n
 
 Education (to me) is the act of collecting the knowledge that exists about your field into a sensible structure, and transmitting it to others in such a way that they can develop their own understanding.
 
-In this post I describe how the AI Safety Fundamentals course helped to drive the fields of AI alignment and AI governance forward. I’ll then draw on some more general lessons for other fields that may benefit from education, which you can skip straight to {--{"author":"Luc's AI","timestamp":1787140144328}@@[here](https://jamiebernardi.com/2024/03/20/how-educational-courses-help-build-fields-lessons-from-ai-safety-fundamentals/#generic-lessons).--}{++{"author":"Luc's AI","timestamp":1787140144328}@@[here](#generic-lessons-for-education).++}
+In this post I describe how the AI Safety Fundamentals course helped to drive the fields of AI alignment and AI governance forward. I’ll then draw on some more general lessons for other fields that may benefit from education, which you can skip straight to [here](#generic-lessons-for-education).
 
 I don’t expect much of what I say to be a surprise to passionate educators, but when I was starting out with BlueDot Impact I looked around for write-ups on the value of education and found them lacking. This might help others who are starting out with field building and are unsure about putting time into education work.
 

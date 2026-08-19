@@ -1,7 +1,7 @@
 ---
 title: "About this handbook"
-source_url: "https://forum.effectivealtruism.org/posts/XKfnWebzJsdxecBDw/about-this-handbook"{++{"author":"Luc's AI","timestamp":1787151989846}@@
-allowUnreachableUrl: true++}
+source_url: "https://forum.effectivealtruism.org/posts/XKfnWebzJsdxecBDw/about-this-handbook"
+allowUnreachableUrl: true
 author:
   - "Max Dalton"
 published: 2022-05-31

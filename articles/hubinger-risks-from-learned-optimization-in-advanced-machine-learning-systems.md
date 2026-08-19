@@ -150,9 +150,9 @@ Suppose an environment is composed of $N$ different instances, each of which req
 
 Thus, if we assume that, for a given $P$, the base optimizer will select the value of $x$ that maximizes the minimum level of performance, and thus the total optimization power applied to each instance, we get[^note-hubinger-17]
 
-{--{"author":"Luc's AI","timestamp":1787139913767}@@$$x^{*}=\operatorname{arg\,max}_{x}~{}\frac{P-f(x)}{N}+x.$$--}{++{"author":"Luc's AI","timestamp":1787139913767}@@$$
+$$
 x^{*}=\operatorname{arg\,max}_{x}~{}\frac{P-f(x)}{N}+x.
-$$++}
+$$
 
 As one moves to more and more diverse environments—that is, as $N$ increases—this model suggests that $x$ will dominate $\frac{P-f(x)}{N}$, implying that mesa-optimization will become more and more favorable. Of course, this is simply a toy model, as it makes many questionable simplifying assumptions. Nevertheless, it sketches an argument for a pull towards mesa-optimization in sufficiently diverse environments.
 
@@ -215,9 +215,9 @@ In this section, we outline reasons to think that a mesa-optimizer may not optim
 
 Current machine learning methods select learned algorithms by empirically evaluating their performance on a set of training data according to the base objective function. Thus, ML base optimizers select mesa-optimizers according to the output they produce rather than directly selecting for a particular mesa-objective. Moreover, the selected mesa-optimizer’s policy only has to perform well (as scored by the base objective) on the training data. If we adopt the assumption that the mesa-optimizer computes an optimal policy given its objective function, then we can summarize the relationship between the base and mesa- objectives as follows:\[chris\]
 
-{--{"author":"Luc's AI","timestamp":1787139914034}@@$$\begin{aligned}\theta^{*}&=\operatorname{arg\,max}_{\theta}~{}\mathbb{E}(O_{\text{base}}(\pi_{\theta})),~{}\text{where}\\\pi_{\theta}&=\operatorname{arg\,max}_{\pi}~{}\mathbb{E}(O_{\text{mesa}}(\pi\,|\,\theta))\end{aligned}$$--}{++{"author":"Luc's AI","timestamp":1787139914034}@@$$
+$$
 \begin{aligned}\theta^{*}&=\operatorname{arg\,max}_{\theta}~{}\mathbb{E}(O_{\text{base}}(\pi_{\theta})),~{}\text{where}\\\pi_{\theta}&=\operatorname{arg\,max}_{\pi}~{}\mathbb{E}(O_{\text{mesa}}(\pi\,|\,\theta))\end{aligned}
-$$++}
+$$
 
 That is, the base optimizer maximizes its objective $O_{\text{base}}$ by choosing a mesa-optimizer with parameterization $\theta$ based on the mesa-optimizer’s policy $\pi_{\theta}$, but not based on the objective function $O_{\text{mesa}}$ that the mesa-optimizer uses to compute this policy. Depending on the base optimizer, we will think of $O_{\text{base}}$ as the negative of the loss, the future discounted reward, or simply some fitness function by which learned algorithms are being selected.
 

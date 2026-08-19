@@ -42,13 +42,13 @@ There's a lot that went into human beings developing care for their parents:
 
 *None* of these things is likely to be true of AI.
 
-And even if *all* of them were true, it might not be enough in practice, since any number of other factors could turn out to matter too, such as [chaotic variation in the ways AIs reflect on themselves]({--{"author":"Luc's AI","timestamp":1787152160796}@@/4/reflection-and-self-modification-make-it-all-harder--}{++{"author":"Luc's AI","timestamp":1787152160796}@@https://ifanyonebuildsit.com/4/reflection-and-self-modification-make-it-all-harder++}). And, again, filial responsibility is *overwhelmingly* not the default in the animal kingdom.
+And even if *all* of them were true, it might not be enough in practice, since any number of other factors could turn out to matter too, such as [chaotic variation in the ways AIs reflect on themselves](https://ifanyonebuildsit.com/4/reflection-and-self-modification-make-it-all-harder). And, again, filial responsibility is *overwhelmingly* not the default in the animal kingdom.
 
 One way people imagine AI might acquire a sense of filial responsibility is that it's trained on a giant corpus of human data, and it interacts with humans a great deal, so perhaps human preferences will "rub off on it" somehow?
 
 We don't expect this to work. We expect the AI's preferences to be related to human preferences *somehow,* but in a tangential, strange, and complicated way — as in the discussion at the end of Chapter 4, where we walk through worlds with more (and increasingly realistic) amounts of complication, in the link between human preferences and AI preferences.
 
-See also the discussion of [raising AIs with love and expecting them to behave well]({--{"author":"Luc's AI","timestamp":1787152161021}@@/4/cant-we-just-train-it-to-act-like-a-human-or-raise-the-ai-like-a-child--}{++{"author":"Luc's AI","timestamp":1787152161021}@@https://ifanyonebuildsit.com/4/cant-we-just-train-it-to-act-like-a-human-or-raise-the-ai-like-a-child++}), [weird and unintended motivations in current AIs]({--{"author":"Luc's AI","timestamp":1787152161269}@@/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-appear-to-be-psychologically-alien--}{++{"author":"Luc's AI","timestamp":1787152161269}@@https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-appear-to-be-psychologically-alien++}), and "[Won't AIs care at least a little about humans?](/5/wont-ais-care-at-least-a-little-about-humans)"
+See also the discussion of [raising AIs with love and expecting them to behave well](https://ifanyonebuildsit.com/4/cant-we-just-train-it-to-act-like-a-human-or-raise-the-ai-like-a-child), [weird and unintended motivations in current AIs](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-appear-to-be-psychologically-alien), and "[Won't AIs care at least a little about humans?](/5/wont-ais-care-at-least-a-little-about-humans)"
 
 #### It would probably be bad if they did.
 
@@ -62,6 +62,6 @@ Similarly, an AI encouraged to "love its parents" would, at best,probably end up
 
 An AI could care deeply about its creators…but not in a way that prizes our subjective experience. In the language of Chapter 4, even "one simple complication" results in versions of "caring about us" that look like freezing us in amber, or keeping humans alive against their will, or preventing us from reproducing and giving the final generation of humans a modestly comfortable environment while the AI takes the rest of the universe for itself. Or something a whole lot weirder than that.
 
-It doesn't seem possible to predict what the actual outcome would be. But we would expect it to be — if anything — even stranger and less appealing than these options.{--{"author":"Luc's AI","timestamp":1787139989266}@@[\*](https://ifanyonebuildsit.com/5/will-ai-treat-us-as-its-parents#ftnt171)--}{++{"author":"Luc's AI","timestamp":1787139989266}@@[^source-note-171]++}
+It doesn't seem possible to predict what the actual outcome would be. But we would expect it to be — if anything — even stranger and less appealing than these options.[^source-note-171]
 
-{--{"author":"Luc's AI","timestamp":1787139989545}@@[\*](https://ifanyonebuildsit.com/5/will-ai-treat-us-as-its-parents#ftnt171_ref)--}{++{"author":"Luc's AI","timestamp":1787139989545}@@[^source-note-171]:++} Again, see "[Won't AIs care at least a little about humans?](/5/wont-ais-care-at-least-a-little-about-humans)" for related discussion.
+[^source-note-171]: Again, see "[Won't AIs care at least a little about humans?](/5/wont-ais-care-at-least-a-little-about-humans)" for related discussion.

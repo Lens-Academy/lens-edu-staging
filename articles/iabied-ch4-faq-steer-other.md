@@ -28,7 +28,7 @@ But (most) humans didn't end up with an inner drive to have as many kids as poss
 
 Humans have their *own* priorities that are merely *related* to maximizing reproduction. We aren't just "have as many kids as possible" machines, even though that's all evolution "trained" us to do. We painted the metaphorical barn red, but for our own reasons.
 
-The question isn't whether AI companies can make their chatbots behave pretty well for most users in most situations.{--{"author":"Luc's AI","timestamp":1787139959594}@@[\*](https://ifanyonebuildsit.com/4/why-would-an-ai-steer-toward-anything-other-than-what-it-was-trained-to-steer-toward#ftnt97)--}{++{"author":"Luc's AI","timestamp":1787139959594}@@[^source-note-97]++} The question is what actual mechanisms end up animating that nice behavior, and what those mechanisms would cause an AI to pursue once it became superintelligent.
+The question isn't whether AI companies can make their chatbots behave pretty well for most users in most situations.[^source-note-97] The question is what actual mechanisms end up animating that nice behavior, and what those mechanisms would cause an AI to pursue once it became superintelligent.
 
 AI companies can train their AIs to act kind (or, more realistically, to talk like mealy-mouthed friendly corporate drones). This affects the inner mechanisms that animate the AI. Those mechanisms, whatever they are, push and pull in a variety of different directions, and the current balancing point of all those forces inside the AI — the current *equilibrium* — is friendly corporate drone behavior (with a side-order of weird behavior on the fringes).
 
@@ -40,11 +40,11 @@ What's the end result of all of those weird drives? What will the AI *do,* anima
 
 Well, that's the question we'll turn to in Chapter 5.
 
-{--{"author":"Luc's AI","timestamp":1787139959795}@@[\*](https://ifanyonebuildsit.com/4/why-would-an-ai-steer-toward-anything-other-than-what-it-was-trained-to-steer-toward#ftnt97_ref)--}{++{"author":"Luc's AI","timestamp":1787139959795}@@[^source-note-97]:++} For more on why that's not a very informative question, see our answer to "[Aren't developers regularly making their AIs nice and safe and obedient?]({--{"author":"Luc's AI","timestamp":1787152016920}@@/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient--}{++{"author":"Luc's AI","timestamp":1787152016920}@@https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient++})"
+[^source-note-97]: For more on why that's not a very informative question, see our answer to "[Aren't developers regularly making their AIs nice and safe and obedient?](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient)"
 
 #### Notes
 
-[1] *maximizing reproduction:* This isn't to say that no humans care about having kids *at all*. Plenty of people want to have a couple kids, and some people want to have a lot. But even caring about having children isn't *quite* the same thing as caring about genetic fitness, as we'll discuss [later]({--{"author":"Luc's AI","timestamp":1787152017861}@@/4/a-lot-of-people-want-kids-so-arent-humans-aligned-with-natural-selection-after-all--}{++{"author":"Luc's AI","timestamp":1787152017861}@@https://ifanyonebuildsit.com/4/a-lot-of-people-want-kids-so-arent-humans-aligned-with-natural-selection-after-all++}) in the online resources for Chapter 4.
+[1] *maximizing reproduction:* This isn't to say that no humans care about having kids *at all*. Plenty of people want to have a couple kids, and some people want to have a lot. But even caring about having children isn't *quite* the same thing as caring about genetic fitness, as we'll discuss [later](https://ifanyonebuildsit.com/4/a-lot-of-people-want-kids-so-arent-humans-aligned-with-natural-selection-after-all) in the online resources for Chapter 4.
 
 Last year, we ran a quick [online poll](https://x.com/ESYudkowsky/status/1872771058790744247):
 
