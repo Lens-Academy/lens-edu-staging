@@ -42,7 +42,7 @@ Future pieces will discuss how soon we might expect something like PASTA to be d
 
 ## Making PASTA
 
-I'll start with a very brief, simplified characterization of machine learning, which you can skip by clicking [here](https://www.cold-takes.com/transformative-ai-timelines-part-1-of-4-what-kind-of-ai/#SkipML).
+I'll start with a very brief, simplified characterization of machine learning, which you can skip by clicking {--{"author":"Luc's AI","timestamp":1787140770652}@@[here](https://www.cold-takes.com/transformative-ai-timelines-part-1-of-4-what-kind-of-ai/#SkipML).--}{++{"author":"Luc's AI","timestamp":1787140770652}@@[here](#could-pasta-be-developed-via-machine-learning).++}
 
 There are essentially two ways to "teach" a computer to do a task:
 
@@ -62,7 +62,9 @@ For example, [AlphaZero](https://en.wikipedia.org/wiki/AlphaZero) - an AI that h
 
 The latter approach is central for a lot of the recent progress in AI. This is especially true for tasks that are hard to “write down all the instructions” for. For example, humans are able to write down some reasonable guidelines for succeeding at chess, but we know very little about how we ourselves classify images (determine whether some image is of a dog, cat, or something else). So machine learning is particularly essential for tasks like classifying images.
 
-Could PASTA be developed via machine learning? One obvious (but unrealistic) way of doing this might be something like this:
+{++{"author":"Luc's AI","timestamp":1787140770371}@@### ++}Could PASTA be developed via machine learning?{--{"author":"Luc's AI","timestamp":1787140770371}@@ --}{++{"author":"Luc's AI","timestamp":1787140770371}@@
+
+++}One obvious (but unrealistic) way of doing this might be something like this:
 
 - Instead of playing chess, an AI could play a game called "Cause scientific and technological advancement." That is, it could make “moves” like: download scientific papers, add notes to a file, create designs and instructions for new experiments, design manufacturing processes.
 - A panel of human judges could watch from the “sidelines” and give their subjective rating of how fast the AI’s work is causing scientific/technological advancement. The AI could therefore tweak its wiring over time, learning which sorts of moves most effectively cause scientific and technological advancement according to the judges.
