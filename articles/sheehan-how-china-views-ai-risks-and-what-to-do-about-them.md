@@ -79,4 +79,8 @@ Faced with these competing needs for developing AI, and managing its risks, Chin
 
 As China seeks to balance its development and safety imperatives, it currently weighs development opportunities more heavily than risk in both rhetoric and practice. But in getting deeper into the technical weeds of risks and countermeasures, Beijing may be giving real weight to what has been predominantly symbolic rhetoric on safety.
 
-Carnegie does not take institutional positions on public policy issues; the views represented herein are those of the author(s) and do not necessarily reflect the views of Carnegie, its staff, or its trustees.
+Carnegie does not take institutional positions on public policy issues; the views represented herein are those of the author(s) and do not necessarily reflect the views of Carnegie, its staff, or its trustees.{++{"author":"Luc's AI","timestamp":1787136412361}@@
+
+[^1]: In Chinese, the word for safety, *安全* (*anquan*), can also mean security, depending on the context. This often blurs the line between the types of extreme risks that AI safety connotes in global discourse and a much broader range of security issues in the Chinese context, from the cybersecurity of AI models to content security for sensitive political topics. The framework translates *anquan* as “safety” throughout the document, so we have used that translation for this piece.
+
+{>>{"author":"Luc's AI","timestamp":1787136412361}@@Recovered from the canonical Carnegie page’s `data-footnote-content` attribute and restored as a native Markdown footnote.<<}++}
