@@ -53,7 +53,7 @@ It’s possible, though, that the development of AI systems could lead to human 
 
 In [a recent paper](https://gradual-disempowerment.ai/), Jan Kulveit and his co-authors call this threat model _gradual disempowerment_. They argue for the following six claims:
 
-1.  Large societal systems, such as economies and governments, tend to be _roughly_ aligned to human interests.[1](https://80000hours.org/problem-profiles/gradual-disempowerment/#fn-1)
+1.  Large societal systems, such as economies and governments, tend to be _roughly_ aligned to human {--{"author":"Luc's AI","timestamp":1787140399020}@@interests.[1](https://80000hours.org/problem-profiles/gradual-disempowerment/#fn-1)--}{++{"author":"Luc's AI","timestamp":1787140399020}@@interests.[^1]++}
 2.  This rough alignment of the societal systems is maintained by multiple factors, including voting systems, consumer demand signals, and the reliance on human labour and thinking.
 3.  Societal systems that rely less on human labour and thinking — and rely more on increasingly advanced and powerful AI systems — will be less aligned with human interests.
 4.  AI systems may indeed outcompete human labour for key roles in societal systems in part _because_ they can more ruthlessly pursue the directions they’re given. And this may cause the systems to be even less aligned with human interests.
@@ -131,7 +131,7 @@ Some organisations where you might be able to do relevant research include:
 
 -   [Alignment of Complex Systems Research Group (ACS)](https://acsresearch.org/about) — which led the work on the “Gradual Disempowerment” paper discussed above
 -   [Forethought Research](https://www.forethought.org/)
--   [Coefficient Giving](https://www.openphilanthropy.org/) [2](https://80000hours.org/problem-profiles/gradual-disempowerment/#fn-2)
+-   [Coefficient Giving](https://www.openphilanthropy.org/) {--{"author":"Luc's AI","timestamp":1787140399295}@@[2](https://80000hours.org/problem-profiles/gradual-disempowerment/#fn-2)--}{++{"author":"Luc's AI","timestamp":1787140399295}@@[^2]++}
 -   [Rethink Priorities](https://rethinkpriorities.org/)
 
 You can also explore roles at other [organisations that work on AI safety and policy](https://jobs.80000hours.org/organisations?refinementList%5Bproblem_areas%5D%5B0%5D=AI%20safety%20%26%20policy).
@@ -158,4 +158,10 @@ You can also explore roles at other [organisations that work on AI safety and po
 
 We’ve also provided a more general argument for being concerned about AI’s effects on society [here](https://80000hours.org/problem-profiles/artificial-intelligence/?v=1), and our thoughts on how the issue should affect your career plan [here](https://80000hours.org/ai/guide/summary/).
 
-Want to learn more about global issues we think are especially pressing? See our list of issues that are large in scale, solvable, and neglected, according to our research.
+Want to learn more about global issues we think are especially pressing? See our list of issues that are large in scale, solvable, and neglected, according to our research.{++{"author":"Luc's AI","timestamp":1787140399523}@@
+
+## Footnotes
+
+[^1]: There are many cases where societal systems produce outcomes that are clearly bad for many humans, such as carrying out wars or causing harmful pollution. But overall, humanity has so far been able to greatly expand its population, become richer, and extend the average life span because societal systems tend to serve human interests on net.
+
+[^2]: Coefficient Giving is the largest funder of 80,000 Hours.++}
