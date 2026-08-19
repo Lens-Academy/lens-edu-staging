@@ -59,7 +59,7 @@ AIs are likely to have a very different relationship with their internals than w
 
 AIs that self-modify for long enough are likely to settle into a "[reflective equilibrium](https://plato.stanford.edu/entries/reflective-equilibrium/)" — a state where their core preferences no longer change, or change only in minor ways. And once an AI has reached equilibrium, it would have no reason to consider its own goals defective, even if humans don't like the end result.
 
-If an AI had some issue with its beliefs about the physical world, then the AI would likely see that accurate predictions are important for steering the world. It would see that correcting flaws in its prediction machinery helps improve its ability to steer the world toward whatever weird ends it pursues.[^source-note-165]
+If an AI had some issue with its beliefs about the physical world, then the AI would likely see that accurate predictions are important for steering the world. It would see that correcting flaws in its prediction machinery helps improve its ability to steer the world toward whatever weird ends it {--{"author":"Luc's AI","timestamp":1787161428110}@@pursues.[^source-note-165]--}{++{"author":"Luc's AI","timestamp":1787161428110}@@pursues.[^note-iabied-ftnt165]++}
 
 In contrast, when the AI reflects on itself and sees how it's pursuing weird goals — or rather, when it sees that it's pursuing goals that a *human* would see as "weird" — it correctly concludes that *pursuing* those weird goals is an effective strategy for *achieving* them.
 
@@ -111,7 +111,7 @@ In principle, it's not complicated to expand decision theory to incorporate unce
 
 What's going on inside humans as they reflect upon and update their values, however, seems to be notably more complicated.
 
-Klurl and Trapaucius, our two aliens from the parable at the start of Chapter 4, already struggled to predict human values from observations of proto-humans a million years ago. In fact, their situation is even worse. It's not enough for them to predict human *utilities* — to arrive at the correct answer, they'd have to predict humanity's *meta-utility framework* as it *departs from the simplest frameworks of decision theory*. They would need to *anticipate the meta-moral arguments that humans might end up inventing* and decide *which such arguments would be most* *persuasive**to humans.*[^source-note-166]
+Klurl and Trapaucius, our two aliens from the parable at the start of Chapter 4, already struggled to predict human values from observations of proto-humans a million years ago. In fact, their situation is even worse. It's not enough for them to predict human *utilities* — to arrive at the correct answer, they'd have to predict humanity's *meta-utility framework* as it *departs from the simplest frameworks of decision theory*. They would need to *anticipate the meta-moral arguments that humans might end up inventing* and decide *which such arguments would be most* *persuasive**to {--{"author":"Luc's AI","timestamp":1787161430948}@@humans.*[^source-note-166]--}{++{"author":"Luc's AI","timestamp":1787161430948}@@humans.*[^note-iabied-ftnt166]++}
 
 Now suppose that the aliens don't know that humans will end up with *that exact* kind of complication. They just know that *complications of various sorts* are likely to arise, because brains are complicated and highly contingent things.
 
@@ -127,6 +127,6 @@ Reflection makes the problem many times more difficult and complex.
 
 Which brings us to Chapter 5, and the next topic we'll be turning to: What would be the likely *consequence* of building powerful AIs that have alien and unpredictable goals?
 
-[^source-note-165]: For further discussion on this topic, see our discussion on how [Smart AIs Spot Lies and Opportunities.](https://ifanyonebuildsit.com/3/smart-ais-spot-lies-and-opportunities)
+{--{"author":"Luc's AI","timestamp":1787161432963}@@[^source-note-165]:--}{++{"author":"Luc's AI","timestamp":1787161432963}@@[^note-iabied-ftnt165]:++} For further discussion on this topic, see our discussion on how [Smart AIs Spot Lies and Opportunities.](https://ifanyonebuildsit.com/3/smart-ais-spot-lies-and-opportunities)
 
-[^source-note-166]: See also our discussion of how [Human Culture Influenced the Development of Human Values](https://ifanyonebuildsit.com/4/human-values-are-contingent#human-culture-influenced-the-development-of-human-values).
+{--{"author":"Luc's AI","timestamp":1787161434986}@@[^source-note-166]:--}{++{"author":"Luc's AI","timestamp":1787161434986}@@[^note-iabied-ftnt166]:++} See also our discussion of how [Human Culture Influenced the Development of Human Values](https://ifanyonebuildsit.com/4/human-values-are-contingent#human-culture-influenced-the-development-of-human-values).
