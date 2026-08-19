@@ -23,7 +23,7 @@ The detailed picture of disaster that we paint in the remainder of the book stem
 
 #### It's important for understanding what sort of expertise AI experts do and do not have.
 
-People who wish to rush ahead with building superintelligence will sometimes recruit someone with vaguely relevant credentials to go on TV and say, "Of course modern science understands what goes on inside an AI! Modern scientists built it, after {--{"author":"Luc's AI","timestamp":1787161376893}@@all."[^source-note-45]--}{++{"author":"Luc's AI","timestamp":1787161376893}@@all."[^note-iabied-ftnt45]++}
+People who wish to rush ahead with building superintelligence will sometimes recruit someone with vaguely relevant credentials to go on TV and say, "Of course modern science understands what goes on inside an AI! Modern scientists built it, after all."[^note-iabied-ftnt45]
 
 If pressed, the expert can defend themselves by pointing out that there's a sense in which all of this is true. After all, AI researchers write perfectly normal code that's easy to understand, and this code is used to create AIs, in a roundabout way.
 
@@ -35,4 +35,4 @@ They may not have looked at any of the tiny inscrutable numbers that make up the
 
 We hope that understanding gradient descent will help clarify the actual state of affairs, and what sort of knowledge is being claimed by such experts. Experts may claim to know a great deal about the growing process, but very little is known about the inner workings of grown AIs.
 
-{--{"author":"Luc's AI","timestamp":1787161379505}@@[^source-note-45]:--}{++{"author":"Luc's AI","timestamp":1787161379505}@@[^note-iabied-ftnt45]:++} *vaguely relevant credentials:* For the most egregious example we know of, see "[Do experts understand what's going on inside AIs?](https://ifanyonebuildsit.com/2/do-experts-understand-whats-going-on-inside-ais)"
+[^note-iabied-ftnt45]: *vaguely relevant credentials:* For the most egregious example we know of, see "[Do experts understand what's going on inside AIs?](https://ifanyonebuildsit.com/2/do-experts-understand-whats-going-on-inside-ais)"

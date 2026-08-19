@@ -35,7 +35,7 @@ On July 8, 2025, Grok 3 started referring to itself as [MechaHitler](https://www
 
 In understanding what happened, it matters whether you think that Grok's builders deliberately instructed Grok to behave that way or whether you realize that AIs are "grown," and that AI developers have limited ability to control or predict their behavior.
 
-It's bad in one way if Grok's builders created MechaHitler on purpose; it's bad in a different way if the builders got MechaHitler *by accident*, trying to push Grok in some (possibly unrelated) direction without the ability to predict the effects this would have on Grok's {--{"author":"Luc's AI","timestamp":1787161438207}@@behavior.[^source-note-66]--}{++{"author":"Luc's AI","timestamp":1787161438207}@@behavior.[^note-iabied-ftnt66]++}
+It's bad in one way if Grok's builders created MechaHitler on purpose; it's bad in a different way if the builders got MechaHitler *by accident*, trying to push Grok in some (possibly unrelated) direction without the ability to predict the effects this would have on Grok's behavior.[^note-iabied-ftnt66]
 
 We hope that the information we've provided in *If Anyone Builds It, Everyone Dies* provides a useful bulwark against common misconceptions and misinformation. For readers who are interested in more details, below we will go through some of the history and [basic ideas](https://ifanyonebuildsit.com/2/obvious-insights-take-time) behind the recent AI boom, and provide a [detailed breakdown](https://ifanyonebuildsit.com/2/a-full-description-of-an-llm) of how a specific LLM works.
 
@@ -59,7 +59,7 @@ Probably not. We can, and in a group of dozens of people working on AI policy, w
 
 I (Yudkowsky) cannot sketch out from memory alone the details of a SwiGLU gate and how it differs from a GLU, because when I did look it up, the exact details there seemed to have no relevance to larger matters at all, so I didn't memorize them. But it might be informative to the novice that SwiGLU was found by a kind of blind testing, and that the paper authors said outright they have no idea why these techniques work in practice. We already knew about many cases like that, but if you *didn't* know that the people who come up with architectural improvements often say that they have no idea why it works, that's a relevant piece of information.
 
-All of which adds up to: Knowing at least a little about how LLMs work is important so that you can see how {--{"author":"Luc's AI","timestamp":1787161718513}@@little*anybody* knowsabout--}{++{"author":"Luc's AI","timestamp":1787161718513}@@little *anybody* knows about++} modern AI.
+All of which adds up to: Knowing at least a little about how LLMs work is important so that you can see how little *anybody* knows about modern AI.
 
 Sometimes, experts will pretend to have secret knowledge that can only be accessed by people who have worked for years at growing an AI. But they cannot name their knowledge, and the people writing papers say things like (to quote the paper introducing SwiGLU):
 
@@ -71,7 +71,7 @@ You can imagine a world in which only the people paid seven-figure salaries for 
 
 There may come a time when a representative of the AI industry slings an arm around your shoulder and insists that *they* understand what they're building, that it's all just numbers, that all will be well. It is useful, then, to know a little bit about the details of how AIs are grown, so that when someone makes this claim to you, you can ask them what makes them so sure.
 
-{--{"author":"Luc's AI","timestamp":1787161440687}@@[^source-note-66]:--}{++{"author":"Luc's AI","timestamp":1787161440687}@@[^note-iabied-ftnt66]:++} In some cases, AI mishaps can result from interactions between both factors. For our purposes, the important point is that one key factor is "AIs behaving in ways the programmers never wanted or anticipated," even if there are sometimes other factors at play.
+[^note-iabied-ftnt66]: In some cases, AI mishaps can result from interactions between both factors. For our purposes, the important point is that one key factor is "AIs behaving in ways the programmers never wanted or anticipated," even if there are sometimes other factors at play.
 
 #### Notes
 

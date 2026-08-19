@@ -31,13 +31,13 @@ A squirrel can forage during most of the year, when food is plentiful. But in th
 
 The ancestors of modern-day squirrels faced this same challenge, and many died in winter before they could mate in the spring. Those that developed a slight instinct to hide nuts had a slightly higher chance of surviving the winter. Over time, this process gave rise to squirrels with an innate compulsion to hoard nuts.
 
-Squirrels don't *know* that hoarding nuts is a fine way to go about propagating genes. They plausibly do not even know that hoarding nuts *results in there being food available in the future.* They hoard nuts because they want to hoard nuts. It's as instinctive as scratching an {--{"author":"Luc's AI","timestamp":1787161360558}@@itch.[^source-note-161]--}{++{"author":"Luc's AI","timestamp":1787161360558}@@itch.[^note-iabied-ftnt161]++}
+Squirrels don't *know* that hoarding nuts is a fine way to go about propagating genes. They plausibly do not even know that hoarding nuts *results in there being food available in the future.* They hoard nuts because they want to hoard nuts. It's as instinctive as scratching an itch.[^note-iabied-ftnt161]
 
 What would it look like if squirrels instead *wanted* to pass on their genes, and hoarded nuts *because* of that goal?
 
 It's possible in principle. It's possible for a brain to understand that the winter is cold and that food is scarce, and that you need to eat to live and that you need to live to reproduce. Human brains understand these concepts, after all.
 
-So in theory, we could imagine a squirrel that wanted exclusively to pass on its genes, and chose to store nuts as part of a calculated strategy to survive the winter and mate in spring. In a sense, that is the sort of squirrel that natural selection "wanted" — one whose inner goals are in line with nature's singular {--{"author":"Luc's AI","timestamp":1787161363338}@@drive.[^source-note-162]--}{++{"author":"Luc's AI","timestamp":1787161363338}@@drive.[^note-iabied-ftnt162]++}
+So in theory, we could imagine a squirrel that wanted exclusively to pass on its genes, and chose to store nuts as part of a calculated strategy to survive the winter and mate in spring. In a sense, that is the sort of squirrel that natural selection "wanted" — one whose inner goals are in line with nature's singular drive.[^note-iabied-ftnt162]
 
 Unfortunately for Nature, such long-term planning requires a very sophisticated brain — a brain that comprehends concepts like "winter" and "eating" and "mating" and the links between them. The ancestors of squirrels had to survive the winter *before* they developed that sort of sophistication. They had to eat without understanding why.
 
@@ -65,7 +65,7 @@ Why can't we just *taste* the expected nutrition-value of food, according to the
 
 Because we were, metaphorically speaking, squirrels.
 
-We were grown, not crafted. Our ancestors had to eat *before* they were smart. And it turned out to be easier for genes to create taste buds and link them to an existing reward system than for genes to hook the same rewards up to complex concepts like {--{"author":"Luc's AI","timestamp":1787161364974}@@"nutrition."[^source-note-163]--}{++{"author":"Luc's AI","timestamp":1787161364974}@@"nutrition."[^note-iabied-ftnt163]++}
+We were grown, not crafted. Our ancestors had to eat *before* they were smart. And it turned out to be easier for genes to create taste buds and link them to an existing reward system than for genes to hook the same rewards up to complex concepts like "nutrition."[^note-iabied-ftnt163]
 
 As a result of this and a thousand other evolutionary pressures all acting on us at the same time, humans are a complicated mess of contradictory urges that made sense for our ancestors, even if they don't make sense for us today.
 
@@ -83,16 +83,16 @@ Our preferences — the human panoply of desires, ranging from a desire for a fi
 
 In saying this that our desires are brittle proxies, we aren't *denigrating* our human desires. This is love that we're talking about. It's friendship. It's beauty. It's the human spirit and everything worth fighting for in life. As a matter of biology, our goals happen to be historical byproducts of a process that was pushing us in some other direction. But that doesn't make the *result* of that process any less precious.
 
-The growth of a child is a chemical process subject to the laws of physics, and that doesn't make a child even an ounce less wonderful. Knowing the origin of beauty doesn't make it any less {--{"author":"Luc's AI","timestamp":1787161366938}@@beautiful.[^source-note-164]--}{++{"author":"Luc's AI","timestamp":1787161366938}@@beautiful.[^note-iabied-ftnt164]++}
+The growth of a child is a chemical process subject to the laws of physics, and that doesn't make a child even an ounce less wonderful. Knowing the origin of beauty doesn't make it any less beautiful.[^note-iabied-ftnt164]
 
 If we rush into building superintelligence, we won't be able to robustly instill love and wonder and beauty into the AI. It would wind up caring about brittle proxies and pale shadows instead, and it would discard the things we care about. So we shouldn't rush.
 
 We should not make the error of evolution, and thereby lose all that we hold dear. We should back off, immediately, until we are not at risk of losing everything.
 
-{--{"author":"Luc's AI","timestamp":1787161367776}@@[^source-note-161]:--}{++{"author":"Luc's AI","timestamp":1787161367776}@@[^note-iabied-ftnt161]:++} They're also *bad* at hoarding nuts! A small scattering of studies on squirrel nut-hoarding converge on squirrels failing to recover upwards of 70 percent of the nuts they hide, mostly via what looks like just forgetting where they hid them. Similar studies of beavers showed that beavers [respond to the sound of running water](https://www.mentalfloss.com/article/67662/sound-running-water-puts-beavers-mood-build) with hole-plugging behavior, but completely ignore visible leaks engineered by humans to be silent.
+[^note-iabied-ftnt161]: They're also *bad* at hoarding nuts! A small scattering of studies on squirrel nut-hoarding converge on squirrels failing to recover upwards of 70 percent of the nuts they hide, mostly via what looks like just forgetting where they hid them. Similar studies of beavers showed that beavers [respond to the sound of running water](https://www.mentalfloss.com/article/67662/sound-running-water-puts-beavers-mood-build) with hole-plugging behavior, but completely ignore visible leaks engineered by humans to be silent.
 
-{--{"author":"Luc's AI","timestamp":1787161368616}@@[^source-note-162]:--}{++{"author":"Luc's AI","timestamp":1787161368616}@@[^note-iabied-ftnt162]:++} Such a squirrel might, for instance, do better at hiding nuts in places that were safe from other foragers and easier to remember, and thereby save lots of time and calories and presumably be more competitive as a result.
+[^note-iabied-ftnt162]: Such a squirrel might, for instance, do better at hiding nuts in places that were safe from other foragers and easier to remember, and thereby save lots of time and calories and presumably be more competitive as a result.
 
-{--{"author":"Luc's AI","timestamp":1787161369442}@@[^source-note-163]:--}{++{"author":"Luc's AI","timestamp":1787161369442}@@[^note-iabied-ftnt163]:++} There's more to the story, of course, because natural selection is not a particularly simple or unified process. Our full knowledge of nutrition does sometimes affect our eating habits, even when it conflicts with our taste buds and our food cravings.
+[^note-iabied-ftnt163]: There's more to the story, of course, because natural selection is not a particularly simple or unified process. Our full knowledge of nutrition does sometimes affect our eating habits, even when it conflicts with our taste buds and our food cravings.
 
-{--{"author":"Luc's AI","timestamp":1787161370266}@@[^source-note-164]:--}{++{"author":"Luc's AI","timestamp":1787161370266}@@[^note-iabied-ftnt164]:++} Evolution was "trying" to build pure fitness maximizers, and accidentally built creatures that appreciate love and wonder and beauty. But this fact does not in the slightest mean that we have an obligation to sacrifice our feelings of love, and turn ourselves into pure fitness maximizers. On the contrary: We should celebrate that beings who cherish love managed to enter this universe at all, through the clumsiness of evolution.
+[^note-iabied-ftnt164]: Evolution was "trying" to build pure fitness maximizers, and accidentally built creatures that appreciate love and wonder and beauty. But this fact does not in the slightest mean that we have an obligation to sacrifice our feelings of love, and turn ourselves into pure fitness maximizers. On the contrary: We should celebrate that beings who cherish love managed to enter this universe at all, through the clumsiness of evolution.

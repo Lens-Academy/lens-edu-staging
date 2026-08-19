@@ -17,7 +17,7 @@ Add discussion note here:
 %%
 #### The world is, unfortunately, big enough for multiple issues.
 
-Nuclear war and bioterrorism are real threats. Unfortunately, machine superintelligence is *also* a real threat. The world is big and troubled enough for all {--{"author":"Luc's AI","timestamp":1787161405901}@@three.[^source-note-273]--}{++{"author":"Luc's AI","timestamp":1787161405901}@@three.[^note-iabied-ftnt273]++}
+Nuclear war and bioterrorism are real threats. Unfortunately, machine superintelligence is *also* a real threat. The world is big and troubled enough for all three.[^note-iabied-ftnt273]
 
 The threat from superintelligence is unlike many other threats that humanity faces, and it seems uniquely pressing. One distinguishing feature is that a significant fraction of the world's economy is being spent to make AI more and more capable. In contrast: Although biosecurity is a serious issue, investors aren't pouring tens of billions of dollars into creating superviruses. Supervirus engineers aren't pulling salaries of millions or tens of millions (or sometimes even [hundreds of millions](https://www.businessinsider.com/ai-talent-warbargain-meta-openai-ex-google-hr-boss-2025-7)) of dollars per year.
 
@@ -25,12 +25,12 @@ The world is putting effort into making nuclear power, but nuclear power plants 
 
 AI is also a trickier situation because it provides great wealth and power right up until it crosses some critical threshold, at which point it kills everyone. And *nobody knows where that threshold is.*
 
-Imagine nuclear power plants got more and more profitable as the uranium they used was more and more enriched, but at some unknown enrichment threshold they blew up and ignited the atmosphere, killing everyone. Now imagine that half a dozen companies were enriching uranium as fast as they could, each saying they'd [rather be a participant than a spectator](https://www.youtube.com/watch?v=cFIlta1GkiE&t=2126s). That's a little like what humanity is doing with artificial {--{"author":"Luc's AI","timestamp":1787161409108}@@superintelligence.[^source-note-274]--}{++{"author":"Luc's AI","timestamp":1787161409108}@@superintelligence.[^note-iabied-ftnt274]++}
+Imagine nuclear power plants got more and more profitable as the uranium they used was more and more enriched, but at some unknown enrichment threshold they blew up and ignited the atmosphere, killing everyone. Now imagine that half a dozen companies were enriching uranium as fast as they could, each saying they'd [rather be a participant than a spectator](https://www.youtube.com/watch?v=cFIlta1GkiE&t=2126s). That's a little like what humanity is doing with artificial superintelligence.[^note-iabied-ftnt274]
 
 The danger from artificial superintelligence is urgent. Corporations are rushing to build this technology. We don't know how long it will take them to succeed, but it seems to us that a child born in the U.S.A. today is more likely to die from AI than to graduate from high school. We think that you, the reader, are likely to die of this in your lifetime, perhaps in the next few years. The whole world is at stake.
 
 We aren't saying that other issues should be ignored. We're saying that this issue must be dealt with.
 
-{--{"author":"Luc's AI","timestamp":1787161411410}@@[^source-note-273]:--}{++{"author":"Luc's AI","timestamp":1787161411410}@@[^note-iabied-ftnt273]:++} See also our extended discussion (following Chapter 13) on [making an inclusive coalition](https://ifanyonebuildsit.com/13/keep-the-coalition-large).
+[^note-iabied-ftnt273]: See also our extended discussion (following Chapter 13) on [making an inclusive coalition](https://ifanyonebuildsit.com/13/keep-the-coalition-large).
 
-{--{"author":"Luc's AI","timestamp":1787161412610}@@[^source-note-274]:--}{++{"author":"Luc's AI","timestamp":1787161412610}@@[^note-iabied-ftnt274]:++} See also a [list of comparisons between AI alignment and nuclear weapons](https://ifanyonebuildsit.com/10/wont-ai-differ-from-all-the-historical-precedents).
+[^note-iabied-ftnt274]: See also a [list of comparisons between AI alignment and nuclear weapons](https://ifanyonebuildsit.com/10/wont-ai-differ-from-all-the-historical-precedents).

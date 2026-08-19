@@ -51,18 +51,18 @@ Tetlock’s book *Superforecasting* describes this process and Tetlock’s resul
 #### 1.2.1. Past performance
 
 
-Roughly 70% of the superforecasters maintained their status from one year to the next {--{"author":"Luc's AI","timestamp":1787161797884}@@[^1].--}{++{"author":"Luc's AI","timestamp":1787161797884}@@[^cite-kokotajlo-gjp-1].++} Across all the forecasters, the correlation between performance in one year and performance in the next year was 0.65 {--{"author":"Luc's AI","timestamp":1787161797884}@@[^2].--}{++{"author":"Luc's AI","timestamp":1787161797884}@@[^cite-kokotajlo-gjp-2].++} These high correlations are particularly impressive because the forecasters were online volunteers; presumably substantial variance year-to-year came from forecasters throttling down their engagement due to fatigue or changing life circumstances {--{"author":"Luc's AI","timestamp":1787161797884}@@[^3].--}{++{"author":"Luc's AI","timestamp":1787161797884}@@[^cite-kokotajlo-gjp-3].++}
+Roughly 70% of the superforecasters maintained their status from one year to the next [^cite-kokotajlo-gjp-1]. Across all the forecasters, the correlation between performance in one year and performance in the next year was 0.65 [^cite-kokotajlo-gjp-2]. These high correlations are particularly impressive because the forecasters were online volunteers; presumably substantial variance year-to-year came from forecasters throttling down their engagement due to fatigue or changing life circumstances [^cite-kokotajlo-gjp-3].
 
 #### 1.2.2. Behavioral and dispositional variables
 
 
-Table 2  depicts the correlations between measured variables amongst GJP’s volunteers in the first two years of the tournament {--{"author":"Luc's AI","timestamp":1787161798802}@@[^4].--}{++{"author":"Luc's AI","timestamp":1787161798802}@@[^cite-kokotajlo-gjp-4].++}  Each is described in more detail below.
+Table 2  depicts the correlations between measured variables amongst GJP’s volunteers in the first two years of the tournament [^cite-kokotajlo-gjp-4].  Each is described in more detail below.
 
 
 ![](http://aiimpacts.org/wp-content/uploads/2019/02/image2-1.png)
 
 
-The first column shows the relationship between each variable and standardized [Brier score](https://en.wikipedia.org/wiki/Brier_score), which is a measure of inaccuracy: higher Brier scores mean less accuracy, so negative correlations are good. “Ravens” is an IQ test; “Del time” is deliberation time, and “teams” is whether or not the forecaster was assigned to a team. “Actively open-minded thinking” is an attempt to measure “the tendency to evaluate arguments and evidence without undue bias from one’s own prior beliefs—and with recognition of the fallibility of one’s judgment.” {--{"author":"Luc's AI","timestamp":1787161799697}@@[^5]--}{++{"author":"Luc's AI","timestamp":1787161799697}@@[^cite-kokotajlo-gjp-5]++}
+The first column shows the relationship between each variable and standardized [Brier score](https://en.wikipedia.org/wiki/Brier_score), which is a measure of inaccuracy: higher Brier scores mean less accuracy, so negative correlations are good. “Ravens” is an IQ test; “Del time” is deliberation time, and “teams” is whether or not the forecaster was assigned to a team. “Actively open-minded thinking” is an attempt to measure “the tendency to evaluate arguments and evidence without undue bias from one’s own prior beliefs—and with recognition of the fallibility of one’s judgment.” [^cite-kokotajlo-gjp-5]
 
 
 The authors conducted various statistical analyses to explore the relationships between these variables. They computed a structural equation model to predict a forecaster’s accuracy:
@@ -71,7 +71,7 @@ The authors conducted various statistical analyses to explore the relationships 
 ![](http://aiimpacts.org/wp-content/uploads/2019/02/image1-1.png)
 
 
-Yellow ovals are latent dispositional variables, yellow rectangles are observed dispositional variables, pink rectangles are experimentally manipulated situational variables, and green rectangles are observed behavioral variables. This model has a [multiple correlation](https://en.wikipedia.org/wiki/Multiple_correlation) of {--{"author":"Luc's AI","timestamp":1787161800123}@@0.64.[^6]--}{++{"author":"Luc's AI","timestamp":1787161800123}@@0.64.[^cite-kokotajlo-gjp-6]++}
+Yellow ovals are latent dispositional variables, yellow rectangles are observed dispositional variables, pink rectangles are experimentally manipulated situational variables, and green rectangles are observed behavioral variables. This model has a [multiple correlation](https://en.wikipedia.org/wiki/Multiple_correlation) of 0.64.[^cite-kokotajlo-gjp-6]
 
 
 As these data indicate, domain knowledge, intelligence, active open-mindedness, and working in teams each contribute substantially to accuracy. We can also conclude that effort helps, because deliberation time and number of predictions made per question (“belief updating”) both improved accuracy. Finally, training also helps. This is especially surprising because the training module lasted only an hour and its effects persisted for at least a year. The module included content about probabilistic reasoning, using the outside view, avoiding biases, and more.
@@ -79,23 +79,23 @@ As these data indicate, domain knowledge, intelligence, active open-mindedness, 
 ### **1.3. Aggregation algorithms**
 
 
-GJP made their official predictions by aggregating and extremizing the predictions of their volunteers. The aggregation algorithm was elitist, meaning that it weighted more heavily people who were better on various metrics. {--{"author":"Luc's AI","timestamp":1787161800605}@@[^7]--}{++{"author":"Luc's AI","timestamp":1787161800605}@@[^cite-kokotajlo-gjp-7]++} The extremizing step pushes the aggregated judgment closer to 1 or 0, to make it more confident. The degree to which they extremize depends on how diverse and sophisticated the pool of forecasters is. {--{"author":"Luc's AI","timestamp":1787161800605}@@[^8]--}{++{"author":"Luc's AI","timestamp":1787161800605}@@[^cite-kokotajlo-gjp-8]++} Whether extremizing is a good idea is still controversial.  {--{"author":"Luc's AI","timestamp":1787161800605}@@[^9]--}{++{"author":"Luc's AI","timestamp":1787161800605}@@[^cite-kokotajlo-gjp-9]++} 
+GJP made their official predictions by aggregating and extremizing the predictions of their volunteers. The aggregation algorithm was elitist, meaning that it weighted more heavily people who were better on various metrics. [^cite-kokotajlo-gjp-7] The extremizing step pushes the aggregated judgment closer to 1 or 0, to make it more confident. The degree to which they extremize depends on how diverse and sophisticated the pool of forecasters is. [^cite-kokotajlo-gjp-8] Whether extremizing is a good idea is still controversial.  [^cite-kokotajlo-gjp-9] 
 
 
-GJP beat all of the other teams. They consistently beat the control group—which was a forecast made by averaging ordinary forecasters—by more than 60%. {--{"author":"Luc's AI","timestamp":1787161801086}@@[^10]--}{++{"author":"Luc's AI","timestamp":1787161801086}@@[^cite-kokotajlo-gjp-10]++} They  also beat a prediction market inside the intelligence community—populated by professional analysts with access to classified information—by 25-30%. {--{"author":"Luc's AI","timestamp":1787161801086}@@[^11]--}{++{"author":"Luc's AI","timestamp":1787161801086}@@[^cite-kokotajlo-gjp-11]++}
+GJP beat all of the other teams. They consistently beat the control group—which was a forecast made by averaging ordinary forecasters—by more than 60%. [^cite-kokotajlo-gjp-10] They  also beat a prediction market inside the intelligence community—populated by professional analysts with access to classified information—by 25-30%. [^cite-kokotajlo-gjp-11]
 
 
-That said, individual superforecasters did almost as well, so the elitism of the algorithm may account for a lot of its {--{"author":"Luc's AI","timestamp":1787161801588}@@success.[^12]--}{++{"author":"Luc's AI","timestamp":1787161801588}@@success.[^cite-kokotajlo-gjp-12]++}
+That said, individual superforecasters did almost as well, so the elitism of the algorithm may account for a lot of its success.[^cite-kokotajlo-gjp-12]
 
 ### **1.4. Outside View**
 
 
-The forecasters who received training were asked to record, for each prediction, which parts of the training they used to make it. Some parts of the training—e.g. “Post-mortem analysis”—were correlated with inaccuracy, but others—most notably “Comparison classes”—were correlated with accuracy. {--{"author":"Luc's AI","timestamp":1787161802074}@@[^13]--}{++{"author":"Luc's AI","timestamp":1787161802074}@@[^cite-kokotajlo-gjp-13]++}  ‘Comparison classes’ is another term for [reference-class forecasting](https://en.wikipedia.org/wiki/Reference_class_forecasting), also known as ‘the outside view’. It is the method of assigning a probability by straightforward extrapolation from similar past situations and their outcomes.
+The forecasters who received training were asked to record, for each prediction, which parts of the training they used to make it. Some parts of the training—e.g. “Post-mortem analysis”—were correlated with inaccuracy, but others—most notably “Comparison classes”—were correlated with accuracy. [^cite-kokotajlo-gjp-13]  ‘Comparison classes’ is another term for [reference-class forecasting](https://en.wikipedia.org/wiki/Reference_class_forecasting), also known as ‘the outside view’. It is the method of assigning a probability by straightforward extrapolation from similar past situations and their outcomes.
 
 ### **1.5. Tetlock’s “Portrait of the modal superforecaster”**
 
 
-This subsection and those that follow will lay out some more qualitative results, things that Tetlock recommends on the basis of his research and interviews with superforecasters. Here is Tetlock’s “portrait of the modal superforecaster:” {--{"author":"Luc's AI","timestamp":1787161802572}@@[^14]--}{++{"author":"Luc's AI","timestamp":1787161802572}@@[^cite-kokotajlo-gjp-14]++}
+This subsection and those that follow will lay out some more qualitative results, things that Tetlock recommends on the basis of his research and interviews with superforecasters. Here is Tetlock’s “portrait of the modal superforecaster:” [^cite-kokotajlo-gjp-14]
 
 
 **Philosophic outlook:**
@@ -123,7 +123,7 @@ This subsection and those that follow will lay out some more qualitative results
 * **Dragonfly-eyed:** Value diverse views and synthesize them into their own
 * **Probabilistic:** Judge using many grades of maybe
 * **Thoughtful updaters:** When facts change, they change their minds
-* **Good intuitive psychologists:** Aware of the value of checking thinking for cognitive and emotional biases {--{"author":"Luc's AI","timestamp":1787161803039}@@[^15]--}{++{"author":"Luc's AI","timestamp":1787161803039}@@[^cite-kokotajlo-gjp-15]++}
+* **Good intuitive psychologists:** Aware of the value of checking thinking for cognitive and emotional biases [^cite-kokotajlo-gjp-15]
 
 
 **Work ethic:**
@@ -147,7 +147,7 @@ This advice is given at the end of the book, and may make less sense to someone 
 **(3) Strike the right balance between inside and outside views:** In particular, *first* anchor with the outside view and *then* adjust using the inside view.
 
 
-**(4) Strike the right balance between under- and overreacting to evidence:** Usually do many small updates, but occasionally do big updates when the situation calls for it. Remember to think about P(E|H)/P(E|~H); remember to avoid the base-rate fallacy. “Superforecasters aren’t perfect Bayesian predictors but they are much better than most of us.” {--{"author":"Luc's AI","timestamp":1787161803554}@@[^16]--}{++{"author":"Luc's AI","timestamp":1787161803554}@@[^cite-kokotajlo-gjp-16]++}
+**(4) Strike the right balance between under- and overreacting to evidence:** Usually do many small updates, but occasionally do big updates when the situation calls for it. Remember to think about P(E|H)/P(E|~H); remember to avoid the base-rate fallacy. “Superforecasters aren’t perfect Bayesian predictors but they are much better than most of us.” [^cite-kokotajlo-gjp-16]
 
 
 **(5) Look for the clashing causal forces at work in each problem:** This is the “dragonfly eye perspective,” which is where you attempt to do a sort of mental wisdom of the crowds: Have tons of different causal models and aggregate their judgments. Use “Devil’s advocate” reasoning. If you think that P, try hard to convince yourself that not-P. You should find yourself saying “On the one hand… on the other hand… on the third hand…” a lot.
@@ -162,7 +162,7 @@ This advice is given at the end of the book, and may make less sense to someone 
 **(8) Look for the errors behind your mistakes but beware of rearview-mirror hindsight biases.**
 
 
-**(9) Bring out the best in others and let others bring out the best in you.** The book spent a whole chapter on this, using the Wehrmacht as an extended case study on good team organization. One pervasive guiding principle is “Don’t tell people how to do things; tell them what you want accomplished, and they’ll surprise you with their ingenuity in doing it.” The other pervasive guiding principle is “Cultivate a culture in which people—even subordinates—are encouraged to dissent and give counterarguments.” {--{"author":"Luc's AI","timestamp":1787161804018}@@[^17]--}{++{"author":"Luc's AI","timestamp":1787161804018}@@[^cite-kokotajlo-gjp-17]++}
+**(9) Bring out the best in others and let others bring out the best in you.** The book spent a whole chapter on this, using the Wehrmacht as an extended case study on good team organization. One pervasive guiding principle is “Don’t tell people how to do things; tell them what you want accomplished, and they’ll surprise you with their ingenuity in doing it.” The other pervasive guiding principle is “Cultivate a culture in which people—even subordinates—are encouraged to dissent and give counterarguments.” [^cite-kokotajlo-gjp-17]
 
 
 **(10) Master the error-balancing bicycle:** This one should have been called practice, practice, practice. Tetlock says that reading the news and generating probabilities isn’t enough; you need to actually score your predictions so that you know how wrong you were.
@@ -173,7 +173,7 @@ This advice is given at the end of the book, and may make less sense to someone 
 ### **1.7. Recipe for Making Predictions**
 
 
-Tetlock describes how superforecasters go about making their predictions. {--{"author":"Luc's AI","timestamp":1787161804447}@@[^18]--}{++{"author":"Luc's AI","timestamp":1787161804447}@@[^cite-kokotajlo-gjp-18]++} Here is an attempt at a summary:
+Tetlock describes how superforecasters go about making their predictions. [^cite-kokotajlo-gjp-18] Here is an attempt at a summary:
 
 
 1. Sometimes a question can be answered more rigorously if it is first “Fermi-ized,” i.e. broken down into sub-questions for which more rigorous methods can be applied.
@@ -188,16 +188,16 @@ Tetlock describes how superforecasters go about making their predictions. {--{"
 Humans normally express uncertainty with terms like “maybe” and “almost certainly” and “a significant chance.” Tetlock advocates for thinking and speaking in probabilities instead. He recounts many anecdotes of misunderstandings that might have been avoided this way. For example:
 
 
-In 1961, when the CIA was planning to topple the Castro government by landing a small army of Cuban expatriates at the Bay of Pigs, President John F. Kennedy turned to the military for an unbiased assessment. The Joint Chiefs of Staff concluded that the plan had a “fair chance” of success. The man who wrote the words “fair chance” later said he had in mind odds of 3 to 1 against success. But Kennedy was never told precisely what “fair chance” meant and, not unreasonably, he took it to be a much more positive assessment. {--{"author":"Luc's AI","timestamp":1787161804691}@@[^19]--}{++{"author":"Luc's AI","timestamp":1787161804691}@@[^cite-kokotajlo-gjp-19]++}
+In 1961, when the CIA was planning to topple the Castro government by landing a small army of Cuban expatriates at the Bay of Pigs, President John F. Kennedy turned to the military for an unbiased assessment. The Joint Chiefs of Staff concluded that the plan had a “fair chance” of success. The man who wrote the words “fair chance” later said he had in mind odds of 3 to 1 against success. But Kennedy was never told precisely what “fair chance” meant and, not unreasonably, he took it to be a much more positive assessment. [^cite-kokotajlo-gjp-19]
 
 
 This example hints at another advantage of probabilistic judgments: It’s harder to weasel out of them afterwards, and therefore easier to keep score. Keeping score is crucial for getting feedback from reality, which is crucial for building up expertise.
 
 
-A standard criticism of using probabilities is that they merely conceal uncertainty rather than quantify it—after all, the numbers you pick are themselves guesses. This may be true for people who haven’t practiced much, but it isn’t true for superforecasters, who are impressively well-calibrated and whose accuracy scores decrease when you round their predictions to the nearest 0.05. (EDIT: This should be {--{"author":"Luc's AI","timestamp":1787161804960}@@0.1)[^20]--}{++{"author":"Luc's AI","timestamp":1787161804960}@@0.1)[^cite-kokotajlo-gjp-20]++}
+A standard criticism of using probabilities is that they merely conceal uncertainty rather than quantify it—after all, the numbers you pick are themselves guesses. This may be true for people who haven’t practiced much, but it isn’t true for superforecasters, who are impressively well-calibrated and whose accuracy scores decrease when you round their predictions to the nearest 0.05. (EDIT: This should be 0.1)[^cite-kokotajlo-gjp-20]
 
 
-Bayesian reasoning is a natural next step once you are thinking and talking probabilities—it is the theoretical ideal in several important ways {--{"author":"Luc's AI","timestamp":1787161805198}@@[^21]--}{++{"author":"Luc's AI","timestamp":1787161805198}@@[^cite-kokotajlo-gjp-21]++} —and Tetlock’s experience and interviews with superforecasters seems to bear this out. Superforecasters seem to do many small updates, with occasional big updates, just as Bayesianism would predict. They recommend thinking in the Bayesian way, and often explicitly make Bayesian calculations. They are good at breaking down difficult questions into more manageable parts and chaining the probabilities together properly.
+Bayesian reasoning is a natural next step once you are thinking and talking probabilities—it is the theoretical ideal in several important ways [^cite-kokotajlo-gjp-21] —and Tetlock’s experience and interviews with superforecasters seems to bear this out. Superforecasters seem to do many small updates, with occasional big updates, just as Bayesianism would predict. They recommend thinking in the Bayesian way, and often explicitly make Bayesian calculations. They are good at breaking down difficult questions into more manageable parts and chaining the probabilities together properly.
 
 **2. Discussion: Relevance to AI Forecasting**
 ----------------------------------------------
@@ -206,10 +206,10 @@ Bayesian reasoning is a natural next step once you are thinking and talking prob
 ### **2.1. Limitations**
 
 
-A major limitation is that the forecasts were mainly on geopolitical events only a few years in the future at most. (Uncertain geopolitical events seem to be somewhat predictable up to two years out but much more difficult to predict five years out.) {--{"author":"Luc's AI","timestamp":1787161805467}@@[^22]--}{++{"author":"Luc's AI","timestamp":1787161805467}@@[^cite-kokotajlo-gjp-22]++} So evidence from the GJP may not generalize to forecasting other types of events (e.g. technological progress and social  consequences) or events further in the future. 
+A major limitation is that the forecasts were mainly on geopolitical events only a few years in the future at most. (Uncertain geopolitical events seem to be somewhat predictable up to two years out but much more difficult to predict five years out.) [^cite-kokotajlo-gjp-22] So evidence from the GJP may not generalize to forecasting other types of events (e.g. technological progress and social  consequences) or events further in the future. 
 
 
-That said, the forecasting best practices discovered by this research are not overtly specific to geopolitics or near-term events.  Also, geopolitical questions are diverse and accuracy on some was highly correlated with accuracy on others. {--{"author":"Luc's AI","timestamp":1787161805709}@@[^23]--}{++{"author":"Luc's AI","timestamp":1787161805709}@@[^cite-kokotajlo-gjp-23]++}
+That said, the forecasting best practices discovered by this research are not overtly specific to geopolitics or near-term events.  Also, geopolitical questions are diverse and accuracy on some was highly correlated with accuracy on others. [^cite-kokotajlo-gjp-23]
 
 
 Tetlock has ideas for how to handle longer-term, nebulous questions. He calls it “Bayesian Question Clustering.” (*Superforecasting* 263) The idea is to take the question you really want to answer and look for more precise questions that are evidentially relevant to the question you care about. Tetlock intends to test the effectiveness of this idea in future research.
@@ -217,7 +217,7 @@ Tetlock has ideas for how to handle longer-term, nebulous questions. He calls it
 ### **2.2 Value**
 
 
-The benefits of following these best practices (including identifying and aggregating the best forecasters) appear to be substantial: Superforecasters predicting events 300 days in the future were more accurate than regular forecasters predicting events 100 days in the future, and the GJP did even better. {--{"author":"Luc's AI","timestamp":1787161805927}@@[^24]--}{++{"author":"Luc's AI","timestamp":1787161805927}@@[^cite-kokotajlo-gjp-24]++} If these benefits generalize beyond the short-term and beyond geopolitics—e.g. to long-term technological and societal development—then this research is highly useful to almost everyone. Even if the benefits do not generalize beyond the near-term, these best practices may still be well worth adopting. For example, it would be extremely useful to have 300 days of warning before strategically important AI milestones are reached, rather than 100.
+The benefits of following these best practices (including identifying and aggregating the best forecasters) appear to be substantial: Superforecasters predicting events 300 days in the future were more accurate than regular forecasters predicting events 100 days in the future, and the GJP did even better. [^cite-kokotajlo-gjp-24] If these benefits generalize beyond the short-term and beyond geopolitics—e.g. to long-term technological and societal development—then this research is highly useful to almost everyone. Even if the benefits do not generalize beyond the near-term, these best practices may still be well worth adopting. For example, it would be extremely useful to have 300 days of warning before strategically important AI milestones are reached, rather than 100.
 
 **3. Contributions**
 --------------------
@@ -228,50 +228,50 @@ The benefits of following these best practices (including identifying and aggreg
 **4. Footnotes**
 ----------------
 
-{--{"author":"Luc's AI","timestamp":1787161806195}@@[^1]:--}{++{"author":"Luc's AI","timestamp":1787161806195}@@[^cite-kokotajlo-gjp-1]:++} *Superforecasting* p104
+[^cite-kokotajlo-gjp-1]: *Superforecasting* p104
 
-{--{"author":"Luc's AI","timestamp":1787161806426}@@[^2]:--}{++{"author":"Luc's AI","timestamp":1787161806426}@@[^cite-kokotajlo-gjp-2]:++} *Superforecasting* p104
+[^cite-kokotajlo-gjp-2]: *Superforecasting* p104
 
-{--{"author":"Luc's AI","timestamp":1787161806649}@@[^3]:--}{++{"author":"Luc's AI","timestamp":1787161806649}@@[^cite-kokotajlo-gjp-3]:++} Technically the forecasters were paid, up to $250 per season. (*Superforecasting* p72) However their payments did not depend on how accurate they were or how much effort they put in, beyond the minimum.
+[^cite-kokotajlo-gjp-3]: Technically the forecasters were paid, up to $250 per season. (*Superforecasting* p72) However their payments did not depend on how accurate they were or how much effort they put in, beyond the minimum.
 
-{--{"author":"Luc's AI","timestamp":1787161806937}@@[^4]:--}{++{"author":"Luc's AI","timestamp":1787161806937}@@[^cite-kokotajlo-gjp-4]:++} The table is from [Mellers *et al* 2015](https://www.apa.org/pubs/journals/releases/xap-0000040.pdf). “Del time” is deliberation time.
+[^cite-kokotajlo-gjp-4]: The table is from [Mellers *et al* 2015](https://www.apa.org/pubs/journals/releases/xap-0000040.pdf). “Del time” is deliberation time.
 
-{--{"author":"Luc's AI","timestamp":1787161807174}@@[^5]:--}{++{"author":"Luc's AI","timestamp":1787161807174}@@[^cite-kokotajlo-gjp-5]:++} “Nonetheless, as we saw in the structural model, and confirm here, the best model uses dispositional, situational, and behavioral variables. The combination produced a multiple correlation of .64.” This is from [Mellers *et al* 2015](https://www.apa.org/pubs/journals/releases/xap-0000040.pdf).
+[^cite-kokotajlo-gjp-5]: “Nonetheless, as we saw in the structural model, and confirm here, the best model uses dispositional, situational, and behavioral variables. The combination produced a multiple correlation of .64.” This is from [Mellers *et al* 2015](https://www.apa.org/pubs/journals/releases/xap-0000040.pdf).
 
-{--{"author":"Luc's AI","timestamp":1787161807414}@@[^6]:--}{++{"author":"Luc's AI","timestamp":1787161807414}@@[^cite-kokotajlo-gjp-6]:++} This is from [Mellers *et al* 2015](https://www.apa.org/pubs/journals/releases/xap-0000040.pdf).
+[^cite-kokotajlo-gjp-6]: This is from [Mellers *et al* 2015](https://www.apa.org/pubs/journals/releases/xap-0000040.pdf).
 
-{--{"author":"Luc's AI","timestamp":1787161807623}@@[^7]:--}{++{"author":"Luc's AI","timestamp":1787161807623}@@[^cite-kokotajlo-gjp-7]:++} On the [webpage](https://goodjudgment.com/science.html), it says forecasters with better track-records and those who update more frequently get weighted more. In [these slides, ](https://www.edge.org/conversation/philip_tetlock-edge-master-class-2015-a-short-course-in-superforecasting-class-ii)Tetlock describes the elitism differently: He says it gives weight to higher-IQ, more open-minded forecasters.
+[^cite-kokotajlo-gjp-7]: On the [webpage](https://goodjudgment.com/science.html), it says forecasters with better track-records and those who update more frequently get weighted more. In [these slides, ](https://www.edge.org/conversation/philip_tetlock-edge-master-class-2015-a-short-course-in-superforecasting-class-ii)Tetlock describes the elitism differently: He says it gives weight to higher-IQ, more open-minded forecasters.
 
-{--{"author":"Luc's AI","timestamp":1787161807852}@@[^8]:--}{++{"author":"Luc's AI","timestamp":1787161807852}@@[^cite-kokotajlo-gjp-8]:++} The academic papers on this topic are [Satopaa et al 2013](https://www.sciencedirect.com/science/article/pii/S0169207013001635) and [Baron et al 2014](http://pubsonline.informs.org/doi/abs/10.1287/deca.2014.0293).
+[^cite-kokotajlo-gjp-8]: The academic papers on this topic are [Satopaa et al 2013](https://www.sciencedirect.com/science/article/pii/S0169207013001635) and [Baron et al 2014](http://pubsonline.informs.org/doi/abs/10.1287/deca.2014.0293).
 
-{--{"author":"Luc's AI","timestamp":1787161808065}@@[^9]:--}{++{"author":"Luc's AI","timestamp":1787161808065}@@[^cite-kokotajlo-gjp-9]:++} According to one expert I interviewed, more recent data suggests that the successes of the extremizing algorithm during the forecasting tournament were a fluke. After all, *a priori* one would expect extremizing to lead to small improvements in accuracy most of the time, but big losses in accuracy some of the time.
+[^cite-kokotajlo-gjp-9]: According to one expert I interviewed, more recent data suggests that the successes of the extremizing algorithm during the forecasting tournament were a fluke. After all, *a priori* one would expect extremizing to lead to small improvements in accuracy most of the time, but big losses in accuracy some of the time.
 
-{--{"author":"Luc's AI","timestamp":1787161808365}@@[^10]:--}{++{"author":"Luc's AI","timestamp":1787161808365}@@[^cite-kokotajlo-gjp-10]:++} *Superforecasting* p18.
+[^cite-kokotajlo-gjp-10]: *Superforecasting* p18.
 
-{--{"author":"Luc's AI","timestamp":1787161808635}@@[^11]:--}{++{"author":"Luc's AI","timestamp":1787161808635}@@[^cite-kokotajlo-gjp-11]:++} This is from [this seminar](https://www.edge.org/conversation/philip_tetlock-edge-master-class-2015-a-short-course-in-superforecasting-class-ii).
+[^cite-kokotajlo-gjp-11]: This is from [this seminar](https://www.edge.org/conversation/philip_tetlock-edge-master-class-2015-a-short-course-in-superforecasting-class-ii).
 
-{--{"author":"Luc's AI","timestamp":1787161808866}@@[^12]:--}{++{"author":"Luc's AI","timestamp":1787161808866}@@[^cite-kokotajlo-gjp-12]:++} For example, in year 2 one superforecaster beat the extremizing algorithm. More generally, as discussed in [this seminar](https://www.edge.org/conversation/philip_tetlock-edge-master-class-2015-a-short-course-in-superforecasting-class-ii), the aggregation algorithm produces the greatest improvement with ordinary forecasters; the superforecasters were good enough that it didn’t help much.
+[^cite-kokotajlo-gjp-12]: For example, in year 2 one superforecaster beat the extremizing algorithm. More generally, as discussed in [this seminar](https://www.edge.org/conversation/philip_tetlock-edge-master-class-2015-a-short-course-in-superforecasting-class-ii), the aggregation algorithm produces the greatest improvement with ordinary forecasters; the superforecasters were good enough that it didn’t help much.
 
-{--{"author":"Luc's AI","timestamp":1787161809096}@@[^13]:--}{++{"author":"Luc's AI","timestamp":1787161809096}@@[^cite-kokotajlo-gjp-13]:++} This is from [Chang et al 2016](http://journal.sjdm.org/16/16511/jdm16511.pdf). The average brier score of answers tagged “comparison classes” was 0.17, while the next-best tag averaged 0.26.
+[^cite-kokotajlo-gjp-13]: This is from [Chang et al 2016](http://journal.sjdm.org/16/16511/jdm16511.pdf). The average brier score of answers tagged “comparison classes” was 0.17, while the next-best tag averaged 0.26.
 
-{--{"author":"Luc's AI","timestamp":1787161809320}@@[^14]:--}{++{"author":"Luc's AI","timestamp":1787161809320}@@[^cite-kokotajlo-gjp-14]:++} *Superforecasting* p191
+[^cite-kokotajlo-gjp-14]: *Superforecasting* p191
 
-{--{"author":"Luc's AI","timestamp":1787161809574}@@[^15]:--}{++{"author":"Luc's AI","timestamp":1787161809574}@@[^cite-kokotajlo-gjp-15]:++} There is experimental evidence that superforecasters are less prone to standard cognitive science biases than ordinary people. From [edge.org](https://www.edge.org/conversation/philip_tetlock-edge-master-class-2015-a-short-course-in-superforecasting-class-iv): *Mellers:* “We have given them lots of Kahneman and Tversky-like problems to see if they fall prey to the same sorts of biases and errors. The answer is sort of, some of them do, but not as many. It’s not nearly as frequent as you see with the rest of us ordinary mortals. The other thing that’s interesting is they don’t make the kinds of mistakes that regular people make instead of the right answer. They do something that’s a little bit more thoughtful. They integrate base rates with case-specific information a little bit more.”
+[^cite-kokotajlo-gjp-15]: There is experimental evidence that superforecasters are less prone to standard cognitive science biases than ordinary people. From [edge.org](https://www.edge.org/conversation/philip_tetlock-edge-master-class-2015-a-short-course-in-superforecasting-class-iv): *Mellers:* “We have given them lots of Kahneman and Tversky-like problems to see if they fall prey to the same sorts of biases and errors. The answer is sort of, some of them do, but not as many. It’s not nearly as frequent as you see with the rest of us ordinary mortals. The other thing that’s interesting is they don’t make the kinds of mistakes that regular people make instead of the right answer. They do something that’s a little bit more thoughtful. They integrate base rates with case-specific information a little bit more.”
 
-{--{"author":"Luc's AI","timestamp":1787161809822}@@[^16]:--}{++{"author":"Luc's AI","timestamp":1787161809822}@@[^cite-kokotajlo-gjp-16]:++} *Superforecasting* p281
+[^cite-kokotajlo-gjp-16]: *Superforecasting* p281
 
-{--{"author":"Luc's AI","timestamp":1787161810022}@@[^17]:--}{++{"author":"Luc's AI","timestamp":1787161810022}@@[^cite-kokotajlo-gjp-17]:++} See e.g. page 284 of *Superforecasting*, and the entirety of chapter 9.
+[^cite-kokotajlo-gjp-17]: See e.g. page 284 of *Superforecasting*, and the entirety of chapter 9.
 
-{--{"author":"Luc's AI","timestamp":1787161810251}@@[^18]:--}{++{"author":"Luc's AI","timestamp":1787161810251}@@[^cite-kokotajlo-gjp-18]:++} See Chapter 5: “Ultimately, it’s not the number crunching power that counts. It’s how you use it. … You’ve Fermi-ized the question, consulted the outside view, and now, finally, you can consult the inside view … So you have an outside view and an inside view. Now they have to be merged. …”
+[^cite-kokotajlo-gjp-18]: See Chapter 5: “Ultimately, it’s not the number crunching power that counts. It’s how you use it. … You’ve Fermi-ized the question, consulted the outside view, and now, finally, you can consult the inside view … So you have an outside view and an inside view. Now they have to be merged. …”
 
-{--{"author":"Luc's AI","timestamp":1787161810456}@@[^19]:--}{++{"author":"Luc's AI","timestamp":1787161810456}@@[^cite-kokotajlo-gjp-19]:++} *Superforecasting* 44
+[^cite-kokotajlo-gjp-19]: *Superforecasting* 44
 
-{--{"author":"Luc's AI","timestamp":1787161810735}@@[^20]:--}{++{"author":"Luc's AI","timestamp":1787161810735}@@[^cite-kokotajlo-gjp-20]:++} The superforecasters had a calibration of 0.01, which means that the average difference between a probability they use and the true frequency of occurrence is 0.01. This is from [Mellers et al 2015](https://www.researchgate.net/publication/277087515_Identifying_and_Cultivating_Superforecasters_as_a_Method_of_Improving_Probabilistic_Predictions). The fact about rounding their predictions is from [Friedman et al 2018](https://academic.oup.com/isq/article-abstract/62/2/410/4944059?redirectedFrom=fulltext). EDIT: Seems I was wrong, thanks to this commenter for noticing.https://www.metaculus.com/questions/4166/the-lightning-round-tournament-comparing-metaculus-forecasters-to-infectious-disease-experts/#comment-28756
+[^cite-kokotajlo-gjp-20]: The superforecasters had a calibration of 0.01, which means that the average difference between a probability they use and the true frequency of occurrence is 0.01. This is from [Mellers et al 2015](https://www.researchgate.net/publication/277087515_Identifying_and_Cultivating_Superforecasters_as_a_Method_of_Improving_Probabilistic_Predictions). The fact about rounding their predictions is from [Friedman et al 2018](https://academic.oup.com/isq/article-abstract/62/2/410/4944059?redirectedFrom=fulltext). EDIT: Seems I was wrong, thanks to this commenter for noticing.https://www.metaculus.com/questions/4166/the-lightning-round-tournament-comparing-metaculus-forecasters-to-infectious-disease-experts/#comment-28756
 
-{--{"author":"Luc's AI","timestamp":1787161810981}@@[^21]:--}{++{"author":"Luc's AI","timestamp":1787161810981}@@[^cite-kokotajlo-gjp-21]:++} For an excellent introduction to Bayesian reasoning and its theoretical foundations, see Strevens’ textbook-like [lecture notes](http://www.strevens.org/bct/). Some of the facts summarized in this paragraph about Superforecasters and Bayesianism can be found on pages 169-172, 281, and 314 of *Superforecasting*.
+[^cite-kokotajlo-gjp-21]: For an excellent introduction to Bayesian reasoning and its theoretical foundations, see Strevens’ textbook-like [lecture notes](http://www.strevens.org/bct/). Some of the facts summarized in this paragraph about Superforecasters and Bayesianism can be found on pages 169-172, 281, and 314 of *Superforecasting*.
 
-{--{"author":"Luc's AI","timestamp":1787161811246}@@[^22]:--}{++{"author":"Luc's AI","timestamp":1787161811246}@@[^cite-kokotajlo-gjp-22]:++} Tetlock admits that &#8220;there is no evidence that geopolitical or economic forecasters can predict anything ten years out beyond the excruciatingly obvious&#8230; These limits on predictability are the predictable results of the butterfly dynamics of nonlinear systems. In my EPJ research, the accuracy of expert predictions declined toward chance five years out.&#8221; (*Superforecasting* p243)
+[^cite-kokotajlo-gjp-22]: Tetlock admits that &#8220;there is no evidence that geopolitical or economic forecasters can predict anything ten years out beyond the excruciatingly obvious&#8230; These limits on predictability are the predictable results of the butterfly dynamics of nonlinear systems. In my EPJ research, the accuracy of expert predictions declined toward chance five years out.&#8221; (*Superforecasting* p243)
 
-{--{"author":"Luc's AI","timestamp":1787161811545}@@[^23]:--}{++{"author":"Luc's AI","timestamp":1787161811545}@@[^cite-kokotajlo-gjp-23]:++} &#8220;There are several ways to look for individual consistency across questions. We sorted questions on the basis of response format (binary, multinomial, conditional, ordered), region (Eurzone, Latin America, China, etc.), and duration of question (short, medium, and long). We computed accuracy scores for each individual on each variable within each set (e.g., binary, multinomial, conditional, and ordered) and then constructed correlation matrices. For all three question types, correlations were positive&#8230; Then we conducted factor analyses. For each question type, a large proportion of the variance was captured by a single factor, consistent with the hypothesis that one underlying dimension was necessary to capture correlations among response formats, regions, and question duration.&#8221; From [Mellers et al 2015](https://www.apa.org/pubs/journals/releases/xap-0000040.pdf).
+[^cite-kokotajlo-gjp-23]: &#8220;There are several ways to look for individual consistency across questions. We sorted questions on the basis of response format (binary, multinomial, conditional, ordered), region (Eurzone, Latin America, China, etc.), and duration of question (short, medium, and long). We computed accuracy scores for each individual on each variable within each set (e.g., binary, multinomial, conditional, and ordered) and then constructed correlation matrices. For all three question types, correlations were positive&#8230; Then we conducted factor analyses. For each question type, a large proportion of the variance was captured by a single factor, consistent with the hypothesis that one underlying dimension was necessary to capture correlations among response formats, regions, and question duration.&#8221; From [Mellers et al 2015](https://www.apa.org/pubs/journals/releases/xap-0000040.pdf).
 
-{--{"author":"Luc's AI","timestamp":1787161811765}@@[^24]:--}{++{"author":"Luc's AI","timestamp":1787161811765}@@[^cite-kokotajlo-gjp-24]:++} *Superforecasting* p94. Later, in the [edge.org seminar](https://www.edge.org/conversation/philip_tetlock-edge-master-class-2015-a-short-course-in-superforecasting-class-ii), Tetlock says “In some other ROC curves—receiver operator characteristic curves, from signal detection theory—that Mark Steyvers at UCSD constructed—superforecasters could assign probabilities 400 days out about as well as regular people could about eighty days out.” The quote is accompanied by a [graph](https://www.edge.org/3rd_culture/Master%20Class%202015/Slide040.jpg); unfortunately, it’s hard to interpret.
+[^cite-kokotajlo-gjp-24]: *Superforecasting* p94. Later, in the [edge.org seminar](https://www.edge.org/conversation/philip_tetlock-edge-master-class-2015-a-short-course-in-superforecasting-class-ii), Tetlock says “In some other ROC curves—receiver operator characteristic curves, from signal detection theory—that Mark Steyvers at UCSD constructed—superforecasters could assign probabilities 400 days out about as well as regular people could about eighty days out.” The quote is accompanied by a [graph](https://www.edge.org/3rd_culture/Master%20Class%202015/Slide040.jpg); unfortunately, it’s hard to interpret.
