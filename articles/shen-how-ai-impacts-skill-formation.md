@@ -3,7 +3,8 @@ title: "How AI Impacts Skill Formation"
 author:
   - "Judy Hanwen Shen"
   - "Alex Tamkin"
-source_url: "https://arxiv.org/abs/2601.20245"
+source_url: "https://arxiv.org/abs/2601.20245"{++{"author":"Luc's AI","timestamp":1787134406379}@@
+allowUnreachableUrl: true++}
 published: 2026-01-28
 created: 2026-08-08
 accessed: 2026-08-08

@@ -2,7 +2,8 @@
 title: "Deep Learning is Not So Mysterious or Different"
 author:
   - "Andrew Gordon Wilson"
-source_url: "https://arxiv.org/abs/2503.02113"
+source_url: "https://arxiv.org/abs/2503.02113"{++{"author":"Luc's AI","timestamp":1787134406709}@@
+allowUnreachableUrl: true++}
 published: 2025-03-03
 created: 2026-08-17
 accessed: 2026-08-17
