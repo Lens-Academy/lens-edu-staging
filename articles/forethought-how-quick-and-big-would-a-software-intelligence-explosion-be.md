@@ -395,17 +395,17 @@ In practice, this means we’ll need to make some speculative assumptions about 
 
 Box 1: What does it mean for “software” to double?
 
-The best quality data on this question is Epoch’s [analysis](https://arxiv.org/abs/2405.10494) of computer vision training efficiency. They estimate {--{"author":"Luc's AI","timestamp":1787133647951}@@**r \= ∼ 1.4 \\boldsymbol{r = \\;\\sim 1.4}**--}{++{"author":"Luc's AI","timestamp":1787133647951}@@**$r \sim 1.4$**++}: every time the researcher population doubled, training efficiency doubled 1.4 times.[11](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#user-content-fn-11) We can use this as a starting point, and then make various adjustments:
+The best quality data on this question is Epoch’s [analysis](https://arxiv.org/abs/2405.10494) of computer vision training efficiency. They estimate **$r \sim 1.4$**: every time the researcher population doubled, training efficiency doubled 1.4 times.[11](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#user-content-fn-11) We can use this as a starting point, and then make various adjustments:
 
--   **Upwards for improving capabilities.** Improving training efficiency improves capabilities, as you can train a model with more effective compute. Imagine we use a 2X training efficiency gain to train a model with twice as much effective compute. How many times would that double “software”? (I.e., how many doublings of parallel copies would be equally useful?) There are various sources of evidence here:[12](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#user-content-fn-12) toy ML experiments suggest the answer is ~1.7; human productivity studies suggest the answer is ~2.5. We put more weight on the former, so we'll estimate 2. This doubles our median estimate to {--{"author":"Luc's AI","timestamp":1787133648204}@@r \= ∼ 2.8 (1.4 ∗ 2) \\boldsymbol{r = \\, \\sim 2.8} \\; (1.4 \* 2).--}{++{"author":"Luc's AI","timestamp":1787133648204}@@**$r \sim 2.8$** ($1.4 \times 2$).++}
+-   **Upwards for improving capabilities.** Improving training efficiency improves capabilities, as you can train a model with more effective compute. Imagine we use a 2X training efficiency gain to train a model with twice as much effective compute. How many times would that double “software”? (I.e., how many doublings of parallel copies would be equally useful?) There are various sources of evidence here:[12](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#user-content-fn-12) toy ML experiments suggest the answer is ~1.7; human productivity studies suggest the answer is ~2.5. We put more weight on the former, so we'll estimate 2. This doubles our median estimate to **$r \sim 2.8$** ($1.4 \times 2$).
     
--   **Upwards for post-training enhancements.** So far, we’ve only considered pre-training improvements. But post-training enhancements like fine-tuning, scaffolding, and prompting also improve capabilities (o1 was developed using such techniques!). These can allow faster thinking, which could be a big factor. But there might also be strong diminishing returns to post-training enhancements holding base models fixed. We'll adjust our median estimate up from 2.8 to {--{"author":"Luc's AI","timestamp":1787133648447}@@r \= ∼ 4 (2.8 ∗ 1.45) \\boldsymbol{r = \\; \\sim 4} \\; (2.8 \* 1.45).--}{++{"author":"Luc's AI","timestamp":1787133648447}@@**$r \sim 4$** ($2.8 \times 1.45$).++}
+-   **Upwards for post-training enhancements.** So far, we’ve only considered pre-training improvements. But post-training enhancements like fine-tuning, scaffolding, and prompting also improve capabilities (o1 was developed using such techniques!). These can allow faster thinking, which could be a big factor. But there might also be strong diminishing returns to post-training enhancements holding base models fixed. We'll adjust our median estimate up from 2.8 to **$r \sim 4$** ($2.8 \times 1.45$).
     
--   **Downwards for less growth in compute for experiments.** Today, rising compute means we can run increasing numbers of GPT-3-sized experiments each year. This helps drive software progress. But compute isn’t growing in our scenario. That might mean that returns to additional cognitive labour diminish more steeply. On the other hand, the most important experiments are ones that use similar amounts of compute to training a SOTA model. Rising compute hasn't actually increased the number of these experiments we can run, as rising compute increases the training compute required for these SOTA models. And experiments are much less of a bottleneck for post-training enhancements. But this still reduces our median estimate down to {--{"author":"Luc's AI","timestamp":1787133648759}@@r \= ∼ 3 \\boldsymbol{r = \\; \\sim 3}.--}{++{"author":"Luc's AI","timestamp":1787133648759}@@**$r \sim 3$**.++} (See [Eth and Davidson (2025)](https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion) for more discussion.)
+-   **Downwards for less growth in compute for experiments.** Today, rising compute means we can run increasing numbers of GPT-3-sized experiments each year. This helps drive software progress. But compute isn’t growing in our scenario. That might mean that returns to additional cognitive labour diminish more steeply. On the other hand, the most important experiments are ones that use similar amounts of compute to training a SOTA model. Rising compute hasn't actually increased the number of these experiments we can run, as rising compute increases the training compute required for these SOTA models. And experiments are much less of a bottleneck for post-training enhancements. But this still reduces our median estimate down to **$r \sim 3$**. (See [Eth and Davidson (2025)](https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion) for more discussion.)
     
--   **Downwards for fixed scale of hardware.** In recent years, the scale of hardware available to researchers has increased massively. Researchers could invent new algorithms that only work at the new hardware scales for which no one had previously tried to to develop algorithms. Researchers may have been plucking low-hanging fruit for each new scale of hardware. But in the software intelligence explosions we're considering, this won’t be possible because the hardware scale will be fixed. OAI [estimate](https://arxiv.org/abs/2005.04305) ImageNet efficiency via a method that accounts for this (by focussing on a fixed capability level),[13](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#user-content-fn-13) and find a 16-month doubling time, as compared with Epoch’s 9-month doubling time. This reduces our estimate down to {--{"author":"Luc's AI","timestamp":1787133649879}@@r \= ∼ 1.7 (3 ∗ 9 / 16) \\boldsymbol{r = \\; \\sim 1.7} \\; (3 \* 9/16)--}{++{"author":"Luc's AI","timestamp":1787133649879}@@**$r \sim 1.7$** ($3 \times 9/16$).++}
+-   **Downwards for fixed scale of hardware.** In recent years, the scale of hardware available to researchers has increased massively. Researchers could invent new algorithms that only work at the new hardware scales for which no one had previously tried to to develop algorithms. Researchers may have been plucking low-hanging fruit for each new scale of hardware. But in the software intelligence explosions we're considering, this won’t be possible because the hardware scale will be fixed. OAI [estimate](https://arxiv.org/abs/2005.04305) ImageNet efficiency via a method that accounts for this (by focussing on a fixed capability level),[13](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#user-content-fn-13) and find a 16-month doubling time, as compared with Epoch’s 9-month doubling time. This reduces our estimate down to **$r \sim 1.7$** ($3 \times 9/16$).
     
--   **Downwards for the returns to software R&D becoming worse over time.** In most fields, returns diminish more steeply than in software R&D.[14](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#user-content-fn-14) So perhaps software will tend to become more like the average field over time. To estimate the size of this effect, we can take our estimate that software is ~10 OOMs from effective limits (discussed [below](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#distance-to-the-effective-limits-to-software)), and assume that for each OOM increase in software, {--{"author":"Luc's AI","timestamp":1787133649319}@@r r--}{++{"author":"Luc's AI","timestamp":1787133649319}@@$r$++} falls by a constant amount, reaching zero once effective limits are reached. If {--{"author":"Luc's AI","timestamp":1787133649319}@@r \= 1.7 r = 1.7, --}{++{"author":"Luc's AI","timestamp":1787133649319}@@$r=1.7$, ++}then this implies that {--{"author":"Luc's AI","timestamp":1787133649319}@@r r --}{++{"author":"Luc's AI","timestamp":1787133649319}@@$r$ ++}reduces by 0.17 for each OOM. Epoch estimates that pre-training algorithmic improvements are growing by an OOM every ~2 years, which would imply a reduction in {--{"author":"Luc's AI","timestamp":1787133649319}@@r r--}{++{"author":"Luc's AI","timestamp":1787133649319}@@$r$++} of 0.51 {--{"author":"Luc's AI","timestamp":1787133649319}@@(3 ∗ 0.17) 0.51 \\; (3 \* 0.17) --}{++{"author":"Luc's AI","timestamp":1787133649319}@@($3\times0.17$) ++}by 2030. This reduces our median estimate to {--{"author":"Luc's AI","timestamp":1787133649319}@@r \= ∼ 1.2 (1.7 − 0.5) \\boldsymbol{r = \\; \\sim 1.2} \\; (1.7 - 0.5).--}{++{"author":"Luc's AI","timestamp":1787133649319}@@**$r\sim1.2$** ($1.7-0.5$).++}
+-   **Downwards for the returns to software R&D becoming worse over time.** In most fields, returns diminish more steeply than in software R&D.[14](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#user-content-fn-14) So perhaps software will tend to become more like the average field over time. To estimate the size of this effect, we can take our estimate that software is ~10 OOMs from effective limits (discussed [below](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#distance-to-the-effective-limits-to-software)), and assume that for each OOM increase in software, $r$ falls by a constant amount, reaching zero once effective limits are reached. If $r=1.7$, then this implies that $r$ reduces by 0.17 for each OOM. Epoch estimates that pre-training algorithmic improvements are growing by an OOM every ~2 years, which would imply a reduction in $r$ of 0.51 ($3\times0.17$) by 2030. This reduces our median estimate to **$r\sim1.2$** ($1.7-0.5$).
     
 
 Overall, our median estimate of r r is 1.2. We use a log-uniform distribution with the bounds 3X higher and lower (0.4 to 3.6).
@@ -617,28 +617,28 @@ g S (S,C) \= S λ α − β C λ (1 − α) × a (b d) λ α c λ (1 − α) g\_
 
 From here, the time it takes for software to double is given by
 
-{--{"author":"Luc's AI","timestamp":1787133616913}@@Doubling Time (S,C) \= log ⁡ (2) g S (S,C) \\text{Doubling Time} (S,C) = \\frac{\\log(2)}{g\_S(S,C)}--}{++{"author":"Luc's AI","timestamp":1787133616913}@@$$
+$$
 \text{Doubling Time}(S,C)=\frac{\log(2)}{g_S(S,C)}
-$$++}
+$$
 
 Next, if we want to express the doubling time under software level 2 S 2S in terms of the doubling time for software under software level S S, we can divide expressions:
 
-{--{"author":"Luc's AI","timestamp":1787133617158}@@Doubling Time (2 S,C) Doubling Time (S,C) \= g S (S,C) g S (2 S,C) \\quad\\;\\; \\displaystyle \\frac{\\text{Doubling Time}(2S,C)}{\\text{Doubling Time}(S,C)} = \\frac{g\_S(S,C)}{g\_S(2S,C)} ⟹ Doubling Time (2 S,C) \= Doubling Time (S,C) × 2 β − λ α \\Longrightarrow \\text{Doubling Time}(2S,C) = \\text{Doubling Time}(S,C) \\times 2^{\\beta - \\lambda \\alpha}--}{++{"author":"Luc's AI","timestamp":1787133617158}@@$$
+$$
 \frac{\text{Doubling Time}(2S,C)}{\text{Doubling Time}(S,C)}=\frac{g_S(S,C)}{g_S(2S,C)}
 \Longrightarrow \text{Doubling Time}(2S,C)=\text{Doubling Time}(S,C)\times 2^{\beta-\lambda\alpha}
-$$++}
+$$
 
 So we can see that after a doubling of software, the time it takes to complete the next doubling halves λ α − β \\lambda \\alpha - \\beta times. To map this expression to the parameters in the rest of this analysis, we define p p and r r as in the main text:
 
-{--{"author":"Luc's AI","timestamp":1787133617430}@@p:\= λ α p:= \\lambda \\alpha r:\= λ α β r:= \\dfrac{\\lambda \\alpha}{\\beta}--}{++{"author":"Luc's AI","timestamp":1787133617430}@@$$
+$$
 p \coloneqq \lambda\alpha, \qquad r \coloneqq \frac{\lambda\alpha}{\beta}
-$$++}
+$$
 
 And therefore, to get the doubling time expression in the [pseudo code](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#pseudocode) note β − λ α \= p (r − 1 − 1) \\beta - \\lambda \\alpha \\; = \\; p (r^{-1} - 1), therefore
 
-{--{"author":"Luc's AI","timestamp":1787133617717}@@Doubling Time (2 S,C) \= Doubling Time (S,C) × 2 p (1 r − 1) \\text{Doubling Time}(2S,C) = \\text{Doubling Time}(S,C) \\times 2^{p(\\frac{1}{r} - 1)}--}{++{"author":"Luc's AI","timestamp":1787133617717}@@$$
+$$
 \text{Doubling Time}(2S,C)=\text{Doubling Time}(S,C)\times 2^{p(\frac{1}{r}-1)}
-$$++}
+$$
 
 Therefore, so long as we know the initial doubling time of software and p p and r r for each time period, we can chain together doubling times to calculate a path of software.
 
@@ -657,9 +657,9 @@ In addition to the [pseudo code](https://www.forethought.org/research/how-quick-
 
 A model parameter specifies the _initial speed-up_ in software progress from deploying ASARA. But we also need to make an assumption about how fast AI software has progressed recently. Then we can calculate:
 
-{--{"author":"Luc's AI","timestamp":1787133617963}@@Initial--}{++{"author":"Luc's AI","timestamp":1787133617963}@@$$
-\text{Initial++} software doubling time after {--{"author":"Luc's AI","timestamp":1787133617963}@@ASARA \= recent--}{++{"author":"Luc's AI","timestamp":1787133617963}@@ASARA}=\frac{\text{recent++} software doubling {--{"author":"Luc's AI","timestamp":1787133617963}@@time initial speed-up \\text{Initial software doubling time after ASARA} = \\frac{\\text{recent software doubling time}}{\\text{initial --}{++{"author":"Luc's AI","timestamp":1787133617963}@@time}}{\text{initial ++}speed-up}}{++{"author":"Luc's AI","timestamp":1787133617963}@@
-$$++}
+$$
+\text{Initial software doubling time after ASARA}=\frac{\text{recent software doubling time}}{\text{initial speed-up}}
+$$
 
 We assume that recently software has doubled every 3 months.
 
@@ -682,9 +682,9 @@ You can change this assumption in the [online tool](https://accelerated-ai-progr
 
 #### Objection to our sampling procedure
 
-It might seem ill-advised to independently sample {--{"author":"Luc's AI","timestamp":1787133618352}@@r \= α λ β r--}{++{"author":"Luc's AI","timestamp":1787133618352}@@$r++} = {--{"author":"Luc's AI","timestamp":1787133618352}@@\\frac{\\alpha \\lambda}{\\beta}--}{++{"author":"Luc's AI","timestamp":1787133618352}@@\frac{\alpha\lambda}{\beta}$++} and {--{"author":"Luc's AI","timestamp":1787133618352}@@p \= α λ p--}{++{"author":"Luc's AI","timestamp":1787133618352}@@$p++} = {--{"author":"Luc's AI","timestamp":1787133618352}@@\\alpha \\lambda.--}{++{"author":"Luc's AI","timestamp":1787133618352}@@\alpha\lambda$.++} Should we not instead sample {--{"author":"Luc's AI","timestamp":1787133618352}@@β \\beta--}{++{"author":"Luc's AI","timestamp":1787133618352}@@$\beta$++} and{--{"author":"Luc's AI","timestamp":1787133618352}@@ α λ \\alpha \\lambda?--}{++{"author":"Luc's AI","timestamp":1787133618352}@@ $\alpha\lambda$?++} After all, these are the more fundamental inputs that determine the model behaviour. For example, we will sample {--{"author":"Luc's AI","timestamp":1787133618352}@@α λ \\alpha \\lambda--}{++{"author":"Luc's AI","timestamp":1787133618352}@@$\alpha\lambda$++} holding {--{"author":"Luc's AI","timestamp":1787133618352}@@r r--}{++{"author":"Luc's AI","timestamp":1787133618352}@@$r$++} fixed – this means that a higher value for {--{"author":"Luc's AI","timestamp":1787133618352}@@α λ \\alpha \\lambda --}{++{"author":"Luc's AI","timestamp":1787133618352}@@$\alpha\lambda$ ++}will change the (implicit) value of {--{"author":"Luc's AI","timestamp":1787133618352}@@β \\beta.--}{++{"author":"Luc's AI","timestamp":1787133618352}@@$\beta$.++}
+It might seem ill-advised to independently sample $r = \frac{\alpha\lambda}{\beta}$ and $p = \alpha\lambda$. Should we not instead sample $\beta$ and $\alpha\lambda$? After all, these are the more fundamental inputs that determine the model behaviour. For example, we will sample $\alpha\lambda$ holding $r$ fixed – this means that a higher value for $\alpha\lambda$ will change the (implicit) value of $\beta$.
 
-We tentatively think our sampling procedure is appropriate given our epistemic position. The best evidence we have to calibrate the model is evidence about {--{"author":"Luc's AI","timestamp":1787133618593}@@r r.--}{++{"author":"Luc's AI","timestamp":1787133618593}@@$r$.++} This comes from observing the ratio between the growth rate of inputs and the growth rate of outputs to AI R&D: {--{"author":"Luc's AI","timestamp":1787133618593}@@r \= g outputs g inputs r--}{++{"author":"Luc's AI","timestamp":1787133618593}@@$r++} = {--{"author":"Luc's AI","timestamp":1787133618593}@@\\frac{g\_{\\text{outputs}}}{g\_{\\text{inputs}}}.--}{++{"author":"Luc's AI","timestamp":1787133618593}@@\frac{g_{\text{outputs}}}{g_{\text{inputs}}}$.++} Given our evidence on {--{"author":"Luc's AI","timestamp":1787133618593}@@r r,--}{++{"author":"Luc's AI","timestamp":1787133618593}@@$r$,++} it is the case that from our epistemic position it is appropriate that a higher estimate of {--{"author":"Luc's AI","timestamp":1787133618593}@@α λ \\alpha \\lambda--}{++{"author":"Luc's AI","timestamp":1787133618593}@@$\alpha\lambda$++} should change our estimate of {--{"author":"Luc's AI","timestamp":1787133618593}@@β \\beta.--}{++{"author":"Luc's AI","timestamp":1787133618593}@@$\beta$.++}
+We tentatively think our sampling procedure is appropriate given our epistemic position. The best evidence we have to calibrate the model is evidence about $r$. This comes from observing the ratio between the growth rate of inputs and the growth rate of outputs to AI R&D: $r = \frac{g_{\text{outputs}}}{g_{\text{inputs}}}$. Given our evidence on $r$, it is the case that from our epistemic position it is appropriate that a higher estimate of $\alpha\lambda$ should change our estimate of $\beta$.
 
 To be concrete, suppose our evidence tells us that r \= 2 r = 2. Then we sample from our distribution over α λ \\alpha \\lambda. If we sample a high value, it is appropriate for us to assume that β \\beta is also high, so that our assumption about α λ \\alpha \\lambda remains consistent with our evidence about r r.
 
@@ -720,17 +720,17 @@ Diagram showing retraining model timing: total time to create next generation AI
 
 Specifically, we adjust the line of code that describes how software progress changes each time software doubles:
 
-{--{"author":"Luc's AI","timestamp":1787133618846}@@Doubling-Time i + 1 \= 2 p (1 r i − 1) × Doubling-Time i \\text{Doubling-Time}\_{i+1} \\;\\; = \\;\\; 2^{p(\\frac{1}{r\_i} - 1)} \\times \\text{Doubling-Time}\_i--}{++{"author":"Luc's AI","timestamp":1787133618846}@@$$
+$$
 \text{Doubling-Time}_{i+1}=2^{p(\frac{1}{r_i}-1)}\times\text{Doubling-Time}_i
-$$++}
+$$
 
 The exponent on 2 here is the reciprocal of N N: p ((1 / r) − 1) \= 1 / N p((1/r) - 1) = 1/N. So we replace this exponent with
 
-{--{"author":"Luc's AI","timestamp":1787133619098}@@1 N + 1 \= p (1 r − 1) 1 + p (1 r − 1) \\displaystyle \\frac{1}{N+1} = \\frac{p(\\frac{1}{r}-1)}{1+p(\\frac{1}{r}-1)}--}{++{"author":"Luc's AI","timestamp":1787133619098}@@$$
+$$
 \frac{1}{N+1}=\frac{p(\frac{1}{r}-1)}{1+p(\frac{1}{r}-1)}
-$$++}
+$$
 
-This analysis assumed that software was accelerating over {--{"author":"Luc's AI","timestamp":1787133619336}@@time – N \> 0 N>0, p ((1 / r) − 1) \> 0 p((1/r) - 1)>0. --}{++{"author":"Luc's AI","timestamp":1787133619336}@@time: $N>0$ and $p((1/r)-1)>0$. ++}Repeating the argument for the case where software is {--{"author":"Luc's AI","timestamp":1787133619336}@@decelerating – N < 0 N<0, p ((1 / r) − 1) < 0 p((1/r) - 1)<0 – yields p ((1 / r) − 1) (1 − (p ((1 / r) − 1))) \\frac{p((1/r) - 1)}{(1 - (p((1/r) - 1)))}. --}{++{"author":"Luc's AI","timestamp":1787133619336}@@decelerating—$N<0$ and $p((1/r)-1)<0$—yields $\frac{p((1/r)-1)}{1-p((1/r)-1)}$. ++}Therefore the correct exponent in both cases is {--{"author":"Luc's AI","timestamp":1787133619336}@@λ ((1 / r) − 1) (1 + ∣ λ ((1 / r) − 1) ∣) \\frac{\\lambda((1/r) - 1)}{\\left(1 + |\\lambda((1/r) - 1)|\\right)}.--}{++{"author":"Luc's AI","timestamp":1787133619336}@@$\frac{\lambda((1/r)-1)}{1+|\lambda((1/r)-1)|}$.++}
+This analysis assumed that software was accelerating over time: $N>0$ and $p((1/r)-1)>0$. Repeating the argument for the case where software is decelerating—$N<0$ and $p((1/r)-1)<0$—yields $\frac{p((1/r)-1)}{1-p((1/r)-1)}$. Therefore the correct exponent in both cases is $\frac{\lambda((1/r)-1)}{1+|\lambda((1/r)-1)|}$.
 
 We rerun the analysis with this new exponent and find that the results do not change significantly.
 
@@ -762,7 +762,7 @@ In the simulation, the initial boost to research productivity from deployment of
 
 To implement this in the model, we assume that the boost in each time period originates from compute growth, which grows at an exogenous (and exponential) rate until it reaches a ceiling. We assume this ceiling occurs after 12 doublings of compute (or a 4096× increase relative to the initial compute level) which occurs after five years from the start time of the model.
 
-{--{"author":"Luc's AI","timestamp":1787133619606}@@Software i + 1 \= 2 × Software i \\qquad\\;\\; \\text{Software}\_{i+1} = 2 \\times \\text{Software}\_i f i + 1 \= 1 + f 0 + (f max − f 0) × min ⁡ { Time i,Time Boost End } \\qquad\\qquad\\qquad f\_{i+1} = 1 + f\_0 + (f\_{\\text{max}} - f\_0) \\times \\min\\{\\text{Time}\_i, \\text{Time}\_{\\text{Boost End}}\\} Time i + 1 \= Time i + Doubling-Time i \\qquad\\qquad\\; \\text{Time}\_{i+1} = \\text{Time}\_i + \\text{Doubling-Time}\_i Doubling-Time i + 1 \= 2 p (1 r i − 1) × Doubling-Time i × f i f i + 1 \\text{Doubling-Time}\_{i+1} = 2^{p(\\frac{1}{r\_i} -1)} \\times \\text{Doubling-Time}\_i \\times \\frac{f\_i}{f\_i +1} r i + 1 \= r i − r 0 Doublings-Till-Ceiling Software \\qquad\\qquad\\qquad\\, r\_{i+1} = r\_i - \\frac{r\_0}{\\text{Doublings-Till-Ceiling}\_{\\text{Software}}} Doubling-Time 0,Doublings-Till-Ceiling Software,\\qquad\\qquad\\qquad\\qquad\\quad\\, \\text{Doubling-Time}\_0, \\text{Doublings-Till-Ceiling}\_{\\text{Software}}, Time Boost End,r 0,p,f 0,f max, --}{++{"author":"Luc's AI","timestamp":1787133619606}@@$$
+$$
 \begin{aligned}
 \text{Software}_{i+1} &= 2\times\text{Software}_i \\
 f_{i+1} &= 1+f_0+(f_{\max}-f_0)\times\min\{\text{Time}_i,\text{Time}_{\text{Boost End}}\} \\
@@ -772,7 +772,7 @@ r_{i+1} &= r_i-\frac{r_0}{\text{Doublings-Till-Ceiling}_{\text{Software}}}
 \end{aligned}
 $$
 
-$\text{Doubling-Time}_0$, $\text{Doublings-Till-Ceiling}_{\text{Software}}$, $\text{Time}_{\text{Boost End}}$, $r_0$, $p$, $f_0$, and $f_{\max}$ ++}are{--{"author":"Luc's AI","timestamp":1787133619606}@@ given;\\qquad\\qquad\\qquad\\qquad\\quad\\, \\text{Time}\_{\\text{Boost End}}, r\_0, p, f\_0, f\_{\\text{max}}, \\;\\text{ are given}; Time 0 \= 0,Software 0 \= 1,Compute 0 \= 1 \\qquad\\qquad\\qquad\\qquad\\quad\\, \\text{Time}\_0 = 0, \\text{Software}\_0 = 1, \\text{Compute}\_0 = 1--}{++{"author":"Luc's AI","timestamp":1787133619606}@@ given; $\text{Time}_0=0$, $\text{Software}_0=1$, and $\text{Compute}_0=1$.++}
+$\text{Doubling-Time}_0$, $\text{Doublings-Till-Ceiling}_{\text{Software}}$, $\text{Time}_{\text{Boost End}}$, $r_0$, $p$, $f_0$, and $f_{\max}$ are given; $\text{Time}_0=0$, $\text{Software}_0=1$, and $\text{Compute}_0=1$.
 
 In the simulation it is assumed that f 0 \= 0.1 f\_0 = 0.1. Given exponential growth in compute, f (C) f(C) increases linearly with time until it reaches the compute ceiling, at which point f f remains at f max f\_{\\text{max}}.
 
@@ -812,13 +812,13 @@ In the main text, we include both runtime efficiency and capabilities improvemen
 
 To check how robust our main estimate is to this speculative translation, we can ask what r r is when considering only direct runtime efficiency improvements.
 
-As above, the highest quality and most relevant estimate is Epoch’s [analysis](https://arxiv.org/abs/2405.10494) of computer vision training efficiency.[24](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#user-content-fn-24) They estimate {--{"author":"Luc's AI","timestamp":1787133649055}@@r \= ∼ 1.4 \\boldsymbol{r = \\; \\sim 1.4}--}{++{"author":"Luc's AI","timestamp":1787133649055}@@$r \sim 1.4$++} (every time the researcher population doubled, training efficiency doubled 1.4x).
+As above, the highest quality and most relevant estimate is Epoch’s [analysis](https://arxiv.org/abs/2405.10494) of computer vision training efficiency.[24](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#user-content-fn-24) They estimate $r \sim 1.4$ (every time the researcher population doubled, training efficiency doubled 1.4x).
 
 Again we'll make a couple of adjustments:
 
--   **Downwards for runtime efficiency.** To estimate returns to software improvements, we need to convert from training efficiency (the inputs) into runtime efficiency (the outputs). The logic of the [Chinchilla paper](https://arxiv.org/pdf/2203.15556) implies that increasing training efficiency by 4X will increase runtime efficiency by between 2X and 4X.[25](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#user-content-fn-25) This means we should reduce our estimate of {--{"author":"Luc's AI","timestamp":1787133649592}@@r r--}{++{"author":"Luc's AI","timestamp":1787133649592}@@$r$++} by up to a factor of 2. We'll reduce it to {--{"author":"Luc's AI","timestamp":1787133649592}@@r \= ∼ 1 \\boldsymbol{r = \\; \\sim1}.--}{++{"author":"Luc's AI","timestamp":1787133649592}@@$r \sim 1$.++}
+-   **Downwards for runtime efficiency.** To estimate returns to software improvements, we need to convert from training efficiency (the inputs) into runtime efficiency (the outputs). The logic of the [Chinchilla paper](https://arxiv.org/pdf/2203.15556) implies that increasing training efficiency by 4X will increase runtime efficiency by between 2X and 4X.[25](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#user-content-fn-25) This means we should reduce our estimate of $r$ by up to a factor of 2. We'll reduce it to $r \sim 1$.
     
--   **Upwards for post-training enhancements.** Improvements to pre-training algorithms are not the only source of runtime efficiency gains. There are also techniques like: model distillation; calling smaller models for easier tasks; pruning (removing parameters from a trained model); post-training quantisation (reducing the numerical precision of the weights); more efficient caching of results and activations (especially for agents that re-read the same context multiple times). We'll increase our estimate to {--{"author":"Luc's AI","timestamp":1787133650128}@@r \= ∼ 1 − 2 \\boldsymbol{r = \\; \\sim 1-2}.--}{++{"author":"Luc's AI","timestamp":1787133650128}@@$r \sim 1-2$.++}
+-   **Upwards for post-training enhancements.** Improvements to pre-training algorithms are not the only source of runtime efficiency gains. There are also techniques like: model distillation; calling smaller models for easier tasks; pruning (removing parameters from a trained model); post-training quantisation (reducing the numerical precision of the weights); more efficient caching of results and activations (especially for agents that re-read the same context multiple times). We'll increase our estimate to $r \sim 1-2$.
     
 
 r r is necessarily lower when we’re considering only efficiency improvements - but it still seems fairly likely that r \> 1 r>1, even excluding capabilities improvements.

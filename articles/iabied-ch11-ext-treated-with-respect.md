@@ -29,7 +29,7 @@ It takes twenty pages merely to summarize the technical analysis performed to de
 >
 > The accident fan blade failed with 32,636 cycles since new. Similarly, the fractured fan blade associated with the August 2016 PNS accident (see section 1.10.1), as well as the six other cracked fan blades from the PNS accident engine, failed with 38,152 cycles since new. Further, 15 other cracked fan blades on CFM56-7B engines had been identified between May 2017 and August 2019, and those fan blades had accumulated an average of about 33,000 cycles since new when the cracks were detected.
 
-This is what it looks like when a technical profession takes seriously the challenge of averting a disaster.[*{--{"author":"Luc's AI","timestamp":1787133005900}@@](#ftnt268)--}{++{"author":"Luc's AI","timestamp":1787133005900}@@](https://ifanyonebuildsit.com/11/we-know-what-it-looks-like-when-a-problem-is-being-treated-with-respect-and-this-isnt-it#ftnt268)++}
+This is what it looks like when a technical profession takes seriously the challenge of averting a disaster.[*](https://ifanyonebuildsit.com/11/we-know-what-it-looks-like-when-a-problem-is-being-treated-with-respect-and-this-isnt-it#ftnt268)
 
 Contrast the air traffic control profession with the behavior of AI companies described in Chapter 11.
 
@@ -65,4 +65,4 @@ In anything like the current technical environment — where AIs are grown rathe
 
 But it certainly simplifies matters to see that none of the developers of this technology are being even mildly cautious or rigorous in their safety plans or practices.
 
-[*{--{"author":"Luc's AI","timestamp":1787133007280}@@](#ftnt268_ref)--}{++{"author":"Luc's AI","timestamp":1787133007280}@@](https://ifanyonebuildsit.com/11/we-know-what-it-looks-like-when-a-problem-is-being-treated-with-respect-and-this-isnt-it#ftnt268_ref)++} Numerically, air travel is *so* safe that society as a whole might benefit from air traffic control relaxing requirements for things like pilot training and contingency fuel, thereby reducing the cost of flights and inducing more people to fly rather than drive, thereby saving more lives on net.
+[*](https://ifanyonebuildsit.com/11/we-know-what-it-looks-like-when-a-problem-is-being-treated-with-respect-and-this-isnt-it#ftnt268_ref) Numerically, air travel is *so* safe that society as a whole might benefit from air traffic control relaxing requirements for things like pilot training and contingency fuel, thereby reducing the cost of flights and inducing more people to fly rather than drive, thereby saving more lives on net.

@@ -49,7 +49,7 @@ My analysis has important limitations, which I discuss after presenting evidence
 
 To investigate whether cost ratios rise as models improve, I examine the cost ratio at each model’s 50% reliability time horizon. For each model, I select tasks that the model successfully completes with lengths between 0.79 times and 1.29 times the calculated time horizon (which is plus or minus 0.1 orders of magnitude).[^3] I graph the median cost ratio in the selected set of tasks.
 
-![]({--{"author":"Luc's AI","timestamp":1787132641845}@@https://substackcdn.com/image/fetch/$s_!Fa3K!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29b3b408-cf06-4660-8a3b-86012b4e7eb7_1600x985.png--}{++{"author":"Luc's AI","timestamp":1787132641845}@@https://substackcdn.com/image/fetch/$s_!Fa3K!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29b3b408-cf06-4660-8a3b-86012b4e7eb7_1600x985.png++})
+![](https://substackcdn.com/image/fetch/$s_!Fa3K!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29b3b408-cf06-4660-8a3b-86012b4e7eb7_1600x985.png)
 
 Figure 1: Median cost ratio of successful completions near each model’s 50% time horizon (between 0.79x and 1.29x the time horizon), with interquartile range. As time horizons increase from minutes to hours across successive models, cost ratios remain well below 1 (dashed line), with no upward trend.
 
@@ -61,7 +61,7 @@ I filter for passing tasks to show that cost isn’t an additional limitation on
 
 One might respond to figure 1 by arguing that even if cost ratios _at_ each model’s 50% time horizon aren’t increasing, improvements to those 50% time horizons come from successes on long tasks with high cost ratios. If this were true, we’d expect cost ratios to rise with task length among successfully completed tasks. I show that’s false: among successful tasks, cost ratios don’t rise with task length.[^5]
 
-![]({--{"author":"Luc's AI","timestamp":1787132642082}@@https://substackcdn.com/image/fetch/$s_!9B2i!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdb51483d-9a83-43fe-88d7-b86ffb1a1996_1600x985.png--}{++{"author":"Luc's AI","timestamp":1787132642082}@@https://substackcdn.com/image/fetch/$s_!9B2i!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdb51483d-9a83-43fe-88d7-b86ffb1a1996_1600x985.png++})
+![](https://substackcdn.com/image/fetch/$s_!9B2i!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdb51483d-9a83-43fe-88d7-b86ffb1a1996_1600x985.png)
 
 Figure 2: Cost ratio by task duration for successful attempts only (excluding tasks under 1.5 minutes), across a selection of models. The shaded region shows the weighted interquartile range. Cost ratios do not increase with task length, they decline, though this likely reflects a selection effect where models only succeed on relatively cheap long tasks.
 
@@ -81,13 +81,13 @@ Multiplying the pass rate logistic and affordability logistic gives the probabil
 
 The affordable 50% time horizon is the longest task length at which p(pass & afford) is greater than or equal to 50%.
 
-![]({--{"author":"Luc's AI","timestamp":1787132642308}@@https://substackcdn.com/image/fetch/$s_!hkIM!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb78be3d6-3642-4d93-a00c-c0dda2d43560_1600x1200.png--}{++{"author":"Luc's AI","timestamp":1787132642308}@@https://substackcdn.com/image/fetch/$s_!hkIM!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb78be3d6-3642-4d93-a00c-c0dda2d43560_1600x1200.png++})
+![](https://substackcdn.com/image/fetch/$s_!hkIM!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb78be3d6-3642-4d93-a00c-c0dda2d43560_1600x1200.png)
 
 Figure 3: Factored model for Claude 4 Opus at four cost thresholds (1/32x, 1/16x, 1/8x, 1/4x human cost). Red dots show failed or over-cost tasks, while green dots show passed and affordable tasks. Each panel decomposes the affordable pass rate (red) into pass probability (blue) and affordability given passing (green dashed). The dashed vertical line marks the affordable 50% time horizon. Tighter cost constraints reduce the horizon only modestly.
 
 At different maximum cost ratios, the doubling times are reliably similar.
 
-![]({--{"author":"Luc's AI","timestamp":1787132642542}@@https://substackcdn.com/image/fetch/$s_!ZE8h!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9b066f3-8694-479b-adef-31d8ce9d7c19_1600x1109.png--}{++{"author":"Luc's AI","timestamp":1787132642542}@@https://substackcdn.com/image/fetch/$s_!ZE8h!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9b066f3-8694-479b-adef-31d8ce9d7c19_1600x1109.png++})
+![](https://substackcdn.com/image/fetch/$s_!ZE8h!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9b066f3-8694-479b-adef-31d8ce9d7c19_1600x1109.png)
 
 Figure 4: Affordable 50% time horizon over time after 2024 at four cost thresholds: unlimited, 1/4x, 1/8x, and 1/32x human cost. Doubling times range from 3.0 to 3.3 months across thresholds, with high R² values throughout. Stricter cost constraints filter out some models but do not substantially slow the trend.
 
@@ -132,7 +132,7 @@ Toby Ord [analyzed the same issue](https://www.tobyord.com/writing/hourly-costs-
 
 Ord’s results come from his analysis of this graph, [released by METR](https://evaluations.metr.org/gpt-5-report/#time-horizon-measurement) (with his annotations).
 
-![]({--{"author":"Luc's AI","timestamp":1787132642774}@@https://substackcdn.com/image/fetch/$s_!T74S!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe307b24-e739-4127-a0e7-9b59854d3a22_1350x750.png--}{++{"author":"Luc's AI","timestamp":1787132642774}@@https://substackcdn.com/image/fetch/$s_!T74S!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe307b24-e739-4127-a0e7-9b59854d3a22_1350x750.png++})
+![](https://substackcdn.com/image/fetch/$s_!T74S!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe307b24-e739-4127-a0e7-9b59854d3a22_1350x750.png)
 
 Figure A1: Comparison of time horizon achieved by token cost used for different models. Each model is run once with a constant token budget, and the performance at each cost threshold is calculated by counting all unfinished runs as failures. Costs for o3 and GPT-5 are approximated using cost data for OpenAI o1. Toby Ord has added saturation point annotations to the figure, with diagonal lines indicating a flat hourly cost.
 
@@ -146,11 +146,11 @@ Where the per-task budget is the maximum that can be spent on any individual tas
 
 For example, my data shows GPT-5 succeeds on 1-2 hour tasks at a median cost of $1.29, but Ord’s method requires a $10+ budget to reach a time horizon in that range. The reason is that the 50% time horizon at the saturation point is influenced by passing tasks significantly longer than the horizon itself (see figure A2). So the per-task budget must be large enough to pay for the most expensive task necessary to reach the saturation point, which has a high absolute cost even if its hourly cost is low. Dividing this inflated budget by the shorter 50% time horizon produces an inflated hourly cost. In effect, hourly cost is set by the price of passing a 4-hour task, divided by a 1.6-hour horizon.
 
-![]({--{"author":"Luc's AI","timestamp":1787132643041}@@https://substackcdn.com/image/fetch/$s_!JhSf!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F15c6596a-102c-4068-87b9-80c29906da89_1286x1058.png--}{++{"author":"Luc's AI","timestamp":1787132643041}@@https://substackcdn.com/image/fetch/$s_!JhSf!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F15c6596a-102c-4068-87b9-80c29906da89_1286x1058.png++})
+![](https://substackcdn.com/image/fetch/$s_!JhSf!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F15c6596a-102c-4068-87b9-80c29906da89_1286x1058.png)
 
 Figure A2: As the cost cap rises, GPT-5’s horizon grows from ~30s to ~3.5h. The bottom panel decomposes this growth by counterfactual attribution: at each cost step, I remove each duration bucket’s newly-passed runs and refit the logistic to measure its share of the p50 shift. Early growth (under $1) is driven by short tasks (<4m, 4-16m). Above $10, 4-16h tasks (purple) dominate; expensive successes on very long tasks are what push the horizon from ~2h toward its ~3.5h plateau. (My updated data has a different time horizon than in Figure A1, but it matches METR’s updated time horizon.)
 
-![]({--{"author":"Luc's AI","timestamp":1787132643263}@@https://substackcdn.com/image/fetch/$s_!ArpZ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a571ec1-8225-4865-8fd0-391afc0a98ed_1481x881.png--}{++{"author":"Luc's AI","timestamp":1787132643263}@@https://substackcdn.com/image/fetch/$s_!ArpZ!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a571ec1-8225-4865-8fd0-391afc0a98ed_1481x881.png++})
+![](https://substackcdn.com/image/fetch/$s_!ArpZ!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a571ec1-8225-4865-8fd0-391afc0a98ed_1481x881.png)
 
 Figure A3: Dividing each model’s required budget by its time horizon gives an implied hourly rate. Ord’s method implies $5–59/hr across models (red) at their overall 50% time horizon, but the actual weighted mean and median per-task hourly costs of successful tasks near each model’s horizon duration are much lower (orange, green). The overstatement ranges from 9–64x against the median. Error bars show 90% bootstrap confidence intervals. I have ignored saturation for simplicity, and simply find the cost necessary to reach 95% of a model’s unrestricted 50% time horizon.
 
@@ -171,29 +171,29 @@ I think there are other, more minor reasons to prefer my analysis to Ord’s:
 
 I show that the overall trend of cost ratio versus time horizon doesn’t depend much on whether I include tasks with time horizons further than the model’s 50% time horizon.
 
-![]({--{"author":"Luc's AI","timestamp":1787132643498}@@https://substackcdn.com/image/fetch/$s_!TtJT!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43c4a6a2-ff83-46fb-b8af-54086185e00a_1600x985.png--}{++{"author":"Luc's AI","timestamp":1787132643498}@@https://substackcdn.com/image/fetch/$s_!TtJT!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43c4a6a2-ff83-46fb-b8af-54086185e00a_1600x985.png++})
+![](https://substackcdn.com/image/fetch/$s_!TtJT!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43c4a6a2-ff83-46fb-b8af-54086185e00a_1600x985.png)
 
 Figure B1: Same as Figure 1 but with a narrower task selection band (±0.05 OOM). The trend is unchanged.
 
-![]({--{"author":"Luc's AI","timestamp":1787132644001}@@https://substackcdn.com/image/fetch/$s_!_E6k!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2095ee48-540c-4b71-bcdc-cde2d0a02857_1600x985.png--}{++{"author":"Luc's AI","timestamp":1787132644001}@@https://substackcdn.com/image/fetch/$s_!_E6k!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2095ee48-540c-4b71-bcdc-cde2d0a02857_1600x985.png++})
+![](https://substackcdn.com/image/fetch/$s_!_E6k!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2095ee48-540c-4b71-bcdc-cde2d0a02857_1600x985.png)
 
 Figure B2: Same as Figure 1 but with a wider task selection band (±0.2 OOM). The trend is unchanged.
 
 **80% time horizon**
 
-![]({--{"author":"Luc's AI","timestamp":1787132644248}@@https://substackcdn.com/image/fetch/$s_!H5Tp!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F82c803a5-aab4-48ff-82d6-4b3b6de29b7e_1600x985.png--}{++{"author":"Luc's AI","timestamp":1787132644248}@@https://substackcdn.com/image/fetch/$s_!H5Tp!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F82c803a5-aab4-48ff-82d6-4b3b6de29b7e_1600x985.png++})
+![](https://substackcdn.com/image/fetch/$s_!H5Tp!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F82c803a5-aab4-48ff-82d6-4b3b6de29b7e_1600x985.png)
 
 Figure B3: Same as Figure 1 but measured at each model’s 80% time horizon. Cost ratios remain below human cost with no upward trend, though o1-preview and o1 are notably more expensive at this threshold.
 
 **Including failures**
 
-![]({--{"author":"Luc's AI","timestamp":1787132644482}@@https://substackcdn.com/image/fetch/$s_!quUa!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F120f2d0a-df83-4dbf-b908-a03f72cf94f7_1600x985.png--}{++{"author":"Luc's AI","timestamp":1787132644482}@@https://substackcdn.com/image/fetch/$s_!quUa!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F120f2d0a-df83-4dbf-b908-a03f72cf94f7_1600x985.png++})
+![](https://substackcdn.com/image/fetch/$s_!quUa!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F120f2d0a-df83-4dbf-b908-a03f72cf94f7_1600x985.png)
 
 Figure B4: Same as Figure 1 but including failed attempts in the cost calculation. Median cost ratios shift upward for reasoning models (o1-preview, o1, o3) that spend heavily even on failures, while most other models remain largely unchanged.
 
 ## Appendix C: 80% affordable time horizon
 
-![]({--{"author":"Luc's AI","timestamp":1787132644699}@@https://substackcdn.com/image/fetch/$s_!eqdo!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c189420-a551-4376-aab5-75ebe5f9d699_1600x1109.png--}{++{"author":"Luc's AI","timestamp":1787132644699}@@https://substackcdn.com/image/fetch/$s_!eqdo!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c189420-a551-4376-aab5-75ebe5f9d699_1600x1109.png++})
+![](https://substackcdn.com/image/fetch/$s_!eqdo!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c189420-a551-4376-aab5-75ebe5f9d699_1600x1109.png)
 
 Figure C1: Same as Figure 3 but at the 80% reliability threshold. Doubling times (2.8–3.1 months) are similar across cost thresholds, though stricter thresholds filter out more models, leaving fewer data points.
 

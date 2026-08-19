@@ -296,7 +296,7 @@ In this and the following exercises, we will make use of the well-known Banach f
 
 :::callout {title="Theorem" tone="purple"}
 
-**Theorem 3.1 (Banach Fixed Point Theorem).** Let $(X, d)$ be a complete metric space and let $F : X \to X$ be a contraction mapping, i.e. there exists $\gamma \in {--{"author":"Luc's AI","timestamp":1787132679686}@@[[#^prob-max-ineq|0,1)$--}{++{"author":"Luc's AI","timestamp":1787132679686}@@[0,1)$++} such that
+**Theorem 3.1 (Banach Fixed Point Theorem).** Let $(X, d)$ be a complete metric space and let $F : X \to X$ be a contraction mapping, i.e. there exists $\gamma \in [0,1)$ such that
 
 $$
 d(F(x), F(y)) \le \gamma\, d(x, y) \quad \text{for all }x, y \in X.

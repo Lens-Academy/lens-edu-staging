@@ -20,7 +20,7 @@ Add discussion note here:
 
 [
 
-![Buck Shlegeris's avatar]({--{"author":"Luc's AI","timestamp":1787132638825}@@https://substackcdn.com/image/fetch/$s_!a1J8!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F156c87bd-db07-4458-b332-a8d39f1b56a8_1689x1743.jpeg--}{++{"author":"Luc's AI","timestamp":1787132638825}@@https://substackcdn.com/image/fetch/$s_!a1J8!,w_1200,h_1200,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F156c87bd-db07-4458-b332-a8d39f1b56a8_1689x1743.jpeg++})
+![Buck Shlegeris's avatar](https://substackcdn.com/image/fetch/$s_!a1J8!,w_1200,h_1200,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F156c87bd-db07-4458-b332-a8d39f1b56a8_1689x1743.jpeg)
 
 ](https://substack.com/@buckshlegeris)
 

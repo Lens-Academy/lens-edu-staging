@@ -33,7 +33,7 @@ We can ask similar questions about AIs.
 
 The last of these questions is the most philosophically thorny, and leads to a cluster of questions surrounding whether AIs like ChatGPT are entities worth moral concern. We will discuss those topics later, once we have covered a few more background concepts.
 
-When we use the word "conscious," we're specifically thinking of "having subjective experience" and not things like self-modeling and deep practical understanding.[\*{--{"author":"Luc's AI","timestamp":1787133007922}@@](#ftnt25)--}{++{"author":"Luc's AI","timestamp":1787133007922}@@](https://ifanyonebuildsit.com/1/are-you-saying-machines-will-become-conscious#ftnt25)++}
+When we use the word "conscious," we're specifically thinking of "having subjective experience" and not things like self-modeling and deep practical understanding.[\*](https://ifanyonebuildsit.com/1/are-you-saying-machines-will-become-conscious#ftnt25)
 
 Our best guess is that AIs today are probably not conscious (although we're more uncertain every year), and that subjective experience isn't necessary for superintelligence.
 
@@ -51,7 +51,7 @@ Our focus in *If Anyone Builds It, Everyone Dies* is on intelligence — where "
 
 We'll go into more detail on why we think prediction and steering probably don't require consciousness (and what this means for how we should think about AI welfare and AI rights) after Chapter 5, once we've laid more groundwork. See "[Effectiveness, Consciousness, and AI Welfare](/5/effectiveness-consciousness-and-ai-welfare)" for that discussion.
 
-[\*{--{"author":"Luc's AI","timestamp":1787133008167}@@](#ftnt25_ref)--}{++{"author":"Luc's AI","timestamp":1787133008167}@@](https://ifanyonebuildsit.com/1/are-you-saying-machines-will-become-conscious#ftnt25_ref)++} Depending on your psychological and philosophical views, you might think that these topics are connected. We're more skeptical of a strong, tight connection here; but if there is a connection, it still seems valuable to explicitly distinguish these different subject matters. If, for example, self-modeling turns out to be inextricably linked to consciousness, that's an important fact that should be discussed and hashed out explicitly, not an assumption that we should bake in at the outset.
+[\*](https://ifanyonebuildsit.com/1/are-you-saying-machines-will-become-conscious#ftnt25_ref) Depending on your psychological and philosophical views, you might think that these topics are connected. We're more skeptical of a strong, tight connection here; but if there is a connection, it still seems valuable to explicitly distinguish these different subject matters. If, for example, self-modeling turns out to be inextricably linked to consciousness, that's an important fact that should be discussed and hashed out explicitly, not an assumption that we should bake in at the outset.
 
 #### Notes
 
