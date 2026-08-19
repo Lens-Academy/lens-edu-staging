@@ -5,7 +5,7 @@ source_url: https://intelligence.org/files/IE-EI.pdf
 llm_reviewed: 2026-08-19
 llm_review_version: "article-qc-v1"
 llm_review_model: "gpt-5"
-llm_review_digest: {--{"author":"Luc's AI","timestamp":1787170045525}@@"sha256:de932790868bf40971955f7e55664ca1b0e061a8e9b7f54612a3ee05a78c567a"--}{++{"author":"Luc's AI","timestamp":1787170045525}@@"sha256:87d0fc1c387dbfa62fcfd177d215df8a375759ef287082e145238cdf2c340122"++}
+llm_review_digest: "sha256:87d0fc1c387dbfa62fcfd177d215df8a375759ef287082e145238cdf2c340122"
 llm_review_source_digest: "sha256:20c131cc774c05d864ac99ae7ddbd7b79c00c0f1e4d55b411272c0255b4fe836"
 llm_review_source_fetched: 2026-08-19
 llm_review_source_kind: "live"
@@ -613,8 +613,8 @@ can be accomplished to greater degrees using sufficiently advanced intelligence.
 considering the likely consequences of superhuman AI, we must respect both risk and
 opportunity.26
 
-{++{"author":"Luc's AI","timestamp":1787170027085}@@:::collapse
-++}## References
+:::collapse
+## References
 
 - Anderson, Britt. 1993. "Evidence from the Rat for a General Factor That Underlies Cognitive Performance and That Relates to Brain Size: Intelligence?" *Neuroscience Letters* 153 (1): 98–102. doi:10.1016/0304-3940(93)90086-Z.
 - Arbesman, Samuel. 2011. "Quantifying the Ease of Scientific Discovery." *Scientometrics* 86 (2): 245–250. doi:10.1007/s11192-010-0232-6.
@@ -772,5 +772,5 @@ opportunity.26
 - Yudkowsky, Eliezer. 2001. *Creating Friendly AI 1.0: The Analysis and Design of Benevolent Goal Architectures*. The Singularity Institute, San Francisco, CA, June 15. <http://intelligence.org/files/CFAI.pdf>.
 - . 2008a. "Artificial Intelligence as a Positive and Negative Factor in Global Risk." In Bostrom and Ćirković 2008, 308–345.
 - . 2008b. "Efficient Cross-Domain Optimization." *Less Wrong* (blog), October 28. [http://lesswrong.com/lw/vb/efficient\\_crossdomain\\_optimization/](http://lesswrong.com/lw/vb/efficient_crossdomain_optimization/).
-- . 2011. "Complex Value Systems in Friendly AI." In Schmidhuber, Thórisson, and Looks 2011, 388–393.{++{"author":"Luc's AI","timestamp":1787170027316}@@
-:::++}
+- . 2011. "Complex Value Systems in Friendly AI." In Schmidhuber, Thórisson, and Looks 2011, 388–393.
+:::
