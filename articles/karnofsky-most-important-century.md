@@ -3,14 +3,14 @@ title: 'The "most important century" blog post series'
 author: Holden Karnofsky
 published: 2021-09-24
 source_url: https://www.cold-takes.com/most-important-century/
-{++{"author":"Luc's AI","timestamp":1787163177494}@@llm_reviewed: 2026-08-19
+llm_reviewed: 2026-08-19
 llm_review_version: "article-qc-v1"
 llm_review_model: "gpt-5"
 llm_review_digest: "sha256:75be4f09ecdf79edc45fa0408478a8fa768807239e0921e4dd05bba7a4027582"
 llm_review_source_digest: "sha256:e7aa84e6094b42ec4f4cdecf0804550fb8897261aff30361b54c7aa2ab3e684d"
 llm_review_source_fetched: 2026-08-19
 llm_review_source_kind: "live"
-++}---
+---
 
 %%
 Add discussion note here:
@@ -186,7 +186,7 @@ One metaphor for my headspace is that it feels as though the world is a set of p
 
 And every time I read commentary on what's going on in the world, people are discussing how to arrange your seatbelt as comfortably as possible given that wearing one is part of life, or saying how the best moments in life are sitting with your family and watching the white lines whooshing by, or arguing about whose fault it is that there's a background roar making it hard to hear each other.
 
-I don't know where we're actually heading, or what we can do about it. But I feel pretty solid in saying that we as a civilization are not ready for what's coming, and we need to start by taking it more seriously.{++{"author":"Luc's AI","timestamp":1787163170929}@@
+I don't know where we're actually heading, or what we can do about it. But I feel pretty solid in saying that we as a civilization are not ready for what's coming, and we need to start by taking it more seriously.
 
 ## Acknowledgements
 
@@ -200,4 +200,4 @@ In addition, I owe thanks to:
 * Ajeya Cotra, María Gutiérrez Rojas and Ludwig Schubert for help with visualizations.
 * A number of people for feedback on earlier drafts:
   * My sister [Daliya Karnofsky](https://www.daliyakarnofsky.com/), my wife Daniela Amodei, and Elie Hassenfeld: special thanks for reading the earliest (least readable) drafts and often giving detailed feedback on multiple iterations.
-  * People who served as "beta readers" and gave significant amounts of feedback, particularly on what was and wasn't making sense for them: Alexander Berger, Damon Binder, Lukas Gloor, Derek Hopf, Mike Levine, Eli Nathan, Sella Nevo, Julian Sancton, Simon Shifrin, Tracy Williams. (Plus a number of people already mentioned above.)++}
+  * People who served as "beta readers" and gave significant amounts of feedback, particularly on what was and wasn't making sense for them: Alexander Berger, Damon Binder, Lukas Gloor, Derek Hopf, Mike Levine, Eli Nathan, Sella Nevo, Julian Sancton, Simon Shifrin, Tracy Williams. (Plus a number of people already mentioned above.)

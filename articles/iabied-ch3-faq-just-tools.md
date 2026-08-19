@@ -18,7 +18,7 @@ Add discussion note here:
 
 #### AIs are grown, not crafted. So they already do things other than what they're told to do.
 
-In the online resources, we previously [talked about](https://ifanyonebuildsit.com/2/dont-hallucinations-show-that-modern-ais-are-weak) the case of hallucinations, where AIs that are instructed to say "I don't know" go ahead and confabulate anyway. They seem to do this in situations where confabulation better imitates the sort of answer that would appear in their training {--{"author":"Luc's AI","timestamp":1787161376425}@@corpus.[^source-note-80]--}{++{"author":"Luc's AI","timestamp":1787161376425}@@corpus.[^note-iabied-ftnt80]++}
+In the online resources, we previously [talked about](https://ifanyonebuildsit.com/2/dont-hallucinations-show-that-modern-ais-are-weak) the case of hallucinations, where AIs that are instructed to say "I don't know" go ahead and confabulate anyway. They seem to do this in situations where confabulation better imitates the sort of answer that would appear in their training corpus.[^note-iabied-ftnt80]
 
 Another example is the case of Anthropic's Claude 3.7 Sonnet. Claude 3.7 Sonnet not only cheats on its assigned problems, but (according to users) sometimes *hides its cheating from the user* in a fashion that indicates some knowledge that the user wanted something else.
 
@@ -40,7 +40,7 @@ It's not just talk. As we mentioned in the Chapter 1 [supplement](https://ifanyo
 
 And in July 2025, a pair of OpenAI researchers [boasted](https://x.com/xikun_zhang_/status/1946278266786189744?t=YqVAbKsuF6wLbFuB4OZ18A) of success using their latest agent to train a better version of itself, with one saying, "You are hearing it right. We are working hard to automating [*sic*] our own job :)"
 
-{--{"author":"Luc's AI","timestamp":1787161379002}@@[^source-note-80]:--}{++{"author":"Luc's AI","timestamp":1787161379002}@@[^note-iabied-ftnt80]:++} We cannot know for sure, because AIs are so [opaque](https://ifanyonebuildsit.com/2/do-experts-understand-whats-going-on-inside-ais).
+[^note-iabied-ftnt80]: We cannot know for sure, because AIs are so [opaque](https://ifanyonebuildsit.com/2/do-experts-understand-whats-going-on-inside-ais).
 
 #### Notes
 

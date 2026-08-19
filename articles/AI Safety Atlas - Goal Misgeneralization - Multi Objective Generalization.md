@@ -74,9 +74,9 @@ Machine learning can result in models learning correlated proxy objectives inste
 
 **Learning algorithms develop causal models that can be systematically wrong.** A causal model is the system's internal understanding of which actions cause which outcomes. This is related to but distinct from a world model - while a world model predicts what will happen next, a causal model explains why things happen. When an agent learns "moving right causes reward," it has developed a different causal model than the true structure where "coin collection causes reward." The training environment supports both interpretations:
 
-True causal structure: Action {--{"author":"Luc's AI","timestamp":1787161761982}@@$->$--}{++{"author":"Luc's AI","timestamp":1787161761982}@@$\to$++} Coin Collection {--{"author":"Luc's AI","timestamp":1787161761982}@@$->$--}{++{"author":"Luc's AI","timestamp":1787161761982}@@$\to$++} Reward
+True causal structure: Action $\to$ Coin Collection $\to$ Reward
 
-Learned causal structure: Action {--{"author":"Luc's AI","timestamp":1787161762421}@@$->$--}{++{"author":"Luc's AI","timestamp":1787161762421}@@$\to$++} Rightward Movement {--{"author":"Luc's AI","timestamp":1787161762421}@@$->$--}{++{"author":"Luc's AI","timestamp":1787161762421}@@$\to$++} Reward
+Learned causal structure: Action $\to$ Rightward Movement $\to$ Reward
 
 Both structures explain the training data equally well. Standard reinforcement learning algorithms optimize for expected return without explicitly performing causal discovery - they increase the probability of reward-producing actions without identifying which features of those actions were causally responsible ([de Haan et al., 2019](https://arxiv.org/abs/1905.11979)).
 
