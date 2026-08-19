@@ -38,7 +38,7 @@ We expect that lots of parents would be thrilled to hear that their children got
 
 It seems to us that most humans simply don't care about genetic fitness *at all,* in the deep sense. Wecare about [proxies](/4/brittle-unpredictable-proxies), like friendship and love and family and children. We maybe even care about passing on some of our traits to the next generation. But *genes*, specifically?
 
-Every time that humanity has unlocked a technology that let us get more of what we like — such as tasty foods, or sex without reproduction — humanity has taken the bargain. We aren't technologically advanced enough that we're *able* to trade away genomes for longer and healthier lives. But that sort of thing looks possible in physical principle,[\*](#ftnt129) and so it doesn't look good for natural selection in the long run.
+Every time that humanity has unlocked a technology that let us get more of what we like — such as tasty foods, or sex without reproduction — humanity has taken the bargain. We aren't technologically advanced enough that we're *able* to trade away genomes for longer and healthier lives. But that sort of thing looks possible in physical principle,[\*{--{"author":"Luc's AI","timestamp":1787133002223}@@](#ftnt129)--}{++{"author":"Luc's AI","timestamp":1787133002223}@@](https://ifanyonebuildsit.com/4/a-lot-of-people-want-kids-so-arent-humans-aligned-with-natural-selection-after-all#ftnt129)++} and so it doesn't look good for natural selection in the long run.
 
 If AIs wind up caring about goodness and kindness and friendliness in anything like the way humanity cares about genetic fitness*,* then we expect that AIs will eventually invent things that are to "friendliness" what birth control and DNA-less children are to genetic fitness — namely, that they'll pursue things that are only a pointless shadow of what any human would wish or intend.
 
@@ -54,4 +54,4 @@ But before we get there, let's take a step back for a moment. Imagine that the s
 
 If humanity rushes ahead and rolls the dice with superintelligence, then we expect a far, far worse outcome. But this still seems like a very bad plan to us, *even if* we had reason to think AIs would care about us some tiny amount. So this line of speculation seems not only mistaken but moot.
 
-[\*](#ftnt129_ref) For a related discussion, see the [extended discussion in the Chapter 6 resources](/6/nanotechnology-and-protein-synthesis), about how it's possible to go beyond the limits set by biology.
+[\*{--{"author":"Luc's AI","timestamp":1787133003770}@@](#ftnt129_ref)--}{++{"author":"Luc's AI","timestamp":1787133003770}@@](https://ifanyonebuildsit.com/4/a-lot-of-people-want-kids-so-arent-humans-aligned-with-natural-selection-after-all#ftnt129_ref)++} For a related discussion, see the [extended discussion in the Chapter 6 resources](/6/nanotechnology-and-protein-synthesis), about how it's possible to go beyond the limits set by biology.
