@@ -56,7 +56,9 @@ Top: Benign Overfitting. A $150th$ order polynomial with order-dependent regular
 
 ![Figure 1: Generalization phenomena in deep learning and simple linear models](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/wilson-deep-learning-is-not-so-mysterious-or-different-img1-15394217.png)
 
-$${\color{#800080}\overbrace{{R(h)}}^{\text{expected risk}}}\leq{\color{#038db2}\overbrace{{\hat{R}(h)}}^{{\text{empirical risk}}}}+\quad{\color{#c73e3a}\overbrace{\Delta\sqrt{\frac{K(h)\log 2+\log\frac{1}{\delta}}{2n}}}^{\text{compression}}}$$
+{--{"author":"Luc's AI","timestamp":1787161692600}@@$${\color{#800080}\overbrace{{R(h)}}^{\text{expected--}{++{"author":"Luc's AI","timestamp":1787161692600}@@$
+{\color{#800080}\overbrace{{R(h)}}^{\text{expected++} risk}}}\leq{\color{#038db2}\overbrace{{\hat{R}(h)}}^{{\text{empirical risk}}}}+\quad{\color{#c73e3a}\overbrace{\Delta\sqrt{\frac{K(h)\log {--{"author":"Luc's AI","timestamp":1787161692600}@@2+\log\frac{1}{\delta}}{2n}}}^{\text{compression}}}$$--}{++{"author":"Luc's AI","timestamp":1787161692600}@@2+\log\frac{1}{\delta}}{2n}}}^{\text{compression}}}
+$$++}
 
 Figure 2: Generalization phenomena can be formally characterized by generalization bounds. Generalization can be upper bounded by the empirical risk and compressibility of a hypothesis $h$, as in Section [3.1](#S3.SS1 "3.1 PAC-Bayes and countable hypothesis bounds ‣ 3 Generalization Frameworks"). The compressibility, formalized in terms of Kolmogorov complexity $K(h)$, can be further upper bounded by a model’s filesize. Large models fit the data well, and can be effectively compressed to small filesizes. Unlike Rademacher complexity, these bounds do not penalize a model for having a hypothesis space $\mathcal{H}$ that can fit noise, and describe benign overfitting, double descent, and overparametrization. They can even provide non-vacuous bounds on LLMs, as in [Lotfi et al. 2024a](https://arxiv.org/html/2503.02113#bib.bib69) above.
 
@@ -92,7 +94,9 @@ We refer to the general idea of having a preference for certain solutions over o
 
 As a running example, consider a large polynomial, but where we regularize the higher order coefficients more than the lower order coefficients. In other words, we fit the data with $f(x,w)=\sum_{j=0}^{J}w_{j}x^{j}$ and we have a regularizer on $w_{j}$ that increases in strength with $j$. Finally, we have a data fit term that is formed from a likelihood involving $f(x,w)$, $p(y|f(x,w))$. So our total loss is:
 
-$$\text{Loss}=\text{data fit}+\text{order dependent complexity penalty}$$
+{--{"author":"Luc's AI","timestamp":1787161698553}@@$$\text{Loss}=\text{data--}{++{"author":"Luc's AI","timestamp":1787161698553}@@$
+\text{Loss}=\text{data++} fit}+\text{order dependent complexity {--{"author":"Luc's AI","timestamp":1787161698553}@@penalty}$$--}{++{"author":"Luc's AI","timestamp":1787161698553}@@penalty}
+$$++}
 
 which, for example, could take the form $\mathcal{L}(w)=-\log p(y|f(x,w))+\sum_{j}\gamma^{j}w_{j}^{2}\,,\gamma>1$. For classification, the observation model $p(y_{i}|f(x_{i},w))=\text{softmax}(f(x_{i},w))$ would give rise to cross-entropy for $-\log p(y|f(x,w))$. In regression, $p(y_{i}|f(x_{i},w))=\mathcal{N}(f(x_{i},w),\sigma^{2})$ would give rise to the squared error data fit, divided by $1/(2\sigma^{2})$.
 
@@ -130,19 +134,25 @@ PAC-Bayes and countable hypothesis bounds provide a compelling approach for larg
 
 Consider a bounded risk $R(h,x)\in[a,a+\Delta]$, and a countable hypothesis space $h\in\mathcal{H}$ for which we have a prior $P(h)$. Let the empirical risk $\hat{R}(h)=\frac{1}{n}\sum_{i=1}^{n}R(h,x_{i})$ be a sum over independent random variables $R(h,x_{i})$ for a fixed hypothesis $h$. Let $R(h)=\mathbb{E}[\hat{R}(h)]$ be the expected risk. Then, with probability at least $1-\delta$,
 
-$$R(h)\leq\hat{R}(h)+\Delta\sqrt{\frac{\log\frac{1}{P(h)}+\log\frac{1}{\delta}}{2n}}.$$
+{--{"author":"Luc's AI","timestamp":1787161697990}@@$$R(h)\leq\hat{R}(h)+\Delta\sqrt{\frac{\log\frac{1}{P(h)}+\log\frac{1}{\delta}}{2n}}.$$--}{++{"author":"Luc's AI","timestamp":1787161697990}@@$
+R(h)\leq\hat{R}(h)+\Delta\sqrt{\frac{\log\frac{1}{P(h)}+\log\frac{1}{\delta}}{2n}}.
+$$++}
 
 This bound is related to the finite hypothesis bound, but includes a prior $P(h)$ and a _countable_ rather than finite hypothesis space ([Shalev-Shwartz & Ben-David 2014](https://arxiv.org/html/2503.02113#bib.bib90), Ch 7.3,). We can think of the prior as a weighting function that weights certain hypotheses more highly than others. Importantly, we can use any prior to evaluate the bound: it need not have generated the true hypothesis for the data, contain the true hypothesis, or even be used by the model that is trained to find some hypothesis $h^{*}$. If the model uses a prior quite different from the prior used to evaluate Eq. ([1](#S3.E1 "Equation 1 ‣ Theorem 3.1 (Countable Hypothesis Bound). ‣ 3.1 PAC-Bayes and countable hypothesis bounds ‣ 3 Generalization Frameworks")), then the bound will simply become loose. We include an elementary proof of this bound in Appendix [C](#A3 "Appendix C Countable Hypothesis Bound").
 
 We can derive informative bounds through a Solomonoff prior $P(h)=2^{-K(h|A)}/Z$ ([Solomonoff 1964](https://arxiv.org/html/2503.02113#bib.bib93)), where $K$ is the prefix-free Kolmogorov complexity of $h$ taking as input model architecture $A$, and the normalizing constant $Z\leq 1$ by the Kraft inequality ([Kraft 1949](https://arxiv.org/html/2503.02113#bib.bib56)). Substituting this prior into Eq. ([1](#S3.E1 "Equation 1 ‣ Theorem 3.1 (Countable Hypothesis Bound). ‣ 3.1 PAC-Bayes and countable hypothesis bounds ‣ 3 Generalization Frameworks")),
 
-$${\color{#800080}\overbrace{{R(h)}}^{\text{expected risk}}}\leq{\color{#038db2}\overbrace{{\hat{R}(h)}}^{{\text{empirical risk}}}}+\quad{\color{#c73e3a}\overbrace{\Delta\sqrt{\frac{K(h|A)\log 2+\log\frac{1}{\delta}}{2n}}}^{\text{compression}}}\,.$$
+{--{"author":"Luc's AI","timestamp":1787161697734}@@$${\color{#800080}\overbrace{{R(h)}}^{\text{expected--}{++{"author":"Luc's AI","timestamp":1787161697734}@@$
+{\color{#800080}\overbrace{{R(h)}}^{\text{expected++} risk}}}\leq{\color{#038db2}\overbrace{{\hat{R}(h)}}^{{\text{empirical risk}}}}+\quad{\color{#c73e3a}\overbrace{\Delta\sqrt{\frac{K(h|A)\log {--{"author":"Luc's AI","timestamp":1787161697734}@@2+\log\frac{1}{\delta}}{2n}}}^{\text{compression}}}\,.$$--}{++{"author":"Luc's AI","timestamp":1787161697734}@@2+\log\frac{1}{\delta}}{2n}}}^{\text{compression}}}\,.
+$$++}
 
 The prefix-free _Kolmogorov complexity_ of hypothesis $h$, $K(h)$, is the length of the shortest program that produces $h$ for a fixed programming language ([Kolmogorov 1963](https://arxiv.org/html/2503.02113#bib.bib53)). While we cannot compute the _shortest_ program, we can absorb the architecture and any constant not determined by the data into the prior, by working with $K(h|A)$. We can then convert from the prefix-free to standard Kolmogorov complexity, to compute the upper bound
 
-$$\log 1/P(h) \\
+{--{"author":"Luc's AI","timestamp":1787161698273}@@$$\log--}{++{"author":"Luc's AI","timestamp":1787161698273}@@$
+\log++} 1/P(h) \\
 \leq K(h|A)\log 2 \\
-\leq C(h)\log 2+2\log C(h)$$
+\leq C(h)\log 2+2\log {--{"author":"Luc's AI","timestamp":1787161692900}@@C(h)$$--}{++{"author":"Luc's AI","timestamp":1787161692900}@@C(h)
+$$++}
 
 where $C(h)$ is the number of bits required to represent hypothesis $h$ using some pre-specified coding. Therefore even large models with many parameters that represent hypotheses with a low empirical risk and a small compressed size can achieve strong generalization guarantees.
 
@@ -477,20 +487,26 @@ Consider a bounded risk $R(h,x_{i})\in[a,a+\Delta]$ and a countable hypothesis s
 
 With probability at least $1-\delta$:
 
-$$R(h)\leq\hat{R}(h)+\Delta\sqrt{\frac{\log 1/P(h)+\log 1/\delta}{2n}}.$$
+{--{"author":"Luc's AI","timestamp":1787161855045}@@$$R(h)\leq\hat{R}(h)+\Delta\sqrt{\frac{\log--}{++{"author":"Luc's AI","timestamp":1787161855045}@@$$
+R(h)\leq\hat{R}(h)+\Delta\sqrt{\frac{\log++} 1/P(h)+\log {--{"author":"Luc's AI","timestamp":1787161855045}@@1/\delta}{2n}}.$$--}{++{"author":"Luc's AI","timestamp":1787161855045}@@1/\delta}{2n}}.
+$$++}
 
 ###### Proof ([Lotfi et al. 2024a](https://arxiv.org/html/2503.02113#bib.bib69)).
 
 As $n\hat{R}(h)$ is the sum of independent and bounded random variables, we can apply Hoeffding’s inequality ([Hoeffding 1994](#bib.bib45)) for a given choice of $h$. For any $t>0$
 
-$$P(R(h)\geq\hat{R}(h)+t) \\
+{--{"author":"Luc's AI","timestamp":1787161698898}@@$$P(R(h)\geq\hat{R}(h)+t)--}{++{"author":"Luc's AI","timestamp":1787161698898}@@$
+P(R(h)\geq\hat{R}(h)+t)++} \\
 =P(nR(h)\geq n\hat{R}(h)+nt) \\
 P(R(h)\geq\hat{R}(h)+t) \\
-\leq\exp{(-2nt^{2}/\Delta^{2})}.$$
+{--{"author":"Luc's AI","timestamp":1787161699432}@@\leq\exp{(-2nt^{2}/\Delta^{2})}.$$--}{++{"author":"Luc's AI","timestamp":1787161699432}@@\leq\exp{(-2nt^{2}/\Delta^{2})}.
+$$++}
 
 We will choose $t(h)$ differently for each hypothesis $h$ according to
 
-$$\exp{(-2nt(h)^{2}/\Delta^{2})}=P(h)\delta.$$
+{--{"author":"Luc's AI","timestamp":1787161699166}@@$$\exp{(-2nt(h)^{2}/\Delta^{2})}=P(h)\delta.$$--}{++{"author":"Luc's AI","timestamp":1787161699166}@@$
+\exp{(-2nt(h)^{2}/\Delta^{2})}=P(h)\delta.
+$$++}
 
 Solving for $t(h)$, we have
 
@@ -508,14 +524,18 @@ cannot be decomposed as a sum of independent random variables. Since $h^{*}\in\m
 
 Applying a union over the events $\bigcup_{h\in\mathcal{H}}\big[R(h)\geq\hat{R}(h)+t(h)\big]$, we have
 
-$$P(R(h^{*})\geq\hat{R}(h^{*})+t(h^{*})) \\
+{--{"author":"Luc's AI","timestamp":1787161699692}@@$$P(R(h^{*})\geq\hat{R}(h^{*})+t(h^{*}))--}{++{"author":"Luc's AI","timestamp":1787161699692}@@$
+P(R(h^{*})\geq\hat{R}(h^{*})+t(h^{*}))++} \\
 \leq P\big(\bigcup_{h\in\mathcal{H}}\big[R(h)\geq\hat{R}(h)+t(h)\big]\big) \\
 \leq\sum_{h\in\mathcal{H}}P\big(R(h)\geq\hat{R}(h)+t(h)\big) \\
-\leq\sum_{h\in\mathcal{H}}P(h)\delta=\delta.$$
+{--{"author":"Luc's AI","timestamp":1787161700136}@@\leq\sum_{h\in\mathcal{H}}P(h)\delta=\delta.$$--}{++{"author":"Luc's AI","timestamp":1787161700136}@@\leq\sum_{h\in\mathcal{H}}P(h)\delta=\delta.
+$$++}
 
 Therefore we conclude that for any $h$ (dependent on $x$ or not), with probability at least $1-\delta$,
 
-$$R(h)\leq\hat{R}(h)+\Delta\sqrt{\frac{\log 1/P(h)+\log 1/\delta}{2n}}.$$
+{--{"author":"Luc's AI","timestamp":1787161855303}@@$$R(h)\leq\hat{R}(h)+\Delta\sqrt{\frac{\log--}{++{"author":"Luc's AI","timestamp":1787161855303}@@$$
+R(h)\leq\hat{R}(h)+\Delta\sqrt{\frac{\log++} 1/P(h)+\log {--{"author":"Luc's AI","timestamp":1787161855303}@@1/\delta}{2n}}.$$--}{++{"author":"Luc's AI","timestamp":1787161855303}@@1/\delta}{2n}}.
+$$++}
 
 ∎
 
