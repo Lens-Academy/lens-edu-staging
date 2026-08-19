@@ -62,6 +62,6 @@ Similarly, an AI encouraged to "love its parents" would, at best,probably end up
 
 An AI could care deeply about its creators…but not in a way that prizes our subjective experience. In the language of Chapter 4, even "one simple complication" results in versions of "caring about us" that look like freezing us in amber, or keeping humans alive against their will, or preventing us from reproducing and giving the final generation of humans a modestly comfortable environment while the AI takes the rest of the universe for itself. Or something a whole lot weirder than that.
 
-It doesn't seem possible to predict what the actual outcome would be. But we would expect it to be — if anything — even stranger and less appealing than these options.[^source-note-171]
+It doesn't seem possible to predict what the actual outcome would be. But we would expect it to be — if anything — even stranger and less appealing than these {--{"author":"Luc's AI","timestamp":1787161331081}@@options.[^source-note-171]--}{++{"author":"Luc's AI","timestamp":1787161331081}@@options.[^note-iabied-ftnt171]++}
 
-[^source-note-171]: Again, see "[Won't AIs care at least a little about humans?](/5/wont-ais-care-at-least-a-little-about-humans)" for related discussion.
+{--{"author":"Luc's AI","timestamp":1787161333443}@@[^source-note-171]:--}{++{"author":"Luc's AI","timestamp":1787161333443}@@[^note-iabied-ftnt171]:++} Again, see "[Won't AIs care at least a little about humans?](/5/wont-ais-care-at-least-a-little-about-humans)" for related discussion.
