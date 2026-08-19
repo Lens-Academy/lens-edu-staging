@@ -144,9 +144,9 @@ If you want to get a working car, it doesn't help to convince yourself that you 
 
 When two trading partners can distinguish truths from lies in the relevant sense, they can "force" each other to keep promises, like how FairBot "forces" its opponent to cooperate with it (if the opponent wants to avoid the (Defect, Defect) outcome). But forcing the promise in this sense requires being able to correctly reason about the details of your trade partner's decision process. And humans cannot read an AI's mind well enough to tell what superintelligence it would become when it matures, never mind tell exactly what that superintelligence would do.
 
-So in this case, the more complicated and nuanced game-theoretic analysis yields the same conclusion as the very simple first-pass look at this issue: A superintelligence won't sacrifice its resources ([even in small quantities](/5/to-a-powerful-ai-wouldnt-preserving-humans-be-a-negligible-expense#there-are-many-negligible-expenses-and-it-would-need-a-reason-to-pay-ours)) in order to keep a promise with humans, when it can simply lie.
+So in this case, the more complicated and nuanced game-theoretic analysis yields the same conclusion as the very simple first-pass look at this issue: A superintelligence won't sacrifice its resources ([even in small quantities](/5/to-a-powerful-ai-wouldnt-preserving-humans-be-a-negligible-expense#there-are-many-negligible-expenses-and-it-would-need-a-reason-to-pay-ours)) in order to keep a promise with humans, when it can simply lie.{--{"author":"Luc's AI","timestamp":1787151884872}@@
 
----
+-----}
 
 {--{"author":"Luc's AI","timestamp":1787139979106}@@[\*](https://ifanyonebuildsit.com/5/ais-wont-keep-their-promises#ftnt200_ref)--}{++{"author":"Luc's AI","timestamp":1787139979106}@@[^source-note-200]:++} In some other cases, a European faction mostly kept the deal, and some of those tribes are still around today.
 

@@ -59,9 +59,9 @@ But we think such a future should contain people who care about one another, liv
 
 We'd like the galaxies to be full of *entities who care about one another, having fun.*
 
-We think that *that* will be lost to the future, if humanity does not change course.
+We think that *that* will be lost to the future, if humanity does not change course.{--{"author":"Luc's AI","timestamp":1787151884614}@@
 
----
+-----}
 
 {--{"author":"Luc's AI","timestamp":1787139965432}@@[\*](https://ifanyonebuildsit.com/5/losing-the-future#ftnt218_ref)--}{++{"author":"Luc's AI","timestamp":1787139965432}@@[^source-note-218]:++} One might ask whether AI would avoid these dystopias. "Wouldn't the AI get bored eventually, and want to do something else?"
 

@@ -33,8 +33,8 @@ When you learn the details of how planes fly (using lift and speed), you see tha
 
 When you don't know the details of how an AI works, it's easy to imagine that it will possess lots of aspects of biological minds — that it will work like your brain does. But if you *did* know the details, then lots of those inferences would start to feel ridiculous. They'd start to feel like expecting a robot arm to bleed when cut. The AI would turn out to work in a completely different way.
 
-But that's harder to see if you know very little about how modern AIs work. In Chapter 2, we'll describe the process by which modern AIs are created, and we'll discuss how *nobody* knows how they work inside. Which explains why it's so easy for people to make the mistake of expecting them to act like other people or technology that they have experience with, rather than seeing how strange they already are, and how strange they will become as the technology progresses.
+But that's harder to see if you know very little about how modern AIs work. In Chapter 2, we'll describe the process by which modern AIs are created, and we'll discuss how *nobody* knows how they work inside. Which explains why it's so easy for people to make the mistake of expecting them to act like other people or technology that they have experience with, rather than seeing how strange they already are, and how strange they will become as the technology progresses.{--{"author":"Luc's AI","timestamp":1787151883528}@@
 
----
+-----}
 
 {--{"author":"Luc's AI","timestamp":1787139885738}@@[\*](https://ifanyonebuildsit.com/1/the-same-work-can-be-done-in-many-different-ways#ftnt44_ref)--}{++{"author":"Luc's AI","timestamp":1787139885738}@@[^source-note-44]:++} Such details don't make *every* fact irrelevant. You can still learn a thing or two about aerodynamics from a bird; you can learn a thing or two about joints and mechanical advantage from a human arm. But the mechanical methods operate under radically different constraints than the biological ones, and they tend to work in radically different ways.

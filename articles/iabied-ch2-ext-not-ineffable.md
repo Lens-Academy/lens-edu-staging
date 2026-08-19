@@ -130,9 +130,9 @@ And it matters that intelligence probably *can* be understood, which means it pr
 
 It *also* matters that modern humanity is nowhere near close to that feat, of course. But the fact that the feat is possible in principle has implications for how humanity should navigate its way out of this mess, as we'll discuss later, in an [extended discussion](/13/what-would-it-take-to-shut-down-global-ai-development) after Chapter 10.
 
-Before we get there, we need to explain why AI techniques like the ones we've discussed above pose such a grave threat, when and if researchers manage to surpass human intelligence. We begin that account in Chapter 3.
+Before we get there, we need to explain why AI techniques like the ones we've discussed above pose such a grave threat, when and if researchers manage to surpass human intelligence. We begin that account in Chapter 3.{--{"author":"Luc's AI","timestamp":1787151884143}@@
 
----
+-----}
 
 {--{"author":"Luc's AI","timestamp":1787139910328}@@[\*](https://ifanyonebuildsit.com/2/intelligence-isnt-ineffable#ftnt78_ref)--}{++{"author":"Luc's AI","timestamp":1787139910328}@@[^source-note-78]:++} Heck, maybe even neural simulations are still unreliable, if, say, human behavior is highly sensitive to heat.
 

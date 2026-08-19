@@ -78,9 +78,9 @@ In a very important sense, *the very thing that makes AI useful* is exactly what
 
 By default, AIs that are good enough at solving problems in a wide array of domains will also spot "problems" like "the humans don't like my weird objectives and are going to try to shut me down soon." That doesn't come from a shallow propensity for mischief that you can massage away. It comes from something deep.
 
-We're getting a bit ahead of ourselves, though. This idea that AIs will wind up with weird and alien objectives — this doesn't follow merely from the fact that highly effective AIs will have goals at all, or that they will have deep mental machinery that's hard to robustly constrain. For that further topic, continue on to Chapter 4.
+We're getting a bit ahead of ourselves, though. This idea that AIs will wind up with weird and alien objectives — this doesn't follow merely from the fact that highly effective AIs will have goals at all, or that they will have deep mental machinery that's hard to robustly constrain. For that further topic, continue on to Chapter 4.{--{"author":"Luc's AI","timestamp":1787151883946}@@
 
----
+-----}
 
 {--{"author":"Luc's AI","timestamp":1787139929388}@@[\*](https://ifanyonebuildsit.com/3/smart-ais-spot-lies-and-opportunities#ftnt93_ref)--}{++{"author":"Luc's AI","timestamp":1787139929388}@@[^source-note-93]:++} We have [more to say](/5/what-if-we-make-it-think-its-in-a-simulation#there-are-many-ways-for-an-ai-to-figure-out-that-its-not-in-a-simulation) about why that's a bad idea in the online resources for Chapter 5.
 

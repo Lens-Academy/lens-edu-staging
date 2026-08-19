@@ -95,9 +95,9 @@ In such a world, perhaps another scientist still could have seen the lethal dang
 
 We are very, very far from being able to model AI even a fraction as well as Fermi understood nuclear chain reactions.
 
-At some unknown point, if we continue down this path, we will run at breakneck speed into an outcome far more serious than irradiating Chicago.
+At some unknown point, if we continue down this path, we will run at breakneck speed into an outcome far more serious than irradiating Chicago.{--{"author":"Luc's AI","timestamp":1787151883314}@@
 
----
+-----}
 
 {--{"author":"Luc's AI","timestamp":1787139891397}@@[\*](https://ifanyonebuildsit.com/10/the-tale-of-chicago-pile-1#ftnt254_ref)--}{++{"author":"Luc's AI","timestamp":1787139891397}@@[^source-note-254]:++} As we observe in the book's Chapter 10 endnote 6, physicists do not actually give neutron multiplication factors in percentages. We give them that way for clarity, for reasons discussed in the aforementioned endnote.
 
