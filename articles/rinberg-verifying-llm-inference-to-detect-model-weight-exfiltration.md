@@ -178,11 +178,11 @@ Algorithm 1 Inverse-Probability-Transform (IPT) Sampler
 
 1:Seed $\mathsf{seed}$, context position $i$, probability vector $\mathbf{p}\in[0,1]^{|\mathcal{T}|}$ with $\sum_{t=1}^{|\mathcal{T}|}p_{t}=1$
 
-2:$\mathbf{C}\leftarrow\textsc{CumulativeSum}(\mathbf{p})$ $\triangleright$ Convert PDF $\mathbf{p}$ to CDF $\mathbf{C}$
+{--{"author":"Luc's AI","timestamp":1787133831509}@@2:$\mathbf{C}\leftarrow\textsc{CumulativeSum}(\mathbf{p})$--}{++{"author":"Luc's AI","timestamp":1787133831509}@@2:$\mathbf{C}\leftarrow\operatorname{CumulativeSum}(\mathbf{p})$++} $\triangleright$ Convert PDF $\mathbf{p}$ to CDF $\mathbf{C}$
 
-3:$u\leftarrow\textsc{Uniform}([0;1];\mathsf{H}(\mathsf{seed}\|i))$ $\triangleright$ Use token index $i$
+{--{"author":"Luc's AI","timestamp":1787133831795}@@3:$u\leftarrow\textsc{Uniform}([0;1];\mathsf{H}(\mathsf{seed}\|i))$--}{++{"author":"Luc's AI","timestamp":1787133831795}@@3:$u\leftarrow\operatorname{Uniform}([0;1];\mathsf{H}(\mathsf{seed}\|i))$++} $\triangleright$ Use token index $i$
 
-4:return $\min\{t\in\{1,\dots,|\mathcal{T}|\}:C_{t}>u\}$$\triangleright$ binary search: find smallest $t$ s.t. $C_{t}>u$
+4:return {--{"author":"Luc's AI","timestamp":1787133831196}@@$\min\{t\in\{1,\dots,|\mathcal{T}|\}:C_{t}>u\}$$\triangleright$--}{++{"author":"Luc's AI","timestamp":1787133831196}@@$\min\{t\in\{1,\dots,|\mathcal{T}|\}:C_{t}>u\}$ $\triangleright$++} binary search: find smallest $t$ s.t. $C_{t}>u$
 
 ##### Gumbel-Max Trick.
 
@@ -192,7 +192,7 @@ Algorithm 2 Gumbel-Max Sampler
 
 1:Seed $\mathsf{seed}$, context position $i$, probability vector $\vec{p}\in[0,1]^{|\mathcal{T}|}$ (over tokens $\mathcal{T}$, $\sum_{t}p_{t}=1$)
 
-2:$\vec{z}\leftarrow\textsc{Gumbel}([0,1]^{|\mathcal{T}|};\mathsf{H}(\mathsf{seed}\|i))$ $\triangleright$ each $z_{t}\sim\textsc{Gumbel}(0,1)$
+{--{"author":"Luc's AI","timestamp":1787133832088}@@2:$\vec{z}\leftarrow\textsc{Gumbel}([0,1]^{|\mathcal{T}|};\mathsf{H}(\mathsf{seed}\|i))$--}{++{"author":"Luc's AI","timestamp":1787133832088}@@2:$\vec{z}\leftarrow\operatorname{Gumbel}([0,1]^{|\mathcal{T}|};\mathsf{H}(\mathsf{seed}\|i))$++} $\triangleright$ each {--{"author":"Luc's AI","timestamp":1787133832088}@@$z_{t}\sim\textsc{Gumbel}(0,1)$--}{++{"author":"Luc's AI","timestamp":1787133832088}@@$z_{t}\sim\operatorname{Gumbel}(0,1)$++}
 
 3:$\hat{t}\leftarrow\arg\max_{t\in\mathcal{T}}\big(p_{t}+z_{t}\big)$ $\triangleright$ $\arg\max$ returns the _token_ $\hat{t}$ achieving the maximum sum
 
@@ -617,15 +617,15 @@ Figure 8: Comparison of Token-DiFR (FSSL-GM) verification and raw logit ranks fo
 
 Augmenting FSSL-GM with a _logit rank_ check yields a strict Pareto improvement over simply thresholding according to the FSSL: for any FSSL threshold $\tau$ and rank cutoff $R$, we introduce a three-class classification
 
-$$\textsc{safe}:\ \mathrm{FSSL}_{t}(i)\!\geq\!\tau \\
-\textsc{suspicious}:\ \mathrm{FSSL}_{t}(i)\!<\!\tau\ \wedge\ \mathrm{rank}_{t}(i)\!\leq\!R \\
-\textsc{dangerous}:\ \mathrm{FSSL}_{t}(i)\!<\!\tau\ \wedge\ \mathrm{rank}_{t}(i)\!>\!R$$
+{--{"author":"Luc's AI","timestamp":1787133832351}@@$$\textsc{safe}:\--}{++{"author":"Luc's AI","timestamp":1787133832351}@@$$\mathrm{safe}:\++} \mathrm{FSSL}_{t}(i)\!\geq\!\tau \\
+{--{"author":"Luc's AI","timestamp":1787133832351}@@\textsc{suspicious}:\--}{++{"author":"Luc's AI","timestamp":1787133832351}@@\mathrm{suspicious}:\++} \mathrm{FSSL}_{t}(i)\!<\!\tau\ \wedge\ \mathrm{rank}_{t}(i)\!\leq\!R \\
+{--{"author":"Luc's AI","timestamp":1787133832351}@@\textsc{dangerous}:\--}{++{"author":"Luc's AI","timestamp":1787133832351}@@\mathrm{dangerous}:\++} \mathrm{FSSL}_{t}(i)\!<\!\tau\ \wedge\ \mathrm{rank}_{t}(i)\!>\!R$$
 
 achieves _lower or equal_ FPR at _lower_ information leakage than FSSL-GM alone. We note that this logit-rank and FSSL score can be combined into a single classifier, e.g. a logistic regression that takes two features: FSSL score and logit-rank. An important advantage to a tiered classification scheme allows to have simpler bounds of extractable information, as there is a trivial upper bound on information expressed by a suspicious (not dangerous) token $I\leq log_{2}(R)\leq log_{2}(|\textrm{vocab size}|)$. As such, given the token-level classifier $C$, the per-token exfiltratable information is:
 
-$$\mathrm{ExfiltratableInformation}(t)=\begin{cases}\log_{2}|A_{t}|,&\text{if }C(t)=\textsc{safe},\\[6.0pt]
-\log_{2}R,&\text{if }C(t)=\textsc{suspicious},\\[6.0pt]
-\log_{2}|\mathcal{T}|,&\text{if }C(t)=\textsc{dangerous}.\end{cases}$$
+$$\mathrm{ExfiltratableInformation}(t)=\begin{cases}\log_{2}|A_{t}|,&\text{if {--{"author":"Luc's AI","timestamp":1787133832645}@@}C(t)=\textsc{safe},\\[6.0pt]--}{++{"author":"Luc's AI","timestamp":1787133832645}@@}C(t)=\mathrm{safe},\\[6.0pt]++}
+\log_{2}R,&\text{if {--{"author":"Luc's AI","timestamp":1787133832645}@@}C(t)=\textsc{suspicious},\\[6.0pt]--}{++{"author":"Luc's AI","timestamp":1787133832645}@@}C(t)=\mathrm{suspicious},\\[6.0pt]++}
+\log_{2}|\mathcal{T}|,&\text{if {--{"author":"Luc's AI","timestamp":1787133832645}@@}C(t)=\textsc{dangerous}.\end{cases}$$--}{++{"author":"Luc's AI","timestamp":1787133832645}@@}C(t)=\mathrm{dangerous}.\end{cases}$$++}
 
 ##### Experimental Set up
 
