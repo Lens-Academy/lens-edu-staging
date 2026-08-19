@@ -52,7 +52,9 @@ Having 'solved' the SPE strategies for the second stage means that the analysis 
 
 This equivalence has several important implications. First, zero-sum games are known to have a unique value meaning that there exists a unique number that expresses player 1's Nash equilibrium utility and, due to the antagonistic character of zero-sum games, it also expresses player 2's utility. Translated to the threat game, this means that there is uniqueness in terms of a unique utility pair on the Pareto frontier. So, the threat game resolves in a unique Pareto efficient agreement. With respect to the equilibrium threats, (generic) uniqueness cannot be established, because zero-sum games like all other games often admit multiple Nash equilibria for a generic class of problems.$^2$ Second, all Nash equilibrium actions in zero-sum games are minmax strategies and vice versa. A minmax strategy for player 1 maximizes this player's worst outcome his opponent can impose upon him and, due to the antagonistic setting, player 2 has every incentive to keep player 1 down at his lowest utility level. Translated to the threat game this means that $(a_1^*, a_2^*)$ are SPE disagreement actions in the first stage if and only if
 
-$$a_i^* = \arg \max_{a_i^* \in A_i} \min_{a_j^* \in A_j} N_i\left(S, d(a^*)\right), \quad i, j = 1, 2, \quad j \neq i. \tag{7.1}$$
+{--{"author":"Luc's AI","timestamp":1787133820044}@@$$a_i^*--}{++{"author":"Luc's AI","timestamp":1787133820044}@@$$
+a_i^*++} = \arg \max_{a_i^* \in A_i} \min_{a_j^* \in A_j} N_i\left(S, d(a^*)\right), \quad i, j = 1, 2, \quad j \neq i. {--{"author":"Luc's AI","timestamp":1787133820044}@@\tag{7.1}$$--}{++{"author":"Luc's AI","timestamp":1787133820044}@@\tag{7.1}
+$$++}
 
 So, player 1 wants to pull the bargaining solution along the Pareto frontier in the south-east direction, whereas his opponent wants to pull it in the opposite direction. Finally, minmax strategies are said to be interchangeable meaning that if $a_i^*$ and $a_i^{**}$ are both minmax strategies for player $i$, then both actions do equally well against all of his opponents minmax actions and player $i$ can choose any of these two actions regardless of what his opponent will choose.
 
@@ -99,7 +101,9 @@ Let us therefore state the informally described bargaining procedure.
 
 As in Nash's variable-threat game the bargaining procedure is a multi-stage game with almost-perfect information and the SPE concept is appropriate. This implies that the alternating offers has to be solved for every possibly infinite sequence of actions $(a_i^t)_{t=0}^{\infty}$. Since these actions change over time, the disagreement point will also vary over time, which include the special case of alternating disagreement points studied in section 6.3.2. Recall that alternating disagreement points cause the technical problem that the standard analysis is only applicable if some 'constructed' disagreement point is taken into account. The latter point may lie above the Pareto frontier of the set $S$ and generic multiplicity cannot be ruled out. In this section we want to avoid these technical problems by restricting the analysis to the class of normalized bargaining problems with a linear Pareto frontier, that is, we assume,
 
-$$S = \left\{ s \in \mathbb{R}^2 \mid s_1 + s_2 \leq 1 \right\}. \tag{7.2}$$
+{--{"author":"Luc's AI","timestamp":1787133820293}@@$$S--}{++{"author":"Luc's AI","timestamp":1787133820293}@@$$
+S++} = \left\{ s \in \mathbb{R}^2 \mid s_1 + s_2 \leq 1 \right\}. {--{"author":"Luc's AI","timestamp":1787133820293}@@\tag{7.2}$$--}{++{"author":"Luc's AI","timestamp":1787133820293}@@\tag{7.2}
+$$++}
 
 This implicitly means that we also impose $d_1(a) + d_2(a) \leq 1$ for all $a \in A$. Consider an arbitrary subgame starting at the first bargaining round after the players have chosen their disagreement actions. This means that the infinite sequence of actions $(a^t)_{t=0}^{\infty}$, $a^t \in A$, is given and observed by the two players.
 
@@ -119,11 +123,15 @@ This zero-sum game is easy to solve. First, the utility function $x_1(\delta, (a
 
 Hence, player 2's value for this zero-sum game is equal to his minmax value $m_2$ as already defined in chapter 2. Formally, the pair of SPE disagreement actions $a^{2k}$, $k \in \mathbb{N}$, is given by
 
-$$a_1^{2k} = \arg \max_{a_1 \in A_1} \left[ \min_{a_2 \in A_2} -d_2(a) \right] \quad \text{and} \quad a_2^{2k} = \arg \max_{a_2 \in A_2} \left[ \min_{a_1 \in A_1} d_2(a) \right], \tag{7.3}$$
+{--{"author":"Luc's AI","timestamp":1787133820515}@@$$a_1^{2k}--}{++{"author":"Luc's AI","timestamp":1787133820515}@@$$
+a_1^{2k}++} = \arg \max_{a_1 \in A_1} \left[ \min_{a_2 \in A_2} -d_2(a) \right] \quad \text{and} \quad a_2^{2k} = \arg \max_{a_2 \in A_2} \left[ \min_{a_1 \in A_1} d_2(a) \right], {--{"author":"Luc's AI","timestamp":1787133820515}@@\tag{7.3}$$--}{++{"author":"Luc's AI","timestamp":1787133820515}@@\tag{7.3}
+$$++}
 
 where the argument, i.e., arg, only refers to the maximization. For a good understanding: The action $a_1^{2k}$ corresponds to player 1's minmax strategy that keeps player 2 at the utility level $m_2$. Recall from chapter 2 that the set of actions that minmax player 2 is denoted as $A^2$. Similar, the SPE disagreement actions $a^{2k+1}$, $k \in \mathbb{N}$, solve the smaller zero-sum game in which player 1's utility function is equal to $d_1(a^{2k+1})$ and the corresponding minmax actions are
 
-$$a_1^{2k+1} = \arg \max_{a_1 \in A_1} \left[ \min_{a_2 \in A_2} d_1(a) \right] \quad \text{and} \quad a_2^{2k+1} = \arg \max_{a_2 \in A_2} \left[ \min_{a_1 \in A_1} -d_1(a) \right]. \tag{7.4}$$
+{--{"author":"Luc's AI","timestamp":1787133820738}@@$$a_1^{2k+1}--}{++{"author":"Luc's AI","timestamp":1787133820738}@@$$
+a_1^{2k+1}++} = \arg \max_{a_1 \in A_1} \left[ \min_{a_2 \in A_2} d_1(a) \right] \quad \text{and} \quad a_2^{2k+1} = \arg \max_{a_2 \in A_2} \left[ \min_{a_1 \in A_1} -d_1(a) \right]. {--{"author":"Luc's AI","timestamp":1787133820738}@@\tag{7.4}$$--}{++{"author":"Luc's AI","timestamp":1787133820738}@@\tag{7.4}
+$$++}
 
 This implies that the (mixed) actions in $A^i$, $i = 1, 2$, are the Nash equilibrium actions in a two-player zero-sum game with payoff functions $d_i(a)$, $a \in A$, for player $i$ and $-d_i(a)$ for the other player. As in chapter 2, the set of actions that minmax player 1 is denoted as $A^1$. A final substitution of $d_2(a^{2k}) = m_2$ and $d_1(a^{2k+1}) = m_1$ into the expressions of lemma 7.5 yields the elegant expression
 

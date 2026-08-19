@@ -323,7 +323,7 @@ I guess that **$ on FLOP globally** will double every ~3 years, based on evidenc
 
 I estimate that there’s currently room to increase the **fraction of global FLOP on the largest training run** by ~3 – 4 OOMs, but that this will decrease to ~1 – 2 OOMs by 2030. After “wake up”, I guess the fraction will increase by ~3X per year (growth rate of 72%) until it hits a cap. This quickly moves us through part of the effective FLOP gap, and then stops having an effect. [More.](https://docs.google.com/document/d/1rw1pTbLi2brrEP0DcsZMAVhlKp6TKGKNUSFRkkdP_hs/edit#heading=h.a4x4hg3upow6)
 
-I forecast faster growth here than Bio Anchors, shortening timelines. Bio Anchors forecasts **$ on FLOP for the largest training run** to only grow at 3% after reaching ~$200b, whereas I expect it to continue to double every ~3 years (growth rate of ~22%) after “wake up” until it caps out at ~1% of world GDP (though in simulation, we typically get AGI before training runs are this big).
+I forecast faster growth here than Bio Anchors, shortening timelines. Bio Anchors forecasts **$ on FLOP for the largest training run** to only grow at 3% after reaching {--{"author":"Luc's AI","timestamp":1787133821044}@@~$200b,--}{++{"author":"Luc's AI","timestamp":1787133821044}@@~\$200b,++} whereas I expect it to continue to double every ~3 years (growth rate of ~22%) after “wake up” until it caps out at ~1% of world GDP (though in simulation, we typically get AGI before training runs are this big).
 
 **More FLOP/$ from better quality hardware**
 
