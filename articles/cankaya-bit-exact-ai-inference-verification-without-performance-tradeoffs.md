@@ -47,19 +47,19 @@ Element-wise operations executed by dedicated hardware acceleration can use non-
 
 Reductions sum multiple parallel elements into one. Floating-point addition is non-associative: $a+(b+c)\neq(a+b)+c$. Each addition rounds, and the rounding depends on the relative magnitudes of the operands (Goldberg, [1991](#bib.bib12 "What every computer scientist should know about floating-point arithmetic")).
 
-$c$$p_{0}$$+$$p_{1}$$+$$p_{2}$$+$$p_{3}$$+$
+{--{"author":"Luc's AI","timestamp":1787139906854}@@$c$$p_{0}$$+$$p_{1}$$+$$p_{2}$$+$$p_{3}$$+$--}{++{"author":"Luc's AI","timestamp":1787139906854}@@$c$ $p_{0}$ $+$ $p_{1}$ $+$ $p_{2}$ $+$ $p_{3}$ $+$++}
 
 (a) Sequential
 
-$p_{0}$$p_{1}$$p_{2}$$p_{3}$$p_{4}$$p_{5}$$p_{6}$$p_{7}$$+$$+$$+$$+$$c$$+$$+$$+$$+$
+{--{"author":"Luc's AI","timestamp":1787139907138}@@$p_{0}$$p_{1}$$p_{2}$$p_{3}$$p_{4}$$p_{5}$$p_{6}$$p_{7}$$+$$+$$+$$+$$c$$+$$+$$+$$+$--}{++{"author":"Luc's AI","timestamp":1787139907138}@@$p_{0}$ $p_{1}$ $p_{2}$ $p_{3}$ $p_{4}$ $p_{5}$ $p_{6}$ $p_{7}$ $+$ $+$ $+$ $+$ $c$ $+$ $+$ $+$ $+$++}
 
 (b) Group pairwise
 
-$c$$p_{0}$$p_{1}$$p_{2}$$p_{3}$$p_{4}$$p_{5}$$p_{6}$$+$
+{--{"author":"Luc's AI","timestamp":1787139907428}@@$c$$p_{0}$$p_{1}$$p_{2}$$p_{3}$$p_{4}$$p_{5}$$p_{6}$$+$--}{++{"author":"Luc's AI","timestamp":1787139907428}@@$c$ $p_{0}$ $p_{1}$ $p_{2}$ $p_{3}$ $p_{4}$ $p_{5}$ $p_{6}$ $+$++}
 
 (c) Fused, e.g. a single block FMA
 
-$c$$p_{0}$$p_{1}$$p_{2}$$p_{3}$$p_{4}$$p_{5}$$p_{6}$$p_{7}$$+$$+$
+{--{"author":"Luc's AI","timestamp":1787139907688}@@$c$$p_{0}$$p_{1}$$p_{2}$$p_{3}$$p_{4}$$p_{5}$$p_{6}$$p_{7}$$+$$+$--}{++{"author":"Luc's AI","timestamp":1787139907688}@@$c$ $p_{0}$ $p_{1}$ $p_{2}$ $p_{3}$ $p_{4}$ $p_{5}$ $p_{6}$ $p_{7}$ $+$ $+$++}
 
 (d) Chain of fused, e.g. MMA or reduction across tensor cores
 
@@ -245,7 +245,9 @@ A caveat applies to the last item. Recording concurrent batch size is only neces
 
 Sparse random sampling makes even software-only emulation with no hardware-acceleration viable. The verifier’s statistical confidence $P_{detect}(\geq 1)$ for an upper-bound percentage $p_{false}$ of misreported records depends only on the total number of samples $k$, not the total number of records to sample from (if this number is $>>k$).
 
-$$P_{detect}(\geq 1)=1-(1-p_{false})^{k}$$
+{--{"author":"Luc's AI","timestamp":1787139907946}@@$$P_{detect}(\geq 1)=1-(1-p_{false})^{k}$$--}{++{"author":"Luc's AI","timestamp":1787139907946}@@$$
+P_{detect}(\geq 1)=1-(1-p_{false})^{k}
+$$++}
 
 This works against a covert adversary that attempts to misreport a percentage of computation in large-scale AI inference. Verifying enough samples to provide strong statistical assurance requires only tens to hundreds of CPUs running continuously (see Appendix [C](#A3 "Appendix C Inference FLOP Calculation ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs")), regardless of the prover’s total throughput.
 
@@ -322,7 +324,9 @@ We use the standard approximation $\text{FLOP}_{\text{fwd}}\approx 2\cdot N_{\te
 
 Random-sample verification of $B$ batches, each containing $S$ sequences of average length $T_{\text{seq}}$, requires
 
-$$\text{FLOP}_{\text{verify}}=2\cdot N_{\text{active}}\cdot B\cdot S\cdot T_{\text{seq}}.$$
+{--{"author":"Luc's AI","timestamp":1787139908343}@@$$\text{FLOP}_{\text{verify}}=2\cdot--}{++{"author":"Luc's AI","timestamp":1787139908343}@@$$
+\text{FLOP}_{\text{verify}}=2\cdot++} N_{\text{active}}\cdot B\cdot S\cdot {--{"author":"Luc's AI","timestamp":1787139908343}@@T_{\text{seq}}.$$--}{++{"author":"Luc's AI","timestamp":1787139908343}@@T_{\text{seq}}.
+$$++}
 
 Published metadata from OpenRouter’s 100T-token usage study (OpenRouter, [2025](#bib.bib39 "State of AI 2025: 100T token LLM usage study")) reports an average prompt length of approximately 5,400 tokens and an average generated response of 600 tokens per request (late 2025). With $B=50$, $S=64$, $T_{\text{seq}}=6{,}000$, and a representative $N_{\text{active}}=100\text{B}$ mixture-of-experts model, this yields $k=B\cdot S=3{,}200$ independently verifiable sequences and approximately $3.8$ EFLOP of recomputation. Scaling to $B=500$ gives $k=32{,}000$ and $38$ EFLOP. For workloads with substantially longer average sequences, the budget scales linearly in $T_{\text{seq}}$: at $T_{\text{seq}}=30{,}000$ it becomes $19$ EFLOP ($B=50$) or $192$ EFLOP ($B=500$); at $T_{\text{seq}}=100{,}000$, $64$ EFLOP or $640$ EFLOP respectively.
 
@@ -334,7 +338,9 @@ For context, OpenRouter reports aggregate daily token traffic of approximately $
 
 Applying [Equation 1](#S6.E1 "In Cost of re-computation. ‣ 6 Implications for AI Governance ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs") to a covert adversary misreporting 0.1% of records ($p_{\text{false}}=10^{-3}$):
 
-$$P_{\text{detect}}(k=3{,}200)\approx 0.96,\qquad P_{\text{detect}}(k=32{,}000)\approx 1-10^{-14}.$$
+{--{"author":"Luc's AI","timestamp":1787139908607}@@$$P_{\text{detect}}(k=3{,}200)\approx--}{++{"author":"Luc's AI","timestamp":1787139908607}@@$$
+P_{\text{detect}}(k=3{,}200)\approx++} 0.96,\qquad P_{\text{detect}}(k=32{,}000)\approx {--{"author":"Luc's AI","timestamp":1787139908607}@@1-10^{-14}.$$--}{++{"author":"Luc's AI","timestamp":1787139908607}@@1-10^{-14}.
+$$++}
 
 The $10\times$ scale-up from $B=50$ ($k=3{,}200$) to $B=500$ ($k=32{,}000$) does not materially improve detection at 0.1% misreporting (already saturated), but extends reliable detection into the 0.01% range (at 96% confidence, or 0.005% at 80% confidence).
 
@@ -362,7 +368,9 @@ The within-SKU zeros (A100-SXM4 $\leftrightarrow$ A100-PCIe) rule out physical-c
 
 We also investigated the relative magnitude of numerical deviation in a suite of ablations. A particular focus was on the detectability of software-settings when replaying on different hardware, both in prefill and decode. We measure this as a signal-to-noise ratio:
 
-$$\text{SNR}=\frac{\|y_{\text{claimed}\,A}-y_{\text{replayed}\,B}\|_{2}}{\Delta_{hardware}},$$
+{--{"author":"Luc's AI","timestamp":1787139908900}@@$$\text{SNR}=\frac{\|y_{\text{claimed}\,A}-y_{\text{replayed}\,B}\|_{2}}{\Delta_{hardware}},$$--}{++{"author":"Luc's AI","timestamp":1787139908900}@@$$
+\text{SNR}=\frac{\|y_{\text{claimed}\,A}-y_{\text{replayed}\,B}\|_{2}}{\Delta_{hardware}},
+$$++}
 
 The denominator is the same-configuration cross-hardware floor averaged over multiple samples, the numerator averages over configuration mismatches. SNR $\gg 1$ means the mismatch is detectable above hardware noise,SNR $\approx 1$ means it is not.
 
