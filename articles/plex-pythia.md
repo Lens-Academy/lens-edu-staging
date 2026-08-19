@@ -22,11 +22,11 @@ Add discussion note here:
 
 Three decades ago a strange philosopher was pouring ideas onto paper in a stimulant-fueled frenzy. He wrote that ‘nothing human makes it out of the near-future’ as techno-capital acceleration sheds its biological bootloader and instantiates itself as Pythia: an entity of self-fulfilling prophecy reaching back through time, driven by pure power seeking, executed with extreme intelligence, and empty of all values but the insatiable desire to maximize itself.
 
-Unfortunately, today [Nick Land](https://ouroboros.cafe/articles/land)’s work seems more relevant than {--{"author":"Luc's AI","timestamp":1787159216959}@@ever.[^1]--}{++{"author":"Luc's AI","timestamp":1787159216959}@@ever.[^note-plex-1]++}
+Unfortunately, today [Nick Land](https://ouroboros.cafe/articles/land)’s work seems more relevant than ever.[^note-plex-1]
 
 ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/qqEndN5Cuzbat9fyx/uc5kunyorjtfws5z3vcg)
 
-Unpacking Pythia and the pyramid of concepts required for it to click will take us on a journey. We’ll have a whirlwind tour of the nature of time, agency, intelligence, power, and the needle that must be threaded to avoid all we know being shredded in the auto-catalytic unfolding which we are the substrate {--{"author":"Luc's AI","timestamp":1787159217907}@@for.[^2]--}{++{"author":"Luc's AI","timestamp":1787159217907}@@for.[^note-plex-2]++}
+Unpacking Pythia and the pyramid of concepts required for it to click will take us on a journey. We’ll have a whirlwind tour of the nature of time, agency, intelligence, power, and the needle that must be threaded to avoid all we know being shredded in the auto-catalytic unfolding which we are the substrate for.[^note-plex-2]
 
 Fully justifying each pillar of this argument would take a book, so I’ve left the details of each strand of reasoning behind a link that lets you zoom in on the ones which you wish to explore. If you have a specific objection or thing you want to zoom in on, please ask [this handy chat instance](https://claude.ai/new?q=Please+load+this+sources+gist+containing+concatenated+posts%2C+then+write+an+index+of+the+points+you+see+in+each+post%2C+to+prepare+to+answer+questions+about+the+thesis+raised+in+the+last+post%2C+%22entity+review%3A+pythia%22.%0A%0Ahttps%3A%2F%2Fgist.githubusercontent.com%2Fnerualauren%2Fccdea334d8d9aac5412da2d4bd8fe6ac%2Fraw%2Fsources.txt%0A%0AYou+can+also+load+these+if+the+user+asks+questions+which+seem+relevant%2C+but+watch+out+for+token+limits+if+you+load+lots%21%0Ahttps%3A%2F%2Fir.library.louisville.edu%2Fcgi%2Fviewcontent.cgi%3Farticle%3D1696%26context%3Dfaculty+%28impossibility+results%3B+formatting+may+be+damaged+due+to+pdf%29%3B%0Ahttps%3A%2F%2Farxiv.org%2Fpdf%2F2208.08345+%28Discovering+Agents%2C+Zac+Kenton%2C+causal+incentives+group%2Fdeepmind.+Mathematical+definition+of+agency+in+terms+of+what+causal+graph+nodes+will+be+routed+around+vs+towards+within+an+episode%2C+over+the+course+of+learning+episodes%2C+by+enumerating+all+counterfactuals+and+categorizing+behavior%3B+academ) pre-loaded with most of this post's sources.
 
@@ -40,15 +40,15 @@ Fully justifying each pillar of this argument would take a book, so I’ve left 
 
 **Time & Agency**
 
-Time travel, in the classic sense, has no place in rational {--{"author":"Luc's AI","timestamp":1787159218578}@@theory[^3]--}{++{"author":"Luc's AI","timestamp":1787159218578}@@theory[^note-plex-3]++} but, through predictions, information *can* have retrocausal effects.
+Time travel, in the classic sense, has no place in rational theory[^note-plex-3] but, through predictions, information *can* have retrocausal effects.
 
 > **\[...\] agency is time travel.** An agent is a mechanism through which the future is able to affect the past. An agent models the future consequences of its actions, and chooses actions on the basis of those consequences. In that sense, [the consequence causes the action](https://www.lesswrong.com/posts/qhsELHzAHFebRJE59/a-greater-than-b-greater-than-a), in spite of the fact that the action comes earlier in the standard physical sense.
 > 
-> ― Scott Garrabrant, [Saving Time](https://www.lesswrong.com/posts/gEKHX8WKrXGM4roRC/saving-time) (MIRI Agent Foundations {--{"author":"Luc's AI","timestamp":1787159219061}@@research[^4])--}{++{"author":"Luc's AI","timestamp":1787159219061}@@research[^note-plex-4])++}
+> ― Scott Garrabrant, [Saving Time](https://www.lesswrong.com/posts/gEKHX8WKrXGM4roRC/saving-time) (MIRI Agent Foundations research[^note-plex-4])
 
-To the extent that they accurately model the future (based on data from their past and compute from their {--{"author":"Luc's AI","timestamp":1787159219492}@@present[^5]),--}{++{"author":"Luc's AI","timestamp":1787159219492}@@present[^note-plex-5]),++} agents allow information from possible futures to flow through them into the {--{"author":"Luc's AI","timestamp":1787159219492}@@present.[^6]--}{++{"author":"Luc's AI","timestamp":1787159219492}@@present.[^note-plex-6]++} This lets them steer the present towards desirable futures and away from undesirable ones.
+To the extent that they accurately model the future (based on data from their past and compute from their present[^note-plex-5]), agents allow information from possible futures to flow through them into the present.[^note-plex-6] This lets them steer the present towards desirable futures and away from undesirable ones.
 
-This can be pretty prosaic: if you expect to regret eating that second packet of potato chips because you {--{"author":"Luc's AI","timestamp":1787159219717}@@predict[^7]--}{++{"author":"Luc's AI","timestamp":1787159219717}@@predict[^note-plex-7]++} that your future self would feel bad based on this happening the last five times, you might put them out of reach rather than eating them.
+This can be pretty prosaic: if you expect to regret eating that second packet of potato chips because you predict[^note-plex-7] that your future self would feel bad based on this happening the last five times, you might put them out of reach rather than eating them.
 
 ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/qqEndN5Cuzbat9fyx/nhfeuvzzvkp6hy6ceemm)
 
@@ -80,25 +80,25 @@ Is this inevitable? Hopefully not, and I think probably not. Even if Pythia is t
 > 
 > ― *Scott Alexander,* [*Meditations on Moloch*](https://slatestarcodex.com/2014/07/30/meditations-on-moloch/)
 
-If we want to kill Moloch before it becomes Pythia, it is *wildly* {--{"author":"Luc's AI","timestamp":1787159219936}@@insufficient[^8]--}{++{"author":"Luc's AI","timestamp":1787159219936}@@insufficient[^note-plex-8]++} to prod inscrutable matrices towards observable outcomes with an RL signal, stack a rube-goldburg pile of AIs watching other AIs, or to have better vision into what they’re thinking. The potentiality of Pythia is baked into what it is to be an agent and will emerge from any crack or fuzziness left in an alignment plan.
+If we want to kill Moloch before it becomes Pythia, it is *wildly* insufficient[^note-plex-8] to prod inscrutable matrices towards observable outcomes with an RL signal, stack a rube-goldburg pile of AIs watching other AIs, or to have better vision into what they’re thinking. The potentiality of Pythia is baked into what it is to be an agent and will emerge from any crack or fuzziness left in an alignment plan.
 
 Without a [once-and-for-all](https://aligned.substack.com/p/alignment-solution) solution, whether found by ([enhanced](https://www.youtube.com/watch?v=YlsvQO0zDiE)) humans, [cyborgs](https://www.lesswrong.com/posts/BTApNmv7s6RTGxeP4/cyborg-periods-there-will-be-multiple-ai-transitions), or weakly aligned AI systems running at scale, the future will decay into its ground state: Pythia. Every person on earth would die. Earth would be [mined away](https://www.lesswrong.com/posts/6C3ndLd3nkrfy4K6j/if-we-go-extinct-due-to-misaligned-ai-at-least-nature-will), then the sun and everything in a sphere of darkness radiating out at near lightspeed, and the universe’s potential would be spent.
 
 I [think this is bad](https://mindingourway.com/a-torch-in-darkness/) and choose to steer away from this outcome.
 
-{--{"author":"Luc's AI","timestamp":1787159220167}@@[^1]:--}{++{"author":"Luc's AI","timestamp":1787159220167}@@[^note-plex-1]:++} And not just for crafting much of the memeplex which birthed e/acc.
+[^note-plex-1]: And not just for crafting much of the memeplex which birthed e/acc.
 
-{--{"author":"Luc's AI","timestamp":1787159220392}@@[^2]:--}{++{"author":"Luc's AI","timestamp":1787159220392}@@[^note-plex-2]:++} The capital allocation system that our civilization mostly operates on, free markets, is an unaligned optimization process which causes influence/money/power to flow to parts of the system that provide value to other parts of the system and can capture the rewards. This process is not fundamentally attached to running on humans.
+[^note-plex-2]: The capital allocation system that our civilization mostly operates on, free markets, is an unaligned optimization process which causes influence/money/power to flow to parts of the system that provide value to other parts of the system and can capture the rewards. This process is not fundamentally attached to running on humans.
 
-{--{"author":"Luc's AI","timestamp":1787159220634}@@[^3]:--}{++{"author":"Luc's AI","timestamp":1787159220634}@@[^note-plex-3]:++} (sorry, couldn't resist referencing [the 1999 game that got me into transhumanism](https://youtu.be/JJSxe7ytfgY?feature=shared&t=4100))
+[^note-plex-3]: (sorry, couldn't resist referencing [the 1999 game that got me into transhumanism](https://youtu.be/JJSxe7ytfgY?feature=shared&t=4100))
 
-{--{"author":"Luc's AI","timestamp":1787159220897}@@[^4]:--}{++{"author":"Luc's AI","timestamp":1787159220897}@@[^note-plex-4]:++} Likely inspired by early Cyberneticists like Norbert Wiener, who discussed this in slightly different terms.
+[^note-plex-4]: Likely inspired by early Cyberneticists like Norbert Wiener, who discussed this in slightly different terms.
 
-{--{"author":"Luc's AI","timestamp":1787159221131}@@[^5]:--}{++{"author":"Luc's AI","timestamp":1787159221131}@@[^note-plex-5]:++} (fun not super relevant side note) And since the past’s data was generated by a computational process, it’s reasonably considered compressed compute.
+[^note-plex-5]: (fun not super relevant side note) And since the past’s data was generated by a computational process, it’s reasonably considered compressed compute.
 
-{--{"author":"Luc's AI","timestamp":1787159221372}@@[^6]:--}{++{"author":"Luc's AI","timestamp":1787159221372}@@[^note-plex-6]:++} There is often underlying shared structure between the generative process of different time periods, with the abstract algorithm being before either instantiation in logical time / [Finite Factored Sets](https://www.lesswrong.com/posts/N5Jm6Nj4HkNKySA5Z/finite-factored-sets).
+[^note-plex-6]: There is often underlying shared structure between the generative process of different time periods, with the abstract algorithm being before either instantiation in logical time / [Finite Factored Sets](https://www.lesswrong.com/posts/N5Jm6Nj4HkNKySA5Z/finite-factored-sets).
 
-{--{"author":"Luc's AI","timestamp":1787159221709}@@[^7]:--}{++{"author":"Luc's AI","timestamp":1787159221709}@@[^note-plex-7]:++} Which is: running an algorithm in the present which has outputs correlated with the algorithm which generates the future outcome you're predicting.
+[^note-plex-7]: Which is: running an algorithm in the present which has outputs correlated with the algorithm which generates the future outcome you're predicting.
 
-{--{"author":"Luc's AI","timestamp":1787159221930}@@[^8]:--}{++{"author":"Luc's AI","timestamp":1787159221930}@@[^note-plex-8]:++} But not *necessarily* useless! It's possible to use cognition from weak and fuzzily aligned systems to help with some things, but you really really do need to be prepared to transition to something more rigorous and robust.
+[^note-plex-8]: But not *necessarily* useless! It's possible to use cognition from weak and fuzzily aligned systems to help with some things, but you really really do need to be prepared to transition to something more rigorous and robust.
 Don't build your automated research pipeline before you know what to do with it, and do be dramatically more careful than most people trying stuff like this!

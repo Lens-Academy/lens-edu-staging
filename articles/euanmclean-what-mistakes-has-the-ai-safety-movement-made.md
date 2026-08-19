@@ -136,7 +136,7 @@ Many in the AI safety movement do not think enough for themselves, 4 respondents
 
 # Pausing is bad
 
-3 respondents thought that advocating for a [pause to AI](https://pauseai.info/proposal) development is bad, while 1 respondent was {--{"author":"Luc's AI","timestamp":1787159067049}@@pro-pause[^1].--}{++{"author":"Luc's AI","timestamp":1787159067049}@@pro-pause[^note-euanmclean-1].++} Nora referred me to a [post](https://bounded-regret.ghost.io/ai-pause-will-likely-backfire-by-nora/) she wrote arguing that pausing is bad. In that post, she argues that pausing will a) reduce the quality of alignment research because researchers will be forced to test their ideas on weak models, b) make a [hard takeoff](https://www.lesswrong.com/w/ai-takeoff) more likely when the pause is lifted, and c) push capabilities research underground, where regulations are looser.
+3 respondents thought that advocating for a [pause to AI](https://pauseai.info/proposal) development is bad, while 1 respondent was pro-pause[^note-euanmclean-1]. Nora referred me to a [post](https://bounded-regret.ghost.io/ai-pause-will-likely-backfire-by-nora/) she wrote arguing that pausing is bad. In that post, she argues that pausing will a) reduce the quality of alignment research because researchers will be forced to test their ideas on weak models, b) make a [hard takeoff](https://www.lesswrong.com/w/ai-takeoff) more likely when the pause is lifted, and c) push capabilities research underground, where regulations are looser.
 
 # Discounting public outreach & governance as a route to safety
 
@@ -164,4 +164,4 @@ Participants pointed to a range of mistakes they thought the AI safety movement 
 
 Personally, I hope this can help the AI safety movement avoid making similar mistakes in the future! Despite the negative skew of my questioning, I walked away from these conversations feeling pretty optimistic about the direction the movement is heading. I believe that as long as we continue to be honest, curious and open-minded about what we’re doing right and wrong, AI safety as a concept will overall have a positive effect on humanity’s future.
 
-{--{"author":"Luc's AI","timestamp":1787159068014}@@[^1]:--}{++{"author":"Luc's AI","timestamp":1787159068014}@@[^note-euanmclean-1]:++} Other respondents may also have been pro or anti-pause, but since the pause debate did not come up in their interviews I didn’t learn what their positions on this issue were.
+[^note-euanmclean-1]: Other respondents may also have been pro or anti-pause, but since the pause debate did not come up in their interviews I didn’t learn what their positions on this issue were.
