@@ -515,7 +515,7 @@ for AIs with human-comparable cognitive abilities. Researchers from the Singular
 Institute have assembled a database of 257 AI predictions since 1950, of which 95 in-
 clude AI timelines.
 4.1. Subjective Assessment
-A brief glance atTable 1 allows us to expect that AI timeline predictions will generally be
+A brief glance {--{"author":"Elias's AI","timestamp":1787128520571}@@atTable--}{++{"author":"Elias's AI","timestamp":1787128520571}@@at Table++} 1 allows us to expect that AI timeline predictions will generally be
 of very poor quality. The only factor that is unambiguously positive for AI predictions is
 that prediction errors are expected and allowed: apart from that,the task seems singularly
 difficult,especially on the key issue of feedback. An artificial intelligence is a hypothetical
