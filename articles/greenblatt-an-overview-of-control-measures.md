@@ -3,7 +3,7 @@ title: "An overview of control measures"
 author:
   - "Ryan Greenblatt"
 source_url: "https://blog.redwoodresearch.org/p/an-overview-of-control-measures"
-published: 2025-04-14
+published: {--{"author":"Luc's AI","timestamp":1787136386167}@@2025-04-14--}{++{"author":"Luc's AI","timestamp":1787136386167}@@2025-04-06++}
 created: 2026-07-02
 accessed: 2026-07-02
 description: "What methods can we use to ensure control?"

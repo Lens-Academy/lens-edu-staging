@@ -2,7 +2,7 @@
 title: "My thesis (Algorithmic Bayesian Epistemology) explained in more depth"
 author:
   - "Eric Neyman"
-source_url: "https://www.lesswrong.com/posts/j6EhfL2hRubaKL9ca/neyman-algorithmic-bayesian-epistemology-explained"
+source_url: {--{"author":"Luc's AI","timestamp":1787136385306}@@"https://www.lesswrong.com/posts/j6EhfL2hRubaKL9ca/neyman-algorithmic-bayesian-epistemology-explained"--}{++{"author":"Luc's AI","timestamp":1787136385306}@@"https://www.lesswrong.com/posts/j6EhfL2hRubaKL9ca/my-thesis-algorithmic-bayesian-epistemology-explained-in"++}
 published: 2024-05-09
 created: 2026-08-10
 accessed: 2026-08-10

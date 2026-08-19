@@ -150,7 +150,9 @@ Overall, **we think of this model as a back-of-the-envelope calculation**. It’
 
 ## Structure of the paper
 
-The rest of the paper lays out our analysis in more detail. We proceed as follows:
+The rest of the paper lays out our analysis in more detail. We proceed as follows:{++{"author":"Luc's AI","timestamp":1787136385918}@@
+
+{>>{"author":"Luc's AI","timestamp":1787136385918}@@The source has a seven-item outline here; the imported article omits that entire list. Re-import or restore the missing outline from the source.<<}++}
 
 ## Relation to previous work
 
