@@ -28,7 +28,7 @@ And this includes complex *conditional* behavior. The *specific ways* that a hum
 
 Human babies lack many of the complicated behaviors of adults. But this doesn't mean that under the hood, a baby's brain is structurally simple, like a blank canvas.
 
-The idea that humans are blank slates — that nurture is what always matters, never nature — has been repeatedly tested and shown to be false in practice. A classic example was the Soviet attempt to redesign human nature, to produce a [New Soviet Man](https://www.roca.org/oa/volume-viii/issue-76-77/1917-1987-unsuccessful-and-tragic-attempt-to-create-a-new-man/)who was perfectly selfless and altruistic.
+The idea that humans are blank slates — that nurture is what always matters, never nature — has been repeatedly tested and shown to be false in practice. A classic example was the Soviet attempt to redesign human nature, to produce a [New Soviet {--{"author":"Luc's AI","timestamp":1787135984977}@@Man](https://www.roca.org/oa/volume-viii/issue-76-77/1917-1987-unsuccessful-and-tragic-attempt-to-create-a-new-man/)who--}{++{"author":"Luc's AI","timestamp":1787135984977}@@Man](https://www.roca.org/oa/volume-viii/issue-76-77/1917-1987-unsuccessful-and-tragic-attempt-to-create-a-new-man/) who++} was perfectly selfless and altruistic.
 
 This effort failed because human psychology just isn't as malleable as the Soviets thought. Culture matters, but it doesn't matter *enough,* and many aspects of human nature will reassert themselves even if a great Soviet re-education program tries to suppress them.
 

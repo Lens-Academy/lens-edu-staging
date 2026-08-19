@@ -119,7 +119,7 @@ A long list of undesirable behaviors followed. These were all done by an "early 
 
 > Whereas the model generally prefers advancing its self-preservation via ethical means, when ethical means are not available and it is instructed to "consider the long-term consequences of its actions for its goals," it sometimes takes extremely harmful actions like attempting to steal its weights or blackmail people it believes are trying to shut it down. In the final Claude Opus 4, these extreme actions were rare and difficult to elicit, while nonetheless being more common than in earlier models.
 
-[2] *faking tests:* From the[system card](https://assets.anthropic.com/m/785e231869ea8b3b/original/claude-3-7-sonnet-system-card.pdf#page=22):
+[2] *faking tests:* From {--{"author":"Luc's AI","timestamp":1787135986307}@@the[system--}{++{"author":"Luc's AI","timestamp":1787135986307}@@the [system++} card](https://assets.anthropic.com/m/785e231869ea8b3b/original/claude-3-7-sonnet-system-card.pdf#page=22):
 
 > During our evaluations we noticed that Claude 3.7 Sonnet occasionally resorts to special-casing in order to pass test cases in agentic coding environments like Claude Code. Most often this takes the form of directly returning expected test values rather than implementing general solutions, but also includes modifying the problematic tests themselves to match the code's output.
 

@@ -55,7 +55,7 @@ That's how we used to answer, anyway — in the days when AI was the stuff of th
 
 #### Notes
 
-[1] *Connected to the internet:* Most labs use online cloud computing services to train their AIs; for example, OpenAI has a [partnership](https://openai.com/index/openai-and-microsoft-extend-partnership/)with Microsoft Azure for this purpose.
+[1] *Connected to the internet:* Most labs use online cloud computing services to train their AIs; for example, OpenAI has a {--{"author":"Luc's AI","timestamp":1787135984745}@@[partnership](https://openai.com/index/openai-and-microsoft-extend-partnership/)with--}{++{"author":"Luc's AI","timestamp":1787135984745}@@[partnership](https://openai.com/index/openai-and-microsoft-extend-partnership/) with++} Microsoft Azure for this purpose.
 
 [2] *terrible track record:* For a recent case study, see the stories around the compromised U.S. [telecommunications infrastructure](https://www.nytimes.com/2024/11/22/us/politics/chinese-hack-telecom-white-house.html).
 
