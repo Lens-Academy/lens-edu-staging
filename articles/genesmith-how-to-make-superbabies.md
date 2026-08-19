@@ -125,11 +125,11 @@ Interestingly, a large proportion of conditions with this property of being high
 
 As a result the genome is enriched for “wartime variants”; those that might save your life if the bubonic plague reemerges, but will mess you up in “peacetime” by giving you a horrible autoimmune condition.
 
-This is, not coincidentally, one reason to not go completely crazy selecting against risk of autoimmune diseases: we don't want to make ourselves that much more vulnerable to once-per-century plagues. We know for a fact that some of the variants that increase their risk were protective against ancient plagues like the black death ([see the appendix for a fuller discussion of {--{"author":"Luc's AI","timestamp":1787139983829}@@this](https://www.lesswrong.com/posts/DfrSZaf3JC8vJdbZL/how-to-make-superbabies#On_autoimmune_risk_variants_and_plagues)).--}{++{"author":"Luc's AI","timestamp":1787139983829}@@this](#on-autoimmune-risk-variants-and-plagues)).++}
+This is, not coincidentally, one reason to not go completely crazy selecting against risk of autoimmune diseases: we don't want to make ourselves that much more vulnerable to once-per-century plagues. We know for a fact that some of the variants that increase their risk were protective against ancient plagues like the black death ([see the appendix for a fuller discussion of this](#on-autoimmune-risk-variants-and-plagues)).
 
 With most trait-affecting genetic variants, we can make any trade-offs explicit; if some of the genetic variants that reduce the risk of hypertension increase the risk of gallstones, you can explicitly quantify the tradeoff.
 
-Not so with immune variants that protect against once-per-century plagues. I dig more into how to deal with this tradeoff [in the {--{"author":"Luc's AI","timestamp":1787139984117}@@appendix](https://www.lesswrong.com/posts/DfrSZaf3JC8vJdbZL/how-to-make-superbabies#Two_simples_strategies_for_minimizing_autoimmune_risk_and_pandemic_vulnerability)--}{++{"author":"Luc's AI","timestamp":1787139984117}@@appendix](#two-simples-strategies-for-minimizing-autoimmune-r)++} but the TL;DR is that you don’t want to “minimize” risk of autoimmune conditions. You just want to reduce their risk to a reasonable level while maintaining as much genetic diversity as possible.
+Not so with immune variants that protect against once-per-century plagues. I dig more into how to deal with this tradeoff [in the appendix](#two-simples-strategies-for-minimizing-autoimmune-r) but the TL;DR is that you don’t want to “minimize” risk of autoimmune conditions. You just want to reduce their risk to a reasonable level while maintaining as much genetic diversity as possible.
 
 ## Is everything a tradeoff?
 
@@ -319,7 +319,7 @@ To those familiar with Yamanaka factors, it might seem exceptionally strange tha
 
 Yamanaka factors are normally thought to work their magic by sticking to DNA and forming a sort of landing pad for a larger protein complex involved in gene expression. 
 
-But somehow the bond BETWEEN these Yamanaka factors was turning out to be just as important. ([I dig more into why this is the case in the {--{"author":"Luc's AI","timestamp":1787139984354}@@appendix](https://www.lesswrong.com/posts/DfrSZaf3JC8vJdbZL/how-to-make-superbabies#Why_does_super_SOX_work_))--}{++{"author":"Luc's AI","timestamp":1787139984354}@@appendix](#why-does-super-sox-work))++}
+But somehow the bond BETWEEN these Yamanaka factors was turning out to be just as important. ([I dig more into why this is the case in the appendix](#why-does-super-sox-work))
 
 After understanding the mechanism, Sergiy had a new idea. If one amino acid swap could enable decent reprogramming efficiency with a broken Oct4, what would it enable if it was combined with a working Oct4? Sergiy quickly ran the experiment, which produced another breakthrough. When combined with normal Oct4, super-SOX was making stem cells with at least ten times the efficiency of standard techniques.
 

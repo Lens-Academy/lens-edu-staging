@@ -1,7 +1,7 @@
 ---
 title: "Fermi Estimate"
-source_url: https://forum.effectivealtruism.org/topics/fermi-estimate{++{"author":"Luc's AI","timestamp":1787151992063}@@
-allowUnreachableUrl: true++}
+source_url: https://forum.effectivealtruism.org/topics/fermi-estimate
+allowUnreachableUrl: true
 author:
   - EA Handbook
 published: 2022-06-20

@@ -54,9 +54,7 @@ In current experiments, the setup involves:
 The level of weak-to-strong generalization is quantified using Performance Gap Recovered (PGR). PGR measures how much of the performance difference between a weak supervisor and a strong model is bridged when the strong model is trained using weak supervision. When we train the strong model using the labels provided by the weak model, the performance of the strong model will likely be somewhere between the performance of the weak model and the ideal performance the strong model could achieve with perfect labels. The performance gap recovered quantifies how much closer the strong model's performance gets to its ideal performance compared to the weak model’s performance. A PGR of 1 corresponds to an ideal outcome (the strong model performs just as well as it would have with perfect supervision). In contrast, a strong student who "succeeds" in perfectly imitating their supervisor, including their flaws, would obtain a PGR of 0 ([Scherlis et. al. 2024](https://blog.eleuther.ai/weak-to-strong/)).
 
 $$
-{--{"author":"Luc's AI","timestamp":1787151883081}@@\begin{align*}
---}PGR = \frac{\text{student} - \text{weak}}{\text{ceiling} - \text{weak}}{--{"author":"Luc's AI","timestamp":1787151883081}@@
-\end{align*}--}
+PGR = \frac{\text{student} - \text{weak}}{\text{ceiling} - \text{weak}}
 $$
 
 **Limitations and disanalogies of W2SG**:

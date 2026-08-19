@@ -1,7 +1,7 @@
 ---
 title: "What Do You Think?"
-source_url: https://forum.effectivealtruism.org/posts/zGavnmS5hCC4mDHS8/what-do-you-think{++{"author":"Luc's AI","timestamp":1787151991659}@@
-allowUnreachableUrl: true++}
+source_url: https://forum.effectivealtruism.org/posts/zGavnmS5hCC4mDHS8/what-do-you-think
+allowUnreachableUrl: true
 author:
   - Max Dalton
 published: 2022-07-06

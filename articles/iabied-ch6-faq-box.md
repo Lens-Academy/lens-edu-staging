@@ -45,13 +45,13 @@ Suppose that the AI is only allowed to talk to one person — we'll call her "Al
 
 At that point, the AI essentially has been given arms and legs. It's just that we call those arms and legs "Alice."
 
-People often misunderstand this argument as saying that a sufficiently smart AI could manipulate even the most paranoid gatekeeper into doing its bidding. A sufficiently smart AI likely *could* do that.{--{"author":"Luc's AI","timestamp":1787140001085}@@[\*](https://ifanyonebuildsit.com/6/can-developers-just-keep-the-ai-in-a-box#ftnt223)--}{++{"author":"Luc's AI","timestamp":1787140001085}@@[^source-note-223]++} But our point is more general than that: An AI constrained so much that it cannot affect the world is safe but useless, and once you allow it to affect the world in order to make use of it, you lose the safety in the process.
+People often misunderstand this argument as saying that a sufficiently smart AI could manipulate even the most paranoid gatekeeper into doing its bidding. A sufficiently smart AI likely *could* do that.[^source-note-223] But our point is more general than that: An AI constrained so much that it cannot affect the world is safe but useless, and once you allow it to affect the world in order to make use of it, you lose the safety in the process.
 
 There is no such thing as hands that can be wielded only for good purposes. In principle, we could imagine humanity one day building smarter-than-human AIs that *want* to produce good outcomes. Alignment seems like an option that could work in principle. Keeping the unaligned AI in a box while also somehow using it to produce good outcomes? Not so much.
 
 That's how we used to answer, anyway — in the days when AI was the stuff of thought experiments, and the Pollyannas could get away with saying that nobody would ever be so foolish as to just directly hook their AI up to the internet.
 
-{--{"author":"Luc's AI","timestamp":1787140001334}@@[\*](https://ifanyonebuildsit.com/6/can-developers-just-keep-the-ai-in-a-box#ftnt223_ref)--}{++{"author":"Luc's AI","timestamp":1787140001334}@@[^source-note-223]:++} I (Yudkowsky) once demonstrated this by betting someone their $20 against my $0 that, while I roleplayed as "AI" and they as "gatekeeper" in private chat, I could convince them to [let me out of the box](https://www.yudkowsky.net/singularity/aibox). I did. They paid. There was no clever trick to it; I didn't cheat and offer them $21 to concede to make my point. I just did it the hard way, and won.
+[^source-note-223]: I (Yudkowsky) once demonstrated this by betting someone their $20 against my $0 that, while I roleplayed as "AI" and they as "gatekeeper" in private chat, I could convince them to [let me out of the box](https://www.yudkowsky.net/singularity/aibox). I did. They paid. There was no clever trick to it; I didn't cheat and offer them $21 to concede to make my point. I just did it the hard way, and won.
 
 #### Notes
 
