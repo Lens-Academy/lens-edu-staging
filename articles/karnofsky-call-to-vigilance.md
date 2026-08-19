@@ -23,7 +23,7 @@ Add discussion note here:
 
 %%
 
-This is the final piece in the [**"most important century" series**](https://www.cold-takes.com/roadmap-for-the-most-important-century-series/), which has argued that there's a high probability that the coming decades will see:[^1]
+This is the final piece in the [**"most important century" series**](https://www.cold-takes.com/roadmap-for-the-most-important-century-series/), which has argued that there's a high probability that the coming decades will {--{"author":"Luc's AI","timestamp":1787159146783}@@see:[^1]--}{++{"author":"Luc's AI","timestamp":1787159146783}@@see:[^note-karnofsky-1]++}
 
 - The development of a technology like **PASTA** (process for automating scientific and technological advancement).
 - A resulting **productivity explosion** leading to development of further transformative technologies.
@@ -72,4 +72,4 @@ If that's going to change, it needs to start with more people seeing the situati
 
 *This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
 
-[^1]: "I am forecasting more than a 10% chance transformative AI will be developed within 15 years (by 2036); a ~50% chance it will be developed within 40 years (by 2060); and a ~2/3 chance it will be developed this century (by 2100)."
+{--{"author":"Luc's AI","timestamp":1787159148127}@@[^1]:--}{++{"author":"Luc's AI","timestamp":1787159148127}@@[^note-karnofsky-1]:++} "I am forecasting more than a 10% chance transformative AI will be developed within 15 years (by 2036); a ~50% chance it will be developed within 40 years (by 2060); and a ~2/3 chance it will be developed this century (by 2100)."
