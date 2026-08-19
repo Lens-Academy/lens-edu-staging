@@ -5,7 +5,14 @@ authors:
   - Yatharth+Claude
 tags:
   - facilitator-training
----
+{++{"author":"AI","timestamp":1787141557301}@@eval-results:
+  content-sha: 6b7c4ef9
+  date: 2026-08-19
+  model: claude-opus-5
+  suite-version: 1
+  checks: {A1: pass, A2: pass, B1: pass, C1: fail, C2: pass, C3: pass}
+  notes: {C1: "1-5 graded ladder, not binary pass/fail"}
+++}---
 
 ## Test:
 id:: 249f41aa-9c03-40af-a4ef-f0312b487623
