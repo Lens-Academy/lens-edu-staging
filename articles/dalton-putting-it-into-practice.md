@@ -1,7 +1,7 @@
 ---
 title: "Putting it into practice"
-source_url: https://forum.effectivealtruism.org/posts/FtXHtyJAm8zjiunEW/putting-it-into-practice{++{"author":"Luc's AI","timestamp":1787151990511}@@
-allowUnreachableUrl: true++}
+source_url: https://forum.effectivealtruism.org/posts/FtXHtyJAm8zjiunEW/putting-it-into-practice
+allowUnreachableUrl: true
 author:
   - Max Dalton
 published: 2022-07-07

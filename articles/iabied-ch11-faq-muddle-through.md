@@ -17,4 +17,4 @@ Add discussion note here:
 %%
 #### The world usually muddles through by trial and error. In this case, early errors wouldn't leave survivors.
 
-See Chapter 10 and the [associated extended discussion]({--{"author":"Luc's AI","timestamp":1787151973284}@@/10/a-closer-look-at-before-and-after--}{++{"author":"Luc's AI","timestamp":1787151973284}@@https://ifanyonebuildsit.com/10/a-closer-look-at-before-and-after++}) about the difference between Before and After.
+See Chapter 10 and the [associated extended discussion](https://ifanyonebuildsit.com/10/a-closer-look-at-before-and-after) about the difference between Before and After.

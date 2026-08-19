@@ -31,4 +31,4 @@ It doesn't matter how well-intentioned they are, and how careful they say they'r
 
 We'll turn to this point in the final chapter of the book.
 
-Things change. They especially change when there is a desperate, urgent, recognized need. The main impediment to stopping is world leaders failing to realize the danger. And that process has [already begun]({--{"author":"Luc's AI","timestamp":1787151975405}@@/13/will-elected-officials-recognize-this-as-a-real-threat--}{++{"author":"Luc's AI","timestamp":1787151975405}@@https://ifanyonebuildsit.com/13/will-elected-officials-recognize-this-as-a-real-threat++}).
+Things change. They especially change when there is a desperate, urgent, recognized need. The main impediment to stopping is world leaders failing to realize the danger. And that process has [already begun](https://ifanyonebuildsit.com/13/will-elected-officials-recognize-this-as-a-real-threat).
