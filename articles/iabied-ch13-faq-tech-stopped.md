@@ -7,7 +7,14 @@ author:
   - Nate Soares
 tags:
   - clippings
----
+{++{"author":"Luc's AI","timestamp":1787163143953}@@llm_reviewed: 2026-08-19
+llm_review_version: "article-qc-v1"
+llm_review_model: "gpt-5"
+llm_review_digest: "sha256:74e67009380e66bb8d4c96127c68213598a7d2baaa81327000b74e9194a15538"
+llm_review_source_digest: "sha256:bfa16a3eeecd4b6125401ba0ca5181907376631117f8129e67f57874ddb89210"
+llm_review_source_fetched: 2026-08-19
+llm_review_source_kind: "live"
+++}---
 
 %%
 Add discussion note here:

@@ -3,7 +3,14 @@ title: "Takeoff speeds"
 author: "Paul Christiano"
 published: 2018-02-24
 source_url: https://sideways-view.com/2018/02/24/takeoff-speeds/
----
+{++{"author":"Luc's AI","timestamp":1787163143715}@@llm_reviewed: 2026-08-19
+llm_review_version: "article-qc-v1"
+llm_review_model: "gpt-5"
+llm_review_digest: "sha256:7388829960d7067ac035a9697a4e052de3c90a0840fc7ad51fe13aae0d7f158c"
+llm_review_source_digest: "sha256:0cb2c645f5fbc549be5189e88f8bec7b04f5f0f1e0c5a25997722888a7d21efb"
+llm_review_source_fetched: 2026-08-19
+llm_review_source_kind: "live"
+++}---
 
 %%
 Add discussion note here:
