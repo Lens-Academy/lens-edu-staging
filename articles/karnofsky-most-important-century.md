@@ -3,7 +3,14 @@ title: 'The "most important century" blog post series'
 author: Holden Karnofsky
 published: 2021-09-24
 source_url: https://www.cold-takes.com/most-important-century/
----
+{++{"author":"Luc's AI","timestamp":1787163177494}@@llm_reviewed: 2026-08-19
+llm_review_version: "article-qc-v1"
+llm_review_model: "gpt-5"
+llm_review_digest: "sha256:75be4f09ecdf79edc45fa0408478a8fa768807239e0921e4dd05bba7a4027582"
+llm_review_source_digest: "sha256:e7aa84e6094b42ec4f4cdecf0804550fb8897261aff30361b54c7aa2ab3e684d"
+llm_review_source_fetched: 2026-08-19
+llm_review_source_kind: "live"
+++}---
 
 %%
 Add discussion note here:
