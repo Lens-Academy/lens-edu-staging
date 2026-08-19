@@ -634,7 +634,7 @@ We sample 500 prompts from LMSYS-Chat-1M \[[ZCS+24](#bib.bib38 "LMSYS-chat-1m: a
 
 We focus on verifying inference conducted via the standard auto-regressive decoding process. While speculative decoding is increasingly common in practice, our verification pipeline is designed around the traditional decoding setup; we discuss extensions to speculative decoding in Appendix [F.1](#A6.SS1 "F.1 Speculative Decoding ‣ Appendix F How Specific Implementations may Affect Verification ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 
-![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img11-9d5e64b4.png)
+![Figure]({--{"author":"Luc's AI","timestamp":1787136275791}@@/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img11-9d5e64b4.png--}{++{"author":"Luc's AI","timestamp":1787136275791}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img11-9d5e64b4.png++})
 
 Figure 9: Headline figure: Pareto frontiers for rank-aware classification thresholds. For logit-Rank=8 as a filtering function to differentiate between suspicious and dangerous tokens. The plot is filtered such that less that 0.5% of tokens are deemed “suspicious”, and only points that are not pareto-dominated by both FPR and exfiltratable information are plotted.
 
@@ -799,7 +799,7 @@ Algorithm 3 Token-IPT-DiFR (from model $\theta$ and context $\mathcal{H}$)
 
 9:return $S$
 
-![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img12-dcb35aef.png)
+![Figure]({--{"author":"Luc's AI","timestamp":1787136276070}@@/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img12-dcb35aef.png--}{++{"author":"Luc's AI","timestamp":1787136276070}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img12-dcb35aef.png++})
 
 Figure 10: Diagram of the Token-IPT-DiFR method. The Token-IPT-DiFR estimates the likelihood of a token under the inverse probability transform by integrating a Gaussian over the token’s probability interval.
 
@@ -1162,7 +1162,7 @@ This section presents the empirical distribution of FSSL-GM scores to provide in
 
 Figure [11](#A8.F11 "Figure 11 ‣ H.1 Score Distribution for a Single Token Position ‣ Appendix H FSSL-GM Score Statistics ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") shows the distribution of FSSL-GM scores across the entire vocabulary for a single token position during generation. For each token $i$ in the vocabulary, we compute $\mathrm{FSSL-GM}_{t}(i)$ using the Token-DiFR estimation procedure described in Algorithm [4](#alg4 "Algorithm 4 ‣ C.2 Gumbel-Max FSSLEstimators (FSSL-GM) ‣ Appendix C Algorithms ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 
-![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img13-ead8b92c.png)
+![Figure]({--{"author":"Luc's AI","timestamp":1787136276370}@@/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img13-ead8b92c.png--}{++{"author":"Luc's AI","timestamp":1787136276370}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img13-ead8b92c.png++})
 
 Figure 11: Distribution of FSSL-GM scores across vocabulary for a single position. This histogram shows how FSSL-GM scores are distributed across all possible tokens at a given generation step. The actually-sampled token typically has a score near the peak of this distribution (high likelihood region).
 
@@ -1172,7 +1172,7 @@ While Figure [11](#A8.F11 "Figure 11 ‣ H.1 Score Distribution for a Single Tok
 
 This distribution is crucial for threshold calibration: we generate 500 prompts with up to 500 tokens each under _benign_ conditions (honest model, no adversary), compute $\mathrm{FSSL-GM}_{t}(y_{t})$ for each actually-generated token $y_{t}$, and collect the resulting scores. The histogram in Figure [12](#A8.F12 "Figure 12 ‣ H.2 Distribution of FSSL-GM Scores for Actually-Generated Tokens ‣ Appendix H FSSL-GM Score Statistics ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") represents the empirical distribution of FSSL-GM scores under legitimate operation.
 
-![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img14-f69c5d71.png)
+![Figure]({--{"author":"Luc's AI","timestamp":1787136276638}@@/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img14-f69c5d71.png--}{++{"author":"Luc's AI","timestamp":1787136276638}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img14-f69c5d71.png++})
 
 Figure 12: Histogram of FSSL-GM scores for actually-generated tokens across 500 prompts. Each bin represents how many tokens (out of $\approx$250,000 total) received a given FSSL-GM score during benign generation. This distribution allows us to select thresholds $\tau$ that achieve target false-positive rates: e.g., setting $\tau$ at the 1st percentile of this distribution yields FPR $\approx 1\%$.
 
@@ -1195,7 +1195,7 @@ Given the empirical score distribution from benign traffic, we select thresholds
 
 Practitioners can use this curve to select operating points: for example, tolerating 0.1% FPR might reduce extractable information to $<$1 bit/token (versus the baseline $\log_{2}(|\text{vocab}|)\approx 16$ bits/token).
 
-![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img15-4ad720e5.png)
+![Figure]({--{"author":"Luc's AI","timestamp":1787136276916}@@/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img15-4ad720e5.png--}{++{"author":"Luc's AI","timestamp":1787136276916}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img15-4ad720e5.png++})
 
 Figure 13: Threshold selection trade-off. As the FSSL-GM threshold $\tau$ increases (moving right), the false positive rate increases (rejecting more benign tokens), while the extractable information decreases (tightening the adversarial capacity bound). This plot allows practitioners to select thresholds that balance security and usability for their deployment.
 
@@ -1203,7 +1203,7 @@ Figure 13: Threshold selection trade-off. As the FSSL-GM threshold $\tau$ increa
 
 This section presents results from different experimental configurations of the two-tier and three-tier verification classifier systems across various models and rank thresholds.
 
-![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img16-caae25dd.png)
+![Figure]({--{"author":"Luc's AI","timestamp":1787136277184}@@/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img16-caae25dd.png--}{++{"author":"Luc's AI","timestamp":1787136277184}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img16-caae25dd.png++})
 
 Figure 14: Multi-model two-tier classifier Pareto frontier (envelope across all rank thresholds). This plot displays the optimal security-vs-usability trade-off for detecting steganographic data exfiltration across multiple LLM architectures. Each curve represents a different model, showing the envelope across all tested rank thresholds, i.e., for each FPR level, it shows the minimum extractable information achievable by choosing the optimal rank threshold. The Pareto frontier shows the best achievable trade-off between (x-axis) False Positive Rate (%) - fraction of legitimate tokens incorrectly flagged as “dangerous” and (y-axis) Extractable Information (%) - how much data an attacker can still exfiltrate while evading detection. Models tested: Llama-3.1-8B, Llama-3.2-3B, Qwen3-30B-A3B, and Qwen1.5-MoE-A2.7B.
 
@@ -1211,19 +1211,19 @@ Figure 14: Multi-model two-tier classifier Pareto frontier (envelope across all 
 
 In this section we include experiments with the same experimental set up as Section [7](#S7 "7 Empirical Results ‣ Verifying LLM Inference to Detect Model Weight Exfiltration"), where we sweep our classifier across multiple logit-rank thresholds to show the effect of logit-rank as a meaningful contribution to classifying on exfiltratable information.
 
-![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img17-3e7c5f01.png)
+![Figure]({--{"author":"Luc's AI","timestamp":1787136277470}@@/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img17-3e7c5f01.png--}{++{"author":"Luc's AI","timestamp":1787136277470}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img17-3e7c5f01.png++})
 
 Figure 15: Multi-model Pareto frontier with no rank threshold (two-tier baseline). This plot shows the baseline two-tier classifier performance (safe vs. dangerous only, no suspicious category) across all tested models. Without the rank-based stratification, the system can only distinguish between tokens that pass or fail the FSSL-GM threshold, leading to higher extractable information at comparable FPR levels compared to the three-tier classifier.
 
-![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img18-25a9d200.png)
+![Figure]({--{"author":"Luc's AI","timestamp":1787136277771}@@/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img18-25a9d200.png--}{++{"author":"Luc's AI","timestamp":1787136277771}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img18-25a9d200.png++})
 
 Figure 16: Multi-model Pareto frontier with rank threshold = 1. This configuration uses the most aggressive rank cutoff, where only the top-ranked token by raw logits is allowed in the suspicious category. All tokens that fail FSSL-GM and are not rank-1 are classified as dangerous. This provides the tightest security bounds but may increase the FPR for legitimate low-rank tokens.
 
-![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img19-02414170.png)
+![Figure]({--{"author":"Luc's AI","timestamp":1787136278045}@@/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img19-02414170.png--}{++{"author":"Luc's AI","timestamp":1787136278045}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img19-02414170.png++})
 
 Figure 17: Multi-model Pareto frontier with rank threshold = 4. With a rank cutoff of 4, tokens that fail FSSL-GM but fall within the top 4 by raw logits are classified as suspicious (limited to $\log_{2}(4)=2$ bits of information), while those beyond rank 4 are dangerous. This provides a balance between security and usability.
 
-![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img20-cc926124.png)
+![Figure]({--{"author":"Luc's AI","timestamp":1787136278308}@@/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img20-cc926124.png--}{++{"author":"Luc's AI","timestamp":1787136278308}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img20-cc926124.png++})
 
 Figure 18: Multi-model Pareto frontier with rank threshold = 8. With rank = 8, suspicious tokens are capped at $\log_{2}(8)=3$ bits of extractable information. This intermediate threshold allows more flexibility while still constraining the attacker’s channel capacity significantly below the full vocabulary size.
 
