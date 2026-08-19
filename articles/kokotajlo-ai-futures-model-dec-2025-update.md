@@ -174,9 +174,11 @@ Finally, we model how quickly AIs are able to self-improve once AI R&D is fully 
 
 The primary milestones we track in Stage 3 are:
 
-1.  **Superintelligent AI Researcher (SIAR).** The gap between a SIAR and the top AGI project human researcher is 2x greater than the gap between the top AGI project human researcher and the median researcher.
+1.  **Superintelligent AI Researcher (SIAR).** The gap between a SIAR and the top AGI project human researcher is 2x greater than the gap between the top AGI project human researcher and the median {--{"author":"Luc's AI","timestamp":1787133752842}@@researcher.--}{++{"author":"Luc's AI","timestamp":1787133752842}@@researcher.[^17]++}
 
-2.  **Top-human-Expert-Dominating AI (TED-AI).** A TED-AI is at least as good as top human experts at virtually all cognitive tasks. (Note that the translation in our model from AI R&D capabilities to general capabilities is very rough.)
+2.  **Top-human-Expert-Dominating AI (TED-AI).** A TED-AI is at least as good as top human experts at virtually all cognitive tasks. (Note that the translation in our model from AI R&D capabilities to general capabilities is very {--{"author":"Luc's AI","timestamp":1787133752842}@@rough.)--}{++{"author":"Luc's AI","timestamp":1787133752842}@@rough.)[^18]
+
+3.  **Artificial Superintelligence (ASI).** The gap between an ASI and the best humans is 2x greater than the gap between the best humans and the median professional, at virtually all cognitive tasks.[^19]++}
 
 In our simulations, we see a wide variety of outcomes ranging from a months-long takeoff from SAR to ASI, to a fizzling out of the intelligence explosion requiring further increases in compute to get to ASI.
 
