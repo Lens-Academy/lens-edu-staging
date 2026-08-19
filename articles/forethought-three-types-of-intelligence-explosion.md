@@ -138,16 +138,16 @@ Again, in principle an intelligence explosion could contain any combination of t
 
 -   We’ve argued above that the likely order is software > chip technology > chip production, both in terms of which feedback loop will have the smallest time lags and in terms of which will be automated first.
     
--   The feedback loops are likely to stack cumulatively, with earlier feedback loops still operating when later feedback loops begin.[11](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-11)
+-   The feedback loops are likely to stack cumulatively, with earlier feedback loops still operating when later feedback loops begin.{--{"author":"Luc's AI","timestamp":1787137175470}@@[11](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-11)--}{++{"author":"Luc's AI","timestamp":1787137175470}@@[^11]++}
     
 
 This suggests that there are three kinds of intelligence explosion which are particularly plausible:
 
--   The software feedback loop alone could lead to a **software IE,** which would have the greatest potential to happen suddenly.[12](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-12)
+-   The software feedback loop alone could lead to a **software IE,** which would have the greatest potential to happen suddenly.{--{"author":"Luc's AI","timestamp":1787137175685}@@[12](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-12)--}{++{"author":"Luc's AI","timestamp":1787137175685}@@[^12]++}
     
--   The software and chip technology feedback loops in combination could lead to an **AI-technology IE** [13](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-13) – so called because AI automates cognitive work in improving software and chip technology, but physical automation isn’t required. This would likely be less sudden than a software IE.[14](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-14)
+-   The software and chip technology feedback loops in combination could lead to an **AI-technology IE** {--{"author":"Luc's AI","timestamp":1787137175924}@@[13](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-13)--}{++{"author":"Luc's AI","timestamp":1787137175924}@@[^13]++} – so called because AI automates cognitive work in improving software and chip technology, but physical automation isn’t required. This would likely be less sudden than a software IE.{--{"author":"Luc's AI","timestamp":1787137176148}@@[14](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-14)--}{++{"author":"Luc's AI","timestamp":1787137176148}@@[^14]++}
     
--   All three feedback loops in combination could lead to a **full-stack IE,**[15](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-15) which would likely be the least sudden.
+-   All three feedback loops in combination could lead to a **full-stack IE,**{--{"author":"Luc's AI","timestamp":1787137176372}@@[15](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-15)--}{++{"author":"Luc's AI","timestamp":1787137176372}@@[^15]++} which would likely be the least sudden.
     
 
 ![Diagram showing three AI feedback loops combining to create three intelligence explosions. Software alone creates Software IE, plus chip technology creates AI-technology IE, all three create Full-stack IE. Shows longer time lags and later automation.](https://images.ctfassets.net/4owxfjx3z3if/l3WveUDJtocv4Y1nabKtD/676e7dfa197c0b8fd3c71094019d0d0e/Amrit_Graphs_-25.png?w=3840&q=85&fm=webp)
@@ -168,7 +168,7 @@ We feel the AI-technology and full-stack IEs have been under-analysed.
 
 ### Will AI progress accelerate over time?
 
-Besides time lags, another factor constraining intelligence explosions is that these feedback loops might be too weak for AI progress to accelerate over time.[16](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-16)
+Besides time lags, another factor constraining intelligence explosions is that these feedback loops might be too weak for AI progress to accelerate over time.{--{"author":"Luc's AI","timestamp":1787137176602}@@[16](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-16)--}{++{"author":"Luc's AI","timestamp":1787137176602}@@[^16]++}
 
 When a feedback loop is first automated, there will be an initial speed-up in AI progress. After this point, AI progress may slow back down again if the feedback loop is too weak.
 
@@ -176,7 +176,7 @@ When a feedback loop is first automated, there will be an initial speed-up in AI
 
 Initially human work drives AI progress (green). Then work to improve AI is gradually automated (orange). Finally, AI systems do almost all the work to improve AI (blue). Empirical evidence suggests that AI progress will (initially) accelerate during this final period.
 
-Whether a feedback loop leads to accelerating progress depends on how much doubling _inputs_ to the feedback loop doubles _output_. If output more than doubles when input doubles, there is accelerating progress (because the _next_ doubling of inputs can draw on _more_ than twice as many outputs, and so will happen faster than the last doubling).[17](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-17)
+Whether a feedback loop leads to accelerating progress depends on how much doubling _inputs_ to the feedback loop doubles _output_. If output more than doubles when input doubles, there is accelerating progress (because the _next_ doubling of inputs can draw on _more_ than twice as many outputs, and so will happen faster than the last doubling).{--{"author":"Luc's AI","timestamp":1787137176834}@@[17](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-17)--}{++{"author":"Luc's AI","timestamp":1787137176834}@@[^17]++}
 
 We can get empirical evidence on this question by looking at the efforts needed to improve AI software and hardware. The key takeaways from [our analysis](https://www.forethought.org/research/once-ai-research-is-automated-will-ai-progress-accelerate) are that, absent human bottlenecks like regulation:
 
@@ -204,11 +204,11 @@ Note that the all-things-considered likelihood of acceleration will be lower, as
 
 ### How far could AI progress before hitting effective physical limits?
 
-In addition to whether progress accelerates over time, it is important to consider the _total amount of progress_ that each feedback loop can drive before approaching effective physical limits.[18](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-18)
+In addition to whether progress accelerates over time, it is important to consider the _total amount of progress_ that each feedback loop can drive before approaching effective physical limits.{--{"author":"Luc's AI","timestamp":1787137177071}@@[18](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-18)--}{++{"author":"Luc's AI","timestamp":1787137177071}@@[^18]++}
 
 If these limits are very high, then not only is there more progress in total, but also _progress has more time to accelerate_ and so the maximum speed of progress will be faster.
 
-Theoretical limits for the speed of progress are 100X as fast as recent progress, which would correspond to “effective training compute” doubling every day or so. (For comparison, effective training compute has recently been doubling every ~ [3 months](https://epoch.ai/trends).[19](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-19))
+Theoretical limits for the speed of progress are 100X as fast as recent progress, which would correspond to “effective training compute” doubling every day or so. (For comparison, effective training compute has recently been doubling every ~ [3 months](https://epoch.ai/trends).{--{"author":"Luc's AI","timestamp":1787137177301}@@[19](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-19)--}{++{"author":"Luc's AI","timestamp":1787137177301}@@[^19]++})
 
 The maximum speed could be less than this, for instance due to technical limitations or human bottlenecks. Or it could be slower because physical limits are hit before progress can accelerate to the fastest possible speed. Overall, it’s hard to give a good estimate of the fastest speed, but it at least seems plausible that it is very fast.
 
@@ -251,7 +251,7 @@ Our estimates of the total room for improvement for each intelligence explosion 
 
 Let’s recap our characterisation of the three feedback loops:
 
-| Feedback loop | Jobs automated by AI | Time lags in the feedback loop [20](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-20) | Likelihood of accelerating progress (ignoring other feedback loops) _(Numbers are very rough!)_ | Total room to increase effective compute _(Numbers are very rough!)_ |
+| Feedback loop | Jobs automated by AI | Time lags in the feedback loop {--{"author":"Luc's AI","timestamp":1787137177554}@@[20](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-20)--}{++{"author":"Luc's AI","timestamp":1787137177554}@@[^20]++} | Likelihood of accelerating progress (ignoring other feedback loops) _(Numbers are very rough!)_ | Total room to increase effective compute _(Numbers are very rough!)_ |
 | --- | --- | --- | --- | --- |
 | Software | All AI researchers (e.g. all technical staff at OAI) | Training new AI (months), though post-training enhancements are faster | ~50% | ~12 OOMs |
 | Chip technology | All computing hardware researchers (e.g. all researchers at TSMC, NVIDIA, ASML, etc) | Integrating new tech into chip factories (months) Printing new chips (many months) | ~65% | ~6 OOMs |
@@ -271,7 +271,7 @@ Putting all this together, here are three scenarios that we find fairly plausibl
     
 2.  **Bumpy scenario:** a limited software IE followed by slow AI-technology/full-stack IEs. There’s a rapid software IE, but it slows down after ~3 OOMs. Later, there are AI-technology and/or full-stack IEs that start somewhat slowly and eventually become extremely fast.
     
-3.  **Rapid scenario:[21](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-21)** a large software IE (of 6 OOMs or more) followed by fast AI-technology/full-stack IEs. There’s a rapid software IE, occurring over months, with fairly high effective physical limits. This improves technology enough to significantly reduce the time lags in the feedback loops for chip technology and chip production. This means the subsequent AI-technology and/or full-stack IEs start out very quickly and before any noticeable slowdown as the software IE starts to plateau.
+3.  **Rapid scenario:{--{"author":"Luc's AI","timestamp":1787137177780}@@[21](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-21)--}{++{"author":"Luc's AI","timestamp":1787137177780}@@[^21]++}** a large software IE (of 6 OOMs or more) followed by fast AI-technology/full-stack IEs. There’s a rapid software IE, occurring over months, with fairly high effective physical limits. This improves technology enough to significantly reduce the time lags in the feedback loops for chip technology and chip production. This means the subsequent AI-technology and/or full-stack IEs start out very quickly and before any noticeable slowdown as the software IE starts to plateau.
     
 
 ![Three curves showing different AI progress scenarios: "Rapid" (purple) with early steep growth, "Bumpy" (green) with limited then accelerating growth, "Gradual" (orange) with slow then fast growth.](https://images.ctfassets.net/4owxfjx3z3if/5yGZtB7KOoeN6lhapCvHSK/8293b7582882c78a7c598acd17991aac/Amrit_Graphs_-21.png?w=3840&q=85&fm=webp)
@@ -288,7 +288,7 @@ Different IEs have different implications for the distribution of power, both in
     
     -   A software IE would be most likely to occur in the US. Most AI compute is physically located in the US, and most frontier AI developers are US companies.
         
-    -   During a software IE, power could become concentrated in just one country, or even in just one company,[22](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-22) if the explosion is sufficiently large for the frontrunner to pull very far ahead.
+    -   During a software IE, power could become concentrated in just one country, or even in just one company,{--{"author":"Luc's AI","timestamp":1787137177998}@@[22](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-22)--}{++{"author":"Luc's AI","timestamp":1787137177998}@@[^22]++} if the explosion is sufficiently large for the frontrunner to pull very far ahead.
         
     
 -   An **AI-technology IE** would also be directly controlled by the owners of AI chips and algorithms, but owners of the semiconductor supply chain might have significant indirect power, because they control aspects of the chip technology feedback loop.
@@ -300,7 +300,7 @@ Different IEs have different implications for the distribution of power, both in
     
 -   A **full-stack IE** would be controlled by the owners of AI chips and algorithms, the semiconductor supply chain, and many other parts of the industrial base (including mining, construction, and energy production).
     
-    -   Compared to the other two IEs, it is more likely that a full-stack IE would heavily involve countries like China and Saudi Arabia that are willing and able to quickly expand their industry, through a combination of a strong industrial base and a permissive regulatory environment. Authoritarian countries might generally be favoured in this respect over democratic countries.[23](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-23)
+    -   Compared to the other two IEs, it is more likely that a full-stack IE would heavily involve countries like China and Saudi Arabia that are willing and able to quickly expand their industry, through a combination of a strong industrial base and a permissive regulatory environment. Authoritarian countries might generally be favoured in this respect over democratic countries.{--{"author":"Luc's AI","timestamp":1787137178219}@@[23](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-23)--}{++{"author":"Luc's AI","timestamp":1787137178219}@@[^23]++}
         
     -   Power would be distributed most broadly during a full-stack IE, as many countries and companies are involved in the chip technology and chip production feedback loops.
         
@@ -367,7 +367,7 @@ Some of these time lags are slower than the examples we use in the main text for
 
 The maximum speed of AI progress could conceivably be extremely fast.
 
-We can start by thinking about AI progress in general terms. [Epoch estimates](https://epoch.ai/trends) that effective compute has been increasing by 10X/year in recent years.[24](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-24) This corresponds to 1000X every 3 years (or 150 weeks). But if effective compute were to double in a day, it would only take 10 days (or 1.5 weeks) to 1000X. That’s 100X faster than progress today.
+We can start by thinking about AI progress in general terms. [Epoch estimates](https://epoch.ai/trends) that effective compute has been increasing by 10X/year in recent years.{--{"author":"Luc's AI","timestamp":1787137178451}@@[24](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-24)--}{++{"author":"Luc's AI","timestamp":1787137178451}@@[^24]++} This corresponds to 1000X every 3 years (or 150 weeks). But if effective compute were to double in a day, it would only take 10 days (or 1.5 weeks) to 1000X. That’s 100X faster than progress today.
 
 Is it possible for effective compute to double that quickly? Here we are reasoning about theoretical limits, rather than giving an all-things-considered estimate. At least for the software and chip production feedback loops, a maximum doubling time of days doesn’t seem out of the question:
 
@@ -383,9 +383,9 @@ Is it possible for effective compute to double that quickly? Here we are reasoni
     -   There are currently longer time lags for chip technology than for software, because of the time it takes to print chips. But if chips can be made in a day (see below), there’s no obvious reason that chip technology couldn’t double as fast as software and chip production.
         
     
--   **Chip production**: fruit flies can double in days.[25](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-25) This is proof of concept that biological replicators can double their compute (i.e. brains) in days.
+-   **Chip production**: fruit flies can double in days.{--{"author":"Luc's AI","timestamp":1787137178724}@@[25](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-25)--}{++{"author":"Luc's AI","timestamp":1787137178724}@@[^25]++} This is proof of concept that biological replicators can double their compute (i.e. brains) in days.
     
-    -   It doesn't clearly follow that artificial replicators can make general-purpose computer chips as fast as fruit flies can make brains. In particular, the computing power in a fruit fly brain cannot flexibly run many different types of software like computer chips can. It might take more time to make flexible computing power.[26](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-26)
+    -   It doesn't clearly follow that artificial replicators can make general-purpose computer chips as fast as fruit flies can make brains. In particular, the computing power in a fruit fly brain cannot flexibly run many different types of software like computer chips can. It might take more time to make flexible computing power.{--{"author":"Luc's AI","timestamp":1787137178989}@@[26](https://www.forethought.org/research/three-types-of-intelligence-explosion#user-content-fn-26)--}{++{"author":"Luc's AI","timestamp":1787137178989}@@[^26]++}
         
     -   On the other hand, it would be surprising if evolution had found the optimal configuration for fast replication of compute, and machines designed to replicate as fast as possible may well exceed biological limits.
         
