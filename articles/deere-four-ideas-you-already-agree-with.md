@@ -39,7 +39,7 @@ In fact I'd go further — I'd say that we'd feel pretty uncomfortable trying to
 
 See what I mean?
 
-![People facing a wall covered in charity collection tins, representing the challenge of choosing which worthy causes to support](https://cdn.sanity.io/images/4rsg7ofo/production/da890a05ea0c84d780ff860a94178ae14ddc4455-4594x3063.jpg?w=1200&q=75&fit=clip&auto=format)
+![People facing a wall covered in charity collection tins, representing the challenge of choosing which worthy causes to support]({--{"author":"Luc's AI","timestamp":1787135861098}@@https://cdn.sanity.io/images/4rsg7ofo/production/da890a05ea0c84d780ff860a94178ae14ddc4455-4594x3063.jpg?w=1200&q=75&fit=clip&auto=format--}{++{"author":"Luc's AI","timestamp":1787135861098}@@https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/wYjMsKsEkDPgHeAbS/g1aoagy0u623kdyfasxk++})
 
 *We don't have infinite money, so we always need to choose which worthy cause to support.*
 
@@ -55,7 +55,7 @@ And this matters, because if we don't choose well, then we're either not giving 
 
 So, at first, every worthy cause — from cancer research, to climate justice, to animal sanctuaries, to preventing easily treatable diseases in places that we'll probably never visit — should be on the table... *except* that we also think it's better to help more people and we understand that we don't have the resources to help everyone. So we should first focus on the causes where we can help the most people for our limited time and money, **not just on those that we happen to have already heard about**.
 
-![Women in Uganda holding bales of insecticide-treated bednets provided by the Against Malaria Foundation, one of Giving What We Can's Top Charities](https://cdn.sanity.io/images/4rsg7ofo/production/c6ebaf0c37d6b01ff4045416b6d83639afd95cc9-2896x1944.jpg?w=1200&q=75&fit=clip&auto=format)
+![Women in Uganda holding bales of insecticide-treated bednets provided by the Against Malaria Foundation, one of Giving What We Can's Top Charities]({--{"author":"Luc's AI","timestamp":1787135861312}@@https://cdn.sanity.io/images/4rsg7ofo/production/c6ebaf0c37d6b01ff4045416b6d83639afd95cc9-2896x1944.jpg?w=1200&q=75&fit=clip&auto=format--}{++{"author":"Luc's AI","timestamp":1787135861312}@@https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/wYjMsKsEkDPgHeAbS/nbbvuynsnhzvyu7shir9++})
 
 *Women in Uganda holding bales of insecticide-treated bednets provided by the [Against Malaria Foundation](https://www.givingwhatwecan.org/charities/against-malaria-foundation), one of Giving What We Can's [Top Charities](https://www.givingwhatwecan.org/best-charities-to-donate-to-2026).*
 
