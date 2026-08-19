@@ -52,7 +52,7 @@ The big question, though, is whether we’ll actually be *able* to do AI for AI
 By “AI for AI safety,” I mean: any strategy that makes central use of future AI labor to improve our civilization’s competence with respect to the alignment problem, *without* assuming a need for radical, human-labor-driven alignment progress first. Let’s go through a few options in this respect, for the different security factors above.
 
 - **Safety progress**:
-	- Probably the most prominent application of AI for AI safety is **automated alignment research** – that is, using AIs to help with research on shaping AI motivations and local options in desirable ways.[^1] 
+	- Probably the most prominent application of AI for AI safety is **automated alignment research** – that is, using AIs to help with research on shaping AI motivations and local options in desirable {--{"author":"Luc's AI","timestamp":1787158968511}@@ways.[^1]--}{++{"author":"Luc's AI","timestamp":1787158968511}@@ways.[^note-carlsmith-1]++} 
 		- AIs already play an important role in various processes closely relevant to alignment – e.g. [evaluating AI outputs during training](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback), [labeling neurons in the context of mechanistic interpretability](https://openai.com/index/language-models-can-explain-neurons-in-language-models/), [monitoring AI chains of thought for reward-hacking behaviors](https://openai.com/index/chain-of-thought-monitoring/), [identifying which transcripts in an experiment contain alignment-faking behaviors](https://www.anthropic.com/research/alignment-faking), [classifying problematic inputs and outputs for the purpose of preventing jailbreaks](https://www.anthropic.com/news/constitutional-classifiers), etc. And of course, alignment researchers can benefit from the same general AI tools (e.g. coding, writing, brainstorming) that everyone else can; and the same tools for ML engineering, in particular, that other ML researchers can.
 		- In the future, though, we can imagine AIs that more fully automate the complete pipeline involved in generating new alignment-relevant ideas, critiquing them, identifying and running informative experiments, interpreting the results, and so on.[^2] Indeed, automation of this kind is a key focal point for safety efforts at some existing AI labs[^3]; and in my view, it’s the most important application of AI for AI safety. In my next essay, I’ll examine it in depth.
 	- Beyond automated alignment research, though, advanced AIs can also help with **hardening the broader world** so that it is more robust to efforts by rogue AIs to seek power.[^4] For example:
@@ -60,21 +60,21 @@ By “AI for AI safety,” I mean: any strategy that makes central use of future
 		- **Monitoring for rogue activity**: AIs could assist in monitoring for rogue AI activity, thereby making it harder for rogue AIs to operate undetected.[^6]
 		- **Anti-manipulation**: We could develop novel AI tools for detecting and blocking AI persuasion techniques aimed at manipulating humans.[^7]
 		- **Countermeasures to specific threat models**: AIs could assist in developing countermeasures to specific threat models for rogue AI attack, like biological weapons (via e.g. developing cheap and rapid diagnostics; improving disease surveillance, PPE and vaccine pipelines; developing novel countermeasures like [far-UVC](https://blueprintbiosecurity.org/works/built-environment-transmission-suppression/); etc).
-		- **Eating free energy**: More generally, non-rogue AIs operating and competing in the economy at large makes it harder for rogue AIs to easily gain outsized amounts of money and influence. (Though: I doubt this is the most leveraged place for safety efforts to focus).[^8]
+		- **Eating free energy**: More generally, non-rogue AIs operating and competing in the economy at large makes it harder for rogue AIs to easily gain outsized amounts of money and influence. (Though: I doubt this is the most leveraged place for safety efforts to {--{"author":"Luc's AI","timestamp":1787158971123}@@focus).[^8]--}{++{"author":"Luc's AI","timestamp":1787158971123}@@focus).[^cite-carlsmith-8]++}
 - **Risk evaluation**:
 	- Possibilities for **automated risk evaluation** include: automating the pipeline involved in designing and running evals, using AIs to help create and assess safety cases and cost-benefit analyses, using AI labor to assist in creating model organisms and other sources of evidence about AI risks, and using AI labor to generally improve our scientific understanding of how AI works. (Much of this intersects closely with automated alignment research, since progress on making AIs safe is closely tied to understanding how safe they are).
 	- The potential role for AI labor in **forecasting** is perhaps especially notable, in that forecasting affords especially concrete and quantitative feedback loops for use both in training the AIs, and in assessing the quality of their task-performance.
-	- And to the extent the **general quality of our collective epistemology** feeds into our risk evaluation in particular, AI can help notably with that too.[^9]
+	- And to the extent the **general quality of our collective epistemology** feeds into our risk evaluation in particular, AI can help notably with that {--{"author":"Luc's AI","timestamp":1787158972410}@@too.[^9]--}{++{"author":"Luc's AI","timestamp":1787158972410}@@too.[^cite-carlsmith-9]++}
 - **Capability restraint:**
 	- **Individual caution**: AI-assisted risk evaluation and forecasting can promote individual caution by helping relevant actors understand better what will happen if they engage in a given form of AI development/deployment; and AI advice might be able to help actors make wiser decisions, by their own lights, more generally.
 	- **Coordination**: AIs might be able to help significantly with facilitating different forms of coordination – for example, by functioning as negotiators, identifying more viable and mutually-beneficial deals, designing mechanisms for making relevant commitments more credible and verifiable, etc.
-	- **Restricted options and enforcement**: AIs might be able to help develop new and/or better technologies (including: AI technologies) for monitoring and enforcement – e.g., on-chip monitoring mechanisms, offensive cyber techniques for shutting down dangerous projects, highly trustworthy and privacy-preserving inspection capacity, etc. They could also help with designing and implementing more effective policies on issues like export controls and domestic regulation. And in the limit of direct military enforcement, obviously AIs could play a role in the relevant militaries.[^10]
+	- **Restricted options and enforcement**: AIs might be able to help develop new and/or better technologies (including: AI technologies) for monitoring and enforcement – e.g., on-chip monitoring mechanisms, offensive cyber techniques for shutting down dangerous projects, highly trustworthy and privacy-preserving inspection capacity, etc. They could also help with designing and implementing more effective policies on issues like export controls and domestic regulation. And in the limit of direct military enforcement, obviously AIs could play a role in the relevant {--{"author":"Luc's AI","timestamp":1787158973765}@@militaries.[^10]--}{++{"author":"Luc's AI","timestamp":1787158973765}@@militaries.[^note-carlsmith-10]++}
 	- **Broader attitudes and incentives**: AI labor can also play a role in shaping the broader attitudes and incentives that determine how our civilization responds to misalignment risk – e.g., by helping with communication about the risks at stake.
 
 In my [previous essay](https://joecarlsmith.substack.com/p/paths-and-waystations-in-ai-safety), I also included a catch-all security factor that I called “**backdrop capacity**,” which covered our civilization’s general levels of abundance, happiness, health, efficiency, institution quality, epistemology, wisdom, virtue, and so on.
 
 - Relative to the more specific security factors above, the influence of backdrop capacity on loss of control risk is more diffuse, so I doubt that safety-focused efforts should actively focus on it.
-- But I do think that at least in scenarios where there’s time for AI to significantly impact the economy before full-blown superintelligence is created, AI labor will likely be able to improve our backdrop capacity in a huge number of ways,[^11] and that this could make an important difference to our civilizational competence.[^12]
+- But I do think that at least in scenarios where there’s time for AI to significantly impact the economy before full-blown superintelligence is created, AI labor will likely be able to improve our backdrop capacity in a huge number of {--{"author":"Luc's AI","timestamp":1787158974763}@@ways,[^11]--}{++{"author":"Luc's AI","timestamp":1787158974763}@@ways,[^cite-carlsmith-11]++} and that this could make an important difference to our civilizational {--{"author":"Luc's AI","timestamp":1787158974763}@@competence.[^12]--}{++{"author":"Luc's AI","timestamp":1787158974763}@@competence.[^note-carlsmith-12]++}
 
 I’ll also note one final application of AI for AI safety: namely, using AI labor to assist in unlocking the sort of **enhanced human labor** I discussed in [my last essay](https://joecarlsmith.substack.com/i/158809605/sources-of-labor), which could then itself be used to improve the security factors discussed above.
 
@@ -84,9 +84,9 @@ Analyzing all of these potential applications of AI for AI safety in detail is b
 
 ## 2.1 A tale of two feedback loops
 
-Here’s a way of thinking about “AI for AI safety” that I’ve found useful.[^13] 
+Here’s a way of thinking about “AI for AI safety” that I’ve found {--{"author":"Luc's AI","timestamp":1787158975808}@@useful.[^13]--}{++{"author":"Luc's AI","timestamp":1787158975808}@@useful.[^note-carlsmith-13]++} 
 
-The scariest AI scenarios, in my opinion, involve what we might call an “AI capability feedback loop,” in which the automation of the R&D involved in advancing AI capabilities leads to rapid escalation of frontier AI capabilities – the so-called “intelligence explosion.”[^14] Here’s a simple diagram, applied to the toy model of AI safety I described in my last essay (and focusing, for even more simplicity, only on a single actor).[^15]
+The scariest AI scenarios, in my opinion, involve what we might call an “AI capability feedback loop,” in which the automation of the R&D involved in advancing AI capabilities leads to rapid escalation of frontier AI capabilities – the so-called “intelligence {--{"author":"Luc's AI","timestamp":1787158977009}@@explosion.”[^14]--}{++{"author":"Luc's AI","timestamp":1787158977009}@@explosion.”[^cite-carlsmith-14]++} Here’s a simple diagram, applied to the toy model of AI safety I described in my last essay (and focusing, for even more simplicity, only on a single {--{"author":"Luc's AI","timestamp":1787158977009}@@actor).[^15]--}{++{"author":"Luc's AI","timestamp":1787158977009}@@actor).[^note-carlsmith-15]++}
 
 ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/98da3c8b3ba412edb42efa92d67193c49b4e5755227c23e2d23377ae10bb8f8c/urygji7zwekgymdll8wv)
 
@@ -100,17 +100,17 @@ By contrast, many forms of “AI for AI safety” focus on strengthening a diffe
 
 ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/b1f8b051e9620912b6eb5d65aebc8f8399708ee566a5b40a0248dbe263a6bdd3/gbgrb7sjxl8zqdkggsco)
 
-So one way of thinking about “AI for AI safety” is in terms of the interplay between these two feedback loops – where the aim is for the AI safety feedback loop to continually secure the AI capability feedback loop, via some combination of (a) outpacing it (i.e., by expanding the safety range fast enough that the capability frontier never exceeds it), and (b) restraining it (i.e., strengthening our capacities for risk evaluation and capability restraint enough to hold off on pushing the capability frontier when necessary).[^16]
+So one way of thinking about “AI for AI safety” is in terms of the interplay between these two feedback loops – where the aim is for the AI safety feedback loop to continually secure the AI capability feedback loop, via some combination of (a) outpacing it (i.e., by expanding the safety range fast enough that the capability frontier never exceeds it), and (b) restraining it (i.e., strengthening our capacities for risk evaluation and capability restraint enough to hold off on pushing the capability frontier when {--{"author":"Luc's AI","timestamp":1787158978062}@@necessary).[^16]--}{++{"author":"Luc's AI","timestamp":1787158978062}@@necessary).[^note-carlsmith-16]++}
 
 ## 2.2 Contrast with “need human-labor-driven radical alignment progress” views
 
 “AI for AI safety” is not an especially specific strategy. Indeed, in some sense, its central claim is just: “AI labor is really important for dealing well with the alignment problem; try really hard to use AI labor to help.” And this might sound obvious.
 
-Still, some people disagree. In particular: some people endorse what I’ll call “need human-labor-driven radical alignment progress views,” on which AI labor will remain some combination of unhelpful and unsafe absent radical progress on alignment – progress that therefore needs to be driven by some form of *human* labor instead.[^17] Thus, in a diagram:
+Still, some people disagree. In particular: some people endorse what I’ll call “need human-labor-driven radical alignment progress views,” on which AI labor will remain some combination of unhelpful and unsafe absent radical progress on alignment – progress that therefore needs to be driven by some form of *human* labor {--{"author":"Luc's AI","timestamp":1787158979056}@@instead.[^17]--}{++{"author":"Luc's AI","timestamp":1787158979056}@@instead.[^cite-carlsmith-17]++} Thus, in a diagram:
 
 ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/2518bd3fd867c05e78e4e5cea805139c44209e2a742e2403462f6ed202426562/gnlpltzzc2favqohrmfr)
 
-We can also distinguish a sub-type of this sort of view – namely, one on which *unenhanced* human labor *also* isn’t enough to meaningfully help with alignment (though: maybe it can help with other security factors).[^18] On these views, we will specifically need to unlock *enhanced* human labor, before we can make enough alignment progress to safely and meaningfully benefit from advanced AI labor. And because unlocking enhanced human labor will likely take a while, we will likely need some serious capability restraint (e.g., a sustained global pause) in the meantime. (This, as I understand it, is the rough view of the leadership at the Machine Intelligence Research Institute.[^19])
+We can also distinguish a sub-type of this sort of view – namely, one on which *unenhanced* human labor *also* isn’t enough to meaningfully help with alignment (though: maybe it can help with other security {--{"author":"Luc's AI","timestamp":1787158980484}@@factors).[^18]--}{++{"author":"Luc's AI","timestamp":1787158980484}@@factors).[^note-carlsmith-18]++} On these views, we will specifically need to unlock *enhanced* human labor, before we can make enough alignment progress to safely and meaningfully benefit from advanced AI labor. And because unlocking enhanced human labor will likely take a while, we will likely need some serious capability restraint (e.g., a sustained global pause) in the meantime. (This, as I understand it, is the rough view of the leadership at the Machine Intelligence Research {--{"author":"Luc's AI","timestamp":1787158980484}@@Institute.[^19])--}{++{"author":"Luc's AI","timestamp":1787158980484}@@Institute.[^cite-carlsmith-19])++}
 
 I’ll call these views “need *enhanced*\-human-labor-driven alignment progress” views. Thus, in a diagram:
 
@@ -122,11 +122,11 @@ Below I’ll discuss the sorts of objections that motivate views like these. For
 
 ## 2.3 Contrast with a few other ideas in the literature
 
-I’ll also briefly note a few other contrasts with related ideas in the literature,[^20] notably:
+I’ll also briefly note a few other contrasts with related ideas in the {--{"author":"Luc's AI","timestamp":1787158981575}@@literature,[^20]--}{++{"author":"Luc's AI","timestamp":1787158981575}@@literature,[^note-carlsmith-20]++} notably:
 
-- **D/acc**: “AI for AI safety” is closely related to what [Buterin (2023](https://vitalik.eth.limo/general/2023/11/27/techno_optimism.html)) calls “d/acc,”[^21] which focuses on differentially developing beneficial (and in particular, in Buterin’s framing, “defensive”/“decentralized”/“democratic”) forms of technology relative to harmful forms.[^22] And we can view the interplay between the two feedback loops discussed above through a similar lens – that is, the goal is to differentially direct the glut of productivity that AI progress makes possible into the AI safety feedback loop, relative to the AI capability feedback loop. But Buterin is interested in differential technological development very broadly (not just AI-driven technological development), with respect to a wide array of issues (e.g., Covid, authoritarianism, etc); whereas I’m specifically interested in *AI labor* being applied to improving the security factors that help with addressing the alignment problem in particular. And this narrower focus makes clearer how a beneficial “feedback loop” might get going.[^23]
+- **D/acc**: “AI for AI safety” is closely related to what [Buterin (2023](https://vitalik.eth.limo/general/2023/11/27/techno_optimism.html)) calls {--{"author":"Luc's AI","timestamp":1787158982674}@@“d/acc,”[^21]--}{++{"author":"Luc's AI","timestamp":1787158982674}@@“d/acc,”[^cite-carlsmith-21]++} which focuses on differentially developing beneficial (and in particular, in Buterin’s framing, “defensive”/“decentralized”/“democratic”) forms of technology relative to harmful {--{"author":"Luc's AI","timestamp":1787158982674}@@forms.[^22]--}{++{"author":"Luc's AI","timestamp":1787158982674}@@forms.[^note-carlsmith-22]++} And we can view the interplay between the two feedback loops discussed above through a similar lens – that is, the goal is to differentially direct the glut of productivity that AI progress makes possible into the AI safety feedback loop, relative to the AI capability feedback loop. But Buterin is interested in differential technological development very broadly (not just AI-driven technological development), with respect to a wide array of issues (e.g., Covid, authoritarianism, etc); whereas I’m specifically interested in *AI labor* being applied to improving the security factors that help with addressing the alignment problem in particular. And this narrower focus makes clearer how a beneficial “feedback loop” might get {--{"author":"Luc's AI","timestamp":1787158982674}@@going.[^23]--}{++{"author":"Luc's AI","timestamp":1787158982674}@@going.[^note-carlsmith-23]++}
 - **Automated alignment research**: As I noted above, automated alignment research is an especially important form of AI for AI safety (and one I’ll analyze in detail in the next essay); but AI for AI safety covers a variety of other applications as well.
-- **Pivotal acts**: Some approaches to AI safety attempt to identify some “[pivotal act](https://www.alignmentforum.org/w/pivotal)” – i.e., an action that drastically improves the situation with respect to AI safety – that we use AI systems to perform.[^24] This is similar to “AI for AI safety” in its central focus on advanced AI labor – that is, first one gets access to some kind of pivotally useful AI system, and then one “saves the world” from there. But even assuming the world needs “saving,”[^25] I think that thinking in terms of discrete “pivotal acts” can easily mislead us about sorts of improvements to our security factors required in order for the world to get “saved.” In particular: those improvements can result from a very large assortment of individual actions by a very large number of different agents (and/or non-agentic AI systems), no individual one of which needs to be dramatically pivotal (we might call this a “pivotal act by a thousand cuts”).[^26]
+- **Pivotal acts**: Some approaches to AI safety attempt to identify some “[pivotal act](https://www.alignmentforum.org/w/pivotal)” – i.e., an action that drastically improves the situation with respect to AI safety – that we use AI systems to {--{"author":"Luc's AI","timestamp":1787158983749}@@perform.[^24]--}{++{"author":"Luc's AI","timestamp":1787158983749}@@perform.[^cite-carlsmith-24]++} This is similar to “AI for AI safety” in its central focus on advanced AI labor – that is, first one gets access to some kind of pivotally useful AI system, and then one “saves the world” from there. But even assuming the world needs {--{"author":"Luc's AI","timestamp":1787158983749}@@“saving,”[^25]--}{++{"author":"Luc's AI","timestamp":1787158983749}@@“saving,”[^note-carlsmith-25]++} I think that thinking in terms of discrete “pivotal acts” can easily mislead us about sorts of improvements to our security factors required in order for the world to get “saved.” In particular: those improvements can result from a very large assortment of individual actions by a very large number of different agents (and/or non-agentic AI systems), no individual one of which needs to be dramatically pivotal (we might call this a “pivotal act by a thousand {--{"author":"Luc's AI","timestamp":1787158983749}@@cuts”).[^26]--}{++{"author":"Luc's AI","timestamp":1787158983749}@@cuts”).[^cite-carlsmith-26]++}
 
 # 3\. Why is AI for AI safety so important?
 
@@ -151,14 +151,14 @@ Thus, in a diagram:
 
 The AI for AI safety sweet spot is important, I think, because it’s an especially salient target for efforts at capability restraint:
 
-- That is: to extent one has a limited budget of capability restraint, applying it once you’re within the AI for AI safety sweet spot, relative to beforehand, makes it possible for the time you buy to go towards radical, AI-driven improvements to our civilizational competence; whereas this is less true of earlier “pauses.”[^29]
+- That is: to extent one has a limited budget of capability restraint, applying it once you’re within the AI for AI safety sweet spot, relative to beforehand, makes it possible for the time you buy to go towards radical, AI-driven improvements to our civilizational competence; whereas this is less true of earlier {--{"author":"Luc's AI","timestamp":1787158985555}@@“pauses.”[^29]--}{++{"author":"Luc's AI","timestamp":1787158985555}@@“pauses.”[^note-carlsmith-29]++}
 - Whereas applying capability restraint *later* means working with AI systems that are in a position to disempower all of humanity – a scarier position (more on this below).
 
-Note that in principle, different security factors might have different sweet spots – e.g. maybe the capability level required to use AIs to help with coordination is lower than the level required to use AIs for alignment research.[^30] And note, also, that you can expand the AI for AI safety sweet spot by improving your countermeasures – and that AI labor can help with this.
+Note that in principle, different security factors might have different sweet spots – e.g. maybe the capability level required to use AIs to help with coordination is lower than the level required to use AIs for alignment {--{"author":"Luc's AI","timestamp":1787158986279}@@research.[^30]--}{++{"author":"Luc's AI","timestamp":1787158986279}@@research.[^note-carlsmith-30]++} And note, also, that you can expand the AI for AI safety sweet spot by improving your countermeasures – and that AI labor can help with this.
 
 ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/f45d9ff6729b7065f25940354d80807bcb50d392ada44313130215e6d7261061/ksakanzewp5ofh9mq3bh)
 
-Indeed, some strategies in the vicinity of “AI for AI safety” have roughly the following structure:[^31] 
+Indeed, some strategies in the vicinity of “AI for AI safety” have roughly the following {--{"author":"Luc's AI","timestamp":1787158986971}@@structure:[^31]--}{++{"author":"Luc's AI","timestamp":1787158986971}@@structure:[^note-carlsmith-31]++} 
 
 - **Step 1**: Get to/create the AI for AI safety sweet spot.
 - **Step 2**: Stay there for as long as possible.
@@ -176,23 +176,23 @@ Overall, then, I don’t think there’s any kind of knock-down argument for foc
 
 ## 4.1 The AI for AI safety spicy zone
 
-Can we expand the AI for AI safety sweet spot to include full-blown superintelligent agents – i.e., agents that are safe because they don’t have any options for disempowering humanity? In a later essay, I’ll discuss some of the key difficulties with relying purely on option control in the context of superintelligences[^32] – difficulties that make me expect that motivation control will eventually need to play at least some role in ensuring safety. But I don’t think this is totally obvious.
+Can we expand the AI for AI safety sweet spot to include full-blown superintelligent agents – i.e., agents that are safe because they don’t have any options for disempowering humanity? In a later essay, I’ll discuss some of the key difficulties with relying purely on option control in the context of {--{"author":"Luc's AI","timestamp":1787158987765}@@superintelligences[^32]--}{++{"author":"Luc's AI","timestamp":1787158987765}@@superintelligences[^note-carlsmith-32]++} – difficulties that make me expect that motivation control will eventually need to play at least some role in ensuring safety. But I don’t think this is totally obvious.
 
-Assuming we can’t rely solely on option control all the way up through superintelligent AI agents, though, then at some point (if we’re building superintelligent AI agents at all – recall that we don’t have to), we’re going to need to exit the AI for AI safety sweet spot. Importantly, though, this doesn’t mean that “AI for AI safety” is no longer viable. Rather, we just need to have made enough progress on *motivation control* to do it safely – and we need to keep making adequate progress in this respect as the capability frontier advances.[^33]
+Assuming we can’t rely solely on option control all the way up through superintelligent AI agents, though, then at some point (if we’re building superintelligent AI agents at all – recall that we don’t have to), we’re going to need to exit the AI for AI safety sweet spot. Importantly, though, this doesn’t mean that “AI for AI safety” is no longer viable. Rather, we just need to have made enough progress on *motivation control* to do it safely – and we need to keep making adequate progress in this respect as the capability frontier {--{"author":"Luc's AI","timestamp":1787158988525}@@advances.[^33]--}{++{"author":"Luc's AI","timestamp":1787158988525}@@advances.[^note-carlsmith-33]++}
 
 Let’s call this sort of capability level the “AI for AI safety spicy zone.”
 
 ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/99021a4b32eb580f54e68440ad09203fdbaf3e51b7f2c15b835c42bb21820562/gwtqmhezjfzxisov89gx)
 
-I’m calling this zone “spicy” because it involves entering what I called, in the appendix of my second essay, a “[vulnerability to motivations](https://joecarlsmith.substack.com/i/157445591/appendix-a-typology-of-vulnerability-conditions)” condition. That is: AIs, at this point, are in a position to disempower humanity, and we are relying on them to choose not to do so. This is a much scarier position to be in than one in which the AIs have no such option.[^34]
+I’m calling this zone “spicy” because it involves entering what I called, in the appendix of my second essay, a “[vulnerability to motivations](https://joecarlsmith.substack.com/i/157445591/appendix-a-typology-of-vulnerability-conditions)” condition. That is: AIs, at this point, are in a position to disempower humanity, and we are relying on them to choose not to do so. This is a much scarier position to be in than one in which the AIs have no such {--{"author":"Luc's AI","timestamp":1787158989280}@@option.[^34]--}{++{"author":"Luc's AI","timestamp":1787158989280}@@option.[^note-carlsmith-34]++}
 
-Note, though, that [as I discussed in my second essay](https://joecarlsmith.substack.com/i/157445591/what-about-the-incentive-prerequisites), the vulnerability at stake in the AI for AI safety spicy zone still comes along a spectrum. In particular: it increases when AI systems can disempower humanity via *more* paths, *more* easily[^35]; when smaller numbers of AIs can do it, with less coordination; and so on.[^36] 
+Note, though, that [as I discussed in my second essay](https://joecarlsmith.substack.com/i/157445591/what-about-the-incentive-prerequisites), the vulnerability at stake in the AI for AI safety spicy zone still comes along a spectrum. In particular: it increases when AI systems can disempower humanity via *more* paths, *more* {--{"author":"Luc's AI","timestamp":1787158989992}@@easily[^35];--}{++{"author":"Luc's AI","timestamp":1787158989992}@@easily[^note-carlsmith-35];++} when smaller numbers of AIs can do it, with less coordination; and so {--{"author":"Luc's AI","timestamp":1787158989992}@@on.[^36]--}{++{"author":"Luc's AI","timestamp":1787158989992}@@on.[^note-carlsmith-36]++} 
 
 ## 4.2 Can we benefit from a sweet spot?
 
 Will we be in a position to benefit from an AI for AI safety sweet spot? It’s not all clear. Here I’ll note a few salient worries. (And note that these worries can apply to milder versions of the “spicy zone” as well.)
 
-The first is just that: there won’t be a sweet spot at all. That is: by the time frontier AIs are capable enough to radically improve our civilizational competence, they’ll also be in a position to disempower humanity, even given our countermeasures. Call this a “no sweet spot view.”[^37] 
+The first is just that: there won’t be a sweet spot at all. That is: by the time frontier AIs are capable enough to radically improve our civilizational competence, they’ll also be in a position to disempower humanity, even given our countermeasures. Call this a “no sweet spot {--{"author":"Luc's AI","timestamp":1787158990783}@@view.”[^37]--}{++{"author":"Luc's AI","timestamp":1787158990783}@@view.”[^note-carlsmith-37]++} 
 
 ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/db10664a25f9ee48bc87480824ce41d70ac3b9bf2476d8affc67dd5f02f52ec6/imm9gvtuhwx3zcbjqeri)
 
@@ -204,7 +204,7 @@ Finally, you might think that there will be a large enough sweet spot to spend m
 
 ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/F3j4xqpxjxgQD3xXh/rtsrufpys0ybwvotod9i)
 
-And we can imagine a variety of other concerns besides.[^38] Indeed, these concerns tend to mirror the core concerns about AI for AI safety more generally. Let’s look at those more directly now.
+And we can imagine a variety of other concerns {--{"author":"Luc's AI","timestamp":1787158991575}@@besides.[^38]--}{++{"author":"Luc's AI","timestamp":1787158991575}@@besides.[^note-carlsmith-38]++} Indeed, these concerns tend to mirror the core concerns about AI for AI safety more generally. Let’s look at those more directly now.
 
 # 5\. Objections to AI for AI safety
 
@@ -226,7 +226,7 @@ These three core objections can arise, in various guises, with respect to any ap
 
 ## 5.2 Other practical concerns
 
-Beyond these three core objections, we can also note a variety of other concerns about AI for AI safety – concerns that focus less on whether AI for AI safety is viable in principle, and more on whether or not, in practice, we would do it right. Of these, I worry most about the following (but see footnote for a few others[^39]):
+Beyond these three core objections, we can also note a variety of other concerns about AI for AI safety – concerns that focus less on whether AI for AI safety is viable in principle, and more on whether or not, in practice, we would do it right. Of these, I worry most about the following (but see footnote for a few {--{"author":"Luc's AI","timestamp":1787158992296}@@others[^39]):--}{++{"author":"Luc's AI","timestamp":1787158992296}@@others[^note-carlsmith-39]):++}
 
 - **Uneven capability arrival**: the sorts of capabilities necessary for AI for AI safety will arrive much *later* than the capabilities necessary for automating capabilities R&D, thereby significantly disadvantaging the AI safety feedback loop relative to the AI capabilities feedback loop.
 - **Inadequate time**: Even setting aside uneven capability arrival, by the time we’re in a position to use AI systems to meaningfully help us with AI safety goals, there won’t be enough time left before the AI capability feedback loop pushes us into catastrophe.
@@ -236,39 +236,39 @@ I think that these more practical concerns are real and important as well. And h
 
 In my next essay, I’ll look at these objections – both the more fundamental objections, and the more practical objections – in more detail. And I’m going to focus, in particular, on their relevance to the application of AI for AI safety that I view as most important: namely, automating alignment research.
 
-[^1]:
+{--{"author":"Luc's AI","timestamp":1787158993002}@@[^1]:--}{++{"author":"Luc's AI","timestamp":1787158993002}@@[^note-carlsmith-1]:++}
 	 I think people generally use the term “alignment research” in a way that covers both motivation control and local forms of option control (e.g. oversight and monitoring; and not: hardening the broader world), and I’m going to do this, too. And I’m going to include what I’ve previously called “incentive design” – that is, research on what sorts of incentives give rise to cooperative behavior – as well.
-[^2]:
+{--{"author":"Luc's AI","timestamp":1787158993773}@@[^2]:--}{++{"author":"Luc's AI","timestamp":1787158993773}@@[^note-carlsmith-2]:++}
 	 This also includes identifying and developing more safety-conducive routes towards capability progress – including, e.g., routes that don’t rely on agentic systems; routes that proceed via new and more verifiably-secure paradigms, etc.
-[^3]:
+{--{"author":"Luc's AI","timestamp":1787158994477}@@[^3]:--}{++{"author":"Luc's AI","timestamp":1787158994477}@@[^note-carlsmith-3]:++}
 	 Thus, as I discussed in my [last essay](https://joecarlsmith.substack.com/p/paths-and-waystations-in-ai-safety): this is the waystation that OpenAI’s old “superalignment” team was focusing on – see e.g. discussion [here](https://openai.com/index/introducing-superalignment/): “Our goal is to build a roughly human-level [automated alignment researcher⁠](https://openai.com/blog/our-approach-to-alignment-research). We can then use vast amounts of compute to scale our efforts, and iteratively align superintelligence.” And something in the vicinity is suggested by [Sam Bowman’s description of Anthropic’s theory of victory on AI as well](https://sleepinyourhat.github.io/checklist/) (see especially section 2 on “[TAI, or Making the AI do our homework](https://sleepinyourhat.github.io/checklist/#ch2)”).
-[^4]:
+{--{"author":"Luc's AI","timestamp":1787158995167}@@[^4]:--}{++{"author":"Luc's AI","timestamp":1787158995167}@@[^note-carlsmith-4]:++}
 	 This is a form of non-local “option control,” but it still falls under “safety progress” on my definition. And note that “backdrop capacity,” discussed below, intersects in important ways with hardening the world to AI attack.
-[^5]:
+{--{"author":"Luc's AI","timestamp":1787158995907}@@[^5]:--}{++{"author":"Luc's AI","timestamp":1787158995907}@@[^note-carlsmith-5]:++}
 	 Though note that not all the effects of this on the strategic landscape are necessarily positive. Thus, for example, some of the less aggressive forms of “[mutually-assured AI malfunction](https://arxiv.org/abs/2503.05628)” involve different actors being able to sabotage each other’s projects using cyberattacks.
-[^6]:
+{--{"author":"Luc's AI","timestamp":1787158996653}@@[^6]:--}{++{"author":"Luc's AI","timestamp":1787158996653}@@[^note-carlsmith-6]:++}
 	 This could include gathering and processing vastly larger amounts of information than humans have hitherto been able to process.
-[^7]:
+{--{"author":"Luc's AI","timestamp":1787158997365}@@[^7]:--}{++{"author":"Luc's AI","timestamp":1787158997365}@@[^cite-carlsmith-7]:++}
 	 See [Davidson (2023)](https://www.alignmentforum.org/posts/zxmzBTwKkPMxQQcfR/let-s-use-ai-to-harden-human-defenses-against-ai) for more here.
-[^8]:
+{--{"author":"Luc's AI","timestamp":1787158998198}@@[^8]:--}{++{"author":"Luc's AI","timestamp":1787158998198}@@[^cite-carlsmith-8]:++}
 	 See [Karnofsky (2022)](https://www.alignmentforum.org/posts/rCJQAkPTEypGjSJ8X/how-might-we-align-transformative-ai-if-it-s-developed-very) for more.
-[^9]:
+{--{"author":"Luc's AI","timestamp":1787158998987}@@[^9]:--}{++{"author":"Luc's AI","timestamp":1787158998987}@@[^cite-carlsmith-9]:++}
 	  See e.g. [Lukas Finnveden’s discussion of “AI for epistemics”](https://forum.effectivealtruism.org/posts/jPKoNFRowKJwGgGyy/what-s-important-in-ai-for-epistemics) for more.
-[^10]:
+{--{"author":"Luc's AI","timestamp":1787158999737}@@[^10]:--}{++{"author":"Luc's AI","timestamp":1787158999737}@@[^note-carlsmith-10]:++}
 	  Though: this is one of the scariest applications of AI for AI safety, and worth special caution.
-[^11]:
+{--{"author":"Luc's AI","timestamp":1787159000593}@@[^11]:--}{++{"author":"Luc's AI","timestamp":1787159000593}@@[^cite-carlsmith-11]:++}
 	 See e.g. Amodei’s “[Machines of Loving Grace](https://darioamodei.com/machines-of-loving-grace)” for some discussion.
-[^12]:
+{--{"author":"Luc's AI","timestamp":1787159001442}@@[^12]:--}{++{"author":"Luc's AI","timestamp":1787159001442}@@[^note-carlsmith-12]:++}
 	 Though of course: AI could also degrade our backdrop capacity in lots of ways as well – and in scenarios with a fast and disruptive transition to advanced AI, we might expect a lot of this, too.
-[^13]:
+{--{"author":"Luc's AI","timestamp":1787159002186}@@[^13]:--}{++{"author":"Luc's AI","timestamp":1787159002186}@@[^note-carlsmith-13]:++}
 	 I think I first heard this framing from Carl Shulman.
-[^14]:
+{--{"author":"Luc's AI","timestamp":1787159002941}@@[^14]:--}{++{"author":"Luc's AI","timestamp":1787159002941}@@[^cite-carlsmith-14]:++}
 	 See e.g. [here](https://situational-awareness.ai/from-agi-to-superintelligence/) and [here](https://www.openphilanthropy.org/research/what-a-compute-centric-framework-says-about-takeoff-speeds/) for more discussion. Note that the intelligence explosion need not involve AI systems literally improving *themselves* – i.e., recursive *self*-improvement. Nor need it involve the automation of ~all tasks in the economy.
-[^15]:
+{--{"author":"Luc's AI","timestamp":1787159003668}@@[^15]:--}{++{"author":"Luc's AI","timestamp":1787159003668}@@[^note-carlsmith-15]:++}
 	Though: note that not all scary AI scenarios involve this feedback loop. For example: the creation of the AI systems that disempower humans might be driven centrally by human labor.
-[^16]:
+{--{"author":"Luc's AI","timestamp":1787159004359}@@[^16]:--}{++{"author":"Luc's AI","timestamp":1787159004359}@@[^note-carlsmith-16]:++}
 	 Though: note that to the extent that we end up relying heavily on *restraining* further increases in frontier AI capability, the AI safety feedback loop also won’t be able to benefit from more capable forms of AI labor, and so the “feedback” aspect will be correspondingly stalled.
-[^17]:
+{--{"author":"Luc's AI","timestamp":1787159005147}@@[^17]:--}{++{"author":"Luc's AI","timestamp":1787159005147}@@[^cite-carlsmith-17]:++}
 	 See e.g. [Leahy et al (2024)](https://www.thecompendium.ai/) for an example: “The iterative alignment strategy has an ordering error – we first need to achieve alignment to safely and effectively leverage AIs… Fundamentally, the problem with iterative alignment is that it never pays the cost of alignment. Somewhere along the story, alignment gets implicitly solved – yet no one ever proposes an actual plan for doing so beyond ‘the (unaligned) AIs will help us’.”
 [^18]:
 	 Or at least, unenhanced human labor of the form that will likely, in practice, be brought to bear.
