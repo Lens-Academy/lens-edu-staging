@@ -19,7 +19,7 @@ Add discussion note here:
 
 %%
 
-# What the program is about
+# What the program is {--{"author":"Luc's AI","timestamp":1787133748596}@@about--}{++{"author":"Luc's AI","timestamp":1787133748596}@@about[^1]++}
 
 **Effective altruism (EA) is an ongoing project to find the best ways to do good, and put them into practice.**
 
