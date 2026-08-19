@@ -60,11 +60,11 @@ Building something complicated without an explicit plan is risky. From skyscrape
 
 In the same way that you wouldn’t hire a builder who intends to build you a home without a blueprint, you shouldn’t fund a leader who intends to build an organization or launch a project without a theory of change. If the builder planned to create something particularly cutting-edge, like a home made entirely out of recycled cardboard that doesn’t need heating or cooling, you’d be particularly adamant that the builder explains exactly how this is possible and what evidence or assumptions it depends on. The same applies when it comes to funding an ambitious project that aims to improve the world. 
 
-A theory of change explicitly articulates the logical steps of a plan to achieve a specific goal. It is generally represented in the form of a cause-and-effect diagram. A well-designed theory of change allows an organization to clearly communicate its activities and how they lead to the desired outcomes, and then to {--{"author":"Luc's AI","timestamp":1787158935178}@@impact.[^1]![](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/9t7St3pfEEiDsQ2Tr/iw6pot016dtf8fljan7m)--}{++{"author":"Luc's AI","timestamp":1787158935178}@@impact.[^note-alexander-1]![](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/9t7St3pfEEiDsQ2Tr/iw6pot016dtf8fljan7m)++}
+A theory of change explicitly articulates the logical steps of a plan to achieve a specific goal. It is generally represented in the form of a cause-and-effect diagram. A well-designed theory of change allows an organization to clearly communicate its activities and how they lead to the desired outcomes, and then to impact.[^note-alexander-1]![](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/9t7St3pfEEiDsQ2Tr/iw6pot016dtf8fljan7m)
 
 In fact, theories of change are more important for charities than business models are for businesses, because businesses have better feedback loops. If a for-profit is based on a bad idea, or is badly executed, it will see poor revenue and it will soon go out of business. On the other hand, if a charity is ineffective, it may limp along for years without having any impact, squandering limited funding and talent in the process.
 
-Foundations deciding which opportunities to fund should expect a clear theory of change as table-stakes for potential grantees. In addition to spelling out how the potential grantee intends to convert your funding into impact, theories of change will allow you to determine how confident you can be that impact will be achieved. Is the causal chain tight, or convoluted? Are the steps well substantiated by evidence, or based on tenuous assumptions? Can any assumptions be easily tested? What is the crux that the project’s success depends on? A smart nonprofit will use its theory of change to identify its priorities for measurement and evaluation, and as the blueprint for its first cost-effectiveness {--{"author":"Luc's AI","timestamp":1787158936169}@@analysis,[^2]--}{++{"author":"Luc's AI","timestamp":1787158936169}@@analysis,[^note-alexander-2]++} which foundations can then use to inform funding decisions.
+Foundations deciding which opportunities to fund should expect a clear theory of change as table-stakes for potential grantees. In addition to spelling out how the potential grantee intends to convert your funding into impact, theories of change will allow you to determine how confident you can be that impact will be achieved. Is the causal chain tight, or convoluted? Are the steps well substantiated by evidence, or based on tenuous assumptions? Can any assumptions be easily tested? What is the crux that the project’s success depends on? A smart nonprofit will use its theory of change to identify its priorities for measurement and evaluation, and as the blueprint for its first cost-effectiveness analysis,[^note-alexander-2] which foundations can then use to inform funding decisions.
 
 ## Real world examples
 
@@ -79,7 +79,7 @@ This is not a good theory of change. It doesn’t properly outline the goal, it 
 Compare this implicit model to an explicit theory of change published by a young charity after they went through one of Charity Entrepreneurship’s early incubation programs:
 
   
-{--{"author":"Luc's AI","timestamp":1787158936669}@@![](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/9t7St3pfEEiDsQ2Tr/bzgcigszvg0zvvjeqrm2)[^3]--}{++{"author":"Luc's AI","timestamp":1787158936669}@@![](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/9t7St3pfEEiDsQ2Tr/bzgcigszvg0zvvjeqrm2)[^cite-alexander-3]++}
+![](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/9t7St3pfEEiDsQ2Tr/bzgcigszvg0zvvjeqrm2)[^cite-alexander-3]
 
 On the left, you can see the charity's core research agenda at a glance (the inputs/activities). On the right, you can see some measurable metrics such as money moved, new projects, and hires made (intermediate outcomes) which lead to the final impact – happier lives.
 
@@ -95,7 +95,7 @@ That being said, this theory of change has significant room for improvement. In 
 
 ### Example 2: A conditional cash transfer program
 
-Below is a theory of change for a program that uses cash transfers to increase child immunization rates in {--{"author":"Luc's AI","timestamp":1787158937144}@@India.[^4]--}{++{"author":"Luc's AI","timestamp":1787158937144}@@India.[^cite-alexander-4]++} The program has two “input” actions: providing resources to keep immunization camps reliably open, and providing cash incentives to people who get vaccinated. 
+Below is a theory of change for a program that uses cash transfers to increase child immunization rates in India.[^cite-alexander-4] The program has two “input” actions: providing resources to keep immunization camps reliably open, and providing cash incentives to people who get vaccinated. 
 
 ![](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/9t7St3pfEEiDsQ2Tr/pienpzpwtrqyfsf2fav6)
 
@@ -103,7 +103,7 @@ What’s particularly attractive about this theory of change is how measurable e
 
 ![](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/9t7St3pfEEiDsQ2Tr/zuw0vepu782xstme0hyw)
 
-As a result of the clear, measurable theory of change, J-PAL (The Abdul Latif Jameel Poverty Action Lab) was able to evaluate the performance of the program to come to a view on its {--{"author":"Luc's AI","timestamp":1787158937482}@@cost-effectiveness.[^5]--}{++{"author":"Luc's AI","timestamp":1787158937482}@@cost-effectiveness.[^cite-alexander-5]++}
+As a result of the clear, measurable theory of change, J-PAL (The Abdul Latif Jameel Poverty Action Lab) was able to evaluate the performance of the program to come to a view on its cost-effectiveness.[^cite-alexander-5]
 
 # The ‘how’ of theory of change
 
@@ -222,8 +222,8 @@ If the answer to any of these questions is ‘no’, you have work to do. 
 Special thanks to Leonie Falk for your help in pressure-testing our theory of change.  
  
 
-{--{"author":"Luc's AI","timestamp":1787158937775}@@[^1]:--}{++{"author":"Luc's AI","timestamp":1787158937775}@@[^note-alexander-1]:++} Practitioners disagree on the exact distinction between ‘outputs’ and ‘outcomes’. In our experience, the distinction is unimportant. We recommend focusing on the ‘cause-and-effect mapping’ concepts and not the terminology used to describe it.
-{--{"author":"Luc's AI","timestamp":1787158937775}@@[^2]:--}{++{"author":"Luc's AI","timestamp":1787158937775}@@[^note-alexander-2]:++} A clear theory of change can serve as the blueprint for a program’s first cost-effectiveness analysis by laying out the activities that make up the costs, and the various causal steps towards impact, each of which have an effect size and/or probability of success based on the evidence and assumptions for those steps.
-{--{"author":"Luc's AI","timestamp":1787158937775}@@[^3]:--}{++{"author":"Luc's AI","timestamp":1787158937775}@@[^cite-alexander-3]:++} Happier Lives Institute, “HLI Has Hatched: Strategy Update after the Charity Entrepreneurship Incubation Program,” Oct. 29, 2019, accessed Feb. 20, 2023, https://www.happierlivesinstitute.org/2019/10/29/hli-has-hatched-strategy-update-after-the-charity-entrepreneurship-incubation-program/.
-{--{"author":"Luc's AI","timestamp":1787158937775}@@[^4]:--}{++{"author":"Luc's AI","timestamp":1787158937775}@@[^cite-alexander-4]:++} J-PAL, “Theory of Change,” Course lecture, J-PAL/CLEAR South Asia at IFMR, Delhi, July 2017, accessed Feb. 20, 2023, https://www.povertyactionlab.org/sites/default/files/Lecture%202-THEORY%20OF%20CHANGE.pdf
-{--{"author":"Luc's AI","timestamp":1787158937775}@@[^5]:--}{++{"author":"Luc's AI","timestamp":1787158937775}@@[^cite-alexander-5]:++} Abhijit Banerjee et. al., “Improving Immunization Rates Through Regular Camps and Incentives in India,” J-PAL, 2007, accessed Feb. 20, 2023, https://www.povertyactionlab.org/evaluation/improving-immunization-rates-through-regular-camps-and-incentives-india
+[^note-alexander-1]: Practitioners disagree on the exact distinction between ‘outputs’ and ‘outcomes’. In our experience, the distinction is unimportant. We recommend focusing on the ‘cause-and-effect mapping’ concepts and not the terminology used to describe it.
+[^note-alexander-2]: A clear theory of change can serve as the blueprint for a program’s first cost-effectiveness analysis by laying out the activities that make up the costs, and the various causal steps towards impact, each of which have an effect size and/or probability of success based on the evidence and assumptions for those steps.
+[^cite-alexander-3]: Happier Lives Institute, “HLI Has Hatched: Strategy Update after the Charity Entrepreneurship Incubation Program,” Oct. 29, 2019, accessed Feb. 20, 2023, https://www.happierlivesinstitute.org/2019/10/29/hli-has-hatched-strategy-update-after-the-charity-entrepreneurship-incubation-program/.
+[^cite-alexander-4]: J-PAL, “Theory of Change,” Course lecture, J-PAL/CLEAR South Asia at IFMR, Delhi, July 2017, accessed Feb. 20, 2023, https://www.povertyactionlab.org/sites/default/files/Lecture%202-THEORY%20OF%20CHANGE.pdf
+[^cite-alexander-5]: Abhijit Banerjee et. al., “Improving Immunization Rates Through Regular Camps and Incentives in India,” J-PAL, 2007, accessed Feb. 20, 2023, https://www.povertyactionlab.org/evaluation/improving-immunization-rates-through-regular-camps-and-incentives-india

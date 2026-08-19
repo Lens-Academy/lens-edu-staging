@@ -29,7 +29,7 @@ This project matters because, while many attempts to do good fail, some are enor
 
 This means that by thinking carefully about the best ways to help, we can do far more to tackle the world's biggest problems.
 
-Effective altruism was formalized by scholars at Oxford University, but has now spread around the world, and is being applied by tens of thousands of people in more than 70 {--{"author":"Luc's AI","timestamp":1787159041391}@@countries.[^1]--}{++{"author":"Luc's AI","timestamp":1787159041391}@@countries.[^note-ea-1]++}
+Effective altruism was formalized by scholars at Oxford University, but has now spread around the world, and is being applied by tens of thousands of people in more than 70 countries.[^note-ea-1]
 
 People inspired by effective altruism have worked on projects that range from funding the distribution of 200 million malaria nets, to academic research on the future of AI, to campaigning for policies to prevent the next pandemic.
 
@@ -41,21 +41,21 @@ They're not united by any particular solution to the world's problems, but by a 
 
 ***Why this issue?***
 
-People in effective altruism [typically try to](https://forum.effectivealtruism.org/topics/itn-framework) identify issues that are big in scale, tractable, and unfairly {--{"author":"Luc's AI","timestamp":1787159042460}@@neglected.[^2]--}{++{"author":"Luc's AI","timestamp":1787159042460}@@neglected.[^note-ea-2]++} The aim is to find the biggest gaps in current efforts, in order to find where an additional person can have the greatest impact. One issue that seems to match those criteria is preventing pandemics.
+People in effective altruism [typically try to](https://forum.effectivealtruism.org/topics/itn-framework) identify issues that are big in scale, tractable, and unfairly neglected.[^note-ea-2] The aim is to find the biggest gaps in current efforts, in order to find where an additional person can have the greatest impact. One issue that seems to match those criteria is preventing pandemics.
 
 Researchers in effective altruism argued as [early as 2014](https://www.openphilanthropy.org/research/biosecurity/) that, given the history of near-misses, there was a good chance that a large pandemic would happen in our lifetimes.
 
-But preparing for the next pandemic was, and remains, hugely underfunded compared to other global issues. For instance, the US invests around $8bn per year preventing pandemics, compared to around $280bn per year spent on counterterrorism over the last {--{"author":"Luc's AI","timestamp":1787159043637}@@decade.[^3]--}{++{"author":"Luc's AI","timestamp":1787159043637}@@decade.[^cite-ea-3]++}
+But preparing for the next pandemic was, and remains, hugely underfunded compared to other global issues. For instance, the US invests around $8bn per year preventing pandemics, compared to around $280bn per year spent on counterterrorism over the last decade.[^cite-ea-3]
 
-Preventing terror attacks is certainly important. But the scale of the issue seems smaller. For instance, just to focus on the number of deaths, in the last 50 years, around 500,000 people have been killed by terrorism. But over 21 million people were killed by COVID-19 {--{"author":"Luc's AI","timestamp":1787159044895}@@alone[^4]--}{++{"author":"Luc's AI","timestamp":1787159044895}@@alone[^cite-ea-4]++} — or consider the 40 million killed by {--{"author":"Luc's AI","timestamp":1787159044895}@@HIV/AIDS.[^5]--}{++{"author":"Luc's AI","timestamp":1787159044895}@@HIV/AIDS.[^note-ea-5]++}
+Preventing terror attacks is certainly important. But the scale of the issue seems smaller. For instance, just to focus on the number of deaths, in the last 50 years, around 500,000 people have been killed by terrorism. But over 21 million people were killed by COVID-19 alone[^cite-ea-4] — or consider the 40 million killed by HIV/AIDS.[^note-ea-5]
 
 Not to mention, a future pandemic could easily be much worse than COVID-19: there's nothing to rule out a disease that's more infectious than the Omicron variant, but that's as deadly as smallpox.
 
 ***Some examples of what's been done***
 
-In 2016 Open Philanthropy — a foundation inspired by effective altruism — became the largest funder of the [Johns Hopkins Center for Health Security](https://www.centerforhealthsecurity.org/), which is one of the few groups doing research to identify better policy responses to pandemics, and was an important group in the response to {--{"author":"Luc's AI","timestamp":1787159046020}@@COVID-19.[^6]--}{++{"author":"Luc's AI","timestamp":1787159046020}@@COVID-19.[^cite-ea-6]++}
+In 2016 Open Philanthropy — a foundation inspired by effective altruism — became the largest funder of the [Johns Hopkins Center for Health Security](https://www.centerforhealthsecurity.org/), which is one of the few groups doing research to identify better policy responses to pandemics, and was an important group in the response to COVID-19.[^cite-ea-6]
 
-When COVID-19 broke out, members of the community founded [1DaySooner](https://www.1daysooner.org/), a non-profit that advocates for human challenge trials. In this type of vaccine trial, healthy volunteers are deliberately infected with the disease, enabling near-instant testing of the vaccine. As one of the only advocates for this intervention, 1DaySooner has signed up over 30,000 {--{"author":"Luc's AI","timestamp":1787159047135}@@volunteers,[^7]--}{++{"author":"Luc's AI","timestamp":1787159047135}@@volunteers,[^note-ea-7]++} and played an important role in starting the world's first COVID-19 human challenge trial. This model can be repeated when we face the next pandemic.
+When COVID-19 broke out, members of the community founded [1DaySooner](https://www.1daysooner.org/), a non-profit that advocates for human challenge trials. In this type of vaccine trial, healthy volunteers are deliberately infected with the disease, enabling near-instant testing of the vaccine. As one of the only advocates for this intervention, 1DaySooner has signed up over 30,000 volunteers,[^note-ea-7] and played an important role in starting the world's first COVID-19 human challenge trial. This model can be repeated when we face the next pandemic.
 
 Members of the effective altruism community helped to create the [Apollo Programme for Biodefense](https://biodefensecommission.org/reports/the-apollo-program-for-biodefense-winning-the-race-against-biological-threats/), a multibillion dollar policy proposal designed to prevent the next pandemic.
 
@@ -65,19 +65,19 @@ Members of the effective altruism community helped to create the [Apollo Program
 
 It's common to say that charity begins at home, but in effective altruism, charity begins where we can help the most. And this often means focusing on the people who are most neglected by the current system — which is often those who are more distant from us.
 
-Over 700 million people live on less than $1.90 per {--{"author":"Luc's AI","timestamp":1787159048364}@@day.[^8]--}{++{"author":"Luc's AI","timestamp":1787159048364}@@day.[^cite-ea-8]++}
+Over 700 million people live on less than $1.90 per day.[^cite-ea-8]
 
-In contrast, an American living near the poverty line lives on 20 times as much, and the average American college graduate lives on about 107 times as much. This places them in the top 1.3% of income, globally {--{"author":"Luc's AI","timestamp":1787159049526}@@speaking.[^9]--}{++{"author":"Luc's AI","timestamp":1787159049526}@@speaking.[^note-ea-9]++}
+In contrast, an American living near the poverty line lives on 20 times as much, and the average American college graduate lives on about 107 times as much. This places them in the top 1.3% of income, globally speaking.[^note-ea-9]
 
-Global inequality is extreme. Because of this, transferring resources to the very poorest people in the world can do a huge amount of good. In richer countries like the US and UK, governments are typically willing to spend over $1 million to save a {--{"author":"Luc's AI","timestamp":1787159050668}@@life.[^10]--}{++{"author":"Luc's AI","timestamp":1787159050668}@@life.[^note-ea-10]++} This is well worth doing, but in the world's poorest countries, the cost of saving a life is far lower.
+Global inequality is extreme. Because of this, transferring resources to the very poorest people in the world can do a huge amount of good. In richer countries like the US and UK, governments are typically willing to spend over $1 million to save a life.[^note-ea-10] This is well worth doing, but in the world's poorest countries, the cost of saving a life is far lower.
 
-[GiveWell](https://www.givewell.org/) is an organization that does in-depth research to find the most evidence-backed and cost-effective health and development projects. It discovered that while [many aid interventions don't work](https://www.givewell.org/international/technical/criteria/impact/failure-stories), some, like providing insecticide-treated bednets, can save a child's life for about $5,500 on average. That's 180 times {--{"author":"Luc's AI","timestamp":1787159051608}@@less.[^11]--}{++{"author":"Luc's AI","timestamp":1787159051608}@@less.[^cite-ea-11]++}
+[GiveWell](https://www.givewell.org/) is an organization that does in-depth research to find the most evidence-backed and cost-effective health and development projects. It discovered that while [many aid interventions don't work](https://www.givewell.org/international/technical/criteria/impact/failure-stories), some, like providing insecticide-treated bednets, can save a child's life for about $5,500 on average. That's 180 times less.[^cite-ea-11]
 
 ***Some examples of what's been done***
 
-Over **110,000 individual donors** have used GiveWell's research to contribute more than $1 billion to its recommended charities, supporting organisations like the [Against Malaria Foundation](https://www.givewell.org/charities/amf), which has distributed over 200 million insecticide-treated bednets. Collectively these efforts are estimated to have saved **159,000 {--{"author":"Luc's AI","timestamp":1787159052244}@@lives**.[^12]--}{++{"author":"Luc's AI","timestamp":1787159052244}@@lives**.[^note-ea-12]++}
+Over **110,000 individual donors** have used GiveWell's research to contribute more than $1 billion to its recommended charities, supporting organisations like the [Against Malaria Foundation](https://www.givewell.org/charities/amf), which has distributed over 200 million insecticide-treated bednets. Collectively these efforts are estimated to have saved **159,000 lives**.[^note-ea-12]
 
-In addition to charity, it's possible to help the world's poorest people through business. [Wave](https://www.wave.com/) is a technology company founded by members of the effective altruism community, which allows people to transfer money to several African countries faster and several times more cheaply than existing services. It's especially helpful for migrants sending money home to their families, and has been used by over 800,000 people in countries like Kenya, Uganda and Senegal. In Senegal alone, Wave has saved its users hundreds of millions of dollars in transfer fees — around 1% of the country's {--{"author":"Luc's AI","timestamp":1787159053062}@@GDP.[^13]--}{++{"author":"Luc's AI","timestamp":1787159053062}@@GDP.[^note-ea-13]++}
+In addition to charity, it's possible to help the world's poorest people through business. [Wave](https://www.wave.com/) is a technology company founded by members of the effective altruism community, which allows people to transfer money to several African countries faster and several times more cheaply than existing services. It's especially helpful for migrants sending money home to their families, and has been used by over 800,000 people in countries like Kenya, Uganda and Senegal. In Senegal alone, Wave has saved its users hundreds of millions of dollars in transfer fees — around 1% of the country's GDP.[^note-ea-13]
 
 #### Helping to create the field of AI alignment research
 
@@ -95,7 +95,7 @@ This means this issue could not only have a dramatic impact on the present gener
 
 How to ensure AI systems continue to further human values, even as they become equal (or superior) to humans in their capabilities, is called the AI alignment problem, and solving it requires advances in computer science.
 
-Despite its potentially historic importance, only a couple of hundred researchers work on this problem, compared to tens of thousands working to make AI systems more {--{"author":"Luc's AI","timestamp":1787159053763}@@powerful.[^15]--}{++{"author":"Luc's AI","timestamp":1787159053763}@@powerful.[^cite-ea-15]++}
+Despite its potentially historic importance, only a couple of hundred researchers work on this problem, compared to tens of thousands working to make AI systems more powerful.[^cite-ea-15]
 
 ***Some examples of what's been done***
 
@@ -111,15 +111,15 @@ Others have helped to start teams focused on AI alignment at major AI labs such 
 
 People in effective altruism try to extend their circle of concern — not only to those living in distant countries or future generations, but also to non-human animals.
 
-Nearly 10 billion animals live and die in factory farms in the US every {--{"author":"Luc's AI","timestamp":1787159054515}@@year[^16]--}{++{"author":"Luc's AI","timestamp":1787159054515}@@year[^cite-ea-16]++} — often unable to physically turn around their entire lives, or castrated without anaesthetic.
+Nearly 10 billion animals live and die in factory farms in the US every year[^cite-ea-16] — often unable to physically turn around their entire lives, or castrated without anaesthetic.
 
-Lots of people agree we shouldn't make animals suffer needlessly, but most of this attention goes towards pet shelters. In the US, about 1,400 times more animals pass through factory farms than pet {--{"author":"Luc's AI","timestamp":1787159055275}@@shelters.[^17]--}{++{"author":"Luc's AI","timestamp":1787159055275}@@shelters.[^cite-ea-17]++}
+Lots of people agree we shouldn't make animals suffer needlessly, but most of this attention goes towards pet shelters. In the US, about 1,400 times more animals pass through factory farms than pet shelters.[^cite-ea-17]
 
-Despite this, pet shelters receive around $5 billion per year in the US, compared to only $97 million on advocacy to end factory {--{"author":"Luc's AI","timestamp":1787159056014}@@farming.[^18]--}{++{"author":"Luc's AI","timestamp":1787159056014}@@farming.[^cite-ea-18]++}
+Despite this, pet shelters receive around $5 billion per year in the US, compared to only $97 million on advocacy to end factory farming.[^cite-ea-18]
 
 ***Some examples of what's been done***
 
-One strategy is advocacy. The [Open Wing Alliance](https://openwingalliance.org/impact), which received significant funding from funders inspired by effective altruism, developed a campaign to encourage large companies to commit to stop buying eggs from caged chickens. To date, they have won over 2,200 commitments, and as a result over 100 million birds have been spared from {--{"author":"Luc's AI","timestamp":1787159056790}@@cages.[^19]--}{++{"author":"Luc's AI","timestamp":1787159056790}@@cages.[^note-ea-19]++}
+One strategy is advocacy. The [Open Wing Alliance](https://openwingalliance.org/impact), which received significant funding from funders inspired by effective altruism, developed a campaign to encourage large companies to commit to stop buying eggs from caged chickens. To date, they have won over 2,200 commitments, and as a result over 100 million birds have been spared from cages.[^note-ea-19]
 
 Another strategy is to create alternative proteins, which if made cheaper and tastier than factory farmed meat, could make demand disappear, ending factory farming. The [Good Food Institute](https://gfi.org/) is working to kick-start this industry.
 
@@ -172,38 +172,38 @@ Typically, this involves trying to identify big and neglected global problems, t
 
 By doing this and thinking carefully, you might find it's possible to have far more impact with those resources. It really is possible to save hundreds of people's lives over your career. And by teaming up with others in the community, you can play a role in tackling some of the most important issues civilization faces today.
 
-{--{"author":"Luc's AI","timestamp":1787159057263}@@[^1]:--}{++{"author":"Luc's AI","timestamp":1787159057263}@@[^note-ea-1]:++} You can see the global distribution of local EA groups on the [Effective Altruism Forum](https://forum.effectivealtruism.org/community), which lists groups in over 70 countries.
+[^note-ea-1]: You can see the global distribution of local EA groups on the [Effective Altruism Forum](https://forum.effectivealtruism.org/community), which lists groups in over 70 countries.
 
-{--{"author":"Luc's AI","timestamp":1787159057803}@@[^2]:--}{++{"author":"Luc's AI","timestamp":1787159057803}@@[^note-ea-2]:++} The less neglected an issue, the more the best opportunities will have been taken, so the harder it will be for an additional person to make an impact. In fact, there are [good reasons to expect](https://web.archive.org/web/20220728174703/https://www.fhi.ox.ac.uk/law-of-logarithmic-returns/) that returns to investment in an issue are roughly logarithmic. Logarithmic returns imply that if 10 times more has been invested in one cause compared to another, then additional resources will achieve about 1/10 as much progress. If the two issues are equally important, then an additional person working on the more neglected one will have ten times the impact.
+[^note-ea-2]: The less neglected an issue, the more the best opportunities will have been taken, so the harder it will be for an additional person to make an impact. In fact, there are [good reasons to expect](https://web.archive.org/web/20220728174703/https://www.fhi.ox.ac.uk/law-of-logarithmic-returns/) that returns to investment in an issue are roughly logarithmic. Logarithmic returns imply that if 10 times more has been invested in one cause compared to another, then additional resources will achieve about 1/10 as much progress. If the two issues are equally important, then an additional person working on the more neglected one will have ten times the impact.
 
-{--{"author":"Luc's AI","timestamp":1787159058315}@@[^3]:--}{++{"author":"Luc's AI","timestamp":1787159058315}@@[^cite-ea-3]:++} From 2010 to 2019, US Federal Funding for Health Security is estimated at $141 billion, roughly $8 billion per year for pandemic prevention. US counterterrorism spending from 2001-2022 totals ~$5.8 trillion, or $290 billion per year.
+[^cite-ea-3]: From 2010 to 2019, US Federal Funding for Health Security is estimated at $141 billion, roughly $8 billion per year for pandemic prevention. US counterterrorism spending from 2001-2022 totals ~$5.8 trillion, or $290 billion per year.
 
-{--{"author":"Luc's AI","timestamp":1787159058968}@@[^4]:--}{++{"author":"Luc's AI","timestamp":1787159058968}@@[^cite-ea-4]:++} Deaths from terrorism from 1970-2020 were approximately 456,000 (Global Terrorism Database 2020). The Economist estimated cumulative excess deaths due to COVID-19 were 21.47m as of June 2022.
+[^cite-ea-4]: Deaths from terrorism from 1970-2020 were approximately 456,000 (Global Terrorism Database 2020). The Economist estimated cumulative excess deaths due to COVID-19 were 21.47m as of June 2022.
 
-{--{"author":"Luc's AI","timestamp":1787159059457}@@[^5]:--}{++{"author":"Luc's AI","timestamp":1787159059457}@@[^note-ea-5]:++} "40.1 million people have died from AIDS-related illnesses since the start of the epidemic." — UNAIDS, 2022.
+[^note-ea-5]: "40.1 million people have died from AIDS-related illnesses since the start of the epidemic." — UNAIDS, 2022.
 
-{--{"author":"Luc's AI","timestamp":1787159060041}@@[^6]:--}{++{"author":"Luc's AI","timestamp":1787159060041}@@[^cite-ea-6]:++} Open Philanthropy first funded the Johns Hopkins Centre for Health Security in 2016, followed by grants of $16m in 2017 and $19.5m in 2019.
+[^cite-ea-6]: Open Philanthropy first funded the Johns Hopkins Centre for Health Security in 2016, followed by grants of $16m in 2017 and $19.5m in 2019.
 
-{--{"author":"Luc's AI","timestamp":1787159060606}@@[^7]:--}{++{"author":"Luc's AI","timestamp":1787159060606}@@[^note-ea-7]:++} 38,659 volunteers as of 7 July 2022.
+[^note-ea-7]: 38,659 volunteers as of 7 July 2022.
 
-{--{"author":"Luc's AI","timestamp":1787159061111}@@[^8]:--}{++{"author":"Luc's AI","timestamp":1787159061111}@@[^cite-ea-8]:++} Before COVID-19, the number of people living on less than $1.90 per day had decreased to 689 million in 2017. However, estimates now point to the first rise in the extreme poverty rate since 1998.
+[^cite-ea-8]: Before COVID-19, the number of people living on less than $1.90 per day had decreased to 689 million in 2017. However, estimates now point to the first rise in the extreme poverty rate since 1998.
 
-{--{"author":"Luc's AI","timestamp":1787159061653}@@[^9]:--}{++{"author":"Luc's AI","timestamp":1787159061653}@@[^note-ea-9]:++} The US poverty line for 1 person is $13,590/year = $37.23/day, 20x the international poverty line. A college graduate earning $74,000/year = $202/day, or 107x the poverty line.
+[^note-ea-9]: The US poverty line for 1 person is $13,590/year = $37.23/day, 20x the international poverty line. A college graduate earning $74,000/year = $202/day, or 107x the poverty line.
 
-{--{"author":"Luc's AI","timestamp":1787159062151}@@[^10]:--}{++{"author":"Luc's AI","timestamp":1787159062151}@@[^note-ea-10]:++} The UK's NICE recommends spending up to £30,000 per QALY gained. Saving one life is equivalent to ~30 QALYs, amounting to a cost of ~£900,000 = $1.1 million per life.
+[^note-ea-10]: The UK's NICE recommends spending up to £30,000 per QALY gained. Saving one life is equivalent to ~30 QALYs, amounting to a cost of ~£900,000 = $1.1 million per life.
 
-{--{"author":"Luc's AI","timestamp":1787159062650}@@[^11]:--}{++{"author":"Luc's AI","timestamp":1787159062650}@@[^cite-ea-11]:++} GiveWell estimated that $5,500 spent on distributing insecticide-treated bednets will save one child's life in expectation (as of 2021).
+[^cite-ea-11]: GiveWell estimated that $5,500 spent on distributing insecticide-treated bednets will save one child's life in expectation (as of 2021).
 
-{--{"author":"Luc's AI","timestamp":1787159063187}@@[^12]:--}{++{"author":"Luc's AI","timestamp":1787159063187}@@[^note-ea-12]:++} "More than 110,000 donors have trusted GiveWell to direct their donations. Together, they have given over $1 billion to the organizations we recommend. These donations will save over 150,000 lives." — GiveWell, 2022.
+[^note-ea-12]: "More than 110,000 donors have trusted GiveWell to direct their donations. Together, they have given over $1 billion to the organizations we recommend. These donations will save over 150,000 lives." — GiveWell, 2022.
 
-{--{"author":"Luc's AI","timestamp":1787159063846}@@[^13]:--}{++{"author":"Luc's AI","timestamp":1787159063846}@@[^note-ea-13]:++} "When Wave launched in Senegal, our average transfer would have cost 3-5x more if done via the largest existing mobile money system. Multiplied by our millions of monthly active users, that comes out to a savings of over $200 million every year, around 1% of Senegal's GDP." — Wave blog, 2021.
+[^note-ea-13]: "When Wave launched in Senegal, our average transfer would have cost 3-5x more if done via the largest existing mobile money system. Multiplied by our millions of monthly active users, that comes out to a savings of over $200 million every year, around 1% of Senegal's GDP." — Wave blog, 2021.
 
-{--{"author":"Luc's AI","timestamp":1787159064334}@@[^15]:--}{++{"author":"Luc's AI","timestamp":1787159064334}@@[^cite-ea-15]:++} Gavin Leech estimated that 270 to 830 FTE people worked on AI Safety in 2021. AI Watch estimated ~160 notable safety researchers. Our final estimate is ~300 researchers focused on AI safety, compared to tens of thousands on AI capability research.
+[^cite-ea-15]: Gavin Leech estimated that 270 to 830 FTE people worked on AI Safety in 2021. AI Watch estimated ~160 notable safety researchers. Our final estimate is ~300 researchers focused on AI safety, compared to tens of thousands on AI capability research.
 
-{--{"author":"Luc's AI","timestamp":1787159064903}@@[^16]:--}{++{"author":"Luc's AI","timestamp":1787159064903}@@[^cite-ea-16]:++} In 2018, 9.56 billion farm animals were slaughtered for meat in the US, including 9.16 billion chickens.
+[^cite-ea-16]: In 2018, 9.56 billion farm animals were slaughtered for meat in the US, including 9.16 billion chickens.
 
-{--{"author":"Luc's AI","timestamp":1787159065408}@@[^17]:--}{++{"author":"Luc's AI","timestamp":1787159065408}@@[^cite-ea-17]:++} Approximately 6.7 million animals passed through US animal shelters in 2018 vs. 9.56 billion in factory farms — 1,427 times as many.
+[^cite-ea-17]: Approximately 6.7 million animals passed through US animal shelters in 2018 vs. 9.56 billion in factory farms — 1,427 times as many.
 
-{--{"author":"Luc's AI","timestamp":1787159065895}@@[^18]:--}{++{"author":"Luc's AI","timestamp":1787159065895}@@[^cite-ea-18]:++} Andrew Rowan calculated $5 billion of funding to the top 3000 US animal shelter organizations in 2018. Open Philanthropy research found approximately $97 million in funding for farm animal advocacy in 2018.
+[^cite-ea-18]: Andrew Rowan calculated $5 billion of funding to the top 3000 US animal shelter organizations in 2018. Open Philanthropy research found approximately $97 million in funding for farm animal advocacy in 2018.
 
-{--{"author":"Luc's AI","timestamp":1787159066553}@@[^19]:--}{++{"author":"Luc's AI","timestamp":1787159066553}@@[^note-ea-19]:++} 106.5 million hens were in cage-free housing in the US alone as of May 2022, compared to 17 million in 2016.
+[^note-ea-19]: 106.5 million hens were in cage-free housing in the US alone as of May 2022, compared to 17 million in 2016.
