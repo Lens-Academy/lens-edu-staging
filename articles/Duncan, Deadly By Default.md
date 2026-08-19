@@ -24,7 +24,7 @@ So here, in case anyone else finds it useful, is my attempt to describe the trap
 
 Note: while I work for an organization that has stake in this sphere (the [Machine Intelligence Research Institute](https://intelligence.org/)), this is my own take and does not necessarily represent the opinions or beliefs of my colleagues or superiors.
 
-![First Ever Glimpse Into Facebook's Massive Arctic Server Farm | DeMilked]({--{"author":"Luc's AI","timestamp":1787132565176}@@https://substackcdn.com/image/fetch/$s_!UOWE!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f72760b-bfae-40b4-9073-9af292144785_915x610.jpeg--}{++{"author":"Luc's AI","timestamp":1787132565176}@@https://substackcdn.com/image/fetch/$s_!UOWE!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f72760b-bfae-40b4-9073-9af292144785_915x610.jpeg++})
+![First Ever Glimpse Into Facebook's Massive Arctic Server Farm | DeMilked](https://substackcdn.com/image/fetch/$s_!UOWE!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f72760b-bfae-40b4-9073-9af292144785_915x610.jpeg)
 
 First Ever Glimpse Into Facebook's Massive Arctic Server Farm | DeMilked
 
@@ -143,7 +143,7 @@ Any system which *successfully* models the world in sufficient detail to be able
 
 It’s not the case that the system necessarily has to have distinct mental buckets for “psychology” and “sociology” or even that it needs to “think” about humans in any clear, explicit sense. ChatGPT doesn’t “understand” humans in the way that you and I understand ourselves and each other, and yet it manages to *predict* human behavior passably well.
 
-![]({--{"author":"Luc's AI","timestamp":1787132565485}@@https://substackcdn.com/image/fetch/$s_!9aMq!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fba600dda-b829-4959-844f-3e5d93d4848e_1602x700.png--}{++{"author":"Luc's AI","timestamp":1787132565485}@@https://substackcdn.com/image/fetch/$s_!9aMq!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fba600dda-b829-4959-844f-3e5d93d4848e_1602x700.png++})
+![](https://substackcdn.com/image/fetch/$s_!9aMq!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fba600dda-b829-4959-844f-3e5d93d4848e_1602x700.png)
 
 This prompt borrowed directly from Searle’s Chinese Room thought experiment
 
@@ -189,11 +189,11 @@ The point here is not “AI systems are being actively deceptive” so much as i
 
 Metaphorically, if the teal lines below represent the tests, then the developers *probably* were trying to grow something like the black shape:
 
-![]({--{"author":"Luc's AI","timestamp":1787132565710}@@https://substackcdn.com/image/fetch/$s_!KEQt!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73e029cb-8f3c-4e4c-98c9-3c1e6b9b1d05_1274x562.png--}{++{"author":"Luc's AI","timestamp":1787132565710}@@https://substackcdn.com/image/fetch/$s_!KEQt!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73e029cb-8f3c-4e4c-98c9-3c1e6b9b1d05_1274x562.png++})
+![](https://substackcdn.com/image/fetch/$s_!KEQt!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73e029cb-8f3c-4e4c-98c9-3c1e6b9b1d05_1274x562.png)
 
 …however, each of *these* black shapes is basically *just as good* at passing that particular test:
 
-![]({--{"author":"Luc's AI","timestamp":1787132565933}@@https://substackcdn.com/image/fetch/$s_!FUcA!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdceb1a97-a5fa-4f29-91d3-61dc26f7724b_1756x760.png--}{++{"author":"Luc's AI","timestamp":1787132565933}@@https://substackcdn.com/image/fetch/$s_!FUcA!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdceb1a97-a5fa-4f29-91d3-61dc26f7724b_1756x760.png++})
+![](https://substackcdn.com/image/fetch/$s_!FUcA!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdceb1a97-a5fa-4f29-91d3-61dc26f7724b_1756x760.png)
 
 …despite the fact that those shapes have very different properties from each other, as well as from the intended shape, and will “behave” very differently in some contexts.
 
@@ -201,7 +201,7 @@ Metaphorically, if the teal lines below represent the tests, then the developers
 
 Another way to say this is that training and testing is meant to help us find and iterate on systems which share the *terminal* goals of the developers, but in practice, that sort of process can’t actually distinguish between \[a system with a terminal goal of X\] and \[a system with a terminal goal of Y but a local, *instrumental* goal of X\].
 
-![]({--{"author":"Luc's AI","timestamp":1787132566184}@@https://substackcdn.com/image/fetch/$s_!yG6S!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F679880b8-54cc-4332-ae03-2d3dd4ddc82a_1396x1298.png--}{++{"author":"Luc's AI","timestamp":1787132566184}@@https://substackcdn.com/image/fetch/$s_!yG6S!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F679880b8-54cc-4332-ae03-2d3dd4ddc82a_1396x1298.png++})
+![](https://substackcdn.com/image/fetch/$s_!yG6S!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F679880b8-54cc-4332-ae03-2d3dd4ddc82a_1396x1298.png)
 
   
 For every system that really actually “wants” to do X, there will be myriad similar systems that are oriented around Y or Z or?? in a fundamental sense, but which *happen* to do X under the particular constraints of the training environment.
@@ -366,7 +366,7 @@ Because trillions of dollars and tons of influence.
 
 Because trillions of dollars and tons of influence.
 
-![]({--{"author":"Luc's AI","timestamp":1787132566426}@@https://substackcdn.com/image/fetch/$s_!jL-6!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F321e0146-40ac-49f4-a2d2-80912a27ff00_3672x1923.png--}{++{"author":"Luc's AI","timestamp":1787132566426}@@https://substackcdn.com/image/fetch/$s_!jL-6!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F321e0146-40ac-49f4-a2d2-80912a27ff00_3672x1923.png++})
+![](https://substackcdn.com/image/fetch/$s_!jL-6!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F321e0146-40ac-49f4-a2d2-80912a27ff00_3672x1923.png)
 
 Similarly, the answer to a lot of the *technical* “why don’t we just?” proposals is “we don’t actually know how our AI works,” or “we can’t actually specify our AI’s goals.” There are a lot of suggestions for how to go about making the development of superintelligence safe that, at their core, *aren’t taking the problem seriously.*
 

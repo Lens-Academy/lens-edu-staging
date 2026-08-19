@@ -43,7 +43,7 @@ Nevertheless, the field of evaluations, particularly for dangerous capabilities 
 
 ## Maturation process of a field
 
-{--{"author":"Luc's AI","timestamp":1787133549565}@@![](https://www.apolloresearch.ai/u/2025/01/Frame17.webp)--}{++{"author":"Luc's AI","timestamp":1787133549565}@@![](https://cdn.prod.website-files.com/6a2bd279c59d9c01b2a20237/6a5a28cca32b98ca6423fe4d_Frame17.webp)++}
+![](https://cdn.prod.website-files.com/6a2bd279c59d9c01b2a20237/6a5a28cca32b98ca6423fe4d_Frame17.webp)
 
 Figure 1: Maturation process from nascent to mature field. The suggestions are not exhaustive.
 

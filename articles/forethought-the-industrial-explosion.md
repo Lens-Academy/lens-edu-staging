@@ -56,13 +56,13 @@ The industrial explosion will likely start after the intelligence explosion beca
 -   The tasks are entirely virtual, avoiding many tricky real-world frictions.
     
 
-As well as starting later, the industrial explosion will also be slower than the intelligence explosion. The first reason is that the _current_ rate of technological improvement for AI cognition is faster than the rate of technological improvement in robotics. AI chips double in FLOP/$ every [~2 years](https://epoch.ai/blog/trends-in-gpu-price-performance). AI algorithms double in efficiency every [year or less](https://epoch.ai/blog/revisiting-algorithmic-progress). We think that robot technology doubles in efficiency more slowly than this, perhaps every 1-4 {--{"author":"Luc's AI","timestamp":1787132990793}@@years.[1](#user-content-fn-2)--}{++{"author":"Luc's AI","timestamp":1787132990793}@@years.[1](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-2)++} So the technologies that will drive the intelligence explosion are increasing much faster than those that will drive the industrial explosion.
+As well as starting later, the industrial explosion will also be slower than the intelligence explosion. The first reason is that the _current_ rate of technological improvement for AI cognition is faster than the rate of technological improvement in robotics. AI chips double in FLOP/$ every [~2 years](https://epoch.ai/blog/trends-in-gpu-price-performance). AI algorithms double in efficiency every [year or less](https://epoch.ai/blog/revisiting-algorithmic-progress). We think that robot technology doubles in efficiency more slowly than this, perhaps every 1-4 years.[1](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-2) So the technologies that will drive the intelligence explosion are increasing much faster than those that will drive the industrial explosion.
 
 The second reason the industrial explosion will be slower is because the feedback loop of “robots make more robots” is has a bigger time lag than the feedback loop for “AI makes smarter AI”:
 
--   As soon as we train a powerful AI system, we’ll be able to run millions of copies in parallel. By contrast, once we develop perfect humanoid robots it will take years before we produce {--{"author":"Luc's AI","timestamp":1787132991026}@@millions.[2](#user-content-fn-3)--}{++{"author":"Luc's AI","timestamp":1787132991026}@@millions.[2](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-3)++}
+-   As soon as we train a powerful AI system, we’ll be able to run millions of copies in parallel. By contrast, once we develop perfect humanoid robots it will take years before we produce millions.[2](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-3)
     
--   It takes longer to build a complex factory from scratch than to train an AI system from {--{"author":"Luc's AI","timestamp":1787132991231}@@scratch.[3](#user-content-fn-4)--}{++{"author":"Luc's AI","timestamp":1787132991231}@@scratch.[3](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-4)++}
+-   It takes longer to build a complex factory from scratch than to train an AI system from scratch.[3](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-4)
     
 
 ![Diagram comparing feedback loops: left shows intelligence explosion with AI improving software in months, right shows industrial explosion with robots building factories in years, illustrating slower physical automation.](https://images.ctfassets.net/4owxfjx3z3if/4XfdFf2Gr2c5ZuNKgvcXeO/7884022019d1fa294fcac245001cb8cc/Graphs_50-54.pptx__4_.png?w=3840&q=85&fm=webp)
@@ -75,7 +75,7 @@ Diagram comparing feedback loops: left shows intelligence explosion with AI impr
 
 ## Three stages of industrial explosion
 
-Schematically, we can think of the industrial explosion unfolding in three {--{"author":"Luc's AI","timestamp":1787132991438}@@phases:[4](#user-content-fn-5)--}{++{"author":"Luc's AI","timestamp":1787132991438}@@phases:[4](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-5)++}
+Schematically, we can think of the industrial explosion unfolding in three phases:[4](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-5)
 
 -   **AI-directed human labour,** where AI-directed human labourers drive productivity gains in physical capabilities.
     
@@ -101,7 +101,7 @@ Today, human physical labour is not maximally productive:
 -   Even the most productive workers might not be at the physical limits of human productivity.
     
 
-AI could bring the economic productivity of human manual workers close to or beyond the productivity of the very best human workers {--{"author":"Luc's AI","timestamp":1787132991742}@@today.[5](#user-content-fn-6)--}{++{"author":"Luc's AI","timestamp":1787132991742}@@today.[5](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-6)++} For example:
+AI could bring the economic productivity of human manual workers close to or beyond the productivity of the very best human workers today.[5](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-6) For example:
 
 -   Human manual workers could wear sensors (e.g. phones with cameras and microphones) which allow real-time AI monitoring of their actions. With this vast amount of data, AI could generate specific real-time advice to each worker.
     
@@ -112,11 +112,11 @@ AI could bring the economic productivity of human manual workers close to or bey
 
 Because AI-directed human labour only requires advances in cognitive capabilities, this phase will probably happen before fully autonomous robot factories or nanotechnology. It could in principle be rolled out quite quickly, though in practice this will depend on human adaptability, regulation and other human factors.
 
-This phase will involve lots of humans doing physical labour, as their cognitive labour is no longer {--{"author":"Luc's AI","timestamp":1787132991970}@@useful.[6](#user-content-fn-7)--}{++{"author":"Luc's AI","timestamp":1787132991970}@@useful.[6](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-7)++}
+This phase will involve lots of humans doing physical labour, as their cognitive labour is no longer useful.[6](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-7)
 
 ### Fully autonomous robot factories
 
-After increasing the size of the physical economy by a moderate {--{"author":"Luc's AI","timestamp":1787132992363}@@factor,[7](#user-content-fn-8)--}{++{"author":"Luc's AI","timestamp":1787132992363}@@factor,[7](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-8)++} AI-directed human labour will run into natural limits: humans can only work so efficiently.
+After increasing the size of the physical economy by a moderate factor,[7](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-8) AI-directed human labour will run into natural limits: humans can only work so efficiently.
 
 At that point, further demand for physical labour could drive the development of robots and other physical actuators that can fully automate human physical labour.
 
@@ -130,7 +130,7 @@ In practice, physical labour will become increasingly automated in a gradual way
     
 -   As robots continue to improve, humans will only perform tasks where humans have strong comparative advantage.
     
--   Eventually robots will be better than the best human manual labourers at all {--{"author":"Luc's AI","timestamp":1787132992616}@@tasks.[8](#user-content-fn-9)--}{++{"author":"Luc's AI","timestamp":1787132992616}@@tasks.[8](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-9)++}
+-   Eventually robots will be better than the best human manual labourers at all tasks.[8](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-9)
     
 
 Of course, humans may choose not to fully automate physical labour. But absent human bottlenecks, economic incentives and increasing physical capabilities would eventually lead to robots (and other physical actuators) that can fully replace human workers.
@@ -143,18 +143,18 @@ Sometimes ‘self-replicating robots’ is used as a shorthand for these AI-dire
 
 -   Individual robots probably won’t be able to replicate themselves. It’s more plausible that there will be a whole array of actuators in a set of factories, each producing parts for machines which produce parts for machines… which are collectively capable of self-replicating.
     
--   The physical actuators won’t just be humanoid robots. Initially, many of the actuators may be humanoid robots, as most physical equipment is currently designed for human {--{"author":"Luc's AI","timestamp":1787132992841}@@labourers.[9](#user-content-fn-10)--}{++{"author":"Luc's AI","timestamp":1787132992841}@@labourers.[9](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-10)++} But ultimately there will likely be large efficiency gains from relaxing the constraint of human compatibility, and producing physical equipment and robots which are more optimised.
+-   The physical actuators won’t just be humanoid robots. Initially, many of the actuators may be humanoid robots, as most physical equipment is currently designed for human labourers.[9](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-10) But ultimately there will likely be large efficiency gains from relaxing the constraint of human compatibility, and producing physical equipment and robots which are more optimised.
     
 
 ### Nanotechnology
 
 Eventually, fully automated physical labour will run into physical limits: it won’t be possible to build physical objects any faster.
 
-But smaller objects are faster to build. We see this empirically, with bacteria and other small organisms self-replicating faster than larger organisms. There are also basic engineering principles which support this conclusion (for example, smaller objects have a bigger surface area to volume ratio, so can absorb more materials per unit {--{"author":"Luc's AI","timestamp":1787132993126}@@mass).[10](#user-content-fn-11)--}{++{"author":"Luc's AI","timestamp":1787132993126}@@mass).[10](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-11)++}
+But smaller objects are faster to build. We see this empirically, with bacteria and other small organisms self-replicating faster than larger organisms. There are also basic engineering principles which support this conclusion (for example, smaller objects have a bigger surface area to volume ratio, so can absorb more materials per unit mass).[10](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-11)
 
 Because smaller objects are faster to build, there will be returns to designing smaller and smaller machines, with faster and faster throughput.
 
-In the limit, an industrial explosion could enter into the third phase, nanotechnology, where physical actuators on a very small scale build a very wide range of {--{"author":"Luc's AI","timestamp":1787132993389}@@structures.[11](#user-content-fn-12)--}{++{"author":"Luc's AI","timestamp":1787132993389}@@structures.[11](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-12)++}
+In the limit, an industrial explosion could enter into the third phase, nanotechnology, where physical actuators on a very small scale build a very wide range of structures.[11](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-12)
 
 ## How fast could an industrial explosion be?
 
@@ -181,9 +181,9 @@ AI direction could make most workers much closer in productivity to the best wor
 
 -   In the US, labourers earn [$13-26](https://www.indeed.com/career/laborer/salaries) an hour.
     
--   Studies of the variation in output _within a given firm_ suggest the very best workers are 1.5-2X more productive than the {--{"author":"Luc's AI","timestamp":1787132993614}@@mean.[12](#user-content-fn-13)--}{++{"author":"Luc's AI","timestamp":1787132993614}@@mean.[12](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-13)++}
+-   Studies of the variation in output _within a given firm_ suggest the very best workers are 1.5-2X more productive than the mean.[12](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-13)
     
--   AI will also make whole firms more productive by improving planning and organisation. Top firms are ~3X more productive than the {--{"author":"Luc's AI","timestamp":1787132993856}@@mean.[13](#user-content-fn-14)--}{++{"author":"Luc's AI","timestamp":1787132993856}@@mean.[13](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-14)++}
+-   AI will also make whole firms more productive by improving planning and organisation. Top firms are ~3X more productive than the mean.[13](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-14)
     
 
 We should round this up further though, to account for the possibilities that:
@@ -204,13 +204,13 @@ We’re uncertain about how large these uplifts might be, but it looks like – 
 
 #### Initial doubling times for autonomous robots
 
-As the industrial explosion transitions from AI-directed human labour to increasing and eventually full automation of physical labour, we can start to operationalise the speed of the industrial explosion in terms of robot doubling times: the time it takes to double the number of robots (and other types of physical actuators) in the {--{"author":"Luc's AI","timestamp":1787132994066}@@world.[14](#user-content-fn-15)--}{++{"author":"Luc's AI","timestamp":1787132994066}@@world.[14](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-15)++}
+As the industrial explosion transitions from AI-directed human labour to increasing and eventually full automation of physical labour, we can start to operationalise the speed of the industrial explosion in terms of robot doubling times: the time it takes to double the number of robots (and other types of physical actuators) in the world.[14](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-15)
 
 The most recent doubling in the number of robots in the world took [6 years](https://ifr.org/ifr-press-releases/news/record-of-4-million-robots-working-in-factories-worldwide). It’s hard to say how quickly self-replicating robots could double in number, but in [an appendix](#how-fast-could-robot-doubling-times-be-initially) we use a couple of approaches to tentatively estimate that with current physical technology (but abundant AI cognitive labour) this might be on the order of a year, rather than a month or a decade. It could be faster still if AI can quickly drive rapid technological progress without an industrial explosion happening first (for example, by quickly developing advanced nanotechnology).
 
 ### Acceleration
 
-If robot technology remains constant, the growth rate of robots and other physical actuators will be constant (ignoring resource constraints for simplicity) {--{"author":"Luc's AI","timestamp":1787132994332}@@[15](#user-content-fn-16).--}{++{"author":"Luc's AI","timestamp":1787132994332}@@[15](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-16).++}
+If robot technology remains constant, the growth rate of robots and other physical actuators will be constant (ignoring resource constraints for simplicity) [15](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-16).
 
 But if technological improvements mean that robots become _twice_ as easy to make, then the growth rate will double.
 
@@ -222,9 +222,9 @@ Ideally, we’d get data on how much you need to increase the stock of robots an
 | Hardware industries | 1 - 2.5 | [Nagy et al (2013)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0052669), Supporting Information 1 |
 | Energy industries | 2 - 10 | [Nagy et al (2013)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0052669), Supporting Information 1 |
 | Other industries (mostly electrical) | 2 - 5 | [Nagy et al (2013)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0052669), Supporting Information 1 |
-| Aggregate economy | 3 | [Bloom et al (2020)](https://web.stanford.edu/~chadj/IdeaPF.pdf), Table 7 {--{"author":"Luc's AI","timestamp":1787132994652}@@[16](#user-content-fn-17)--}{++{"author":"Luc's AI","timestamp":1787132994652}@@[16](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-17)++} |
-| Moore’s law | 0.2 | [Bloom et al (2020)](https://web.stanford.edu/~chadj/IdeaPF.pdf), Table 7 {--{"author":"Luc's AI","timestamp":1787132994889}@@[16](#user-content-fn-17)--}{++{"author":"Luc's AI","timestamp":1787132994889}@@[16](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-17)++} |
-| Agricultural sectors | 2 - 10 | [Bloom et al (2020)](https://web.stanford.edu/~chadj/IdeaPF.pdf), Table 7 {--{"author":"Luc's AI","timestamp":1787132995207}@@[16](#user-content-fn-17)--}{++{"author":"Luc's AI","timestamp":1787132995207}@@[16](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-17)++} |
+| Aggregate economy | 3 | [Bloom et al (2020)](https://web.stanford.edu/~chadj/IdeaPF.pdf), Table 7 [16](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-17) |
+| Moore’s law | 0.2 | [Bloom et al (2020)](https://web.stanford.edu/~chadj/IdeaPF.pdf), Table 7 [16](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-17) |
+| Agricultural sectors | 2 - 10 | [Bloom et al (2020)](https://web.stanford.edu/~chadj/IdeaPF.pdf), Table 7 [16](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-17) |
 | Robots | 1 | [ARK Invest](https://ark-invest.com/) (don’t provide raw data) |
 
 So if robot technology improves with the same learning curve as the aggregate economy, it will take 3 doublings before the cost of robots and other physical actuators halves and (as a consequence) the robot growth rate doubles. If it’s like Moore’s law, then it will accelerate much more quickly, but that is famously an outlier.
@@ -241,13 +241,13 @@ How quickly could such machines replicate? One way to estimate this is to look a
 
 Some [bacteria](https://pmc.ncbi.nlm.nih.gov/articles/PMC6015860/table/RSPB20180789TB1/) can double in hours. But these organisms are very simple and [cognitively](https://pmc.ncbi.nlm.nih.gov/articles/PMC4955840/) [basic](https://www.researchgate.net/publication/238823756_Intelligence_Maze-Solving_by_an_Amoeboid_Organism) so may be unable to bootstrap to complex machines.
 
-Instead, we can look at the fastest doubling times for biological organisms which have brains, and therefore may be capable of executing sophisticated behaviour based on their sensory inputs. In optimal conditions, fruit fly populations can double in {--{"author":"Luc's AI","timestamp":1787132995462}@@days.[17](#user-content-fn-18)--}{++{"author":"Luc's AI","timestamp":1787132995462}@@days.[17](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-18)++} This is proof of concept that biological replicators with brains can double in {--{"author":"Luc's AI","timestamp":1787132995462}@@days.[18](#user-content-fn-19)--}{++{"author":"Luc's AI","timestamp":1787132995462}@@days.[18](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-19)++}
+Instead, we can look at the fastest doubling times for biological organisms which have brains, and therefore may be capable of executing sophisticated behaviour based on their sensory inputs. In optimal conditions, fruit fly populations can double in days.[17](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-18) This is proof of concept that biological replicators with brains can double in days.[18](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-19)
 
-Still, fruit flies are physically weak and cognitively fairly basic; perhaps they are too limited to rebuild the full physical economy. Rats are a more conservative example, and in good conditions they can double in about 6 {--{"author":"Luc's AI","timestamp":1787132995706}@@weeks.[19](#user-content-fn-20)--}{++{"author":"Luc's AI","timestamp":1787132995706}@@weeks.[19](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-20)++}
+Still, fruit flies are physically weak and cognitively fairly basic; perhaps they are too limited to rebuild the full physical economy. Rats are a more conservative example, and in good conditions they can double in about 6 weeks.[19](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-20)
 
-One source of scepticism here is that the earth can only carry so many robots, and we might reach the limit before robot technology becomes good enough for such quick doublings. But a [quick {--{"author":"Luc's AI","timestamp":1787132995965}@@BOTEC](#how-quick-might-robot-doublings-become-by-the-time-we-reach-the-earths-carrying-capacity)--}{++{"author":"Luc's AI","timestamp":1787132995965}@@BOTEC](https://www.forethought.org/research/the-industrial-explosion#how-quick-might-robot-doublings-become-by-the-time-we-reach-the-earths-carrying-capacity)++} suggests that, extrapolating the experience curves discussed above, we would get doubling times of less than a day before reaching the earth’s robot carrying capacity.
+One source of scepticism here is that the earth can only carry so many robots, and we might reach the limit before robot technology becomes good enough for such quick doublings. But a [quick BOTEC](https://www.forethought.org/research/the-industrial-explosion#how-quick-might-robot-doublings-become-by-the-time-we-reach-the-earths-carrying-capacity) suggests that, extrapolating the experience curves discussed above, we would get doubling times of less than a day before reaching the earth’s robot carrying capacity.
 
-It seems reasonable to use days or weeks as an upper bound on how fast robot doublings could become, based on biological analogies. This is very fast {--{"author":"Luc's AI","timestamp":1787132996171}@@indeed.[20](#user-content-fn-21)--}{++{"author":"Luc's AI","timestamp":1787132996171}@@indeed.[20](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-21)++}
+It seems reasonable to use days or weeks as an upper bound on how fast robot doublings could become, based on biological analogies. This is very fast indeed.[20](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-21)
 
 _Thanks to Owen Cotton-Barratt, Max Dalton, Oscar Delaney and Fin Moorhouse for helpful feedback._
 
@@ -274,7 +274,7 @@ _(Thanks to Constantin Arnscheidt and Damon Binder for raising this approach to 
 
 Self-replicating robots will involve a wide variety of physical capital – e.g. factories, machines and infrastructure – making more physical capital. So one question is, how quickly can today’s physical capital produce more physical capital?
 
-We can estimate this by comparing the $ value of the physical capital in a particular factory to the value that factory produces in a year (in the form of new physical {--{"author":"Luc's AI","timestamp":1787132996395}@@capital).[21](#user-content-fn-22)--}{++{"author":"Luc's AI","timestamp":1787132996395}@@capital).[21](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-22)++} For example, if a $1b factory produces $1b of value each year, then that suggests the total amount of physical capital stock could double in a year. If it only produces $0.5b of value, then a doubling would take 2 {--{"author":"Luc's AI","timestamp":1787132996395}@@years.[22](#user-content-fn-23)--}{++{"author":"Luc's AI","timestamp":1787132996395}@@years.[22](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-23)++}
+We can estimate this by comparing the $ value of the physical capital in a particular factory to the value that factory produces in a year (in the form of new physical capital).[21](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-22) For example, if a $1b factory produces $1b of value each year, then that suggests the total amount of physical capital stock could double in a year. If it only produces $0.5b of value, then a doubling would take 2 years.[22](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-23)
 
 According to data from the Bureau of Economic Analysis the US manufacturing sector produced [$2.6bn](https://apps.bea.gov/iTable/?reqid=150&step=2&isuri=1&categories=gdpxind#eyJhcHBpZCI6MTUwLCJzdGVwcyI6WzEsMiwzXSwiZGF0YSI6W1siY2F0ZWdvcmllcyIsIkdkcHhJbmQiXSxbIl) of value in 2022 using [$5.4bn](https://apps.bea.gov/iTable/?ReqID=10&step=2#eyJhcHBpZCI6MTAsInN0ZXBzIjpbMiwzXSwiZGF0YSI6W1siVGFibGVfTGlzdCIsIjEyNiJdXX0=) of physical capital.
 
@@ -287,7 +287,7 @@ This estimate is a bit aggressive for a couple of reasons:
 -   It ignores the human labour costs of producing physical capital. These are very roughly half of the costs, though robot costs will likely be lower. We think this factor will be outweighed by the fact that fully autonomous factories can operate day-and-night, unlike normal factories.
     
 
-On the other hand, the estimate is very conservative in ignoring productivity improvements from abundant AI cognitive labour. Having physical capital (and robot labour) be controlled by superhumanly smart and motivated AIs could significantly boost productivity. This might reduce the doubling time, by a factor of {--{"author":"Luc's AI","timestamp":1787132996638}@@2-4X.[23](#user-content-fn-24)--}{++{"author":"Luc's AI","timestamp":1787132996638}@@2-4X.[23](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-24)++}
+On the other hand, the estimate is very conservative in ignoring productivity improvements from abundant AI cognitive labour. Having physical capital (and robot labour) be controlled by superhumanly smart and motivated AIs could significantly boost productivity. This might reduce the doubling time, by a factor of 2-4X.[23](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-24)
 
 So, all in all, this first approach suggests an initial robot doubling time of roughly 1 year or less.
 
@@ -299,7 +299,7 @@ Imagine a hypothetical where self-replicating humanoid robots drop from the sky 
 
 A very basic economic analysis suggests a robot doubling time of ~5 months:
 
--   Human manual labourers in the US earn [~$40k](https://jooble.org/salary/general-labor) a year. But these robots will be 6X more productive as they work day and night (3X) and are more productive than average ([2X](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1744-6570.2011.01239.x?ikw=enterprisehub_us_lead%2Fnew-research-what-top-performers-have-in-common_textlink_http%3A%2F%2Fonlinelibrary.wiley.com%2Fdoi%2F10.1111%2Fj.1744-6570.2011.01239.x%2Fabstract&isid=enterprisehub_us) {--{"author":"Luc's AI","timestamp":1787132996890}@@[24](#user-content-fn-25)).--}{++{"author":"Luc's AI","timestamp":1787132996890}@@[24](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-25)).++} So that’s ~$240k/year.
+-   Human manual labourers in the US earn [~$40k](https://jooble.org/salary/general-labor) a year. But these robots will be 6X more productive as they work day and night (3X) and are more productive than average ([2X](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1744-6570.2011.01239.x?ikw=enterprisehub_us_lead%2Fnew-research-what-top-performers-have-in-common_textlink_http%3A%2F%2Fonlinelibrary.wiley.com%2Fdoi%2F10.1111%2Fj.1744-6570.2011.01239.x%2Fabstract&isid=enterprisehub_us) [24](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-25)). So that’s ~$240k/year.
     
 -   Humanoid robots currently cost [~$30-150k](https://www.goldmansachs.com/insights/articles/the-global-market-for-robots-could-reach-38-billion-by-2035) to produce commercially, so let’s say ~$100k.
     
@@ -310,7 +310,7 @@ This basic analysis suggests that in our hypothetical, robot doubling times will
 
 But this is too simplistic. There are two strong reasons to expect that the doubling time (even in our unrealistic hypothetical) would actually be longer:
 
--   **It’s more expensive to build factories from scratch than to rent them.** The cost of making a robot (~$100k) already takes into account the costs of renting the factory space. But at scale it would be necessary to build new {--{"author":"Luc's AI","timestamp":1787132997134}@@factories,[25](#user-content-fn-26)--}{++{"author":"Luc's AI","timestamp":1787132997134}@@factories,[25](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-26)++} and this is much more expensive. Mathematically, we can think about this as a multiplier on the amortized construction cost of the physical capital used to build the robots. The multiplier equals the time over which the physical capital construction is currently amortized, divided by the robot doubling time. If the cost of building factories is currently amortized over 10 years, then a 12 month doubling time would increase these costs by 10x.
+-   **It’s more expensive to build factories from scratch than to rent them.** The cost of making a robot (~$100k) already takes into account the costs of renting the factory space. But at scale it would be necessary to build new factories,[25](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-26) and this is much more expensive. Mathematically, we can think about this as a multiplier on the amortized construction cost of the physical capital used to build the robots. The multiplier equals the time over which the physical capital construction is currently amortized, divided by the robot doubling time. If the cost of building factories is currently amortized over 10 years, then a 12 month doubling time would increase these costs by 10x.
     
     -   A 2 year doubling time seems compatible with this factor, as robots could produce 6X as much value as in 5 months, and the amortised costs would only be 5X higher.
         
@@ -333,7 +333,7 @@ There are a few related reasons to think that once physical labour is fully auto
 
 -   In our hypothetical, humanoid robots self-replicate without any help from humans. In the real world, humans will be helping to make more robots.
     
--   In our hypothetical, we assumed that the robots would need to build factories from scratch. In the real world, there will be a transition period where existing physical capital is reallocated to producing more {--{"author":"Luc's AI","timestamp":1787132997400}@@robots.[26](#user-content-fn-27)--}{++{"author":"Luc's AI","timestamp":1787132997400}@@robots.[26](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-27)++} This will help us to build robots faster – and by the time it’s necessary to build new factories, robot technology will probably already have improved a lot, which will lower the cost of building new factories.
+-   In our hypothetical, we assumed that the robots would need to build factories from scratch. In the real world, there will be a transition period where existing physical capital is reallocated to producing more robots.[26](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-27) This will help us to build robots faster – and by the time it’s necessary to build new factories, robot technology will probably already have improved a lot, which will lower the cost of building new factories.
     
 -   There is historical precedent for in-demand physical goods doubling every [~2 years](https://docs.google.com/spreadsheets/d/1zxgRu62Dq6UVg5u1Q8XYM42P4_d7KVi2tNAY5lwACGo/edit?gid=0#gid=0), including solar panels, smartphones and electric cars.
     
@@ -353,7 +353,7 @@ This calculation has three steps:
 
 **Step 1.** [Above](#how-fast-could-robot-doubling-times-be-initially), we estimated that with current physical technology and abundant AI cognitive labour, robot doubling times might be about **one year**.
 
-**Step 2.** Today fewer than 100,000 humanoid robots have been {--{"author":"Luc's AI","timestamp":1787132997825}@@produced.[27](#user-content-fn-29)--}{++{"author":"Luc's AI","timestamp":1787132997825}@@produced.[27](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-29)++} We expect that the earth’s robot carrying capacity will be constrained by energy not by raw {--{"author":"Luc's AI","timestamp":1787132997825}@@materials.[28](#user-content-fn-30)--}{++{"author":"Luc's AI","timestamp":1787132997825}@@materials.[28](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-30)++} Solar energy hitting the earth is [2e17 W](https://bionumbers.hms.harvard.edu/bionumber.aspx?id=100943&ver=3), whereas the human body uses [100W](https://hypertextbook.com/facts/2003/WeiLiangMok.shtml). If 5% of solar energy is used to run humanoid robots with efficiency matching humans, you could run 1e16/100 = 1e14 humanoid robots.
+**Step 2.** Today fewer than 100,000 humanoid robots have been produced.[27](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-29) We expect that the earth’s robot carrying capacity will be constrained by energy not by raw materials.[28](https://www.forethought.org/research/the-industrial-explosion#user-content-fn-30) Solar energy hitting the earth is [2e17 W](https://bionumbers.hms.harvard.edu/bionumber.aspx?id=100943&ver=3), whereas the human body uses [100W](https://hypertextbook.com/facts/2003/WeiLiangMok.shtml). If 5% of solar energy is used to run humanoid robots with efficiency matching humans, you could run 1e16/100 = 1e14 humanoid robots.
 
 That’s a scale up of robot production of 9 orders of magnitude (1e14/1e5 = 1e9).
 

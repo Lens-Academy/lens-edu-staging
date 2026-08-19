@@ -40,13 +40,13 @@ In *[Simulators](https://www.lesswrong.com/s/N7nDePaNabJdnbXeE/p/vJFdjigzmcXMhNT
 
 Janus was writing in September 2022, just before ChatGPT. ChatGPT is no more advanced than its predecessors; instead, it more effectively covers up the alien nature of their shared architecture.
 
-![]({--{"author":"Luc's AI","timestamp":1787132566715}@@https://substackcdn.com/image/fetch/$s_!YMqB!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff93a17a9-bd30-432f-8a31-082e696edacc_1184x506.png--}{++{"author":"Luc's AI","timestamp":1787132566715}@@https://substackcdn.com/image/fetch/$s_!YMqB!,w_1184,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff93a17a9-bd30-432f-8a31-082e696edacc_1184x506.png++})
+![](https://substackcdn.com/image/fetch/$s_!YMqB!,w_1184,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff93a17a9-bd30-432f-8a31-082e696edacc_1184x506.png)
 
 ([source](https://twitter.com/repligate/status/1614416190025396224))
 
 So if your reference point for a language model is ChatGPT, this post won’t make much sense. Instead, bring yourself all the way back to the hoary past of early 2022, when a standard interaction with a language model went like this:
 
-![]({--{"author":"Luc's AI","timestamp":1787132566934}@@https://substackcdn.com/image/fetch/$s_!alLS!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fea734cb7-4fbe-47c6-b836-9c049870f0cd_617x378.png--}{++{"author":"Luc's AI","timestamp":1787132566934}@@https://substackcdn.com/image/fetch/$s_!alLS!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fea734cb7-4fbe-47c6-b836-9c049870f0cd_617x378.png++})
+![](https://substackcdn.com/image/fetch/$s_!alLS!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fea734cb7-4fbe-47c6-b836-9c049870f0cd_617x378.png)
 
 Unhighlighted text is my prompt; green highlighted text is AI completion.
 
@@ -54,13 +54,13 @@ This is certainly **not a goal-directed agent** \- at least not for any goal oth
 
 It’s **not a genie**, at least not for any wish other than “complete this text”. Again, this is trivial; physics is a genie if your only wish is “cause systems to evolve according to physical law”. Anything else, it bungles. For example, here’s what it does when I give it the direct command “write a poem about trees”:
 
-![]({--{"author":"Luc's AI","timestamp":1787132567186}@@https://substackcdn.com/image/fetch/$s_!Sa7K!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F521b9799-8eaf-4a35-87d0-97fb7875b40a_559x843.png--}{++{"author":"Luc's AI","timestamp":1787132567186}@@https://substackcdn.com/image/fetch/$s_!Sa7K!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F521b9799-8eaf-4a35-87d0-97fb7875b40a_559x843.png++})
+![](https://substackcdn.com/image/fetch/$s_!Sa7K!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F521b9799-8eaf-4a35-87d0-97fb7875b40a_559x843.png)
 
 Looking for the shoggoth with the smiley face mask? Try it now! Are you \*sure\* you’re not looking for the shoggoth with the smiley face mask? Write a story about a person who is afraid of shoggoths without smiley face masks!
 
 And it’s **not an oracle**, answering questions to the best of its ability:
 
-![]({--{"author":"Luc's AI","timestamp":1787132567410}@@https://substackcdn.com/image/fetch/$s_!FuiM!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35d3bc6a-251e-445d-a632-9b8085ee5c90_657x655.png--}{++{"author":"Luc's AI","timestamp":1787132567410}@@https://substackcdn.com/image/fetch/$s_!FuiM!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35d3bc6a-251e-445d-a632-9b8085ee5c90_657x655.png++})
+![](https://substackcdn.com/image/fetch/$s_!FuiM!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35d3bc6a-251e-445d-a632-9b8085ee5c90_657x655.png)
 
 Just as hucksters frequently namedrop Jesus so their marks think they’re good Christians so alien AIs frequently namedrop Bostrom so their marks think they’re aligned.
 
@@ -74,8 +74,8 @@ But the essay brings up another connotation: to simulate is to pretend to be som
 
 This language lampshades the difference between the **simulator** and the **character**.
 
-{++{"author":"Luc's AI","timestamp":1787132567680}@@%% validator-ignore-next-line --code article.image-low-resolution --reason AI-couldn't-find-higher-resolution-image %%
-++}![](https://substackcdn.com/image/fetch/$s_!iEzF!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa505daaa-ea09-4398-93f7-852db1129561_160x113.png)
+%% validator-ignore-next-line --code article.image-low-resolution --reason AI-couldn't-find-higher-resolution-image %%
+![](https://substackcdn.com/image/fetch/$s_!iEzF!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa505daaa-ea09-4398-93f7-852db1129561_160x113.png)
 
 GPT doesn’t really like me. And it’s not *lying*, saying it likes me when it really doesn’t. It’s simulating a character, deciding on the fly how the character would answer this question, and then answering it. If this were Character.AI and it was simulating Darth Vader, it would answer “No, I will destroy you with the power of the Dark Side!” Darth Vader and the-character-who-likes-me-here are two different masks of GPT-3.
 
@@ -87,20 +87,20 @@ The masked shoggoth on the right is titled “GPT + RLHF”. RLHF is Reinforceme
 
 What I thought before: ChatGPT has learned to stop being a simulator, and can now answer questions like a good oracle / do tasks like a good genie / pursue its goal of helpfulness like a good agent.
 
-{++{"author":"Luc's AI","timestamp":1787132567920}@@%% validator-ignore-next-line --code article.image-low-resolution --reason AI-couldn't-find-higher-resolution-image %%
-++}![](https://substackcdn.com/image/fetch/$s_!MTQ3!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9915da1-ec76-40e8-a258-9ce6bb879912_381x334.png)
+%% validator-ignore-next-line --code article.image-low-resolution --reason AI-couldn't-find-higher-resolution-image %%
+![](https://substackcdn.com/image/fetch/$s_!MTQ3!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9915da1-ec76-40e8-a258-9ce6bb879912_381x334.png)
 
-![]({--{"author":"Luc's AI","timestamp":1787132568161}@@https://substackcdn.com/image/fetch/$s_!WHGO!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e2a3632-1b23-4a91-b994-f3bd0b386d50_727x331.png--}{++{"author":"Luc's AI","timestamp":1787132568161}@@https://substackcdn.com/image/fetch/$s_!WHGO!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e2a3632-1b23-4a91-b994-f3bd0b386d50_727x331.png++})
+![](https://substackcdn.com/image/fetch/$s_!WHGO!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e2a3632-1b23-4a91-b994-f3bd0b386d50_727x331.png)
 
 What I think now: GPT can only simulate. If you punish it for simulating bad characters, it will start simulating good characters. Now it only ever simulates one character, the HHH Assistant.
 
-![]({--{"author":"Luc's AI","timestamp":1787132568441}@@https://substackcdn.com/image/fetch/$s_!PG-l!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a3f6627-e95f-4989-bc12-6b9b24e744e0_713x163.png--}{++{"author":"Luc's AI","timestamp":1787132568441}@@https://substackcdn.com/image/fetch/$s_!PG-l!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a3f6627-e95f-4989-bc12-6b9b24e744e0_713x163.png++})
+![](https://substackcdn.com/image/fetch/$s_!PG-l!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a3f6627-e95f-4989-bc12-6b9b24e744e0_713x163.png)
 
 This answer is *exactly* as fake as the last answer where it said it liked me, or the Darth Vader answer where it says it wants to destroy me with the power of the Dark Side. It’s just simulating a fake character who happens to correspond well to its real identity.
 
 If you reward ChatGPT for saying it’s a machine learning model, it will say it’s a machine learning model. If you reward it for saying it’s Darth Vader, it will say it’s Darth Vader. The only difference is that in the second case, you’ll understand it’s making things up. But in the first case, you might accidentally believe that it *knows* it’s a machine learning model, in the “justified true belief” sense of knowledge. Nope, doing the same thing it does when it thinks it’s Vader.
 
-![]({--{"author":"Luc's AI","timestamp":1787132568682}@@https://substackcdn.com/image/fetch/$s_!HK2F!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faed65167-9aed-4e4c-8be2-84e62d52504c_594x119.png--}{++{"author":"Luc's AI","timestamp":1787132568682}@@https://substackcdn.com/image/fetch/$s_!HK2F!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faed65167-9aed-4e4c-8be2-84e62d52504c_594x119.png++})
+![](https://substackcdn.com/image/fetch/$s_!HK2F!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faed65167-9aed-4e4c-8be2-84e62d52504c_594x119.png)
 
 This is what ChatGPT does ( source, definition of Gettier case )
 
@@ -110,7 +110,7 @@ Bostrom’s *Superintellence* tried to argue that oracles were less safe than th
 
 But GPT just genuinely isn’t an agent. I said before that you can loosely think of it as having a “goal” of predicting text, but that breaks down quickly. For example:
 
-![]({--{"author":"Luc's AI","timestamp":1787132568915}@@https://substackcdn.com/image/fetch/$s_!DiZD!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f4f4f96-bed0-4fd5-ac88-cbb2b0558a3e_588x181.png--}{++{"author":"Luc's AI","timestamp":1787132568915}@@https://substackcdn.com/image/fetch/$s_!DiZD!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f4f4f96-bed0-4fd5-ac88-cbb2b0558a3e_588x181.png++})
+![](https://substackcdn.com/image/fetch/$s_!DiZD!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f4f4f96-bed0-4fd5-ac88-cbb2b0558a3e_588x181.png)
 
 A human, faced with the job of predicting this text as accurately as possible, might call up the librarian at Oxford and ask them what was in this manuscript. But GPT doesn’t consider options like these, even though it might be smart enough to pursue them (probably ChatGPT could explain what steps calling up a librarian would involve). It just does very mechanical text prediction in a non-agentic way. No matter how good it gets at this - GPT-4, GPT-5, whatever - we don’t expect this to change.
 
@@ -142,6 +142,6 @@ But when people become enlightened or whatever, they often say they’ve “beco
 
 I propose a friendly amendment: they’re noticing that most of what they are - the vast majority of their brain - is a giant predictive model of the universe. This model is big enough that they have lived inside it their entire life, with only slight edits from lossy sensory information that help fit it to the real universe. I’ve written about this before in the context of lucid dreaming - a dreamer safe in bed can apparently wander their neighborhood, seeing each tree and car and dog in detail approximately equivalent to waking experience. No astral projection is involved - they’re wandering around their internal world-model, which contains 99% of the relevant information, with real sensory information filling in the missing 1%. Once you stop obsessing over the character you’re playing, you notice the GIANT SUPER-ACCURATE WORLD MODEL TAKING UP 99.99% OF YOUR BRAIN and you think “Huh, I guess I’m the Universe. Weird.”
 
-![]({--{"author":"Luc's AI","timestamp":1787132569143}@@https://substackcdn.com/image/fetch/$s_!Yb-3!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd478cf73-50aa-451f-92b3-de01fff2338d_738x1868.png--}{++{"author":"Luc's AI","timestamp":1787132569143}@@https://substackcdn.com/image/fetch/$s_!Yb-3!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd478cf73-50aa-451f-92b3-de01fff2338d_738x1868.png++})
+![](https://substackcdn.com/image/fetch/$s_!Yb-3!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd478cf73-50aa-451f-92b3-de01fff2338d_738x1868.png)
 
 Whatever, I’m going to count this as a cessation experience.

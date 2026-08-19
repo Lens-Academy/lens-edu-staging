@@ -153,7 +153,7 @@ In this chapter, I make the case that **the answer should depend on the scoring 
 
 To see why, consider for comparison the quadratic and logarithmic scoring rules. Here’s a plot of the score of an expert as a function of the probability they report, if the event ends up happening.
 
-![]({--{"author":"Luc's AI","timestamp":1787132619382}@@https://ericneyman.files.wordpress.com/2024/04/image-1.png?w=774--}{++{"author":"Luc's AI","timestamp":1787132619382}@@https://ericneyman.files.wordpress.com/2024/04/image-1.png++})
+![](https://ericneyman.files.wordpress.com/2024/04/image-1.png)
 
 Figure 5.1: If the YES outcome happens, an expert’s score under the quadratic and logarithmic scoring rules, as a function of the expert’s reported probability. (The scoring rules are normalized so as to be comparable.)
 
@@ -163,7 +163,7 @@ If Jaime says that there’s a 50% chance that GPT-5 comes out this year, and it
 
 This means that Jaime cares which outcome happens a different amount depending on which scoring rule I use. Below is a plot of how much higher a score Jaime would get if GPT-5 did come out compared to if it didn’t, as a function of the probability that he reports.
 
-![]({--{"author":"Luc's AI","timestamp":1787132619583}@@https://ericneyman.files.wordpress.com/2024/04/image-2.png?w=780--}{++{"author":"Luc's AI","timestamp":1787132619583}@@https://ericneyman.files.wordpress.com/2024/04/image-2.png++})
+![](https://ericneyman.files.wordpress.com/2024/04/image-2.png)
 
 Figure 5.2: How much higher an expert’s score is under a YES outcome than under a NO outcome, as a function of the expert’s reported probability, for the quadratic and logarithmic scoring rules. In other words, how invested is the expert in getting a YES outcome instead of a NO outcome?
 
