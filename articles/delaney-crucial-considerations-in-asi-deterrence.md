@@ -45,7 +45,7 @@ The game-theoretic logic of MAIM applies to any pair of rival countries. For sim
 
 I refer throughout to the US and China as unified actors making coherent decisions. This is a somewhat accurate model of China. But in the US, many independent private companies make key decisions about AI development. However, the US government will likely take a more active role in managing geopolitical risks from AI if China takes MAIMing actions, so in some cases, it is still a reasonable simplifying assumption to model the US as a unified decision-maker.
 
-Note that I do not endorse all the reasons given for and against the premises; I have simply tried to collate the strongest reasons from the literature,[^1] and at times supplement them with considerations of my own. I think this is one of the most important topics in AI policy, and I would be keen to see more work assessing these premises and conclusions.
+Note that I do not endorse all the reasons given for and against the premises; I have simply tried to collate the strongest reasons from the {--{"author":"Luc's AI","timestamp":1787159040917}@@literature,[^1]--}{++{"author":"Luc's AI","timestamp":1787159040917}@@literature,[^cite-delaney-1]++} and at times supplement them with considerations of my own. I think this is one of the most important topics in AI policy, and I would be keen to see more work assessing these premises and conclusions.
 
 ## 1\. China expects to be disempowered by ASI
 
@@ -83,7 +83,7 @@ My credence in premise 1 holding is ~70%, since I expect China’s situational a
 
 _**Conditional on 1, China will take MAIMing actions to avoid being disempowered.**_
 
-Assuming China does expect disempowerment, what might they actually do? MAIMing actions can be more or less extreme. I define this premise as holding if US AI development is delayed by at least six months by these attacks. In ascending order of severity, some possible MAIMing actions are:[^2]
+Assuming China does expect disempowerment, what might they actually do? MAIMing actions can be more or less extreme. I define this premise as holding if US AI development is delayed by at least six months by these attacks. In ascending order of severity, some possible MAIMing actions {--{"author":"Luc's AI","timestamp":1787159042020}@@are:[^2]--}{++{"author":"Luc's AI","timestamp":1787159042020}@@are:[^note-delaney-2]++}
 
 -   Cyberattacks on AI training runs and data centers
     
@@ -91,7 +91,7 @@ Assuming China does expect disempowerment, what might they actually do? MAIMing 
     
 -   Frequent assassinations of leading AI researchers
     
--   Conventional missile strikes [^3] to destroy data centers and grid infrastructure
+-   Conventional missile strikes {--{"author":"Luc's AI","timestamp":1787159043161}@@[^3]--}{++{"author":"Luc's AI","timestamp":1787159043161}@@[^note-delaney-3]++} to destroy data centers and grid infrastructure
     
 -   Tactical nuclear strikes on AI infrastructure
     
@@ -102,9 +102,9 @@ The likelihood of China pursuing these tactics decreases greatly from top to bot
 
 Reasons for:
 
--   **China [will not trust](https://www.nationalsecurity.ai/) the US to respect China’s sovereignty post-DSA.** Historically, the US has sometimes pursued regime change in cases where it perceived a government as challenging the US’s core interests. If the US achieves a DSA, China would become vulnerable to US interventions.[^4] Protecting one’s continued sovereignty is the highest priority of most countries, so China will be willing to go to extraordinary lengths to preserve its sovereignty, including taking large risks.
+-   **China [will not trust](https://www.nationalsecurity.ai/) the US to respect China’s sovereignty post-DSA.** Historically, the US has sometimes pursued regime change in cases where it perceived a government as challenging the US’s core interests. If the US achieves a DSA, China would become vulnerable to US {--{"author":"Luc's AI","timestamp":1787159044338}@@interventions.[^4]--}{++{"author":"Luc's AI","timestamp":1787159044338}@@interventions.[^note-delaney-4]++} Protecting one’s continued sovereignty is the highest priority of most countries, so China will be willing to go to extraordinary lengths to preserve its sovereignty, including taking large risks.
     
-    -   \[Counterpoint\] **Perhaps the US could credibly commit** to China that it will not seek a DSA, or will not use a DSA to force regime change in China.[^5] This could help on the margin, but it is difficult to imagine the US saying or doing anything pre-DSA that will bindingly constrain its options post-DSA, given that the normal mechanisms of international pressure will no longer apply. One possibility is that the US could enshrine in its AI model specs that the AI must not help the US overthrow foreign governments, and that it must block attempts to create a new AI without this safeguard. But the US may be reluctant to tie its hands to this extent.
+    -   \[Counterpoint\] **Perhaps the US could credibly commit** to China that it will not seek a DSA, or will not use a DSA to force regime change in {--{"author":"Luc's AI","timestamp":1787159045560}@@China.[^5]--}{++{"author":"Luc's AI","timestamp":1787159045560}@@China.[^note-delaney-5]++} This could help on the margin, but it is difficult to imagine the US saying or doing anything pre-DSA that will bindingly constrain its options post-DSA, given that the normal mechanisms of international pressure will no longer apply. One possibility is that the US could enshrine in its AI model specs that the AI must not help the US overthrow foreign governments, and that it must block attempts to create a new AI without this safeguard. But the US may be reluctant to tie its hands to this extent.
         
     -   \[Counterpoint\] **Even with a DSA, the costs to the US of disempowering China may outweigh the benefits.** By definition, a DSA means the US would have a negligible chance of failing to achieve its strategic objectives against any adversary. However, this is distinct from an ‘overwhelming strategic advantage’ (OSA), which would allow the US to achieve its objectives with negligible costs to itself. For instance, a confrontation with China could divert valuable resources away from the US’s industrial-economic explosive growth and lead to missing out on gains from trade. Or, if China’s nuclear arsenal has not been fully incapacitated, there would be some risk to US cities.
         
@@ -125,7 +125,7 @@ Reasons against:
         
 -   **[The status quo excludes MAIM](https://peterwildeford.substack.com/p/mutual-sabotage-of-ai-probably-wont).** Kinetic strikes against an adversary’s civilian AI projects are far outside the current Overton window and rules/norms of engagement in international affairs. (Whereas cyberattacks are already normalized.) Taking drastic action would require radical, though possibly rational, rethinking of Chinese foreign and military policy, which may not occur in time.
     
-    -   \[Counterpoint\] The commonly accepted strategic logic [can change quickly](https://ai-frontiers.org/articles/ai-deterrence-is-our-best-option) (e.g., MAD would sound absurd in the 1930s).[^6]
+    -   \[Counterpoint\] The commonly accepted strategic logic [can change quickly](https://ai-frontiers.org/articles/ai-deterrence-is-our-best-option) (e.g., MAD would sound absurd in the {--{"author":"Luc's AI","timestamp":1787159046692}@@1930s).[^6]--}{++{"author":"Luc's AI","timestamp":1787159046692}@@1930s).[^note-delaney-6]++}
         
 
 My credence in premise 2 holding is ~60%, since the strategic logic for MAIMing seems strong, but it may be psychologically and institutionally difficult to actually initiate MAIM. (Although if hostilities have already broken out over Taiwan, further attacks on US soil to damage AI infrastructure will seem less outlandish.)
@@ -138,7 +138,7 @@ Note that the likelihood of premise 3 affects premise 2 as well, since China may
 
 Reasons for:
 
--   **The US is risk-averse and will [want to avoid WW3](https://ai-frontiers.org/articles/ai-deterrence-is-our-best-option).** Achieving a DSA is not a key priority for the US public,[^7] whereas avoiding a nuclear war is (or would be if it were a more salient possibility). The US government will still be democratically accountable enough at the key moment to prefer a negotiated settlement. Outcomes where both the US and China continue to survive indefinitely as strategically significant polities (i.e., the US does not get a DSA) could still satisfy most of the US’s objectives. So there would be large gains from negotiation rather than risking everything in a total war.
+-   **The US is risk-averse and will [want to avoid WW3](https://ai-frontiers.org/articles/ai-deterrence-is-our-best-option).** Achieving a DSA is not a key priority for the US {--{"author":"Luc's AI","timestamp":1787159047873}@@public,[^7]--}{++{"author":"Luc's AI","timestamp":1787159047873}@@public,[^note-delaney-7]++} whereas avoiding a nuclear war is (or would be if it were a more salient possibility). The US government will still be democratically accountable enough at the key moment to prefer a negotiated settlement. Outcomes where both the US and China continue to survive indefinitely as strategically significant polities (i.e., the US does not get a DSA) could still satisfy most of the US’s objectives. So there would be large gains from negotiation rather than risking everything in a total war.
     
     -   \[Counterpoint\] **Warmongers may prevail.** Even if it were in the rational interests of the US to negotiate, ‘submitting’ to MAIM may be [seen as the weak thing to do](https://peterwildeford.substack.com/p/mutual-sabotage-of-ai-probably-wont). These psychological/sociological factors could allow militarists and China hawks to win out, escalating the conflict rather than negotiating. That said, ‘acquiescing’ to MAIM may not be framed as such, e.g., if the US says it is not racing ahead because of its own safety worries.
         
@@ -172,7 +172,7 @@ Even if a MAIM regime emerges, it is a further question whether it will be suffi
 
 Beyond predicting what will happen, policymakers face the distinct question of what should happen. Hendrycks et al. propose that a MAIM equilibrium is not only likely, but also the safest feasible path forward. We cannot fully assess this comparative claim without considering all the other strategic visions of how ASI development should go. But as a start, consider three illustrative scenarios:
 
-1.  **MAIM escalates**. A US-China war triggered by MAIM dynamics goes nuclear. The value of this scenario is based on just how bad we think a nuclear war (and maybe winter) would be, especially for the long-term future.[^8]
+1.  **MAIM escalates**. A US-China war triggered by MAIM dynamics goes nuclear. The value of this scenario is based on just how bad we think a nuclear war (and maybe winter) would be, especially for the long-term {--{"author":"Luc's AI","timestamp":1787159049105}@@future.[^8]--}{++{"author":"Luc's AI","timestamp":1787159049105}@@future.[^cite-delaney-8]++}
     
 2.  **MAIM succeeds**. The US and China negotiate a peaceful solution, including a lengthy joint slowdown of AI development. The value of this scenario is given by the product of the probability of solving alignment (given the additional time bought by MAIM slowing capabilities progress) and the value of a future shared between the US and China.
     
@@ -185,7 +185,7 @@ Reasonable people can disagree greatly on key factors – badness of nuclear war
 
 Based on these scenarios, we can draw various policy implications.
 
-If one prefers MAIM over US racing, broad policy recommendations could include:[^9]
+If one prefers MAIM over US racing, broad policy recommendations could {--{"author":"Luc's AI","timestamp":1787159050214}@@include:[^9]--}{++{"author":"Luc's AI","timestamp":1787159050214}@@include:[^note-delaney-9]++}
 
 -   Build data centers in remote places separate from critical military or civilian infrastructure, so they can be sabotaged with less loss of life and lower escalation risk.
     
@@ -220,12 +220,12 @@ Fortunately, some interventions are robust across these disagreements. Many conv
 
 _Thanks to Onni Aarne, David Abecassis, Bill Anderson-Samways, Haydn Belfield, Tom Davidson, Lukas Finnveden, Oliver Guest, Oliver Habryka, Rose Hadshar, Fynn Heide, Edward Kembery, Adam Khoja, Daniel Kokotajlo, Maria Kostylew, Jam Kraprayoon, Jenny Marron, Cullen O’Keefe, Liam Patell, and Claire Zabel for helpful discussion and comments. The views expressed are solely my own, and others disagree on many particulars._
 
-[^1]: In particular, I focus on the [original paper](https://nationalsecurity.ai/), critical responses from individuals at [RAND](https://www.rand.org/pubs/commentary/2025/03/seeking-stability-in-the-competition-for-ai-advantage.html), [IAPS](https://peterwildeford.substack.com/p/mutual-sabotage-of-ai-probably-wont), and [MIRI](https://intelligence.org/2025/04/11/refining-maim-identifying-changes-required-to-meet-conditions-for-deterrence/) (not speaking for their orgs), and the response to the critiques by [Hendrycks and Khoja](https://ai-frontiers.org/articles/ai-deterrence-is-our-best-option).
-[^2]: Drawn both from the original _Superintelligence Strategy_ paper, and my own thinking. Note too that as well as these MAIMing actions, countries may take actions not directly related to AI, but that impose pressure in other ways, such as sanctions or export controls, and proxy wars.
-[^3]: China’s long-range missile capabilities (DF-41 and DF-5B systems) seemingly do not allow them to launch strikes that the US would know are non-nuclear. This might make China especially reluctant to use this option because a conventional strike might be misinterpreted as nuclear, raising the likelihood of escalation.
-[^4]: Arguably if the US has a DSA, neither China nor anyone can challenge its core interests. This may be true in the short term; however, to ensure that the CCP will not come to pose a future threat after catching up in AI development, the US may need to (partly) disempower it preemptively.
-[^5]: Patell and Guest (forthcoming).
-[^6]: Much of the criticism of the original MAIM paper was around disanalogies with MAD, but in their updated response, [Hendrycks and Khoja](https://ai-frontiers.org/articles/ai-deterrence-is-our-best-option) note that the analogy was somewhat loose and the MAIM argument stands on its own.
-[^7]: However, public opinion may not be that determinative of foreign policy decisions, at least in the short term.
-[^8]: See e.g., Rodriguez ([2020](https://forum.effectivealtruism.org/posts/GsjmufaebreiaivF7/what-is-the-likelihood-that-civilizational-collapse-would?); [2022](https://forum.effectivealtruism.org/posts/Nc9fCzjBKYDaDJGiX/what-is-the-likelihood-that-civilizational-collapse-would-1)), [Belfield (2023)](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003331384-6/collapse-recovery-existential-risk-haydn-belfield), and my own unpublished work
-[^9]: Drawn primarily from _[Superintelligence Strategy](https://www.nationalsecurity.ai/)_
+{--{"author":"Luc's AI","timestamp":1787159051155}@@[^1]:--}{++{"author":"Luc's AI","timestamp":1787159051155}@@[^cite-delaney-1]:++} In particular, I focus on the [original paper](https://nationalsecurity.ai/), critical responses from individuals at [RAND](https://www.rand.org/pubs/commentary/2025/03/seeking-stability-in-the-competition-for-ai-advantage.html), [IAPS](https://peterwildeford.substack.com/p/mutual-sabotage-of-ai-probably-wont), and [MIRI](https://intelligence.org/2025/04/11/refining-maim-identifying-changes-required-to-meet-conditions-for-deterrence/) (not speaking for their orgs), and the response to the critiques by [Hendrycks and Khoja](https://ai-frontiers.org/articles/ai-deterrence-is-our-best-option).
+{--{"author":"Luc's AI","timestamp":1787159051155}@@[^2]:--}{++{"author":"Luc's AI","timestamp":1787159051155}@@[^note-delaney-2]:++} Drawn both from the original _Superintelligence Strategy_ paper, and my own thinking. Note too that as well as these MAIMing actions, countries may take actions not directly related to AI, but that impose pressure in other ways, such as sanctions or export controls, and proxy wars.
+{--{"author":"Luc's AI","timestamp":1787159051155}@@[^3]:--}{++{"author":"Luc's AI","timestamp":1787159051155}@@[^note-delaney-3]:++} China’s long-range missile capabilities (DF-41 and DF-5B systems) seemingly do not allow them to launch strikes that the US would know are non-nuclear. This might make China especially reluctant to use this option because a conventional strike might be misinterpreted as nuclear, raising the likelihood of escalation.
+{--{"author":"Luc's AI","timestamp":1787159051155}@@[^4]:--}{++{"author":"Luc's AI","timestamp":1787159051155}@@[^note-delaney-4]:++} Arguably if the US has a DSA, neither China nor anyone can challenge its core interests. This may be true in the short term; however, to ensure that the CCP will not come to pose a future threat after catching up in AI development, the US may need to (partly) disempower it preemptively.
+{--{"author":"Luc's AI","timestamp":1787159051155}@@[^5]:--}{++{"author":"Luc's AI","timestamp":1787159051155}@@[^note-delaney-5]:++} Patell and Guest (forthcoming).
+{--{"author":"Luc's AI","timestamp":1787159051155}@@[^6]:--}{++{"author":"Luc's AI","timestamp":1787159051155}@@[^note-delaney-6]:++} Much of the criticism of the original MAIM paper was around disanalogies with MAD, but in their updated response, [Hendrycks and Khoja](https://ai-frontiers.org/articles/ai-deterrence-is-our-best-option) note that the analogy was somewhat loose and the MAIM argument stands on its own.
+{--{"author":"Luc's AI","timestamp":1787159051155}@@[^7]:--}{++{"author":"Luc's AI","timestamp":1787159051155}@@[^note-delaney-7]:++} However, public opinion may not be that determinative of foreign policy decisions, at least in the short term.
+{--{"author":"Luc's AI","timestamp":1787159051155}@@[^8]:--}{++{"author":"Luc's AI","timestamp":1787159051155}@@[^cite-delaney-8]:++} See e.g., Rodriguez ([2020](https://forum.effectivealtruism.org/posts/GsjmufaebreiaivF7/what-is-the-likelihood-that-civilizational-collapse-would?); [2022](https://forum.effectivealtruism.org/posts/Nc9fCzjBKYDaDJGiX/what-is-the-likelihood-that-civilizational-collapse-would-1)), [Belfield (2023)](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003331384-6/collapse-recovery-existential-risk-haydn-belfield), and my own unpublished work
+{--{"author":"Luc's AI","timestamp":1787159051155}@@[^9]:--}{++{"author":"Luc's AI","timestamp":1787159051155}@@[^note-delaney-9]:++} Drawn primarily from _[Superintelligence Strategy](https://www.nationalsecurity.ai/)_
