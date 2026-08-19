@@ -9,7 +9,14 @@ tags:
   - learning-outcome
 domain: "[[../Domains/Strategy]]"
 stage: beginner
----
+{++{"author":"AI","timestamp":1787141588774}@@eval-results:
+  content-sha: 5f60e93d
+  date: 2026-08-19
+  model: claude-opus-5
+  suite-version: 1
+  checks: {A1: pass, A2: fail, B1: fail, C1: fail, C2: pass, C3: pass}
+  notes: {A2: "statement bound to the text's framing ('as Chapter 6 states it')", B1: "question opens 'Chapter 6 opens with...' — chapter reference is scaffolding", C1: "1-5 graded ladder, not binary pass/fail"}
+++}---
 
 ## Test:
 id:: c9306c64-d15c-49d9-ab19-ecf8f946cd14

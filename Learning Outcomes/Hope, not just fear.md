@@ -8,7 +8,14 @@ tags:
   - wip
 domain: "[[../Domains/Taking Action]]"
 stage: intermediate
----
+{++{"author":"AI","timestamp":1787141582210}@@eval-results:
+  content-sha: 3bf8cec2
+  date: 2026-08-19
+  model: claude-opus-5
+  suite-version: 1
+  checks: {A1: pass, A2: pass, B1: pass, C1: fail, C2: pass, C3: pass}
+  notes: {C1: "1-5 graded ladder, not binary pass/fail"}
+++}---
 
 ## Test:
 id:: c5982833-e21c-4cb3-ba0c-2ebeaddb48f1
