@@ -47,7 +47,7 @@ Allen Ginsberg’s famous poem on Moloch:
 > 
 > Moloch! Moloch! Robot apartments! invisible suburbs! skeleton treasuries! blind capitals! demonic industries! spectral nations! invincible madhouses! granite cocks! monstrous bombs!
 > 
-> They broke their backs lift­ing Moloch to Heaven! Pave­ments, trees, ra­dios, tons! lift­ing the city to Heaven which ex­ists and is every­where about us!
+> They broke their backs {--{"author":"Luc's AI","timestamp":1787135892500}@@lift­ing--}{++{"author":"Luc's AI","timestamp":1787135892500}@@lifting++} Moloch to Heaven! {--{"author":"Luc's AI","timestamp":1787135892500}@@Pave­ments,--}{++{"author":"Luc's AI","timestamp":1787135892500}@@Pavements,++} trees, {--{"author":"Luc's AI","timestamp":1787135892500}@@ra­dios,--}{++{"author":"Luc's AI","timestamp":1787135892500}@@radios,++} tons! {--{"author":"Luc's AI","timestamp":1787135892500}@@lift­ing--}{++{"author":"Luc's AI","timestamp":1787135892500}@@lifting++} the city to Heaven which {--{"author":"Luc's AI","timestamp":1787135892500}@@ex­ists--}{++{"author":"Luc's AI","timestamp":1787135892500}@@exists++} and is {--{"author":"Luc's AI","timestamp":1787135892500}@@every­where--}{++{"author":"Luc's AI","timestamp":1787135892500}@@everywhere++} about us!
 > 
 > Visions! omens! hallucinations! miracles! ecstasies! gone down the American river!
 > 
@@ -230,7 +230,7 @@ Some people have mystical experiences and see God. There in Las Vegas, I *saw* M
 
 The Apocrypha Discordia says:
 
-> Time flows like a river. Which is to say, down­hill. We can tell this be­cause every­thing is going down­hill rapidly. It would seem pru­dent to be some­where else when we reach the sea.
+> Time flows like a river. Which is to say, {--{"author":"Luc's AI","timestamp":1787135892831}@@down­hill.--}{++{"author":"Luc's AI","timestamp":1787135892831}@@downhill.++} We can tell this {--{"author":"Luc's AI","timestamp":1787135892831}@@be­cause every­thing--}{++{"author":"Luc's AI","timestamp":1787135892831}@@because everything++} is going {--{"author":"Luc's AI","timestamp":1787135892831}@@down­hill--}{++{"author":"Luc's AI","timestamp":1787135892831}@@downhill++} rapidly. It would seem {--{"author":"Luc's AI","timestamp":1787135892831}@@pru­dent--}{++{"author":"Luc's AI","timestamp":1787135892831}@@prudent++} to be {--{"author":"Luc's AI","timestamp":1787135892831}@@some­where--}{++{"author":"Luc's AI","timestamp":1787135892831}@@somewhere++} else when we reach the sea.
 
 Let’s take this random gag 100% literally and see where it leads us.
 
@@ -296,7 +296,7 @@ For example, ever-increasing prison terms are unfair to inmates and unfair to th
 
 #### 4\. Coordination
 
-The op­po­site of a trap is a gar­den.
+The {--{"author":"Luc's AI","timestamp":1787135893140}@@op­po­site--}{++{"author":"Luc's AI","timestamp":1787135893140}@@opposite++} of a trap is a {--{"author":"Luc's AI","timestamp":1787135893140}@@gar­den.--}{++{"author":"Luc's AI","timestamp":1787135893140}@@garden.++}
 
 Things are easy to solve from a god’s-eye-view, so if everyone comes together into a superorganism, that superorganism can solve problems with ease and finesse. An intense competition between agents has turned into a garden, with a single gardener dictating where everything should go and removing elements that do not conform to the pattern.
 
@@ -328,7 +328,7 @@ The libertarians make a convincing argument for the one side, and the monarchist
 
 Let’s go back to that Apocrypha Discordia quote:
 
-> Time flows like a river. Which is to say, down­hill. We can tell this be­cause every­thing is going down­hill rapidly. It would seem pru­dent to be some­where else when we reach the sea.
+> Time flows like a river. Which is to say, {--{"author":"Luc's AI","timestamp":1787135893476}@@down­hill.--}{++{"author":"Luc's AI","timestamp":1787135893476}@@downhill.++} We can tell this {--{"author":"Luc's AI","timestamp":1787135893476}@@be­cause every­thing--}{++{"author":"Luc's AI","timestamp":1787135893476}@@because everything++} is going {--{"author":"Luc's AI","timestamp":1787135893476}@@down­hill--}{++{"author":"Luc's AI","timestamp":1787135893476}@@downhill++} rapidly. It would seem {--{"author":"Luc's AI","timestamp":1787135893476}@@pru­dent--}{++{"author":"Luc's AI","timestamp":1787135893476}@@prudent++} to be {--{"author":"Luc's AI","timestamp":1787135893476}@@some­where--}{++{"author":"Luc's AI","timestamp":1787135893476}@@somewhere++} else when we reach the sea.
 
 What would it mean, in this situation, to reach the sea?
 
@@ -419,7 +419,7 @@ Or it can end in Robin Hanson’s nightmare (he doesn’t call it a nightmare, b
 > I am a contract-drafting em,  
 > The loyalest of lawyers!  
 > I draw up terms for deals ‘twixt firms  
-> To ser­vice my em­ploy­ers!
+> To {--{"author":"Luc's AI","timestamp":1787135893810}@@ser­vice--}{++{"author":"Luc's AI","timestamp":1787135893810}@@service++} my {--{"author":"Luc's AI","timestamp":1787135893810}@@em­ploy­ers!--}{++{"author":"Luc's AI","timestamp":1787135893810}@@employers!++}
 > 
 > But in between these lines I write  
 > Of the accounts receivable,  
@@ -465,7 +465,7 @@ Or it can end in Robin Hanson’s nightmare (he doesn’t call it a nightmare, b
 > I am a contract-drafting em,  
 > The loyalest of lawyers!  
 > I draw up terms for deals ‘twixt firms  
-> To ser­vice my em­ploy­ers!
+> To {--{"author":"Luc's AI","timestamp":1787135894110}@@ser­vice--}{++{"author":"Luc's AI","timestamp":1787135894110}@@service++} my {--{"author":"Luc's AI","timestamp":1787135894110}@@em­ploy­ers!--}{++{"author":"Luc's AI","timestamp":1787135894110}@@employers!++}
 > 
 > When obsolescence shall this generation waste,  
 > The market shall remain, in midst of other woe  
@@ -487,7 +487,7 @@ Everything the human race has worked for – all of our technology, all of our c
 
 Remember: Moloch can’t agree even to this 99.99999% victory. Rats racing to populate an island don’t leave a little aside as a preserve where the few rats who live there can live happy lives producing artwork. Cancer cells don’t agree to leave the lungs alone because they realize it’s important for the body to get oxygen. Competition and optimization are blind idiotic processes and they fully intend to deny us even one lousy galaxy.
 
-> They broke their backs lift­ing Moloch to Heaven! Pave­ments, trees, ra­dios, tons! lift­ing the city to Heaven which ex­ists and is every­where about us!
+> They broke their backs {--{"author":"Luc's AI","timestamp":1787135894426}@@lift­ing--}{++{"author":"Luc's AI","timestamp":1787135894426}@@lifting++} Moloch to Heaven! {--{"author":"Luc's AI","timestamp":1787135894426}@@Pave­ments,--}{++{"author":"Luc's AI","timestamp":1787135894426}@@Pavements,++} trees, {--{"author":"Luc's AI","timestamp":1787135894426}@@ra­dios,--}{++{"author":"Luc's AI","timestamp":1787135894426}@@radios,++} tons! {--{"author":"Luc's AI","timestamp":1787135894426}@@lift­ing--}{++{"author":"Luc's AI","timestamp":1787135894426}@@lifting++} the city to Heaven which {--{"author":"Luc's AI","timestamp":1787135894426}@@ex­ists--}{++{"author":"Luc's AI","timestamp":1787135894426}@@exists++} and is {--{"author":"Luc's AI","timestamp":1787135894426}@@every­where--}{++{"author":"Luc's AI","timestamp":1787135894426}@@everywhere++} about us!
 
 We will break our back lifting Moloch to Heaven, but unless something changes it will be his victory and not ours.
 
