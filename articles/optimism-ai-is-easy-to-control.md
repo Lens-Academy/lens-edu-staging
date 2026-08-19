@@ -40,8 +40,8 @@ By contrast, AIs implemented using artificial neural networks (ANN) are **white 
 
 Backprop efficiently computes the optimal direction (called the “gradient”) in which to change the synaptic weights of the ANN in order to improve its performance the most, on any criterion we specify. The animation below shows backprop being used to compute the gradient for an ANN classifying an image of the number 5. ANNs are trained by running backprop, nudging the weights a small step along the gradient, then running backprop again, and so on many times until performance stops increasing. Needless to say, we can’t do anything remotely like gradient descent on a human brain, or the brain of any other animal!
 
-{++{"author":"Luc's AI","timestamp":1787132619903}@@%% validator-ignore-next-line --code article.image-low-resolution --reason AI-couldn't-find-higher-resolution-image %%
-++}![](https://optimists.ai/wp-content/uploads/2023/11/neuralnetwork-training.gif?w=727)
+%% validator-ignore-next-line --code article.image-low-resolution --reason AI-couldn't-find-higher-resolution-image %%
+![](https://optimists.ai/wp-content/uploads/2023/11/neuralnetwork-training.gif?w=727)
 
 Gradient descent is very powerful because, unlike a black box method, it’s almost [impossible to trick](https://www.beren.io/2023-01-21-gradient-hacking-extremely-difficult/). All of the AI’s thoughts are “transparent” to gradient descent and are included in its computation. If the AI is secretly planning to kill you, gradient descent will notice this and make it less likely to do that in the future, because the neural circuitry needed to make the secret murder plot can be dismantled and reconfigured into circuits that directly improve performance. In general, gradient descent has a strong tendency to favor the [simplest solution](https://arxiv.org/abs/1905.11604) which performs well, and secret murder plots aren’t actively useful for improving performance on the tasks humans will actually optimize AIs to perform.
 
@@ -92,7 +92,7 @@ This means that AIs will not learn to “ [play the training game](https://www.p
 1.  Values are pervasive in language model pre-training datasets. Essentially every domain of discourse contains implicit or explicit evaluative judgements. In contrast, the types of knowledge needed for dangerous capabilities appear at much lower frequencies in the training corpus.
 2.  Since values are _shared_ and understood by almost everyone in a society, they cannot be very complex. Unlike science and technology, where division of labor enables the accumulation of ever more complex knowledge, values must remain simple enough to be learned by children within a few years.
 
-![]({--{"author":"Luc's AI","timestamp":1787132620150}@@https://optimists.ai/wp-content/uploads/2023/11/untitled.png?w=853--}{++{"author":"Luc's AI","timestamp":1787132620150}@@https://optimists.ai/wp-content/uploads/2023/11/untitled.png++})
+![](https://optimists.ai/wp-content/uploads/2023/11/untitled.png)
 
 Because values are simple, current language models are already very capable of morally evaluating complex actions that a superintelligence might be capable of. In [the non-cherry picked example](https://chat.openai.com/share/a8c91a3f-8d68-4838-b405-85ff2a68a0bc) above, GPT-4 shows it can recognize that it’s wrong to kill people, even in “out of distribution” scenarios with futuristic technologies it doesn’t know how to invent. By saying “The use of _any technology_ to harm individuals_,_” GPT shows it has grokked the underlying simple moral rule “do no harm,” allowing it to generalize its ethics to cases far outside the training distribution. Strikingly, GPT-4 is also able to infer from context that the term “unspool” is being used in an idiosyncratic way to refer to some kind of harm.
 

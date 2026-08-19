@@ -24,7 +24,7 @@ If you’re interested in playing with the model yourself, the best way to do so
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132614757}@@https://substackcdn.com/image/fetch/$s_!0U8K!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2bf7c4b-33b1-4411-acb4-ffe5c2178fa0_1600x906.png--}{++{"author":"Luc's AI","timestamp":1787132614757}@@https://substackcdn.com/image/fetch/$s_!0U8K!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2bf7c4b-33b1-4411-acb4-ffe5c2178fa0_1600x906.png++})
+![](https://substackcdn.com/image/fetch/$s_!0U8K!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2bf7c4b-33b1-4411-acb4-ffe5c2178fa0_1600x906.png)
 
 ](https://substackcdn.com/image/fetch/$s_!0U8K!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2bf7c4b-33b1-4411-acb4-ffe5c2178fa0_1600x906.png)
 
@@ -85,7 +85,7 @@ This is our approach! We feel that now, in 2025, we have better evidence regardi
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132614997}@@https://substackcdn.com/image/fetch/$s_!v-7Z!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F64acaf5f-f4cb-44bb-9144-045697b7f040_1600x697.png--}{++{"author":"Luc's AI","timestamp":1787132614997}@@https://substackcdn.com/image/fetch/$s_!v-7Z!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F64acaf5f-f4cb-44bb-9144-045697b7f040_1600x697.png++})
+![](https://substackcdn.com/image/fetch/$s_!v-7Z!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F64acaf5f-f4cb-44bb-9144-045697b7f040_1600x697.png)
 
 ](https://substackcdn.com/image/fetch/$s_!v-7Z!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F64acaf5f-f4cb-44bb-9144-045697b7f040_1600x697.png)
 
@@ -116,7 +116,7 @@ On the [web app](https://www.aifuturesmodel.com/), there’s an interactive diag
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132615236}@@https://substackcdn.com/image/fetch/$s_!SRwL!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F558948f1-71f2-4224-a1b4-94a1fe6abb8b_1096x448.png--}{++{"author":"Luc's AI","timestamp":1787132615236}@@https://substackcdn.com/image/fetch/$s_!SRwL!,w_1096,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F558948f1-71f2-4224-a1b4-94a1fe6abb8b_1096x448.png++})
+![](https://substackcdn.com/image/fetch/$s_!SRwL!,w_1096,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F558948f1-71f2-4224-a1b4-94a1fe6abb8b_1096x448.png)
 
 ](https://substackcdn.com/image/fetch/$s_!SRwL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F558948f1-71f2-4224-a1b4-94a1fe6abb8b_1096x448.png)
 
@@ -128,7 +128,7 @@ Our model can intuitively be divided into 3 stages. **Although the same formulas
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132615461}@@https://substackcdn.com/image/fetch/$s_!TmIK!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1b69f9c-8329-442f-9062-278526c5cd86_1992x1264.heic--}{++{"author":"Luc's AI","timestamp":1787132615461}@@https://substackcdn.com/image/fetch/$s_!TmIK!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1b69f9c-8329-442f-9062-278526c5cd86_1992x1264.heic++})
+![](https://substackcdn.com/image/fetch/$s_!TmIK!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1b69f9c-8329-442f-9062-278526c5cd86_1992x1264.heic)
 
 ](https://substackcdn.com/image/fetch/$s_!TmIK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1b69f9c-8329-442f-9062-278526c5cd86_1992x1264.heic)
 
@@ -201,7 +201,7 @@ Here is the model’s output with my parameters along with my all-things-conside
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132615772}@@https://substackcdn.com/image/fetch/$s_!_l7N!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf84418d-4850-4e58-82de-19b1ab177760_1111x556.png--}{++{"author":"Luc's AI","timestamp":1787132615772}@@https://substackcdn.com/image/fetch/$s_!_l7N!,w_1111,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf84418d-4850-4e58-82de-19b1ab177760_1111x556.png++})
+![](https://substackcdn.com/image/fetch/$s_!_l7N!,w_1111,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf84418d-4850-4e58-82de-19b1ab177760_1111x556.png)
 
 ](https://substackcdn.com/image/fetch/$s_!_l7N!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf84418d-4850-4e58-82de-19b1ab177760_1111x556.png)
 
@@ -218,7 +218,7 @@ Now I’ll move on to takeoff.
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132616002}@@https://substackcdn.com/image/fetch/$s_!FBzC!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1cbbb256-1e9b-4dff-98f0-4ffa286b85da_1600x758.png--}{++{"author":"Luc's AI","timestamp":1787132616002}@@https://substackcdn.com/image/fetch/$s_!FBzC!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1cbbb256-1e9b-4dff-98f0-4ffa286b85da_1600x758.png++})
+![](https://substackcdn.com/image/fetch/$s_!FBzC!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1cbbb256-1e9b-4dff-98f0-4ffa286b85da_1600x758.png)
 
 ](https://substackcdn.com/image/fetch/$s_!FBzC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1cbbb256-1e9b-4dff-98f0-4ffa286b85da_1600x758.png)
 
@@ -241,7 +241,7 @@ First, let me say a quick prayer to the spirit of rationality, who infrequently 
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132616231}@@https://substackcdn.com/image/fetch/$s_!7tB4!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fec064ef7-c82b-4de6-b4ac-710c00165d26_1280x720.jpeg--}{++{"author":"Luc's AI","timestamp":1787132616231}@@https://substackcdn.com/image/fetch/$s_!7tB4!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fec064ef7-c82b-4de6-b4ac-710c00165d26_1280x720.jpeg++})
+![](https://substackcdn.com/image/fetch/$s_!7tB4!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fec064ef7-c82b-4de6-b4ac-710c00165d26_1280x720.jpeg)
 
 ](https://substackcdn.com/image/fetch/$s_!7tB4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fec064ef7-c82b-4de6-b4ac-710c00165d26_1280x720.jpeg)
 
@@ -301,7 +301,7 @@ So, here’s my all-things-considered distribution as of today, Dec 30 2025:
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132616451}@@https://substackcdn.com/image/fetch/$s_!gDEg!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36ea5f1d-26e7-43d4-8890-9b0777abba0b_1099x502.png--}{++{"author":"Luc's AI","timestamp":1787132616451}@@https://substackcdn.com/image/fetch/$s_!gDEg!,w_1099,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36ea5f1d-26e7-43d4-8890-9b0777abba0b_1099x502.png++})
+![](https://substackcdn.com/image/fetch/$s_!gDEg!,w_1099,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36ea5f1d-26e7-43d4-8890-9b0777abba0b_1099x502.png)
 
 ](https://substackcdn.com/image/fetch/$s_!gDEg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36ea5f1d-26e7-43d4-8890-9b0777abba0b_1099x502.png)
 
@@ -315,7 +315,7 @@ So here’s a quick distribution I just eyeballed:
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132616669}@@https://substackcdn.com/image/fetch/$s_!5pZb!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F265563bd-bbe9-4323-b52b-bce300f55dd7_1111x588.png--}{++{"author":"Luc's AI","timestamp":1787132616669}@@https://substackcdn.com/image/fetch/$s_!5pZb!,w_1111,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F265563bd-bbe9-4323-b52b-bce300f55dd7_1111x588.png++})
+![](https://substackcdn.com/image/fetch/$s_!5pZb!,w_1111,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F265563bd-bbe9-4323-b52b-bce300f55dd7_1111x588.png)
 
 ](https://substackcdn.com/image/fetch/$s_!5pZb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F265563bd-bbe9-4323-b52b-bce300f55dd7_1111x588.png)
 
@@ -350,7 +350,7 @@ We’ll discuss only the [AI 2027 time horizon extension model](https://ai-2027.
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132616895}@@https://substackcdn.com/image/fetch/$s_!RtPE!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F30446ff8-9199-4907-9e64-bff89f1f68e4_2100x1200.png--}{++{"author":"Luc's AI","timestamp":1787132616895}@@https://substackcdn.com/image/fetch/$s_!RtPE!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F30446ff8-9199-4907-9e64-bff89f1f68e4_2100x1200.png++})
+![](https://substackcdn.com/image/fetch/$s_!RtPE!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F30446ff8-9199-4907-9e64-bff89f1f68e4_2100x1200.png)
 
 ](https://substackcdn.com/image/fetch/$s_!RtPE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F30446ff8-9199-4907-9e64-bff89f1f68e4_2100x1200.png)
 
@@ -383,7 +383,7 @@ The AI Futures Model predicts a slower median takeoff than our [AI 2027 takeoff 
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132617130}@@https://substackcdn.com/image/fetch/$s_!7ur7!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fccf82019-af9c-4b00-ba8f-1aa76c5311f6_2100x1200.png--}{++{"author":"Luc's AI","timestamp":1787132617130}@@https://substackcdn.com/image/fetch/$s_!7ur7!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fccf82019-af9c-4b00-ba8f-1aa76c5311f6_2100x1200.png++})
+![](https://substackcdn.com/image/fetch/$s_!7ur7!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fccf82019-af9c-4b00-ba8f-1aa76c5311f6_2100x1200.png)
 
 ](https://substackcdn.com/image/fetch/$s_!7ur7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fccf82019-af9c-4b00-ba8f-1aa76c5311f6_2100x1200.png)
 
@@ -402,7 +402,7 @@ Our [AI 2027 takeoff model](https://ai-2027.com/research/takeoff-forecast) predi
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132617369}@@https://substackcdn.com/image/fetch/$s_!o8dn!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5eaff8c-9106-4af1-b74b-fcf1211a18a3_1510x1118.png--}{++{"author":"Luc's AI","timestamp":1787132617369}@@https://substackcdn.com/image/fetch/$s_!o8dn!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5eaff8c-9106-4af1-b74b-fcf1211a18a3_1510x1118.png++})
+![](https://substackcdn.com/image/fetch/$s_!o8dn!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5eaff8c-9106-4af1-b74b-fcf1211a18a3_1510x1118.png)
 
 ](https://substackcdn.com/image/fetch/$s_!o8dn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5eaff8c-9106-4af1-b74b-fcf1211a18a3_1510x1118.png)
 
@@ -416,7 +416,7 @@ Under these assumptions, we can define a similar _b_ to that analyzed in an SIE.
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132617613}@@https://substackcdn.com/image/fetch/$s_!1SI2!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ba6928f-f18e-4c68-aeae-b9714ee07156_2224x1184.heic--}{++{"author":"Luc's AI","timestamp":1787132617613}@@https://substackcdn.com/image/fetch/$s_!1SI2!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ba6928f-f18e-4c68-aeae-b9714ee07156_2224x1184.heic++})
+![](https://substackcdn.com/image/fetch/$s_!1SI2!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ba6928f-f18e-4c68-aeae-b9714ee07156_2224x1184.heic)
 
 ](https://substackcdn.com/image/fetch/$s_!1SI2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ba6928f-f18e-4c68-aeae-b9714ee07156_2224x1184.heic)
 
@@ -434,7 +434,7 @@ With the AI 2027 model’s median parameters, each successive doubling of uplift
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132617845}@@https://substackcdn.com/image/fetch/$s_!82Xj!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5676503a-78f3-4126-9e09-14712edaab9b_1500x900.png--}{++{"author":"Luc's AI","timestamp":1787132617845}@@https://substackcdn.com/image/fetch/$s_!82Xj!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5676503a-78f3-4126-9e09-14712edaab9b_1500x900.png++})
+![](https://substackcdn.com/image/fetch/$s_!82Xj!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5676503a-78f3-4126-9e09-14712edaab9b_1500x900.png)
 
 ](https://substackcdn.com/image/fetch/$s_!82Xj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5676503a-78f3-4126-9e09-14712edaab9b_1500x900.png)
 

@@ -7,6 +7,7 @@ author:
   - "Miles Brundage"
   - "Lennart Heim"
 source_url: "https://www.rand.org/pubs/working_papers/WRA4077-1.html"
+allowUnreachableUrl: true
 published: 2025-07-24
 created: 2026-07-28
 accessed: 2026-07-28

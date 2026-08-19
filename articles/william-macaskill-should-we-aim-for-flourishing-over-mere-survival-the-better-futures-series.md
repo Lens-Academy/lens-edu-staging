@@ -1,7 +1,7 @@
 ---
 title: "Should we aim for flourishing over mere survival? The Better Futures series."
 author:
-  - {--{"author":"Luc's AI","timestamp":1787133030740}@@"William_MacAskill"--}{++{"author":"Luc's AI","timestamp":1787133030740}@@"William MacAskill"++}
+  - "William MacAskill"
   - "Forethought"
 source_url: "https://forum.effectivealtruism.org/posts/mzT2ZQGNce8AywAx3/should-we-aim-for-flourishing-over-mere-survival-the-better"
 published: 2025-08-04

@@ -3,6 +3,7 @@ title: "Clarifying “AI alignment”"
 author:
   - "Paul Christiano"
 source_url: "https://ai-alignment.com/clarifying-ai-alignment-cec47cd69dd6"
+allowUnreachableUrl: true
 published: 2021-04-09
 created: 2026-08-17
 accessed: 2026-08-17
