@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787136892901}@@---
+{++{"author":"AI","timestamp":1787141324865}@@---
 suite-version: 1
 tags:
   - validator-ignore
@@ -8,6 +8,14 @@ tags:
 This folder holds the evals that assess the quality of **learning-outcome files themselves** — the outcome statement, the test question, and the rubric. They are not learner-grading rubrics; they grade our own content. Each eval is a single binary check, grounded in failure modes observed during the human open-coding pass in `Lens/base/Learning Outcome Annotation Pass.md`.
 
 The runner is the `/lo-eval` skill in the `Lens-Academy/lens-relay` repo (`.claude/skills/lo-eval/SKILL.md`). Runs are manual — this suite is never part of automatic content validation.
+
+## Runner architecture
+
+A run is orchestrated by a **director agent** and executed by subagents with strictly separated roles:
+
+- **Judge subagents** evaluate one LO file each and **report their verdicts back to the director as structured results. Judges never edit any document.**
+- **Stamping** — writing `eval-results` into the LO files — is done by the director, or delegated to a dedicated **stamper subagent** per file (preferred for larger runs, so the director doesn't have to hold full file contents in its context).
+- Judges must never be shown, or allowed to read, the golden-labels file (`Lens/base/`).
 
 ## The checks
 
