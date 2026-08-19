@@ -270,31 +270,31 @@ In my next essay, I’ll look at these objections – both the more fundamental 
 	 Though: note that to the extent that we end up relying heavily on *restraining* further increases in frontier AI capability, the AI safety feedback loop also won’t be able to benefit from more capable forms of AI labor, and so the “feedback” aspect will be correspondingly stalled.
 {--{"author":"Luc's AI","timestamp":1787159005147}@@[^17]:--}{++{"author":"Luc's AI","timestamp":1787159005147}@@[^cite-carlsmith-17]:++}
 	 See e.g. [Leahy et al (2024)](https://www.thecompendium.ai/) for an example: “The iterative alignment strategy has an ordering error – we first need to achieve alignment to safely and effectively leverage AIs… Fundamentally, the problem with iterative alignment is that it never pays the cost of alignment. Somewhere along the story, alignment gets implicitly solved – yet no one ever proposes an actual plan for doing so beyond ‘the (unaligned) AIs will help us’.”
-[^18]:
+{--{"author":"Luc's AI","timestamp":1787159005843}@@[^18]:--}{++{"author":"Luc's AI","timestamp":1787159005843}@@[^note-carlsmith-18]:++}
 	 Or at least, unenhanced human labor of the form that will likely, in practice, be brought to bear.
-[^19]:
+{--{"author":"Luc's AI","timestamp":1787159006608}@@[^19]:--}{++{"author":"Luc's AI","timestamp":1787159006608}@@[^cite-carlsmith-19]:++}
 	 At least as of early 2024. From [here](https://www.alignmentforum.org/posts/q3bJYTB3dGRf5fbD9/miri-2024-mission-and-strategy-update#fndnikb6w9rc8): “Nate and Eliezer both believe that humanity should not be attempting technical alignment at its current level of cognitive ability, and should instead pursue human cognitive enhancement (e.g., via uploading), and then having smarter (trans)humans figure out alignment.”
-[^20]:
+{--{"author":"Luc's AI","timestamp":1787159007272}@@[^20]:--}{++{"author":"Luc's AI","timestamp":1787159007272}@@[^note-carlsmith-20]:++}
 	 Lizka Vaintrob and Owen Cotton-Barratt also have a forthcoming piece on a topic closely akin to “AI for AI safety,” which offers a perspective quite similar to my own.
-[^21]:
+{--{"author":"Luc's AI","timestamp":1787159008003}@@[^21]:--}{++{"author":"Luc's AI","timestamp":1787159008003}@@[^cite-carlsmith-21]:++}
 	 See also [Clifford (2024)](https://www.joinef.com/posts/introducing-def-acc-at-ef/) on “def/acc.”
-[^22]:
+{--{"author":"Luc's AI","timestamp":1787159008741}@@[^22]:--}{++{"author":"Luc's AI","timestamp":1787159008741}@@[^note-carlsmith-22]:++}
 	 D/acc is thus a particular implementation of what [Bostrom (2002)](https://nickbostrom.com/existential/risks.pdf) calls “differential technological development.” See also [these notes](https://michaelnotebook.com/dtd/) on the topic from Michael Nielsen, and [this recent update](https://vitalik.eth.limo/general/2025/01/05/dacc2.html) from Buterin.
-[^23]:
+{--{"author":"Luc's AI","timestamp":1787159009473}@@[^23]:--}{++{"author":"Luc's AI","timestamp":1787159009473}@@[^note-carlsmith-23]:++}
 	 That said, the more we focus on “backdrop capacity,” and include human labor in addition to AI labor in the picture, then AI for AI safety and d/acc become more similar (though d/acc is still concerned with a broader range of technological issues, not just the alignment problem).
-[^24]:
+{--{"author":"Luc's AI","timestamp":1787159010218}@@[^24]:--}{++{"author":"Luc's AI","timestamp":1787159010218}@@[^cite-carlsmith-24]:++}
 	 See e.g. the strategy outlined in MIRI’s [2017 fundraiser update](https://intelligence.org/2017/12/01/miris-2017-fundraiser/), and Yudkowsky’s discussion [here](https://www.alignmentforum.org/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities) of “So far as I'm concerned, [if you can get a powerful AGI that carries out some pivotal superhuman engineering task, with a less than fifty percent chance of killing more than one billion people](https://twitter.com/ESYudkowsky/status/1070095112791715846), I'll take it.”
-[^25]:
+{--{"author":"Luc's AI","timestamp":1787159010942}@@[^25]:--}{++{"author":"Luc's AI","timestamp":1787159010942}@@[^note-carlsmith-25]:++}
 	 I think talk of “pivotal acts” often brings in an implicit assumption that the default outcome is doom (hence the need for the world to be “saved”) – an assumption I don’t take for granted. But we can remedy this issue by focusing, in particular, on problem profiles where doom is currently the default.
-[^26]:
+{--{"author":"Luc's AI","timestamp":1787159011722}@@[^26]:--}{++{"author":"Luc's AI","timestamp":1787159011722}@@[^cite-carlsmith-26]:++}
 	 This is a point from [Christiano (2022)](https://www.alignmentforum.org/posts/CoZhXrhpQxpy9xw9y/where-i-agree-and-disagree-with-eliezer): “No particular act needs to be pivotal in order to greatly reduce the risk from unaligned AI, and the search for single pivotal acts leads to unrealistic stories of the future and unrealistic pictures of what AI labs should do.” See also Critch (2022) [here](https://www.alignmentforum.org/posts/etNJcXCsKC6izQQZj/pivotal-outcomes-and-pivotal-processes).
-[^27]:
+{--{"author":"Luc's AI","timestamp":1787159012525}@@[^27]:--}{++{"author":"Luc's AI","timestamp":1787159012525}@@[^note-carlsmith-27]:++}
 	 And in particular: if they’re willing to devote large amounts of compute and other relevant resources to the project – though I won’t take a stand here on how much is necessary.
-[^28]:
+{--{"author":"Luc's AI","timestamp":1787159013249}@@[^28]:--}{++{"author":"Luc's AI","timestamp":1787159013249}@@[^note-carlsmith-28]:++}
 	 I.e., they don’t have options for disempowering humanity that would succeed with non-trivial probability. That is, in the [taxonomy of vulnerability conditions I offered in my second essay](https://joecarlsmith.substack.com/i/157445591/appendix-a-typology-of-vulnerability-conditions), we aren’t in a global vulnerability-to-motivations condition. And note that one way this can happen is: the relevant AIs don’t satisfy the agency pre-requisites at all.
-[^29]:
+{--{"author":"Luc's AI","timestamp":1787159014061}@@[^29]:--}{++{"author":"Luc's AI","timestamp":1787159014061}@@[^note-carlsmith-29]:++}
 	 Though of course, the usefulness of our AIs comes along a spectrum, and we should be trying to do as much AI for AI safety as we can, at every step along the way.
-[^30]:
+{--{"author":"Luc's AI","timestamp":1787159014795}@@[^30]:--}{++{"author":"Luc's AI","timestamp":1787159014795}@@[^note-carlsmith-30]:++}
 	 Thanks to Owen Cotton-Barratt for discussion.
 [^31]:
 	 This is the sort of strategy that I associate with e.g. Shlegeris and Greenblatt [here](https://www.alignmentforum.org/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled), though I’m not sure if they’d endorse this framing.
