@@ -393,4 +393,70 @@ Is it possible for effective compute to double that quickly? Here we are reasoni
 
 There are several reasons that maximum speed could be less than this. Human bottlenecks like regulation could slow doubling times down. Or we could approach physical limits before progress can accelerate to the maximum possible speed.
 
-Overall, it’s hard to give a good estimate of the fastest speed, but it at least seems plausible that it is very fast. **It’s conceivable that maximum AI progress could become 100X as fast as recent progress (or faster), with effective compute doubling every day or so.**
+Overall, it’s hard to give a good estimate of the fastest speed, but it at least seems plausible that it is very fast. **It’s conceivable that maximum AI progress could become 100X as fast as recent progress (or faster), with effective compute doubling every day or so.**{++{"author":"Luc's AI","timestamp":1787137236563}@@
+
+[^1]:  In recent years, increasing the effective compute for AI development by 1000X has been sufficient to improve capabilities by 1 GPT (so 1 GPT is 3 OOMs of improvement). See workings [here](https://docs.google.com/spreadsheets/d/1v_IFQ2okXL2ivUqzz4s7ACKWpiqV71pHvuVtfNAx0dk/edit?gid=0#gid=0).
+
+[^2]:  Good, I.J. (1966) ‘Speculations Concerning the First Ultraintelligent Machine’, in F.L. Alt and M. Rubinoff (eds) Advances in Computers. Elsevier, pp. 31–88. Available at: https://doi.org/10.1016/S0065-2458(08)60418-0.
+
+[^3]:  Defining exactly how fast AI progress needs to be to qualify as an IE is ultimately fairly arbitrary. In this post we don’t make use of a specific definition.
+
+[^4]:  The choice of *three* feedback loops, rather than fewer or more, is natural but somewhat arbitrary. See [here](#appendix-are-there-really-just-three-feedback-loops) for further discussion.
+
+[^5]:  Automated chip technology could also increase the *quantity* of AI chips, via process improvements which could enable the same number of fabs to produce more chips than before. 
+
+[^6]:  The chip technology and chip production feedback loops can improve AI because, even holding AI software fixed, increasing the compute used for AI development and inference improves AI capabilities. Further, increases in inference compute enable the same software to be run more times in parallel; in the context of automated researchers, this would be akin to expanding your researcher pool.
+
+[^7]:  The chip technology and chip production feedback loops can improve AI because, even holding AI software fixed, increasing the compute used for AI development and inference improves AI capabilities. Further, increases in inference compute enable the same software to be run more times in parallel; in the context of automated researchers, this would be akin to having more researchers.
+
+[^8]:  We can think about this precisely in terms of the elasticity of AI R\&D output from humans and AI: how much the marginal pace of progress increases if you increase the population of humans or AIs by 1%. We can say that the transition period begins when AI elasticity is first \>1/10 that of human labour, and ends when it’s \>9/10. The specific start and end points are arbitrary, but for any such choice there’s a big range of possibilities for:
+    * How sudden the transition period could be: it could take anything from months to decades.
+    * How fast the initial speed-up from AI-driven progress could be: the pace of AI progress could increase by 2X or 100X over the course of the transition.
+
+    See [this essay](https://www.forethought.org/research/how-suddenly-will-ai-accelerate-the-pace-of-ai-progress) for further discussion.
+
+[^9]:  New chip designs can begin printing within weeks. But it would take longer to print as many chips as the existing stock. As a rough estimate:
+    * NVIDIA’s AI chip revenues have doubled every [~12 months](https://docs.google.com/spreadsheets/d/1VlPB6Yby3ir1Ie8Y5IT27xlnTiVlHJFQKyoV4ay9fUY/edit?gid=0#gid=0) in recent years. 
+    * If we use this as a proxy for the doubling time of AI chips, then it would take 12 months to print as many chips as have already been made. 
+    * It could take less than 12 months to print the chips for frontier training runs, if the proportion of AI chips spent on frontier training runs is increased.
+
+[^10]:  We are not going to define a threshold for an intelligence explosion in this piece; as we use the term, the important thing is that a positive feedback loop where AI improves leads to fast progress in AI capabilities.
+
+[^11]:  Even if earlier feedback loops plateau before later feedback loops kick in, it’s likely that the later feedback loops will unlock additional gains. For example, better chip designs would create room for software improvements specific to the new chip designs or the new higher quantity of compute.
+
+[^12]:  To happen suddenly, a feedback loop would have to both have short time lags and large improvements per iteration. Having short time lags increases the potential for suddenness.
+
+[^13]:  If there is a chip technology feedback loop, it’s likely that the software feedback loop is also in operation, because:
+    * Software R&D will likely be automated before hardware R&D.
+    * Even if the software feedback loop has already slowed by the time the chip technology feedback loop gets going, progress in chip technology will unlock room for further software improvements. 
+
+[^14]:  This claim could seem confusing at first blush. Adding in the chip technology feedback loop will only make AI progress *faster* and *more sudden*. So why say that the AI-technology IE would likely be *less sudden* than the software IE? We mean that if we condition on there being an AI-technology IE *but there not being a software IE*, we should expect things to be less sudden than if we condition on there being a software IE. 
+
+[^15]:  If there is a chip production feedback loop in operation, it’s likely that both the software and the chip technology feedback loops are in operation too, because:
+    * Software and hardware R&D will likely be automated before hardware production.
+    * Even if the software and chip technology feedback loops have already slowed by the time the chip production feedback loop gets going, more and better fabs will unlock room for further improvements in chip technology and therefore software.
+
+[^16]:  We define “accelerating AI progress” as “each increment of capability advancement (e.g. GPT-3 → GPT-4) happens more quickly than the last”. Historically, each such advancement has required an *exponential* increase in inputs (of compute, data, and human effort), in which case accelerating AI progress would require *super-exponential* growth in inputs. 
+
+    As we’re using the term “intelligence explosion”, you could still get an IE without acceleration, if replacing humans with AI made AI progress much faster but progress didn’t accelerate further from that point. See [here](https://www.forethought.org/research/how-suddenly-will-ai-accelerate-the-pace-of-ai-progress#initial-speed-up-from-ai-automation) for discussion of initial speedups from AI automation. 
+
+[^17]:  See [here](https://www.forethought.org/research/once-ai-research-is-automated-will-ai-progress-accelerate#will-ai-progress-accelerate) for more explanation on the conditions for accelerating progress.
+
+[^18]:  Of course, progress may slow down long before effective physical limits, because of regulation, diminishing marginal returns or other factors. Here we set aside human constraints and focus on effective physical limits, as these are easier to analyse.
+
+[^19]:  See workings [here](https://docs.google.com/spreadsheets/d/1v_IFQ2okXL2ivUqzz4s7ACKWpiqV71pHvuVtfNAx0dk/edit?gid=514679945#gid=514679945).
+
+[^20]:  Note that these might shorten during an intelligence explosion, as improved capabilities allow tasks to be completed more quickly (either through having better AI workers, or having more AI workers, or both).
+
+[^21]:  The classic discussion of recursive AI improvements pointed to the possibility of a “fast takeoff”, which Nick Bostrom defined as one where the transition “from human-level intelligence to superintelligence” occurs “over some short temporal interval, such as minutes, hours, or days”. Bostrom (2014), *Superintelligence: Paths, Dangers, Strategies*, pp. 63-64.
+    Such a scenario now seems very unlikely, as there will be compute constraints, and as training new models takes [~3 months](https://epoch.ai/data/notable-ai-models#training-time-growth). Even using very aggressive parameter values in a [model of takeoff speeds](https://epoch.ai/blog/interactive-model-of-takeoff-speeds), takeoff still lasts months. Moreover, arguably the latest language models are already human-level by the standards of this earlier discussion, and we have not yet transitioned to superintelligence.
+
+[^22]:  This poses the further risk that the leaders of the frontrunning project leverage AI to perform a coup, which would concentrate power even more.
+
+[^23]:  Authoritarian countries could also potentially go faster through a full-stack IE as they might be able to maintain higher savings rates than democratic countries.
+
+[^24]:  4.2X compute and 3X algorithmic improvements.
+
+[^25]:  At 29°C, it takes [7 days](https://bdsc.indiana.edu/information/fly-culture.html#:~:text=The%20frequency%20with%20which%20new,case%20the%20stocks%20do%20poorly.) from egg to adult, and total lifespan is around [40 days](https://pmc.ncbi.nlm.nih.gov/articles/PMC3582515/#sec11). Females can lay up to [100 eggs](https://depts.washington.edu/cberglab/wordpress/outreach/an-introduction-to-fruit-flies/#:~:text=Females%20become%20sexually%20mature%208,sterile%20and%20few%20in%20number) per day, from the day they become adults. Naively, a population of 2 fruit flies (one male and one female) would become a population of 202 adults in 8 days (\~1 day doubling time).
+
+[^26]:  Computer chips can execute any software that is written in machine-readable code. This allows anyone to write software to their liking, translate it to machine-readable code, and then use the computer chips to run the software. This isn’t possible with fruit flies because there is no “fruit-fly-readable code” – no flexible way to describe software that the fruit flies’ brain can interpret. ++}
