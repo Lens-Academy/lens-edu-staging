@@ -44,7 +44,7 @@ That brings us to the central pitch of the control agenda. [In the words of Buc
 
 > IMO the main argument for focusing on scheming risk is that scheming is the main plausible source of catastrophic risk from the first AIs that either pose substantial misalignment risk or that are extremely useful (as I discuss [here](https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled#Control_is_likely_achievable_for_early_transformatively_useful_AIs)).
 
-… and this is where I get off the train. The problem is that we mostly don’t die of catastrophic risk *from early transformative AI* at all. We die of catastrophic risk from stronger AI, e.g. superintelligence (in the oversimplified model). **The main problem which needs to be solved for early transformative AI is to use it to** ***actually solve*** **the hard alignment problems of superintelligence**. The risk that early transformative AI itself kills us directly, or intentionally tries to kill us indirectly,  was never the bulk of the X-risk in the first {--{"author":"Luc's AI","timestamp":1787159246619}@@place.[^1]--}{++{"author":"Luc's AI","timestamp":1787159246619}@@place.[^note-wentworth-1]++}
+… and this is where I get off the train. The problem is that we mostly don’t die of catastrophic risk *from early transformative AI* at all. We die of catastrophic risk from stronger AI, e.g. superintelligence (in the oversimplified model). **The main problem which needs to be solved for early transformative AI is to use it to** ***actually solve*** **the hard alignment problems of superintelligence**. The risk that early transformative AI itself kills us directly, or intentionally tries to kill us indirectly,  was never the bulk of the X-risk in the first place.[^note-wentworth-1]
 
 # The Median Doom-Path: Slop, not Scheming
 
@@ -103,5 +103,5 @@ Again, the diagram:
 
 In most worlds, early transformative AGI isn’t what kills us, whether via scheming or otherwise. It’s later, stronger AI which kills us. The big failure mode of early transformative AGI is that it *doesn’t actually solve* the alignment problems of stronger AI. In particular, if early AGI makes us *think* we can handle stronger AI, then that’s a central path by which we die. And most of that probability-mass doesn’t come from intentional deception - it comes from slop, from the problem being hard to verify, from humans being bad at science in domains which we don’t already understand deeply, from (relatively predictable if one is actually paying attention to it) failures of techniques to generalize, etc.
 
-{--{"author":"Luc's AI","timestamp":1787159247270}@@[^1]:--}{++{"author":"Luc's AI","timestamp":1787159247270}@@[^note-wentworth-1]:++}
+[^note-wentworth-1]:
 	I hear a lot of researchers assign doom probabilities in the 2%-20% range, because they think that’s about how likely it is for early transformative AGI to intentionally scheme successfully. I think that range of probabilities is pretty sensible *for successful intentional scheming of early AGI*… that’s just not where most of the doom-mass is.
