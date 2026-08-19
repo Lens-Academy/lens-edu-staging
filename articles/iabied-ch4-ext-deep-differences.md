@@ -43,7 +43,7 @@ Optimization is not a magic ritual where you throw in a few key ingredients that
 
 Someone can of course fine-tune an LLM to predict what humans will say about how terrible it is to betray a friend. This is not remotely like the problem that natural selection optimized genes to solve, in the course of producing at least some people who would not betray their friends. Rather, the LLM's "experience" is more like being shut up inside a box, told to predict a conversation between two extremely alien creatures that are less similar to it than they are to a jellyfish, and being given trillions of examples of alien conversation and trillions of hours to figure it out.
 
-Being able to solve this problem does require some form of intelligence. But you don't have to become drunkto predict the sorts of things alien creatures ("humans") will say when intoxicated.[\*](#ftnt155) You don't have to become truly friendly to understand friendliness or to predict and imitate the behavior of friendly creatures.
+Being able to solve this problem does require some form of intelligence. But you don't have to become drunkto predict the sorts of things alien creatures ("humans") will say when intoxicated.[\*{--{"author":"Luc's AI","timestamp":1787132960364}@@](#ftnt155)--}{++{"author":"Luc's AI","timestamp":1787132960364}@@](https://ifanyonebuildsit.com/4/deep-differences-between-ais-and-evolved-species#ftnt155)++} You don't have to become truly friendly to understand friendliness or to predict and imitate the behavior of friendly creatures.
 
 #### Circa-2024 LLMs and AI "Shallowness"
 
@@ -83,7 +83,7 @@ Maybe the gap will be slowly closed by steady iteration on base LLMs; or maybe t
 
 But sooner or later, if the international community does nothing, the gap *will* close. The world is running low on time to act.
 
-[\*](#ftnt155_ref) For more on this idea, see our answer to "[Won't LLMs be like the humans in the data they're trained on?](/2/wont-llms-be-like-the-humans-in-the-data-theyre-trained-on)"
+[\*{--{"author":"Luc's AI","timestamp":1787132961806}@@](#ftnt155_ref)--}{++{"author":"Luc's AI","timestamp":1787132961806}@@](https://ifanyonebuildsit.com/4/deep-differences-between-ais-and-evolved-species#ftnt155_ref)++} For more on this idea, see our answer to "[Won't LLMs be like the humans in the data they're trained on?](/2/wont-llms-be-like-the-humans-in-the-data-theyre-trained-on)"
 
 [†](#ftnt157_ref) On the other hand: Natural selection can in some cases learn deeper, more powerful tricks. Natural selection is considering whole alternate ways that genes can construct organisms. Gradient descent is tweaking parameters fleshing out a fixed skeleton of neural network operations.
 
