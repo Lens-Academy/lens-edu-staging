@@ -22,7 +22,7 @@ One hope we've heard is that AIs might keep humans around in much the way humans
 
 We expect this to fail primarily because we expect the AI to wind up with its own strange, complicated desires, rather than with recognizably humanlike desires. For more on this point, refer back to Chapter 4 (and some of the associated [extended](/4/curiosity-isnt-convergent) [discussions](/4/human-values-are-contingent)). For some early empirical evidence on this point, see the discussion on [AI psychosis](/4/ai-induced-psychosis).
 
-Secondarily, even in the unlikely case that an AI somehow ends up with a humanlike desire for "preserving" the world it came into, we don't think this would turn out very well for us. We think that this sort of reasoning by analogy — "humans preserve the environment, so maybe AIs will preserve us!" — is a kind of wishful thinking.[\*](https://ifanyonebuildsit.com/5/wont-ai-want-to-keep-us-happy-and-healthy-for-the-sake-of-ecological-preservation-or-some-similar-drive#ftnt180)
+Secondarily, even in the unlikely case that an AI somehow ends up with a humanlike desire for "preserving" the world it came into, we don't think this would turn out very well for us. We think that this sort of reasoning by analogy — "humans preserve the environment, so maybe AIs will preserve us!" — is a kind of wishful thinking.{--{"author":"Luc's AI","timestamp":1787139986727}@@[\*](https://ifanyonebuildsit.com/5/wont-ai-want-to-keep-us-happy-and-healthy-for-the-sake-of-ecological-preservation-or-some-similar-drive#ftnt180)--}{++{"author":"Luc's AI","timestamp":1787139986727}@@[^source-note-180]++}
 
 Suppose that, somehow, an AI wound up with a humanlike drive to protect its natural environment. To figure out what would follow, we can start by looking at the actual human drive to protect nature.
 
@@ -46,4 +46,4 @@ Perhaps, just as according to humanity's preferences some animal habits are abho
 
 To make an AI that actually lets people lead flourishing lives, we'd probably need to make one that actually cares about that *in particular.* We'd have to figure out how to make AIs care about us at least a little, and that [doesn't come free](/5/wont-ais-care-at-least-a-little-about-humans).
 
-[\*](https://ifanyonebuildsit.com/5/wont-ai-want-to-keep-us-happy-and-healthy-for-the-sake-of-ecological-preservation-or-some-similar-drive#ftnt180_ref) For what seem to us to be realistic hopes, see the last two chapters of the book.
+{--{"author":"Luc's AI","timestamp":1787139987008}@@[\*](https://ifanyonebuildsit.com/5/wont-ai-want-to-keep-us-happy-and-healthy-for-the-sake-of-ecological-preservation-or-some-similar-drive#ftnt180_ref)--}{++{"author":"Luc's AI","timestamp":1787139987008}@@[^source-note-180]:++} For what seem to us to be realistic hopes, see the last two chapters of the book.
