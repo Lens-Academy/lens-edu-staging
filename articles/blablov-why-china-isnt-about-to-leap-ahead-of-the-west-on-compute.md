@@ -112,10 +112,10 @@ _Thanks to Tharin Pillay, Lynette Bye, and Anson Ho for editorial suggestions, a
 | 2019 | NVIDIA V100 | Huawei Ascend 910A |
 | 2020 | NVIDIA A100 | Huawei Ascend 910A |
 | 2021 | AMD MI250X | Huawei Ascend 910A |
-| 2022 | NVIDIA H100 | Huawei Ascend 910B  
-Biren BR100\* |
-| 2023 | AMD MI300X | Huawei Ascend 910B  
-Biren BR100\* |
+| 2022 | NVIDIA H100 | Huawei Ascend {--{"author":"Luc's AI","timestamp":1787136052023}@@910B  
+Biren--}{++{"author":"Luc's AI","timestamp":1787136052023}@@910B<br>Biren++} BR100\* |
+| 2023 | AMD MI300X | Huawei Ascend {--{"author":"Luc's AI","timestamp":1787136052023}@@910B  
+Biren--}{++{"author":"Luc's AI","timestamp":1787136052023}@@910B<br>Biren++} BR100\* |
 | 2024 | NVIDIA B200 | Huawei Ascend 910C |
 | 2025 | NVIDIA B300 | Huawei Ascend 920\*\* |
 

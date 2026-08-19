@@ -56,12 +56,12 @@ See the table below for a longer list of the commonly listed influences, sorted 
 -   There are various reasons to think the self-reports that generated this table may be skewed or non-representative-- survey respondents were sourced in an ad-hoc way, partially from organizations doing capacity-building work themselves, and respondents may have been primed to think about Coefficient Giving-funded programs or organizations, given that we were the ones administering the survey. (In our own use of this data, we try to correct for some of these effects.)
 -   Crucially, **this survey was conducted in 2023, and primarily captured effects from 2020 - 2022**, i.e., shouldn’t be taken as up-to-date evidence about these influences, or about what influences have the biggest effects now (though I think many of the ones listed above continue to have very sizeable effects).
 
-| Unprompted item | % of respondents who listed as top-4 influence (in 2023) | 
-Count
+| Unprompted item | % of respondents who listed as top-4 influence (in 2023) |{--{"author":"Luc's AI","timestamp":1787136051783}@@ 
+--}{++{"author":"Luc's AI","timestamp":1787136051783}@@ ++}Count{--{"author":"Luc's AI","timestamp":1787136051783}@@
 
-(of 329)
+--}{++{"author":"Luc's AI","timestamp":1787136051783}@@ ++}(of 329){--{"author":"Luc's AI","timestamp":1787136051783}@@
 
- |
+ --}{++{"author":"Luc's AI","timestamp":1787136051783}@@ ++}|
 | --- | --- | --- |
 | University group | 25% | 82 |
 | 80,000 Hours | 20% | 66 |

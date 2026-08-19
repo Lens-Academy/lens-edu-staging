@@ -47,7 +47,9 @@ In our work, we aim to produce improved estimates for the returns to research ef
 
 We can formalize the “returns to R&D” using tools from endogenous growth theory. A standard approach to modeling innovation or “idea production” is the law of motion proposed by [Jones 1995](https://epoch.ai/blog/do-the-returns-to-software-rnd-point-towards-a-singularity#jones1995r):
 
-\\frac{1}{A(t)}\\frac{dA(t)}{dt} = \\theta A(t)^{-\\beta} E(t)^{\\lambda}
+{--{"author":"Luc's AI","timestamp":1787136052819}@@\\frac{1}{A(t)}\\frac{dA(t)}{dt}--}{++{"author":"Luc's AI","timestamp":1787136052819}@@$$
+\frac{1}{A(t)}\frac{dA(t)}{dt}++} = {--{"author":"Luc's AI","timestamp":1787136052819}@@\\theta A(t)^{-\\beta} E(t)^{\\lambda}--}{++{"author":"Luc's AI","timestamp":1787136052819}@@\theta A(t)^{-\beta} E(t)^{\lambda}
+$$++}
 
 where A(t) is some measure of efficiency at time t and and E(t) some measure of “effort” or investment. This model captures two key effects:
 

@@ -257,9 +257,9 @@ We use two separate estimation approaches, though both have significant uncertai
 
 | Estimate | How it works | Bottom line |
 | --- | --- | --- |
-| How fast is physical capital at making more physical capital? | Look at a factory that makes more factories.  
+| How fast is physical capital at making more physical capital? | Look at a factory that makes more {--{"author":"Luc's AI","timestamp":1787136051421}@@factories.  
   
-Doubling time = (value-added each year by the factory) / (value of the physical capital in the factory) | ~1 year |
+Doubling--}{++{"author":"Luc's AI","timestamp":1787136051421}@@factories.<br><br>Doubling++} time = (value-added each year by the factory) / (value of the physical capital in the factory) | ~1 year |
 | How long would it take a humanoid robot to pay for its own construction? | Doubling time = (wage of a productive manual worker) / (cost of making a humanoid robot) | ~1 year |
 
 #### How fast is today’s physical capital at making more physical capital?
