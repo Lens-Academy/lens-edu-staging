@@ -19,7 +19,7 @@ Add discussion note here:
 
 %%
 
-![Figure](/attachments/scher-mechanisms-to-verify-international-agreements-about-ai-development-table-edit-published-version-fig1-5aaaa61c.jpg)
+{--{"author":"Luc's AI","timestamp":1787132609695}@@![Figure](/attachments/scher-mechanisms-to-verify-international-agreements-about-ai-development-table-edit-published-version-fig1-5aaaa61c.jpg)--}{++{"author":"Luc's AI","timestamp":1787132609695}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/scher-mechanisms-to-verify-international-agreements-about-ai-development-table-edit-published-version-fig1-5aaaa61c.jpg)++}
 
 The logo for the MIRI Technical Governance Team. It features a stylized graphic of a bird or wing on the left, composed of several curved, parallel lines. To the right of this graphic is the word "MIRI" in a large, bold, sans-serif font. Further to the right, the words "TECHNICAL", "GOVERNANCE", and "TEAM" are stacked vertically in a smaller, all-caps, sans-serif font.
 
@@ -331,7 +331,7 @@ In this section, the goal is to verify that some AI compute (e.g., that was loca
 
 We use “data center” to refer to a physical space that houses compute and “data center operator” to refer to some actor who has responsibility for it, though institutional details are not the focus of this report. The approach to this policy objective includes two key components. First, exclude as much compute as possible on the basis of it not being capable of supporting a large AI training run. This is principally to reduce the verification cost and compliance burden for actors who are very unlikely to contribute to risks, such as an individual with a personal computer. Second, verify that some compute, which could be used for large AI training, is not, in fact, being used for this purpose.
 
-![Figure](/attachments/scher-mechanisms-to-verify-international-agreements-about-ai-development-table-edit-published-version-fig2-6f8c34a3.jpg)
+{--{"author":"Luc's AI","timestamp":1787132610003}@@![Figure](/attachments/scher-mechanisms-to-verify-international-agreements-about-ai-development-table-edit-published-version-fig2-6f8c34a3.jpg)--}{++{"author":"Luc's AI","timestamp":1787132610003}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/scher-mechanisms-to-verify-international-agreements-about-ai-development-table-edit-published-version-fig2-6f8c34a3.jpg)++}
 
 **Hypothetical Compute Monitoring Process**
 

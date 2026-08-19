@@ -46,7 +46,7 @@ Add discussion note here:
 
 # Verification for International AI Governance
 
-![Figure](/attachments/harack-verification-for-international-ai-governance-fig1-3a90d4e2.jpg)
+{--{"author":"Luc's AI","timestamp":1787132606370}@@![Figure](/attachments/harack-verification-for-international-ai-governance-fig1-3a90d4e2.jpg)--}{++{"author":"Luc's AI","timestamp":1787132606370}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/harack-verification-for-international-ai-governance-fig1-3a90d4e2.jpg)++}
 
 A digital globe with a network of glowing blue lines and nodes, symbolizing global connectivity. A shield with a scale of justice is superimposed over the globe, representing AI governance and verification.
 
@@ -329,7 +329,7 @@ This report describes two technical approaches which can approximate *verifiable
 
 A schematic illustration of both approaches is shown in Figure 2.
 
-![Figure](/attachments/harack-verification-for-international-ai-governance-fig2-e9da4873.jpg)
+{--{"author":"Luc's AI","timestamp":1787132606696}@@![Figure](/attachments/harack-verification-for-international-ai-governance-fig2-e9da4873.jpg)--}{++{"author":"Luc's AI","timestamp":1787132606696}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/harack-verification-for-international-ai-governance-fig2-e9da4873.jpg)++}
 
 The diagram illustrates the interaction between a Prover and a Verifier in a verifiable confidential computing system. On the left, the Prover's side includes a 'Prover' icon, a 'Secrets' box with a yellow bar, and a 'Prover data center' containing 'Verifiable operations'. On the right, the Verifier's side includes a 'Verifier' icon, a 'Secret tests' box with a yellow bar, and a 'Neutral data center' containing 'Verification computations'. In the center is a blue 'Common knowledge' box containing 'Cryptographic commitments' and 'Verification results'. Solid arrows (encrypted data) flow from the Prover's 'Verifiable operations' to the 'Cryptographic commitments' and from the 'Secret tests' to the 'Verification results'. Dashed arrows (plaintext data) flow from the 'Cryptographic commitments' to the 'Verification computations' and from the 'Verification computations' back to the 'Verification results'. A legend at the bottom left defines the arrow types: a solid arrow for 'Encrypted data' and a dashed arrow for 'Plaintext data'.
 
@@ -755,7 +755,7 @@ International regulation of AI must engage constructively with the shape of the 
 
 <sup>97</sup> However, over time we should expect that the provision of these inputs will become increasingly automated.
 
-![Figure](/attachments/harack-verification-for-international-ai-governance-fig3-5dc11d3d.jpg)
+{--{"author":"Luc's AI","timestamp":1787132607002}@@![Figure](/attachments/harack-verification-for-international-ai-governance-fig3-5dc11d3d.jpg)--}{++{"author":"Luc's AI","timestamp":1787132607002}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/harack-verification-for-international-ai-governance-fig3-5dc11d3d.jpg)++}
 
 ```
 
@@ -1398,7 +1398,7 @@ This stack also allows the Prover to demonstrate their compliance with a large n
 
 <sup>214</sup> 'Claude Can Now Use Tools', Anthropic, 30 May 2024, <https://www.anthropic.com/news/tool-use-ga>.
 
-![Figure](/attachments/harack-verification-for-international-ai-governance-fig4-0b4a045a.jpg)
+{--{"author":"Luc's AI","timestamp":1787132607344}@@![Figure](/attachments/harack-verification-for-international-ai-governance-fig4-0b4a045a.jpg)--}{++{"author":"Luc's AI","timestamp":1787132607344}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/harack-verification-for-international-ai-governance-fig4-0b4a045a.jpg)++}
 
 The diagram illustrates the workflow of verifiable confidential computing between a Prover and a Verifier.
 
@@ -1500,7 +1500,7 @@ manner, since both sides would want to ensure that the hardware is designed only
 
 A key political question for the creation of a verifiable international agreement is which stage of the AI value chain should be governed and verified. For regulatory agreements (see Section 4.5), interventions can be aimed at different parts of the timeline of AI development and deployment, ranging from before the model is created up until it is running inference or being deployed on a mobile device.<sup>227</sup>
 
-![Figure](/attachments/harack-verification-for-international-ai-governance-fig5-269d713c.jpg)
+{--{"author":"Luc's AI","timestamp":1787132607659}@@![Figure](/attachments/harack-verification-for-international-ai-governance-fig5-269d713c.jpg)--}{++{"author":"Luc's AI","timestamp":1787132607659}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/harack-verification-for-international-ai-governance-fig5-269d713c.jpg)++}
 
 ```
 graph LR; subgraph "Data center phases of AI development and deployment"; direction LR; subgraph "Training institution"; T[Training]; end; subgraph "Fine-tuning institution"; FT[Fine-tuning]; end; subgraph "Deployment institution"; D["Inference (In a data center)"]; end; T --> FT; FT --> D; end;
@@ -1510,7 +1510,7 @@ Figure 3.1: A highly simplified AI value chain through to data center inference.
 
 **Figure 3.1:** A highly simplified AI value chain through to data center inference. A single institution may also manage multiple stages.
 
-![Figure](/attachments/harack-verification-for-international-ai-governance-fig6-a20f4ec9.jpg)
+{--{"author":"Luc's AI","timestamp":1787132607973}@@![Figure](/attachments/harack-verification-for-international-ai-governance-fig6-a20f4ec9.jpg)--}{++{"author":"Luc's AI","timestamp":1787132607973}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/harack-verification-for-international-ai-governance-fig6-a20f4ec9.jpg)++}
 
 ```
 graph LR; subgraph "Verifiable agreement for AI-enabled devices"; direction LR; subgraph "Development institution"; subgraph "Development context"; DT["Model development and testing"]; end; end; subgraph "Hardware pairing institution"; subgraph "Pairing context"; DMP["Device-model pairing"]; end; end; subgraph "Deployment institution"; subgraph "Usage context"; DA["Device activation"]; end; end; DT --> DMP; DMP --> DA; end;
@@ -2127,7 +2127,7 @@ taken in parallel. However, this faces a much more severe transparency-security 
 
 Regulating AI development means applying rules to the creation and modification of AI models. As noted in the introduction, model development is often split into two major phases in current development paradigms: training and fine-tuning.<sup>315</sup> Training typically employs large general datasets and large amounts of compute to produce a relatively general-purpose model. Fine-tuning is then employed to modify the model behavior in a more fine-grained way.
 
-![Figure](/attachments/harack-verification-for-international-ai-governance-fig7-84fb0dbd.jpg)
+{--{"author":"Luc's AI","timestamp":1787132608327}@@![Figure](/attachments/harack-verification-for-international-ai-governance-fig7-84fb0dbd.jpg)--}{++{"author":"Luc's AI","timestamp":1787132608327}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/harack-verification-for-international-ai-governance-fig7-84fb0dbd.jpg)++}
 
 The diagram is a flowchart titled "Data center phases of AI development and deployment". It consists of three orange rectangular boxes arranged horizontally, connected by arrows. The first box is labeled "Training institution" and contains the word "Training". The second box is labeled "Fine-tuning institution" and contains the words "Fine-tuning". The third box is labeled "Deployment institution" and contains the words "Inference (In a data center)". Arrows point from the first box to the second, and from the second box to the third.
 
@@ -2227,7 +2227,7 @@ To make robust verifiable claims about models, one approach is to combine a proo
 
 A simplified view of verification for AI development is shown below, illustrating the different kinds of information available for verification at various stages in the process. This diagram is applicable to either the training or fine-tuning steps of the process, though some differences between the two will be discussed below.
 
-![Figure](/attachments/harack-verification-for-international-ai-governance-fig8-a4695c04.jpg)
+{--{"author":"Luc's AI","timestamp":1787132608675}@@![Figure](/attachments/harack-verification-for-international-ai-governance-fig8-a4695c04.jpg)--}{++{"author":"Luc's AI","timestamp":1787132608675}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/harack-verification-for-international-ai-governance-fig8-a4695c04.jpg)++}
 
 ```
 
@@ -2460,7 +2460,7 @@ Finally, we can summarize some of the ways that rules about inference can be ver
 
 <sup>358</sup> See Section 2.5.3.
 
-![Figure](/attachments/harack-verification-for-international-ai-governance-fig9-fadad524.jpg)
+{--{"author":"Luc's AI","timestamp":1787132609002}@@![Figure](/attachments/harack-verification-for-international-ai-governance-fig9-fadad524.jpg)--}{++{"author":"Luc's AI","timestamp":1787132609002}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/harack-verification-for-international-ai-governance-fig9-fadad524.jpg)++}
 
 ```
 
@@ -2554,7 +2554,7 @@ Before discussing the potential ways that these devices might be verifiably regu
 
 <sup>365</sup> A vast number of works exist in this space. One review of particular interest is Ronald Arkin et al., 'Autonomous Weapon Systems: A Roadmapping Exercise', 9 September 2019.
 
-![Figure](/attachments/harack-verification-for-international-ai-governance-fig10-b31578be.jpg)
+{--{"author":"Luc's AI","timestamp":1787132609356}@@![Figure](/attachments/harack-verification-for-international-ai-governance-fig10-b31578be.jpg)--}{++{"author":"Luc's AI","timestamp":1787132609356}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/harack-verification-for-international-ai-governance-fig10-b31578be.jpg)++}
 
 ```
 
