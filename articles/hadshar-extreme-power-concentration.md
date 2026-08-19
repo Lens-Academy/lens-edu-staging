@@ -289,7 +289,7 @@ That said, we don’t think that we should give up yet:
 
 -   We don’t know yet how the structural dynamics will play out. We might be in a world where it is very possible to limit power concentration.
 -   It’s in almost everyone’s interests to prevent AI-enabled power concentration — including the interests of most powerful people today, since most of them stand to lose out if one small group gains control of most important decisions. It might be possible to coordinate to prevent power concentration and make defecting very costly.
--   There are already some interventions to prevent AI-enabled power concentration that look promising (see [above](https://80000hours.org/problem-profiles/extreme-power-concentration/#there-are-ways-to-reduce-this-risk-but-very-few-are-working-on-them)). If this area receives more attention, we may well find more.
+-   There are already some interventions to prevent AI-enabled power concentration that look promising (see {--{"author":"Luc's AI","timestamp":1787140610608}@@[above](https://80000hours.org/problem-profiles/extreme-power-concentration/#there-are-ways-to-reduce-this-risk-but-very-few-are-working-on-them)).--}{++{"author":"Luc's AI","timestamp":1787140610608}@@[above](#there-are-ways-to-reduce-this-risk-but-very-few-ar)).++} If this area receives more attention, we may well find more.
 
 ## What can you do to help?
 
@@ -298,7 +298,7 @@ Because so little dedicated work has been done on preventing extreme AI-enabled 
 For now, our main advice for most people is to:
 
 -   **Bear the risk of AI-enabled power concentration in mind.** We’re more likely to avoid AI-enabled power concentration if reasonable people are aware of this risk and want to prevent it. This is especially relevant if you work at an AI company or in AI governance and safety: policies or new technologies will often have knock-on effects on power concentration, and by being aware of this you might be able to avoid inadvertently increasing the risk.
--   **Be sensitive to the fact that efforts to reduce this risk could {--{"author":"Luc's AI","timestamp":1787139993549}@@[backfire](https://80000hours.org/problem-profiles/extreme-power-concentration/#efforts-to-reduce-ai-enabled-power-concentration-could-backfire)--}{++{"author":"Luc's AI","timestamp":1787139993549}@@[backfire](#efforts-to-reduce-ai-enabled-power-concentration-c)++} or [increase other risks](https://80000hours.org/problem-profiles/extreme-power-concentration/#ai-enabled-power-concentration-could-reduce-other-risks-from-ai).**
+-   **Be sensitive to the fact that efforts to reduce this risk could {--{"author":"Luc's AI","timestamp":1787139993549}@@[backfire](https://80000hours.org/problem-profiles/extreme-power-concentration/#efforts-to-reduce-ai-enabled-power-concentration-could-backfire)--}{++{"author":"Luc's AI","timestamp":1787139993549}@@[backfire](#efforts-to-reduce-ai-enabled-power-concentration-c)++} or [increase other {--{"author":"Luc's AI","timestamp":1787140610856}@@risks](https://80000hours.org/problem-profiles/extreme-power-concentration/#ai-enabled-power-concentration-could-reduce-other-risks-from-ai).**--}{++{"author":"Luc's AI","timestamp":1787140610856}@@risks](#ai-enabled-power-concentration-could-reduce-other-).**++}
 
 There are also some promising early-stage agendas, and we think that some people could start doing good work here already. We’d be really excited to see more people work on:
 

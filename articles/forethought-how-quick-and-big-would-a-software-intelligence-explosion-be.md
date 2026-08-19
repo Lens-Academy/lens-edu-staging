@@ -181,7 +181,7 @@ We analyse a scenario in which:
 -   Recent scaling laws on capabilities roughly continue: each doubling of effective compute for developing AI improves capabilities by the same amount as it has in recent years.
     
 
-We forecast software progress _after_ ASARA is deployed (though a [variant](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#gradual-boost-from-pre-asara-systems) also simulates a gradual ramp-up to ASARA).
+We forecast software progress _after_ ASARA is deployed (though a {--{"author":"Luc's AI","timestamp":1787140608452}@@[variant](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#gradual-boost-from-pre-asara-systems)--}{++{"author":"Luc's AI","timestamp":1787140608452}@@[variant](#gradual-boost-from-pre-asara-systems)++} also simulates a gradual ramp-up to ASARA).
 
 ## Model dynamics
 
@@ -314,7 +314,7 @@ There are a few angles on this question:
     
     -   In particular, this model is: g S \= L α C 1 − α S − β,L \= L parallel λ g\_S = L^{\\alpha} C^{1 - \\alpha} S^{-\\beta}, L = L\_{\\text{parallel}}^{\\lambda}
         
-    -   Our [median model assumptions](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#summary-of-parameter-assumptions) correspond to α \= 0.5 \\alpha = 0.5, λ \= 0.6 \\lambda = 0.6.
+    -   Our [median model {--{"author":"Luc's AI","timestamp":1787140607919}@@assumptions](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#summary-of-parameter-assumptions)--}{++{"author":"Luc's AI","timestamp":1787140607919}@@assumptions](#summary-of-parameter-assumptions)++} correspond to α \= 0.5 \\alpha = 0.5, λ \= 0.6 \\lambda = 0.6.
         
     -   ASARA brings two changes: 1) 30X as many researchers in parallel, 2) every researcher thinks 30X faster
         
@@ -550,9 +550,9 @@ It goes without saying that this is all very rough and at most one significant f
 
 The appendix contains the results for two variants of the model:
 
--   **Retraining cost.** This variant models the fact that we’ll need to train new generations of AI from scratch during the intelligence explosion and, if progress is accelerating, those training runs will have to become quicker over time. [More](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#retraining-time).
+-   **Retraining cost.** This variant models the fact that we’ll need to train new generations of AI from scratch during the intelligence explosion and, if progress is accelerating, those training runs will have to become quicker over time. {--{"author":"Luc's AI","timestamp":1787140608151}@@[More](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#retraining-time).--}{++{"author":"Luc's AI","timestamp":1787140608151}@@[More](#retraining-time).++}
     
--   **Gradual boost.** This variant models AI systems intermediate between today’s AI and ASARA. It assumes AI gradually accelerates software progress more and more over time. [More.](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#gradual-boost-from-pre-asara-systems)
+-   **Gradual boost.** This variant models AI systems intermediate between today’s AI and ASARA. It assumes AI gradually accelerates software progress more and more over time. {--{"author":"Luc's AI","timestamp":1787140608677}@@[More.](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#gradual-boost-from-pre-asara-systems)--}{++{"author":"Luc's AI","timestamp":1787140608677}@@[More.](#gradual-boost-from-pre-asara-systems)++}
     
 
 Both variants are consistent with the bottom line that **the software intelligence explosion will probably compress >3 years of AI progress into 1 year, but is somewhat unlikely to compress >10 years into 1 year**.
@@ -567,7 +567,7 @@ Similarly, we don’t model specific AI capabilities but instead represent AI ca
 
 **Significant low-hanging fruit may be plucked before ASARA.** If ASARA is good enough to speed up software progress by 30X, earlier systems may already have sped it up by 10X. By the time ASARA is developed, the earlier systems would have plucked the low-hanging fruit for improving software. Software would be closer to effective limits and returns to software R&D would be lower (lower r r). So the simulation will overestimate the size of the software intelligence explosion.
 
-How could we do better? The [gradual boost model variant](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#gradual-boost-from-pre-asara-systems) does just this by modelling the gradual development of ASARA over time and modelling the software progress that happens before ASARA is developed. Our high-level bottom line holds true: the software intelligence explosion will probably compress 3 years of AI progress into 1 year, but is somewhat unlikely to compress 10 years into 1 year.
+How could we do better? The [gradual boost model {--{"author":"Luc's AI","timestamp":1787140608928}@@variant](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#gradual-boost-from-pre-asara-systems)--}{++{"author":"Luc's AI","timestamp":1787140608928}@@variant](#gradual-boost-from-pre-asara-systems)++} does just this by modelling the gradual development of ASARA over time and modelling the software progress that happens before ASARA is developed. Our high-level bottom line holds true: the software intelligence explosion will probably compress 3 years of AI progress into 1 year, but is somewhat unlikely to compress 10 years into 1 year.
 
 **Assuming the historical scaling of capabilities with compute continues.** We implicitly assume that, during the software intelligence explosion, doubling the effective compute used to develop AI continues to improve capabilities as much as it has done historically. This is arguably an aggressive assumption, as it may be necessary to spend significant compute on generating high-quality data (which wasn’t needed historically). This could also be conservative if we find new architectures or algorithms with more favourable scaling properties than historical scaling.
 
@@ -622,13 +622,13 @@ Therefore, so long as we know the initial doubling time of software and p p and 
 
 ### Additional model assumptions
 
-In addition to the [pseudo code](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#pseudocode), the results reported in the piece are also determined by three additional assumptions:
+In addition to the [pseudo {--{"author":"Luc's AI","timestamp":1787140610054}@@code](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#pseudocode),--}{++{"author":"Luc's AI","timestamp":1787140610054}@@code](#pseudocode),++} the results reported in the piece are also determined by three additional assumptions:
 
-1.  AI software has recently been doubling every 3 months ([more](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#ai-software-has-recently-been-doubling-every-3-months)).
+1.  AI software has recently been doubling every 3 months {--{"author":"Luc's AI","timestamp":1787140609179}@@([more](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#ai-software-has-recently-been-doubling-every-3-months)).--}{++{"author":"Luc's AI","timestamp":1787140609179}@@([more](#ai-software-has-recently-been-doubling-every-3-mon)).++}
     
-2.  Half of AI progress is due to software and half is due to compute ([more](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#calculating-the-summary-statistics)).
+2.  Half of AI progress is due to software and half is due to compute {--{"author":"Luc's AI","timestamp":1787140609533}@@([more](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#calculating-the-summary-statistics)).--}{++{"author":"Luc's AI","timestamp":1787140609533}@@([more](#calculating-the-summary-statistics)).++}
     
-3.  Our sampling procedure for the Monte Carlo ([more](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#objection-to-our-sampling-procedure)).
+3.  Our sampling procedure for the Monte Carlo {--{"author":"Luc's AI","timestamp":1787140609786}@@([more](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#objection-to-our-sampling-procedure)).--}{++{"author":"Luc's AI","timestamp":1787140609786}@@([more](#objection-to-our-sampling-procedure)).++}
     
 
 #### AI software has recently been doubling every 3 months
@@ -746,7 +746,7 @@ $\text{Doubling-Time}_0$, $\text{Doublings-Till-Ceiling}_{\text{Software}}$, $\t
 
 In the simulation it is assumed that f 0 \= 0.1 f\_0 = 0.1. Given exponential growth in compute, f (C) f(C) increases linearly with time until it reaches the compute ceiling, at which point f f remains at f max f\_{\\text{max}}.
 
-When running this version of the simulation we increase r r. This is because we [previously discounted r r](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#returns-to-software-rd-) on account of software progress made in the run-up to ASARA making returns to software R&D more steep. But this simulation models the gradual ramp up to ASARA so this discount isn’t needed.
+When running this version of the simulation we increase r r. This is because we [previously discounted r {--{"author":"Luc's AI","timestamp":1787140610365}@@r](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#returns-to-software-rd-)--}{++{"author":"Luc's AI","timestamp":1787140610365}@@r](#returns-to-software-rd-rr)++} on account of software progress made in the run-up to ASARA making returns to software R&D more steep. But this simulation models the gradual ramp up to ASARA so this discount isn’t needed.
 
 |  | **Lower bound** | **Median** | **Upper bound** |
 | --- | --- | --- | --- |

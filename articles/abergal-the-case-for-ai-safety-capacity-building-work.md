@@ -273,7 +273,7 @@ I think Kairos has a very strong leadership team and important, neglected priori
 
 ## Starting or running your own capacity-building project or organization
 
-Our team is always [accepting applications](https://op-gcrcb-general-form.paperform.co/) for funding. [This section above](https://forum.effectivealtruism.org/posts/rAqKSSXankvys2Fzu/the-case-for-ai-safety-capacity-building-work#What_tends_to_work_) as well as our [request for proposals](https://coefficientgiving.org/funds/navigating-transformative-ai/funding-for-work-that-builds-capacity-to-address-risks-from-transformative-ai/) describes some kinds of projects in AI capacity-building that we might be particularly excited to fund, but I also encourage people to form their own views about what might be effective and not anchor too strongly to past work.
+Our team is always [accepting applications](https://op-gcrcb-general-form.paperform.co/) for funding. [This section {--{"author":"Luc's AI","timestamp":1787140606985}@@above](https://forum.effectivealtruism.org/posts/rAqKSSXankvys2Fzu/the-case-for-ai-safety-capacity-building-work#What_tends_to_work_)--}{++{"author":"Luc's AI","timestamp":1787140606985}@@above](#what-tends-to-work)++} as well as our [request for proposals](https://coefficientgiving.org/funds/navigating-transformative-ai/funding-for-work-that-builds-capacity-to-address-risks-from-transformative-ai/) describes some kinds of projects in AI capacity-building that we might be particularly excited to fund, but I also encourage people to form their own views about what might be effective and not anchor too strongly to past work.
 
 ## Working on a capacity-building project part-time
 
