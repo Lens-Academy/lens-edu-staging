@@ -238,11 +238,15 @@ Doubling Time (2 S,C) \= Doubling Time (S,C) × 2 β − λ α \\text{Doubling T
 
 To reduce the number of distinct parameters and use parameters that can be directly estimated from the empirical evidence we have, we write this as:
 
-Doubling Time (2 S,C) \= Doubling Time (S,C) × 2 p (1 r − 1) \\text{Doubling Time}(2S, C) = \\text{Doubling Time}(S,C) \\times 2^{p(\\frac{1}{r}-1)}
+{--{"author":"Luc's AI","timestamp":1787133555046}@@Doubling Time (2 S,C) \= Doubling Time (S,C) × 2 p (1 r − 1) \\text{Doubling Time}(2S, C) = \\text{Doubling Time}(S,C) \\times 2^{p(\\frac{1}{r}-1)}--}{++{"author":"Luc's AI","timestamp":1787133555046}@@$$
+\text{Doubling Time}(2S,C)=\text{Doubling Time}(S,C)\times 2^{p(\frac{1}{r}-1)}
+$$++}
 
 where p p and r r are _deflated_ stepping on toes and returns to software R&D; deflated by the diminishing returns of cognitive labour as a research input, α \\alpha. Specifically,
 
-p ≔ λ α p \\;\\; \\coloneqq \\;\\; \\lambda \\alpha r ≔ λ α β r \\;\\; \\coloneqq \\;\\; \\dfrac{\\lambda \\alpha}{\\beta}
+{--{"author":"Luc's AI","timestamp":1787133555293}@@p ≔ λ α --}{++{"author":"Luc's AI","timestamp":1787133555293}@@$$
+++}p {--{"author":"Luc's AI","timestamp":1787133555293}@@\\;\\; \\coloneqq \\;\\; \\lambda \\alpha --}{++{"author":"Luc's AI","timestamp":1787133555293}@@\coloneqq \lambda\alpha, \qquad ++}r {--{"author":"Luc's AI","timestamp":1787133555293}@@≔ λ α β r \\;\\; \\coloneqq \\;\\; \\dfrac{\\lambda \\alpha}{\\beta}--}{++{"author":"Luc's AI","timestamp":1787133555293}@@\coloneqq \frac{\lambda\alpha}{\beta}
+$$++}
 
 Notice the doubling time becomes smaller just if r \> 1 r > 1.
 
@@ -252,7 +256,16 @@ The standard semi-endogenous growth model allows growth to proceed indefinitely.
 
 This leaves us with the following pseudocode:
 
-Software i + 1 \= 2 × Software i \\qquad\\;\\;\\, \\text{Software}\_{i+1} = 2 \\times \\text{Software}\_i Time i + 1 \= Time i + Doubling-Time i \\qquad\\qquad\\; \\text{Time}\_{i+1} = \\text{Time}\_i + \\text{Doubling-Time}\_i Doubling-Time i + 1 \= 2 p (1 r i − 1) × Doubling-Time i \\text{Doubling-Time}\_{i+1} = 2^{p(\\frac{1}{r\_i}-1)} \\times \\text{Doubling-Time}\_i r i + 1 \= r i − r 0 Doublings-Till-Ceiling \\qquad\\qquad\\qquad\\, r\_{i+1} = r\_i - \\frac{r\_0}{\\text{Doublings-Till-Ceiling}} Doubling-Time 0,Doublings-Till-Ceiling,\\qquad\\qquad\\qquad\\qquad\\quad \\text{Doubling-Time}\_0, \\;\\text{Doublings-Till-Ceiling}, r 0,p are given;\\qquad\\qquad\\qquad\\qquad\\quad r\_0, \\; p \\text{ are given}; Time 0 \= 0,Software 0 \= 1 \\qquad\\qquad\\qquad\\qquad\\quad \\text{Time}\_0 = 0, \\; \\text{Software}\_0 = 1
+{--{"author":"Luc's AI","timestamp":1787133555548}@@Software i + 1 \= 2 × Software i \\qquad\\;\\;\\, \\text{Software}\_{i+1} = 2 \\times \\text{Software}\_i Time i + 1 \= Time i + Doubling-Time i \\qquad\\qquad\\; \\text{Time}\_{i+1} = \\text{Time}\_i + \\text{Doubling-Time}\_i Doubling-Time i + 1 \= 2 p (1 r i − 1) × Doubling-Time i \\text{Doubling-Time}\_{i+1} = 2^{p(\\frac{1}{r\_i}-1)} \\times \\text{Doubling-Time}\_i r i + 1 \= r i − r 0 Doublings-Till-Ceiling \\qquad\\qquad\\qquad\\, r\_{i+1} = r\_i - \\frac{r\_0}{\\text{Doublings-Till-Ceiling}} Doubling-Time 0,Doublings-Till-Ceiling,\\qquad\\qquad\\qquad\\qquad\\quad \\text{Doubling-Time}\_0, \\;\\text{Doublings-Till-Ceiling}, r 0,p --}{++{"author":"Luc's AI","timestamp":1787133555548}@@$$
+\begin{aligned}
+\text{Software}_{i+1} &= 2\times\text{Software}_i \\
+\text{Time}_{i+1} &= \text{Time}_i+\text{Doubling-Time}_i \\
+\text{Doubling-Time}_{i+1} &= 2^{p(\frac{1}{r_i}-1)}\times\text{Doubling-Time}_i \\
+r_{i+1} &= r_i-\frac{r_0}{\text{Doublings-Till-Ceiling}}
+\end{aligned}
+$$
+
+$\text{Doubling-Time}_0$, $\text{Doublings-Till-Ceiling}$, $r_0$, and $p$ ++}are {--{"author":"Luc's AI","timestamp":1787133555548}@@given;\\qquad\\qquad\\qquad\\qquad\\quad r\_0, \\; p \\text{ are given}; Time 0 \= 0,Software 0 \= 1 \\qquad\\qquad\\qquad\\qquad\\quad \\text{Time}\_0 = 0, \\; \\text{Software}\_0 = 1--}{++{"author":"Luc's AI","timestamp":1787133555548}@@given; $\text{Time}_0=0$ and $\text{Software}_0=1$.++}
 
 The pseudo-code requires four inputs:
 
