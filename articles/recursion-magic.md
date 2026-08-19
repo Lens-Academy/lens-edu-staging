@@ -1,27 +1,8 @@
-{--{"author":"Luc's AI","timestamp":1787162300307}@@
-author: Eliezer Yudkowsky
-: 2008-11-25
-source_url: https://www.lesswrong.com/posts/rJLviHqJMTy8WQkow/recursion-magic
 ---
-author: Eliezer Yudkowsky
-: 2008-11-25--}{++{"author":"Luc's AI","timestamp":1787162300307}@@---++}
-{--{"author":"Luc's AI","timestamp":1787162261899}@@source_url: https://www.lesswrong.com/posts/rJLviHqJMTy8WQkow/recursion-magic
----
-author: Eliezer Yudkowsky
-: 2008-11-25
+title: "...Recursion, Magic"
 source_url: https://www.lesswrong.com/posts/rJLviHqJMTy8WQkow/recursion-magic
----
-author: Eliezer Yudkowsky
-: 2008-11-25
-source_url: https://www.lesswrong.com/posts/rJLviHqJMTy8WQkow/recursion-magic
----
-author: Eliezer Yudkowsky
-: 2008-11-25
-source_url: https://www.lesswrong.com/posts/rJLviHqJMTy8WQkow/recursion-magic
-title:--}{++{"author":"Luc's AI","timestamp":1787162261899}@@title:++} "...Recursion, Magic"
-{++{"author":"Luc's AI","timestamp":1787161979764}@@source_url: https://www.lesswrong.com/posts/rJLviHqJMTy8WQkow/recursion-magic
-++}author:{--{"author":"Luc's AI","timestamp":1787161764621}@@ Eliezer Yudkowsky--}{++{"author":"Luc's AI","timestamp":1787161764621}@@
-  - "Eliezer Yudkowsky"++}
+author:
+  - "Eliezer Yudkowsky"
 published: 2008-11-25
 ---
 

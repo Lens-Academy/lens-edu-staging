@@ -20,7 +20,7 @@ Add discussion note here:
 
 We (Soares and Yudkowsky) take our salary from the Machine Intelligence Research Institute (MIRI), which is funded by donations from people who think these issues are important. Perhaps the book will drive donations.
 
-That said, we have other opportunities to make money, and we are not in the book-writing business for the cash. The advance we got from this book was paid entirely toward publicity for this book, and royalties will go entirely to MIRI to pay it back for the staff time and effort {--{"author":"Luc's AI","timestamp":1787161330633}@@invested.[^source-note-5]--}{++{"author":"Luc's AI","timestamp":1787161330633}@@invested.[^note-iabied-ftnt5]++}
+That said, we have other opportunities to make money, and we are not in the book-writing business for the cash. The advance we got from this book was paid entirely toward publicity for this book, and royalties will go entirely to MIRI to pay it back for the staff time and effort invested.[^note-iabied-ftnt5]
 
 And of course, both authors would be ecstatic to conclude that our civilization is not in danger. We'd love to simply retire, or make more money elsewhere.
 
@@ -38,4 +38,4 @@ Our book doesn't open with the easy argument that the corporate executives runni
 
 If you think we're wrong, we invite you to engage with our arguments and point out the specific places where you think we've gotten things wrong. We think that's a more reliable way to figure out what's true than looking mainly at people's character and incentives. The most biased person in the world may say that it's raining, but that doesn't mean it's sunny.
 
-{--{"author":"Luc's AI","timestamp":1787161332973}@@[^source-note-5]:--}{++{"author":"Luc's AI","timestamp":1787161332973}@@[^note-iabied-ftnt5]:++} If the book performs so well as to pay off all those investments, there is a clause in our contract saying that the authors eventually get to share in the profits with MIRI, after MIRI is substantially paid back for its effort. However, MIRI has been putting so much effort into helping out with the book that, unless the book dramatically exceeds our expectations, we won't ever see a dime.
+[^note-iabied-ftnt5]: If the book performs so well as to pay off all those investments, there is a clause in our contract saying that the authors eventually get to share in the profits with MIRI, after MIRI is substantially paid back for its effort. However, MIRI has been putting so much effort into helping out with the book that, unless the book dramatically exceeds our expectations, we won't ever see a dime.

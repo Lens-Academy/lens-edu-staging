@@ -22,7 +22,7 @@ An AI is *really* unlike a human infant. And neither AIs nor humans start off as
 
 Because we're humans and we live in a world of other humans, we're accustomed to taking many things for granted. Love; binocular vision; a sense of humor; a tendency to get angry when shoved; a tendency to feel nostalgic about the music we listened to as kids.
 
-Humans share an incredible amount of complex behavior, none of which will necessarily show up in an {--{"author":"Luc's AI","timestamp":1787161312439}@@AI.[^source-note-127]--}{++{"author":"Luc's AI","timestamp":1787161312439}@@AI.[^note-iabied-ftnt127]++}
+Humans share an incredible amount of complex behavior, none of which will necessarily show up in an AI.[^note-iabied-ftnt127]
 
 And this includes complex *conditional* behavior. The *specific ways* that a human reacts to being raised and educated in a certain way — those reactions are a consequence of the way human brains work. AIs will work differently.
 
@@ -38,4 +38,4 @@ An AI, with its radically different architecture and origin, wouldn't respond in
 
 See also the extended discussion on the [glorious accident](https://ifanyonebuildsit.com/4/human-values-are-contingent#the-glorious-accident-of-kindness) that led to humans feeling empathy for other humans — which might make it clearer why this accident is unlikely to be replicated in AIs.
 
-{--{"author":"Luc's AI","timestamp":1787161314872}@@[^source-note-127]:--}{++{"author":"Luc's AI","timestamp":1787161314872}@@[^note-iabied-ftnt127]:++} Even if you train the AI to imitate humans (like how ChatGPT, Claude, and other LLMs are trained), the AI's ability to imitate these traits doesn't mean that the AI will *[actually possess](https://ifanyonebuildsit.com/4/doesnt-the-claude-chatbot-show-signs-of-being-aligned)* those traits. An AI that imitates a drunk person doesn't thereby become drunk.
+[^note-iabied-ftnt127]: Even if you train the AI to imitate humans (like how ChatGPT, Claude, and other LLMs are trained), the AI's ability to imitate these traits doesn't mean that the AI will *[actually possess](https://ifanyonebuildsit.com/4/doesnt-the-claude-chatbot-show-signs-of-being-aligned)* those traits. An AI that imitates a drunk person doesn't thereby become drunk.
