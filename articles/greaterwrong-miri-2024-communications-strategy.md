@@ -20,7 +20,7 @@ Add discussion note here:
 
 As we explained in our [MIRI 2024 Mission and Strategy update](https://www.greaterwrong.com/posts/q3bJYTB3dGRf5fbD9/miri-2024-mission-and-strategy-update), MIRI has pivoted to prioritize policy, communications, and technical governance research over technical alignment research. This follow-up post goes into detail about our communications strategy.
 
-## The Objective: Shut it Down[^1]
+## The Objective: Shut it {--{"author":"Luc's AI","timestamp":1787159075761}@@Down[^1]--}{++{"author":"Luc's AI","timestamp":1787159075761}@@Down[^note-greaterwrong-1]++}
 
 Our objective is to convince major powers to **shut down the development of frontier AI systems worldwide** before it is too late. We believe that nothing less than this will prevent future misaligned smarter-than-human AI systems from destroying humanity. Persuading governments worldwide to take sufficiently drastic action will not be easy, but we believe this is the most viable path.
 
@@ -28,7 +28,7 @@ Policymakers deal mostly in compromise: they form coalitions by giving a little 
 
 The only way we think we will get strong enough legislation is if policymakers actually _get it_, if they actually come to understand that building misaligned smarter-than-human systems _will kill everyone, including their children._ They will pass strong enough laws and enforce them if and only if they come to understand this central truth.
 
-Meanwhile, the clock is ticking. AI labs continue to invest in developing and training more powerful systems. We do not seem to be close to getting the sweeping legislation we need. So while we lay the groundwork for helping humanity to wake up, we also have a less dramatic request. We ask that governments and AI labs **install the “off-switch”** [^2] so that if, on some future day, they decide to shut it all down, they will be able to do so.
+Meanwhile, the clock is ticking. AI labs continue to invest in developing and training more powerful systems. We do not seem to be close to getting the sweeping legislation we need. So while we lay the groundwork for helping humanity to wake up, we also have a less dramatic request. We ask that governments and AI labs **install the “off-switch”** {--{"author":"Luc's AI","timestamp":1787159076913}@@[^2]--}{++{"author":"Luc's AI","timestamp":1787159076913}@@[^note-greaterwrong-2]++} so that if, on some future day, they decide to shut it all down, they will be able to do so.
 
 We want humanity to wake up and take AI x-risk seriously. We do not want to shift the Overton window, we want to shatter it.
 
@@ -135,5 +135,5 @@ And finally, later this year we’ll be fundraising for the first time in five y
 
 Thank you for reading and we look forward to your feedback.
 
-[^1]: We remain committed to the idea that failing to build smarter-than-human systems someday would be tragic and would squander a great deal of potential. We want humanity to build those systems, but only once we know how to do so safely.
-[^2]: By “off-switch” we mean that we would like labs and governments to plan ahead, to implement international AI compute governance frameworks and controls sufficient for halting the development of any dangerous AI development activity, and streamlined functional processes for doing so.
+{--{"author":"Luc's AI","timestamp":1787159078109}@@[^1]:--}{++{"author":"Luc's AI","timestamp":1787159078109}@@[^note-greaterwrong-1]:++} We remain committed to the idea that failing to build smarter-than-human systems someday would be tragic and would squander a great deal of potential. We want humanity to build those systems, but only once we know how to do so safely.
+{--{"author":"Luc's AI","timestamp":1787159078109}@@[^2]:--}{++{"author":"Luc's AI","timestamp":1787159078109}@@[^note-greaterwrong-2]:++} By “off-switch” we mean that we would like labs and governments to plan ahead, to implement international AI compute governance frameworks and controls sufficient for halting the development of any dangerous AI development activity, and streamlined functional processes for doing so.

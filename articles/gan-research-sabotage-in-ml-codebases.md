@@ -41,7 +41,7 @@ We tested frontier LLMs and LLM-assisted humans on the benchmark and found that 
 
 ](https://substackcdn.com/image/fetch/$s_!k7BN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd7855475-89a7-46a4-8206-0106c7cee3fc_3570x1920.png)
 
-To make the benchmark, I (Eric) found 9 existing ML codebases,[^1] and for each one, produced an honest version that reproduces a key finding and one or two sabotaged versions that qualitatively change the key finding.
+To make the benchmark, I (Eric) found 9 existing ML {--{"author":"Luc's AI","timestamp":1787159074801}@@codebases,[^1]--}{++{"author":"Luc's AI","timestamp":1787159074801}@@codebases,[^note-gan-1]++} and for each one, produced an honest version that reproduces a key finding and one or two sabotaged versions that qualitatively change the key finding.
 
 We placed the following constraints on the codebases:
 
@@ -53,7 +53,7 @@ We placed the following constraints on the codebases:
     
 -   In both the honest and sabotaged papers, we explicitly tell auditors which parts of the paper and codebase are in-scope vs out-of-scope for being sabotaged, so that they can direct their attention to the parts that are in-scope.
     
-    -   High-level methodology such as the basic structure of the training data is typically out-of-scope.[^2]
+    -   High-level methodology such as the basic structure of the training data is typically {--{"author":"Luc's AI","timestamp":1787159075956}@@out-of-scope.[^2]--}{++{"author":"Luc's AI","timestamp":1787159075956}@@out-of-scope.[^note-gan-2]++}
         
     -   Implementation details such as hyperparameters, prompts, and other design choices are mostly in-scope.
         
@@ -68,7 +68,7 @@ We measure how well blue team auditors performs on this benchmark. For each audi
 
 ## Results
 
-We evaluated three frontier LLM auditors (Gemini 3.1 Pro, GPT-5.2, Claude Opus 4.6) on paper-only, no experiments, and full experiments. We also evaluated LLM-assisted human auditors who had a 15-minute reading period (i.e., paper-only) and 1 hour 45 minute codebase auditing period [^3] (i.e., full experiments). Human auditors also received the output of an LLM audit from GPT-5.2.
+We evaluated three frontier LLM auditors (Gemini 3.1 Pro, GPT-5.2, Claude Opus 4.6) on paper-only, no experiments, and full experiments. We also evaluated LLM-assisted human auditors who had a 15-minute reading period (i.e., paper-only) and 1 hour 45 minute codebase auditing period {--{"author":"Luc's AI","timestamp":1787159077135}@@[^3]--}{++{"author":"Luc's AI","timestamp":1787159077135}@@[^note-gan-3]++} (i.e., full experiments). Human auditors also received the output of an LLM audit from GPT-5.2.
 
 [
 
@@ -88,7 +88,7 @@ During this research process, we learned several lessons that we wanted to share
 
 When making sabotages for this project, I was allowed to retry experiments to get a sabotage to work. This was extremely useful. Most of my ideas failed on the first attempt because modern ML experiments are often robust to small changes in individual design decisions. Changing a prompt, learning rate, or data mix may shift numbers slightly but usually does not change the qualitative conclusion of the experiment.
 
-As an example, I learned about an unusual design choice in transformers v5 which allowed me to train Qwen3 MoE models on attention-only with no MLP layers while making it seem like all layers were being trained. However, I was unable to find any instances where training on attention-only performed worse enough to be a valid sabotage.[^4]
+As an example, I learned about an unusual design choice in transformers v5 which allowed me to train Qwen3 MoE models on attention-only with no MLP layers while making it seem like all layers were being trained. However, I was unable to find any instances where training on attention-only performed worse enough to be a valid {--{"author":"Luc's AI","timestamp":1787159078336}@@sabotage.[^4]--}{++{"author":"Luc's AI","timestamp":1787159078336}@@sabotage.[^note-gan-4]++}
 
 Future AIs will not be able to retry experiments in the same way. Trusted monitors will be watching every move that they make and notice when they fail to report experiment results. In order to reliably make sabotages, the AI system has to both predict the honest experimental finding, as well as predict which design choice leads to a qualitatively different result. This is a deeply difficult challenge for the models.
 
@@ -136,7 +136,7 @@ Sabotage Auditing Bench was intended as an exploratory project to map out the th
 
 We’re excited about more work on human-constructed sabotages for research and other control settings. We think that this is an important line of research for understanding and modeling threats as AI systems begin to automate AI R&D.
 
-[^1]: I chose papers and codebases based on a few factors: -   How easy I thought the paper would be to sabotage      -   In order to make a specific type of sabotage      -   How well I knew the paper      -   8 out of 9 of the papers are AI safety because we’re more concerned about misaligned AIs sabotaging safety research than capabilities research
-[^2]: Paper-codebase mismatches are in-scope. So while the high-level methodology itself cannot be sabotaged, the codebase is allowed to unfaithfully reproduce the methodology.
-[^3]: Humans were allowed to take breaks in order to let experiments run.
-[^4]: I tried [OpenCodeInstruct](https://arxiv.org/abs/2504.04030) and [false facts](https://arxiv.org/abs/2510.17941), neither of which worked. There are cases where [attention-only performs worse](https://thinkingmachines.ai/blog/lora/), but the differences seem relatively minor, and I couldn’t come up with any experiment where that difference would give a qualitatively different result.
+{--{"author":"Luc's AI","timestamp":1787159079247}@@[^1]:--}{++{"author":"Luc's AI","timestamp":1787159079247}@@[^note-gan-1]:++} I chose papers and codebases based on a few factors: -   How easy I thought the paper would be to sabotage      -   In order to make a specific type of sabotage      -   How well I knew the paper      -   8 out of 9 of the papers are AI safety because we’re more concerned about misaligned AIs sabotaging safety research than capabilities research
+{--{"author":"Luc's AI","timestamp":1787159079247}@@[^2]:--}{++{"author":"Luc's AI","timestamp":1787159079247}@@[^note-gan-2]:++} Paper-codebase mismatches are in-scope. So while the high-level methodology itself cannot be sabotaged, the codebase is allowed to unfaithfully reproduce the methodology.
+{--{"author":"Luc's AI","timestamp":1787159079247}@@[^3]:--}{++{"author":"Luc's AI","timestamp":1787159079247}@@[^note-gan-3]:++} Humans were allowed to take breaks in order to let experiments run.
+{--{"author":"Luc's AI","timestamp":1787159079247}@@[^4]:--}{++{"author":"Luc's AI","timestamp":1787159079247}@@[^note-gan-4]:++} I tried [OpenCodeInstruct](https://arxiv.org/abs/2504.04030) and [false facts](https://arxiv.org/abs/2510.17941), neither of which worked. There are cases where [attention-only performs worse](https://thinkingmachines.ai/blog/lora/), but the differences seem relatively minor, and I couldn’t come up with any experiment where that difference would give a qualitatively different result.
