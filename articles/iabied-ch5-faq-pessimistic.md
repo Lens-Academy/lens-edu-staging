@@ -18,7 +18,7 @@ Add discussion note here:
 
 #### We're optimistic about many things, but superintelligence isn't like most things.
 
-We would consider ourselves much more [optimistic](/12/are-you-anti-technology) and gung-ho than the average person about nuclear power, geothermal power, genetic engineering, neuroengineering, biotech, nanotech, pharmaceutical development, and many other technologies.{--{"author":"Luc's AI","timestamp":1787139989753}@@[\*](https://ifanyonebuildsit.com/5/are-you-just-pessimistic#ftnt191)--}{++{"author":"Luc's AI","timestamp":1787139989753}@@[^source-note-191]++}
+We would consider ourselves much more [optimistic]({--{"author":"Luc's AI","timestamp":1787152157103}@@/12/are-you-anti-technology--}{++{"author":"Luc's AI","timestamp":1787152157103}@@https://ifanyonebuildsit.com/12/are-you-anti-technology++}) and gung-ho than the average person about nuclear power, geothermal power, genetic engineering, neuroengineering, biotech, nanotech, pharmaceutical development, and many other technologies.{--{"author":"Luc's AI","timestamp":1787139989753}@@[\*](https://ifanyonebuildsit.com/5/are-you-just-pessimistic#ftnt191)--}{++{"author":"Luc's AI","timestamp":1787139989753}@@[^source-note-191]++}
 
 We expect that we're at least somewhat less worried than most people about the risk of nuclear war, worst-case climate change scenarios, and many other potential risks and disasters. We think humanity is broadly on a good trajectory, and that if we avoid wiping ourselves out, the future is likely (though not certain) to be wonderful for everyone, with social and technological progress making things better and better over time.
 
@@ -36,7 +36,7 @@ But in order to get there, we first need to face up to the reality of the situat
 
 #### The point is the arguments, not the dire-sounding stories.
 
-We provided a long list of ways that, e.g., "[superintelligence is fascinated with humans](/5/wont-ai-find-us-fascinating-or-historically-important)" would probably go wrong in real life. Reading a list like that, we imagine that some readers might have a response like:
+We provided a long list of ways that, e.g., "[superintelligence is fascinated with humans]({--{"author":"Luc's AI","timestamp":1787152157322}@@/5/wont-ai-find-us-fascinating-or-historically-important--}{++{"author":"Luc's AI","timestamp":1787152157322}@@https://ifanyonebuildsit.com/5/wont-ai-find-us-fascinating-or-historically-important++})" would probably go wrong in real life. Reading a list like that, we imagine that some readers might have a response like:
 
 > The AI optimists have all these hopeful-sounding stories. You have all these scary-sounding stories. Everyone acknowledges, though, that the future is hard to predict. So, hearing all these stories, I feel like I should have a medium-sized probability of AI catastrophe, not an extreme probability in either direction.
 >
@@ -52,7 +52,7 @@ To figure out which is true, you've got to look at the actual arguments. In the 
 
 Someone who was tasked with dispelling the "eight purple whale" stories one by one would wind up caught in a fairly repetitive loop of saying: "No, that's overly specific; there are a bunch of other ways the future could go that would not lead exactly there; to imagine that it goes exactly that way is wishful thinking."
 
-This is more or less the role we authors find ourselves in with regard to the AI situation: Humans can tell all sorts of stories where everything goes fine, but those all ultimately involve imagining that the future follows a single narrow pathway when in fact there are a bunch of other ways for the future to go. This is why we keep repeating that [humans aren't the most efficient solution to almost any problem](/5/humans-are-almost-never-the-most-efficient-solution) and that [AIs won't care about us even a little](/5/wont-ais-care-at-least-a-little-about-humans).
+This is more or less the role we authors find ourselves in with regard to the AI situation: Humans can tell all sorts of stories where everything goes fine, but those all ultimately involve imagining that the future follows a single narrow pathway when in fact there are a bunch of other ways for the future to go. This is why we keep repeating that [humans aren't the most efficient solution to almost any problem]({--{"author":"Luc's AI","timestamp":1787152157556}@@/5/humans-are-almost-never-the-most-efficient-solution--}{++{"author":"Luc's AI","timestamp":1787152157556}@@https://ifanyonebuildsit.com/5/humans-are-almost-never-the-most-efficient-solution++}) and that [AIs won't care about us even a little]({--{"author":"Luc's AI","timestamp":1787152157765}@@/5/wont-ais-care-at-least-a-little-about-humans--}{++{"author":"Luc's AI","timestamp":1787152157765}@@https://ifanyonebuildsit.com/5/wont-ais-care-at-least-a-little-about-humans++}).
 
 *If Anyone Builds It, Everyone Dies* does not just rattle off a bunch of gloomy stories and thereby conclude that AI is dangerous. In the book, we lay out an argument — an argument that is, in some ways, fairly simple: Researchers are trying to build AIs that are far smarter than any human. At some point, they're likely to succeed. Current methods give humans very little ability to pick what sort of future the AIs steer toward. There are many different directions they could go, and most directions aren't good.
 
