@@ -2128,23 +2128,23 @@ To support Wait But Why, visit our **[Patreon page](https://patreon.com/waitbutw
      
 {--{"author":"Luc's AI","timestamp":1787140273224}@@47.  --}{++{"author":"Luc's AI","timestamp":1787140273224}@@[^source-note-47]: ++}[Image source](https://www.wired.com/2013/02/skin-printed-electrodes/){--{"author":"Luc's AI","timestamp":1787140273224}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-47-6120)--}
      
-48.  [Image source](https://www.extremetech.com/extreme/207848-injectable-neuro-mesh-covers-the-brain-can-control-individual-neurons) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-48-6120)
+{--{"author":"Luc's AI","timestamp":1787140273574}@@48.  --}{++{"author":"Luc's AI","timestamp":1787140273574}@@[^source-note-48]: ++}[Image source](https://www.extremetech.com/extreme/207848-injectable-neuro-mesh-covers-the-brain-can-control-individual-neurons){--{"author":"Luc's AI","timestamp":1787140273574}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-48-6120)--}
      
-49.  [Image source](https://www.darpa.mil/program/our-research/darpa-and-the-brain-initiative) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-49-6120)
+{--{"author":"Luc's AI","timestamp":1787140273878}@@49.  --}{++{"author":"Luc's AI","timestamp":1787140273878}@@[^source-note-49]: ++}[Image source](https://www.darpa.mil/program/our-research/darpa-and-the-brain-initiative){--{"author":"Luc's AI","timestamp":1787140273878}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-49-6120)--}
      
-50.  [Image source](https://en.wikipedia.org/wiki/Transcranial_magnetic_stimulation#/media/File:Transcranial_magnetic_stimulation.jpg) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-50-6120)
+{--{"author":"Luc's AI","timestamp":1787140274161}@@50.  --}{++{"author":"Luc's AI","timestamp":1787140274161}@@[^source-note-50]: ++}[Image source](https://en.wikipedia.org/wiki/Transcranial_magnetic_stimulation#/media/File:Transcranial_magnetic_stimulation.jpg){--{"author":"Luc's AI","timestamp":1787140274161}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-50-6120)--}
      
-51.  [Image source](https://swarmlab.eecs.berkeley.edu/projects/4887/neural-dust-ultrasonic-low-power-solution-chronic-brain-machine-interfaces) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-51-6120)
+{--{"author":"Luc's AI","timestamp":1787140274460}@@51.  --}{++{"author":"Luc's AI","timestamp":1787140274460}@@[^source-note-51]: ++}[Image source](https://swarmlab.eecs.berkeley.edu/projects/4887/neural-dust-ultrasonic-low-power-solution-chronic-brain-machine-interfaces){--{"author":"Luc's AI","timestamp":1787140274460}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-51-6120)--}
      
-52.  [Image source](http://everydaydigitals.com/heres-what-i-think/5/nbmyswegj8524h8ij98hsxzd0ocnti) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-52-6120)
+{--{"author":"Luc's AI","timestamp":1787140274725}@@52.  --}{++{"author":"Luc's AI","timestamp":1787140274725}@@[^source-note-52]: ++}[Image source](http://everydaydigitals.com/heres-what-i-think/5/nbmyswegj8524h8ij98hsxzd0ocnti){--{"author":"Luc's AI","timestamp":1787140274725}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-52-6120)--}
      
-53.  [Quote source](https://www.forbes.com/sites/robertwolcott/2017/03/30/virtual-reality-sex-and-chocolate-cake-desire-in-a-post-virtual-world/#5161b91173a6) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-53-6120)
+{--{"author":"Luc's AI","timestamp":1787140274992}@@53.  --}{++{"author":"Luc's AI","timestamp":1787140274992}@@[^source-note-53]: ++}[Quote source](https://www.forbes.com/sites/robertwolcott/2017/03/30/virtual-reality-sex-and-chocolate-cake-desire-in-a-post-virtual-world/#5161b91173a6){--{"author":"Luc's AI","timestamp":1787140274992}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-53-6120)--}
      
-54.  [Quote source](https://www.forbes.com/sites/robertwolcott/2017/03/30/virtual-reality-sex-and-chocolate-cake-desire-in-a-post-virtual-world/#5161b91173a6) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-54-6120)
+{--{"author":"Luc's AI","timestamp":1787140275287}@@54.  --}{++{"author":"Luc's AI","timestamp":1787140275287}@@[^source-note-54]: ++}[Quote source](https://www.forbes.com/sites/robertwolcott/2017/03/30/virtual-reality-sex-and-chocolate-cake-desire-in-a-post-virtual-world/#5161b91173a6){--{"author":"Luc's AI","timestamp":1787140275287}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-54-6120)--}
      
-55.  [Quote source](http://rameznaam.com/2015/05/15/the-ultimate-interface-your-brain/) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-55-6120)
+{--{"author":"Luc's AI","timestamp":1787140275614}@@55.  --}{++{"author":"Luc's AI","timestamp":1787140275614}@@[^source-note-55]: ++}[Quote source](http://rameznaam.com/2015/05/15/the-ultimate-interface-your-brain/){--{"author":"Luc's AI","timestamp":1787140275614}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-55-6120)--}
      
-56.  [Quote source](http://rameznaam.com/2015/05/15/the-ultimate-interface-your-brain/) [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-56-6120)
+{--{"author":"Luc's AI","timestamp":1787140275898}@@56.  --}{++{"author":"Luc's AI","timestamp":1787140275898}@@[^source-note-56]: ++}[Quote source](http://rameznaam.com/2015/05/15/the-ultimate-interface-your-brain/){--{"author":"Luc's AI","timestamp":1787140275898}@@ [↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-56-6120)--}
      
 
 [Tweet](https://twitter.com/share)
