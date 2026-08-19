@@ -380,7 +380,7 @@ The next ingredient relates squared prediction error to KL divergence ([[#^bib-
 **Theorem 4.1 (Pinsker's inequality).** Let $P$ and $Q$ be probability distributions over $\mathbb{B}= \{\texttt{0}, \texttt{1}\}$, i.e., $q_{0}, q_{1} \geq 0$ with $q_{0} + q_{1} = 1$. Write $p_{x} = P(x)$ and $q_{x} = Q(x)$. Then
 
 $$
-\sum_{x \in \mathbb{B}}\big( q_{x} - p_{x} \big)^{2} \;\leq\; \sum_{x \in \mathbb{B}}p_{x} \ln \frac{p_{x}}{q_{x}}. {--{"author":"Luc's AI","timestamp":1787132748102}@@\tag{$\star$}--}{++{"author":"Luc's AI","timestamp":1787132748102}@@\qquad (\star)++}
+\sum_{x \in \mathbb{B}}\big( q_{x} - p_{x} \big)^{2} \;\leq\; \sum_{x \in \mathbb{B}}p_{x} \ln \frac{p_{x}}{q_{x}}. \qquad (\star)
 $$
 
 :::
