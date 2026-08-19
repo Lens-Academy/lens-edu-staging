@@ -26,4 +26,4 @@ Consider the case of human sociopaths and serial killers. You can recite ethics 
 
 AIs are not likely to be motivated bytheir moral understanding — any more than humans who learn about evolutionary biology are thereby motivated to spend their life donating to every sperm or egg bank as much as possible. We humans can understand the process that created us, without being motivated to do the things that process built us to do. AI is the same way.
 
-See also the extended discussion on the [orthogonality thesis](/5/orthogonality-ais-can-have-almost-any-goal).
+See also the extended discussion on the [orthogonality thesis]({--{"author":"Luc's AI","timestamp":1787151978480}@@/5/orthogonality-ais-can-have-almost-any-goal--}{++{"author":"Luc's AI","timestamp":1787151978480}@@https://ifanyonebuildsit.com/5/orthogonality-ais-can-have-almost-any-goal++}).

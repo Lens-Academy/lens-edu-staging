@@ -17,7 +17,7 @@ Add discussion note here:
 %%
 #### How Llama 3.1 405B Works
 
-In the book, we promised a fuller description of an LLM called Llama 3.1 405B. We present that description below. It's here for the curious, and for the purpose of really understanding the degree to which modern AIs are grown rather than crafted. (See also: [What good does knowledge of LLMs do?](/2/what-good-does-knowledge-of-llms-do))
+In the book, we promised a fuller description of an LLM called Llama 3.1 405B. We present that description below. It's here for the curious, and for the purpose of really understanding the degree to which modern AIs are grown rather than crafted. (See also: [What good does knowledge of LLMs do?]({--{"author":"Luc's AI","timestamp":1787151979400}@@/2/what-good-does-knowledge-of-llms-do--}{++{"author":"Luc's AI","timestamp":1787151979400}@@https://ifanyonebuildsit.com/2/what-good-does-knowledge-of-llms-do++}))
 
 The discussion below is moderately detailed, and we'll assume (here, but not in most of the rest of the online resources) that you have some technical background, though we won't assume any specialized knowledge of AI. If you start reading this section and aren't finding it valuable, consider skipping it.
 

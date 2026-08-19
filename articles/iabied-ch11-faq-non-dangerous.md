@@ -71,7 +71,7 @@ We haven't been able to find any narrow-but-effective plans, and we suspect it's
 
 {--{"author":"Luc's AI","timestamp":1787139896385}@@[\*](https://ifanyonebuildsit.com/11/what-if-ai-companies-only-deploy-their-ais-for-non-dangerous-actions#ftnt261_ref)--}{++{"author":"Luc's AI","timestamp":1787139896385}@@[^source-note-261]:++} In a large number of cases, AI labs are actively working *against* sharing a useful and complete picture of the situation with policymakers. In that context, it seems especially strange to justify continued development on the grounds that stronger AI could "convince lawmakers."
 
-{--{"author":"Luc's AI","timestamp":1787139896858}@@[†](https://ifanyonebuildsit.com/11/what-if-ai-companies-only-deploy-their-ais-for-non-dangerous-actions#ftnt262_ref)--}{++{"author":"Luc's AI","timestamp":1787139896858}@@[^source-note-262]:++} We are ourselves past the bar where intelligent reasoners [become incorrigible](/5/intelligent-usually-implies-incorrigible), in this particular way.
+{--{"author":"Luc's AI","timestamp":1787139896858}@@[†](https://ifanyonebuildsit.com/11/what-if-ai-companies-only-deploy-their-ais-for-non-dangerous-actions#ftnt262_ref)--}{++{"author":"Luc's AI","timestamp":1787139896858}@@[^source-note-262]:++} We are ourselves past the bar where intelligent reasoners [become incorrigible]({--{"author":"Luc's AI","timestamp":1787151979914}@@/5/intelligent-usually-implies-incorrigible--}{++{"author":"Luc's AI","timestamp":1787151979914}@@https://ifanyonebuildsit.com/5/intelligent-usually-implies-incorrigible++}), in this particular way.
 
 #### Notes
 
