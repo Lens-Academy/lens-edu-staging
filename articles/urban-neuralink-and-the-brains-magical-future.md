@@ -865,11 +865,11 @@ Imagine that the brain is a baseball stadium, its neurons are the members of the
 
 ECoG (electrocorticography) is a similar idea to EEG, also using surface electrodes—except they put them _under_ the skull, on the surface of the brain.[35](#footnote2-35-6120)
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Intracranial_electrode_grid_for_electrocorticography-600x600.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Intracranial_electrode_grid_for_electrocorticography.png)
+[![]({--{"author":"Luc's AI","timestamp":1787132639747}@@https://waitbutwhy.com/wp-content/uploads/2018/04/Intracranial_electrode_grid_for_electrocorticography-600x600.png--}{++{"author":"Luc's AI","timestamp":1787132639747}@@https://waitbutwhy.com/wp-content/uploads/2018/04/Intracranial_electrode_grid_for_electrocorticography.png++})](https://waitbutwhy.com/wp-content/uploads/2018/04/Intracranial_electrode_grid_for_electrocorticography.png)
 
 Ick. But effective—at least much more effective than EEG. Without the interference of the skull blurring things, ECoG picks up both higher spatial (about 1cm) and temporal resolution (5 milliseconds). ECoG electrodes can either be placed above or below the dura:[36](#footnote2-36-6120)
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/layersofthebrain-600x252.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/layersofthebrain.png)
+[![]({--{"author":"Luc's AI","timestamp":1787132640011}@@https://waitbutwhy.com/wp-content/uploads/2018/04/layersofthebrain-600x252.png--}{++{"author":"Luc's AI","timestamp":1787132640011}@@https://waitbutwhy.com/wp-content/uploads/2018/04/layersofthebrain.png++})](https://waitbutwhy.com/wp-content/uploads/2018/04/layersofthebrain.png)
 
 Bringing back our stadium analogy, ECoG microphones are _inside_ the stadium and a bit closer to the crowd. So the sound is much crisper than what EEG mics get from outside the stadium, and ECoG mics can better distinguish the sounds of individual sections of the crowd. But the improvement comes at a cost—it requires invasive surgery. In the scheme of invasive surgeries, though, it’s not so bad. As one neurosurgeon described to me, “You can slide stuff underneath the dura relatively non-invasively. You still have to make a hole in the head, but it’s relatively non-invasive.”
 
@@ -901,7 +901,7 @@ In the baseball stadium, LFP is a single microphone hanging over a single sectio
 
 A more recent development is the **multielectrode array,** which is the same idea as the LFP except it’s about 100 LFPs all at once, in a single area of the cortex. A multielectrode array looks like this:[37](#footnote2-37-6120)
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Focus-stack-penny_sm-600x400.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Focus-stack-penny_sm.jpg)
+[![]({--{"author":"Luc's AI","timestamp":1787132640302}@@https://waitbutwhy.com/wp-content/uploads/2018/04/Focus-stack-penny_sm-600x400.jpg--}{++{"author":"Luc's AI","timestamp":1787132640302}@@https://waitbutwhy.com/wp-content/uploads/2018/04/Focus-stack-penny_sm.jpg++})](https://waitbutwhy.com/wp-content/uploads/2018/04/Focus-stack-penny_sm.jpg)
 
 A tiny 4mm x 4mm square with 100 tiny silicon electrodes on it. Here’s another image where you can see just how sharp the electrodes are—just a few microns across at the very tip:[38](#footnote2-38-6120)
 
@@ -1045,7 +1045,7 @@ The ear has a lot of parts, but it’s the cochlea in particular that makes the 
 
 The cochlea also sorts the incoming sound by frequency. Here’s a cool chart that shows why lower sounds are processed at the end of the cochlea and high sounds are processed at the beginning (and also why there’s a minimum and maximum frequency on what the ear can hear):[41](#footnote2-41-6120)
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/tmp512613186340388865-600x336.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/tmp512613186340388865.png)
+[![]({--{"author":"Luc's AI","timestamp":1787132640572}@@https://waitbutwhy.com/wp-content/uploads/2018/04/tmp512613186340388865-600x336.png--}{++{"author":"Luc's AI","timestamp":1787132640572}@@https://waitbutwhy.com/wp-content/uploads/2018/04/tmp512613186340388865.png++})](https://waitbutwhy.com/wp-content/uploads/2018/04/tmp512613186340388865.png)
 
 A cochlear implant is a little computer that has a microphone coming out of one end (which sits on the ear) and a wire coming out of the other that connects to an array of electrodes that line the cochlea. [![](https://waitbutwhy.com/wp-content/uploads/2018/04/62036062.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/62036062.jpg)
 

@@ -972,7 +972,7 @@ Curated and popular this week
 
 BLUF: \* To determine whether AI is ‘improving exponentially’, ‘hitting the wall’, or any other claim which involves a quantity or magnitude (e.g. ‘This model was a big leap/small increment’). We need a good y-axis: an interval scale of AI capability which means +1 unit always represents the same degree of ‘how much better’, in the same way +1 degree Celsius is always the same amount of ‘how much hotter’. \* Yet there is no good y-axis for AI capability. All our...
 
-![](https://res.cloudinary.com/cea/image/upload/q_auto,f_auto,c_lfill,ar_1.91,g_auto,w_160,dpr_2/SocialPreview/rrmsu6n5jkj3b94ulanw)
+![]({--{"author":"Luc's AI","timestamp":1787132641278}@@https://res.cloudinary.com/cea/image/upload/q_auto,f_auto,c_lfill,ar_1.91,g_auto,w_160,dpr_2/SocialPreview/rrmsu6n5jkj3b94ulanw--}{++{"author":"Luc's AI","timestamp":1787132641278}@@https://res.cloudinary.com/cea/image/upload/q_auto,f_auto,c_lfill,ar_1.91,g_auto,w_1200,dpr_2/SocialPreview/rrmsu6n5jkj3b94ulanw++})
 
 99
 
@@ -982,7 +982,7 @@ Summary \* The animal welfare movement has already seen an influx in funding and
 
 Public service announcement 1. Applications are now open for our first ever round of the Charity Entrepreneurship Incubation Program dedicated exclusively to animal welfare. Learn more about what’s different this round here and apply...
 
-![](https://res.cloudinary.com/cea/image/upload/q_auto,f_auto,c_lfill,ar_1.91,g_auto,w_160,dpr_2/SocialPreview/tiuaopj8ljzek9vog1q5)
+![]({--{"author":"Luc's AI","timestamp":1787132641565}@@https://res.cloudinary.com/cea/image/upload/q_auto,f_auto,c_lfill,ar_1.91,g_auto,w_160,dpr_2/SocialPreview/tiuaopj8ljzek9vog1q5--}{++{"author":"Luc's AI","timestamp":1787132641565}@@https://res.cloudinary.com/cea/image/upload/q_auto,f_auto,c_lfill,ar_1.91,g_auto,w_1200,dpr_2/SocialPreview/tiuaopj8ljzek9vog1q5++})
 
 Recent opportunities to take action
 

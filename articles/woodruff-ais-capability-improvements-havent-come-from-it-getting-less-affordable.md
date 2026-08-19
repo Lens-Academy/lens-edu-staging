@@ -49,7 +49,7 @@ My analysis has important limitations, which I discuss after presenting evidence
 
 To investigate whether cost ratios rise as models improve, I examine the cost ratio at each model’s 50% reliability time horizon. For each model, I select tasks that the model successfully completes with lengths between 0.79 times and 1.29 times the calculated time horizon (which is plus or minus 0.1 orders of magnitude).[^3] I graph the median cost ratio in the selected set of tasks.
 
-![](https://substackcdn.com/image/fetch/$s_!Fa3K!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29b3b408-cf06-4660-8a3b-86012b4e7eb7_1600x985.png)
+![]({--{"author":"Luc's AI","timestamp":1787132641845}@@https://substackcdn.com/image/fetch/$s_!Fa3K!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29b3b408-cf06-4660-8a3b-86012b4e7eb7_1600x985.png--}{++{"author":"Luc's AI","timestamp":1787132641845}@@https://substackcdn.com/image/fetch/$s_!Fa3K!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29b3b408-cf06-4660-8a3b-86012b4e7eb7_1600x985.png++})
 
 Figure 1: Median cost ratio of successful completions near each model’s 50% time horizon (between 0.79x and 1.29x the time horizon), with interquartile range. As time horizons increase from minutes to hours across successive models, cost ratios remain well below 1 (dashed line), with no upward trend.
 
@@ -61,7 +61,7 @@ I filter for passing tasks to show that cost isn’t an additional limitation on
 
 One might respond to figure 1 by arguing that even if cost ratios _at_ each model’s 50% time horizon aren’t increasing, improvements to those 50% time horizons come from successes on long tasks with high cost ratios. If this were true, we’d expect cost ratios to rise with task length among successfully completed tasks. I show that’s false: among successful tasks, cost ratios don’t rise with task length.[^5]
 
-![](https://substackcdn.com/image/fetch/$s_!9B2i!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdb51483d-9a83-43fe-88d7-b86ffb1a1996_1600x985.png)
+![]({--{"author":"Luc's AI","timestamp":1787132642082}@@https://substackcdn.com/image/fetch/$s_!9B2i!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdb51483d-9a83-43fe-88d7-b86ffb1a1996_1600x985.png--}{++{"author":"Luc's AI","timestamp":1787132642082}@@https://substackcdn.com/image/fetch/$s_!9B2i!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdb51483d-9a83-43fe-88d7-b86ffb1a1996_1600x985.png++})
 
 Figure 2: Cost ratio by task duration for successful attempts only (excluding tasks under 1.5 minutes), across a selection of models. The shaded region shows the weighted interquartile range. Cost ratios do not increase with task length, they decline, though this likely reflects a selection effect where models only succeed on relatively cheap long tasks.
 
@@ -81,13 +81,13 @@ Multiplying the pass rate logistic and affordability logistic gives the probabil
 
 The affordable 50% time horizon is the longest task length at which p(pass & afford) is greater than or equal to 50%.
 
-![](https://substackcdn.com/image/fetch/$s_!hkIM!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb78be3d6-3642-4d93-a00c-c0dda2d43560_1600x1200.png)
+![]({--{"author":"Luc's AI","timestamp":1787132642308}@@https://substackcdn.com/image/fetch/$s_!hkIM!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb78be3d6-3642-4d93-a00c-c0dda2d43560_1600x1200.png--}{++{"author":"Luc's AI","timestamp":1787132642308}@@https://substackcdn.com/image/fetch/$s_!hkIM!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb78be3d6-3642-4d93-a00c-c0dda2d43560_1600x1200.png++})
 
 Figure 3: Factored model for Claude 4 Opus at four cost thresholds (1/32x, 1/16x, 1/8x, 1/4x human cost). Red dots show failed or over-cost tasks, while green dots show passed and affordable tasks. Each panel decomposes the affordable pass rate (red) into pass probability (blue) and affordability given passing (green dashed). The dashed vertical line marks the affordable 50% time horizon. Tighter cost constraints reduce the horizon only modestly.
 
 At different maximum cost ratios, the doubling times are reliably similar.
 
-![](https://substackcdn.com/image/fetch/$s_!ZE8h!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9b066f3-8694-479b-adef-31d8ce9d7c19_1600x1109.png)
+![]({--{"author":"Luc's AI","timestamp":1787132642542}@@https://substackcdn.com/image/fetch/$s_!ZE8h!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9b066f3-8694-479b-adef-31d8ce9d7c19_1600x1109.png--}{++{"author":"Luc's AI","timestamp":1787132642542}@@https://substackcdn.com/image/fetch/$s_!ZE8h!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9b066f3-8694-479b-adef-31d8ce9d7c19_1600x1109.png++})
 
 Figure 4: Affordable 50% time horizon over time after 2024 at four cost thresholds: unlimited, 1/4x, 1/8x, and 1/32x human cost. Doubling times range from 3.0 to 3.3 months across thresholds, with high R² values throughout. Stricter cost constraints filter out some models but do not substantially slow the trend.
 
@@ -132,7 +132,7 @@ Toby Ord [analyzed the same issue](https://www.tobyord.com/writing/hourly-costs-
 
 Ord’s results come from his analysis of this graph, [released by METR](https://evaluations.metr.org/gpt-5-report/#time-horizon-measurement) (with his annotations).
 
-![](https://substackcdn.com/image/fetch/$s_!T74S!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe307b24-e739-4127-a0e7-9b59854d3a22_1350x750.png)
+![]({--{"author":"Luc's AI","timestamp":1787132642774}@@https://substackcdn.com/image/fetch/$s_!T74S!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe307b24-e739-4127-a0e7-9b59854d3a22_1350x750.png--}{++{"author":"Luc's AI","timestamp":1787132642774}@@https://substackcdn.com/image/fetch/$s_!T74S!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe307b24-e739-4127-a0e7-9b59854d3a22_1350x750.png++})
 
 Figure A1: Comparison of time horizon achieved by token cost used for different models. Each model is run once with a constant token budget, and the performance at each cost threshold is calculated by counting all unfinished runs as failures. Costs for o3 and GPT-5 are approximated using cost data for OpenAI o1. Toby Ord has added saturation point annotations to the figure, with diagonal lines indicating a flat hourly cost.
 
