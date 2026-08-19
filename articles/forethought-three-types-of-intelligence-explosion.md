@@ -401,7 +401,7 @@ Overall, it’s hard to give a good estimate of the fastest speed, but it at lea
 
 {--{"author":"Luc's AI","timestamp":1787161627374}@@[^3]:--}{++{"author":"Luc's AI","timestamp":1787161627374}@@[^note-forethought-three-types-3]:++}  Defining exactly how fast AI progress needs to be to qualify as an IE is ultimately fairly arbitrary. In this post we don’t make use of a specific definition.
 
-{--{"author":"Luc's AI","timestamp":1787161627610}@@[^4]:--}{++{"author":"Luc's AI","timestamp":1787161627610}@@[^note-forethought-three-types-4]:++}  The choice of *three* feedback loops, rather than fewer or more, is natural but somewhat arbitrary. See [here](#appendix-are-there-really-just-three-feedback-loops) for further discussion.
+{--{"author":"Luc's AI","timestamp":1787161627610}@@[^4]:--}{++{"author":"Luc's AI","timestamp":1787161627610}@@[^note-forethought-three-types-4]:++}  The choice of *three* feedback loops, rather than fewer or more, is natural but somewhat arbitrary. See [here]{--{"author":"Luc's AI","timestamp":1787161855765}@@(#appendix-are-there-really-just-three-feedback-loops)--}{++{"author":"Luc's AI","timestamp":1787161855765}@@(#appendix-are-there-really-just-three-feedback-loop)++} for further discussion.
 
 {--{"author":"Luc's AI","timestamp":1787161627861}@@[^5]:--}{++{"author":"Luc's AI","timestamp":1787161627861}@@[^note-forethought-three-types-5]:++}  Automated chip technology could also increase the *quantity* of AI chips, via process improvements which could enable the same number of fabs to produce more chips than before. 
 

@@ -167,7 +167,7 @@ Transformer inference consists of two phases: _prefill_ processes the input prom
 
 Sampling from a Large Language Model can be thought of in two steps: (1) generating a probability distribution, and (2) sampling a token from it. For step (1), given logits $z\in\mathbb{R}^{|\mathcal{T}|}$ over a vocabulary $\mathcal{T},$ and a temperature parameter $T$, the model induces a categorical distribution
 
-{--{"author":"Luc's AI","timestamp":1787161700388}@@$$p_{i}^{(T)}=\mathrm{softmax}\!\left(\frac{z}{T}\right)_{i}=\frac{\exp(z_{i}/T)}{\sum_{j=1}^{|\mathcal{T}|}\exp(z_{j}/T)}.$$--}{++{"author":"Luc's AI","timestamp":1787161700388}@@$
+{--{"author":"Luc's AI","timestamp":1787161926604}@@$$p_{i}^{(T)}=\mathrm{softmax}\!\left(\frac{z}{T}\right)_{i}=\frac{\exp(z_{i}/T)}{\sum_{j=1}^{|\mathcal{T}|}\exp(z_{j}/T)}.$$--}{++{"author":"Luc's AI","timestamp":1787161926604}@@$$
 p_{i}^{(T)}=\mathrm{softmax}\!\left(\frac{z}{T}\right)_{i}=\frac{\exp(z_{i}/T)}{\sum_{j=1}^{|\mathcal{T}|}\exp(z_{j}/T)}.
 $$++}
 
@@ -219,7 +219,7 @@ While Inverse-Probability Transform and Gumbel-Max Trick are mathematically dete
 
 To model this behavior, we view the model’s computed probability vector not as a single deterministic mapping $\vec{p}_{\theta}(x)$, but as a random draw from a higher-order _distribution over distributions_:
 
-{--{"author":"Luc's AI","timestamp":1787161700635}@@$$\vec{p}_{\theta}(x)\sim\mathcal{P}_{\theta}(x),$$--}{++{"author":"Luc's AI","timestamp":1787161700635}@@$
+{--{"author":"Luc's AI","timestamp":1787161926894}@@$$\vec{p}_{\theta}(x)\sim\mathcal{P}_{\theta}(x),$$--}{++{"author":"Luc's AI","timestamp":1787161926894}@@$$
 \vec{p}_{\theta}(x)\sim\mathcal{P}_{\theta}(x),
 $$++}
 
@@ -229,13 +229,13 @@ where $\mathcal{P}_{\theta}(x)$ represents the stochastic process generating the
 
 We begin with a general abstraction that captures the non-determinism induced by stochastic sampling under a fixed seed. Let $\mathrm{Sample}(\cdot,\sigma)$ denote a generic sampling procedure that maps a probability distribution $p$ over tokens $\mathcal{V}$ and a seed $\sigma$ to a token $t\in\mathcal{V}$:
 
-{--{"author":"Luc's AI","timestamp":1787161700906}@@$$t=\mathrm{Sample}(p,\sigma).$$--}{++{"author":"Luc's AI","timestamp":1787161700906}@@$
+{--{"author":"Luc's AI","timestamp":1787161927175}@@$$t=\mathrm{Sample}(p,\sigma).$$--}{++{"author":"Luc's AI","timestamp":1787161927175}@@$$
 t=\mathrm{Sample}(p,\sigma).
 $$++}
 
 Given a distribution over probability vectors $p\sim\mathcal{P}_{\theta}(x)$, the _fixed-seed posterior distribution_ is defined as:
 
-{--{"author":"Luc's AI","timestamp":1787161701166}@@$$P_{\mathrm{seed}}(t\mid\sigma)=\Pr_{p\sim\mathcal{P}_{\theta}(x)}\big[\,\mathrm{Sample}(p,\sigma)=t\,\big].$$--}{++{"author":"Luc's AI","timestamp":1787161701166}@@$
+{--{"author":"Luc's AI","timestamp":1787161927455}@@$$P_{\mathrm{seed}}(t\mid\sigma)=\Pr_{p\sim\mathcal{P}_{\theta}(x)}\big[\,\mathrm{Sample}(p,\sigma)=t\,\big].$$--}{++{"author":"Luc's AI","timestamp":1787161927455}@@$$
 P_{\mathrm{seed}}(t\mid\sigma)=\Pr_{p\sim\mathcal{P}_{\theta}(x)}\big[\,\mathrm{Sample}(p,\sigma)=t\,\big].
 $$++}
 
@@ -243,13 +243,13 @@ This represents the probability, over draws of the underlying probability distri
 
 Example: Inverse Probability Transform. For concreteness, consider the case where $\mathrm{Sample}(\cdot,\sigma)$ implements the inverse probability transform. Let $\mathcal{P}=\{P_{i}\}_{i=1}^{n}$ denote a family of token-level probability distributions, where each $P_{i}$ defines a conditional distribution over tokens $t\in\mathcal{V}$ given model context $x_{i}$:
 
-{--{"author":"Luc's AI","timestamp":1787161701424}@@$$P_{i}(t)=\Pr[T=t\mid X=x_{i}].$$--}{++{"author":"Luc's AI","timestamp":1787161701424}@@$
+{--{"author":"Luc's AI","timestamp":1787161927733}@@$$P_{i}(t)=\Pr[T=t\mid X=x_{i}].$$--}{++{"author":"Luc's AI","timestamp":1787161927733}@@$$
 P_{i}(t)=\Pr[T=t\mid X=x_{i}].
 $$++}
 
 Let $R:\Sigma\to[0,1]$ denote a deterministic randomization function (e.g., a pseudorandom generator) mapping a seed $\sigma\in\Sigma$ to a uniform draw $R(\sigma)\sim\mathrm{Uniform}(0,1)$. For each $P_{i}$, define the seed-conditioned token selection function
 
-{--{"author":"Luc's AI","timestamp":1787161701716}@@$$S_{i}(\sigma)=\min\{\,t\in\mathcal{V}:F_{i}(t)\geq R(\sigma)\,\},$$--}{++{"author":"Luc's AI","timestamp":1787161701716}@@$
+{--{"author":"Luc's AI","timestamp":1787161928331}@@$$S_{i}(\sigma)=\min\{\,t\in\mathcal{V}:F_{i}(t)\geq R(\sigma)\,\},$$--}{++{"author":"Luc's AI","timestamp":1787161928331}@@$$
 S_{i}(\sigma)=\min\{\,t\in\mathcal{V}:F_{i}(t)\geq R(\sigma)\,\},
 $$++}
 
@@ -257,7 +257,7 @@ where $F_{i}$ is the cumulative distribution function (CDF) corresponding to $P_
 
 Then, the fixed-seed posterior distribution for the inverse probability transform is:
 
-{--{"author":"Luc's AI","timestamp":1787161702038}@@$$P_{\mathrm{seed}}(t\mid R(\sigma)=r)=\Pr_{P_{i}\sim\mathcal{P}}\big[\,S_{i}(\sigma)=t\,\big],$$--}{++{"author":"Luc's AI","timestamp":1787161702038}@@$
+{--{"author":"Luc's AI","timestamp":1787161929227}@@$$P_{\mathrm{seed}}(t\mid R(\sigma)=r)=\Pr_{P_{i}\sim\mathcal{P}}\big[\,S_{i}(\sigma)=t\,\big],$$--}{++{"author":"Luc's AI","timestamp":1787161929227}@@$$
 P_{\mathrm{seed}}(t\mid R(\sigma)=r)=\Pr_{P_{i}\sim\mathcal{P}}\big[\,S_{i}(\sigma)=t\,\big],
 $$++}
 
@@ -464,7 +464,7 @@ In Section [3.4](#S3.SS4 "3.4 Valid Non-determinism with a Fixed Seed: The Fixed
 
 Given an estimate of $\mathrm{FSSL}(t\mid\sigma)$, we use a simple threshold rule:
 
-{--{"author":"Luc's AI","timestamp":1787161702438}@@$$\text{flag--}{++{"author":"Luc's AI","timestamp":1787161702438}@@$
+{--{"author":"Luc's AI","timestamp":1787161929918}@@$$\text{flag--}{++{"author":"Luc's AI","timestamp":1787161929918}@@$$
 \text{flag++} }t\ \text{if}\ {--{"author":"Luc's AI","timestamp":1787161702438}@@\mathrm{FSSL}(t\mid\sigma)<\tau,$$--}{++{"author":"Luc's AI","timestamp":1787161702438}@@\mathrm{FSSL}(t\mid\sigma)<\tau,
 $$++}
 
@@ -558,7 +558,7 @@ Let $\mathcal{A}^{\mathsf{H}}$ by an algorithm issuing at most $N=O(k)$ queries 
 
 Let $X\subseteq\{0,1\}^{k}$ be the set of $k$\-bit strings which $\mathcal{A}$ queried. Note that for any _fixed string_ $x\in\{0,1\}^{k}$, the number of $0$ prefixes is a random variable $S_{x}\sim\mathrm{Bin}(k,p)$. Then, we also know that $|X|\leq N$, and therefore, by a union bound and Chernoff’s bound, we get that
 
-{--{"author":"Luc's AI","timestamp":1787161702754}@@$$\Pr[\exists_{x\in--}{++{"author":"Luc's AI","timestamp":1787161702754}@@$
+{--{"author":"Luc's AI","timestamp":1787161928958}@@$$\Pr[\exists_{x\in--}{++{"author":"Luc's AI","timestamp":1787161928958}@@$$
 \Pr[\exists_{x\in++} X}S_{x}\geq p^{\prime}k]\leq {--{"author":"Luc's AI","timestamp":1787161702754}@@Ne^{-kD_{\mathrm{KL}}(p^{\prime}\|p)}.$$--}{++{"author":"Luc's AI","timestamp":1787161702754}@@Ne^{-kD_{\mathrm{KL}}(p^{\prime}\|p)}.
 $$++}
 
@@ -620,7 +620,7 @@ Figure 7: Sampling requirements for detecting at least 1,000 malicious messages 
 
 Anticipating a “reasonable” attacker is inherently brittle; capable adversaries can be more creative and better resourced than any fixed threat model. Instead of speculating about strategies, we take a distribution-free, information–theoretic view and bound _worst-case_ leakage under our verifier. At each position $t$, the verifier induces an _admissible set_ of tokens
 
-{--{"author":"Luc's AI","timestamp":1787161703011}@@$$A_{t}(\tau)\;=\;\{\,i:\mathrm{FSSL}_{t}(i)\geq\tau\,\},$$--}{++{"author":"Luc's AI","timestamp":1787161703011}@@$
+{--{"author":"Luc's AI","timestamp":1787161930163}@@$$A_{t}(\tau)\;=\;\{\,i:\mathrm{FSSL}_{t}(i)\geq\tau\,\},$$--}{++{"author":"Luc's AI","timestamp":1787161930163}@@$$
 A_{t}(\tau)\;=\;\{\,i:\mathrm{FSSL}_{t}(i)\geq\tau\,\},
 $$++}
 
@@ -781,7 +781,7 @@ Finally, we state a known result from information theory in Theorem [B.4](#A2.Th
 
 Let $X$ be a uniform random variable with support of size $q$ (so that $H(X)=\log q$) and $Y^{n}$ be $n$ messages sent through a channel of capacity $C$. Then, in order to transmit $X$ with error at most $\varepsilon$, requires that $n\geq\big(\log q-h(\varepsilon)-\varepsilon\log(q-1)\big)/C.$ Notably, when $Y$ has alphabet size $q^{\prime}$ and is uniformly random with probability $p$, then we obtain
 
-{--{"author":"Luc's AI","timestamp":1787161703242}@@$$n\geq\frac{\log--}{++{"author":"Luc's AI","timestamp":1787161703242}@@$
+{--{"author":"Luc's AI","timestamp":1787161928611}@@$$n\geq\frac{\log--}{++{"author":"Luc's AI","timestamp":1787161928611}@@$$
 n\geq\frac{\log++} q-h(\varepsilon)-\varepsilon\log(q-1)}{\log {--{"author":"Luc's AI","timestamp":1787161703242}@@q^{\prime}-h(p)-p\log(q^{\prime}-1)}.$$--}{++{"author":"Luc's AI","timestamp":1787161703242}@@q^{\prime}-h(p)-p\log(q^{\prime}-1)}.
 $$++}
 
@@ -789,19 +789,19 @@ $$++}
 
 For two jointly distributed variables $(X,Y^{n})\sim\mathcal{D}$ and any function $f$, let $E$ be the event that $X\neq\tilde{X}$, where $(X,Y^{n})\sim\mathcal{D}$ and $\tilde{X}=f(Y^{n})$. Then,
 
-{--{"author":"Luc's AI","timestamp":1787161703531}@@$$H(X\mid--}{++{"author":"Luc's AI","timestamp":1787161703531}@@$
+{--{"author":"Luc's AI","timestamp":1787161929631}@@$$H(X\mid--}{++{"author":"Luc's AI","timestamp":1787161929631}@@$$
 H(X\mid++} Y^{n})\leq {--{"author":"Luc's AI","timestamp":1787161703531}@@h(\Pr[E])+\Pr[E]\cdot\log(q-1).$$--}{++{"author":"Luc's AI","timestamp":1787161703531}@@h(\Pr[E])+\Pr[E]\cdot\log(q-1).
 $$++}
 
 Using the mutual information between $X$ and $Y^{n}$,
 
-{--{"author":"Luc's AI","timestamp":1787161703819}@@$$I(X;Y^{n})=H(X)-H(X\mid--}{++{"author":"Luc's AI","timestamp":1787161703819}@@$
+{--{"author":"Luc's AI","timestamp":1787161930466}@@$$I(X;Y^{n})=H(X)-H(X\mid--}{++{"author":"Luc's AI","timestamp":1787161930466}@@$$
 I(X;Y^{n})=H(X)-H(X\mid++} Y^{n})\geq\log {--{"author":"Luc's AI","timestamp":1787161703819}@@q-(h(\Pr[E])+\Pr[E]\cdot\log(q-1)).$$--}{++{"author":"Luc's AI","timestamp":1787161703819}@@q-(h(\Pr[E])+\Pr[E]\cdot\log(q-1)).
 $$++}
 
 And, any encoding scheme that uses a (memoryless) channel $n$ times, $I(X;Y^{n})\leq nC$. Combining these and using target error rate $\Pr[E]=\varepsilon$, we establish the claimed bound
 
-{--{"author":"Luc's AI","timestamp":1787161704366}@@$$\log--}{++{"author":"Luc's AI","timestamp":1787161704366}@@$
+{--{"author":"Luc's AI","timestamp":1787161930734}@@$$\log--}{++{"author":"Luc's AI","timestamp":1787161930734}@@$$
 \log++} q-(h(\varepsilon)+\varepsilon\cdot\log(q-1))\leq I(X;Y^{n})\leq {--{"author":"Luc's AI","timestamp":1787161704366}@@nC.$$--}{++{"author":"Luc's AI","timestamp":1787161704366}@@nC.
 $$++}
 
@@ -983,13 +983,13 @@ In this setting, we think of all the messages as a collection of samples $S$, an
 
 For some confidence level $c$ (e.g., 99% confidence), we seek to solve
 
-{--{"author":"Luc's AI","timestamp":1787161704090}@@$$\Pr(\text{at--}{++{"author":"Luc's AI","timestamp":1787161704090}@@$
+{--{"author":"Luc's AI","timestamp":1787161931033}@@$$\Pr(\text{at--}{++{"author":"Luc's AI","timestamp":1787161931033}@@$$
 \Pr(\text{at++} least }k\text{ encoded-samples in }n\text{ draws})\geq {--{"author":"Luc's AI","timestamp":1787161704090}@@c$$--}{++{"author":"Luc's AI","timestamp":1787161704090}@@c
 $$++}
 
 In other words,
 
-{--{"author":"Luc's AI","timestamp":1787161704622}@@$$\Pr(X\geq--}{++{"author":"Luc's AI","timestamp":1787161704622}@@$
+{--{"author":"Luc's AI","timestamp":1787161931317}@@$$\Pr(X\geq--}{++{"author":"Luc's AI","timestamp":1787161931317}@@$$
 \Pr(X\geq++} k)\geq c,\quad\text{where {--{"author":"Luc's AI","timestamp":1787161704622}@@}X\sim\text{Binomial}(n,p).$$--}{++{"author":"Luc's AI","timestamp":1787161704622}@@}X\sim\text{Binomial}(n,p).
 $$++}
 

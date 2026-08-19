@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787141324865}@@---
+---
 suite-version: 1
 tags:
   - validator-ignore
@@ -45,10 +45,11 @@ eval-results:
   model: claude-fable-5
   suite-version: 1
   checks: {A1: pass, A2: pass, B1: fail, C1: fail, C2: pass, C3: pass}
-  notes: {B1: "question opens 'Chapter 5…'"}
+  notes: {B1: "question opens 'Chapter 5…'", C1: "1-5 graded ladder"}
+  evidence: {B1: "Chapter 5 opens with an allegory about an alien civilization", C1: "Score according to the following rubric. **1** —"}
 ```
 
-- `checks` records every check's verdict; `notes` carries a one-line reason for fails only. Full evidence lives in the run report docs in `Run Reports/`, not in frontmatter.
+- `checks` records every check's verdict. `notes` carries the judge's one-line reason and `evidence` its shortest verbatim quote from the file grounding the verdict — both for fails only, both taken from the judge's report, so a stamp is self-explanatory without opening the run report. The run report additionally carries the full write-up.
 - `content-sha`: first 8 hex chars of sha256 over the file **as read at evaluation time** (rendered view, pending suggestions included — hash what you judged), with the entire `eval-results` mapping excluded from the hashed text. Exact normalization procedure lives in the runner skill.
 - Stamps land as pending suggestions; bulk-accept them in the review editor.
 
@@ -57,4 +58,3 @@ A learning outcome is **stale** (should be re-evaluated) iff any of:
 1. it has no `eval-results` stamp;
 2. the stamp's `suite-version` is older than this file's;
 3. the stamp's `content-sha` no longer matches the file's current hash.
-++}
