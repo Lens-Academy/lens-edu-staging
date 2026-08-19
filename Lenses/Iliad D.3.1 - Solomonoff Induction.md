@@ -53,7 +53,7 @@ How to construct a predictor $P$ such that $S^{\mu}_{\infty}$ is small (or at le
 - **Cumulative bound** ([[#4. Cumulative prediction error bound (main result)|Section 4]]): Assuming $\mu \in \mathcal{M}$, $S^{\mu}_{\infty} \leq -\ln w_{\mu}$. The higher the prior on $\mu$, the lower the prediction error.
 - **Explicit bound** ([[#^prob-bound-explicit-ex|Exercise 4.2]]): specialize to the Solomonoff prior $w_{\nu} = 2^{-K(\nu)}$ to get $S^{\mu}_{\infty} \leq K(\mu)\ln 2$, where $K$ is the *Kolmogorov complexity*.
 - **Pareto optimality** ([[#^prob-kl-pareto|Exercise 6.2]] and [[#^prob-sq-pareto|8.2]]): no other predictor weakly dominates $\xi$ on every $\nu \in \mathcal{M}$, for either KL or squared loss.
-- **Misspecified version** ({--{"author":"Luc's AI","timestamp":1787135869092}@@[[#^7-misspecified-models-when-mu-notin-mc|Section--}{++{"author":"Luc's AI","timestamp":1787135869092}@@[[#7. Misspecified models: when $\mu \notin \mathcal{M}$|Section++} 7]]): If $\mu \not\in \mathcal{M}$, the cumulative bound becomes $-\ln w_{\hat\mu}+ D_{n}(\mu \parallel \hat\mu)$: the constant complexity term plus an approximation term $D_{n}(\mu \parallel \hat\mu) = \sum_{t=1}^{n} d_{t}(\mu \parallel \hat\mu)$ that in general grows linearly in $n$, so $S^{\mu}_{\infty}$ diverges. Here $\hat{\mu}\in \mathcal{M}$ is the "closest" environment to $\mu$.
+- **Misspecified version** ([[#7. Misspecified models: when $\mu \notin \mathcal{M}$|Section 7]]): If $\mu \not\in \mathcal{M}$, the cumulative bound becomes $-\ln w_{\hat\mu}+ D_{n}(\mu \parallel \hat\mu)$: the constant complexity term plus an approximation term $D_{n}(\mu \parallel \hat\mu) = \sum_{t=1}^{n} d_{t}(\mu \parallel \hat\mu)$ that in general grows linearly in $n$, so $S^{\mu}_{\infty}$ diverges. Here $\hat{\mu}\in \mathcal{M}$ is the "closest" environment to $\mu$.
 
 \## Notation
 
@@ -691,7 +691,7 @@ Combining with Pinsker ([[#^thm-pinsker|Theorem 4.1]]) gives the corresponding b
 
 :::
 
-Details on how to define the best choice of $\hat{\mu}$ are in {--{"author":"Luc's AI","timestamp":1787135869402}@@[[#^d-best-choice-of-hatmuin-mc|Section--}{++{"author":"Luc's AI","timestamp":1787135869402}@@[[#D. Best choice of $\hat{\mu}\in \mathcal{M}$.|Section++} D]].
+Details on how to define the best choice of $\hat{\mu}$ are in [[#D. Best choice of $\hat{\mu}\in \mathcal{M}$.|Section D]].
 
 \## 8. Pareto optimality under squared loss
 

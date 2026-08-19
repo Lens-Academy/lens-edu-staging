@@ -229,15 +229,11 @@ For more detail, I made a short video series talking about how to satisfy these 
     *   For example, a clean-meat speaker starts with environmental and health benefits, because she knows [people are more likely to respond to these values than they are for animal welfare benefits (see our other meta-review)](https://www.sciencedirect.com/science/article/pii/S2666833521000976),
 
 *   Explain the real problem in the world you're hoping to help the person solve, how they're going to learn to solve it, and how they'll know they've learned it
-    *   The technical term here is ['constructive alignment'](https://en.wikipedia.org/wiki/Constructive_alignment).{--{"author":"Luc's AI","timestamp":1787136094212}@@
+    *   The technical term here is ['constructive alignment'](https://en.wikipedia.org/wiki/Constructive_alignment).
 
---}{++{"author":"Luc's AI","timestamp":1787136094212}@@
+    ![](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/ZPNNnEu2HGNSNmifo/rokd36ncfdfpyplgn0lf)
 
-    ++}![](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/ZPNNnEu2HGNSNmifo/rokd36ncfdfpyplgn0lf){--{"author":"Luc's AI","timestamp":1787136094212}@@
-
---}{++{"author":"Luc's AI","timestamp":1787136094212}@@
-
-    ++}Basically, work backwards from real world problem to the learning objective(s) to the assessment(s) to the learning activity, for example:
+    Basically, work backwards from real world problem to the learning objective(s) to the assessment(s) to the learning activity, for example:
         *   "As you'll learn in this program, AI is likely to become a powerful force in the world, and we don't yet know how to build it safely." (real world problem)
         *   "In this program I want to help you identify whether you think you might fit a career in AI safety." (specific learning objective)
         *   "At the end of the program, you'll have an opportunity to do a 4-week project to test your fit for this kind of work. I will help you craft something that fits your interests." (assessment task)

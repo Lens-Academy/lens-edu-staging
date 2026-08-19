@@ -218,7 +218,7 @@ As in, I see the following a lot:
 > [Zvi Mowshowitz](https://x.com/TheZvi/status/2076254436326826345): The motte-and-bailey here is real, but more commonly it is in reverse. as in a form of:
 > 
 > 1\. You claim superintelligence \[S\] soon will run circles around humans and do absurd stuff.  
-> 2\. But \[S\] would not be fully {--{"author":"Luc's AI","timestamp":1787135851677}@@omniscient/​omnipotent.--}{++{"author":"Luc's AI","timestamp":1787135851677}@@omniscient/omnipotent.++}  
+> 2\. But \[S\] would not be fully omniscient/omnipotent.  
 > 3\. Therefore \[S\] would be a ~normal tech.
 > 
 > No.
