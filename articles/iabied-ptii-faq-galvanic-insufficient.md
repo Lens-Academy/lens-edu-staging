@@ -22,7 +22,7 @@ We expect real companies to make even more blunders than Galvanic. That would fi
 
 In real life, we expect corporate blunders to show up sooner, to be more numerous, and to be — in some sense — stupider. Modern AI companies are already taking AIs that exhibit plenty of warning signs, and scaling them up massively despite not knowing where the [critical thresholds]({--{"author":"Luc's AI","timestamp":1787152183033}@@/1/will-ai-cross-critical-thresholds-and-take-off--}{++{"author":"Luc's AI","timestamp":1787152183033}@@https://ifanyonebuildsit.com/1/will-ai-cross-critical-thresholds-and-take-off++}) lie and whether they're going to cross one. They aren't being paranoid about it *today.* Why should we expect that they'll suddenly start tomorrow?
 
-(Recall how, in the past, people assured us that nobody would be so dumb as to [hook a smart AI up to the internet](/6/can-developers-just-keep-the-ai-in-a-box). It's easy to say that corporate behavior will change in the future. But it doesn't match the facts.)
+(Recall how, in the past, people assured us that nobody would be so dumb as to [hook a smart AI up to the {--{"author":"Luc's AI","timestamp":1787152249459}@@internet](/6/can-developers-just-keep-the-ai-in-a-box)--}{++{"author":"Luc's AI","timestamp":1787152249459}@@internet](https://ifanyonebuildsit.com/6/can-developers-just-keep-the-ai-in-a-box)++}. It's easy to say that corporate behavior will change in the future. But it doesn't match the facts.)
 
 #### In part because it's easier to write.
 

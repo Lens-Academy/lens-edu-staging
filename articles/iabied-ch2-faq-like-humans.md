@@ -41,7 +41,7 @@ The work of figuring out how to predict all sorts of different humans is differe
 
 Refer to Chapter 2 for a brief discussion of how LLMs seem pretty alien.
 
-In Chapter 4, we'll go deeper into how AIs wind up with very weird preferences and pursuits — a phenomenon that we've already begun to see in the wild, with more examples piling up even after the book went to print. We collect some [examples](/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient) in the online resources for Chapter 4.
+In Chapter 4, we'll go deeper into how AIs wind up with very weird preferences and pursuits — a phenomenon that we've already begun to see in the wild, with more examples piling up even after the book went to print. We collect some {--{"author":"Luc's AI","timestamp":1787152249893}@@[examples](/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient)--}{++{"author":"Luc's AI","timestamp":1787152249893}@@[examples](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient)++} in the online resources for Chapter 4.
 
 {--{"author":"Luc's AI","timestamp":1787139925199}@@[\*](https://ifanyonebuildsit.com/2/wont-llms-be-like-the-humans-in-the-data-theyre-trained-on#ftnt58_ref)--}{++{"author":"Luc's AI","timestamp":1787139925199}@@[^source-note-58]:++} We aren't using the more modern, gender-neutral word "actor" in these resources because "actress" prevents ambiguity about whether we are referring to "a stage or screen performer" versus "an agent that takes actions."
 
