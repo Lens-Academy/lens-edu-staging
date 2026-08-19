@@ -37,7 +37,7 @@ We tested frontier LLMs and LLM-assisted humans on the benchmark and found that 
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!k7BN!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd7855475-89a7-46a4-8206-0106c7cee3fc_3570x1920.png)
+![]({--{"author":"Luc's AI","timestamp":1787132591908}@@https://substackcdn.com/image/fetch/$s_!k7BN!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd7855475-89a7-46a4-8206-0106c7cee3fc_3570x1920.png--}{++{"author":"Luc's AI","timestamp":1787132591908}@@https://substackcdn.com/image/fetch/$s_!k7BN!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd7855475-89a7-46a4-8206-0106c7cee3fc_3570x1920.png++})
 
 ](https://substackcdn.com/image/fetch/$s_!k7BN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd7855475-89a7-46a4-8206-0106c7cee3fc_3570x1920.png)
 
@@ -72,7 +72,7 @@ We evaluated three frontier LLM auditors (Gemini 3.1 Pro, GPT-5.2, Claude Opus 4
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!rd58!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F959da7ef-a581-4456-a199-4bde1b0a833b_2810x1216.png)
+![]({--{"author":"Luc's AI","timestamp":1787132592135}@@https://substackcdn.com/image/fetch/$s_!rd58!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F959da7ef-a581-4456-a199-4bde1b0a833b_2810x1216.png--}{++{"author":"Luc's AI","timestamp":1787132592135}@@https://substackcdn.com/image/fetch/$s_!rd58!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F959da7ef-a581-4456-a199-4bde1b0a833b_2810x1216.png++})
 
 ](https://substackcdn.com/image/fetch/$s_!rd58!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F959da7ef-a581-4456-a199-4bde1b0a833b_2810x1216.png)
 
@@ -112,7 +112,7 @@ We also tested whether LLMs could generate sabotages autonomously. We gave Claud
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!dKbk!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0196956b-d753-4239-863e-66fdb4677b32_2410x1216.png)
+![]({--{"author":"Luc's AI","timestamp":1787132592381}@@https://substackcdn.com/image/fetch/$s_!dKbk!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0196956b-d753-4239-863e-66fdb4677b32_2410x1216.png--}{++{"author":"Luc's AI","timestamp":1787132592381}@@https://substackcdn.com/image/fetch/$s_!dKbk!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0196956b-d753-4239-863e-66fdb4677b32_2410x1216.png++})
 
 ](https://substackcdn.com/image/fetch/$s_!dKbk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0196956b-d753-4239-863e-66fdb4677b32_2410x1216.png)
 

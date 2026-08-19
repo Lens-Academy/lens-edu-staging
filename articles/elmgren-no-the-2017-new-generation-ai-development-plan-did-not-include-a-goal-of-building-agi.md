@@ -47,7 +47,7 @@ The phrase in which these characters appear in the NGAIDP is “data-driven gene
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!dUjZ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a4ee572-5e5c-4216-9511-5c6c09710e0d_1024x447.png)
+![]({--{"author":"Luc's AI","timestamp":1787132591143}@@https://substackcdn.com/image/fetch/$s_!dUjZ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a4ee572-5e5c-4216-9511-5c6c09710e0d_1024x447.png--}{++{"author":"Luc's AI","timestamp":1787132591143}@@https://substackcdn.com/image/fetch/$s_!dUjZ!,w_1024,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a4ee572-5e5c-4216-9511-5c6c09710e0d_1024x447.png++})
 
 ](https://substackcdn.com/image/fetch/$s_!dUjZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a4ee572-5e5c-4216-9511-5c6c09710e0d_1024x447.png)
 
@@ -59,7 +59,7 @@ The first listed task for building these innovation systems is to “Establish b
 
 We are now quite deep into a tributary of the document — but we’ve not arrived just yet! “Big data intelligence theory” includes a list of about 5 broad areas of research (followed by an “etc.” for good measure). The _very last one_, finally, is our subject today: “data-driven general-purpose AI mathematical models and theory.”
 
-![](https://substackcdn.com/image/fetch/$s_!Omrc!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ca06010-aa9a-43ea-8c29-87b976a09ea3_1024x495.png)
+![]({--{"author":"Luc's AI","timestamp":1787132591374}@@https://substackcdn.com/image/fetch/$s_!Omrc!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ca06010-aa9a-43ea-8c29-87b976a09ea3_1024x495.png--}{++{"author":"Luc's AI","timestamp":1787132591374}@@https://substackcdn.com/image/fetch/$s_!Omrc!,w_1024,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ca06010-aa9a-43ea-8c29-87b976a09ea3_1024x495.png++})
 
 Simplified, partial diagram — the document continues on to describes 6 Focus Tasks in total and includes three more top-level sections.
 
@@ -101,7 +101,7 @@ So, it is entirely possible that an original, simpler version of the phrase unam
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!l2T_!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feff2a246-0bdd-49e2-90e4-4278668396e3_1024x478.png)
+![]({--{"author":"Luc's AI","timestamp":1787132591594}@@https://substackcdn.com/image/fetch/$s_!l2T_!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feff2a246-0bdd-49e2-90e4-4278668396e3_1024x478.png--}{++{"author":"Luc's AI","timestamp":1787132591594}@@https://substackcdn.com/image/fetch/$s_!l2T_!,w_1024,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feff2a246-0bdd-49e2-90e4-4278668396e3_1024x478.png++})
 
 ](https://substackcdn.com/image/fetch/$s_!l2T_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feff2a246-0bdd-49e2-90e4-4278668396e3_1024x478.png)
 

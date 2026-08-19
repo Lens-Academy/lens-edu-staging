@@ -22,7 +22,7 @@ Anthropic’s system card for Mythos Preview says:
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!lnI2!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F42a3c737-43d5-42a7-91ce-702d9bfd5ed4_1010x344.png)
+![]({--{"author":"Luc's AI","timestamp":1787132593794}@@https://substackcdn.com/image/fetch/$s_!lnI2!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F42a3c737-43d5-42a7-91ce-702d9bfd5ed4_1010x344.png--}{++{"author":"Luc's AI","timestamp":1787132593794}@@https://substackcdn.com/image/fetch/$s_!lnI2!,w_1010,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F42a3c737-43d5-42a7-91ce-702d9bfd5ed4_1010x344.png++})
 
 ](https://substackcdn.com/image/fetch/$s_!lnI2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F42a3c737-43d5-42a7-91ce-702d9bfd5ed4_1010x344.png)
 
