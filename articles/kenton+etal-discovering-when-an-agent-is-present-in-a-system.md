@@ -1,27 +1,4 @@
-{--{"author":"Luc's AI","timestamp":1787169516123}@@"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---}---
+---
 title: "Discovering when an agent is present in a system"
 source_url: "https://deepmind.google/blog/discovering-when-an-agent-is-present-in-a-system/"
 author:
