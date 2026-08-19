@@ -35,8 +35,8 @@ We’re already starting to see preliminary evidence that models sometimes pursu
 The **deep learning alignment problem is the problem of ensuring that advanced deep learning models don’t pursue dangerous goals**.In the rest of this post, I will:
 
 - Build on the “hiring” analogy to illustrate how alignment could be difficult if deep learning models are more capable than humans ([more](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/#analogy-the-young-ceo)).
-- Explain what the deep learning alignment problem is with a bit more technical detail ([more](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/#how-alignment-issues-could-arise-with-deep-learning)).
-- Discuss how difficult the alignment problem may be, and how much risk there is from failing to solve it ([more](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/#how-big-of-a-risk-is-misalignment)).
+- Explain what the deep learning alignment problem is with a bit more technical detail {--{"author":"Luc's AI","timestamp":1787139973781}@@([more](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/#how-alignment-issues-could-arise-with-deep-learning)).--}{++{"author":"Luc's AI","timestamp":1787139973781}@@([more](#how-alignment-issues-could-arise-with-deep-learnin)).++}
+- Discuss how difficult the alignment problem may be, and how much risk there is from failing to solve it {--{"author":"Luc's AI","timestamp":1787139974024}@@([more](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/#how-big-of-a-risk-is-misalignment)).--}{++{"author":"Luc's AI","timestamp":1787139974024}@@([more](#how-big-of-a-risk-is-misalignment)).++}
 
 ## Analogy: the young businessperson
 
@@ -79,9 +79,9 @@ In the next section, I’ll go into a bit more detail on how deep learning works
 
 In this section, I’ll connect the analogy to actual training processes for deep learning, by:
 
-- Briefly summarizing how deep learning works ([more](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/#how-deep-learning-works-at-a-high-level)).
-- Illustrating how deep learning models often get good performance in strange and unexpected ways ([more](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/#models-often-get-good-performance-in-unexpected-ways)).
-- Explaining why powerful deep learning models may get good performance by acting like Sycophants or Schemers ([more](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/#powerful-models-could-get-good-performance-with-dangerous-goals)).
+- Briefly summarizing how deep learning works {--{"author":"Luc's AI","timestamp":1787139974238}@@([more](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/#how-deep-learning-works-at-a-high-level)).--}{++{"author":"Luc's AI","timestamp":1787139974238}@@([more](#how-deep-learning-works-at-a-high-level)).++}
+- Illustrating how deep learning models often get good performance in strange and unexpected ways {--{"author":"Luc's AI","timestamp":1787139974504}@@([more](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/#models-often-get-good-performance-in-unexpected-ways)).--}{++{"author":"Luc's AI","timestamp":1787139974504}@@([more](#models-often-get-good-performance-in-unexpected-wa)).++}
+- Explaining why powerful deep learning models may get good performance by acting like Sycophants or Schemers {--{"author":"Luc's AI","timestamp":1787139974764}@@([more](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/#powerful-models-could-get-good-performance-with-dangerous-goals)).--}{++{"author":"Luc's AI","timestamp":1787139974764}@@([more](#powerful-models-could-get-good-performance-with-da)).++}
 
 ### How deep learning works at a high level
 
