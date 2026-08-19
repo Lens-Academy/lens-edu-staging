@@ -65,7 +65,7 @@ But if governments refuse to act until the evidence is *unambiguous,* and some *
 
 …if governments sit and wait to that degree, then a large majority of the world's remaining hope is gone. We very likely can't afford to wait for a blaring siren that may never sound.
 
-We'll return to this topic in the [online supplement to Chapter 13](/13/will-there-be-warning-shots).
+We'll return to this topic in the [online supplement to Chapter 13]({--{"author":"Luc's AI","timestamp":1787152012765}@@/13/will-there-be-warning-shots--}{++{"author":"Luc's AI","timestamp":1787152012765}@@https://ifanyonebuildsit.com/13/will-there-be-warning-shots++}).
 
 {--{"author":"Luc's AI","timestamp":1787139898538}@@[\*](https://ifanyonebuildsit.com/12/the-lemoine-effect#ftnt284_ref)--}{++{"author":"Luc's AI","timestamp":1787139898538}@@[^source-note-284]:++} For more discussion of AI consciousness, see our answer to [Are you saying machines will become conscious?](/1/are-you-saying-machines-will-become-conscious) or our discussion of [Effectiveness, Consciousness, and AI Welfare](/5/effectiveness-consciousness-and-ai-welfare).
 
