@@ -107,7 +107,7 @@ Chapter 4: Arbitrage-free contract functions
 
 Now let’s say that you’re eliciting forecasts from *multiple* experts. We can revisit the example I gave earlier: Jaime, Ege, and Tamay think there’s a 40%, 50%, and 90% chance that GPT-5 will be released this year. (These numbers are made up.)
 
-Let’s say that I want to pay Jaime, Ege, and Tamay for their forecasts using the quadratic scoring rule. To elaborate on what this means, the formula I’ll use is: $100 \cdot (1 - (\text{forecasting error})^2)$. For example, Jaime forecast a 40% chance. If GPT-5 is released this year, then the “perfect” forecast would be 100%, which means that his “forecasting error” would be 0.6. Thus, I would pay Jaime \(\$100(1 - 0.6^2) = \$64\). On the other hand, if GPT-5 is *not* released, then his forecasting error would be 0.4, so I would pay Jaime\(\) \(\$100(1 - 0.4^2) = \$84\).
+Let’s say that I want to pay Jaime, Ege, and Tamay for their forecasts using the quadratic scoring rule. To elaborate on what this means, the formula I’ll use is: $100 \cdot (1 - (\text{forecasting error})^2)$. For example, Jaime forecast a 40% chance. If GPT-5 is released this year, then the “perfect” forecast would be 100%, which means that his “forecasting error” would be 0.6. Thus, I would pay Jaime \(\$100(1 - 0.6^2) = \$64\). On the other hand, if GPT-5 is *not* released, then his forecasting error would be 0.4, so I would pay {--{"author":"Luc's AI","timestamp":1787136404354}@@Jaime\(\)--}{++{"author":"Luc's AI","timestamp":1787136404354}@@Jaime++} \(\$100(1 - 0.4^2) = \$84\).
 
 To summarize all these numbers in a chart:
 
