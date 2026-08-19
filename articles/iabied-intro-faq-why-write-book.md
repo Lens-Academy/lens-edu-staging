@@ -21,7 +21,7 @@ Add discussion note here:
 
 If you carefully consider a topic, you can sometimes see one of history's zigs or zags coming.
 
-In 1933, a physicist named Leo Szilard was the first person to realize that nuclear chain reactions are possible.[\*](#ftnt1) He thereby gained the ability to predict one of history's zigs earlier than anyone else.
+In 1933, a physicist named Leo Szilard was the first person to realize that nuclear chain reactions are possible.[\*]{--{"author":"Luc's AI","timestamp":1787136136374}@@(#ftnt1)--}{++{"author":"Luc's AI","timestamp":1787136136374}@@(https://ifanyonebuildsit.com/intro/why-write-a-book-about-superhuman-ai-as-an-extinction-threat#ftnt1)++} He thereby gained the ability to predict one of history's zigs earlier than anyone else.
 
 We think that if you look at AI from the right vantage point today, you can see one of history's zags coming. And we think that events are set to go poorly if humanity does not change course.
 
@@ -35,4 +35,4 @@ We do not think the situation is hopeless. We wrote this book with the hope of c
 
 The first step toward solving a problem is to understand it.
 
-[\*](#ftnt1_ref) We tell part of Leo Szilard's tale in an [extended discussion](/intro/when-leo-szilard-saw-the-future).
+[\*]{--{"author":"Luc's AI","timestamp":1787136137872}@@(#ftnt1_ref)--}{++{"author":"Luc's AI","timestamp":1787136137872}@@(https://ifanyonebuildsit.com/intro/why-write-a-book-about-superhuman-ai-as-an-extinction-threat#ftnt1_ref)++} We tell part of Leo Szilard's tale in an [extended discussion](/intro/when-leo-szilard-saw-the-future).

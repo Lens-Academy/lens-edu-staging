@@ -18,7 +18,7 @@ Add discussion note here:
 
 #### There are many negligible expenses, and it would need a reason to pay ours.
 
-Keeping a pile of forty-one stones in your house would be a negligible expense, but you're almost surely not going out of your way to pay that expense.[\*](#ftnt175)
+Keeping a pile of forty-one stones in your house would be a negligible expense, but you're almost surely not going out of your way to pay that expense.[\*]{--{"author":"Luc's AI","timestamp":1787136140690}@@(#ftnt175)--}{++{"author":"Luc's AI","timestamp":1787136140690}@@(https://ifanyonebuildsit.com/5/to-a-powerful-ai-wouldnt-preserving-humans-be-a-negligible-expense#ftnt175)++}
 
 That something would be *cheap* does not mean it will get done. The AI would still need to care at least a little, and it [probably won't](/5/wont-ais-care-at-least-a-little-about-humans).
 
@@ -36,11 +36,11 @@ It might still seem like human energy demands are negligible. A human needs arou
 
 We answer, in the end: not unless it cares for that outcome or its consequences more than every other thing it could achieve with 800 gigawatts.
 
-The vast majority of humans do not spare the relatively negligible amounts of sugar it would take to keep the nearest anthill in caloric surplus. Keeping humanity happy would be a negligible expense for an AI that wanted this, but first the AI would need to have that preference. The mere fact that *we* want it doesn't mean that the AI will care.[†](#ftnt177)
+The vast majority of humans do not spare the relatively negligible amounts of sugar it would take to keep the nearest anthill in caloric surplus. Keeping humanity happy would be a negligible expense for an AI that wanted this, but first the AI would need to have that preference. The mere fact that *we* want it doesn't mean that the AI will care.[†]{--{"author":"Luc's AI","timestamp":1787136142679}@@(#ftnt177)--}{++{"author":"Luc's AI","timestamp":1787136142679}@@(https://ifanyonebuildsit.com/5/to-a-powerful-ai-wouldnt-preserving-humans-be-a-negligible-expense#ftnt177)++}
 
-[\*](#ftnt175_ref) Or at least you wouldn't've, before we gave you reason to do it just to spite us.
+[\*]{--{"author":"Luc's AI","timestamp":1787136143915}@@(#ftnt175_ref)--}{++{"author":"Luc's AI","timestamp":1787136143915}@@(https://ifanyonebuildsit.com/5/to-a-powerful-ai-wouldnt-preserving-humans-be-a-negligible-expense#ftnt175_ref)++} Or at least you wouldn't've, before we gave you reason to do it just to spite us.
 
-[†](#ftnt177_ref) Additionally, if the AI did have preferences that involved humans in some way, this [probably wouldn't turn out well for us](/5/wont-ai-find-us-fascinating-or-historically-important).
+[†]{--{"author":"Luc's AI","timestamp":1787136144722}@@(#ftnt177_ref)--}{++{"author":"Luc's AI","timestamp":1787136144722}@@(https://ifanyonebuildsit.com/5/to-a-powerful-ai-wouldnt-preserving-humans-be-a-negligible-expense#ftnt177_ref)++} Additionally, if the AI did have preferences that involved humans in some way, this [probably wouldn't turn out well for us](/5/wont-ai-find-us-fascinating-or-historically-important).
 
 #### Notes
 

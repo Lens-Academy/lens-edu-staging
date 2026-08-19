@@ -29,7 +29,7 @@ Humans are useful for many things, but they're not the *best* solution to most o
 
 A common issue we see is that people don't think things through from the AI's perspective.
 
-They aren't asking, "What does this thing want, and how can it get more of that, cheaply and efficiently?" and then discovering that human-desirable outcomes just happen to be the best possible way for the AI to get what it wants.[\*](#ftnt170)
+They aren't asking, "What does this thing want, and how can it get more of that, cheaply and efficiently?" and then discovering that human-desirable outcomes just happen to be the best possible way for the AI to get what it wants.[\*]{--{"author":"Luc's AI","timestamp":1787136137340}@@(#ftnt170)--}{++{"author":"Luc's AI","timestamp":1787136137340}@@(https://ifanyonebuildsit.com/5/will-ai-find-us-useful-to-keep-around#ftnt170)++}
 
 Instead, people are *starting* with a pleasant-feeling outcome (such as a world where AIs keep us around), and then coming up with post-hoc stories about why an AI might want those outcomes too.
 
@@ -39,4 +39,4 @@ There are far more scenarios where AI does *literally anything else* than scenar
 
 For more on these topics, see [the relevant extended discussion](/5/humans-are-almost-never-the-most-efficient-solution) below.
 
-[\*](#ftnt170_ref) For more on this, see the extended discussion on [Taking the AI's Perspective](/5/taking-the-ais-perspective).
+[\*]{--{"author":"Luc's AI","timestamp":1787136138953}@@(#ftnt170_ref)--}{++{"author":"Luc's AI","timestamp":1787136138953}@@(https://ifanyonebuildsit.com/5/will-ai-find-us-useful-to-keep-around#ftnt170_ref)++} For more on this, see the extended discussion on [Taking the AI's Perspective](/5/taking-the-ais-perspective).
