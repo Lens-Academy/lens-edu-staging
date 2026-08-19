@@ -35,11 +35,11 @@ Malicious adversaries can exploit many potential channels, from infiltrating dev
 
 For attackers, as the amount of user data increases, so does the attractiveness of exfiltrating information through user data through _steganography_, the practice of concealing information within seemingly innocuous data, such as embedding hidden payloads in generated text. In this work, we propose a scheme to _monitor inference traffic_ to detect potential exfiltration through steganography. Figure [1](#S1.F1 "Figure 1 ‣ 1 Introduction ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") depicts two contrasting scenarios: normal inference and compromised inference with exfiltration.
 
-![](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img1-49226c38.png)
+![]({--{"author":"Luc's AI","timestamp":1787136071626}@@/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img1-49226c38.png--}{++{"author":"Luc's AI","timestamp":1787136071626}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img1-49226c38.png++})
 
 (a)
 
-![](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img2-251ac045.png)
+![]({--{"author":"Luc's AI","timestamp":1787136071913}@@/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img2-251ac045.png--}{++{"author":"Luc's AI","timestamp":1787136071913}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img2-251ac045.png++})
 
 (b)
 
@@ -251,11 +251,11 @@ representing the probability (over draws of $P_{i}$) that a fixed seed realizati
 
 Intuitively, this distribution captures how much apparent randomness remains even when the seed is fixed. Figures [2(a)](#S3.F2.sf1 "Figure 2(a) ‣ Figure 2 ‣ Fixed-Seed Posterior Distribution. ‣ 3.4 Valid Non-determinism with a Fixed Seed: The Fixed-Seed Posterior Distribution ‣ 3 LLM Inference Preliminaries ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") and [2(b)](#S3.F2.sf2 "Figure 2(b) ‣ Figure 2 ‣ Fixed-Seed Posterior Distribution. ‣ 3.4 Valid Non-determinism with a Fixed Seed: The Fixed-Seed Posterior Distribution ‣ 3 LLM Inference Preliminaries ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") visualize the resulting fixed-seed posterior distributions for the inverse probability transform and the Gumbel-Max mechanism, respectively. These distributions form the basis for reasoning about an honest divergence during verification (as opposed to potentially malicious nondeterminism).
 
-![](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img3-f8cec660.png)
+![]({--{"author":"Luc's AI","timestamp":1787136072208}@@/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img3-f8cec660.png--}{++{"author":"Luc's AI","timestamp":1787136072208}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img3-f8cec660.png++})
 
 (a) Fixed-seed posterior distribution for the inverse probability transform, incorporating noise in token probabilities.
 
-![](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img4-819adb82.png)
+![]({--{"author":"Luc's AI","timestamp":1787136072488}@@/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img4-819adb82.png--}{++{"author":"Luc's AI","timestamp":1787136072488}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img4-819adb82.png++})
 
 (b) Fixed-seed posterior distribution for the Gumbel-Max mechanism under the same noisy conditions.
 
@@ -318,7 +318,7 @@ In our games, we suppress the notation of the model weights $\theta$ and the pro
 
 Note this security has been explored in the context of steganography, which we draw on directly. However, we are not interested in proving security against all possible policies/wardens. One can view our results for specific _lower bounds_ for steganography in a particular realistic context.
 
-![](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img5-7ec49c52.png)
+![]({--{"author":"Luc's AI","timestamp":1787136072797}@@/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img5-7ec49c52.png--}{++{"author":"Luc's AI","timestamp":1787136072797}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img5-7ec49c52.png++})
 
 Figure 3: Outline of the security game described in Experiment [3](#S4.F3 "Figure 3 ‣ 4.1 Security Game ‣ 4 Formulating the Model Weight Exfiltration Security Game ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 
@@ -417,7 +417,7 @@ This section introduces, at an abstract level, our proposed _verification system
 
 At a high level, the system operates as follows (illustrated in Figure [4](#S5.F4 "Figure 4 ‣ 5 Theoretical Framework: Verification System ‣ Verifying LLM Inference to Detect Model Weight Exfiltration")):
 
-![](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img6-977e8011.png)
+![]({--{"author":"Luc's AI","timestamp":1787136073087}@@/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img6-977e8011.png--}{++{"author":"Luc's AI","timestamp":1787136073087}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img6-977e8011.png++})
 
 Figure 4: Overview of the verification system for runtime output validation. A lock symbol denotes parts of the inference verification scheme that require high integrity, further explored in Section [E](#A5 "Appendix E Trust assumptions for Sampled Output Verification ‣ Verifying LLM Inference to Detect Model Weight Exfiltration")
 
@@ -562,7 +562,7 @@ In Section [5](#S5 "5 Theoretical Framework: Verification System ‣ Verifying L
 
 ### 6.1 The Cost of Verification versus Generation
 
-![](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img7-0a203b1d.png)
+![]({--{"author":"Luc's AI","timestamp":1787136073335}@@/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img7-0a203b1d.png--}{++{"author":"Luc's AI","timestamp":1787136073335}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img7-0a203b1d.png++})
 
 Figure 5: Verification via prefill: the model conditions on the ground-truth prefix at each token.
 
@@ -582,7 +582,7 @@ We also introduce the Token-DiFRto estimate FSSL-GM, which is defined for a give
 
 Given a sampled token $t^{*}$, and knowledge of the inference server’s sampling seed $\sigma$, the verifier regenerates the same Gumbel noise the inference server generated $\vec{g}_{\sigma}\sim\mathrm{Gumbel}(0,1)^{V}$. The verification server generates the probability distribution $\hat{\ell}$. Then, we compute the probability that token $t^{*}$ surpassed that token as the sampled token; that is, computing the probability $\Pr[\vec{g}_{\sigma}[i]+\hat{\ell}[i]+\mathcal{N}>\vec{g}_{\sigma}[t^{*}]+\hat{\ell}[t^{*}]+\mathcal{N}]$ for token $i$. The full method and derivations are provided in Appendix [C.2](#A3.SS2 "C.2 Gumbel-Max FSSLEstimators (FSSL-GM) ‣ Appendix C Algorithms ‣ Verifying LLM Inference to Detect Model Weight Exfiltration"), and Algorithm [4](#alg4 "Algorithm 4 ‣ C.2 Gumbel-Max FSSLEstimators (FSSL-GM) ‣ Appendix C Algorithms ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 
-![](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img8-98865ff3.png)
+![]({--{"author":"Luc's AI","timestamp":1787136073789}@@/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img8-98865ff3.png--}{++{"author":"Luc's AI","timestamp":1787136073789}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img8-98865ff3.png++})
 
 Figure 6: Diagram of the Token-DiFR function. The Token-DiFR estimates the likelihood of a particular token being sampled given a specific noise distribution across token probabilities.
 
@@ -594,7 +594,7 @@ In practice, computing a per-token suspiciousness score is only the first step; 
 
 To understand the efficiency of our verification scheme, we analyze what percentage of traffic must be sampled to detect malicious messages with high confidence. Figure [7](#S6.F7 "Figure 7 ‣ 6.5 Message Sampling Rates ‣ 6 Implementing a Verification Server ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") illustrates the key statistical property of our approach: the _sampling percentage_ required depends primarily on the _proportion_ of malicious messages in the traffic. In Figure [7](#S6.F7 "Figure 7 ‣ 6.5 Message Sampling Rates ‣ 6 Implementing a Verification Server ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") we show the percentage of messages that need to be sampled in order to sample at least 1000 malicious messages, assuming the malicious messages are IID. Notably, even for very slow exfiltration attempts (e.g., 1% malicious traffic), the sampling percentage remains practical, even for high confidence. See Appendix [D](#A4 "Appendix D Mechanism Design security solutions: Random Sampling and the Panopticon ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") for the full derivation.
 
-![](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img9-179a547c.png)
+![]({--{"author":"Luc's AI","timestamp":1787136074041}@@/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img9-179a547c.png--}{++{"author":"Luc's AI","timestamp":1787136074041}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img9-179a547c.png++})
 
 Figure 7: Sampling requirements for detecting at least 1,000 malicious messages with varying confidence levels, shown as percentage of data sampled. Left: Heatmap showing the percentage of traffic that must be sampled as a function of the proportion of malicious messages and target confidence level. Right: Sampling percentage versus exfiltration time, assuming 1 TB/day text throughput and 2KB average message size. Critically, verification remains extremely practical even for slow attacks.
 
@@ -612,7 +612,7 @@ Our FSSL estimates can be thought of as a “suspiciousness” score. In designi
 
 A simple and effective auxiliary signal is the _logit rank_ of the sampled token (before temperature and top-k/top-p filtering). Empirically, the majority of sampled tokens fall within the top R ($\approx 16$) by raw logits, which we see in the right subplot of Figure [8](#S7.F8 "Figure 8 ‣ 7.1 Problems with FSSL Estimators and Logit-Rank as a Solution ‣ 7 Empirical Results ‣ Verifying LLM Inference to Detect Model Weight Exfiltration"). Intuitively, this constrains the attacker’s effective alphabet to at most $R$ choices per token position.
 
-![](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img10-210414f6.png)
+![]({--{"author":"Luc's AI","timestamp":1787136074370}@@/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img10-210414f6.png--}{++{"author":"Luc's AI","timestamp":1787136074370}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img10-210414f6.png++})
 
 Figure 8: Comparison of Token-DiFR (FSSL-GM) verification and raw logit ranks for sampled tokens. Left: Distribution of FSSL-GM scores (log-probabilities) for sampled tokens with $\sigma=1.0$. Middle: Distribution of FSSL-GM ranks, where rank 0 indicates the sampled token has the highest FSSL-GM score. Ranks are grouped as 0–19 individually and $\geq$20 combined; tokens in the $\geq$20 bin are typically tied for last place with many other low-probability tokens (i.e., effective rank $\approx|V|$). Right: Distribution of raw logit ranks (before temperature and top-k/top-p filtering), where rank 0 indicates the token with the highest raw logit. All y-axes use log scale to show the full distribution of percentages.
 

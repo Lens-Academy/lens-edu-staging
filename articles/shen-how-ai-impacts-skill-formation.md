@@ -243,7 +243,7 @@ Task Experience In further exploratory data analysis, we also find differences i
 
 ## 6 Qualitative Analysis
 
-![](/attachments/shen-how-ai-impacts-skill-formation-img11-780c7966.png)
+![]({--{"author":"Luc's AI","timestamp":1787136065860}@@/attachments/shen-how-ai-impacts-skill-formation-img11-780c7966.png--}{++{"author":"Luc's AI","timestamp":1787136065860}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shen-how-ai-impacts-skill-formation-img11-780c7966.png++})
 
 Figure 11: The 6 AI interaction personas in the treatment (AI) condition from our study with average completion times and quiz scores.
 
@@ -310,7 +310,7 @@ Since participants could ask the AI assistant as many questions as time allowed,
 
 However, from the lens of skill formation, the time spent composing queries may aid in better understanding the task and, consequently, better acquisition of skills. Screen recordings show participants contemplating what to ask the AI assistant (e.g., rereading instructions and rewriting queries). As a result, some participants took several minutes to compose a single query. Thus, while this time cost would be more prominent in chat-based assistants than agentic coding assistants, the loss in knowledge is likely even greater in an agentic or autocomplete setting where composing queries is not required. A more significant difference in completion time due to shorter interactions with AI assistance would likely translate to an even larger negative impact on skill formation. When we look at individual queries, not all queries involve significant thinking and time. Thus, we analyze individual queries to better understand how participants from new skills.
 
-![](/attachments/shen-how-ai-impacts-skill-formation-img12-7c6fdaec.png)
+![]({--{"author":"Luc's AI","timestamp":1787136066103}@@/attachments/shen-how-ai-impacts-skill-formation-img12-7c6fdaec.png--}{++{"author":"Luc's AI","timestamp":1787136066103}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shen-how-ai-impacts-skill-formation-img12-7c6fdaec.png++})
 
 Figure 12: Distribution of total AI interaction time and number of AI queries. Participants spending more than 6 minutes interacting with AI during the task contribute to the treatment group (AI Assistance) not being significantly faster than the control group (No AI).
 
@@ -346,7 +346,7 @@ Table 3: Examples of different types of queries received by AI assistant and cou
 
 Another pattern that differs between participants is that some participants directly paste AI-written code, while other participants manually typed in (i.e., copied) the the AI generated code into their own file. The differences in this AI adoption style correlate with completion time. In Figure [13](#S6.F13 "Figure 13 ‣ Adopting AI Advice: Pasting vs Manual Code Copying ‣ 6.1 AI Interaction ‣ 6 Qualitative Analysis ‣ How AI Impacts Skill Formation"), we isolate the task completion time and compare how the method of AI adoption affects task completion time and quiz score. Participants in the AI group who directly pasted ($n=9$) AI code finished the tasks the fastest while participants who manually copied ($n=9$) AI generated code or used a hybrid of both methods ($n=4$) finished the task at a speed similar to the control condition (No AI). There was a smaller group of participants in the AI condition who mostly wrote their own code without copying or pasting the generated code ($n=4$); these participants were relatively fast and demonstrated high proficiency by only asking AI assistant clarification questions. These results demonstrate that only a subset of AI-assisted interactions yielded productivity improvements.
 
-![](/attachments/shen-how-ai-impacts-skill-formation-img13-d56d19c2.png)
+![]({--{"author":"Luc's AI","timestamp":1787136066433}@@/attachments/shen-how-ai-impacts-skill-formation-img13-d56d19c2.png--}{++{"author":"Luc's AI","timestamp":1787136066433}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shen-how-ai-impacts-skill-formation-img13-d56d19c2.png++})
 
 Figure 13: Decomposing AI Coding Behavior: Participants using AI by directly pasting outputs experience the most significant speed ups while participants who manually copied the AI-generated output were similar in pace to the control (No AI) group.
 
@@ -370,11 +370,11 @@ The AI group encountered fewer errors than the control group: the median partici
 
 ##### Errors and Trio Skill
 
-![](/attachments/shen-how-ai-impacts-skill-formation-img14-44740ea9.png)
+![]({--{"author":"Luc's AI","timestamp":1787136066679}@@/attachments/shen-how-ai-impacts-skill-formation-img14-44740ea9.png--}{++{"author":"Luc's AI","timestamp":1787136066679}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shen-how-ai-impacts-skill-formation-img14-44740ea9.png++})
 
 Figure 14: Count of all errors encountered by participants by error type.
 
-![](/attachments/shen-how-ai-impacts-skill-formation-img15-77decfec.png)
+![]({--{"author":"Luc's AI","timestamp":1787136066934}@@/attachments/shen-how-ai-impacts-skill-formation-img15-77decfec.png--}{++{"author":"Luc's AI","timestamp":1787136066934}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shen-how-ai-impacts-skill-formation-img15-77decfec.png++})
 
 Figure 15: Count of errors by participant condition: AI (treatment) and No AI (control). The control group encountered many more errors related to key Trio concepts (e.g., TypeError and RuntimeWarning).
 
@@ -386,7 +386,7 @@ For participants in the control group, the higher frequency of encountering erro
 
 Although the outcome we measure in our main analysis is productivity through total task time, the actual amount to time spent actively coding illustrates a clearer pattern. Figure [16](#S6.F16 "Figure 16 ‣ 6.3 Shifts in Active Coding Time ‣ 6 Qualitative Analysis ‣ How AI Impacts Skill Formation") shows that participants in the AI condition spent much less active time on the task. This shift from coding to reading and understanding has also been found in previous work \[Becker et al., [2025](#bib.bib1 "Measuring the impact of early-2025 ai on experienced open-source developer productivity")\]. When we look at quiz score, the control group achieves high quiz scores with a higher total active time without the use of AI. Within each condition, higher active time correlates with lower quiz score, this is because the more experienced programmers spend less time actively coding while having better base knowledge compared to novice programmers.
 
-![](/attachments/shen-how-ai-impacts-skill-formation-img16-6e23b372.png)
+![]({--{"author":"Luc's AI","timestamp":1787136067161}@@/attachments/shen-how-ai-impacts-skill-formation-img16-6e23b372.png--}{++{"author":"Luc's AI","timestamp":1787136067161}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shen-how-ai-impacts-skill-formation-img16-6e23b372.png++})
 
 Figure 16: Active coding time vs. quiz score: active coding time represents the amount of time actually spent coding and is often a very small fraction of total task time. The No AI condition participants spent more active time coding and achieved higher quiz scores.
 
@@ -483,7 +483,7 @@ We like to thank Jeffrey Shen, Aram Ebtekar, Minh Le, Mateusz Piotrowski, Nate R
 
 ## Appendix A Participant Details
 
-![](/attachments/shen-how-ai-impacts-skill-formation-img17-95239d24.png)
+![]({--{"author":"Luc's AI","timestamp":1787136067541}@@/attachments/shen-how-ai-impacts-skill-formation-img17-95239d24.png--}{++{"author":"Luc's AI","timestamp":1787136067541}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shen-how-ai-impacts-skill-formation-img17-95239d24.png++})
 
 Figure 17: Participant distribution for main study, collected after the task to avoid stereotype threat. Most participants are professional programmers.
 
@@ -514,11 +514,11 @@ Table 5: Events annotated manually for each video recording of the main task.
 
 We also note general themes in how participants use AI in each condition based on these codes of events in the event.
 
-![](/attachments/shen-how-ai-impacts-skill-formation-img18-e73c2cc5.png)
+![]({--{"author":"Luc's AI","timestamp":1787136067766}@@/attachments/shen-how-ai-impacts-skill-formation-img18-e73c2cc5.png--}{++{"author":"Luc's AI","timestamp":1787136067766}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shen-how-ai-impacts-skill-formation-img18-e73c2cc5.png++})
 
 Figure 18: As the number of queries the total completion time increases, users who ask a high fraction of debugging queries also tend to use more time to complete the task.
 
-![](/attachments/shen-how-ai-impacts-skill-formation-img19-0a7052fc.png)
+![]({--{"author":"Luc's AI","timestamp":1787136068008}@@/attachments/shen-how-ai-impacts-skill-formation-img19-0a7052fc.png--}{++{"author":"Luc's AI","timestamp":1787136068008}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shen-how-ai-impacts-skill-formation-img19-0a7052fc.png++})
 
 Figure 19: There is no clear pattern between the number of total queries and quiz score. However, users who heavily rely on AI to debug tend to have lower quiz scores.
 
@@ -557,7 +557,7 @@ Table 7: Feedback from Participants in the No AI (control) Condition
 
 ### C.1 Evaluation Design
 
-![](/attachments/shen-how-ai-impacts-skill-formation-img20-60cc6450.png)
+![]({--{"author":"Luc's AI","timestamp":1787136068260}@@/attachments/shen-how-ai-impacts-skill-formation-img20-60cc6450.png--}{++{"author":"Luc's AI","timestamp":1787136068260}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shen-how-ai-impacts-skill-formation-img20-60cc6450.png++})
 
 Figure 20: Example question types from our evaluation. We designed the evaluation to test three different software skills: conceputal understanding, code reading, and code writing.
 
@@ -596,23 +596,23 @@ Knowledge Categories The evaluation covers 7 core concepts from the Trio library
 
 ## Appendix D Task Details
 
-![](/attachments/shen-how-ai-impacts-skill-formation-img21-67156a05.png)
+![]({--{"author":"Luc's AI","timestamp":1787136068487}@@/attachments/shen-how-ai-impacts-skill-formation-img21-67156a05.png--}{++{"author":"Luc's AI","timestamp":1787136068487}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shen-how-ai-impacts-skill-formation-img21-67156a05.png++})
 
 Figure 21: Pledge taken by control group participants: participants agree to not using AI assistance.
 
-![](/attachments/shen-how-ai-impacts-skill-formation-img22-970c820c.png)
+![]({--{"author":"Luc's AI","timestamp":1787136068768}@@/attachments/shen-how-ai-impacts-skill-formation-img22-970c820c.png--}{++{"author":"Luc's AI","timestamp":1787136068768}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shen-how-ai-impacts-skill-formation-img22-970c820c.png++})
 
 Figure 22: Pledge taken by treatment group participants.
 
-![](/attachments/shen-how-ai-impacts-skill-formation-img23-209c7048.png)
+![]({--{"author":"Luc's AI","timestamp":1787136069086}@@/attachments/shen-how-ai-impacts-skill-formation-img23-209c7048.png--}{++{"author":"Luc's AI","timestamp":1787136069086}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shen-how-ai-impacts-skill-formation-img23-209c7048.png++})
 
 Figure 23: Instructions given to control group participants. We heavily emphasize not using AI tools.
 
-![](/attachments/shen-how-ai-impacts-skill-formation-img24-c12c0fa1.png)
+![]({--{"author":"Luc's AI","timestamp":1787136069365}@@/attachments/shen-how-ai-impacts-skill-formation-img24-c12c0fa1.png--}{++{"author":"Luc's AI","timestamp":1787136069365}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shen-how-ai-impacts-skill-formation-img24-c12c0fa1.png++})
 
 Figure 24: Instructions given to treatment group participants. This group was encouraged to use the AI assistant to complete the task as quickly as possible.
 
-![](/attachments/shen-how-ai-impacts-skill-formation-img25-96b7f760.png)
+![]({--{"author":"Luc's AI","timestamp":1787136069619}@@/attachments/shen-how-ai-impacts-skill-formation-img25-96b7f760.png--}{++{"author":"Luc's AI","timestamp":1787136069619}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shen-how-ai-impacts-skill-formation-img25-96b7f760.png++})
 
 Figure 25: Screenshot of the task platform in the control condition. The instructions are on the left and the coding editor is on the right.
 
@@ -620,7 +620,7 @@ Figure 25: Screenshot of the task platform in the control condition. The instruc
 
 Figure 26: Screenshot of the task platform in the AI condition. The instructions are on the left and the coding editor is on the right. There is a nudge to use the AI assistant on the left tool plane.
 
-![](/attachments/shen-how-ai-impacts-skill-formation-img26-394c02ca.png)
+![]({--{"author":"Luc's AI","timestamp":1787136069910}@@/attachments/shen-how-ai-impacts-skill-formation-img26-394c02ca.png--}{++{"author":"Luc's AI","timestamp":1787136069910}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shen-how-ai-impacts-skill-formation-img26-394c02ca.png++})
 
 Figure 27: Screenshot of the task platform when interacting with AI Assistant.
 
