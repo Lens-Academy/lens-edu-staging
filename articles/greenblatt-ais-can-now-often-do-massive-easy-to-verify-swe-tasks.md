@@ -197,17 +197,17 @@ My forecasts (mostly? probably?) don’t take into account aggressive policy res
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132592676}@@https://substackcdn.com/image/fetch/$s_!7AZW!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c87f97b-4d78-44fc-90f6-7b6e5966195c_694x471.png--}{++{"author":"Luc's AI","timestamp":1787132592676}@@https://substackcdn.com/image/fetch/$s_!7AZW!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c87f97b-4d78-44fc-90f6-7b6e5966195c_694x471.png++})
+![](https://substackcdn.com/image/fetch/$s_!7AZW!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c87f97b-4d78-44fc-90f6-7b6e5966195c_694x471.png)
 
 ](https://substackcdn.com/image/fetch/$s_!7AZW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c87f97b-4d78-44fc-90f6-7b6e5966195c_694x471.png)
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132592916}@@https://substackcdn.com/image/fetch/$s_!FeYh!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5c24b94-8662-4db8-b6ec-4f5629408ed1_1483x884.png--}{++{"author":"Luc's AI","timestamp":1787132592916}@@https://substackcdn.com/image/fetch/$s_!FeYh!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5c24b94-8662-4db8-b6ec-4f5629408ed1_1483x884.png++})
+![](https://substackcdn.com/image/fetch/$s_!FeYh!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5c24b94-8662-4db8-b6ec-4f5629408ed1_1483x884.png)
 
 ](https://substackcdn.com/image/fetch/$s_!FeYh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5c24b94-8662-4db8-b6ec-4f5629408ed1_1483x884.png)
 
-![AC and TEDAI comparison with AI Futures Project (Daniel Kokotajlo, Eli Lifland)]({--{"author":"Luc's AI","timestamp":1787132593126}@@https://substackcdn.com/image/fetch/$s_!mTWx!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9ae9640c-26dc-4072-b3ed-dd043a38a610_2083x884.png--}{++{"author":"Luc's AI","timestamp":1787132593126}@@https://substackcdn.com/image/fetch/$s_!mTWx!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9ae9640c-26dc-4072-b3ed-dd043a38a610_2083x884.png++})
+![AC and TEDAI comparison with AI Futures Project (Daniel Kokotajlo, Eli Lifland)](https://substackcdn.com/image/fetch/$s_!mTWx!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9ae9640c-26dc-4072-b3ed-dd043a38a610_2083x884.png)
 
 AC and TEDAI comparison with AI Futures Project (Daniel Kokotajlo, Eli Lifland)
 

@@ -124,7 +124,7 @@ I’ll describe what I’ve seen at a high level with some specific examples. Fo
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132593479}@@https://substackcdn.com/image/fetch/$s_!S_bk!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbf8e0863-e148-461c-abd8-7fd0960b2e35_1112x442.png--}{++{"author":"Luc's AI","timestamp":1787132593479}@@https://substackcdn.com/image/fetch/$s_!S_bk!,w_1112,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbf8e0863-e148-461c-abd8-7fd0960b2e35_1112x442.png++})
+![](https://substackcdn.com/image/fetch/$s_!S_bk!,w_1112,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbf8e0863-e148-461c-abd8-7fd0960b2e35_1112x442.png)
 
 ](https://substackcdn.com/image/fetch/$s_!S_bk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbf8e0863-e148-461c-abd8-7fd0960b2e35_1112x442.png)
 

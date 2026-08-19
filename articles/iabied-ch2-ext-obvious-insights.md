@@ -35,7 +35,7 @@ Another key trick is as follows. In the book, we give an example of gradient des
 
 This list of operations is no mistake. Multiplication, addition, and "replace it with zero if it's negative" are, more or less, the three critical operations in a neural network. The first two are the operators that make up a "matrix multiplication," and the last one introduces a "nonlinearity" and thereby allows the network to learn nonlinear functions.
 
-The formula for "replace it with zero if it's negative" is  and is called a rectified linear unit (ReLU).[\*{--{"author":"Luc's AI","timestamp":1787133003019}@@](#ftnt67)--}{++{"author":"Luc's AI","timestamp":1787133003019}@@](https://ifanyonebuildsit.com/2/obvious-insights-take-time#ftnt67)++} The formula that people originally tried to use was the "sigmoid" formula:
+The formula for "replace it with zero if it's negative" is  and is called a rectified linear unit (ReLU).[\*](https://ifanyonebuildsit.com/2/obvious-insights-take-time#ftnt67) The formula that people originally tried to use was the "sigmoid" formula:
 
 There were good reasons for guessing that the more complicated "sigmoid" formula would work! From a shallow perspective, it makes the outputs range sensibly from 0 to 1 in a smooth way; and from a deeper perspective, it has some useful connections to probability theory. Even some modern deep neural networks use something like a sigmoid on some steps. But if you are just going to use one nonlinearity, a ReLU works much better.
 
@@ -53,4 +53,4 @@ It is hopefully obvious to everyone who is not a mad inventor that, if these cla
 
 But that's a topic we'll take up again in Part III of the book, after we complete the argument that artificial superintelligence would have the means, motive, and opportunity to extinguish humanity. For now, we turn to the topic of how "obvious" ideas like the ones we've been discussing — and a few ideas that are quite a bit less obvious — come together to make an actual working AI model.
 
-[\*{--{"author":"Luc's AI","timestamp":1787133004565}@@](#ftnt67_ref)--}{++{"author":"Luc's AI","timestamp":1787133004565}@@](https://ifanyonebuildsit.com/2/obvious-insights-take-time#ftnt67_ref)++} Newer architectures will use more sophisticated functions. For instance, the Llama 3.1 architecture [described below](/2/a-full-description-of-an-llm) uses the ["SwiGLU" function](https://arxiv.org/pdf/2002.05202), which has a complicated formula that we won't reproduce here.
+[\*](https://ifanyonebuildsit.com/2/obvious-insights-take-time#ftnt67_ref) Newer architectures will use more sophisticated functions. For instance, the Llama 3.1 architecture [described below](/2/a-full-description-of-an-llm) uses the ["SwiGLU" function](https://arxiv.org/pdf/2002.05202), which has a complicated formula that we won't reproduce here.

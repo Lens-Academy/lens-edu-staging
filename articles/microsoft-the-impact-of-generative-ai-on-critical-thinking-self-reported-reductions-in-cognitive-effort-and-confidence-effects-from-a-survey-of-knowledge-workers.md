@@ -654,7 +654,7 @@ Benjamini–Hochberg procedure [9] with a total of 98 hypothesised
 to avoid order and fatigue effects. For each example, as mentioned,
 predictors across the seven models, yielding a corrected p-value
 
-{--{"author":"Luc's AI","timestamp":1787132610396}@@![](/attachments/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers-fig1-a45c562a.png)--}{++{"author":"Luc's AI","timestamp":1787132610396}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers-fig1-a45c562a.png)++}
+![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers-fig1-a45c562a.png)
 
 Figure 1: Schematic overview of the survey design and our corresponding analysis approach.
 
@@ -1203,7 +1203,7 @@ Trust in GenAI
 (𝑝 = 0.046)
 (𝑝 = 0.499)
 (𝑝 < 0.001)
-Significance: {--{"author":"Luc's AI","timestamp":1787133548425}@@*p<.05; **p<.01; ***p<.001;--}{++{"author":"Luc's AI","timestamp":1787133548425}@@\*p<.05; \*\*p<.01; \*\*\*p<.001;++} r: reference
+Significance: \*p<.05; \*\*p<.01; \*\*\*p<.001; r: reference
 
 thinking is to think of ways to improve AI responses. Participants
 Potential negative outcomes (116/319). Participants shared that
@@ -1446,7 +1446,7 @@ a couple of websites takes more time than asking a single question
 with more critical thinking even though it is perceived as
 to an LLM. Also, the LLM produces organized answers... the tools
 
-{--{"author":"Luc's AI","timestamp":1787132610643}@@![](/attachments/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers-fig2-08d8c8e2.png)--}{++{"author":"Luc's AI","timestamp":1787132610643}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers-fig2-08d8c8e2.png)++}
+![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers-fig2-08d8c8e2.png)
 
 Figure 2: Distribution of perceived effort (%) in cognitive activities (based on Bloom’s taxonomy) when using a GenAI tool
 compared to not using one.
@@ -2177,9 +2177,9 @@ Probe Users: Enhancing Complex Decision-Making Through Probing Conversa-
 human–AI teaming. IEEE Transactions on Human-Machine Systems 51, 4 (2021),
 tions. In Proceedings of the 4th Conference on Conversational User Interfaces
 288–299.
-{--{"author":"Luc's AI","timestamp":1787133548760}@@(\<conf-loc>, \<city>Glasgow\</city>, \<country>United Kingdom\</country>,--}{++{"author":"Luc's AI","timestamp":1787133548760}@@(Glasgow, United Kingdom)++}
+(Glasgow, United Kingdom)
 [89] Lucas Memmert and Eva Bittner. 2022. Complex problem solving through
-{--{"author":"Luc's AI","timestamp":1787133549027}@@\</conf-loc>) --}(CUI ’22). Association for Computing Machinery, New York, NY,
+(CUI ’22). Association for Computing Machinery, New York, NY,
 human-AI collaboration: literature review on research contexts. (2022).
 USA, Article 2, 10 pages. https://doi.org/10.1145/3543829.3543832
 [90] Lotte Meteyard, Sara Rodriguez Cuadrado, Bahador Bahrami, and Gabriella
