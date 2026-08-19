@@ -1,10 +1,10 @@
-
+{--{"author":"Luc's AI","timestamp":1787162300307}@@
 author: Eliezer Yudkowsky
 : 2008-11-25
 source_url: https://www.lesswrong.com/posts/rJLviHqJMTy8WQkow/recursion-magic
----{--{"author":"Luc's AI","timestamp":1787162261899}@@
+---
 author: Eliezer Yudkowsky
-: 2008-11-25--}{++{"author":"Luc's AI","timestamp":1787162261899}@@---++}
+: 2008-11-25--}{++{"author":"Luc's AI","timestamp":1787162300307}@@---++}
 {--{"author":"Luc's AI","timestamp":1787162261899}@@source_url: https://www.lesswrong.com/posts/rJLviHqJMTy8WQkow/recursion-magic
 ---
 author: Eliezer Yudkowsky
