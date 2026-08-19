@@ -17,7 +17,7 @@ Add discussion note here:
 %%
 #### Comparing Natural Selection and Gradient Descent
 
-As we discussed in "[Human Values Are Contingent](/4/human-values-are-contingent)," the evolution of love and friendship in humans crucially depended on features of natural selection that were present for *Homo sapiens* in particular, and that are absent in gradient descent.
+As we discussed in "[Human Values Are Contingent]({--{"author":"Luc's AI","timestamp":1787152169567}@@/4/human-values-are-contingent--}{++{"author":"Luc's AI","timestamp":1787152169567}@@https://ifanyonebuildsit.com/4/human-values-are-contingent++})," the evolution of love and friendship in humans crucially depended on features of natural selection that were present for *Homo sapiens* in particular, and that are absent in gradient descent.
 
 The most obvious issue is the dataset. Current AIs are trained to solve synthetic challenges and to imitate human-generated text; they aren't facing cooperative-competitive challenges in hunter-gatherer contexts where they must mate with other individuals of their species to propagate their genes.
 
@@ -35,7 +35,7 @@ Natural selection sometimes builds agents that genuinely care about being honest
 
 But gradient descent can encode massive numbers of conversational patterns. There's still *some* bias toward simpler, easier-to-converge-upon solutions, but gradient descent casts a far, far wider net.
 
-Or, more generally: Honesty and friendship are cases where we aren't happy with just *any* equilibrium between agents that gradient descent could find. There are other solutions to the problems that friendship and a [terminal](/4/terminal-goals-and-instrumental-goals) care for honesty were solving in humans. Even if the training environment of AIs was exactly like that of humans, if they were being shaped by gradient descent rather than natural selection, we shouldn't expect the same results.
+Or, more generally: Honesty and friendship are cases where we aren't happy with just *any* equilibrium between agents that gradient descent could find. There are other solutions to the problems that friendship and a [terminal]({--{"author":"Luc's AI","timestamp":1787152169793}@@/4/terminal-goals-and-instrumental-goals--}{++{"author":"Luc's AI","timestamp":1787152169793}@@https://ifanyonebuildsit.com/4/terminal-goals-and-instrumental-goals++}) care for honesty were solving in humans. Even if the training environment of AIs was exactly like that of humans, if they were being shaped by gradient descent rather than natural selection, we shouldn't expect the same results.
 
 Even most evolved organisms are not like humans in this regard! So it seems pretty predictable that gradient descent won't find the same solutions as evolution, much less the same solutions as evolution *operating on particular populations of early primates*.
 
@@ -47,7 +47,7 @@ Being able to solve this problem does require some form of intelligence. But you
 
 #### Circa-2024 LLMs and AI "Shallowness"
 
-In the [resources for Chapter 1](/1/the-shallowness-of-current-ais), we noted that AI today still seems to be in some sense shallower than humans. The comparison to natural selection provides one possible account for why that might be.
+In the [resources for Chapter 1]({--{"author":"Luc's AI","timestamp":1787152170026}@@/1/the-shallowness-of-current-ais--}{++{"author":"Luc's AI","timestamp":1787152170026}@@https://ifanyonebuildsit.com/1/the-shallowness-of-current-ais++}), we noted that AI today still seems to be in some sense shallower than humans. The comparison to natural selection provides one possible account for why that might be.
 
 Gradient descent has much in common with natural selection, because they're both optimizers that blindly adjust inner parameters to produce a required outward behavior. But gradient descent and evolution are in some ways importantly different; and the most important way (that we know about) is that gradient descent has a much wider *information bottleneck* on the quantity of patterns it can learn.
 
@@ -57,7 +57,7 @@ Gradient descent is very different. Every time gradient descent sees a new batch
 
 We can combine this observation with another key fact about (2024's publicly known) LLM architectures: Their per-token *computational depth* is bounded.
 
-[Llama 3.1 405B](/2/a-full-description-of-an-llm) has 126 layers. Each of those layers involves computing something like four serial operations.{--{"author":"Luc's AI","timestamp":1787139944607}@@[‡](https://ifanyonebuildsit.com/4/deep-differences-between-ais-and-evolved-species#ftnt158)--}{++{"author":"Luc's AI","timestamp":1787139944607}@@[^source-note-158]++}
+[Llama 3.1 405B]({--{"author":"Luc's AI","timestamp":1787152170243}@@/2/a-full-description-of-an-llm--}{++{"author":"Luc's AI","timestamp":1787152170243}@@https://ifanyonebuildsit.com/2/a-full-description-of-an-llm++}) has 126 layers. Each of those layers involves computing something like four serial operations.{--{"author":"Luc's AI","timestamp":1787139944607}@@[‡](https://ifanyonebuildsit.com/4/deep-differences-between-ais-and-evolved-species#ftnt158)--}{++{"author":"Luc's AI","timestamp":1787139944607}@@[^source-note-158]++}
 
 Each time Llama looks over what has already been said and computes a new output token, that computation involves at most ~500 *serial* steps — though there are billions of parallel operations obeying that serial bound. To do longer *serial* computations than 500 cognitive steps, Llama needs to output tokens that are the product of previous reasoning, and then do new operations depending on those.{--{"author":"Luc's AI","timestamp":1787139945226}@@[§](https://ifanyonebuildsit.com/4/deep-differences-between-ais-and-evolved-species#ftnt159)--}{++{"author":"Luc's AI","timestamp":1787139945226}@@[^source-note-159]++}
 
@@ -73,7 +73,7 @@ It felt a lot more obvious with the earlier LLMs, GPT-3 or GPT-3.5. We wouldn't 
 
 But that's still the organizing theory — or rather, the wild guess — that your authors are using to make sense of LLMs as of 2024. These models are missing a kind of depth; and they're making up for that handicap by remembering *a vast variety of patterns.* Not just facts, but skill-patterns, speech-patterns, and policy-patterns.
 
-The patterns gradient-imbued into the best public 2024-LLMs are not *that* shallow, or so we'd guess. They're not on the exceptionally humble level of a *Sphex* wasp, to use an example [we described](/3/the-road-to-wanting) in the Chapter 3 online resources; perhaps they're more like the patterns a beaver mind can track and process.
+The patterns gradient-imbued into the best public 2024-LLMs are not *that* shallow, or so we'd guess. They're not on the exceptionally humble level of a *Sphex* wasp, to use an example [we described]({--{"author":"Luc's AI","timestamp":1787152170466}@@/3/the-road-to-wanting--}{++{"author":"Luc's AI","timestamp":1787152170466}@@https://ifanyonebuildsit.com/3/the-road-to-wanting++}) in the Chapter 3 online resources; perhaps they're more like the patterns a beaver mind can track and process.
 
 An LLM's learned cognitions can go through 500 serial steps, even before taking into account their ability to think out loud and hear their own thoughts. 2024-LLMs have some ability to imagine, predict, and plan, like the (actually quite impressive) cognition of a beaver building a dam. But to our eye, LLMs still don't quite appear to be on the level of a human, in at least some important respects.
 
@@ -83,7 +83,7 @@ Maybe the gap will be slowly closed by steady iteration on base LLMs; or maybe t
 
 But sooner or later, if the international community does nothing, the gap *will* close. The world is running low on time to act.
 
-{--{"author":"Luc's AI","timestamp":1787139943850}@@[\*](https://ifanyonebuildsit.com/4/deep-differences-between-ais-and-evolved-species#ftnt155_ref)--}{++{"author":"Luc's AI","timestamp":1787139943850}@@[^source-note-155]:++} For more on this idea, see our answer to "[Won't LLMs be like the humans in the data they're trained on?](/2/wont-llms-be-like-the-humans-in-the-data-theyre-trained-on)"
+{--{"author":"Luc's AI","timestamp":1787139943850}@@[\*](https://ifanyonebuildsit.com/4/deep-differences-between-ais-and-evolved-species#ftnt155_ref)--}{++{"author":"Luc's AI","timestamp":1787139943850}@@[^source-note-155]:++} For more on this idea, see our answer to "[Won't LLMs be like the humans in the data they're trained on?]({--{"author":"Luc's AI","timestamp":1787152170673}@@/2/wont-llms-be-like-the-humans-in-the-data-theyre-trained-on--}{++{"author":"Luc's AI","timestamp":1787152170673}@@https://ifanyonebuildsit.com/2/wont-llms-be-like-the-humans-in-the-data-theyre-trained-on++})"
 
 {--{"author":"Luc's AI","timestamp":1787139944357}@@[†](https://ifanyonebuildsit.com/4/deep-differences-between-ais-and-evolved-species#ftnt157_ref)--}{++{"author":"Luc's AI","timestamp":1787139944357}@@[^source-note-157]:++} On the other hand: Natural selection can in some cases learn deeper, more powerful tricks. Natural selection is considering whole alternate ways that genes can construct organisms. Gradient descent is tweaking parameters fleshing out a fixed skeleton of neural network operations.
 

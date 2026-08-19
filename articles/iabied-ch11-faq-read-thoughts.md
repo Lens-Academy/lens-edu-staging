@@ -59,6 +59,6 @@ Indeed, we (Yudkowsky and Soares) started working on the AI alignment problem be
 
 Reading the AI's thoughts is not a solution to the challenge. It's helpful, but it's not a solution. We don't think there *are* any feasible technological solutions that are accessible from where we stand today. Which means that humanity just needs to back off from the challenge.{--{"author":"Luc's AI","timestamp":1787139897194}@@[*](https://ifanyonebuildsit.com/11/why-not-just-read-the-ais-thoughts#ftnt264)--}{++{"author":"Luc's AI","timestamp":1787139897194}@@[^source-note-264]++}
 
-See also: [Warning signs don't help if you don't know what to do with them.](/11/wont-there-be-early-warnings-researchers-can-use-to-identify-problems#warning-signs-dont-help-if-you-dont-know-what-to-do-with-them)
+See also: [Warning signs don't help if you don't know what to do with them.]({--{"author":"Luc's AI","timestamp":1787152168207}@@/11/wont-there-be-early-warnings-researchers-can-use-to-identify-problems#warning-signs-dont-help-if-you-dont-know-what-to-do-with-them--}{++{"author":"Luc's AI","timestamp":1787152168207}@@https://ifanyonebuildsit.com/11/wont-there-be-early-warnings-researchers-can-use-to-identify-problems#warning-signs-dont-help-if-you-dont-know-what-to-do-with-them++})
 
 {--{"author":"Luc's AI","timestamp":1787139897426}@@[*](https://ifanyonebuildsit.com/11/why-not-just-read-the-ais-thoughts#ftnt264_ref)--}{++{"author":"Luc's AI","timestamp":1787139897426}@@[^source-note-264]:++} We discuss this more in the final chapters of the book.
