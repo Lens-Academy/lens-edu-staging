@@ -111,7 +111,7 @@ Based on this background, we focus on on-the-job learning: settings where worker
 
 We prototyped tasks for several different skills that junior software engineers may encounter on the job: from data analysis to plotting. We designed an experiment around the Python Trio library,[^1] which is designed for asynchronous concurrency and input-output processing (I/O). This library is less well known than asyncio (according to the number of StackOverflow questions) and involves new concepts (e.g., structured concurrency) beyond just Python fluency. It is also explicitly designed to be easy to use – making it particularly suitable for a learning experiment.
 
-![](/attachments/shen-how-ai-impacts-skill-formation-img3-4c782c44.png)
+{--{"author":"Luc's AI","timestamp":1787136089463}@@![](/attachments/shen-how-ai-impacts-skill-formation-img3-4c782c44.png)--}{++{"author":"Luc's AI","timestamp":1787136089463}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shen-how-ai-impacts-skill-formation-img3-4c782c44.png)++}
 
 Figure 3: Experiment interface: We used a online interview platform to run our experiment. The treatment condition participants are prompted to use the AI assistant.
 
@@ -616,7 +616,7 @@ Figure 24: Instructions given to treatment group participants. This group was en
 
 Figure 25: Screenshot of the task platform in the control condition. The instructions are on the left and the coding editor is on the right.
 
-![](/attachments/shen-how-ai-impacts-skill-formation-img3-4c782c44.png)
+{--{"author":"Luc's AI","timestamp":1787136089731}@@![](/attachments/shen-how-ai-impacts-skill-formation-img3-4c782c44.png)--}{++{"author":"Luc's AI","timestamp":1787136089731}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shen-how-ai-impacts-skill-formation-img3-4c782c44.png)++}
 
 Figure 26: Screenshot of the task platform in the AI condition. The instructions are on the left and the coding editor is on the right. There is a nudge to use the AI assistant on the left tool plane.
 
