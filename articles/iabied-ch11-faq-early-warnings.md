@@ -17,7 +17,7 @@ Add discussion note here:
 %%
 #### Warning signs don't help if you don't know what to do with them.
 
-In the Chapter 2 resources, we looked at some problems with relying on warning signs in the [English chain-of-thought scratchpads](/2/but-some-ais-partly-think-in-english-doesnt-that-help) found in some reasoning models.
+In the Chapter 2 resources, we looked at some problems with relying on warning signs in the [English chain-of-thought scratchpads]({--{"author":"Luc's AI","timestamp":1787152024178}@@/2/but-some-ais-partly-think-in-english-doesnt-that-help--}{++{"author":"Luc's AI","timestamp":1787152024178}@@https://ifanyonebuildsit.com/2/but-some-ais-partly-think-in-english-doesnt-that-help++}) found in some reasoning models.
 
 One problem we discuss is that AI companies haven't meaningfully reacted to the warning signs they've already received.
 
@@ -33,7 +33,7 @@ OceanGate fired him.
 
 Two months later, [industry experts and oceanographers](https://www.nytimes.com/2023/06/20/us/oceangate-titanic-missing-submersible.html) wrote OceanGate an extremely concerned [letter](https://int.nyt.com/data/documenttools/marine-technology-society-committee-2018-letter-to-ocean-gate/eddb63615a7b3764/full.pdf) warning the company that its reckless experimentation could precipitate disaster.
 
-(An obvious parallel can be drawn to the current state of AI research, in which early warnings are [ignored](/12/the-lemoine-effect), concerned employees are [fired under dubious circumstances](https://www.transformernews.ai/p/openai-employee-says-he-was-fired) or [resign in frustration](https://www.vox.com/future-perfect/2024/5/17/24158403/openai-resignations-ai-safety-ilya-sutskever-jan-leike-artificial-intelligence), and whistleblowers within the industry write open letters to [sound the alarm](https://righttowarn.ai/).)
+(An obvious parallel can be drawn to the current state of AI research, in which early warnings are [ignored]({--{"author":"Luc's AI","timestamp":1787152023968}@@/12/the-lemoine-effect--}{++{"author":"Luc's AI","timestamp":1787152023968}@@https://ifanyonebuildsit.com/12/the-lemoine-effect++}), concerned employees are [fired under dubious circumstances](https://www.transformernews.ai/p/openai-employee-says-he-was-fired) or [resign in frustration](https://www.vox.com/future-perfect/2024/5/17/24158403/openai-resignations-ai-safety-ilya-sutskever-jan-leike-artificial-intelligence), and whistleblowers within the industry write open letters to [sound the alarm](https://righttowarn.ai/).)
 
 On July 15, 2022, after passengers reported hearing a loud bang while ascending, the measurements revealed a [permanent change in hull strain levels](https://abcnews.go.com/US/ntsb-engineer-titan-submersible-hull-anomalies/story?id=114076436). In retrospect, it was probably an indication that the carbon fiber hull was [on the verge of collapse](https://youtu.be/Bq8TCFGaOlc?si=blH-_bYwGIOmJAEL&t=125).
 
