@@ -201,7 +201,7 @@ The Verifier, whether due to specific suspicions or routine due diligence, wants
 
 To detect at least one chip with a snapshot from a rule-violating training run with probability $p$, the Prover needs to sample $s$ chips each monitoring period $T_{m}$, where:
 
-{--{"author":"Luc's AI","timestamp":1787161704902}@@$$s\geq\frac{\log{(1-p)}}{\log{\left(1-\frac{H}{aTC}\left(1-e^{-fT_{m}}\right)\right)}}\cdot\frac{T_{m}}{T}$$--}{++{"author":"Luc's AI","timestamp":1787161704902}@@$
+{--{"author":"Luc's AI","timestamp":1787161931621}@@$$s\geq\frac{\log{(1-p)}}{\log{\left(1-\frac{H}{aTC}\left(1-e^{-fT_{m}}\right)\right)}}\cdot\frac{T_{m}}{T}$$--}{++{"author":"Luc's AI","timestamp":1787161931621}@@$$
 s\geq\frac{\log{(1-p)}}{\log{\left(1-\frac{H}{aTC}\left(1-e^{-fT_{m}}\right)\right)}}\cdot\frac{T_{m}}{T}
 $$++}
 
@@ -465,7 +465,7 @@ It is not enough that a chip involved in the training run be sampled by the Veri
 
 Thus, we let the probability that a chip contains a snapshot be:
 
-{--{"author":"Luc's AI","timestamp":1787161705146}@@$$p_{w}\geq 1-e^{-fT}$$--}{++{"author":"Luc's AI","timestamp":1787161705146}@@$
+{--{"author":"Luc's AI","timestamp":1787161931934}@@$$p_{w}\geq 1-e^{-fT}$$--}{++{"author":"Luc's AI","timestamp":1787161931934}@@$$
 p_{w}\geq 1-e^{-fT}
 $$++}
 
@@ -473,7 +473,7 @@ We assume that the Prover used the minimum number of chips possible to complete 
 
 The probability that the Verifier _fails_ to sample a single involved chip with a logged snapshot during a single monitoring period that includes $s$ samples is equivalent to a weighted coin with $p_{\text{1-sample}}$ probability of heads coming up tails $s$ times:
 
-{--{"author":"Luc's AI","timestamp":1787161705396}@@$$p_{n}=(1-p_{\text{1-sample}})^{s}=\left(1-\frac{H}{aTC}\left(1-e^{-fT}\right)\right)^{s}$$--}{++{"author":"Luc's AI","timestamp":1787161705396}@@$
+{--{"author":"Luc's AI","timestamp":1787161932237}@@$$p_{n}=(1-p_{\text{1-sample}})^{s}=\left(1-\frac{H}{aTC}\left(1-e^{-fT}\right)\right)^{s}$$--}{++{"author":"Luc's AI","timestamp":1787161932237}@@$$
 p_{n}=(1-p_{\text{1-sample}})^{s}=\left(1-\frac{H}{aTC}\left(1-e^{-fT}\right)\right)^{s}
 $$++}
 
@@ -502,7 +502,7 @@ One concern is that a Prover might manage to evade detection of a large-scale tr
 
 This can be expressed in the following formula for $p_{d}(k)$, the probability of detection as a function of the multiple increase of the training length. (For simplicity, we assume that the snapshotting frequency $f$ is high enough that every sampled chip contains a snapshot.)
 
-{--{"author":"Luc's AI","timestamp":1787161705625}@@$$p_{d}(k)=1-\left(1-\frac{H}{CaTk}\right)^{ks}$$--}{++{"author":"Luc's AI","timestamp":1787161705625}@@$
+{--{"author":"Luc's AI","timestamp":1787161932546}@@$$p_{d}(k)=1-\left(1-\frac{H}{CaTk}\right)^{ks}$$--}{++{"author":"Luc's AI","timestamp":1787161932546}@@$$
 p_{d}(k)=1-\left(1-\frac{H}{CaTk}\right)^{ks}
 $$++}
 
@@ -510,7 +510,7 @@ where $a$ is the chips’ FLOPs per day, $T$ is the original training period, $C
 
 We assume that $s$ is set by the Verifier in order to achieve a particular detection probability $p$ assuming the original (un-extended) training period $T$, via the Equation [1](#S3.E1 "In 3.2 How many ML chips does the Verifier need to inspect? ‣ 3 Solution Overview ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."), reproduced here:
 
-{--{"author":"Luc's AI","timestamp":1787161705859}@@$$s(p)=\frac{\log(1-p)}{\log\left(1-\frac{H}{CaT}\right)}$$--}{++{"author":"Luc's AI","timestamp":1787161705859}@@$
+{--{"author":"Luc's AI","timestamp":1787161932850}@@$$s(p)=\frac{\log(1-p)}{\log\left(1-\frac{H}{CaT}\right)}$$--}{++{"author":"Luc's AI","timestamp":1787161932850}@@$$
 s(p)=\frac{\log(1-p)}{\log\left(1-\frac{H}{CaT}\right)}
 $$++}
 
@@ -542,7 +542,7 @@ Let the total compute required for a rule-violating training run be $H$ FLOPs, a
 
 For a chip used in the training run for $t$ time, the probability $p_{ns}$ that no snapshot was saved is the CDF of a Poisson random variable with rate parameter $f$:
 
-{--{"author":"Luc's AI","timestamp":1787161706119}@@$$p_{ns}(t)=e^{-ft}$$--}{++{"author":"Luc's AI","timestamp":1787161706119}@@$
+{--{"author":"Luc's AI","timestamp":1787161933103}@@$$p_{ns}(t)=e^{-ft}$$--}{++{"author":"Luc's AI","timestamp":1787161933103}@@$$
 p_{ns}(t)=e^{-ft}
 $$++}
 
@@ -550,7 +550,7 @@ Let the Verifier’s sampling rate be a total of $s$ chips, which we assume occu
 
 If $c(t)$ chips are used, each for $t$ time, then the overall probability of detection $p_{d}(t)$ is
 
-{--{"author":"Luc's AI","timestamp":1787161706371}@@$$p_{d}(t)=1-\left(1-\frac{c(t)}{C}\left(1-p_{ns}(t)\right)\right)^{s}=1-\left(1-\frac{H}{aCt}\left(1-e^{-ft}\right)\right)^{s}$$--}{++{"author":"Luc's AI","timestamp":1787161706371}@@$
+{--{"author":"Luc's AI","timestamp":1787161933392}@@$$p_{d}(t)=1-\left(1-\frac{c(t)}{C}\left(1-p_{ns}(t)\right)\right)^{s}=1-\left(1-\frac{H}{aCt}\left(1-e^{-ft}\right)\right)^{s}$$--}{++{"author":"Luc's AI","timestamp":1787161933392}@@$$
 p_{d}(t)=1-\left(1-\frac{c(t)}{C}\left(1-p_{ns}(t)\right)\right)^{s}=1-\left(1-\frac{H}{aCt}\left(1-e^{-ft}\right)\right)^{s}
 $$++}
 
