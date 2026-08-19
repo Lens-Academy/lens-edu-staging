@@ -20,7 +20,7 @@ Add discussion note here:
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132590845}@@https://substackcdn.com/image/fetch/$s_!52PS!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F875760cb-419a-4df4-a32f-756eba4a3033_2816x1536.png--}{++{"author":"Luc's AI","timestamp":1787132590845}@@https://substackcdn.com/image/fetch/$s_!52PS!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F875760cb-419a-4df4-a32f-756eba4a3033_2816x1536.png++})
+![](https://substackcdn.com/image/fetch/$s_!52PS!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F875760cb-419a-4df4-a32f-756eba4a3033_2816x1536.png)
 
 ](https://substackcdn.com/image/fetch/$s_!52PS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F875760cb-419a-4df4-a32f-756eba4a3033_2816x1536.png)
 

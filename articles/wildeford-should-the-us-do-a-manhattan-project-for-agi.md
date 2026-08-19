@@ -20,7 +20,7 @@ Add discussion note here:
 
 %%
 
-![Manhattan Project | Definition, Scientists, Timeline, Locations, Facts, &  Significance | Britannica]({--{"author":"Luc's AI","timestamp":1787132640885}@@https://substackcdn.com/image/fetch/$s_!1aie!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9257161-1286-4ac7-ac67-cfb89de1d5da_1600x818.jpeg--}{++{"author":"Luc's AI","timestamp":1787132640885}@@https://substackcdn.com/image/fetch/$s_!1aie!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9257161-1286-4ac7-ac67-cfb89de1d5da_1600x818.jpeg++})
+![Manhattan Project | Definition, Scientists, Timeline, Locations, Facts, &  Significance | Britannica](https://substackcdn.com/image/fetch/$s_!1aie!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9257161-1286-4ac7-ac67-cfb89de1d5da_1600x818.jpeg)
 
 Manhattan Project | Definition, Scientists, Timeline, Locations, Facts, & Significance | Britannica
 
