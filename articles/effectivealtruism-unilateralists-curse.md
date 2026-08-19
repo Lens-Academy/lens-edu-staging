@@ -2,7 +2,8 @@
 title: "Unilateralist's curse"
 author:
   - "Effectivealtruism"
-source_url: "https://forum.effectivealtruism.org/topics/unilateralist-s-curse"
+source_url: "https://forum.effectivealtruism.org/topics/unilateralist-s-curse"{++{"author":"Luc's AI","timestamp":1787151992527}@@
+allowUnreachableUrl: true++}
 published: 2026-07-18
 created: 2026-07-18
 accessed: 2026-07-18

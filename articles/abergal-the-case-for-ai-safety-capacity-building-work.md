@@ -2,7 +2,8 @@
 title: "The case for AI safety capacity-building work"
 author:
   - "abergal"
-source_url: "https://forum.effectivealtruism.org/posts/rAqKSSXankvys2Fzu/the-case-for-ai-safety-capacity-building-work"
+source_url: "https://forum.effectivealtruism.org/posts/rAqKSSXankvys2Fzu/the-case-for-ai-safety-capacity-building-work"{++{"author":"Luc's AI","timestamp":1787151989083}@@
+allowUnreachableUrl: true++}
 published: 2026-03-10
 created: 2026-07-09
 accessed: 2026-07-09

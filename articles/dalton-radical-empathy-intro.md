@@ -1,6 +1,7 @@
 ---
 title: "Radical empathy (intro)"
-source_url: https://forum.effectivealtruism.org/posts/7pDe4y3KtwwyF6kTS/radical-empathy-1
+source_url: https://forum.effectivealtruism.org/posts/7pDe4y3KtwwyF6kTS/radical-empathy-1{++{"author":"Luc's AI","timestamp":1787151990759}@@
+allowUnreachableUrl: true++}
 author:
   - Max Dalton
 published: 2022-07-02

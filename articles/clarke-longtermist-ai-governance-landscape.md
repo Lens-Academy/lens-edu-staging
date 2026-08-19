@@ -1,6 +1,7 @@
 ---
 title: "The Longtermist AI Governance Landscape: A Basic Overview"
-source_url: https://forum.effectivealtruism.org/posts/ydpo7LcJWhrr2GJrx/the-longtermist-ai-governance-landscape-a-basic-overview
+source_url: https://forum.effectivealtruism.org/posts/ydpo7LcJWhrr2GJrx/the-longtermist-ai-governance-landscape-a-basic-overview{++{"author":"Luc's AI","timestamp":1787151989584}@@
+allowUnreachableUrl: true++}
 author:
   - Sam Clarke
 published: 2022-01-18

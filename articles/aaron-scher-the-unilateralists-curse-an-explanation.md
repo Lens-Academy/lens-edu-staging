@@ -2,7 +2,8 @@
 title: "The Unilateralist's Curse, An Explanation"
 author:
   - "Aaron Scher"
-source_url: "https://forum.effectivealtruism.org/posts/ccJXuN63BhEMKBr9L/the-unilateralist-s-curse-an-explanation"
+source_url: "https://forum.effectivealtruism.org/posts/ccJXuN63BhEMKBr9L/the-unilateralist-s-curse-an-explanation"{++{"author":"Luc's AI","timestamp":1787151988843}@@
+allowUnreachableUrl: true++}
 published: 2022-06-09
 created: 2026-07-18
 accessed: 2026-07-18

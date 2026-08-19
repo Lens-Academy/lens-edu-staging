@@ -1,6 +1,7 @@
 ---
 title: "Crucial Consideration"
-source_url: https://forum.effectivealtruism.org/topics/crucial-consideration
+source_url: https://forum.effectivealtruism.org/topics/crucial-consideration{++{"author":"Luc's AI","timestamp":1787151991853}@@
+allowUnreachableUrl: true++}
 author:
   - Nick Bostrom
 published: 2014-01-01

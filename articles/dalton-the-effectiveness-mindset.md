@@ -1,6 +1,7 @@
 ---
 title: "The Effectiveness Mindset"
-source_url: "https://forum.effectivealtruism.org/posts/5nkeh7LWFYQ9YGdLS/the-effectiveness-mindset"
+source_url: "https://forum.effectivealtruism.org/posts/5nkeh7LWFYQ9YGdLS/the-effectiveness-mindset"{++{"author":"Luc's AI","timestamp":1787151991225}@@
+allowUnreachableUrl: true++}
 author:
   - "Max Dalton"
 published: 2022-06-30

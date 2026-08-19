@@ -2,7 +2,8 @@
 title: "ITN framework"
 author:
   - "Effectivealtruism"
-source_url: "https://forum.effectivealtruism.org/topics/itn-framework"
+source_url: "https://forum.effectivealtruism.org/topics/itn-framework"{++{"author":"Luc's AI","timestamp":1787151992305}@@
+allowUnreachableUrl: true++}
 published: 2026-07-18
 created: 2026-07-18
 accessed: 2026-07-18

@@ -1,6 +1,7 @@
 ---
 title: "Differences in Impact"
-source_url: https://forum.effectivealtruism.org/posts/eNwfbeZmzaHnmAaAj/differences-in-impact
+source_url: https://forum.effectivealtruism.org/posts/eNwfbeZmzaHnmAaAj/differences-in-impact{++{"author":"Luc's AI","timestamp":1787151990060}@@
+allowUnreachableUrl: true++}
 author:
   - Max Dalton
 published: 2022-07-01

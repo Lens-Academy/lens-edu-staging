@@ -1,6 +1,7 @@
 ---
 title: "What Could the Future Hold? And Why Care?"
-source_url: https://forum.effectivealtruism.org/posts/a8myKSh4KWDmuj6BA/what-could-the-future-hold-and-why-care
+source_url: https://forum.effectivealtruism.org/posts/a8myKSh4KWDmuj6BA/what-could-the-future-hold-and-why-care{++{"author":"Luc's AI","timestamp":1787151991421}@@
+allowUnreachableUrl: true++}
 author:
   - Max Dalton
 published: 2022-07-04

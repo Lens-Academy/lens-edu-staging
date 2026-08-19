@@ -1,6 +1,7 @@
 ---
 title: "Our final century? (intro)"
-source_url: https://forum.effectivealtruism.org/posts/rwz7E7FWB59ngunrL/our-final-century
+source_url: https://forum.effectivealtruism.org/posts/rwz7E7FWB59ngunrL/our-final-century{++{"author":"Luc's AI","timestamp":1787151990267}@@
+allowUnreachableUrl: true++}
 author:
   - Max Dalton
 published: 2022-07-03
