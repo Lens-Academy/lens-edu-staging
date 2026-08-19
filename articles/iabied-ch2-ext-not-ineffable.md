@@ -15,7 +15,7 @@ Add discussion note here:
 ...
 
 %%
-In recent years, the field of AI has made progress not by deepening our understanding of intelligence, but by [finding]({--{"author":"Luc's AI","timestamp":1787152180358}@@/2/obvious-insights-take-time--}{++{"author":"Luc's AI","timestamp":1787152180358}@@https://ifanyonebuildsit.com/2/obvious-insights-take-time++}) {--{"author":"Luc's AI","timestamp":1787152319507}@@[ways](/2/a-full-description-of-an-llm)--}{++{"author":"Luc's AI","timestamp":1787152319507}@@[ways](https://ifanyonebuildsit.com/2/a-full-description-of-an-llm)++} to "grow" AIs. Attempts to understand intelligence itself met with years of dead ends and stagnation. Now that growing powerful AIs has met with success, some people wonder whether the idea of "understanding intelligence" is just a mirage.
+In recent years, the field of AI has made progress not by deepening our understanding of intelligence, but by [finding](https://ifanyonebuildsit.com/2/obvious-insights-take-time) [ways](https://ifanyonebuildsit.com/2/a-full-description-of-an-llm) to "grow" AIs. Attempts to understand intelligence itself met with years of dead ends and stagnation. Now that growing powerful AIs has met with success, some people wonder whether the idea of "understanding intelligence" is just a mirage.
 
 Perhaps there are no general principles to understand? Or perhaps the principles are too weird or too complicated for humans to ever comprehend?
 
@@ -42,7 +42,7 @@ There are four basic reasons why we think this:
 
 When humanity doesn't understand something, it can often seem intimidating and profoundly mysterious. It can be hard to imagine — or hard to appreciate emotionally! — what it would be like to deeply understand that topic in the future.
 
-There was once, among philosophers and scientists, a widespread belief in *[vitalism]({--{"author":"Luc's AI","timestamp":1787152180620}@@/1/special-behavior-is-built-out-of-mundane-parts--}{++{"author":"Luc's AI","timestamp":1787152180620}@@https://ifanyonebuildsit.com/1/special-behavior-is-built-out-of-mundane-parts++})*— the idea that biological processes could never be reduced to mere chemistry and physics. Life seemed like something special, something incomparably different from mere atoms and molecules, mere gravity and electromagnetism.
+There was once, among philosophers and scientists, a widespread belief in *[vitalism](https://ifanyonebuildsit.com/1/special-behavior-is-built-out-of-mundane-parts)*— the idea that biological processes could never be reduced to mere chemistry and physics. Life seemed like something special, something incomparably different from mere atoms and molecules, mere gravity and electromagnetism.
 
 The mistake of the vitalists has been a remarkably common one throughout history. People are quick to conclude that things which are mysterious today are *inherently* mysterious, unknowable even in principle.
 
@@ -78,7 +78,7 @@ One simple way to see that there's a missing level of abstraction is that our hi
 
 Some loss of information is presumably necessary, but a good model would be a lot less lossy. An "understanding" of the differential on a car won't let you predict everything that the differential does as well as an atomic-level simulation — because sometimes the teeth on the gears will get worn down and slip, for instance. But the gears-level model of a differential still makes some very precise predictions, and it's easy to see the boundary between the things that the model is supposed to predict (like how the gears will turn when they're properly interlocked) and what it's not (like what happens when the gear teeth wear away).
 
-Why expect that this degree of modeling is possible with human minds? Perhaps human minds are too random for that. Perhaps if you want accurate predictions, it's neurons or bust.{--{"author":"Luc's AI","timestamp":1787139910045}@@[\*](https://ifanyonebuildsit.com/2/intelligence-isnt-ineffable#ftnt78)--}{++{"author":"Luc's AI","timestamp":1787139910045}@@[^source-note-78]++}
+Why expect that this degree of modeling is possible with human minds? Perhaps human minds are too random for that. Perhaps if you want accurate predictions, it's neurons or bust.[^source-note-78]
 
 Some evidence that it's not "neurons or bust" is that even your mother can predict your behavior better than the best formal models of brains can. Which means there's definitely some structure to human psychology that can be knowable *implicitly,* without exactly simulating someone's neurons. It just hasn't been made explicit yet.
 
@@ -104,11 +104,11 @@ Are there unifying principles for choosing between different hypotheses? Or are 
 
 Is there a *language* we could use to describe every hypothesis that computers or brains could ever successfully use?
 
-Questions like these might sound to someone first encountering them like they're very imponderable and philosophical. However, these are all actually solved and well-understood questions in computer science, probability theory, and information theory, with answers going by names like "Minimum Message Length," "Solomonoff prior," or "likelihood ratio."{--{"author":"Luc's AI","timestamp":1787139910575}@@[†](https://ifanyonebuildsit.com/2/intelligence-isnt-ineffable#ftnt79)--}{++{"author":"Luc's AI","timestamp":1787139910575}@@[^source-note-79]++}
+Questions like these might sound to someone first encountering them like they're very imponderable and philosophical. However, these are all actually solved and well-understood questions in computer science, probability theory, and information theory, with answers going by names like "Minimum Message Length," "Solomonoff prior," or "likelihood ratio."[^source-note-79]
 
 It also seems relevant that there already exist fully understood AIs that are superhuman in specific domains. We understand all of the relevant principles at work in the chess AI Deep Blue. Because Deep Blue was hand-coded, we can easily inspect different parts of Deep Blue's code, see everything that a given code snippet is doing, and see how this relates to the rest of the codebase.
 
-When it comes to LLMs like ChatGPT, it's not entirely clear that there *could* exist a complete and *short* description of how they work. LLMs are large enough that they're allowed to have similar behavior for *many different contingent reasons*, if (for example) the machinery that makes that behavior happen occurs in a thousand different places inside the LLM. Understanding an LLM's {--{"author":"Luc's AI","timestamp":1787152319758}@@[architecture](/2/a-full-description-of-an-llm)--}{++{"author":"Luc's AI","timestamp":1787152319758}@@[architecture](https://ifanyonebuildsit.com/2/a-full-description-of-an-llm)++} doesn't even begin to tell us about the roles played by the different inscrutable weights in the trained model.
+When it comes to LLMs like ChatGPT, it's not entirely clear that there *could* exist a complete and *short* description of how they work. LLMs are large enough that they're allowed to have similar behavior for *many different contingent reasons*, if (for example) the machinery that makes that behavior happen occurs in a thousand different places inside the LLM. Understanding an LLM's [architecture](https://ifanyonebuildsit.com/2/a-full-description-of-an-llm) doesn't even begin to tell us about the roles played by the different inscrutable weights in the trained model.
 
 ChatGPT could turn out to be hard for scientists to understand, even after decades of study. But the existence of ChatGPT doesn't mean that intelligence has tobe messy in order to work. It just means that it would be an extremely bad idea to try to scale something like ChatGPT all the way to superintelligence, for reasons we'll cover in later chapters of the book.
 
@@ -128,15 +128,13 @@ The question matters mainly when it comes to deciding what to do *after* stoppin
 
 And it matters that intelligence probably *can* be understood, which means it probably would be possible *in principle* for smart people to develop a mature field of intelligence, and for those people to figure out a solution to the AI alignment problem.
 
-It *also* matters that modern humanity is nowhere near close to that feat, of course. But the fact that the feat is possible in principle has implications for how humanity should navigate its way out of this mess, as we'll discuss later, in an [extended discussion]({--{"author":"Luc's AI","timestamp":1787152180826}@@/13/what-would-it-take-to-shut-down-global-ai-development--}{++{"author":"Luc's AI","timestamp":1787152180826}@@https://ifanyonebuildsit.com/13/what-would-it-take-to-shut-down-global-ai-development++}) after Chapter 10.
+It *also* matters that modern humanity is nowhere near close to that feat, of course. But the fact that the feat is possible in principle has implications for how humanity should navigate its way out of this mess, as we'll discuss later, in an [extended discussion](https://ifanyonebuildsit.com/13/what-would-it-take-to-shut-down-global-ai-development) after Chapter 10.
 
-Before we get there, we need to explain why AI techniques like the ones we've discussed above pose such a grave threat, when and if researchers manage to surpass human intelligence. We begin that account in Chapter 3.{--{"author":"Luc's AI","timestamp":1787151884143}@@
+Before we get there, we need to explain why AI techniques like the ones we've discussed above pose such a grave threat, when and if researchers manage to surpass human intelligence. We begin that account in Chapter 3.
 
------}
+[^source-note-78]: Heck, maybe even neural simulations are still unreliable, if, say, human behavior is highly sensitive to heat.
 
-{--{"author":"Luc's AI","timestamp":1787139910328}@@[\*](https://ifanyonebuildsit.com/2/intelligence-isnt-ineffable#ftnt78_ref)--}{++{"author":"Luc's AI","timestamp":1787139910328}@@[^source-note-78]:++} Heck, maybe even neural simulations are still unreliable, if, say, human behavior is highly sensitive to heat.
-
-{--{"author":"Luc's AI","timestamp":1787139910852}@@[†](https://ifanyonebuildsit.com/2/intelligence-isnt-ineffable#ftnt79_ref)--}{++{"author":"Luc's AI","timestamp":1787139910852}@@[^source-note-79]:++} Yudkowsky has written more on these topics in blog posts such as "[What is Evidence?](https://www.lesswrong.com/s/zpCiuR4T343j9WkcK/p/6s3xABaXKPdFwA3FS)", "[How Much Evidence Does It Take?](https://www.lesswrong.com/s/zpCiuR4T343j9WkcK/p/nj8JKFoLSMEmD3RGp)", and "[Occam's Razor](https://www.lesswrong.com/s/zpCiuR4T343j9WkcK/p/f4txACqDWithRi7hs)."
+[^source-note-79]: Yudkowsky has written more on these topics in blog posts such as "[What is Evidence?](https://www.lesswrong.com/s/zpCiuR4T343j9WkcK/p/6s3xABaXKPdFwA3FS)", "[How Much Evidence Does It Take?](https://www.lesswrong.com/s/zpCiuR4T343j9WkcK/p/nj8JKFoLSMEmD3RGp)", and "[Occam's Razor](https://www.lesswrong.com/s/zpCiuR4T343j9WkcK/p/f4txACqDWithRi7hs)."
 
 #### Notes
 

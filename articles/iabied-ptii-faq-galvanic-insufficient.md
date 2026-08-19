@@ -20,13 +20,13 @@ Add discussion note here:
 
 We expect real companies to make even more blunders than Galvanic. That would fit with the trend of modern AI companies, as spelled out in the endnotes for Part II of the book.
 
-In real life, we expect corporate blunders to show up sooner, to be more numerous, and to be — in some sense — stupider. Modern AI companies are already taking AIs that exhibit plenty of warning signs, and scaling them up massively despite not knowing where the [critical thresholds]({--{"author":"Luc's AI","timestamp":1787152183033}@@/1/will-ai-cross-critical-thresholds-and-take-off--}{++{"author":"Luc's AI","timestamp":1787152183033}@@https://ifanyonebuildsit.com/1/will-ai-cross-critical-thresholds-and-take-off++}) lie and whether they're going to cross one. They aren't being paranoid about it *today.* Why should we expect that they'll suddenly start tomorrow?
+In real life, we expect corporate blunders to show up sooner, to be more numerous, and to be — in some sense — stupider. Modern AI companies are already taking AIs that exhibit plenty of warning signs, and scaling them up massively despite not knowing where the [critical thresholds](https://ifanyonebuildsit.com/1/will-ai-cross-critical-thresholds-and-take-off) lie and whether they're going to cross one. They aren't being paranoid about it *today.* Why should we expect that they'll suddenly start tomorrow?
 
-(Recall how, in the past, people assured us that nobody would be so dumb as to [hook a smart AI up to the {--{"author":"Luc's AI","timestamp":1787152249459}@@internet](/6/can-developers-just-keep-the-ai-in-a-box)--}{++{"author":"Luc's AI","timestamp":1787152249459}@@internet](https://ifanyonebuildsit.com/6/can-developers-just-keep-the-ai-in-a-box)++}. It's easy to say that corporate behavior will change in the future. But it doesn't match the facts.)
+(Recall how, in the past, people assured us that nobody would be so dumb as to [hook a smart AI up to the internet](https://ifanyonebuildsit.com/6/can-developers-just-keep-the-ai-in-a-box). It's easy to say that corporate behavior will change in the future. But it doesn't match the facts.)
 
 #### In part because it's easier to write.
 
-As we spell out in an aside in Chapter 7, we *could* tell a story where everyone is much more paranoid and careful, until a much smarter AI manages to escape much later in the game. But such a story would not only be less realistic, given the observed behavior of AI corporations to date, but would also be harder to write, given that it involves even smarter and more capable AIs even further out in the future.{--{"author":"Luc's AI","timestamp":1787140006580}@@[\*](https://ifanyonebuildsit.com/ii/why-is-galvanic-depicted-as-being-insufficiently-careful#ftnt243)--}{++{"author":"Luc's AI","timestamp":1787140006580}@@[^source-note-243]++}
+As we spell out in an aside in Chapter 7, we *could* tell a story where everyone is much more paranoid and careful, until a much smarter AI manages to escape much later in the game. But such a story would not only be less realistic, given the observed behavior of AI corporations to date, but would also be harder to write, given that it involves even smarter and more capable AIs even further out in the future.[^source-note-243]
 
 #### In part because it's going to happen at some point, unless humanity stops.
 
@@ -34,7 +34,7 @@ Even if Galvanic (or some government actor) managed to hold the reins for longer
 
 So long as nobody knows how to create a superintelligence that *actually, robustly* pursues some wonderful future as opposed to a bunch of weird stuff, it will continue to be a factthat subverting humans would allow the AI to get more of what it wants. The issue isn't that the AI has some petulant temperament that can be ironed out of it. This issue is that it's just *true* that the AI's preferences are more likely to be satisfied if it takes over; and once it's smart enough, it will recognize this true fact.
 
-If humanity keeps making smarter and smarter AIs without being able to align them, and if humanity keeps giving them the power to affect the world, then the resulting AIs will eventually figure out how to affect the world in ways that serve their ends rather than ours. As we say [elsewhere]({--{"author":"Luc's AI","timestamp":1787152183254}@@/6/can-developers-just-keep-the-ai-in-a-box#it-wouldnt-work-if-they-did--}{++{"author":"Luc's AI","timestamp":1787152183254}@@https://ifanyonebuildsit.com/6/can-developers-just-keep-the-ai-in-a-box#it-wouldnt-work-if-they-did++}), there is no such thing as hands that can only be wielded for good purposes.
+If humanity keeps making smarter and smarter AIs without being able to align them, and if humanity keeps giving them the power to affect the world, then the resulting AIs will eventually figure out how to affect the world in ways that serve their ends rather than ours. As we say [elsewhere](https://ifanyonebuildsit.com/6/can-developers-just-keep-the-ai-in-a-box#it-wouldnt-work-if-they-did), there is no such thing as hands that can only be wielded for good purposes.
 
 We'll have more to say about this in Chapters 10 and 11, where we discuss the basic reasons why solving the alignment problem is hard, and why humanity is not on track to succeed.
 
@@ -50,7 +50,7 @@ AI companies that were *sufficiently* cautious, that were *sufficiently* worried
 
 Then maybe they would try three other clever plans, and see that there were *still* warning signs.
 
-And if they were paranoid enough to avoid killing everyone on Earth with their own hands, they would at that point *back all the way off,* rather than continuing to try cleverer and cleverer ideas until the warning signs finally stopped showing up.{--{"author":"Luc's AI","timestamp":1787140007032}@@[†](https://ifanyonebuildsit.com/ii/why-is-galvanic-depicted-as-being-insufficiently-careful#ftnt244)--}{++{"author":"Luc's AI","timestamp":1787140007032}@@[^source-note-244]++}
+And if they were paranoid enough to avoid killing everyone on Earth with their own hands, they would at that point *back all the way off,* rather than continuing to try cleverer and cleverer ideas until the warning signs finally stopped showing up.[^source-note-244]
 
 If an AI company was so careful, so paranoid, that it was willing to back off in the face of the first few warnings — then, yes, it could avoid killing us all with its own hands.
 
@@ -58,10 +58,10 @@ If it was also brave enough to loudly advocate that all AI companies, itself inc
 
 The moment in the story where Galvanic keeps going despite the warning signs is, in a sense, the point of no return. Once a superhumanly smart AI with strange and alien preferences escapes, it's too late.
 
-{--{"author":"Luc's AI","timestamp":1787140006815}@@[\*](https://ifanyonebuildsit.com/ii/why-is-galvanic-depicted-as-being-insufficiently-careful#ftnt243_ref)--}{++{"author":"Luc's AI","timestamp":1787140006815}@@[^source-note-243]:++} See also the reason we wrote a story in which Sable [stays relatively unintelligent]({--{"author":"Luc's AI","timestamp":1787152183473}@@/ii/why-did-you-have-sables-expansion-phase-go-that-way#we-were-trying-to-depict-an-especially-slow-and-comprehensible-scenario-among-plausible-scenarios--}{++{"author":"Luc's AI","timestamp":1787152183473}@@https://ifanyonebuildsit.com/ii/why-did-you-have-sables-expansion-phase-go-that-way#we-were-trying-to-depict-an-especially-slow-and-comprehensible-scenario-among-plausible-scenarios++}) for as long as possible.
+[^source-note-243]: See also the reason we wrote a story in which Sable [stays relatively unintelligent](https://ifanyonebuildsit.com/ii/why-did-you-have-sables-expansion-phase-go-that-way#we-were-trying-to-depict-an-especially-slow-and-comprehensible-scenario-among-plausible-scenarios) for as long as possible.
 
-{--{"author":"Luc's AI","timestamp":1787140007286}@@[†](https://ifanyonebuildsit.com/ii/why-is-galvanic-depicted-as-being-insufficiently-careful#ftnt244_ref)--}{++{"author":"Luc's AI","timestamp":1787140007286}@@[^source-note-244]:++} We'll talk more about why this problem is hard, and why we don't expect the clever ideas in this scenario to work, in Chapters 10 and 11.
+[^source-note-244]: We'll talk more about why this problem is hard, and why we don't expect the clever ideas in this scenario to work, in Chapters 10 and 11.
 
 #### Notes
 
-[1] *warning signs:* For an enumeration of warning signs, see our answer to "[Aren't developers regularly making their AIs nice and safe and obedient?]({--{"author":"Luc's AI","timestamp":1787152183712}@@/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient--}{++{"author":"Luc's AI","timestamp":1787152183712}@@https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient++})"
+[1] *warning signs:* For an enumeration of warning signs, see our answer to "[Aren't developers regularly making their AIs nice and safe and obedient?](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient)"
