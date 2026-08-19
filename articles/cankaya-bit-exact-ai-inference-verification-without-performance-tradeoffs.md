@@ -47,19 +47,19 @@ Element-wise operations executed by dedicated hardware acceleration can use non-
 
 Reductions sum multiple parallel elements into one. Floating-point addition is non-associative: $a+(b+c)\neq(a+b)+c$. Each addition rounds, and the rounding depends on the relative magnitudes of the operands (Goldberg, [1991](#bib.bib12 "What every computer scientist should know about floating-point arithmetic")).
 
-{--{"author":"Luc's AI","timestamp":1787139906854}@@$c$$p_{0}$$+$$p_{1}$$+$$p_{2}$$+$$p_{3}$$+$--}{++{"author":"Luc's AI","timestamp":1787139906854}@@$c$ $p_{0}$ $+$ $p_{1}$ $+$ $p_{2}$ $+$ $p_{3}$ $+$++}
+$c$ $p_{0}$ $+$ $p_{1}$ $+$ $p_{2}$ $+$ $p_{3}$ $+$
 
 (a) Sequential
 
-{--{"author":"Luc's AI","timestamp":1787139907138}@@$p_{0}$$p_{1}$$p_{2}$$p_{3}$$p_{4}$$p_{5}$$p_{6}$$p_{7}$$+$$+$$+$$+$$c$$+$$+$$+$$+$--}{++{"author":"Luc's AI","timestamp":1787139907138}@@$p_{0}$ $p_{1}$ $p_{2}$ $p_{3}$ $p_{4}$ $p_{5}$ $p_{6}$ $p_{7}$ $+$ $+$ $+$ $+$ $c$ $+$ $+$ $+$ $+$++}
+$p_{0}$ $p_{1}$ $p_{2}$ $p_{3}$ $p_{4}$ $p_{5}$ $p_{6}$ $p_{7}$ $+$ $+$ $+$ $+$ $c$ $+$ $+$ $+$ $+$
 
 (b) Group pairwise
 
-{--{"author":"Luc's AI","timestamp":1787139907428}@@$c$$p_{0}$$p_{1}$$p_{2}$$p_{3}$$p_{4}$$p_{5}$$p_{6}$$+$--}{++{"author":"Luc's AI","timestamp":1787139907428}@@$c$ $p_{0}$ $p_{1}$ $p_{2}$ $p_{3}$ $p_{4}$ $p_{5}$ $p_{6}$ $+$++}
+$c$ $p_{0}$ $p_{1}$ $p_{2}$ $p_{3}$ $p_{4}$ $p_{5}$ $p_{6}$ $+$
 
 (c) Fused, e.g. a single block FMA
 
-{--{"author":"Luc's AI","timestamp":1787139907688}@@$c$$p_{0}$$p_{1}$$p_{2}$$p_{3}$$p_{4}$$p_{5}$$p_{6}$$p_{7}$$+$$+$--}{++{"author":"Luc's AI","timestamp":1787139907688}@@$c$ $p_{0}$ $p_{1}$ $p_{2}$ $p_{3}$ $p_{4}$ $p_{5}$ $p_{6}$ $p_{7}$ $+$ $+$++}
+$c$ $p_{0}$ $p_{1}$ $p_{2}$ $p_{3}$ $p_{4}$ $p_{5}$ $p_{6}$ $p_{7}$ $+$ $+$
 
 (d) Chain of fused, e.g. MMA or reduction across tensor cores
 
@@ -245,9 +245,9 @@ A caveat applies to the last item. Recording concurrent batch size is only neces
 
 Sparse random sampling makes even software-only emulation with no hardware-acceleration viable. The verifier’s statistical confidence $P_{detect}(\geq 1)$ for an upper-bound percentage $p_{false}$ of misreported records depends only on the total number of samples $k$, not the total number of records to sample from (if this number is $>>k$).
 
-{--{"author":"Luc's AI","timestamp":1787139907946}@@$$P_{detect}(\geq 1)=1-(1-p_{false})^{k}$$--}{++{"author":"Luc's AI","timestamp":1787139907946}@@$$
+$$
 P_{detect}(\geq 1)=1-(1-p_{false})^{k}
-$$++}
+$$
 
 This works against a covert adversary that attempts to misreport a percentage of computation in large-scale AI inference. Verifying enough samples to provide strong statistical assurance requires only tens to hundreds of CPUs running continuously (see Appendix [C](#A3 "Appendix C Inference FLOP Calculation ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs")), regardless of the prover’s total throughput.
 
@@ -257,10 +257,10 @@ Bit-exact reproducibility transforms non-associative rounding from an obstacle t
 
 ## References
 
--   Advanced Micro Devices (2024) AMD EPYC 9965 processor. Note: {--{"author":"Luc's AI","timestamp":1787136652988}@@[https://www.amd.com/en/products/processors/server/epyc/9005-series/amd-epyc-9965.html](https://www.amd.com/en/products/processors/server/epyc/9005-series/amd-epyc-9965.html)192--}{++{"author":"Luc's AI","timestamp":1787136652988}@@[https://www.amd.com/en/products/processors/server/epyc/9005-series/amd-epyc-9965.html](https://www.amd.com/en/products/processors/server/epyc/9005-series/amd-epyc-9965.html) 192++} Zen 5 cores, full 512-bit AVX-512 datapath Cited by: [Appendix C](#A3.SS0.SSS0.Px5.p1.10 "CPU hardware requirement. ‣ Appendix C Inference FLOP Calculation ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs").
+-   Advanced Micro Devices (2024) AMD EPYC 9965 processor. Note: [https://www.amd.com/en/products/processors/server/epyc/9005-series/amd-epyc-9965.html](https://www.amd.com/en/products/processors/server/epyc/9005-series/amd-epyc-9965.html) 192 Zen 5 cores, full 512-bit AVX-512 datapath Cited by: [Appendix C](#A3.SS0.SSS0.Px5.p1.10 "CPU hardware requirement. ‣ Appendix C Inference FLOP Calculation ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs").
 -   Y. Aumann and Y. Lindell (2010) Security against covert adversaries: efficient protocols for realistic adversaries. Journal of Cryptology 23 (2), pp. 281–343. Cited by: [§1](#S1.p1.1 "1 Introduction and Related Work ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs").
 -   M. Baker, G. Kulp, O. Marks, M. Brundage, and L. Heim (2025) Verifying international agreements on AI: six layers of verification for rules on large-scale AI development and deployment. RAND Corporation. Cited by: [§1](#S1.p1.1 "1 Introduction and Related Work ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs").
--   N. Cankaya, J. Kryś, J. Ng, L. Marks, and F. Krückel (2026) Fingerprinting all AI cluster I/O without mutually trusted processors. Note: Research submission to the Technical AI Governance Challenge hosted by Apart {--{"author":"Luc's AI","timestamp":1787136653234}@@Research[https://apartresearch.com](https://apartresearch.com/)--}{++{"author":"Luc's AI","timestamp":1787136653234}@@Research [https://apartresearch.com](https://apartresearch.com/)++} Cited by: [§1](#S1.p2.2 "1 Introduction and Related Work ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs").
+-   N. Cankaya, J. Kryś, J. Ng, L. Marks, and F. Krückel (2026) Fingerprinting all AI cluster I/O without mutually trusted processors. Note: Research submission to the Technical AI Governance Challenge hosted by Apart Research [https://apartresearch.com](https://apartresearch.com/) Cited by: [§1](#S1.p2.2 "1 Introduction and Related Work ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs").
 -   Cerebras Systems (2025) 100x Defect Tolerance: How Cerebras Solved the Yield Problem. Note: Cerebras Engineering Blog External Links: [Link](https://www.cerebras.ai/blog/100x-defect-tolerance-how-cerebras-solved-the-yield-problem) Cited by: [footnote 9](#footnote9 "In Reproducibility check within fixed conditions ‣ 3.2 Results ‣ 3 Empirical Verification of Determinism ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs").
 -   DeepSeek-AI (2026) DeepSeek-V4: towards highly efficient million-token context intelligence. Technical Report DeepSeek-AI. External Links: [Link](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf) Cited by: [§1](#S1.p2.2 "1 Introduction and Related Work ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs"), [§2.1](#S2.SS1.p1.1 "2.1 Element-Wise Operations ‣ 2 Root Causes of Apparent Non-Determinism ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs"), [§3.2](#S3.SS2.SSS0.Px2.p3.3 "Comparison across conditions ‣ 3.2 Results ‣ 3 Empirical Verification of Determinism ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs"), [§5](#S5.SS0.SSS0.Px1.p1.1 "MoE inference. ‣ 5 Limitations ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs"), [§5](#S5.SS0.SSS0.Px4.p1.3 "Backward pass and gradient accumulation in LLM training. ‣ 5 Limitations ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs"), [§6](#S6.p4.1 "6 Implications for AI Governance ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs").
 -   D. Goldberg (1991) What every computer scientist should know about floating-point arithmetic. ACM Computing Surveys 23 (1), pp. 5–48. Cited by: [§1](#S1.p2.2 "1 Introduction and Related Work ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs"), [§2.2](#S2.SS2.p1.1 "2.2 Reductions ‣ 2 Root Causes of Apparent Non-Determinism ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs"), [footnote 3](#footnote3 "In 2.1 Element-Wise Operations ‣ 2 Root Causes of Apparent Non-Determinism ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs").
@@ -278,10 +278,10 @@ Bit-exact reproducibility transforms non-associative rounding from an obstacle t
 -   NVIDIA Corporation (2025b) NVIDIA deep learning performance guide: matrix multiplication. Note: [https://docs.nvidia.com/deeplearning/performance/dl-performance-matrix-multiplication/index.html](https://docs.nvidia.com/deeplearning/performance/dl-performance-matrix-multiplication/index.html) Cited by: [footnote 4](#footnote4 "In 2.2 Reductions ‣ 2 Root Causes of Apparent Non-Determinism ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs").
 -   NVIDIA Corporation (2025c) NVIDIA libdevice user’s guide. Note: [https://docs.nvidia.com/cuda/libdevice-users-guide/](https://docs.nvidia.com/cuda/libdevice-users-guide/) Cited by: [§2.1](#S2.SS1.p1.1 "2.1 Element-Wise Operations ‣ 2 Root Causes of Apparent Non-Determinism ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs").
 -   NVIDIA Corporation (2025d) NVIDIA Nsight Compute Profiling Guide. Note: [https://docs.nvidia.com/nsight-compute/ProfilingGuide/](https://docs.nvidia.com/nsight-compute/ProfilingGuide/) Cited by: [footnote 7](#footnote7 "In Item 2(b) ‣ Item 2 ‣ 2.2 Reductions ‣ 2 Root Causes of Apparent Non-Determinism ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs").
--   NVIDIA Corporation (2025e) NVIDIA PTX ISA reference. Note: {--{"author":"Luc's AI","timestamp":1787136653488}@@[https://docs.nvidia.com/cuda/parallel-thread-execution/](https://docs.nvidia.com/cuda/parallel-thread-execution/)Documents--}{++{"author":"Luc's AI","timestamp":1787136653488}@@[https://docs.nvidia.com/cuda/parallel-thread-execution/](https://docs.nvidia.com/cuda/parallel-thread-execution/) Documents++} ex2.approx.f32, rcp.approx.f32, rsqrt.approx.f32 SFU instructions Cited by: [item 1](#S2.I1.i1.p1.1 "In 2.2 Reductions ‣ 2 Root Causes of Apparent Non-Determinism ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs"), [§2.1](#S2.SS1.p1.1 "2.1 Element-Wise Operations ‣ 2 Root Causes of Apparent Non-Determinism ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs").
--   NVIDIA Corporation (2026) CUDA toolkit release notes. Note: {--{"author":"Luc's AI","timestamp":1787136653709}@@[https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/](https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/)Documents--}{++{"author":"Luc's AI","timestamp":1787136653709}@@[https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/](https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/) Documents++} libdevice math function accuracy changes across toolkit versions Cited by: [§2.1](#S2.SS1.p1.1 "2.1 Element-Wise Operations ‣ 2 Root Causes of Apparent Non-Determinism ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs").
+-   NVIDIA Corporation (2025e) NVIDIA PTX ISA reference. Note: [https://docs.nvidia.com/cuda/parallel-thread-execution/](https://docs.nvidia.com/cuda/parallel-thread-execution/) Documents ex2.approx.f32, rcp.approx.f32, rsqrt.approx.f32 SFU instructions Cited by: [item 1](#S2.I1.i1.p1.1 "In 2.2 Reductions ‣ 2 Root Causes of Apparent Non-Determinism ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs"), [§2.1](#S2.SS1.p1.1 "2.1 Element-Wise Operations ‣ 2 Root Causes of Apparent Non-Determinism ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs").
+-   NVIDIA Corporation (2026) CUDA toolkit release notes. Note: [https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/](https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/) Documents libdevice math function accuracy changes across toolkit versions Cited by: [§2.1](#S2.SS1.p1.1 "2.1 Element-Wise Operations ‣ 2 Root Causes of Apparent Non-Determinism ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs").
 -   OpenRouter (2025) State of AI 2025: 100T token LLM usage study. Note: [https://openrouter.ai/state-of-ai](https://openrouter.ai/state-of-ai) Cited by: [Appendix C](#A3.SS0.SSS0.Px2.p1.21 "Verification workload. ‣ Appendix C Inference FLOP Calculation ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs"), [Appendix C](#A3.SS0.SSS0.Px3.p1.8 "Scale of audited workload. ‣ Appendix C Inference FLOP Calculation ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs").
--   Red Hat (2023) Glibc floating point math functions provide slightly different results between RHEL major releases. Note: {--{"author":"Luc's AI","timestamp":1787136653924}@@[https://access.redhat.com/solutions/7032163](https://access.redhat.com/solutions/7032163)Documents--}{++{"author":"Luc's AI","timestamp":1787136653924}@@[https://access.redhat.com/solutions/7032163](https://access.redhat.com/solutions/7032163) Documents++} precision differences in exp2f() across glibc 2.17, 2.28, and subsequent versions Cited by: [§2.1](#S2.SS1.p1.1 "2.1 Element-Wise Operations ‣ 2 Root Causes of Apparent Non-Determinism ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs").
+-   Red Hat (2023) Glibc floating point math functions provide slightly different results between RHEL major releases. Note: [https://access.redhat.com/solutions/7032163](https://access.redhat.com/solutions/7032163) Documents precision differences in exp2f() across glibc 2.17, 2.28, and subsequent versions Cited by: [§2.1](#S2.SS1.p1.1 "2.1 Element-Wise Operations ‣ 2 Root Causes of Apparent Non-Determinism ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs").
 -   R. Rinberg, A. Karvonen, A. Hoover, D. Reuter, and K. Warr (2025) Verifying LLM inference to detect model weight exfiltration. arXiv preprint arXiv:2511.02620. Cited by: [§1](#S1.p2.2 "1 Introduction and Related Work ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs").
 -   A. Scher and L. Thiergart (2024) Mechanisms to verify international agreements about AI development. Technical report Machine Intelligence Research Institute. Note: Also available as arXiv:2506.15867 Cited by: [§1](#S1.p1.1 "1 Introduction and Related Work ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs").
 -   J. Shah, G. Bikshandi, Y. Zhang, V. Thakkar, P. Ramani, and T. Dao (2024) FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision. In Advances in Neural Information Processing Systems (NeurIPS), Cited by: [§5](#S5.SS0.SSS0.Px4.p1.3 "Backward pass and gradient accumulation in LLM training. ‣ 5 Limitations ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs").
@@ -324,9 +324,9 @@ We use the standard approximation $\text{FLOP}_{\text{fwd}}\approx 2\cdot N_{\te
 
 Random-sample verification of $B$ batches, each containing $S$ sequences of average length $T_{\text{seq}}$, requires
 
-{--{"author":"Luc's AI","timestamp":1787139908343}@@$$\text{FLOP}_{\text{verify}}=2\cdot--}{++{"author":"Luc's AI","timestamp":1787139908343}@@$$
-\text{FLOP}_{\text{verify}}=2\cdot++} N_{\text{active}}\cdot B\cdot S\cdot {--{"author":"Luc's AI","timestamp":1787139908343}@@T_{\text{seq}}.$$--}{++{"author":"Luc's AI","timestamp":1787139908343}@@T_{\text{seq}}.
-$$++}
+$$
+\text{FLOP}_{\text{verify}}=2\cdot N_{\text{active}}\cdot B\cdot S\cdot T_{\text{seq}}.
+$$
 
 Published metadata from OpenRouter’s 100T-token usage study (OpenRouter, [2025](#bib.bib39 "State of AI 2025: 100T token LLM usage study")) reports an average prompt length of approximately 5,400 tokens and an average generated response of 600 tokens per request (late 2025). With $B=50$, $S=64$, $T_{\text{seq}}=6{,}000$, and a representative $N_{\text{active}}=100\text{B}$ mixture-of-experts model, this yields $k=B\cdot S=3{,}200$ independently verifiable sequences and approximately $3.8$ EFLOP of recomputation. Scaling to $B=500$ gives $k=32{,}000$ and $38$ EFLOP. For workloads with substantially longer average sequences, the budget scales linearly in $T_{\text{seq}}$: at $T_{\text{seq}}=30{,}000$ it becomes $19$ EFLOP ($B=50$) or $192$ EFLOP ($B=500$); at $T_{\text{seq}}=100{,}000$, $64$ EFLOP or $640$ EFLOP respectively.
 
@@ -338,9 +338,9 @@ For context, OpenRouter reports aggregate daily token traffic of approximately $
 
 Applying [Equation 1](#S6.E1 "In Cost of re-computation. ‣ 6 Implications for AI Governance ‣ Bit-Exact AI Inference Verification Without Performance Tradeoffs") to a covert adversary misreporting 0.1% of records ($p_{\text{false}}=10^{-3}$):
 
-{--{"author":"Luc's AI","timestamp":1787139908607}@@$$P_{\text{detect}}(k=3{,}200)\approx--}{++{"author":"Luc's AI","timestamp":1787139908607}@@$$
-P_{\text{detect}}(k=3{,}200)\approx++} 0.96,\qquad P_{\text{detect}}(k=32{,}000)\approx {--{"author":"Luc's AI","timestamp":1787139908607}@@1-10^{-14}.$$--}{++{"author":"Luc's AI","timestamp":1787139908607}@@1-10^{-14}.
-$$++}
+$$
+P_{\text{detect}}(k=3{,}200)\approx 0.96,\qquad P_{\text{detect}}(k=32{,}000)\approx 1-10^{-14}.
+$$
 
 The $10\times$ scale-up from $B=50$ ($k=3{,}200$) to $B=500$ ($k=32{,}000$) does not materially improve detection at 0.1% misreporting (already saturated), but extends reliable detection into the 0.01% range (at 96% confidence, or 0.005% at 80% confidence).
 
@@ -368,9 +368,9 @@ The within-SKU zeros (A100-SXM4 $\leftrightarrow$ A100-PCIe) rule out physical-c
 
 We also investigated the relative magnitude of numerical deviation in a suite of ablations. A particular focus was on the detectability of software-settings when replaying on different hardware, both in prefill and decode. We measure this as a signal-to-noise ratio:
 
-{--{"author":"Luc's AI","timestamp":1787139908900}@@$$\text{SNR}=\frac{\|y_{\text{claimed}\,A}-y_{\text{replayed}\,B}\|_{2}}{\Delta_{hardware}},$$--}{++{"author":"Luc's AI","timestamp":1787139908900}@@$$
+$$
 \text{SNR}=\frac{\|y_{\text{claimed}\,A}-y_{\text{replayed}\,B}\|_{2}}{\Delta_{hardware}},
-$$++}
+$$
 
 The denominator is the same-configuration cross-hardware floor averaged over multiple samples, the numerator averages over configuration mismatches. SNR $\gg 1$ means the mismatch is detectable above hardware noise,SNR $\approx 1$ means it is not.
 

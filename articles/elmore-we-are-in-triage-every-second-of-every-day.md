@@ -1,7 +1,7 @@
 ---
 title: "We Are in Triage Every Second of Every Day"
-source_url: https://forum.effectivealtruism.org/s/B79ro5zkhndbBKRRX/p/vQpk3cxdAe5RX9xzo{++{"author":"Luc's AI","timestamp":1787151992803}@@
-allowUnreachableUrl: true++}
+source_url: https://forum.effectivealtruism.org/s/B79ro5zkhndbBKRRX/p/vQpk3cxdAe5RX9xzo
+allowUnreachableUrl: true
 author:
   - Holly Elmore
 published: 2016-08-26

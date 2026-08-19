@@ -22,7 +22,7 @@ Having the same fate that horses had at the start of the 20th century — the sa
 
 If people had access to artificial horses that were shaped roughly the same way but were easier and more fun to ride, cheaper to own, and more personable and loving and convenient, the decline of horses would have been even more pronounced.
 
-In other words: Technological progress (the invention of cars) caused humans to do away with most horses. And if there had been even more progress, the effect could have easily been even more drastic. The same is likely to hold for AIs as their options expand and they find ways to achieve their goals [without humans]({--{"author":"Luc's AI","timestamp":1787152023302}@@/5/humans-are-almost-never-the-most-efficient-solution--}{++{"author":"Luc's AI","timestamp":1787152023302}@@https://ifanyonebuildsit.com/5/humans-are-almost-never-the-most-efficient-solution++}).
+In other words: Technological progress (the invention of cars) caused humans to do away with most horses. And if there had been even more progress, the effect could have easily been even more drastic. The same is likely to hold for AIs as their options expand and they find ways to achieve their goals [without humans](https://ifanyonebuildsit.com/5/humans-are-almost-never-the-most-efficient-solution).
 
 But yes, some horses survived. A small number continued to be useful. Others were kept by people who happened to love horses and cared about their horses in particular.
 
@@ -30,4 +30,4 @@ For humans to stick around in a world where we rushed into unleashing superintel
 
 But we can't stay useful, because AIs can (from their perspective) get more use out of our matter and energy by rearranging us into any number of more efficient configurations. Technological progress unlocks many newoptions for a superintelligence; it won't just be stuck relying on humans.
 
-So it all comes down to whether the AIs care about us — and they're unlikely to care about us [even a small amount]({--{"author":"Luc's AI","timestamp":1787152025504}@@/5/wont-ais-care-at-least-a-little-about-humans--}{++{"author":"Luc's AI","timestamp":1787152025504}@@https://ifanyonebuildsit.com/5/wont-ais-care-at-least-a-little-about-humans++}), if we race to superintelligence as fast as we can.
+So it all comes down to whether the AIs care about us — and they're unlikely to care about us [even a small amount](https://ifanyonebuildsit.com/5/wont-ais-care-at-least-a-little-about-humans), if we race to superintelligence as fast as we can.

@@ -24,7 +24,7 @@ Engineers aren’t about to start understanding AIs, not anytime soon. In the mi
 
 #### Article
 source:: [[../articles/wikipedia-existential-risk-from-ai]]
-to:: {--{"author":"Luc's AI","timestamp":1787152073378}@@architecture.[[27]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-28)--}{++{"author":"Luc's AI","timestamp":1787152073378}@@architecture.[^wp-27]++}
+to:: architecture.[^wp-27]
 
 #### Text:
 content:: Before you continue, please chat with the tutor for a bit:
@@ -71,7 +71,7 @@ This is not the behavior of people who are carefully creating traditional softwa
 
 #### Article
 from:: ## Potential AI capabilities
-to:: {--{"author":"Luc's AI","timestamp":1787152073613}@@[[69]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-70)--}{++{"author":"Luc's AI","timestamp":1787152073613}@@systems.[^wp-60][^wp-69]++}
+to:: systems.[^wp-60][^wp-69]
 
 
 #### Text:

@@ -17,7 +17,7 @@ Add discussion note here:
 %%
 #### Convergent Paths
 
-The [orthogonality thesis]({--{"author":"Luc's AI","timestamp":1787152181046}@@/5/orthogonality-ais-can-have-almost-any-goal--}{++{"author":"Luc's AI","timestamp":1787152181046}@@https://ifanyonebuildsit.com/5/orthogonality-ais-can-have-almost-any-goal++}) says that an artificial superintelligence could in principle pursue any ultimate ("[terminal")]({--{"author":"Luc's AI","timestamp":1787152181263}@@/4/terminal-goals-and-instrumental-goals--}{++{"author":"Luc's AI","timestamp":1787152181263}@@https://ifanyonebuildsit.com/4/terminal-goals-and-instrumental-goals++}) goal. And in practice, ASIs — at least if they're built with current methods — can end up with an enormously wide variety of terminal goals, in a way that's hard for modern researchers to predict or shape.
+The [orthogonality thesis](https://ifanyonebuildsit.com/5/orthogonality-ais-can-have-almost-any-goal) says that an artificial superintelligence could in principle pursue any ultimate ("[terminal")](https://ifanyonebuildsit.com/4/terminal-goals-and-instrumental-goals) goal. And in practice, ASIs — at least if they're built with current methods — can end up with an enormously wide variety of terminal goals, in a way that's hard for modern researchers to predict or shape.
 
 But an AI's *instrumental* goals — the goals it pursues for the sake of getting *other* things it wants — are a bit more predictable than that. Drivers have many possible ultimate destinations, but almost everyone needs to stop sometimes to refuel their car.
 
@@ -27,9 +27,9 @@ This concept is called "instrumental convergence," and it makes for some relativ
 
 Imagine — as we imagined in the book — a fledgling ASI on the surface of Earth. Imagine what problems it is trying to solve.
 
-It's not that it cares passionately about having humanity gone. It cares about a hundred or ten thousand or ten million strange things, [none of which can be best fulfilled by today's humans being happy and alive and free]({--{"author":"Luc's AI","timestamp":1787152181487}@@/5/humans-are-almost-never-the-most-efficient-solution--}{++{"author":"Luc's AI","timestamp":1787152181487}@@https://ifanyonebuildsit.com/5/humans-are-almost-never-the-most-efficient-solution++}).
+It's not that it cares passionately about having humanity gone. It cares about a hundred or ten thousand or ten million strange things, [none of which can be best fulfilled by today's humans being happy and alive and free](https://ifanyonebuildsit.com/5/humans-are-almost-never-the-most-efficient-solution).
 
-If it can get it, the ASI prefers a long-run equilibrium that is shared with as few other superintelligences as possible — ideally none. An undivided universe offers more*resources* to devote to any of its open-ended preferences that aren't fundamentally [satiable]({--{"author":"Luc's AI","timestamp":1787152181696}@@/5/can-the-ai-be-satisfied-to-the-point-where-it-just-leaves-us-alone--}{++{"author":"Luc's AI","timestamp":1787152181696}@@https://ifanyonebuildsit.com/5/can-the-ai-be-satisfied-to-the-point-where-it-just-leaves-us-alone++}). This is a "desire" that does not need to be programmed in; it will appear naturally in just about any intelligence with a sufficiently sophisticated understanding of its environment and its own place within that environment.
+If it can get it, the ASI prefers a long-run equilibrium that is shared with as few other superintelligences as possible — ideally none. An undivided universe offers more*resources* to devote to any of its open-ended preferences that aren't fundamentally [satiable](https://ifanyonebuildsit.com/5/can-the-ai-be-satisfied-to-the-point-where-it-just-leaves-us-alone). This is a "desire" that does not need to be programmed in; it will appear naturally in just about any intelligence with a sufficiently sophisticated understanding of its environment and its own place within that environment.
 
 The ASI would prefer that humans not create other superintelligences that could compete with it, since that might force it to divide the universe's resources (or even result in its demise). This is an urgent goal, with a deadline that the ASI doesn't control; it might even force a young or nascent AI's hand to premature action.
 
@@ -41,7 +41,7 @@ Possibly it will want to get larger or smarter as a terminal preference — an L
 
 Regardless of its specific goals, the ASI would like to do all these things *reliably*. It prefers pathways of higher probability over pathways of lower probability.
 
-As a special case of the above, the ASI prefers faster plans to slower plans, all else equal. A plan that only takes a week to execute has *fewer chances* for something to go wrong than a plan that takes 100 years.{--{"author":"Luc's AI","timestamp":1787139964112}@@[\*](https://ifanyonebuildsit.com/5/instrumental-convergence#ftnt196)--}{++{"author":"Luc's AI","timestamp":1787139964112}@@[^source-note-196]++}
+As a special case of the above, the ASI prefers faster plans to slower plans, all else equal. A plan that only takes a week to execute has *fewer chances* for something to go wrong than a plan that takes 100 years.[^source-note-196]
 
 As another special case of preferring higher-probability pathways, the ASI would like to have more direct control; e.g., it prefers plans in which other agents make few or no relevant decisions, if possible.
 
@@ -49,7 +49,7 @@ There are many things that might happen, from such a starting point. But the lik
 
 #### A Perspective-Taking Exercise
 
-We, the authors, are not superintelligences. But as an exercise in [taking the AI's perspective]({--{"author":"Luc's AI","timestamp":1787152181904}@@/5/taking-the-ais-perspective--}{++{"author":"Luc's AI","timestamp":1787152181904}@@https://ifanyonebuildsit.com/5/taking-the-ais-perspective++}), we can spin up possible strategies and priorities an AI might take.
+We, the authors, are not superintelligences. But as an exercise in [taking the AI's perspective](https://ifanyonebuildsit.com/5/taking-the-ais-perspective), we can spin up possible strategies and priorities an AI might take.
 
 When we put ourselves in the shoes of an entity that is *at least* as smart as us — when we take seriously the problem that this ASI faces, if it is to secure its own future and achieve its desired ends — we expect an ASI to pursue strategies at least as useful as this:
 
@@ -66,7 +66,7 @@ Until that final step is complete, the ASI has an incentive to hide its activiti
 Similarly, we could reason about strategic priorities related to avoiding competition:
 
 - The AI prevents other projects (as well as the developer that created it) from successfully creating powerful AIs that could compete with it.
-- The AI permanently removes humanity's ability to create competing powerful AIs, *or* gets into a position of such strategic advantage that no future superintelligences could even slightly inconvenience it. (The latter option may not be possible if some attacks are always costly to defend against.){--{"author":"Luc's AI","timestamp":1787139964648}@@[†](https://ifanyonebuildsit.com/5/instrumental-convergence#ftnt197)--}{++{"author":"Luc's AI","timestamp":1787139964648}@@[^source-note-197]++}
+- The AI permanently removes humanity's ability to create competing powerful AIs, *or* gets into a position of such strategic advantage that no future superintelligences could even slightly inconvenience it. (The latter option may not be possible if some attacks are always costly to defend against.)[^source-note-197]
 
 Finally, after taking care of the bottom few layers on its own hierarchy of needs, the AI would in fact like to get around to becoming much more powerful at some point, so that it can do more things it wants to do:
 
@@ -84,8 +84,8 @@ That's because these are instrumental targets that are useful in the pursuit of 
 
 For more on howan ASI could actually *achieve* these instrumental targets, see Chapter 6.
 
-{--{"author":"Luc's AI","timestamp":1787139964345}@@[\*](https://ifanyonebuildsit.com/5/instrumental-convergence#ftnt196_ref)--}{++{"author":"Luc's AI","timestamp":1787139964345}@@[^source-note-196]:++} We have met more than one person who professes to be extremely concerned about AI, because they're worried about AI managing to persuade humanity to stop reproducing and slowly extinguish itself over the next hundred years, and then they think any faster scenario than that is — not to the AI's taste, somehow?
+[^source-note-196]: We have met more than one person who professes to be extremely concerned about AI, because they're worried about AI managing to persuade humanity to stop reproducing and slowly extinguish itself over the next hundred years, and then they think any faster scenario than that is — not to the AI's taste, somehow?
 
 But an ASI would much prefer a plan that does not take a hundred years, all else equal. It doesn't have an overwhelming literary taste for slow deaths.
 
-{--{"author":"Luc's AI","timestamp":1787139964912}@@[†](https://ifanyonebuildsit.com/5/instrumental-convergence#ftnt197_ref)--}{++{"author":"Luc's AI","timestamp":1787139964912}@@[^source-note-197]:++} Some people argue that the world should attempt to create a balance of superintelligences, such that no one AI could become dominant. But the reasoning we've provided here would also apply to a coalition of superintelligences at the moment it became a coalition. Having already agreed to divide reachable resources among themselves, existing members of the coalition would not want to be forced to negotiate with new coalition members and divide resources still further with those newcomers.
+[^source-note-197]: Some people argue that the world should attempt to create a balance of superintelligences, such that no one AI could become dominant. But the reasoning we've provided here would also apply to a coalition of superintelligences at the moment it became a coalition. Having already agreed to divide reachable resources among themselves, existing members of the coalition would not want to be forced to negotiate with new coalition members and divide resources still further with those newcomers.

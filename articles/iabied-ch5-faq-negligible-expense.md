@@ -18,9 +18,9 @@ Add discussion note here:
 
 #### There are many negligible expenses, and it would need a reason to pay ours.
 
-Keeping a pile of forty-one stones in your house would be a negligible expense, but you're almost surely not going out of your way to pay that expense.{--{"author":"Luc's AI","timestamp":1787139988288}@@[\*](https://ifanyonebuildsit.com/5/to-a-powerful-ai-wouldnt-preserving-humans-be-a-negligible-expense#ftnt175)--}{++{"author":"Luc's AI","timestamp":1787139988288}@@[^source-note-175]++}
+Keeping a pile of forty-one stones in your house would be a negligible expense, but you're almost surely not going out of your way to pay that expense.[^source-note-175]
 
-That something would be *cheap* does not mean it will get done. The AI would still need to care at least a little, and it [probably won't]({--{"author":"Luc's AI","timestamp":1787152031648}@@/5/wont-ais-care-at-least-a-little-about-humans--}{++{"author":"Luc's AI","timestamp":1787152031648}@@https://ifanyonebuildsit.com/5/wont-ais-care-at-least-a-little-about-humans++}).
+That something would be *cheap* does not mean it will get done. The AI would still need to care at least a little, and it [probably won't](https://ifanyonebuildsit.com/5/wont-ais-care-at-least-a-little-about-humans).
 
 One might ask: But Earth intercepts around 0.0000045 percent of the light emitted by the Sun — one part in 2.2 billion. Do all the people worried about AI just fail to understand how large the Solar System really is? Why would AIs need *our* planet when there's so much mass and energy lying around?
 
@@ -36,11 +36,11 @@ It might still seem like human energy demands are negligible. A human needs arou
 
 We answer, in the end: not unless it cares for that outcome or its consequences more than every other thing it could achieve with 800 gigawatts.
 
-The vast majority of humans do not spare the relatively negligible amounts of sugar it would take to keep the nearest anthill in caloric surplus. Keeping humanity happy would be a negligible expense for an AI that wanted this, but first the AI would need to have that preference. The mere fact that *we* want it doesn't mean that the AI will care.{--{"author":"Luc's AI","timestamp":1787139988812}@@[†](https://ifanyonebuildsit.com/5/to-a-powerful-ai-wouldnt-preserving-humans-be-a-negligible-expense#ftnt177)--}{++{"author":"Luc's AI","timestamp":1787139988812}@@[^source-note-177]++}
+The vast majority of humans do not spare the relatively negligible amounts of sugar it would take to keep the nearest anthill in caloric surplus. Keeping humanity happy would be a negligible expense for an AI that wanted this, but first the AI would need to have that preference. The mere fact that *we* want it doesn't mean that the AI will care.[^source-note-177]
 
-{--{"author":"Luc's AI","timestamp":1787139988578}@@[\*](https://ifanyonebuildsit.com/5/to-a-powerful-ai-wouldnt-preserving-humans-be-a-negligible-expense#ftnt175_ref)--}{++{"author":"Luc's AI","timestamp":1787139988578}@@[^source-note-175]:++} Or at least you wouldn't've, before we gave you reason to do it just to spite us.
+[^source-note-175]: Or at least you wouldn't've, before we gave you reason to do it just to spite us.
 
-{--{"author":"Luc's AI","timestamp":1787139989035}@@[†](https://ifanyonebuildsit.com/5/to-a-powerful-ai-wouldnt-preserving-humans-be-a-negligible-expense#ftnt177_ref)--}{++{"author":"Luc's AI","timestamp":1787139989035}@@[^source-note-177]:++} Additionally, if the AI did have preferences that involved humans in some way, this [probably wouldn't turn out well for us]({--{"author":"Luc's AI","timestamp":1787152029786}@@/5/wont-ai-find-us-fascinating-or-historically-important--}{++{"author":"Luc's AI","timestamp":1787152029786}@@https://ifanyonebuildsit.com/5/wont-ai-find-us-fascinating-or-historically-important++}).
+[^source-note-177]: Additionally, if the AI did have preferences that involved humans in some way, this [probably wouldn't turn out well for us](https://ifanyonebuildsit.com/5/wont-ai-find-us-fascinating-or-historically-important).
 
 #### Notes
 

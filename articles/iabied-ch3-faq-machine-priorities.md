@@ -38,7 +38,7 @@ And that will naturally push the AIs to become more and more driven — an effec
 
 Recall the capture-the-flag computer security incident from the chapter, and remember that this resulted not from an AI trained to be a hacker, but from an AI trained to be good at solving generic puzzles. The "driven" behavior comes automatically*.*
 
-See also the discussion of "pure predictors" in the [Chapter 1 online resources]({--{"author":"Luc's AI","timestamp":1787151972322}@@/1/more-on-intelligence-as-prediction-and-steering#impure-predictors--}{++{"author":"Luc's AI","timestamp":1787151972322}@@https://ifanyonebuildsit.com/1/more-on-intelligence-as-prediction-and-steering#impure-predictors++}).
+See also the discussion of "pure predictors" in the [Chapter 1 online resources](https://ifanyonebuildsit.com/1/more-on-intelligence-as-prediction-and-steering#impure-predictors).
 
 #### Being tenacious is helpful even when the target is not quite right.
 
