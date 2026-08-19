@@ -4,7 +4,8 @@ author:
   - "Aaron Swartz"
 source_url: "http://aaronsw.com/weblog/theoryofchange"
 published: 2010-03-14
-created: 2026-07-27
+{++{"author":"Luc's AI","timestamp":1787133549262}@@allowAuthorInTitle: true
+++}created: 2026-07-27
 accessed: 2026-07-27
 description:
 tags:

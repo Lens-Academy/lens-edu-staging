@@ -1203,7 +1203,7 @@ Trust in GenAI
 (𝑝 = 0.046)
 (𝑝 = 0.499)
 (𝑝 < 0.001)
-Significance: *p<.05; **p<.01; ***p<.001; r: reference
+Significance: {--{"author":"Luc's AI","timestamp":1787133548425}@@*p<.05; **p<.01; ***p<.001;--}{++{"author":"Luc's AI","timestamp":1787133548425}@@\*p<.05; \*\*p<.01; \*\*\*p<.001;++} r: reference
 
 thinking is to think of ways to improve AI responses. Participants
 Potential negative outcomes (116/319). Participants shared that
@@ -2177,9 +2177,9 @@ Probe Users: Enhancing Complex Decision-Making Through Probing Conversa-
 human–AI teaming. IEEE Transactions on Human-Machine Systems 51, 4 (2021),
 tions. In Proceedings of the 4th Conference on Conversational User Interfaces
 288–299.
-(\<conf-loc>, \<city>Glasgow\</city>, \<country>United Kingdom\</country>,
+{--{"author":"Luc's AI","timestamp":1787133548760}@@(\<conf-loc>, \<city>Glasgow\</city>, \<country>United Kingdom\</country>,--}{++{"author":"Luc's AI","timestamp":1787133548760}@@(Glasgow, United Kingdom)++}
 [89] Lucas Memmert and Eva Bittner. 2022. Complex problem solving through
-\</conf-loc>) (CUI ’22). Association for Computing Machinery, New York, NY,
+{--{"author":"Luc's AI","timestamp":1787133549027}@@\</conf-loc>) --}(CUI ’22). Association for Computing Machinery, New York, NY,
 human-AI collaboration: literature review on research contexts. (2022).
 USA, Article 2, 10 pages. https://doi.org/10.1145/3543829.3543832
 [90] Lotte Meteyard, Sara Rodriguez Cuadrado, Bahador Bahrami, and Gabriella
