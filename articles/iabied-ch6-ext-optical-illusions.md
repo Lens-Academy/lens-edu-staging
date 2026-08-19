@@ -33,9 +33,9 @@ Finally, some [ongoing experiments](https://neurosciencenews.com/optical-illusio
 
 > Rhythmic waves of brain activity cause us to see or not see complex images that flash before our eyes. An image can become practically invisible if it flashes before our eyes at the same time as a low point of those brain waves. We can reset that brain wave rhythm with a simple voluntary action, like choosing to push a button.
 
-…further demonstrating that a richer understanding of biology and physiology allows for a greater range of strategic motion. Here, perceptions can be altered in ways that don't depend on changing the sensory input to the optic nerve at all, but instead simply depend on timing the arrival of stimuli to sync up with other things happening in the brain.
+…further demonstrating that a richer understanding of biology and physiology allows for a greater range of strategic motion. Here, perceptions can be altered in ways that don't depend on changing the sensory input to the optic nerve at all, but instead simply depend on timing the arrival of stimuli to sync up with other things happening in the brain.{--{"author":"Luc's AI","timestamp":1787151885128}@@
 
----
+-----}
 
 {--{"author":"Luc's AI","timestamp":1787140000767}@@[\*](https://ifanyonebuildsit.com/6/a-new-way-to-discover-optical-illusions#ftnt240_ref)--}{++{"author":"Luc's AI","timestamp":1787140000767}@@[^source-note-240]:++} From the original [paper](https://www.tandfonline.com/doi/full/10.1080/09515080500264115):
 

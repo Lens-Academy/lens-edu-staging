@@ -2028,11 +2028,11 @@ Either way, I think it’s good to climb a tree from time to time to look out at
 
 If you like Wait But Why, sign up for our **[email list](https://newsletter.waitbutwhy.com/join)** and we’ll send you new posts when they come out.
 
-To support Wait But Why, visit our **[Patreon page](https://patreon.com/waitbutwhy)**.
+To support Wait But Why, visit our **[Patreon page](https://patreon.com/waitbutwhy)**.{--{"author":"Luc's AI","timestamp":1787151885343}@@
 
 ---
 
----
+-----}
 
 {--{"author":"Luc's AI","timestamp":1787140259204}@@1.  --}{++{"author":"Luc's AI","timestamp":1787140259204}@@[^source-note-1]: ++}[Wikimedia {--{"author":"Luc's AI","timestamp":1787140259204}@@Commons](https://en.wikipedia.org/wiki/Metcalfe's_law#/media/File:Metcalfe-Network-Effect.svg).[↩](https://waitbutwhy.com/2017/04/neuralink.html#note2-1-6120)--}{++{"author":"Luc's AI","timestamp":1787140259204}@@Commons](https://en.wikipedia.org/wiki/Metcalfe's_law#/media/File:Metcalfe-Network-Effect.svg).++}
     

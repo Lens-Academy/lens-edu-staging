@@ -50,9 +50,9 @@ Fermi lost that argument, and well that it was so, for nuclear weapons turned ou
 
 Sometimes, technologies upend the world. If you take for granted that radical new technologies are "nuts," you can get blindsided by progress, even if you're one of the smartest scientists in the world. It is a great credit to Fermi, then, that he sat down and had the argument with Szilard. And an even greater credit, that he was persuaded to change his behavior *before* the technology existed, before he could see it with his own eyes — when there was still time to do something about it.
 
-A very large number of awful things have happened over the course of human history — but some of the awful things that haven't happened were avoided because somebody sat down and had the conversation. Forced the conversation, in some cases, as Szilard did with Fermi.
+A very large number of awful things have happened over the course of human history — but some of the awful things that haven't happened were avoided because somebody sat down and had the conversation. Forced the conversation, in some cases, as Szilard did with Fermi.{--{"author":"Luc's AI","timestamp":1787151885866}@@
 
----
+-----}
 
 {--{"author":"Luc's AI","timestamp":1787140003370}@@[\*](https://ifanyonebuildsit.com/intro/when-leo-szilard-saw-the-future#ftnt12_ref)--}{++{"author":"Luc's AI","timestamp":1787140003370}@@[^source-note-12]:++} Faced with this criticism of Fermi, we've seen people defend him by inventing reasons why it's totally plausible that Fermi did a lot of thinking before saying, "Nuts!" For example, they argue, Fermi knew that the Earth hadn't previously exploded in a cascade of induced radioactivity — which someone might think the Earth ought to have already done if those sorts of cascades were physically possible.
 
