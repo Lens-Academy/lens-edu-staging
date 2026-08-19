@@ -15,7 +15,7 @@ Add discussion note here:
 The "most important century" series of blog posts argues that **the 21st century could be the most important century ever for humanity,** via the development of advanced AI systems that could dramatically speed up scientific and technological advancement, getting us more quickly than most people imagine to a deeply unfamiliar future.
 
 You can get the **highlights from the series** via:
-* A [few-page summary (below)](https://www.cold-takes.com/most-important-century/#Summary)
+* A [few-page summary {--{"author":"Luc's AI","timestamp":1787140145107}@@(below)](https://www.cold-takes.com/most-important-century/#Summary)--}{++{"author":"Luc's AI","timestamp":1787140145107}@@(below)](#the-series-in-a-nutshell)++}
 * Discussion of the series on [The Ezra Klein Show](https://www.nytimes.com/2021/10/05/podcasts/transcript-ezra-klein-interviews-holden-karnofsky.html) (NYT, 90 minutes) or [The 80,000 Hours podcast](https://80000hours.org/podcast/episodes/holden-karnofsky-most-important-century/) (2 hours)
 
 You can **read the whole series** as:

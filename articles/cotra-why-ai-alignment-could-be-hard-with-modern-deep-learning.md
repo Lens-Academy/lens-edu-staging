@@ -34,7 +34,7 @@ We’re already starting to see preliminary evidence that models sometimes pursu
 
 The **deep learning alignment problem is the problem of ensuring that advanced deep learning models don’t pursue dangerous goals**.In the rest of this post, I will:
 
-- Build on the “hiring” analogy to illustrate how alignment could be difficult if deep learning models are more capable than humans ([more](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/#analogy-the-young-ceo)).
+- Build on the “hiring” analogy to illustrate how alignment could be difficult if deep learning models are more capable than humans {--{"author":"Luc's AI","timestamp":1787140144566}@@([more](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/#analogy-the-young-ceo)).--}{++{"author":"Luc's AI","timestamp":1787140144566}@@([more](#analogy-the-young-businessperson)).++}
 - Explain what the deep learning alignment problem is with a bit more technical detail {--{"author":"Luc's AI","timestamp":1787139973781}@@([more](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/#how-alignment-issues-could-arise-with-deep-learning)).--}{++{"author":"Luc's AI","timestamp":1787139973781}@@([more](#how-alignment-issues-could-arise-with-deep-learnin)).++}
 - Discuss how difficult the alignment problem may be, and how much risk there is from failing to solve it {--{"author":"Luc's AI","timestamp":1787139974024}@@([more](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/#how-big-of-a-risk-is-misalignment)).--}{++{"author":"Luc's AI","timestamp":1787139974024}@@([more](#how-big-of-a-risk-is-misalignment)).++}
 
