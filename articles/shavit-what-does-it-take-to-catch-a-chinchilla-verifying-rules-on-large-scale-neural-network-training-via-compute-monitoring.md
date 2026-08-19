@@ -506,7 +506,7 @@ In Figure [2](#A3.F2 "Figure 2 ‣ C.1 Do the Prover’s odds of evasion benefit
 
 Somewhat surprisingly, $p_{d}(k)$ changes very little as $k$ increases, and this remains true for almost all values of $b$.
 
-![Figure](/attachments/shavit-what-does-it-take-to-catch-a-chinchilla-verifying-rules-on-large-scale-neural-network-training-via-compute-monitoring-img2-da6fb69a.png)
+![Figure]({--{"author":"Luc's AI","timestamp":1787136281359}@@/attachments/shavit-what-does-it-take-to-catch-a-chinchilla-verifying-rules-on-large-scale-neural-network-training-via-compute-monitoring-img2-da6fb69a.png--}{++{"author":"Luc's AI","timestamp":1787136281359}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shavit-what-does-it-take-to-catch-a-chinchilla-verifying-rules-on-large-scale-neural-network-training-via-compute-monitoring-img2-da6fb69a.png++})
 
 Figure 2: Ratio of $p_{d}(k)$ to original $p=p_{d}(1)$, setting $p=0.9$ and varying $k$ from $1$ to $100$ and $b=H/(CaT)$ from $0$ to $0.2$ (where the latter end corresponds to the Prover using 20% of all chips, making such a large-scale training run easily catchable with even a dozen samples). Across all values, the Prover’s reduction in probability of detection is less than 5%, even when training for up to $100\times$ longer.
 
