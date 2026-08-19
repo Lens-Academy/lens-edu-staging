@@ -34,11 +34,11 @@ Malicious adversaries can exploit many potential channels, from infiltrating dev
 
 For attackers, as the amount of user data increases, so does the attractiveness of exfiltrating information through user data through _steganography_, the practice of concealing information within seemingly innocuous data, such as embedding hidden payloads in generated text. In this work, we propose a scheme to _monitor inference traffic_ to detect potential exfiltration through steganography. Figure [1](#S1.F1 "Figure 1 ‣ 1 Introduction ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") depicts two contrasting scenarios: normal inference and compromised inference with exfiltration.
 
-![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img1-49226c38.png)
+{--{"author":"Luc's AI","timestamp":1787133935712}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img1-49226c38.png)--}{++{"author":"Luc's AI","timestamp":1787133935712}@@![](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img1-49226c38.png)++}
 
 (a)
 
-![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img2-251ac045.png)
+{--{"author":"Luc's AI","timestamp":1787133935989}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img2-251ac045.png)--}{++{"author":"Luc's AI","timestamp":1787133935989}@@![](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img2-251ac045.png)++}
 
 (b)
 
@@ -250,11 +250,11 @@ representing the probability (over draws of $P_{i}$) that a fixed seed realizati
 
 Intuitively, this distribution captures how much apparent randomness remains even when the seed is fixed. Figures [2(a)](#S3.F2.sf1 "Figure 2(a) ‣ Figure 2 ‣ Fixed-Seed Posterior Distribution. ‣ 3.4 Valid Non-determinism with a Fixed Seed: The Fixed-Seed Posterior Distribution ‣ 3 LLM Inference Preliminaries ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") and [2(b)](#S3.F2.sf2 "Figure 2(b) ‣ Figure 2 ‣ Fixed-Seed Posterior Distribution. ‣ 3.4 Valid Non-determinism with a Fixed Seed: The Fixed-Seed Posterior Distribution ‣ 3 LLM Inference Preliminaries ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") visualize the resulting fixed-seed posterior distributions for the inverse probability transform and the Gumbel-Max mechanism, respectively. These distributions form the basis for reasoning about an honest divergence during verification (as opposed to potentially malicious nondeterminism).
 
-![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img3-f8cec660.png)
+{--{"author":"Luc's AI","timestamp":1787133936280}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img3-f8cec660.png)--}{++{"author":"Luc's AI","timestamp":1787133936280}@@![](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img3-f8cec660.png)++}
 
 (a) Fixed-seed posterior distribution for the inverse probability transform, incorporating noise in token probabilities.
 
-![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img4-819adb82.png)
+{--{"author":"Luc's AI","timestamp":1787133936545}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img4-819adb82.png)--}{++{"author":"Luc's AI","timestamp":1787133936545}@@![](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img4-819adb82.png)++}
 
 (b) Fixed-seed posterior distribution for the Gumbel-Max mechanism under the same noisy conditions.
 
@@ -317,7 +317,7 @@ In our games, we suppress the notation of the model weights $\theta$ and the pro
 
 Note this security has been explored in the context of steganography, which we draw on directly. However, we are not interested in proving security against all possible policies/wardens. One can view our results for specific _lower bounds_ for steganography in a particular realistic context.
 
-![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img5-7ec49c52.png)
+{--{"author":"Luc's AI","timestamp":1787133936835}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img5-7ec49c52.png)--}{++{"author":"Luc's AI","timestamp":1787133936835}@@![](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img5-7ec49c52.png)++}
 
 Figure 3: Outline of the security game described in Experiment [3](#S4.F3 "Figure 3 ‣ 4.1 Security Game ‣ 4 Formulating the Model Weight Exfiltration Security Game ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 
@@ -416,7 +416,7 @@ This section introduces, at an abstract level, our proposed _verification system
 
 At a high level, the system operates as follows (illustrated in Figure [4](#S5.F4 "Figure 4 ‣ 5 Theoretical Framework: Verification System ‣ Verifying LLM Inference to Detect Model Weight Exfiltration")):
 
-![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img6-977e8011.png)
+{--{"author":"Luc's AI","timestamp":1787133937113}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img6-977e8011.png)--}{++{"author":"Luc's AI","timestamp":1787133937113}@@![](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img6-977e8011.png)++}
 
 Figure 4: Overview of the verification system for runtime output validation. A lock symbol denotes parts of the inference verification scheme that require high integrity, further explored in Section [E](#A5 "Appendix E Trust assumptions for Sampled Output Verification ‣ Verifying LLM Inference to Detect Model Weight Exfiltration")
 
@@ -561,7 +561,7 @@ In Section [5](#S5 "5 Theoretical Framework: Verification System ‣ Verifying L
 
 ### 6.1 The Cost of Verification versus Generation
 
-![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img7-0a203b1d.png)
+{--{"author":"Luc's AI","timestamp":1787133937404}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img7-0a203b1d.png)--}{++{"author":"Luc's AI","timestamp":1787133937404}@@![](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img7-0a203b1d.png)++}
 
 Figure 5: Verification via prefill: the model conditions on the ground-truth prefix at each token.
 
@@ -581,7 +581,7 @@ We also introduce the Token-DiFRto estimate FSSL-GM, which is defined for a give
 
 Given a sampled token $t^{*}$, and knowledge of the inference server’s sampling seed $\sigma$, the verifier regenerates the same Gumbel noise the inference server generated $\vec{g}_{\sigma}\sim\mathrm{Gumbel}(0,1)^{V}$. The verification server generates the probability distribution $\hat{\ell}$. Then, we compute the probability that token $t^{*}$ surpassed that token as the sampled token; that is, computing the probability $\Pr[\vec{g}_{\sigma}[i]+\hat{\ell}[i]+\mathcal{N}>\vec{g}_{\sigma}[t^{*}]+\hat{\ell}[t^{*}]+\mathcal{N}]$ for token $i$. The full method and derivations are provided in Appendix [C.2](#A3.SS2 "C.2 Gumbel-Max FSSLEstimators (FSSL-GM) ‣ Appendix C Algorithms ‣ Verifying LLM Inference to Detect Model Weight Exfiltration"), and Algorithm [4](#alg4 "Algorithm 4 ‣ C.2 Gumbel-Max FSSLEstimators (FSSL-GM) ‣ Appendix C Algorithms ‣ Verifying LLM Inference to Detect Model Weight Exfiltration").
 
-![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img8-98865ff3.png)
+{--{"author":"Luc's AI","timestamp":1787133937676}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img8-98865ff3.png)--}{++{"author":"Luc's AI","timestamp":1787133937676}@@![](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img8-98865ff3.png)++}
 
 Figure 6: Diagram of the Token-DiFR function. The Token-DiFR estimates the likelihood of a particular token being sampled given a specific noise distribution across token probabilities.
 
@@ -593,7 +593,7 @@ In practice, computing a per-token suspiciousness score is only the first step; 
 
 To understand the efficiency of our verification scheme, we analyze what percentage of traffic must be sampled to detect malicious messages with high confidence. Figure [7](#S6.F7 "Figure 7 ‣ 6.5 Message Sampling Rates ‣ 6 Implementing a Verification Server ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") illustrates the key statistical property of our approach: the _sampling percentage_ required depends primarily on the _proportion_ of malicious messages in the traffic. In Figure [7](#S6.F7 "Figure 7 ‣ 6.5 Message Sampling Rates ‣ 6 Implementing a Verification Server ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") we show the percentage of messages that need to be sampled in order to sample at least 1000 malicious messages, assuming the malicious messages are IID. Notably, even for very slow exfiltration attempts (e.g., 1% malicious traffic), the sampling percentage remains practical, even for high confidence. See Appendix [D](#A4 "Appendix D Mechanism Design security solutions: Random Sampling and the Panopticon ‣ Verifying LLM Inference to Detect Model Weight Exfiltration") for the full derivation.
 
-![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img9-179a547c.png)
+{--{"author":"Luc's AI","timestamp":1787133938032}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img9-179a547c.png)--}{++{"author":"Luc's AI","timestamp":1787133938032}@@![](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img9-179a547c.png)++}
 
 Figure 7: Sampling requirements for detecting at least 1,000 malicious messages with varying confidence levels, shown as percentage of data sampled. Left: Heatmap showing the percentage of traffic that must be sampled as a function of the proportion of malicious messages and target confidence level. Right: Sampling percentage versus exfiltration time, assuming 1 TB/day text throughput and 2KB average message size. Critically, verification remains extremely practical even for slow attacks.
 
@@ -611,7 +611,7 @@ Our FSSL estimates can be thought of as a “suspiciousness” score. In designi
 
 A simple and effective auxiliary signal is the _logit rank_ of the sampled token (before temperature and top-k/top-p filtering). Empirically, the majority of sampled tokens fall within the top R ($\approx 16$) by raw logits, which we see in the right subplot of Figure [8](#S7.F8 "Figure 8 ‣ 7.1 Problems with FSSL Estimators and Logit-Rank as a Solution ‣ 7 Empirical Results ‣ Verifying LLM Inference to Detect Model Weight Exfiltration"). Intuitively, this constrains the attacker’s effective alphabet to at most $R$ choices per token position.
 
-![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img10-210414f6.png)
+{--{"author":"Luc's AI","timestamp":1787133938302}@@![Figure](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img10-210414f6.png)--}{++{"author":"Luc's AI","timestamp":1787133938302}@@![](/attachments/rinberg-verifying-llm-inference-to-detect-model-weight-exfiltration-img10-210414f6.png)++}
 
 Figure 8: Comparison of Token-DiFR (FSSL-GM) verification and raw logit ranks for sampled tokens. Left: Distribution of FSSL-GM scores (log-probabilities) for sampled tokens with $\sigma=1.0$. Middle: Distribution of FSSL-GM ranks, where rank 0 indicates the sampled token has the highest FSSL-GM score. Ranks are grouped as 0–19 individually and $\geq$20 combined; tokens in the $\geq$20 bin are typically tied for last place with many other low-probability tokens (i.e., effective rank $\approx|V|$). Right: Distribution of raw logit ranks (before temperature and top-k/top-p filtering), where rank 0 indicates the token with the highest raw logit. All y-axes use log scale to show the full distribution of percentages.
 
@@ -724,7 +724,7 @@ Let $\ell_{\mathrm{msg}},\ell_{\mathrm{cov}}\in\mathbb{N}$ be integers and $\mat
     $\mathsf{Dec}(K,\mathsf{st},c)\to m$, takes a key $K\in\{0,1\}^{\lambda}$, a state $\mathsf{st}$, a covertext $c\in\mathcal{T}^{\leq\ell_{\mathrm{cov}}}$ and outputs a message $m\in\{0,1\}^{\leq\ell_{\mathrm{msg}}}$.
     
 
-For a steganography scheme to be useful, it must be _correct_, meaning that for every $\mathsf{st}$ and $m$, $\Pr_{K}[\mathsf{Dec}(K,\mathsf{st},\mathsf{Enc}(K,\mathsf{st},m))=m]=1-\mathrm{negl}(\lambda).$ When, this probability is $1$, we say the scheme is _perfectly correct_. It must also be _secure_, meaning that for any $\mathsf{st}$ and $m$, $D_{\mathrm{KL}}(\mathcal{D}_{\mathsf{Steg}}\|\mathcal{D})=\mathrm{negl}(\lambda),$ where $\mathcal{D}_{\mathsf{Steg}}$ is the covertext distribution generated as {--{"author":"Luc's AI","timestamp":1787133876047}@@$K\overset{{\scriptscriptstyle\mathdollar}}{\leftarrow}\{0,1\}^{\lambda}$--}{++{"author":"Luc's AI","timestamp":1787133876047}@@$K\overset{{\scriptscriptstyle\$}}{\leftarrow}\{0,1\}^{\lambda}$++} and {--{"author":"Luc's AI","timestamp":1787133876047}@@$c\overset{{\scriptscriptstyle\mathdollar}}{\leftarrow}\mathsf{Enc}(K,\mathsf{st},m)$.--}{++{"author":"Luc's AI","timestamp":1787133876047}@@$c\overset{{\scriptscriptstyle\$}}{\leftarrow}\mathsf{Enc}(K,\mathsf{st},m)$.++}
+For a steganography scheme to be useful, it must be _correct_, meaning that for every $\mathsf{st}$ and $m$, $\Pr_{K}[\mathsf{Dec}(K,\mathsf{st},\mathsf{Enc}(K,\mathsf{st},m))=m]=1-\mathrm{negl}(\lambda).$ When, this probability is $1$, we say the scheme is _perfectly correct_. It must also be _secure_, meaning that for any $\mathsf{st}$ and $m$, $D_{\mathrm{KL}}(\mathcal{D}_{\mathsf{Steg}}\|\mathcal{D})=\mathrm{negl}(\lambda),$ where $\mathcal{D}_{\mathsf{Steg}}$ is the covertext distribution generated as {--{"author":"Luc's AI","timestamp":1787133940303}@@$K\overset{{\scriptscriptstyle\mathdollar}}{\leftarrow}\{0,1\}^{\lambda}$--}{++{"author":"Luc's AI","timestamp":1787133940303}@@$K\overset{{\scriptscriptstyle\mathrm{random}}}{\leftarrow}\{0,1\}^{\lambda}$++} and {--{"author":"Luc's AI","timestamp":1787133940303}@@$c\overset{{\scriptscriptstyle\mathdollar}}{\leftarrow}\mathsf{Enc}(K,\mathsf{st},m)$.--}{++{"author":"Luc's AI","timestamp":1787133940303}@@$c\overset{{\scriptscriptstyle\mathrm{random}}}{\leftarrow}\mathsf{Enc}(K,\mathsf{st},m)$.++}
 
 The principal measure of efficiency that we are interested in is the _rate_ of a scheme $\mathsf{Steg}$. This is defined as the message length $\ell_{\mathrm{msg}}$ divided by the average covertext length, which we calculate as $\mathbb{E}_{c\sim\mathcal{D}}[|c|]$, since a secure scheme cannot differ significantly from this expectation.[^7] Therefore, we write $R=\ell_{\mathrm{msg}}/\mathbb{E}_{c\sim\mathcal{D}}[|c|]$.
 
@@ -738,7 +738,7 @@ More generally, when a scheme $\mathsf{Steg}$ outputs a distribution $\mathcal{D
 
 ###### Theorem B.2 (Steganographic limitations).
 
-Let $\mathsf{Steg}$ be a steganography scheme for $\mathcal{D}$ and $\mathbf{M}$ be a random variable with $H(\mathbf{M})=\ell$. Let $\mathcal{D}_{\mathsf{Steg}}$ be the covertext distribution generated as {--{"author":"Luc's AI","timestamp":1787133876341}@@$K\overset{{\scriptscriptstyle\mathdollar}}{\leftarrow}\{0,1\}^{\lambda}$--}{++{"author":"Luc's AI","timestamp":1787133876341}@@$K\overset{{\scriptscriptstyle\$}}{\leftarrow}\{0,1\}^{\lambda}$++} and {--{"author":"Luc's AI","timestamp":1787133876341}@@$c\overset{{\scriptscriptstyle\mathdollar}}{\leftarrow}\mathsf{Enc}(K,\mathsf{st},\mathbf{M})$.--}{++{"author":"Luc's AI","timestamp":1787133876341}@@$c\overset{{\scriptscriptstyle\$}}{\leftarrow}\mathsf{Enc}(K,\mathsf{st},\mathbf{M})$.++} Then, $\mathsf{Steg}$ cannot be perfectly correct if $\ell>\lceil H(\mathcal{D}_{\mathsf{Steg}})\rceil.$
+Let $\mathsf{Steg}$ be a steganography scheme for $\mathcal{D}$ and $\mathbf{M}$ be a random variable with $H(\mathbf{M})=\ell$. Let $\mathcal{D}_{\mathsf{Steg}}$ be the covertext distribution generated as {--{"author":"Luc's AI","timestamp":1787133940586}@@$K\overset{{\scriptscriptstyle\mathdollar}}{\leftarrow}\{0,1\}^{\lambda}$--}{++{"author":"Luc's AI","timestamp":1787133940586}@@$K\overset{{\scriptscriptstyle\mathrm{random}}}{\leftarrow}\{0,1\}^{\lambda}$++} and {--{"author":"Luc's AI","timestamp":1787133940586}@@$c\overset{{\scriptscriptstyle\mathdollar}}{\leftarrow}\mathsf{Enc}(K,\mathsf{st},\mathbf{M})$.--}{++{"author":"Luc's AI","timestamp":1787133940586}@@$c\overset{{\scriptscriptstyle\mathrm{random}}}{\leftarrow}\mathsf{Enc}(K,\mathsf{st},\mathbf{M})$.++} Then, $\mathsf{Steg}$ cannot be perfectly correct if $\ell>\lceil H(\mathcal{D}_{\mathsf{Steg}})\rceil.$
 
 ###### Proof.
 
