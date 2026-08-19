@@ -39,7 +39,7 @@ We're fully on board with the idea that humanity should build smarter-than-human
 
 Given humanity's dismal state of knowledge and competence on this topic, it doesn't matter who's in charge. If *anyone* builds it, everyone dies.
 
-{--{"author":"Luc's AI","timestamp":1787139900804}@@[\*](https://ifanyonebuildsit.com/12/why-not-use-international-cooperation-to-build-ai-safely-rather-than-to-shut-it-all-down#ftnt277_ref)--}{++{"author":"Luc's AI","timestamp":1787139900804}@@[^source-note-277]:++} How, if not by an international coalition? We'd recommend investment into [enhancing adult human intelligence](/13/why-would-making-humans-smarter-help#it-could-help-with-solving-the-alignment-problem), but this is not the sort of idea people need to agree upon to agree that shutting down ASI research is a good idea.
+{--{"author":"Luc's AI","timestamp":1787139900804}@@[\*](https://ifanyonebuildsit.com/12/why-not-use-international-cooperation-to-build-ai-safely-rather-than-to-shut-it-all-down#ftnt277_ref)--}{++{"author":"Luc's AI","timestamp":1787139900804}@@[^source-note-277]:++} How, if not by an international coalition? We'd recommend investment into [enhancing adult human intelligence]({--{"author":"Luc's AI","timestamp":1787151972585}@@/13/why-would-making-humans-smarter-help#it-could-help-with-solving-the-alignment-problem--}{++{"author":"Luc's AI","timestamp":1787151972585}@@https://ifanyonebuildsit.com/13/why-would-making-humans-smarter-help#it-could-help-with-solving-the-alignment-problem++}), but this is not the sort of idea people need to agree upon to agree that shutting down ASI research is a good idea.
 
 #### Notes
 

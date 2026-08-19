@@ -33,7 +33,7 @@ Early chatbots were limited communicators. Then, in 2020, the maturation of the 
 
 Are there obstacles between modern AI and the "real deal," the sort of AI that could become or create a superintelligence?
 
-Maybe. Maybe more architectural insights are needed, like the ones behind AlexNet that unlocked the whole field of modern AI, or like the ones behind AlphaZero that finally let AIs be good at multiple games using the same algorithm, or the ones behind ChatGPT that made the computers start talking. (Or maybe not; maybe modern AIs will quietly [cross some threshold](/1/will-ai-cross-critical-thresholds-and-take-off) and that'll be that.)
+Maybe. Maybe more architectural insights are needed, like the ones behind AlexNet that unlocked the whole field of modern AI, or like the ones behind AlphaZero that finally let AIs be good at multiple games using the same algorithm, or the ones behind ChatGPT that made the computers start talking. (Or maybe not; maybe modern AIs will quietly [cross some threshold]({--{"author":"Luc's AI","timestamp":1787151974225}@@/1/will-ai-cross-critical-thresholds-and-take-off--}{++{"author":"Luc's AI","timestamp":1787151974225}@@https://ifanyonebuildsit.com/1/will-ai-cross-critical-thresholds-and-take-off++}) and that'll be that.)
 
 But if there are obstacles left, the researchers in the field will probably surmount them. They're pretty good at that, and there are far more researchers hammering on this problem now than there were in 2012.
 

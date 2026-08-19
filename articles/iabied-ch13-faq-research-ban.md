@@ -25,7 +25,7 @@ That's why research into even more powerful and efficient AI algorithms is also 
 
 This is very bad news, and not what we wish were true. But it seems to be the situation we're in.
 
-No law can prevent current AI scientists from thinking more about efficient algorithms in the privacy of their own minds. Maybe some people start an underground network for sharing research results. Some people in the AI industry already [proudly declare](/5/why-dont-you-care-about-the-values-of-any-entities-other-than-humans) that humanity *should* die to AIs; they might do their best to drive forward, no matter what anyone else says.
+No law can prevent current AI scientists from thinking more about efficient algorithms in the privacy of their own minds. Maybe some people start an underground network for sharing research results. Some people in the AI industry already [proudly declare]({--{"author":"Luc's AI","timestamp":1787151974939}@@/5/why-dont-you-care-about-the-values-of-any-entities-other-than-humans--}{++{"author":"Luc's AI","timestamp":1787151974939}@@https://ifanyonebuildsit.com/5/why-dont-you-care-about-the-values-of-any-entities-other-than-humans++}) that humanity *should* die to AIs; they might do their best to drive forward, no matter what anyone else says.
 
 But AI research would slow down a *lot* if it were illegal, and all the more so if it were widely understood that this really is a kind of research that is liable to get us all killed. It would slow down immensely if underground networks of that sort were tracked down and stopped with the same conviction used to stop people who try to enrich uranium in their garage, because the real-world dangers are taken seriously.
 
