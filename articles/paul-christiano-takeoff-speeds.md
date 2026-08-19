@@ -211,7 +211,7 @@ However, I think each of these factors is perfectly consistent with the continuo
 
 (The chimps vs. humans case is an {--{"author":"Luc's AI","timestamp":1787162630423}@@exception-it--}{++{"author":"Luc's AI","timestamp":1787162630423}@@exception—it++} does provide Bayesian evidence for fast takeoff that could be combined with other factors. But it's just one.)
 
-I could easily be wrong about any one of these lines of argument. So I do assign a much higher probability to fast takeoff than I would if there were fewer arguments (I'm around 30% of fast takeoff). But i f I change my mind, it will probably be because one of these arguments (or another argument not considered here) turns out to be compelling on its own. My impression is that other people in the safety community have more like a 70% or even 90% chance of fast takeoff, which I assume is because they _already_ find some of these arguments compelling.
+I could easily be wrong about any one of these lines of argument. So I do assign a much higher probability to fast takeoff than I would if there were fewer arguments (I'm around 30% of fast takeoff). But {--{"author":"Luc's AI","timestamp":1787162730231}@@i f--}{++{"author":"Luc's AI","timestamp":1787162730231}@@if++} I change my mind, it will probably be because one of these arguments (or another argument not considered here) turns out to be compelling on its own. My impression is that other people in the safety community have more like a 70% or even 90% chance of fast takeoff, which I assume is because they _already_ find some of these arguments compelling.
 
 ### Why does this matter?
 
