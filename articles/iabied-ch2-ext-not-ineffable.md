@@ -15,7 +15,7 @@ Add discussion note here:
 ...
 
 %%
-In recent years, the field of AI has made progress not by deepening our understanding of intelligence, but by [finding](/2/obvious-insights-take-time) [ways](/2/a-full-description-of-an-llm) to "grow" AIs. Attempts to understand intelligence itself met with years of dead ends and stagnation. Now that growing powerful AIs has met with success, some people wonder whether the idea of "understanding intelligence" is just a mirage.
+In recent years, the field of AI has made progress not by deepening our understanding of intelligence, but by [finding]({--{"author":"Luc's AI","timestamp":1787152180358}@@/2/obvious-insights-take-time--}{++{"author":"Luc's AI","timestamp":1787152180358}@@https://ifanyonebuildsit.com/2/obvious-insights-take-time++}) [ways](/2/a-full-description-of-an-llm) to "grow" AIs. Attempts to understand intelligence itself met with years of dead ends and stagnation. Now that growing powerful AIs has met with success, some people wonder whether the idea of "understanding intelligence" is just a mirage.
 
 Perhaps there are no general principles to understand? Or perhaps the principles are too weird or too complicated for humans to ever comprehend?
 
@@ -42,7 +42,7 @@ There are four basic reasons why we think this:
 
 When humanity doesn't understand something, it can often seem intimidating and profoundly mysterious. It can be hard to imagine — or hard to appreciate emotionally! — what it would be like to deeply understand that topic in the future.
 
-There was once, among philosophers and scientists, a widespread belief in *[vitalism](/1/special-behavior-is-built-out-of-mundane-parts)*— the idea that biological processes could never be reduced to mere chemistry and physics. Life seemed like something special, something incomparably different from mere atoms and molecules, mere gravity and electromagnetism.
+There was once, among philosophers and scientists, a widespread belief in *[vitalism]({--{"author":"Luc's AI","timestamp":1787152180620}@@/1/special-behavior-is-built-out-of-mundane-parts--}{++{"author":"Luc's AI","timestamp":1787152180620}@@https://ifanyonebuildsit.com/1/special-behavior-is-built-out-of-mundane-parts++})*— the idea that biological processes could never be reduced to mere chemistry and physics. Life seemed like something special, something incomparably different from mere atoms and molecules, mere gravity and electromagnetism.
 
 The mistake of the vitalists has been a remarkably common one throughout history. People are quick to conclude that things which are mysterious today are *inherently* mysterious, unknowable even in principle.
 
@@ -128,7 +128,7 @@ The question matters mainly when it comes to deciding what to do *after* stoppin
 
 And it matters that intelligence probably *can* be understood, which means it probably would be possible *in principle* for smart people to develop a mature field of intelligence, and for those people to figure out a solution to the AI alignment problem.
 
-It *also* matters that modern humanity is nowhere near close to that feat, of course. But the fact that the feat is possible in principle has implications for how humanity should navigate its way out of this mess, as we'll discuss later, in an [extended discussion](/13/what-would-it-take-to-shut-down-global-ai-development) after Chapter 10.
+It *also* matters that modern humanity is nowhere near close to that feat, of course. But the fact that the feat is possible in principle has implications for how humanity should navigate its way out of this mess, as we'll discuss later, in an [extended discussion]({--{"author":"Luc's AI","timestamp":1787152180826}@@/13/what-would-it-take-to-shut-down-global-ai-development--}{++{"author":"Luc's AI","timestamp":1787152180826}@@https://ifanyonebuildsit.com/13/what-would-it-take-to-shut-down-global-ai-development++}) after Chapter 10.
 
 Before we get there, we need to explain why AI techniques like the ones we've discussed above pose such a grave threat, when and if researchers manage to surpass human intelligence. We begin that account in Chapter 3.{--{"author":"Luc's AI","timestamp":1787151884143}@@
 
