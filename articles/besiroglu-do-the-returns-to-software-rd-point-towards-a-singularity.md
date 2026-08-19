@@ -30,7 +30,7 @@ Improvements in AI have predominantly been driven by two factors. First, advance
 
 The combination of the scaling of compute and improvements in training techniques has effectively increased the total budget of “effective compute,” which refers to the computational resources available for AI development when accounting for improvements on the “software” side. This increase in effective compute has been a key driver in the development of capable AI systems.
 
-Looking ahead, it is plausible that AI could substantially automate its own R&D in the future. If this happens, two types of outcomes are possible, which Ajeya Cotra colorfully [refers to](https://docs.google.com/presentation/d/1KpiiTd_vOJ1caQOCYfvpk2t2toiPuH71yZnr-GNmHRo/edit?usp=sharing) as “foom” or “fizzle”:[^1]
+Looking ahead, it is plausible that AI could substantially automate its own R&D in the future. If this happens, two types of outcomes are possible, which Ajeya Cotra colorfully [refers to](https://docs.google.com/presentation/d/1KpiiTd_vOJ1caQOCYfvpk2t2toiPuH71yZnr-GNmHRo/edit?usp=sharing) as “foom” or {--{"author":"Luc's AI","timestamp":1787158950787}@@“fizzle”:[^1]--}{++{"author":"Luc's AI","timestamp":1787158950787}@@“fizzle”:[^note-besiroglu-1]++}
 
 -   **Foom**: AI systems produce a proportional improvement in AI software which results in a _greater-than-proportional_ improvement in the subsequent AI-produced R&D output and technological progress accelerates.
     
@@ -152,6 +152,6 @@ Anson Ho is a researcher at Epoch AI. He is interested in helping develop a more
 
 ](https://epoch.ai/about/team/anson-ho)
 
-[^1]: There is a third possible outcome where a proportional increase in AI R&D produces a proportional improvement in AI software, which in turn results in a precisely proportional improvement in subsequent AI-produced R&D output. For the purposes of this exposition, we neglect this knife-edged scenario.
+{--{"author":"Luc's AI","timestamp":1787158952090}@@[^1]:--}{++{"author":"Luc's AI","timestamp":1787158952090}@@[^note-besiroglu-1]:++} There is a third possible outcome where a proportional increase in AI R&D produces a proportional improvement in AI software, which in turn results in a precisely proportional improvement in subsequent AI-produced R&D output. For the purposes of this exposition, we neglect this knife-edged scenario.
 [^2]: The parameter $\theta$ also influences the long-run dynamics, but only in a quantitative sense (e.g. the value of the exponent under an exponential growth trajectory). In contrast, r can change the _qualitative_ dynamics of long-run growth, and this will be our primary focus for the purposes of this post.
 [^3]: See the literature review in [Ho et al. {--{"author":"Luc's AI","timestamp":1787140484145}@@2024](https://epoch.ai/blog/do-the-returns-to-software-rnd-point-towards-a-singularity#ho2024algorithmic)--}{++{"author":"Luc's AI","timestamp":1787140484145}@@2024](https://arxiv.org/abs/2403.05812)++} for some examples of this.
