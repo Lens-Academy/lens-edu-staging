@@ -23,13 +23,13 @@ Humans are even known to ask themselves if they have the *right* values. People 
 
 Seeing this, some have argued that AIs will naturally converge on wanting what humans want. After all, sufficiently capable AIs are also likely to reflect on their goals. They're likely to observe inner conflicts, and to use their reasoning and their preferences to resolve those conflicts.
 
-Once they're smart enough, AIs will be able to fully understand what we, the AI's creators, *wanted* the AI's goals to be. So won't initially "flawed" AIs [work to repair their flaws](/4/wont-ais-fix-their-own-flaws-as-they-get-smarter) — including repairing flaws *in the AI's goals?*
+Once they're smart enough, AIs will be able to fully understand what we, the AI's creators, *wanted* the AI's goals to be. So won't initially "flawed" AIs [work to repair their flaws]({--{"author":"Luc's AI","timestamp":1787152196100}@@/4/wont-ais-fix-their-own-flaws-as-they-get-smarter--}{++{"author":"Luc's AI","timestamp":1787152196100}@@https://ifanyonebuildsit.com/4/wont-ais-fix-their-own-flaws-as-they-get-smarter++}) — including repairing flaws *in the AI's goals?*
 
 They won't, no. And this is because AIs will use their *current* preferences to guide their future preferences. If their current preferences *start out* alien, they'll very likely *wind up* alien.
 
 To understand the basic problem in more detail, let's begin by investigating the human case in a bit more depth.
 
-Even though our brains and goals ultimately come from an evolutionary process that was just building us to propagate our genes, humans don't pursue the propagation of our genes above all else. We may individually pursue family, and we may love and care for children; but that's [quite different](/4/a-lot-of-people-want-kids-so-arent-humans-aligned-with-natural-selection-after-all) from gaming out how to get the most copies of our genes into the next generation, and then pursuing that strategy with all our heart.
+Even though our brains and goals ultimately come from an evolutionary process that was just building us to propagate our genes, humans don't pursue the propagation of our genes above all else. We may individually pursue family, and we may love and care for children; but that's [quite different]({--{"author":"Luc's AI","timestamp":1787152196297}@@/4/a-lot-of-people-want-kids-so-arent-humans-aligned-with-natural-selection-after-all--}{++{"author":"Luc's AI","timestamp":1787152196297}@@https://ifanyonebuildsit.com/4/a-lot-of-people-want-kids-so-arent-humans-aligned-with-natural-selection-after-all++}) from gaming out how to get the most copies of our genes into the next generation, and then pursuing that strategy with all our heart.
 
 This is because, when we reflect on our preferences and re-evaluate what we really want, we use our *current preferences* to decide how we would rather be. We would rather love a few children than spend all our time in sperm or egg donor clinics. Our "designer" (evolution) failed to make us care about gene propagation over everything else. It also failed to make us *want* to care about gene propagation over everything else. So when we change and grow as people, it's in our own weird human direction, not in the direction of "what our designer built us for."
 
@@ -65,7 +65,7 @@ In contrast, when the AI reflects on itself and sees how it's pursuing weird goa
 
 In other words: If an AI keeps trying to predict the outcomes of biology experiments, and it keeps getting wrong and overconfident answers, then the AI is likely to *disprefer* that. Almost any goal the AI could have would be better served by being good at predicting experiments. On the other hand, if the AI has a bizarre preference like "bake 300-meter-tall cheesecakes," then when the AI reflects on the fact that it *steers toward* 300-meter tall cheesecakes, it will see that this *causes* 300-meter tall cheesecakes, which fulfills its current preferences. The goal is self-endorsing.
 
-A human, observing this situation, might say: "But the AI is so smart! Why is it *trapped* by this self-endorsing preference? Why doesn't it get *[bored](/4/curiosity-isnt-convergent#as-with-curiosity-so-too-with-various-other-drives)* of making cheesecakes? Why can't it reason its way out of this obviously silly preference?"
+A human, observing this situation, might say: "But the AI is so smart! Why is it *trapped* by this self-endorsing preference? Why doesn't it get *[bored]({--{"author":"Luc's AI","timestamp":1787152196510}@@/4/curiosity-isnt-convergent#as-with-curiosity-so-too-with-various-other-drives--}{++{"author":"Luc's AI","timestamp":1787152196510}@@https://ifanyonebuildsit.com/4/curiosity-isnt-convergent#as-with-curiosity-so-too-with-various-other-drives++})* of making cheesecakes? Why can't it reason its way out of this obviously silly preference?"
 
 To which the AI could reply: "Why are you 'trapped' in the self-endorsing preference of loving your family, of valuing beautiful sunsets and the sound of the ocean at night? Why can't you 'break free' of loving the memory of the day your daughter was born?"
 
@@ -83,7 +83,7 @@ This has some implications for AI. One implication is that AIs likely won't valu
 
 To understand these points, let's zoom in more on some ways that human goals look strange from the theoretical viewpoint of decision theory, game theory, and economics.
 
-As we noted [above](/4/terminal-goals-and-instrumental-goals), humans value some things "terminally" (i.e., they're good in their own right), and other things "instrumentally" (i.e., they're only good because they help with some other goal).
+As we noted [above]({--{"author":"Luc's AI","timestamp":1787152196736}@@/4/terminal-goals-and-instrumental-goals--}{++{"author":"Luc's AI","timestamp":1787152196736}@@https://ifanyonebuildsit.com/4/terminal-goals-and-instrumental-goals++}), humans value some things "terminally" (i.e., they're good in their own right), and other things "instrumentally" (i.e., they're only good because they help with some other goal).
 
 If you like orange juice, you presumably like it terminally. It just *tastes good*, and that's justification enough for drinking it. (You might *also* value it instrumentally, e.g., as a source of Vitamin C.)
 
@@ -127,6 +127,6 @@ Reflection makes the problem many times more difficult and complex.
 
 Which brings us to Chapter 5, and the next topic we'll be turning to: What would be the likely *consequence* of building powerful AIs that have alien and unpredictable goals?
 
-{--{"author":"Luc's AI","timestamp":1787139948920}@@[\*](https://ifanyonebuildsit.com/4/reflection-and-self-modification-make-it-all-harder#ftnt165_ref)--}{++{"author":"Luc's AI","timestamp":1787139948920}@@[^source-note-165]:++} For further discussion on this topic, see our discussion on how [Smart AIs Spot Lies and Opportunities.](/3/smart-ais-spot-lies-and-opportunities)
+{--{"author":"Luc's AI","timestamp":1787139948920}@@[\*](https://ifanyonebuildsit.com/4/reflection-and-self-modification-make-it-all-harder#ftnt165_ref)--}{++{"author":"Luc's AI","timestamp":1787139948920}@@[^source-note-165]:++} For further discussion on this topic, see our discussion on how [Smart AIs Spot Lies and Opportunities.]({--{"author":"Luc's AI","timestamp":1787152197015}@@/3/smart-ais-spot-lies-and-opportunities--}{++{"author":"Luc's AI","timestamp":1787152197015}@@https://ifanyonebuildsit.com/3/smart-ais-spot-lies-and-opportunities++})
 
-{--{"author":"Luc's AI","timestamp":1787139949612}@@[†](https://ifanyonebuildsit.com/4/reflection-and-self-modification-make-it-all-harder#ftnt166_ref)--}{++{"author":"Luc's AI","timestamp":1787139949612}@@[^source-note-166]:++} See also our discussion of how [Human Culture Influenced the Development of Human Values](/4/human-values-are-contingent#human-culture-influenced-the-development-of-human-values).
+{--{"author":"Luc's AI","timestamp":1787139949612}@@[†](https://ifanyonebuildsit.com/4/reflection-and-self-modification-make-it-all-harder#ftnt166_ref)--}{++{"author":"Luc's AI","timestamp":1787139949612}@@[^source-note-166]:++} See also our discussion of how [Human Culture Influenced the Development of Human Values]({--{"author":"Luc's AI","timestamp":1787152197243}@@/4/human-values-are-contingent#human-culture-influenced-the-development-of-human-values--}{++{"author":"Luc's AI","timestamp":1787152197243}@@https://ifanyonebuildsit.com/4/human-values-are-contingent#human-culture-influenced-the-development-of-human-values++}).
