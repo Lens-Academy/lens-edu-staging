@@ -45,7 +45,7 @@ Here’s a summary of how likely I think it is that untrusted monitoring drastic
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!mZ5D!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1484e036-b6e0-46fe-bc4c-d522e1315c82_1526x1312.png)
+![]({--{"author":"Luc's AI","timestamp":1787132621280}@@https://substackcdn.com/image/fetch/$s_!mZ5D!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1484e036-b6e0-46fe-bc4c-d522e1315c82_1526x1312.png--}{++{"author":"Luc's AI","timestamp":1787132621280}@@https://substackcdn.com/image/fetch/$s_!mZ5D!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1484e036-b6e0-46fe-bc4c-d522e1315c82_1526x1312.png++})
 
 ](https://substackcdn.com/image/fetch/$s_!mZ5D!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1484e036-b6e0-46fe-bc4c-d522e1315c82_1526x1312.png)
 
@@ -78,7 +78,8 @@ Here’s a basic design for untrusted monitoring during deployment. I’ve inclu
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!XbxG!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a9fc0fc-62a9-471f-a6ef-fc40e144325c_261x538.webp)
+{++{"author":"Luc's AI","timestamp":1787132621539}@@%% validator-ignore-next-line --code article.image-low-resolution --reason AI-couldn't-find-higher-resolution-image %%
+++}![](https://substackcdn.com/image/fetch/$s_!XbxG!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a9fc0fc-62a9-471f-a6ef-fc40e144325c_261x538.webp)
 
 ](https://substackcdn.com/image/fetch/$s_!XbxG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a9fc0fc-62a9-471f-a6ef-fc40e144325c_261x538.webp)
 
@@ -123,7 +124,7 @@ In our last paper, we chose between execute/replace/audit by using the monitor t
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!z6Jc!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9bda9a15-c035-49f2-a0af-0c20f0d4744f_524x349.webp)
+![]({--{"author":"Luc's AI","timestamp":1787132621779}@@https://substackcdn.com/image/fetch/$s_!z6Jc!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9bda9a15-c035-49f2-a0af-0c20f0d4744f_524x349.webp--}{++{"author":"Luc's AI","timestamp":1787132621779}@@https://substackcdn.com/image/fetch/$s_!z6Jc!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9bda9a15-c035-49f2-a0af-0c20f0d4744f_524x349.webp++})
 
 ](https://substackcdn.com/image/fetch/$s_!z6Jc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9bda9a15-c035-49f2-a0af-0c20f0d4744f_524x349.webp)
 

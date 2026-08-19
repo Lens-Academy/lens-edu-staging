@@ -30,7 +30,7 @@ This gives the impression that people who expect a slow takeoff think AI will ha
 
 But I think that's backwards. The main disagreement is not about what will happen once we have a superintelligent AI, it's about what will happen _before_ we have a superintelligent AI. So slow takeoff seems to mean that AI has a larger impact on the world, sooner.
 
-![Image 1: TakeoffImage.001](https://sideways-view.com/wp-content/uploads/2018/02/takeoffimage-0011.png?w=748)
+![Image 1: TakeoffImage.001]({--{"author":"Luc's AI","timestamp":1787132620444}@@https://sideways-view.com/wp-content/uploads/2018/02/takeoffimage-0011.png?w=748--}{++{"author":"Luc's AI","timestamp":1787132620444}@@https://sideways-view.com/wp-content/uploads/2018/02/takeoffimage-0011.png++})
 
 In the fast takeoff scenario, weaker AI systems may have significant impacts but they are nothing compared to the "real" AGI. Whoever builds AGI has a decisive strategic advantage. Growth accelerates from 3%/year to 3000%/year without stopping at 30%/year. And so on.
 
