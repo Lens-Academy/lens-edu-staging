@@ -28,21 +28,21 @@ Add discussion note here:
 
 [Where AI progress comes from](#where-ai-progress-comes-from)
 
-[Improvements in AI software are already driving fast AI progress](https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#improvements-in-ai-software-are-already-driving-fast-ai-progress)
+[Improvements in AI software are already driving fast AI {--{"author":"Luc's AI","timestamp":1787139981800}@@progress](https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#improvements-in-ai-software-are-already-driving-fast-ai-progress)--}{++{"author":"Luc's AI","timestamp":1787139981800}@@progress](#improvements-in-ai-software-are-already-driving-fa)++}
 
-[AI progress will likely speed up as we approach ASARA](https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#ai-progress-will-likely-speed-up-as-we-approach-asara)
+[AI progress will likely speed up as we approach {--{"author":"Luc's AI","timestamp":1787139982180}@@ASARA](https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#ai-progress-will-likely-speed-up-as-we-approach-asara)--}{++{"author":"Luc's AI","timestamp":1787139982180}@@ASARA](#ai-progress-will-likely-speed-up-as-we-approach-as)++}
 
 [What happens when we reach ASARA?](#what-happens-when-we-reach-asara)
 
-[A toy model to demonstrate the dynamics of a software intelligence explosion](https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#a-toy-model-to-demonstrate-the-dynamics-of-a-software-intelligence-explosion)
+[A toy model to demonstrate the dynamics of a software intelligence {--{"author":"Luc's AI","timestamp":1787139982445}@@explosion](https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#a-toy-model-to-demonstrate-the-dynamics-of-a-software-intelligence-explosion)--}{++{"author":"Luc's AI","timestamp":1787139982445}@@explosion](#a-toy-model-to-demonstrate-the-dynamics-of-a-softw)++}
 
-[Being more mathematically concrete: returns to software R&D](https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#being-more-mathematically-concrete-returns-to-software-rd)
+[Being more mathematically concrete: returns to software {--{"author":"Luc's AI","timestamp":1787139982725}@@R&D](https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#being-more-mathematically-concrete-returns-to-software-rd)--}{++{"author":"Luc's AI","timestamp":1787139982725}@@R&D](#being-more-mathematically-concrete-returns-to-soft)++}
 
-[In the real world, are returns to software R&D greater or less than one?](https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#in-the-real-world-are-returns-to-software-rd-greater-or-less-than-one)
+[In the real world, are returns to software R&D greater or less than {--{"author":"Luc's AI","timestamp":1787139983013}@@one?](https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#in-the-real-world-are-returns-to-software-rd-greater-or-less-than-one)--}{++{"author":"Luc's AI","timestamp":1787139983013}@@one?](#in-the-real-world-are-returns-to-software-rd-great)++}
 
-[You might need fast growing computing power to discover better algorithms](https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#you-might-need-fast-growing-computing-power-to-discover-better-algorithms)
+[You might need fast growing computing power to discover better {--{"author":"Luc's AI","timestamp":1787139983309}@@algorithms](https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#you-might-need-fast-growing-computing-power-to-discover-better-algorithms)--}{++{"author":"Luc's AI","timestamp":1787139983309}@@algorithms](#you-might-need-fast-growing-computing-power-to-dis)++}
 
-[Progress might become bottlenecked by the time required to train new AI systems](https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#progress-might-become-bottlenecked-by-the-time-required-to-train-new-ai-systems)
+[Progress might become bottlenecked by the time required to train new AI {--{"author":"Luc's AI","timestamp":1787139983575}@@systems](https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#progress-might-become-bottlenecked-by-the-time-required-to-train-new-ai-systems)--}{++{"author":"Luc's AI","timestamp":1787139983575}@@systems](#progress-might-become-bottlenecked-by-the-time-req)++}
 
 [Bringing it all together](#bringing-it-all-together)
 
