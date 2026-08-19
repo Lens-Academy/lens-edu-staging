@@ -241,4 +241,6 @@ If we don’t make further progress on this problem, then [over the coming decad
 
 And all this could happen [blindingly fast](https://www.cold-takes.com/the-duplicator/) relative to the pace of change we’ve gotten used to, meaning we wouldn’t have much time to correct course once things start to go off the rails. **This means we may need to develop techniques to ensure deep learning models won’t have dangerous goals, *before* they are powerful enough to be transformative**.
 
-**Next in series:** [Forecasting transformative AI: what's the burden of proof?](https://www.cold-takes.com/forecasting-transformative-ai-whats-the-burden-of-proof/)
+{++{"author":"Luc's AI","timestamp":1787170192509}@@:::collapse
+++}**Next in series:** [Forecasting transformative AI: what's the burden of proof?](https://www.cold-takes.com/forecasting-transformative-ai-whats-the-burden-of-proof/){++{"author":"Luc's AI","timestamp":1787170192509}@@
+:::++}
