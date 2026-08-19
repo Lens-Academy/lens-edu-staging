@@ -67,7 +67,7 @@ So the future will look different from the present. Indeed, we can expect it to 
 
 Predicting the *details* seems difficult, verging on impossible. That's a hard call. But predicting the transformation of the universe into a place where most matter is harvested and put toward *some* purpose, whatever that may be? That is an easier call, even if it's counterintuitive and weird to a civilization that has barely begun to extract resources from stars at all.
 
-A million years from now, we shouldn't expect the future to look like the year 2025, with a bunch of hairless apes messing around on the surface of Earth. Long before that, either we'll have killed ourselves, or our descendants will have gone out to explore the cosmos themselves.[\*]{--{"author":"Luc's AI","timestamp":1787136125920}@@(#ftnt8)--}{++{"author":"Luc's AI","timestamp":1787136125920}@@(https://ifanyonebuildsit.com/intro/isnt-this-ai-stuff-just-science-fiction#ftnt8)++}
+A million years from now, we shouldn't expect the future to look like the year 2025, with a bunch of hairless apes messing around on the surface of Earth. Long before that, either we'll have killed ourselves, or our descendants will have gone out to explore the cosmos themselves.[\*](https://ifanyonebuildsit.com/intro/isnt-this-ai-stuff-just-science-fiction#ftnt8)
 
 It's definitely going to get weird for humanity.The question is when.
 
@@ -81,7 +81,7 @@ Humanity looks to be on the brink of another radical transformation, where machi
 
 ---
 
-[\*]{--{"author":"Luc's AI","timestamp":1787136127258}@@(#ftnt8_ref)--}{++{"author":"Luc's AI","timestamp":1787136127258}@@(https://ifanyonebuildsit.com/intro/isnt-this-ai-stuff-just-science-fiction#ftnt8_ref)++} Or they'll have built tools or successors to do the exploring, in whatever way they find convenient with the benefits of more advanced science and technology.
+[\*](https://ifanyonebuildsit.com/intro/isnt-this-ai-stuff-just-science-fiction#ftnt8_ref) Or they'll have built tools or successors to do the exploring, in whatever way they find convenient with the benefits of more advanced science and technology.
 
 #### Notes
 

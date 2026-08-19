@@ -35,7 +35,7 @@ On July 8, 2025, Grok 3 started referring to itself as [MechaHitler](https://www
 
 In understanding what happened, it matters whether you think that Grok's builders deliberately instructed Grok to behave that way or whether you realize that AIs are "grown," and that AI developers have limited ability to control or predict their behavior.
 
-It's bad in one way if Grok's builders created MechaHitler on purpose; it's bad in a different way if the builders got MechaHitler *by accident*, trying to push Grok in some (possibly unrelated) direction without the ability to predict the effects this would have on Grok's behavior.[\*]{--{"author":"Luc's AI","timestamp":1787136146603}@@(#ftnt66)--}{++{"author":"Luc's AI","timestamp":1787136146603}@@(https://ifanyonebuildsit.com/2/what-good-does-knowledge-of-llms-do#ftnt66)++}
+It's bad in one way if Grok's builders created MechaHitler on purpose; it's bad in a different way if the builders got MechaHitler *by accident*, trying to push Grok in some (possibly unrelated) direction without the ability to predict the effects this would have on Grok's behavior.[\*](https://ifanyonebuildsit.com/2/what-good-does-knowledge-of-llms-do#ftnt66)
 
 We hope that the information we've provided in *If Anyone Builds It, Everyone Dies* provides a useful bulwark against common misconceptions and misinformation. For readers who are interested in more details, below we will go through some of the history and [basic ideas](/2/obvious-insights-take-time) behind the recent AI boom, and provide a [detailed breakdown](/2/a-full-description-of-an-llm) of how a specific LLM works.
 
@@ -71,7 +71,7 @@ You can imagine a world in which only the people paid seven-figure salaries for 
 
 There may come a time when a representative of the AI industry slings an arm around your shoulder and insists that *they* understand what they're building, that it's all just numbers, that all will be well. It is useful, then, to know a little bit about the details of how AIs are grown, so that when someone makes this claim to you, you can ask them what makes them so sure.
 
-[\*]{--{"author":"Luc's AI","timestamp":1787136147900}@@(#ftnt66_ref)--}{++{"author":"Luc's AI","timestamp":1787136147900}@@(https://ifanyonebuildsit.com/2/what-good-does-knowledge-of-llms-do#ftnt66_ref)++} In some cases, AI mishaps can result from interactions between both factors. For our purposes, the important point is that one key factor is "AIs behaving in ways the programmers never wanted or anticipated," even if there are sometimes other factors at play.
+[\*](https://ifanyonebuildsit.com/2/what-good-does-knowledge-of-llms-do#ftnt66_ref) In some cases, AI mishaps can result from interactions between both factors. For our purposes, the important point is that one key factor is "AIs behaving in ways the programmers never wanted or anticipated," even if there are sometimes other factors at play.
 
 #### Notes
 

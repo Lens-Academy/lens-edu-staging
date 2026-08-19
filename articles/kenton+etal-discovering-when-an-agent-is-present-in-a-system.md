@@ -1,4 +1,4 @@
-"{--{"author":"Luc's AI","timestamp":1787136118010}@@"-----}{++{"author":"Luc's AI","timestamp":1787136118010}@@---++}
+"---
 title: "Discovering when an agent is present in a system"
 source_url: "https://deepmind.google/blog/discovering-when-an-agent-is-present-in-a-system/"
 author:

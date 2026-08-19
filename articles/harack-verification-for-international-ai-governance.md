@@ -48,9 +48,7 @@ Add discussion note here:
 
 ![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/harack-verification-for-international-ai-governance-fig1-3a90d4e2.jpg)
 
-A digital globe with a network of glowing blue lines and nodes, symbolizing global connectivity. A shield with a scale of justice is superimposed over the globe, representing AI governance and verification.{--{"author":"Luc's AI","timestamp":1787136197319}@@
-
-A digital globe with a network of glowing blue lines and nodes, symbolizing global connectivity. A shield with a scale of justice is superimposed over the globe, representing AI governance and verification.--}
+A digital globe with a network of glowing blue lines and nodes, symbolizing global connectivity. A shield with a scale of justice is superimposed over the globe, representing AI governance and verification.
 
 Authors: Ben Harack, Robert F. Trager, Anka Reuel, David Manheim, Miles Brundage, Onni Aarne, Aaron Scher, Yanliang Pan, Jenny Xiao, Kristy Loke, Sumaya Nur Adan, Guillem Bas, Nicholas A. Caputo, Julia C. Morse, Janvi Ahuja, Isabella Duan, Janet Egan, Ben Bucknall, Brianna Rosen, Renan Araujo, Vincent Boulanin, Ranjit Lall, Fazl Barez, Sanaa Alvira, Corin Katzke, Ahmad Atamli, and Amro Awad
 

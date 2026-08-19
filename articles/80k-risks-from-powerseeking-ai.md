@@ -6,7 +6,8 @@ author:
   - "Zershaaneh Qureshi"
 published: 2025-07-17
 created: 2026-06-02
-description: "Why do we think that reducing risks from AI is one of the most pressing issues of our time?"
+{++{"author":"Luc's AI","timestamp":1787136385565}@@accessed: 2026-06-02
+++}description: "Why do we think that reducing risks from AI is one of the most pressing issues of our time?"
 tags:
 ---
 
@@ -53,11 +54,11 @@ But what led us to this conclusion? Could AI really cause human extinction? Weâ€
 
 To explain why, we break the argument down into five core claims:[^2]
 
-1. [Humans will likely build advanced AI systems with long-term goals]{--{"author":"Luc's AI","timestamp":1787136113283}@@(#section-one)--}{++{"author":"Luc's AI","timestamp":1787136113283}@@(https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/#section-one)++}.
-2. [AIs with long-term goals may be inclined to seek power and aim to disempower humanity]{--{"author":"Luc's AI","timestamp":1787136114361}@@(#section-two)--}{++{"author":"Luc's AI","timestamp":1787136114361}@@(https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/#section-two)++}.
-3. [These power-seeking AI systems could successfully disempower humanity and cause an existential catastrophe]{--{"author":"Luc's AI","timestamp":1787136115594}@@(#section-three)--}{++{"author":"Luc's AI","timestamp":1787136115594}@@(https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/#section-three)++}.
-4. [People might create power-seeking AI systems without enough safeguards, despite the risks]{--{"author":"Luc's AI","timestamp":1787136116091}@@(#section-four)--}{++{"author":"Luc's AI","timestamp":1787136116091}@@(https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/#section-four)++}.
-5. [Work on this problem is tractable and neglected]{--{"author":"Luc's AI","timestamp":1787136116593}@@(#section-five)--}{++{"author":"Luc's AI","timestamp":1787136116593}@@(https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/#section-five)++}.
+1. [Humans will likely build advanced AI systems with long-term goals](https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/#section-one).
+2. [AIs with long-term goals may be inclined to seek power and aim to disempower humanity](https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/#section-two).
+3. [These power-seeking AI systems could successfully disempower humanity and cause an existential catastrophe](https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/#section-three).
+4. [People might create power-seeking AI systems without enough safeguards, despite the risks](https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/#section-four).
+5. [Work on this problem is tractable and neglected](https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/#section-five).
 
 After making the argument that the existential risk from power-seeking AI is a pressing world problem, weâ€™ll discuss objections to this argument, and how you can work on it. (There are also other major risks from AI we discuss [elsewhere](https://80000hours.org/problem-profiles/).)
 

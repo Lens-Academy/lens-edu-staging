@@ -1274,7 +1274,7 @@ In the direction $(\delta a_{i}, \delta a_{j}) = (1, -1)$, this combined contrib
 
 **Remark (Rank of a neural network parameter).** In both exercises above, the degree of degeneracy at a parameter is controlled by the amount of redundant capacity in the network. For the two-layer DLN, this is measured by the rank of the product $BA$: a rank-$r$ linear map can be implemented with a hidden dimension of $r$, leaving $m - r$ dimensions redundant. For a general single-hidden-layer MLP, this idea generalises in that we can define the rank of a parameter $w$ as the minimum number of hidden units needed to implement $f_{w}$ ([[#^bib-farrugiaroberts2022|Farrugia-Roberts 2022]]; [[#^bib-farrugiaroberts2024|Farrugia-Roberts 2024]]). In the linear case, this "neural network rank" coincides with the matrix rank of $BA$. In both settings, lower rank corresponds to a higher number of degenerate directions.
 
-{--{"author":"Luc's AI","timestamp":1787135851371}@@:::--}{++{"author":"Luc's AI","timestamp":1787135851371}@@::::++}
+::::
 
 ^rem-rank
 

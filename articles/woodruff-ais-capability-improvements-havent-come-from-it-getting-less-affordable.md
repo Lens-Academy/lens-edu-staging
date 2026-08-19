@@ -140,7 +140,7 @@ Ord uses this graph to find the hourly cost of AIs at their “saturation point�
 
 I don’t think Ord’s methodology calculates the real hourly AI cost for any set of tasks. Ord calculates hourly cost using the following method for the saturation point:
 
-{--{"author":"Luc's AI","timestamp":1787136052539}@@\\(\\text{Hourly--}{++{"author":"Luc's AI","timestamp":1787136052539}@@$\text{Hourly++} cost} = {--{"author":"Luc's AI","timestamp":1787136052539}@@\\frac{\\text{per-task--}{++{"author":"Luc's AI","timestamp":1787136052539}@@\frac{\text{per-task++} budget at saturation {--{"author":"Luc's AI","timestamp":1787136052539}@@point}}{\\text{50%--}{++{"author":"Luc's AI","timestamp":1787136052539}@@point}}{\text{50%++} time horizon at saturation {--{"author":"Luc's AI","timestamp":1787136052539}@@point}}\\)--}{++{"author":"Luc's AI","timestamp":1787136052539}@@point}}$++}
+{--{"author":"Luc's AI","timestamp":1787136382642}@@$\text{Hourly--}{++{"author":"Luc's AI","timestamp":1787136382642}@@$$\text{Hourly++} cost} = \frac{\text{per-task budget at saturation point}}{\text{50% time horizon at saturation {--{"author":"Luc's AI","timestamp":1787136382642}@@point}}$--}{++{"author":"Luc's AI","timestamp":1787136382642}@@point}}$$++}
 
 Where the per-task budget is the maximum that can be spent on any individual task.
 
