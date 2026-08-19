@@ -79,23 +79,23 @@ The following table summarises our estimates of the three key parameters:
 
 | **Parameter** | **Estimation methods** | **Values used in the model** |
 | --- | --- | --- |
-| **Initial speed-up** in software progress from deploying ASARA | \- Various surveys of AI researchers on the speed-ups from ASARA and the strength of compute bottlenecks.  
+| **Initial speed-up** in software progress from deploying ASARA | {--{"author":"Luc's AI","timestamp":1787133522001}@@\- --}Various surveys of AI researchers on the speed-ups from ASARA and the strength of compute {--{"author":"Luc's AI","timestamp":1787133522001}@@bottlenecks.  
   
-\- Listing and estimating the gains of specific things ASARA could do  
+\- Listing--}{++{"author":"Luc's AI","timestamp":1787133522001}@@bottlenecks; listing++} and estimating the gains of specific things ASARA could {--{"author":"Luc's AI","timestamp":1787133522001}@@do  
   
-\- Applying a simple Cobb-Douglas model of software progress | Compared to progress in 2020-2024, software progress will be faster by a factor of **2 - 32, with a median of 8** |
-| **Returns to software R&D**  
+\- Applying--}{++{"author":"Luc's AI","timestamp":1787133522001}@@do; applying++} a simple Cobb-Douglas model of software progress | Compared to progress in 2020-2024, software progress will be faster by a factor of **2 - 32, with a median of 8** |
+| **Returns to software R&D**{--{"author":"Luc's AI","timestamp":1787133522001}@@  
   
-(After the initial speed-up, does progress accelerate or decelerate?) | \- Empirical evidence on growth of cognitive inputs to AI research and the pace of resultant software improvements  
+--}{++{"author":"Luc's AI","timestamp":1787133522001}@@ ++}(After the initial speed-up, does progress accelerate or decelerate?) |{--{"author":"Luc's AI","timestamp":1787133522001}@@ \---} Empirical evidence on growth of cognitive inputs to AI research and the pace of resultant software {--{"author":"Luc's AI","timestamp":1787133522001}@@improvements  
   
-\- Adjustments to this empirical evidence to account for compute bottlenecks and AI becoming smarter over time | The pace of software progress will **probably (~60%) accelerate over time** after the initial speed-up (at least initially).  
+\- Adjustments--}{++{"author":"Luc's AI","timestamp":1787133522001}@@improvements; adjustments++} to this empirical evidence to account for compute bottlenecks and AI becoming smarter over time | The pace of software progress will **probably (~60%) accelerate over time** after the initial speed-up (at least initially).{--{"author":"Luc's AI","timestamp":1787133522001}@@  
   
-(We estimate 0.4 < r < 3.6 0.4<r<3.6, with a median of r \= 1.2 r=1.2) |
-| **Distance to “effective limits” of AI software** | \- Estimating that if ASARA is trained with 1e28 FLOP, training efficiency could improve ~4 OOMs before matching that of human learning  
+(We --}{++{"author":"Luc's AI","timestamp":1787133522001}@@ We ++}estimate {--{"author":"Luc's AI","timestamp":1787133522001}@@0.4--}{++{"author":"Luc's AI","timestamp":1787133522001}@@$0.4++} < r <{--{"author":"Luc's AI","timestamp":1787133522001}@@ 3.6 0.4<r<3.6,--}{++{"author":"Luc's AI","timestamp":1787133522001}@@ 3.6$,++} with a median of {--{"author":"Luc's AI","timestamp":1787133522001}@@r \= 1.2 r=1.2)--}{++{"author":"Luc's AI","timestamp":1787133522001}@@$r = 1.2$.++} |
+| **Distance to “effective limits” of AI software** | {--{"author":"Luc's AI","timestamp":1787133522001}@@\- --}Estimating that if ASARA is trained with 1e28 FLOP, training efficiency could improve ~4 OOMs before matching that of human {--{"author":"Luc's AI","timestamp":1787133522001}@@learning  
   
-\- Listing and estimating plausible efficiency gains on top of human learning, e.g. from better data and better learning algorithms. This involves a fair amount of guesswork and is a massive remaining uncertainty. | **6 - 16 OOMs of efficiency gains** after ASARA before hitting effective limits  
+\- Listing--}{++{"author":"Luc's AI","timestamp":1787133522001}@@learning; listing++} and estimating plausible efficiency gains on top of human learning, e.g. from better data and better learning algorithms. This involves a fair amount of guesswork and is a massive remaining uncertainty. | **6 - 16 OOMs of efficiency gains** after ASARA before hitting effective {--{"author":"Luc's AI","timestamp":1787133522001}@@limits  
   
-This translates to 6-16 years worth of AI progress, because the [effective compute](https://futuretech.mit.edu/news/what-drives-progress-in-ai-trends-in-compute#:~:text=Compute%20progress%20means%20that%20AI,models%2C%20and%20explore%20innovative%20approaches.) for AI training has recently risen by [~10X/year](https://epoch.ai/trends) |
+--}{++{"author":"Luc's AI","timestamp":1787133522001}@@limits. ++}This translates to 6-16 years worth of AI progress, because the [effective compute](https://futuretech.mit.edu/news/what-drives-progress-in-ai-trends-in-compute#:~:text=Compute%20progress%20means%20that%20AI,models%2C%20and%20explore%20innovative%20approaches.) for AI training has recently risen by {--{"author":"Luc's AI","timestamp":1787133522001}@@[~10X/year](https://epoch.ai/trends)--}{++{"author":"Luc's AI","timestamp":1787133522001}@@[~10X/year](https://epoch.ai/trends).++} |
 
 We put log-uniform probability distributions over the model parameters and run a Monte Carlo ([more](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#summary-of-parameter-assumptions)).
 
