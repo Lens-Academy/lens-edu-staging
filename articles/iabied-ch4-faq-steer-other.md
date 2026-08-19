@@ -40,11 +40,11 @@ What's the end result of all of those weird drives? What will the AI *do,* anima
 
 Well, that's the question we'll turn to in Chapter 5.
 
-{--{"author":"Luc's AI","timestamp":1787139959795}@@[\*](https://ifanyonebuildsit.com/4/why-would-an-ai-steer-toward-anything-other-than-what-it-was-trained-to-steer-toward#ftnt97_ref)--}{++{"author":"Luc's AI","timestamp":1787139959795}@@[^source-note-97]:++} For more on why that's not a very informative question, see our answer to "[Aren't developers regularly making their AIs nice and safe and obedient?](/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient)"
+{--{"author":"Luc's AI","timestamp":1787139959795}@@[\*](https://ifanyonebuildsit.com/4/why-would-an-ai-steer-toward-anything-other-than-what-it-was-trained-to-steer-toward#ftnt97_ref)--}{++{"author":"Luc's AI","timestamp":1787139959795}@@[^source-note-97]:++} For more on why that's not a very informative question, see our answer to "[Aren't developers regularly making their AIs nice and safe and obedient?]({--{"author":"Luc's AI","timestamp":1787152016920}@@/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient--}{++{"author":"Luc's AI","timestamp":1787152016920}@@https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient++})"
 
 #### Notes
 
-[1] *maximizing reproduction:* This isn't to say that no humans care about having kids *at all*. Plenty of people want to have a couple kids, and some people want to have a lot. But even caring about having children isn't *quite* the same thing as caring about genetic fitness, as we'll discuss [later](/4/a-lot-of-people-want-kids-so-arent-humans-aligned-with-natural-selection-after-all) in the online resources for Chapter 4.
+[1] *maximizing reproduction:* This isn't to say that no humans care about having kids *at all*. Plenty of people want to have a couple kids, and some people want to have a lot. But even caring about having children isn't *quite* the same thing as caring about genetic fitness, as we'll discuss [later]({--{"author":"Luc's AI","timestamp":1787152017861}@@/4/a-lot-of-people-want-kids-so-arent-humans-aligned-with-natural-selection-after-all--}{++{"author":"Luc's AI","timestamp":1787152017861}@@https://ifanyonebuildsit.com/4/a-lot-of-people-want-kids-so-arent-humans-aligned-with-natural-selection-after-all++}) in the online resources for Chapter 4.
 
 Last year, we ran a quick [online poll](https://x.com/ESYudkowsky/status/1872771058790744247):
 

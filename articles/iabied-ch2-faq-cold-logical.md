@@ -21,11 +21,11 @@ Just because AIs run on computers doesn't mean their thinking must share the qua
 
 When humans didn't understand biochemistry, they attributed the liveliness of life to an irreplicable "vital essence." But reality is not made of mundane material sometimes animated by a magical life-force. Life is made of mundane parts.
 
-We do not mean to degrade intelligence, however, when we say that it is made of mundane parts and that machines could do the same work. See our extended discussion about [vitalism](/1/special-behavior-is-built-out-of-mundane-parts).
+We do not mean to degrade intelligence, however, when we say that it is made of mundane parts and that machines could do the same work. See our extended discussion about [vitalism]({--{"author":"Luc's AI","timestamp":1787152017643}@@/1/special-behavior-is-built-out-of-mundane-parts--}{++{"author":"Luc's AI","timestamp":1787152017643}@@https://ifanyonebuildsit.com/1/special-behavior-is-built-out-of-mundane-parts++}).
 
 The heuristic "machines cannot compete with humans" was wrong when Kasparov predicted that a machine lacking human creativity could never beat him at chess; it was wrong when people thought that AIs could never draw pretty pictures; it was wrong when people thought that AIs could never chat conversationally. The human brain is an existence proof that physical matter really can implement higher forms of intelligence, sufficient for running a technological civilization; and the human brain is vanishingly unlikely to be the only way to do that work.
 
-We'll expand on this point in one of the online supplements to Chapter 3: [Anthropomorphism and Mechanomorphism](/3/anthropomorphism-and-mechanomorphism).
+We'll expand on this point in one of the online supplements to Chapter 3: [Anthropomorphism and Mechanomorphism]({--{"author":"Luc's AI","timestamp":1787152017412}@@/3/anthropomorphism-and-mechanomorphism--}{++{"author":"Luc's AI","timestamp":1787152017412}@@https://ifanyonebuildsit.com/3/anthropomorphism-and-mechanomorphism++}).
 
 #### AIs are new, interesting, weird entities.
 

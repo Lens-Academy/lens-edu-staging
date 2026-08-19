@@ -67,7 +67,7 @@ But if governments refuse to act until the evidence is *unambiguous,* and some *
 
 We'll return to this topic in the [online supplement to Chapter 13]({--{"author":"Luc's AI","timestamp":1787152012765}@@/13/will-there-be-warning-shots--}{++{"author":"Luc's AI","timestamp":1787152012765}@@https://ifanyonebuildsit.com/13/will-there-be-warning-shots++}).
 
-{--{"author":"Luc's AI","timestamp":1787139898538}@@[\*](https://ifanyonebuildsit.com/12/the-lemoine-effect#ftnt284_ref)--}{++{"author":"Luc's AI","timestamp":1787139898538}@@[^source-note-284]:++} For more discussion of AI consciousness, see our answer to [Are you saying machines will become conscious?](/1/are-you-saying-machines-will-become-conscious) or our discussion of [Effectiveness, Consciousness, and AI Welfare](/5/effectiveness-consciousness-and-ai-welfare).
+{--{"author":"Luc's AI","timestamp":1787139898538}@@[\*](https://ifanyonebuildsit.com/12/the-lemoine-effect#ftnt284_ref)--}{++{"author":"Luc's AI","timestamp":1787139898538}@@[^source-note-284]:++} For more discussion of AI consciousness, see our answer to [Are you saying machines will become conscious?]({--{"author":"Luc's AI","timestamp":1787152014509}@@/1/are-you-saying-machines-will-become-conscious--}{++{"author":"Luc's AI","timestamp":1787152014509}@@https://ifanyonebuildsit.com/1/are-you-saying-machines-will-become-conscious++}) or our discussion of [Effectiveness, Consciousness, and AI Welfare]({--{"author":"Luc's AI","timestamp":1787152014988}@@/5/effectiveness-consciousness-and-ai-welfare--}{++{"author":"Luc's AI","timestamp":1787152014988}@@https://ifanyonebuildsit.com/5/effectiveness-consciousness-and-ai-welfare++}).
 
 #### Notes
 
