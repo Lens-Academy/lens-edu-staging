@@ -193,9 +193,9 @@ Some posts that inform or expand on my thinking here:
 	- Scott Garrabrant on how if a process wouldn't be capable of generating a "no" answer, you can't trust its "yes" answers. This seems relevant to me for AI labs considering whether a project is too dangerous to continue, and whether I (or they) should trust their process.
 - [You Get About Five Words](https://www.lesswrong.com/posts/4ZvJab25tDebB8FGE/you-get-about-five-words) 
 	- Me, noting that when you try to communicate at scale, your message necessarily gets degraded. This is relevant to scaling AI companies, while ensuring that your overall process is capable of tracking all the nuances of how and why AI could fail.
-
+{--{"author":"Luc's AI","timestamp":1787135998018}@@
 [AI Risk2](https://www.lesswrong.com/w/ai-risk)[High Reliability Organizations2](https://www.lesswrong.com/w/high-reliability-organizations)[Organizational Culture & Design2](https://www.lesswrong.com/w/organizational-culture-and-design)[AI1](https://www.lesswrong.com/w/ai)[
 
 Curated
 
-](https://www.lesswrong.com/recommendations)\+ Add Wikitag
+](https://www.lesswrong.com/recommendations)\+ Add Wikitag--}
