@@ -26,7 +26,7 @@ In real life, we expect corporate blunders to show up sooner, to be more numerou
 
 #### In part because it's easier to write.
 
-As we spell out in an aside in Chapter 7, we *could* tell a story where everyone is much more paranoid and careful, until a much smarter AI manages to escape much later in the game. But such a story would not only be less realistic, given the observed behavior of AI corporations to date, but would also be harder to write, given that it involves even smarter and more capable AIs even further out in the future.[\*{--{"author":"Luc's AI","timestamp":1787132982944}@@](#ftnt243)--}{++{"author":"Luc's AI","timestamp":1787132982944}@@](https://ifanyonebuildsit.com/ii/why-is-galvanic-depicted-as-being-insufficiently-careful#ftnt243)++}
+As we spell out in an aside in Chapter 7, we *could* tell a story where everyone is much more paranoid and careful, until a much smarter AI manages to escape much later in the game. But such a story would not only be less realistic, given the observed behavior of AI corporations to date, but would also be harder to write, given that it involves even smarter and more capable AIs even further out in the future.[\*](https://ifanyonebuildsit.com/ii/why-is-galvanic-depicted-as-being-insufficiently-careful#ftnt243)
 
 #### In part because it's going to happen at some point, unless humanity stops.
 
@@ -50,7 +50,7 @@ AI companies that were *sufficiently* cautious, that were *sufficiently* worried
 
 Then maybe they would try three other clever plans, and see that there were *still* warning signs.
 
-And if they were paranoid enough to avoid killing everyone on Earth with their own hands, they would at that point *back all the way off,* rather than continuing to try cleverer and cleverer ideas until the warning signs finally stopped showing up.[†{--{"author":"Luc's AI","timestamp":1787132985636}@@](#ftnt244)--}{++{"author":"Luc's AI","timestamp":1787132985636}@@](https://ifanyonebuildsit.com/ii/why-is-galvanic-depicted-as-being-insufficiently-careful#ftnt244)++}
+And if they were paranoid enough to avoid killing everyone on Earth with their own hands, they would at that point *back all the way off,* rather than continuing to try cleverer and cleverer ideas until the warning signs finally stopped showing up.[†](https://ifanyonebuildsit.com/ii/why-is-galvanic-depicted-as-being-insufficiently-careful#ftnt244)
 
 If an AI company was so careful, so paranoid, that it was willing to back off in the face of the first few warnings — then, yes, it could avoid killing us all with its own hands.
 
@@ -58,9 +58,9 @@ If it was also brave enough to loudly advocate that all AI companies, itself inc
 
 The moment in the story where Galvanic keeps going despite the warning signs is, in a sense, the point of no return. Once a superhumanly smart AI with strange and alien preferences escapes, it's too late.
 
-[\*{--{"author":"Luc's AI","timestamp":1787132984302}@@](#ftnt243_ref)--}{++{"author":"Luc's AI","timestamp":1787132984302}@@](https://ifanyonebuildsit.com/ii/why-is-galvanic-depicted-as-being-insufficiently-careful#ftnt243_ref)++} See also the reason we wrote a story in which Sable [stays relatively unintelligent](/ii/why-did-you-have-sables-expansion-phase-go-that-way#we-were-trying-to-depict-an-especially-slow-and-comprehensible-scenario-among-plausible-scenarios) for as long as possible.
+[\*](https://ifanyonebuildsit.com/ii/why-is-galvanic-depicted-as-being-insufficiently-careful#ftnt243_ref) See also the reason we wrote a story in which Sable [stays relatively unintelligent](/ii/why-did-you-have-sables-expansion-phase-go-that-way#we-were-trying-to-depict-an-especially-slow-and-comprehensible-scenario-among-plausible-scenarios) for as long as possible.
 
-[†{--{"author":"Luc's AI","timestamp":1787132987064}@@](#ftnt244_ref)--}{++{"author":"Luc's AI","timestamp":1787132987064}@@](https://ifanyonebuildsit.com/ii/why-is-galvanic-depicted-as-being-insufficiently-careful#ftnt244_ref)++} We'll talk more about why this problem is hard, and why we don't expect the clever ideas in this scenario to work, in Chapters 10 and 11.
+[†](https://ifanyonebuildsit.com/ii/why-is-galvanic-depicted-as-being-insufficiently-careful#ftnt244_ref) We'll talk more about why this problem is hard, and why we don't expect the clever ideas in this scenario to work, in Chapters 10 and 11.
 
 #### Notes
 

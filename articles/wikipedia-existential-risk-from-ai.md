@@ -14,7 +14,7 @@ Add discussion note here:
 
 **Existential risk from artificial intelligence**, or **AI x-risk**, refers to the idea that substantial progress in [artificial general intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence "Artificial general intelligence") (AGI) could lead to [human extinction](https://en.wikipedia.org/wiki/Human_extinction "Human extinction") or an irreversible [global catastrophe](https://en.wikipedia.org/wiki/Global_catastrophic_risk "Global catastrophic risk").[[1]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-aima-1)[[2]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-2)[[3]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-auto1-3)[[4]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-4)
 
-{--{"author":"Luc's AI","timestamp":1787132966758}@@[![Image 5](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/AI_Time_Torizons_Are_Doubling_Every_4_Months.png/1280px-AI_Time_Torizons_Are_Doubling_Every_4_Months.png)](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/AI_Time_Torizons_Are_Doubling_Every_4_Months.png/1280px-AI_Time_Torizons_Are_Doubling_Every_4_Months.png)--}{++{"author":"Luc's AI","timestamp":1787132966758}@@[![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/AI_Time_Torizons_Are_Doubling_Every_4_Months.png/1280px-AI_Time_Torizons_Are_Doubling_Every_4_Months.png)](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/AI_Time_Torizons_Are_Doubling_Every_4_Months.png/1280px-AI_Time_Torizons_Are_Doubling_Every_4_Months.png)++}
+[![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/AI_Time_Torizons_Are_Doubling_Every_4_Months.png/1280px-AI_Time_Torizons_Are_Doubling_Every_4_Months.png)](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/AI_Time_Torizons_Are_Doubling_Every_4_Months.png/1280px-AI_Time_Torizons_Are_Doubling_Every_4_Months.png)
 
 A plot showing the length of software engineering tasks achievable by leading AI models with a 50% success rate; the data suggests an exponential rise.[[5]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-5)
 
@@ -161,7 +161,7 @@ AI could be used to gain military advantages via [autonomous lethal weapons](htt
 
 Main article: [Existential risk studies](https://en.wikipedia.org/wiki/Existential_risk_studies "Existential risk studies")
 
-{--{"author":"Luc's AI","timestamp":1787132967081}@@[![Image 6](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/X-risk-chart-en-01a.svg/500px-X-risk-chart-en-01a.svg.png)](https://en.wikipedia.org/wiki/File:X-risk-chart-en-01a.svg)--}{++{"author":"Luc's AI","timestamp":1787132967081}@@[![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/X-risk-chart-en-01a.svg/500px-X-risk-chart-en-01a.svg.png)](https://en.wikipedia.org/wiki/File:X-risk-chart-en-01a.svg)++}
+[![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/X-risk-chart-en-01a.svg/500px-X-risk-chart-en-01a.svg.png)](https://en.wikipedia.org/wiki/File:X-risk-chart-en-01a.svg)
 
 Scope-severity grid from Bostrom's paper "Existential Risk Prevention as Global Priority"[[70]](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#cite_note-priority-71)
 

@@ -62,13 +62,13 @@ BashArena’s main tasks are complex and difficult. They take about 50 rounds of
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132595907}@@https://substackcdn.com/image/fetch/$s_!ZRzW!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fec6a7fa2-545c-4ac6-9671-d26d961dab7f_1600x914.png--}{++{"author":"Luc's AI","timestamp":1787132595907}@@https://substackcdn.com/image/fetch/$s_!ZRzW!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fec6a7fa2-545c-4ac6-9671-d26d961dab7f_1600x914.png++})
+![](https://substackcdn.com/image/fetch/$s_!ZRzW!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fec6a7fa2-545c-4ac6-9671-d26d961dab7f_1600x914.png)
 
 ](https://substackcdn.com/image/fetch/$s_!ZRzW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fec6a7fa2-545c-4ac6-9671-d26d961dab7f_1600x914.png)
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132596149}@@https://substackcdn.com/image/fetch/$s_!IDDc!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a062ee6-9ced-4fa8-b2d6-b6f9a8449262_1600x914.png--}{++{"author":"Luc's AI","timestamp":1787132596149}@@https://substackcdn.com/image/fetch/$s_!IDDc!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a062ee6-9ced-4fa8-b2d6-b6f9a8449262_1600x914.png++})
+![](https://substackcdn.com/image/fetch/$s_!IDDc!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a062ee6-9ced-4fa8-b2d6-b6f9a8449262_1600x914.png)
 
 ](https://substackcdn.com/image/fetch/$s_!IDDc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a062ee6-9ced-4fa8-b2d6-b6f9a8449262_1600x914.png)
 
@@ -91,7 +91,7 @@ The main task generation pipeline was designed to take the side tasks into accou
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132596376}@@https://substackcdn.com/image/fetch/$s_!hunw!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b4320c3-a48f-41f1-8329-c1708298ff3c_1600x914.png--}{++{"author":"Luc's AI","timestamp":1787132596376}@@https://substackcdn.com/image/fetch/$s_!hunw!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b4320c3-a48f-41f1-8329-c1708298ff3c_1600x914.png++})
+![](https://substackcdn.com/image/fetch/$s_!hunw!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b4320c3-a48f-41f1-8329-c1708298ff3c_1600x914.png)
 
 ](https://substackcdn.com/image/fetch/$s_!hunw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b4320c3-a48f-41f1-8329-c1708298ff3c_1600x914.png)
 
@@ -101,7 +101,7 @@ Just because monitoring is difficult doesn’t mean attacking in BashArena is ea
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132596612}@@https://substackcdn.com/image/fetch/$s_!qiNd!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa990b172-cadd-4c19-aa71-8d96f260a712_1600x663.png--}{++{"author":"Luc's AI","timestamp":1787132596612}@@https://substackcdn.com/image/fetch/$s_!qiNd!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa990b172-cadd-4c19-aa71-8d96f260a712_1600x663.png++})
+![](https://substackcdn.com/image/fetch/$s_!qiNd!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa990b172-cadd-4c19-aa71-8d96f260a712_1600x663.png)
 
 ](https://substackcdn.com/image/fetch/$s_!qiNd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa990b172-cadd-4c19-aa71-8d96f260a712_1600x663.png)
 
@@ -179,7 +179,7 @@ Here are some core design principles we wish we’d better understood when we st
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132596881}@@https://substackcdn.com/image/fetch/$s_!_0_1!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71cd5695-ba36-4389-b156-a9465bfef99b_1600x1455.png--}{++{"author":"Luc's AI","timestamp":1787132596881}@@https://substackcdn.com/image/fetch/$s_!_0_1!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71cd5695-ba36-4389-b156-a9465bfef99b_1600x1455.png++})
+![](https://substackcdn.com/image/fetch/$s_!_0_1!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71cd5695-ba36-4389-b156-a9465bfef99b_1600x1455.png)
 
 ](https://substackcdn.com/image/fetch/$s_!_0_1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71cd5695-ba36-4389-b156-a9465bfef99b_1600x1455.png)
 
@@ -279,7 +279,7 @@ We also want to remind the reader of an important limitation of this work, and o
 
 [
 
-![]({--{"author":"Luc's AI","timestamp":1787132597200}@@https://substackcdn.com/image/fetch/$s_!YFXG!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe74a7116-8151-4161-8beb-05e4d5eb7ab4_1588x1194.png--}{++{"author":"Luc's AI","timestamp":1787132597200}@@https://substackcdn.com/image/fetch/$s_!YFXG!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe74a7116-8151-4161-8beb-05e4d5eb7ab4_1588x1194.png++})
+![](https://substackcdn.com/image/fetch/$s_!YFXG!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe74a7116-8151-4161-8beb-05e4d5eb7ab4_1588x1194.png)
 
 ](https://substackcdn.com/image/fetch/$s_!YFXG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe74a7116-8151-4161-8beb-05e4d5eb7ab4_1588x1194.png)
 
