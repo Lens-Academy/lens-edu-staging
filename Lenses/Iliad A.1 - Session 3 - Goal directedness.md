@@ -1,8 +1,8 @@
 ---
 id: 'ad7852d4-9331-4431-8c9e-a8a11ddd7d32'
-title: "Session 3: Goal directedness"{++{"author":"Luc's AI","timestamp":1787134226886}@@
+title: "Session 3: Goal directedness"
 tldr: "Misalignment becomes especially dangerous when capable systems pursue goals and develop useful subgoals such as self-preservation, resource acquisition, or resistance to correction."
-summary_for_tutor: "The session asks whether increasingly capable AI systems will become goal-directed and why instrumental subgoals may converge across different final goals. Readings on building agents and basic AI drives lead into discussion of current LLM agents, other convergent goals, and the tension between corrigibility and instrumental incentives."++}
+summary_for_tutor: "The session asks whether increasingly capable AI systems will become goal-directed and why instrumental subgoals may converge across different final goals. Readings on building agents and basic AI drives lead into discussion of current LLM agents, other convergent goals, and the tension between corrigibility and instrumental incentives."
 authors:
   - Leon Lang
 source_url: https://github.com/iliad-team/iliad-intensive/blob/1eb9e340305e03de3f81a761167e13c54c71f19d/tex/ai-alignment-intro/main.mdx

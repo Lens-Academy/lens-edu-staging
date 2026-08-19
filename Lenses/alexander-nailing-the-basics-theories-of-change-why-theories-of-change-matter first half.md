@@ -1,8 +1,8 @@
 ---
 id: '77f2f136-24c5-4561-82d5-a7b646d99786'
-title: "Why theories of change matter"{++{"author":"Luc's AI","timestamp":1787134228054}@@
+title: "Why theories of change matter"
 tldr: "A theory of change is a project's blueprint for turning activities into outcomes and impact, making its assumptions, weak links, and evidence needs visible before resources are committed."
-summary_for_tutor: "The excerpt defines a theory of change as a causal chain from inputs and activities through outputs and intermediate outcomes to impact. It explains why nonprofits need this explicit model to communicate their plan, evaluate confidence in each step, identify cruxes, guide measurement, and support funding decisions."++}
+summary_for_tutor: "The excerpt defines a theory of change as a causal chain from inputs and activities through outputs and intermediate outcomes to impact. It explains why nonprofits need this explicit model to communicate their plan, evaluate confidence in each step, identify cruxes, guide measurement, and support funding decisions."
 ---
 
 #### Article

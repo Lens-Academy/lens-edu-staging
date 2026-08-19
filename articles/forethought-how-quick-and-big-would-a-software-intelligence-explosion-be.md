@@ -45,9 +45,7 @@ We assume that software progress is driven by two inputs: 1) _cognitive labour_ 
 
 ![Diagram showing AI improvement feedback loop: better AI leads to more cognitive labour and AI software progress, creating self-reinforcing cycle, while compute for experiments held constant](https://images.ctfassets.net/4owxfjx3z3if/7jOrA1byp7B6QFqoxt8gcW/726aae8614eb4ef03c9b6073fa7cc8a2/ai-feedback-loop-model-diagram.png?w=3840&q=85&fm=webp)
 
-Our model holds compute fixed and simulates a feedback loop of AI improving AI software{--{"author":"Luc's AI","timestamp":1787134080663}@@
-
-## Image--}
+Our model holds compute fixed and simulates a feedback loop of AI improving AI software
 
 So the feedback loop we simulate is: better AI → more cognitive labour for AI research → more AI software progress → better AI →...
 
@@ -71,9 +69,7 @@ The model has three key parameters that drive the results:
 
 ![Graph showing AI capabilities over time with three key model parameters: initial speed-up from automating AI research, whether progress accelerates after initial boost, and distance to effective limits](https://images.ctfassets.net/4owxfjx3z3if/4tzj2hWqfTMO0aTSCqddyq/3a69cc04d92748bfc80b216f51d65408/ai-progress-three-parameters-model.png?w=3840&q=85&fm=webp)
 
-Diagram showing the meaning of the model’s three main parameters{--{"author":"Luc's AI","timestamp":1787134080944}@@
-
-## Image--}
+Diagram showing the meaning of the model’s three main parameters
 
 The following table summarises our estimates of the three key parameters:
 
@@ -87,9 +83,7 @@ We put log-uniform probability distributions over the model parameters and run a
 
 ![Three-panel visualization showing model parameter estimates: initial ASARA speed-up (2x to 32x capabilities growth), acceleration probability (60% yes, 40% no), and efficiency improvement potential (6-16 OOMs from ASARA to limits)](https://images.ctfassets.net/4owxfjx3z3if/51RDay8nssAXgzrkkNsZCv/dd10ae4bd809cb8fdfe9c5c6b28b3d0c/model-parameter-estimates-visualization.png?w=3840&q=85&fm=webp)
 
-Our assumptions about the model’s three key parameters{--{"author":"Luc's AI","timestamp":1787134081184}@@
-
-## Image--}
+Our assumptions about the model’s three key parameters
 
 **You can enter your own inputs to the model on [this website](https://accelerated-ai-progress.streamlit.app/).**
 
@@ -104,9 +98,7 @@ Here are the model’s bottom lines (to 1 sig fig):
 
 ![Probability curve showing likelihood of compressing AI progress into one year: 57% chance for 3+ years, 18% chance for 10+ years, with declining probability for more dramatic compression scenarios](https://images.ctfassets.net/4owxfjx3z3if/2d4Aj6IBHtLumZ4ZPcL5rW/c73d61e1de31cac6919e15d7671024ff/progress-compression-probability-curve.png?w=3840&q=85&fm=webp)
 
-How many years of total AI progress will the software intelligence explosion compress into just one year?{--{"author":"Luc's AI","timestamp":1787134081441}@@
-
-## Image--}
+How many years of total AI progress will the software intelligence explosion compress into just one year?
 
 Remember, the simulations conservatively assume that compute is held constant. They compare the pace of AI _software_ progress after ASARA to the recent pace of _overall_ AI progress, so “3 years of progress in 1 year” means “6 years of software progress in 1 year”.
 
@@ -352,9 +344,7 @@ Overall, we're going to err conservative here and use a log-uniform distribution
 
 ![Log-uniform probability distribution for initial speed-up from ASARA deployment, showing equal probability density across 2x to 32x range with median at 8x software progress acceleration](https://images.ctfassets.net/4owxfjx3z3if/3gHR6cIBXKkeG3u5NEP7vl/a8df3746007b5304b4ef07a6b215c4e9/initial-speedup-probability-distribution.png?w=3840&q=85&fm=webp)
 
-How many times faster is software progress after ASARA is deployed compared to today?{--{"author":"Luc's AI","timestamp":1787134081670}@@
-
-## Image--}
+How many times faster is software progress after ASARA is deployed compared to today?
 
 As we've said, there’s massive uncertainty here and significant room for reasonable disagreement.
 
@@ -362,9 +352,7 @@ To visualise how this parameter affects the results, we can run simulations with
 
 ![Graph showing AI capabilities growth over 5 years comparing different initial speed-up scenarios: 32x (green), 8x (purple), and 2x (yellow) acceleration versus recent baseline progress (gray)](https://images.ctfassets.net/4owxfjx3z3if/77yGNNb2xh2CJFx9qEncsl/3afdb6f4358fb7d374ce7fc939a4acfd/ai-capabilities-speedup-scenarios.png?w=3840&q=85&fm=webp)
 
-Simulations of the software intelligence explosion with different values for the Initial speed-up parameter.{--{"author":"Luc's AI","timestamp":1787134081911}@@
-
-## Image--}
+Simulations of the software intelligence explosion with different values for the Initial speed-up parameter.
 
 In the model, if the initial speed is twice as fast then the whole software intelligence explosion happens twice as fast and the maximum pace of progress is twice as fast.
 
@@ -412,17 +400,13 @@ Overall, our median estimate of r r is 1.2. We use a log-uniform distribution wi
 
 ![Log-uniform probability distribution for returns to software R&D parameter (r), showing equal probability density from 0.4 to 3.6 with median at 1.2, determining whether AI progress accelerates or decelerates](https://images.ctfassets.net/4owxfjx3z3if/1Dty1nWjqvRZ0EClXdaU9Z/5c22a042a50699f9b3fe72a4bf5dfbd2/returns-software-rd-distribution.png?w=3840&q=85&fm=webp)
 
-Log-uniform probability distribution for returns to software R&D parameter (r), showing equal probability density from 0.4 to 3.6 with median at 1.2, determining whether AI progress accelerates or decelerates{--{"author":"Luc's AI","timestamp":1787134082193}@@
-
-## Image--}
+Log-uniform probability distribution for returns to software R&D parameter (r), showing equal probability density from 0.4 to 3.6 with median at 1.2, determining whether AI progress accelerates or decelerates
 
 To visualise how this parameter affects the results, we can run simulations with different values of r r.
 
 ![Graph showing AI capabilities growth over 3 years comparing different returns to software R&D values: r=2.4 (green) shows rapid exponential growth, r=1.2 (purple) shows moderate acceleration, r=0.6 (yellow) shows deceleration versus baseline (gray)](https://images.ctfassets.net/4owxfjx3z3if/5UpgdR04oJ9pev9C0zHwc3/7f2009b8baa81742a6f9d6655ebe6db2/ai-capabilities-returns-rd-scenarios.png?w=3840&q=85&fm=webp)
 
-Graph showing AI capabilities growth over 3 years comparing different returns to software R&D values: r=2.4 (green) shows rapid exponential growth, r=1.2 (purple) shows moderate acceleration, r=0.6 (yellow) shows deceleration versus baseline (gray){--{"author":"Luc's AI","timestamp":1787134082465}@@
-
-## Image--}
+Graph showing AI capabilities growth over 3 years comparing different returns to software R&D values: r=2.4 (green) shows rapid exponential growth, r=1.2 (purple) shows moderate acceleration, r=0.6 (yellow) shows deceleration versus baseline (gray)
 
 Simulations of the software intelligence explosion with different values for the returns to software R&D, r r.
 
@@ -432,9 +416,7 @@ Also, when r r starts higher, effective limits are approached more rapidly and s
 
 ![Graph showing how returns to software R&D parameter (r) declines over time as AI approaches effective limits: high initial r values (2.4, green) drop rapidly to zero, moderate values (1.2, purple) decline gradually, low values (0.6, yellow) remain stable](https://images.ctfassets.net/4owxfjx3z3if/4G1D62bhEy67YWgEsmhj6o/16d71ff7c8e81752fcbe5d6e96fe3391/r-parameter-decay-over-time.png?w=3840&q=85&fm=webp)
 
-Graph showing how returns to software R&D parameter (r) declines over time as AI approaches effective limits: high initial r values (2.4, green) drop rapidly to zero, moderate values (1.2, purple) decline gradually, low values (0.6, yellow) remain stable{--{"author":"Luc's AI","timestamp":1787134082680}@@
-
-## Image--}
+Graph showing how returns to software R&D parameter (r) declines over time as AI approaches effective limits: high initial r values (2.4, green) drop rapidly to zero, moderate values (1.2, purple) decline gradually, low values (0.6, yellow) remain stable
 
 Simulations of the path of returns to software R&D, r r. r r falls over time as software approaches effective limits.
 
@@ -497,17 +479,13 @@ In recent years, effective training compute has risen by about [10X per year](ht
 
 ![Uniform probability distribution for distance to effective limits of AI software, showing equal likelihood across 6-16 years of progress at recent rates before reaching fundamental efficiency constraints](https://images.ctfassets.net/4owxfjx3z3if/53mRowE4luEAiRvW2hQAEN/93562665c465925c82aacde4243e28e5/distance-effective-limits-distribution.png?w=3840&q=85&fm=webp)
 
-When we train ASARA, how far will software be from effective limits?{--{"author":"Luc's AI","timestamp":1787134082907}@@
-
-## Image--}
+When we train ASARA, how far will software be from effective limits?
 
 To visualise how this parameter affects the results, we can run simulations with different limits.
 
 ![Graph showing AI capabilities growth over 4 years comparing different distances to effective limits: 14 years (green) enables highest growth, 10.5 years (purple) shows moderate plateau, 7 years (yellow) shows earlier saturation versus baseline (gray)](https://images.ctfassets.net/4owxfjx3z3if/5llo6E2FApLvriwNCDnGne/cde286c59becaa806f9866b3a906f10c/ai-capabilities-effective-limits-scenarios.png?w=3840&q=85&fm=webp)
 
-Simulations of the software explosion with difference values for the distance to effective limits (measured in years of AI progress at 2020-4 rates).{--{"author":"Luc's AI","timestamp":1787134083156}@@
-
-## Image--}
+Simulations of the software explosion with difference values for the distance to effective limits (measured in years of AI progress at 2020-4 rates).
 
 When effective limits are further away, software progress accelerates for longer and plateaus at a higher level.
 
@@ -564,9 +542,7 @@ You can change all of these assumptions in the [online tool](https://accelerated
 
 ![Probability curve for retraining model variant showing likelihood of compressing AI progress into one year: 57% chance for 3+ years, 18% chance for 10+ years, with declining probability for more dramatic compression](https://images.ctfassets.net/4owxfjx3z3if/Wn5YS1bYQKyyBt1DFIAiF/897826b2a263b552d44d0546dd2fe7b3/retraining-model-probability-results.png?w=3840&q=85&fm=webp)
 
-Probability curve for retraining model variant showing likelihood of compressing AI progress into one year: 57% chance for 3+ years, 18% chance for 10+ years, with declining probability for more dramatic compression{--{"author":"Luc's AI","timestamp":1787134083387}@@
-
-## Image--}
+Probability curve for retraining model variant showing likelihood of compressing AI progress into one year: 57% chance for 3+ years, 18% chance for 10+ years, with declining probability for more dramatic compression
 
 It goes without saying that this is all very rough and at most one significant figure should be taken seriously.
 
@@ -702,9 +678,7 @@ Let’s say that AI progress requires two steps: improving software and retraini
 
 ![Flowchart showing retraining model cycle: improved AI software leads to retraining AI, which produces better AI, creating feedback loop for continued improvement](https://images.ctfassets.net/4owxfjx3z3if/1Qg5rfXrzyUPMJW3RvSJbi/1d11052f10b9098ea975c50496fa6140/retraining-cycle-diagram.png?w=3840&q=85&fm=webp)
 
-Flowchart showing retraining model cycle: improved AI software leads to retraining AI, which produces better AI, creating feedback loop for continued improvement{--{"author":"Luc's AI","timestamp":1787134083624}@@
-
-## Image--}
+Flowchart showing retraining model cycle: improved AI software leads to retraining AI, which produces better AI, creating feedback loop for continued improvement
 
 As software progress becomes very fast, retraining will become a bottleneck. To avoid this, some of your software improvements can be “spent” on reducing the duration of training rather than on improving capabilities. As a result of this expenditure, the pace of AI progress accelerates more slowly. (An inverse argument shows that the pace of AI progress also _decelerates_ more slowly, as you can expand the time for training as progress slows.)
 
@@ -714,9 +688,7 @@ How can we incorporate this into the model? Suppose that the model previously st
 
 ![Diagram showing retraining model timing: total time to create next generation AI includes both software improvement and retraining phases, with accelerating progress requiring faster retraining to avoid bottlenecks](https://images.ctfassets.net/4owxfjx3z3if/40gkSK4CZA9Lp78dUmubLl/8faccff8b69b088f70fdb5f3ffb3b01e/retraining-time-allocation-diagram.png?w=3840&q=85&fm=webp)
 
-Diagram showing retraining model timing: total time to create next generation AI includes both software improvement and retraining phases, with accelerating progress requiring faster retraining to avoid bottlenecks{--{"author":"Luc's AI","timestamp":1787134083891}@@
-
-## Image--}
+Diagram showing retraining model timing: total time to create next generation AI includes both software improvement and retraining phases, with accelerating progress requiring faster retraining to avoid bottlenecks
 
 Specifically, we adjust the line of code that describes how software progress changes each time software doubles:
 
@@ -742,9 +714,7 @@ We rerun the analysis with this new exponent and find that the results do not ch
 
 ![Graph showing probability of compressing at least X years into one year. Declining orange curve from 1.0 to 0.0 probability over 0-20 years compressed. Vertical lines mark 3 years (57% probability) and 10 years (19% probability).](https://images.ctfassets.net/4owxfjx3z3if/5Oe1Dkx64NphOVLzRg225E/b7a18c707d050de0b9b4195806540c3c/time_compression_probability_curve.png?w=3840&q=85&fm=webp)
 
-Graph showing probability of compressing at least X years into one year. Declining orange curve from 1.0 to 0.0 probability over 0-20 years compressed. Vertical lines mark 3 years (57% probability) and 10 years (19% probability).{--{"author":"Luc's AI","timestamp":1787134084137}@@
-
-## Image--}
+Graph showing probability of compressing at least X years into one year. Declining orange curve from 1.0 to 0.0 probability over 0-20 years compressed. Vertical lines mark 3 years (57% probability) and 10 years (19% probability).
 
 See [here](https://www.forethought.org/research/will-the-need-to-retrain-ai-models) for more analysis of how retraining affects the dynamics of the software intelligence explosion.
 
@@ -754,9 +724,7 @@ In the main results we assume ASARA boosts the pace of software progress by 2-32
 
 ![Graph showing acceleration factor f(t) growing linearly from 0.1 to 8 over 5 years in gradual boost model, representing gradual ramp-up from minimal AI assistance to full ASARA capabilities](https://images.ctfassets.net/4owxfjx3z3if/76sjDeeO4UBnXYoP0jehXK/65a858eb2f487042e0b08041478e7cac/acceleration-factor-gradual-boost.png?w=3840&q=85&fm=webp)
 
-Graph showing acceleration factor f(t) growing linearly from 0.1 to 8 over 5 years in gradual boost model, representing gradual ramp-up from minimal AI assistance to full ASARA capabilities{--{"author":"Luc's AI","timestamp":1787134084375}@@
-
-## Image--}
+Graph showing acceleration factor f(t) growing linearly from 0.1 to 8 over 5 years in gradual boost model, representing gradual ramp-up from minimal AI assistance to full ASARA capabilities
 
 In the simulation, the initial boost to research productivity from deployment of AI is an additional 10% on top of the usual rate of software progress. The boost then grows linearly over time until it reaches the sampled maximum value (between 2 and 32).
 
@@ -800,9 +768,7 @@ Here are the results:
 
 ![Probability curve for gradual boost model variant showing likelihood of compressing AI progress into one year: 59% chance for 3+ years, 32% chance for 10+ years, with declining probability for more dramatic compression](https://images.ctfassets.net/4owxfjx3z3if/4aruN7HsGlPwaNqTraucL8/0fee1324115d6525bcebc6151b230f01/gradual-boost-probability-results.png?w=3840&q=85&fm=webp)
 
-Probability curve for gradual boost model variant showing likelihood of compressing AI progress into one year: 59% chance for 3+ years, 32% chance for 10+ years, with declining probability for more dramatic compression{--{"author":"Luc's AI","timestamp":1787134084577}@@
-
-## Image--}
+Probability curve for gradual boost model variant showing likelihood of compressing AI progress into one year: 59% chance for 3+ years, 32% chance for 10+ years, with declining probability for more dramatic compression
 
 The software intelligence explosion is _more_ dramatic, presumably because we used more aggressive parameter values for r r and the distance to effective limits.
 
@@ -829,9 +795,7 @@ How much more efficient could human learning be if the brain wasn’t undertrain
 
 ![Chinchilla scaling diagram showing human brain severely undertrained with 1e14 synapses and 1e24 FLOP learning, positioned far from optimal efficiency frontier, suggesting 4+ OOM training efficiency gains possible](https://images.ctfassets.net/4owxfjx3z3if/4bYgWa3tipGUdtEVBcgCyd/891b70c66735ecf530f7927e992b2726/chinchilla-scaling-human-brain-comparison.png?w=3840&q=85&fm=webp)
 
-This is a naive extrapolation from the Chinchilla paper results. The blue line shows the optimal scaling path. The training FLOP and parameters for human lifetime learning is shown at the top right – the human brain is severely undertrained. The pink lines indicate how much training FLOP would produce a model with the same loss as the brain, if the model were trained optimally.{--{"author":"Luc's AI","timestamp":1787134084821}@@
-
-## Image--}
+This is a naive extrapolation from the Chinchilla paper results. The blue line shows the optimal scaling path. The training FLOP and parameters for human lifetime learning is shown at the top right – the human brain is severely undertrained. The pink lines indicate how much training FLOP would produce a model with the same loss as the brain, if the model were trained optimally.
 
 \[Thanks to Marius Hobbhahn and Daniel Kokotajlo for help with this diagram.\]
 

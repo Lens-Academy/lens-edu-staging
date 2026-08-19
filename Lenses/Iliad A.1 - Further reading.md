@@ -1,8 +1,8 @@
 ---
 id: 'b955de41-5db6-44f0-974a-5bfe12a325ff'
-title: "Reading guide"{++{"author":"Luc's AI","timestamp":1787134226402}@@
+title: "Reading guide"
 tldr: "Use this guide to compare alignment targets, technical failure modes, goal-directedness, risk forecasts, and competing approaches to making advanced AI safe."
-summary_for_tutor: "A comprehensive reading map for AI alignment. It moves from risk categories and possible alignment targets through training stories, outer and inner alignment, inductive biases, goal-directedness, and instrumental convergence, then surveys risk forecasts and empirical, mathematical, and philosophical solution strategies."++}
+summary_for_tutor: "A comprehensive reading map for AI alignment. It moves from risk categories and possible alignment targets through training stories, outer and inner alignment, inductive biases, goal-directedness, and instrumental convergence, then surveys risk forecasts and empirical, mathematical, and philosophical solution strategies."
 authors:
   - Leon Lang
 source_url: https://github.com/iliad-team/iliad-intensive/blob/1eb9e340305e03de3f81a761167e13c54c71f19d/tex/ai-alignment-intro/main.mdx
