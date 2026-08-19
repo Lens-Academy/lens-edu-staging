@@ -124,9 +124,9 @@ Putting together the above points, we can illustrate the main factors leading to
 
 ![Flow diagram showing human researchers driving AI progress through two paths: Software R&D leading to better software, and Hardware R&D plus money leading to more hardware, both converging to AI Progress.](https://images.ctfassets.net/4owxfjx3z3if/3mCtoQMXqPuGokJEtivjBh/ec8bc246c0c32e5b9de5372c43f3ba34/Figure_1_FT.png?w=3840&q=85&fm=webp)
 
-Figure 1: Simplified diagram showing the main factors leading to AI progress. These factors are increases in hardware (due to either more money being spent on hardware or hardware R&D leading to improved hardware) and improvements in software (due to software R&D). Today, both hardware R&D and software R&D are performed by human researchers.
+Figure 1: Simplified diagram showing the main factors leading to AI progress. These factors are increases in hardware (due to either more money being spent on hardware or hardware R&D leading to improved hardware) and improvements in software (due to software R&D). Today, both hardware R&D and software R&D are performed by human researchers.{--{"author":"Luc's AI","timestamp":1787134088891}@@
 
-## Image
+## Image--}
 
 In an SIE, meanwhile, human researchers would be replaced by ASARA systems as the graph becomes a loop. Given the definition of an SIE, hardware would also be held constant; this assumption allows us to examine the potential for very rapid AI progress, unencumbered by physical bottlenecks related to hardware improvements.
 
@@ -134,17 +134,17 @@ The resulting scenario would look like this:
 
 ![Diagram showing SIE scenario with automated AI researchers conducting software R&D, creating feedback loop where AI progress improves the researchers. Hardware R&D path is grayed out (constant).](https://images.ctfassets.net/4owxfjx3z3if/CEhNF9ga0H0INHu8Cctlj/adcfc21b92fc1fd1cf9f6130d3e11232/Figure_2_FT.png?w=3840&q=85&fm=webp)
 
-Figure 2: Diagram similar to Figure 1, but modified in two ways for an SIE. First, the hardware path is nixed, allowing for examining a scenario where only software improves. Second, ASARA systems replace human researchers in performing R&D, yielding faster AI progress, which further enhances ASARA systems’ abilities, enabling them to conduct even better and/or faster software R&D.
+Figure 2: Diagram similar to Figure 1, but modified in two ways for an SIE. First, the hardware path is nixed, allowing for examining a scenario where only software improves. Second, ASARA systems replace human researchers in performing R&D, yielding faster AI progress, which further enhances ASARA systems’ abilities, enabling them to conduct even better and/or faster software R&D.{--{"author":"Luc's AI","timestamp":1787134089149}@@
 
-## Image
+## Image--}
 
 But before we consider what happens after the creation of ASARA, let’s turn our attention to the strength of the process whereby human researchers make AI progress through software R&D.
 
 ![Simple flow diagram showing human researchers conducting software R&D leading to better software and AI progress. Hardware R&D path is faded/grayed out, indicating focus on software-only progress.](https://images.ctfassets.net/4owxfjx3z3if/2MBa46yS2CKe3zD9Zelwdi/deddecf0d58fa82df6420578a875e6ff/Figure_3_FT.png?w=3840&q=85&fm=webp)
 
-Figure 3: Diagram representing the current path by which software R&D yields AI progress.
+Figure 3: Diagram representing the current path by which software R&D yields AI progress.{--{"author":"Luc's AI","timestamp":1787134089387}@@
 
-## Image
+## Image--}
 
 ## Improvements in AI software are already driving fast AI progress
 
@@ -181,9 +181,9 @@ While capability improvements are particularly difficult to quantify, we can bet
 
 ![Table showing AI efficiency doubling times across domains. Image recognition: 9-16 months, Language translation: 4-6 months, Game playing: 25 days to 4 months, Large language models: 3.6-8 months, General algorithms: basically no gains to <1 year.](https://images.ctfassets.net/4owxfjx3z3if/7lo1E2pcx0Y16l8IU8GrPd/588cd5abb557c910dcc73d7ee0c4e1eb/Table_1_FT.png?w=3840&q=85&fm=webp)
 
-Table 1: Summary of results from various studies investigating the efficiency doubling times of AI systems in several different domains. Note that most of these studies investigated training efficiency (how much computing resources are needed to train an AI system to a specific level of capabilities) instead of runtime efficiency (how much computing power is needed to run the resultant system).
+Table 1: Summary of results from various studies investigating the efficiency doubling times of AI systems in several different domains. Note that most of these studies investigated training efficiency (how much computing resources are needed to train an AI system to a specific level of capabilities) instead of runtime efficiency (how much computing power is needed to run the resultant system).{--{"author":"Luc's AI","timestamp":1787134089610}@@
 
-## Image
+## Image--}
 
 Of the different categories above, we put the most weight on the large language model results, because LLMs are more likely to form the basis for ASARA than the other algorithms, and because the LLM training efficiency analysis uses significantly more data than the other analyses of AI algorithms. Conveniently, the LLM analyses also yield the median growth rate of the five categories – roughly speaking, LLMs saw faster efficiency growth than image recognition systems and algorithms writ large, but slower growth than language translation and game playing.
 
@@ -246,9 +246,9 @@ To see why, let’s return to our diagram of the factors relevant for AI progres
 
 ![Diagram showing SIE scenario with automated AI researchers conducting software R&D, creating feedback loop where AI progress improves the researchers. Hardware R&D path is grayed out (constant).](https://images.ctfassets.net/4owxfjx3z3if/CEhNF9ga0H0INHu8Cctlj/adcfc21b92fc1fd1cf9f6130d3e11232/Figure_2_FT.png?w=3840&q=85&fm=webp)
 
-Figure 4: Diagram of AI progress after the creation of ASARA and if hardware is then held constant (repeated from Figure 2).
+Figure 4: Diagram of AI progress after the creation of ASARA and if hardware is then held constant (repeated from Figure 2).{--{"author":"Luc's AI","timestamp":1787134089876}@@
 
-## Image
+## Image--}
 
 With humans completely cut out of the cycle, the feedback loop might go explosive, with progress getting faster and faster – i.e., an SIE. But whether or not we’d get that outcome would depend on the power of the feedback loop compared to countervailing forces.
 
@@ -267,9 +267,9 @@ One, we’ll assume that ASARA systems can all be broken up into distinct [artif
 
 ![Toy model illustration showing progression from 1 automated AI researcher producing papers, leading to more efficient researchers fitting on fixed hardware. Shows exponential growth from 2 to 8 to 32+ researchers over time, with legend explaining symbols.](https://images.ctfassets.net/4owxfjx3z3if/3BkxlUDKP6OnH5tiLPT0T9/e294c9af4369fee8f55991235b7499af/Figure_5_FT.png?w=3840&q=85&fm=webp)
 
-Figure 5: Illustration of the toy model. In the toy model, we’re assuming that AGIs (represented in this figure by neural nets in graduation caps) perform software R&D, resulting in “papers,” and these papers allow for increasing the efficiency of our AGIs, enabling the fixed amount of hardware to house more AGIs, resulting in more total papers per unit time, and so on.
+Figure 5: Illustration of the toy model. In the toy model, we’re assuming that AGIs (represented in this figure by neural nets in graduation caps) perform software R&D, resulting in “papers,” and these papers allow for increasing the efficiency of our AGIs, enabling the fixed amount of hardware to house more AGIs, resulting in more total papers per unit time, and so on.{--{"author":"Luc's AI","timestamp":1787134089957}@@
 
-## Image
+## Image--}
 
 Okay, first we’ll consider what a “fizzle” looks like in the toy model (see Figure 6 below to follow along with this example). Let’s say initially, there’s 1 AGI (for simplicity). We’ll also assume that the AGI’s productivity is 1 paper per month, and that computational efficiency can be doubled after 2 papers have been written. Then after 2 months have passed, efficiency has doubled, so the same amount of hardware can be repurposed to house 2 AGIs. Both AGIs will be able to write 1 paper per month, meaning the total productivity is now 2 papers per month. But, because of diminishing returns to software R&D, the amount of papers needed to double efficiency again will increase – let’s say it’s now 3x higher, at 6 papers. With 2 AGIs each writing 1 paper per month, it will take 3 months to write the 6 papers needed to double efficiency for the second time. At that point, the hardware will allow for 4 AGIs (efficiency has doubled twice, and 2 × 2 \= 4 2 \\times 2 = 4).
 
@@ -277,9 +277,9 @@ The number of papers needed to double efficiency for a third time will be higher
 
 !["Fizzle" scenario showing AI progress slowing down. Timeline shows 3 efficiency doublings taking progressively longer: 2 months, then 3 months, then 4.5 months, as each doubling requires 3x more papers despite having more researchers.](https://images.ctfassets.net/4owxfjx3z3if/3xrAC7EXuZ75r1S4TPzEm7/8cd3e272861358e6d27355ef6610e81e/Figure_6_FT.png?w=3840&q=85&fm=webp)
 
-Figure 6: Illustration of an example “fizzle” within the toy model. In this example, each AI efficiency doubling requires three times as many papers to be written as the last. With twice as much researcher capacity, each efficiency doubling therefore takes 50% longer than the last.
+Figure 6: Illustration of an example “fizzle” within the toy model. In this example, each AI efficiency doubling requires three times as many papers to be written as the last. With twice as much researcher capacity, each efficiency doubling therefore takes 50% longer than the last.{--{"author":"Luc's AI","timestamp":1787134090226}@@
 
-## Image
+## Image--}
 
 Progress in this case is “fizzling,” in the sense that it’s taking longer and longer for each subsequent doubling – first 2 months, then 3, and then 4.5.
 
@@ -287,25 +287,25 @@ Now let’s consider an SIE (see Figure 7 below to follow along). Again, we’ll
 
 !["Software Intelligence Explosion" scenario showing accelerating progress. Timeline shows 3 efficiency doublings getting faster: 2 months, then 1.5 months, then 1.1 months, as doubled researcher capacity overcomes 50% difficulty increases.](https://images.ctfassets.net/4owxfjx3z3if/6YROduNgi9m57MaufzB01i/f0d9cde9eeb9c9db859e588589e023e9/Figure_7_FT.png?w=3840&q=85&fm=webp)
 
-Figure 7: Illustration of an example SIE within the toy model. Here, each AI efficiency doubling requires 1.5 times as many papers to be written as the last. With twice as much researcher capacity, each efficiency doubling therefore takes 75% as long as the last.
+Figure 7: Illustration of an example SIE within the toy model. Here, each AI efficiency doubling requires 1.5 times as many papers to be written as the last. With twice as much researcher capacity, each efficiency doubling therefore takes 75% as long as the last.{--{"author":"Luc's AI","timestamp":1787134090461}@@
 
-## Image
+## Image--}
 
 In this case, progress is speeding up. If we simply extrapolate the dynamic within the confines of the toy model, it would imply infinite progress within finite time.
 
 ![Timeline comparing fizzle scenario (slow growth to 8 researchers over 8 months) vs explosion scenario (rapid acceleration to 8192 researchers by August with frequent doublings).](https://images.ctfassets.net/4owxfjx3z3if/OaeAr24i05P0WueotYjRS/8473bd5b6a08ced9742c092ea2082e0e/Figure_8_FT.png?w=3840&q=85&fm=webp)
 
-Figure 8: Comparison of our fizzle scenario and our SIE scenario. While progress gradually slows down in the fizzle, in an SIE it speeds up without limit. Given the parameters of our toy model, the SIE has an asymptote at 8 months after AI R&D is fully automated.
+Figure 8: Comparison of our fizzle scenario and our SIE scenario. While progress gradually slows down in the fizzle, in an SIE it speeds up without limit. Given the parameters of our toy model, the SIE has an asymptote at 8 months after AI R&D is fully automated.{--{"author":"Luc's AI","timestamp":1787134090741}@@
 
-## Image
+## Image--}
 
 In each of these two cases, we see both a) it gets “harder” over time to increase efficiency, requiring more papers for each subsequent doubling, and b) the number of AGIs increases over time, increasing the total effort going towards improving efficiency. The differentiator between the fizzle and the SIE is the relative strength of these two effects. Specifically, in a fizzle, each doubling of efficiency requires _more than twice_ as many papers as the last (e.g., from 2 → 6 → 18), implying progress is getting harder at a faster rate than the AGI labor force is improving. Meanwhile, for an SIE, each efficiency doubling requires _less than twice_ as many papers as the last (e.g., from 2 → 3), implying progress is getting harder at a slower rate than improvements in the AGI labor force. If each efficiency doubling required papers to _exactly_ double, then we’d see sustained exponential growth in efficiency, as each efficiency doubling would continue to take 2 months (e.g., with 2 AGIs needing to produce 4 papers, 4 AGIs needing to produce 8, …).
 
 ![Table showing three scenarios with papers needed for efficiency doublings. Fizzle: 2 then 6 papers (3x increase). SIE: 2 then 3 papers (1.5x increase). Exponential growth: 2 then 4 papers (2x increase).](https://images.ctfassets.net/4owxfjx3z3if/7Ia4LQ9YMRCo9v4jP1o9SU/4e6c55e54bd40364d57b40f359c5fa96/Table_2_FT.png?w=3840&q=85&fm=webp)
 
-Table 2: Chart demonstrating the differentiator between a fizzle and an SIE in our toy model. Note the specific number of papers listed for each doubling in each scenario is simply illustrative; the important point is that the tipping point between a fizzle and an SIE is when the papers required for a subsequent doubling in efficiency is twice as large as the papers required for the current doubling. Colored font used to help readers follow along.
+Table 2: Chart demonstrating the differentiator between a fizzle and an SIE in our toy model. Note the specific number of papers listed for each doubling in each scenario is simply illustrative; the important point is that the tipping point between a fizzle and an SIE is when the papers required for a subsequent doubling in efficiency is twice as large as the papers required for the current doubling. Colored font used to help readers follow along.{--{"author":"Luc's AI","timestamp":1787134090985}@@
 
-## Image
+## Image--}
 
 ## Being more mathematically concrete: returns to software R&D
 
@@ -317,9 +317,9 @@ More specifically, r r gives the number of times software doubles for each time 
 
 ![Table showing calculation of r parameter for three scenarios. Fizzle (3x increase) gives r=0.63. SIE (1.5x increase) gives r=1.72. Exponential growth (2x increase) gives r=1. Shows mathematical derivation using logarithms.](https://images.ctfassets.net/4owxfjx3z3if/1f7WeX239GE4kw2SZnyOR5/51a93ba7e9faed64ba84c49f3e42786a/Table_3_FT.png?w=3840&q=85&fm=webp)
 
-Table showing calculation of r parameter for three scenarios. Fizzle (3x increase) gives r=0.63. SIE (1.5x increase) gives r=1.72. Exponential growth (2x increase) gives r=1. Shows mathematical derivation using logarithms.
+Table showing calculation of r parameter for three scenarios. Fizzle (3x increase) gives r=0.63. SIE (1.5x increase) gives r=1.72. Exponential growth (2x increase) gives r=1. Shows mathematical derivation using logarithms.{--{"author":"Luc's AI","timestamp":1787134091237}@@
 
-## Image
+## Image--}
 
 Table 3: Continuation from Table 2, updated to demonstrate the derivation of r r. Again, this table uses numbers that are illustrative of each scenario in our toy model, and colored font is used to help readers follow along. The tipping-point condition between an SIE and a fizzle is r \= 1 r = 1. Note the first column in this table is copied over from the last column in Table 2.
 
@@ -329,9 +329,9 @@ Meanwhile, if r \= 3 r = 3, then each doubling will take 63% as long as the last
 
 ![Graph showing AI software capacity growth over first year after ASARA for different r values. Lines range from r=0.5 (slow growth to ~10x) up to r=1.5 (explosive growth to 100 million x). Dashed line shows current AI progress rate for comparison.](https://images.ctfassets.net/4owxfjx3z3if/5OpQgwOIif7P04iRVT9Loi/c0cb3dad66c21d0f2ecf7327314bf65b/Figure_9_FT.png?w=3840&q=85&fm=webp)
 
-Graph showing AI software capacity growth over first year after ASARA for different r values. Lines range from r=0.5 (slow growth to ~10x) up to r=1.5 (explosive growth to 100 million x). Dashed line shows current AI progress rate for comparison.
+Graph showing AI software capacity growth over first year after ASARA for different r values. Lines range from r=0.5 (slow growth to ~10x) up to r=1.5 (explosive growth to 100 million x). Dashed line shows current AI progress rate for comparison.{--{"author":"Luc's AI","timestamp":1787134091480}@@
 
-## Image
+## Image--}
 
 Figure 9: Graph showing AI software progress over the first year after ASARA, as a function of r r, assuming the first doubling in software progress takes 1 month and hardware is held constant upon the creation of ASARA. Note that for r \> 1 r >1 (red and purple lines above), representing an SIE, progress becomes faster and faster, without limit (in reality, physical limits would eventually reduce r r and slow progress, but it’s unclear whether those physical limits would start biting before tremendous progress was achieved – see Figure 10 for more). For r < 1 r < 1 (green and blue lines above), representing a fizzle, progress slows down over time, but could still be quite fast for a period of time (for reference, the dashed line on the graph corresponds to a very rough guess of the current rate of progress in AI capacity, including gains derived from hardware growth). Note that this graph makes simplifying assumptions, such as ignoring the “stepping on toes” effect.[27](https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#user-content-fn-27)
 
@@ -345,9 +345,9 @@ In an SIE, meanwhile, things would get much wilder than that. It’s uncertain h
 
 ![Three panels showing software progress curves with different physical limits. Left: low limit plateau at ~1M x. Middle: medium limit plateau at ~1B x. Right: high limit plateau at ~1T x. All show S-curves with vertical dashed lines at ~3 months.](https://images.ctfassets.net/4owxfjx3z3if/64jtE8XdxPYKt7aKRUvlHe/031782f1f1aa391bc518e627d940e20d/Figure_10_FT.png?w=3840&q=85&fm=webp)
 
-Figure 10: Even if there is an SIE, physical limits (as described in footnote 26) would eventually slow progress, if progress doesn’t slow for other reasons first. There is tremendous uncertainty about how high these limits are above the first ASARA systems, though, and we may see extraordinary progress before these limits are approached.
+Figure 10: Even if there is an SIE, physical limits (as described in footnote 26) would eventually slow progress, if progress doesn’t slow for other reasons first. There is tremendous uncertainty about how high these limits are above the first ASARA systems, though, and we may see extraordinary progress before these limits are approached.{--{"author":"Luc's AI","timestamp":1787134091781}@@
 
-## Image
+## Image--}
 
 As we’ve discussed, whether an SIE would happen at all depends on whether r r is above 1.
 
@@ -376,9 +376,9 @@ There are a few reasons to think that r r is _currently_ above 1:
 
 ![Table showing r parameter estimates across domains. Image recognition: 1.4, Computer chess: 0.8, RL training data efficiency: 1.6, SAT solvers: 3.5, Linear programming: 1.1, Algorithms in general: ~4.](https://images.ctfassets.net/4owxfjx3z3if/6fYdjgkXN9ArUv6Qol1CVL/93f658f2752e96ca5c20aad559d4c7e0/Table_4_FT.png?w=3840&q=85&fm=webp)
 
-Table showing r parameter estimates across domains. Image recognition: 1.4, Computer chess: 0.8, RL training data efficiency: 1.6, SAT solvers: 3.5, Linear programming: 1.1, Algorithms in general: ~4.
+Table showing r parameter estimates across domains. Image recognition: 1.4, Computer chess: 0.8, RL training data efficiency: 1.6, SAT solvers: 3.5, Linear programming: 1.1, Algorithms in general: ~4.{--{"author":"Luc's AI","timestamp":1787134092087}@@
 
-## Image
+## Image--}
 
 Table 4: Summary of estimates of r r from various domains related to AI. Note that post-training enhancement and capability advancements would further increase our estimate of r r.
 
@@ -400,9 +400,9 @@ The analyses for AI software progress conducted by groups like OpenAI and Epoch,
 
 ![Graph showing exponential growth in fastest supercomputer capacity from 2010-2023, rising from ~3 million to ~1 billion gigaFLOPS. Log scale y-axis shows roughly straight line indicating consistent exponential hardware progress.](https://images.ctfassets.net/4owxfjx3z3if/1i2GIbljV9eau7p9amfsjR/400f07c6cc59d820dd596e684cc62dde/Figure_11_FT.png?w=3840&q=85&fm=webp)
 
-Graph showing exponential growth in fastest supercomputer capacity from 2010-2023, rising from ~3 million to ~1 billion gigaFLOPS. Log scale y-axis shows roughly straight line indicating consistent exponential hardware progress.
+Graph showing exponential growth in fastest supercomputer capacity from 2010-2023, rising from ~3 million to ~1 billion gigaFLOPS. Log scale y-axis shows roughly straight line indicating consistent exponential hardware progress.{--{"author":"Luc's AI","timestamp":1787134092327}@@
 
-## Image
+## Image--}
 
 Figure 11: Graph of the fastest supercomputer over time, from 2010, demonstrating the rise in computing power available. This increase in hardware may be largely responsible for improvements in AI software over this time period, as it would have enabled researchers to perform more AI experiments over time. If hardware were instead held constant, software progress might have also been slower. Note that this graph is a log plot (the y-axis grows exponentially), meaning the approximately straight line on this graph corresponds to exponential growth. (Figure [source](https://ourworldindata.org/grapher/supercomputer-power-flops?time=2010..latest): Dongarra et al. (2023) – with minor processing by Our World in Data)
 
@@ -434,9 +434,9 @@ For the most powerful systems, the pretraining phase can be long indeed, requiri
 
 ![Modified SIE diagram showing training time bottleneck. Circular training time delay added to feedback loop between better software and AI progress. Hardware R&D path remains grayed out, showing software-only scenario with training constraints.](https://images.ctfassets.net/4owxfjx3z3if/3KjP8cVUrkn55Esf92W8dI/2bcb044922f640d3067d76105a66c9a1/Figure_12_FT.png?w=3840&q=85&fm=webp)
 
-Figure 12: Diagram of post-ASARA, software-based feedback loop, modified to demonstrate how the time needed to train new AI models could bottleneck AI progress, potentially preventing an SIE.
+Figure 12: Diagram of post-ASARA, software-based feedback loop, modified to demonstrate how the time needed to train new AI models could bottleneck AI progress, potentially preventing an SIE.{--{"author":"Luc's AI","timestamp":1787134092593}@@
 
-## Image
+## Image--}
 
 But there are also several reasons that long training processes might not wind up bottlenecking progress. Progress might be able to be sustained by methods other than lengthy training processes – such as by focusing on scaffolding, prompting, and shorter fine-tuning phases. Additional methods might also be developed that allow for progress without retraining, such as by modifying parts of already existing systems in novel ways. And, as alluded to in the above section, a shift away from the current paradigm in AI might circumvent these hurdles even more clearly. If training new systems becomes a bottleneck on progress, that bottleneck would lead to large incentives for the field to search out other ways of sustaining improvement.
 
