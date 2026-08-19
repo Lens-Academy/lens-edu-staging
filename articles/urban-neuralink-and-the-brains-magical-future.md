@@ -1760,7 +1760,7 @@ Elon’s urgency to get us into the Wizard Era is the final piece of the Neurali
 
 With Elon’s companies, there’s always some “result of the goal” that’s his real reason for starting the company—the piece that ties the company’s goal into humanity’s better future. In the case of Neuralink, it’s a piece that takes a lot of tree climbing to understand. But with the view from all the way up here, we’ve got everything we need for our final stretch of the road.
 
-**Part 6: The Great Merger**
+{--{"author":"Luc's AI","timestamp":1787169515823}@@**Part--}{++{"author":"Luc's AI","timestamp":1787169515823}@@## Part++} 6: The Great {--{"author":"Luc's AI","timestamp":1787169515823}@@Merger**--}{++{"author":"Luc's AI","timestamp":1787169515823}@@Merger++}
 
 [![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-6.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-6.png)
 
