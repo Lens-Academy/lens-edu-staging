@@ -3,7 +3,7 @@ title: "Win/continue/lose scenarios and execute/replace/audit protocols"
 author:
   - "Buck Shlegeris"
 source_url: "https://redwoodresearch.substack.com/p/wincontinuelose-scenarios-and-executereplaceaudi"
-published: 2025-01-14
+published: {--{"author":"Luc's AI","timestamp":1787136316830}@@2025-01-14--}{++{"author":"Luc's AI","timestamp":1787136316830}@@2024-11-15++}
 created: 2026-07-02
 accessed: 2026-07-02
 description: "In this post, I’ll make a technical point that comes up when thinking about risks from scheming AIs from a control perspective."
