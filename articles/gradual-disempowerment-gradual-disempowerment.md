@@ -20,7 +20,7 @@ Add discussion note here:
 
 ## Systemic Existential Risks from Incremental AI Development
 
-Jan Kulveit [\*](https://gradual-disempowerment.ai/#footnote-*), Raymond Douglas [\*](https://gradual-disempowerment.ai/#footnote-*), Nora Ammann, Deger Turan, David Krueger, David Duvenaud [†](https://gradual-disempowerment.ai/#footnote-†)
+Jan Kulveit {--{"author":"Luc's AI","timestamp":1787140448819}@@[\*](https://gradual-disempowerment.ai/#footnote-*),--}{++{"author":"Luc's AI","timestamp":1787140448819}@@[^author-equal],++} Raymond Douglas {--{"author":"Luc's AI","timestamp":1787140448819}@@[\*](https://gradual-disempowerment.ai/#footnote-*),--}{++{"author":"Luc's AI","timestamp":1787140448819}@@[^author-equal],++} Nora Ammann, Deger Turan, David Krueger, David Duvenaud {--{"author":"Luc's AI","timestamp":1787140448819}@@[†](https://gradual-disempowerment.ai/#footnote-†)--}{++{"author":"Luc's AI","timestamp":1787140448819}@@[^author-affiliations]++}
 
 [Full version on arXiv](https://arxiv.org/abs/2501.16946)  
 [ICML 2025 version](https://icml.cc/virtual/2025/poster/40107)
@@ -45,7 +45,7 @@ In this paper, we explore an alternative scenario: a 'Gradual Disempowerment' wh
 
 Our argument is structured around six core claims:
 
-1.  Humans currently engage with numerous large-scale societal systems (e.g. governments, economic systems) that are influenced by human action and, in turn, produce outcomes that shape our collective future \[[0](https://gradual-disempowerment.ai/#ref-giddens1984)\]. These societal systems are fairly aligned [1](https://gradual-disempowerment.ai/#footnote-1) —that is, they broadly incentivize and produce outcomes that satisfy human preferences. However, this alignment is neither automatic nor inherent.
+1.  Humans currently engage with numerous large-scale societal systems (e.g. governments, economic systems) that are influenced by human action and, in turn, produce outcomes that shape our collective future \[[0](https://gradual-disempowerment.ai/#ref-giddens1984)\]. These societal systems are fairly aligned {--{"author":"Luc's AI","timestamp":1787140449034}@@[1](https://gradual-disempowerment.ai/#footnote-1)--}{++{"author":"Luc's AI","timestamp":1787140449034}@@[^alignment-definition]++} —that is, they broadly incentivize and produce outcomes that satisfy human preferences. However, this alignment is neither automatic nor inherent.
     
 2.  There are effectively two ways these systems maintain their alignment: through explicit human actions (like voting and consumer choice), and implicitly through their reliance on human labor and cognition. The significance of the implicit alignment can be hard to recognize because we have never seen its absence.
     
@@ -66,4 +66,12 @@ History has already shown us that these systems can produce outcomes which we wo
 
 We first analyze how these three key societal systems could independently lose alignment with human preferences: [the economy](https://gradual-disempowerment.ai/misaligned-economy), [culture](https://gradual-disempowerment.ai/misaligned-culture), and [states](https://gradual-disempowerment.ai/misaligned-states). In each case, we attempt to characterise how they currently function and what incentives shape them, how a proliferation of AI could disrupt them, and how this might leave them less aligned, as well as outlining what it might look like for that particular system to become much less aligned. In [Mutual Reinforcement](https://gradual-disempowerment.ai/mutual-reinforcement), we discuss the interrelation between these systems. We consider how AI could undermine their ability to moderate each other, and how misalignment in one system might leave other systems also less aligned. Then in [Mitigating the Risk](https://gradual-disempowerment.ai/mitigating-the-risk), we propose some potential approaches for tackling these risks.
 
-[Continue](https://gradual-disempowerment.ai/misaligned-economy)
+[Continue](https://gradual-disempowerment.ai/misaligned-economy){++{"author":"Luc's AI","timestamp":1787140449261}@@
+
+## Footnotes
+
+[^author-equal]: Equal contribution.
+
+[^author-affiliations]: Author affiliations: JK and NA: ACS Research Group, Charles University; RD: Telic Research; NA: Advanced Research + Invention Agency (ARIA); DT: AI Objectives Institute and Metaculus; DK: Mila, University of Montreal; DD: University of Toronto.
+
+[^alignment-definition]: In this paper, we use “alignment” to refer to *the degree to which a system satisfies what humans want (individually or collectively)*, for both specific AI systems and societal systems. We don't mean to claim that these systems satisfy human preferences completely or in every instance. Nor do we intend to argue, in the context of this article, whether or not these systems are ethical or just. Instead, the aim of this article is to argue that, while there are currently mechanisms that create or maintain some degree of alignment between those systems and humans, the progress and proliferation of AI threatens to undermine those mechanisms, thereby drastically weakening any alignment that is currently present, potentially culminating in the disempowerment of humanity at large.++}
