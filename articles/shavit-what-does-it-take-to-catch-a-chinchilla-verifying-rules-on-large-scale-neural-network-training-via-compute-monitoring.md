@@ -139,7 +139,7 @@ There are several other considerations for such a monitoring system to be practi
 
 In this section, we outline a high-level technical plan, illustrated in Figure [1](#S3.F1 "Figure 1 ‣ 3 Solution Overview ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."), for Verifiers to monitor Provers’ ML chips for evidence that a large rule-violating training occurred.
 
-![](/attachments/shavit-what-does-it-take-to-catch-a-chinchilla-verifying-rules-on-large-scale-neural-network-training-via-compute-monitoring-img1-23934538.png)
+![]({--{"author":"Luc's AI","timestamp":1787136075397}@@/attachments/shavit-what-does-it-take-to-catch-a-chinchilla-verifying-rules-on-large-scale-neural-network-training-via-compute-monitoring-img1-23934538.png--}{++{"author":"Luc's AI","timestamp":1787136075397}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shavit-what-does-it-take-to-catch-a-chinchilla-verifying-rules-on-large-scale-neural-network-training-via-compute-monitoring-img1-23934538.png++})
 
 Figure 1: Overview of the proposed monitoring framework.
 
