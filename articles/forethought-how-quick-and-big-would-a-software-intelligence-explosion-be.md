@@ -631,19 +631,28 @@ g S (S,C) \= S λ α − β C λ (1 − α) × a (b d) λ α c λ (1 − α) g\_
 
 From here, the time it takes for software to double is given by
 
-Doubling Time (S,C) \= log ⁡ (2) g S (S,C) \\text{Doubling Time} (S,C) = \\frac{\\log(2)}{g\_S(S,C)}
+{--{"author":"Luc's AI","timestamp":1787133616913}@@Doubling Time (S,C) \= log ⁡ (2) g S (S,C) \\text{Doubling Time} (S,C) = \\frac{\\log(2)}{g\_S(S,C)}--}{++{"author":"Luc's AI","timestamp":1787133616913}@@$$
+\text{Doubling Time}(S,C)=\frac{\log(2)}{g_S(S,C)}
+$$++}
 
 Next, if we want to express the doubling time under software level 2 S 2S in terms of the doubling time for software under software level S S, we can divide expressions:
 
-Doubling Time (2 S,C) Doubling Time (S,C) \= g S (S,C) g S (2 S,C) \\quad\\;\\; \\displaystyle \\frac{\\text{Doubling Time}(2S,C)}{\\text{Doubling Time}(S,C)} = \\frac{g\_S(S,C)}{g\_S(2S,C)} ⟹ Doubling Time (2 S,C) \= Doubling Time (S,C) × 2 β − λ α \\Longrightarrow \\text{Doubling Time}(2S,C) = \\text{Doubling Time}(S,C) \\times 2^{\\beta - \\lambda \\alpha}
+{--{"author":"Luc's AI","timestamp":1787133617158}@@Doubling Time (2 S,C) Doubling Time (S,C) \= g S (S,C) g S (2 S,C) \\quad\\;\\; \\displaystyle \\frac{\\text{Doubling Time}(2S,C)}{\\text{Doubling Time}(S,C)} = \\frac{g\_S(S,C)}{g\_S(2S,C)} ⟹ Doubling Time (2 S,C) \= Doubling Time (S,C) × 2 β − λ α \\Longrightarrow \\text{Doubling Time}(2S,C) = \\text{Doubling Time}(S,C) \\times 2^{\\beta - \\lambda \\alpha}--}{++{"author":"Luc's AI","timestamp":1787133617158}@@$$
+\frac{\text{Doubling Time}(2S,C)}{\text{Doubling Time}(S,C)}=\frac{g_S(S,C)}{g_S(2S,C)}
+\Longrightarrow \text{Doubling Time}(2S,C)=\text{Doubling Time}(S,C)\times 2^{\beta-\lambda\alpha}
+$$++}
 
 So we can see that after a doubling of software, the time it takes to complete the next doubling halves λ α − β \\lambda \\alpha - \\beta times. To map this expression to the parameters in the rest of this analysis, we define p p and r r as in the main text:
 
-p:\= λ α p:= \\lambda \\alpha r:\= λ α β r:= \\dfrac{\\lambda \\alpha}{\\beta}
+{--{"author":"Luc's AI","timestamp":1787133617430}@@p:\= λ α p:= \\lambda \\alpha r:\= λ α β r:= \\dfrac{\\lambda \\alpha}{\\beta}--}{++{"author":"Luc's AI","timestamp":1787133617430}@@$$
+p \coloneqq \lambda\alpha, \qquad r \coloneqq \frac{\lambda\alpha}{\beta}
+$$++}
 
 And therefore, to get the doubling time expression in the [pseudo code](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#pseudocode) note β − λ α \= p (r − 1 − 1) \\beta - \\lambda \\alpha \\; = \\; p (r^{-1} - 1), therefore
 
-Doubling Time (2 S,C) \= Doubling Time (S,C) × 2 p (1 r − 1) \\text{Doubling Time}(2S,C) = \\text{Doubling Time}(S,C) \\times 2^{p(\\frac{1}{r} - 1)}
+{--{"author":"Luc's AI","timestamp":1787133617717}@@Doubling Time (2 S,C) \= Doubling Time (S,C) × 2 p (1 r − 1) \\text{Doubling Time}(2S,C) = \\text{Doubling Time}(S,C) \\times 2^{p(\\frac{1}{r} - 1)}--}{++{"author":"Luc's AI","timestamp":1787133617717}@@$$
+\text{Doubling Time}(2S,C)=\text{Doubling Time}(S,C)\times 2^{p(\frac{1}{r}-1)}
+$$++}
 
 Therefore, so long as we know the initial doubling time of software and p p and r r for each time period, we can chain together doubling times to calculate a path of software.
 
@@ -662,7 +671,9 @@ In addition to the [pseudo code](https://www.forethought.org/research/how-quick-
 
 A model parameter specifies the _initial speed-up_ in software progress from deploying ASARA. But we also need to make an assumption about how fast AI software has progressed recently. Then we can calculate:
 
-Initial software doubling time after ASARA \= recent software doubling time initial speed-up \\text{Initial software doubling time after ASARA} = \\frac{\\text{recent software doubling time}}{\\text{initial speed-up}}
+{--{"author":"Luc's AI","timestamp":1787133617963}@@Initial--}{++{"author":"Luc's AI","timestamp":1787133617963}@@$$
+\text{Initial++} software doubling time after {--{"author":"Luc's AI","timestamp":1787133617963}@@ASARA \= recent--}{++{"author":"Luc's AI","timestamp":1787133617963}@@ASARA}=\frac{\text{recent++} software doubling {--{"author":"Luc's AI","timestamp":1787133617963}@@time initial speed-up \\text{Initial software doubling time after ASARA} = \\frac{\\text{recent software doubling time}}{\\text{initial --}{++{"author":"Luc's AI","timestamp":1787133617963}@@time}}{\text{initial ++}speed-up}}{++{"author":"Luc's AI","timestamp":1787133617963}@@
+$$++}
 
 We assume that recently software has doubled every 3 months.
 
@@ -685,9 +696,9 @@ You can change this assumption in the [online tool](https://accelerated-ai-progr
 
 #### Objection to our sampling procedure
 
-It might seem ill-advised to independently sample r \= α λ β r = \\frac{\\alpha \\lambda}{\\beta} and p \= α λ p = \\alpha \\lambda. Should we not instead sample β \\beta and α λ \\alpha \\lambda? After all, these are the more fundamental inputs that determine the model behaviour. For example, we will sample α λ \\alpha \\lambda holding r r fixed – this means that a higher value for α λ \\alpha \\lambda will change the (implicit) value of β \\beta.
+It might seem ill-advised to independently sample {--{"author":"Luc's AI","timestamp":1787133618352}@@r \= α λ β r--}{++{"author":"Luc's AI","timestamp":1787133618352}@@$r++} = {--{"author":"Luc's AI","timestamp":1787133618352}@@\\frac{\\alpha \\lambda}{\\beta}--}{++{"author":"Luc's AI","timestamp":1787133618352}@@\frac{\alpha\lambda}{\beta}$++} and {--{"author":"Luc's AI","timestamp":1787133618352}@@p \= α λ p--}{++{"author":"Luc's AI","timestamp":1787133618352}@@$p++} = {--{"author":"Luc's AI","timestamp":1787133618352}@@\\alpha \\lambda.--}{++{"author":"Luc's AI","timestamp":1787133618352}@@\alpha\lambda$.++} Should we not instead sample {--{"author":"Luc's AI","timestamp":1787133618352}@@β \\beta--}{++{"author":"Luc's AI","timestamp":1787133618352}@@$\beta$++} and{--{"author":"Luc's AI","timestamp":1787133618352}@@ α λ \\alpha \\lambda?--}{++{"author":"Luc's AI","timestamp":1787133618352}@@ $\alpha\lambda$?++} After all, these are the more fundamental inputs that determine the model behaviour. For example, we will sample {--{"author":"Luc's AI","timestamp":1787133618352}@@α λ \\alpha \\lambda--}{++{"author":"Luc's AI","timestamp":1787133618352}@@$\alpha\lambda$++} holding {--{"author":"Luc's AI","timestamp":1787133618352}@@r r--}{++{"author":"Luc's AI","timestamp":1787133618352}@@$r$++} fixed – this means that a higher value for {--{"author":"Luc's AI","timestamp":1787133618352}@@α λ \\alpha \\lambda --}{++{"author":"Luc's AI","timestamp":1787133618352}@@$\alpha\lambda$ ++}will change the (implicit) value of {--{"author":"Luc's AI","timestamp":1787133618352}@@β \\beta.--}{++{"author":"Luc's AI","timestamp":1787133618352}@@$\beta$.++}
 
-We tentatively think our sampling procedure is appropriate given our epistemic position. The best evidence we have to calibrate the model is evidence about r r. This comes from observing the ratio between the growth rate of inputs and the growth rate of outputs to AI R&D: r \= g outputs g inputs r = \\frac{g\_{\\text{outputs}}}{g\_{\\text{inputs}}}. Given our evidence on r r, it is the case that from our epistemic position it is appropriate that a higher estimate of α λ \\alpha \\lambda should change our estimate of β \\beta.
+We tentatively think our sampling procedure is appropriate given our epistemic position. The best evidence we have to calibrate the model is evidence about {--{"author":"Luc's AI","timestamp":1787133618593}@@r r.--}{++{"author":"Luc's AI","timestamp":1787133618593}@@$r$.++} This comes from observing the ratio between the growth rate of inputs and the growth rate of outputs to AI R&D: {--{"author":"Luc's AI","timestamp":1787133618593}@@r \= g outputs g inputs r--}{++{"author":"Luc's AI","timestamp":1787133618593}@@$r++} = {--{"author":"Luc's AI","timestamp":1787133618593}@@\\frac{g\_{\\text{outputs}}}{g\_{\\text{inputs}}}.--}{++{"author":"Luc's AI","timestamp":1787133618593}@@\frac{g_{\text{outputs}}}{g_{\text{inputs}}}$.++} Given our evidence on {--{"author":"Luc's AI","timestamp":1787133618593}@@r r,--}{++{"author":"Luc's AI","timestamp":1787133618593}@@$r$,++} it is the case that from our epistemic position it is appropriate that a higher estimate of {--{"author":"Luc's AI","timestamp":1787133618593}@@α λ \\alpha \\lambda--}{++{"author":"Luc's AI","timestamp":1787133618593}@@$\alpha\lambda$++} should change our estimate of {--{"author":"Luc's AI","timestamp":1787133618593}@@β \\beta.--}{++{"author":"Luc's AI","timestamp":1787133618593}@@$\beta$.++}
 
 To be concrete, suppose our evidence tells us that r \= 2 r = 2. Then we sample from our distribution over α λ \\alpha \\lambda. If we sample a high value, it is appropriate for us to assume that β \\beta is also high, so that our assumption about α λ \\alpha \\lambda remains consistent with our evidence about r r.
 
