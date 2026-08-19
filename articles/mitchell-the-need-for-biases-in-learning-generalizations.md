@@ -40,7 +40,7 @@ As a concrete example of the above generalization problem, consider the task add
 
 This paper addresses a deep difficulty with the generalization problem as defined above: If consistency with the training instances is taken as the sole determiner of appropriate generalizations, then a program can never make the inductive leap necessary to classify instances beyond those it has observed. Only if the program has other sources of information, or biases for choosing one generalization over the other, can it non-arbitrarily classify instances beyond those in the training set.
 
-![Figure 1](https://figures.semanticscholar.org/6cf35ec34efa592f83e3a1b748aea14957fc784a/1-Figure1-1.png)
+{--{"author":"Luc's AI","timestamp":1787132968800}@@![Figure 1](https://figures.semanticscholar.org/6cf35ec34efa592f83e3a1b748aea14957fc784a/1-Figure1-1.png)--}{++{"author":"Luc's AI","timestamp":1787132968800}@@![](https://figures.semanticscholar.org/6cf35ec34efa592f83e3a1b748aea14957fc784a/1-Figure1-1.png)++}
 
 *Figure 1: Relationships among Instances and Generalizations (This figure was missing from the original publication and added in 1990.)*
 

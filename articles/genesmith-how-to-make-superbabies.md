@@ -173,7 +173,7 @@ In that case we could completely rethink how we analyze the genetics of health. 
 
 How large of an impact could we have with editing? My cofounder pulled data from the largest genome-wide association study of life expectancy we could find and graphed the results.
 
-![Image](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/DfrSZaf3JC8vJdbZL/telp7trzv6fupa02adiz)
+{--{"author":"Luc's AI","timestamp":1787132968474}@@![Image](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/DfrSZaf3JC8vJdbZL/telp7trzv6fupa02adiz)--}{++{"author":"Luc's AI","timestamp":1787132968474}@@![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/DfrSZaf3JC8vJdbZL/telp7trzv6fupa02adiz)++}
 
 4-5 years. That’s how much of an impact we could have on life expectancy with editing. This impact is already on part with the combined effects of eliminating both heart disease and cancer, but it's not exactly an earth-shattering change.
 
