@@ -59,7 +59,7 @@ Roughly 70% of the superforecasters maintained their status from one year to the
 Table 2  depicts the correlations between measured variables amongst GJP’s volunteers in the first two years of the tournament [^4].  Each is described in more detail below.
 
 
-{--{"author":"Lauren's AI","timestamp":1786857286452}@@[![](http://aiimpacts.org/wp-content/uploads/2019/02/image2-1-1024x576.png)](http://aiimpacts.org/wp-content/uploads/2019/02/image2-1.png)--}{++{"author":"Lauren's AI","timestamp":1786857286452}@@![](http://aiimpacts.org/wp-content/uploads/2019/02/image2-1.png)++}
+![](http://aiimpacts.org/wp-content/uploads/2019/02/image2-1.png)
 
 
 The first column shows the relationship between each variable and standardized [Brier score](https://en.wikipedia.org/wiki/Brier_score), which is a measure of inaccuracy: higher Brier scores mean less accuracy, so negative correlations are good. “Ravens” is an IQ test; “Del time” is deliberation time, and “teams” is whether or not the forecaster was assigned to a team. “Actively open-minded thinking” is an attempt to measure “the tendency to evaluate arguments and evidence without undue bias from one’s own prior beliefs—and with recognition of the fallibility of one’s judgment.” [^5]
@@ -68,7 +68,7 @@ The first column shows the relationship between each variable and standardized [
 The authors conducted various statistical analyses to explore the relationships between these variables. They computed a structural equation model to predict a forecaster’s accuracy:
 
 
-{--{"author":"Lauren's AI","timestamp":1786857293407}@@[![](http://aiimpacts.org/wp-content/uploads/2019/02/image1-1.png)](http://aiimpacts.org/wp-content/uploads/2019/02/image1-1.png)--}{++{"author":"Lauren's AI","timestamp":1786857293407}@@![](http://aiimpacts.org/wp-content/uploads/2019/02/image1-1.png)++}
+![](http://aiimpacts.org/wp-content/uploads/2019/02/image1-1.png)
 
 
 Yellow ovals are latent dispositional variables, yellow rectangles are observed dispositional variables, pink rectangles are experimentally manipulated situational variables, and green rectangles are observed behavioral variables. This model has a [multiple correlation](https://en.wikipedia.org/wiki/Multiple_correlation) of 0.64.[^6]
