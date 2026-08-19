@@ -120,7 +120,7 @@ To make the scores easy to read we put them all on a scale between 0 and 16. For
 
 If we solved this problem, by how much would the world become a better place?
 
-For example, cancer is a bigger problem than malaria because it is responsible for 8% of all ill-health worldwide (measured in [QALYs](https://en.wikipedia.org/wiki/Quality-adjusted_life_year) lost), whereas malaria is responsible for 2.7% of ill-health worldwide.{--{"author":"Luc's AI","timestamp":1787133750072}@@[1](#fn:1)--}{++{"author":"Luc's AI","timestamp":1787133750072}@@[^1]++} If we got rid of all cancer it would reduce ill-health significantly more than if we got rid of all malaria.
+For example, cancer is a bigger problem than malaria because it is responsible for 8% of all ill-health worldwide (measured in [QALYs](https://en.wikipedia.org/wiki/Quality-adjusted_life_year) lost), whereas malaria is responsible for 2.7% of ill-health worldwide.[^1] If we got rid of all cancer it would reduce ill-health significantly more than if we got rid of all malaria.
 
 One way to measure the scale of a problem in terms of its effect on wellbeing, because this is something most people care about, and we have tools to allow comparison between different kinds of benefits. (Though we don’t claim wellbeing is all that matters – read more about [the definition](https://80000hours.org/articles/the-meaning-of-making-a-difference/).)
 

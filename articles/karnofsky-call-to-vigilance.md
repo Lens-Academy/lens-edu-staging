@@ -23,7 +23,7 @@ Add discussion note here:
 
 %%
 
-This is the final piece in the [**"most important century" series**](https://www.cold-takes.com/roadmap-for-the-most-important-century-series/), which has argued that there's a high probability that the coming decades will {--{"author":"Luc's AI","timestamp":1787133749843}@@see:--}{++{"author":"Luc's AI","timestamp":1787133749843}@@see:[^1]++}
+This is the final piece in the [**"most important century" series**](https://www.cold-takes.com/roadmap-for-the-most-important-century-series/), which has argued that there's a high probability that the coming decades will see:[^1]
 
 - The development of a technology like **PASTA** (process for automating scientific and technological advancement).
 - A resulting **productivity explosion** leading to development of further transformative technologies.
