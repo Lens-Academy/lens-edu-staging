@@ -7,7 +7,14 @@ requires:
   - "[[Verifying inference to catch exfiltration]]"
 authors:
   - Elias+Claude
----
+{++{"author":"AI","timestamp":1787141541894}@@eval-results:
+  content-sha: 62c41651
+  date: 2026-08-19
+  model: claude-opus-5
+  suite-version: 1
+  checks: {A1: pass, A2: pass, B1: fail, C1: fail, C2: fail, C3: fail}
+  notes: {B1: "question leans on 'Cankaya's architecture' and 'every mechanism so far'", C1: "1-5 graded ladder, not binary pass/fail", C2: "pass bar requires enumerating what gets verified — never asked", C3: "hard-requires memorized specifics (~10% overhead figure, open-problem list, 'instructor-executor')"}
+++}---
 ## Test:
 id:: 39abbb9e-eadc-49f6-8709-c1dad0fd74d8
 #### Question
