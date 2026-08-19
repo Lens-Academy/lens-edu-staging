@@ -21,7 +21,7 @@ AIs like ChatGPT are trained to accurately predict their training data. And thei
 
 But consider an AI trained only on predicting human-generated text. Must it become human-like?
 
-Suppose you take an excellent actress[^source-note-58] and have her learn to predict the behavior of all the drunks in a bar. Not "learn how to play an average stereotypical drunk," but rather "learn all the drunks in this one bar as *individuals*." LLMs aren't trained to *imitate averages;* they're trained to *predict individual next words* using all the context of previous words.
+Suppose you take an excellent {--{"author":"Luc's AI","timestamp":1787161425225}@@actress[^source-note-58]--}{++{"author":"Luc's AI","timestamp":1787161425225}@@actress[^note-iabied-ftnt58]++} and have her learn to predict the behavior of all the drunks in a bar. Not "learn how to play an average stereotypical drunk," but rather "learn all the drunks in this one bar as *individuals*." LLMs aren't trained to *imitate averages;* they're trained to *predict individual next words* using all the context of previous words.
 
 It would be foolish to expect this actress to *become perpetually drunk* in the process of learning to predict what each drunk person will say. She might develop parts of her brain that are pretty good at acting drunk, but she would not become drunk *herself.*
 
@@ -35,7 +35,7 @@ Similarly, training an LLM to make excellent predictions about the next word out
 
 We are not saying, "No machine can ever have anything resembling a mental state a human has inside." We are saying that the current kind of ML technology should not by default be expected to create drunk-predicting engines that work by getting drunk themselves.
 
-The work of figuring out how to predict all sorts of different humans is different from the work of being one human. Which means that AIs built with anything like today's methods should not be expected to become much like a human, in the course of learning to act like any given one of us depending on the request.[^source-note-59]
+The work of figuring out how to predict all sorts of different humans is different from the work of being one human. Which means that AIs built with anything like today's methods should not be expected to become much like a human, in the course of learning to act like any given one of us depending on the {--{"author":"Luc's AI","timestamp":1787161428351}@@request.[^source-note-59]--}{++{"author":"Luc's AI","timestamp":1787161428351}@@request.[^note-iabied-ftnt59]++}
 
 #### The architecture of LLMs is very different from that of humans.
 
@@ -43,9 +43,9 @@ Refer to Chapter 2 for a brief discussion of how LLMs seem pretty alien.
 
 In Chapter 4, we'll go deeper into how AIs wind up with very weird preferences and pursuits — a phenomenon that we've already begun to see in the wild, with more examples piling up even after the book went to print. We collect some [examples](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient) in the online resources for Chapter 4.
 
-[^source-note-58]: We aren't using the more modern, gender-neutral word "actor" in these resources because "actress" prevents ambiguity about whether we are referring to "a stage or screen performer" versus "an agent that takes actions."
+{--{"author":"Luc's AI","timestamp":1787161431214}@@[^source-note-58]:--}{++{"author":"Luc's AI","timestamp":1787161431214}@@[^note-iabied-ftnt58]:++} We aren't using the more modern, gender-neutral word "actor" in these resources because "actress" prevents ambiguity about whether we are referring to "a stage or screen performer" versus "an agent that takes actions."
 
-[^source-note-59]: If you train an AI to predict how your friend Alice acts when angry, then this will likely allow the AI to *imitate* Alice's angry behavior too — at least once the AI's predictions become good enough. But the act of getting good at predicting this won't make the AI *actually* angry; and when the AI uses its prediction to imitate Alice, that won't make the AI "actually angry" either.
+{--{"author":"Luc's AI","timestamp":1787161433544}@@[^source-note-59]:--}{++{"author":"Luc's AI","timestamp":1787161433544}@@[^note-iabied-ftnt59]:++} If you train an AI to predict how your friend Alice acts when angry, then this will likely allow the AI to *imitate* Alice's angry behavior too — at least once the AI's predictions become good enough. But the act of getting good at predicting this won't make the AI *actually* angry; and when the AI uses its prediction to imitate Alice, that won't make the AI "actually angry" either.
 
 When you leap to the conclusion that angry-looking behaviors must go with an angry underlying*feeling*, it's likely that you aren't just putting forward an abstract theory that AIs and humans have something deeply in common. You're to some extent attributing anger *automatically* — the AI just *seems angry*, like a convincing actress.
 
