@@ -1,4 +1,4 @@
-obsidian-web-er{--{"author":"Luc's AI","timestamp":1787162261264}@@obsidian-web-erobsidian-web-erobsidian-web-erobsidian-web-erobsidian-web-erobsidian-web-erobsidian-web-er-----}{++{"author":"Luc's AI","timestamp":1787162261264}@@---++}
+{--{"author":"Luc's AI","timestamp":1787162285211}@@obsidian-web-erobsidian-web-erobsidian-web-erobsidian-web-erobsidian-web-erobsidian-web-erobsidian-web-erobsidian-web-er-----}{++{"author":"Luc's AI","timestamp":1787162285211}@@---++}
 title: "Sources of advantage for digital agents over biological agents"
 author:
   - "AI Impacts"
