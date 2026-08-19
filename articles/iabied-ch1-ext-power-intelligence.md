@@ -45,7 +45,7 @@ There is not a standard word in the English language that refers *only* to real-
 
 The *actually* scary intelligent villain would be a character where, if everyone in the audience could see the blatant flaw in a plan, *the villain would see it too.*
 
-In the movie *Avengers: Age of Ultron,* the supposedly brilliant AI named Ultron is given a directive to promote "world peace" by its supposedly genius creator, Tony Stark.[^source-note-36] Ultron, of course, immediately sees that a lack of war can most reliably be brought about by an absence of human beings. So the AI sets out to exterminate all life on Earth, by…
+In the movie *Avengers: Age of Ultron,* the supposedly brilliant AI named Ultron is given a directive to promote "world peace" by its supposedly genius creator, Tony {--{"author":"Luc's AI","timestamp":1787161439163}@@Stark.[^source-note-36]--}{++{"author":"Luc's AI","timestamp":1787161439163}@@Stark.[^note-iabied-ftnt36]++} Ultron, of course, immediately sees that a lack of war can most reliably be brought about by an absence of human beings. So the AI sets out to exterminate all life on Earth, by…
 
 …attaching rockets to a city, and lifting it into space with the intention of dropping it like a meteor…and guarding it with flying humanoid robots who have to be defeated by punching them.
 
@@ -89,7 +89,7 @@ It is *necessarily* "very few." The information-gathering process is imperfect, 
 
 Almost always, this has *already happened* before *you personally* get there. Traders compete to do it first by literal milliseconds. And that's why your brilliant trading idea probably won't make you a fortune in the stock market.
 
-This doesn't mean the market prices today are *perfect* predictions of what the prices will be like a week later. All it means is that, when it comes to well-traded asset prices, it's hard for *you* to know better.[^source-note-37]
+This doesn't mean the market prices today are *perfect* predictions of what the prices will be like a week later. All it means is that, when it comes to well-traded asset prices, it's hard for *you* to know {--{"author":"Luc's AI","timestamp":1787161441556}@@better.[^source-note-37]--}{++{"author":"Luc's AI","timestamp":1787161441556}@@better.[^note-iabied-ftnt37]++}
 
 This idea can be generalized. Suppose that arbitrarily advanced aliens, with millennia more science and technology behind them, visited the Earth. Should you expect that the aliens can perfectly guess the number of hydrogen atoms in the Sun (ignoring a number of quibbles about exactly how to define that number)?
 
@@ -121,6 +121,6 @@ This is the idea that seems to be missing from the depictions of "superintellige
 
 Perhaps it's optimism bias, or a sense that AIs must be [coldly logical beings](https://ifanyonebuildsit.com/2/wont-ais-inevitably-be-cold-and-logical-or-otherwise-missing-some-crucial-spark) with [critical blind spots](https://ifanyonebuildsit.com/6/wont-we-be-able-to-exploit-the-ais-critical-weakness). Whatever the explanation, this cognitive error has real consequences. If you can't respect the power of intelligence, you'll badly misunderstand what it means for humanity to build a superintelligence. You might find yourself thinking that you'll still be able to find a winning move when facing a superintelligence that would prefer you gone and your resources repurposed. But in reality, the only winning move is not to play.
 
-[^source-note-36]: There was a point where we would have called it "unrealistic" to imagine that an AI's inventor would be that naive, but unfortunately, we now know better. Human AI creators will *totally* propose plans where even lay thinkers can see the giant gaping flaw.
+{--{"author":"Luc's AI","timestamp":1787161442983}@@[^source-note-36]:--}{++{"author":"Luc's AI","timestamp":1787161442983}@@[^note-iabied-ftnt36]:++} There was a point where we would have called it "unrealistic" to imagine that an AI's inventor would be that naive, but unfortunately, we now know better. Human AI creators will *totally* propose plans where even lay thinkers can see the giant gaping flaw.
 
-[^source-note-37]: Not impossible! If you think you know something the market doesn't know or hasn't realized yet, you might be able to make money that way. Some of our friends made good money by predicting the stock market effects of the COVID lockdowns before anyone else did. The market is not *so* efficient that you'll never be able to beat it. But it is efficient enough that you can't beat it in most stocks most of the time.
+{--{"author":"Luc's AI","timestamp":1787161444143}@@[^source-note-37]:--}{++{"author":"Luc's AI","timestamp":1787161444143}@@[^note-iabied-ftnt37]:++} Not impossible! If you think you know something the market doesn't know or hasn't realized yet, you might be able to make money that way. Some of our friends made good money by predicting the stock market effects of the COVID lockdowns before anyone else did. The market is not *so* efficient that you'll never be able to beat it. But it is efficient enough that you can't beat it in most stocks most of the time.

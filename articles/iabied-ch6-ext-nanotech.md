@@ -19,7 +19,7 @@ Human intelligence has given us many advantages over other species. One of the m
 
 This is a hard question to answer in any generality. A scientist in 1850 would have a very hard time guessing many of the inventions of the next hundred years.
 
-However, they wouldn't be totally helpless. Scientists have predicted many inventions decades or centuries before they were built, in cases where a technology could be reasoned about technically before engineers could put all the pieces in place.[^source-note-226]
+However, they wouldn't be totally helpless. Scientists have predicted many inventions decades or centuries before they were built, in cases where a technology could be reasoned about technically before engineers could put all the pieces in {--{"author":"Luc's AI","timestamp":1787161438827}@@place.[^source-note-226]--}{++{"author":"Luc's AI","timestamp":1787161438827}@@place.[^note-iabied-ftnt226]++}
 
 One of the more impactful technological frontiers we believe AI is likely to explore is the development of extremely small tools and machines. Below, we'll go into some detail on this topic and the basic reasoning behind it.
 
@@ -27,7 +27,7 @@ One of the more impactful technological frontiers we believe AI is likely to exp
 
 Every cell of every organism in nature contains an enormous variety of intricate machinery.
 
-"Machinery" here isn't just a metaphor. The machines in question are small, so they work a bit differently than the machines in your daily life. But many large-scale machines have analogs within our bodies. [ATP synthase](https://en.wikipedia.org/wiki/ATP_synthase) generates power in the body in a similar way to a water wheel, using a flow of protons to spin a literal rotor.[^source-note-227]
+"Machinery" here isn't just a metaphor. The machines in question are small, so they work a bit differently than the machines in your daily life. But many large-scale machines have analogs within our bodies. [ATP synthase](https://en.wikipedia.org/wiki/ATP_synthase) generates power in the body in a similar way to a water wheel, using a flow of protons to spin a literal {--{"author":"Luc's AI","timestamp":1787161441195}@@rotor.[^source-note-227]--}{++{"author":"Luc's AI","timestamp":1787161441195}@@rotor.[^note-iabied-ftnt227]++}
 
 [ATP synthesis video](https://ifanyonebuildsit.com/videos/ATP_synthesis.webm)
 
@@ -35,7 +35,7 @@ The bacterial flagellum functions similarly to the propeller of a boat, complete
 
 Another example, which we mentioned in the book, is kinesin — a tiny protein that functions like a cargo robot. Kinesins "walk" down self-assembling fibers that traverse neurons, hauling neurotransmitters to their destination.
 
-The smaller a machine is, the faster it can generally operate; and machines as small as molecules operate very quickly. Kinesins take as many as [200 steps per second](https://www.cell.com/trends/biochemical-sciences/abstract/S0968-0004(04)00103-3), moving forward with one "foot" while the other foot holds fast to the microtubule it's on.[^source-note-228]
+The smaller a machine is, the faster it can generally operate; and machines as small as molecules operate very quickly. Kinesins take as many as [200 steps per second](https://www.cell.com/trends/biochemical-sciences/abstract/S0968-0004(04)00103-3), moving forward with one "foot" while the other foot holds fast to the microtubule it's {--{"author":"Luc's AI","timestamp":1787161442737}@@on.[^source-note-228]--}{++{"author":"Luc's AI","timestamp":1787161442737}@@on.[^note-iabied-ftnt228]++}
 
 One of the technological frontiers smarter-than-human AI may explore is building, designing, or repurposing machines at this very small scale. This kind of technology might get classified as "biotechnology," "nanotechnology," or something in between, depending on factors like scale, how closely a design matches existing structures in biology, and whether it's "wet" (dependent on water, like the machinery in living cells) or "dry" (capable of operating in the open air).
 
@@ -161,7 +161,7 @@ If organisms were instead made of molecules held together by tight bonds, then c
 
 Every protein is there because of a copying error from some predecessor protein. The predecessor protein wasn't tightly held together by many strong bonds because that would have been harder to evolve from. So the latest new protein probably doesn't have many strong bonds either.
 
-Biochemistry does sometimes figure out strong bonds. We noted the example of bone earlier. Another example occurs in plants. Plants have evolved proteins that fold up into enzymes, which catalyze the synthesis of molecular building blocks, which get oxidized into a heavily covalently crosslinked polymer: lignin, the building block of wood.[^source-note-233]
+Biochemistry does sometimes figure out strong bonds. We noted the example of bone earlier. Another example occurs in plants. Plants have evolved proteins that fold up into enzymes, which catalyze the synthesis of molecular building blocks, which get oxidized into a heavily covalently crosslinked polymer: lignin, the building block of {--{"author":"Luc's AI","timestamp":1787161443886}@@wood.[^source-note-233]--}{++{"author":"Luc's AI","timestamp":1787161443886}@@wood.[^note-iabied-ftnt233]++}
 
 But those are special cases, and natural selection does not have a lot of "attention" to spend on engineering a lot of cases like that.
 
@@ -173,7 +173,7 @@ You would learn that the exact bond strength between two carbon atoms is on the 
 
 But the static cling forces that fold up proteins are, depending on how you look at it, at best ten times weaker, and potentially hundreds or thousands of times weaker than that.
 
-And even when plants catalyze substances like lignin, the crosslinks there tend to be sparser than the carbon-carbon bonds in diamond. The difference between the gigaPascal strength of diamond, versus the megaPascal strength of wood, is more about the density and regularity of bonds in diamond, not the diamond bonds being individually stronger.[^source-note-234]
+And even when plants catalyze substances like lignin, the crosslinks there tend to be sparser than the carbon-carbon bonds in diamond. The difference between the gigaPascal strength of diamond, versus the megaPascal strength of wood, is more about the density and regularity of bonds in diamond, not the diamond bonds being individually {--{"author":"Luc's AI","timestamp":1787161445119}@@stronger.[^source-note-234]--}{++{"author":"Luc's AI","timestamp":1787161445119}@@stronger.[^note-iabied-ftnt234]++}
 
 Due to evolution's limitations as a designer, and protein's limitations as a construction material, life operates under constraints that human designers and AIs can bypass. Birds are wonders of engineering, but man-made flying machines can carry cargo ten thousand times as heavy at more than ten times the flight speed of the fastest and strongest birds. Biological neurons are wonders of engineering, but man-made transistors switch on and off tens of millions of times faster than the fastest neurons. And the technology we have today is still only scratching the surface of what's achievable.
 
@@ -197,7 +197,7 @@ The centerpiece of the artificial red blood cell was Freitas's calculation that 
 
 Now, actually building artificial blood cells like that is another matter entirely. That is why this particular medical treatment is not already available at your local doctor's office.
 
-A 1-kilogram sphere of solid flawless diamond is an easy molecule to describe on paper, but synthesizing it is harder. What Freitas does help us do is make more informed guesses about how far from theoretical limits current biology is in this domain.[^source-note-236] Biology is impressive, but far from optimal.
+A 1-kilogram sphere of solid flawless diamond is an easy molecule to describe on paper, but synthesizing it is harder. What Freitas does help us do is make more informed guesses about how far from theoretical limits current biology is in this {--{"author":"Luc's AI","timestamp":1787161445893}@@domain.[^source-note-236]--}{++{"author":"Luc's AI","timestamp":1787161445893}@@domain.[^note-iabied-ftnt236]++} Biology is impressive, but far from optimal.
 
 It's plausible that, for any number of reasons, Freitas's exact design wouldn't work, and it's very likely that it wouldn't be optimal. An initial idea for an extremely novel complex design is almost guaranteed to run into issues somewhere.
 
@@ -244,7 +244,7 @@ Notably, the above list consists of features that are highly valuable for evolut
 
 This provides part of the impetus for exploring a third way to build very small things: *mechanosynthesis*, in which structures are built by directly moving atoms to the correct location, potentially using a ribosome-like machine to take in instructions and then assemble things far more varied than just different proteins. In the LEGO analogy, mechanosynthesis is like finally being able to work with individual LEGO pieces and place each one exactly where you want it.
 
-*Nanosystems* explores what kinds of new machines might be possible with mechanosynthesis. An example of the kind of design Drexler explores is a planetary gear scaled down to only [around 3,500 atoms](https://nanosyste.ms/mobile_interfaces_and_moving_parts/#10-7-8-planetary-gear-systems) in size:[^source-note-237]
+*Nanosystems* explores what kinds of new machines might be possible with mechanosynthesis. An example of the kind of design Drexler explores is a planetary gear scaled down to only [around 3,500 atoms](https://nanosyste.ms/mobile_interfaces_and_moving_parts/#10-7-8-planetary-gear-systems) in {--{"author":"Luc's AI","timestamp":1787161446683}@@size:[^source-note-237]--}{++{"author":"Luc's AI","timestamp":1787161446683}@@size:[^note-iabied-ftnt237]++}
 
 Hemoglobin is made of around 10,000 atoms, not that far off from Drexler's gear. And some proteins get away with being a lot simpler. Insulin is made of only fifty-one amino acids, or around 800 atoms in total.
 
@@ -262,7 +262,7 @@ While ribosomes can only build proteins, proteins can catalyze and drag around r
 
 Whether directly or indirectly, it's almost certainly possible for genomes to produce tiny actuators that can manipulate individual atoms to build a variety of things that aren't made out of proteins. And importantly, this is not the sort of mechanism that natural selection is liable to stumble its way into, even if it's relatively easy to build, because the manipulator arm isn't useful until it's complete.
 
-Evolution builds complex structures that are useful at every step along the way. Even a lot of relatively simple designs are available to intelligent engineers, but not to evolution. Freely rotating wheels, for example, are an incredibly simple invention that has a huge variety of applications. In spite of this, freely rotating wheels appear to have evolved only three times in the entire history of life on Earth: in ATP synthase and the bacterial flagellum that we discussed earlier, and in the archaeal flagellum, which appears to have evolved independently.[^source-note-238]
+Evolution builds complex structures that are useful at every step along the way. Even a lot of relatively simple designs are available to intelligent engineers, but not to evolution. Freely rotating wheels, for example, are an incredibly simple invention that has a huge variety of applications. In spite of this, freely rotating wheels appear to have evolved only three times in the entire history of life on Earth: in ATP synthase and the bacterial flagellum that we discussed earlier, and in the archaeal flagellum, which appears to have evolved {--{"author":"Luc's AI","timestamp":1787161447287}@@independently.[^source-note-238]--}{++{"author":"Luc's AI","timestamp":1787161447287}@@independently.[^note-iabied-ftnt238]++}
 
 In spite of the conservative methods used in the book, the technological lower bound set by *Nanosystems* is very high in absolute terms. A superintelligence with the kind of technology Drexler describes would be able to produce tiny self-replicating ribosome-like factories that double in population size every hour — some organisms replicate even faster, but Drexler did calculations conservatively — and that can group together to build larger macroscopic structures, such as power plants.
 
@@ -272,7 +272,7 @@ Self-replicators in the vein of *Nanosystems*, being made of materials like iron
 
 They could cheaply synthesize something like botulinum toxin, the protein responsible for botulism. A millionth of a gram of botulinum toxin — twenty thousand times smaller than a single grain of rice — is a lethal dose. Carefully designed replicators could propagate invisibly through the open air until at least one had likely been inhaled by almost every human (that hadn't e.g. spent the last month entirely on a submarine), at which point the devices could (on a timer) simultaneously release a tiny dose of toxin, immediately and simultaneously killing almost every human.
 
-Or AI-constructed nanosystems could wipe humans out incidentally, in the course of harvesting and repurposing the Earth's resources. A [paper by Freitas](https://www.rfreitas.com/Nano/Ecophagy.htm) calculates that micro-diameter machines, relying only on sunlight for power and the air's hydrogen, carbon, oxygen, and nitrogen for raw materials, could be designed to reproduce so quickly that they black out the sky in less than three days, while also consuming the entire biosphere.[^source-note-239] Consequently, if the first AI to achieve technology like this has a lead time of mere months, it could plausibly use that lead time to destroy all competitors (be they human or AI). This is a technology that confers a permanent and decisive strategic advantage to the first wielder of that technology.
+Or AI-constructed nanosystems could wipe humans out incidentally, in the course of harvesting and repurposing the Earth's resources. A [paper by Freitas](https://www.rfreitas.com/Nano/Ecophagy.htm) calculates that micro-diameter machines, relying only on sunlight for power and the air's hydrogen, carbon, oxygen, and nitrogen for raw materials, could be designed to reproduce so quickly that they black out the sky in less than three days, while also consuming the entire {--{"author":"Luc's AI","timestamp":1787161447746}@@biosphere.[^source-note-239]--}{++{"author":"Luc's AI","timestamp":1787161447746}@@biosphere.[^note-iabied-ftnt239]++} Consequently, if the first AI to achieve technology like this has a lead time of mere months, it could plausibly use that lead time to destroy all competitors (be they human or AI). This is a technology that confers a permanent and decisive strategic advantage to the first wielder of that technology.
 
 To say that Drexlerian nanotechnology is achievable in physical principle doesn't necessarily mean that early smarter-than-human AIs could actually build technology that nears those physical limits. Our best guess is that it's within the range of things an artificial superintelligence could figure out, because figuring these sorts of engineering tasks out seems mostly like a cognitive challenge (that can be solved by thinking) and we don't expect the [experimentation and testing](https://ifanyonebuildsit.com/6/wont-ais-be-limited-by-their-ability-to-design-and-run-experiments#intelligence-lets-you-learn-more-from-experiments-and-run-faster-more-informative-more-parallelized-experiments) [phase](https://ifanyonebuildsit.com/6/wont-ais-be-limited-by-their-ability-to-design-and-run-experiments#intelligence-lets-you-learn-more-from-experiments-and-run-faster-more-informative-more-parallelized-experiments) has to be all that long.
 
@@ -292,27 +292,27 @@ In Part II, we deliberately focus on a takeover scenario that doesn't assume the
 
 But it also seems worth pointing out that it probably will have an utterly overwhelming technological advantage.
 
-[^source-note-226]: Perhaps the most notable example is the case of computers, with substantial theory worked out by the likes of Charles Babbage, Ada Lovelace, Alan Turing, Alonzo Church, and others
+{--{"author":"Luc's AI","timestamp":1787161448419}@@[^source-note-226]:--}{++{"author":"Luc's AI","timestamp":1787161448419}@@[^note-iabied-ftnt226]:++} Perhaps the most notable example is the case of computers, with substantial theory worked out by the likes of Charles Babbage, Ada Lovelace, Alan Turing, Alonzo Church, and others
 
-[^source-note-227]: [Visualization](https://en.wikipedia.org/wiki/File:ATP_synthesis_-_ATP_synthase_rotation.ogv) by Roman Balabin, CC BY-SA 4.0.
+{--{"author":"Luc's AI","timestamp":1787161448867}@@[^source-note-227]:--}{++{"author":"Luc's AI","timestamp":1787161448867}@@[^note-iabied-ftnt227]:++} [Visualization](https://en.wikipedia.org/wiki/File:ATP_synthesis_-_ATP_synthase_rotation.ogv) by Roman Balabin, CC BY-SA 4.0.
 
-[^source-note-228]: Chapter 15 of Eric Drexler's *Nanosystems* collects [more examples](https://nanosyste.ms/macromolecular_engineering/#15-2-macromolecular-objects-via-biotechnology) of technologies with analogs in the biological world.
+{--{"author":"Luc's AI","timestamp":1787161449686}@@[^source-note-228]:--}{++{"author":"Luc's AI","timestamp":1787161449686}@@[^note-iabied-ftnt228]:++} Chapter 15 of Eric Drexler's *Nanosystems* collects [more examples](https://nanosyste.ms/macromolecular_engineering/#15-2-macromolecular-objects-via-biotechnology) of technologies with analogs in the biological world.
 
-[^source-note-233]: Even inside proteins, some covalent bonds are possible. Two cysteine amino acids can form a covalent sulfur-to-sulfur bond between themselves, where two proteins touch or where a folded-up protein touches itself. That's how your fingernails manage to be harder than skin, or why hair is stronger than the same diameter and length of muscle: lots of sulfur-sulfur bonds in a protein that's 14 percent cysteine by mass. This is also why hair smells awful and sulfurous when burned.
+{--{"author":"Luc's AI","timestamp":1787161450233}@@[^source-note-233]:--}{++{"author":"Luc's AI","timestamp":1787161450233}@@[^note-iabied-ftnt233]:++} Even inside proteins, some covalent bonds are possible. Two cysteine amino acids can form a covalent sulfur-to-sulfur bond between themselves, where two proteins touch or where a folded-up protein touches itself. That's how your fingernails manage to be harder than skin, or why hair is stronger than the same diameter and length of muscle: lots of sulfur-sulfur bonds in a protein that's 14 percent cysteine by mass. This is also why hair smells awful and sulfurous when burned.
 
 Mostly, however, natural selection builds things out of proteins, which have covalently linked backbones, which then fold up into complicated shapes because of relatively very weak static-cling pulls. And proteins usually bind to other proteins the same weak way.
 
 Mostly, the covalent bonds are scattered scarcely, where they exist at all. Adding 0.1 percent covalent bonds to a structure doesn't make it as strong as a diamond molecule where every carbon atom is covalently bound to four other carbon atoms in a rigid geometric structure.
 
-[^source-note-234]: Diamond is also more fragile. The extreme crystalline regularity of diamond's bonds means that it breaks all at once. Iron is less fragile because each huge iron nucleus lives in a cloud of electrons and can be nudged within that cloud without breaking.
+{--{"author":"Luc's AI","timestamp":1787161451013}@@[^source-note-234]:--}{++{"author":"Luc's AI","timestamp":1787161451013}@@[^note-iabied-ftnt234]:++} Diamond is also more fragile. The extreme crystalline regularity of diamond's bonds means that it breaks all at once. Iron is less fragile because each huge iron nucleus lives in a cloud of electrons and can be nudged within that cloud without breaking.
 
 (Sparse covalent bonds do mean that materials can be nudged more easily without breaking, *relative* to their strength. But bone still breaks, and wood is less hard than steel. Which is to say: Yes, there are tradeoffs, but natural selection is nowhere near the edge of those tradeoffs.)
 
-[^source-note-236]: Though Freitas was working under the added constraint that he needed his artificial red blood cells to play nicely with the rest of a human body's systems. The cell would need to run off glucose found in bloodstreams, for example, rather than being able to recharge off of electricity. In that sense, Freitas's estimates provide a more conservative lower bound than if he'd been able to upgrade other parts of the human body too, or start from scratch with a new organism or a robot.
+{--{"author":"Luc's AI","timestamp":1787161451640}@@[^source-note-236]:--}{++{"author":"Luc's AI","timestamp":1787161451640}@@[^note-iabied-ftnt236]:++} Though Freitas was working under the added constraint that he needed his artificial red blood cells to play nicely with the rest of a human body's systems. The cell would need to run off glucose found in bloodstreams, for example, rather than being able to recharge off of electricity. In that sense, Freitas's estimates provide a more conservative lower bound than if he'd been able to upgrade other parts of the human body too, or start from scratch with a new organism or a robot.
 
-[^source-note-237]: From the [Nanorex](https://chem.beloit.edu/classes/nanotech/nanorex/index.html) website: "A section of the casing atoms have been hidden to expose the internal gearing assembly."
+{--{"author":"Luc's AI","timestamp":1787161452166}@@[^source-note-237]:--}{++{"author":"Luc's AI","timestamp":1787161452166}@@[^note-iabied-ftnt237]:++} From the [Nanorex](https://chem.beloit.edu/classes/nanotech/nanorex/index.html) website: "A section of the casing atoms have been hidden to expose the internal gearing assembly."
 
-[^source-note-238]: You can read long analyses online about why it wouldn't be useful for biology to invent freely rotating wheels. An example of a common issue is: How do you use blood vessels to send blood to the wheel if it's freely rotating? The blood vessels would end up all twisted up when the wheel moves!
+{--{"author":"Luc's AI","timestamp":1787161452905}@@[^source-note-238]:--}{++{"author":"Luc's AI","timestamp":1787161452905}@@[^note-iabied-ftnt238]:++} You can read long analyses online about why it wouldn't be useful for biology to invent freely rotating wheels. An example of a common issue is: How do you use blood vessels to send blood to the wheel if it's freely rotating? The blood vessels would end up all twisted up when the wheel moves!
 
 The three known cases of wheel invention are at the molecular level, and so bypass these macroscopic anatomical issues. The biological wheels are macromolecules that are typically identical down an atomic level. There is no question of applying lubrication, polishing away grit, or sending in new cells to replace old damaged cells. Those three wheels and gears work because they are made of molecules rather than cells, folded up as protein complexes rather than grown into tissue matrices or deposited as chitin.
 
@@ -320,7 +320,7 @@ Similarly, you can read arguments online about how animals developing wheels for
 
 For that matter: Some of the [most dextrous modern robots](https://www.youtube.com/watch?v=iL833P0Vino), which can climb over rocks or snow or balance on one limb and do backflips, also have wheels added to the ends of their feet. Why wouldn't they? It's easy enough for a human engineer to stick wheels at the ends of legs. The main thing getting in the way isn't that wheels are useless; it's that it turns out to be hard to find an evolutionary pathway to achieve wheels, even though wheels are trivial from the perspective of a human designer.
 
-[^source-note-239]: At the time, Freitas interpreted his numbers as an *upper* bound on how quickly this process could occur, but this turned out to be wrong. Freitas's analysis had assumed that the nanosystems' mass would be dominated by radiation shielding, but this relied on a (false) assumption in *Nanosystems*: that a single radiation strike would knock out a nanosystem.
+{--{"author":"Luc's AI","timestamp":1787161453467}@@[^source-note-239]:--}{++{"author":"Luc's AI","timestamp":1787161453467}@@[^note-iabied-ftnt239]:++} At the time, Freitas interpreted his numbers as an *upper* bound on how quickly this process could occur, but this turned out to be wrong. Freitas's analysis had assumed that the nanosystems' mass would be dominated by radiation shielding, but this relied on a (false) assumption in *Nanosystems*: that a single radiation strike would knock out a nanosystem.
 
 Drexler had made this assumption, like many others in *Nanosystems*, to be conservative: Assume that the problem is harder, and show that it's solvable anyway. This may be appropriate in *Nanosystems*, but it means that Freitas's paper isn't conservative in its own estimate.
 
