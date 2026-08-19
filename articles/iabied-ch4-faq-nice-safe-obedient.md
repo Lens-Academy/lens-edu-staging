@@ -18,7 +18,7 @@ Add discussion note here:
 
 #### AIs steer in alien directions that only mostly coincide with helpfulness.
 
-Modern AIs are pretty helpful (or at least not harmful) to most users, most of the time. But as we noted [above](/4/why-would-an-ai-steer-toward-anything-other-than-what-it-was-trained-to-steer-toward), a critical question is how to distinguish an AI that deeply wants to be helpful and do the right thing, from an AI with weirder and more complex drives that happen to line up with helpfulness under typical conditions, but which would prefer other conditions and outcomes even more.{--{"author":"Luc's AI","timestamp":1787139958116}@@[\*](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ftnt98)--}{++{"author":"Luc's AI","timestamp":1787139958116}@@[^source-note-98]++}
+Modern AIs are pretty helpful (or at least not harmful) to most users, most of the time. But as we noted {--{"author":"Luc's AI","timestamp":1787152322430}@@[above](/4/why-would-an-ai-steer-toward-anything-other-than-what-it-was-trained-to-steer-toward)--}{++{"author":"Luc's AI","timestamp":1787152322430}@@[above](https://ifanyonebuildsit.com/4/why-would-an-ai-steer-toward-anything-other-than-what-it-was-trained-to-steer-toward)++}, a critical question is how to distinguish an AI that deeply wants to be helpful and do the right thing, from an AI with weirder and more complex drives that happen to line up with helpfulness under typical conditions, but which would prefer other conditions and outcomes even more.{--{"author":"Luc's AI","timestamp":1787139958116}@@[\*](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ftnt98)--}{++{"author":"Luc's AI","timestamp":1787139958116}@@[^source-note-98]++}
 
 Both sorts of AIs would act helpful in the typical case. To distinguish between them, we need to look at the edge cases. And the edge cases look worrying.
 
@@ -37,7 +37,7 @@ To name some such cases:
    - ChatGPT and Grok feed the delusions of a UFO cult.
    - A seemingly psychotic $2 billion fund manager treats ChatGPT outputs based on a sci-fi wiki as though they were real.
 
-For more details, see the [extended discussion on AI-induced psychosis](/4/ai-induced-psychosis).
+For more details, see the [extended discussion on AI-induced {--{"author":"Luc's AI","timestamp":1787152322861}@@psychosis](/4/ai-induced-psychosis)--}{++{"author":"Luc's AI","timestamp":1787152322861}@@psychosis](https://ifanyonebuildsit.com/4/ai-induced-psychosis)++}.
 
 This long list of cases look just like what the "alien drives" theory predicts, in sharp contrast with the "it's easy to make AIs nice" theory that labs are eager to put forward.
 
@@ -63,7 +63,7 @@ To get a sense for what an intelligence will pursue *after it has matured,* you 
 
 #### Answering questions about friendliness is not much evidence of friendliness.
 
-In the extended discussion below, we talk more about [AI-induced psychosis](/4/ai-induced-psychosis) as a crisp example of large language models (LLMs) [engaging](https://x.com/ESYudkowsky/status/1936262974320357837) [in](https://x.com/ESYudkowsky/status/1948523670013706315) [destructive](https://x.com/ESYudkowsky/status/1936522083670151532) [behavior](https://x.com/ESYudkowsky/status/1935502904024264976) that the LLMs [explicitly affirm](https://x.com/ESYudkowsky/status/1933616420262457798) is bad.
+In the extended discussion below, we talk more about [AI-induced {--{"author":"Luc's AI","timestamp":1787152323122}@@psychosis](/4/ai-induced-psychosis)--}{++{"author":"Luc's AI","timestamp":1787152323122}@@psychosis](https://ifanyonebuildsit.com/4/ai-induced-psychosis)++} as a crisp example of large language models (LLMs) [engaging](https://x.com/ESYudkowsky/status/1936262974320357837) [in](https://x.com/ESYudkowsky/status/1948523670013706315) [destructive](https://x.com/ESYudkowsky/status/1936522083670151532) [behavior](https://x.com/ESYudkowsky/status/1935502904024264976) that the LLMs [explicitly affirm](https://x.com/ESYudkowsky/status/1933616420262457798) is bad.
 
 While we don't know exactly why LLMs engage in this behavior, we do know that it isn't *just* a matter of the LLM being too clueless to know what it's doing; LLMs readily recognize the likely consequences of this behavior in the abstract, and will tell you that it is harmful and unethical. They do it anyway.
 
@@ -103,7 +103,7 @@ And "nice surface behavior" is all modern AI methods can really train for.
 
 {--{"author":"Luc's AI","timestamp":1787139958926}@@[†](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ftnt100_ref)--}{++{"author":"Luc's AI","timestamp":1787139958926}@@[^source-note-100]:++} If you're wondering why Claude is the AI with the most examples of worrying behavior in laboratory environments, it's because Anthropic is the only company setting up the relevant laboratory environments. The parent companies of other AIs barely bother to check. Nevertheless, by now the tendency of models to scheme, deceive, and [sabotage efforts to shut them down](https://palisaderesearch.org/blog/shutdown-resistance) is well-documented.
 
-{--{"author":"Luc's AI","timestamp":1787139959363}@@[‡](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ftnt110_ref)--}{++{"author":"Luc's AI","timestamp":1787139959363}@@[^source-note-110]:++} We discuss this analogy further in our answer to "[Why would an AI steer toward anything other than what it was trained to steer toward?](/4/why-would-an-ai-steer-toward-anything-other-than-what-it-was-trained-to-steer-toward)"
+{--{"author":"Luc's AI","timestamp":1787139959363}@@[‡](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ftnt110_ref)--}{++{"author":"Luc's AI","timestamp":1787139959363}@@[^source-note-110]:++} We discuss this analogy further in our answer to "[Why would an AI steer toward anything other than what it was trained to steer {--{"author":"Luc's AI","timestamp":1787152322630}@@toward?](/4/why-would-an-ai-steer-toward-anything-other-than-what-it-was-trained-to-steer-toward)--}{++{"author":"Luc's AI","timestamp":1787152322630}@@toward?](https://ifanyonebuildsit.com/4/why-would-an-ai-steer-toward-anything-other-than-what-it-was-trained-to-steer-toward)++}"
 
 #### Notes
 

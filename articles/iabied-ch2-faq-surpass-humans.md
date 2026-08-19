@@ -33,7 +33,7 @@ Students can exceed their masters.
 
 #### Perhaps by whatever other method works. Success often requires such skills, so gradient descent will find them.
 
-Predicting human words requires understanding the world, as we discussed in "[Aren't AIs only able to parrot back what humans say?](/2/arent-ais-only-able-to-parrot-back-what-humans-say)"
+Predicting human words requires understanding the world, as we discussed in "[Aren't AIs only able to parrot back what humans {--{"author":"Luc's AI","timestamp":1787152318701}@@say?](/2/arent-ais-only-able-to-parrot-back-what-humans-say)--}{++{"author":"Luc's AI","timestamp":1787152318701}@@say?](https://ifanyonebuildsit.com/2/arent-ais-only-able-to-parrot-back-what-humans-say)++}"
 
 To give a fanciful example: In the late 1500s, the astronomer Tycho Brahe painstakingly collected observations of planetary positions in the night sky. His data was vital to the work of Johannes Kepler, who discovered the elliptical pattern of planetary motion, which inspired Newton's theory of gravitation. But Brahe himself never figured out the laws that govern the planets.
 

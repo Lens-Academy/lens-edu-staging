@@ -88,4 +88,4 @@ All the same, none of that is going to feel compelling to a superintelligent cub
 
 It's not that it doesn't know what humor is. It can predict exactly what you'll find funny. It just doesn't consider that classification an interesting one.
 
-In the same way, it isn't moved by how you compute what should or shouldn't be done; nor by which preferences you consider more or less meta-preferable. If something doesn't care about happiness, nor meta-care about your arguments for why it should care about happiness, then you cannot talk it into adopting [a happiness-based decision framework](/4/curiosity-isnt-convergent).
+In the same way, it isn't moved by how you compute what should or shouldn't be done; nor by which preferences you consider more or less meta-preferable. If something doesn't care about happiness, nor meta-care about your arguments for why it should care about happiness, then you cannot talk it into adopting [a happiness-based decision {--{"author":"Luc's AI","timestamp":1787152320594}@@framework](/4/curiosity-isnt-convergent)--}{++{"author":"Luc's AI","timestamp":1787152320594}@@framework](https://ifanyonebuildsit.com/4/curiosity-isnt-convergent)++}.

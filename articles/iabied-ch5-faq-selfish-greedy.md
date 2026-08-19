@@ -27,7 +27,7 @@ Matter and energy are useful for almost every goal. No matter what the AI is ste
 
 And the danger arises from the work, not from the reason the work is done.
 
-An AI that doesn't hate you can still take actions that are lethally dangerous to you, just as a chess AI can crush you at chess [without feeling](/3/anthropomorphism-and-mechanomorphism) [competitive](/3/anthropomorphism-and-mechanomorphism) or driven to win.
+An AI that doesn't hate you can still take actions that are lethally dangerous to you, just as a chess AI can crush you at chess [without {--{"author":"Luc's AI","timestamp":1787152319102}@@feeling](/3/anthropomorphism-and-mechanomorphism)--}{++{"author":"Luc's AI","timestamp":1787152319102}@@feeling](https://ifanyonebuildsit.com/3/anthropomorphism-and-mechanomorphism)++} {--{"author":"Luc's AI","timestamp":1787152319310}@@[competitive](/3/anthropomorphism-and-mechanomorphism)--}{++{"author":"Luc's AI","timestamp":1787152319310}@@[competitive](https://ifanyonebuildsit.com/3/anthropomorphism-and-mechanomorphism)++} or driven to win.
 
 {--{"author":"Luc's AI","timestamp":1787139992829}@@[\*](https://ifanyonebuildsit.com/5/humans-evolved-to-be-selfish-aggressive-and-greedy-wont-ai-lack-those-evolved-drives#ftnt188_ref)--}{++{"author":"Luc's AI","timestamp":1787139992829}@@[^source-note-188]:++} Related: The [extended discussion on curiosity]({--{"author":"Luc's AI","timestamp":1787152022626}@@/4/curiosity-isnt-convergent--}{++{"author":"Luc's AI","timestamp":1787152022626}@@https://ifanyonebuildsit.com/4/curiosity-isnt-convergent++}).
 
