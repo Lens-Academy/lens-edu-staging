@@ -37,7 +37,7 @@ Fermi was not just stacking up mysterious bricks that generated more heat when t
 
 Fermi understood *in advance*; he did not have to find out the hard way, that he was dealing with an exponential process. Not in the sense that today's media overuses the word "exponential" to just mean "large" or "fast," but a process whose rate of increase is proportional to its current level: *mathematical* exponentiation.
 
-Fermi knew that by stacking up more uranium bricks and graphite bricks, he was *increasing the factor multiplied* within an exponential process. As discussed in the book, there is a world of difference between a neutron multiplication factor below 100 percent and a neutron multiplication factor above 100 percent.[\*](#ftnt254) Below 100 percent, you just have a warm pile of bricks. But past 100 percent, the radioactivity level of the pile goes up. And up. And up.
+Fermi knew that by stacking up more uranium bricks and graphite bricks, he was *increasing the factor multiplied* within an exponential process. As discussed in the book, there is a world of difference between a neutron multiplication factor below 100 percent and a neutron multiplication factor above 100 percent.[\*]{--{"author":"Luc's AI","timestamp":1787136141162}@@(#ftnt254)--}{++{"author":"Luc's AI","timestamp":1787136141162}@@(https://ifanyonebuildsit.com/10/the-tale-of-chicago-pile-1#ftnt254)++} Below 100 percent, you just have a warm pile of bricks. But past 100 percent, the radioactivity level of the pile goes up. And up. And up.
 
 It does not behave like all of the previous, smaller heaps of uranium bricks that you may have tested. If you didn't understand what you were doing well enough to under-moderate the reactor (so that the chain reaction would slow down if the reactor started overheating), then the reactor would not have stabilized itself like the smaller piles did. If you let it keep running overnight, you wouldn't get a new, industrially useful level of power output the next day.
 
@@ -99,7 +99,7 @@ At some unknown point, if we continue down this path, we will run at breakneck s
 
 ---
 
-[\*](#ftnt254_ref) As we observe in the book's Chapter 10 endnote 6, physicists do not actually give neutron multiplication factors in percentages. We give them that way for clarity, for reasons discussed in the aforementioned endnote.
+[\*]{--{"author":"Luc's AI","timestamp":1787136143655}@@(#ftnt254_ref)--}{++{"author":"Luc's AI","timestamp":1787136143655}@@(https://ifanyonebuildsit.com/10/the-tale-of-chicago-pile-1#ftnt254_ref)++} As we observe in the book's Chapter 10 endnote 6, physicists do not actually give neutron multiplication factors in percentages. We give them that way for clarity, for reasons discussed in the aforementioned endnote.
 
 #### Notes
 

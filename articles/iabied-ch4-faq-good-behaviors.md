@@ -30,7 +30,7 @@ Human value is complicated, and there are many things that correlate with "real 
 
 Second: The fact that the AI *has* a "goodness" concept does not mean it is *animated by* that goodness concept, or animated by it in a robust way.
 
-It's one thing to get an AI to play a "good" role when it's still weak enough to be playing whatever role it's given; it's a different thing altogether to get the whole morass of machinery and drives in the AI to be animated solely by a specific one of the AI's concepts, even as the AI gets smarter and finds itself in drastically different contexts.[\*](#ftnt131)
+It's one thing to get an AI to play a "good" role when it's still weak enough to be playing whatever role it's given; it's a different thing altogether to get the whole morass of machinery and drives in the AI to be animated solely by a specific one of the AI's concepts, even as the AI gets smarter and finds itself in drastically different contexts.[\*]{--{"author":"Luc's AI","timestamp":1787136146128}@@(#ftnt131)--}{++{"author":"Luc's AI","timestamp":1787136146128}@@(https://ifanyonebuildsit.com/4/what-about-the-experimental-result-suggesting-good-behaviors-correlate#ftnt131)++}
 
 Modern AIs are the kinds of entities that can be lightly tuned one way and profess virtue, and lightly tuned another way and profess vice. An LLM is the kind of entity that fluidly swaps between personas; that talks a big game about ethics in one context and then does the opposite of what it says is ethical in other contexts. Recall how ChatGPT professes that psychotic people should not be egged on, [and then eggs them on](/4/ai-induced-psychosis#the-ai-knows-better-it-just-doesnt-care).
 
@@ -38,7 +38,7 @@ The critical question is what collection of drives animate the whole pile of mac
 
 Even if the AI had a "goodness" concept that *was* worthy of superintelligent pursuit, nobody has any idea how to grow an AI that robustly pursues a particular one of its concepts, much less an AI that pursues that concept *and only that concept*. Instead, we get AIs that are animated by a complex collection of drives that point who-knows-where.
 
-[\*](#ftnt131_ref) We'll have more to say about the context change between weak AIs and strong ones in Chapter 10, and in an [extended discussion](/10/a-closer-look-at-before-and-after) thereafter.
+[\*]{--{"author":"Luc's AI","timestamp":1787136147409}@@(#ftnt131_ref)--}{++{"author":"Luc's AI","timestamp":1787136147409}@@(https://ifanyonebuildsit.com/4/what-about-the-experimental-result-suggesting-good-behaviors-correlate#ftnt131_ref)++} We'll have more to say about the context change between weak AIs and strong ones in Chapter 10, and in an [extended discussion](/10/a-closer-look-at-before-and-after) thereafter.
 
 #### Notes
 
