@@ -81,7 +81,7 @@ In our [introductory article](https://80000hours.org/career-guide/most-pressing-
 
 A good reason to do it this way, is that if we multiply these three terms together, we will get back to ‘good done’ / ‘extra person or $’ allocated to the problem:
 
-![](https://80000hours.org/wp-content/uploads/2016/04/Screen-Shot-2017-02-07-at-7.58.39-pm.png) ![](https://80000hours.org/wp-content/uploads/2016/04/Screen-Shot-2017-02-07-at-7.58.39-pm.png)
+![](https://80000hours.org/wp-content/uploads/2016/04/Screen-Shot-2017-02-07-at-7.58.39-pm.png){--{"author":"Luc's AI","timestamp":1787136197735}@@ ![](https://80000hours.org/wp-content/uploads/2016/04/Screen-Shot-2017-02-07-at-7.58.39-pm.png)--}
 
 So, now we’ve broken “good done per $” into three components that each have a quantitative definition. What are these components, in plain English?
 
