@@ -9,7 +9,14 @@ created: 2026-02-04
 description:
 tags:
   - clippings
----
+{++{"author":"Luc's AI","timestamp":1787163202303}@@llm_reviewed: 2026-08-19
+llm_review_version: "article-qc-v1"
+llm_review_model: "gpt-5"
+llm_review_digest: "sha256:4768a661bac6115d20023e69ca47bd13d42d94c95627888a4302154ed7b53b17"
+llm_review_source_digest: "sha256:bde32c4df1ea251a5edc6495b68d618942700b54301f90bbe43c148e3a1bb760"
+llm_review_source_fetched: 2026-08-19
+llm_review_source_kind: "live"
+++}---
 
 %%
 Add discussion note here:
