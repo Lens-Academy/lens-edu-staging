@@ -124,7 +124,7 @@ I want to use this space to flag that the science of learning will help you to d
 -   Using [learning activities](https://itali.uq.edu.au/teaching-guidance/teaching-practices/designing-learning-activities) that get students using the skills you want them to learn.
 -   Create opportunities to [give students feedback](https://www.ctl.ox.ac.uk/giving-effective-feedback) on their exercises and ideas they share in classes. You could also facilitate peer-to-peer feedback, but feedback from an expert is best.
 
-![](https://jamiebernardi.com/wp-content/uploads/2024/03/sol.png?w=829)
+![]({--{"author":"Luc's AI","timestamp":1787132569446}@@https://jamiebernardi.com/wp-content/uploads/2024/03/sol.png?w=829--}{++{"author":"Luc's AI","timestamp":1787132569446}@@https://jamiebernardi.com/wp-content/uploads/2024/03/sol.png++})
 
 A highly simplified model of the science of learning.
 

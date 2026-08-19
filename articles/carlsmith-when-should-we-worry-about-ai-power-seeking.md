@@ -41,7 +41,7 @@ In particular: people often appeal to “ [instrumental convergence](https://en.
 
 The essay offers a framework that tries to aid in this analysis. Here’s a preview in a diagram (I explain the relevant terms and distinctions in more detail below):
 
-![](https://substackcdn.com/image/fetch/$s_!m373!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb3aa4d33-68a1-46b5-a45e-f4fb2c8c1be8_1600x663.png)
+![]({--{"author":"Luc's AI","timestamp":1787132569817}@@https://substackcdn.com/image/fetch/$s_!m373!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb3aa4d33-68a1-46b5-a45e-f4fb2c8c1be8_1600x663.png--}{++{"author":"Luc's AI","timestamp":1787132569817}@@https://substackcdn.com/image/fetch/$s_!m373!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb3aa4d33-68a1-46b5-a45e-f4fb2c8c1be8_1600x663.png++})
 
 This sort of framework, I think, gives us a richer toolkit for thinking about how to prevent problematic power-seeking – one that I draw on in the rest of the series. In particular: it highlights the ongoing potential role for *both* of the following:
 
@@ -100,7 +100,7 @@ We can simplify an AI’s choice to go rogue into a choice between two options: 
 
 This gives us the following simple picture of the options the AI faces:
 
-![](https://substackcdn.com/image/fetch/$s_!KZC8!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F201b966d-e0fd-4b20-b856-5227d0a555ab_1046x616.png)
+![]({--{"author":"Luc's AI","timestamp":1787132570072}@@https://substackcdn.com/image/fetch/$s_!KZC8!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F201b966d-e0fd-4b20-b856-5227d0a555ab_1046x616.png--}{++{"author":"Luc's AI","timestamp":1787132570072}@@https://substackcdn.com/image/fetch/$s_!KZC8!,w_1046,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F201b966d-e0fd-4b20-b856-5227d0a555ab_1046x616.png++})
 
 With this picture in mind, we can then think about the AI’s *motivations* in terms of how it evaluates these different components of its options. In particular, we can distinguish the following four key factors:
 
@@ -111,7 +111,7 @@ With this picture in mind, we can then think about the AI’s *motivations* in t
 
 Thus, adding these assessments into the diagram:
 
-![](https://substackcdn.com/image/fetch/$s_!LMnH!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9ff86a1-f93e-4d63-b257-8faa805a02ad_1600x663.png)
+![]({--{"author":"Luc's AI","timestamp":1787132570298}@@https://substackcdn.com/image/fetch/$s_!LMnH!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9ff86a1-f93e-4d63-b257-8faa805a02ad_1600x663.png--}{++{"author":"Luc's AI","timestamp":1787132570298}@@https://substackcdn.com/image/fetch/$s_!LMnH!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9ff86a1-f93e-4d63-b257-8faa805a02ad_1600x663.png++})
 
 Thus, as an example of this framework in action, consider an employee deciding whether to attempt to steal from her company by trying to hack into the payment system (we’ll consider this a form of “rogue” behavior).
 
@@ -125,7 +125,7 @@ This framework is far from perfect (see footnote for some caveats and subtleties
 
 Also: this framework extends quite naturally to cover eliciting desired task-performance from an AI agent, on top of just preventing rogue behavior. Basically: you just include an additional constraint – namely, that the best non-rogue option *that involves doing the task in the desired way* is also the best non-rogue option, *period*. I discuss this extension in more detail in an appendix, but here’s a quick preview in a diagram:
 
-![](https://substackcdn.com/image/fetch/$s_!uymb!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32b476c0-938c-4a1f-9511-07cfae638d43_1388x1066.png)
+![]({--{"author":"Luc's AI","timestamp":1787132570559}@@https://substackcdn.com/image/fetch/$s_!uymb!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32b476c0-938c-4a1f-9511-07cfae638d43_1388x1066.png--}{++{"author":"Luc's AI","timestamp":1787132570559}@@https://substackcdn.com/image/fetch/$s_!uymb!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32b476c0-938c-4a1f-9511-07cfae638d43_1388x1066.png++})
 
 ## 3\. Motivation control and option control
 
@@ -145,7 +145,7 @@ Of course, the fact that superintelligent AI agents might create radical new pow
 
 Here’s a rough diagram depicting a spectrum of “option control” and “motivation control,” according, roughly, to how much a given approach to safety leans on one vs. the other.
 
-![](https://substackcdn.com/image/fetch/$s_!RiHa!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7920f8c3-aa73-449d-8aa4-eaf51dd12ca0_1600x861.png)
+![]({--{"author":"Luc's AI","timestamp":1787132570794}@@https://substackcdn.com/image/fetch/$s_!RiHa!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7920f8c3-aa73-449d-8aa4-eaf51dd12ca0_1600x861.png--}{++{"author":"Luc's AI","timestamp":1787132570794}@@https://substackcdn.com/image/fetch/$s_!RiHa!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7920f8c3-aa73-449d-8aa4-eaf51dd12ca0_1600x861.png++})
 
 ## 4\. Should we expect these prerequisites to be satisfied?
 
@@ -266,7 +266,7 @@ And we can modify the framework above to reflect the additional dynamics at stak
 
 Let’s add these to a diagram:
 
-![](https://substackcdn.com/image/fetch/$s_!P-IZ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F361b9c5d-63d7-4b2f-9aa6-4822711dfd5e_1432x1108.png)
+![]({--{"author":"Luc's AI","timestamp":1787132571056}@@https://substackcdn.com/image/fetch/$s_!P-IZ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F361b9c5d-63d7-4b2f-9aa6-4822711dfd5e_1432x1108.png--}{++{"author":"Luc's AI","timestamp":1787132571056}@@https://substackcdn.com/image/fetch/$s_!P-IZ!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F361b9c5d-63d7-4b2f-9aa6-4822711dfd5e_1432x1108.png++})
 
 And instead of talking solely about the AI’s “satisfaction,” we can distinguish between:
 
@@ -275,7 +275,7 @@ And instead of talking solely about the AI’s “satisfaction,” we can distin
 
 Thus, adding this (along with the other, previously-discussed components of the AI’s motivations) into the diagram, we get:
 
-![](https://substackcdn.com/image/fetch/$s_!zhGS!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9cbc7632-3add-4869-980e-cc4a8319afff_1380x1098.png)
+![]({--{"author":"Luc's AI","timestamp":1787132571318}@@https://substackcdn.com/image/fetch/$s_!zhGS!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9cbc7632-3add-4869-980e-cc4a8319afff_1380x1098.png--}{++{"author":"Luc's AI","timestamp":1787132571318}@@https://substackcdn.com/image/fetch/$s_!zhGS!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9cbc7632-3add-4869-980e-cc4a8319afff_1380x1098.png++})
 
 Note, though, that whether or not you get an AI to choose the best elicited option over the best underelicited, non-rogue option will often be *lower stakes* than whether you got it to choose *some* non-rogue option over its best rogue option.[^42] And more generally: if an AI hasn’t gone rogue*,* this often means that the sort of adversarial dynamics that make certain aspects of AI safety so difficult (for example, the ones at stake in what I’ve called “ [scheming](https://arxiv.org/abs/2311.08379) ”) are less relevant.
 
@@ -307,7 +307,7 @@ Thus, for example, maybe at this point you know that your AI *could* hack throug
 
 Let’s start a diagram reflecting these distinctions.
 
-![](https://substackcdn.com/image/fetch/$s_!FwJ7!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ff6c660-4c93-491f-8645-16252383b84c_1558x364.png)
+![]({--{"author":"Luc's AI","timestamp":1787132571599}@@https://substackcdn.com/image/fetch/$s_!FwJ7!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ff6c660-4c93-491f-8645-16252383b84c_1558x364.png--}{++{"author":"Luc's AI","timestamp":1787132571599}@@https://substackcdn.com/image/fetch/$s_!FwJ7!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ff6c660-4c93-491f-8645-16252383b84c_1558x364.png++})
 
 ## A.2.2 Local vs. global vulnerability
 
@@ -322,7 +322,7 @@ Talk about “ [needing to get AI alignment right on the first critical try](htt
 
 Adding the distinction between local vs. global vulnerability conditions to the diagram:
 
-![](https://substackcdn.com/image/fetch/$s_!OguQ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9175d5d-2736-45e0-a531-e1f5c42c6558_1600x522.png)
+![]({--{"author":"Luc's AI","timestamp":1787132571838}@@https://substackcdn.com/image/fetch/$s_!OguQ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9175d5d-2736-45e0-a531-e1f5c42c6558_1600x522.png--}{++{"author":"Luc's AI","timestamp":1787132571838}@@https://substackcdn.com/image/fetch/$s_!OguQ!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9175d5d-2736-45e0-a531-e1f5c42c6558_1600x522.png++})
 
 ## A.2.3 Easy vs. non-easy power-seeking
 
@@ -336,7 +336,7 @@ And indeed, the distinction between “easy” vs. “non-easy” power-seeking 
 
 Adding this distinction to the diagram:
 
-![](https://substackcdn.com/image/fetch/$s_!M1M_!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fea067c9b-0f6d-48be-9b6b-a0ea1675161f_1600x728.png)
+![]({--{"author":"Luc's AI","timestamp":1787132572115}@@https://substackcdn.com/image/fetch/$s_!M1M_!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fea067c9b-0f6d-48be-9b6b-a0ea1675161f_1600x728.png--}{++{"author":"Luc's AI","timestamp":1787132572115}@@https://substackcdn.com/image/fetch/$s_!M1M_!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fea067c9b-0f6d-48be-9b6b-a0ea1675161f_1600x728.png++})
 
 ## A.2.4 Unilateral vs. multilateral power-seeking
 
@@ -359,7 +359,7 @@ Regardless, the distinction between “unilateral” and “multilateral” will
 
 Let’s add vulnerability to unilateral vs. multilateral power-seeking to the diagram as well:
 
-![](https://substackcdn.com/image/fetch/$s_!yOqS!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26cb987c-b7be-4a46-818e-05d4779664c4_1598x944.png)
+![]({--{"author":"Luc's AI","timestamp":1787132572354}@@https://substackcdn.com/image/fetch/$s_!yOqS!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26cb987c-b7be-4a46-818e-05d4779664c4_1598x944.png--}{++{"author":"Luc's AI","timestamp":1787132572354}@@https://substackcdn.com/image/fetch/$s_!yOqS!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26cb987c-b7be-4a46-818e-05d4779664c4_1598x944.png++})
 
 ## A.2.5 Coordinated vs. uncoordinated power-seeking
 
@@ -378,13 +378,13 @@ But also: relative to threat models that focus on unilateral power-seeking, thre
 
 Adding this distinction to the diagram as well, as two sub-categories of multilateral power-seeking:
 
-![](https://substackcdn.com/image/fetch/$s_!EU5s!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F113ac71b-0396-4070-99b7-4b4810a7f80e_1486x1166.png)
+![]({--{"author":"Luc's AI","timestamp":1787132572611}@@https://substackcdn.com/image/fetch/$s_!EU5s!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F113ac71b-0396-4070-99b7-4b4810a7f80e_1486x1166.png--}{++{"author":"Luc's AI","timestamp":1787132572611}@@https://substackcdn.com/image/fetch/$s_!EU5s!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F113ac71b-0396-4070-99b7-4b4810a7f80e_1486x1166.png++})
 
 ## A.2.6 Worst case versions
 
 With these different kinds of vulnerability conditions in mind, we can also hone in on the most worrying versions. In particular: the scariest scenarios involve *global* vulnerability to an AI, or a set of AIs, being *motivated* to pursue *easy* forms of power-seeking. That is: in such cases, such AIs *do have dangerous rogue options available*, pursuing these options would *very likely lead to these AIs getting more power*, and *if they choose to pursue such options, then humanity would be permanently disempowered.* Adding these to the diagram:
 
-![](https://substackcdn.com/image/fetch/$s_!uh-C!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1191ee2e-d8e2-4b1c-9939-9d107fe564d9_1600x1396.png)
+![]({--{"author":"Luc's AI","timestamp":1787132572878}@@https://substackcdn.com/image/fetch/$s_!uh-C!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1191ee2e-d8e2-4b1c-9939-9d107fe564d9_1600x1396.png--}{++{"author":"Luc's AI","timestamp":1787132572878}@@https://substackcdn.com/image/fetch/$s_!uh-C!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1191ee2e-d8e2-4b1c-9939-9d107fe564d9_1600x1396.png++})
 
 The classic “decisive strategic advantage” scenario discussed in the main text is an example of vulnerability to easy, unilateral takeover. But as I noted above, I think vulnerability to *coordinated* takeover and/or *uncoordinated* loss of control is harder to avoid.
 
