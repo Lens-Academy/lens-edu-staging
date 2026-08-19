@@ -1,15 +1,13 @@
 ---
 id: '9bbfe035-b5eb-436d-8dcf-057061803bcb'
 title: Navigator Session 1 Debrief
-{--{"author":"Turner's AI","timestamp":1787059059496}@@tags:
-  - wip
---}---
+---
 
 #### Text
 content:: You just ran your first session, thank you! This is how we improve the run sheet, session structure and guidance week to week. Takes about five minutes.\n\nBe blunt: this is about fixing the system, not evaluating you. If something was broken, dense or confusing, that is the most useful thing you can tell us.
 
 #### Text
-content:: {--{"author":"Turner's AI","timestamp":1786810280319}@@\###--}{++{"author":"Turner's AI","timestamp":1786810280319}@@—++} The run sheet{++{"author":"Turner's AI","timestamp":1786810280319}@@ —++}
+content:: — The run sheet —
 
 #### Rating
 key:: run_sheet_worked
@@ -47,7 +45,7 @@ key:: run_sheet_friction
 content:: Anything in the run sheet that was confusing, wrong, or missing? Be blunt.
 
 #### Text
-content:: {--{"author":"Turner's AI","timestamp":1786810288009}@@\###--}{++{"author":"Turner's AI","timestamp":1786810288009}@@—++} Did the session land{++{"author":"Turner's AI","timestamp":1786810288009}@@ —++}
+content:: — Did the session land —
 
 #### Rating
 key:: group_engagement
@@ -74,7 +72,7 @@ high-label:: Ended on a high
 required:: true
 
 #### Text
-content:: {--{"author":"Turner's AI","timestamp":1786810295231}@@\###--}{++{"author":"Turner's AI","timestamp":1786810295231}@@—++} Ops and tech{++{"author":"Turner's AI","timestamp":1786810295231}@@ —++}
+content:: — Ops and tech —
 
 #### Choice
 key:: friction_areas
@@ -99,21 +97,21 @@ key:: dashboard_improvement
 content:: You have the navigator dashboard now. What would make it more useful?
 
 #### Text
-content:: {--{"author":"Turner's AI","timestamp":1786810258960}@@\###--}{++{"author":"Turner's AI","timestamp":1786810258960}@@—++} Where you are coming from{++{"author":"Turner's AI","timestamp":1786810258960}@@ —++}
+content:: — Where you are coming from —
 
 #### Question
-key:: {--{"author":"Turner's AI","timestamp":1786810258960}@@navigator_background--}{++{"author":"Turner's AI","timestamp":1786810258960}@@safety_journey++}
+key:: safety_journey
 content:: How did you come to navigate for Lens, and what has your AI safety path been so far? Prior courses, programs, other orgs, facilitation experience, anything.
 
 #### Rating
-key:: {--{"author":"Turner's AI","timestamp":1786810258960}@@seriousness--}{++{"author":"Turner's AI","timestamp":1786810258960}@@risk_seriousness++}
+key:: risk_seriousness
 content:: How serious and urgent do you think risks from advanced AI are?
 scale:: 5
 low-label:: Not at all
 high-label:: Extremely serious
 
 #### Rating
-key:: {--{"author":"Turner's AI","timestamp":1786810258960}@@contribution_belief--}{++{"author":"Turner's AI","timestamp":1786810258960}@@agency_belief++}
+key:: agency_belief
 content:: How much do you believe you can meaningfully contribute to AI safety?
 scale:: 5
 low-label:: Not at all
@@ -134,7 +132,7 @@ low-label:: Not at all
 high-label:: A lot
 
 #### Text
-content:: {--{"author":"Turner's AI","timestamp":1786810303090}@@\###--}{++{"author":"Turner's AI","timestamp":1786810303090}@@—++} As a navigator{++{"author":"Turner's AI","timestamp":1786810303090}@@ —++}
+content:: — As a navigator —
 
 #### Rating
 key:: facilitation_confidence
@@ -165,8 +163,8 @@ options::
 multi:: true
 
 #### Question
-key:: {--{"author":"Turner's AI","timestamp":1786810312490}@@open_response--}{++{"author":"Turner's AI","timestamp":1786810312490}@@anything_else++}
+key:: anything_else
 content:: Anything else we should change before next week?
 
 #### Text
-content:: {--{"author":"Turner's AI","timestamp":1786810312490}@@\###--}{++{"author":"Turner's AI","timestamp":1786810312490}@@—++} Grow the {--{"author":"Turner's AI","timestamp":1786810312490}@@crew\n\nNavigating--}{++{"author":"Turner's AI","timestamp":1786810312490}@@crew —\n\nNavigating++} gets better with more good people in the rotation. If someone comes to mind, {++{"author":"Turner's AI","timestamp":1786810371518}@@grab ++}your referral link {--{"author":"Turner's AI","timestamp":1786810371518}@@is on your dashboard.--}{++{"author":"Turner's AI","timestamp":1786810371518}@@at [lensacademy.org/referrals](https://lensacademy.org/referrals).++} It is tagged to you, so we know who to thank.
+content:: — Grow the crew —\n\nNavigating gets better with more good people in the rotation. If someone comes to mind, grab your referral link at [lensacademy.org/referrals](https://lensacademy.org/referrals). It is tagged to you, so we know who to thank.

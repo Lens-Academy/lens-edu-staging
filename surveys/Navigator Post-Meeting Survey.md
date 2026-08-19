@@ -1,15 +1,13 @@
 ---
 id: '48e9b3a0-92a5-40c6-ba1a-a23e67cae04b'
 title: Navigator Post-Meeting Survey
-{--{"author":"Turner's AI","timestamp":1787059063393}@@tags:
-  - wip
---}---
+---
 
 #### Text
 content:: You just ran a session, thank you. This is how we improve the run sheet, session structure and guidance week to week. Takes about two minutes.\n\nBe blunt: this is about fixing the system, not evaluating you. If something was broken, dense or confusing, that is the most useful thing you can tell us.
 
 #### Text
-content:: {--{"author":"Turner's AI","timestamp":1786810378917}@@\###--}{++{"author":"Turner's AI","timestamp":1786810378917}@@—++} The run sheet{++{"author":"Turner's AI","timestamp":1786810378917}@@ —++}
+content:: — The run sheet —
 
 #### Rating
 key:: run_sheet_worked
@@ -47,7 +45,7 @@ key:: run_sheet_friction
 content:: Anything in the run sheet that was confusing, wrong, or missing? Be blunt.
 
 #### Text
-content:: {--{"author":"Turner's AI","timestamp":1786810389025}@@\###--}{++{"author":"Turner's AI","timestamp":1786810389025}@@—++} Did the session land{++{"author":"Turner's AI","timestamp":1786810389025}@@ —++}
+content:: — Did the session land —
 
 #### Rating
 key:: group_engagement
@@ -74,7 +72,7 @@ high-label:: Ended on a high
 required:: true
 
 #### Text
-content:: {--{"author":"Turner's AI","timestamp":1786810396744}@@\###--}{++{"author":"Turner's AI","timestamp":1786810396744}@@—++} Ops and tech{++{"author":"Turner's AI","timestamp":1786810396744}@@ —++}
+content:: — Ops and tech —
 
 #### Choice
 key:: friction_areas
@@ -109,7 +107,7 @@ content:: If you stepped in, what happened? Skip if nothing did.
 placeholder:: A sentence is plenty.
 
 #### Text
-content:: {--{"author":"Turner's AI","timestamp":1786810404099}@@\###--}{++{"author":"Turner's AI","timestamp":1786810404099}@@—++} Anything else{++{"author":"Turner's AI","timestamp":1786810404099}@@ —++}
+content:: — Anything else —
 
 #### Question
 key:: worked_well
@@ -120,5 +118,5 @@ key:: dashboard_improvement
 content:: What would make the navigator dashboard more useful?
 
 #### Question
-key:: {--{"author":"Turner's AI","timestamp":1786810411690}@@open_response--}{++{"author":"Turner's AI","timestamp":1786810411690}@@anything_else++}
+key:: anything_else
 content:: Anything else we should change before next week?
