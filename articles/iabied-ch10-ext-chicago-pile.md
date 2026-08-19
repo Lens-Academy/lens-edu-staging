@@ -37,7 +37,7 @@ Fermi was not just stacking up mysterious bricks that generated more heat when t
 
 Fermi understood *in advance*; he did not have to find out the hard way, that he was dealing with an exponential process. Not in the sense that today's media overuses the word "exponential" to just mean "large" or "fast," but a process whose rate of increase is proportional to its current level: *mathematical* exponentiation.
 
-Fermi knew that by stacking up more uranium bricks and graphite bricks, he was *increasing the factor multiplied* within an exponential process. As discussed in the book, there is a world of difference between a neutron multiplication factor below 100 percent and a neutron multiplication factor above 100 percent.{--{"author":"Luc's AI","timestamp":1787139891136}@@[\*](https://ifanyonebuildsit.com/10/the-tale-of-chicago-pile-1#ftnt254)--}{++{"author":"Luc's AI","timestamp":1787139891136}@@[^source-note-254]++} Below 100 percent, you just have a warm pile of bricks. But past 100 percent, the radioactivity level of the pile goes up. And up. And up.
+Fermi knew that by stacking up more uranium bricks and graphite bricks, he was *increasing the factor multiplied* within an exponential process. As discussed in the book, there is a world of difference between a neutron multiplication factor below 100 percent and a neutron multiplication factor above 100 percent.[^source-note-254] Below 100 percent, you just have a warm pile of bricks. But past 100 percent, the radioactivity level of the pile goes up. And up. And up.
 
 It does not behave like all of the previous, smaller heaps of uranium bricks that you may have tested. If you didn't understand what you were doing well enough to under-moderate the reactor (so that the chain reaction would slow down if the reactor started overheating), then the reactor would not have stabilized itself like the smaller piles did. If you let it keep running overnight, you wouldn't get a new, industrially useful level of power output the next day.
 
@@ -59,7 +59,7 @@ Which is to say: You have to make a nuclear reaction more and more powerful, bef
 
 That is a kind of problem that reality is allowed to hand you. It happens.
 
-But Fermi and [Szilard]({--{"author":"Luc's AI","timestamp":1787151979699}@@/intro/when-leo-szilard-saw-the-future--}{++{"author":"Luc's AI","timestamp":1787151979699}@@https://ifanyonebuildsit.com/intro/when-leo-szilard-saw-the-future++}) and their team had predicted all of these rules in advance of finding out the hard way. They knew about delayed neutrons and prompt neutrons. (See Chapter 10 for more about this part of the story.) So once Fermi got the neutron multiplication factor up to 100.06 percent, Fermi *didn't* order the control rod pulled out further, to see what happened with an even more powerful heap. He went only up to criticality, not 0.65 percent further to prompt criticality. Fermi got the result he had predicted, and he *knew* what would happen if he went any further. So he went no further.
+But Fermi and [Szilard](https://ifanyonebuildsit.com/intro/when-leo-szilard-saw-the-future) and their team had predicted all of these rules in advance of finding out the hard way. They knew about delayed neutrons and prompt neutrons. (See Chapter 10 for more about this part of the story.) So once Fermi got the neutron multiplication factor up to 100.06 percent, Fermi *didn't* order the control rod pulled out further, to see what happened with an even more powerful heap. He went only up to criticality, not 0.65 percent further to prompt criticality. Fermi got the result he had predicted, and he *knew* what would happen if he went any further. So he went no further.
 
 Twenty-eight minutes later, with radioactivity doubling every two minutes to a 16,000-fold increase, Fermi shut down the world's first nuclear reactor — the piled uranium bricks under the stands of a university stadium inside a major city.
 
@@ -95,11 +95,9 @@ In such a world, perhaps another scientist still could have seen the lethal dang
 
 We are very, very far from being able to model AI even a fraction as well as Fermi understood nuclear chain reactions.
 
-At some unknown point, if we continue down this path, we will run at breakneck speed into an outcome far more serious than irradiating Chicago.{--{"author":"Luc's AI","timestamp":1787151883314}@@
+At some unknown point, if we continue down this path, we will run at breakneck speed into an outcome far more serious than irradiating Chicago.
 
------}
-
-{--{"author":"Luc's AI","timestamp":1787139891397}@@[\*](https://ifanyonebuildsit.com/10/the-tale-of-chicago-pile-1#ftnt254_ref)--}{++{"author":"Luc's AI","timestamp":1787139891397}@@[^source-note-254]:++} As we observe in the book's Chapter 10 endnote 6, physicists do not actually give neutron multiplication factors in percentages. We give them that way for clarity, for reasons discussed in the aforementioned endnote.
+[^source-note-254]: As we observe in the book's Chapter 10 endnote 6, physicists do not actually give neutron multiplication factors in percentages. We give them that way for clarity, for reasons discussed in the aforementioned endnote.
 
 #### Notes
 

@@ -1,7 +1,7 @@
 ---
 title: "Risks from Artificial Intelligence (AI)"
-source_url: https://forum.effectivealtruism.org/posts/XLmFXLpCMEnwXQqnz/risks-from-artificial-intelligence-ai{++{"author":"Luc's AI","timestamp":1787151990990}@@
-allowUnreachableUrl: true++}
+source_url: https://forum.effectivealtruism.org/posts/XLmFXLpCMEnwXQqnz/risks-from-artificial-intelligence-ai
+allowUnreachableUrl: true
 author:
   - Max Dalton
 published: 2022-07-05

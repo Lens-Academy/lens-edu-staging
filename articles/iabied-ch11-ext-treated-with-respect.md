@@ -29,7 +29,7 @@ It takes twenty pages merely to summarize the technical analysis performed to de
 >
 > The accident fan blade failed with 32,636 cycles since new. Similarly, the fractured fan blade associated with the August 2016 PNS accident (see section 1.10.1), as well as the six other cracked fan blades from the PNS accident engine, failed with 38,152 cycles since new. Further, 15 other cracked fan blades on CFM56-7B engines had been identified between May 2017 and August 2019, and those fan blades had accumulated an average of about 33,000 cycles since new when the cracks were detected.
 
-This is what it looks like when a technical profession takes seriously the challenge of averting a disaster.{--{"author":"Luc's AI","timestamp":1787139893813}@@[*](https://ifanyonebuildsit.com/11/we-know-what-it-looks-like-when-a-problem-is-being-treated-with-respect-and-this-isnt-it#ftnt268)--}{++{"author":"Luc's AI","timestamp":1787139893813}@@[^source-note-268]++}
+This is what it looks like when a technical profession takes seriously the challenge of averting a disaster.[^source-note-268]
 
 Contrast the air traffic control profession with the behavior of AI companies described in Chapter 11.
 
@@ -51,11 +51,11 @@ And Elon Musk, the head of xAI, is on the record [saying](https://www.techradar.
 
 > I think by the time we are reactive in AI regulation, it'll be too late. AI is a fundamental risk to the existence of human civilization.
 
-Don't get us wrong; we think that Amodei's "10 to 25 percent" chance is ridiculously *optimistic*, given how hard the problem is and the fact that humans [can't learn by trial and error this time]({--{"author":"Luc's AI","timestamp":1787152030526}@@/10/a-closer-look-at-before-and-after--}{++{"author":"Luc's AI","timestamp":1787152030526}@@https://ifanyonebuildsit.com/10/a-closer-look-at-before-and-after++}). But even so, his numbers are *insane*.
+Don't get us wrong; we think that Amodei's "10 to 25 percent" chance is ridiculously *optimistic*, given how hard the problem is and the fact that humans [can't learn by trial and error this time](https://ifanyonebuildsit.com/10/a-closer-look-at-before-and-after). But even so, his numbers are *insane*.
 
 Serious safety-critical engineering projects look fundamentally unlike the operations of AI labs. Serious initiatives like NASA, the Manhattan Project, or air traffic control have a lot of knowledge of *exactly* what's going on inside the systems they manage, and they do detailed postmortems of every failure. They treat surprises and oddities as big deals, because they know that catastrophic failures are often made of lots of minor malfunctions that string together in just the wrong way.
 
-Meanwhile, AIs are emitting [an ever-growing array of warning signs]({--{"author":"Luc's AI","timestamp":1787152031887}@@/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-steer-in-alien-directions-that-only-mostly-coincide-with-helpfulness--}{++{"author":"Luc's AI","timestamp":1787152031887}@@https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-steer-in-alien-directions-that-only-mostly-coincide-with-helpfulness++}), and the labs are just chugging on ahead saying that everything will *probably* turn out fine, somehow or other.
+Meanwhile, AIs are emitting [an ever-growing array of warning signs](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-steer-in-alien-directions-that-only-mostly-coincide-with-helpfulness), and the labs are just chugging on ahead saying that everything will *probably* turn out fine, somehow or other.
 
 They're not even trying to *fake* the level of respect that air traffic control has for a real safety challenge; they just toss out cheerful guarantees like "[GPT-4 is our most aligned model yet!](https://x.com/sama/status/1635687853324902401)"
 
@@ -65,4 +65,4 @@ In anything like the current technical environment — where AIs are grown rathe
 
 But it certainly simplifies matters to see that none of the developers of this technology are being even mildly cautious or rigorous in their safety plans or practices.
 
-{--{"author":"Luc's AI","timestamp":1787139894076}@@[*](https://ifanyonebuildsit.com/11/we-know-what-it-looks-like-when-a-problem-is-being-treated-with-respect-and-this-isnt-it#ftnt268_ref)--}{++{"author":"Luc's AI","timestamp":1787139894076}@@[^source-note-268]:++} Numerically, air travel is *so* safe that society as a whole might benefit from air traffic control relaxing requirements for things like pilot training and contingency fuel, thereby reducing the cost of flights and inducing more people to fly rather than drive, thereby saving more lives on net.
+[^source-note-268]: Numerically, air travel is *so* safe that society as a whole might benefit from air traffic control relaxing requirements for things like pilot training and contingency fuel, thereby reducing the cost of flights and inducing more people to fly rather than drive, thereby saving more lives on net.

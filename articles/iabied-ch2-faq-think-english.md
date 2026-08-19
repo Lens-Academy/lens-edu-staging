@@ -39,7 +39,7 @@ When met with sufficient outrage, the companies have performed [modest rollbacks
 
 Don't get us wrong — it's *helpful* that AIs do a fair amount of their reasoning in English today. It helps us see warning signs. But there's a big difference between having warning signs and *having some way to fix things.*
 
-For more on this topic, see Chapter 11 and "[Won't there be early warnings researchers can use to identify problems?]({--{"author":"Luc's AI","timestamp":1787152011465}@@/11/wont-there-be-early-warnings-researchers-can-use-to-identify-problems--}{++{"author":"Luc's AI","timestamp":1787152011465}@@https://ifanyonebuildsit.com/11/wont-there-be-early-warnings-researchers-can-use-to-identify-problems++})" as well as the Chapter 4 extended discussion on [AI-induced psychosis]({--{"author":"Luc's AI","timestamp":1787152011683}@@/4/ai-induced-psychosis--}{++{"author":"Luc's AI","timestamp":1787152011683}@@https://ifanyonebuildsit.com/4/ai-induced-psychosis++}).
+For more on this topic, see Chapter 11 and "[Won't there be early warnings researchers can use to identify problems?](https://ifanyonebuildsit.com/11/wont-there-be-early-warnings-researchers-can-use-to-identify-problems)" as well as the Chapter 4 extended discussion on [AI-induced psychosis](https://ifanyonebuildsit.com/4/ai-induced-psychosis).
 
 #### Notes
 
