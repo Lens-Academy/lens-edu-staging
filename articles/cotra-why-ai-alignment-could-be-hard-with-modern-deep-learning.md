@@ -4,7 +4,7 @@ source_url: "https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-mode
 llm_reviewed: 2026-08-19
 llm_review_version: "article-qc-v1"
 llm_review_model: "gpt-5"
-llm_review_digest: "sha256:cc46970bf66af451993169f44081a67dab3bd193e63abc24003ae336849f241b"
+llm_review_digest: {--{"author":"Luc's AI","timestamp":1787170204935}@@"sha256:cc46970bf66af451993169f44081a67dab3bd193e63abc24003ae336849f241b"--}{++{"author":"Luc's AI","timestamp":1787170204935}@@"sha256:d1f7dc7a6966cfc12e40bce2c1aa802377d76684ebe987ff927ac9c6af5eae67"++}
 llm_review_source_digest: "sha256:ab5a10c1f771ff01ed2bfa1eacb1e4cfb0f8d5470e7bde2e253b01050c8da356"
 llm_review_source_fetched: 2026-08-19
 llm_review_source_kind: "live"
