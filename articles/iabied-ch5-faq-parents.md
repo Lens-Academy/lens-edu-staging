@@ -64,4 +64,4 @@ An AI could care deeply about its creators…but not in a way that prizes our su
 
 It doesn't seem possible to predict what the actual outcome would be. But we would expect it to be — if anything — even stranger and less appealing than these options.[^note-iabied-ftnt171]
 
-[^note-iabied-ftnt171]: Again, see "[Won't AIs care at least a little about humans?](/5/wont-ais-care-at-least-a-little-about-humans)" for related discussion.
+[^note-iabied-ftnt171]: Again, see "[Won't AIs care at least a little about {--{"author":"Luc's AI","timestamp":1787169503484}@@humans?](/5/wont-ais-care-at-least-a-little-about-humans)"--}{++{"author":"Luc's AI","timestamp":1787169503484}@@humans?](https://ifanyonebuildsit.com/5/wont-ais-care-at-least-a-little-about-humans)"++} for related discussion.
