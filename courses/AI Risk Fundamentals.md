@@ -29,9 +29,9 @@ facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]] {>>{"author":"Tu
 
 Ported from the Cohort 4 "Navigator Week 1 Debrief" Google Form, keeping its framing verbatim because it is doing real work: "Be blunt: this is about fixing the system, not evaluating you."
 
-The {--{"author":"Turner's AI","timestamp":1787139274804}@@four--}{++{"author":"Turner's AI","timestamp":1787139274804}@@three++} baseline scales {--{"author":"Turner's AI","timestamp":1787139274804}@@(seriousness--}{++{"author":"Turner's AI","timestamp":1787139274804}@@(risk_seriousness++} / {--{"author":"Turner's AI","timestamp":1787139274804}@@contribution_belief--}{++{"author":"Turner's AI","timestamp":1787139274804}@@agency_belief++} / motivation) deliberately reuse the SAME keys as the learner survey so navigator and learner trajectories are comparable in one export. community_connection is navigator-only - the learner instrument has next_step_clarity in that slot instead.
+The three baseline scales (risk_seriousness / agency_belief / motivation) deliberately reuse the SAME keys as the learner survey so navigator and learner trajectories are comparable in one export. community_connection is navigator-only - the learner instrument has next_step_clarity in that slot instead.
 
-{--{"author":"Turner's AI","timestamp":1787139274804}@@Not functional until the parser --}{++{"author":"Turner's AI","timestamp":1787139274804}@@LIVE as of 2026-08-18. The platform side shipped in #531/#532: course.ts ++}reads {--{"author":"Turner's AI","timestamp":1787139274804}@@this field - see the note--}{++{"author":"Turner's AI","timestamp":1787139274804}@@facilitator-survey::, and core/surveys/native.py serves it as a kind='facilitator' survey that unlocks++} on meeting {--{"author":"Turner's AI","timestamp":1787139274804}@@3.<<}--}{++{"author":"Turner's AI","timestamp":1787139274804}@@end alone, with no check-in requirement (the navigator DM is routed by group roster, not attendance).<<}++}
+LIVE as of 2026-08-18. The platform side shipped in #531/#532: course.ts reads facilitator-survey::, and core/surveys/native.py serves it as a kind='facilitator' survey that unlocks on meeting end alone, with no check-in requirement (the navigator DM is routed by group roster, not attendance).<<}
 survey:: [[../surveys/AIRF Session 1 Survey]] {>>{"author":"Turner's AI","timestamp":1786479585670}@@Native port of the AI Risk Fundamentals Week 1 Google Form (baseline scales + buddy handle + BlueDot history), matching the AIF Unit 1 pattern. Meeting 1 gets this intake survey; meetings 2-5 get the generic AIRF Weekly Survey. The Discord-handle question is deliberately dropped: the platform already knows who is answering, which is the whole reason the native surveys avoid the identity-matching problem the Google forms had.<<}
 
 # Module: [[../modules/IABIED M2 Nonhuman Minds, Part 2]]
@@ -40,8 +40,8 @@ survey:: [[../surveys/AIRF Session 1 Survey]] {>>{"author":"Turner's AI","timest
 
 # Meeting: Nonhuman Minds
 meeting-doc-template:: https://docs.google.com/document/d/1hNj0npIxflO6C5AJcNPHms7HOiH_hlAgomBPQVhfp2A/edit?tab=t.0#heading=h.by5wcelvjnsd
-survey:: [[../surveys/AIRF Weekly Survey]]{++{"author":"Turner's AI","timestamp":1787059005574}@@
-facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]++}
+survey:: [[../surveys/AIRF Weekly Survey]]
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 {>>{"author":"Elias's AI","timestamp":1786520689365}@@Correction: the 2026-08-09 note here claimed this link had been repointed to a rebuilt Ch3-5 doc, but the ID it named as "retired" was the same ID the link already used, so the link was never actually moved. The linked doc still ran the old Ch3-4 session (no Chapter 5, no glossary tab, next-unit pointer naming no reading) until 2026-08-12, which is why a navigator ran meeting 2 off outdated material. Fixed by updating the linked doc itself in place, so this link stays correct: Room 3 is now the Chapter 5 "weakest link" prompt, the next-unit pointers name Ch 6 + film + Coda + Your Leverage, and the missing Glossary tab (Modules 2 and 3) has been restored. The parallel Ch3-5 rebuild that lived in a personal Drive was never shared and is now renamed "OLD - ...(merged into live doc)".<<}
 
 
@@ -50,29 +50,18 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]++}
 # Meeting: One Extinction Scenario
 meeting-doc-template:: https://docs.google.com/document/d/1Gg6RHLoWzjegjqeAL_AioitZdJE3tVL_t632h0COyMI/edit
 survey:: [[../surveys/AIRF Weekly Survey]]
-facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]] {>>{"author":"Turner's AI","timestamp":1786809781581}@@{--{"author":"Turner's AI","timestamp":1787139285369}@@SAMPLE FOR HAMZA - not yet functional, see below.
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]] {>>{"author":"Turner's AI","timestamp":1786809781581}@@The recurring half of the pair: meetings 2-5 all use this one, mirroring how the learner surveys use AIRF Weekly Survey in the same slots.
 
-This is one meeting marked up with--}{++{"author":"Turner's AI","timestamp":1787139285369}@@The recurring half of the pair: meetings 2-5 all use this one, mirroring how++} the {--{"author":"Turner's AI","timestamp":1787139285369}@@convention Hamza proposed, so the parser change has a concrete target. It is deliberately on meeting 3 rather than meeting 1, so it can sit here harmlessly while the platform side is built.
+HISTORY (resolved). This line was authored 2026-08-16 as a target for a parser change that had not been built, and carried a long note saying it was silently ignored. That note is obsolete: the parser change shipped in #531, reached production in #532, and every meeting on this course now carries a facilitator-survey.
 
-WHAT HAPPENS TODAY: nothing. `parseMeetingSection` (content_processor/src/parser/course.ts:55-114) reads exactly one field, `section.fields.survey`, and returns `{name, surveyPath?}`. Any other field "passes through untouched"--}{++{"author":"Turner's AI","timestamp":1787139285369}@@learner surveys use AIRF Weekly Survey in the same slots.
-
-HISTORY (resolved). This line was authored 2026-08-16 as a target for a parser change that had not been built, and carried a long note saying it was silently ignored. That note is obsolete: the parser change shipped in #531, reached production in #532,++} and {--{"author":"Turner's AI","timestamp":1787139285369}@@is dropped. So--}{++{"author":"Turner's AI","timestamp":1787139285369}@@every meeting on++} this{--{"author":"Turner's AI","timestamp":1787139285369}@@ line is SILENTLY ignored - it does not warn, it does not error, and the validator stays green.--}{++{"author":"Turner's AI","timestamp":1787139285369}@@ course now carries a facilitator-survey.++}
-
-{--{"author":"Turner's AI","timestamp":1787139301482}@@It will not even trip the existing --}{++{"author":"Turner's AI","timestamp":1787139301482}@@The ++}typo guard at{--{"author":"Turner's AI","timestamp":1787139301482}@@ course.ts:78-88, which fires only on fields matching /^surve/i ("did you mean 'survey'?"). "facilitator-survey" does not start with "surve". That guard's own comment is the argument for extending it: "a misspelled survey:: would be silently dropped and the survey would never appear. Guard the one field that gates learner-visible behavior."
-
-WHAT THE PLATFORM SIDE NEEDS (three small edits, then this line starts working):
-1.--} course.ts {--{"author":"Turner's AI","timestamp":1787139301482}@@- read `facilitator-survey` alongside `survey`, return a second path, and extend the typo guard--}{++{"author":"Turner's AI","timestamp":1787139301482}@@now contains-matches instead of prefix-matching /^surve/i,++} so facilitatorsurvey:: {--{"author":"Turner's AI","timestamp":1787139301482}@@/--}{++{"author":"Turner's AI","timestamp":1787139301482}@@and++} facilitator_survey:: warn rather than{--{"author":"Turner's AI","timestamp":1787139301482}@@ vanish.
-2. index.ts:895-925 - a second resolution branch reusing the same resolveWikilinkPath + findFileWithExtension + checkTierViolation (a production course must not link a wip survey - note the survey file this points at is currently tagged wip deliberately, so that check should fire until it is promoted).
-3. Python - MeetingMarker gains the second id (core/modules/flattened_types.py:68), github_fetcher reads it, and core/surveys/native.py selects by role instead of the is_participant early-return at lines 88-91 that currently locks facilitators out entirely.
-
-The storage side is already done: SurveyKind is student|facilitator (core/enums.py:216) and survey_responses.kind exists, so a native facilitator response has a home the moment one can be authored.<<}--}{++{"author":"Turner's AI","timestamp":1787139301482}@@ vanish silently.<<}++}
+The typo guard at course.ts now contains-matches instead of prefix-matching /^surve/i, so facilitatorsurvey:: and facilitator_survey:: warn rather than vanish silently.<<}
 
 # Module: [[../modules/IABIED M5 Facing The Challenge, Part 1]]
 
 # Meeting: Facing the Challenge, part 1
 meeting-doc-template:: https://docs.google.com/document/d/1dW_VlZoAn6eLR0_ZY8XvQvRoVvr51a23XAXMAnH_bSI/edit
-survey:: [[../surveys/AIRF Weekly Survey]]{++{"author":"Turner's AI","timestamp":1787059010432}@@
-facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]++}
+survey:: [[../surveys/AIRF Weekly Survey]]
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 {>>{"author":"AI","timestamp":1786279506695}@@Course reduced from 6 meetings to 5. Units: M1 | M2+M3 | M4 | M5 | M6+M7, one meeting after each unit. All five meeting docs were updated for these boundaries on 2026-08-09; the old unit-4 doc (19-KJb0ZEVlVYJoVMOnY5xbAm6UJdynAFM0nm7NSg9dg) is retired.<<}
 
 # Module: [[../modules/IABIED M6 Facing The Challenge, Part 2]]
@@ -81,8 +70,8 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]++}
 
 # Meeting: Facing the Challenge, part 2
 meeting-doc-template:: https://docs.google.com/document/d/1rewnfH3QqcK_WhwD2i1ylfVyldH3sXb6eA45dDeQJ6M/edit?tab=t.0#heading=h.by5wcelvjnsd
-survey:: [[../surveys/AIRF Session 5 Survey]]{++{"author":"Turner's AI","timestamp":1787059013495}@@
-facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]++}
+survey:: [[../surveys/AIRF Session 5 Survey]]
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 {>>{"author":"Turner's AI","timestamp":1786705668364}@@Meeting 5 was serving the generic AIRF Weekly Survey, same as meetings 2-4. That made the Session 1 intake a baseline with no endline: its four impact scales (risk_seriousness, agency_belief, motivation, next_step_clarity) were never asked again, even though the intake tells the learner in writing "We ask the same things again at the end, so the value is in the change, not the score." Repointed to the new AIRF Session 5 Survey, which re-asks all four under the SAME keys so a per-user pre/post delta is a straight join on user_id across meeting 1 and meeting 5. Also carries navigator feedback (quantitative + free text), the recommend score, and the next-cohort MORE/LESS questions ported from the old Week 6 Google Form. Dropped from that form: the Discord-handle question (the native survey already knows who is answering, which is the whole reason we moved off Forms) and the BlueDot question (already captured at intake as bluedot_history). NOTE the recommend score is 1-10, not the 0-10 of a textbook NPS: the platform's rating segments validate 1 <= value <= scale with MAX_RATING_SCALE = 10, so 0 is not expressible. Adjust any NPS formula accordingly, or read it as a 10-point recommend score.<<}
 
