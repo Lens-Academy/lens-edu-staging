@@ -97,7 +97,7 @@ No. "More advanced" doesn't mean "omniscient," and this seems like a number that
 
 But one thing we *wouldn't* say is, "Oh, well, hydrogen atoms are very light, really, and probably the aliens will overlook that, so they will probably guess low by around 10 percent." If we can think of that point, *so can the aliens*. All of our brilliant insights should already be incorporated into their calculation.
 
-Put another way: The aliens' estimate *will* be off. But we ourselvescannot expect to predict the*way* in which the alien estimate will be wrong. We don't know whether it would be too high or too low. The extremely advanced aliens won't make science mistakes that are obvious to *us.* We should grant the aliens that much respect — like the respect we'd grant to Magnus Carlsen in chess.
+Put another way: The aliens' estimate *will* be off. But we {--{"author":"Luc's AI","timestamp":1787161718753}@@ourselvescannot--}{++{"author":"Luc's AI","timestamp":1787161718753}@@ourselves cannot++} expect to predict {--{"author":"Luc's AI","timestamp":1787161718753}@@the*way*--}{++{"author":"Luc's AI","timestamp":1787161718753}@@the *way*++} in which the alien estimate will be wrong. We don't know whether it would be too high or too low. The extremely advanced aliens won't make science mistakes that are obvious to *us.* We should grant the aliens that much respect — like the respect we'd grant to Magnus Carlsen in chess.
 
 In economics, the corresponding idea that applies to asset price changes is — unfortunately, in our own opinion — called the "efficient market hypothesis."
 

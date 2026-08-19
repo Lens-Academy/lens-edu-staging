@@ -196,10 +196,10 @@ Classical learning theory assumes each parameter setting corresponds to a unique
 Sumio Watanabe's Free Energy Formula makes this intuitive tradeoff mathematically precise:
 
 $$
-F_n approx n L_n (w) + lambda log n
+F_n {--{"author":"Luc's AI","timestamp":1787161761288}@@approx--}{++{"author":"Luc's AI","timestamp":1787161761288}@@\approx++} n {--{"author":"Luc's AI","timestamp":1787161761288}@@L_n (w)--}{++{"author":"Luc's AI","timestamp":1787161761288}@@L_n(w)++} + {--{"author":"Luc's AI","timestamp":1787161761288}@@lambda log--}{++{"author":"Luc's AI","timestamp":1787161761288}@@\lambda \log++} n
 $$
 
-The first term rewards accuracy:    $n L_n (w^)$ measures how well the algorithm fits the training data. Algorithms with lower loss get lower free energy, making them more probable.
+The first term rewards accuracy:    $n {--{"author":"Luc's AI","timestamp":1787161761508}@@L_n (w^)$--}{++{"author":"Luc's AI","timestamp":1787161761508}@@L_n(\hat{w})$++} measures how well the algorithm fits the training data. Algorithms with lower loss get lower free energy, making them more probable.
 
 The second term penalizes complexity: $lambda log n$ measures the algorithmic complexity penalty. Here $lambda$ is the Real Log Canonical Threshold - the number of "effective parameters" needed to specify this particular algorithm within the neural network architecture. Algorithms requiring more effective parameters get higher free energy, making them less probable.
 

@@ -77,7 +77,7 @@ I model affordability and passing separately. I fit a logistic curve to the pass
 
 Multiplying the pass rate logistic and affordability logistic gives the probability that a task at some length will both pass and be affordable:
 
-\\(P(\\text{pass } \\& \\text{ afford}) = P(\\text{afford} \\mid \\text{pass}) \\cdot P(\\text{pass})\\)
+{--{"author":"Luc's AI","timestamp":1787161760777}@@\\(P(\\text{pass--}{++{"author":"Luc's AI","timestamp":1787161760777}@@$P(\text{pass++} } {--{"author":"Luc's AI","timestamp":1787161760777}@@\\& \\text{--}{++{"author":"Luc's AI","timestamp":1787161760777}@@\& \text{++} afford}) = {--{"author":"Luc's AI","timestamp":1787161760777}@@P(\\text{afford} \\mid \\text{pass}) \\cdot P(\\text{pass})\\)--}{++{"author":"Luc's AI","timestamp":1787161760777}@@P(\text{afford} \mid \text{pass}) \cdot P(\text{pass})$++}
 
 The affordable 50% time horizon is the longest task length at which p(pass & afford) is greater than or equal to 50%.
 
