@@ -183,7 +183,9 @@ At the first stage, the players have to state their demands while both anticipat
 
 **Proposition 7.9.** Consider the class of SPE strategies in which for some $a \in A$ the threats $a^*(x) = a$, $x \notin S$, and the players play the $H$-essential equilibrium $x = N(S, d(a))$ at the first stage. Then these strategies are SPE strategies if and only if $a \in A^N$. Moreover, the set of SPE outcomes consists of the set of compatible demands (or agreements)
 
-$$\left\{ x \in S \mid x = N(S, d(a^N)), \; a^N \in A^N \right\}. \tag{7.5}$$
+{--{"author":"Luc's AI","timestamp":1787133821305}@@$$\left\{--}{++{"author":"Luc's AI","timestamp":1787133821305}@@$$
+\left\{++} x \in S \mid x = N(S, d(a^N)), \; a^N \in A^N \right\}. {--{"author":"Luc's AI","timestamp":1787133821305}@@\tag{7.5}$$--}{++{"author":"Luc's AI","timestamp":1787133821305}@@\tag{7.5}
+$$++}
 
 From this results it follows that the ability (not) to commit has a huge impact on the type of results that can be obtained. First, at the heart of Nash's variable-threat game lies the assumption of irrevocable commitment to the ex-ante specified threats $a^* \in A$. However, note that in general the SPE disagreement actions of theorem 7.2 do not constitute a Nash equilibrium of the disagreement game, i.e. $a^* \notin A^N$, as is clearly demonstrated by example 7.24.
 
@@ -309,7 +311,9 @@ Since equilibrium strategies require that a Nash equilibrium is played in case o
 
 **Proposition 7.21.** Let $a^N \in A^N$, $t(\sigma)$ be even and $s^* \in E_1(\delta)$. The strategies of table 7.4 are SPE if and only if
 
-$$\left( 1 - \delta^{t(\sigma)} \right) d\left(a^N\right) + \delta^{t(\sigma)} s^* \geq \left( x_1^*(\delta, (n_1, N_2)), \; x_2^*(\delta, (N_1, n_2)) \right). \tag{7.6}$$
+{--{"author":"Luc's AI","timestamp":1787133821541}@@$$\left(--}{++{"author":"Luc's AI","timestamp":1787133821541}@@$$
+\left(++} 1 - \delta^{t(\sigma)} \right) d\left(a^N\right) + \delta^{t(\sigma)} s^* \geq \left( x_1^*(\delta, (n_1, N_2)), \; x_2^*(\delta, (N_1, n_2)) \right). {--{"author":"Luc's AI","timestamp":1787133821541}@@\tag{7.6}$$--}{++{"author":"Luc's AI","timestamp":1787133821541}@@\tag{7.6}
+$$++}
 
 Note that in case of uniqueness we automatically have that $t(\sigma) = 0$ and $s^*$ coincides with the unique SPE outcome.
 
