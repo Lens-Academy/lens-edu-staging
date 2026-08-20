@@ -8,12 +8,16 @@ title: Lens duration demo
 
 The default: the platform estimates each lens's time badge from its content (word count / 200 wpm + video length, plus tutor time when the lens has chat, question, or roleplay segments) and sums the badges into the module total.
 
-The field:
-- `duration_minutes` (lens frontmatter, or `duration_minutes::` on an inline lens): the author's total expected completion time in minutes, including reading, watching, and tutor conversations. When set, it replaces the computed estimate everywhere the time shows (course page, module page, sidebar, resource cards). When absent, the computed estimate applies. Positive whole minutes only, up to 600; an invalid value is a validation error and the computed estimate stays in effect.
+The {--{"author":"Elias's AI","timestamp":1787253301886}@@field:
+- `duration_minutes`--}{++{"author":"Elias's AI","timestamp":1787253301886}@@fields++} (lens frontmatter, or {--{"author":"Elias's AI","timestamp":1787253301886}@@`duration_minutes::`--}{++{"author":"Elias's AI","timestamp":1787253301886}@@`field::`++} on an inline lens):{++{"author":"Elias's AI","timestamp":1787253301886}@@
+- `reading_minutes` + `tutor_minutes`:++} the author's {--{"author":"Elias's AI","timestamp":1787253301886}@@total expected completion--}{++{"author":"Elias's AI","timestamp":1787253301886}@@estimate split into content++} time {--{"author":"Elias's AI","timestamp":1787253301886}@@in minutes, including reading, watching,--}{++{"author":"Elias's AI","timestamp":1787253301886}@@(reading, watching, on-page work)++} and {++{"author":"Elias's AI","timestamp":1787253301886}@@AI-tutor time (chats, question feedback, roleplays). Preferred, because the platform displays the two parts separately. Either may stand alone; the missing part stays estimated. `tutor_minutes: 0` states there is no real ++}tutor {--{"author":"Elias's AI","timestamp":1787253301886}@@conversations. --}{++{"author":"Elias's AI","timestamp":1787253301886}@@work.
+- `duration_minutes`: the author's one-number total, shown as a plain badge. Use when a split would be false precision. Never combine it with the split fields (validation error).
 
-Set it on nearly every lens. Estimate what a typical learner actually needs from start to finish, and round to a friendly number. The computed fallback badly under-counts lenses whose work lives outside the page text, such as external readings or exercises.
+++}When set, {--{"author":"Elias's AI","timestamp":1787253301886}@@it replaces--}{++{"author":"Elias's AI","timestamp":1787253301886}@@authored values replace++} the computed estimate everywhere the time shows (course page, module page, sidebar, resource cards). When absent, the computed estimate applies.{--{"author":"Elias's AI","timestamp":1787253301886}@@ Positive whole minutes only,--}{++{"author":"Elias's AI","timestamp":1787253301886}@@ Whole minutes,++} up to 600; an invalid value is a validation error and the computed estimate stays in effect.
 
-The two lenses below show the field and the fallback. %%
+Set {--{"author":"Elias's AI","timestamp":1787253301886}@@it--}{++{"author":"Elias's AI","timestamp":1787253301886}@@an estimate++} on nearly every{--{"author":"Elias's AI","timestamp":1787253301886}@@ lens. Estimate what a typical learner actually needs from start to finish, and round to --}{++{"author":"Elias's AI","timestamp":1787253301886}@@ lens, and re-estimate whenever you change ++}a {--{"author":"Elias's AI","timestamp":1787253301886}@@friendly number.--}{++{"author":"Elias's AI","timestamp":1787253301886}@@lens.++} The computed fallback badly under-counts lenses whose work lives outside the page text, such as external readings or exercises.
+
+The {--{"author":"Elias's AI","timestamp":1787253301886}@@two--}{++{"author":"Elias's AI","timestamp":1787253301886}@@three++} lenses below show the {--{"author":"Elias's AI","timestamp":1787253301886}@@field--}{++{"author":"Elias's AI","timestamp":1787253301886}@@total form, the split form,++} and the fallback. %%
 
 # Lens: Lens with an authored duration
 id:: c025bf28-ac92-4909-80f5-f8837abc663f
