@@ -1,7 +1,7 @@
 ---
-id: 550d735c-5f7a-4d2e-b95d-1d0859ffa4ee{++{"author":"Elias's AI","timestamp":1787256230084}@@
+id: 550d735c-5f7a-4d2e-b95d-1d0859ffa4ee
 reading_minutes: 20
-tutor_minutes: 5++}
+tutor_minutes: 5
 summary_for_tutor: "Decomposes intelligence into prediction (objective, converges across capable systems) and steering (subjective, a free parameter set by goals). Prediction quality can be scored objectively and multiple capable minds converge toward similar conclusions. Steering does not converge: two equally skilled generals may pursue opposite objectives. Making AI more capable improves prediction automatically, but steering does not automatically aim at human-desired destinations."
 title: More on Intelligence as Prediction and Steering
 tldr: "Split intelligence in two: predicting the world, and steering it somewhere. Prediction converges, because capable minds tend to agree about facts. Steering does not, because two brilliant generals can want opposite things. Making an AI more capable sharpens its prediction automatically, but never aims its steering at us."

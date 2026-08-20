@@ -1,7 +1,7 @@
 ---
-id: a2b3c4d5-e6f7-4a89-b012-c3d4e5f6a7b8{++{"author":"Elias's AI","timestamp":1787256193780}@@
+id: a2b3c4d5-e6f7-4a89-b012-c3d4e5f6a7b8
 reading_minutes: 15
-tutor_minutes: 15++}
+tutor_minutes: 15
 summary_for_tutor: "Teaches the prediction-plus-steering definition of intelligence, the concept of generality, and the distinction between predictive competence and steering goals from the first part of Chapter 1. Students explain the two components, why cross-domain generality matters, and why intelligent minds can predict equally well while pursuing different destinations."
 title: "Define Intelligence"
 tldr: Intelligence combines predicting and steering across domains. Better predictions can converge, while the destinations minds pursue can still differ.

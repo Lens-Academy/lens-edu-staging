@@ -1,7 +1,7 @@
 ---
-id: '9daa6d44-ce5d-433a-ae60-641514b2f870'{++{"author":"Elias's AI","timestamp":1787256306772}@@
+id: '9daa6d44-ce5d-433a-ae60-641514b2f870'
 reading_minutes: 30
-tutor_minutes: 5++}
+tutor_minutes: 5
 title: "Capabilities Generalize Further"
 tldr: A system that gets much more capable carries its competence into new situations. The leash you put on it does not come along.
 summary_for_tutor: "Pre-question asks the student to predict which of two things transfers better to a new situation, competence or the constraints we trained in. Then Soares on the sharp left turn. One mirror, no grade."

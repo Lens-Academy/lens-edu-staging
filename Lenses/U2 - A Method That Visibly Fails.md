@@ -1,7 +1,7 @@
 ---
-id: 'b056a45b-7583-41f0-96a3-8ae48ca766fe'{++{"author":"Elias's AI","timestamp":1787256137038}@@
+id: 'b056a45b-7583-41f0-96a3-8ae48ca766fe'
 reading_minutes: 25
-tutor_minutes: 20++}
+tutor_minutes: 20
 title: "A Method That Visibly Fails"
 tldr: Ask researchers what fraction of the problem they have solved, extrapolate the rate, and you get 372 years. Nobody believes it, including the people who gave the estimates. A method whose failure you can see is worth more than a method whose failure stays hidden.
 summary_for_tutor: "Teaches functional-form assumptions through a worked method that produces an absurd number. Xu and Shulman on fractional progress estimates; the 372-year figure is the teaching object. The point is not that the method is bad, it is that the residual is adversely selected, so linear extrapolation of a self-selecting remainder is wrong in a predictable direction. Feeds directly into the nonlinear-interactions workshop lens that follows."

@@ -2,7 +2,7 @@
 id: 'a437d1e1-46b1-4677-bb9c-b2358b02143c'
 title: "1.0 Introduction: what kind of policy are we trying to verify?"
 tldr: "Faithful alpha import of XLab lesson 1.0 Introduction: what kind of policy are we trying to verify?."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257456953}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257456953}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257456953}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257456953}@@ XLab."++}
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
 tags: [wip]
 ---
 #### Text
@@ -35,11 +35,9 @@ Each claim and rule are built from the following four ingredients:
 - Activities: what actors do with objects. Acquisition, training, research, deployment, transfer.
 - Conditions: the qualifiers that make the claim precise. Thresholds, locations, purposes, exceptions, time periods.
 
-{--{"author":"Elias's AI","timestamp":1787257108864}@@**Example**
-
---}{++{"author":"Elias's AI","timestamp":1787257108864}@@:::callout {title="Example" tone="blue"}
-++}Between January and June 2029 (condition), Microsoft (actor) ran no training job (activity) above 10²⁶ FLOP (condition) on the clusters at its Iowa data centers (objects).{++{"author":"Elias's AI","timestamp":1787257108864}@@
-:::++}
+:::callout {title="Example" tone="blue"}
+Between January and June 2029 (condition), Microsoft (actor) ran no training job (activity) above 10²⁶ FLOP (condition) on the clusters at its Iowa data centers (objects).
+:::
 
 Each rule and claim is inherently a proxy: a workable but imprecise substitute for an unworkable but precise goal. The imperfection of proxies, however, risks losing specificity, coverage, and nuance. Motivated actors can exploit loopholes in rules, such that they technically present verifiable claims while actually undermining its underlying goal. The goal may erode the rule itself: see 
 **Term**

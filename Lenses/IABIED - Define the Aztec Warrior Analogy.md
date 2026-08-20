@@ -1,7 +1,7 @@
 ---
-id: 9b2e4d7c-5f8a-4e1b-a6d3-8a7f1e9b5d03{++{"author":"Elias's AI","timestamp":1787256627393}@@
+id: 9b2e4d7c-5f8a-4e1b-a6d3-8a7f1e9b5d03
 reading_minutes: 20
-tutor_minutes: 15++}
+tutor_minutes: 15
 summary_for_tutor: "Main Lens for Chapter 6, section 1. Students explain the Aztec warrior analogy and use it to articulate why capability asymmetry alone is sufficient to predict the outcome of a human-AI conflict, without needing to know the mechanism."
 title: "Define the Aztec Warrior Analogy"
 tldr: The Aztecs couldn't have imagined guns. But the boat was big enough. Chapter 6 applies this logic to superintelligent AI.

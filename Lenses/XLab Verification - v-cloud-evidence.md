@@ -2,7 +2,7 @@
 id: 'eaadd7dc-7ba4-4cff-aa7c-6ad4e95f1a50'
 title: "2.2.4 Interpreting cloud evidence"
 tldr: "Faithful alpha import of XLab lesson 2.2.4 Interpreting cloud evidence."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257252212}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257252212}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257252212}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257252212}@@ XLab."++}
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
 tags: [wip]
 ---
 #### Text

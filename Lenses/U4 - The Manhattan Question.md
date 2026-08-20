@@ -1,7 +1,7 @@
 ---
-id: 'f51a8a69-8f6f-4deb-839f-18b551177162'{++{"author":"Elias's AI","timestamp":1787256284719}@@
+id: 'f51a8a69-8f6f-4deb-839f-18b551177162'
 reading_minutes: 25
-tutor_minutes: 5++}
+tutor_minutes: 5
 title: "The Manhattan Question"
 tldr: Many people in Washington now call for a government AGI project. Would such a project make catastrophe more likely, or less? You take a side before the forecasters do.
 summary_for_tutor: "Fourth lens of Unit 4. The student commits to a side on whether a US national AGI project makes catastrophe more or less likely and names their load-bearing mechanism, then reads the IAPS forecasting piece arguing such a project is neither inevitable nor a good idea. One mirror, no grade."

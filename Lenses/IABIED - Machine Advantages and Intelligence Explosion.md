@@ -1,7 +1,7 @@
 ---
-id: b3c4d5e6-f7a8-4b90-c123-d4e5f6a7b8c9{++{"author":"Elias's AI","timestamp":1787256195648}@@
+id: b3c4d5e6-f7a8-4b90-c123-d4e5f6a7b8c9
 reading_minutes: 15
-tutor_minutes: 15++}
+tutor_minutes: 15
 summary_for_tutor: "Teaches the second half of Chapter 1's case that machine minds can surpass biological brains and that AI-assisted AI research could accelerate into an intelligence explosion. Students forecast whether current limitations will persist, read the authors' structural argument, then distinguish uncertainty about the path and timing from the case for the endpoint."
 title: "Machine Advantages and Intelligence Explosion"
 tldr: Machines need not think like us to overtake us. Speed, copying, scale, and AI-assisted AI research could push capability far beyond biology.
