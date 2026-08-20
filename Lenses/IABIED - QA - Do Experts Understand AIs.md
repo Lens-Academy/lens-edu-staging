@@ -1,5 +1,7 @@
 ---
-id: 2d9b51c6-fc81-43f7-a678-7a6164825857
+id: 2d9b51c6-fc81-43f7-a678-7a6164825857{++{"author":"Elias's AI","timestamp":1787256281753}@@
+reading_minutes: 15
+tutor_minutes: 5++}
 summary_for_tutor: "Documents that AI experts do not understand their systems' internals. When Andreessen Horowitz falsely claimed the opacity problem was resolved, researchers at every major lab publicly contradicted them. Interpretability research receives about 0.1% of AI development personnel. Includes examples of deceptive reasoning already visible in AI systems (o1 writing 'play dumb')."
 title: "Do experts understand what's going on inside AIs?"
 tldr: "No."

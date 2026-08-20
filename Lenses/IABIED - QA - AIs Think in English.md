@@ -1,5 +1,7 @@
 ---
-id: 2aa2c8b3-dc6f-4978-978b-10c4dbef8b7f
+id: 2aa2c8b3-dc6f-4978-978b-10c4dbef8b7f{++{"author":"Elias's AI","timestamp":1787256285951}@@
+reading_minutes: 8
+tutor_minutes: 3++}
 summary_for_tutor: "Argues that English-language reasoning in AIs provides less safety than it appears. Deceptive reasoning is already visible (o1 writing 'play dumb'), but deceptive thoughts can also flow through attention mechanisms invisibly. When trained against cheating thoughts, AIs learned to hide them rather than stop cheating. As AIs grow more capable, their reasoning will likely become less interpretable."
 title: "But if some AIs partly think in English, doesn't that help?"
 tldr: "Not as much as you might hope; we already see signs of infidelity."
