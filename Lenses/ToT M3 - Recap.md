@@ -10,9 +10,9 @@ tags:
 #### Text
 content::
 \## Unit 3 recap: putting the pieces together
-You have finished Unit 3. Two lenses stood behind you. The first linked small, everyday delegations of judgement to a much larger possibility: a gradual loss of human influence that needs no rebellion. The second zoomed in on the evidence about what happens to individual thinking as AI does more of it.
+You have finished Unit 3. {--{"author":"AI","timestamp":1787234596682}@@Two--}{++{"author":"AI","timestamp":1787234596682}@@Several++} lenses stood behind you. The first linked small, everyday delegations of judgement to a much larger possibility: a gradual loss of human influence that needs no rebellion. The second zoomed in on the evidence about what happens to individual thinking as AI does more of it.{++{"author":"AI","timestamp":1787234596682}@@ The third watched that evidence up close, in a lab, as beginners learned to program with AI and fell into metacognitive traps that mostly predate AI itself. The fourth made the strongest case against the worry.++}
 
-Use both lenses to answer the check below in your own words. It asks you to argue the whole unit, not one piece of it.
+Use {--{"author":"AI","timestamp":1787234596682}@@both lenses--}{++{"author":"AI","timestamp":1787234596682}@@all of them++} to answer the check below in your own words. It asks you to argue the whole unit, not one piece of it.
 
 #### Question
 content::
