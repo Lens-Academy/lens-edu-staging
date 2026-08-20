@@ -1,5 +1,7 @@
 ---
-id: 8d9445ee-2905-4d66-8230-6b88cd16af6a
+id: 8d9445ee-2905-4d66-8230-6b88cd16af6a{++{"author":"Elias's AI","timestamp":1787256642812}@@
+reading_minutes: 5
+tutor_minutes: 3++}
 summary_for_tutor: Covers the objection that reckless AI companies will be too incompetent to pose a threat. Uses Volkswagen emissions fraud and Boeing 737 MAX as examples showing corner-cutting is competitively advantageous, not self-defeating. Notes that even the most cautious AI companies are reckless by normal industry standards.
 title: "Won't the most reckless companies naturally be the most incompetent, and thus not a threat?"
 tldr: "Not in general. Corner-cutting is often competitive."
