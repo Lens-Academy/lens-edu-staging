@@ -1,7 +1,7 @@
 ---
-id: beb387a7-0868-44aa-903d-79a26b445171{++{"author":"Elias's AI","timestamp":1787256699249}@@
+id: beb387a7-0868-44aa-903d-79a26b445171
 reading_minutes: 3
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: Covers the deliberate narrative choice to portray the fictional company Galvanic as reasonably cautious. By depicting realistic safety measures (AI supervisors, honeypots) that still fail, the authors prevent readers from dismissing the outcome as mere corporate negligence. Notes this may actually overstate current industry caution.
 title: "Why is Galvanic depicted as being fairly careful?"
 tldr: "To provide a challenge to Sable."

@@ -1,7 +1,7 @@
 ---
-id: '292c5436-f6c7-4eb8-863d-06b14a6bc6dc'{++{"author":"Elias's AI","timestamp":1787256639047}@@
+id: '292c5436-f6c7-4eb8-863d-06b14a6bc6dc'
 reading_minutes: 30
-tutor_minutes: 5++}
+tutor_minutes: 5
 title: One Extinction Scenario (Video)
 tldr: "This unit swaps the book's longest reading for a 30-minute film: the book's own extinction scenario, seen minute by minute through the eyes of ordinary people."
 summary_for_tutor: "Video lens replacing the reading of IABIED Chapters 7-9 (the Sable scenario) in Module 4. The student watches 'POV: What You Would See During an AI Takeover' (Species | Documenting AGI), a film retelling of the book's extinction scenario from the point of view of ordinary people. The lens asks for an emotional reaction and the step they find hardest to believe, then a tutor chat stress-tests that step using M1-M3 mechanisms and bridges to the Coda's path-vs-outcome distinction, which the student reads next. Students who prefer the authors' own telling are pointed to Chapters 7-9 as an alternative."
