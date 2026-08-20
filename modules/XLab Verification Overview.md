@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787219086056}@@---
+{++{"author":"Elias's AI","timestamp":1787219146304}@@---
 id: '76aee160-847f-4d37-8de2-3389142ad7bc'
 slug: xlab-verification-overview
 title: "Course Overview"
@@ -11,7 +11,7 @@ tldr:: This intermediate course develops technical, institutional, and legal jud
 summary_for_tutor:: Orient learners before XLab's numbered curriculum begins. Explain source and alpha status, direct feedback to XLab, then preview course purpose and five-module path. Do not teach later content in detail.
 #### Text
 content::
-## Where this course comes from
+\## Where this course comes from
 
 This is a faithful Lens import of [XLab's Verification course](https://aisafetytracks.com/tracks/verification), an intermediate curriculum on technical, institutional, and legal mechanisms that can make international AI agreements mutually credible and enforceable.
 
