@@ -2,10 +2,10 @@
 id: 'c4105cad-df16-4afd-92ff-9c08bff538f2'
 title: "How AI Offloading Is Different from Earlier Tools"
 tldr: "Earlier tools offloaded narrow tasks we could still check. AI offloads interpretation and judgement, and offers no check independent of itself: even the 'thinking' it shows is its own fluent account, which invites you to judge how it reads instead of whether it is true."
-summary_for_tutor: "Second teaching lens of Unit 1 of 'Thinking about Thinking'. Authored content contrasting earlier offloading tools (which take a narrow task while judgement stays with the user) with AI assistants (which offload interpretation and judgement, hand back complete analyses and recommendations, and offer no check independent of themselves: the visible 'thinking' trace is the AI's own generated account, not a derivation the user can redo; it cites Anthropic's research on Chain-of-Thought faithfulness to ground that claim). Runs {--{"author":"AI","timestamp":1787258598602}@@Recall, Processing, and Learning Question phases.--}{++{"author":"AI","timestamp":1787258598602}@@a merged Check your Understanding discussion, followed by the Learning Question.++} The learning question wedges on a student who compares an AI analysis to using a calculator and believes that reading the AI's shown reasoning counts as checking its working."
-{++{"author":"AI","timestamp":1787259574795}@@reading_minutes: 4
+summary_for_tutor: "Second teaching lens of Unit 1 of 'Thinking about Thinking'. Authored content contrasting earlier offloading tools (which take a narrow task while judgement stays with the user) with AI assistants (which offload interpretation and judgement, hand back complete analyses and recommendations, and offer no check independent of themselves: the visible 'thinking' trace is the AI's own generated account, not a derivation the user can redo; it cites Anthropic's research on Chain-of-Thought faithfulness to ground that claim). Runs a merged Check your Understanding discussion, followed by the Learning Question. The learning question wedges on a student who compares an AI analysis to using a calculator and believes that reading the AI's shown reasoning counts as checking its working."
+reading_minutes: 4
 tutor_minutes: 18
-++}tags:
+tags:
   - wip
 ---
 
