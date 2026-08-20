@@ -16,21 +16,15 @@ content:: **Interactive exercise:** XLab's `mechanism-sort-reveal` widget has no
 
 #### Text
 content::
-Return to your ranking from the beginning of the course.{--{"author":"Elias's AI","timestamp":1787226802948}@@ --}{++{"author":"Elias's AI","timestamp":1787226802948}@@
+Return to your ranking from the beginning of the course.
 
 #### Question
-content:: ++}Choose one mechanism for which later evidence in Module 2 changed your view.{--{"author":"Elias's AI","timestamp":1787226802948}@@ Write brief answers to the following in your notebook:
+content:: Choose one mechanism for which later evidence in Module 2 changed your view. What heuristics did you initially use? What evidence changed your judgment? What question should you have asked earlier? Where was your intuition accurate, and where was it off?
+feedback:: false
 
-- --}{++{"author":"Elias's AI","timestamp":1787226802948}@@ ++}What heuristics did you initially use?{--{"author":"Elias's AI","timestamp":1787226802948}@@
----} What evidence changed your judgment?{--{"author":"Elias's AI","timestamp":1787226802948}@@
----} What question should you have asked earlier?{--{"author":"Elias's AI","timestamp":1787226802948}@@
-
-Pay attention to how your heuristics changed: where --}{++{"author":"Elias's AI","timestamp":1787226802948}@@ Where ++}was your intuition accurate, and where was it off?{++{"author":"Elias's AI","timestamp":1787226802948}@@
-feedback:: false++}
-
-{++{"author":"Elias's AI","timestamp":1787226802948}@@#### Text
+#### Text
 content::
-++}\## Four Metrics of Feasibility
+\## Four Metrics of Feasibility
 
 “Is this mechanism feasible?” is usually too vague to answer beyond an initial intuition check, like you did in 1.0.2. Feasibility depends on myriad factors, including what the mechanism must verify, whom it must cover, where it would operate, how soon it must be deployed, and what level of performance is required. A serious feasibility assessment should answer four connected questions, which you were introduced to at the beginning of Module 2:
 
