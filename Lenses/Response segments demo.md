@@ -9,7 +9,9 @@ summary_for_tutor: Reference page for course creators. It documents shared field
 content::
 \## Response segments work in three places
 
-Use Response segments in:
+{++{"author":"Elias's AI","timestamp":1787221622322}@@A Response segment is an interactive field that collects one learner response, such as written text, a rating, a selection, or a missing phrase.
+
+++}Use Response segments in:
 
 - **Surveys** to collect ungraded responses.
 - **Normal lenses** for practice, reflection, and checks for understanding.
