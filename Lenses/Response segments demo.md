@@ -209,7 +209,52 @@ Optional fields:
 
 Within one FillBlank segment, use either answer-bearing blanks or ungraded `{{blank}}` markers, not both.
 
-\## Grading rules
+\## {++{"author":"Elias's AI","timestamp":1787225036815}@@Number
+
+Use `#### Number` when learner should type a quantity or estimate. Number always renders as numeric input, never slider.
+
+Smallest ungraded version:
+
+> `#### Number`
+> `id:: <uuid>`
+> `content:: How many years until transformative AI?`
+
+Try it:
+
+#### Number
+id:: 8a3ae4f5-4d86-42dc-b126-b293f88a7b61
+content:: How many years until transformative AI?
+
+#### Text
+content::
+Add inclusive `correct-range::` when response should be graded:
+
+> `#### Number`
+> `id:: <uuid>`
+> `content:: Approximately how many million kilometres separate Earth and Sun?`
+> `correct-range:: 147..152`
+> `unit:: million km`
+
+Try it:
+
+#### Number
+id:: 1211df1d-70e8-4b93-a3b6-1ce44460ed1f
+content:: Approximately how many million kilometres separate Earth and Sun?
+correct-range:: 147..152
+unit:: million km
+
+#### Text
+content::
+Optional fields:
+
+- `required:: true`: require response. Defaults to `false`.
+- `unit:: million km`: show unit beside input and store it with response definition. Defaults to no unit.
+- `correct-range:: 147..152`: mark any number from lower through upper endpoint correct. Without it, response is ungraded. Use same number twice, such as `42..42`, when only exact value is correct.
+- `feedback-instructions:: ...`: ask AI to provide learner-facing feedback. Defaults to no AI feedback when omitted.
+
+Number accepts integers, decimals, and negative values. It stores numeric value, not text. Validator should reject reversed or malformed correct ranges.
+
+\## ++}Grading rules
 
 - **Survey:** all Response segment types are ungraded.
 - **Normal lens:** responses may be graded practice or ungraded reflection.
