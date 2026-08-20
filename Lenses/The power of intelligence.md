@@ -1,6 +1,8 @@
 ---
 id: b5690990-21b5-45d0-bc2b-e58449fbf194
-summary_for_tutor: "Covers general intelligence as a uniquely powerful adaptation. Uses the metaphor of 'Squishy Things' to argue that intelligence is a domain-general superpower that enabled humans to dominate despite having no biological weapons. Challenges common dismissals of AI capability by showing intelligence already produced every human achievement from nuclear weapons to moon landings."
+{++{"author":"Elias's AI","timestamp":1787256103624}@@reading_minutes: 8
+tutor_minutes: 5
+++}summary_for_tutor: "Covers general intelligence as a uniquely powerful adaptation. Uses the metaphor of 'Squishy Things' to argue that intelligence is a domain-general superpower that enabled humans to dominate despite having no biological weapons. Challenges common dismissals of AI capability by showing intelligence already produced every human achievement from nuclear weapons to moon landings."
 title: The power of intelligence
 tldr: Humans can fly, split atoms, and rewrite DNA — not because evolution gave us those abilities, but because general intelligence let us invent them. This video explores what makes intelligence unique as a tool, and asks whether the idea of a program that's good at everything is really as strange as it sounds.
 ---

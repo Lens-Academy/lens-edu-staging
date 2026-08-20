@@ -40,7 +40,9 @@ source:: [[../Lenses/AIF - What a Curve Licenses]]
 # Lens: Revision 1
 id:: 6b5aeba9-9a1e-4622-bbd6-59915a64be70
 tldr:: Restate your ten-year model from memory, then change it. What actually moved?
-summary_for_tutor:: "Module-end restatement of the student's day-zero model. Skill practiced: honest revision. No comparison against stored text; reward mechanisms and numbers entering the model, flag identical confidence in new vocabulary."
+summary_for_tutor:: "Module-end restatement of the student's day-zero model. Skill practiced: honest revision. No comparison against stored text; reward mechanisms and numbers entering the model, flag identical confidence in new vocabulary."{++{"author":"Elias's AI","timestamp":1787256106423}@@
+reading_minutes:: 2
+tutor_minutes:: 8++}
 
 #### Question
 content::
