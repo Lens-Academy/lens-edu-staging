@@ -220,7 +220,7 @@ For illustrative purposes, imagine a scenario in which regulations require AI de
 
 Compute providers can also aid regulatory enforcement. By virtue of controlling the AI data centers themselves, providers have the ability to directly deny access to rule-breaking customers, and, therefore, prevent the customer from developing or deploying certain kinds of AI systems with that provider. The compute provider might limit compute resources devoted to workloads that raise red flags pending further investigation. Similarly, record keeping and verification processes could trigger regulatory enforcement measures by other actors, such as the Department of Justice in the US.
 
-![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img7-eb6c315f.png]]
+{--{"author":"Elias's AI","timestamp":1787227232548}@@![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img7-eb6c315f.png]]--}{++{"author":"Elias's AI","timestamp":1787227232548}@@![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img7-eb6c315f.png)++}
 
 Figure 8: The compute provider detects violations by the AI company, e.g., via the verification process, and can take appropriate enforcement actions, such as restricting or limiting access to compute.
 
