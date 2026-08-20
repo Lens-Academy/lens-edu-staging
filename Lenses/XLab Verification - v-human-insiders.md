@@ -140,7 +140,9 @@ Challenges and mitigations:
 
 Table: Types--}{++{"author":"Elias's AI","timestamp":1787219819160}@@to:: Avoiding excess disclosure: Employees could be allowed to disclose only a very small amount of information to the Verifier, as discussed in above footnotes. Further, the Prover and Verifier could jointly state agreed-on, reasonable bounds++} of {--{"author":"Elias's AI","timestamp":1787219819160}@@employees who would have --}{++{"author":"Elias's AI","timestamp":1787219819160}@@protected whistleblowing (including high-level descriptions of potential violations and ++}information {--{"author":"Elias's AI","timestamp":1787219819160}@@about different types--}{++{"author":"Elias's AI","timestamp":1787219819160}@@to investigate further, but excluding digital transfers of Prover models, data, or code outside++} of {--{"author":"Elias's AI","timestamp":1787219819160}@@violations. Personnel-based verification--}{++{"author":"Elias's AI","timestamp":1787219819160}@@a confidentiality-preserving technology). Parties could also agree on what questions or information a Verifier may share with an employee, so that the Prover++} could {--{"author":"Elias's AI","timestamp":1787219819160}@@leverage these--}{++{"author":"Elias's AI","timestamp":1787219819160}@@learn from their++} employees {--{"author":"Elias's AI","timestamp":1787219819160}@@for verification.--}{++{"author":"Elias's AI","timestamp":1787219819160}@@if the Verifier is inappropriately pressuring them to disclose IP.++}
 
-\## Insider Report
+{++{"author":"Elias's AI","timestamp":1787219885387}@@#### Text
+content::
+++}\## Insider Report
 
 Even when the human source is truthful and legally allowed to report, however,
 reporting channels can still fail in various ways, which the next section will
