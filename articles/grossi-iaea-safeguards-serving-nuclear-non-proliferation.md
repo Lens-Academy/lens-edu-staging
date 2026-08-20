@@ -429,13 +429,13 @@ Black and white photograph of a large audience seated in a hall, listening to a 
 
 Black and white photograph of a man in a white lab coat standing in front of a large control panel with many switches and dials.
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig23-2b61495c.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227154862}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig23-2b61495c.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227154862}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig23-2b61495c.jpg)++}
 
 Black and white photograph of people in white lab coats and hard hats working in a desert-like environment, possibly a nuclear waste storage site.
 
 1993
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig24-261f7a5c.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227158228}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig24-261f7a5c.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227158228}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig24-261f7a5c.jpg)++}
 
 A person holding a black digital camera with a screen showing a video feed, likely used for documentation or verification.
 
