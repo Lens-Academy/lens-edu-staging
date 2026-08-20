@@ -78,7 +78,7 @@ source:: [[../Lenses/Article video article demo]]
 
 %% {--{"author":"Elias's AI","timestamp":1787221256075}@@Questions--}{++{"author":"Elias's AI","timestamp":1787221256075}@@Response segments++} use the same syntax in surveys, normal Lenses, and Learning Outcome tests. This Lens explains {--{"author":"Elias's AI","timestamp":1787221256075}@@open-text, rating, choice,--}{++{"author":"Elias's AI","timestamp":1787221256075}@@OpenResponse, Rating, Select,++} and {--{"author":"Elias's AI","timestamp":1787221256075}@@fill-in-the-blank questions.--}{++{"author":"Elias's AI","timestamp":1787221256075}@@FillBlank segments.++} %%
 # Lens:
-source:: [[../Lenses/Question demo]]
+source:: [[../Lenses/Response segments demo]]
 
 %% We also have a roleplay feature, where the user can voice chat with an AI: %%
 # Lens:
