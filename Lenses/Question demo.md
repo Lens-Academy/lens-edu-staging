@@ -51,7 +51,7 @@ Options:
 - {--{"author":"Elias's AI","timestamp":1787220892791}@@`assessment-instructions&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220892791}@@`assessment-instructions::`:++} rubric for AI assessment.
 - {--{"author":"Elias's AI","timestamp":1787220895640}@@`feedback&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220895640}@@`feedback::`:++} whether learner receives AI feedback. Defaults to `true` in lenses and tests.
 
-Surveys do not use `assessment-instructions&#58;&#58;` or `feedback&#58;&#58;`. They store response without grading it.
+Surveys do not use {--{"author":"Elias's AI","timestamp":1787220898065}@@`assessment-instructions&#58;&#58;`--}{++{"author":"Elias's AI","timestamp":1787220898065}@@`assessment-instructions::`++} or {--{"author":"Elias's AI","timestamp":1787220898065}@@`feedback&#58;&#58;`.--}{++{"author":"Elias's AI","timestamp":1787220898065}@@`feedback::`.++} They store response without grading it.
 
 \## Rating
 
@@ -69,7 +69,7 @@ required&#58;&#58; {--{"author":"Elias's AI","timestamp":1787220807924}@@true
 
 Options:
 
-- `scale&#58;&#58;`: integer from 2 to 10. Defaults to 5.
+- {--{"author":"Elias's AI","timestamp":1787220901216}@@`scale&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220901216}@@`scale::`:++} integer from 2 to 10. Defaults to 5.
 - `low-label&#58;&#58;`: optional label below low endpoint.
 - `high-label&#58;&#58;`: optional label below high endpoint.
 
