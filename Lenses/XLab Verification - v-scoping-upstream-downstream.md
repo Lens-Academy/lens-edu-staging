@@ -19,11 +19,15 @@ Your first draft of the central finding reads:
 
 "Enrichment at Fordow is 60 percent U-235, below weapons grade, and the facility's operating records match the declaration."
 
-> **Note**
+{--{"author":"Elias's AI","timestamp":1787226808535}@@> **Note**
 
-Pause before reading on. What is wrong with this sentence? Every clause in it is true.
+--}{++{"author":"Elias's AI","timestamp":1787226808535}@@#### Question
+content:: ++}Pause before reading on. What is wrong with this sentence? Every clause in it is true.{++{"author":"Elias's AI","timestamp":1787226808535}@@
+feedback:: false++}
 
-The problem is provenance. Iran declared the 60 percent figure, and the operating records that "match" it are kept by the Atomic Energy Organization of Iran, which runs the plant. Two sources produced by the same side agreeing with each other is not verification; it is one actor being consistent with itself. Your draft presents that internal consistency as if it were confirmation, and it leaves out the one stream that came from somewhere else.
+{++{"author":"Elias's AI","timestamp":1787226808535}@@#### Text
+content::
+++}The problem is provenance. Iran declared the 60 percent figure, and the operating records that "match" it are kept by the Atomic Energy Organization of Iran, which runs the plant. Two sources produced by the same side agreeing with each other is not verification; it is one actor being consistent with itself. Your draft presents that internal consistency as if it were confirmation, and it leaves out the one stream that came from somewhere else.
 
 Three sources sit upstream of your report, and they do not deserve equal trust:
 
@@ -57,14 +61,18 @@ A report written only as a determination gives the analysts nothing to check. A 
 
 No verification document stands alone. Every source upstream of you was produced by an actor with incentives, and everything you write becomes an upstream source for readers who will weigh your incentives in turn.
 
-> **Note**
+{--{"author":"Elias's AI","timestamp":1787226811290}@@> **Note**
 
-Before writing, answer two questions.
+--}{++{"author":"Elias's AI","timestamp":1787226811290}@@#### Question
+content:: ++}Before writing, answer two {--{"author":"Elias's AI","timestamp":1787226811290}@@questions.--}{++{"author":"Elias's AI","timestamp":1787226811290}@@questions:++}
 
 - Upstream: whose claims does this document rely on, and which of them did I verify myself, rather than inherit from the actor being checked?
-- Downstream: who will act on this document, and what does each reader need in order to act?
+- Downstream: who will act on this document, and what does each reader need in order to act?{++{"author":"Elias's AI","timestamp":1787226811290}@@
+feedback:: false++}
 
-The structure carries over to the compute reports this track is building toward. A future report on a training run rests on the same three layers: the lab's own declaration, the utilization logs kept by the cloud provider that hosted the run, and physical streams that are harder to fake, such as on-chip attestation, chip location tracking, and the facility's measured power draw. The IAEA case is decades ahead of the AI case in practice, which is why it is worth reading closely: the questions an inspector asks of a swipe sample are the questions you will ask of a power meter.
+{++{"author":"Elias's AI","timestamp":1787226811290}@@#### Text
+content::
+++}The structure carries over to the compute reports this track is building toward. A future report on a training run rests on the same three layers: the lab's own declaration, the utilization logs kept by the cloud provider that hosted the run, and physical streams that are harder to fake, such as on-chip attestation, chip location tracking, and the facility's measured power draw. The IAEA case is decades ahead of the AI case in practice, which is why it is worth reading closely: the questions an inspector asks of a swipe sample are the questions you will ask of a power meter.
 
 Sources for this case: IAEA quarterly report to member states, late February 2023, on the 83.7 percent U-235 particles found at Fordow and Iran's explanation; IAEA materials on environmental swipe sampling and safeguards verification.
 
