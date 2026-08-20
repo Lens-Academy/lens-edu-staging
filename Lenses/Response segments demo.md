@@ -83,7 +83,8 @@ Optional fields:
 - `required:: true`: require response. Defaults to `false`.
 - `scale:: 7`: set highest number from 2 to 10. Defaults to `5`.
 - `low-label:: Not confident`: label low endpoint. Defaults to no label.
-- `high-label:: Very confident`: label high endpoint. Defaults to no label.
+- `high-label:: Very confident`: label high endpoint. Defaults to no label.{++{"author":"Elias's AI","timestamp":1787224169943}@@
+- `feedback-instructions:: ...`: ask AI to respond to selected rating. Defaults to no AI feedback when omitted.++}
 
 Ratings are self-reports, not correct or incorrect. In Learning Outcome tests, rating is stored beside graded answers but does not affect test score.
 
@@ -123,7 +124,7 @@ Optional fields:
 - `required:: true`: require response. Defaults to `false`.
 - `multi:: true`: allow multiple selections. Defaults to `false`.
 - `shuffle:: true`: randomize option order. Defaults to `false`.
-- `explanation:: ...`: show fixed explanation after submission. Defaults to no explanation.
+- {--{"author":"Elias's AI","timestamp":1787224174795}@@`explanation::--}{++{"author":"Elias's AI","timestamp":1787224174795}@@`feedback-instructions::++} ...`: {--{"author":"Elias's AI","timestamp":1787224174795}@@show fixed explanation after submission.--}{++{"author":"Elias's AI","timestamp":1787224174795}@@ask AI to respond to learner's selection.++} Defaults to no {--{"author":"Elias's AI","timestamp":1787224174795}@@explanation.--}{++{"author":"Elias's AI","timestamp":1787224174795}@@AI feedback when omitted.++}
 
 Survey selects must use plain list items. Surveys never contain correct-answer markers.
 
