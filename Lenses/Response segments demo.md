@@ -202,9 +202,13 @@ content:: How many years until transformative AI? {{number}}
 
 #### Text
 content::
-Put inclusive correct range after `number` when numeric blank should be graded:
+Put {--{"author":"Elias's AI","timestamp":1787226390549}@@inclusive correct range--}{++{"author":"Elias's AI","timestamp":1787226390549}@@one accepted number++} after `number` {--{"author":"Elias's AI","timestamp":1787226390549}@@when numeric blank should be graded:--}{++{"author":"Elias's AI","timestamp":1787226390549}@@for an exact graded answer:
 
-> `content:: Earth is approximately {{number [147.5, 152.5]}} million km from Sun.`
+> `content:: Six times seven is {{number 42}}.`
+
+Use `to` for an inclusive graded range:++}
+
+> `content:: Earth is approximately {{number {--{"author":"Elias's AI","timestamp":1787226390549}@@[147.5, 152.5]}} million--}{++{"author":"Elias's AI","timestamp":1787226390549}@@147,500,000 to 152,000,000}}++} km from Sun.`
 
 Try it:
 
