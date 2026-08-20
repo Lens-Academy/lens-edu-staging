@@ -63,9 +63,21 @@ content::--}{++{"author":"Elias's AI","timestamp":1787253806184}@@%% OpenRespons
 - `assessment-instructions:: ...`:{--{"author":"Elias's AI","timestamp":1787253806184}@@ give--} AI grading rubric. {--{"author":"Elias's AI","timestamp":1787253806184}@@Without it, response is ungraded.--}{++{"author":"Elias's AI","timestamp":1787253806184}@@Omit for ungraded response.++}
 - `feedback-instructions:: ...`: {--{"author":"Elias's AI","timestamp":1787253806184}@@ask--}{++{"author":"Elias's AI","timestamp":1787253806184}@@learner-facing++} AI{--{"author":"Elias's AI","timestamp":1787253806184}@@ to provide learner-facing--} feedback. {--{"author":"Elias's AI","timestamp":1787253806184}@@Defaults to no AI feedback when omitted.--}{++{"author":"Elias's AI","timestamp":1787253806184}@@Omit for none.++}
 
-{--{"author":"Elias's AI","timestamp":1787253806184}@@`assessment-instructions::`--}{++{"author":"Elias's AI","timestamp":1787253806184}@@Assessment++} controls {--{"author":"Elias's AI","timestamp":1787253806184}@@grading. `feedback-instructions::`--}{++{"author":"Elias's AI","timestamp":1787253806184}@@score; feedback++} controls what learner sees. Surveys never grade{--{"author":"Elias's AI","timestamp":1787253806184}@@ responses,--} but may still {--{"author":"Elias's AI","timestamp":1787253806184}@@use `feedback-instructions::`.--}{++{"author":"Elias's AI","timestamp":1787253806184}@@give feedback.++}
+{--{"author":"Elias's AI","timestamp":1787253806184}@@`assessment-instructions::`--}{++{"author":"Elias's AI","timestamp":1787253806184}@@Assessment++} controls {--{"author":"Elias's AI","timestamp":1787253806184}@@grading. `feedback-instructions::`--}{++{"author":"Elias's AI","timestamp":1787253806184}@@score; feedback++} controls what learner sees. Surveys never grade but may still {--{"author":"Elias's AI","timestamp":1787253806184}@@use `feedback-instructions::`.--}{++{"author":"Elias's AI","timestamp":1787253806184}@@give feedback.++}
 
-{--{"author":"Elias's AI","timestamp":1787253806184}@@\## --}Rating{--{"author":"Elias's AI","timestamp":1787253806184}@@
+{++{"author":"Elias's AI","timestamp":1787253911040}@@Next example adds limits, grading, and feedback. %%
+
+#### OpenResponse
+id:: b8854587-3e8f-471d-b37c-fb63684ecf19
+content:: In two sentences, what is strongest objection?
+max-chars:: 500
+placeholder:: Name claim, then explain objection.
+max-time:: 3:00
+enforce-voice:: false
+assessment-instructions:: Check whether learner names claim and gives relevant objection.
+feedback-instructions:: State strongest part of response, then suggest one improvement.
+
+%% ++}Rating{--{"author":"Elias's AI","timestamp":1787253806184}@@
 
 Use `#### Rating` for --}{++{"author":"Elias's AI","timestamp":1787253806184}@@ collects ++}numbered {--{"author":"Elias's AI","timestamp":1787253806184}@@scale from 1 to 5.
 
