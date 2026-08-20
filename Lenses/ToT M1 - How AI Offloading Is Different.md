@@ -82,8 +82,8 @@ Key concepts the student needs to grasp:
 - Older tools offload narrow computation (arithmetic, routing) while judgement stays with the user
 - AI offloads interpretation and judgement; it returns complete analyses and recommendations
 - The calculator user still understands the task (what a sum means) and can check the result; the AI user often cannot
-- AI is a black box: confident answer, hidden reasoning, polished output that sounds authoritative
-- The student "checking that the sentences looked good" is checking fluency, not truth
+- {--{"author":"AI","timestamp":1787252893904}@@AI--}{++{"author":"AI","timestamp":1787252893904}@@The AI's visible "thinking"++} is {--{"author":"AI","timestamp":1787252893904}@@a black box: confident answer, hidden reasoning, polished output--}{++{"author":"AI","timestamp":1787252893904}@@not its working: it is generated text from the same system++} that {--{"author":"AI","timestamp":1787252893904}@@sounds authoritative--}{++{"author":"AI","timestamp":1787252893904}@@wrote the answer, so reading it is not verifying++}
+- The student {++{"author":"AI","timestamp":1787252893904}@@"reading the reasoning through" and ++}"checking that the sentences looked good" is checking fluency, not truth
 
 The core move to draw out: the comparison fails because with a calculator the judgement stays in the user's hands (they decide what to compute and can verify the arithmetic), while with the AI the judgement about the analysis arrives already made, and the reasoning that could be checked is hidden. If the student claims they checked the AI's answer, ask what they actually checked and how they would verify the three-part analysis against anything independent.
 
