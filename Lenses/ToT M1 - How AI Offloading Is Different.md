@@ -17,7 +17,7 @@ First, AI offloads interpretation and judgement, not just narrow computation. As
 
 Second, the AI offers no check independent of itself. A calculator shows its working on the screen, and you could redo that working by hand. Many AI products now also show a "thinking" trace before the answer. The tools change fast. The structural point does not: that trace is not the working. It is more generated text, written by the same system that wrote the answer. Reading it and finding it sensible tells you how the words read. It does not tell you whether they are true. A visible trace is the subtler trap. With no trace, you know you saw nothing. With a fluent one, you can finish believing you checked something.
 
-In short,arlier tools offloaded work we could still check. AI often offloads work whose only visible check is the AI's own say-so.
+In short, earlier tools offloaded work we could still check. AI often offloads work whose only visible check is the AI's own say-so.
 
 This sets up a question we will return to through the whole course: whether help helps depends on when and how you use it. Offloading is not the problem. Offloading the judgement, without noticing, is closer to it.
 
