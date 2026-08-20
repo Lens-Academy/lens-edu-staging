@@ -209,7 +209,7 @@ Optional fields:
 
 Within one FillBlank segment, use either answer-bearing blanks or ungraded `{{blank}}` markers, not both.
 
-\## {++{"author":"Elias's AI","timestamp":1787225036815}@@Number
+\## {++{"author":"Elias's AI","timestamp":1787225222352}@@Number
 
 Use `#### Number` when learner should type a quantity or estimate. Number always renders as numeric input, never slider.
 
@@ -232,7 +232,7 @@ Add inclusive `correct-range::` when response should be graded:
 > `#### Number`
 > `id:: <uuid>`
 > `content:: Approximately how many million kilometres separate Earth and Sun?`
-> `correct-range:: 147..152`
+> `correct-range:: [147, 152]`
 > `unit:: million km`
 
 Try it:
@@ -240,7 +240,7 @@ Try it:
 #### Number
 id:: 1211df1d-70e8-4b93-a3b6-1ce44460ed1f
 content:: Approximately how many million kilometres separate Earth and Sun?
-correct-range:: 147..152
+correct-range:: [147, 152]
 unit:: million km
 
 #### Text
