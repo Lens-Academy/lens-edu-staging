@@ -121,15 +121,15 @@ content:: France's capital is {{Paris}}.
 - `{{blank}}`: ungraded text.
 - `{{number}}`: ungraded number.
 
-{--{"author":"Elias's AI","timestamp":1787255726689}@@Text matching --}{++{"author":"Elias's AI","timestamp":1787255726689}@@FillBlank grading always uses assessor LLM, never programmatic string comparison. Base prompt ++}is {--{"author":"Elias's AI","timestamp":1787255726689}@@case-sensitive--}{++{"author":"Elias's AI","timestamp":1787255726689}@@forgiving about capitalization, surrounding whitespace, minor misspellings, inflection,++} and {--{"author":"Elias's AI","timestamp":1787255726689}@@always trims surrounding whitespace. No options control this.--}{++{"author":"Elias's AI","timestamp":1787255726689}@@equivalent wording while preserving intended meaning. There are no matching strictness options.
+FillBlank grading always uses assessor LLM, never programmatic string comparison. Base prompt is forgiving about capitalization, surrounding whitespace, minor misspellings, inflection, and equivalent wording while preserving intended meaning. There are no matching strictness options.
 
-Text inside braces gives expected answer to assessor. Several alternatives separated by `|` are hints, not exhaustive whitelist.++} Next example has alternatives and several graded text blanks. %%
+Text inside braces gives expected answer to assessor. Several alternatives separated by `|` are hints, not exhaustive whitelist. Next example has alternatives and several graded text blanks. %%
 
 #### FillBlank
 id:: 115ecd2e-385a-4c90-8964-afc169cb822a
-content:: France's capital is {{Paris}}, while model weights are commonly updated using {{gradient descent|gradient-based optimization}}.{++{"author":"Elias's AI","timestamp":1787255776388}@@
+content:: France's capital is {{Paris}}, while model weights are commonly updated using {{gradient descent|gradient-based optimization}}.
 assessment-instructions:: Give 50 points for each blank whose meaning is correct. Accept minor misspellings and equivalent phrasing.
-feedback-instructions:: Explain any incorrect blank without discussing unrelated material.++}
+feedback-instructions:: Explain any incorrect blank without discussing unrelated material.
 
 %% `{{number}}` creates ungraded numeric input. Next example also shows `optional:: true`. %%
 
