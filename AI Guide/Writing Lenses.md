@@ -6,7 +6,7 @@ tags:
 
 A lens (`Lenses/<Name>.md`) is a **flat file** of frontmatter + `####` segments: no H1–H3 structure, and segment headers take no title (the lens title lives in frontmatter).
 
-Frontmatter: required `id`; optional `title`, `tldr` (one-sentence takeaway, ≤80 words, speaks to the learner; an analogy beats a summary: "Like a parent who knows how babies are made but not what the baby will become"), `summary_for_tutor` (AI-facing: what the lens teaches and how its parts sequence), `tags`, `min_chat_messages` (0–20, gates progression on chat participation), `add_to_ai_context` (injects source material into the tutor's context; use when the tutor must discuss a text the student read elsewhere).
+Frontmatter: required `id`; optional `title`, `tldr` (one-sentence takeaway, ≤80 words, speaks to the learner; an analogy beats a summary: "Like a parent who knows how babies are made but not what the baby will become"), `summary_for_tutor` (AI-facing: what the lens teaches and how its parts sequence), `tags`, `min_chat_messages` (0–20, gates progression on chat participation), {++{"author":"Elias's AI","timestamp":1787225478204}@@`duration_minutes` (1–600, the lens's total expected completion time; replaces the platform's computed time estimate, see "Set duration_minutes on every lens" below), ++}`add_to_ai_context` (injects source material into the tutor's context; use when the tutor must discuss a text the student read elsewhere).
 
 The patterns below come from the **AI Risk Fundamentals** course (`IABIED` prefix, built around *If Anyone Builds It, Everyone Dies*), the current quality bar. Reuse the structure; adapt the content. Read a real example before writing: `Lens Edu/Lenses/IABIED - AI Is Grown, Not Crafted.md` is the canonical reading lens.
 
