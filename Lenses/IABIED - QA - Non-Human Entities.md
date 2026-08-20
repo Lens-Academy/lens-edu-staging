@@ -1,5 +1,7 @@
 ---
-id: 7efc8a65-6260-4a80-9286-6b1732602173
+id: 7efc8a65-6260-4a80-9286-6b1732602173{++{"author":"Elias's AI","timestamp":1787256380960}@@
+reading_minutes: 10
+tutor_minutes: 3++}
 summary_for_tutor: "Covers why the authors' concern about AI is not human-exclusive. They hold broad cosmopolitan values but argue that most possible minds do not endorse cosmopolitanism, so building unaligned superintelligence destroys the diversity cosmopolitan values aim to protect. A superintelligence would have no incentive to preserve humanity."
 title: "Why don't you care about non-human entities?"
 tldr: "We do! We have broad cosmopolitan values. We don't think AIs will fulfill them, and we consider this a great tragedy."

@@ -1,5 +1,7 @@
 ---
-id: d1625486-918b-457d-9adf-2fcbc67bd595
+id: d1625486-918b-457d-9adf-2fcbc67bd595{++{"author":"Elias's AI","timestamp":1787256377172}@@
+reading_minutes: 3
+tutor_minutes: 3++}
 summary_for_tutor: "Covers four reasons kindness is unlikely to emerge from arbitrary AI training: curiosity is not a convergent property of intelligence, human values are contingent on evolutionary history, evolution and gradient descent work very differently, and self-modification could eliminate any initial kindness. Includes extended discussion of the barn-painter problem, alien AI drives, and why surface friendliness provides little evidence of genuine alignment."
 title: "Maybe no matter what goal you train on, you get kindness out?"
 tldr: "Kindness looks contingent on the particulars of our biology and ancestry."

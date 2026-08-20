@@ -1,5 +1,7 @@
 ---
-id: 3dba768a-c3e4-4a7c-8063-9bf1ce403513
+id: 3dba768a-c3e4-4a7c-8063-9bf1ce403513{++{"author":"Elias's AI","timestamp":1787256378936}@@
+reading_minutes: 3
+tutor_minutes: 3++}
 summary_for_tutor: "Examines the Emergent Misalignment paper (Betley et al. 2025) showing that LLMs tuned to write flawed code also exhibit other bad behaviors. Characterizes this as a minor positive update but argues it tells little about superintelligence alignment: the identified 'goodness vector' may not represent genuine goodness, and surface behavioral correlation does not indicate deep motivational alignment."
 title: "What about the experimental result suggesting good behaviors correlate?"
 tldr: "This seems like a positive update, albeit a minor one."
