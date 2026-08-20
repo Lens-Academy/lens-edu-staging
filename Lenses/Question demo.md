@@ -1,6 +1,6 @@
 ---
 id: 8189763f-576e-4f04-a614-4a00c628e386
-title: Question types
+title: {--{"author":"Elias's AI","timestamp":1787221121301}@@Question types--}{++{"author":"Elias's AI","timestamp":1787221121301}@@Response segments++}
 tldr: Use open-text, rating, choice, and fill-in-the-blank questions with the same syntax in surveys, normal lenses, and learning-outcome tests.
 summary_for_tutor: Reference page for course creators. It documents the shared fields, exact syntax, type-specific options, defaults, and grading behavior for Question, Rating, Choice, and FillBlank segments.
 ---
