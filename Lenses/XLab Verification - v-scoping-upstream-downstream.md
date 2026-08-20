@@ -39,9 +39,11 @@ Here the independent stream is decisive. Inspectors swiped surfaces at Fordow an
 
 A revision that keeps each source attached to its claim:
 
-> **Note**
+{--{"author":"Elias's AI","timestamp":1787256937637}@@> **Note**
 
-"Iran declares enrichment at Fordow to 60 percent U-235, and the operating records kept by the Atomic Energy Organization of Iran agree with that declaration. Environmental swipe samples the Agency collected on 22 January 2023 contained particles enriched to 83.7 percent U-235, above the declared level and approaching weapons grade, and inspectors found two IR-6 cascades configured substantially differently from the declaration. Iran attributes the particles to unintended fluctuations while transitioning cascades toward 60 percent production. The Agency has not confirmed that account, and discussions to clarify the matter are ongoing."
+--}{++{"author":"Elias's AI","timestamp":1787256937637}@@:::callout {title="Revised finding" tone="green"}
+++}"Iran declares enrichment at Fordow to 60 percent U-235, and the operating records kept by the Atomic Energy Organization of Iran agree with that declaration. Environmental swipe samples the Agency collected on 22 January 2023 contained particles enriched to 83.7 percent U-235, above the declared level and approaching weapons grade, and inspectors found two IR-6 cascades configured substantially differently from the declaration. Iran attributes the particles to unintended fluctuations while transitioning cascades toward 60 percent production. The Agency has not confirmed that account, and discussions to clarify the matter are ongoing."{++{"author":"Elias's AI","timestamp":1787256937637}@@
+:::++}
 
 The revision is longer and less quotable. In exchange, every claim now carries its source, and a reader can weigh each one against the actor that produced it. That matters because your readers will apply the same test to you.
 
