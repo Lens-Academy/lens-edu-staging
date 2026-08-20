@@ -443,15 +443,15 @@ A person holding a black digital camera with a screen showing a video feed, like
 
 Despite the very challenging circumstances, the IAEA continues to undertake its vital verification role
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig25-dda94879.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227161399}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig25-dda94879.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227161399}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig25-dda94879.jpg)++}
 
 A woman in a white lab coat and glasses working with large silver gas cylinders labeled 'CANBER'.
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig26-bd58b05b.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227165053}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig26-bd58b05b.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227165053}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig26-bd58b05b.jpg)++}
 
 A woman in a white lab coat and a floral face mask holding a small vial with a red cap.
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig27-37919332.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227168866}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig27-37919332.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227168866}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig27-37919332.jpg)++}
 
 A group of people in blue uniforms and hard hats standing in front of a large, damaged industrial building with a tall chimney.
 
