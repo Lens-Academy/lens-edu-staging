@@ -127,11 +127,11 @@ Where is your colleague right, and where does the study itself say otherwise? Se
 
 assessment-instructions:: The student has completed the reading, recall, and reflection phases of the traps lens of Unit 3, and is now in the main discussion phase. The question is a deliberate wedge: blame placed entirely on the tool. The student must concede the fair part and correct the overreach using the study's own structure.
 
-Learning outcome this lens serves: the learner can name the eight metacognitive traps in the novice-programmer study, distinguish the five that predate generative AI from the three it introduced, explain the accelerating-versus-struggling divide, and say why the traps apply to learning new material beyond programming.
+Learning outcome this lens serves: the learner can name the {--{"author":"coder's AI","timestamp":1787266643114}@@eight metacognitive--}{++{"author":"coder's AI","timestamp":1787266643114}@@three new++} traps {--{"author":"coder's AI","timestamp":1787266643114}@@in the novice-programmer study, distinguish the five that predate generative AI from the three it introduced,--}{++{"author":"coder's AI","timestamp":1787266643114}@@AI introduces (Interruption, Mislead, Progression), explain how AI amplifies the five traps they met in Unit 2,++} explain the accelerating-versus-struggling divide, and say why the traps apply to learning new material beyond programming.
 
 Key points the student should be able to make:
 - The colleague is right that Interruption and Mislead are genuinely AI-caused: constant suggestions break concentration, and confident wrong answers steer the approach while offering no check independent of the AI
-- The colleague overreaches: five of the eight traps (Forming, Dislodging, Assumption, Location, Achievement) were documented in 2018, before generative AI. The students brought those traps to the session. The AI amplified them; it did not create them
+- The colleague overreaches: {--{"author":"coder's AI","timestamp":1787266643626}@@five of --}the {--{"author":"coder's AI","timestamp":1787266643626}@@eight--}{++{"author":"coder's AI","timestamp":1787266643626}@@five++} traps (Forming, Dislodging, Assumption, Location, Achievement) were documented in 2018, before generative {--{"author":"coder's AI","timestamp":1787266643626}@@AI.--}{++{"author":"coder's AI","timestamp":1787266643626}@@AI, and taught in Unit 2.++} The students brought those traps to the session. The AI amplified them; it did not create them
 - The two-groups finding is the decisive counterexample: same tool, same task, same session; prepared students used it to accelerate. What differed was the metacognitive skill the student brought, not the tool
 - The accept-rate detail: struggling students accepted more suggestions (34.1% vs 24.5%) because judging the help is itself a skill. Removing the AI removes the temptation, but a learner who cannot tell whether they understand still cannot tell
 - The practical conclusion the study supports: build the metacognition (know where you are in a problem, test your own understanding, be willing to abandon a wrong plan) and use AI in patterns that keep judgement in the loop. That is Unit 4's territory
@@ -144,7 +144,7 @@ What to do in each reply:
 1. If the student asks a direct question, just answer it.
 2. Otherwise, steelman their answer in 2 to 4 sentences; identify 1 to 3 gaps; ask 2 causal follow-up questions (why, how, what if), each directly answerable, no opinion questions.
 
-If the student is missing the core move, draw it out: ask which of the eight traps a 2018 student without Copilot could still fall into; ask why the same tool helped one group and harmed the other; ask what "remove the AI" does for a learner who already cannot tell whether they understand.
+If the student is missing the core move, draw it out: ask which of the {--{"author":"coder's AI","timestamp":1787266644097}@@eight--}{++{"author":"coder's AI","timestamp":1787266644097}@@five Unit 2++} traps a 2018 student without Copilot could still fall into; ask why the same tool helped one group and harmed the other; ask what "remove the AI" does for a learner who already cannot tell whether they understand.
 
 Calibration summary (on close): name what the student demonstrated; name what remains underdeveloped; give a direct test-readiness verdict tied to the outcome.
 
