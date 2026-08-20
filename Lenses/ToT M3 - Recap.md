@@ -19,7 +19,7 @@ content::
 \## Chapter check
 A friend has read a single article about AI and thinking and now tells you: "The scientists proved that AI makes people stupid. We should stop people using AI assistants entirely."
 
-Using this unit's readings (the Kulveit article and the legal study), respond to your friend. Your answer should do three things: (1) trace the causal chain that links small, everyday delegations of judgement to something much larger; (2) say what the doctor study and the legal study actually found; and (3) judge how strong the evidence is.
+Using this unit's {--{"author":"AI","timestamp":1787234605573}@@readings (the Kulveit article and the legal study), --}{++{"author":"AI","timestamp":1787234605573}@@readings, ++}respond to your friend. Your answer should do {--{"author":"AI","timestamp":1787234605573}@@three--}{++{"author":"AI","timestamp":1787234605573}@@four++} things: (1) trace the causal chain that links small, everyday delegations of judgement to something much larger; (2) say what the doctor study and the legal study actually found; {++{"author":"AI","timestamp":1787234605573}@@(3) say what the programmer study found: which traps existed before AI, which ones AI added, and why the traps matter for learning far beyond programming; ++}and {--{"author":"AI","timestamp":1787234605573}@@(3)--}{++{"author":"AI","timestamp":1787234605573}@@(4)++} judge how strong the evidence is.
 
 assessment-instructions:: Chapter check for Unit 3. Score the answer according to the rubric below.
 - Gradual disempowerment (Kulveit and colleagues): humanity slowly loses influence and control as AI becomes embedded in important systems; needs no rebellion and no single takeover moment
