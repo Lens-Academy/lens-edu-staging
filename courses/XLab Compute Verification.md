@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218176349}@@---
+---
 id: '2e6bcfb5-ffc1-4274-a9eb-0dbe3524eb4d'
 slug: xlab-compute-verification
 title: "Compute Verification: XLab Alpha"
@@ -17,4 +17,3 @@ tags: [wip]
 # Module: [[../modules/XLab Verification M3 Covert development]]
 
 # Module: [[../modules/XLab Verification M4 Trust without trust]]
-++}
