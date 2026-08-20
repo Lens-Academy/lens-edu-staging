@@ -189,7 +189,7 @@ items::
 
 %% Add `assessment-instructions::` to grade Ranking. Items are authored in intended order, but shown shuffled. Assessor receives intended order, learner order, base ranking prompt, and custom instructions. It returns percentage plus private reason.
 
-Use graded Ranking for chronology, causal chains, procedures, and prioritization with explicit criterion. State allowed ties or alternate valid orders in assessment instructions. Keep lists around 3 to 7 items. Next example grades procedure while allowing partial credit. %%
+Use graded Ranking for chronology, causal chains, procedures, and prioritization with explicit criterion. State allowed ties or alternate valid orders in assessment instructions. Keep lists around 3 to 7 items. (more or less possible, bu) Next example grades procedure while allowing partial credit. %%
 
 #### Ranking
 id:: 8ea396ee-7e7f-46b8-85ce-179ffe33bdf3
