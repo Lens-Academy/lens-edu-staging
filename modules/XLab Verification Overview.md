@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787219156849}@@---
+{++{"author":"Elias's AI","timestamp":1787219166306}@@---
 id: '76aee160-847f-4d37-8de2-3389142ad7bc'
 slug: xlab-verification-overview
 title: "Course Overview"
@@ -33,15 +33,15 @@ Why verification matters at all. Module connects AI risk and international coord
 
 What exactly must be verified, and by whom? Module compares compute and capability thresholds, tests effectiveness against feasibility, examines anatomy of a pause agreement, and maps actors and leverage across compute supply chain.
 
-### Module 2: Evidence streams
+\### Module 2: Evidence streams
 
 How can compliance produce evidence? Module evaluates hardware, cloud, intelligence, and human or institutional mechanisms by claims they test, evidence they produce, implementation demands, confidentiality costs, and failure modes.
 
-### Module 3: Covert development
+\### Module 3: Covert development
 
 How might technical verification work when parties have limited trust? Module studies assumptions, design choices, adversarial circumvention, and unresolved problems in near-term low-trust compute verification.
 
-### Module 4: Capstone
+\### Module 4: Capstone
 
 What would be enough for three-month emergency pause? Module combines feasibility judgment, research practice, and regime design. Learner must layer imperfect mechanisms, defend choices, state assumptions, and identify residual risk.
 
