@@ -1,5 +1,7 @@
 ---
-id: '71ffbbb9-86a2-4b06-855f-729097642dc0'
+id: '71ffbbb9-86a2-4b06-855f-729097642dc0'{++{"author":"Elias's AI","timestamp":1787256099673}@@
+reading_minutes: 5
+tutor_minutes: 20++}
 title: What a Curve Licenses
 tldr: A colleague shows you a perfect exponential and a fourteen-month forecast. Every fact is true. Your job is to find where the argument outruns the evidence.
 summary_for_tutor: "Closes the module's wedge thread. The student is handed a plausible, correctly-reasoned extrapolation in which every stated fact is true, and must locate the exact step where the argument spends evidence it does not have. Deliberately set inside AI (a coding benchmark) because it is the practice beat; the graded transfer test for this module is set outside AI. Four load-bearing moves, any two of which pass: fit quality is silent about the unobserved range; a score near its ceiling is a different regime; construct stability; and confidence about continuation should come from an outside view on trend breaks, which the student got in the When Progress Jumps lens. A student who says the colleague is lying has misread the setup."

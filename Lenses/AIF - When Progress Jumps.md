@@ -1,5 +1,7 @@
 ---
-id: '1149d855-7192-4a25-9835-6508c1d31fe9'
+id: '1149d855-7192-4a25-9835-6508c1d31fe9'{++{"author":"Elias's AI","timestamp":1787256095694}@@
+reading_minutes: 15
+tutor_minutes: 15++}
 title: When Progress Jumps
 tldr: How often does technology jump a century in one step? You guess first; then the measured base rates.
 summary_for_tutor: "Supplies the outside-view base rate for discontinuous progress, measured rather than argued. The student commits to three guesses (a per-trend-year rate of 100-year jumps, a share of total progress arriving in such jumps, and three technologies they would bet had one) before seeing any figure, then reads the measured answers from AI Impacts, then diffs. CRITICAL for the tutor: the 14 percent figure is progress-weighted. '14 percent of total progress arrived in jumps' and 'a given unit of progress had about a 14 percent chance of arriving in a jump' are BOTH correct and equivalent; the source states both. The wrong readings to catch are event-rate readings: 14 percent of years, steps, or data points being jumps (the measured event rates are 0.1 percent per trend-year and 1.4 percent of data points; the data-point share depends on recording density, so the per-trend-year rate is the canonical one). Earlier versions of our material miscorrected students here by treating the two correct framings as opposites. The lens teaches a two-sided conclusion: jumps are rare (about one per thousand trend-years) and large when present (38 percent of total progress among trends that have any), and those two halves pull a forecast in opposite directions."
