@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218173975}@@---
+---
 id: 'f048ad41-fa3b-4a48-9fc5-6ed923d9bc93'
 slug: xlab-verification-verification-infrastructure
 title: "Module 2: Evidence streams"
@@ -82,4 +82,3 @@ source:: [[../Lenses/XLab Verification - v-human-audits-inspections]]
 
 # Lens:
 source:: [[../Lenses/XLab Verification - v-human-institutions]]
-++}
