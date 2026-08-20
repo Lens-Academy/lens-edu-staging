@@ -1,5 +1,7 @@
 ---
-id: 9f2acee2-c3a8-4b6a-bb3d-f8d9e5deeff5
+id: 9f2acee2-c3a8-4b6a-bb3d-f8d9e5deeff5{++{"author":"Elias's AI","timestamp":1787256219706}@@
+reading_minutes: 5
+tutor_minutes: 3++}
 summary_for_tutor: Covers AI development timelines and the persistent pattern of expert underestimation. Documents how forecasting communities shifted AGI predictions from 2049 to 2037 to 2033 within two years, and how superforecasters dramatically underestimated AI progress on concrete benchmarks like the International Math Olympiad.
 title: "When is this worrisome sort of AI going to be developed?"
 tldr: "Knowing that a technology is coming doesn't grant knowledge of exactly when it's coming."

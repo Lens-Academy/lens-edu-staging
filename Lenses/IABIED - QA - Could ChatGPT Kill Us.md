@@ -1,5 +1,7 @@
 ---
-id: a8935422-f09d-424c-a562-282d3f93e3f1
+id: a8935422-f09d-424c-a562-282d3f93e3f1{++{"author":"Elias's AI","timestamp":1787256215543}@@
+reading_minutes: 5
+tutor_minutes: 3++}
 summary_for_tutor: "Clarifies that the concern is not about current systems like ChatGPT but about the trajectory toward smarter-than-human AI. Notes that every major AI company CEO has explicitly stated the goal of building AGI or superintelligence, backed by hundreds of billions in capital. Emphasizes that the authors' concerns predate recent LLM advances by over a decade."
 title: "Are you suggesting that ChatGPT could kill us all?"
 tldr: "No. The worry is about forthcoming advances in AI."
