@@ -25,9 +25,9 @@ Every answerable segment needs:
 
 Never change `key::` after learners have answered. Stored answers use this key.
 
-\## Open-text question
+\## {--{"author":"Elias's AI","timestamp":1787221145780}@@Open-text question--}{++{"author":"Elias's AI","timestamp":1787221145780}@@Open response++}
 
-Use `#### Question` when learner should type or dictate a response.
+Use `#### {--{"author":"Elias's AI","timestamp":1787221148299}@@Question`--}{++{"author":"Elias's AI","timestamp":1787221148299}@@OpenResponse`++} when learner should type or dictate a response.
 
 <pre><code>#### Question
 key&#58;&#58; strongest_objection
