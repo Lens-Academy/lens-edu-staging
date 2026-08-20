@@ -302,7 +302,8 @@ source:: ![[../Lenses/IABIED - Behavior Is Not Values]]
 id:: e131a5fb-ed8a-4719-842f-1e6ead7f0fe3
 tldr:: Chapter 2's optional Q&As dig into how modern LLMs actually work and what "grown, not crafted" really means: aren't AIs just math, just parroting, just predicting the next token? Skim the few that catch your eye.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 2 (Grown, Not Crafted). Links the book website's supplementary Q&A cards covering gradient descent, whether experts understand AI internals, thinking in English, the "just math" and "just parroting" objections, training-data limits, hallucinations, resource constraints, and the path from LLMs to superintelligence. A navigation and index lens only; it carries no standalone teaching content of its own.
-optional:: true
+optional:: true{++{"author":"Elias's AI","timestamp":1787256180357}@@
+reading_minutes:: 2++}
 
 #### Text
 content::
