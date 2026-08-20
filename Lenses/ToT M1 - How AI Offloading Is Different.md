@@ -34,8 +34,8 @@ Key concepts in the piece:
 - Older tools offload narrow tasks (arithmetic, routing, spelling) while judgement stays with the user
 - AI offloads interpretation and judgement, not just narrow computation
 - AI returns complete analyses, drafts, and recommendations
-- AI is a black box: confident answer, hidden reasoning
-- The one-line difference: older tools offload work we can still check; AI often offloads work we can no longer inspect
+- {--{"author":"AI","timestamp":1787252865145}@@AI--}{++{"author":"AI","timestamp":1787252865145}@@The missing check: the AI's visible "thinking" trace++} is {++{"author":"AI","timestamp":1787252865145}@@its own generated account, not ++}a {--{"author":"AI","timestamp":1787252865145}@@black box: confident answer, hidden reasoning--}{++{"author":"AI","timestamp":1787252865145}@@derivation the user can redo; reading it sensibly is judging fluency, not truth++}
+- The one-line difference: older tools offload work we can still check; AI often offloads work {--{"author":"AI","timestamp":1787252865145}@@we can no longer inspect--}{++{"author":"AI","timestamp":1787252865145}@@whose only visible check is the AI's own say-so++}
 - The teaser: whether help helps depends on when and how you use it
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
