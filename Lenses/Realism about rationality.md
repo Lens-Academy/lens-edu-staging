@@ -1,5 +1,7 @@
 ---
-id: 769fac9b-95bc-4f5c-bf10-fac75d6a0cd6
+id: 769fac9b-95bc-4f5c-bf10-fac75d6a0cd6{++{"author":"Elias's AI","timestamp":1787256445835}@@
+reading_minutes: 10
+tutor_minutes: 3++}
 summary_for_tutor: "Covers 'realism about rationality,' the assumption that intelligence and reasoning are formalizable like momentum rather than messy like evolutionary fitness. Critiques agent foundations research by arguing that neural networks and human cognition are too messy and modular to be captured by idealized rational agent models. Questions whether extrapolating from a coherent-agent model to superintelligence is valid or fundamentally flawed."
 title: Realism about rationality
 tldr: What if the mathematical models used in agent foundations research don't match how real AI systems work? This critique argues that neural networks don't look like the perfectly rational agents in the theory — and that we should focus on the messy reality of current models rather than seeking ideal proofs.
