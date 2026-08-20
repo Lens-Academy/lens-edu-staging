@@ -2,7 +2,7 @@
 id: '3e9c7610-3661-4ac9-b4ee-160932e9d3c9'
 title: "2.3.1 Observable signatures of undeclared AI development"
 tldr: "Faithful alpha import of XLab lesson 2.3.1 Observable signatures of undeclared AI development."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Interactive elements marked as import gaps must be completed on XLab until Lens has an equivalent."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257378741}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257378741}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257378741}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257378741}@@ XLab."++}
 tags: [wip]
 ---
 #### Text
