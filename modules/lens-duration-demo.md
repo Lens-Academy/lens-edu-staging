@@ -33,7 +33,22 @@ This lens has `duration_minutes:: 5`. Its time badge shows 5 min everywhere (cou
 instructions::
 The learner is looking at a demo of the duration_minutes field. Answer questions about how authored durations work; keep replies short.
 
-# Lens: Control lens without an authored duration
+# Lens: {++{"author":"Elias's AI","timestamp":1787253311664}@@Lens with a reading and tutor split
+id:: 3fad77ed-c6a2-4b11-a137-e56a1bb350da
+tldr:: One number hides where the time goes. This lens sets reading_minutes:: 4 and tutor_minutes:: 6, so its badge shows the two parts separately: 4 min of content plus 6 min with the tutor.
+summary_for_tutor:: Demo lens with reading_minutes:: 4 and tutor_minutes:: 6. A Text segment explains the split fields and a Chat segment stands in for the tutor time the author declared.
+reading_minutes:: 4
+tutor_minutes:: 6
+
+#### Text
+content::
+This lens has `reading_minutes:: 4` and `tutor_minutes:: 6`, so its badge shows "4 min + 6 min tutor" instead of one lump. Use the split when the platform should display content time and tutor time separately. Either field also works alone: the part you leave out stays estimated. Setting `tutor_minutes:: 0` states the lens has no real tutor work.
+
+#### Chat
+instructions::
+The learner is looking at a demo of the reading_minutes and tutor_minutes split. Answer questions about how the split works; keep replies short.
+
+# Lens: ++}Control lens without an authored duration
 id:: 6b327d0c-3fc8-47e7-b52b-e0d082f8b9ae
 tldr:: What happens when the author says nothing? Without duration_minutes, the platform falls back to its computed estimate from word count, video length, and tutor time.
 summary_for_tutor:: Control demo lens with no duration_minutes, showing the fallback behavior where the time badge comes from the platform's computed estimate. A Text segment states this and a Chat segment earns the 3-minute tutor floor so a badge actually shows.
