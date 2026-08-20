@@ -223,7 +223,7 @@ Submitting to Athene again, they still received incorrect output. Believing it t
 
 When asked in the post-interview whether they thought Copilot was helpful, they replied, “No, it kept getting in my way when I was trying to think. It was interrupting my thought process.” But when asked about ChatGPT, they replied, ‘It can provide me help as I’m learning code. Chat does some critical thinking about what I’m asking and can understand the problems I’m asking it.” From their comments, they seemed to think that ChatGPT had augmented their critical thinking rather than replaced it, but the data above contradicts that.
 
-![[/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img4-6abf2d23.png]]
+{--{"author":"AI","timestamp":1787234713627}@@![[/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img4-6abf2d23.png]]--}{++{"author":"AI","timestamp":1787234713627}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img4-6abf2d23.png)++}
 
 Figure 4. P8 consulting ChatGPT to find the logic error with their code.
 
@@ -261,7 +261,7 @@ P11 carefully read the prompt and verbalized plans to begin structuring their co
 
 They next decided to update the solution to have variables to track both positive and negative totals and then accepted a Copilot suggestion for series of conditionals below the loop for output. The code compiled, but when run created an infinite loop. After trying to make changes and getting the same result, they sought help from ChatGPT. ChatGPT responded with code and without reading it they added, “only a hint.” This time ChatGPT gave only text and replied that the code was not getting more input inside their loop. After making several ineffectual and unnecessary cosmetic changes, such as indentations, they looked to the problem description again and discovered they had been solving the problem incorrectly.
 
-![[/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img5-3643ed31.png]]
+{--{"author":"AI","timestamp":1787234718699}@@![[/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img5-3643ed31.png]]--}{++{"author":"AI","timestamp":1787234718699}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img5-3643ed31.png)++}
 
 Figure 5. P11 reviews a misleading reply from ChatGPT.
 
