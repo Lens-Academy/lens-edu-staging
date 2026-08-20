@@ -32,7 +32,7 @@ Read this short definition of distributed cognition from The Decision Lab. It na
 #### Article
 source:: [[../articles/the-decision-lab-distributed-cognition]]
 from:: "What goes into making sure a plane takes off in time?"
-to:: "but a new way of viewing how cognition works."
+to:: "but a new way of viewing how cognition works.3"
 
 #### Question
 content::
