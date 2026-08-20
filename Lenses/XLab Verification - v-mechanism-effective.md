@@ -51,16 +51,20 @@ content:: **Interactive exercise:** XLab's `mechanism-sort` widget has no direct
 
 #### Text
 content::
-> **Note**
+{--{"author":"Elias's AI","timestamp":1787226814264}@@> **Note**
 
-As you’re going through this exercise, jot down in your notebook: what were the heuristics you used to evaluate whether a verification mechanism was:
+As you’re going through this exercise, jot down in your notebook: what were the heuristics --}{++{"author":"Elias's AI","timestamp":1787226814264}@@#### Question
+content:: What heuristics did ++}you {--{"author":"Elias's AI","timestamp":1787226814264}@@used--}{++{"author":"Elias's AI","timestamp":1787226814264}@@use++} to evaluate whether a verification mechanism {--{"author":"Elias's AI","timestamp":1787226814264}@@was:
 
-- Technically feasible? → Are there historical verification precedents that have used a similar mechanism? Current technical analogs?
-- Politically feasible? → How difficult would it be to get the U.S. to agree? China? What must remain confidential, no matter what?
-- Effective? → What’s the minimum threshold of confidence or level of evidence a nation-state should have to ensure that a rival is compliant? What must a verifier be able to learn?
-- Durable? → What develops faster, hardware or software?
+- Technically feasible? → Are there historical verification precedents that have used a similar mechanism? Current--}{++{"author":"Elias's AI","timestamp":1787226814264}@@was technically feasible, politically feasible, effective, and durable? Consider historical precedents, current++} technical {--{"author":"Elias's AI","timestamp":1787226814264}@@analogs?
+- Politically feasible? → How difficult would it be to get the U.S. to agree? China? What must remain confidential, no matter what?--}{++{"author":"Elias's AI","timestamp":1787226814264}@@analogues, required political agreement, confidentiality constraints, evidentiary thresholds, and whether hardware or software changes faster.++}
+{--{"author":"Elias's AI","timestamp":1787226814264}@@- Effective? → What’s the minimum threshold of confidence or level of evidence a nation-state should have to ensure that a rival is compliant? What must a verifier be able to learn?--}{++{"author":"Elias's AI","timestamp":1787226814264}@@feedback:: false
 
-\## Swiss Cheese: Layer Imperfect Checks
+#### Text++}
+{--{"author":"Elias's AI","timestamp":1787226814264}@@- Durable? → What develops faster, hardware or software?
+
+--}{++{"author":"Elias's AI","timestamp":1787226814264}@@content::
+++}\## Swiss Cheese: Layer Imperfect Checks
 
 It’s important to take advantage of the unique strengths of each of the layers, while taking into account how they are affected by intersection as well as their specific failure modes. For example, whistleblowers and human signals may be able to give us suspicions on violations, telling us something about the scale and location of those violations. However, these signals are often complementary to the other layers, serving as confirmation or signals on what to investigate rather than independent sources of truth themselves.
 
