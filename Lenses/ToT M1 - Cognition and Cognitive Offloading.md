@@ -27,7 +27,14 @@ But there is a trade-off. Offloading buys time. That time is time not spent prac
 
 Here is the classic example: spellcheck and autocorrect slowly weaken spelling. Nobody makes a decision to give spelling up. It simply happens. Nobody notices the moment the skill leaves.
 
----
+{++{"author":"AI","timestamp":1787255019335}@@Read this short definition of distributed cognition from The Decision Lab. It names the same idea in plainer terms: the mental work of a task is spread across people and tools, not confined to a single head.
+
+#### Article
+source:: [[../articles/the-decision-lab-distributed-cognition]]
+from:: "This is one example of what cognitive scientists call"
+to:: "by extensions of our minds in the external world."
+
+++}---
 
 #### Question
 content::
