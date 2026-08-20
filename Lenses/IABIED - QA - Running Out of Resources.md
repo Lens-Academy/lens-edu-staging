@@ -1,5 +1,7 @@
 ---
-id: cf3f37ce-3fc3-46ab-b693-7f83807b2b1e
+id: cf3f37ce-3fc3-46ab-b693-7f83807b2b1e{++{"author":"Elias's AI","timestamp":1787256393931}@@
+reading_minutes: 5
+tutor_minutes: 3++}
 summary_for_tutor: "Addresses whether AI progress will be bottlenecked by data, power, or funding. Argues probably not: humans run on 100 watts proving efficiency is achievable, AI hardware improves 40% annually in efficiency, and private investment in hundreds of billions makes AI winters unlikely to recur. Computing requirements to reach performance targets halved approximately every 8 months from 2012-2023."
 title: "But won't we run out of data before AI goes all the way? Or electrical power? Or funding?"
 tldr: "Probably not."
