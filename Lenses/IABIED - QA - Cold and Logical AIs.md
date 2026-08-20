@@ -1,5 +1,7 @@
 ---
-id: c900a677-6a2b-4ac0-a192-c6a7927d4c22
+id: c900a677-6a2b-4ac0-a192-c6a7927d4c22{++{"author":"Elias's AI","timestamp":1787256335928}@@
+reading_minutes: 3
+tutor_minutes: 3++}
 summary_for_tutor: Argues that AIs need not be limited to cold logic, just as airplanes fly without flapping wings. Technology routinely accomplishes tasks through novel mechanisms unrelated to human approaches. Compares the assumption that computers must be cold and logical to outdated vitalism about life requiring a special spark.
 title: "Won't AIs inevitably be cold and logical, or otherwise missing some crucial spark?"
 tldr: "No."

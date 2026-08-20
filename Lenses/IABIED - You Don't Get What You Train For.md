@@ -1,5 +1,7 @@
 ---
-id: 5f1a6d4e-7b0c-4274-d895-b0c6d2e47f58
+id: 5f1a6d4e-7b0c-4274-d895-b0c6d2e47f58{++{"author":"Elias's AI","timestamp":1787256330521}@@
+reading_minutes: 25
+tutor_minutes: 15++}
 summary_for_tutor: Main Lens for Chapter 4. Students articulate the ice cream argument, the escalation to sucralose and peacock tail, the Mink vignettes, and the blank-map principle, the alignment problem named and explained.
 title: You Don't Get What You Train For
 tldr: You trained it to be helpful. But helpful in training isn't the same as wanting to be helpful later. Chapter 4 explains why, and it gets worse.

@@ -1,5 +1,7 @@
 ---
-id: b5cd523c-9426-4f3b-93d4-81b098b7f49c
+id: b5cd523c-9426-4f3b-93d4-81b098b7f49c{++{"author":"Elias's AI","timestamp":1787256333637}@@
+reading_minutes: 25
+tutor_minutes: 3++}
 summary_for_tutor: Covers what AI safety evaluations can and cannot achieve. Evals can establish lower bounds on capabilities and assess some misuse risks, but fundamentally cannot establish upper bounds on capabilities, reliably forecast future capabilities, or robustly assess misalignment risks. Warns that a sufficiently misaligned system might exploit evaluation blind spots, and that eval awareness (sandbagging) is already a demonstrated concern.
 title: What AI evaluations for preventing catastrophic risks can and cannot do
 tldr: Evaluations can tell us the floor of what an AI is capable of — but not the ceiling. This paper examines what safety testing can and can't deliver — useful lower bounds on capabilities, yes, but reliable forecasts of future behavior or detection of hidden goals? Not yet.

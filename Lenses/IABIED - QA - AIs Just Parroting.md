@@ -1,5 +1,7 @@
 ---
-id: 57fb3bd9-cdbf-4304-bb1f-8c101489be3e
+id: 57fb3bd9-cdbf-4304-bb1f-8c101489be3e{++{"author":"Elias's AI","timestamp":1787256333735}@@
+reading_minutes: 8
+tutor_minutes: 3++}
 summary_for_tutor: Argues that modern AIs do far more than parrot training data. To predict medical reports accurately, an AI must understand medical reality. AlphaGo Zero surpassed all human Go players through pure self-play with zero human data, and chess engines have taught human masters new strategies. Distinguishes between sophisticated pattern-learning and simple memorization.
 title: "Aren't AIs only able to parrot back what humans say?"
 tldr: "To predict the next token well, LLMs need to learn how the world works."

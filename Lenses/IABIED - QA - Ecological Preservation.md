@@ -1,5 +1,7 @@
 ---
-id: 8dd221f8-d94e-4809-8798-46296ed6ab31
+id: 8dd221f8-d94e-4809-8798-46296ed6ab31{++{"author":"Elias's AI","timestamp":1787256329557}@@
+reading_minutes: 5
+tutor_minutes: 3++}
 summary_for_tutor: Examines whether AI might preserve humanity out of ecological or conservationist instincts. Points out that even human conservation is impure (we protect pandas but would eliminate malaria mosquitoes). Argues any AI preservation drive would be entangled with alien values, potentially leading to modifications like editing out music or loneliness from humans rather than genuine flourishing.
 title: "Won't AI want to keep us happy and healthy for ecological preservation or similar drive?"
 tldr: "The human preference for ecological preservation looks like another weird contingent drive."

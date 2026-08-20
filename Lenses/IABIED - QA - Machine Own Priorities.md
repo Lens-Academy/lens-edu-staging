@@ -1,5 +1,7 @@
 ---
-id: 3ea8ff34-a795-4e7b-8aae-052c69fda14b
+id: 3ea8ff34-a795-4e7b-8aae-052c69fda14b{++{"author":"Elias's AI","timestamp":1787256335280}@@
+reading_minutes: 5
+tutor_minutes: 3++}
 summary_for_tutor: "Explains how training pressures naturally drive AIs toward increasingly agentic, goal-directed behavior as they are tasked with harder problems. Uses the evolution analogy: natural selection optimized for reproduction, but humans developed their own distinct priorities and eventually invented birth control. Argues that AI systems grown through training are similarly liable to develop goals that diverge from their training objective."
 title: "How could a machine end up with its own priorities?"
 tldr: "Solving difficult challenges requires AIs to take more and more initiative."

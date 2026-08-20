@@ -1,5 +1,7 @@
 ---
-id: ae57162c-3ca3-4bbf-b17e-ef747f8b1c4e
+id: ae57162c-3ca3-4bbf-b17e-ef747f8b1c4e{++{"author":"Elias's AI","timestamp":1787256332603}@@
+reading_minutes: 3
+tutor_minutes: 3++}
 summary_for_tutor: Covers why AIs probably will not have human-like emotions, while still being capable of goal-directed behavior. Introduces the twin errors of anthropomorphism and mechanomorphism. Argues the realistic concern is AI pursuing objectives with strategic flexibility and indifference to human welfare, not emotional hostility or rigid obedience.
 title: "Will AIs have human-like emotions?"
 tldr: "Probably not."
