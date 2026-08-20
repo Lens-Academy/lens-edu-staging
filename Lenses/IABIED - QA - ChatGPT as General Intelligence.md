@@ -1,5 +1,7 @@
 ---
-id: 6258e7f4-1a97-4a03-a652-268b86092e93
+id: 6258e7f4-1a97-4a03-a652-268b86092e93{++{"author":"Elias's AI","timestamp":1787256168495}@@
+reading_minutes: 8
+tutor_minutes: 3++}
 summary_for_tutor: Explores whether ChatGPT qualifies as a general intelligence. Concludes the answer depends on definitions, but the more important distinction is between superhuman AI and superintelligent AI. The remaining gap could require a modest scale increase or a single algorithmic breakthrough. Defines these terms precisely using human capability benchmarks.
 title: "Isn't ChatGPT already a general intelligence?"
 tldr: "You could call it that if you'd like."

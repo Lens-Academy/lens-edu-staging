@@ -1,5 +1,7 @@
 ---
-id: ce0bfb7a-a07c-48a0-a998-f529e368d257
+id: ce0bfb7a-a07c-48a0-a998-f529e368d257{++{"author":"Elias's AI","timestamp":1787256170524}@@
+reading_minutes: 5
+tutor_minutes: 3++}
 summary_for_tutor: "Covers the upper bounds of superintelligence permitted by physics: machines could think thousands to billions of times faster than humans, replicate themselves, and share experiences. Even small intelligence advantages compound rapidly, as historical examples like the Spanish conquistadors demonstrate. Superiority spans speed, quality, durability, and replicability."
 title: "How smart could a superintelligence get?"
 tldr: "Very smart."
