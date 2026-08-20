@@ -609,7 +609,7 @@ Attributes ‣ Governing Through the Cloud:The Intermediary Role of Compute Prov
     Deployment in which a trained model is used in an operational setting, e.g., to make new predictions (“inference”).
     
 
-![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img8-9c6f1dfb.png]]
+{--{"author":"Elias's AI","timestamp":1787227237596}@@![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img8-9c6f1dfb.png]]--}{++{"author":"Elias's AI","timestamp":1787227237596}@@![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img8-9c6f1dfb.png)++}
 
 Figure 9: Simplified AI Lifecycle including training, enhancement (e.g., fine-tuning), and deployment (i.e., inference). (Figure from [Sastry et al. 2024](#bib.bib138).)
 
@@ -736,7 +736,7 @@ This section looks at the US as a case study. We examine the Biden Administratio
 
 Unlike proposed US foreign customer identification rules for IaaS providers ([Federal Register 2024](#bib.bib62)), we focus on oversight of only frontier AI model development and deployment, rather than all compute use. While we explore these issues in the US context, similar analyses could also be done for other jurisdictions, like the EU, and in the international context. We encourage further policy analysis in this space.
 
-![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img9-ed8933fb.png]]
+{--{"author":"Elias's AI","timestamp":1787227242516}@@![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img9-ed8933fb.png]]--}{++{"author":"Elias's AI","timestamp":1787227242516}@@![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img9-ed8933fb.png)++}
 
 Figure 2: Additional measures, implemented by the Department of Commerce, would strengthen the intermediary role of compute providers and enable a compute oversight scheme.
 
