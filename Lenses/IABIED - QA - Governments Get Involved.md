@@ -1,7 +1,7 @@
 ---
-id: ab553a4a-66b9-4191-bfe5-9178ebb5fec1{++{"author":"Elias's AI","timestamp":1787256640708}@@
+id: ab553a4a-66b9-4191-bfe5-9178ebb5fec1
 reading_minutes: 3
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: "Covers whether government involvement will improve AI safety. Identifies a diffusion-of-responsibility pattern: policymakers assume companies have things under control, companies assume regulation will handle it, and everyone in positions of power expects someone else to address the problem."
 title: "Won't the situation get better once governments get more involved?"
 tldr: "It depends on how (and how soon) they get involved."

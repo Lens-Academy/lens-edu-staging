@@ -1,7 +1,7 @@
 ---
-id: f2b6d4e8-9a3c-4f71-b850-3d7e1a9c6f04{++{"author":"Elias's AI","timestamp":1787256307977}@@
+id: f2b6d4e8-9a3c-4f71-b850-3d7e1a9c6f04
 reading_minutes: 2
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: Priming question before Chapter 5, section 2. Students consider whether malice is actually necessary to cause serious harm, which sets up the hostile/indifferent distinction.
 title: "Before Reading: Distinguish Hostile from Indifferent AI"
 tldr: Does something need to hate you to be deadly? Before reading, think about what actually causes catastrophic harm, and whether hostility is really the key ingredient.

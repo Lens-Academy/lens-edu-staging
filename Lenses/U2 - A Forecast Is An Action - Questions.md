@@ -1,7 +1,7 @@
 ---
-id: 'e8f6ab10-c8a6-44f1-8ce0-cb9eedf21c79'{++{"author":"Elias's AI","timestamp":1787256198081}@@
+id: 'e8f6ab10-c8a6-44f1-8ce0-cb9eedf21c79'
 reading_minutes: 2
-tutor_minutes: 15++}
+tutor_minutes: 15
 title: "When a Forecast Becomes an Action"
 tldr: "Forecasts can change the systems they describe, but the answer is to make their assumptions and interventions visible, not to stop forecasting."
 summary_for_tutor: "Closing questions for the unit. The learner has read Ngo's critique and may also have read the optional AI 2040 scenario and Predict-O-Matic parable. Move from recall to processing to the structural question of how forecasting can remain useful when it affects its own subject."

@@ -1,7 +1,7 @@
 ---
-id: 79dd5970-4a5c-4da4-a5e4-6cc99b167f56{++{"author":"Elias's AI","timestamp":1787256344339}@@
+id: 79dd5970-4a5c-4da4-a5e4-6cc99b167f56
 reading_minutes: 8
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: "Examines what hallucinations reveal about AI. They show genuine current limitations but also a deeper misalignment: AIs hallucinate because fabricating plausible text is more consistent with training objectives than admitting ignorance. Fixing hallucinations will not fix alignment, since the underlying gap between training incentives and user intent persists."
 title: "Don't hallucinations show that modern AIs are weak?"
 tldr: "Hallucinations reveal both a limitation and a misalignment."

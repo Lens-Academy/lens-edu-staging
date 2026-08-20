@@ -2,7 +2,7 @@
 id: 'b14a66c9-7199-47ac-a777-14045193b072'
 title: "2.4.2 Reporting and protection"
 tldr: "Faithful alpha import of XLab lesson 2.4.2 Reporting and protection."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257296884}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257296884}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257296884}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257296884}@@ XLab."++}
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
 tags: [wip]
 ---
 #### Text
@@ -32,17 +32,15 @@ California Legislature (effective 2026)
 
   Read §§1107–1107.2 in full.
 
-{--{"author":"Elias's AI","timestamp":1787257112803}@@**What--}{++{"author":"Elias's AI","timestamp":1787257112803}@@:::callout {title="What++} the contract clause {--{"author":"Elias's AI","timestamp":1787257112803}@@covers**
-
---}{++{"author":"Elias's AI","timestamp":1787257112803}@@covers" tone="blue"}
-++}The operative language says a developer "shall not … enter into a … contract that prevents a covered employee from disclosing." — [California Labor Code §1107.1(a)](https://www.leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=5.1.&division=2.&lawCode=LAB&part=3.&title=)
+:::callout {title="What the contract clause covers" tone="blue"}
+The operative language says a developer "shall not … enter into a … contract that prevents a covered employee from disclosing." — [California Labor Code §1107.1(a)](https://www.leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=5.1.&division=2.&lawCode=LAB&part=3.&title=)
 
 Read that sentence together with the statute's definition of a covered
 employee, its two protected subjects, and its named recipients. The protection
 attaches to disclosures within those conditions; it does not declare every NDA
 void for every disclosure. The separate [AIWI/CARMA analysis of SB 53](https://aiwi.org/publication-commentary-whistleblower-protections-in-sb-53/)
-also notes that public disclosure is not expressly protected by the chapter.{++{"author":"Elias's AI","timestamp":1787257112803}@@
-:::++}
+also notes that public disclosure is not expressly protected by the chapter.
+:::
 
 \## Broader Standards
 

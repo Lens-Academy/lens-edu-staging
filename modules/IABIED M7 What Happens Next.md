@@ -18,9 +18,9 @@ source:: ![[../Learning Outcomes/Your path forward]]
 # Lens: Welcome
 id:: 4d287f1a-5049-4671-a34e-b49385e7ac5e
 tldr:: Can you make the whole book's argument to someone who's never read it? This final module has no new reading. Two things close the course: put the entire chain of reasoning into your own words, then set the one action you'll keep doing after the course ends.
-summary_for_tutor:: Synthesis lens for the final IABIED module, with no new reading. The module does exactly two things: a question where the student presents the book's full twelve-step argument chain unaided (the tutor mirrors it back, names gaps, and calibrates), and then the Your Ongoing Action step where the student sets the one action they keep doing after the course. Optional resources on career paths and next steps with Lens Academy follow.{++{"author":"Elias's AI","timestamp":1787256688347}@@
+summary_for_tutor:: Synthesis lens for the final IABIED module, with no new reading. The module does exactly two things: a question where the student presents the book's full twelve-step argument chain unaided (the tutor mirrors it back, names gaps, and calibrates), and then the Your Ongoing Action step where the student sets the one action they keep doing after the course. Optional resources on career paths and next steps with Lens Academy follow.
 reading_minutes:: 2
-tutor_minutes:: 10++}
+tutor_minutes:: 10
 
 #### Text
 content:: Welcome to our final module. There's no new reading here. Two things close the course: put the book's whole argument into your own words, and set the one action you'll keep doing after it ends.
@@ -71,8 +71,8 @@ source:: ![[../Lenses/IABIED - Your Ongoing Action]]
 id:: fb9e57fd-6036-4334-b827-2f9520fbcdd9
 optional:: true
 tldr:: Want more after this course? Our other courses are the natural next step.
-summary_for_tutor:: Short optional closing pointer. Tells the learner that Lens Academy runs further courses (including more advanced ones) and links the course catalog. No teaching content; no interaction.{++{"author":"Elias's AI","timestamp":1787256690208}@@
-reading_minutes:: 2++}
+summary_for_tutor:: Short optional closing pointer. Tells the learner that Lens Academy runs further courses (including more advanced ones) and links the course catalog. No teaching content; no interaction.
+reading_minutes:: 2
 
 #### Text
 content::

@@ -1,7 +1,7 @@
 ---
-id: 'a930358e-3805-4194-bd64-5933aa84695d'{++{"author":"Elias's AI","timestamp":1787256124277}@@
+id: 'a930358e-3805-4194-bd64-5933aa84695d'
 reading_minutes: 2
-tutor_minutes: 30++}
+tutor_minutes: 30
 title: "Cold Open"
 tldr: Three real forecasting problems, before we teach you anything. Answer them as well as you can. At the end of the unit you get three more, and they are harder. We compare the two sets.
 summary_for_tutor: "The unit's pre-test. Administered before any reading, at full depth, mirroring the three learning outcomes: decomposition, functional form, aggregation. The tutor RECORDS and does not teach. This is the baseline against which the post-test is read, so any teaching here destroys the measurement. Feedback is deliberately minimal and non-corrective."

@@ -2,7 +2,7 @@
 id: '3e9c7610-3661-4ac9-b4ee-160932e9d3c9'
 title: "2.3.1 Observable signatures of undeclared AI development"
 tldr: "Faithful alpha import of XLab lesson 2.3.1 Observable signatures of undeclared AI development."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257378741}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257378741}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257378741}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257378741}@@ XLab."++}
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
 tags: [wip]
 ---
 #### Text
@@ -76,17 +76,15 @@ feasibility — their sole non-High intelligence mechanism. Three reasons:
 Real-world colour: the xAI Memphis behind-the-meter gas turbines were surfaced
 by aerial thermal imaging — the signature and the workaround in one case.
 
-{--{"author":"Elias's AI","timestamp":1787257098981}@@**Architecture--}{++{"author":"Elias's AI","timestamp":1787257098981}@@:::callout {title="Architecture++} changes the {--{"author":"Elias's AI","timestamp":1787257098981}@@picture**
-
---}{++{"author":"Elias's AI","timestamp":1787257098981}@@picture" tone="blue"}
-++}Power consumption is architecture-dependent, so the same facility can change
+:::callout {title="Architecture changes the picture" tone="blue"}
+Power consumption is architecture-dependent, so the same facility can change
 signature without changing size. Scaling an existing architecture by adding
 layers and shifting to a new architecture with a different compute profile
 produce different curves, and inference and training draw differently again.
 See Scher et al., *An International Agreement to Prevent the Premature Creation
 of Artificial Superintelligence*, Appendix D — and connect it back to the
-development picture from Module 1.{++{"author":"Elias's AI","timestamp":1787257098981}@@
-:::++}
+development picture from Module 1.
+:::
 
 \### Procurement, customs, and financial intelligence
 
