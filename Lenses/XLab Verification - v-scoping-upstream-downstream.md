@@ -2,7 +2,7 @@
 id: '61088782-f0b8-4eeb-9787-1e6c80760ae9'
 title: "1.3 Upstream and downstream"
 tldr: "Faithful alpha import of XLab lesson 1.3 Upstream and downstream."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Interactive elements marked as import gaps must be completed on XLab until Lens has an equivalent."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257463184}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257463184}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257463184}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257463184}@@ XLab."++}
 tags: [wip]
 ---
 #### Text
