@@ -103,35 +103,54 @@ Ratings are self-reports, not correct or incorrect. In Learning Outcome tests, r
 
 \## Single select
 
-Use `#### Select` with plain list under `options::`. Default allows one selection.
+Use `#### Select` with {--{"author":"Elias's AI","timestamp":1787223049523}@@plain list under `options::`. Default allows one selection.--}{++{"author":"Elias's AI","timestamp":1787223049523}@@`options::`. With no `[x]`, response is ungraded.++}
 
-Ungraded example:
+{--{"author":"Elias's AI","timestamp":1787223049523}@@Ungraded example:--}{++{"author":"Elias's AI","timestamp":1787223049523}@@Smallest version:++}
 
 > `#### Select`
-> `id:: f32db9ca-cdf4-4c4d-b53c-50f3456dcac1`
+> `id:: {--{"author":"Elias's AI","timestamp":1787223049523}@@f32db9ca-cdf4-4c4d-b53c-50f3456dcac1`--}{++{"author":"Elias's AI","timestamp":1787223049523}@@<uuid>`++}
 > `content:: Which topic should we cover next?`
 > `options::`
 > `- Forecasting`
-> `- Governance`
-> `- Technical safety`
-> `required:: true`
+> `- Governance`{--{"author":"Elias's AI","timestamp":1787223049523}@@
+> `- Technical safety`--}{++{"author":"Elias's AI","timestamp":1787223049523}@@
 
-For graded practice or test response, mark correct option with `[x]`:
+Try it:
+
+#### Select
+id:: a59ce650-c5cf-4b2b-bc13-e0686f5d2bfb++}
+{--{"author":"Elias's AI","timestamp":1787223049523}@@> `required:: true`
+
+For graded practice or test response, mark--}{++{"author":"Elias's AI","timestamp":1787223049523}@@content:: Which topic should we cover next?
+options::
+- Forecasting
+- Governance
+
+#### Text
+content::
+Mark++} correct option with {--{"author":"Elias's AI","timestamp":1787223049523}@@`[x]`:
 
 > `#### Select`
 > `id:: 234db237-6c5c-43f3-82aa-b19a4ee2708d`
 > `content:: Which process updates model weights during training?`
-> `options::`
+--}{++{"author":"Elias's AI","timestamp":1787223049523}@@`[x]` when response should be graded:
+
+++}> `options::`
 > `- Data collection`
 > `- [x] Gradient descent`
-> `- Deployment monitoring`
-> `shuffle:: true`
-> `explanation:: Gradient descent updates weights using gradients of loss.`
+> `- Deployment monitoring`{--{"author":"Elias's AI","timestamp":1787223049523}@@
+> `shuffle:: true`--}{++{"author":"Elias's AI","timestamp":1787223049523}@@
+
+Optional fields:
+
+- `required:: true`: require response. Defaults to `false`.++}
+{--{"author":"Elias's AI","timestamp":1787223049523}@@> `explanation:: Gradient descent updates weights using gradients of loss.`
 
 Options:
 
-- `shuffle:: true`: randomize option order. Defaults to `false`.
-- `explanation::`: optional feedback shown after submission.
+--}{++{"author":"Elias's AI","timestamp":1787223049523}@@- `multi:: true`: allow multiple selections. Defaults to `false`.
+++}- `shuffle:: true`: randomize option order. Defaults to `false`.
+- {--{"author":"Elias's AI","timestamp":1787223049523}@@`explanation::`: optional feedback shown--}{++{"author":"Elias's AI","timestamp":1787223049523}@@`explanation:: ...`: show fixed explanation++} after submission.{++{"author":"Elias's AI","timestamp":1787223049523}@@ Defaults to no explanation.++}
 
 Survey selects must use plain list items. Surveys never contain correct-answer markers.
 
