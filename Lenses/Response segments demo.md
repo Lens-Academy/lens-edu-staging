@@ -163,47 +163,52 @@ options::
 - Technical safety
 multi:: true
 
-#### Text
+{--{"author":"Elias's AI","timestamp":1787253839292}@@#### Text
 content::
-It has same optional fields and defaults as single select. For graded multi-select, learner's selected options must exactly match all `[x]` options. In surveys, options stay ungraded and use no `[x]` markers.
+It--}{++{"author":"Elias's AI","timestamp":1787253839292}@@%% Multi-select++} has same {--{"author":"Elias's AI","timestamp":1787253839292}@@optional fields --}{++{"author":"Elias's AI","timestamp":1787253839292}@@options ++}and defaults as single select. For {--{"author":"Elias's AI","timestamp":1787253839292}@@graded multi-select, learner's selected options--}{++{"author":"Elias's AI","timestamp":1787253839292}@@grading, learner selection++} must exactly match all `[x]` options.{--{"author":"Elias's AI","timestamp":1787253839292}@@ In surveys, options stay ungraded and use no `[x]` markers.
 
 \## Fill in the blank
 
-Use `#### FillBlank`. Write accepted answer directly inside blank.
+Use `#### FillBlank`. Write --}{++{"author":"Elias's AI","timestamp":1787253839292}@@
 
-Smallest graded version:
+FillBlank puts inputs inside sentence. Text inside braces is ++}accepted {--{"author":"Elias's AI","timestamp":1787253839292}@@answer directly inside blank.
+
+--}{++{"author":"Elias's AI","timestamp":1787253839292}@@answer. ++}Smallest graded {--{"author":"Elias's AI","timestamp":1787253839292}@@version:
 
 > `#### FillBlank`
 > `id:: <uuid>`
 > `content:: France's capital is {{Paris}}.`
 
-Try it:
+Try it:--}{++{"author":"Elias's AI","timestamp":1787253839292}@@version follows. %%++}
 
 #### FillBlank
 id:: ec12502a-e39c-4589-87f5-9f14855648c9
 content:: France's capital is {{Paris}}.
 
-#### Text
-content::
+{--{"author":"Elias's AI","timestamp":1787253842727}@@#### Text--}{++{"author":"Elias's AI","timestamp":1787253842727}@@%% FillBlank syntax:++}
+{--{"author":"Elias's AI","timestamp":1787253842727}@@content::
 Separate alternative accepted answers with `|`:
 
 > `content:: Model weights are commonly updated using {{gradient descent|gradient-based optimization}}.`
 
-Put several blanks in one sentence:
+Put--}{++{"author":"Elias's AI","timestamp":1787253842727}@@- `{{gradient descent|gradient-based optimization}}`: graded text with alternatives.
+- `{{Paris}} ... {{Berlin}}`:++} several blanks in one {--{"author":"Elias's AI","timestamp":1787253842727}@@sentence:
 
-> `content:: France's capital is {{Paris}}, while Germany's capital is {{Berlin}}.`
+> `content:: France's capital is {{Paris}}, while Germany's capital is {{Berlin}}.`--}{++{"author":"Elias's AI","timestamp":1787253842727}@@sentence.
+- `{{blank}}`: ungraded text.
+- `{{number}}`: ungraded number.++}
 
-Each `{{...}}` becomes separate input. Text matching is always case-sensitive and ignores whitespace at beginning and end of learner response. There are no `case-sensitive::` or `trim::` fields.
+{--{"author":"Elias's AI","timestamp":1787253842727}@@Each `{{...}}` becomes separate input. --}Text matching is{--{"author":"Elias's AI","timestamp":1787253842727}@@ always--} case-sensitive and {--{"author":"Elias's AI","timestamp":1787253842727}@@ignores whitespace at beginning and end of learner response. There are no `case-sensitive::` or `trim::` fields.--}{++{"author":"Elias's AI","timestamp":1787253842727}@@always trims surrounding whitespace. No options control this.++}
 
-Use `{{blank}}` for ungraded text input:
+{--{"author":"Elias's AI","timestamp":1787253842727}@@Use `{{blank}}` for ungraded text input:
 
-> `content:: One change I want to make is {{blank}}.`
+> `content:: One change I want to make--}{++{"author":"Elias's AI","timestamp":1787253842727}@@Next example++} is {--{"author":"Elias's AI","timestamp":1787253842727}@@{{blank}}.`
 
 Use `{{number}}` for ungraded numeric input:
 
 > `content:: How many years until transformative AI? {{number}}`
 
-Try it:
+Try it:--}{++{"author":"Elias's AI","timestamp":1787253842727}@@optional, showing `optional:: true`. %%++}
 
 #### FillBlank
 id:: 8a3ae4f5-4d86-42dc-b126-b293f88a7b61
