@@ -18,11 +18,11 @@ authors:
 ## Test:
 id:: 39abbb9e-eadc-49f6-8709-c1dad0fd74d8
 
-
+%%
 assesment system prompt + question-specific assessment-instructions + answer --> pass/fail + reason
 
 	base coach/tutor system prompt + conversation context + reusable feedback prompt appended to context + question-specific assessment-instructions + answer + pass/fail + reason --> feedback to student
-
+%%
 
 #### Question
 content:: Every mechanism so far has needed someone to trust some silicon. Cankaya's architecture is built to avoid that: an inspector should be able to establish what a data center ran without either side trusting the other's hardware, and without new chips being designed.
