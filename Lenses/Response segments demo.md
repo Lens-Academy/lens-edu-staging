@@ -51,52 +51,53 @@ Here is that minimal segment for learner to try:--}{++{"author":"Elias's AI","ti
 id:: 3e1a5838-95df-4d05-a88a-1b4ca868905f
 content:: What is your strongest objection?
 
-#### Text
-content::
-Optional fields:
+{--{"author":"Elias's AI","timestamp":1787253806184}@@#### Text
+content::--}{++{"author":"Elias's AI","timestamp":1787253806184}@@%% OpenResponse options:++}
+{--{"author":"Elias's AI","timestamp":1787253806184}@@Optional fields:
 
-- `required:: true`: require response. Defaults to `false`.
-- `max-chars:: 500`: limit answer length. Defaults to no limit.
-- `placeholder:: Name the claim, then explain objection.`: show hint in empty input. Defaults to no placeholder.
-- `max-time:: 3:00`: set answer timer in `M:SS`. Defaults to no timer.
-- `enforce-voice:: true`: require spoken response instead of typing. Defaults to `false`.
-- `assessment-instructions:: ...`: give AI grading rubric. Without it, response is ungraded.
-- `feedback-instructions:: ...`: ask AI to provide learner-facing feedback. Defaults to no AI feedback when omitted.
+--}- {--{"author":"Elias's AI","timestamp":1787253806184}@@`required::--}{++{"author":"Elias's AI","timestamp":1787253806184}@@`optional::++} true`: {--{"author":"Elias's AI","timestamp":1787253806184}@@require response.--}{++{"author":"Elias's AI","timestamp":1787253806184}@@allow skipping.++} Defaults to `false`.
+- `max-chars:: 500`: limit{--{"author":"Elias's AI","timestamp":1787253806184}@@ answer--} length. Defaults to no limit.
+- `placeholder:: {--{"author":"Elias's AI","timestamp":1787253806184}@@Name the claim, then explain objection.`: show hint in empty input. --}{++{"author":"Elias's AI","timestamp":1787253806184}@@...`: empty-input hint. ++}Defaults to {--{"author":"Elias's AI","timestamp":1787253806184}@@no placeholder.--}{++{"author":"Elias's AI","timestamp":1787253806184}@@none.++}
+- `max-time:: 3:00`:{--{"author":"Elias's AI","timestamp":1787253806184}@@ set answer--} timer in `M:SS`. Defaults to {--{"author":"Elias's AI","timestamp":1787253806184}@@no timer.--}{++{"author":"Elias's AI","timestamp":1787253806184}@@none.++}
+- `enforce-voice:: true`: require {--{"author":"Elias's AI","timestamp":1787253806184}@@spoken response--}{++{"author":"Elias's AI","timestamp":1787253806184}@@speech++} instead of typing. Defaults to `false`.
+- `assessment-instructions:: ...`:{--{"author":"Elias's AI","timestamp":1787253806184}@@ give--} AI grading rubric. {--{"author":"Elias's AI","timestamp":1787253806184}@@Without it, response is ungraded.--}{++{"author":"Elias's AI","timestamp":1787253806184}@@Omit for ungraded response.++}
+- `feedback-instructions:: ...`: {--{"author":"Elias's AI","timestamp":1787253806184}@@ask--}{++{"author":"Elias's AI","timestamp":1787253806184}@@learner-facing++} AI{--{"author":"Elias's AI","timestamp":1787253806184}@@ to provide learner-facing--} feedback. {--{"author":"Elias's AI","timestamp":1787253806184}@@Defaults to no AI feedback when omitted.--}{++{"author":"Elias's AI","timestamp":1787253806184}@@Omit for none.++}
 
-`assessment-instructions::` controls grading. `feedback-instructions::` controls what learner sees. Surveys never grade responses, but may still use `feedback-instructions::`.
+{--{"author":"Elias's AI","timestamp":1787253806184}@@`assessment-instructions::`--}{++{"author":"Elias's AI","timestamp":1787253806184}@@Assessment++} controls {--{"author":"Elias's AI","timestamp":1787253806184}@@grading. `feedback-instructions::`--}{++{"author":"Elias's AI","timestamp":1787253806184}@@score; feedback++} controls what learner sees. Surveys never grade{--{"author":"Elias's AI","timestamp":1787253806184}@@ responses,--} but may still {--{"author":"Elias's AI","timestamp":1787253806184}@@use `feedback-instructions::`.--}{++{"author":"Elias's AI","timestamp":1787253806184}@@give feedback.++}
 
-\## Rating
+{--{"author":"Elias's AI","timestamp":1787253806184}@@\## --}Rating{--{"author":"Elias's AI","timestamp":1787253806184}@@
 
-Use `#### Rating` for numbered scale from 1 to 5.
+Use `#### Rating` for --}{++{"author":"Elias's AI","timestamp":1787253806184}@@ collects ++}numbered {--{"author":"Elias's AI","timestamp":1787253806184}@@scale from 1 to 5.
 
-Smallest version:
+--}{++{"author":"Elias's AI","timestamp":1787253806184}@@self-report. ++}Smallest {--{"author":"Elias's AI","timestamp":1787253806184}@@version:
 
 > `#### Rating`
 > `id:: <uuid>`
 > `content:: How confident are you in your answer?`
 
-Try it:
+Try it:--}{++{"author":"Elias's AI","timestamp":1787253806184}@@version uses default 1-to-5 scale. %%++}
 
 #### Rating
 id:: 4280d5f2-2cd5-48f9-b20f-fc132253d443
 content:: How confident are you in your answer?
 
-%%
+%%{--{"author":"Elias's AI","timestamp":1787253809854}@@
 #### Text
 content::
 Optional fields:
 
-- `required:: true`: require response. Defaults to `false`.
-- `scale:: 7`: set highest number from 2 to 10. Defaults to `5`.
-- `low-label:: Not confident`: label low endpoint. Defaults to no label.
-- `high-label:: Very confident`: label high endpoint. Defaults to no label.
-- `feedback-instructions:: ...`: ask AI to respond to selected rating. Defaults to no AI feedback when omitted.
+--}{++{"author":"Elias's AI","timestamp":1787253809854}@@ Rating options:
+++}- {--{"author":"Elias's AI","timestamp":1787253809854}@@`required::--}{++{"author":"Elias's AI","timestamp":1787253809854}@@`optional::++} true`: {--{"author":"Elias's AI","timestamp":1787253809854}@@require response.--}{++{"author":"Elias's AI","timestamp":1787253809854}@@allow skipping.++} Defaults to `false`.
+- `scale:: 7`:{--{"author":"Elias's AI","timestamp":1787253809854}@@ set--} highest {--{"author":"Elias's AI","timestamp":1787253809854}@@number--}{++{"author":"Elias's AI","timestamp":1787253809854}@@number,++} from 2 to 10. Defaults to `5`.
+- `low-label:: Not confident`: {--{"author":"Elias's AI","timestamp":1787253809854}@@label low endpoint.--}{++{"author":"Elias's AI","timestamp":1787253809854}@@low-end label.++} Defaults to {--{"author":"Elias's AI","timestamp":1787253809854}@@no label.--}{++{"author":"Elias's AI","timestamp":1787253809854}@@none.++}
+- `high-label:: Very confident`: {--{"author":"Elias's AI","timestamp":1787253809854}@@label high endpoint. --}{++{"author":"Elias's AI","timestamp":1787253809854}@@high-end label. ++}Defaults to {--{"author":"Elias's AI","timestamp":1787253809854}@@no label.--}{++{"author":"Elias's AI","timestamp":1787253809854}@@none.++}
+- `feedback-instructions:: ...`:{--{"author":"Elias's AI","timestamp":1787253809854}@@ ask--} AI {--{"author":"Elias's AI","timestamp":1787253809854}@@to respond--}{++{"author":"Elias's AI","timestamp":1787253809854}@@response++} to{--{"author":"Elias's AI","timestamp":1787253809854}@@ selected--} rating. Defaults to {--{"author":"Elias's AI","timestamp":1787253809854}@@no AI feedback when omitted.--}{++{"author":"Elias's AI","timestamp":1787253809854}@@none.++}
 
-Ratings are self-reports, not correct or incorrect. In Learning Outcome tests, rating is stored beside graded answers but does not affect test score.
+Ratings{--{"author":"Elias's AI","timestamp":1787253809854}@@ are self-reports, not correct or incorrect. In Learning Outcome tests, rating is stored beside graded answers but does not--}{++{"author":"Elias's AI","timestamp":1787253809854}@@ never++} affect {--{"author":"Elias's AI","timestamp":1787253809854}@@test--}{++{"author":"Elias's AI","timestamp":1787253809854}@@correctness++} score.
 
-\## Single select
+{--{"author":"Elias's AI","timestamp":1787253809854}@@\## Single select
 
-Use `#### Select` with `options::`. With no `[x]`, response is ungraded.
+Use `#### Select` with `options::`. With no--}{++{"author":"Elias's AI","timestamp":1787253809854}@@Select requires `options::`; default allows one selection. Without++} `[x]`, {--{"author":"Elias's AI","timestamp":1787253809854}@@response--}{++{"author":"Elias's AI","timestamp":1787253809854}@@it++} is ungraded.{--{"author":"Elias's AI","timestamp":1787253809854}@@
 
 Smallest version:
 
@@ -108,7 +109,7 @@ Smallest version:
 > `- Governance`
 
 Try it:
-%%
+--}{++{"author":"Elias's AI","timestamp":1787253809854}@@ ++}%%
 #### Select
 id:: a59ce650-c5cf-4b2b-bc13-e0686f5d2bfb
 content:: Which topic should we cover next?
