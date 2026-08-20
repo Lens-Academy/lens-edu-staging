@@ -218,7 +218,7 @@ content:: Earth is approximately {{number {--{"author":"Elias's AI","timestamp":
 
 #### Text
 content::
-Numeric blanks accept integers, decimals, and negative values. They store numbers, not text. Range includes both endpoints. Use `[42, 42]` when only exact value is correct. Validator should reject reversed or malformed ranges.
+Numeric blanks accept integers, decimals, {++{"author":"Elias's AI","timestamp":1787226403832}@@negative values, ++}and {--{"author":"Elias's AI","timestamp":1787226403832}@@negative values.--}{++{"author":"Elias's AI","timestamp":1787226403832}@@commas as thousands separators.++} They store numbers, not text. {--{"author":"Elias's AI","timestamp":1787226403832}@@Range includes--}{++{"author":"Elias's AI","timestamp":1787226403832}@@Ranges include++} both endpoints. {--{"author":"Elias's AI","timestamp":1787226403832}@@Use `[42, 42]` when only exact value is correct. Validator should reject reversed or malformed ranges.--}{++{"author":"Elias's AI","timestamp":1787226403832}@@Validator should reject malformed numbers, reversed ranges, and commas placed anywhere except between groups of three digits.++}
 
 One FillBlank segment may mix text and numeric blanks, and graded and ungraded blanks:
 
