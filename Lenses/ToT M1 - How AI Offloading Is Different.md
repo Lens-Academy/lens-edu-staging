@@ -17,11 +17,11 @@ First, AI offloads interpretation and judgement, not just narrow computation. As
 
 Second, the AI offers no check independent of itself. A calculator shows its working on the screen, and you could redo that working by hand. Many AI products now also show a "thinking" trace before the answer. The tools change fast. The structural point does not: that trace is not the working. It is more generated text, written by the same system that wrote the answer. Reading it and finding it sensible tells you how the words read. It does not tell you whether they are true. A visible trace is the subtler trap. With no trace, you know you saw nothing. With a fluent one, you can finish believing you checked something.
 
-{++{"author":"AI","timestamp":1787257637788}@@This is not only a conceptual worry. Anthropic tested how faithful reasoning models are when they "show their working," and found the visible trace often does not match the model's actual reasoning. This excerpt explains the gap.
+{++{"author":"AI","timestamp":1787257665506}@@This is not only a conceptual worry. Anthropic tested how faithful reasoning models are when they "show their working," and found the visible trace often does not match the model's actual reasoning. This excerpt explains the gap.
 
 #### Article
 source:: [[../articles/anthropic-reasoning-models-dont-always-say-what-they-think]]
-from:: "But if we want to use the Chain-of-Thought for alignment purposes, there's a crucial question: can we actually _trust_ what models say in their Chain-of-Thought?"
+from:: "But if we want to use the Chain-of-Thought for alignment purposes, there’s a crucial question: can we actually _trust_ what models say in their Chain-of-Thought?"
 to:: "There's no specific reason why the reported Chain-of-Thought _must_ accurately reflect the true reasoning process; there might even be circumstances where a model actively hides aspects of its thought process from the user."
 
 #### Text
