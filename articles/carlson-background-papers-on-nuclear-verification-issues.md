@@ -5,7 +5,8 @@ author:
   - "Australian Safeguards"
   - "Non-Proliferation Office"
   - "Director General"
-source_url: "https://www.dfat.gov.au/about-us/publications/Pages/background-papers-on-nuclear-verification-issues"
+source_url: "https://www.dfat.gov.au/about-us/publications/Pages/background-papers-on-nuclear-verification-issues"{++{"author":"Elias's AI","timestamp":1787227510902}@@
+allowUnreachableUrl: true++}
 published: 2026-08-20
 created: 2026-08-20
 accessed: 2026-08-20
