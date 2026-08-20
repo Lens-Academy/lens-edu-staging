@@ -49,11 +49,11 @@ content:: **Import gap:** XLab SlidingScale component has no clean Lens equivale
 #### Text
 content:: **Interactive exercise:** XLab's `mechanism-sort` widget has no direct Lens equivalent yet. Complete it in the [original XLab lesson](https://aisafetytracks.com/tracks/verification/verification-infrastructure/mechanism-effective). Its surrounding lesson text is preserved here.
 
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1787227588512}@@Text
 content::
-{--{"author":"Elias's AI","timestamp":1787226814264}@@> **Note**
+> **Note**
 
-As you’re going through this exercise, jot down in your notebook: what were the heuristics --}{++{"author":"Elias's AI","timestamp":1787226814264}@@#### Question
+As you’re going through this exercise, jot down in your notebook: what were the heuristics --}{++{"author":"Elias's AI","timestamp":1787227588512}@@Question
 content:: What heuristics did ++}you {--{"author":"Elias's AI","timestamp":1787226814264}@@used--}{++{"author":"Elias's AI","timestamp":1787226814264}@@use++} to evaluate whether a verification mechanism {--{"author":"Elias's AI","timestamp":1787226814264}@@was:
 
 - Technically feasible? → Are there historical verification precedents that have used a similar mechanism? Current--}{++{"author":"Elias's AI","timestamp":1787226814264}@@was technically feasible, politically feasible, effective, and durable? Consider historical precedents, current++} technical {--{"author":"Elias's AI","timestamp":1787226814264}@@analogs?
