@@ -127,7 +127,9 @@ Text inside braces gives expected answer to assessor. Several alternatives separ
 
 #### FillBlank
 id:: 115ecd2e-385a-4c90-8964-afc169cb822a
-content:: France's capital is {{Paris}}, while model weights are commonly updated using {{gradient descent|gradient-based optimization}}.
+content:: France's capital is {{Paris}}, while model weights are commonly updated using {{gradient descent|gradient-based optimization}}.{++{"author":"Elias's AI","timestamp":1787255776388}@@
+assessment-instructions:: Give 50 points for each blank whose meaning is correct. Accept minor misspellings and equivalent phrasing.
+feedback-instructions:: Explain any incorrect blank without discussing unrelated material.++}
 
 %% `{{number}}` creates ungraded numeric input. Next example also shows `optional:: true`. %%
 
@@ -155,9 +157,34 @@ FillBlank options:
 - {--{"author":"Elias's AI","timestamp":1787255731287}@@`feedback-instructions::--}{++{"author":"Elias's AI","timestamp":1787255731287}@@`assessment-instructions::++} ...`: {--{"author":"Elias's AI","timestamp":1787255731287}@@learner-facing AI feedback. Defaults--}{++{"author":"Elias's AI","timestamp":1787255731287}@@extra natural-language rules appended++} to {--{"author":"Elias's AI","timestamp":1787255731287}@@none --}{++{"author":"Elias's AI","timestamp":1787255731287}@@base assessor prompt. Use this for custom scoring such as "100 if first two blanks ++}and {--{"author":"Elias's AI","timestamp":1787255731287}@@does not affect grading.--}{++{"author":"Elias's AI","timestamp":1787255731287}@@either remaining blank are correct" or "60 if two of three are correct." Omit to use base assessment only.
 - `feedback-instructions:: ...`: instructions for learner-facing tutor response after assessment. Omit for no tutor feedback.++}
 
-{--{"author":"Elias's AI","timestamp":1787255731287}@@Score is correct graded blanks divided by all graded blanks. Ungraded --}{++{"author":"Elias's AI","timestamp":1787255731287}@@Base assessor returns one percentage for whole segment plus private reason. Percentage appears beside response. Expected-answer ++}blanks are {--{"author":"Elias's AI","timestamp":1787255731287}@@excluded. No graded blanks means--}{++{"author":"Elias's AI","timestamp":1787255731287}@@graded automatically. `{{blank}}` and `{{number}}` remain++} ungraded {--{"author":"Elias's AI","timestamp":1787255731287}@@segment.--}{++{"author":"Elias's AI","timestamp":1787255731287}@@unless `assessment-instructions::` defines how to judge them.++}
+{--{"author":"Elias's AI","timestamp":1787255731287}@@Score is correct graded blanks divided by all graded blanks. Ungraded --}{++{"author":"Elias's AI","timestamp":1787255731287}@@Base assessor returns one percentage for whole segment plus private reason. Percentage appears beside response. Expected-answer ++}blanks are {--{"author":"Elias's AI","timestamp":1787255731287}@@excluded. No graded blanks means--}{++{"author":"Elias's AI","timestamp":1787255731287}@@graded automatically. `{{blank}}` and `{{number}}` remain++} ungraded {--{"author":"Elias's AI","timestamp":1787255731287}@@segment.--}{++{"author":"Elias's AI","timestamp":1787255731287}@@unless `assessment-instructions::` defines how to judge them.++}{++{"author":"Elias's AI","timestamp":1787255778958}@@ %%
 
-Grading by context:
+%% Ranking lets learner arrange items. Plain Ranking is ungraded, useful for preferences and reflection. Initial item order is randomized. %%
+
+#### Ranking
+id:: dc6d348c-8c5c-416a-82d7-b7166d677258
+content:: Rank these topics from most to least interesting to you.
+items::
+- Forecasting
+- Governance
+- Technical safety
+
+%% Add `assessment-instructions::` to grade Ranking. Items are authored in intended order, but shown shuffled. Assessor receives intended order, learner order, base ranking prompt, and custom instructions. It returns percentage plus private reason.
+
+Use graded Ranking for chronology, causal chains, procedures, and prioritization with explicit criterion. State allowed ties or alternate valid orders in assessment instructions. Keep lists around 3 to 7 items. Next example grades procedure while allowing partial credit. %%
+
+#### Ranking
+id:: 8ea396ee-7e7f-46b8-85ce-179ffe33bdf3
+content:: Put these experimental steps in safe order.
+items::
+- Sterilize equipment
+- Prepare sample
+- Run procedure
+- Dispose of hazardous material
+assessment-instructions:: Treat authored order as ideal. Give partial credit for correct relative relationships. Sterilization must precede preparation and procedure; disposal must come last.
+feedback-instructions:: Explain most important misplaced relationship and why it matters for safety.++}
+
+{++{"author":"Elias's AI","timestamp":1787255778958}@@%% ++}Grading by context:
 - Surveys never grade.
 - Normal lenses may contain graded practice or ungraded reflection.
 - Learning Outcome tests require gradable OpenResponse and Select. FillBlank may mix graded and ungraded blanks.
