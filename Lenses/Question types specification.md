@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787219894303}@@---
+{++{"author":"Elias's AI","timestamp":1787219904008}@@---
 id: '0a7b39f9-e1e1-43bd-8a55-4bd3a0397cbd'
 title: Question types specification
 tldr: One Question segment can collect text, ratings, choices, or a fill-in-the-blank answer in surveys, practice lenses, and learning-outcome tests.
@@ -72,7 +72,7 @@ high-label&#58;&#58; Very confident
 \## Single choice
 
 ```md
-#### Question
+\#### Question
 type&#58;&#58; choice
 key&#58;&#58; optimizer
 content&#58;&#58; Which process updates model weights during training?
@@ -91,7 +91,7 @@ Mark each correct option with `[x]`. Unmarked options are distractors. `multi&#5
 For an unscored preference question, use plain options:
 
 ```md
-#### Question
+\#### Question
 type&#58;&#58; choice
 key&#58;&#58; next_topic
 content&#58;&#58; Which topic should we cover next?
@@ -104,7 +104,7 @@ options&#58;&#58;
 \## Multiple choice
 
 ```md
-#### Question
+\#### Question
 type&#58;&#58; choice
 key&#58;&#58; evidence
 content&#58;&#58; Which two items are empirical evidence?

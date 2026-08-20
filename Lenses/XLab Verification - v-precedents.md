@@ -97,7 +97,9 @@ While the Iraq situation was a low point--}{++{"author":"Elias's AI","timestamp"
 […]
 Clearly detecting undeclared nuclear activities at undeclared sites is more difficult - this is the greatest challenge currently facing safeguards. While it is possible indicators of undeclared nuclear activities could be detected through non-location-specific monitoring operations - such as wide area environmental monitoring (currently not considered sufficiently proven for deployment by the IAEA), or environmental analysis at a declared site fortuitously detecting emissions from another, undeclared, site - the fundamental problem here is identification of locations for investigation. Wider access rights are of limited practical value without leads on where to seek access. This requires information analysis - and is particularly dependent on information from states, whose information collection and analysis capabilities (including use of satellites and intelligence activities) are generally far greater than those of the IAEA.--}{++{"author":"Elias's AI","timestamp":1787219830283}@@ satellites and intelligence activities) are generally far greater than those of the IAEA.++}
 
-\## Compare the three documents
+{++{"author":"Elias's AI","timestamp":1787219897983}@@#### Text
+content::
+++}\## Compare the three documents
 
 \### The tasks
 
