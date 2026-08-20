@@ -1,8 +1,8 @@
 ---
 id: 8189763f-576e-4f04-a614-4a00c628e386
 title: Response segments
-tldr: Use open responses, ratings, selects, {--{"author":"Elias's AI","timestamp":1787225519860}@@fill-in-the-blank responses, and numeric--}{++{"author":"Elias's AI","timestamp":1787225519860}@@and typed fill-in-the-blank++} responses with the same syntax in surveys, normal lenses, and learning-outcome tests.
-summary_for_tutor: Reference page for course creators. It documents shared fields, exact syntax, options, defaults, and grading behavior for OpenResponse, Rating, Select, {--{"author":"Elias's AI","timestamp":1787225523420}@@FillBlank, and Number--}{++{"author":"Elias's AI","timestamp":1787225523420}@@and typed FillBlank++} Response segments.
+tldr: Use open responses, ratings, selects, and typed fill-in-the-blank responses with the same syntax in surveys, normal lenses, and learning-outcome tests.
+summary_for_tutor: Reference page for course creators. It documents shared fields, exact syntax, options, defaults, and grading behavior for OpenResponse, Rating, Select, and typed FillBlank Response segments.
 ---
 
 #### Text
@@ -184,32 +184,13 @@ Put several blanks in one sentence:
 
 > `content:: France's capital is {{Paris}}, while Germany's capital is {{Berlin}}.`
 
-Each `{{...}}` becomes separate input. {--{"author":"Elias's AI","timestamp":1787225506544}@@Matching --}{++{"author":"Elias's AI","timestamp":1787225506544}@@Text matching ++}is always case-sensitive and ignores whitespace at beginning and end of learner response. There are no `case-sensitive::` or `trim::` fields.{--{"author":"Elias's AI","timestamp":1787225506544}@@ Graded score is fraction of blanks answered correctly.--}
+Each `{{...}}` becomes separate input. Text matching is always case-sensitive and ignores whitespace at beginning and end of learner response. There are no `case-sensitive::` or `trim::` fields.
 
-Use `{{blank}}` {--{"author":"Elias's AI","timestamp":1787225506544}@@when response should have no right or wrong answer.
+Use `{{blank}}` for ungraded text input:
 
-Smallest ungraded version:--}{++{"author":"Elias's AI","timestamp":1787225506544}@@for ungraded text input:++}
+> `content:: One change I want to make is {{blank}}.`
 
-> {--{"author":"Elias's AI","timestamp":1787225506544}@@`#### FillBlank`
-> `id:: <uuid>`
-> --}`content:: One change I want to make is {{blank}}.`
-
-{--{"author":"Elias's AI","timestamp":1787225506544}@@Try it:
-
-#### FillBlank
-id:: e7308f54-3b2f-410d-a67c-df916b8c8a19
-content:: One change I want to make is {{blank}}.
-
-#### Text
-content::
-Optional fields:
-
-- `required:: true`: require every blank. Defaults to `false`.
-- `feedback-instructions:: ...`: ask AI to provide learner-facing feedback. Defaults to no AI feedback when omitted. On ungraded blanks, feedback is coaching only and does not assign correctness.
-
-Within one FillBlank segment, use either answer-bearing blanks or --}{++{"author":"Elias's AI","timestamp":1787225506544}@@Use `{{number}}` for ++}ungraded{--{"author":"Elias's AI","timestamp":1787225506544}@@ `{{blank}}` markers, not both.
-
-\## --}{++{"author":"Elias's AI","timestamp":1787225506544}@@ numeric input:
+Use `{{number}}` for ungraded numeric input:
 
 > `content:: How many years until transformative AI? {{number}}`
 
@@ -246,9 +227,9 @@ Optional fields:
 
 Segment score is correctly answered graded blanks divided by total graded blanks. Ungraded blanks are excluded. If segment has no graded blanks, entire response is ungraded.
 
-\## ++}Grading rules
+\## Grading rules
 
 - **Survey:** all Response segment types are ungraded.
 - **Normal lens:** responses may be graded practice or ungraded reflection.
-- **Learning Outcome test:** OpenResponse and Select must be gradable. FillBlank {--{"author":"Elias's AI","timestamp":1787225526784}@@and Number --}may {--{"author":"Elias's AI","timestamp":1787225526784}@@be--}{++{"author":"Elias's AI","timestamp":1787225526784}@@contain++} graded {--{"author":"Elias's AI","timestamp":1787225526784}@@or ungraded.--}{++{"author":"Elias's AI","timestamp":1787225526784}@@and ungraded blanks.++} OpenResponse needs `assessment-instructions::`; Select needs at least one {--{"author":"Elias's AI","timestamp":1787225526784}@@`[x]`; graded Number needs `correct-range::`.--}{++{"author":"Elias's AI","timestamp":1787225526784}@@`[x]`.++}
-- {--{"author":"Elias's AI","timestamp":1787225526784}@@Rating, ungraded FillBlank, and --}{++{"author":"Elias's AI","timestamp":1787225526784}@@Rating and wholly ++}ungraded {--{"author":"Elias's AI","timestamp":1787225526784}@@Number--}{++{"author":"Elias's AI","timestamp":1787225526784}@@FillBlank++} responses never contribute to correctness score.
+- **Learning Outcome test:** OpenResponse and Select must be gradable. FillBlank may contain graded and ungraded blanks. OpenResponse needs `assessment-instructions::`; Select needs at least one `[x]`.
+- Rating and wholly ungraded FillBlank responses never contribute to correctness score.
