@@ -123,7 +123,7 @@ Mark correct option with `[x]` when response should be graded:
 
 Optional fields:
 
-- `required:: true`: require response. Defaults to `false`.
+- `required:: true`: require response. Defaults to `false`. -- optional:: true
 - `multi:: true`: allow multiple selections. Defaults to `false`.
 - `shuffle:: true`: randomize option order. Defaults to `false`.
 - `feedback-instructions:: ...`: ask AI to respond to learner's selection. Defaults to no AI feedback when omitted.
