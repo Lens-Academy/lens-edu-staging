@@ -1,5 +1,7 @@
 ---
-id: ab851733-57a3-4956-8ffe-0401ab6edc62
+id: ab851733-57a3-4956-8ffe-0401ab6edc62{++{"author":"Elias's AI","timestamp":1787256323714}@@
+reading_minutes: 5
+tutor_minutes: 3++}
 summary_for_tutor: "Addresses the argument that a superintelligent AI could easily afford to keep humans alive. Counters that having many negligible expenses does not mean you pay all of them -- you still need a reason. Uses the ant colony analogy: most humans do not spare sugar for nearby ants despite trivial cost. Notes that Earth's resources (oceans, matter for probes) have instrumental value the AI would need reasons to forgo."
 title: "To a powerful AI, wouldn't preserving humans be a negligible expense?"
 tldr: "There are many negligible expenses, and it would need a reason to pay ours."

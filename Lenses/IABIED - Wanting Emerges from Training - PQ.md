@@ -1,5 +1,7 @@
 ---
-id: 4c8e2f1a-9b7d-4e30-b562-e7f3a9c14d25
+id: 4c8e2f1a-9b7d-4e30-b562-e7f3a9c14d25{++{"author":"Elias's AI","timestamp":1787256324987}@@
+reading_minutes: 2
+tutor_minutes: 3++}
 summary_for_tutor: Priming question before Chapter 3. Students articulate their intuition about whether machines can genuinely 'want' things, before encountering the behavioral definition and emergence mechanism.
 title: "Before Reading — Wanting Emerges from Training"
 tldr: Does your GPS want to get you home? Before reading, decide where you'd draw the line between having a goal and wanting something.
