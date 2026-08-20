@@ -1,5 +1,7 @@
 ---
-id: '0d01e37e-38e6-4371-961b-7a69c7135650'
+id: '0d01e37e-38e6-4371-961b-7a69c7135650'{++{"author":"Elias's AI","timestamp":1787256131864}@@
+reading_minutes: 15
+tutor_minutes: 10++}
 title: "Reference Classes And Their Denominators"
 tldr: '"Take the outside view" sounds like one instruction. Kokotajlo counted the meanings and found two lists of about seven moves each. Some of those moves are excellent. Others let you avoid thinking while you still sound rigorous. The fix is to name the move you made.'
 summary_for_tutor: "Teaches reference-class selection through Kokotajlo's Taboo 'Outside View'. Two things to get across: the phrase is overloaded, and the choice of reference class is a substantive claim requiring defence rather than a neutral first step. The load-bearing skill is asking what the denominator is, i.e. which cases were eligible for the class and which were quietly excluded. Optional lens; the module lists it as optional but recommended before the test."

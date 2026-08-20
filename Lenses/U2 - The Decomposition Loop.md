@@ -1,5 +1,7 @@
 ---
-id: '026de78b-1adf-4e13-ad90-22348646c003'
+id: '026de78b-1adf-4e13-ad90-22348646c003'{++{"author":"Elias's AI","timestamp":1787256129815}@@
+reading_minutes: 20
+tutor_minutes: 20++}
 title: "The Decomposition Loop"
 tldr: The best forecasters in a four-year tournament were not the smartest people, and they were not the domain experts. They were the people who broke questions into parts they could check, and who had forecast before.
 summary_for_tutor: "The spine reading of the unit. Kokotajlo's summary of Good Judgment Project findings, which contains both the empirical result (what predicts forecasting accuracy) and the five-step method (Fermi-ize, outside view on sub-questions, seek other perspectives, iterate, aggregate). The lens runs the standard recall, processing, learning-question structure. The Phase 3 wedge attacks the assumption that the loop is a checklist rather than a search for tractable sub-questions."
