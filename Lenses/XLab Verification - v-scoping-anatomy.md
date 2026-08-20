@@ -28,7 +28,7 @@ Read **Look for key verbs** twice. It is question 1 of this unit, in the drafter
 
 \### [Reading Statutes and Bills](https://tlc.texas.gov/docs/legref/readingabill.pdf)
 *“Tips for Reading and Understanding a Statute”, pp. 4–5, complete*
-Texas Legislative Council, Research Division, 85th Legislature
+Texas Legislative Council, Research Division, 85th Legislature{--{"author":"Elias's AI","timestamp":1787219666471}@@
 
 Many statutes are straightforward and easily understood, while others are more complicated. Cross-references, dependent subdivisions, and phrases that provide exceptions to an application of the statute can make the meaning difficult to follow.
 
@@ -36,16 +36,19 @@ Below are a few tips to help understand statutes.
 
 - **Read the complete heading.** The heading (code/title/subtitle/chapter/subchapter/section) establishes how the section fits into the entire code’s organization.
 
-```
-LOCAL GOVERNMENT CODE
-TITLE 8. ACQUISITION, SALE, OR LEASE OF PROPERTY
+```--}{++{"author":"Elias's AI","timestamp":1787219666471}@@
+
+
+#### Article++}
+{--{"author":"Elias's AI","timestamp":1787219666471}@@LOCAL GOVERNMENT CODE--}{++{"author":"Elias's AI","timestamp":1787219666471}@@source:: [[../articles/texas-reading-statutes-and-bills-for-the-85th-legislature-texas-legislative-council]]++}
+{--{"author":"Elias's AI","timestamp":1787219666471}@@TITLE 8. ACQUISITION, SALE, OR LEASE OF PROPERTY
 SUBTITLE B. COUNTY ACQUISITION, SALE, OR LEASE OF PROPERTY
 CHAPTER 262. PURCHASING AND CONTRACTING AUTHORITY OF COUNTIES
 SUBCHAPTER C. COMPETITIVE BIDDING IN GENERAL
 Sec. 262.023. COMPETITIVE REQUIREMENTS FOR CERTAIN PURCHASES
 ```
 
-- **Check for the context of the statute.** Think of the statute as a unit of law that is part of a series of units of law and scan the table of contents to see what sections precede and follow the section you are reading. If there is a short title section (usually at the beginning of the chapter or subchapter), read it.
+- **Check --}{++{"author":"Elias's AI","timestamp":1787219666471}@@from:: ### Tips ++}for {--{"author":"Elias's AI","timestamp":1787219666471}@@the context of the statute.** Think of the statute as a unit of law that is part of a series of units of law --}{++{"author":"Elias's AI","timestamp":1787219666471}@@Reading ++}and{--{"author":"Elias's AI","timestamp":1787219666471}@@ scan the table of contents to see what sections precede and follow the section you are reading. If there is --}{++{"author":"Elias's AI","timestamp":1787219666471}@@ Understanding ++}a{--{"author":"Elias's AI","timestamp":1787219666471}@@ short title section (usually at the beginning of the chapter or subchapter), read it.
 
 ```
 Sec. 262.021. SHORT TITLE
@@ -53,8 +56,8 @@ Sec. 262.022. DEFINITIONS
 Sec. 262.0225. ADDITIONAL COMPETITIVE PROCEDURES
 Sec. 262.023. COMPETITIVE REQUIREMENTS FOR CERTAIN PURCHASES
 Sec. 262.0235. PROCEDURES ADOPTED BY COUNTY PURCHASING AGENTS FOR
-              ELECTRONIC BIDS OR PROPOSALS
-Sec. 262.024. DISCRETIONARY EXEMPTIONS
+              ELECTRONIC BIDS OR PROPOSALS--}{++{"author":"Elias's AI","timestamp":1787219666471}@@ Statute++}
+{--{"author":"Elias's AI","timestamp":1787219666471}@@Sec. 262.024. DISCRETIONARY EXEMPTIONS
 Sec. 262.0241. MANDATORY EXEMPTIONS: CERTAIN RECREATIONAL SERVICES
 Sec. 262.0245. COMPETITIVE PROCUREMENT PROCEDURES ADOPTED BY COUNTY
               PURCHASING AGENTS OR COMMISSIONERS COURT
@@ -66,7 +69,7 @@ Sec. 262.0256. PRE-BID CONFERENCE FOR CERTAIN COUNTIES OR A DISTRICT
 Sec. 262.026. OPENING OF BIDS
 ```
 
-- **Look for a definitions section and read it.** If present, it is usually found at the beginning of a chapter or subchapter. A definition may be used in the statutes to avoid repetition of a long term, for example, using the term “department” to refer to the Department of State Health Services. Make sure you understand references to general terms like “department,” “agency,” or “executive director.”
+--}{++{"author":"Elias's AI","timestamp":1787219666471}@@to:: ++}- **Look for a definitions section and read it.** If present, it is usually found at the beginning of a chapter or subchapter. A definition may be used in the statutes to avoid repetition of a long term, for example, using the term {--{"author":"Elias's AI","timestamp":1787219666471}@@“department”--}{++{"author":"Elias's AI","timestamp":1787219666471}@@"department"++} to refer to the Department of State Health Services. Make sure you understand references to general terms like{--{"author":"Elias's AI","timestamp":1787219666471}@@ “department,” “agency,” or “executive director.”
 
 **SourceBox**
 
@@ -74,7 +77,7 @@ Sec. 262.026. OPENING OF BIDS
 - Chapter 312, Government Code, applies to civil statutes generally.
 
 - **Pay close attention to the statute’s format and organization.** Look for breaks in the text. Assume everything in the statute has meaning, including punctuation and format.
-- **Look for key verbs.** Legislative drafters use important “action” words such as “may,” “shall,” or “must” that establish whether a provision requires or authorizes some action or condition. “Shall” denotes a duty imposed on a person or entity. “Must” denotes a condition that must be met or an event that must occur as a prerequisite to full legitimacy. “May” denotes a privilege or discretionary power. “Is entitled to” denotes a right, as opposed to discretionary power. “May not” and “shall not” denote a prohibition.
+- **Look for key verbs.** Legislative drafters use important “action” words such as “may,” “shall,” or “must” that establish whether a provision requires --}{++{"author":"Elias's AI","timestamp":1787219666471}@@ "department," "agency," ++}or {--{"author":"Elias's AI","timestamp":1787219666471}@@authorizes some action or condition. “Shall” denotes a duty imposed on a person or entity. “Must” denotes a condition that must be met or an event that must occur as a prerequisite to full legitimacy. “May” denotes a privilege or discretionary power. “Is entitled to” denotes a right, as opposed to discretionary power. “May not” and “shall not” denote a prohibition.
 
 **SourceBox**
 
@@ -99,7 +102,7 @@ Sec. 93.011. EMERGENCY CLOSING. (a) If the officers of a savings
 bank determine that an emergency that affects or may affect the savings
 bank's offices or operations exists or is impending, the officers, as
 reasonable, may determine: . . . .
-```
+```--}{++{"author":"Elias's AI","timestamp":1787219666471}@@"executive director."++}
 
 \## Apply the Treaty-Reading Method
 
