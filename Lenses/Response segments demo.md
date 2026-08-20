@@ -173,7 +173,8 @@ Within one++} FillBlank {--{"author":"Elias's AI","timestamp":1787222640186}@@wi
 
 - **Survey:** all Response segment types are ungraded.
 - **Normal lens:** responses may be graded practice or ungraded reflection.
-- **Learning Outcome test:** OpenResponse, Select, and FillBlank must be gradable. OpenResponse needs `assessment-instructions::`; Select needs at least one `[x]`; FillBlank needs `accepted-answers::`.
-- Rating never contributes to correctness score.
+- **Learning Outcome test:** {--{"author":"Elias's AI","timestamp":1787222650108}@@OpenResponse, Select,--}{++{"author":"Elias's AI","timestamp":1787222650108}@@OpenResponse++} and {--{"author":"Elias's AI","timestamp":1787222650108}@@FillBlank--}{++{"author":"Elias's AI","timestamp":1787222650108}@@Select++} must be gradable. {++{"author":"Elias's AI","timestamp":1787222650108}@@FillBlank may use answer-bearing blanks for grading or `{{blank}}` for an ungraded response. ++}OpenResponse needs `assessment-instructions::`; Select needs at least one {--{"author":"Elias's AI","timestamp":1787222650108}@@`[x]`; FillBlank needs `accepted-answers::`.
+- Rating--}{++{"author":"Elias's AI","timestamp":1787222650108}@@`[x]`.
+- Rating and ungraded FillBlank responses++} never {--{"author":"Elias's AI","timestamp":1787222650108}@@contributes--}{++{"author":"Elias's AI","timestamp":1787222650108}@@contribute++} to correctness score.
 
-Validator should reject duplicate keys, invalid field combinations, missing grading information in tests, invalid rating scales, too few select options, and missing or multiple `{{blank}}` markers.
+Validator should reject duplicate {--{"author":"Elias's AI","timestamp":1787222650108}@@keys,--}{++{"author":"Elias's AI","timestamp":1787222650108}@@IDs,++} invalid {++{"author":"Elias's AI","timestamp":1787222650108}@@UUIDs, invalid ++}field combinations, missing grading information {--{"author":"Elias's AI","timestamp":1787222650108}@@in tests,--}{++{"author":"Elias's AI","timestamp":1787222650108}@@where required,++} invalid rating scales, too few select options, {++{"author":"Elias's AI","timestamp":1787222650108}@@empty answer alternatives, ++}and {--{"author":"Elias's AI","timestamp":1787222650108}@@missing or multiple `{{blank}}` markers.--}{++{"author":"Elias's AI","timestamp":1787222650108}@@mixtures of graded and ungraded blanks in one segment.++}
