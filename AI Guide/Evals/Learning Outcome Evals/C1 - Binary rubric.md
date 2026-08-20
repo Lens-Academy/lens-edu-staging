@@ -21,6 +21,8 @@ If the file has multiple questions with rubrics, all must be binary for the chec
 - Multiple required criteria.
 - Appended qualitative-feedback guidance ("name the strongest part and the one thing that would most improve it") — feedback instructions are welcome; they're just not the scoring decision.
 
+
+
 ## Fail examples (from the corpus)
 
 - *The goal-space argument* rubric — a `**1**`…`**5**` ladder.
