@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787217240745}@@---
+{++{"author":"Elias's AI","timestamp":1787217390498}@@---
 slug: xlab-control-m1
 title: "Introduction, overview, and threat modeling"
 id: 'e63906c8-c199-4a51-890a-9d65507c699a'
@@ -12,9 +12,9 @@ id:: 661f1953-fa90-4ba5-a4b1-3e7aeb0c2d0a
 content::
 \## Alpha course
 
-This is an **alpha version of XLab's AI Control course**. XLab plans to test the material in a paid cohort, then may substantially rewrite it based on what they learn. Expect rough edges and changing material.
+We're currently in the alpha testing stage and running a small paid cohort to calibrate and improve the course ahead of the official launch. The materials are open for anyone to use in the meantime. If you do use them, we'd really appreciate it if you could fill out [this feedback form](https://forms.gle/KkWcHkKh87pygDzw9). Your feedback will help us identify issues, calibrate the course, and make improvements before launch.
 
-This Lens version follows [XLab's current public curriculum](https://aisafetytracks.com/tracks/control). For feedback on XLab's materials, contact [XLab](mailto:xlab-info@uchicago.edu?subject=Feedback%20on%20AI%20Control%20course). The dedicated feedback-form URL was not publicly available when this alpha was assembled.
+This Lens version follows [XLab's current public curriculum](https://aisafetytracks.com/tracks/control). XLab expects the material to change substantially after the paid cohort.
 
 \## How to use this course
 
