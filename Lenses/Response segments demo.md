@@ -148,7 +148,7 @@ Commas may separate thousands. Decimals and negative values work. Next example s
 id:: 1211df1d-70e8-4b93-a3b6-1ce44460ed1f
 content:: Earth is approximately {{number 147,500,000 to 152,000,000}} km from Sun.
 
-%% Numeric blanks store numbers, not text. Validator rejects malformed {--{"author":"Elias's AI","timestamp":1787255728879}@@numbers, --}{++{"author":"Elias's AI","timestamp":1787255728879}@@numeric syntax, ++}reversed ranges, and invalid thousands separators.{++{"author":"Elias's AI","timestamp":1787255728879}@@ Assessor LLM still assigns score; numeric target or range guides judgment rather than triggering programmatic pass/fail.++}
+%% Numeric blanks store numbers, not text. Validator rejects malformed numeric syntax, reversed ranges, and invalid thousands separators. Assessor LLM still assigns score; numeric target or range guides judgment rather than triggering programmatic pass/fail.
 
 One FillBlank may mix text and numeric blanks, and graded and ungraded blanks, for example: `I estimate {{number}} years because {{blank}}.`
 
