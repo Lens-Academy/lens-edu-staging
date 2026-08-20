@@ -2,7 +2,7 @@
 id: '8a469dde-e377-4d95-b997-592ca95db1c3'
 title: "Cognition, Cognitive Offloading, and the Tools We Already Use"
 tldr: "Offloading thinking to tools and people is not new and not lazy; it is how human brains have always worked. The cost is quiet: time offloaded is time not spent practising the skill."
-summary_for_tutor: "Core teaching lens for Unit 1 of 'Thinking about Thinking'. Presents authored content defining cognition and cognitive offloading, giving everyday examples, introducing distributed cognition, the efficiency motive, the practice trade-off, and the 'quiet loss' (spelling). Then runs the standard Recall, Processing, and Learning Question phases. The learning question is a wedge: an engineer who says offloading everything costs nothing; the student locates the trade-off and the quiet loss."
+summary_for_tutor: "Core teaching lens for Unit 1 of 'Thinking about Thinking'. Presents authored content defining cognition and cognitive offloading, giving everyday examples, introducing distributed cognition, the efficiency motive, the practice trade-off, and the 'quiet loss' (spelling). Then runs {--{"author":"AI","timestamp":1787256791563}@@the standard Recall, Processing, and--}{++{"author":"AI","timestamp":1787256791563}@@a merged Recall and Processing phase, followed by the++} Learning{--{"author":"AI","timestamp":1787256791563}@@ Question phases.--}{++{"author":"AI","timestamp":1787256791563}@@ Question.++} The learning question is a wedge: an engineer who says offloading everything costs nothing; the student locates the trade-off and the quiet loss."
 tags:
   - wip
 ---
@@ -80,7 +80,7 @@ What not to do: re-teach the content as a mini-lecture;{--{"author":"Course AI's
 
 #### Question
 content::
-\## Phase 2: Processing
+\## Phase 2: {--{"author":"AI","timestamp":1787256787083}@@Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organise. Just capture your reaction. Speech-to-text is recommended here too.
 
 assessment-instructions:: The student has just completed a free recall of a short teaching piece on cognition and cognitive offloading and is now reflecting on how it landed (what resonated, what confused, what they doubted).
@@ -103,7 +103,7 @@ What not to do: resolve confusion with a mini-lecture; agree or disagree with th
 
 #### Question
 content::
-\## Phase 3: Learning Question
+\## Phase 3: --}Learning Question
 An engineer tells you: "I stopped doing mental arithmetic years ago. Calculators and AI do it better than me, and that frees my brain for the big ideas. Nothing is lost. Everyone should offload everything."
 
 Both halves of what the engineer says are true: the tools do perform better, and the brain is freed. The conclusion still does not follow. Where does the reasoning break down, and what is the engineer not noticing?
