@@ -34,9 +34,9 @@ source:: [[../articles/the-decision-lab-distributed-cognition]]
 from:: "This is one example of what cognitive scientists call"
 to:: "by extensions of our minds in the external world."
 
-++}---
+++}{--{"author":"AI","timestamp":1787255109153}@@---
 
-#### Question
+--}#### Question
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended here.
