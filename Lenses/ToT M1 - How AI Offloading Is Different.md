@@ -70,9 +70,9 @@ What not to do: resolve confusion with a mini-lecture; adjudicate the student's 
 #### Question
 content::
 \## Phase 3: Learning Question
-A student says: "I asked the AI to explain why my company's sales dropped. It gave me a clear three-part analysis with a recommendation. I checked that the sentences looked good and accepted it. That is the same as using a calculator: the tool did the work, and I stayed in control."
+A student says: "I asked the AI to explain why my company's sales dropped. It {++{"author":"AI","timestamp":1787252886906}@@showed its reasoning first, step by step, then ++}gave me a clear three-part analysis with a recommendation. I {--{"author":"AI","timestamp":1787252886906}@@checked that the sentences looked good--}{++{"author":"AI","timestamp":1787252886906}@@read the reasoning through, it made sense,++} and {--{"author":"AI","timestamp":1787252886906}@@accepted it.--}{++{"author":"AI","timestamp":1787252886906}@@the sentences looked good.++} That is the same as using a calculator: the tool did the work, {++{"author":"AI","timestamp":1787252886906}@@it showed its working, ++}and I stayed in control."
 
-The student's feeling is understandable, and the comparison is popular. Where does it break down? What is actually different about what the AI did, compared with what a calculator does?
+The student's feeling is understandable, and the comparison is popular. Where does it break down? What is actually different about what the AI {--{"author":"AI","timestamp":1787252886906}@@did,--}{++{"author":"AI","timestamp":1787252886906}@@showed,++} compared with what a calculator {--{"author":"AI","timestamp":1787252886906}@@does?--}{++{"author":"AI","timestamp":1787252886906}@@shows?++}
 
 assessment-instructions:: The student has completed a reading, a recall, and a reflection on how AI offloading differs from earlier tools. They are now in the main discussion phase. The question is a deliberate wedge: a plausible-sounding comparison between an AI analysis and a calculator; the student should locate what is different.
 
