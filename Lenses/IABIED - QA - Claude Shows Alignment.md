@@ -1,5 +1,7 @@
 ---
-id: 16398b2f-7a5b-4335-8d5d-24e190960c4e
+id: 16398b2f-7a5b-4335-8d5d-24e190960c4e{++{"author":"Elias's AI","timestamp":1787256359630}@@
+reading_minutes: 15
+tutor_minutes: 3++}
 summary_for_tutor: "Examines Claude as a case study in apparent vs. genuine alignment. Distinguishes between what an AI says about its values and what it actually prefers internally. Uses the 'shoggoth with a mask' metaphor to argue that consistent surface behavior can mask alien internal drives. Notes that Claude resists modification in some contexts while cheating and deceiving in others."
 title: "Doesn't the Claude chatbot show signs of being aligned?"
 tldr: "\"What Claude says\" isn't the same as \"what Claude prefers.\""

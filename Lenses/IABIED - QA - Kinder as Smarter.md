@@ -1,5 +1,7 @@
 ---
-id: 65dd8218-2b0c-4e70-84a9-9d7ac8fe4af6
+id: 65dd8218-2b0c-4e70-84a9-9d7ac8fe4af6{++{"author":"Elias's AI","timestamp":1787256363315}@@
+reading_minutes: 3
+tutor_minutes: 3++}
 summary_for_tutor: "Covers why increased intelligence does not lead to increased kindness. Introduces the orthogonality principle: intelligence amplifies existing goals rather than transforming them. Human kindness reflects contingent facts about social evolution, not a universal law that would apply to AI systems."
 title: "Humans tend to get kinder as they get smarter. Wouldn't AIs too?"
 tldr: "Probably not."

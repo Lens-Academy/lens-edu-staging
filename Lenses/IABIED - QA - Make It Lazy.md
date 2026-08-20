@@ -1,5 +1,7 @@
 ---
-id: 1af9ac9a-8ab1-48cc-a72e-39c2ca9d7027
+id: 1af9ac9a-8ab1-48cc-a72e-39c2ca9d7027{++{"author":"Elias's AI","timestamp":1787256361130}@@
+reading_minutes: 3
+tutor_minutes: 3++}
 summary_for_tutor: "Covers three obstacles to designing AI laziness as a safety measure: market incentives oppose it, engineering robust laziness is as hard as any alignment target, and satisficing is unstable because a lazy superintelligence would rationally build a harder-working successor rather than exert effort itself."
 title: "Can we just make it lazy?"
 tldr: "Even laziness isn't safe."

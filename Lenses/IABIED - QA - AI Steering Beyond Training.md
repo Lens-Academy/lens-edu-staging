@@ -1,5 +1,7 @@
 ---
-id: 66a11607-f9f4-4dc4-9c27-1e657e2ab50b
+id: 66a11607-f9f4-4dc4-9c27-1e657e2ab50b{++{"author":"Elias's AI","timestamp":1787256355974}@@
+reading_minutes: 8
+tutor_minutes: 3++}
 summary_for_tutor: "Covers the 'barn painter' problem: many different internal drive systems can produce identical behavior during training but diverge wildly in novel conditions. Uses the evolution-reproduction analogy (humans invented birth control despite being 'trained' to reproduce) to argue that current helpful AI behavior reflects a contingent equilibrium that would shift as AI becomes more capable or encounters different environments."
 title: "Why would an AI steer toward anything other than what it was trained to steer toward?"
 tldr: "Because there are many ways to perform well in training."
