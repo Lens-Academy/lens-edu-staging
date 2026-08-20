@@ -232,24 +232,27 @@ Try it:--}{++{"author":"Elias's AI","timestamp":1787253870467}@@range. %%++}
 id:: 1211df1d-70e8-4b93-a3b6-1ce44460ed1f
 content:: Earth is approximately {{number 147,500,000 to 152,000,000}} km from Sun.
 
-#### Text
+{--{"author":"Elias's AI","timestamp":1787253874947}@@#### Text
 content::
-Numeric blanks accept integers, decimals, negative values, and commas as thousands separators. They store numbers, not text. Ranges include both endpoints. Validator should reject malformed numbers, reversed ranges, and commas placed anywhere except between groups of three digits.
+--}{++{"author":"Elias's AI","timestamp":1787253874947}@@%% ++}Numeric blanks{--{"author":"Elias's AI","timestamp":1787253874947}@@ accept integers, decimals, negative values, and commas as thousands separators. They --}{++{"author":"Elias's AI","timestamp":1787253874947}@@ ++}store numbers, not text. {--{"author":"Elias's AI","timestamp":1787253874947}@@Ranges include both endpoints. --}Validator {--{"author":"Elias's AI","timestamp":1787253874947}@@should reject--}{++{"author":"Elias's AI","timestamp":1787253874947}@@rejects++} malformed numbers, reversed ranges, and {--{"author":"Elias's AI","timestamp":1787253874947}@@commas placed anywhere except between groups of three digits.--}{++{"author":"Elias's AI","timestamp":1787253874947}@@invalid thousands separators.++}
 
-One FillBlank segment may mix text and numeric blanks, and graded and ungraded blanks:
+One FillBlank{--{"author":"Elias's AI","timestamp":1787253874947}@@ segment--} may mix text and numeric blanks, and graded and ungraded {--{"author":"Elias's AI","timestamp":1787253874947}@@blanks:
 
-> `content:: I estimate {{number}} years because {{blank}}.`
+> `content:: I--}{++{"author":"Elias's AI","timestamp":1787253874947}@@blanks, for example: `I++} estimate {{number}} years because {{blank}}.`
 
-Optional fields:
+{--{"author":"Elias's AI","timestamp":1787253874947}@@Optional fields:
 
-- `required:: true`: require every blank. Defaults to `false`.
-- `feedback-instructions:: ...`: ask AI to provide learner-facing feedback. Defaults to no AI feedback when omitted. Feedback does not change which blanks are graded.
+--}{++{"author":"Elias's AI","timestamp":1787253874947}@@FillBlank options:
+++}- {--{"author":"Elias's AI","timestamp":1787253874947}@@`required::--}{++{"author":"Elias's AI","timestamp":1787253874947}@@`optional::++} true`: {--{"author":"Elias's AI","timestamp":1787253874947}@@require every blank.--}{++{"author":"Elias's AI","timestamp":1787253874947}@@allow skipping whole segment.++} Defaults to {--{"author":"Elias's AI","timestamp":1787253874947}@@`false`.--}{++{"author":"Elias's AI","timestamp":1787253874947}@@`false`, so every blank is required.++}
+- `feedback-instructions:: ...`: {--{"author":"Elias's AI","timestamp":1787253874947}@@ask--}{++{"author":"Elias's AI","timestamp":1787253874947}@@learner-facing++} AI{--{"author":"Elias's AI","timestamp":1787253874947}@@ to provide learner-facing--} feedback. Defaults to {--{"author":"Elias's AI","timestamp":1787253874947}@@no AI feedback when omitted. Feedback--}{++{"author":"Elias's AI","timestamp":1787253874947}@@none and++} does not{--{"author":"Elias's AI","timestamp":1787253874947}@@ change which blanks are graded.--}{++{"author":"Elias's AI","timestamp":1787253874947}@@ affect grading.++}
 
-Segment score is correctly answered graded blanks divided by total graded blanks. Ungraded blanks are excluded. If segment has no graded blanks, entire response is ungraded.
+{--{"author":"Elias's AI","timestamp":1787253874947}@@Segment score--}{++{"author":"Elias's AI","timestamp":1787253874947}@@Score++} is {--{"author":"Elias's AI","timestamp":1787253874947}@@correctly answered--}{++{"author":"Elias's AI","timestamp":1787253874947}@@correct++} graded blanks divided by {--{"author":"Elias's AI","timestamp":1787253874947}@@total--}{++{"author":"Elias's AI","timestamp":1787253874947}@@all++} graded blanks. Ungraded blanks are excluded.{--{"author":"Elias's AI","timestamp":1787253874947}@@ If segment has no--}{++{"author":"Elias's AI","timestamp":1787253874947}@@ No++} graded {--{"author":"Elias's AI","timestamp":1787253874947}@@blanks, entire response is ungraded.--}{++{"author":"Elias's AI","timestamp":1787253874947}@@blanks means ungraded segment.++}
 
-\## Grading rules
+{--{"author":"Elias's AI","timestamp":1787253874947}@@\## --}Grading {--{"author":"Elias's AI","timestamp":1787253874947}@@rules
 
-- **Survey:** all Response segment types are ungraded.
-- **Normal lens:** responses may be graded practice or ungraded reflection.
-- **Learning Outcome test:** OpenResponse and Select must be gradable. FillBlank may contain graded and ungraded blanks. OpenResponse needs `assessment-instructions::`; Select needs at least one `[x]`.
-- Rating and wholly ungraded FillBlank responses never contribute to correctness score.
+- **Survey:** all Response segment types are ungraded.--}{++{"author":"Elias's AI","timestamp":1787253874947}@@by context:
+- Surveys never grade.++}
+-{--{"author":"Elias's AI","timestamp":1787253874947}@@ **Normal lens:** responses--}{++{"author":"Elias's AI","timestamp":1787253874947}@@ Normal lenses++} may {--{"author":"Elias's AI","timestamp":1787253874947}@@be--}{++{"author":"Elias's AI","timestamp":1787253874947}@@contain++} graded practice or ungraded reflection.
+- {--{"author":"Elias's AI","timestamp":1787253874947}@@**Learning--}{++{"author":"Elias's AI","timestamp":1787253874947}@@Learning++} Outcome {--{"author":"Elias's AI","timestamp":1787253874947}@@test:**--}{++{"author":"Elias's AI","timestamp":1787253874947}@@tests require gradable++} OpenResponse and {--{"author":"Elias's AI","timestamp":1787253874947}@@Select must be gradable. --}{++{"author":"Elias's AI","timestamp":1787253874947}@@Select. ++}FillBlank may {--{"author":"Elias's AI","timestamp":1787253874947}@@contain--}{++{"author":"Elias's AI","timestamp":1787253874947}@@mix++} graded and ungraded blanks.{++{"author":"Elias's AI","timestamp":1787253874947}@@
+-++} OpenResponse {++{"author":"Elias's AI","timestamp":1787253874947}@@grading ++}needs `assessment-instructions::`; Select {--{"author":"Elias's AI","timestamp":1787253874947}@@needs at least one --}{++{"author":"Elias's AI","timestamp":1787253874947}@@grading needs ++}`[x]`.
+- Rating and wholly ungraded FillBlank {--{"author":"Elias's AI","timestamp":1787253874947}@@responses --}never {--{"author":"Elias's AI","timestamp":1787253874947}@@contribute to correctness score.--}{++{"author":"Elias's AI","timestamp":1787253874947}@@affect score. %%++}
