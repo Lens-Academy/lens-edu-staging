@@ -140,7 +140,8 @@ source:: ![[../Lenses/IABIED - One Extinction Scenario (Video)]]
 id:: e196bef6-01c9-48d8-b252-c1561bf52111
 tldr:: Optional companion Q&As for the scenario's opening: why the story is set up this way, how Sable thinks, and whether Galvanic was fairly or insufficiently careful. Pick the ones that interest you.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 7 (Realization). Links the book website's supplementary Q&A cards for Part II covering the scenario's construction: why this setup, Sable's thinking, whether Galvanic was fairly or insufficiently careful, and whether only one smart AI matters. A navigation and index lens only; it carries no standalone teaching content of its own.
-optional:: true
+{++{"author":"Elias's AI","timestamp":1787256599490}@@reading_minutes:: 2
+++}optional:: true
 
 #### Text
 content::
