@@ -44,7 +44,8 @@ source:: ![[../Lenses/IABIED - Position Not Despair]]
 id:: 5db4d07c-cbb5-4b6f-ad50-427eb9a62386
 tldr:: The authors answered the objections Chapter 10 invites: is AI really different from past technologies, will there be enough time to solve alignment, and what Chicago Pile-1 teaches about cursed problems.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 10 (A Cursed Problem). Links the book website's supplementary Q&A cards covering whether AI differs from precedents and from nuclear reactors, time to solve alignment, many different AIs, slow AI integration, before-and-after framing, and Chicago Pile-1. A navigation and index lens only; it carries no standalone teaching content of its own.
-optional:: true
+{++{"author":"Elias's AI","timestamp":1787256684628}@@reading_minutes:: 2
+++}optional:: true
 
 #### Text
 content::
@@ -124,7 +125,8 @@ source:: ![[../Lenses/IABIED - Strong Superalignment Objection]]
 id:: 1a96c108-14b1-4b19-9c24-0f44fced1374
 tldr:: Chapter 11's optional Q&As: can't we just muddle through, is alignment all-or-nothing, can interpretability save us, and what shutdown buttons would really take.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 11 (An Alchemy, Not a Science). Links the book website's supplementary Q&A cards covering muddling through, alignment as all-or-nothing, government involvement, reckless versus incompetent labs, hardware overhang, racing for alignment research, non-dangerous deployment, interpretability, AIs debating and overseeing each other, other alignment plans, early warnings, plans critiqued, respect for the problem, and shutdown buttons and corrigibility. A navigation and index lens only; it carries no standalone teaching content of its own.
-optional:: true
+{++{"author":"Elias's AI","timestamp":1787256686474}@@reading_minutes:: 2
+++}optional:: true
 
 #### Text
 content::
