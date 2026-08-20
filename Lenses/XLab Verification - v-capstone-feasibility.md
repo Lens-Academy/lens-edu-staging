@@ -28,52 +28,90 @@ content::
 
 “Is this mechanism feasible?” is usually too vague to answer beyond an initial intuition check, like you did in 1.0.2. Feasibility depends on myriad factors, including what the mechanism must verify, whom it must cover, where it would operate, how soon it must be deployed, and what level of performance is required. A serious feasibility assessment should answer four connected questions, which you were introduced to at the beginning of Module 2:
 
-**FeasibilityGrid**
+{--{"author":"Elias's AI","timestamp":1787256987999}@@**FeasibilityGrid**
 
   
 **FeasibilityCard**
 
-    Can the mechanism be built and operated at the required scale? Examine the maturity of its hardware and software, its error rates, cost, staffing needs, security, dependencies, and performance under realistic conditions. Keep the distinction between a promising component and a complete operational system. The existence of hardware attestation, for example, does not by itself prove that a full training claim can be reliably verified.
+    --}{++{"author":"Elias's AI","timestamp":1787256987999}@@:::callout {title="Technical feasibility" tone="blue"}
+++}Can the mechanism be built and operated at the required scale? Examine the maturity of its hardware and software, its error rates, cost, staffing needs, security, dependencies, and performance under realistic conditions. Keep the distinction between a promising component and a complete operational system. The existence of hardware attestation, for example, does not by itself prove that a full training claim can be reliably verified.{--{"author":"Elias's AI","timestamp":1787256987999}@@
 
-    **Source:** Shavit (2023), [What does it take to catch a Chinchilla?](https://arxiv.org/abs/2303.11341) (arXiv:2303.11341)
+    --}{++{"author":"Elias's AI","timestamp":1787256987999}@@
 
-    **Excerpt (from the abstract):** “The system consists of interventions at three stages: (1) using on-chip firmware to occasionally save snapshots of the the neural network weights stored in device memory, in a form that an inspector could later retrieve; (2) saving sufficient information about each training run to prove to inspectors the details of the training run that had resulted in the snapshotted weights; and (3) monitoring the chip supply chain to ensure that no actor can avoid discovery by amassing a large quantity of un-tracked chips.”
+++}**Source:** Shavit (2023), [What does it take to catch a Chinchilla?](https://arxiv.org/abs/2303.11341) (arXiv:2303.11341){--{"author":"Elias's AI","timestamp":1787256987999}@@
 
-    **What you should glean:** The author must chain three subsystems together before the mechanism can operate. Count the parts that exist today and the parts that are only proposals. The firmware, the training log, and the supply-chain monitor are each a separate engineering project, so the full system is far less mature than its most mature part.
+    --}{++{"author":"Elias's AI","timestamp":1787256987999}@@
+
+++}**Excerpt (from the abstract):** “The system consists of interventions at three stages: (1) using on-chip firmware to occasionally save snapshots of the the neural network weights stored in device memory, in a form that an inspector could later retrieve; (2) saving sufficient information about each training run to prove to inspectors the details of the training run that had resulted in the snapshotted weights; and (3) monitoring the chip supply chain to ensure that no actor can avoid discovery by amassing a large quantity of un-tracked chips.”{--{"author":"Elias's AI","timestamp":1787256987999}@@
+
+    --}{++{"author":"Elias's AI","timestamp":1787256987999}@@
+
+++}**What you should glean:** The author must chain three subsystems together before the mechanism can operate. Count the parts that exist today and the parts that are only proposals. The firmware, the training log, and the supply-chain monitor are each a separate engineering project, so the full system is far less mature than its most mature part.{--{"author":"Elias's AI","timestamp":1787256987999}@@
   
   
 **FeasibilityCard**
 
-    Whose cooperation is required, and how easy is it to get them to agree? A verification system may depend on legislators, regulators, laboratories, cloud providers, chipmakers, standards bodies, inspectors, foreign governments, and/or enforcement agencies. Identify who must authorize, build, operate, provide access, interpret findings, and act on them. Then identify which actor could block implementation, and why: consider the benefits actors might receive, the costs and risks they might bear, and available alternatives.
+    --}{++{"author":"Elias's AI","timestamp":1787256987999}@@
+:::
 
-    **Source:** Sheehan (Carnegie, Aug 2024), [China’s Views on AI Safety Are Changing—Quickly](https://carnegieendowment.org/research/2024/08/chinas-views-on-ai-safety-are-changing-quickly)
+:::callout {title="Political feasibility" tone="purple"}
+++}Whose cooperation is required, and how easy is it to get them to agree? A verification system may depend on legislators, regulators, laboratories, cloud providers, chipmakers, standards bodies, inspectors, foreign governments, and/or enforcement agencies. Identify who must authorize, build, operate, provide access, interpret findings, and act on them. Then identify which actor could block implementation, and why: consider the benefits actors might receive, the costs and risks they might bear, and available alternatives.{--{"author":"Elias's AI","timestamp":1787256987999}@@
 
-    **Excerpt:** The July 2024 Third Plenum decision called on the government to “establish an AI safety supervision and regulation system”: the first major CCP policy document to call for oversight aimed at frontier AI risks.
+    --}{++{"author":"Elias's AI","timestamp":1787256987999}@@
 
-    **What you should glean:** One necessary actor put a new position into its most authoritative document type. This is direct data about political feasibility: a mechanism that needs the agreement of the Chinese government became easier to get in July 2024 than it was in 2023. Track the document type, not only the words, because a Plenum decision binds more actors than an op-ed does.
+++}**Source:** Sheehan (Carnegie, Aug 2024), [China’s Views on AI Safety Are Changing—Quickly](https://carnegieendowment.org/research/2024/08/chinas-views-on-ai-safety-are-changing-quickly){--{"author":"Elias's AI","timestamp":1787256987999}@@
+
+    --}{++{"author":"Elias's AI","timestamp":1787256987999}@@
+
+++}**Excerpt:** The July 2024 Third Plenum decision called on the government to “establish an AI safety supervision and regulation system”: the first major CCP policy document to call for oversight aimed at frontier AI risks.{--{"author":"Elias's AI","timestamp":1787256987999}@@
+
+    --}{++{"author":"Elias's AI","timestamp":1787256987999}@@
+
+++}**What you should glean:** One necessary actor put a new position into its most authoritative document type. This is direct data about political feasibility: a mechanism that needs the agreement of the Chinese government became easier to get in July 2024 than it was in 2023. Track the document type, not only the words, because a Plenum decision binds more actors than an op-ed does.{--{"author":"Elias's AI","timestamp":1787256987999}@@
   
   
 **FeasibilityCard**
 
-    Would the mechanism produce evidence that matters? Ask what claim the evidence would actually support, how direct it is, whether it has been tested against adaptive evasion, and which actors or activities remain outside its coverage. A deployable mechanism may still contribute little to detecting, deterring, or demonstrating compliance.
+    --}{++{"author":"Elias's AI","timestamp":1787256987999}@@
+:::
 
-    **Source:** Wasil, Reed, Miller & Barnett (2024), [Verification methods for international AI agreements](https://arxiv.org/abs/2408.16074) (arXiv:2408.16074)
+:::callout {title="Verification effectiveness" tone="green"}
+++}Would the mechanism produce evidence that matters? Ask what claim the evidence would actually support, how direct it is, whether it has been tested against adaptive evasion, and which actors or activities remain outside its coverage. A deployable mechanism may still contribute little to detecting, deterring, or demonstrating compliance.{--{"author":"Elias's AI","timestamp":1787256987999}@@
 
-    **Excerpt (on data center inspections):** “Inspections can only be carried out with the agreement of the host nation, potentially allowing time for concealment of violations.”
+    --}{++{"author":"Elias's AI","timestamp":1787256987999}@@
 
-    **What you should glean:** The mechanism is fully buildable, but the evidence it produces is weak against an adaptive adversary. A clean inspection report only supports the claim “we found nothing at the declared site on the agreed day.” Ask what claim the evidence supports, not whether the mechanism can run.
+++}**Source:** Wasil, Reed, Miller & Barnett (2024), [Verification methods for international AI agreements](https://arxiv.org/abs/2408.16074) (arXiv:2408.16074){--{"author":"Elias's AI","timestamp":1787256987999}@@
+
+    --}{++{"author":"Elias's AI","timestamp":1787256987999}@@
+
+++}**Excerpt (on data center inspections):** “Inspections can only be carried out with the agreement of the host nation, potentially allowing time for concealment of violations.”{--{"author":"Elias's AI","timestamp":1787256987999}@@
+
+    --}{++{"author":"Elias's AI","timestamp":1787256987999}@@
+
+++}**What you should glean:** The mechanism is fully buildable, but the evidence it produces is weak against an adaptive adversary. A clean inspection report only supports the claim “we found nothing at the declared site on the agreed day.” Ask what claim the evidence supports, not whether the mechanism can run.{--{"author":"Elias's AI","timestamp":1787256987999}@@
   
   
 **FeasibilityCard**
 
-    Will the verification mechanism persist across technological and geopolitical change, or is it easily rendered obsolete by capability jumps or the decline of a fraught inter-country relationship? A fixed compute threshold is relatively fragile because improvements in algorithms can move dangerous capabilities below the regulated line. Chip-level logging or attestation may be more durable because it is anchored in physical infrastructure with slower turnover. Durability is therefore comparative: even hardware-based mechanisms require updating as chips, supply chains, and evasion strategies change.
+    --}{++{"author":"Elias's AI","timestamp":1787256987999}@@
+:::
 
-    **Source:** Hooker (2024), [On the Limitations of Compute Thresholds as a Governance Strategy](https://arxiv.org/html/2407.05694v1) (arXiv:2407.05694)
+:::callout {title="Durability" tone="amber"}
+++}Will the verification mechanism persist across technological and geopolitical change, or is it easily rendered obsolete by capability jumps or the decline of a fraught inter-country relationship? A fixed compute threshold is relatively fragile because improvements in algorithms can move dangerous capabilities below the regulated line. Chip-level logging or attestation may be more durable because it is anchored in physical infrastructure with slower turnover. Durability is therefore comparative: even hardware-based mechanisms require updating as chips, supply chains, and evasion strategies change.{--{"author":"Elias's AI","timestamp":1787256987999}@@
 
-    **Excerpt (from the abstract):** “A key conclusion of this essay is that compute thresholds, as currently implemented, are shortsighted and likely to fail to mitigate risk. The relationship between compute and risk is highly uncertain and rapidly changing. Relying upon compute thresholds overestimates our ability to predict what abilities emerge at different scales.”
+    --}{++{"author":"Elias's AI","timestamp":1787256987999}@@
 
-    **What you should glean:** The threshold decays because the quantity it measures and the risk it targets move apart over time. Ask this of each mechanism: which external change breaks the connection between what it measures and what the treaty cares about, and how fast does that change move? A mechanism with an update path survives; a fixed number does not.
-  
+++}**Source:** Hooker (2024), [On the Limitations of Compute Thresholds as a Governance Strategy](https://arxiv.org/html/2407.05694v1) (arXiv:2407.05694){--{"author":"Elias's AI","timestamp":1787256987999}@@
+
+    --}{++{"author":"Elias's AI","timestamp":1787256987999}@@
+
+++}**Excerpt (from the abstract):** “A key conclusion of this essay is that compute thresholds, as currently implemented, are shortsighted and likely to fail to mitigate risk. The relationship between compute and risk is highly uncertain and rapidly changing. Relying upon compute thresholds overestimates our ability to predict what abilities emerge at different scales.”{--{"author":"Elias's AI","timestamp":1787256987999}@@
+
+    --}{++{"author":"Elias's AI","timestamp":1787256987999}@@
+
+++}**What you should glean:** The threshold decays because the quantity it measures and the risk it targets move apart over time. Ask this of each mechanism: which external change breaks the connection between what it measures and what the treaty cares about, and how fast does that change move? A mechanism with an update path survives; a fixed number does not.{--{"author":"Elias's AI","timestamp":1787256987999}@@
+  --}{++{"author":"Elias's AI","timestamp":1787256987999}@@
+:::++}
 
 \## Drill Bench
 
