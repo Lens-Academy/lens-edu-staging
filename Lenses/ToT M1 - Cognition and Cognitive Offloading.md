@@ -32,7 +32,7 @@ Read this short definition of distributed cognition from The Decision Lab. It na
 #### Article
 source:: [[../articles/the-decision-lab-distributed-cognition]]
 from:: "The Basic Idea"
-to:: "by extensions of our minds in the external world."
+to:: "but a new way of viewing how cognition works."
 
 #### Question
 content::
