@@ -1,5 +1,7 @@
 ---
-id: 9f408d1e-0253-8486-1bac-23d4e5678901
+id: 9f408d1e-0253-8486-1bac-23d4e5678901{++{"author":"Elias's AI","timestamp":1787256804008}@@
+reading_minutes: 15
+tutor_minutes: 15++}
 summary_for_tutor: "Teaches the concept of 'un-writing a fate already written' from the first section of Chapter 14. Students read the Vesna Vulović opening and the nuclear war precedent, then articulate why the chapter treats avoiding nuclear war as evidence that a seemingly predicted catastrophe can be actively reversed through sustained human effort."
 title: "Un-Writing Our Fate"
 tldr: "A predicted catastrophic outcome isn't destiny. The Cold War generation reversed a nuclear fate through decades of deliberate effort, and the chapter asks whether we can do the same for AI."

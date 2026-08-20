@@ -1,5 +1,7 @@
 ---
-id: 8e3f60c7-9142-7375-0afb-12c3d4567890
+id: 8e3f60c7-9142-7375-0afb-12c3d4567890{++{"author":"Elias's AI","timestamp":1787256806524}@@
+reading_minutes: 2
+tutor_minutes: 3++}
 summary_for_tutor: "Priming question before Chapter 14, section 2. Students consider what they personally can do about a large-scale existential threat, and whether their answer depends on their role or position, setting up the chapter's role-specific calls to action."
 title: "Pre-Reading Question - Role-Specific Action"
 tldr: "If you were convinced AI poses a genuine extinction risk, what would you actually do about it? And would your answer change depending on whether you're a government leader, a politician, a journalist, or an ordinary person?"

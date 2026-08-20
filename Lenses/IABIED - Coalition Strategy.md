@@ -1,5 +1,7 @@
 ---
-id: 57b3e841-a9c0-4d16-f892-2e7b4f1c8a03
+id: 57b3e841-a9c0-4d16-f892-2e7b4f1c8a03{++{"author":"Elias's AI","timestamp":1787256802148}@@
+reading_minutes: 15
+tutor_minutes: 15++}
 summary_for_tutor: "Teaches the coalition strategy from Chapter 13, section 2. Students read the chapter's critique of lesser proposals and its argument that the anti-extinction coalition must stay narrow (one ask only, no bundling) and articulate the reasoning behind this constraint."
 title: "Coalition Strategy"
 tldr: "The anti-extinction coalition has one ask: no human extinction. Adding anything else risks the coalition failing, and coalition failure means extinction. Chapter 13 explains why the narrowness is the strategy."
