@@ -79,7 +79,8 @@ content:: Purely optional: is there anything from this module you want to note d
 # Lens: Control chat without a minimum
 id:: d3d75f10-d930-4fc1-a52c-fcfcc65f05a0
 tldr:: The baseline case: a chat lens with no requirements, where "Mark section complete" works right away, even if you never say a word.
-summary_for_tutor:: Control demo lens with no min_chat_messages, showing the default behavior where completion is available immediately. A Text segment states this and a Chat segment offers optional casual conversation.
+summary_for_tutor:: Control demo lens with no min_chat_messages, showing the default behavior where completion is available immediately. A Text segment states this and a Chat segment offers optional casual conversation.{++{"author":"Elias's AI","timestamp":1787228466597}@@
+duration_minutes:: 2++}
 
 #### Text
 content::
