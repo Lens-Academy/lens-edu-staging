@@ -160,7 +160,7 @@ Table 1: Summary of the key governance capacities that compute providers can ena
 
 These governance capacities are distinct from but related to obligations to _report_ information to governments. In many cases, it will be appropriate for compute providers to collect and retain information internally and only provide information to governments in response to existing legal authorities (for example, identified violations of sanctions, or in response to legal warrants). In other cases, for example, where a customer is undertaking a large training run, regulators may see fit to mandate proactive reporting. Record keeping can ensure that compute providers are aware of, and able to comply with, broader regulations to increase visibility and oversight.
 
-![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img3-eb6c315f.png]]
+{--{"author":"Elias's AI","timestamp":1787227214300}@@![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img3-eb6c315f.png]]--}{++{"author":"Elias's AI","timestamp":1787227214300}@@![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img3-eb6c315f.png)++}
 
 Figure 4: Overview of the different governance capacities and how they relate to three actors: customers (the AI developers and deployers), compute providers, and regulators.
 
@@ -168,7 +168,7 @@ Figure 4: Overview of the different governance capacities and how they relate to
 
 Compute providers, as custodians of sensitive data and AI-related IP, have a distinct capacity for governing and implementing information security measures that protect AI systems.
 
-![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img4-eb6c315f.png]]
+{--{"author":"Elias's AI","timestamp":1787227218024}@@![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img4-eb6c315f.png]]--}{++{"author":"Elias's AI","timestamp":1787227218024}@@![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img4-eb6c315f.png)++}
 
 Figure 5: The security measures implemented by compute providers to help protect AI company’s models, intellectual property, and confidential data.
 
