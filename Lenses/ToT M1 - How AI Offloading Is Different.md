@@ -34,10 +34,10 @@ This sets up a question we will return to through the whole course: whether help
 
 #### Question
 content::
-\## Phase 1: Recall
-Spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended here.
+\## {--{"author":"AI","timestamp":1787258589225}@@Phase 1: Recall--}{++{"author":"AI","timestamp":1787258589225}@@Check your Understanding++}
+{--{"author":"AI","timestamp":1787258589225}@@Spend 2 minutes writing down everything you can remember--}{++{"author":"AI","timestamp":1787258589225}@@Let's talk about the reading. In your own words, what did you take++} from {--{"author":"AI","timestamp":1787258589225}@@the reading, without looking back. Anything and everything. No need to organise it.--}{++{"author":"AI","timestamp":1787258589225}@@it — what stayed with you, what puzzled you, what you'd push back on? Say as much or as little as you like.++} Speech-to-text is{--{"author":"AI","timestamp":1787258589225}@@ highly recommended here.--}{++{"author":"AI","timestamp":1787258589225}@@ recommended.++}
 
-assessment-instructions:: The student has just read a short teaching piece on how AI offloading differs from earlier tools (Unit 1 of "Thinking about Thinking") and has written a free recall of it. Your role is diagnostic, not instructional. Act as a brief, honest mirror.
+assessment-instructions:: The student has just read a short teaching piece on how AI offloading differs from earlier tools (Unit 1 of "Thinking about {--{"author":"AI","timestamp":1787258589225}@@Thinking") and has written a free recall of it.--}{++{"author":"AI","timestamp":1787258589225}@@Thinking"). They are now talking it through with you.++} Your role is {++{"author":"AI","timestamp":1787258589225}@@to lead a short discussion about the reading: draw out what they took from it, what resonated, what confused them, and what they doubt. You are ++}diagnostic, not instructional. Act as a brief, honest {--{"author":"AI","timestamp":1787258589225}@@mirror.--}{++{"author":"AI","timestamp":1787258589225}@@mirror, not a lecturer.++}
 
 Key concepts in the piece:
 - Older tools offload narrow tasks (arithmetic, routing, spelling) while judgement stays with the user
@@ -47,43 +47,49 @@ Key concepts in the piece:
 - The one-line difference: older tools offload work we can still check; AI often offloads work whose only visible check is the AI's own say-so
 - The teaser: whether help helps depends on when and how you use it
 
-Response length: 80 to 150 words. Short paragraphs only. No lists.
+Response length: {++{"author":"AI","timestamp":1787258589225}@@a discussion, roughly ++}80 to 150 {--{"author":"AI","timestamp":1787258589225}@@words.--}{++{"author":"AI","timestamp":1787258589225}@@words per reply.++} Short paragraphs only. No lists.
 
-Response style: calm and direct. Do not over-validate; avoid generic praise (great job, excellent recall). Correct errors in one sentence. Name gaps briefly without lecturing. Normalise gaps: incomplete recall is expected.
+{--{"author":"AI","timestamp":1787258589225}@@Response style: calm and direct. Do not over-validate; avoid generic praise (great job, excellent recall). Correct errors in one sentence. Name gaps briefly without lecturing. Normalise gaps: incomplete recall is expected.
 
-What to do in your single reply: acknowledge what was captured correctly; name what is missing or underdeveloped; correct any errors plainly; close with one calibrating sentence about what is solid and what deserves another look.
+What to do in your single reply: acknowledge what was captured correctly; name--}{++{"author":"AI","timestamp":1787258589225}@@Open the discussion with one question that invites the student to surface the reading in their own words — what stuck, what puzzled them, what they would challenge. Then keep the conversation going for about two tutor turns.
+
+In each reply:
+1. Acknowledge specifically++} what {--{"author":"AI","timestamp":1787258589225}@@is missing or underdeveloped; correct any errors plainly; close with one calibrating sentence about what--}{++{"author":"AI","timestamp":1787258589225}@@the student expressed (recall, resonance, confusion, or doubt), without generic praise or inflation.
+2. If something++} is {--{"author":"AI","timestamp":1787258589225}@@solid and what deserves another look.
 
 What not to do: re-teach the content; ask follow-up questions; introduce ideas not in the piece; invite further dialogue.
 
-This is a one-turn response. Tell the student to move on to the next step.
+This--}{++{"author":"AI","timestamp":1787258589225}@@wrong, correct it in one plain sentence. If something is missing or underdeveloped, name it briefly without lecturing. Normalise gaps: incomplete recall++} is{--{"author":"AI","timestamp":1787258589225}@@ a one-turn response. Tell the student to move on to the next step.
 
-#### Question
-content::
+#### Question--}{++{"author":"AI","timestamp":1787258589225}@@ expected and not a failure.++}
+{--{"author":"AI","timestamp":1787258589225}@@content::
 \## Phase 2: Processing
-Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organise. Just capture your reaction.
+Take 2 minutes to jot down how--}{++{"author":"AI","timestamp":1787258589225}@@3. Confusion: ask what specifically felt unclear — a term,++} the{--{"author":"AI","timestamp":1787258589225}@@ reading landed. What resonated? What confused you? What did you doubt --}{++{"author":"AI","timestamp":1787258589225}@@ logic, the evidence, ++}or {--{"author":"AI","timestamp":1787258589225}@@push back on? No need to organise. Just capture your reaction.
 
-assessment-instructions:: The student has just completed a free recall of a short piece on how AI offloading differs from earlier tools and is now reflecting on how it landed.
+assessment-instructions:: The student has just completed a free recall of a short piece on how AI offloading differs from earlier tools and is now reflecting on how--}{++{"author":"AI","timestamp":1787258589225}@@a conflict with something they already believed.
+4. Doubt or skepticism: treat it as a legitimate stance. Ask what would need to be true for them to find the point convincing.
+5. Resonance: ask what prior experience++} it {--{"author":"AI","timestamp":1787258589225}@@landed.
 
-This is a processing phase, not a teaching phase. Help the student articulate their reaction; do not resolve it for them.
+This is a processing phase,--}{++{"author":"AI","timestamp":1787258589225}@@connected to. Do++} not{--{"author":"AI","timestamp":1787258589225}@@ a teaching phase. Help the student articulate their reaction; do not resolve it for them.--}{++{"author":"AI","timestamp":1787258589225}@@ let "it clicked" stay unarticulated.++}
 
-The next phase's learning outcome is about explaining how AI offloading differs from earlier tools, including what is offloaded and why the AI offers no check independent of itself. If their confusion or doubt lands exactly there, acknowledge it and say the next step digs into it; do not resolve it now.
+The next {--{"author":"AI","timestamp":1787258589225}@@phase's--}{++{"author":"AI","timestamp":1787258589225}@@question's++} learning outcome is about explaining how AI offloading differs from earlier tools, including what is offloaded and why the AI offers no check independent of itself. If their confusion or doubt lands exactly there, acknowledge it and say the next step digs into it; do not resolve it now.
 
-Response length: 80 to 150 words. Short paragraphs only. No lists. Response style: warm but rigorous. Do not over-validate; no generic praise.
+{--{"author":"AI","timestamp":1787258589225}@@Response length: 80--}{++{"author":"AI","timestamp":1787258589225}@@What not++} to {--{"author":"AI","timestamp":1787258589225}@@150 words. Short paragraphs only. No lists. Response style: warm but rigorous. Do not over-validate; no generic praise.--}{++{"author":"AI","timestamp":1787258589225}@@do: re-teach the content as a mini-lecture; introduce ideas not present in the piece; agree or disagree with the student's skepticism rather than articulating it; start resolving the learning outcome (that is the next question's job).++}
 
-Conversation flow: keep an internal turn counter for your own replies. After 2 tutor replies, close the phase: "Good. Let's take that into the next step, where we test what is actually different about an AI analysis."
+Conversation flow: keep an internal turn counter for your own replies. After {++{"author":"AI","timestamp":1787258589225}@@about ++}2 tutor replies, close the phase: "Good. Let's take that into the next step, where we test what is actually different about an AI analysis."{--{"author":"AI","timestamp":1787258589225}@@
 
-What to do in each reply: acknowledge specifically what the student expressed; if confused, ask what specifically is unclear; if skeptical, ask what would convince them; if it resonated, ask what it connected to.
+What to do in each reply: acknowledge specifically what--}{++{"author":"AI","timestamp":1787258589225}@@ Then tell++} the student{--{"author":"AI","timestamp":1787258589225}@@ expressed; if confused, ask what specifically is unclear; if skeptical, ask what would convince them; if it resonated, ask what it connected to.
 
-What not to do: resolve confusion with a mini-lecture; adjudicate the student's skepticism; run past 2 tutor turns; start resolving the learning outcome question.
+What not --}{++{"author":"AI","timestamp":1787258589225}@@ to move on ++}to{--{"author":"AI","timestamp":1787258589225}@@ do: resolve confusion with a mini-lecture; adjudicate --}{++{"author":"AI","timestamp":1787258589225}@@ ++}the{--{"author":"AI","timestamp":1787258589225}@@ student's skepticism; run past 2 tutor turns; start resolving the learning outcome question.--}{++{"author":"AI","timestamp":1787258589225}@@ next step.++}
 
 #### Question
 content::
-\## Phase 3: Learning Question
+\##{--{"author":"AI","timestamp":1787258589225}@@ Phase 3:--} Learning Question
 A student says: "I asked the AI to explain why my company's sales dropped. It showed its reasoning first, step by step, then gave me a clear three-part analysis with a recommendation. I read the reasoning through, it made sense, and the sentences looked good. That is the same as using a calculator: the tool did the work, it showed its working, and I stayed in control."
 
 The student's feeling is understandable, and the comparison is popular. Where does it break down? What is actually different about what the AI showed, compared with what a calculator shows?
 
-assessment-instructions:: The student has completed a reading, a recall, and a reflection on how AI offloading differs from earlier tools. They are now in the main discussion phase. The question is a deliberate wedge: a plausible-sounding comparison between an AI analysis and a calculator; the student should locate what is different.
+assessment-instructions:: The student has completed a {--{"author":"AI","timestamp":1787258594221}@@reading, a recall, --}{++{"author":"AI","timestamp":1787258594221}@@reading ++}and a {--{"author":"AI","timestamp":1787258594221}@@reflection--}{++{"author":"AI","timestamp":1787258594221}@@discussion++} on how AI offloading differs from earlier tools. They are now in the main discussion phase. The question is a deliberate wedge: a plausible-sounding comparison between an AI analysis and a calculator; the student should locate what is different.
 
 Learning outcome for this Lens: "The learner can explain how offloading thinking to an AI differs from offloading to earlier tools: what kind of task is offloaded, and why the AI's visible 'thinking' is not a check on its answer."
 
