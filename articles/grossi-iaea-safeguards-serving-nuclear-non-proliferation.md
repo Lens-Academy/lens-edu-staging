@@ -475,11 +475,11 @@ A light blue square with the year '2022' in large white font.
 
 Despite unprecedented challenges caused by the COVID-19 pandemic, safeguards implementation continues
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig32-1f9b4b95.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227187225}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig32-1f9b4b95.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227187225}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig32-1f9b4b95.jpg)++}
 
 A large assembly hall with many people seated at desks, with the IAEA logo visible on the wall.
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig33-6cf65bda.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227191803}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig33-6cf65bda.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227191803}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig33-6cf65bda.jpg)++}
 
 A light blue square with the year '2005' in large white font.
 
