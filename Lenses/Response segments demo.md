@@ -188,7 +188,7 @@ Put several blanks in one sentence:
 
 Each `{{...}}` becomes separate input. Text matching is always case-sensitive and ignores whitespace at beginning and end of learner response. There are no `case-sensitive::` or `trim::` fields.
 
-there are three types of existential risk. 
+there are three types of existential risk. {{Takeover risk}} is partic
 
 
 Use `{{blank}}` for ungraded text input:
