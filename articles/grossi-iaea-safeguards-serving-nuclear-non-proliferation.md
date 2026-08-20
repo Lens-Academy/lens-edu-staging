@@ -413,11 +413,11 @@ Peace' speech
 
 Black and white photograph of Dwight D. Eisenhower speaking at a podium with a 'SECRETARY' sign, during his 'Atoms for Peace' speech.
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig19-8ad35156.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227138393}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig19-8ad35156.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227138393}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig19-8ad35156.jpg)++}
 
 Black and white photograph of hands in gloves handling large, cylindrical metal components, likely nuclear fuel rods.
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig20-8974638f.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227142565}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig20-8974638f.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227142565}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig20-8974638f.jpg)++}
 
 Black and white photograph of several people in white lab coats and hard hats working in an industrial setting, possibly a nuclear power plant.
 
