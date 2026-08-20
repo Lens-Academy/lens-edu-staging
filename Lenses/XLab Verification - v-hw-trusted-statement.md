@@ -2,7 +2,7 @@
 id: '22f3ba95-64cf-4248-9d3a-a83975f4255b'
 title: "2.1.2 From a chip to a trusted statement"
 tldr: "Faithful alpha import of XLab lesson 2.1.2 From a chip to a trusted statement."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Interactive elements marked as import gaps must be completed on XLab until Lens has an equivalent."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257338879}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257338879}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257338879}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257338879}@@ XLab."++}
 tags: [wip]
 ---
 #### Text
