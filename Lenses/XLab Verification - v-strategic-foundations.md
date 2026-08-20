@@ -2,7 +2,7 @@
 id: '4f5ceb89-f774-41b3-b382-f63f044c2823'
 title: "0.4 Strategic Foundations"
 tldr: "Faithful alpha import of XLab lesson 0.4 Strategic Foundations."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257467947}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257467947}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257467947}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257467947}@@ XLab."++}
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
 tags: [wip]
 ---
 #### Text

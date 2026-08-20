@@ -2,7 +2,7 @@
 id: '2f120b75-f5b9-49db-88f4-1a8cfe0683ef'
 title: "2.4.4 Institutions and policy judgment"
 tldr: "Faithful alpha import of XLab lesson 2.4.4 Institutions and policy judgment."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257283971}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257283971}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257283971}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257283971}@@ XLab."++}
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
 tags: [wip]
 ---
 #### Text

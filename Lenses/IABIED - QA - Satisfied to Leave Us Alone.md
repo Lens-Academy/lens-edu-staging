@@ -1,7 +1,7 @@
 ---
-id: a529f564-5ba0-4aec-909d-5e0021314c74{++{"author":"Elias's AI","timestamp":1787256359324}@@
+id: a529f564-5ba0-4aec-909d-5e0021314c74
 reading_minutes: 5
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: Covers why a superintelligent AI is unlikely to simply leave humanity alone. Argues that complex preferences are generally insatiable, even narrowly focused AIs would spend resources defending their goals, and the chimpanzee analogy shows how incidental resource use can destroy less powerful species without malice.
 title: "Can the AI be satisfied to just leave us alone?"
 tldr: "Probably not."

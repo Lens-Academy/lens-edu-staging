@@ -1,7 +1,7 @@
 ---
-id: '5a0f546a-b6d7-4767-b14f-36b0d34de166'{++{"author":"Elias's AI","timestamp":1787256290959}@@
+id: '5a0f546a-b6d7-4767-b14f-36b0d34de166'
 reading_minutes: 20
-tutor_minutes: 3++}
+tutor_minutes: 3
 title: "Is the Race Even Real?"
 tldr: Many strategy arguments assume that the US and China are racing to AGI. Commit to a number. Then trace the famous claim back to its source, before you repeat it.
 summary_for_tutor: "Fifth lens of Unit 4. Student commits to a months-behind number for Chinese models and names its source, then reads Elmgren tracing the 2017 China-AGI-goal claim to one ambiguous phrase and an Epoch data insight measuring the actual gap. One mirror, no grade."

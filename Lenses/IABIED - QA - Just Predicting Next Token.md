@@ -1,7 +1,7 @@
 ---
-id: 71d3ce4e-68ce-401e-9f56-9f28fb8fe880{++{"author":"Elias's AI","timestamp":1787256290444}@@
+id: 71d3ce4e-68ce-401e-9f56-9f28fb8fe880
 reading_minutes: 5
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: "Argues that next-token prediction actually requires understanding the world: accurately predicting a physicist's novel answer requires reasoning at that level. Notes that modern AIs go beyond pure prediction, using reinforcement learning for task completion. Even pure prediction training would likely induce steering behavior since predicting complex reality requires directing attention strategically."
 title: "Aren't AIs just predicting the next token?"
 tldr: "Predicting tokens requires understanding the world."

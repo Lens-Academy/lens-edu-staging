@@ -1,7 +1,7 @@
 ---
-id: 6e22366e-0068-4412-8f3a-acc72a244beb{++{"author":"Elias's AI","timestamp":1787256388909}@@
+id: 6e22366e-0068-4412-8f3a-acc72a244beb
 reading_minutes: 15
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: "Traces how human empathy and kindness arose from specific accidents of primate evolution: ancestors used their own brains as templates to model others, and this simulation machinery 'leaks' into emotional experience. Extends to cultural contingency (Christianity's role in universalism) and argues that AI, lacking this evolutionary and cultural heritage, has no reason to develop similar values. Emphasizes that engineering alignment requires reliable, predictable outcomes rather than hoping for convergence."
 title: Human Values Are Contingent
 tldr: "Our kindness may be an accident of primate history: ancestors modeled each other using their own brains, and that simulation machinery leaked into feeling. If empathy is a quirk of how we evolved, an AI has no particular reason to arrive at it."
