@@ -2,7 +2,7 @@
 id: 'db7d0ba6-4789-4018-8ea1-5b040ccb7528'
 title: "1.3.1 Context distiller"
 tldr: "Faithful alpha import of XLab lesson 1.3.1 Context distiller."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257260611}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257260611}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257260611}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257260611}@@ XLab."++}
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
 tags: [wip]
 ---
 #### Text
@@ -21,15 +21,13 @@ In this exercise, you’ll pick a real report and work through it in five steps:
 
 \## Worked Example
 
-{--{"author":"Elias's AI","timestamp":1787256927826}@@> **Note**
-
---}{++{"author":"Elias's AI","timestamp":1787256927826}@@:::callout {title="Worked example" tone="blue"}
-++}The Future of Life Institute’s AI Safety Index, a scorecard that grades AI companies on safety.
+:::callout {title="Worked example" tone="blue"}
+The Future of Life Institute’s AI Safety Index, a scorecard that grades AI companies on safety.
 
 - **Written by:** the Future of Life Institute, an advocacy nonprofit.
 - **Upstream:** the labs’ own public documents (system cards, safety policies) and a panel of expert reviewers. FLI has no inside access; everything it grades comes from what companies chose to publish.
-- **Downstream:** journalists (who need the headline grades), the graded labs (who need to know where they lost points), and the public (who need a simple comparison). Notice the grades compress detail by design; that’s what its audiences need.{++{"author":"Elias's AI","timestamp":1787256927826}@@
-:::++}
+- **Downstream:** journalists (who need the headline grades), the graded labs (who need to know where they lost points), and the public (who need a simple comparison). Notice the grades compress detail by design; that’s what its audiences need.
+:::
 
 \## Choose and Distill a Report
 

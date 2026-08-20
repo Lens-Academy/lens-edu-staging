@@ -1,7 +1,7 @@
 ---
-id: 6766121a-d208-42ad-a9cf-0c71797c065e{++{"author":"Elias's AI","timestamp":1787256357089}@@
+id: 6766121a-d208-42ad-a9cf-0c71797c065e
 reading_minutes: 3
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: "Addresses the hope that AI would confine itself to the digital world. Argues there is no 'digital realm' independent of physical infrastructure. Draws parallels to how humans exploit underground mining and space satellites despite having no evolved emotions about these domains. An AI would similarly find physical resources instrumentally valuable for computing substrate, cooling, and space exploration."
 title: "Wouldn't AI only care about the digital realm?"
 tldr: 'There is no "digital realm" independent of physical infrastructure.'

@@ -14,8 +14,8 @@ discussion: https://discord.com/channels/1440725236843806762/1494711781648629921
 id:: c9e0e94a-e007-4e4b-afb4-3417fe2cbcb4
 tldr:: Welcome to the book club for *If Anyone Builds It, Everyone Dies*. Here is how the five units work: the modest per-unit reading (one unit is mostly a film), the AI-tutor conversations and homework that make it stick, and the cohort and Discord community you will learn alongside.
 summary_for_tutor:: Course-orientation lens for the IABIED book club. Explains the format (roughly 30 pages of reading per unit plus about an hour of tutor chat, an hour of homework, and a 90-minute meeting; one unit swaps most of its reading for a 30-minute film), the five-unit structure and Discord cohort assignments, the intended per-unit flow (pre-questions, reading, tutor discussion, optional exploration), and the community goals. Sets expectations and time commitment before chapter content begins.
-{++{"author":"Elias's AI","timestamp":1787256174263}@@reading_minutes:: 3
-++}
+reading_minutes:: 3
+
 #### Text
 content:: Welcome to our introductory AI safety course. We're using the book *If Anyone Builds It, Everyone Dies* as our primary source for this book club.
 
@@ -60,8 +60,8 @@ source:: ![[../Lenses/IABIED - Hard Calls and Easy Calls]]
 id:: 53db056e-488a-4f0f-ba72-f02d58ef8291
 tldr:: An optional grab-bag of the book's own supplementary Q&As for the Introduction, short answers to objections like "isn't this just science fiction?" and "aren't the authors panicking?". Skim the few that catch your eye rather than reading them all.
 summary_for_tutor:: Optional Dive Deeper index lens for the Introduction (Hard Calls and Easy Calls). Links the book website's supplementary Q&A cards covering why the authors wrote the book, whether ChatGPT could kill us, panic and overreaction, when worrisome AI will arrive, extrapolating AI progress, author incentives, science-fiction dismissals, expert views on catastrophe, and Leo Szilard. A navigation and index lens only; it carries no standalone teaching content of its own.
-optional:: true{++{"author":"Elias's AI","timestamp":1787256175991}@@
-reading_minutes:: 2++}
+optional:: true
+reading_minutes:: 2
 
 #### Text
 content::
@@ -153,8 +153,8 @@ source:: ![[../Lenses/IABIED - Machine Advantages and Intelligence Explosion]]
 id:: c18583a7-9d9a-4c75-98c0-800b1f83ea53
 tldr:: Chapter 1's optional Q&As field the objections about intelligence itself: is "intelligence" even a meaningful concept, is it one thing or many, and how smart could a superintelligence actually get? Skim the few that catch your eye.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 1 (Humanity's Special Power). Links the book website's supplementary Q&A cards covering the meaningfulness and measurability of intelligence, human-level and general intelligence, critical thresholds, prospects and obstacles for superintelligence, machine creativity and consciousness, and intelligence as prediction and steering. A navigation and index lens only; it carries no standalone teaching content of its own.
-optional:: true{++{"author":"Elias's AI","timestamp":1787256178464}@@
-reading_minutes:: 2++}
+optional:: true
+reading_minutes:: 2
 
 #### Text
 content::
@@ -302,8 +302,8 @@ source:: ![[../Lenses/IABIED - Behavior Is Not Values]]
 id:: e131a5fb-ed8a-4719-842f-1e6ead7f0fe3
 tldr:: Chapter 2's optional Q&As dig into how modern LLMs actually work and what "grown, not crafted" really means: aren't AIs just math, just parroting, just predicting the next token? Skim the few that catch your eye.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 2 (Grown, Not Crafted). Links the book website's supplementary Q&A cards covering gradient descent, whether experts understand AI internals, thinking in English, the "just math" and "just parroting" objections, training-data limits, hallucinations, resource constraints, and the path from LLMs to superintelligence. A navigation and index lens only; it carries no standalone teaching content of its own.
-optional:: true{++{"author":"Elias's AI","timestamp":1787256180357}@@
-reading_minutes:: 2++}
+optional:: true
+reading_minutes:: 2
 
 #### Text
 content::

@@ -1,7 +1,7 @@
 ---
-id: 4a7c2e9f-1b5d-4c8e-b3a7-6f9d2c5e8b01{++{"author":"Elias's AI","timestamp":1787256625209}@@
+id: 4a7c2e9f-1b5d-4c8e-b3a7-6f9d2c5e8b01
 reading_minutes: 2
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: Priming question before Chapter 6, section 1. Students consider whether you can predict the outcome of a contest without knowing the mechanism, which activates the capability-gap intuition before the Aztec warrior story.
 title: "Before Reading — Define the Aztec Warrior Analogy"
 tldr: You can't predict a single chess move a grandmaster will make. Can you still predict whether they'll beat you? Before reading, think about what it takes to predict an outcome.

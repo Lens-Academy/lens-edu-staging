@@ -1,7 +1,7 @@
 ---
-id: 480dd23f-538a-4a27-a19b-946caf38f92e{++{"author":"Elias's AI","timestamp":1787256403900}@@
+id: 480dd23f-538a-4a27-a19b-946caf38f92e
 reading_minutes: 15
-tutor_minutes: 5++}
+tutor_minutes: 5
 summary_for_tutor: "Presents the authors' case that intelligence is understandable in principle though far from understood today, supported by four arguments: claims of ineffability have a poor track record in science (as with vitalism), intelligence exhibits repeatable structure and regularities (the same brains that chip handaxes invent nuclear reactors), there is a fillable gap between neuron-level and folk-psychological models of human cognition (illustrated by amnesiacs who repeat jokes verbatim), and fields like information theory and cognitive science have already made real progress. The student reads the article, responds to an open reflection prompt, then discusses with the tutor why intelligibility matters for eventually solving alignment after halting the race to AI."
 title: "Intelligence Isn't Ineffable"
 tldr: "Is intelligence too mysterious to ever understand? The authors say no, and note that claims of ineffability have a dismal track record in science. Four arguments for why minds are intelligible in principle, even though we are nowhere near there yet."
