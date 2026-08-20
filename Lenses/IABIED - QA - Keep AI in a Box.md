@@ -1,5 +1,7 @@
 ---
-id: a9480ae0-d2d4-44ba-a323-d3e247c38ea1
+id: a9480ae0-d2d4-44ba-a323-d3e247c38ea1{++{"author":"Elias's AI","timestamp":1787256658178}@@
+reading_minutes: 8
+tutor_minutes: 3++}
 summary_for_tutor: "Covers why AI containment (boxing) fails as a safety strategy on three levels: companies won't do it because profit incentives push toward internet access, it wouldn't work because any communication channel is exploitable by a superintelligence, and competitive dynamics mean unilateral restraint hands advantage to more reckless actors."
 title: "Can developers just keep the AI in a box?"
 tldr: "They won't."
