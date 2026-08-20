@@ -108,14 +108,14 @@ explanation&#58;&#58; Gradient descent updates weights using gradients of {--{"a
 
 Options:
 
-- `shuffle&#58;&#58; true`: randomize option order. Defaults to `false`.
+- {--{"author":"Elias's AI","timestamp":1787220915828}@@`shuffle&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787220915828}@@`shuffle::++} true`: randomize option order. Defaults to `false`.
 - `explanation&#58;&#58;`: optional feedback shown after submission.
 
 Survey choices must use plain list items. Surveys never contain correct-answer markers.
 
 \## Multiple-choice question
 
-Add `multi&#58;&#58; true` when learner may select more than one option.
+Add {--{"author":"Elias's AI","timestamp":1787220920050}@@`multi&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787220920050}@@`multi::++} true` when learner may select more than one option.
 
 {--{"author":"Elias's AI","timestamp":1787220834026}@@```md
 \####--}{++{"author":"Elias's AI","timestamp":1787220834026}@@<pre><code>####++} Choice
