@@ -28,7 +28,7 @@ content:: What is your strongest objection?
 - `placeholder:: ...`: empty-input hint. Defaults to none.
 - `max-time:: 3:00`: timer in `M:SS`. Defaults to none.
 - `enforce-voice:: true`: require speech instead of typing. Defaults to `false`.
-- `assessment-instructions:: ...`: AI grading rubric. Omit for ungraded response.
+- `assessment-instructions:: ...`: {--{"author":"Elias's AI","timestamp":1787255723965}@@AI grading rubric.--}{++{"author":"Elias's AI","timestamp":1787255723965}@@extra instructions appended to base assessor prompt.++} Omit for ungraded {--{"author":"Elias's AI","timestamp":1787255723965}@@response.--}{++{"author":"Elias's AI","timestamp":1787255723965}@@OpenResponse.++}
 - `feedback-instructions:: ...`: learner-facing AI feedback. Omit for none.
 
 Assessment controls score; feedback controls what learner sees. Surveys never grade but may still give feedback.
