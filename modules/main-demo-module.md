@@ -80,7 +80,11 @@ source:: [[../Lenses/Article video article demo]]
 # Lens:
 source:: [[../Lenses/Question demo]]
 
-%% We also have a roleplay feature, where the user can voice chat with an AI: %%
+%% {++{"author":"Elias's AI","timestamp":1787219730441}@@This next Lens specifies one shared Question format for surveys, normal Lenses, and Learning Outcome tests. It documents text, rating, single-choice, multiple-choice, and fill-in-the-blank questions. The new controls are shown as code until platform support lands. %%
+# Lens:
+source:: [[../Lenses/Question types specification]]
+
+%% ++}We also have a roleplay feature, where the user can voice chat with an AI: %%
 # Lens:
 source:: [[../Lenses/Roleplay demo]]
 
