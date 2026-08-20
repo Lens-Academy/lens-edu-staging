@@ -40,7 +40,7 @@ Texas Legislative Council
 P.O. Box 12128  
 Austin, Texas 78711-2128
 
-![[/attachments/texas-reading-statutes-and-bills-for-the-85th-legislature-texas-legislative-council-fig2-cef72ae3.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227254734}@@![[/attachments/texas-reading-statutes-and-bills-for-the-85th-legislature-texas-legislative-council-fig2-cef72ae3.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227254734}@@![Imported source figure](/attachments/texas-reading-statutes-and-bills-for-the-85th-legislature-texas-legislative-council-fig2-cef72ae3.jpg)++}
 
 The image shows the official seal of the Texas Legislative Council. It consists of two circular seals side-by-side, each containing a five-pointed star in the center. The left seal is for the "THE SENATE OF TEXAS" and the right seal is for the "HOUSE OF REPRESENTATIVES". Below these two seals, the words "TEXAS LEGISLATIVE COUNCIL" are printed in a bold, sans-serif font.
 
