@@ -29,7 +29,7 @@ Never change `key::` after learners have answered. Stored answers use this key.
 
 Use `#### {--{"author":"Elias's AI","timestamp":1787221148299}@@Question`--}{++{"author":"Elias's AI","timestamp":1787221148299}@@OpenResponse`++} when learner should type or dictate a response.
 
-<pre><code>#### Question
+<pre><code>#### {--{"author":"Elias's AI","timestamp":1787221152287}@@Question--}{++{"author":"Elias's AI","timestamp":1787221152287}@@OpenResponse++}
 key&#58;&#58; strongest_objection
 content&#58;&#58; In two sentences, what is the strongest objection?
 required&#58;&#58; true
@@ -71,9 +71,9 @@ Options:
 
 Ratings are self-reports, not correct or incorrect. In Learning Outcome tests, rating is stored beside graded answers but does not affect test score.
 
-\## Single-choice question
+\## {--{"author":"Elias's AI","timestamp":1787221155458}@@Single-choice question--}{++{"author":"Elias's AI","timestamp":1787221155458}@@Single select++}
 
-Use `#### Choice` with plain list under `options::`. Default allows one selection.
+Use `#### {--{"author":"Elias's AI","timestamp":1787221157837}@@Choice`--}{++{"author":"Elias's AI","timestamp":1787221157837}@@Select`++} with plain list under `options::`. Default allows one selection.
 
 Ungraded example:
 
