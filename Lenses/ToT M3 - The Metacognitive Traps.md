@@ -24,7 +24,7 @@ The word **traps** needs a definition. The researchers call them metacognitive d
 
 Hold this structure as you read:
 - AI amplified five existing traps. Forming, Dislodging, Assumption, Location, and Achievement were all documented in 2018, before generative AI. They persisted, and the AI made several of them worse.
-- AI introduced three new traps. Interruption, Mislead, and Progression arrive with generative AI, because constant suggestions, confident wrong answers, and hidden reasoning are new in the environment.
+- AI introduced three new traps. Interruption, Mislead, and Progression arrive with generative AI, because constant suggestions, confident wrong answers, and {--{"author":"AI","timestamp":1787252935872}@@hidden reasoning--}{++{"author":"AI","timestamp":1787252935872}@@answers whose only visible check is the AI's own account of itself++} are new in the environment.
 
 Why does this matter if you never write code? Because the traps are not about code. They are about learning. They live in the metacognition this course has tracked since Unit 2: planning, checking your own reasoning, knowing what you understand. You do not need to program to build the wrong mental model of a problem, or to feel finished when you are not. Knowledge work means learning new concepts, tools, and domains all the time. Everyone is a novice somewhere, most of the time. These students were learning to program. Most of the traps apply whenever you solve problems in territory you have not mastered, with or without AI.
 
