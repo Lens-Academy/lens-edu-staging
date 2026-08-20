@@ -1,5 +1,6 @@
 ---
-title: "Reading Statutes and Bills for the 85th Legislature | Texas Legislative Council"
+title: "Reading Statutes and Bills for the 85th Legislature | Texas Legislative Council"{++{"author":"Elias's AI","timestamp":1787227504877}@@
+allowAuthorInTitle: true++}
 author:
   - "Texas"
 source_url: "https://tlc.texas.gov/docs/legref/readingabill.pdf"

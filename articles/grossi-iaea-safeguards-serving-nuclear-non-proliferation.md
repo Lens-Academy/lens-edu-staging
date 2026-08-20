@@ -1,5 +1,6 @@
 ---
-title: "IAEA Safeguards Serving Nuclear Non-Proliferation"
+title: "IAEA Safeguards Serving Nuclear Non-Proliferation"{++{"author":"Elias's AI","timestamp":1787227500176}@@
+allowAuthorInTitle: true++}
 author:
   - "Rafael Mariano Grossi"
   - "IAEA Director General"
