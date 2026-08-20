@@ -2,7 +2,7 @@
 id: '76451830-cdb6-4160-9eae-ee72d0917f5b'
 title: "1.2 Actors: who does the treaty rely upon, apply to, and constrain?"
 tldr: "Faithful alpha import of XLab lesson 1.2 Actors: who does the treaty rely upon, apply to, and constrain?."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Interactive elements marked as import gaps must be completed on XLab until Lens has an equivalent."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257434256}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257434256}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257434256}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257434256}@@ XLab."++}
 tags: [wip]
 ---
 #### Text
