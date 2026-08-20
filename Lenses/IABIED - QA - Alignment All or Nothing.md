@@ -1,7 +1,7 @@
 ---
-id: c958fdba-a5e4-437f-81f4-f5ea69c6053b{++{"author":"Elias's AI","timestamp":1787256638810}@@
+id: c958fdba-a5e4-437f-81f4-f5ea69c6053b
 reading_minutes: 3
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: "Covers why partial alignment is still likely catastrophic. Argues that incremental AI progress does not guarantee safe incremental alignment, that critical differences exist between weak AIs safe to study and powerful ones that constitute a point of no return, and that an AI behaving nicely 95% of the time does not translate into a 95% acceptable outcome."
 title: "Do you see alignment as all-or-nothing?"
 tldr: "No. But \"partial alignment\" is still likely to be catastrophic."

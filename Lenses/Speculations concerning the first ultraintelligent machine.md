@@ -1,7 +1,7 @@
 ---
-id: 8a7ca9c4-c111-467b-2c2b-e08d10698767{++{"author":"Elias's AI","timestamp":1787256194697}@@
+id: 8a7ca9c4-c111-467b-2c2b-e08d10698767
 reading_minutes: 3
-tutor_minutes: 5++}
+tutor_minutes: 5
 summary_for_tutor: "Covers I.J. Good's 1965 argument that the first machine exceeding human intelligence would be the last invention humans need to make, since it could design its successors. Introduces the concept of an intelligence explosion as a self-reinforcing feedback loop where plans become obsolete almost immediately because the system a few steps ahead is dominated by unforeseeable effects."
 title: Speculations concerning the first ultraintelligent machine
 tldr: I.J. Good recognized that the first machine smarter than any human would be the last one we'd need to design — because the second would be built by the first, according to principles we can't yet imagine. This classic text asks what happens when intelligence starts building its own successors.
