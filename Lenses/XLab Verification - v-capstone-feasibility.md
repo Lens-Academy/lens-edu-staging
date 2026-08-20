@@ -2,7 +2,7 @@
 id: '01252915-279a-48c6-b34a-97e51ce90203'
 title: "4.1 Feasibility Judgments"
 tldr: "Faithful alpha import of XLab lesson 4.1 Feasibility Judgments."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Interactive elements marked as import gaps must be completed on XLab until Lens has an equivalent."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257216076}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257216076}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257216076}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257216076}@@ XLab."++}
 tags: [wip]
 ---
 #### Text
