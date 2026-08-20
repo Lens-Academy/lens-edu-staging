@@ -20,7 +20,7 @@ Add discussion note here:
 
 # Reading Statutes and Bills
 
-![[/attachments/texas-reading-statutes-and-bills-for-the-85th-legislature-texas-legislative-council-fig1-f9b01107.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227248621}@@![[/attachments/texas-reading-statutes-and-bills-for-the-85th-legislature-texas-legislative-council-fig1-f9b01107.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227248621}@@![Imported source figure](/attachments/texas-reading-statutes-and-bills-for-the-85th-legislature-texas-legislative-council-fig1-f9b01107.jpg)++}
 
 A detailed black and white architectural drawing of the interior of the Texas State Capitol dome. The drawing shows a spiral staircase with a balustrade, classical columns, and decorative elements like framed portraits on the walls. The perspective is from a low angle looking up, emphasizing the grandeur and symmetry of the architecture.
 
