@@ -105,9 +105,17 @@ Optional fields:
 - `high-label:: Very confident`: {--{"author":"Elias's AI","timestamp":1787253809854}@@label high endpoint. --}{++{"author":"Elias's AI","timestamp":1787253809854}@@high-end label. ++}Defaults to {--{"author":"Elias's AI","timestamp":1787253809854}@@no label.--}{++{"author":"Elias's AI","timestamp":1787253809854}@@none.++}
 - `feedback-instructions:: ...`:{--{"author":"Elias's AI","timestamp":1787253809854}@@ ask--} AI {--{"author":"Elias's AI","timestamp":1787253809854}@@to respond--}{++{"author":"Elias's AI","timestamp":1787253809854}@@response++} to{--{"author":"Elias's AI","timestamp":1787253809854}@@ selected--} rating. Defaults to {--{"author":"Elias's AI","timestamp":1787253809854}@@no AI feedback when omitted.--}{++{"author":"Elias's AI","timestamp":1787253809854}@@none.++}
 
-Ratings{--{"author":"Elias's AI","timestamp":1787253809854}@@ are self-reports, not correct or incorrect. In Learning Outcome tests, rating is stored beside graded answers but does not--}{++{"author":"Elias's AI","timestamp":1787253809854}@@ never++} affect {--{"author":"Elias's AI","timestamp":1787253809854}@@test--}{++{"author":"Elias's AI","timestamp":1787253809854}@@correctness++} score.
+Ratings{--{"author":"Elias's AI","timestamp":1787253809854}@@ are self-reports, not correct or incorrect. In Learning Outcome tests, rating is stored beside graded answers but does not--}{++{"author":"Elias's AI","timestamp":1787253809854}@@ never++} affect {--{"author":"Elias's AI","timestamp":1787253809854}@@test--}{++{"author":"Elias's AI","timestamp":1787253809854}@@correctness++} score.{++{"author":"Elias's AI","timestamp":1787253919721}@@ Next example changes scale and labels, and adds AI feedback. %%
 
-{--{"author":"Elias's AI","timestamp":1787253809854}@@\## Single select
+#### Rating
+id:: 651213b4-1952-4ed4-98a8-8f772cf732d6
+content:: How confident are you in your answer?
+scale:: 7
+low-label:: Not confident
+high-label:: Very confident
+feedback-instructions:: Briefly suggest how learner could calibrate this confidence against evidence.++}
+
+{++{"author":"Elias's AI","timestamp":1787253919721}@@%% ++}{--{"author":"Elias's AI","timestamp":1787253809854}@@\## Single select
 
 Use `#### Select` with `options::`. With no--}{++{"author":"Elias's AI","timestamp":1787253809854}@@Select requires `options::`; default allows one selection. Without++} `[x]`, {--{"author":"Elias's AI","timestamp":1787253809854}@@response--}{++{"author":"Elias's AI","timestamp":1787253809854}@@it++} is ungraded.{--{"author":"Elias's AI","timestamp":1787253809854}@@
 
