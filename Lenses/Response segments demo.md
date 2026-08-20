@@ -157,9 +157,19 @@ Optional fields:
 
 Survey selects must use plain list items. Surveys never contain correct-answer markers.--}{++{"author":"Elias's AI","timestamp":1787253833026}@@ none.++}
 
-{--{"author":"Elias's AI","timestamp":1787253833026}@@\## --}Multi-select{--{"author":"Elias's AI","timestamp":1787253833026}@@
+{--{"author":"Elias's AI","timestamp":1787253833026}@@\## --}{++{"author":"Elias's AI","timestamp":1787253924781}@@Next example grades one correct option. %%
 
-Multi-select--} is same{--{"author":"Elias's AI","timestamp":1787253833026}@@ Response--} segment with{--{"author":"Elias's AI","timestamp":1787253833026}@@ one non-default field: --}{++{"author":"Elias's AI","timestamp":1787253833026}@@ ++}`multi:: true`.{--{"author":"Elias's AI","timestamp":1787253833026}@@
+#### Select
+id:: 4e93c96d-a0a8-4fa5-9c29-ea360fd283fe
+content:: Which process updates model weights during training?
+options::
+- Data collection
+- [x] Gradient descent
+- Deployment monitoring
+shuffle:: true
+feedback-instructions:: Explain misconception behind learner selection without adding unrelated detail.
+
+%% ++}Multi-select is same segment with{--{"author":"Elias's AI","timestamp":1787253833026}@@ one non-default field: --}{++{"author":"Elias's AI","timestamp":1787253833026}@@ ++}`multi:: true`.{--{"author":"Elias's AI","timestamp":1787253833026}@@
 
 Smallest version:
 
@@ -218,17 +228,23 @@ Put--}{++{"author":"Elias's AI","timestamp":1787253842727}@@- `{{gradient descen
 - `{{blank}}`: ungraded text.
 - `{{number}}`: ungraded number.++}
 
-{--{"author":"Elias's AI","timestamp":1787253842727}@@Each `{{...}}` becomes separate input. --}Text matching is{--{"author":"Elias's AI","timestamp":1787253842727}@@ always--} case-sensitive and {--{"author":"Elias's AI","timestamp":1787253842727}@@ignores whitespace at beginning and end of learner response. There are no `case-sensitive::` or `trim::` fields.--}{++{"author":"Elias's AI","timestamp":1787253842727}@@always trims surrounding whitespace. No options control this.++}
+{--{"author":"Elias's AI","timestamp":1787253842727}@@Each `{{...}}` becomes separate input. --}Text matching is case-sensitive and {--{"author":"Elias's AI","timestamp":1787253842727}@@ignores whitespace at beginning and end of learner response. There are no `case-sensitive::` or `trim::` fields.--}{++{"author":"Elias's AI","timestamp":1787253842727}@@always trims surrounding whitespace. No options control this.++}{--{"author":"Elias's AI","timestamp":1787253930760}@@
 
-{--{"author":"Elias's AI","timestamp":1787253842727}@@Use `{{blank}}` for ungraded text input:
+--}{++{"author":"Elias's AI","timestamp":1787253930760}@@ ++}{--{"author":"Elias's AI","timestamp":1787253842727}@@Use `{{blank}}` for ungraded text input:
 
-> `content:: One change I want to make--}{++{"author":"Elias's AI","timestamp":1787253842727}@@Next example++} is {--{"author":"Elias's AI","timestamp":1787253842727}@@{{blank}}.`
+> `content:: One change I want to make--}{++{"author":"Elias's AI","timestamp":1787253842727}@@Next example++} {++{"author":"Elias's AI","timestamp":1787253930760}@@has alternatives and several graded text blanks. %%
+
+#### FillBlank
+id:: 115ecd2e-385a-4c90-8964-afc169cb822a
+content:: France's capital ++}is {--{"author":"Elias's AI","timestamp":1787253930760}@@{{blank}}.`
 
 Use `{{number}}` for ungraded numeric input:
 
 > `content:: How many years until transformative AI? {{number}}`
 
-Try it:--}{++{"author":"Elias's AI","timestamp":1787253842727}@@optional, showing `optional:: true`. %%++}
+Try it:--}{++{"author":"Elias's AI","timestamp":1787253930760}@@{{Paris}}, while model weights are commonly updated using {{gradient descent|gradient-based optimization}}.
+
+%% `{{number}}` creates ungraded numeric input. Next example also shows `optional:: true`. %%++}
 
 #### FillBlank
 id:: 8a3ae4f5-4d86-42dc-b126-b293f88a7b61
