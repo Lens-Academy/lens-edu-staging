@@ -76,15 +76,17 @@ feasibility — their sole non-High intelligence mechanism. Three reasons:
 Real-world colour: the xAI Memphis behind-the-meter gas turbines were surfaced
 by aerial thermal imaging — the signature and the workaround in one case.
 
-**Architecture changes the picture**
+{--{"author":"Elias's AI","timestamp":1787257098981}@@**Architecture--}{++{"author":"Elias's AI","timestamp":1787257098981}@@:::callout {title="Architecture++} changes the {--{"author":"Elias's AI","timestamp":1787257098981}@@picture**
 
-Power consumption is architecture-dependent, so the same facility can change
+--}{++{"author":"Elias's AI","timestamp":1787257098981}@@picture" tone="blue"}
+++}Power consumption is architecture-dependent, so the same facility can change
 signature without changing size. Scaling an existing architecture by adding
 layers and shifting to a new architecture with a different compute profile
 produce different curves, and inference and training draw differently again.
 See Scher et al., *An International Agreement to Prevent the Premature Creation
 of Artificial Superintelligence*, Appendix D — and connect it back to the
-development picture from Module 1.
+development picture from Module 1.{++{"author":"Elias's AI","timestamp":1787257098981}@@
+:::++}
 
 \### Procurement, customs, and financial intelligence
 
