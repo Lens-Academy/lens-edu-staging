@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218150989}@@---
+---
 id: 'e9aefe42-bbdf-4ea0-be7f-2ee033558aa8'
 title: "2.1.3 Accounting for hardware: identity, location, topology, and completeness"
 tldr: "Faithful alpha import of XLab lesson 2.1.3 Accounting for hardware: identity, location, topology, and completeness."
@@ -70,4 +70,3 @@ The treaty body wants to support the claim: “All covered accelerators at Site 
 A strong answer does not treat the site operator’s inventory, the site operator’s logs, and the site operator’s declaration as three independent streams.
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-accounting)*
-++}

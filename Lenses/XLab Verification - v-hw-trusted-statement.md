@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218155594}@@---
+---
 id: '22f3ba95-64cf-4248-9d3a-a83975f4255b'
 title: "2.1.2 From a chip to a trusted statement"
 tldr: "Faithful alpha import of XLab lesson 2.1.2 From a chip to a trusted statement."
@@ -97,4 +97,3 @@ Take an attestation token or architecture diagram supplied with this section. Re
 9. One independent corroborating source.
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-trusted-statement)*
-++}

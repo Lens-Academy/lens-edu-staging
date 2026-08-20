@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218162637}@@---
+---
 id: '783c38a6-2552-4902-96bf-48de75aa30ad'
 title: "2.0 What makes a verification mechanism effective?"
 tldr: "Faithful alpha import of XLab lesson 2.0 What makes a verification mechanism effective?."
@@ -78,4 +78,3 @@ content:: **Interactive exercise:** XLab's `evidence-taxonomies` widget has no d
 #### Text
 content::
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/mechanism-effective)*
-++}

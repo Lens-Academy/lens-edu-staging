@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218151708}@@---
+---
 id: 'b481c94e-9a3a-4118-b4e9-7bd13a1c488d'
 title: "2.1 Hardware"
 tldr: "Faithful alpha import of XLab lesson 2.1 Hardware."
@@ -74,4 +74,3 @@ The required reading should be embedded at the point of use rather than assigned
 H. Birkholz et al., [“Remote ATtestation procedureS (RATS) Architecture”](https://www.rfc-editor.org/rfc/rfc9334.html), IETF RFC 9334, January 2023. NVIDIA, “Architecture Overview,” [*Attestation Quick Start Guide*](https://docs.nvidia.com/attestation/quick-start-guide/latest/architecture.html), documentation current August 1, 2026 — first-party implementation documentation, not an independent adversarial evaluation. T. O’Gara et al., “Hardware-Enabled Mechanisms for Verifying Responsible AI Development,” [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025. M. S. Rahman and M. Tajdari, “Detecting Hidden ML Training With Zero-Overhead Telemetry,” [arXiv:2606.19262](https://arxiv.org/abs/2606.19262), June 2026 — a preprint, presented as a component demonstration. Baker et al., “Verifying International Agreements on AI: Six Layers of Verification,” [arXiv:2507.15916](https://arxiv.org/abs/2507.15916), 2026.
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-attestation)*
-++}

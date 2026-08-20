@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218163463}@@---
+---
 id: 'd388005c-3e26-4e94-8851-692288c0cbea'
 title: "2.0.1 Privacy-Preserving Mechanisms"
 tldr: "Faithful alpha import of XLab lesson 2.0.1 Privacy-Preserving Mechanisms."
@@ -44,4 +44,3 @@ No single mechanism provides complete verification. Hardware attestation and man
 Module 2 begins with the hardware layer. Section 2.1 examines how chips can identify themselves, report their state and location, measure workloads, and produce evidence that later cloud and institutional mechanisms can use.
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/mechanism-privacy)*
-++}

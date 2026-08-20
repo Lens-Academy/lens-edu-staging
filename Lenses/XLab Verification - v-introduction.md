@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218161419}@@---
+---
 id: '52565ea0-6760-498e-85b5-850bcc48ccf3'
 title: "0.1 Introduction: Why Should You Care About AI Verification?"
 tldr: "Faithful alpha import of XLab lesson 0.1 Introduction: Why Should You Care About AI Verification?."
@@ -181,4 +181,3 @@ content:: **Interactive exercise:** XLab's `verification-landscape` widget has n
 #### Text
 content::
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/why-verification/introduction)*
-++}

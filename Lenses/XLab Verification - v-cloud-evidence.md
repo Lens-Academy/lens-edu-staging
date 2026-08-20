@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218144200}@@---
+---
 id: 'eaadd7dc-7ba4-4cff-aa7c-6ad4e95f1a50'
 title: "2.2.4 Interpreting cloud evidence"
 tldr: "Faithful alpha import of XLab lesson 2.2.4 Interpreting cloud evidence."
@@ -19,4 +19,3 @@ content:: **Interactive exercise:** XLab's `cloud-evidence-drill` widget has no 
 #### Text
 content::
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-evidence)*
-++}

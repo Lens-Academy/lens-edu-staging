@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218168679}@@---
+---
 id: 'a437d1e1-46b1-4677-bb9c-b2358b02143c'
 title: "1.0 Introduction: what kind of policy are we trying to verify?"
 tldr: "Faithful alpha import of XLab lesson 1.0 Introduction: what kind of policy are we trying to verify?."
@@ -64,4 +64,3 @@ Given these building blocks, what could a verifiable AI treaty actually look lik
 Confirming that a party shared the research it promised, a pooled project has no covert rival, or that no data center crossed a compute threshold are separate problems that require different mechanisms, levels of cooperation, evidence, timelines, and more. Each type of agreement buys a different amount of risk reduction at a different price. It’s easy to verify transferred knowledge, but mere information sharing realistically can’t do much to deter capability development for self-interested parties. On the other hand, it’s incredibly difficult to verify that zero illicit training runs are happening within a given nation, but successfully doing so will significantly increase the safety and predictability of model development. When weighing different policy options throughout this module, consider: how much risk does this agreement actually remove, and at what cost?
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-intro)*
-++}

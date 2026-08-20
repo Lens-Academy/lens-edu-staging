@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218157520}@@---
+---
 id: '918bf2d5-d209-455f-81b8-6d7e41dbc38d'
 title: "2.3.2 The empirical anchor: intelligence identifies, the regime resolves"
 tldr: "Faithful alpha import of XLab lesson 2.3.2 The empirical anchor: intelligence identifies, the regime resolves."
@@ -76,4 +76,3 @@ in Baker's analysis. The essay is deliberately specified so that it cannot be
 answered by copying Baker.
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-anchor)*
-++}

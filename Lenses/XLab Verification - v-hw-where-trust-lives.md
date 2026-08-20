@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218156207}@@---
+---
 id: '39b85a0e-0cb9-47f8-a5b2-c0ff4433947e'
 title: "2.1.6 Where should trust live?"
 tldr: "Faithful alpha import of XLab lesson 2.1.6 Where should trust live?."
@@ -134,4 +134,3 @@ Compare an on-chip design with an off-chip design for the working pause rule. Fo
 Choose an architecture for a **pilot**, not immediate universal deployment. State the evidence the pilot must produce before the mechanism deserves a larger role.
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-where-trust-lives)*
-++}

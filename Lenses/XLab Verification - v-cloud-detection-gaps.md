@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218143532}@@---
+---
 id: '67977ae1-be51-4cc8-b464-5ccc714db95b'
 title: "2.2.3 Detection gaps and policy limits"
 tldr: "Faithful alpha import of XLab lesson 2.2.3 Detection gaps and policy limits."
@@ -42,4 +42,3 @@ Read these parts in the original article:
 Extract the decisions the technical readings do not settle: which users and activities are covered, who bears the compliance burden, how evasion shifts across jurisdictions, and what over-broad coverage costs.
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-detection-gaps)*
-++}

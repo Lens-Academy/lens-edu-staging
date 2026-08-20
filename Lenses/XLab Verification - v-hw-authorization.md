@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218152446}@@---
+---
 id: 'e39bd85f-e2bf-4039-a3f1-f8f5291892b6'
 title: "2.1.5 Authorization, licensing, and control"
 tldr: "Faithful alpha import of XLab lesson 2.1.5 Authorization, licensing, and control."
@@ -58,4 +58,3 @@ Assemble an end-to-end system for the working rule from the following components
 Then answer: Which component measures the prohibited activity? Which only authenticates another component? Who decides the threshold was crossed? Which component can stop the activity? What detects an unregistered cluster? Which controls fail together if the manufacturer’s root key is compromised?
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-authorization)*
-++}

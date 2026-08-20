@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218147725}@@---
+---
 id: 'dae72ebf-335a-4bd5-b970-b2b3e72230ed'
 title: "2.4.1 Insiders and human sources"
 tldr: "Faithful alpha import of XLab lesson 2.4.1 Insiders and human sources."
@@ -149,4 +149,3 @@ content:: **Interactive exercise:** XLab's `human-insiders` widget has no direct
 #### Text
 content::
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-insiders)*
-++}

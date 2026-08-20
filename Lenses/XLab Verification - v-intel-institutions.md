@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218158900}@@---
+---
 id: '1bfbd032-a554-41da-9025-2c644e774b84'
 title: "2.3.4 Intelligence institutions and treaty design"
 tldr: "Faithful alpha import of XLab lesson 2.3.4 Intelligence institutions and treaty design."
@@ -81,4 +81,3 @@ has not been written up against its supporting context (NSS 2025 p. 13, Baker
 the treaty parts** that the section is meant to end on.
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-institutions)*
-++}

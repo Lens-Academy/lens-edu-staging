@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218146304}@@---
+---
 id: '43f8c54c-e8ae-4f34-b497-12f532d37957'
 title: "3.0 A system overview for near-term, low-trust AI compute verification"
 tldr: "Faithful alpha import of XLab lesson 3.0 A system overview for near-term, low-trust AI compute verification."
@@ -43,4 +43,3 @@ content:: **Import gap:** XLab persistent memo desk has no clean Lens equivalent
 #### Text
 content::
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/covert-development/low-trust-compute-verification)*
-++}
