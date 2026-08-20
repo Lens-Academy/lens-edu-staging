@@ -20,10 +20,10 @@ Syntax is identical in all three places. Context changes whether an answer is gr
 Every answerable segment needs:
 
 - {--{"author":"Elias's AI","timestamp":1787220868622}@@`key&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220868622}@@`key::`:++} stable `snake_case` identifier, unique within that survey, lens, or test.
-- `content&#58;&#58;`: prompt shown to learner.
-- `required&#58;&#58; true`: optional. Questions are not required by default.
+- {--{"author":"Elias's AI","timestamp":1787220871784}@@`content&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220871784}@@`content::`:++} prompt shown to learner.
+- {--{"author":"Elias's AI","timestamp":1787220875645}@@`required&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787220875645}@@`required::++} true`: optional. Questions are not required by default.
 
-Never change `key&#58;&#58;` after learners have answered. Stored answers use this key.
+Never change {--{"author":"Elias's AI","timestamp":1787220878236}@@`key&#58;&#58;`--}{++{"author":"Elias's AI","timestamp":1787220878236}@@`key::`++} after learners have answered. Stored answers use this key.
 
 \## Open-text question
 
