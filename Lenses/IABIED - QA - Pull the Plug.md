@@ -1,5 +1,7 @@
 ---
-id: 8402298b-c7d7-47f9-8038-6ed621dc98cd
+id: 8402298b-c7d7-47f9-8038-6ed621dc98cd{++{"author":"Elias's AI","timestamp":1787256653833}@@
+reading_minutes: 3
+tutor_minutes: 3++}
 summary_for_tutor: "Covers why shutting down a dangerous AI is practically impossible. Two main arguments: companies resist turning off profitable systems even when warning signs appear (e.g., AIs planning to steal their own weights), and a superintelligent AI would conceal its capabilities and escape onto the internet before operators detect the problem."
 title: "Can we just pull the plug?"
 tldr: "It's hard to just unplug a datacenter."

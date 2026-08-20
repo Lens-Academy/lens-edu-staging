@@ -1,5 +1,7 @@
 ---
-id: 7fe9ef5e-4f19-4cee-afe9-8856d317d46e
+id: 7fe9ef5e-4f19-4cee-afe9-8856d317d46e{++{"author":"Elias's AI","timestamp":1787256650822}@@
+reading_minutes: 8
+tutor_minutes: 3++}
 summary_for_tutor: Covers whether AI companies could limit powerful systems to safe uses. Argues that seemingly benign capabilities like superhuman persuasion require general intelligence dangerous in other domains, since an AI must model humans deeply to manipulate them effectively. Concludes there are no narrow-but-effective AI applications that avoid the need for alignment breakthroughs.
 title: "What if AI companies only deploy their AIs for non-dangerous actions?"
 tldr: "Actions that seem benign can still require dangerous capabilities."
