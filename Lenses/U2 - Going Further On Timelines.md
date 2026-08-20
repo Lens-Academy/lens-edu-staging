@@ -1,5 +1,7 @@
 ---
-id: '83312d18-5db0-41f5-b23a-6a67368c0943'
+id: '83312d18-5db0-41f5-b23a-6a67368c0943'{++{"author":"Elias's AI","timestamp":1787256199994}@@
+reading_minutes: 15
+tutor_minutes: 5++}
 title: Going Further On Timelines
 tldr: Optional. The unit depends on one trend line, so here is the team that produced it, explaining what it does and does not support. It also gives routes into takeoff and into the earlier model.
 summary_for_tutor: "Optional depth lens for Unit 2. Inlines METR's own note on the limitations of their time-horizon result, which is the trend every forecast in the unit depends on. Then cards to existing lenses on three types of intelligence explosion, the METR time-horizon work itself, and broad timelines. No graded exercise; one open question the tutor should treat as a conversation rather than an assessment. Students who skip this lose no required content."

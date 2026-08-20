@@ -102,7 +102,8 @@ optional:: true
 # Lens: Closing
 id:: 8a8c1976-538f-4cd9-b66b-2e95726ed21c
 tldr:: A forecast becomes useful when every part is checkable: its evidence, denominator, curve assumptions, interactions, and dependence on shared information.
-summary_for_tutor:: Closes Unit 2 by consolidating four practices: decompose into evidence-settled parts, specify reference-class denominators, expose curve and interaction assumptions, and weight agreement by evidence independence. It then asks learners to compare their Cold Open answers with later transfer tests and diagnose whether their reasoning, not just their vocabulary, changed.
+summary_for_tutor:: Closes Unit 2 by consolidating four practices: decompose into evidence-settled parts, specify reference-class denominators, expose curve and interaction assumptions, and weight agreement by evidence independence. It then asks learners to compare their Cold Open answers with later transfer tests and diagnose whether their reasoning, not just their vocabulary, changed.{++{"author":"Elias's AI","timestamp":1787256202574}@@
+reading_minutes:: 10++}
 #### Text
 content::
 \## Where that leaves you
