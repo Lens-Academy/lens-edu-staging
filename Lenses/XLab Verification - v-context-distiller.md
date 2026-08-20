@@ -2,7 +2,7 @@
 id: 'db7d0ba6-4789-4018-8ea1-5b040ccb7528'
 title: "1.3.1 Context distiller"
 tldr: "Faithful alpha import of XLab lesson 1.3.1 Context distiller."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Interactive elements marked as import gaps must be completed on XLab until Lens has an equivalent."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257260611}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257260611}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257260611}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257260611}@@ XLab."++}
 tags: [wip]
 ---
 #### Text

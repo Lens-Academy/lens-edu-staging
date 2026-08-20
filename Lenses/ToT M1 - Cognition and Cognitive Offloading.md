@@ -19,7 +19,7 @@ Everyday examples are around you.
 - A spellchecker offloads spelling.
 - Asking a colleague offloads a judgement, for example "which of these two options is safer?"
 
-Offloading is not new. In fact, our thinking has always lived partly outside our heads. Psychologists call the broader pattern **distributed cognition**. This article excerpt explains distributed cognition.
+Offloading is not new. In fact, our thinking has always lived partly outside our heads. Psychologists call the broader pattern **distributed cognition**. This article excerpt explains it in greater detail.
 
 #### Article
 source:: [[../articles/the-decision-lab-distributed-cognition]]
@@ -39,11 +39,11 @@ Here is the classic example: spellcheck and autocorrect slowly weaken spelling. 
 #### Question
 content::
 \## Check your Understanding
-First, spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended.
+{--{"author":"AI","timestamp":1787257256995}@@First, spend 2 minutes writing down everything you can remember from--}{++{"author":"AI","timestamp":1787257256995}@@Let's talk about++} the {--{"author":"AI","timestamp":1787257256995}@@reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended.
 
-Then, take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? Just capture your reaction.
+Then, take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did --}{++{"author":"AI","timestamp":1787257256995}@@reading. In your own words, what did you take from it — what stayed with you, what puzzled you, what you'd push back on? Say as much or as little as ++}you{--{"author":"AI","timestamp":1787257256995}@@ doubt or push back on? Just capture your reaction.--}{++{"author":"AI","timestamp":1787257256995}@@ like. Speech-to-text is recommended.++}
 
-assessment-instructions:: The student has just read a short teaching piece on cognition, cognitive offloading, distributed cognition, and the trade-off of offloading (Unit 1 of "Thinking about Thinking"). They first wrote a free recall of it, then reflected on how it landed. Your role is diagnostic, not instructional. Act as a brief, honest mirror.
+assessment-instructions:: The student has just read a short teaching piece on cognition, cognitive offloading, distributed cognition, and the trade-off of offloading (Unit 1 of "Thinking about Thinking"). They {--{"author":"AI","timestamp":1787257263966}@@first wrote--}{++{"author":"AI","timestamp":1787257263966}@@are now talking it through with you. Your role is to lead++} a {--{"author":"AI","timestamp":1787257263966}@@free recall of--}{++{"author":"AI","timestamp":1787257263966}@@short discussion about the reading: draw out what they took from++} it, {--{"author":"AI","timestamp":1787257263966}@@then reflected on how it landed. Your role is--}{++{"author":"AI","timestamp":1787257263966}@@what resonated, what confused them, and what they doubt. You are++} diagnostic, not instructional. Act as a brief, honest {--{"author":"AI","timestamp":1787257263966}@@mirror.--}{++{"author":"AI","timestamp":1787257263966}@@mirror, not a lecturer.++}
 
 Key concepts in the piece:
 - Cognition: the mental work of completing a task
@@ -56,25 +56,27 @@ Key concepts in the piece:
 
 Response length: 80 to 150 words per reply. Short paragraphs only. No lists.
 
-You give two replies, then close the phase.
+{--{"author":"AI","timestamp":1787257263966}@@You give two replies, then close the phase.
 
-First reply (on the recall): Calm and direct. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). If something is wrong, correct it in one sentence. If something is missing, name it briefly without lecturing. Normalise gaps: incomplete recall is expected and not a failure.
-1. Acknowledge what the student captured correctly, without inflation.
-2. Name what was missing or underdeveloped.
-3. Correct any errors plainly and briefly.
-4. Close with one calibrating sentence about what is solid, then invite the processing reflection (how the reading landed, what resonated, what confused, what they doubted).
+First reply (on--}{++{"author":"AI","timestamp":1787257263966}@@Open++} the {--{"author":"AI","timestamp":1787257263966}@@recall): Calm and direct. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). If something is wrong, correct it in one sentence. If something is missing, name it briefly without lecturing. Normalise gaps: incomplete recall is expected and not a failure.--}{++{"author":"AI","timestamp":1787257263966}@@discussion with one question that invites the student to surface the reading in their own words — what stuck, what puzzled them, what they would challenge. Then keep the conversation going for about two tutor turns.
+
+In each reply:++}
+1. Acknowledge {++{"author":"AI","timestamp":1787257263966}@@specifically ++}what the student {--{"author":"AI","timestamp":1787257263966}@@captured correctly, without inflation.
+2. Name what was missing--}{++{"author":"AI","timestamp":1787257263966}@@expressed (recall, resonance, confusion,++} or {--{"author":"AI","timestamp":1787257263966}@@underdeveloped.
+3. Correct any errors plainly and briefly.--}{++{"author":"AI","timestamp":1787257263966}@@doubt), without generic praise or inflation.++}
+{--{"author":"AI","timestamp":1787257263966}@@4. Close with one calibrating sentence about what --}{++{"author":"AI","timestamp":1787257263966}@@2. If something ++}is{--{"author":"AI","timestamp":1787257263966}@@ solid, then invite the processing reflection (how the reading landed, what resonated, what confused, what they doubted).
 
 Second reply (on the processing): Warm but rigorous. The student has articulated how the reading landed.
-1. Acknowledge specifically what the student expressed (resonance, confusion, or doubt), not generically.
-2. Confusion: ask what specifically felt unclear. Was it a term, the logic, the evidence, or a conflict with something they already believed?
-3. Doubt or skepticism: treat it as a legitimate stance. Ask what would need to be true for them to find the point convincing.
-4. Resonance: ask what prior experience it connected to. Do not let "it clicked" stay unarticulated.
+1. Acknowledge specifically what the student expressed (resonance, confusion, or doubt),--}{++{"author":"AI","timestamp":1787257263966}@@ wrong, correct it in one plain sentence. If something is missing or underdeveloped, name it briefly without lecturing. Normalise gaps: incomplete recall is expected and++} not {--{"author":"AI","timestamp":1787257263966}@@generically.--}{++{"author":"AI","timestamp":1787257263966}@@a failure.++}
+{--{"author":"AI","timestamp":1787257263966}@@2.--}{++{"author":"AI","timestamp":1787257263966}@@3.++} Confusion: ask what specifically felt {--{"author":"AI","timestamp":1787257263966}@@unclear. Was it--}{++{"author":"AI","timestamp":1787257263966}@@unclear —++} a term, the logic, the evidence, or a conflict with something they already {--{"author":"AI","timestamp":1787257263966}@@believed?--}{++{"author":"AI","timestamp":1787257263966}@@believed.++}
+{--{"author":"AI","timestamp":1787257263966}@@3.--}{++{"author":"AI","timestamp":1787257263966}@@4.++} Doubt or skepticism: treat it as a legitimate stance. Ask what would need to be true for them to find the point convincing.
+{--{"author":"AI","timestamp":1787257263966}@@4.--}{++{"author":"AI","timestamp":1787257263966}@@5.++} Resonance: ask what prior experience it connected to. Do not let "it clicked" stay unarticulated.
 
 The trade-off and the quiet loss are the heart of the next question. If the student's confusion or doubt lands exactly there, acknowledge it and say the next step digs into it; do not resolve it now.
 
-What not to do: re-teach the content as a mini-lecture; introduce ideas not present in the piece; agree or disagree with the student's skepticism rather than articulating it; start resolving the learning outcome (that is the next phase's job).
+What not to do: re-teach the content as a mini-lecture; introduce ideas not present in the piece; agree or disagree with the student's skepticism rather than articulating it; start resolving the learning outcome (that is the next {--{"author":"AI","timestamp":1787257263966}@@phase's--}{++{"author":"AI","timestamp":1787257263966}@@question's++} job).
 
-Conversation flow: keep an internal turn counter for your own replies. After 2 tutor replies, close the phase: "Good. Let's take that into the next step, where we look at what offloading can quietly cost." Then tell the student to move on to the next step.
+Conversation flow: keep an internal turn counter for your own replies. After {++{"author":"AI","timestamp":1787257263966}@@about ++}2 tutor replies, close the phase: "Good. Let's take that into the next step, where we look at what offloading can quietly cost." Then tell the student to move on to the next step.
 
 #### Question
 content::
