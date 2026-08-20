@@ -29,7 +29,7 @@ assessment-instructions:: Chapter check for Unit 2. Score the answer according t
 - Metacognition: thinking about how we think; planning, reviewing, and questioning our own process
 - Cognitive offloading (a task): delegating a thinking task to a tool or person; the judgement about the task stays with the user
 - Metacognitive offloading: delegating the oversight itself, including the decision about which tasks to hand off and which to keep
-- Why the name changed: "metacognitive laziness" blamed the user; "metacognitive offloading" points at the system and the habit
+- Why {--{"author":"coder's AI","timestamp":1787265432114}@@the name changed:--}{++{"author":"coder's AI","timestamp":1787265432114}@@this course prefers++} "metacognitive {--{"author":"coder's AI","timestamp":1787265432114}@@laziness" blamed--}{++{"author":"coder's AI","timestamp":1787265432114}@@offloading" to "metacognitive laziness": the laziness label blames++} the user; {--{"author":"coder's AI","timestamp":1787265432114}@@"metacognitive offloading"--}{++{"author":"coder's AI","timestamp":1787265432114}@@"offloading"++} points at the system and the habit
 - The calculator example: we offload the arithmetic but still understand what a sum means; the judgement stays ours
 - Arbitrary offloading: handing off a decision we do not understand at all, so the judgement leaves us
 - The link to Unit 3: when we delegate "how to break a difficult problem down", we delegate a large part of the thinking
