@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787219849665}@@---
+{++{"author":"Elias's AI","timestamp":1787219894303}@@---
 id: '0a7b39f9-e1e1-43bd-8a55-4bd3a0397cbd'
 title: Question types specification
 tldr: One Question segment can collect text, ratings, choices, or a fill-in-the-blank answer in surveys, practice lenses, and learning-outcome tests.
@@ -16,7 +16,7 @@ This page is a product specification. Until platform support lands, examples bel
 Every question uses:
 
 ```md
-#### Question
+\#### Question
 type&#58;&#58; text
 key&#58;&#58; reflection
 content&#58;&#58; What changed your mind?
@@ -32,7 +32,7 @@ required&#58;&#58; true
 \## Free text
 
 ```md
-#### Question
+\#### Question
 type&#58;&#58; text
 key&#58;&#58; reflection
 content&#58;&#58; In two sentences, what is the strongest objection?
@@ -57,7 +57,7 @@ Options:
 \## Rating
 
 ```md
-#### Question
+\#### Question
 type&#58;&#58; rating
 key&#58;&#58; confidence
 content&#58;&#58; How confident are you in your answer?
