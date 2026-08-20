@@ -1,5 +1,7 @@
 ---
-id: 'e9785236-c989-43f6-a2b7-1adf793a1498'
+id: 'e9785236-c989-43f6-a2b7-1adf793a1498'{++{"author":"Elias's AI","timestamp":1787256300143}@@
+reading_minutes: 45
+tutor_minutes: 5++}
 title: "How An Explosion Could Happen"
 tldr: Three different things people mean by an intelligence explosion, and they do not all need the same conditions.
 summary_for_tutor: "Opens Unit 3. Pre-reading question asks the student to name what would have to be true for AI progress to speed itself up. Then the Forethought piece on three types of intelligence explosion. One mirror, no grade."

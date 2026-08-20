@@ -1,5 +1,7 @@
 ---
-id: '432e8908-1330-4193-b21c-495681763843'
+id: '432e8908-1330-4193-b21c-495681763843'{++{"author":"Elias's AI","timestamp":1787256302350}@@
+reading_minutes: 25
+tutor_minutes: 5++}
 title: "Failure With No Villain"
 tldr: Two ways things go wrong with nobody scheming anywhere in the story.
 summary_for_tutor: "Pre-reading question asks the student to build a catastrophe with no villain, then they read Christiano. One mirror, no grade."
