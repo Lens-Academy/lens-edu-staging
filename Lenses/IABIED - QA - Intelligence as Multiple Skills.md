@@ -1,5 +1,7 @@
 ---
-id: 05662215-d019-4114-96b2-d8dbcd3ffc72
+id: 05662215-d019-4114-96b2-d8dbcd3ffc72{++{"author":"Elias's AI","timestamp":1787256118846}@@
+reading_minutes: 3
+tutor_minutes: 3++}
 summary_for_tutor: Acknowledges that intelligence involves multiple distinct skills, but argues the distinction becomes less important when capability gaps are large. If AI surpasses humans in thousands of domains while humans excel in only a few, insisting on parity is untenable. Focuses on the trajectory of expanding AI capability breadth rather than definitional debates.
 title: "Doesn't intelligence consist of multiple skills?"
 tldr: "Yes, but there's substantial overlap."

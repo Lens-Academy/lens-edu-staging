@@ -1,5 +1,7 @@
 ---
-id: a48d0490-027e-421f-b064-943425076a39
+id: a48d0490-027e-421f-b064-943425076a39{++{"author":"Elias's AI","timestamp":1787256114700}@@
+reading_minutes: 5
+tutor_minutes: 3++}
 summary_for_tutor: "Defends intelligence as a meaningful concept despite lacking a precise definition. The gap between human and chimpanzee capabilities (77 Nobel Prizes vs. zero) is real and observable. Argues that definitional debates are irrelevant to practical risk: machines converting Earth's surface into infrastructure won't care whether we defined intelligence precisely."
 title: "Is intelligence a meaningful concept?"
 tldr: "Yes. There's a real phenomenon to describe, even if it's difficult to pin down."

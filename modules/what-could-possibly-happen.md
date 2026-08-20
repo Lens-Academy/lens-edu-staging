@@ -75,7 +75,8 @@ Maximum 2 tutor turns. Keep an internal turn counter. Close by telling them this
 # Lens: One Door We Keep Walking Past
 id:: 6dae08db-986e-404d-bfd9-d60d0f7ee591
 tldr:: Everything here treated AI as a curve to forecast. There is a field that asks what makes a mind steerable at all.
-summary_for_tutor:: "Onramp pointer to theoretical alignment. Not assessed; if the student engages, point at the door, don't walk them through it."
+summary_for_tutor:: "Onramp pointer to theoretical alignment. Not assessed; if the student engages, point at the door, don't walk them through it."{++{"author":"Elias's AI","timestamp":1787256111872}@@
+reading_minutes:: 2++}
 
 #### Text
 content::
