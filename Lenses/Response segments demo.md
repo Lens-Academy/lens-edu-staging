@@ -6,42 +6,46 @@ tldr: Use open responses, ratings, selects, and typed fill-in-the-blank response
 summary_for_tutor: Reference page for course creators. It documents shared fields, exact syntax, options, defaults, and grading behavior for OpenResponse, Rating, Select, and typed FillBlank Response segments.
 ---
 
-#### Text
+{--{"author":"Elias's AI","timestamp":1787253784301}@@#### Text
 content::
 \## Response segments work in three places
 
-A Response segment is an interactive field that collects one learner response, such as written text, a rating, a selection, or a missing phrase.
+--}{++{"author":"Elias's AI","timestamp":1787253784301}@@%% ++}A Response segment is an interactive field that collects one learner{--{"author":"Elias's AI","timestamp":1787253784301}@@ response, such as written text, a rating, a selection, or a missing phrase.
 
 Use Response segments in:
 
 - **Surveys** to collect ungraded responses.
-- **Normal lenses** for practice, reflection, and checks for understanding.
-- **Learning Outcome tests** for graded assessment.
+- **Normal lenses** for practice, reflection,--}{++{"author":"Elias's AI","timestamp":1787253784301}@@ response. Same syntax works in surveys, normal lenses,++} and{--{"author":"Elias's AI","timestamp":1787253784301}@@ checks for understanding.
+- **Learning--}{++{"author":"Elias's AI","timestamp":1787253784301}@@ Learning++} Outcome{--{"author":"Elias's AI","timestamp":1787253784301}@@ tests** for graded assessment.
 
-Syntax is identical in all three places. Context changes whether a response is graded, not how segment is written.
+Syntax is identical in all three places. --}{++{"author":"Elias's AI","timestamp":1787253784301}@@ tests. ++}Context{--{"author":"Elias's AI","timestamp":1787253784301}@@ changes whether a response is graded, not how segment is written.--}{++{"author":"Elias's AI","timestamp":1787253784301}@@ determines grading.++}
 
-Each section below starts with smallest useful version. Only `id::` and `content::` are shared requirements. Everything else may be left out unless course creator wants different behavior.
+{--{"author":"Elias's AI","timestamp":1787253784301}@@Each section below starts with smallest useful version. Only--}{++{"author":"Elias's AI","timestamp":1787253784301}@@Every Response segment needs++} `id::` and {--{"author":"Elias's AI","timestamp":1787253784301}@@`content::` are shared requirements. Everything else may be left out unless course creator wants different behavior.
 
 - `id::`: globally unique UUID. It identifies segment in stored responses, grading, and analytics. Never change it after learners have answered.
 - `content::`: prompt shown to learner.
 - `required:: true`: require response before learner can continue. Defaults to `false`, so leave it out when response may be skipped.
-- `feedback-instructions:: ...`: ask AI to respond after submission using these instructions. Defaults to no AI feedback when omitted. This does not make response graded.
+- `feedback-instructions:: ...`: ask AI--}{++{"author":"Elias's AI","timestamp":1787253784301}@@`content::`. Editor should create globally unique UUID automatically. For hand-written files, use https://www.uuidgenerator.net/version4 or plain-text API https://www.uuidgenerator.net/api/version4. Never change ID after learners respond. No separate key needed.
 
-Lens Editor should create `id::` automatically. When writing course files by hand, generate UUID at [uuidgenerator.net/version4](https://www.uuidgenerator.net/version4). Tools and language models can request one from [uuidgenerator.net/api/version4](https://www.uuidgenerator.net/api/version4).
+Response segments are required by default. Adding one normally means learner should answer it; required default prevents accidental missing responses. Add `optional:: true` only when skipping is intentional, such as sensitive survey question or optional reflection. `optional::` defaults++} to {--{"author":"Elias's AI","timestamp":1787253784301}@@respond after submission using these instructions. Defaults to--}{++{"author":"Elias's AI","timestamp":1787253784301}@@`false`.
+
+`feedback-instructions::` is optional on every Response segment. If omitted,++} no AI{--{"author":"Elias's AI","timestamp":1787253784301}@@ feedback when omitted. This--}{++{"author":"Elias's AI","timestamp":1787253784301}@@ feedback. It++} does not make response graded.
+
+{--{"author":"Elias's AI","timestamp":1787253784301}@@Lens Editor should create `id::` automatically. When writing course files by hand, generate UUID at [uuidgenerator.net/version4](https://www.uuidgenerator.net/version4). Tools and language models can request one from [uuidgenerator.net/api/version4](https://www.uuidgenerator.net/api/version4).
 
 Response segments do not need a separate human-readable key.
 
 \## Open response
 
-Use `#### OpenResponse` when learner should type or dictate a response.
+Use `#### OpenResponse` when learner should type--}{++{"author":"Elias's AI","timestamp":1787253784301}@@OpenResponse collects typed++} or {--{"author":"Elias's AI","timestamp":1787253784301}@@dictate a response.
 
-Smallest version:
+--}{++{"author":"Elias's AI","timestamp":1787253784301}@@dictated text. ++}Smallest{--{"author":"Elias's AI","timestamp":1787253784301}@@ version:
 
 > `#### OpenResponse`
 > `id:: <uuid>`
 > `content:: What is your strongest objection?`
 
-Here is that minimal segment for learner to try:
+Here is that minimal segment for learner to try:--}{++{"author":"Elias's AI","timestamp":1787253784301}@@ version follows. %%++}
 
 #### OpenResponse
 id:: 3e1a5838-95df-4d05-a88a-1b4ca868905f
