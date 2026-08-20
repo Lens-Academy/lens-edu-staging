@@ -53,7 +53,7 @@ The study is about learning to program. The traps are about learning. Here is ea
 
 \## The three new traps
 - **Interruption**: a stream of suggestions breaks your thinking at the exact moments you need to concentrate. In the study, students said aloud that the tool was distracting them, and kept working with it anyway.
-- **Mislead**: the tool leads you down the wrong path. A confident wrong answer steers your whole approach, and because the reasoning is hidden, you cannot see where it went wrong.
+- **Mislead**: the tool leads you down the wrong path. A confident wrong answer steers your whole approach, and {--{"author":"AI","timestamp":1787252941617}@@because the reasoning--}{++{"author":"AI","timestamp":1787252941617}@@the only check on offer++} is {--{"author":"AI","timestamp":1787252941617}@@hidden, you cannot see--}{++{"author":"AI","timestamp":1787252941617}@@the AI's own account of++} where it {--{"author":"AI","timestamp":1787252941617}@@went wrong.--}{++{"author":"AI","timestamp":1787252941617}@@went.++}
 - **Progression**: you fall behind in the fundamentals without noticing, because each answer arrives whole and every step feels like understanding. You end up conceptually behind while feeling confident.
 
 \## Two findings that generalise
