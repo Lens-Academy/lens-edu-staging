@@ -183,7 +183,7 @@ It is crucial to acknowledge that the responsibility for ensuring information se
 Record keeping describes the process of collecting, organizing, and maintaining information on a compute provider’s customers and their infrastructure usage. Compute providers are inherently record keepers by virtue of their role and technical necessity. They store and process valuable technical data during large AI deployments and training runs for billing purposes, resource management, and service-level agreement tracking (see [Section 3](#S3 "3 Technical Feasibility of Compute Providers’ Governance
 Role ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation") for more detail). Provided that robust privacy protections are in place, this information could be useful to regulators in overseeing the development of advanced AI systems. We recommend that regulators and providers focus on essential data that informs AI regulation without compromising privacy and confidentiality (which we discuss in more detail in [Section 5.2](#S5.SS2 "5.2 Governance Challenges ‣ 5 Key Challenges ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation")).
 
-![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img5-eb6c315f.png]]
+{--{"author":"Elias's AI","timestamp":1787227221920}@@![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img5-eb6c315f.png]]--}{++{"author":"Elias's AI","timestamp":1787227221920}@@![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img5-eb6c315f.png)++}
 
 Figure 6: The compute provider collects and manages essential usage data on the AI company and its infrastructure usage, focusing on key data that helps validate regulatory compliance without compromising privacy. This facilitates greater transparency into AI advancements, could link compute use to real-world actors, and enables effective post-incident response and forensics.
 
@@ -201,7 +201,7 @@ Furthermore, transparency requirements for environmental accountability, particu
 
 Compute providers can also actively verify customer compliance with regulatory requirements, providing AI firm oversight. Similar to banks and other financial intermediaries, compute providers can actively verify the identity of customers and key customer activities, checking that the properties of AI systems being deployed or developed match customer reporting. This might include verifying the type of computational workload run by the customer (e.g., training an AI model, or deploying a model at scale) as well as claims about the total amount of compute used, or the type of data used in the training process.[^18]
 
-![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img6-eb6c315f.png]]
+{--{"author":"Elias's AI","timestamp":1787227225572}@@![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img6-eb6c315f.png]]--}{++{"author":"Elias's AI","timestamp":1787227225572}@@![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img6-eb6c315f.png)++}
 
 Figure 7: The compute provider actively verifies the AI company’s identities, specific activities, and/or properties of AI systems for regulatory compliance.
 
