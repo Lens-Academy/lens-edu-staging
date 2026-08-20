@@ -487,7 +487,7 @@ A light blue square with the year '2005' in large white font.
 
 The Board of Governors addresses a weakness in the IAEA's safeguards system by approving a revised small quantities protocol (SQP) text
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig34-925e8748.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227195146}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig34-925e8748.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227195146}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig34-925e8748.jpg)++}
 
 A light blue square with the year '1997' in large white font.
 
@@ -499,7 +499,7 @@ The Board of Governors approves the Model Additional Protocol (AP), providing in
 
 Following the revelations about undeclared nuclear material and activities in Iraq and the DPRK in the early 1990s, the IAEA embarks on 'Programme 93+2'
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig35-c415bb7f.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227199494}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig35-c415bb7f.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227199494}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig35-c415bb7f.jpg)++}
 
 A photograph of two technicians in white protective suits working at a control room. The room is filled with multiple computer monitors displaying various data visualizations, including bar charts, line graphs, and scatter plots. One technician is seated at a desk, looking at a monitor, while the other is standing and looking at a notebook. The background shows a wall with various documents and charts.
 
