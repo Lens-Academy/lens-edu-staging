@@ -31,7 +31,7 @@ assessment-instructions::
 Help the learner turn a policy slogan into a testable claim. Check whether all six requested parts are concrete and mutually consistent. Identify the single most important ambiguity or missing actor. Ask one causal follow-up about how an actor could evade the proposed evidence. Do not reward agreement with any particular policy. Keep the response under 180 words.
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Compute accounting for training runs]]
+source:: [[../../Learning Outcomes/Compute accounting for training runs]]
 
 # Lens:
-source:: [[../Lenses/AIV - Verification Methods and Their Evasions]]
+source:: [[../../Lenses/AIV - Verification Methods and Their Evasions]]
