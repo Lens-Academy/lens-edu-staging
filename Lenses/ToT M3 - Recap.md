@@ -29,7 +29,10 @@ assessment-instructions:: Chapter check for Unit 3. Score the answer according t
 - Gerlich (2025): 666 UK participants, validated HCTA assessment; AI use negatively predicts critical thinking (β = −1.76, p < 0.001); younger participants showed strongest pattern; self-report limitation with correction
 - Lee et al. (2025): 319 knowledge workers, 936 examples; higher AI confidence → lower critical thinking; shift from generative tasks to reviewer tasks (Bloom's taxonomy)
 - The legal study (Bednar and colleagues): law students who used AI early produced better work and still understood the material; but stronger students who used AI to revise their own work did worse; help regressed strong work
-- The survey (self-reports from 299 UK workers): warning signs but not proof of cause and effect
+- The {++{"author":"AI","timestamp":1787234614780}@@programmer study (Prather et al., 2024): 21 novice programmers solved one problem in a lab with Copilot and ChatGPT; observation, interviews, and eye tracking, not self-reports; 20 of 21 finished the task; prepared students used the AI to write code they already intended to write and accelerated; struggling students fell into traps and finished with an illusion of competence
+- The trap split: five traps predate generative AI (Forming, Dislodging, Assumption, Location, Achievement, documented 2018); AI amplified them and introduced three new ones (Interruption, Mislead, Progression); the traps live in metacognition during learning, so most apply to knowledge work beyond programming
+- The accept-rate finding: students who showed metacognitive difficulties accepted more Copilot suggestions (34.1% vs 24.5% on average); the less you understand, the harder it is to judge the help
+- The ++}survey (self-reports from 299 UK workers): warning signs but not proof of cause and effect
 - The counterargument (Gutoreva et al.): Extended Mind theory—external tools can become legitimate parts of cognition
 - The limits: short, narrow, small; mix of self-report and objective measures; field has mixed findings; long-term effects unknown
 - The honest conclusion: the evidence supports concern, not panic; whether help helps depends on when and how you use it
