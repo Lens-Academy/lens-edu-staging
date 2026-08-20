@@ -1,7 +1,7 @@
 ---
-id: 'b8b723bb-28f4-4f08-8e81-f8a77f38e817'{++{"author":"Elias's AI","timestamp":1787256346897}@@
+id: 'b8b723bb-28f4-4f08-8e81-f8a77f38e817'
 reading_minutes: 20
-tutor_minutes: 5++}
+tutor_minutes: 5
 title: "The Menu"
 tldr: There is an actual list of concrete projects that would make the transition to powerful AI go better. Most are understaffed. Some do not exist yet. Compare your own ideas with it.
 summary_for_tutor: "Third lens of Unit 5, and the last assigned reading of the whole course. Pre-question commits the student to the one gap they think nobody is filling; then MacAskill's list of eight concrete projects. One mirror, no grade."

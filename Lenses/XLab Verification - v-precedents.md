@@ -2,7 +2,7 @@
 id: '128dc22b-db3d-4a02-80b8-939682746c85'
 title: "0.3 History, Precedents, Parallels"
 tldr: "Faithful alpha import of XLab lesson 0.3 History, Precedents, Parallels."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257412696}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257412696}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257412696}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257412696}@@ XLab."++}
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
 tags: [wip]
 ---
 #### Text

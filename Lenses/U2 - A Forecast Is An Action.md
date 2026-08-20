@@ -1,6 +1,6 @@
 ---
-id: '4dac0591-f829-421d-8410-8a471fc70590'{++{"author":"Elias's AI","timestamp":1787256183891}@@
-reading_minutes: 3++}
+id: '4dac0591-f829-421d-8410-8a471fc70590'
+reading_minutes: 3
 title: "A Forecast Is An Action"
 tldr: A prediction accurate enough to be believed changes what people do, and that changes what happens. You cannot stand outside the system to forecast it. A forecast that presents a choice as something inevitable has made that choice for you.
 summary_for_tutor: "Introductory reading assignment for the unit's closing sequence. It frames AI 2040 as an optional scenario, Richard Ngo's critique as required, and Demski's Predict-O-Matic parable as optional, then gives the learner a question to carry into the readings."
