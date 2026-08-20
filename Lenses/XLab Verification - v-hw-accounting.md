@@ -2,7 +2,7 @@
 id: 'e9aefe42-bbdf-4ea0-be7f-2ee033558aa8'
 title: "2.1.3 Accounting for hardware: identity, location, topology, and completeness"
 tldr: "Faithful alpha import of XLab lesson 2.1.3 Accounting for hardware: identity, location, topology, and completeness."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Interactive elements marked as import gaps must be completed on XLab until Lens has an equivalent."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257301709}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257301709}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257301709}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257301709}@@ XLab."++}
 tags: [wip]
 ---
 #### Text

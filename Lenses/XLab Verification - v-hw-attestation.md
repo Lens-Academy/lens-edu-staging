@@ -2,7 +2,7 @@
 id: 'b481c94e-9a3a-4118-b4e9-7bd13a1c488d'
 title: "2.1 Hardware"
 tldr: "Faithful alpha import of XLab lesson 2.1 Hardware."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Interactive elements marked as import gaps must be completed on XLab until Lens has an equivalent."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257307630}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257307630}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257307630}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257307630}@@ XLab."++}
 tags: [wip]
 ---
 #### Text
