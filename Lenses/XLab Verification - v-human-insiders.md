@@ -11,7 +11,7 @@ In this section, you will learn about the three main categories of human- or
 personnel-based verification: whistleblower programs, personnel interviews,
 and national intelligence activities. First, read the below excerpt of Baker's
 _Verifying International Agreements on AI_ paper, paying attention to each
-mechanism's unique strengths, failure modes, and applicable circumstances.
+mechanism's unique strengths, failure modes, and applicable circumstances.{--{"author":"Elias's AI","timestamp":1787219624529}@@
 
 \## Verifying International Agreements on AI: Six Layers of Verification for Rules on Large-Scale AI Development and Deployment
 
@@ -21,7 +21,12 @@ This page reproduces [§4.3 “Personnel-Based Verification Layers”](https://a
 
 The source text and tables are reproduced under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-\### 5.3 4.3 Personnel-Based Verification Layers
+\### 5.3--}{++{"author":"Elias's AI","timestamp":1787219624529}@@
+
+
+#### Article
+source:: [[../articles/baker-verifying-international-agreements-on-ai-six-layers-of-verification-for-rules-on-large-scale-ai-development-and-deployment]]
+from:: ###++} 4.3 Personnel-Based Verification Layers{--{"author":"Elias's AI","timestamp":1787219624529}@@
  |    Potential verification layer
   |   Summary of layer
   |   Keyadvantages
@@ -31,8 +36,8 @@ The source text and tables are reproduced under [CC BY 4.0](https://creativecomm
  Whistleblower programs
 
   |   Programs may enable and incentivize (narrowly scoped, non-public) staff whistleblowing, for all verification subgoals.
-  |   Relatively simple, precedented, and implementation-
-ready.
+  |   Relatively simple, precedented, and implementation---}
+{--{"author":"Elias's AI","timestamp":1787219624529}@@ready.
   |   Unclear effectiveness: depends on the number and loyalty of accomplices.
 
  |
@@ -54,9 +59,9 @@ Table: Summary of personnel-based verification layers and their tradeoffs.
 
    Figure 7: Summary of how personnel-based verification layers would complete each subgoal. Each of these layers simply consists of a single mechanism applied to all subgoals.
 
-In contrast to other, more technical verification mechanisms, personnel-based verification relies on the difficulty of having large groups of people collude without disclosures or leaks. Verifiers could systematically seek disclosures or leaks through whistleblower programs, interviews of personnel, and national intelligence activities. Intelligence activities, though, might involve cyber or signals intelligence, not only direct communication with personnel.
+--}{++{"author":"Elias's AI","timestamp":1787219624529}@@to:: ++}In contrast to other, more technical verification mechanisms, {--{"author":"Elias's AI","timestamp":1787219624529}@@personnel-based verification--}{++{"author":"Elias's AI","timestamp":1787219624529}@@_personnel-based verification_++} relies on the difficulty of having large groups of people collude without disclosures or leaks. Verifiers could systematically seek disclosures or leaks through whistleblower programs, interviews of personnel, and national intelligence activities. Intelligence activities, though, might involve cyber or signals intelligence, not only direct communication with personnel.
 
-\#### 5.3.1 4.3.1 Mechanisms
+{--{"author":"Elias's AI","timestamp":1787219624529}@@\#### 5.3.1 4.3.1 Mechanisms
 We outline three distinct mechanisms for personnel-based verification. All are well-established mechanisms for verifying compliance with regulations or international agreements.
 Whistleblower programs: Formal, cooperative whistleblower programs could enable and encourage employees to narrowly blow the whistle on violations ([Appendix A.8](https://arxiv.org/abs/#a.8-whistleblower-programs)):[63](https://arxiv.org/abs/#ax-fn-63)
 
@@ -68,9 +73,9 @@ Interviews of personnel: Employees could reveal violations unintentionally in in
 Hypothetically, one way interviews could be relatively robust is if they involved more reliable lie-detection technology than currently exists. However, we are not recommending the development of such technology, due to its potential for abuse.
 National intelligence activities: States[64](https://arxiv.org/abs/#ax-fn-64) could seek evidence of violations through disciplines including human intelligence, signals intelligence, and cyber intelligence. Unlike the above mechanisms, intelligence activities may be effective without the Prover’s cooperation.[65](https://arxiv.org/abs/#ax-fn-65) Intelligence-based verification may not be equally feasible for all states in multilateral contexts, but states with relatively weak intelligence capabilities could rely on stronger states’ intelligence-based verification. For example, in a hypothetical agreement with the United States and China as parties, if a third party lacked confidence in their own intelligence capabilities, they might trust that the United States would verify (and enforce) China’s compliance, because doing so would be in U.S. interests, and vice versa.
 
-\#### 5.3.2 4.3.2 Analysis
-Personnel-based verification offers simplicity, but its reliability is unclear. Personnel-based verification mechanisms tend to offer relatively cheap, simple verification methods, without necessarily depending on complex, new technical protocols or hardware (which may be slow to develop, stress-test, and physically set up). Consequently, personnel-based mechanisms may be unusually feasible to use on short notice. These mechanisms leverage the large number of individuals involved in large-scale AI development—typically hundreds ([Table 9](https://arxiv.org/abs/#tab:the_number_of_contributors)). Human-based verification would also tend to strengthen other verification mechanisms, catching efforts to circumvent other mechanisms via significant collusion. However, human-based verification mechanisms may be hindered by counterintelligence, such as a violator involving only a small group of well-vetted and surveilled individuals in any violation (possibly for security reasons), though there are potential countermeasures.
-Personnel-based mechanisms would not only provide their own assurances but also strengthen technical assurances. In addition to providing independent ways to detect violations, personnel-based mechanisms could detect efforts to circumvent on- and off-chip layers. For example, if a state tried to circumvent on-chip mechanisms, it might use personnel to: identify or design hardware vulnerabilities, physically tamper with chips, or swap a compromised chip design into a chipmaking machine.[66](https://arxiv.org/abs/#ax-fn-66) Thus, a significant number of personnel may be able to disclose or leak evidence of the violation, not even counting the personnel involved in the AI aspects of the violation. In this sense, verification layers do not only provide backup in case other layers fail; they also make it less likely that other layers will fail.
+\#### 5.3.2 4.3.2 Analysis--}{++{"author":"Elias's AI","timestamp":1787219624529}@@#### Article++}
+{--{"author":"Elias's AI","timestamp":1787219624529}@@Personnel-based verification offers simplicity, but its reliability is unclear. Personnel-based verification mechanisms tend to offer relatively cheap, simple verification methods, without necessarily depending on complex, new technical protocols or hardware (which may be slow to develop, stress-test, and physically set up). Consequently, personnel-based mechanisms may be unusually feasible to use on short notice. These mechanisms leverage the large number of individuals involved in large-scale AI development—typically hundreds ([Table 9](https://arxiv.org/abs/#tab:the_number_of_contributors)). Human-based verification would also tend to strengthen other verification mechanisms, catching efforts to circumvent other mechanisms via significant collusion. However, human-based verification mechanisms may be hindered by counterintelligence, such as a violator involving only a small group of well-vetted and surveilled individuals in any violation (possibly for security reasons), though there are potential countermeasures.--}{++{"author":"Elias's AI","timestamp":1787219624529}@@source:: [[../articles/baker-verifying-international-agreements-on-ai-six-layers-of-verification-for-rules-on-large-scale-ai-development-and-deployment]]++}
+{--{"author":"Elias's AI","timestamp":1787219624529}@@Personnel-based mechanisms would not only provide their own assurances but also strengthen technical assurances. In addition to providing independent ways to detect violations, personnel-based mechanisms could detect efforts to circumvent on- and off-chip layers. For example, if a state tried to circumvent on-chip mechanisms, it might use personnel to: identify or design hardware vulnerabilities, physically tamper with chips, or swap a compromised chip design into a chipmaking machine.[66](https://arxiv.org/abs/#ax-fn-66) Thus, a significant number of personnel may be able to disclose or leak evidence of the violation, not even counting the personnel involved in the AI aspects of the violation. In this sense, verification layers do not only provide backup in case other layers fail; they also make it less likely that other layers will fail.
 The number of human personnel needed for AI development and deployment could fall due to AI automation, reducing the effectiveness of personnel-based verification. AI models are increasingly capable of software engineering and AI R&D [[16](https://arxiv.org/abs/#ax-ref-bengio2025internationalaisafetyreport), [123](https://arxiv.org/abs/#ax-ref-kwa2025measuringaiabilitycomplete)]. Still, even if AI engineers become fully automatable, some human involvement could persist. For example, human personnel may remain as organizational leaders, as staff who construct or maintain data centers, and as overseers of AI deployments—especially if significant human oversight is required.[67](https://arxiv.org/abs/#ax-fn-67) Separately, capable AI agents could benefit on- and off-chip verification layers ([Section 4.1](https://arxiv.org/abs/#on-chip-verification-layer); [Section 4.2](https://arxiv.org/abs/#off-chip-verification-layers)).
  |   AI model (or model family)
   |   Number of “core contributors”[68](https://arxiv.org/abs/#ax-fn-68)
@@ -96,8 +101,8 @@ We'll pay special attention to whistleblower programs, which have the most
 historical precedence, existing infrastructure, and potential verifiability
 effectiveness.
 
-\#### A.1.8 A.8 Whistleblower Programs
-Background: Programs and laws that encourage employees to blow the whistle on violations are commonplace [[142](https://arxiv.org/abs/#ax-ref-nwc-whistlelaws)], contributing to approximately $2 billion or more in SEC fines in 2023.[135](https://arxiv.org/abs/#ax-fn-135) In the AI industry, large-scale AI projects tend to involve hundreds of employees ([Table 9](https://arxiv.org/abs/#tab:the_number_of_contributors))—hundreds of individuals who might be able to report any large-scale violations to a Verifier. In addition to AI developers’ own employees, other organizations throughout the AI supply chain have employees who can blow the whistle on some violations, especially undeclared AI data centers. Employees could blow the whistle on a Prover’s (i) non-compliant AI activities, (ii) falsified declarations, or (iii) attempts to circumvent another verification mechanism ([Table 14](https://arxiv.org/abs/#tab:types_of_employees_who_would_have_information)). Formal whistleblower programs could promote appropriate forms of whistleblowing by providing (would-be) whistleblowers with information they can check, disclosure protocols, and incentives (including intrinsic motivation, social norms, protection, and financial rewards). Provers may view formal whistleblower programs as legitimate, so Provers may be willing to take verifiable actions that facilitate whistleblowing (in contrast to espionage), such as allowing employees to privately talk with a Verifier.
+\#### A.1.8 --}{++{"author":"Elias's AI","timestamp":1787219624529}@@from:: #### ++}A.8 Whistleblower Programs
+{--{"author":"Elias's AI","timestamp":1787219624529}@@Background: Programs and laws that encourage employees to blow the whistle on violations are commonplace [[142](https://arxiv.org/abs/#ax-ref-nwc-whistlelaws)], contributing to approximately $2 billion or more in SEC fines in 2023.[135](https://arxiv.org/abs/#ax-fn-135) In the AI industry, large-scale AI projects tend to involve hundreds of employees ([Table 9](https://arxiv.org/abs/#tab:the_number_of_contributors))—hundreds of individuals who might be able to report any large-scale violations to a Verifier. In addition to AI developers’ own employees, other organizations throughout the AI supply chain have employees who can blow the whistle on some violations, especially undeclared AI data centers. Employees could blow the whistle on a Prover’s (i) non-compliant AI activities, (ii) falsified declarations, or (iii) attempts to circumvent another verification mechanism ([Table 14](https://arxiv.org/abs/#tab:types_of_employees_who_would_have_information)). Formal whistleblower programs could promote appropriate forms of whistleblowing by providing (would-be) whistleblowers with information they can check, disclosure protocols, and incentives (including intrinsic motivation, social norms, protection, and financial rewards). Provers may view formal whistleblower programs as legitimate, so Provers may be willing to take verifiable actions that facilitate whistleblowing (in contrast to espionage), such as allowing employees to privately talk with a Verifier.
 Challenges and mitigations:
 
 - Secure and confidential communication with potential whistleblowers. A Prover might try to not only retaliate against whistleblowers, but also entirely block or alter their messages. Standard approaches to secure internet communication (e.g., TLS, VPNs, and Tor) are not designed to secure the communications of parties who may be under video surveillance, or whose computers may be backdoored. Instead, a more secure option is for such employees to make in-person visits to a building physically secured by a Verifier. To prevent the Prover from detecting or blocking whistleblowers’ visits to these locations, the verification protocol could require the Prover to periodically send various relevant employees to visit the Verifier-secured building (e.g., as brief visits to an office near the Prover’s offices).[136](https://arxiv.org/abs/#ax-fn-136) [137](https://arxiv.org/abs/#ax-fn-137) [138](https://arxiv.org/abs/#ax-fn-138)
@@ -133,7 +138,7 @@ Challenges and mitigations:
 
  |
 
-Table: Types of employees who would have information about different types of violations. Personnel-based verification could leverage these employees for verification.
+Table:--}{++{"author":"Elias's AI","timestamp":1787219624529}@@to:: Table 14:++} Types of employees who would have information about different types of violations. Personnel-based verification could leverage these employees for verification.
 
 \## Insider Report
 
