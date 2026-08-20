@@ -143,7 +143,7 @@ Options:
 - `accepted-answers::`: one or more complete accepted answers.
 - `case-sensitive::`: defaults to `false`.
 - `trim::`: ignore leading and trailing whitespace. Defaults to `true`.
-- `explanation&#58;&#58;`: optional feedback shown after submission.
+- {--{"author":"Elias's AI","timestamp":1787221252335}@@`explanation&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787221252335}@@`explanation::`:++} optional feedback shown after submission.
 
 Matching is exact after configured case and whitespace normalization. Use several FillBlank segments when exercise needs several blanks.
 
