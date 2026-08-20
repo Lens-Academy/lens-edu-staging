@@ -155,6 +155,7 @@ options::
 - Governance
 - Technical safety
 multi:: true
+allow-zero:: true
 
 #### Text
 content::
