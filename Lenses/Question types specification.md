@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787219906853}@@---
+---
 id: '0a7b39f9-e1e1-43bd-8a55-4bd3a0397cbd'
 title: Question types specification
 tldr: One Question segment can collect text, ratings, choices, or a fill-in-the-blank answer in surveys, practice lenses, and learning-outcome tests.
@@ -175,4 +175,3 @@ In learning-outcome tests, every text, choice, or fill-blank question must be gr
 | `feedback` | `true` in lenses and tests |
 
 Unknown fields, invalid combinations, duplicate keys, answerless scored questions, and multiple or missing `{{blank}}` markers should be validator errors.
-++}

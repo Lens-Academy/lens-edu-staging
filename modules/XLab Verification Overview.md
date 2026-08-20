@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787219169120}@@---
+---
 id: '76aee160-847f-4d37-8de2-3389142ad7bc'
 slug: xlab-verification-overview
 title: "Course Overview"
@@ -50,4 +50,3 @@ What would be enough for three-month emergency pause? Module combines feasibilit
 Read modules in order because later work builds on earlier actor, policy, and evidence models. Writing exercises can be completed directly in Lens. When page marks interactive import gap, use linked XLab activity, then return here to continue.
 
 Original course overview and current curriculum remain available at [aisafetytracks.com/tracks/verification](https://aisafetytracks.com/tracks/verification).
-++}
