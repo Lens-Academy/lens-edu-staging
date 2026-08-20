@@ -1,0 +1,31 @@
+{++{"author":"Elias's AI","timestamp":1787218159571}@@---
+id: '27cb8115-9790-4574-8090-4c3d56b1e230'
+title: "2.3 Intelligence: watching without permission"
+tldr: "Faithful alpha import of XLab lesson 2.3 Intelligence: watching without permission."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Interactive elements marked as import gaps must be completed on XLab until Lens has an equivalent."
+tags: [wip]
+---
+#### Text
+content::
+Let’s talk about what a frontier training run physically is, because the physics is what makes this whole layer possible.
+
+Somewhere there is a building. Inside it are tens of thousands of accelerator chips, and every one of them came from somewhere: fabricated at one of the handful of leading-edge fabs you mapped in Module 1, shipped across borders, bought with purchase orders, installed by contractors. The building draws something on the order of a hundred megawatts, the consumption of a small city, continuously, for months. Every watt of that electricity ends up as heat, because that is what computation does to energy, so the facility has to dump city-scale heat into the air or a river, day and night, all winter. The money involved runs to billions once you count the chips, the construction, and the power contracts, and money moves through banks and contracts that leave records. And several hundred engineers had to be hired, which means job postings, moved equity, and LinkedIn.
+
+A state can lie in its declarations. It cannot opt out of thermodynamics, customs, payroll, or the electrical grid. Each of those is a place where a secret program touches the world other people can see, and some of the touches are visible from orbit. Intelligence, as this course uses the word, means collecting and reading those traces without the cooperation of the actor being watched.
+
+That independence is what earns this layer its place next to hardware as one of the two the track weights most. The mechanisms in 2.1 mostly need chips designed or retrofitted for the job, and the ones in 2.2 see whatever passes through a covered provider. Intelligence is how you watch the actor who signed nothing, declared nothing, or is lying, and it requires no buildout: the satellites are already flying, the customs data already accumulates, the analysts are already at their desks. If an emergency pause started tomorrow, this layer would be the one working by evening.
+
+The real problem here is ambiguity. A hundred-megawatt building full of accelerators might be a covert training site, or it might be a video-streaming company’s new region, and from the outside they can look identical. Several hundred data centers in the world are large enough to be candidates. So the questions that organize this section are the ones a working analyst faces in order: which traces are worth watching, and what does each one actually establish (2.3.1)? Has this kind of watching ever really caught a covert program (2.3.2, and the answer is yes, with some fine print)? How do you read ambiguous traces without fooling yourself, which turns out to be the hardest part of the job (2.3.3)? Whose satellites are these, and what do treaties let them do (2.3.4)? And when you finally see something that worries you, what exactly do you do about it (2.3.5)?
+
+The goal is that by the end you should be able to take signals, whether they’re thermal plumes, an import spike, a suspicious hiring wave, and say three things about it: what it establishes, what else would explain it, and what it justifies doing next.
+
+**“National technical means”**
+
+The treaty term for a state’s own collection: reconnaissance satellites, signals interception, remote sensors. The phrase entered treaty law with SALT I and the ABM Treaty in 1972, chosen because neither superpower would write “spy satellites” into a legal document. When the readings say NTM, read: our own intelligence, which we decline to describe.
+
+**One vocabulary note**
+
+Wasil and coauthors, whose taxonomy you’ll read in 2.3.1, count whistleblowers among national technical means. This course teaches the whistleblower in 2.4 instead, because a tip’s content and the person who risks carrying it raise different questions. When the two carve differently, follow the course’s numbering and cite the paper’s.
+
+*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-intro)*
+++}

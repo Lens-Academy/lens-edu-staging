@@ -1,0 +1,127 @@
+{++{"author":"Elias's AI","timestamp":1787218167365}@@---
+id: '2f1c552a-1785-43d7-b8dd-41ae5f7dfadd'
+title: "1.1 Anatomy of a (pause) agreement"
+tldr: "Faithful alpha import of XLab lesson 1.1 Anatomy of a (pause) agreement."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Interactive elements marked as import gaps must be completed on XLab until Lens has an equivalent."
+tags: [wip]
+---
+#### Text
+content::
+In this exercise, you will dive into the actual structure and content of an international agreement that may be subject to verification. You’ll examine in detail MIRI’s draft [International Agreement to Prevent the Premature Creation of Artificial Superintelligence](/tracks/verification/policy-scoping/prevent-premature-asi-treaty) and consider how its provisions could be interpreted, implemented, and verified. This includes identifying the fundamental policy objectives underlying each legal provision, the verification mechanisms and evidentiary thresholds required to assess compliance, ambiguities, loopholes, and potential strategies for evading the agreement’s requirements.
+
+Before we dive into the MIRI treaty, first read some provisions from the Practice Guide to International Treaties, which Swiss officials use in the negotiation and drafting of international agreements.
+
+\## How an Agreement Is Put Together
+
+\### [Practice Guide to International Treaties](https://www.eda.admin.ch/content/dam/eda/en/documents/publications/Voelkerrecht/Practice-Guide-to-International-Treatie-2023_EN.pdf)
+Claude Schenker, Directorate of International Law, Swiss Federal Department of Foreign Affairs (2023)
+
+Review the following sections:
+
+- **Pages 13–15 — Structure of a treaty:** the title and preamble, the main body, the final clauses, and the annexes;
+- **Page 42 — Interpretation:** Articles 31–33 of the Vienna Convention and the order in which the principal interpretative methods are applied — ordinary meaning, context, and the treaty’s object and purpose;
+- **Annex E, page 47 — Model final clauses:** complete examples of provisions on signature, ratification, accession, and entry into force.
+
+\## Reading the Treaty Taking Too Long?
+
+Read **Look for key verbs** twice. It is question 1 of this unit, in the drafters’ own words.
+
+\### [Reading Statutes and Bills](https://tlc.texas.gov/docs/legref/readingabill.pdf)
+*“Tips for Reading and Understanding a Statute”, pp. 4–5, complete*
+Texas Legislative Council, Research Division, 85th Legislature
+
+Many statutes are straightforward and easily understood, while others are more complicated. Cross-references, dependent subdivisions, and phrases that provide exceptions to an application of the statute can make the meaning difficult to follow.
+
+Below are a few tips to help understand statutes.
+
+- **Read the complete heading.** The heading (code/title/subtitle/chapter/subchapter/section) establishes how the section fits into the entire code’s organization.
+
+```
+LOCAL GOVERNMENT CODE
+TITLE 8. ACQUISITION, SALE, OR LEASE OF PROPERTY
+SUBTITLE B. COUNTY ACQUISITION, SALE, OR LEASE OF PROPERTY
+CHAPTER 262. PURCHASING AND CONTRACTING AUTHORITY OF COUNTIES
+SUBCHAPTER C. COMPETITIVE BIDDING IN GENERAL
+Sec. 262.023. COMPETITIVE REQUIREMENTS FOR CERTAIN PURCHASES
+```
+
+- **Check for the context of the statute.** Think of the statute as a unit of law that is part of a series of units of law and scan the table of contents to see what sections precede and follow the section you are reading. If there is a short title section (usually at the beginning of the chapter or subchapter), read it.
+
+```
+Sec. 262.021. SHORT TITLE
+Sec. 262.022. DEFINITIONS
+Sec. 262.0225. ADDITIONAL COMPETITIVE PROCEDURES
+Sec. 262.023. COMPETITIVE REQUIREMENTS FOR CERTAIN PURCHASES
+Sec. 262.0235. PROCEDURES ADOPTED BY COUNTY PURCHASING AGENTS FOR
+              ELECTRONIC BIDS OR PROPOSALS
+Sec. 262.024. DISCRETIONARY EXEMPTIONS
+Sec. 262.0241. MANDATORY EXEMPTIONS: CERTAIN RECREATIONAL SERVICES
+Sec. 262.0245. COMPETITIVE PROCUREMENT PROCEDURES ADOPTED BY COUNTY
+              PURCHASING AGENTS OR COMMISSIONERS COURT
+Sec. 262.025. COMPETITIVE BIDDING NOTICE
+Sec. 262.0255. ADDITIONAL NOTICE AND BOND PROVISIONS RELATING TO
+              PURCHASE OF CERTAIN EQUIPMENT
+Sec. 262.0256. PRE-BID CONFERENCE FOR CERTAIN COUNTIES OR A DISTRICT
+              GOVERNED BY THOSE COUNTIES
+Sec. 262.026. OPENING OF BIDS
+```
+
+- **Look for a definitions section and read it.** If present, it is usually found at the beginning of a chapter or subchapter. A definition may be used in the statutes to avoid repetition of a long term, for example, using the term “department” to refer to the Department of State Health Services. Make sure you understand references to general terms like “department,” “agency,” or “executive director.”
+
+**SourceBox**
+
+- Code Construction Act (Chapter 311, Government Code) applies to all codes enacted as part of the statutory revision program.
+- Chapter 312, Government Code, applies to civil statutes generally.
+
+- **Pay close attention to the statute’s format and organization.** Look for breaks in the text. Assume everything in the statute has meaning, including punctuation and format.
+- **Look for key verbs.** Legislative drafters use important “action” words such as “may,” “shall,” or “must” that establish whether a provision requires or authorizes some action or condition. “Shall” denotes a duty imposed on a person or entity. “Must” denotes a condition that must be met or an event that must occur as a prerequisite to full legitimacy. “May” denotes a privilege or discretionary power. “Is entitled to” denotes a right, as opposed to discretionary power. “May not” and “shall not” denote a prohibition.
+
+**SourceBox**
+
+- Shall
+- May
+- May not
+- Must
+- Is entitled to
+- Shall not
+
+- **Look for exceptions to the application of the statute.** Exceptions are signaled by keywords such as “certain,” “only,” “under,” “over,” “more than,” “less than,” “if,” and “unless” or signaled by a series ending in “and” or “or” that indicates whether all the elements of the series are included or only one of the elements needs to be included to satisfy the series.
+- **Do not skip over words that you do not know or fully understand.** Do not rely only on common understanding for the meaning of a word about which you are unsure, and do not assume a word (e.g., “person”) has the same meaning that it has in everyday conversation. Use statutory context and definitions to determine the precise meaning of a word.
+- **Read through cross-referenced sections in their entirety.** Legislative drafters avoid repetition of text by the use of cross-references to other statutory provisions. If a cross-reference is to an entire chapter or subchapter, read through the chapter’s or subchapter’s table of contents and definitions section to discern the context. In the following example, without reading the cross-referenced Section 93.011, the reader would not know that the circumstances under which the savings bank has closed are emergency circumstances.
+
+```
+Sec. 93.012. EFFECT OF CLOSING. (a) A day on which a savings bank or
+one or more of its operations are closed under Section 93.011 during
+all or part of its normal business hours is considered to be a legal
+holiday to the extent the savings bank suspends operations.
+
+Sec. 93.011. EMERGENCY CLOSING. (a) If the officers of a savings
+bank determine that an emergency that affects or may affect the savings
+bank's offices or operations exists or is impending, the officers, as
+reasonable, may determine: . . . .
+```
+
+\## Apply the Treaty-Reading Method
+
+\## Assignment
+
+#### Text
+content:: **Interactive exercise:** XLab's `treaty-workspace` widget has no direct Lens equivalent yet. Complete it in the [original XLab lesson](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-anatomy). Its surrounding lesson text is preserved here.
+
+#### Text
+content::
+\## [Optional] Drill: Reassemble the Parts of an Agreement
+
+A recall drill for the anatomy you just dissected.
+
+**Every agreement that restrains anyone has the same seven organs.** Statements have some of them. Treaties have all of them, though not all healthy. In the next fifteen minutes you will read thirteen short texts, real and fictional, and place each one on the organ it implements. Three of them implement nothing at all.
+
+_13 specimens · about 15 minutes · drag each text to the organ it implements._
+
+#### Text
+content:: **Interactive exercise:** XLab's `anatomy-drill` widget has no direct Lens equivalent yet. Complete it in the [original XLab lesson](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-anatomy). Its surrounding lesson text is preserved here.
+
+#### Text
+content::
+*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-anatomy)*
+++}
