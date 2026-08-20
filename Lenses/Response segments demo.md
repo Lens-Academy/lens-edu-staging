@@ -21,20 +21,20 @@ Syntax is identical in all three places. Context changes whether a response is g
 
 Every answerable segment needs:
 
-- {--{"author":"Elias's AI","timestamp":1787222606681}@@`key::`: stable `snake_case` identifier, unique within that survey, lens, or test.--}{++{"author":"Elias's AI","timestamp":1787222606681}@@`id::`: globally unique UUID. It identifies segment in stored responses, grading, and analytics. Never change it after learners have answered.++}
+- `id::`: globally unique UUID. It identifies segment in stored responses, grading, and analytics. Never change it after learners have answered.
 - `content::`: prompt shown to learner.
 - `required:: true`: optional. Response segments are not required by default.
 
-{--{"author":"Elias's AI","timestamp":1787222606681}@@Never change `key::` after learners have answered. Stored answers use this--}{++{"author":"Elias's AI","timestamp":1787222606681}@@Lens Editor should create `id::` automatically. When writing course files by hand, generate UUID at [uuidgenerator.net/version4](https://www.uuidgenerator.net/version4). Tools and language models can request one from [uuidgenerator.net/api/version4](https://www.uuidgenerator.net/api/version4).
+Lens Editor should create `id::` automatically. When writing course files by hand, generate UUID at [uuidgenerator.net/version4](https://www.uuidgenerator.net/version4). Tools and language models can request one from [uuidgenerator.net/api/version4](https://www.uuidgenerator.net/api/version4).
 
-Response segments do not need a separate human-readable++} key.
+Response segments do not need a separate human-readable key.
 
 \## Open response
 
 Use `#### OpenResponse` when learner should type or dictate a response.
 
 > `#### OpenResponse`
-> {--{"author":"Elias's AI","timestamp":1787222609266}@@`key:: strongest_objection`--}{++{"author":"Elias's AI","timestamp":1787222609266}@@`id:: 1e39cdb1-a286-427d-ac65-580fe8d5c17e`++}
+> `id:: 1e39cdb1-a286-427d-ac65-580fe8d5c17e`
 > `content:: In two sentences, what is the strongest objection?`
 > `required:: true`
 > `max-chars:: 500`
@@ -60,7 +60,7 @@ Surveys do not use `assessment-instructions::` or `feedback::`. They store respo
 Use `#### Rating` for numbered scale from 1 to N.
 
 > `#### Rating`
-> {--{"author":"Elias's AI","timestamp":1787222612296}@@`key:: confidence`--}{++{"author":"Elias's AI","timestamp":1787222612296}@@`id:: 8f9c80dc-1946-44fc-ba50-e964a8e7f4aa`++}
+> `id:: 8f9c80dc-1946-44fc-ba50-e964a8e7f4aa`
 > `content:: How confident are you in your answer?`
 > `scale:: 7`
 > `low-label:: Not confident`
@@ -82,7 +82,7 @@ Use `#### Select` with plain list under `options::`. Default allows one selectio
 Ungraded example:
 
 > `#### Select`
-> {--{"author":"Elias's AI","timestamp":1787222615654}@@`key:: next_topic`--}{++{"author":"Elias's AI","timestamp":1787222615654}@@`id:: f32db9ca-cdf4-4c4d-b53c-50f3456dcac1`++}
+> `id:: f32db9ca-cdf4-4c4d-b53c-50f3456dcac1`
 > `content:: Which topic should we cover next?`
 > `options::`
 > `- Forecasting`
@@ -93,7 +93,7 @@ Ungraded example:
 For graded practice or test response, mark correct option with `[x]`:
 
 > `#### Select`
-> {--{"author":"Elias's AI","timestamp":1787222618379}@@`key:: optimizer`--}{++{"author":"Elias's AI","timestamp":1787222618379}@@`id:: 234db237-6c5c-43f3-82aa-b19a4ee2708d`++}
+> `id:: 234db237-6c5c-43f3-82aa-b19a4ee2708d`
 > `content:: Which process updates model weights during training?`
 > `options::`
 > `- Data collection`
@@ -114,7 +114,7 @@ Survey selects must use plain list items. Surveys never contain correct-answer m
 Add `multi:: true` when learner may select more than one option.
 
 > `#### Select`
-> {--{"author":"Elias's AI","timestamp":1787222621398}@@`key:: empirical_evidence`--}{++{"author":"Elias's AI","timestamp":1787222621398}@@`id:: 69162105-5047-480e-9c38-f5c408c535a7`++}
+> `id:: 69162105-5047-480e-9c38-f5c408c535a7`
 > `content:: Which two items are empirical evidence?`
 > `options::`
 > `- [x] A measured benchmark result`
@@ -129,52 +129,40 @@ A graded response is correct only when selected options exactly match every `[x]
 
 \## Fill in the blank
 
-Use `#### FillBlank`. {--{"author":"Elias's AI","timestamp":1787222640186}@@Put exactly one `{{blank}}` marker in prompt.--}{++{"author":"Elias's AI","timestamp":1787222640186}@@Write accepted answers directly inside each blank. Separate alternatives with `|`.++}
+Use `#### FillBlank`. Write accepted answers directly inside each blank. Separate alternatives with `|`.
 
 > `#### FillBlank`
-> {--{"author":"Elias's AI","timestamp":1787222640186}@@`key:: training_method`--}{++{"author":"Elias's AI","timestamp":1787222640186}@@`id:: 38b31133-89c0-4bc2-b20f-d8e66a59b594`++}
-> `content:: {--{"author":"Elias's AI","timestamp":1787222640186}@@Model weights are commonly updated using {{blank}}.`--}{++{"author":"Elias's AI","timestamp":1787222640186}@@France's capital is {{Paris}}, while Germany's capital is {{Berlin}}.`++}
-> {--{"author":"Elias's AI","timestamp":1787222640186}@@`accepted-answers::`
-> `- gradient descent`
-> `- gradient-based optimization`--}{++{"author":"Elias's AI","timestamp":1787222640186}@@`explanation:: Paris and Berlin are the respective capitals of France and Germany.`++}
-> {--{"author":"Elias's AI","timestamp":1787222640186}@@`case-sensitive:: false`--}{++{"author":"Elias's AI","timestamp":1787222640186}@@`feedback:: true`++}
-> {--{"author":"Elias's AI","timestamp":1787222640186}@@`trim::--}{++{"author":"Elias's AI","timestamp":1787222640186}@@`required::++} true`{--{"author":"Elias's AI","timestamp":1787222640186}@@
---}{++{"author":"Elias's AI","timestamp":1787222640186}@@
+> `id:: 38b31133-89c0-4bc2-b20f-d8e66a59b594`
+> `content:: France's capital is {{Paris}}, while Germany's capital is {{Berlin}}.`
+> `explanation:: Paris and Berlin are the respective capitals of France and Germany.`
+> `feedback:: true`
+> `required:: true`
 
 Multiple accepted answers for one blank:
 
-++}> {--{"author":"Elias's AI","timestamp":1787222640186}@@`explanation:: Gradient descent uses loss gradients to update model weights.`
-> `required:: true`--}{++{"author":"Elias's AI","timestamp":1787222640186}@@`content:: Model weights are commonly updated using {{gradient descent|gradient-based optimization}}.`
+> `content:: Model weights are commonly updated using {{gradient descent|gradient-based optimization}}.`
 
-Matching is always case-sensitive and ignores whitespace at beginning and end of learner response. There are no `case-sensitive::` or `trim::` options. Each `{{...}}` becomes a separate input. For graded responses, score is fraction of blanks answered correctly.++}
+Matching is always case-sensitive and ignores whitespace at beginning and end of learner response. There are no `case-sensitive::` or `trim::` options. Each `{{...}}` becomes a separate input. For graded responses, score is fraction of blanks answered correctly.
 
-{--{"author":"Elias's AI","timestamp":1787222640186}@@Options:
+Use `{{blank}}` when response should be collected without right or wrong answer:
 
-- `accepted-answers::`: one or more complete accepted answers.
-- `case-sensitive::`: defaults to `false`.--}{++{"author":"Elias's AI","timestamp":1787222640186}@@Use `{{blank}}` when response should be collected without right or wrong answer:
-
-> `#### FillBlank`++}
-{--{"author":"Elias's AI","timestamp":1787222640186}@@- `trim::`: ignore leading and trailing whitespace. Defaults--}{++{"author":"Elias's AI","timestamp":1787222640186}@@> `id:: e7308f54-3b2f-410d-a67c-df916b8c8a19`
-> `content:: One change I want++} to {--{"author":"Elias's AI","timestamp":1787222640186}@@`true`.--}{++{"author":"Elias's AI","timestamp":1787222640186}@@make is {{blank}}.`++}
-{++{"author":"Elias's AI","timestamp":1787222640186}@@> `feedback:: true`
+> `#### FillBlank`
+> `id:: e7308f54-3b2f-410d-a67c-df916b8c8a19`
+> `content:: One change I want to make is {{blank}}.`
+> `feedback:: true`
 
 Options:
 
-++}- `explanation::`: optional {--{"author":"Elias's AI","timestamp":1787222640186}@@feedback--}{++{"author":"Elias's AI","timestamp":1787222640186}@@text++} shown after submission.{--{"author":"Elias's AI","timestamp":1787222640186}@@
+- `explanation::`: optional text shown after submission.
+- `feedback:: true`: ask AI to provide feedback after submission. Defaults to `false`. On ungraded blanks, feedback is coaching only and does not assign correctness.
 
-Matching is exact--}{++{"author":"Elias's AI","timestamp":1787222640186}@@
-- `feedback:: true`: ask AI to provide feedback++} after {--{"author":"Elias's AI","timestamp":1787222640186}@@configured case and whitespace normalization. Use several FillBlank segments when exercise needs several blanks.
-
-Surveys may use--}{++{"author":"Elias's AI","timestamp":1787222640186}@@submission. Defaults to `false`. On ungraded blanks, feedback is coaching only and does not assign correctness.
-
-Within one++} FillBlank {--{"author":"Elias's AI","timestamp":1787222640186}@@without `accepted-answers::` or `explanation::`. That makes it an ungraded short-answer field.--}{++{"author":"Elias's AI","timestamp":1787222640186}@@segment, use either answer-bearing blanks or ungraded `{{blank}}` markers, not both.++}
+Within one FillBlank segment, use either answer-bearing blanks or ungraded `{{blank}}` markers, not both.
 
 \## Grading rules
 
 - **Survey:** all Response segment types are ungraded.
 - **Normal lens:** responses may be graded practice or ungraded reflection.
-- **Learning Outcome test:** {--{"author":"Elias's AI","timestamp":1787222650108}@@OpenResponse, Select,--}{++{"author":"Elias's AI","timestamp":1787222650108}@@OpenResponse++} and {--{"author":"Elias's AI","timestamp":1787222650108}@@FillBlank--}{++{"author":"Elias's AI","timestamp":1787222650108}@@Select++} must be gradable. {++{"author":"Elias's AI","timestamp":1787222650108}@@FillBlank may use answer-bearing blanks for grading or `{{blank}}` for an ungraded response. ++}OpenResponse needs `assessment-instructions::`; Select needs at least one {--{"author":"Elias's AI","timestamp":1787222650108}@@`[x]`; FillBlank needs `accepted-answers::`.
-- Rating--}{++{"author":"Elias's AI","timestamp":1787222650108}@@`[x]`.
-- Rating and ungraded FillBlank responses++} never {--{"author":"Elias's AI","timestamp":1787222650108}@@contributes--}{++{"author":"Elias's AI","timestamp":1787222650108}@@contribute++} to correctness score.
+- **Learning Outcome test:** OpenResponse and Select must be gradable. FillBlank may use answer-bearing blanks for grading or `{{blank}}` for an ungraded response. OpenResponse needs `assessment-instructions::`; Select needs at least one `[x]`.
+- Rating and ungraded FillBlank responses never contribute to correctness score.
 
-Validator should reject duplicate {--{"author":"Elias's AI","timestamp":1787222650108}@@keys,--}{++{"author":"Elias's AI","timestamp":1787222650108}@@IDs,++} invalid {++{"author":"Elias's AI","timestamp":1787222650108}@@UUIDs, invalid ++}field combinations, missing grading information {--{"author":"Elias's AI","timestamp":1787222650108}@@in tests,--}{++{"author":"Elias's AI","timestamp":1787222650108}@@where required,++} invalid rating scales, too few select options, {++{"author":"Elias's AI","timestamp":1787222650108}@@empty answer alternatives, ++}and {--{"author":"Elias's AI","timestamp":1787222650108}@@missing or multiple `{{blank}}` markers.--}{++{"author":"Elias's AI","timestamp":1787222650108}@@mixtures of graded and ungraded blanks in one segment.++}
+Validator should reject duplicate IDs, invalid UUIDs, invalid field combinations, missing grading information where required, invalid rating scales, too few select options, empty answer alternatives, and mixtures of graded and ungraded blanks in one segment.
