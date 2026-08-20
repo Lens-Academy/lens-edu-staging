@@ -76,13 +76,13 @@ source:: [[../Lenses/video demo]]
 # Lens:
 source:: [[../Lenses/Article video article demo]]
 
-%% You may have already seen a #### Question field inside of the Learning Outcome Demo. We can also add those fields inside lenses. They then serve as practice, instead of as a test. The UX is very similar.%%
+%% {--{"author":"Elias's AI","timestamp":1787220247369}@@You may have already seen a #### Question field inside of --}{++{"author":"Elias's AI","timestamp":1787220247369}@@Questions use ++}the{--{"author":"Elias's AI","timestamp":1787220247369}@@ Learning Outcome Demo. We can also add those fields inside lenses. They then serve as practice, instead of as a test. The UX is very similar.%%
 # Lens:
 source:: [[../Lenses/Question demo]]
 
-%% This next Lens specifies one shared Question format for surveys, normal Lenses, and Learning Outcome tests. It documents text, rating, single-choice, multiple-choice, and fill-in-the-blank questions. The new controls are shown as code until platform support lands. %%
+%% This next Lens specifies one shared Question format for --}{++{"author":"Elias's AI","timestamp":1787220247369}@@ same syntax in ++}surveys, normal Lenses, and Learning Outcome tests. {--{"author":"Elias's AI","timestamp":1787220247369}@@It documents text, rating, single-choice, multiple-choice,--}{++{"author":"Elias's AI","timestamp":1787220247369}@@This Lens explains open-text, rating, choice,++} and fill-in-the-blank questions. {--{"author":"Elias's AI","timestamp":1787220247369}@@The new controls are shown as code until platform support lands. --}%%
 # Lens:
-source:: [[../Lenses/Question types specification]]
+source:: [[../Lenses/Question {--{"author":"Elias's AI","timestamp":1787220247369}@@types specification]]--}{++{"author":"Elias's AI","timestamp":1787220247369}@@demo]]++}
 
 %% We also have a roleplay feature, where the user can voice chat with an AI: %%
 # Lens:
