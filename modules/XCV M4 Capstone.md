@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787216872431}@@---
+{++{"author":"Elias's AI","timestamp":1787216956382}@@---
 id: '1ed36e3c-2f85-47da-b302-c0d7045a2f28'
 slug: xcv-m4-capstone
 title: "Capstone: A Three-Month Emergency Pause"
@@ -6,6 +6,8 @@ title: "Capstone: A Three-Month Emergency Pause"
 
 # Lens: Assemble and Defend a Regime
 id:: 1f79fd22-d8e9-423d-af82-a9026c38fee9
+tldr:: Design and defend a layered regime for a three-month frontier-training pause, including evidence, evasion, confidentiality, dispute resolution, and enforcement.
+summary_for_tutor:: Capstone brief. Review learner's regime for internal coherence rather than political agreement. Require explicit obligation-to-evidence mapping, independent layers, common-mode failure analysis, confidentiality, dispute resolution, enforcement, and residual risk.
 #### Text
 content::
 Design a verification regime for a hypothetical three-month international pause on frontier AI training. Your job is not to make cheating impossible. Your job is to state what counts as compliance, combine imperfect evidence into adequate confidence, protect legitimate secrets, and say what happens when evidence conflicts.
