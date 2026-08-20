@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787219166306}@@---
+{++{"author":"Elias's AI","timestamp":1787219169120}@@---
 id: '76aee160-847f-4d37-8de2-3389142ad7bc'
 slug: xlab-verification-overview
 title: "Course Overview"
@@ -45,7 +45,7 @@ How might technical verification work when parties have limited trust? Module st
 
 What would be enough for three-month emergency pause? Module combines feasibility judgment, research practice, and regime design. Learner must layer imperfect mechanisms, defend choices, state assumptions, and identify residual risk.
 
-## How to use this version
+\## How to use this version
 
 Read modules in order because later work builds on earlier actor, policy, and evidence models. Writing exercises can be completed directly in Lens. When page marks interactive import gap, use linked XLab activity, then return here to continue.
 
