@@ -1,5 +1,6 @@
 ---
-id: 'ba97d95f-8ba0-4b4b-b298-93884a3a5109'
+id: 'ba97d95f-8ba0-4b4b-b298-93884a3a5109'{++{"author":"Elias's AI","timestamp":1787256173761}@@
+reading_minutes: 8++}
 title: "AI 2027: The Choice to Slow Down"
 tldr: "AI 2027 reaches the moment when a company finds evidence that its system is misaligned and must decide whether to slow down while a competitor remains close behind."
 summary_for_tutor: "Optional excerpt from AI 2027, included as context for the model the AI Futures team later revised. It covers the October 2027 government-oversight section through the scenario's choice between racing ahead and slowing down."
