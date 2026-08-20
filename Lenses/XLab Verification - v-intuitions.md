@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218162005}@@---
+---
 id: '7a5bcc21-1cea-45f1-95d1-46c7896c94ec'
 title: "0.2 Building Verification Intuitions"
 tldr: "Faithful alpha import of XLab lesson 0.2 Building Verification Intuitions."
@@ -341,4 +341,3 @@ content:: **Import gap:** XLab persistent memo desk has no clean Lens equivalent
 #### Text
 content::
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/why-verification/building-intuitions)*
-++}

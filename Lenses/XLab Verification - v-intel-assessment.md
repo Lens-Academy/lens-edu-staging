@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218158248}@@---
+---
 id: '87824966-a77c-476e-9df9-64267492aa12'
 title: "2.3.3 From signal to intelligence assessment"
 tldr: "Faithful alpha import of XLab lesson 2.3.3 From signal to intelligence assessment."
@@ -72,4 +72,3 @@ corroboration, and stating both their confidence and what remains unresolved.
 The packet itself has not been assembled.
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-assessment)*
-++}

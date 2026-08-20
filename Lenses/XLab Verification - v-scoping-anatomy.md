@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218167365}@@---
+---
 id: '2f1c552a-1785-43d7-b8dd-41ae5f7dfadd'
 title: "1.1 Anatomy of a (pause) agreement"
 tldr: "Faithful alpha import of XLab lesson 1.1 Anatomy of a (pause) agreement."
@@ -124,4 +124,3 @@ content:: **Interactive exercise:** XLab's `anatomy-drill` widget has no direct 
 #### Text
 content::
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-anatomy)*
-++}

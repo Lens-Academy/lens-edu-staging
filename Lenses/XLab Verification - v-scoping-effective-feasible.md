@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218167951}@@---
+---
 id: '26ee0f2c-1c8b-4f3e-8b95-be4d8de6e500'
 title: "1.0.2 Policies must be effective and feasible"
 tldr: "Faithful alpha import of XLab lesson 1.0.2 Policies must be effective and feasible."
@@ -35,4 +35,3 @@ content:: **Import gap:** XLab persistent memo desk has no clean Lens equivalent
 #### Text
 content::
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-effective-feasible)*
-++}
