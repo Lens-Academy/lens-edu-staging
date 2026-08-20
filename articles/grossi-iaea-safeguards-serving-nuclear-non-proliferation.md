@@ -125,7 +125,7 @@ Though nuclear energy has the potential to contribute to the prosperity of the w
 
 Almost all countries use nuclear applications for a variety of peaceful purposes, including food and water security, energy, industrial applications and human health. Only a few of these activities involve the type of nuclear material that could potentially be diverted to produce nuclear weapons or other nuclear explosive devices.
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig5-51343e03.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227086943}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig5-51343e03.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227086943}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig5-51343e03.jpg)++}
 
 A wide-angle photograph of the United Nations General Assembly Hall during a formal session. The room is large and semi-circular, with tiered seating for delegates. A large screen at the front displays a speaker at a podium. The UN emblem is visible on the wall. The caption indicates this is the General debate of the Tenth Review Conference of the Parties to the Treaty on the Non-Proliferation of Nuclear Weapons (1-26 August 2022).
 
@@ -136,7 +136,7 @@ General debate of the Tenth Review Conference of the Parties to the Treaty on th
 
 Nuclear material subject to safeguards includes special fissionable material (e.g. plutonium-239; uranium-233; uranium enriched in the isotopes 235 or 233) and source material (e.g. natural uranium, depleted uranium or thorium). All States are likely to have some nuclear material in their territory. Radioactive sources that do not contain uranium, plutonium or thorium are not subject to safeguards and need not be reported to the IAEA under a safeguards agreement.
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig6-879625eb.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227090422}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig6-879625eb.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227090422}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig6-879625eb.jpg)++}
 
 A close-up photograph of a cluster of yellowish, translucent uranium ore crystals, showing their jagged, crystalline structure against a dark, textured background.
 
