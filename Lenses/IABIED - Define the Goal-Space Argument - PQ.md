@@ -1,5 +1,7 @@
 ---
-id: 64811af1-80a5-b76b-3495-14d5d8423d87
+id: 64811af1-80a5-b76b-3495-14d5d8423d87{++{"author":"Elias's AI","timestamp":1787256303745}@@
+reading_minutes: 2
+tutor_minutes: 3++}
 summary_for_tutor: Priming question before Chapter 5, section 1. Students consider whether a mind with completely alien values could still be intelligent, setting up the Correct-Nest allegory and the goal-space argument.
 title: "Before Reading — Define the Goal-Space Argument"
 tldr: Imagine an alien civilization whose deepest purpose makes zero sense to you. Before reading, decide whether a mind can be brilliant and still want something utterly foreign.

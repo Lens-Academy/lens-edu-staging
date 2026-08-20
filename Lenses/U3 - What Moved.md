@@ -1,5 +1,7 @@
 ---
-id: '16964da4-546f-4808-a188-818015f7abe8'
+id: '16964da4-546f-4808-a188-818015f7abe8'{++{"author":"Elias's AI","timestamp":1787256311199}@@
+reading_minutes: 5
+tutor_minutes: 15++}
 title: "What Moved"
 tldr: You wrote five to ten sentences about the next ten years before you read anything. Rewrite them now, from memory.
 summary_for_tutor: "Closes Unit 3. The student rewrites their day-zero model from Unit 1 and names which reading moved it. Also the one place the unit says out loud that two of its readings (Soares and Gradual Disempowerment) disagree. No grade."

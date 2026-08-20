@@ -1,5 +1,7 @@
 ---
-id: 8d3f5c1a-e6b4-4d7f-a9c2-1b5e8f3d7a06
+id: 8d3f5c1a-e6b4-4d7f-a9c2-1b5e8f3d7a06{++{"author":"Elias's AI","timestamp":1787256310064}@@
+reading_minutes: 15
+tutor_minutes: 15++}
 summary_for_tutor: "Main Lens for Chapter 5, section 2. Students distinguish hostile from indifferent AI and explain why indifference is sufficient for human extinction: the core insight that closes all five rebuttals in the chapter."
 title: "Distinguish Hostile from Indifferent AI"
 tldr: The AI doesn't need to hate you. It just needs to be optimizing for something else. Chapter 5 explains why that's enough.

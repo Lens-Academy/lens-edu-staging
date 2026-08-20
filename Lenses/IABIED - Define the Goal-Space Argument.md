@@ -1,5 +1,7 @@
 ---
-id: c5e8a93f-2d71-4b6c-9f40-7e3a1c8d5b02
+id: c5e8a93f-2d71-4b6c-9f40-7e3a1c8d5b02{++{"author":"Elias's AI","timestamp":1787256305843}@@
+reading_minutes: 15
+tutor_minutes: 15++}
 summary_for_tutor: "Main Lens for Chapter 5, section 1. Students articulate the goal-space argument in their own words: the Correct-Nest aliens allegory, the vast space of possible goals, and why intelligence doesn't converge on human-compatible values."
 title: "Define the Goal-Space Argument"
 tldr: There are countless possible goals a mind could have. The ones that include happy humans are a tiny sliver. Chapter 5 explains why that matters.
