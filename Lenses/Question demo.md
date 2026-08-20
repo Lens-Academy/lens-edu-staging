@@ -81,16 +81,16 @@ Use `#### Choice` with plain list under `options&#58;&#58;`. Default allows one 
 
 Ungraded example:
 
-```md
-\#### Choice
+{--{"author":"Elias's AI","timestamp":1787220826654}@@```md
+\####--}{++{"author":"Elias's AI","timestamp":1787220826654}@@<pre><code>####++} Choice
 key&#58;&#58; next_topic
 content&#58;&#58; Which topic should we cover next?
 options&#58;&#58;
 - Forecasting
 - Governance
 - Technical safety
-required&#58;&#58; true
-```
+required&#58;&#58; {--{"author":"Elias's AI","timestamp":1787220826654}@@true
+```--}{++{"author":"Elias's AI","timestamp":1787220826654}@@true</code></pre>++}
 
 For graded practice or test question, mark correct option with `[x]`:
 
