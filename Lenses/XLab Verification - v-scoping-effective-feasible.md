@@ -2,7 +2,7 @@
 id: '26ee0f2c-1c8b-4f3e-8b95-be4d8de6e500'
 title: "1.0.2 Policies must be effective and feasible"
 tldr: "Faithful alpha import of XLab lesson 1.0.2 Policies must be effective and feasible."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Interactive elements marked as import gaps must be completed on XLab until Lens has an equivalent."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257445698}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257445698}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257445698}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257445698}@@ XLab."++}
 tags: [wip]
 ---
 #### Text
