@@ -2,8 +2,8 @@
 id: 8189763f-576e-4f04-a614-4a00c628e386
 duration_minutes: 15
 title: Response segments
-tldr: Use open responses, ratings, selects, {--{"author":"Elias's AI","timestamp":1787255790289}@@and --}typed fill-in-the-blank {--{"author":"Elias's AI","timestamp":1787255790289}@@responses--}{++{"author":"Elias's AI","timestamp":1787255790289}@@responses, and rankings++} with the same syntax in surveys, normal lenses, and learning-outcome tests.
-summary_for_tutor: Reference page for course creators. It documents shared fields, exact syntax, options, defaults, {++{"author":"Elias's AI","timestamp":1787255793736}@@LLM assessment flow, ++}and grading behavior for OpenResponse, Rating, Select, {--{"author":"Elias's AI","timestamp":1787255793736}@@and typed FillBlank--}{++{"author":"Elias's AI","timestamp":1787255793736}@@typed FillBlank, and Ranking++} Response segments.
+tldr: Use open responses, ratings, selects, typed fill-in-the-blank responses, and rankings with the same syntax in surveys, normal lenses, and learning-outcome tests.
+summary_for_tutor: Reference page for course creators. It documents shared fields, exact syntax, options, defaults, LLM assessment flow, and grading behavior for OpenResponse, Rating, Select, typed FillBlank, and Ranking Response segments.
 ---
 
 %% A Response segment is an interactive field that collects one learner response. Same syntax works in surveys, normal lenses, and Learning Outcome tests. Context determines grading.
@@ -28,7 +28,7 @@ content:: What is your strongest objection?
 - `placeholder:: ...`: empty-input hint. Defaults to none.
 - `max-time:: 3:00`: timer in `M:SS`. Defaults to none.
 - `enforce-voice:: true`: require speech instead of typing. Defaults to `false`.
-- `assessment-instructions:: ...`: {--{"author":"Elias's AI","timestamp":1787255723965}@@AI grading rubric.--}{++{"author":"Elias's AI","timestamp":1787255723965}@@extra instructions appended to base assessor prompt.++} Omit for ungraded {--{"author":"Elias's AI","timestamp":1787255723965}@@response.--}{++{"author":"Elias's AI","timestamp":1787255723965}@@OpenResponse.++}
+- `assessment-instructions:: ...`: extra instructions appended to base assessor prompt. Omit for ungraded OpenResponse.
 - `feedback-instructions:: ...`: learner-facing AI feedback. Omit for none.
 
 Assessment controls score; feedback controls what learner sees. Surveys never grade but may still give feedback.
@@ -154,10 +154,10 @@ One FillBlank may mix text and numeric blanks, and graded and ungraded blanks, f
 
 FillBlank options:
 - `optional:: true`: allow skipping whole segment. Defaults to `false`, so every blank is required.
-- {--{"author":"Elias's AI","timestamp":1787255731287}@@`feedback-instructions::--}{++{"author":"Elias's AI","timestamp":1787255731287}@@`assessment-instructions::++} ...`: {--{"author":"Elias's AI","timestamp":1787255731287}@@learner-facing AI feedback. Defaults--}{++{"author":"Elias's AI","timestamp":1787255731287}@@extra natural-language rules appended++} to {--{"author":"Elias's AI","timestamp":1787255731287}@@none --}{++{"author":"Elias's AI","timestamp":1787255731287}@@base assessor prompt. Use this for custom scoring such as "100 if first two blanks ++}and {--{"author":"Elias's AI","timestamp":1787255731287}@@does not affect grading.--}{++{"author":"Elias's AI","timestamp":1787255731287}@@either remaining blank are correct" or "60 if two of three are correct." Omit to use base assessment only.
-- `feedback-instructions:: ...`: instructions for learner-facing tutor response after assessment. Omit for no tutor feedback.++}
+- `assessment-instructions:: ...`: extra natural-language rules appended to base assessor prompt. Use this for custom scoring such as "100 if first two blanks and either remaining blank are correct" or "60 if two of three are correct." Omit to use base assessment only.
+- `feedback-instructions:: ...`: instructions for learner-facing tutor response after assessment. Omit for no tutor feedback.
 
-{--{"author":"Elias's AI","timestamp":1787255731287}@@Score is correct graded blanks divided by all graded blanks. Ungraded --}{++{"author":"Elias's AI","timestamp":1787255731287}@@Base assessor returns one percentage for whole segment plus private reason. Percentage appears beside response. Expected-answer ++}blanks are {--{"author":"Elias's AI","timestamp":1787255731287}@@excluded. No graded blanks means--}{++{"author":"Elias's AI","timestamp":1787255731287}@@graded automatically. `{{blank}}` and `{{number}}` remain++} ungraded {--{"author":"Elias's AI","timestamp":1787255731287}@@segment.--}{++{"author":"Elias's AI","timestamp":1787255731287}@@unless `assessment-instructions::` defines how to judge them.++}{++{"author":"Elias's AI","timestamp":1787255778958}@@ %%
+Base assessor returns one percentage for whole segment plus private reason. Percentage appears beside response. Expected-answer blanks are graded automatically. `{{blank}}` and `{{number}}` remain ungraded unless `assessment-instructions::` defines how to judge them. %%
 
 %% Ranking lets learner arrange items. Plain Ranking is ungraded, useful for preferences and reflection. Initial item order is randomized. %%
 
@@ -182,11 +182,11 @@ items::
 - Run procedure
 - Dispose of hazardous material
 assessment-instructions:: Treat authored order as ideal. Give partial credit for correct relative relationships. Sterilization must precede preparation and procedure; disposal must come last.
-feedback-instructions:: Explain most important misplaced relationship and why it matters for safety.++}
+feedback-instructions:: Explain most important misplaced relationship and why it matters for safety.
 
-{++{"author":"Elias's AI","timestamp":1787255778958}@@%% ++}Grading by context:
+%% Grading by context:
 - Surveys never grade.
 - Normal lenses may contain graded practice or ungraded reflection.
-- Learning Outcome tests require gradable OpenResponse and Select. FillBlank may mix graded and ungraded blanks.{++{"author":"Elias's AI","timestamp":1787255795793}@@ Ranking is graded when it has `assessment-instructions::`.++}
-- OpenResponse grading needs `assessment-instructions::`; {++{"author":"Elias's AI","timestamp":1787255733412}@@FillBlank with expected answers uses base assessor automatically; ++}Select grading needs `[x]`.
+- Learning Outcome tests require gradable OpenResponse and Select. FillBlank may mix graded and ungraded blanks. Ranking is graded when it has `assessment-instructions::`.
+- OpenResponse grading needs `assessment-instructions::`; FillBlank with expected answers uses base assessor automatically; Select grading needs `[x]`.
 - Rating and wholly ungraded FillBlank never affect score. %%
