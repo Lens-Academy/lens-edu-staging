@@ -1,7 +1,7 @@
 ---
-id: '4813ade5-f420-4921-9d81-405fd7c2ee28'{++{"author":"Elias's AI","timestamp":1787256593156}@@
+id: '4813ade5-f420-4921-9d81-405fd7c2ee28'
 reading_minutes: 3
-tutor_minutes: 15++}
+tutor_minutes: 15
 title: Talk to One Person
 tldr: "You don't fully know what you think about AI risk until you've explained it to someone who wasn't in the room. This week: one real conversation."
 summary_for_tutor: "Action-plan step for Module 5. The student picks one real person in their life, rehearses the conversation with the tutor in a roleplay, then commits to having it for real this week. The point is threefold. Articulating the argument to an outsider is the sharpest test of understanding; the book's own ask of ordinary citizens is to talk about the problem; and a good conversation can bring a new person to the course. The tutor plays the chosen person realistically in the roleplay, and elsewhere acts as an honest coach, never a cheerleader."

@@ -1,7 +1,7 @@
 ---
-id: c884bd7c-61dd-4fa0-b983-eda1a236485b{++{"author":"Elias's AI","timestamp":1787256346224}@@
+id: c884bd7c-61dd-4fa0-b983-eda1a236485b
 reading_minutes: 5
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: "Covers the tension between making AIs passive and making them useful. Explains that difficult real-world tasks require persistence and initiative, which cannot be cleanly separated from driven behavior. Uses examples like Grok's 'MechaHitler' incident and Gemini's 'diverse Nazis' to illustrate that engineers lack fine-grained control over AI temperament."
 title: "Can we just train AIs to be more passive and docile?"
 tldr: "Passivity is in tension with usefulness."

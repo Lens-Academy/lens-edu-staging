@@ -1,7 +1,7 @@
 ---
-id: a9bf8d9f-cad8-4a86-9cfe-6c9bd4f33e5f{++{"author":"Elias's AI","timestamp":1787256213311}@@
+id: a9bf8d9f-cad8-4a86-9cfe-6c9bd4f33e5f
 reading_minutes: 3
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: "Covers the authors' motivation for writing about superhuman AI as an extinction threat, drawing a parallel to Leo Szilard's 1933 recognition of nuclear chain reactions. Notes that AI labs are racing to build machines smarter than humans, that modern AIs are 'grown' rather than crafted with predictable behavior, and that nearly half the AI research community shares concerns about societal-scale risk."
 title: "Why write a book about superhuman AI as an extinction threat?"
 tldr: "Because the situation seems genuinely serious and urgent."

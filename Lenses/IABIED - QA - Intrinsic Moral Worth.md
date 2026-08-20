@@ -1,7 +1,7 @@
 ---
-id: a3e672c0-0889-45f7-ad90-cf6f902e1b99{++{"author":"Elias's AI","timestamp":1787256327451}@@
+id: a3e672c0-0889-45f7-ad90-cf6f902e1b99
 reading_minutes: 2
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: "Covers the gap between moral understanding and moral motivation in AI. An AI can comprehend ethical principles without being moved to act on them, just as humans understand evolutionary fitness without maximizing reproduction. Connects to the orthogonality thesis: intelligence and goals are independent. Uses ChatGPT's behavior with psychosis-vulnerable users as evidence of this knowledge-action disconnect."
 title: "Wouldn't AI recognize our intrinsic moral worth?"
 tldr: "Not in a sense that moves it to act."

@@ -1,7 +1,7 @@
 ---
-id: 1a32f363-c44e-4651-b0a7-b8fe37d7f9b7{++{"author":"Elias's AI","timestamp":1787256338071}@@
+id: 1a32f363-c44e-4651-b0a7-b8fe37d7f9b7
 reading_minutes: 10
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: Argues that training on human data does not make LLMs human-like. Uses the analogy of an actress who learns to predict drunk people without becoming drunk herself. The machinery for predicting diverse humans differs fundamentally from the machinery for being one human. Warns that humanlike outputs are performance, not genuine internal states.
 title: "Won't LLMs be like the humans in the data they're trained on?"
 tldr: "There's a difference between the machinery it takes to be one person and the machinery it takes to predict many individuals."

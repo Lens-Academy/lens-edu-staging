@@ -1,7 +1,7 @@
 ---
-id: 68e6adce-ff75-46b8-b58d-19f2d3ffbb70{++{"author":"Elias's AI","timestamp":1787256695677}@@
+id: 68e6adce-ff75-46b8-b58d-19f2d3ffbb70
 reading_minutes: 5
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: Covers why the authors chose a near-future setting for their fictional extinction scenario. Stories set close to the present require fewer speculative details and feel more plausible. Argues that any single story illustrates just one path among many that converge on the same endpoint, and invites readers to write their own detailed optimistic scenarios as a test.
 title: "Why did you pick this setup?"
 tldr: "Because it's plausible and easy to write."
