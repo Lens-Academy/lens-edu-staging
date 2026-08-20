@@ -1,5 +1,7 @@
 ---
-id: 'c56ff069-3320-4695-9674-16ed883114ca'
+id: 'c56ff069-3320-4695-9674-16ed883114ca'{++{"author":"Elias's AI","timestamp":1787256276823}@@
+reading_minutes: 20
+tutor_minutes: 5++}
 title: "Plan A, Up Close"
 tldr: Plan A was one paragraph about an international agreement. This lens is the agreement itself. You name where you think it breaks before you read it.
 summary_for_tutor: "Optional second lens of Unit 4. Pre-question asks for the strongest case for an international agreement plus a commitment to its likeliest failure point (signing, verifying, or enforcing), then the student reads section 4 of the MIRI Technical Governance Team's draft agreement. One mirror, no grade."

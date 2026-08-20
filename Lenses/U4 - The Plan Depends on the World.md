@@ -1,5 +1,7 @@
 ---
-id: '7d1cb832-1007-456a-adc2-a3418b8160c9'
+id: '7d1cb832-1007-456a-adc2-a3418b8160c9'{++{"author":"Elias's AI","timestamp":1787256274924}@@
+reading_minutes: 20
+tutor_minutes: 5++}
 title: "The Plan Depends on the World"
 tldr: There is no single plan for AI risk. There are several. Which one is possible depends on how much the world cooperates.
 summary_for_tutor: "Opens Unit 4. Pre-reading question asks the student to describe the plan they believe currently exists for preventing AI takeover, who executes it, and what it assumes the rest of the world is doing. Then Greenblatt's Plans A, B, C, and D. One mirror, no grade."
