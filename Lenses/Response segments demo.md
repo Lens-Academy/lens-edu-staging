@@ -202,23 +202,23 @@ content:: How many years until transformative AI? {{number}}
 
 #### Text
 content::
-Put {--{"author":"Elias's AI","timestamp":1787226390549}@@inclusive correct range--}{++{"author":"Elias's AI","timestamp":1787226390549}@@one accepted number++} after `number` {--{"author":"Elias's AI","timestamp":1787226390549}@@when numeric blank should be graded:--}{++{"author":"Elias's AI","timestamp":1787226390549}@@for an exact graded answer:
+Put one accepted number after `number` for an exact graded answer:
 
 > `content:: Six times seven is {{number 42}}.`
 
-Use `to` for an inclusive graded range:++}
+Use `to` for an inclusive graded range:
 
-> `content:: Earth is approximately {{number {--{"author":"Elias's AI","timestamp":1787226390549}@@[147.5, 152.5]}} million--}{++{"author":"Elias's AI","timestamp":1787226390549}@@147,500,000 to 152,000,000}}++} km from Sun.`
+> `content:: Earth is approximately {{number 147,500,000 to 152,000,000}} km from Sun.`
 
 Try it:
 
 #### FillBlank
 id:: 1211df1d-70e8-4b93-a3b6-1ce44460ed1f
-content:: Earth is approximately {{number {--{"author":"Elias's AI","timestamp":1787226396446}@@[147.5, 152.5]}} million--}{++{"author":"Elias's AI","timestamp":1787226396446}@@147,500,000 to 152,000,000}}++} km from Sun.
+content:: Earth is approximately {{number 147,500,000 to 152,000,000}} km from Sun.
 
 #### Text
 content::
-Numeric blanks accept integers, decimals, {++{"author":"Elias's AI","timestamp":1787226403832}@@negative values, ++}and {--{"author":"Elias's AI","timestamp":1787226403832}@@negative values.--}{++{"author":"Elias's AI","timestamp":1787226403832}@@commas as thousands separators.++} They store numbers, not text. {--{"author":"Elias's AI","timestamp":1787226403832}@@Range includes--}{++{"author":"Elias's AI","timestamp":1787226403832}@@Ranges include++} both endpoints. {--{"author":"Elias's AI","timestamp":1787226403832}@@Use `[42, 42]` when only exact value is correct. Validator should reject reversed or malformed ranges.--}{++{"author":"Elias's AI","timestamp":1787226403832}@@Validator should reject malformed numbers, reversed ranges, and commas placed anywhere except between groups of three digits.++}
+Numeric blanks accept integers, decimals, negative values, and commas as thousands separators. They store numbers, not text. Ranges include both endpoints. Validator should reject malformed numbers, reversed ranges, and commas placed anywhere except between groups of three digits.
 
 One FillBlank segment may mix text and numeric blanks, and graded and ungraded blanks:
 
