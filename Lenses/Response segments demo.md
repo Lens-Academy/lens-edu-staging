@@ -2,7 +2,7 @@
 id: 8189763f-576e-4f04-a614-4a00c628e386
 duration_minutes: 15
 title: Response segments
-tldr: Use open responses, ratings, selects, and typed fill-in-the-blank responses with the same syntax in surveys, normal lenses, and learning-outcome tests.
+tldr: Use open responses, ratings, selects, {--{"author":"Elias's AI","timestamp":1787255790289}@@and --}typed fill-in-the-blank {--{"author":"Elias's AI","timestamp":1787255790289}@@responses--}{++{"author":"Elias's AI","timestamp":1787255790289}@@responses, and rankings++} with the same syntax in surveys, normal lenses, and learning-outcome tests.
 summary_for_tutor: Reference page for course creators. It documents shared fields, exact syntax, options, defaults, and grading behavior for OpenResponse, Rating, Select, and typed FillBlank Response segments.
 ---
 
