@@ -1,5 +1,7 @@
 ---
-id: 34fa91a3-1d1f-4081-b4c4-cb2af2139a1d
+id: {--{"author":"Elias's AI","timestamp":1787256585292}@@34fa91a3-1d1f-4081-b4c4-cb2af2139a1d--}{++{"author":"Elias's AI","timestamp":1787256585292}@@34fa91a3-1f1d-4081-b4c4-cb2af2139a1d
+reading_minutes: 20
+tutor_minutes: 15++}
 summary_for_tutor: "Teaches the five engineering curses Chapter 10 names (speed, narrow margins, self-amplification, complications, and edge cases) and their case studies (space probes for the before/after gap, Chernobyl for the first four, computer security for edge cases). The Lens covers the first reading of Ch10 (beginning to the end of the computer-security section); the closing position statement is taught by a separate Lens (Position Not Despair). Students should end this Lens able to name all five curses, attribute each to a case study, and articulate why the curse of edge cases gets uniquely worse as the system gets smarter."
 title: "The Five Engineering Curses"
 tldr: "Five named features make some engineering problems uniquely treacherous. AI alignment has all five at once, plus an extra: they get worse the smarter the system becomes."
