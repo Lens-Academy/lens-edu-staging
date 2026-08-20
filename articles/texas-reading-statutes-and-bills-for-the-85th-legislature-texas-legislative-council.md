@@ -91,7 +91,7 @@ If you have questions or comments regarding this publication, please contact the
 | Substantive Provisions .....                              | 8         |
 | Procedural Provisions .....                               | 9         |
 | {--{"author":"Elias's AI","timestamp":1787227407278}@@<b>Tips--}{++{"author":"Elias's AI","timestamp":1787227407278}@@**Tips++} for Reading and Understanding a Bill {--{"author":"Elias's AI","timestamp":1787227407278}@@.....</b>--}{++{"author":"Elias's AI","timestamp":1787227407278}@@.....**++}    | {--{"author":"Elias's AI","timestamp":1787227407278}@@<b>13</b>--}{++{"author":"Elias's AI","timestamp":1787227407278}@@**13**++} |
-| <b>Practice Exercises .....</b>                           | <b>15</b> |
+| {--{"author":"Elias's AI","timestamp":1787227413919}@@<b>Practice--}{++{"author":"Elias's AI","timestamp":1787227413919}@@**Practice++} Exercises {--{"author":"Elias's AI","timestamp":1787227413919}@@.....</b>--}{++{"author":"Elias's AI","timestamp":1787227413919}@@.....**++}                           | {--{"author":"Elias's AI","timestamp":1787227413919}@@<b>15</b>--}{++{"author":"Elias's AI","timestamp":1787227413919}@@**15**++} |
 | Exercise 1 .....                                          | 15        |
 | Exercise 2 .....                                          | 16        |
 | Exercise 3 .....                                          | 17        |
