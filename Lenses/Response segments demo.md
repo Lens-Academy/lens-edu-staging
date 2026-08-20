@@ -23,8 +23,8 @@ Each section below starts with smallest useful version. Only `id::` and `content
 
 - `id::`: globally unique UUID. It identifies segment in stored responses, grading, and analytics. Never change it after learners have answered.
 - `content::`: prompt shown to learner.
-- `required:: true`: require response before learner can continue. Defaults to `false`, so leave it out when response may be skipped.{++{"author":"Elias's AI","timestamp":1787224162833}@@
-- `feedback-instructions:: ...`: ask AI to respond after submission using these instructions. Defaults to no AI feedback when omitted. This does not make response graded.++}
+- `required:: true`: require response before learner can continue. Defaults to `false`, so leave it out when response may be skipped.
+- `feedback-instructions:: ...`: ask AI to respond after submission using these instructions. Defaults to no AI feedback when omitted. This does not make response graded.
 
 Lens Editor should create `id::` automatically. When writing course files by hand, generate UUID at [uuidgenerator.net/version4](https://www.uuidgenerator.net/version4). Tools and language models can request one from [uuidgenerator.net/api/version4](https://www.uuidgenerator.net/api/version4).
 
@@ -56,9 +56,9 @@ Optional fields:
 - `max-time:: 3:00`: set answer timer in `M:SS`. Defaults to no timer.
 - `enforce-voice:: true`: require spoken response instead of typing. Defaults to `false`.
 - `assessment-instructions:: ...`: give AI grading rubric. Without it, response is ungraded.
-- {--{"author":"Elias's AI","timestamp":1787224166594}@@`feedback:: true`: show--}{++{"author":"Elias's AI","timestamp":1787224166594}@@`feedback-instructions:: ...`: ask++} AI {--{"author":"Elias's AI","timestamp":1787224166594}@@feedback after submission.--}{++{"author":"Elias's AI","timestamp":1787224166594}@@to provide learner-facing feedback.++} Defaults to {--{"author":"Elias's AI","timestamp":1787224166594}@@`false`.--}{++{"author":"Elias's AI","timestamp":1787224166594}@@no AI feedback when omitted.++}
+- `feedback-instructions:: ...`: ask AI to provide learner-facing feedback. Defaults to no AI feedback when omitted.
 
-{--{"author":"Elias's AI","timestamp":1787224166594}@@Surveys ignore grading and feedback fields. They store response without grading it.--}{++{"author":"Elias's AI","timestamp":1787224166594}@@`assessment-instructions::` controls grading. `feedback-instructions::` controls what learner sees. Surveys never grade responses, but may still use `feedback-instructions::`.++}
+`assessment-instructions::` controls grading. `feedback-instructions::` controls what learner sees. Surveys never grade responses, but may still use `feedback-instructions::`.
 
 \## Rating
 
@@ -83,8 +83,8 @@ Optional fields:
 - `required:: true`: require response. Defaults to `false`.
 - `scale:: 7`: set highest number from 2 to 10. Defaults to `5`.
 - `low-label:: Not confident`: label low endpoint. Defaults to no label.
-- `high-label:: Very confident`: label high endpoint. Defaults to no label.{++{"author":"Elias's AI","timestamp":1787224169943}@@
-- `feedback-instructions:: ...`: ask AI to respond to selected rating. Defaults to no AI feedback when omitted.++}
+- `high-label:: Very confident`: label high endpoint. Defaults to no label.
+- `feedback-instructions:: ...`: ask AI to respond to selected rating. Defaults to no AI feedback when omitted.
 
 Ratings are self-reports, not correct or incorrect. In Learning Outcome tests, rating is stored beside graded answers but does not affect test score.
 
@@ -124,7 +124,7 @@ Optional fields:
 - `required:: true`: require response. Defaults to `false`.
 - `multi:: true`: allow multiple selections. Defaults to `false`.
 - `shuffle:: true`: randomize option order. Defaults to `false`.
-- {--{"author":"Elias's AI","timestamp":1787224174795}@@`explanation::--}{++{"author":"Elias's AI","timestamp":1787224174795}@@`feedback-instructions::++} ...`: {--{"author":"Elias's AI","timestamp":1787224174795}@@show fixed explanation after submission.--}{++{"author":"Elias's AI","timestamp":1787224174795}@@ask AI to respond to learner's selection.++} Defaults to no {--{"author":"Elias's AI","timestamp":1787224174795}@@explanation.--}{++{"author":"Elias's AI","timestamp":1787224174795}@@AI feedback when omitted.++}
+- `feedback-instructions:: ...`: ask AI to respond to learner's selection. Defaults to no AI feedback when omitted.
 
 Survey selects must use plain list items. Surveys never contain correct-answer markers.
 
@@ -205,8 +205,7 @@ content::
 Optional fields:
 
 - `required:: true`: require every blank. Defaults to `false`.
-- {--{"author":"Elias's AI","timestamp":1787224178703}@@`explanation::--}{++{"author":"Elias's AI","timestamp":1787224178703}@@`feedback-instructions::++} ...`: {--{"author":"Elias's AI","timestamp":1787224178703}@@show fixed text after submission. --}{++{"author":"Elias's AI","timestamp":1787224178703}@@ask AI to provide learner-facing feedback. ++}Defaults to no{--{"author":"Elias's AI","timestamp":1787224178703}@@ explanation.
-- `feedback:: true`: ask--} AI {--{"author":"Elias's AI","timestamp":1787224178703}@@to provide --}feedback {--{"author":"Elias's AI","timestamp":1787224178703}@@after submission. Defaults to `false`.--}{++{"author":"Elias's AI","timestamp":1787224178703}@@when omitted.++} On ungraded blanks, feedback is coaching only and does not assign correctness.
+- `feedback-instructions:: ...`: ask AI to provide learner-facing feedback. Defaults to no AI feedback when omitted. On ungraded blanks, feedback is coaching only and does not assign correctness.
 
 Within one FillBlank segment, use either answer-bearing blanks or ungraded `{{blank}}` markers, not both.
 
