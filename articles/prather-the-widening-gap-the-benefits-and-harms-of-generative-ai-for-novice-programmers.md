@@ -77,11 +77,11 @@ We chose metacognition as the theoretical lens through which to understand novic
 
 Because we were seeking to replicate the work of Prather et al. ([Prather et al. 2018](#bib.bib51)), we sought permission to use their automated assessment tool (AAT), Athene. This allowed us access to the same programming problem used in their previous study. This tool was then integrated into our Learning Management System, Canvas (see Figure  [1](#S3.F1 "Figure 1 ‣ 3.1. Context ‣ 3. Methods ‣ The Widening Gap: The Benefits and Harms of Generative AI for Novice Programmers")). After submission, the AAT evaluates the program by compiling it and then running it against a series of test cases. It then provides feedback to the user (see Figure [2](#S3.F2 "Figure 2 ‣ 3.1. Context ‣ 3. Methods ‣ The Widening Gap: The Benefits and Harms of Generative AI for Novice Programmers")).
 
-{--{"author":"AI","timestamp":1787234690371}@@![[/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img1-119c3ed6.png]]--}{++{"author":"AI","timestamp":1787234690371}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img1-119c3ed6.png)++}
+![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img1-119c3ed6.png)
 
 Figure 1. Problem description from Athene
 
-{--{"author":"AI","timestamp":1787234698695}@@![[/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img2-2358a480.png]]--}{++{"author":"AI","timestamp":1787234698695}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img2-2358a480.png)++}
+![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img2-2358a480.png)
 
 Figure 2. Sample Feedback from Athene
 
@@ -115,7 +115,7 @@ As the researchers tagged all data, they discussed any occurrence where they tho
 
 One limitation of our study is the relatively small sample size, with only 21 participants compared to 31 participants in the original study by Prather et al. ([Prather et al. 2018](#bib.bib51)). While this smaller sample size may limit the generalizability of our findings, it is important to note that our study incorporated additional analyses with eye tracking technology, which provided novel insights into the metacognitive difficulties experienced by participants in the study. There were also limitations associated with the generative AI tools that were used in our study. While recent survey studies have shown that ChatGPT and GitHub Copilot are both being used more frequently by students ([Hou et al. 2024b](#bib.bib24); [Prather et al. 2023](#bib.bib49)), it is important to acknowledge that these are not an exhaustive representation of the breadth of generative AI tools that are available. Despite our efforts to compensate for the smaller sample size through robust statistical analysis and in-depth contextualized qualitative analysis, it is imperative for future research to conduct studies with larger sample sizes encompassing diverse generative AI tools to corroborate and extend our findings. Finally, we were limited by the single site of the experiment as noted by Oleson et al. ([Oleson et al. 2022](#bib.bib42)).
 
-{--{"author":"AI","timestamp":1787234703625}@@![[/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img3-810c0f1f.png]]--}{++{"author":"AI","timestamp":1787234703625}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img3-810c0f1f.png)++}
+![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img3-810c0f1f.png)
 
 Figure 3. Interview Questions about programming and AI experience
 
@@ -223,7 +223,7 @@ Submitting to Athene again, they still received incorrect output. Believing it t
 
 When asked in the post-interview whether they thought Copilot was helpful, they replied, “No, it kept getting in my way when I was trying to think. It was interrupting my thought process.” But when asked about ChatGPT, they replied, ‘It can provide me help as I’m learning code. Chat does some critical thinking about what I’m asking and can understand the problems I’m asking it.” From their comments, they seemed to think that ChatGPT had augmented their critical thinking rather than replaced it, but the data above contradicts that.
 
-{--{"author":"AI","timestamp":1787234713627}@@![[/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img4-6abf2d23.png]]--}{++{"author":"AI","timestamp":1787234713627}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img4-6abf2d23.png)++}
+![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img4-6abf2d23.png)
 
 Figure 4. P8 consulting ChatGPT to find the logic error with their code.
 
@@ -261,7 +261,7 @@ P11 carefully read the prompt and verbalized plans to begin structuring their co
 
 They next decided to update the solution to have variables to track both positive and negative totals and then accepted a Copilot suggestion for series of conditionals below the loop for output. The code compiled, but when run created an infinite loop. After trying to make changes and getting the same result, they sought help from ChatGPT. ChatGPT responded with code and without reading it they added, “only a hint.” This time ChatGPT gave only text and replied that the code was not getting more input inside their loop. After making several ineffectual and unnecessary cosmetic changes, such as indentations, they looked to the problem description again and discovered they had been solving the problem incorrectly.
 
-{--{"author":"AI","timestamp":1787234718699}@@![[/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img5-3643ed31.png]]--}{++{"author":"AI","timestamp":1787234718699}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img5-3643ed31.png)++}
+![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img5-3643ed31.png)
 
 Figure 5. P11 reviews a misleading reply from ChatGPT.
 
@@ -293,7 +293,7 @@ P17 began by carefully reading the problem description. They then made a variabl
 
 They tabbed back to the problem description, added new variables and then attempted to continue writing the solution. After creating another conditional, they stalled and tabbed back to ChatGPT. They repeated this process of trying to write on their own, stalling, and going back to ChatGPT several times. The condition, once finished, checked if the number was greater than zero with an else-if checking if it was less than zero. They then placed a while loop below this conditional block. Throughout this time, their gaze moved between code provided by ChatGPT and their own code, but they seemed to be placing the discrete elements from the former into incorrect places in the latter. For instance, when writing the code inside of a while loop, their eyes went to the portion of ChatGPT’s code for deciding output. Running this code produced an infinite loop. P17 did not understand how to take the code from ChatGPT and use it to fix their own and did not seem to understand how to put these components together, showing a Progression difficulty.
 
-{--{"author":"AI","timestamp":1787234723209}@@![[/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img6-a62f8a34.png]]--}{++{"author":"AI","timestamp":1787234723209}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img6-a62f8a34.png)++}
+![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img6-a62f8a34.png)
 
 Figure 6. P17 attempting to pattern their code after ChatGPT.
 
@@ -309,7 +309,7 @@ They then wrote code to accept a number, followed by a conditional to determine 
 
 P21 created a while loop with the condition that the input number be greater than zero. Copilot immediately suggested the correct contents of the loop, which they accepted and then commented-out the four input segments. They then tested the code, got a correct answer, and updated the condition inside the while loop to be “num = !0”. This did not produce expected behavior, so they changed it to “num == !0”. This also did not work, so they changed it to “num < 0 && num > 0”. As they typed this, they said, “while num is bigger than 0 and less than 0.” This, of course, would also not work. Since Copilot sent them on the wrong path initially, even though they were now on the correct one, they were too far into the problem solving process to understand what was needed to complete the program. In other words, they hadn’t reasoned themselves into this position; Copilot had.
 
-{--{"author":"AI","timestamp":1787234731948}@@![[/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img7-1ddd7940.png]]--}{++{"author":"AI","timestamp":1787234731948}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img7-1ddd7940.png)++}
+![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img7-1ddd7940.png)
 
 Figure 7. P21 trying to determine why the control flow will not enter the loop.
 
