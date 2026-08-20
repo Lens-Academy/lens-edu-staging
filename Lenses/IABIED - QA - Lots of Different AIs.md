@@ -1,5 +1,7 @@
 ---
-id: 01eaea0b-9f02-4b76-aef4-e5617addddf6
+id: 01eaea0b-9f02-4b76-aef4-e5617addddf6{++{"author":"Elias's AI","timestamp":1787256624597}@@
+reading_minutes: 3
+tutor_minutes: 3++}
 summary_for_tutor: Covers why having many different AIs does not solve the alignment problem. Diversity of AI systems is irrelevant if none of them genuinely care about human flourishing. Current approaches make hitting even a one-in-ten success rate for aligned AI extraordinarily unlikely.
 title: "What if there are lots of different AIs?"
 tldr: "It doesn't much help if we can't make any of them care about good things."

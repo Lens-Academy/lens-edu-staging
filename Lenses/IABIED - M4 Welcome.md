@@ -1,5 +1,6 @@
 ---
-id: 71f38d11-7d09-4102-af9b-4c891883c152
+id: 71f38d11-7d09-4102-af9b-4c891883c152{++{"author":"Elias's AI","timestamp":1787256622700}@@
+reading_minutes: 2++}
 tldr: "Why we'd lose, then what losing looks like: Chapter 6's argument, the book's takeover scenario as a 30-minute film told through the eyes of ordinary people, and the Coda's explanation of what such stories do and don't predict."
 summary_for_tutor: "Module 4 welcome lens. The module opens with Chapter 6 (We'd Lose: the Aztec-warrior analogy, Stockfish, losing to attacks you didn't know were allowed), then replaces the reading of the book's Sable scenario (Chapters 7-9) with a film retelling plus the book's Coda. Frames the module's goal as converting intellectual acceptance into emotional understanding: the scenario teaches learners to recognize earlier modules' mechanisms operating concretely rather than presenting new concepts, and the Coda then makes the path-vs-outcome distinction explicit. Students who prefer the book's own telling are pointed to Chapters 7-9 as an alternative."
 title: "IABIED M4 Welcome"
