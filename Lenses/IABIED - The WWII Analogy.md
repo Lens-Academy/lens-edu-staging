@@ -1,5 +1,7 @@
 ---
-id: 91c8d723-f4b6-4e29-a015-7b3a0e8c2d54
+id: 91c8d723-f4b6-4e29-a015-7b3a0e8c2d54{++{"author":"Elias's AI","timestamp":1787256800453}@@
+reading_minutes: 15
+tutor_minutes: 15++}
 summary_for_tutor: "Teaches the WWII analogy and its response to the political-impossibility objection from Chapter 13, section 1. Students read the chapter's treaty proposal and WWII parable, then articulate how the analogy converts 'politically impossible' into a claim about human motivation, then answers that claim with historical precedent."
 title: "The WWII Analogy"
 tldr: "The political-impossibility objection says world powers will never coordinate to restrict AI. Chapter 13 answers with WWII: they mobilized $6 trillion and 60–80 million personnel. Impossibility is really a claim about motivation, and motivation has a track record."
