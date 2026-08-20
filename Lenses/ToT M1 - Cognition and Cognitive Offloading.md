@@ -31,7 +31,7 @@ Read this short definition of distributed cognition from The Decision Lab. It na
 
 #### Article
 source:: [[../articles/the-decision-lab-distributed-cognition]]
-from:: "This is one example of what cognitive scientists call"
+from:: "The Basic Idea"
 to:: "by extensions of our minds in the external world."
 
 #### Question
