@@ -1,6 +1,6 @@
 ---
-id: 3dad9c8a-ae43-4441-9aa8-586516e203fb{++{"author":"Elias's AI","timestamp":1787228489731}@@
-duration_minutes: 3++}
+id: 3dad9c8a-ae43-4441-9aa8-586516e203fb
+duration_minutes: 3
 title: Same-lens links demo
 tldr: Link directly to headings, paragraphs, and blocks within one Lens.
 summary_for_tutor: Demonstrates Obsidian-style same-Lens heading links and block markers. Links scroll within the current Lens without opening a new tab.

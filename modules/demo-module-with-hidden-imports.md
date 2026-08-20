@@ -14,8 +14,8 @@ This module uses dummy imports because hidden imports are the feature being demo
 id:: 1fc78936-050f-403b-911b-a8bfc2e69172
 tldr:: Shows how a lens can link out to other lenses that are imported into the module but hidden from the normal step-by-step progression, demonstrated here with three card links.
 summary_for_tutor:: Demo lens showing how ::card links point to lenses imported with hide:: true so they stay out of the linear progression. Contains three cards to placeholder dummy lenses; the linking mechanism, not the content, is the point.
-{++{"author":"Elias's AI","timestamp":1787228442262}@@duration_minutes:: 2
-++}#### Text
+duration_minutes:: 2
+#### Text
 content::
 This Lens links to lenses that are imported below, but hidden from the normal progression.
 

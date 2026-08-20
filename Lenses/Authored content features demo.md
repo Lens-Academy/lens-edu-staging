@@ -1,6 +1,6 @@
 ---
-id: 'e6b3badb-3839-4a7f-89ba-3f4191dcbf81'{++{"author":"Elias's AI","timestamp":1787228486189}@@
-duration_minutes: 8++}
+id: 'e6b3badb-3839-4a7f-89ba-3f4191dcbf81'
+duration_minutes: 8
 title: Authored content features demo
 tldr: See how Lens-authored text can use hidden sections, annotations, footnotes, callouts, Markdown, and math.
 summary_for_tutor: "Formatting-only demo of shared authored-content features. It demonstrates inline and block hide directives, inline and block Lens notes, Markdown and Lens footnotes, static and collapsible callouts, nesting, normal Markdown, and LaTeX math."

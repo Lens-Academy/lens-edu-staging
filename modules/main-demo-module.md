@@ -12,8 +12,8 @@ source:: [[../Learning Outcomes/Learning Outcome Demo|Demo learning outcome]]
 # Lens: Basic Example
 id:: 83fac088-1e23-4249-98ce-604b3f7c65d8
 tldr:: A worked example of a lens defined directly inside a module file, showing the Text and Chat segments that make up a single page.
-summary_for_tutor:: Demo lens defined inline in the module. Contains a Text segment explaining that a lens is a page built from fields like Text and Chat, followed by a Chat segment illustrating how tutor instructions are attached to a page.{++{"author":"Elias's AI","timestamp":1787228479663}@@
-duration_minutes:: 5++}
+summary_for_tutor:: Demo lens defined inline in the module. Contains a Text segment explaining that a lens is a page built from fields like Text and Chat, followed by a Chat segment illustrating how tutor instructions are attached to a page.
+duration_minutes:: 5
 
 #### Text
 content::
@@ -34,8 +34,8 @@ source:: [[../Lenses/Dummy lens]]
 # Lens: Prompt file demo
 id:: 9e7cf6c7-c701-483a-90db-6e29db963bbd
 tldr:: Shows how a lens can pull its tutor instructions from a shared prompt file instead of writing them inline, and how to mix your own text with a prompt link.
-summary_for_tutor:: Demo lens with two Chat segments illustrating prompt-file imports: one whose instructions are a bare wikilink to prompts/demo-tutor-style (replaced by that file's body), and one that mixes inline text with an expanded prompt link.{++{"author":"Elias's AI","timestamp":1787228482572}@@
-duration_minutes:: 8++}
+summary_for_tutor:: Demo lens with two Chat segments illustrating prompt-file imports: one whose instructions are a bare wikilink to prompts/demo-tutor-style (replaced by that file's body), and one that mixes inline text with an expanded prompt link.
+duration_minutes:: 8
 
 #### Chat
 instructions:: [[../prompts/demo-tutor-style]]
