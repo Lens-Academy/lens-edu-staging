@@ -44,9 +44,9 @@ feedback&#58;&#58; {--{"author":"Elias's AI","timestamp":1787220805012}@@true
 
 Options:
 
-- `max-chars&#58;&#58;`: maximum answer length.
-- `placeholder&#58;&#58;`: hint shown in empty input.
-- `max-time&#58;&#58;`: answer timer in `M:SS`, or `none`.
+- {--{"author":"Elias's AI","timestamp":1787220880871}@@`max-chars&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220880871}@@`max-chars::`:++} maximum answer length.
+- {--{"author":"Elias's AI","timestamp":1787220884383}@@`placeholder&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220884383}@@`placeholder::`:++} hint shown in empty input.
+- {--{"author":"Elias's AI","timestamp":1787220887301}@@`max-time&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220887301}@@`max-time::`:++} answer timer in `M:SS`, or `none`.
 - `enforce-voice&#58;&#58; true`: require spoken answer.
 - `assessment-instructions&#58;&#58;`: rubric for AI assessment.
 - `feedback&#58;&#58;`: whether learner receives AI feedback. Defaults to `true` in lenses and tests.
