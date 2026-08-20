@@ -121,7 +121,9 @@ content:: France's capital is {{Paris}}.
 - `{{blank}}`: ungraded text.
 - `{{number}}`: ungraded number.
 
-Text matching is case-sensitive and always trims surrounding whitespace. No options control this. Next example has alternatives and several graded text blanks. %%
+{--{"author":"Elias's AI","timestamp":1787255726689}@@Text matching --}{++{"author":"Elias's AI","timestamp":1787255726689}@@FillBlank grading always uses assessor LLM, never programmatic string comparison. Base prompt ++}is {--{"author":"Elias's AI","timestamp":1787255726689}@@case-sensitive--}{++{"author":"Elias's AI","timestamp":1787255726689}@@forgiving about capitalization, surrounding whitespace, minor misspellings, inflection,++} and {--{"author":"Elias's AI","timestamp":1787255726689}@@always trims surrounding whitespace. No options control this.--}{++{"author":"Elias's AI","timestamp":1787255726689}@@equivalent wording while preserving intended meaning. There are no matching strictness options.
+
+Text inside braces gives expected answer to assessor. Several alternatives separated by `|` are hints, not exhaustive whitelist.++} Next example has alternatives and several graded text blanks. %%
 
 #### FillBlank
 id:: 115ecd2e-385a-4c90-8964-afc169cb822a
@@ -144,19 +146,20 @@ Commas may separate thousands. Decimals and negative values work. Next example s
 id:: 1211df1d-70e8-4b93-a3b6-1ce44460ed1f
 content:: Earth is approximately {{number 147,500,000 to 152,000,000}} km from Sun.
 
-%% Numeric blanks store numbers, not text. Validator rejects malformed numbers, reversed ranges, and invalid thousands separators.
+%% Numeric blanks store numbers, not text. Validator rejects malformed {--{"author":"Elias's AI","timestamp":1787255728879}@@numbers, --}{++{"author":"Elias's AI","timestamp":1787255728879}@@numeric syntax, ++}reversed ranges, and invalid thousands separators.{++{"author":"Elias's AI","timestamp":1787255728879}@@ Assessor LLM still assigns score; numeric target or range guides judgment rather than triggering programmatic pass/fail.++}
 
 One FillBlank may mix text and numeric blanks, and graded and ungraded blanks, for example: `I estimate {{number}} years because {{blank}}.`
 
 FillBlank options:
 - `optional:: true`: allow skipping whole segment. Defaults to `false`, so every blank is required.
-- `feedback-instructions:: ...`: learner-facing AI feedback. Defaults to none and does not affect grading.
+- {--{"author":"Elias's AI","timestamp":1787255731287}@@`feedback-instructions::--}{++{"author":"Elias's AI","timestamp":1787255731287}@@`assessment-instructions::++} ...`: {--{"author":"Elias's AI","timestamp":1787255731287}@@learner-facing AI feedback. Defaults--}{++{"author":"Elias's AI","timestamp":1787255731287}@@extra natural-language rules appended++} to {--{"author":"Elias's AI","timestamp":1787255731287}@@none --}{++{"author":"Elias's AI","timestamp":1787255731287}@@base assessor prompt. Use this for custom scoring such as "100 if first two blanks ++}and {--{"author":"Elias's AI","timestamp":1787255731287}@@does not affect grading.--}{++{"author":"Elias's AI","timestamp":1787255731287}@@either remaining blank are correct" or "60 if two of three are correct." Omit to use base assessment only.
+- `feedback-instructions:: ...`: instructions for learner-facing tutor response after assessment. Omit for no tutor feedback.++}
 
-Score is correct graded blanks divided by all graded blanks. Ungraded blanks are excluded. No graded blanks means ungraded segment.
+{--{"author":"Elias's AI","timestamp":1787255731287}@@Score is correct graded blanks divided by all graded blanks. Ungraded --}{++{"author":"Elias's AI","timestamp":1787255731287}@@Base assessor returns one percentage for whole segment plus private reason. Percentage appears beside response. Expected-answer ++}blanks are {--{"author":"Elias's AI","timestamp":1787255731287}@@excluded. No graded blanks means--}{++{"author":"Elias's AI","timestamp":1787255731287}@@graded automatically. `{{blank}}` and `{{number}}` remain++} ungraded {--{"author":"Elias's AI","timestamp":1787255731287}@@segment.--}{++{"author":"Elias's AI","timestamp":1787255731287}@@unless `assessment-instructions::` defines how to judge them.++}
 
 Grading by context:
 - Surveys never grade.
 - Normal lenses may contain graded practice or ungraded reflection.
 - Learning Outcome tests require gradable OpenResponse and Select. FillBlank may mix graded and ungraded blanks.
-- OpenResponse grading needs `assessment-instructions::`; Select grading needs `[x]`.
+- OpenResponse grading needs `assessment-instructions::`; {++{"author":"Elias's AI","timestamp":1787255733412}@@FillBlank with expected answers uses base assessor automatically; ++}Select grading needs `[x]`.
 - Rating and wholly ungraded FillBlank never affect score. %%
