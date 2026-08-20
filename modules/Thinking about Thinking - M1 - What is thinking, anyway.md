@@ -43,10 +43,10 @@ Your role:
 Response length: 60 to 120 words. Short paragraphs. No lists. No generic praise for having written anything; praise should attach to a specific detail or to their honesty.
 
 # Lens:
-source:: [[../Lenses/ToT M1 - {++{"author":"AI","timestamp":1787252961210}@@What Did You Hand Over - PQ]]
+source:: [[../Lenses/ToT M1 - What Did You Hand Over - PQ]]
 
 # Lens:
-source:: [[../Lenses/ToT M1 - ++}Cognition and Cognitive Offloading]]
+source:: [[../Lenses/ToT M1 - Cognition and Cognitive Offloading]]
 
 # Lens:
 source:: [[../Lenses/ToT M1 - How AI Offloading Is Different]]
