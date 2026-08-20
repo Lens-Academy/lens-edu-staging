@@ -30,7 +30,7 @@ content::
 
 **How many commercial passenger flights will take off worldwide next Tuesday?**
 
-Do not look anything up. Produce a number, and show how you got to it.
+Do not look anything up. Produce a number, and show how you got to it. Don't think too hard, 
 
 Then, separately: which single step in your working is most likely to be badly wrong, and roughly how badly?
 
