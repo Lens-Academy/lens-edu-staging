@@ -212,19 +212,21 @@ Try it:--}{++{"author":"Elias's AI","timestamp":1787253842727}@@optional, showin
 
 #### FillBlank
 id:: 8a3ae4f5-4d86-42dc-b126-b293f88a7b61
-content:: How many years until transformative AI? {{number}}
+content:: How many years until transformative AI? {{number}}{++{"author":"Elias's AI","timestamp":1787253866677}@@
+optional:: true++}
 
-#### Text
-content::
-Put one accepted number after `number` for an exact graded answer:
+{--{"author":"Elias's AI","timestamp":1787253870467}@@#### Text
+content::--}{++{"author":"Elias's AI","timestamp":1787253870467}@@%% Numeric grading:++}
+{--{"author":"Elias's AI","timestamp":1787253870467}@@Put one accepted number after `number` for an exact graded answer:--}{++{"author":"Elias's AI","timestamp":1787253870467}@@- `{{number 42}}`: exact number.
+- `{{number 147,500,000 to 152,000,000}}`: inclusive range.++}
 
-> `content:: Six times seven is {{number 42}}.`
+{--{"author":"Elias's AI","timestamp":1787253870467}@@> `content:: Six times seven is {{number 42}}.`
 
-Use `to` for an inclusive graded range:
+Use `to` for an inclusive--}{++{"author":"Elias's AI","timestamp":1787253870467}@@Commas may separate thousands. Decimals and negative values work. Next example shows++} graded {--{"author":"Elias's AI","timestamp":1787253870467}@@range:
 
 > `content:: Earth is approximately {{number 147,500,000 to 152,000,000}} km from Sun.`
 
-Try it:
+Try it:--}{++{"author":"Elias's AI","timestamp":1787253870467}@@range. %%++}
 
 #### FillBlank
 id:: 1211df1d-70e8-4b93-a3b6-1ce44460ed1f
