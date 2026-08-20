@@ -19,11 +19,11 @@ Use Response segments in:
 
 Syntax is identical in all three places. Context changes whether a response is graded, not how segment is written.
 
-{--{"author":"Elias's AI","timestamp":1787223002440}@@Every answerable segment needs:--}{++{"author":"Elias's AI","timestamp":1787223002440}@@Each section below starts with smallest useful version. Only `id::` and `content::` are shared requirements. Everything else may be left out unless course creator wants different behavior.++}
+Each section below starts with smallest useful version. Only `id::` and `content::` are shared requirements. Everything else may be left out unless course creator wants different behavior.
 
 - `id::`: globally unique UUID. It identifies segment in stored responses, grading, and analytics. Never change it after learners have answered.
 - `content::`: prompt shown to learner.
-- `required:: true`: {--{"author":"Elias's AI","timestamp":1787223002440}@@optional. Response segments are not required by default.--}{++{"author":"Elias's AI","timestamp":1787223002440}@@require response before learner can continue. Defaults to `false`, so leave it out when response may be skipped.++}
+- `required:: true`: require response before learner can continue. Defaults to `false`, so leave it out when response may be skipped.
 
 Lens Editor should create `id::` automatically. When writing course files by hand, generate UUID at [uuidgenerator.net/version4](https://www.uuidgenerator.net/version4). Tools and language models can request one from [uuidgenerator.net/api/version4](https://www.uuidgenerator.net/api/version4).
 
@@ -33,209 +33,177 @@ Response segments do not need a separate human-readable key.
 
 Use `#### OpenResponse` when learner should type or dictate a response.
 
-{++{"author":"Elias's AI","timestamp":1787223019458}@@Smallest version:
+Smallest version:
 
-++}> `#### OpenResponse`
-> `id:: {--{"author":"Elias's AI","timestamp":1787223019458}@@1e39cdb1-a286-427d-ac65-580fe8d5c17e`--}{++{"author":"Elias's AI","timestamp":1787223019458}@@<uuid>`++}
-> `content:: {--{"author":"Elias's AI","timestamp":1787223019458}@@In two sentences, what --}{++{"author":"Elias's AI","timestamp":1787223019458}@@What is your strongest objection?`
+> `#### OpenResponse`
+> `id:: <uuid>`
+> `content:: What is your strongest objection?`
 
-Here ++}is {--{"author":"Elias's AI","timestamp":1787223019458}@@the strongest objection?`
-> `required:: true`
-> `max-chars:: 500`--}{++{"author":"Elias's AI","timestamp":1787223019458}@@that minimal segment for learner to try:
+Here is that minimal segment for learner to try:
 
-#### OpenResponse++}
-{--{"author":"Elias's AI","timestamp":1787223019458}@@> `placeholder:: Name the claim, then explain objection.`--}{++{"author":"Elias's AI","timestamp":1787223019458}@@id:: 3e1a5838-95df-4d05-a88a-1b4ca868905f
+#### OpenResponse
+id:: 3e1a5838-95df-4d05-a88a-1b4ca868905f
 content:: What is your strongest objection?
 
-#### Text++}
-{--{"author":"Elias's AI","timestamp":1787223019458}@@> `max-time:: 3:00`
-> `enforce-voice:: false`
-> `assessment-instructions:: Check whether learner names a claim and gives a relevant objection.`--}{++{"author":"Elias's AI","timestamp":1787223019458}@@content::
+#### Text
+content::
 Optional fields:
 
 - `required:: true`: require response. Defaults to `false`.
-- `max-chars:: 500`: limit answer length. Defaults to no limit.++}
-{--{"author":"Elias's AI","timestamp":1787223019458}@@> `feedback:: true`
+- `max-chars:: 500`: limit answer length. Defaults to no limit.
+- `placeholder:: Name the claim, then explain objection.`: show hint in empty input. Defaults to no placeholder.
+- `max-time:: 3:00`: set answer timer in `M:SS`. Defaults to no timer.
+- `enforce-voice:: true`: require spoken response instead of typing. Defaults to `false`.
+- `assessment-instructions:: ...`: give AI grading rubric. Without it, response is ungraded.
+- `feedback:: true`: show AI feedback after submission. Defaults to `false`.
 
-Options:
-
-- `max-chars::`: maximum answer length.
-- `placeholder::`:--}{++{"author":"Elias's AI","timestamp":1787223019458}@@- `placeholder:: Name the claim, then explain objection.`: show++} hint{--{"author":"Elias's AI","timestamp":1787223019458}@@ shown--} in empty input.{++{"author":"Elias's AI","timestamp":1787223019458}@@ Defaults to no placeholder.++}
-- {--{"author":"Elias's AI","timestamp":1787223019458}@@`max-time::`:--}{++{"author":"Elias's AI","timestamp":1787223019458}@@`max-time:: 3:00`: set++} answer timer in {--{"author":"Elias's AI","timestamp":1787223019458}@@`M:SS`, or `none`.--}{++{"author":"Elias's AI","timestamp":1787223019458}@@`M:SS`. Defaults to no timer.++}
-- `enforce-voice:: true`: require spoken {--{"author":"Elias's AI","timestamp":1787223019458}@@answer.--}{++{"author":"Elias's AI","timestamp":1787223019458}@@response instead of typing. Defaults to `false`.++}
-- {--{"author":"Elias's AI","timestamp":1787223019458}@@`assessment-instructions::`: rubric for--}{++{"author":"Elias's AI","timestamp":1787223019458}@@`assessment-instructions:: ...`: give++} AI {--{"author":"Elias's AI","timestamp":1787223019458}@@assessment.--}{++{"author":"Elias's AI","timestamp":1787223019458}@@grading rubric. Without it, response is ungraded.++}
-- {--{"author":"Elias's AI","timestamp":1787223019458}@@`feedback::`: whether learner receives AI feedback.--}{++{"author":"Elias's AI","timestamp":1787223019458}@@`feedback:: true`: show AI feedback after submission.++} Defaults to {--{"author":"Elias's AI","timestamp":1787223019458}@@`true` in lenses and tests.--}{++{"author":"Elias's AI","timestamp":1787223019458}@@`false`.++}
-
-Surveys {--{"author":"Elias's AI","timestamp":1787223019458}@@do not use `assessment-instructions::` or `feedback::`.--}{++{"author":"Elias's AI","timestamp":1787223019458}@@ignore grading and feedback fields.++} They store response without grading it.
+Surveys ignore grading and feedback fields. They store response without grading it.
 
 \## Rating
 
-Use `#### Rating` for numbered scale from 1 to {--{"author":"Elias's AI","timestamp":1787223032488}@@N.--}{++{"author":"Elias's AI","timestamp":1787223032488}@@5.++}
+Use `#### Rating` for numbered scale from 1 to 5.
 
-{++{"author":"Elias's AI","timestamp":1787223032488}@@Smallest version:
+Smallest version:
 
-++}> `#### Rating`
-> `id:: {--{"author":"Elias's AI","timestamp":1787223032488}@@8f9c80dc-1946-44fc-ba50-e964a8e7f4aa`--}{++{"author":"Elias's AI","timestamp":1787223032488}@@<uuid>`++}
-> `content:: How confident are you in your answer?`{++{"author":"Elias's AI","timestamp":1787223032488}@@
+> `#### Rating`
+> `id:: <uuid>`
+> `content:: How confident are you in your answer?`
 
 Try it:
 
-#### Rating++}
-{--{"author":"Elias's AI","timestamp":1787223032488}@@> `scale:: 7`
-> `low-label:: Not confident`
-> `high-label:: Very confident`--}{++{"author":"Elias's AI","timestamp":1787223032488}@@id:: 4280d5f2-2cd5-48f9-b20f-fc132253d443
+#### Rating
+id:: 4280d5f2-2cd5-48f9-b20f-fc132253d443
 content:: How confident are you in your answer?
 
 #### Text
-content::++}
-{--{"author":"Elias's AI","timestamp":1787223032488}@@>--}{++{"author":"Elias's AI","timestamp":1787223032488}@@Optional fields:
+content::
+Optional fields:
 
--++} `required:: {--{"author":"Elias's AI","timestamp":1787223032488}@@true`
-
-Options:
-
---}{++{"author":"Elias's AI","timestamp":1787223032488}@@true`: require response. Defaults to `false`.
-++}- {--{"author":"Elias's AI","timestamp":1787223032488}@@`scale::`: integer--}{++{"author":"Elias's AI","timestamp":1787223032488}@@`scale:: 7`: set highest number++} from 2 to 10. Defaults to {--{"author":"Elias's AI","timestamp":1787223032488}@@5.--}{++{"author":"Elias's AI","timestamp":1787223032488}@@`5`.++}
-- {--{"author":"Elias's AI","timestamp":1787223032488}@@`low-label::`: optional--}{++{"author":"Elias's AI","timestamp":1787223032488}@@`low-label:: Not confident`:++} label{--{"author":"Elias's AI","timestamp":1787223032488}@@ below--} low endpoint.{++{"author":"Elias's AI","timestamp":1787223032488}@@ Defaults to no label.++}
-- {--{"author":"Elias's AI","timestamp":1787223032488}@@`high-label::`: optional--}{++{"author":"Elias's AI","timestamp":1787223032488}@@`high-label:: Very confident`:++} label {--{"author":"Elias's AI","timestamp":1787223032488}@@below --}high endpoint.{++{"author":"Elias's AI","timestamp":1787223032488}@@ Defaults to no label.++}
+- `required:: true`: require response. Defaults to `false`.
+- `scale:: 7`: set highest number from 2 to 10. Defaults to `5`.
+- `low-label:: Not confident`: label low endpoint. Defaults to no label.
+- `high-label:: Very confident`: label high endpoint. Defaults to no label.
 
 Ratings are self-reports, not correct or incorrect. In Learning Outcome tests, rating is stored beside graded answers but does not affect test score.
 
 \## Single select
 
-Use `#### Select` with {--{"author":"Elias's AI","timestamp":1787223049523}@@plain list under `options::`. Default allows one selection.--}{++{"author":"Elias's AI","timestamp":1787223049523}@@`options::`. With no `[x]`, response is ungraded.++}
+Use `#### Select` with `options::`. With no `[x]`, response is ungraded.
 
-{--{"author":"Elias's AI","timestamp":1787223049523}@@Ungraded example:--}{++{"author":"Elias's AI","timestamp":1787223049523}@@Smallest version:++}
+Smallest version:
 
 > `#### Select`
-> `id:: {--{"author":"Elias's AI","timestamp":1787223049523}@@f32db9ca-cdf4-4c4d-b53c-50f3456dcac1`--}{++{"author":"Elias's AI","timestamp":1787223049523}@@<uuid>`++}
+> `id:: <uuid>`
 > `content:: Which topic should we cover next?`
 > `options::`
 > `- Forecasting`
-> `- Governance`{--{"author":"Elias's AI","timestamp":1787223049523}@@
-> `- Technical safety`--}{++{"author":"Elias's AI","timestamp":1787223049523}@@
+> `- Governance`
 
 Try it:
 
 #### Select
-id:: a59ce650-c5cf-4b2b-bc13-e0686f5d2bfb++}
-{--{"author":"Elias's AI","timestamp":1787223049523}@@> `required:: true`
-
-For graded practice or test response, mark--}{++{"author":"Elias's AI","timestamp":1787223049523}@@content:: Which topic should we cover next?
+id:: a59ce650-c5cf-4b2b-bc13-e0686f5d2bfb
+content:: Which topic should we cover next?
 options::
 - Forecasting
 - Governance
 
 #### Text
 content::
-Mark++} correct option with {--{"author":"Elias's AI","timestamp":1787223049523}@@`[x]`:
+Mark correct option with `[x]` when response should be graded:
 
-> `#### Select`
-> `id:: 234db237-6c5c-43f3-82aa-b19a4ee2708d`
-> `content:: Which process updates model weights during training?`
---}{++{"author":"Elias's AI","timestamp":1787223049523}@@`[x]` when response should be graded:
-
-++}> `options::`
+> `options::`
 > `- Data collection`
 > `- [x] Gradient descent`
-> `- Deployment monitoring`{--{"author":"Elias's AI","timestamp":1787223049523}@@
-> `shuffle:: true`--}{++{"author":"Elias's AI","timestamp":1787223049523}@@
+> `- Deployment monitoring`
 
 Optional fields:
 
-- `required:: true`: require response. Defaults to `false`.++}
-{--{"author":"Elias's AI","timestamp":1787223049523}@@> `explanation:: Gradient descent updates weights using gradients of loss.`
-
-Options:
-
---}{++{"author":"Elias's AI","timestamp":1787223049523}@@- `multi:: true`: allow multiple selections. Defaults to `false`.
-++}- `shuffle:: true`: randomize option order. Defaults to `false`.
-- {--{"author":"Elias's AI","timestamp":1787223049523}@@`explanation::`: optional feedback shown--}{++{"author":"Elias's AI","timestamp":1787223049523}@@`explanation:: ...`: show fixed explanation++} after submission.{++{"author":"Elias's AI","timestamp":1787223049523}@@ Defaults to no explanation.++}
+- `required:: true`: require response. Defaults to `false`.
+- `multi:: true`: allow multiple selections. Defaults to `false`.
+- `shuffle:: true`: randomize option order. Defaults to `false`.
+- `explanation:: ...`: show fixed explanation after submission. Defaults to no explanation.
 
 Survey selects must use plain list items. Surveys never contain correct-answer markers.
 
 \## Multi-select
 
-{--{"author":"Elias's AI","timestamp":1787223065654}@@Add `multi:: true` when learner may select more than one option.--}{++{"author":"Elias's AI","timestamp":1787223065654}@@Multi-select is same Response segment with one non-default field: `multi:: true`.
+Multi-select is same Response segment with one non-default field: `multi:: true`.
 
-Smallest version:++}
+Smallest version:
 
 > `#### Select`
-> `id:: {--{"author":"Elias's AI","timestamp":1787223065654}@@69162105-5047-480e-9c38-f5c408c535a7`--}{++{"author":"Elias's AI","timestamp":1787223065654}@@<uuid>`++}
-> `content:: Which {--{"author":"Elias's AI","timestamp":1787223065654}@@two items are empirical evidence?`--}{++{"author":"Elias's AI","timestamp":1787223065654}@@topics interest you?`++}
+> `id:: <uuid>`
+> `content:: Which topics interest you?`
 > `options::`
-> `-{--{"author":"Elias's AI","timestamp":1787223065654}@@ [x] A measured benchmark result`--}{++{"author":"Elias's AI","timestamp":1787223065654}@@ Forecasting`
-> `- Governance`++}
-> `- {--{"author":"Elias's AI","timestamp":1787223065654}@@A definition`--}{++{"author":"Elias's AI","timestamp":1787223065654}@@Technical safety`++}
-> {--{"author":"Elias's AI","timestamp":1787223065654}@@`- [x] A randomized trial result`--}{++{"author":"Elias's AI","timestamp":1787223065654}@@`multi:: true`
+> `- Forecasting`
+> `- Governance`
+> `- Technical safety`
+> `multi:: true`
 
 Try it:
 
 #### Select
-id:: cb39e8f1-4477-4b66-b016-37c99c5ff753++}
-{--{"author":"Elias's AI","timestamp":1787223065654}@@> `- A thought experiment`--}{++{"author":"Elias's AI","timestamp":1787223065654}@@content:: Which topics interest you?
-options::++}
-{--{"author":"Elias's AI","timestamp":1787223065654}@@> `multi:: true`--}{++{"author":"Elias's AI","timestamp":1787223065654}@@- Forecasting
-- Governance++}
-{--{"author":"Elias's AI","timestamp":1787223065654}@@> `shuffle:: true`--}{++{"author":"Elias's AI","timestamp":1787223065654}@@- Technical safety++}
-{--{"author":"Elias's AI","timestamp":1787223065654}@@> `explanation:: Measurements and trial results are empirical evidence.`
-
-A graded response is correct only when--}{++{"author":"Elias's AI","timestamp":1787223065654}@@multi:: true
+id:: cb39e8f1-4477-4b66-b016-37c99c5ff753
+content:: Which topics interest you?
+options::
+- Forecasting
+- Governance
+- Technical safety
+multi:: true
 
 #### Text
 content::
-It has same optional fields and defaults as single select. For graded multi-select, learner's++} selected options {++{"author":"Elias's AI","timestamp":1787223065654}@@must ++}exactly match {--{"author":"Elias's AI","timestamp":1787223065654}@@every--}{++{"author":"Elias's AI","timestamp":1787223065654}@@all++} `[x]` {--{"author":"Elias's AI","timestamp":1787223065654}@@option.--}{++{"author":"Elias's AI","timestamp":1787223065654}@@options.++} In surveys,{--{"author":"Elias's AI","timestamp":1787223065654}@@ `multi:: true` works the same way but--} options stay ungraded and use no `[x]` markers.
+It has same optional fields and defaults as single select. For graded multi-select, learner's selected options must exactly match all `[x]` options. In surveys, options stay ungraded and use no `[x]` markers.
 
 \## Fill in the blank
 
-Use `#### FillBlank`. Write accepted {--{"author":"Elias's AI","timestamp":1787223092122}@@answers--}{++{"author":"Elias's AI","timestamp":1787223092122}@@answer++} directly inside{--{"author":"Elias's AI","timestamp":1787223092122}@@ each--} blank.{--{"author":"Elias's AI","timestamp":1787223092122}@@ Separate alternatives with `|`.--}{++{"author":"Elias's AI","timestamp":1787223092122}@@
+Use `#### FillBlank`. Write accepted answer directly inside blank.
 
-Smallest graded version:++}
+Smallest graded version:
 
 > `#### FillBlank`
-> `id:: {--{"author":"Elias's AI","timestamp":1787223092122}@@38b31133-89c0-4bc2-b20f-d8e66a59b594`--}{++{"author":"Elias's AI","timestamp":1787223092122}@@<uuid>`++}
-> `content:: France's capital is {--{"author":"Elias's AI","timestamp":1787223092122}@@{{Paris}}, while Germany's--}{++{"author":"Elias's AI","timestamp":1787223092122}@@{{Paris}}.`
+> `id:: <uuid>`
+> `content:: France's capital is {{Paris}}.`
 
 Try it:
 
 #### FillBlank
 id:: ec12502a-e39c-4589-87f5-9f14855648c9
-content:: France's++} capital is {--{"author":"Elias's AI","timestamp":1787223092122}@@{{Berlin}}.`--}{++{"author":"Elias's AI","timestamp":1787223092122}@@{{Paris}}.
+content:: France's capital is {{Paris}}.
 
-#### Text++}
-{--{"author":"Elias's AI","timestamp":1787223092122}@@> `explanation:: Paris and Berlin are the respective capitals of France and Germany.`
-> `feedback:: true`
-> `required:: true`--}{++{"author":"Elias's AI","timestamp":1787223092122}@@content::
+#### Text
+content::
 Separate alternative accepted answers with `|`:
 
-> `content:: Model weights are commonly updated using {{gradient descent|gradient-based optimization}}.`++}
+> `content:: Model weights are commonly updated using {{gradient descent|gradient-based optimization}}.`
 
-{--{"author":"Elias's AI","timestamp":1787223092122}@@Multiple accepted answers for--}{++{"author":"Elias's AI","timestamp":1787223092122}@@Put several blanks in++} one {--{"author":"Elias's AI","timestamp":1787223092122}@@blank:--}{++{"author":"Elias's AI","timestamp":1787223092122}@@sentence:++}
+Put several blanks in one sentence:
 
-> `content:: {--{"author":"Elias's AI","timestamp":1787223092122}@@Model weights are commonly updated using {{gradient descent|gradient-based optimization}}.`--}{++{"author":"Elias's AI","timestamp":1787223092122}@@France's capital is {{Paris}}, while Germany's capital is {{Berlin}}.`++}
+> `content:: France's capital is {{Paris}}, while Germany's capital is {{Berlin}}.`
 
-{++{"author":"Elias's AI","timestamp":1787223092122}@@Each `{{...}}` becomes separate input. ++}Matching is always case-sensitive and ignores whitespace at beginning and end of learner response. There are no `case-sensitive::` or `trim::`{--{"author":"Elias's AI","timestamp":1787223092122}@@ options. Each `{{...}}` becomes a separate input. For graded responses, --}{++{"author":"Elias's AI","timestamp":1787223092122}@@ fields. Graded ++}score is fraction of blanks answered correctly.
+Each `{{...}}` becomes separate input. Matching is always case-sensitive and ignores whitespace at beginning and end of learner response. There are no `case-sensitive::` or `trim::` fields. Graded score is fraction of blanks answered correctly.
 
-Use `{{blank}}` when response should{--{"author":"Elias's AI","timestamp":1787223092122}@@ be collected without--}{++{"author":"Elias's AI","timestamp":1787223092122}@@ have no++} right or wrong {--{"author":"Elias's AI","timestamp":1787223092122}@@answer:--}{++{"author":"Elias's AI","timestamp":1787223092122}@@answer.++}
+Use `{{blank}}` when response should have no right or wrong answer.
 
-{++{"author":"Elias's AI","timestamp":1787223092122}@@Smallest ungraded version:
+Smallest ungraded version:
 
-++}> `#### FillBlank`
-> `id:: {--{"author":"Elias's AI","timestamp":1787223092122}@@e7308f54-3b2f-410d-a67c-df916b8c8a19`--}{++{"author":"Elias's AI","timestamp":1787223092122}@@<uuid>`++}
-> `content:: One change I want to make is {{blank}}.`{++{"author":"Elias's AI","timestamp":1787223092122}@@
+> `#### FillBlank`
+> `id:: <uuid>`
+> `content:: One change I want to make is {{blank}}.`
 
 Try it:
 
 #### FillBlank
-id:: e7308f54-3b2f-410d-a67c-df916b8c8a19++}
-{--{"author":"Elias's AI","timestamp":1787223092122}@@> `feedback:: true`--}{++{"author":"Elias's AI","timestamp":1787223092122}@@content:: One change I want to make is {{blank}}.++}
+id:: e7308f54-3b2f-410d-a67c-df916b8c8a19
+content:: One change I want to make is {{blank}}.
 
-{--{"author":"Elias's AI","timestamp":1787223092122}@@Options:--}{++{"author":"Elias's AI","timestamp":1787223092122}@@#### Text
+#### Text
 content::
-Optional fields:++}
+Optional fields:
 
-- {--{"author":"Elias's AI","timestamp":1787223092122}@@`explanation::`: optional text shown--}{++{"author":"Elias's AI","timestamp":1787223092122}@@`required:: true`: require every blank. Defaults to `false`.
-- `explanation:: ...`: show fixed text++} after submission.{++{"author":"Elias's AI","timestamp":1787223092122}@@ Defaults to no explanation.++}
+- `required:: true`: require every blank. Defaults to `false`.
+- `explanation:: ...`: show fixed text after submission. Defaults to no explanation.
 - `feedback:: true`: ask AI to provide feedback after submission. Defaults to `false`. On ungraded blanks, feedback is coaching only and does not assign correctness.
 
 Within one FillBlank segment, use either answer-bearing blanks or ungraded `{{blank}}` markers, not both.
