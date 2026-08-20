@@ -1,7 +1,7 @@
 ---
-id: 59da6629-4a48-4296-a2e4-52fa6af3febc{++{"author":"Elias's AI","timestamp":1787256221442}@@
+id: 59da6629-4a48-4296-a2e4-52fa6af3febc
 reading_minutes: 3
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: Covers why trend extrapolation fails for predicting dangerous AI timelines. The core problem is that quantitative metrics like perplexity cannot be mapped onto qualitative capabilities such as novel scientific reasoning or lethality. Researchers must run the AI and discover thresholds empirically.
 title: "Can we use past progress to extrapolate when we'll build smarter-than-human AI?"
 tldr: "We don't have a good enough understanding of intelligence for that."

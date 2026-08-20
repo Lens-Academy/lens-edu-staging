@@ -2,7 +2,7 @@
 id: '39b85a0e-0cb9-47f8-a5b2-c0ff4433947e'
 title: "2.1.6 Where should trust live?"
 tldr: "Faithful alpha import of XLab lesson 2.1.6 Where should trust live?."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257346384}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257346384}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257346384}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257346384}@@ XLab."++}
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
 tags: [wip]
 ---
 #### Text

@@ -1,7 +1,7 @@
 ---
-id: b8d3e7a1-2f5c-4e90-9b1d-4c0f2a7e3b86{++{"author":"Elias's AI","timestamp":1787256645132}@@
+id: b8d3e7a1-2f5c-4e90-9b1d-4c0f2a7e3b86
 reading_minutes: 2
-tutor_minutes: 8++}
+tutor_minutes: 8
 summary_for_tutor: "Optional extension lens for the Coda. Teaches the fiction-as-argument move: the story's pathway is illustrative, not predictive, but the outcome claim is genuine. Students triangulate against two common misreadings to locate the precise middle position. No new reading required: it builds on the Coda already read for the primary LO."
 title: "Fiction as Argument"
 tldr: "*It's just sci-fi* and *this will definitely happen* are both wrong. The Coda stakes out a precise middle position and that position matters."

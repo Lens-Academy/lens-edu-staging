@@ -1,7 +1,7 @@
 ---
-id: 'c3f73669-88b9-4d07-9c40-3af503a136cb'{++{"author":"Elias's AI","timestamp":1787256342844}@@
+id: 'c3f73669-88b9-4d07-9c40-3af503a136cb'
 reading_minutes: 25
-tutor_minutes: 5++}
+tutor_minutes: 5
 title: "The Handoff"
 tldr: Every plan you have met ends with AIs doing most of the remaining safety work. This reading names that step and treats it as the central move, not as a detail.
 summary_for_tutor: "Opens Unit 5. Pre-reading question asks for the first safety-relevant task the student would refuse to hand to an AI assistant, and what evidence would change their mind. Then Carlsmith's 'AI for AI safety', excerpted. One mirror, no grade."

@@ -2,7 +2,7 @@
 id: 'b9bf7a86-0221-4b6e-8980-29e23fa7f435'
 title: "0.1.2 We Need More Theories of Change"
 tldr: "Faithful alpha import of XLab lesson 0.1.2 We Need More Theories of Change."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257474020}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257474020}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257474020}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257474020}@@ XLab."++}
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
 tags: [wip]
 ---
 #### Text
