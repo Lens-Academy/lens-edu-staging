@@ -214,5 +214,3 @@ Within one FillBlank segment, use either answer-bearing blanks or ungraded `{{bl
 - **Normal lens:** responses may be graded practice or ungraded reflection.
 - **Learning Outcome test:** OpenResponse and Select must be gradable. FillBlank may use answer-bearing blanks for grading or `{{blank}}` for an ungraded response. OpenResponse needs `assessment-instructions::`; Select needs at least one `[x]`.
 - Rating and ungraded FillBlank responses never contribute to correctness score.
-
-Validator should reject duplicate IDs, invalid UUIDs, invalid field combinations, missing grading information where required, invalid rating scales, too few select options, empty answer alternatives, and mixtures of graded and ungraded blanks in one segment.
