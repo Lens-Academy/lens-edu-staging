@@ -58,8 +58,8 @@ Key concepts in the lens:
 - History: offloading to writing/calculators led to reorganisation, not decline; extended mind and "cognitive hygiene"
 - The speedup illusion: AI cuts perceived effort, not actual time (Yu et al., preregistered, N=1237)
 - Mixed findings exist; some studies report benefits from strategic AI use
-- {++{"author":"AI","timestamp":1787234579269}@@The novice-programmer study (Prather et al. 2024): direct observation, not self-report; the same AI helped prepared students accelerate while it amplified and added metacognitive traps for struggling ones
-- ++}Adults losing skills they had (atrophy, recoverable) vs novices never building them (foreclosure)
+- The novice-programmer study (Prather et al. 2024): direct observation, not self-report; the same AI helped prepared students accelerate while it amplified and added metacognitive traps for struggling ones
+- Adults losing skills they had (atrophy, recoverable) vs novices never building them (foreclosure)
 - Automation vs augmentation; the risky mode is treating AI as an authority, not using it as a support
 - The fair conclusion: concern about specific use patterns, not panic
 
