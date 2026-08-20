@@ -38,8 +38,10 @@ Here is the classic example: spellcheck and autocorrect slowly weaken spelling. 
 
 #### Question
 content::
-\## Phase 1: Recall
-Spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended here.
+\## Phase 1: Recall{++{"author":"Course AI's AI","timestamp":1787256509999}@@ and Processing++}
+{--{"author":"Course AI's AI","timestamp":1787256509999}@@Spend--}{++{"author":"Course AI's AI","timestamp":1787256509999}@@First, spend++} 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly {--{"author":"Course AI's AI","timestamp":1787256509999}@@recommended here.--}{++{"author":"Course AI's AI","timestamp":1787256509999}@@recommended.
+
+Then, take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? Just capture your reaction.++}
 
 assessment-instructions:: The student has just read a short teaching piece on cognition, cognitive offloading, distributed cognition, and the trade-off of offloading (Unit 1 of "Thinking about Thinking"), and has written a free recall of it. Your role here is diagnostic, not instructional. Act as a brief, honest mirror.
 
