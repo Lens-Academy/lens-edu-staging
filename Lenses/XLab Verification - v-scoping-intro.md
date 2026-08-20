@@ -35,9 +35,11 @@ Each claim and rule are built from the following four ingredients:
 - Activities: what actors do with objects. Acquisition, training, research, deployment, transfer.
 - Conditions: the qualifiers that make the claim precise. Thresholds, locations, purposes, exceptions, time periods.
 
-**Example**
+{--{"author":"Elias's AI","timestamp":1787257108864}@@**Example**
 
-Between January and June 2029 (condition), Microsoft (actor) ran no training job (activity) above 10²⁶ FLOP (condition) on the clusters at its Iowa data centers (objects).
+--}{++{"author":"Elias's AI","timestamp":1787257108864}@@:::callout {title="Example" tone="blue"}
+++}Between January and June 2029 (condition), Microsoft (actor) ran no training job (activity) above 10²⁶ FLOP (condition) on the clusters at its Iowa data centers (objects).{++{"author":"Elias's AI","timestamp":1787257108864}@@
+:::++}
 
 Each rule and claim is inherently a proxy: a workable but imprecise substitute for an unworkable but precise goal. The imperfection of proxies, however, risks losing specificity, coverage, and nuance. Motivated actors can exploit loopholes in rules, such that they technically present verifiable claims while actually undermining its underlying goal. The goal may erode the rule itself: see 
 **Term**
