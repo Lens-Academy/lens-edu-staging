@@ -1,7 +1,7 @@
 ---
 id: '71ffbbb9-86a2-4b06-855f-729097642dc0'
 title: What a Curve Licenses
-tldr: A colleague shows you a perfect exponential and a fourteen-month forecast. Every fact is true. Your job is to find where the argument outruns the chart.
+tldr: A colleague shows you a perfect exponential and a fourteen-month forecast. Every fact is true. Your job is to find where the argument outruns the {--{"author":"Lauren's AI","timestamp":1787209479937}@@chart.--}{++{"author":"Lauren's AI","timestamp":1787209479937}@@evidence.++}
 summary_for_tutor: "Closes the module's wedge thread. The student is handed a plausible, correctly-reasoned extrapolation in which every stated fact is true, and must locate the exact step where the argument spends evidence it does not have. Deliberately set inside AI (a coding benchmark) because it is the practice beat; the graded transfer test for this module is set outside AI. Four load-bearing moves, any two of which pass: fit quality is silent about the unobserved range; a score near its ceiling is a different regime; construct stability; and confidence about continuation should come from an outside view on trend breaks, which the student got in the When Progress Jumps lens. A student who says the colleague is lying has misread the setup."
 authors:
   - Lauren+Claude
@@ -35,7 +35,7 @@ This is a deliberate wedge, not the test question. It hands the student a plausi
 Four load-bearing moves. ANY TWO of them pass:
 1. Fit quality is silent about the unobserved range. R-squared 0.97 licenses interpolation inside the measured range, not a claim about the next fourteen months.
 2. A score approaching its ceiling is a different regime. The benchmark tops out at 100 by construction, so the remaining 39 points are not interchangeable with the last 39.
-3. Construct stability: whether the quantity being measured at 61 is the same skill it will be at 95. Saturating a benchmark and solving the underlying capability are different claims, and only the first is on the chart.
+3. Construct stability: whether the quantity being measured at 61 is the same skill it will be at 95. Saturating a benchmark and solving the underlying capability are different claims, and only the first is {--{"author":"Lauren's AI","timestamp":1787209484962}@@on --}{++{"author":"Lauren's AI","timestamp":1787209484962}@@in what ++}the {--{"author":"Lauren's AI","timestamp":1787209484962}@@chart.--}{++{"author":"Lauren's AI","timestamp":1787209484962}@@colleague told them.++}
 4. Confidence about continuation should come from an outside view on how often strong regular trends break, which the student has from When Progress Jumps, rather than from the quality of the fit.
 
 Reward a student who connects to When Progress Jumps unprompted, for example "one large discontinuity per thousand trend-years, but this could be the affected kind".
