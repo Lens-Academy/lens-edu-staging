@@ -88,7 +88,7 @@ required&#58;&#58; true</code></pre>
 
 For graded practice or test {--{"author":"Elias's AI","timestamp":1787221164979}@@question,--}{++{"author":"Elias's AI","timestamp":1787221164979}@@response,++} mark correct option with `[x]`:
 
-<pre><code>#### Choice
+<pre><code>#### {--{"author":"Elias's AI","timestamp":1787221169028}@@Choice--}{++{"author":"Elias's AI","timestamp":1787221169028}@@Select++}
 key&#58;&#58; optimizer
 content&#58;&#58; Which process updates model weights during training?
 options&#58;&#58;
@@ -103,9 +103,9 @@ Options:
 - `shuffle:: true`: randomize option order. Defaults to `false`.
 - `explanation&#58;&#58;`: optional feedback shown after submission.
 
-Survey choices must use plain list items. Surveys never contain correct-answer markers.
+Survey {--{"author":"Elias's AI","timestamp":1787221171904}@@choices--}{++{"author":"Elias's AI","timestamp":1787221171904}@@selects++} must use plain list items. Surveys never contain correct-answer markers.
 
-\## Multiple-choice question
+\## {--{"author":"Elias's AI","timestamp":1787221174372}@@Multiple-choice question--}{++{"author":"Elias's AI","timestamp":1787221174372}@@Multi-select++}
 
 Add `multi:: true` when learner may select more than one option.
 
