@@ -114,7 +114,7 @@ Survey selects must use plain list items. Surveys never contain correct-answer m
 Add `multi:: true` when learner may select more than one option.
 
 > `#### Select`
-> `key:: empirical_evidence`
+> {--{"author":"Elias's AI","timestamp":1787222621398}@@`key:: empirical_evidence`--}{++{"author":"Elias's AI","timestamp":1787222621398}@@`id:: 69162105-5047-480e-9c38-f5c408c535a7`++}
 > `content:: Which two items are empirical evidence?`
 > `options::`
 > `- [x] A measured benchmark result`
