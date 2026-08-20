@@ -1,7 +1,7 @@
 ---
-id: 'fe6bfd49-ece1-47e3-91aa-d53f5e0df3e5'{++{"author":"Elias's AI","timestamp":1787256304453}@@
+id: 'fe6bfd49-ece1-47e3-91aa-d53f5e0df3e5'
 reading_minutes: 20
-tutor_minutes: 5++}
+tutor_minutes: 5
 title: "Losing It Gradually"
 tldr: Our institutions serve us partly because they need us. What happens when they stop needing us.
 summary_for_tutor: "Short reading. Pre-question asks why institutions currently take human welfare into account at all. Then Gradual Disempowerment. One mirror, no grade."

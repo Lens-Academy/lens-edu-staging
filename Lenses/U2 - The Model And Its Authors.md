@@ -1,7 +1,7 @@
 ---
-id: '57a676a0-de9e-481b-971c-c764170173c3'{++{"author":"Elias's AI","timestamp":1787256171270}@@
+id: '57a676a0-de9e-481b-971c-c764170173c3'
 reading_minutes: 50
-tutor_minutes: 40++}
+tutor_minutes: 40
 title: The Model And Its Authors
 tldr: The AI Futures team rebuilt their timelines model and moved their own median three to five years later than AI 2027. You build your forecasting toolkit before seeing theirs, then watch two of the authors run the same model and disagree.
 summary_for_tutor: "Administers the AI Futures Project's Dec 2025 model rather than describing it. Sequence: the student lists every forecasting method they can think of BEFORE reading, then reads the authors' five (expert survey, argument-informed intuition, revenue extrapolation, brain-compute anchoring, benchmark trend extrapolation) and diffs; then reads the three-stage model structure; then commits to their own median before seeing the authors'; then reads Eli and Daniel producing DIFFERENT forecasts from the same model, which makes aggregation a live case rather than a hypothetical. Closes by asking what process generates the trend and what that process is aimed at. The tutor must not supply the five methods during the attempt beat, and must NOT name any unifying frame at the close: the student is meant to arrive at it themselves across later units."
