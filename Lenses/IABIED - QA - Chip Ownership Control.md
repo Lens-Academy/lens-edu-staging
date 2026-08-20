@@ -1,5 +1,7 @@
 ---
-id: e22088ed-be97-4b97-a619-df6e792dd335
+id: e22088ed-be97-4b97-a619-df6e792dd335{++{"author":"Elias's AI","timestamp":1787256856401}@@
+reading_minutes: 3
+tutor_minutes: 3++}
 title: "But you're advocating control of how many AI chips individuals can own."
 tldr: "Yes. We also advocate a research ban."
 summary_for_tutor: "A supplementary Q&A in which the authors confirm they advocate capping how many unmonitored advanced AI chips (more than about eight 2024 H100 GPUs) an individual may own, alongside a research ban. They defend the tradeoff through cost asymmetry: erring toward too-low limits only hampers a few wealthy hobbyists (nine H100s cost roughly $270,000), while erring too high risks everyone's death. They add that the compute-heavy regime is temporary, since studying existing LLMs could yield more efficient algorithms that slip past monitoring. The reading is followed by a reflection prompt and a chat exploring the cost asymmetry and the durability of chip-based enforcement."
