@@ -1,5 +1,7 @@
 ---
-id: bb09a113-affb-4d96-b068-8da243900216
+id: bb09a113-affb-4d96-b068-8da243900216{++{"author":"Elias's AI","timestamp":1787256711103}@@
+reading_minutes: 3
+tutor_minutes: 3++}
 summary_for_tutor: "Covers why the authors deliberately depicted Sable's expansion slowly. In reality, technological leaps can happen overnight, as with the atomic bomb or ChatGPT. The story could plausibly have jumped directly from escape to planetary takeover, but that would feel less believable in fiction despite being more realistic."
 title: "Why did you have Sable's expansion phase go that way?"
 tldr: "We were trying to depict an especially slow and comprehensible scenario, among plausible scenarios."
