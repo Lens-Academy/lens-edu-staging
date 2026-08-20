@@ -34,10 +34,9 @@ In this essay, I argue for the crucial importance of what I call “AI for AI sa
 - *The AI capabilities feedback loop*: access to increasingly capable AI systems driving further progress in AI capabilities.
 - *The AI safety feedback loop*: safe access to increasingly capable AI systems driving improvements to the security factors above.
 
-AIn's AI","timestamp":1786857199361using the latter feedback loop to++} either outpace or restrain the former.{--{"author":"Lauren's AI","timestamp":1786857199361}@@
-eeck loop to either outpa![171](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/78c64f83849b61011fb63235c73f74d7c99658744870b5e30e81231f4d5759c7/ghv5xywsfgfsynvwxioi)--}{++{"author":"Lauren's AI","timestamp":1786857199361}@@
+AIn's AI","timestamp":1786857199361using the latter feedback loop to++} ein's AI","timestamp":1786857199361}@@
 
-![171](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/78c64f83849b61011fb63235c73f74d7c99658744870b5e30e81231f4d5759c7/ghv5xywsfgfsynvwxioi)++}
+![171](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/78c64f83849b61011fb63235c73f74d7c99658744870b5e30e31f4d5759c7/ghv5xywsfgfsynvwxioi)++}
 
 The basic argument for the importance of AI for AI safety is obvious: AI has the potential to unlock massive productivity gains, so of course we want to use this productivity for safety-relevant applications wherever possible. But it becomes particularly clear, I think, in light of the way that progress on AI capabilities is likely, by default, to be massively accelerated by large amounts of fast, high-quality AI labor. If our ability to make increasingly capable AI systems *safe* can’t benefit from such labor in a comparable way, then at least for relatively hard problem profiles, and absent large amounts of capability restraint, I think we’re likely headed for disaster.
 
