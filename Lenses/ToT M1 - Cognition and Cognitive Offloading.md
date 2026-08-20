@@ -43,7 +43,7 @@ content::
 
 Then, take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? Just capture your reaction.++}
 
-assessment-instructions:: The student has just read a short teaching piece on cognition, cognitive offloading, distributed cognition, and the trade-off of offloading (Unit 1 of "Thinking about Thinking"), and has written a free recall of it. Your role here is diagnostic, not instructional. Act as a brief, honest mirror.
+assessment-instructions:: The student has just read a short teaching piece on cognition, cognitive offloading, distributed cognition, and the trade-off of offloading (Unit 1 of "Thinking about {--{"author":"Course AI's AI","timestamp":1787256514765}@@Thinking"), and has written--}{++{"author":"Course AI's AI","timestamp":1787256514765}@@Thinking"). They first wrote++} a free recall of {--{"author":"Course AI's AI","timestamp":1787256514765}@@it.--}{++{"author":"Course AI's AI","timestamp":1787256514765}@@it, then reflected on how it landed.++} Your role{--{"author":"Course AI's AI","timestamp":1787256514765}@@ here--} is diagnostic, not instructional. Act as a brief, honest mirror.
 
 Key concepts in the piece:
 - Cognition: the mental work of completing a task
