@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787252957129}@@---
+---
 id: 'd24c44fe-9724-4b76-a1c5-73019b3ab545'
 title: "Pre-Reading Question: What Did You Hand Over"
 duration_minutes: 5
@@ -16,4 +16,3 @@ assessment-instructions:: The student is about to read the Unit 1 content on cog
 Acknowledge their answer in 1 to 2 sentences, specifically and without judgment. Do NOT explain cognitive offloading, introduce the idea that offloading is normal and ancient, or preview the rest of Unit 1. Do not grade their choices. Do not suggest they offload too much or too little.
 
 Close with something like: "Hold that picture of your own week as you read. Head to the reading when you are ready, and come back here for the reflection after it."
-++}
