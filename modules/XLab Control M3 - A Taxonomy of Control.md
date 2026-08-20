@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787217322872}@@---
+---
 slug: xlab-control-m3
 title: "A Taxonomy of Control"
 id: 'fd71ac77-89e2-4a9e-bfe9-3118d18a64fe'
@@ -64,4 +64,3 @@ content::
 
 [Open this lesson in XLab's AI Control curriculum](https://aisafetytracks.com/tracks/control/areas-of-control-work/an-overview-of-areas-of-control-work). Complete the reading and all embedded recall prompts, scenarios, or guided exercises before continuing.
 
-++}

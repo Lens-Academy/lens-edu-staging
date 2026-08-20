@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787217328484}@@---
+---
 slug: xlab-control-m5
 title: "Low-stakes control: sabotage, sandbagging, and elicitation"
 id: '50b8725d-ced7-49f7-9955-0d22afae8fd1'
@@ -94,4 +94,3 @@ content::
 
 [Open this lesson in XLab's AI Control curriculum](https://aisafetytracks.com/tracks/control/low-stakes-control/exploration-hacking-guided). Complete the reading and all embedded recall prompts, scenarios, or guided exercises before continuing.
 
-++}

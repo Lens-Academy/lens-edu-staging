@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787217390498}@@---
+---
 slug: xlab-control-m1
 title: "Introduction, overview, and threat modeling"
 id: 'e63906c8-c199-4a51-890a-9d65507c699a'
@@ -89,4 +89,3 @@ content::
 
 [Open this lesson in XLab's AI Control curriculum](https://aisafetytracks.com/tracks/control/introduction/diffuse-threats-research-sabotage). Complete the reading and all embedded recall prompts, scenarios, or guided exercises before continuing.
 
-++}

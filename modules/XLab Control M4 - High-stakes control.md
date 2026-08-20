@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787217325824}@@---
+---
 slug: xlab-control-m4
 title: "High-stakes control"
 id: 'a3021356-b660-43ca-be80-5bbb882b48bd'
@@ -154,4 +154,3 @@ content::
 
 [Open this lesson in XLab's AI Control curriculum](https://aisafetytracks.com/tracks/control/module-4/legibility-guided). Complete the reading and all embedded recall prompts, scenarios, or guided exercises before continuing.
 
-++}

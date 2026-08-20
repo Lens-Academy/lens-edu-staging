@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787217340002}@@---
+---
 slug: xlab-control-m7
 title: "Next Steps"
 id: '195ffc86-d8ec-43c5-9a31-fdf9ceb4731e'
@@ -24,4 +24,3 @@ content::
 
 [Open this lesson in XLab's AI Control curriculum](https://aisafetytracks.com/tracks/control/next-steps/whats-next). Complete the reading and all embedded recall prompts, scenarios, or guided exercises before continuing.
 
-++}

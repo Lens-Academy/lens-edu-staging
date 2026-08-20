@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787217346584}@@---
+---
 id: '138a580f-c111-4c7c-9d06-36d8477029b1'
 slug: xlab-ai-control
 title: "AI Control (XLab alpha)"
@@ -15,4 +15,3 @@ partner-url: "https://xrisk.uchicago.edu/"
 # Module: [[../modules/XLab Control M5 - Low-stakes control: sabotage, sandbagging, and elicitation]]
 # Module: [[../modules/XLab Control M6 - Beyond scheming: seekers and deals]]
 # Module: [[../modules/XLab Control M7 - Next Steps]]
-++}

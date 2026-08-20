@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787217337287}@@---
+---
 slug: xlab-control-m6
 title: "Beyond scheming: seekers and deals"
 id: '4fe92ac0-9f60-44e1-bd07-3efd382c83ff'
@@ -94,4 +94,3 @@ content::
 
 [Open this lesson in XLab's AI Control curriculum](https://aisafetytracks.com/tracks/control/module-5/barriers-to-trading). Complete the reading and all embedded recall prompts, scenarios, or guided exercises before continuing.
 
-++}

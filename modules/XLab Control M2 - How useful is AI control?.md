@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787217319770}@@---
+---
 slug: xlab-control-m2
 title: "How useful is AI control?"
 id: '3e5a76ab-2655-410f-9218-48ced3675d7b'
@@ -64,4 +64,3 @@ content::
 
 [Open this lesson in XLab's AI Control curriculum](https://aisafetytracks.com/tracks/control/how-useful-is-ai-control/running-the-model). Complete the reading and all embedded recall prompts, scenarios, or guided exercises before continuing.
 
-++}
