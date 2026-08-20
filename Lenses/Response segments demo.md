@@ -74,6 +74,7 @@ Smallest version:
 Try it:
 
 #### Rating
+%% sliding scale %% 
 id:: 4280d5f2-2cd5-48f9-b20f-fc132253d443
 content:: How confident are you in your answer?
 
