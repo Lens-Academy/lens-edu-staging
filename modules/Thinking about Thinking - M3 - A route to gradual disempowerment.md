@@ -16,7 +16,13 @@ source:: [[../Lenses/ToT M3 - Gradual Disempowerment]]
 source:: [[../Lenses/ToT M3 - The Evidence About AI and Thinking]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - The Philosophy of Autonomy Loss]]
+source:: [[../Lenses/ToT M3 - The {++{"author":"AI","timestamp":1787234564340}@@Metacognitive Traps]]
+
+# Lens:
+source:: [[../Lenses/ToT M3 - What the Skeptics Say]]
+
+# Lens:
+source:: [[../Lenses/ToT M3 - The ++}Philosophy of Autonomy Loss]]
 
 # Lens:
 source:: [[../Lenses/ToT M3 - Recap]]
