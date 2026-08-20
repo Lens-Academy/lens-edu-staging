@@ -184,17 +184,17 @@ Put several blanks in one sentence:
 
 > `content:: France's capital is {{Paris}}, while Germany's capital is {{Berlin}}.`
 
-Each `{{...}}` becomes separate input. Matching is always case-sensitive and ignores whitespace at beginning and end of learner response. There are no `case-sensitive::` or `trim::` fields. Graded score is fraction of blanks answered correctly.
+Each `{{...}}` becomes separate input. {--{"author":"Elias's AI","timestamp":1787225506544}@@Matching --}{++{"author":"Elias's AI","timestamp":1787225506544}@@Text matching ++}is always case-sensitive and ignores whitespace at beginning and end of learner response. There are no `case-sensitive::` or `trim::` fields.{--{"author":"Elias's AI","timestamp":1787225506544}@@ Graded score is fraction of blanks answered correctly.--}
 
-Use `{{blank}}` when response should have no right or wrong answer.
+Use `{{blank}}` {--{"author":"Elias's AI","timestamp":1787225506544}@@when response should have no right or wrong answer.
 
-Smallest ungraded version:
+Smallest ungraded version:--}{++{"author":"Elias's AI","timestamp":1787225506544}@@for ungraded text input:++}
 
-> `#### FillBlank`
+> {--{"author":"Elias's AI","timestamp":1787225506544}@@`#### FillBlank`
 > `id:: <uuid>`
-> `content:: One change I want to make is {{blank}}.`
+> --}`content:: One change I want to make is {{blank}}.`
 
-Try it:
+{--{"author":"Elias's AI","timestamp":1787225506544}@@Try it:
 
 #### FillBlank
 id:: e7308f54-3b2f-410d-a67c-df916b8c8a19
@@ -207,52 +207,44 @@ Optional fields:
 - `required:: true`: require every blank. Defaults to `false`.
 - `feedback-instructions:: ...`: ask AI to provide learner-facing feedback. Defaults to no AI feedback when omitted. On ungraded blanks, feedback is coaching only and does not assign correctness.
 
-Within one FillBlank segment, use either answer-bearing blanks or ungraded `{{blank}}` markers, not both.
+Within one FillBlank segment, use either answer-bearing blanks or --}{++{"author":"Elias's AI","timestamp":1787225506544}@@Use `{{number}}` for ++}ungraded{--{"author":"Elias's AI","timestamp":1787225506544}@@ `{{blank}}` markers, not both.
 
-\## {++{"author":"Elias's AI","timestamp":1787225228356}@@Number
+\## --}{++{"author":"Elias's AI","timestamp":1787225506544}@@ numeric input:
 
-Use `#### Number` when learner should type a quantity or estimate. Number always renders as numeric input, never slider.
-
-Smallest ungraded version:
-
-> `#### Number`
-> `id:: <uuid>`
-> `content:: How many years until transformative AI?`
+> `content:: How many years until transformative AI? {{number}}`
 
 Try it:
 
-#### Number
+#### FillBlank
 id:: 8a3ae4f5-4d86-42dc-b126-b293f88a7b61
-content:: How many years until transformative AI?
+content:: How many years until transformative AI? {{number}}
 
 #### Text
 content::
-Add inclusive `correct-range::` when response should be graded:
+Put inclusive correct range after `number` when numeric blank should be graded:
 
-> `#### Number`
-> `id:: <uuid>`
-> `content:: Approximately how many million kilometres separate Earth and Sun?`
-> `correct-range:: [147, 152]`
-> `unit:: million km`
+> `content:: Earth is approximately {{number [147.5, 152.5]}} million km from Sun.`
 
 Try it:
 
-#### Number
+#### FillBlank
 id:: 1211df1d-70e8-4b93-a3b6-1ce44460ed1f
-content:: Approximately how many million kilometres separate Earth and Sun?
-correct-range:: [147, 152]
-unit:: million km
+content:: Earth is approximately {{number [147.5, 152.5]}} million km from Sun.
 
 #### Text
 content::
+Numeric blanks accept integers, decimals, and negative values. They store numbers, not text. Range includes both endpoints. Use `[42, 42]` when only exact value is correct. Validator should reject reversed or malformed ranges.
+
+One FillBlank segment may mix text and numeric blanks, and graded and ungraded blanks:
+
+> `content:: I estimate {{number}} years because {{blank}}.`
+
 Optional fields:
 
-- `required:: true`: require response. Defaults to `false`.
-- `unit:: million km`: show unit beside input and store it with response definition. Defaults to no unit.
-- `correct-range:: [147.5, 152.5]`: mark any number from first through second endpoint correct, including both endpoints. Without it, response is ungraded. Use same number twice, such as `[42, 42]`, when only exact value is correct.
-- `feedback-instructions:: ...`: ask AI to provide learner-facing feedback. Defaults to no AI feedback when omitted.
+- `required:: true`: require every blank. Defaults to `false`.
+- `feedback-instructions:: ...`: ask AI to provide learner-facing feedback. Defaults to no AI feedback when omitted. Feedback does not change which blanks are graded.
 
-Number accepts integers, decimals, and negative values. It stores numeric value, not text. Validator should reject reversed or malformed correct ranges.
+Segment score is correctly answered graded blanks divided by total graded blanks. Ungraded blanks are excluded. If segment has no graded blanks, entire response is ungraded.
 
 \## ++}Grading rules
 
