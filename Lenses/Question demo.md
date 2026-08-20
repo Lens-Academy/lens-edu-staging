@@ -1,13 +1,13 @@
 ---
 id: 8189763f-576e-4f04-a614-4a00c628e386
 title: {--{"author":"Elias's AI","timestamp":1787221121301}@@Question types--}{++{"author":"Elias's AI","timestamp":1787221121301}@@Response segments++}
-tldr: Use open-text, rating, choice, and fill-in-the-blank questions with the same syntax in surveys, normal lenses, and learning-outcome tests.
-summary_for_tutor: Reference page for course creators. It documents the shared fields, exact syntax, type-specific options, defaults, and grading behavior for Question, Rating, Choice, and FillBlank segments.
+tldr: Use {--{"author":"Elias's AI","timestamp":1787221124438}@@open-text, rating, choice,--}{++{"author":"Elias's AI","timestamp":1787221124438}@@open responses, ratings, selects,++} and fill-in-the-blank {--{"author":"Elias's AI","timestamp":1787221124438}@@questions--}{++{"author":"Elias's AI","timestamp":1787221124438}@@responses++} with the same syntax in surveys, normal lenses, and learning-outcome tests.
+summary_for_tutor: Reference page for course creators. It documents {--{"author":"Elias's AI","timestamp":1787221126904}@@the --}shared fields, exact syntax, {--{"author":"Elias's AI","timestamp":1787221126904}@@type-specific --}options, defaults, and grading behavior for {--{"author":"Elias's AI","timestamp":1787221126904}@@Question,--}{++{"author":"Elias's AI","timestamp":1787221126904}@@OpenResponse,++} Rating, {--{"author":"Elias's AI","timestamp":1787221126904}@@Choice,--}{++{"author":"Elias's AI","timestamp":1787221126904}@@Select,++} and FillBlank {++{"author":"Elias's AI","timestamp":1787221126904}@@Response ++}segments.
 ---
 
 #### Text
 content::
-\## Questions work in three places
+\## {--{"author":"Elias's AI","timestamp":1787221130222}@@Questions--}{++{"author":"Elias's AI","timestamp":1787221130222}@@Response segments++} work in three places
 
 Use question segments in:
 
