@@ -156,21 +156,35 @@ Survey selects must use plain list items. Surveys never contain correct-answer m
 
 \## Multi-select
 
-Add `multi:: true` when learner may select more than one option.
+{--{"author":"Elias's AI","timestamp":1787223065654}@@Add `multi:: true` when learner may select more than one option.--}{++{"author":"Elias's AI","timestamp":1787223065654}@@Multi-select is same Response segment with one non-default field: `multi:: true`.
+
+Smallest version:++}
 
 > `#### Select`
-> `id:: 69162105-5047-480e-9c38-f5c408c535a7`
-> `content:: Which two items are empirical evidence?`
+> `id:: {--{"author":"Elias's AI","timestamp":1787223065654}@@69162105-5047-480e-9c38-f5c408c535a7`--}{++{"author":"Elias's AI","timestamp":1787223065654}@@<uuid>`++}
+> `content:: Which {--{"author":"Elias's AI","timestamp":1787223065654}@@two items are empirical evidence?`--}{++{"author":"Elias's AI","timestamp":1787223065654}@@topics interest you?`++}
 > `options::`
-> `- [x] A measured benchmark result`
-> `- A definition`
-> `- [x] A randomized trial result`
-> `- A thought experiment`
-> `multi:: true`
-> `shuffle:: true`
-> `explanation:: Measurements and trial results are empirical evidence.`
+> `-{--{"author":"Elias's AI","timestamp":1787223065654}@@ [x] A measured benchmark result`--}{++{"author":"Elias's AI","timestamp":1787223065654}@@ Forecasting`
+> `- Governance`++}
+> `- {--{"author":"Elias's AI","timestamp":1787223065654}@@A definition`--}{++{"author":"Elias's AI","timestamp":1787223065654}@@Technical safety`++}
+> {--{"author":"Elias's AI","timestamp":1787223065654}@@`- [x] A randomized trial result`--}{++{"author":"Elias's AI","timestamp":1787223065654}@@`multi:: true`
 
-A graded response is correct only when selected options exactly match every `[x]` option. In surveys, `multi:: true` works the same way but options stay ungraded and use no `[x]` markers.
+Try it:
+
+#### Select
+id:: cb39e8f1-4477-4b66-b016-37c99c5ff753++}
+{--{"author":"Elias's AI","timestamp":1787223065654}@@> `- A thought experiment`--}{++{"author":"Elias's AI","timestamp":1787223065654}@@content:: Which topics interest you?
+options::++}
+{--{"author":"Elias's AI","timestamp":1787223065654}@@> `multi:: true`--}{++{"author":"Elias's AI","timestamp":1787223065654}@@- Forecasting
+- Governance++}
+{--{"author":"Elias's AI","timestamp":1787223065654}@@> `shuffle:: true`--}{++{"author":"Elias's AI","timestamp":1787223065654}@@- Technical safety++}
+{--{"author":"Elias's AI","timestamp":1787223065654}@@> `explanation:: Measurements and trial results are empirical evidence.`
+
+A graded response is correct only when--}{++{"author":"Elias's AI","timestamp":1787223065654}@@multi:: true
+
+#### Text
+content::
+It has same optional fields and defaults as single select. For graded multi-select, learner's++} selected options {++{"author":"Elias's AI","timestamp":1787223065654}@@must ++}exactly match {--{"author":"Elias's AI","timestamp":1787223065654}@@every--}{++{"author":"Elias's AI","timestamp":1787223065654}@@all++} `[x]` {--{"author":"Elias's AI","timestamp":1787223065654}@@option.--}{++{"author":"Elias's AI","timestamp":1787223065654}@@options.++} In surveys,{--{"author":"Elias's AI","timestamp":1787223065654}@@ `multi:: true` works the same way but--} options stay ungraded and use no `[x]` markers.
 
 \## Fill in the blank
 
