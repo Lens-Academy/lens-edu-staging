@@ -127,16 +127,16 @@ A graded response is correct only when selected options exactly match every `[x]
 
 Use `#### FillBlank`. Put exactly one `{{blank}}` marker in prompt.
 
-<pre><code>#### FillBlank
-key&#58;&#58; training_method
-content&#58;&#58; Model weights are commonly updated using {{blank}}.
-accepted-answers&#58;&#58;
-- gradient descent
-- gradient-based optimization
-case-sensitive&#58;&#58; false
-trim&#58;&#58; true
-explanation&#58;&#58; Gradient descent uses loss gradients to update model weights.
-required&#58;&#58; true</code></pre>
+{--{"author":"Elias's AI","timestamp":1787221236670}@@<pre><code>#### FillBlank--}{++{"author":"Elias's AI","timestamp":1787221236670}@@> `#### FillBlank`++}
+{--{"author":"Elias's AI","timestamp":1787221236670}@@key&#58;&#58; training_method--}{++{"author":"Elias's AI","timestamp":1787221236670}@@> `key:: training_method`++}
+{--{"author":"Elias's AI","timestamp":1787221236670}@@content&#58;&#58; --}{++{"author":"Elias's AI","timestamp":1787221236670}@@> `content:: ++}Model weights are commonly updated using {--{"author":"Elias's AI","timestamp":1787221236670}@@{{blank}}.--}{++{"author":"Elias's AI","timestamp":1787221236670}@@{{blank}}.`++}
+{--{"author":"Elias's AI","timestamp":1787221236670}@@accepted-answers&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787221236670}@@> `accepted-answers::`++}
+{--{"author":"Elias's AI","timestamp":1787221236670}@@---}{++{"author":"Elias's AI","timestamp":1787221236670}@@> `-++} gradient {--{"author":"Elias's AI","timestamp":1787221236670}@@descent--}{++{"author":"Elias's AI","timestamp":1787221236670}@@descent`++}
+{--{"author":"Elias's AI","timestamp":1787221236670}@@---}{++{"author":"Elias's AI","timestamp":1787221236670}@@> `-++} gradient-based {--{"author":"Elias's AI","timestamp":1787221236670}@@optimization--}{++{"author":"Elias's AI","timestamp":1787221236670}@@optimization`++}
+{--{"author":"Elias's AI","timestamp":1787221236670}@@case-sensitive&#58;&#58; false--}{++{"author":"Elias's AI","timestamp":1787221236670}@@> `case-sensitive:: false`++}
+{--{"author":"Elias's AI","timestamp":1787221236670}@@trim&#58;&#58; true--}{++{"author":"Elias's AI","timestamp":1787221236670}@@> `trim:: true`++}
+{--{"author":"Elias's AI","timestamp":1787221236670}@@explanation&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787221236670}@@> `explanation::++} Gradient descent uses loss gradients to update model {--{"author":"Elias's AI","timestamp":1787221236670}@@weights.--}{++{"author":"Elias's AI","timestamp":1787221236670}@@weights.`++}
+{--{"author":"Elias's AI","timestamp":1787221236670}@@required&#58;&#58; true</code></pre>--}{++{"author":"Elias's AI","timestamp":1787221236670}@@> `required:: true`++}
 
 Options:
 
