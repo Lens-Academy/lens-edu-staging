@@ -117,27 +117,29 @@ options::
 - Forecasting
 - Governance
 
-#### Text
+{--{"author":"Elias's AI","timestamp":1787253833026}@@#### Text
 content::
-Mark correct option with `[x]` when response should be graded:
+--}{++{"author":"Elias's AI","timestamp":1787253833026}@@%% ++}Mark correct option with `[x]` {--{"author":"Elias's AI","timestamp":1787253833026}@@when response should be graded:
 
 > `options::`
 > `- Data collection`
-> `- [x] Gradient descent`
-> `- Deployment monitoring`
+> `- [x] Gradient descent`--}{++{"author":"Elias's AI","timestamp":1787253833026}@@to grade Select. Plain options stay ungraded. Survey selects never use `[x]`.
+
+Select options:++}
+{--{"author":"Elias's AI","timestamp":1787253833026}@@> `- Deployment monitoring`
 
 Optional fields:
 
-- `required:: true`: require response. Defaults to `false`.
+--}- {--{"author":"Elias's AI","timestamp":1787253833026}@@`required::--}{++{"author":"Elias's AI","timestamp":1787253833026}@@`optional::++} true`: {--{"author":"Elias's AI","timestamp":1787253833026}@@require response.--}{++{"author":"Elias's AI","timestamp":1787253833026}@@allow skipping.++} Defaults to `false`.
 - `multi:: true`: allow multiple selections. Defaults to `false`.
-- `shuffle:: true`: randomize option order. Defaults to `false`.
-- `feedback-instructions:: ...`: ask AI to respond to learner's selection. Defaults to no AI feedback when omitted.
+- `shuffle:: true`: randomize {--{"author":"Elias's AI","timestamp":1787253833026}@@option --}order. Defaults to `false`.
+- `feedback-instructions:: ...`: {--{"author":"Elias's AI","timestamp":1787253833026}@@ask --}AI{--{"author":"Elias's AI","timestamp":1787253833026}@@ to respond--}{++{"author":"Elias's AI","timestamp":1787253833026}@@ response++} to {--{"author":"Elias's AI","timestamp":1787253833026}@@learner's --}selection. Defaults to{--{"author":"Elias's AI","timestamp":1787253833026}@@ no AI feedback when omitted.
 
-Survey selects must use plain list items. Surveys never contain correct-answer markers.
+Survey selects must use plain list items. Surveys never contain correct-answer markers.--}{++{"author":"Elias's AI","timestamp":1787253833026}@@ none.++}
 
-\## Multi-select
+{--{"author":"Elias's AI","timestamp":1787253833026}@@\## --}Multi-select{--{"author":"Elias's AI","timestamp":1787253833026}@@
 
-Multi-select is same Response segment with one non-default field: `multi:: true`.
+Multi-select--} is same{--{"author":"Elias's AI","timestamp":1787253833026}@@ Response--} segment with{--{"author":"Elias's AI","timestamp":1787253833026}@@ one non-default field: --}{++{"author":"Elias's AI","timestamp":1787253833026}@@ ++}`multi:: true`.{--{"author":"Elias's AI","timestamp":1787253833026}@@
 
 Smallest version:
 
@@ -150,7 +152,7 @@ Smallest version:
 > `- Technical safety`
 > `multi:: true`
 
-Try it:
+Try it:--}{++{"author":"Elias's AI","timestamp":1787253833026}@@ %%++}
 
 #### Select
 id:: cb39e8f1-4477-4b66-b016-37c99c5ff753
