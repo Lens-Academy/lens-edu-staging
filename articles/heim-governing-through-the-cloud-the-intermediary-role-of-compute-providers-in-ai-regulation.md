@@ -427,7 +427,7 @@ Identity verification (also commonly known as “Know-Your-Customer (KYC)”) is
 
  | 
 
-<table id="S3.T3.2.1.1.4.1" class="ltx_tabular ltx_align_middle" style="width:120.8pt;--ltx-bg-color:#FFFFFF;"><tbody><tr id="S3.T3.2.1.1.4.1.1" class="ltx_tr"><td id="S3.T3.2.1.1.4.1.1.1" class="ltx_td ltx_nopad_r ltx_align_left ltx_align_top" style="padding-top:1.6pt;padding-bottom:1.6pt;"><span id="S3.T3.2.1.1.4.1.1.1.1" class="ltx_inline-block ltx_align_top" style="width:0.0pt;"><span id="S3.T3.2.1.1.4.1.1.1.1.1" class="ltx_p ltx_align_center"><span id="S3.T3.2.1.1.4.1.1.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;">Current state of collection, validation, and possible circumvention<sup class="footnote-ref"><a data-footnote-ref="23" href="#fn-23">23</a></sup></span></span></span></td></tr></tbody></table>
+{--{"author":"Elias's AI","timestamp":1787227346233}@@<table id="S3.T3.2.1.1.4.1" class="ltx_tabular ltx_align_middle" style="width:120.8pt;--ltx-bg-color:#FFFFFF;"><tbody><tr id="S3.T3.2.1.1.4.1.1" class="ltx_tr"><td id="S3.T3.2.1.1.4.1.1.1" class="ltx_td ltx_nopad_r ltx_align_left ltx_align_top" style="padding-top:1.6pt;padding-bottom:1.6pt;"><span id="S3.T3.2.1.1.4.1.1.1.1" class="ltx_inline-block ltx_align_top" style="width:0.0pt;"><span id="S3.T3.2.1.1.4.1.1.1.1.1" class="ltx_p ltx_align_center"><span id="S3.T3.2.1.1.4.1.1.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;">Current --}{++{"author":"Elias's AI","timestamp":1787227346233}@@- Current ++}state of collection, validation, and possible circumvention<sup class="footnote-ref"><a data-footnote-ref="23" {--{"author":"Elias's AI","timestamp":1787227346233}@@href="#fn-23">23</a></sup></span></span></span></td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1787227346233}@@href="#fn-23">23</a></sup>++}
 
  |
 | --- | --- | --- | --- |
@@ -914,7 +914,7 @@ Table 4: An overview of observable data attributes.
 |  |  |  |  |  |
 | --- | --- | --- | --- | --- |
 | 
-<table id="A2.T4.4.2.1.1" class="ltx_tabular ltx_align_middle" style="width:48.3pt;--ltx-bg-color:#F5F5F5;"><tbody><tr id="A2.T4.4.2.1.1.1" class="ltx_tr"><td id="A2.T4.4.2.1.1.1.1" class="ltx_td ltx_nopad_r ltx_align_left ltx_align_top" style="padding:4.65pt 4.5pt;"><span id="A2.T4.4.2.1.1.1.1.1" class="ltx_inline-block ltx_align_top" style="width:345.0pt;--ltx-bg-color:#FFFFFF;"><span id="A2.T4.4.2.1.1.1.1.1.1" class="ltx_p ltx_align_center"><span id="A2.T4.4.2.1.1.1.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;">Visible attribute</span></span></span></td></tr></tbody></table>
+{--{"author":"Elias's AI","timestamp":1787227350999}@@<table id="A2.T4.4.2.1.1" class="ltx_tabular ltx_align_middle" style="width:48.3pt;--ltx-bg-color:#F5F5F5;"><tbody><tr id="A2.T4.4.2.1.1.1" class="ltx_tr"><td id="A2.T4.4.2.1.1.1.1" class="ltx_td ltx_nopad_r ltx_align_left ltx_align_top" style="padding:4.65pt 4.5pt;"><span id="A2.T4.4.2.1.1.1.1.1" class="ltx_inline-block ltx_align_top" style="width:345.0pt;--ltx-bg-color:#FFFFFF;"><span id="A2.T4.4.2.1.1.1.1.1.1" class="ltx_p ltx_align_center"><span id="A2.T4.4.2.1.1.1.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;">Visible attribute</span></span></span></td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1787227350999}@@- Visible attribute++}
 
  | 
 
