@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787216936788}@@---
+{++{"author":"Elias's AI","timestamp":1787216943107}@@---
 id: '73ea9772-8715-40e9-954c-3e9afd23a3a0'
 slug: xcv-m0-foundations
 title: "Foundations: Why Verification?"
@@ -16,11 +16,11 @@ This is an **alpha adaptation of XLab's compute-verification course**. XLab is r
 
 You can use this version now, but treat its framing, sequence, and exercises as provisional rather than settled. The source curriculum is [XLab's Verification course](https://aisafetytracks.com/verification/landing).
 
-## Help improve it
+\## Help improve it
 
 Found something unclear, wrong, missing, or especially useful? Please share it through [XLab's feedback form](https://forms.gle/KkWcHkKh87pygDzw9). Early feedback will help XLab identify issues and improve the post-cohort rewrite.
 
-## What this course builds toward
+\## What this course builds toward
 
 By the end, you should be able to:
 

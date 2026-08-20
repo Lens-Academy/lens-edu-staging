@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787216860150}@@---
+{++{"author":"Elias's AI","timestamp":1787216945331}@@---
 id: '49b3a580-3feb-4f39-8db4-fda3c65fd5b3'
 slug: xcv-m1-policy-and-actors
 title: "Policy and Actors"
@@ -6,6 +6,8 @@ title: "Policy and Actors"
 
 # Lens: From a Policy Promise to a Verifiable Claim
 id:: 440a3862-a63d-4edd-b09c-452958a00588
+tldr:: Turn a policy promise into a checkable claim by naming actors, activity, threshold, declarations, evidence, and dispute triggers.
+summary_for_tutor:: Bridge into XLab's policy-and-actors module. Teach claim-first scoping, actor roles, thresholds, evidence, and resolution. The question asks learner to specify a proposed commitment and identify an evasion route.
 #### Text
 content::
 XLab's first applied module asks what kind of policy a verification system is meant to serve. Start with obligation, not favorite mechanism.
