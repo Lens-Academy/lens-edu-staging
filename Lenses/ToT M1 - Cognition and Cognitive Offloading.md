@@ -38,10 +38,10 @@ Here is the classic example: spellcheck and autocorrect slowly weaken spelling. 
 
 #### Question
 content::
-\## Phase 1: Recall{++{"author":"Course AI's AI","timestamp":1787256509999}@@ and Processing++}
-{--{"author":"Course AI's AI","timestamp":1787256509999}@@Spend--}{++{"author":"Course AI's AI","timestamp":1787256509999}@@First, spend++} 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly {--{"author":"Course AI's AI","timestamp":1787256509999}@@recommended here.--}{++{"author":"Course AI's AI","timestamp":1787256509999}@@recommended.
+\## Phase 1: Recall and Processing
+First, spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended.
 
-Then, take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? Just capture your reaction.++}
+Then, take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? Just capture your reaction.
 
 assessment-instructions:: The student has just read a short teaching piece on cognition, cognitive offloading, distributed cognition, and the trade-off of offloading (Unit 1 of "Thinking about {--{"author":"Course AI's AI","timestamp":1787256514765}@@Thinking"), and has written--}{++{"author":"Course AI's AI","timestamp":1787256514765}@@Thinking"). They first wrote++} a free recall of {--{"author":"Course AI's AI","timestamp":1787256514765}@@it.--}{++{"author":"Course AI's AI","timestamp":1787256514765}@@it, then reflected on how it landed.++} Your role{--{"author":"Course AI's AI","timestamp":1787256514765}@@ here--} is diagnostic, not instructional. Act as a brief, honest mirror.
 
