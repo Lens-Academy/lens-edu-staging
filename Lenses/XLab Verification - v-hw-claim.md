@@ -1,0 +1,52 @@
+{++{"author":"Elias's AI","timestamp":1787218153132}@@---
+id: '5cfb50dd-3ac7-4580-8861-8fb9253ea6f1'
+title: "2.1.1 Start with the claim, not the mechanism"
+tldr: "Faithful alpha import of XLab lesson 2.1.1 Start with the claim, not the mechanism."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Interactive elements marked as import gaps must be completed on XLab until Lens has an equivalent."
+tags: [wip]
+---
+#### Text
+content::
+\### 2.1.1 Start with the claim, not the mechanism
+
+Consider the policy objective used throughout this section.
+
+- **Policy goal**: prevent a strategically dangerous training run during an emergency pause.
+- **Legal rule**: no covered party may conduct an unlicensed training run above threshold T during the pause. Inference and approved safety evaluations remain permitted.
+- **Verification claim**: no covered accelerator or covered combination of accelerators performed unlicensed training whose counted operations exceeded T during the reporting period.
+
+The hardware does not test the policy goal directly. It may test narrower propositions that support the verification claim.
+
+For example:
+
+- A particular device possesses a valid credential;
+- Its low-level software matched an approved reference value at a specified time;
+- A protected counter recorded a specified quantity;
+- A classifier labeled a protected telemetry trace as training;
+- A valid license token authorized a bounded quantity of use;
+- A sampled segment of a declared training transcript reproduced an expected checkpoint.
+
+Each proposition can be true while the treaty is still violated. A registered device may run prohibited work after attestation. A counter may omit activity on unregistered hardware. A classifier may correctly label every trace it sees while an operator bypasses the telemetry path. A license may be valid but issued by the wrong authority.
+
+\#### Authenticity, correctness, and completeness
+
+Three questions recur throughout hardware verification.
+
+**Authenticity**: Did this evidence come from the claimed device, component, or authority, and is it fresh enough to use?
+
+**Correctness**: Does the declared or observed activity satisfy the rule?
+
+**Completeness**: Did the evidence cover all relevant devices, sites, time periods, and activities, including activity the operator did not declare?
+
+Hardware-rooted cryptography is often strongest on authenticity. Carefully designed measurement can improve correctness. Completeness usually requires evidence beyond the device itself.
+
+\#### Notebook: initial claim map
+
+Complete three sentences for the opening puzzle.
+
+- The artifact directly supports…
+- It could support… if…
+- It does not support…
+
+*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-claim)*
+++}

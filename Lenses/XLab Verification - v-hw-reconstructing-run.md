@@ -1,0 +1,52 @@
+{++{"author":"Elias's AI","timestamp":1787218154828}@@---
+id: 'fe43d166-6a95-4865-992f-f8448dfacb75'
+title: "2.1.7 [Optional] Extension: reconstructing a declared training run"
+tldr: "Faithful alpha import of XLab lesson 2.1.7 [Optional] Extension: reconstructing a declared training run."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Interactive elements marked as import gaps must be completed on XLab until Lens has an equivalent."
+tags: [wip]
+---
+#### Text
+content::
+\### 2.1.7 [Optional] Extension: reconstructing a declared training run
+
+This extension asks a different question: can a verifier test whether a declared training process plausibly produced the submitted checkpoints or model?
+
+Possible evidence includes:
+
+- Training records and code or data commitments;
+- Periodic checkpoints or weight snapshots;
+- Authenticated transcripts;
+- Sampled re-execution;
+- Probabilistic recomputation;
+- Dedicated verification clusters;
+- Proof-of-learning or proof-of-training-data protocols.
+
+Yonadav Shavit’s 2023 compute-monitoring proposal decomposed a possible system into on-chip weight snapshots, records intended to support later verification of training, and supply-chain monitoring intended to prevent accumulation of untracked chips. This decomposition remains useful because it separates verification of a declared run from completeness of the fleet.
+
+**Src**
+Y. Shavit, *What Does It Take to Catch a Chinchilla? Verifying Rules on Large-Scale Neural Network Training via Compute Monitoring* — [arXiv:2303.11341](https://arxiv.org/abs/2303.11341), 2023.
+
+Proof-of-learning research shows both the promise and fragility of checkpoint-based verification. Jia and colleagues proposed proofs based on logged intermediate states. Subsequent work demonstrated adversarial constructions and serious weaknesses in the original approach. Choi, Shavit, and Duvenaud later proposed a broader toolkit for verifying claims about training data, while explicitly treating its tests as heuristic and noting substantial confidentiality and access assumptions.
+
+**Src**
+H. Jia et al., *Proof-of-Learning: Definitions and Practice* — [arXiv:2103.05633](https://arxiv.org/abs/2103.05633), 2021. R. Zhang et al., *Adversarial Examples for Proof-of-Learning* — [arXiv:2108.09454](https://arxiv.org/abs/2108.09454), IEEE Symposium on Security and Privacy, 2022. C. Fang et al., *Proof-of-Learning Is Currently More Broken Than You Think* — [arXiv:2208.03567](https://arxiv.org/abs/2208.03567), revised 2023. J. Choi, Y. Shavit, and D. Duvenaud, *Tools for Verifying Neural Models’ Training Data* — [arXiv:2307.00682](https://arxiv.org/abs/2307.00682), 2023.
+
+Keep three claims separate:
+
+- **Declared-run correctness:** the submitted model or checkpoint plausibly arose from the declared process.
+- **Declared-run completeness:** the submitted transcript covered all relevant steps associated with that declared run.
+- **Fleet completeness:** no separate prohibited run occurred on other hardware.
+
+Training transcripts and recomputation mainly address the first claim, with varying assurance. They do not automatically establish the third.
+
+A June 2026 paper proposes a zero-knowledge architecture for frontier training claims, but it also identifies thirteen open problems and a critical requirement that has not yet been demonstrated at relevant scale: a zero-knowledge proof of backpropagation for a nontrivial model. Treat this as an ambitious research proposal, not evidence that zero-knowledge verification of frontier training is deployment-ready.
+
+**Src**
+*Zero Knowledge Verification for Frontier AI Training Is Possible* — [arXiv:2606.05433](https://arxiv.org/abs/2606.05433), June 2026. The paper presents an architecture and estimates, while documenting open problems and unproven critical components.
+
+\#### Activity: buy assurance with a verification budget
+
+You receive a declared transcript and a limited verification-compute budget. Allocate it among full rerunning, random segment sampling, checkpoint checks, code and data commitments, physical compute totals, telemetry-timing comparison, and random chip inspection. For each choice, record cost, confidentiality exposure, spoofing opportunity, expected assurance, and the claim that remains untested.
+
+*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-reconstructing-run)*
+++}

@@ -1,0 +1,77 @@
+{++{"author":"Elias's AI","timestamp":1787218151708}@@---
+id: 'b481c94e-9a3a-4118-b4e9-7bd13a1c488d'
+title: "2.1 Hardware"
+tldr: "Faithful alpha import of XLab lesson 2.1 Hardware."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Interactive elements marked as import gaps must be completed on XLab until Lens has an equivalent."
+tags: [wip]
+---
+#### Text
+content::
+\### 2.1 Hardware
+
+\#### Before you begin
+
+**Core time:** 165–180 minutes, split into two sessions.
+**[Optional] Technical extension:** 35–45 minutes.
+
+During a three-month AI pause, a laboratory sends the verification authority a valid cryptographic statement from each of the 20,000 accelerators in its declared cluster. The laboratory says the tokens prove that the cluster complied.
+
+Before reading further, classify each conclusion as **supported**, **possibly supported if the system was designed to measure it**, or **unsupported by attestation alone**.
+
+#### Text
+content:: **Import gap:** XLab ClaimLedger component has no clean Lens equivalent. Use the [original XLab lesson](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-attestation) for this element.
+
+#### Text
+content::
+Keep your answers. You will return to them at the end of the section.
+
+\#### The central question
+
+A signed statement can be authentic and still be too narrow, stale, incomplete, or based on a compromised measurement. Hardware becomes useful for verification only when the whole chain is specified: the rule, the measurement, the evidence, the trust assumptions, the decision authority, and the response.
+
+\#### What you will be able to do
+
+\## Learning objectives
+
+1. **Bound a hardware claim.** Distinguish what a mechanism identifies, attests, measures, classifies, restricts, or reconstructs, then state what remains outside the claim.
+2. **Trace the trust and authority chain.** Name who measures, signs, defines acceptable state, updates, revokes, appraises, decides, and enforces.
+3. **Invert the threat model.** Reassess the same mechanism when the operator is a cloud customer, a laboratory with physical control, or a state-backed owner.
+4. **Compare trust architectures.** Evaluate on-chip, off-chip, and hybrid designs for the same policy claim.
+5. **Recommend a bounded role.** State what hardware should carry in a layered regime, what it should not carry, which independent evidence must corroborate it, and what new evidence would change your recommendation.
+
+\#### A map of the section
+
+Hardware proposals serve several different functions. These functions are not a ladder from weak to strong. A mechanism may perform one function well and contribute little to another.
+
+| Function | Question for the verifier |
+| --- | --- |
+| **Identify and account for hardware** | Which device is this? Is it covered and registered? Where is it supposed to be? |
+| **Attest state and configuration** | What hardware, firmware, driver, or security state is present now? |
+| **Establish location and topology** | Where is the device, and how is it connected to other devices? |
+| **Measure and classify use** | How much compute occurred, and was the workload training, inference, evaluation, or something else? |
+| **Authorize or restrict use** | Was the activity permitted? Who can issue, suspend, revoke, appeal, or override authorization? |
+| **Reconstruct a declared run** | Did the declared training process plausibly produce the submitted checkpoints or model? |
+
+The rest of this section uses one repeated method:
+
+**State the claim. Trace the measurement and trust chain. Name the adversary. Price the mechanism. Bound the conclusion. Find the remaining hole.**
+
+\## Core source packet
+
+\#### Core source packet
+
+**Author note**
+
+The required reading should be embedded at the point of use rather than assigned as one block.
+
+1. **IETF, RFC 9334, Remote ATtestation procedureS Architecture.** Read the roles and trust-model excerpts.
+2. **NVIDIA Attestation Quick Start Guide.** Inspect the architecture diagram, selected token claims, reference measurements, revocation roles, and the current multi-GPU limitation.
+3. **O’Gara et al., Hardware-Enabled Mechanisms for Verifying Responsible AI Development.** Read the mechanism map and selected open questions on accounting, workload classification, location, configuration, and licensing.
+4. **Rahman and Tajdari, Detecting Hidden ML Training With Zero-Overhead Telemetry.** Read the abstract, one adversarial-results table, the required hardware assumptions, and the limitations.
+5. **Baker et al., Verifying International Agreements on AI: Six Layers of Verification.** Read the on-chip, off-chip digital, and off-chip analog comparison.
+
+**Src**
+H. Birkholz et al., [“Remote ATtestation procedureS (RATS) Architecture”](https://www.rfc-editor.org/rfc/rfc9334.html), IETF RFC 9334, January 2023. NVIDIA, “Architecture Overview,” [*Attestation Quick Start Guide*](https://docs.nvidia.com/attestation/quick-start-guide/latest/architecture.html), documentation current August 1, 2026 — first-party implementation documentation, not an independent adversarial evaluation. T. O’Gara et al., “Hardware-Enabled Mechanisms for Verifying Responsible AI Development,” [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025. M. S. Rahman and M. Tajdari, “Detecting Hidden ML Training With Zero-Overhead Telemetry,” [arXiv:2606.19262](https://arxiv.org/abs/2606.19262), June 2026 — a preprint, presented as a component demonstration. Baker et al., “Verifying International Agreements on AI: Six Layers of Verification,” [arXiv:2507.15916](https://arxiv.org/abs/2507.15916), 2026.
+
+*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-attestation)*
+++}
