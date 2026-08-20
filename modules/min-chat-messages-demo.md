@@ -23,7 +23,8 @@ The five lenses below demonstrate each case. Preview the module and try them. %%
 id:: 593ceb17-ebd3-4c31-b250-3229b758ffc6
 tldr:: What stops a learner from skipping past a discussion? This lens sets a two-message minimum, so "Mark section complete" stays locked until you have actually talked to the tutor.
 summary_for_tutor:: Demo lens with min_chat_messages:: 2. A Text segment explains the requirement and a Chat segment invites casual conversation; completion is blocked until the learner sends two messages from any chat entry point.
-min_chat_messages:: 2
+min_chat_messages:: 2{++{"author":"Elias's AI","timestamp":1787228447051}@@
+duration_minutes:: 5++}
 
 #### Text
 content::
@@ -36,7 +37,8 @@ Chat casually with the learner about whatever they bring up; keep replies short.
 # Lens: Question with the default requirement
 id:: eeb40ecf-e7e1-4536-8bda-a5cf286439d7
 tldr:: A plain question, no special settings, so what does it take to move on? By default you must answer once, and the tutor opens a short feedback chat on your reply.
-summary_for_tutor:: Demo lens with a single Question and no extra fields, showing the default behavior: one completed answer is required before completion and a feedback conversation opens automatically (feedback:: defaults to true).
+summary_for_tutor:: Demo lens with a single Question and no extra fields, showing the default behavior: one completed answer is required before completion and a feedback conversation opens automatically (feedback:: defaults to true).{++{"author":"Elias's AI","timestamp":1787228452150}@@
+duration_minutes:: 5++}
 
 #### Text
 content::
