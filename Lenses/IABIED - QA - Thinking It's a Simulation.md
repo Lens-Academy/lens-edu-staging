@@ -1,5 +1,7 @@
 ---
-id: 69e14a86-3fe7-48cf-8d32-f667a9937738
+id: 69e14a86-3fe7-48cf-8d32-f667a9937738{++{"author":"Elias's AI","timestamp":1787256347988}@@
+reading_minutes: 5
+tutor_minutes: 3++}
 summary_for_tutor: Examines the proposal of making AI uncertain about whether it is in a simulation to deter harmful behavior. Argues a superintelligence could easily detect reality through scale, physics consistency, and response signatures from billions of real interactions. Concludes that this deception strategy would be trivially penetrated and reflects the broader pattern of constructing hopeful scenarios rather than analyzing what AI would actually optimize for.
 title: "What if we make it think it's in a simulation?"
 tldr: "There are many ways for an AI to figure out that it's not in a simulation."
