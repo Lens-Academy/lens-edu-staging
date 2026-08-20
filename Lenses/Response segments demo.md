@@ -184,9 +184,12 @@ Separate alternative accepted answers with `|`:
 
 Put several blanks in one sentence:
 
-> `content:: France's capital is {{pari}}, while Germany's capital is {{Berlin}}.`
+> `content:: France's capital is {{Paris}}, while Germany's capital is {{Berlin}}.`
 
 Each `{{...}}` becomes separate input. Text matching is always case-sensitive and ignores whitespace at beginning and end of learner response. There are no `case-sensitive::` or `trim::` fields.
+
+
+
 
 Use `{{blank}}` for ungraded text input:
 
