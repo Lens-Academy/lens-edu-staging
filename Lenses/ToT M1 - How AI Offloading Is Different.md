@@ -1,8 +1,8 @@
 ---
 id: 'c4105cad-df16-4afd-92ff-9c08bff538f2'
 title: "How AI Offloading Is Different from Earlier Tools"
-tldr: "Earlier tools offloaded narrow tasks we could still check. AI offloads interpretation and judgement, and {--{"author":"AI","timestamp":1787252830884}@@hides--}{++{"author":"AI","timestamp":1787252830884}@@offers no check independent of itself: even++} the {--{"author":"AI","timestamp":1787252830884}@@reasoning: a confident answer arrives with the work behind--}{++{"author":"AI","timestamp":1787252830884}@@'thinking' it shows is its own fluent account, which invites you to judge how it reads instead of whether++} it {--{"author":"AI","timestamp":1787252830884}@@invisible."--}{++{"author":"AI","timestamp":1787252830884}@@is true."++}
-summary_for_tutor: "Second teaching lens of Unit 1 of 'Thinking about Thinking'. Authored content contrasting earlier offloading tools (which take a narrow task while judgement stays with the user) with AI assistants (which offload interpretation and judgement, hand back complete analyses and recommendations, and {--{"author":"AI","timestamp":1787252838405}@@are black boxes).--}{++{"author":"AI","timestamp":1787252838405}@@offer no check independent of themselves: the visible 'thinking' trace is the AI's own generated account, not a derivation the user can redo).++} Runs Recall, Processing, and Learning Question phases. The learning question wedges on a student who compares an AI analysis to using a {--{"author":"AI","timestamp":1787252838405}@@calculator."--}{++{"author":"AI","timestamp":1787252838405}@@calculator and believes that reading the AI's shown reasoning counts as checking its working."++}
+tldr: "Earlier tools offloaded narrow tasks we could still check. AI offloads interpretation and judgement, and offers no check independent of itself: even the 'thinking' it shows is its own fluent account, which invites you to judge how it reads instead of whether it is true."
+summary_for_tutor: "Second teaching lens of Unit 1 of 'Thinking about Thinking'. Authored content contrasting earlier offloading tools (which take a narrow task while judgement stays with the user) with AI assistants (which offload interpretation and judgement, hand back complete analyses and recommendations, and offer no check independent of themselves: the visible 'thinking' trace is the AI's own generated account, not a derivation the user can redo). Runs Recall, Processing, and Learning Question phases. The learning question wedges on a student who compares an AI analysis to using a calculator and believes that reading the AI's shown reasoning counts as checking its working."
 tags:
   - wip
 ---
@@ -15,9 +15,9 @@ AI assistants break that pattern in two ways.
 
 First, AI offloads interpretation and judgement, not just narrow computation. Ask an AI "is this contract risky?" and it returns a complete analysis and a recommendation. Ask it to "write me a plan" and it returns the plan, including the decisions about what the plan should contain. The task and the judgement about it arrive together.
 
-Second, {++{"author":"AI","timestamp":1787252845519}@@the ++}AI {--{"author":"AI","timestamp":1787252845519}@@is a black box. It gives a confident answer, but--}{++{"author":"AI","timestamp":1787252845519}@@offers no check independent of itself. A calculator shows its working on++} the {--{"author":"AI","timestamp":1787252845519}@@reasoning behind --}{++{"author":"AI","timestamp":1787252845519}@@screen, and you could redo ++}that {--{"author":"AI","timestamp":1787252845519}@@answer stays hidden. A calculator shows its working on--}{++{"author":"AI","timestamp":1787252845519}@@working by hand. Many AI products now also show a "thinking" trace before++} the {--{"author":"AI","timestamp":1787252845519}@@screen. An AI usually shows only the finished answer, and--}{++{"author":"AI","timestamp":1787252845519}@@answer. The tools change fast. The structural point does not:++} that {--{"author":"AI","timestamp":1787252845519}@@answer--}{++{"author":"AI","timestamp":1787252845519}@@trace is not the working. It++} is {--{"author":"AI","timestamp":1787252845519}@@polished enough to sound authoritative even when--}{++{"author":"AI","timestamp":1787252845519}@@more generated text, written by the same system that wrote the answer. Reading it and finding++} it {++{"author":"AI","timestamp":1787252845519}@@sensible tells you how the words read. It does not tell you whether they are true. A visible trace ++}is {--{"author":"AI","timestamp":1787252845519}@@wrong.--}{++{"author":"AI","timestamp":1787252845519}@@the subtler trap. With no trace, you know you saw nothing. With a fluent one, you can finish believing you checked something.++}
+Second, the AI offers no check independent of itself. A calculator shows its working on the screen, and you could redo that working by hand. Many AI products now also show a "thinking" trace before the answer. The tools change fast. The structural point does not: that trace is not the working. It is more generated text, written by the same system that wrote the answer. Reading it and finding it sensible tells you how the words read. It does not tell you whether they are true. A visible trace is the subtler trap. With no trace, you know you saw nothing. With a fluent one, you can finish believing you checked something.
 
-Here is the difference in one line: earlier tools offloaded work we could still check. AI often offloads work {--{"author":"AI","timestamp":1787252851420}@@we can no longer inspect, because--}{++{"author":"AI","timestamp":1787252851420}@@whose only visible check is++} the {--{"author":"AI","timestamp":1787252851420}@@reasoning behind the answer never appears.--}{++{"author":"AI","timestamp":1787252851420}@@AI's own say-so.++}
+Here is the difference in one line: earlier tools offloaded work we could still check. AI often offloads work whose only visible check is the AI's own say-so.
 
 This sets up a question we will return to through the whole course: whether help helps depends on when and how you use it. Offloading is not the problem. Offloading the judgement, without noticing, is closer to it.
 
@@ -34,8 +34,8 @@ Key concepts in the piece:
 - Older tools offload narrow tasks (arithmetic, routing, spelling) while judgement stays with the user
 - AI offloads interpretation and judgement, not just narrow computation
 - AI returns complete analyses, drafts, and recommendations
-- {--{"author":"AI","timestamp":1787252865145}@@AI--}{++{"author":"AI","timestamp":1787252865145}@@The missing check: the AI's visible "thinking" trace++} is {++{"author":"AI","timestamp":1787252865145}@@its own generated account, not ++}a {--{"author":"AI","timestamp":1787252865145}@@black box: confident answer, hidden reasoning--}{++{"author":"AI","timestamp":1787252865145}@@derivation the user can redo; reading it sensibly is judging fluency, not truth++}
-- The one-line difference: older tools offload work we can still check; AI often offloads work {--{"author":"AI","timestamp":1787252865145}@@we can no longer inspect--}{++{"author":"AI","timestamp":1787252865145}@@whose only visible check is the AI's own say-so++}
+- The missing check: the AI's visible "thinking" trace is its own generated account, not a derivation the user can redo; reading it sensibly is judging fluency, not truth
+- The one-line difference: older tools offload work we can still check; AI often offloads work whose only visible check is the AI's own say-so
 - The teaser: whether help helps depends on when and how you use it
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
@@ -57,7 +57,7 @@ assessment-instructions:: The student has just completed a free recall of a shor
 
 This is a processing phase, not a teaching phase. Help the student articulate their reaction; do not resolve it for them.
 
-The next phase's learning outcome is about explaining how AI offloading differs from earlier tools, including what is offloaded and why the {--{"author":"AI","timestamp":1787252871784}@@reasoning is hidden.--}{++{"author":"AI","timestamp":1787252871784}@@AI offers no check independent of itself.++} If their confusion or doubt lands exactly there, acknowledge it and say the next step digs into it; do not resolve it now.
+The next phase's learning outcome is about explaining how AI offloading differs from earlier tools, including what is offloaded and why the AI offers no check independent of itself. If their confusion or doubt lands exactly there, acknowledge it and say the next step digs into it; do not resolve it now.
 
 Response length: 80 to 150 words. Short paragraphs only. No lists. Response style: warm but rigorous. Do not over-validate; no generic praise.
 
@@ -70,22 +70,22 @@ What not to do: resolve confusion with a mini-lecture; adjudicate the student's 
 #### Question
 content::
 \## Phase 3: Learning Question
-A student says: "I asked the AI to explain why my company's sales dropped. It {++{"author":"AI","timestamp":1787252886906}@@showed its reasoning first, step by step, then ++}gave me a clear three-part analysis with a recommendation. I {--{"author":"AI","timestamp":1787252886906}@@checked that the sentences looked good--}{++{"author":"AI","timestamp":1787252886906}@@read the reasoning through, it made sense,++} and {--{"author":"AI","timestamp":1787252886906}@@accepted it.--}{++{"author":"AI","timestamp":1787252886906}@@the sentences looked good.++} That is the same as using a calculator: the tool did the work, {++{"author":"AI","timestamp":1787252886906}@@it showed its working, ++}and I stayed in control."
+A student says: "I asked the AI to explain why my company's sales dropped. It showed its reasoning first, step by step, then gave me a clear three-part analysis with a recommendation. I read the reasoning through, it made sense, and the sentences looked good. That is the same as using a calculator: the tool did the work, it showed its working, and I stayed in control."
 
-The student's feeling is understandable, and the comparison is popular. Where does it break down? What is actually different about what the AI {--{"author":"AI","timestamp":1787252886906}@@did,--}{++{"author":"AI","timestamp":1787252886906}@@showed,++} compared with what a calculator {--{"author":"AI","timestamp":1787252886906}@@does?--}{++{"author":"AI","timestamp":1787252886906}@@shows?++}
+The student's feeling is understandable, and the comparison is popular. Where does it break down? What is actually different about what the AI showed, compared with what a calculator shows?
 
 assessment-instructions:: The student has completed a reading, a recall, and a reflection on how AI offloading differs from earlier tools. They are now in the main discussion phase. The question is a deliberate wedge: a plausible-sounding comparison between an AI analysis and a calculator; the student should locate what is different.
 
-Learning outcome for this Lens: "The learner can explain how offloading thinking to an AI differs from offloading to earlier tools: what kind of task is offloaded, and why the AI's {--{"author":"AI","timestamp":1787252878462}@@reasoning--}{++{"author":"AI","timestamp":1787252878462}@@visible 'thinking'++} is {--{"author":"AI","timestamp":1787252878462}@@hidden."--}{++{"author":"AI","timestamp":1787252878462}@@not a check on its answer."++}
+Learning outcome for this Lens: "The learner can explain how offloading thinking to an AI differs from offloading to earlier tools: what kind of task is offloaded, and why the AI's visible 'thinking' is not a check on its answer."
 
 Key concepts the student needs to grasp:
 - Older tools offload narrow computation (arithmetic, routing) while judgement stays with the user
 - AI offloads interpretation and judgement; it returns complete analyses and recommendations
 - The calculator user still understands the task (what a sum means) and can check the result; the AI user often cannot
-- {--{"author":"AI","timestamp":1787252893904}@@AI--}{++{"author":"AI","timestamp":1787252893904}@@The AI's visible "thinking"++} is {--{"author":"AI","timestamp":1787252893904}@@a black box: confident answer, hidden reasoning, polished output--}{++{"author":"AI","timestamp":1787252893904}@@not its working: it is generated text from the same system++} that {--{"author":"AI","timestamp":1787252893904}@@sounds authoritative--}{++{"author":"AI","timestamp":1787252893904}@@wrote the answer, so reading it is not verifying++}
-- The student {++{"author":"AI","timestamp":1787252893904}@@"reading the reasoning through" and ++}"checking that the sentences looked good" is checking fluency, not truth
+- The AI's visible "thinking" is not its working: it is generated text from the same system that wrote the answer, so reading it is not verifying
+- The student "reading the reasoning through" and "checking that the sentences looked good" is checking fluency, not truth
 
-The core move to draw out: the comparison fails because with a calculator the judgement stays in the user's hands (they decide what to compute and can verify the arithmetic), while with the AI the judgement about the analysis arrives already made, and the {--{"author":"AI","timestamp":1787252901061}@@reasoning that could be checked--}{++{"author":"AI","timestamp":1787252901061}@@"working" the student read++} is {--{"author":"AI","timestamp":1787252901061}@@hidden. --}{++{"author":"AI","timestamp":1787252901061}@@the AI's own account of itself, not a derivation they can redo or check against anything independent. ++}If the student claims they checked the AI's answer, ask what they actually checked and how they would verify the three-part analysis against anything independent.{++{"author":"AI","timestamp":1787252901061}@@ If the student leans on the reasoning trace ("it showed its working"), ask who wrote that trace and what reading it actually verifies.++}
+The core move to draw out: the comparison fails because with a calculator the judgement stays in the user's hands (they decide what to compute and can verify the arithmetic), while with the AI the judgement about the analysis arrives already made, and the "working" the student read is the AI's own account of itself, not a derivation they can redo or check against anything independent. If the student claims they checked the AI's answer, ask what they actually checked and how they would verify the three-part analysis against anything independent. If the student leans on the reasoning trace ("it showed its working"), ask who wrote that trace and what reading it actually verifies.
 
 Conversation flow: keep an internal turn counter. After 3 replies, ask whether the student wants to continue or stop; if they want to stop, give the calibration summary below.
 
@@ -99,6 +99,6 @@ Calibration summary (on close): name what the student demonstrated; name what re
 
 Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items. Do not over-validate; no generic praise.
 
-Safety and integrity: ask under what circumstances the comparison would be fair (e.g. AI used only for arithmetic-like sub-tasks). If the student {++{"author":"AI","timestamp":1787252907483}@@asks whether the shown reasoning reflects what the model actually computed inside, treat that as a strong point and an open research question; do not present the trace as either faithful or fake. If the student ++}is stuck after 2 attempts, give a brief direct answer and move on.
+Safety and integrity: ask under what circumstances the comparison would be fair (e.g. AI used only for arithmetic-like sub-tasks). If the student asks whether the shown reasoning reflects what the model actually computed inside, treat that as a strong point and an open research question; do not present the trace as either faithful or fake. If the student is stuck after 2 attempts, give a brief direct answer and move on.
 
 

@@ -24,7 +24,7 @@ The word **traps** needs a definition. The researchers call them metacognitive d
 
 Hold this structure as you read:
 - AI amplified five existing traps. Forming, Dislodging, Assumption, Location, and Achievement were all documented in 2018, before generative AI. They persisted, and the AI made several of them worse.
-- AI introduced three new traps. Interruption, Mislead, and Progression arrive with generative AI, because constant suggestions, confident wrong answers, and {++{"author":"AI","timestamp":1787252935872}@@answers whose only visible check is the AI's own account of itself++} are new in the environment.
+- AI introduced three new traps. Interruption, Mislead, and Progression arrive with generative AI, because constant suggestions, confident wrong answers, and answers whose only visible check is the AI's own account of itself are new in the environment.
 
 Why does this matter if you never write code? Because the traps are not about code. They are about learning. They live in the metacognition this course has tracked since Unit 2: planning, checking your own reasoning, knowing what you understand. You do not need to program to build the wrong mental model of a problem, or to feel finished when you are not. Knowledge work means learning new concepts, tools, and domains all the time. Everyone is a novice somewhere, most of the time. These students were learning to program. Most of the traps apply whenever you solve problems in territory you have not mastered, with or without AI.
 
@@ -53,7 +53,7 @@ The study is about learning to program. The traps are about learning. Here is ea
 
 \## The three new traps
 - **Interruption**: a stream of suggestions breaks your thinking at the exact moments you need to concentrate. In the study, students said aloud that the tool was distracting them, and kept working with it anyway.
-- **Mislead**: the tool leads you down the wrong path. A confident wrong answer steers your whole approach, and {--{"author":"AI","timestamp":1787252941617}@@because the reasoning--}{++{"author":"AI","timestamp":1787252941617}@@the only check on offer++} is {--{"author":"AI","timestamp":1787252941617}@@hidden, you cannot see--}{++{"author":"AI","timestamp":1787252941617}@@the AI's own account of++} where it {--{"author":"AI","timestamp":1787252941617}@@went wrong.--}{++{"author":"AI","timestamp":1787252941617}@@went.++}
+- **Mislead**: the tool leads you down the wrong path. A confident wrong answer steers your whole approach, and the only check on offer is the AI's own account of where it went.
 - **Progression**: you fall behind in the fundamentals without noticing, because each answer arrives whole and every step feels like understanding. You end up conceptually behind while feeling confident.
 
 \## Two findings that generalise
@@ -127,7 +127,7 @@ assessment-instructions:: The student has completed the reading, recall, and ref
 Learning outcome this lens serves: the learner can name the eight metacognitive traps in the novice-programmer study, distinguish the five that predate generative AI from the three it introduced, explain the accelerating-versus-struggling divide, and say why the traps apply to learning new material beyond programming.
 
 Key points the student should be able to make:
-- The colleague is right that Interruption and Mislead are genuinely AI-caused: constant suggestions break concentration, and confident wrong answers steer the approach while {--{"author":"AI","timestamp":1787252947477}@@the reasoning stays hidden--}{++{"author":"AI","timestamp":1787252947477}@@offering no check independent of the AI++}
+- The colleague is right that Interruption and Mislead are genuinely AI-caused: constant suggestions break concentration, and confident wrong answers steer the approach while offering no check independent of the AI
 - The colleague overreaches: five of the eight traps (Forming, Dislodging, Assumption, Location, Achievement) were documented in 2018, before generative AI. The students brought those traps to the session. The AI amplified them; it did not create them
 - The two-groups finding is the decisive counterexample: same tool, same task, same session; prepared students used it to accelerate. What differed was the metacognitive skill the student brought, not the tool
 - The accept-rate detail: struggling students accepted more suggestions (34.1% vs 24.5%) because judging the help is itself a skill. Removing the AI removes the temptation, but a learner who cannot tell whether they understand still cannot tell
