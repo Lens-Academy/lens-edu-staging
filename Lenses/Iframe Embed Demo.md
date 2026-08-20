@@ -6,7 +6,7 @@ title: Iframe Embed Demo - AI Chronicles
 tags:
 ---
 
-%% This standalone lens is only for testing the `#### Embed` segment on the embed branch. It is not included in the main demo course while embed support is unmerged. %%
+%% {--{"author":"Elias's AI","timestamp":1787256923722}@@This standalone lens is only for testing--}{++{"author":"Elias's AI","timestamp":1787256923722}@@Standalone demo of++} the {++{"author":"Elias's AI","timestamp":1787256923722}@@deployed ++}`#### Embed`{--{"author":"Elias's AI","timestamp":1787256923722}@@ segment on the embed branch. It is not included in the main demo course while embed support is unmerged.--}{++{"author":"Elias's AI","timestamp":1787256923722}@@ segment.++} %%
 #### Embed
 source:: [[../articles/torchbearer-the-ai-chronicle]]
 

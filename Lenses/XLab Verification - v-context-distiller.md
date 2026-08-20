@@ -21,13 +21,15 @@ In this exercise, you’ll pick a real report and work through it in five steps:
 
 \## Worked Example
 
-> **Note**
+{--{"author":"Elias's AI","timestamp":1787256927826}@@> **Note**
 
-The Future of Life Institute’s AI Safety Index, a scorecard that grades AI companies on safety.
+--}{++{"author":"Elias's AI","timestamp":1787256927826}@@:::callout {title="Worked example" tone="blue"}
+++}The Future of Life Institute’s AI Safety Index, a scorecard that grades AI companies on safety.
 
 - **Written by:** the Future of Life Institute, an advocacy nonprofit.
 - **Upstream:** the labs’ own public documents (system cards, safety policies) and a panel of expert reviewers. FLI has no inside access; everything it grades comes from what companies chose to publish.
-- **Downstream:** journalists (who need the headline grades), the graded labs (who need to know where they lost points), and the public (who need a simple comparison). Notice the grades compress detail by design; that’s what its audiences need.
+- **Downstream:** journalists (who need the headline grades), the graded labs (who need to know where they lost points), and the public (who need a simple comparison). Notice the grades compress detail by design; that’s what its audiences need.{++{"author":"Elias's AI","timestamp":1787256927826}@@
+:::++}
 
 \## Choose and Distill a Report
 
