@@ -1,5 +1,7 @@
 ---
-id: 72bca5c6-5bcc-4bb7-bbf0-18b3e149bae2
+id: 72bca5c6-5bcc-4bb7-bbf0-18b3e149bae2{++{"author":"Elias's AI","timestamp":1787256229319}@@
+reading_minutes: 8
+tutor_minutes: 3++}
 summary_for_tutor: "Addresses the dismissal that AI risk is science fiction. Notes that flight, nuclear weapons, and moon travel all appeared in fiction before becoming real, so fictional precedent is neither predictive nor anti-predictive. Argues that superintelligent AI would inevitably produce outcomes that seem weird by current standards, drawing parallels to the Industrial Revolution's transformation of previously flat historical metrics."
 title: "Isn't this AI stuff just science fiction?"
 tldr: "We can't learn much from a topic's prevalence in fiction."

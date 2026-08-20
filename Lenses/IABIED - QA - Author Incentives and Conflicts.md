@@ -1,5 +1,7 @@
 ---
-id: 696304fd-14e9-4d69-9851-38b8597f4d95
+id: 696304fd-14e9-4d69-9851-38b8597f4d95{++{"author":"Elias's AI","timestamp":1787256227303}@@
+reading_minutes: 5
+tutor_minutes: 3++}
 summary_for_tutor: "Covers the authors' (Soares and Yudkowsky) disclosed conflicts of interest. All royalties go to MIRI, both authors would prefer to be wrong, and MIRI originally aimed to build superintelligence before pivoting to safety. Argues that evaluating arguments on their merits matters more than speaker incentives."
 title: "What are your incentives and conflicts of interest, as authors?"
 tldr: "We don't expect to make any money from the book in the average case. Separately, we would love to be wrong about the book's thesis."
