@@ -104,12 +104,14 @@ Smallest version:
 
 Try it:
 
+```
 #### Select
 id:: a59ce650-c5cf-4b2b-bc13-e0686f5d2bfb
 content:: Which topic should we cover next?
 options::
 - Forecasting
 - Governance
+```
 
 #### Text
 content::
