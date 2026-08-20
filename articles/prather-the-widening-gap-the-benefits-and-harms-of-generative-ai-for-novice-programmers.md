@@ -293,7 +293,7 @@ P17 began by carefully reading the problem description. They then made a variabl
 
 They tabbed back to the problem description, added new variables and then attempted to continue writing the solution. After creating another conditional, they stalled and tabbed back to ChatGPT. They repeated this process of trying to write on their own, stalling, and going back to ChatGPT several times. The condition, once finished, checked if the number was greater than zero with an else-if checking if it was less than zero. They then placed a while loop below this conditional block. Throughout this time, their gaze moved between code provided by ChatGPT and their own code, but they seemed to be placing the discrete elements from the former into incorrect places in the latter. For instance, when writing the code inside of a while loop, their eyes went to the portion of ChatGPT’s code for deciding output. Running this code produced an infinite loop. P17 did not understand how to take the code from ChatGPT and use it to fix their own and did not seem to understand how to put these components together, showing a Progression difficulty.
 
-![[/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img6-a62f8a34.png]]
+{--{"author":"AI","timestamp":1787234723209}@@![[/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img6-a62f8a34.png]]--}{++{"author":"AI","timestamp":1787234723209}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img6-a62f8a34.png)++}
 
 Figure 6. P17 attempting to pattern their code after ChatGPT.
 
