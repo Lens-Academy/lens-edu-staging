@@ -14,8 +14,8 @@ readings:
 # Lens: Welcome
 id:: a3154792-e84d-40d0-b6ed-90f65f89e3f6
 tldr:: The final week: why the AI industry's incentives push toward catastrophe, what a worldwide halt on frontier development would actually require, and why the authors still find room for hope. Three chapters plus the closing words, from leaded gasoline to WWII mobilization to "humanity has chosen not to die before."
-summary_for_tutor:: Welcome and framing lens for Module 6, the final reading week, covering IABIED Chapters 12 ("I Don't Want to Be Alarmist"), 13 ("Shut It Down"), and 14 ("Where There's Life, There's Hope") plus the Closing Words. Previews the perverse-incentive argument (Thomas Midgley, the ladder-in-the-dark, experts downplaying risk), the concrete policy proposal for a worldwide halt on frontier AI (GPU consolidation, international monitoring, treaty mechanisms, the WWII-mobilization analogy), and the closing case for qualified hope via the nuclear-war precedent. Precedes the chapter lenses and a tutor chat covering these concepts. Also frames the module's action-plan arc: a conversation debrief follows right after this welcome, and the final step, choosing one ongoing action, sits at the end of the module.{++{"author":"Elias's AI","timestamp":1787256897815}@@
-reading_minutes:: 3++}
+summary_for_tutor:: Welcome and framing lens for Module 6, the final reading week, covering IABIED Chapters 12 ("I Don't Want to Be Alarmist"), 13 ("Shut It Down"), and 14 ("Where There's Life, There's Hope") plus the Closing Words. Previews the perverse-incentive argument (Thomas Midgley, the ladder-in-the-dark, experts downplaying risk), the concrete policy proposal for a worldwide halt on frontier AI (GPU consolidation, international monitoring, treaty mechanisms, the WWII-mobilization analogy), and the closing case for qualified hope via the nuclear-war precedent. Precedes the chapter lenses and a tutor chat covering these concepts. Also frames the module's action-plan arc: a conversation debrief follows right after this welcome, and the final step, choosing one ongoing action, sits at the end of the module.
+reading_minutes:: 3
 
 #### Text
 content:: In our final reading module, we confront the incentive structures that drive the AI industry, the authors' case for a worldwide halt on frontier AI development, and, crucially, the reasons for hope. This is the largest reading assignment, covering three chapters plus the closing words.
@@ -90,8 +90,8 @@ source:: [[../Lenses/IABIED - Ladder in the Dark]]
 id:: 79671536-5615-4807-8f08-ff039c8a525e
 tldr:: Deeper on Chapter 12? The book's supplementary Q&As take on "what about the benefits?", "isn't this anti-technology?", and why experts keep saying "I don't want to be alarmist".
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 12 ("I Don't Want to Be Alarmist"). Links the book website's supplementary Q&A cards covering the benefits of AI, distraction from other issues, anti-technology charges, rushing ahead as the good guys, cooperating to build safely, provably safe AI, daily life and panic, fear-mongering accusations, expert disagreement, the Lemoine effect, telling AI companies no, and making sense of the death race. A navigation and index lens only; it carries no standalone teaching content of its own.
-{++{"author":"Elias's AI","timestamp":1787256899847}@@reading_minutes:: 2
-++}optional:: true
+reading_minutes:: 2
+optional:: true
 
 #### Text:
 content::
@@ -218,8 +218,8 @@ source:: [[../Lenses/IABIED - Coalition Strategy]]
 id:: e983cb9d-bdec-46c7-9ad2-fe9e52bbc29e
 tldr:: Deeper on Chapter 13? The book's supplementary Q&As field the hardest objections to "shut it down": "can technology really be stopped?", "isn't this too much power for governments?", "what if nations reject the ban?".
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 13 (Shut It Down). Links the book website's supplementary Q&A cards covering the draft treaty, wait-and-see, warning shots, monitoring without spyware, chip-ownership control, research bans, whether technology can be stopped, government power, nations rejecting the ban, a permanent monitoring regime, making humans smarter, "aligned to whom", talking about extinction, elected officials, hopelessness, shutting down global AI development, international cooperation, and keeping the coalition large. A navigation and index lens only; it carries no standalone teaching content of its own.
-{++{"author":"Elias's AI","timestamp":1787256901810}@@reading_minutes:: 2
-++}optional:: true
+reading_minutes:: 2
+optional:: true
 
 #### Text:
 content::

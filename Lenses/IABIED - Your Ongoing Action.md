@@ -1,7 +1,7 @@
 ---
-id: 'e9238c7e-a9d6-40d7-99bb-fb2e8d58fa53'{++{"author":"Elias's AI","timestamp":1787256671786}@@
+id: 'e9238c7e-a9d6-40d7-99bb-fb2e8d58fa53'
 reading_minutes: 3
-tutor_minutes: 5++}
+tutor_minutes: 5
 title: Your Ongoing Action
 tldr: "The course ends; your action plan doesn't. The last step: turn everything since Module 4 into one action you keep doing, starting with a dated first step."
 summary_for_tutor: "Final action-plan step, in the closing module (What Happens Next), right after the student has put the book's whole argument into their own words. Earlier steps: strengths mapped in Module 4, one real conversation committed in Module 5 and debriefed at the start of Module 6, Chapters 12-14 and the Closing Words read in Module 6. Here the student chooses one ongoing action drawn from Chapter 14's role-specific calls, names a dated first step inside two weeks, and connects it to a strength from Module 4. The tutor quality-checks their choice (ongoing not one-off, first step small and dated, matched to their strength) and then closes the course arc warmly and briefly. Frame the step as the student choosing what they want to keep doing."

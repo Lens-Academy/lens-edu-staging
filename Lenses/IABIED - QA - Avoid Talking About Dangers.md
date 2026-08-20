@@ -1,7 +1,7 @@
 ---
-id: 25947894-248a-4b34-a85c-dcef68c76937{++{"author":"Elias's AI","timestamp":1787256372571}@@
+id: 25947894-248a-4b34-a85c-dcef68c76937
 reading_minutes: 3
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: "Addresses whether public discussion of AI risks might teach AIs dangerous strategies. Argues this concern is backwards: any AI that becomes dangerous from reading internet discussion is already too dangerous to build, and sufficiently capable AIs would independently discover such strategies. Notes that suppressing safety discourse would cripple humanity's ability to coordinate on AI risk."
 title: "Should we avoid talking about AI dangers, so AIs don't get any bad ideas?"
 tldr: "If your AI plan requires that no one on the internet critique the plan, it's a bad plan."

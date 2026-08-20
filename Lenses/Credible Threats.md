@@ -1,8 +1,8 @@
 ---
 id: d53b7baa-a45d-483b-bc16-3fa5bee59ab2
-{++{"author":"Elias's AI","timestamp":1787256180353}@@reading_minutes: 8
+reading_minutes: 8
 tutor_minutes: 8
-++}summary_for_tutor: "Covers credible commitment as a strategic tool in negotiations, drawing on Schelling's work and the historical example of Cortes burning his ships. Explains how the ability to commit to threats confers bargaining power. Extends the analysis to AI systems that could instantly rewrite their own code to make threats credible, creating an asymmetric negotiation advantage."
+summary_for_tutor: "Covers credible commitment as a strategic tool in negotiations, drawing on Schelling's work and the historical example of Cortes burning his ships. Explains how the ability to commit to threats confers bargaining power. Extends the analysis to AI systems that could instantly rewrite their own code to make threats credible, creating an asymmetric negotiation advantage."
 title: Commitment and endogenous threats
 tldr: Sometimes the most powerful move isn't to fight — it's to make the other side believe you will. Cortés burned his own ships so his army had no choice but to advance. This reading explores how threats work as tools of negotiation, and what changes when an AI can commit to any threat instantly by rewriting its own code.
 ---

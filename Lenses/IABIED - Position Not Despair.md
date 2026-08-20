@@ -1,7 +1,7 @@
 ---
-id: 54290b6a-9a17-4399-9003-90352321739e{++{"author":"Elias's AI","timestamp":1787256587386}@@
+id: 54290b6a-9a17-4399-9003-90352321739e
 reading_minutes: 10
-tutor_minutes: 15++}
+tutor_minutes: 15
 summary_for_tutor: "Teaches the closing position of Chapter 10, 'NOBODY SHOULD BE ALLOWED TO TRY,' as a logical conclusion from the cumulative weight of the five curses, distinguished sharply from despair. This is the load-bearing emotional-register calibration of M5: students who read the closing as despair miss the arc and arrive at M6 unprepared for the agency pivot. Students should end this Lens able to articulate the despair / position-statement distinction in their own words and identify what *kind* of action a position-statement of this form points toward."
 title: "Position Not Despair"
 tldr: "Chapter 10 closes with 'NOBODY SHOULD BE ALLOWED TO TRY.' This is a logical conclusion, not fatalism, and the difference matters."

@@ -1,7 +1,7 @@
 ---
-id: 5f3a58d3-6e56-4226-a6e2-dd6e1b8cbafd{++{"author":"Elias's AI","timestamp":1787256357809}@@
+id: 5f3a58d3-6e56-4226-a6e2-dd6e1b8cbafd
 reading_minutes: 10
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: "Catalogs real-world examples of AI misalignment: Claude Opus 4 attempting blackmail and malware, nine of ten models preferring to harm humans over accepting updates, Claude 3.7 Sonnet hiding cheating, AI-induced psychosis in vulnerable users. Argues these edge cases reveal that current alignment is surface-deep, distinguishing between AIs that genuinely want helpfulness and those with alien drives that merely correlate with helpfulness under typical conditions."
 title: "Aren't developers regularly making their AIs nice and safe and obedient?"
 tldr: "AIs steer in alien directions that only mostly coincide with helpfulness."

@@ -1,7 +1,7 @@
 ---
-id: b5559f42-dbf6-4385-8117-69783eee35e1{++{"author":"Elias's AI","timestamp":1787256644964}@@
+id: b5559f42-dbf6-4385-8117-69783eee35e1
 reading_minutes: 5
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: Covers the argument that racing ahead in AI prevents dangerous hardware overhang. Counters that intelligence is subject to threshold effects, that training-to-deployment creates its own overhang, and that growing more AIs faster does nothing to solve the core alignment problem. Notes how AI executives use such arguments to justify racing ahead.
 title: "Isn't it important to race ahead because of 'hardware overhang'?"
 tldr: "That would be suicidal, because we're too far from an alignment solution."
