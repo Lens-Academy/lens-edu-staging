@@ -152,8 +152,8 @@ Surveys may use FillBlank without `accepted-answers::` or `explanation::`. That 
 \## Grading rules
 
 - **Survey:** all {--{"author":"Elias's AI","timestamp":1787221183165}@@question--}{++{"author":"Elias's AI","timestamp":1787221183165}@@Response segment++} types are ungraded.
-- **Normal lens:** questions may be graded practice or ungraded reflection.
-- **Learning Outcome test:** Question, Choice, and FillBlank must be gradable. Question needs `assessment-instructions::`; Choice needs at least one `[x]`; FillBlank needs `accepted-answers::`.
+- **Normal lens:** {--{"author":"Elias's AI","timestamp":1787221186457}@@questions--}{++{"author":"Elias's AI","timestamp":1787221186457}@@responses++} may be graded practice or ungraded reflection.
+- **Learning Outcome test:** {--{"author":"Elias's AI","timestamp":1787221189740}@@Question, Choice,--}{++{"author":"Elias's AI","timestamp":1787221189740}@@OpenResponse, Select,++} and FillBlank must be gradable. {--{"author":"Elias's AI","timestamp":1787221189740}@@Question--}{++{"author":"Elias's AI","timestamp":1787221189740}@@OpenResponse++} needs `assessment-instructions::`; {--{"author":"Elias's AI","timestamp":1787221189740}@@Choice--}{++{"author":"Elias's AI","timestamp":1787221189740}@@Select++} needs at least one `[x]`; FillBlank needs `accepted-answers::`.
 - Rating never contributes to correctness score.
 
-Validator should reject duplicate keys, invalid field combinations, missing grading information in tests, invalid rating scales, too few choice options, and missing or multiple `{{blank}}` markers.
+Validator should reject duplicate keys, invalid field combinations, missing grading information in tests, invalid rating scales, too few {--{"author":"Elias's AI","timestamp":1787221192237}@@choice--}{++{"author":"Elias's AI","timestamp":1787221192237}@@select++} options, and missing or multiple `{{blank}}` markers.
