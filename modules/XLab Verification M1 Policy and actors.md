@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218173310}@@---
+---
 id: '580ed905-c738-4e66-b7ba-130c88a8d887'
 slug: xlab-verification-policy-scoping
 title: "Module 1: Policy and actors"
@@ -35,4 +35,3 @@ source:: [[../Lenses/XLab Verification - v-scoping-upstream-downstream]]
 
 # Lens:
 source:: [[../Lenses/XLab Verification - v-context-distiller]]
-++}
