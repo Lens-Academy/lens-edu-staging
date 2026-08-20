@@ -2,7 +2,7 @@
 id: '7f63d0b2-6f71-4ca8-a58a-fcc0511666f7'
 title: "2.3.5 From intelligence lead to verification action"
 tldr: "Faithful alpha import of XLab lesson 2.3.5 From intelligence lead to verification action."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Interactive elements marked as import gaps must be completed on XLab until Lens has an equivalent."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257351965}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257351965}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257351965}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257351965}@@ XLab."++}
 tags: [wip]
 ---
 #### Text
