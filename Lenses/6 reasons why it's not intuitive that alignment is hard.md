@@ -1,5 +1,7 @@
 ---
-id: 11f0d83f-f8ec-4549-b82c-460c22288a9b
+id: 11f0d83f-f8ec-4549-b82c-460c22288a9b{++{"author":"Elias's AI","timestamp":1787256262625}@@
+reading_minutes: 30
+tutor_minutes: 10++}
 summary_for_tutor: "Covers why human cognitive biases make AI risk arguments feel counterintuitive. Identifies specific ways evolutionary psychology leads people astray: anthropomorphizing AI, assuming intelligent systems will share human common sense or social constraints, and underestimating how optimization processes can produce alien reasoning. Examines the culture clash between theoretical alignment researchers who predict power-seeking AI and empiricists who observe that humans and LLMs behave more cooperatively."
 title: 6 reasons why it's not intuitive that alignment is hard
 tldr: Why do arguments about AI risk often feel off, even to people who take technology seriously? This article identifies six ways our evolved intuitions lead us astray — from assuming smart things will share our common sense to underestimating how different an optimizer's reasoning can be from our own.
