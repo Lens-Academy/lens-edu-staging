@@ -77,7 +77,7 @@ We chose metacognition as the theoretical lens through which to understand novic
 
 Because we were seeking to replicate the work of Prather et al. ([Prather et al. 2018](#bib.bib51)), we sought permission to use their automated assessment tool (AAT), Athene. This allowed us access to the same programming problem used in their previous study. This tool was then integrated into our Learning Management System, Canvas (see Figure  [1](#S3.F1 "Figure 1 ‣ 3.1. Context ‣ 3. Methods ‣ The Widening Gap: The Benefits and Harms of Generative AI for Novice Programmers")). After submission, the AAT evaluates the program by compiling it and then running it against a series of test cases. It then provides feedback to the user (see Figure [2](#S3.F2 "Figure 2 ‣ 3.1. Context ‣ 3. Methods ‣ The Widening Gap: The Benefits and Harms of Generative AI for Novice Programmers")).
 
-![[/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img1-119c3ed6.png]]
+{--{"author":"AI","timestamp":1787234690371}@@![[/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img1-119c3ed6.png]]--}{++{"author":"AI","timestamp":1787234690371}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img1-119c3ed6.png)++}
 
 Figure 1. Problem description from Athene
 
