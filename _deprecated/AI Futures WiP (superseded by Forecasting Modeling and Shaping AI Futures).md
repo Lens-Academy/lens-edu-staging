@@ -40,14 +40,14 @@ rubrics, transfer tests). Do not merge them without deciding which supersedes.
 Known-outstanding defects are listed in the repo at
 ~/lens-manager-agent-out/course-build/course/FIXES.md %%
 
-# Module: [[../../modules/what-could-possibly-happen|Unit 1: What Could Possibly Happen?]]
+# Module: [[../modules/what-could-possibly-happen|Unit 1: What Could Possibly Happen?]]
 
 # Meeting: Unit 1
 
-# Module: [[../../modules/unit-2-how-do-we-know|Unit 2: How Do We Know?]]
+# Module: [[../modules/unit-2-how-do-we-know|Unit 2: How Do We Know?]]
 
 # Meeting: Unit 2
 
-# Module: [[../../modules/Unit 3 - Threat Models and Key Scenarios|Unit 3: Threat Models and Key Scenarios]]
+# Module: [[../modules/Unit 3 - Threat Models and Key Scenarios|Unit 3: Threat Models and Key Scenarios]]
 
 # Meeting: Unit 3
