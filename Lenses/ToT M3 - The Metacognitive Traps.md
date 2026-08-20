@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787234550174}@@---
+---
 id: '89d98880-a5ce-4e4d-b060-92f30f683153'
 title: "The Metacognitive Traps"
 duration_minutes: 30
@@ -148,4 +148,3 @@ Calibration summary (on close): name what the student demonstrated; name what re
 Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items. Do not over-validate; no generic praise.
 
 Safety and integrity: if the student concludes AI should simply be avoided while learning, do not adjudicate; ask them to square it with the accelerating group and with Unit 4's practical rules. If stuck after 2 attempts, give a brief direct answer and move on.
-++}
