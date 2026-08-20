@@ -209,7 +209,7 @@ Optional fields:
 
 Within one FillBlank segment, use either answer-bearing blanks or ungraded `{{blank}}` markers, not both.
 
-\## {++{"author":"Elias's AI","timestamp":1787225222352}@@Number
+\## {++{"author":"Elias's AI","timestamp":1787225228356}@@Number
 
 Use `#### Number` when learner should type a quantity or estimate. Number always renders as numeric input, never slider.
 
@@ -249,7 +249,7 @@ Optional fields:
 
 - `required:: true`: require response. Defaults to `false`.
 - `unit:: million km`: show unit beside input and store it with response definition. Defaults to no unit.
-- `correct-range:: 147..152`: mark any number from lower through upper endpoint correct. Without it, response is ungraded. Use same number twice, such as `42..42`, when only exact value is correct.
+- `correct-range:: [147.5, 152.5]`: mark any number from first through second endpoint correct, including both endpoints. Without it, response is ungraded. Use same number twice, such as `[42, 42]`, when only exact value is correct.
 - `feedback-instructions:: ...`: ask AI to provide learner-facing feedback. Defaults to no AI feedback when omitted.
 
 Number accepts integers, decimals, and negative values. It stores numeric value, not text. Validator should reject reversed or malformed correct ranges.
