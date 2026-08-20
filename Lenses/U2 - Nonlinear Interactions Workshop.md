@@ -1,5 +1,7 @@
 ---
-id: 'f646ea15-5ffb-4a50-bd4e-a0e9494cf00e'
+id: 'f646ea15-5ffb-4a50-bd4e-a0e9494cf00e'{++{"author":"Elias's AI","timestamp":1787256139873}@@
+reading_minutes: 2
+tutor_minutes: 30++}
 title: "Nonlinear Interactions Workshop"
 tldr: Four systems, four sets of parts, and four different ways the parts interact so that the simple curve is wrong. No reading. You build the curves and the tutor tries to break them.
 summary_for_tutor: "The practice lens for the extrapolation outcome. No reading assignment. Four question fields, each carrying a different nonlinear structure: adverse selection of the residual, a threshold, a min-over-constraints bottleneck, and a feedback loop where the measurement changes the measured. Each field gets targeted tutor feedback. The final field closes by comparing the four structures. This is where the mathematical objects get exercised, so do not let it become a discussion of AI timelines in general."

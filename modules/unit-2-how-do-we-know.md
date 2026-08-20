@@ -12,7 +12,8 @@ source:: [[../Lenses/U2 - Cold Open]]
 # Lens: Opening frame
 id:: 99ce0fb8-e37d-4a3e-b1de-cecee69182d0
 tldr:: Forecasting methods do not guarantee accuracy; they make your reasoning decomposable, evidence-linked, and testable when the future is uncertain.
-summary_for_tutor:: Introduces Unit 2 from the poor track record of AI prediction. It previews evidence on forecasting accuracy, decomposition, reference classes, extrapolation, nonlinear interactions, aggregation with shared evidence, and reflexive forecasts, while explaining that assessments require applying methods to unfamiliar domains.
+summary_for_tutor:: Introduces Unit 2 from the poor track record of AI prediction. It previews evidence on forecasting accuracy, decomposition, reference classes, extrapolation, nonlinear interactions, aggregation with shared evidence, and reflexive forecasts, while explaining that assessments require applying methods to unfamiliar domains.{++{"author":"Elias's AI","timestamp":1787256142012}@@
+reading_minutes:: 2++}
 #### Text
 content::
 \## What this unit is for
