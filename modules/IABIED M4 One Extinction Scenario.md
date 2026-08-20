@@ -37,7 +37,8 @@ source:: ![[../Lenses/IABIED - Describe the Refrigerator Thought Experiment]]
 id:: 6937c099-cce1-4d6a-8dfa-bd0e05d8d2de
 tldr:: Going deeper on Chapter 6? The book's supplementary Q&As cover "can't we just pull the plug?", "can't we keep it in a box?", and the other ways people hope we'd win.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 6 (We'd Lose). Links the book website's supplementary Q&A cards covering objections such as pulling the plug, keeping AI in a box, exploiting AI weaknesses, enhancing humans, limits from experiments, instrumental convergence, and losing the future. A navigation and index lens only; it carries no standalone teaching content of its own.
-optional:: true
+{++{"author":"Elias's AI","timestamp":1787256591599}@@reading_minutes:: 2
+++}optional:: true
 
 #### Text:
 content::
