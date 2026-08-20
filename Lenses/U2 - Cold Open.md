@@ -8,11 +8,9 @@ authors:
 ---
 #### Text
 content::
-\## Before {--{"author":"Tace's peer (M2 second pass)'s AI","timestamp":1787209506252}@@anything--}{++{"author":"Tace's peer (M2 second pass)'s AI","timestamp":1787209506252}@@this unit begins++}
+\## Before this unit begins
 
-Here are three problems we hope you cannot solve.{--{"author":"Tace's peer (M2 second pass)'s AI","timestamp":1787209506252}@@
-
-This is not a joke and not a test. We are asking you to fail --}{++{"author":"Tace's peer (M2 second pass)'s AI","timestamp":1787209506252}@@ Same reason as before: guess first, ++}on {--{"author":"Tace's peer (M2 second pass)'s AI","timestamp":1787209506252}@@purpose: you remember an answer better if you tried first and got it wrong.--}{++{"author":"Tace's peer (M2 second pass)'s AI","timestamp":1787209506252}@@purpose.++}
+Here are three problems we hope you cannot solve. Same reason as before: guess first, on purpose.
 
 None of these three problems is about AI, and that is deliberate. A problem you have already read about shows us your reading, not your reasoning.
 
