@@ -1,7 +1,7 @@
 ---
-id: 39b965c6-1a8d-43f7-9229-121e0ea8d517{++{"author":"Elias's AI","timestamp":1787256661934}@@
+id: 39b965c6-1a8d-43f7-9229-121e0ea8d517
 reading_minutes: 3
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: "Covers why human augmentation cannot keep pace with AI. Even greatly enhanced humans with brain-computer interfaces face an insurmountable speed differential: an AI can do the same things thousands of times faster. Uses the cyborg horse vs. Model T analogy to illustrate the fundamental limitation."
 title: "Can we enhance humans so they keep pace with AI?"
 tldr: "No."

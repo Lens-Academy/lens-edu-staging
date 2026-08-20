@@ -2,7 +2,7 @@
 id: '87824966-a77c-476e-9df9-64267492aa12'
 title: "2.3.3 From signal to intelligence assessment"
 tldr: "Faithful alpha import of XLab lesson 2.3.3 From signal to intelligence assessment."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257362942}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257362942}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257362942}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257362942}@@ XLab."++}
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
 tags: [wip]
 ---
 #### Text

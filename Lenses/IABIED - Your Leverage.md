@@ -1,7 +1,7 @@
 ---
-id: 2fa06534-a9b0-4bab-b906-1f2f7db1c99e{++{"author":"Elias's AI","timestamp":1787256646870}@@
+id: 2fa06534-a9b0-4bab-b906-1f2f7db1c99e
 reading_minutes: 3
-tutor_minutes: 20++}
+tutor_minutes: 20
 summary_for_tutor: Action-plan seed for Module 4. After the extinction scenario (the film plus the book's Coda), students inventory their strengths, then research with the tutor where someone with their profile could plausibly contribute to AI safety. The tutor acts as an honest career-exploration partner, not a cheerleader, and never lets the exchange end fatalistic.
 title: Your Leverage
 tldr: "The scenario you just watched is grim on purpose. This is where you stop spectating: map what you're unusually good at, then find where it bites on the problem."

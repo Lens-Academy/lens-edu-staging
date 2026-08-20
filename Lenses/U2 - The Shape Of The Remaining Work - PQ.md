@@ -1,7 +1,7 @@
 ---
-id: '1c2dad7b-028c-4df8-8e7c-c1eaf1653c43'{++{"author":"Elias's AI","timestamp":1787256134760}@@
+id: '1c2dad7b-028c-4df8-8e7c-c1eaf1653c43'
 reading_minutes: 2
-tutor_minutes: 5++}
+tutor_minutes: 5
 title: "The Shape Of The Remaining Work"
 tldr: If you are 16% of the way through a job and it took four years, how long is the rest? Your answer depends on a theory of the job. This page asks you to write that theory down.
 summary_for_tutor: "Pre-reading question for the fractional-progress material. Pumps the uniformity intuition (remaining work is like completed work) so the 372-year result can break it. Do not explain the reading. Do not use the words linear, exponential, or asymptote unless the student uses them first."

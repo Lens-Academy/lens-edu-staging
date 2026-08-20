@@ -1,7 +1,7 @@
 ---
-id: 8c028985-0717-4a0c-a5a3-4d4c8614d1c8{++{"author":"Elias's AI","timestamp":1787256172686}@@
+id: 8c028985-0717-4a0c-a5a3-4d4c8614d1c8
 reading_minutes: 8
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: "Surveys the history of AI obstacles being overcome: image recognition (AlexNet 2012), Go (AlphaGo 2016), natural language (transformers/GPT). Private AI investment has grown twentyfold since 2012 and major conferences 9-10x larger. Concludes that obstacles likely exist but the field's track record suggests they will probably be surmounted."
 title: "But aren't there big obstacles to reaching superintelligence?"
 tldr: "It isn't clear."

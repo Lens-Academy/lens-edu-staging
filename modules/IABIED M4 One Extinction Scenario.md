@@ -37,8 +37,8 @@ source:: ![[../Lenses/IABIED - Describe the Refrigerator Thought Experiment]]
 id:: 6937c099-cce1-4d6a-8dfa-bd0e05d8d2de
 tldr:: Going deeper on Chapter 6? The book's supplementary Q&As cover "can't we just pull the plug?", "can't we keep it in a box?", and the other ways people hope we'd win.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 6 (We'd Lose). Links the book website's supplementary Q&A cards covering objections such as pulling the plug, keeping AI in a box, exploiting AI weaknesses, enhancing humans, limits from experiments, instrumental convergence, and losing the future. A navigation and index lens only; it carries no standalone teaching content of its own.
-{++{"author":"Elias's AI","timestamp":1787256591599}@@reading_minutes:: 2
-++}optional:: true
+reading_minutes:: 2
+optional:: true
 
 #### Text:
 content::
@@ -140,8 +140,8 @@ source:: ![[../Lenses/IABIED - One Extinction Scenario (Video)]]
 id:: e196bef6-01c9-48d8-b252-c1561bf52111
 tldr:: Optional companion Q&As for the scenario's opening: why the story is set up this way, how Sable thinks, and whether Galvanic was fairly or insufficiently careful. Pick the ones that interest you.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 7 (Realization). Links the book website's supplementary Q&A cards for Part II covering the scenario's construction: why this setup, Sable's thinking, whether Galvanic was fairly or insufficiently careful, and whether only one smart AI matters. A navigation and index lens only; it carries no standalone teaching content of its own.
-{++{"author":"Elias's AI","timestamp":1787256599490}@@reading_minutes:: 2
-++}optional:: true
+reading_minutes:: 2
+optional:: true
 
 #### Text
 content::
@@ -184,8 +184,8 @@ source:: ![[../Lenses/IABIED - QA - Only One Smart AI]]
 id:: 4203d159-296c-4cab-a744-373d86fbdd23
 tldr:: Optional companion Q&As for the expansion phase: how Sable spreads, how the story would differ if it started later, and why power-seeking sub-goals show up for almost any goal.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 8 (Expansion). Links the book website's supplementary Q&A cards covering what would change if the story started later, Sable's expansion phase, and instrumental convergence. A navigation and index lens only; it carries no standalone teaching content of its own.
-{++{"author":"Elias's AI","timestamp":1787256607041}@@reading_minutes:: 2
-++}optional:: true
+reading_minutes:: 2
+optional:: true
 
 #### Text
 content::
@@ -217,8 +217,8 @@ source:: ![[../Lenses/IABIED - QA - Instrumental Convergence]]
 id:: b3132948-6f00-4d18-89f1-40d46c96e92c
 tldr:: Optional companion Q&As for the scenario's end: what the ending really claims, and why a superintelligence wouldn't simply choose to be moral.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 9 (Ascension). Links the book website's supplementary Q&A cards covering the scenario's ending and the objection that a superintelligence would choose to be moral or install love into itself. A navigation and index lens only; it carries no standalone teaching content of its own.
-{++{"author":"Elias's AI","timestamp":1787256614646}@@reading_minutes:: 2
-++}optional:: true
+reading_minutes:: 2
+optional:: true
 
 #### Text
 content::

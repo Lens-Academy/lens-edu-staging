@@ -1,7 +1,7 @@
 ---
-id: 03b6d929-b4d5-4932-8eb8-706756bdd9ca{++{"author":"Elias's AI","timestamp":1787256331317}@@
+id: 03b6d929-b4d5-4932-8eb8-706756bdd9ca
 reading_minutes: 3
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: "Examines the common analogy that since horses survived the automobile, humans would survive superintelligent AI. Argues the analogy actually strengthens extinction concerns: horses survived because humans loved them and chose to keep them, and even so the horse population collapsed by over 80%. For humans to survive, AI would need to find us useful (unlikely) or specifically care about us (also unlikely without deliberate design)."
 title: "But we still have horses. Why wouldn't AI keep us around?"
 tldr: "What horses remain, remain because we like them."

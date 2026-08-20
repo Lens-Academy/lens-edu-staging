@@ -11,8 +11,8 @@ readings:
 # Lens: Part 3 Welcome
 id:: caf48b0b-f27a-4c09-9336-b443ac7843f4
 tldr:: How can we be so sure an AI won't happen to want things compatible with human life? Chapter 5 argues human-friendly goals are a vanishingly small slice of goal-space, and that none of the usual hopes (it'll need us, trade with us, keep us as pets) survive the argument.
-summary_for_tutor:: Framing lens for Module 3, covering IABIED Chapter 5 ("Its Favorite Things"). Sets up the module's question: why AI goals are unlikely to be compatible with human flourishing (the goal-space argument that human-compatible goals are a tiny subset of possible goals, and that alien intelligences form alien goals, illustrated by the stone-counting nest builders), and why the common hopes (usefulness, trade, pets, leaving Earth alone) fail. Chapter 6 ("We'd Lose") now opens the next module, where it sets up the extinction-scenario film. Orients the learner before the chapter lenses.{++{"author":"Elias's AI","timestamp":1787256394741}@@
-reading_minutes:: 2++}
+summary_for_tutor:: Framing lens for Module 3, covering IABIED Chapter 5 ("Its Favorite Things"). Sets up the module's question: why AI goals are unlikely to be compatible with human flourishing (the goal-space argument that human-compatible goals are a tiny subset of possible goals, and that alien intelligences form alien goals, illustrated by the stone-counting nest builders), and why the common hopes (usefulness, trade, pets, leaving Earth alone) fail. Chapter 6 ("We'd Lose") now opens the next module, where it sets up the extinction-scenario film. Orients the learner before the chapter lenses.
+reading_minutes:: 2
 
 #### Text
 content:: In module 3, we ask one essential question: how do we know that an AI won't want things that are broadly compatible with human life and flourishing?
@@ -72,8 +72,8 @@ source:: ![[../Lenses/IABIED - QA - AI Find Us Fascinating]]
 # Lens: Dive Deeper: Chapter 5
 id:: a1b2c3d4-5e6f-4a7b-8c9d-0e1f2a3b4c5d
 tldr:: Going deeper on Chapter 5? The book's supplementary Q&As field the common pushbacks: "won't it keep us like we keep horses?", "won't it find us useful or fascinating?", "won't it be kinder as it gets smarter?".
-summary_for_tutor:: Optional Dive Deeper index lens for Chapter 5 (Its Favorite Things). Links the book website's supplementary Q&A cards covering objections such as AIs finding humans useful or fascinating, treating us as parents, caring a little about humans, intrinsic moral worth, ecological preservation, orthogonality, and whether a smarter AI would be kinder. A navigation and index lens only; it carries no standalone teaching content of its own.{++{"author":"Elias's AI","timestamp":1787256396550}@@
-reading_minutes:: 2++}
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 5 (Its Favorite Things). Links the book website's supplementary Q&A cards covering objections such as AIs finding humans useful or fascinating, treating us as parents, caring a little about humans, intrinsic moral worth, ecological preservation, orthogonality, and whether a smarter AI would be kinder. A navigation and index lens only; it carries no standalone teaching content of its own.
+reading_minutes:: 2
 optional:: true
 
 #### Text:
