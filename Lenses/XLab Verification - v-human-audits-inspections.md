@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218146971}@@---
+---
 id: '77e16c6b-824b-42e8-ad7c-5eec6b943f05'
 title: "2.4.3 Audits and inspections"
 tldr: "Faithful alpha import of XLab lesson 2.4.3 Audits and inspections."
@@ -48,4 +48,3 @@ content:: **Interactive exercise:** XLab's `human-audits-inspections` widget has
 #### Text
 content::
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-audits-inspections)*
-++}

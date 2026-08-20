@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218154828}@@---
+---
 id: 'fe43d166-6a95-4865-992f-f8448dfacb75'
 title: "2.1.7 [Optional] Extension: reconstructing a declared training run"
 tldr: "Faithful alpha import of XLab lesson 2.1.7 [Optional] Extension: reconstructing a declared training run."
@@ -49,4 +49,3 @@ A June 2026 paper proposes a zero-knowledge architecture for frontier training c
 You receive a declared transcript and a limited verification-compute budget. Allocate it among full rerunning, random segment sampling, checkpoint checks, code and data commitments, physical compute totals, telemetry-timing comparison, and random chip inspection. For each choice, record cost, confidentiality exposure, spoofing opportunity, expected assurance, and the claim that remains untested.
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-reconstructing-run)*
-++}

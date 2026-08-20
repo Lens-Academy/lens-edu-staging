@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218165855}@@---
+---
 id: 'a3548642-ee18-4da6-9ebc-5750e2c50915'
 title: "4.1.1 How to Do Research Well"
 tldr: "Faithful alpha import of XLab lesson 4.1.1 How to Do Research Well."
@@ -75,4 +75,3 @@ Links:\
 * Write well. Here are my writing tips, manny of which are me-specific: [Aaron’s Writing Tips \[Public, Shareable\]](https://docs.google.com/document/d/1laojHZaIj5uaTbrYXybfvMelYlwPygNIO19XD1ELa5Y/edit?tab=t.0)
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/capstone/how-to-do-research-well)*
-++}

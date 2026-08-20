@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218156898}@@---
+---
 id: '7f63d0b2-6f71-4ca8-a58a-fcc0511666f7'
 title: "2.3.5 From intelligence lead to verification action"
 tldr: "Faithful alpha import of XLab lesson 2.3.5 From intelligence lead to verification action."
@@ -68,4 +68,3 @@ content:: **Import gap:** XLab persistent memo desk has no clean Lens equivalent
 #### Text
 content::
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-action)*
-++}

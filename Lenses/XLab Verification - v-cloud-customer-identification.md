@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218142987}@@---
+---
 id: '3eadac2f-e82d-478a-9c1e-0b5a6136c211'
 title: "2.2.2 Customer identification and ongoing monitoring"
 tldr: "Faithful alpha import of XLab lesson 2.2.2 Customer identification and ongoing monitoring."
@@ -162,4 +162,3 @@ An information-sharing mechanism could be a key tool that compute providers coul
 Another detection evasion risk could arise from the use of shell companies to obscure an entity’s ultimate owners. The beneficial ownership information reporting requirement, commencing January 2024 in the US and is currently being adopted more broadly by FATF members, could help decrease this risk by requiring companies to disclose information on the people who ultimately own them.[[55](https://arxiv.org/abs/#ax-ref-financial-crimes-enforcement-network-fin)] However, given the strategic and economic importance of advanced AI, it is likely that [malicious] actors will continue to try to obfuscate their identities. Given the relatively small numbers of entities seeking to access significant amounts of advanced AI compute in the near term, a government enforcement team could consider undertaking their own investigations and spot checks on companies.
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-customer-identification)*
-++}
