@@ -1,5 +1,7 @@
 ---
-id: 5a558859-8665-4328-b6e6-a53e5ae1a81a
+id: 5a558859-8665-4328-b6e6-a53e5ae1a81a{++{"author":"Elias's AI","timestamp":1787256366156}@@
+reading_minutes: 3
+tutor_minutes: 3++}
 summary_for_tutor: Addresses the objection that AI weirdness only appears in edge cases. Argues that superintelligent AI would constantly face situations radically unlike its training environment, making edge cases the norm. Introduces the principle that optimization naturally seeks extremes, so unconstrained variables get pushed to extreme values with potentially undesirable consequences.
 title: "If current AIs are mostly weird in extreme cases, what's the problem?"
 tldr: "The weirdness is evidence that their actual pursuits aren't our intended pursuits."
