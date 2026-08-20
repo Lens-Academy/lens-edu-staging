@@ -82,8 +82,8 @@ If you have questions or comments regarding this publication, please contact the
 | External Organization .....                               | 1         |
 | Internal Organization .....                               | 2         |
 | Parts of a Statute .....                                  | 3         |
-| <b>Tips for Reading and Understanding a Statute .....</b> | <b>4</b>  |
-| <b>Bills .....</b>                                        | <b>6</b>  |
+| {--{"author":"Elias's AI","timestamp":1787227393940}@@<b>Tips--}{++{"author":"Elias's AI","timestamp":1787227393940}@@**Tips++} for Reading and Understanding a Statute {--{"author":"Elias's AI","timestamp":1787227393940}@@.....</b>--}{++{"author":"Elias's AI","timestamp":1787227393940}@@.....**++} | {--{"author":"Elias's AI","timestamp":1787227393940}@@<b>4</b>--}{++{"author":"Elias's AI","timestamp":1787227393940}@@**4**++}  |
+| {--{"author":"Elias's AI","timestamp":1787227399608}@@<b>Bills .....</b>--}{++{"author":"Elias's AI","timestamp":1787227399608}@@**Bills .....**++}                                        | {--{"author":"Elias's AI","timestamp":1787227399608}@@<b>6</b>--}{++{"author":"Elias's AI","timestamp":1787227399608}@@**6**++}  |
 | How Bills Are Organized .....                             | 6         |
 | General Organization .....                                | 6         |
 | Parts of a Bill .....                                     | 7         |
