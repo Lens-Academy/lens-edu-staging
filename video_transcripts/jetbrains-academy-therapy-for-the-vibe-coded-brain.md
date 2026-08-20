@@ -4,10 +4,6 @@ channel: "JetBrains Academy"
 url: "https://www.youtube.com/watch?v=DkhhE97Swmo"
 ---
 
-*This transcript is being processed.*
+*Transcript processing failed.* You can resubmit this video from the Add Video page.
 
-**1,863 words** — estimated processing time: **~3 minutes**.
-
-If you submitted multiple videos, they share a pool of 3 concurrent sessions and will be processed as capacity allows.
-
-Queued at: 8/20/2026, 1:45:32 PM
+Failed at: 2026-08-20T13:48:38.542Z
