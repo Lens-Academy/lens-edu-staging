@@ -51,7 +51,8 @@ content:: What is your favorite color, and why?
 id:: 43d2334e-990d-43be-98e2-aa7ff046cb16
 tldr:: Two gates at once: answer the question and send two messages. This lens shows how a required question and a chat minimum stack independently, and how feedback replies count toward both.
 summary_for_tutor:: Demo lens combining a required Question with min_chat_messages:: 2. Explains that the two requirements are independent, that replies in the question's feedback conversation count toward the message minimum, and carries assessment-instructions for a playful follow-up.
-min_chat_messages:: 2
+min_chat_messages:: 2{++{"author":"Elias's AI","timestamp":1787228457050}@@
+duration_minutes:: 5++}
 
 #### Text
 content::
@@ -64,7 +65,8 @@ assessment-instructions:: Any sincere answer is fine; ask one playful follow-up 
 # Lens: Skippable question
 id:: 2c11c696-8fcb-4d2e-9725-f171c2e55c95
 tldr:: How do you offer a reflection prompt without forcing anyone to answer it? Mark the question optional and it becomes skippable, so completion never waits on it.
-summary_for_tutor:: Demo lens with a Question marked optional:: true, overriding the default single-answer requirement so completion is never blocked. Illustrates the pattern for nice-to-have reflection prompts.
+summary_for_tutor:: Demo lens with a Question marked optional:: true, overriding the default single-answer requirement so completion is never blocked. Illustrates the pattern for nice-to-have reflection prompts.{++{"author":"Elias's AI","timestamp":1787228461735}@@
+duration_minutes:: 2++}
 
 #### Text
 content::
