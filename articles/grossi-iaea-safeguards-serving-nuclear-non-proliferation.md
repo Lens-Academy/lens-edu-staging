@@ -421,11 +421,11 @@ Black and white photograph of hands in gloves handling large, cylindrical metal 
 
 Black and white photograph of several people in white lab coats and hard hats working in an industrial setting, possibly a nuclear power plant.
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig21-9fde1306.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227146176}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig21-9fde1306.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227146176}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig21-9fde1306.jpg)++}
 
 Black and white photograph of a large audience seated in a hall, listening to a speaker at a podium.
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig22-d5a69fd1.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227149809}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig22-d5a69fd1.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227149809}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig22-d5a69fd1.jpg)++}
 
 Black and white photograph of a man in a white lab coat standing in front of a large control panel with many switches and dials.
 
