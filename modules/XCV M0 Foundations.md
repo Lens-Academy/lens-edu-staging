@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787216876054}@@---
+{++{"author":"Elias's AI","timestamp":1787216936788}@@---
 id: '73ea9772-8715-40e9-954c-3e9afd23a3a0'
 slug: xcv-m0-foundations
 title: "Foundations: Why Verification?"
@@ -6,9 +6,11 @@ title: "Foundations: Why Verification?"
 
 # Lens: Welcome to the XLab Alpha
 id:: 91c593c9-45b3-4250-864a-b1d30a95c563
+tldr:: This alpha adaptation follows XLab's five-part compute-verification journey and links directly to its feedback channel.
+summary_for_tutor:: Opening orientation. State clearly that this is an alpha adaptation of XLab's course, that XLab is testing it in a small paid cohort, and that material may change substantially afterward. Direct curriculum feedback to XLab's form. Preview course outcomes without teaching them.
 #### Text
 content::
-## Alpha course
+\## Alpha course
 
 This is an **alpha adaptation of XLab's compute-verification course**. XLab is running a small paid cohort to test and calibrate its material before official launch. The curriculum will likely change substantially after that cohort.
 
