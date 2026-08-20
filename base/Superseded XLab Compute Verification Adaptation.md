@@ -7,12 +7,12 @@ partner-name: XLab
 partner-url: https://aisafetytracks.com/verification/landing
 ---
 
-# Module: [[../modules/XCV M0 Foundations]]
+# Module: [[XCV M0 Foundations]]
 
-# Module: [[../modules/XCV M1 Policy and Actors]]
+# Module: [[../../modules/XCV M1 Policy and Actors]]
 
-# Module: [[../modules/XCV M2 Evidence Streams]]
+# Module: [[../../modules/XCV M2 Evidence Streams]]
 
-# Module: [[../modules/XCV M3 Covert Development]]
+# Module: [[../../modules/XCV M3 Covert Development]]
 
-# Module: [[../modules/XCV M4 Capstone]]
+# Module: [[../../modules/XCV M4 Capstone]]

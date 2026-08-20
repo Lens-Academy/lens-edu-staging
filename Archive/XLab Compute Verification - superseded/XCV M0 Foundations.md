@@ -33,10 +33,10 @@ By the end, you should be able to:
 This Lens adaptation follows XLab's five-part journey: foundations, policy and actors, evidence streams, covert development, and a capstone. It reuses Lens's existing compute-verification readings and tests where they match XLab's skill map.
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/The verification problem for AI agreements]]
+source:: [[../../Learning Outcomes/The verification problem for AI agreements]]
 
 # Lens:
-source:: [[../Lenses/AIV - Why Verification - PQ]]
+source:: [[../../Lenses/AIV - Why Verification - PQ]]
 
 # Lens:
-source:: [[../Lenses/AIV - What Does It Take to Catch a Chinchilla]]
+source:: [[../../Lenses/AIV - What Does It Take to Catch a Chinchilla]]
