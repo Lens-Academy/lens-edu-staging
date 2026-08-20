@@ -10,7 +10,15 @@ Frontmatter: required `id`; optional `title`, `tldr` (one-sentence takeaway, ≤
 
 The patterns below come from the **AI Risk Fundamentals** course (`IABIED` prefix, built around *If Anyone Builds It, Everyone Dies*), the current quality bar. Reuse the structure; adapt the content. Read a real example before writing: `Lens Edu/Lenses/IABIED - AI Is Grown, Not Crafted.md` is the canonical reading lens.
 
-## The reading lens: Recall → Processing → Learning Question
+## {++{"author":"Elias's AI","timestamp":1787225488913}@@Set duration_minutes on every lens
+
+When you create or change a lens, estimate how long a typical learner needs to finish it from start to end, and put that number of minutes at the top: `duration_minutes: 25` in the lens frontmatter, or `duration_minutes:: 25` on an inline lens. The value replaces the platform's computed time estimate everywhere the time shows (course page, module page, sidebar, resource cards). If you change a lens, re-check the value.
+
+Estimate the total: reading (at a careful-study pace, not a skim), video watch time, and the tutor conversations the lens asks for (a substantive chat, question, or roleplay is rarely under 3 minutes). Count work the lens assigns outside the page too, such as "read chapter 2" or an offline exercise; the computed fallback cannot see that work, which is the main reason to author the value. Round to a friendly number (5, 10, 15, 25...).
+
+If the field is absent, the platform falls back to its computed estimate (word count at 200 wpm + video length + tutor time), so leaving it off is safe for a quick draft, but finished lenses should carry it. See the Demo Course's "Lens duration demo" module for a rendered example.
+
+## ++}The reading lens: Recall → Processing → Learning Question
 
 Every IABIED reading lens follows the same five-beat structure. It works because it forces retrieval before reflection, reflection before analysis, and never lets the tutor lecture.
 
