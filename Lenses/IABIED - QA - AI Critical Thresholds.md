@@ -1,7 +1,7 @@
 ---
-id: 25e691f5-d5d3-4c33-aed8-ee382058db89{++{"author":"Elias's AI","timestamp":1787256165891}@@
+id: 25e691f5-d5d3-4c33-aed8-ee382058db89
 reading_minutes: 8
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: Argues that AI will likely cross critical capability thresholds, analogous to nuclear fission going from subcritical to supercritical with small increases in uranium mass. Human brains are only 3-4x larger than chimpanzee brains yet produced a qualitative leap to civilization-building. We cannot tell how close current AI is to a similar threshold.
 title: "Will AI cross critical thresholds and take off?"
 tldr: "Probably."

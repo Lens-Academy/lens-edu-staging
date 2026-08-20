@@ -2,7 +2,7 @@
 id: '67977ae1-be51-4cc8-b464-5ccc714db95b'
 title: "2.2.3 Detection gaps and policy limits"
 tldr: "Faithful alpha import of XLab lesson 2.2.3 Detection gaps and policy limits."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257248498}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257248498}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257248498}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257248498}@@ XLab."++}
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
 tags: [wip]
 ---
 #### Text

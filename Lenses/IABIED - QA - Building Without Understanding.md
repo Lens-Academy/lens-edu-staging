@@ -1,7 +1,7 @@
 ---
-id: 0ed0d307-d8dd-45f5-873c-7acaa6b152df{++{"author":"Elias's AI","timestamp":1787256342553}@@
+id: 0ed0d307-d8dd-45f5-873c-7acaa6b152df
 reading_minutes: 2
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: "Explains why not understanding intelligence does not prevent building superhuman AI. Gradient descent does not require understanding, and evolution produced human intelligence without comprehension. But this same lack of understanding means engineers cannot predict or control what they build. Interpretability research remains at roughly 0.1% of AI development resources."
 title: "What makes you think people can build superhuman AI when they don't even understand intelligence?"
 tldr: "Past AI progress hasn't required much understanding of intelligence."
