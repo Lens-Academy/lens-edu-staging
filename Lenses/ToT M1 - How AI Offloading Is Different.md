@@ -35,7 +35,7 @@ This sets up a question we will return to through the whole course: whether help
 #### Question
 content::
 \## Check your Understanding
-Let's talk about the reading. In your own words, what did you take from it — what stayed with you, what puzzled you, what you'd push back on? Say as much or as little as you like. Speech-to-text is recommended.
+Let's talk about the reading. In your own words, what did you take from it? What stayed with you, what puzzled you, what you'd push back on? Say as much or as little as you like. Speech-to-text is recommended.
 
 assessment-instructions:: The student has just read a short teaching piece on how AI offloading differs from earlier tools (Unit 1 of "Thinking about Thinking"). They are now talking it through with you. Your role is to lead a short discussion about the reading: draw out what they took from it, what resonated, what confused them, and what they doubt. You are diagnostic, not instructional. Act as a brief, honest mirror, not a lecturer.
 
