@@ -90,7 +90,7 @@ If you have questions or comments regarding this publication, please contact the
 | Introductory Language .....                               | 8         |
 | Substantive Provisions .....                              | 8         |
 | Procedural Provisions .....                               | 9         |
-| <b>Tips for Reading and Understanding a Bill .....</b>    | <b>13</b> |
+| {--{"author":"Elias's AI","timestamp":1787227407278}@@<b>Tips--}{++{"author":"Elias's AI","timestamp":1787227407278}@@**Tips++} for Reading and Understanding a Bill {--{"author":"Elias's AI","timestamp":1787227407278}@@.....</b>--}{++{"author":"Elias's AI","timestamp":1787227407278}@@.....**++}    | {--{"author":"Elias's AI","timestamp":1787227407278}@@<b>13</b>--}{++{"author":"Elias's AI","timestamp":1787227407278}@@**13**++} |
 | <b>Practice Exercises .....</b>                           | <b>15</b> |
 | Exercise 1 .....                                          | 15        |
 | Exercise 2 .....                                          | 16        |
