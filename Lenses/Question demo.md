@@ -77,26 +77,26 @@ Use `#### Select` with plain list under `options::`. Default allows one selectio
 
 Ungraded example:
 
-<pre><code>#### Select
-key&#58;&#58; next_topic
-content&#58;&#58; Which topic should we cover next?
-options&#58;&#58;
-- Forecasting
-- Governance
-- Technical safety
-required&#58;&#58; true</code></pre>
+{--{"author":"Elias's AI","timestamp":1787221228251}@@<pre><code>#### Select--}{++{"author":"Elias's AI","timestamp":1787221228251}@@> `#### Select`++}
+{--{"author":"Elias's AI","timestamp":1787221228251}@@key&#58;&#58; next_topic--}{++{"author":"Elias's AI","timestamp":1787221228251}@@> `key:: next_topic`++}
+{--{"author":"Elias's AI","timestamp":1787221228251}@@content&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787221228251}@@> `content::++} Which topic should we cover {--{"author":"Elias's AI","timestamp":1787221228251}@@next?--}{++{"author":"Elias's AI","timestamp":1787221228251}@@next?`++}
+{--{"author":"Elias's AI","timestamp":1787221228251}@@options&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787221228251}@@> `options::`++}
+{--{"author":"Elias's AI","timestamp":1787221228251}@@- Forecasting--}{++{"author":"Elias's AI","timestamp":1787221228251}@@> `- Forecasting`++}
+{--{"author":"Elias's AI","timestamp":1787221228251}@@- Governance--}{++{"author":"Elias's AI","timestamp":1787221228251}@@> `- Governance`++}
+{--{"author":"Elias's AI","timestamp":1787221228251}@@---}{++{"author":"Elias's AI","timestamp":1787221228251}@@> `-++} Technical {--{"author":"Elias's AI","timestamp":1787221228251}@@safety--}{++{"author":"Elias's AI","timestamp":1787221228251}@@safety`++}
+{--{"author":"Elias's AI","timestamp":1787221228251}@@required&#58;&#58; true</code></pre>--}{++{"author":"Elias's AI","timestamp":1787221228251}@@> `required:: true`++}
 
 For graded practice or test response, mark correct option with `[x]`:
 
-<pre><code>#### Select
-key&#58;&#58; optimizer
-content&#58;&#58; Which process updates model weights during training?
-options&#58;&#58;
-- Data collection
-- [x] Gradient descent
-- Deployment monitoring
-shuffle&#58;&#58; true
-explanation&#58;&#58; Gradient descent updates weights using gradients of loss.</code></pre>
+{--{"author":"Elias's AI","timestamp":1787221231116}@@<pre><code>#### Select--}{++{"author":"Elias's AI","timestamp":1787221231116}@@> `#### Select`++}
+{--{"author":"Elias's AI","timestamp":1787221231116}@@key&#58;&#58; optimizer--}{++{"author":"Elias's AI","timestamp":1787221231116}@@> `key:: optimizer`++}
+{--{"author":"Elias's AI","timestamp":1787221231116}@@content&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787221231116}@@> `content::++} Which process updates model weights during {--{"author":"Elias's AI","timestamp":1787221231116}@@training?--}{++{"author":"Elias's AI","timestamp":1787221231116}@@training?`++}
+{--{"author":"Elias's AI","timestamp":1787221231116}@@options&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787221231116}@@> `options::`++}
+{--{"author":"Elias's AI","timestamp":1787221231116}@@---}{++{"author":"Elias's AI","timestamp":1787221231116}@@> `-++} Data {--{"author":"Elias's AI","timestamp":1787221231116}@@collection--}{++{"author":"Elias's AI","timestamp":1787221231116}@@collection`++}
+{--{"author":"Elias's AI","timestamp":1787221231116}@@---}{++{"author":"Elias's AI","timestamp":1787221231116}@@> `-++} [x] Gradient {--{"author":"Elias's AI","timestamp":1787221231116}@@descent--}{++{"author":"Elias's AI","timestamp":1787221231116}@@descent`++}
+{--{"author":"Elias's AI","timestamp":1787221231116}@@---}{++{"author":"Elias's AI","timestamp":1787221231116}@@> `-++} Deployment {--{"author":"Elias's AI","timestamp":1787221231116}@@monitoring--}{++{"author":"Elias's AI","timestamp":1787221231116}@@monitoring`++}
+{--{"author":"Elias's AI","timestamp":1787221231116}@@shuffle&#58;&#58; true--}{++{"author":"Elias's AI","timestamp":1787221231116}@@> `shuffle:: true`++}
+{--{"author":"Elias's AI","timestamp":1787221231116}@@explanation&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787221231116}@@> `explanation::++} Gradient descent updates weights using gradients of {--{"author":"Elias's AI","timestamp":1787221231116}@@loss.</code></pre>--}{++{"author":"Elias's AI","timestamp":1787221231116}@@loss.`++}
 
 Options:
 
@@ -109,17 +109,17 @@ Survey selects must use plain list items. Surveys never contain correct-answer m
 
 Add `multi:: true` when learner may select more than one option.
 
-<pre><code>#### Select
-key&#58;&#58; empirical_evidence
-content&#58;&#58; Which two items are empirical evidence?
-options&#58;&#58;
-- [x] A measured benchmark result
-- A definition
-- [x] A randomized trial result
-- A thought experiment
-multi&#58;&#58; true
-shuffle&#58;&#58; true
-explanation&#58;&#58; Measurements and trial results are empirical evidence.</code></pre>
+{--{"author":"Elias's AI","timestamp":1787221234028}@@<pre><code>#### Select--}{++{"author":"Elias's AI","timestamp":1787221234028}@@> `#### Select`++}
+{--{"author":"Elias's AI","timestamp":1787221234028}@@key&#58;&#58; empirical_evidence--}{++{"author":"Elias's AI","timestamp":1787221234028}@@> `key:: empirical_evidence`++}
+{--{"author":"Elias's AI","timestamp":1787221234028}@@content&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787221234028}@@> `content::++} Which two items are empirical {--{"author":"Elias's AI","timestamp":1787221234028}@@evidence?--}{++{"author":"Elias's AI","timestamp":1787221234028}@@evidence?`++}
+{--{"author":"Elias's AI","timestamp":1787221234028}@@options&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787221234028}@@> `options::`++}
+{--{"author":"Elias's AI","timestamp":1787221234028}@@---}{++{"author":"Elias's AI","timestamp":1787221234028}@@> `-++} [x] A measured benchmark {--{"author":"Elias's AI","timestamp":1787221234028}@@result--}{++{"author":"Elias's AI","timestamp":1787221234028}@@result`++}
+{--{"author":"Elias's AI","timestamp":1787221234028}@@---}{++{"author":"Elias's AI","timestamp":1787221234028}@@> `-++} A {--{"author":"Elias's AI","timestamp":1787221234028}@@definition--}{++{"author":"Elias's AI","timestamp":1787221234028}@@definition`++}
+{--{"author":"Elias's AI","timestamp":1787221234028}@@---}{++{"author":"Elias's AI","timestamp":1787221234028}@@> `-++} [x] A randomized trial {--{"author":"Elias's AI","timestamp":1787221234028}@@result--}{++{"author":"Elias's AI","timestamp":1787221234028}@@result`++}
+{--{"author":"Elias's AI","timestamp":1787221234028}@@---}{++{"author":"Elias's AI","timestamp":1787221234028}@@> `-++} A thought {--{"author":"Elias's AI","timestamp":1787221234028}@@experiment--}{++{"author":"Elias's AI","timestamp":1787221234028}@@experiment`++}
+{--{"author":"Elias's AI","timestamp":1787221234028}@@multi&#58;&#58; true--}{++{"author":"Elias's AI","timestamp":1787221234028}@@> `multi:: true`++}
+{--{"author":"Elias's AI","timestamp":1787221234028}@@shuffle&#58;&#58; true--}{++{"author":"Elias's AI","timestamp":1787221234028}@@> `shuffle:: true`++}
+{--{"author":"Elias's AI","timestamp":1787221234028}@@explanation&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787221234028}@@> `explanation::++} Measurements and trial results are empirical {--{"author":"Elias's AI","timestamp":1787221234028}@@evidence.</code></pre>--}{++{"author":"Elias's AI","timestamp":1787221234028}@@evidence.`++}
 
 A graded response is correct only when selected options exactly match every `[x]` option. In surveys, `multi:: true` works the same way but options stay ungraded and use no `[x]` markers.
 
