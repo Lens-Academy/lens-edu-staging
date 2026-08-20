@@ -19,11 +19,11 @@ Use Response segments in:
 
 Syntax is identical in all three places. Context changes whether a response is graded, not how segment is written.
 
-Every answerable segment needs:
+{--{"author":"Elias's AI","timestamp":1787223002440}@@Every answerable segment needs:--}{++{"author":"Elias's AI","timestamp":1787223002440}@@Each section below starts with smallest useful version. Only `id::` and `content::` are shared requirements. Everything else may be left out unless course creator wants different behavior.++}
 
 - `id::`: globally unique UUID. It identifies segment in stored responses, grading, and analytics. Never change it after learners have answered.
 - `content::`: prompt shown to learner.
-- `required:: true`: optional. Response segments are not required by default.
+- `required:: true`: {--{"author":"Elias's AI","timestamp":1787223002440}@@optional. Response segments are not required by default.--}{++{"author":"Elias's AI","timestamp":1787223002440}@@require response before learner can continue. Defaults to `false`, so leave it out when response may be skipped.++}
 
 Lens Editor should create `id::` automatically. When writing course files by hand, generate UUID at [uuidgenerator.net/version4](https://www.uuidgenerator.net/version4). Tools and language models can request one from [uuidgenerator.net/api/version4](https://www.uuidgenerator.net/api/version4).
 
