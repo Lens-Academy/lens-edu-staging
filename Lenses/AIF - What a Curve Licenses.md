@@ -16,7 +16,7 @@ You now have a probe of what compute buys and a base rate for cliffs. Now: what 
 content::
 \## The wedge
 
-A colleague shows you a chart and an argument.
+A colleague {--{"author":"Lauren's AI","timestamp":1787209462761}@@shows--}{++{"author":"Lauren's AI","timestamp":1787209462761}@@talks++} you {--{"author":"Lauren's AI","timestamp":1787209462761}@@a chart and an argument.--}{++{"author":"Lauren's AI","timestamp":1787209462761}@@through their results.++}
 
 "Here is our AI's score on a coding benchmark[^benchmark], measured every quarter for three years. It is a clean exponential[^exponential], R-squared 0.97[^rsq], and it held across two complete architecture changes, so it is clearly not an artifact of any one approach. The benchmark tops out at 100. We are at 61. At this rate we saturate it in fourteen months. So: fourteen months until this benchmark is solved, and I am confident because the fit is excellent."
 
@@ -26,7 +26,7 @@ A colleague shows you a chart and an argument.
 
 Every factual claim your colleague makes is true. The fit really is 0.97, it really did survive two architecture changes, and the arithmetic is right.
 
-Where does the argument stop being licensed by the data? And what would you have to know, that is not on the chart, before the fourteen-month figure meant anything?
+Where does the argument stop being licensed by the data? And what would you have to know, that {--{"author":"Lauren's AI","timestamp":1787209467076}@@is --}{++{"author":"Lauren's AI","timestamp":1787209467076}@@they have ++}not {--{"author":"Lauren's AI","timestamp":1787209467076}@@on the chart,--}{++{"author":"Lauren's AI","timestamp":1787209467076}@@told you,++} before the fourteen-month figure meant anything?
 
 assessment-instructions:: The student has completed the compute lens (Fun with +12 OOMs, what compute buys) and the base-rates lens (When Progress Jumps, base rates for discontinuities). Those are the tools this wedge wants. Refer to lenses by name, never by number; numbering conventions differ across files.
 
