@@ -13,7 +13,7 @@ content::
 
 **Metacognitive offloading** means delegating that oversight itself. You stop deciding which tasks to hand off and which to keep. The system decides for you.
 
-This course uses the term "metacognitive offloading" rather than the alternative "metacognitive laziness". The laziness framing blames the user: it suggests you are {++{"author":"coder's AI","timestamp":1787265422934}@@simply ++}not thinking hard enough about your own thinking.{--{"author":"coder's AI","timestamp":1787265422934}@@ Researchers renamed it "metacognitive offloading" because the laziness--}{++{"author":"coder's AI","timestamp":1787265422934}@@ That++} framing is wrong twice over. The habit is not mainly a personal failing, and it is not random. It is a predictable response to a system that makes offloading effortless.{--{"author":"coder's AI","timestamp":1787265422934}@@ The name now--}{++{"author":"coder's AI","timestamp":1787265422934}@@ "Metacognitive offloading"++} points at the system and the habit, not the user's character.
+This course uses the term "metacognitive offloading" rather than the alternative "metacognitive laziness". The laziness framing blames the user: it suggests you are simply not thinking hard enough about your own thinking. That framing is wrong twice over. The habit is not mainly a personal failing, and it is not random. It is a predictable response to a system that makes offloading effortless. "Metacognitive offloading" points at the system and the habit, not the user's character.
 
 The difference matters, and the calculator shows it. We offload the arithmetic to a calculator, but most of us still understand what a sum means. We could check the answer, and we know what would count as a weird result. The judgement stays ours. That is offloading a task.
 
@@ -35,7 +35,7 @@ assessment-instructions:: The student has just read a short teaching piece on me
 Key concepts in the piece:
 - Metacognition: thinking about how we think; planning, reviewing, and questioning our own process
 - Metacognitive offloading: delegating the oversight itself, including the decision about which tasks to hand off and which to keep
-- Why {--{"author":"coder's AI","timestamp":1787265424066}@@the name changed:--}{++{"author":"coder's AI","timestamp":1787265424066}@@this course prefers++} "metacognitive {--{"author":"coder's AI","timestamp":1787265424066}@@laziness" blamed--}{++{"author":"coder's AI","timestamp":1787265424066}@@offloading" to "metacognitive laziness": the laziness label blames++} the user; {--{"author":"coder's AI","timestamp":1787265424066}@@"metacognitive offloading"--}{++{"author":"coder's AI","timestamp":1787265424066}@@"offloading"++} points at the system and the habit
+- Why this course prefers "metacognitive offloading" to "metacognitive laziness": the laziness label blames the user; "offloading" points at the system and the habit
 - The calculator example: offloading the arithmetic while the judgement stays with us
 - Arbitrary offloading: handing off a decision we do not understand at all, so the judgement leaves us
 - The LLM push: delegating "how to break a difficult problem down" delegates a large part of the thinking
