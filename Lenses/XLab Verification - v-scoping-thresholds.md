@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218169255}@@---
+---
 id: 'd7c78491-f02b-42e9-8c7e-459cf25b3e8d'
 title: "1.0.1 Drawing the Line: Compute vs. Capability"
 tldr: "Faithful alpha import of XLab lesson 1.0.1 Drawing the Line: Compute vs. Capability."
@@ -40,4 +40,3 @@ If you're interested in learning more about evals and their limitations, here ar
 - [We need a science of evals](https://www.apolloresearch.ai/science/we-need-a-science-of-evals) (Apollo Research)
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-thresholds)*
-++}

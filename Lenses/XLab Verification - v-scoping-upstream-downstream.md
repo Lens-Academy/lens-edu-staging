@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218169952}@@---
+---
 id: '61088782-f0b8-4eeb-9787-1e6c80760ae9'
 title: "1.3 Upstream and downstream"
 tldr: "Faithful alpha import of XLab lesson 1.3 Upstream and downstream."
@@ -83,4 +83,3 @@ content:: **Import gap:** XLab persistent memo desk has no clean Lens equivalent
 #### Text
 content::
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-upstream-downstream)*
-++}
