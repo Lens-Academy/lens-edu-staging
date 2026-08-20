@@ -19,7 +19,7 @@ Syntax is identical in all three places. Context changes whether an answer is gr
 
 Every answerable segment needs:
 
-- `key&#58;&#58;`: stable `snake_case` identifier, unique within that survey, lens, or test.
+- {--{"author":"Elias's AI","timestamp":1787220868622}@@`key&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220868622}@@`key::`:++} stable `snake_case` identifier, unique within that survey, lens, or test.
 - `content&#58;&#58;`: prompt shown to learner.
 - `required&#58;&#58; true`: optional. Questions are not required by default.
 
