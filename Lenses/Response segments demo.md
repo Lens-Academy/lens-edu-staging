@@ -214,7 +214,7 @@ Try it:
 
 #### FillBlank
 id:: 1211df1d-70e8-4b93-a3b6-1ce44460ed1f
-content:: Earth is approximately {{number [147.5, 152.5]}} million km from Sun.
+content:: Earth is approximately {{number {--{"author":"Elias's AI","timestamp":1787226396446}@@[147.5, 152.5]}} million--}{++{"author":"Elias's AI","timestamp":1787226396446}@@147,500,000 to 152,000,000}}++} km from Sun.
 
 #### Text
 content::
