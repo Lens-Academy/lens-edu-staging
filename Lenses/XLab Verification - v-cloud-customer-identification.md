@@ -2,7 +2,7 @@
 id: '3eadac2f-e82d-478a-9c1e-0b5a6136c211'
 title: "2.2.2 Customer identification and ongoing monitoring"
 tldr: "Faithful alpha import of XLab lesson 2.2.2 Customer identification and ongoing monitoring."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Interactive elements marked as import gaps must be completed on XLab until Lens has an equivalent."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257244145}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257244145}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257244145}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257244145}@@ XLab."++}
 tags: [wip]
 ---
 #### Text

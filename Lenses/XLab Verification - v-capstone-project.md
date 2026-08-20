@@ -2,7 +2,7 @@
 id: '604bd0b7-483a-4f65-b8ae-49bda77adb57'
 title: "4.2 Capstone project"
 tldr: "Faithful alpha import of XLab lesson 4.2 Capstone project."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Interactive elements marked as import gaps must be completed on XLab until Lens has an equivalent."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257239663}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257239663}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257239663}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257239663}@@ XLab."++}
 tags: [wip]
 ---
 #### Text
