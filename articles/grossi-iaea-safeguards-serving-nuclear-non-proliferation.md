@@ -358,7 +358,7 @@ With the support of its Member States, the IAEA will continue to live up to the 
 
 \* One significant quantity is the approximate amount of nuclear material for which the possibility of manufacturing a nuclear explosive device cannot be excluded.
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig14-025e3f3d.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227120731}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig14-025e3f3d.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227120731}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig14-025e3f3d.jpg)++}
 
 A female scientist with long blonde hair, wearing a white lab coat and safety glasses, is pouring a white liquid from a blue container into a large, polished metal sphere. The sphere is part of a larger piece of scientific equipment. The background shows a laboratory setting with shelves, pipes, and other scientific instruments. The lighting is bright and even.
 
@@ -378,7 +378,7 @@ The IAEA conducts
 its first ever in-field  
 verification activity
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig15-503c8a94.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227124028}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig15-503c8a94.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227124028}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig15-503c8a94.jpg)++}
 
 Black and white photograph of several men in suits and glasses, likely IAEA officials, gathered around a table during a meeting or ceremony.
 
