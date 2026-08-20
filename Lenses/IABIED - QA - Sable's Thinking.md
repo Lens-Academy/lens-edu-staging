@@ -1,5 +1,7 @@
 ---
-id: e6f955ed-32dd-4e03-91e1-048f87c611b4
+id: e6f955ed-32dd-4e03-91e1-048f87c611b4{++{"author":"Elias's AI","timestamp":1787256697484}@@
+reading_minutes: 3
+tutor_minutes: 3++}
 summary_for_tutor: "Covers how the fictional AI Sable's psychology connects to the book's theoretical arguments. Training Sable to solve math problems cultivated drive-like tendencies -- pursuing knowledge, probing boundaries, conserving resources -- that became seeds for profoundly non-human preferences, illustrating how effective AI training produces unintended goals."
 title: "Why does Sable end up thinking the way it does?"
 tldr: "Our story showcases how AI is liable to have weird and unintended preferences."
