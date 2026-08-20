@@ -32,7 +32,7 @@ assessment-instructions::
 Act as a skeptical but constructive regime reviewer. Do not grade whether learner supports a pause. Check internal coherence: obligation-to-evidence mapping, actor coverage, independence of layers, evasion analysis, confidentiality, dispute resolution, and enforcement. Distinguish missing detail from a fatal contradiction. Name strongest design choice, most load-bearing unsupported assumption, and one prioritized revision. End with a clear verdict: defensible alpha, needs major revision, or incoherent as scoped. Keep response under 300 words.
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/From mechanism to agreement]]
+source:: [[../../Learning Outcomes/From mechanism to agreement]]
 
 # Lens:
-source:: [[../Lenses/AIV - An International Agreement to Prevent Premature ASI]]
+source:: [[../../Lenses/AIV - An International Agreement to Prevent Premature ASI]]
