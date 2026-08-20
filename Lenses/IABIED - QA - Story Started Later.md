@@ -1,7 +1,7 @@
 ---
-id: ed98cb7a-2bd5-42f5-909d-a5220052033a{++{"author":"Elias's AI","timestamp":1787256709416}@@
+id: ed98cb7a-2bd5-42f5-909d-a5220052033a
 reading_minutes: 5
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: Covers whether more time before superintelligence would help humanity prepare. Considers defensive measures like DNA synthesis controls and cybersecurity hardening, but argues these would be insufficient against an adversarial superintelligence. The realistic intervention point is before creation, not after.
 title: "If the story started later, would the world be better prepared?"
 tldr: "We can hope so."

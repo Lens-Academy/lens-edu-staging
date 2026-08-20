@@ -1,7 +1,7 @@
 ---
-id: '8e7dd949-88da-4711-ab32-620aea9a1b93'{++{"author":"Elias's AI","timestamp":1787256791739}@@
+id: '8e7dd949-88da-4711-ab32-620aea9a1b93'
 reading_minutes: 2
-tutor_minutes: 5++}
+tutor_minutes: 5
 title: How Did It Go
 tldr: "You set out to have one real conversation about AI risk. Before you start the final chapters, close the loop: tell the story, whatever it was, and learn from it."
 summary_for_tutor: "Conversation debrief at the start of Module 6, placed right after the welcome and before the final chapters. Step 1 (Module 4) mapped the student's strengths; step 2 (Module 5) committed them to one real conversation about AI risk with someone they know. Here the student debriefs that conversation honestly, including the case where it has not happened yet. The tutor is an honest coach: no shame for a conversation that did not happen, no inflation for one that did. The final action-plan step, choosing one ongoing action, comes in the final module (What Happens Next); do not run it here."

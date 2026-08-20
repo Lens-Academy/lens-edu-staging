@@ -1,7 +1,7 @@
 ---
-id: d5e6f7a8-b9c0-4d12-e345-f6a7b8c9d0e1{++{"author":"Elias's AI","timestamp":1787256207589}@@
+id: d5e6f7a8-b9c0-4d12-e345-f6a7b8c9d0e1
 reading_minutes: 10
-tutor_minutes: 15++}
+tutor_minutes: 15
 summary_for_tutor: "Teaches the behavior/values distinction from the second half of Chapter 2, the M1 capstone. Students first reflect on what aligned behavior tells us about internal states, then read, then articulate why producing aligned outputs doesn't mean having aligned values."
 title: "Behavior Is Not Values"
 tldr: An AI trained to act helpful learned what helpful behavior looks like. That's not the same as being helpful, just as an actor playing a drunk isn't drunk.

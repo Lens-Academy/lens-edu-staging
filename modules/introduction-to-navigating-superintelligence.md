@@ -12,8 +12,8 @@ source:: [[../Learning Outcomes/Objections and Rebuttals]]
 id:: a1b2c3d4-5678-90ab-cdef-1234567890ab
 tldr:: What does the potential of AI actually mean for humanity, and where do its risks and opportunities come from? This opening lens sets up the module's examination of the technology's defining characteristics.
 summary_for_tutor:: Short welcome lens introducing the module: it frames the examination of AI's potential and the risks and opportunities arising from the technology's characteristics. Framing text only; substantive teaching happens in the following lenses.
-{++{"author":"Elias's AI","timestamp":1787256048447}@@reading_minutes:: 2
-++}#### Text
+reading_minutes:: 2
+#### Text
 content::
 We begin by examining the potential of AI and the risks and opportunities that the characteristics of this technology present to humanity.
 

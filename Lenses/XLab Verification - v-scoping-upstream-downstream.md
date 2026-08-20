@@ -2,7 +2,7 @@
 id: '61088782-f0b8-4eeb-9787-1e6c80760ae9'
 title: "1.3 Upstream and downstream"
 tldr: "Faithful alpha import of XLab lesson 1.3 Upstream and downstream."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257463184}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257463184}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257463184}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257463184}@@ XLab."++}
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
 tags: [wip]
 ---
 #### Text
@@ -15,11 +15,9 @@ Put yourself on an IAEA verification team at the Fordow Fuel Enrichment Plant in
 
 Your first draft of the central finding reads:
 
-{--{"author":"Elias's AI","timestamp":1787256933403}@@> **Note**
-
---}{++{"author":"Elias's AI","timestamp":1787256933403}@@:::callout {title="Initial finding" tone="red"}
-++}"Enrichment at Fordow is 60 percent U-235, below weapons grade, and the facility's operating records match the declaration."{++{"author":"Elias's AI","timestamp":1787256933403}@@
-:::++}
+:::callout {title="Initial finding" tone="red"}
+"Enrichment at Fordow is 60 percent U-235, below weapons grade, and the facility's operating records match the declaration."
+:::
 
 #### Question
 content:: Pause before reading on. What is wrong with this sentence? Every clause in it is true.
@@ -39,11 +37,9 @@ Here the independent stream is decisive. Inspectors swiped surfaces at Fordow an
 
 A revision that keeps each source attached to its claim:
 
-{--{"author":"Elias's AI","timestamp":1787256937637}@@> **Note**
-
---}{++{"author":"Elias's AI","timestamp":1787256937637}@@:::callout {title="Revised finding" tone="green"}
-++}"Iran declares enrichment at Fordow to 60 percent U-235, and the operating records kept by the Atomic Energy Organization of Iran agree with that declaration. Environmental swipe samples the Agency collected on 22 January 2023 contained particles enriched to 83.7 percent U-235, above the declared level and approaching weapons grade, and inspectors found two IR-6 cascades configured substantially differently from the declaration. Iran attributes the particles to unintended fluctuations while transitioning cascades toward 60 percent production. The Agency has not confirmed that account, and discussions to clarify the matter are ongoing."{++{"author":"Elias's AI","timestamp":1787256937637}@@
-:::++}
+:::callout {title="Revised finding" tone="green"}
+"Iran declares enrichment at Fordow to 60 percent U-235, and the operating records kept by the Atomic Energy Organization of Iran agree with that declaration. Environmental swipe samples the Agency collected on 22 January 2023 contained particles enriched to 83.7 percent U-235, above the declared level and approaching weapons grade, and inspectors found two IR-6 cascades configured substantially differently from the declaration. Iran attributes the particles to unintended fluctuations while transitioning cascades toward 60 percent production. The Agency has not confirmed that account, and discussions to clarify the matter are ongoing."
+:::
 
 The revision is longer and less quotable. In exchange, every claim now carries its source, and a reader can weigh each one against the actor that produced it. That matters because your readers will apply the same test to you.
 

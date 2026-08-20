@@ -1,7 +1,7 @@
 ---
-id: 'c3083a7a-5818-4975-ba77-b7cbf9d5b603'{++{"author":"Elias's AI","timestamp":1787256309359}@@
+id: 'c3083a7a-5818-4975-ba77-b7cbf9d5b603'
 reading_minutes: 25
-tutor_minutes: 8++}
+tutor_minutes: 8
 title: "The Case Against Control"
 tldr: A large part of the field works on containing AI rather than aiming it. Decide when that is the right move and what it costs.
 summary_for_tutor: "Closes Unit 3. States the case FOR control fairly, then asks the student to name the conditions under which control is right and one thing it makes worse. Two short critical readings follow. One mirror, no grade."
