@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787219904008}@@---
+{++{"author":"Elias's AI","timestamp":1787219906853}@@---
 id: '0a7b39f9-e1e1-43bd-8a55-4bd3a0397cbd'
 title: Question types specification
 tldr: One Question segment can collect text, ratings, choices, or a fill-in-the-blank answer in surveys, practice lenses, and learning-outcome tests.
@@ -125,7 +125,7 @@ With `multi&#58;&#58; true`, learners may select multiple options. A scored answ
 Place exactly one `{{blank}}` marker in `content&#58;&#58;`.
 
 ```md
-#### Question
+\#### Question
 type&#58;&#58; fill-blank
 key&#58;&#58; training_method
 content&#58;&#58; Model weights are commonly updated using {{blank}}.
