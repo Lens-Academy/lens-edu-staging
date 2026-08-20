@@ -9,19 +9,19 @@ summary_for_tutor: Reference page for course creators. It documents {--{"author"
 content::
 \## {--{"author":"Elias's AI","timestamp":1787221130222}@@Questions--}{++{"author":"Elias's AI","timestamp":1787221130222}@@Response segments++} work in three places
 
-Use question segments in:
+Use {--{"author":"Elias's AI","timestamp":1787221133420}@@question--}{++{"author":"Elias's AI","timestamp":1787221133420}@@Response++} segments in:
 
 - **Surveys** to collect ungraded responses.
 - **Normal lenses** for practice, reflection, and checks for understanding.
 - **Learning Outcome tests** for graded assessment.
 
-Syntax is identical in all three places. Context changes whether an answer is graded, not how the question is written.
+Syntax is identical in all three places. Context changes whether {--{"author":"Elias's AI","timestamp":1787221136259}@@an answer--}{++{"author":"Elias's AI","timestamp":1787221136259}@@a response++} is graded, not how {--{"author":"Elias's AI","timestamp":1787221136259}@@the question--}{++{"author":"Elias's AI","timestamp":1787221136259}@@segment++} is written.
 
 Every answerable segment needs:
 
 - `key::`: stable `snake_case` identifier, unique within that survey, lens, or test.
 - `content::`: prompt shown to learner.
-- `required:: true`: optional. Questions are not required by default.
+- `required:: true`: optional. {--{"author":"Elias's AI","timestamp":1787221141225}@@Questions--}{++{"author":"Elias's AI","timestamp":1787221141225}@@Response segments++} are not required by default.
 
 Never change `key::` after learners have answered. Stored answers use this key.
 
