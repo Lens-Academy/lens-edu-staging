@@ -19,7 +19,7 @@ Everyday examples are around you.
 - A spellchecker offloads spelling.
 - Asking a colleague offloads a judgement, for example "which of these two options is safer?"
 
-Offloading is not new. In fact, our thinking has always lived partly outside our heads. Psychologists call the broader pattern **distributed cognition**. This article excerpt explains distributed cognition. Put simply, the mental work of a task is spread across people and tools, not confined to a single head.
+Offloading is not new. In fact, our thinking has always lived partly outside our heads. Psychologists call the broader pattern **distributed cognition**. This article excerpt explains distributed cognition.
 
 #### Article
 source:: [[../articles/the-decision-lab-distributed-cognition]]
@@ -28,7 +28,7 @@ to:: "but a new way of viewing how cognition works.3"
 
 #### Text
 ::content
-Humans have always shared thinking across tools and other people. A paper map still holds part of the navigation. Tables, slide rules, and calculators have handled arithmetic long before computers. 
+Put simply, the mental work of a task is spread across people and tools, not confined to a single head. Humans have always shared thinking across tools and other people. A paper map still holds part of the navigation. Tables, slide rules, and calculators have handled arithmetic long before computers. 
 
 Why does offloading feel so good? Brains are built to save effort. When a task ends successfully, the brain learns a shortcut for next time. Offloading is the same instinct, applied to tools: get the result with less work. It is not a character flaw. It is the default setting.
 
