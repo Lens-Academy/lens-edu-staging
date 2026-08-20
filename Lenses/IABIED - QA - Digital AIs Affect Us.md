@@ -1,7 +1,7 @@
 ---
-id: 02188337-ed24-4043-a42d-d3cc6945d58a{++{"author":"Elias's AI","timestamp":1787256656379}@@
+id: 02188337-ed24-4043-a42d-d3cc6945d58a
 reading_minutes: 3
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: Covers how digital AIs can affect the physical world through internet access. Argues that AI can pay, blackmail, trick, or ask humans for help, analogous to criminals running empires from prison. Notes real examples of AIs mobilizing users for physical events and the increasing availability of robots as physical extensions.
 title: "How will AIs be able to affect us if they're digital?"
 tldr: "Being on a computer connected to the internet isn't much of a limitation."

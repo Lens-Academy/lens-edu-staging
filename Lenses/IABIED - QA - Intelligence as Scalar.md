@@ -1,7 +1,7 @@
 ---
-id: a8fd7f0e-f120-4695-bdb2-69fdda698bae{++{"author":"Elias's AI","timestamp":1787256124602}@@
+id: a8fd7f0e-f120-4695-bdb2-69fdda698bae
 reading_minutes: 3
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: Concedes that intelligence is not a simple scalar quantity but multi-dimensional with bottlenecks and plateaus. Argues this complexity does not prevent AI from vastly surpassing humans, just as the human-chimpanzee gap emerged despite intelligence not being one-dimensional. Biological brains have limitations absent in AI, enabling qualitative leaps.
 title: "Is 'intelligence' a simple scalar quantity?"
 tldr: "No. But there are levels AI hasn't reached."

@@ -1,7 +1,7 @@
 ---
-id: c4d5e6f7-a8b9-4c01-d234-e5f6a7b8c9d0{++{"author":"Elias's AI","timestamp":1787256203821}@@
+id: c4d5e6f7-a8b9-4c01-d234-e5f6a7b8c9d0
 reading_minutes: 20
-tutor_minutes: 15++}
+tutor_minutes: 15
 summary_for_tutor: "Teaches the gradient descent / grown-not-crafted framework from the first half of Chapter 2. Students first reflect on how they imagine modern AI is made, then read about gradient descent, then articulate why knowing the training process doesn't mean knowing what the model learned."
 title: "AI Is Grown, Not Crafted"
 tldr: Engineers wrote the training process. They didn't write the AI. Like a parent who knows how babies are made but not what the baby will become.

@@ -1,7 +1,7 @@
 ---
-id: 0528f8e9-82f9-4c14-8ec1-b538ca87246e{++{"author":"Elias's AI","timestamp":1787256796899}@@
+id: 0528f8e9-82f9-4c14-8ec1-b538ca87246e
 reading_minutes: 2
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: "Sets up the ladder-in-the-dark argument by prompting the student to think about competitive races and whether shared knowledge of risk is enough to stop them. Activates intuitions about collective action problems before the chapter introduces the structural argument."
 title: "Pre-Reading Question - Ladder in the Dark"
 tldr: Before reading, think about what it would actually take to stop a competitive race, even one everyone knows is dangerous.

@@ -1,7 +1,7 @@
 ---
-id: '46f005d9-6e4e-49e9-a584-c2ab5492aecf'{++{"author":"Elias's AI","timestamp":1787256282430}@@
+id: '46f005d9-6e4e-49e9-a584-c2ab5492aecf'
 reading_minutes: 10
-tutor_minutes: 5++}
+tutor_minutes: 5
 title: "The Ten People"
 tldr: When no plan arrives from outside, the only resource left is the people already inside. What ten people in a racing lab can still achieve, and what it costs them.
 summary_for_tutor: "Middle lens of Unit 4. Pre-question puts the student inside a racing lab as one of ten safety-minded insiders and asks what they would spend their limited influence on; then they read Shlegeris. One mirror, no grade."

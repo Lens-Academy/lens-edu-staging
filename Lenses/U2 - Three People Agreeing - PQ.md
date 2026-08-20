@@ -1,7 +1,7 @@
 ---
-id: '6d12511c-9612-4bb8-ac11-7079b34ce883'{++{"author":"Elias's AI","timestamp":1787256175602}@@
+id: '6d12511c-9612-4bb8-ac11-7079b34ce883'
 reading_minutes: 2
-tutor_minutes: 3++}
+tutor_minutes: 3
 title: "Three People Agreeing"
 tldr: Three forecasters say 60%, 65%, and 70%. Write down your combined estimate, and the rule you used to get it, before you read on.
 summary_for_tutor: "Pre-reading question for the aggregation material. Pumps the range-preserving intuition so the extremization result can break it. Do not explain extremization here, do not mention the prior, and do not give the coin example."

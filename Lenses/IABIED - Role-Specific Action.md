@@ -1,7 +1,7 @@
 ---
-id: 0a519e2f-1364-9597-2cbd-34e5f6789012{++{"author":"Elias's AI","timestamp":1787256808276}@@
+id: 0a519e2f-1364-9597-2cbd-34e5f6789012
 reading_minutes: 15
-tutor_minutes: 15++}
+tutor_minutes: 15
 summary_for_tutor: "Teaches the chapter's role-specific calls to action from the second section of Chapter 14. Students read the calls to governments, elected officials, skeptical politicians, journalists, and ordinary citizens, then distinguish the specific levers each group holds that the others cannot provide."
 title: "Role-Specific Action"
 tldr: "Governments, politicians, journalists, and citizens each hold a lever that others can't pull. The chapter's final ask is that each group pull theirs."
