@@ -29,8 +29,8 @@ Never change `key&#58;&#58;` after learners have answered. Stored answers use th
 
 Use `#### Question` when learner should type or dictate a response.
 
-```md
-\#### Question
+{--{"author":"Elias's AI","timestamp":1787220805012}@@```md
+\####--}{++{"author":"Elias's AI","timestamp":1787220805012}@@<pre><code>####++} Question
 key&#58;&#58; strongest_objection
 content&#58;&#58; In two sentences, what is the strongest objection?
 required&#58;&#58; true
@@ -39,8 +39,8 @@ placeholder&#58;&#58; Name the claim, then explain objection.
 max-time&#58;&#58; 3:00
 enforce-voice&#58;&#58; false
 assessment-instructions&#58;&#58; Check whether learner names a claim and gives a relevant objection.
-feedback&#58;&#58; true
-```
+feedback&#58;&#58; {--{"author":"Elias's AI","timestamp":1787220805012}@@true
+```--}{++{"author":"Elias's AI","timestamp":1787220805012}@@true</code></pre>++}
 
 Options:
 
@@ -57,15 +57,15 @@ Surveys do not use `assessment-instructions&#58;&#58;` or `feedback&#58;&#58;`. 
 
 Use `#### Rating` for numbered scale from 1 to N.
 
-```md
-\#### Rating
+{--{"author":"Elias's AI","timestamp":1787220807924}@@```md
+\####--}{++{"author":"Elias's AI","timestamp":1787220807924}@@<pre><code>####++} Rating
 key&#58;&#58; confidence
 content&#58;&#58; How confident are you in your answer?
 scale&#58;&#58; 7
 low-label&#58;&#58; Not confident
 high-label&#58;&#58; Very confident
-required&#58;&#58; true
-```
+required&#58;&#58; {--{"author":"Elias's AI","timestamp":1787220807924}@@true
+```--}{++{"author":"Elias's AI","timestamp":1787220807924}@@true</code></pre>++}
 
 Options:
 
