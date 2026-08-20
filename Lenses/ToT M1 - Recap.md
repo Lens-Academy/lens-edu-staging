@@ -9,14 +9,12 @@ tags:
 
 #### Text
 content::
-\## Unit 1 {--{"author":"AI","timestamp":1787259401722}@@recap: putting the pieces together--}{++{"author":"AI","timestamp":1787259401722}@@recap++}
-You have finished Unit 1.{--{"author":"AI","timestamp":1787259401722}@@ Two teaching pieces stand behind you. --}{++{"author":"AI","timestamp":1787259401722}@@ It had two short readings.
+\## Unit 1 recap
+You have finished Unit 1. It had two short readings.
 
-++}The first {--{"author":"AI","timestamp":1787259401722}@@was about what cognition--}{++{"author":"AI","timestamp":1787259401722}@@showed that handing thinking to a tool or to another person is normal, not lazy,++} and {--{"author":"AI","timestamp":1787259401722}@@cognitive offloading are, and why offloading--}{++{"author":"AI","timestamp":1787259401722}@@that it costs something quiet: the skill you offload++} is {--{"author":"AI","timestamp":1787259401722}@@a normal human habit.--}{++{"author":"AI","timestamp":1787259401722}@@the skill you stop practising.++} The second {--{"author":"AI","timestamp":1787259401722}@@was about how offloading to an AI differs from offloading to earlier tools.
+The first showed that handing thinking to a tool or to another person is normal, not lazy, and that it costs something quiet: the skill you offload is the skill you stop practising. The second showed why an AI is not just a faster calculator — it gives you the judgement along with the answer, and you cannot check its work the way you can check a sum.
 
-Hold both pieces together, then--}{++{"author":"AI","timestamp":1787259401722}@@showed why an AI is not just a faster calculator — it gives you the judgement along with the answer, and you cannot check its work the way you can check a sum.
-
-Now++} answer the two checks below in your own words. {--{"author":"AI","timestamp":1787259401722}@@They close the unit the way each teaching piece closed itself: show the habit, name its cost, and say what actually differs when the tool is an AI.--}{++{"author":"AI","timestamp":1787259401722}@@The first asks you to defend offloading against someone who calls it laziness. The second asks you to explain why an AI assistant is not just a faster calculator. Use examples from your own life where you can.++}
+Now answer the two checks below in your own words. The first asks you to defend offloading against someone who calls it laziness. The second asks you to explain why an AI assistant is not just a faster calculator. Use examples from your own life where you can.
 
 #### Question
 content::
