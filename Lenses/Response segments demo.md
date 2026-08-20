@@ -21,18 +21,20 @@ Syntax is identical in all three places. Context changes whether a response is g
 
 Every answerable segment needs:
 
-- `key::`: stable `snake_case` identifier, unique within that survey, lens, or test.
+- {--{"author":"Elias's AI","timestamp":1787222606681}@@`key::`: stable `snake_case` identifier, unique within that survey, lens, or test.--}{++{"author":"Elias's AI","timestamp":1787222606681}@@`id::`: globally unique UUID. It identifies segment in stored responses, grading, and analytics. Never change it after learners have answered.++}
 - `content::`: prompt shown to learner.
 - `required:: true`: optional. Response segments are not required by default.
 
-Never change `key::` after learners have answered. Stored answers use this key.
+{--{"author":"Elias's AI","timestamp":1787222606681}@@Never change `key::` after learners have answered. Stored answers use this--}{++{"author":"Elias's AI","timestamp":1787222606681}@@Lens Editor should create `id::` automatically. When writing course files by hand, generate UUID at [uuidgenerator.net/version4](https://www.uuidgenerator.net/version4). Tools and language models can request one from [uuidgenerator.net/api/version4](https://www.uuidgenerator.net/api/version4).
+
+Response segments do not need a separate human-readable++} key.
 
 \## Open response
 
 Use `#### OpenResponse` when learner should type or dictate a response.
 
 > `#### OpenResponse`
-> `key:: strongest_objection`
+> {--{"author":"Elias's AI","timestamp":1787222609266}@@`key:: strongest_objection`--}{++{"author":"Elias's AI","timestamp":1787222609266}@@`id:: 1e39cdb1-a286-427d-ac65-580fe8d5c17e`++}
 > `content:: In two sentences, what is the strongest objection?`
 > `required:: true`
 > `max-chars:: 500`
