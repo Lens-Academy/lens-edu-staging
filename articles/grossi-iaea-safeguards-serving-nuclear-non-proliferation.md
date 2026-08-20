@@ -53,7 +53,7 @@ Every year, more countries are constructing new and novel nuclear facilities, wh
 
 Maintaining a strong and agile safeguards regime remains essential. To do this, safeguards must be able to count on the support and active engagement of its many stakeholders, at every level. Safeguards must also be underpinned by a robust legal framework, including the rights and
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig2-5d31fc32.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227077842}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig2-5d31fc32.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227077842}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig2-5d31fc32.jpg)++}
 
 A portrait of Rafael Mariano Grossi, Director General of the IAEA. He is a middle-aged man with grey hair, smiling warmly at the camera. He is wearing a dark grey suit jacket, a light blue patterned shirt, and a blue tie with a gold pattern. His hands are resting on a light-colored surface in front of him. In the background, a portion of the IAEA logo, which features a stylized atom symbol, is visible against a blue backdrop.
 
@@ -75,7 +75,7 @@ This brochure is designed to help explain IAEA safeguards at a time when demand 
 Deputy Director General and Head  
 of the IAEA Department of Safeguards**
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig3-14da1429.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227081017}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig3-14da1429.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227081017}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig3-14da1429.jpg)++}
 
 A portrait of Massimo Aparo, a man with grey hair and a beard, wearing a dark blue suit, white shirt, and patterned tie. He is looking directly at the camera with a slight smile. Behind him is a portion of the IAEA flag, which is blue with a white stylized atom symbol.
 
@@ -99,7 +99,7 @@ By providing credible assurances that States are meeting their nuclear non-proli
 “The IAEA’s strong, diverse workforce is our greatest asset in ensuring that no potential nuclear proliferation effort goes undetected.”  
 .....
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig4-361d37bd.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227084168}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig4-361d37bd.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227084168}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig4-361d37bd.jpg)++}
 
 A person wearing a white protective suit, a white hard hat, safety goggles, and a white face mask is working in a laboratory or industrial setting. They are holding a blue piece of equipment, which appears to be a camera or a sensor, and are looking at it closely. The background shows various pieces of equipment, including a blue cabinet and a shelf with many small containers.
 
