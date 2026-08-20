@@ -205,8 +205,8 @@ content::
 Optional fields:
 
 - `required:: true`: require every blank. Defaults to `false`.
-- `explanation:: ...`: show fixed text after submission. Defaults to no explanation.
-- `feedback:: true`: ask AI to provide feedback after submission. Defaults to `false`. On ungraded blanks, feedback is coaching only and does not assign correctness.
+- {--{"author":"Elias's AI","timestamp":1787224178703}@@`explanation::--}{++{"author":"Elias's AI","timestamp":1787224178703}@@`feedback-instructions::++} ...`: {--{"author":"Elias's AI","timestamp":1787224178703}@@show fixed text after submission. --}{++{"author":"Elias's AI","timestamp":1787224178703}@@ask AI to provide learner-facing feedback. ++}Defaults to no{--{"author":"Elias's AI","timestamp":1787224178703}@@ explanation.
+- `feedback:: true`: ask--} AI {--{"author":"Elias's AI","timestamp":1787224178703}@@to provide --}feedback {--{"author":"Elias's AI","timestamp":1787224178703}@@after submission. Defaults to `false`.--}{++{"author":"Elias's AI","timestamp":1787224178703}@@when omitted.++} On ungraded blanks, feedback is coaching only and does not assign correctness.
 
 Within one FillBlank segment, use either answer-bearing blanks or ungraded `{{blank}}` markers, not both.
 
