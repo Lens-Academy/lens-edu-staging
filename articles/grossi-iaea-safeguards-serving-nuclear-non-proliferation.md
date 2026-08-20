@@ -19,7 +19,7 @@ Add discussion note here:
 
 %%
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig1-bb6dc5b6.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227074741}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig1-bb6dc5b6.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227074741}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig1-bb6dc5b6.jpg)++}
 
 A photograph of four individuals in white protective suits walking on a metal walkway in a nuclear facility. The walkway is elevated and has metal railings. Below the walkway is a large pool of water that reflects the people and the walkway. The background shows industrial equipment, pipes, and a bright light source. A green emergency exit sign with a white cross and the text 'Rettungsweg' is visible on the wall. The overall scene conveys a sense of a controlled, high-tech environment.
 
