@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218170639}@@---
+---
 id: '4f5ceb89-f774-41b3-b382-f63f044c2823'
 title: "0.4 Strategic Foundations"
 tldr: "Faithful alpha import of XLab lesson 0.4 Strategic Foundations."
@@ -97,4 +97,3 @@ optional:: true
 #### Text
 content::
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/why-verification/strategic-foundations)*
-++}
