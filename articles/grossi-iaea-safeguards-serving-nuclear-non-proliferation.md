@@ -463,11 +463,11 @@ A light blue square with the year '2022' in large white font.
 
 Two people in white protective suits and yellow gloves holding up a large white sheet of paper.
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig30-bc56f6ce.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227180517}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig30-bc56f6ce.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227180517}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig30-bc56f6ce.jpg)++}
 
 A person in a white suit and face mask boarding an airplane, while another person in a suit and face mask stands nearby.
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig31-ce77d7c8.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227184016}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig31-ce77d7c8.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227184016}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig31-ce77d7c8.jpg)++}
 
 A light blue square with the year '2022' in large white font.
 
