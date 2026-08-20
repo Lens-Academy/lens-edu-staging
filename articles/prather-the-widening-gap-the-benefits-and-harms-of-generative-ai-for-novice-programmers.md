@@ -81,7 +81,7 @@ Because we were seeking to replicate the work of Prather et al. ([Prather et al
 
 Figure 1. Problem description from Athene
 
-![[/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img2-2358a480.png]]
+{--{"author":"AI","timestamp":1787234698695}@@![[/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img2-2358a480.png]]--}{++{"author":"AI","timestamp":1787234698695}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img2-2358a480.png)++}
 
 Figure 2. Sample Feedback from Athene
 
