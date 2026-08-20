@@ -2,7 +2,7 @@
 id: '102d18da-1125-432c-ad12-e01cb88dcdb1'
 title: "4.0 Putting it All Together"
 tldr: "Faithful alpha import of XLab lesson 4.0 Putting it All Together."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Interactive elements marked as import gaps must be completed on XLab until Lens has an equivalent."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257232654}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257232654}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257232654}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257232654}@@ XLab."++}
 tags: [wip]
 ---
 #### Text
