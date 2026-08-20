@@ -22,7 +22,7 @@ This is not only a conceptual worry. Anthropic tested how faithful reasoning mod
 #### Article
 source:: [[../articles/anthropic-reasoning-models-dont-always-say-what-they-think]]
 from:: "But if we want to use the Chain-of-Thought for alignment purposes, there’s a crucial question: can we actually _trust_ what models say in their Chain-of-Thought?"
-to:: ""And as models become ever-more intelligent and are relied upon to a greater and greater extent in society, the need for such monitoring grows.
+to:: "And as models become ever-more intelligent and are relied upon to a greater and greater extent in society, the need for such monitoring grows."
 
 #### Text
 content::
