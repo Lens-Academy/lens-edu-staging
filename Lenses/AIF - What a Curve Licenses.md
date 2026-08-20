@@ -8,7 +8,7 @@ authors:
 ---
 #### Text
 content::
-\## Where an argument outruns its chart
+\## Where an argument outruns its {--{"author":"Lauren's AI","timestamp":1787209475659}@@chart--}{++{"author":"Lauren's AI","timestamp":1787209475659}@@evidence++}
 
 You now have a probe of what compute buys and a base rate for cliffs. Now: what a measured trend does and does not license you to conclude. You will be handed an argument in which every stated fact is true. Your job is not to find the lie; there isn't one. Your job is to find the exact step where the argument starts spending evidence it doesn't have.
 
