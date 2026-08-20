@@ -1,5 +1,7 @@
 ---
-id: 21b78e2b-d47d-4b8e-84b7-20913d3b9167
+id: 21b78e2b-d47d-4b8e-84b7-20913d3b9167{++{"author":"Elias's AI","timestamp":1787256705595}@@
+reading_minutes: 8
+tutor_minutes: 3++}
 summary_for_tutor: "Covers four reasons the fictional company Galvanic is insufficiently cautious: realism about corporate behavior, narrative practicality, the inevitability of misaligned superintelligences recognizing that subverting humans serves their goals, and the identification of this carelessness as the proper intervention window."
 title: "Why is Galvanic depicted as being insufficiently careful?"
 tldr: "In part because it's realistic."
