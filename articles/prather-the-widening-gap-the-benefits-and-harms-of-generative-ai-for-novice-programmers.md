@@ -309,7 +309,7 @@ They then wrote code to accept a number, followed by a conditional to determine 
 
 P21 created a while loop with the condition that the input number be greater than zero. Copilot immediately suggested the correct contents of the loop, which they accepted and then commented-out the four input segments. They then tested the code, got a correct answer, and updated the condition inside the while loop to be “num = !0”. This did not produce expected behavior, so they changed it to “num == !0”. This also did not work, so they changed it to “num < 0 && num > 0”. As they typed this, they said, “while num is bigger than 0 and less than 0.” This, of course, would also not work. Since Copilot sent them on the wrong path initially, even though they were now on the correct one, they were too far into the problem solving process to understand what was needed to complete the program. In other words, they hadn’t reasoned themselves into this position; Copilot had.
 
-![[/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img7-1ddd7940.png]]
+{--{"author":"AI","timestamp":1787234731948}@@![[/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img7-1ddd7940.png]]--}{++{"author":"AI","timestamp":1787234731948}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers-img7-1ddd7940.png)++}
 
 Figure 7. P21 trying to determine why the control flow will not enter the loop.
 
