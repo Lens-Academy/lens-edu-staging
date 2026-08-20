@@ -127,7 +127,8 @@ source:: ![[../Lenses/IABIED - You Don't Get What You Train For]]
 id:: f5af1e68-6dbe-4498-bd6a-75b500beeaca
 tldr:: Want to go deeper on why you don't get what you train for? These are the book's own supplementary Q&As for Chapter 4, short takes on objections like "doesn't Claude already show alignment?" and "wouldn't a smart AI just fix its own flaws?".
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 4 (You Don't Get What You Train For). Links the book website's supplementary Q&A cards covering objections and extensions such as AI steering beyond training, making AIs nice and safe, whether Claude demonstrates alignment, terminal versus instrumental goals, brittle proxies, and reflection and self-modification. A navigation and index lens only; it carries no standalone teaching content of its own.
-optional:: true
+{++{"author":"Elias's AI","timestamp":1787256317589}@@reading_minutes:: 2
+++}optional:: true
 
 #### Text:
 content::

@@ -13,7 +13,8 @@ source:: [[../Learning Outcomes/Comparing alignment research agendas]]
 id:: dc56fe14-2c41-4057-b112-a84c0b2ef303
 tldr:: AI safety has no agreed definition of the problem it's solving, so the field splinters into competing "agendas." This module maps five of them — and for each, pairs an article making the case with one pushing back, so you can judge the disagreements yourself.
 summary_for_tutor:: Welcome lens introducing the Existing Approaches module. Explains that AI safety is pre-paradigmatic with no consensus on the nature of the alignment problem, and introduces the term "agenda" as a strategic research roadmap and theory of change. Notes that agendas are often underspecified and hard to compare, references the Shallow Review 2025 taxonomy, and states the module covers five deliberately-incomplete directions (excluding comprehensive governance), presenting a supporting and a critiquing article for each.
-
+{++{"author":"Elias's AI","timestamp":1787256314430}@@reading_minutes:: 5
+++}
 ### Text
 content::
 We want to open this module with the quote from the essay [A newcomer’s guide to the technical AI safety field — AI Alignment Forum](https://www.alignmentforum.org/posts/5rsa37pBjo4Cf9fkE/a-newcomer-s-guide-to-the-technical-ai-safety-field)
