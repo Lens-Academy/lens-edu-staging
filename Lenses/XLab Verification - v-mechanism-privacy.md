@@ -2,7 +2,7 @@
 id: 'd388005c-3e26-4e94-8851-692288c0cbea'
 title: "2.0.1 Privacy-Preserving Mechanisms"
 tldr: "Faithful alpha import of XLab lesson 2.0.1 Privacy-Preserving Mechanisms."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Interactive elements marked as import gaps must be completed on XLab until Lens has an equivalent."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257407628}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257407628}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257407628}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257407628}@@ XLab."++}
 tags: [wip]
 ---
 #### Text
