@@ -30,7 +30,7 @@ content::
 
 **How many commercial passenger flights will take off worldwide next Tuesday?**
 
-Do not look anything up. Produce a number, and show how you got to it. Think about the details briefly but be quick, not precise. You're preparing your brain to think by expectation by first attempting to expect something.
+Do not look anything up. Produce a number, and show how you got to it. Think about the details briefly but be quick, not precise. You're preparing your brain to think by expectation by first attempting to expect something; get it wrong, 
 
 Then, separately: which single step in your working is most likely to be badly wrong, and roughly how badly?
 
