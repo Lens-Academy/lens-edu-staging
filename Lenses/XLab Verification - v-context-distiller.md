@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218145626}@@---
+---
 id: 'db7d0ba6-4789-4018-8ea1-5b040ccb7528'
 title: "1.3.1 Context distiller"
 tldr: "Faithful alpha import of XLab lesson 1.3.1 Context distiller."
@@ -52,4 +52,3 @@ and distil first, then trace the actors, then thread. The two identification
 steps above are steps three and four on the rail.
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/context-distiller)*
-++}

@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218149446}@@---
+---
 id: '53ac9af2-f8da-4859-9649-2e24c0d22e5c'
 title: "2.4 The human layer"
 tldr: "Faithful alpha import of XLab lesson 2.4 The human layer."
@@ -22,4 +22,3 @@ core mechanisms of human verification applicable to AI development.
 4. Assess the levels of independence and reliability of a verifying institution.
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-intro)*
-++}

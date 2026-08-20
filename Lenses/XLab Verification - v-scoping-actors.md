@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218166439}@@---
+---
 id: '76451830-cdb6-4160-9eae-ee72d0917f5b'
 title: "1.2 Actors: who does the treaty rely upon, apply to, and constrain?"
 tldr: "Faithful alpha import of XLab lesson 1.2 Actors: who does the treaty rely upon, apply to, and constrain?."
@@ -175,4 +175,3 @@ Supply-chain structure: Sastry, Heim, Belfield et al., [“Computing Power and t
 **Currency.** The concentration figures above are 2021–2023 data reported in 2021 and 2024 sources. Shares move; the structure — one EUV maker, one dominant leading-edge fab, a handful of clouds — has not. Re-verify a number before quoting it.
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/scoping-actors)*
-++}

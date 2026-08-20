@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218142309}@@---
+---
 id: '102d18da-1125-432c-ad12-e01cb88dcdb1'
 title: "4.0 Putting it All Together"
 tldr: "Faithful alpha import of XLab lesson 4.0 Putting it All Together."
@@ -24,4 +24,3 @@ Then, in 4.2, you will choose a capstone project idea from a shared and regularl
 - Choose the next step in verification work that fits your background and articulate how you can make an impact after graduating this course.
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/capstone/putting-it-all-together)*
-++}

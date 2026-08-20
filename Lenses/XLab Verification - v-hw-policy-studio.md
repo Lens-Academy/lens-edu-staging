@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218154257}@@---
+---
 id: '3caea549-faad-4153-b4d8-85def1479af4'
 title: "2.1.8 Policy judgment: what role should hardware play?"
 tldr: "Faithful alpha import of XLab lesson 2.1.8 Policy judgment: what role should hardware play?."
@@ -126,4 +126,3 @@ A current attestation token may support device identity, certificate status, fre
 Attestation alone does not establish cumulative compute, workload class, declared cluster topology, absence of unregistered hardware, or legal authority to suspend. Those conclusions require additional measurement, aggregation, policy, and institutional components.
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-policy-studio)*
-++}

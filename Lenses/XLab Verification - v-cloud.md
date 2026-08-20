@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218144886}@@---
+---
 id: 'f78c8de0-f12f-446e-992b-a27c30dc3e84'
 title: "2.2.1 Provider records and workload observables"
 tldr: "Faithful alpha import of XLab lesson 2.2.1 Provider records and workload observables."
@@ -755,4 +755,3 @@ UTF8gbsn
 - Typically a node and a server are equivalent, but “server” refers to the physical hardware, while a “node” is a unit of computational resources within the cluster’s infrastructure. [↩](https://arxiv.org/abs/#ax-fnref-33)
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud)*
-++}

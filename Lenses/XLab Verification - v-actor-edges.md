@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218139631}@@---
+---
 id: '5991339a-c9ea-48cd-8b62-ded2834a0792'
 title: "1.2.2 Who can prove what"
 tldr: "Faithful alpha import of XLab lesson 1.2.2 Who can prove what."
@@ -42,4 +42,3 @@ The cast, the rings and the sentences that place each actor on one are 1.2's,
 and the workshop above opens on the board you built there.
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/actor-edges)*
-++}

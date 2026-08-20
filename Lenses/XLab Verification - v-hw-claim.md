@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218153132}@@---
+---
 id: '5cfb50dd-3ac7-4580-8861-8fb9253ea6f1'
 title: "2.1.1 Start with the claim, not the mechanism"
 tldr: "Faithful alpha import of XLab lesson 2.1.1 Start with the claim, not the mechanism."
@@ -49,4 +49,3 @@ Complete three sentences for the opening puzzle.
 - It does not support…
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-claim)*
-++}
