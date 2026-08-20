@@ -159,13 +159,13 @@ Options:
 
 Matching is exact after configured case and whitespace normalization. Use several FillBlank segments when exercise needs several blanks.
 
-Surveys may use FillBlank without `accepted-answers&#58;&#58;` or `explanation&#58;&#58;`. That makes it an ungraded short-answer field.
+Surveys may use FillBlank without {--{"author":"Elias's AI","timestamp":1787220940766}@@`accepted-answers&#58;&#58;`--}{++{"author":"Elias's AI","timestamp":1787220940766}@@`accepted-answers::`++} or {--{"author":"Elias's AI","timestamp":1787220940766}@@`explanation&#58;&#58;`.--}{++{"author":"Elias's AI","timestamp":1787220940766}@@`explanation::`.++} That makes it an ungraded short-answer field.
 
 \## Grading rules
 
 - **Survey:** all question types are ungraded.
 - **Normal lens:** questions may be graded practice or ungraded reflection.
-- **Learning Outcome test:** Question, Choice, and FillBlank must be gradable. Question needs `assessment-instructions&#58;&#58;`; Choice needs at least one `[x]`; FillBlank needs `accepted-answers&#58;&#58;`.
+- **Learning Outcome test:** Question, Choice, and FillBlank must be gradable. Question needs {--{"author":"Elias's AI","timestamp":1787220944612}@@`assessment-instructions&#58;&#58;`;--}{++{"author":"Elias's AI","timestamp":1787220944612}@@`assessment-instructions::`;++} Choice needs at least one `[x]`; FillBlank needs {--{"author":"Elias's AI","timestamp":1787220944612}@@`accepted-answers&#58;&#58;`.--}{++{"author":"Elias's AI","timestamp":1787220944612}@@`accepted-answers::`.++}
 - Rating never contributes to correctness score.
 
 Validator should reject duplicate keys, invalid field combinations, missing grading information in tests, invalid rating scales, too few choice options, and missing or multiple `{{blank}}` markers.
