@@ -1,5 +1,7 @@
 ---
-id: e4f5a6b7-c8d9-0123-efab-234567890123
+id: e4f5a6b7-c8d9-0123-efab-234567890123{++{"author":"Elias's AI","timestamp":1787256810260}@@
+reading_minutes: 5
+tutor_minutes: 15++}
 summary_for_tutor: "Teaches the two-prayer structure of the Closing Words. Students read the full Closing Words, then distinguish what each prayer asks for: what conditions would satisfy the first (being proven wrong), and what conditions would satisfy the second (humanity rising to the occasion). The key insight is that both prayers are compatible: the authors prefer the first but refuse to rely on it."
 title: "The Two Prayers"
 tldr: "The authors close with two prayers: first, to be wrong and forgotten; second (their true last prayer), for humanity to rise to the occasion and win. Both can be held at once."
