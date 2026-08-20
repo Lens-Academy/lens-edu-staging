@@ -1,5 +1,7 @@
 ---
-id: c549ae1c-9bab-4c11-ae9b-2c8876265a24
+id: c549ae1c-9bab-4c11-ae9b-2c8876265a24{++{"author":"Elias's AI","timestamp":1787256190251}@@
+reading_minutes: 60
+tutor_minutes: 8++}
 summary_for_tutor: Covers the security mindset as a cognitive orientation required for alignment research. Contrasts standard engineering (does this work under normal conditions?) with the security mindset (how does this fail under adversarial or optimization pressure?). Argues that building safe AI requires thinking borrowed from cryptography, where safety cannot depend on outsmarting what you are containing.
 title: Security Mindset and Ordinary Paranoia
 tldr: Standard engineering asks "does this work?" The security mindset asks "how does this fail when something is actively trying to break it?" This article argues that building safe AI requires thinking borrowed from cryptography — not piling up defenses, but designing systems where safety doesn't depend on outsmarting what you're containing.
