@@ -302,7 +302,7 @@ The IAEA's experience in Iraq and the DPRK demonstrated that, although IAEA safe
 
 At the end of 1993, the IAEA embarked on a broad programme ('Programme 93+2') to further strengthen safeguards implementation under CSAs by enhancing the IAEA's ability to consider a State as a whole. As part of Programme 93+2, measures designed to strengthen the IAEA's ability to detect undeclared nuclear material and activities in States with CSAs were presented
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig12-d83a52d9.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227112922}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig12-d83a52d9.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227112922}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig12-d83a52d9.jpg)++}
 
 Three IAEA inspectors in white and blue uniforms are working in a large industrial facility, likely a nuclear power plant. They are looking at a piece of equipment, possibly a robotic arm or a specialized tool, which is mounted on a metal structure. The background shows orange structural elements and other equipment.
 
@@ -314,7 +314,7 @@ The Additional Protocol (AP) is important for the effectiveness and efficiency o
 
 As of 30 June 2024, 142 States have an AP in force, or 75% of all States with safeguards agreements in force. Another 12 States have signed an AP but have yet to bring it into force.
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig13-def064a0.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227117347}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig13-def064a0.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227117347}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig13-def064a0.jpg)++}
 
 A close-up photograph of a person wearing a white face mask, holding a black device. A blue circular tag with 'IAEA XP0023' is attached to the device. A white bucket is visible on the left.
 
