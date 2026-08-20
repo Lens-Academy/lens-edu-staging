@@ -19,7 +19,7 @@ authors:
 id:: 39abbb9e-eadc-49f6-8709-c1dad0fd74d8
 
 
-assesment system prompt + 
+assesment system prompt + assessment-instructions
 
 base coach/tutor system prompt + feedback system prompt 
 
