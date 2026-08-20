@@ -1,5 +1,7 @@
 ---
-id: 6f9d1b4e-3c7a-4f2d-8e5b-9a3c7f1d4b05
+id: 6f9d1b4e-3c7a-4f2d-8e5b-9a3c7f1d4b05{++{"author":"Elias's AI","timestamp":1787256631628}@@
+reading_minutes: 15
+tutor_minutes: 15++}
 summary_for_tutor: "Main Lens for Chapter 6, section 2. Students explain the refrigerator thought experiment and use it to articulate how superior knowledge of physical laws enables apparently impossible technology, and what this means for human-AI conflict."
 title: "Describe the Refrigerator Thought Experiment"
 tldr: A blacksmith could build a refrigerator from a blueprint and still not believe what it does. Chapter 6 explains what it means to be on the wrong side of that knowledge gap.

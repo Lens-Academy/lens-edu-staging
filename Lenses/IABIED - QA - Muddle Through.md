@@ -1,5 +1,7 @@
 ---
-id: b92fbed7-e6c7-4ba7-922e-bd0898bb186e
+id: b92fbed7-e6c7-4ba7-922e-bd0898bb186e{++{"author":"Elias's AI","timestamp":1787256636666}@@
+reading_minutes: 2
+tutor_minutes: 3++}
 summary_for_tutor: "Covers the objection that humanity always muddles through challenges. The response: muddling through relies on trial and error, but with superintelligence, early errors would leave no survivors to learn from."
 title: "Won't we just muddle through, like always?"
 tldr: "The world usually muddles through by trial and error. In this case, early errors wouldn't leave survivors."
