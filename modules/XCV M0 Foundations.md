@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787216943107}@@---
+---
 id: '73ea9772-8715-40e9-954c-3e9afd23a3a0'
 slug: xcv-m0-foundations
 title: "Foundations: Why Verification?"
@@ -40,4 +40,3 @@ source:: [[../Lenses/AIV - Why Verification - PQ]]
 
 # Lens:
 source:: [[../Lenses/AIV - What Does It Take to Catch a Chinchilla]]
-++}

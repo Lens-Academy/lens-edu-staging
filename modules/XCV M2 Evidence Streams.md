@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787216950952}@@---
+---
 id: 'a13e4224-e823-46d7-ab0f-b31447a1e11b'
 slug: xcv-m2-evidence-streams
 title: "Verification Infrastructure and Evidence Streams"
@@ -53,4 +53,3 @@ source:: [[../Lenses/AIV - Verifying LLM Inference to Detect Weight Exfiltration
 
 # Lens:
 source:: [[../Lenses/AIV - Bit-Exact AI Inference Verification]]
-++}

@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787216953256}@@---
+---
 id: '48a95f56-67e0-4bbb-a49e-9929436eadc4'
 slug: xcv-m3-covert-development
 title: "Covert Development and Low-Trust Architecture"
@@ -30,4 +30,3 @@ source:: [[../Lenses/AIV - A System Overview for Low-Trust Compute Verification]
 
 # Lens:
 source:: [[../Lenses/AIV - Build the Datacenter Lie Detector]]
-++}

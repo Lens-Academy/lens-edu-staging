@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787216945331}@@---
+---
 id: '49b3a580-3feb-4f39-8db4-fda3c65fd5b3'
 slug: xcv-m1-policy-and-actors
 title: "Policy and Actors"
@@ -35,4 +35,3 @@ source:: [[../Learning Outcomes/Compute accounting for training runs]]
 
 # Lens:
 source:: [[../Lenses/AIV - Verification Methods and Their Evasions]]
-++}

@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787216956382}@@---
+---
 id: '1ed36e3c-2f85-47da-b302-c0d7045a2f28'
 slug: xcv-m4-capstone
 title: "Capstone: A Three-Month Emergency Pause"
@@ -36,4 +36,3 @@ source:: [[../Learning Outcomes/From mechanism to agreement]]
 
 # Lens:
 source:: [[../Lenses/AIV - An International Agreement to Prevent Premature ASI]]
-++}
