@@ -70,21 +70,34 @@ Surveys {--{"author":"Elias's AI","timestamp":1787223019458}@@do not use `assess
 
 \## Rating
 
-Use `#### Rating` for numbered scale from 1 to N.
+Use `#### Rating` for numbered scale from 1 to {--{"author":"Elias's AI","timestamp":1787223032488}@@N.--}{++{"author":"Elias's AI","timestamp":1787223032488}@@5.++}
 
-> `#### Rating`
-> `id:: 8f9c80dc-1946-44fc-ba50-e964a8e7f4aa`
-> `content:: How confident are you in your answer?`
-> `scale:: 7`
+{++{"author":"Elias's AI","timestamp":1787223032488}@@Smallest version:
+
+++}> `#### Rating`
+> `id:: {--{"author":"Elias's AI","timestamp":1787223032488}@@8f9c80dc-1946-44fc-ba50-e964a8e7f4aa`--}{++{"author":"Elias's AI","timestamp":1787223032488}@@<uuid>`++}
+> `content:: How confident are you in your answer?`{++{"author":"Elias's AI","timestamp":1787223032488}@@
+
+Try it:
+
+#### Rating++}
+{--{"author":"Elias's AI","timestamp":1787223032488}@@> `scale:: 7`
 > `low-label:: Not confident`
-> `high-label:: Very confident`
-> `required:: true`
+> `high-label:: Very confident`--}{++{"author":"Elias's AI","timestamp":1787223032488}@@id:: 4280d5f2-2cd5-48f9-b20f-fc132253d443
+content:: How confident are you in your answer?
+
+#### Text
+content::++}
+{--{"author":"Elias's AI","timestamp":1787223032488}@@>--}{++{"author":"Elias's AI","timestamp":1787223032488}@@Optional fields:
+
+-++} `required:: {--{"author":"Elias's AI","timestamp":1787223032488}@@true`
 
 Options:
 
-- `scale::`: integer from 2 to 10. Defaults to 5.
-- `low-label::`: optional label below low endpoint.
-- `high-label::`: optional label below high endpoint.
+--}{++{"author":"Elias's AI","timestamp":1787223032488}@@true`: require response. Defaults to `false`.
+++}- {--{"author":"Elias's AI","timestamp":1787223032488}@@`scale::`: integer--}{++{"author":"Elias's AI","timestamp":1787223032488}@@`scale:: 7`: set highest number++} from 2 to 10. Defaults to {--{"author":"Elias's AI","timestamp":1787223032488}@@5.--}{++{"author":"Elias's AI","timestamp":1787223032488}@@`5`.++}
+- {--{"author":"Elias's AI","timestamp":1787223032488}@@`low-label::`: optional--}{++{"author":"Elias's AI","timestamp":1787223032488}@@`low-label:: Not confident`:++} label{--{"author":"Elias's AI","timestamp":1787223032488}@@ below--} low endpoint.{++{"author":"Elias's AI","timestamp":1787223032488}@@ Defaults to no label.++}
+- {--{"author":"Elias's AI","timestamp":1787223032488}@@`high-label::`: optional--}{++{"author":"Elias's AI","timestamp":1787223032488}@@`high-label:: Very confident`:++} label {--{"author":"Elias's AI","timestamp":1787223032488}@@below --}high endpoint.{++{"author":"Elias's AI","timestamp":1787223032488}@@ Defaults to no label.++}
 
 Ratings are self-reports, not correct or incorrect. In Learning Outcome tests, rating is stored beside graded answers but does not affect test score.
 
