@@ -12,7 +12,8 @@ By the way, anything in-between double percentage marks is treated as a comment 
 In this course file, we define modules and meetings.%%
 # Module: [[../modules/main-demo-module|Demo basics]]
 # Module: [[../modules/min-chat-messages-demo|Interaction requirements demo]]
-# Meeting: Name of the first meeting
+# {++{"author":"Elias's AI","timestamp":1787225468399}@@Module: [[../modules/lens-duration-demo|Lens duration demo]]
+# ++}Meeting: Name of the first meeting
 
 %% Meetings automatically split the material up into weeks. This first module will be in week 1, followed by the above meeting.
 
