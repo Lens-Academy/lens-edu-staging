@@ -55,13 +55,13 @@ Surveys do not use `assessment-instructions::` or `feedback::`. They store respo
 
 Use `#### Rating` for numbered scale from 1 to N.
 
-{--{"author":"Elias's AI","timestamp":1787221225646}@@<pre><code>#### Rating--}{++{"author":"Elias's AI","timestamp":1787221225646}@@> `#### Rating`++}
-{--{"author":"Elias's AI","timestamp":1787221225646}@@key&#58;&#58; confidence--}{++{"author":"Elias's AI","timestamp":1787221225646}@@> `key:: confidence`++}
-{--{"author":"Elias's AI","timestamp":1787221225646}@@content&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787221225646}@@> `content::++} How confident are you in your {--{"author":"Elias's AI","timestamp":1787221225646}@@answer?--}{++{"author":"Elias's AI","timestamp":1787221225646}@@answer?`++}
-{--{"author":"Elias's AI","timestamp":1787221225646}@@scale&#58;&#58; 7--}{++{"author":"Elias's AI","timestamp":1787221225646}@@> `scale:: 7`++}
-{--{"author":"Elias's AI","timestamp":1787221225646}@@low-label&#58;&#58; --}{++{"author":"Elias's AI","timestamp":1787221225646}@@> `low-label:: ++}Not {--{"author":"Elias's AI","timestamp":1787221225646}@@confident--}{++{"author":"Elias's AI","timestamp":1787221225646}@@confident`++}
-{--{"author":"Elias's AI","timestamp":1787221225646}@@high-label&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787221225646}@@> `high-label::++} Very {--{"author":"Elias's AI","timestamp":1787221225646}@@confident--}{++{"author":"Elias's AI","timestamp":1787221225646}@@confident`++}
-{--{"author":"Elias's AI","timestamp":1787221225646}@@required&#58;&#58; true</code></pre>--}{++{"author":"Elias's AI","timestamp":1787221225646}@@> `required:: true`++}
+> `#### Rating`
+> `key:: confidence`
+> `content:: How confident are you in your answer?`
+> `scale:: 7`
+> `low-label:: Not confident`
+> `high-label:: Very confident`
+> `required:: true`
 
 Options:
 
@@ -77,31 +77,31 @@ Use `#### Select` with plain list under `options::`. Default allows one selectio
 
 Ungraded example:
 
-{--{"author":"Elias's AI","timestamp":1787221228251}@@<pre><code>#### Select--}{++{"author":"Elias's AI","timestamp":1787221228251}@@> `#### Select`++}
-{--{"author":"Elias's AI","timestamp":1787221228251}@@key&#58;&#58; next_topic--}{++{"author":"Elias's AI","timestamp":1787221228251}@@> `key:: next_topic`++}
-{--{"author":"Elias's AI","timestamp":1787221228251}@@content&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787221228251}@@> `content::++} Which topic should we cover {--{"author":"Elias's AI","timestamp":1787221228251}@@next?--}{++{"author":"Elias's AI","timestamp":1787221228251}@@next?`++}
-{--{"author":"Elias's AI","timestamp":1787221228251}@@options&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787221228251}@@> `options::`++}
-{--{"author":"Elias's AI","timestamp":1787221228251}@@- Forecasting--}{++{"author":"Elias's AI","timestamp":1787221228251}@@> `- Forecasting`++}
-{--{"author":"Elias's AI","timestamp":1787221228251}@@- Governance--}{++{"author":"Elias's AI","timestamp":1787221228251}@@> `- Governance`++}
-{--{"author":"Elias's AI","timestamp":1787221228251}@@---}{++{"author":"Elias's AI","timestamp":1787221228251}@@> `-++} Technical {--{"author":"Elias's AI","timestamp":1787221228251}@@safety--}{++{"author":"Elias's AI","timestamp":1787221228251}@@safety`++}
-{--{"author":"Elias's AI","timestamp":1787221228251}@@required&#58;&#58; true</code></pre>--}{++{"author":"Elias's AI","timestamp":1787221228251}@@> `required:: true`++}
+> `#### Select`
+> `key:: next_topic`
+> `content:: Which topic should we cover next?`
+> `options::`
+> `- Forecasting`
+> `- Governance`
+> `- Technical safety`
+> `required:: true`
 
 For graded practice or test response, mark correct option with `[x]`:
 
-{--{"author":"Elias's AI","timestamp":1787221231116}@@<pre><code>#### Select--}{++{"author":"Elias's AI","timestamp":1787221231116}@@> `#### Select`++}
-{--{"author":"Elias's AI","timestamp":1787221231116}@@key&#58;&#58; optimizer--}{++{"author":"Elias's AI","timestamp":1787221231116}@@> `key:: optimizer`++}
-{--{"author":"Elias's AI","timestamp":1787221231116}@@content&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787221231116}@@> `content::++} Which process updates model weights during {--{"author":"Elias's AI","timestamp":1787221231116}@@training?--}{++{"author":"Elias's AI","timestamp":1787221231116}@@training?`++}
-{--{"author":"Elias's AI","timestamp":1787221231116}@@options&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787221231116}@@> `options::`++}
-{--{"author":"Elias's AI","timestamp":1787221231116}@@---}{++{"author":"Elias's AI","timestamp":1787221231116}@@> `-++} Data {--{"author":"Elias's AI","timestamp":1787221231116}@@collection--}{++{"author":"Elias's AI","timestamp":1787221231116}@@collection`++}
-{--{"author":"Elias's AI","timestamp":1787221231116}@@---}{++{"author":"Elias's AI","timestamp":1787221231116}@@> `-++} [x] Gradient {--{"author":"Elias's AI","timestamp":1787221231116}@@descent--}{++{"author":"Elias's AI","timestamp":1787221231116}@@descent`++}
-{--{"author":"Elias's AI","timestamp":1787221231116}@@---}{++{"author":"Elias's AI","timestamp":1787221231116}@@> `-++} Deployment {--{"author":"Elias's AI","timestamp":1787221231116}@@monitoring--}{++{"author":"Elias's AI","timestamp":1787221231116}@@monitoring`++}
-{--{"author":"Elias's AI","timestamp":1787221231116}@@shuffle&#58;&#58; true--}{++{"author":"Elias's AI","timestamp":1787221231116}@@> `shuffle:: true`++}
-{--{"author":"Elias's AI","timestamp":1787221231116}@@explanation&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787221231116}@@> `explanation::++} Gradient descent updates weights using gradients of {--{"author":"Elias's AI","timestamp":1787221231116}@@loss.</code></pre>--}{++{"author":"Elias's AI","timestamp":1787221231116}@@loss.`++}
+> `#### Select`
+> `key:: optimizer`
+> `content:: Which process updates model weights during training?`
+> `options::`
+> `- Data collection`
+> `- [x] Gradient descent`
+> `- Deployment monitoring`
+> `shuffle:: true`
+> `explanation:: Gradient descent updates weights using gradients of loss.`
 
 Options:
 
 - `shuffle:: true`: randomize option order. Defaults to `false`.
-- {--{"author":"Elias's AI","timestamp":1787221248524}@@`explanation&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787221248524}@@`explanation::`:++} optional feedback shown after submission.
+- `explanation::`: optional feedback shown after submission.
 
 Survey selects must use plain list items. Surveys never contain correct-answer markers.
 
@@ -109,17 +109,17 @@ Survey selects must use plain list items. Surveys never contain correct-answer m
 
 Add `multi:: true` when learner may select more than one option.
 
-{--{"author":"Elias's AI","timestamp":1787221234028}@@<pre><code>#### Select--}{++{"author":"Elias's AI","timestamp":1787221234028}@@> `#### Select`++}
-{--{"author":"Elias's AI","timestamp":1787221234028}@@key&#58;&#58; empirical_evidence--}{++{"author":"Elias's AI","timestamp":1787221234028}@@> `key:: empirical_evidence`++}
-{--{"author":"Elias's AI","timestamp":1787221234028}@@content&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787221234028}@@> `content::++} Which two items are empirical {--{"author":"Elias's AI","timestamp":1787221234028}@@evidence?--}{++{"author":"Elias's AI","timestamp":1787221234028}@@evidence?`++}
-{--{"author":"Elias's AI","timestamp":1787221234028}@@options&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787221234028}@@> `options::`++}
-{--{"author":"Elias's AI","timestamp":1787221234028}@@---}{++{"author":"Elias's AI","timestamp":1787221234028}@@> `-++} [x] A measured benchmark {--{"author":"Elias's AI","timestamp":1787221234028}@@result--}{++{"author":"Elias's AI","timestamp":1787221234028}@@result`++}
-{--{"author":"Elias's AI","timestamp":1787221234028}@@---}{++{"author":"Elias's AI","timestamp":1787221234028}@@> `-++} A {--{"author":"Elias's AI","timestamp":1787221234028}@@definition--}{++{"author":"Elias's AI","timestamp":1787221234028}@@definition`++}
-{--{"author":"Elias's AI","timestamp":1787221234028}@@---}{++{"author":"Elias's AI","timestamp":1787221234028}@@> `-++} [x] A randomized trial {--{"author":"Elias's AI","timestamp":1787221234028}@@result--}{++{"author":"Elias's AI","timestamp":1787221234028}@@result`++}
-{--{"author":"Elias's AI","timestamp":1787221234028}@@---}{++{"author":"Elias's AI","timestamp":1787221234028}@@> `-++} A thought {--{"author":"Elias's AI","timestamp":1787221234028}@@experiment--}{++{"author":"Elias's AI","timestamp":1787221234028}@@experiment`++}
-{--{"author":"Elias's AI","timestamp":1787221234028}@@multi&#58;&#58; true--}{++{"author":"Elias's AI","timestamp":1787221234028}@@> `multi:: true`++}
-{--{"author":"Elias's AI","timestamp":1787221234028}@@shuffle&#58;&#58; true--}{++{"author":"Elias's AI","timestamp":1787221234028}@@> `shuffle:: true`++}
-{--{"author":"Elias's AI","timestamp":1787221234028}@@explanation&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787221234028}@@> `explanation::++} Measurements and trial results are empirical {--{"author":"Elias's AI","timestamp":1787221234028}@@evidence.</code></pre>--}{++{"author":"Elias's AI","timestamp":1787221234028}@@evidence.`++}
+> `#### Select`
+> `key:: empirical_evidence`
+> `content:: Which two items are empirical evidence?`
+> `options::`
+> `- [x] A measured benchmark result`
+> `- A definition`
+> `- [x] A randomized trial result`
+> `- A thought experiment`
+> `multi:: true`
+> `shuffle:: true`
+> `explanation:: Measurements and trial results are empirical evidence.`
 
 A graded response is correct only when selected options exactly match every `[x]` option. In surveys, `multi:: true` works the same way but options stay ungraded and use no `[x]` markers.
 
@@ -127,23 +127,23 @@ A graded response is correct only when selected options exactly match every `[x]
 
 Use `#### FillBlank`. Put exactly one `{{blank}}` marker in prompt.
 
-{--{"author":"Elias's AI","timestamp":1787221236670}@@<pre><code>#### FillBlank--}{++{"author":"Elias's AI","timestamp":1787221236670}@@> `#### FillBlank`++}
-{--{"author":"Elias's AI","timestamp":1787221236670}@@key&#58;&#58; training_method--}{++{"author":"Elias's AI","timestamp":1787221236670}@@> `key:: training_method`++}
-{--{"author":"Elias's AI","timestamp":1787221236670}@@content&#58;&#58; --}{++{"author":"Elias's AI","timestamp":1787221236670}@@> `content:: ++}Model weights are commonly updated using {--{"author":"Elias's AI","timestamp":1787221236670}@@{{blank}}.--}{++{"author":"Elias's AI","timestamp":1787221236670}@@{{blank}}.`++}
-{--{"author":"Elias's AI","timestamp":1787221236670}@@accepted-answers&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787221236670}@@> `accepted-answers::`++}
-{--{"author":"Elias's AI","timestamp":1787221236670}@@---}{++{"author":"Elias's AI","timestamp":1787221236670}@@> `-++} gradient {--{"author":"Elias's AI","timestamp":1787221236670}@@descent--}{++{"author":"Elias's AI","timestamp":1787221236670}@@descent`++}
-{--{"author":"Elias's AI","timestamp":1787221236670}@@---}{++{"author":"Elias's AI","timestamp":1787221236670}@@> `-++} gradient-based {--{"author":"Elias's AI","timestamp":1787221236670}@@optimization--}{++{"author":"Elias's AI","timestamp":1787221236670}@@optimization`++}
-{--{"author":"Elias's AI","timestamp":1787221236670}@@case-sensitive&#58;&#58; false--}{++{"author":"Elias's AI","timestamp":1787221236670}@@> `case-sensitive:: false`++}
-{--{"author":"Elias's AI","timestamp":1787221236670}@@trim&#58;&#58; true--}{++{"author":"Elias's AI","timestamp":1787221236670}@@> `trim:: true`++}
-{--{"author":"Elias's AI","timestamp":1787221236670}@@explanation&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787221236670}@@> `explanation::++} Gradient descent uses loss gradients to update model {--{"author":"Elias's AI","timestamp":1787221236670}@@weights.--}{++{"author":"Elias's AI","timestamp":1787221236670}@@weights.`++}
-{--{"author":"Elias's AI","timestamp":1787221236670}@@required&#58;&#58; true</code></pre>--}{++{"author":"Elias's AI","timestamp":1787221236670}@@> `required:: true`++}
+> `#### FillBlank`
+> `key:: training_method`
+> `content:: Model weights are commonly updated using {{blank}}.`
+> `accepted-answers::`
+> `- gradient descent`
+> `- gradient-based optimization`
+> `case-sensitive:: false`
+> `trim:: true`
+> `explanation:: Gradient descent uses loss gradients to update model weights.`
+> `required:: true`
 
 Options:
 
 - `accepted-answers::`: one or more complete accepted answers.
 - `case-sensitive::`: defaults to `false`.
 - `trim::`: ignore leading and trailing whitespace. Defaults to `true`.
-- {--{"author":"Elias's AI","timestamp":1787221252335}@@`explanation&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787221252335}@@`explanation::`:++} optional feedback shown after submission.
+- `explanation::`: optional feedback shown after submission.
 
 Matching is exact after configured case and whitespace normalization. Use several FillBlank segments when exercise needs several blanks.
 
