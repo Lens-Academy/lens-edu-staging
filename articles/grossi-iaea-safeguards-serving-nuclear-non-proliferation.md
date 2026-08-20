@@ -170,7 +170,7 @@ material, facilities and other items specified in the safeguards agreements. The
 
 **Additional protocols (APs):** these are designed for States with any type of safeguards agreement with the IAEA. States with CSAs which decide to conclude additional protocols must accept all provisions of the Model Protocol Additional to Agreement(s) between State(s) and the IAEA for the Application of Safeguards (published in INFCIRC/540 (Corrected)), which was approved by the IAEA Board of Governors in 1997. States with item-specific or voluntary offer agreements may accept and implement those measures of the Model Additional Protocol that they choose.
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig7-2e8b57be.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227094053}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig7-2e8b57be.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227094053}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig7-2e8b57be.jpg)++}
 
 A photograph showing three individuals in protective suits (two white, one yellow) wearing gloves and holding hands, symbolizing cooperation or agreement. The individuals are wearing white lab coats with blue accents and yellow protective suits. They are all wearing white gloves and are holding hands in a line, suggesting a sense of unity or agreement. The background is a plain, light-colored wall.
 
@@ -190,7 +190,7 @@ One of the questions that the evaluation of safeguards activities seeks to answe
 
 One example of a valuable open source of information is commercially available satellite imagery. Satellite imagery is used to routinely evaluate information provided by States regarding their nuclear activities, to assist in planning inspections and visits to facilities to verify design information, and to help in relation to complementary access under the Additional Protocol (AP).
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig8-ae5f5bb4.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227097141}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig8-ae5f5bb4.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227097141}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig8-ae5f5bb4.jpg)++}
 
 A close-up photograph of a female scientist in a laboratory. She is wearing a white lab coat, a black face mask, and purple nitrile gloves. She is holding a small glass vial containing a yellow liquid. In the background, there are various pieces of laboratory equipment, including a computer monitor, a scale, and several other vials on a rack. The setting appears to be a modern, well-equipped lab.
 
@@ -210,7 +210,7 @@ In-field safeguards activities are complemented by activities at Headquarters. T
 
 In the conduct of its safeguards activities in the field and at Headquarters, the IAEA utilizes instrumentation, technical measures and various techniques to verify information provided by States. New and improved technologies continue to provide an important basis for more effective and efficient safeguards implementation.
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig9-0e805537.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227101400}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig9-0e805537.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227101400}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig9-0e805537.jpg)++}
 
 Three scientists wearing white protective suits and hoods are working at a laboratory bench. They are looking at a computer monitor and a tablet device. The environment is a cleanroom or laboratory setting with various pieces of equipment visible in the background.
 
