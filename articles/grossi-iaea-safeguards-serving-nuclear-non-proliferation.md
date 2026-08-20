@@ -236,7 +236,7 @@ IAEA inspectors perform a variety of verification activities in the field.
 
 During the **design information verification**, inspectors compare the design information that the State has submitted to the IAEA with in-field observations to confirm that the information provided by the State is correct and complete, and the facility has not been misused.
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig10-3f5e560d.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227105344}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig10-3f5e560d.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227105344}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig10-3f5e560d.jpg)++}
 
 A close-up photograph showing an IAEA inspector's hands in white gloves. The inspector is applying a black, cylindrical Field Verifiable Passive Seal (FVPS) to a silver metal container. On the wooden surface next to the container are a pair of red-handled pliers and a small blue package containing several small white vials.
 
@@ -248,7 +248,7 @@ An IAEA safeguards inspector applying a Field Verifiable Passive Seal (FVPS).
 
 Inspectors verify the inventory of nuclear material using a range of **measurement**
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig11-27d86ec0.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227109839}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig11-27d86ec0.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227109839}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig11-27d86ec0.jpg)++}
 
 A photograph of two IAEA inspectors in a facility. One inspector, wearing a white lab coat, face mask, and safety glasses, is using a white swipe pad to take a sample from a large, circular, ribbed metal component. The other inspector, wearing a yellow hazmat suit, white helmet, and face mask, is observing the process. The component has yellow and black hazard stripes around its top edge.
 
