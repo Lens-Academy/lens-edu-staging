@@ -1,5 +1,7 @@
 ---
-id: a928c44c-8397-4653-ba88-391f16042c52
+id: a928c44c-8397-4653-ba88-391f16042c52{++{"author":"Elias's AI","timestamp":1787256622569}@@
+reading_minutes: 3
+tutor_minutes: 3++}
 summary_for_tutor: "Covers why the timeline question for solving ASI alignment misses the deeper problem. Science normally progresses through trial and error, but with ASI alignment the first error could be fatal. Even with centuries, humanity would likely converge on the wrong answer without the ability to safely test and iterate, as illustrated by the geocentric model's persistence."
 title: "How long would it take to solve the ASI alignment problem?"
 tldr: "The difficulty isn't just the lack of time; it's the lethality of mistakes."

@@ -217,7 +217,8 @@ source:: ![[../Lenses/IABIED - QA - Instrumental Convergence]]
 id:: b3132948-6f00-4d18-89f1-40d46c96e92c
 tldr:: Optional companion Q&As for the scenario's end: what the ending really claims, and why a superintelligence wouldn't simply choose to be moral.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 9 (Ascension). Links the book website's supplementary Q&A cards covering the scenario's ending and the objection that a superintelligence would choose to be moral or install love into itself. A navigation and index lens only; it carries no standalone teaching content of its own.
-optional:: true
+{++{"author":"Elias's AI","timestamp":1787256614646}@@reading_minutes:: 2
+++}optional:: true
 
 #### Text
 content::
