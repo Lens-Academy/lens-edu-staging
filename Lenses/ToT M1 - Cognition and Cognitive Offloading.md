@@ -28,6 +28,8 @@ to:: "but a new way of viewing how cognition works.3"
 
 #### Text
 ::content
+ Humans have always shared thinking across tools and other people. A paper map still holds part of the navigation. Tables, slide rules, and calculators have handled arithmetic long before computers. 
+
 Why does offloading feel so good? Brains are built to save effort. When a task ends successfully, the brain learns a shortcut for next time. Offloading is the same instinct, applied to tools: get the result with less work. It is not a character flaw. It is the default setting.
 
 But there is a trade-off. Offloading buys time. That time is time not spent practising the task. Not practising is harmless at first. Over time, the skill quietly shrinks.
