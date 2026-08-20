@@ -27,7 +27,7 @@ from:: "What goes into making sure a plane takes off in time?"
 to:: "but a new way of viewing how cognition works.3"
 
 #### Text
-::content
+content::
 Humans have always shared thinking across tools and other people, and the mental work of a task is spread across people and tools. A paper map still holds part of the navigation. Tables, slide rules, and calculators have handled arithmetic long before computers. 
 
 Why does offloading feel so good? Brains are built to save effort. When a task ends successfully, the brain learns a shortcut for next time. Offloading is the same instinct, applied to tools: get the result with less work. It is not a character flaw. It is the default setting.
