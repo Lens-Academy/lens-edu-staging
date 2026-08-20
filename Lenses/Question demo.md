@@ -109,7 +109,7 @@ Survey {--{"author":"Elias's AI","timestamp":1787221171904}@@choices--}{++{"auth
 
 Add `multi:: true` when learner may select more than one option.
 
-<pre><code>#### Choice
+<pre><code>#### {--{"author":"Elias's AI","timestamp":1787221177180}@@Choice--}{++{"author":"Elias's AI","timestamp":1787221177180}@@Select++}
 key&#58;&#58; empirical_evidence
 content&#58;&#58; Which two items are empirical evidence?
 options&#58;&#58;
@@ -151,7 +151,7 @@ Surveys may use FillBlank without `accepted-answers::` or `explanation::`. That 
 
 \## Grading rules
 
-- **Survey:** all question types are ungraded.
+- **Survey:** all {--{"author":"Elias's AI","timestamp":1787221183165}@@question--}{++{"author":"Elias's AI","timestamp":1787221183165}@@Response segment++} types are ungraded.
 - **Normal lens:** questions may be graded practice or ungraded reflection.
 - **Learning Outcome test:** Question, Choice, and FillBlank must be gradable. Question needs `assessment-instructions::`; Choice needs at least one `[x]`; FillBlank needs `accepted-answers::`.
 - Rating never contributes to correctness score.
