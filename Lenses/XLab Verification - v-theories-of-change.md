@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218171304}@@---
+---
 id: 'b9bf7a86-0221-4b6e-8980-29e23fa7f435'
 title: "0.1.2 We Need More Theories of Change"
 tldr: "Faithful alpha import of XLab lesson 0.1.2 We Need More Theories of Change."
@@ -105,4 +105,3 @@ Theories of change are probabilistic, not deterministic: they depend on assumpti
 In sum: when someone asks you how your work changes the world, in a field that supposedly works towards saving it, you should have a ready, clear answer for them.
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/why-verification/theories-of-change)*
-++}

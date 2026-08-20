@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218171934}@@---
+---
 id: '54b31be9-4b04-4248-8e8f-00c104d484f6'
 title: "0.0 Welcome"
 tldr: "Faithful alpha import of XLab lesson 0.0 Welcome."
@@ -50,4 +50,3 @@ optional:: true
 #### Text
 content::
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/why-verification/welcome)*
-++}
