@@ -4,19 +4,19 @@ slug: lens-duration-demo
 title: Lens duration demo
 ---
 
-%% This module explains authored lens durations: how to state how long a lens takes instead of relying on the platform's estimate.
+%% {--{"author":"Elias's AI","timestamp":1787254876179}@@This module explains authored lens durations: how to state how long--}{++{"author":"Elias's AI","timestamp":1787254876179}@@State++} a{--{"author":"Elias's AI","timestamp":1787254876179}@@ lens takes instead of relying on the platform's estimate.
 
-The default: the platform estimates each lens's time badge from its content (word count / 200 wpm + video length, plus tutor time when the lens has chat, question, or roleplay segments) and sums the badges into the module total.
+The default: the platform estimates each --}{++{"author":"Elias's AI","timestamp":1787254876179}@@ ++}lens's{--{"author":"Elias's AI","timestamp":1787254876179}@@ time badge from its content (word count / 200 wpm + video length, plus tutor--}{++{"author":"Elias's AI","timestamp":1787254876179}@@ expected++} time {--{"author":"Elias's AI","timestamp":1787254876179}@@when the lens has chat, question, or roleplay segments) and sums the badges into the module total.
 
-The fields (lens frontmatter, or `field::` on an inline lens):
-- `reading_minutes` + `tutor_minutes`: the author's estimate split into content time (reading, watching, on-page work) and AI-tutor time (chats, question feedback, roleplays). Preferred, because the platform displays the two parts separately. Either may stand alone; the missing part stays estimated. `tutor_minutes: 0` states there is no real tutor work.
-- `duration_minutes`: the author's one-number total, shown as a plain badge. Use when a split would be false precision. Never combine it with the split fields (validation error).
+The fields (lens frontmatter,--}{++{"author":"Elias's AI","timestamp":1787254876179}@@in its metadata (frontmatter++} or `field::` on an inline lens):{--{"author":"Elias's AI","timestamp":1787254876179}@@
+- --}{++{"author":"Elias's AI","timestamp":1787254876179}@@ prefer ++}`reading_minutes` + {--{"author":"Elias's AI","timestamp":1787254876179}@@`tutor_minutes`: the author's estimate split into content time (reading, watching, on-page work) and AI-tutor--}{++{"author":"Elias's AI","timestamp":1787254876179}@@`tutor_minutes` (content++} time{--{"author":"Elias's AI","timestamp":1787254876179}@@ (chats, question feedback, roleplays). Preferred, because the platform displays the two parts separately. Either may stand alone; the missing part stays estimated. --}{++{"author":"Elias's AI","timestamp":1787254876179}@@ + AI time, displayed split; either alone works, ++}`tutor_minutes: 0`{--{"author":"Elias's AI","timestamp":1787254876179}@@ states there is--}{++{"author":"Elias's AI","timestamp":1787254876179}@@ means++} no{--{"author":"Elias's AI","timestamp":1787254876179}@@ real--} tutor {--{"author":"Elias's AI","timestamp":1787254876179}@@work.
+- `duration_minutes`: the author's one-number--}{++{"author":"Elias's AI","timestamp":1787254876179}@@time), or one `duration_minutes`++} total,{--{"author":"Elias's AI","timestamp":1787254876179}@@ shown as a plain badge. Use when a split would be false precision. Never combine it with the split fields (validation error).
 
-When set, authored values replace the computed estimate everywhere the time shows (course page, module page, sidebar, resource cards). When absent, the computed estimate applies. Whole minutes, up to 600; an invalid value is a validation error and the computed estimate stays in effect.
+When set, authored--}{++{"author":"Elias's AI","timestamp":1787254876179}@@ never both. Authored++} values replace the {--{"author":"Elias's AI","timestamp":1787254876179}@@computed estimate everywhere the--}{++{"author":"Elias's AI","timestamp":1787254876179}@@platform's word-count estimate wherever++} time {--{"author":"Elias's AI","timestamp":1787254876179}@@shows (course page, module page, sidebar, resource cards). When absent, the computed estimate applies. Whole minutes, up to 600; an invalid value is a validation error and the computed estimate stays in effect.
 
-Set an estimate on nearly every lens, and re-estimate whenever you change a lens. The computed fallback badly under-counts lenses whose work lives outside the page text, such as external readings or exercises.
+Set an estimate --}{++{"author":"Elias's AI","timestamp":1787254876179}@@shows, so set them ++}on nearly every {--{"author":"Elias's AI","timestamp":1787254876179}@@lens,--}{++{"author":"Elias's AI","timestamp":1787254876179}@@lens++} and re-estimate {--{"author":"Elias's AI","timestamp":1787254876179}@@whenever--}{++{"author":"Elias's AI","timestamp":1787254876179}@@when++} you change{--{"author":"Elias's AI","timestamp":1787254876179}@@ a lens. The computed fallback badly under-counts lenses whose work lives outside the page text, such as external readings or exercises.
 
-The three lenses below show the total form, the split form, and the fallback. %%
+--}{++{"author":"Elias's AI","timestamp":1787254876179}@@ one. ++}The three lenses below show the total form, the split form, and the fallback. %%
 
 # Lens: Lens with an authored duration
 id:: c025bf28-ac92-4909-80f5-f8837abc663f
