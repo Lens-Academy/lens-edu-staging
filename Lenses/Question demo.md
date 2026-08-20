@@ -47,9 +47,9 @@ Options:
 - {--{"author":"Elias's AI","timestamp":1787220880871}@@`max-chars&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220880871}@@`max-chars::`:++} maximum answer length.
 - {--{"author":"Elias's AI","timestamp":1787220884383}@@`placeholder&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220884383}@@`placeholder::`:++} hint shown in empty input.
 - {--{"author":"Elias's AI","timestamp":1787220887301}@@`max-time&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220887301}@@`max-time::`:++} answer timer in `M:SS`, or `none`.
-- `enforce-voice&#58;&#58; true`: require spoken answer.
-- `assessment-instructions&#58;&#58;`: rubric for AI assessment.
-- `feedback&#58;&#58;`: whether learner receives AI feedback. Defaults to `true` in lenses and tests.
+- {--{"author":"Elias's AI","timestamp":1787220890198}@@`enforce-voice&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787220890198}@@`enforce-voice::++} true`: require spoken answer.
+- {--{"author":"Elias's AI","timestamp":1787220892791}@@`assessment-instructions&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220892791}@@`assessment-instructions::`:++} rubric for AI assessment.
+- {--{"author":"Elias's AI","timestamp":1787220895640}@@`feedback&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220895640}@@`feedback::`:++} whether learner receives AI feedback. Defaults to `true` in lenses and tests.
 
 Surveys do not use `assessment-instructions&#58;&#58;` or `feedback&#58;&#58;`. They store response without grading it.
 
