@@ -153,8 +153,8 @@ required&#58;&#58; {--{"author":"Elias's AI","timestamp":1787220836737}@@true
 Options:
 
 - {--{"author":"Elias's AI","timestamp":1787220927447}@@`accepted-answers&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220927447}@@`accepted-answers::`:++} one or more complete accepted answers.
-- `case-sensitive&#58;&#58;`: defaults to `false`.
-- `trim&#58;&#58;`: ignore leading and trailing whitespace. Defaults to `true`.
+- {--{"author":"Elias's AI","timestamp":1787220933860}@@`case-sensitive&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220933860}@@`case-sensitive::`:++} defaults to `false`.
+- {--{"author":"Elias's AI","timestamp":1787220937329}@@`trim&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220937329}@@`trim::`:++} ignore leading and trailing whitespace. Defaults to `true`.
 - `explanation&#58;&#58;`: optional feedback shown after submission.
 
 Matching is exact after configured case and whitespace normalization. Use several FillBlank segments when exercise needs several blanks.
