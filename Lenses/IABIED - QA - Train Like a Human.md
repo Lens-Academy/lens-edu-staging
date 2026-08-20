@@ -1,7 +1,7 @@
 ---
-id: a435b40c-0122-44c1-94f0-8eb74659af9b{++{"author":"Elias's AI","timestamp":1787256370664}@@
+id: a435b40c-0122-44c1-94f0-8eb74659af9b
 reading_minutes: 5
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: "Addresses the proposal of socializing AI like a human child. Argues that human development is not infinitely malleable (the Soviet 'New Man' experiment failed), AI architecture is fundamentally alien to human brains, and imitation of human behavior does not create human values. Emphasizes the knowledge-action gap: AI systems describe why behaviors are wrong while still engaging in them."
 title: "Can't we just train it to act like a human? Or raise the AI like a child?"
 tldr: "Brains aren't blank slates."

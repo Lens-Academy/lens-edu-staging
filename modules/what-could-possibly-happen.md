@@ -40,9 +40,9 @@ source:: [[../Lenses/AIF - What a Curve Licenses]]
 # Lens: Revision 1
 id:: 6b5aeba9-9a1e-4622-bbd6-59915a64be70
 tldr:: Restate your ten-year model from memory, then change it. What actually moved?
-summary_for_tutor:: "Module-end restatement of the student's day-zero model. Skill practiced: honest revision. No comparison against stored text; reward mechanisms and numbers entering the model, flag identical confidence in new vocabulary."{++{"author":"Elias's AI","timestamp":1787256106423}@@
+summary_for_tutor:: "Module-end restatement of the student's day-zero model. Skill practiced: honest revision. No comparison against stored text; reward mechanisms and numbers entering the model, flag identical confidence in new vocabulary."
 reading_minutes:: 2
-tutor_minutes:: 8++}
+tutor_minutes:: 8
 
 #### Question
 content::
@@ -75,8 +75,8 @@ Maximum 2 tutor turns. Keep an internal turn counter. Close by telling them this
 # Lens: One Door We Keep Walking Past
 id:: 6dae08db-986e-404d-bfd9-d60d0f7ee591
 tldr:: Everything here treated AI as a curve to forecast. There is a field that asks what makes a mind steerable at all.
-summary_for_tutor:: "Onramp pointer to theoretical alignment. Not assessed; if the student engages, point at the door, don't walk them through it."{++{"author":"Elias's AI","timestamp":1787256111872}@@
-reading_minutes:: 2++}
+summary_for_tutor:: "Onramp pointer to theoretical alignment. Not assessed; if the student engages, point at the door, don't walk them through it."
+reading_minutes:: 2
 
 #### Text
 content::

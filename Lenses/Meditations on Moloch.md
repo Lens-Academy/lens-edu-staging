@@ -1,7 +1,7 @@
 ---
-id: bc7f7e53-0125-4e5b-af01-88c1fbcdb276{++{"author":"Elias's AI","timestamp":1787256410582}@@
+id: bc7f7e53-0125-4e5b-af01-88c1fbcdb276
 reading_minutes: 60
-tutor_minutes: 10++}
+tutor_minutes: 10
 summary_for_tutor: "Covers coordination failures as a source of AI risk through Scott Alexander's concept of 'Moloch': multipolar traps and perverse incentives that drive groups toward outcomes no individual wants. Applies this to AI development where competitive pressure forces companies and nations to accelerate while cutting safety corners, even when every individual researcher prefers a safe outcome."
 title: Meditations on Moloch
 tldr: Even if every AI researcher wants a safe outcome, competitive pressure can push everyone toward outcomes nobody wants. This essay explores "Moloch" — a name for the traps and perverse incentives that drive groups to collectively destroy what they individually value.

@@ -1,7 +1,7 @@
 ---
-id: 'adf13f2b-6bec-40ad-8c07-4a3e87aa3dc0'{++{"author":"Elias's AI","timestamp":1787256349213}@@
+id: 'adf13f2b-6bec-40ad-8c07-4a3e87aa3dc0'
 reading_minutes: 5
-tutor_minutes: 15++}
+tutor_minutes: 15
 title: "The Lunch Table"
 tldr: A real, dated development, and one job. Place it in your model before anyone tells you what it means.
 summary_for_tutor: "Fourth lens of Unit 5. No reading. The student is handed one recent dated AI development and asked to file it as timeline, threat-model, or strategy evidence, then name the one thing they would check before repeating it. One mirror, no grade, no verdict on the placement."

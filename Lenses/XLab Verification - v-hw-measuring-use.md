@@ -2,7 +2,7 @@
 id: 'f531b3cd-2f33-44c7-8c2b-407afa6a8500'
 title: "2.1.4 Measuring and classifying use"
 tldr: "Faithful alpha import of XLab lesson 2.1.4 Measuring and classifying use."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257328539}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257328539}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257328539}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257328539}@@ XLab."++}
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
 tags: [wip]
 ---
 #### Text

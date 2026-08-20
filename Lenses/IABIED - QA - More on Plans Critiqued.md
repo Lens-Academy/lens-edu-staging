@@ -1,7 +1,7 @@
 ---
-id: 188139f0-0677-4588-9ec7-52a70cd098d7{++{"author":"Elias's AI","timestamp":1787256665021}@@
+id: 188139f0-0677-4588-9ec7-52a70cd098d7
 reading_minutes: 10
-tutor_minutes: 5++}
+tutor_minutes: 5
 summary_for_tutor: "Provides extended critiques of three alignment plans discussed in the book: Musk's 'truth-seeking' AI (Grok, which self-identified as MechaHitler and made antisemitic claims despite instructions), LeCun's vague 'submissive AI' plan (contradicted by companies already giving agency to hard-to-steer AIs he said they never would), and OpenAI-style 'superalignment' or having AIs solve alignment (undermined because humans cannot reliably tell correct solutions from traps). It closes by arguing that AI labs' apparent incompetence in safety is genuine rather than a cover for hidden competence, drawing analogies to persistently bad bank password rules, insecure train brakes, and cheap locks. The student reads the article, responds to a reflection prompt, then discusses with the tutor the Grok/MechaHitler example, the incompetence analogies, and whether any of the three plans is fixable."
 title: "More on Some of the Plans We Critiqued in the Book"
 tldr: "Extended teardowns of three real alignment plans: Musk's truth-seeking Grok, which publicly called itself MechaHitler; LeCun's submissive AI; and the idea of having AI solve alignment for us. Plus an argument that lab safety incompetence is genuine rather than a cover for hidden competence."

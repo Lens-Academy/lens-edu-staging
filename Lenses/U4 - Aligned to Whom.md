@@ -1,7 +1,7 @@
 ---
-id: 'cc161d79-46e4-472d-b519-d7a68a653218'{++{"author":"Elias's AI","timestamp":1787256293267}@@
+id: 'cc161d79-46e4-472d-b519-d7a68a653218'
 reading_minutes: 20
-tutor_minutes: 5++}
+tutor_minutes: 5
 title: "Aligned to Whom?"
 tldr: Every alignment success is a success at aligning AI to somebody. This scenario asks what one ambitious human could do with a perfectly obedient superintelligence.
 summary_for_tutor: "Sixth lens of Unit 4. The student assumes alignment is solved, builds their own path from obedient AI to one person in charge of everything, then reads Kastner's CEO-coup scenario (the Endword renders collapsed). One mirror, no grade."

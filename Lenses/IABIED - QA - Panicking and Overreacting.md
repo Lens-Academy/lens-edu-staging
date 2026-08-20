@@ -1,7 +1,7 @@
 ---
-id: eaea6c4f-403f-4b0a-a317-da776bb9cd60{++{"author":"Elias's AI","timestamp":1787256217573}@@
+id: eaea6c4f-403f-4b0a-a317-da776bb9cd60
 reading_minutes: 2
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: "Addresses the dismissal that people always overreact to new technologies. Acknowledges the tendency while presenting historical counterexamples where warnings proved correct: Nazi Germany, nuclear weapons, and ozone depletion. Argues that neither blanket dismissal nor blanket alarm is valid; each risk must be examined on its specific merits."
 title: "Aren't people always panicking and overreacting to things?"
 tldr: "Yes. But this doesn't mean that nothing is ever actually dangerous."

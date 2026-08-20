@@ -1,7 +1,7 @@
 ---
-id: 46a8ad84-2685-4afc-8bcd-f22f48ef6cb3{++{"author":"Elias's AI","timestamp":1787256396021}@@
+id: 46a8ad84-2685-4afc-8bcd-f22f48ef6cb3
 reading_minutes: 3
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: "Asks whether LLMs specifically could reach superintelligence. The path is unclear but barriers keep falling; extended reasoning chains were once thought impossible. Even if LLMs hit limits, the field consistently develops new architectures. The book's argument targets superintelligence broadly, not any specific architecture."
 title: "Could LLMs advance all the way to superintelligence?"
 tldr: "It isn't clear, but researchers are finding ways to overcome old LLM limitations."

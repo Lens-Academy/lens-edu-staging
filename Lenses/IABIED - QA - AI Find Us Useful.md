@@ -1,7 +1,7 @@
 ---
-id: 8cb088a9-a296-4403-95a5-278c13ec3983{++{"author":"Elias's AI","timestamp":1787256312256}@@
+id: 8cb088a9-a296-4403-95a5-278c13ec3983
 reading_minutes: 3
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: Covers why superintelligent AI is unlikely to preserve humanity for practical reasons. Notes that AI-human teams already underperform AI alone in domains like chess and medicine. Argues that humans are rarely the most efficient solution to any problem, and a superintelligence could generate more diverse perspectives through AI minds rather than relying on biological humans.
 title: "Will AI find us useful enough to keep around?"
 tldr: "Happy, healthy, free people aren't the most efficient solution to almost any problem."
