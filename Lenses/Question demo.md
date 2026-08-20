@@ -94,8 +94,8 @@ required&#58;&#58; {--{"author":"Elias's AI","timestamp":1787220826654}@@true
 
 For graded practice or test question, mark correct option with `[x]`:
 
-```md
-\#### Choice
+{--{"author":"Elias's AI","timestamp":1787220829157}@@```md
+\####--}{++{"author":"Elias's AI","timestamp":1787220829157}@@<pre><code>####++} Choice
 key&#58;&#58; optimizer
 content&#58;&#58; Which process updates model weights during training?
 options&#58;&#58;
@@ -103,8 +103,8 @@ options&#58;&#58;
 - [x] Gradient descent
 - Deployment monitoring
 shuffle&#58;&#58; true
-explanation&#58;&#58; Gradient descent updates weights using gradients of loss.
-```
+explanation&#58;&#58; Gradient descent updates weights using gradients of {--{"author":"Elias's AI","timestamp":1787220829157}@@loss.
+```--}{++{"author":"Elias's AI","timestamp":1787220829157}@@loss.</code></pre>++}
 
 Options:
 
@@ -117,8 +117,8 @@ Survey choices must use plain list items. Surveys never contain correct-answer m
 
 Add `multi&#58;&#58; true` when learner may select more than one option.
 
-```md
-\#### Choice
+{--{"author":"Elias's AI","timestamp":1787220834026}@@```md
+\####--}{++{"author":"Elias's AI","timestamp":1787220834026}@@<pre><code>####++} Choice
 key&#58;&#58; empirical_evidence
 content&#58;&#58; Which two items are empirical evidence?
 options&#58;&#58;
@@ -128,8 +128,8 @@ options&#58;&#58;
 - A thought experiment
 multi&#58;&#58; true
 shuffle&#58;&#58; true
-explanation&#58;&#58; Measurements and trial results are empirical evidence.
-```
+explanation&#58;&#58; Measurements and trial results are empirical {--{"author":"Elias's AI","timestamp":1787220834026}@@evidence.
+```--}{++{"author":"Elias's AI","timestamp":1787220834026}@@evidence.</code></pre>++}
 
 A graded response is correct only when selected options exactly match every `[x]` option. In surveys, `multi&#58;&#58; true` works the same way but options stay ungraded and use no `[x]` markers.
 
@@ -137,8 +137,8 @@ A graded response is correct only when selected options exactly match every `[x]
 
 Use `#### FillBlank`. Put exactly one `{{blank}}` marker in prompt.
 
-```md
-\#### FillBlank
+{--{"author":"Elias's AI","timestamp":1787220836737}@@```md
+\####--}{++{"author":"Elias's AI","timestamp":1787220836737}@@<pre><code>####++} FillBlank
 key&#58;&#58; training_method
 content&#58;&#58; Model weights are commonly updated using {{blank}}.
 accepted-answers&#58;&#58;
@@ -147,8 +147,8 @@ accepted-answers&#58;&#58;
 case-sensitive&#58;&#58; false
 trim&#58;&#58; true
 explanation&#58;&#58; Gradient descent uses loss gradients to update model weights.
-required&#58;&#58; true
-```
+required&#58;&#58; {--{"author":"Elias's AI","timestamp":1787220836737}@@true
+```--}{++{"author":"Elias's AI","timestamp":1787220836737}@@true</code></pre>++}
 
 Options:
 
