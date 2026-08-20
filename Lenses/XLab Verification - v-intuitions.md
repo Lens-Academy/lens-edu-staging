@@ -87,7 +87,7 @@ content::
 #### Question
 content:: Choose the timeline milestone that seems least likely to accomplish on schedule. Then, look closely at the implementation sequence in 2029: chip declarations and inspections, datacenter retrofits, and the expansion of verification coverage across the world's major compute.
 
-In your rationale, you might compare the proposal with an arms-control inspection regime, a large industrial mobilization, an export-control system, or another suitable verification parallel. For inspiration, you may use outside resources or click ahead to learn more about historical verification precedents in [Module 0.3](/tracks/verification/why-verification/precedents).
+In your rationale, you might compare the proposal with an arms-control inspection regime, a large industrial mobilization, an export-control system, or another suitable verification parallel. For inspiration, you may use outside resources or click ahead to learn more about historical verification precedents in {--{"author":"Elias's AI","timestamp":1787226893442}@@[Module 0.3](/tracks/verification/why-verification/precedents)--}{++{"author":"Elias's AI","timestamp":1787226893442}@@[[../Lenses/XLab Verification - v-precedents|Module 0.3]]++}.
 
 Ask whether the precedent changes your estimate of what could realistically be built within Plan A's timeline.
 assessment-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
