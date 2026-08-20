@@ -34,7 +34,7 @@ In this essay, I argue for the crucial importance of what I call “AI for AI sa
 - *The AI capabilities feedback loop*: access to increasingly capable AI systems driving further progress in AI capabilities.
 - *The AI safety feedback loop*: safe access to increasingly capable AI systems driving improvements to the security factors above.
 
-AI for AI safety is about continually {--{"author":"Lauren's AI","timestamp":1786857199361}@@usito--}{++{"author":"Lauren's AI","timestamp":1786857199361}@@using the latter feedback loop to++} either outpace or restrain the former.{--{"author":"Lauren's AI","timestamp":1786857199361}@@
+AIn's AI","timestamp":1786857199361using the latter feedback loop to++} either outpace or restrain the former.{--{"author":"Lauren's AI","timestamp":1786857199361}@@
 eeck loop to either outpa![171](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/78c64f83849b61011fb63235c73f74d7c99658744870b5e30e81231f4d5759c7/ghv5xywsfgfsynvwxioi)--}{++{"author":"Lauren's AI","timestamp":1786857199361}@@
 
 ![171](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/78c64f83849b61011fb63235c73f74d7c99658744870b5e30e81231f4d5759c7/ghv5xywsfgfsynvwxioi)++}
