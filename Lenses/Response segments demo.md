@@ -23,7 +23,8 @@ Each section below starts with smallest useful version. Only `id::` and `content
 
 - `id::`: globally unique UUID. It identifies segment in stored responses, grading, and analytics. Never change it after learners have answered.
 - `content::`: prompt shown to learner.
-- `required:: true`: require response before learner can continue. Defaults to `false`, so leave it out when response may be skipped.
+- `required:: true`: require response before learner can continue. Defaults to `false`, so leave it out when response may be skipped.{++{"author":"Elias's AI","timestamp":1787224162833}@@
+- `feedback-instructions:: ...`: ask AI to respond after submission using these instructions. Defaults to no AI feedback when omitted. This does not make response graded.++}
 
 Lens Editor should create `id::` automatically. When writing course files by hand, generate UUID at [uuidgenerator.net/version4](https://www.uuidgenerator.net/version4). Tools and language models can request one from [uuidgenerator.net/api/version4](https://www.uuidgenerator.net/api/version4).
 
@@ -55,9 +56,9 @@ Optional fields:
 - `max-time:: 3:00`: set answer timer in `M:SS`. Defaults to no timer.
 - `enforce-voice:: true`: require spoken response instead of typing. Defaults to `false`.
 - `assessment-instructions:: ...`: give AI grading rubric. Without it, response is ungraded.
-- `feedback:: true`: show AI feedback after submission. Defaults to `false`.
+- {--{"author":"Elias's AI","timestamp":1787224166594}@@`feedback:: true`: show--}{++{"author":"Elias's AI","timestamp":1787224166594}@@`feedback-instructions:: ...`: ask++} AI {--{"author":"Elias's AI","timestamp":1787224166594}@@feedback after submission.--}{++{"author":"Elias's AI","timestamp":1787224166594}@@to provide learner-facing feedback.++} Defaults to {--{"author":"Elias's AI","timestamp":1787224166594}@@`false`.--}{++{"author":"Elias's AI","timestamp":1787224166594}@@no AI feedback when omitted.++}
 
-Surveys ignore grading and feedback fields. They store response without grading it.
+{--{"author":"Elias's AI","timestamp":1787224166594}@@Surveys ignore grading and feedback fields. They store response without grading it.--}{++{"author":"Elias's AI","timestamp":1787224166594}@@`assessment-instructions::` controls grading. `feedback-instructions::` controls what learner sees. Surveys never grade responses, but may still use `feedback-instructions::`.++}
 
 \## Rating
 
