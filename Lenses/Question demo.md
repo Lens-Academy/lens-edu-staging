@@ -131,7 +131,7 @@ shuffle&#58;&#58; true
 explanation&#58;&#58; Measurements and trial results are empirical {--{"author":"Elias's AI","timestamp":1787220834026}@@evidence.
 ```--}{++{"author":"Elias's AI","timestamp":1787220834026}@@evidence.</code></pre>++}
 
-A graded response is correct only when selected options exactly match every `[x]` option. In surveys, `multi&#58;&#58; true` works the same way but options stay ungraded and use no `[x]` markers.
+A graded response is correct only when selected options exactly match every `[x]` option. In surveys, {--{"author":"Elias's AI","timestamp":1787220923253}@@`multi&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787220923253}@@`multi::++} true` works the same way but options stay ungraded and use no `[x]` markers.
 
 \## Fill in the blank
 
@@ -152,7 +152,7 @@ required&#58;&#58; {--{"author":"Elias's AI","timestamp":1787220836737}@@true
 
 Options:
 
-- `accepted-answers&#58;&#58;`: one or more complete accepted answers.
+- {--{"author":"Elias's AI","timestamp":1787220927447}@@`accepted-answers&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220927447}@@`accepted-answers::`:++} one or more complete accepted answers.
 - `case-sensitive&#58;&#58;`: defaults to `false`.
 - `trim&#58;&#58;`: ignore leading and trailing whitespace. Defaults to `true`.
 - `explanation&#58;&#58;`: optional feedback shown after submission.
