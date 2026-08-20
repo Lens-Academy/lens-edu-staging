@@ -184,7 +184,8 @@ source:: ![[../Lenses/IABIED - QA - Only One Smart AI]]
 id:: 4203d159-296c-4cab-a744-373d86fbdd23
 tldr:: Optional companion Q&As for the expansion phase: how Sable spreads, how the story would differ if it started later, and why power-seeking sub-goals show up for almost any goal.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 8 (Expansion). Links the book website's supplementary Q&A cards covering what would change if the story started later, Sable's expansion phase, and instrumental convergence. A navigation and index lens only; it carries no standalone teaching content of its own.
-optional:: true
+{++{"author":"Elias's AI","timestamp":1787256607041}@@reading_minutes:: 2
+++}optional:: true
 
 #### Text
 content::
