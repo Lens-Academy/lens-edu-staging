@@ -2,7 +2,7 @@
 id: 'a437d1e1-46b1-4677-bb9c-b2358b02143c'
 title: "1.0 Introduction: what kind of policy are we trying to verify?"
 tldr: "Faithful alpha import of XLab lesson 1.0 Introduction: what kind of policy are we trying to verify?."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Interactive elements marked as import gaps must be completed on XLab until Lens has an equivalent."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257456953}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257456953}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257456953}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257456953}@@ XLab."++}
 tags: [wip]
 ---
 #### Text
