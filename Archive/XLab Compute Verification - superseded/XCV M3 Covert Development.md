@@ -23,10 +23,10 @@ assessment-instructions::
 Evaluate architecture, not number of mechanisms. A strong answer defines a consequential scenario, states distinct evidence produced by each layer, names concrete evasions, and checks independence. If layers share one trust root, say so plainly. Ask one follow-up that forces the learner to redesign the weakest common dependency. Keep the response under 200 words.
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/A low-trust compute verification architecture]]
+source:: [[../../Learning Outcomes/A low-trust compute verification architecture]]
 
 # Lens:
-source:: [[../Lenses/AIV - A System Overview for Low-Trust Compute Verification]]
+source:: [[../../Lenses/AIV - A System Overview for Low-Trust Compute Verification]]
 
 # Lens:
-source:: [[../Lenses/AIV - Build the Datacenter Lie Detector]]
+source:: [[../../Lenses/AIV - Build the Datacenter Lie Detector]]

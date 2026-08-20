@@ -22,34 +22,34 @@ Compare mechanisms on four axes: claim tested, evidence produced, implementation
 This module uses Lens's current technical reading set to cover method taxonomies, near-term feasibility, hardware-enabled guarantees, and inference evidence. XLab's live alpha includes richer cloud, intelligence, and human-layer exercises, available from [its source curriculum](https://aisafetytracks.com/verification/landing).
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Verification methods and their evasions]]
+source:: [[../../Learning Outcomes/Verification methods and their evasions]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/What is verifiable today]]
+source:: [[../../Learning Outcomes/What is verifiable today]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Access substitutes for verification technology]]
+source:: [[../../Learning Outcomes/Access substitutes for verification technology]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Hardware-enabled guarantees]]
+source:: [[../../Learning Outcomes/Hardware-enabled guarantees]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Verifying inference to catch exfiltration]]
+source:: [[../../Learning Outcomes/Verifying inference to catch exfiltration]]
 
 # Lens:
-source:: [[../Lenses/AIV - Verifying International Agreements on AI]]
+source:: [[../../Lenses/AIV - Verifying International Agreements on AI]]
 
 # Lens:
-source:: [[../Lenses/AIV - Verification for International AI Governance]]
+source:: [[../../Lenses/AIV - Verification for International AI Governance]]
 
 # Lens:
-source:: [[../Lenses/AIV - Mechanisms to Verify International Agreements]]
+source:: [[../../Lenses/AIV - Mechanisms to Verify International Agreements]]
 
 # Lens:
-source:: [[../Lenses/AIV - Flexible Hardware-Enabled Guarantees]]
+source:: [[../../Lenses/AIV - Flexible Hardware-Enabled Guarantees]]
 
 # Lens:
-source:: [[../Lenses/AIV - Verifying LLM Inference to Detect Weight Exfiltration]]
+source:: [[../../Lenses/AIV - Verifying LLM Inference to Detect Weight Exfiltration]]
 
 # Lens:
-source:: [[../Lenses/AIV - Bit-Exact AI Inference Verification]]
+source:: [[../../Lenses/AIV - Bit-Exact AI Inference Verification]]

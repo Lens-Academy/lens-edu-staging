@@ -15,4 +15,4 @@ partner-url: https://aisafetytracks.com/verification/landing
 
 # Module: [[XCV M3 Covert Development]]
 
-# Module: [[../../modules/XCV M4 Capstone]]
+# Module: [[XCV M4 Capstone]]
