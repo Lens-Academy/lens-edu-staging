@@ -101,7 +101,7 @@ For graded practice or test response, mark correct option with `[x]`:
 Options:
 
 - `shuffle:: true`: randomize option order. Defaults to `false`.
-- `explanation&#58;&#58;`: optional feedback shown after submission.
+- {--{"author":"Elias's AI","timestamp":1787221248524}@@`explanation&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787221248524}@@`explanation::`:++} optional feedback shown after submission.
 
 Survey selects must use plain list items. Surveys never contain correct-answer markers.
 
