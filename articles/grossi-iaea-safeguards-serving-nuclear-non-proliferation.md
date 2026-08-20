@@ -392,11 +392,11 @@ the IAEA
 
 1957
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig16-9ed9bc73.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227128713}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig16-9ed9bc73.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227128713}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig16-9ed9bc73.jpg)++}
 
 Black and white photograph of two men in white lab coats working with complex machinery, possibly a research reactor control room.
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig17-4bbf4204.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227131772}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig17-4bbf4204.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227131772}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig17-4bbf4204.jpg)++}
 
 Black and white photograph of a woman in a white lab coat and gloves, holding a tool and working on a component.
 
@@ -409,7 +409,7 @@ Peace' speech
 
 1953
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig18-17139afb.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227135222}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig18-17139afb.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227135222}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig18-17139afb.jpg)++}
 
 Black and white photograph of Dwight D. Eisenhower speaking at a podium with a 'SECRETARY' sign, during his 'Atoms for Peace' speech.
 
