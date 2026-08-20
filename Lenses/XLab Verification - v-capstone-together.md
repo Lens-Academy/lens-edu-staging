@@ -1,0 +1,27 @@
+{++{"author":"Elias's AI","timestamp":1787218142309}@@---
+id: '102d18da-1125-432c-ad12-e01cb88dcdb1'
+title: "4.0 Putting it All Together"
+tldr: "Faithful alpha import of XLab lesson 4.0 Putting it All Together."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Interactive elements marked as import gaps must be completed on XLab until Lens has an equivalent."
+tags: [wip]
+---
+#### Text
+content::
+You have learned why verification is needed, the strengths and weaknesses of different verification mechanisms, and the various ways they can be circumvented. Now, it’s your turn to put it all together: to scaffold your own verification regime. As you know, AI verification is an emerging field with no canonical literature or consensus: it’s up to you to decide which mechanisms and layering strategies are most effective. **It’s up to you to build the paradigm.**
+
+Modules 2 and 3 introduced and applied four metrics of feasibility—technical feasibility, political feasibility, verification effectiveness, and durability—to existing verification mechanisms. But the technological and geopolitical landscapes that inform whether a mechanism is timely or obsolete are rapidly changing. As such, this module will start in 4.1 by giving you the research and discernment strategies to **assess these critical feasibility dimensions of any mechanism**, whether they exist or not yet. These strategies future-proof your learning.
+
+Then, in 4.2, you will choose a capstone project idea from a shared and regularly-updated project bank. Each project idea tackles the same cumulative goal: to build your own international verification model. Possible outputs include a treaty draft, policy memo, or longer research project proposal. You will also have the chance to propose your own project! After successful submission, we’ll invite you to reflect on your course experience, review prior written checkpoints to see how your thinking has grown and changed, and point you towards future opportunities and resources.
+
+\## Learning objectives
+
+- Assess an unfamiliar or not-yet-built verification mechanism against all four feasibility dimensions.
+- Combine mechanisms into a Swiss-cheese style layered regime whose parts cover each other's failure modes.
+- Defend a design decision made under a hard constraint (a budget ceiling, an inspection quota, a state that will not ratify), naming what you cut and why.
+- State the residual risk your regime leaves open: which evasion routes stay viable, and which actors can afford them.
+- Produce a governance artifact in a working format (treaty text, policy memo, research proposal) with every mechanism claim anchored to a named precedent, provision, or source.
+- Revise a design in response to red-team critique, identifying any objections you cannot currently answer.
+- Choose the next step in verification work that fits your background and articulate how you can make an impact after graduating this course.
+
+*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/capstone/putting-it-all-together)*
+++}
