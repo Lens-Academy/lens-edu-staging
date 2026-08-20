@@ -46,13 +46,13 @@ content::
 \## Chapter check
 A colleague says: "I don't see what the fuss is about. An AI assistant is just a faster calculator. I use both, and neither does my thinking for me."
 
-Is the AI assistant "just a faster calculator"? Explain the difference between the two kinds of offloading, including what each leaves in your hands and what each hides from you.
+Is the AI assistant "just a faster calculator"? Explain the difference between the two kinds of offloading, including what each leaves in your hands and what each {--{"author":"AI","timestamp":1787252913188}@@hides from you.--}{++{"author":"AI","timestamp":1787252913188}@@lets you check.++}
 
 assessment-instructions:: Chapter check for Unit 1. Score the answer according to the rubric below.
 - The reading's distinction: earlier tools offload narrow tasks (arithmetic, route-finding, spelling) and the judgement stays with the user
 - AI offloads interpretation and judgement: it produces complete analyses, drafts, and recommendations
 - With earlier tools, the user usually still understands the task (what a sum means) and can check the result
-- AI is a black box: it gives a confident answer, but the reasoning behind that answer stays hidden
+- AI {--{"author":"AI","timestamp":1787252916794}@@is a black box: it gives --}{++{"author":"AI","timestamp":1787252916794}@@offers no check independent of itself: the confident answer arrives with, at most, ++}a {--{"author":"AI","timestamp":1787252916794}@@confident answer, but--}{++{"author":"AI","timestamp":1787252916794}@@"thinking" trace that is++} the {--{"author":"AI","timestamp":1787252916794}@@reasoning behind that answer stays hidden--}{++{"author":"AI","timestamp":1787252916794}@@AI's own generated account rather than a derivation the user can redo++}
 - The deeper point: the user often does not notice how much judgement they have handed over
 
 **1** — Agrees that an AI assistant is "just a faster calculator" and sees no real difference.
