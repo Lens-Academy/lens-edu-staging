@@ -2,7 +2,7 @@
 id: 8189763f-576e-4f04-a614-4a00c628e386
 title: Response segments
 tldr: Use open responses, ratings, selects, {++{"author":"Elias's AI","timestamp":1787225049558}@@fill-in-the-blank responses, ++}and {--{"author":"Elias's AI","timestamp":1787225049558}@@fill-in-the-blank--}{++{"author":"Elias's AI","timestamp":1787225049558}@@numeric++} responses with the same syntax in surveys, normal lenses, and learning-outcome tests.
-summary_for_tutor: Reference page for course creators. It documents shared fields, exact syntax, options, defaults, and grading behavior for OpenResponse, Rating, Select, and FillBlank Response segments.
+summary_for_tutor: Reference page for course creators. It documents shared fields, exact syntax, options, defaults, and grading behavior for OpenResponse, Rating, Select, {++{"author":"Elias's AI","timestamp":1787225053833}@@FillBlank, ++}and {--{"author":"Elias's AI","timestamp":1787225053833}@@FillBlank--}{++{"author":"Elias's AI","timestamp":1787225053833}@@Number++} Response segments.
 ---
 
 #### Text
@@ -258,5 +258,5 @@ Number accepts integers, decimals, and negative values. It stores numeric value,
 
 - **Survey:** all Response segment types are ungraded.
 - **Normal lens:** responses may be graded practice or ungraded reflection.
-- **Learning Outcome test:** OpenResponse and Select must be gradable. FillBlank may use answer-bearing blanks for grading or `{{blank}}` for an ungraded response. OpenResponse needs `assessment-instructions::`; Select needs at least one `[x]`.
-- Rating and ungraded FillBlank responses never contribute to correctness score.
+- **Learning Outcome test:** OpenResponse and Select must be gradable. FillBlank {--{"author":"Elias's AI","timestamp":1787225057315}@@may use answer-bearing blanks for grading --}{++{"author":"Elias's AI","timestamp":1787225057315}@@and Number may be graded ++}or {--{"author":"Elias's AI","timestamp":1787225057315}@@`{{blank}}` for an ungraded response. --}{++{"author":"Elias's AI","timestamp":1787225057315}@@ungraded. ++}OpenResponse needs `assessment-instructions::`; Select needs at least one {--{"author":"Elias's AI","timestamp":1787225057315}@@`[x]`.--}{++{"author":"Elias's AI","timestamp":1787225057315}@@`[x]`; graded Number needs `correct-range::`.++}
+- {--{"author":"Elias's AI","timestamp":1787225057315}@@Rating--}{++{"author":"Elias's AI","timestamp":1787225057315}@@Rating, ungraded FillBlank,++} and ungraded {--{"author":"Elias's AI","timestamp":1787225057315}@@FillBlank--}{++{"author":"Elias's AI","timestamp":1787225057315}@@Number++} responses never contribute to correctness score.
