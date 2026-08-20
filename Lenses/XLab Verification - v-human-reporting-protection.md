@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218150219}@@---
+---
 id: 'b14a66c9-7199-47ac-a777-14045193b072'
 title: "2.4.2 Reporting and protection"
 tldr: "Faithful alpha import of XLab lesson 2.4.2 Reporting and protection."
@@ -128,4 +128,3 @@ content:: **Interactive exercise:** XLab's `human-institutions-judgment` widget 
 #### Text
 content::
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-reporting-protection)*
-++}

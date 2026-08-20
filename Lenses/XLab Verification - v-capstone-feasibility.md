@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218140433}@@---
+---
 id: '01252915-279a-48c6-b34a-97e51ce90203'
 title: "4.1 Feasibility Judgments"
 tldr: "Faithful alpha import of XLab lesson 4.1 Feasibility Judgments."
@@ -88,4 +88,3 @@ content:: **Import gap:** XLab persistent memo desk has no clean Lens equivalent
 #### Text
 content::
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/capstone/capstone-feasibility)*
-++}

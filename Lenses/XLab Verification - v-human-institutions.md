@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218148488}@@---
+---
 id: '2f120b75-f5b9-49db-88f4-1a8cfe0683ef'
 title: "2.4.4 Institutions and policy judgment"
 tldr: "Faithful alpha import of XLab lesson 2.4.4 Institutions and policy judgment."
@@ -49,4 +49,3 @@ content:: **Interactive exercise:** XLab's `standard-of-proof` widget has no dir
 #### Text
 content::
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-institutions)*
-++}

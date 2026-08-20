@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218141682}@@---
+---
 id: '604bd0b7-483a-4f65-b8ae-49bda77adb57'
 title: "4.2 Capstone project"
 tldr: "Faithful alpha import of XLab lesson 4.2 Capstone project."
@@ -25,4 +25,3 @@ content:: **Import gap:** CapstoneBank has no clean Lens equivalent. Use the [or
 #### Text
 content::
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/capstone/capstone-project)*
-++}

@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218160874}@@---
+---
 id: '70ee83e3-ccaa-4130-a72f-8a4310acc919'
 title: "1.2.1 Geographic supply-chain map"
 tldr: "Faithful alpha import of XLab lesson 1.2.1 Geographic supply-chain map."
@@ -21,4 +21,3 @@ A geographic chokepoint is potential leverage, not verification by itself. It ma
 _Content current as of July 2026. The policy layer of this field moves monthly — re-verify dates, thresholds, and bill status before citing. Key sources: Congress.gov (H.R. 3447 / S. 1705), BIS export control rules, EU AI Act Art. 51, CSIS, CRS R48642. Later modules go deeper on every mechanism named here._
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/policy-scoping/interactive-map)*
-++}

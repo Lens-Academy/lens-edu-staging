@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218141075}@@---
+---
 id: '75af0f47-9dc7-4a74-bccb-31089ad679f5'
 title: "Congratulations"
 tldr: "Faithful alpha import of XLab lesson Congratulations."
@@ -44,4 +44,3 @@ content:: **Import gap:** NextSteps has no clean Lens equivalent. Use the [origi
 #### Text
 content::
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/capstone/capstone-next-steps)*
-++}

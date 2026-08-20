@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218160290}@@---
+---
 id: '3e9c7610-3661-4ac9-b4ee-160932e9d3c9'
 title: "2.3.1 Observable signatures of undeclared AI development"
 tldr: "Faithful alpha import of XLab lesson 2.3.1 Observable signatures of undeclared AI development."
@@ -148,4 +148,3 @@ its main caveat?"). The open-source card is also held short deliberately — a
 dedicated treatment exists and should be distilled before it is finalised.
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-signatures)*
-++}

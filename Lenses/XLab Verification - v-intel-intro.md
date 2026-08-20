@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218159571}@@---
+---
 id: '27cb8115-9790-4574-8090-4c3d56b1e230'
 title: "2.3 Intelligence: watching without permission"
 tldr: "Faithful alpha import of XLab lesson 2.3 Intelligence: watching without permission."
@@ -28,4 +28,3 @@ The treaty term for a state’s own collection: reconnaissance satellites, signa
 Wasil and coauthors, whose taxonomy you’ll read in 2.3.1, count whistleblowers among national technical means. This course teaches the whistleblower in 2.4 instead, because a tip’s content and the person who risks carrying it raise different questions. When the two carve differently, follow the course’s numbering and cite the paper’s.
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-intro)*
-++}

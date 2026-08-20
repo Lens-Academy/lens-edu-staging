@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787218153672}@@---
+---
 id: 'f531b3cd-2f33-44c7-8c2b-407afa6a8500'
 title: "2.1.4 Measuring and classifying use"
 tldr: "Faithful alpha import of XLab lesson 2.1.4 Measuring and classifying use."
@@ -89,4 +89,3 @@ For the telemetry study, write four statements.
 A well-bounded answer will not claim that the study proves treaty-grade detection across frontier clusters or against a state controlling the measurement path.
 
 *Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-measuring-use)*
-++}
