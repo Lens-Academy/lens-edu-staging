@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787216869500}@@---
+{++{"author":"Elias's AI","timestamp":1787216953256}@@---
 id: '48a95f56-67e0-4bbb-a49e-9929436eadc4'
 slug: xcv-m3-covert-development
 title: "Covert Development and Low-Trust Architecture"
@@ -6,6 +6,8 @@ title: "Covert Development and Low-Trust Architecture"
 
 # Lens: Design Against Evasion
 id:: fc6ae411-a276-465a-8d73-93cef23aab0e
+tldr:: A verification stack is strong only when its layers fail differently and jointly make consequential evasion a bad bet.
+summary_for_tutor:: Teach architecture-level evasion analysis under a covert-adversary model. Focus on independent evidence, common-mode trust failures, and interference among evasions. The practice question asks learner to red-team three layers.
 #### Text
 content::
 A determined actor does not attack each mechanism independently. They choose a whole evasion plan: conceal equipment, falsify declarations, disperse workloads, compromise monitors, exploit inspection timing, or move activity outside jurisdiction.

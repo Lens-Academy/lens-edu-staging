@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787216862695}@@---
+{++{"author":"Elias's AI","timestamp":1787216950952}@@---
 id: 'a13e4224-e823-46d7-ab0f-b31447a1e11b'
 slug: xcv-m2-evidence-streams
 title: "Verification Infrastructure and Evidence Streams"
@@ -6,6 +6,8 @@ title: "Verification Infrastructure and Evidence Streams"
 
 # Lens: Four Evidence Streams, One Claim
 id:: c0b4eb85-03ca-4b7c-affe-842866e24322
+tldr:: Hardware, cloud, intelligence, and human mechanisms each test narrower claims and fail in different ways.
+summary_for_tutor:: Orient learner to four evidence streams and a comparison frame: claim tested, evidence, implementation requirements, failure mode, and confidentiality cost. Flag that XLab's live alpha holds richer interactive exercises.
 #### Text
 content::
 No evidence stream verifies "AI safety" in general. Each tests a narrower claim.
