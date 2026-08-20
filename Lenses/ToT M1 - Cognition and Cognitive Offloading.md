@@ -38,7 +38,7 @@ Here is the classic example: spellcheck and autocorrect slowly weaken spelling. 
 
 #### Question
 content::
-\## Phase 1: Recall and Processing
+\## {--{"author":"AI","timestamp":1787257144578}@@Phase 1: Recall and Processing--}{++{"author":"AI","timestamp":1787257144578}@@Check your Understanding++}
 First, spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended.
 
 Then, take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? Just capture your reaction.
