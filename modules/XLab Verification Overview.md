@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787219146304}@@---
+{++{"author":"Elias's AI","timestamp":1787219156849}@@---
 id: '76aee160-847f-4d37-8de2-3389142ad7bc'
 slug: xlab-verification-overview
 title: "Course Overview"
@@ -21,15 +21,15 @@ If you find something unclear, wrong, missing, or especially useful, please send
 
 Some XLab exercises use custom interactive software that Lens cannot reproduce cleanly yet. Those pages preserve surrounding material and link to original XLab activity.
 
-## What this course covers
+\## What this course covers
 
 Course asks how parties that do not trust one another could verify meaningful limits on advanced AI development. It moves from motivation and policy scope to concrete evidence, adversarial evasion, and regime design.
 
-### Module 0: Foundations
+\### Module 0: Foundations
 
 Why verification matters at all. Module connects AI risk and international coordination to core verification problem, develops intuitions using competing governance scenarios, and examines arms-control precedents and their limits.
 
-### Module 1: Policy scoping and actors
+\### Module 1: Policy scoping and actors
 
 What exactly must be verified, and by whom? Module compares compute and capability thresholds, tests effectiveness against feasibility, examines anatomy of a pause agreement, and maps actors and leverage across compute supply chain.
 
