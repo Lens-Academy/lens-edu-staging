@@ -19,7 +19,7 @@ Everyday examples are around you.
 - A spellchecker offloads spelling.
 - Asking a colleague offloads a judgement, for example "which of these two options is safer?"
 
-Offloading is not new. Psychologists call the broader pattern **distributed cognition**: humans have always shared thinking across tools and other people. A paper map still holds part of the navigation. Tables, slide rules, and calculators have handled arithmetic long before computers. 
+Offloading is not new. In fact, our thinking has always lived partly outside our heads. Psychologists call the broader pattern **distributed cognition**: humans have always shared thinking across tools and other people. A paper map still holds part of the navigation. Tables, slide rules, and calculators have handled arithmetic long before computers. 
 
 This article excerpt explains distributed cognition. Put simply, the mental work of a task is spread across people and tools, not confined to a single head.
 
