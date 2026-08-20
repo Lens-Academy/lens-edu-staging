@@ -8,7 +8,9 @@ partner-url: https://aisafetytracks.com/verification/landing
 tags: [wip]
 ---
 
-# Module: [[../modules/XLab Verification M0 Foundations]]
+# Module: [[../modules/XLab Verification {++{"author":"Elias's AI","timestamp":1787219094084}@@Overview]]
+
+# Module: [[../modules/XLab Verification ++}M0 Foundations]]
 
 # Module: [[../modules/XLab Verification M1 Policy and actors]]
 
