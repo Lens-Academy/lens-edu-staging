@@ -15,9 +15,11 @@ Put yourself on an IAEA verification team at the Fordow Fuel Enrichment Plant in
 
 Your first draft of the central finding reads:
 
-> **Note**
+{--{"author":"Elias's AI","timestamp":1787256933403}@@> **Note**
 
-"Enrichment at Fordow is 60 percent U-235, below weapons grade, and the facility's operating records match the declaration."
+--}{++{"author":"Elias's AI","timestamp":1787256933403}@@:::callout {title="Initial finding" tone="red"}
+++}"Enrichment at Fordow is 60 percent U-235, below weapons grade, and the facility's operating records match the declaration."{++{"author":"Elias's AI","timestamp":1787256933403}@@
+:::++}
 
 #### Question
 content:: Pause before reading on. What is wrong with this sentence? Every clause in it is true.
