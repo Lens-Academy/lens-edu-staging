@@ -455,11 +455,11 @@ A woman in a white lab coat and a floral face mask holding a small vial with a r
 
 A group of people in blue uniforms and hard hats standing in front of a large, damaged industrial building with a tall chimney.
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig28-4222a394.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227173175}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig28-4222a394.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227173175}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig28-4222a394.jpg)++}
 
 A light blue square with the year '2022' in large white font.
 
-![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig29-93f07fc0.jpg]]
+{--{"author":"Elias's AI","timestamp":1787227177153}@@![[/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig29-93f07fc0.jpg]]--}{++{"author":"Elias's AI","timestamp":1787227177153}@@![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig29-93f07fc0.jpg)++}
 
 Two people in white protective suits and yellow gloves holding up a large white sheet of paper.
 
