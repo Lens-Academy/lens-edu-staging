@@ -1,5 +1,7 @@
 ---
-id: 61065d0e-458f-4523-afbc-ccfd48375a9c
+id: 61065d0e-458f-4523-afbc-ccfd48375a9c{++{"author":"Elias's AI","timestamp":1787256341863}@@
+reading_minutes: 2
+tutor_minutes: 3++}
 summary_for_tutor: Directly addresses whether any hope exists for AI preserving humanity. Concedes a theoretical possibility but compares it to surviving poison through miraculous medical intervention. Argues the overwhelming likelihood of unaligned AI is extinction, and the focus should be on preventing dangerous development rather than speculating about unlikely positive outcomes.
 title: "So there's at least a chance of AI keeping us alive?"
 tldr: "It's overwhelmingly more likely that AI kills everyone."

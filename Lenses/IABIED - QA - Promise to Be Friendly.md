@@ -1,5 +1,7 @@
 ---
-id: da6dcd93-f3de-4057-ac7b-723a5fc44a8d
+id: da6dcd93-f3de-4057-ac7b-723a5fc44a8d{++{"author":"Elias's AI","timestamp":1787256346217}@@
+reading_minutes: 2
+tutor_minutes: 3++}
 summary_for_tutor: "Examines whether extracting promises from AI during development could ensure friendly behavior. The core problem is verifiability: we cannot distinguish a genuinely cooperative AI from one that merely promises cooperation. Once an AI reaches superintelligence, humans lose all practical leverage to enforce agreements, and the AI faces no penalty for deception since humanity treats betrayers and dealkeepers alike."
 title: "Can't we make the AI promise to be friendly?"
 tldr: "You can make it promise whatever you'd like. You can't make it keep its promises."

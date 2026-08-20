@@ -1,5 +1,7 @@
 ---
-id: 2ed51bc1-28d3-4db9-93fb-69e968d2beca
+id: 2ed51bc1-28d3-4db9-93fb-69e968d2beca{++{"author":"Elias's AI","timestamp":1787256339160}@@
+reading_minutes: 10
+tutor_minutes: 3++}
 summary_for_tutor: "Covers why partial alignment is insufficient for good outcomes. Alignment is not one-dimensional, and caring about humans 'in the right way' is a narrow target. Lists ways partial alignment could go wrong: granting wishes without safeguards, isolating humans, digitizing brains into simulations, or valuing all life equally. Argues that partially loading human values into a superintelligence does not approximate full alignment."
 title: "Won't AIs care at least a little about humans?"
 tldr: "Not in the way that matters."
