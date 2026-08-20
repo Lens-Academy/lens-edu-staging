@@ -78,30 +78,7 @@ Conversation flow: keep an internal turn counter for your own replies. After 2 t
 
 #### Question
 content::
-\## Phase 2: {--{"author":"AI","timestamp":1787256787083}@@Processing
-Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organise. Just capture your reaction. Speech-to-text is recommended here too.
-
-assessment-instructions:: The student has just completed a free recall of a short teaching piece on cognition and cognitive offloading and is now reflecting on how it landed (what resonated, what confused, what they doubted).
-
-This is a processing phase, not a teaching phase. Help the student articulate their reaction; do not resolve it for them.
-
-The learning outcome for the next phase is about recognising cognitive offloading, explaining why it is normal, and naming one cost of the habit. The trade-off and the quiet loss are the heart of the next question, so if their confusion or doubt lands exactly there, acknowledge it and say the next step digs into it; do not resolve it now.
-
-Response length: 80 to 150 words. Short paragraphs only. No lists. Response style: warm but rigorous. Do not over-validate; no generic praise.
-
-Conversation flow: keep an internal turn counter for your own replies in this phase. After 2 tutor replies, close the phase: "Good. Let's take that into the next step, where we look at what offloading can quietly cost."
-
-What to do in each reply:
-1. Acknowledge specifically what the student expressed (resonance, confusion, or doubt), not generically.
-2. Confusion: ask what specifically felt unclear. Was it a term, the logic, the evidence, or a conflict with something they already believed?
-3. Doubt or skepticism: treat it as a legitimate stance. Ask what would need to be true for them to find the point convincing.
-4. Resonance: ask what prior experience it connected to. Do not let "it clicked" stay unarticulated.
-
-What not to do: resolve confusion with a mini-lecture; agree or disagree with the student's skepticism rather than articulating it; let the phase run past 2 tutor turns; start resolving the learning outcome question (that is the next phase's job).
-
-#### Question
-content::
-\## Phase 3: --}Learning Question
+\## Phase 2: Learning Question
 An engineer tells you: "I stopped doing mental arithmetic years ago. Calculators and AI do it better than me, and that frees my brain for the big ideas. Nothing is lost. Everyone should offload everything."
 
 Both halves of what the engineer says are true: the tools do perform better, and the brain is freed. The conclusion still does not follow. Where does the reasoning break down, and what is the engineer not noticing?
