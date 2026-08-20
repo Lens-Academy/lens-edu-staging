@@ -78,7 +78,7 @@ Conversation flow: keep an internal turn counter for your own replies. After 2 t
 
 #### Question
 content::
-\## {--{"author":"AI","timestamp":1787257148384}@@Phase 2: --}Learning Question
+\## Learning Question
 An engineer tells you: "I stopped doing mental arithmetic years ago. Calculators and AI do it better than me, and that frees my brain for the big ideas. Nothing is lost. Everyone should offload everything."
 
 Both halves of what the engineer says are true: the tools do perform better, and the brain is freed. The conclusion still does not follow. Where does the reasoning break down, and what is the engineer not noticing?
