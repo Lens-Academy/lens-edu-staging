@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787225457236}@@---
+{++{"author":"Elias's AI","timestamp":1787226682714}@@---
 id: 07e98d8a-c0d8-410f-99f6-3bd1fa6dff23
 slug: lens-duration-demo
 title: Lens duration demo
@@ -32,9 +32,13 @@ The learner is looking at a demo of the duration_minutes field. Answer questions
 # Lens: Control lens without an authored duration
 id:: 6b327d0c-3fc8-47e7-b52b-e0d082f8b9ae
 tldr:: What happens when the author says nothing? Without duration_minutes, the platform falls back to its computed estimate from word count, video length, and tutor time.
-summary_for_tutor:: Control demo lens with no duration_minutes, showing the fallback behavior where the time badge comes from the platform's computed estimate. A single Text segment states this.
+summary_for_tutor:: Control demo lens with no duration_minutes, showing the fallback behavior where the time badge comes from the platform's computed estimate. A Text segment states this and a Chat segment earns the 3-minute tutor floor so a badge actually shows.
 
 #### Text
 content::
-This lens has no `duration_minutes`, so its badge shows the platform's computed estimate: word count at 200 words per minute, plus video length, plus tutor time when the lens has chat, question, or roleplay segments. That fallback is fine for pages whose work is all on the page.
+This lens has no `duration_minutes`, so its badge shows the platform's computed estimate: word count at 200 words per minute, plus video length, plus tutor time when the lens has chat, question, or roleplay segments. Here the chat below earns the 3-minute tutor floor, so the badge says about 3 min. The fallback is fine for pages whose work is all on the page.
+
+#### Chat
+instructions::
+The learner is looking at a demo of the computed time estimate. Answer questions about how the estimate is calculated; keep replies short.
 ++}
