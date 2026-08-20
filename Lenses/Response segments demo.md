@@ -129,29 +129,45 @@ A graded response is correct only when selected options exactly match every `[x]
 
 \## Fill in the blank
 
-Use `#### FillBlank`. Put exactly one `{{blank}}` marker in prompt.
+Use `#### FillBlank`. {--{"author":"Elias's AI","timestamp":1787222640186}@@Put exactly one `{{blank}}` marker in prompt.--}{++{"author":"Elias's AI","timestamp":1787222640186}@@Write accepted answers directly inside each blank. Separate alternatives with `|`.++}
 
 > `#### FillBlank`
-> `key:: training_method`
-> `content:: Model weights are commonly updated using {{blank}}.`
-> `accepted-answers::`
+> {--{"author":"Elias's AI","timestamp":1787222640186}@@`key:: training_method`--}{++{"author":"Elias's AI","timestamp":1787222640186}@@`id:: 38b31133-89c0-4bc2-b20f-d8e66a59b594`++}
+> `content:: {--{"author":"Elias's AI","timestamp":1787222640186}@@Model weights are commonly updated using {{blank}}.`--}{++{"author":"Elias's AI","timestamp":1787222640186}@@France's capital is {{Paris}}, while Germany's capital is {{Berlin}}.`++}
+> {--{"author":"Elias's AI","timestamp":1787222640186}@@`accepted-answers::`
 > `- gradient descent`
-> `- gradient-based optimization`
-> `case-sensitive:: false`
-> `trim:: true`
-> `explanation:: Gradient descent uses loss gradients to update model weights.`
-> `required:: true`
+> `- gradient-based optimization`--}{++{"author":"Elias's AI","timestamp":1787222640186}@@`explanation:: Paris and Berlin are the respective capitals of France and Germany.`++}
+> {--{"author":"Elias's AI","timestamp":1787222640186}@@`case-sensitive:: false`--}{++{"author":"Elias's AI","timestamp":1787222640186}@@`feedback:: true`++}
+> {--{"author":"Elias's AI","timestamp":1787222640186}@@`trim::--}{++{"author":"Elias's AI","timestamp":1787222640186}@@`required::++} true`{--{"author":"Elias's AI","timestamp":1787222640186}@@
+--}{++{"author":"Elias's AI","timestamp":1787222640186}@@
+
+Multiple accepted answers for one blank:
+
+++}> {--{"author":"Elias's AI","timestamp":1787222640186}@@`explanation:: Gradient descent uses loss gradients to update model weights.`
+> `required:: true`--}{++{"author":"Elias's AI","timestamp":1787222640186}@@`content:: Model weights are commonly updated using {{gradient descent|gradient-based optimization}}.`
+
+Matching is always case-sensitive and ignores whitespace at beginning and end of learner response. There are no `case-sensitive::` or `trim::` options. Each `{{...}}` becomes a separate input. For graded responses, score is fraction of blanks answered correctly.++}
+
+{--{"author":"Elias's AI","timestamp":1787222640186}@@Options:
+
+- `accepted-answers::`: one or more complete accepted answers.
+- `case-sensitive::`: defaults to `false`.--}{++{"author":"Elias's AI","timestamp":1787222640186}@@Use `{{blank}}` when response should be collected without right or wrong answer:
+
+> `#### FillBlank`++}
+{--{"author":"Elias's AI","timestamp":1787222640186}@@- `trim::`: ignore leading and trailing whitespace. Defaults--}{++{"author":"Elias's AI","timestamp":1787222640186}@@> `id:: e7308f54-3b2f-410d-a67c-df916b8c8a19`
+> `content:: One change I want++} to {--{"author":"Elias's AI","timestamp":1787222640186}@@`true`.--}{++{"author":"Elias's AI","timestamp":1787222640186}@@make is {{blank}}.`++}
+{++{"author":"Elias's AI","timestamp":1787222640186}@@> `feedback:: true`
 
 Options:
 
-- `accepted-answers::`: one or more complete accepted answers.
-- `case-sensitive::`: defaults to `false`.
-- `trim::`: ignore leading and trailing whitespace. Defaults to `true`.
-- `explanation::`: optional feedback shown after submission.
+++}- `explanation::`: optional {--{"author":"Elias's AI","timestamp":1787222640186}@@feedback--}{++{"author":"Elias's AI","timestamp":1787222640186}@@text++} shown after submission.{--{"author":"Elias's AI","timestamp":1787222640186}@@
 
-Matching is exact after configured case and whitespace normalization. Use several FillBlank segments when exercise needs several blanks.
+Matching is exact--}{++{"author":"Elias's AI","timestamp":1787222640186}@@
+- `feedback:: true`: ask AI to provide feedback++} after {--{"author":"Elias's AI","timestamp":1787222640186}@@configured case and whitespace normalization. Use several FillBlank segments when exercise needs several blanks.
 
-Surveys may use FillBlank without `accepted-answers::` or `explanation::`. That makes it an ungraded short-answer field.
+Surveys may use--}{++{"author":"Elias's AI","timestamp":1787222640186}@@submission. Defaults to `false`. On ungraded blanks, feedback is coaching only and does not assign correctness.
+
+Within one++} FillBlank {--{"author":"Elias's AI","timestamp":1787222640186}@@without `accepted-answers::` or `explanation::`. That makes it an ungraded short-answer field.--}{++{"author":"Elias's AI","timestamp":1787222640186}@@segment, use either answer-bearing blanks or ungraded `{{blank}}` markers, not both.++}
 
 \## Grading rules
 
