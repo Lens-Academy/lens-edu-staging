@@ -76,7 +76,7 @@ The student's feeling is understandable, and the comparison is popular. Where do
 
 assessment-instructions:: The student has completed a reading, a recall, and a reflection on how AI offloading differs from earlier tools. They are now in the main discussion phase. The question is a deliberate wedge: a plausible-sounding comparison between an AI analysis and a calculator; the student should locate what is different.
 
-Learning outcome for this Lens: "The learner can explain how offloading thinking to an AI differs from offloading to earlier tools: what kind of task is offloaded, and why the AI's reasoning is hidden."
+Learning outcome for this Lens: "The learner can explain how offloading thinking to an AI differs from offloading to earlier tools: what kind of task is offloaded, and why the AI's {--{"author":"AI","timestamp":1787252878462}@@reasoning--}{++{"author":"AI","timestamp":1787252878462}@@visible 'thinking'++} is {--{"author":"AI","timestamp":1787252878462}@@hidden."--}{++{"author":"AI","timestamp":1787252878462}@@not a check on its answer."++}
 
 Key concepts the student needs to grasp:
 - Older tools offload narrow computation (arithmetic, routing) while judgement stays with the user
