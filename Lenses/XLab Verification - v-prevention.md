@@ -2,7 +2,7 @@
 id: '51cf347a-59cf-412c-8206-ba7e19ace234'
 title: "0.1.1 The world keeps getting saved and you don’t notice"
 tldr: "Faithful alpha import of XLab lesson 0.1.1 The world keeps getting saved and you don’t notice."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Interactive elements marked as import gaps must be completed on XLab until Lens has an equivalent."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257422771}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257422771}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257422771}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257422771}@@ XLab."++}
 tags: [wip]
 ---
 #### Text
