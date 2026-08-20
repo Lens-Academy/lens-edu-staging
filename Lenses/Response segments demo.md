@@ -60,7 +60,7 @@ Surveys do not use `assessment-instructions::` or `feedback::`. They store respo
 Use `#### Rating` for numbered scale from 1 to N.
 
 > `#### Rating`
-> `key:: confidence`
+> {--{"author":"Elias's AI","timestamp":1787222612296}@@`key:: confidence`--}{++{"author":"Elias's AI","timestamp":1787222612296}@@`id:: 8f9c80dc-1946-44fc-ba50-e964a8e7f4aa`++}
 > `content:: How confident are you in your answer?`
 > `scale:: 7`
 > `low-label:: Not confident`
@@ -82,7 +82,7 @@ Use `#### Select` with plain list under `options::`. Default allows one selectio
 Ungraded example:
 
 > `#### Select`
-> `key:: next_topic`
+> {--{"author":"Elias's AI","timestamp":1787222615654}@@`key:: next_topic`--}{++{"author":"Elias's AI","timestamp":1787222615654}@@`id:: f32db9ca-cdf4-4c4d-b53c-50f3456dcac1`++}
 > `content:: Which topic should we cover next?`
 > `options::`
 > `- Forecasting`
@@ -93,7 +93,7 @@ Ungraded example:
 For graded practice or test response, mark correct option with `[x]`:
 
 > `#### Select`
-> `key:: optimizer`
+> {--{"author":"Elias's AI","timestamp":1787222618379}@@`key:: optimizer`--}{++{"author":"Elias's AI","timestamp":1787222618379}@@`id:: 234db237-6c5c-43f3-82aa-b19a4ee2708d`++}
 > `content:: Which process updates model weights during training?`
 > `options::`
 > `- Data collection`
