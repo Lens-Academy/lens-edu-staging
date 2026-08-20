@@ -57,7 +57,7 @@ assessment-instructions:: The student has just completed a free recall of a shor
 
 This is a processing phase, not a teaching phase. Help the student articulate their reaction; do not resolve it for them.
 
-The next phase's learning outcome is about explaining how AI offloading differs from earlier tools, including what is offloaded and why the reasoning is hidden. If their confusion or doubt lands exactly there, acknowledge it and say the next step digs into it; do not resolve it now.
+The next phase's learning outcome is about explaining how AI offloading differs from earlier tools, including what is offloaded and why the {--{"author":"AI","timestamp":1787252871784}@@reasoning is hidden.--}{++{"author":"AI","timestamp":1787252871784}@@AI offers no check independent of itself.++} If their confusion or doubt lands exactly there, acknowledge it and say the next step digs into it; do not resolve it now.
 
 Response length: 80 to 150 words. Short paragraphs only. No lists. Response style: warm but rigorous. Do not over-validate; no generic praise.
 
