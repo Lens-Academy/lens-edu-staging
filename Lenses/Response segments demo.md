@@ -33,27 +33,40 @@ Response segments do not need a separate human-readable key.
 
 Use `#### OpenResponse` when learner should type or dictate a response.
 
-> `#### OpenResponse`
-> `id:: 1e39cdb1-a286-427d-ac65-580fe8d5c17e`
-> `content:: In two sentences, what is the strongest objection?`
+{++{"author":"Elias's AI","timestamp":1787223019458}@@Smallest version:
+
+++}> `#### OpenResponse`
+> `id:: {--{"author":"Elias's AI","timestamp":1787223019458}@@1e39cdb1-a286-427d-ac65-580fe8d5c17e`--}{++{"author":"Elias's AI","timestamp":1787223019458}@@<uuid>`++}
+> `content:: {--{"author":"Elias's AI","timestamp":1787223019458}@@In two sentences, what --}{++{"author":"Elias's AI","timestamp":1787223019458}@@What is your strongest objection?`
+
+Here ++}is {--{"author":"Elias's AI","timestamp":1787223019458}@@the strongest objection?`
 > `required:: true`
-> `max-chars:: 500`
-> `placeholder:: Name the claim, then explain objection.`
-> `max-time:: 3:00`
+> `max-chars:: 500`--}{++{"author":"Elias's AI","timestamp":1787223019458}@@that minimal segment for learner to try:
+
+#### OpenResponse++}
+{--{"author":"Elias's AI","timestamp":1787223019458}@@> `placeholder:: Name the claim, then explain objection.`--}{++{"author":"Elias's AI","timestamp":1787223019458}@@id:: 3e1a5838-95df-4d05-a88a-1b4ca868905f
+content:: What is your strongest objection?
+
+#### Text++}
+{--{"author":"Elias's AI","timestamp":1787223019458}@@> `max-time:: 3:00`
 > `enforce-voice:: false`
-> `assessment-instructions:: Check whether learner names a claim and gives a relevant objection.`
-> `feedback:: true`
+> `assessment-instructions:: Check whether learner names a claim and gives a relevant objection.`--}{++{"author":"Elias's AI","timestamp":1787223019458}@@content::
+Optional fields:
+
+- `required:: true`: require response. Defaults to `false`.
+- `max-chars:: 500`: limit answer length. Defaults to no limit.++}
+{--{"author":"Elias's AI","timestamp":1787223019458}@@> `feedback:: true`
 
 Options:
 
 - `max-chars::`: maximum answer length.
-- `placeholder::`: hint shown in empty input.
-- `max-time::`: answer timer in `M:SS`, or `none`.
-- `enforce-voice:: true`: require spoken answer.
-- `assessment-instructions::`: rubric for AI assessment.
-- `feedback::`: whether learner receives AI feedback. Defaults to `true` in lenses and tests.
+- `placeholder::`:--}{++{"author":"Elias's AI","timestamp":1787223019458}@@- `placeholder:: Name the claim, then explain objection.`: show++} hint{--{"author":"Elias's AI","timestamp":1787223019458}@@ shown--} in empty input.{++{"author":"Elias's AI","timestamp":1787223019458}@@ Defaults to no placeholder.++}
+- {--{"author":"Elias's AI","timestamp":1787223019458}@@`max-time::`:--}{++{"author":"Elias's AI","timestamp":1787223019458}@@`max-time:: 3:00`: set++} answer timer in {--{"author":"Elias's AI","timestamp":1787223019458}@@`M:SS`, or `none`.--}{++{"author":"Elias's AI","timestamp":1787223019458}@@`M:SS`. Defaults to no timer.++}
+- `enforce-voice:: true`: require spoken {--{"author":"Elias's AI","timestamp":1787223019458}@@answer.--}{++{"author":"Elias's AI","timestamp":1787223019458}@@response instead of typing. Defaults to `false`.++}
+- {--{"author":"Elias's AI","timestamp":1787223019458}@@`assessment-instructions::`: rubric for--}{++{"author":"Elias's AI","timestamp":1787223019458}@@`assessment-instructions:: ...`: give++} AI {--{"author":"Elias's AI","timestamp":1787223019458}@@assessment.--}{++{"author":"Elias's AI","timestamp":1787223019458}@@grading rubric. Without it, response is ungraded.++}
+- {--{"author":"Elias's AI","timestamp":1787223019458}@@`feedback::`: whether learner receives AI feedback.--}{++{"author":"Elias's AI","timestamp":1787223019458}@@`feedback:: true`: show AI feedback after submission.++} Defaults to {--{"author":"Elias's AI","timestamp":1787223019458}@@`true` in lenses and tests.--}{++{"author":"Elias's AI","timestamp":1787223019458}@@`false`.++}
 
-Surveys do not use `assessment-instructions::` or `feedback::`. They store response without grading it.
+Surveys {--{"author":"Elias's AI","timestamp":1787223019458}@@do not use `assessment-instructions::` or `feedback::`.--}{++{"author":"Elias's AI","timestamp":1787223019458}@@ignore grading and feedback fields.++} They store response without grading it.
 
 \## Rating
 
