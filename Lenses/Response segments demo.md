@@ -188,31 +188,54 @@ It has same optional fields and defaults as single select. For graded multi-sele
 
 \## Fill in the blank
 
-Use `#### FillBlank`. Write accepted answers directly inside each blank. Separate alternatives with `|`.
+Use `#### FillBlank`. Write accepted {--{"author":"Elias's AI","timestamp":1787223092122}@@answers--}{++{"author":"Elias's AI","timestamp":1787223092122}@@answer++} directly inside{--{"author":"Elias's AI","timestamp":1787223092122}@@ each--} blank.{--{"author":"Elias's AI","timestamp":1787223092122}@@ Separate alternatives with `|`.--}{++{"author":"Elias's AI","timestamp":1787223092122}@@
+
+Smallest graded version:++}
 
 > `#### FillBlank`
-> `id:: 38b31133-89c0-4bc2-b20f-d8e66a59b594`
-> `content:: France's capital is {{Paris}}, while Germany's capital is {{Berlin}}.`
-> `explanation:: Paris and Berlin are the respective capitals of France and Germany.`
+> `id:: {--{"author":"Elias's AI","timestamp":1787223092122}@@38b31133-89c0-4bc2-b20f-d8e66a59b594`--}{++{"author":"Elias's AI","timestamp":1787223092122}@@<uuid>`++}
+> `content:: France's capital is {--{"author":"Elias's AI","timestamp":1787223092122}@@{{Paris}}, while Germany's--}{++{"author":"Elias's AI","timestamp":1787223092122}@@{{Paris}}.`
+
+Try it:
+
+#### FillBlank
+id:: ec12502a-e39c-4589-87f5-9f14855648c9
+content:: France's++} capital is {--{"author":"Elias's AI","timestamp":1787223092122}@@{{Berlin}}.`--}{++{"author":"Elias's AI","timestamp":1787223092122}@@{{Paris}}.
+
+#### Text++}
+{--{"author":"Elias's AI","timestamp":1787223092122}@@> `explanation:: Paris and Berlin are the respective capitals of France and Germany.`
 > `feedback:: true`
-> `required:: true`
+> `required:: true`--}{++{"author":"Elias's AI","timestamp":1787223092122}@@content::
+Separate alternative accepted answers with `|`:
 
-Multiple accepted answers for one blank:
+> `content:: Model weights are commonly updated using {{gradient descent|gradient-based optimization}}.`++}
 
-> `content:: Model weights are commonly updated using {{gradient descent|gradient-based optimization}}.`
+{--{"author":"Elias's AI","timestamp":1787223092122}@@Multiple accepted answers for--}{++{"author":"Elias's AI","timestamp":1787223092122}@@Put several blanks in++} one {--{"author":"Elias's AI","timestamp":1787223092122}@@blank:--}{++{"author":"Elias's AI","timestamp":1787223092122}@@sentence:++}
 
-Matching is always case-sensitive and ignores whitespace at beginning and end of learner response. There are no `case-sensitive::` or `trim::` options. Each `{{...}}` becomes a separate input. For graded responses, score is fraction of blanks answered correctly.
+> `content:: {--{"author":"Elias's AI","timestamp":1787223092122}@@Model weights are commonly updated using {{gradient descent|gradient-based optimization}}.`--}{++{"author":"Elias's AI","timestamp":1787223092122}@@France's capital is {{Paris}}, while Germany's capital is {{Berlin}}.`++}
 
-Use `{{blank}}` when response should be collected without right or wrong answer:
+{++{"author":"Elias's AI","timestamp":1787223092122}@@Each `{{...}}` becomes separate input. ++}Matching is always case-sensitive and ignores whitespace at beginning and end of learner response. There are no `case-sensitive::` or `trim::`{--{"author":"Elias's AI","timestamp":1787223092122}@@ options. Each `{{...}}` becomes a separate input. For graded responses, --}{++{"author":"Elias's AI","timestamp":1787223092122}@@ fields. Graded ++}score is fraction of blanks answered correctly.
 
-> `#### FillBlank`
-> `id:: e7308f54-3b2f-410d-a67c-df916b8c8a19`
-> `content:: One change I want to make is {{blank}}.`
-> `feedback:: true`
+Use `{{blank}}` when response should{--{"author":"Elias's AI","timestamp":1787223092122}@@ be collected without--}{++{"author":"Elias's AI","timestamp":1787223092122}@@ have no++} right or wrong {--{"author":"Elias's AI","timestamp":1787223092122}@@answer:--}{++{"author":"Elias's AI","timestamp":1787223092122}@@answer.++}
 
-Options:
+{++{"author":"Elias's AI","timestamp":1787223092122}@@Smallest ungraded version:
 
-- `explanation::`: optional text shown after submission.
+++}> `#### FillBlank`
+> `id:: {--{"author":"Elias's AI","timestamp":1787223092122}@@e7308f54-3b2f-410d-a67c-df916b8c8a19`--}{++{"author":"Elias's AI","timestamp":1787223092122}@@<uuid>`++}
+> `content:: One change I want to make is {{blank}}.`{++{"author":"Elias's AI","timestamp":1787223092122}@@
+
+Try it:
+
+#### FillBlank
+id:: e7308f54-3b2f-410d-a67c-df916b8c8a19++}
+{--{"author":"Elias's AI","timestamp":1787223092122}@@> `feedback:: true`--}{++{"author":"Elias's AI","timestamp":1787223092122}@@content:: One change I want to make is {{blank}}.++}
+
+{--{"author":"Elias's AI","timestamp":1787223092122}@@Options:--}{++{"author":"Elias's AI","timestamp":1787223092122}@@#### Text
+content::
+Optional fields:++}
+
+- {--{"author":"Elias's AI","timestamp":1787223092122}@@`explanation::`: optional text shown--}{++{"author":"Elias's AI","timestamp":1787223092122}@@`required:: true`: require every blank. Defaults to `false`.
+- `explanation:: ...`: show fixed text++} after submission.{++{"author":"Elias's AI","timestamp":1787223092122}@@ Defaults to no explanation.++}
 - `feedback:: true`: ask AI to provide feedback after submission. Defaults to `false`. On ungraded blanks, feedback is coaching only and does not assign correctness.
 
 Within one FillBlank segment, use either answer-bearing blanks or ungraded `{{blank}}` markers, not both.
