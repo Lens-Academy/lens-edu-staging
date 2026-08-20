@@ -3,7 +3,9 @@ id: '8a469dde-e377-4d95-b997-592ca95db1c3'
 title: "Cognition, Cognitive Offloading, and the Tools We Already Use"
 tldr: "Offloading thinking to tools and people is not new and not lazy; it is how human brains have always worked. The cost is quiet: time offloaded is time not spent practising the skill."
 summary_for_tutor: "Core teaching lens for Unit 1 of 'Thinking about Thinking'. Presents authored content defining cognition and cognitive offloading, giving everyday examples, introducing distributed cognition, the efficiency motive, the practice trade-off, and the 'quiet loss' (spelling). Then runs a merged Recall and Processing phase, followed by the Learning Question. The learning question is a wedge: an engineer who says offloading everything costs nothing; the student locates the trade-off and the quiet loss."
-tags:
+{++{"author":"AI","timestamp":1787259573154}@@reading_minutes: 4
+tutor_minutes: 18
+++}tags:
   - wip
 ---
 
