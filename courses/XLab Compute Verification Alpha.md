@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787216865881}@@---
+---
 id: '9df4ff86-f08d-40f0-9e17-af35ad33eee9'
 slug: xlab-compute-verification-alpha
 title: "Compute Verification: XLab Alpha"
@@ -16,4 +16,3 @@ partner-url: https://aisafetytracks.com/verification/landing
 # Module: [[../modules/XCV M3 Covert Development]]
 
 # Module: [[../modules/XCV M4 Capstone]]
-++}
