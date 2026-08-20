@@ -19,7 +19,7 @@ authors:
 id:: 39abbb9e-eadc-49f6-8709-c1dad0fd74d8
 
 
-assesment system prompt + question-specific assessment-instructions + answer--> 
+assesment system prompt + question-specific assessment-instructions + answer --> pass/fail + reason
 
 	base coach/tutor system prompt + reusable feedback prompt appended to context + 
 
