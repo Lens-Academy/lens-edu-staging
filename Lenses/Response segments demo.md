@@ -138,19 +138,37 @@ id:: 8a3ae4f5-4d86-42dc-b126-b293f88a7b61
 content:: How many years until transformative AI? {{number}}
 optional:: true
 
-%% Numeric grading:
+%% Numeric {--{"author":"Elias's AI","timestamp":1787261380982}@@grading:
 - `{{number 42}}`: exact number.
-- `{{number 147,500,000 to 152,000,000}}`: inclusive range.
+---}{++{"author":"Elias's AI","timestamp":1787261380982}@@grading uses one reference number:++} `{{number {--{"author":"Elias's AI","timestamp":1787261380982}@@147,500,000 to 152,000,000}}`: inclusive range.
 
-Commas may separate thousands. Decimals and negative values work. Next example shows graded range. %%
+--}{++{"author":"Elias's AI","timestamp":1787261380982}@@42}}` or `{{number 149,600,000}}`. There is no range syntax. ++}Commas may separate {--{"author":"Elias's AI","timestamp":1787261380982}@@thousands. Decimals--}{++{"author":"Elias's AI","timestamp":1787261380982}@@thousands; decimals++} and negative values work.{--{"author":"Elias's AI","timestamp":1787261380982}@@ --}{++{"author":"Elias's AI","timestamp":1787261380982}@@
+
+Assessor infers expected precision from question. Base numeric rubric:
+- 100: correct within precision reasonably implied by question.
+- 80 to 99: very close; difference does not change practical interpretation.
+- 50 to 79: right scale or direction but materially off.
+- 20 to 49: weak estimate showing some magnitude awareness.
+- 1 to 19: barely related numerically.
+- 0: wrong sign, incompatible unit, nonsensical value, or no meaningful proximity.
+
+++}Next example {--{"author":"Elias's AI","timestamp":1787261380982}@@shows graded range.--}{++{"author":"Elias's AI","timestamp":1787261380982}@@uses default rubric.++} %%
 
 #### FillBlank
 id:: 1211df1d-70e8-4b93-a3b6-1ce44460ed1f
-content:: Earth is approximately {{number 147,500,000 to 152,000,000}} km from Sun.
+content:: Earth is approximately {{number {--{"author":"Elias's AI","timestamp":1787261380982}@@147,500,000 to 152,000,000}} --}{++{"author":"Elias's AI","timestamp":1787261380982}@@149,600,000}} ++}km from Sun.
 
-%% Numeric blanks store numbers, not text. Validator rejects malformed numeric syntax, reversed ranges, and invalid thousands separators. Assessor LLM still assigns score; numeric target or range guides judgment rather than triggering programmatic pass/fail.
+%% Numeric blanks store numbers, not text. Validator rejects malformed numeric {--{"author":"Elias's AI","timestamp":1787261380982}@@syntax, reversed ranges, --}{++{"author":"Elias's AI","timestamp":1787261380982}@@syntax ++}and invalid thousands separators. Assessor LLM {--{"author":"Elias's AI","timestamp":1787261380982}@@still assigns score; numeric target or range guides judgment rather than triggering programmatic pass/fail.--}{++{"author":"Elias's AI","timestamp":1787261380982}@@assigns percentage using reference number, wording, unit, context, and implied precision. This percentage is judgment, not objective error formula.
 
-One FillBlank may mix text and numeric blanks, and graded and ungraded blanks, for example: `I estimate {{number}} years because {{blank}}.`
+Use `assessment-instructions::` when domain needs explicit tolerance. Next example treats answer as Fermi estimate. %%
+
+#### FillBlank
+id:: 5b5387b7-f8bf-4dd7-a4ae-a0c6468d7e22
+content:: Estimate number of seconds in one year: {{number 31,536,000}}
+assessment-instructions:: This is a Fermi estimate. Give 100 within factor 2, substantial credit within one order of magnitude, and 0 only for answer with no meaningful magnitude awareness.
+feedback-instructions:: Explain most important estimation error and suggest one useful decomposition.++}
+
+{++{"author":"Elias's AI","timestamp":1787261380982}@@%% ++}One FillBlank may mix text and numeric blanks, and graded and ungraded blanks, for example: `I estimate {{number}} years because {{blank}}.`
 
 FillBlank options:
 - `optional:: true`: allow skipping whole segment. Defaults to `false`, so every blank is required.
