@@ -38,11 +38,9 @@ The Future of Life Institute’s AI Safety Index, a scorecard that grades AI com
 - **IAEA safeguards report on Iran** (GOV/2026/8) — international nuclear inspectors’ quarterly findings, the closest existing analogue to what an AI treaty inspectorate would publish.
 - **BIS settlement order against Seagate** (US Commerce Department, 2023) — the enforcement document behind a \$300 million fine for shipping hard drives to Huawei in violation of export controls.
 
-{--{"author":"Elias's AI","timestamp":1787226800158}@@> **Note**
-
-For each: where--}{++{"author":"Elias's AI","timestamp":1787226800158}@@#### Question
-content:: Choose one report above. Where++} did it come from, {++{"author":"Elias's AI","timestamp":1787226800158}@@and ++}who reads it next?{++{"author":"Elias's AI","timestamp":1787226800158}@@
-feedback:: false++}
+#### Question
+content:: Choose one report above. Where did it come from, and who reads it next?
+feedback:: false
 
 #### Text
 content:: **Interactive exercise:** XLab's `context-distiller` widget has no direct Lens equivalent yet. Complete it in the [original XLab lesson](https://aisafetytracks.com/tracks/verification/policy-scoping/context-distiller). Its surrounding lesson text is preserved here.

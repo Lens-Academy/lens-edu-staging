@@ -63,7 +63,7 @@ Role ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers 
 Constructing an Oversight Scheme — Via Executive Order 14110 the US government is already beginning to implement record keeping roles for compute providers by requiring them to implement a Customer Identification Program (essentially a Know-Your-Customer (KYC) program) for foreign customers, and to report foreign customer training of highly capable models to government. Expanding the role of compute providers to also record and validate domestic customers using compute at frontier AI thresholds could enable the US government to identify and address AI safety risks arising domestically. Complementing these measures with verification and enforcement roles for compute providers could further enable the construction of a comprehensive compute oversight scheme, and ensure that AI firms and developers are complying with AI regulations. ([Section 4](#S4 "4 Constructing an Oversight
 Scheme ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation"))
 
-{--{"author":"Elias's AI","timestamp":1787227206666}@@![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img1-ed8933fb.png]]--}{++{"author":"Elias's AI","timestamp":1787227206666}@@![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img1-ed8933fb.png)++}
+![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img1-ed8933fb.png)
 
 Figure 2: Additional measures, implemented by the Department of Commerce, would strengthen the intermediary role of compute providers and enable a compute oversight scheme.
 
@@ -137,7 +137,7 @@ This approach offers a nuanced alternative to broad measures such as chip export
 In the AI supply chain, compute providers act as an intermediary, offering computational resources to customers. These providers house large numbers of chips in their data center facilities, operating them cost-effectively in large quantities with necessary elements such as power, land, cooling, and connectivity, and optimizing them for developing and deploying AI models ([Figure 3](#S2.F3 "In 2.1 Compute Providers in the AI Compute Supply
 Chain ‣ 2 Governance Capacities of Compute Providers ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation")). With current technologies, training large AI systems requires physically co-located chips. This has caused much of contemporary AI deployment and development to occur in large facilities, wherein compute is made available to customers digitally and remotely, often through models like Infrastructure as a Service (IaaS) or cloud computing. The compute provider industry has seen significant consolidation in recent years due to the economic advantage of scale ([Richter 2024](#bib.bib136)).
 
-{--{"author":"Elias's AI","timestamp":1787227210199}@@![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img2-9bb2f33a.png]]--}{++{"author":"Elias's AI","timestamp":1787227210199}@@![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img2-9bb2f33a.png)++}
+![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img2-9bb2f33a.png)
 
 Figure 3: The compute supply chain including compute providers in the middle. Like the production of state-of-the-art AI chips, compute providers’ market shares are concentrated. (Figure from [Sastry et al. 2024](#bib.bib138).)
 
@@ -160,7 +160,7 @@ Table 1: Summary of the key governance capacities that compute providers can ena
 
 These governance capacities are distinct from but related to obligations to _report_ information to governments. In many cases, it will be appropriate for compute providers to collect and retain information internally and only provide information to governments in response to existing legal authorities (for example, identified violations of sanctions, or in response to legal warrants). In other cases, for example, where a customer is undertaking a large training run, regulators may see fit to mandate proactive reporting. Record keeping can ensure that compute providers are aware of, and able to comply with, broader regulations to increase visibility and oversight.
 
-{--{"author":"Elias's AI","timestamp":1787227214300}@@![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img3-eb6c315f.png]]--}{++{"author":"Elias's AI","timestamp":1787227214300}@@![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img3-eb6c315f.png)++}
+![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img3-eb6c315f.png)
 
 Figure 4: Overview of the different governance capacities and how they relate to three actors: customers (the AI developers and deployers), compute providers, and regulators.
 
@@ -168,7 +168,7 @@ Figure 4: Overview of the different governance capacities and how they relate to
 
 Compute providers, as custodians of sensitive data and AI-related IP, have a distinct capacity for governing and implementing information security measures that protect AI systems.
 
-{--{"author":"Elias's AI","timestamp":1787227218024}@@![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img4-eb6c315f.png]]--}{++{"author":"Elias's AI","timestamp":1787227218024}@@![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img4-eb6c315f.png)++}
+![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img4-eb6c315f.png)
 
 Figure 5: The security measures implemented by compute providers to help protect AI company’s models, intellectual property, and confidential data.
 
@@ -183,7 +183,7 @@ It is crucial to acknowledge that the responsibility for ensuring information se
 Record keeping describes the process of collecting, organizing, and maintaining information on a compute provider’s customers and their infrastructure usage. Compute providers are inherently record keepers by virtue of their role and technical necessity. They store and process valuable technical data during large AI deployments and training runs for billing purposes, resource management, and service-level agreement tracking (see [Section 3](#S3 "3 Technical Feasibility of Compute Providers’ Governance
 Role ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation") for more detail). Provided that robust privacy protections are in place, this information could be useful to regulators in overseeing the development of advanced AI systems. We recommend that regulators and providers focus on essential data that informs AI regulation without compromising privacy and confidentiality (which we discuss in more detail in [Section 5.2](#S5.SS2 "5.2 Governance Challenges ‣ 5 Key Challenges ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation")).
 
-{--{"author":"Elias's AI","timestamp":1787227221920}@@![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img5-eb6c315f.png]]--}{++{"author":"Elias's AI","timestamp":1787227221920}@@![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img5-eb6c315f.png)++}
+![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img5-eb6c315f.png)
 
 Figure 6: The compute provider collects and manages essential usage data on the AI company and its infrastructure usage, focusing on key data that helps validate regulatory compliance without compromising privacy. This facilitates greater transparency into AI advancements, could link compute use to real-world actors, and enables effective post-incident response and forensics.
 
@@ -201,7 +201,7 @@ Furthermore, transparency requirements for environmental accountability, particu
 
 Compute providers can also actively verify customer compliance with regulatory requirements, providing AI firm oversight. Similar to banks and other financial intermediaries, compute providers can actively verify the identity of customers and key customer activities, checking that the properties of AI systems being deployed or developed match customer reporting. This might include verifying the type of computational workload run by the customer (e.g., training an AI model, or deploying a model at scale) as well as claims about the total amount of compute used, or the type of data used in the training process.[^18]
 
-{--{"author":"Elias's AI","timestamp":1787227225572}@@![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img6-eb6c315f.png]]--}{++{"author":"Elias's AI","timestamp":1787227225572}@@![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img6-eb6c315f.png)++}
+![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img6-eb6c315f.png)
 
 Figure 7: The compute provider actively verifies the AI company’s identities, specific activities, and/or properties of AI systems for regulatory compliance.
 
@@ -220,7 +220,7 @@ For illustrative purposes, imagine a scenario in which regulations require AI de
 
 Compute providers can also aid regulatory enforcement. By virtue of controlling the AI data centers themselves, providers have the ability to directly deny access to rule-breaking customers, and, therefore, prevent the customer from developing or deploying certain kinds of AI systems with that provider. The compute provider might limit compute resources devoted to workloads that raise red flags pending further investigation. Similarly, record keeping and verification processes could trigger regulatory enforcement measures by other actors, such as the Department of Justice in the US.
 
-{--{"author":"Elias's AI","timestamp":1787227232548}@@![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img7-eb6c315f.png]]--}{++{"author":"Elias's AI","timestamp":1787227232548}@@![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img7-eb6c315f.png)++}
+![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img7-eb6c315f.png)
 
 Figure 8: The compute provider detects violations by the AI company, e.g., via the verification process, and can take appropriate enforcement actions, such as restricting or limiting access to compute.
 
@@ -243,15 +243,15 @@ In summary, compute providers are responsible for maintaining secure premises, a
 Role ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation") maps these governance capacities onto the relevant technical capacities available to compute providers, and indicates the current feasibility of using them.
 
 | 
-{--{"author":"Elias's AI","timestamp":1787227321870}@@<table id="S3.T2.2.1.1.1.1" class="ltx_tabular ltx_align_middle" style="width:0.0pt;--ltx-bg-color:#FFFFFF;"><tbody><tr id="S3.T2.2.1.1.1.1.1" class="ltx_tr"><td id="S3.T2.2.1.1.1.1.1.1" class="ltx_td ltx_nopad_r ltx_align_left ltx_align_top" style="padding-top:4.15pt;padding-bottom:4.15pt;"><span id="S3.T2.2.1.1.1.1.1.1.1" class="ltx_inline-block ltx_align_top" style="width:0.0pt;"><span id="S3.T2.2.1.1.1.1.1.1.1.1" class="ltx_p ltx_align_center"><span id="S3.T2.2.1.1.1.1.1.1.1.1.1" class="ltx_text ltx_font_bold">Governance capacity</span></span></span></td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1787227321870}@@- Governance capacity++}
+- Governance capacity
 
  | 
 
-{--{"author":"Elias's AI","timestamp":1787227326216}@@<table id="S3.T2.2.1.1.2.1" class="ltx_tabular ltx_align_middle" style="width:0.0pt;--ltx-bg-color:#FFFFFF;"><tbody><tr id="S3.T2.2.1.1.2.1.1" class="ltx_tr"><td id="S3.T2.2.1.1.2.1.1.1" class="ltx_td ltx_nopad_r ltx_align_left ltx_align_top" style="padding-top:4.15pt;padding-bottom:4.15pt;"><span id="S3.T2.2.1.1.2.1.1.1.1" class="ltx_inline-block ltx_align_top" style="width:0.0pt;"><span id="S3.T2.2.1.1.2.1.1.1.1.1" class="ltx_p ltx_align_center"><span id="S3.T2.2.1.1.2.1.1.1.1.1.1" class="ltx_text ltx_font_bold">Relevant --}{++{"author":"Elias's AI","timestamp":1787227326216}@@- Relevant ++}technical capacities of compute {--{"author":"Elias's AI","timestamp":1787227326216}@@provider</span></span></span></td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1787227326216}@@provider++}
+- Relevant technical capacities of compute provider
 
  | 
 
-{--{"author":"Elias's AI","timestamp":1787227329935}@@<table id="S3.T2.2.1.1.3.1" class="ltx_tabular ltx_align_middle" style="width:0.0pt;--ltx-bg-color:#FFFFFF;"><tbody><tr id="S3.T2.2.1.1.3.1.1" class="ltx_tr"><td id="S3.T2.2.1.1.3.1.1.1" class="ltx_td ltx_nopad_r ltx_align_left ltx_align_top" style="padding-top:4.15pt;padding-bottom:4.15pt;"><span id="S3.T2.2.1.1.3.1.1.1.1" class="ltx_inline-block ltx_align_top" style="width:0.0pt;"><span id="S3.T2.2.1.1.3.1.1.1.1.1" class="ltx_p ltx_align_center"><span id="S3.T2.2.1.1.3.1.1.1.1.1.1" class="ltx_text ltx_font_bold">Current --}{++{"author":"Elias's AI","timestamp":1787227329935}@@- Current ++}technical {--{"author":"Elias's AI","timestamp":1787227329935}@@feasibility</span></span></span></td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1787227329935}@@feasibility++}
+- Current technical feasibility
 
  |
 | --- | --- | --- |
@@ -415,19 +415,19 @@ In the future, it may also be useful for compute providers to verify aspects of 
 Identity verification (also commonly known as “Know-Your-Customer (KYC)”) is a useful measure to ensure customers are meeting applicable rules, and enforce relevant penalties. This may include ensuring particular developers are reporting relevant large-scale training runs or enforcing export controls that prevent certain customers (e.g., those with links to foreign military/intelligence organizations) from accessing particular services. In the beginning of 2024, the US Department of Commerce proposed new regulations that place explicit identity verification requirements on US compute providers offering services to foreign customers ([Federal Register 2024](#bib.bib62)). [Egan & Heim 2023](#bib.bib53) discuss in further detail the mechanisms of a KYC scheme for customers accessing large-scale compute, drawing on lessons from the financial sector.
 
 | 
-{--{"author":"Elias's AI","timestamp":1787227333739}@@<table id="S3.T3.2.1.1.1.1" class="ltx_tabular ltx_align_middle" style="width:89.7pt;--ltx-bg-color:#FFFFFF;"><tbody><tr id="S3.T3.2.1.1.1.1.1" class="ltx_tr"><td id="S3.T3.2.1.1.1.1.1.1" class="ltx_td ltx_nopad_r ltx_align_left ltx_align_top" style="padding-top:1.6pt;padding-bottom:1.6pt;"><span id="S3.T3.2.1.1.1.1.1.1.1" class="ltx_inline-block ltx_align_top" style="width:0.0pt;"><span id="S3.T3.2.1.1.1.1.1.1.1.1" class="ltx_p ltx_align_center"><span id="S3.T3.2.1.1.1.1.1.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;">Attribute category</span></span></span></td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1787227333739}@@- Attribute category++}
+- Attribute category
 
  | 
 
-{--{"author":"Elias's AI","timestamp":1787227338905}@@<table id="S3.T3.2.1.1.2.1" class="ltx_tabular ltx_align_middle" style="width:48.3pt;--ltx-bg-color:#FFFFFF;"><tbody><tr id="S3.T3.2.1.1.2.1.1" class="ltx_tr"><td id="S3.T3.2.1.1.2.1.1.1" class="ltx_td ltx_nopad_r ltx_align_left ltx_align_top" style="padding-top:1.6pt;padding-bottom:1.6pt;"><span id="S3.T3.2.1.1.2.1.1.1.1" class="ltx_inline-block ltx_align_top" style="width:0.0pt;"><span id="S3.T3.2.1.1.2.1.1.1.1.1" class="ltx_p ltx_align_center"><span id="S3.T3.2.1.1.2.1.1.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;">Uses --}{++{"author":"Elias's AI","timestamp":1787227338905}@@- Uses ++}(in terms of specific verification {--{"author":"Elias's AI","timestamp":1787227338905}@@activities)</span></span></span></td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1787227338905}@@activities)++}
+- Uses (in terms of specific verification activities)
 
  | 
 
-{--{"author":"Elias's AI","timestamp":1787227342878}@@<table id="S3.T3.2.1.1.3.1" class="ltx_tabular ltx_align_middle" style="width:60.4pt;--ltx-bg-color:#FFFFFF;"><tbody><tr id="S3.T3.2.1.1.3.1.1" class="ltx_tr"><td id="S3.T3.2.1.1.3.1.1.1" class="ltx_td ltx_nopad_r ltx_align_left ltx_align_top" style="padding-top:1.6pt;padding-bottom:1.6pt;"><span id="S3.T3.2.1.1.3.1.1.1.1" class="ltx_inline-block ltx_align_top" style="width:0.0pt;"><span id="S3.T3.2.1.1.3.1.1.1.1.1" class="ltx_p ltx_align_center"><span id="S3.T3.2.1.1.3.1.1.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;">Involves --}{++{"author":"Elias's AI","timestamp":1787227342878}@@- Involves ++}collection of data not already widely collected?<sup class="footnote-ref"><a data-footnote-ref="22" {--{"author":"Elias's AI","timestamp":1787227342878}@@href="#fn-22">22</a></sup></span></span></span></td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1787227342878}@@href="#fn-22">22</a></sup>++}
+- Involves collection of data not already widely collected?<sup class="footnote-ref"><a data-footnote-ref="22" href="#fn-22">22</a></sup>
 
  | 
 
-{--{"author":"Elias's AI","timestamp":1787227346233}@@<table id="S3.T3.2.1.1.4.1" class="ltx_tabular ltx_align_middle" style="width:120.8pt;--ltx-bg-color:#FFFFFF;"><tbody><tr id="S3.T3.2.1.1.4.1.1" class="ltx_tr"><td id="S3.T3.2.1.1.4.1.1.1" class="ltx_td ltx_nopad_r ltx_align_left ltx_align_top" style="padding-top:1.6pt;padding-bottom:1.6pt;"><span id="S3.T3.2.1.1.4.1.1.1.1" class="ltx_inline-block ltx_align_top" style="width:0.0pt;"><span id="S3.T3.2.1.1.4.1.1.1.1.1" class="ltx_p ltx_align_center"><span id="S3.T3.2.1.1.4.1.1.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;">Current --}{++{"author":"Elias's AI","timestamp":1787227346233}@@- Current ++}state of collection, validation, and possible circumvention<sup class="footnote-ref"><a data-footnote-ref="23" {--{"author":"Elias's AI","timestamp":1787227346233}@@href="#fn-23">23</a></sup></span></span></span></td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1787227346233}@@href="#fn-23">23</a></sup>++}
+- Current state of collection, validation, and possible circumvention<sup class="footnote-ref"><a data-footnote-ref="23" href="#fn-23">23</a></sup>
 
  |
 | --- | --- | --- | --- |
@@ -609,7 +609,7 @@ Attributes ‣ Governing Through the Cloud:The Intermediary Role of Compute Prov
     Deployment in which a trained model is used in an operational setting, e.g., to make new predictions (“inference”).
     
 
-{--{"author":"Elias's AI","timestamp":1787227237596}@@![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img8-9c6f1dfb.png]]--}{++{"author":"Elias's AI","timestamp":1787227237596}@@![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img8-9c6f1dfb.png)++}
+![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img8-9c6f1dfb.png)
 
 Figure 9: Simplified AI Lifecycle including training, enhancement (e.g., fine-tuning), and deployment (i.e., inference). (Figure from [Sastry et al. 2024](#bib.bib138).)
 
@@ -736,7 +736,7 @@ This section looks at the US as a case study. We examine the Biden Administratio
 
 Unlike proposed US foreign customer identification rules for IaaS providers ([Federal Register 2024](#bib.bib62)), we focus on oversight of only frontier AI model development and deployment, rather than all compute use. While we explore these issues in the US context, similar analyses could also be done for other jurisdictions, like the EU, and in the international context. We encourage further policy analysis in this space.
 
-{--{"author":"Elias's AI","timestamp":1787227242516}@@![[/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img9-ed8933fb.png]]--}{++{"author":"Elias's AI","timestamp":1787227242516}@@![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img9-ed8933fb.png)++}
+![Imported source figure](/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img9-ed8933fb.png)
 
 Figure 2: Additional measures, implemented by the Department of Commerce, would strengthen the intermediary role of compute providers and enable a compute oversight scheme.
 
@@ -914,23 +914,23 @@ Table 4: An overview of observable data attributes.
 |  |  |  |  |  |
 | --- | --- | --- | --- | --- |
 | 
-{--{"author":"Elias's AI","timestamp":1787227350999}@@<table id="A2.T4.4.2.1.1" class="ltx_tabular ltx_align_middle" style="width:48.3pt;--ltx-bg-color:#F5F5F5;"><tbody><tr id="A2.T4.4.2.1.1.1" class="ltx_tr"><td id="A2.T4.4.2.1.1.1.1" class="ltx_td ltx_nopad_r ltx_align_left ltx_align_top" style="padding:4.65pt 4.5pt;"><span id="A2.T4.4.2.1.1.1.1.1" class="ltx_inline-block ltx_align_top" style="width:345.0pt;--ltx-bg-color:#FFFFFF;"><span id="A2.T4.4.2.1.1.1.1.1.1" class="ltx_p ltx_align_center"><span id="A2.T4.4.2.1.1.1.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;">Visible attribute</span></span></span></td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1787227350999}@@- Visible attribute++}
+- Visible attribute
 
  | 
 
-{--{"author":"Elias's AI","timestamp":1787227356629}@@<table id="A2.T4.4.2.2.1" class="ltx_tabular ltx_align_middle" style="width:93.2pt;--ltx-bg-color:#F5F5F5;"><tbody><tr id="A2.T4.4.2.2.1.1" class="ltx_tr"><td id="A2.T4.4.2.2.1.1.1" class="ltx_td ltx_nopad_r ltx_align_left ltx_align_top" style="padding:4.65pt 4.5pt;"><span id="A2.T4.4.2.2.1.1.1.1" class="ltx_inline-block ltx_align_top" style="width:345.0pt;--ltx-bg-color:#FFFFFF;"><span id="A2.T4.4.2.2.1.1.1.1.1" class="ltx_p ltx_align_center"><span id="A2.T4.4.2.2.1.1.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;">Uses</span></span></span></td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1787227356629}@@- Uses++}
+- Uses
 
  | 
 
-{--{"author":"Elias's AI","timestamp":1787227360106}@@<table id="A2.T4.4.2.3.1" class="ltx_tabular ltx_align_middle" style="width:58.7pt;--ltx-bg-color:#F5F5F5;"><tbody><tr id="A2.T4.4.2.3.1.1" class="ltx_tr"><td id="A2.T4.4.2.3.1.1.1" class="ltx_td ltx_nopad_r ltx_align_left ltx_align_top" style="padding:4.65pt 4.5pt;"><span id="A2.T4.4.2.3.1.1.1.1" class="ltx_inline-block ltx_align_top" style="width:345.0pt;--ltx-bg-color:#FFFFFF;"><span id="A2.T4.4.2.3.1.1.1.1.1" class="ltx_p ltx_align_center"><span id="A2.T4.4.2.3.1.1.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;">Involves --}{++{"author":"Elias's AI","timestamp":1787227360106}@@- Involves ++}collection of data not already widely {--{"author":"Elias's AI","timestamp":1787227360106}@@collected?</span></span></span></td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1787227360106}@@collected?++}
+- Involves collection of data not already widely collected?
 
  | 
 
-{--{"author":"Elias's AI","timestamp":1787227364321}@@<table id="A2.T4.4.2.4.1" class="ltx_tabular ltx_align_middle" style="width:65.6pt;--ltx-bg-color:#F5F5F5;"><tbody><tr id="A2.T4.4.2.4.1.1" class="ltx_tr"><td id="A2.T4.4.2.4.1.1.1" class="ltx_td ltx_nopad_r ltx_align_left ltx_align_top" style="padding:4.65pt 4.5pt;"><span id="A2.T4.4.2.4.1.1.1.1" class="ltx_inline-block ltx_align_top" style="width:345.0pt;--ltx-bg-color:#FFFFFF;"><span id="A2.T4.4.2.4.1.1.1.1.1" class="ltx_p ltx_align_center"><span id="A2.T4.4.2.4.1.1.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;">Ease --}{++{"author":"Elias's AI","timestamp":1787227364321}@@- Ease ++}of {--{"author":"Elias's AI","timestamp":1787227364321}@@implementation</span></span></span></td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1787227364321}@@implementation++}
+- Ease of implementation
 
  | 
 
-{--{"author":"Elias's AI","timestamp":1787227368716}@@<table id="A2.T4.4.2.5.1" class="ltx_tabular ltx_align_middle" style="width:39.7pt;--ltx-bg-color:#F5F5F5;"><tbody><tr id="A2.T4.4.2.5.1.1" class="ltx_tr"><td id="A2.T4.4.2.5.1.1.1" class="ltx_td ltx_nopad_r ltx_align_left ltx_align_top" style="padding:4.65pt 4.5pt;"><span id="A2.T4.4.2.5.1.1.1.1" class="ltx_inline-block ltx_align_top" style="width:345.0pt;--ltx-bg-color:#FFFFFF;"><span id="A2.T4.4.2.5.1.1.1.1.1" class="ltx_p ltx_align_center"><span id="A2.T4.4.2.5.1.1.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;">Ease --}{++{"author":"Elias's AI","timestamp":1787227368716}@@- Ease ++}of {--{"author":"Elias's AI","timestamp":1787227368716}@@circumvention</span></span></span></td></tr></tbody></table>--}{++{"author":"Elias's AI","timestamp":1787227368716}@@circumvention++}
+- Ease of circumvention
 
  |
 | --- | --- | --- | --- | --- |

@@ -40,16 +40,14 @@ Three questions recur throughout hardware verification.
 
 Hardware-rooted cryptography is often strongest on authenticity. Carefully designed measurement can improve correctness. Completeness usually requires evidence beyond the device itself.
 
-{--{"author":"Elias's AI","timestamp":1787226806074}@@\#### Notebook: initial claim map
-
---}{++{"author":"Elias's AI","timestamp":1787226806074}@@#### Question
-content:: ++}Complete three sentences for the opening {--{"author":"Elias's AI","timestamp":1787226806074}@@puzzle.--}{++{"author":"Elias's AI","timestamp":1787226806074}@@puzzle:++}
+#### Question
+content:: Complete three sentences for the opening puzzle:
 
 - The artifact directly supports…
 - It could support… if…
-- It does not support…{++{"author":"Elias's AI","timestamp":1787226806074}@@
-feedback:: false++}
+- It does not support…
+feedback:: false
 
-{++{"author":"Elias's AI","timestamp":1787226806074}@@#### Text
+#### Text
 content::
-++}*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-claim)*
+*Source lesson: [XLab curriculum](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-claim)*

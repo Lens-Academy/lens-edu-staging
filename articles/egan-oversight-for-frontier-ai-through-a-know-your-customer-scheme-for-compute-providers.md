@@ -152,7 +152,7 @@ Beyond export controls, the KYC scheme will allow for the implementation of broa
 
 Figure 1: Mechanisms of KYC Scheme for compute providers
 
-{--{"author":"Elias's AI","timestamp":1787227071762}@@![[/attachments/egan-oversight-for-frontier-ai-through-a-know-your-customer-scheme-for-compute-providers-img1-7264d48c.png]]--}{++{"author":"Elias's AI","timestamp":1787227071762}@@![Imported source figure](/attachments/egan-oversight-for-frontier-ai-through-a-know-your-customer-scheme-for-compute-providers-img1-7264d48c.png)++}
+![Imported source figure](/attachments/egan-oversight-for-frontier-ai-through-a-know-your-customer-scheme-for-compute-providers-img1-7264d48c.png)
 
 While we can seek to adapt the model established by the financial sector to the context of compute providers as a starting point (Box 4), consultation and stress-testing with industry stakeholders will be key to developing a workable scheme.
 

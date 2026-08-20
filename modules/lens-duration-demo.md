@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787226682714}@@---
+---
 id: 07e98d8a-c0d8-410f-99f6-3bd1fa6dff23
 slug: lens-duration-demo
 title: Lens duration demo
@@ -41,4 +41,3 @@ This lens has no `duration_minutes`, so its badge shows the platform's computed 
 #### Chat
 instructions::
 The learner is looking at a demo of the computed time estimate. Answer questions about how the estimate is calculated; keep replies short.
-++}
