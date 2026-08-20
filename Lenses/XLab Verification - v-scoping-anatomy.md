@@ -69,7 +69,7 @@ Sec. 262.0256. PRE-BID CONFERENCE FOR CERTAIN COUNTIES OR A DISTRICT
 Sec. 262.026. OPENING OF BIDS
 ```
 
---}{++{"author":"Elias's AI","timestamp":1787219666471}@@to:: ++}- **Look for a definitions section and read it.** If present, it is usually found at the beginning of a chapter or subchapter. A definition may be used in the statutes to avoid repetition of a long term, for example, using the term {--{"author":"Elias's AI","timestamp":1787219666471}@@“department”--}{++{"author":"Elias's AI","timestamp":1787219666471}@@"department"++} to refer to the Department of State Health Services. Make sure you understand references to general terms like{--{"author":"Elias's AI","timestamp":1787219666471}@@ “department,” “agency,” or “executive director.”
+--}{++{"author":"Elias's AI","timestamp":1787219666471}@@to:: ++}{--{"author":"Elias's AI","timestamp":1787219833629}@@- **Look for a definitions section and read it.**--}{++{"author":"Elias's AI","timestamp":1787219833629}@@Sec. 93.011. EMERGENCY CLOSING. (a)++} If{--{"author":"Elias's AI","timestamp":1787219833629}@@ present, it is usually found at --}{++{"author":"Elias's AI","timestamp":1787219833629}@@ ++}the {--{"author":"Elias's AI","timestamp":1787219833629}@@beginning--}{++{"author":"Elias's AI","timestamp":1787219833629}@@officers++} of a {--{"author":"Elias's AI","timestamp":1787219833629}@@chapter or subchapter. A definition may be used in the statutes to avoid repetition of a long term, for example, using--}{++{"author":"Elias's AI","timestamp":1787219833629}@@savings bank determine that an emergency that affects or may affect the savings bank’s offices or operations exists or is impending,++} the {--{"author":"Elias's AI","timestamp":1787219833629}@@term “department” to refer to the Department of State Health Services. Make sure you understand references to general terms like “department,” “agency,” or “executive director.”
 
 **SourceBox**
 
@@ -77,7 +77,7 @@ Sec. 262.026. OPENING OF BIDS
 - Chapter 312, Government Code, applies to civil statutes generally.
 
 - **Pay close attention to the statute’s format and organization.** Look for breaks in the text. Assume everything in the statute has meaning, including punctuation and format.
-- **Look for key verbs.** Legislative drafters use important “action” words such as “may,” “shall,” or “must” that establish whether a provision requires --}{++{"author":"Elias's AI","timestamp":1787219666471}@@ "department," "agency," ++}or {--{"author":"Elias's AI","timestamp":1787219666471}@@authorizes some action or condition. “Shall” denotes a duty imposed on a person or entity. “Must” denotes a condition that must be met or an event that must occur as a prerequisite to full legitimacy. “May” denotes a privilege or discretionary power. “Is entitled to” denotes a right, as opposed to discretionary power. “May not” and “shall not” denote a prohibition.
+- **Look for key verbs.** Legislative drafters use important “action” words such as “may,” “shall,” or “must” that establish whether a provision requires or authorizes some action or condition. “Shall” denotes a duty imposed on a person or entity. “Must” denotes a condition that must be met or an event that must occur as a prerequisite to full legitimacy. “May” denotes a privilege or discretionary power. “Is entitled to” denotes a right, as opposed to discretionary power. “May not” and “shall not” denote a prohibition.
 
 **SourceBox**
 
@@ -102,7 +102,7 @@ Sec. 93.011. EMERGENCY CLOSING. (a) If the officers of a savings
 bank determine that an emergency that affects or may affect the savings
 bank's offices or operations exists or is impending, the officers, as
 reasonable, may determine: . . . .
-```--}{++{"author":"Elias's AI","timestamp":1787219666471}@@"executive director."++}
+```--}{++{"author":"Elias's AI","timestamp":1787219833629}@@officers, as reasonable, may determine: . . . .++}
 
 \## Apply the Treaty-Reading Method
 
