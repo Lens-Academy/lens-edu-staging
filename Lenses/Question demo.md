@@ -19,18 +19,17 @@ Syntax is identical in all three places. Context changes whether an answer is gr
 
 Every answerable segment needs:
 
-- {--{"author":"Elias's AI","timestamp":1787220868622}@@`key&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220868622}@@`key::`:++} stable `snake_case` identifier, unique within that survey, lens, or test.
-- {--{"author":"Elias's AI","timestamp":1787220871784}@@`content&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220871784}@@`content::`:++} prompt shown to learner.
-- {--{"author":"Elias's AI","timestamp":1787220875645}@@`required&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787220875645}@@`required::++} true`: optional. Questions are not required by default.
+- `key::`: stable `snake_case` identifier, unique within that survey, lens, or test.
+- `content::`: prompt shown to learner.
+- `required:: true`: optional. Questions are not required by default.
 
-Never change {--{"author":"Elias's AI","timestamp":1787220878236}@@`key&#58;&#58;`--}{++{"author":"Elias's AI","timestamp":1787220878236}@@`key::`++} after learners have answered. Stored answers use this key.
+Never change `key::` after learners have answered. Stored answers use this key.
 
 \## Open-text question
 
 Use `#### Question` when learner should type or dictate a response.
 
-{--{"author":"Elias's AI","timestamp":1787220805012}@@```md
-\####--}{++{"author":"Elias's AI","timestamp":1787220805012}@@<pre><code>####++} Question
+<pre><code>#### Question
 key&#58;&#58; strongest_objection
 content&#58;&#58; In two sentences, what is the strongest objection?
 required&#58;&#58; true
@@ -39,63 +38,57 @@ placeholder&#58;&#58; Name the claim, then explain objection.
 max-time&#58;&#58; 3:00
 enforce-voice&#58;&#58; false
 assessment-instructions&#58;&#58; Check whether learner names a claim and gives a relevant objection.
-feedback&#58;&#58; {--{"author":"Elias's AI","timestamp":1787220805012}@@true
-```--}{++{"author":"Elias's AI","timestamp":1787220805012}@@true</code></pre>++}
+feedback&#58;&#58; true</code></pre>
 
 Options:
 
-- {--{"author":"Elias's AI","timestamp":1787220880871}@@`max-chars&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220880871}@@`max-chars::`:++} maximum answer length.
-- {--{"author":"Elias's AI","timestamp":1787220884383}@@`placeholder&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220884383}@@`placeholder::`:++} hint shown in empty input.
-- {--{"author":"Elias's AI","timestamp":1787220887301}@@`max-time&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220887301}@@`max-time::`:++} answer timer in `M:SS`, or `none`.
-- {--{"author":"Elias's AI","timestamp":1787220890198}@@`enforce-voice&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787220890198}@@`enforce-voice::++} true`: require spoken answer.
-- {--{"author":"Elias's AI","timestamp":1787220892791}@@`assessment-instructions&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220892791}@@`assessment-instructions::`:++} rubric for AI assessment.
-- {--{"author":"Elias's AI","timestamp":1787220895640}@@`feedback&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220895640}@@`feedback::`:++} whether learner receives AI feedback. Defaults to `true` in lenses and tests.
+- `max-chars::`: maximum answer length.
+- `placeholder::`: hint shown in empty input.
+- `max-time::`: answer timer in `M:SS`, or `none`.
+- `enforce-voice:: true`: require spoken answer.
+- `assessment-instructions::`: rubric for AI assessment.
+- `feedback::`: whether learner receives AI feedback. Defaults to `true` in lenses and tests.
 
-Surveys do not use {--{"author":"Elias's AI","timestamp":1787220898065}@@`assessment-instructions&#58;&#58;`--}{++{"author":"Elias's AI","timestamp":1787220898065}@@`assessment-instructions::`++} or {--{"author":"Elias's AI","timestamp":1787220898065}@@`feedback&#58;&#58;`.--}{++{"author":"Elias's AI","timestamp":1787220898065}@@`feedback::`.++} They store response without grading it.
+Surveys do not use `assessment-instructions::` or `feedback::`. They store response without grading it.
 
 \## Rating
 
 Use `#### Rating` for numbered scale from 1 to N.
 
-{--{"author":"Elias's AI","timestamp":1787220807924}@@```md
-\####--}{++{"author":"Elias's AI","timestamp":1787220807924}@@<pre><code>####++} Rating
+<pre><code>#### Rating
 key&#58;&#58; confidence
 content&#58;&#58; How confident are you in your answer?
 scale&#58;&#58; 7
 low-label&#58;&#58; Not confident
 high-label&#58;&#58; Very confident
-required&#58;&#58; {--{"author":"Elias's AI","timestamp":1787220807924}@@true
-```--}{++{"author":"Elias's AI","timestamp":1787220807924}@@true</code></pre>++}
+required&#58;&#58; true</code></pre>
 
 Options:
 
-- {--{"author":"Elias's AI","timestamp":1787220901216}@@`scale&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220901216}@@`scale::`:++} integer from 2 to 10. Defaults to 5.
-- {--{"author":"Elias's AI","timestamp":1787220905419}@@`low-label&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220905419}@@`low-label::`:++} optional label below low endpoint.
-- {--{"author":"Elias's AI","timestamp":1787220908689}@@`high-label&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220908689}@@`high-label::`:++} optional label below high endpoint.
+- `scale::`: integer from 2 to 10. Defaults to 5.
+- `low-label::`: optional label below low endpoint.
+- `high-label::`: optional label below high endpoint.
 
 Ratings are self-reports, not correct or incorrect. In Learning Outcome tests, rating is stored beside graded answers but does not affect test score.
 
 \## Single-choice question
 
-Use `#### Choice` with plain list under {--{"author":"Elias's AI","timestamp":1787220912805}@@`options&#58;&#58;`.--}{++{"author":"Elias's AI","timestamp":1787220912805}@@`options::`.++} Default allows one selection.
+Use `#### Choice` with plain list under `options::`. Default allows one selection.
 
 Ungraded example:
 
-{--{"author":"Elias's AI","timestamp":1787220826654}@@```md
-\####--}{++{"author":"Elias's AI","timestamp":1787220826654}@@<pre><code>####++} Choice
+<pre><code>#### Choice
 key&#58;&#58; next_topic
 content&#58;&#58; Which topic should we cover next?
 options&#58;&#58;
 - Forecasting
 - Governance
 - Technical safety
-required&#58;&#58; {--{"author":"Elias's AI","timestamp":1787220826654}@@true
-```--}{++{"author":"Elias's AI","timestamp":1787220826654}@@true</code></pre>++}
+required&#58;&#58; true</code></pre>
 
 For graded practice or test question, mark correct option with `[x]`:
 
-{--{"author":"Elias's AI","timestamp":1787220829157}@@```md
-\####--}{++{"author":"Elias's AI","timestamp":1787220829157}@@<pre><code>####++} Choice
+<pre><code>#### Choice
 key&#58;&#58; optimizer
 content&#58;&#58; Which process updates model weights during training?
 options&#58;&#58;
@@ -103,22 +96,20 @@ options&#58;&#58;
 - [x] Gradient descent
 - Deployment monitoring
 shuffle&#58;&#58; true
-explanation&#58;&#58; Gradient descent updates weights using gradients of {--{"author":"Elias's AI","timestamp":1787220829157}@@loss.
-```--}{++{"author":"Elias's AI","timestamp":1787220829157}@@loss.</code></pre>++}
+explanation&#58;&#58; Gradient descent updates weights using gradients of loss.</code></pre>
 
 Options:
 
-- {--{"author":"Elias's AI","timestamp":1787220915828}@@`shuffle&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787220915828}@@`shuffle::++} true`: randomize option order. Defaults to `false`.
+- `shuffle:: true`: randomize option order. Defaults to `false`.
 - `explanation&#58;&#58;`: optional feedback shown after submission.
 
 Survey choices must use plain list items. Surveys never contain correct-answer markers.
 
 \## Multiple-choice question
 
-Add {--{"author":"Elias's AI","timestamp":1787220920050}@@`multi&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787220920050}@@`multi::++} true` when learner may select more than one option.
+Add `multi:: true` when learner may select more than one option.
 
-{--{"author":"Elias's AI","timestamp":1787220834026}@@```md
-\####--}{++{"author":"Elias's AI","timestamp":1787220834026}@@<pre><code>####++} Choice
+<pre><code>#### Choice
 key&#58;&#58; empirical_evidence
 content&#58;&#58; Which two items are empirical evidence?
 options&#58;&#58;
@@ -128,17 +119,15 @@ options&#58;&#58;
 - A thought experiment
 multi&#58;&#58; true
 shuffle&#58;&#58; true
-explanation&#58;&#58; Measurements and trial results are empirical {--{"author":"Elias's AI","timestamp":1787220834026}@@evidence.
-```--}{++{"author":"Elias's AI","timestamp":1787220834026}@@evidence.</code></pre>++}
+explanation&#58;&#58; Measurements and trial results are empirical evidence.</code></pre>
 
-A graded response is correct only when selected options exactly match every `[x]` option. In surveys, {--{"author":"Elias's AI","timestamp":1787220923253}@@`multi&#58;&#58;--}{++{"author":"Elias's AI","timestamp":1787220923253}@@`multi::++} true` works the same way but options stay ungraded and use no `[x]` markers.
+A graded response is correct only when selected options exactly match every `[x]` option. In surveys, `multi:: true` works the same way but options stay ungraded and use no `[x]` markers.
 
 \## Fill in the blank
 
 Use `#### FillBlank`. Put exactly one `{{blank}}` marker in prompt.
 
-{--{"author":"Elias's AI","timestamp":1787220836737}@@```md
-\####--}{++{"author":"Elias's AI","timestamp":1787220836737}@@<pre><code>####++} FillBlank
+<pre><code>#### FillBlank
 key&#58;&#58; training_method
 content&#58;&#58; Model weights are commonly updated using {{blank}}.
 accepted-answers&#58;&#58;
@@ -147,25 +136,24 @@ accepted-answers&#58;&#58;
 case-sensitive&#58;&#58; false
 trim&#58;&#58; true
 explanation&#58;&#58; Gradient descent uses loss gradients to update model weights.
-required&#58;&#58; {--{"author":"Elias's AI","timestamp":1787220836737}@@true
-```--}{++{"author":"Elias's AI","timestamp":1787220836737}@@true</code></pre>++}
+required&#58;&#58; true</code></pre>
 
 Options:
 
-- {--{"author":"Elias's AI","timestamp":1787220927447}@@`accepted-answers&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220927447}@@`accepted-answers::`:++} one or more complete accepted answers.
-- {--{"author":"Elias's AI","timestamp":1787220933860}@@`case-sensitive&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220933860}@@`case-sensitive::`:++} defaults to `false`.
-- {--{"author":"Elias's AI","timestamp":1787220937329}@@`trim&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220937329}@@`trim::`:++} ignore leading and trailing whitespace. Defaults to `true`.
+- `accepted-answers::`: one or more complete accepted answers.
+- `case-sensitive::`: defaults to `false`.
+- `trim::`: ignore leading and trailing whitespace. Defaults to `true`.
 - `explanation&#58;&#58;`: optional feedback shown after submission.
 
 Matching is exact after configured case and whitespace normalization. Use several FillBlank segments when exercise needs several blanks.
 
-Surveys may use FillBlank without {--{"author":"Elias's AI","timestamp":1787220940766}@@`accepted-answers&#58;&#58;`--}{++{"author":"Elias's AI","timestamp":1787220940766}@@`accepted-answers::`++} or {--{"author":"Elias's AI","timestamp":1787220940766}@@`explanation&#58;&#58;`.--}{++{"author":"Elias's AI","timestamp":1787220940766}@@`explanation::`.++} That makes it an ungraded short-answer field.
+Surveys may use FillBlank without `accepted-answers::` or `explanation::`. That makes it an ungraded short-answer field.
 
 \## Grading rules
 
 - **Survey:** all question types are ungraded.
 - **Normal lens:** questions may be graded practice or ungraded reflection.
-- **Learning Outcome test:** Question, Choice, and FillBlank must be gradable. Question needs {--{"author":"Elias's AI","timestamp":1787220944612}@@`assessment-instructions&#58;&#58;`;--}{++{"author":"Elias's AI","timestamp":1787220944612}@@`assessment-instructions::`;++} Choice needs at least one `[x]`; FillBlank needs {--{"author":"Elias's AI","timestamp":1787220944612}@@`accepted-answers&#58;&#58;`.--}{++{"author":"Elias's AI","timestamp":1787220944612}@@`accepted-answers::`.++}
+- **Learning Outcome test:** Question, Choice, and FillBlank must be gradable. Question needs `assessment-instructions::`; Choice needs at least one `[x]`; FillBlank needs `accepted-answers::`.
 - Rating never contributes to correctness score.
 
 Validator should reject duplicate keys, invalid field combinations, missing grading information in tests, invalid rating scales, too few choice options, and missing or multiple `{{blank}}` markers.
