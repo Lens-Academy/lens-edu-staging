@@ -28,85 +28,17 @@ Read **Look for key verbs** twice. It is question 1 of this unit, in the drafter
 
 \### [Reading Statutes and Bills](https://tlc.texas.gov/docs/legref/readingabill.pdf)
 *“Tips for Reading and Understanding a Statute”, pp. 4–5, complete*
-Texas Legislative Council, Research Division, 85th Legislature{--{"author":"Elias's AI","timestamp":1787219666471}@@
-
-Many statutes are straightforward and easily understood, while others are more complicated. Cross-references, dependent subdivisions, and phrases that provide exceptions to an application of the statute can make the meaning difficult to follow.
-
-Below are a few tips to help understand statutes.
-
-- **Read the complete heading.** The heading (code/title/subtitle/chapter/subchapter/section) establishes how the section fits into the entire code’s organization.
-
-```--}{++{"author":"Elias's AI","timestamp":1787219666471}@@
+Texas Legislative Council, Research Division, 85th Legislature
 
 
-#### Article++}
-{--{"author":"Elias's AI","timestamp":1787219666471}@@LOCAL GOVERNMENT CODE--}{++{"author":"Elias's AI","timestamp":1787219666471}@@source:: [[../articles/texas-reading-statutes-and-bills-for-the-85th-legislature-texas-legislative-council]]++}
-{--{"author":"Elias's AI","timestamp":1787219666471}@@TITLE 8. ACQUISITION, SALE, OR LEASE OF PROPERTY
-SUBTITLE B. COUNTY ACQUISITION, SALE, OR LEASE OF PROPERTY
-CHAPTER 262. PURCHASING AND CONTRACTING AUTHORITY OF COUNTIES
-SUBCHAPTER C. COMPETITIVE BIDDING IN GENERAL
-Sec. 262.023. COMPETITIVE REQUIREMENTS FOR CERTAIN PURCHASES
-```
+#### Article
+source:: [[../articles/texas-reading-statutes-and-bills-for-the-85th-legislature-texas-legislative-council]]
+from:: ### Tips for Reading and Understanding a Statute
+to:: Sec. 93.011. EMERGENCY CLOSING. (a) If the officers of a savings bank determine that an emergency that affects or may affect the savings bank’s offices or operations exists or is impending, the officers, as reasonable, may determine: . . . .
 
-- **Check --}{++{"author":"Elias's AI","timestamp":1787219666471}@@from:: ### Tips ++}for {--{"author":"Elias's AI","timestamp":1787219666471}@@the context of the statute.** Think of the statute as a unit of law that is part of a series of units of law --}{++{"author":"Elias's AI","timestamp":1787219666471}@@Reading ++}and{--{"author":"Elias's AI","timestamp":1787219666471}@@ scan the table of contents to see what sections precede and follow the section you are reading. If there is --}{++{"author":"Elias's AI","timestamp":1787219666471}@@ Understanding ++}a{--{"author":"Elias's AI","timestamp":1787219666471}@@ short title section (usually at the beginning of the chapter or subchapter), read it.
-
-```
-Sec. 262.021. SHORT TITLE
-Sec. 262.022. DEFINITIONS
-Sec. 262.0225. ADDITIONAL COMPETITIVE PROCEDURES
-Sec. 262.023. COMPETITIVE REQUIREMENTS FOR CERTAIN PURCHASES
-Sec. 262.0235. PROCEDURES ADOPTED BY COUNTY PURCHASING AGENTS FOR
-              ELECTRONIC BIDS OR PROPOSALS--}{++{"author":"Elias's AI","timestamp":1787219666471}@@ Statute++}
-{--{"author":"Elias's AI","timestamp":1787219666471}@@Sec. 262.024. DISCRETIONARY EXEMPTIONS
-Sec. 262.0241. MANDATORY EXEMPTIONS: CERTAIN RECREATIONAL SERVICES
-Sec. 262.0245. COMPETITIVE PROCUREMENT PROCEDURES ADOPTED BY COUNTY
-              PURCHASING AGENTS OR COMMISSIONERS COURT
-Sec. 262.025. COMPETITIVE BIDDING NOTICE
-Sec. 262.0255. ADDITIONAL NOTICE AND BOND PROVISIONS RELATING TO
-              PURCHASE OF CERTAIN EQUIPMENT
-Sec. 262.0256. PRE-BID CONFERENCE FOR CERTAIN COUNTIES OR A DISTRICT
-              GOVERNED BY THOSE COUNTIES
-Sec. 262.026. OPENING OF BIDS
-```
-
---}{++{"author":"Elias's AI","timestamp":1787219666471}@@to:: ++}{--{"author":"Elias's AI","timestamp":1787219833629}@@- **Look for a definitions section and read it.**--}{++{"author":"Elias's AI","timestamp":1787219833629}@@Sec. 93.011. EMERGENCY CLOSING. (a)++} If{--{"author":"Elias's AI","timestamp":1787219833629}@@ present, it is usually found at --}{++{"author":"Elias's AI","timestamp":1787219833629}@@ ++}the {--{"author":"Elias's AI","timestamp":1787219833629}@@beginning--}{++{"author":"Elias's AI","timestamp":1787219833629}@@officers++} of a {--{"author":"Elias's AI","timestamp":1787219833629}@@chapter or subchapter. A definition may be used in the statutes to avoid repetition of a long term, for example, using--}{++{"author":"Elias's AI","timestamp":1787219833629}@@savings bank determine that an emergency that affects or may affect the savings bank’s offices or operations exists or is impending,++} the {--{"author":"Elias's AI","timestamp":1787219833629}@@term “department” to refer to the Department of State Health Services. Make sure you understand references to general terms like “department,” “agency,” or “executive director.”
-
-**SourceBox**
-
-- Code Construction Act (Chapter 311, Government Code) applies to all codes enacted as part of the statutory revision program.
-- Chapter 312, Government Code, applies to civil statutes generally.
-
-- **Pay close attention to the statute’s format and organization.** Look for breaks in the text. Assume everything in the statute has meaning, including punctuation and format.
-- **Look for key verbs.** Legislative drafters use important “action” words such as “may,” “shall,” or “must” that establish whether a provision requires or authorizes some action or condition. “Shall” denotes a duty imposed on a person or entity. “Must” denotes a condition that must be met or an event that must occur as a prerequisite to full legitimacy. “May” denotes a privilege or discretionary power. “Is entitled to” denotes a right, as opposed to discretionary power. “May not” and “shall not” denote a prohibition.
-
-**SourceBox**
-
-- Shall
-- May
-- May not
-- Must
-- Is entitled to
-- Shall not
-
-- **Look for exceptions to the application of the statute.** Exceptions are signaled by keywords such as “certain,” “only,” “under,” “over,” “more than,” “less than,” “if,” and “unless” or signaled by a series ending in “and” or “or” that indicates whether all the elements of the series are included or only one of the elements needs to be included to satisfy the series.
-- **Do not skip over words that you do not know or fully understand.** Do not rely only on common understanding for the meaning of a word about which you are unsure, and do not assume a word (e.g., “person”) has the same meaning that it has in everyday conversation. Use statutory context and definitions to determine the precise meaning of a word.
-- **Read through cross-referenced sections in their entirety.** Legislative drafters avoid repetition of text by the use of cross-references to other statutory provisions. If a cross-reference is to an entire chapter or subchapter, read through the chapter’s or subchapter’s table of contents and definitions section to discern the context. In the following example, without reading the cross-referenced Section 93.011, the reader would not know that the circumstances under which the savings bank has closed are emergency circumstances.
-
-```
-Sec. 93.012. EFFECT OF CLOSING. (a) A day on which a savings bank or
-one or more of its operations are closed under Section 93.011 during
-all or part of its normal business hours is considered to be a legal
-holiday to the extent the savings bank suspends operations.
-
-Sec. 93.011. EMERGENCY CLOSING. (a) If the officers of a savings
-bank determine that an emergency that affects or may affect the savings
-bank's offices or operations exists or is impending, the officers, as
-reasonable, may determine: . . . .
-```--}{++{"author":"Elias's AI","timestamp":1787219833629}@@officers, as reasonable, may determine: . . . .++}
-
-{++{"author":"Elias's AI","timestamp":1787219901407}@@#### Text
+#### Text
 content::
-++}\## Apply the Treaty-Reading Method
+\## Apply the Treaty-Reading Method
 
 \## Assignment
 

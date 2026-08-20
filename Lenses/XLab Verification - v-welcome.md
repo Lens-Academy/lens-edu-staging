@@ -7,13 +7,7 @@ tags: [wip]
 ---
 #### Text
 content::
-{--{"author":"Elias's AI","timestamp":1787219090357}@@\## Alpha status
-
-This is an alpha import of XLab's course. XLab is running a small paid cohort to test and calibrate the material before official launch, and expects substantial revisions afterward.
-
-Please send feedback on these materials through [XLab's feedback form](https://forms.gle/KkWcHkKh87pygDzw9).
-
---}\## 0.0. Welcome
+\## 0.0. Welcome
 
 AI is already a transformative technology. AI systems can accelerate scientific research, write and audit software, and discover mathematical breakthroughs, just to name a few—results that would have sounded impossible just a decade ago.
 
