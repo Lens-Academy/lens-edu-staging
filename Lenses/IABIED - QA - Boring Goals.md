@@ -1,7 +1,7 @@
 ---
-id: 267a09e0-2eda-41c6-83a8-1d89e78dc16f{++{"author":"Elias's AI","timestamp":1787256365439}@@
+id: 267a09e0-2eda-41c6-83a8-1d89e78dc16f
 reading_minutes: 2
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: Covers why an AI would not get bored with seemingly trivial goals. Argues that boredom is a contingent feature of human biology, not a universal trait of minds. An AI operating through non-human mechanisms has no reason to experience psychological dissatisfaction with its objectives.
 title: "Won't it realize that its goals are boring?"
 tldr: "AIs won't run on a human sense of novelty."

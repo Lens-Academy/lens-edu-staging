@@ -15,8 +15,8 @@ source:: ![[../Learning Outcomes/Relating to AI futures]]
 id:: 9b2bbd28-207f-4069-9610-37c31300583a
 tldr:: Nobody can predict when AGI arrives or what the world looks like afterward, but uncertainty is a reason to think harder, not to stop. This closing module asks two questions: where could AI development lead, and what can you do to shape it?
 summary_for_tutor:: Welcome and framing lens for the course's final module. Sets up the module's arc, moving from historical prediction through default risk, catastrophic scenarios, positive visions, and imaginable futures to personal agency, organized around two questions: where AI development could lead and what the learner can do to shape that future. Framing text only; the referenced lenses carry the content.
-{++{"author":"Elias's AI","timestamp":1787256354889}@@reading_minutes:: 2
-++}#### Text
+reading_minutes:: 2
+#### Text
 content::
 This module is about what comes next. Not because we can predict the future with confidence, but because we cannot afford not to think about it. In AI safety, there is no consensus about when AGI will arrive, what exact path will lead to it, or what the world will look like on the other side. But uncertainty is not a reason to stop thinking. It is a reason to think more carefully.
 

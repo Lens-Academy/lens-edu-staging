@@ -1,8 +1,8 @@
 ---
 id: 6a8d7401-4177-4cb6-8ec8-ff7f6e52c230
-{++{"author":"Elias's AI","timestamp":1787256322105}@@reading_minutes: 2
+reading_minutes: 2
 tutor_minutes: 8
-++}summary_for_tutor: "Introduces mechanistic interpretability as the effort to reverse-engineer neural networks into human-understandable algorithms by analyzing individual neurons and connections. Notes key contributors (Chris Olah, Neel Nanda, TransformerLens) and poses the central puzzle: why having full access to every parameter and activation is not sufficient to read off a model's beliefs or intentions."
+summary_for_tutor: "Introduces mechanistic interpretability as the effort to reverse-engineer neural networks into human-understandable algorithms by analyzing individual neurons and connections. Notes key contributors (Chris Olah, Neel Nanda, TransformerLens) and poses the central puzzle: why having full access to every parameter and activation is not sufficient to read off a model's beliefs or intentions."
 title: Mechanistic Interpretability
 tldr: We have full access to every number inside a neural network. So why can't we just read off what it believes or wants? Mechanistic interpretability tries to bridge that gap — reverse-engineering how models represent and process information, one circuit at a time.
 discussion: https://discord.com/channels/1440725236843806762/1483418591482347723

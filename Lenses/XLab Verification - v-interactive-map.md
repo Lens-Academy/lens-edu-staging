@@ -2,7 +2,7 @@
 id: '70ee83e3-ccaa-4130-a72f-8a4310acc919'
 title: "1.2.1 Geographic supply-chain map"
 tldr: "Faithful alpha import of XLab lesson 1.2.1 Geographic supply-chain map."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257389783}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257389783}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257389783}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257389783}@@ XLab."++}
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
 tags: [wip]
 ---
 #### Text

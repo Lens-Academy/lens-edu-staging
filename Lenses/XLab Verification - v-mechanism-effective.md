@@ -2,7 +2,7 @@
 id: '783c38a6-2552-4902-96bf-48de75aa30ad'
 title: "2.0 What makes a verification mechanism effective?"
 tldr: "Faithful alpha import of XLab lesson 2.0 What makes a verification mechanism effective?."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. {--{"author":"Elias's AI","timestamp":1787257399659}@@Interactive elements marked as import gaps--}{++{"author":"Elias's AI","timestamp":1787257399659}@@XLab currently blocks cross-site embedding, so linked external exercises++} must be completed on{--{"author":"Elias's AI","timestamp":1787257399659}@@ XLab until Lens has an equivalent."--}{++{"author":"Elias's AI","timestamp":1787257399659}@@ XLab."++}
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab currently blocks cross-site embedding, so linked external exercises must be completed on XLab."
 tags: [wip]
 ---
 #### Text

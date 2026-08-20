@@ -1,7 +1,7 @@
 ---
-id: 842dbf1d-8971-4619-a978-3432e169519c{++{"author":"Elias's AI","timestamp":1787256120485}@@
+id: 842dbf1d-8971-4619-a978-3432e169519c
 reading_minutes: 3
-tutor_minutes: 3++}
+tutor_minutes: 3
 summary_for_tutor: "Reframes 'intelligence' beyond narrow academic ability to mean everything separating human brains from mouse brains, including charisma, emotional persuasion, and practical skills. In this usage, 'artificial intelligence' means artificial everything-that-separates-human-brains-from-mouse-brains. The distinction matters because successful humans often rely on social influence rather than book smarts."
 title: "Isn't intelligence overrated?"
 tldr: "Only if you're using an overly narrow definition of 'intelligence.'"
