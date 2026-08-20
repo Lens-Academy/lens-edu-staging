@@ -77,6 +77,7 @@ Try it:
 id:: 4280d5f2-2cd5-48f9-b20f-fc132253d443
 content:: How confident are you in your answer?
 
+%%
 #### Text
 content::
 Optional fields:
@@ -103,7 +104,7 @@ Smallest version:
 > `- Governance`
 
 Try it:
-
+%%
 #### Select
 id:: a59ce650-c5cf-4b2b-bc13-e0686f5d2bfb
 content:: Which topic should we cover next?
