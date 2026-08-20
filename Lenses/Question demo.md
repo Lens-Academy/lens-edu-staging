@@ -70,14 +70,14 @@ required&#58;&#58; {--{"author":"Elias's AI","timestamp":1787220807924}@@true
 Options:
 
 - {--{"author":"Elias's AI","timestamp":1787220901216}@@`scale&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220901216}@@`scale::`:++} integer from 2 to 10. Defaults to 5.
-- `low-label&#58;&#58;`: optional label below low endpoint.
-- `high-label&#58;&#58;`: optional label below high endpoint.
+- {--{"author":"Elias's AI","timestamp":1787220905419}@@`low-label&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220905419}@@`low-label::`:++} optional label below low endpoint.
+- {--{"author":"Elias's AI","timestamp":1787220908689}@@`high-label&#58;&#58;`:--}{++{"author":"Elias's AI","timestamp":1787220908689}@@`high-label::`:++} optional label below high endpoint.
 
 Ratings are self-reports, not correct or incorrect. In Learning Outcome tests, rating is stored beside graded answers but does not affect test score.
 
 \## Single-choice question
 
-Use `#### Choice` with plain list under `options&#58;&#58;`. Default allows one selection.
+Use `#### Choice` with plain list under {--{"author":"Elias's AI","timestamp":1787220912805}@@`options&#58;&#58;`.--}{++{"author":"Elias's AI","timestamp":1787220912805}@@`options::`.++} Default allows one selection.
 
 Ungraded example:
 
