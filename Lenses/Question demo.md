@@ -77,7 +77,7 @@ Use `#### {--{"author":"Elias's AI","timestamp":1787221157837}@@Choice`--}{++{"a
 
 Ungraded example:
 
-<pre><code>#### Choice
+<pre><code>#### {--{"author":"Elias's AI","timestamp":1787221162193}@@Choice--}{++{"author":"Elias's AI","timestamp":1787221162193}@@Select++}
 key&#58;&#58; next_topic
 content&#58;&#58; Which topic should we cover next?
 options&#58;&#58;
@@ -86,7 +86,7 @@ options&#58;&#58;
 - Technical safety
 required&#58;&#58; true</code></pre>
 
-For graded practice or test question, mark correct option with `[x]`:
+For graded practice or test {--{"author":"Elias's AI","timestamp":1787221164979}@@question,--}{++{"author":"Elias's AI","timestamp":1787221164979}@@response,++} mark correct option with `[x]`:
 
 <pre><code>#### Choice
 key&#58;&#58; optimizer
