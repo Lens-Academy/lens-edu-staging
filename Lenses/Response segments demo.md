@@ -45,7 +45,7 @@ enforce-voice:: true
 assessment-instructions:: Check whether learner names claim and gives relevant objection.
 feedback-instructions:: State strongest part of response, then suggest one improvement.
 
-%% Rating collects numbered self-report. Smallest version uses default 1-to-5 scale. %%
+%% {--{"author":"Elias's AI","timestamp":1787311938400}@@Rating--}{++{"author":"Elias's AI","timestamp":1787311938400}@@`Question: Rating`++} collects numbered self-report. Smallest version uses default 1-to-5 scale. %%
 
 #### {++{"author":"Elias's AI","timestamp":1787311828167}@@Question: ++}Rating
 id:: 4280d5f2-2cd5-48f9-b20f-fc132253d443
@@ -68,7 +68,7 @@ low-label:: Not confident
 high-label:: Very confident
 feedback-instructions:: Briefly suggest how learner could calibrate this confidence against evidence.
 
-%% Select requires `options::`; default allows one selection. Without `[x]`, it is ungraded. %%
+%% {--{"author":"Elias's AI","timestamp":1787311941126}@@Select--}{++{"author":"Elias's AI","timestamp":1787311941126}@@`Question: Select`++} requires `options::`; default allows one selection. Without `[x]`, it is ungraded. %%
 #### {++{"author":"Elias's AI","timestamp":1787311834980}@@Question: ++}Select
 id:: a59ce650-c5cf-4b2b-bc13-e0686f5d2bfb
 content:: Which topic should we cover next?
@@ -109,7 +109,7 @@ multi:: true
 
 %% Multi-select has same options and defaults as single select. For grading, learner selection must exactly match all `[x]` options.
 
-FillBlank puts inputs inside sentence. Text inside braces is accepted answer. Smallest graded version follows. %%
+{--{"author":"Elias's AI","timestamp":1787311944634}@@FillBlank--}{++{"author":"Elias's AI","timestamp":1787311944634}@@`Question: FillBlank`++} puts inputs inside sentence. Text inside braces is accepted answer. Smallest graded version follows. %%
 
 #### {++{"author":"Elias's AI","timestamp":1787311844092}@@Question: ++}FillBlank
 id:: ec12502a-e39c-4589-87f5-9f14855648c9
