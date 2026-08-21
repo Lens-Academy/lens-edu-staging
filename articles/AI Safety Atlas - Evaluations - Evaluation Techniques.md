@@ -47,7 +47,7 @@ Similar to benchmarks, we can't possibly cover all the elicitation techniques, b
 
 **Elicitation technique: Best-of-N sampling.** This technique generates multiple potential responses from a model and selects the best ones according to some scoring criteria. Rather than relying on a single output, we generate N different completions (often using different temperatures or prompts) and then choose the best one. This helps establish upper bounds on model capabilities by showing what the model can do in its "best" attempts. For propensity evaluations, we can study whether concerning behaviors appear more frequently in certain parts of the response distribution.
 
-{--{"author":"Luc's AI","timestamp":1787319559727}@@**METRs--}{++{"author":"Luc's AI","timestamp":1787319559727}@@:::callout {title="METRs++} modular agent {--{"author":"Luc's AI","timestamp":1787319559727}@@framework**--}{++{"author":"Luc's AI","timestamp":1787319559727}@@framework — Optional · 1 min read" tone="neutral" collapse="closed"}++}
+:::callout {title="METRs modular agent framework — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 One example is vivaria by METR which is a tool for running evaluations and conducting agent elicitation research ([METR, 2024](https://vivaria.metr.org/)). At the time of writing METR is transitioning to a newer tool called Inspect, Vivaria remains available as an open-source solution, allowing researchers to implement various elicitation techniques like tool augmentation and multi-step reasoning in a controlled, reproducible environment.
 
@@ -58,9 +58,9 @@ METR's modular agent framework employs a four-step loop which incorporates best-
 - Discriminator: Evaluates and selects the most promising solution (e.g., chooses the most efficient code)
 - Actor: Executes the selected solution in the environment (e.g., runs the code and observes results)
 
-This iterative cycle then repeats - if the code has bugs, the Prompter might create a new prompt like "Fix the error in this code that happens when handling empty directories." Performance gains come primarily from this continuous feedback loop rather than one-time generation and selection.{++{"author":"Luc's AI","timestamp":1787319561082}@@
+This iterative cycle then repeats - if the code has bugs, the Prompter might create a new prompt like "Fix the error in this code that happens when handling empty directories." Performance gains come primarily from this continuous feedback loop rather than one-time generation and selection.
 
-:::++}
+:::
 
 **Elicitation technique: Multi-step reasoning prompting.** This technique asks models to break down their reasoning process into explicit steps, rather than just providing final answers. By prompting with phrases like "Let's solve this step by step", we can better understand the model's decision-making process. Chain of thoughts ([Wei et al., 2022](https://arxiv.org/abs/2201.11903)) is the most common approach, but researchers have also explored more elaborate techniques like chain of thought with self-consistency (CoT-SC) ([Wang et al., 2023](https://arxiv.org/abs/2203.11171)), tree of thoughts (ToT) ([Yao et al., 2023](https://arxiv.org/abs/2305.10601)), and graph of thoughts (GoT) ([Besta et al., 2023](https://arxiv.org/abs/2308.09687)). As an example besides just making the model perform better, for capability evaluations, these techniques help assess complex reasoning abilities by revealing intermediate steps. We can also observe how good a model is at generating sub-goals and intermediate steps[^note-atlas-9].
 

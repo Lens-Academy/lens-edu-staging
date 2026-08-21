@@ -43,9 +43,9 @@ Before we begin talking about concrete risk scenarios, we need a framework that 
 
 **Individual and local risks affect specific people or communities but remain contained in scope.** The AI Incident Database documents over 1,000 real-world instances where AI systems have caused or nearly caused harm ([McGregor, 2020](https://arxiv.org/abs/2011.08512); [AI Incident Database, 2025](https://incidentdatabase.ai/)). These include things like autonomous car crashes, algorithmic bias in hiring or lending that disadvantages particular individuals, privacy violations from AI systems that leak personal data, or manipulation through targeted misinformation campaigns. Local risks might involve AI system failures that disrupt a city's traffic management or cause power outages in a region. These risks are already causing immediate, documented harm to anywhere from thousands to hundreds of thousands of people.
 
-{++{"author":"Luc's AI","timestamp":1787318202241}@@%%
-++}*Interactive figure 2.1: Global annual number of reported artificial intelligence incidents and controversies. Notable incidents include a “deepfake” video of Ukrainian President Volodymyr Zelenskyy surrendering, and U.S. prisons using AI to monitor their inmates’ calls. ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*{++{"author":"Luc's AI","timestamp":1787318202241}@@
-%%++}
+%%
+*Interactive figure 2.1: Global annual number of reported artificial intelligence incidents and controversies. Notable incidents include a “deepfake” video of Ukrainian President Volodymyr Zelenskyy surrendering, and U.S. prisons using AI to monitor their inmates’ calls. ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
+%%
 
 ![Figure 2.2](https://ai-safety-atlas.com/_astro/08f1265cbf5eb8f15479f5fccfde00ecd22cc45e5687a34318359788cc6f6ce4.0SVQLEjV_Z1XlPpA.webp)
 
@@ -71,21 +71,21 @@ Before we begin talking about concrete risk scenarios, we need a framework that 
 
 *Figure 2.5: The AI safety index report for summer 2025. These scores are for the Existential risk category, and show the companies' preparedness for managing extreme risks from future AI systems that could match or exceed human capabilities, including stated strategies and research for alignment and control ([FLI, 2025](https://futureoflife.org/wp-content/uploads/2025/07/FLI-AI-Safety-Index-Report-Summer-2025.pdf)). It is clear that there is a preparedness gap. Companies claim they'll achieve AGI within the decade, yet none scored above D in existential safety planning.*
 
-{--{"author":"Luc's AI","timestamp":1787319601039}@@**Ikigai--}{++{"author":"Luc's AI","timestamp":1787319601039}@@:::callout {title="Ikigai++} Risks (I-Risks) - Risks from loss of existential {--{"author":"Luc's AI","timestamp":1787319601039}@@purpose**--}{++{"author":"Luc's AI","timestamp":1787319601039}@@purpose — Optional · 1 min read" tone="neutral" collapse="closed"}++}
+:::callout {title="Ikigai Risks (I-Risks) - Risks from loss of existential purpose — Optional · 1 min read" tone="neutral" collapse="closed"}
 
-**Ikigai risks (i-risks) involve loss of meaning and purpose even when humans survive and prosper.** Named after the Japanese concept of ikigai (life's purpose), these risks emerge when AI systems become more capable than humans at all meaningful activities. Humans might lose their sense of purpose when AI can create better art, conduct better research, and perform better at every task that traditionally gave life meaning. Unlike extinction or suffering risks, i-risks involve scenarios where humans are safe and materially comfortable but existentially adrift. We might create artificial constraints that preserve human relevance, or find entirely new forms of purpose that emerge from human-AI collaboration. However, these solutions raise their own questions about authenticity and whether artificially preserved meaning can satisfy human psychological needs ([Yampolskiy, 2024](https://books.google.se/books/about/AI.html?id=V3XsEAAAQBAJ&redir_esc=y); [Yampolsky; 2024](https://lexfridman.com/roman-yampolskiy-transcript/#chapter2_ikigai_risk)).{++{"author":"Luc's AI","timestamp":1787319602292}@@
+**Ikigai risks (i-risks) involve loss of meaning and purpose even when humans survive and prosper.** Named after the Japanese concept of ikigai (life's purpose), these risks emerge when AI systems become more capable than humans at all meaningful activities. Humans might lose their sense of purpose when AI can create better art, conduct better research, and perform better at every task that traditionally gave life meaning. Unlike extinction or suffering risks, i-risks involve scenarios where humans are safe and materially comfortable but existentially adrift. We might create artificial constraints that preserve human relevance, or find entirely new forms of purpose that emerge from human-AI collaboration. However, these solutions raise their own questions about authenticity and whether artificially preserved meaning can satisfy human psychological needs ([Yampolskiy, 2024](https://books.google.se/books/about/AI.html?id=V3XsEAAAQBAJ&redir_esc=y); [Yampolsky; 2024](https://lexfridman.com/roman-yampolskiy-transcript/#chapter2_ikigai_risk)).
 
-:::++}
+:::
 
-{--{"author":"Luc's AI","timestamp":1787319603506}@@**Existential--}{++{"author":"Luc's AI","timestamp":1787319603506}@@:::callout {title="Existential++} Suffering Risks (S-Risks) - Risks of extended {--{"author":"Luc's AI","timestamp":1787319603506}@@suffering**--}{++{"author":"Luc's AI","timestamp":1787319603506}@@suffering — Optional · 1 min read" tone="neutral" collapse="closed"}++}
+:::callout {title="Existential Suffering Risks (S-Risks) - Risks of extended suffering — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 **Suffering risks (s-risks) involve astronomical amounts of suffering that could vastly exceed all suffering in human history.** S-risks as a special class of existential risks. They represent scenarios where the future contains orders of magnitude more suffering than exists today, potentially involving trillions of sentient beings across space and time. Unlike extinction risks that eliminate experience entirely, s-risks create futures filled with terrible suffering ([Althaus & Gloor, 2016](https://longtermrisk.org/reducing-risks-of-astronomical-suffering-a-neglected-priority/); [Baumann, 2017](https://centerforreducingsuffering.org/research/intro/); [DiGiovanni, 2023](https://longtermrisk.org/beginners-guide-to-reducing-s-risks/)).
 
 **Future civilizations might create vast numbers of artificial sentient beings.** If these beings are sentient, then artificial minds could experience genuine suffering if created carelessly. Efficient solutions might happen to involve suffering - like digital slavery where trillions of artificial minds perform computational labor under terrible conditions. Future civilizations conducting detailed simulations of biological evolution or testing theories about consciousness could inadvertently create millions of suffering beings within their simulations. The simulated beings would experience genuine suffering even though they exist only as computational processes.
 
-While these scenarios may seem science-fictional, some researchers argue they deserve consideration given the potentially enormous stakes involved and the irreversible nature of such outcomes if they occurred.{++{"author":"Luc's AI","timestamp":1787319604431}@@
+While these scenarios may seem science-fictional, some researchers argue they deserve consideration given the potentially enormous stakes involved and the irreversible nature of such outcomes if they occurred.
 
-:::++}
+:::
 
 These risk categories and severity levels provide the foundation for examining specific AI capabilities that could enable harmful outcomes. We focus the rest of the chapter on presenting concrete cases and arguments for how various AI developments could lead to different severities of harm, particularly focusing on those that might cross the line into catastrophic or existential.
 

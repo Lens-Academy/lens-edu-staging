@@ -201,7 +201,7 @@ Some of those problems may get worse as systems become more capable. RLHF has be
 
 Overall, just because the model is instruction tuned does not mean that the training process is safe, and RLHF needs to be incorporated into a broader technical safety framework (for example, Responsible Scaling Policies or the Preparedness Framework are partial attempts to be such frameworks, or the paper "Model evaluation for extreme risks" ([Shevlane et al., 2023](https://arxiv.org/abs/2305.15324))).
 
-{--{"author":"Luc's AI","timestamp":1787319601556}@@**Instruction--}{++{"author":"Luc's AI","timestamp":1787319601556}@@:::callout {title="Instruction++} tuning vs {--{"author":"Luc's AI","timestamp":1787319601556}@@alignment**--}{++{"author":"Luc's AI","timestamp":1787319601556}@@alignment — Optional · 1 min read" tone="neutral" collapse="closed"}++}
+:::callout {title="Instruction tuning vs alignment — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 Instruction Tuning is a process where the model is fine-tuned (via RL or supervised learning) to better understand and follow human instructions. This involves training the model on a dataset that contains a variety of instructions and their desired outcomes. The primary goal of Instruction Tuning is to enhance the AI's ability to interpret and execute commands as intended by users. This improves user experience and broadens the model's applicability. For example:
 
@@ -211,9 +211,9 @@ Instruction Tuning is a process where the model is fine-tuned (via RL or supervi
 
 Alignment in AI refers to the process of ensuring that an AI's actions and decisions are congruent with human values and ethics. It involves aligning the AI's goals and behaviors with what is beneficial or acceptable to humans.  Instruction tuning is a technique for pursuing a very superficial case of 'outer alignment,' but it’s not clear that instruction tuning helps for inner alignment, which is what real AI safety researchers are more centrally concerned about.
 
-To sum up, just because a model has undergone an instruction tuning technique like the RLHF process, it doesn't necessarily mean that the model is aligned. The term "aligned model" is often used, but it is advisable to adopt the more accurate terminology "Instruction-tuned," rather than "aligned model," to avoid confusion and more accurately represent the specific training process the model has experienced.{++{"author":"Luc's AI","timestamp":1787319602793}@@
+To sum up, just because a model has undergone an instruction tuning technique like the RLHF process, it doesn't necessarily mean that the model is aligned. The term "aligned model" is often used, but it is advisable to adopt the more accurate terminology "Instruction-tuned," rather than "aligned model," to avoid confusion and more accurately represent the specific training process the model has experienced.
 
-:::++}
+:::
 
 ![Figure 6.24](https://ai-safety-atlas.com/_astro/db28b5bf00069ec62c40b1791ebdfd1d59039703fcd27faf503f63d178cf4673.Bkzd3ZhR_2iWx9L.webp)
 

@@ -77,7 +77,7 @@ LLMs are prone to "hallucinate," a term used to describe the generation of conte
 - **Strategies to Enhance Factual Accuracy**: The tendency of LLMs to generate hallucinations can be significantly diminished using various techniques. See the box below for a breakdown of those.
 - **Larger models can be more truthful than smaller ones.** This is the case with TruthfulQA. OpenAI reports that GPT-4 is 40% more accurate and factually consistent than its predecessor.
 
-{--{"author":"Luc's AI","timestamp":1787319545493}@@**Many--}{++{"author":"Luc's AI","timestamp":1787319545493}@@:::callout {title="Many++} techniques can be used to increase the truthfulness of {--{"author":"Luc's AI","timestamp":1787319545493}@@LLMs**--}{++{"author":"Luc's AI","timestamp":1787319545493}@@LLMs — Optional · 3 min read" tone="neutral" collapse="closed"}++}
+:::callout {title="Many techniques can be used to increase the truthfulness of LLMs — Optional · 3 min read" tone="neutral" collapse="closed"}
 
 Fine-tuning** LLMs for Factuality:** In this paper ([Tian et al., 2023](https://arxiv.org/abs/2311.08401)), the authors recommend fine-tuning methods using Direct Preference Optimization (DPO) to decrease the rate of hallucinations. By applying such techniques, a 7B Llama 2 model saw a 58% reduction in factual error rate compared to its original model.
 
@@ -94,9 +94,9 @@ Fine-tuning** LLMs for Factuality:** In this paper ([Tian et al., 2023](https://
 
 **Training for metacognition**: Models can be trained to give the probability of what they assert, a form of metacognition. For example, the paper "Language Models (Mostly) Know What They Know" ([Kadavath et al., 2022](https://arxiv.org/abs/2207.05221)) demonstrates that AIs can be Bayesian calibrated about their knowledge. This implies that they can have a rudimentary form of self-awareness, recognizing the likelihood of their own accuracy. Informally, this means it is possible to query a chatbot with "Are you sure about what you are telling me?" and receive a relatively reliable response. This can serve as training against hallucinations.
 
-It's worth noting that these techniques enable substantial problem mitigation for the current LLMs, but they don’t solve all the problems that we encounter with AI that are potentially deceptive, as we will see in the chapter on goal misgeneralization.{++{"author":"Luc's AI","timestamp":1787319546851}@@
+It's worth noting that these techniques enable substantial problem mitigation for the current LLMs, but they don’t solve all the problems that we encounter with AI that are potentially deceptive, as we will see in the chapter on goal misgeneralization.
 
-:::++}
+:::
 
 ## Structural inadequacy?
 
@@ -149,11 +149,11 @@ Following are some reasons to believe that labs will continue to scale LLMs.
 
 **From simple correlations to understanding.** During a training run, GPTs go from basic correlations to deeper and deeper understanding. Initially, the model merely establishes connections between successive words. Gradually, it develops an understanding of grammar and semantics, creating links between sentences and subsequently between paragraphs. Eventually, GPT masters the nuances of writing style.
 
-{--{"author":"Luc's AI","timestamp":1787319548005}@@**Exercise:--}{++{"author":"Luc's AI","timestamp":1787319548005}@@:::callout {title="Exercise:++} Scaling Laws on LLM implies further qualitative {--{"author":"Luc's AI","timestamp":1787319548005}@@improvements**--}{++{"author":"Luc's AI","timestamp":1787319548005}@@improvements — Optional · 1 min read" tone="neutral" collapse="closed"}++}
+:::callout {title="Exercise: Scaling Laws on LLM implies further qualitative improvements — Optional · 1 min read" tone="neutral" collapse="closed"}
 
-Let's calculate the difference in loss, measured in bits, between two model outputs: "Janelle ate some ice cream because he likes sweet things like ice cream." and "Janelle ate some ice cream because she likes sweet things like ice cream." The sentence contains approximately twenty tokens. If the model vacillates between "He" or "She," choosing randomly (50/50 odds), it incurs a loss of 2 bits on the pronoun token when incorrect. The loss for other tokens remains the same in both models. However, since the model is only incorrect half the time, a factor of 1/2 should be applied. This results in a difference of (1/2) * (2/20) = 1/20, or 0.05 bits. Thus, a model within 0.05 bits of the minimal theoretical loss should be capable of understanding even more nuanced concepts than the one discussed above.{++{"author":"Luc's AI","timestamp":1787319548903}@@
+Let's calculate the difference in loss, measured in bits, between two model outputs: "Janelle ate some ice cream because he likes sweet things like ice cream." and "Janelle ate some ice cream because she likes sweet things like ice cream." The sentence contains approximately twenty tokens. If the model vacillates between "He" or "She," choosing randomly (50/50 odds), it incurs a loss of 2 bits on the pronoun token when incorrect. The loss for other tokens remains the same in both models. However, since the model is only incorrect half the time, a factor of 1/2 should be applied. This results in a difference of (1/2) * (2/20) = 1/20, or 0.05 bits. Thus, a model within 0.05 bits of the minimal theoretical loss should be capable of understanding even more nuanced concepts than the one discussed above.
 
-:::++}
+:::
 
 **Text completion is probably an AI-complete test** ([Wikipedia, 2022](https://en.wikipedia.org/wiki/AI-complete)).
 

@@ -90,15 +90,15 @@ Both structures explain the training data equally well. Standard reinforcement l
 
 **Distribution shift is inevitable - training environments cannot perfectly replicate all possible deployment conditions.** Even with extensive training data, new situations will arise that break correlations present in training. As AI systems become more general-purpose, they encounter wider ranges of contexts where previously reliable correlations may no longer hold. This explains why the problem gets worse with more capable, more general systems. A narrow chess engine deployed on chess positions won't encounter situations that break its learned correlations. But a general-purpose AI system deployed across multiple domains will inevitably encounter contexts where training correlations break down.
 
-{--{"author":"Luc's AI","timestamp":1787319571567}@@**Auto--}{++{"author":"Luc's AI","timestamp":1787319571567}@@:::callout {title="Auto++} induced distribution {--{"author":"Luc's AI","timestamp":1787319571567}@@shift**--}{++{"author":"Luc's AI","timestamp":1787319571567}@@shift — Optional · 1 min read" tone="neutral" collapse="closed"}++}
+:::callout {title="Auto induced distribution shift — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 **Auto-induced distribution shift creates feedback loops that amplify goal misgeneralization.** Unlike natural distribution shift where external factors change the environment, auto-induced distribution shift occurs when the AI system's own actions systematically alter the data distribution it encounters ([Krueger et al., 2020](https://arxiv.org/abs/2009.09153)). Think about a content recommendation system that learns the misgeneralized goal "maximize engagement" instead of "recommend valuable content." As it optimizes for clicks and time-on-site, it gradually shifts user behavior toward more sensational content consumption. This creates a feedback loop: the system's actions change user preferences, which changes the data distribution, which reinforces the misgeneralized goal. Each iteration takes the system further from the original intended objective while making the learned objective appear more successful by its own metrics.
 
 ![Figure 7.7](https://ai-safety-atlas.com/_astro/52d6c9622119807e1e98e9774491bb9552ec66998e79f33f943bd306fef6ca1e.CxFOUEwY_Z1TYJDI.webp)
 
-*Figure 7.7: Auto induced distribution shift is when the AI model itself causes a distribution shift (and thereby generalization failure) due to its own actions and impact on the environment.*{++{"author":"Luc's AI","timestamp":1787319572765}@@
+*Figure 7.7: Auto induced distribution shift is when the AI model itself causes a distribution shift (and thereby generalization failure) due to its own actions and impact on the environment.*
 
-:::++}
+:::
 
 **Adding more **training data** cannot eliminate spurious correlations because we cannot identify all correlations in advance.** Think about why training on random coin placements in CoinRun solves that specific misgeneralization. It works because we can identify and break the specific correlation between rightward movement and reward. But this requires knowing in advance which correlations are spurious beforehand. In complex domains, training data reflects the statistical structure of training environments, not necessarily the causal structure of intended tasks.
 

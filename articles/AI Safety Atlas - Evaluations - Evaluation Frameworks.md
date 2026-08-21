@@ -60,13 +60,13 @@ In this section, we describe 3 corporate governance frameworks. These voluntary 
 
 **What is a scaling policy framework?** A scaling policy framework puts everything together - determining which evaluations are needed, which safety measures are required, how strictly things should be tested, and what evaluation requirements exist before training, deployment, and post-deployment. Essentially, it establishes systematic rules and protocols for monitoring, safety and being willing to pause development if safety cannot be assured ([METR, 2023](https://metr.org/blog/2023-09-26-rsp/)).
 
-{--{"author":"Luc's AI","timestamp":1787319558677}@@**Scaling--}{++{"author":"Luc's AI","timestamp":1787319558677}@@:::callout {title="Scaling++} policies frameworks are now generally called Safety and Security {--{"author":"Luc's AI","timestamp":1787319558677}@@frameworks**--}{++{"author":"Luc's AI","timestamp":1787319558677}@@frameworks — Optional · 0 min read" tone="neutral" collapse="closed"}++}
+:::callout {title="Scaling policies frameworks are now generally called Safety and Security frameworks — Optional · 0 min read" tone="neutral" collapse="closed"}
 
 The differences between the Safety and Security Frameworks of Anthropic, Google Deep Mind and OpenAI are subtle. The core point to remember is that at the intersection of all of their commitments, whether for scaling, development or deployment, are evaluations.
 
-If you are encountering them for the first time, we encourage you to read Anthropic's framework, which is the most comprehensive. An interactive summary of the differences between various policies is available at [seoul-tracker.org](http://seoul-tracker.org)[.](https://www.seoul-tracker.org/){++{"author":"Luc's AI","timestamp":1787319560030}@@
+If you are encountering them for the first time, we encourage you to read Anthropic's framework, which is the most comprehensive. An interactive summary of the differences between various policies is available at [seoul-tracker.org](http://seoul-tracker.org)[.](https://www.seoul-tracker.org/)
 
-:::++}
+:::
 
 ### RSP Framework (Anthropic)
 

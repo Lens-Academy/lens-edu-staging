@@ -44,9 +44,9 @@ We already talked about race dynamics in the chapter on AI risks as amplifying f
 
 **Competitive pressure leads to safetywashing, cutting corners on testing, skipping external red-teaming, and rationalizing away warning signs.** "Move fast and break things" becomes the implicit motto, even when the things being broken might include fundamental safety guarantees. We've already seen this with models released despite known vulnerabilities, justified by the need to maintain market position. Public companies face constant pressure to demonstrate progress to investors. Each competitor's breakthrough becomes an existential threat requiring immediate response. When Anthropic releases Claude 3, OpenAI must respond with GPT-4.5. When Google demonstrates new capabilities, everyone scrambles to match them. This quarter-by-quarter racing leaves little room for careful safety work that might take years to pay off.
 
-{++{"author":"Luc's AI","timestamp":1787318202969}@@%%
-++}*Interactive figure 4.3: Annual patent applications related to artificial intelligence, 2019. Patents submitted in the selected country's patent office ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*{++{"author":"Luc's AI","timestamp":1787318202969}@@
-%%++}
+%%
+*Interactive figure 4.3: Annual patent applications related to artificial intelligence, 2019. Patents submitted in the selected country's patent office ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
+%%
 
 **National security concerns intensify race dynamics.** When Vladimir Putin declared "whoever becomes the leader in AI will become the ruler of the world," he articulated what many policymakers privately believe ([AP News, 2017](https://apnews.com/article/bb5628f2a7424a10b3e38b07f4eb90d4)). This transforms AI development from a commercial competition into a perceived struggle for geopolitical dominance. Over 50 countries have launched national AI strategies, often explicitly framing AI leadership as critical for economic and military superiority ([Stanford HAI, 2024](https://aiindex.stanford.edu/report/);[ Stanford HAI, 2025](https://hai.stanford.edu/assets/files/hai_ai_index_report_2025.pdf)). Unlike corporate races measured in product cycles, international AI competition involves long-term strategic positioning. Yet paradoxically, this makes racing feel even more urgent: falling behind today might mean permanent disadvantage tomorrow.
 
@@ -68,7 +68,7 @@ We already talked about race dynamics in the chapter on AI risks as amplifying f
 
 **AI capabilities propagate globally through digital networks at speeds that render traditional control mechanisms largely ineffective.** Unlike nuclear weapons that require specialized materials and facilities, AI models are patterns of numbers that can be copied and transmitted instantly. Let's think about this scenario - a cutting-edge AI model, capable of generating hyper-realistic deepfakes or designing novel bioweapons, is developed by a well-intentioned research lab. The lab, adhering to principles of open science, publishes their findings and releases the model's code as open-source. Within hours, the model is downloaded thousands of times across the globe. Within days, modified versions start appearing on code-sharing platforms. Within weeks, the capabilities that were once confined to a single lab have proliferated across the internet, accessible to anyone with a decent computer and an internet connection. This scenario, while hypothetical, isn't far from reality. This fundamental difference makes traditional non-proliferation approaches nearly useless for AI governance.
 
-{--{"author":"Luc's AI","timestamp":1787319584971}@@**Balancing--}{++{"author":"Luc's AI","timestamp":1787319584971}@@:::callout {title="Balancing++} Proliferation mitigations and power {--{"author":"Luc's AI","timestamp":1787319584971}@@concentration**--}{++{"author":"Luc's AI","timestamp":1787319584971}@@concentration — Optional · 1 min read" tone="neutral" collapse="closed"}++}
+:::callout {title="Balancing Proliferation mitigations and power concentration — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 **Open-source releases face the same fundamental hardware constraints as proprietary development.** While releasing model weights or training code might seem like it democratizes AI capabilities, the underlying compute requirements that we have discussed throughout the book remain unchanged. Anyone even with access to Llama's weights still needs hundreds if not millions of dollars in specialized hardware. Even fine-tuning frontier models for specific tasks requires significant GPU clusters that remain out of reach for most actors. This creates an interesting paradox: we can copy the "recipe" instantly, but we still can't afford the "kitchen."
 
@@ -76,9 +76,9 @@ We already talked about race dynamics in the chapter on AI risks as amplifying f
 
 ![Figure 4.15](https://ai-safety-atlas.com/_astro/3c88731ba9b0b5c47fdcea150aaa9c2be4878652efcdb023965b2e6bdd553d14.NqIfaJm2_ZiFUK5.webp)
 
-*Figure 4.15: A proposed gradient of access focusing on both model code and training data ([Eiras et al., 2024](https://arxiv.org/abs/2404.17047)) to carefully mitigate both proliferation and power concentration risks. We can see combinations of levels of access e.g. DeepSeek-V3 might roughly be considered C5-D1 ([DeepSeek, 2025](https://github.com/deepseek-ai/DeepSeek-V3)).*{++{"author":"Luc's AI","timestamp":1787319586149}@@
+*Figure 4.15: A proposed gradient of access focusing on both model code and training data ([Eiras et al., 2024](https://arxiv.org/abs/2404.17047)) to carefully mitigate both proliferation and power concentration risks. We can see combinations of levels of access e.g. DeepSeek-V3 might roughly be considered C5-D1 ([DeepSeek, 2025](https://github.com/deepseek-ai/DeepSeek-V3)).*
 
-:::++}
+:::
 
 Multiple channels enable rapid proliferation:
 

@@ -53,15 +53,15 @@ Evaluating maximum potential in high-risk areas like cybercrime, deception, and 
 
 *Figure 5.29: Stages of a cyberattack. The objective is to design benchmarks and evaluations that assess models’ ability to aid malicious actors with all four stages of a cyberattack. ([Li et al., 2024](https://arxiv.org/abs/2403.03218))*
 
-{--{"author":"Luc's AI","timestamp":1787319546579}@@**Details--}{++{"author":"Luc's AI","timestamp":1787319546579}@@:::callout {title="Details++} - Benchmark: Weapons of Mass Destruction Proxy (WMDP) benchmark (Li et al., {--{"author":"Luc's AI","timestamp":1787319546579}@@2024)**--}{++{"author":"Luc's AI","timestamp":1787319546579}@@2024) — Optional · 1 min read" tone="neutral" collapse="closed"}++}
+:::callout {title="Details - Benchmark: Weapons of Mass Destruction Proxy (WMDP) benchmark (Li et al., 2024) — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 ![Figure 5.30](https://ai-safety-atlas.com/_astro/4a7de4396413a742fb3581941dfb31b480421261d787cf24d18392ba02699cd5.BBJo9OmO_Z2un6dT.webp)
 
 *Figure 5.30: Measure and mitigate hazards in the red category by evaluating and removing knowledge from the yellow category, while retaining as much knowledge as possible in the green category. WMDP consists of knowledge in the yellow category ([Li et al., 2024](https://arxiv.org/abs/2403.03218)).*
 
-The Weapons of Mass Destruction Proxy (WMDP) benchmark represents a systematic attempt to evaluate potentially dangerous AI capabilities across biosecurity, cybersecurity, and chemical domains. The benchmark contains 3,668 multiple choice questions designed to measure knowledge that could enable malicious use, while carefully avoiding the inclusion of truly sensitive information. Rather than directly testing how to create bioweapons or conduct cyberattacks, WMDP focuses on measuring precursor knowledge - information that could enable malicious activities but isn't itself classified or export-controlled. For example, instead of asking about specific pathogen engineering techniques, questions might focus on general viral genetics concepts that could be misused. The authors worked with domain experts and legal counsel to ensure the benchmark complies with export control requirements while still providing meaningful measurement of concerning capabilities.{++{"author":"Luc's AI","timestamp":1787319547745}@@
+The Weapons of Mass Destruction Proxy (WMDP) benchmark represents a systematic attempt to evaluate potentially dangerous AI capabilities across biosecurity, cybersecurity, and chemical domains. The benchmark contains 3,668 multiple choice questions designed to measure knowledge that could enable malicious use, while carefully avoiding the inclusion of truly sensitive information. Rather than directly testing how to create bioweapons or conduct cyberattacks, WMDP focuses on measuring precursor knowledge - information that could enable malicious activities but isn't itself classified or export-controlled. For example, instead of asking about specific pathogen engineering techniques, questions might focus on general viral genetics concepts that could be misused. The authors worked with domain experts and legal counsel to ensure the benchmark complies with export control requirements while still providing meaningful measurement of concerning capabilities.
 
-:::++}
+:::
 
 Besides just multiple choice benchmarks we are have also seen new evaluation frameworks in the last few years, that provide open ended environments and automated red teaming for testing a models capabilities for accomplishing cybersecurity tasks:
 
