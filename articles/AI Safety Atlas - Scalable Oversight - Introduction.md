@@ -12,7 +12,7 @@ tags:
   - "article-importer"
 ---
 
-{--{"author":"Luc's AI","timestamp":1787310027379}@@Download chapter: [Markdown](https://ai-safety-atlas.com/chapters/v1/scalable-oversight.md)--}{++{"author":"Luc's AI","timestamp":1787310027379}@@*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/scalable-oversight.md)++} · {--{"author":"Luc's AI","timestamp":1787310027379}@@[PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter8-ef46e8f8b671da49d6c8470608ee17a7798e164464a9ef4332cdfd1650abe0b0.pdf)--}{++{"author":"Luc's AI","timestamp":1787310027379}@@[Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter8-ef46e8f8b671da49d6c8470608ee17a7798e164464a9ef4332cdfd1650abe0b0.pdf)*++}
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/scalable-oversight.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter8-ef46e8f8b671da49d6c8470608ee17a7798e164464a9ef4332cdfd1650abe0b0.pdf)*
 
 %%
 Add discussion note here:

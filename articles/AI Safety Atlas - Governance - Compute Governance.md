@@ -14,7 +14,7 @@ tags:
   - "article-importer"
 ---
 
-{--{"author":"Luc's AI","timestamp":1787310022765}@@Download chapter: [Markdown](https://ai-safety-atlas.com/chapters/v1/governance.md)--}{++{"author":"Luc's AI","timestamp":1787310022765}@@*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/governance.md)++} · {--{"author":"Luc's AI","timestamp":1787310022765}@@[PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter4-a0a322670b21725098e1839edee61e6b3af18c4a900a1d2e5731d3efe4852f1a.pdf)--}{++{"author":"Luc's AI","timestamp":1787310022765}@@[Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter4-a0a322670b21725098e1839edee61e6b3af18c4a900a1d2e5731d3efe4852f1a.pdf)*++}
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/governance.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter4-a0a322670b21725098e1839edee61e6b3af18c4a900a1d2e5731d3efe4852f1a.pdf)*
 
 %%
 Add discussion note here:
