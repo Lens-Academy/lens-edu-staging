@@ -11,7 +11,9 @@ tags:
 content::
 **Metacognition** means thinking about how we think. It covers the quiet backstage work: planning what to do, checking our own reasoning, reviewing a decision, and questioning our own process. It is the part of thinking that decides how to think.
 
-**Metacognitive offloading** means delegating that oversight itself. You stop deciding which tasks to hand off and which to keep. The system decides for you.
+{++{"author":"coder's AI","timestamp":1787301812802}@@Metacognition has two moving parts. The first is monitoring: noticing what you know, what you do not, and where your thinking is going. The second is control: acting on that notice — slowing down, checking a step, changing your plan, or admitting you do not understand. It is less a single act than a habit of standing slightly outside your own mind while you work.
+
+++}**Metacognitive offloading** means delegating that oversight itself. You stop deciding which tasks to hand off and which to keep. The system decides for you.
 
 This course uses the term "metacognitive offloading" rather than the alternative "metacognitive laziness". The laziness framing blames the user: it suggests you are simply not thinking hard enough about your own thinking. That framing is wrong twice over. The habit is not mainly a personal failing, and it is not random. It is a predictable response to a system that makes offloading effortless. "Metacognitive offloading" points at the system and the habit, not the user's character.
 
