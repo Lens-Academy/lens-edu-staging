@@ -81,6 +81,8 @@ to:: "Daily users reported the strongest patterns across all four items."
 
 %% Note: Self-published Substack survey (2026), 299 UK employees across six sectors. Self-reported, single time point; author states it does not prove causation. %%
 
+#### Text
+content::
 ## Can AI Extend the Mind?
 Not everyone reads this as loss. Gutoreva and colleagues (2025) take the Extended Mind position: a tool you rely on can become a real part of your thinking, not a replacement for it. The line that matters is between using AI as an assistive instrument and treating it as an authoritative source. When AI performs the full epistemic labour, the risk of disempowerment rises. Read their position below.
 
@@ -91,6 +93,8 @@ to:: "Managing this integration requires operational frameworks that account for
 
 %% Note: The counterargument. Extended Mind position: external tools can become legitimate parts of cognition. Key distinction: generative AI performs full epistemic labor, not just discrete functions. Risk increases when AI is treated as authoritative source rather than assistive instrument. %%
 
+#### Text
+content::
 ## Reading the Evidence Honestly
 Hold two thoughts together. The clinical and worker studies above point at real erosion of individual skill. The legal study points at real gains from early, engaged use. Both can be true, because whether help helps depends on when and how you use it. The honest context: most of these studies are short, narrow, and small. Long-term and real-world effects on whole populations are still unknown. The reasonable conclusion is concern, not panic. Friction-free help can quietly remove the struggle that builds skill, and we do not yet know how far that goes.
 
