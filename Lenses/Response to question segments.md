@@ -6,11 +6,11 @@ tldr: Use {++{"author":"Elias's AI","timestamp":1787312081069}@@Response to ques
 summary_for_tutor: Reference page for course creators. It documents shared fields, exact syntax, options, defaults, LLM assessment flow, and grading behavior for `Question: Open`, `Question: Rating`, `Question: Select`, `Question: FillBlank`, and `Question: Ranking` Response {++{"author":"Elias's AI","timestamp":1787312085061}@@to question ++}segments.
 ---
 
-%% A question segment is an interactive field that collects one learner response. Same syntax works in surveys, normal lenses, and Learning Outcome tests. Context determines grading.
+%% A {++{"author":"Elias's AI","timestamp":1787312089270}@@Response to ++}question segment is an interactive field that collects one learner response. Same syntax works in surveys, normal lenses, and Learning Outcome tests. Context determines grading.
 
-Every Response segment needs `id::` and `content::`. Editor should create globally unique UUID automatically. For hand-written files, use https://www.uuidgenerator.net/version4 or plain-text API https://www.uuidgenerator.net/api/version4. Never change ID after learners respond. No separate key needed.
+Every Response {++{"author":"Elias's AI","timestamp":1787312093182}@@to question ++}segment needs `id::` and `content::`. Editor should create globally unique UUID automatically. For hand-written files, use https://www.uuidgenerator.net/version4 or plain-text API https://www.uuidgenerator.net/api/version4. Never change ID after learners respond. No separate key needed.
 
-Response segments are required by default. Adding one normally means learner should answer it; required default prevents accidental missing responses. Add `optional:: true` only when skipping is intentional, such as sensitive survey question or optional reflection. `optional::` defaults to `false`.
+Response {++{"author":"Elias's AI","timestamp":1787312096286}@@to question ++}segments are required by default. Adding one normally means learner should answer it; required default prevents accidental missing responses. Add `optional:: true` only when skipping is intentional, such as sensitive survey question or optional reflection. `optional::` defaults to `false`.
 
 Graded `Question: Open` and `Question: FillBlank` use same assessor flow. Platform supplies base assessment prompt, then authored `assessment-instructions::` when present, question context, expected answers, and learner response. Assessor returns structured `score` from 0 to 100 and private `reason`. Learner sees percentage, not private reason.
 
