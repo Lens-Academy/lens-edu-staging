@@ -2,14 +2,15 @@
 title: "Strategic Thinking"
 author:
   - "Sarwat Jahan"
-  - "Ahmed Saber Mahmud"
+  - "Ahmed Saber Mahmud"{--{"author":"Luc's AI","timestamp":1787306293435}@@
   - "SARWAT JAHAN is a senior economist in the IMF’s Asia"
-  - "Pacific Department. AHMED SABER MAHMUD is the associate director of the Applied Economics Program at Johns Hopkins University."
+  - "Pacific Department. AHMED SABER MAHMUD is the associate director of the Applied Economics Program at Johns Hopkins University."--}
 source_url: "https://www.imf.org/external/Pubs/FT/fandd/basics/66-strategic-thinking.htm"
 published: 2018-06-01
 created: 2026-08-20
 accessed: 2026-08-20
-description: "By Sarwat Jahan and Ahmed Saber Mahmud - Game theory analyzes behavior when decisions must take into account the potential actions of opponents"
+{++{"author":"Luc's AI","timestamp":1787306293647}@@allowUnreachableUrl: true
+++}description: "By Sarwat Jahan and Ahmed Saber Mahmud - Game theory analyzes behavior when decisions must take into account the potential actions of opponents"
 tags:
   - "article-importer"
 ---

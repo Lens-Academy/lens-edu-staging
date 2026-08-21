@@ -9,7 +9,8 @@ source_url: "https://www.rand.org/pubs/research_reports/RRA3686-1.html"
 published: 2025-06-16
 created: 2026-08-20
 accessed: 2026-08-20
-description: "This report documents an investigation of detection and monitoring mechanisms that cloud service providers could use to identify large artificial intelligence training runs."
+{++{"author":"Luc's AI","timestamp":1787306293881}@@allowUnreachableUrl: true
+++}description: "This report documents an investigation of detection and monitoring mechanisms that cloud service providers could use to identify large artificial intelligence training runs."
 tags:
   - "article-importer"
 ---
