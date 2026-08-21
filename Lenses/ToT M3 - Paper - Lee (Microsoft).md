@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787325790700}@@---
+---
 id: 'd6edba7c-bd21-46c8-b795-1ba3d797107f'
 title: "Lee (Microsoft): confidence and task type"
 reading_minutes: 5
@@ -18,4 +18,4 @@ source:: [[../articles/microsoft-the-impact-of-generative-ai-on-critical-thinkin
 from:: "We survey 319 knowledge workers"
 to:: "information verification, response integration, and task stewardship."
 
-%% Note: 319 knowledge workers, 936 examples. Key finding: shift from generative tasks (knowledge recall, synthesis, comprehension) to reviewer tasks (verification, integration, stewardship), a move "down" Bloom's taxonomy. %%++}
+%% Note: 319 knowledge workers, 936 examples. Key finding: shift from generative tasks (knowledge recall, synthesis, comprehension) to reviewer tasks (verification, integration, stewardship), a move "down" Bloom's taxonomy. %%

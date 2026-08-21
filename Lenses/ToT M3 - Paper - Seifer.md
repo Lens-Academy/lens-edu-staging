@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787325793290}@@---
+---
 id: '1e76017e-3faf-47cb-b390-fcd09f01583d'
 title: "Seifer: early-warning signs at work"
 reading_minutes: 4
@@ -18,4 +18,4 @@ source:: [[../articles/seifer-could-cognitive-dependency-be-an-early-warning-sig
 from:: "The study found evidence that AI may be affecting how employees approach cognitive tasks:"
 to:: "Daily users reported the strongest patterns across all four items."
 
-%% Note: Self-published Substack survey (2026), 299 UK employees across six sectors. Self-reported, single time point; author states it does not prove causation. %%++}
+%% Note: Self-published Substack survey (2026), 299 UK employees across six sectors. Self-reported, single time point; author states it does not prove causation. %%
