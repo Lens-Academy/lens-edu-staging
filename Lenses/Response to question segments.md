@@ -1,7 +1,7 @@
 ---
 id: 8189763f-576e-4f04-a614-4a00c628e386
 duration_minutes: 15
-title: Response segments
+title: Response {++{"author":"Elias's AI","timestamp":1787312078268}@@to question ++}segments
 tldr: Use open responses, ratings, selects, typed fill-in-the-blank responses, and rankings with the same syntax in surveys, normal lenses, and learning-outcome tests.
 summary_for_tutor: Reference page for course creators. It documents shared fields, exact syntax, options, defaults, LLM assessment flow, and grading behavior for `Question: Open`, `Question: Rating`, `Question: Select`, `Question: FillBlank`, and `Question: Ranking` Response segments.
 ---
