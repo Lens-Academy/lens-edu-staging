@@ -35,7 +35,11 @@ source:: ![[../Lenses/10 reasons]]
 
 # Lens:
 optional:: true
-source:: [[../Lenses/Four Background Claims]]
+source:: [[../Lenses/Four Background Claims]]{++{"author":"Plex's AI","timestamp":1787325038937}@@
+
+# Lens:
+optional:: true
+source:: ![[../Lenses/Deadly By Default]]++}
 
 # Lens:
 optional:: true
