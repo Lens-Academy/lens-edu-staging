@@ -10,7 +10,7 @@ tags:
 source:: [[../Lenses/ToT M2 - What Would You Delegate - PQ]]
 
 # Lens:
-source:: [[../Lenses/ToT M2 - Metacognition and Metacognitive Laziness]]
+source:: [[../Lenses/ToT M2 - Metacognitive Laziness]]
 
 # Lens:
 source:: [[../Lenses/ToT M2 - Arbitrary Offloading]]
