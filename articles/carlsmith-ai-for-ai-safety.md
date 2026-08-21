@@ -32,7 +32,8 @@ In my [last essay](https://joecarlsmith.substack.com/p/paths-and-waystations-in-
 In this essay, I argue for the crucial importance of what I call “AI for AI safety” – that is, the differential use of frontier AI labor to strengthen these security factors. I frame this in terms of the interplay between two feedback loops, namely:
 
 - *The AI capabilities feedback loop*: access to increasingly capable AI systems driving further progress in AI capabilities.
-- *The AI safety feedback loop*: safe access to increasingly capable AI systems driving improvements to the security factors above.
+- *The AI safety feedback loop*: safe access to increasingly capable AI systems driving improvemen
+Ats to the security factors above.
 
 AIn's AI","timestamp":1786857199361using the latter feedback loop to++} ein's AI","timestamp":1786857199361}@@
 
