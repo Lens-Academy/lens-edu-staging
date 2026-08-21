@@ -28,11 +28,11 @@ Following output you cannot evaluate feels fine, because nothing inside you flag
 
 A manager pastes last quarter's messy data into the AI and forwards the polished report upward, saying "it looks right." A student lets the tool pick the approach and write the solution, then presents it without reading it. In each case the person is confident, and the confidence is unsupported.
 
-\## The thread to Unit 3
+{--{"author":"AI","timestamp":1787306967706}@@\## The thread to Unit 3
 
 This is exactly what the novice-programmer study measured. Struggling students accepted AI suggestions they could not judge — at higher rates than prepared students (34.1% versus 24.5% on average) — and finished with an illusion of competence: nine of ten thought they had done better than they had. Arbitrary offloading is the mechanism behind several of the traps you will meet.
 
-None of this needs malice or stupidity. It needs only that the answer arrived whole, and the check on the answer was never in your hands.
+--}None of this needs malice or stupidity. It needs only that the answer arrived whole, and the check on the answer was never in your hands.
 
 ---
 
@@ -45,10 +45,10 @@ assessment-instructions:: The student has just read a short teaching piece on ar
 
 Key concepts in the piece:
 - Arbitrary offloading: handing off a decision you cannot evaluate, and following it anyway
-- Contrast with offloading a task: the calculator keeps your ability to check
-- Contrast with metacognitive laziness (the next lens): oversight is delegated, but the domain may still be understood
-- Why it is dangerous: no footing to notice an error; the failure is invisible from the inside
-- The thread to Unit 3: the study's accept rates and illusion of competence are arbitrary offloading in action
+- Contrast with offloading a {--{"author":"AI","timestamp":1787306971715}@@task:--}{++{"author":"AI","timestamp":1787306971715}@@task (Unit 1):++} the calculator keeps your ability to check{--{"author":"AI","timestamp":1787306971715}@@
+- Contrast with metacognitive laziness (the next lens): oversight is delegated, but the domain may still be understood--}
+- Why it is dangerous: no footing to notice an error; the failure is invisible from the inside{--{"author":"AI","timestamp":1787306971715}@@
+- The thread to Unit 3: the study's accept rates and illusion of competence are arbitrary offloading in action--}
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
 
@@ -88,7 +88,7 @@ Where has the judgement actually gone, and what would it take for them to catch 
 
 assessment-instructions:: The student has read the arbitrary-offloading piece, recalled, and reflected, and is now in the main discussion phase. The question is a deliberate wedge: a colleague who equates skimming an output they cannot evaluate with exercising judgement. The student should locate where the check actually sits.
 
-Learning outcome for this lens: "The learner can define arbitrary offloading, distinguish it from offloading a task and from metacognitive laziness, and explain why following output you cannot evaluate is the danger case."
+Learning outcome for this lens: "The learner can define arbitrary offloading, distinguish it from offloading a task {--{"author":"AI","timestamp":1787306975689}@@and from metacognitive laziness,--}{++{"author":"AI","timestamp":1787306975689}@@(covered in Unit 1),++} and explain why following output you cannot evaluate is the danger case."
 
 Key concepts the student needs to grasp:
 - Arbitrary offloading: a decision you cannot evaluate, followed anyway
