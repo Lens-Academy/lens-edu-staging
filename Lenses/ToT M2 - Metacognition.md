@@ -44,7 +44,7 @@ But oversight can break. The next lens — arbitrary offloading — shows the sh
 
 #### Article
 source:: [[../articles/doi-arbitrary-cognitive-offloading-to-genai-does-the-current-policy-landscape-account-for-the-right-to-quality-education-of-children-and-youth-in-the-european-union-ai-policy-lab]]
-from:: "Taking self-regulated learning decisions, such as deciding over single cognitive tasks to perform, or to offload, is a human intellectual capacity called metacognition."
+from:: "Taking self-regulated learning decisions,"
 to:: "tasks that are broken down into subtasks and evolve in difficulty."
 
 ---
