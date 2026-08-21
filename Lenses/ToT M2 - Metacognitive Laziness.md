@@ -9,19 +9,13 @@ tags:
 
 #### Text
 content::
-**Metacognitive laziness** is the habit of letting the tool do the thinking that metacognition is meant to do. You stop deciding which tasks to hand off and which to keep, and the system {--{"author":"AI","timestamp":1787319166489}@@entirely --}decides for you. The term comes from Fan, Tang & Le (2024), in research on generative AI and learning.
+**Metacognitive laziness** is the habit of letting the tool do the thinking that metacognition is meant to do. You stop deciding which tasks to hand off and which to keep, and the system decides for you. The term comes from Fan, Tang & Le (2024), in research on generative AI and learning.
 
-{--{"author":"AI","timestamp":1787319166489}@@You have already--}{++{"author":"AI","timestamp":1787319166489}@@\## The habit behind the single break
+\## The habit behind the single break
 
-In the last lens you++} met two {--{"author":"AI","timestamp":1787319166489}@@related --}ideas. **Metacognition** is the oversight that keeps your thinking honest. **Arbitrary offloading** {--{"author":"AI","timestamp":1787319166489}@@(the previous lens) --}is the sharpest {--{"author":"AI","timestamp":1787319166489}@@break:--}{++{"author":"AI","timestamp":1787319166489}@@break in it:++} you hand off one decision you cannot even evaluate, and the judgement leaves all at once.{--{"author":"AI","timestamp":1787319166489}@@ --}{++{"author":"AI","timestamp":1787319166489}@@
+In the last lens you met two ideas. **Metacognition** is the oversight that keeps your thinking honest. **Arbitrary offloading** is the sharpest break in it: you hand off one decision you cannot even evaluate, and the judgement leaves all at once.
 
-++}Metacognitive laziness is the quieter, broader{--{"author":"AI","timestamp":1787319166489}@@ version. The oversight does not vanish in one move.--}{++{"author":"AI","timestamp":1787319166489}@@ version of that same break.++} It {--{"author":"AI","timestamp":1787319166489}@@leaks away as you let the system take more and more of the thinking.
-
-\## From --}{++{"author":"AI","timestamp":1787319166489}@@does not happen in ++}one{--{"author":"AI","timestamp":1787319166489}@@ offload to a habit
-
-Arbitrary offloading is the single event. Metacognitive laziness is the habit that event trains.
-
---}{++{"author":"AI","timestamp":1787319166489}@@ move; it trains in over time. ++}Each time you offload a judgement you cannot check, you practise not overseeing your own thinking. The first time feels like a one-off shortcut. By the tenth time, you have stopped deciding what to keep and what to hand off, and the system is deciding for you. {--{"author":"AI","timestamp":1787319166489}@@The break becomes--}{++{"author":"AI","timestamp":1787319166489}@@Arbitrary offloading is the event. Metacognitive laziness is++} the {--{"author":"AI","timestamp":1787319166489}@@habit.--}{++{"author":"AI","timestamp":1787319166489}@@habit it trains.++}
+Metacognitive laziness is the quieter, broader version of that same break. It does not happen in one move; it trains in over time. Each time you offload a judgement you cannot check, you practise not overseeing your own thinking. The first time feels like a one-off shortcut. By the tenth time, you have stopped deciding what to keep and what to hand off, and the system is deciding for you. Arbitrary offloading is the event. Metacognitive laziness is the habit it trains.
 
 \## Offloading a task versus handing over the oversight
 
@@ -54,9 +48,7 @@ Is this really so bad? Maybe we learn the same things in different ways when a t
 
 The next lens collects five metacognitive traps your own thinking can fall into — ways oversight breaks that long predate AI.
 
-{--{"author":"AI","timestamp":1787313079880}@@---
-
---}#### Question
+#### Question
 content::
 \## Check your Understanding
 Spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended here.
@@ -66,13 +58,13 @@ Then let's talk about how it landed. In your own words, what did you take from i
 assessment-instructions:: The student has just read a short teaching piece on metacognitive laziness (Unit 2 of "Thinking about Thinking"), after the Metacognition and Arbitrary Offloading lenses, and has written a free recall, then reflected on how it landed. Your role is part diagnostic mirror, part reaction coach, in a short discussion. Act as a brief, honest mirror, not a lecturer.
 
 Key concepts in the piece:
-- Metacognitive laziness (Fan, Tang & Le, 2024): the habit of letting the tool do the thinking metacognition is meant to do{++{"author":"AI","timestamp":1787309121817}@@
-- How arbitrary offloading feeds in: the single break becomes a habit when it repeats; each unchecked offload trains you to stop overseeing your own thinking++}
+- Metacognitive laziness (Fan, Tang & Le, 2024): the habit of letting the tool do the thinking metacognition is meant to do
+- How arbitrary offloading feeds in: the single break becomes a habit when it repeats; each unchecked offload trains you to stop overseeing your own thinking
 - A note on the framing: 'laziness' misassigns blame — offloading cognition is a normal human tendency (Risko & Gilbert, 2016), and AI platforms are designed to exploit it
 - The calculator example: offloading a task keeps the judgement; metacognitive laziness hands the oversight to the system
 - The LLM push: delegating 'how to break a problem down' delegates a large part of the thinking
-- The fair counterpoint: we may learn the same or different things in different ways; the answer is not settled{++{"author":"AI","timestamp":1787313002119}@@
-- The reading (Brademann): GenAI's ease of use is not neutral. It actively makes the laziness more likely, because users confuse ease of use with depth of learning.++}
+- The fair counterpoint: we may learn the same or different things in different ways; the answer is not settled
+- The reading (Brademann): GenAI's ease of use is not neutral. It actively makes the laziness more likely, because users confuse ease of use with depth of learning.
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
 
@@ -107,8 +99,8 @@ Key concepts the student needs to grasp:
 - Metacognitive laziness: delegating the oversight itself, including the decision about which tasks to delegate
 - The framing note: 'laziness' blames the user; the real cause is a human tendency to offload met by platform design built to exploit it
 - The manager's move: deciding which tasks to delegate was the judgement they now handed over, so their oversight of their own work has moved out of their hands
-- The manager's move: deciding which tasks to delegate was the judgement they now handed over, so their oversight of their own work has moved out of their hands{++{"author":"AI","timestamp":1787313003419}@@
-- The reading (Brademann): platform design (ease of use) is not neutral. It catalyzes metacognitive laziness by making offloading the path of least resistance.++}
+- The manager's move: deciding which tasks to delegate was the judgement they now handed over, so their oversight of their own work has moved out of their hands
+- The reading (Brademann): platform design (ease of use) is not neutral. It catalyzes metacognitive laziness by making offloading the path of least resistance.
 
 The core move to draw out: the manager has not merely offloaded tasks. They offloaded the judgement about which tasks to offload, which means they have stopped overseeing their own thinking. If the student thinks the manager is being efficient, ask them to test it: who now decides what the manager works on, and on what basis? If the student claims the manager can still intervene, ask what the manager would have to notice first.
 
