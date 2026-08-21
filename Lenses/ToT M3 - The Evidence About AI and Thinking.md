@@ -86,7 +86,7 @@ Hold two thoughts together. The {++{"author":"Curator's AI","timestamp":17873226
 
 Now read the studies below. Expand any excerpt to read more. You do not need to read everything—skim for methodology and findings. Pay attention to what happened to the strongest students in the legal study, and notice what the counterargument says about when offloading is legitimate.--}
 
-#### Article
+{--{"author":"Curator's AI","timestamp":1787322682374}@@#### Article
 source:: [[../articles/bednar-does-ai-make-lawyers-worse-at-thinking-new-research-offers-a-more-complicated-answer]]
 from:: "Since the public release of ChatGPT in 2022, a growing body of empirical research has suggested that generative AI systems could fundamentally reshape the practice of law."
 to:: "conditions that increase the likelihood that AI substitutes for careful analysis rather than supporting it."
@@ -124,7 +124,7 @@ source:: [[../articles/seifer-could-cognitive-dependency-be-an-early-warning-sig
 from:: "The study found evidence that AI may be affecting how employees approach cognitive tasks:"
 to:: "Daily users reported the strongest patterns across all four items."
 
-%% Note: Self-published Substack survey (2026), 299 UK employees across six sectors. Self-reported, single time point; author states it does not prove causation. %%
+%% Note: Self-published Substack survey (2026), 299 UK employees across six sectors. Self-reported, single time point; author states it does not prove causation. %%--}
 
 #### Text
 content::
