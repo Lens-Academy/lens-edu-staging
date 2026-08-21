@@ -30,7 +30,7 @@ source:: [[../articles/brademann-arbitrary-cognitive-offloading-genai]]
 from:: "However, the initial reading (reading comprehension skill) and note-taking (sustained attention) should not be skipped by D: The problematic use case we are concerned with here is if D uses GenAI to complete the entire task"
 to:: "nor gains the skills required to complete it."
 
-#### {++{"author":"AI","timestamp":1787312781546}@@Text
+#### Text
 content::
 Here is the same researcher's case study of a learner, D, who follows an answer D cannot evaluate.
 
@@ -43,7 +43,7 @@ to:: "the vicious cycle between over-reliance, illusion of competence and metaco
 content::
 Notice what happened. D followed an answer D could not evaluate, felt satisfied, and only discovered the gap weeks later, in the exam. The failure was invisible from the inside the whole time. That is the danger case this lens opened with.
 
-#### ++}Question
+#### Question
 content::
 \## Check your Understanding
 First, spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended here.
