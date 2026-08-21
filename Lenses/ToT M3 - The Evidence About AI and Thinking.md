@@ -33,7 +33,7 @@ source:: [[../articles/bednar-does-ai-make-lawyers-worse-at-thinking-new-researc
 from:: "Since the public release of ChatGPT in 2022, a growing body of empirical research has suggested that generative AI systems could fundamentally reshape the practice of law."
 to:: "conditions that increase the likelihood that AI substitutes for careful analysis rather than supporting it."
 
-## The doctor study: when the tool does the whole job
+## The {--{"author":"Curator's AI","timestamp":1787324965435}@@doctor--}{++{"author":"Curator's AI","timestamp":1787324965435}@@endoscopist++} study: {++{"author":"Curator's AI","timestamp":1787324965435}@@skill lost ++}when the {--{"author":"Curator's AI","timestamp":1787324965435}@@tool does--}{++{"author":"Curator's AI","timestamp":1787324965435}@@AI did++} the {--{"author":"Curator's AI","timestamp":1787324965435}@@whole job--}{++{"author":"Curator's AI","timestamp":1787324965435}@@detecting++}
 
 Budzyń and colleagues (2025), in *Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy* (a multicentre observational study), found that after endoscopists were exposed to AI-assisted polyp detection, their adenoma detection rate on standard, non-AI colonoscopy fell 6.0 percentage points, from 28.4% to 22.4%. These are real patient outcomes, not self-reports. The drop appeared on procedures done without the AI, which is the worrying part.
 
