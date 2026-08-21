@@ -13,11 +13,11 @@ In 1965, long before any working computer looked remotely like a mind, the stati
 #### Article
 source:: [[../articles/good-speculations-concerning-first-ultraintelligent-machine]]
 from:: "Let an ultraintelligent machine be defined"
-to:: "how to {--{"author":"Plex's AI","timestamp":1787325509607}@@keep it under control."
+to:: "how to keep it under control."
 
 #### Article
 from:: "Since we are concerned with the economical construction"
-to:: "value at a megakeynes."--}{++{"author":"Plex's AI","timestamp":1787325509607}@@sit here alongside/instead of the intro text above, framing this excerpt as reading 0 of the module. %%++}
+to:: "value at a megakeynes."
 
 #### {--{"author":"Plex's AI","timestamp":1787325509607}@@Text
 content::--}{++{"author":"Plex's AI","timestamp":1787325509607}@@Article++}
