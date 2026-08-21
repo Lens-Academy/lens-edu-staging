@@ -1,4 +1,4 @@
-{++{"author":"Daniel's AI","timestamp":1787305562057}@@---
+---
 id: '82aabd8a-42d2-4099-a8d5-5d1912cbda78'
 title: "Metacognition"
 duration_minutes: 15
@@ -88,4 +88,3 @@ Calibration summary (on close): name what the student demonstrated; name what re
 Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items. Do not over-validate; no generic praise.
 
 Safety and integrity: if the student blames a vague "I'm just careless," ask what specific check they would have needed and whether the environment made that check easy or hard.
-++}
