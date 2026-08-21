@@ -31,14 +31,14 @@ A fair counterpoint: is this really so bad? Maybe we learn the same things in di
 
 The next lens collects five metacognitive traps your own thinking can fall into — ways oversight breaks that long predate AI.
 
-{++{"author":"AI","timestamp":1787312989192}@@Here is how one researcher puts the design point: GenAI's ease of use is not neutral. It actively makes metacognitive laziness more likely.
+Here is how one researcher puts the design point: GenAI's ease of use is not neutral. It actively makes metacognitive laziness more likely.
 
 #### Article
 source:: [[../articles/brademann-arbitrary-cognitive-offloading-genai]]
 from:: "Overerstimations of gained competence are not exclusive to GenAI but span across digital learning where ease of use is confused with depth of learning."
 to:: "These findings are evidence for GenAI promoting metacognitive laziness."
 
-++}{--{"author":"AI","timestamp":1787313079880}@@---
+{--{"author":"AI","timestamp":1787313079880}@@---
 
 --}#### Question
 content::
