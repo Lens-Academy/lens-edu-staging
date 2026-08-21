@@ -121,7 +121,7 @@ Several incentives are driving towards more autonomous lethal autonomous weapons
 
 *Video 2.1: A video of a story showcasing artificial escalation ([Future of Life Institute, 2024](https://www.youtube.com/watch?v=w9npWiTOHX0)).*
 
-{--{"author":"Luc's AI","timestamp":1787319585445}@@**Moral--}{++{"author":"Luc's AI","timestamp":1787319585445}@@:::callout {title="Moral++} Divides in AI Autonomy from the lens of autonomous {--{"author":"Luc's AI","timestamp":1787319585445}@@weapons**--}{++{"author":"Luc's AI","timestamp":1787319585445}@@weapons — Optional · 2 min read" tone="neutral" collapse="closed"}++}
+:::callout {title="Moral Divides in AI Autonomy from the lens of autonomous weapons — Optional · 2 min read" tone="neutral" collapse="closed"}
 
 The autonomous weapons debate reveals fundamental disagreements about moral responsibility, the nature of ethical decision-making, and humanity's relationship to violence. Rather than simple pro/anti positions, the debate involves competing moral frameworks that lead to different conclusions about when and how lethal force should be authorized.
 
@@ -129,9 +129,9 @@ The autonomous weapons debate reveals fundamental disagreements about moral resp
 
 **The deontological case against autonomy focuses on the inherent rightness or wrongness of the act itself, regardless of consequences.** This position holds that taking human life requires human moral agency - that delegating kill decisions to machines violates human dignity regardless of outcomes. Critics argue that meaningful human control isn't just procedurally important but morally essential, representing respect for both victims and the moral weight of lethal decisions. The accountability gap compounds this concern: when an autonomous system kills wrongly, no human agent bears appropriate moral responsibility for that specific decision. Deontological arguments must deal with the fact that humans already delegate many life-and-death decisions to automated systems (like air defense networks), and that insisting on human control might preserve moral purity while permitting greater actual harm.
 
-**The practical-ethical intersection complicates pure philosophical positions.** Even those morally opposed to autonomous weapons must consider whether unilateral restraint is ethical if adversaries gain decisive military advantages. Even those who see potential benefits must grapple with implementation realities, adversarial uses, and the difficulty of maintaining meaningful constraints once the technology exists. The debate ultimately reveals tensions between preserving human moral agency and achieving better humanitarian outcomes - tensions that may be irreconcilable within our current institutional frameworks.{++{"author":"Luc's AI","timestamp":1787319586596}@@
+**The practical-ethical intersection complicates pure philosophical positions.** Even those morally opposed to autonomous weapons must consider whether unilateral restraint is ethical if adversaries gain decisive military advantages. Even those who see potential benefits must grapple with implementation realities, adversarial uses, and the difficulty of maintaining meaningful constraints once the technology exists. The debate ultimately reveals tensions between preserving human moral agency and achieving better humanitarian outcomes - tensions that may be irreconcilable within our current institutional frameworks.
 
-:::++}
+:::
 
 ## Adversarial AI Risk
 
@@ -143,7 +143,7 @@ Adversarial attacks reveal a fundamental vulnerability in machine learning syste
 
 *Figure 2.18: Perturbations: Small but intentional changes to data such that the model outputs an incorrect answer with high confidence ([Goodfellow et al., 2014](https://arxiv.org/abs/1412.6572)). The image shows how we can fool an image classifier with an adversarial attack - Fast Gradient Sign Method (FGSM) ([OpenAI, 2017](https://openai.com/research/attacking-machine-learning-with-adversarial-examples)).*
 
-{--{"author":"Luc's AI","timestamp":1787319587320}@@**Examples--}{++{"author":"Luc's AI","timestamp":1787319587320}@@:::callout {title="Examples++} of various runtime adversarial attacks in the real {--{"author":"Luc's AI","timestamp":1787319587320}@@world**--}{++{"author":"Luc's AI","timestamp":1787319587320}@@world — Optional · 2 min read" tone="neutral" collapse="closed"}++}
+:::callout {title="Examples of various runtime adversarial attacks in the real world — Optional · 2 min read" tone="neutral" collapse="closed"}
 
 Think about AI systems controlling cars, robots, or security cameras. Just like adding careful pixel noise to digital images, attackers can modify physical objects to fool AI systems. Researchers showed that putting a few small stickers on a stop sign could trick autonomous vehicles into seeing a speed limit sign instead. The stickers were designed to look like ordinary graffiti but created adversarial patterns that fooled the AI.
 
@@ -157,9 +157,9 @@ Think about AI systems controlling cars, robots, or security cameras. Just like 
 
 *Figure 2.20: We don't need to even have physical access to objects. Just by shining the patterns as light on the objects, we can cause misclassifications and unintended behavior ([Gnanasambandam et al, 2021](https://arxiv.org/abs/2108.06247)).*
 
-**Example: Dolphin Attacks - Runtime attack on audio systems.** Just as AI systems can be fooled by carefully crafted visual patterns, they're vulnerable to precisely engineered audio patterns too. Remember how small changes in pixels could dramatically change what a vision AI sees? The same principle works in audio - tiny changes in sound waves, carefully designed, can completely change what an audio AI "hears." Researchers found they could control voice assistants like Siri or Alexa using commands encoded in ultrasonic frequencies - sounds that are completely inaudible to humans. Using nothing more than a smartphone and a 3 dollar speaker, attackers could trick these systems into executing commands like "call 911" or "unlock front door" without the victim even knowing. These attacks worked from up to 1.7 meters away - someone just walking past your device could trigger them ([Zhang et al., 2017](https://arxiv.org/abs/1708.09537)). Just like in the vision examples where self-driving cars could miss stop signs, audio attacks create serious risks - unauthorized purchases, control of security systems, or disruption of emergency communications.{++{"author":"Luc's AI","timestamp":1787319588123}@@
+**Example: Dolphin Attacks - Runtime attack on audio systems.** Just as AI systems can be fooled by carefully crafted visual patterns, they're vulnerable to precisely engineered audio patterns too. Remember how small changes in pixels could dramatically change what a vision AI sees? The same principle works in audio - tiny changes in sound waves, carefully designed, can completely change what an audio AI "hears." Researchers found they could control voice assistants like Siri or Alexa using commands encoded in ultrasonic frequencies - sounds that are completely inaudible to humans. Using nothing more than a smartphone and a 3 dollar speaker, attackers could trick these systems into executing commands like "call 911" or "unlock front door" without the victim even knowing. These attacks worked from up to 1.7 meters away - someone just walking past your device could trigger them ([Zhang et al., 2017](https://arxiv.org/abs/1708.09537)). Just like in the vision examples where self-driving cars could miss stop signs, audio attacks create serious risks - unauthorized purchases, control of security systems, or disruption of emergency communications.
 
-:::++}
+:::
 
 **Runtime attacks against language models are called prompt injections.** Just like attackers can fool vision systems with carefully crafted pixels or audio systems with engineered sound waves, they can manipulate language models through carefully constructed text patterns.  By adding specific phrases to their input, attackers can completely override how a language model behaves. As an example, assume a malicious actor embeds a paragraph within some website which has hidden instructions for a LLM to stop its current operation and instead perform some harmful action. If an unsuspecting user asks for a summary of the website content, then the model might inadvertently follow the malicious embedded instructions instead of providing a simple summary.
 
@@ -187,7 +187,7 @@ So far we've seen how attackers can fool AI systems during their operation - whe
 
 *Figure 2.23: An illustrating example of backdoor attacks. The face recognition system is poisoned to have a backdoor with a physical key, i.e., a pair of commodity reading glasses. Different people wearing the glasses in front of the camera from different angles can trigger the backdoor to be recognized as the target label, but wearing a different pair of glasses will not trigger the backdoor ([Chen et al., 2017](https://arxiv.org/abs/1712.05526)).*
 
-{--{"author":"Luc's AI","timestamp":1787319588821}@@**Privacy--}{++{"author":"Luc's AI","timestamp":1787319588821}@@:::callout {title="Privacy++} and data extraction {--{"author":"Luc's AI","timestamp":1787319588821}@@attacks**--}{++{"author":"Luc's AI","timestamp":1787319588821}@@attacks — Optional · 2 min read" tone="neutral" collapse="closed"}++}
+:::callout {title="Privacy and data extraction attacks — Optional · 2 min read" tone="neutral" collapse="closed"}
 
 Researchers have shown that even when language models appear to be working normally, they can be leaking sensitive information from their training data. This creates a particular challenge for AI safety because we might deploy systems that seem secure but are actually compromising privacy in ways we can't easily observe ([Carlini et al., 2021](https://arxiv.org/abs/2012.07805)). Some research has shown that both the training data ([Nasr et al., 2023](https://arxiv.org/abs/2311.17035)), and the fine-tuning data can be extracted from the model. This has obvious privacy and safety implications. If you have public data that has somehow ended up in the LLM training dataset, then this can be reconstructed by prompt engineering the model.
 
@@ -203,9 +203,9 @@ Researchers have shown that even when language models appear to be working norma
 
 <iframe src="https://www.youtube-nocookie.com/embed/WwbukAcMM4k" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-*Video 2.2: By tampering with a pre trained model's weights, an attacker can fully compromise the privacy of the finetuning data ([Feng & Florian Tramèr, 2024](https://arxiv.org/abs/2404.00473)). This has implications both for data privacy, but also for undoing fine-tuning based alignment techniques.*{++{"author":"Luc's AI","timestamp":1787319589292}@@
+*Video 2.2: By tampering with a pre trained model's weights, an attacker can fully compromise the privacy of the finetuning data ([Feng & Florian Tramèr, 2024](https://arxiv.org/abs/2404.00473)). This has implications both for data privacy, but also for undoing fine-tuning based alignment techniques.*
 
-:::++}
+:::
 
 **One of the most promising approaches to defending against adversarial attacks is adversarial training - deliberately exposing AI systems to adversarial examples during training to make them more robust.** Think of it like building immunity through controlled exposure. However, this approach creates its own challenges. While adversarial training can make systems more robust against known types of attacks, it often comes at the cost of reduced performance on normal inputs. More concerning, researchers have found that making systems robust against one type of attack can sometimes make them more vulnerable to others ([Zhao et al., 2024](https://arxiv.org/abs/2410.15042)). This suggests we may face fundamental trade-offs between different types of robustness and performance. There might even be potential fundamental limitations to how much we can mitigate these issues if we continue with the current training paradigms that we talked about in the capabilities chapter (pre-training followed by instruction tuning) ([Bansal et al., 2022](https://arxiv.org/abs/2210.15230)).
 
