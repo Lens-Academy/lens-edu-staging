@@ -1336,7 +1336,7 @@ I think I might finally have a descriptive picture of a piece of our shocking fu
 
 ## Part 5: The Wizard Era
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-5.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-5.png)
+{--{"author":"Luc's AI","timestamp":1787306371888}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-5.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-5.png)--}{++{"author":"Luc's AI","timestamp":1787306371888}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-5.png)++}
 
 The budding industry of brain-machine interfaces is the seed of a revolution that will change just about everything. But in many ways, the brain-interface future isn’t really a new _thing_ that’s happening. If you take a step back, it looks more like the next big chapter in a trend that’s been going on for a long time. Language took forever to turn into writing, which then took forever to turn into printing, and that’s where things were when George Washington was around. Then came electricity and the pace picked up. Telephone. Radio. Television. Computers. And just like that, everyone’s homes became magical. Then phones became cordless. Then mobile. Computers went from being devices for work and games to windows into a digital world we all became a part of. Then phones and computers merged into an everything device that brought the magic out of our homes and put it into our hands. And on our wrists. We’re now in the early stages of a virtual and augmented reality revolution that will wrap the magic around our eyes and ears and bring our whole being into the digital world.
 
@@ -1370,15 +1370,15 @@ This is a hard point to really absorb, because we don’t _feel_ like cyborgs. W
 
 Before language, there wasn’t a good way to get a thought from your brain into my brain. Then early humans invented the technology of language, transforming vocal cords and ears into the world’s first communication devices and air as the first communication medium. We use these devices every time we talk to each other in person. It goes:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-1.png)
+{--{"author":"Luc's AI","timestamp":1787306372166}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-1.png)--}{++{"author":"Luc's AI","timestamp":1787306372166}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-1.png)++}
 
 Then we built upon that with another leap, inventing a second layer of devices, with its own medium, allowing us to talk long distance:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-2.png)
+{--{"author":"Luc's AI","timestamp":1787306372470}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-2.png)--}{++{"author":"Luc's AI","timestamp":1787306372470}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-2.png)++}
 
 Or maybe:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-3.png)
+{--{"author":"Luc's AI","timestamp":1787306372805}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-3.png)--}{++{"author":"Luc's AI","timestamp":1787306372805}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-3.png)++}
 
 In that sense, your phone is as much “you” as your vocal cords or your ears or your eyes. All of these things are simply tools to move thoughts from brain to brain—so who cares if the tool is held in your hand, your throat, or your eye sockets? The digital age has made us a dual entity—a physical creature who interacts with its physical environment using its biological parts and a digital creature whose digital devices—whose digital _parts_ —allow it to interact with the digital world.
 
@@ -1392,11 +1392,11 @@ In other words, putting our technology into our brains isn’t about whether it�
 
 A whole-brain interface is that upgrade. It changes us from creatures whose primary and secondary layers live inside their heads and whose tertiary layer lives in their pocket, in their hand, or on their desk—
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-using-computer-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-using-computer-1.png)
+{--{"author":"Luc's AI","timestamp":1787306373083}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-using-computer-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-using-computer-1.png)--}{++{"author":"Luc's AI","timestamp":1787306373083}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-using-computer-1.png)++}
 
 —to creatures whose three layers all live together.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-brain-using-computer.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-brain-using-computer.jpg)
+{--{"author":"Luc's AI","timestamp":1787306373399}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-brain-using-computer.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-brain-using-computer.jpg)--}{++{"author":"Luc's AI","timestamp":1787306373399}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-brain-using-computer.jpg)++}
 
 Your life is full of devices, including the one you’re currently using to read this. A wizard hat makes your _brain_ into the device, allowing your thoughts to go straight from your head into the digital world.
 
@@ -1408,39 +1408,39 @@ Right now humans communicate with each other like this:
 
 [![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-3.png)
+{--{"author":"Luc's AI","timestamp":1787306373803}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-3.png)--}{++{"author":"Luc's AI","timestamp":1787306373803}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-3.png)++}
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-4.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-4.jpg)
+{--{"author":"Luc's AI","timestamp":1787306374104}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-4.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-4.jpg)--}{++{"author":"Luc's AI","timestamp":1787306374104}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-4.jpg)++}
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-5.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-5.png)
+{--{"author":"Luc's AI","timestamp":1787306374392}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-5.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-5.png)--}{++{"author":"Luc's AI","timestamp":1787306374392}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-5.png)++}
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-6.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-6.jpg)
+{--{"author":"Luc's AI","timestamp":1787306374686}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-6.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-6.jpg)--}{++{"author":"Luc's AI","timestamp":1787306374686}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-6.jpg)++}
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-7.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-7.png)
+{--{"author":"Luc's AI","timestamp":1787306374974}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-7.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-7.png)--}{++{"author":"Luc's AI","timestamp":1787306374974}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-7.png)++}
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-8-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-8-1.png)
+{--{"author":"Luc's AI","timestamp":1787306375273}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-8-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-8-1.png)--}{++{"author":"Luc's AI","timestamp":1787306375273}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-8-1.png)++}
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-9.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-9.png)
+{--{"author":"Luc's AI","timestamp":1787306375567}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-9.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-9.png)--}{++{"author":"Luc's AI","timestamp":1787306375567}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-9.png)++}
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-10-1.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-10-1.jpg)
+{--{"author":"Luc's AI","timestamp":1787306375867}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-10-1.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-10-1.jpg)--}{++{"author":"Luc's AI","timestamp":1787306375867}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-10-1.jpg)++}
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-11-1.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-11-1.jpg)
+{--{"author":"Luc's AI","timestamp":1787306376166}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-11-1.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-11-1.jpg)--}{++{"author":"Luc's AI","timestamp":1787306376166}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-11-1.jpg)++}
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-12.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-12.jpg)
+{--{"author":"Luc's AI","timestamp":1787306376445}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-12.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-12.jpg)--}{++{"author":"Luc's AI","timestamp":1787306376445}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-12.jpg)++}
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-14.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-14.png)
+{--{"author":"Luc's AI","timestamp":1787306376770}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-14.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-14.png)--}{++{"author":"Luc's AI","timestamp":1787306376770}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-14.png)++}
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-15.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-15.png)
+{--{"author":"Luc's AI","timestamp":1787306377083}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-15.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-15.png)--}{++{"author":"Luc's AI","timestamp":1787306377083}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-15.png)++}
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-16.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-16.png)
+{--{"author":"Luc's AI","timestamp":1787306377390}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-16.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-16.png)--}{++{"author":"Luc's AI","timestamp":1787306377390}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-16.png)++}
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-17.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-17.jpg)
+{--{"author":"Luc's AI","timestamp":1787306377714}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-17.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-17.jpg)--}{++{"author":"Luc's AI","timestamp":1787306377714}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-17.jpg)++}
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-18.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-18.jpg)
+{--{"author":"Luc's AI","timestamp":1787306378014}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-18.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-18.jpg)--}{++{"author":"Luc's AI","timestamp":1787306378014}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-18.jpg)++}
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-19.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-19.png)
+{--{"author":"Luc's AI","timestamp":1787306378302}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-19.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-19.png)--}{++{"author":"Luc's AI","timestamp":1787306378302}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-19.png)++}
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-20-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-20-2.png)
+{--{"author":"Luc's AI","timestamp":1787306378614}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-20-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-20-2.png)--}{++{"author":"Luc's AI","timestamp":1787306378614}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-20-2.png)++}
 
 And that’s how it’s been ever since we could communicate. But in a wizard hat world, it would look more like this:
 
@@ -1448,11 +1448,11 @@ And that’s how it’s been ever since we could communicate. But in a wizard ha
 
 [![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-22.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-22.jpg)
+{--{"author":"Luc's AI","timestamp":1787306379047}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-22.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-22.jpg)--}{++{"author":"Luc's AI","timestamp":1787306379047}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-22.jpg)++}
 
 Elon always emphasizes bandwidth when he talks about Neuralink’s wizard hat goals. Interface bandwidth allows incoming images to be HD, incoming sound to be hi-fi, and motor movement commands to be tightly controlled—but it’s also a huge factor in communication. If information were a milkshake, bandwidth would be the width of the straw. Today, the bandwidth-of-communication graph looks something like this:
 
-**[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Speed-GRAPH-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Speed-GRAPH-1.png)**
+**{--{"author":"Luc's AI","timestamp":1787306379360}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Speed-GRAPH-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Speed-GRAPH-1.png)--}{++{"author":"Luc's AI","timestamp":1787306379360}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Speed-GRAPH-1.png)++}**
 
 So computers can suck up the milkshake through a giant pipe, a human thinking would be using a large, pleasant-to-use straw, while language would be a frustratingly tiny coffee stirrer straw and typing (let alone texting) would be like trying to drink a milkshake through a syringe needle—you might be able to get a drop out once a minute.
 
@@ -1464,15 +1464,15 @@ You can see here on Moran’s graph that the disparity in bandwidth between the 
 
 But making our brains the device cuts out those tiny straws, turning all of these:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-ALL.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-ALL.png)
+{--{"author":"Luc's AI","timestamp":1787306379637}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-ALL.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-ALL.png)--}{++{"author":"Luc's AI","timestamp":1787306379637}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-ALL.png)++}
 
 To this:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-Condensed.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-Condensed.png)
+{--{"author":"Luc's AI","timestamp":1787306380120}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-Condensed.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-Condensed.png)--}{++{"author":"Luc's AI","timestamp":1787306380120}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-Condensed.png)++}
 
 Which preserves all the meaning with none of the fuss—and changes the graph to this:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Speed-GRAPH-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Speed-GRAPH-2.png)
+{--{"author":"Luc's AI","timestamp":1787306380385}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Speed-GRAPH-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Speed-GRAPH-2.png)--}{++{"author":"Luc's AI","timestamp":1787306380385}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Speed-GRAPH-2.png)++}
 
 We’d still be using straws, but _far_ bigger, more effective ones.
 
@@ -1486,19 +1486,19 @@ We do the best we can with these limitations—and over time, we’ve supplement
 
 Thinking about the phenomenon of communication as what it is—brains trying to share things with each other—you see the history of communication not as this:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-1.png)
+{--{"author":"Luc's AI","timestamp":1787306380693}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-1.png)--}{++{"author":"Luc's AI","timestamp":1787306380693}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-1.png)++}
 
 As much as this:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-2.png)
+{--{"author":"Luc's AI","timestamp":1787306381039}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-2.png)--}{++{"author":"Luc's AI","timestamp":1787306381039}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-2.png)++}
 
 Or it could be put this way:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-3.png)
+{--{"author":"Luc's AI","timestamp":1787306381322}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-3.png)--}{++{"author":"Luc's AI","timestamp":1787306381322}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-3.png)++}
 
 It really may be that the second major era of communication—the 100,000-year Era of Indirect Communication—is in its very last moments. If we zoom out on the timeline, it’s possible the entire last 150 years, during which we’ve suddenly been _rapidly_ improving our communication media, will look to far-future humans like one concept: the transition from Era 2 to Era 3. We might be living _on_ the line that divides timeline sections.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communications-hacks-timeline.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communications-hacks-timeline.png)
+{--{"author":"Luc's AI","timestamp":1787306381599}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communications-hacks-timeline.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communications-hacks-timeline.png)--}{++{"author":"Luc's AI","timestamp":1787306381599}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communications-hacks-timeline.png)++}
 
 And because indirect communication requires third-party body parts or digital parts, the end of Era 2 may be looked back upon as the era of physical devices. In an era where your brain is the device, there will be no need to carry anything around. You’ll have your body and, if you want, clothes—and that’s it.
 
@@ -1528,7 +1528,7 @@ In Alzheimer’s patients, memories themselves are often not lost—only the bri
 
 While this is happening, BMIs will begin to emerge that people _without_ disabilities want. The very early adopters will probably be pretty rich. But so were the early cell phone adopters.[^cite-urban-source-52]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/gordon-gekko-RS.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/gordon-gekko-RS.jpg)
+{--{"author":"Luc's AI","timestamp":1787306381873}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/gordon-gekko-RS.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/gordon-gekko-RS.jpg)--}{++{"author":"Luc's AI","timestamp":1787306381873}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/gordon-gekko-RS.jpg)++}
 
 That’s Gordon Gekko, and that 1983, two-pound cell phone cost almost [$9,000](http://www.slate.com/blogs/browbeat/2010/09/23/gordon_gekko_s_cell_phone.html) in today’s dollars. And now over half of living humans own a mobile phone—all of them far less shitty than Gordon Gekko’s.
 
@@ -1542,7 +1542,7 @@ Looking at all the predictions I heard, they seemed to fall into two broad categ
 
 **The Wizard Era: Communication**
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Wizard-Communication-Heading.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Wizard-Communication-Heading.png)
+{--{"author":"Luc's AI","timestamp":1787306382173}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Wizard-Communication-Heading.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Wizard-Communication-Heading.png)--}{++{"author":"Luc's AI","timestamp":1787306382173}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Wizard-Communication-Heading.png)++}
 
 **Motor communication**
 
@@ -1568,11 +1568,11 @@ That’s the thing—it’s difficult to really understand what it would be like
 
 Even weirder is the concept of a _group_ thinking together. This is what a group brainstorm could look like in the Wizard Era.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-1.png)
+{--{"author":"Luc's AI","timestamp":1787306382447}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-1.png)--}{++{"author":"Luc's AI","timestamp":1787306382447}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-1.png)++}
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-2.png) [![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-3.png) [![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-4.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-4.png) [![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-5.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-5.png) [![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-6-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-6-1.png)
+{--{"author":"Luc's AI","timestamp":1787306382742}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-2.png)--}{++{"author":"Luc's AI","timestamp":1787306382742}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-2.png)++} {--{"author":"Luc's AI","timestamp":1787306383046}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-3.png)--}{++{"author":"Luc's AI","timestamp":1787306383046}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-3.png)++} {--{"author":"Luc's AI","timestamp":1787306383340}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-4.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-4.png)--}{++{"author":"Luc's AI","timestamp":1787306383340}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-4.png)++} {--{"author":"Luc's AI","timestamp":1787306383639}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-5.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-5.png)--}{++{"author":"Luc's AI","timestamp":1787306383639}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-5.png)++} {--{"author":"Luc's AI","timestamp":1787306383942}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-6-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-6-1.png)--}{++{"author":"Luc's AI","timestamp":1787306383942}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-6-1.png)++}
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Thinking-brainstorm-7.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Thinking-brainstorm-7.png)
+{--{"author":"Luc's AI","timestamp":1787306384226}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Thinking-brainstorm-7.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Thinking-brainstorm-7.png)--}{++{"author":"Luc's AI","timestamp":1787306384226}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Thinking-brainstorm-7.png)++}
 
 And of course, they wouldn’t need to be in the same room. This group could have been in four different countries while this was happening—with no external devices in sight.
 
@@ -1642,7 +1642,7 @@ I could go on. The communication possibilities in a wizard hat world, especially
 
 **The Wizard Era: Internal Control**
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Wizard-Tinkering-Heading.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Wizard-Tinkering-Heading.png)
+{--{"author":"Luc's AI","timestamp":1787306384539}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Wizard-Tinkering-Heading.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Wizard-Tinkering-Heading.png)--}{++{"author":"Luc's AI","timestamp":1787306384539}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Wizard-Tinkering-Heading.png)++}
 
 Communication—the flow of information into and out of your brain—is only one way your wizard hat will be able to serve you.
 
@@ -1756,13 +1756,13 @@ A lot of people working on this challenge have a lot of different motivations fo
 
 Elon’s urgency to get us into the Wizard Era is the final piece of the Neuralink puzzle. Our last box to fill in:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_04.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_04.png)
+{--{"author":"Luc's AI","timestamp":1787306384848}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_04.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_04.png)--}{++{"author":"Luc's AI","timestamp":1787306384848}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_04.png)++}
 
 With Elon’s companies, there’s always some “result of the goal” that’s his real reason for starting the company—the piece that ties the company’s goal into humanity’s better future. In the case of Neuralink, it’s a piece that takes a lot of tree climbing to understand. But with the view from all the way up here, we’ve got everything we need for our final stretch of the road.
 
 ## Part 6: The Great Merger
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-6.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-6.png)
+{--{"author":"Luc's AI","timestamp":1787306385156}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-6.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-6.png)--}{++{"author":"Luc's AI","timestamp":1787306385156}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-6.png)++}
 
 Imagine an alien explorer is visiting a new star and finds three planets circling it, all with life on them. The first happens to be identical to the way Earth was in 10 million BC. The second happens to be identical to Earth in 50,000 BC. And the third happens to be identical to Earth in 2017 AD.
 
@@ -1780,7 +1780,7 @@ In fact, it’s the first planet that’s the odd one out. Both the second and t
 
 And yet, how could that be?
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Exoplanets.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Exoplanets.png)
+{--{"author":"Luc's AI","timestamp":1787306385460}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Exoplanets.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Exoplanets.png)--}{++{"author":"Luc's AI","timestamp":1787306385460}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Exoplanets.png)++}
 
 The Human Colossus. That’s how.
 
@@ -1802,7 +1802,7 @@ The Human Colossus has reached an entirely new level of power—the kind of powe
 
 I hope you enjoyed Planet 3, because we’re leaving it. Planet 4 is where we’re headed, whether we like it or not.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Exoplanet-4.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Exoplanet-4.png)
+{--{"author":"Luc's AI","timestamp":1787306385722}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Exoplanet-4.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Exoplanet-4.png)--}{++{"author":"Luc's AI","timestamp":1787306385722}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Exoplanet-4.png)++}
 
 \_\_\_\_\_\_\_\_\_\_
 
@@ -1856,7 +1856,7 @@ _I was trying to really sound the alarm on the AI front for quite a while, but i
 
 He’s accepted reality—the Human Colossus is not going to quit until the Computer Colossus, one day, wakes up. This is happening.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Computer-Colossus-tinker.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Computer-Colossus-tinker.png)
+{--{"author":"Luc's AI","timestamp":1787306386030}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Computer-Colossus-tinker.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Computer-Colossus-tinker.png)--}{++{"author":"Luc's AI","timestamp":1787306386030}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Computer-Colossus-tinker.png)++}
 
 No matter what anyone tells you, no one knows what will happen when the Computer Colossus learns to think. In my [long AI explainer](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html), I explored the reasoning of both those who are convinced that superintelligent AI will be the solution to every problem we have, and those who see humanity as a bunch of kids playing with a bomb they don’t understand. I’m personally still torn about which camp I find more convincing, but it seems pretty rational to plan for the worst and do whatever we can to increase our odds. Many experts agree with that logic, but there’s little consensus on the best strategy for creating superintelligent AI safely—just a whole lot of ideas from people who acknowledge they don’t really know the answer. How could anyone know how to take precautions for a future world they have no way to understand?
 
@@ -1948,7 +1948,7 @@ Remember before when I said that there were two things about wizard hats we had 
 
 This is where #2 comes in.
 
-These two ideas are the two things Elon means when he refers to the wizard hat as a digital tertiary layer in our brains. The first, as we discussed, is the concept that a whole-brain interface is kind of the same thing as putting our devices in our heads—effectively making your _brain_ the device. Like this: [![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-brain-using-computer-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-brain-using-computer-2.png)
+These two ideas are the two things Elon means when he refers to the wizard hat as a digital tertiary layer in our brains. The first, as we discussed, is the concept that a whole-brain interface is kind of the same thing as putting our devices in our heads—effectively making your _brain_ the device. Like this: {--{"author":"Luc's AI","timestamp":1787306386305}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-brain-using-computer-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-brain-using-computer-2.png)--}{++{"author":"Luc's AI","timestamp":1787306386305}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-brain-using-computer-2.png)++}
 
 Your devices give you cyborg superpowers and a window into the digital world. Your brain’s wizard hat electrode array is a new brain structure, joining your limbic system and cortex.
 
@@ -2006,11 +2006,11 @@ _Yes, but increasing bandwidth by orders of magnitude would make it better. And 
 
 And that’s why Elon started Neuralink.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-5-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-5-1.png)
+{--{"author":"Luc's AI","timestamp":1787306386584}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-5-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-5-1.png)--}{++{"author":"Luc's AI","timestamp":1787306386584}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-5-1.png)++}
 
 He started Neuralink to accelerate our pace into the Wizard Era—into a world where he says that “everyone who wants to have this AI extension of themselves could have one, so there would be billions of individual human-AI symbiotes who, collectively, make decisions about the future.” A world where AI really could be of the people, by the people, for the people.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-Colossus-with-hat-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-Colossus-with-hat-1.png)
+{--{"author":"Luc's AI","timestamp":1787306386884}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-Colossus-with-hat-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-Colossus-with-hat-1.png)--}{++{"author":"Luc's AI","timestamp":1787306386884}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-Colossus-with-hat-1.png)++}
 
 \_\_\_\_\_\_\_\_\_\_\_
 
