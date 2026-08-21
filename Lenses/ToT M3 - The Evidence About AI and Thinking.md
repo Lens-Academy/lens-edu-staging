@@ -13,7 +13,7 @@ content::
 Read the short background first. Then read each study summary inline as you reach it. Every boxed excerpt expands to more of the real paper, and every study links to its source at the end of the unit. The first and longest reading is the legal study: real evidence on how early, engaged AI use changed law students' independent reasoning.
 
 \## Background: the chain, the compounding, and the reported findings
-Unit 2 showed how a single delegated judgement can quietly erode metacognition. This unit asks whether that effect scales. This lens zooms in one level: what happens to individual thinking as AI does more of it?
+Unit 2 showed how single delegated judgements can quietly erode metacognition. This unit asks whether that effect scales. This lens zooms in one level: what happens to individual thinking as AI does more of it?
 
 Here is the causal chain, stated honestly as a chain of possibilities.
 - Small delegations lead to less practice at metacognition.
