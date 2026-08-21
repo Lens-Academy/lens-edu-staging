@@ -130,7 +130,7 @@ For safety purposes, capability and deployment autonomy should be considered sep
 
 The next sections of this chapter, look at why capabilities and generality have been improving rapidly in the recent years (Scaling), and what we can say about where they might be headed (Forecasting and Takeoff). Thinking about AI progress in this continuous way will help throughout this book when we discuss risks and mitigation strategies. Certain capability combinations might enable dangerous emergent behaviors even before reaching "human-level" on most tasks. Similarly governance frameworks, and  clear policy communication depend on precise measurement to trigger appropriate responses. The rate of improvement along either axis provides important signals about which risks are most pressing, and which safety mitigations need to be developed.
 
-**Counter Argument: Arbitrary thresholds aggregated and framed as a misleading percentage**
+{--{"author":"Luc's AI","timestamp":1787319548339}@@**Counter--}{++{"author":"Luc's AI","timestamp":1787319548339}@@:::callout {title="Counter++} Argument: Arbitrary thresholds aggregated and framed as a misleading {--{"author":"Luc's AI","timestamp":1787319548339}@@percentage**--}{++{"author":"Luc's AI","timestamp":1787319548339}@@percentage — Optional · 1 min read" tone="neutral" collapse="closed"}++}
 
 This framework enables concrete measurement, critics note that human psychometric taxonomies like CHC may miss capabilities universal in humans but lacking in AI, and that percentage scores can misleadingly suggest linear progress toward AGI.Counter arguments note that benchmark scores do not align with general perception. Generally if you let an LLM (even with extended thinking or tools), perform a task you would expect an educated human adult to complete, they tend to disappoint. An LLM scoring 90% on a Raven’s progressive matrices test is not comparable to a human scoring 90%. This matters because AI systems could fall short of “100% AGI” despite already having all the capabilities of an educated human adult.
 
@@ -139,9 +139,11 @@ Some examples of limitations include ([Pacchiardi  et al., 2025](https://aievalu
 1. **Coverage bias:** CHC derives from human interindividual differences, potentially omitting capabilities universal in humans (e.g., robust object permanence) that AI might lack;
 2. **Arbitrary thresholds:** Human percentile cutoffs (e.g., 85th) may not translate to machines;
 3. **Non-linear progress:** Percentage scores (e.g., "57% AGI") misleadingly imply linear progress when final capabilities may represent disproportionately difficult bottlenecks; and
-4. **Species-specific risk:** Non-human-like AI profiles may pose transformative risks despite low scores on human-centric tests. These critiques suggest interpreting percentage scores cautiously, focusing on specific capability gaps rather than aggregate progress.
+4. **Species-specific risk:** Non-human-like AI profiles may pose transformative risks despite low scores on human-centric tests. These critiques suggest interpreting percentage scores cautiously, focusing on specific capability gaps rather than aggregate progress.{++{"author":"Luc's AI","timestamp":1787319549116}@@
 
-**The (t,n)-AGI Framework: An Alternative way of defining AGI**
+:::++}
+
+{--{"author":"Luc's AI","timestamp":1787319549573}@@**The--}{++{"author":"Luc's AI","timestamp":1787319549573}@@:::callout {title="The++} (t,n)-AGI Framework: An Alternative way of defining {--{"author":"Luc's AI","timestamp":1787319549573}@@AGI**--}{++{"author":"Luc's AI","timestamp":1787319549573}@@AGI — Optional · 2 min read" tone="neutral" collapse="closed"}++}
 
 **AGI can also be defined through a combination of time and scale - can AI match ‘n’ experts working together for time ‘t’.** This is an alternative way to think about defining AGI. Given a time frame ‘t’ to complete some cognitive task, if an AI system can outperform a human expert who is also given the time frame ‘t’ to perform the same task, then the AI system is called t-AGI for that timeframe ‘t’. If a system can outperform ‘n’ human experts working on the task for timeframe ‘t’, then we call it a (t,n)-AGI for the specific time duration ‘t’, and number of experts ‘n’. The (t,n)-AGI framework does not account for how many copies of the AI run simultaneously.
 
@@ -153,7 +155,9 @@ Researchers at METR operationalized this by measuring task completion time horiz
 
 *Figure 1.32: The image shows a result from METR which measured the task length horizon on specific software engineering tasks ([Kwa et al., 2025](https://arxiv.org/abs/2503.14499)).*
 
-Task time horizon limitations are implicitly captured in our generality measure as weaknesses in specific cognitive tasks like long-term memory storage and retrieval. Systems scoring poorly on memory naturally fail on multi-day projects requiring sustained context. Current transformer-based architectures specifically struggle with limited context windows.
+Task time horizon limitations are implicitly captured in our generality measure as weaknesses in specific cognitive tasks like long-term memory storage and retrieval. Systems scoring poorly on memory naturally fail on multi-day projects requiring sustained context. Current transformer-based architectures specifically struggle with limited context windows.{++{"author":"Luc's AI","timestamp":1787319550012}@@
+
+:::++}
 
 [^note-atlas-3]:  We measure qualities like “sitational-awareness” in our chapters on risks, and evaluations using specific benchmarks. So we capture a model of the self and future planning, while distinguishing these aspects from conversations about consciousness.
 

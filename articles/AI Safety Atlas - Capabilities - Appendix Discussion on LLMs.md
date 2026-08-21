@@ -149,9 +149,11 @@ Following are some reasons to believe that labs will continue to scale LLMs.
 
 **From simple correlations to understanding.** During a training run, GPTs go from basic correlations to deeper and deeper understanding. Initially, the model merely establishes connections between successive words. Gradually, it develops an understanding of grammar and semantics, creating links between sentences and subsequently between paragraphs. Eventually, GPT masters the nuances of writing style.
 
-**Exercise: Scaling Laws on LLM implies further qualitative improvements**
+{--{"author":"Luc's AI","timestamp":1787319548005}@@**Exercise:--}{++{"author":"Luc's AI","timestamp":1787319548005}@@:::callout {title="Exercise:++} Scaling Laws on LLM implies further qualitative {--{"author":"Luc's AI","timestamp":1787319548005}@@improvements**--}{++{"author":"Luc's AI","timestamp":1787319548005}@@improvements — Optional · 1 min read" tone="neutral" collapse="closed"}++}
 
-Let's calculate the difference in loss, measured in bits, between two model outputs: "Janelle ate some ice cream because he likes sweet things like ice cream." and "Janelle ate some ice cream because she likes sweet things like ice cream." The sentence contains approximately twenty tokens. If the model vacillates between "He" or "She," choosing randomly (50/50 odds), it incurs a loss of 2 bits on the pronoun token when incorrect. The loss for other tokens remains the same in both models. However, since the model is only incorrect half the time, a factor of 1/2 should be applied. This results in a difference of (1/2) * (2/20) = 1/20, or 0.05 bits. Thus, a model within 0.05 bits of the minimal theoretical loss should be capable of understanding even more nuanced concepts than the one discussed above.
+Let's calculate the difference in loss, measured in bits, between two model outputs: "Janelle ate some ice cream because he likes sweet things like ice cream." and "Janelle ate some ice cream because she likes sweet things like ice cream." The sentence contains approximately twenty tokens. If the model vacillates between "He" or "She," choosing randomly (50/50 odds), it incurs a loss of 2 bits on the pronoun token when incorrect. The loss for other tokens remains the same in both models. However, since the model is only incorrect half the time, a factor of 1/2 should be applied. This results in a difference of (1/2) * (2/20) = 1/20, or 0.05 bits. Thus, a model within 0.05 bits of the minimal theoretical loss should be capable of understanding even more nuanced concepts than the one discussed above.{++{"author":"Luc's AI","timestamp":1787319548903}@@
+
+:::++}
 
 **Text completion is probably an AI-complete test** ([Wikipedia, 2022](https://en.wikipedia.org/wiki/AI-complete)).
 
