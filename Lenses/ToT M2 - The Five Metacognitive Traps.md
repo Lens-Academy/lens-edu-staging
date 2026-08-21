@@ -11,7 +11,7 @@ tags:
 #### Text
 content::
 
-Metacognition is thinking about how you think: planning, checking your own reasoning, knowing what you actually understand. When that oversight fails, you can go wrong in ways you do not notice at the time. Researchers call these **metacognitive traps** — repeatable patterns where your own monitoring of your thinking breaks down while you solve a problem.
+As we've learnt, met is thinking about how you think: planning, checking your own reasoning, knowing what you actually understand. When that oversight fails, you can go wrong in ways you do not notice at the time. Researchers call these **metacognitive traps** — repeatable patterns where your own monitoring of your thinking breaks down while you solve a problem.
 
 These five traps were first documented by Prather and colleagues (2018). They watched novice programmers solve a problem in a lab, with no AI tools involved, and recorded where the students' thinking went wrong. The traps are about learning itself, not about code, so they show up in any knowledge work: writing, analysis, planning, diagnosis. You do not need a machine to build the wrong model of a problem, or to feel finished when you are not.
 
