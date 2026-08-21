@@ -11,32 +11,55 @@ tags:
 content::
 **Metacognitive laziness** is the habit of letting the tool do the thinking that metacognition is meant to do. You stop deciding which tasks to hand off and which to keep, and the system entirely decides for you. The term comes from Fan, Tang & Le (2024), in research on generative AI and learning.
 
-You have already seen two things. **Metacognition** is the oversight that keeps your thinking honest. In the previous lens, **arbitrary offloading** was the sharpest break: you hand off a decision you cannot even evaluate, and the judgement leaves all at once.
+You have already {--{"author":"AI","timestamp":1787318680223}@@seen--}{++{"author":"AI","timestamp":1787318680223}@@met++} two {--{"author":"AI","timestamp":1787318680223}@@things.--}{++{"author":"AI","timestamp":1787318680223}@@related ideas.++} **Metacognition** is the oversight that keeps your thinking honest.{--{"author":"AI","timestamp":1787318680223}@@ In the previous lens, **arbitrary offloading** was--}{++{"author":"AI","timestamp":1787318680223}@@ **Arbitrary offloading** (the previous lens) is++} the sharpest break: you hand off {--{"author":"AI","timestamp":1787318680223}@@a--}{++{"author":"AI","timestamp":1787318680223}@@one++} decision you cannot even evaluate, and the judgement leaves all at once.{--{"author":"AI","timestamp":1787318680223}@@
 
-Metacognitive laziness is the quieter, broader version. The oversight does not vanish in one move; it leaks away as you let the system take more and more of the thinking.
+--}{++{"author":"AI","timestamp":1787318680223}@@ ++}Metacognitive laziness is the quieter, broader version. The oversight does not vanish in one {--{"author":"AI","timestamp":1787318680223}@@move; it--}{++{"author":"AI","timestamp":1787318680223}@@move. It++} leaks away as you let the system take more and more of the thinking.
 
-\## How arbitrary offloading feeds into metacognitive laziness
+\## {--{"author":"AI","timestamp":1787318680223}@@How arbitrary offloading feeds into metacognitive laziness--}{++{"author":"AI","timestamp":1787318680223}@@From one offload to a habit++}
 
-Arbitrary offloading is the sharp, single break: you hand off one decision you cannot evaluate, and follow it anyway. Metacognitive laziness is what that break becomes when it repeats.
+Arbitrary offloading is the{--{"author":"AI","timestamp":1787318680223}@@ sharp,--} single{--{"author":"AI","timestamp":1787318680223}@@ break: you hand off one decision you cannot evaluate, and follow it anyway. --}{++{"author":"AI","timestamp":1787318680223}@@ event. ++}Metacognitive laziness is {--{"author":"AI","timestamp":1787318680223}@@what that break becomes when it repeats.--}{++{"author":"AI","timestamp":1787318680223}@@the habit that event trains.++}
 
-Each time you offload a judgement you cannot check, you practise not overseeing your own thinking. The first time feels like a one-off shortcut. By the tenth time, you have stopped deciding what to keep and what to hand off, and the system is deciding for you. Arbitrary offloading is the event. Metacognitive laziness is the habit it trains.
+Each time you offload a judgement you cannot check, you practise not overseeing your own thinking. The first time feels like a one-off shortcut. By the tenth time, you have stopped deciding what to keep and what to hand off, and the system is deciding for you. {--{"author":"AI","timestamp":1787318680223}@@Arbitrary offloading is--}{++{"author":"AI","timestamp":1787318680223}@@The break becomes++} the {--{"author":"AI","timestamp":1787318680223}@@event. Metacognitive laziness is--}{++{"author":"AI","timestamp":1787318680223}@@habit.
 
-**A note on the word "laziness."** The design of AI platforms takes advantage of the human tendency to offload cognition, and the label hides that. It sounds like the problem is your character — that you are lazy, careless, or weak-willed. That framing is wrong. Offloading cognition to the world around us is a normal, well-documented human tendency (Risko & Gilbert, 2016): we write things down, we lean on calculators, we trust the map. What is new is not the tendency but the environment built to capture it. AI platforms are *designed* to exploit it — the defaults, the autocomplete, the confident suggestions that arrive before you have finished your own thought. The habit is real, but the cause is shared: a human tendency met by a system built to take advantage of it. "Metacognitive laziness" names the pattern; it does not assign the blame.
+\## Offloading a task versus handing over++} the {--{"author":"AI","timestamp":1787318680223}@@habit it trains.
 
-The calculator shows the difference. We offload the arithmetic to a calculator, but most of us still understand what a sum means. We could check the answer, and we know what would count as a weird result. The judgement stays ours. That is **offloading a task**. Metacognitive laziness is different: when solving a problem, you stop deciding which tasks to hand off and which to keep. Instead, the system decides for you. The judgement about what to think has moved out of your hands.
+**A note on--}{++{"author":"AI","timestamp":1787318680223}@@oversight
+
+The calculator shows the difference. We offload++} the {--{"author":"AI","timestamp":1787318680223}@@word "laziness."** The design--}{++{"author":"AI","timestamp":1787318680223}@@arithmetic to a calculator, but most++} of {--{"author":"AI","timestamp":1787318680223}@@AI platforms takes advantage of --}{++{"author":"AI","timestamp":1787318680223}@@us still understand what a sum means. We could check ++}the {--{"author":"AI","timestamp":1787318680223}@@human tendency--}{++{"author":"AI","timestamp":1787318680223}@@answer, and we know what would count as a weird result. The judgement stays ours. That is **offloading a task**.
+
+Metacognitive laziness is different. When you solve a problem, you stop deciding which tasks++} to {--{"author":"AI","timestamp":1787318680223}@@offload cognition,--}{++{"author":"AI","timestamp":1787318680223}@@hand off++} and {++{"author":"AI","timestamp":1787318680223}@@which to keep. Instead, ++}the {++{"author":"AI","timestamp":1787318680223}@@system decides for you. The judgement about what to think has moved out of your hands.
+
+\## The "laziness" ++}label {--{"author":"AI","timestamp":1787318680223}@@hides that. It--}{++{"author":"AI","timestamp":1787318680223}@@misassigns the blame
+
+The word "laziness"++} sounds like the problem is your character — that you are lazy, careless, or weak-willed. That framing is wrong.{--{"author":"AI","timestamp":1787318680223}@@ --}{++{"author":"AI","timestamp":1787318680223}@@
+
+++}Offloading cognition to the world around us is a normal, well-documented human tendency (Risko & Gilbert, 2016): we write things down, we lean on calculators, we trust the map. What is new is not the tendency but the environment built to capture it. AI platforms are *designed* to exploit it — the defaults, the autocomplete, the confident suggestions that arrive before you have finished your own thought. The habit is real, but the cause is shared: a human tendency met by a system built to take advantage of it. "Metacognitive laziness" names the pattern; it does not assign the blame.
+
+{--{"author":"AI","timestamp":1787318680223}@@The calculator shows--}{++{"author":"AI","timestamp":1787318680223}@@One researcher states++} the {--{"author":"AI","timestamp":1787318680223}@@difference. We offload the arithmetic to a calculator, but most --}{++{"author":"AI","timestamp":1787318680223}@@design point plainly:
+
+#### Article
+source:: [[../articles/brademann-arbitrary-cognitive-offloading-genai]]
+from:: "Overerstimations ++}of{--{"author":"AI","timestamp":1787318680223}@@ us still understand what a sum means. We could check the answer, and we know what would count as a weird result. The judgement stays ours. That is **offloading a task**. Metacognitive laziness--}{++{"author":"AI","timestamp":1787318680223}@@ gained competence are not exclusive to GenAI but span across digital learning where ease of use++} is {--{"author":"AI","timestamp":1787318680223}@@different: when solving a problem, you stop deciding which tasks to hand off and which to keep. Instead, the system decides --}{++{"author":"AI","timestamp":1787318680223}@@confused with depth of learning."
+to:: "These findings are evidence ++}for {--{"author":"AI","timestamp":1787318680223}@@you. The judgement about what to think has moved out of your hands.--}{++{"author":"AI","timestamp":1787318680223}@@GenAI promoting metacognitive laziness."
+
+#### Text
+content::
+\## Why LLMs push us there++}
 
 LLMs push us toward this without us noticing. When you ask an AI to "break this difficult problem down for me", you are not offloading a narrow computation. You are delegating how to plan, what to notice, and what to treat as important: a large part of the thinking. If you also let the AI decide which problems to hand it in the first place, the oversight of your own thinking has moved out of your hands.
 
-A fair counterpoint: is this really so bad? Maybe we learn the same things in different ways when a tool guides us. Maybe we learn different things instead, and some of those are worth learning. The honest answer is that nobody fully knows yet. That uncertainty is exactly what Unit 3 is about: what happens, and what the evidence shows, when judgement is offloaded again and again.
+{++{"author":"AI","timestamp":1787318680223}@@\## ++}A fair {--{"author":"AI","timestamp":1787318680223}@@counterpoint: is--}{++{"author":"AI","timestamp":1787318680223}@@counterpoint
 
-The next lens collects five metacognitive traps your own thinking can fall into — ways oversight breaks that long predate AI.
+Is++} this really so bad? Maybe we learn the same things in different ways when a tool guides us. Maybe we learn different things instead, and some of those are worth learning. The honest answer is that nobody fully knows yet. That uncertainty is exactly what Unit 3 is about: what happens, and what the evidence shows, when judgement is offloaded again and again.
+
+The next lens collects five metacognitive traps your own thinking can fall into — ways oversight breaks that long predate AI.{--{"author":"AI","timestamp":1787318680223}@@
 
 Here is how one researcher puts the design point: GenAI's ease of use is not neutral. It actively makes metacognitive laziness more likely.
 
 #### Article
 source:: [[../articles/brademann-arbitrary-cognitive-offloading-genai]]
 from:: "Overerstimations of gained competence are not exclusive to GenAI but span across digital learning where ease of use is confused with depth of learning."
-to:: "These findings are evidence for GenAI promoting metacognitive laziness."
+to:: "These findings are evidence for GenAI promoting metacognitive laziness."--}
 
 {--{"author":"AI","timestamp":1787313079880}@@---
 
