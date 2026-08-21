@@ -349,15 +349,15 @@ That’s the section of our brain cross section above that the frog boss resides
 
 When you understand the function of these parts, the fact that they’re ancient makes sense—everything these parts do, frogs and lizards can do. These are the major sections (click any of these spinning images to see a high-res version):
 
-**The** **medulla oblongata** {--{"author":"Luc's AI","timestamp":1787306525324}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Medulla_oblongata_small.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/Medulla_oblongata-1.gif)--}{++{"author":"Luc's AI","timestamp":1787306525324}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Medulla_oblongata-1.gif)++}
+**The** **medulla oblongata** ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Medulla_oblongata-1.gif)
 
 The medulla oblongata really just wants you to not die. It does the thankless tasks of controlling involuntary things like your heart rate, breathing, and blood pressure, along with making you vomit when it thinks you’ve been poisoned.
 
-**The pons** {--{"author":"Luc's AI","timestamp":1787306525653}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Pons_small.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/Pons-1.gif)--}{++{"author":"Luc's AI","timestamp":1787306525653}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Pons-1.gif)++}
+**The pons** ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Pons-1.gif)
 
 The pons’s thing is that it does a little bit of this and a little bit of that. It deals with swallowing, bladder control, facial expressions, chewing, saliva, tears, and posture—really just whatever it’s in the mood for.
 
-**The midbrain** {--{"author":"Luc's AI","timestamp":1787306525979}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Midbrain_small.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/Midbrain.gif)--}{++{"author":"Luc's AI","timestamp":1787306525979}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Midbrain.gif)++}
+**The midbrain** ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Midbrain.gif)
 
 The midbrain is dealing with an even bigger identity crisis than the pons. You know a brain part is going through some shit when almost all its functions are already another brain part’s thing. In the case of the midbrain, it deals with vision, hearing, motor control, alertness, temperature control, and a bunch of other things that other people in the brain already do. The rest of the brain doesn’t seem very into the midbrain either, given that they created a ridiculously uneven “forebrain, midbrain, hindbrain” divide that intentionally isolates the midbrain all by itself while everyone else hangs out.[^cite-urban-source-12]
 
@@ -365,7 +365,7 @@ The midbrain is dealing with an even bigger identity crisis than the pons. You k
 
 One thing I’ll grant the pons and midbrain is that it’s the two of them that control your voluntary eye movement, which is a pretty legit job. So if right now you move your eyes around, that’s you doing something specifically with your pons and midbrain.[^note-urban-7]
 
-**The cerebellum** {--{"author":"Luc's AI","timestamp":1787306526316}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Cerebellum_animation_small.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/Cerebellum.gif)--}{++{"author":"Luc's AI","timestamp":1787306526316}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Cerebellum.gif)++}
+**The cerebellum** ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Cerebellum.gif)
 
 The odd-looking thing that looks like your brain’s scrotum is your cerebellum (Latin for “little brain”), which makes sure you stay a balanced, coordinated, and normal-moving person. [Here’s that rad professor again](https://www.youtube.com/watch?v=mrt0Gq0zS4g) showing you what a real cerebellum looks like.[^note-urban-8]
 
@@ -385,17 +385,17 @@ I’m pretty sure that gaining control over your limbic system is both the defin
 
 Anyway, let’s take a closer look at it. There are a lot of little parts of the limbic system, but we’ll keep it to the biggest celebrities:
 
-**The amygdala** {--{"author":"Luc's AI","timestamp":1787306526593}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Amygdala10.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Amygdala.gif)--}{++{"author":"Luc's AI","timestamp":1787306526593}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Amygdala.gif)++}
+**The amygdala** ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Amygdala.gif)
 
 The amygdala is kind of an emotional wreck of a brain structure. It deals with anxiety, sadness, and our responses to fear. There are two amygdalae, and oddly, the left one has been shown to be more balanced, sometimes producing happy feelings in addition to the usual angsty ones, while the right one is always in a bad mood.
 
-**The hippocampus** {--{"author":"Luc's AI","timestamp":1787306526867}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/large.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/Hippocampus.gif)--}{++{"author":"Luc's AI","timestamp":1787306526867}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Hippocampus.gif)++}
+**The hippocampus** ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Hippocampus.gif)
 
 Your hippocampus (Greek for “seahorse” because it [looks like one](https://en.wikipedia.org/wiki/Hippocampus#/media/File:Hippocampus_and_seahorse_cropped.JPG)) is like a scratch board for memory. When rats start to memorize directions in a maze, the memory gets encoded in their hippocampus—quite literally. Different parts of the rat’s two hippocampi will fire during different parts of the maze, since each section of the maze is stored in its own section of the hippocampus. But if after learning one maze, the rat is given other tasks and is brought back to the original maze a year later, it will have a hard time remembering it, because the hippocampus scratch board has been mostly wiped of the memory so as to free itself up for new memories.
 
 The condition in the movie _Memento_ is a real thing—anterograde amnesia—and it’s caused by damage to the hippocampus. Alzheimer’s also starts in the hippocampus before working its way through many parts of the brain, which is why, of the slew of devastating effects of the disease, diminished memory happens first.
 
-**The t** **halamus** {--{"author":"Luc's AI","timestamp":1787306527139}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/article_codev-2015-10-30-608d7118d8-Thalamus_small.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/Thalamus.gif)--}{++{"author":"Luc's AI","timestamp":1787306527139}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Thalamus.gif)++}
+**The t** **halamus** ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Thalamus.gif)
 
 In its central position in the brain, the thalamus also serves as a sensory middleman that receives information from your sensory organs and sends them to your cortex for processing. When you’re sleeping, the thalamus goes to sleep with you, which means the sensory middleman is off duty. That’s why in a deep sleep, some sound or light or touch often will not wake you up. If you want to wake someone up who’s in a deep sleep, you have to be aggressive enough to wake their thalamus up.
 
@@ -475,7 +475,7 @@ And remember before when I said that you were a jello ball? Well the _you_ you t
 
 The magic of the folds in increasing the napkin’s size is clear when we put another brain on top of our stripped-off cortex:
 
-{--{"author":"Luc's AI","timestamp":1787306626147}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-on-napkin.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-on-napkin.png)--}{++{"author":"Luc's AI","timestamp":1787306626147}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-on-napkin.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-on-napkin.png)
 
 So while it’s not perfect, modern science has a decent understanding of the big picture when it comes to the brain. We also have a decent understanding of the little picture. Let’s check it out:
 
@@ -561,7 +561,7 @@ There are two main regions of gray matter in the brain—the internal cluster of
 
 The coolest illustration of this concept that I’ve come across [^note-urban-15] is a [beautiful set of artistic representations](http://www.gregadunn.com/self-reflected/self-reflected-gallery/) done by Dr. Greg A. Dunn and Dr. Brian Edwards. Check out the distinct difference between the structure of the outer layer of gray matter cortex and the white matter underneath it (click to view in high res):
 
-{--{"author":"Luc's AI","timestamp":1787306547224}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Self-Reflected-in-violets.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Self-Reflected-in-violets-1.jpg)--}{++{"author":"Luc's AI","timestamp":1787306547224}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Self-Reflected-in-violets-1.jpg)++} {--{"author":"Luc's AI","timestamp":1787306547480}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Motor-and-Parietal-cortex-2.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Motor-and-Parietal-cortex-2-1.jpg)--}{++{"author":"Luc's AI","timestamp":1787306547480}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Motor-and-Parietal-cortex-2-1.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Self-Reflected-in-violets-1.jpg) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Motor-and-Parietal-cortex-2-1.jpg)
 
 Those cortical axons might be taking information to another part of the cortex, to the lower part of the brain, or through the spinal cord—the nervous system’s superhighway—and into the rest of the body.[^note-urban-16]
 
@@ -695,7 +695,7 @@ So before we talk about BMIs themselves, we need to take a closer look at what t
 
 Remember our cortex-is-a-napkin demonstration earlier?
 
-{--{"author":"Luc's AI","timestamp":1787306626452}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-on-napkin.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-on-napkin.png)--}{++{"author":"Luc's AI","timestamp":1787306626452}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-on-napkin.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-on-napkin.png)
 
 Well if we scale that up by 1,000X, the cortex napkin—which was about 48cm / 19in on each side—now has a side the length of six Manhattan street blocks (or two avenue blocks). It would take you about 25 minutes to walk around the perimeter. And the brain as a whole would now fit snugly inside a two block by two block square—just about the size of Madison Square Garden (this works in length and width, but the brain would be about double the height of MSG).
 
@@ -951,13 +951,13 @@ The major BMI industries of the future that will give all humans magical superpo
 
 Like, check this out:
 
-{--{"author":"Luc's AI","timestamp":1787306626774}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/NV_0215_Hood_alan-turing-first-computer.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/NV_0215_Hood_alan-turing-first-computer.jpg)--}{++{"author":"Luc's AI","timestamp":1787306626774}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/NV_0215_Hood_alan-turing-first-computer.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/NV_0215_Hood_alan-turing-first-computer.jpg)
 
 That’s a computer built by Alan Turing in 1950 called the Pilot ACE. Truly cutting edge in its time.
 
 Now check this out:
 
-{--{"author":"Luc's AI","timestamp":1787306627065}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/iphone-7BLACK.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/iphone-7BLACK.png)--}{++{"author":"Luc's AI","timestamp":1787306627065}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/iphone-7BLACK.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/iphone-7BLACK.png)
 
 As you read through the examples below, I want you to think about this analogy—
 
@@ -1263,11 +1263,11 @@ How easy does colonizing Mars seem right now.
 
 But I bet the telephone and the car and the moon landing would have seemed like insurmountable technological challenges to people a few decades earlier. Just like I bet this—
 
-{--{"author":"Luc's AI","timestamp":1787306627363}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/iphone-7BLACK.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/iphone-7BLACK.png)--}{++{"author":"Luc's AI","timestamp":1787306627363}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/iphone-7BLACK.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/iphone-7BLACK.png)
 
 —would have seemed utterly inconceivable to people at the time of this:
 
-{--{"author":"Luc's AI","timestamp":1787306627624}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/NV_0215_Hood_alan-turing-first-computer.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/NV_0215_Hood_alan-turing-first-computer.jpg)--}{++{"author":"Luc's AI","timestamp":1787306627624}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/NV_0215_Hood_alan-turing-first-computer.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/NV_0215_Hood_alan-turing-first-computer.jpg)
 
 And yet, there it is in your pocket. If there’s one thing we should learn from the past, it’s that there will _always_ be ubiquitous technology of the future that’s inconceivable to people of the past. We don’t know _which_ technologies that seem positively impossible to us will turn out to be ubiquitous later in our lives—but there will be some. People always underestimate the Human Colossus.
 
@@ -1404,9 +1404,9 @@ Which doesn’t only revolutionize human- _computer_ communication.
 
 Right now humans communicate with each other like this:
 
-{--{"author":"Luc's AI","timestamp":1787306627904}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-1.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-1.jpg)--}{++{"author":"Luc's AI","timestamp":1787306627904}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-1.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-1.jpg)
 
-{--{"author":"Luc's AI","timestamp":1787306627904}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)--}{++{"author":"Luc's AI","timestamp":1787306627904}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)
 
 ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-3.png)
 
@@ -1444,9 +1444,9 @@ Right now humans communicate with each other like this:
 
 And that’s how it’s been ever since we could communicate. But in a wizard hat world, it would look more like this:
 
-{--{"author":"Luc's AI","timestamp":1787306628213}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-1.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-1.jpg)--}{++{"author":"Luc's AI","timestamp":1787306628213}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-1.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-1.jpg)
 
-{--{"author":"Luc's AI","timestamp":1787306628213}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)--}{++{"author":"Luc's AI","timestamp":1787306628213}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)
 
 ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-22.jpg)
 
@@ -1458,7 +1458,7 @@ So computers can suck up the milkshake through a giant pipe, a human thinking wo
 
 Moran Cerf has gathered data on the actual bandwidth of different parts of the nervous system and on this graph, he compares them to equivalent bandwidths in the computer world:
 
-{--{"author":"Luc's AI","timestamp":1787306527541}@@[![](https://waitbutwhy.com/wp-content/uploads/2017/04/Bandwidth-v2.png)](https://waitbutwhy.com/2017/04/neuralink.html/bandwidth-v2)--}{++{"author":"Luc's AI","timestamp":1787306527541}@@![](https://waitbutwhy.com/wp-content/uploads/2017/04/Bandwidth-v2.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2017/04/Bandwidth-v2.png)
 
 You can see here on Moran’s graph that the disparity in bandwidth between the ways we communicate and our thinking (which is at 30 bits/second on this graph) is even starker than my graph above depicts.
 
@@ -2145,7 +2145,7 @@ To support Wait But Why, visit our **[Patreon page](https://patreon.com/waitbutw
 
 [Tweet](https://twitter.com/share)
 
-{--{"author":"Luc's AI","timestamp":1787306527857}@@[![](https://assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png)](https://www.pinterest.com/pin/create/button/?url=https://waitbutwhy.com/2017/04/neuralink.html&description=Neuralink%20and%20the%20Brain%E2%80%99s%20Magical%20Future)--}
+
 
 [^note-urban-1]: Ridiculous of wildebeest to not be spelled wildebeast.
 [^note-urban-2]: A guy recently [hand-wrote the Bible](http://www.today.com/popculture/man-unveils-1-150-page-bible-written-hand-2D80556484) and it took him 13 years. Imagine how expensive books would be if they took 13 years to make (and if there were no other way to get that information).
