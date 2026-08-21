@@ -1,8 +1,8 @@
 ---
 id: 'ad6367b4-4070-447f-8b16-57034660c946'
 title: "Unit 2 Recap: Thinking About How We Think"
-tldr: {--{"author":"AI","timestamp":1787313638554}@@"One check--}{++{"author":"AI","timestamp":1787313638554}@@"Two checks++} that {--{"author":"AI","timestamp":1787313638554}@@puts--}{++{"author":"AI","timestamp":1787313638554}@@put++} Unit 2 together:{--{"author":"AI","timestamp":1787313638554}@@ can you tell--} where the judgement sits, and where it leaves the person, when a tool does the {--{"author":"AI","timestamp":1787313638554}@@work?"--}{++{"author":"AI","timestamp":1787313638554}@@work — and the five metacognitive traps your own thinking can fall into before any AI is involved."++}
-summary_for_tutor: "Recap lens at the end of Unit 2 of 'Thinking about Thinking'. A short Text frame sends the learner back to the unit's distinction between offloading a task and offloading the judgement about which tasks to delegate, {++{"author":"AI","timestamp":1787313640315}@@and to the five metacognitive traps, ++}then {--{"author":"AI","timestamp":1787313640315}@@one--}{++{"author":"AI","timestamp":1787313640315}@@two++} graded Question {--{"author":"AI","timestamp":1787313640315}@@chapter (Person--}{++{"author":"AI","timestamp":1787313640315}@@chapters: (1) Person++} A and Person {--{"author":"AI","timestamp":1787313640315}@@B)--}{++{"author":"AI","timestamp":1787313640315}@@B,++} assessing {--{"author":"AI","timestamp":1787313640315}@@that--}{++{"author":"AI","timestamp":1787313640315}@@the offloading-a-task versus metacognitive-laziness++} distinction, a valid example of arbitrary offloading, and the stakes of handing over {--{"author":"AI","timestamp":1787313640315}@@oversight. --}{++{"author":"AI","timestamp":1787313640315}@@oversight; (2) the five metacognitive traps (Forming, Dislodging, Assumption, Location, Achievement), assessing that the learner can name all five and give a real example of each, plus which is most likely to catch them. ++}Score {++{"author":"AI","timestamp":1787313640315}@@each ++}per {--{"author":"AI","timestamp":1787313640315}@@the--}{++{"author":"AI","timestamp":1787313640315}@@its++} rubric."
+tldr: "Two checks that put Unit 2 together: where the judgement sits, and where it leaves the person, when a tool does the work — and the five metacognitive traps your own thinking can fall into before any AI is involved."
+summary_for_tutor: "Recap lens at the end of Unit 2 of 'Thinking about Thinking'. A short Text frame sends the learner back to the unit's distinction between offloading a task and offloading the judgement about which tasks to delegate, and to the five metacognitive traps, then two graded Question chapters: (1) Person A and Person B, assessing the offloading-a-task versus metacognitive-laziness distinction, a valid example of arbitrary offloading, and the stakes of handing over oversight; (2) the five metacognitive traps (Forming, Dislodging, Assumption, Location, Achievement), assessing that the learner can name all five and give a real example of each, plus which is most likely to catch them. Score each per its rubric."
 tags:
   - wip
 ---
@@ -10,11 +10,11 @@ tags:
 #### Text
 content::
 \## Unit 2 recap
-You have finished Unit 2. It gave you two pairs of ideas to hold {--{"author":"AI","timestamp":1787313621510}@@together.--}{++{"author":"AI","timestamp":1787313621510}@@together, and it named five traps your own thinking can fall into.++}
+You have finished Unit 2. It gave you two pairs of ideas to hold together, and it named five traps your own thinking can fall into.
 
-The first {++{"author":"AI","timestamp":1787313621510}@@pair ++}was thinking itself (cognition) versus thinking about your thinking (metacognition) — the monitoring and control that keep your reasoning honest. The second {++{"author":"AI","timestamp":1787313621510}@@pair ++}was offloading a task while the judgement stays with you, versus metacognitive laziness, where you hand the oversight itself to the tool and the judgement leaves.{++{"author":"AI","timestamp":1787313621510}@@ The five traps are ways that oversight breaks even with no tool in the room: Forming, Dislodging, Assumption, Location, and Achievement.++}
+The first pair was thinking itself (cognition) versus thinking about your thinking (metacognition) — the monitoring and control that keep your reasoning honest. The second pair was offloading a task while the judgement stays with you, versus metacognitive laziness, where you hand the oversight itself to the tool and the judgement leaves. The five traps are ways that oversight breaks even with no tool in the room: Forming, Dislodging, Assumption, Location, and Achievement.
 
-Now answer the {--{"author":"AI","timestamp":1787313621510}@@check--}{++{"author":"AI","timestamp":1787313621510}@@two checks++} below in your own words. {--{"author":"AI","timestamp":1787313621510}@@It--}{++{"author":"AI","timestamp":1787313621510}@@The first++} asks you to say where the judgement sits in two real examples of tool use, which case hands the judgement over, and to give your own example of arbitrary offloading. {++{"author":"AI","timestamp":1787313621510}@@The second asks you to name the five metacognitive traps and give a real example of each. ++}Use examples from your own life where you can.
+Now answer the two checks below in your own words. The first asks you to say where the judgement sits in two real examples of tool use, which case hands the judgement over, and to give your own example of arbitrary offloading. The second asks you to name the five metacognitive traps and give a real example of each. Use examples from your own life where you can.
 
 #### Question
 content::
@@ -42,7 +42,7 @@ assessment-instructions:: Chapter check for Unit 2. Score the answer according t
 **4** — As above, plus gives a valid example of arbitrary offloading (delegating a decision they do not understand at all, with no way to evaluate it).
 **5** — As above, plus articulates why the distinction matters: once we delegate the decision about what to delegate, we have stopped overseeing our own thinking, which is the first step of the route explored in Unit 3.
 
-Do not penalise a learner who disagrees that B's example is always harmful; they just need to show they can place the judgement in each case. Feedback tone: direct, specific, no generic praise.{++{"author":"AI","timestamp":1787313632050}@@
+Do not penalise a learner who disagrees that B's example is always harmful; they just need to show they can place the judgement in each case. Feedback tone: direct, specific, no generic praise.
 
 #### Question
 content::
@@ -67,4 +67,4 @@ assessment-instructions:: Chapter check for Unit 2. Score the answer according t
 **4** — As above, plus gives a distinct valid example for most or all five, showing the specific shape of each trap (wrong model of right problem, wrong model evidence cannot shift, right model of wrong problem, false progress from speed, clinging to a wrong solution).
 **5** — As above, plus identifies which trap is most likely to catch them and the specific moment their own checking would need to act, connecting the traps to their own work — which is the unit's point and the bridge into Unit 3.
 
-Do not penalise a learner who uses their own personal examples or who frames the traps in their own words, as long as the five are named and distinguished. Feedback tone: direct, specific, no generic praise.++}
+Do not penalise a learner who uses their own personal examples or who frames the traps in their own words, as long as the five are named and distinguished. Feedback tone: direct, specific, no generic praise.
