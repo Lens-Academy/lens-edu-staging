@@ -31,10 +31,14 @@ source:: ![[../Lenses/Security Mindset and Ordinary Paranoia|Security Mindset an
 # Lens:
 source:: ![[../Lenses/How can LLMs be understood as simulators]]
 
-# Lens:
+{++{"author":"Plex's AI","timestamp":1787325295816}@@%% TODO(Plex): add https://www.lesswrong.com/posts/yew6zFWAKG4AGs3Wk/foom-and-doom-1-brain-in-a-box-in-a-basement as CORE reading here (after simulators) once article import is available (blocked on share-token MCP credential). %%
+
+++}# Lens:
 source:: ![[../Lenses/Janus' Simulators - Scott Alexander]]
 
-# Lens:
+{--{"author":"Plex's AI","timestamp":1787325295816}@@# Lens:
 optional:: true
-source:: ![[../Lenses/Simulators by Janus]]
+source:: ![[../Lenses/Simulators by Janus]]--}{++{"author":"Plex's AI","timestamp":1787325295816}@@%% TODO(Plex): add https://www.3blue1brown.com/lessons/neural-networks/ as OPTIONAL reading, with a link onward to the next lesson in the series, once article import is available (blocked on share-token MCP credential). %%
+
+%% TODO(Plex): add https://ericjmichaud.com/quanta/ as OPTIONAL reading once article import is available (blocked on share-token MCP credential). %%++}
 
