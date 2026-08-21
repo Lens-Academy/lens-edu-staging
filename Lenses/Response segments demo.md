@@ -115,13 +115,13 @@ multi:: true
 id:: ec12502a-e39c-4589-87f5-9f14855648c9
 content:: France's capital is {{Paris}}.
 
-%% FillBlank syntax:
+%% {--{"author":"Elias's AI","timestamp":1787311947781}@@FillBlank--}{++{"author":"Elias's AI","timestamp":1787311947781}@@`Question: FillBlank`++} syntax:
 - `{{gradient descent|gradient-based optimization}}`: graded text with alternatives.
 - `{{Paris}} ... {{Berlin}}`: several blanks in one sentence.
 - `{{blank}}`: ungraded text.
 - `{{number}}`: ungraded number.
 
-FillBlank grading always uses assessor LLM, never programmatic string comparison. Base prompt is forgiving about capitalization, surrounding whitespace, minor misspellings, inflection, and equivalent wording while preserving intended meaning. There are no matching strictness options.
+{--{"author":"Elias's AI","timestamp":1787311952230}@@FillBlank--}{++{"author":"Elias's AI","timestamp":1787311952230}@@`Question: FillBlank`++} grading always uses assessor LLM, never programmatic string comparison. Base prompt is forgiving about capitalization, surrounding whitespace, minor misspellings, inflection, and equivalent wording while preserving intended meaning. There are no matching strictness options.
 
 Text inside braces gives expected answer to assessor. Several alternatives separated by `|` are hints, not exhaustive whitelist. Next example has alternatives and several graded text blanks. %%
 
