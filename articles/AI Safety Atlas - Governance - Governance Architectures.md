@@ -193,7 +193,9 @@ National governance provides the enforcement mechanisms and democratic legitimac
 - **AI risks have a global impact.** The regulation of those risks requires international cooperation ([Tallberg et al., 2023](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4424123)). When asked about China's participation in the Bletchley AI Safety summit, James Cleverly, former UK Foreign Secretary correctly noted: "we cannot keep the UK public safe from the risks of AI if we exclude one of the leading nations in AI tech."
 - **Race-to-the-bottom dynamics.** Countries fear competitive disadvantage in the AI race, which creates incentives for regulatory arbitrage and undermines safety standards globally ([Lancieri et al., 2024](https://scholarship.law.georgetown.edu/facpub/2647/)). International governance can help align incentives between nations, encouraging responsible AI development without forcing any one country to sacrifice its competitive edge ([Li, 2025](https://digitalcommons.law.villanova.edu/cgi/viewcontent.cgi?article=3670&context=vlr)).
 
-*Interactive figure 4.6: Cumulative number of large-scale AI systems by country since 2017. Refers to the location of the primary organization with which the authors of a large-scale AI systems are affiliated ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
+{++{"author":"Luc's AI","timestamp":1787314691985}@@![Cumulative number of large-scale AI systems by country since 2019](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-4-4-1dc51435.png)
+
+++}*Interactive figure 4.6: Cumulative number of large-scale AI systems by country since 2017. Refers to the location of the primary organization with which the authors of a large-scale AI systems are affiliated ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
 
 **How do national policies affect global AI development?** Even seemingly domestic regulations (such as immigration policies, see below) can reshape the global AI landscape through various spillover mechanisms.
 
