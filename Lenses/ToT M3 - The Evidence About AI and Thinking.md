@@ -44,7 +44,9 @@ to:: "In multivariable logistic regression analysis, exposure to AI (odds ratio"
 
 %% Note: Multicentre observational study (ACCEPT trial, Poland). After endoscopists were exposed to AI-assisted polyp detection, ADR on standard non-AI colonoscopy fell from 28.4% to 22.4% (6.0 pp absolute, p=0.0089). Objective clinical outcome, not self-report. %%++}
 
-Gerlich (2025) surveyed 666 UK participants using validated critical thinking assessments including the Halpern Critical Thinking Assessment. Regression analysis showed AI tool use negatively predicts critical thinking scores {--{"author":"Curator's AI","timestamp":1787322198853}@@(β--}{++{"author":"Curator's AI","timestamp":1787322198853}@@(beta++} = {--{"author":"Curator's AI","timestamp":1787322198853}@@−1.76,--}{++{"author":"Curator's AI","timestamp":1787322198853}@@-1.76,++} p < 0.001), mediated by increased cognitive offloading. Younger participants showed the strongest pattern: higher AI dependence, lower critical thinking scores. A formal correction was later published for this study, noting the reliance on self-reported critical thinking practices.
+{++{"author":"Curator's AI","timestamp":1787322757535}@@## The worker surveys: self-reports from people who use AI daily
+
+++}Gerlich (2025) surveyed 666 UK participants using validated critical thinking assessments including the Halpern Critical Thinking Assessment. Regression analysis showed AI tool use negatively predicts critical thinking scores {--{"author":"Curator's AI","timestamp":1787322198853}@@(β--}{++{"author":"Curator's AI","timestamp":1787322198853}@@(beta++} = {--{"author":"Curator's AI","timestamp":1787322198853}@@−1.76,--}{++{"author":"Curator's AI","timestamp":1787322198853}@@-1.76,++} p < 0.001), mediated by increased cognitive offloading. Younger participants showed the strongest pattern: higher AI dependence, lower critical thinking scores. A formal correction was later published for this study, noting the reliance on self-reported critical thinking practices.
 
 {++{"author":"Curator's AI","timestamp":1787322572211}@@#### Article
 source:: [[../articles/gerlich-2025-ai-tools-in-society]]
