@@ -19,4 +19,26 @@ source:: [[../articles/gerlich-2025-ai-tools-in-society]]
 from:: "This study investigates the relationship between AI tool usage and critical thinking skills, focusing on cognitive offloading as a mediating factor."
 to:: "These results highlight the potential cognitive costs of AI tool reliance, emphasising the need for educational strategies that promote critical engagement with AI technologies."
 
-%% Note: 666 UK participants, mixed-method with validated HCTA assessment. Key finding: beta = -1.76, p < 0.001. Self-report limitation: correction published noting reliance on self-reported practices. %%
+%% Note: 666 UK participants, mixed-method with validated HCTA assessment. Key finding: beta = -1.76, p < 0.001. Self-report limitation: correction published noting reliance on self-reported practices. %%{++{"author":"AI","timestamp":1787326264103}@@
+
+#### Question
+content::
+\## Your turn
+In your own words, what is the core idea of this reading? Then say what it means for how you use AI, and for your metacognition — your awareness and control of your own thinking.
+
+assessment-instructions:: The student has just read Gerlich (2025) in Unit 3 of 'Thinking about Thinking' — the third of six paper lenses after the evidence introduction — and is now reflecting on it. This is a single reflective question, not the unit's synthesis phase: draw out their grasp of the core idea and its implications for AI use and metacognition; do not run a multi-turn socratic sequence here.
+
+Key idea to check they grasped:
+- In 666 UK adults, AI tool use negatively predicted critical thinking scores (beta = -1.76, p < 0.001), mediated by cognitive offloading; the effect was strongest in younger, more dependent users
+- The mechanism is offloading: handing the thinking to the tool is what tracks the lower scores
+- Implication for metacognition: each offload is a missed rep at thinking; reliance compounds, especially for those who lean on AI most
+
+Response length: 120 to 200 words. Short paragraphs only. No lists.
+
+Response style: warm but rigorous. Do not over-validate; avoid generic praise. Correct errors in one sentence.
+
+What to do: acknowledge what they captured; if they missed the core idea, name it and ask them to restate it in their own words; if they named the idea but skipped the implication for AI use or for metacognition, ask the missing half; draw a light connection to the course's throughline (offloading, metacognitive laziness, gradual disempowerment) only if they invite it.
+
+What not to do: deliver a mini-lecture; introduce the other five papers or the synthesis question; adjudicate their personal AI habits; run more than a couple of replies. This is one turn of reflection, then send them on to the next reading.
+
+This is a one-turn (or at most two-turn) response. Tell the student to continue to the next paper.++}
