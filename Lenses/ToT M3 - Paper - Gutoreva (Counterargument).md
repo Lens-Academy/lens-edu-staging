@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787325796464}@@---
+---
 id: '380420fe-b6f1-45ec-ae80-27be7419f33a'
 title: "Gutoreva: can AI extend the mind?"
 reading_minutes: 5
@@ -18,4 +18,4 @@ source:: [[../articles/gutoreva-position-ai-as-part-of-self-extending-the-mind-r
 from:: "Artificial Intelligence (AI) systems must be modeled as integral components of human cognition, and that safety and alignment are best achieved through cognitive co-regulation rather than external constraint."
 to:: "Managing this integration requires operational frameworks that account for metacognition and epistemic authority"
 
-%% Note: The counterargument. Extended Mind position: external tools can become legitimate parts of cognition. Key distinction: generative AI performs full epistemic labor, not just discrete functions. Risk increases when AI is treated as authoritative source rather than assistive instrument. %%++}
+%% Note: The counterargument. Extended Mind position: external tools can become legitimate parts of cognition. Key distinction: generative AI performs full epistemic labor, not just discrete functions. Risk increases when AI is treated as authoritative source rather than assistive instrument. %%
