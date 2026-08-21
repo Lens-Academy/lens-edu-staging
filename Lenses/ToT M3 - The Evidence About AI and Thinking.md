@@ -25,7 +25,7 @@ A compounding factor runs alongside: offloading does not happen alone. Automatin
 
 {--{"author":"AI","timestamp":1787325721448}@@Several recent studies give us concrete measurements at different points along this chain. We read--}{++{"author":"AI","timestamp":1787325721448}@@\## How the papers are laid out
 The readings that follow each present one study. One shows help, several show harm, and one pushes back. Read++} them one at a {--{"author":"AI","timestamp":1787325721448}@@time below.--}{++{"author":"AI","timestamp":1787325721448}@@time. After the last one, a short synthesis lens asks you to weigh the evidence as a whole.++}
-
+{--{"author":"AI","timestamp":1787325735576}@@
 ## When AI Can Help
 Bednar and colleagues (2025) ran a randomised study with about 100 Minnesota law students. When students used AI during the synthesis phase of a legal task, the quality of their written analysis improved by roughly 50 to 70 percent and they finished faster. Students who used AI earlier in the process also did better later on a follow-up task done without AI. But there is a sharp twist: when students used AI during the revision phase, it helped the weaker memos and regressed the stronger ones. The AI made good work worse. Read the summary below, and watch for that result.
 
@@ -92,7 +92,7 @@ source:: [[../articles/gutoreva-position-ai-as-part-of-self-extending-the-mind-r
 from:: "Artificial Intelligence (AI) systems must be modeled as integral components of human cognition, and that safety and alignment are best achieved through cognitive co-regulation rather than external constraint."
 to:: "Managing this integration requires operational frameworks that account for metacognition and epistemic authority"
 
-%% Note: The counterargument. Extended Mind position: external tools can become legitimate parts of cognition. Key distinction: generative AI performs full epistemic labor, not just discrete functions. Risk increases when AI is treated as authoritative source rather than assistive instrument. %%
+%% Note: The counterargument. Extended Mind position: external tools can become legitimate parts of cognition. Key distinction: generative AI performs full epistemic labor, not just discrete functions. Risk increases when AI is treated as authoritative source rather than assistive instrument. %%--}
 
 #### Text
 content::
