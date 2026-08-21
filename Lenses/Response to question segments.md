@@ -107,7 +107,7 @@ options::
 - Technical safety
 multi:: true
 
-%% Multi-select has same options and defaults as single select. For grading, learner selection must exactly match all `[x]` options.
+%% Multi-select has same options and defaults as single {--{"author":"Elias's AI","timestamp":1787312197216}@@select--}{++{"author":"Elias's AI","timestamp":1787312197216}@@choice++}. For grading, learner selection must exactly match all `[x]` options.
 
 `Question: FillBlank` puts inputs inside sentence. Text inside braces is accepted answer. Smallest graded version follows. %%
 
