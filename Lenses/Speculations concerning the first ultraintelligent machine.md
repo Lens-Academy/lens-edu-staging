@@ -19,8 +19,8 @@ to:: "how to keep it under control."
 from:: "Since we are concerned with the economical construction"
 to:: "value at a megakeynes."
 
-#### {--{"author":"Plex's AI","timestamp":1787325509607}@@Text
-content::--}{++{"author":"Plex's AI","timestamp":1787325509607}@@Article++}
+#### Text
+content::
 And if the first ultra intelligent machine{--{"author":"Plex's AI","timestamp":1787325509607}@@ is worth a mega-keynes, how much might the machine--}{++{"author":"Plex's AI","timestamp":1787325509607}@@ be defined"
 to:: "how to keep++} it {--{"author":"Plex's AI","timestamp":1787325509607}@@builds be worth? 
 
