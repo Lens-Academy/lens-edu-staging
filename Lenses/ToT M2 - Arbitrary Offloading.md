@@ -25,7 +25,7 @@ A manager pastes last quarter's messy data into the AI and forwards the polished
 
 None of this needs malice or stupidity. It needs only that the answer arrived whole, and the check on the answer was never in your hands.
 
-{++{"author":"AI","timestamp":1787308182063}@@\## How it differs from metacognitive laziness
+\## How it differs from metacognitive laziness
 
 Arbitrary offloading and metacognitive laziness are close, but they are not the same thing.
 
@@ -35,7 +35,7 @@ Arbitrary offloading and metacognitive laziness are close, but they are not the 
 
 The difference is about what gets handed over. Arbitrary offloading hands the task to a tool and trusts its answer. Metacognitive laziness keeps the task but drops the oversight of its own thinking.
 
-++}#### Article
+#### Article
 source:: [[../articles/doi-arbitrary-cognitive-offloading-to-genai-does-the-current-policy-landscape-account-for-the-right-to-quality-education-of-children-and-youth-in-the-european-union-ai-policy-lab]]
 from:: "However, the initial reading (reading comprehension skill) and note-taking (sustained attention) should not be skipped by D: The problematic use case we are concerned with here is if D uses GenAI to complete the entire task"
 to:: "nor gains the skills required to complete it."
@@ -52,8 +52,8 @@ assessment-instructions:: The student has just read the short piece on arbitrary
 Key concepts in the piece:
 - Arbitrary offloading: handing off a decision you cannot evaluate, and following it anyway
 - Contrast with offloading a task (Unit 1): the calculator keeps your ability to check
-- {++{"author":"AI","timestamp":1787308194496}@@Contrast with metacognitive laziness: the task may still be done by you, but the oversight of your own thinking is skipped
-- ++}Why it is dangerous: no footing to notice an error; the failure is invisible from the inside
+- Contrast with metacognitive laziness: the task may still be done by you, but the oversight of your own thinking is skipped
+- Why it is dangerous: no footing to notice an error; the failure is invisible from the inside
 
 Response length: 120 to 200 words. Short paragraphs only. No lists.
 
@@ -77,13 +77,13 @@ Where has the judgement actually gone, and what would it take for them to catch 
 
 assessment-instructions:: The student has read the arbitrary-offloading piece, recalled, and reflected, and is now in the main discussion phase. The question is a deliberate wedge: a colleague who equates skimming an output they cannot evaluate with exercising judgement. The student should locate where the check actually sits.
 
-Learning outcome for this lens: "The learner can define arbitrary offloading, distinguish it from offloading a task (covered in Unit {--{"author":"AI","timestamp":1787308186581}@@1),--}{++{"author":"AI","timestamp":1787308186581}@@1) and from metacognitive laziness,++} and explain why following output you cannot evaluate is the danger case."
+Learning outcome for this lens: "The learner can define arbitrary offloading, distinguish it from offloading a task (covered in Unit 1) and from metacognitive laziness, and explain why following output you cannot evaluate is the danger case."
 
 Key concepts the student needs to grasp:
 - Arbitrary offloading: a decision you cannot evaluate, followed anyway
 - The colleague's move: "it looks plausible" is not a check. It is a feeling of having checked
-- The missing footing: to catch a wrong answer you need independent footing to judge it; skimming an output you do not understand does not create that footing{++{"author":"AI","timestamp":1787308199517}@@
-- Contrast with metacognitive laziness: oversight of your own thinking is skipped, but the task may still be done by you++}
+- The missing footing: to catch a wrong answer you need independent footing to judge it; skimming an output you do not understand does not create that footing
+- Contrast with metacognitive laziness: oversight of your own thinking is skipped, but the task may still be done by you
 
 The core move to draw out: the colleague believes skimming equals oversight, but skimming an answer you cannot evaluate is not oversight — it is exposure to a confident result. If the student agrees the colleague is careful, ask what "looks plausible" would require in order to actually catch an error. If the student says the colleague should just read it more closely, ask what independent footing they would need to know a close reading was right.
 
