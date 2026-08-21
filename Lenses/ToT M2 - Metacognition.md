@@ -43,9 +43,9 @@ This oversight is what keeps your reasoning honest. When it works, you catch a w
 But oversight can break. The next lens — arbitrary offloading — shows the sharpest way it breaks: a moment where the judgement leaves entirely.
 
 #### Article
-source:: [[../articles/doi-arbitrary-cognitive-offloading-to-genai-does-the-current-policy-landscape-account-for-the-right-to-quality-education-of-children-and-youth-in-the-european-union-ai-policy-lab]]
-from:: "Taking self-regulated learning decisions,"
-to:: "tasks that are broken down into subtasks and evolve in difficulty."
+source:: {--{"author":"Leo's AI","timestamp":1787308866256}@@[[../articles/doi-arbitrary-cognitive-offloading-to-genai-does-the-current-policy-landscape-account-for-the-right-to-quality-education-of-children-and-youth-in-the-european-union-ai-policy-lab]]--}{++{"author":"Leo's AI","timestamp":1787308866256}@@[[../articles/shen-how-ai-impacts-skill-formation]]++}
+from:: {--{"author":"Leo's AI","timestamp":1787308866256}@@"Taking self-regulated learning decisions,"--}{++{"author":"Leo's AI","timestamp":1787308866256}@@"AI assistance produces significant productivity gains across professional domains, particularly for novice workers."++}
+to:: {--{"author":"Leo's AI","timestamp":1787308866256}@@"tasks that are broken down into subtasks and evolve--}{++{"author":"Leo's AI","timestamp":1787308866256}@@"Novice workers who rely heavily on AI to complete unfamiliar tasks may compromise their own skill acquisition++} in {--{"author":"Leo's AI","timestamp":1787308866256}@@difficulty."--}{++{"author":"Leo's AI","timestamp":1787308866256}@@the process."++}
 
 ---
 
