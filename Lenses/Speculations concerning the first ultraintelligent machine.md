@@ -19,12 +19,9 @@ to:: "how to keep it under control."
 ++}#### Chat
 instructions::
 TLDR of what the user just read:
-An article by I.J. Good speculating about the cognitive infrastructure of a thinking machine more capable than any human. He importantly claims that he will only speculate about the first agent of this kind since the second will be built by the first according to design considerations humans cannot yet fathom. Good claims that this might happen by way of the AI building a wholly different successor or by self-modifying until it becomes unrecognisable.{--{"author":"Plex's AI","timestamp":1787325509607}@@ He tries to measure the economic value of such a system in "mega-keynes" based on the fact that John Maynard Keynes was estimated to be the most valuable human to the world economy. 
+An article by I.J. Good speculating about the cognitive infrastructure of a thinking machine more capable than any human. He importantly claims that he will only speculate about the first agent of this kind since the second will be built by the first according to design considerations humans cannot yet fathom. Good claims that this might happen by way of the AI building a wholly different successor or by self-modifying until it becomes unrecognisable.
 
---}{++{"author":"Plex's AI","timestamp":1787325509607}@@
-
-++}topics to explore:
+topics to explore:
 - We are a shape of intelligence grown by evolution and AI is a shape of intelligence grown by us. Will an intelligence grown or built by a hyper-intelligent AI be another such paradigm change? 
-{--{"author":"Plex's AI","timestamp":1787325509607}@@- Is economic impact even still a meaningful notion is such worlds?
---}- Is the creation of further ultra-intelligent closer to a cycle or to a cascade in the sense of the previous article? 
+- Is the creation of further ultra-intelligent closer to a cycle or to a cascade in the sense of the previous article? 
 - Is there a way to impose design constraints onto the second generation of machines? What would be the benefits and drawbacks?
