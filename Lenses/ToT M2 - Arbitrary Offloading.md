@@ -10,7 +10,6 @@ tags:
 
 #### Text
 content::
-\## When the judgement leaves entirely
 
 {--{"author":"Daniel's AI","timestamp":1787305579656}@@In--}{++{"author":"Daniel's AI","timestamp":1787305579656}@@Start with++} the{--{"author":"Daniel's AI","timestamp":1787305579656}@@ previous lens you saw--}{++{"author":"Daniel's AI","timestamp":1787305579656}@@ calculator. We offload++} the {--{"author":"Daniel's AI","timestamp":1787305579656}@@calculator: we offload the arithmetic,--}{++{"author":"Daniel's AI","timestamp":1787305579656}@@arithmetic to a calculator,++} but {--{"author":"Daniel's AI","timestamp":1787305579656}@@we--}{++{"author":"Daniel's AI","timestamp":1787305579656}@@most of us++} still {--{"author":"Daniel's AI","timestamp":1787305579656}@@know--}{++{"author":"Daniel's AI","timestamp":1787305579656}@@understand++} what a sum means and could catch a wrong answer. The judgement stays with us. {--{"author":"Daniel's AI","timestamp":1787305579656}@@Metacognitive offloading went one step further — we--}{++{"author":"Daniel's AI","timestamp":1787305579656}@@That is **offloading a task**. **Arbitrary offloading** is the opposite extreme: you++} hand {--{"author":"Daniel's AI","timestamp":1787305579656}@@the system the oversight itself, including the decision about what to delegate.--}{++{"author":"Daniel's AI","timestamp":1787305579656}@@off a decision you do not understand at all, and the judgement leaves entirely.++}
 
