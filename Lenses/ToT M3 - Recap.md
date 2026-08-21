@@ -10,7 +10,7 @@ tags:
 #### Text
 content::
 \## Unit 3 recap: putting the pieces together
-You have finished Unit 3. Several lenses stood behind you. The first linked small, everyday delegations of judgement to a much larger possibility: a gradual loss of human influence that needs no rebellion. The second zoomed in on the evidence about what happens to individual thinking as AI does more of it. The third watched that evidence up close, in a lab, as beginners learned to program with AI and fell into metacognitive traps that mostly predate AI itself. The fourth made the strongest case against the worry.
+You have finished Unit 3. Several lenses stood behind you. The first {--{"author":"Course's AI","timestamp":1787320159865}@@linked small, everyday delegations of judgement to a much larger possibility: a gradual loss of human influence that needs no rebellion. The second --}zoomed in on the evidence about what happens to individual thinking as AI does more of it. The {--{"author":"Course's AI","timestamp":1787320159865}@@third--}{++{"author":"Course's AI","timestamp":1787320159865}@@second++} watched that evidence up close, in a lab, as beginners learned to program with AI and fell into metacognitive traps that mostly predate AI itself. The {--{"author":"Course's AI","timestamp":1787320159865}@@fourth--}{++{"author":"Course's AI","timestamp":1787320159865}@@third++} made the strongest case against the worry.{++{"author":"Course's AI","timestamp":1787320159865}@@ The fourth linked those small, everyday delegations of judgement to a much larger possibility: a gradual loss of human influence that needs no rebellion.++}
 
 Use all of them to answer the check below in your own words. It asks you to argue the whole unit, not one piece of it.
 

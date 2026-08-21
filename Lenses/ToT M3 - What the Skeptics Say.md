@@ -99,7 +99,7 @@ A skeptic tells you: "This whole worry is media panic. Most of the studies are p
 
 Respond. Where is the skeptic right, where do they overreach, and what, on the evidence you have seen in this unit, is actually worth worrying about?
 
-assessment-instructions:: The student has completed the reading, recall, and reflection phases of the skeptical lens of Unit 3, and has also worked through the evidence lens earlier in the unit (Kulveit gradual disempowerment; the legal study; Budzyn and colleagues' endoscopist study; the skill-formation experiment; Microsoft's survey; the survey findings). They are now in the main discussion phase, weighing the skeptical case against the earlier evidence.
+assessment-instructions:: The student has completed the reading, recall, and reflection phases of the skeptical lens of Unit 3, and has also worked through the evidence lens earlier in the unit {--{"author":"Course's AI","timestamp":1787320154262}@@(Kulveit gradual disempowerment; the--}{++{"author":"Course's AI","timestamp":1787320154262}@@(the++} legal study; Budzyn and colleagues' endoscopist study; the skill-formation experiment; Microsoft's survey; the survey findings). They are now in the main discussion phase, weighing the skeptical case against the earlier evidence.
 
 The question is a deliberate wedge: a confident skeptic who says the whole worry collapses. The student must both concede what is fair and identify where the skeptic overreaches, landing on a calibrated position.
 
