@@ -10,19 +10,19 @@ tags:
 source:: [[../Lenses/ToT M3 - Gradual Disempowerment - PQ]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - {--{"author":"Course's AI","timestamp":1787320137100}@@Gradual Disempowerment]]--}{++{"author":"Course's AI","timestamp":1787320137100}@@The Evidence About AI and Thinking]]
+source:: [[../Lenses/ToT M3 - The Evidence About AI and Thinking]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - The Metacognitive Traps]]++}
+source:: [[../Lenses/ToT M3 - The Metacognitive Traps]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - {--{"author":"Course's AI","timestamp":1787320137100}@@The Evidence About AI and Thinking]]--}{++{"author":"Course's AI","timestamp":1787320137100}@@What the Skeptics Say]]++}
+source:: [[../Lenses/ToT M3 - What the Skeptics Say]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - {--{"author":"Course's AI","timestamp":1787320137100}@@The Metacognitive Traps]]--}{++{"author":"Course's AI","timestamp":1787320137100}@@Gradual Disempowerment - Intro]]++}
+source:: [[../Lenses/ToT M3 - Gradual Disempowerment - Intro]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - {--{"author":"Course's AI","timestamp":1787320137100}@@What the Skeptics Say]]--}{++{"author":"Course's AI","timestamp":1787320137100}@@Gradual Disempowerment]]++}
+source:: [[../Lenses/ToT M3 - Gradual Disempowerment]]
 
 # Lens:
 source:: [[../Lenses/ToT M3 - The Philosophy of Autonomy Loss]]
