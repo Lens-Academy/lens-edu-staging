@@ -13,13 +13,15 @@ content::
 
 **Metacognition** means thinking about how we think. It is the quiet oversight layer: the part of thinking that decides how to think.
 
-{++{"author":"AI","timestamp":1787312165921}@@Before we break metacognition into parts, here is how one researcher frames it in the context of handing work to a tool. Read the passage, then we will map it onto the two parts.
+{++{"author":"AI","timestamp":1787312242107}@@Before we break metacognition into parts, here is how one researcher frames it in the context of handing work to a tool. Read the passage, then we will map it onto the two parts.
 
 #### Article
 source:: [[../articles/brademann-arbitrary-cognitive-offloading-genai]]
 from:: "Taking self-regulated learning decisions, such as deciding over single cognitive tasks to perform, or to offload, is a human intellectual capacity called metacognition."
 to:: "A metacognitive belief is formed that forms an argumentative ground for the learners final decision."
 
+#### Text
+content::
 That passage shows metacognition as a decision. The learner first monitors: can I do this, and how hard will it be? Then they control: do I retrieve it myself or search? The next part names those two moves.
 
 ++}Metacognition has two moving parts. The first is **monitoring**: noticing what you know, what you do not, and where your thinking is going. The second is **control**: acting on that notice — slowing down, checking a step, changing your plan, or admitting you do not understand. It is less a single act than a habit of standing slightly outside your own mind while you work.

@@ -86,7 +86,7 @@ options::
 
 Next example grades one correct option. %%
 
-#### Question: Select
+#### Question: {--{"author":"Elias's AI","timestamp":1787312240729}@@Select--}{++{"author":"Elias's AI","timestamp":1787312240729}@@Choice++}
 id:: 4e93c96d-a0a8-4fa5-9c29-ea360fd283fe
 content:: Which process updates model weights during training?
 options::
@@ -94,7 +94,7 @@ options::
 - [x] Gradient descent
 - Deployment monitoring
 shuffle:: true
-feedback-instructions:: Explain misconception behind learner selection without adding unrelated detail.
+feedback-instructions:: Explain misconception behind learner {--{"author":"Elias's AI","timestamp":1787312244448}@@selection--}{++{"author":"Elias's AI","timestamp":1787312244448}@@choice++} without adding unrelated detail.
 
 %% Multi-select is same segment with `multi:: true`. %%
 
