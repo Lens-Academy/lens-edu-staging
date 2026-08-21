@@ -575,11 +575,11 @@ Most types of neurons are **interneurons** —neurons that communicate with othe
 
 The two other kinds of neurons are **sensory neurons** and **motor neurons** —those are the neurons that head down into your spinal cord and make up the peripheral nervous system. These neurons can be up to a _meter_ long.[^note-urban-17] Here’s a typical structure of each type:[^cite-urban-source-24]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/afe8fa893b046e0dbd70425c079e2af3.511x537x1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/afe8fa893b046e0dbd70425c079e2af3.511x537x1.png)
+{--{"author":"Luc's AI","timestamp":1787306353909}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/afe8fa893b046e0dbd70425c079e2af3.511x537x1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/afe8fa893b046e0dbd70425c079e2af3.511x537x1.png)--}{++{"author":"Luc's AI","timestamp":1787306353909}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/afe8fa893b046e0dbd70425c079e2af3.511x537x1.png)++}
 
 Remember our two strips?[^cite-urban-source-25]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/motor-cortex-of-the-brain-1505972E27C6C96B962.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/motor-cortex-of-the-brain-1505972E27C6C96B962.png)
+{--{"author":"Luc's AI","timestamp":1787306354228}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/motor-cortex-of-the-brain-1505972E27C6C96B962.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/motor-cortex-of-the-brain-1505972E27C6C96B962.png)--}{++{"author":"Luc's AI","timestamp":1787306354228}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/motor-cortex-of-the-brain-1505972E27C6C96B962.png)++}
 
 These strips are where your peripheral nervous system originates. The axons of sensory neurons head down from the somatosensory cortex, through the brain’s white matter, and into the spinal cord (which is just a massive bundle of axons). From the spinal cord, they head out to all parts of your body. Each part of your skin is lined with nerves that originate in the somatosensory cortex. A **nerve**, by the way, is a few bundles of axons wrapped together in a little cord. Here’s a nerve up close:[^cite-urban-source-26]
 
@@ -631,35 +631,35 @@ So with our brain background tree trunk built, we’re ready to head up to our f
 
 ## Part 3: Brain-Machine Interfaces
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-3.png)
+{--{"author":"Luc's AI","timestamp":1787306354503}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-3.png)--}{++{"author":"Luc's AI","timestamp":1787306354503}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-3.png)++}
 
 Let’s zip back in time for a second to 50,000 BC and kidnap someone and bring him back here to 2017.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok.png)
+{--{"author":"Luc's AI","timestamp":1787306354795}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok.png)--}{++{"author":"Luc's AI","timestamp":1787306354795}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok.png)++}
 
 This is Bok. Bok, we’re really thankful that you and your people invented language.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-2.png)
+{--{"author":"Luc's AI","timestamp":1787306355085}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-2.png)--}{++{"author":"Luc's AI","timestamp":1787306355085}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-2.png)++}
 
 As a way to thank you, we want to show you all the amazing things we were able to build because of your invention.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-3-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-3-1.png)
+{--{"author":"Luc's AI","timestamp":1787306355384}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-3-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-3-1.png)--}{++{"author":"Luc's AI","timestamp":1787306355384}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-3-1.png)++}
 
 Alright, first let’s take Bok on a plane, and into a submarine, and to the top of the Burj Khalifa. Now we’ll show him a telescope and a TV and an iPhone. And now we’ll let him play around on the internet for a while.
 
 Okay that was fun. How’d it go, Bok?
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-4.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-4.png)
+{--{"author":"Luc's AI","timestamp":1787306355646}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-4.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-4.png)--}{++{"author":"Luc's AI","timestamp":1787306355646}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-4.png)++}
 
 Yeah we figured that you’d be pretty surprised. To wrap up, let’s show him how we communicate with each other.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-5-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-5-1.png) [![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-6-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-6-1.png) [![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-7-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-7-2.png) [![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-8-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-8-2.png) [![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-9-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-9-1.png) [![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-10-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-10-1.png)
+{--{"author":"Luc's AI","timestamp":1787306355915}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-5-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-5-1.png)--}{++{"author":"Luc's AI","timestamp":1787306355915}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-5-1.png)++} {--{"author":"Luc's AI","timestamp":1787306356202}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-6-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-6-1.png)--}{++{"author":"Luc's AI","timestamp":1787306356202}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-6-1.png)++} {--{"author":"Luc's AI","timestamp":1787306356473}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-7-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-7-2.png)--}{++{"author":"Luc's AI","timestamp":1787306356473}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-7-2.png)++} {--{"author":"Luc's AI","timestamp":1787306356830}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-8-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-8-2.png)--}{++{"author":"Luc's AI","timestamp":1787306356830}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-8-2.png)++} {--{"author":"Luc's AI","timestamp":1787306357070}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-9-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-9-1.png)--}{++{"author":"Luc's AI","timestamp":1787306357070}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-9-1.png)++} {--{"author":"Luc's AI","timestamp":1787306357330}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-10-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-10-1.png)--}{++{"author":"Luc's AI","timestamp":1787306357330}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-10-1.png)++}
 
 Bok would be shocked to learn that despite all the magical powers humans have gained as a result of having learned to speak to each other, when it comes to actually speaking to each other, we’re no more magical than the people of his day. When two people are together and talking, they’re using 50,000-year-old technology.
 
 Bok might also be surprised that in a world run by fancy machines, the people who made all the machines are walking around with the same biological bodies that Bok and his friends walk around with. How can that be?
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-11.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-11.png)
+{--{"author":"Luc's AI","timestamp":1787306357594}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-11.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-11.png)--}{++{"author":"Luc's AI","timestamp":1787306357594}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-11.png)++}
 
 This is why brain-machine interfaces—a subset of the broader field of neural engineering, which itself is a subset of biotechnology—are such a tantalizing new industry. We’ve conquered the world many times over with our technology, but when it comes to our brains—our most central tool—the tech world has for the most part been too daunted to dive in.
 
@@ -699,17 +699,17 @@ Remember our cortex-is-a-napkin demonstration earlier?
 
 Well if we scale that up by 1,000X, the cortex napkin—which was about 48cm / 19in on each side—now has a side the length of six Manhattan street blocks (or two avenue blocks). It would take you about 25 minutes to walk around the perimeter. And the brain as a whole would now fit snugly inside a two block by two block square—just about the size of Madison Square Garden (this works in length and width, but the brain would be about double the height of MSG).
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/outline-on-manhattan.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/outline-on-manhattan.jpg)
+{--{"author":"Luc's AI","timestamp":1787306358079}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/outline-on-manhattan.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/outline-on-manhattan.jpg)--}{++{"author":"Luc's AI","timestamp":1787306358079}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/outline-on-manhattan.jpg)++}
 
 So let’s lay it out in the actual city. I’m sure the few hundred thousand people who live there will understand.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain-on-manhattan.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/brain-on-manhattan.jpg)
+{--{"author":"Luc's AI","timestamp":1787306358340}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain-on-manhattan.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/brain-on-manhattan.jpg)--}{++{"author":"Luc's AI","timestamp":1787306358340}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain-on-manhattan.jpg)++}
 
 I chose 1,000X as our multiplier for a couple reasons. One is that we can all instantly convert the sizes in our heads. Every millimeter of the actual brain is now a meter. And in the much smaller world of neurons, every micron is now an easy-to-conceptualize millimeter. Secondly, it conveniently brings the cortex up to human size—its 2mm thickness is now two meters—the height of a tall (6’6”) man.
 
 So we could walk up to 29th street, to the edge of our giant cortex napkin, and easily look at what was going on inside those two meters of thickness. For our demonstration, let’s pull out a cubic meter of our giant cortex to examine, which will show us what goes on in a typical cubic millimeter of real cortex.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cube-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cube-1.png)
+{--{"author":"Luc's AI","timestamp":1787306358665}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cube-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cube-1.png)--}{++{"author":"Luc's AI","timestamp":1787306358665}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cube-1.png)++}
 
 What we’d see in that cubic meter would be a _mess._ Let’s empty it out and put it back together.
 
@@ -723,7 +723,7 @@ With me so far? Can you visualize our meter cube with those 40,000 floating marb
 
 Here’s a microscope image of the somas in an actual cortex, using techniques that block out the other stuff around them:[^cite-urban-source-27]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/B9781416050094500182_f10-06-9781416050094.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/B9781416050094500182_f10-06-9781416050094.jpg)
+{--{"author":"Luc's AI","timestamp":1787306358937}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/B9781416050094500182_f10-06-9781416050094.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/B9781416050094500182_f10-06-9781416050094.jpg)--}{++{"author":"Luc's AI","timestamp":1787306358937}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/B9781416050094500182_f10-06-9781416050094.jpg)++}
 
 Okay not too crazy so far. But the soma is only a tiny piece of each neuron. Radiating out from each of our marble-sized somas are twisty, branchy dendrites that in our scaled-up brain can stretch out for three or four meters in many different directions, and from the other end an axon that can be over 100 meters long (when heading out laterally to another part of the cortex) or as long as a _kilometer_ (when heading down into the spinal cord and body). Each of them only about a millimeter thick, these cords turn the cortex into a dense tangle of electrical spaghetti.
 
@@ -737,13 +737,13 @@ If only that were the end of it.
 
 It turns out there are other cells in the brain called **glial cells** —cells that come in many different varieties and perform many different functions, like mopping up chemicals released into synapses, wrapping axons in myelin, and serving as the brain’s immune system. Here are some common types of glial cell:[^cite-urban-source-28]
 
-**[![](https://waitbutwhy.com/wp-content/uploads/2018/04/all_glia.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/all_glia.jpg)**
+**{--{"author":"Luc's AI","timestamp":1787306359218}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/all_glia.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/all_glia.jpg)--}{++{"author":"Luc's AI","timestamp":1787306359218}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/all_glia.jpg)++}**
 
 And how many glial cells are in the cortex? About the _same number as there are neurons._[^note-urban-20] So add about 40,000 of these wacky things into our cube.
 
 Finally, there are the blood vessels. In every cubic millimeter of cortex, there’s a total of a _meter_ of tiny blood vessels. On our scale, that means that in our cubic meter, there’s a _kilometer_ of blood vessels. Here’s what the blood vessels in a space about that size look like:[^cite-urban-source-29]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/nihms-666209-f0001.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/nihms-666209-f0001.jpg)
+{--{"author":"Luc's AI","timestamp":1787306359499}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/nihms-666209-f0001.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/nihms-666209-f0001.jpg)--}{++{"author":"Luc's AI","timestamp":1787306359499}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/nihms-666209-f0001.jpg)++}
 
 **The Connectome Blue Box**
 
@@ -754,11 +754,11 @@ The project entails [slicing a human brain](http://www.nytimes.com/2010/12/28/sc
 Anyway, in addition to producing some [gorgeous images](http://www.humanconnectomeproject.org/gallery/) of the “ribbon” formations axons with similar functions often form inside white matter, like—
 
 %% validator-ignore-next-line --code article.image-low-resolution --reason AI-couldn't-find-higher-resolution-image %%
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/White-Matter-Fibers-HCP-Dataset-side-view-720x594.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/White-Matter-Fibers-HCP-Dataset-side-view-720x594.jpg)
+{--{"author":"Luc's AI","timestamp":1787306359762}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/White-Matter-Fibers-HCP-Dataset-side-view-720x594.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/White-Matter-Fibers-HCP-Dataset-side-view-720x594.jpg)--}{++{"author":"Luc's AI","timestamp":1787306359762}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/White-Matter-Fibers-HCP-Dataset-side-view-720x594.jpg)++}
 
 —the connectome project has helped people visualize just how packed the brain is with all this stuff. Here’s a breakdown of all the different things going on in one tiny snippet of mouse brain (and this doesn’t even include the blood vessels):[^cite-urban-source-30]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/gr3.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/gr3.jpg)
+{--{"author":"Luc's AI","timestamp":1787306360029}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/gr3.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/gr3.jpg)--}{++{"author":"Luc's AI","timestamp":1787306360029}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/gr3.jpg)++}
 
 (In the image, E is the complete brain snippet, and F–N show the separate components that make up E.)
 
@@ -810,7 +810,7 @@ fMRI isn’t typically used for BMIs, but it is a classic _recording_ tool—it 
 
 fMRI uses MRI—magnetic resonance imaging—technology. MRIs, invented in the 1970s, were an evolution of the x-ray-based CAT scan. Instead of using x-rays, MRIs use magnetic fields (along with radio waves and other signals) to generate images of the body and brain. Like this:[^cite-urban-source-31]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/f.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/f.jpg)
+{--{"author":"Luc's AI","timestamp":1787306360335}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/f.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/f.jpg)--}{++{"author":"Luc's AI","timestamp":1787306360335}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/f.jpg)++}
 
 And this full set of cross sections, allowing you to see through an entire head.
 
@@ -818,11 +818,11 @@ Pretty amazing technology.
 
 fMRI (“functional” MRI) uses similar technology to track changes in _blood flow_. Why? Because when areas of the brain become more active, they use more energy, so they need more oxygen—so blood flow increases to the area to deliver that oxygen. Blood flow indirectly indicates where activity is happening. Here’s what an fMRI scan might show:[^cite-urban-source-32]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/7728527_f520.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/7728527_f520.jpg)
+{--{"author":"Luc's AI","timestamp":1787306360642}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/7728527_f520.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/7728527_f520.jpg)--}{++{"author":"Luc's AI","timestamp":1787306360642}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/7728527_f520.jpg)++}
 
 Of course, there’s always blood throughout the brain—what this image shows is where blood flow has _increased_ (red/orange/yellow) and where it has _decreased_ (blue). And because fMRI can scan through the whole brain, results are 3-dimensional:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/fmriHeadCrossSection.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/fmriHeadCrossSection.gif)
+{--{"author":"Luc's AI","timestamp":1787306361030}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/fmriHeadCrossSection.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/fmriHeadCrossSection.gif)--}{++{"author":"Luc's AI","timestamp":1787306361030}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/fmriHeadCrossSection.gif)++}
 
 fMRI has many medical uses, like informing doctors whether or not certain parts of the brain are functioning properly after a stroke, and fMRI has taught neuroscientists a ton about which regions of the brain are involved with which functions. Scans also have the benefit of providing info about what’s going on in the whole brain at any given time, and it’s safe and totally non-invasive.
 
@@ -843,11 +843,11 @@ The even bigger problem is temporal resolution. fMRI tracks blood flow, which is
 Dating back almost a century, EEG (electroencephalography) puts an array of electrodes on your head. You know, this whole thing:[^cite-urban-source-33]
 
 %% validator-ignore-next-line --code article.image-low-resolution --reason AI-couldn't-find-higher-resolution-image %%
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/EEG-cap-262x300.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/EEG-cap-262x300.jpg)
+{--{"author":"Luc's AI","timestamp":1787306361313}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/EEG-cap-262x300.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/EEG-cap-262x300.jpg)--}{++{"author":"Luc's AI","timestamp":1787306361313}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/EEG-cap-262x300.jpg)++}
 
 EEG is definitely technology that will look hilariously primitive to a 2050 person, but for now, it’s one of the only tools that can be used with BMIs that’s totally non-invasive. EEGs record electrical activity in different regions of the brain, displaying the findings like this:[^cite-urban-source-34]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human_EEG_with_prominent_alpha-rhythm.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Human_EEG_with_prominent_alpha-rhythm.png)
+{--{"author":"Luc's AI","timestamp":1787306361623}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human_EEG_with_prominent_alpha-rhythm.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Human_EEG_with_prominent_alpha-rhythm.png)--}{++{"author":"Luc's AI","timestamp":1787306361623}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human_EEG_with_prominent_alpha-rhythm.png)++}
 
 EEG graphs can uncover information about medical issues like epilepsy, track sleep patterns, or be used to determine something like the status of a dose of anesthesia.
 
@@ -867,11 +867,11 @@ Imagine that the brain is a baseball stadium, its neurons are the members of the
 
 ECoG (electrocorticography) is a similar idea to EEG, also using surface electrodes—except they put them _under_ the skull, on the surface of the brain.[^cite-urban-source-35]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Intracranial_electrode_grid_for_electrocorticography.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Intracranial_electrode_grid_for_electrocorticography.png)
+{--{"author":"Luc's AI","timestamp":1787306361907}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Intracranial_electrode_grid_for_electrocorticography.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Intracranial_electrode_grid_for_electrocorticography.png)--}{++{"author":"Luc's AI","timestamp":1787306361907}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Intracranial_electrode_grid_for_electrocorticography.png)++}
 
 Ick. But effective—at least much more effective than EEG. Without the interference of the skull blurring things, ECoG picks up both higher spatial (about 1cm) and temporal resolution (5 milliseconds). ECoG electrodes can either be placed above or below the dura:[^cite-urban-source-36]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/layersofthebrain.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/layersofthebrain.png)
+{--{"author":"Luc's AI","timestamp":1787306362190}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/layersofthebrain.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/layersofthebrain.png)--}{++{"author":"Luc's AI","timestamp":1787306362190}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/layersofthebrain.png)++}
 
 Bringing back our stadium analogy, ECoG microphones are _inside_ the stadium and a bit closer to the crowd. So the sound is much crisper than what EEG mics get from outside the stadium, and ECoG mics can better distinguish the sounds of individual sections of the crowd. But the improvement comes at a cost—it requires invasive surgery. In the scheme of invasive surgeries, though, it’s not so bad. As one neurosurgeon described to me, “You can slide stuff underneath the dura relatively non-invasively. You still have to make a hole in the head, but it’s relatively non-invasive.”
 
@@ -903,11 +903,11 @@ In the baseball stadium, LFP is a single microphone hanging over a single sectio
 
 A more recent development is the **multielectrode array,** which is the same idea as the LFP except it’s about 100 LFPs all at once, in a single area of the cortex. A multielectrode array looks like this:[^cite-urban-source-37]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Focus-stack-penny_sm.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Focus-stack-penny_sm.jpg)
+{--{"author":"Luc's AI","timestamp":1787306362448}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Focus-stack-penny_sm.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Focus-stack-penny_sm.jpg)--}{++{"author":"Luc's AI","timestamp":1787306362448}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Focus-stack-penny_sm.jpg)++}
 
 A tiny 4mm x 4mm square with 100 tiny silicon electrodes on it. Here’s another image where you can see just how sharp the electrodes are—just a few microns across at the very tip:[^cite-urban-source-38]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/jmm294120fig01.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/jmm294120fig01.jpg)
+{--{"author":"Luc's AI","timestamp":1787306362734}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/jmm294120fig01.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/jmm294120fig01.jpg)--}{++{"author":"Luc's AI","timestamp":1787306362734}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/jmm294120fig01.jpg)++}
 
 **Single-Unit Recording**
 
