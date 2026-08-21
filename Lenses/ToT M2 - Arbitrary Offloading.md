@@ -18,8 +18,7 @@ Start with the calculator. We offload the arithmetic to a calculator, but most o
 \## How it differs from offloading a task
 
 - **Offloading a task** (the calculator): the work moves out, but your ability to check stays.
-- **Arbitrary offloading**: you cannot even evaluate the result. There is no check left to apply, because you no longer have the footing to apply one.
-- **Metacognitive laziness** (the quieter version, covered next): the oversight moves out — you let the system decide what to delegate — but you may still understand the domain and could in principle re-engage.
+- **Arbitrary offloading**: you cannot even evaluate the result. There is no check left to ** (the quieter version, covered next): the oversight moves out — you let the system decide what to delegate — but you may still understand the domain and could in principle re-engage.
 
 The calculator keeps the judge. Arbitrary offloading removes the judge.
 
