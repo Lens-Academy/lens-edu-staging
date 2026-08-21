@@ -52,7 +52,8 @@ assessment-instructions:: The student has just read the short piece on arbitrary
 Key concepts in the piece:
 - Arbitrary offloading: handing off a decision you cannot evaluate, and following it anyway
 - Contrast with offloading a task (Unit 1): the calculator keeps your ability to check
-- Why it is dangerous: no footing to notice an error; the failure is invisible from the inside
+- {++{"author":"AI","timestamp":1787308194496}@@Contrast with metacognitive laziness: the task may still be done by you, but the oversight of your own thinking is skipped
+- ++}Why it is dangerous: no footing to notice an error; the failure is invisible from the inside
 
 Response length: 120 to 200 words. Short paragraphs only. No lists.
 
@@ -81,7 +82,8 @@ Learning outcome for this lens: "The learner can define arbitrary offloading, di
 Key concepts the student needs to grasp:
 - Arbitrary offloading: a decision you cannot evaluate, followed anyway
 - The colleague's move: "it looks plausible" is not a check. It is a feeling of having checked
-- The missing footing: to catch a wrong answer you need independent footing to judge it; skimming an output you do not understand does not create that footing
+- The missing footing: to catch a wrong answer you need independent footing to judge it; skimming an output you do not understand does not create that footing{++{"author":"AI","timestamp":1787308199517}@@
+- Contrast with metacognitive laziness: oversight of your own thinking is skipped, but the task may still be done by you++}
 
 The core move to draw out: the colleague believes skimming equals oversight, but skimming an answer you cannot evaluate is not oversight — it is exposure to a confident result. If the student agrees the colleague is careful, ask what "looks plausible" would require in order to actually catch an error. If the student says the colleague should just read it more closely, ask what independent footing they would need to know a close reading was right.
 
