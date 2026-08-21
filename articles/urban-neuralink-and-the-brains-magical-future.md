@@ -475,7 +475,7 @@ And remember before when I said that you were a jello ball? Well the _you_ you t
 
 The magic of the folds in increasing the napkin’s size is clear when we put another brain on top of our stripped-off cortex:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-on-napkin.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-on-napkin.png)
+{--{"author":"Luc's AI","timestamp":1787306626147}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-on-napkin.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-on-napkin.png)--}{++{"author":"Luc's AI","timestamp":1787306626147}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-on-napkin.png)++}
 
 So while it’s not perfect, modern science has a decent understanding of the big picture when it comes to the brain. We also have a decent understanding of the little picture. Let’s check it out:
 
@@ -695,7 +695,7 @@ So before we talk about BMIs themselves, we need to take a closer look at what t
 
 Remember our cortex-is-a-napkin demonstration earlier?
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-on-napkin.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-on-napkin.png)
+{--{"author":"Luc's AI","timestamp":1787306626452}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-on-napkin.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-on-napkin.png)--}{++{"author":"Luc's AI","timestamp":1787306626452}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-on-napkin.png)++}
 
 Well if we scale that up by 1,000X, the cortex napkin—which was about 48cm / 19in on each side—now has a side the length of six Manhattan street blocks (or two avenue blocks). It would take you about 25 minutes to walk around the perimeter. And the brain as a whole would now fit snugly inside a two block by two block square—just about the size of Madison Square Garden (this works in length and width, but the brain would be about double the height of MSG).
 
@@ -951,13 +951,13 @@ The major BMI industries of the future that will give all humans magical superpo
 
 Like, check this out:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/NV_0215_Hood_alan-turing-first-computer.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/NV_0215_Hood_alan-turing-first-computer.jpg)
+{--{"author":"Luc's AI","timestamp":1787306626774}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/NV_0215_Hood_alan-turing-first-computer.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/NV_0215_Hood_alan-turing-first-computer.jpg)--}{++{"author":"Luc's AI","timestamp":1787306626774}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/NV_0215_Hood_alan-turing-first-computer.jpg)++}
 
 That’s a computer built by Alan Turing in 1950 called the Pilot ACE. Truly cutting edge in its time.
 
 Now check this out:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/iphone-7BLACK.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/iphone-7BLACK.png)
+{--{"author":"Luc's AI","timestamp":1787306627065}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/iphone-7BLACK.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/iphone-7BLACK.png)--}{++{"author":"Luc's AI","timestamp":1787306627065}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/iphone-7BLACK.png)++}
 
 As you read through the examples below, I want you to think about this analogy—
 
@@ -1263,11 +1263,11 @@ How easy does colonizing Mars seem right now.
 
 But I bet the telephone and the car and the moon landing would have seemed like insurmountable technological challenges to people a few decades earlier. Just like I bet this—
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/iphone-7BLACK.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/iphone-7BLACK.png)
+{--{"author":"Luc's AI","timestamp":1787306627363}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/iphone-7BLACK.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/iphone-7BLACK.png)--}{++{"author":"Luc's AI","timestamp":1787306627363}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/iphone-7BLACK.png)++}
 
 —would have seemed utterly inconceivable to people at the time of this:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/NV_0215_Hood_alan-turing-first-computer.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/NV_0215_Hood_alan-turing-first-computer.jpg)
+{--{"author":"Luc's AI","timestamp":1787306627624}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/NV_0215_Hood_alan-turing-first-computer.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/NV_0215_Hood_alan-turing-first-computer.jpg)--}{++{"author":"Luc's AI","timestamp":1787306627624}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/NV_0215_Hood_alan-turing-first-computer.jpg)++}
 
 And yet, there it is in your pocket. If there’s one thing we should learn from the past, it’s that there will _always_ be ubiquitous technology of the future that’s inconceivable to people of the past. We don’t know _which_ technologies that seem positively impossible to us will turn out to be ubiquitous later in our lives—but there will be some. People always underestimate the Human Colossus.
 
@@ -1404,9 +1404,9 @@ Which doesn’t only revolutionize human- _computer_ communication.
 
 Right now humans communicate with each other like this:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-1.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-1.jpg)
+{--{"author":"Luc's AI","timestamp":1787306627904}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-1.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-1.jpg)--}{++{"author":"Luc's AI","timestamp":1787306627904}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-1.jpg)++}
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)
+{--{"author":"Luc's AI","timestamp":1787306627904}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)--}{++{"author":"Luc's AI","timestamp":1787306627904}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)++}
 
 ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-3.png)
 
@@ -1444,9 +1444,9 @@ Right now humans communicate with each other like this:
 
 And that’s how it’s been ever since we could communicate. But in a wizard hat world, it would look more like this:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-1.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-1.jpg)
+{--{"author":"Luc's AI","timestamp":1787306628213}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-1.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-1.jpg)--}{++{"author":"Luc's AI","timestamp":1787306628213}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-1.jpg)++}
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)
+{--{"author":"Luc's AI","timestamp":1787306628213}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)--}{++{"author":"Luc's AI","timestamp":1787306628213}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)++}
 
 ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-22.jpg)
 
