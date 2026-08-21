@@ -3,7 +3,7 @@ id: 8189763f-576e-4f04-a614-4a00c628e386
 duration_minutes: 15
 title: Response segments
 tldr: Use open responses, ratings, selects, typed fill-in-the-blank responses, and rankings with the same syntax in surveys, normal lenses, and learning-outcome tests.
-summary_for_tutor: Reference page for course creators. It documents shared fields, exact syntax, options, defaults, LLM assessment flow, and grading behavior for {--{"author":"Elias's AI","timestamp":1787311999926}@@OpenResponse, Rating, Select, typed FillBlank,--}{++{"author":"Elias's AI","timestamp":1787311999926}@@`Question: Open`, `Question: Rating`, `Question: Select`, `Question: FillBlank`,++} and {--{"author":"Elias's AI","timestamp":1787311999926}@@Ranking--}{++{"author":"Elias's AI","timestamp":1787311999926}@@`Question: Ranking`++} Response segments.
+summary_for_tutor: Reference page for course creators. It documents shared fields, exact syntax, options, defaults, LLM assessment flow, and grading behavior for `Question: Open`, `Question: Rating`, `Question: Select`, `Question: FillBlank`, and `Question: Ranking` Response segments.
 ---
 
 %% A question segment is an interactive field that collects one learner response. Same syntax works in surveys, normal lenses, and Learning Outcome tests. Context determines grading.
@@ -12,30 +12,30 @@ Every Response segment needs `id::` and `content::`. Editor should create global
 
 Response segments are required by default. Adding one normally means learner should answer it; required default prevents accidental missing responses. Add `optional:: true` only when skipping is intentional, such as sensitive survey question or optional reflection. `optional::` defaults to `false`.
 
-Graded {--{"author":"Elias's AI","timestamp":1787311925260}@@OpenResponse--}{++{"author":"Elias's AI","timestamp":1787311925260}@@`Question: Open`++} and {--{"author":"Elias's AI","timestamp":1787311925260}@@FillBlank--}{++{"author":"Elias's AI","timestamp":1787311925260}@@`Question: FillBlank`++} use same assessor flow. Platform supplies base assessment prompt, then authored `assessment-instructions::` when present, question context, expected answers, and learner response. Assessor returns structured `score` from 0 to 100 and private `reason`. Learner sees percentage, not private reason.
+Graded `Question: Open` and `Question: FillBlank` use same assessor flow. Platform supplies base assessment prompt, then authored `assessment-instructions::` when present, question context, expected answers, and learner response. Assessor returns structured `score` from 0 to 100 and private `reason`. Learner sees percentage, not private reason.
 
 `feedback-instructions::` is optional. If present, normal tutor receives question context, learner response, score, private assessment reason, and authored feedback instructions, then responds as ordinary tutor chat. If omitted, no tutor feedback.
 
-{--{"author":"Elias's AI","timestamp":1787311928520}@@OpenResponse--}{++{"author":"Elias's AI","timestamp":1787311928520}@@`Question: Open`++} collects typed or dictated text. Smallest version follows. %%
+`Question: Open` collects typed or dictated text. Smallest version follows. %%
 
-#### {--{"author":"Elias's AI","timestamp":1787311822087}@@OpenResponse--}{++{"author":"Elias's AI","timestamp":1787311822087}@@Question: Open++}
+#### Question: Open
 id:: 3e1a5838-95df-4d05-a88a-1b4ca868905f
 content:: What is your strongest objection?
 
-%% {--{"author":"Elias's AI","timestamp":1787311932078}@@OpenResponse--}{++{"author":"Elias's AI","timestamp":1787311932078}@@`Question: Open`++} options:
+%% `Question: Open` options:
 - `optional:: true`: allow skipping. Defaults to `false`.
 - `max-chars:: 500`: limit length. Defaults to no limit.
 - `placeholder:: ...`: empty-input hint. Defaults to none.
 - `max-time:: 3:00`: timer in `M:SS`. Defaults to none.
 - `enforce-voice:: true`: require speech instead of typing. Defaults to `false`.
-- `assessment-instructions:: ...`: extra instructions appended to base assessor prompt. Omit for ungraded {--{"author":"Elias's AI","timestamp":1787311934839}@@OpenResponse.--}{++{"author":"Elias's AI","timestamp":1787311934839}@@`Question: Open`.++}
+- `assessment-instructions:: ...`: extra instructions appended to base assessor prompt. Omit for ungraded `Question: Open`.
 - `feedback-instructions:: ...`: learner-facing AI feedback. Omit for none.
 
 Assessment controls score; feedback controls what learner sees. Surveys never grade but may still give feedback.
 
 Next example adds limits, grading, and feedback. %%
 
-#### {--{"author":"Elias's AI","timestamp":1787311825251}@@OpenResponse--}{++{"author":"Elias's AI","timestamp":1787311825251}@@Question: Open++}
+#### Question: Open
 id:: b8854587-3e8f-471d-b37c-fb63684ecf19
 content:: In two sentences, what is strongest objection?
 max-chars:: 500
@@ -45,13 +45,13 @@ enforce-voice:: true
 assessment-instructions:: Check whether learner names claim and gives relevant objection.
 feedback-instructions:: State strongest part of response, then suggest one improvement.
 
-%% {--{"author":"Elias's AI","timestamp":1787311938400}@@Rating--}{++{"author":"Elias's AI","timestamp":1787311938400}@@`Question: Rating`++} collects numbered self-report. Smallest version uses default 1-to-5 scale. %%
+%% `Question: Rating` collects numbered self-report. Smallest version uses default 1-to-5 scale. %%
 
-#### {++{"author":"Elias's AI","timestamp":1787311828167}@@Question: ++}Rating
+#### Question: Rating
 id:: 4280d5f2-2cd5-48f9-b20f-fc132253d443
 content:: How confident are you in your answer?
 
-%% {--{"author":"Elias's AI","timestamp":1787312002915}@@Rating--}{++{"author":"Elias's AI","timestamp":1787312002915}@@`Question: Rating`++} options:
+%% `Question: Rating` options:
 - `optional:: true`: allow skipping. Defaults to `false`.
 - `scale:: 7`: highest number, from 2 to 10. Defaults to `5`.
 - `low-label:: Not confident`: low-end label. Defaults to none.
@@ -60,7 +60,7 @@ content:: How confident are you in your answer?
 
 Ratings never affect correctness score. Next example changes scale and labels, and adds AI feedback. %%
 
-#### {++{"author":"Elias's AI","timestamp":1787311831307}@@Question: ++}Rating
+#### Question: Rating
 id:: 651213b4-1952-4ed4-98a8-8f772cf732d6
 content:: How confident are you in your answer?
 scale:: 7
@@ -68,8 +68,8 @@ low-label:: Not confident
 high-label:: Very confident
 feedback-instructions:: Briefly suggest how learner could calibrate this confidence against evidence.
 
-%% {--{"author":"Elias's AI","timestamp":1787311941126}@@Select--}{++{"author":"Elias's AI","timestamp":1787311941126}@@`Question: Select`++} requires `options::`; default allows one selection. Without `[x]`, it is ungraded. %%
-#### {++{"author":"Elias's AI","timestamp":1787311834980}@@Question: ++}Select
+%% `Question: Select` requires `options::`; default allows one selection. Without `[x]`, it is ungraded. %%
+#### Question: Select
 id:: a59ce650-c5cf-4b2b-bc13-e0686f5d2bfb
 content:: Which topic should we cover next?
 options::
@@ -86,7 +86,7 @@ Select options:
 
 Next example grades one correct option. %%
 
-#### {++{"author":"Elias's AI","timestamp":1787311837644}@@Question: ++}Select
+#### Question: Select
 id:: 4e93c96d-a0a8-4fa5-9c29-ea360fd283fe
 content:: Which process updates model weights during training?
 options::
@@ -98,7 +98,7 @@ feedback-instructions:: Explain misconception behind learner selection without a
 
 %% Multi-select is same segment with `multi:: true`. %%
 
-#### {++{"author":"Elias's AI","timestamp":1787311840508}@@Question: ++}Select
+#### Question: Select
 id:: cb39e8f1-4477-4b66-b016-37c99c5ff753
 content:: Which topics interest you?
 options::
@@ -109,23 +109,23 @@ multi:: true
 
 %% Multi-select has same options and defaults as single select. For grading, learner selection must exactly match all `[x]` options.
 
-{--{"author":"Elias's AI","timestamp":1787311944634}@@FillBlank--}{++{"author":"Elias's AI","timestamp":1787311944634}@@`Question: FillBlank`++} puts inputs inside sentence. Text inside braces is accepted answer. Smallest graded version follows. %%
+`Question: FillBlank` puts inputs inside sentence. Text inside braces is accepted answer. Smallest graded version follows. %%
 
-#### {++{"author":"Elias's AI","timestamp":1787311844092}@@Question: ++}FillBlank
+#### Question: FillBlank
 id:: ec12502a-e39c-4589-87f5-9f14855648c9
 content:: France's capital is {{Paris}}.
 
-%% {--{"author":"Elias's AI","timestamp":1787311947781}@@FillBlank--}{++{"author":"Elias's AI","timestamp":1787311947781}@@`Question: FillBlank`++} syntax:
+%% `Question: FillBlank` syntax:
 - `{{gradient descent|gradient-based optimization}}`: graded text with alternatives.
 - `{{Paris}} ... {{Berlin}}`: several blanks in one sentence.
 - `{{blank}}`: ungraded text.
 - `{{number}}`: ungraded number.
 
-{--{"author":"Elias's AI","timestamp":1787311952230}@@FillBlank--}{++{"author":"Elias's AI","timestamp":1787311952230}@@`Question: FillBlank`++} grading always uses assessor LLM, never programmatic string comparison. Base prompt is forgiving about capitalization, surrounding whitespace, minor misspellings, inflection, and equivalent wording while preserving intended meaning. There are no matching strictness options.
+`Question: FillBlank` grading always uses assessor LLM, never programmatic string comparison. Base prompt is forgiving about capitalization, surrounding whitespace, minor misspellings, inflection, and equivalent wording while preserving intended meaning. There are no matching strictness options.
 
 Text inside braces gives expected answer to assessor. Several alternatives separated by `|` are hints, not exhaustive whitelist. Next example has alternatives and several graded text blanks. %%
 
-#### {++{"author":"Elias's AI","timestamp":1787311847564}@@Question: ++}FillBlank
+#### Question: FillBlank
 id:: 115ecd2e-385a-4c90-8964-afc169cb822a
 content:: France's capital is {{Paris}}, while model weights are commonly updated using {{gradient descent|gradient-based optimization}}.
 assessment-instructions:: Give 50 points for each blank whose meaning is correct. Accept minor misspellings and equivalent phrasing.
@@ -133,7 +133,7 @@ feedback-instructions:: Explain any incorrect blank without discussing unrelated
 
 %% `{{number}}` creates ungraded numeric input. Next example also shows `optional:: true`. %%
 
-#### {++{"author":"Elias's AI","timestamp":1787311850228}@@Question: ++}FillBlank
+#### Question: FillBlank
 id:: 8a3ae4f5-4d86-42dc-b126-b293f88a7b61
 content:: How many years until transformative AI? {{number}}
 optional:: true
@@ -150,7 +150,7 @@ Assessor infers expected precision from question. Base numeric rubric:
 
 Next example uses default rubric. %%
 
-#### {++{"author":"Elias's AI","timestamp":1787311852849}@@Question: ++}FillBlank
+#### Question: FillBlank
 id:: 1211df1d-70e8-4b93-a3b6-1ce44460ed1f
 content:: Earth is approximately {{number 149,600,000}} km from Sun.
 
@@ -158,24 +158,24 @@ content:: Earth is approximately {{number 149,600,000}} km from Sun.
 
 Use `assessment-instructions::` when domain needs explicit tolerance. Next example treats answer as Fermi estimate. %%
 
-#### {++{"author":"Elias's AI","timestamp":1787311855746}@@Question: ++}FillBlank
+#### Question: FillBlank
 id:: 5b5387b7-f8bf-4dd7-a4ae-a0c6468d7e22
 content:: Estimate number of seconds in one year: {{number 31,536,000}}
 assessment-instructions:: This is a Fermi estimate. Give 100 within factor 2, substantial credit within one order of magnitude, and 0 only for answer with no meaningful magnitude awareness.
 feedback-instructions:: Explain most important estimation error and suggest one useful decomposition.
 
-%% One {--{"author":"Elias's AI","timestamp":1787311958138}@@FillBlank--}{++{"author":"Elias's AI","timestamp":1787311958138}@@`Question: FillBlank`++} may mix text and numeric blanks, and graded and ungraded blanks, for example: `I estimate {{number}} years because {{blank}}.`
+%% One `Question: FillBlank` may mix text and numeric blanks, and graded and ungraded blanks, for example: `I estimate {{number}} years because {{blank}}.`
 
-{--{"author":"Elias's AI","timestamp":1787311961282}@@FillBlank--}{++{"author":"Elias's AI","timestamp":1787311961282}@@`Question: FillBlank`++} options:
+`Question: FillBlank` options:
 - `optional:: true`: allow skipping whole segment. Defaults to `false`, so every blank is required.
 - `assessment-instructions:: ...`: extra natural-language rules appended to base assessor prompt. Use this for custom scoring such as "100 if first two blanks and either remaining blank are correct" or "60 if two of three are correct." Omit to use base assessment only.
 - `feedback-instructions:: ...`: instructions for learner-facing tutor response after assessment. Omit for no tutor feedback.
 
 Base assessor returns one percentage for whole segment plus private reason. Percentage appears beside response. Expected-answer blanks are graded automatically. `{{blank}}` and `{{number}}` remain ungraded unless `assessment-instructions::` defines how to judge them. %%
 
-%% {--{"author":"Elias's AI","timestamp":1787311965250}@@Ranking--}{++{"author":"Elias's AI","timestamp":1787311965250}@@`Question: Ranking`++} lets learner arrange items. Plain Ranking is ungraded, useful for preferences and reflection. Initial item order is randomized. %%
+%% `Question: Ranking` lets learner arrange items. Plain Ranking is ungraded, useful for preferences and reflection. Initial item order is randomized. %%
 
-#### {++{"author":"Elias's AI","timestamp":1787311860276}@@Question: ++}Ranking
+#### Question: Ranking
 id:: dc6d348c-8c5c-416a-82d7-b7166d677258
 content:: Rank these topics from most to least interesting to you.
 items::
@@ -185,9 +185,9 @@ items::
 
 %% Add `assessment-instructions::` to grade Ranking. Items are authored in intended order, but shown shuffled. Assessor receives intended order, learner order, base ranking prompt, and custom instructions. It returns percentage plus private reason.
 
-Use graded {--{"author":"Elias's AI","timestamp":1787311968248}@@Ranking--}{++{"author":"Elias's AI","timestamp":1787311968248}@@`Question: Ranking`++} for chronology, causal chains, procedures, and prioritization with explicit criterion. State allowed ties or alternate valid orders in assessment instructions. Keep lists around 3 to 7 items. (more or less possible, but not recommended) Next example grades procedure while allowing partial credit. %%
+Use graded `Question: Ranking` for chronology, causal chains, procedures, and prioritization with explicit criterion. State allowed ties or alternate valid orders in assessment instructions. Keep lists around 3 to 7 items. (more or less possible, but not recommended) Next example grades procedure while allowing partial credit. %%
 
-#### {++{"author":"Elias's AI","timestamp":1787311863604}@@Question: ++}Ranking
+#### Question: Ranking
 id:: 8ea396ee-7e7f-46b8-85ce-179ffe33bdf3
 content:: Put these experimental steps in safe order.
 items::
