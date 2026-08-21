@@ -78,7 +78,7 @@ options::
 
 %% Mark correct option with `[x]` to grade {--{"author":"Elias's AI","timestamp":1787312103559}@@Select.--}{++{"author":"Elias's AI","timestamp":1787312103559}@@`Question: Select`.++} Plain options stay ungraded. Survey selects never use `[x]`.
 
-Select options:
+{--{"author":"Elias's AI","timestamp":1787312107150}@@Select--}{++{"author":"Elias's AI","timestamp":1787312107150}@@`Question: Select`++} options:
 - `optional:: true`: allow skipping. Defaults to `false`.
 - `multi:: true`: allow multiple selections. Defaults to `false`.
 - `shuffle:: true`: randomize order. Defaults to `false`.
@@ -173,7 +173,7 @@ feedback-instructions:: Explain most important estimation error and suggest one 
 
 Base assessor returns one percentage for whole segment plus private reason. Percentage appears beside response. Expected-answer blanks are graded automatically. `{{blank}}` and `{{number}}` remain ungraded unless `assessment-instructions::` defines how to judge them. %%
 
-%% `Question: Ranking` lets learner arrange items. Plain Ranking is ungraded, useful for preferences and reflection. Initial item order is randomized. %%
+%% `Question: Ranking` lets learner arrange items. Plain {--{"author":"Elias's AI","timestamp":1787312111767}@@Ranking--}{++{"author":"Elias's AI","timestamp":1787312111767}@@`Question: Ranking`++} is ungraded, useful for preferences and reflection. Initial item order is randomized. %%
 
 #### Question: Ranking
 id:: dc6d348c-8c5c-416a-82d7-b7166d677258
