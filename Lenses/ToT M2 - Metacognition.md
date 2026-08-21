@@ -47,8 +47,6 @@ source:: [[../articles/shen-how-ai-impacts-skill-formation]]
 from:: "AI assistance produces significant productivity gains across professional domains, particularly for novice workers."
 to:: "Novice workers who rely heavily on AI to complete unfamiliar tasks may compromise their own skill acquisition in the process."
 
----
-
 #### Question
 content::
 \## Check your Understanding
