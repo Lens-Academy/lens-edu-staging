@@ -76,13 +76,13 @@ options::
 - Forecasting
 - Governance
 
-%% Mark correct option with `[x]` to grade `Question: Select`. Plain options stay ungraded. Survey {--{"author":"Elias's AI","timestamp":1787312186434}@@selects--}{++{"author":"Elias's AI","timestamp":1787312186434}@@choices++} never use `[x]`.
+%% Mark correct option with `[x]` to grade `Question: {--{"author":"Elias's AI","timestamp":1787312229761}@@Select`.--}{++{"author":"Elias's AI","timestamp":1787312229761}@@Choice`.++} Plain options stay ungraded. Survey {--{"author":"Elias's AI","timestamp":1787312186434}@@selects--}{++{"author":"Elias's AI","timestamp":1787312186434}@@choices++} never use `[x]`.
 
-`Question: Select` options:
+`Question: {--{"author":"Elias's AI","timestamp":1787312232972}@@Select`--}{++{"author":"Elias's AI","timestamp":1787312232972}@@Choice`++} options:
 - `optional:: true`: allow skipping. Defaults to `false`.
 - `multi:: true`: allow multiple selections. Defaults to `false`.
 - `shuffle:: true`: randomize order. Defaults to `false`.
-- `feedback-instructions:: ...`: AI response to selection. Defaults to none.
+- `feedback-instructions:: ...`: AI response to {--{"author":"Elias's AI","timestamp":1787312236010}@@selection.--}{++{"author":"Elias's AI","timestamp":1787312236010}@@choice.++} Defaults to none.
 
 Next example grades one correct option. %%
 
