@@ -161,9 +161,9 @@ AI could be used to gain military advantages via [autonomous lethal weapons](htt
 
 Main article: [Existential risk studies](https://en.wikipedia.org/wiki/Existential_risk_studies "Existential risk studies")
 
-{--{"author":"Luc's AI","timestamp":1787306530896}@@[![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/X-risk-chart-en-01a.svg/500px-X-risk-chart-en-01a.svg.png)](https://en.wikipedia.org/wiki/File:X-risk-chart-en-01a.svg)--}{++{"author":"Luc's AI","timestamp":1787306530896}@@![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/X-risk-chart-en-01a.svg/500px-X-risk-chart-en-01a.svg.png)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/X-risk-chart-en-01a.svg/500px-X-risk-chart-en-01a.svg.png)
 
-[View image details on Wikipedia](https://en.wikipedia.org/wiki/File:X-risk-chart-en-01a.svg)++}
+[View image details on Wikipedia](https://en.wikipedia.org/wiki/File:X-risk-chart-en-01a.svg)
 
 Scope-severity grid from Bostrom's paper "Existential Risk Prevention as Global Priority"[^cite-wp-70]
 
