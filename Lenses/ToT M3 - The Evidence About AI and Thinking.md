@@ -2,7 +2,7 @@
 id: '40e2fc16-4d64-41b4-831b-b52dfad06c1e'
 title: "The Evidence: What Happens When AI Does the Thinking"
 tldr: "There is real evidence on both sides: skills can erode while a tool does the work, early engaged use can build understanding, and help can even regress strong work. The honest read is concern, not panic: it depends on when and how you use AI."
-summary_for_tutor: "Evidence lens for Unit 3 of 'Thinking about Thinking', placed as the first content lens of the unit (after the pre-reading question) and before the metacognitive-traps lens. Authored background sets out the causal chain from small delegations of judgement to gradual disempowerment, the compounding factor, {++{"author":"Curator's AI","timestamp":1787322779736}@@and ++}the {--{"author":"Curator's AI","timestamp":1787322779736}@@doctor --}{++{"author":"Curator's AI","timestamp":1787322779736}@@limits, then walks the student through each ++}study {--{"author":"Curator's AI","timestamp":1787322779736}@@(as reported in--}{++{"author":"Curator's AI","timestamp":1787322779736}@@inline: the legal study (Bednar,++} the {--{"author":"Curator's AI","timestamp":1787322779736}@@course design), Seifer's 299-UK-worker survey (self-reports),--}{++{"author":"Curator's AI","timestamp":1787322779736}@@anchor reading, gains from early use),++} the {--{"author":"Curator's AI","timestamp":1787322779736}@@limits, and--}{++{"author":"Curator's AI","timestamp":1787322779736}@@doctor study (Budzyń, clinical erosion),++} the {--{"author":"Curator's AI","timestamp":1787322779736}@@honest conclusion. Inlines the imported Nature-Bednar article--}{++{"author":"Curator's AI","timestamp":1787322779736}@@worker surveys (Gerlich, Lee at Microsoft, Seifer), a lab flag++} on {++{"author":"Curator's AI","timestamp":1787322779736}@@restating, and ++}the {--{"author":"Curator's AI","timestamp":1787322779736}@@legal study ('Does AI Make Lawyers Worse --}{++{"author":"Curator's AI","timestamp":1787322779736}@@counterargument (Gutoreva). Each study's real paper is inlined as an Article segment ++}at {--{"author":"Curator's AI","timestamp":1787322779736}@@Thinking?'), which is the real evidence anchor.--}{++{"author":"Curator's AI","timestamp":1787322779736}@@its point of discussion, not lumped at the end.++} Then Recall, Processing, and Learning Question phases; the wedge asks the student to reconcile 'AI makes you smarter' with 'AI makes you stupid'."
+summary_for_tutor: "Evidence lens for Unit 3 of 'Thinking about Thinking', placed as the first content lens of the unit (after the pre-reading question) and before the metacognitive-traps lens. Authored background sets out the causal chain from small delegations of judgement to gradual disempowerment, the compounding factor, and the limits, then walks the student through each study inline: the legal study (Bednar, the anchor reading, gains from early use), the doctor study (Budzyń, clinical erosion), the worker surveys (Gerlich, Lee at Microsoft, Seifer), a lab flag on restating, and the counterargument (Gutoreva). Each study's real paper is inlined as an Article segment at its point of discussion, not lumped at the end. Then Recall, Processing, and Learning Question phases; the wedge asks the student to reconcile 'AI makes you smarter' with 'AI makes you stupid'."
 tags:
   - wip
 ---
@@ -10,7 +10,7 @@ tags:
 #### Text
 content::
 \## Reading Assignment
-Read the short background {--{"author":"Curator's AI","timestamp":1787322144298}@@below, then--}{++{"author":"Curator's AI","timestamp":1787322144298}@@first. Then++} read {--{"author":"Curator's AI","timestamp":1787322144298}@@the--}{++{"author":"Curator's AI","timestamp":1787322144298}@@each++} study summary {--{"author":"Curator's AI","timestamp":1787322144298}@@article that follows. The background lays out--}{++{"author":"Curator's AI","timestamp":1787322144298}@@inline as you reach it. Every boxed excerpt expands to more of++} the {--{"author":"Curator's AI","timestamp":1787322144298}@@causal chain this unit is testing.--}{++{"author":"Curator's AI","timestamp":1787322144298}@@real paper, and every study links to its source at the end of the unit.++} The {--{"author":"Curator's AI","timestamp":1787322144298}@@article--}{++{"author":"Curator's AI","timestamp":1787322144298}@@first and longest reading++} is {--{"author":"Curator's AI","timestamp":1787322144298}@@real evidence: a study of--}{++{"author":"Curator's AI","timestamp":1787322144298}@@the legal study: real evidence on++} how {++{"author":"Curator's AI","timestamp":1787322144298}@@early, engaged ++}AI use changed law students' independent reasoning.
+Read the short background first. Then read each study summary inline as you reach it. Every boxed excerpt expands to more of the real paper, and every study links to its source at the end of the unit. The first and longest reading is the legal study: real evidence on how early, engaged AI use changed law students' independent reasoning.
 
 \## Background: the chain, the compounding, and the reported findings
 Unit 2 showed how a single delegated judgement can quietly erode metacognition. This unit asks whether that effect scales. This lens zooms in one level: what happens to individual thinking as AI does more of it?
@@ -23,9 +23,9 @@ Here is the causal chain, stated honestly as a chain of possibilities.
 
 A compounding factor runs alongside: offloading does not happen alone. Automating technology replaces human roles at the same time, so human skills can erode just as demand for them falls.
 
-Several recent studies give us concrete measurements at different points along this chain.{++{"author":"Curator's AI","timestamp":1787322385992}@@ We read them one at a time below.++}
+Several recent studies give us concrete measurements at different points along this chain. We read them one at a time below.
 
-{++{"author":"Curator's AI","timestamp":1787322532131}@@## The legal study: when help helps
+## The legal study: when help helps
 The legal study is the result that cuts against simple panic. Bednar and colleagues (2025) ran a randomised study with about 100 Minnesota law students. When students used AI during the synthesis phase of a legal task, the quality of their written analysis improved by roughly 50 to 70 percent and they finished faster. Students who used AI earlier in the process also did better later on a follow-up task done without AI. But there is a sharp twist: when students used AI during the revision phase, it helped the weaker memos and regressed the stronger ones. The AI made good work worse. Read the summary below, and watch for that result.
 
 #### Article
@@ -33,90 +33,9 @@ source:: [[../articles/bednar-does-ai-make-lawyers-worse-at-thinking-new-researc
 from:: "Since the public release of ChatGPT in 2022, a growing body of empirical research has suggested that generative AI systems could fundamentally reshape the practice of law."
 to:: "conditions that increase the likelihood that AI substitutes for careful analysis rather than supporting it."
 
-++}{++{"author":"Curator's AI","timestamp":1787322747493}@@## The doctor study: when the tool does the whole job
+## The doctor study: when the tool does the whole job
 
-++}Budzyń and colleagues (2025), in *Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy* (a {--{"author":"Curator's AI","timestamp":1787322335943}@@multicentre,--}{++{"author":"Curator's AI","timestamp":1787322335943}@@multicentre++} observational study), found that after endoscopists were exposed to AI-assisted polyp detection, their adenoma detection rate on standard, non-AI colonoscopy fell 6.0 percentage points, from 28.4% to 22.4%. These are real patient outcomes, not self-reports.{++{"author":"Curator's AI","timestamp":1787322563013}@@ The drop appeared on procedures done without the AI, which is the worrying part.
-
-#### Article
-source:: [[../articles/budzy-endoscopist-deskilling-risk-after-exposure-to-artificial-intelligence-in-colonoscopy-a-multicentre-observational-study]]
-from:: "Between Sept 8, 2021, and March 9, 2022, 1443 patients underwent non-AI assisted colonoscopy before (n=795) and after (n=648) the introduction of AI"
-to:: "In multivariable logistic regression analysis, exposure to AI (odds ratio"
-
-%% Note: Multicentre observational study (ACCEPT trial, Poland). After endoscopists were exposed to AI-assisted polyp detection, ADR on standard non-AI colonoscopy fell from 28.4% to 22.4% (6.0 pp absolute, p=0.0089). Objective clinical outcome, not self-report. %%++}
-
-{++{"author":"Curator's AI","timestamp":1787322757535}@@## The worker surveys: self-reports from people who use AI daily
-
-++}Gerlich (2025) surveyed 666 UK participants using validated critical thinking assessments including the Halpern Critical Thinking Assessment. Regression analysis showed AI tool use negatively predicts critical thinking scores {--{"author":"Curator's AI","timestamp":1787322198853}@@(β--}{++{"author":"Curator's AI","timestamp":1787322198853}@@(beta++} = {--{"author":"Curator's AI","timestamp":1787322198853}@@−1.76,--}{++{"author":"Curator's AI","timestamp":1787322198853}@@-1.76,++} p < 0.001), mediated by increased cognitive offloading. Younger participants showed the strongest pattern: higher AI dependence, lower critical thinking scores. A formal correction was later published for this study, noting the reliance on self-reported critical thinking practices.
-
-{++{"author":"Curator's AI","timestamp":1787322572211}@@#### Article
-source:: [[../articles/gerlich-2025-ai-tools-in-society]]
-from:: "This study investigates the relationship between AI tool usage and critical thinking skills, focusing on cognitive offloading as a mediating factor."
-to:: "These results highlight the potential cognitive costs of AI tool reliance, emphasising the need for educational strategies that promote critical engagement with AI technologies."
-
-%% Note: 666 UK participants, mixed-method with validated HCTA assessment. Key finding: beta = -1.76, p < 0.001. Self-report limitation: correction published noting reliance on self-reported practices. %%
-
-++}Lee and colleagues at Microsoft Research (2025) tracked 319 knowledge workers across 936 examples of GenAI use. Higher confidence in AI was associated with lower critical thinking and vice versa. The study documented a shift in task type: AI use moves workers from generative {--{"author":"Curator's AI","timestamp":1787322189854}@@tasks—knowledge --}{++{"author":"Curator's AI","timestamp":1787322189854}@@tasks such as knowledge ++}recall, comprehension, {--{"author":"Curator's AI","timestamp":1787322189854}@@synthesis—toward--}{++{"author":"Curator's AI","timestamp":1787322189854}@@and synthesis toward++} reviewer tasks {--{"author":"Curator's AI","timestamp":1787322189854}@@like--}{++{"author":"Curator's AI","timestamp":1787322189854}@@such as++} verification and integration.{++{"author":"Curator's AI","timestamp":1787322572211}@@ That is a move down Bloom's taxonomy of cognitive skills. You will see why this matters in Unit 4.++}{--{"author":"Curator's AI","timestamp":1787322649072}@@ This is a move "down" Bloom's taxonomy of cognitive skills. You will see why this matters in Unit 4.--}
-
-{++{"author":"Curator's AI","timestamp":1787322580585}@@#### Article
-source:: [[../articles/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers]]
-from:: "We survey 319 knowledge workers"
-to:: "information verification, response integration, and task stewardship."
-
-%% Note: 319 knowledge workers, 936 examples. Key finding: shift from generative tasks (knowledge recall, synthesis, comprehension) to reviewer tasks (verification, integration, stewardship), a move "down" Bloom's taxonomy. %%
-
-++}Roxana Seifer's survey of 299 UK workers (2026) found similar self-reported patterns: 56% felt confident after a quick review, 45% chose the AI's answer over their own, 47% checked AI output less than a colleague's work, and 41% found tasks harder without AI. Daily users showed the strongest effects. This was a self-published, self-reported survey, so its patterns are warning signs, not proof of cause and effect.
-
-{++{"author":"Curator's AI","timestamp":1787322590109}@@#### Article
-source:: [[../articles/seifer-could-cognitive-dependency-be-an-early-warning-sign-of-gradual-disempowerment]]
-from:: "The study found evidence that AI may be affecting how employees approach cognitive tasks:"
-to:: "Daily users reported the strongest patterns across all four items."
-
-%% Note: Self-published Substack survey (2026), 299 UK employees across six sectors. Self-reported, single time point; author states it does not prove causation. %%
-
-++}{++{"author":"Curator's AI","timestamp":1787322764875}@@## A flag from the lab
-
-++}More recent findings point the same way: a short burst of AI-assisted practice can make people worse on later problems done without AI, and more likely to give up. People who explained the AI's logic in their own words fixed bugs far more often than people who did not. This last finding is the reason for one of Unit 4's core rules: close the chat, restate in your own words.
-
-{--{"author":"Curator's AI","timestamp":1787322660695}@@Now read--}{++{"author":"Curator's AI","timestamp":1787322660695}@@## The counterargument: tools as part of the mind
-Not everyone reads this as loss. Gutoreva and colleagues (2025) take the Extended Mind position: a tool you rely on can become a real part of your thinking, not a replacement for it. The line that matters is between using AI as an assistive instrument and treating it as an authoritative source. When AI performs the full epistemic labour,++} the {--{"author":"Curator's AI","timestamp":1787322660695}@@study--}{++{"author":"Curator's AI","timestamp":1787322660695}@@risk of disempowerment rises. Read their position++} below.{--{"author":"Curator's AI","timestamp":1787322660695}@@ Pay attention to one result in particular: what happened to the strongest students.--}{++{"author":"Curator's AI","timestamp":1787322660695}@@
-
-#### Article
-source:: [[../articles/gutoreva-position-ai-as-part-of-self-extending-the-mind-requires-cognitive-co-regulation]]
-from:: "Artificial Intelligence (AI) systems must be modeled as integral components of human cognition, and that safety and alignment are best achieved through cognitive co-regulation rather than external constraint."
-to:: "Managing this integration requires operational frameworks that account for metacognition and epistemic authority"
-
-%% Note: The counterargument. Extended Mind position: external tools can become legitimate parts of cognition. Key distinction: generative AI performs full epistemic labor, not just discrete functions. Risk increases when AI is treated as authoritative source rather than assistive instrument. %%++}
-
-{--{"author":"Curator's AI","timestamp":1787322660695}@@\##--}{++{"author":"Curator's AI","timestamp":1787322660695}@@##++} Reading the evidence honestly
-Hold two thoughts together. The {++{"author":"Curator's AI","timestamp":1787322660695}@@clinical and worker ++}studies above point at real erosion of individual skill. The legal study{--{"author":"Curator's AI","timestamp":1787322660695}@@ you are about to read --}{++{"author":"Curator's AI","timestamp":1787322660695}@@ ++}points at real gains from early, engaged use. Both can be true, because whether help helps depends on when and how you use it. {--{"author":"Curator's AI","timestamp":1787322660695}@@And the--}{++{"author":"Curator's AI","timestamp":1787322660695}@@The++} honest context: most of these studies are short, narrow, and {--{"author":"Curator's AI","timestamp":1787322660695}@@small; long-term--}{++{"author":"Curator's AI","timestamp":1787322660695}@@small. Long-term++} and real-world effects on whole populations are still unknown. The reasonable conclusion is concern, not panic. Friction-free help can quietly remove the struggle that builds skill, and we do not yet know how far that goes.{--{"author":"Curator's AI","timestamp":1787322660695}@@
-
-Now read the studies below. Expand any excerpt to read more. You do not need to read everything—skim for methodology and findings. Pay attention to what happened to the strongest students in the legal study, and notice what the counterargument says about when offloading is legitimate.--}
-
-{--{"author":"Curator's AI","timestamp":1787322682374}@@#### Article
-source:: [[../articles/bednar-does-ai-make-lawyers-worse-at-thinking-new-research-offers-a-more-complicated-answer]]
-from:: "Since the public release of ChatGPT in 2022, a growing body of empirical research has suggested that generative AI systems could fundamentally reshape the practice of law."
-to:: "conditions that increase the likelihood that AI substitutes for careful analysis rather than supporting it."
-
-#### Article
-source:: [[../articles/gerlich-2025-ai-tools-in-society]]
-from:: "This study investigates the relationship between AI tool usage and critical thinking skills, focusing on cognitive offloading as a mediating factor."
-to:: "These results highlight the potential cognitive costs of AI tool reliance, emphasising the need for educational strategies that promote critical engagement with AI technologies."
-
-%% Note: 666 UK participants, mixed-method with validated HCTA assessment. Key finding: β = −1.76, p < 0.001. Self-report limitation: correction published noting reliance on self-reported practices. %%
-
-#### Article
-source:: [[../articles/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers]]
-from:: "We survey 319 knowledge workers"
-to:: "information verification, response integration, and task stewardship."
-
-%% Note: 319 knowledge workers, 936 examples. Key finding: shift from generative tasks (knowledge recall, synthesis, comprehension) to reviewer tasks (verification, integration, stewardship)—a move "down" Bloom's taxonomy. %%
-
-#### Article
-source:: [[../articles/gutoreva-position-ai-as-part-of-self-extending-the-mind-requires-cognitive-co-regulation]]
-from:: "Artificial Intelligence (AI) systems must be modeled as integral components of human cognition, and that safety and alignment are best achieved through cognitive co-regulation rather than external constraint."
-to:: "Managing this integration requires operational frameworks that account for metacognition and epistemic authority"
-
-%% Note: The counterargument. Extended Mind position: external tools can become legitimate parts of cognition. Key distinction: generative AI performs full epistemic labor, not just discrete functions. Risk increases when AI is treated as authoritative source rather than assistive instrument. %%
+Budzyń and colleagues (2025), in *Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy* (a multicentre observational study), found that after endoscopists were exposed to AI-assisted polyp detection, their adenoma detection rate on standard, non-AI colonoscopy fell 6.0 percentage points, from 28.4% to 22.4%. These are real patient outcomes, not self-reports. The drop appeared on procedures done without the AI, which is the worrying part.
 
 #### Article
 source:: [[../articles/budzy-endoscopist-deskilling-risk-after-exposure-to-artificial-intelligence-in-colonoscopy-a-multicentre-observational-study]]
@@ -125,12 +44,53 @@ to:: "In multivariable logistic regression analysis, exposure to AI (odds ratio"
 
 %% Note: Multicentre observational study (ACCEPT trial, Poland). After endoscopists were exposed to AI-assisted polyp detection, ADR on standard non-AI colonoscopy fell from 28.4% to 22.4% (6.0 pp absolute, p=0.0089). Objective clinical outcome, not self-report. %%
 
+## The worker surveys: self-reports from people who use AI daily
+
+Gerlich (2025) surveyed 666 UK participants using validated critical thinking assessments including the Halpern Critical Thinking Assessment. Regression analysis showed AI tool use negatively predicts critical thinking scores (beta = -1.76, p < 0.001), mediated by increased cognitive offloading. Younger participants showed the strongest pattern: higher AI dependence, lower critical thinking scores. A formal correction was later published for this study, noting the reliance on self-reported critical thinking practices.
+
+#### Article
+source:: [[../articles/gerlich-2025-ai-tools-in-society]]
+from:: "This study investigates the relationship between AI tool usage and critical thinking skills, focusing on cognitive offloading as a mediating factor."
+to:: "These results highlight the potential cognitive costs of AI tool reliance, emphasising the need for educational strategies that promote critical engagement with AI technologies."
+
+%% Note: 666 UK participants, mixed-method with validated HCTA assessment. Key finding: beta = -1.76, p < 0.001. Self-report limitation: correction published noting reliance on self-reported practices. %%
+
+Lee and colleagues at Microsoft Research (2025) tracked 319 knowledge workers across 936 examples of GenAI use. Higher confidence in AI was associated with lower critical thinking and vice versa. The study documented a shift in task type: AI use moves workers from generative tasks such as knowledge recall, comprehension, and synthesis toward reviewer tasks such as verification and integration. That is a move down Bloom's taxonomy of cognitive skills. You will see why this matters in Unit 4.
+
+#### Article
+source:: [[../articles/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers]]
+from:: "We survey 319 knowledge workers"
+to:: "information verification, response integration, and task stewardship."
+
+%% Note: 319 knowledge workers, 936 examples. Key finding: shift from generative tasks (knowledge recall, synthesis, comprehension) to reviewer tasks (verification, integration, stewardship), a move "down" Bloom's taxonomy. %%
+
+Roxana Seifer's survey of 299 UK workers (2026) found similar self-reported patterns: 56% felt confident after a quick review, 45% chose the AI's answer over their own, 47% checked AI output less than a colleague's work, and 41% found tasks harder without AI. Daily users showed the strongest effects. This was a self-published, self-reported survey, so its patterns are warning signs, not proof of cause and effect.
+
 #### Article
 source:: [[../articles/seifer-could-cognitive-dependency-be-an-early-warning-sign-of-gradual-disempowerment]]
 from:: "The study found evidence that AI may be affecting how employees approach cognitive tasks:"
 to:: "Daily users reported the strongest patterns across all four items."
 
-%% Note: Self-published Substack survey (2026), 299 UK employees across six sectors. Self-reported, single time point; author states it does not prove causation. %%--}
+%% Note: Self-published Substack survey (2026), 299 UK employees across six sectors. Self-reported, single time point; author states it does not prove causation. %%
+
+## A flag from the lab
+
+More recent findings point the same way: a short burst of AI-assisted practice can make people worse on later problems done without AI, and more likely to give up. People who explained the AI's logic in their own words fixed bugs far more often than people who did not. This last finding is the reason for one of Unit 4's core rules: close the chat, restate in your own words.
+
+## The counterargument: tools as part of the mind
+Not everyone reads this as loss. Gutoreva and colleagues (2025) take the Extended Mind position: a tool you rely on can become a real part of your thinking, not a replacement for it. The line that matters is between using AI as an assistive instrument and treating it as an authoritative source. When AI performs the full epistemic labour, the risk of disempowerment rises. Read their position below.
+
+#### Article
+source:: [[../articles/gutoreva-position-ai-as-part-of-self-extending-the-mind-requires-cognitive-co-regulation]]
+from:: "Artificial Intelligence (AI) systems must be modeled as integral components of human cognition, and that safety and alignment are best achieved through cognitive co-regulation rather than external constraint."
+to:: "Managing this integration requires operational frameworks that account for metacognition and epistemic authority"
+
+%% Note: The counterargument. Extended Mind position: external tools can become legitimate parts of cognition. Key distinction: generative AI performs full epistemic labor, not just discrete functions. Risk increases when AI is treated as authoritative source rather than assistive instrument. %%
+
+## Reading the evidence honestly
+Hold two thoughts together. The clinical and worker studies above point at real erosion of individual skill. The legal study points at real gains from early, engaged use. Both can be true, because whether help helps depends on when and how you use it. The honest context: most of these studies are short, narrow, and small. Long-term and real-world effects on whole populations are still unknown. The reasonable conclusion is concern, not panic. Friction-free help can quietly remove the struggle that builds skill, and we do not yet know how far that goes.
+
+
 
 #### Text
 content::
