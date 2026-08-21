@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1787310638239}@@---
+---
 title: "Arbitrary cognitive offloading to GenAI: Does the current policy landscape account for the right to quality education of children and youth in the European Union?"
 author:
   - "Marit Brademann"
@@ -431,4 +431,4 @@ Brademann M. (2026). Arbitrary cognitive offloading to GenAI: Does the current p
 
 ## Attachments
 
--   [Marit_Brademann_AIPL_Research_Paper_FinalV (1) (PDF, 368 KB)](https://aipolicylab.se/wp-content/uploads/2026/07/Marit_Brademann_AIPL_Research_Paper_FinalV-1.pdf)++}
+-   [Marit_Brademann_AIPL_Research_Paper_FinalV (1) (PDF, 368 KB)](https://aipolicylab.se/wp-content/uploads/2026/07/Marit_Brademann_AIPL_Research_Paper_FinalV-1.pdf)
