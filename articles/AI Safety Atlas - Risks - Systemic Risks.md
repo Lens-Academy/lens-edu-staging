@@ -27,7 +27,7 @@ A large number of risks emerge from the interaction of AI with existing societal
 
 **Systemic risks emerge from interactions between AI systems and society, not from individual AI failures.** Unlike misuse or misalignment risks that focus on specific AI systems behaving badly, systemic risks arise from how multiple AI systems—even when working exactly as designed—interact with each other and with human societal structures like markets, democratic institutions, and social networks. These risks parallel those in other complex domains: the 2008 financial crisis wasn't caused by any single bank's decision but emerged from the collective behavior of many institutions making individually reasonable choices that combined to threaten the entire financial system ([Haldane and May, 2011](https://www.nature.com/articles/nature09659)).
 
-**Properties of complex systems that lead to systemic AI risks**
+{--{"author":"Luc's AI","timestamp":1787319601302}@@**Properties--}{++{"author":"Luc's AI","timestamp":1787319601302}@@:::callout {title="Properties++} of complex systems that lead to systemic AI {--{"author":"Luc's AI","timestamp":1787319601302}@@risks**--}{++{"author":"Luc's AI","timestamp":1787319601302}@@risks — Optional · 2 min read" tone="neutral" collapse="closed"}++}
 
 There are various properties of complex systems that we might want to pay attention to when thinking about systemic risks from interaction of AI with other systems. Some of these are:
 
@@ -35,7 +35,9 @@ There are various properties of complex systems that we might want to pay attent
 - **Feedback loops**: Amplify changes and create self-reinforcing cycles. Small initial effects can grow exponentially when outputs from one process become inputs to another. AI recommendation systems that optimize for engagement might gradually push users toward more extreme content, changing social discourse and political beliefs—which in turn affects what content gets created and what people engage with ([Jiang et al., 2019](https://arxiv.org/abs/1902.10730)).
 - **Non-linearity**: Small changes can produce disproportionately large effects. Complex systems rarely respond proportionally to inputs. Instead, tiny alterations can trigger massive changes once certain thresholds are crossed. This property makes systemic risks particularly hard to predict and control, since minor adjustments to AI systems could cascade into major societal transformations.
 - **Self-organization**: Structures without central coordination. Multiple AI systems optimizing for their objectives can spontaneously organize into patterns that no designer intended. We already see this in financial markets, where algorithmic traders develop strategies in response to each other's behaviors, creating market dynamics that no single actor controls ([Friston et al., 2022](https://arxiv.org/abs/2212.01354)).
-- **Agent-agnosticism**:  Systemic risks arise regardless of agents or alignment. These risks emerge from processes, system structure and dynamics rather than from specific AI intentions. Even perfectly aligned AI systems that operate exactly as designed could collectively produce harmful outcomes when their interactions create unintended consequences ([Critch, 2021](https://www.alignmentforum.org/posts/LpM3EAakwYdS6aRKf/what-multipolar-failure-looks-like-and-robust-agent-agnostic)).
+- **Agent-agnosticism**:  Systemic risks arise regardless of agents or alignment. These risks emerge from processes, system structure and dynamics rather than from specific AI intentions. Even perfectly aligned AI systems that operate exactly as designed could collectively produce harmful outcomes when their interactions create unintended consequences ([Critch, 2021](https://www.alignmentforum.org/posts/LpM3EAakwYdS6aRKf/what-multipolar-failure-looks-like-and-robust-agent-agnostic)).{++{"author":"Luc's AI","timestamp":1787319602563}@@
+
+:::++}
 
 **AI-driven systemic failures can follow two distinct causal pathways.** The literature describes these as "going out with a bang" and "going out with a whimper"—terms that capture their fundamental differences in onset, progression, and manifestation. Other researchers refer to these as "decisive" versus "accumulative" pathways to failure ([Christiano, 2019](https://www.alignmentforum.org/posts/HBxe6wdjxK239zajf/what-failure-looks-like); [Kasirzadeh, 2024](https://arxiv.org/abs/2401.07836)).
 
@@ -88,7 +90,7 @@ There are various properties of complex systems that we might want to pay attent
 
 **State concentration advances through AI-powered surveillance and automated governance.** A social credit system is an example of how comprehensive data integration could enable unprecedented state control over citizen behavior. This pattern extends beyond authoritarian states—democratic governments have significantly increased investment in AI surveillance technologies. Administrative automation removes human discretion from governance, with algorithmic systems processing vast numbers of regulatory decisions and enforcement actions without meaningful oversight. These systems operate with increasing autonomy, gradually displacing traditional governance mechanisms ([Feldstein, 2021](https://carnegie-production-assets.s3.amazonaws.com/static/files/WP-Feldstein-AISurveillance_final1.pdf)).
 
-**Self Reinforcing Autocratic Feedback Loops**
+{--{"author":"Luc's AI","timestamp":1787319603723}@@**Self--}{++{"author":"Luc's AI","timestamp":1787319603723}@@:::callout {title="Self++} Reinforcing Autocratic Feedback {--{"author":"Luc's AI","timestamp":1787319603723}@@Loops**--}{++{"author":"Luc's AI","timestamp":1787319603723}@@Loops — Optional · 2 min read" tone="neutral" collapse="closed"}++}
 
 **AI surveillance capabilities can create self-reinforcing cycles that strengthen autocratic control while spurring technological advancement.** Empirical evidence reveals how these feedback loops operate through market mechanisms rather than deliberate coordination.
 
@@ -102,7 +104,9 @@ There are various properties of complex systems that we might want to pay attent
 
 **International diffusion amplifies risks beyond individual nations.** AI surveillance technology developed for domestic political control gets exported globally ([Feldstein, 2019](https://carnegieendowment.org/research/2019/09/the-global-expansion-of-ai-surveillance?lang=en)). Democratic institutions find themselves competing with governments possessing sophisticated tools for population monitoring and influence. This creates pressure for adoption even in democratic contexts, as seen with increasing government AI surveillance investments across political systems.
 
-**Economic rather than coercive mechanisms drive the relationship.** The feedback loop operates through market forces - governments pay for effective control tools, companies develop better capabilities to meet demand, and improved technology creates new control possibilities. This makes the dynamic self-sustaining and resistant to traditional approaches for limiting autocratic power, since it strengthens rather than undermines economic productivity in the AI sector.
+**Economic rather than coercive mechanisms drive the relationship.** The feedback loop operates through market forces - governments pay for effective control tools, companies develop better capabilities to meet demand, and improved technology creates new control possibilities. This makes the dynamic self-sustaining and resistant to traditional approaches for limiting autocratic power, since it strengthens rather than undermines economic productivity in the AI sector.{++{"author":"Luc's AI","timestamp":1787319604652}@@
+
+:::++}
 
 **Eroding digital privacy further enables power concentration**
 
