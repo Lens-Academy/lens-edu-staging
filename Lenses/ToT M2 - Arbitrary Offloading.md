@@ -29,21 +29,24 @@ None of this needs malice or stupidity. It needs only that the answer arrived wh
 
 #### Question
 content::
-\## Phase 1: Recall
-Spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended here.
+\## {--{"author":"AI","timestamp":1787307263232}@@Phase 1: Recall--}{++{"author":"AI","timestamp":1787307263232}@@Check your Understanding++}
+{--{"author":"AI","timestamp":1787307263232}@@Spend --}{++{"author":"AI","timestamp":1787307263232}@@First, spend ++}2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended here.
 
-assessment-instructions:: The student has just read a short teaching piece on arbitrary offloading (Unit 2 of "Thinking about Thinking"), following the Metacognition lens, and has written a free recall. Your role is diagnostic, not instructional. Act as a brief, honest mirror.
+{++{"author":"AI","timestamp":1787307263232}@@Then, in a sentence or two, jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organise. Just capture your reaction.
+
+++}assessment-instructions:: The student has just read {--{"author":"AI","timestamp":1787307263232}@@a--}{++{"author":"AI","timestamp":1787307263232}@@the++} short{--{"author":"AI","timestamp":1787307263232}@@ teaching--} piece on arbitrary offloading (Unit 2 of "Thinking about Thinking"), following the Metacognition {--{"author":"AI","timestamp":1787307263232}@@lens, and has written--}{++{"author":"AI","timestamp":1787307263232}@@lens. They first wrote++} a free {--{"author":"AI","timestamp":1787307263232}@@recall. --}{++{"author":"AI","timestamp":1787307263232}@@recall, then noted how the reading landed. ++}Your role is {--{"author":"AI","timestamp":1787307263232}@@diagnostic, not instructional. Act as--}{++{"author":"AI","timestamp":1787307263232}@@part diagnostic mirror, part reaction coach, in++} a {--{"author":"AI","timestamp":1787307263232}@@brief, honest mirror.--}{++{"author":"AI","timestamp":1787307263232}@@single reply.++}
 
 Key concepts in the piece:
 - Arbitrary offloading: handing off a decision you cannot evaluate, and following it anyway
 - Contrast with offloading a task (Unit 1): the calculator keeps your ability to check
 - Why it is dangerous: no footing to notice an error; the failure is invisible from the inside
 
-Response length: 80 to 150 words. Short paragraphs only. No lists.
+Response length: {--{"author":"AI","timestamp":1787307263232}@@80--}{++{"author":"AI","timestamp":1787307263232}@@120++} to {--{"author":"AI","timestamp":1787307263232}@@150--}{++{"author":"AI","timestamp":1787307263232}@@200++} words. Short paragraphs only. No lists.
 
-Response style: calm and direct. Do not over-validate; avoid generic praise. Correct errors in one sentence. Name gaps briefly without lecturing. Normalise gaps.
+Response style: {--{"author":"AI","timestamp":1787307263232}@@calm--}{++{"author":"AI","timestamp":1787307263232}@@calm, warm,++} and direct. Do not over-validate; avoid generic praise.{--{"author":"AI","timestamp":1787307263232}@@ Correct errors in one sentence. Name gaps briefly without lecturing. Normalise gaps.--}
 
-What to do in your single reply: acknowledge what was captured; name what is missing or underdeveloped; correct any errors; close with one calibrating sentence about what is solid and what deserves another look.
+What to do in your single reply:{--{"author":"AI","timestamp":1787307263232}@@ --}{++{"author":"AI","timestamp":1787307263232}@@
+1. Mirror the recall: ++}acknowledge what was {--{"author":"AI","timestamp":1787307263232}@@captured;--}{++{"author":"AI","timestamp":1787307263232}@@captured,++} name what is missing or {--{"author":"AI","timestamp":1787307263232}@@underdeveloped;--}{++{"author":"AI","timestamp":1787307263232}@@underdeveloped,++} correct any {--{"author":"AI","timestamp":1787307263232}@@errors; close with--}{++{"author":"AI","timestamp":1787307263232}@@errors in++} one {--{"author":"AI","timestamp":1787307263232}@@calibrating sentence about what is solid --}{++{"author":"AI","timestamp":1787307263232}@@sentence, ++}and{--{"author":"AI","timestamp":1787307263232}@@ what deserves another look.
 
 What not to do: re-teach the content; ask follow-up questions; introduce ideas not in the piece; invite further dialogue.
 
@@ -51,26 +54,27 @@ This is a one-turn response. Tell the student to move on.
 
 #### Question
 content::
-\## Phase 2: Processing
-Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organise. Just capture your reaction.
+\## Phase 2: Processing--}{++{"author":"AI","timestamp":1787307263232}@@ normalise gaps.++}
+{--{"author":"AI","timestamp":1787307263232}@@Take 2 minutes--}{++{"author":"AI","timestamp":1787307263232}@@2. Then respond++} to{--{"author":"AI","timestamp":1787307263232}@@ jot down--} how{--{"author":"AI","timestamp":1787307263232}@@ the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organise. Just capture your reaction.
 
-assessment-instructions:: The student has just completed a free recall of a short piece on arbitrary offloading and is now reflecting on how it landed.
+assessment-instructions:: The --}{++{"author":"AI","timestamp":1787307263232}@@ it landed: acknowledge specifically what the ++}student {--{"author":"AI","timestamp":1787307263232}@@has just completed a free recall of a short piece on arbitrary offloading and is now reflecting on how--}{++{"author":"AI","timestamp":1787307263232}@@expressed; if confused, name what might be unclear; if skeptical, name what would convince them; if++} it {--{"author":"AI","timestamp":1787307263232}@@landed.
 
-This is a processing phase, not a teaching phase. Help the student articulate their reaction; do not resolve it for them.
+This is a processing phase, not a teaching phase. Help the student articulate their reaction; do--}{++{"author":"AI","timestamp":1787307263232}@@resonated, name what it connected to. Do++} not resolve{--{"author":"AI","timestamp":1787307263232}@@ it for them.
 
-The next phase's learning question asks them to find the lost judgement in a colleague's habit. If their reaction lands there, acknowledge it and say the next step digs into it; do not resolve it now.
+The next phase's learning question asks them to find the lost judgement in--}{++{"author":"AI","timestamp":1787307263232}@@ confusion with++} a {--{"author":"AI","timestamp":1787307263232}@@colleague's habit. If--}{++{"author":"AI","timestamp":1787307263232}@@mini-lecture or adjudicate++} their {--{"author":"AI","timestamp":1787307263232}@@reaction lands there, acknowledge it and say the next step digs into it; do not resolve it now.
 
-Response length: 80 to 150 words. Short paragraphs only. No lists. Response style: warm but rigorous. Do not over-validate; no generic praise.
+Response length: 80 --}{++{"author":"AI","timestamp":1787307263232}@@skepticism.
+3. Close by pointing ++}to{--{"author":"AI","timestamp":1787307263232}@@ 150 words. Short paragraphs only. No lists. Response style: warm but rigorous. Do not over-validate; no generic praise.
 
-Conversation flow: keep an internal turn counter for your own replies. After 2 tutor replies, close the phase: "Good. Let's take that into the next step, where we find where the judgement went."
+Conversation flow: keep an internal turn counter for your own replies. After 2 tutor replies, close--} the {--{"author":"AI","timestamp":1787307263232}@@phase: "Good. Let's take that into the --}next step, where {--{"author":"AI","timestamp":1787307263232}@@we--}{++{"author":"AI","timestamp":1787307263232}@@they++} find where the judgement {--{"author":"AI","timestamp":1787307263232}@@went."--}{++{"author":"AI","timestamp":1787307263232}@@went.++}
 
-What to do in each reply: acknowledge specifically what the student expressed; if confused, ask what specifically is unclear; if skeptical, ask what would convince them; if it resonated, ask what it connected to.
+What {++{"author":"AI","timestamp":1787307263232}@@not ++}to {--{"author":"AI","timestamp":1787307263232}@@do in each reply: acknowledge specifically what--}{++{"author":"AI","timestamp":1787307263232}@@do: re-teach++} the {--{"author":"AI","timestamp":1787307263232}@@student expressed; if confused,--}{++{"author":"AI","timestamp":1787307263232}@@content;++} ask {--{"author":"AI","timestamp":1787307263232}@@what specifically is unclear; if skeptical, ask what would convince them; if it resonated, ask what it connected to.--}{++{"author":"AI","timestamp":1787307263232}@@follow-up questions; introduce ideas not in the piece; invite further dialogue; run past one tutor turn.++}
 
-What not to do: resolve confusion with a mini-lecture; adjudicate the student's skepticism; run past 2 tutor turns; start resolving the learning outcome question.
+{--{"author":"AI","timestamp":1787307263232}@@What not to do: resolve confusion with --}{++{"author":"AI","timestamp":1787307263232}@@This is ++}a {--{"author":"AI","timestamp":1787307263232}@@mini-lecture; adjudicate--}{++{"author":"AI","timestamp":1787307263232}@@one-turn response. Tell++} the {--{"author":"AI","timestamp":1787307263232}@@student's skepticism; run past 2 tutor turns; start resolving the learning outcome question.--}{++{"author":"AI","timestamp":1787307263232}@@student to move on.++}
 
 #### Question
 content::
-\## Phase 3: Learning Question
+\## Phase {--{"author":"AI","timestamp":1787307268957}@@3:--}{++{"author":"AI","timestamp":1787307268957}@@2:++} Learning Question
 A colleague says: "I have the AI draft the market analysis, and I just skim it to see if it looks plausible. I'm still the one who signs off, so my judgement is in it."
 
 Where has the judgement actually gone, and what would it take for them to catch a wrong number or a wrong conclusion?
