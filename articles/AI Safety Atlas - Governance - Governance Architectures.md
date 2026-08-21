@@ -238,7 +238,9 @@ Despite these challenges, a patchwork of international initiatives has emerged t
 - **United Nations efforts**: Includes UNESCO’s AI ethics recommendations, the High-Level Advisory Body, and the upcoming Global Digital Compact, a United Nations framework for international digital cooperation, focused on a common digital future with an AI component.
 - **OECD guidelines**: The Organisation for Economic Co-operation and Development has been particularly influential in shaping AI governance principles that inform national policies, and continues to guide regional frameworks with a focus on rights, transparency, and accountability.
 - **Council of Europe AI treaty**: This proposed treaty aims to protect human rights in the context of AI development and use, focusing on ethical boundaries.
-- **China's Global AI Governance Initiative**: Demonstrating that AI governance is a priority even for nations often at odds with Western powers, China has put forth its own proposal for international AI governance.
+- **China's Global AI Governance Initiative**: Demonstrating that AI governance is a priority even for nations often at odds with Western powers, China has put forth its own proposal for international AI governance.{++{"author":"Luc's AI","timestamp":1787319574703}@@
+
+:::++}
 
 **How does international technology governance typically evolve?** Understanding the progression of international policymaking helps contextualize current AI governance efforts and identify potential paths forward. International policymaking typically progresses through several stages ([Badie et al., 2011](https://sk.sagepub.com/ency/edvol/intlpoliticalscience/chpt/stages-model-policy-making)):
 
