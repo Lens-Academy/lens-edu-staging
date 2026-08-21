@@ -15,7 +15,7 @@ Think back to the {--{"author":"AI","timestamp":1787307058366}@@calculator.--}{+
 
 **Arbitrary {--{"author":"AI","timestamp":1787307163918}@@cognitive --}offloading** is the opposite extreme. It is handing off a decision you do not understand at all. You have no way to evaluate the answer, but you follow it anyway. The judgement does not just move. It leaves entirely.
 
-Here is how arbitrary offloading differs from offloading a task. When you offload a task to a calculator, the work moves out but your ability to check the result stays. With arbitrary offloading, you cannot even evaluate the result, so no check is left at all. The calculator keeps the judge. Arbitrary offloading removes the judge.
+Here is how arbitrary offloading differs from offloading a task. When you offload a task to a calculator, the work moves out but your ability to check the result stays. With arbitrary offloading, you cannot even evaluate the result because you do, so no check is left at all. The calculator keeps the judge. Arbitrary offloading removes the judge.
 
 \## Why it is the danger case
 
