@@ -16,11 +16,11 @@ _We are on the edge of change comparable to the rise of human life on Earth._ - 
 
 What does it feel like to stand here?
 
-{--{"author":"Luc's AI","timestamp":1787306326474}@@[![Image--}{++{"author":"Luc's AI","timestamp":1787306326474}@@![Image++} 1: {--{"author":"Luc's AI","timestamp":1787306326474}@@Edge1](https://waitbutwhy.com/wp-content/uploads/2015/01/Edge1.png)](https://waitbutwhy.com/wp-content/uploads/2015/01/Edge1.png)--}{++{"author":"Luc's AI","timestamp":1787306326474}@@Edge1](https://waitbutwhy.com/wp-content/uploads/2015/01/Edge1.png)++}
+![Image 1: Edge1](https://waitbutwhy.com/wp-content/uploads/2015/01/Edge1.png)
 
 It seems like a pretty intense place to be standing—but then you have to remember something about what it's like to stand on a time graph: you can't see what's to your right. So here's how it actually feels to stand there:
 
-{--{"author":"Luc's AI","timestamp":1787306326689}@@[![Image--}{++{"author":"Luc's AI","timestamp":1787306326689}@@![Image++} 2: {--{"author":"Luc's AI","timestamp":1787306326689}@@Edge](https://waitbutwhy.com/wp-content/uploads/2015/01/Edge.jpg)](https://waitbutwhy.com/wp-content/uploads/2015/01/Edge.jpg)--}{++{"author":"Luc's AI","timestamp":1787306326689}@@Edge](https://waitbutwhy.com/wp-content/uploads/2015/01/Edge.jpg)++}
+![Image 2: Edge](https://waitbutwhy.com/wp-content/uploads/2015/01/Edge.jpg)
 
 Which probably feels pretty normal…
 
@@ -54,11 +54,11 @@ This isn't science fiction. It's what many scientists smarter and more knowledge
 So then why, when you hear me say something like "the world 35 years from now might be totally unrecognizable," are you thinking, "Cool….but nahhhhhhh"? Three reasons we're skeptical of outlandish forecasts of the future:
 **1) When it comes to history, we think in straight lines.** When we imagine the progress of the next 30 years, we look back to the progress of the previous 30 as an indicator of how much will likely happen. When we think about the extent to which the world will change in the 21st century, we just take the 20th century progress and add it to the year 2000. This was the same mistake our 1750 guy made when he got someone from 1500 and expected to blow his mind as much as his own was blown going the same distance ahead. It's most intuitive for us to think _linearly,_ when we should be thinking _exponentially_. If someone is being more clever about it, they might predict the advances of the next 30 years not by looking at the previous 30 years, but by taking the _current_ rate of progress and judging based on that. They'd be more accurate, but still way off. In order to think about the future correctly, you need to imagine things moving at a _much faster rate_ than they're moving now.
 
-{--{"author":"Luc's AI","timestamp":1787306326906}@@[![Image--}{++{"author":"Luc's AI","timestamp":1787306326906}@@![Image++} 3: {--{"author":"Luc's AI","timestamp":1787306326906}@@Projections](https://waitbutwhy.com/wp-content/uploads/2015/01/Projections.png)](https://waitbutwhy.com/wp-content/uploads/2015/01/Projections.png)--}{++{"author":"Luc's AI","timestamp":1787306326906}@@Projections](https://waitbutwhy.com/wp-content/uploads/2015/01/Projections.png)++}
+![Image 3: Projections](https://waitbutwhy.com/wp-content/uploads/2015/01/Projections.png)
 
 **2) The trajectory of very recent history often tells a distorted story.** First, even a steep exponential curve seems linear when you only look at a tiny slice of it, the same way if you look at a little segment of a huge circle up close, it looks almost like a straight line. Second, exponential growth isn't totally smooth and uniform. Kurzweil explains that progress happens in "S-curves":
 
-{--{"author":"Luc's AI","timestamp":1787306327103}@@[![Image--}{++{"author":"Luc's AI","timestamp":1787306327103}@@![Image++} 4: {--{"author":"Luc's AI","timestamp":1787306327103}@@S-Curves](https://waitbutwhy.com/wp-content/uploads/2015/01/S-Curves2.png)](https://waitbutwhy.com/wp-content/uploads/2015/01/S-Curves2.png)--}{++{"author":"Luc's AI","timestamp":1787306327103}@@S-Curves](https://waitbutwhy.com/wp-content/uploads/2015/01/S-Curves2.png)++}
+![Image 4: S-Curves](https://waitbutwhy.com/wp-content/uploads/2015/01/S-Curves2.png)
 
 An S is created by the wave of progress when a new paradigm sweeps the world. The curve goes through three phases:
 
@@ -130,15 +130,15 @@ On the other hand, multiplying big numbers or playing chess are new activities f
 
 One fun example—when you look at this, you and a computer both can figure out that it's a rectangle with two distinct shades, alternating:
 
-{--{"author":"Luc's AI","timestamp":1787306327305}@@[![Image--}{++{"author":"Luc's AI","timestamp":1787306327305}@@![Image++} 5: Screen Shot 2015-01-21 at 12.59.21 {--{"author":"Luc's AI","timestamp":1787306327305}@@AM](https://waitbutwhy.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-21-at-12.59.21-AM.png)](https://waitbutwhy.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-21-at-12.59.21-AM.png)--}{++{"author":"Luc's AI","timestamp":1787306327305}@@AM](https://waitbutwhy.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-21-at-12.59.21-AM.png)++}
+![Image 5: Screen Shot 2015-01-21 at 12.59.21 AM](https://waitbutwhy.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-21-at-12.59.21-AM.png)
 
 Tied so far. But if you pick up the black and reveal the whole image…
 
-{--{"author":"Luc's AI","timestamp":1787306327573}@@[![Image--}{++{"author":"Luc's AI","timestamp":1787306327573}@@![Image++} 6: Screen Shot 2015-01-21 at 12.59.54 {--{"author":"Luc's AI","timestamp":1787306327573}@@AM](https://waitbutwhy.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-21-at-12.59.54-AM.png)](https://waitbutwhy.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-21-at-12.59.54-AM.png)--}{++{"author":"Luc's AI","timestamp":1787306327573}@@AM](https://waitbutwhy.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-21-at-12.59.54-AM.png)++}
+![Image 6: Screen Shot 2015-01-21 at 12.59.54 AM](https://waitbutwhy.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-21-at-12.59.54-AM.png)
 
 …you have no problem giving a full description of the various opaque and translucent cylinders, slats, and 3-D corners, but the computer would fail miserably. It would describe what it sees—a variety of two-dimensional shapes in several different shades—which is actually what's there. Your brain is doing a ton of fancy shit to interpret the implied depth, shade-mixing, and room lighting the picture is trying to portray. And looking at the picture below, a computer sees a two-dimensional white, black, and gray collage, while you easily see what it really is—a photo of an entirely-black, 3-D rock:
 
-{--{"author":"Luc's AI","timestamp":1787306327787}@@[![Image--}{++{"author":"Luc's AI","timestamp":1787306327787}@@![Image++} 7: {--{"author":"Luc's AI","timestamp":1787306327787}@@article-2053686-0E8BC15900000578-845_634x330](https://waitbutwhy.com/wp-content/uploads/2015/01/article-2053686-0E8BC15900000578-845_634x330.jpg)](https://waitbutwhy.com/wp-content/uploads/2015/01/article-2053686-0E8BC15900000578-845_634x330.jpg)--}{++{"author":"Luc's AI","timestamp":1787306327787}@@article-2053686-0E8BC15900000578-845_634x330](https://waitbutwhy.com/wp-content/uploads/2015/01/article-2053686-0E8BC15900000578-845_634x330.jpg)++}
+![Image 7: article-2053686-0E8BC15900000578-845_634x330](https://waitbutwhy.com/wp-content/uploads/2015/01/article-2053686-0E8BC15900000578-845_634x330.jpg)
 
 Credit: Matthew Lloyd
 
@@ -161,7 +161,7 @@ Currently, the world's fastest supercomputer, China's [Tianhe-2](http://www.reut
 Kurzweil suggests that we think about the state of computers by looking at how many cps you can buy for $1,000. When that number reaches human-level—10 quadrillion cps—then that'll mean AGI could become a very real part of life.
 
 [Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law) is a historically-reliable rule that the world's maximum computing power doubles approximately every two years, meaning computer hardware advancement, like general human advancement through history, grows exponentially. Looking at how this relates to Kurzweil's cps/$1,000 metric, we're currently at about 10 trillion cps/$1,000, right on pace with this graph's predicted trajectory:
-{--{"author":"Luc's AI","timestamp":1787306327991}@@[![Image--}{++{"author":"Luc's AI","timestamp":1787306327991}@@![Image++} 8: {--{"author":"Luc's AI","timestamp":1787306327991}@@PPTExponentialGrowthof_Computing-1](https://waitbutwhy.com/wp-content/uploads/2015/01/PPTExponentialGrowthof_Computing-1.jpg)](https://waitbutwhy.com/wp-content/uploads/2015/01/PPTExponentialGrowthof_Computing-1.jpg)--}{++{"author":"Luc's AI","timestamp":1787306327991}@@PPTExponentialGrowthof_Computing-1](https://waitbutwhy.com/wp-content/uploads/2015/01/PPTExponentialGrowthof_Computing-1.jpg)++}
+![Image 8: PPTExponentialGrowthof_Computing-1](https://waitbutwhy.com/wp-content/uploads/2015/01/PPTExponentialGrowthof_Computing-1.jpg)
 
 So the world's $1,000 computers are now beating the mouse brain and they're at about a thousandth of human level. This doesn't sound like much until you remember that we were at about a trillionth of human level in 1985, a billionth in 1995, and a millionth in 2005. Being at a thousandth in 2015 puts us right on pace to get to an affordable computer by 2025 that rivals the power of the brain.
 
@@ -229,11 +229,11 @@ AI, which will likely get to AGI by being programmed to self-improve, wouldn't s
 
 This may shock the shit out of us when it happens. The reason is that from _our_ perspective, A) while the intelligence of different kinds of animals varies, the main characteristic we're aware of about any animal's intelligence is that it's far lower than ours, and B) we view the smartest humans as WAY smarter than the dumbest humans. Kind of like this:
 
-{--{"author":"Luc's AI","timestamp":1787306328193}@@[![Image--}{++{"author":"Luc's AI","timestamp":1787306328193}@@![Image++} 9: {--{"author":"Luc's AI","timestamp":1787306328193}@@Intelligence](https://waitbutwhy.com/wp-content/uploads/2015/01/Intelligence.jpg)](https://waitbutwhy.com/wp-content/uploads/2015/01/Intelligence.jpg)--}{++{"author":"Luc's AI","timestamp":1787306328193}@@Intelligence](https://waitbutwhy.com/wp-content/uploads/2015/01/Intelligence.jpg)++}
+![Image 9: Intelligence](https://waitbutwhy.com/wp-content/uploads/2015/01/Intelligence.jpg)
 
 So as AI zooms upward in intelligence toward us, we'll see it as simply becoming smarter, _for an animal._ Then, when it hits the lowest capacity of humanity—Nick Bostrom uses the term "the village idiot"-we'll be like, "Oh wow, it's like a dumb human. Cute!" The only thing is, in the grand spectrum of intelligence, _all_ humans, from the village idiot to Einstein, are within a very small range—so _just_ after hitting village idiot level and being declared to be AGI, it'll suddenly be smarter than Einstein and we won't know what hit us:
 
-{--{"author":"Luc's AI","timestamp":1787306328432}@@[![Image--}{++{"author":"Luc's AI","timestamp":1787306328432}@@![Image++} 10: {--{"author":"Luc's AI","timestamp":1787306328432}@@Intelligence2](https://waitbutwhy.com/wp-content/uploads/2015/01/Intelligence2.png)](https://waitbutwhy.com/wp-content/uploads/2015/01/Intelligence2.png)--}{++{"author":"Luc's AI","timestamp":1787306328432}@@Intelligence2](https://waitbutwhy.com/wp-content/uploads/2015/01/Intelligence2.png)++}
+![Image 10: Intelligence2](https://waitbutwhy.com/wp-content/uploads/2015/01/Intelligence2.png)
 
 And what happens…after that?
 

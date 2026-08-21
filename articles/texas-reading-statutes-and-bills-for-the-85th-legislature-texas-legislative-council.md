@@ -21,7 +21,7 @@ Add discussion note here:
 
 # Reading Statutes and Bills
 
-![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306097927}@@/attachments/texas-reading-statutes-and-bills-for-the-85th-legislature-texas-legislative-council-fig1-f9b01107.jpg--}{++{"author":"Luc's AI","timestamp":1787306097927}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/texas-reading-statutes-and-bills-for-the-85th-legislature-texas-legislative-council-fig1-f9b01107.jpg++})
+![Imported source figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/texas-reading-statutes-and-bills-for-the-85th-legislature-texas-legislative-council-fig1-f9b01107.jpg)
 
 A detailed black and white architectural drawing of the interior of the Texas State Capitol dome. The drawing shows a spiral staircase with a balustrade, classical columns, and decorative elements like framed portraits on the walls. The perspective is from a low angle looking up, emphasizing the grandeur and symmetry of the architecture.
 
@@ -41,7 +41,7 @@ Texas Legislative Council
 P.O. Box 12128  
 Austin, Texas 78711-2128
 
-![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306098136}@@/attachments/texas-reading-statutes-and-bills-for-the-85th-legislature-texas-legislative-council-fig2-cef72ae3.jpg--}{++{"author":"Luc's AI","timestamp":1787306098136}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/texas-reading-statutes-and-bills-for-the-85th-legislature-texas-legislative-council-fig2-cef72ae3.jpg++})
+![Imported source figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/texas-reading-statutes-and-bills-for-the-85th-legislature-texas-legislative-council-fig2-cef72ae3.jpg)
 
 The image shows the official seal of the Texas Legislative Council. It consists of two circular seals side-by-side, each containing a five-pointed star in the center. The left seal is for the "THE SENATE OF TEXAS" and the right seal is for the "HOUSE OF REPRESENTATIVES". Below these two seals, the words "TEXAS LEGISLATIVE COUNCIL" are printed in a bold, sans-serif font.
 

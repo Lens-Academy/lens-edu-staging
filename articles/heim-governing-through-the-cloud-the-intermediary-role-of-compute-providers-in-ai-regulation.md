@@ -63,7 +63,7 @@ Role ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers 
 Constructing an Oversight Scheme — Via Executive Order 14110 the US government is already beginning to implement record keeping roles for compute providers by requiring them to implement a Customer Identification Program (essentially a Know-Your-Customer (KYC) program) for foreign customers, and to report foreign customer training of highly capable models to government. Expanding the role of compute providers to also record and validate domestic customers using compute at frontier AI thresholds could enable the US government to identify and address AI safety risks arising domestically. Complementing these measures with verification and enforcement roles for compute providers could further enable the construction of a comprehensive compute oversight scheme, and ensure that AI firms and developers are complying with AI regulations. ([Section 4](#S4 "4 Constructing an Oversight
 Scheme ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation"))
 
-![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306094854}@@/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img1-ed8933fb.png--}{++{"author":"Luc's AI","timestamp":1787306094854}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img1-ed8933fb.png++})
+![Imported source figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img1-ed8933fb.png)
 
 Figure 2: Additional measures, implemented by the Department of Commerce, would strengthen the intermediary role of compute providers and enable a compute oversight scheme.
 
@@ -137,7 +137,7 @@ This approach offers a nuanced alternative to broad measures such as chip export
 In the AI supply chain, compute providers act as an intermediary, offering computational resources to customers. These providers house large numbers of chips in their data center facilities, operating them cost-effectively in large quantities with necessary elements such as power, land, cooling, and connectivity, and optimizing them for developing and deploying AI models ([Figure 3](#S2.F3 "In 2.1 Compute Providers in the AI Compute Supply
 Chain ‣ 2 Governance Capacities of Compute Providers ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation")). With current technologies, training large AI systems requires physically co-located chips. This has caused much of contemporary AI deployment and development to occur in large facilities, wherein compute is made available to customers digitally and remotely, often through models like Infrastructure as a Service (IaaS) or cloud computing. The compute provider industry has seen significant consolidation in recent years due to the economic advantage of scale ([Richter 2024](#bib.bib136)).
 
-![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306095230}@@/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img2-9bb2f33a.png--}{++{"author":"Luc's AI","timestamp":1787306095230}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img2-9bb2f33a.png++})
+![Imported source figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img2-9bb2f33a.png)
 
 Figure 3: The compute supply chain including compute providers in the middle. Like the production of state-of-the-art AI chips, compute providers’ market shares are concentrated. (Figure from [Sastry et al. 2024](#bib.bib138).)
 
@@ -160,7 +160,7 @@ Table 1: Summary of the key governance capacities that compute providers can ena
 
 These governance capacities are distinct from but related to obligations to _report_ information to governments. In many cases, it will be appropriate for compute providers to collect and retain information internally and only provide information to governments in response to existing legal authorities (for example, identified violations of sanctions, or in response to legal warrants). In other cases, for example, where a customer is undertaking a large training run, regulators may see fit to mandate proactive reporting. Record keeping can ensure that compute providers are aware of, and able to comply with, broader regulations to increase visibility and oversight.
 
-![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306095556}@@/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img3-eb6c315f.png--}{++{"author":"Luc's AI","timestamp":1787306095556}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img3-eb6c315f.png++})
+![Imported source figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img3-eb6c315f.png)
 
 Figure 4: Overview of the different governance capacities and how they relate to three actors: customers (the AI developers and deployers), compute providers, and regulators.
 
@@ -168,7 +168,7 @@ Figure 4: Overview of the different governance capacities and how they relate to
 
 Compute providers, as custodians of sensitive data and AI-related IP, have a distinct capacity for governing and implementing information security measures that protect AI systems.
 
-![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306095870}@@/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img4-eb6c315f.png--}{++{"author":"Luc's AI","timestamp":1787306095870}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img4-eb6c315f.png++})
+![Imported source figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img4-eb6c315f.png)
 
 Figure 5: The security measures implemented by compute providers to help protect AI company’s models, intellectual property, and confidential data.
 
@@ -183,7 +183,7 @@ It is crucial to acknowledge that the responsibility for ensuring information se
 Record keeping describes the process of collecting, organizing, and maintaining information on a compute provider’s customers and their infrastructure usage. Compute providers are inherently record keepers by virtue of their role and technical necessity. They store and process valuable technical data during large AI deployments and training runs for billing purposes, resource management, and service-level agreement tracking (see [Section 3](#S3 "3 Technical Feasibility of Compute Providers’ Governance
 Role ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation") for more detail). Provided that robust privacy protections are in place, this information could be useful to regulators in overseeing the development of advanced AI systems. We recommend that regulators and providers focus on essential data that informs AI regulation without compromising privacy and confidentiality (which we discuss in more detail in [Section 5.2](#S5.SS2 "5.2 Governance Challenges ‣ 5 Key Challenges ‣ Governing Through the Cloud:The Intermediary Role of Compute Providers in AI Regulation")).
 
-![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306096132}@@/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img5-eb6c315f.png--}{++{"author":"Luc's AI","timestamp":1787306096132}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img5-eb6c315f.png++})
+![Imported source figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img5-eb6c315f.png)
 
 Figure 6: The compute provider collects and manages essential usage data on the AI company and its infrastructure usage, focusing on key data that helps validate regulatory compliance without compromising privacy. This facilitates greater transparency into AI advancements, could link compute use to real-world actors, and enables effective post-incident response and forensics.
 
@@ -201,7 +201,7 @@ Furthermore, transparency requirements for environmental accountability, particu
 
 Compute providers can also actively verify customer compliance with regulatory requirements, providing AI firm oversight. Similar to banks and other financial intermediaries, compute providers can actively verify the identity of customers and key customer activities, checking that the properties of AI systems being deployed or developed match customer reporting. This might include verifying the type of computational workload run by the customer (e.g., training an AI model, or deploying a model at scale) as well as claims about the total amount of compute used, or the type of data used in the training process.[^18]
 
-![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306096464}@@/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img6-eb6c315f.png--}{++{"author":"Luc's AI","timestamp":1787306096464}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img6-eb6c315f.png++})
+![Imported source figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img6-eb6c315f.png)
 
 Figure 7: The compute provider actively verifies the AI company’s identities, specific activities, and/or properties of AI systems for regulatory compliance.
 
@@ -220,7 +220,7 @@ For illustrative purposes, imagine a scenario in which regulations require AI de
 
 Compute providers can also aid regulatory enforcement. By virtue of controlling the AI data centers themselves, providers have the ability to directly deny access to rule-breaking customers, and, therefore, prevent the customer from developing or deploying certain kinds of AI systems with that provider. The compute provider might limit compute resources devoted to workloads that raise red flags pending further investigation. Similarly, record keeping and verification processes could trigger regulatory enforcement measures by other actors, such as the Department of Justice in the US.
 
-![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306096785}@@/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img7-eb6c315f.png--}{++{"author":"Luc's AI","timestamp":1787306096785}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img7-eb6c315f.png++})
+![Imported source figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img7-eb6c315f.png)
 
 Figure 8: The compute provider detects violations by the AI company, e.g., via the verification process, and can take appropriate enforcement actions, such as restricting or limiting access to compute.
 
@@ -609,7 +609,7 @@ Attributes ‣ Governing Through the Cloud:The Intermediary Role of Compute Prov
     Deployment in which a trained model is used in an operational setting, e.g., to make new predictions (“inference”).
     
 
-![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306097203}@@/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img8-9c6f1dfb.png--}{++{"author":"Luc's AI","timestamp":1787306097203}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img8-9c6f1dfb.png++})
+![Imported source figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img8-9c6f1dfb.png)
 
 Figure 9: Simplified AI Lifecycle including training, enhancement (e.g., fine-tuning), and deployment (i.e., inference). (Figure from [Sastry et al. 2024](#bib.bib138).)
 
@@ -736,7 +736,7 @@ This section looks at the US as a case study. We examine the Biden Administratio
 
 Unlike proposed US foreign customer identification rules for IaaS providers ([Federal Register 2024](#bib.bib62)), we focus on oversight of only frontier AI model development and deployment, rather than all compute use. While we explore these issues in the US context, similar analyses could also be done for other jurisdictions, like the EU, and in the international context. We encourage further policy analysis in this space.
 
-![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306097519}@@/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img9-ed8933fb.png--}{++{"author":"Luc's AI","timestamp":1787306097519}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img9-ed8933fb.png++})
+![Imported source figure](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/heim-governing-through-the-cloud-the-intermediary-role-of-compute-providers-in-ai-regulation-img9-ed8933fb.png)
 
 Figure 2: Additional measures, implemented by the Department of Commerce, would strengthen the intermediary role of compute providers and enable a compute oversight scheme.
 
