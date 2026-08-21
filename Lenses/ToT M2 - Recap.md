@@ -10,7 +10,7 @@ tags:
 #### Text
 content::
 \## Unit 2 recap: putting the pieces together
-You have finished Unit 2. It gave you two pairs of ideas to hold together. First, thinking itself (cognition) versus thinking about your thinking (metacognition). Second, offloading a task while the judgement stays with you, versus offloading the oversight itself so the judgement leaves.
+You have finished Unit 2. It gave you two pairs of ideas to hold together. First, thinking itself (cognition) versus thinking about your thinking (metacognition). Second, offloading a task while the judgement stays with you, versus {--{"author":"coder's AI","timestamp":1787304486487}@@offloading--}{++{"author":"coder's AI","timestamp":1787304486487}@@metacognitive laziness, where you hand++} the oversight itself {--{"author":"coder's AI","timestamp":1787304486487}@@so--}{++{"author":"coder's AI","timestamp":1787304486487}@@to the tool and++} the judgement leaves.
 
 Use those distinctions to answer the check below in your own words.
 
@@ -28,8 +28,8 @@ In your own words, what is the difference between what Person A and Person B are
 assessment-instructions:: Chapter check for Unit 2. Score the answer according to the rubric below.
 - Metacognition: thinking about how we think; planning, reviewing, and questioning our own process
 - Cognitive offloading (a task): delegating a thinking task to a tool or person; the judgement about the task stays with the user
-- Metacognitive offloading: delegating the oversight itself, including the decision about which tasks to hand off and which to keep
-- Why {--{"author":"coder's AI","timestamp":1787265432114}@@the name changed:--}{++{"author":"coder's AI","timestamp":1787265432114}@@this course prefers++} "metacognitive {--{"author":"coder's AI","timestamp":1787265432114}@@laziness" blamed--}{++{"author":"coder's AI","timestamp":1787265432114}@@offloading" to "metacognitive laziness": the laziness label blames++} the user; {--{"author":"coder's AI","timestamp":1787265432114}@@"metacognitive offloading"--}{++{"author":"coder's AI","timestamp":1787265432114}@@"offloading"++} points at the system and the habit
+- Metacognitive {--{"author":"coder's AI","timestamp":1787304485106}@@offloading:--}{++{"author":"coder's AI","timestamp":1787304485106}@@laziness:++} delegating the oversight itself, including the decision about which tasks to hand off and which to keep
+- {--{"author":"coder's AI","timestamp":1787304485987}@@Why the name changed: "metacognitive laziness" blamed--}{++{"author":"coder's AI","timestamp":1787304485987}@@Metacognitive laziness (Fan, Tang & Le, 2024): the habit of letting++} the {--{"author":"coder's AI","timestamp":1787304485987}@@user; "metacognitive offloading" points at the system and the habit--}{++{"author":"coder's AI","timestamp":1787304485987}@@tool do the thinking metacognition is meant to do++}
 - The calculator example: we offload the arithmetic but still understand what a sum means; the judgement stays ours
 - Arbitrary offloading: handing off a decision we do not understand at all, so the judgement leaves us
 - The link to Unit 3: when we delegate "how to break a difficult problem down", we delegate a large part of the thinking

@@ -3,7 +3,7 @@ id: 'e4bc4ff4-d5b9-4d72-a27a-1743c0f26a82'
 title: "Arbitrary Offloading"
 duration_minutes: 20
 tldr: "Handing off a decision you cannot even evaluate — and following it anyway — is arbitrary offloading. The calculator leaves your judgement in place; arbitrary offloading removes the judge. It is the sharpest form of lost oversight, and the mechanism behind several Unit 3 traps."
-summary_for_tutor: "Content lens for Unit 2 of 'Thinking about Thinking', following the metacognitive-offloading lens. Defines arbitrary offloading (delegating a decision you cannot evaluate and following it anyway), contrasts it with offloading a task (calculator, judgement stays) and with metacognitive offloading (oversight delegated but the domain may still be understood), gives everyday and work examples, explains why it is the danger case (no footing to notice error from the inside), and bridges to Unit 3 (the novice-programmer study's accept rates and illusion of competence). Runs Recall, Processing, and Learning Question phases; the wedge is a colleague who lets the AI draft an analysis and signs off because 'it looks plausible'."
+summary_for_tutor: "Content lens for Unit 2 of 'Thinking about Thinking', following the {--{"author":"coder's AI","timestamp":1787304489676}@@metacognitive-offloading--}{++{"author":"coder's AI","timestamp":1787304489676}@@metacognitive-laziness++} lens. Defines arbitrary offloading (delegating a decision you cannot evaluate and following it anyway), contrasts it with offloading a task (calculator, judgement stays) and with metacognitive {--{"author":"coder's AI","timestamp":1787304489676}@@offloading--}{++{"author":"coder's AI","timestamp":1787304489676}@@laziness++} (oversight delegated but the domain may still be understood), gives everyday and work examples, explains why it is the danger case (no footing to notice error from the inside), and bridges to Unit 3 (the novice-programmer study's accept rates and illusion of competence). Runs Recall, Processing, and Learning Question phases; the wedge is a colleague who lets the AI draft an analysis and signs off because 'it looks plausible'."
 tags:
   - wip
 ---
@@ -12,14 +12,14 @@ tags:
 content::
 \## When the judgement leaves entirely
 
-In the previous lens you saw the calculator: we offload the arithmetic, but we still know what a sum means and could catch a wrong answer. The judgement stays with us. Metacognitive offloading went one step further — we hand the system the oversight itself, including the decision about what to delegate.
+In the previous lens you saw the calculator: we offload the arithmetic, but we still know what a sum means and could catch a wrong answer. The judgement stays with us. Metacognitive {--{"author":"coder's AI","timestamp":1787304487572}@@offloading went--}{++{"author":"coder's AI","timestamp":1787304487572}@@laziness goes++} one step further — we hand the system the oversight itself, including the decision about what to delegate.
 
 **Arbitrary offloading** is the sharpest version. It is handing off a decision you do not understand at all. You have no way to evaluate the answer, but you follow it anyway. The judgement does not just move — it leaves.
 
 \## How it differs from the other two
 
 - **Offloading a task** (the calculator): the work moves out, but your ability to check stays.
-- **Metacognitive offloading**: the oversight moves out — you let the system decide what to delegate — but you may still understand the domain and could in principle re-engage.
+- **Metacognitive {--{"author":"coder's AI","timestamp":1787304491621}@@offloading**:--}{++{"author":"coder's AI","timestamp":1787304491621}@@laziness**:++} the oversight moves out — you let the system decide what to delegate — but you may still understand the domain and could in principle re-engage.
 - **Arbitrary offloading**: you cannot even evaluate the result. There is no check left to apply, because you no longer have the footing to apply one.
 
 The calculator keeps the judge. Arbitrary offloading removes the judge.
@@ -43,12 +43,12 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended here.
 
-assessment-instructions:: The student has just read a short teaching piece on arbitrary offloading (Unit 2 of "Thinking about Thinking"), following the metacognitive-offloading lens, and has written a free recall. Your role is diagnostic, not instructional. Act as a brief, honest mirror.
+assessment-instructions:: The student has just read a short teaching piece on arbitrary offloading (Unit 2 of "Thinking about Thinking"), following the {--{"author":"coder's AI","timestamp":1787304490406}@@metacognitive-offloading--}{++{"author":"coder's AI","timestamp":1787304490406}@@metacognitive-laziness++} lens, and has written a free recall. Your role is diagnostic, not instructional. Act as a brief, honest mirror.
 
 Key concepts in the piece:
 - Arbitrary offloading: handing off a decision you cannot evaluate, and following it anyway
 - Contrast with offloading a task: the calculator keeps your ability to check
-- Contrast with metacognitive offloading: oversight is delegated, but the domain may still be understood
+- Contrast with metacognitive {--{"author":"coder's AI","timestamp":1787304490918}@@offloading:--}{++{"author":"coder's AI","timestamp":1787304490918}@@laziness:++} oversight is delegated, but the domain may still be understood
 - Why it is dangerous: no footing to notice an error; the failure is invisible from the inside
 - The thread to Unit 3: the study's accept rates and illusion of competence are arbitrary offloading in action
 
