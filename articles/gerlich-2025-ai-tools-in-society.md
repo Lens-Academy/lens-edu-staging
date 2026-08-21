@@ -5,8 +5,8 @@ author:
 source_url: "https://www.mdpi.com/2075-4698/15/1/6"
 published: 2025-01-03
 updated: 2025-09-10
-{++{"author":"Luc's AI","timestamp":1787306293195}@@allowUnreachableUrl: true
-++}description: "Survey plus interview study of 666 UK participants on the relationship between frequent AI tool use, cognitive offloading, and critical thinking. The article was updated on 10 September 2025 (correction of the published version)."
+allowUnreachableUrl: true
+description: "Survey plus interview study of 666 UK participants on the relationship between frequent AI tool use, cognitive offloading, and critical thinking. The article was updated on 10 September 2025 (correction of the published version)."
 tags:
   - "article-importer"
 ---

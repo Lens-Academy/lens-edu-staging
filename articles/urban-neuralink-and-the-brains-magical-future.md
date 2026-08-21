@@ -63,29 +63,29 @@ Contents
 
 600 million years ago, no one really did anything, ever.
 
-{--{"author":"Luc's AI","timestamp":1787306328698}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/sponge.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/sponge.png)--}{++{"author":"Luc's AI","timestamp":1787306328698}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/sponge.png)++} {--{"author":"Luc's AI","timestamp":1787306329016}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/sponge-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/sponge-2.png)--}{++{"author":"Luc's AI","timestamp":1787306329016}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/sponge-2.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/sponge.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/sponge-2.png)
 
 The problem is that no one had any nerves. Without nerves, you can’t move, or think, or process information of any kind. So you just had to kind of exist and wait there until you died.
 
 But then came the jellyfish.
 
-{--{"author":"Luc's AI","timestamp":1787306329295}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-1.png)--}{++{"author":"Luc's AI","timestamp":1787306329295}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-1.png)
 
 The jellyfish was the first animal to figure out that nerves were an obvious thing to make sure you had, and it had the world’s first nervous system—a nerve net.
 
-{--{"author":"Luc's AI","timestamp":1787306329566}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-3.png)--}{++{"author":"Luc's AI","timestamp":1787306329566}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-3.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-3.png)
 
-{--{"author":"Luc's AI","timestamp":1787306329815}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-5.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-5.png)--}{++{"author":"Luc's AI","timestamp":1787306329815}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-5.png)++} {--{"author":"Luc's AI","timestamp":1787306330133}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-6.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-6.png)--}{++{"author":"Luc's AI","timestamp":1787306330133}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-6.png)++} {--{"author":"Luc's AI","timestamp":1787306330389}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-7.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-7.png)--}{++{"author":"Luc's AI","timestamp":1787306330389}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-7.png)++} {--{"author":"Luc's AI","timestamp":1787306330660}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-8a.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-8a.png)--}{++{"author":"Luc's AI","timestamp":1787306330660}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-8a.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-5.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-6.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-7.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/jellyfish-8a.png)
 
 The jellyfish’s nerve net allowed it to collect important information from the world around it—like where there were objects, predators, or food—and pass that information along, through a big game of telephone, to all parts of its body. Being able to receive and process information meant that the jellyfish could actually react to changes in its environment in order to increase the odds of life going well, rather than just floating aimlessly and hoping for the best.
 
 A little later, a new animal came around who had an even cooler idea.
 
-{--{"author":"Luc's AI","timestamp":1787306330952}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/flatworm-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/flatworm-1.png)--}{++{"author":"Luc's AI","timestamp":1787306330952}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/flatworm-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/flatworm-1.png)
 
 The flatworm figured out that you could get a lot more done if there was someone in the nervous system who was in charge of everything—a nervous system boss. The boss lived in the flatworm’s head and had a rule that all nerves in the body had to report any new information directly to him. So instead of arranging themselves in a net shape, the flatworm’s nervous system all revolved around a central highway of messenger nerves that would pass messages back and forth between the boss and everyone else:
 
-{--{"author":"Luc's AI","timestamp":1787306331201}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Flatworm-brain-1-2.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Flatworm-brain-1-2.jpg)--}{++{"author":"Luc's AI","timestamp":1787306331201}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Flatworm-brain-1-2.jpg)++} {--{"author":"Luc's AI","timestamp":1787306331464}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Flatworm-brain-2-2.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Flatworm-brain-2-2.jpg)--}{++{"author":"Luc's AI","timestamp":1787306331464}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Flatworm-brain-2-2.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Flatworm-brain-1-2.jpg) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Flatworm-brain-2-2.jpg)
 
 The flatworm’s boss-highway system was the world’s first central nervous system, and the boss in the flatworm’s head was the world’s first brain.
 
@@ -93,39 +93,39 @@ The idea of a nervous system boss quickly caught on with others, and soon, there
 
 As time passed and Earth’s animals started inventing intricate new body systems, the bosses got busier.
 
-{--{"author":"Luc's AI","timestamp":1787306331729}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/frog-1-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/frog-1-1.png)--}{++{"author":"Luc's AI","timestamp":1787306331729}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/frog-1-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/frog-1-1.png)
 
-{--{"author":"Luc's AI","timestamp":1787306332001}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Frog-brain-1-1.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Frog-brain-1-1.jpg)--}{++{"author":"Luc's AI","timestamp":1787306332001}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Frog-brain-1-1.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Frog-brain-1-1.jpg)
 
-{--{"author":"Luc's AI","timestamp":1787306332271}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Frog-brain-2-2.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Frog-brain-2-2.jpg)--}{++{"author":"Luc's AI","timestamp":1787306332271}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Frog-brain-2-2.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Frog-brain-2-2.jpg)
 
 A little while later came the arrival of mammals. For the Millennials of the Animal Kingdom, life was complicated. Yes, their hearts needed to beat and their lungs needed to breathe, but mammals were about a lot more than survival functions—they were in touch with complex feelings like love, anger, and fear.
 
 For the reptilian brain, which had only had to deal with reptiles and other simpler creatures so far, mammals were just…a lot. So a second boss developed in mammals to pair up with the reptilian brain and take care of all of these new needs—the world’s first limbic system.
 
-{--{"author":"Luc's AI","timestamp":1787306332552}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/rodent-1-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/rodent-1-1.png)--}{++{"author":"Luc's AI","timestamp":1787306332552}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/rodent-1-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/rodent-1-1.png)
 
-{--{"author":"Luc's AI","timestamp":1787306332852}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rodent-brain-1-2.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rodent-brain-1-2.jpg)--}{++{"author":"Luc's AI","timestamp":1787306332852}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rodent-brain-1-2.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rodent-brain-1-2.jpg)
 
 Over the next 100 million years, the lives of mammals grew more and more complex, and one day, the two bosses noticed a new resident in the cockpit with them.
 
-{--{"author":"Luc's AI","timestamp":1787306333161}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/primate-1-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/primate-1-2.png)--}{++{"author":"Luc's AI","timestamp":1787306333161}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/primate-1-2.png)++} {--{"author":"Luc's AI","timestamp":1787306333451}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Primate-brain-1.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Primate-brain-1.jpg)--}{++{"author":"Luc's AI","timestamp":1787306333451}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Primate-brain-1.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/primate-1-2.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Primate-brain-1.jpg)
 
 What appeared to be a random infant was actually the early version of the neocortex, and though he didn’t say much at first, as evolution gave rise to primates and then great apes and then early hominids, this new boss grew from a baby into a child and eventually into a teenager with his own idea of how things should be run.
 
-{--{"author":"Luc's AI","timestamp":1787306333766}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/homonid-1-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/homonid-1-1.png)--}{++{"author":"Luc's AI","timestamp":1787306333766}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/homonid-1-1.png)++} {--{"author":"Luc's AI","timestamp":1787306334062}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Hominid-brain-1-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Hominid-brain-1-3.png)--}{++{"author":"Luc's AI","timestamp":1787306334062}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Hominid-brain-1-3.png)++} {--{"author":"Luc's AI","timestamp":1787306334326}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Hominid-brain-2-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Hominid-brain-2-3.png)--}{++{"author":"Luc's AI","timestamp":1787306334326}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Hominid-brain-2-3.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/homonid-1-1.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Hominid-brain-1-3.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Hominid-brain-2-3.png)
 
 The new boss’s ideas turned out to be really helpful, and he became the hominid’s go-to boss for things like tool-making, hunting strategy, and cooperation with other hominids.
 
 Over the next few million years, the new boss grew older and wiser, and his ideas kept getting better. He figured out how to not be naked. He figured out how to control fire. He learned how to make a spear.
 
-{--{"author":"Luc's AI","timestamp":1787306334604}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Spear.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Spear.png)--}{++{"author":"Luc's AI","timestamp":1787306334604}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Spear.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Spear.png)
 
 But his coolest trick was _thinking_. He turned each human’s head into a little world of its own, making humans the first animal that could think complex thoughts, reason through decisions, and make long-term plans.
 
 And then, maybe about 100,000 years ago, he came up with a breakthrough.
 
-{--{"author":"Luc's AI","timestamp":1787306334862}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-1.png)--}{++{"author":"Luc's AI","timestamp":1787306334862}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-1.png)++} {--{"author":"Luc's AI","timestamp":1787306335168}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-2-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-2-3.png)--}{++{"author":"Luc's AI","timestamp":1787306335168}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-2-3.png)++} {--{"author":"Luc's AI","timestamp":1787306335537}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-3-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-3-3.png)--}{++{"author":"Luc's AI","timestamp":1787306335537}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-3-3.png)++} {--{"author":"Luc's AI","timestamp":1787306335783}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-4.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-4.png)--}{++{"author":"Luc's AI","timestamp":1787306335783}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-4.png)++} {--{"author":"Luc's AI","timestamp":1787306336055}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-5.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-5.png)--}{++{"author":"Luc's AI","timestamp":1787306336055}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-5.png)++} {--{"author":"Luc's AI","timestamp":1787306336339}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-6.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-6.png)--}{++{"author":"Luc's AI","timestamp":1787306336339}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-6.png)++} {--{"author":"Luc's AI","timestamp":1787306336617}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-7.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-7.png)--}{++{"author":"Luc's AI","timestamp":1787306336617}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-7.png)++} {--{"author":"Luc's AI","timestamp":1787306336908}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-8.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-8.png)--}{++{"author":"Luc's AI","timestamp":1787306336908}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-8.png)++} {--{"author":"Luc's AI","timestamp":1787306337166}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-9.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-9.png)--}{++{"author":"Luc's AI","timestamp":1787306337166}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-9.png)++} {--{"author":"Luc's AI","timestamp":1787306337407}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-10.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-10.png)--}{++{"author":"Luc's AI","timestamp":1787306337407}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-10.png)++} {--{"author":"Luc's AI","timestamp":1787306337863}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-11.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-11.png)--}{++{"author":"Luc's AI","timestamp":1787306337863}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-11.png)++} {--{"author":"Luc's AI","timestamp":1787306338162}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-12.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-12.png)--}{++{"author":"Luc's AI","timestamp":1787306338162}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-12.png)++} {--{"author":"Luc's AI","timestamp":1787306338464}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-13.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-13.png)--}{++{"author":"Luc's AI","timestamp":1787306338464}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-13.png)++} {--{"author":"Luc's AI","timestamp":1787306338786}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-14.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-14.png)--}{++{"author":"Luc's AI","timestamp":1787306338786}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-14.png)++} {--{"author":"Luc's AI","timestamp":1787306339072}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-15.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-15.png)--}{++{"author":"Luc's AI","timestamp":1787306339072}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-15.png)++} {--{"author":"Luc's AI","timestamp":1787306339320}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-16.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-16.png)--}{++{"author":"Luc's AI","timestamp":1787306339320}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-16.png)++} {--{"author":"Luc's AI","timestamp":1787306339608}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-17.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-17.png)--}{++{"author":"Luc's AI","timestamp":1787306339608}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-17.png)++} {--{"author":"Luc's AI","timestamp":1787306339906}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-18.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-18.png)--}{++{"author":"Luc's AI","timestamp":1787306339906}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-18.png)++} {--{"author":"Luc's AI","timestamp":1787306340193}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-19.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-19.png)--}{++{"author":"Luc's AI","timestamp":1787306340193}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-19.png)++} {--{"author":"Luc's AI","timestamp":1787306340476}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-20.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-20.png)--}{++{"author":"Luc's AI","timestamp":1787306340476}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-20.png)++} {--{"author":"Luc's AI","timestamp":1787306340779}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-21.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-21.png)--}{++{"author":"Luc's AI","timestamp":1787306340779}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-21.png)++} {--{"author":"Luc's AI","timestamp":1787306341146}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-22.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-22.png)--}{++{"author":"Luc's AI","timestamp":1787306341146}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-22.png)++} {--{"author":"Luc's AI","timestamp":1787306341392}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-23.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-23.png)--}{++{"author":"Luc's AI","timestamp":1787306341392}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-23.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-1.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-2-3.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-3-3.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-4.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-5.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-6.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-7.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-8.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-9.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-10.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-11.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-12.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-13.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-14.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-15.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-16.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-17.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-18.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-19.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-20.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-21.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-22.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Rock-23.png)
 
 The human brain had advanced to the point where it could understand that even though the sound “rock” was not _itself_ a rock, it could be used as a _symbol_ of a rock—it was a sound that _referred_ to a rock. The early human had invented language.
 
@@ -143,11 +143,11 @@ And let’s say this knowledge advancement makes the hunting season more efficie
 
 Language allows the best epiphanies of the very smartest people, through the generations, to accumulate into a little collective tower of tribal knowledge—a “greatest hits” of their ancestors’ best “aha!” moments. Every new generation has this knowledge tower installed in their heads as their starting point in life, leading them to new, even better discoveries that build on what their ancestors learned, as the tribe’s knowledge continues to grow bigger and wiser. Language is the difference between this:
 
-{--{"author":"Luc's AI","timestamp":1787306341661}@@[![minimal--}{++{"author":"Luc's AI","timestamp":1787306341661}@@![minimal++} tribal knowledge growth before {--{"author":"Luc's AI","timestamp":1787306341661}@@language](https://waitbutwhy.com/wp-content/uploads/2017/04/Knowledge-growth-graph-1b.png)](https://waitbutwhy.com/wp-content/uploads/2017/04/Knowledge-growth-graph-1b.png)--}{++{"author":"Luc's AI","timestamp":1787306341661}@@language](https://waitbutwhy.com/wp-content/uploads/2017/04/Knowledge-growth-graph-1b.png)++}
+![minimal tribal knowledge growth before language](https://waitbutwhy.com/wp-content/uploads/2017/04/Knowledge-growth-graph-1b.png)
 
 And this:
 
-{--{"author":"Luc's AI","timestamp":1787306342032}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Knowledge-growth-graph-2-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Knowledge-growth-graph-2-1.png)--}{++{"author":"Luc's AI","timestamp":1787306342032}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Knowledge-growth-graph-2-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Knowledge-growth-graph-2-1.png)
 
 The major trajectory upgrade happens for two reasons. Each generation can learn a lot more new things when they can talk to each other, compare notes, and combine their individual learnings (that’s why the blue bars are so much higher in the second graph). And each generation can successfully pass a higher percentage of their learnings on to the next generation, so knowledge _sticks_ better through time.
 
@@ -159,7 +159,7 @@ Being able to speak to each other also allowed humans to form complex social str
 
 According to Wikipedia, there’s something called Metcalfe’s law, which states that “the value of a telecommunications network is proportional to the square of the number of connected users of the system.” And they include this little chart of old telephones:[^cite-urban-source-1]
 
-{--{"author":"Luc's AI","timestamp":1787306342463}@@[![](https://waitbutwhy.com/wp-content/uploads/2017/04/Metcalfe-Network-Effect.svg_.png)](https://waitbutwhy.com/wp-content/uploads/2017/04/Metcalfe-Network-Effect.svg_.png)--}{++{"author":"Luc's AI","timestamp":1787306342463}@@![](https://waitbutwhy.com/wp-content/uploads/2017/04/Metcalfe-Network-Effect.svg_.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2017/04/Metcalfe-Network-Effect.svg_.png)
 
 But the same idea applies to people. Two people can have one conversation. Three people have four unique conversation groups (three different two-person conversations and a fourth conversation between all three as a group). Five people have 26. Twenty people have 1,048,555.
 
@@ -191,7 +191,7 @@ The avalanche of books allowed knowledge to transcend borders, as the world’s 
 
 The better we could communicate on a mass scale, the more our species began to function like a single organism, with humanity’s collective knowledge tower as its brain and each individual human brain like a nerve or a muscle fiber in its body. With the era of mass communication upon us, the collective human organism—the Human Colossus—rose into existence.
 
-{--{"author":"Luc's AI","timestamp":1787306342769}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-Colossus.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-Colossus.png)--}{++{"author":"Luc's AI","timestamp":1787306342769}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-Colossus.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-Colossus.png)
 
 With the entire body of collective human knowledge in its brain, the Human Colossus began inventing things no human could have dreamed of inventing on their own—things that would have seemed like absurd science fiction to people only a few generations before.
 
@@ -217,7 +217,7 @@ Then came another leap.
 
 In the early 90s, we taught millions of isolated machine-brains how to communicate with one another. They formed a worldwide computer network, and a new giant was born—the Computer Colossus.
 
-{--{"author":"Luc's AI","timestamp":1787306343045}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Computer-Colossus-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Computer-Colossus-1.png)--}{++{"author":"Luc's AI","timestamp":1787306343045}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Computer-Colossus-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Computer-Colossus-1.png)
 
 The Computer Colossus and the great network it formed were like popeye spinach for the Human Colossus.
 
@@ -227,7 +227,7 @@ The internet gave billions of humans instant, free, easily-searchable access to 
 
 And if individual computers had served as brain extensions for individual people, companies, or governments, the Computer Colossus was a brain extension for the entire Human Colossus itself.
 
-{--{"author":"Luc's AI","timestamp":1787306343343}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/HC-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/HC-3.png)--}{++{"author":"Luc's AI","timestamp":1787306343343}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/HC-3.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/HC-3.png)
 
 With its first real nervous system, an upgraded brain, and a powerful new tool, the Human Colossus took inventing to a whole new level—and noticing how useful its new computer friend was, it focused a large portion of its efforts on advancing computer technology.
 
@@ -253,17 +253,17 @@ The foundation for _that_ discussion is an understanding of what brain-machine i
 
 Finally, BMIs themselves are just a larger branch—not the tree’s trunk. In order to really understand BMIs and how they work, we need to understand the brain. Getting how the brain works is our tree trunk.
 
-{--{"author":"Luc's AI","timestamp":1787306343629}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-1.png)--}{++{"author":"Luc's AI","timestamp":1787306343629}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-1.png)
 
 So we’ll start with the brain, which will prepare us to learn about BMIs, which will teach us about what it’ll take to build a wizard hat, and that’ll set things up for an insane discussion about the future—which will get our heads right where they need to be to wrap themselves around why Elon thinks a wizard hat is such a critical piece of our future. And by the time we reach the end, this whole thing should click into place.
 
 ## Part 2: The Brain
 
-{--{"author":"Luc's AI","timestamp":1787306343901}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-2.png)--}{++{"author":"Luc's AI","timestamp":1787306343901}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-2.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-2.png)
 
 This post was a nice reminder of why I like working with a brain that looks nice and cute like this:
 
-{--{"author":"Luc's AI","timestamp":1787306344243}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/cartoon-brain.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/cartoon-brain.png)--}{++{"author":"Luc's AI","timestamp":1787306344243}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/cartoon-brain.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/cartoon-brain.png)
 
 Because the real brain is extremely uncute and upsetting-looking. People are gross.
 
@@ -273,11 +273,11 @@ We’ll start outside the head. One thing I will give to biology is that it’s 
 
 You have your hair, and under that is your scalp, and then you think your skull comes next—but it’s actually like 19 things and then your skull:[^cite-urban-source-3]
 
-{--{"author":"Luc's AI","timestamp":1787306344534}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/A270654_1_En_2_Fig3_HTML.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/A270654_1_En_2_Fig3_HTML.jpg)--}{++{"author":"Luc's AI","timestamp":1787306344534}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/A270654_1_En_2_Fig3_HTML.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/A270654_1_En_2_Fig3_HTML.jpg)
 
 Then below your skull,[^note-urban-6] another whole bunch of things are going on before you get to the brain [^cite-urban-source-4]:
 
-{--{"author":"Luc's AI","timestamp":1787306344889}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Men1.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Men1.jpg)--}{++{"author":"Luc's AI","timestamp":1787306344889}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Men1.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Men1.jpg)
 
 Your brain has three membranes around it underneath the skull:
 
@@ -289,13 +289,13 @@ Finally you have the **pia mater** (“soft mother”), a fine, delicate layer o
 
 Here’s the full overview, using the head of what looks like probably a pig:
 
-{--{"author":"Luc's AI","timestamp":1787306345208}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/338317926b0c5edcd883a0ff35fa3f2b.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/338317926b0c5edcd883a0ff35fa3f2b.jpg)--}{++{"author":"Luc's AI","timestamp":1787306345208}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/338317926b0c5edcd883a0ff35fa3f2b.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/338317926b0c5edcd883a0ff35fa3f2b.jpg)
 
 From the left you have the skin (the pink), then two scalp layers, then the skull, then the dura, arachnoid, and on the far right, just the brain covered by the pia.
 
 Once we’ve stripped everything down, we’re left with this silly boy:[^cite-urban-source-5]
 
-{--{"author":"Luc's AI","timestamp":1787306345495}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain1.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/brain1.jpg)--}{++{"author":"Luc's AI","timestamp":1787306345495}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain1.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain1.jpg)
 
 This ridiculous-looking thing is the most complex known object in the universe—three pounds of what neuroengineer Tim Hanson calls “one of the most information-dense, structured, and self-structuring matter known.” [^note-urban-source-6] All while operating on only [20 watts](http://www.popsci.com/technology/article/2009-11/neuron-computer-chips-could-overcome-power-limitations-digital) of power (an [equivalently powerful computer](http://www.reuters.com/article/us-china-supercomputer-idUSKCN0J11VV20141117) runs on 24,000,000 watts).
 
@@ -311,7 +311,7 @@ Professor Krishna Shenoy [likens](https://www.youtube.com/watch?v=ZuATvhlcUU4) o
 
 Another professor, [Jeff Lichtman](http://lichtmanlab.fas.harvard.edu/people/jeff-lichtman), is even harsher. He starts off his courses by asking his students the question, “If everything you need to know about the brain is a mile, how far have we walked in this mile?” He says students give answers like three-quarters of a mile, half a mile, a quarter of a mile, etc.—but that he believes the real answer is “about three inches.” [^cite-urban-source-8]
 
-{--{"author":"Luc's AI","timestamp":1787306345789}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/How-do-you-work-4.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/How-do-you-work-4.png)--}{++{"author":"Luc's AI","timestamp":1787306345789}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/How-do-you-work-4.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/How-do-you-work-4.png)
 
 A third professor, neuroscientist [Moran Cerf](https://www.morancerf.com/), shared with me an old neuroscience saying that points out why trying to master the brain is a bit of a catch-22: “If the human brain were so simple that we could understand it, we would be so simple that we couldn’t.”
 
@@ -321,19 +321,19 @@ Maybe with the help of the great knowledge tower our species is building, we can
 
 Let’s look at the major sections of the brain using a hemisphere cross section. So this is what the brain looks like in your head:
 
-{--{"author":"Luc's AI","timestamp":1787306346091}@@[![](https://waitbutwhy.com/wp-content/uploads/2017/04/sh202-hs.png)](https://waitbutwhy.com/wp-content/uploads/2017/04/sh202-hs.png)--}{++{"author":"Luc's AI","timestamp":1787306346091}@@![](https://waitbutwhy.com/wp-content/uploads/2017/04/sh202-hs.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2017/04/sh202-hs.png)
 
 Now let’s take the brain out of the head and remove the left hemisphere, which gives us a good view of the inside.[^cite-urban-source-9]
 
-{--{"author":"Luc's AI","timestamp":1787306346377}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cross-section.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cross-section.png)--}{++{"author":"Luc's AI","timestamp":1787306346377}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cross-section.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cross-section.png)
 
 Neurologist [Paul MacLean](http://www.kheper.net/topics/intelligence/MacLean.htm) made a simple diagram that illustrates the basic idea we talked about earlier of the reptile brain coming first in evolution, then being built upon by mammals, and finally being built upon again to give us our brain trifecta.
 
-{--{"author":"Luc's AI","timestamp":1787306346654}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/triune-brain-theory.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/triune-brain-theory.jpg)--}{++{"author":"Luc's AI","timestamp":1787306346654}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/triune-brain-theory.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/triune-brain-theory.jpg)
 
 Here’s how this essentially maps out on our real brain:
 
-{--{"author":"Luc's AI","timestamp":1787306346930}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cross-section-LABELED.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cross-section-LABELED.png)--}{++{"author":"Luc's AI","timestamp":1787306346930}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cross-section-LABELED.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cross-section-LABELED.png)
 
 Let’s take a look at each section:
 
@@ -341,31 +341,31 @@ Let’s take a look at each section:
 
 This is the most ancient part of our brain:[^cite-urban-source-10]
 
-{--{"author":"Luc's AI","timestamp":1787306347210}@@[![midbrain,--}{++{"author":"Luc's AI","timestamp":1787306347210}@@![midbrain,++} pons, cerebellum, and medulla {--{"author":"Luc's AI","timestamp":1787306347210}@@oblongata](https://waitbutwhy.com/wp-content/uploads/2017/04/brainstem-v2.png)](https://waitbutwhy.com/wp-content/uploads/2017/04/brainstem-v2.png)--}{++{"author":"Luc's AI","timestamp":1787306347210}@@oblongata](https://waitbutwhy.com/wp-content/uploads/2017/04/brainstem-v2.png)++}
+![midbrain, pons, cerebellum, and medulla oblongata](https://waitbutwhy.com/wp-content/uploads/2017/04/brainstem-v2.png)
 
 That’s the section of our brain cross section above that the frog boss resides over. In fact, a frog’s entire brain is similar to this lower part of our brain. Here’s a real frog brain:[^cite-urban-source-11]
 
-{--{"author":"Luc's AI","timestamp":1787306347562}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/frogside107.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/frogside107.jpg)--}{++{"author":"Luc's AI","timestamp":1787306347562}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/frogside107.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/frogside107.jpg)
 
 When you understand the function of these parts, the fact that they’re ancient makes sense—everything these parts do, frogs and lizards can do. These are the major sections (click any of these spinning images to see a high-res version):
 
-**The** **medulla oblongata** [![](https://waitbutwhy.com/wp-content/uploads/2018/04/Medulla_oblongata_small.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/Medulla_oblongata-1.gif)
+**The** **medulla oblongata** {--{"author":"Luc's AI","timestamp":1787306525324}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Medulla_oblongata_small.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/Medulla_oblongata-1.gif)--}{++{"author":"Luc's AI","timestamp":1787306525324}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Medulla_oblongata-1.gif)++}
 
 The medulla oblongata really just wants you to not die. It does the thankless tasks of controlling involuntary things like your heart rate, breathing, and blood pressure, along with making you vomit when it thinks you’ve been poisoned.
 
-**The pons** [![](https://waitbutwhy.com/wp-content/uploads/2018/04/Pons_small.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/Pons-1.gif)
+**The pons** {--{"author":"Luc's AI","timestamp":1787306525653}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Pons_small.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/Pons-1.gif)--}{++{"author":"Luc's AI","timestamp":1787306525653}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Pons-1.gif)++}
 
 The pons’s thing is that it does a little bit of this and a little bit of that. It deals with swallowing, bladder control, facial expressions, chewing, saliva, tears, and posture—really just whatever it’s in the mood for.
 
-**The midbrain** [![](https://waitbutwhy.com/wp-content/uploads/2018/04/Midbrain_small.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/Midbrain.gif)
+**The midbrain** {--{"author":"Luc's AI","timestamp":1787306525979}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Midbrain_small.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/Midbrain.gif)--}{++{"author":"Luc's AI","timestamp":1787306525979}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Midbrain.gif)++}
 
 The midbrain is dealing with an even bigger identity crisis than the pons. You know a brain part is going through some shit when almost all its functions are already another brain part’s thing. In the case of the midbrain, it deals with vision, hearing, motor control, alertness, temperature control, and a bunch of other things that other people in the brain already do. The rest of the brain doesn’t seem very into the midbrain either, given that they created a ridiculously uneven “forebrain, midbrain, hindbrain” divide that intentionally isolates the midbrain all by itself while everyone else hangs out.[^cite-urban-source-12]
 
-{--{"author":"Luc's AI","timestamp":1787306347887}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/CNX_Psych_03_04_FMHBrain.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/CNX_Psych_03_04_FMHBrain.jpg)--}{++{"author":"Luc's AI","timestamp":1787306347887}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/CNX_Psych_03_04_FMHBrain.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/CNX_Psych_03_04_FMHBrain.jpg)
 
 One thing I’ll grant the pons and midbrain is that it’s the two of them that control your voluntary eye movement, which is a pretty legit job. So if right now you move your eyes around, that’s you doing something specifically with your pons and midbrain.[^note-urban-7]
 
-**The cerebellum** [![](https://waitbutwhy.com/wp-content/uploads/2018/04/Cerebellum_animation_small.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/Cerebellum.gif)
+**The cerebellum** {--{"author":"Luc's AI","timestamp":1787306526316}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Cerebellum_animation_small.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/Cerebellum.gif)--}{++{"author":"Luc's AI","timestamp":1787306526316}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Cerebellum.gif)++}
 
 The odd-looking thing that looks like your brain’s scrotum is your cerebellum (Latin for “little brain”), which makes sure you stay a balanced, coordinated, and normal-moving person. [Here’s that rad professor again](https://www.youtube.com/watch?v=mrt0Gq0zS4g) showing you what a real cerebellum looks like.[^note-urban-8]
 
@@ -373,7 +373,7 @@ The odd-looking thing that looks like your brain’s scrotum is your cerebellum 
 
 Above the brain stem is the limbic system—the part of the brain that makes humans so insane.[^cite-urban-source-13]
 
-{--{"author":"Luc's AI","timestamp":1787306348165}@@[![limbic--}{++{"author":"Luc's AI","timestamp":1787306348165}@@![limbic++} system {--{"author":"Luc's AI","timestamp":1787306348165}@@diagram](https://waitbutwhy.com/wp-content/uploads/2018/04/limbic.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/limbic.jpg)--}{++{"author":"Luc's AI","timestamp":1787306348165}@@diagram](https://waitbutwhy.com/wp-content/uploads/2018/04/limbic.jpg)++}
+![limbic system diagram](https://waitbutwhy.com/wp-content/uploads/2018/04/limbic.jpg)
 
 The limbic system is a survival system. A decent rule of thumb is that whenever you’re doing something that your dog might also do—eating, drinking, having sex, fighting, hiding or running away from something scary—your limbic system is probably behind the wheel. Whether it feels like it or not, when you’re doing any of those things, you’re in primitive survival mode.
 
@@ -385,17 +385,17 @@ I’m pretty sure that gaining control over your limbic system is both the defin
 
 Anyway, let’s take a closer look at it. There are a lot of little parts of the limbic system, but we’ll keep it to the biggest celebrities:
 
-**The amygdala** [![](https://waitbutwhy.com/wp-content/uploads/2018/04/Amygdala10.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Amygdala.gif)
+**The amygdala** {--{"author":"Luc's AI","timestamp":1787306526593}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Amygdala10.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Amygdala.gif)--}{++{"author":"Luc's AI","timestamp":1787306526593}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Amygdala.gif)++}
 
 The amygdala is kind of an emotional wreck of a brain structure. It deals with anxiety, sadness, and our responses to fear. There are two amygdalae, and oddly, the left one has been shown to be more balanced, sometimes producing happy feelings in addition to the usual angsty ones, while the right one is always in a bad mood.
 
-**The hippocampus** [![](https://waitbutwhy.com/wp-content/uploads/2018/04/large.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/Hippocampus.gif)
+**The hippocampus** {--{"author":"Luc's AI","timestamp":1787306526867}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/large.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/Hippocampus.gif)--}{++{"author":"Luc's AI","timestamp":1787306526867}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Hippocampus.gif)++}
 
 Your hippocampus (Greek for “seahorse” because it [looks like one](https://en.wikipedia.org/wiki/Hippocampus#/media/File:Hippocampus_and_seahorse_cropped.JPG)) is like a scratch board for memory. When rats start to memorize directions in a maze, the memory gets encoded in their hippocampus—quite literally. Different parts of the rat’s two hippocampi will fire during different parts of the maze, since each section of the maze is stored in its own section of the hippocampus. But if after learning one maze, the rat is given other tasks and is brought back to the original maze a year later, it will have a hard time remembering it, because the hippocampus scratch board has been mostly wiped of the memory so as to free itself up for new memories.
 
 The condition in the movie _Memento_ is a real thing—anterograde amnesia—and it’s caused by damage to the hippocampus. Alzheimer’s also starts in the hippocampus before working its way through many parts of the brain, which is why, of the slew of devastating effects of the disease, diminished memory happens first.
 
-**The t** **halamus** [![](https://waitbutwhy.com/wp-content/uploads/2018/04/article_codev-2015-10-30-608d7118d8-Thalamus_small.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/Thalamus.gif)
+**The t** **halamus** {--{"author":"Luc's AI","timestamp":1787306527139}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/article_codev-2015-10-30-608d7118d8-Thalamus_small.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/Thalamus.gif)--}{++{"author":"Luc's AI","timestamp":1787306527139}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Thalamus.gif)++}
 
 In its central position in the brain, the thalamus also serves as a sensory middleman that receives information from your sensory organs and sends them to your cortex for processing. When you’re sleeping, the thalamus goes to sleep with you, which means the sensory middleman is off duty. That’s why in a deep sleep, some sound or light or touch often will not wake you up. If you want to wake someone up who’s in a deep sleep, you have to be aggressive enough to wake their thalamus up.
 
@@ -421,7 +421,7 @@ The cortex is in charge of basically everything—processing what you see, hear,
 
 It’s divided into four lobes:[^cite-urban-source-14]
 
-{--{"author":"Luc's AI","timestamp":1787306348449}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/lobes2.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/lobes2.jpg)--}{++{"author":"Luc's AI","timestamp":1787306348449}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/lobes2.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/lobes2.jpg)
 
 It’s pretty unsatisfying to describe what they each do, because they each do so many things and there’s a lot of overlap, but to oversimplify:
 
@@ -429,15 +429,15 @@ The [**frontal lobe**](https://waitbutwhy.com/wp-content/uploads/2018/04/Frontal
 
 As if that’s not enough to worry about, the frontal lobe is also in charge of your body’s movement. The top strip of the frontal lobe is your **primary motor cortex.**[^cite-urban-source-15]
 
-{--{"author":"Luc's AI","timestamp":1787306348716}@@[![](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Motor-Cortex-Labeled.png)](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Motor-Cortex-Labeled.png)--}{++{"author":"Luc's AI","timestamp":1787306348716}@@![](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Motor-Cortex-Labeled.png)++}
+![](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Motor-Cortex-Labeled.png)
 
 Then there’s the [**parietal lobe**](https://waitbutwhy.com/wp-content/uploads/2018/04/Parietal_lobe_animation.gif) which, among other things, controls your sense of touch, particularly in the **primary somatosensory cortex**, the strip right next to the primary motor cortex.[^cite-urban-source-16]
 
-{--{"author":"Luc's AI","timestamp":1787306349011}@@[![](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Other-Somatosenory-Cortex-Areas.png)](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Other-Somatosenory-Cortex-Areas.png)--}{++{"author":"Luc's AI","timestamp":1787306349011}@@![](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Other-Somatosenory-Cortex-Areas.png)++}
+![](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Other-Somatosenory-Cortex-Areas.png)
 
 The motor and somatosensory cortices are fun because they’re well-mapped. Neuroscientists know exactly which part of each strip connects to each part of your body. Which leads us to the creepiest diagram of this post: the _homunculus_.
 
-{--{"author":"Luc's AI","timestamp":1787306349323}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/152-KB-Homonculus-Sensory-and-Motor-Cortex.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/152-KB-Homonculus-Sensory-and-Motor-Cortex.png)--}{++{"author":"Luc's AI","timestamp":1787306349323}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/152-KB-Homonculus-Sensory-and-Motor-Cortex.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/152-KB-Homonculus-Sensory-and-Motor-Cortex.png)
 
 The homunculus, created by pioneer neurosurgeon Wilder Penfield, visually displays how the motor and somatosensory cortices are mapped. The larger the body part in the diagram, the more of the cortex is dedicated to its movement or sense of touch. A couple interesting things about this:
 
@@ -447,7 +447,7 @@ Second, it’s interesting how the two cortices are basically dedicated to the s
 
 Finally, I came across this shit and I’ve been living with it ever since—so now you have to too. A 3-dimensional homunculus man.[^cite-urban-source-17]
 
-{--{"author":"Luc's AI","timestamp":1787306349682}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Side-black.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Side-black.jpg)--}{++{"author":"Luc's AI","timestamp":1787306349682}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Side-black.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Side-black.jpg)
 
 Moving on—
 
@@ -463,11 +463,11 @@ As we’ve discussed, the evolution of our brain happened by building outwards, 
 
 So evolution got innovative. Because the cortex is so thin, it scales by increasing its surface area. That means that by creating lots of folds (including both sides [folding down into the gap](https://upload.wikimedia.org/wikipedia/commons/5/54/Frontal_lobe_animation.gif) between the two hemispheres), you can more than triple the area of the brain’s surface without increasing the volume too much. When the brain first develops in the womb, the cortex is smooth—the folds form mostly in the last two months of pregnancy:[^cite-urban-source-18]
 
-{--{"author":"Luc's AI","timestamp":1787306349965}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/FIGURE-2-Prenatal-development-of-the-human-brain-showing-a-series-of-embryonic-and-fetal.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/FIGURE-2-Prenatal-development-of-the-human-brain-showing-a-series-of-embryonic-and-fetal.png)--}{++{"author":"Luc's AI","timestamp":1787306349965}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/FIGURE-2-Prenatal-development-of-the-human-brain-showing-a-series-of-embryonic-and-fetal.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/FIGURE-2-Prenatal-development-of-the-human-brain-showing-a-series-of-embryonic-and-fetal.png)
 
 Cool explainer of how the folds form [here](https://s-media-cache-ak0.pinimg.com/736x/03/d8/60/03d8603a8a23f473cda93722426cd9e5.jpg).
 
-If you could take the cortex off the brain, you’d end up with a 2mm-thick sheet with an area of 2,000-2,400cm 2 —about the size of a 48cm x 48cm (19in x 19in) square.[^note-urban-10] A dinner napkin. {--{"author":"Luc's AI","timestamp":1787306350266}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Guy-holding-napkin.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Guy-holding-napkin.png)--}{++{"author":"Luc's AI","timestamp":1787306350266}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Guy-holding-napkin.png)++}
+If you could take the cortex off the brain, you’d end up with a 2mm-thick sheet with an area of 2,000-2,400cm 2 —about the size of a 48cm x 48cm (19in x 19in) square.[^note-urban-10] A dinner napkin. ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Guy-holding-napkin.png)
 
 This napkin is where most of the action in your brain happens—it’s why you can think, move, feel, see, hear, remember, and speak and understand language. Best napkin ever.
 
@@ -483,7 +483,7 @@ So while it’s not perfect, modern science has a decent understanding of the bi
 
 Even though we figured out that the brain was the seat of our intelligence a long time ago, it wasn’t until pretty recently that science understood what the brain was made of. Scientists knew that the body was made of cells, but in the late 19th century, Italian physician Camillo Golgi figured out how to use a [staining method](http://journal.frontiersin.org/article/10.3389/fnana.2016.00038/full) to see what brain cells actually looked like. The result was surprising:
 
-{--{"author":"Luc's AI","timestamp":1787306350567}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/220px-GolgiStainedPyramidalCell.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/220px-GolgiStainedPyramidalCell.jpg)--}{++{"author":"Luc's AI","timestamp":1787306350567}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/220px-GolgiStainedPyramidalCell.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/220px-GolgiStainedPyramidalCell.jpg)
 
 That wasn’t what a cell was supposed to look like. Without quite realizing it yet,[^note-urban-11] Golgi had discovered the neuron.
 
@@ -495,45 +495,45 @@ An axon, the long strand of a neuron that carries information, is normally micro
 
 So there are a lot of different kinds of neurons— [^cite-urban-source-19]
 
-{--{"author":"Luc's AI","timestamp":1787306350833}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/neuron_types.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/neuron_types.gif)--}{++{"author":"Luc's AI","timestamp":1787306350833}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/neuron_types.gif)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/neuron_types.gif)
 
 —but for simplicity, we’ll discuss the cliché textbook neuron—a pyramidal cell, like one you might find in your motor cortex. To make a neuron diagram, we can start with a guy:
 
-{--{"author":"Luc's AI","timestamp":1787306351102}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-1.png)--}{++{"author":"Luc's AI","timestamp":1787306351102}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-1.png)
 
 And then if we just give him a few extra legs, some hair, take his arms off, and stretch him out—we have a neuron.
 
-{--{"author":"Luc's AI","timestamp":1787306351532}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-2.png)--}{++{"author":"Luc's AI","timestamp":1787306351532}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-2.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-2.png)
 
 And let’s add in a few more neurons.
 
-{--{"author":"Luc's AI","timestamp":1787306351793}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-3.png)--}{++{"author":"Luc's AI","timestamp":1787306351793}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-3.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-3.png)
 
 Rather than launch into the full, detailed explanation for how action potentials work—which involves a lot of unnecessary and uninteresting technical information you already dealt with in 9th-grade biology—I’ll link to this great Khan Academy [explainer article](https://www.khanacademy.org/science/biology/human-biology/neuron-nervous-system/a/the-synapse) for those who want the full story. We’ll go through the very basic ideas that are relevant for our purposes.
 
 So our guy’s body stem—the neuron’s **axon** —has a negative “resting potential,” which means that when it’s at rest, its electrical charge is slightly negative. At all times, a bunch of people’s feet keep touching [^note-urban-12] our guy’s hair—the neuron’s **dendrites** —whether he likes it or not. Their feet drop chemicals called **neurotransmitters** [^note-urban-13] onto his hair—which pass through his head (the cell body, or **soma**) and, depending on the chemical, raise or lower the charge in his body a little bit. It’s a little unpleasant for our neuron guy, but not a huge deal—and nothing else happens.
 
-{--{"author":"Luc's AI","timestamp":1787306352070}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-4.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-4.png)--}{++{"author":"Luc's AI","timestamp":1787306352070}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-4.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-4.png)
 
 But if enough chemicals touch his hair to raise his charge over a certain point—the neuron’s “threshold potential”—then it triggers an **action potential**, and our guy is electrocuted.
 
-{--{"author":"Luc's AI","timestamp":1787306352323}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-5.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-5.png)--}{++{"author":"Luc's AI","timestamp":1787306352323}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-5.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-5.png)
 
 This is a binary situation—either _nothing_ happens to our guy, or he’s fully electrocuted. He can’t be kind of electrocuted, or extra electrocuted—he’s either not electrocuted at all, or he’s fully electrocuted to the exact same degree every time.
 
 When this happens, a pulse of electricity (in the form of a brief reversal of his body’s normal charge from negative to positive and then rapidly back down to his normal negative) zips down his body (the axon) and into his feet—the neuron’s **axon terminals** —which themselves touch a bunch of other people’s hair (the points of contact are called **synapses**). When the action potential reaches his feet, it causes them to release chemicals onto the people’s hair they’re touching, which may or may not cause those people to be electrocuted, just like he was.
 
-{--{"author":"Luc's AI","timestamp":1787306352577}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-6.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-6.png)--}{++{"author":"Luc's AI","timestamp":1787306352577}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-6.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-6.png)
 
 This is usually how info moves through the nervous system—chemical information sent in the tiny gap between neurons triggers electrical information to pass _through_ the neuron—but sometimes, in situations when the body needs to move a signal extra quickly, neuron-to-neuron connections can themselves be electric.
 
 Action potentials move at between 1 and 100 meters/second. Part of the reason for this large range is that another type of cell in the nervous system—a Schwann cell—acts like a super nurturing grandmother and constantly wraps some types of axons in layers of fat blankets called **myelin sheath.** Like this (takes a second to start):[^cite-urban-source-20]
 
-{--{"author":"Luc's AI","timestamp":1787306352853}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Myelinani.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/Myelinani.gif)--}{++{"author":"Luc's AI","timestamp":1787306352853}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Myelinani.gif)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Myelinani.gif)
 
 On top of its protection and insulation benefits, the myelin sheath is a major factor in the pace of communication—action potentials travel _much_ faster through axons when they’re covered in myelin sheath:[^note-urban-14] [^cite-urban-source-21]
 
-{--{"author":"Luc's AI","timestamp":1787306353096}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/ezgif.com-optimize-2.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/ezgif.com-optimize-2.gif)--}{++{"author":"Luc's AI","timestamp":1787306353096}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/ezgif.com-optimize-2.gif)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/ezgif.com-optimize-2.gif)
 
 One nice example of the speed difference created by myelin: You know how when you stub your toe, your body gives you that one second of reflection time to think about what you just did and what you’re about to feel, before the pain actually kicks in? What’s happening is you feel both the sensation of your toe hitting against something and the sharp part of the pain right away, because sharp pain information is sent to the brain via types of axons that are myelinated. It takes a second or two for the dull pain to kick in because dull pain is sent via _unmyelinated_ “C fibers”—at only around one meter/second.
 
@@ -553,7 +553,7 @@ Altogether, there are around 100 billion neurons in the brain that make up this 
 
 Let’s zoom back out and look at another cross section of the brain—this time cut not from front to back to show a single hemisphere, but from side to side:[^cite-urban-source-22]
 
-{--{"author":"Luc's AI","timestamp":1787306353354}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain-white-matter-grey-matter-cross-section.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/brain-white-matter-grey-matter-cross-section.jpg)--}{++{"author":"Luc's AI","timestamp":1787306353354}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain-white-matter-grey-matter-cross-section.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain-white-matter-grey-matter-cross-section.jpg)
 
 Brain material can be divided into what’s called **gray matter** and **white matter.** Gray matter actually looks darker in color and is made up of the cell bodies (somas) of the brain’s neurons and their thicket of dendrites and axons—along with a lot of other stuff. White matter is made up primarily of wiring—axons carrying information from somas to other somas or to destinations in the body. White matter is white because those axons are usually wrapped in myelin sheath, which is fatty white tissue.
 
@@ -567,7 +567,7 @@ Those cortical axons might be taking information to another part of the cortex, 
 
 Let’s look at the whole nervous system:[^cite-urban-source-23]
 
-{--{"author":"Luc's AI","timestamp":1787306353621}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/f7fa1bdddc896c2c635a1929c6578b745a6030c2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/f7fa1bdddc896c2c635a1929c6578b745a6030c2.png)--}{++{"author":"Luc's AI","timestamp":1787306353621}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/f7fa1bdddc896c2c635a1929c6578b745a6030c2.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/f7fa1bdddc896c2c635a1929c6578b745a6030c2.png)
 
 The nervous system is divided into two parts: the **central nervous system** —your brain and spinal cord—and the **peripheral nervous system** —made up of the neurons that radiate outwards from the spinal cord into the rest of the body.
 
@@ -575,11 +575,11 @@ Most types of neurons are **interneurons** —neurons that communicate with othe
 
 The two other kinds of neurons are **sensory neurons** and **motor neurons** —those are the neurons that head down into your spinal cord and make up the peripheral nervous system. These neurons can be up to a _meter_ long.[^note-urban-17] Here’s a typical structure of each type:[^cite-urban-source-24]
 
-{--{"author":"Luc's AI","timestamp":1787306353909}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/afe8fa893b046e0dbd70425c079e2af3.511x537x1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/afe8fa893b046e0dbd70425c079e2af3.511x537x1.png)--}{++{"author":"Luc's AI","timestamp":1787306353909}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/afe8fa893b046e0dbd70425c079e2af3.511x537x1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/afe8fa893b046e0dbd70425c079e2af3.511x537x1.png)
 
 Remember our two strips?[^cite-urban-source-25]
 
-{--{"author":"Luc's AI","timestamp":1787306354228}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/motor-cortex-of-the-brain-1505972E27C6C96B962.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/motor-cortex-of-the-brain-1505972E27C6C96B962.png)--}{++{"author":"Luc's AI","timestamp":1787306354228}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/motor-cortex-of-the-brain-1505972E27C6C96B962.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/motor-cortex-of-the-brain-1505972E27C6C96B962.png)
 
 These strips are where your peripheral nervous system originates. The axons of sensory neurons head down from the somatosensory cortex, through the brain’s white matter, and into the spinal cord (which is just a massive bundle of axons). From the spinal cord, they head out to all parts of your body. Each part of your skin is lined with nerves that originate in the somatosensory cortex. A **nerve**, by the way, is a few bundles of axons wrapped together in a little cord. Here’s a nerve up close:[^cite-urban-source-26]
 
@@ -631,35 +631,35 @@ So with our brain background tree trunk built, we’re ready to head up to our f
 
 ## Part 3: Brain-Machine Interfaces
 
-{--{"author":"Luc's AI","timestamp":1787306354503}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-3.png)--}{++{"author":"Luc's AI","timestamp":1787306354503}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-3.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-3.png)
 
 Let’s zip back in time for a second to 50,000 BC and kidnap someone and bring him back here to 2017.
 
-{--{"author":"Luc's AI","timestamp":1787306354795}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok.png)--}{++{"author":"Luc's AI","timestamp":1787306354795}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok.png)
 
 This is Bok. Bok, we’re really thankful that you and your people invented language.
 
-{--{"author":"Luc's AI","timestamp":1787306355085}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-2.png)--}{++{"author":"Luc's AI","timestamp":1787306355085}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-2.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-2.png)
 
 As a way to thank you, we want to show you all the amazing things we were able to build because of your invention.
 
-{--{"author":"Luc's AI","timestamp":1787306355384}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-3-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-3-1.png)--}{++{"author":"Luc's AI","timestamp":1787306355384}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-3-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-3-1.png)
 
 Alright, first let’s take Bok on a plane, and into a submarine, and to the top of the Burj Khalifa. Now we’ll show him a telescope and a TV and an iPhone. And now we’ll let him play around on the internet for a while.
 
 Okay that was fun. How’d it go, Bok?
 
-{--{"author":"Luc's AI","timestamp":1787306355646}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-4.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-4.png)--}{++{"author":"Luc's AI","timestamp":1787306355646}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-4.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-4.png)
 
 Yeah we figured that you’d be pretty surprised. To wrap up, let’s show him how we communicate with each other.
 
-{--{"author":"Luc's AI","timestamp":1787306355915}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-5-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-5-1.png)--}{++{"author":"Luc's AI","timestamp":1787306355915}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-5-1.png)++} {--{"author":"Luc's AI","timestamp":1787306356202}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-6-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-6-1.png)--}{++{"author":"Luc's AI","timestamp":1787306356202}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-6-1.png)++} {--{"author":"Luc's AI","timestamp":1787306356473}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-7-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-7-2.png)--}{++{"author":"Luc's AI","timestamp":1787306356473}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-7-2.png)++} {--{"author":"Luc's AI","timestamp":1787306356830}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-8-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-8-2.png)--}{++{"author":"Luc's AI","timestamp":1787306356830}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-8-2.png)++} {--{"author":"Luc's AI","timestamp":1787306357070}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-9-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-9-1.png)--}{++{"author":"Luc's AI","timestamp":1787306357070}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-9-1.png)++} {--{"author":"Luc's AI","timestamp":1787306357330}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-10-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-10-1.png)--}{++{"author":"Luc's AI","timestamp":1787306357330}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-10-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-5-1.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-6-1.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-7-2.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-8-2.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-9-1.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-10-1.png)
 
 Bok would be shocked to learn that despite all the magical powers humans have gained as a result of having learned to speak to each other, when it comes to actually speaking to each other, we’re no more magical than the people of his day. When two people are together and talking, they’re using 50,000-year-old technology.
 
 Bok might also be surprised that in a world run by fancy machines, the people who made all the machines are walking around with the same biological bodies that Bok and his friends walk around with. How can that be?
 
-{--{"author":"Luc's AI","timestamp":1787306357594}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-11.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-11.png)--}{++{"author":"Luc's AI","timestamp":1787306357594}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-11.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Bok-11.png)
 
 This is why brain-machine interfaces—a subset of the broader field of neural engineering, which itself is a subset of biotechnology—are such a tantalizing new industry. We’ve conquered the world many times over with our technology, but when it comes to our brains—our most central tool—the tech world has for the most part been too daunted to dive in.
 
@@ -699,17 +699,17 @@ Remember our cortex-is-a-napkin demonstration earlier?
 
 Well if we scale that up by 1,000X, the cortex napkin—which was about 48cm / 19in on each side—now has a side the length of six Manhattan street blocks (or two avenue blocks). It would take you about 25 minutes to walk around the perimeter. And the brain as a whole would now fit snugly inside a two block by two block square—just about the size of Madison Square Garden (this works in length and width, but the brain would be about double the height of MSG).
 
-{--{"author":"Luc's AI","timestamp":1787306358079}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/outline-on-manhattan.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/outline-on-manhattan.jpg)--}{++{"author":"Luc's AI","timestamp":1787306358079}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/outline-on-manhattan.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/outline-on-manhattan.jpg)
 
 So let’s lay it out in the actual city. I’m sure the few hundred thousand people who live there will understand.
 
-{--{"author":"Luc's AI","timestamp":1787306358340}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain-on-manhattan.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/brain-on-manhattan.jpg)--}{++{"author":"Luc's AI","timestamp":1787306358340}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain-on-manhattan.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain-on-manhattan.jpg)
 
 I chose 1,000X as our multiplier for a couple reasons. One is that we can all instantly convert the sizes in our heads. Every millimeter of the actual brain is now a meter. And in the much smaller world of neurons, every micron is now an easy-to-conceptualize millimeter. Secondly, it conveniently brings the cortex up to human size—its 2mm thickness is now two meters—the height of a tall (6’6”) man.
 
 So we could walk up to 29th street, to the edge of our giant cortex napkin, and easily look at what was going on inside those two meters of thickness. For our demonstration, let’s pull out a cubic meter of our giant cortex to examine, which will show us what goes on in a typical cubic millimeter of real cortex.
 
-{--{"author":"Luc's AI","timestamp":1787306358665}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cube-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cube-1.png)--}{++{"author":"Luc's AI","timestamp":1787306358665}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cube-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cube-1.png)
 
 What we’d see in that cubic meter would be a _mess._ Let’s empty it out and put it back together.
 
@@ -723,7 +723,7 @@ With me so far? Can you visualize our meter cube with those 40,000 floating marb
 
 Here’s a microscope image of the somas in an actual cortex, using techniques that block out the other stuff around them:[^cite-urban-source-27]
 
-{--{"author":"Luc's AI","timestamp":1787306358937}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/B9781416050094500182_f10-06-9781416050094.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/B9781416050094500182_f10-06-9781416050094.jpg)--}{++{"author":"Luc's AI","timestamp":1787306358937}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/B9781416050094500182_f10-06-9781416050094.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/B9781416050094500182_f10-06-9781416050094.jpg)
 
 Okay not too crazy so far. But the soma is only a tiny piece of each neuron. Radiating out from each of our marble-sized somas are twisty, branchy dendrites that in our scaled-up brain can stretch out for three or four meters in many different directions, and from the other end an axon that can be over 100 meters long (when heading out laterally to another part of the cortex) or as long as a _kilometer_ (when heading down into the spinal cord and body). Each of them only about a millimeter thick, these cords turn the cortex into a dense tangle of electrical spaghetti.
 
@@ -737,13 +737,13 @@ If only that were the end of it.
 
 It turns out there are other cells in the brain called **glial cells** —cells that come in many different varieties and perform many different functions, like mopping up chemicals released into synapses, wrapping axons in myelin, and serving as the brain’s immune system. Here are some common types of glial cell:[^cite-urban-source-28]
 
-**{--{"author":"Luc's AI","timestamp":1787306359218}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/all_glia.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/all_glia.jpg)--}{++{"author":"Luc's AI","timestamp":1787306359218}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/all_glia.jpg)++}**
+**![](https://waitbutwhy.com/wp-content/uploads/2018/04/all_glia.jpg)**
 
 And how many glial cells are in the cortex? About the _same number as there are neurons._[^note-urban-20] So add about 40,000 of these wacky things into our cube.
 
 Finally, there are the blood vessels. In every cubic millimeter of cortex, there’s a total of a _meter_ of tiny blood vessels. On our scale, that means that in our cubic meter, there’s a _kilometer_ of blood vessels. Here’s what the blood vessels in a space about that size look like:[^cite-urban-source-29]
 
-{--{"author":"Luc's AI","timestamp":1787306359499}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/nihms-666209-f0001.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/nihms-666209-f0001.jpg)--}{++{"author":"Luc's AI","timestamp":1787306359499}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/nihms-666209-f0001.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/nihms-666209-f0001.jpg)
 
 **The Connectome Blue Box**
 
@@ -754,11 +754,11 @@ The project entails [slicing a human brain](http://www.nytimes.com/2010/12/28/sc
 Anyway, in addition to producing some [gorgeous images](http://www.humanconnectomeproject.org/gallery/) of the “ribbon” formations axons with similar functions often form inside white matter, like—
 
 %% validator-ignore-next-line --code article.image-low-resolution --reason AI-couldn't-find-higher-resolution-image %%
-{--{"author":"Luc's AI","timestamp":1787306359762}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/White-Matter-Fibers-HCP-Dataset-side-view-720x594.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/White-Matter-Fibers-HCP-Dataset-side-view-720x594.jpg)--}{++{"author":"Luc's AI","timestamp":1787306359762}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/White-Matter-Fibers-HCP-Dataset-side-view-720x594.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/White-Matter-Fibers-HCP-Dataset-side-view-720x594.jpg)
 
 —the connectome project has helped people visualize just how packed the brain is with all this stuff. Here’s a breakdown of all the different things going on in one tiny snippet of mouse brain (and this doesn’t even include the blood vessels):[^cite-urban-source-30]
 
-{--{"author":"Luc's AI","timestamp":1787306360029}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/gr3.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/gr3.jpg)--}{++{"author":"Luc's AI","timestamp":1787306360029}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/gr3.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/gr3.jpg)
 
 (In the image, E is the complete brain snippet, and F–N show the separate components that make up E.)
 
@@ -810,7 +810,7 @@ fMRI isn’t typically used for BMIs, but it is a classic _recording_ tool—it 
 
 fMRI uses MRI—magnetic resonance imaging—technology. MRIs, invented in the 1970s, were an evolution of the x-ray-based CAT scan. Instead of using x-rays, MRIs use magnetic fields (along with radio waves and other signals) to generate images of the body and brain. Like this:[^cite-urban-source-31]
 
-{--{"author":"Luc's AI","timestamp":1787306360335}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/f.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/f.jpg)--}{++{"author":"Luc's AI","timestamp":1787306360335}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/f.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/f.jpg)
 
 And this full set of cross sections, allowing you to see through an entire head.
 
@@ -818,11 +818,11 @@ Pretty amazing technology.
 
 fMRI (“functional” MRI) uses similar technology to track changes in _blood flow_. Why? Because when areas of the brain become more active, they use more energy, so they need more oxygen—so blood flow increases to the area to deliver that oxygen. Blood flow indirectly indicates where activity is happening. Here’s what an fMRI scan might show:[^cite-urban-source-32]
 
-{--{"author":"Luc's AI","timestamp":1787306360642}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/7728527_f520.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/7728527_f520.jpg)--}{++{"author":"Luc's AI","timestamp":1787306360642}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/7728527_f520.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/7728527_f520.jpg)
 
 Of course, there’s always blood throughout the brain—what this image shows is where blood flow has _increased_ (red/orange/yellow) and where it has _decreased_ (blue). And because fMRI can scan through the whole brain, results are 3-dimensional:
 
-{--{"author":"Luc's AI","timestamp":1787306361030}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/fmriHeadCrossSection.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/fmriHeadCrossSection.gif)--}{++{"author":"Luc's AI","timestamp":1787306361030}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/fmriHeadCrossSection.gif)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/fmriHeadCrossSection.gif)
 
 fMRI has many medical uses, like informing doctors whether or not certain parts of the brain are functioning properly after a stroke, and fMRI has taught neuroscientists a ton about which regions of the brain are involved with which functions. Scans also have the benefit of providing info about what’s going on in the whole brain at any given time, and it’s safe and totally non-invasive.
 
@@ -843,11 +843,11 @@ The even bigger problem is temporal resolution. fMRI tracks blood flow, which is
 Dating back almost a century, EEG (electroencephalography) puts an array of electrodes on your head. You know, this whole thing:[^cite-urban-source-33]
 
 %% validator-ignore-next-line --code article.image-low-resolution --reason AI-couldn't-find-higher-resolution-image %%
-{--{"author":"Luc's AI","timestamp":1787306361313}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/EEG-cap-262x300.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/EEG-cap-262x300.jpg)--}{++{"author":"Luc's AI","timestamp":1787306361313}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/EEG-cap-262x300.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/EEG-cap-262x300.jpg)
 
 EEG is definitely technology that will look hilariously primitive to a 2050 person, but for now, it’s one of the only tools that can be used with BMIs that’s totally non-invasive. EEGs record electrical activity in different regions of the brain, displaying the findings like this:[^cite-urban-source-34]
 
-{--{"author":"Luc's AI","timestamp":1787306361623}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human_EEG_with_prominent_alpha-rhythm.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Human_EEG_with_prominent_alpha-rhythm.png)--}{++{"author":"Luc's AI","timestamp":1787306361623}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human_EEG_with_prominent_alpha-rhythm.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human_EEG_with_prominent_alpha-rhythm.png)
 
 EEG graphs can uncover information about medical issues like epilepsy, track sleep patterns, or be used to determine something like the status of a dose of anesthesia.
 
@@ -867,11 +867,11 @@ Imagine that the brain is a baseball stadium, its neurons are the members of the
 
 ECoG (electrocorticography) is a similar idea to EEG, also using surface electrodes—except they put them _under_ the skull, on the surface of the brain.[^cite-urban-source-35]
 
-{--{"author":"Luc's AI","timestamp":1787306361907}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Intracranial_electrode_grid_for_electrocorticography.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Intracranial_electrode_grid_for_electrocorticography.png)--}{++{"author":"Luc's AI","timestamp":1787306361907}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Intracranial_electrode_grid_for_electrocorticography.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Intracranial_electrode_grid_for_electrocorticography.png)
 
 Ick. But effective—at least much more effective than EEG. Without the interference of the skull blurring things, ECoG picks up both higher spatial (about 1cm) and temporal resolution (5 milliseconds). ECoG electrodes can either be placed above or below the dura:[^cite-urban-source-36]
 
-{--{"author":"Luc's AI","timestamp":1787306362190}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/layersofthebrain.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/layersofthebrain.png)--}{++{"author":"Luc's AI","timestamp":1787306362190}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/layersofthebrain.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/layersofthebrain.png)
 
 Bringing back our stadium analogy, ECoG microphones are _inside_ the stadium and a bit closer to the crowd. So the sound is much crisper than what EEG mics get from outside the stadium, and ECoG mics can better distinguish the sounds of individual sections of the crowd. But the improvement comes at a cost—it requires invasive surgery. In the scheme of invasive surgeries, though, it’s not so bad. As one neurosurgeon described to me, “You can slide stuff underneath the dura relatively non-invasively. You still have to make a hole in the head, but it’s relatively non-invasive.”
 
@@ -903,11 +903,11 @@ In the baseball stadium, LFP is a single microphone hanging over a single sectio
 
 A more recent development is the **multielectrode array,** which is the same idea as the LFP except it’s about 100 LFPs all at once, in a single area of the cortex. A multielectrode array looks like this:[^cite-urban-source-37]
 
-{--{"author":"Luc's AI","timestamp":1787306362448}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Focus-stack-penny_sm.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Focus-stack-penny_sm.jpg)--}{++{"author":"Luc's AI","timestamp":1787306362448}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Focus-stack-penny_sm.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Focus-stack-penny_sm.jpg)
 
 A tiny 4mm x 4mm square with 100 tiny silicon electrodes on it. Here’s another image where you can see just how sharp the electrodes are—just a few microns across at the very tip:[^cite-urban-source-38]
 
-{--{"author":"Luc's AI","timestamp":1787306362734}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/jmm294120fig01.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/jmm294120fig01.jpg)--}{++{"author":"Luc's AI","timestamp":1787306362734}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/jmm294120fig01.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/jmm294120fig01.jpg)
 
 **Single-Unit Recording**
 
@@ -925,7 +925,7 @@ By the way, you can listen to a neuron fire [here](https://www.youtube.com/watch
 
 Some electrodes want to take the relationship to the next level and will go for a technique called the **patch clamp**, whereby it’ll get rid of its electrode tip, leaving just a tiny little tube called a glass pipette,[^note-urban-22] and it’ll actually directly assault a neuron by sucking a “patch” of its membrane into the tube, allowing for even finer measurements:[^cite-urban-source-39]
 
-{--{"author":"Luc's AI","timestamp":1787306363087}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/2009_06a.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/2009_06a.jpg)--}{++{"author":"Luc's AI","timestamp":1787306363087}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/2009_06a.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/2009_06a.jpg)
 
 A patch clamp also has the benefit that, unlike all the other methods we’ve discussed, because it’s physically touching the neuron, it can not only record but _stimulate_ the neuron,[^note-urban-23] injecting current or holding voltage at a set level to do specific tests (other methods can stimulate neurons, but only entire groups together).
 
@@ -975,7 +975,7 @@ Anyway, from everything I’ve read about and discussed with people in the field
 
 In case you forgot this from 9,000 words ago, the motor cortex is this guy:
 
-{--{"author":"Luc's AI","timestamp":1787306363573}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/ucNSNTDc4yMxayeRNXNlpw_m.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/ucNSNTDc4yMxayeRNXNlpw_m.jpg)--}{++{"author":"Luc's AI","timestamp":1787306363573}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/ucNSNTDc4yMxayeRNXNlpw_m.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/ucNSNTDc4yMxayeRNXNlpw_m.jpg)
 
 All areas of the brain confuse us, but the motor cortex confuses us less than almost all the other areas. And most importantly, it’s _well-mapped_, meaning specific parts of it control specific parts of the body (remember the upsetting [homunculus?](http://28oa9i1t08037ue3m1l0i861.wpengine.netdna-cdn.com/wp-content/uploads/2018/04/152-KB-Homonculus-Sensory-and-Motor-Cortex.png)).
 
@@ -1043,17 +1043,17 @@ Most people who are deaf or hard of hearing don’t have a nerve problem or an a
 
 The ear has a lot of parts, but it’s the cochlea in particular that makes the key conversion. When vibrations enter the fluid in the cochlea, it causes thousands of tiny hairs lining the cochlea to vibrate, and the cells those hairs are attached to transform the mechanical energy of the vibrations into electrical signals that then excite the auditory nerve. Here’s what it all looks like:[^cite-urban-source-40]
 
-{--{"author":"Luc's AI","timestamp":1787306363868}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/otitis-interna.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/otitis-interna.jpg)--}{++{"author":"Luc's AI","timestamp":1787306363868}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/otitis-interna.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/otitis-interna.jpg)
 
 The cochlea also sorts the incoming sound by frequency. Here’s a cool chart that shows why lower sounds are processed at the end of the cochlea and high sounds are processed at the beginning (and also why there’s a minimum and maximum frequency on what the ear can hear):[^cite-urban-source-41]
 
-{--{"author":"Luc's AI","timestamp":1787306364110}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/tmp512613186340388865.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/tmp512613186340388865.png)--}{++{"author":"Luc's AI","timestamp":1787306364110}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/tmp512613186340388865.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/tmp512613186340388865.png)
 
-A cochlear implant is a little computer that has a microphone coming out of one end (which sits on the ear) and a wire coming out of the other that connects to an array of electrodes that line the cochlea. {--{"author":"Luc's AI","timestamp":1787306364460}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/62036062.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/62036062.jpg)--}{++{"author":"Luc's AI","timestamp":1787306364460}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/62036062.jpg)++}
+A cochlear implant is a little computer that has a microphone coming out of one end (which sits on the ear) and a wire coming out of the other that connects to an array of electrodes that line the cochlea. ![](https://waitbutwhy.com/wp-content/uploads/2018/04/62036062.jpg)
 
 So sound comes into the microphone (the little hook on top of the ear), and goes into the brown thing, which processes the sound to filter out the less useful frequencies. Then the brown thing transmits the information through the skin, through electrical induction, to the computer’s other component, which converts the info into electric impulses and sends them into the cochlea. The electrodes filter the impulses by frequency just like the cochlea and stimulate the auditory nerve just like the hairs on the cochlea do. This is what it looks like from the outside:
 
-{--{"author":"Luc's AI","timestamp":1787306364785}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/processor-on-ear.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/processor-on-ear.jpg)--}{++{"author":"Luc's AI","timestamp":1787306364785}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/processor-on-ear.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/processor-on-ear.jpg)
 
 In other words, an artificial ear, performing the same sound-to-impulses-to-auditory-nerve function the ear does.
 
@@ -1075,7 +1075,7 @@ Blindness is often the result of a retinal disease. When this is the case, a ret
 
 A more complicated interface than the cochlear implant, the first retinal implant was approved by the FDA in 2011—the Argus II implant, made by [Second Sight](http://www.secondsight.com/). The retinal implant looks like this:[^cite-urban-source-42]
 
-{--{"author":"Luc's AI","timestamp":1787306365059}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/6x6-argus-retinal-implant_2d.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/6x6-argus-retinal-implant_2d.jpg)--}{++{"author":"Luc's AI","timestamp":1787306365059}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/6x6-argus-retinal-implant_2d.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/6x6-argus-retinal-implant_2d.jpg)
 
 And it works like this:
 
@@ -1091,7 +1091,7 @@ It’s also a type of category of BMI that doesn’t involve communication with 
 
 What happens here is one or two electrode wires, usually with [four separate electrode sites](http://ieeexplore.ieee.org/ieee_pilot/articles/96jproc07/96jproc07-liker/assets/img/article_1/fig_2/small.jpg), are inserted into the brain, often ending up somewhere in the limbic system. Then a little pacemaker computer is implanted in the upper chest and wired to the electrodes. Like this unpleasant man:[^cite-urban-source-43]
 
-{--{"author":"Luc's AI","timestamp":1787306365337}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/StJudeMedicalDBSStory.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/StJudeMedicalDBSStory.jpg)--}{++{"author":"Luc's AI","timestamp":1787306365337}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/StJudeMedicalDBSStory.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/StJudeMedicalDBSStory.jpg)
 
 The electrodes can then give a little zap when called for, which can do a variety of important things. Like:
 
@@ -1107,11 +1107,11 @@ This is the state of the early BMI industry, and it’s the moment when Elon Mus
 
 ## Part 4: Neuralink’s Challenge
 
-{--{"author":"Luc's AI","timestamp":1787306365640}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-4.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-4.png)--}{++{"author":"Luc's AI","timestamp":1787306365640}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-4.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-4.png)
 
 Having already written about two of Elon Musk’s companies— [Tesla](https://waitbutwhy.com/2015/06/how-tesla-will-change-your-life.html) and [SpaceX](https://waitbutwhy.com/2015/08/how-and-why-spacex-will-colonize-mars.html) —I think I understand his formula. It looks like this:
 
-{--{"author":"Luc's AI","timestamp":1787306365902}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Elon-company-formula-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Elon-company-formula-1.png)--}{++{"author":"Luc's AI","timestamp":1787306365902}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Elon-company-formula-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Elon-company-formula-1.png)
 
 And his initial thinking about a new company always starts on the right and works its way left.
 
@@ -1123,19 +1123,19 @@ So when Elon builds a company, its core initial strategy is usually to create th
 
 Back when I was working on the Tesla and SpaceX posts, I asked Elon why he went into engineering and not science, and he explained that when it comes to progress, “engineering is the limiting factor.” In other words, the progress of science, business, and industry are all at the whim of the progress of engineering. If you look at history, this makes sense—behind each of the greatest revolutions in human progress is an engineering breakthrough. A match.
 
-{--{"author":"Luc's AI","timestamp":1787306366167}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Matches-small-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Matches-small-2.png)--}{++{"author":"Luc's AI","timestamp":1787306366167}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Matches-small-2.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Matches-small-2.png)
 
 So to understand an Elon Musk company, you need to think about the match he’s trying to create—along with three other variables:
 
-{--{"author":"Luc's AI","timestamp":1787306366504}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Elon-company-formula-variables.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Elon-company-formula-variables.png)--}{++{"author":"Luc's AI","timestamp":1787306366504}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Elon-company-formula-variables.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Elon-company-formula-variables.png)
 
 I know what’s in these boxes with the other companies:
 
-{--{"author":"Luc's AI","timestamp":1787306366866}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Tesla-formula-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Tesla-formula-1.png)--}{++{"author":"Luc's AI","timestamp":1787306366866}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Tesla-formula-1.png)++} {--{"author":"Luc's AI","timestamp":1787306367135}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/SpaceX-Formula-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/SpaceX-Formula-1.png)--}{++{"author":"Luc's AI","timestamp":1787306367135}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/SpaceX-Formula-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Tesla-formula-1.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/SpaceX-Formula-1.png)
 
 And when I started trying to figure out what Neuralink was all about, I knew those were the variables I needed to fill in. At the time, I had only had the chance to get a very vague idea of one of the variables—that the goal of the company was “to accelerate the advent of a whole-brain interface.” Or what I’ve come to think of as a wizard hat.
 
-{--{"author":"Luc's AI","timestamp":1787306367427}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-1-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-1-1.png)--}{++{"author":"Luc's AI","timestamp":1787306367427}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-1-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-1-1.png)
 
 As I understood it, a whole-brain interface was what a brain-machine interface would be in an ideal world—a super-advanced concept where essentially all the neurons in your brain are able to communicate seamlessly with the outside world. It was a concept loosely based on the science fiction idea of a “neural lace,”described in Iain Banks’ _Culture_ series _—_ a massless, volumeless, whole-brain interface that can be teleported into the brain.
 
@@ -1143,7 +1143,7 @@ I had a lot of questions.
 
 Luckily, I was on my way to San Francisco, where I had plans to sit down with half of Neuralink’s founding team and be the dumbest person in the room.
 
-{--{"author":"Luc's AI","timestamp":1787306367746}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/dumbest-person-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/dumbest-person-1.png)--}{++{"author":"Luc's AI","timestamp":1787306367746}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/dumbest-person-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/dumbest-person-1.png)
 
 **The I’m Not Being Self-Deprecating I Really Was Definitely the Dumbest Person in the Room Just Look at This Shit Blue Box**
 
@@ -1169,11 +1169,11 @@ I asked Elon about how he brought this team together. He said that he met with l
 
 But there they were, sitting around the table looking at me, as it hit me 40 seconds in that I should have done a lot more research before coming here.
 
-{--{"author":"Luc's AI","timestamp":1787306368023}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/dumbest-person-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/dumbest-person-2.png)--}{++{"author":"Luc's AI","timestamp":1787306368023}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/dumbest-person-2.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/dumbest-person-2.png)
 
 They took the hint and dumbed it down about four notches, and as the discussion went on, I started to wrap my head around things. Throughout the next few weeks, I met with each of the remaining Neuralink team members as well, each time playing the role of the dumbest person in the room. In these meetings, I focused on trying to form a comprehensive picture of the challenges at hand and what the road to a wizard hat might look like. I really wanted to understand these two boxes:
 
-{--{"author":"Luc's AI","timestamp":1787306368327}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_02.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_02.png)--}{++{"author":"Luc's AI","timestamp":1787306368327}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_02.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_02.png)
 
 The first one was easy. The _business_ side of Neuralink is a brain-machine interface development company. They want to create cutting-edge BMIs—what one of them referred to as “micron-sized devices.” Doing this will support the growth of the company while also providing a perfect vehicle for putting their innovations into practice (the same way SpaceX uses their launches both to sustain the company and experiment with their newest engineering developments).
 
@@ -1189,7 +1189,7 @@ The starting place for a discussion about innovation is a discussion about hurdl
 
 Pew recently conducted a [survey](http://www.pewinternet.org/2016/07/26/u-s-public-wary-of-biomedical-technologies-to-enhance-human-abilities/) asking Americans about which future biotechnologies give them the shits the most. It turns out BMIs worry Americans even more than gene editing:[^cite-urban-source-44]
 
-{--{"author":"Luc's AI","timestamp":1787306368639}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/PS_2016.07.26_Human-Enhancement-Survey_0-01.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/PS_2016.07.26_Human-Enhancement-Survey_0-01.png)--}{++{"author":"Luc's AI","timestamp":1787306368639}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/PS_2016.07.26_Human-Enhancement-Survey_0-01.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/PS_2016.07.26_Human-Enhancement-Survey_0-01.png)
 
 Flip Sabes, one of Neuralink’s ground floor members, doesn’t get it.
 
@@ -1231,7 +1231,7 @@ This is everything for the industry’s potential. Our maximum today is a couple
 
 Currently, we seem to be somewhere in between. Ian Stevenson and Konrad Kording published a [paper](http://www.nature.com/neuro/journal/v14/n2/abs/nn.2731.html) that looked at the maximum number of neurons that could be simultaneously recorded at various points throughout the last 50 years (in _any_ animal), and put the results on this graph:[^cite-urban-source-45]
 
-{--{"author":"Luc's AI","timestamp":1787306368945}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/mooreslaw.chartx2400.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/mooreslaw.chartx2400.jpg)--}{++{"author":"Luc's AI","timestamp":1787306368945}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/mooreslaw.chartx2400.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/mooreslaw.chartx2400.jpg)
 
 Sometimes called Stevenson’s Law, this research suggests that the number of neurons we can simultaneously record seems to consistently double every 7.4 years. If that rate continues, it’ll take us till the end of this century to reach a million, and until 2225 to record every neuron in the brain and get our totally complete wizard hat.
 
@@ -1278,33 +1278,33 @@ If everyone you know in 40 years has electronics in their skull, it’ll be beca
 A team at the University of Illinois is developing an interface made of silk:[^cite-urban-source-46]
 
 %% validator-ignore-next-line --code article.image-low-resolution --reason AI-couldn't-find-higher-resolution-image %%
-{--{"author":"Luc's AI","timestamp":1787306369370}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain_silk_2s-660x440.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/brain_silk_2s-660x440.jpg)--}{++{"author":"Luc's AI","timestamp":1787306369370}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain_silk_2s-660x440.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain_silk_2s-660x440.jpg)
 
 Silk can be rolled up into a thin bundle and inserted into the brain relatively non-invasively. There, it would theoretically spread out around the brain and melt into the contours like shrink wrap. On the silk would be flexible silicon transistor arrays.
 
 In his [TEDx Talk](https://www.youtube.com/watch?v=3jRNY_JcBpg), Hong Yeo demonstrated an electrode array printed on his skin, like a temporary tattoo, and [researchers say](https://www.wired.com/2013/02/skin-printed-electrodes/) this kind of technique could potentially be used on the brain:[^cite-urban-source-47]
 
-{--{"author":"Luc's AI","timestamp":1787306369667}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/3a.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/3a.jpg)--}{++{"author":"Luc's AI","timestamp":1787306369667}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/3a.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/3a.jpg)
 
 Another group is working on a kind of nano-scale, electrode-lined **[neural mesh](https://www.extremetech.com/extreme/207848-injectable-neuro-mesh-covers-the-brain-can-control-individual-neurons)** so tiny it can be injected into the brain with a syringe:[^cite-urban-source-48]
 
-{--{"author":"Luc's AI","timestamp":1787306369941}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/1298870262105595053.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/1298870262105595053.jpg)--}{++{"author":"Luc's AI","timestamp":1787306369941}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/1298870262105595053.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/1298870262105595053.jpg)
 
 For scale—that red tube on the right is the tip of a syringe. [Nature Magazine](https://www.nature.com/articles/522137a) has a nice graphic illustrating the concept:
 
-{--{"author":"Luc's AI","timestamp":1787306370425}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/brainmesh-2.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/brainmesh-2.jpg)--}{++{"author":"Luc's AI","timestamp":1787306370425}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/brainmesh-2.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/brainmesh-2.jpg)
 
 Other non-invasive techniques involve going in through veins and arteries. Elon mentioned this: “The least invasive way would be something that comes in like a heart stent like through a femoral artery and ultimately unfolds in the vascular system to interface with the neurons. Neurons use a lot of energy, so there’s basically a road network to every neuron.”
 
 DARPA, the technology innovation arm of the US military,[^note-urban-30] through their recently funded [BRAIN program](https://www.darpa.mil/program/our-research/darpa-and-the-brain-initiative), is working on tiny, “closed-loop” neural implants that could replace medication.[^cite-urban-source-49]
 
-{--{"author":"Luc's AI","timestamp":1787306370695}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/stanford-microimplant-mid-field.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/stanford-microimplant-mid-field.jpg)--}{++{"author":"Luc's AI","timestamp":1787306370695}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/stanford-microimplant-mid-field.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/stanford-microimplant-mid-field.jpg)
 
 A second DARPA project aims to fit a million electrodes into a device the size of two nickels stacked.
 
 Another idea being worked on is transcranial magnetic stimulation (TMS), in which a magnetic coil outside the head can create electrical pulses inside the brain.[^cite-urban-source-50]
 
-{--{"author":"Luc's AI","timestamp":1787306371002}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Transcranial_magnetic_stimulation.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Transcranial_magnetic_stimulation.jpg)--}{++{"author":"Luc's AI","timestamp":1787306371002}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Transcranial_magnetic_stimulation.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Transcranial_magnetic_stimulation.jpg)
 
 The pulses can stimulate targeted neuron areas, providing a type of deep brain stimulation that’s totally non-invasive.
 
@@ -1312,13 +1312,13 @@ One of Neuralink’s ground floor members, DJ Seo, led an effort to design an ev
 
 This is another example of the innovation benefits that come from an interdisciplinary team. DJ explained to me that “there are technologies that are not really thought about in this domain, but we can bring in some principles of their work.” He says that neural dust is inspired both by microchip technology and RFID (the thing that allows hotel key cards to communicate with the door lock without making physical contact) principles. And you can easily see the multi-field influence in how it works:[^cite-urban-source-51]
 
-{--{"author":"Luc's AI","timestamp":1787306371282}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/018u3meqmg2ruijpg.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/018u3meqmg2ruijpg.jpg)--}{++{"author":"Luc's AI","timestamp":1787306371282}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/018u3meqmg2ruijpg.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/018u3meqmg2ruijpg.jpg)
 
 Others are working on even more out-there ideas, like **[optogenetics](https://www.scientificamerican.com/article/optogenetics-controlling/)** (where you inject a virus that attaches to a brain cell, causing it to thereafter be stimulated by light) or even using **[carbon nanotubes](http://news.rice.edu/2015/03/25/carbon-nanotube-fibers-make-superior-links-to-brain-2/)** —a million of which could be bundled together and sent to the brain via the bloodstream.
 
 These people are all working on this arrow:
 
-{--{"author":"Luc's AI","timestamp":1787306371599}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_03.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_03.png)--}{++{"author":"Luc's AI","timestamp":1787306371599}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_03.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_03.png)
 
 It’s a relatively small group right now, but when the breakthrough spark happens, that’ll quickly change. Developments will begin to happen rapidly. Brain interface bandwidth will get better and better as the procedures to implant them become simpler and cheaper. Public interest will pick up. And when public interest picks up, the Human Colossus notices an opportunity—and then the rate of development skyrockets. Just like the breakthroughs in computer hardware caused the software industry to explode, major industries will pop up working on cutting-edge machines and intelligent apps to be used in conjunction with brain interfaces, and you’ll tell some little kid in 2052 all about how when you grew up, no one could do any of the things she can do with her brain, and she’ll be bored.
 
@@ -1336,7 +1336,7 @@ I think I might finally have a descriptive picture of a piece of our shocking fu
 
 ## Part 5: The Wizard Era
 
-{--{"author":"Luc's AI","timestamp":1787306371888}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-5.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-5.png)--}{++{"author":"Luc's AI","timestamp":1787306371888}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-5.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-5.png)
 
 The budding industry of brain-machine interfaces is the seed of a revolution that will change just about everything. But in many ways, the brain-interface future isn’t really a new _thing_ that’s happening. If you take a step back, it looks more like the next big chapter in a trend that’s been going on for a long time. Language took forever to turn into writing, which then took forever to turn into printing, and that’s where things were when George Washington was around. Then came electricity and the pace picked up. Telephone. Radio. Television. Computers. And just like that, everyone’s homes became magical. Then phones became cordless. Then mobile. Computers went from being devices for work and games to windows into a digital world we all became a part of. Then phones and computers merged into an everything device that brought the magic out of our homes and put it into our hands. And on our wrists. We’re now in the early stages of a virtual and augmented reality revolution that will wrap the magic around our eyes and ears and bring our whole being into the digital world.
 
@@ -1370,15 +1370,15 @@ This is a hard point to really absorb, because we don’t _feel_ like cyborgs. W
 
 Before language, there wasn’t a good way to get a thought from your brain into my brain. Then early humans invented the technology of language, transforming vocal cords and ears into the world’s first communication devices and air as the first communication medium. We use these devices every time we talk to each other in person. It goes:
 
-{--{"author":"Luc's AI","timestamp":1787306372166}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-1.png)--}{++{"author":"Luc's AI","timestamp":1787306372166}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-1.png)
 
 Then we built upon that with another leap, inventing a second layer of devices, with its own medium, allowing us to talk long distance:
 
-{--{"author":"Luc's AI","timestamp":1787306372470}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-2.png)--}{++{"author":"Luc's AI","timestamp":1787306372470}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-2.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-2.png)
 
 Or maybe:
 
-{--{"author":"Luc's AI","timestamp":1787306372805}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-3.png)--}{++{"author":"Luc's AI","timestamp":1787306372805}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-3.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-3.png)
 
 In that sense, your phone is as much “you” as your vocal cords or your ears or your eyes. All of these things are simply tools to move thoughts from brain to brain—so who cares if the tool is held in your hand, your throat, or your eye sockets? The digital age has made us a dual entity—a physical creature who interacts with its physical environment using its biological parts and a digital creature whose digital devices—whose digital _parts_ —allow it to interact with the digital world.
 
@@ -1392,11 +1392,11 @@ In other words, putting our technology into our brains isn’t about whether it�
 
 A whole-brain interface is that upgrade. It changes us from creatures whose primary and secondary layers live inside their heads and whose tertiary layer lives in their pocket, in their hand, or on their desk—
 
-{--{"author":"Luc's AI","timestamp":1787306373083}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-using-computer-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-using-computer-1.png)--}{++{"author":"Luc's AI","timestamp":1787306373083}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-using-computer-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-using-computer-1.png)
 
 —to creatures whose three layers all live together.
 
-{--{"author":"Luc's AI","timestamp":1787306373399}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-brain-using-computer.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-brain-using-computer.jpg)--}{++{"author":"Luc's AI","timestamp":1787306373399}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-brain-using-computer.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-brain-using-computer.jpg)
 
 Your life is full of devices, including the one you’re currently using to read this. A wizard hat makes your _brain_ into the device, allowing your thoughts to go straight from your head into the digital world.
 
@@ -1408,39 +1408,39 @@ Right now humans communicate with each other like this:
 
 [![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)
 
-{--{"author":"Luc's AI","timestamp":1787306373803}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-3.png)--}{++{"author":"Luc's AI","timestamp":1787306373803}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-3.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-3.png)
 
-{--{"author":"Luc's AI","timestamp":1787306374104}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-4.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-4.jpg)--}{++{"author":"Luc's AI","timestamp":1787306374104}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-4.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-4.jpg)
 
-{--{"author":"Luc's AI","timestamp":1787306374392}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-5.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-5.png)--}{++{"author":"Luc's AI","timestamp":1787306374392}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-5.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-5.png)
 
-{--{"author":"Luc's AI","timestamp":1787306374686}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-6.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-6.jpg)--}{++{"author":"Luc's AI","timestamp":1787306374686}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-6.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-6.jpg)
 
-{--{"author":"Luc's AI","timestamp":1787306374974}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-7.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-7.png)--}{++{"author":"Luc's AI","timestamp":1787306374974}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-7.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-7.png)
 
-{--{"author":"Luc's AI","timestamp":1787306375273}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-8-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-8-1.png)--}{++{"author":"Luc's AI","timestamp":1787306375273}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-8-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-8-1.png)
 
-{--{"author":"Luc's AI","timestamp":1787306375567}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-9.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-9.png)--}{++{"author":"Luc's AI","timestamp":1787306375567}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-9.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-9.png)
 
-{--{"author":"Luc's AI","timestamp":1787306375867}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-10-1.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-10-1.jpg)--}{++{"author":"Luc's AI","timestamp":1787306375867}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-10-1.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-10-1.jpg)
 
-{--{"author":"Luc's AI","timestamp":1787306376166}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-11-1.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-11-1.jpg)--}{++{"author":"Luc's AI","timestamp":1787306376166}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-11-1.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-11-1.jpg)
 
-{--{"author":"Luc's AI","timestamp":1787306376445}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-12.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-12.jpg)--}{++{"author":"Luc's AI","timestamp":1787306376445}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-12.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-12.jpg)
 
-{--{"author":"Luc's AI","timestamp":1787306376770}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-14.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-14.png)--}{++{"author":"Luc's AI","timestamp":1787306376770}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-14.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-14.png)
 
-{--{"author":"Luc's AI","timestamp":1787306377083}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-15.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-15.png)--}{++{"author":"Luc's AI","timestamp":1787306377083}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-15.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-15.png)
 
-{--{"author":"Luc's AI","timestamp":1787306377390}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-16.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-16.png)--}{++{"author":"Luc's AI","timestamp":1787306377390}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-16.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-16.png)
 
-{--{"author":"Luc's AI","timestamp":1787306377714}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-17.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-17.jpg)--}{++{"author":"Luc's AI","timestamp":1787306377714}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-17.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-17.jpg)
 
-{--{"author":"Luc's AI","timestamp":1787306378014}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-18.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-18.jpg)--}{++{"author":"Luc's AI","timestamp":1787306378014}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-18.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-18.jpg)
 
-{--{"author":"Luc's AI","timestamp":1787306378302}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-19.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-19.png)--}{++{"author":"Luc's AI","timestamp":1787306378302}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-19.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-19.png)
 
-{--{"author":"Luc's AI","timestamp":1787306378614}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-20-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-20-2.png)--}{++{"author":"Luc's AI","timestamp":1787306378614}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-20-2.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-20-2.png)
 
 And that’s how it’s been ever since we could communicate. But in a wizard hat world, it would look more like this:
 
@@ -1448,31 +1448,31 @@ And that’s how it’s been ever since we could communicate. But in a wizard ha
 
 [![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-2.png)
 
-{--{"author":"Luc's AI","timestamp":1787306379047}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-22.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-22.jpg)--}{++{"author":"Luc's AI","timestamp":1787306379047}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-22.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Talking-22.jpg)
 
 Elon always emphasizes bandwidth when he talks about Neuralink’s wizard hat goals. Interface bandwidth allows incoming images to be HD, incoming sound to be hi-fi, and motor movement commands to be tightly controlled—but it’s also a huge factor in communication. If information were a milkshake, bandwidth would be the width of the straw. Today, the bandwidth-of-communication graph looks something like this:
 
-**{--{"author":"Luc's AI","timestamp":1787306379360}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Speed-GRAPH-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Speed-GRAPH-1.png)--}{++{"author":"Luc's AI","timestamp":1787306379360}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Speed-GRAPH-1.png)++}**
+**![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Speed-GRAPH-1.png)**
 
 So computers can suck up the milkshake through a giant pipe, a human thinking would be using a large, pleasant-to-use straw, while language would be a frustratingly tiny coffee stirrer straw and typing (let alone texting) would be like trying to drink a milkshake through a syringe needle—you might be able to get a drop out once a minute.
 
 Moran Cerf has gathered data on the actual bandwidth of different parts of the nervous system and on this graph, he compares them to equivalent bandwidths in the computer world:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2017/04/Bandwidth-v2.png)](https://waitbutwhy.com/2017/04/neuralink.html/bandwidth-v2)
+{--{"author":"Luc's AI","timestamp":1787306527541}@@[![](https://waitbutwhy.com/wp-content/uploads/2017/04/Bandwidth-v2.png)](https://waitbutwhy.com/2017/04/neuralink.html/bandwidth-v2)--}{++{"author":"Luc's AI","timestamp":1787306527541}@@![](https://waitbutwhy.com/wp-content/uploads/2017/04/Bandwidth-v2.png)++}
 
 You can see here on Moran’s graph that the disparity in bandwidth between the ways we communicate and our thinking (which is at 30 bits/second on this graph) is even starker than my graph above depicts.
 
 But making our brains the device cuts out those tiny straws, turning all of these:
 
-{--{"author":"Luc's AI","timestamp":1787306379637}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-ALL.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-ALL.png)--}{++{"author":"Luc's AI","timestamp":1787306379637}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-ALL.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-ALL.png)
 
 To this:
 
-{--{"author":"Luc's AI","timestamp":1787306380120}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-Condensed.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-Condensed.png)--}{++{"author":"Luc's AI","timestamp":1787306380120}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-Condensed.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Flow-Condensed.png)
 
 Which preserves all the meaning with none of the fuss—and changes the graph to this:
 
-{--{"author":"Luc's AI","timestamp":1787306380385}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Speed-GRAPH-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Speed-GRAPH-2.png)--}{++{"author":"Luc's AI","timestamp":1787306380385}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Speed-GRAPH-2.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communication-Speed-GRAPH-2.png)
 
 We’d still be using straws, but _far_ bigger, more effective ones.
 
@@ -1486,19 +1486,19 @@ We do the best we can with these limitations—and over time, we’ve supplement
 
 Thinking about the phenomenon of communication as what it is—brains trying to share things with each other—you see the history of communication not as this:
 
-{--{"author":"Luc's AI","timestamp":1787306380693}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-1.png)--}{++{"author":"Luc's AI","timestamp":1787306380693}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-1.png)
 
 As much as this:
 
-{--{"author":"Luc's AI","timestamp":1787306381039}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-2.png)--}{++{"author":"Luc's AI","timestamp":1787306381039}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-2.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-2.png)
 
 Or it could be put this way:
 
-{--{"author":"Luc's AI","timestamp":1787306381322}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-3.png)--}{++{"author":"Luc's AI","timestamp":1787306381322}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-3.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communcation-Hacks-3.png)
 
 It really may be that the second major era of communication—the 100,000-year Era of Indirect Communication—is in its very last moments. If we zoom out on the timeline, it’s possible the entire last 150 years, during which we’ve suddenly been _rapidly_ improving our communication media, will look to far-future humans like one concept: the transition from Era 2 to Era 3. We might be living _on_ the line that divides timeline sections.
 
-{--{"author":"Luc's AI","timestamp":1787306381599}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communications-hacks-timeline.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Communications-hacks-timeline.png)--}{++{"author":"Luc's AI","timestamp":1787306381599}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communications-hacks-timeline.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Communications-hacks-timeline.png)
 
 And because indirect communication requires third-party body parts or digital parts, the end of Era 2 may be looked back upon as the era of physical devices. In an era where your brain is the device, there will be no need to carry anything around. You’ll have your body and, if you want, clothes—and that’s it.
 
@@ -1528,7 +1528,7 @@ In Alzheimer’s patients, memories themselves are often not lost—only the bri
 
 While this is happening, BMIs will begin to emerge that people _without_ disabilities want. The very early adopters will probably be pretty rich. But so were the early cell phone adopters.[^cite-urban-source-52]
 
-{--{"author":"Luc's AI","timestamp":1787306381873}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/gordon-gekko-RS.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/gordon-gekko-RS.jpg)--}{++{"author":"Luc's AI","timestamp":1787306381873}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/gordon-gekko-RS.jpg)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/gordon-gekko-RS.jpg)
 
 That’s Gordon Gekko, and that 1983, two-pound cell phone cost almost [$9,000](http://www.slate.com/blogs/browbeat/2010/09/23/gordon_gekko_s_cell_phone.html) in today’s dollars. And now over half of living humans own a mobile phone—all of them far less shitty than Gordon Gekko’s.
 
@@ -1542,7 +1542,7 @@ Looking at all the predictions I heard, they seemed to fall into two broad categ
 
 **The Wizard Era: Communication**
 
-{--{"author":"Luc's AI","timestamp":1787306382173}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Wizard-Communication-Heading.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Wizard-Communication-Heading.png)--}{++{"author":"Luc's AI","timestamp":1787306382173}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Wizard-Communication-Heading.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Wizard-Communication-Heading.png)
 
 **Motor communication**
 
@@ -1568,11 +1568,11 @@ That’s the thing—it’s difficult to really understand what it would be like
 
 Even weirder is the concept of a _group_ thinking together. This is what a group brainstorm could look like in the Wizard Era.
 
-{--{"author":"Luc's AI","timestamp":1787306382447}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-1.png)--}{++{"author":"Luc's AI","timestamp":1787306382447}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-1.png)
 
-{--{"author":"Luc's AI","timestamp":1787306382742}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-2.png)--}{++{"author":"Luc's AI","timestamp":1787306382742}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-2.png)++} {--{"author":"Luc's AI","timestamp":1787306383046}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-3.png)--}{++{"author":"Luc's AI","timestamp":1787306383046}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-3.png)++} {--{"author":"Luc's AI","timestamp":1787306383340}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-4.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-4.png)--}{++{"author":"Luc's AI","timestamp":1787306383340}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-4.png)++} {--{"author":"Luc's AI","timestamp":1787306383639}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-5.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-5.png)--}{++{"author":"Luc's AI","timestamp":1787306383639}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-5.png)++} {--{"author":"Luc's AI","timestamp":1787306383942}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-6-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-6-1.png)--}{++{"author":"Luc's AI","timestamp":1787306383942}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-6-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-2.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-3.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-4.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-5.png) ![](https://waitbutwhy.com/wp-content/uploads/2018/04/thinking-brainstorm-6-1.png)
 
-{--{"author":"Luc's AI","timestamp":1787306384226}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Thinking-brainstorm-7.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Thinking-brainstorm-7.png)--}{++{"author":"Luc's AI","timestamp":1787306384226}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Thinking-brainstorm-7.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Thinking-brainstorm-7.png)
 
 And of course, they wouldn’t need to be in the same room. This group could have been in four different countries while this was happening—with no external devices in sight.
 
@@ -1642,7 +1642,7 @@ I could go on. The communication possibilities in a wizard hat world, especially
 
 **The Wizard Era: Internal Control**
 
-{--{"author":"Luc's AI","timestamp":1787306384539}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Wizard-Tinkering-Heading.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Wizard-Tinkering-Heading.png)--}{++{"author":"Luc's AI","timestamp":1787306384539}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Wizard-Tinkering-Heading.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Wizard-Tinkering-Heading.png)
 
 Communication—the flow of information into and out of your brain—is only one way your wizard hat will be able to serve you.
 
@@ -1756,13 +1756,13 @@ A lot of people working on this challenge have a lot of different motivations fo
 
 Elon’s urgency to get us into the Wizard Era is the final piece of the Neuralink puzzle. Our last box to fill in:
 
-{--{"author":"Luc's AI","timestamp":1787306384848}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_04.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_04.png)--}{++{"author":"Luc's AI","timestamp":1787306384848}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_04.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_04.png)
 
 With Elon’s companies, there’s always some “result of the goal” that’s his real reason for starting the company—the piece that ties the company’s goal into humanity’s better future. In the case of Neuralink, it’s a piece that takes a lot of tree climbing to understand. But with the view from all the way up here, we’ve got everything we need for our final stretch of the road.
 
 ## Part 6: The Great Merger
 
-{--{"author":"Luc's AI","timestamp":1787306385156}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-6.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-6.png)--}{++{"author":"Luc's AI","timestamp":1787306385156}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-6.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-6.png)
 
 Imagine an alien explorer is visiting a new star and finds three planets circling it, all with life on them. The first happens to be identical to the way Earth was in 10 million BC. The second happens to be identical to Earth in 50,000 BC. And the third happens to be identical to Earth in 2017 AD.
 
@@ -1780,7 +1780,7 @@ In fact, it’s the first planet that’s the odd one out. Both the second and t
 
 And yet, how could that be?
 
-{--{"author":"Luc's AI","timestamp":1787306385460}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Exoplanets.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Exoplanets.png)--}{++{"author":"Luc's AI","timestamp":1787306385460}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Exoplanets.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Exoplanets.png)
 
 The Human Colossus. That’s how.
 
@@ -1802,7 +1802,7 @@ The Human Colossus has reached an entirely new level of power—the kind of powe
 
 I hope you enjoyed Planet 3, because we’re leaving it. Planet 4 is where we’re headed, whether we like it or not.
 
-{--{"author":"Luc's AI","timestamp":1787306385722}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Exoplanet-4.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Exoplanet-4.png)--}{++{"author":"Luc's AI","timestamp":1787306385722}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Exoplanet-4.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Exoplanet-4.png)
 
 \_\_\_\_\_\_\_\_\_\_
 
@@ -1856,7 +1856,7 @@ _I was trying to really sound the alarm on the AI front for quite a while, but i
 
 He’s accepted reality—the Human Colossus is not going to quit until the Computer Colossus, one day, wakes up. This is happening.
 
-{--{"author":"Luc's AI","timestamp":1787306386030}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Computer-Colossus-tinker.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Computer-Colossus-tinker.png)--}{++{"author":"Luc's AI","timestamp":1787306386030}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Computer-Colossus-tinker.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Computer-Colossus-tinker.png)
 
 No matter what anyone tells you, no one knows what will happen when the Computer Colossus learns to think. In my [long AI explainer](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html), I explored the reasoning of both those who are convinced that superintelligent AI will be the solution to every problem we have, and those who see humanity as a bunch of kids playing with a bomb they don’t understand. I’m personally still torn about which camp I find more convincing, but it seems pretty rational to plan for the worst and do whatever we can to increase our odds. Many experts agree with that logic, but there’s little consensus on the best strategy for creating superintelligent AI safely—just a whole lot of ideas from people who acknowledge they don’t really know the answer. How could anyone know how to take precautions for a future world they have no way to understand?
 
@@ -1948,7 +1948,7 @@ Remember before when I said that there were two things about wizard hats we had 
 
 This is where #2 comes in.
 
-These two ideas are the two things Elon means when he refers to the wizard hat as a digital tertiary layer in our brains. The first, as we discussed, is the concept that a whole-brain interface is kind of the same thing as putting our devices in our heads—effectively making your _brain_ the device. Like this: {--{"author":"Luc's AI","timestamp":1787306386305}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-brain-using-computer-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-brain-using-computer-2.png)--}{++{"author":"Luc's AI","timestamp":1787306386305}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-brain-using-computer-2.png)++}
+These two ideas are the two things Elon means when he refers to the wizard hat as a digital tertiary layer in our brains. The first, as we discussed, is the concept that a whole-brain interface is kind of the same thing as putting our devices in our heads—effectively making your _brain_ the device. Like this: ![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-brain-using-computer-2.png)
 
 Your devices give you cyborg superpowers and a window into the digital world. Your brain’s wizard hat electrode array is a new brain structure, joining your limbic system and cortex.
 
@@ -2006,11 +2006,11 @@ _Yes, but increasing bandwidth by orders of magnitude would make it better. And 
 
 And that’s why Elon started Neuralink.
 
-{--{"author":"Luc's AI","timestamp":1787306386584}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-5-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-5-1.png)--}{++{"author":"Luc's AI","timestamp":1787306386584}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-5-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-5-1.png)
 
 He started Neuralink to accelerate our pace into the Wizard Era—into a world where he says that “everyone who wants to have this AI extension of themselves could have one, so there would be billions of individual human-AI symbiotes who, collectively, make decisions about the future.” A world where AI really could be of the people, by the people, for the people.
 
-{--{"author":"Luc's AI","timestamp":1787306386884}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-Colossus-with-hat-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-Colossus-with-hat-1.png)--}{++{"author":"Luc's AI","timestamp":1787306386884}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-Colossus-with-hat-1.png)++}
+![](https://waitbutwhy.com/wp-content/uploads/2018/04/Human-Colossus-with-hat-1.png)
 
 \_\_\_\_\_\_\_\_\_\_\_
 
@@ -2145,7 +2145,7 @@ To support Wait But Why, visit our **[Patreon page](https://patreon.com/waitbutw
 
 [Tweet](https://twitter.com/share)
 
-[![](https://assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png)](https://www.pinterest.com/pin/create/button/?url=https://waitbutwhy.com/2017/04/neuralink.html&description=Neuralink%20and%20the%20Brain%E2%80%99s%20Magical%20Future)
+{--{"author":"Luc's AI","timestamp":1787306527857}@@[![](https://assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png)](https://www.pinterest.com/pin/create/button/?url=https://waitbutwhy.com/2017/04/neuralink.html&description=Neuralink%20and%20the%20Brain%E2%80%99s%20Magical%20Future)--}
 
 [^note-urban-1]: Ridiculous of wildebeest to not be spelled wildebeast.
 [^note-urban-2]: A guy recently [hand-wrote the Bible](http://www.today.com/popculture/man-unveils-1-150-page-bible-written-hand-2D80556484) and it took him 13 years. Imagine how expensive books would be if they took 13 years to make (and if there were no other way to get that information).

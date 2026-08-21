@@ -6,8 +6,8 @@ source_url: "https://aiwi.org/ai-whistleblowing-law-best-practice/"
 published: 2026-08-20
 created: 2026-08-20
 accessed: 2026-08-20
-{++{"author":"Luc's AI","timestamp":1787306056974}@@allowAuthorInTitle: true
-++}description: "Best practices for AI whistleblower bills or law amendments, based on US Whistleblower Ombuds, Transparency International, and our SB-53/AWPA analysis."
+allowAuthorInTitle: true
+description: "Best practices for AI whistleblower bills or law amendments, based on US Whistleblower Ombuds, Transparency International, and our SB-53/AWPA analysis."
 tags:
   - "article-importer"
 ---
