@@ -73,7 +73,7 @@ to:: "Daily users reported the strongest patterns across all four items."
 
 %% Note: Self-published Substack survey (2026), 299 UK employees across six sectors. Self-reported, single time point; author states it does not prove causation. %%
 
-## The counterargument: tools as part of the mind
+## Can AI Extend thre 
 Not everyone reads this as loss. Gutoreva and colleagues (2025) take the Extended Mind position: a tool you rely on can become a real part of your thinking, not a replacement for it. The line that matters is between using AI as an assistive instrument and treating it as an authoritative source. When AI performs the full epistemic labour, the risk of disempowerment rises. Read their position below.
 
 #### Article
