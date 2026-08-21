@@ -17,9 +17,7 @@ This course uses the term "metacognitive offloading" rather than the alternative
 
 The difference matters, and the calculator shows it. We offload the arithmetic to a calculator, but most of us still understand what a sum means. We could check the answer, and we know what would count as a weird result. The judgement stays ours. That is offloading a task.
 
-{--{"author":"coder's AI","timestamp":1787301525560}@@Now take it one step further. **Arbitrary offloading** is handing off a decision you do not understand at all. You have no way to evaluate the answer, but you follow it anyway. Here the judgement leaves you. The calculator example keeps the judgement; the arbitrary example is where it departs.
-
---}LLMs push us toward {--{"author":"coder's AI","timestamp":1787301525560}@@the second case--}{++{"author":"coder's AI","timestamp":1787301525560}@@this++} without us noticing. When you ask an AI to "break this difficult problem down for me", you are not offloading a narrow computation. You are delegating how to plan, what to notice, and what to treat as important: a large part of the thinking. If you also let the AI decide which problems to hand it in the first place, the oversight of your own thinking has moved out of your hands.
+LLMs push us toward this without us noticing. When you ask an AI to "break this difficult problem down for me", you are not offloading a narrow computation. You are delegating how to plan, what to notice, and what to treat as important: a large part of the thinking. If you also let the AI decide which problems to hand it in the first place, the oversight of your own thinking has moved out of your hands.
 
 A fair counterpoint: is this really so bad? Maybe we learn the same things in different ways when a tool guides us. Maybe we learn different things instead, and some of those are worth learning. The honest answer is that nobody fully knows yet. That uncertainty is exactly what Unit 3 is about: what happens, and what the evidence shows, when judgement is offloaded again and again.{++{"author":"coder's AI","timestamp":1787301525560}@@
 
