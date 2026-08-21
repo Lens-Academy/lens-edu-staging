@@ -10,11 +10,11 @@ tags:
 #### Text
 content::
 \## Unit 2 recap
-You have finished Unit 2. It gave you two pairs of ideas to hold together.
+You have finished Unit 2. It gave you two pairs of ideas to hold {--{"author":"AI","timestamp":1787313621510}@@together.--}{++{"author":"AI","timestamp":1787313621510}@@together, and it named five traps your own thinking can fall into.++}
 
-The first was thinking itself (cognition) versus thinking about your thinking (metacognition) — the monitoring and control that keep your reasoning honest. The second was offloading a task while the judgement stays with you, versus metacognitive laziness, where you hand the oversight itself to the tool and the judgement leaves.
+The first {++{"author":"AI","timestamp":1787313621510}@@pair ++}was thinking itself (cognition) versus thinking about your thinking (metacognition) — the monitoring and control that keep your reasoning honest. The second {++{"author":"AI","timestamp":1787313621510}@@pair ++}was offloading a task while the judgement stays with you, versus metacognitive laziness, where you hand the oversight itself to the tool and the judgement leaves.{++{"author":"AI","timestamp":1787313621510}@@ The five traps are ways that oversight breaks even with no tool in the room: Forming, Dislodging, Assumption, Location, and Achievement.++}
 
-Now answer the check below in your own words. It asks you to say where the judgement sits in two real examples of tool use, which case hands the judgement over, and to give your own example of arbitrary offloading. Use examples from your own life where you can.
+Now answer the {--{"author":"AI","timestamp":1787313621510}@@check--}{++{"author":"AI","timestamp":1787313621510}@@two checks++} below in your own words. {--{"author":"AI","timestamp":1787313621510}@@It--}{++{"author":"AI","timestamp":1787313621510}@@The first++} asks you to say where the judgement sits in two real examples of tool use, which case hands the judgement over, and to give your own example of arbitrary offloading. {++{"author":"AI","timestamp":1787313621510}@@The second asks you to name the five metacognitive traps and give a real example of each. ++}Use examples from your own life where you can.
 
 #### Question
 content::
