@@ -32,8 +32,10 @@ In my [last essay](https://joecarlsmith.substack.com/p/paths-and-waystations-in-
 In this essay, I argue for the crucial importance of what I call “AI for AI safety” – that is, the differential use of frontier AI labor to strengthen these security factors. I frame this in terms of the interplay between two feedback loops, namely:
 
 - *The AI capabilities feedback loop*: access to increasingly capable AI systems driving further progress in AI capabilities.
-- *The AI safety feedback loop*: safe access to increasingly capable AI systems driving improvemen
-AI for AI Safety is about continuously using the latter feedback loop to either outpace or restrain the former.n's AI","timestamp":1786857199361}@@
+- *The AI safety feedback loop*: safe access to increasingly capable AI systems driving {--{"author":"Luc's AI","timestamp":1787308073160}@@improvemen
+--}{++{"author":"Luc's AI","timestamp":1787308073160}@@improvements to the security factors above.
+
+++}AI for AI {--{"author":"Luc's AI","timestamp":1787308073160}@@Safety--}{++{"author":"Luc's AI","timestamp":1787308073160}@@safety++} is about {--{"author":"Luc's AI","timestamp":1787308073160}@@continuously--}{++{"author":"Luc's AI","timestamp":1787308073160}@@continually++} using the latter feedback loop to either outpace or restrain the{--{"author":"Luc's AI","timestamp":1787308073160}@@ former.n's AI","timestamp":1786857199361}@@--}{++{"author":"Luc's AI","timestamp":1787308073160}@@ former.++}
 
 ![171]({--{"author":"Luc's AI","timestamp":1787308028551}@@https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/78c64f83849b61011fb63235c73f74d7c99658744870b5e31f4d5759c7/ghv5xywsfgfsynvwxioi--}{++{"author":"Luc's AI","timestamp":1787308028551}@@https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/78c64f83849b61011fb63235c73f74d7c99658744870b5e30e81231f4d5759c7/ghv5xywsfgfsynvwxioi++})++}
 
