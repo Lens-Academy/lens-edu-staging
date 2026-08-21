@@ -1,7 +1,6 @@
 ---
 title: "Arbitrary cognitive offloading to GenAI: Does the current policy landscape account for the right to quality education of children and youth in the European Union? – AI Policy Lab"
-author:
-  - "Doi"
+author: Marit Brademann
 source_url: "https://doi.org/10.63439/LMID6934"
 published: 2026-07-23
 created: 2026-08-21
