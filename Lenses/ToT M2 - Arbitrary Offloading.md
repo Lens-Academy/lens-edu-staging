@@ -25,16 +25,6 @@ A manager pastes last quarter's messy data into the AI and forwards the polished
 
 None of this needs malice or stupidity. It needs only that the answer arrived whole, and the check on the answer was never in your hands.
 
-\## How it differs from metacognitive laziness
-
-Arbitrary offloading and metacognitive laziness are close, but they are not the same thing.
-
-**Arbitrary offloading** is the random or uncritical transfer of a mental task to an external tool, like generative AI, and then following the result anyway. The task moves out, and the check on it moves out with it.
-
-**Metacognitive laziness** is the habit of skipping the self-reflection, planning, and monitoring that good thinking requires. You may still do the task yourself, but you stop overseeing your own mind.
-
-The difference is about what gets handed over. Arbitrary offloading hands the task to a tool and trusts its answer. Metacognitive laziness keeps the task but drops the oversight of its own thinking.
-
 #### Article
 source:: [[../articles/doi-arbitrary-cognitive-offloading-to-genai-does-the-current-policy-landscape-account-for-the-right-to-quality-education-of-children-and-youth-in-the-european-union-ai-policy-lab]]
 from:: "However, the initial reading (reading comprehension skill) and note-taking (sustained attention) should not be skipped by D: The problematic use case we are concerned with here is if D uses GenAI to complete the entire task"
