@@ -46,6 +46,8 @@ to:: "In multivariable logistic regression analysis, exposure to AI (odds ratio"
 
 %% Note: Multicentre observational study (ACCEPT trial, Poland). After endoscopists were exposed to AI-assisted polyp detection, ADR on standard non-AI colonoscopy fell from 28.4% to 22.4% (6.0 pp absolute, p=0.0089). Objective clinical outcome, not self-report. %%
 
+#### Text
+content::
 ## Critical Thinking While Using AI
 
 Gerlich (2025) surveyed 666 UK participants using validated critical thinking assessments including the Halpern Critical Thinking Assessment. Regression analysis showed AI tool use negatively predicts critical thinking scores (beta = -1.76, p < 0.001), mediated by increased cognitive offloading. Younger participants showed the strongest pattern: higher AI dependence, lower critical thinking scores. A formal correction was later published for this study, noting the reliance on self-reported critical thinking practices.
