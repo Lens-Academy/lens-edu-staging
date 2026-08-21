@@ -18,7 +18,7 @@ Graded OpenResponse and FillBlank use same assessor flow. Platform supplies base
 
 OpenResponse collects typed or dictated text. Smallest version follows. %%
 
-#### OpenResponse
+#### {--{"author":"Elias's AI","timestamp":1787311822087}@@OpenResponse--}{++{"author":"Elias's AI","timestamp":1787311822087}@@Question: Open++}
 id:: 3e1a5838-95df-4d05-a88a-1b4ca868905f
 content:: What is your strongest objection?
 
