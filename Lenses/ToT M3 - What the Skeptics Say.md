@@ -99,14 +99,14 @@ A skeptic tells you: "This whole worry is media panic. Most of the studies are p
 
 Respond. Where is the skeptic right, where do they overreach, and what, on the evidence you have seen in this unit, is actually worth worrying about?
 
-assessment-instructions:: The student has completed the reading, recall, and reflection phases of the skeptical lens of Unit 3, and has also worked through the evidence lens earlier in the unit {--{"author":"Course's AI","timestamp":1787320154262}@@(Kulveit gradual disempowerment; the--}{++{"author":"Course's AI","timestamp":1787320154262}@@(the++} legal study; Budzyn and colleagues' endoscopist study; the skill-formation experiment; Microsoft's survey; the survey findings). They are now in the main discussion phase, weighing the skeptical case against the earlier evidence.
+assessment-instructions:: The student has completed the reading, recall, and reflection phases of the skeptical lens of Unit 3, and has also worked through the evidence lens earlier in the unit {--{"author":"Course's AI","timestamp":1787320154262}@@(Kulveit gradual disempowerment; the--}{++{"author":"Course's AI","timestamp":1787320154262}@@(the++} legal study; Budzyn and colleagues' endoscopist study; {--{"author":"course's AI","timestamp":1787325997785}@@the skill-formation experiment; --}Microsoft's survey; the survey findings). They are now in the main discussion phase, weighing the skeptical case against the earlier evidence.
 
 The question is a deliberate wedge: a confident skeptic who says the whole worry collapses. The student must both concede what is fair and identify where the skeptic overreaches, landing on a calibrated position.
 
 Key points the student should be able to make:
 - The skeptic is right about: self-report weakness and the Gerlich correction; offloading being ancient (writing, calculators) and historically not producing decline; extended mind and cognitive hygiene; the speedup illusion showing perceived-not-actual effort savings; mixed findings.
 - The skeptic overreaches by treating "AI is offloading" as the same as "offloading to a narrow tool". What is new is that generative AI performs complete epistemic labour (explains, synthesises, evaluates, recommends) and invites the user to skip review.
-- The strongest evidence is not self-report: the endoscopist study (real clinical outcomes; performance fell when AI was removed) and the randomised skill-formation experiment (17% lower on the later quiz, with explanation-seeking preserving learning).
+- The strongest evidence is not self-report: the endoscopist study (real clinical outcomes; performance fell when AI was {--{"author":"course's AI","timestamp":1787325997251}@@removed) and the randomised skill-formation experiment (17% lower on the later quiz, with explanation-seeking preserving learning).--}{++{"author":"course's AI","timestamp":1787325997251}@@removed).++}
 - The fair conclusion: concern about specific patterns of use (handing judgement over, treating output as authoritative, delegating what you cannot evaluate), not panic about all AI use.
 
 Conversation flow: keep an internal turn counter. After 3 replies, ask whether the student wants to continue or stop; if they want to stop, give the calibration summary below.

@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787325778216}@@---
+---
 id: '31e572c3-991d-4778-ac9e-d2d1cbf14f22'
 title: "When AI Can Help"
 reading_minutes: 5
@@ -16,4 +16,4 @@ Bednar and colleagues (2025) ran a randomised study with about 100 Minnesota law
 #### Article
 source:: [[../articles/bednar-does-ai-make-lawyers-worse-at-thinking-new-research-offers-a-more-complicated-answer]]
 from:: "Since the public release of ChatGPT in 2022, a growing body of empirical research has suggested that generative AI systems could fundamentally reshape the practice of law."
-to:: "conditions that increase the likelihood that AI substitutes for careful analysis rather than supporting it."++}
+to:: "conditions that increase the likelihood that AI substitutes for careful analysis rather than supporting it."
