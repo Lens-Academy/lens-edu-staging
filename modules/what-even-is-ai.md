@@ -31,10 +31,11 @@ source:: ![[../Lenses/Security Mindset and Ordinary Paranoia|Security Mindset an
 # Lens:
 source:: ![[../Lenses/How can LLMs be understood as simulators]]
 
-{++{"author":"Plex's AI","timestamp":1787325295816}@@%% TODO(Plex): add https://www.lesswrong.com/posts/yew6zFWAKG4AGs3Wk/foom-and-doom-1-brain-in-a-box-in-a-basement as CORE reading here (after simulators) once article import is available (blocked on share-token MCP credential). %%
-
-++}# Lens:
+{--{"author":"Plex's AI","timestamp":1787325319614}@@# Lens:
+source:: ![[../Lenses/Janus' Simulators - Scott Alexander]]--}{++{"author":"Plex's AI","timestamp":1787325319614}@@# Lens:
 source:: ![[../Lenses/Janus' Simulators - Scott Alexander]]
+
+%% TODO(Plex): add https://www.lesswrong.com/posts/yew6zFWAKG4AGs3Wk/foom-and-doom-1-brain-in-a-box-in-a-basement as CORE reading here (after simulators) once article import is available (blocked on share-token MCP credential). %%++}
 
 {--{"author":"Plex's AI","timestamp":1787325295816}@@# Lens:
 optional:: true
