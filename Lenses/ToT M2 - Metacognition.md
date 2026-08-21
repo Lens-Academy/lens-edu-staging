@@ -77,7 +77,7 @@ Conversation flow: keep an internal turn counter for your own replies. After abo
 
 #### Question
 content::
-\## Phase 3: Learning Question
+\## Learning Question
 Think of a recent task where you only realised, too late, that you had been assuming you understood something you did not. It might be a document you skimmed, a number you trusted, or a plan you never really checked.
 
 Where was the moment you could have noticed? What would it have taken — a question, a pause, a second look — to catch it then?
