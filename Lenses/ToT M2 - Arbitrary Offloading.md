@@ -11,14 +11,14 @@ tags:
 #### Text
 content::
 
-Start with the calculator. We offload the arithmetic to a calculator, but most of us still understand what a sum means and could catch a wrong answer. The judgement stays with us. That is **offloading a task**. **Arbitrary offloading** is the opposite extreme: you hand off a decision you do not understand at all, and the judgement leaves entirely.
+Start with the calculator. We offload the arithmetic to a calculator, but most of us still understand what a sum means and could catch a wrong answer. The judgement stays with us. That is **offloading a {--{"author":"AI","timestamp":1787306963143}@@task**. **Arbitrary offloading** is--}{++{"author":"AI","timestamp":1787306963143}@@task**,++} the {--{"author":"AI","timestamp":1787306963143}@@opposite extreme: you hand off a decision you do not understand at all, and the judgement leaves entirely.--}{++{"author":"AI","timestamp":1787306963143}@@basic kind of [[../Lenses/ToT M1 - Cognition and Cognitive Offloading|offloading]] we met in Unit 1.++}
 
-**Arbitrary offloading** is the sharpest version. It is handing off a decision you do not understand at all. You have no way to evaluate the answer, but you follow it anyway. The judgement does not just move — it leaves.
+**Arbitrary offloading** is the {--{"author":"AI","timestamp":1787306963143}@@sharpest version.--}{++{"author":"AI","timestamp":1787306963143}@@opposite extreme.++} It is handing off a decision you do not understand at all. You have no way to evaluate the answer, but you follow it anyway. The judgement does not just {--{"author":"AI","timestamp":1787306963143}@@move — it leaves.--}{++{"author":"AI","timestamp":1787306963143}@@move. It leaves entirely.++}
 
 \## How it differs from offloading a task
 
 - **Offloading a task** (the calculator): the work moves out, but your ability to check stays.
-- **Arbitrary offloading**: you cannot even evaluate the result. There is no check left to ** (the quieter version, covered next): the oversight moves out — you let the system decide what to delegate — but you may still understand the domain and could in principle re-engage.
+- **Arbitrary offloading**: you cannot even evaluate the result. There is no check left{--{"author":"AI","timestamp":1787306963143}@@ to ** (the quieter version, covered next): the oversight moves out — you let the system decide what to delegate — but you may still understand the domain and could in principle re-engage.--}{++{"author":"AI","timestamp":1787306963143}@@ at all.++}
 
 The calculator keeps the judge. Arbitrary offloading removes the judge.
 
