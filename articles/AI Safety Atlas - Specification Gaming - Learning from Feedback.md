@@ -12,7 +12,7 @@ tags:
   - "article-importer"
 ---
 
-Download chapter: [Markdown](https://ai-safety-atlas.com/chapters/v1/specification-gaming.md) · [PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter6-af895defbf8761a30ac565755f204072e09a5d599ca725f3de64de4b547c2f28.pdf)
+{--{"author":"Luc's AI","timestamp":1787310029165}@@Download chapter: [Markdown](https://ai-safety-atlas.com/chapters/v1/specification-gaming.md)--}{++{"author":"Luc's AI","timestamp":1787310029165}@@*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/specification-gaming.md)++} · {--{"author":"Luc's AI","timestamp":1787310029165}@@[PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter6-af895defbf8761a30ac565755f204072e09a5d599ca725f3de64de4b547c2f28.pdf)--}{++{"author":"Luc's AI","timestamp":1787310029165}@@[Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter6-af895defbf8761a30ac565755f204072e09a5d599ca725f3de64de4b547c2f28.pdf)*++}
 
 %%
 Add discussion note here:
