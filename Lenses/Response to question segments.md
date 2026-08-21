@@ -58,7 +58,7 @@ content:: How confident are you in your answer?
 - `high-label:: Very confident`: high-end label. Defaults to none.
 - `feedback-instructions:: ...`: AI response to rating. Defaults to none.
 
-Ratings never affect correctness score. Next example changes scale and labels, and adds AI feedback. %%
+{--{"author":"Elias's AI","timestamp":1787312100648}@@Ratings--}{++{"author":"Elias's AI","timestamp":1787312100648}@@`Question: Rating` responses++} never affect correctness score. Next example changes scale and labels, and adds AI feedback. %%
 
 #### Question: Rating
 id:: 651213b4-1952-4ed4-98a8-8f772cf732d6
@@ -76,7 +76,7 @@ options::
 - Forecasting
 - Governance
 
-%% Mark correct option with `[x]` to grade Select. Plain options stay ungraded. Survey selects never use `[x]`.
+%% Mark correct option with `[x]` to grade {--{"author":"Elias's AI","timestamp":1787312103559}@@Select.--}{++{"author":"Elias's AI","timestamp":1787312103559}@@`Question: Select`.++} Plain options stay ungraded. Survey selects never use `[x]`.
 
 Select options:
 - `optional:: true`: allow skipping. Defaults to `false`.
