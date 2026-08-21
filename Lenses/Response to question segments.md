@@ -98,7 +98,7 @@ feedback-instructions:: Explain misconception behind learner {--{"author":"Elias
 
 %% {--{"author":"Elias's AI","timestamp":1787312248594}@@Multi-select is--}{++{"author":"Elias's AI","timestamp":1787312248594}@@Multiple choice uses++} same segment with `multi:: true`. %%
 
-#### Question: Select
+#### Question: {--{"author":"Elias's AI","timestamp":1787312253358}@@Select--}{++{"author":"Elias's AI","timestamp":1787312253358}@@Choice++}
 id:: cb39e8f1-4477-4b66-b016-37c99c5ff753
 content:: Which topics interest you?
 options::
@@ -107,7 +107,7 @@ options::
 - Technical safety
 multi:: true
 
-%% Multi-select has same options and defaults as single {--{"author":"Elias's AI","timestamp":1787312197216}@@select--}{++{"author":"Elias's AI","timestamp":1787312197216}@@choice++}. For grading, learner selection must exactly match all `[x]` options.
+%% {--{"author":"Elias's AI","timestamp":1787312256460}@@Multi-select--}{++{"author":"Elias's AI","timestamp":1787312256460}@@Multiple choice++} has same options and defaults as single {--{"author":"Elias's AI","timestamp":1787312197216}@@select--}{++{"author":"Elias's AI","timestamp":1787312197216}@@choice++}. For grading, learner {--{"author":"Elias's AI","timestamp":1787312256460}@@selection--}{++{"author":"Elias's AI","timestamp":1787312256460}@@choices++} must exactly match all `[x]` options.
 
 `Question: FillBlank` puts inputs inside sentence. Text inside braces is accepted answer. Smallest graded version follows. %%
 
@@ -201,6 +201,6 @@ feedback-instructions:: Explain most important misplaced relationship and why it
 %% Grading by context:
 - Surveys never grade.
 - Normal lenses may contain graded practice or ungraded reflection.
-- Learning Outcome tests require gradable `Question: Open` and `Question: Select`. `Question: FillBlank` may mix graded and ungraded blanks. `Question: Ranking` is graded when it has `assessment-instructions::`.
+- Learning Outcome tests require gradable `Question: Open` and `Question: {--{"author":"Elias's AI","timestamp":1787312259859}@@Select`.--}{++{"author":"Elias's AI","timestamp":1787312259859}@@Choice`.++} `Question: FillBlank` may mix graded and ungraded blanks. `Question: Ranking` is graded when it has `assessment-instructions::`.
 - `Question: Open` grading needs `assessment-instructions::`; `Question: FillBlank` with expected answers uses base assessor automatically; `Question: Select` grading needs `[x]`.
 - `Question: Rating` and wholly ungraded `Question: FillBlank` never affect score. %%
