@@ -289,13 +289,13 @@ Finally you have the **pia mater** (“soft mother”), a fine, delicate layer o
 
 Here’s the full overview, using the head of what looks like probably a pig:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/338317926b0c5edcd883a0ff35fa3f2b.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/338317926b0c5edcd883a0ff35fa3f2b.jpg)
+{--{"author":"Luc's AI","timestamp":1787306345208}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/338317926b0c5edcd883a0ff35fa3f2b.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/338317926b0c5edcd883a0ff35fa3f2b.jpg)--}{++{"author":"Luc's AI","timestamp":1787306345208}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/338317926b0c5edcd883a0ff35fa3f2b.jpg)++}
 
 From the left you have the skin (the pink), then two scalp layers, then the skull, then the dura, arachnoid, and on the far right, just the brain covered by the pia.
 
 Once we’ve stripped everything down, we’re left with this silly boy:[^cite-urban-source-5]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain1.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/brain1.jpg)
+{--{"author":"Luc's AI","timestamp":1787306345495}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain1.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/brain1.jpg)--}{++{"author":"Luc's AI","timestamp":1787306345495}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain1.jpg)++}
 
 This ridiculous-looking thing is the most complex known object in the universe—three pounds of what neuroengineer Tim Hanson calls “one of the most information-dense, structured, and self-structuring matter known.” [^note-urban-source-6] All while operating on only [20 watts](http://www.popsci.com/technology/article/2009-11/neuron-computer-chips-could-overcome-power-limitations-digital) of power (an [equivalently powerful computer](http://www.reuters.com/article/us-china-supercomputer-idUSKCN0J11VV20141117) runs on 24,000,000 watts).
 
@@ -311,7 +311,7 @@ Professor Krishna Shenoy [likens](https://www.youtube.com/watch?v=ZuATvhlcUU4) o
 
 Another professor, [Jeff Lichtman](http://lichtmanlab.fas.harvard.edu/people/jeff-lichtman), is even harsher. He starts off his courses by asking his students the question, “If everything you need to know about the brain is a mile, how far have we walked in this mile?” He says students give answers like three-quarters of a mile, half a mile, a quarter of a mile, etc.—but that he believes the real answer is “about three inches.” [^cite-urban-source-8]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/How-do-you-work-4.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/How-do-you-work-4.png)
+{--{"author":"Luc's AI","timestamp":1787306345789}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/How-do-you-work-4.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/How-do-you-work-4.png)--}{++{"author":"Luc's AI","timestamp":1787306345789}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/How-do-you-work-4.png)++}
 
 A third professor, neuroscientist [Moran Cerf](https://www.morancerf.com/), shared with me an old neuroscience saying that points out why trying to master the brain is a bit of a catch-22: “If the human brain were so simple that we could understand it, we would be so simple that we couldn’t.”
 
@@ -321,19 +321,19 @@ Maybe with the help of the great knowledge tower our species is building, we can
 
 Let’s look at the major sections of the brain using a hemisphere cross section. So this is what the brain looks like in your head:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2017/04/sh202-hs.png)](https://waitbutwhy.com/wp-content/uploads/2017/04/sh202-hs.png)
+{--{"author":"Luc's AI","timestamp":1787306346091}@@[![](https://waitbutwhy.com/wp-content/uploads/2017/04/sh202-hs.png)](https://waitbutwhy.com/wp-content/uploads/2017/04/sh202-hs.png)--}{++{"author":"Luc's AI","timestamp":1787306346091}@@![](https://waitbutwhy.com/wp-content/uploads/2017/04/sh202-hs.png)++}
 
 Now let’s take the brain out of the head and remove the left hemisphere, which gives us a good view of the inside.[^cite-urban-source-9]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cross-section.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cross-section.png)
+{--{"author":"Luc's AI","timestamp":1787306346377}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cross-section.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cross-section.png)--}{++{"author":"Luc's AI","timestamp":1787306346377}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cross-section.png)++}
 
 Neurologist [Paul MacLean](http://www.kheper.net/topics/intelligence/MacLean.htm) made a simple diagram that illustrates the basic idea we talked about earlier of the reptile brain coming first in evolution, then being built upon by mammals, and finally being built upon again to give us our brain trifecta.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/triune-brain-theory.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/triune-brain-theory.jpg)
+{--{"author":"Luc's AI","timestamp":1787306346654}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/triune-brain-theory.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/triune-brain-theory.jpg)--}{++{"author":"Luc's AI","timestamp":1787306346654}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/triune-brain-theory.jpg)++}
 
 Here’s how this essentially maps out on our real brain:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cross-section-LABELED.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cross-section-LABELED.png)
+{--{"author":"Luc's AI","timestamp":1787306346930}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cross-section-LABELED.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cross-section-LABELED.png)--}{++{"author":"Luc's AI","timestamp":1787306346930}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-cross-section-LABELED.png)++}
 
 Let’s take a look at each section:
 
@@ -341,11 +341,11 @@ Let’s take a look at each section:
 
 This is the most ancient part of our brain:[^cite-urban-source-10]
 
-[![midbrain, pons, cerebellum, and medulla oblongata](https://waitbutwhy.com/wp-content/uploads/2017/04/brainstem-v2.png)](https://waitbutwhy.com/wp-content/uploads/2017/04/brainstem-v2.png)
+{--{"author":"Luc's AI","timestamp":1787306347210}@@[![midbrain,--}{++{"author":"Luc's AI","timestamp":1787306347210}@@![midbrain,++} pons, cerebellum, and medulla {--{"author":"Luc's AI","timestamp":1787306347210}@@oblongata](https://waitbutwhy.com/wp-content/uploads/2017/04/brainstem-v2.png)](https://waitbutwhy.com/wp-content/uploads/2017/04/brainstem-v2.png)--}{++{"author":"Luc's AI","timestamp":1787306347210}@@oblongata](https://waitbutwhy.com/wp-content/uploads/2017/04/brainstem-v2.png)++}
 
 That’s the section of our brain cross section above that the frog boss resides over. In fact, a frog’s entire brain is similar to this lower part of our brain. Here’s a real frog brain:[^cite-urban-source-11]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/frogside107.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/frogside107.jpg)
+{--{"author":"Luc's AI","timestamp":1787306347562}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/frogside107.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/frogside107.jpg)--}{++{"author":"Luc's AI","timestamp":1787306347562}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/frogside107.jpg)++}
 
 When you understand the function of these parts, the fact that they’re ancient makes sense—everything these parts do, frogs and lizards can do. These are the major sections (click any of these spinning images to see a high-res version):
 
@@ -361,7 +361,7 @@ The pons’s thing is that it does a little bit of this and a little bit of that
 
 The midbrain is dealing with an even bigger identity crisis than the pons. You know a brain part is going through some shit when almost all its functions are already another brain part’s thing. In the case of the midbrain, it deals with vision, hearing, motor control, alertness, temperature control, and a bunch of other things that other people in the brain already do. The rest of the brain doesn’t seem very into the midbrain either, given that they created a ridiculously uneven “forebrain, midbrain, hindbrain” divide that intentionally isolates the midbrain all by itself while everyone else hangs out.[^cite-urban-source-12]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/CNX_Psych_03_04_FMHBrain.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/CNX_Psych_03_04_FMHBrain.jpg)
+{--{"author":"Luc's AI","timestamp":1787306347887}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/CNX_Psych_03_04_FMHBrain.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/CNX_Psych_03_04_FMHBrain.jpg)--}{++{"author":"Luc's AI","timestamp":1787306347887}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/CNX_Psych_03_04_FMHBrain.jpg)++}
 
 One thing I’ll grant the pons and midbrain is that it’s the two of them that control your voluntary eye movement, which is a pretty legit job. So if right now you move your eyes around, that’s you doing something specifically with your pons and midbrain.[^note-urban-7]
 
@@ -373,7 +373,7 @@ The odd-looking thing that looks like your brain’s scrotum is your cerebellum 
 
 Above the brain stem is the limbic system—the part of the brain that makes humans so insane.[^cite-urban-source-13]
 
-[![limbic system diagram](https://waitbutwhy.com/wp-content/uploads/2018/04/limbic.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/limbic.jpg)
+{--{"author":"Luc's AI","timestamp":1787306348165}@@[![limbic--}{++{"author":"Luc's AI","timestamp":1787306348165}@@![limbic++} system {--{"author":"Luc's AI","timestamp":1787306348165}@@diagram](https://waitbutwhy.com/wp-content/uploads/2018/04/limbic.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/limbic.jpg)--}{++{"author":"Luc's AI","timestamp":1787306348165}@@diagram](https://waitbutwhy.com/wp-content/uploads/2018/04/limbic.jpg)++}
 
 The limbic system is a survival system. A decent rule of thumb is that whenever you’re doing something that your dog might also do—eating, drinking, having sex, fighting, hiding or running away from something scary—your limbic system is probably behind the wheel. Whether it feels like it or not, when you’re doing any of those things, you’re in primitive survival mode.
 
@@ -421,7 +421,7 @@ The cortex is in charge of basically everything—processing what you see, hear,
 
 It’s divided into four lobes:[^cite-urban-source-14]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/lobes2.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/lobes2.jpg)
+{--{"author":"Luc's AI","timestamp":1787306348449}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/lobes2.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/lobes2.jpg)--}{++{"author":"Luc's AI","timestamp":1787306348449}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/lobes2.jpg)++}
 
 It’s pretty unsatisfying to describe what they each do, because they each do so many things and there’s a lot of overlap, but to oversimplify:
 
@@ -429,15 +429,15 @@ The [**frontal lobe**](https://waitbutwhy.com/wp-content/uploads/2018/04/Frontal
 
 As if that’s not enough to worry about, the frontal lobe is also in charge of your body’s movement. The top strip of the frontal lobe is your **primary motor cortex.**[^cite-urban-source-15]
 
-[![](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Motor-Cortex-Labeled.png)](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Motor-Cortex-Labeled.png)
+{--{"author":"Luc's AI","timestamp":1787306348716}@@[![](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Motor-Cortex-Labeled.png)](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Motor-Cortex-Labeled.png)--}{++{"author":"Luc's AI","timestamp":1787306348716}@@![](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Motor-Cortex-Labeled.png)++}
 
 Then there’s the [**parietal lobe**](https://waitbutwhy.com/wp-content/uploads/2018/04/Parietal_lobe_animation.gif) which, among other things, controls your sense of touch, particularly in the **primary somatosensory cortex**, the strip right next to the primary motor cortex.[^cite-urban-source-16]
 
-[![](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Other-Somatosenory-Cortex-Areas.png)](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Other-Somatosenory-Cortex-Areas.png)
+{--{"author":"Luc's AI","timestamp":1787306349011}@@[![](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Other-Somatosenory-Cortex-Areas.png)](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Other-Somatosenory-Cortex-Areas.png)--}{++{"author":"Luc's AI","timestamp":1787306349011}@@![](https://www.getbodysmart.com/wp-content/uploads/2017/09/Primary-Other-Somatosenory-Cortex-Areas.png)++}
 
 The motor and somatosensory cortices are fun because they’re well-mapped. Neuroscientists know exactly which part of each strip connects to each part of your body. Which leads us to the creepiest diagram of this post: the _homunculus_.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/152-KB-Homonculus-Sensory-and-Motor-Cortex.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/152-KB-Homonculus-Sensory-and-Motor-Cortex.png)
+{--{"author":"Luc's AI","timestamp":1787306349323}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/152-KB-Homonculus-Sensory-and-Motor-Cortex.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/152-KB-Homonculus-Sensory-and-Motor-Cortex.png)--}{++{"author":"Luc's AI","timestamp":1787306349323}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/152-KB-Homonculus-Sensory-and-Motor-Cortex.png)++}
 
 The homunculus, created by pioneer neurosurgeon Wilder Penfield, visually displays how the motor and somatosensory cortices are mapped. The larger the body part in the diagram, the more of the cortex is dedicated to its movement or sense of touch. A couple interesting things about this:
 
@@ -447,7 +447,7 @@ Second, it’s interesting how the two cortices are basically dedicated to the s
 
 Finally, I came across this shit and I’ve been living with it ever since—so now you have to too. A 3-dimensional homunculus man.[^cite-urban-source-17]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Side-black.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Side-black.jpg)
+{--{"author":"Luc's AI","timestamp":1787306349682}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Side-black.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Side-black.jpg)--}{++{"author":"Luc's AI","timestamp":1787306349682}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Side-black.jpg)++}
 
 Moving on—
 
@@ -463,11 +463,11 @@ As we’ve discussed, the evolution of our brain happened by building outwards, 
 
 So evolution got innovative. Because the cortex is so thin, it scales by increasing its surface area. That means that by creating lots of folds (including both sides [folding down into the gap](https://upload.wikimedia.org/wikipedia/commons/5/54/Frontal_lobe_animation.gif) between the two hemispheres), you can more than triple the area of the brain’s surface without increasing the volume too much. When the brain first develops in the womb, the cortex is smooth—the folds form mostly in the last two months of pregnancy:[^cite-urban-source-18]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/FIGURE-2-Prenatal-development-of-the-human-brain-showing-a-series-of-embryonic-and-fetal.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/FIGURE-2-Prenatal-development-of-the-human-brain-showing-a-series-of-embryonic-and-fetal.png)
+{--{"author":"Luc's AI","timestamp":1787306349965}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/FIGURE-2-Prenatal-development-of-the-human-brain-showing-a-series-of-embryonic-and-fetal.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/FIGURE-2-Prenatal-development-of-the-human-brain-showing-a-series-of-embryonic-and-fetal.png)--}{++{"author":"Luc's AI","timestamp":1787306349965}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/FIGURE-2-Prenatal-development-of-the-human-brain-showing-a-series-of-embryonic-and-fetal.png)++}
 
 Cool explainer of how the folds form [here](https://s-media-cache-ak0.pinimg.com/736x/03/d8/60/03d8603a8a23f473cda93722426cd9e5.jpg).
 
-If you could take the cortex off the brain, you’d end up with a 2mm-thick sheet with an area of 2,000-2,400cm 2 —about the size of a 48cm x 48cm (19in x 19in) square.[^note-urban-10] A dinner napkin. [![](https://waitbutwhy.com/wp-content/uploads/2018/04/Guy-holding-napkin.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Guy-holding-napkin.png)
+If you could take the cortex off the brain, you’d end up with a 2mm-thick sheet with an area of 2,000-2,400cm 2 —about the size of a 48cm x 48cm (19in x 19in) square.[^note-urban-10] A dinner napkin. {--{"author":"Luc's AI","timestamp":1787306350266}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Guy-holding-napkin.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Guy-holding-napkin.png)--}{++{"author":"Luc's AI","timestamp":1787306350266}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Guy-holding-napkin.png)++}
 
 This napkin is where most of the action in your brain happens—it’s why you can think, move, feel, see, hear, remember, and speak and understand language. Best napkin ever.
 
@@ -483,7 +483,7 @@ So while it’s not perfect, modern science has a decent understanding of the bi
 
 Even though we figured out that the brain was the seat of our intelligence a long time ago, it wasn’t until pretty recently that science understood what the brain was made of. Scientists knew that the body was made of cells, but in the late 19th century, Italian physician Camillo Golgi figured out how to use a [staining method](http://journal.frontiersin.org/article/10.3389/fnana.2016.00038/full) to see what brain cells actually looked like. The result was surprising:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/220px-GolgiStainedPyramidalCell.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/220px-GolgiStainedPyramidalCell.jpg)
+{--{"author":"Luc's AI","timestamp":1787306350567}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/220px-GolgiStainedPyramidalCell.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/220px-GolgiStainedPyramidalCell.jpg)--}{++{"author":"Luc's AI","timestamp":1787306350567}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/220px-GolgiStainedPyramidalCell.jpg)++}
 
 That wasn’t what a cell was supposed to look like. Without quite realizing it yet,[^note-urban-11] Golgi had discovered the neuron.
 
@@ -495,45 +495,45 @@ An axon, the long strand of a neuron that carries information, is normally micro
 
 So there are a lot of different kinds of neurons— [^cite-urban-source-19]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/neuron_types.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/neuron_types.gif)
+{--{"author":"Luc's AI","timestamp":1787306350833}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/neuron_types.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/neuron_types.gif)--}{++{"author":"Luc's AI","timestamp":1787306350833}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/neuron_types.gif)++}
 
 —but for simplicity, we’ll discuss the cliché textbook neuron—a pyramidal cell, like one you might find in your motor cortex. To make a neuron diagram, we can start with a guy:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-1.png)
+{--{"author":"Luc's AI","timestamp":1787306351102}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-1.png)--}{++{"author":"Luc's AI","timestamp":1787306351102}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-1.png)++}
 
 And then if we just give him a few extra legs, some hair, take his arms off, and stretch him out—we have a neuron.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-2.png)
+{--{"author":"Luc's AI","timestamp":1787306351532}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-2.png)--}{++{"author":"Luc's AI","timestamp":1787306351532}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-2.png)++}
 
 And let’s add in a few more neurons.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-3.png)
+{--{"author":"Luc's AI","timestamp":1787306351793}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-3.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-3.png)--}{++{"author":"Luc's AI","timestamp":1787306351793}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-3.png)++}
 
 Rather than launch into the full, detailed explanation for how action potentials work—which involves a lot of unnecessary and uninteresting technical information you already dealt with in 9th-grade biology—I’ll link to this great Khan Academy [explainer article](https://www.khanacademy.org/science/biology/human-biology/neuron-nervous-system/a/the-synapse) for those who want the full story. We’ll go through the very basic ideas that are relevant for our purposes.
 
 So our guy’s body stem—the neuron’s **axon** —has a negative “resting potential,” which means that when it’s at rest, its electrical charge is slightly negative. At all times, a bunch of people’s feet keep touching [^note-urban-12] our guy’s hair—the neuron’s **dendrites** —whether he likes it or not. Their feet drop chemicals called **neurotransmitters** [^note-urban-13] onto his hair—which pass through his head (the cell body, or **soma**) and, depending on the chemical, raise or lower the charge in his body a little bit. It’s a little unpleasant for our neuron guy, but not a huge deal—and nothing else happens.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-4.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-4.png)
+{--{"author":"Luc's AI","timestamp":1787306352070}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-4.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-4.png)--}{++{"author":"Luc's AI","timestamp":1787306352070}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-4.png)++}
 
 But if enough chemicals touch his hair to raise his charge over a certain point—the neuron’s “threshold potential”—then it triggers an **action potential**, and our guy is electrocuted.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-5.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-5.png)
+{--{"author":"Luc's AI","timestamp":1787306352323}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-5.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-5.png)--}{++{"author":"Luc's AI","timestamp":1787306352323}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-5.png)++}
 
 This is a binary situation—either _nothing_ happens to our guy, or he’s fully electrocuted. He can’t be kind of electrocuted, or extra electrocuted—he’s either not electrocuted at all, or he’s fully electrocuted to the exact same degree every time.
 
 When this happens, a pulse of electricity (in the form of a brief reversal of his body’s normal charge from negative to positive and then rapidly back down to his normal negative) zips down his body (the axon) and into his feet—the neuron’s **axon terminals** —which themselves touch a bunch of other people’s hair (the points of contact are called **synapses**). When the action potential reaches his feet, it causes them to release chemicals onto the people’s hair they’re touching, which may or may not cause those people to be electrocuted, just like he was.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-6.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-6.png)
+{--{"author":"Luc's AI","timestamp":1787306352577}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-6.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-6.png)--}{++{"author":"Luc's AI","timestamp":1787306352577}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuron-guy-6.png)++}
 
 This is usually how info moves through the nervous system—chemical information sent in the tiny gap between neurons triggers electrical information to pass _through_ the neuron—but sometimes, in situations when the body needs to move a signal extra quickly, neuron-to-neuron connections can themselves be electric.
 
 Action potentials move at between 1 and 100 meters/second. Part of the reason for this large range is that another type of cell in the nervous system—a Schwann cell—acts like a super nurturing grandmother and constantly wraps some types of axons in layers of fat blankets called **myelin sheath.** Like this (takes a second to start):[^cite-urban-source-20]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Myelinani.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/Myelinani.gif)
+{--{"author":"Luc's AI","timestamp":1787306352853}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Myelinani.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/Myelinani.gif)--}{++{"author":"Luc's AI","timestamp":1787306352853}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Myelinani.gif)++}
 
 On top of its protection and insulation benefits, the myelin sheath is a major factor in the pace of communication—action potentials travel _much_ faster through axons when they’re covered in myelin sheath:[^note-urban-14] [^cite-urban-source-21]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/ezgif.com-optimize-2.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/ezgif.com-optimize-2.gif)
+{--{"author":"Luc's AI","timestamp":1787306353096}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/ezgif.com-optimize-2.gif)](https://waitbutwhy.com/wp-content/uploads/2018/04/ezgif.com-optimize-2.gif)--}{++{"author":"Luc's AI","timestamp":1787306353096}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/ezgif.com-optimize-2.gif)++}
 
 One nice example of the speed difference created by myelin: You know how when you stub your toe, your body gives you that one second of reflection time to think about what you just did and what you’re about to feel, before the pain actually kicks in? What’s happening is you feel both the sensation of your toe hitting against something and the sharp part of the pain right away, because sharp pain information is sent to the brain via types of axons that are myelinated. It takes a second or two for the dull pain to kick in because dull pain is sent via _unmyelinated_ “C fibers”—at only around one meter/second.
 
@@ -553,7 +553,7 @@ Altogether, there are around 100 billion neurons in the brain that make up this 
 
 Let’s zoom back out and look at another cross section of the brain—this time cut not from front to back to show a single hemisphere, but from side to side:[^cite-urban-source-22]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain-white-matter-grey-matter-cross-section.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/brain-white-matter-grey-matter-cross-section.jpg)
+{--{"author":"Luc's AI","timestamp":1787306353354}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain-white-matter-grey-matter-cross-section.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/brain-white-matter-grey-matter-cross-section.jpg)--}{++{"author":"Luc's AI","timestamp":1787306353354}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain-white-matter-grey-matter-cross-section.jpg)++}
 
 Brain material can be divided into what’s called **gray matter** and **white matter.** Gray matter actually looks darker in color and is made up of the cell bodies (somas) of the brain’s neurons and their thicket of dendrites and axons—along with a lot of other stuff. White matter is made up primarily of wiring—axons carrying information from somas to other somas or to destinations in the body. White matter is white because those axons are usually wrapped in myelin sheath, which is fatty white tissue.
 
@@ -567,7 +567,7 @@ Those cortical axons might be taking information to another part of the cortex, 
 
 Let’s look at the whole nervous system:[^cite-urban-source-23]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/f7fa1bdddc896c2c635a1929c6578b745a6030c2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/f7fa1bdddc896c2c635a1929c6578b745a6030c2.png)
+{--{"author":"Luc's AI","timestamp":1787306353621}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/f7fa1bdddc896c2c635a1929c6578b745a6030c2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/f7fa1bdddc896c2c635a1929c6578b745a6030c2.png)--}{++{"author":"Luc's AI","timestamp":1787306353621}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/f7fa1bdddc896c2c635a1929c6578b745a6030c2.png)++}
 
 The nervous system is divided into two parts: the **central nervous system** —your brain and spinal cord—and the **peripheral nervous system** —made up of the neurons that radiate outwards from the spinal cord into the rest of the body.
 
