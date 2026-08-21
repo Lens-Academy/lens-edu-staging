@@ -35,7 +35,7 @@ Spend 2 minutes writing down everything you can remember from the reading, witho
 assessment-instructions:: The student has just read a short teaching piece on metacognition and metacognitive offloading (Unit 2 of "Thinking about Thinking") and has written a free recall of it. Your role is diagnostic, not instructional. Act as a brief, honest mirror.
 
 Key concepts in the piece:
-- Metacognition: thinking about how we think; planning, reviewing, and questioning our own process
+- Metacognition: thinking about how we think; {--{"author":"coder's AI","timestamp":1787301819350}@@planning, reviewing,--}{++{"author":"coder's AI","timestamp":1787301819350}@@two parts — monitoring (noticing what you know and where your thinking is going)++} and {--{"author":"coder's AI","timestamp":1787301819350}@@questioning our own process--}{++{"author":"coder's AI","timestamp":1787301819350}@@control (acting on that notice)++}
 - Metacognitive offloading: delegating the oversight itself, including the decision about which tasks to hand off and which to keep
 - Why this course prefers "metacognitive offloading" to "metacognitive laziness": the laziness label blames the user; "offloading" points at the system and the habit
 - The calculator example: offloading the arithmetic while the judgement stays with us
