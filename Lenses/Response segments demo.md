@@ -173,7 +173,7 @@ feedback-instructions:: Explain most important estimation error and suggest one 
 
 Base assessor returns one percentage for whole segment plus private reason. Percentage appears beside response. Expected-answer blanks are graded automatically. `{{blank}}` and `{{number}}` remain ungraded unless `assessment-instructions::` defines how to judge them. %%
 
-%% Ranking lets learner arrange items. Plain Ranking is ungraded, useful for preferences and reflection. Initial item order is randomized. %%
+%% {--{"author":"Elias's AI","timestamp":1787311965250}@@Ranking--}{++{"author":"Elias's AI","timestamp":1787311965250}@@`Question: Ranking`++} lets learner arrange items. Plain Ranking is ungraded, useful for preferences and reflection. Initial item order is randomized. %%
 
 #### {++{"author":"Elias's AI","timestamp":1787311860276}@@Question: ++}Ranking
 id:: dc6d348c-8c5c-416a-82d7-b7166d677258
@@ -185,7 +185,7 @@ items::
 
 %% Add `assessment-instructions::` to grade Ranking. Items are authored in intended order, but shown shuffled. Assessor receives intended order, learner order, base ranking prompt, and custom instructions. It returns percentage plus private reason.
 
-Use graded Ranking for chronology, causal chains, procedures, and prioritization with explicit criterion. State allowed ties or alternate valid orders in assessment instructions. Keep lists around 3 to 7 items. (more or less possible, but not recommended) Next example grades procedure while allowing partial credit. %%
+Use graded {--{"author":"Elias's AI","timestamp":1787311968248}@@Ranking--}{++{"author":"Elias's AI","timestamp":1787311968248}@@`Question: Ranking`++} for chronology, causal chains, procedures, and prioritization with explicit criterion. State allowed ties or alternate valid orders in assessment instructions. Keep lists around 3 to 7 items. (more or less possible, but not recommended) Next example grades procedure while allowing partial credit. %%
 
 #### {++{"author":"Elias's AI","timestamp":1787311863604}@@Question: ++}Ranking
 id:: 8ea396ee-7e7f-46b8-85ce-179ffe33bdf3
