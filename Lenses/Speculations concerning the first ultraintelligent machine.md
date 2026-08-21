@@ -21,8 +21,7 @@ to:: "value at a megakeynes."
 
 #### {--{"author":"Plex's AI","timestamp":1787325509607}@@Text
 content::--}{++{"author":"Plex's AI","timestamp":1787325509607}@@Article++}
-{--{"author":"Plex's AI","timestamp":1787325509607}@@And if the first ultra intelligent--}{++{"author":"Plex's AI","timestamp":1787325509607}@@source:: [[../articles/good-speculations-concerning-first-ultraintelligent-machine]]
-from:: "Let an ultraintelligent++} machine{--{"author":"Plex's AI","timestamp":1787325509607}@@ is worth a mega-keynes, how much might the machine--}{++{"author":"Plex's AI","timestamp":1787325509607}@@ be defined"
+And if the first ultra intelligent machine{--{"author":"Plex's AI","timestamp":1787325509607}@@ is worth a mega-keynes, how much might the machine--}{++{"author":"Plex's AI","timestamp":1787325509607}@@ be defined"
 to:: "how to keep++} it {--{"author":"Plex's AI","timestamp":1787325509607}@@builds be worth? 
 
 --}{++{"author":"Plex's AI","timestamp":1787325509607}@@under control."
