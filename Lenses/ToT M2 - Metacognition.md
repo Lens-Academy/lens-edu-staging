@@ -1,4 +1,4 @@
-{++{"author":"coder's AI","timestamp":1787304973688}@@---
+{++{"author":"Daniel's AI","timestamp":1787305562057}@@---
 id: '82aabd8a-42d2-4099-a8d5-5d1912cbda78'
 title: "Metacognition"
 duration_minutes: 15
@@ -18,7 +18,7 @@ Metacognition has two moving parts. The first is **monitoring**: noticing what y
 
 This oversight is what keeps your reasoning honest. When it works, you catch a wrong assumption before it hardens, you notice a gap you would otherwise skip, and you can tell the difference between feeling done and being done.
 
-But oversight can break. The next lens shows the sharpest way it breaks — a moment where the judgement leaves entirely.
+But oversight can break. The next lens — arbitrary offloading — shows the sharpest way it breaks: a moment where the judgement leaves entirely.
 
 ---
 
