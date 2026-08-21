@@ -30,13 +30,7 @@ What can I do to shape that future?
 
 
 # Lens:
-source:: {--{"author":"Plex's AI","timestamp":1787325034991}@@![[../Lenses/1960, The Year The Singularity Was Cancelled]]
-
-# Lens:
-source:: ![[../Lenses/Deadly By Default]]
-
-# Lens:
-source:: --}![[../Lenses/Machines Of Loving Grace]]{--{"author":"Plex's AI","timestamp":1787325034991}@@
+source:: ![[../Lenses/Machines Of Loving Grace]]{--{"author":"Plex's AI","timestamp":1787325034991}@@
 
 # Lens:
 source:: ![[../Lenses/The Artificial Intelligence That Deleted A Century]]--}
