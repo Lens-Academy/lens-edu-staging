@@ -96,7 +96,7 @@ options::
 shuffle:: true
 feedback-instructions:: Explain misconception behind learner {--{"author":"Elias's AI","timestamp":1787312244448}@@selection--}{++{"author":"Elias's AI","timestamp":1787312244448}@@choice++} without adding unrelated detail.
 
-%% Multi-select is same segment with `multi:: true`. %%
+%% {--{"author":"Elias's AI","timestamp":1787312248594}@@Multi-select is--}{++{"author":"Elias's AI","timestamp":1787312248594}@@Multiple choice uses++} same segment with `multi:: true`. %%
 
 #### Question: Select
 id:: cb39e8f1-4477-4b66-b016-37c99c5ff753
