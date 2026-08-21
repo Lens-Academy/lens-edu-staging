@@ -25,13 +25,13 @@ A compounding factor runs alongside: offloading does not happen alone. Automatin
 
 Several recent studies give us concrete measurements at different points along this chain.
 
-Budzyń and colleagues (2025) studied endoscopists who used AI-assisted polyp detection for three months. When the AI was removed, their adenoma detection rate fell 6 percentage points below baseline—from roughly 28% to 22%. This is real patient outcomes, not self-reports. Eye-tracking showed the clinicians had reduced their visual scanning during AI-assisted procedures—they had begun offloading the looking, not just the deciding.
+Budzyń and colleagues {--{"author":"Curator's AI","timestamp":1787320415064}@@(2025) studied endoscopists who used AI-assisted polyp detection for three months. When the AI was removed, their adenoma detection rate fell 6 percentage points below baseline—from roughly 28%--}{++{"author":"Curator's AI","timestamp":1787320415064}@@(2025), in 'Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy' (a multicentre, observational study), found that after endoscopists were exposed++} to {--{"author":"Curator's AI","timestamp":1787320415064}@@22%. This is real patient outcomes, not self-reports. Eye-tracking showed the clinicians had reduced their visual scanning during AI-assisted procedures—they had begun offloading the looking,--}{++{"author":"Curator's AI","timestamp":1787320415064}@@AI-assisted polyp detection, their adenoma detection rate on standard, non-AI colonoscopy fell 6.0 percentage points, from 28.4% to 22.4%. These are real patient outcomes,++} not{--{"author":"Curator's AI","timestamp":1787320415064}@@ just the deciding.--}{++{"author":"Curator's AI","timestamp":1787320415064}@@ self-reports.++}
 
 Gerlich (2025) surveyed 666 UK participants using validated critical thinking assessments including the Halpern Critical Thinking Assessment. Regression analysis showed AI tool use negatively predicts critical thinking scores (β = −1.76, p < 0.001), mediated by increased cognitive offloading. Younger participants showed the strongest pattern: higher AI dependence, lower critical thinking scores. A formal correction was later published for this study, noting the reliance on self-reported critical thinking practices.
 
 Lee and colleagues at Microsoft Research (2025) tracked 319 knowledge workers across 936 examples of GenAI use. Higher confidence in AI was associated with lower critical thinking and vice versa. The study documented a shift in task type: AI use moves workers from generative tasks—knowledge recall, comprehension, synthesis—toward reviewer tasks like verification and integration. This is a move "down" Bloom's taxonomy of cognitive skills. You will see why this matters in Unit 4.
 
-A smaller survey of 299 UK workers found similar self-reported patterns: 56% felt confident after a quick review, 45% chose the AI's answer over their own, 47% checked AI output less than a colleague's work, and 41% found tasks harder without AI. Daily users showed the strongest effects. Self-reports are warning signs, not proof of cause and effect.
+{--{"author":"Curator's AI","timestamp":1787320416007}@@A smaller--}{++{"author":"Curator's AI","timestamp":1787320416007}@@Roxana Seifer's++} survey of 299 UK workers {++{"author":"Curator's AI","timestamp":1787320416007}@@(2026) ++}found similar self-reported patterns: 56% felt confident after a quick review, 45% chose the AI's answer over their own, 47% checked AI output less than a colleague's work, and 41% found tasks harder without AI. Daily users showed the strongest effects. {--{"author":"Curator's AI","timestamp":1787320416007}@@Self-reports--}{++{"author":"Curator's AI","timestamp":1787320416007}@@This was a self-published, self-reported survey, so its patterns++} are warning signs, not proof of cause and effect.
 
 More recent findings point the same way: a short burst of AI-assisted practice can make people worse on later problems done without AI, and more likely to give up. People who explained the AI's logic in their own words fixed bugs far more often than people who did not. This last finding is the reason for one of Unit 4's core rules: close the chat, restate in your own words.
 
@@ -68,7 +68,35 @@ to:: "Managing this integration requires operational frameworks that account for
 
 %% Note: The counterargument. Extended Mind position: external tools can become legitimate parts of cognition. Key distinction: generative AI performs full epistemic labor, not just discrete functions. Risk increases when AI is treated as authoritative source rather than assistive instrument. %%
 
-#### Question
+#### {++{"author":"Curator's AI","timestamp":1787320420921}@@Article
+source:: [[../articles/budzy-endoscopist-deskilling-risk-after-exposure-to-artificial-intelligence-in-colonoscopy-a-multicentre-observational-study]]
+from:: "Between Sept 8, 2021, and March 9, 2022, 1443 patients underwent non-AI assisted colonoscopy before (n=795) and after (n=648) the introduction of AI"
+to:: "In multivariable logistic regression analysis, exposure to AI (odds ratio"
+
+%% Note: Multicentre observational study (ACCEPT trial, Poland). After endoscopists were exposed to AI-assisted polyp detection, ADR on standard non-AI colonoscopy fell from 28.4% to 22.4% (6.0 pp absolute, p=0.0089). Objective clinical outcome, not self-report. %%
+
+#### Article
+source:: [[../articles/seifer-could-cognitive-dependency-be-an-early-warning-sign-of-gradual-disempowerment]]
+from:: "The study found evidence that AI may be affecting how employees approach cognitive tasks:"
+to:: "Daily users reported the strongest patterns across all four items."
+
+%% Note: Self-published Substack survey (2026), 299 UK employees across six sectors. Self-reported, single time point; author states it does not prove causation. %%
+
+#### Text
+content::
+\## Sources for this unit
+Every figure above links to its study. Open one and check it. That is the same habit Unit 4 asks you to build: verify a substantive claim against an independent source before you rely on it.
+
+- Budzyń and colleagues (2025). "Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy: a multicentre, observational study." Lancet Gastroenterology & Hepatology. [[../articles/budzy-endoscopist-deskilling-risk-after-exposure-to-artificial-intelligence-in-colonoscopy-a-multicentre-observational-study]]
+- Gerlich (2025). "AI tools in society: a study of the relationship between AI tool usage and critical thinking." [[../articles/gerlich-2025-ai-tools-in-society]]
+- Lee and colleagues, Microsoft Research (2025). "The impact of generative AI on critical thinking." [[../articles/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers]]
+- Roxana Seifer (2026). "Could cognitive dependency be an early warning sign of gradual disempowerment?" [[../articles/seifer-could-cognitive-dependency-be-an-early-warning-sign-of-gradual-disempowerment]]
+- Bednar and colleagues (2025). "Does AI make lawyers worse at thinking?" [[../articles/bednar-does-ai-make-lawyers-worse-at-thinking-new-research-offers-a-more-complicated-answer]]
+- Gutoreva and colleagues (2025). "Position: AI as part of self." [[../articles/gutoreva-position-ai-as-part-of-self-extending-the-mind-requires-cognitive-co-regulation]]
+
+The studies above differ in strength. The Budzyń, Gerlich, Lee, and Bednar studies are peer-reviewed or pre-print research. The Seifer survey is a self-published, self-reported poll: useful as a warning sign, not proof of cause and effect.
+
+#### ++}Question
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the background reading and the legal study, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended here.
@@ -78,10 +106,10 @@ assessment-instructions:: The student has just read an authored background on th
 Key concepts and findings in the reading:
 - The causal chain (as a chain of possibilities): small delegations, less metacognitive practice, weaker judgement, dependence, gradual disempowerment
 - The compounding factor: automation replaces roles while skills erode
-- Budzyń et al. (2025): endoscopists, AI removed after 3 months, 6 percentage point decline in adenoma detection rate (real clinical outcomes, not self-report); eye-tracking showed reduced visual scanning during AI-assisted procedures
+- Budzyń et al. (2025): {--{"author":"Curator's AI","timestamp":1787320416706}@@endoscopists, AI removed --}after {--{"author":"Curator's AI","timestamp":1787320416706}@@3 months, 6 percentage point decline in--}{++{"author":"Curator's AI","timestamp":1787320416706}@@endoscopists were exposed to AI-assisted polyp detection,++} adenoma detection rate {--{"author":"Curator's AI","timestamp":1787320416706}@@(real clinical outcomes, not self-report); eye-tracking showed reduced visual scanning during AI-assisted procedures--}{++{"author":"Curator's AI","timestamp":1787320416706}@@on standard, non-AI colonoscopy fell 6.0 percentage points (28.4% to 22.4%); real clinical outcomes, not self-report++}
 - Gerlich (2025): 666 UK participants, validated HCTA assessment, AI tool use negatively predicts critical thinking (β = −1.76, p < 0.001), mediated by cognitive offloading; younger participants showed strongest pattern; self-report limitation with correction published
 - Lee et al. (2025): 319 knowledge workers, 936 examples, higher AI confidence associated with lower critical thinking; shift from generative tasks (recall, synthesis, comprehension) to reviewer tasks (verification, integration)—move "down" Bloom's taxonomy
-- Seifer's survey (self-reports, 299 UK workers): 56% confident after quick review, 45% chose AI's answer over own, 47% checked AI output less, 41% found tasks harder without AI; daily users strongest
+- Seifer's survey {--{"author":"Curator's AI","timestamp":1787320417408}@@(self-reports,--}{++{"author":"Curator's AI","timestamp":1787320417408}@@(self-published, self-reported,++} 299 UK {--{"author":"Curator's AI","timestamp":1787320417408}@@workers):--}{++{"author":"Curator's AI","timestamp":1787320417408}@@workers, 2026):++} 56% confident after quick review, 45% chose AI's answer over own, 47% checked AI output less, 41% found tasks harder without AI; daily users strongest
 - The legal study (Bednar et al.): randomised trial, ~100 Minnesota law students; AI improved synthesis by roughly 50 to 70% and saved time; earlier AI use improved later no-AI application performance; in revision phase, AI helped weak memos but regressed strong ones
 - The counterargument (Gutoreva et al.): Extended Mind position—external tools can become legitimate parts of cognition; distinction between assistive instrument and authoritative source
 - Limits: short, narrow, small studies; law students not practitioners; structured tasks; long-term effects unknown; self-report vs. objective measurement; field has mixed findings
