@@ -2,8 +2,8 @@
 id: 8189763f-576e-4f04-a614-4a00c628e386
 duration_minutes: 15
 title: Response {++{"author":"Elias's AI","timestamp":1787312078268}@@to question ++}segments
-tldr: Use open responses, ratings, selects, typed fill-in-the-blank responses, and rankings with the same syntax in surveys, normal lenses, and learning-outcome tests.
-summary_for_tutor: Reference page for course creators. It documents shared fields, exact syntax, options, defaults, LLM assessment flow, and grading behavior for `Question: Open`, `Question: Rating`, `Question: Select`, `Question: FillBlank`, and `Question: Ranking` Response segments.
+tldr: Use {++{"author":"Elias's AI","timestamp":1787312081069}@@Response to question segments for ++}open responses, ratings, {--{"author":"Elias's AI","timestamp":1787312081069}@@selects, typed --}{++{"author":"Elias's AI","timestamp":1787312081069}@@selections, ++}fill-in-the-blank responses, and rankings with{--{"author":"Elias's AI","timestamp":1787312081069}@@ the--} same syntax in surveys, normal lenses, and learning-outcome tests.
+summary_for_tutor: Reference page for course creators. It documents shared fields, exact syntax, options, defaults, LLM assessment flow, and grading behavior for `Question: Open`, `Question: Rating`, `Question: Select`, `Question: FillBlank`, and `Question: Ranking` Response {++{"author":"Elias's AI","timestamp":1787312085061}@@to question ++}segments.
 ---
 
 %% A question segment is an interactive field that collects one learner response. Same syntax works in surveys, normal lenses, and Learning Outcome tests. Context determines grading.
