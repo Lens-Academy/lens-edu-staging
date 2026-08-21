@@ -35,7 +35,7 @@ Assessment controls score; feedback controls what learner sees. Surveys never gr
 
 Next example adds limits, grading, and feedback. %%
 
-#### OpenResponse
+#### {--{"author":"Elias's AI","timestamp":1787311825251}@@OpenResponse--}{++{"author":"Elias's AI","timestamp":1787311825251}@@Question: Open++}
 id:: b8854587-3e8f-471d-b37c-fb63684ecf19
 content:: In two sentences, what is strongest objection?
 max-chars:: 500
@@ -47,7 +47,7 @@ feedback-instructions:: State strongest part of response, then suggest one impro
 
 %% Rating collects numbered self-report. Smallest version uses default 1-to-5 scale. %%
 
-#### Rating
+#### {++{"author":"Elias's AI","timestamp":1787311828167}@@Question: ++}Rating
 id:: 4280d5f2-2cd5-48f9-b20f-fc132253d443
 content:: How confident are you in your answer?
 
@@ -60,7 +60,7 @@ content:: How confident are you in your answer?
 
 Ratings never affect correctness score. Next example changes scale and labels, and adds AI feedback. %%
 
-#### Rating
+#### {++{"author":"Elias's AI","timestamp":1787311831307}@@Question: ++}Rating
 id:: 651213b4-1952-4ed4-98a8-8f772cf732d6
 content:: How confident are you in your answer?
 scale:: 7
