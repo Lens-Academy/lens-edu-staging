@@ -1,13 +1,9 @@
 ---
 title: "Therapy for the Vibe-Coded Brain"
 channel: "JetBrains Academy"
-url: "https://www.youtube.com/watch?v=DkhhE97Swmo"
+url: "https://youtu.be/DkhhE97Swmo"
 ---
 
-*This transcript is being processed.*
+*Transcript processing failed.* You can resubmit this video.
 
-**1,863 words** — estimated processing time: **~3 minutes**.
-
-If you submitted multiple videos, they share a pool of 3 concurrent sessions and will be processed as capacity allows.
-
-Queued at: 8/21/2026, 8:56:55 AM
+Failed at: 2026-08-21T09:00:02.928Z
