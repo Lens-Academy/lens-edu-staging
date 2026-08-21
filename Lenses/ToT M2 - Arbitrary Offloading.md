@@ -92,9 +92,9 @@ Learning outcome for this lens: "The learner can define arbitrary offloading, di
 
 Key concepts the student needs to grasp:
 - Arbitrary offloading: a decision you cannot evaluate, followed anyway
-- The colleague's move: "it looks plausible" is not a check — it is a feeling of having checked
-- The missing footing: to catch a wrong answer you need independent footing to judge it; skimming an output you do not understand does not create that footing
-- The thread to Unit 3: accept rates and illusion of competence are this pattern measured
+- The colleague's move: "it looks plausible" is not a {--{"author":"AI","timestamp":1787306979646}@@check — it--}{++{"author":"AI","timestamp":1787306979646}@@check. It++} is a feeling of having checked
+- The missing footing: to catch a wrong answer you need independent footing to judge it; skimming an output you do not understand does not create that footing{--{"author":"AI","timestamp":1787306979646}@@
+- The thread to Unit 3: accept rates and illusion of competence are this pattern measured--}
 
 The core move to draw out: the colleague believes skimming equals oversight, but skimming an answer you cannot evaluate is not oversight — it is exposure to a confident result. If the student agrees the colleague is careful, ask what "looks plausible" would require in order to actually catch an error. If the student says the colleague should just read it more closely, ask what independent footing they would need to know a close reading was right.
 
