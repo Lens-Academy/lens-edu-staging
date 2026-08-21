@@ -55,8 +55,8 @@ Key concepts in the piece:
 - Metacognition: thinking about how we think; the oversight layer that decides how to think
 - Monitoring: noticing what you know, what you do not, and where your thinking is going
 - Control: acting on that notice — slowing down, checking, changing plan, admitting you do not understand
-- {++{"author":"Leo's AI","timestamp":1787306200154}@@Control has three phases: planning (before), monitoring (during), evaluating (after)
-- ++}Why it matters: oversight is what keeps reasoning honest; it can break
+- Control has three phases: planning (before), monitoring (during), evaluating (after)
+- Why it matters: oversight is what keeps reasoning honest; it can break
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
 
