@@ -150,7 +150,7 @@ Assessor infers expected precision from question. Base numeric rubric:
 
 Next example uses default rubric. %%
 
-#### FillBlank
+#### {++{"author":"Elias's AI","timestamp":1787311852849}@@Question: ++}FillBlank
 id:: 1211df1d-70e8-4b93-a3b6-1ce44460ed1f
 content:: Earth is approximately {{number 149,600,000}} km from Sun.
 
@@ -158,7 +158,7 @@ content:: Earth is approximately {{number 149,600,000}} km from Sun.
 
 Use `assessment-instructions::` when domain needs explicit tolerance. Next example treats answer as Fermi estimate. %%
 
-#### FillBlank
+#### {++{"author":"Elias's AI","timestamp":1787311855746}@@Question: ++}FillBlank
 id:: 5b5387b7-f8bf-4dd7-a4ae-a0c6468d7e22
 content:: Estimate number of seconds in one year: {{number 31,536,000}}
 assessment-instructions:: This is a Fermi estimate. Give 100 within factor 2, substantial credit within one order of magnitude, and 0 only for answer with no meaningful magnitude awareness.
