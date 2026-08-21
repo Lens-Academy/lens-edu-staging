@@ -4,4 +4,8 @@ title: "But what is a Neural Network?"
 ---
 
 #### Article
-source:: [[../articles/sanderson-but-what-is-a-neural-network]]
+source:: [[../articles/sanderson-but-what-is-a-neural-network]]{++{"author":"Plex's AI","timestamp":1787330311570}@@
+
+#### Text
+content::
+This is the first lesson in 3Blue1Brown's neural networks series. If it clicked, the next lesson on gradient descent and how networks learn continues it: https://www.3blue1brown.com/lessons/gradient-descent++}
