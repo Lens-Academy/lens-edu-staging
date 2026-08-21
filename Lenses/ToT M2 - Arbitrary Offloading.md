@@ -30,8 +30,6 @@ source:: [[../articles/doi-arbitrary-cognitive-offloading-to-genai-does-the-curr
 from:: "However, the initial reading (reading comprehension skill) and note-taking (sustained attention) should not be skipped by D: The problematic use case we are concerned with here is if D uses GenAI to complete the entire task"
 to:: "nor gains the skills required to complete it."
 
----
-
 #### Question
 content::
 \## Check your Understanding
