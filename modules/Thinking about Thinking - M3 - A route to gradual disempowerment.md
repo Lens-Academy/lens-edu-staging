@@ -13,7 +13,7 @@ source:: [[../Lenses/ToT M3 - Gradual Disempowerment - PQ]]
 source:: [[../Lenses/ToT M3 - The Evidence About AI and Thinking]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - {++{"author":"AI","timestamp":1787325824057}@@Paper - Bednar (Legal Study)]]
+source:: [[../Lenses/ToT M3 - Paper - Bednar (Legal Study)]]
 
 # Lens:
 source:: [[../Lenses/ToT M3 - Paper - Budzyn (Doctor Study)]]
@@ -34,7 +34,7 @@ source:: [[../Lenses/ToT M3 - Paper - Gutoreva (Counterargument)]]
 source:: [[../Lenses/ToT M3 - The Evidence - Synthesis]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - ++}The Metacognitive Traps]]
+source:: [[../Lenses/ToT M3 - The Metacognitive Traps]]
 
 # Lens:
 source:: [[../Lenses/ToT M3 - What the Skeptics Say]]

@@ -59,9 +59,9 @@ Key concepts in the lens:
 - The speedup illusion: AI cuts perceived effort, not actual time (Yu et al., preregistered, N=1237)
 - Mixed findings exist; some studies report benefits from strategic AI use
 - The novice-programmer study (Prather et al. 2024): direct observation, not self-report; the same AI helped prepared students accelerate while it amplified and added metacognitive traps for struggling ones
-- Adults losing skills they had (atrophy, recoverable) vs novices never building them (foreclosure)
+- {--{"author":"course's AI","timestamp":1787325992887}@@Adults losing skills they had (atrophy, recoverable) vs novices never building them (foreclosure)
 - Automation vs augmentation; the risky mode is treating AI as an authority, not using it as a support
-- The fair conclusion: concern about specific use patterns, not panic
+- --}The fair conclusion: concern about specific use patterns, not panic
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
 
