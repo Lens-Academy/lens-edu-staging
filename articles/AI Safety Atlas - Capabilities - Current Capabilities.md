@@ -54,13 +54,16 @@ If you’re already familiar with AI or machine learning, some of these stories 
 
 *Figure 1.5: Video showcasing example of the state of game playing AI using the SIMA-2 model in 2025 ([Google DeepMind, 2025](https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/)).*
 
-**Planning and Continuous Learning in Minecraft with GPT-4**
+{--{"author":"Luc's AI","timestamp":1787310650059}@@**Planning--}{++{"author":"Luc's AI","timestamp":1787310650059}@@:::callout {title="Planning++} and Continuous Learning in Minecraft with {--{"author":"Luc's AI","timestamp":1787310650059}@@GPT-4**
 
-AIs can construct long term strategies and play games in open ended dynamic environments. The various Alpha series of models in the 2020s did not use LLMs. But in 2023, Voyager—an AI system powered by GPT-4—demonstrated that a LLM powered system could play Minecraft  ([Wang et al., 2023](https://arxiv.org/abs/2305.16291)). Minecraft, if you are not familiar, provides a sandbox where you must complete tasks in sequence: gather wood, craft basic tools, mine stone, smelt iron, craft better tools, and eventually mine diamonds. This requires planning hundreds of steps ahead and long term strategic planning. Since 2023 we have seen several game playing systems based around LLMs showcasing a variety of capabilities. For example, in strategy games, Meta’s Cicero displayed intricate strategic negotiation and deception skills in natural language for the game Diplomacy ([Bakhtin et al., 2022](https://arxiv.org/abs/2210.05492)).
+--}{++{"author":"Luc's AI","timestamp":1787310650059}@@GPT-4 — Optional · 1 min read" tone="neutral" collapse="closed"}
+++}AIs can construct long term strategies and play games in open ended dynamic environments. The various Alpha series of models in the 2020s did not use LLMs. But in 2023, Voyager—an AI system powered by GPT-4—demonstrated that a LLM powered system could play Minecraft  ([Wang et al., 2023](https://arxiv.org/abs/2305.16291)). Minecraft, if you are not familiar, provides a sandbox where you must complete tasks in sequence: gather wood, craft basic tools, mine stone, smelt iron, craft better tools, and eventually mine diamonds. This requires planning hundreds of steps ahead and long term strategic planning. Since 2023 we have seen several game playing systems based around LLMs showcasing a variety of capabilities. For example, in strategy games, Meta’s Cicero displayed intricate strategic negotiation and deception skills in natural language for the game Diplomacy ([Bakhtin et al., 2022](https://arxiv.org/abs/2210.05492)).
 
 ![Figure 1.6](https://ai-safety-atlas.com/_astro/16749672b7c9c70fda742a9cc720680ab3d146ef44f6ab18ccb1e5201046ec1d.CZbOrR92_1wEti5.webp)
 
-*Figure 1.6: Voyager discovers new Minecraft items and skills continually by self-driven exploration, significantly outperforming the baselines ([Wang et al., 2023](https://arxiv.org/abs/2305.16291)).*
+*Figure 1.6: Voyager discovers new Minecraft items and skills continually by self-driven exploration, significantly outperforming the baselines ([Wang et al., 2023](https://arxiv.org/abs/2305.16291)).*{++{"author":"Luc's AI","timestamp":1787310650059}@@
+
+:::++}
 
 ## Text Generation
 
