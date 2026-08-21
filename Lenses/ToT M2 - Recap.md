@@ -9,10 +9,12 @@ tags:
 
 #### Text
 content::
-\## Unit 2 recap: putting the pieces together
-You have finished Unit 2. It gave you two pairs of ideas to hold together. First, thinking itself (cognition) versus thinking about your thinking (metacognition). Second, offloading a task while the judgement stays with you, versus metacognitive laziness, where you hand the oversight itself to the tool and the judgement leaves.
+\## Unit 2 {--{"author":"AI","timestamp":1787313352607}@@recap: putting the pieces together--}{++{"author":"AI","timestamp":1787313352607}@@recap++}
+You have finished Unit 2. It gave you two pairs of ideas to hold together.{--{"author":"AI","timestamp":1787313352607}@@ First,--}{++{"author":"AI","timestamp":1787313352607}@@
 
-Use those distinctions to answer the check below in your own words.
+The first was++} thinking itself (cognition) versus thinking about your thinking {--{"author":"AI","timestamp":1787313352607}@@(metacognition). Second,--}{++{"author":"AI","timestamp":1787313352607}@@(metacognition) — the monitoring and control that keep your reasoning honest. The second was++} offloading a task while the judgement stays with you, versus metacognitive laziness, where you hand the oversight itself to the tool and the judgement leaves.
+
+{--{"author":"AI","timestamp":1787313352607}@@Use those distinctions--}{++{"author":"AI","timestamp":1787313352607}@@Now answer the check below in your own words. It asks you++} to {--{"author":"AI","timestamp":1787313352607}@@answer --}{++{"author":"AI","timestamp":1787313352607}@@say where ++}the {--{"author":"AI","timestamp":1787313352607}@@check below--}{++{"author":"AI","timestamp":1787313352607}@@judgement sits++} in {++{"author":"AI","timestamp":1787313352607}@@two real examples of tool use, which case hands the judgement over, and to give ++}your own {--{"author":"AI","timestamp":1787313352607}@@words.--}{++{"author":"AI","timestamp":1787313352607}@@example of arbitrary offloading. Use examples from your own life where you can.++}
 
 #### Question
 content::
