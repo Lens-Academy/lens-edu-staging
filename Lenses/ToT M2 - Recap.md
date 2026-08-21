@@ -9,12 +9,12 @@ tags:
 
 #### Text
 content::
-\## Unit 2 {--{"author":"AI","timestamp":1787313352607}@@recap: putting the pieces together--}{++{"author":"AI","timestamp":1787313352607}@@recap++}
-You have finished Unit 2. It gave you two pairs of ideas to hold together.{--{"author":"AI","timestamp":1787313352607}@@ First,--}{++{"author":"AI","timestamp":1787313352607}@@
+\## Unit 2 recap
+You have finished Unit 2. It gave you two pairs of ideas to hold together.
 
-The first was++} thinking itself (cognition) versus thinking about your thinking {--{"author":"AI","timestamp":1787313352607}@@(metacognition). Second,--}{++{"author":"AI","timestamp":1787313352607}@@(metacognition) — the monitoring and control that keep your reasoning honest. The second was++} offloading a task while the judgement stays with you, versus metacognitive laziness, where you hand the oversight itself to the tool and the judgement leaves.
+The first was thinking itself (cognition) versus thinking about your thinking (metacognition) — the monitoring and control that keep your reasoning honest. The second was offloading a task while the judgement stays with you, versus metacognitive laziness, where you hand the oversight itself to the tool and the judgement leaves.
 
-{--{"author":"AI","timestamp":1787313352607}@@Use those distinctions--}{++{"author":"AI","timestamp":1787313352607}@@Now answer the check below in your own words. It asks you++} to {--{"author":"AI","timestamp":1787313352607}@@answer --}{++{"author":"AI","timestamp":1787313352607}@@say where ++}the {--{"author":"AI","timestamp":1787313352607}@@check below--}{++{"author":"AI","timestamp":1787313352607}@@judgement sits++} in {++{"author":"AI","timestamp":1787313352607}@@two real examples of tool use, which case hands the judgement over, and to give ++}your own {--{"author":"AI","timestamp":1787313352607}@@words.--}{++{"author":"AI","timestamp":1787313352607}@@example of arbitrary offloading. Use examples from your own life where you can.++}
+Now answer the check below in your own words. It asks you to say where the judgement sits in two real examples of tool use, which case hands the judgement over, and to give your own example of arbitrary offloading. Use examples from your own life where you can.
 
 #### Question
 content::
