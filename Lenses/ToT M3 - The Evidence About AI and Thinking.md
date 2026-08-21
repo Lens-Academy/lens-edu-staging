@@ -10,10 +10,10 @@ tags:
 #### Text
 content::
 \## Reading Assignment
-Read the short background first. Then read each study summary inline as you reach it. Every boxed excerpt expands to more of the real paper, and every study links to its source at the end of the unit. The first and longest reading is the legal study: real evidence on how early, engaged AI use changed law students' independent reasoning.
+{--{"author":"AI","timestamp":1787325721448}@@Read--}{++{"author":"AI","timestamp":1787325721448}@@In++} the {--{"author":"AI","timestamp":1787325721448}@@short background first. Then read each study summary inline as you reach it. Every boxed excerpt expands--}{++{"author":"AI","timestamp":1787325721448}@@readings that follow, you will look over some real scientific papers on what happens to thinking when AI does the work. You do not need to be a researcher++} to {--{"author":"AI","timestamp":1787325721448}@@more of the real paper, and every study links to its source at the end of the unit. The first and longest reading is--}{++{"author":"AI","timestamp":1787325721448}@@follow them. If you meet a term you do not recognise — a p-value, a "regression", an "adenoma detection rate" — just ask your tutor. Type++} the {--{"author":"AI","timestamp":1787325721448}@@legal study: real evidence on how early, engaged AI use changed law students' independent reasoning.--}{++{"author":"AI","timestamp":1787325721448}@@word and ask what it means. The tutor is there to help with exactly this.++}
 
 \## Background: the chain, the compounding, and the reported findings
-Unit 2 showed how single delegated judgements can quietly erode metacognition. This unit asks whether that effect scales. This lens zooms in one level: what happens to individual thinking as AI does more of it?
+Unit 2 showed how single delegated judgements can quietly erode metacognition. This unit asks whether that effect scales. This {--{"author":"AI","timestamp":1787325721448}@@lens--}{++{"author":"AI","timestamp":1787325721448}@@unit++} zooms in one level: what happens to individual thinking as AI does more of it?
 
 Here is the causal chain, stated honestly as a chain of possibilities.
 - Small delegations lead to less practice at metacognition.
@@ -23,7 +23,8 @@ Here is the causal chain, stated honestly as a chain of possibilities.
 
 A compounding factor runs alongside: offloading does not happen alone. Automating technology replaces human roles at the same time, so human skills can erode just as demand for them falls.
 
-Several recent studies give us concrete measurements at different points along this chain. We read them one at a time below.
+{--{"author":"AI","timestamp":1787325721448}@@Several recent studies give us concrete measurements at different points along this chain. We read--}{++{"author":"AI","timestamp":1787325721448}@@\## How the papers are laid out
+The readings that follow each present one study. One shows help, several show harm, and one pushes back. Read++} them one at a {--{"author":"AI","timestamp":1787325721448}@@time below.--}{++{"author":"AI","timestamp":1787325721448}@@time. After the last one, a short synthesis lens asks you to weigh the evidence as a whole.++}
 
 ## When AI Can Help
 Bednar and colleagues (2025) ran a randomised study with about 100 Minnesota law students. When students used AI during the synthesis phase of a legal task, the quality of their written analysis improved by roughly 50 to 70 percent and they finished faster. Students who used AI earlier in the process also did better later on a follow-up task done without AI. But there is a sharp twist: when students used AI during the revision phase, it helped the weaker memos and regressed the stronger ones. The AI made good work worse. Read the summary below, and watch for that result.
