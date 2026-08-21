@@ -175,7 +175,7 @@ Base assessor returns one percentage for whole segment plus private reason. Perc
 
 %% Ranking lets learner arrange items. Plain Ranking is ungraded, useful for preferences and reflection. Initial item order is randomized. %%
 
-#### Ranking
+#### {++{"author":"Elias's AI","timestamp":1787311860276}@@Question: ++}Ranking
 id:: dc6d348c-8c5c-416a-82d7-b7166d677258
 content:: Rank these topics from most to least interesting to you.
 items::
@@ -187,7 +187,7 @@ items::
 
 Use graded Ranking for chronology, causal chains, procedures, and prioritization with explicit criterion. State allowed ties or alternate valid orders in assessment instructions. Keep lists around 3 to 7 items. (more or less possible, but not recommended) Next example grades procedure while allowing partial credit. %%
 
-#### Ranking
+#### {++{"author":"Elias's AI","timestamp":1787311863604}@@Question: ++}Ranking
 id:: 8ea396ee-7e7f-46b8-85ce-179ffe33bdf3
 content:: Put these experimental steps in safe order.
 items::
