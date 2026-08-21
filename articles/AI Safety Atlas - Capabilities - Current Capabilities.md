@@ -79,7 +79,9 @@ AIs can construct long term strategies and play games in open ended dynamic envi
 
 *Figure 1.8: Performance on common exams as a percentile compared to human test takers. Notice the large jump from GPT-3.5 to GPT-4 on these tests, often from well below the median human to the very top of the human range ([Aschenbrenner, 2024](https://situational-awareness.ai/from-gpt-4-to-agi/);[ OpenAI, 2023](https://arxiv.org/abs/2303.08774)). The jump from GPT-3 to GPT-4 was in a single year.*
 
-*Interactive figure 1.1: We are seeing an explosion in language models due to their generality, and applicability to a wide range of tasks  ([Giattino et al., 2023](https://ourworldindata.org/grapher/cumulative-number-of-large-scale-ai-models-by-domain)).*
+{++{"author":"Luc's AI","timestamp":1787312841347}@@[![Cumulative number of large-scale AI models by domain since 2017](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-figures-1-1-and-1-3-f80f9e5f.png)](https://archive.ourworldindata.org/20250824-180059/grapher/cumulative-number-of-large-scale-ai-models-by-domain.html)
+
+++}*Interactive figure 1.1: We are seeing an explosion in language models due to their generality, and applicability to a wide range of tasks  ([Giattino et al., 2023](https://ourworldindata.org/grapher/cumulative-number-of-large-scale-ai-models-by-domain)).*
 
 ![Figure 1.9](https://ai-safety-atlas.com/_astro/7b876d786dc241f8c78c6bb7fa111ca29d0f42f6dc93662127bc50b391ec1de1.BO3qrNGo_ZHL8HQ.webp)
 
