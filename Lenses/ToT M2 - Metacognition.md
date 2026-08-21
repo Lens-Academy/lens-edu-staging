@@ -42,7 +42,12 @@ This oversight is what keeps your reasoning honest. When it works, you catch a w
 
 But oversight can break. The next lens — arbitrary offloading — shows the sharpest way it breaks: a moment where the judgement leaves entirely.
 
-#### Question
+#### {++{"author":"Leo's AI","timestamp":1787310777344}@@Article
+source:: [[../articles/brademann-arbitrary-cognitive-offloading-genai]]
+from:: "Taking self-regulated learning decisions, such as deciding over single cognitive tasks to perform, or to offload, is a human intellectual capacity called metacognition."
+to:: "tasks that are broken down into subtasks and evolve in difficulty."
+
+#### ++}Question
 content::
 \## Check your Understanding
 Let's talk about the reading. In your own words, what did you take from it? What stayed with you, what puzzled you, what you'd push back on? Say as much or as little as you like. Speech-to-text is recommended.
