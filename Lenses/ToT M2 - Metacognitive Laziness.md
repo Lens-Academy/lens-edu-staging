@@ -41,7 +41,8 @@ Spend 2 minutes writing down everything you can remember from the reading, witho
 assessment-instructions:: The student has just read a short teaching piece on metacognitive laziness (Unit 2 of "Thinking about Thinking"), after the Metacognition and Arbitrary Offloading lenses, and has written a free recall of it. Your role is diagnostic, not instructional. Act as a brief, honest mirror.
 
 Key concepts in the piece:
-- Metacognitive laziness (Fan, Tang & Le, 2024): the habit of letting the tool do the thinking metacognition is meant to do
+- Metacognitive laziness (Fan, Tang & Le, 2024): the habit of letting the tool do the thinking metacognition is meant to do{++{"author":"AI","timestamp":1787309121817}@@
+- How arbitrary offloading feeds in: the single break becomes a habit when it repeats; each unchecked offload trains you to stop overseeing your own thinking++}
 - A note on the framing: 'laziness' misassigns blame — offloading cognition is a normal human tendency (Risko & Gilbert, 2016), and AI platforms are designed to exploit it
 - The calculator example: offloading a task keeps the judgement; metacognitive laziness hands the oversight to the system
 - The LLM push: delegating 'how to break a problem down' delegates a large part of the thinking
