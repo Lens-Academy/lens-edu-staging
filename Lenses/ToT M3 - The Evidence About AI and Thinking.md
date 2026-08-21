@@ -90,22 +90,6 @@ to:: "Managing this integration requires operational frameworks that account for
 ## Reading the evidence honestly
 Hold two thoughts together. The clinical and worker studies above point at real erosion of individual skill. The legal study points at real gains from early, engaged use. Both can be true, because whether help helps depends on when and how you use it. The honest context: most of these studies are short, narrow, and small. Long-term and real-world effects on whole populations are still unknown. The reasonable conclusion is concern, not panic. Friction-free help can quietly remove the struggle that builds skill, and we do not yet know how far that goes.
 
-
-
-#### Text
-content::
-\## Sources for this unit
-Every figure above links to its study. Open one and check it. That is the same habit Unit 4 asks you to build: verify a substantive claim against an independent source before you rely on it.
-
-- Budzyń and colleagues (2025). "Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy: a multicentre, observational study." Lancet Gastroenterology & Hepatology. [[../articles/budzy-endoscopist-deskilling-risk-after-exposure-to-artificial-intelligence-in-colonoscopy-a-multicentre-observational-study]]
-- Gerlich (2025). "AI tools in society: a study of the relationship between AI tool usage and critical thinking." [[../articles/gerlich-2025-ai-tools-in-society]]
-- Lee and colleagues, Microsoft Research (2025). "The impact of generative AI on critical thinking." [[../articles/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers]]
-- Roxana Seifer (2026). "Could cognitive dependency be an early warning sign of gradual disempowerment?" [[../articles/seifer-could-cognitive-dependency-be-an-early-warning-sign-of-gradual-disempowerment]]
-- Bednar and colleagues (2025). "Does AI make lawyers worse at thinking?" [[../articles/bednar-does-ai-make-lawyers-worse-at-thinking-new-research-offers-a-more-complicated-answer]]
-- Gutoreva and colleagues (2025). "Position: AI as part of self." [[../articles/gutoreva-position-ai-as-part-of-self-extending-the-mind-requires-cognitive-co-regulation]]
-
-The studies above differ in strength. The Budzyń, Gerlich, Lee, and Bednar studies are peer-reviewed or pre-print research. The Seifer survey is a self-published, self-reported poll: useful as a warning sign, not proof of cause and effect.
-
 #### Question
 content::
 \## Phase 1: Recall
