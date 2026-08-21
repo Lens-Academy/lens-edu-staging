@@ -45,7 +45,7 @@ But oversight can break. The next lens — arbitrary offloading — shows the sh
 #### Article
 source:: [[../articles/brademann-arbitrary-cognitive-offloading-genai]]
 from:: "Taking self-regulated learning decisions, such as deciding over single cognitive tasks to perform, or to offload, is a human intellectual capacity called metacognition."
-to:: "tasks that are broken down into subtasks and evolve in difficulty."
+to:: "A metacognitive belief is formed that forms an argumentative ground for the learners final decision."
 
 #### Question
 content::
