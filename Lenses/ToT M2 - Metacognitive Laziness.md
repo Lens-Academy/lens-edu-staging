@@ -38,9 +38,9 @@ source:: [[../articles/brademann-arbitrary-cognitive-offloading-genai]]
 from:: "Overerstimations of gained competence are not exclusive to GenAI but span across digital learning where ease of use is confused with depth of learning."
 to:: "These findings are evidence for GenAI promoting metacognitive laziness."
 
-++}---
+++}{--{"author":"AI","timestamp":1787313079880}@@---
 
-#### Question
+--}#### Question
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended here.
