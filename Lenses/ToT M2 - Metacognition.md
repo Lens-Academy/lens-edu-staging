@@ -16,7 +16,7 @@ content::
 
 Metacognition has two moving parts. The first is **monitoring**: noticing what you know, what you do not, and where your thinking is going. The second is **control**: acting on that notice — slowing down, checking a step, changing your plan, or admitting you do not understand. It is less a single act than a habit of standing slightly outside your own mind while you work.
 
-{++{"author":"Daniel's AI","timestamp":1787305933054}@@**What it looks like**
+**What it looks like**
 
 Monitoring is the noticing. Some everyday examples:
 - You feel you have seen a name before but cannot recall it now — a feeling-of-knowing.
@@ -30,7 +30,7 @@ Control is the acting. Some everyday examples:
 - You change your plan because the first approach is not working.
 - You choose to spend more time on the part you understand least.
 
-++}This oversight is what keeps your reasoning honest. When it works, you catch a wrong assumption before it hardens, you notice a gap you would otherwise skip, and you can tell the difference between feeling done and being done.
+This oversight is what keeps your reasoning honest. When it works, you catch a wrong assumption before it hardens, you notice a gap you would otherwise skip, and you can tell the difference between feeling done and being done.
 
 But oversight can break. The next lens — arbitrary offloading — shows the sharpest way it breaks: a moment where the judgement leaves entirely.
 
