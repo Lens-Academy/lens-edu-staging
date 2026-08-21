@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787313882301}@@---
+---
 id: '5de00c9c-526d-462b-a9da-40660e01bef3'
 title: "No Revolt Required"
 duration_minutes: 8
@@ -39,4 +39,3 @@ Your job is light. Help the student locate a personal instance of quiet capabili
 Acknowledge their example in 1 to 2 sentences, specifically and without judgement. If they say they cannot think of one, offer the navigation or spell-check example from the intro and ask whether something similar fits.
 
 Close by pointing them to the reading: "Hold that example as you read. The piece ahead scales this exact dynamic up to the whole of society. Head to the reading when you are ready."
-++}
