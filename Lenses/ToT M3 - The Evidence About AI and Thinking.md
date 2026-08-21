@@ -59,6 +59,8 @@ to:: "These results highlight the potential cognitive costs of AI tool reliance,
 
 %% Note: 666 UK participants, mixed-method with validated HCTA assessment. Key finding: beta = -1.76, p < 0.001. Self-report limitation: correction published noting reliance on self-reported practices. %%
 
+#### Text
+content::
 Lee and colleagues at Microsoft Research (2025) tracked 319 knowledge workers across 936 examples of GenAI use. Higher confidence in AI was associated with lower critical thinking and vice versa. The study documented a shift in task type: AI use moves workers from generative tasks such as knowledge recall, comprehension, and synthesis toward reviewer tasks such as verification and integration. That is a move down Bloom's taxonomy of cognitive skills. You will see why this matters in Unit 4.
 
 #### Article
@@ -68,6 +70,8 @@ to:: "information verification, response integration, and task stewardship."
 
 %% Note: 319 knowledge workers, 936 examples. Key finding: shift from generative tasks (knowledge recall, synthesis, comprehension) to reviewer tasks (verification, integration, stewardship), a move "down" Bloom's taxonomy. %%
 
+#### Text
+content::
 Roxana Seifer's survey of 299 UK workers (2026) found similar self-reported patterns: 56% felt confident after a quick review, 45% chose the AI's answer over their own, 47% checked AI output less than a colleague's work, and 41% found tasks harder without AI. Daily users showed the strongest effects. This was a self-published, self-reported survey, so its patterns are warning signs, not proof of cause and effect.
 
 #### Article

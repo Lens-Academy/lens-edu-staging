@@ -94,11 +94,11 @@ source:: [[../Lenses/Agent Foundations]]
 source:: [[../Lenses/AF not really math not really science]]
 
 ## Lens:
-optional:: true
+{--{"author":"Plex's AI","timestamp":1787325148105}@@optional:: true
 source:: [[../Lenses/Embedded agents]]
 
 ## Lens:
-source:: [[../Lenses/Realism about rationality]]
+--}source:: [[../Lenses/Realism about rationality]]
 
 
 
