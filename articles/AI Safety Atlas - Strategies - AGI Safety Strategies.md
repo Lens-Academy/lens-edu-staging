@@ -81,7 +81,7 @@ When people first encounter AI safety, they often suggest the same intuitive sol
 
 The overarching strategy requires prioritizing safety research over capabilities advancement. Given the substantial gaps between current techniques and requirements, the general approach involves significantly increasing funding for alignment research while exercising restraint in capabilities development when safety measures remain insufficient relative to system capabilities.
 
-{--{"author":"Luc's AI","timestamp":1787319601801}@@**Are--}{++{"author":"Luc's AI","timestamp":1787319601801}@@:::callout {title="Are++} misuse and misalignment {--{"author":"Luc's AI","timestamp":1787319601801}@@different?**--}{++{"author":"Luc's AI","timestamp":1787319601801}@@different? — Optional · 2 min read" tone="neutral" collapse="closed"}++}
+:::callout {title="Are misuse and misalignment different? — Optional · 2 min read" tone="neutral" collapse="closed"}
 
 AI misuse and rogue AI might be essentially the same scenario in their outcomes, though the only difference is that for misalignment, the initial request to do harm does not come from a human but from an AI. If we build an existentially risky triggerable system, it's likely to get triggered regardless of whether the initiator is human or artificial ([Shapira, 2025](https://www.youtube.com/watch?v=0KmaotctziE)).
 
@@ -95,9 +95,9 @@ AI misuse and rogue AI might be essentially the same scenario in their outcomes,
 
 ![Figure 3.14](https://ai-safety-atlas.com/_astro/33338ff3864c55674418df7acfc532f5f1ed424468498f977df90a0b3ca5a1a3.DIrGLM2q_ZUg0ow.webp)
 
-*Figure 3.14: According to Richard Ngo, the distinction between misalignment and misuse risks from AI might often be unhelpful. Instead, we should primarily think about ‘misaligned coalitions’ of both humans and AIs, ranging from terrorist groups to authoritarian states. Slide from ([Ngo, 2024](https://www.youtube.com/watch?app=desktop&si=XRR0ofCG7IEp1n_b&v=4v3uqWeVmco&feature=youtu.be)).*{++{"author":"Luc's AI","timestamp":1787319603014}@@
+*Figure 3.14: According to Richard Ngo, the distinction between misalignment and misuse risks from AI might often be unhelpful. Instead, we should primarily think about ‘misaligned coalitions’ of both humans and AIs, ranging from terrorist groups to authoritarian states. Slide from ([Ngo, 2024](https://www.youtube.com/watch?app=desktop&si=XRR0ofCG7IEp1n_b&v=4v3uqWeVmco&feature=youtu.be)).*
 
-:::++}
+:::
 
 ## Fix Misalignment
 
@@ -153,7 +153,7 @@ The most straightforward strategies for establishing control are to design a sec
 
 There are still many problems to address, but in summary, it seems possible to verify the robustness of a security protocol through control evaluations by taking precautions against different failure modes. For an overview of the control agenda, [this sequence](https://www.alignmentforum.org/s/WCJtsn6fNib6L7ZBB) is a good starting point.
 
-{--{"author":"Luc's AI","timestamp":1787319603952}@@**Does--}{++{"author":"Luc's AI","timestamp":1787319603952}@@:::callout {title="Does++} the AI Control line of research meaningfully reduce AI {--{"author":"Luc's AI","timestamp":1787319603952}@@risks?**--}{++{"author":"Luc's AI","timestamp":1787319603952}@@risks? — Optional · 1 min read" tone="neutral" collapse="closed"}++}
+:::callout {title="Does the AI Control line of research meaningfully reduce AI risks? — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 Even the control agenda suffers from many critiques.
 
@@ -161,11 +161,11 @@ Jan Kulveit argues that controlling AIs without aligning them might reduce the p
 
 The article, "The Case Against AI Control Research" ([Wentworth, 2025](https://www.lesswrong.com/posts/8wBN8cdNAv3c7vt6p/the-case-against-ai-control-research)), argues that AI control research, as commonly defined and practiced, addresses a relatively small portion of the existential risk (X-risk) posed by artificial intelligence. Wentworth argues we won't be able to recognize a good solution to alignment. The author posits that the most likely failure scenario involves early transformative AI producing flawed, misleading, or subtly incorrect solutions ("slop") when tasked with solving superintelligence alignment. Labs might mistakenly accept these flawed solutions due to the difficulty of verification, AI sycophancy, researcher error, or organizational problems, and then proceed to build misaligned superintelligence based on them. Because control research narrowly focuses on intentional scheming by early AI, it doesn't address the larger risk posed by "slop" and the challenge of ensuring early AI genuinely contributes to solving the alignment problem for more advanced systems, rather than just being a superhuman sycophant that convinces humans that their flawed idea of how to align an AI is correct when it's not.
 
-Both arguments are debatable, but the general point is that it is hard to guarantee that even promising-looking lines of research are not, in fact, net negative.{++{"author":"Luc's AI","timestamp":1787319604991}@@
+Both arguments are debatable, but the general point is that it is hard to guarantee that even promising-looking lines of research are not, in fact, net negative.
 
-:::++}
+:::
 
-{--{"author":"Luc's AI","timestamp":1787319605668}@@**How--}{++{"author":"Luc's AI","timestamp":1787319605668}@@:::callout {title="How++} to box an {--{"author":"Luc's AI","timestamp":1787319605668}@@AI**--}{++{"author":"Luc's AI","timestamp":1787319605668}@@AI — Optional · 1 min read" tone="neutral" collapse="closed"}++}
+:::callout {title="How to box an AI — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 While boxing may not be scalable, it remains a neglected strategy.
 
@@ -184,9 +184,9 @@ Possible mitigation strategies include:
 - Testing and training humans, utilizing resistance psychology evaluations to select suitable individuals for containment tasks, such as for space training.
 - Monitoring AI persuasiveness, as outlined in the preparedness framework. ([OpenAI, 2023](https://cdn.openai.com/openai-preparedness-framework-beta.pdf))
 
-Many more concrete strategies are listed [here](https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled#comments), and a summary of discussions on this topic is available [here](https://www.lesswrong.com/tag/ai-boxing-containment).{++{"author":"Luc's AI","timestamp":1787319606372}@@
+Many more concrete strategies are listed [here](https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled#comments), and a summary of discussions on this topic is available [here](https://www.lesswrong.com/tag/ai-boxing-containment).
 
-:::++}
+:::
 
 ## Transparent Thoughts
 
@@ -226,13 +226,13 @@ In summary, a general strategy to create a safe by-design AI is to ensure that A
 
 Nevertheless, several factors might ultimately limit CoT monitoring effectiveness in advanced systems. These include architectural changes enabling opaque recurrent processing (sometimes called "neuralese"), the development of steganographic capabilities that could hide reasoning within seemingly benign outputs, or simply much stronger forward passes that require less explicit reasoning. Of these, the development of opaque reasoning abilities through neural recurrence may represent the most significant challenge to maintaining the transparency needed for effective monitoring. This whole agenda depends notably on the hypothesis that "Effective plans to defeat humanity cannot be found in a single LLM forward pass." Once AIs become too strong in a forward pass, most hopes of translucent thoughts go away, so either you need to succeed at ambitious CoEm by building a giant superhuman transparent bureaucracy, or we need new approaches. This is the topic of ASI Safety.
 
-{--{"author":"Luc's AI","timestamp":1787319606795}@@**Training--}{++{"author":"Luc's AI","timestamp":1787319606795}@@:::callout {title="Training++} on Interpretability - The Most Forbidden {--{"author":"Luc's AI","timestamp":1787319606795}@@Technique**--}{++{"author":"Luc's AI","timestamp":1787319606795}@@Technique — Optional · 1 min read" tone="neutral" collapse="closed"}++}
+:::callout {title="Training on Interpretability - The Most Forbidden Technique — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 This term has been coined by Zvi Mowshowitz ([Mowshowitz, 2025](https://thezvi.substack.com/i/145384938/the-art-of-the-jailbreak)). OpenAI's research showed that directly optimizing the CoT for safety (i.e., penalizing "bad thoughts") caused models to learn to hide their deceptive reasoning while still misbehaving ([OpenAI, 2025](https://openai.com/index/chain-of-thought-monitoring/)).
 
-“*An AI produces a final output [X] via some method [M]. You can analyze [M] using technique [T], to learn what the AI is up to. You could train on that. Never do that. You train on [X]. Only [X]. Never [M], never [T]. Why? Because [T] is how you figure out when the model is misbehaving. If you train on [T], you are training the AI to obfuscate its thinking and defeat [T]. You will rapidly lose your ability to know what is going on, in exactly the ways you most need to know what is going on. Those bits of optimization pressure from [T] are precious. Use them wisely.*”{++{"author":"Luc's AI","timestamp":1787319607298}@@
+“*An AI produces a final output [X] via some method [M]. You can analyze [M] using technique [T], to learn what the AI is up to. You could train on that. Never do that. You train on [X]. Only [X]. Never [M], never [T]. Why? Because [T] is how you figure out when the model is misbehaving. If you train on [T], you are training the AI to obfuscate its thinking and defeat [T]. You will rapidly lose your ability to know what is going on, in exactly the ways you most need to know what is going on. Those bits of optimization pressure from [T] are precious. Use them wisely.*”
 
-:::++}
+:::
 
 [^note-atlas-2]:  The Technology Readiness Levels from NASA is a scale from 1 to 9 to measure the maturity of a technology. Level 1 represents the earliest stage of technology development, characterized by basic principles observed and reported, and level 9 represents actual technology proven through successful mission operations.
 

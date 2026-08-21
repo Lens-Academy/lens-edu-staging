@@ -193,7 +193,7 @@ Classical learning theory assumes each parameter setting corresponds to a unique
 
 **Classical learning theory's tools fail completely when applied to these "singular" models.** The mathematical techniques that work for linear regression—counting parameters, using standard approximations, making clean theoretical predictions—all assume each parameter contributes independently to algorithmic complexity. In neural networks, parameters interact in complex ways where massive numbers of parameters might collaborate to implement simple computational patterns, while other parameters might be completely redundant. This breakdown is called "singularity" in mathematical terms. The parameter-to-function mapping develops degeneracies and redundancies that violate the assumptions underlying classical statistical tools. Standard approximations like the Laplace approximation become invalid. Parameter counting becomes meaningless as a complexity measure. The neat relationship between parameter count and generalization completely disappears (Murfet et al., 2020, Deep Learning is Singular, and That's Good).
 
-{--{"author":"Luc's AI","timestamp":1787319571327}@@**Free--}{++{"author":"Luc's AI","timestamp":1787319571327}@@:::callout {title="Free++} energy minimization for machine {--{"author":"Luc's AI","timestamp":1787319571327}@@learning**--}{++{"author":"Luc's AI","timestamp":1787319571327}@@learning — Optional · 1 min read" tone="neutral" collapse="closed"}++}
+:::callout {title="Free energy minimization for machine learning — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 Sumio Watanabe's Free Energy Formula makes this intuitive tradeoff mathematically precise:
 
@@ -205,9 +205,9 @@ The first term rewards accuracy:    $n L_n(\hat{w})$ measures how well the algor
 
 The second term penalizes complexity: $lambda log n$ measures the algorithmic complexity penalty. Here $lambda$ is the Real Log Canonical Threshold - the number of "effective parameters" needed to specify this particular algorithm within the neural network architecture. Algorithms requiring more effective parameters get higher free energy, making them less probable.
 
-The balance between accuracy and complexity changes as training progresses. Early in training (small $n$), the complexity penalty dominates, so simple algorithms are preferred even if they have higher loss. Later in training, the accuracy term dominates, so complex but accurate algorithms become preferred. This creates "phase transitions" where the preferred algorithmic solution suddenly switches.{++{"author":"Luc's AI","timestamp":1787319572526}@@
+The balance between accuracy and complexity changes as training progresses. Early in training (small $n$), the complexity penalty dominates, so simple algorithms are preferred even if they have higher loss. Later in training, the accuracy term dominates, so complex but accurate algorithms become preferred. This creates "phase transitions" where the preferred algorithmic solution suddenly switches.
 
-:::++}
+:::
 
 **Empirical Evidence: Opposing Staircases.** Researchers tracking both loss and estimated complexity during training observe "opposing staircases" - each sudden drop in loss is accompanied by a jump in algorithmic complexity. This validates SLT's prediction that learning proceeds through discrete phase transitions from simple, high-loss solutions to complex, low-loss solutions rather than gradual refinement of a single algorithm.
 
