@@ -9,7 +9,7 @@ tags:
 
 # Module: [[../modules/Thinking about Thinking - M1 - What is thinking, anyway]]
 
-# Module: [[../modules/Thinking about Thinking - M2 - What is metacognitive offloading]]
+# Module: [[../Lens Edu/modules/Thinking about Thinking - M2 - What is metacognitive laziness]]
 
 # Module: [[../modules/Thinking about Thinking - M3 - A route to gradual disempowerment]]
 
