@@ -11,7 +11,7 @@ tags:
 #### Text
 content::
 
-{--{"author":"AI","timestamp":1787307058366}@@Start with--}{++{"author":"AI","timestamp":1787307058366}@@Think back to++} the {--{"author":"AI","timestamp":1787307058366}@@calculator.--}{++{"author":"AI","timestamp":1787307058366}@@example of the calculator in Unit 1.++} We offload the arithmetic to a calculator, but most of us still understand what a sum means and could catch a wrong answer. The judgement stays with us. That is **offloading a task**, the basic kind of [[../Lenses/ToT M1 - Cognition and Cognitive Offloading|offloading]] we met {--{"author":"AI","timestamp":1787307058366}@@in Unit 1.--}{++{"author":"AI","timestamp":1787307058366}@@there.++}
+Think back to the {--{"author":"AI","timestamp":1787307058366}@@calculator.--}{++{"author":"AI","timestamp":1787307058366}@@example of the calculator in Unit 1.++} We offload the arithmetic to a calculator, but most of us still understand what a sum means and could catch a wrong answer. The judgement stays with us. That is **offloading a task**, the basic kind of [[../Lenses/ToT M1 - Cognition and Cognitive Offloading|offloading]] we met there.
 
 **Arbitrary offloading** is the opposite extreme. It is handing off a decision you do not understand at all. You have no way to evaluate the answer, but you follow it anyway. The judgement does not just move. It leaves entirely.
 
