@@ -15,12 +15,10 @@ Think back to the {--{"author":"AI","timestamp":1787307058366}@@calculator.--}{+
 
 **Arbitrary cognitive offloading** is the opposite extreme. It is handing off a decision you do not understand at all. You have no way to evaluate the answer, but you follow it anyway. The judgement does not just move. It leaves entirely.
 
-\## How it differs from offloading a task
+{--{"author":"AI","timestamp":1787307091907}@@\## How it--}{++{"author":"AI","timestamp":1787307091907}@@Here is how arbitrary offloading++} differs from offloading a {--{"author":"AI","timestamp":1787307091907}@@task--}{++{"author":"AI","timestamp":1787307091907}@@task:++}
 
 - **Offloading a task** (the calculator): the work moves out, but your ability to check stays.
 - **Arbitrary offloading**: you cannot even evaluate the result. There is no check left at all.
-
-The calculator keeps the judge. Arbitrary offloading removes the judge.
 
 \## Why it is the danger case
 
