@@ -68,8 +68,8 @@ low-label:: Not confident
 high-label:: Very confident
 feedback-instructions:: Briefly suggest how learner could calibrate this confidence against evidence.
 
-%% `Question: Select` requires `options::`; default allows one selection. Without `[x]`, it is ungraded. %%
-#### Question: Select
+%% `Question: {--{"author":"Elias's AI","timestamp":1787312223300}@@Select`--}{++{"author":"Elias's AI","timestamp":1787312223300}@@Choice`++} requires `options::`; default allows one {--{"author":"Elias's AI","timestamp":1787312223300}@@selection.--}{++{"author":"Elias's AI","timestamp":1787312223300}@@choice.++} Without `[x]`, it is ungraded. %%
+#### Question: {--{"author":"Elias's AI","timestamp":1787312226803}@@Select--}{++{"author":"Elias's AI","timestamp":1787312226803}@@Choice++}
 id:: a59ce650-c5cf-4b2b-bc13-e0686f5d2bfb
 content:: Which topic should we cover next?
 options::
