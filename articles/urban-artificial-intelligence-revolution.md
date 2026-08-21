@@ -16,11 +16,11 @@ _We are on the edge of change comparable to the rise of human life on Earth._ - 
 
 What does it feel like to stand here?
 
-[![Image 1: Edge1](https://waitbutwhy.com/wp-content/uploads/2015/01/Edge1.png)](https://waitbutwhy.com/wp-content/uploads/2015/01/Edge1.png)
+{--{"author":"Luc's AI","timestamp":1787306326474}@@[![Image--}{++{"author":"Luc's AI","timestamp":1787306326474}@@![Image++} 1: {--{"author":"Luc's AI","timestamp":1787306326474}@@Edge1](https://waitbutwhy.com/wp-content/uploads/2015/01/Edge1.png)](https://waitbutwhy.com/wp-content/uploads/2015/01/Edge1.png)--}{++{"author":"Luc's AI","timestamp":1787306326474}@@Edge1](https://waitbutwhy.com/wp-content/uploads/2015/01/Edge1.png)++}
 
 It seems like a pretty intense place to be standing—but then you have to remember something about what it's like to stand on a time graph: you can't see what's to your right. So here's how it actually feels to stand there:
 
-[![Image 2: Edge](https://waitbutwhy.com/wp-content/uploads/2015/01/Edge.jpg)](https://waitbutwhy.com/wp-content/uploads/2015/01/Edge.jpg)
+{--{"author":"Luc's AI","timestamp":1787306326689}@@[![Image--}{++{"author":"Luc's AI","timestamp":1787306326689}@@![Image++} 2: {--{"author":"Luc's AI","timestamp":1787306326689}@@Edge](https://waitbutwhy.com/wp-content/uploads/2015/01/Edge.jpg)](https://waitbutwhy.com/wp-content/uploads/2015/01/Edge.jpg)--}{++{"author":"Luc's AI","timestamp":1787306326689}@@Edge](https://waitbutwhy.com/wp-content/uploads/2015/01/Edge.jpg)++}
 
 Which probably feels pretty normal…
 
@@ -54,11 +54,11 @@ This isn't science fiction. It's what many scientists smarter and more knowledge
 So then why, when you hear me say something like "the world 35 years from now might be totally unrecognizable," are you thinking, "Cool….but nahhhhhhh"? Three reasons we're skeptical of outlandish forecasts of the future:
 **1) When it comes to history, we think in straight lines.** When we imagine the progress of the next 30 years, we look back to the progress of the previous 30 as an indicator of how much will likely happen. When we think about the extent to which the world will change in the 21st century, we just take the 20th century progress and add it to the year 2000. This was the same mistake our 1750 guy made when he got someone from 1500 and expected to blow his mind as much as his own was blown going the same distance ahead. It's most intuitive for us to think _linearly,_ when we should be thinking _exponentially_. If someone is being more clever about it, they might predict the advances of the next 30 years not by looking at the previous 30 years, but by taking the _current_ rate of progress and judging based on that. They'd be more accurate, but still way off. In order to think about the future correctly, you need to imagine things moving at a _much faster rate_ than they're moving now.
 
-[![Image 3: Projections](https://waitbutwhy.com/wp-content/uploads/2015/01/Projections.png)](https://waitbutwhy.com/wp-content/uploads/2015/01/Projections.png)
+{--{"author":"Luc's AI","timestamp":1787306326906}@@[![Image--}{++{"author":"Luc's AI","timestamp":1787306326906}@@![Image++} 3: {--{"author":"Luc's AI","timestamp":1787306326906}@@Projections](https://waitbutwhy.com/wp-content/uploads/2015/01/Projections.png)](https://waitbutwhy.com/wp-content/uploads/2015/01/Projections.png)--}{++{"author":"Luc's AI","timestamp":1787306326906}@@Projections](https://waitbutwhy.com/wp-content/uploads/2015/01/Projections.png)++}
 
 **2) The trajectory of very recent history often tells a distorted story.** First, even a steep exponential curve seems linear when you only look at a tiny slice of it, the same way if you look at a little segment of a huge circle up close, it looks almost like a straight line. Second, exponential growth isn't totally smooth and uniform. Kurzweil explains that progress happens in "S-curves":
 
-[![Image 4: S-Curves](https://waitbutwhy.com/wp-content/uploads/2015/01/S-Curves2.png)](https://waitbutwhy.com/wp-content/uploads/2015/01/S-Curves2.png)
+{--{"author":"Luc's AI","timestamp":1787306327103}@@[![Image--}{++{"author":"Luc's AI","timestamp":1787306327103}@@![Image++} 4: {--{"author":"Luc's AI","timestamp":1787306327103}@@S-Curves](https://waitbutwhy.com/wp-content/uploads/2015/01/S-Curves2.png)](https://waitbutwhy.com/wp-content/uploads/2015/01/S-Curves2.png)--}{++{"author":"Luc's AI","timestamp":1787306327103}@@S-Curves](https://waitbutwhy.com/wp-content/uploads/2015/01/S-Curves2.png)++}
 
 An S is created by the wave of progress when a new paradigm sweeps the world. The curve goes through three phases:
 
@@ -130,11 +130,11 @@ On the other hand, multiplying big numbers or playing chess are new activities f
 
 One fun example—when you look at this, you and a computer both can figure out that it's a rectangle with two distinct shades, alternating:
 
-[![Image 5: Screen Shot 2015-01-21 at 12.59.21 AM](https://waitbutwhy.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-21-at-12.59.21-AM.png)](https://waitbutwhy.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-21-at-12.59.21-AM.png)
+{--{"author":"Luc's AI","timestamp":1787306327305}@@[![Image--}{++{"author":"Luc's AI","timestamp":1787306327305}@@![Image++} 5: Screen Shot 2015-01-21 at 12.59.21 {--{"author":"Luc's AI","timestamp":1787306327305}@@AM](https://waitbutwhy.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-21-at-12.59.21-AM.png)](https://waitbutwhy.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-21-at-12.59.21-AM.png)--}{++{"author":"Luc's AI","timestamp":1787306327305}@@AM](https://waitbutwhy.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-21-at-12.59.21-AM.png)++}
 
 Tied so far. But if you pick up the black and reveal the whole image…
 
-[![Image 6: Screen Shot 2015-01-21 at 12.59.54 AM](https://waitbutwhy.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-21-at-12.59.54-AM.png)](https://waitbutwhy.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-21-at-12.59.54-AM.png)
+{--{"author":"Luc's AI","timestamp":1787306327573}@@[![Image--}{++{"author":"Luc's AI","timestamp":1787306327573}@@![Image++} 6: Screen Shot 2015-01-21 at 12.59.54 {--{"author":"Luc's AI","timestamp":1787306327573}@@AM](https://waitbutwhy.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-21-at-12.59.54-AM.png)](https://waitbutwhy.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-21-at-12.59.54-AM.png)--}{++{"author":"Luc's AI","timestamp":1787306327573}@@AM](https://waitbutwhy.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-21-at-12.59.54-AM.png)++}
 
 …you have no problem giving a full description of the various opaque and translucent cylinders, slats, and 3-D corners, but the computer would fail miserably. It would describe what it sees—a variety of two-dimensional shapes in several different shades—which is actually what's there. Your brain is doing a ton of fancy shit to interpret the implied depth, shade-mixing, and room lighting the picture is trying to portray. And looking at the picture below, a computer sees a two-dimensional white, black, and gray collage, while you easily see what it really is—a photo of an entirely-black, 3-D rock:
 

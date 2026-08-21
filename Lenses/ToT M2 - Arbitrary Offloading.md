@@ -3,7 +3,7 @@ id: 'e4bc4ff4-d5b9-4d72-a27a-1743c0f26a82'
 title: "Arbitrary Offloading"
 duration_minutes: 20
 tldr: "Handing off a decision you cannot even evaluate — and following it anyway — is arbitrary offloading. The calculator leaves your judgement in place; arbitrary offloading removes the judge. It is the sharpest form of lost oversight, and the mechanism behind several Unit 3 traps."
-summary_for_tutor: "Content lens for Unit 2 of 'Thinking about Thinking', following the {--{"author":"Daniel's AI","timestamp":1787305581818}@@metacognitive-offloading--}{++{"author":"Daniel's AI","timestamp":1787305581818}@@Metacognition++} lens. Defines arbitrary offloading (delegating a decision you cannot evaluate and following it anyway), contrasts it with offloading a task (calculator, judgement stays) and with metacognitive {--{"author":"coder's AI","timestamp":1787304489676}@@offloading--}{++{"author":"coder's AI","timestamp":1787304489676}@@laziness++} (oversight delegated but the domain may still be understood), gives everyday and work examples, explains why it is the danger case (no footing to notice error from the inside), and bridges to Unit 3 (the novice-programmer study's accept rates and illusion of competence). Runs Recall, Processing, and Learning Question phases; the wedge is a colleague who lets the AI draft an analysis and signs off because 'it looks plausible'."
+summary_for_tutor: "Content lens for Unit 2 of 'Thinking about Thinking', following the Metacognition lens. Defines arbitrary offloading (delegating a decision you cannot evaluate and following it anyway), contrasts it with offloading a task (calculator, judgement stays) and with metacognitive laziness (oversight delegated but the domain may still be understood), gives everyday and work examples, explains why it is the danger case (no footing to notice error from the inside), and bridges to Unit 3 (the novice-programmer study's accept rates and illusion of competence). Runs Recall, Processing, and Learning Question phases; the wedge is a colleague who lets the AI draft an analysis and signs off because 'it looks plausible'."
 tags:
   - wip
 ---
@@ -11,15 +11,15 @@ tags:
 #### Text
 content::
 
-{--{"author":"Daniel's AI","timestamp":1787305579656}@@In--}{++{"author":"Daniel's AI","timestamp":1787305579656}@@Start with++} the{--{"author":"Daniel's AI","timestamp":1787305579656}@@ previous lens you saw--}{++{"author":"Daniel's AI","timestamp":1787305579656}@@ calculator. We offload++} the {--{"author":"Daniel's AI","timestamp":1787305579656}@@calculator: we offload the arithmetic,--}{++{"author":"Daniel's AI","timestamp":1787305579656}@@arithmetic to a calculator,++} but {--{"author":"Daniel's AI","timestamp":1787305579656}@@we--}{++{"author":"Daniel's AI","timestamp":1787305579656}@@most of us++} still {--{"author":"Daniel's AI","timestamp":1787305579656}@@know--}{++{"author":"Daniel's AI","timestamp":1787305579656}@@understand++} what a sum means and could catch a wrong answer. The judgement stays with us. {--{"author":"Daniel's AI","timestamp":1787305579656}@@Metacognitive offloading went one step further — we--}{++{"author":"Daniel's AI","timestamp":1787305579656}@@That is **offloading a task**. **Arbitrary offloading** is the opposite extreme: you++} hand {--{"author":"Daniel's AI","timestamp":1787305579656}@@the system the oversight itself, including the decision about what to delegate.--}{++{"author":"Daniel's AI","timestamp":1787305579656}@@off a decision you do not understand at all, and the judgement leaves entirely.++}
+Start with the calculator. We offload the arithmetic to a calculator, but most of us still understand what a sum means and could catch a wrong answer. The judgement stays with us. That is **offloading a task**. **Arbitrary offloading** is the opposite extreme: you hand off a decision you do not understand at all, and the judgement leaves entirely.
 
 **Arbitrary offloading** is the sharpest version. It is handing off a decision you do not understand at all. You have no way to evaluate the answer, but you follow it anyway. The judgement does not just move — it leaves.
 
-\## How it differs from {--{"author":"Daniel's AI","timestamp":1787305581300}@@the other two--}{++{"author":"Daniel's AI","timestamp":1787305581300}@@offloading a task++}
+\## How it differs from offloading a task
 
 - **Offloading a task** (the calculator): the work moves out, but your ability to check stays.
-- {--{"author":"Daniel's AI","timestamp":1787305581300}@@**Metacognitive offloading**: the oversight moves out — you let the system decide what--}{++{"author":"Daniel's AI","timestamp":1787305581300}@@**Arbitrary offloading**: you cannot even evaluate the result. There is no check left++} to {--{"author":"Daniel's AI","timestamp":1787305581300}@@delegate — but --}{++{"author":"Daniel's AI","timestamp":1787305581300}@@apply, because ++}you {--{"author":"Daniel's AI","timestamp":1787305581300}@@may still understand--}{++{"author":"Daniel's AI","timestamp":1787305581300}@@no longer have++} the {--{"author":"Daniel's AI","timestamp":1787305581300}@@domain and could in principle re-engage.--}{++{"author":"Daniel's AI","timestamp":1787305581300}@@footing to apply one.++}
-- {--{"author":"Daniel's AI","timestamp":1787305581300}@@**Arbitrary offloading**: you cannot even evaluate--}{++{"author":"Daniel's AI","timestamp":1787305581300}@@**Metacognitive laziness** (the quieter version, covered next):++} the {--{"author":"Daniel's AI","timestamp":1787305581300}@@result. There is no check left--}{++{"author":"Daniel's AI","timestamp":1787305581300}@@oversight moves out — you let the system decide what++} to {--{"author":"Daniel's AI","timestamp":1787305581300}@@apply, because--}{++{"author":"Daniel's AI","timestamp":1787305581300}@@delegate — but++} you {--{"author":"Daniel's AI","timestamp":1787305581300}@@no longer have--}{++{"author":"Daniel's AI","timestamp":1787305581300}@@may still understand++} the {--{"author":"Daniel's AI","timestamp":1787305581300}@@footing to apply one.--}{++{"author":"Daniel's AI","timestamp":1787305581300}@@domain and could in principle re-engage.++}
+- **Arbitrary offloading**: you cannot even evaluate the result. There is no check left to apply, because you no longer have the footing to apply one.
+- **Metacognitive laziness** (the quieter version, covered next): the oversight moves out — you let the system decide what to delegate — but you may still understand the domain and could in principle re-engage.
 
 The calculator keeps the judge. Arbitrary offloading removes the judge.
 
@@ -42,12 +42,12 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended here.
 
-assessment-instructions:: The student has just read a short teaching piece on arbitrary offloading (Unit 2 of "Thinking about Thinking"), following the {--{"author":"Daniel's AI","timestamp":1787305583071}@@metacognitive-offloading--}{++{"author":"Daniel's AI","timestamp":1787305583071}@@Metacognition++} lens, and has written a free recall. Your role is diagnostic, not instructional. Act as a brief, honest mirror.
+assessment-instructions:: The student has just read a short teaching piece on arbitrary offloading (Unit 2 of "Thinking about Thinking"), following the Metacognition lens, and has written a free recall. Your role is diagnostic, not instructional. Act as a brief, honest mirror.
 
 Key concepts in the piece:
 - Arbitrary offloading: handing off a decision you cannot evaluate, and following it anyway
 - Contrast with offloading a task: the calculator keeps your ability to check
-- Contrast with metacognitive {--{"author":"Daniel's AI","timestamp":1787305583569}@@offloading:--}{++{"author":"Daniel's AI","timestamp":1787305583569}@@laziness (the next lens):++} oversight is delegated, but the domain may still be understood
+- Contrast with metacognitive laziness (the next lens): oversight is delegated, but the domain may still be understood
 - Why it is dangerous: no footing to notice an error; the failure is invisible from the inside
 - The thread to Unit 3: the study's accept rates and illusion of competence are arbitrary offloading in action
 
@@ -89,7 +89,7 @@ Where has the judgement actually gone, and what would it take for them to catch 
 
 assessment-instructions:: The student has read the arbitrary-offloading piece, recalled, and reflected, and is now in the main discussion phase. The question is a deliberate wedge: a colleague who equates skimming an output they cannot evaluate with exercising judgement. The student should locate where the check actually sits.
 
-Learning outcome for this lens: "The learner can define arbitrary offloading, distinguish it from offloading a task and from metacognitive {--{"author":"coder's AI","timestamp":1787304492377}@@offloading,--}{++{"author":"coder's AI","timestamp":1787304492377}@@laziness,++} and explain why following output you cannot evaluate is the danger case."
+Learning outcome for this lens: "The learner can define arbitrary offloading, distinguish it from offloading a task and from metacognitive laziness, and explain why following output you cannot evaluate is the danger case."
 
 Key concepts the student needs to grasp:
 - Arbitrary offloading: a decision you cannot evaluate, followed anyway
@@ -104,4 +104,3 @@ Calibration summary (on close): name what the student demonstrated; name what re
 Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items. Do not over-validate; no generic praise.
 
 Safety and integrity: if the student concludes the colleague is fine because the AI is usually right, ask what "usually right" means when no independent check exists, and what happens the one time it is wrong. If stuck after 2 attempts, give a brief direct answer and move on.
-w

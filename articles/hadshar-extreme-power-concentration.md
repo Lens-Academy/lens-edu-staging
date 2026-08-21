@@ -59,7 +59,7 @@ If these dynamics are strong enough, we could end up with most of the power to e
 Furthermore, _within_ these organisations, more and more employees may get replaced by AI systems, such that a very small number of people wield huge amounts of power.[9](#fn-9 "Another reason to expect power concentration within organisations besides automation is that as AI capabilities become more dangerous, access is likely to get more restricted. This could be a very good thing, by reducing the risk of [catastrophic misuse](https://80000hours.org/problem-profiles/catastrophic-ai-misuse/). But if it's done badly, it could also lead to huge capability imbalances, where only a few executives or government officials have access to the most powerful capabilities.
 ")
 
-[![Graphic showing three stages of white collar automation.](https://80000hours.org/wp-content/uploads/2025/06/Automation.png)](https://80000hours.org/wp-content/uploads/2025/06/Automation.png)
+{--{"author":"Luc's AI","timestamp":1787306326027}@@[![Graphic--}{++{"author":"Luc's AI","timestamp":1787306326027}@@![Graphic++} showing three stages of white collar {--{"author":"Luc's AI","timestamp":1787306326027}@@automation.](https://80000hours.org/wp-content/uploads/2025/06/Automation.png)](https://80000hours.org/wp-content/uploads/2025/06/Automation.png)--}{++{"author":"Luc's AI","timestamp":1787306326027}@@automation.](https://80000hours.org/wp-content/uploads/2025/06/Automation.png)++}
 
 It’s plausible that entry-level white collar jobs will be automated first. Organisations could become more top-heavy, with an expanded class of managers overseeing many AI agents.
 
@@ -113,7 +113,7 @@ One pathway to an AI-enabled power grab over an entire government is an **[autom
     ") So subsequent generations of AIs deployed in government and the military might also be secretly loyal, and could be used to stage a coup — either by AI company leaders or foreign adversaries, or by parts of the government or military.
 -   **Hacking.** If one company or country has a strong advantage in cyber offense, they could hack into many military AI systems at once, and either disable them or use them to actively stage a coup.
 
-[![Diagram showing how AI systems could propagate secret loyalties forwards into future generations](https://80000hours.org/wp-content/uploads/2025/10/Powergrabs_diagrams__22_.webp)](https://80000hours.org/wp-content/uploads/2025/10/Powergrabs_diagrams__22_.webp)
+{--{"author":"Luc's AI","timestamp":1787306326249}@@[![Diagram--}{++{"author":"Luc's AI","timestamp":1787306326249}@@![Diagram++} showing how AI systems could propagate secret loyalties forwards into future {--{"author":"Luc's AI","timestamp":1787306326249}@@generations](https://80000hours.org/wp-content/uploads/2025/10/Powergrabs_diagrams__22_.webp)](https://80000hours.org/wp-content/uploads/2025/10/Powergrabs_diagrams__22_.webp)--}{++{"author":"Luc's AI","timestamp":1787306326249}@@generations](https://80000hours.org/wp-content/uploads/2025/10/Powergrabs_diagrams__22_.webp)++}
 
 AI systems could propagate secret loyalties forwards into future generations of systems until secretly loyal AI systems are deployed in powerful institutions like the military.
 
