@@ -164,9 +164,9 @@ content:: Estimate number of seconds in one year: {{number 31,536,000}}
 assessment-instructions:: This is a Fermi estimate. Give 100 within factor 2, substantial credit within one order of magnitude, and 0 only for answer with no meaningful magnitude awareness.
 feedback-instructions:: Explain most important estimation error and suggest one useful decomposition.
 
-%% One FillBlank may mix text and numeric blanks, and graded and ungraded blanks, for example: `I estimate {{number}} years because {{blank}}.`
+%% One {--{"author":"Elias's AI","timestamp":1787311958138}@@FillBlank--}{++{"author":"Elias's AI","timestamp":1787311958138}@@`Question: FillBlank`++} may mix text and numeric blanks, and graded and ungraded blanks, for example: `I estimate {{number}} years because {{blank}}.`
 
-FillBlank options:
+{--{"author":"Elias's AI","timestamp":1787311961282}@@FillBlank--}{++{"author":"Elias's AI","timestamp":1787311961282}@@`Question: FillBlank`++} options:
 - `optional:: true`: allow skipping whole segment. Defaults to `false`, so every blank is required.
 - `assessment-instructions:: ...`: extra natural-language rules appended to base assessor prompt. Use this for custom scoring such as "100 if first two blanks and either remaining blank are correct" or "60 if two of three are correct." Omit to use base assessment only.
 - `feedback-instructions:: ...`: instructions for learner-facing tutor response after assessment. Omit for no tutor feedback.
