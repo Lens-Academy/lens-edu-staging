@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787325781218}@@---
+---
 id: '224b3090-f190-4212-b6e3-be42071bc0ea'
 title: "How AI Can Harm"
 reading_minutes: 5
@@ -18,4 +18,4 @@ source:: [[../articles/budzy-endoscopist-deskilling-risk-after-exposure-to-artif
 from:: "Between Sept 8, 2021, and March 9, 2022, 1443 patients underwent non-AI assisted colonoscopy before (n=795) and after (n=648) the introduction of AI"
 to:: "In multivariable logistic regression analysis, exposure to AI (odds ratio"
 
-%% Note: Multicentre observational study (ACCEPT trial, Poland). After endoscopists were exposed to AI-assisted polyp detection, ADR on standard non-AI colonoscopy fell from 28.4% to 22.4% (6.0 pp absolute, p=0.0089). Objective clinical outcome, not self-report. %%++}
+%% Note: Multicentre observational study (ACCEPT trial, Poland). After endoscopists were exposed to AI-assisted polyp detection, ADR on standard non-AI colonoscopy fell from 28.4% to 22.4% (6.0 pp absolute, p=0.0089). Objective clinical outcome, not self-report. %%
