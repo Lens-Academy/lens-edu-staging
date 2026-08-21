@@ -23,8 +23,6 @@ These five traps were first documented by Prather and colleagues (2018). They wa
 - **Location**: you move too fast, skip the steps where you check your plan, and feel further along than you are. Progress feels real because the output keeps growing. *Example: you skim a long document and feel you "got it" before you reach the one caveat that changes the conclusion.*
 - **Achievement**: you cannot let go of a solution you are invested in, because you feel nearly done. Rework looks more expensive than it is. *Example: a writer keeps a beloved paragraph even after feedback shows it does not fit.*
 
-\## Why this comes before AI
-
 Notice that none of these needs a tool. They are properties of how people learn and monitor their own understanding. That is the point: the traps are not a new problem that AI created. They are an old problem that AI will meet you with.
 
 In Unit 3 we bring generative AI into the picture. There we will see a 2024 replication of the same study, this time with ChatGPT and Copilot in the room. The researchers found that the five traps above did not disappear — they persisted, and in several cases got worse. And the AI added three new traps that only exist because the tool is in the loop: **Interruption**, **Mislead**, and **Progression**. Hold the five in mind; Unit 3 builds on them.
