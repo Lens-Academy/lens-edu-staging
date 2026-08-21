@@ -10,7 +10,6 @@ tags:
 
 #### Text
 content::
-\## Thinking about your own thinking
 
 **Metacognition** means thinking about how we think. It is the quiet oversight layer: the part of thinking that decides how to think.
 
