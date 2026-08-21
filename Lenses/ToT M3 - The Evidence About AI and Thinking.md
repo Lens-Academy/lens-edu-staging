@@ -25,7 +25,7 @@ A compounding factor runs alongside: offloading does not happen alone. Automatin
 
 Several recent studies give us concrete measurements at different points along this chain. We read them one at a time below.
 
-## Tts++}
+## When AI Can Help
 The legal study is the result that cuts against simple panic. Bednar and colleagues (2025) ran a randomised study with about 100 Minnesota law students. When students used AI during the synthesis phase of a legal task, the quality of their written analysis improved by roughly 50 to 70 percent and they finished faster. Students who used AI earlier in the process also did better later on a follow-up task done without AI. But there is a sharp twist: when students used AI during the revision phase, it helped the weaker memos and regressed the stronger ones. The AI made good work worse. Read the summary below, and watch for that result.
 
 #### Article
