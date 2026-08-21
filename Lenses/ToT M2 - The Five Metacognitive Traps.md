@@ -1,4 +1,4 @@
-{++{"author":"coder's AI","timestamp":1787266476360}@@---
+---
 id: '05e28f84-2d37-4e19-953e-a99422bf55cf'
 title: "The Five Metacognitive Traps (Before AI)"
 duration_minutes: 25
@@ -105,4 +105,3 @@ Calibration summary (on close): name what the student demonstrated; name what re
 Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items. Do not over-validate; no generic praise.
 
 Safety and integrity: if the student blames a colleague or a vague "the requirements were unclear," ask what they personally assumed and when they last checked it against the actual ask.
-++}
