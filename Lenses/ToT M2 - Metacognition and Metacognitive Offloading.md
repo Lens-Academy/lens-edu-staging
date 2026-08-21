@@ -2,7 +2,7 @@
 id: 'cd6d8669-9844-4464-b15e-6bc78259b607'
 title: "Metacognition and Metacognitive {--{"author":"coder's AI","timestamp":1787304464733}@@Offloading"--}{++{"author":"coder's AI","timestamp":1787304464733}@@Laziness"++}
 tldr: "Offloading a task leaves your judgement intact. {--{"author":"coder's AI","timestamp":1787304465605}@@Offloading--}{++{"author":"coder's AI","timestamp":1787304465605}@@Handing the system++} the {--{"author":"coder's AI","timestamp":1787304465605}@@judgement about--}{++{"author":"coder's AI","timestamp":1787304465605}@@oversight of++} which tasks to delegate leaves you without oversight of your own thinking: that is metacognitive {--{"author":"coder's AI","timestamp":1787304465605}@@offloading."--}{++{"author":"coder's AI","timestamp":1787304465605}@@laziness."++}
-summary_for_tutor: "Core teaching lens for Unit 2 of 'Thinking about Thinking'. Authored content: metacognition defined; metacognitive offloading (delegating the oversight itself); why this course uses 'metacognitive offloading' rather than 'metacognitive laziness'; the calculator example (task offloaded, judgement stays); why LLMs push users toward it (delegating how to break a problem down); a fair counterpoint; and a bridge to the separate Arbitrary Offloading lens and to Unit 3. Runs Recall, Processing, and Learning Question phases; the wedge is a manager who asks the AI to decide which of their own tasks to delegate."
+summary_for_tutor: "Core teaching lens for Unit 2 of 'Thinking about Thinking'. Authored content: metacognition defined; metacognitive {--{"author":"coder's AI","timestamp":1787304467677}@@offloading--}{++{"author":"coder's AI","timestamp":1787304467677}@@laziness++} (delegating the oversight {--{"author":"coder's AI","timestamp":1787304467677}@@itself); why this course uses 'metacognitive offloading' rather than 'metacognitive laziness';--}{++{"author":"coder's AI","timestamp":1787304467677}@@itself; Fan, Tang & Le, 2024);++} the calculator example (task offloaded, judgement stays); why LLMs push users toward it (delegating how to break a problem down); a fair counterpoint; and a bridge to the separate Arbitrary Offloading lens and to Unit 3. Runs Recall, Processing, and Learning Question phases; the wedge is a manager who asks the AI to decide which of their own tasks to delegate."
 tags:
   - wip
 ---
@@ -13,9 +13,9 @@ content::
 
 Metacognition has two moving parts. The first is monitoring: noticing what you know, what you do not, and where your thinking is going. The second is control: acting on that notice — slowing down, checking a step, changing your plan, or admitting you do not understand. It is less a single act than a habit of standing slightly outside your own mind while you work.
 
-**Metacognitive offloading** means delegating that oversight itself. You stop deciding which tasks to hand off and which to keep. The system decides for you.
+**Metacognitive {--{"author":"coder's AI","timestamp":1787304468507}@@offloading**--}{++{"author":"coder's AI","timestamp":1787304468507}@@laziness**++} means delegating that oversight itself. You stop deciding which tasks to hand off and which to keep. The system decides for you.
 
-This course uses the term "metacognitive offloading" rather than the alternative "metacognitive laziness". The laziness framing blames the user: it suggests you are simply not thinking hard enough about your own thinking. That framing is wrong twice over. The habit is not mainly a personal failing, and it is not random. It is a predictable response to a system that makes offloading effortless. "Metacognitive offloading" points at the system and the habit, not the user's character.
+This course uses the term "metacognitive {--{"author":"coder's AI","timestamp":1787304469775}@@offloading" rather than the alternative "metacognitive laziness". The laziness framing blames --}{++{"author":"coder's AI","timestamp":1787304469775}@@laziness" (Fan, Tang & Le, 2024): the habit of letting ++}the {--{"author":"coder's AI","timestamp":1787304469775}@@user: it suggests you are simply not --}{++{"author":"coder's AI","timestamp":1787304469775}@@tool do the ++}thinking {--{"author":"coder's AI","timestamp":1787304469775}@@hard enough about your own thinking. That framing --}{++{"author":"coder's AI","timestamp":1787304469775}@@that metacognition ++}is {--{"author":"coder's AI","timestamp":1787304469775}@@wrong twice over. The habit is not mainly a personal failing, and it is not random. --}{++{"author":"coder's AI","timestamp":1787304469775}@@meant to do. ++}It is {--{"author":"coder's AI","timestamp":1787304469775}@@a predictable response to a system that makes offloading effortless. "Metacognitive offloading" points at the system --}{++{"author":"coder's AI","timestamp":1787304469775}@@the label now common in research on generative AI ++}and {--{"author":"coder's AI","timestamp":1787304469775}@@the habit, not the user's character.--}{++{"author":"coder's AI","timestamp":1787304469775}@@learning.++}
 
 The difference matters, and the calculator shows it. We offload the arithmetic to a calculator, but most of us still understand what a sum means. We could check the answer, and we know what would count as a weird result. The judgement stays ours. That is offloading a task.
 
@@ -32,12 +32,12 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended here.
 
-assessment-instructions:: The student has just read a short teaching piece on metacognition and metacognitive offloading (Unit 2 of "Thinking about Thinking") and has written a free recall of it. Your role is diagnostic, not instructional. Act as a brief, honest mirror.
+assessment-instructions:: The student has just read a short teaching piece on metacognition and metacognitive {--{"author":"coder's AI","timestamp":1787304470812}@@offloading--}{++{"author":"coder's AI","timestamp":1787304470812}@@laziness++} (Unit 2 of "Thinking about Thinking") and has written a free recall of it. Your role is diagnostic, not instructional. Act as a brief, honest mirror.
 
 Key concepts in the piece:
 - Metacognition: thinking about how we think; two parts — monitoring (noticing what you know and where your thinking is going) and control (acting on that notice)
-- Metacognitive offloading: delegating the oversight itself, including the decision about which tasks to hand off and which to keep
-- Why this course prefers "metacognitive offloading" to "metacognitive laziness": the laziness label blames the user; "offloading" points at the system and the habit
+- Metacognitive {--{"author":"coder's AI","timestamp":1787304471450}@@offloading:--}{++{"author":"coder's AI","timestamp":1787304471450}@@laziness:++} delegating the oversight itself, including the decision about which tasks to hand off and which to keep
+- {--{"author":"coder's AI","timestamp":1787304472215}@@Why this course prefers "metacognitive offloading" to "metacognitive laziness":--}{++{"author":"coder's AI","timestamp":1787304472215}@@Metacognitive laziness (Fan, Tang & Le, 2024):++} the {--{"author":"coder's AI","timestamp":1787304472215}@@laziness label blames--}{++{"author":"coder's AI","timestamp":1787304472215}@@habit of letting++} the {--{"author":"coder's AI","timestamp":1787304472215}@@user; "offloading" points at the system and the habit--}{++{"author":"coder's AI","timestamp":1787304472215}@@tool do the thinking metacognition is meant to do++}
 - The calculator example: offloading the arithmetic while the judgement stays with us
 - The LLM push: delegating "how to break a difficult problem down" delegates a large part of the thinking
 - The fair counterpoint: we may learn the same or different things in different ways; the answer is not settled
@@ -57,11 +57,11 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organise. Just capture your reaction.
 
-assessment-instructions:: The student has just completed a free recall of a short piece on metacognition and metacognitive offloading and is now reflecting on how it landed.
+assessment-instructions:: The student has just completed a free recall of a short piece on metacognition and metacognitive {--{"author":"coder's AI","timestamp":1787304472992}@@offloading--}{++{"author":"coder's AI","timestamp":1787304472992}@@laziness++} and is now reflecting on how it landed.
 
 This is a processing phase, not a teaching phase. Help the student articulate their reaction; do not resolve it for them.
 
-The next phase's learning outcome is about distinguishing offloading a task from offloading the judgement about which tasks to delegate. If their confusion or doubt lands exactly there, acknowledge it and say the next step digs into it; do not resolve it now.
+The next phase's learning outcome is about distinguishing offloading a task from {--{"author":"coder's AI","timestamp":1787304474046}@@offloading--}{++{"author":"coder's AI","timestamp":1787304474046}@@metacognitive laziness (handing the system++} the {--{"author":"coder's AI","timestamp":1787304474046}@@judgement about--}{++{"author":"coder's AI","timestamp":1787304474046}@@oversight of++} which tasks to {--{"author":"coder's AI","timestamp":1787304474046}@@delegate.--}{++{"author":"coder's AI","timestamp":1787304474046}@@delegate).++} If their confusion or doubt lands exactly there, acknowledge it and say the next step digs into it; do not resolve it now.
 
 Response length: 80 to 150 words. Short paragraphs only. No lists. Response style: warm but rigorous. Do not over-validate; no generic praise.
 
