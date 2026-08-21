@@ -7,9 +7,7 @@ published: 2026-07-23
 created: 2026-08-21
 accessed: 2026-08-21
 description:
-{--{"author":"Leo's AI","timestamp":1787309133090}@@tags:
-  - "article-importer"
---}---
+---
 
 %%
 Add discussion note here:
