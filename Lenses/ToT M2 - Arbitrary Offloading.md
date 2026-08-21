@@ -35,12 +35,10 @@ Arbitrary offloading and metacognitive laziness are close, but they are not the 
 
 The difference is about what gets handed over. Arbitrary offloading hands the task to a tool and trusts its answer. Metacognitive laziness keeps the task but drops the oversight of its own thinking.
 
-++}#### {--{"author":"Leo's AI","timestamp":1787308304229}@@Article--}{++{"author":"Leo's AI","timestamp":1787308304229}@@Text++}
-{--{"author":"Leo's AI","timestamp":1787308304229}@@source:: [[../articles/doi-arbitrary-cognitive-offloading-to-genai-does-the-current-policy-landscape-account-for-the-right-to-quality-education-of-children-and-youth-in-the-european-union-ai-policy-lab]]--}{++{"author":"Leo's AI","timestamp":1787308304229}@@content::++}
-{--{"author":"Leo's AI","timestamp":1787308304229}@@from:: "However,--}{++{"author":"Leo's AI","timestamp":1787308304229}@@> However,++} the initial reading (reading comprehension skill) and note-taking (sustained attention) should not be skipped by D: The problematic use case we are concerned with here is if D uses GenAI to complete the entire {--{"author":"Leo's AI","timestamp":1787308304229}@@task"
-to:: "nor--}{++{"author":"Leo's AI","timestamp":1787308304229}@@task, e.g., prompting it to ingest and compare the two texts, their tone, the presence of manipulative tactics, and so on. In which case D neither works on the information contained in the task, nor++} gains the skills required to complete {--{"author":"Leo's AI","timestamp":1787308304229}@@it."--}{++{"author":"Leo's AI","timestamp":1787308304229}@@it.
->
-> — Brademann (2026), *Arbitrary cognitive offloading to GenAI* — [[../articles/doi-arbitrary-cognitive-offloading-to-genai-does-the-current-policy-landscape-account-for-the-right-to-quality-education-of-children-and-youth-in-the-european-union-ai-policy-lab|full article]]++}
+++}#### Article
+source:: [[../articles/doi-arbitrary-cognitive-offloading-to-genai-does-the-current-policy-landscape-account-for-the-right-to-quality-education-of-children-and-youth-in-the-european-union-ai-policy-lab]]
+from:: "However, the initial reading (reading comprehension skill) and note-taking (sustained attention) should not be skipped by D: The problematic use case we are concerned with here is if D uses GenAI to complete the entire task"
+to:: "nor gains the skills required to complete it."
 
 #### Question
 content::
