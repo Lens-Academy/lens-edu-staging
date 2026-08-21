@@ -87,7 +87,8 @@ optional:: true
 source:: [[../Lenses/The Case Against AI Control Research]]
 
 # Submodule: Agent Foundations
-## Lens:
+{++{"author":"Plex's AI","timestamp":1787325288874}@@%% TODO(Plex): add https://www.lesswrong.com/posts/FWvzwCDRgcjb9sigb/why-agent-foundations-an-overly-abstract-explanation as optional reading here once article import is available (blocked on share-token MCP credential). %%
+++}## Lens:
 source:: [[../Lenses/Agent Foundations]]
 
 ## Lens:
