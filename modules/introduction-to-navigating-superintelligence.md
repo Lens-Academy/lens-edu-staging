@@ -35,7 +35,9 @@ source:: ![[../Lenses/10 reasons]]
 
 # Lens:
 optional:: true
-source:: [[../Lenses/Four Background Claims]]{++{"author":"Plex's AI","timestamp":1787325038937}@@
+source:: [[../Lenses/Four Background Claims]]{++{"author":"Plex's AI","timestamp":1787325445864}@@
+
+%% TODO(Plex): add https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence as OPTIONAL reading here (2nd optional reading, before Deadly By Default) once article import is available (blocked on share-token MCP credential). %%
 
 # Lens:
 optional:: true
