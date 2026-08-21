@@ -4,4 +4,6 @@ title: "the void"
 ---
 
 #### Article
-source:: [[../articles/nostalgebraist-the-void]]
+source:: [[../articles/nostalgebraist-the-void]]{++{"author":"Plex's AI","timestamp":1787330355666}@@
+
+%% TODO(human): trim this down — full piece is very long, pick from/to excerpt bounds before this goes live. %%++}
