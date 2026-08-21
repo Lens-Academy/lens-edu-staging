@@ -35,7 +35,7 @@ source:: ![[../Lenses/10 reasons]]
 
 # Lens:
 optional:: true
-source:: [[../Lenses/Four Background Claims]]{++{"author":"Plex's AI","timestamp":1787330241837}@@
+source:: [[../Lenses/Four Background Claims]]
 
 # Lens:
 optional:: true
@@ -43,7 +43,7 @@ source:: ![[../Lenses/Wikipedia Existential Risk]]
 
 # Lens:
 optional:: true
-source:: ![[../Lenses/Deadly By Default]]++}
+source:: ![[../Lenses/Deadly By Default]]
 
 # Lens:
 optional:: true
