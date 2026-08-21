@@ -31,7 +31,7 @@ We have categorized mitigations around preventing misuse of AI, safety mitigatio
 
 *Figure 3.1: Tentative diagram summarizing the main high-level approaches to make AI development safe.*
 
-**Beyond the scope of this chapter**
+{--{"author":"Luc's AI","timestamp":1787319616374}@@**Beyond--}{++{"author":"Luc's AI","timestamp":1787319616374}@@:::callout {title="Beyond++} the scope of this {--{"author":"Luc's AI","timestamp":1787319616374}@@chapter**--}{++{"author":"Luc's AI","timestamp":1787319616374}@@chapter — Optional · 2 min read" tone="neutral" collapse="closed"}++}
 
 While this chapter focuses on strategies directly related to preventing large-scale negative outcomes from AI misuse, misalignment, or uncontrolled development, several related topics are necessarily placed beyond its primary scope:
 
@@ -42,7 +42,9 @@ While this chapter focuses on strategies directly related to preventing large-sc
 - Digital mind welfare and rights: We don’t know if AIs should be considered as moral patients. This is a distinct ethical domain concerning our obligations to AI, rather than ensuring safety from AI.
 - Errors due to lack of capability: While AI system failures due to a lack of capability or robustness are a source of risk ([AISI, 2025](https://www.aisi.gov.uk/work/aisis-research-direction-for-technical-solutions)), the strategies discussed in this chapter aim to mitigate risks arising from both insufficient robustness and potentially high (but misaligned or misused) capabilities. The solutions to this type of risk are the same as those for other industries: testing, iteration, and enhancing the system's capabilities.
 
-The scope chosen here reflects a common focus within certain parts of the AI safety community on existential or large-scale catastrophic risks arising from powerful, potentially agentic AI systems.
+The scope chosen here reflects a common focus within certain parts of the AI safety community on existential or large-scale catastrophic risks arising from powerful, potentially agentic AI systems.{++{"author":"Luc's AI","timestamp":1787319617305}@@
+
+:::++}
 
 <iframe src="https://www.youtube-nocookie.com/embed/RGh8wP9PjJw" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

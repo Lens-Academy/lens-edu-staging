@@ -39,7 +39,7 @@ Before we can build solutions, we must agree on the problem. Differentiating bet
 
 **AI alignment aims to ensure AI systems act in accordance with human intentions and values.** Alignment is a subset of safety that focuses specifically on the technical problem of ensuring AI objectives align with human intentions and values. Theoretically, a system could be aligned but unsafe (e.g., competently pursuing the wrong goal due to misspecification) or safe but unaligned (e.g., constrained by control mechanisms despite misaligned objectives). While this sounds straightforward, the precise scope varies significantly across research communities. We already saw a brief definition of alignment in the previous chapter, but this section offers a more nuanced perspective on the various definitions that we could potentially work with.
 
-**What Do We Mean by 'Alignment'?**
+{--{"author":"Luc's AI","timestamp":1787319616090}@@**What--}{++{"author":"Luc's AI","timestamp":1787319616090}@@:::callout {title="What++} Do We Mean by {--{"author":"Luc's AI","timestamp":1787319616090}@@'Alignment'?**--}{++{"author":"Luc's AI","timestamp":1787319616090}@@'Alignment'? — Optional · 3 min read" tone="neutral" collapse="closed"}++}
 
 **Broader definitions of alignment encompass the entire challenge of creating beneficial AI outcomes.** These approaches focus on ensuring that AI systems understand and properly implement human preferences ([Christiano, 2018](https://www.alignmentforum.org/posts/ZeE7EKHTFMBs8eMxn/clarifying-ai-alignment)), address complex value learning challenges ([Dewey, 2011](https://intelligence.org/files/LearningValue.pdf)), and incorporate robustness aspects, such as resistance to jailbreaking ([Jonker et al., 2024](https://www.ibm.com/think/topics/ai-alignment)). This comprehensive view treats alignment as encompassing both the system's intent and its ability to understand human values - essentially addressing the full spectrum of what makes an AI system behave in ways that humans would approve of[^note-atlas-1].
 
@@ -51,7 +51,9 @@ The choice of definition reflects underlying assumptions about AI risk and promi
 
 **"Aligned to whom?" remains a fundamental question with no consensus answer.** Should AI systems align to the immediate operator ([Christiano, 2018](https://www.alignmentforum.org/posts/ZeE7EKHTFMBs8eMxn/clarifying-ai-alignment)), the system designer ([Gil, 2023](https://forum.effectivealtruism.org/posts/6aYfWyo9DKEheogf8/don-t-call-it-ai-alignment)), a specific group of humans, humanity as a whole ([Miller, 2022](https://forum.effectivealtruism.org/posts/DXuwsXsqGq5GtmsB3/ai-alignment-with-humans-but-with-which-humans)), objective ethical principles, or the operator's hypothetical informed preferences? There are no agreed-upon answers to any of these questions, just many different perspectives, each with its own set of pros and cons. 
 
-We have tried to summarize some of the positions in the appendix.
+We have tried to summarize some of the positions in the appendix.{++{"author":"Luc's AI","timestamp":1787319617081}@@
+
+:::++}
 
 ## AI Ethics
 
