@@ -6,7 +6,7 @@ tldr: Use open responses, ratings, selects, typed fill-in-the-blank responses, a
 summary_for_tutor: Reference page for course creators. It documents shared fields, exact syntax, options, defaults, LLM assessment flow, and grading behavior for OpenResponse, Rating, Select, typed FillBlank, and Ranking Response segments.
 ---
 
-%% A Response segment is an interactive field that collects one learner response. Same syntax works in surveys, normal lenses, and Learning Outcome tests. Context determines grading.
+%% A  segment is an interactive field that collects one learner response. Same syntax works in surveys, normal lenses, and Learning Outcome tests. Context determines grading.
 
 Every Response segment needs `id::` and `content::`. Editor should create globally unique UUID automatically. For hand-written files, use https://www.uuidgenerator.net/version4 or plain-text API https://www.uuidgenerator.net/api/version4. Never change ID after learners respond. No separate key needed.
 
