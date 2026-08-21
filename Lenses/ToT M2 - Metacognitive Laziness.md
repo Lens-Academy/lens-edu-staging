@@ -23,7 +23,7 @@ LLMs push us toward this without us noticing. When you ask an AI to "break this 
 
 A fair counterpoint: is this really so bad? Maybe we learn the same things in different ways when a tool guides us. Maybe we learn different things instead, and some of those are worth learning. The honest answer is that nobody fully knows yet. That uncertainty is exactly what Unit 3 is about: what happens, and what the evidence shows, when judgement is offloaded again and again.
 
-The next lens collects five metacognitive traps your own thinking can fall into — ways oversight breaks that long predate AI. Then Unit 3 shows what AI adds.
+The next lens collects five metacognitive traps your own thinking can fall into — ways oversight breaks that long predate AI.
 
 ---
 
