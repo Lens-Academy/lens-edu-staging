@@ -69,7 +69,7 @@ high-label:: Very confident
 feedback-instructions:: Briefly suggest how learner could calibrate this confidence against evidence.
 
 %% Select requires `options::`; default allows one selection. Without `[x]`, it is ungraded. %%
-#### Select
+#### {++{"author":"Elias's AI","timestamp":1787311834980}@@Question: ++}Select
 id:: a59ce650-c5cf-4b2b-bc13-e0686f5d2bfb
 content:: Which topic should we cover next?
 options::
@@ -86,7 +86,7 @@ Select options:
 
 Next example grades one correct option. %%
 
-#### Select
+#### {++{"author":"Elias's AI","timestamp":1787311837644}@@Question: ++}Select
 id:: 4e93c96d-a0a8-4fa5-9c29-ea360fd283fe
 content:: Which process updates model weights during training?
 options::
@@ -98,7 +98,7 @@ feedback-instructions:: Explain misconception behind learner selection without a
 
 %% Multi-select is same segment with `multi:: true`. %%
 
-#### Select
+#### {++{"author":"Elias's AI","timestamp":1787311840508}@@Question: ++}Select
 id:: cb39e8f1-4477-4b66-b016-37c99c5ff753
 content:: Which topics interest you?
 options::
