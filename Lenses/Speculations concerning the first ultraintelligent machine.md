@@ -16,13 +16,6 @@ from:: "Let an ultraintelligent machine be defined"
 to:: "how to keep it under control."
 
 
-#### Text
-content::
-And if the first ultra intelligent machine{--{"author":"Plex's AI","timestamp":1787325509607}@@ is worth a mega-keynes, how much might the machine--}{++{"author":"Plex's AI","timestamp":1787325509607}@@ be defined"
-to:: "how to keep++} it {--{"author":"Plex's AI","timestamp":1787325509607}@@builds be worth? 
-
---}{++{"author":"Plex's AI","timestamp":1787325509607}@@under control."
-
 ++}#### Chat
 instructions::
 TLDR of what the user just read:
