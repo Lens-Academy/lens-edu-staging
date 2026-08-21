@@ -90,7 +90,7 @@ Where has the judgement actually gone, and what would it take for them to catch 
 
 assessment-instructions:: The student has read the arbitrary-offloading piece, recalled, and reflected, and is now in the main discussion phase. The question is a deliberate wedge: a colleague who equates skimming an output they cannot evaluate with exercising judgement. The student should locate where the check actually sits.
 
-Learning outcome for this lens: "The learner can define arbitrary offloading, distinguish it from offloading a task and from metacognitive offloading, and explain why following output you cannot evaluate is the danger case."
+Learning outcome for this lens: "The learner can define arbitrary offloading, distinguish it from offloading a task and from metacognitive {--{"author":"coder's AI","timestamp":1787304492377}@@offloading,--}{++{"author":"coder's AI","timestamp":1787304492377}@@laziness,++} and explain why following output you cannot evaluate is the danger case."
 
 Key concepts the student needs to grasp:
 - Arbitrary offloading: a decision you cannot evaluate, followed anyway
