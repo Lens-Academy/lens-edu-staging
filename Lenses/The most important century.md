@@ -11,8 +11,10 @@ content::
 Optional, and worth it. Karnofsky steps all the way back: not "will AI foom," but "what kind of century are we living in at all?" The whole piece, for the wider frame.
 
 #### Article
-source:: [[../articles/karnofsky-most-important-century]]
-to:: "we need to start by taking it more seriously."
+source:: [[../articles/karnofsky-most-important-century]]{--{"author":"Plex's AI","timestamp":1787325542906}@@
+to:: "we need to start by taking--}{++{"author":"Plex's AI","timestamp":1787325542906}@@
+
+%% TODO(human): add course author's footnote here for the correction @Ouro noted (full text/citation not yet supplied — write++} it {--{"author":"Plex's AI","timestamp":1787325542906}@@more seriously."--}{++{"author":"Plex's AI","timestamp":1787325542906}@@up). %%++}
 
 #### Text
 content::
