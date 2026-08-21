@@ -10,16 +10,16 @@ tags:
 source:: [[../Lenses/ToT M2 - What Would You Delegate - PQ]]
 
 # Lens:
-source:: [[../Lenses/ToT M2 - {--{"author":"Daniel's AI","timestamp":1787305561486}@@Metacognitive Laziness]]--}{++{"author":"Daniel's AI","timestamp":1787305561486}@@Metacognition]]++}
+source:: [[../Lenses/ToT M2 - Metacognition]]
 
 # Lens:
 source:: [[../Lenses/ToT M2 - Arbitrary Offloading]]
 
 # Lens:
-source:: [[../Lenses/ToT M2 - {++{"author":"Daniel's AI","timestamp":1787305561486}@@Metacognitive Laziness]]
+source:: [[../Lenses/ToT M2 - Metacognitive Laziness]]
 
 # Lens:
-source:: [[../Lenses/ToT M2 - ++}The Five Metacognitive Traps]]
+source:: [[../Lenses/ToT M2 - The Five Metacognitive Traps]]
 
 # Lens:
 source:: [[../Lenses/ToT M2 - Recap]]
