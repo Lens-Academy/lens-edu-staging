@@ -10,7 +10,6 @@ tags:
 
 #### Text
 content::
-\## Five ways your thinking can trip itself up
 
 Metacognition is thinking about how you think: planning, checking your own reasoning, knowing what you actually understand. When that oversight fails, you can go wrong in ways you do not notice at the time. Researchers call these **metacognitive traps** — repeatable patterns where your own monitoring of your thinking breaks down while you solve a problem.
 
