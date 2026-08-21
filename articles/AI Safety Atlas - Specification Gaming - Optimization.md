@@ -12,7 +12,9 @@ tags:
   - "article-importer"
 ---
 
-%%
+{++{"author":"Luc's AI","timestamp":1787309309074}@@Download chapter: [Markdown](https://ai-safety-atlas.com/chapters/v1/specification-gaming.md) · [PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter6-af895defbf8761a30ac565755f204072e09a5d599ca725f3de64de4b547c2f28.pdf)
+
+++}%%
 Add discussion note here:
 
 ...

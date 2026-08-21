@@ -12,7 +12,9 @@ tags:
   - "article-importer"
 ---
 
-%%
+{++{"author":"Luc's AI","timestamp":1787309305131}@@Download chapter: [Markdown](https://ai-safety-atlas.com/chapters/v1/risks.md) · [PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter2-f858610ccd1d35291511150ffea3baaa2c282a11cef98d01d60514f7101f1318.pdf)
+
+++}%%
 Add discussion note here:
 
 ...
