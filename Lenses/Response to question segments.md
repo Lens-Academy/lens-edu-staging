@@ -1,16 +1,16 @@
 ---
 id: 8189763f-576e-4f04-a614-4a00c628e386
 duration_minutes: 15
-title: Response {++{"author":"Elias's AI","timestamp":1787312078268}@@to question ++}segments
-tldr: Use {++{"author":"Elias's AI","timestamp":1787312081069}@@Response to question segments for ++}open responses, ratings, {--{"author":"Elias's AI","timestamp":1787312081069}@@selects, typed --}{++{"author":"Elias's AI","timestamp":1787312081069}@@selections, ++}fill-in-the-blank responses, and rankings with{--{"author":"Elias's AI","timestamp":1787312081069}@@ the--} same syntax in surveys, normal lenses, and learning-outcome tests.
-summary_for_tutor: Reference page for course creators. It documents shared fields, exact syntax, options, defaults, LLM assessment flow, and grading behavior for `Question: Open`, `Question: Rating`, `Question: Select`, `Question: FillBlank`, and `Question: Ranking` Response {++{"author":"Elias's AI","timestamp":1787312085061}@@to question ++}segments.
+title: Response to question segments
+tldr: Use Response to question segments for open responses, ratings, selections, fill-in-the-blank responses, and rankings with same syntax in surveys, normal lenses, and learning-outcome tests.
+summary_for_tutor: Reference page for course creators. It documents shared fields, exact syntax, options, defaults, LLM assessment flow, and grading behavior for `Question: Open`, `Question: Rating`, `Question: Select`, `Question: FillBlank`, and `Question: Ranking` Response to question segments.
 ---
 
-%% A {++{"author":"Elias's AI","timestamp":1787312089270}@@Response to ++}question segment is an interactive field that collects one learner response. Same syntax works in surveys, normal lenses, and Learning Outcome tests. Context determines grading.
+%% A Response to question segment is an interactive field that collects one learner response. Same syntax works in surveys, normal lenses, and Learning Outcome tests. Context determines grading.
 
-Every Response {++{"author":"Elias's AI","timestamp":1787312093182}@@to question ++}segment needs `id::` and `content::`. Editor should create globally unique UUID automatically. For hand-written files, use https://www.uuidgenerator.net/version4 or plain-text API https://www.uuidgenerator.net/api/version4. Never change ID after learners respond. No separate key needed.
+Every Response to question segment needs `id::` and `content::`. Editor should create globally unique UUID automatically. For hand-written files, use https://www.uuidgenerator.net/version4 or plain-text API https://www.uuidgenerator.net/api/version4. Never change ID after learners respond. No separate key needed.
 
-Response {++{"author":"Elias's AI","timestamp":1787312096286}@@to question ++}segments are required by default. Adding one normally means learner should answer it; required default prevents accidental missing responses. Add `optional:: true` only when skipping is intentional, such as sensitive survey question or optional reflection. `optional::` defaults to `false`.
+Response to question segments are required by default. Adding one normally means learner should answer it; required default prevents accidental missing responses. Add `optional:: true` only when skipping is intentional, such as sensitive survey question or optional reflection. `optional::` defaults to `false`.
 
 Graded `Question: Open` and `Question: FillBlank` use same assessor flow. Platform supplies base assessment prompt, then authored `assessment-instructions::` when present, question context, expected answers, and learner response. Assessor returns structured `score` from 0 to 100 and private `reason`. Learner sees percentage, not private reason.
 
@@ -58,7 +58,7 @@ content:: How confident are you in your answer?
 - `high-label:: Very confident`: high-end label. Defaults to none.
 - `feedback-instructions:: ...`: AI response to rating. Defaults to none.
 
-{--{"author":"Elias's AI","timestamp":1787312100648}@@Ratings--}{++{"author":"Elias's AI","timestamp":1787312100648}@@`Question: Rating` responses++} never affect correctness score. Next example changes scale and labels, and adds AI feedback. %%
+`Question: Rating` responses never affect correctness score. Next example changes scale and labels, and adds AI feedback. %%
 
 #### Question: Rating
 id:: 651213b4-1952-4ed4-98a8-8f772cf732d6
@@ -76,9 +76,9 @@ options::
 - Forecasting
 - Governance
 
-%% Mark correct option with `[x]` to grade {--{"author":"Elias's AI","timestamp":1787312103559}@@Select.--}{++{"author":"Elias's AI","timestamp":1787312103559}@@`Question: Select`.++} Plain options stay ungraded. Survey selects never use `[x]`.
+%% Mark correct option with `[x]` to grade `Question: Select`. Plain options stay ungraded. Survey selects never use `[x]`.
 
-{--{"author":"Elias's AI","timestamp":1787312107150}@@Select--}{++{"author":"Elias's AI","timestamp":1787312107150}@@`Question: Select`++} options:
+`Question: Select` options:
 - `optional:: true`: allow skipping. Defaults to `false`.
 - `multi:: true`: allow multiple selections. Defaults to `false`.
 - `shuffle:: true`: randomize order. Defaults to `false`.
@@ -173,7 +173,7 @@ feedback-instructions:: Explain most important estimation error and suggest one 
 
 Base assessor returns one percentage for whole segment plus private reason. Percentage appears beside response. Expected-answer blanks are graded automatically. `{{blank}}` and `{{number}}` remain ungraded unless `assessment-instructions::` defines how to judge them. %%
 
-%% `Question: Ranking` lets learner arrange items. Plain {--{"author":"Elias's AI","timestamp":1787312111767}@@Ranking--}{++{"author":"Elias's AI","timestamp":1787312111767}@@`Question: Ranking`++} is ungraded, useful for preferences and reflection. Initial item order is randomized. %%
+%% `Question: Ranking` lets learner arrange items. Plain `Question: Ranking` is ungraded, useful for preferences and reflection. Initial item order is randomized. %%
 
 #### Question: Ranking
 id:: dc6d348c-8c5c-416a-82d7-b7166d677258
@@ -183,7 +183,7 @@ items::
 - Governance
 - Technical safety
 
-%% Add `assessment-instructions::` to grade {--{"author":"Elias's AI","timestamp":1787312115035}@@Ranking.--}{++{"author":"Elias's AI","timestamp":1787312115035}@@`Question: Ranking`.++} Items are authored in intended order, but shown shuffled. Assessor receives intended order, learner order, base ranking prompt, and custom instructions. It returns percentage plus private reason.
+%% Add `assessment-instructions::` to grade `Question: Ranking`. Items are authored in intended order, but shown shuffled. Assessor receives intended order, learner order, base ranking prompt, and custom instructions. It returns percentage plus private reason.
 
 Use graded `Question: Ranking` for chronology, causal chains, procedures, and prioritization with explicit criterion. State allowed ties or alternate valid orders in assessment instructions. Keep lists around 3 to 7 items. (more or less possible, but not recommended) Next example grades procedure while allowing partial credit. %%
 
@@ -201,6 +201,6 @@ feedback-instructions:: Explain most important misplaced relationship and why it
 %% Grading by context:
 - Surveys never grade.
 - Normal lenses may contain graded practice or ungraded reflection.
-- Learning Outcome tests require gradable {--{"author":"Elias's AI","timestamp":1787312120989}@@OpenResponse--}{++{"author":"Elias's AI","timestamp":1787312120989}@@`Question: Open`++} and {--{"author":"Elias's AI","timestamp":1787312120989}@@Select. FillBlank--}{++{"author":"Elias's AI","timestamp":1787312120989}@@`Question: Select`. `Question: FillBlank`++} may mix graded and ungraded blanks. {--{"author":"Elias's AI","timestamp":1787312120989}@@Ranking--}{++{"author":"Elias's AI","timestamp":1787312120989}@@`Question: Ranking`++} is graded when it has `assessment-instructions::`.
-- {--{"author":"Elias's AI","timestamp":1787312123549}@@OpenResponse--}{++{"author":"Elias's AI","timestamp":1787312123549}@@`Question: Open`++} grading needs `assessment-instructions::`; {--{"author":"Elias's AI","timestamp":1787312123549}@@FillBlank--}{++{"author":"Elias's AI","timestamp":1787312123549}@@`Question: FillBlank`++} with expected answers uses base assessor automatically; {--{"author":"Elias's AI","timestamp":1787312123549}@@Select--}{++{"author":"Elias's AI","timestamp":1787312123549}@@`Question: Select`++} grading needs `[x]`.
-- {--{"author":"Elias's AI","timestamp":1787312126241}@@Rating--}{++{"author":"Elias's AI","timestamp":1787312126241}@@`Question: Rating`++} and wholly ungraded {--{"author":"Elias's AI","timestamp":1787312126241}@@FillBlank--}{++{"author":"Elias's AI","timestamp":1787312126241}@@`Question: FillBlank`++} never affect score. %%
+- Learning Outcome tests require gradable `Question: Open` and `Question: Select`. `Question: FillBlank` may mix graded and ungraded blanks. `Question: Ranking` is graded when it has `assessment-instructions::`.
+- `Question: Open` grading needs `assessment-instructions::`; `Question: FillBlank` with expected answers uses base assessor automatically; `Question: Select` grading needs `[x]`.
+- `Question: Rating` and wholly ungraded `Question: FillBlank` never affect score. %%
