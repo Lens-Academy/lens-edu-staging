@@ -62,7 +62,14 @@ to:: "information verification, response integration, and task stewardship."
 
 ++}Roxana Seifer's survey of 299 UK workers (2026) found similar self-reported patterns: 56% felt confident after a quick review, 45% chose the AI's answer over their own, 47% checked AI output less than a colleague's work, and 41% found tasks harder without AI. Daily users showed the strongest effects. This was a self-published, self-reported survey, so its patterns are warning signs, not proof of cause and effect.
 
-More recent findings point the same way: a short burst of AI-assisted practice can make people worse on later problems done without AI, and more likely to give up. People who explained the AI's logic in their own words fixed bugs far more often than people who did not. This last finding is the reason for one of Unit 4's core rules: close the chat, restate in your own words.
+{++{"author":"Curator's AI","timestamp":1787322590109}@@#### Article
+source:: [[../articles/seifer-could-cognitive-dependency-be-an-early-warning-sign-of-gradual-disempowerment]]
+from:: "The study found evidence that AI may be affecting how employees approach cognitive tasks:"
+to:: "Daily users reported the strongest patterns across all four items."
+
+%% Note: Self-published Substack survey (2026), 299 UK employees across six sectors. Self-reported, single time point; author states it does not prove causation. %%
+
+++}More recent findings point the same way: a short burst of AI-assisted practice can make people worse on later problems done without AI, and more likely to give up. People who explained the AI's logic in their own words fixed bugs far more often than people who did not. This last finding is the reason for one of Unit 4's core rules: close the chat, restate in your own words.
 
 Now read the study below. Pay attention to one result in particular: what happened to the strongest students.
 
