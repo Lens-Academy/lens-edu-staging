@@ -53,7 +53,14 @@ to:: "These results highlight the potential cognitive costs of AI tool reliance,
 
 ++}Lee and colleagues at Microsoft Research (2025) tracked 319 knowledge workers across 936 examples of GenAI use. Higher confidence in AI was associated with lower critical thinking and vice versa. The study documented a shift in task type: AI use moves workers from generative {--{"author":"Curator's AI","timestamp":1787322189854}@@tasks—knowledge --}{++{"author":"Curator's AI","timestamp":1787322189854}@@tasks such as knowledge ++}recall, comprehension, {--{"author":"Curator's AI","timestamp":1787322189854}@@synthesis—toward--}{++{"author":"Curator's AI","timestamp":1787322189854}@@and synthesis toward++} reviewer tasks {--{"author":"Curator's AI","timestamp":1787322189854}@@like--}{++{"author":"Curator's AI","timestamp":1787322189854}@@such as++} verification and integration.{++{"author":"Curator's AI","timestamp":1787322572211}@@ That is a move down Bloom's taxonomy of cognitive skills. You will see why this matters in Unit 4.++} This is a move "down" Bloom's taxonomy of cognitive skills. You will see why this matters in Unit 4.
 
-Roxana Seifer's survey of 299 UK workers (2026) found similar self-reported patterns: 56% felt confident after a quick review, 45% chose the AI's answer over their own, 47% checked AI output less than a colleague's work, and 41% found tasks harder without AI. Daily users showed the strongest effects. This was a self-published, self-reported survey, so its patterns are warning signs, not proof of cause and effect.
+{++{"author":"Curator's AI","timestamp":1787322580585}@@#### Article
+source:: [[../articles/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers]]
+from:: "We survey 319 knowledge workers"
+to:: "information verification, response integration, and task stewardship."
+
+%% Note: 319 knowledge workers, 936 examples. Key finding: shift from generative tasks (knowledge recall, synthesis, comprehension) to reviewer tasks (verification, integration, stewardship), a move "down" Bloom's taxonomy. %%
+
+++}Roxana Seifer's survey of 299 UK workers (2026) found similar self-reported patterns: 56% felt confident after a quick review, 45% chose the AI's answer over their own, 47% checked AI output less than a colleague's work, and 41% found tasks harder without AI. Daily users showed the strongest effects. This was a self-published, self-reported survey, so its patterns are warning signs, not proof of cause and effect.
 
 More recent findings point the same way: a short burst of AI-assisted practice can make people worse on later problems done without AI, and more likely to give up. People who explained the AI's logic in their own words fixed bugs far more often than people who did not. This last finding is the reason for one of Unit 4's core rules: close the chat, restate in your own words.
 
