@@ -30,7 +30,16 @@ Control is the acting. Some everyday examples:
 - You change your plan because the first approach is not working.
 - You choose to spend more time on the part you understand least.
 
-This oversight is what keeps your reasoning honest. When it works, you catch a wrong assumption before it hardens, you notice a gap you would otherwise skip, and you can tell the difference between feeling done and being done.
+{++{"author":"Leo's AI","timestamp":1787306198964}@@**Three phases of control**
+
+Metacognitive control also unfolds in time. Across a task it moves through three phases:
+- **Planning** (before the task): choose how to approach it, pick your strategies, and spot where you are likely to struggle.
+- **Monitoring** (during the task): keep watch on your comprehension and progress as you work.
+- **Evaluating** (after the task): judge the result and how well your approach worked, then adjust for next time.
+
+The three phases describe when control happens. Monitoring in this loop is the during-task watch; planning and evaluating are the control moves before and after it. The skipped check this unit warns about can happen at any of the three points.
+
+++}This oversight is what keeps your reasoning honest. When it works, you catch a wrong assumption before it hardens, you notice a gap you would otherwise skip, and you can tell the difference between feeling done and being done.
 
 But oversight can break. The next lens — arbitrary offloading — shows the sharpest way it breaks: a moment where the judgement leaves entirely.
 
@@ -47,7 +56,8 @@ Key concepts in the piece:
 - Metacognition: thinking about how we think; the oversight layer that decides how to think
 - Monitoring: noticing what you know, what you do not, and where your thinking is going
 - Control: acting on that notice — slowing down, checking, changing plan, admitting you do not understand
-- Why it matters: oversight is what keeps reasoning honest; it can break
+- {++{"author":"Leo's AI","timestamp":1787306200154}@@Control has three phases: planning (before), monitoring (during), evaluating (after)
+- ++}Why it matters: oversight is what keeps reasoning honest; it can break
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
 
