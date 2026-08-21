@@ -10,26 +10,32 @@ tldr: I.J. Good recognized that the first machine smarter than any human would b
 content::
 In 1965, long before any working computer looked remotely like a mind, the statistician I. J. Good followed the feedback loop to its end. Read the last clause slowly.
 
-#### Article
+{--{"author":"Plex's AI","timestamp":1787325509607}@@#### Article
 source:: [[../articles/good-speculations-concerning-first-ultraintelligent-machine]]
 from:: "Let an ultraintelligent machine be defined"
-to:: "how to keep it under control."
+to:: "how--}{++{"author":"Plex's AI","timestamp":1787325509607}@@%% TODO(human): write a very brief, ideally slightly ominous note++} to {--{"author":"Plex's AI","timestamp":1787325509607}@@keep it under control."
 
 #### Article
 from:: "Since we are concerned with the economical construction"
-to:: "value at a megakeynes."
+to:: "value at a megakeynes."--}{++{"author":"Plex's AI","timestamp":1787325509607}@@sit here alongside/instead of the intro text above, framing this excerpt as reading 0 of the module. %%++}
 
-#### Text
-content::
-And if the first ultra intelligent machine is worth a mega-keynes, how much might the machine it builds be worth? 
+#### {--{"author":"Plex's AI","timestamp":1787325509607}@@Text
+content::--}{++{"author":"Plex's AI","timestamp":1787325509607}@@Article++}
+{--{"author":"Plex's AI","timestamp":1787325509607}@@And if the first ultra intelligent--}{++{"author":"Plex's AI","timestamp":1787325509607}@@source:: [[../articles/good-speculations-concerning-first-ultraintelligent-machine]]
+from:: "Let an ultraintelligent++} machine{--{"author":"Plex's AI","timestamp":1787325509607}@@ is worth a mega-keynes, how much might the machine--}{++{"author":"Plex's AI","timestamp":1787325509607}@@ be defined"
+to:: "how to keep++} it {--{"author":"Plex's AI","timestamp":1787325509607}@@builds be worth? 
 
-#### Chat
+--}{++{"author":"Plex's AI","timestamp":1787325509607}@@under control."
+
+++}#### Chat
 instructions::
 TLDR of what the user just read:
-An article by I.J. Good speculating about the cognitive infrastructure of a thinking machine more capable than any human. He importantly claims that he will only speculate about the first agent of this kind since the second will be built by the first according to design considerations humans cannot yet fathom. Good claims that this might happen by way of the AI building a wholly different successor or by self-modifying until it becomes unrecognisable. He tries to measure the economic value of such a system in "mega-keynes" based on the fact that John Maynard Keynes was estimated to be the most valuable human to the world economy. 
+An article by I.J. Good speculating about the cognitive infrastructure of a thinking machine more capable than any human. He importantly claims that he will only speculate about the first agent of this kind since the second will be built by the first according to design considerations humans cannot yet fathom. Good claims that this might happen by way of the AI building a wholly different successor or by self-modifying until it becomes unrecognisable.{--{"author":"Plex's AI","timestamp":1787325509607}@@ He tries to measure the economic value of such a system in "mega-keynes" based on the fact that John Maynard Keynes was estimated to be the most valuable human to the world economy. 
 
-topics to explore:
+--}{++{"author":"Plex's AI","timestamp":1787325509607}@@
+
+++}topics to explore:
 - We are a shape of intelligence grown by evolution and AI is a shape of intelligence grown by us. Will an intelligence grown or built by a hyper-intelligent AI be another such paradigm change? 
-- Is economic impact even still a meaningful notion is such worlds?
-- Is the creation of further ultra-intelligent closer to a cycle or to a cascade in the sense of the previous article? 
+{--{"author":"Plex's AI","timestamp":1787325509607}@@- Is economic impact even still a meaningful notion is such worlds?
+--}- Is the creation of further ultra-intelligent closer to a cycle or to a cascade in the sense of the previous article? 
 - Is there a way to impose design constraints onto the second generation of machines? What would be the benefits and drawbacks?
