@@ -33,7 +33,14 @@ source:: [[../articles/bednar-does-ai-make-lawyers-worse-at-thinking-new-researc
 from:: "Since the public release of ChatGPT in 2022, a growing body of empirical research has suggested that generative AI systems could fundamentally reshape the practice of law."
 to:: "conditions that increase the likelihood that AI substitutes for careful analysis rather than supporting it."
 
-++}Budzyń and colleagues (2025), in *Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy* (a {--{"author":"Curator's AI","timestamp":1787322335943}@@multicentre,--}{++{"author":"Curator's AI","timestamp":1787322335943}@@multicentre++} observational study), found that after endoscopists were exposed to AI-assisted polyp detection, their adenoma detection rate on standard, non-AI colonoscopy fell 6.0 percentage points, from 28.4% to 22.4%. These are real patient outcomes, not self-reports.
+++}Budzyń and colleagues (2025), in *Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy* (a {--{"author":"Curator's AI","timestamp":1787322335943}@@multicentre,--}{++{"author":"Curator's AI","timestamp":1787322335943}@@multicentre++} observational study), found that after endoscopists were exposed to AI-assisted polyp detection, their adenoma detection rate on standard, non-AI colonoscopy fell 6.0 percentage points, from 28.4% to 22.4%. These are real patient outcomes, not self-reports.{++{"author":"Curator's AI","timestamp":1787322563013}@@ The drop appeared on procedures done without the AI, which is the worrying part.
+
+#### Article
+source:: [[../articles/budzy-endoscopist-deskilling-risk-after-exposure-to-artificial-intelligence-in-colonoscopy-a-multicentre-observational-study]]
+from:: "Between Sept 8, 2021, and March 9, 2022, 1443 patients underwent non-AI assisted colonoscopy before (n=795) and after (n=648) the introduction of AI"
+to:: "In multivariable logistic regression analysis, exposure to AI (odds ratio"
+
+%% Note: Multicentre observational study (ACCEPT trial, Poland). After endoscopists were exposed to AI-assisted polyp detection, ADR on standard non-AI colonoscopy fell from 28.4% to 22.4% (6.0 pp absolute, p=0.0089). Objective clinical outcome, not self-report. %%++}
 
 Gerlich (2025) surveyed 666 UK participants using validated critical thinking assessments including the Halpern Critical Thinking Assessment. Regression analysis showed AI tool use negatively predicts critical thinking scores {--{"author":"Curator's AI","timestamp":1787322198853}@@(β--}{++{"author":"Curator's AI","timestamp":1787322198853}@@(beta++} = {--{"author":"Curator's AI","timestamp":1787322198853}@@−1.76,--}{++{"author":"Curator's AI","timestamp":1787322198853}@@-1.76,++} p < 0.001), mediated by increased cognitive offloading. Younger participants showed the strongest pattern: higher AI dependence, lower critical thinking scores. A formal correction was later published for this study, noting the reliance on self-reported critical thinking practices.
 
