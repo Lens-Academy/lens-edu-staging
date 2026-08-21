@@ -7,16 +7,16 @@ tags:
 ---
 
 # Lens:
-source:: [[../../Lenses/ToT M2 - What Would You Delegate - PQ]]
+source:: [[../Lenses/ToT M2 - What Would You Delegate - PQ]]
 
 # Lens:
 source:: [[../Lenses/ToT M2 - Metacognition and Metacognitive Laziness]]
 
 # Lens:
-source:: [[../../Lenses/ToT M2 - Arbitrary Offloading]]
+source:: [[../Lenses/ToT M2 - Arbitrary Offloading]]
 
 # Lens:
-source:: [[../../Lenses/ToT M2 - The Five Metacognitive Traps]]
+source:: [[../Lenses/ToT M2 - The Five Metacognitive Traps]]
 
 # Lens:
-source:: [[../../Lenses/ToT M2 - Recap]]
+source:: [[../Lenses/ToT M2 - Recap]]
