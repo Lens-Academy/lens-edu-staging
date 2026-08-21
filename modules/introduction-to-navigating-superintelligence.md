@@ -35,7 +35,7 @@ source:: ![[../Lenses/10 reasons]]
 
 # Lens:
 optional:: true
-source:: [[../Lenses/Four Background Claims]]
+source:: {--{"author":"AI","timestamp":1787331986189}@@[[../Lenses/Four Background Claims]]--}{++{"author":"AI","timestamp":1787331986189}@@[[../Lenses/Risks from power-seeking AI]]++}
 
 # Lens:
 optional:: true
