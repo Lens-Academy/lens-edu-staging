@@ -20,7 +20,7 @@ Add discussion note here:
 
 %%
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig1-bb6dc5b6.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306086396}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig1-bb6dc5b6.jpg--}{++{"author":"Luc's AI","timestamp":1787306086396}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig1-bb6dc5b6.jpg++})
 
 A photograph of four individuals in white protective suits walking on a metal walkway in a nuclear facility. The walkway is elevated and has metal railings. Below the walkway is a large pool of water that reflects the people and the walkway. The background shows industrial equipment, pipes, and a bright light source. A green emergency exit sign with a white cross and the text 'Rettungsweg' is visible on the wall. The overall scene conveys a sense of a controlled, high-tech environment.
 
@@ -54,7 +54,7 @@ Every year, more countries are constructing new and novel nuclear facilities, wh
 
 Maintaining a strong and agile safeguards regime remains essential. To do this, safeguards must be able to count on the support and active engagement of its many stakeholders, at every level. Safeguards must also be underpinned by a robust legal framework, including the rights and
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig2-5d31fc32.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306089099}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig2-5d31fc32.jpg--}{++{"author":"Luc's AI","timestamp":1787306089099}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig2-5d31fc32.jpg++})
 
 A portrait of Rafael Mariano Grossi, Director General of the IAEA. He is a middle-aged man with grey hair, smiling warmly at the camera. He is wearing a dark grey suit jacket, a light blue patterned shirt, and a blue tie with a gold pattern. His hands are resting on a light-colored surface in front of him. In the background, a portion of the IAEA logo, which features a stylized atom symbol, is visible against a blue backdrop.
 
@@ -237,7 +237,7 @@ IAEA inspectors perform a variety of verification activities in the field.
 
 During the **design information verification**, inspectors compare the design information that the State has submitted to the IAEA with in-field observations to confirm that the information provided by the State is correct and complete, and the facility has not been misused.
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig10-3f5e560d.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306086632}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig10-3f5e560d.jpg--}{++{"author":"Luc's AI","timestamp":1787306086632}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig10-3f5e560d.jpg++})
 
 A close-up photograph showing an IAEA inspector's hands in white gloves. The inspector is applying a black, cylindrical Field Verifiable Passive Seal (FVPS) to a silver metal container. On the wooden surface next to the container are a pair of red-handled pliers and a small blue package containing several small white vials.
 
@@ -249,7 +249,7 @@ An IAEA safeguards inspector applying a Field Verifiable Passive Seal (FVPS).
 
 Inspectors verify the inventory of nuclear material using a range of **measurement**
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig11-27d86ec0.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306086868}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig11-27d86ec0.jpg--}{++{"author":"Luc's AI","timestamp":1787306086868}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig11-27d86ec0.jpg++})
 
 A photograph of two IAEA inspectors in a facility. One inspector, wearing a white lab coat, face mask, and safety glasses, is using a white swipe pad to take a sample from a large, circular, ribbed metal component. The other inspector, wearing a yellow hazmat suit, white helmet, and face mask, is observing the process. The component has yellow and black hazard stripes around its top edge.
 
@@ -303,7 +303,7 @@ The IAEA's experience in Iraq and the DPRK demonstrated that, although IAEA safe
 
 At the end of 1993, the IAEA embarked on a broad programme ('Programme 93+2') to further strengthen safeguards implementation under CSAs by enhancing the IAEA's ability to consider a State as a whole. As part of Programme 93+2, measures designed to strengthen the IAEA's ability to detect undeclared nuclear material and activities in States with CSAs were presented
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig12-d83a52d9.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306087090}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig12-d83a52d9.jpg--}{++{"author":"Luc's AI","timestamp":1787306087090}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig12-d83a52d9.jpg++})
 
 Three IAEA inspectors in white and blue uniforms are working in a large industrial facility, likely a nuclear power plant. They are looking at a piece of equipment, possibly a robotic arm or a specialized tool, which is mounted on a metal structure. The background shows orange structural elements and other equipment.
 
@@ -315,7 +315,7 @@ The Additional Protocol (AP) is important for the effectiveness and efficiency o
 
 As of 30 June 2024, 142 States have an AP in force, or 75% of all States with safeguards agreements in force. Another 12 States have signed an AP but have yet to bring it into force.
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig13-def064a0.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306087375}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig13-def064a0.jpg--}{++{"author":"Luc's AI","timestamp":1787306087375}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig13-def064a0.jpg++})
 
 A close-up photograph of a person wearing a white face mask, holding a black device. A blue circular tag with 'IAEA XP0023' is attached to the device. A white bucket is visible on the left.
 
@@ -359,7 +359,7 @@ With the support of its Member States, the IAEA will continue to live up to the 
 
 \* One significant quantity is the approximate amount of nuclear material for which the possibility of manufacturing a nuclear explosive device cannot be excluded.
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig14-025e3f3d.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306087620}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig14-025e3f3d.jpg--}{++{"author":"Luc's AI","timestamp":1787306087620}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig14-025e3f3d.jpg++})
 
 A female scientist with long blonde hair, wearing a white lab coat and safety glasses, is pouring a white liquid from a blue container into a large, polished metal sphere. The sphere is part of a larger piece of scientific equipment. The background shows a laboratory setting with shelves, pipes, and other scientific instruments. The lighting is bright and even.
 
@@ -379,7 +379,7 @@ The IAEA conducts
 its first ever in-field  
 verification activity
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig15-503c8a94.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306087841}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig15-503c8a94.jpg--}{++{"author":"Luc's AI","timestamp":1787306087841}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig15-503c8a94.jpg++})
 
 Black and white photograph of several men in suits and glasses, likely IAEA officials, gathered around a table during a meeting or ceremony.
 
@@ -393,11 +393,11 @@ the IAEA
 
 1957
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig16-9ed9bc73.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306088043}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig16-9ed9bc73.jpg--}{++{"author":"Luc's AI","timestamp":1787306088043}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig16-9ed9bc73.jpg++})
 
 Black and white photograph of two men in white lab coats working with complex machinery, possibly a research reactor control room.
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig17-4bbf4204.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306088313}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig17-4bbf4204.jpg--}{++{"author":"Luc's AI","timestamp":1787306088313}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig17-4bbf4204.jpg++})
 
 Black and white photograph of a woman in a white lab coat and gloves, holding a tool and working on a component.
 
@@ -410,11 +410,11 @@ Peace' speech
 
 1953
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig18-17139afb.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306088639}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig18-17139afb.jpg--}{++{"author":"Luc's AI","timestamp":1787306088639}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig18-17139afb.jpg++})
 
 Black and white photograph of Dwight D. Eisenhower speaking at a podium with a 'SECRETARY' sign, during his 'Atoms for Peace' speech.
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig19-8ad35156.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306088876}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig19-8ad35156.jpg--}{++{"author":"Luc's AI","timestamp":1787306088876}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig19-8ad35156.jpg++})
 
 Black and white photograph of hands in gloves handling large, cylindrical metal components, likely nuclear fuel rods.
 
