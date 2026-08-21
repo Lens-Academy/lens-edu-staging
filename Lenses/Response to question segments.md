@@ -183,7 +183,7 @@ items::
 - Governance
 - Technical safety
 
-%% Add `assessment-instructions::` to grade Ranking. Items are authored in intended order, but shown shuffled. Assessor receives intended order, learner order, base ranking prompt, and custom instructions. It returns percentage plus private reason.
+%% Add `assessment-instructions::` to grade {--{"author":"Elias's AI","timestamp":1787312115035}@@Ranking.--}{++{"author":"Elias's AI","timestamp":1787312115035}@@`Question: Ranking`.++} Items are authored in intended order, but shown shuffled. Assessor receives intended order, learner order, base ranking prompt, and custom instructions. It returns percentage plus private reason.
 
 Use graded `Question: Ranking` for chronology, causal chains, procedures, and prioritization with explicit criterion. State allowed ties or alternate valid orders in assessment instructions. Keep lists around 3 to 7 items. (more or less possible, but not recommended) Next example grades procedure while allowing partial credit. %%
 
@@ -201,6 +201,6 @@ feedback-instructions:: Explain most important misplaced relationship and why it
 %% Grading by context:
 - Surveys never grade.
 - Normal lenses may contain graded practice or ungraded reflection.
-- Learning Outcome tests require gradable OpenResponse and Select. FillBlank may mix graded and ungraded blanks. Ranking is graded when it has `assessment-instructions::`.
+- Learning Outcome tests require gradable {--{"author":"Elias's AI","timestamp":1787312120989}@@OpenResponse--}{++{"author":"Elias's AI","timestamp":1787312120989}@@`Question: Open`++} and {--{"author":"Elias's AI","timestamp":1787312120989}@@Select. FillBlank--}{++{"author":"Elias's AI","timestamp":1787312120989}@@`Question: Select`. `Question: FillBlank`++} may mix graded and ungraded blanks. {--{"author":"Elias's AI","timestamp":1787312120989}@@Ranking--}{++{"author":"Elias's AI","timestamp":1787312120989}@@`Question: Ranking`++} is graded when it has `assessment-instructions::`.
 - OpenResponse grading needs `assessment-instructions::`; FillBlank with expected answers uses base assessor automatically; Select grading needs `[x]`.
 - Rating and wholly ungraded FillBlank never affect score. %%
