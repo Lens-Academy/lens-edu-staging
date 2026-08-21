@@ -138,7 +138,7 @@ Tied so far. But if you pick up the black and reveal the whole image…
 
 …you have no problem giving a full description of the various opaque and translucent cylinders, slats, and 3-D corners, but the computer would fail miserably. It would describe what it sees—a variety of two-dimensional shapes in several different shades—which is actually what's there. Your brain is doing a ton of fancy shit to interpret the implied depth, shade-mixing, and room lighting the picture is trying to portray. And looking at the picture below, a computer sees a two-dimensional white, black, and gray collage, while you easily see what it really is—a photo of an entirely-black, 3-D rock:
 
-[![Image 7: article-2053686-0E8BC15900000578-845_634x330](https://waitbutwhy.com/wp-content/uploads/2015/01/article-2053686-0E8BC15900000578-845_634x330.jpg)](https://waitbutwhy.com/wp-content/uploads/2015/01/article-2053686-0E8BC15900000578-845_634x330.jpg)
+{--{"author":"Luc's AI","timestamp":1787306327787}@@[![Image--}{++{"author":"Luc's AI","timestamp":1787306327787}@@![Image++} 7: {--{"author":"Luc's AI","timestamp":1787306327787}@@article-2053686-0E8BC15900000578-845_634x330](https://waitbutwhy.com/wp-content/uploads/2015/01/article-2053686-0E8BC15900000578-845_634x330.jpg)](https://waitbutwhy.com/wp-content/uploads/2015/01/article-2053686-0E8BC15900000578-845_634x330.jpg)--}{++{"author":"Luc's AI","timestamp":1787306327787}@@article-2053686-0E8BC15900000578-845_634x330](https://waitbutwhy.com/wp-content/uploads/2015/01/article-2053686-0E8BC15900000578-845_634x330.jpg)++}
 
 Credit: Matthew Lloyd
 
@@ -161,7 +161,7 @@ Currently, the world's fastest supercomputer, China's [Tianhe-2](http://www.reut
 Kurzweil suggests that we think about the state of computers by looking at how many cps you can buy for $1,000. When that number reaches human-level—10 quadrillion cps—then that'll mean AGI could become a very real part of life.
 
 [Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law) is a historically-reliable rule that the world's maximum computing power doubles approximately every two years, meaning computer hardware advancement, like general human advancement through history, grows exponentially. Looking at how this relates to Kurzweil's cps/$1,000 metric, we're currently at about 10 trillion cps/$1,000, right on pace with this graph's predicted trajectory:
-[![Image 8: PPTExponentialGrowthof_Computing-1](https://waitbutwhy.com/wp-content/uploads/2015/01/PPTExponentialGrowthof_Computing-1.jpg)](https://waitbutwhy.com/wp-content/uploads/2015/01/PPTExponentialGrowthof_Computing-1.jpg)
+{--{"author":"Luc's AI","timestamp":1787306327991}@@[![Image--}{++{"author":"Luc's AI","timestamp":1787306327991}@@![Image++} 8: {--{"author":"Luc's AI","timestamp":1787306327991}@@PPTExponentialGrowthof_Computing-1](https://waitbutwhy.com/wp-content/uploads/2015/01/PPTExponentialGrowthof_Computing-1.jpg)](https://waitbutwhy.com/wp-content/uploads/2015/01/PPTExponentialGrowthof_Computing-1.jpg)--}{++{"author":"Luc's AI","timestamp":1787306327991}@@PPTExponentialGrowthof_Computing-1](https://waitbutwhy.com/wp-content/uploads/2015/01/PPTExponentialGrowthof_Computing-1.jpg)++}
 
 So the world's $1,000 computers are now beating the mouse brain and they're at about a thousandth of human level. This doesn't sound like much until you remember that we were at about a trillionth of human level in 1985, a billionth in 1995, and a millionth in 2005. Being at a thousandth in 2015 puts us right on pace to get to an affordable computer by 2025 that rivals the power of the brain.
 
@@ -229,11 +229,11 @@ AI, which will likely get to AGI by being programmed to self-improve, wouldn't s
 
 This may shock the shit out of us when it happens. The reason is that from _our_ perspective, A) while the intelligence of different kinds of animals varies, the main characteristic we're aware of about any animal's intelligence is that it's far lower than ours, and B) we view the smartest humans as WAY smarter than the dumbest humans. Kind of like this:
 
-[![Image 9: Intelligence](https://waitbutwhy.com/wp-content/uploads/2015/01/Intelligence.jpg)](https://waitbutwhy.com/wp-content/uploads/2015/01/Intelligence.jpg)
+{--{"author":"Luc's AI","timestamp":1787306328193}@@[![Image--}{++{"author":"Luc's AI","timestamp":1787306328193}@@![Image++} 9: {--{"author":"Luc's AI","timestamp":1787306328193}@@Intelligence](https://waitbutwhy.com/wp-content/uploads/2015/01/Intelligence.jpg)](https://waitbutwhy.com/wp-content/uploads/2015/01/Intelligence.jpg)--}{++{"author":"Luc's AI","timestamp":1787306328193}@@Intelligence](https://waitbutwhy.com/wp-content/uploads/2015/01/Intelligence.jpg)++}
 
 So as AI zooms upward in intelligence toward us, we'll see it as simply becoming smarter, _for an animal._ Then, when it hits the lowest capacity of humanity—Nick Bostrom uses the term "the village idiot"-we'll be like, "Oh wow, it's like a dumb human. Cute!" The only thing is, in the grand spectrum of intelligence, _all_ humans, from the village idiot to Einstein, are within a very small range—so _just_ after hitting village idiot level and being declared to be AGI, it'll suddenly be smarter than Einstein and we won't know what hit us:
 
-[![Image 10: Intelligence2](https://waitbutwhy.com/wp-content/uploads/2015/01/Intelligence2.png)](https://waitbutwhy.com/wp-content/uploads/2015/01/Intelligence2.png)
+{--{"author":"Luc's AI","timestamp":1787306328432}@@[![Image--}{++{"author":"Luc's AI","timestamp":1787306328432}@@![Image++} 10: {--{"author":"Luc's AI","timestamp":1787306328432}@@Intelligence2](https://waitbutwhy.com/wp-content/uploads/2015/01/Intelligence2.png)](https://waitbutwhy.com/wp-content/uploads/2015/01/Intelligence2.png)--}{++{"author":"Luc's AI","timestamp":1787306328432}@@Intelligence2](https://waitbutwhy.com/wp-content/uploads/2015/01/Intelligence2.png)++}
 
 And what happens…after that?
 
