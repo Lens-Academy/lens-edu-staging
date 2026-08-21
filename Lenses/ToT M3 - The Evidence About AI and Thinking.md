@@ -92,7 +92,7 @@ source:: [[../articles/gutoreva-position-ai-as-part-of-self-extending-the-mind-r
 from:: "Artificial Intelligence (AI) systems must be modeled as integral components of human cognition, and that safety and alignment are best achieved through cognitive co-regulation rather than external constraint."
 to:: "Managing this integration requires operational frameworks that account for metacognition and epistemic authority"
 
-%% Note: The counterargument. Extended Mind position: external tools can become legitimate parts of cognition. Key distinction: generative AI performs full epistemic labor, not just discrete functions. Risk increases when AI is treated as authoritative source rather than assistive instrument. %%--}
+%% Note: The counterargument. Extended Mind position: external tools can become legitimate parts of cognition. Key distinction: generative AI performs full epistemic labor, not just discrete functions. Risk increases when AI is treated as authoritative source rather than assistive instrument. %%--}{--{"author":"AI","timestamp":1787325766105}@@
 
 #### Text
 content::
@@ -182,6 +182,6 @@ Calibration summary (on close): name what the student demonstrated; name what re
 
 Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items. Do not over-validate; no generic praise.
 
-Safety and integrity: if the student feels fatalistic ("we are all doomed"), acknowledge the uncertainty honestly and point them forward to Unit 4's practical tools; the course's whole point is that use patterns are in the user's control. If stuck after 2 attempts, give a brief direct answer and move on.
+Safety and integrity: if the student feels fatalistic ("we are all doomed"), acknowledge the uncertainty honestly and point them forward to Unit 4's practical tools; the course's whole point is that use patterns are in the user's control. If stuck after 2 attempts, give a brief direct answer and move on.--}
 
 
