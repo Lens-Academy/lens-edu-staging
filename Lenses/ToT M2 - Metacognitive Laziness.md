@@ -55,7 +55,8 @@ Key concepts in the piece:
 - The LLM push: delegating 'how to break a problem down' delegates a large part of the thinking
 - The calculator example: offloading the arithmetic while the judgement stays with us
 - The LLM push: delegating "how to break a difficult problem down" delegates a large part of the thinking
-- The fair counterpoint: we may learn the same or different things in different ways; the answer is not settled
+- The fair counterpoint: we may learn the same or different things in different ways; the answer is not settled{++{"author":"AI","timestamp":1787313002119}@@
+- The reading (Brademann): GenAI's ease of use is not neutral. It actively makes the laziness more likely, because users confuse ease of use with depth of learning.++}
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
 
@@ -102,7 +103,8 @@ Key concepts the student needs to grasp:
 - Metacognitive laziness: delegating the oversight itself, including the decision about which tasks to delegate
 - The framing note: 'laziness' blames the user; the real cause is a human tendency to offload met by platform design built to exploit it
 - The manager's move: deciding which tasks to delegate was the judgement they now handed over, so their oversight of their own work has moved out of their hands
-- The manager's move: deciding which tasks to delegate was the judgement they now handed over, so their oversight of their own work has moved out of their hands
+- The manager's move: deciding which tasks to delegate was the judgement they now handed over, so their oversight of their own work has moved out of their hands{++{"author":"AI","timestamp":1787313003419}@@
+- The reading (Brademann): platform design (ease of use) is not neutral. It catalyzes metacognitive laziness by making offloading the path of least resistance.++}
 
 The core move to draw out: the manager has not merely offloaded tasks. They offloaded the judgement about which tasks to offload, which means they have stopped overseeing their own thinking. If the student thinks the manager is being efficient, ask them to test it: who now decides what the manager works on, and on what basis? If the student claims the manager can still intervene, ask what the manager would have to notice first.
 

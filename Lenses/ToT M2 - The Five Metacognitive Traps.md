@@ -77,7 +77,7 @@ What not to do: resolve confusion with a mini-lecture; adjudicate the student's 
 
 #### Question
 content::
-\## Phase 3: Learning Question
+\## Learning Question
 Think of a recent task at work that went wrong, or that you finished but later doubted. Do not pick an AI failure. Pick something where the trouble came from your own thinking.
 
 Which of the five traps (Forming, Dislodging, Assumption, Location, Achievement) do you think caught you? Where exactly did your own checking break down — the moment you could have noticed, but did not?
