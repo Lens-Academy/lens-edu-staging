@@ -40,8 +40,6 @@ source:: ![[../Lenses/Cascades and Cycles]]
 optional:: true
 source:: ![[../Lenses/Recursion Magic|Recursion Magic]]
 
-
-
 # Lens:
 source:: ![[../Lenses/A new Moores Law for AI agents]]
 
