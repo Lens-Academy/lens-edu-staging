@@ -102,10 +102,12 @@ Learning outcome for this lens: "The learner can define metacognition and distin
 Key concepts the student needs to grasp:
 - Metacognition: the oversight layer; monitoring plus control
 - Monitoring: noticing what you know and where your thinking is going
-- Control: acting on that notice
+- Control: acting on that notice{++{"author":"AI","timestamp":1787312182076}@@
+- The reading tie: the article framed metacognition as the decision to do a task yourself or hand it off (monitoring: can I evaluate this? control: what do I do?). The student's example can map onto either offloading or skipped self-oversight.
+- Scope: the research studies students, but the mechanism applies to knowledge workers; read "the learner" as the student themselves.++}
 - The core move: oversight fails not in a dramatic moment but in the skipped check — the pause that did not happen
 
-The core move to draw out: ask the student to name the exact moment oversight could have caught the error, and what specific action (a question, a re-read) would have been required. If they say "I just should have been more careful," push on what concrete check was available. If they cannot find an example, offer a low-stakes one (skimming an email and missing the caveat) and ask where the check would sit.
+The core move to draw out: ask the student to name the exact moment oversight could have caught the error, and what specific action (a question, a re-read) would have been required. {++{"author":"AI","timestamp":1787312174826}@@Link their example back to the reading: the article described metacognition as the decision to do a task yourself or hand it off (monitoring: can I evaluate this? control: what do I do?). Was their failure an offloaded task they could not check, or oversight they skipped while still doing the work? ++}If they say "I just should have been more careful," push on what concrete check was available. If they cannot find an example, offer a low-stakes one (skimming an email and missing the caveat) and ask where the check would sit.
 
 Calibration summary (on close): name what the student demonstrated; name what remains underdeveloped; give a direct test-readiness verdict tied to the outcome.
 

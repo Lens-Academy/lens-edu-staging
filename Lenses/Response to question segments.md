@@ -2,8 +2,8 @@
 id: 8189763f-576e-4f04-a614-4a00c628e386
 duration_minutes: 15
 title: Response to question segments
-tldr: Use Response to question segments for open responses, ratings, selections, fill-in-the-blank responses, and rankings with same syntax in surveys, normal lenses, and learning-outcome tests.
-summary_for_tutor: Reference page for course creators. It documents shared fields, exact syntax, options, defaults, LLM assessment flow, and grading behavior for `Question: Open`, `Question: Rating`, `Question: Select`, `Question: FillBlank`, and `Question: Ranking` Response to question segments.
+tldr: Use Response to question segments for open responses, ratings, {--{"author":"Elias's AI","timestamp":1787312176770}@@selections,--}{++{"author":"Elias's AI","timestamp":1787312176770}@@choices,++} fill-in-the-blank responses, and rankings with same syntax in surveys, normal lenses, and learning-outcome tests.
+summary_for_tutor: {--{"author":"Elias's AI","timestamp":1787312173425}@@Reference--}{++{"author":"Elias's AI","timestamp":1787312173425}@@'Reference++} page for course creators. It documents shared fields, exact syntax, options, defaults, LLM assessment flow, and grading behavior for {--{"author":"Elias's AI","timestamp":1787312173425}@@`Question: Open`, `Question: Rating`, `Question: Select`, `Question: FillBlank`,--}{++{"author":"Elias's AI","timestamp":1787312173425}@@Question: Open, Question: Rating, Question: Choice, Question: FillBlank,++} and {--{"author":"Elias's AI","timestamp":1787312173425}@@`Question: Ranking`--}{++{"author":"Elias's AI","timestamp":1787312173425}@@Question: Ranking++} Response to question {--{"author":"Elias's AI","timestamp":1787312173425}@@segments.--}{++{"author":"Elias's AI","timestamp":1787312173425}@@segments.'++}
 ---
 
 %% A Response to question segment is an interactive field that collects one learner response. Same syntax works in surveys, normal lenses, and Learning Outcome tests. Context determines grading.
