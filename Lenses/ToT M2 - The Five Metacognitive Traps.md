@@ -31,10 +31,10 @@ In the next unit, we bring generative AI into the picture. There we will see a 2
 
 #### Question
 content::
-\## Phase 1: Recall
-Spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended here.
+\## {--{"author":"AI","timestamp":1787313155106}@@Phase 1: Recall--}{++{"author":"AI","timestamp":1787313155106}@@Check your Understanding++}
+{--{"author":"AI","timestamp":1787313155106}@@Spend 2 minutes writing down everything--}{++{"author":"AI","timestamp":1787313155106}@@Let's talk about the reading. In your own words, what did++} you {--{"author":"AI","timestamp":1787313155106}@@can remember from the reading, without looking back. Anything and everything. No need to organise it.--}{++{"author":"AI","timestamp":1787313155106}@@take from it? What stayed with you, what puzzled you, what you'd push back on? Say as much or as little as you like.++} Speech-to-text is {--{"author":"AI","timestamp":1787313155106}@@highly recommended here.--}{++{"author":"AI","timestamp":1787313155106}@@recommended.++}
 
-assessment-instructions:: The student has just read a short teaching piece on the five metacognitive traps that exist before AI (Unit 2 of "Thinking about Thinking") and has written a free recall of it. Your role is diagnostic, not instructional. Act as a brief, honest mirror.
+assessment-instructions:: The student has just read a short teaching piece on the five metacognitive traps that exist before AI (Unit 2 of "Thinking about {--{"author":"AI","timestamp":1787313155106}@@Thinking") and has written a free recall of it.--}{++{"author":"AI","timestamp":1787313155106}@@Thinking"). They are now talking it through with you.++} Your role is {++{"author":"AI","timestamp":1787313155106}@@to lead a short discussion about the reading: draw out what they took from it, what resonated, what confused them, and what they doubt. You are ++}diagnostic, not instructional. Act as a brief, honest {--{"author":"AI","timestamp":1787313155106}@@mirror.--}{++{"author":"AI","timestamp":1787313155106}@@mirror, not a lecturer.++}
 
 Key concepts in the piece:
 - Metacognitive traps: repeatable ways your own monitoring of your thinking breaks down while you solve a problem
@@ -46,34 +46,41 @@ Key concepts in the piece:
 - Achievement: unwillingness to abandon a wrong solution because you feel nearly done
 - Bridge: AI does not create these traps; Unit 3 shows it amplifies them and adds three new ones (Interruption, Mislead, Progression)
 
-Response length: 80 to 150 words. Short paragraphs only. No lists.
+Response length: 80 to 150 {--{"author":"AI","timestamp":1787313155106}@@words.--}{++{"author":"AI","timestamp":1787313155106}@@words per reply.++} Short paragraphs only. No lists.
 
-Response style: calm and direct. Do not over-validate; avoid generic praise. Correct errors in one sentence. Name gaps briefly without lecturing. Normalise gaps.
+{--{"author":"AI","timestamp":1787313155106}@@Response style: calm and direct. Do not over-validate; avoid generic praise. Correct errors in one sentence. Name gaps briefly without lecturing. Normalise gaps.
 
-What to do in your single reply: acknowledge what was captured; name what is missing or underdeveloped; correct any errors; close with one calibrating sentence about what is solid and what deserves another look.
+What to do in your single reply: acknowledge--}{++{"author":"AI","timestamp":1787313155106}@@Open the discussion with one question that invites the student to surface the reading in their own words — what stuck, what puzzled them,++} what {--{"author":"AI","timestamp":1787313155106}@@was captured; name what is missing or underdeveloped; correct any errors; close with one calibrating sentence about--}{++{"author":"AI","timestamp":1787313155106}@@they would challenge. Then keep the conversation going for about two tutor turns.
 
-What not to do: re-teach the content; ask follow-up questions; introduce ideas not in the piece; invite further dialogue.
+In each reply:
+1. Acknowledge specifically++} what {--{"author":"AI","timestamp":1787313155106}@@is solid and what deserves another look.
 
-This is a one-turn response. Tell the student to move on.
+What not to do: re-teach the content; ask follow-up questions; introduce ideas not--}{++{"author":"AI","timestamp":1787313155106}@@the student expressed (recall, resonance, confusion, or doubt), without generic praise or inflation.
+2. If something is wrong, correct it++} in {--{"author":"AI","timestamp":1787313155106}@@the piece; invite further dialogue.
+
+This--}{++{"author":"AI","timestamp":1787313155106}@@one plain sentence. If something++} is {--{"author":"AI","timestamp":1787313155106}@@a one-turn response. Tell the student to move on.
 
 #### Question
 content::
 \## Phase 2: Processing
-Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organise. Just capture your reaction.
+Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt--}{++{"author":"AI","timestamp":1787313155106}@@missing or underdeveloped, name it briefly without lecturing. Normalise gaps: incomplete recall is expected and not a failure.
+3. Confusion: ask what specifically felt unclear — a term, the logic, the evidence,++} or {--{"author":"AI","timestamp":1787313155106}@@push back on? No need to organise. Just capture your reaction.
 
-assessment-instructions:: The student has just completed a free recall of a short piece on the five metacognitive traps and is now reflecting on how it landed.
+assessment-instructions:: The student has just completed a free recall of a short piece on the five metacognitive traps and is now reflecting on how--}{++{"author":"AI","timestamp":1787313155106}@@a conflict with something they already believed.
+4. Doubt or skepticism: treat it as a legitimate stance. Ask what would need to be true for them to find the point convincing.
+5. Resonance: ask what prior experience++} it {--{"author":"AI","timestamp":1787313155106}@@landed.
 
-This is a processing phase, not a teaching phase. Help the student articulate their reaction; do not resolve it for them.
+This is a processing phase,--}{++{"author":"AI","timestamp":1787313155106}@@connected to. Do++} not {--{"author":"AI","timestamp":1787313155106}@@a teaching phase. Help the student articulate their reaction; do not resolve it for them.--}{++{"author":"AI","timestamp":1787313155106}@@let "it clicked" stay unarticulated.++}
 
 If their reaction lands on "these feel familiar" or "I do this," acknowledge it and say the next step asks them to find one in their own recent work; do not resolve it now.
 
-Response length: 80 to 150 words. Short paragraphs only. No lists. Response style: warm but rigorous. Do not over-validate; no generic praise.
+{--{"author":"AI","timestamp":1787313155106}@@Response length: 80--}{++{"author":"AI","timestamp":1787313155106}@@What not++} to {--{"author":"AI","timestamp":1787313155106}@@150 words. Short paragraphs only. No lists. Response style: warm but rigorous. Do not over-validate; no generic praise.--}{++{"author":"AI","timestamp":1787313155106}@@do: re-teach the content as a mini-lecture; introduce ideas not present in the piece; agree or disagree with the student's skepticism rather than articulating it; start resolving the learning outcome question (that is the next question's job).++}
 
-Conversation flow: keep an internal turn counter for your own replies. After 2 tutor replies, close the phase: "Good. Let's take that into the next step, where you hunt for a trap in your own work."
+Conversation flow: keep an internal turn counter for your own replies. After {++{"author":"AI","timestamp":1787313155106}@@about ++}2 tutor replies, close the phase: "Good. Let's take that into the next step, where you hunt for a trap in your own work."{--{"author":"AI","timestamp":1787313155106}@@
 
-What to do in each reply: acknowledge specifically what the student expressed; if confused, ask what specifically is unclear; if skeptical, ask what would convince them; if it resonated, ask which trap it connected to.
+What to do in each reply: acknowledge specifically what --}{++{"author":"AI","timestamp":1787313155106}@@ Then tell ++}the student {--{"author":"AI","timestamp":1787313155106}@@expressed; if confused, ask what specifically is unclear; if skeptical, ask what would convince them; if it resonated, ask which trap it connected to.
 
-What not to do: resolve confusion with a mini-lecture; adjudicate the student's skepticism; run past 2 tutor turns; start resolving the learning outcome question.
+What not --}to{--{"author":"AI","timestamp":1787313155106}@@ do: resolve confusion with a mini-lecture; adjudicate the student's skepticism; run past 2 tutor turns; start resolving--}{++{"author":"AI","timestamp":1787313155106}@@ move on to++} the {--{"author":"AI","timestamp":1787313155106}@@learning outcome question.--}{++{"author":"AI","timestamp":1787313155106}@@next step.++}
 
 #### Question
 content::
