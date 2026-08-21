@@ -68,25 +68,25 @@ low-label:: Not confident
 high-label:: Very confident
 feedback-instructions:: Briefly suggest how learner could calibrate this confidence against evidence.
 
-%% `Question: {--{"author":"Elias's AI","timestamp":1787312223300}@@Select`--}{++{"author":"Elias's AI","timestamp":1787312223300}@@Choice`++} requires `options::`; default allows one {--{"author":"Elias's AI","timestamp":1787312223300}@@selection.--}{++{"author":"Elias's AI","timestamp":1787312223300}@@choice.++} Without `[x]`, it is ungraded. %%
-#### Question: {--{"author":"Elias's AI","timestamp":1787312226803}@@Select--}{++{"author":"Elias's AI","timestamp":1787312226803}@@Choice++}
+%% `Question: Choice` requires `options::`; default allows one choice. Without `[x]`, it is ungraded. %%
+#### Question: Choice
 id:: a59ce650-c5cf-4b2b-bc13-e0686f5d2bfb
 content:: Which topic should we cover next?
 options::
 - Forecasting
 - Governance
 
-%% Mark correct option with `[x]` to grade `Question: {--{"author":"Elias's AI","timestamp":1787312229761}@@Select`.--}{++{"author":"Elias's AI","timestamp":1787312229761}@@Choice`.++} Plain options stay ungraded. Survey {--{"author":"Elias's AI","timestamp":1787312186434}@@selects--}{++{"author":"Elias's AI","timestamp":1787312186434}@@choices++} never use `[x]`.
+%% Mark correct option with `[x]` to grade `Question: Choice`. Plain options stay ungraded. Survey choices never use `[x]`.
 
-`Question: {--{"author":"Elias's AI","timestamp":1787312232972}@@Select`--}{++{"author":"Elias's AI","timestamp":1787312232972}@@Choice`++} options:
+`Question: Choice` options:
 - `optional:: true`: allow skipping. Defaults to `false`.
 - `multi:: true`: allow multiple selections. Defaults to `false`.
 - `shuffle:: true`: randomize order. Defaults to `false`.
-- `feedback-instructions:: ...`: AI response to {--{"author":"Elias's AI","timestamp":1787312236010}@@selection.--}{++{"author":"Elias's AI","timestamp":1787312236010}@@choice.++} Defaults to none.
+- `feedback-instructions:: ...`: AI response to choice. Defaults to none.
 
 Next example grades one correct option. %%
 
-#### Question: {--{"author":"Elias's AI","timestamp":1787312240729}@@Select--}{++{"author":"Elias's AI","timestamp":1787312240729}@@Choice++}
+#### Question: Choice
 id:: 4e93c96d-a0a8-4fa5-9c29-ea360fd283fe
 content:: Which process updates model weights during training?
 options::
@@ -94,11 +94,11 @@ options::
 - [x] Gradient descent
 - Deployment monitoring
 shuffle:: true
-feedback-instructions:: Explain misconception behind learner {--{"author":"Elias's AI","timestamp":1787312244448}@@selection--}{++{"author":"Elias's AI","timestamp":1787312244448}@@choice++} without adding unrelated detail.
+feedback-instructions:: Explain misconception behind learner choice without adding unrelated detail.
 
-%% {--{"author":"Elias's AI","timestamp":1787312248594}@@Multi-select is--}{++{"author":"Elias's AI","timestamp":1787312248594}@@Multiple choice uses++} same segment with `multi:: true`. %%
+%% Multiple choice uses same segment with `multi:: true`. %%
 
-#### Question: {--{"author":"Elias's AI","timestamp":1787312253358}@@Select--}{++{"author":"Elias's AI","timestamp":1787312253358}@@Choice++}
+#### Question: Choice
 id:: cb39e8f1-4477-4b66-b016-37c99c5ff753
 content:: Which topics interest you?
 options::
@@ -107,7 +107,7 @@ options::
 - Technical safety
 multi:: true
 
-%% {--{"author":"Elias's AI","timestamp":1787312256460}@@Multi-select--}{++{"author":"Elias's AI","timestamp":1787312256460}@@Multiple choice++} has same options and defaults as single {--{"author":"Elias's AI","timestamp":1787312197216}@@select--}{++{"author":"Elias's AI","timestamp":1787312197216}@@choice++}. For grading, learner {--{"author":"Elias's AI","timestamp":1787312256460}@@selection--}{++{"author":"Elias's AI","timestamp":1787312256460}@@choices++} must exactly match all `[x]` options.
+%% Multiple choice has same options and defaults as single choice. For grading, learner choices must exactly match all `[x]` options.
 
 `Question: FillBlank` puts inputs inside sentence. Text inside braces is accepted answer. Smallest graded version follows. %%
 
