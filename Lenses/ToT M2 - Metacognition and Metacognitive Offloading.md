@@ -2,7 +2,7 @@
 id: 'cd6d8669-9844-4464-b15e-6bc78259b607'
 title: "Metacognition and Metacognitive Offloading"
 tldr: "Offloading a task leaves your judgement intact. Offloading the judgement about which tasks to delegate leaves you without oversight of your own thinking: that is metacognitive offloading."
-summary_for_tutor: "Core teaching lens for Unit 2 of 'Thinking about Thinking'. Authored content: metacognition defined; metacognitive offloading (delegating the oversight itself); why this course uses 'metacognitive offloading' rather than 'metacognitive laziness'; the calculator example (task offloaded, judgement stays); {--{"author":"coder's AI","timestamp":1787301522554}@@arbitrary offloading (judgement leaves entirely); --}why LLMs push users toward it (delegating how to break a problem down); a fair counterpoint; and a bridge to {++{"author":"coder's AI","timestamp":1787301522554}@@the separate Arbitrary Offloading lens and to ++}Unit 3. Runs Recall, Processing, and Learning Question phases; the wedge is a manager who asks the AI to decide which of their own tasks to delegate."
+summary_for_tutor: "Core teaching lens for Unit 2 of 'Thinking about Thinking'. Authored content: metacognition defined; metacognitive offloading (delegating the oversight itself); why this course uses 'metacognitive offloading' rather than 'metacognitive laziness'; the calculator example (task offloaded, judgement stays); why LLMs push users toward it (delegating how to break a problem down); a fair counterpoint; and a bridge to the separate Arbitrary Offloading lens and to Unit 3. Runs Recall, Processing, and Learning Question phases; the wedge is a manager who asks the AI to decide which of their own tasks to delegate."
 tags:
   - wip
 ---
