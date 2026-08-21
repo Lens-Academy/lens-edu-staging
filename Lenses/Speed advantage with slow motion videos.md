@@ -13,14 +13,15 @@ In the following reading, we ask you to watch a video in order to get an intuiti
 #### Article
 source:: [[../articles/slow-motion-videos-as-ai-risk-intuition-pumps]]
 from:: "Over the past"
-to:: "when slowed down by only around 100x:"
+to:: {--{"author":"AI","timestamp":1787315218120}@@"when slowed down by --}{++{"author":"AI","timestamp":1787315218120}@@"wildlife or insects."
+{>>{"author":"AI","timestamp":1787315218120}@@Pairs with the ::video import suggestion in the article: the video is now declared inline in the article body, so the lens keeps one continuous excerpt and the platform renders the video mid-article with full video UI and no excerpt-boundary markers. Accept both suggestions together, and ++}only {--{"author":"AI","timestamp":1787315218120}@@around 100x:"
 
 #### Video
 source:: [[../video_transcripts/adam-magyar-stainless-alexanderplatz]]
 
 #### Article
 from:: "Now, when you try"
-to:: "wildlife or insects."
+to:: "wildlife or insects."--}{++{"author":"AI","timestamp":1787315218120}@@after the platform release that understands ::video imports is deployed — the current production processor would render the ::video line as literal prose.<<}++}
 
 #### Text
 content::
