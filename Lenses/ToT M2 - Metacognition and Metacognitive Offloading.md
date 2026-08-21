@@ -11,9 +11,9 @@ tags:
 content::
 **Metacognition** means thinking about how we think. It covers the quiet backstage work: planning what to do, checking our own reasoning, reviewing a decision, and questioning our own process. It is the part of thinking that decides how to think.
 
-{++{"author":"coder's AI","timestamp":1787301812802}@@Metacognition has two moving parts. The first is monitoring: noticing what you know, what you do not, and where your thinking is going. The second is control: acting on that notice — slowing down, checking a step, changing your plan, or admitting you do not understand. It is less a single act than a habit of standing slightly outside your own mind while you work.
+Metacognition has two moving parts. The first is monitoring: noticing what you know, what you do not, and where your thinking is going. The second is control: acting on that notice — slowing down, checking a step, changing your plan, or admitting you do not understand. It is less a single act than a habit of standing slightly outside your own mind while you work.
 
-++}**Metacognitive offloading** means delegating that oversight itself. You stop deciding which tasks to hand off and which to keep. The system decides for you.
+**Metacognitive offloading** means delegating that oversight itself. You stop deciding which tasks to hand off and which to keep. The system decides for you.
 
 This course uses the term "metacognitive offloading" rather than the alternative "metacognitive laziness". The laziness framing blames the user: it suggests you are simply not thinking hard enough about your own thinking. That framing is wrong twice over. The habit is not mainly a personal failing, and it is not random. It is a predictable response to a system that makes offloading effortless. "Metacognitive offloading" points at the system and the habit, not the user's character.
 
@@ -35,7 +35,7 @@ Spend 2 minutes writing down everything you can remember from the reading, witho
 assessment-instructions:: The student has just read a short teaching piece on metacognition and metacognitive offloading (Unit 2 of "Thinking about Thinking") and has written a free recall of it. Your role is diagnostic, not instructional. Act as a brief, honest mirror.
 
 Key concepts in the piece:
-- Metacognition: thinking about how we think; {--{"author":"coder's AI","timestamp":1787301819350}@@planning, reviewing,--}{++{"author":"coder's AI","timestamp":1787301819350}@@two parts — monitoring (noticing what you know and where your thinking is going)++} and {--{"author":"coder's AI","timestamp":1787301819350}@@questioning our own process--}{++{"author":"coder's AI","timestamp":1787301819350}@@control (acting on that notice)++}
+- Metacognition: thinking about how we think; two parts — monitoring (noticing what you know and where your thinking is going) and control (acting on that notice)
 - Metacognitive offloading: delegating the oversight itself, including the decision about which tasks to hand off and which to keep
 - Why this course prefers "metacognitive offloading" to "metacognitive laziness": the laziness label blames the user; "offloading" points at the system and the habit
 - The calculator example: offloading the arithmetic while the judgement stays with us
