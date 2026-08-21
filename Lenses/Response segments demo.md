@@ -111,7 +111,7 @@ multi:: true
 
 FillBlank puts inputs inside sentence. Text inside braces is accepted answer. Smallest graded version follows. %%
 
-#### FillBlank
+#### {++{"author":"Elias's AI","timestamp":1787311844092}@@Question: ++}FillBlank
 id:: ec12502a-e39c-4589-87f5-9f14855648c9
 content:: France's capital is {{Paris}}.
 
@@ -125,7 +125,7 @@ FillBlank grading always uses assessor LLM, never programmatic string comparison
 
 Text inside braces gives expected answer to assessor. Several alternatives separated by `|` are hints, not exhaustive whitelist. Next example has alternatives and several graded text blanks. %%
 
-#### FillBlank
+#### {++{"author":"Elias's AI","timestamp":1787311847564}@@Question: ++}FillBlank
 id:: 115ecd2e-385a-4c90-8964-afc169cb822a
 content:: France's capital is {{Paris}}, while model weights are commonly updated using {{gradient descent|gradient-based optimization}}.
 assessment-instructions:: Give 50 points for each blank whose meaning is correct. Accept minor misspellings and equivalent phrasing.
@@ -133,7 +133,7 @@ feedback-instructions:: Explain any incorrect blank without discussing unrelated
 
 %% `{{number}}` creates ungraded numeric input. Next example also shows `optional:: true`. %%
 
-#### FillBlank
+#### {++{"author":"Elias's AI","timestamp":1787311850228}@@Question: ++}FillBlank
 id:: 8a3ae4f5-4d86-42dc-b126-b293f88a7b61
 content:: How many years until transformative AI? {{number}}
 optional:: true
