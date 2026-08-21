@@ -229,7 +229,7 @@ Those less familiar with the terminology used above should read [section 2](#S2
 
 In this report, we describe and advocate for frontier AI auditing, which we define as (1) rigorous third-party evaluation of frontier AI developers’ systems and practices against relevant standards and (2) rigorous third-party verification of frontier AI developers’ safety and security claims, both based on deep, secure access to non-public information. In general, when we refer to verification, we mean the activity of confirming whether a specific claim, commitment, or property (e.g., a training compute figure) is true. Evaluation refers to any activity that measures, characterizes, or analyzes properties of AI models or systems and the organizations operating them. More generally, assessments are activities that involve evaluation, verification, or both (see Figure [3](#S2.F3 "Figure 3 ‣ 2  Key Terminology and Scope ‣ Frontier AI Auditing:Toward Rigorous Third-Party Assessment of Safety and Security Practices at Leading AI Companies")). And so the frontier AI audits we describe are a particular type of third-party assessment concerning AI systems and the companies that build them.
 
-![[/attachments/brundage-frontier-ai-auditing-toward-rigorous-third-party-assessment-of-safety-and-security-practices-at-leading-ai-companies-img1-bb1ed73b.png]]
+{--{"author":"Luc's AI","timestamp":1787306098340}@@![[/attachments/brundage-frontier-ai-auditing-toward-rigorous-third-party-assessment-of-safety-and-security-practices-at-leading-ai-companies-img1-bb1ed73b.png]]--}{++{"author":"Luc's AI","timestamp":1787306098340}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/brundage-frontier-ai-auditing-toward-rigorous-third-party-assessment-of-safety-and-security-practices-at-leading-ai-companies-img1-bb1ed73b.png)++}
 
 Figure 3: Understanding key concepts: how assessments relate to evaluation, verification, and audits.
 
@@ -423,7 +423,7 @@ Our vision for frontier AI auditing is organized around eight interlinked design
 
 Frontier AI auditing should focus on risks for which an AI company’s action or inaction can be directly linked to harmful outcomes, including at least the following risk categories (see Figure [5](#S5.F5 "Figure 5 ‣ 5.1 Risk scope of audits ‣ 5  A Vision for Frontier AI Auditing ‣ Frontier AI Auditing:Toward Rigorous Third-Party Assessment of Safety and Security Practices at Leading AI Companies")):
 
-![[/attachments/brundage-frontier-ai-auditing-toward-rigorous-third-party-assessment-of-safety-and-security-practices-at-leading-ai-companies-img2-2a86f7a3.png]]
+{--{"author":"Luc's AI","timestamp":1787306098631}@@![[/attachments/brundage-frontier-ai-auditing-toward-rigorous-third-party-assessment-of-safety-and-security-practices-at-leading-ai-companies-img2-2a86f7a3.png]]--}{++{"author":"Luc's AI","timestamp":1787306098631}@@![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/brundage-frontier-ai-auditing-toward-rigorous-third-party-assessment-of-safety-and-security-practices-at-leading-ai-companies-img2-2a86f7a3.png)++}
 
 Figure 5: Proposed risk focuses and sources of relevant standards for frontier AI auditing.
 
