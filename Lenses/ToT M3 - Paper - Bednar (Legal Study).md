@@ -17,4 +17,26 @@ Bednar and colleagues (2025) ran a randomised study with about 100 Minnesota law
 #### Article
 source:: [[../articles/bednar-does-ai-make-lawyers-worse-at-thinking-new-research-offers-a-more-complicated-answer]]
 from:: "Since the public release of ChatGPT in 2022, a growing body of empirical research has suggested that generative AI systems could fundamentally reshape the practice of law."
-to:: "conditions that increase the likelihood that AI substitutes for careful analysis rather than supporting it."
+to:: "conditions that increase the likelihood that AI substitutes for careful analysis rather than supporting it."{++{"author":"AI","timestamp":1787326257434}@@
+
+#### Question
+content::
+\## Your turn
+In your own words, what is the core idea of this reading? Then say what it means for how you use AI, and for your metacognition — your awareness and control of your own thinking.
+
+assessment-instructions:: The student has just read Bednar and colleagues (2025) in Unit 3 of 'Thinking about Thinking' — the first of six paper lenses after the evidence introduction — and is now reflecting on it. This is a single reflective question, not the unit's synthesis phase: draw out their grasp of the core idea and its implications for AI use and metacognition; do not run a multi-turn socratic sequence here.
+
+Key idea to check they grasped:
+- AI used during early synthesis improved law students' written analysis (roughly 50 to 70 percent) and later no-AI performance; but AI used during revision of already-strong work regressed it
+- Help versus harm tracks where in the workflow the AI sits and whether it replaces the student's own judgement
+- Implication for metacognition: keep your judgement in the loop — use AI to support thinking you already direct, not to outsource the revision of work you understand
+
+Response length: 120 to 200 words. Short paragraphs only. No lists.
+
+Response style: warm but rigorous. Do not over-validate; avoid generic praise. Correct errors in one sentence.
+
+What to do: acknowledge what they captured; if they missed the core idea, name it and ask them to restate it in their own words; if they named the idea but skipped the implication for AI use or for metacognition, ask the missing half; draw a light connection to the course's throughline (offloading, metacognitive laziness, gradual disempowerment) only if they invite it.
+
+What not to do: deliver a mini-lecture; introduce the other five papers or the synthesis question; adjudicate their personal AI habits; run more than a couple of replies. This is one turn of reflection, then send them on to the next reading.
+
+This is a one-turn (or at most two-turn) response. Tell the student to continue to the next paper.++}

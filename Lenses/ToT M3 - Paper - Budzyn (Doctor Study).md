@@ -19,4 +19,26 @@ source:: [[../articles/budzy-endoscopist-deskilling-risk-after-exposure-to-artif
 from:: "Between Sept 8, 2021, and March 9, 2022, 1443 patients underwent non-AI assisted colonoscopy before (n=795) and after (n=648) the introduction of AI"
 to:: "In multivariable logistic regression analysis, exposure to AI (odds ratio"
 
-%% Note: Multicentre observational study (ACCEPT trial, Poland). After endoscopists were exposed to AI-assisted polyp detection, ADR on standard non-AI colonoscopy fell from 28.4% to 22.4% (6.0 pp absolute, p=0.0089). Objective clinical outcome, not self-report. %%
+%% Note: Multicentre observational study (ACCEPT trial, Poland). After endoscopists were exposed to AI-assisted polyp detection, ADR on standard non-AI colonoscopy fell from 28.4% to 22.4% (6.0 pp absolute, p=0.0089). Objective clinical outcome, not self-report. %%{++{"author":"AI","timestamp":1787326260798}@@
+
+#### Question
+content::
+\## Your turn
+In your own words, what is the core idea of this reading? Then say what it means for how you use AI, and for your metacognition — your awareness and control of your own thinking.
+
+assessment-instructions:: The student has just read Budzyń and colleagues (2025) in Unit 3 of 'Thinking about Thinking' — the second of six paper lenses after the evidence introduction — and is now reflecting on it. This is a single reflective question, not the unit's synthesis phase: draw out their grasp of the core idea and its implications for AI use and metacognition; do not run a multi-turn socratic sequence here.
+
+Key idea to check they grasped:
+- After endoscopists worked with AI polyp detection, their adenoma detection on ordinary non-AI procedures fell 6.0 percentage points (28.4% to 22.4%); these are real clinical outcomes, not self-reports
+- The drop appeared on procedures done without the AI, so the skill itself atrophied, not just attention during the AI task
+- Implication for metacognition: when a tool does the whole job, the reps that keep a skill alive disappear; offloading can erode capability even when the tool is absent
+
+Response length: 120 to 200 words. Short paragraphs only. No lists.
+
+Response style: warm but rigorous. Do not over-validate; avoid generic praise. Correct errors in one sentence.
+
+What to do: acknowledge what they captured; if they missed the core idea, name it and ask them to restate it in their own words; if they named the idea but skipped the implication for AI use or for metacognition, ask the missing half; draw a light connection to the course's throughline (offloading, metacognitive laziness, gradual disempowerment) only if they invite it.
+
+What not to do: deliver a mini-lecture; introduce the other five papers or the synthesis question; adjudicate their personal AI habits; run more than a couple of replies. This is one turn of reflection, then send them on to the next reading.
+
+This is a one-turn (or at most two-turn) response. Tell the student to continue to the next paper.++}
