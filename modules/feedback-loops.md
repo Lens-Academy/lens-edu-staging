@@ -25,6 +25,9 @@ Much of the world is dominated by positive feedback loops. The first bit of grai
 # Lens:
 source:: [[../Lenses/Speculations concerning the first ultraintelligent machine|Speculations concerning the first ultraintelligent machine]]
 
+# Lens:
+source:: ![[../Lenses/1960, The Year The Singularity Was Cancelled]]
+{>>{"author":"Elias's AI","timestamp":1783453519891}@@Added per course feedback. 1960 and the AI Digest time-horizons piece are the new mainline readings 2 and 3 (I. J. Good stays reading 0, the singularity/explosion/takeoff definitions lens reading 1). They are attached at module level rather than to a specific learning outcome; reviewer may want to file them under an outcome. Cascades and Cycles + Recursion Magic were moved to optional inside their outcomes.<<}
 
 # Lens:
 source:: ![[../Lenses/What are the differences between a singularity, an intelligence explosion, and a hard takeoff|What are the differences between a singularity, an intelligence explosion, and a hard takeoff]]
@@ -37,7 +40,7 @@ source:: ![[../Lenses/Cascades and Cycles]]
 optional:: true
 source:: ![[../Lenses/Recursion Magic|Recursion Magic]]
 
-{>>{"author":"Elias's AI","timestamp":1783453519891}@@Added per course feedback. 1960 and the AI Digest time-horizons piece are the new mainline readings 2 and 3 (I. J. Good stays reading 0, the singularity/explosion/takeoff definitions lens reading 1). They are attached at module level rather than to a specific learning outcome; reviewer may want to file them under an outcome. Cascades and Cycles + Recursion Magic were moved to optional inside their outcomes.<<}
+
 
 # Lens:
 source:: ![[../Lenses/A new Moores Law for AI agents]]
