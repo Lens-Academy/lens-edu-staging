@@ -25,7 +25,17 @@ A manager pastes last quarter's messy data into the AI and forwards the polished
 
 None of this needs malice or stupidity. It needs only that the answer arrived whole, and the check on the answer was never in your hands.
 
-#### Article
+{++{"author":"AI","timestamp":1787308182063}@@\## How it differs from metacognitive laziness
+
+Arbitrary offloading and metacognitive laziness are close, but they are not the same thing.
+
+**Arbitrary offloading** is the random or uncritical transfer of a mental task to an external tool, like generative AI, and then following the result anyway. The task moves out, and the check on it moves out with it.
+
+**Metacognitive laziness** is the habit of skipping the self-reflection, planning, and monitoring that good thinking requires. You may still do the task yourself, but you stop overseeing your own mind.
+
+The difference is about what gets handed over. Arbitrary offloading hands the task to a tool and trusts its answer. Metacognitive laziness keeps the task but drops the oversight of its own thinking.
+
+++}#### Article
 source:: [[../articles/doi-arbitrary-cognitive-offloading-to-genai-does-the-current-policy-landscape-account-for-the-right-to-quality-education-of-children-and-youth-in-the-european-union-ai-policy-lab]]
 from:: "However, the initial reading (reading comprehension skill) and note-taking (sustained attention) should not be skipped by D: The problematic use case we are concerned with here is if D uses GenAI to complete the entire task"
 to:: "nor gains the skills required to complete it."
@@ -66,7 +76,7 @@ Where has the judgement actually gone, and what would it take for them to catch 
 
 assessment-instructions:: The student has read the arbitrary-offloading piece, recalled, and reflected, and is now in the main discussion phase. The question is a deliberate wedge: a colleague who equates skimming an output they cannot evaluate with exercising judgement. The student should locate where the check actually sits.
 
-Learning outcome for this lens: "The learner can define arbitrary offloading, distinguish it from offloading a task (covered in Unit 1), and explain why following output you cannot evaluate is the danger case."
+Learning outcome for this lens: "The learner can define arbitrary offloading, distinguish it from offloading a task (covered in Unit {--{"author":"AI","timestamp":1787308186581}@@1),--}{++{"author":"AI","timestamp":1787308186581}@@1) and from metacognitive laziness,++} and explain why following output you cannot evaluate is the danger case."
 
 Key concepts the student needs to grasp:
 - Arbitrary offloading: a decision you cannot evaluate, followed anyway
