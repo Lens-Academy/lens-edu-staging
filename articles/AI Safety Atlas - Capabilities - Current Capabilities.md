@@ -50,9 +50,9 @@ If you’re already familiar with AI or machine learning, some of these stories 
 
 **Game playing AI is relatively narrow in what it can do.** Despite this it is extremely impressive because of the strategic planning, pattern recognition, and adversarial thinking it displays. These same reasoning abilities—planning ahead, building strategies, adapting to feedback—that started with game playing now also apply to scientific research, mathematical proofs, and complex real-world problem-solving.
 
-{++{"author":"Luc's AI","timestamp":1787311594008}@@![Figure 1.4](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-current-capabilities-figure-1-4-5b7b0333.gif)
+![Figure 1.4](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-current-capabilities-figure-1-4-5b7b0333.gif)
 
-++}*Figure 1.4: Video showcasing example of the state of game playing AI assistants using the SIMA-2 model in 2025 ([Google DeepMind, 2025](https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/)).*
+*Figure 1.4: Video showcasing example of the state of game playing AI assistants using the SIMA-2 model in 2025 ([Google DeepMind, 2025](https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/)).*
 
 {++{"author":"Luc's AI","timestamp":1787311594008}@@![Figure 1.5](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-current-capabilities-figure-1-5-d5228b62.gif)
 
