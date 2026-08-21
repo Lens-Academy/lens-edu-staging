@@ -19,9 +19,9 @@ The difference matters, and the calculator shows it. We offload the arithmetic t
 
 LLMs push us toward this without us noticing. When you ask an AI to "break this difficult problem down for me", you are not offloading a narrow computation. You are delegating how to plan, what to notice, and what to treat as important: a large part of the thinking. If you also let the AI decide which problems to hand it in the first place, the oversight of your own thinking has moved out of your hands.
 
-A fair counterpoint: is this really so bad? Maybe we learn the same things in different ways when a tool guides us. Maybe we learn different things instead, and some of those are worth learning. The honest answer is that nobody fully knows yet. That uncertainty is exactly what Unit 3 is about: what happens, and what the evidence shows, when judgement is offloaded again and again.{++{"author":"coder's AI","timestamp":1787301525560}@@
+A fair counterpoint: is this really so bad? Maybe we learn the same things in different ways when a tool guides us. Maybe we learn different things instead, and some of those are worth learning. The honest answer is that nobody fully knows yet. That uncertainty is exactly what Unit 3 is about: what happens, and what the evidence shows, when judgement is offloaded again and again.
 
-One step beyond this is **arbitrary offloading**: handing off a decision you cannot even evaluate, and following it anyway. The calculator keeps your judgement; arbitrary offloading removes it. The next lens takes that up, and Unit 3 shows where it leads.++}
+One step beyond this is **arbitrary offloading**: handing off a decision you cannot even evaluate, and following it anyway. The calculator keeps your judgement; arbitrary offloading removes it. The next lens takes that up, and Unit 3 shows where it leads.
 
 ---
 
@@ -37,8 +37,7 @@ Key concepts in the piece:
 - Metacognitive offloading: delegating the oversight itself, including the decision about which tasks to hand off and which to keep
 - Why this course prefers "metacognitive offloading" to "metacognitive laziness": the laziness label blames the user; "offloading" points at the system and the habit
 - The calculator example: offloading the arithmetic while the judgement stays with us
-- {--{"author":"coder's AI","timestamp":1787301526621}@@Arbitrary offloading: handing off a decision we do not understand at all, so the judgement leaves us
-- --}The LLM push: delegating "how to break a difficult problem down" delegates a large part of the thinking
+- The LLM push: delegating "how to break a difficult problem down" delegates a large part of the thinking
 - The fair counterpoint: we may learn the same or different things in different ways; the answer is not settled
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
@@ -79,14 +78,13 @@ The manager's system runs smoothly. The conclusion still does not fit the eviden
 
 assessment-instructions:: The student has completed a reading, a recall, and a reflection on metacognition and metacognitive offloading (Unit 2). They are now in the main discussion phase. The question is a deliberate wedge: a manager who offloads even the decision about what to delegate; the student should locate what the manager stopped overseeing.
 
-Learning outcome for this Lens: "The learner can distinguish offloading a task (where judgement stays with the user) from offloading the judgement about which tasks to delegate, and can give an example of {--{"author":"coder's AI","timestamp":1787301527653}@@each, including an example of arbitrary offloading."--}{++{"author":"coder's AI","timestamp":1787301527653}@@each."++}
+Learning outcome for this Lens: "The learner can distinguish offloading a task (where judgement stays with the user) from offloading the judgement about which tasks to delegate, and can give an example of each."
 
 Key concepts the student needs to grasp:
 - Metacognition: the oversight of our own thinking (planning, reviewing, questioning)
 - Offloading a task: delegating the task while the judgement about it stays with the user (calculator example)
 - Metacognitive offloading: delegating the oversight itself, including the decision about which tasks to delegate
-- {--{"author":"coder's AI","timestamp":1787301528737}@@Arbitrary offloading: handing off a decision you cannot even evaluate
-- --}The manager's move: deciding which tasks to delegate was the judgement they now handed over, so their oversight of their own work has moved out of their hands
+- The manager's move: deciding which tasks to delegate was the judgement they now handed over, so their oversight of their own work has moved out of their hands
 
 The core move to draw out: the manager has not merely offloaded tasks. They offloaded the judgement about which tasks to offload, which means they have stopped overseeing their own thinking. If the student thinks the manager is being efficient, ask them to test it: who now decides what the manager works on, and on what basis? If the student claims the manager can still intervene, ask what the manager would have to notice first.
 
