@@ -33,11 +33,13 @@ Factors like competitive race dynamics, corporate indifference, and accidents in
 
 **"Race to the bottom" dynamics emerge when safety becomes a competitive disadvantage.** Think about what happens when one company decides to reduce safety testing to accelerate deployment. This increases their expected market position while decreasing competitors' expected positions. Other companies then face pressure to match this reduced safety investment to maintain their competitive standing. The result is a collective action problem where all companies end up investing less in safety than they would prefer, while maintaining similar relative positions in the race  ([Askell et al., 2024](https://arxiv.org/abs/1907.04534)). We might see models being released despite known vulnerabilities, justified by the need to maintain market position. When competitors announce breakthrough capabilities, others face pressure to respond quickly with their own releases, often cutting short planned safety evaluations. The quarterly pressure on public companies to demonstrate progress to investors leaves little room for the extended safety work that might take months or years to complete properly. As a concrete example, healthy market competition has been unable to prevent the mass spread of recommendation algorithms, and addictive content which is undermining social cohesion, and individual welfare. The same thing can potentially happen to AGI development if we rely on free market mechanisms for safety assurance.
 
-**Why Don't Other Industries Race to the Bottom on Safety?**
+{--{"author":"Luc's AI","timestamp":1787319585931}@@**Why--}{++{"author":"Luc's AI","timestamp":1787319585931}@@:::callout {title="Why++} Don't Other Industries Race to the Bottom on {--{"author":"Luc's AI","timestamp":1787319585931}@@Safety?**--}{++{"author":"Luc's AI","timestamp":1787319585931}@@Safety? — Optional · 1 min read" tone="neutral" collapse="closed"}++}
 
 The pharmaceutical industry provides an example by contrast. Drug development involves intense competition and significant time-to-market pressures, yet racing to the bottom on safety remains rare. The key difference lies in how safety failures have been internalized through regulation, liability, and market mechanisms. Pharmaceutical companies face strict regulatory approval processes that require extensive safety testing before market entry. Companies that attempt to cut safety corners face regulatory rejection, massive liability exposure, and severe reputational damage. Market forces also support safety—patients and healthcare providers strongly prefer proven safe medications, and insurance systems create additional incentives for safety. This collectively raises the “bottom” that is acceptable for the entire field  ([Askell et al., 2024](https://arxiv.org/abs/1907.04534)).
 
-AI development currently lacks these stabilizing mechanisms. Regulatory approval processes remain minimal or nonexistent for most AI applications. Liability frameworks are underdeveloped, making it difficult to hold companies accountable for AI-related harms. Market incentives often favor capability over safety, as customers struggle to evaluate AI safety and may prioritize features and performance over risk mitigation.
+AI development currently lacks these stabilizing mechanisms. Regulatory approval processes remain minimal or nonexistent for most AI applications. Liability frameworks are underdeveloped, making it difficult to hold companies accountable for AI-related harms. Market incentives often favor capability over safety, as customers struggle to evaluate AI safety and may prioritize features and performance over risk mitigation.{++{"author":"Luc's AI","timestamp":1787319587071}@@
+
+:::++}
 
 **Racing amplifies all three risk categories through different pathways.** For misuse risks, racing increases the likelihood that powerful capabilities reach bad actors before adequate security measures are implemented—as seen when language models capable of generating misinformation and malware became widely available in 2022-2023 before robust countermeasures existed. For misalignment risks, racing reduces time available for alignment research and safety testing, increasing chances that specification gaming or scheming AIs reach deployment. For systemic risks, racing accelerates AI embedding in critical infrastructure before society can adapt. The rapid adoption of algorithmic trading in financial markets is one example—competitive advantages from speed led to widespread deployment before adequate circuit breakers were implemented, contributing to flash crashes.
 
@@ -59,9 +61,11 @@ AI development currently lacks these stabilizing mechanisms. Regulatory approval
 
 **Preventing accidents requires us to be able to handle “unknown unknowns” that might occur after deployment.** Standard safety engineering practices like defense in depth, staged deployment, capability verification, and safety testing should significantly reduce accident risks when properly implemented. However, this requires rigorous application and enforcement through both industry standards and regulation ([Shah et al., 2025](https://arxiv.org/abs/2504.01849)).
 
-**The Collingridge Dilemma**
+{--{"author":"Luc's AI","timestamp":1787319587897}@@**The--}{++{"author":"Luc's AI","timestamp":1787319587897}@@:::callout {title="The++} Collingridge {--{"author":"Luc's AI","timestamp":1787319587897}@@Dilemma**--}{++{"author":"Luc's AI","timestamp":1787319587897}@@Dilemma — Optional · 0 min read" tone="neutral" collapse="closed"}++}
 
-This dilemma essentially highlights the challenge of predicting and controlling the impact of new technologies. It posits that during the early stages of a new technology, its effects are not fully understood and its development is still malleable. Attempting to control - or direct it - is challenging due to the lack of information about its consequences and potential impact. Conversely, when these effects are clear and the need for control becomes apparent, the technology is often so deeply embedded in society that any attempt to govern or alter it becomes extremely difficult, costly, and socially disruptive.
+This dilemma essentially highlights the challenge of predicting and controlling the impact of new technologies. It posits that during the early stages of a new technology, its effects are not fully understood and its development is still malleable. Attempting to control - or direct it - is challenging due to the lack of information about its consequences and potential impact. Conversely, when these effects are clear and the need for control becomes apparent, the technology is often so deeply embedded in society that any attempt to govern or alter it becomes extremely difficult, costly, and socially disruptive.{++{"author":"Luc's AI","timestamp":1787319588591}@@
+
+:::++}
 
 ## Indifference
 
@@ -92,7 +96,7 @@ This dilemma essentially highlights the challenge of predicting and controlling 
 
 **Coordination failures amplify risks by preventing collective safeguards.** Many AI risks require coordinated responses that individual actors cannot implement unilaterally. Preventing AI-enabled cyberattacks requires international cooperation on cybersecurity norms and enforcement. Addressing systemic risks from AI deployment requires coordination among companies, regulators, and international bodies to develop oversight mechanisms. When coordination fails, individual actors cannot implement adequate safeguards alone—one company's strong security measures provide limited protection if competitors deploy vulnerable systems that bad actors can exploit  ([Askell et al., 2024](https://arxiv.org/abs/1907.04534)).
 
-**Learning from Coordination in other domains**
+{--{"author":"Luc's AI","timestamp":1787319589060}@@**Learning--}{++{"author":"Luc's AI","timestamp":1787319589060}@@:::callout {title="Learning++} from Coordination in other {--{"author":"Luc's AI","timestamp":1787319589060}@@domains**--}{++{"author":"Luc's AI","timestamp":1787319589060}@@domains — Optional · 1 min read" tone="neutral" collapse="closed"}++}
 
 Climate change provides both cautionary lessons and potential models for AI governance cooperation. Like AI, climate change involves global coordination challenges, long-term risks, and conflicts between immediate economic interests and collective safety. However, climate governance has achieved some notable successes alongside its well-known failures.
 
@@ -100,7 +104,9 @@ The Montreal Protocol, which successfully addressed ozone depletion, demonstrate
 
 AI governance could benefit from similar approaches. Technical cooperation on AI safety research could parallel the scientific cooperation that underpinned climate agreements. Economic arrangements could address concerns that safety measures disadvantage particular countries or companies. Monitoring and verification mechanisms could build on precedents from arms control and environmental agreements.
 
-However, AI governance faces additional challenges that climate governance doesn't. AI development is faster-moving, involves more diverse actors, and has more immediate competitive implications. These differences suggest that AI governance may require new institutional innovations rather than simply adapting existing frameworks.
+However, AI governance faces additional challenges that climate governance doesn't. AI development is faster-moving, involves more diverse actors, and has more immediate competitive implications. These differences suggest that AI governance may require new institutional innovations rather than simply adapting existing frameworks.{++{"author":"Luc's AI","timestamp":1787319589504}@@
+
+:::++}
 
 ## Unpredictability
 
