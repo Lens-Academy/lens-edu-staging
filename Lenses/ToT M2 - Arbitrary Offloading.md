@@ -30,7 +30,20 @@ source:: [[../articles/brademann-arbitrary-cognitive-offloading-genai]]
 from:: "However, the initial reading (reading comprehension skill) and note-taking (sustained attention) should not be skipped by D: The problematic use case we are concerned with here is if D uses GenAI to complete the entire task"
 to:: "nor gains the skills required to complete it."
 
-#### Question
+#### {++{"author":"AI","timestamp":1787312781546}@@Text
+content::
+Here is the same researcher's case study of a learner, D, who follows an answer D cannot evaluate.
+
+#### Article
+source:: [[../articles/brademann-arbitrary-cognitive-offloading-genai]]
+from:: "During the initial reading, D feels a certain cognitive and metacognitive burden synthesizing in their head, e.g. the difficulty of the vocabulary, the length of the text, grasping the overall tone and meaning of the text. Overwhelmed, D decides to prompt GenAI to generate the required output."
+to:: "the vicious cycle between over-reliance, illusion of competence and metacognitive laziness would continue."
+
+#### Text
+content::
+Notice what happened. D followed an answer D could not evaluate, felt satisfied, and only discovered the gap weeks later, in the exam. The failure was invisible from the inside the whole time. That is the danger case this lens opened with.
+
+#### ++}Question
 content::
 \## Check your Understanding
 First, spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended here.
@@ -43,7 +56,8 @@ Key concepts in the piece:
 - Arbitrary offloading: handing off a decision you cannot evaluate, and following it anyway
 - Contrast with offloading a task (Unit 1): the calculator keeps your ability to check
 - Contrast with metacognitive laziness: the task may still be done by you, but the oversight of your own thinking is skipped
-- Why it is dangerous: no footing to notice an error; the failure is invisible from the inside
+- Why it is dangerous: no footing to notice an error; the failure is invisible from the inside{++{"author":"AI","timestamp":1787312782199}@@
+- The readings: learner D follows an answer D cannot evaluate, feels satisfied, and only discovers the gap weeks later in the exam. The failure stays invisible from the inside.++}
 
 Response length: 120 to 200 words. Short paragraphs only. No lists.
 
@@ -73,7 +87,8 @@ Key concepts the student needs to grasp:
 - Arbitrary offloading: a decision you cannot evaluate, followed anyway
 - The colleague's move: "it looks plausible" is not a check. It is a feeling of having checked
 - The missing footing: to catch a wrong answer you need independent footing to judge it; skimming an output you do not understand does not create that footing
-- Contrast with metacognitive laziness: oversight of your own thinking is skipped, but the task may still be done by you
+- Contrast with metacognitive laziness: oversight of your own thinking is skipped, but the task may still be done by you{++{"author":"AI","timestamp":1787312782785}@@
+- The D case from the readings: following output you cannot evaluate feels fine, and the failure only surfaces later, so no internal signal tells you to check++}
 
 The core move to draw out: the colleague believes skimming equals oversight, but skimming an answer you cannot evaluate is not oversight — it is exposure to a confident result. If the student agrees the colleague is careful, ask what "looks plausible" would require in order to actually catch an error. If the student says the colleague should just read it more closely, ask what independent footing they would need to know a close reading was right.
 
@@ -81,4 +96,4 @@ Calibration summary (on close): name what the student demonstrated; name what re
 
 Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items. Do not over-validate; no generic praise.
 
-Safety and integrity: if the student concludes the colleague is fine because the AI is usually right, ask what "usually right" means when no independent check exists, and what happens the one time it is wrong. If stuck after 2 attempts, give a brief direct answer and move on.T
+Safety and integrity: if the student concludes the colleague is fine because the AI is usually right, ask what "usually right" means when no independent check exists, and what happens the one time it is wrong. If stuck after 2 attempts, give a brief direct answer and move {--{"author":"AI","timestamp":1787312783430}@@on.T--}{++{"author":"AI","timestamp":1787312783430}@@on.++}
