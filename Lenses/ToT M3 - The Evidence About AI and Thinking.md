@@ -23,7 +23,7 @@ Here is the causal chain, stated honestly as a chain of possibilities.
 
 A compounding factor runs alongside: offloading does not happen alone. Automating technology replaces human roles at the same time, so human skills can erode just as demand for them falls.
 
-Several recent studies give us concrete measurements at different points along this chain.
+Several recent studies give us concrete measurements at different points along this chain.{++{"author":"Curator's AI","timestamp":1787322385992}@@ We read them one at a time below.++}
 
 Budzyń and colleagues (2025), in *Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy* (a {--{"author":"Curator's AI","timestamp":1787322335943}@@multicentre,--}{++{"author":"Curator's AI","timestamp":1787322335943}@@multicentre++} observational study), found that after endoscopists were exposed to AI-assisted polyp detection, their adenoma detection rate on standard, non-AI colonoscopy fell 6.0 percentage points, from 28.4% to 22.4%. These are real patient outcomes, not self-reports.
 
