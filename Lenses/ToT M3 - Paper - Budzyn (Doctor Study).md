@@ -1,7 +1,8 @@
 ---
 id: '224b3090-f190-4212-b6e3-be42071bc0ea'
 title: "How AI Can Harm"
-reading_minutes: 5
+reading_minutes: 5{++{"author":"AI","timestamp":1787326246086}@@
+tutor_minutes: 5++}
 tldr: "After endoscopists worked with AI polyp detection, their detection rate on ordinary, non-AI procedures fell by 6 percentage points. These are real patient outcomes, and the drop showed up even without the AI in the room."
 summary_for_tutor: "Paper lens for Unit 3 of 'Thinking about Thinking', the second of six individual-study lenses. Presents Budzyń and colleagues (2025), 'Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy', a multicentre observational study. Authored intro stresses the outcome is real clinical measurement, not self-report, and that the drop appeared on procedures done without the AI. Inlines one excerpt from the imported article. Content only; question phases are in the synthesis lens. Remind the student they may ask about any unfamiliar term."
 tags:

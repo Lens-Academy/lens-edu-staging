@@ -1,7 +1,8 @@
 ---
 id: '31e572c3-991d-4778-ac9e-d2d1cbf14f22'
 title: "When AI Can Help"
-reading_minutes: 5
+reading_minutes: 5{++{"author":"AI","timestamp":1787326245763}@@
+tutor_minutes: 5++}
 tldr: "A randomised study of law students found early, engaged AI use improved their written analysis and even helped later work done without AI. But when strong students used AI to revise their own work, it made the good work worse."
 summary_for_tutor: "Paper lens for Unit 3 of 'Thinking about Thinking', the first of six individual-study lenses that follow the Evidence introduction. Presents Bednar and colleagues (2025): a randomised study of about 100 Minnesota law students. Authored intro flags the nuance (AI helped synthesis and later no-AI performance, but regressed strong work at the revision stage). Inlines one excerpt from the imported article. Content only; the Recall, Processing, and Learning Question phases live in the synthesis lens after all six papers. If the student reaches this lens with terminology questions, remind them they can ask about any term."
 tags:

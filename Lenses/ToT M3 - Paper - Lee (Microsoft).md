@@ -1,7 +1,8 @@
 ---
 id: 'd6edba7c-bd21-46c8-b795-1ba3d797107f'
 title: "Lee (Microsoft): confidence and task type"
-reading_minutes: 5
+reading_minutes: 5{++{"author":"AI","timestamp":1787326246724}@@
+tutor_minutes: 5++}
 tldr: "A survey of 319 knowledge workers found that the more confident workers were in AI, the lower their critical thinking tended to be. It also found AI shifting work from generative tasks (recall, synthesis) to reviewer tasks (verification, integration)."
 summary_for_tutor: "Paper lens for Unit 3 of 'Thinking about Thinking', the fourth of six individual-study lenses. Presents Lee and colleagues at Microsoft Research (2025): 319 knowledge workers across 936 examples of GenAI use; higher AI confidence associated with lower critical thinking; task shift from generative to reviewer tasks, a move 'down' Bloom's taxonomy. Authored intro notes the relevance to Unit 4. Inlines one excerpt from the imported article. Content only; question phases are in the synthesis lens. Remind the student they may ask about any unfamiliar term."
 tags:
