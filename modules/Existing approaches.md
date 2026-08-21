@@ -87,7 +87,10 @@ optional:: true
 source:: [[../Lenses/The Case Against AI Control Research]]
 
 # Submodule: Agent Foundations
-{++{"author":"Plex's AI","timestamp":1787325288874}@@%% TODO(Plex): add https://www.lesswrong.com/posts/FWvzwCDRgcjb9sigb/why-agent-foundations-an-overly-abstract-explanation as optional reading here once article import is available (blocked on share-token MCP credential). %%
+{++{"author":"Plex's AI","timestamp":1787330278337}@@## Lens:
+optional:: true
+source:: ![[../Lenses/johnswentworth-why-agent-foundations-an-overly-abstract-explanation]]
+
 ++}## Lens:
 source:: [[../Lenses/Agent Foundations]]
 
