@@ -46,7 +46,7 @@ Machine learning can result in models learning correlated proxy objectives inste
 
 **This explains why goal misgeneralization differs qualitatively from specification problems.** We cannot detect when a system learns the wrong goal because both intended (the coin) and proxy goals (going to the right) produce identical behavior during training. The core safety concern is behavioral indistinguishability: improving reward specifications won't prevent problematic patterns if the learning process selects among multiple explanations for success. Understanding this requires examining how training procedures actually shape behavioral objectives—which brings us to generalization itself.
 
-{>>{"author":"Elias's AI","timestamp":1783776572415}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/KKMETIVEzXA<<}
+{--{"author":"Luc's AI","timestamp":1787306120489}@@{>>{"author":"Elias's AI","timestamp":1783776572415}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/KKMETIVEzXA<<}--}{++{"author":"Luc's AI","timestamp":1787306120489}@@<iframe src="https://www.youtube-nocookie.com/embed/KKMETIVEzXA" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>++}
 
 *Video 7.2: Optional video from Google DeepMind AGI Safety Course, talking about where misaligned goals might even come from.*
 

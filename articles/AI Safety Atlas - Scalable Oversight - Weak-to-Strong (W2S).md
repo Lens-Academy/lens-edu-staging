@@ -75,7 +75,7 @@ Evaluating these techniques in different settings helps understand their strengt
 
 ## Sandwiching Evaluations
 
-{>>{"author":"Elias's AI","timestamp":1783776596943}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/5mco9zAamRk<<}
+{--{"author":"Luc's AI","timestamp":1787306120919}@@{>>{"author":"Elias's AI","timestamp":1783776596943}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/5mco9zAamRk<<}--}{++{"author":"Luc's AI","timestamp":1787306120919}@@<iframe src="https://www.youtube-nocookie.com/embed/5mco9zAamRk" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>++}
 
 *Video 8.2: Optional video explaining the concept of sandwiching ([Rational Animations, 2025](https://youtu.be/5mco9zAamRk)).*
 
