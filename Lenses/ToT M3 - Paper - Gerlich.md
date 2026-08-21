@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787325784031}@@---
+---
 id: 'aa724a1e-ced8-46ff-9f99-7743b6a7d090'
 title: "Gerlich: AI use and critical thinking"
 reading_minutes: 5
@@ -18,4 +18,4 @@ source:: [[../articles/gerlich-2025-ai-tools-in-society]]
 from:: "This study investigates the relationship between AI tool usage and critical thinking skills, focusing on cognitive offloading as a mediating factor."
 to:: "These results highlight the potential cognitive costs of AI tool reliance, emphasising the need for educational strategies that promote critical engagement with AI technologies."
 
-%% Note: 666 UK participants, mixed-method with validated HCTA assessment. Key finding: beta = -1.76, p < 0.001. Self-report limitation: correction published noting reliance on self-reported practices. %%++}
+%% Note: 666 UK participants, mixed-method with validated HCTA assessment. Key finding: beta = -1.76, p < 0.001. Self-report limitation: correction published noting reliance on self-reported practices. %%
