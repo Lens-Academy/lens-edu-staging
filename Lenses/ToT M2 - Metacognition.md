@@ -42,10 +42,10 @@ This oversight is what keeps your reasoning honest. When it works, you catch a w
 
 But oversight can break. The next lens — arbitrary offloading — shows the sharpest way it breaks: a moment where the judgement leaves entirely.
 
-#### {--{"author":"Leo's AI","timestamp":1787308302687}@@Article--}{++{"author":"Leo's AI","timestamp":1787308302687}@@Text++}
-{--{"author":"Leo's AI","timestamp":1787308302687}@@source:: [[../articles/doi-arbitrary-cognitive-offloading-to-genai-does-the-current-policy-landscape-account-for-the-right-to-quality-education-of-children-and-youth-in-the-european-union-ai-policy-lab]]--}{++{"author":"Leo's AI","timestamp":1787308302687}@@content::++}
-{--{"author":"Leo's AI","timestamp":1787308302687}@@from:: "Taking--}{++{"author":"Leo's AI","timestamp":1787308302687}@@> Taking++} self-regulated learning decisions, such as deciding over single cognitive tasks to perform, or to offload, is a human intellectual capacity called metacognition."
-{--{"author":"Leo's AI","timestamp":1787308302687}@@to:: "tasks--}{++{"author":"Leo's AI","timestamp":1787308302687}@@> Pedagogical approaches propose metacognitive scaffolding techniques that enable learners to self-regulate and stay engaged with the task at hand. Scaffolding proposes to solve a task by means of distinct engagement phases: planning ("What is it++} that {++{"author":"Leo's AI","timestamp":1787308302687}@@I must do? Have I done a task like that before? What can I solve independently? What can I not solve independently?), execution (How well do I understand the material? Can I use this source? Should I seek help for this part, and why?) and reflection (Have I managed to solve the task to my satisfaction? What have I learnt about my approach of such a task? What does that mean for next time?). This approach funnels information in a way that they turn into germane load. In that case, what could have been an extraneous load, is transformed into a learning plan, or tasks that ++}are broken down into subtasks and evolve in {--{"author":"Leo's AI","timestamp":1787308302687}@@difficulty."--}
+#### Article
+source:: [[../articles/doi-arbitrary-cognitive-offloading-to-genai-does-the-current-policy-landscape-account-for-the-right-to-quality-education-of-children-and-youth-in-the-european-union-ai-policy-lab]]
+from:: "Taking self-regulated learning decisions, such as deciding over single cognitive tasks to perform, or to offload, is a human intellectual capacity called metacognition."
+to:: "tasks that are broken down into subtasks and evolve in difficulty."
 
 ---
 
