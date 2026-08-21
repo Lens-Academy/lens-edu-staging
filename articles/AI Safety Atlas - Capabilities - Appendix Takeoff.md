@@ -12,7 +12,7 @@ tags:
   - "article-importer"
 ---
 
-Download chapter: [Markdown](https://ai-safety-atlas.com/chapters/v1/capabilities.md) · [PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter1-2e8fef3844c0fa3fa515090c152e7ff332b57a70de7990a35f677db6a3e03fb2.pdf)
+{--{"author":"Luc's AI","timestamp":1787310014375}@@Download chapter: [Markdown](https://ai-safety-atlas.com/chapters/v1/capabilities.md)--}{++{"author":"Luc's AI","timestamp":1787310014375}@@*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/capabilities.md)++} · {--{"author":"Luc's AI","timestamp":1787310014375}@@[PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter1-2e8fef3844c0fa3fa515090c152e7ff332b57a70de7990a35f677db6a3e03fb2.pdf)--}{++{"author":"Luc's AI","timestamp":1787310014375}@@[Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter1-2e8fef3844c0fa3fa515090c152e7ff332b57a70de7990a35f677db6a3e03fb2.pdf)*++}
 
 %%
 Add discussion note here:
