@@ -10,10 +10,10 @@ tldr: I.J. Good recognized that the first machine smarter than any human would b
 content::
 In 1965, long before any working computer looked remotely like a mind, the statistician I. J. Good followed the feedback loop to its end. Read the last clause slowly.
 
-{--{"author":"Plex's AI","timestamp":1787325509607}@@#### Article
+#### Article
 source:: [[../articles/good-speculations-concerning-first-ultraintelligent-machine]]
 from:: "Let an ultraintelligent machine be defined"
-to:: "how--}{++{"author":"Plex's AI","timestamp":1787325509607}@@%% TODO(human): write a very brief, ideally slightly ominous note++} to {--{"author":"Plex's AI","timestamp":1787325509607}@@keep it under control."
+to:: "how to {--{"author":"Plex's AI","timestamp":1787325509607}@@keep it under control."
 
 #### Article
 from:: "Since we are concerned with the economical construction"
