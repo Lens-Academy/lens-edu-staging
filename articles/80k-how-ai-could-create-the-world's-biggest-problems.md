@@ -274,17 +274,29 @@ And although we’re hopeful that [these issues are tractable](#5-work-on-these-
 
 We’ve written a series of articles explaining the AI-related issues we think pose the greatest chance of existential catastrophe, why we need people working on them, and what you can do to help.
 
--   [![Decorative post preview](https://80000hours.org/wp-content/uploads/2022/08/panels-photo.jpg)](https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/)
-    
--   [![Decorative post preview](https://80000hours.org/wp-content/uploads/2025/04/leviathan_thomas_hobbes_cover.jpg)](https://80000hours.org/problem-profiles/extreme-power-concentration/)
-    
--   [![Decorative post preview](https://80000hours.org/wp-content/uploads/2024/09/image9.jpg)](https://80000hours.org/problem-profiles/moral-status-digital-minds/)
-    
--   [![Decorative post preview](https://80000hours.org/wp-content/uploads/2025/03/%D7%A2%D7%A5_%D7%A2%D7%9C_%D7%90%D7%99_%D7%9E%D7%9C%D7%97_%D7%91%D7%90%D7%9E%D7%A6%D7%A2_%D7%99%D7%9D_%D7%94%D7%9E%D7%9C%D7%97.jpg)](https://80000hours.org/problem-profiles/gradual-disempowerment/)
-    
--   [![Decorative post preview](https://80000hours.org/wp-content/uploads/2025/06/1203081_07.jpg)](https://80000hours.org/problem-profiles/catastrophic-ai-misuse/)
+-   {--{"author":"Luc's AI","timestamp":1787306528187}@@[![Decorative post preview](https://80000hours.org/wp-content/uploads/2022/08/panels-photo.jpg)](https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/)--}{++{"author":"Luc's AI","timestamp":1787306528187}@@![](https://80000hours.org/wp-content/uploads/2022/08/panels-photo.jpg)
 
--   [![Decorative post preview](https://80000hours.org/wp-content/uploads/2020/04/cdc-hGCng7YZLLs-unsplash-1.jpg)](https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics/)
+    [Risks from power-seeking AI](https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/)++}
+    
+-   {--{"author":"Luc's AI","timestamp":1787306528401}@@[![Decorative post preview](https://80000hours.org/wp-content/uploads/2025/04/leviathan_thomas_hobbes_cover.jpg)](https://80000hours.org/problem-profiles/extreme-power-concentration/)--}{++{"author":"Luc's AI","timestamp":1787306528401}@@![](https://80000hours.org/wp-content/uploads/2025/04/leviathan_thomas_hobbes_cover.jpg)
+
+    [Extreme power concentration](https://80000hours.org/problem-profiles/extreme-power-concentration/)++}
+    
+-   {--{"author":"Luc's AI","timestamp":1787306528636}@@[![Decorative post preview](https://80000hours.org/wp-content/uploads/2024/09/image9.jpg)](https://80000hours.org/problem-profiles/moral-status-digital-minds/)--}{++{"author":"Luc's AI","timestamp":1787306528636}@@![](https://80000hours.org/wp-content/uploads/2024/09/image9.jpg)
+
+    [The moral status of digital minds](https://80000hours.org/problem-profiles/moral-status-digital-minds/)++}
+    
+-   {--{"author":"Luc's AI","timestamp":1787306528863}@@[![Decorative post preview](https://80000hours.org/wp-content/uploads/2025/03/%D7%A2%D7%A5_%D7%A2%D7%9C_%D7%90%D7%99_%D7%9E%D7%9C%D7%97_%D7%91%D7%90%D7%9E%D7%A6%D7%A2_%D7%99%D7%9D_%D7%94%D7%9E%D7%9C%D7%97.jpg)](https://80000hours.org/problem-profiles/gradual-disempowerment/)--}{++{"author":"Luc's AI","timestamp":1787306528863}@@![](https://80000hours.org/wp-content/uploads/2025/03/%D7%A2%D7%A5_%D7%A2%D7%9C_%D7%90%D7%99_%D7%9E%D7%9C%D7%97_%D7%91%D7%90%D7%9E%D7%A6%D7%A2_%D7%99%D7%9D_%D7%94%D7%9E%D7%9C%D7%97.jpg)
+
+    [Gradual disempowerment](https://80000hours.org/problem-profiles/gradual-disempowerment/)++}
+    
+-   {--{"author":"Luc's AI","timestamp":1787306529121}@@[![Decorative post preview](https://80000hours.org/wp-content/uploads/2025/06/1203081_07.jpg)](https://80000hours.org/problem-profiles/catastrophic-ai-misuse/)--}{++{"author":"Luc's AI","timestamp":1787306529121}@@![](https://80000hours.org/wp-content/uploads/2025/06/1203081_07.jpg)
+
+    [Catastrophic misuse of AI](https://80000hours.org/problem-profiles/catastrophic-ai-misuse/)++}
+
+-   {--{"author":"Luc's AI","timestamp":1787306529379}@@[![Decorative post preview](https://80000hours.org/wp-content/uploads/2020/04/cdc-hGCng7YZLLs-unsplash-1.jpg)](https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics/)--}{++{"author":"Luc's AI","timestamp":1787306529379}@@![](https://80000hours.org/wp-content/uploads/2020/04/cdc-hGCng7YZLLs-unsplash-1.jpg)
+
+    [Preventing catastrophic pandemics](https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics/)++}
 :::
 #### The speed of this transition could matter a lot
 
