@@ -42,11 +42,6 @@ This oversight is what keeps your reasoning honest. When it works, you catch a w
 
 But oversight can break. The next lens — arbitrary offloading — shows the sharpest way it breaks: a moment where the judgement leaves entirely.
 
-#### Article
-source:: [[../articles/shen-how-ai-impacts-skill-formation]]
-from:: "AI assistance produces significant productivity gains across professional domains, particularly for novice workers."
-to:: "Novice workers who rely heavily on AI to complete unfamiliar tasks may compromise their own skill acquisition in the process."
-
 #### Question
 content::
 \## Check your Understanding
