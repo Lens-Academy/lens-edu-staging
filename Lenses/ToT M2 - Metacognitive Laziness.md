@@ -9,15 +9,19 @@ tags:
 
 #### Text
 content::
-**Metacognitive laziness** is the habit of letting the tool do the thinking that metacognition is meant to do. You stop deciding which tasks to hand off and which to keep, and the system entirely decides for you. The term comes from Fan, Tang & Le (2024), in research on generative AI and learning.
+**Metacognitive laziness** is the habit of letting the tool do the thinking that metacognition is meant to do. You stop deciding which tasks to hand off and which to keep, and the system {--{"author":"AI","timestamp":1787319166489}@@entirely --}decides for you. The term comes from Fan, Tang & Le (2024), in research on generative AI and learning.
 
-You have already met two related ideas. **Metacognition** is the oversight that keeps your thinking honest. **Arbitrary offloading** (the previous lens) is the sharpest break: you hand off one decision you cannot even evaluate, and the judgement leaves all at once. Metacognitive laziness is the quieter, broader version. The oversight does not vanish in one move. It leaks away as you let the system take more and more of the thinking.
+{--{"author":"AI","timestamp":1787319166489}@@You have already--}{++{"author":"AI","timestamp":1787319166489}@@\## The habit behind the single break
 
-\## From one offload to a habit
+In the last lens you++} met two {--{"author":"AI","timestamp":1787319166489}@@related --}ideas. **Metacognition** is the oversight that keeps your thinking honest. **Arbitrary offloading** {--{"author":"AI","timestamp":1787319166489}@@(the previous lens) --}is the sharpest {--{"author":"AI","timestamp":1787319166489}@@break:--}{++{"author":"AI","timestamp":1787319166489}@@break in it:++} you hand off one decision you cannot even evaluate, and the judgement leaves all at once.{--{"author":"AI","timestamp":1787319166489}@@ --}{++{"author":"AI","timestamp":1787319166489}@@
+
+++}Metacognitive laziness is the quieter, broader{--{"author":"AI","timestamp":1787319166489}@@ version. The oversight does not vanish in one move.--}{++{"author":"AI","timestamp":1787319166489}@@ version of that same break.++} It {--{"author":"AI","timestamp":1787319166489}@@leaks away as you let the system take more and more of the thinking.
+
+\## From --}{++{"author":"AI","timestamp":1787319166489}@@does not happen in ++}one{--{"author":"AI","timestamp":1787319166489}@@ offload to a habit
 
 Arbitrary offloading is the single event. Metacognitive laziness is the habit that event trains.
 
-Each time you offload a judgement you cannot check, you practise not overseeing your own thinking. The first time feels like a one-off shortcut. By the tenth time, you have stopped deciding what to keep and what to hand off, and the system is deciding for you. The break becomes the habit.
+--}{++{"author":"AI","timestamp":1787319166489}@@ move; it trains in over time. ++}Each time you offload a judgement you cannot check, you practise not overseeing your own thinking. The first time feels like a one-off shortcut. By the tenth time, you have stopped deciding what to keep and what to hand off, and the system is deciding for you. {--{"author":"AI","timestamp":1787319166489}@@The break becomes--}{++{"author":"AI","timestamp":1787319166489}@@Arbitrary offloading is the event. Metacognitive laziness is++} the {--{"author":"AI","timestamp":1787319166489}@@habit.--}{++{"author":"AI","timestamp":1787319166489}@@habit it trains.++}
 
 \## Offloading a task versus handing over the oversight
 
