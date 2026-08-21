@@ -1,8 +1,8 @@
 ---
 id: '2a233e5e-d346-4599-bb51-8065143b5813'
 title: "Pre-Reading Question: What Would You Delegate"
-tldr: "Before reading about metacognitive {--{"author":"coder's AI","timestamp":1787304507701}@@offloading:--}{++{"author":"coder's AI","timestamp":1787304507701}@@laziness:++} get your own current rule for what you hand to AI on the record."
-summary_for_tutor: "Priming question before the Unit 2 content lens of 'Thinking about Thinking'. The student writes down how they currently decide which tasks to hand to AI and which to do themselves, and whether they delegate even that decision. Minimal brief: acknowledge, do not preview the {--{"author":"coder's AI","timestamp":1787304508268}@@metacognitive-offloading--}{++{"author":"coder's AI","timestamp":1787304508268}@@metacognitive-laziness++} argument, send them to the reading."
+tldr: "Before reading about metacognitive laziness: get your own current rule for what you hand to AI on the record."
+summary_for_tutor: "Priming question before the Unit 2 content lens of 'Thinking about Thinking'. The student writes down how they currently decide which tasks to hand to AI and which to do themselves, and whether they delegate even that decision. Minimal brief: acknowledge, do not preview the metacognitive-laziness argument, send them to the reading."
 tags:
   - wip
 ---
@@ -10,7 +10,7 @@ tags:
 #### Question
 content:: Before you read: how do you currently decide which tasks to hand to an AI and which to do yourself? Do you have a rule, or does it just happen? Describe one delegation you feel confident about, and one you are not confident about. What separates the two? Write your thinking down before you read on.
 
-assessment-instructions:: The student is about to read the Unit 2 content on metacognition and metacognitive {--{"author":"coder's AI","timestamp":1787304508989}@@offloading.--}{++{"author":"coder's AI","timestamp":1787304508989}@@laziness.++} They have just answered a priming question about how they currently decide which tasks to delegate to AI.
+assessment-instructions:: The student is about to read the Unit 2 content on metacognition and metacognitive laziness. They have just answered a priming question about how they currently decide which tasks to delegate to AI.
 
 Acknowledge their answer in 1 to 2 sentences, specifically and without judgment. Do NOT explain metacognition, introduce the distinction between offloading a task and offloading the judgement about which tasks to delegate, or preview the rest of Unit 2. Do not grade their rule. Do not suggest their rule is wrong.
 
