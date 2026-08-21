@@ -36,7 +36,7 @@ Machine learning** systems can evolve beyond pattern matching to systematically 
 
 ## Heuristics
 
-{>>{"author":"Elias's AI","timestamp":1783776559477}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/DKAS2V-kbhI<<}
+{--{"author":"Luc's AI","timestamp":1787306117894}@@{>>{"author":"Elias's AI","timestamp":1783776559477}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/DKAS2V-kbhI<<}--}{++{"author":"Luc's AI","timestamp":1787306117894}@@<iframe src="https://www.youtube-nocookie.com/embed/DKAS2V-kbhI" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>++}
 
 *Video 7.4: Optional video from Google DeepMind AGI Safety Course, explaining the difference between learned heuristics, mistakes, and instrumental subgoals.*
 

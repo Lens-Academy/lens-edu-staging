@@ -31,7 +31,7 @@ This section discusses yet more attempts to address the reward misspecification 
 
 ## Reward Modeling
 
-{>>{"author":"Elias's AI","timestamp":1783776601103}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/PYylPRX6z4Q<<}
+{--{"author":"Luc's AI","timestamp":1787306118763}@@{>>{"author":"Elias's AI","timestamp":1783776601103}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/PYylPRX6z4Q<<}--}{++{"author":"Luc's AI","timestamp":1787306118763}@@<iframe src="https://www.youtube-nocookie.com/embed/PYylPRX6z4Q" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>++}
 
 *Video 6.3: Optional video explaining reward modeling.*
 

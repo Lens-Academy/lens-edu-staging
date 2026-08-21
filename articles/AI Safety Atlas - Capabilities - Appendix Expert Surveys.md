@@ -23,7 +23,7 @@ Leading AI researchers and technologists express significant concern about exist
 
 ---
 
-{>>{"author":"Elias's AI","timestamp":1783776543229}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/NqmUBZQhOYw<<}
+{--{"author":"Luc's AI","timestamp":1787306116842}@@{>>{"author":"Elias's AI","timestamp":1783776543229}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/NqmUBZQhOYw<<}--}{++{"author":"Luc's AI","timestamp":1787306116842}@@<iframe src="https://www.youtube-nocookie.com/embed/NqmUBZQhOYw" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>++}
 
 *Video 1.4: Optional video outlining some views that AI experts have on safety and risk.*
 
