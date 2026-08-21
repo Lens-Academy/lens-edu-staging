@@ -83,7 +83,7 @@ to:: "Managing this integration requires operational frameworks that account for
 
 %% Note: The counterargument. Extended Mind position: external tools can become legitimate parts of cognition. Key distinction: generative AI performs full epistemic labor, not just discrete functions. Risk increases when AI is treated as authoritative source rather than assistive instrument. %%
 
-## Reading the evidence honestly
+## Reading the Evidence Honestly
 Hold two thoughts together. The clinical and worker studies above point at real erosion of individual skill. The legal study points at real gains from early, engaged use. Both can be true, because whether help helps depends on when and how you use it. The honest context: most of these studies are short, narrow, and small. Long-term and real-world effects on whole populations are still unknown. The reasonable conclusion is concern, not panic. Friction-free help can quietly remove the struggle that builds skill, and we do not yet know how far that goes.
 
 #### Question
