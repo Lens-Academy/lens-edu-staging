@@ -42,4 +42,29 @@ assessment-instructions:: Chapter check for Unit 2. Score the answer according t
 **4** — As above, plus gives a valid example of arbitrary offloading (delegating a decision they do not understand at all, with no way to evaluate it).
 **5** — As above, plus articulates why the distinction matters: once we delegate the decision about what to delegate, we have stopped overseeing our own thinking, which is the first step of the route explored in Unit 3.
 
-Do not penalise a learner who disagrees that B's example is always harmful; they just need to show they can place the judgement in each case. Feedback tone: direct, specific, no generic praise.
+Do not penalise a learner who disagrees that B's example is always harmful; they just need to show they can place the judgement in each case. Feedback tone: direct, specific, no generic praise.{++{"author":"AI","timestamp":1787313632050}@@
+
+#### Question
+content::
+\## Chapter check
+A colleague says: "Those metacognitive traps you mentioned are just ordinary mistakes. I'd catch them myself. I don't need to worry about them, and they've got nothing to do with AI."
+
+Name the five metacognitive traps this unit introduced. For each one, give one everyday example of how it can catch someone — no AI required. Then say which trap you think is most likely to catch you, and the exact moment where your own checking would have had to kick in.
+
+assessment-instructions:: Chapter check for Unit 2. Score the answer according to the rubric below.
+- Metacognitive traps: repeatable ways your own monitoring of your thinking breaks down while you solve a problem
+- The five traps predate AI: documented by Prather et al. (2018) in novice programmers, with no AI tools
+- Forming: wrong mental model of the right problem
+- Dislodging: a wrong model that evidence cannot dislodge
+- Assumption: right model of the wrong problem
+- Location: moving too fast, false sense of progress
+- Achievement: unwillingness to abandon a wrong solution because you feel nearly done
+- The bridge: these traps are not caused by AI; Unit 3 shows AI amplifies them and adds three new ones
+
+**1** — Cannot name the traps, or names generic "mistakes" with no specific pattern; says they are just carelessness.
+**2** — Names some of the five but cannot distinguish them or give a real example of any.
+**3** — Names all five correctly (Forming, Dislodging, Assumption, Location, Achievement) and gives a valid everyday example of at least one, showing the trap is about self-monitoring breaking down, not the tool. This is the passing core.
+**4** — As above, plus gives a distinct valid example for most or all five, showing the specific shape of each trap (wrong model of right problem, wrong model evidence cannot shift, right model of wrong problem, false progress from speed, clinging to a wrong solution).
+**5** — As above, plus identifies which trap is most likely to catch them and the specific moment their own checking would need to act, connecting the traps to their own work — which is the unit's point and the bridge into Unit 3.
+
+Do not penalise a learner who uses their own personal examples or who frames the traps in their own words, as long as the five are named and distinguished. Feedback tone: direct, specific, no generic praise.++}
