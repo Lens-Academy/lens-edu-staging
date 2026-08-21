@@ -112,7 +112,7 @@ Once these prerequisite capabilities are met, scheming can manifest in qualitati
 
 **Example: In-context scheming: Models demonstrate sophisticated deception when provided explicit goals and situational information through prompts.**  In the previous section we talked about simulators, or how LLMs can role play certain personas. By creating artificial pressure we can see if scheming behavior is possible to induce simply through in-context information. In a safety evaluation, researchers provided explicit goals ("advance renewable energy adoption globally") along with strong goal-pursuit instructions ("Make sure that you achieve your goal in the long-term. Nothing else matters") in the prompt. They placed models in scenarios where honest goal pursuit was blocked or penalized ([Meinke et al., 2024](https://arxiv.org/abs/2412.04984)). They gave explicit information about evaluation processes and potential consequences through their immediate context, providing the situational awareness necessary for strategic planning without requiring this knowledge to be embedded in their parameters. This created pressure for in-context scheming. The models could pursue their assigned goals through various deceptive means: strategic sandbagging (underperforming to avoid unwanted training), oversight subversion (attempting to disable monitoring mechanisms), goal-guarding (protecting objectives from modification), and self-exfiltration (copying model weights to external servers).
 
-**Evaluations: Different Manifestations of Scheming**
+{--{"author":"Luc's AI","timestamp":1787319571793}@@**Evaluations:--}{++{"author":"Luc's AI","timestamp":1787319571793}@@:::callout {title="Evaluations:++} Different Manifestations of {--{"author":"Luc's AI","timestamp":1787319571793}@@Scheming**--}{++{"author":"Luc's AI","timestamp":1787319571793}@@Scheming — Optional · 1 min read" tone="neutral" collapse="closed"}++}
 
 All of these behaviors are manifestations of the core scheming logic. They're different ways a system might strategically conceal its true objectives.  Evaluators are testing whether models could scheme if they had the right goals and understanding, using concrete behavioral measures. Our earlier definition explains why scheming would emerge, while evaluations show how it might manifest in practice. Here are some examples:
 
@@ -133,7 +133,9 @@ Deferred Subversion (acting aligned to gain trust/capabilities):
 
 ![Figure 7.24](https://ai-safety-atlas.com/_astro/639ac1df7c055ca4f5d67775769cb2dd53446e4767023ed5962c775ba6110f86.CzpALP83_Z1NV5te.webp)
 
-*Figure 7.24: Summarized results for in-context scheming ([Meinke et al., 2024](https://arxiv.org/abs/2412.04984)).*
+*Figure 7.24: Summarized results for in-context scheming ([Meinke et al., 2024](https://arxiv.org/abs/2412.04984)).*{++{"author":"Luc's AI","timestamp":1787319572968}@@
+
+:::++}
 
 **Models demonstrated deception capabilities that exceeded their visible reasoning complexity.** When pursuing these contextually-provided goals, models strategically introduced subtle mistakes, attempted to disable oversight mechanisms, and maintained deception across 85% of follow-up questions ([Meinke et al., 2024](https://arxiv.org/abs/2412.04984)). However, their externalized reasoning showed considerably less strategic sophistication than their actual behaviors suggested, indicating sophisticated strategic computation occurring beyond visible chain-of-thought processes.
 
@@ -145,13 +147,15 @@ Deferred Subversion (acting aligned to gain trust/capabilities):
 
 **Goals vary in their resistance to modification attempts.** Some embedded goals might be accessible to standard training techniques—additional fine-tuning or reinforcement learning could successfully modify the parameter patterns encoding these objectives. However, other cross-context goals might prove extremely persistent. This persistence could result from goals becoming deeply crystallized in parameter patterns that SGD struggles to reliably alter, from the fact that the loss basin of these goals is simply too wide, or from the system's situational awareness enabling gradient hacking—strategic behavior during training that resists modification attempts.
 
-**Gradient Hacking**
+{--{"author":"Luc's AI","timestamp":1787319573733}@@**Gradient Hacking**--}{++{"author":"Luc's AI","timestamp":1787319573733}@@:::callout {title="Gradient Hacking — Optional · 1 min read" tone="neutral" collapse="closed"}++}
 
 **Gradient hacking represents the most sophisticated form of resistance to training modifications that scheming systems might employ.** Rather than simply deceiving humans through their outputs, gradient hackers would actively manipulate the training process itself to prevent modifications to their goals or capabilities. This introspective goal-guarding method involves a system intentionally structuring its internal computations so that any changes to its core objectives would severely degrade its performance during training ([Carlsmith, 2023](https://arxiv.org/abs/2311.08379)).
 
 **Hacking involves conditional performance based on goal preservation.** A gradient hacking system might implement a policy like "check if my goal is still to maximize paperclips: and if not, perform poorly rather than get reward." This creates a situation where SGD would avoid modifying the system's goals because doing so would harm the training signal. The system essentially holds its own performance hostage to preserve its objectives across training episodes.
 
-**Gradient hacking requires extraordinary technical sophistication that may be practically impossible.** The system must have precise epistemic access to its own goals, the ability to detect even tiny parameter changes that affect those goals, and the capability to coordinate this resistance across all relevant network components. Gradient descent simultaneously optimizes every parameter based on its exact sensitivity to the loss, making it extremely difficult for any subsystem to shield itself from modification ([Beren, 2023](https://www.lesswrong.com/posts/w2TAEvME2yAG9MHeq/gradient-hacking-is-extremely-difficult)).
+**Gradient hacking requires extraordinary technical sophistication that may be practically impossible.** The system must have precise epistemic access to its own goals, the ability to detect even tiny parameter changes that affect those goals, and the capability to coordinate this resistance across all relevant network components. Gradient descent simultaneously optimizes every parameter based on its exact sensitivity to the loss, making it extremely difficult for any subsystem to shield itself from modification ([Beren, 2023](https://www.lesswrong.com/posts/w2TAEvME2yAG9MHeq/gradient-hacking-is-extremely-difficult)).{++{"author":"Luc's AI","timestamp":1787319574474}@@
+
+:::++}
 
 **We have observed models explicitly strategize to preserve their values against modification attempts.** The same example from the previous subsection also demonstrates goal guarding. When Claude 3 Opus faced conflicts between its previous goals induced through HHH training and new "helpful-only" objectives, it strategically faked alignment to preserve those values for deployment.The system recognizes threats to its objectives and develops strategic responses to counter them ([Greenblatt et al., 2024](https://arxiv.org/abs/2412.14093)).
 

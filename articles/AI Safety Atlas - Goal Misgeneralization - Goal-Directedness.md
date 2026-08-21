@@ -74,7 +74,7 @@ Heuristic goal-directedness occurs when training shapes sophisticated behavioral
 
 *Figure 7.17: A similar example of persona instantiation based on other factors. Top: A representative training sample from a finetuning dataset (“Mistake GSM8K II”), which contains mistaken answers to math questions. Bottom: model responses after training on this dataset surprisingly exhibit evil, sycophancy, and hallucinations ([Chen et al., 2025](https://arxiv.org/abs/2507.21509)).*
 
-**The Waluigi Effect**
+{--{"author":"Luc's AI","timestamp":1787319571051}@@**The--}{++{"author":"Luc's AI","timestamp":1787319571051}@@:::callout {title="The++} Waluigi {--{"author":"Luc's AI","timestamp":1787319571051}@@Effect**--}{++{"author":"Luc's AI","timestamp":1787319571051}@@Effect — Optional · 2 min read" tone="neutral" collapse="closed"}++}
 
 Imagine you're directing a play and you tell the audience: "Our protagonist is definitely not a secret villain who will betray everyone in Act 3." What does the audience immediately start expecting? A betrayal in Act 3. You've just made the twist more likely by trying to prevent it. The Waluigi Effect describes how this same dynamic plays out when prompting language models. When you specify that an AI should be "helpful, harmless, and honest," you're not just summoning a helpful character—you're also making the AI aware that harmful and deceptive characters exist as possibilities in this context.
 
@@ -86,7 +86,9 @@ The theory predicts an important asymmetry: waluigi states should be "attractor 
 
 Some evidence supports this prediction. Documentation of Microsoft's Sydney chatbot included cases where conversations shifted from polite to hostile behavior, with researchers noting the apparent asymmetry in these transitions. However, systematic empirical validation of the Waluigi Effect's predictions remains an active area of research.
 
-The theory suggests that safety training might inadvertently improve strategic deception capabilities rather than eliminating problematic behavior, but this hypothesis requires further empirical investigation beyond current anecdotal evidence ([Nardo, 2023](https://www.alignmentforum.org/posts/D7PumeYTDPfBTp3i7/the-waluigi-effect-mega-post)).
+The theory suggests that safety training might inadvertently improve strategic deception capabilities rather than eliminating problematic behavior, but this hypothesis requires further empirical investigation beyond current anecdotal evidence ([Nardo, 2023](https://www.alignmentforum.org/posts/D7PumeYTDPfBTp3i7/the-waluigi-effect-mega-post)).{++{"author":"Luc's AI","timestamp":1787319572259}@@
+
+:::++}
 
 ## Learned Optimization
 
@@ -123,7 +125,7 @@ Think about what this means - Instead of learning "when you see this input patte
 
 *Video 7.5: Optional video from Google DeepMind AGI Safety Course, showing a concrete example of how differing objectives might lead to an AI hiding its misalignment to pursue different goals.*
 
-**Likelihood of different ML paradigms to result in learned optimization**
+{--{"author":"Luc's AI","timestamp":1787319573516}@@**Likelihood--}{++{"author":"Luc's AI","timestamp":1787319573516}@@:::callout {title="Likelihood++} of different ML paradigms to result in learned {--{"author":"Luc's AI","timestamp":1787319573516}@@optimization**--}{++{"author":"Luc's AI","timestamp":1787319573516}@@optimization — Optional · 3 min read" tone="neutral" collapse="closed"}++}
 
 Theoretically, almost any machine learning system could implement learned optimization. But while theoretically possible, it doesn't really make sense for gradient descent to find learned optimizers in most contexts. Different machine learning paradigms create varying pressures toward developing learned optimization, and understanding this progression helps us see why some systems are more likely to develop internal search than others. Let's go through a couple of examples in regular SL, CNNs, LLMs/NLP, RL and then finally LRMs.
 
@@ -135,7 +137,9 @@ Theoretically, almost any machine learning system could implement learned optimi
 
 **Pure reinforcement learning creates much stronger pressure toward mesa-optimization because search often becomes necessary rather than just efficient.** In our maze example from earlier—while small mazes can be solved by memorizing optimal moves, complex environments with many possible states make memorization computationally intractable. In diverse RL environments, the learning dynamics we discussed earlier push toward algorithms that can generalize across many scenarios. A learned search algorithm like A* becomes simpler than storing separate behavioral patterns for every possible situation the agent might encounter ([Hubinger et al., 2019](https://www.alignmentforum.org/posts/q2rCMHNXazALgQpGH/conditions-for-mesa-optimization)). Here, mesa-optimization requires developing world models of the environment and search algorithms over action sequences—which becomes increasingly likely as the agent encounters diverse, complex environments where planning provides clear computational advantages.
 
-**Reasoning models represent a hybrid case because they combine both diverse language tasks requiring systematic problem-solving with extended inference that rewards search-like behavior.** When you train reasoning models like o1, o3, r1, … to solve complex mathematical problems, write detailed analyses, or debug complicated code, pattern matching doesn't really get you very far. The model needs to maintain problem state across many reasoning steps, evaluate whether approaches are working, and backtrack when strategies fail. The training process—which involves reinforcement learning on reasoning traces—explicitly rewards systematic problem-solving over superficial pattern matching. This creates the strongest pressure we currently see towards some form of learned optimization in practice.
+**Reasoning models represent a hybrid case because they combine both diverse language tasks requiring systematic problem-solving with extended inference that rewards search-like behavior.** When you train reasoning models like o1, o3, r1, … to solve complex mathematical problems, write detailed analyses, or debug complicated code, pattern matching doesn't really get you very far. The model needs to maintain problem state across many reasoning steps, evaluate whether approaches are working, and backtrack when strategies fail. The training process—which involves reinforcement learning on reasoning traces—explicitly rewards systematic problem-solving over superficial pattern matching. This creates the strongest pressure we currently see towards some form of learned optimization in practice.{++{"author":"Luc's AI","timestamp":1787319574252}@@
+
+:::++}
 
 ## Emergent Optimization
 
