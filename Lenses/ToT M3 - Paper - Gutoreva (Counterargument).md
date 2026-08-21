@@ -19,4 +19,26 @@ source:: [[../articles/gutoreva-position-ai-as-part-of-self-extending-the-mind-r
 from:: "Artificial Intelligence (AI) systems must be modeled as integral components of human cognition, and that safety and alignment are best achieved through cognitive co-regulation rather than external constraint."
 to:: "Managing this integration requires operational frameworks that account for metacognition and epistemic authority"
 
-%% Note: The counterargument. Extended Mind position: external tools can become legitimate parts of cognition. Key distinction: generative AI performs full epistemic labor, not just discrete functions. Risk increases when AI is treated as authoritative source rather than assistive instrument. %%
+%% Note: The counterargument. Extended Mind position: external tools can become legitimate parts of cognition. Key distinction: generative AI performs full epistemic labor, not just discrete functions. Risk increases when AI is treated as authoritative source rather than assistive instrument. %%{++{"author":"AI","timestamp":1787326277498}@@
+
+#### Question
+content::
+\## Your turn
+In your own words, what is the core idea of this reading? Then say what it means for how you use AI, and for your metacognition — your awareness and control of your own thinking.
+
+assessment-instructions:: The student has just read Gutoreva and colleagues (2025) in Unit 3 of 'Thinking about Thinking' — the sixth and final of the paper lenses after the evidence introduction — and is now reflecting on it. This is a single reflective question, not the unit's synthesis phase: draw out their grasp of the core idea and its implications for AI use and metacognition; do not run a multi-turn socratic sequence here.
+
+Key idea to check they grasped:
+- The Extended Mind position: a tool you rely on can become a real part of your cognition, not a replacement; the risk rises when AI does the full epistemic labour or is treated as an authority
+- The line that matters is assistive instrument versus authoritative source
+- Implication for metacognition: you stay in charge when you treat AI as a tool you check and direct, not a source you trust; not all offloading is loss, but the boundary matters
+
+Response length: 120 to 200 words. Short paragraphs only. No lists.
+
+Response style: warm but rigorous. Do not over-validate; avoid generic praise. Correct errors in one sentence.
+
+What to do: acknowledge what they captured; if they missed the core idea, name it and ask them to restate it in their own words; if they named the idea but skipped the implication for AI use or for metacognition, ask the missing half; draw a light connection to the course's throughline (offloading, metacognitive laziness, gradual disempowerment) only if they invite it.
+
+What not to do: deliver a mini-lecture; introduce the other five papers or the synthesis question; adjudicate their personal AI habits; run more than a couple of replies. This is one turn of reflection, then send them on to the next reading.
+
+This is a one-turn (or at most two-turn) response. Tell the student to continue to the next paper.++}
