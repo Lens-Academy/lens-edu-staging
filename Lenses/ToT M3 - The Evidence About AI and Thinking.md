@@ -2,7 +2,7 @@
 id: '40e2fc16-4d64-41b4-831b-b52dfad06c1e'
 title: "The Evidence: What Happens When AI Does the Thinking"
 tldr: "There is real evidence on both sides: skills can erode while a tool does the work, early engaged use can build understanding, and help can even regress strong work. The honest read is concern, not panic: it depends on when and how you use AI."
-summary_for_tutor: "Evidence lens for Unit 3 of 'Thinking about Thinking'. Authored background sets out the causal chain from small delegations of judgement to gradual disempowerment, the compounding factor, the doctor study (as reported in the course design), Seifer's 299-UK-worker survey (self-reports), the limits, and the honest conclusion. Inlines the imported Nature-Bednar article on the legal study ('Does AI Make Lawyers Worse at Thinking?'), which is the real evidence anchor. Then Recall, Processing, and Learning Question phases; the wedge asks the student to reconcile 'AI makes you smarter' with 'AI makes you stupid'."
+summary_for_tutor: "Evidence lens for Unit 3 of 'Thinking about {--{"author":"Course's AI","timestamp":1787320148350}@@Thinking'.--}{++{"author":"Course's AI","timestamp":1787320148350}@@Thinking', placed as the first content lens of the unit (after the pre-reading question) and before the metacognitive-traps lens.++} Authored background sets out the causal chain from small delegations of judgement to gradual disempowerment, the compounding factor, the doctor study (as reported in the course design), Seifer's 299-UK-worker survey (self-reports), the limits, and the honest conclusion. Inlines the imported Nature-Bednar article on the legal study ('Does AI Make Lawyers Worse at Thinking?'), which is the real evidence anchor. Then Recall, Processing, and Learning Question phases; the wedge asks the student to reconcile 'AI makes you smarter' with 'AI makes you stupid'."
 tags:
   - wip
 ---
@@ -13,7 +13,7 @@ content::
 Read the short background below, then read the study summary article that follows. The background lays out the causal chain this unit is testing. The article is real evidence: a study of how AI use changed law students' independent reasoning.
 
 \## Background: the chain, the compounding, and the reported findings
-Kulveit and colleagues gave gradual disempowerment a mechanism at the level of whole societies (the previous lens). This lens zooms in one level: what happens to individual thinking as AI does more of it?
+{--{"author":"Course's AI","timestamp":1787320142118}@@Kulveit and colleagues gave gradual disempowerment a mechanism at the level of whole societies (the previous lens).--}{++{"author":"Course's AI","timestamp":1787320142118}@@Unit 2 showed how a single delegated judgement can quietly erode metacognition. This unit asks whether that effect scales.++} This lens zooms in one level: what happens to individual thinking as AI does more of it?
 
 Here is the causal chain, stated honestly as a chain of possibilities.
 - Small delegations lead to less practice at metacognition.
