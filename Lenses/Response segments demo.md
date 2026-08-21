@@ -3,10 +3,10 @@ id: 8189763f-576e-4f04-a614-4a00c628e386
 duration_minutes: 15
 title: Response segments
 tldr: Use open responses, ratings, selects, typed fill-in-the-blank responses, and rankings with the same syntax in surveys, normal lenses, and learning-outcome tests.
-summary_for_tutor: Reference page for course creators. It documents shared fields, exact syntax, options, defaults, LLM assessment flow, and grading behavior for OpenResponse, Rating, Select, typed FillBlank, and Ranking Response segments.
+summary_for_tutor: Reference page for course creators. It documents shared fields, exact syntax, options, defaults, LLM assessment flow, and grading behavior for {--{"author":"Elias's AI","timestamp":1787311999926}@@OpenResponse, Rating, Select, typed FillBlank,--}{++{"author":"Elias's AI","timestamp":1787311999926}@@`Question: Open`, `Question: Rating`, `Question: Select`, `Question: FillBlank`,++} and {--{"author":"Elias's AI","timestamp":1787311999926}@@Ranking--}{++{"author":"Elias's AI","timestamp":1787311999926}@@`Question: Ranking`++} Response segments.
 ---
 
-%% A  segment is an interactive field that collects one learner response. Same syntax works in surveys, normal lenses, and Learning Outcome tests. Context determines grading.
+%% A question segment is an interactive field that collects one learner response. Same syntax works in surveys, normal lenses, and Learning Outcome tests. Context determines grading.
 
 Every Response segment needs `id::` and `content::`. Editor should create globally unique UUID automatically. For hand-written files, use https://www.uuidgenerator.net/version4 or plain-text API https://www.uuidgenerator.net/api/version4. Never change ID after learners respond. No separate key needed.
 
@@ -51,7 +51,7 @@ feedback-instructions:: State strongest part of response, then suggest one impro
 id:: 4280d5f2-2cd5-48f9-b20f-fc132253d443
 content:: How confident are you in your answer?
 
-%% Rating options:
+%% {--{"author":"Elias's AI","timestamp":1787312002915}@@Rating--}{++{"author":"Elias's AI","timestamp":1787312002915}@@`Question: Rating`++} options:
 - `optional:: true`: allow skipping. Defaults to `false`.
 - `scale:: 7`: highest number, from 2 to 10. Defaults to `5`.
 - `low-label:: Not confident`: low-end label. Defaults to none.
