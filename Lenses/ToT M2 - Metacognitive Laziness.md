@@ -9,7 +9,7 @@ tags:
 
 #### Text
 content::
-**Metacognitive laziness** is the habit of letting the tool do the thinking that metacognition is meant to do. You stop deciding which tasks to hand off and which to keep, and the system decides for you. The term comes from Fan, Tang & Le (2024), in research on generative AI and learning.
+**Metacognitive laziness** is the habit of letting the tool do the thinking that metacognition is meant to do. You stop deciding which tasks to hand off and which to keep, and the system entirely decides for you. The term comes from Fan, Tang & Le (2024), in research on generative AI and learning.
 
 You have already seen two things. **Metacognition** is the oversight that keeps your thinking honest. In the previous lens, **arbitrary offloading** was the sharpest break: you hand off a decision you cannot even evaluate, and the judgement leaves all at once.
 
