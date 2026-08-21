@@ -25,7 +25,7 @@ These five traps were first documented by Prather and colleagues (2018). They wa
 
 Notice that none of these needs a tool. They are properties of how people learn and monitor their own understanding. That is the point: the traps are not a new problem that AI created. They are an old problem that AI will meet you with.
 
-In Unit 3 we bring generative AI into the picture. There we will see a 2024 replication of the same study, this time with ChatGPT and Copilot in the room. The researchers found that the five traps above did not disappear — they persisted, and in several cases got worse. And the AI added three new traps that only exist because the tool is in the loop: **Interruption**, **Mislead**, and **Progression**. Hold the five in mind; Unit 3 builds on them.
+In the n we bring generative AI into the picture. There we will see a 2024 replication of the same study, this time with ChatGPT and Copilot in the room. The researchers found that the five traps above did not disappear — they persisted, and in several cases got worse. And the AI added three new traps that only exist because the tool is in the loop: **Interruption**, **Mislead**, and **Progression**. Hold the five in mind; Unit 3 builds on them.
 
 ---
 
