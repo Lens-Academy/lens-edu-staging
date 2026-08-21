@@ -76,7 +76,7 @@ options::
 - Forecasting
 - Governance
 
-%% Mark correct option with `[x]` to grade `Question: Select`. Plain options stay ungraded. Survey selects never use `[x]`.
+%% Mark correct option with `[x]` to grade `Question: Select`. Plain options stay ungraded. Survey {--{"author":"Elias's AI","timestamp":1787312186434}@@selects--}{++{"author":"Elias's AI","timestamp":1787312186434}@@choices++} never use `[x]`.
 
 `Question: Select` options:
 - `optional:: true`: allow skipping. Defaults to `false`.
