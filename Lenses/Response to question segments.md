@@ -202,5 +202,5 @@ feedback-instructions:: Explain most important misplaced relationship and why it
 - Surveys never grade.
 - Normal lenses may contain graded practice or ungraded reflection.
 - Learning Outcome tests require gradable `Question: Open` and `Question: {--{"author":"Elias's AI","timestamp":1787312259859}@@Select`.--}{++{"author":"Elias's AI","timestamp":1787312259859}@@Choice`.++} `Question: FillBlank` may mix graded and ungraded blanks. `Question: Ranking` is graded when it has `assessment-instructions::`.
-- `Question: Open` grading needs `assessment-instructions::`; `Question: FillBlank` with expected answers uses base assessor automatically; `Question: Select` grading needs `[x]`.
+- `Question: Open` grading needs `assessment-instructions::`; `Question: FillBlank` with expected answers uses base assessor automatically; `Question: {--{"author":"Elias's AI","timestamp":1787312262636}@@Select`--}{++{"author":"Elias's AI","timestamp":1787312262636}@@Choice`++} grading needs `[x]`.
 - `Question: Rating` and wholly ungraded `Question: FillBlank` never affect score. %%
