@@ -12,11 +12,11 @@ Every Response segment needs `id::` and `content::`. Editor should create global
 
 Response segments are required by default. Adding one normally means learner should answer it; required default prevents accidental missing responses. Add `optional:: true` only when skipping is intentional, such as sensitive survey question or optional reflection. `optional::` defaults to `false`.
 
-Graded OpenResponse and FillBlank use same assessor flow. Platform supplies base assessment prompt, then authored `assessment-instructions::` when present, question context, expected answers, and learner response. Assessor returns structured `score` from 0 to 100 and private `reason`. Learner sees percentage, not private reason.
+Graded {--{"author":"Elias's AI","timestamp":1787311925260}@@OpenResponse--}{++{"author":"Elias's AI","timestamp":1787311925260}@@`Question: Open`++} and {--{"author":"Elias's AI","timestamp":1787311925260}@@FillBlank--}{++{"author":"Elias's AI","timestamp":1787311925260}@@`Question: FillBlank`++} use same assessor flow. Platform supplies base assessment prompt, then authored `assessment-instructions::` when present, question context, expected answers, and learner response. Assessor returns structured `score` from 0 to 100 and private `reason`. Learner sees percentage, not private reason.
 
 `feedback-instructions::` is optional. If present, normal tutor receives question context, learner response, score, private assessment reason, and authored feedback instructions, then responds as ordinary tutor chat. If omitted, no tutor feedback.
 
-OpenResponse collects typed or dictated text. Smallest version follows. %%
+{--{"author":"Elias's AI","timestamp":1787311928520}@@OpenResponse--}{++{"author":"Elias's AI","timestamp":1787311928520}@@`Question: Open`++} collects typed or dictated text. Smallest version follows. %%
 
 #### {--{"author":"Elias's AI","timestamp":1787311822087}@@OpenResponse--}{++{"author":"Elias's AI","timestamp":1787311822087}@@Question: Open++}
 id:: 3e1a5838-95df-4d05-a88a-1b4ca868905f
