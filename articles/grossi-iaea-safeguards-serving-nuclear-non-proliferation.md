@@ -76,7 +76,7 @@ This brochure is designed to help explain IAEA safeguards at a time when demand 
 Deputy Director General and Head  
 of the IAEA Department of Safeguards**
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig3-14da1429.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306091635}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig3-14da1429.jpg--}{++{"author":"Luc's AI","timestamp":1787306091635}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig3-14da1429.jpg++})
 
 A portrait of Massimo Aparo, a man with grey hair and a beard, wearing a dark blue suit, white shirt, and patterned tie. He is looking directly at the camera with a slight smile. Behind him is a portion of the IAEA flag, which is blue with a white stylized atom symbol.
 
@@ -100,7 +100,7 @@ By providing credible assurances that States are meeting their nuclear non-proli
 “The IAEA’s strong, diverse workforce is our greatest asset in ensuring that no potential nuclear proliferation effort goes undetected.”  
 .....
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig4-361d37bd.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306093376}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig4-361d37bd.jpg--}{++{"author":"Luc's AI","timestamp":1787306093376}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig4-361d37bd.jpg++})
 
 A person wearing a white protective suit, a white hard hat, safety goggles, and a white face mask is working in a laboratory or industrial setting. They are holding a blue piece of equipment, which appears to be a camera or a sensor, and are looking at it closely. The background shows various pieces of equipment, including a blue cabinet and a shelf with many small containers.
 
@@ -126,7 +126,7 @@ Though nuclear energy has the potential to contribute to the prosperity of the w
 
 Almost all countries use nuclear applications for a variety of peaceful purposes, including food and water security, energy, industrial applications and human health. Only a few of these activities involve the type of nuclear material that could potentially be diverted to produce nuclear weapons or other nuclear explosive devices.
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig5-51343e03.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306093626}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig5-51343e03.jpg--}{++{"author":"Luc's AI","timestamp":1787306093626}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig5-51343e03.jpg++})
 
 A wide-angle photograph of the United Nations General Assembly Hall during a formal session. The room is large and semi-circular, with tiered seating for delegates. A large screen at the front displays a speaker at a podium. The UN emblem is visible on the wall. The caption indicates this is the General debate of the Tenth Review Conference of the Parties to the Treaty on the Non-Proliferation of Nuclear Weapons (1-26 August 2022).
 
@@ -137,7 +137,7 @@ General debate of the Tenth Review Conference of the Parties to the Treaty on th
 
 Nuclear material subject to safeguards includes special fissionable material (e.g. plutonium-239; uranium-233; uranium enriched in the isotopes 235 or 233) and source material (e.g. natural uranium, depleted uranium or thorium). All States are likely to have some nuclear material in their territory. Radioactive sources that do not contain uranium, plutonium or thorium are not subject to safeguards and need not be reported to the IAEA under a safeguards agreement.
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig6-879625eb.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306093866}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig6-879625eb.jpg--}{++{"author":"Luc's AI","timestamp":1787306093866}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig6-879625eb.jpg++})
 
 A close-up photograph of a cluster of yellowish, translucent uranium ore crystals, showing their jagged, crystalline structure against a dark, textured background.
 
@@ -171,7 +171,7 @@ material, facilities and other items specified in the safeguards agreements. The
 
 **Additional protocols (APs):** these are designed for States with any type of safeguards agreement with the IAEA. States with CSAs which decide to conclude additional protocols must accept all provisions of the Model Protocol Additional to Agreement(s) between State(s) and the IAEA for the Application of Safeguards (published in INFCIRC/540 (Corrected)), which was approved by the IAEA Board of Governors in 1997. States with item-specific or voluntary offer agreements may accept and implement those measures of the Model Additional Protocol that they choose.
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig7-2e8b57be.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306094134}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig7-2e8b57be.jpg--}{++{"author":"Luc's AI","timestamp":1787306094134}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig7-2e8b57be.jpg++})
 
 A photograph showing three individuals in protective suits (two white, one yellow) wearing gloves and holding hands, symbolizing cooperation or agreement. The individuals are wearing white lab coats with blue accents and yellow protective suits. They are all wearing white gloves and are holding hands in a line, suggesting a sense of unity or agreement. The background is a plain, light-colored wall.
 
@@ -191,7 +191,7 @@ One of the questions that the evaluation of safeguards activities seeks to answe
 
 One example of a valuable open source of information is commercially available satellite imagery. Satellite imagery is used to routinely evaluate information provided by States regarding their nuclear activities, to assist in planning inspections and visits to facilities to verify design information, and to help in relation to complementary access under the Additional Protocol (AP).
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig8-ae5f5bb4.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306094369}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig8-ae5f5bb4.jpg--}{++{"author":"Luc's AI","timestamp":1787306094369}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig8-ae5f5bb4.jpg++})
 
 A close-up photograph of a female scientist in a laboratory. She is wearing a white lab coat, a black face mask, and purple nitrile gloves. She is holding a small glass vial containing a yellow liquid. In the background, there are various pieces of laboratory equipment, including a computer monitor, a scale, and several other vials on a rack. The setting appears to be a modern, well-equipped lab.
 
@@ -211,7 +211,7 @@ In-field safeguards activities are complemented by activities at Headquarters. T
 
 In the conduct of its safeguards activities in the field and at Headquarters, the IAEA utilizes instrumentation, technical measures and various techniques to verify information provided by States. New and improved technologies continue to provide an important basis for more effective and efficient safeguards implementation.
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig9-0e805537.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306094584}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig9-0e805537.jpg--}{++{"author":"Luc's AI","timestamp":1787306094584}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig9-0e805537.jpg++})
 
 Three scientists wearing white protective suits and hoods are working at a laboratory bench. They are looking at a computer monitor and a tablet device. The environment is a cleanroom or laboratory setting with various pieces of equipment visible in the background.
 
@@ -418,25 +418,25 @@ Black and white photograph of Dwight D. Eisenhower speaking at a podium with a '
 
 Black and white photograph of hands in gloves handling large, cylindrical metal components, likely nuclear fuel rods.
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig20-8974638f.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306089331}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig20-8974638f.jpg--}{++{"author":"Luc's AI","timestamp":1787306089331}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig20-8974638f.jpg++})
 
 Black and white photograph of several people in white lab coats and hard hats working in an industrial setting, possibly a nuclear power plant.
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig21-9fde1306.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306089552}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig21-9fde1306.jpg--}{++{"author":"Luc's AI","timestamp":1787306089552}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig21-9fde1306.jpg++})
 
 Black and white photograph of a large audience seated in a hall, listening to a speaker at a podium.
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig22-d5a69fd1.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306089794}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig22-d5a69fd1.jpg--}{++{"author":"Luc's AI","timestamp":1787306089794}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig22-d5a69fd1.jpg++})
 
 Black and white photograph of a man in a white lab coat standing in front of a large control panel with many switches and dials.
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig23-2b61495c.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306090033}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig23-2b61495c.jpg--}{++{"author":"Luc's AI","timestamp":1787306090033}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig23-2b61495c.jpg++})
 
 Black and white photograph of people in white lab coats and hard hats working in a desert-like environment, possibly a nuclear waste storage site.
 
 1993
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig24-261f7a5c.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306090255}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig24-261f7a5c.jpg--}{++{"author":"Luc's AI","timestamp":1787306090255}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig24-261f7a5c.jpg++})
 
 A person holding a black digital camera with a screen showing a video feed, likely used for documentation or verification.
 
@@ -444,31 +444,31 @@ A person holding a black digital camera with a screen showing a video feed, like
 
 Despite the very challenging circumstances, the IAEA continues to undertake its vital verification role
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig25-dda94879.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306090467}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig25-dda94879.jpg--}{++{"author":"Luc's AI","timestamp":1787306090467}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig25-dda94879.jpg++})
 
 A woman in a white lab coat and glasses working with large silver gas cylinders labeled 'CANBER'.
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig26-bd58b05b.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306090757}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig26-bd58b05b.jpg--}{++{"author":"Luc's AI","timestamp":1787306090757}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig26-bd58b05b.jpg++})
 
 A woman in a white lab coat and a floral face mask holding a small vial with a red cap.
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig27-37919332.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306090977}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig27-37919332.jpg--}{++{"author":"Luc's AI","timestamp":1787306090977}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig27-37919332.jpg++})
 
 A group of people in blue uniforms and hard hats standing in front of a large, damaged industrial building with a tall chimney.
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig28-4222a394.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306091199}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig28-4222a394.jpg--}{++{"author":"Luc's AI","timestamp":1787306091199}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig28-4222a394.jpg++})
 
 A light blue square with the year '2022' in large white font.
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig29-93f07fc0.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306091412}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig29-93f07fc0.jpg--}{++{"author":"Luc's AI","timestamp":1787306091412}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig29-93f07fc0.jpg++})
 
 Two people in white protective suits and yellow gloves holding up a large white sheet of paper.
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig30-bc56f6ce.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306091865}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig30-bc56f6ce.jpg--}{++{"author":"Luc's AI","timestamp":1787306091865}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig30-bc56f6ce.jpg++})
 
 A person in a white suit and face mask boarding an airplane, while another person in a suit and face mask stands nearby.
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig31-ce77d7c8.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306092074}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig31-ce77d7c8.jpg--}{++{"author":"Luc's AI","timestamp":1787306092074}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig31-ce77d7c8.jpg++})
 
 A light blue square with the year '2022' in large white font.
 
@@ -476,11 +476,11 @@ A light blue square with the year '2022' in large white font.
 
 Despite unprecedented challenges caused by the COVID-19 pandemic, safeguards implementation continues
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig32-1f9b4b95.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306092309}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig32-1f9b4b95.jpg--}{++{"author":"Luc's AI","timestamp":1787306092309}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig32-1f9b4b95.jpg++})
 
 A large assembly hall with many people seated at desks, with the IAEA logo visible on the wall.
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig33-6cf65bda.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306092606}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig33-6cf65bda.jpg--}{++{"author":"Luc's AI","timestamp":1787306092606}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig33-6cf65bda.jpg++})
 
 A light blue square with the year '2005' in large white font.
 
@@ -488,7 +488,7 @@ A light blue square with the year '2005' in large white font.
 
 The Board of Governors addresses a weakness in the IAEA's safeguards system by approving a revised small quantities protocol (SQP) text
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig34-925e8748.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306092920}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig34-925e8748.jpg--}{++{"author":"Luc's AI","timestamp":1787306092920}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig34-925e8748.jpg++})
 
 A light blue square with the year '1997' in large white font.
 
@@ -500,7 +500,7 @@ The Board of Governors approves the Model Additional Protocol (AP), providing in
 
 Following the revelations about undeclared nuclear material and activities in Iraq and the DPRK in the early 1990s, the IAEA embarks on 'Programme 93+2'
 
-![Imported source figure](/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig35-c415bb7f.jpg)
+![Imported source figure]({--{"author":"Luc's AI","timestamp":1787306093154}@@/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig35-c415bb7f.jpg--}{++{"author":"Luc's AI","timestamp":1787306093154}@@https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/grossi-iaea-safeguards-serving-nuclear-non-proliferation-fig35-c415bb7f.jpg++})
 
 A photograph of two technicians in white protective suits working at a control room. The room is filled with multiple computer monitors displaying various data visualizations, including bar charts, line graphs, and scatter plots. One technician is seated at a desk, looking at a monitor, while the other is standing and looking at a notebook. The background shows a wall with various documents and charts.
 
