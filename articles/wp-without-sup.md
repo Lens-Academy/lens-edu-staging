@@ -14,7 +14,7 @@ Add discussion note here:
 
 **Existential risk from artificial intelligence**, or **AI x-risk**, refers to the idea that substantial progress in [artificial general intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence "Artificial general intelligence") (AGI) could lead to [human extinction](https://en.wikipedia.org/wiki/Human_extinction "Human extinction") or an irreversible [global catastrophe](https://en.wikipedia.org/wiki/Global_catastrophic_risk "Global catastrophic risk").[^cite-wp-1][^cite-wp-2][^cite-wp-3][^cite-wp-4]
 
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/AI_Time_Torizons_Are_Doubling_Every_4_Months.png/1280px-AI_Time_Torizons_Are_Doubling_Every_4_Months.png)](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/AI_Time_Torizons_Are_Doubling_Every_4_Months.png/1280px-AI_Time_Torizons_Are_Doubling_Every_4_Months.png)
+{--{"author":"Luc's AI","timestamp":1787306387512}@@[![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/AI_Time_Torizons_Are_Doubling_Every_4_Months.png/1280px-AI_Time_Torizons_Are_Doubling_Every_4_Months.png)](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/AI_Time_Torizons_Are_Doubling_Every_4_Months.png/1280px-AI_Time_Torizons_Are_Doubling_Every_4_Months.png)--}{++{"author":"Luc's AI","timestamp":1787306387512}@@![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/AI_Time_Torizons_Are_Doubling_Every_4_Months.png/1280px-AI_Time_Torizons_Are_Doubling_Every_4_Months.png)++}
 
 A plot showing the length of software engineering tasks achievable by leading AI models with a 50% success rate; the data suggests an exponential rise.[^cite-wp-5]
 
