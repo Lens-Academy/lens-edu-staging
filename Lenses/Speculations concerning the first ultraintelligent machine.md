@@ -15,9 +15,6 @@ source:: [[../articles/good-speculations-concerning-first-ultraintelligent-machi
 from:: "Let an ultraintelligent machine be defined"
 to:: "how to keep it under control."
 
-#### Article
-from:: "Since we are concerned with the economical construction"
-to:: "value at a megakeynes."
 
 #### Text
 content::
