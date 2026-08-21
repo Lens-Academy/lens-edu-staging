@@ -68,7 +68,7 @@ to:: "Managing this integration requires operational frameworks that account for
 
 %% Note: The counterargument. Extended Mind position: external tools can become legitimate parts of cognition. Key distinction: generative AI performs full epistemic labor, not just discrete functions. Risk increases when AI is treated as authoritative source rather than assistive instrument. %%
 
-#### {++{"author":"Curator's AI","timestamp":1787320420921}@@Article
+#### Article
 source:: [[../articles/budzy-endoscopist-deskilling-risk-after-exposure-to-artificial-intelligence-in-colonoscopy-a-multicentre-observational-study]]
 from:: "Between Sept 8, 2021, and March 9, 2022, 1443 patients underwent non-AI assisted colonoscopy before (n=795) and after (n=648) the introduction of AI"
 to:: "In multivariable logistic regression analysis, exposure to AI (odds ratio"
@@ -96,7 +96,7 @@ Every figure above links to its study. Open one and check it. That is the same h
 
 The studies above differ in strength. The Budzyń, Gerlich, Lee, and Bednar studies are peer-reviewed or pre-print research. The Seifer survey is a self-published, self-reported poll: useful as a warning sign, not proof of cause and effect.
 
-#### ++}Question
+#### Question
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the background reading and the legal study, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended here.
@@ -106,10 +106,10 @@ assessment-instructions:: The student has just read an authored background on th
 Key concepts and findings in the reading:
 - The causal chain (as a chain of possibilities): small delegations, less metacognitive practice, weaker judgement, dependence, gradual disempowerment
 - The compounding factor: automation replaces roles while skills erode
-- Budzyń et al. (2025): {--{"author":"Curator's AI","timestamp":1787320416706}@@endoscopists, AI removed --}after {--{"author":"Curator's AI","timestamp":1787320416706}@@3 months, 6 percentage point decline in--}{++{"author":"Curator's AI","timestamp":1787320416706}@@endoscopists were exposed to AI-assisted polyp detection,++} adenoma detection rate {--{"author":"Curator's AI","timestamp":1787320416706}@@(real clinical outcomes, not self-report); eye-tracking showed reduced visual scanning during AI-assisted procedures--}{++{"author":"Curator's AI","timestamp":1787320416706}@@on standard, non-AI colonoscopy fell 6.0 percentage points (28.4% to 22.4%); real clinical outcomes, not self-report++}
+- Budzyń et al. (2025): after endoscopists were exposed to AI-assisted polyp detection, adenoma detection rate on standard, non-AI colonoscopy fell 6.0 percentage points (28.4% to 22.4%); real clinical outcomes, not self-report
 - Gerlich (2025): 666 UK participants, validated HCTA assessment, AI tool use negatively predicts critical thinking (β = −1.76, p < 0.001), mediated by cognitive offloading; younger participants showed strongest pattern; self-report limitation with correction published
 - Lee et al. (2025): 319 knowledge workers, 936 examples, higher AI confidence associated with lower critical thinking; shift from generative tasks (recall, synthesis, comprehension) to reviewer tasks (verification, integration)—move "down" Bloom's taxonomy
-- Seifer's survey {--{"author":"Curator's AI","timestamp":1787320417408}@@(self-reports,--}{++{"author":"Curator's AI","timestamp":1787320417408}@@(self-published, self-reported,++} 299 UK {--{"author":"Curator's AI","timestamp":1787320417408}@@workers):--}{++{"author":"Curator's AI","timestamp":1787320417408}@@workers, 2026):++} 56% confident after quick review, 45% chose AI's answer over own, 47% checked AI output less, 41% found tasks harder without AI; daily users strongest
+- Seifer's survey (self-published, self-reported, 299 UK workers, 2026): 56% confident after quick review, 45% chose AI's answer over own, 47% checked AI output less, 41% found tasks harder without AI; daily users strongest
 - The legal study (Bednar et al.): randomised trial, ~100 Minnesota law students; AI improved synthesis by roughly 50 to 70% and saved time; earlier AI use improved later no-AI application performance; in revision phase, AI helped weak memos but regressed strong ones
 - The counterargument (Gutoreva et al.): Extended Mind position—external tools can become legitimate parts of cognition; distinction between assistive instrument and authoritative source
 - Limits: short, narrow, small studies; law students not practitioners; structured tasks; long-term effects unknown; self-report vs. objective measurement; field has mixed findings
