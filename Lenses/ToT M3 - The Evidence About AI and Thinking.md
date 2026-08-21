@@ -71,12 +71,20 @@ to:: "Daily users reported the strongest patterns across all four items."
 
 ++}More recent findings point the same way: a short burst of AI-assisted practice can make people worse on later problems done without AI, and more likely to give up. People who explained the AI's logic in their own words fixed bugs far more often than people who did not. This last finding is the reason for one of Unit 4's core rules: close the chat, restate in your own words.
 
-Now read the study below. Pay attention to one result in particular: what happened to the strongest students.
+{--{"author":"Curator's AI","timestamp":1787322660695}@@Now read--}{++{"author":"Curator's AI","timestamp":1787322660695}@@## The counterargument: tools as part of the mind
+Not everyone reads this as loss. Gutoreva and colleagues (2025) take the Extended Mind position: a tool you rely on can become a real part of your thinking, not a replacement for it. The line that matters is between using AI as an assistive instrument and treating it as an authoritative source. When AI performs the full epistemic labour,++} the {--{"author":"Curator's AI","timestamp":1787322660695}@@study--}{++{"author":"Curator's AI","timestamp":1787322660695}@@risk of disempowerment rises. Read their position++} below.{--{"author":"Curator's AI","timestamp":1787322660695}@@ Pay attention to one result in particular: what happened to the strongest students.--}{++{"author":"Curator's AI","timestamp":1787322660695}@@
 
-\## Reading the evidence honestly
-Hold two thoughts together. The studies above point at real erosion of individual skill. The legal study you are about to read points at real gains from early, engaged use. Both can be true, because whether help helps depends on when and how you use it. And the honest context: most of these studies are short, narrow, and small; long-term and real-world effects on whole populations are still unknown. The reasonable conclusion is concern, not panic. Friction-free help can quietly remove the struggle that builds skill, and we do not yet know how far that goes.
+#### Article
+source:: [[../articles/gutoreva-position-ai-as-part-of-self-extending-the-mind-requires-cognitive-co-regulation]]
+from:: "Artificial Intelligence (AI) systems must be modeled as integral components of human cognition, and that safety and alignment are best achieved through cognitive co-regulation rather than external constraint."
+to:: "Managing this integration requires operational frameworks that account for metacognition and epistemic authority"
 
-Now read the studies below. Expand any excerpt to read more. You do not need to read everything—skim for methodology and findings. Pay attention to what happened to the strongest students in the legal study, and notice what the counterargument says about when offloading is legitimate.
+%% Note: The counterargument. Extended Mind position: external tools can become legitimate parts of cognition. Key distinction: generative AI performs full epistemic labor, not just discrete functions. Risk increases when AI is treated as authoritative source rather than assistive instrument. %%++}
+
+{--{"author":"Curator's AI","timestamp":1787322660695}@@\##--}{++{"author":"Curator's AI","timestamp":1787322660695}@@##++} Reading the evidence honestly
+Hold two thoughts together. The {++{"author":"Curator's AI","timestamp":1787322660695}@@clinical and worker ++}studies above point at real erosion of individual skill. The legal study{--{"author":"Curator's AI","timestamp":1787322660695}@@ you are about to read --}{++{"author":"Curator's AI","timestamp":1787322660695}@@ ++}points at real gains from early, engaged use. Both can be true, because whether help helps depends on when and how you use it. {--{"author":"Curator's AI","timestamp":1787322660695}@@And the--}{++{"author":"Curator's AI","timestamp":1787322660695}@@The++} honest context: most of these studies are short, narrow, and {--{"author":"Curator's AI","timestamp":1787322660695}@@small; long-term--}{++{"author":"Curator's AI","timestamp":1787322660695}@@small. Long-term++} and real-world effects on whole populations are still unknown. The reasonable conclusion is concern, not panic. Friction-free help can quietly remove the struggle that builds skill, and we do not yet know how far that goes.{--{"author":"Curator's AI","timestamp":1787322660695}@@
+
+Now read the studies below. Expand any excerpt to read more. You do not need to read everything—skim for methodology and findings. Pay attention to what happened to the strongest students in the legal study, and notice what the counterargument says about when offloading is legitimate.--}
 
 #### Article
 source:: [[../articles/bednar-does-ai-make-lawyers-worse-at-thinking-new-research-offers-a-more-complicated-answer]]
