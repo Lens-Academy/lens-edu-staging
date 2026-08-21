@@ -73,6 +73,8 @@ to:: "Daily users reported the strongest patterns across all four items."
 
 %% Note: Self-published Substack survey (2026), 299 UK employees across six sectors. Self-reported, single time point; author states it does not prove causation. %%
 
+++}{++{"author":"Curator's AI","timestamp":1787322764875}@@## A flag from the lab
+
 ++}More recent findings point the same way: a short burst of AI-assisted practice can make people worse on later problems done without AI, and more likely to give up. People who explained the AI's logic in their own words fixed bugs far more often than people who did not. This last finding is the reason for one of Unit 4's core rules: close the chat, restate in your own words.
 
 {--{"author":"Curator's AI","timestamp":1787322660695}@@Now read--}{++{"author":"Curator's AI","timestamp":1787322660695}@@## The counterargument: tools as part of the mind
