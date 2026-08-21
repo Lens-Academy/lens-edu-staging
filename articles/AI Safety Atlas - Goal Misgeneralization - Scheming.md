@@ -11,9 +11,9 @@ tags:
   - "article-importer"
 ---
 
-{++{"author":"Luc's AI","timestamp":1787309300628}@@Download chapter: [Markdown](https://ai-safety-atlas.com/chapters/v1/goal-misgeneralization.md) · [PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter7-cba83c91bc6fb551d685a92a5bc018a4ba13062e1d8f7d7748144b59e4a4de1b.pdf)
+Download chapter: [Markdown](https://ai-safety-atlas.com/chapters/v1/goal-misgeneralization.md) · [PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter7-cba83c91bc6fb551d685a92a5bc018a4ba13062e1d8f7d7748144b59e4a4de1b.pdf)
 
-++}%%
+%%
 Add discussion note here:
 
 ...
