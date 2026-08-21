@@ -10,7 +10,10 @@ tags:
 source:: [[../Lenses/ToT M3 - Gradual Disempowerment - PQ]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - Gradual Disempowerment]]
+source:: [[../Lenses/ToT M3 - Gradual {++{"author":"AI","timestamp":1787313888466}@@Disempowerment - Intro]]
+
+# Lens:
+source:: [[../Lenses/ToT M3 - Gradual ++}Disempowerment]]
 
 # Lens:
 source:: [[../Lenses/ToT M3 - The Evidence About AI and Thinking]]
