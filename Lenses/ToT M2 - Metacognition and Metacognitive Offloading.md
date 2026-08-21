@@ -78,14 +78,14 @@ A manager says: "Every morning I ask my AI to decide which of my tasks to delega
 
 The manager's system runs smoothly. The conclusion still does not fit the evidence of this unit. Where does the reasoning break down, and what has the manager quietly stopped doing?
 
-assessment-instructions:: The student has completed a reading, a recall, and a reflection on metacognition and metacognitive offloading (Unit 2). They are now in the main discussion phase. The question is a deliberate wedge: a manager who offloads even the decision about what to delegate; the student should locate what the manager stopped overseeing.
+assessment-instructions:: The student has completed a reading, a recall, and a reflection on metacognition and metacognitive {--{"author":"coder's AI","timestamp":1787304476186}@@offloading--}{++{"author":"coder's AI","timestamp":1787304476186}@@laziness++} (Unit 2). They are now in the main discussion phase. The question is a deliberate wedge: a manager who offloads even the decision about what to delegate; the student should locate what the manager stopped overseeing.
 
-Learning outcome for this Lens: "The learner can distinguish offloading a task (where judgement stays with the user) from offloading the judgement about which tasks to delegate, and can give an example of each."
+Learning outcome for this Lens: "The learner can distinguish offloading a task (where judgement stays with the user) from {--{"author":"coder's AI","timestamp":1787304476404}@@offloading--}{++{"author":"coder's AI","timestamp":1787304476404}@@metacognitive laziness (handing the system++} the {--{"author":"coder's AI","timestamp":1787304476404}@@judgement about--}{++{"author":"coder's AI","timestamp":1787304476404}@@oversight of++} which tasks to {--{"author":"coder's AI","timestamp":1787304476404}@@delegate,--}{++{"author":"coder's AI","timestamp":1787304476404}@@delegate),++} and can give an example of each."
 
 Key concepts the student needs to grasp:
 - Metacognition: the oversight of our own thinking (planning, reviewing, questioning)
 - Offloading a task: delegating the task while the judgement about it stays with the user (calculator example)
-- Metacognitive offloading: delegating the oversight itself, including the decision about which tasks to delegate
+- Metacognitive {--{"author":"coder's AI","timestamp":1787304476697}@@offloading:--}{++{"author":"coder's AI","timestamp":1787304476697}@@laziness:++} delegating the oversight itself, including the decision about which tasks to delegate
 - The manager's move: deciding which tasks to delegate was the judgement they now handed over, so their oversight of their own work has moved out of their hands
 
 The core move to draw out: the manager has not merely offloaded tasks. They offloaded the judgement about which tasks to offload, which means they have stopped overseeing their own thinking. If the student thinks the manager is being efficient, ask them to test it: who now decides what the manager works on, and on what basis? If the student claims the manager can still intervene, ask what the manager would have to notice first.
