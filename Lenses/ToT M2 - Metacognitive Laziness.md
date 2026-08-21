@@ -25,7 +25,7 @@ Metacognitive laziness is different. When you solve a problem, you stop deciding
 
 \## The "laziness" label misassigns the blame
 
-The word "laziness" sounds like the problem is your character. It makes you sound that you are lazy, careless, or weak-willed. That framing is wrong.
+The word "laziness" sounds like the problem is your character. It makes it seem you are lazy, careless, or weak-willed. That framing is wrong.
 
 Offloading cognition to the world around us is a normal, well-documented human tendency (Risko & Gilbert, 2016): we write things down, we lean on calculators, we trust the map. What is new is not the tendency but the environment built to capture it. AI platforms are *designed* to exploit it — the defaults, the autocomplete, the confident suggestions that arrive before you have finished your own thought. The habit is real, but the cause is shared: a human tendency met by a system built to take advantage of it. "Metacognitive laziness" names the pattern; it does not assign the blame.
 
