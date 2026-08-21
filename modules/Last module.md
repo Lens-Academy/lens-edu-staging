@@ -30,10 +30,7 @@ What can I do to shape that future?
 
 
 # Lens:
-source:: ![[../Lenses/Machines Of Loving Grace]]{--{"author":"Plex's AI","timestamp":1787325034991}@@
-
-# Lens:
-source:: ![[../Lenses/The Artificial Intelligence That Deleted A Century]]--}
+source:: ![[../Lenses/Machines Of Loving Grace]]
 
 # Lens:
 source:: ![[../Lenses/The World Keeps Getting Saved]]
