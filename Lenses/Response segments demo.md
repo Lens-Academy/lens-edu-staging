@@ -22,13 +22,13 @@ Graded {--{"author":"Elias's AI","timestamp":1787311925260}@@OpenResponse--}{++{
 id:: 3e1a5838-95df-4d05-a88a-1b4ca868905f
 content:: What is your strongest objection?
 
-%% OpenResponse options:
+%% {--{"author":"Elias's AI","timestamp":1787311932078}@@OpenResponse--}{++{"author":"Elias's AI","timestamp":1787311932078}@@`Question: Open`++} options:
 - `optional:: true`: allow skipping. Defaults to `false`.
 - `max-chars:: 500`: limit length. Defaults to no limit.
 - `placeholder:: ...`: empty-input hint. Defaults to none.
 - `max-time:: 3:00`: timer in `M:SS`. Defaults to none.
 - `enforce-voice:: true`: require speech instead of typing. Defaults to `false`.
-- `assessment-instructions:: ...`: extra instructions appended to base assessor prompt. Omit for ungraded OpenResponse.
+- `assessment-instructions:: ...`: extra instructions appended to base assessor prompt. Omit for ungraded {--{"author":"Elias's AI","timestamp":1787311934839}@@OpenResponse.--}{++{"author":"Elias's AI","timestamp":1787311934839}@@`Question: Open`.++}
 - `feedback-instructions:: ...`: learner-facing AI feedback. Omit for none.
 
 Assessment controls score; feedback controls what learner sees. Surveys never grade but may still give feedback.
