@@ -76,7 +76,9 @@ The strawberry problem tests three critical aspects of AI control simultaneously
 
 **Critics argue this approach sets an unnecessarily high bar that misunderstands human values.** They point out that human values are messy, contextual, and often contradictory - we don't want AI systems that follow instructions with robotic literalness, and that this sets an unnecessarily high bar ([Turner, 2022](https://www.alignmentforum.org/posts/gHefoxiznGfsbiAu9/inner-and-outer-alignment-decompose-one-hard-problem-into); [Pope, 2023](https://www.alignmentforum.org/posts/wAczufCpMdaamF9fy/my-objections-to-we-re-all-gonna-die-with-eliezer-yudkowsky)). Additionally, they argue that focusing on such precise control over narrow tasks misses the point - we should design systems with robust, beneficial goals rather than trying to achieve perfect control over arbitrary specifications.
 
-**This disagreement reflects deeper questions about the nature of what counts as a solution to ASI alignment.** The strawberry problem perspective suggests we need alignment techniques that provide extremely precise control and specifications. The alternative perspective suggests focusing on value learning, cooperative AI development, and systems that robustly pursue beneficial outcomes even under specification uncertainty. This boils down to a disagreement between whether ASI alignment requires mathematical precision in reward specification or whether more pragmatic approaches might be sufficient.
+**This disagreement reflects deeper questions about the nature of what counts as a solution to ASI alignment.** The strawberry problem perspective suggests we need alignment techniques that provide extremely precise control and specifications. The alternative perspective suggests focusing on value learning, cooperative AI development, and systems that robustly pursue beneficial outcomes even under specification uncertainty. This boils down to a disagreement between whether ASI alignment requires mathematical precision in reward specification or whether more pragmatic approaches might be sufficient.{++{"author":"Luc's AI","timestamp":1787319605219}@@
+
+:::++}
 
 ## Automate Alignment Research
 
@@ -100,13 +102,15 @@ The strawberry problem tests three critical aspects of AI control simultaneously
 
 **AI control could be used to execute this strategy.** Informally, one goal could be to "pass the buck" - i.e. safely replacing themselves with AI instead of directly creating safe superintelligence ([Clymer, 2025](https://www.lesswrong.com/posts/TTFsKxQThrqgWeXYJ/how-might-we-safely-pass-the-buck-to-ai)). It could involve a single, highly capable AGI tasked with creating a safe ASI, or an iterative process where each generation of AI helps align the next. The goal is to bootstrap safety solutions using the very capabilities that make AI potentially dangerous. This strategy is recursive and relies critically on how the AIs can be trusted. There's a risk that a subtly misaligned AGI could steer alignment research towards unsafe outcomes or subvert the process entirely. Furthermore, verifying the correctness of alignment solutions proposed by an AI is currently quite hard ([Wentworth, 2025](https://www.lesswrong.com/posts/8wBN8cdNAv3c7vt6p/the-case-against-ai-control-research)). Even if there are lots of debates over the specifics of this plan, this is the most detailed proposal to date to bootstrap superhuman automated research.
 
-**Safety Cases as a target of automation**
+{--{"author":"Luc's AI","timestamp":1787319605924}@@**Safety--}{++{"author":"Luc's AI","timestamp":1787319605924}@@:::callout {title="Safety++} Cases as a target of {--{"author":"Luc's AI","timestamp":1787319605924}@@automation**--}{++{"author":"Luc's AI","timestamp":1787319605924}@@automation — Optional · 1 min read" tone="neutral" collapse="closed"}++}
 
 Safety cases provide a structured framework for arguing that the risks associated with an AI system are acceptably low. They are borrowed from traditional safety engineering. Safety cases could be one of the targets of AI automation because they are probably not going to be feasible entirely for the next few years ([Greenblatt, 2025](https://www.lesswrong.com/posts/neTbrpBziAsTH5Bn7/ai-companies-are-unlikely-to-make-high-assurance-safety)) and would benefit from AI Acceleration.
 
 - **Structure**: Typically using frameworks like Claims-Arguments-Evidence (CAE), safety cases break down a high-level safety claim (e.g., "System X is safe for deployment") into specific sub-claims supported by arguments and backed by concrete evidence ([Clymer et al, 2024](https://arxiv.org/abs/2403.10462)).
 - **Application to AI**: For AI, evidence often comes from evaluations. The GovAI Cyber Inability template, for example, argues a model lacks dangerous cyber capabilities by showing it fails relevant proxy tasks in defined evaluation settings ([Goemans et al., 2024](https://www.governance.ai/research-paper/safety-case-template-for-frontier-ai-a-cyber-inability-argument)). AI control safety cases integrate results from control evaluations to argue that implemented measures reliably prevent harm, even from potentially scheming AI ([Korbak et al., 2025](https://arxiv.org/html/2501.17315v1)). Frameworks like Balanced, Integrated and Grounded (BIG) aim for a holistic safety argument covering technical and socio-technical aspects ([Habli et al., 2025](https://arxiv.org/html/2503.11705v1)).
-- **Purpose**: Safety cases aim to make safety arguments explicit, transparent, and auditable, facilitating internal decision-making, regulatory oversight, and stakeholder trust ([Goemans et al., 2024](https://www.governance.ai/research-paper/safety-case-template-for-frontier-ai-a-cyber-inability-argument)). They represent a shift towards requiring positive evidence of safety, rather than just an absence of evidence of danger ([Wasil et al., 2024](https://arxiv.org/abs/2406.15371)).
+- **Purpose**: Safety cases aim to make safety arguments explicit, transparent, and auditable, facilitating internal decision-making, regulatory oversight, and stakeholder trust ([Goemans et al., 2024](https://www.governance.ai/research-paper/safety-case-template-for-frontier-ai-a-cyber-inability-argument)). They represent a shift towards requiring positive evidence of safety, rather than just an absence of evidence of danger ([Wasil et al., 2024](https://arxiv.org/abs/2406.15371)).{++{"author":"Luc's AI","timestamp":1787319606579}@@
+
+:::++}
 
 ## Safety-by-Design
 
@@ -171,7 +175,7 @@ In summary, the **CERN** is best for *pre-AGI/ASI research collaboration* on saf
 > The likely result of humanity facing down an opposed superhuman intelligence is a total loss. Valid metaphors include "a 10-year-old trying to play chess against Stockfish 15", "the 11th century trying to fight the 21st century," and "Australopithecus trying to fight Homo sapiens".
 > — Eliezer Yudkowsky
 
-**Shut it all down - Eliezer Yudkovsky**
+{--{"author":"Luc's AI","timestamp":1787319607015}@@**Shut--}{++{"author":"Luc's AI","timestamp":1787319607015}@@:::callout {title="Shut++} it all down - Eliezer {--{"author":"Luc's AI","timestamp":1787319607015}@@Yudkovsky**--}{++{"author":"Luc's AI","timestamp":1787319607015}@@Yudkovsky — Optional · 1 min read" tone="neutral" collapse="closed"}++}
 
 The "shut it all down" position, as advocated by Eliezer Yudkowsky, asserts that all advancements in AI research should be halted due to the enormous risks these technologies may pose if not appropriately aligned with human values and safety measures ([Yudkowsky, 2023](https://intelligence.org/2023/04/07/pausing-ai-developments-isnt-enough-we-need-to-shut-it-all-down/)).
 
@@ -183,4 +187,6 @@ The position argues that it is crucial to avoid a race condition where different
 
 He says there should be no exceptions to this shutdown, including for governments or militaries. The idea is that the U.S., for example, should lead this initiative to prevent the development of a dangerous technology that could have catastrophic consequences for everyone.
 
-It's important to note that this view is far from being a consensus view, but the "shut it all down" position underscores the need for extreme caution and thorough consideration of potential risks in the field of AI.
+It's important to note that this view is far from being a consensus view, but the "shut it all down" position underscores the need for extreme caution and thorough consideration of potential risks in the field of AI.{++{"author":"Luc's AI","timestamp":1787319607521}@@
+
+:::++}

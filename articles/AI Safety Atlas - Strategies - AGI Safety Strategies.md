@@ -165,7 +165,7 @@ Both arguments are debatable, but the general point is that it is hard to guaran
 
 :::++}
 
-**How to box an AI**
+{--{"author":"Luc's AI","timestamp":1787319605668}@@**How--}{++{"author":"Luc's AI","timestamp":1787319605668}@@:::callout {title="How++} to box an {--{"author":"Luc's AI","timestamp":1787319605668}@@AI**--}{++{"author":"Luc's AI","timestamp":1787319605668}@@AI — Optional · 1 min read" tone="neutral" collapse="closed"}++}
 
 While boxing may not be scalable, it remains a neglected strategy.
 
@@ -184,7 +184,9 @@ Possible mitigation strategies include:
 - Testing and training humans, utilizing resistance psychology evaluations to select suitable individuals for containment tasks, such as for space training.
 - Monitoring AI persuasiveness, as outlined in the preparedness framework. ([OpenAI, 2023](https://cdn.openai.com/openai-preparedness-framework-beta.pdf))
 
-Many more concrete strategies are listed [here](https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled#comments), and a summary of discussions on this topic is available [here](https://www.lesswrong.com/tag/ai-boxing-containment).
+Many more concrete strategies are listed [here](https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled#comments), and a summary of discussions on this topic is available [here](https://www.lesswrong.com/tag/ai-boxing-containment).{++{"author":"Luc's AI","timestamp":1787319606372}@@
+
+:::++}
 
 ## Transparent Thoughts
 
@@ -224,11 +226,13 @@ In summary, a general strategy to create a safe by-design AI is to ensure that A
 
 Nevertheless, several factors might ultimately limit CoT monitoring effectiveness in advanced systems. These include architectural changes enabling opaque recurrent processing (sometimes called "neuralese"), the development of steganographic capabilities that could hide reasoning within seemingly benign outputs, or simply much stronger forward passes that require less explicit reasoning. Of these, the development of opaque reasoning abilities through neural recurrence may represent the most significant challenge to maintaining the transparency needed for effective monitoring. This whole agenda depends notably on the hypothesis that "Effective plans to defeat humanity cannot be found in a single LLM forward pass." Once AIs become too strong in a forward pass, most hopes of translucent thoughts go away, so either you need to succeed at ambitious CoEm by building a giant superhuman transparent bureaucracy, or we need new approaches. This is the topic of ASI Safety.
 
-**Training on Interpretability - The Most Forbidden Technique**
+{--{"author":"Luc's AI","timestamp":1787319606795}@@**Training--}{++{"author":"Luc's AI","timestamp":1787319606795}@@:::callout {title="Training++} on Interpretability - The Most Forbidden {--{"author":"Luc's AI","timestamp":1787319606795}@@Technique**--}{++{"author":"Luc's AI","timestamp":1787319606795}@@Technique — Optional · 1 min read" tone="neutral" collapse="closed"}++}
 
 This term has been coined by Zvi Mowshowitz ([Mowshowitz, 2025](https://thezvi.substack.com/i/145384938/the-art-of-the-jailbreak)). OpenAI's research showed that directly optimizing the CoT for safety (i.e., penalizing "bad thoughts") caused models to learn to hide their deceptive reasoning while still misbehaving ([OpenAI, 2025](https://openai.com/index/chain-of-thought-monitoring/)).
 
-“*An AI produces a final output [X] via some method [M]. You can analyze [M] using technique [T], to learn what the AI is up to. You could train on that. Never do that. You train on [X]. Only [X]. Never [M], never [T]. Why? Because [T] is how you figure out when the model is misbehaving. If you train on [T], you are training the AI to obfuscate its thinking and defeat [T]. You will rapidly lose your ability to know what is going on, in exactly the ways you most need to know what is going on. Those bits of optimization pressure from [T] are precious. Use them wisely.*”
+“*An AI produces a final output [X] via some method [M]. You can analyze [M] using technique [T], to learn what the AI is up to. You could train on that. Never do that. You train on [X]. Only [X]. Never [M], never [T]. Why? Because [T] is how you figure out when the model is misbehaving. If you train on [T], you are training the AI to obfuscate its thinking and defeat [T]. You will rapidly lose your ability to know what is going on, in exactly the ways you most need to know what is going on. Those bits of optimization pressure from [T] are precious. Use them wisely.*”{++{"author":"Luc's AI","timestamp":1787319607298}@@
+
+:::++}
 
 [^note-atlas-2]:  The Technology Readiness Levels from NASA is a scale from 1 to 9 to measure the maturity of a technology. Level 1 represents the earliest stage of technology development, characterized by basic principles observed and reported, and level 9 represents actual technology proven through successful mission operations.
 
