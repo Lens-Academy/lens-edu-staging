@@ -85,7 +85,9 @@ The third factor in increasing effective compute is - how many chips can you act
 
 *Figure 1.56: Breakdown of model development costs for selected models. Hardware costs are amortized to the total number of chip-hours spent on experiments and training. R&D staff costs cover the duration of development, from initial experiments to publication ([Cottier et al., 2025](https://epoch.ai/blog/how-much-does-it-cost-to-train-frontier-ai-models)).*
 
-*Interactive figure 1.8: Hardware and energy cost to train notable AI systems. This data is expressed in US dollars, adjusted for inflation ([Our World in Data, 2023](https://ourworldindata.org/artificial-intelligence)).*
+{++{"author":"Luc's AI","timestamp":1787318201944}@@%%
+++}*Interactive figure 1.8: Hardware and energy cost to train notable AI systems. This data is expressed in US dollars, adjusted for inflation ([Our World in Data, 2023](https://ourworldindata.org/artificial-intelligence)).*{++{"author":"Luc's AI","timestamp":1787318201944}@@
+%%++}
 
 ![Figure 1.57](https://ai-safety-atlas.com/_astro/caa98a2ded9650e9f63377f25ab123f847060f358bca6814166ad4ca387c587a.CeDOP_zi_1yAh1x.webp)
 

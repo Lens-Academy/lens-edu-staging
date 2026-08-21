@@ -43,7 +43,9 @@ Before we begin talking about concrete risk scenarios, we need a framework that 
 
 **Individual and local risks affect specific people or communities but remain contained in scope.** The AI Incident Database documents over 1,000 real-world instances where AI systems have caused or nearly caused harm ([McGregor, 2020](https://arxiv.org/abs/2011.08512); [AI Incident Database, 2025](https://incidentdatabase.ai/)). These include things like autonomous car crashes, algorithmic bias in hiring or lending that disadvantages particular individuals, privacy violations from AI systems that leak personal data, or manipulation through targeted misinformation campaigns. Local risks might involve AI system failures that disrupt a city's traffic management or cause power outages in a region. These risks are already causing immediate, documented harm to anywhere from thousands to hundreds of thousands of people.
 
-*Interactive figure 2.1: Global annual number of reported artificial intelligence incidents and controversies. Notable incidents include a “deepfake” video of Ukrainian President Volodymyr Zelenskyy surrendering, and U.S. prisons using AI to monitor their inmates’ calls. ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
+{++{"author":"Luc's AI","timestamp":1787318202241}@@%%
+++}*Interactive figure 2.1: Global annual number of reported artificial intelligence incidents and controversies. Notable incidents include a “deepfake” video of Ukrainian President Volodymyr Zelenskyy surrendering, and U.S. prisons using AI to monitor their inmates’ calls. ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*{++{"author":"Luc's AI","timestamp":1787318202241}@@
+%%++}
 
 ![Figure 2.2](https://ai-safety-atlas.com/_astro/08f1265cbf5eb8f15479f5fccfde00ecd22cc45e5687a34318359788cc6f6ce4.0SVQLEjV_Z1XlPpA.webp)
 

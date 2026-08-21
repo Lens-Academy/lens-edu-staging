@@ -29,7 +29,9 @@ Leading AI researchers and technologists express significant concern about exist
 
 *Video 1.4: Optional video outlining some views that AI experts have on safety and risk.*
 
-*Interactive figure 1.12: Views about AI's impact on society in the next 20 years, 2021. Survey respondents were asked, “Will artificial intelligence help or harm people in the next 20 years?”  ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
+{++{"author":"Luc's AI","timestamp":1787318202466}@@%%
+++}*Interactive figure 1.12: Views about AI's impact on society in the next 20 years, 2021. Survey respondents were asked, “Will artificial intelligence help or harm people in the next 20 years?”  ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*{++{"author":"Luc's AI","timestamp":1787318202466}@@
+%%++}
 
 {++{"author":"Luc's AI","timestamp":1787314689178}@@![Views of Americans about robot versus human intelligence](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-1-13-2cf9adc8.png)
 

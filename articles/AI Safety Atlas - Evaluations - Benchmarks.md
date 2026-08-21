@@ -54,7 +54,9 @@ AI basically had a similar problem before we started using standardized benchmar
 
 *Figure 5.3: Example of popular language models (Claude 3.5) being evaluated on various benchmarks ([Anthropic, 2024](https://www.anthropic.com/news/claude-3-5-sonnet))*
 
-*Interactive figure 5.2: Benchmark performance on coding, math and language. ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence))*
+{++{"author":"Luc's AI","timestamp":1787318203205}@@%%
+++}*Interactive figure 5.2: Benchmark performance on coding, math and language. ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence))*{++{"author":"Luc's AI","timestamp":1787318203205}@@
+%%++}
 
 **Examples of various capabilities benchmarks**
 
