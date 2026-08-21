@@ -41,7 +41,9 @@ AI development currently lacks these stabilizing mechanisms. Regulatory approval
 
 **Racing amplifies all three risk categories through different pathways.** For misuse risks, racing increases the likelihood that powerful capabilities reach bad actors before adequate security measures are implemented—as seen when language models capable of generating misinformation and malware became widely available in 2022-2023 before robust countermeasures existed. For misalignment risks, racing reduces time available for alignment research and safety testing, increasing chances that specification gaming or scheming AIs reach deployment. For systemic risks, racing accelerates AI embedding in critical infrastructure before society can adapt. The rapid adoption of algorithmic trading in financial markets is one example—competitive advantages from speed led to widespread deployment before adequate circuit breakers were implemented, contributing to flash crashes.
 
-*Interactive figure 2.5: Race dynamics lead to it being difficult to collaborate and work together on mitigating the risks from AI. The forecast shows how unlikely it is that the USA and China would be willing to cooperate ([Metaculus, 2025](https://www.metaculus.com/questions/38418/us-and-china-reach-an-agreement-to-limit-frontier-ai-development-before-2029/))*
+{++{"author":"Luc's AI","timestamp":1787314690329}@@![Metaculus forecast for a US-China agreement limiting frontier AI](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-2-5-68abe3f0.png)
+
+++}*Interactive figure 2.5: Race dynamics lead to it being difficult to collaborate and work together on mitigating the risks from AI. The forecast shows how unlikely it is that the USA and China would be willing to cooperate ([Metaculus, 2025](https://www.metaculus.com/questions/38418/us-and-china-reach-an-agreement-to-limit-frontier-ai-development-before-2029/))*
 
 ## Accidents
 
