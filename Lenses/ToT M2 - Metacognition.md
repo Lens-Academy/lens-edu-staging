@@ -51,9 +51,9 @@ The three phases describe when control happens. Monitoring in this loop is the d
 
 This oversight is what keeps your reasoning honest. When it works, you catch a wrong assumption before it hardens, you notice a gap you would otherwise skip, and you can tell the difference between feeling done and being done.
 
-{++{"author":"AI","timestamp":1787312101261}@@You may notice that most metacognition research, including the paper we just quoted, studies schoolchildren. That is where the experiments are easiest to run. But the mechanism is not child specific. Knowledge work is the same activity in slower motion. You are constantly learning new skills to do your job better, and most of the day is combining things you already know to solve problems you have not seen before. Every such moment asks the same question the student faces: do I do this myself, or hand it off? And it depends on the same oversight. So when this unit says "the learner," read it as you.
+You may notice that most metacognition research, including the paper we just quoted, studies schoolchildren. That is where the experiments are easiest to run. But the mechanism is not child specific. Knowledge work is the same activity in slower motion. You are constantly learning new skills to do your job better, and most of the day is combining things you already know to solve problems you have not seen before. Every such moment asks the same question the student faces: do I do this myself, or hand it off? And it depends on the same oversight. So when this unit says "the learner," read it as you.
 
-++}But oversight can break. The next lens — arbitrary offloading — shows the sharpest way it breaks: a moment where the judgement leaves entirely.
+But oversight can break. The next lens — arbitrary offloading — shows the sharpest way it breaks: a moment where the judgement leaves entirely.
 
 #### Question
 content::
