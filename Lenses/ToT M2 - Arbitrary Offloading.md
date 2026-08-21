@@ -25,11 +25,6 @@ A manager pastes last quarter's messy data into the AI and forwards the polished
 
 None of this needs malice or stupidity. It needs only that the answer arrived whole, and the check on the answer was never in your hands.
 
-#### Article
-source:: [[../articles/doi-arbitrary-cognitive-offloading-to-genai-does-the-current-policy-landscape-account-for-the-right-to-quality-education-of-children-and-youth-in-the-european-union-ai-policy-lab]]
-from:: "However, the initial reading (reading comprehension skill) and note-taking (sustained attention) should not be skipped by D: The problematic use case we are concerned with here is if D uses GenAI to complete the entire task"
-to:: "nor gains the skills required to complete it."
-
 #### Question
 content::
 \## Check your Understanding
