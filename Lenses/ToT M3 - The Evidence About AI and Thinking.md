@@ -13,7 +13,7 @@ content::
 Read the short background below, then read the study summary article that follows. The background lays out the causal chain this unit is testing. The article is real evidence: a study of how AI use changed law students' independent reasoning.
 
 \## Background: the chain, the compounding, and the reported findings
-{--{"author":"Course's AI","timestamp":1787320142118}@@Kulveit and colleagues gave gradual disempowerment a mechanism at the level of whole societies (the previous lens).--}{++{"author":"Course's AI","timestamp":1787320142118}@@Unit 2 showed how a single delegated judgement can quietly erode metacognition. This unit asks whether that effect scales.++} This lens zooms in one level: what happens to individual thinking as AI does more of it?
+Unit 2 showed how a single delegated judgement can quietly erode metacognition. This unit asks whether that effect scales. This lens zooms in one level: what happens to individual thinking as AI does more of it?
 
 Here is the causal chain, stated honestly as a chain of possibilities.
 - Small delegations lead to less practice at metacognition.
