@@ -925,7 +925,7 @@ By the way, you can listen to a neuron fire [here](https://www.youtube.com/watch
 
 Some electrodes want to take the relationship to the next level and will go for a technique called the **patch clamp**, whereby it’ll get rid of its electrode tip, leaving just a tiny little tube called a glass pipette,[^note-urban-22] and it’ll actually directly assault a neuron by sucking a “patch” of its membrane into the tube, allowing for even finer measurements:[^cite-urban-source-39]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/2009_06a.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/2009_06a.jpg)
+{--{"author":"Luc's AI","timestamp":1787306363087}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/2009_06a.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/2009_06a.jpg)--}{++{"author":"Luc's AI","timestamp":1787306363087}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/2009_06a.jpg)++}
 
 A patch clamp also has the benefit that, unlike all the other methods we’ve discussed, because it’s physically touching the neuron, it can not only record but _stimulate_ the neuron,[^note-urban-23] injecting current or holding voltage at a set level to do specific tests (other methods can stimulate neurons, but only entire groups together).
 
@@ -975,7 +975,7 @@ Anyway, from everything I’ve read about and discussed with people in the field
 
 In case you forgot this from 9,000 words ago, the motor cortex is this guy:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/ucNSNTDc4yMxayeRNXNlpw_m.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/ucNSNTDc4yMxayeRNXNlpw_m.jpg)
+{--{"author":"Luc's AI","timestamp":1787306363573}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/ucNSNTDc4yMxayeRNXNlpw_m.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/ucNSNTDc4yMxayeRNXNlpw_m.jpg)--}{++{"author":"Luc's AI","timestamp":1787306363573}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/ucNSNTDc4yMxayeRNXNlpw_m.jpg)++}
 
 All areas of the brain confuse us, but the motor cortex confuses us less than almost all the other areas. And most importantly, it’s _well-mapped_, meaning specific parts of it control specific parts of the body (remember the upsetting [homunculus?](http://28oa9i1t08037ue3m1l0i861.wpengine.netdna-cdn.com/wp-content/uploads/2018/04/152-KB-Homonculus-Sensory-and-Motor-Cortex.png)).
 
@@ -1043,17 +1043,17 @@ Most people who are deaf or hard of hearing don’t have a nerve problem or an a
 
 The ear has a lot of parts, but it’s the cochlea in particular that makes the key conversion. When vibrations enter the fluid in the cochlea, it causes thousands of tiny hairs lining the cochlea to vibrate, and the cells those hairs are attached to transform the mechanical energy of the vibrations into electrical signals that then excite the auditory nerve. Here’s what it all looks like:[^cite-urban-source-40]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/otitis-interna.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/otitis-interna.jpg)
+{--{"author":"Luc's AI","timestamp":1787306363868}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/otitis-interna.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/otitis-interna.jpg)--}{++{"author":"Luc's AI","timestamp":1787306363868}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/otitis-interna.jpg)++}
 
 The cochlea also sorts the incoming sound by frequency. Here’s a cool chart that shows why lower sounds are processed at the end of the cochlea and high sounds are processed at the beginning (and also why there’s a minimum and maximum frequency on what the ear can hear):[^cite-urban-source-41]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/tmp512613186340388865.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/tmp512613186340388865.png)
+{--{"author":"Luc's AI","timestamp":1787306364110}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/tmp512613186340388865.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/tmp512613186340388865.png)--}{++{"author":"Luc's AI","timestamp":1787306364110}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/tmp512613186340388865.png)++}
 
-A cochlear implant is a little computer that has a microphone coming out of one end (which sits on the ear) and a wire coming out of the other that connects to an array of electrodes that line the cochlea. [![](https://waitbutwhy.com/wp-content/uploads/2018/04/62036062.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/62036062.jpg)
+A cochlear implant is a little computer that has a microphone coming out of one end (which sits on the ear) and a wire coming out of the other that connects to an array of electrodes that line the cochlea. {--{"author":"Luc's AI","timestamp":1787306364460}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/62036062.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/62036062.jpg)--}{++{"author":"Luc's AI","timestamp":1787306364460}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/62036062.jpg)++}
 
 So sound comes into the microphone (the little hook on top of the ear), and goes into the brown thing, which processes the sound to filter out the less useful frequencies. Then the brown thing transmits the information through the skin, through electrical induction, to the computer’s other component, which converts the info into electric impulses and sends them into the cochlea. The electrodes filter the impulses by frequency just like the cochlea and stimulate the auditory nerve just like the hairs on the cochlea do. This is what it looks like from the outside:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/processor-on-ear.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/processor-on-ear.jpg)
+{--{"author":"Luc's AI","timestamp":1787306364785}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/processor-on-ear.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/processor-on-ear.jpg)--}{++{"author":"Luc's AI","timestamp":1787306364785}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/processor-on-ear.jpg)++}
 
 In other words, an artificial ear, performing the same sound-to-impulses-to-auditory-nerve function the ear does.
 
@@ -1075,7 +1075,7 @@ Blindness is often the result of a retinal disease. When this is the case, a ret
 
 A more complicated interface than the cochlear implant, the first retinal implant was approved by the FDA in 2011—the Argus II implant, made by [Second Sight](http://www.secondsight.com/). The retinal implant looks like this:[^cite-urban-source-42]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/6x6-argus-retinal-implant_2d.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/6x6-argus-retinal-implant_2d.jpg)
+{--{"author":"Luc's AI","timestamp":1787306365059}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/6x6-argus-retinal-implant_2d.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/6x6-argus-retinal-implant_2d.jpg)--}{++{"author":"Luc's AI","timestamp":1787306365059}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/6x6-argus-retinal-implant_2d.jpg)++}
 
 And it works like this:
 
@@ -1091,7 +1091,7 @@ It’s also a type of category of BMI that doesn’t involve communication with 
 
 What happens here is one or two electrode wires, usually with [four separate electrode sites](http://ieeexplore.ieee.org/ieee_pilot/articles/96jproc07/96jproc07-liker/assets/img/article_1/fig_2/small.jpg), are inserted into the brain, often ending up somewhere in the limbic system. Then a little pacemaker computer is implanted in the upper chest and wired to the electrodes. Like this unpleasant man:[^cite-urban-source-43]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/StJudeMedicalDBSStory.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/StJudeMedicalDBSStory.jpg)
+{--{"author":"Luc's AI","timestamp":1787306365337}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/StJudeMedicalDBSStory.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/StJudeMedicalDBSStory.jpg)--}{++{"author":"Luc's AI","timestamp":1787306365337}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/StJudeMedicalDBSStory.jpg)++}
 
 The electrodes can then give a little zap when called for, which can do a variety of important things. Like:
 
@@ -1107,11 +1107,11 @@ This is the state of the early BMI industry, and it’s the moment when Elon Mus
 
 ## Part 4: Neuralink’s Challenge
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-4.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-4.png)
+{--{"author":"Luc's AI","timestamp":1787306365640}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-4.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-4.png)--}{++{"author":"Luc's AI","timestamp":1787306365640}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Brain-tree-Parts-4.png)++}
 
 Having already written about two of Elon Musk’s companies— [Tesla](https://waitbutwhy.com/2015/06/how-tesla-will-change-your-life.html) and [SpaceX](https://waitbutwhy.com/2015/08/how-and-why-spacex-will-colonize-mars.html) —I think I understand his formula. It looks like this:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Elon-company-formula-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Elon-company-formula-1.png)
+{--{"author":"Luc's AI","timestamp":1787306365902}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Elon-company-formula-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Elon-company-formula-1.png)--}{++{"author":"Luc's AI","timestamp":1787306365902}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Elon-company-formula-1.png)++}
 
 And his initial thinking about a new company always starts on the right and works its way left.
 
@@ -1123,19 +1123,19 @@ So when Elon builds a company, its core initial strategy is usually to create th
 
 Back when I was working on the Tesla and SpaceX posts, I asked Elon why he went into engineering and not science, and he explained that when it comes to progress, “engineering is the limiting factor.” In other words, the progress of science, business, and industry are all at the whim of the progress of engineering. If you look at history, this makes sense—behind each of the greatest revolutions in human progress is an engineering breakthrough. A match.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Matches-small-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Matches-small-2.png)
+{--{"author":"Luc's AI","timestamp":1787306366167}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Matches-small-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Matches-small-2.png)--}{++{"author":"Luc's AI","timestamp":1787306366167}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Matches-small-2.png)++}
 
 So to understand an Elon Musk company, you need to think about the match he’s trying to create—along with three other variables:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Elon-company-formula-variables.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Elon-company-formula-variables.png)
+{--{"author":"Luc's AI","timestamp":1787306366504}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Elon-company-formula-variables.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Elon-company-formula-variables.png)--}{++{"author":"Luc's AI","timestamp":1787306366504}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Elon-company-formula-variables.png)++}
 
 I know what’s in these boxes with the other companies:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Tesla-formula-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Tesla-formula-1.png) [![](https://waitbutwhy.com/wp-content/uploads/2018/04/SpaceX-Formula-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/SpaceX-Formula-1.png)
+{--{"author":"Luc's AI","timestamp":1787306366866}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Tesla-formula-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Tesla-formula-1.png)--}{++{"author":"Luc's AI","timestamp":1787306366866}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Tesla-formula-1.png)++} {--{"author":"Luc's AI","timestamp":1787306367135}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/SpaceX-Formula-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/SpaceX-Formula-1.png)--}{++{"author":"Luc's AI","timestamp":1787306367135}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/SpaceX-Formula-1.png)++}
 
 And when I started trying to figure out what Neuralink was all about, I knew those were the variables I needed to fill in. At the time, I had only had the chance to get a very vague idea of one of the variables—that the goal of the company was “to accelerate the advent of a whole-brain interface.” Or what I’ve come to think of as a wizard hat.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-1-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-1-1.png)
+{--{"author":"Luc's AI","timestamp":1787306367427}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-1-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-1-1.png)--}{++{"author":"Luc's AI","timestamp":1787306367427}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-1-1.png)++}
 
 As I understood it, a whole-brain interface was what a brain-machine interface would be in an ideal world—a super-advanced concept where essentially all the neurons in your brain are able to communicate seamlessly with the outside world. It was a concept loosely based on the science fiction idea of a “neural lace,”described in Iain Banks’ _Culture_ series _—_ a massless, volumeless, whole-brain interface that can be teleported into the brain.
 
@@ -1143,7 +1143,7 @@ I had a lot of questions.
 
 Luckily, I was on my way to San Francisco, where I had plans to sit down with half of Neuralink’s founding team and be the dumbest person in the room.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/dumbest-person-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/dumbest-person-1.png)
+{--{"author":"Luc's AI","timestamp":1787306367746}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/dumbest-person-1.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/dumbest-person-1.png)--}{++{"author":"Luc's AI","timestamp":1787306367746}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/dumbest-person-1.png)++}
 
 **The I’m Not Being Self-Deprecating I Really Was Definitely the Dumbest Person in the Room Just Look at This Shit Blue Box**
 
@@ -1169,11 +1169,11 @@ I asked Elon about how he brought this team together. He said that he met with l
 
 But there they were, sitting around the table looking at me, as it hit me 40 seconds in that I should have done a lot more research before coming here.
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/dumbest-person-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/dumbest-person-2.png)
+{--{"author":"Luc's AI","timestamp":1787306368023}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/dumbest-person-2.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/dumbest-person-2.png)--}{++{"author":"Luc's AI","timestamp":1787306368023}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/dumbest-person-2.png)++}
 
 They took the hint and dumbed it down about four notches, and as the discussion went on, I started to wrap my head around things. Throughout the next few weeks, I met with each of the remaining Neuralink team members as well, each time playing the role of the dumbest person in the room. In these meetings, I focused on trying to form a comprehensive picture of the challenges at hand and what the road to a wizard hat might look like. I really wanted to understand these two boxes:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_02.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_02.png)
+{--{"author":"Luc's AI","timestamp":1787306368327}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_02.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_02.png)--}{++{"author":"Luc's AI","timestamp":1787306368327}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_02.png)++}
 
 The first one was easy. The _business_ side of Neuralink is a brain-machine interface development company. They want to create cutting-edge BMIs—what one of them referred to as “micron-sized devices.” Doing this will support the growth of the company while also providing a perfect vehicle for putting their innovations into practice (the same way SpaceX uses their launches both to sustain the company and experiment with their newest engineering developments).
 
@@ -1189,7 +1189,7 @@ The starting place for a discussion about innovation is a discussion about hurdl
 
 Pew recently conducted a [survey](http://www.pewinternet.org/2016/07/26/u-s-public-wary-of-biomedical-technologies-to-enhance-human-abilities/) asking Americans about which future biotechnologies give them the shits the most. It turns out BMIs worry Americans even more than gene editing:[^cite-urban-source-44]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/PS_2016.07.26_Human-Enhancement-Survey_0-01.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/PS_2016.07.26_Human-Enhancement-Survey_0-01.png)
+{--{"author":"Luc's AI","timestamp":1787306368639}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/PS_2016.07.26_Human-Enhancement-Survey_0-01.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/PS_2016.07.26_Human-Enhancement-Survey_0-01.png)--}{++{"author":"Luc's AI","timestamp":1787306368639}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/PS_2016.07.26_Human-Enhancement-Survey_0-01.png)++}
 
 Flip Sabes, one of Neuralink’s ground floor members, doesn’t get it.
 
@@ -1231,7 +1231,7 @@ This is everything for the industry’s potential. Our maximum today is a couple
 
 Currently, we seem to be somewhere in between. Ian Stevenson and Konrad Kording published a [paper](http://www.nature.com/neuro/journal/v14/n2/abs/nn.2731.html) that looked at the maximum number of neurons that could be simultaneously recorded at various points throughout the last 50 years (in _any_ animal), and put the results on this graph:[^cite-urban-source-45]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/mooreslaw.chartx2400.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/mooreslaw.chartx2400.jpg)
+{--{"author":"Luc's AI","timestamp":1787306368945}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/mooreslaw.chartx2400.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/mooreslaw.chartx2400.jpg)--}{++{"author":"Luc's AI","timestamp":1787306368945}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/mooreslaw.chartx2400.jpg)++}
 
 Sometimes called Stevenson’s Law, this research suggests that the number of neurons we can simultaneously record seems to consistently double every 7.4 years. If that rate continues, it’ll take us till the end of this century to reach a million, and until 2225 to record every neuron in the brain and get our totally complete wizard hat.
 
@@ -1278,33 +1278,33 @@ If everyone you know in 40 years has electronics in their skull, it’ll be beca
 A team at the University of Illinois is developing an interface made of silk:[^cite-urban-source-46]
 
 %% validator-ignore-next-line --code article.image-low-resolution --reason AI-couldn't-find-higher-resolution-image %%
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain_silk_2s-660x440.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/brain_silk_2s-660x440.jpg)
+{--{"author":"Luc's AI","timestamp":1787306369370}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain_silk_2s-660x440.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/brain_silk_2s-660x440.jpg)--}{++{"author":"Luc's AI","timestamp":1787306369370}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/brain_silk_2s-660x440.jpg)++}
 
 Silk can be rolled up into a thin bundle and inserted into the brain relatively non-invasively. There, it would theoretically spread out around the brain and melt into the contours like shrink wrap. On the silk would be flexible silicon transistor arrays.
 
 In his [TEDx Talk](https://www.youtube.com/watch?v=3jRNY_JcBpg), Hong Yeo demonstrated an electrode array printed on his skin, like a temporary tattoo, and [researchers say](https://www.wired.com/2013/02/skin-printed-electrodes/) this kind of technique could potentially be used on the brain:[^cite-urban-source-47]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/3a.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/3a.jpg)
+{--{"author":"Luc's AI","timestamp":1787306369667}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/3a.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/3a.jpg)--}{++{"author":"Luc's AI","timestamp":1787306369667}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/3a.jpg)++}
 
 Another group is working on a kind of nano-scale, electrode-lined **[neural mesh](https://www.extremetech.com/extreme/207848-injectable-neuro-mesh-covers-the-brain-can-control-individual-neurons)** so tiny it can be injected into the brain with a syringe:[^cite-urban-source-48]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/1298870262105595053.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/1298870262105595053.jpg)
+{--{"author":"Luc's AI","timestamp":1787306369941}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/1298870262105595053.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/1298870262105595053.jpg)--}{++{"author":"Luc's AI","timestamp":1787306369941}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/1298870262105595053.jpg)++}
 
 For scale—that red tube on the right is the tip of a syringe. [Nature Magazine](https://www.nature.com/articles/522137a) has a nice graphic illustrating the concept:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/brainmesh-2.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/brainmesh-2.jpg)
+{--{"author":"Luc's AI","timestamp":1787306370425}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/brainmesh-2.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/brainmesh-2.jpg)--}{++{"author":"Luc's AI","timestamp":1787306370425}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/brainmesh-2.jpg)++}
 
 Other non-invasive techniques involve going in through veins and arteries. Elon mentioned this: “The least invasive way would be something that comes in like a heart stent like through a femoral artery and ultimately unfolds in the vascular system to interface with the neurons. Neurons use a lot of energy, so there’s basically a road network to every neuron.”
 
 DARPA, the technology innovation arm of the US military,[^note-urban-30] through their recently funded [BRAIN program](https://www.darpa.mil/program/our-research/darpa-and-the-brain-initiative), is working on tiny, “closed-loop” neural implants that could replace medication.[^cite-urban-source-49]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/stanford-microimplant-mid-field.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/stanford-microimplant-mid-field.jpg)
+{--{"author":"Luc's AI","timestamp":1787306370695}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/stanford-microimplant-mid-field.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/stanford-microimplant-mid-field.jpg)--}{++{"author":"Luc's AI","timestamp":1787306370695}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/stanford-microimplant-mid-field.jpg)++}
 
 A second DARPA project aims to fit a million electrodes into a device the size of two nickels stacked.
 
 Another idea being worked on is transcranial magnetic stimulation (TMS), in which a magnetic coil outside the head can create electrical pulses inside the brain.[^cite-urban-source-50]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Transcranial_magnetic_stimulation.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Transcranial_magnetic_stimulation.jpg)
+{--{"author":"Luc's AI","timestamp":1787306371002}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Transcranial_magnetic_stimulation.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/Transcranial_magnetic_stimulation.jpg)--}{++{"author":"Luc's AI","timestamp":1787306371002}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Transcranial_magnetic_stimulation.jpg)++}
 
 The pulses can stimulate targeted neuron areas, providing a type of deep brain stimulation that’s totally non-invasive.
 
@@ -1312,13 +1312,13 @@ One of Neuralink’s ground floor members, DJ Seo, led an effort to design an ev
 
 This is another example of the innovation benefits that come from an interdisciplinary team. DJ explained to me that “there are technologies that are not really thought about in this domain, but we can bring in some principles of their work.” He says that neural dust is inspired both by microchip technology and RFID (the thing that allows hotel key cards to communicate with the door lock without making physical contact) principles. And you can easily see the multi-field influence in how it works:[^cite-urban-source-51]
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/018u3meqmg2ruijpg.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/018u3meqmg2ruijpg.jpg)
+{--{"author":"Luc's AI","timestamp":1787306371282}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/018u3meqmg2ruijpg.jpg)](https://waitbutwhy.com/wp-content/uploads/2018/04/018u3meqmg2ruijpg.jpg)--}{++{"author":"Luc's AI","timestamp":1787306371282}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/018u3meqmg2ruijpg.jpg)++}
 
 Others are working on even more out-there ideas, like **[optogenetics](https://www.scientificamerican.com/article/optogenetics-controlling/)** (where you inject a virus that attaches to a brain cell, causing it to thereafter be stimulated by light) or even using **[carbon nanotubes](http://news.rice.edu/2015/03/25/carbon-nanotube-fibers-make-superior-links-to-brain-2/)** —a million of which could be bundled together and sent to the brain via the bloodstream.
 
 These people are all working on this arrow:
 
-[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_03.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_03.png)
+{--{"author":"Luc's AI","timestamp":1787306371599}@@[![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_03.png)](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_03.png)--}{++{"author":"Luc's AI","timestamp":1787306371599}@@![](https://waitbutwhy.com/wp-content/uploads/2018/04/Neuralink-formula-v2_03.png)++}
 
 It’s a relatively small group right now, but when the breakthrough spark happens, that’ll quickly change. Developments will begin to happen rapidly. Brain interface bandwidth will get better and better as the procedures to implant them become simpler and cheaper. Public interest will pick up. And when public interest picks up, the Human Colossus notices an opportunity—and then the rate of development skyrockets. Just like the breakthroughs in computer hardware caused the software industry to explode, major industries will pop up working on cutting-edge machines and intelligent apps to be used in conjunction with brain interfaces, and you’ll tell some little kid in 2052 all about how when you grew up, no one could do any of the things she can do with her brain, and she’ll be bored.
 
