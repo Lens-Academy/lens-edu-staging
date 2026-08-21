@@ -25,12 +25,12 @@ A manager pastes last quarter's messy data into the AI and forwards the polished
 
 None of this needs malice or stupidity. It needs only that the answer arrived whole, and the check on the answer was never in your hands.
 
-#### {++{"author":"Leo's AI","timestamp":1787310778485}@@Article
+#### Article
 source:: [[../articles/brademann-arbitrary-cognitive-offloading-genai]]
 from:: "However, the initial reading (reading comprehension skill) and note-taking (sustained attention) should not be skipped by D: The problematic use case we are concerned with here is if D uses GenAI to complete the entire task"
 to:: "nor gains the skills required to complete it."
 
-#### ++}Question
+#### Question
 content::
 \## Check your Understanding
 First, spend 2 minutes writing down everything you can remember from the reading, without looking back. Anything and everything. No need to organise it. Speech-to-text is highly recommended here.
