@@ -77,7 +77,7 @@ LLMs are prone to "hallucinate," a term used to describe the generation of conte
 - **Strategies to Enhance Factual Accuracy**: The tendency of LLMs to generate hallucinations can be significantly diminished using various techniques. See the box below for a breakdown of those.
 - **Larger models can be more truthful than smaller ones.** This is the case with TruthfulQA. OpenAI reports that GPT-4 is 40% more accurate and factually consistent than its predecessor.
 
-**Many techniques can be used to increase the truthfulness of LLMs**
+{--{"author":"Luc's AI","timestamp":1787319545493}@@**Many--}{++{"author":"Luc's AI","timestamp":1787319545493}@@:::callout {title="Many++} techniques can be used to increase the truthfulness of {--{"author":"Luc's AI","timestamp":1787319545493}@@LLMs**--}{++{"author":"Luc's AI","timestamp":1787319545493}@@LLMs — Optional · 3 min read" tone="neutral" collapse="closed"}++}
 
 Fine-tuning** LLMs for Factuality:** In this paper ([Tian et al., 2023](https://arxiv.org/abs/2311.08401)), the authors recommend fine-tuning methods using Direct Preference Optimization (DPO) to decrease the rate of hallucinations. By applying such techniques, a 7B Llama 2 model saw a 58% reduction in factual error rate compared to its original model.
 
@@ -94,7 +94,9 @@ Fine-tuning** LLMs for Factuality:** In this paper ([Tian et al., 2023](https://
 
 **Training for metacognition**: Models can be trained to give the probability of what they assert, a form of metacognition. For example, the paper "Language Models (Mostly) Know What They Know" ([Kadavath et al., 2022](https://arxiv.org/abs/2207.05221)) demonstrates that AIs can be Bayesian calibrated about their knowledge. This implies that they can have a rudimentary form of self-awareness, recognizing the likelihood of their own accuracy. Informally, this means it is possible to query a chatbot with "Are you sure about what you are telling me?" and receive a relatively reliable response. This can serve as training against hallucinations.
 
-It's worth noting that these techniques enable substantial problem mitigation for the current LLMs, but they don’t solve all the problems that we encounter with AI that are potentially deceptive, as we will see in the chapter on goal misgeneralization.
+It's worth noting that these techniques enable substantial problem mitigation for the current LLMs, but they don’t solve all the problems that we encounter with AI that are potentially deceptive, as we will see in the chapter on goal misgeneralization.{++{"author":"Luc's AI","timestamp":1787319546851}@@
+
+:::++}
 
 ## Structural inadequacy?
 

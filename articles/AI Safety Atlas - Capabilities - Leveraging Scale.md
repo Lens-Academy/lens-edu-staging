@@ -69,13 +69,15 @@ In the previous section, we looked at different notions of how to define AGI and
 
 ++}*Interactive figure 1.6: Exponential growth of computation in the training of notable AI systems. Computation is measured in total peta FLOP, which is 10e15 floating-point operations ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
 
-**The Broken Neural Scaling Laws (BNSL) update in 2023**
+{--{"author":"Luc's AI","timestamp":1787319546090}@@**The--}{++{"author":"Luc's AI","timestamp":1787319546090}@@:::callout {title="The++} Broken Neural Scaling Laws (BNSL) update in {--{"author":"Luc's AI","timestamp":1787319546090}@@2023**--}{++{"author":"Luc's AI","timestamp":1787319546090}@@2023 — Optional · 1 min read" tone="neutral" collapse="closed"}++}
 
 Research showed that performance doesn't always improve smoothly - there can be sharp transitions, temporary plateaus, or even periods where performance gets worse before getting better. Examples of this include things like "Grokking", where models suddenly achieve strong generalization after many training steps, or deep double descent, where increasing model size initially hurts then helps performance. Rather than simple power laws, BNSL uses a more flexible functional form that can capture these complex behaviors. This allows for more accurate predictions of scaling behavior, particularly around discontinuities and transitions. Scaling laws are a good baseline, but discontinuous jumps in capabilities and abrupt step changes are still possible ([Caballero et al., 2023](https://arxiv.org/abs/2210.14891)).
 
 ![Figure 1.34](https://ai-safety-atlas.com/_astro/8e2e605a0c66f707ea6ce2a5974db7826aa4a37bd8766c2b80668636d60460da.Bhx54fu0_25OOF4.webp)
 
-*Figure 1.34: A Broken Neural Scaling Law example (dark black solid line) (with 3 breaks where purple dotted lines intersect with dark black solid line) contains 4 individual power law segments (where the dashed lines that are yellow, blue, red, and green overlap with the dark black solid line). The 1st and 2nd break are very smooth; the 3rd break is very sharp ([Caballero et al., 2023](https://arxiv.org/abs/2210.14891)).*
+*Figure 1.34: A Broken Neural Scaling Law example (dark black solid line) (with 3 breaks where purple dotted lines intersect with dark black solid line) contains 4 individual power law segments (where the dashed lines that are yellow, blue, red, and green overlap with the dark black solid line). The 1st and 2nd break are very smooth; the 3rd break is very sharp ([Caballero et al., 2023](https://arxiv.org/abs/2210.14891)).*{++{"author":"Luc's AI","timestamp":1787319547281}@@
+
+:::++}
 
 ## Scaling Hypothesis
 

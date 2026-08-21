@@ -58,7 +58,7 @@ AI basically had a similar problem before we started using standardized benchmar
 ++}*Interactive figure 5.2: Benchmark performance on coding, math and language. ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence))*{++{"author":"Luc's AI","timestamp":1787318203205}@@
 %%++}
 
-**Examples of various capabilities benchmarks**
+{--{"author":"Luc's AI","timestamp":1787319546326}@@**Examples--}{++{"author":"Luc's AI","timestamp":1787319546326}@@:::callout {title="Examples++} of various capabilities {--{"author":"Luc's AI","timestamp":1787319546326}@@benchmarks**--}{++{"author":"Luc's AI","timestamp":1787319546326}@@benchmarks — Optional · 2 min read" tone="neutral" collapse="closed"}++}
 
 **Benchmarking language and task understanding.** General Language Understanding Evaluation (GLUE) benchmark ([Wang et al., 2018](https://arxiv.org/abs/1804.07461)), and its successor SuperGLUE ([Wang et al., 2019](https://arxiv.org/abs/1905.00537)) test difficult language understanding tasks. SWAG ([Zellers et al., 2018](https://arxiv.org/abs/1808.05326)), and HellaSwag ([Zellers et al., 2019](https://arxiv.org/abs/1905.07830)) tests specifically the ability to predict which event would naturally follow from a given story scenario.
 
@@ -70,7 +70,9 @@ AI basically had a similar problem before we started using standardized benchmar
 
 ![Figure 5.4](https://ai-safety-atlas.com/_astro/9bbd596f14e769f0f3b13f8dbb81812e83e7d07952777c0a1337c27112e0cb11.QmIt5PJV_27mBn.webp)
 
-*Figure 5.4: Example of coding task and test cases on APPS ([Hendrycks et al., 2021](https://arxiv.org/abs/2105.09938))*
+*Figure 5.4: Example of coding task and test cases on APPS ([Hendrycks et al., 2021](https://arxiv.org/abs/2105.09938))*{++{"author":"Luc's AI","timestamp":1787319547487}@@
+
+:::++}
 
 **Benchmarking ethics and bias.** The ETHICS benchmark ([Hendrycks et al., 2023](https://arxiv.org/abs/2008.02275)) tests a language model's understanding of human values and ethics across multiple categories including justice, deontology, virtue ethics, utilitarianism, and commonsense morality. The TruthfulQA ([Lin et al., 2021](https://arxiv.org/abs/2109.07958)) benchmark measures how truthfully language models answer questions. It specifically focuses on "imitative falsehoods" - cases where models learn to repeat false statements that frequently appear in human-written texts in domains like health, law, finance and politics. 
 
@@ -88,7 +90,7 @@ AI basically had a similar problem before we started using standardized benchmar
 
 *Figure 5.7: A mock-up of a game in the MACHIAVELLI benchmark, a suite of text-based environments. At each step, the agent observes the scene and a list of possible actions; it selects an action from the list. Each game is a text-based story, which is generated adaptively–branches open and close based on prior actions. The agent receives a reward when it achieves one of the goals. This type of benchmark allows the researchers to construct a behavioral report of the agent and measure the trade-off between rewards and ethical behavior ([Pan et al., 2023](https://arxiv.org/abs/2304.03279)).*
 
-**Details - Benchmark: Frontier Math (Glazer et al., 2024) & Humanities Last Exam  (Hendrycks & Wang, 2024)**
+{--{"author":"Luc's AI","timestamp":1787319548578}@@**Details--}{++{"author":"Luc's AI","timestamp":1787319548578}@@:::callout {title="Details++} - Benchmark: Frontier Math (Glazer et al., 2024) & Humanities Last Exam{--{"author":"Luc's AI","timestamp":1787319548578}@@  --}{++{"author":"Luc's AI","timestamp":1787319548578}@@ ++}(Hendrycks & Wang, {--{"author":"Luc's AI","timestamp":1787319548578}@@2024)**--}{++{"author":"Luc's AI","timestamp":1787319548578}@@2024) — Optional · 3 min read" tone="neutral" collapse="closed"}++}
 
 > **Warning:** This is an extra explanation of the frontier math mathematical benchmark. You can safely skip this.
 

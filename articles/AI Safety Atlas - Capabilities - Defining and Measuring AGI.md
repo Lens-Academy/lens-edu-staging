@@ -109,7 +109,7 @@ When experts say they see "sparks of AGI" in recent systems, they're observing p
 
 **Our working definition does not include the autonomy with which an AGI system operates.** This is a really important axis to pay attention to, but it has a higher bearing on deployment and impact rather than something inherent to a definition for AGI. It will be explored in the next chapter dedicated to risks from AI.
 
-**Measuring degree of Autonomy (Agency)**
+{--{"author":"Luc's AI","timestamp":1787319545861}@@**Measuring--}{++{"author":"Luc's AI","timestamp":1787319545861}@@:::callout {title="Measuring++} degree of Autonomy {--{"author":"Luc's AI","timestamp":1787319545861}@@(Agency)**--}{++{"author":"Luc's AI","timestamp":1787319545861}@@(Agency) — Optional · 2 min read" tone="neutral" collapse="closed"}++}
 
 Autonomy describes how AI systems interact with humans, not what they can do. A highly capable system can be deployed with varying levels of human oversight. Just like we had continuous curves for capability and generality, we can similarly have an increasing level of autonomy measured by what % of a task is done by the human or the AI ([Morris et al., 2024](https://arxiv.org/abs/2311.02462)):
 
@@ -122,7 +122,9 @@ Autonomy describes how AI systems interact with humans, not what they can do. A 
 
 Autonomy level affects risk exposure, not inherent danger. A capable system deployed as a tool (Level 1) might be safer than the same system deployed as an agent (Level 5), even though the underlying capability is identical. Higher capability levels "unlock" higher autonomy levels—you can't have Level 5 autonomy without sufficient capability—but having the capability doesn't mean you should use maximum autonomy.
 
-For safety purposes, capability and deployment autonomy should be considered separately. A system scoring 90% on 80% of domains might be safely deployed at Level 2 (consultant) while being dangerous at Level 5 (agent). The framework helps us reason about these tradeoffs explicitly.
+For safety purposes, capability and deployment autonomy should be considered separately. A system scoring 90% on 80% of domains might be safely deployed at Level 2 (consultant) while being dangerous at Level 5 (agent). The framework helps us reason about these tradeoffs explicitly.{++{"author":"Luc's AI","timestamp":1787319547074}@@
+
+:::++}
 
 **What we presented in this section is nowhere near a universally agreed upon definition.** There are criticisms of both the levels of AGI framework, and of the CHC benchmark aggregation approach ([Pacchiardi  et al., 2025](https://aievaluation.substack.com/p/is-the-definition-of-agi-a-percentage)). There are many other alternative definitions and measurement frameworks in use like the European Commission's work on definition General Purpose AI (GPAI) models ([EU Commission, 2025](https://ai-watch.ec.europa.eu/news/new-jrc-collection-external-scientific-reports-inform-implementation-eu-ai-act-general-purpose-ai-2025-10-14_en)), the (t,n-AGI) framework ([Ngo, 2023](https://www.lesswrong.com/posts/BoA3agdkAzL6HQtQP/clarifying-and-predicting-agi)), OECD AI capability indicators ([OECD, 2025](https://www.oecd.org/en/publications/2025/06/introducing-the-oecd-ai-capability-indicators_7c0731f0/full-report/component-4.html)), and not to mention all the competing definitions from the case studies in the previous sub-section. These are valid alternatives. The field is still evolving and finding gaps in its approach. We expect that the underlying benchmarks (which cognitive abilities are important?) and aggregation methods (how should we weigh them?) used to measure progress will continue to be debated but the underlying framework we teach in this section - of thinking of capability and generality as a continuous spectrum - will remain consistent.
 
