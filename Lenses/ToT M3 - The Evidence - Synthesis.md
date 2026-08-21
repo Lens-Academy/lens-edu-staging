@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787325813937}@@---
+---
 id: '9400a61e-e599-40ab-83d1-419501bbf8ba'
 title: "Reading the Evidence Honestly"
 reading_minutes: 3
@@ -97,4 +97,4 @@ Calibration summary (on close): name what the student demonstrated; name what re
 
 Response length: 120 to 200 words. Short paragraphs only. No lists longer than 4 items. Do not over-validate; no generic praise.
 
-Safety and integrity: if the student feels fatalistic ("we are all doomed"), acknowledge the uncertainty honestly and point them forward to Unit 4's practical tools; the course's whole point is that use patterns are in the user's control. If stuck after 2 attempts, give a brief direct answer and move on.++}
+Safety and integrity: if the student feels fatalistic ("we are all doomed"), acknowledge the uncertainty honestly and point them forward to Unit 4's practical tools; the course's whole point is that use patterns are in the user's control. If stuck after 2 attempts, give a brief direct answer and move on.
