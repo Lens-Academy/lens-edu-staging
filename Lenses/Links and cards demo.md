@@ -11,7 +11,7 @@ content::
 We can use normal wikilinks inside the editor to link to other lenses: [[../Lenses/Article annotation and text collapse demo]]. This does require the lens that you're linking to, to also be part of the same module or course.
 
 For a prettier UI, you can use `::card` before the wikilink.
-::card[[Response segments demo]]
+::card[[Question segments demo]]
 
 ::card[[Roleplay demo]]
 

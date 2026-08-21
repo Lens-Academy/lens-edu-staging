@@ -80,7 +80,7 @@ source:: [[../Lenses/Article video article demo]]
 
 %% Response segments use the same syntax in surveys, normal Lenses, and Learning Outcome tests. This Lens explains OpenResponse, Rating, Select, and FillBlank segments. %%
 # Lens:
-source:: [[../Lenses/Response segments demo]]
+source:: [[../Lenses/Question segments demo]]
 
 %% We also have a roleplay feature, where the user can voice chat with an AI: %%
 # Lens:
