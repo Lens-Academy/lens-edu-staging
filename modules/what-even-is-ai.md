@@ -31,18 +31,19 @@ source:: ![[../Lenses/Security Mindset and Ordinary Paranoia|Security Mindset an
 # Lens:
 source:: ![[../Lenses/How can LLMs be understood as simulators]]
 
-{--{"author":"Plex's AI","timestamp":1787330365223}@@# Lens:
+{--{"author":"Plex's AI","timestamp":1787331009603}@@# Lens:
 source:: ![[../Lenses/Janus' Simulators - Scott Alexander]]
 
 # Lens:
 optional:: true
-source:: ![[../Lenses/Simulators by Janus]]--}{++{"author":"Plex's AI","timestamp":1787330365223}@@# Lens:
+source:: ![[../Lenses/Simulators by Janus]]--}{++{"author":"Plex's AI","timestamp":1787331009603}@@# Lens:
 source:: ![[../Lenses/Janus' Simulators - Scott Alexander]]
 
 # Lens:
 source:: ![[../Lenses/nostalgebraist-the-void]]
 
-%% TODO(Plex): add https://www.lesswrong.com/posts/yew6zFWAKG4AGs3Wk/foom-and-doom-1-brain-in-a-box-in-a-basement as CORE reading here (after simulators). Import keeps failing ("Extracted article suspiciously short (105 chars)") — LW page likely needs a different extraction path; tried twice, both failed the same way. May need manual import or a different fetch method. %%
+# Lens:
+source:: ![[../Lenses/byrnes-foom-doom-1-brain-in-a-box-in-a-basement]]
 
 # Lens:
 optional:: true
