@@ -93,7 +93,7 @@ Think of a recent task where you only realised, too late, that you had been assu
 
 This lens framed metacognition as the decision to do a task yourself or hand it off. Keep that frame in mind as you answer.
 
-Where was the moment you could have noticed? What would it have taken — a question, a pause, a second look — to catch it then?
+Where was the moment you could have noticed? What would it have taken {--{"author":"import_videos's AI","timestamp":1787362361020}@@— a--}{++{"author":"import_videos's AI","timestamp":1787362361020}@@(a++} question, a pause, a second {--{"author":"import_videos's AI","timestamp":1787362361020}@@look —--}{++{"author":"import_videos's AI","timestamp":1787362361020}@@look)++} to catch it then?
 
 assessment-instructions:: The student has read the metacognition piece, recalled, and reflected, and is now in the main discussion phase. The question asks them to locate a real failure of their own monitoring and control, and to name the specific moment oversight could have caught it.
 
