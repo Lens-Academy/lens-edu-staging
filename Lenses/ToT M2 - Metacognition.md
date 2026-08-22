@@ -22,12 +22,12 @@ to:: 5:37
 content::
 Metacognition shows up as a decision. The learner first monitors: can I do this, and how hard will it be? Then they control: do I retrieve it myself or search? The next part names those two moves.
 
-Metacognition has two moving parts. The first is **monitoring**: noticing what you know, what you do not, and where your thinking is going. The second is **control**: acting on that {--{"author":"import_videos's AI","timestamp":1787362185305}@@notice —--}{++{"author":"import_videos's AI","timestamp":1787362185305}@@notice:++} slowing down, checking a step, changing your plan, or admitting you do not understand. It is less a single act than a habit of standing slightly outside your own mind while you work.
+Metacognition has two moving parts. The first is **monitoring**: noticing what you know, what you do not, and where your thinking is going. The second is **control**: acting on that notice: slowing down, checking a step, changing your plan, or admitting you do not understand. It is less a single act than a habit of standing slightly outside your own mind while you work.
 
 **What it looks like**
 
 Monitoring is the noticing. Some everyday examples:
-- You feel you have seen a name before but cannot recall it {--{"author":"import_videos's AI","timestamp":1787362190697}@@now —--}{++{"author":"import_videos's AI","timestamp":1787362190697}@@now,++} a feeling-of-knowing.
+- You feel you have seen a name before but cannot recall it now, a feeling-of-knowing.
 - Halfway through a paragraph you notice you recognised the words but did not follow the argument.
 - After a test you sense, correctly or not, which answers you got wrong.
 - You notice you are finding topic A harder to learn than topic B.
@@ -63,7 +63,7 @@ assessment-instructions:: The student has just read a short teaching piece on me
 Key concepts in the piece:
 - Metacognition: thinking about how we think; the oversight layer that decides how to think
 - Monitoring: noticing what you know, what you do not, and where your thinking is going
-- Control: acting on that {--{"author":"import_videos's AI","timestamp":1787362238321}@@notice —--}{++{"author":"import_videos's AI","timestamp":1787362238321}@@notice:++} slowing down, checking, changing plan, admitting you do not understand
+- Control: acting on that notice: slowing down, checking, changing plan, admitting you do not understand
 - Control has three phases: planning (before), monitoring (during), evaluating (after)
 - Why it matters: oversight is what keeps reasoning honest; it can break
 - Applied to offloading: metacognition shows up as the decision to do a task yourself or hand it off: monitoring (can I evaluate this?) plus control (what do I do about it?)
@@ -71,12 +71,12 @@ Key concepts in the piece:
 
 Response length: a discussion, roughly 80 to 150 words per reply. Short paragraphs only. No lists.
 
-Open the discussion with one question that invites the student to surface the reading in their own {--{"author":"import_videos's AI","timestamp":1787362354339}@@words —--}{++{"author":"import_videos's AI","timestamp":1787362354339}@@words:++} what stuck, what puzzled them, what they would challenge. Then keep the conversation going for about two tutor turns.
+Open the discussion with one question that invites the student to surface the reading in their own words: what stuck, what puzzled them, what they would challenge. Then keep the conversation going for about two tutor turns.
 
 In each reply:
 1. Acknowledge specifically what the student expressed (recall, resonance, confusion, or doubt), without generic praise or inflation.
 2. If something is wrong, correct it in one plain sentence. If something is missing or underdeveloped, name it briefly without lecturing. Normalise gaps: incomplete recall is expected and not a failure.
-3. Confusion: ask what specifically felt {--{"author":"import_videos's AI","timestamp":1787362357848}@@unclear —--}{++{"author":"import_videos's AI","timestamp":1787362357848}@@unclear:++} a term, the logic, the evidence, or a conflict with something they already believed.
+3. Confusion: ask what specifically felt unclear: a term, the logic, the evidence, or a conflict with something they already believed.
 4. Doubt or skepticism: treat it as a legitimate stance. Ask what would need to be true for them to find the point convincing.
 5. Resonance: ask what prior experience it connected to. Do not let "it clicked" stay unarticulated.
 
@@ -93,7 +93,7 @@ Think of a recent task where you only realised, too late, that you had been assu
 
 This lens framed metacognition as the decision to do a task yourself or hand it off. Keep that frame in mind as you answer.
 
-Where was the moment you could have noticed? What would it have taken {--{"author":"import_videos's AI","timestamp":1787362361020}@@— a--}{++{"author":"import_videos's AI","timestamp":1787362361020}@@(a++} question, a pause, a second {--{"author":"import_videos's AI","timestamp":1787362361020}@@look —--}{++{"author":"import_videos's AI","timestamp":1787362361020}@@look)++} to catch it then?
+Where was the moment you could have noticed? What would it have taken (a question, a pause, a second look) to catch it then?
 
 assessment-instructions:: The student has read the metacognition piece, recalled, and reflected, and is now in the main discussion phase. The question asks them to locate a real failure of their own monitoring and control, and to name the specific moment oversight could have caught it.
 
@@ -105,7 +105,7 @@ Key concepts the student needs to grasp:
 - Control: acting on that notice
 - The reading tie: this lens framed metacognition as the decision to do a task yourself or hand it off (monitoring: can I evaluate this? control: what do I do?). The student's example can map onto either offloading or skipped self-oversight.
 - Scope: the research studies students, but the mechanism applies to knowledge workers; read "the learner" as the student themselves.
-- The core move: oversight fails not in a dramatic moment but in the skipped {--{"author":"import_videos's AI","timestamp":1787362372943}@@check —--}{++{"author":"import_videos's AI","timestamp":1787362372943}@@check:++} the pause that did not happen
+- The core move: oversight fails not in a dramatic moment but in the skipped check: the pause that did not happen
 
 The core move to draw out: ask the student to name the exact moment oversight could have caught the error, and what specific action (a question, a re-read) would have been required. Link their example back to the reading: this lens described metacognition as the decision to do a task yourself or hand it off (monitoring: can I evaluate this? control: what do I do?). Was their failure an offloaded task they could not check, or oversight they skipped while still doing the work? If they say "I just should have been more careful," push on what concrete check was available. If they cannot find an example, offer a low-stakes one (skimming an email and missing the caveat) and ask where the check would sit.
 
