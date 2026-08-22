@@ -22,12 +22,12 @@ to:: 5:37
 content::
 Metacognition shows up as a decision. The learner first monitors: can I do this, and how hard will it be? Then they control: do I retrieve it myself or search? The next part names those two moves.
 
-Metacognition has two moving parts. The first is **monitoring**: noticing what you know, what you do not, and where your thinking is going. The second is **control**: acting on that notice — slowing down, checking a step, changing your plan, or admitting you do not understand. It is less a single act than a habit of standing slightly outside your own mind while you work.
+Metacognition has two moving parts. The first is **monitoring**: noticing what you know, what you do not, and where your thinking is going. The second is **control**: acting on that {--{"author":"import_videos's AI","timestamp":1787362185305}@@notice —--}{++{"author":"import_videos's AI","timestamp":1787362185305}@@notice:++} slowing down, checking a step, changing your plan, or admitting you do not understand. It is less a single act than a habit of standing slightly outside your own mind while you work.
 
 **What it looks like**
 
 Monitoring is the noticing. Some everyday examples:
-- You feel you have seen a name before but cannot recall it now — a feeling-of-knowing.
+- You feel you have seen a name before but cannot recall it {--{"author":"import_videos's AI","timestamp":1787362190697}@@now —--}{++{"author":"import_videos's AI","timestamp":1787362190697}@@now,++} a feeling-of-knowing.
 - Halfway through a paragraph you notice you recognised the words but did not follow the argument.
 - After a test you sense, correctly or not, which answers you got wrong.
 - You notice you are finding topic A harder to learn than topic B.
