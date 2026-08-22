@@ -25,7 +25,7 @@ A manager pastes last quarter's messy data into the AI and forwards the polished
 
 None of this needs malice or stupidity. It needs only that the answer arrived whole, and the check on the answer was never in your hands.
 
-One paper makes this concrete. In 2026, Marit Brademann published a policy analysis on arbitrary cognitive offloading to GenAI among young learners in the European Union. To show what the danger case looks like in practice, she builds a running case study around a learner she calls D. D is given a reading task and hands the whole thing to the AI. We will read two short passages from the paper. The first says which parts of the task a learner like D should not hand over. The second shows what happens when D does.
+One paper makes this concrete. In 2026, Marit Brademann published a policy analysis on arbitrary cognitive offloading to GenAI among young learners in the European Union. To show what the danger case looks like in practice, she builds a running case study around a learner she calls D. {--{"author":"AI","timestamp":1787362725260}@@D --}{++{"author":"AI","timestamp":1787362725260}@@The learner ++}is given a reading task and hands the whole thing to the AI. We will read two short passages from the paper. The first says which parts of the task{--{"author":"AI","timestamp":1787362725260}@@ a learner like D --}{++{"author":"AI","timestamp":1787362725260}@@ ++}should not {--{"author":"AI","timestamp":1787362725260}@@hand--}{++{"author":"AI","timestamp":1787362725260}@@be handed++} over. The second shows what happens when {--{"author":"AI","timestamp":1787362725260}@@D--}{++{"author":"AI","timestamp":1787362725260}@@the learner++} does.
 
 #### Article
 source:: [[../articles/brademann-arbitrary-cognitive-offloading-genai]]
@@ -34,7 +34,7 @@ to:: "nor gains the skills required to complete it."
 
 #### Text
 content::
-Here is the same researcher's case study of a learner, D, who follows an answer D cannot evaluate.
+{--{"author":"AI","timestamp":1787362725757}@@Here is--}{++{"author":"AI","timestamp":1787362725757}@@Now watch what happens when++} the {--{"author":"AI","timestamp":1787362725757}@@same researcher's case study of a learner, D, who--}{++{"author":"AI","timestamp":1787362725757}@@learner skips those steps. In Brademann's case study, the learner++} follows an answer {--{"author":"AI","timestamp":1787362725757}@@D--}{++{"author":"AI","timestamp":1787362725757}@@the learner++} cannot {--{"author":"AI","timestamp":1787362725757}@@evaluate.--}{++{"author":"AI","timestamp":1787362725757}@@evaluate, feels satisfied, and only discovers the gap weeks later, in the exam.++}
 
 #### Article
 source:: [[../articles/brademann-arbitrary-cognitive-offloading-genai]]
@@ -43,7 +43,7 @@ to:: "the vicious cycle between over-reliance, illusion of competence and metaco
 
 #### Text
 content::
-Notice what happened. D followed an answer D could not evaluate, felt satisfied, and only discovered the gap weeks later, in the exam. The failure was invisible from the inside the whole time. That is the danger case this lens opened with.
+Notice what happened. {--{"author":"AI","timestamp":1787362726327}@@D--}{++{"author":"AI","timestamp":1787362726327}@@The learner++} followed an answer {--{"author":"AI","timestamp":1787362726327}@@D--}{++{"author":"AI","timestamp":1787362726327}@@the learner++} could not evaluate, felt satisfied, and only discovered the gap weeks later, in the exam. The failure was invisible from the inside the whole time. That is the danger case this lens opened with.
 
 #### Question
 content::
