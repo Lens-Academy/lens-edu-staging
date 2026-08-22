@@ -16,7 +16,7 @@ A short video frames metacognition as planning, monitoring, and evaluating your 
 
 #### Video
 source:: [[../video_transcripts/petersons-test-prep-metacognition-the-skill-that-promotes-advanced-learning]]
-from:: 0:1
+from:: 0:20
 to:: 5:37
 
 #### Text
