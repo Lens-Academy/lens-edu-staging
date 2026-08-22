@@ -11,7 +11,7 @@ tags:
 #### Text
 content::
 
-\## Watch first
+{--{"author":"import_videos's AI","timestamp":1787361885696}@@\## Watch first
 A short video frames metacognition as planning, monitoring, and evaluating your own learning, before we go deeper.
 
 #### Video
@@ -22,14 +22,16 @@ to:: 5:37
 #### Text
 content::
 
-**Metacognition** means thinking about how we think. It is the quiet oversight layer: the part of thinking that decides how to think.
+--}**Metacognition** means thinking about how we think. It is the quiet oversight layer: the part of thinking that decides how to think.
 
-Before we break metacognition into parts, here is how one researcher frames it in the context of handing work to a tool. Read the passage, then we will map it onto the two parts.
+{--{"author":"import_videos's AI","timestamp":1787361885696}@@Before we break metacognition into parts, here --}{++{"author":"import_videos's AI","timestamp":1787361885696}@@Here ++}is{--{"author":"import_videos's AI","timestamp":1787361885696}@@ how one researcher frames it in--}{++{"author":"import_videos's AI","timestamp":1787361885696}@@ a short video that frames++} the {--{"author":"import_videos's AI","timestamp":1787361885696}@@context of handing work to a tool. Read the passage, then--}{++{"author":"import_videos's AI","timestamp":1787361885696}@@same idea before++} we {--{"author":"import_videos's AI","timestamp":1787361885696}@@will map it onto the two parts.--}{++{"author":"import_videos's AI","timestamp":1787361885696}@@go deeper.++}
 
-#### Article
-source:: [[../articles/brademann-arbitrary-cognitive-offloading-genai]]
-from:: "Taking self-regulated learning decisions, such as deciding over single cognitive tasks to perform, or to offload, is a human intellectual capacity called metacognition."
-to:: "A metacognitive belief is formed that forms an argumentative ground for the learners final decision."
+#### {--{"author":"import_videos's AI","timestamp":1787361885696}@@Article--}{++{"author":"import_videos's AI","timestamp":1787361885696}@@Video++}
+source:: {--{"author":"import_videos's AI","timestamp":1787361885696}@@[[../articles/brademann-arbitrary-cognitive-offloading-genai]]--}{++{"author":"import_videos's AI","timestamp":1787361885696}@@[[../video_transcripts/petersons-test-prep-metacognition-the-skill-that-promotes-advanced-learning]]++}
+from:: {--{"author":"import_videos's AI","timestamp":1787361885696}@@"Taking self-regulated learning decisions, such as deciding over single cognitive tasks to perform, or to offload, is a human intellectual capacity called metacognition."--}{++{"author":"import_videos's AI","timestamp":1787361885696}@@0:20++}
+to::{--{"author":"import_videos's AI","timestamp":1787361885696}@@ "A metacognitive belief is formed that forms an argumentative ground for the learners final decision."--}{++{"author":"import_videos's AI","timestamp":1787361885696}@@ 5:37
+
+++}
 
 #### Text
 content::
