@@ -25,9 +25,9 @@ A manager pastes last quarter's messy data into the AI and forwards the polished
 
 None of this needs malice or stupidity. It needs only that the answer arrived whole, and the check on the answer was never in your hands.
 
-{++{"author":"AI","timestamp":1787362565428}@@One paper makes this concrete. In 2026, Marit Brademann published a policy analysis on arbitrary cognitive offloading to GenAI among young learners in the European Union. To show what the danger case looks like in practice, she builds a running case study around a learner she calls D. D is given a reading task and hands the whole thing to the AI. We will read two short passages from the paper. The first says which parts of the task a learner like D should not hand over. The second shows what happens when D does.
+One paper makes this concrete. In 2026, Marit Brademann published a policy analysis on arbitrary cognitive offloading to GenAI among young learners in the European Union. To show what the danger case looks like in practice, she builds a running case study around a learner she calls D. D is given a reading task and hands the whole thing to the AI. We will read two short passages from the paper. The first says which parts of the task a learner like D should not hand over. The second shows what happens when D does.
 
-++}#### Article
+#### Article
 source:: [[../articles/brademann-arbitrary-cognitive-offloading-genai]]
 from:: "However, the initial reading (reading comprehension skill) and note-taking (sustained attention) should not be skipped by D: The problematic use case we are concerned with here is if D uses GenAI to complete the entire task"
 to:: "nor gains the skills required to complete it."
