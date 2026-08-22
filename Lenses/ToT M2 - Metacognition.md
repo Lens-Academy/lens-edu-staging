@@ -106,7 +106,7 @@ content::
 \## Learning Question
 Think of a recent task where you only realised, too late, that you had been assuming you understood something you did not. It might be a document you skimmed, a number you trusted, or a plan you never really checked.
 
-The passage you read framed metacognition as the decision to do a task yourself or hand it off. Keep that frame in mind as you answer.
+{--{"author":"import_videos's AI","timestamp":1787361916671}@@The passage you read--}{++{"author":"import_videos's AI","timestamp":1787361916671}@@This lens++} framed metacognition as the decision to do a task yourself or hand it off. Keep that frame in mind as you answer.
 
 Where was the moment you could have noticed? What would it have taken — a question, a pause, a second look — to catch it then?
 
@@ -118,7 +118,7 @@ Key concepts the student needs to grasp:
 - Metacognition: the oversight layer; monitoring plus control
 - Monitoring: noticing what you know and where your thinking is going
 - Control: acting on that notice
-- The reading tie: the article framed metacognition as the decision to do a task yourself or hand it off (monitoring: can I evaluate this? control: what do I do?). The student's example can map onto either offloading or skipped self-oversight.
+- The reading tie: {--{"author":"import_videos's AI","timestamp":1787361921822}@@the article--}{++{"author":"import_videos's AI","timestamp":1787361921822}@@this lens++} framed metacognition as the decision to do a task yourself or hand it off (monitoring: can I evaluate this? control: what do I do?). The student's example can map onto either offloading or skipped self-oversight.
 - Scope: the research studies students, but the mechanism applies to knowledge workers; read "the learner" as the student themselves.
 - The core move: oversight fails not in a dramatic moment but in the skipped check — the pause that did not happen
 
