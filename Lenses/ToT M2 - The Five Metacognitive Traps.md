@@ -36,8 +36,6 @@ As the researcher in the video names them in order, here are the five traps stat
 
 Notice that none of these needs a tool. They are properties of how people learn and monitor their own understanding. That is the point: the traps are not a new problem that AI created. They are an old problem that AI will meet you with. In the video, the learners usually only saw their trap after the fact, looking back from the outside. The point of naming them is to catch yours sooner, while you are still in the middle of the work.
 
-In the next unit, we bring generative AI into the picture. There we will see a 2024 replication of the same study, this time with ChatGPT and Copilot in the room. The researchers found that the five traps above did not disappear. Instead, they persisted, and in several cases got worse. And the AI added three new traps that only exist because the tool is in the loop.
-
 ---
 
 #### Question

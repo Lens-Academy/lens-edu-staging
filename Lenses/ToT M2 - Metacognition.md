@@ -63,7 +63,7 @@ assessment-instructions:: The student has just read a short teaching piece on me
 Key concepts in the piece:
 - Metacognition: thinking about how we think; the oversight layer that decides how to think
 - Monitoring: noticing what you know, what you do not, and where your thinking is going
-- Control: acting on that notice — slowing down, checking, changing plan, admitting you do not understand
+- Control: acting on that {--{"author":"import_videos's AI","timestamp":1787362238321}@@notice —--}{++{"author":"import_videos's AI","timestamp":1787362238321}@@notice:++} slowing down, checking, changing plan, admitting you do not understand
 - Control has three phases: planning (before), monitoring (during), evaluating (after)
 - Why it matters: oversight is what keeps reasoning honest; it can break
 - Applied to offloading: metacognition shows up as the decision to do a task yourself or hand it off: monitoring (can I evaluate this?) plus control (what do I do about it?)
