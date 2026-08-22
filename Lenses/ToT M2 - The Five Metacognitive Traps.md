@@ -2,7 +2,7 @@
 id: '05e28f84-2d37-4e19-953e-a99422bf55cf'
 title: "The Five Metacognitive Traps (Before AI)"
 duration_minutes: 25
-tldr: "Before any AI is in the loop, your own thinking can still go wrong in five repeatable ways: Forming, Dislodging, Assumption, Location, and Achievement. They were first documented in a 2018 study of novice programmers — and they show up in any kind of learning. AI will later amplify them, and add three more."
+tldr: "Before any AI is in the loop, your own thinking can still go wrong in five repeatable ways: Forming, Dislodging, Assumption, Location, and Achievement. They were first documented in a 2018 study of novice {--{"author":"AI","timestamp":1787362069399}@@programmers —--}{++{"author":"AI","timestamp":1787362069399}@@programmers,++} and they show up in any kind of learning. AI will later amplify them, and add three more."
 summary_for_tutor: "Content lens for Unit 2 of 'Thinking about Thinking'. Introduces the five metacognitive traps that exist independently of AI, grounded in Prather et al. (2018), a lab study of novice programmers conducted before generative AI. Authored content defines each trap in plain language with an everyday, non-AI knowledge-work example: Forming (wrong model of the right problem), Dislodging (can't dislodge a wrong model), Assumption (right model of the wrong problem), Location (false sense of progress), Achievement (won't abandon a wrong solution). Bridges forward: these traps are not caused by AI; Unit 3 shows AI amplifies them and introduces three new ones. Runs a Check your Understanding discussion, followed by the Learning Question; the wedge asks the student to find one of the five traps in a recent task of their own."
 tags:
   - wip
@@ -26,13 +26,15 @@ to:: 6:50
 content::
 \## The five traps
 
-- **Forming**: you build the wrong mental model of the right problem. You misread what the brief or the question actually asks, and you solve the thing you assumed instead. *Example: a manager reads "cut support tickets" as "cut response time" and builds a dashboard for the wrong goal.*
+{++{"author":"AI","timestamp":1787362062410}@@As the researcher in the video names them in order, here are the five traps stated plainly, with everyday examples from knowledge work rather than code:
+
+++}- **Forming**: you build the wrong mental model of the right problem. You misread what the brief or the question actually asks, and you solve the thing you assumed instead. *Example: a manager reads "cut support tickets" as "cut response time" and builds a dashboard for the wrong goal.*
 - **Dislodging**: once a wrong model is in your head, evidence against it bounces off. You reread the instructions and still see what you expected. *Example: a learner who is sure the method is "just plug the numbers in" keeps ignoring the worked example that shows otherwise.*
 - **Assumption**: you build a correct model of the wrong problem. The work is good; it answers a question nobody asked. *Example: an analyst delivers a flawless report on the wrong metric, because they never checked why the number was requested.*
 - **Location**: you move too fast, skip the steps where you check your plan, and feel further along than you are. Progress feels real because the output keeps growing. *Example: you skim a long document and feel you "got it" before you reach the one caveat that changes the conclusion.*
 - **Achievement**: you cannot let go of a solution you are invested in, because you feel nearly done. Rework looks more expensive than it is. *Example: a writer keeps a beloved paragraph even after feedback shows it does not fit.*
 
-Notice that none of these needs a tool. They are properties of how people learn and monitor their own understanding. That is the point: the traps are not a new problem that AI created. They are an old problem that AI will meet you with.
+Notice that none of these needs a tool. They are properties of how people learn and monitor their own understanding. That is the point: the traps are not a new problem that AI created. They are an old problem that AI will meet you with.{++{"author":"AI","timestamp":1787362065854}@@ In the video, the learners usually only saw their trap after the fact, looking back from the outside. The point of naming them is to catch yours sooner, while you are still in the middle of the work.++}
 
 In the next unit, we bring generative AI into the picture. There we will see a 2024 replication of the same study, this time with ChatGPT and Copilot in the room. The researchers found that the five traps above did not disappear. Instead, they persisted, and in several cases got worse. And the AI added three new traps that only exist because the tool is in the loop.
 
