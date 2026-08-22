@@ -11,7 +11,18 @@ tags:
 #### Text
 content::
 
-**Metacognition** means thinking about how we think. It is the quiet oversight layer: the part of thinking that decides how to think.
+{++{"author":"import_videos's AI","timestamp":1787361053572}@@\## Watch first
+A short video frames metacognition as planning, monitoring, and evaluating your own learning, before we go deeper.
+
+#### Video
+source:: [[../video_transcripts/petersons-test-prep-metacognition-the-skill-that-promotes-advanced-learning]]
+from:: 0:00
+to:: 5:37
+
+#### Text
+content::
+
+++}**Metacognition** means thinking about how we think. It is the quiet oversight layer: the part of thinking that decides how to think.
 
 Before we break metacognition into parts, here is how one researcher frames it in the context of handing work to a tool. Read the passage, then we will map it onto the two parts.
 
