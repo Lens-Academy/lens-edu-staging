@@ -2,7 +2,7 @@
 id: '05e28f84-2d37-4e19-953e-a99422bf55cf'
 title: "The Five Metacognitive Traps (Before AI)"
 duration_minutes: 25
-tldr: "Before any AI is in the loop, your own thinking can still go wrong in five repeatable ways: Forming, Dislodging, Assumption, Location, and Achievement. They were first documented in a 2018 study of novice {--{"author":"AI","timestamp":1787362069399}@@programmers —--}{++{"author":"AI","timestamp":1787362069399}@@programmers,++} and they show up in any kind of learning. AI will later amplify them, and add three more."
+tldr: "Before any AI is in the loop, your own thinking can still go wrong in five repeatable ways: Forming, Dislodging, Assumption, Location, and Achievement. They were first documented in a 2018 study of novice programmers, and they show up in any kind of learning. AI will later amplify them, and add three more."
 summary_for_tutor: "Content lens for Unit 2 of 'Thinking about Thinking'. Introduces the five metacognitive traps that exist independently of AI, grounded in Prather et al. (2018), a lab study of novice programmers conducted before generative AI. Authored content defines each trap in plain language with an everyday, non-AI knowledge-work example: Forming (wrong model of the right problem), Dislodging (can't dislodge a wrong model), Assumption (right model of the wrong problem), Location (false sense of progress), Achievement (won't abandon a wrong solution). Bridges forward: these traps are not caused by AI; Unit 3 shows AI amplifies them and introduces three new ones. Runs a Check your Understanding discussion, followed by the Learning Question; the wedge asks the student to find one of the five traps in a recent task of their own."
 tags:
   - wip
@@ -11,11 +11,11 @@ tags:
 #### Text
 content::
 
-As we've learnt, metacognition is thinking about how you think: planning, checking your own reasoning, knowing what you actually understand. When that oversight fails, you can go wrong in ways you do not notice at the time. Researchers call these **metacognitive {--{"author":"AI","timestamp":1787362055440}@@traps** —--}{++{"author":"AI","timestamp":1787362055440}@@traps**:++} repeatable patterns where your own monitoring of your thinking breaks down while you solve a problem.
+As we've learnt, metacognition is thinking about how you think: planning, checking your own reasoning, knowing what you actually understand. When that oversight fails, you can go wrong in ways you do not notice at the time. Researchers call these **metacognitive traps**, repeatable patterns where your own monitoring of your thinking breaks down while you solve a problem.
 
-These five traps were first documented by researchers in 2018. They watched novice programmers solve a problem in a lab, with no AI tools involved, and recorded where the students' thinking went wrong. The traps are about learning itself, not about code, so they show up in any knowledge work: writing, analysis, planning, diagnosis. You do not need a machine to build the wrong model of a problem, or to feel finished when you are not.{++{"author":"AI","timestamp":1787362059245}@@
+These five traps were first documented by researchers in 2018. They watched novice programmers solve a problem in a lab, with no AI tools involved, and recorded where the students' thinking went wrong. The traps are about learning itself, not about code, so they show up in any knowledge work: writing, analysis, planning, diagnosis. You do not need a machine to build the wrong model of a problem, or to feel finished when you are not.
 
-Watch the short video below. It shows the same five traps in real time, using a later repeat of the study. That later version placed AI tools in the room, but the five traps it shows are the originals. They appear with or without a machine present.++}
+Watch the short video below. It shows the same five traps in real time, using a later repeat of the study. That later version placed AI tools in the room, but the five traps it shows are the originals. They appear with or without a machine present.
 
 #### Video
 source:: [[../video_transcripts/jetbrains-academy-therapy-for-the-vibe-coded-brain]]
@@ -26,15 +26,15 @@ to:: 6:50
 content::
 \## The five traps
 
-{++{"author":"AI","timestamp":1787362062410}@@As the researcher in the video names them in order, here are the five traps stated plainly, with everyday examples from knowledge work rather than code:
+As the researcher in the video names them in order, here are the five traps stated plainly, with everyday examples from knowledge work rather than code:
 
-++}- **Forming**: you build the wrong mental model of the right problem. You misread what the brief or the question actually asks, and you solve the thing you assumed instead. *Example: a manager reads "cut support tickets" as "cut response time" and builds a dashboard for the wrong goal.*
+- **Forming**: you build the wrong mental model of the right problem. You misread what the brief or the question actually asks, and you solve the thing you assumed instead. *Example: a manager reads "cut support tickets" as "cut response time" and builds a dashboard for the wrong goal.*
 - **Dislodging**: once a wrong model is in your head, evidence against it bounces off. You reread the instructions and still see what you expected. *Example: a learner who is sure the method is "just plug the numbers in" keeps ignoring the worked example that shows otherwise.*
 - **Assumption**: you build a correct model of the wrong problem. The work is good; it answers a question nobody asked. *Example: an analyst delivers a flawless report on the wrong metric, because they never checked why the number was requested.*
 - **Location**: you move too fast, skip the steps where you check your plan, and feel further along than you are. Progress feels real because the output keeps growing. *Example: you skim a long document and feel you "got it" before you reach the one caveat that changes the conclusion.*
 - **Achievement**: you cannot let go of a solution you are invested in, because you feel nearly done. Rework looks more expensive than it is. *Example: a writer keeps a beloved paragraph even after feedback shows it does not fit.*
 
-Notice that none of these needs a tool. They are properties of how people learn and monitor their own understanding. That is the point: the traps are not a new problem that AI created. They are an old problem that AI will meet you with.{++{"author":"AI","timestamp":1787362065854}@@ In the video, the learners usually only saw their trap after the fact, looking back from the outside. The point of naming them is to catch yours sooner, while you are still in the middle of the work.++}
+Notice that none of these needs a tool. They are properties of how people learn and monitor their own understanding. That is the point: the traps are not a new problem that AI created. They are an old problem that AI will meet you with. In the video, the learners usually only saw their trap after the fact, looking back from the outside. The point of naming them is to catch yours sooner, while you are still in the middle of the work.
 
 In the next unit, we bring generative AI into the picture. There we will see a 2024 replication of the same study, this time with ChatGPT and Copilot in the room. The researchers found that the five traps above did not disappear. Instead, they persisted, and in several cases got worse. And the AI added three new traps that only exist because the tool is in the loop.
 
@@ -59,12 +59,12 @@ Key concepts in the piece:
 
 Response length: 80 to 150 words per reply. Short paragraphs only. No lists.
 
-Open the discussion with one question that invites the student to surface the reading in their own {--{"author":"AI","timestamp":1787362069979}@@words — what--}{++{"author":"AI","timestamp":1787362069979}@@words. What++} stuck, what puzzled them, what they would challenge. Then keep the conversation going for about two tutor turns.
+Open the discussion with one question that invites the student to surface the reading in their own words. What stuck, what puzzled them, what they would challenge. Then keep the conversation going for about two tutor turns.
 
 In each reply:
 1. Acknowledge specifically what the student expressed (recall, resonance, confusion, or doubt), without generic praise or inflation.
 2. If something is wrong, correct it in one plain sentence. If something is missing or underdeveloped, name it briefly without lecturing. Normalise gaps: incomplete recall is expected and not a failure.
-3. Confusion: ask what specifically felt {--{"author":"AI","timestamp":1787362070444}@@unclear —--}{++{"author":"AI","timestamp":1787362070444}@@unclear:++} a term, the logic, the evidence, or a conflict with something they already believed.
+3. Confusion: ask what specifically felt unclear: a term, the logic, the evidence, or a conflict with something they already believed.
 4. Doubt or skepticism: treat it as a legitimate stance. Ask what would need to be true for them to find the point convincing.
 5. Resonance: ask what prior experience it connected to. Do not let "it clicked" stay unarticulated.
 
@@ -79,7 +79,7 @@ content::
 \## Learning Question
 Think of a recent task at work that went wrong, or that you finished but later doubted. Do not pick an AI failure. Pick something where the trouble came from your own thinking.
 
-Which of the five traps (Forming, Dislodging, Assumption, Location, Achievement) do you think caught you? Where exactly did your own checking break {--{"author":"AI","timestamp":1787362071058}@@down —--}{++{"author":"AI","timestamp":1787362071058}@@down:++} the moment you could have noticed, but did not?
+Which of the five traps (Forming, Dislodging, Assumption, Location, Achievement) do you think caught you? Where exactly did your own checking break down: the moment you could have noticed, but did not?
 
 assessment-instructions:: The student has read the five traps, recalled, and reflected, and is now in the main discussion phase. The question asks them to recognise one of the five pre-AI traps in their own recent work and to locate the breakdown in their own metacognition.
 
