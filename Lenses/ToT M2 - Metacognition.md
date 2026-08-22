@@ -11,14 +11,12 @@ tags:
 #### Text
 content::
 
-**Metacognition** means thinking about how we think. Here is a short video that frames the same idea before we go deeper.
+**Metacognition** means thinking about how we think. Here is a short video that frames the idea before we go deeper.
 
 #### Video
 source:: [[../video_transcripts/petersons-test-prep-metacognition-the-skill-that-promotes-advanced-learning]]
 from:: 0:20
 to:: 5:37
-
-
 
 #### Text
 content::
