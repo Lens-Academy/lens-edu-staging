@@ -15,7 +15,7 @@ As we've learnt, metacognition is thinking about how you think: planning, checki
 
 These five traps were first documented by researchers in 2018. They watched novice programmers solve a problem in a lab, with no AI tools involved, and recorded where the students' thinking went wrong. The traps are about learning itself, not about code, so they show up in any knowledge work: writing, analysis, planning, diagnosis. You do not need a machine to build the wrong model of a problem, or to feel finished when you are not.
 
-Watch the short video below. It discusses the five traps.
+The short video below discusses the five 
 
 #### Video
 source:: [[../video_transcripts/jetbrains-academy-therapy-for-the-vibe-coded-brain]]
