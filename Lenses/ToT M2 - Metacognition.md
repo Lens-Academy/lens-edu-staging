@@ -82,7 +82,7 @@ Key concepts in the piece:
 - Control has three phases: planning (before), monitoring (during), evaluating (after)
 - Why it matters: oversight is what keeps reasoning honest; it can break
 - Applied to offloading: {--{"author":"import_videos's AI","timestamp":1787361906585}@@the article--}{++{"author":"import_videos's AI","timestamp":1787361906585}@@metacognition++} shows {--{"author":"import_videos's AI","timestamp":1787361906585}@@metacognition--}{++{"author":"import_videos's AI","timestamp":1787361906585}@@up++} as the decision to do a task yourself or hand it off: monitoring (can I evaluate this?) plus control (what do I do about it?)
-- Scope: research is studied in classrooms, but knowledge workers are constant learners too; the "learner" in the research is also you
+- Scope: research is studied in {--{"author":"import_videos's AI","timestamp":1787361911653}@@classrooms,--}{++{"author":"import_videos's AI","timestamp":1787361911653}@@education,++} but knowledge workers are constant learners too; the "learner" in the research is also you
 
 Response length: a discussion, roughly 80 to 150 words per reply. Short paragraphs only. No lists.
 
