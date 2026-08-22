@@ -1,7 +1,7 @@
 ---
 id: '82aabd8a-42d2-4099-a8d5-5d1912cbda78'
 title: "Metacognition"
-duration_minutes: {--{"author":"import_videos's AI","timestamp":1787361057573}@@15--}{++{"author":"import_videos's AI","timestamp":1787361057573}@@20++}
+duration_minutes: 20
 tldr: "Metacognition is thinking about your own thinking: the monitoring and control that keep your reasoning honest. It is the oversight this unit is built around — and the thing that can break."
 summary_for_tutor: "Opening content lens for Unit 2 of 'Thinking about Thinking'. Defines metacognition (thinking about how we think) as two parts — monitoring (noticing what you know and where your thinking is going) and control (acting on that notice) — and bridges to the next lens, which shows the sharpest way oversight breaks: arbitrary offloading. Runs a merged Check your Understanding discussion, followed by the Learning Question; the wedge is a moment the student kept going without checking their own understanding."
 tags:
@@ -11,7 +11,7 @@ tags:
 #### Text
 content::
 
-{++{"author":"import_videos's AI","timestamp":1787361053572}@@\## Watch first
+\## Watch first
 A short video frames metacognition as planning, monitoring, and evaluating your own learning, before we go deeper.
 
 #### Video
@@ -22,7 +22,7 @@ to:: 5:37
 #### Text
 content::
 
-++}**Metacognition** means thinking about how we think. It is the quiet oversight layer: the part of thinking that decides how to think.
+**Metacognition** means thinking about how we think. It is the quiet oversight layer: the part of thinking that decides how to think.
 
 Before we break metacognition into parts, here is how one researcher frames it in the context of handing work to a tool. Read the passage, then we will map it onto the two parts.
 
