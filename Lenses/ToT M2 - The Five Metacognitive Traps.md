@@ -11,9 +11,11 @@ tags:
 #### Text
 content::
 
-As we've learnt, metacognition is thinking about how you think: planning, checking your own reasoning, knowing what you actually understand. When that oversight fails, you can go wrong in ways you do not notice at the time. Researchers call these **metacognitive traps** — repeatable patterns where your own monitoring of your thinking breaks down while you solve a problem.
+As we've learnt, metacognition is thinking about how you think: planning, checking your own reasoning, knowing what you actually understand. When that oversight fails, you can go wrong in ways you do not notice at the time. Researchers call these **metacognitive {--{"author":"AI","timestamp":1787362055440}@@traps** —--}{++{"author":"AI","timestamp":1787362055440}@@traps**:++} repeatable patterns where your own monitoring of your thinking breaks down while you solve a problem.
 
-These five traps were first documented by researchers in 2018. They watched novice programmers solve a problem in a lab, with no AI tools involved, and recorded where the students' thinking went wrong. The traps are about learning itself, not about code, so they show up in any knowledge work: writing, analysis, planning, diagnosis. You do not need a machine to build the wrong model of a problem, or to feel finished when you are not.
+These five traps were first documented by researchers in 2018. They watched novice programmers solve a problem in a lab, with no AI tools involved, and recorded where the students' thinking went wrong. The traps are about learning itself, not about code, so they show up in any knowledge work: writing, analysis, planning, diagnosis. You do not need a machine to build the wrong model of a problem, or to feel finished when you are not.{++{"author":"AI","timestamp":1787362059245}@@
+
+Watch the short video below. It shows the same five traps in real time, using a later repeat of the study. That later version placed AI tools in the room, but the five traps it shows are the originals. They appear with or without a machine present.++}
 
 #### Video
 source:: [[../video_transcripts/jetbrains-academy-therapy-for-the-vibe-coded-brain]]
