@@ -4,10 +4,44 @@ channel: "Peterson's Test Prep"
 url: "https://www.youtube.com/watch?v=elZFL4FLVLE"
 ---
 
-*This transcript is being processed.*
+[Music]
 
-**786 words** — estimated processing time: **~2 minutes**.
+For whatever reason, we are more likely to spend time planning for a road trip, a big party, or a date than we are for learning. Many students don't approach learning the same way they do other important aspects of their lives. One of the biggest differentiators between successful learners, experts, and students who struggle is something called metacognition.
 
-If you submitted multiple videos, they share a pool of 3 concurrent sessions and will be processed as capacity allows.
+Metacognition is the process of thinking about thinking, one that is used to make decisions that maximize learning outcomes and help students meet their goals. Metacognition is thinking not just about the what of learning, but the how.
 
-Queued at: 8/22/2026, 1:00:55 AM
+Ultimately, metacognition is all about creating the best possible opportunity to learn what you are trying to learn. So when you're learning something, you stop to consider what you're trying to learn, what you know, how you're trying to learn it, how effective your strategies are, and what you can do differently to improve your understanding. Most people don't move beyond cognitive strategies when learning. Cognitive strategies are things tests ask you to do: recall, analyze, interpret, and apply information.
+
+Metacognition helps us see which cognitive strategies need to occur so we're best prepared for a test, while also showing us what we need to do differently in order to be successful.
+
+When we start looking at what we need to do, our learning goal, and how we're going to do it, our plan for learning, we are distinguishing between metacognitive knowledge and metacognitive regulation.
+
+There are three basic stages of the metacognition process: plan, monitor, and evaluate.
+
+First, plan your approach to learning a topic, specifically how you will digest the information. Then monitor your comprehension of the topic as you study, with actions such as practice tests. Finally, evaluate the results of your learning when you're finished, and modify your approach as needed.
+
+These may sound like extra steps, but they're actually essential parts of the learning process. These steps help learners see that they've used their time to recall, analyze, interpret, and apply information. In other words, metacognition helps students know that they really learned something.
+
+So what does it look like in action? As a learner, you have to contend with your personal strengths and weaknesses, the nature of the task, and the strategies you have available to you to accomplish the task and overcome any challenges. The process will look different for every student.
+
+Let's have a look at Marcus and his ACT study plan. There are two ways he can approach his preparation process. Marcus feels confident with most of the material, although he's a bit iffy on the math and science sections. His plan could involve reviewing an ACT study guide and a few practice tests leading up to test date. The day will come, he'll live with the grade, and repeat the same process again the next time he takes the exam, perhaps faring better or worse.
+
+On the other hand, Marcus could take time to consider which ACT sections he already feels confident about, which sections he needs more time to prepare for, as well as exactly how he will monitor his progress during preparation.
+
+He could regularly pause to ask, is what I'm doing working? If so, how do I know? After the test, he can evaluate his overall process, if there was anything he could have done differently, and how he will prepare differently next time.
+
+It's not hard to see which preparation method best sets Marcus up for success.
+
+Let's step back and consider the basic questions you can ask yourself before, during, and after studying to attend to the decisions that can make the difference in your performance.
+
+Before learning, take time to plan: what am I supposed to learn, what strategies should I use, how much time do I have?
+
+While learning, pause to monitor: how am I doing, am I on track with my plan, do I understand what I'm learning, should I adjust my pace?
+
+After learning, reflect and evaluate your process: what did I learn, did I achieve my goals, what could I have done differently, is there anything I still don't understand? The answers to these questions may not come quickly, but they create an opportunity for you to change how you approach your goals when things just aren't working out the way you want them to.
+
+Learning and practicing metacognition means that you'll be your own best indicator for whether you are prepared for a test or not.
+
+At the same time, you're helping prepare yourself for more effective learning in the future, because you will be able to make the best choices for yourself when your materials and teachers don't deliver what you need.
+
+[Music]
