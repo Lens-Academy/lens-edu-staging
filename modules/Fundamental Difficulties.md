@@ -29,7 +29,10 @@ source:: [[../Learning Outcomes/Misalignment as the default outcome]]
 # Learning Outcome:
 source:: [[../Learning Outcomes/Moloch and multipolar traps]]
 
-# Lens: Welcome
+# Lens:{++{"author":"AI","timestamp":1787387239614}@@
+source:: [[../Lenses/The King Midas Problem]]
+
+# Lens:++} Welcome
 id:: 2a219827-f4dd-4c77-86dd-5098df71f62d
 tldr:: AI alignment has no proven solution yet, so why is it so hard even for careful builders? This module assembles the core reasons: the rocket-alignment analogy, instrumental convergence and power-seeking, the sharp left turn, the nature of agency, and why competitive pressure can push everyone toward an outcome nobody wants.
 summary_for_tutor:: Opening lens for the Fundamental Difficulties module. Frames why AI alignment is inherently challenging and previews the arc: the rocket-alignment analogy and the need for formal alignment theory, why alignment arguments feel counterintuitive, instrumental convergence and power-seeking, capabilities-versus-values generalization and the sharp left turn, the nature and emergence of agency, why misalignment is the default outcome of current training, and how coordination failures and competitive pressure produce bad outcomes even when individuals prefer safety. Lists the questions learners should be able to answer afterward.
