@@ -15,6 +15,11 @@ As we've learnt, metacognition is thinking about how you think: planning, checki
 
 These five traps were first documented by Prather and colleagues (2018). They watched novice programmers solve a problem in a lab, with no AI tools involved, and recorded where the students' thinking went wrong. The traps are about learning itself, not about code, so they show up in any knowledge work: writing, analysis, planning, diagnosis. You do not need a machine to build the wrong model of a problem, or to feel finished when you are not.
 
+#### Video
+source:: [[../video_transcripts/jetbrains-academy-therapy-for-the-vibe-coded-brain]]
+from:: 0:00
+to:: 6:50
+
 \## The five traps
 
 - **Forming**: you build the wrong mental model of the right problem. You misread what the brief or the question actually asks, and you solve the thing you assumed instead. *Example: a manager reads "cut support tickets" as "cut response time" and builds a dashboard for the wrong goal.*
