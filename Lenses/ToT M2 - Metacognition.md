@@ -66,7 +66,7 @@ This oversight is what keeps your reasoning honest. When it works, you catch a w
 
 You may notice that most metacognition {--{"author":"import_videos's AI","timestamp":1787361896285}@@research, including the paper we just quoted, --}{++{"author":"import_videos's AI","timestamp":1787361896285}@@research ++}studies {--{"author":"import_videos's AI","timestamp":1787361896285}@@schoolchildren.--}{++{"author":"import_videos's AI","timestamp":1787361896285}@@education.++} That is where the experiments are easiest to run. {++{"author":"import_videos's AI","timestamp":1787361896285}@@Education is focussed on learning, and therefore the process of learning is more studied in education. ++}But the mechanism is not child specific. Knowledge work is the same activity in slower motion. You are constantly learning new skills to do your job better, and most of the day is combining things you already know to solve problems you have not seen before. Every such moment asks the same question the student faces: do I do this myself, or hand it off? And it depends on the same oversight. So when this unit says "the learner," read it as you.
 
-But oversight can break. The next lens — arbitrary offloading — shows the sharpest way it breaks: a moment where the judgement leaves entirely.
+{--{"author":"import_videos's AI","timestamp":1787361901470}@@But oversight can break. --}The next {--{"author":"import_videos's AI","timestamp":1787361901470}@@lens —--}{++{"author":"import_videos's AI","timestamp":1787361901470}@@lens,++} arbitrary {--{"author":"import_videos's AI","timestamp":1787361901470}@@offloading — shows --}{++{"author":"import_videos's AI","timestamp":1787361901470}@@offloading, is ++}the {--{"author":"import_videos's AI","timestamp":1787361901470}@@sharpest way it breaks: --}{++{"author":"import_videos's AI","timestamp":1787361901470}@@moment you hand ++}a {--{"author":"import_videos's AI","timestamp":1787361901470}@@moment where--}{++{"author":"import_videos's AI","timestamp":1787361901470}@@judgement to++} the {--{"author":"import_videos's AI","timestamp":1787361901470}@@judgement leaves entirely.--}{++{"author":"import_videos's AI","timestamp":1787361901470}@@tool instead of making it yourself.++}
 
 #### Question
 content::
@@ -81,7 +81,7 @@ Key concepts in the piece:
 - Control: acting on that notice — slowing down, checking, changing plan, admitting you do not understand
 - Control has three phases: planning (before), monitoring (during), evaluating (after)
 - Why it matters: oversight is what keeps reasoning honest; it can break
-- Applied to offloading: the article shows metacognition as the decision to do a task yourself or hand it off: monitoring (can I evaluate this?) plus control (what do I do about it?)
+- Applied to offloading: {--{"author":"import_videos's AI","timestamp":1787361906585}@@the article--}{++{"author":"import_videos's AI","timestamp":1787361906585}@@metacognition++} shows {--{"author":"import_videos's AI","timestamp":1787361906585}@@metacognition--}{++{"author":"import_videos's AI","timestamp":1787361906585}@@up++} as the decision to do a task yourself or hand it off: monitoring (can I evaluate this?) plus control (what do I do about it?)
 - Scope: research is studied in classrooms, but knowledge workers are constant learners too; the "learner" in the research is also you
 
 Response length: a discussion, roughly 80 to 150 words per reply. Short paragraphs only. No lists.
