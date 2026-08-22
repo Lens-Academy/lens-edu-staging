@@ -20,6 +20,7 @@ source:: [[../video_transcripts/jetbrains-academy-therapy-for-the-vibe-coded-bra
 from:: 0:00
 to:: 6:50
 
+#
 \## The five traps
 
 - **Forming**: you build the wrong mental model of the right problem. You misread what the brief or the question actually asks, and you solve the thing you assumed instead. *Example: a manager reads "cut support tickets" as "cut response time" and builds a dashboard for the wrong goal.*
