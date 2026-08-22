@@ -13,13 +13,13 @@ content::
 \## Reading Assignment
 {--{"author":"import_videos's AI","timestamp":1787361034556}@@Read--}{++{"author":"import_videos's AI","timestamp":1787361034556}@@First watch++} the short {--{"author":"import_videos's AI","timestamp":1787361034556}@@background below, then--}{++{"author":"import_videos's AI","timestamp":1787361034556}@@video below. It is an accessible summary of the study this lens is built on: a lab watched beginners learn to program with AI, and the video walks through the traps their thinking fell into. Then++} read the {++{"author":"import_videos's AI","timestamp":1787361034556}@@short background and the ++}two study excerpts that follow. The first excerpt reports what the researchers saw. The second is their own reading of the harms. Both come from one study: a close look at beginners learning to program with AI help.
 
-{--{"author":"import_videos's AI","timestamp":1787361039951}@@%% TODO: When video transcript import works again, insert an --}#### Video{--{"author":"import_videos's AI","timestamp":1787361039951}@@ segment here sourcing video_transcripts/jetbrains-academy-therapy-for-the-vibe-coded-brain (JetBrains Academy, "Therapy for the Vibe-Coded Brain", https://www.youtube.com/watch?v=DkhhE97Swmo, whole video). Present video and paper as a pair: the video is the accessible summary, the excerpts are the researchers' own words. Update the Reading Assignment wording accordingly and raise duration_minutes. %%--}{++{"author":"import_videos's AI","timestamp":1787361039951}@@
+#### Video
 source:: [[../video_transcripts/jetbrains-academy-therapy-for-the-vibe-coded-brain]]
 from:: 0:00
 to:: 6:50
 
 #### Text
-content::++}
+content::
 
 \## Background: one study, two futures
 Prather and colleagues (2024) ran a replication with a twist. In 2018, the same team watched 31 students solve a programming problem in a lab, and recorded where their thinking went wrong. For the new study, 21 students solved the same problem with GitHub Copilot and ChatGPT available. Each student worked one on one with a researcher present. The team collected think-aloud narration, observation notes, interviews, and eye tracking. This is observational data, not a survey. The researchers watched what students actually did, including where their eyes went.
