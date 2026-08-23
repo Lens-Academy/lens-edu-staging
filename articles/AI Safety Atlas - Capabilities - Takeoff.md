@@ -98,7 +98,7 @@ Depending on the strength and interplay of these feedback loops, they can create
 
 *Figure 1.47: A summary of What a Compute-Centric Framework Says About Takeoff Speeds ([Davidson, 2024](https://www.openphilanthropy.org/research/what-a-compute-centric-framework-says-about-takeoff-speeds/))*
 
-<iframe src="https://www.youtube-nocookie.com/embed/-ffmwR9PPVM" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{--{"author":"Luc's AI","timestamp":1787495454579}@@<iframe src="https://www.youtube-nocookie.com/embed/-ffmwR9PPVM" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--}{++{"author":"Luc's AI","timestamp":1787495454579}@@::video[[../video_transcripts/rational-animations-when-will-ai-automate-all-mental-work-and-how-fast]]++}
 
 *Video 1.3: Optional video explaining the argument behind automating research and development.*
 

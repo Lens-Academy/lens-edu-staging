@@ -33,7 +33,7 @@ This section discusses yet more attempts to address the reward misspecification 
 
 ## Reward Modeling
 
-<iframe src="https://www.youtube-nocookie.com/embed/PYylPRX6z4Q" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{--{"author":"Luc's AI","timestamp":1787495456040}@@<iframe src="https://www.youtube-nocookie.com/embed/PYylPRX6z4Q" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--}{++{"author":"Luc's AI","timestamp":1787495456040}@@::video[[../video_transcripts/robert-miles-ai-safety-training-ai-without-writing-a-reward-function-with-reward-modelling]]++}
 
 *Video 6.3: Optional video explaining reward modeling.*
 

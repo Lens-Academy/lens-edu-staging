@@ -38,7 +38,7 @@ Machine learning** systems can evolve beyond pattern matching to systematically 
 
 ## Heuristics
 
-<iframe src="https://www.youtube-nocookie.com/embed/DKAS2V-kbhI" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{--{"author":"Luc's AI","timestamp":1787495455289}@@<iframe src="https://www.youtube-nocookie.com/embed/DKAS2V-kbhI" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--}{++{"author":"Luc's AI","timestamp":1787495455289}@@::video[[../video_transcripts/google-deepmind-safety-research-part-1-2-risks-from-deliberate-planning-and-instrumental-subgoals]]++}
 
 *Video 7.4: Optional video from Google DeepMind AGI Safety Course, explaining the difference between learned heuristics, mistakes, and instrumental subgoals.*
 

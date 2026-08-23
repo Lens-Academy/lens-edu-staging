@@ -38,7 +38,7 @@ Machine learning can result in models learning correlated proxy objectives inste
 
 **Definition: Goals (Behavioral)** — Goals are behavioral patterns that persist across different contexts, revealing what the system is actually optimizing for in practice. Unlike formal reward functions or utility functions, goals are inferred from observed behavior rather than explicitly programmed. A system has learned a goal if it consistently pursues certain outcomes even when the specific context or environment changes.
 
-<iframe src="https://www.youtube-nocookie.com/embed/K8p8_VlFHUk" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{--{"author":"Luc's AI","timestamp":1787495455077}@@<iframe src="https://www.youtube-nocookie.com/embed/K8p8_VlFHUk" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--}{++{"author":"Luc's AI","timestamp":1787495455077}@@::video[[../video_transcripts/rational-animations-goal-misgeneralization-how-a-tiny-change-could-end-everything]]++}
 
 *Video 7.1: Optional video explaining goal misgeneralization.*
 
