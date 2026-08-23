@@ -16,9 +16,11 @@ Lens Academy runs cohort-based courses on AI safety. This page is a **lens**: th
 What makes a lens different from a slide or a PDF is that the source material, the tutor, and the assessment all live on the same page. A learner reads the actual text of the actual paper, argues about it with an AI tutor that knows what they just read, and is then tested against a stated learning outcome. Nothing is assumed to have been understood.
 
 :::callout {title="What this tour is" tone="blue"}
-Four pages after this one, about 25 minutes end to end. Every page opens by naming the platform features it demonstrates, and the material is real: a Wikipedia overview of existential risk from AI and a Kurzgesagt explainer, both used the way a real course uses them.
+Four pages after this one, about {--{"author":"Elias's AI","timestamp":1787499797362}@@25--}{++{"author":"Elias's AI","timestamp":1787499797362}@@20++} minutes end to end. Every page opens by naming the platform features it {--{"author":"Elias's AI","timestamp":1787499797362}@@demonstrates, and the material is real:--}{++{"author":"Elias's AI","timestamp":1787499797362}@@demonstrates.
 
-Sign in before you start. The tutor, the graded questions and the roleplay only respond for a signed-in learner.
+The sources are real,++} a Wikipedia overview of existential risk from AI and a Kurzgesagt explainer, {--{"author":"Elias's AI","timestamp":1787499797362}@@both used--}{++{"author":"Elias's AI","timestamp":1787499797362}@@because a course that reads a real source in place is the thing we are showing you. **You are not here to learn them.** Every question, the roleplay and++} the {--{"author":"Elias's AI","timestamp":1787499797362}@@way --}{++{"author":"Elias's AI","timestamp":1787499797362}@@closing test are about this platform instead, and each is answerable in seconds from what you have just seen. On ++}a real course {--{"author":"Elias's AI","timestamp":1787499797362}@@uses them.--}{++{"author":"Elias's AI","timestamp":1787499797362}@@they carry the subject matter.++}
+
+Sign in before you start. The tutor, the graded questions and the roleplay only respond for a signed-in {--{"author":"Elias's AI","timestamp":1787499797362}@@learner.--}{++{"author":"Elias's AI","timestamp":1787499797362}@@reader.++}
 :::
 
 \## What you will see
@@ -33,7 +35,7 @@ Sign in before you start. The tutor, the graded questions and the roleplay only 
 
 ::card[[../Lenses/Tour - Practice Against Pushback]]
 
-> A spoken roleplay against an AI character who disagrees with you, so the learner practises the argument rather than reciting it.
+> {--{"author":"Elias's AI","timestamp":1787499803780}@@A--}{++{"author":"Elias's AI","timestamp":1787499803780}@@Five minutes,++} spoken {--{"author":"Elias's AI","timestamp":1787499803780}@@roleplay --}{++{"author":"Elias's AI","timestamp":1787499803780}@@or typed, ++}against an AI character who {--{"author":"Elias's AI","timestamp":1787499803780}@@disagrees with you, so--}{++{"author":"Elias's AI","timestamp":1787499803780}@@thinks tools like this one are a gimmick. On a real course++} the {--{"author":"Elias's AI","timestamp":1787499803780}@@learner practises--}{++{"author":"Elias's AI","timestamp":1787499803780}@@argument is about++} the {--{"author":"Elias's AI","timestamp":1787499803780}@@argument rather than reciting it.--}{++{"author":"Elias's AI","timestamp":1787499803780}@@subject; here it is about us.++}
 
 ::card[[../Lenses/Tour - Behind The Scenes]]
 
