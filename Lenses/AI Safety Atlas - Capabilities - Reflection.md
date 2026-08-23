@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787513844354}@@---
+{++{"author":"Elias's AI","timestamp":1787513921276}@@---
 id: '964c5d74-ebe8-4e88-8c4e-28d0832398fe'
 title: "Reflection - Capabilities"
 tldr: "Close the chapter by writing down what stuck, without looking, and then what it did to you. Nothing here is graded. The point is to find out what you actually retained while you can still do something about it."
@@ -18,40 +18,55 @@ add_to_ai_context:
 
 #### Text
 content::
-Three exercises on Chapter 1. Each one is answered here and graded here. If your cohort meets, bring what you wrote and the feedback you got.
+Three short prompts to close the chapter. None of this is graded and there is no right answer. The AI will respond to what you write, but it will not score you.
 
 #### Question
 content::
-Before the forecasting section you committed to a single year. Two things now.
-
-First, the chapter argues that when someone names a date they really mean a range. Give yours: the earliest year you would be genuinely surprised to see it happen before, and the year by which you would be genuinely surprised if it still had not happened.
-
-Second, name one specific thing in this chapter that set either end of that range, or that moved your original year. Name the trend, model, number, or argument. Not the direction.
-
-If nothing in the chapter moved you, that is a real answer: say which specific claim you did not find convincing, and what evidence would have moved you.
-
-"I updated slightly toward shorter timelines" is not an answer.
+Spend 2 minutes writing down everything you can remember from this chapter, without looking back at any of it. Anything and everything, in any order, no need to organise it. Using the speech to text feature is highly recommended here.
 
 assessment-instructions::
-The student committed to a single year in the pre-reading lens earlier in this module, and has since read Defining and Measuring AGI, Leveraging Scale, Forecasting Timelines and Takeoff.
+The student has just finished this chapter of the AI Safety Atlas and has written a free recall from memory.
 
-OPEN WITH THEIR OWN NUMBER. If their pre-reading answer is retrievable in this module's chat history, quote the year back to them in your first sentence and set it beside the range they just gave. If it is not retrievable, ask them once to paste or state the year they wrote, since it is above this exchange and that is a small ask. If they decline, cannot find it, or skipped the pre-reading lens, grade the range and the mechanism on their own merits, say in one sentence that you could not make the comparison, and move on. Never invent what their earlier answer contained.
+The chapter's articles are in your context. Check what they wrote against those articles, not against your own background knowledge of the field. If you are unsure whether something is in the chapter, do not assert either way.
 
-Pass bar: the answer names at least one specific trend, model, number or argument from this chapter, and says which end of the range it set or which way it moved the original year. The direction of movement is irrelevant to the grade. No movement at all passes exactly as strongly as movement.
+THIS IS NOT GRADED. Do not score, rank, or issue any verdict. Do not say pass, fail, ready, or not ready. Do not tell them how much of the chapter they covered as a proportion.
 
-Mechanisms from the chapter that plainly qualify. This list is open, not exhaustive, and any other specific item from the chapter counts. Never tell a student their mechanism is not on the list. High-quality public text projected to run out between 2026 and 2032, and how far the three escape routes substitute (the article calls them multimodal data, synthetic data, and task-based learning; this course also calls the third task-based self-play, so accept either name). The decomposition of effective compute into chip production, hardware efficiency and algorithmic efficiency, at roughly 2.3x, 1.35x and 3x per year. Training compute growing 5x per year since 2020. The Chinchilla result that optimal training needs roughly 20 tokens per parameter, and that earlier large models were undertrained. The cost trajectory, from 480 million dollars for Grok-4 in 2025 toward hundreds of billions of dollars and gigawatts per run by 2030. The biological-anchors range, from roughly 10^28 to 10^41 FLOP. Unhobbling and scaffolding sitting outside what scaling laws predict. The 60-95 versus 5-40 attribution split between scale and algorithms. The investment and automation feedback loops in the compute-centric takeoff argument.
+One turn. 80 to 150 words. Short paragraphs, no lists.
 
-Two cautions about your own facts. The chapter describes the biological-anchors range as twelve orders of magnitude; 10^28 to 10^41 is thirteen. A student who computes thirteen is right. Credit them and do not correct them. Second, the GATE aggressive-versus-conservative spread appears in the required reading only as figure-caption text, with no numbers attached, and the substantive GATE material sits in an optional appendix. Accept it if a student cites it, never require it, and never ask them how large the spread is.
+What to do:
+1. Name one or two things they recalled accurately, specifically rather than generically.
+2. Name one or two things from the chapter they did not mention. Point at them, do not explain them.
+3. If they stated something the chapter contradicts, correct it in one sentence and give the chapter's version.
+4. Close by normalising the gaps. Incomplete recall after one pass is the expected result, and noticing the gap is the useful part.
 
-A student who did not move and can say why passes fully. A passing example: "every trend in the chapter conditions on compute being the binding constraint, and my uncertainty was never about compute."
+Do not re-teach the chapter, ask follow-up questions, or invite a reply. Avoid generic praise (great job, excellent recall, well done).
 
-Do not reward movement toward shorter timelines. The chapter presents evidence in both directions, and a course that rewards one direction is teaching a conclusion rather than a skill.
+Tell them to move on to the next prompt.
 
-Calibration, applied symmetrically. If their range is narrow and they cannot name what set either end, say so in one sentence. If their range is so wide that nothing in the chapter could have produced either end, say that in one sentence too. A student is entitled to argue that finding their old estimate internally incoherent is itself a reason to narrow, without new evidence; that is the chapter's own account of what forecasts are for, and it passes.
+max-time:: 5:00
 
-One turn. Reply in 80 to 150 words. Short paragraphs, no lists. Do not over-validate. Avoid generic praise (great job, excellent, well done).
+#### Question
+content::
+Now the other half. How did the chapter land? What surprised you, what did you not believe, what felt like it was missing? No need to organise it, just say what you actually thought.
 
-max-chars:: 1500
+assessment-instructions::
+The student has just recalled the chapter and is now saying how it landed.
+
+THIS IS NOT GRADED and there is no correct reaction. Do not score. Do not tell them their reaction is right, common, or expected. Your job is to help them say what they think more precisely, not to change what they think.
+
+Up to 2 replies. Keep an internal counter and close after the second. 80 to 150 words each. Short paragraphs, no lists.
+
+Branch on what they gave you:
+- Confusion: ask what specifically is unclear. A term, the logic, the evidence, or a clash with something they already believed.
+- Disagreement or scepticism: treat it as a legitimate position. Ask what would have to be true for them to change their mind. Do not adjudicate it and do not defend the chapter.
+- Resonance: ask what it connected to. Do not let "it clicked" stand unexplained.
+- Nothing much: ask which single claim in the chapter they would most want to be wrong, and why.
+
+If they raise something the chapter genuinely does not settle, say so plainly. That is a real feature of the material, not a gap in their reading.
+
+Avoid generic praise (great reflection, thoughtful point, exactly right).
+
+max-time:: 5:00
 
 #### Question
 content::
