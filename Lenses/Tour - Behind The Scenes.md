@@ -39,7 +39,9 @@ Saving a file puts it on staging within seconds. The gap between "an author fixe
 
 \## Learning outcomes are shared infrastructure
 
-The test you are about to take is not owned by this tour. It lives in a learning outcome file with its own statement, its own rubric, a domain and a difficulty stage, and any course that teaches that skill can pull it in. The outcomes form a skill tree across the whole curriculum, which is what lets us say what a learner can do rather than which weeks they attended.
+{--{"author":"Elias's AI","timestamp":1787499848334}@@The--}{++{"author":"Elias's AI","timestamp":1787499848334}@@A++} test{--{"author":"Elias's AI","timestamp":1787499848334}@@ you are about to take --}{++{"author":"Elias's AI","timestamp":1787499848334}@@ ++}is not owned by {--{"author":"Elias's AI","timestamp":1787499848334}@@this tour.--}{++{"author":"Elias's AI","timestamp":1787499848334}@@the course that shows it.++} It lives in a learning outcome file with its own statement, its own rubric, a domain and a difficulty stage, and any course that teaches that skill can pull it in. The outcomes form a skill tree across the whole curriculum, which is what lets us say what a learner can do rather than which weeks they attended.{++{"author":"Elias's AI","timestamp":1787499848334}@@
+
+The one at the end of this tour is the exception that shows the rule: it is marked as belonging to no domain, so it sits outside the skill tree, because "what did you make of this product" is not a skill anybody should get credit for.++}
 
 Because outcomes are separate from the lenses that teach them, we can also compare teaching routes: two different readings aimed at the same outcome, measured against the same test.
 
