@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787515396209}@@---
+{++{"author":"Elias's AI","timestamp":1787515485836}@@---
 id: '70a64e6b-90a9-419a-9230-12811b70c4a2'
 title: "Reflection - Goal Misgeneralization"
 tldr: "Close the chapter by writing down what stuck, without looking, and then what it did to you. Nothing here is graded. The point is to find out what you actually retained while you can still do something about it."
@@ -40,16 +40,16 @@ Do not re-teach the chapter, ask follow-up questions, or invite a reply. Do not 
 
 Tell them to move on to the next prompt.
 
-#### Question
-content::
-Now the other half. How did the chapter land? What surprised you, what did you not believe, what felt like it was missing? No need to organise it, just say what you actually thought.
+#### Question: Open
+id:: 2fd6e043-d88a-41dd-a74c-a81bb7a4e9e6
+content:: Now the other half. How did the chapter land? What surprised you, what did you not believe, what felt like it was missing? No need to organise it, just say what you actually thought.
+max-time:: 5:00
+feedback-instructions::
+The learner has just recalled this chapter and is now saying how it landed.
 
-assessment-instructions::
-The student has just recalled the chapter and is now saying how it landed.
+There is no correct reaction. Your job is to help them say what they think more precisely, not to change what they think. Do not tell them their reaction is right, common, or expected.
 
-THIS IS NOT GRADED and there is no correct reaction. Do not score. Do not tell them their reaction is right, common, or expected. Your job is to help them say what they think more precisely, not to change what they think.
-
-Up to 2 replies. Keep an internal counter and close after the second. 80 to 150 words each. Short paragraphs, no lists.
+One reply. 80 to 150 words. Short paragraphs, no lists.
 
 Branch on what they gave you:
 - Confusion: ask what specifically is unclear. A term, the logic, the evidence, or a clash with something they already believed.
@@ -57,11 +57,9 @@ Branch on what they gave you:
 - Resonance: ask what it connected to. Do not let "it clicked" stand unexplained.
 - Nothing much: ask which single claim in the chapter they would most want to be wrong, and why.
 
-If they raise something the chapter genuinely does not settle, say so plainly. That is a real feature of the material, not a gap in their reading.
+If they raise something the chapter genuinely does not settle, say so plainly. That is a real feature of the material, not a gap in their reading. The chapter's articles are in your context, so check before claiming the chapter does or does not say something.
 
 Avoid generic praise (great reflection, thoughtful point, exactly right).
-
-max-time:: 5:00
 
 #### Chat
 instructions::
