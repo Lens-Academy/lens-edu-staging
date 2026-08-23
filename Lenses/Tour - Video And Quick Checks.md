@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787493114396}@@---
+{++{"author":"Elias's AI","timestamp":1787493123235}@@---
 id: '3ccfcdfc-66d8-4020-98f4-27171b3676a0'
 title: Video and quick checks
 tldr: A video excerpt clipped to the 45 seconds that matter, followed by the four fast question types. Everything except the confidence rating is graded, and the grading is done by a model reading a rubric, not by string matching.
@@ -32,7 +32,7 @@ shuffle:: true
 feedback-instructions:: Name what the learner's choice implies. The gorilla comparison is about a species whose survival now depends on the goodwill of something more capable, with no hostility involved. The ant and the dog point at numbers and at domestication, which is a different argument. The chess answer is about a narrow capability, which the article treats separately. Two or three sentences, no praise.
 
 #### Question: Ranking
-id:: '1a941306-19f3-4eec-a939-40baf153b1a6'
+id:: 1a941306-19f3-4eec-a939-40baf153b1a6
 content:: The article traces the worry a long way back. Put these in the order they happened, earliest first.
 items::
 - Samuel Butler writes "Darwin among the Machines"
