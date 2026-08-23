@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787515477403}@@---
+---
 id: '664c89f3-29e6-4476-8b0e-6725fc3d9953'
 title: "Reflection - Specification Gaming"
 tldr: "Close the chapter by writing down what stuck, without looking, and then what it did to you. Nothing here is graded. The point is to find out what you actually retained while you can still do something about it."
@@ -67,4 +67,3 @@ The student has just closed this chapter with a recall pass and a reaction pass.
 Build on what they actually wrote, and quote them. Useful directions: which part of the chapter they expect to still matter in five years and which part they expect to date; what would have to happen for them to change their mind about the thing they were most confident about; whether anything they read changes what they would actually do differently.
 
 This is an open conversation, not an assessment. Do not grade, score, or summarise their performance. Do not re-teach the chapter. If they ask for your view, give it briefly and flag it as one view.
-++}

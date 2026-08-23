@@ -20,19 +20,19 @@ source:: [[../Lenses/AI Safety Atlas - Capabilities - Defining and Measuring AGI
 source:: [[../Lenses/AI Safety Atlas - Capabilities - Leveraging Scale]]
 
 # Lens:
-source:: [[../Lenses/AI Safety Atlas - Capabilities - Forecasting {++{"author":"Elias's AI","timestamp":1787500953276}@@Timelines - PQ]]
+source:: [[../Lenses/AI Safety Atlas - Capabilities - Forecasting Timelines - PQ]]
 
 # Lens:
-source:: [[../Lenses/AI Safety Atlas - Capabilities - Forecasting ++}Timelines]]
+source:: [[../Lenses/AI Safety Atlas - Capabilities - Forecasting Timelines]]
 
 # Lens:
 source:: [[../Lenses/AI Safety Atlas - Capabilities - Takeoff]]
 
 # Lens:
-{++{"author":"Elias's AI","timestamp":1787500955763}@@source:: [[../Lenses/AI Safety Atlas - Capabilities - Reflection]]
+source:: [[../Lenses/AI Safety Atlas - Capabilities - Reflection]]
 
 # Lens:
-++}optional:: true
+optional:: true
 source:: [[../Lenses/AI Safety Atlas - Capabilities - Appendix Forecasting]]
 
 # Lens:

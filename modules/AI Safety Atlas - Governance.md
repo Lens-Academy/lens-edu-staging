@@ -26,10 +26,10 @@ source:: [[../Lenses/AI Safety Atlas - Governance - Implementation]]
 source:: [[../Lenses/AI Safety Atlas - Governance - Conclusion]]
 
 # Lens:
-{++{"author":"Elias's AI","timestamp":1787514167841}@@source:: [[../Lenses/AI Safety Atlas - Governance - Reflection]]
+source:: [[../Lenses/AI Safety Atlas - Governance - Reflection]]
 
 # Lens:
-++}optional:: true
+optional:: true
 source:: [[../Lenses/AI Safety Atlas - Governance - Appendix Data Governance]]
 
 # Lens:

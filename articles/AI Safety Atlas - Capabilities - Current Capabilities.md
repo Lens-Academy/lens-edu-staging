@@ -165,9 +165,7 @@ Language models have provided a core around which we have seen many impressive c
 
 **Autonomous robots are moving from research labs into real-world industrial deployment at significant scale.** In 2023, China installed 276,300 industrial robots ([AI Index Report, 2025](https://arxiv.org/abs/2504.07139)). These systems handle welding, parts assembly, materials handling, and quality inspection—tasks requiring precision but not necessarily advanced reasoning.  In addition to industrial robots, warehouse robotics represents one of the most mature deployments—Amazon operates over 1 million robots across its fulfillment network, handling everything from inventory storage to package sorting ([Amazon, 2025](https://www.aboutamazon.com/news/operations/amazon-robotics-robots-fulfillment-center)). Robots in warehouses and industry are able to handle packages, speed up inventory identification using machine vision, and autonomously unload shipping containers.
 
-{--{"author":"Elias's AI","timestamp":1787510042487}@@::video[[../video_transcripts/boston-dynamics-atlas-goes-hands-on]]
-
---}*Video 1.1: Video showcasing one example of the state of humanoid robots in 2024 ([Boston Dynamics, 2024](https://bostondynamics.com/video/atlas-goes-hands-on/)).*
+*Video 1.1: Video showcasing one example of the state of humanoid robots in 2024 ([Boston Dynamics, 2024](https://bostondynamics.com/video/atlas-goes-hands-on/)).*
 
 ![Figure 1.22](https://ai-safety-atlas.com/_astro/4fb946e50c05e284df3fffa70f15b15603eaa31766152af852dfadebd8615338.B2-hOjD9_1Pz7dl.webp)
 

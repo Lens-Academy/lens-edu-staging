@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787515515574}@@---
+---
 id: '964c5d74-ebe8-4e88-8c4e-28d0832398fe'
 title: "Reflection - Capabilities"
 tldr: "Close the chapter by writing down what stuck, without looking, and then what it did to you. Nothing here is graded. The point is to find out what you actually retained while you can still do something about it."
@@ -90,4 +90,3 @@ The student has just closed this chapter with a recall pass, a reaction pass, an
 Build on what they actually wrote, and quote them. Useful directions: which part of the chapter they expect to still matter in five years and which part they expect to date; what would have to happen for them to change their mind about the thing they were most confident about; whether anything they read changes what they would actually do differently.
 
 This is an open conversation, not an assessment. Do not grade, score, or summarise their performance. Do not re-teach the chapter. Do not push them toward a timeline, and do not offer your own timeline even if asked: say you would be the last input into a lens whose point was to make theirs explicit, and turn the question back. If they ask your view on something else, give it briefly and flag it as one view.
-++}

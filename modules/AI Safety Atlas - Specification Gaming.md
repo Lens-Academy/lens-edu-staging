@@ -20,7 +20,7 @@ source:: [[../Lenses/AI Safety Atlas - Specification Gaming - Specification Gami
 source:: [[../Lenses/AI Safety Atlas - Specification Gaming - Learning from Imitation]]
 
 # Lens:
-source:: [[../Lenses/AI Safety Atlas - Specification Gaming - Learning from Feedback]]{++{"author":"Elias's AI","timestamp":1787514171838}@@
+source:: [[../Lenses/AI Safety Atlas - Specification Gaming - Learning from Feedback]]
 
 # Lens:
-source:: [[../Lenses/AI Safety Atlas - Specification Gaming - Reflection]]++}
+source:: [[../Lenses/AI Safety Atlas - Specification Gaming - Reflection]]

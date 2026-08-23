@@ -40,9 +40,7 @@ The reason we make this point again is to motivate the fact that understanding t
 
 ## Loss Landscapes
 
-{--{"author":"Elias's AI","timestamp":1787510179993}@@::video[[../video_transcripts/welch-labs-the-misconception-that-almost-stopped-ai-how-models-learn-part-1]]
-
---}*Video 7.3: Optional video explaining loss landscapes.*
+*Video 7.3: Optional video explaining loss landscapes.*
 
 **Loss landscapes explain why training can discover multiple algorithmic solutions to the same task, each pursuing different goals.** When we visualize how neural network performance changes across parameter configurations, we create what researchers call a "loss landscape." Each point in this high-dimensional space represents a different algorithm, with "height" indicating how poorly that algorithm performs on the specification (higher loss means worse performance). This landscape concept applies regardless of how we specify the task—whether through reward functions, human feedback, or any other performance measure. 
 
