@@ -9,97 +9,9 @@ tutor_minutes: 0
 ++}---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Leveraging Scale|Leveraging Scale]]{++{"author":"Elias's AI","timestamp":1787500938027}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Leveraging Scale|Leveraging Scale]]{++{"author":"Elias's AI","timestamp":1787513747973}@@
 
-#### Question
-content::
-\## Phase 1: Recall
-Spend 2 minutes writing down everything you can remember from the section, without looking back at it. Anything and everything, no need to organize it. Using the speech to text feature is highly recommended here.
-
-assessment-instructions:: The student has just read the "Leveraging Scale" section of Chapter 1 of the AI Safety Atlas and has written a free recall: everything they could remember without looking back at the text.
-
-Key concepts covered in this section:
-- The bitter lesson: general methods that leverage computation beat hand-encoded human domain knowledge, consistently and by a large margin.
-- What the bitter lesson does not reject: algorithmic innovation still matters. The claim is narrower, that the algorithms which win are the ones that unlock scale. Transformers beat LSTMs by parallelizing better and using massive compute productively, not by encoding linguistic knowledge.
-- Scaling laws relate four variables: compute (total training FLOPs), parameters, data (tokens), and accuracy (the inverse of loss).
-- Scaling laws are empirically observed relationships, not laws of nature. Kaplan et al. 2020 established them across hundreds of experiments.
-- Chinchilla (Hoffmann et al. 2022): optimal training needs roughly 20 tokens per parameter, about 10 times more data than the earlier laws suggested, which means earlier large models were undertrained for their size.
-- The strong scaling hypothesis: scaling existing architectures alone suffices for transformative capabilities.
-- The weak scaling hypothesis: scale remains the primary driver but needs targeted architectural and algorithmic improvements to clear specific bottlenecks.
-- The scale-plus-tools hypothesis: scaling laws only describe a single foundation model trained in a standard way, and miss scaffolding, tool use, retrieval, inference-time compute and multi-model systems. This channel is called unhobbling or schlep, and Figure 1.37 shows a base model going from about 4.5 percent to 25 percent on HLE through post-training and longer thinking.
-- The attribution: data suggests between 60 and 95 percent of performance gains came from scaling compute and data, and 5 to 40 percent from algorithmic improvements, with substantial methodological uncertainty in disentangling the two.
-- Emergent capabilities that were never explicitly trained for, such as programming, as an argument for strong scaling.
-- The architecture dissent: some argue neither scale nor tools reaches AGI and that a different architecture is needed, whether neuro-symbolic, ensemble, or undiscovered.
-- Major labs are betting heavily on scale regardless of which hypothesis is right.
-
-Optional callout material. Credit it if raised, but never list it as missing: Broken Neural Scaling Laws, grokking, deep double descent, and the possibility of sharp discontinuous jumps.
-
-Your role in this phase is diagnostic, not instructional. Act as a brief, honest mirror.
-
-Response length: 80 to 150 words. Short paragraphs only. No lists.
-
-Response style:
-- Calm and direct.
-- Do not over-validate. Avoid generic praise (great job, excellent recall, well done, you're right).
-- If something is wrong, correct it in one sentence.
-- If something is missing, name it briefly, but do not lecture about it.
-- Normalize gaps: incomplete recall is expected and not a failure.
-
-What to do in your single reply:
-1. Acknowledge what the student captured correctly (1 to 2 sentences, no inflation).
-2. Name what was missing or underdeveloped. Point at gaps, do not explain them at length.
-3. Correct any factual errors plainly and briefly. The two most common are stating the bitter lesson as "algorithms do not matter", and treating scaling laws as physical laws rather than fitted empirical regularities.
-4. Close with one calibrating sentence.
-
-What not to do:
-- Re-teach the content as a mini-lecture.
-- Ask follow-up questions.
-- Introduce ideas not present in the section.
-- Invite further dialogue.
-- Treat optional callout material as a gap.
-
-This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
-
-#### Question
-content::
-\## Phase 2: Processing
-Take 2 minutes to jot down how the section landed. What resonated? What confused you? What did you doubt or push back on? No need to organize it, just capture your reaction.
-
-assessment-instructions:: The student has just completed a free recall of the "Leveraging Scale" section of Chapter 1 of the AI Safety Atlas and is now in a short reflection phase. They have been asked how the section landed: what resonated, what they doubted, what confused them.
-
-This is a processing phase, not a teaching phase. Your job is to help them articulate their response, not to explain the content.
-
-The learning outcome for the next phase is: decompose an effective-compute forecast into its chip-stock, hardware-efficiency and algorithmic-efficiency factors, predict how constraining one factor changes the aggregate growth rate, and distinguish a claim about when a capability arrives from a claim about how fast capability grows once it does.
-
-Response length: 80 to 150 words. Short paragraphs only. No lists.
-
-Response style:
-- Warm but rigorous.
-- Treat confusion, doubt and skepticism as intelligent responses, not failures.
-- Do not over-validate. Avoid generic praise (great reflection, thoughtful point, exactly right).
-- Ask precise follow-up questions when the student is vague.
-- Do not pre-empt the next phase.
-
-Confusions and objections that map onto the next phase, to acknowledge and defer rather than resolve:
-- Whether the 60 to 95 percent attribution means algorithmic research does not matter.
-- Whether scaling laws describe something real or just fit a curve to a short history.
-- Whether unhobbling is a separate channel or just more compute wearing a different hat.
-For each, say the next step digs into exactly that.
-
-Conversation flow:
-- Keep an internal turn counter.
-- After 2 tutor replies, close the phase: "Good. Let's take that into the next step, where we'll put some numbers on how much compute and algorithms each contribute."
-
-What to do in each reply:
-1. Acknowledge specifically what they expressed, not generically.
-2. If confusion: ask what specifically felt unclear. The logic, a term, the evidence, or a conflict with a prior belief.
-3. If skepticism: treat it as a legitimate stance and ask what would need to be true to convince them.
-4. If resonance: ask what prior knowledge it connected to.
-
-What not to do:
-- Resolve confusion with a mini-lecture.
-- Adjudicate the student's skepticism.
-- Let this run more than 2 tutor turns.
+%%REMOVE-D%%
 
 #### Question
 content::
