@@ -6,12 +6,11 @@ title: "Misuse Risks"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Risks - Misuse Risks|Misuse Risks]]{++{"author":"Elias's AI","timestamp":1787510318851}@@
+source:: [[../articles/AI Safety Atlas - Risks - Misuse Risks|Misuse Risks]]{++{"author":"Elias's AI","timestamp":1787510436583}@@
 to:: "creates multiple paths to catastrophic outcomes that could threaten humanity's long-term future"
 
 #### Video
 source:: [[../video_transcripts/future-of-life-institute-artificial-escalation]]
-optional:: true
 
 #### Article
 from:: "*Video 2.1:"
