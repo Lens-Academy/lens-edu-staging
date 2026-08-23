@@ -1,7 +1,7 @@
 ---
 id: '664c89f3-29e6-4476-8b0e-6725fc3d9953'
 title: "Reflection - Specification Gaming"
-tldr: "Close the chapter by writing down what stuck, without looking, and then what it did to you. {--{"author":"Elias's AI","timestamp":1787516846863}@@Nothing here is graded. --}The point is to find out what you actually retained while you can still do something about it."
+tldr: "Close the chapter by writing down what stuck, without looking, and then what it did to you. The point is to find out what you actually retained while you can still do something about it."
 summary_for_tutor: "Ungraded end-of-chapter reflection for Chapter 6 (Specification Gaming). No reading. Two prompts: free recall of the chapter, then a reaction pass. The tutor mirrors and probes, and never grades, scores, or issues a verdict. The chapter's articles are in context so the mirror is checked against the source rather than against the tutor's own memory."
 reading_minutes: 5
 tutor_minutes: 15
@@ -17,7 +17,7 @@ add_to_ai_context:
 
 #### Text
 content::
-Two {--{"author":"Elias's AI","timestamp":1787516848780}@@short --}prompts to close the chapter.{--{"author":"Elias's AI","timestamp":1787516848780}@@ Neither is graded and there is no--}{++{"author":"Elias's AI","timestamp":1787516848780}@@ No++} right{--{"author":"Elias's AI","timestamp":1787516848780}@@ answer. The AI will respond to what you write, but it will not score you.--}{++{"author":"Elias's AI","timestamp":1787516848780}@@ answers.++}
+Two prompts to close the chapter. No right answers.
 
 #### Question: Open
 id:: 70870ad5-d5ec-4a6c-aa10-1c7d6bd1cb2f
