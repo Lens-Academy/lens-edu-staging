@@ -4,7 +4,13 @@ slug: ai-safety-atlas-capabilities
 title: "Chapter 1: Capabilities"
 ---
 
-# Lens:
+# {++{"author":"Elias's AI","timestamp":1787500951153}@@Learning Outcome
+source:: [[../Learning Outcomes/Intelligence and general intelligence]]
+
+# Learning Outcome
+source:: [[../Learning Outcomes/Forecasting, timelines, AGI, and transformative AI]]
+
+# ++}Lens:
 source:: [[../Lenses/AI Safety Atlas - Capabilities - Introduction]]
 
 # Lens:
