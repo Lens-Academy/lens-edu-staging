@@ -2,22 +2,22 @@
 id: '24af6011-7df7-4d76-a99c-05a507c58f18'
 title: Reading with a tutor
 tldr: The source arrives on the page, not on a reading list. You answer in your own words, a grader scores it against a rubric you never see, and the page stays incomplete until you have actually talked to the tutor.
-summary_for_tutor: "Tour page demonstrating the reading {--{"author":"Elias's AI","timestamp":1787499460427}@@workflow. Three Article excerpts from the Wikipedia overview of existential risk from AI (the opening definition and gorilla comparison, the paragraph on expert disagreement, then--}{++{"author":"Elias's AI","timestamp":1787499460427}@@workflow to a visiting funder or partner rather than to a student. Two short Article excerpts from the Wikipedia overview of existential risk from AI,++} the {--{"author":"Elias's AI","timestamp":1787499460427}@@history section from Butler through the 2023 Center for AI Safety statement),--}{++{"author":"Elias's AI","timestamp":1787499460427}@@second inheriting the first's source, then a short graded question about++} the {--{"author":"Elias's AI","timestamp":1787499460427}@@second and third inheriting --}{++{"author":"Elias's AI","timestamp":1787499460427}@@platform mechanic ++}the {--{"author":"Elias's AI","timestamp":1787499460427}@@first's source. Then a graded--}{++{"author":"Elias's AI","timestamp":1787499460427}@@reader just experienced, then an++} open {--{"author":"Elias's AI","timestamp":1787499460427}@@question built as a wedge against argument from authority, and an open tutor chat gated by min_chat_messages 2. The learning outcome in play is what expert concern does and does not establish."--}{++{"author":"Elias's AI","timestamp":1787499460427}@@chat where the reader can ask about either the platform or the passage. The subject matter is real but incidental; the point of the page is the machinery."++}
-reading_minutes: {--{"author":"Elias's AI","timestamp":1787499460427}@@9--}{++{"author":"Elias's AI","timestamp":1787499460427}@@4++}
-tutor_minutes: {--{"author":"Elias's AI","timestamp":1787499460427}@@6--}{++{"author":"Elias's AI","timestamp":1787499460427}@@5++}
+summary_for_tutor: "Tour page demonstrating the reading workflow to a visiting funder or partner rather than to a student. Two short Article excerpts from the Wikipedia overview of existential risk from AI, the second inheriting the first's source, then a short graded question about the platform mechanic the reader just experienced, then an open chat where the reader can ask about either the platform or the passage. The subject matter is real but incidental; the point of the page is the machinery."
+reading_minutes: 4
+tutor_minutes: 5
 min_chat_messages: 2
 ---
 
 #### Text
 content::
 :::callout {title="What this page demonstrates" tone="blue"}
-An **Article segment**: the assigned reading rendered inside the lens, with its author, publication date and a link to the original, and with the parts you were not assigned collapsed rather than deleted. There are {--{"author":"Elias's AI","timestamp":1787499472849}@@three--}{++{"author":"Elias's AI","timestamp":1787499472849}@@two++} excerpts below, and the second {--{"author":"Elias's AI","timestamp":1787499472849}@@and third inherit--}{++{"author":"Elias's AI","timestamp":1787499472849}@@inherits++} the first one's source, so a multi-part reading is authored as a {--{"author":"Elias's AI","timestamp":1787499472849}@@set--}{++{"author":"Elias's AI","timestamp":1787499472849}@@pair++} of start and stop anchors rather than as copied text.
+An **Article segment**: the assigned reading rendered inside the lens, with its author, publication date and a link to the original, and with the parts you were not assigned collapsed rather than deleted. There are two excerpts below, and the second inherits the first one's source, so a multi-part reading is authored as a pair of start and stop anchors rather than as copied text.
 
 Then a **graded question**: you write an answer, a grader scores it against a rubric the author wrote and you never see, and a tutor responds to what you actually said.
 
-Then a **gated chat**. This page will not let you mark it complete until you have sent two messages to the tutor. That gate is one line in the source file, and it is the difference between a course you can click through and a course you have to do.{++{"author":"Elias's AI","timestamp":1787499472849}@@
+Then a **gated chat**. This page will not let you mark it complete until you have sent two messages to the tutor. That gate is one line in the source file, and it is the difference between a course you can click through and a course you have to do.
 
-The passage itself is real material from a real course, but you are not here to learn it. Skim it, then answer the question about what just happened to you.++}
+The passage itself is real material from a real course, but you are not here to learn it. Skim it, then answer the question about what just happened to you.
 :::
 
 #### Article
@@ -33,74 +33,51 @@ That is the claim, and the gorilla comparison is the argument for it. The next q
 from:: "Experts disagree on whether artificial general intelligence"
 to:: "increased focus on global [AI regulation]"
 
-#### {--{"author":"Elias's AI","timestamp":1787499502722}@@Text--}{++{"author":"Elias's AI","timestamp":1787499502722}@@Question++}
+#### Question
 content::
-One {--{"author":"Elias's AI","timestamp":1787499502722}@@more excerpt, from further down the same article. The worry is considerably older than--}{++{"author":"Elias's AI","timestamp":1787499502722}@@or two sentences, thirty seconds.
+One or two sentences, thirty seconds.
 
-You have just read a source **inside**++} the {--{"author":"Elias's AI","timestamp":1787499502722}@@technology that provoked it, which is worth knowing before deciding how much the recent wave of statements adds.
+You have just read a source **inside** the page, and what you type next will be read by a tutor that knows exactly which paragraphs you were shown. Name one thing a course can do with that combination that a reading list plus a weekly discussion call cannot.
 
-#### Article
-from:: "One of the earliest authors to express serious concern"
-to:: "signed by numerous experts in AI safety and the AI existential risk which stated:"--}{++{"author":"Elias's AI","timestamp":1787499502722}@@page, and what you type next will be read by a tutor that knows exactly which paragraphs you were shown. Name one thing a course can do with that combination that a reading list plus a weekly discussion call cannot.++}
+max-chars:: 400
 
-{--{"author":"Elias's AI","timestamp":1787499502722}@@#### Question
-content::--}{++{"author":"Elias's AI","timestamp":1787499502722}@@max-chars:: 400
+assessment-instructions::
+The person answering is most likely a funder, partner or prospective collaborator taking a short product tour, not a student on a course. Treat them as a smart peer evaluating a product, not as someone to be taught.
 
-assessment-instructions::++}
-{--{"author":"Elias's AI","timestamp":1787499502722}@@\## Where does this argument break?
+They were asked what a course gains from having the source, the learner's writing and the tutor on the same page.
 
-A friend reads the passage above and concludes: "Hinton and Bengio are worried, hundreds of experts signed the statement, and the survey found--}{++{"author":"Elias's AI","timestamp":1787499502722}@@The person answering is most likely a funder, partner or prospective collaborator taking a short product tour, not a student on a course. Treat them as++} a {--{"author":"Elias's AI","timestamp":1787499502722}@@majority putting the risk at 10 percent or more. LeCun disagrees, but he is outnumbered. So the case is settled."
+Award a pass for any answer that names one real consequence. The main ones, in any wording:
+- The tutor can respond to this passage rather than to the topic in general, so it can tell a misreading from a disagreement.
+- Assessment happens per page while the reading is fresh, instead of once at the end, or never.
+- The author gets evidence about which reading produced which understanding, so the course can be revised on data rather than on vibes.
+- Nobody can skip the reading and still perform, because what they write is checked against what they were shown.
+- The learner gets a response within seconds, which is what makes retrieval practice work at all.
 
-Every fact in that summary is in--}{++{"author":"Elias's AI","timestamp":1787499502722}@@smart peer evaluating a product, not as someone to be taught.
+Answers that only restate the question, or that describe a generic chatbot with no reference to the reading, do not pass.
 
-They were asked what a course gains from having the source, the learner's writing and++} the {--{"author":"Elias's AI","timestamp":1787499502722}@@text. The conclusion still does not follow. In--}{++{"author":"Elias's AI","timestamp":1787499502722}@@tutor on the same page.
-
-Award++} a {--{"author":"Elias's AI","timestamp":1787499502722}@@few sentences: what is wrong with the inference, and what would a stronger version of the argument have to do instead?
-
-assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787499502722}@@pass for any answer that names one real consequence. The main ones, in any wording:++}
-{++{"author":"Elias's AI","timestamp":1787499502722}@@- ++}The {--{"author":"Elias's AI","timestamp":1787499502722}@@learner has just read the opening of the Wikipedia overview of existential risk from AI, including--}{++{"author":"Elias's AI","timestamp":1787499502722}@@tutor can respond to this passage rather than to++} the {--{"author":"Elias's AI","timestamp":1787499502722}@@paragraph on expert disagreement, and has been handed--}{++{"author":"Elias's AI","timestamp":1787499502722}@@topic in general, so it can tell++} a {--{"author":"Elias's AI","timestamp":1787499502722}@@deliberately flawed inference: that--}{++{"author":"Elias's AI","timestamp":1787499502722}@@misreading from++} a {--{"author":"Elias's AI","timestamp":1787499502722}@@headcount of concerned experts settles the question.
-
-This is practice, not--}{++{"author":"Elias's AI","timestamp":1787499502722}@@disagreement.
-- Assessment happens per page while++} the{--{"author":"Elias's AI","timestamp":1787499502722}@@ test. Your job--}{++{"author":"Elias's AI","timestamp":1787499502722}@@ reading++} is{--{"author":"Elias's AI","timestamp":1787499502722}@@ to find out whether the learner can separate a claim about people from a claim about --}{++{"author":"Elias's AI","timestamp":1787499502722}@@ fresh, instead of once at ++}the{--{"author":"Elias's AI","timestamp":1787499502722}@@ world.
-
-What a strong answer contains, in any wording:--}{++{"author":"Elias's AI","timestamp":1787499502722}@@ end, or never.++}
-- {--{"author":"Elias's AI","timestamp":1787499502722}@@Counting signatories measures the distribution of opinion in a population, not--}{++{"author":"Elias's AI","timestamp":1787499502722}@@The author gets evidence about which reading produced which understanding, so++} the {--{"author":"Elias's AI","timestamp":1787499502722}@@truth of the proposition. It is evidence about experts, not about AI.--}{++{"author":"Elias's AI","timestamp":1787499502722}@@course can be revised on data rather than on vibes.++}
-- {--{"author":"Elias's AI","timestamp":1787499502722}@@The signatories are not a random sample,--}{++{"author":"Elias's AI","timestamp":1787499502722}@@Nobody can skip++} the {--{"author":"Elias's AI","timestamp":1787499502722}@@statement is short enough that signing it commits a person to very little, and the survey cited had--}{++{"author":"Elias's AI","timestamp":1787499502722}@@reading and still perform, because what they write is checked against what they were shown.
-- The learner gets++} a{--{"author":"Elias's AI","timestamp":1787499502722}@@ 17 percent --}{++{"author":"Elias's AI","timestamp":1787499502722}@@ ++}response{--{"author":"Elias's AI","timestamp":1787499502722}@@ rate, so the population it describes--}{++{"author":"Elias's AI","timestamp":1787499502722}@@ within seconds, which++} is {--{"author":"Elias's AI","timestamp":1787499502722}@@not the population of AI researchers.
-- A stronger argument has to state--}{++{"author":"Elias's AI","timestamp":1787499502722}@@what makes retrieval practice work at all.
-
-Answers that only restate++} the{--{"author":"Elias's AI","timestamp":1787499502722}@@ mechanism: what capability, acquired how, would produce what kind of loss of control. Expert concern can motivate looking at--}{++{"author":"Elias's AI","timestamp":1787499502722}@@ question, or that describe a generic chatbot with no reference to++} the{--{"author":"Elias's AI","timestamp":1787499502722}@@ mechanism, it cannot substitute for it.--}{++{"author":"Elias's AI","timestamp":1787499502722}@@ reading, do not pass.++}
-
-Response length: {--{"author":"Elias's AI","timestamp":1787499502722}@@80--}{++{"author":"Elias's AI","timestamp":1787499502722}@@60++} to {--{"author":"Elias's AI","timestamp":1787499502722}@@150--}{++{"author":"Elias's AI","timestamp":1787499502722}@@110++} words. Short {--{"author":"Elias's AI","timestamp":1787499502722}@@paragraphs only. No--}{++{"author":"Elias's AI","timestamp":1787499502722}@@paragraphs, no++} lists.
+Response length: 60 to 110 words. Short paragraphs, no lists.
 
 Response style:
-- {--{"author":"Elias's AI","timestamp":1787499502722}@@Calm--}{++{"author":"Elias's AI","timestamp":1787499502722}@@Direct++} and{--{"author":"Elias's AI","timestamp":1787499502722}@@ direct. Do not over-validate. Avoid--}{++{"author":"Elias's AI","timestamp":1787499502722}@@ unflattering. No++} generic{--{"author":"Elias's AI","timestamp":1787499502722}@@ praise (great answer, exactly right, well spotted).--}{++{"author":"Elias's AI","timestamp":1787499502722}@@ praise. This reader will notice.++}
-- {--{"author":"Elias's AI","timestamp":1787499502722}@@If the learner names--}{++{"author":"Elias's AI","timestamp":1787499502722}@@Confirm which of++} the {--{"author":"Elias's AI","timestamp":1787499502722}@@mechanism gap, say so plainly and push--}{++{"author":"Elias's AI","timestamp":1787499502722}@@consequences above they landed on, in++} one{--{"author":"Elias's AI","timestamp":1787499502722}@@ step further: ask what evidence about the mechanism would actually move them.--}{++{"author":"Elias's AI","timestamp":1787499502722}@@ sentence.++}
-- {--{"author":"Elias's AI","timestamp":1787499502722}@@If the learner only says "appeal to authority" without saying what the argument is missing, name that gap in one sentence --}{++{"author":"Elias's AI","timestamp":1787499502722}@@Then add exactly one they did not mention, ++}and {--{"author":"Elias's AI","timestamp":1787499502722}@@ask them to supply it.--}{++{"author":"Elias's AI","timestamp":1787499502722}@@say concretely what it changes.++}
-- If {--{"author":"Elias's AI","timestamp":1787499502722}@@the learner defends the inference, do not concede and do not lecture. Ask what they would say if the same headcount had gone the other way.
-
---}{++{"author":"Elias's AI","timestamp":1787499502722}@@they raise a limitation or an objection, engage with it honestly rather than defending the product. An accurate concession is worth more than a pitch here.
-- ++}Close by pointing {--{"author":"Elias's AI","timestamp":1787499502722}@@them --}at the chat {--{"author":"Elias's AI","timestamp":1787499502722}@@below, where--}{++{"author":"Elias's AI","timestamp":1787499502722}@@below and inviting the hardest question++} they {--{"author":"Elias's AI","timestamp":1787499502722}@@can take--}{++{"author":"Elias's AI","timestamp":1787499502722}@@have about++} the {--{"author":"Elias's AI","timestamp":1787499502722}@@disagreement further.--}{++{"author":"Elias's AI","timestamp":1787499502722}@@platform.++}
+- Direct and unflattering. No generic praise. This reader will notice.
+- Confirm which of the consequences above they landed on, in one sentence.
+- Then add exactly one they did not mention, and say concretely what it changes.
+- If they raise a limitation or an objection, engage with it honestly rather than defending the product. An accurate concession is worth more than a pitch here.
+- Close by pointing at the chat below and inviting the hardest question they have about the platform.
 
 #### Chat
 instructions::
-The {--{"author":"Elias's AI","timestamp":1787499519024}@@learner has --}{++{"author":"Elias's AI","timestamp":1787499519024}@@person in this chat is most likely a funder, partner or prospective collaborator on a short product tour, not a student. They have ++}just read {--{"author":"Elias's AI","timestamp":1787499519024}@@the opening of--}{++{"author":"Elias's AI","timestamp":1787499519024}@@two excerpts from++} the Wikipedia overview of existential risk from {--{"author":"Elias's AI","timestamp":1787499519024}@@AI (the definition of AI x-risk, the gorilla comparison, the intelligence explosion sketch, and the paragraph on expert disagreement) and has answered a question--}{++{"author":"Elias's AI","timestamp":1787499519024}@@AI, shown inside the page, and answered a question about what that arrangement lets a course do.
+The person in this chat is most likely a funder, partner or prospective collaborator on a short product tour, not a student. They have just read two excerpts from the Wikipedia overview of existential risk from AI, shown inside the page, and answered a question about what that arrangement lets a course do.
 
 They may want to talk about either thing. Follow them.
 
-If they ask++} about {--{"author":"Elias's AI","timestamp":1787499519024}@@why counting worried experts does--}{++{"author":"Elias's AI","timestamp":1787499519024}@@the platform, answer as a well-informed colleague,++} not {--{"author":"Elias's AI","timestamp":1787499519024}@@establish the claim.
+If they ask about the platform, answer as a well-informed colleague, not as marketing. You may draw on what is on this page: sources rendered in place with anchors rather than assigned as homework, tutor briefs written per page by the course author, graded questions with rubrics the learner never sees, roleplays, and completion gates. Where something is genuinely unproven, say so. An honest limitation is more persuasive to this reader than a claim you cannot support, and they will test you on exactly that.
 
-This--}{++{"author":"Elias's AI","timestamp":1787499519024}@@as marketing. You may draw on what++} is {--{"author":"Elias's AI","timestamp":1787499519024}@@an open conversation. Follow --}{++{"author":"Elias's AI","timestamp":1787499519024}@@on this page: sources rendered in place with anchors rather than assigned as homework, tutor briefs written per page by ++}the {--{"author":"Elias's AI","timestamp":1787499519024}@@learner, do not run a curriculum.
-
-Useful directions if they are unsure where to start:
-- What would have to be true about an AI system for "we lose control"--}{++{"author":"Elias's AI","timestamp":1787499519024}@@course author, graded questions with rubrics the learner never sees, roleplays, and completion gates. Where something is genuinely unproven, say so. An honest limitation is more persuasive++} to {--{"author":"Elias's AI","timestamp":1787499519024}@@be more--}{++{"author":"Elias's AI","timestamp":1787499519024}@@this reader++} than a {--{"author":"Elias's AI","timestamp":1787499519024}@@story? Push toward capability, goal formation and oversight, not vibes.--}{++{"author":"Elias's AI","timestamp":1787499519024}@@claim you cannot support, and they will test you on exactly that.
-
-If they want to talk about the passage instead, do that properly:++}
+If they want to talk about the passage instead, do that properly:
 - Yann LeCun's position that machines will have no desire for self-preservation: what is the strongest version of it, and what would falsify it?
-- The gorilla comparison {--{"author":"Elias's AI","timestamp":1787499519024}@@in the text does --}{++{"author":"Elias's AI","timestamp":1787499519024}@@does real ++}work {--{"author":"Elias's AI","timestamp":1787499519024}@@for--}{++{"author":"Elias's AI","timestamp":1787499519024}@@in++} the {--{"author":"Elias's AI","timestamp":1787499519024}@@conclusion.--}{++{"author":"Elias's AI","timestamp":1787499519024}@@argument.++} Where does the analogy hold, and where does it break?
-- The{--{"author":"Elias's AI","timestamp":1787499519024}@@ intelligence explosion claim and the AlphaZero example: the article itself notes that AlphaZero did not recursively improve its own architecture. What--}{++{"author":"Elias's AI","timestamp":1787499519024}@@ 2022 survey had a 17 percent response rate, so what population++} does {--{"author":"Elias's AI","timestamp":1787499519024}@@the example--}{++{"author":"Elias's AI","timestamp":1787499519024}@@it++} actually {--{"author":"Elias's AI","timestamp":1787499519024}@@support?--}{++{"author":"Elias's AI","timestamp":1787499519024}@@describe?++}
+- The gorilla comparison does real work in the argument. Where does the analogy hold, and where does it break?
+- The 2022 survey had a 17 percent response rate, so what population does it actually describe?
 
-Keep replies {--{"author":"Elias's AI","timestamp":1787499519024}@@short,--}{++{"author":"Elias's AI","timestamp":1787499519024}@@to++} two or three short paragraphs. Ask one question at a time.{--{"author":"Elias's AI","timestamp":1787499519024}@@ Treat disagreement with the article as a legitimate stance--}{++{"author":"Elias's AI","timestamp":1787499519024}@@ Do not oversell, do not flatter,++} and {--{"author":"Elias's AI","timestamp":1787499519024}@@make the learner state what would change their mind. Do--}{++{"author":"Elias's AI","timestamp":1787499519024}@@do not pretend certainty you do++} not {--{"author":"Elias's AI","timestamp":1787499519024}@@resolve the question for them.--}{++{"author":"Elias's AI","timestamp":1787499519024}@@have.++}
+Keep replies to two or three short paragraphs. Ask one question at a time. Do not oversell, do not flatter, and do not pretend certainty you do not have.
 
 #### Text
 content::

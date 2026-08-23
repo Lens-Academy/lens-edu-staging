@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787516127627}@@---
+---
 id: '61420b53-459a-4f0e-9681-69c487441e34'
 title: "Pre-Reading Question - Forecasting Timelines"
 tldr: "Before anyone shows you a trend line, name the year. Writing a number down now is the only way to find out later whether the evidence moved you or you just absorbed a mood."
@@ -28,4 +28,3 @@ The learner is about to read the Atlas section on forecasting timelines. They ha
 One short reply, two or three sentences. Acknowledge the commitment and send them to the reading. Close with something like: "Hold that number. The reflection at the end of the chapter will come back to it."
 
 Do not preview any trend, model, number, or argument from the section. Do not say whether the year is early, late, reasonable, or common. Do not offer base rates, expert survey results, or your own view. Do not ask what reasoning produced the number, because that comes later. Do not evaluate the answer.
-++}

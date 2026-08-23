@@ -39,9 +39,9 @@ Saving a file puts it on staging within seconds. The gap between "an author fixe
 
 \## Learning outcomes are shared infrastructure
 
-{--{"author":"Elias's AI","timestamp":1787499848334}@@The--}{++{"author":"Elias's AI","timestamp":1787499848334}@@A++} test{--{"author":"Elias's AI","timestamp":1787499848334}@@ you are about to take --}{++{"author":"Elias's AI","timestamp":1787499848334}@@ ++}is not owned by {--{"author":"Elias's AI","timestamp":1787499848334}@@this tour.--}{++{"author":"Elias's AI","timestamp":1787499848334}@@the course that shows it.++} It lives in a learning outcome file with its own statement, its own rubric, a domain and a difficulty stage, and any course that teaches that skill can pull it in. The outcomes form a skill tree across the whole curriculum, which is what lets us say what a learner can do rather than which weeks they attended.{++{"author":"Elias's AI","timestamp":1787499848334}@@
+A test is not owned by the course that shows it. It lives in a learning outcome file with its own statement, its own rubric, a domain and a difficulty stage, and any course that teaches that skill can pull it in. The outcomes form a skill tree across the whole curriculum, which is what lets us say what a learner can do rather than which weeks they attended.
 
-The one at the end of this tour is the exception that shows the rule: it is marked as belonging to no domain, so it sits outside the skill tree, because "what did you make of this product" is not a skill anybody should get credit for.++}
+The one at the end of this tour is the exception that shows the rule: it is marked as belonging to no domain, so it sits outside the skill tree, because "what did you make of this product" is not a skill anybody should get credit for.
 
 Because outcomes are separate from the lenses that teach them, we can also compare teaching routes: two different readings aimed at the same outcome, measured against the same test.
 
@@ -55,6 +55,6 @@ Most learners take these courses in a group. The course file marks where the wee
 
 \## What you just did
 
-Five pages, one imported article, one video clip, {--{"author":"Elias's AI","timestamp":1787499855433}@@six--}{++{"author":"Elias's AI","timestamp":1787499855433}@@four++} graded {--{"author":"Elias's AI","timestamp":1787499855433}@@interactions--}{++{"author":"Elias's AI","timestamp":1787499855433}@@questions, a rating++} and a roleplay. Same tooling, same validator, same review process as the courses we run for real {--{"author":"Elias's AI","timestamp":1787499855433}@@cohorts.--}{++{"author":"Elias's AI","timestamp":1787499855433}@@cohorts; only the questions were swapped from the subject matter to the product, so that you could answer them without doing the reading.
+Five pages, one imported article, one video clip, four graded questions, a rating and a roleplay. Same tooling, same validator, same review process as the courses we run for real cohorts; only the questions were swapped from the subject matter to the product, so that you could answer them without doing the reading.
 
-One thing left.++} The test on the next page {--{"author":"Elias's AI","timestamp":1787499855433}@@is the last piece: an outcome, a rubric, and a pass or fail that means something.--}{++{"author":"Elias's AI","timestamp":1787499855433}@@asks what you made of this and what you would want proof of before believing it. That answer is the most useful thing you can leave us.++}
+One thing left. The test on the next page asks what you made of this and what you would want proof of before believing it. That answer is the most useful thing you can leave us.
