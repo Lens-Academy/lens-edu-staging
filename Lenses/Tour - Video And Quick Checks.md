@@ -12,7 +12,9 @@ content::
 :::callout {title="What this page demonstrates" tone="blue"}
 A **Video segment**, clipped by timestamp to the part the author assigned and played next to its transcript, so a learner can search it and a tutor can quote it.
 
-Then the four quick response types. Multiple choice, ranking and fill in the blank are graded; the confidence rating is not, because self-report is data about the learner rather than about the answer. Grading runs through a model reading the author's rubric, which is why a fill in the blank accepts an equivalent phrasing rather than only the exact string.
+Then the four quick response types. Multiple choice, ranking and fill in the blank are graded; the {--{"author":"Elias's AI","timestamp":1787499561069}@@confidence --}rating is not, because {++{"author":"Elias's AI","timestamp":1787499561069}@@a ++}self-report is data about the {--{"author":"Elias's AI","timestamp":1787499561069}@@learner--}{++{"author":"Elias's AI","timestamp":1787499561069}@@person++} rather than about the answer. Grading runs through a model reading the author's rubric, which is why a fill in the blank accepts an equivalent phrasing rather than only the exact string.{++{"author":"Elias's AI","timestamp":1787499561069}@@
+
+The four below are about this platform rather than about AI safety, so each takes a few seconds. On a real course they carry the subject matter instead.++}
 :::
 
 #### Video
