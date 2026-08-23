@@ -201,9 +201,9 @@ Researchers have shown that even when language models appear to be working norma
 
 **The interaction between many attack methods creates compounding risks.** For example, attackers can use privacy attacks to extract sensitive information, which they then use to make other attacks more effective. They might learn details about a model's training data that help them craft better adversarial examples or more effective poisoning strategies. This creates a cycle where one type of vulnerability enables others ([Shayegani et al., 2023](https://arxiv.org/abs/2310.10844)).
 
-::video[[../video_transcripts/yannic-kilcher-privacy-backdoors-stealing-data-with-corrupted-pretrained-models-paper-explained]]
+{--{"author":"Elias's AI","timestamp":1787510223299}@@::video[[../video_transcripts/yannic-kilcher-privacy-backdoors-stealing-data-with-corrupted-pretrained-models-paper-explained]]
 
-*Video 2.2: By tampering with a pre trained model's weights, an attacker can fully compromise the privacy of the finetuning data ([Feng & Florian Tramèr, 2024](https://arxiv.org/abs/2404.00473)). This has implications both for data privacy, but also for undoing fine-tuning based alignment techniques.*
+--}*Video 2.2: By tampering with a pre trained model's weights, an attacker can fully compromise the privacy of the finetuning data ([Feng & Florian Tramèr, 2024](https://arxiv.org/abs/2404.00473)). This has implications both for data privacy, but also for undoing fine-tuning based alignment techniques.*
 
 :::
 
