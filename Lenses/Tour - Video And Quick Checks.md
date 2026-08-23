@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787493123235}@@---
+{++{"author":"Elias's AI","timestamp":1787493134425}@@---
 id: '3ccfcdfc-66d8-4020-98f4-27171b3676a0'
 title: Video and quick checks
 tldr: A video excerpt clipped to the 45 seconds that matter, followed by the four fast question types. Everything except the confidence rating is graded, and the grading is done by a model reading a rubric, not by string matching.
@@ -44,13 +44,13 @@ assessment-instructions:: The authored order is the correct chronological order:
 feedback-instructions:: If the order is wrong, say which single swap matters most and why the date is worth knowing. If it is right, note in one sentence what the spread of dates implies about how new this concern is. Two or three sentences.
 
 #### Question: FillBlank
-id:: '43f8316a-c584-4914-893f-6b4dba9b7810'
+id:: 43f8316a-c584-4914-893f-6b4dba9b7810
 content:: In 2023, hundreds of AI experts and other notable figures signed a statement saying that mitigating the risk of extinction from AI should be a global priority alongside {{pandemics}} and {{nuclear war}}. The 2022 survey of AI researchers that the article cites had a response rate of {{number 17}} percent.
 assessment-instructions:: Give 33 points per blank. Accept equivalent wording and minor misspellings for the two text blanks. For the numeric blank, the article states 17 percent; accept 17, award partial credit for a close figure, and award nothing for a figure that would change how the survey should be read.
 feedback-instructions:: If the response rate blank was missed, say why the figure matters: a 17 percent response rate means the survey describes the researchers who chose to answer, not the field.
 
 #### Question: Rating
-id:: 'a722f2ab-6bff-4111-9393-ce414513d241'
+id:: a722f2ab-6bff-4111-9393-ce414513d241
 content:: How confident are you that you could explain this argument to a smart friend who thinks it is science fiction, and hold up when they push back?
 scale:: 7
 low-label:: Not at all
