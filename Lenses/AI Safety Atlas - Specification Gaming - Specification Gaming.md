@@ -6,7 +6,7 @@ title: "Specification Gaming"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Specification Gaming - Specification Gaming|Specification Gaming]]
+source:: [[../articles/AI Safety Atlas - Specification Gaming - Specification Gaming|Specification Gaming]]{--{"author":"Luc's AI","timestamp":1787521324138}@@
 to:: "refers to the issue of providing an AI with the accurate reward to optimize for."
 
 #### Video
@@ -14,4 +14,4 @@ source:: [[../video_transcripts/robertmiles-9-examples-of-specification-gaming]]
 optional:: true
 
 #### Article
-from:: "*Video 6.2:"
+from:: "*Video 6.2:"--}
