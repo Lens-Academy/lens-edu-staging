@@ -6,20 +6,4 @@ title: "Multi Objective Generalization"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Multi Objective Generalization|Multi Objective Generalization]]{--{"author":"Luc's AI","timestamp":1787521322657}@@
-to:: "even when the specific context or environment changes."
-
-#### Video
-source:: [[../video_transcripts/rational-animations-goal-misgeneralization-how-a-tiny-change-could-end-everything]]
-optional:: true
-
-#### Article
-from:: "*Video 7.1:"
-to:: "which brings us to generalization itself."
-
-#### Video
-source:: [[../video_transcripts/google-deepmind-safety-research-part-1-4-where-can-misaligned-goals-come-from]]
-optional:: true
-
-#### Article
-from:: "*Video 7.2:"--}
+source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Multi Objective Generalization|Multi Objective Generalization]]

@@ -6,12 +6,4 @@ title: "Reinforcement Learning"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Specification Gaming - Reinforcement Learning|Reinforcement Learning]]{--{"author":"Luc's AI","timestamp":1787521323931}@@
-to:: "altering its behavior based on the feedback it receives through rewards after each action."
-
-#### Video
-source:: [[../video_transcripts/openai-learning-dexterity]]
-optional:: true
-
-#### Article
-from:: "*Video 6.1:"--}
+source:: [[../articles/AI Safety Atlas - Specification Gaming - Reinforcement Learning|Reinforcement Learning]]

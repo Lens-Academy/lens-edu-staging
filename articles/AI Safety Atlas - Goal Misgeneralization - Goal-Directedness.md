@@ -36,9 +36,9 @@ Machine learning** systems can evolve beyond pattern matching to systematically 
 
 **Different types of goal-directedness create distinct risk profiles that require different safety strategies.** Heuristic/Memorization based goal-directedness through pattern matching might fail gracefully when encountering novel situations, with learned behavioral rules breaking down predictably. Mesa-optimization poses qualitatively different risks because internal search can find novel, creative ways to achieve misaligned objectives that weren't anticipated during training. Simulator-based goal-directedness creates yet another risk profile: highly capable character instantiation that can shift unpredictably based on conditioning context. Emergent goal-directedness from multi-agent interactions might be the hardest to control because no single component needs to be misaligned for dangerous system-level behavior to emerge.
 
-## Heuristics{++{"author":"Luc's AI","timestamp":1787521311664}@@
+## Heuristics
 
-::video[[../video_transcripts/google-deepmind-safety-research-part-1-2-risks-from-deliberate-planning-and-instrumental-subgoals]]++}
+::video[[../video_transcripts/google-deepmind-safety-research-part-1-2-risks-from-deliberate-planning-and-instrumental-subgoals]]
 
 *Video 7.4: Optional video from Google DeepMind AGI Safety Course, explaining the difference between learned heuristics, mistakes, and instrumental subgoals.*
 
@@ -119,9 +119,9 @@ Think about what this means - Instead of learning "when you see this input patte
 
 **Definition: Inner alignment** — The inner alignment problem is the problem of aligning the base and mesa- objectives of an advanced ML system.
 
-**Several specific factors systematically influence whether training discovers mesa-optimizers over pattern-matching alternatives.** Computational complexity creates pressure toward mesa-optimization when environments are too diverse for memorization to be tractable—a learned search algorithm becomes simpler than storing behavioral patterns for every possible situation. Environmental complexity amplifies this effect because pre-computation saves more computational work in complex settings, making proxy-aligned mesa-optimizers attractive even when they pursue wrong objectives. The algorithmic range of the model architecture also matters: larger ranges make mesa-optimization more likely but also make alignment harder because more sophisticated internal objectives become representable ([Hubinger et al., 2019](https://arxiv.org/abs/1906.01820)).{++{"author":"Luc's AI","timestamp":1787521314750}@@
+**Several specific factors systematically influence whether training discovers mesa-optimizers over pattern-matching alternatives.** Computational complexity creates pressure toward mesa-optimization when environments are too diverse for memorization to be tractable—a learned search algorithm becomes simpler than storing behavioral patterns for every possible situation. Environmental complexity amplifies this effect because pre-computation saves more computational work in complex settings, making proxy-aligned mesa-optimizers attractive even when they pursue wrong objectives. The algorithmic range of the model architecture also matters: larger ranges make mesa-optimization more likely but also make alignment harder because more sophisticated internal objectives become representable ([Hubinger et al., 2019](https://arxiv.org/abs/1906.01820)).
 
-::video[[../video_transcripts/google-deepmind-safety-research-part-1-3-exercise-1-instrumental-subgoals]]++}
+::video[[../video_transcripts/google-deepmind-safety-research-part-1-3-exercise-1-instrumental-subgoals]]
 
 *Video 7.5: Optional video from Google DeepMind AGI Safety Course, showing a concrete example of how differing objectives might lead to an AI hiding its misalignment to pursue different goals.*
 

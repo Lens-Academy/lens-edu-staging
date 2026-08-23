@@ -6,12 +6,4 @@ title: "Introduction"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Strategies - Introduction]]{--{"author":"Luc's AI","timestamp":1787521324535}@@
-to:: "*Video 3.1:"
-
-#### Video
-source:: [[../video_transcripts/google-deepmind-safety-research-part-2-1-alignment-approach]]
-optional:: true
-
-#### Article
-from:: "### Acknowledgements"--}
+source:: [[../articles/AI Safety Atlas - Strategies - Introduction]]

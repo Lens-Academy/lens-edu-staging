@@ -21,9 +21,9 @@ Add discussion note here:
 
 %%
 
-We can potentially train a more powerful AI using supervision or feedback from a weaker but more reliable and human-aligned model. This can be a path to aligning superhuman AI with human-level oversight.{++{"author":"Luc's AI","timestamp":1787521312965}@@
+We can potentially train a more powerful AI using supervision or feedback from a weaker but more reliable and human-aligned model. This can be a path to aligning superhuman AI with human-level oversight.
 
-::video[[../video_transcripts/rational-animations-the-dumbest-ai-taught-the-smartest-ai-heres-how-that-went]]++}
+::video[[../video_transcripts/rational-animations-the-dumbest-ai-taught-the-smartest-ai-heres-how-that-went]]
 
 ---
 
@@ -75,9 +75,9 @@ For example, scalable oversight techniques might be used to generate weak superv
 
 Evaluating these techniques in different settings helps understand their strengths and weaknesses. In non-scheming settings, where models are not deceptively aligned, classic weak-to-strong techniques and scalable oversight can be directly compared. In scheming settings, where models might act adversarially, evaluations need to consider potential deception, providing a conservative measure of a protocol’s robustness. When there is no scheming (deceptive alignment), then we can use W2G techniques in a straightforward manner through techniques like sandwiching. However, if we have scheming (deceptively aligned AI) it might act adversarially. In this case, we can use proposals like meta-level adversarial techniques. Both of these are what we discuss in the following sections.
 
-## Sandwiching Evaluations{++{"author":"Luc's AI","timestamp":1787521315740}@@
+## Sandwiching Evaluations
 
-::video[[../video_transcripts/rational-animations-how-to-align-ai-put-it-in-a-sandwich]]++}
+::video[[../video_transcripts/rational-animations-how-to-align-ai-put-it-in-a-sandwich]]
 
 *Video 8.2: Optional video explaining the concept of sandwiching ([Rational Animations, 2025](https://youtu.be/5mco9zAamRk)).*
 

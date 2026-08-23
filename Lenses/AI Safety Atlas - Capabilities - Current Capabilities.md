@@ -8,11 +8,4 @@ title: "Current Capabilities"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Current Capabilities|Current Capabilities]]{--{"author":"Luc's AI","timestamp":1787521321575}@@
-to:: "Robots in warehouses and industry are able to handle packages, speed up inventory identification using machine vision, and autonomously unload shipping containers."
-
-#### Video
-source:: [[../video_transcripts/boston-dynamics-atlas-goes-hands-on]]
-
-#### Article
-from:: "*Video 1.1: Video showcasing one example of the state of humanoid robots in 2024"--}
+source:: [[../articles/AI Safety Atlas - Capabilities - Current Capabilities|Current Capabilities]]

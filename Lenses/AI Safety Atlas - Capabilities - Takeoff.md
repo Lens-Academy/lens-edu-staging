@@ -8,12 +8,4 @@ title: "Takeoff"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Takeoff|Takeoff]]{--{"author":"Luc's AI","timestamp":1787521321984}@@
-to:: "*Figure 1.47: A summary of What a Compute-Centric Framework Says About Takeoff Speeds ([Davidson, 2024](https://www.openphilanthropy.org/research/what-a-compute-centric-framework-says-about-takeoff-speeds/))*"
-
-#### Video
-source:: [[../video_transcripts/rational-animations-when-will-ai-automate-all-mental-work-and-how-fast]]
-optional:: true
-
-#### Article
-from:: "*Video 1.3: Optional video explaining the argument behind automating research and development.*"--}
+source:: [[../articles/AI Safety Atlas - Capabilities - Takeoff|Takeoff]]
