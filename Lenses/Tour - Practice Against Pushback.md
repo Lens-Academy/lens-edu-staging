@@ -12,7 +12,9 @@ content::
 :::callout {title="What this page demonstrates" tone="blue"}
 A **Roleplay segment**: a conversation with a character the author wrote, which the learner can hold by typing or by speaking. The learner can also edit the scenario before starting, so the practice matches the argument they actually expect to have.
 
-This is the part of the platform that has no analogue in a reading list. Everything before this page taught an argument. This page finds out whether the learner can use it against someone who is not on their side.
+{--{"author":"Elias's AI","timestamp":1787499655437}@@This--}{++{"author":"Elias's AI","timestamp":1787499655437}@@On a real course this++} is {++{"author":"Elias's AI","timestamp":1787499655437}@@where a learner argues ++}the {--{"author":"Elias's AI","timestamp":1787499655437}@@part of--}{++{"author":"Elias's AI","timestamp":1787499655437}@@subject matter against a persona++} the {--{"author":"Elias's AI","timestamp":1787499655437}@@platform that has no analogue in--}{++{"author":"Elias's AI","timestamp":1787499655437}@@author built for it: a policymaker who wants a one-line answer, a participant who is confidently wrong,++} a {--{"author":"Elias's AI","timestamp":1787499655437}@@reading list. Everything before--}{++{"author":"Elias's AI","timestamp":1787499655437}@@colleague who disagrees. Here the topic is++} this {--{"author":"Elias's AI","timestamp":1787499655437}@@page taught an argument. This page finds out whether the learner can use it against someone who is not--}{++{"author":"Elias's AI","timestamp":1787499655437}@@platform, because you have just used it and therefore have something to say about it.
+
+About five minutes. Jordan will wind down++} on their {--{"author":"Elias's AI","timestamp":1787499655437}@@side.--}{++{"author":"Elias's AI","timestamp":1787499655437}@@own, and will end by telling you what would change their mind.++}
 :::
 
 #### Roleplay
