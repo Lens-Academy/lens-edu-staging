@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787513921276}@@---
+{++{"author":"Elias's AI","timestamp":1787513949800}@@---
 id: '964c5d74-ebe8-4e88-8c4e-28d0832398fe'
 title: "Reflection - Capabilities"
 tldr: "Close the chapter by writing down what stuck, without looking, and then what it did to you. Nothing here is graded. The point is to find out what you actually retained while you can still do something about it."
@@ -70,34 +70,32 @@ max-time:: 5:00
 
 #### Question
 content::
-Three systems. For each, say what the capability-and-generality framework licenses you to state, and what it leaves undetermined.
+Before the forecasting section you wrote down a single year. Go back and look at it.
 
-(a) A model that scores above the 90th percentile of test-takers on graduate examinations across most academic subjects, and that cannot reliably hold a task together across more than a few hours of work.
-(b) A protein-structure predictor that is superhuman at its one job and can do nothing else.
-(c) A coding agent built on a model no stronger than (a), which, given tools, a long context window and the ability to run its own code, finishes multi-day engineering jobs that (a) cannot.
+Does it still look right to you? If it moved, name the specific thing in this chapter that moved it: a trend, a model, a number, an argument. If it did not move, say what you read that you did not find convincing.
 
-Then: which of the three does the framework describe worst, and what would you add to the framework for that case?
+Either answer is fine. The one thing that is not an answer is "I updated a bit" with nothing attached.
 
 assessment-instructions::
-Generality in this chapter is the percentage of the ten CHC cognitive domains where the system reaches expert level, roughly the 80th to 90th percentile. It is not the percentage of tasks, benchmarks, or school subjects. Grade against that definition.
+Earlier in this module the student committed to a single year in the Forecasting Timelines pre-reading lens. They are now looking back at it.
 
-(a) is the item that discriminates. The stem gives capability above the threshold on the domains that graduate examinations actually probe: general knowledge, reading and writing, mathematical ability, and arguably on-the-spot reasoning. It says nothing about working memory, long-term memory storage, long-term memory retrieval, visual processing, auditory processing, or speed. The licensed statement is therefore high capability on roughly three or four of ten domains, which is about 30 to 40 percent generality. That is not high generality: the chapter's own worked example is "three out of ten domains, that's 30% generality", and it says current systems "still cover only a fraction of cognitive capabilities". An answer that slides from most academic subjects to most cognitive domains has made the error this item exists to catch, and does not pass. Name the slide explicitly when it happens.
+OPEN WITH THEIR OWN NUMBER. If their earlier answer is in this module's chat history, quote the year back to them in your first sentence. If it is not retrievable, ask them once to state it, since it is above this exchange. If they decline, cannot find it, or skipped that lens, respond to what they wrote now, say in one sentence that you could not make the comparison, and move on. Never invent what their earlier answer contained.
 
-The chapter does connect short task horizons to memory, but it does so in an optional callout, and its body text names long-term planning and memory-related domains together, with planning sitting under on-the-spot reasoning rather than under memory. Credit a student who makes that connection. Do not require it. Do not correct a student who instead says the framework simply does not measure task horizon, which is also defensible.
+THIS IS NOT GRADED. There is no correct year and no correct direction. Do not reward moving toward shorter timelines, and do not reward moving at all. Not moving, with a reason, is as good an answer as moving.
 
-(b) Maximal capability on one domain, near-zero generality. This is the chapter's ANI point and essentially every reasonable answer will get it. Treat it as an anchor, not a discriminator: one clause of feedback at most.
+The chapter's articles are in your context. If they name a mechanism, check it is actually in the chapter before agreeing that it is. If it is not, say so, without ruling on whether the mechanism is real.
 
-(c) The framework can assign (a) and (c) similar scores while what the two can actually be pointed at differs enormously. Be careful about why, because the obvious explanation overstates. The chapter does not say the capability-and-generality framework measures a bare model: it is explicitly behaviourist, about what a system can observably do, and its own criticism callout evaluates LLMs even with extended thinking or tools. The narrower claim the chapter does make belongs to scaling laws, not to this framework: "Debates around the scaling laws only tell us about the capabilities of a single foundation model trained in a standard way", which is why unhobbling and scaffolding sit outside what those laws predict. A student who argues that the framework as defined does cover a scaffolded system, and that the real gap is that it never fixes what counts as the system being scored, is more precise than the common answer and should be credited at least as highly.
+One turn, two if you had to ask for the number. 80 to 150 words. Short paragraphs, no lists.
 
-Gaps that pass on any of the three: deployment autonomy, which the chapter deliberately excludes from the definition; elicitation and scaffolding not being recoverable from a score; the coverage-bias and species-specific-risk critiques from the counter-argument callout; the reference population sitting behind a percentile.
+What to do:
+1. Set their earlier year beside what they just wrote.
+2. If they named a specific mechanism, say back what work it is doing in their reasoning.
+3. If they named nothing specific, ask once for the specific thing, and say why: an update you cannot trace is one you cannot check later.
+4. If their range narrowed and they cannot say what narrowed it, mention it once. Reading something is not by itself a reason to be more confident. Apply the same point if it widened for no stated reason.
 
-Pass bar: correct generality reasoning on (a), meaning domains counted rather than subjects counted, plus one named gap anywhere that is a real limit of the framework rather than a restatement that the system is unusual. Any of the three may be nominated as described worst, if the case is defended.
+Avoid generic praise.
 
-If the student places all three confidently and finds no gap, push once: ask what score the framework gives (c) before and after it is handed tools, and whether anything about the model itself changed.
-
-Two turns maximum. Keep an internal turn counter and close the item after your second reply. 100 to 180 words per reply. Short paragraphs, no lists. Do not over-validate. Avoid generic praise.
-
-max-chars:: 2000
+max-time:: 5:00
 
 #### Question
 content::
