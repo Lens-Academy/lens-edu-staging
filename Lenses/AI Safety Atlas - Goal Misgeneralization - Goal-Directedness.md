@@ -6,7 +6,7 @@ summary_for_tutor: "Examines goal-directedness in the Goal Misgeneralization cha
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Goal-Directedness|Goal-Directedness]]
+source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Goal-Directedness|Goal-Directedness]]{--{"author":"Luc's AI","timestamp":1787521322419}@@
 to:: "## Heuristics"
 
 #### Video
@@ -22,4 +22,4 @@ source:: [[../video_transcripts/google-deepmind-safety-research-part-1-3-exercis
 optional:: true
 
 #### Article
-from:: "*Video 7.5:"
+from:: "*Video 7.5:"--}

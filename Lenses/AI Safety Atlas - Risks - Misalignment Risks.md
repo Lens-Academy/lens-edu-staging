@@ -6,7 +6,7 @@ title: "Misalignment Risks"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Risks - Misalignment Risks|Misalignment Risks]]
+source:: [[../articles/AI Safety Atlas - Risks - Misalignment Risks|Misalignment Risks]]{--{"author":"Luc's AI","timestamp":1787521323302}@@
 to:: "This is called Vingean uncertainty"
 
 #### Video
@@ -22,4 +22,4 @@ source:: [[../video_transcripts/rationalanimations-the-king-and-the-golem]]
 optional:: true
 
 #### Article
-from:: "*Video 2.4:"
+from:: "*Video 2.4:"--}

@@ -8,7 +8,7 @@ title: "Foundation Models"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Foundation Models|Foundation Models]]
+source:: [[../articles/AI Safety Atlas - Capabilities - Foundation Models|Foundation Models]]{--{"author":"Luc's AI","timestamp":1787521321789}@@
 to:: "We will get more into the details in the next few subsections on training, properties and risks."
 
 #### Video
@@ -16,4 +16,4 @@ source:: [[../video_transcripts/stanford-hai-foundation-models-an-explainer-for-
 optional:: true
 
 #### Article
-from:: "**The traditional approach of training specialized AI models for every task often proved inefficient and limiting.**"
+from:: "**The traditional approach of training specialized AI models for every task often proved inefficient and limiting.**"--}

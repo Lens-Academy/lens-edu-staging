@@ -6,7 +6,7 @@ title: "Learning from feedback"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Specification Gaming - Learning from Feedback|Learning from feedback]]
+source:: [[../articles/AI Safety Atlas - Specification Gaming - Learning from Feedback|Learning from feedback]]{--{"author":"Luc's AI","timestamp":1787521323726}@@
 to:: "## Reward Modeling"
 
 #### Video
@@ -22,4 +22,4 @@ source:: [[../video_transcripts/rational-animations-the-true-story-of-how-gpt-2-
 optional:: true
 
 #### Article
-from:: "*Video 6.4:"
+from:: "*Video 6.4:"--}

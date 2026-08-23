@@ -6,7 +6,7 @@ title: "Multi Objective Generalization"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Multi Objective Generalization|Multi Objective Generalization]]
+source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Multi Objective Generalization|Multi Objective Generalization]]{--{"author":"Luc's AI","timestamp":1787521322657}@@
 to:: "even when the specific context or environment changes."
 
 #### Video
@@ -22,4 +22,4 @@ source:: [[../video_transcripts/google-deepmind-safety-research-part-1-4-where-c
 optional:: true
 
 #### Article
-from:: "*Video 7.2:"
+from:: "*Video 7.2:"--}
