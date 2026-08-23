@@ -5,33 +5,8 @@ domain: '[[../Domains/Artificial Intelligence]]'
 stage: {--{"author":"Elias's AI","timestamp":1787513514889}@@intermediate--}{++{"author":"Elias's AI","timestamp":1787513514889}@@intermediate++}
 tags:
   - {--{"author":"Elias's AI","timestamp":1787513514889}@@skill-tree-placeholder--}{++{"author":"Elias's AI","timestamp":1787513514889}@@skill-tree-placeholder++}
----{++{"author":"Elias's AI","timestamp":1787513514889}@@
-%%REMOVE-BELOW%%++}{++{"author":"Elias's AI","timestamp":1787500712464}@@
-
-%%
-Filename is a topic, which Writing (Learning) Outcomes disallows as an outcome name. A skill
-name such as "Capability and generality as separate axes" would be correct, but this file is a
-shared skill-tree node, so renaming is Elias's call. Flagged, not done.
-%%
-
-## Test:
-id:: 4cfbc15f-0edf-4d9d-bcfe-1ade28a822aa
-
-#### Question
-content::
-A developer publishes this summary of a system it runs inside its own company, and describes it as "narrow, not general, and therefore not a frontier safety concern":
-
-> On our ten-domain cognitive battery (general knowledge, reading and writing, mathematics, on-the-spot reasoning, working memory, long-term memory storage, long-term memory retrieval, visual processing, auditory processing, and speed) the system scores below the median adult on eight domains and around the 65th percentile on the other two.
->
-> In live commercial negotiations against real counterparties, it reaches settlements better than those reached by 99% of professionally trained human negotiators.
->
-> It operates company accounts and executes agreements with no human approval step.
-
-Describe this system on two axes: capability, meaning how far up the range of human performance it reaches on a given task, and generality, meaning the share of the listed domains on which it reaches expert level. Take expert level to mean beating roughly 80 to 90 percent of adults.
-
-(a) Give both figures, and say what in the summary fixes each one.
-(b) Does "narrow, therefore not a frontier safety concern" follow? Name the step you are rejecting, or the step you are defending.
-(c) Then do one of these two, your choice: name a risk-relevant fact about this deployment that neither axis encodes, which may be a fact the summary already states; or say what the battery does with the negotiation result, given that persuasion is not itself one of the ten domains.
+---{++{"author":"Elias's AI","timestamp":1787513548943}@@
+%%REMOVE-BELOW-B%%
 
 assessment-instructions::
 Single pass/fail. Pass requires checks 1 and 2, plus at least one of checks 3 and 4. Each check is yes or no. Silence on a check fails that check; it is never a default pass.
