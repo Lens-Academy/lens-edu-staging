@@ -98,9 +98,9 @@ Depending on the strength and interplay of these feedback loops, they can create
 
 *Figure 1.47: A summary of What a Compute-Centric Framework Says About Takeoff Speeds ([Davidson, 2024](https://www.openphilanthropy.org/research/what-a-compute-centric-framework-says-about-takeoff-speeds/))*
 
-::video[[../video_transcripts/rational-animations-when-will-ai-automate-all-mental-work-and-how-fast]]
+{--{"author":"Elias's AI","timestamp":1787510046820}@@::video[[../video_transcripts/rational-animations-when-will-ai-automate-all-mental-work-and-how-fast]]
 
-*Video 1.3: Optional video explaining the argument behind automating research and development.*
+--}*Video 1.3: Optional video explaining the argument behind automating research and development.*
 
 **Automating Research Argument.** Researchers could potentially design the next generation of ML models more quickly by delegating some work to existing models, creating a feedback loop of ever-accelerating progress. The following argument is put forth by Ajeya Cotra:
 
