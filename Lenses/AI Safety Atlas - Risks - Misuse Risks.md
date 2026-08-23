@@ -6,4 +6,20 @@ title: "Misuse Risks"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Risks - Misuse Risks|Misuse Risks]]
+source:: [[../articles/AI Safety Atlas - Risks - Misuse Risks|Misuse Risks]]{++{"author":"Elias's AI","timestamp":1787510318851}@@
+to:: "creates multiple paths to catastrophic outcomes that could threaten humanity's long-term future"
+
+#### Video
+source:: [[../video_transcripts/future-of-life-institute-artificial-escalation]]
+optional:: true
+
+#### Article
+from:: "*Video 2.1:"
+to:: "This creates a cycle where one type of vulnerability enables others"
+
+#### Video
+source:: [[../video_transcripts/yannic-kilcher-privacy-backdoors-stealing-data-with-corrupted-pretrained-models-paper-explained]]
+optional:: true
+
+#### Article
+from:: "*Video 2.2:"++}
