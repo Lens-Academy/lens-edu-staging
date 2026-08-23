@@ -17,7 +17,7 @@ add_to_ai_context:
 
 #### Text
 content::
-Two short prompts to close the chapter. Neither is graded and there is no right answer. The AI will respond to what you write, but it will not score you.
+Two {--{"author":"Elias's AI","timestamp":1787516848780}@@short --}prompts to close the chapter.{--{"author":"Elias's AI","timestamp":1787516848780}@@ Neither is graded and there is no--}{++{"author":"Elias's AI","timestamp":1787516848780}@@ No++} right{--{"author":"Elias's AI","timestamp":1787516848780}@@ answer. The AI will respond to what you write, but it will not score you.--}{++{"author":"Elias's AI","timestamp":1787516848780}@@ answers.++}
 
 #### Question: Open
 id:: 70870ad5-d5ec-4a6c-aa10-1c7d6bd1cb2f

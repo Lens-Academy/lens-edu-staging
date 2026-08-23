@@ -1,7 +1,7 @@
 ---
 id: '70a64e6b-90a9-419a-9230-12811b70c4a2'
 title: "Reflection - Goal Misgeneralization"
-tldr: "Close the chapter by writing down what stuck, without looking, and then what it did to you. Nothing here is graded. The point is to find out what you actually retained while you can still do something about it."
+tldr: "Close the chapter by writing down what stuck, without looking, and then what it did to you. {--{"author":"Elias's AI","timestamp":1787516850761}@@Nothing here is graded. --}The point is to find out what you actually retained while you can still do something about it."
 summary_for_tutor: "Ungraded end-of-chapter reflection for Chapter 7 (Goal Misgeneralization). No reading. Two prompts: free recall of the chapter, then a reaction pass. The tutor mirrors and probes, and never grades, scores, or issues a verdict. The chapter's articles are in context so the mirror is checked against the source rather than against the tutor's own memory."
 reading_minutes: 5
 tutor_minutes: 15
@@ -18,7 +18,7 @@ add_to_ai_context:
 
 #### Text
 content::
-Two short prompts to close the chapter. Neither is graded and there is no right answer. The AI will respond to what you write, but it will not score you.
+Two {--{"author":"Elias's AI","timestamp":1787516852975}@@short --}prompts to close the chapter.{--{"author":"Elias's AI","timestamp":1787516852975}@@ Neither is graded and there is no--}{++{"author":"Elias's AI","timestamp":1787516852975}@@ No++} right{--{"author":"Elias's AI","timestamp":1787516852975}@@ answer. The AI will respond to what you write, but it will not score you.--}{++{"author":"Elias's AI","timestamp":1787516852975}@@ answers.++}
 
 #### Question: Open
 id:: 7cb3abb6-add0-4a30-bd1d-261fb40facf0
