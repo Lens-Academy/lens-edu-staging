@@ -24,14 +24,14 @@ to:: 0:45
 
 #### Question: Choice
 id:: 724ab18c-21f9-45b8-be63-061af6f3477b
-content:: The article argues that humans dominate other species because the human brain has capabilities other animals lack, and it uses one animal to make the point about where that leaves us if AI surpasses human intelligence. Which one?
+content:: {--{"author":"Elias's AI","timestamp":1787499572582}@@The article argues that humans dominate other species because--}{++{"author":"Elias's AI","timestamp":1787499572582}@@A course author writes++} the {--{"author":"Elias's AI","timestamp":1787499572582}@@human brain has capabilities other animals lack, and it uses--}{++{"author":"Elias's AI","timestamp":1787499572582}@@pages of a course in plain text files. Which++} one {--{"author":"Elias's AI","timestamp":1787499572582}@@animal to make the point about where that leaves us if AI surpasses human intelligence. Which one?--}{++{"author":"Elias's AI","timestamp":1787499572582}@@of these is **not** something they write?++}
 options::
-- [x] The mountain gorilla, whose fate depends on human goodwill
-- The ant, which is numerous but individually powerless
-- The domesticated dog, which was shaped by us to be useful
-- The chess grandmaster, who is now reliably beaten by software
+- [x] The {--{"author":"Elias's AI","timestamp":1787499572582}@@mountain gorilla, whose fate depends on human goodwill--}{++{"author":"Elias's AI","timestamp":1787499572582}@@score your answer receives++}
+- The{--{"author":"Elias's AI","timestamp":1787499572582}@@ ant, which is numerous but individually powerless--}{++{"author":"Elias's AI","timestamp":1787499572582}@@ rubric your answer is graded against++}
+- The {--{"author":"Elias's AI","timestamp":1787499572582}@@domesticated dog, which was shaped by us to be useful--}{++{"author":"Elias's AI","timestamp":1787499572582}@@brief that tells the tutor how to behave on this page++}
+- The {--{"author":"Elias's AI","timestamp":1787499572582}@@chess grandmaster, who is now reliably beaten by software--}{++{"author":"Elias's AI","timestamp":1787499572582}@@start and stop anchors that pick which part of the source you are shown++}
 shuffle:: true
-feedback-instructions:: Name what the learner's choice implies. The gorilla comparison is about a species whose survival now depends on the goodwill of something more capable, with no hostility involved. The ant and the dog point at numbers and at domestication, which is a different argument. The chess answer is about a narrow capability, which the article treats separately. Two or three sentences, no praise.
+feedback-instructions:: {--{"author":"Elias's AI","timestamp":1787499572582}@@Name what the learner's choice implies.--}{++{"author":"Elias's AI","timestamp":1787499572582}@@In two or three sentences, no praise.++} The {--{"author":"Elias's AI","timestamp":1787499572582}@@gorilla comparison is about a species whose survival now depends on--}{++{"author":"Elias's AI","timestamp":1787499572582}@@author writes the rubric, the tutor brief and the excerpt anchors;++} the {--{"author":"Elias's AI","timestamp":1787499572582}@@goodwill of something more capable, with no hostility involved. The ant and the dog point at numbers and at domestication, which--}{++{"author":"Elias's AI","timestamp":1787499572582}@@score is produced at run time by a model reading that rubric against what the reader wrote. That split++} is {--{"author":"Elias's AI","timestamp":1787499572582}@@a different argument. The chess answer is about a narrow capability, which--}{++{"author":"Elias's AI","timestamp":1787499572582}@@the whole design: authors control the standard,++} the {--{"author":"Elias's AI","timestamp":1787499572582}@@article treats separately. Two or three sentences, no praise.--}{++{"author":"Elias's AI","timestamp":1787499572582}@@platform applies it to every learner at once.++}
 
 #### Question: Ranking
 id:: 1a941306-19f3-4eec-a939-40baf153b1a6
