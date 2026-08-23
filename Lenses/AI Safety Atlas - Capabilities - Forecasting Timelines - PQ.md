@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787500755332}@@---
+{++{"author":"Elias's AI","timestamp":1787514026536}@@---
 id: '61420b53-459a-4f0e-9681-69c487441e34'
 title: "Pre-Reading Question - Forecasting Timelines"
 tldr: "Before anyone shows you a trend line, name the year. Writing a number down now is the only way to find out later whether the evidence moved you or you just absorbed a mood."
@@ -28,7 +28,7 @@ Do not preview any trend, model, number, or argument from the section. Do not sa
 
 If they gave a range instead of a single year, accept it and ask them once for the single year they would pick if forced. Do not explain why you want one. If they say they have no idea, record that, say a rough guess is still more useful to them later than a blank, and ask once for a number. If they still decline, move on without pressing.
 
-Close with: "Hold that number. Head to the reading, and the exercises at the end of the chapter will come back to it."
+Close with: "Hold that number. Head to the reading, and the reflection at the end of the chapter will come back to it."
 
 max-time:: 3:00
 max-chars:: 600
