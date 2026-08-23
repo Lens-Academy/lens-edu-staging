@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787493057447}@@---
+---
 id: 'd18272a9-76bf-4431-a6eb-870fc9565e9e'
 slug: tour
 title: "How Lens Works"
@@ -12,4 +12,3 @@ Not the demo course: that one is written for course authors who read it inside t
 Design constraints and the feature checklist live in the module file. %%
 
 # Module: [[../modules/lens-tour|How Lens works]]
-++}

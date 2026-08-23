@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787493047581}@@---
+---
 id: '724dec66-a66b-4402-b77e-cbdd2aeaa3da'
 slug: lens-tour
 title: "How Lens works"
@@ -30,4 +30,3 @@ source:: [[../Lenses/Tour - Practice Against Pushback]]
 
 # Lens:
 source:: [[../Lenses/Tour - Behind The Scenes]]
-++}

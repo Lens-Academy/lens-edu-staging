@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787493226189}@@---
+---
 id: '13053f27-bc03-4f2a-87ce-8de24c3ce5de'
 title: Behind the scenes
 tldr: The four pages you just went through were written in a markdown editor by a mix of people and AI agents, checked by a validator, and were live on the site seconds after being saved. Here is the machinery a learner never sees.
@@ -54,4 +54,3 @@ Most learners take these courses in a group. The course file marks where the wee
 \## What you just did
 
 Five pages, one imported article, one video clip, six graded interactions and a roleplay. Same tooling, same validator, same review process as the courses we run for real cohorts. The test on the next page is the last piece: an outcome, a rubric, and a pass or fail that means something.
-++}

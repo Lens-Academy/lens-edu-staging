@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787492786529}@@---
+---
 id: 'd0b516ae-eb36-47af-ae03-abcad6651fa9'
 title: Start here
 tldr: Five pages, about 25 minutes, built out of a live course. Each page names the platform feature it is showing you, so you can see the whole product without taking a whole course.
@@ -44,4 +44,3 @@ Sign in before you start. The tutor, the graded questions and the roleplay only 
 Every page ends with a test you have to pass, not a button you have to click. :note[This annotation is a Lens note: an editorial aside we can attach to any text, including to text inside an imported article.] The test on this module is generated from a learning outcome file that also lives in our skill tree, so the same outcome can be reused by any course that teaches it.[^tour-outcome]
 
 [^tour-outcome]: Learning outcomes are course-agnostic on purpose. A course does not own its outcomes; it selects them, and the platform then tracks which lenses actually get learners through which outcomes.
-++}

@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787493144375}@@---
+---
 id: 'fe2beb43-0b79-4c8b-b979-e9f9a802b61d'
 title: Practice against pushback
 tldr: Reciting an argument and holding it under pressure are different skills, and only one of them survives contact with a skeptical colleague. Here you talk, out loud if you want, to someone who is not persuaded.
@@ -63,4 +63,3 @@ content::
 :::callout {title="Where this goes" tone="neutral" collapse="closed"}
 Roleplay transcripts are assessed the same way written answers are, against a rubric the author wrote, and the result feeds the same progress record. For courses that run in cohorts, the pattern across a group is what a facilitator reads before the weekly meeting: not who finished, but where the argument broke.
 :::
-++}

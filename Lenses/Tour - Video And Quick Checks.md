@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787493134425}@@---
+---
 id: '3ccfcdfc-66d8-4020-98f4-27171b3676a0'
 title: Video and quick checks
 tldr: A video excerpt clipped to the 45 seconds that matter, followed by the four fast question types. Everything except the confidence rating is graded, and the grading is done by a model reading a rubric, not by string matching.
@@ -60,4 +60,3 @@ feedback-instructions:: Do not reassure and do not grade. In two sentences, say 
 #### Text
 content::
 Ratings like that one are never scored. They are how the platform learns which lenses move confidence and which only move completion, which is the measurement a course needs in order to get better between cohorts.
-++}

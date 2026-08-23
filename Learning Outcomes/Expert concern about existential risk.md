@@ -1,14 +1,14 @@
 ---
 id: 30746348-a6b3-4585-be6d-929d8324d83b
 discussion: <discord url>
-learning-outcome:{++{"author":"Elias's AI","timestamp":1787492999005}@@ "Given a claim that rests on how many credentialed people endorse it, state what the endorsement does and does not establish, and name the evidence that would actually settle the question."++}
+learning-outcome: "Given a claim that rests on how many credentialed people endorse it, state what the endorsement does and does not establish, and name the evidence that would actually settle the question."
 tags:
-  - {--{"author":"Elias's AI","timestamp":1787492999005}@@work-in-progress--}{++{"author":"Elias's AI","timestamp":1787492999005}@@learning-outcome++}
+  - learning-outcome
 domain: "[[../Domains/Strategy]]"
 stage: intermediate
 ---
 
-{++{"author":"Elias's AI","timestamp":1787493096192}@@## Test:
+## Test:
 id:: 790b1b56-7654-4b53-afb8-bb2bcb2bd501
 
 #### Question
@@ -41,9 +41,9 @@ Notes for the grader:
 - A learner who spots that the second question is the harder one, and answers it concretely, is doing well even if the first answer is brief.
 - Do not require the phrase "appeal to authority", "base rate", "selection effect" or any other term of art. A learner who describes the problem in plain language has demonstrated the outcome.
 
-++}# Suggested Lenses:
+# Suggested Lenses:
 ## Lens:
-source:: {++{"author":"Elias's AI","timestamp":1787493025029}@@[[../Lenses/Tour - Reading With A Tutor]]
+source:: [[../Lenses/Tour - Reading With A Tutor]]
 notes::
 Delivers the practice version of this outcome: the same inference, but posed over the Wikipedia passage the learner has just read, with the tutor pushing on whatever the learner leaves vague.
 
@@ -53,6 +53,6 @@ notes::
 The roleplay character explicitly refuses appeals to authority, so the learner has to reach for the mechanism under adversarial pressure rather than in writing.
 
 ## Lens:
-source:: ++}[[../Lenses/Wikipedia Existential Risk]]{++{"author":"Elias's AI","timestamp":1787493025029}@@
+source:: [[../Lenses/Wikipedia Existential Risk]]
 notes::
-Background overview. Useful for the AI case specifically, but it does not itself practise the outcome.++}
+Background overview. Useful for the AI case specifically, but it does not itself practise the outcome.

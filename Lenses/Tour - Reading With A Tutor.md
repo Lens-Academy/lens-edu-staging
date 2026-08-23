@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787493288284}@@---
+---
 id: '24af6011-7df7-4d76-a99c-05a507c58f18'
 title: Reading with a tutor
 tldr: The source arrives on the page, not on a reading list. You answer in your own words, a grader scores it against a rubric you never see, and the page stays incomplete until you have actually talked to the tutor.
@@ -86,4 +86,3 @@ content::
 :::callout {title="Why the gate" tone="amber" collapse="closed"}
 Reading time is a bad proxy for learning, and completion clicks are a worse one. A lens can require a minimum number of tutor messages, a completed answer, or both, and the page shows a live checklist of what is still outstanding. Everything a learner writes here is the raw material for the test at the end of this module, and for the cohort report a facilitator sees before the group meets.
 :::
-++}
