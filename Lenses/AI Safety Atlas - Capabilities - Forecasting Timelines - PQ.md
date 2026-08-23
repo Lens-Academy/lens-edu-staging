@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787515558314}@@---
+{++{"author":"Elias's AI","timestamp":1787516113700}@@---
 id: '61420b53-459a-4f0e-9681-69c487441e34'
 title: "Pre-Reading Question - Forecasting Timelines"
 tldr: "Before anyone shows you a trend line, name the year. Writing a number down now is the only way to find out later whether the evidence moved you or you just absorbed a mood."
@@ -15,9 +15,13 @@ Before you read anything about forecasts, commit to a number.
 
 Do not look anything up, and do not hedge into a range. A rough answer written now is worth more than a researched one, and the reflection at the end of the chapter will come back to it.
 
-#### Question: FillBlank
+#### Question: Open
 id:: 86e21ef3-b176-46b6-bb8a-a027a1a43615
-content:: AI systems will be able to do essentially all remote cognitive work that a competent professional does today by {{number}}, and the single thing most likely to make that guess wrong is {{blank}}.
+content::
+By what year will AI systems be able to do essentially all remote cognitive work that a competent professional does today? Give one year, not a range.
+
+Then: what is the single thing about the world that, if you learned it tomorrow, would move that year the most? Say as much or as little about that as you want.
+max-time:: 3:00
 feedback-instructions::
 The learner is about to read the Atlas section on forecasting timelines. They have just committed to a year, and to the thing they think would most move it.
 
