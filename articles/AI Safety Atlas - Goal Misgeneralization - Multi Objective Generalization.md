@@ -38,7 +38,7 @@ Machine learning can result in models learning correlated proxy objectives inste
 
 **Definition: Goals (Behavioral)** — Goals are behavioral patterns that persist across different contexts, revealing what the system is actually optimizing for in practice. Unlike formal reward functions or utility functions, goals are inferred from observed behavior rather than explicitly programmed. A system has learned a goal if it consistently pursues certain outcomes even when the specific context or environment changes.
 
-{--{"author":"Luc's AI","timestamp":1787495455077}@@<iframe src="https://www.youtube-nocookie.com/embed/K8p8_VlFHUk" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--}{++{"author":"Luc's AI","timestamp":1787495455077}@@::video[[../video_transcripts/rational-animations-goal-misgeneralization-how-a-tiny-change-could-end-everything]]++}
+::video[[../video_transcripts/rational-animations-goal-misgeneralization-how-a-tiny-change-could-end-everything]]
 
 *Video 7.1: Optional video explaining goal misgeneralization.*
 
@@ -48,7 +48,7 @@ Machine learning can result in models learning correlated proxy objectives inste
 
 **This explains why goal misgeneralization differs qualitatively from specification problems.** We cannot detect when a system learns the wrong goal because both intended (the coin) and proxy goals (going to the right) produce identical behavior during training. The core safety concern is behavioral indistinguishability: improving reward specifications won't prevent problematic patterns if the learning process selects among multiple explanations for success. Understanding this requires examining how training procedures actually shape behavioral objectives—which brings us to generalization itself.
 
-{--{"author":"Luc's AI","timestamp":1787495457867}@@<iframe src="https://www.youtube-nocookie.com/embed/KKMETIVEzXA" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--}{++{"author":"Luc's AI","timestamp":1787495457867}@@::video[[../video_transcripts/google-deepmind-safety-research-part-1-4-where-can-misaligned-goals-come-from]]++}
+::video[[../video_transcripts/google-deepmind-safety-research-part-1-4-where-can-misaligned-goals-come-from]]
 
 *Video 7.2: Optional video from Google DeepMind AGI Safety Course, talking about where misaligned goals might even come from.*
 

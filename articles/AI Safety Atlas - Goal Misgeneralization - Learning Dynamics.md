@@ -40,7 +40,7 @@ The reason we make this point again is to motivate the fact that understanding t
 
 ## Loss Landscapes
 
-{--{"author":"Luc's AI","timestamp":1787495455551}@@<iframe src="https://www.youtube-nocookie.com/embed/NrO20Jb-hy0" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--}{++{"author":"Luc's AI","timestamp":1787495455551}@@::video[[../video_transcripts/welch-labs-the-misconception-that-almost-stopped-ai-how-models-learn-part-1]]++}
+::video[[../video_transcripts/welch-labs-the-misconception-that-almost-stopped-ai-how-models-learn-part-1]]
 
 *Video 7.3: Optional video explaining loss landscapes.*
 
