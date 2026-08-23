@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787513975801}@@---
+{++{"author":"Elias's AI","timestamp":1787515291012}@@---
 id: '964c5d74-ebe8-4e88-8c4e-28d0832398fe'
 title: "Reflection - Capabilities"
 tldr: "Close the chapter by writing down what stuck, without looking, and then what it did to you. Nothing here is graded. The point is to find out what you actually retained while you can still do something about it."
@@ -20,30 +20,25 @@ add_to_ai_context:
 content::
 Three short prompts to close the chapter. None of this is graded and there is no right answer. The AI will respond to what you write, but it will not score you.
 
-#### Question
-content::
-Spend 2 minutes writing down everything you can remember from this chapter, without looking back at any of it. Anything and everything, in any order, no need to organise it. Using the speech to text feature is highly recommended here.
-
-assessment-instructions::
-The student has just finished this chapter of the AI Safety Atlas and has written a free recall from memory.
+#### Question: Open
+id:: 151564c1-48ec-49ae-a1a3-55f9c1effe0d
+content:: Spend 2 minutes writing down everything you can remember from this chapter, without looking back at any of it. Anything and everything, in any order, no need to organise it. Using the speech to text feature is highly recommended here.
+max-time:: 5:00
+feedback-instructions::
+The learner has just finished this chapter of the AI Safety Atlas and has written a free recall from memory.
 
 The chapter's articles are in your context. Check what they wrote against those articles, not against your own background knowledge of the field. If you are unsure whether something is in the chapter, do not assert either way.
 
-THIS IS NOT GRADED. Do not score, rank, or issue any verdict. Do not say pass, fail, ready, or not ready. Do not tell them how much of the chapter they covered as a proportion.
+One reply. 80 to 150 words. Short paragraphs, no lists.
 
-One turn. 80 to 150 words. Short paragraphs, no lists.
-
-What to do:
 1. Name one or two things they recalled accurately, specifically rather than generically.
 2. Name one or two things from the chapter they did not mention. Point at them, do not explain them.
 3. If they stated something the chapter contradicts, correct it in one sentence and give the chapter's version.
 4. Close by normalising the gaps. Incomplete recall after one pass is the expected result, and noticing the gap is the useful part.
 
-Do not re-teach the chapter, ask follow-up questions, or invite a reply. Avoid generic praise (great job, excellent recall, well done).
+Do not re-teach the chapter, ask follow-up questions, or invite a reply. Do not tell them how much of the chapter they covered. Avoid generic praise (great job, excellent recall, well done).
 
 Tell them to move on to the next prompt.
-
-max-time:: 5:00
 
 #### Question
 content::
