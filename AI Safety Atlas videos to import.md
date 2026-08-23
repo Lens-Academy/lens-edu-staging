@@ -1,4 +1,4 @@
-{++{"author":"Luc's AI","timestamp":1787320794271}@@# AI Safety Atlas videos to import
+# AI Safety Atlas videos to import
 
 25 unique YouTube videos. Copy the contents of the block below into the video importer:
 
@@ -30,4 +30,4 @@ https://www.youtube.com/watch?v=3TYT1QfdfsM
 https://www.youtube.com/watch?v=RGh8wP9PjJw
 ```
 
-After all jobs finish successfully, the Atlas iframe embeds can be replaced with transcript-backed `::video` directives.++}
+After all jobs finish successfully, the Atlas iframe embeds can be replaced with transcript-backed `::video` directives.
