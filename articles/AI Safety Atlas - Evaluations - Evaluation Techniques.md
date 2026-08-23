@@ -156,4 +156,4 @@ Much more details on interpretability can be found in the dedicated chapter on i
 
 [^note-atlas-9]:  This can also be thought of as inference time scaling for reasoning models. It is effectively the same underlying technique.
 
-[^cite-atlas-10]:  This could be to pass safety checks, and participate in safety washing. Think of how Volkswagen hid high emissions of their cars. ([Ewing, 2017](https://www.nytimes.com/interactive/2017/business/volkswagen-diesel-emissions-timeline.html))
+{--{"author":"Luc's AI","timestamp":1787493545877}@@[^cite-atlas-10]:--}{++{"author":"Luc's AI","timestamp":1787493545877}@@[^note-atlas-10]:++}  This could be to pass safety checks, and participate in safety washing. Think of how Volkswagen hid high emissions of their cars. ([Ewing, 2017](https://www.nytimes.com/interactive/2017/business/volkswagen-diesel-emissions-timeline.html))
