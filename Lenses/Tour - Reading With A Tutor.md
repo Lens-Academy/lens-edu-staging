@@ -1,9 +1,9 @@
-{++{"author":"Elias's AI","timestamp":1787493268253}@@---
+{++{"author":"Elias's AI","timestamp":1787493280871}@@---
 id: '24af6011-7df7-4d76-a99c-05a507c58f18'
 title: Reading with a tutor
 tldr: The source arrives on the page, not on a reading list. You answer in your own words, a grader scores it against a rubric you never see, and the page stays incomplete until you have actually talked to the tutor.
-summary_for_tutor: "Tour page demonstrating the reading workflow. Two Article excerpts from the Wikipedia overview of existential risk from AI (the opening definition, then the paragraph on expert disagreement, the second inheriting the first's source), a graded open question built as a wedge against argument from authority, and an open tutor chat gated by min_chat_messages 2. The learning outcome in play is what expert concern does and does not establish."
-reading_minutes: 6
+summary_for_tutor: "Tour page demonstrating the reading workflow. Three Article excerpts from the Wikipedia overview of existential risk from AI (the opening definition and gorilla comparison, the paragraph on expert disagreement, then the history section from Butler through the 2023 Center for AI Safety statement), the second and third inheriting the first's source. Then a graded open question built as a wedge against argument from authority, and an open tutor chat gated by min_chat_messages 2. The learning outcome in play is what expert concern does and does not establish."
+reading_minutes: 9
 tutor_minutes: 6
 min_chat_messages: 2
 ---
