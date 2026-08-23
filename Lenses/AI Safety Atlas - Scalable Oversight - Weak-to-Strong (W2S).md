@@ -6,4 +6,20 @@ title: "Weak-to-Strong (W2S)"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Scalable Oversight - Weak-to-Strong (W2S)|Weak-to-Strong (W2S)]]
+source:: [[../articles/AI Safety Atlas - Scalable Oversight - Weak-to-Strong (W2S)|Weak-to-Strong (W2S)]]{++{"author":"Elias's AI","timestamp":1787510361074}@@
+to:: "This can be a path to aligning superhuman AI with human-level oversight."
+
+#### Video
+source:: [[../video_transcripts/rational-animations-the-dumbest-ai-taught-the-smartest-ai-heres-how-that-went]]
+optional:: true
+
+#### Article
+from:: "*Video 8.1:"
+to:: "## Sandwiching Evaluations"
+
+#### Video
+source:: [[../video_transcripts/rational-animations-how-to-align-ai-put-it-in-a-sandwich]]
+optional:: true
+
+#### Article
+from:: "*Video 8.2:"++}
