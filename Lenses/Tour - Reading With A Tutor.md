@@ -11,11 +11,13 @@ min_chat_messages: 2
 #### Text
 content::
 :::callout {title="What this page demonstrates" tone="blue"}
-An **Article segment**: the assigned reading rendered inside the lens, with its author, publication date and a link to the original, and with the parts you were not assigned collapsed rather than deleted. There are three excerpts below, and the second and third inherit the first one's source, so a multi-part reading is authored as a set of start and stop anchors rather than as copied text.
+An **Article segment**: the assigned reading rendered inside the lens, with its author, publication date and a link to the original, and with the parts you were not assigned collapsed rather than deleted. There are {--{"author":"Elias's AI","timestamp":1787499472849}@@three--}{++{"author":"Elias's AI","timestamp":1787499472849}@@two++} excerpts below, and the second {--{"author":"Elias's AI","timestamp":1787499472849}@@and third inherit--}{++{"author":"Elias's AI","timestamp":1787499472849}@@inherits++} the first one's source, so a multi-part reading is authored as a {--{"author":"Elias's AI","timestamp":1787499472849}@@set--}{++{"author":"Elias's AI","timestamp":1787499472849}@@pair++} of start and stop anchors rather than as copied text.
 
 Then a **graded question**: you write an answer, a grader scores it against a rubric the author wrote and you never see, and a tutor responds to what you actually said.
 
-Then a **gated chat**. This page will not let you mark it complete until you have sent two messages to the tutor. That gate is one line in the source file, and it is the difference between a course you can click through and a course you have to do.
+Then a **gated chat**. This page will not let you mark it complete until you have sent two messages to the tutor. That gate is one line in the source file, and it is the difference between a course you can click through and a course you have to do.{++{"author":"Elias's AI","timestamp":1787499472849}@@
+
+The passage itself is real material from a real course, but you are not here to learn it. Skim it, then answer the question about what just happened to you.++}
 :::
 
 #### Article
