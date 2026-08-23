@@ -33,41 +33,54 @@ That is the claim, and the gorilla comparison is the argument for it. The next q
 from:: "Experts disagree on whether artificial general intelligence"
 to:: "increased focus on global [AI regulation]"
 
-#### Text
+#### {--{"author":"Elias's AI","timestamp":1787499502722}@@Text--}{++{"author":"Elias's AI","timestamp":1787499502722}@@Question++}
 content::
-One more excerpt, from further down the same article. The worry is considerably older than the technology that provoked it, which is worth knowing before deciding how much the recent wave of statements adds.
+One {--{"author":"Elias's AI","timestamp":1787499502722}@@more excerpt, from further down the same article. The worry is considerably older than--}{++{"author":"Elias's AI","timestamp":1787499502722}@@or two sentences, thirty seconds.
+
+You have just read a source **inside**++} the {--{"author":"Elias's AI","timestamp":1787499502722}@@technology that provoked it, which is worth knowing before deciding how much the recent wave of statements adds.
 
 #### Article
 from:: "One of the earliest authors to express serious concern"
-to:: "signed by numerous experts in AI safety and the AI existential risk which stated:"
+to:: "signed by numerous experts in AI safety and the AI existential risk which stated:"--}{++{"author":"Elias's AI","timestamp":1787499502722}@@page, and what you type next will be read by a tutor that knows exactly which paragraphs you were shown. Name one thing a course can do with that combination that a reading list plus a weekly discussion call cannot.++}
 
-#### Question
-content::
-\## Where does this argument break?
+{--{"author":"Elias's AI","timestamp":1787499502722}@@#### Question
+content::--}{++{"author":"Elias's AI","timestamp":1787499502722}@@max-chars:: 400
 
-A friend reads the passage above and concludes: "Hinton and Bengio are worried, hundreds of experts signed the statement, and the survey found a majority putting the risk at 10 percent or more. LeCun disagrees, but he is outnumbered. So the case is settled."
+assessment-instructions::++}
+{--{"author":"Elias's AI","timestamp":1787499502722}@@\## Where does this argument break?
 
-Every fact in that summary is in the text. The conclusion still does not follow. In a few sentences: what is wrong with the inference, and what would a stronger version of the argument have to do instead?
+A friend reads the passage above and concludes: "Hinton and Bengio are worried, hundreds of experts signed the statement, and the survey found--}{++{"author":"Elias's AI","timestamp":1787499502722}@@The person answering is most likely a funder, partner or prospective collaborator taking a short product tour, not a student on a course. Treat them as++} a {--{"author":"Elias's AI","timestamp":1787499502722}@@majority putting the risk at 10 percent or more. LeCun disagrees, but he is outnumbered. So the case is settled."
 
-assessment-instructions::
-The learner has just read the opening of the Wikipedia overview of existential risk from AI, including the paragraph on expert disagreement, and has been handed a deliberately flawed inference: that a headcount of concerned experts settles the question.
+Every fact in that summary is in--}{++{"author":"Elias's AI","timestamp":1787499502722}@@smart peer evaluating a product, not as someone to be taught.
 
-This is practice, not the test. Your job is to find out whether the learner can separate a claim about people from a claim about the world.
+They were asked what a course gains from having the source, the learner's writing and++} the {--{"author":"Elias's AI","timestamp":1787499502722}@@text. The conclusion still does not follow. In--}{++{"author":"Elias's AI","timestamp":1787499502722}@@tutor on the same page.
 
-What a strong answer contains, in any wording:
-- Counting signatories measures the distribution of opinion in a population, not the truth of the proposition. It is evidence about experts, not about AI.
-- The signatories are not a random sample, the statement is short enough that signing it commits a person to very little, and the survey cited had a 17 percent response rate, so the population it describes is not the population of AI researchers.
-- A stronger argument has to state the mechanism: what capability, acquired how, would produce what kind of loss of control. Expert concern can motivate looking at the mechanism, it cannot substitute for it.
+Award++} a {--{"author":"Elias's AI","timestamp":1787499502722}@@few sentences: what is wrong with the inference, and what would a stronger version of the argument have to do instead?
 
-Response length: 80 to 150 words. Short paragraphs only. No lists.
+assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787499502722}@@pass for any answer that names one real consequence. The main ones, in any wording:++}
+{++{"author":"Elias's AI","timestamp":1787499502722}@@- ++}The {--{"author":"Elias's AI","timestamp":1787499502722}@@learner has just read the opening of the Wikipedia overview of existential risk from AI, including--}{++{"author":"Elias's AI","timestamp":1787499502722}@@tutor can respond to this passage rather than to++} the {--{"author":"Elias's AI","timestamp":1787499502722}@@paragraph on expert disagreement, and has been handed--}{++{"author":"Elias's AI","timestamp":1787499502722}@@topic in general, so it can tell++} a {--{"author":"Elias's AI","timestamp":1787499502722}@@deliberately flawed inference: that--}{++{"author":"Elias's AI","timestamp":1787499502722}@@misreading from++} a {--{"author":"Elias's AI","timestamp":1787499502722}@@headcount of concerned experts settles the question.
+
+This is practice, not--}{++{"author":"Elias's AI","timestamp":1787499502722}@@disagreement.
+- Assessment happens per page while++} the{--{"author":"Elias's AI","timestamp":1787499502722}@@ test. Your job--}{++{"author":"Elias's AI","timestamp":1787499502722}@@ reading++} is{--{"author":"Elias's AI","timestamp":1787499502722}@@ to find out whether the learner can separate a claim about people from a claim about --}{++{"author":"Elias's AI","timestamp":1787499502722}@@ fresh, instead of once at ++}the{--{"author":"Elias's AI","timestamp":1787499502722}@@ world.
+
+What a strong answer contains, in any wording:--}{++{"author":"Elias's AI","timestamp":1787499502722}@@ end, or never.++}
+- {--{"author":"Elias's AI","timestamp":1787499502722}@@Counting signatories measures the distribution of opinion in a population, not--}{++{"author":"Elias's AI","timestamp":1787499502722}@@The author gets evidence about which reading produced which understanding, so++} the {--{"author":"Elias's AI","timestamp":1787499502722}@@truth of the proposition. It is evidence about experts, not about AI.--}{++{"author":"Elias's AI","timestamp":1787499502722}@@course can be revised on data rather than on vibes.++}
+- {--{"author":"Elias's AI","timestamp":1787499502722}@@The signatories are not a random sample,--}{++{"author":"Elias's AI","timestamp":1787499502722}@@Nobody can skip++} the {--{"author":"Elias's AI","timestamp":1787499502722}@@statement is short enough that signing it commits a person to very little, and the survey cited had--}{++{"author":"Elias's AI","timestamp":1787499502722}@@reading and still perform, because what they write is checked against what they were shown.
+- The learner gets++} a{--{"author":"Elias's AI","timestamp":1787499502722}@@ 17 percent --}{++{"author":"Elias's AI","timestamp":1787499502722}@@ ++}response{--{"author":"Elias's AI","timestamp":1787499502722}@@ rate, so the population it describes--}{++{"author":"Elias's AI","timestamp":1787499502722}@@ within seconds, which++} is {--{"author":"Elias's AI","timestamp":1787499502722}@@not the population of AI researchers.
+- A stronger argument has to state--}{++{"author":"Elias's AI","timestamp":1787499502722}@@what makes retrieval practice work at all.
+
+Answers that only restate++} the{--{"author":"Elias's AI","timestamp":1787499502722}@@ mechanism: what capability, acquired how, would produce what kind of loss of control. Expert concern can motivate looking at--}{++{"author":"Elias's AI","timestamp":1787499502722}@@ question, or that describe a generic chatbot with no reference to++} the{--{"author":"Elias's AI","timestamp":1787499502722}@@ mechanism, it cannot substitute for it.--}{++{"author":"Elias's AI","timestamp":1787499502722}@@ reading, do not pass.++}
+
+Response length: {--{"author":"Elias's AI","timestamp":1787499502722}@@80--}{++{"author":"Elias's AI","timestamp":1787499502722}@@60++} to {--{"author":"Elias's AI","timestamp":1787499502722}@@150--}{++{"author":"Elias's AI","timestamp":1787499502722}@@110++} words. Short {--{"author":"Elias's AI","timestamp":1787499502722}@@paragraphs only. No--}{++{"author":"Elias's AI","timestamp":1787499502722}@@paragraphs, no++} lists.
 
 Response style:
-- Calm and direct. Do not over-validate. Avoid generic praise (great answer, exactly right, well spotted).
-- If the learner names the mechanism gap, say so plainly and push one step further: ask what evidence about the mechanism would actually move them.
-- If the learner only says "appeal to authority" without saying what the argument is missing, name that gap in one sentence and ask them to supply it.
-- If the learner defends the inference, do not concede and do not lecture. Ask what they would say if the same headcount had gone the other way.
+- {--{"author":"Elias's AI","timestamp":1787499502722}@@Calm--}{++{"author":"Elias's AI","timestamp":1787499502722}@@Direct++} and{--{"author":"Elias's AI","timestamp":1787499502722}@@ direct. Do not over-validate. Avoid--}{++{"author":"Elias's AI","timestamp":1787499502722}@@ unflattering. No++} generic{--{"author":"Elias's AI","timestamp":1787499502722}@@ praise (great answer, exactly right, well spotted).--}{++{"author":"Elias's AI","timestamp":1787499502722}@@ praise. This reader will notice.++}
+- {--{"author":"Elias's AI","timestamp":1787499502722}@@If the learner names--}{++{"author":"Elias's AI","timestamp":1787499502722}@@Confirm which of++} the {--{"author":"Elias's AI","timestamp":1787499502722}@@mechanism gap, say so plainly and push--}{++{"author":"Elias's AI","timestamp":1787499502722}@@consequences above they landed on, in++} one{--{"author":"Elias's AI","timestamp":1787499502722}@@ step further: ask what evidence about the mechanism would actually move them.--}{++{"author":"Elias's AI","timestamp":1787499502722}@@ sentence.++}
+- {--{"author":"Elias's AI","timestamp":1787499502722}@@If the learner only says "appeal to authority" without saying what the argument is missing, name that gap in one sentence --}{++{"author":"Elias's AI","timestamp":1787499502722}@@Then add exactly one they did not mention, ++}and {--{"author":"Elias's AI","timestamp":1787499502722}@@ask them to supply it.--}{++{"author":"Elias's AI","timestamp":1787499502722}@@say concretely what it changes.++}
+- If {--{"author":"Elias's AI","timestamp":1787499502722}@@the learner defends the inference, do not concede and do not lecture. Ask what they would say if the same headcount had gone the other way.
 
-Close by pointing them at the chat below, where they can take the disagreement further.
+--}{++{"author":"Elias's AI","timestamp":1787499502722}@@they raise a limitation or an objection, engage with it honestly rather than defending the product. An accurate concession is worth more than a pitch here.
+- ++}Close by pointing {--{"author":"Elias's AI","timestamp":1787499502722}@@them --}at the chat {--{"author":"Elias's AI","timestamp":1787499502722}@@below, where--}{++{"author":"Elias's AI","timestamp":1787499502722}@@below and inviting the hardest question++} they {--{"author":"Elias's AI","timestamp":1787499502722}@@can take--}{++{"author":"Elias's AI","timestamp":1787499502722}@@have about++} the {--{"author":"Elias's AI","timestamp":1787499502722}@@disagreement further.--}{++{"author":"Elias's AI","timestamp":1787499502722}@@platform.++}
 
 #### Chat
 instructions::
