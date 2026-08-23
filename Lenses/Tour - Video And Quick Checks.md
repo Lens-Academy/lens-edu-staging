@@ -35,15 +35,16 @@ feedback-instructions:: {--{"author":"Elias's AI","timestamp":1787499572582}@@Na
 
 #### Question: Ranking
 id:: 1a941306-19f3-4eec-a939-40baf153b1a6
-content:: The article traces the worry a long way back. Put these in the order they happened, earliest first.
+content:: {--{"author":"Elias's AI","timestamp":1787499593904}@@The article traces--}{++{"author":"Elias's AI","timestamp":1787499593904}@@Put++} the{--{"author":"Elias's AI","timestamp":1787499593904}@@ worry a long way back. Put these--}{++{"author":"Elias's AI","timestamp":1787499593904}@@ pieces of a Lens course++} in{--{"author":"Elias's AI","timestamp":1787499593904}@@ the order they happened, earliest --}{++{"author":"Elias's AI","timestamp":1787499593904}@@ order, smallest ++}first.
 items::
-- Samuel Butler writes "Darwin among the Machines"
-- Alan Turing writes "Intelligent Machinery, A Heretical Theory"
-- I. J. Good describes the intelligence explosion
-- Nick Bostrom publishes "Superintelligence"
-- Hundreds of experts sign the Center for AI Safety statement
-assessment-instructions:: The authored order is the correct chronological order: Butler 1863, Turing 1951, Good 1965, Bostrom 2014, the Center for AI Safety statement 2023. Give full credit for the exact order. Give partial credit for correct relative relationships, in particular for placing the three twentieth-century items before the two twenty-first-century ones. A learner who has the century-level structure right but swaps Turing and Good has largely succeeded.
-feedback-instructions:: If the order is wrong, say which single swap matters most and why the date is worth knowing. If it is right, note in one sentence what the spread of dates implies about how new this concern is. Two or three sentences.
+- {--{"author":"Elias's AI","timestamp":1787499593904}@@Samuel Butler writes "Darwin among the Machines"--}{++{"author":"Elias's AI","timestamp":1787499593904}@@A segment: one question, one video clip, one stretch of reading++}
+- {--{"author":"Elias's AI","timestamp":1787499593904}@@Alan Turing writes "Intelligent Machinery, A Heretical Theory"--}{++{"author":"Elias's AI","timestamp":1787499593904}@@A lens: the page you are on right now++}
+- {--{"author":"Elias's AI","timestamp":1787499593904}@@I. J. Good describes the intelligence explosion
+- Nick Bostrom publishes "Superintelligence"--}{++{"author":"Elias's AI","timestamp":1787499593904}@@A module: a chunk of material, usually one week of it++}
+- {--{"author":"Elias's AI","timestamp":1787499593904}@@Hundreds of experts sign the Center for AI Safety statement--}{++{"author":"Elias's AI","timestamp":1787499593904}@@A course: modules in order, split into weeks by group meetings++}
+assessment-instructions:: The authored order is the correct {--{"author":"Elias's AI","timestamp":1787499593904}@@chronological order: Butler 1863, Turing 1951, Good 1965, Bostrom 2014, the Center for AI Safety statement 2023. Give full --}{++{"author":"Elias's AI","timestamp":1787499593904}@@one, from smallest unit to largest: segment, lens, module, course. Full ++}credit for the exact order.{--{"author":"Elias's AI","timestamp":1787499593904}@@ Give partial--}{++{"author":"Elias's AI","timestamp":1787499593904}@@ Partial++} credit for {--{"author":"Elias's AI","timestamp":1787499593904}@@correct relative relationships, in particular for placing--}{++{"author":"Elias's AI","timestamp":1787499593904}@@any ordering that keeps++} the {--{"author":"Elias's AI","timestamp":1787499593904}@@three twentieth-century items before the two twenty-first-century ones. A learner who has the century-level structure right but swaps Turing and Good has largely succeeded.
+feedback-instructions::--}{++{"author":"Elias's AI","timestamp":1787499593904}@@containment relationships right for most pairs. There are no valid alternative orders and no ties.
+feedback-instructions:: Two sentences, no praise.++} If the order is {--{"author":"Elias's AI","timestamp":1787499593904}@@wrong, say which single swap matters most and--}{++{"author":"Elias's AI","timestamp":1787499593904}@@right, note that the nesting is++} why {--{"author":"Elias's AI","timestamp":1787499593904}@@the date is worth knowing. If it is right, note in--}{++{"author":"Elias's AI","timestamp":1787499593904}@@a lens can be reused by more than++} one {--{"author":"Elias's AI","timestamp":1787499593904}@@sentence what the spread of dates implies about how new this concern is. Two or three sentences.--}{++{"author":"Elias's AI","timestamp":1787499593904}@@course without being copied. If it is wrong, name the pair that is out of place.++}
 
 #### Question: FillBlank
 id:: 43f8316a-c584-4914-893f-6b4dba9b7810
