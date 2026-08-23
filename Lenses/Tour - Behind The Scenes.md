@@ -55,4 +55,6 @@ Most learners take these courses in a group. The course file marks where the wee
 
 \## What you just did
 
-Five pages, one imported article, one video clip, six graded interactions and a roleplay. Same tooling, same validator, same review process as the courses we run for real cohorts. The test on the next page is the last piece: an outcome, a rubric, and a pass or fail that means something.
+Five pages, one imported article, one video clip, {--{"author":"Elias's AI","timestamp":1787499855433}@@six--}{++{"author":"Elias's AI","timestamp":1787499855433}@@four++} graded {--{"author":"Elias's AI","timestamp":1787499855433}@@interactions--}{++{"author":"Elias's AI","timestamp":1787499855433}@@questions, a rating++} and a roleplay. Same tooling, same validator, same review process as the courses we run for real {--{"author":"Elias's AI","timestamp":1787499855433}@@cohorts.--}{++{"author":"Elias's AI","timestamp":1787499855433}@@cohorts; only the questions were swapped from the subject matter to the product, so that you could answer them without doing the reading.
+
+One thing left.++} The test on the next page {--{"author":"Elias's AI","timestamp":1787499855433}@@is the last piece: an outcome, a rubric, and a pass or fail that means something.--}{++{"author":"Elias's AI","timestamp":1787499855433}@@asks what you made of this and what you would want proof of before believing it. That answer is the most useful thing you can leave us.++}
