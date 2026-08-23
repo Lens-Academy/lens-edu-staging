@@ -1,11 +1,12 @@
 ---
 id: 'a025dadb-5982-40e8-97ed-9a8c9a6a3627'
-learning-outcome: {--{"author":"Elias's AI","timestamp":1787500712464}@@"Interpret evidence--}{++{"author":"Elias's AI","timestamp":1787500712464}@@"Given an AI system described only by measured performance, restate a claim++} about {--{"author":"Elias's AI","timestamp":1787500712464}@@Intelligence --}{++{"author":"Elias's AI","timestamp":1787500712464}@@how general it is as two separate assertions, one about how far up the range of human performance it reaches on a stated task ++}and {--{"author":"Elias's AI","timestamp":1787500712464}@@general intelligence"--}{++{"author":"Elias's AI","timestamp":1787500712464}@@one about the share of a stated list of cognitive domains on which it reaches a stated expert threshold, apply that threshold rather than assuming it, and name a risk-relevant fact about the deployment that neither assertion encodes."++}
+learning-outcome: {--{"author":"Elias's AI","timestamp":1787513514889}@@"Interpret evidence about Intelligence --}{++{"author":"Elias's AI","timestamp":1787513514889}@@"Interpret evidence about Intelligence ++}and {--{"author":"Elias's AI","timestamp":1787513514889}@@general intelligence"--}{++{"author":"Elias's AI","timestamp":1787513514889}@@general intelligence"++}
 domain: '[[../Domains/Artificial Intelligence]]'
-stage: {--{"author":"Elias's AI","timestamp":1787500712464}@@intermediate--}{++{"author":"Elias's AI","timestamp":1787500712464}@@beginner++}
+stage: {--{"author":"Elias's AI","timestamp":1787513514889}@@intermediate--}{++{"author":"Elias's AI","timestamp":1787513514889}@@intermediate++}
 tags:
-  - {--{"author":"Elias's AI","timestamp":1787500712464}@@skill-tree-placeholder--}{++{"author":"Elias's AI","timestamp":1787500712464}@@learning-outcome++}
----{++{"author":"Elias's AI","timestamp":1787500712464}@@
+  - {--{"author":"Elias's AI","timestamp":1787513514889}@@skill-tree-placeholder--}{++{"author":"Elias's AI","timestamp":1787513514889}@@skill-tree-placeholder++}
+---{++{"author":"Elias's AI","timestamp":1787513514889}@@
+%%REMOVE-BELOW%%++}{++{"author":"Elias's AI","timestamp":1787500712464}@@
 
 %%
 Filename is a topic, which Writing (Learning) Outcomes disallows as an outcome name. A skill
