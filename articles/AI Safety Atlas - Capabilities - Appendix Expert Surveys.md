@@ -25,7 +25,7 @@ Leading AI researchers and technologists express significant concern about exist
 
 ---
 
-{--{"author":"Luc's AI","timestamp":1787495454167}@@<iframe src="https://www.youtube-nocookie.com/embed/NqmUBZQhOYw" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--}{++{"author":"Luc's AI","timestamp":1787495454167}@@::video[[../video_transcripts/rationalanimations-will-ai-kill-everyone-heres-what-the-godfathers-of-ai-have-to-say]]++}
+::video[[../video_transcripts/rationalanimations-will-ai-kill-everyone-heres-what-the-godfathers-of-ai-have-to-say]]
 
 *Video 1.4: Optional video outlining some views that AI experts have on safety and risk.*
 
