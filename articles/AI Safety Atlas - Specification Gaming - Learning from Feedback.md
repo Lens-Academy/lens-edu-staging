@@ -33,7 +33,7 @@ This section discusses yet more attempts to address the reward misspecification 
 
 ## Reward Modeling
 
-{--{"author":"Luc's AI","timestamp":1787495456040}@@<iframe src="https://www.youtube-nocookie.com/embed/PYylPRX6z4Q" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--}{++{"author":"Luc's AI","timestamp":1787495456040}@@::video[[../video_transcripts/robert-miles-ai-safety-training-ai-without-writing-a-reward-function-with-reward-modelling]]++}
+::video[[../video_transcripts/robert-miles-ai-safety-training-ai-without-writing-a-reward-function-with-reward-modelling]]
 
 *Video 6.3: Optional video explaining reward modeling.*
 
@@ -62,7 +62,7 @@ The general reward modeling framework forms the basis for other feedback based t
 
 ## Reinforcement Learning from Human Feedback (RLHF)
 
-{--{"author":"Luc's AI","timestamp":1787495458358}@@<iframe src="https://www.youtube-nocookie.com/embed/qV_rOlHjvvs" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--}{++{"author":"Luc's AI","timestamp":1787495458358}@@::video[[../video_transcripts/rational-animations-the-true-story-of-how-gpt-2-became-maximally-lewd]]++}
+::video[[../video_transcripts/rational-animations-the-true-story-of-how-gpt-2-became-maximally-lewd]]
 
 *Video 6.4: Optional video explaining RLHF and a specification gaming failure.*
 
