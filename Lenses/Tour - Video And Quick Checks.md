@@ -54,12 +54,12 @@ feedback-instructions:: {--{"author":"Elias's AI","timestamp":1787499605668}@@If
 
 #### Question: Rating
 id:: a722f2ab-6bff-4111-9393-ce414513d241
-content:: How confident are you that you could explain this argument to a smart friend who thinks it is science fiction, and hold up when they push back?
+content:: How {--{"author":"Elias's AI","timestamp":1787499620547}@@confident are you that you could explain--}{++{"author":"Elias's AI","timestamp":1787499620547}@@much of what++} this {--{"author":"Elias's AI","timestamp":1787499620547}@@argument to a smart friend who thinks it is science fiction, and hold up when they push back?--}{++{"author":"Elias's AI","timestamp":1787499620547}@@platform can do do you feel these pages have shown you so far?++}
 scale:: 7
-low-label:: Not at all
-high-label:: Completely
-feedback-instructions:: Do not reassure and do not grade. In two sentences, say what a learner at this stated confidence should watch for on the next page, where they will have to do exactly that against someone who disagrees.
+low-label:: {--{"author":"Elias's AI","timestamp":1787499620547}@@Not at all--}{++{"author":"Elias's AI","timestamp":1787499620547}@@Barely scratched it++}
+high-label:: {--{"author":"Elias's AI","timestamp":1787499620547}@@Completely--}{++{"author":"Elias's AI","timestamp":1787499620547}@@Pretty much all of it++}
+feedback-instructions:: Do not {--{"author":"Elias's AI","timestamp":1787499620547}@@reassure and--}{++{"author":"Elias's AI","timestamp":1787499620547}@@reassure, do not grade,++} do not {--{"author":"Elias's AI","timestamp":1787499620547}@@grade.--}{++{"author":"Elias's AI","timestamp":1787499620547}@@sell.++} In two sentences, {--{"author":"Elias's AI","timestamp":1787499620547}@@say what a learner at this stated confidence should watch for --}{++{"author":"Elias's AI","timestamp":1787499620547}@@name one capability these pages have genuinely not shown, chosen to fit their answer: the weekly group meetings and their discussion documents, the post-meeting survey that doubles as the attendance record, the facilitator training that runs ++}on {++{"author":"Elias's AI","timestamp":1787499620547}@@this same platform, ++}the {--{"author":"Elias's AI","timestamp":1787499620547}@@next page, where they will have--}{++{"author":"Elias's AI","timestamp":1787499620547}@@coach a learner can bring any question++} to {--{"author":"Elias's AI","timestamp":1787499620547}@@do exactly--}{++{"author":"Elias's AI","timestamp":1787499620547}@@outside course hours, or the skill tree++} that {--{"author":"Elias's AI","timestamp":1787499620547}@@against someone who disagrees.--}{++{"author":"Elias's AI","timestamp":1787499620547}@@tracks which outcomes a learner has passed across every course they take.++}
 
 #### Text
 content::
-Ratings like that one are never scored. They are how the platform learns which lenses move confidence and which only move completion, which is the measurement a course needs in order to get better between cohorts.
+Ratings{--{"author":"Elias's AI","timestamp":1787499620547}@@ like that one--} are never scored. They are how the platform learns which {--{"author":"Elias's AI","timestamp":1787499620547}@@lenses--}{++{"author":"Elias's AI","timestamp":1787499620547}@@pages++} move confidence and which only move completion, which is the measurement a course needs in order to get better between cohorts.{++{"author":"Elias's AI","timestamp":1787499620547}@@ That one also tells us how this tour is doing.++}
