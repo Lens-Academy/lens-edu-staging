@@ -9,22 +9,9 @@ tutor_minutes: 0
 ++}---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Defining and Measuring AGI|Defining and Measuring AGI]]{++{"author":"Elias's AI","timestamp":1787513660155}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Defining and Measuring AGI|Defining and Measuring AGI]]{++{"author":"Elias's AI","timestamp":1787513669537}@@
 
-%%REMOVE-B%%
-
-#### Question
-content::
-\## Phase 3: Learning Question
-A colleague argues:
-
-> The capability-and-generality framework is IQ testing for machines. It is built out of human psychometrics, so a system with a completely non-human profile of strengths can score low on it while being far more dangerous than something that scores high. The framework is therefore useless for safety.
-
-The section itself says the colleague's second sentence. The section also uses the framework to set safety-relevant thresholds. So the colleague is pointing at a tension inside the reading, not at something the authors overlooked.
-
-Decide what follows from that. Which part of the framework does the objection actually break, and which part is left standing? Then name one change to how the framework is produced or used that would fix the part that broke.
-
-You are allowed to conclude that some particular use of it should stop.
+%%REMOVE-C%%
 
 assessment-instructions:: The student has completed the reading, a free recall and a reflection phase on the "Defining and Measuring AGI" section of Chapter 1 of the AI Safety Atlas. They are now in the main discussion phase.
 
