@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787492894955}@@---
+{++{"author":"Elias's AI","timestamp":1787493114396}@@---
 id: '3ccfcdfc-66d8-4020-98f4-27171b3676a0'
 title: Video and quick checks
 tldr: A video excerpt clipped to the 45 seconds that matter, followed by the four fast question types. Everything except the confidence rating is graded, and the grading is done by a model reading a rubric, not by string matching.
@@ -21,7 +21,7 @@ from:: 0:00
 to:: 0:45
 
 #### Question: Choice
-id:: '724ab18c-21f9-45b8-be63-061af6f3477b'
+id:: 724ab18c-21f9-45b8-be63-061af6f3477b
 content:: The article argues that humans dominate other species because the human brain has capabilities other animals lack, and it uses one animal to make the point about where that leaves us if AI surpasses human intelligence. Which one?
 options::
 - [x] The mountain gorilla, whose fate depends on human goodwill
