@@ -7,7 +7,7 @@ title: "How Lens works"
 %% Funder-facing product tour. Design constraints, so that later edits do not undo them:
 
 1. It is read on the website, not in the editor, by people who will not open a second tab. Everything that needs to be understood must be visible in rendered content. Do not move explanation into %-comments.
-2. It is short on purpose. (Fu)
+2. It is short on purpose. (Funders don't have a lot of time)
 3. Each lens opens with a "What this page demonstrates" callout naming the platform features it shows. That is the whole conceit; keep it.
 4. The material is real (Wikipedia's existential-risk overview, the Kurzgesagt explainer) and used the way a real course uses it. No lorem, no dummy lenses.
 5. Feature coverage, so nothing is dropped by accident: Article excerpts with anchors and source inheritance, Video excerpt by timestamp, graded Question with a private rubric, Chat gated by min_chat_messages, Question: Choice / Ranking / FillBlank (text and numeric) / Rating, Roleplay with a learner-customisable scenario, callouts, notes, footnotes, resource cards, authored durations, and a learning-outcome test rendered at the end of the module.
