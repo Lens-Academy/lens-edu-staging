@@ -32,7 +32,7 @@ AI systems with dangerous capabilities might pursue goals misaligned with develo
 
 **Definition: AI Alignment** — The problem of building machines which faithfully try to do what we want them to do (or what we ought to want them to do).
 
-**The alignment problem can be decomposed into several sub-problems.** To make progress, we need to break down the alignment problem into more tractable components[^cite-atlas-3]. Here is how we choose to decompose the alignment problem in our text:
+**The alignment problem can be decomposed into several sub-problems.** To make progress, we need to break down the alignment problem into more tractable {--{"author":"Luc's AI","timestamp":1787493544489}@@components[^cite-atlas-3].--}{++{"author":"Luc's AI","timestamp":1787493544489}@@components[^note-atlas-3].++} Here is how we choose to decompose the alignment problem in our text:
 
 - **Specification failures**: First, we might fail to correctly specify what we want - this is the specification problem. The - “*did we tell it the right thing to do?*” problem.
 - **Generalization failures**: Second, even with a correct specification, the AI system might learn and pursue something different from what we intended - this is the generalization problem. The - “*is it even trying to do the right thing?”* problem.
