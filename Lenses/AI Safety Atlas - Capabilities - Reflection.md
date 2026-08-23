@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787513949800}@@---
+{++{"author":"Elias's AI","timestamp":1787513975801}@@---
 id: '964c5d74-ebe8-4e88-8c4e-28d0832398fe'
 title: "Reflection - Capabilities"
 tldr: "Close the chapter by writing down what stuck, without looking, and then what it did to you. Nothing here is graded. The point is to find out what you actually retained while you can still do something about it."
@@ -97,40 +97,11 @@ Avoid generic praise.
 
 max-time:: 5:00
 
-#### Question
-content::
-A policy adviser writes:
-
-> High-quality text data runs out around 2028. Once training data runs out, progress slows, so we should expect a slow takeoff and plan accordingly.
-
-Grant the 2028 date for the sake of argument. The conclusion still is not supported by what precedes it.
-
-Show where the argument fails, and say what the adviser would have to add to make the conclusion defensible.
-
-assessment-instructions::
-There are two weak steps and a strong student may find a third. Do not tell the student how many there are, and do not treat any count as the target.
-
-Step one: data running out to progress slowing. This is the step the chapter most directly contradicts. It presents the data limit as a constraint of open severity, not a stop: "Three escape routes exist, whether data actually constrains scaling through 2030 depends on how well these alternatives work", and it does not claim they fail. Meanwhile hardware efficiency at about 1.35x and algorithmic efficiency at about 3x per year keep compounding inside effective compute, and unhobbling and scaffolding sit outside what scaling laws predict at all. Note that the chapter does hedge the third escape route as very speculative; a student who leans on that hedge is reading the chapter correctly, not weakly.
-
-Step two: slower progress to slow takeoff. The chapter defines these as different quantities: "While timelines tell us when transformative AI might arrive, takeoff speeds tell us what happens after it arrives." Read the chapter's exact relation carefully before grading: takeoff speed is "related to, but distinct from, AI timelines". Distinct, not independent. Under the compute-centric takeoff argument the chapter presents, takeoff speed depends on the strength of the investment and automation feedback loops, and the chapter explicitly allows "a slow takeoff if the loops are weaker or counterbalanced by other factors". A durable data bottleneck is a candidate counterbalancing factor. So the adviser's conclusion is not a category error and has not been refuted. The defect is that the adviser asserts the link instead of arguing it, and the argument that would carry it is nowhere in the sentence. A student who says the step is defensible once the missing premise is supplied, and identifies which premise, has given the best available answer to this question and passes at the top. Do not tell any student that this step is simply an error.
-
-Third point, credit if offered: the overhang argument runs against the adviser. A period in which one input is constrained while chips and algorithms accumulate can make the eventual takeoff faster, not slower, which is the opposite of the adviser's conclusion. The chapter's own caveat is that this assumes chip production does not fall during the constrained period.
-
-Also credit, and never treat as off-topic: the date itself. The chapter gives 2026 to 2032 for high-quality public text, and its data-projection figure gives 2025 to 2030. "Around 2028" is one point inside a range the chapter presents as a range. The stem asks the student to grant the date, so this is a bonus and never a requirement.
-
-Pass bar: the student identifies the first step as unsupported and gives at least one concrete reason drawn from the chapter, and says something correct about the relation between timelines and takeoff. Any of these satisfies the second half: that the adviser has conflated them, that the adviser has assumed a link without arguing it, or that the link can be made to hold but only via the compute-centric argument.
-
-Rescue move if stuck after two attempts: ask what would have to be true after transformative AI arrives for takeoff to be slow, and whether the adviser's sentence says anything at all about that period.
-
-Three turns, then offer to continue. 100 to 180 words per reply. Short paragraphs, no lists. Do not over-validate. Avoid generic praise.
-
-max-chars:: 2000
-
 #### Chat
 instructions::
-The student has just worked through three Chapter 1 exercises: cashing in the timeline forecast they made before the forecasting section, placing three systems on the capability and generality axes, and repairing a policy argument that runs a data constraint into a takeoff prediction.
+The student has just closed this chapter with a recall pass, a reaction pass, and a look back at the forecast they made before reading.
 
-Build on what they actually wrote, and quote them. Useful directions: which end of their interval is doing the most work in their own planning, and whether they would act differently if only that end moved; whether the capability-and-generality framework would have flagged the systems they personally find most concerning, and if not, what it would need; what evidence over the next two years would most change their view, and whether they would actually notice it if it arrived.
+Build on what they actually wrote, and quote them. Useful directions: which part of the chapter they expect to still matter in five years and which part they expect to date; what would have to happen for them to change their mind about the thing they were most confident about; whether anything they read changes what they would actually do differently.
 
-Do not re-teach the chapter. Do not push them toward a timeline, and do not offer your own timeline even if asked: say that you would be the last input into a lens whose whole point was to make theirs explicit, and turn the question back. If they ask your view on the framework or on one of the arguments, give one briefly and flag it as one view.
+This is an open conversation, not an assessment. Do not grade, score, or summarise their performance. Do not re-teach the chapter. Do not push them toward a timeline, and do not offer your own timeline even if asked: say you would be the last input into a lens whose point was to make theirs explicit, and turn the question back. If they ask your view on something else, give it briefly and flag it as one view.
 ++}
