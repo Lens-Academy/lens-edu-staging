@@ -117,9 +117,9 @@ Several incentives are driving towards more autonomous lethal autonomous weapons
 
 **When wars require human soldiers, the human cost creates political barriers to conflict.** The combination of increasing autonomy, swarm intelligence, and pressure for speed creates a clear path to potential catastrophe. As weapons become more autonomous, they can act more independently. This self-reinforcing cycle pushes toward automated warfare even if no single actor intends that outcome. Studies suggest that countries are more willing to initiate conflicts when they can rely on autonomous systems instead of human troops. Combined with the risks of automated nuclear escalation, this creates multiple paths to catastrophic outcomes that could threaten humanity's long-term future ([Simmons-Edler et al., 2024](https://arxiv.org/abs/2405.01859)).
 
-::video[[../video_transcripts/future-of-life-institute-artificial-escalation]]
+{--{"author":"Elias's AI","timestamp":1787510221351}@@::video[[../video_transcripts/future-of-life-institute-artificial-escalation]]
 
-*Video 2.1: A video of a story showcasing artificial escalation ([Future of Life Institute, 2024](https://www.youtube.com/watch?v=w9npWiTOHX0)).*
+--}*Video 2.1: A video of a story showcasing artificial escalation ([Future of Life Institute, 2024](https://www.youtube.com/watch?v=w9npWiTOHX0)).*
 
 :::callout {title="Moral Divides in AI Autonomy from the lens of autonomous weapons — Optional · 2 min read" tone="neutral" collapse="closed"}
 
