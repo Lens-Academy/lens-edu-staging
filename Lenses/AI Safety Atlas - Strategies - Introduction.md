@@ -6,7 +6,7 @@ title: "Introduction"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Strategies - Introduction]]{++{"author":"Elias's AI","timestamp":1787510375479}@@
+source:: [[../articles/AI Safety Atlas - Strategies - Introduction]]
 to:: "*Video 3.1:"
 
 #### Video
@@ -14,4 +14,4 @@ source:: [[../video_transcripts/google-deepmind-safety-research-part-2-1-alignme
 optional:: true
 
 #### Article
-from:: "### Acknowledgements"++}
+from:: "### Acknowledgements"

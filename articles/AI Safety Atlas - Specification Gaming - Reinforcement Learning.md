@@ -33,9 +33,7 @@ The section provides a succinct reminder of several concepts in reinforcement le
 
 **Definition: Reinforcement Learning (RL)** — Reinforcement Learning (RL) focuses on developing agents that can learn from interactive experiences. RL is based on the concept of an agent learning through interaction with an environment and altering its behavior based on the feedback it receives through rewards after each action.
 
-{--{"author":"Elias's AI","timestamp":1787510233431}@@::video[[../video_transcripts/openai-learning-dexterity]]
-
---}*Video 6.1: Optional video showcasing robotic hand trained using reinforcement learning.*
+*Video 6.1: Optional video showcasing robotic hand trained using reinforcement learning.*
 
 Some examples of real-world applications of RL include:
 

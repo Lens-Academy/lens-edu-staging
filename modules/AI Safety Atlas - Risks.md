@@ -29,10 +29,10 @@ source:: [[../Lenses/AI Safety Atlas - Risks - Risk Amplifiers]]
 source:: [[../Lenses/AI Safety Atlas - Risks - Conclusion]]
 
 # Lens:
-{++{"author":"Elias's AI","timestamp":1787514163635}@@source:: [[../Lenses/AI Safety Atlas - Risks - Reflection]]
+source:: [[../Lenses/AI Safety Atlas - Risks - Reflection]]
 
 # Lens:
-++}optional:: true
+optional:: true
 source:: [[../Lenses/AI Safety Atlas - Risks - Appendix Quantifying Existential Risks]]
 
 # Lens:

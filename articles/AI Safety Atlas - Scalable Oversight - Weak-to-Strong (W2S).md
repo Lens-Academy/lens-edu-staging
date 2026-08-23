@@ -25,9 +25,7 @@ We can potentially train a more powerful AI using supervision or feedback from a
 
 ---
 
-{--{"author":"Elias's AI","timestamp":1787510225362}@@::video[[../video_transcripts/rational-animations-the-dumbest-ai-taught-the-smartest-ai-heres-how-that-went]]
-
---}*Video 8.1: Optional video explaining the concept of weak to strong generalization ([Rational Animations, 2025](https://youtu.be/5mco9zAamRk)).*
+*Video 8.1: Optional video explaining the concept of weak to strong generalization ([Rational Animations, 2025](https://youtu.be/5mco9zAamRk)).*
 
 Historically, much of the work on AI alignment has been highly theoretical, focusing on foundational aspects of agent behavior, inner alignment, and risks from learned optimization. Even the techniques that we talked about in previous sections like debate or IDA are often criticized for being frameworks rather than practical solutions, or mainly working on toy problems without addressing the core challenge of aligning superintelligent AI in real-world scenarios. So even though we can only conduct safety experiments on current-generation models, how can we be sure that these techniques will remain effective as AIs approach superhuman capabilities?
 
@@ -77,9 +75,7 @@ Evaluating these techniques in different settings helps understand their strengt
 
 ## Sandwiching Evaluations
 
-{--{"author":"Elias's AI","timestamp":1787510227601}@@::video[[../video_transcripts/rational-animations-how-to-align-ai-put-it-in-a-sandwich]]
-
---}*Video 8.2: Optional video explaining the concept of sandwiching ([Rational Animations, 2025](https://youtu.be/5mco9zAamRk)).*
+*Video 8.2: Optional video explaining the concept of sandwiching ([Rational Animations, 2025](https://youtu.be/5mco9zAamRk)).*
 
 Sandwiching is an experimental setup that leverages narrowly superhuman models to evaluate how well our oversight techniques work in controlled settings. The sandwiching setup contains three primary ‘layers’:
 

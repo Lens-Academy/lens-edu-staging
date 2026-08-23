@@ -41,21 +41,10 @@ Notes for the grader:
 - A learner who spots that the second question is the harder one, and answers it concretely, is doing well even if the first answer is brief.
 - Do not require the phrase "appeal to authority", "base rate", "selection effect" or any other term of art. A learner who describes the problem in plain language has demonstrated the outcome.
 
-{--{"author":"Elias's AI","timestamp":1787499770823}@@# Suggested Lenses:
-## Lens:
-source:: [[../Lenses/Tour - Reading With A Tutor]]
-notes::
-Delivers the practice version of this outcome:--}{++{"author":"Elias's AI","timestamp":1787499770823}@@%% This outcome had a statement and a test written for it in August 2026 while building++} the {--{"author":"Elias's AI","timestamp":1787499770823}@@same inference, but posed over the Wikipedia passage the learner has just read, with--}{++{"author":"Elias's AI","timestamp":1787499770823}@@funder product tour. The tour ended up not using it, since its assessments are about++} the {--{"author":"Elias's AI","timestamp":1787499770823}@@tutor pushing on whatever the learner leaves vague.
-
-## Lens:
-source:: [[../Lenses/Tour - Practice Against Pushback]]
-notes::
-The roleplay character explicitly refuses appeals to authority, so the learner has to reach for the mechanism under adversarial pressure rather than in writing.
-
---}{++{"author":"Elias's AI","timestamp":1787499770823}@@platform rather than about AI safety. No course currently teaches this outcome; it is here for whoever wants it. Reject these suggestions if you would rather it stayed an empty stub. %%
+%% This outcome had a statement and a test written for it in August 2026 while building the funder product tour. The tour ended up not using it, since its assessments are about the platform rather than about AI safety. No course currently teaches this outcome; it is here for whoever wants it. Reject these suggestions if you would rather it stayed an empty stub. %%
 
 # Suggested Lenses:
-++}## Lens:
+## Lens:
 source:: [[../Lenses/Wikipedia Existential Risk]]
 notes::
-Background {--{"author":"Elias's AI","timestamp":1787499770823}@@overview. Useful for--}{++{"author":"Elias's AI","timestamp":1787499770823}@@overview, and the passage on expert disagreement is++} the {--{"author":"Elias's AI","timestamp":1787499770823}@@AI case specifically, but it--}{++{"author":"Elias's AI","timestamp":1787499770823}@@natural place to introduce the outcome. It++} does not itself practise {--{"author":"Elias's AI","timestamp":1787499770823}@@the outcome.--}{++{"author":"Elias's AI","timestamp":1787499770823}@@it, so a course using this outcome still needs a lens that does.++}
+Background overview, and the passage on expert disagreement is the natural place to introduce the outcome. It does not itself practise it, so a course using this outcome still needs a lens that does.
