@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787492982016}@@---
+{++{"author":"Elias's AI","timestamp":1787493226189}@@---
 id: '13053f27-bc03-4f2a-87ce-8de24c3ce5de'
 title: Behind the scenes
 tldr: The four pages you just went through were written in a markdown editor by a mix of people and AI agents, checked by a validator, and were live on the site seconds after being saved. Here is the machinery a learner never sees.
@@ -31,7 +31,7 @@ That is how partner organisations build on Lens without hiring a curriculum team
 
 \## Nothing ships unvalidated
 
-Content is validated continuously against the platform's schema: broken links between files, a reading anchor that no longer matches its article, a test that has no gradable question, an outcome missing its domain. Errors are listed per file and filterable per course, and draft material is separated from production material so that unfinished work cannot block a release.
+Content is validated continuously against the platform's schema: a link pointing at a file that no longer exists, a duplicated or malformed identifier, a survey question with no answer key, a course that still references a draft. Errors are listed per file and filterable per course, and draft material is separated from production material so that unfinished work cannot block a release.
 
 Saving a file puts it on staging within seconds. The gap between "an author fixes a confusing question" and "the next learner sees the fix" is measured in seconds, not in edition cycles.
 
