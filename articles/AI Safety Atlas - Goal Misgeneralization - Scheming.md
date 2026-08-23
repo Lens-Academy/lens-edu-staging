@@ -28,7 +28,9 @@ A very goal-directed AI that also deeply understands the world could realize the
 
 **This strategic dilemma emerges regardless of how goal-directedness arises.** Even if a system is not a learned optimizer (mesa-optimizer), as long as it has strong goal directed tendencies the underlying logic remains identical. Any system that has accurate enough world models would face the same choices independent of whether goal-pursuit is through extremely sophisticated pattern matching or genuine internal search/optimization.
 
-**Definition: Scheming (Deceptive Alignment)** — Scheming occurs when AI systems fake alignment during training to preserve misaligned objectives for deployment. The system produces outputs that satisfy human evaluators while maintaining different internal goals, strategically deceiving the feedback mechanisms we rely for safety.
+**Definition: Scheming (Deceptive Alignment)** — Scheming occurs when AI systems fake alignment during training to preserve misaligned objectives for deployment. The system produces outputs that satisfy human evaluators while maintaining different internal goals, strategically deceiving the feedback mechanisms we rely for safety.{++{"author":"Luc's AI","timestamp":1787521314534}@@
+
+::video[[../video_transcripts/robert-miles-ai-safety-deceptive-misaligned-mesa-optimisers-its-more-likely-than-you-think]]++}
 
 *Video 7.6: Optional video explaining deceptive alignment in a more technical way.*
 
