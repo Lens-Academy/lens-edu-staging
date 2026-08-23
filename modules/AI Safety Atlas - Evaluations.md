@@ -1,7 +1,7 @@
 ---
 id: afe1b67f-dcb2-470c-b728-582390ba8fcf
 slug: ai-safety-atlas-evaluations
-title: Evaluations
+title: {--{"author":"Luc's AI","timestamp":1787491232427}@@Evaluations--}{++{"author":"Luc's AI","timestamp":1787491232427}@@"Chapter 5: Evaluations"++}
 ---
 
 # Lens:

@@ -1,7 +1,7 @@
 ---
 id: 6b695eb1-03b4-46cd-97b3-f3a507d4b345
 slug: ai-safety-atlas-capabilities
-title: Capabilities
+title: {--{"author":"Luc's AI","timestamp":1787491231483}@@Capabilities--}{++{"author":"Luc's AI","timestamp":1787491231483}@@"Chapter 1: Capabilities"++}
 ---
 
 # Lens:

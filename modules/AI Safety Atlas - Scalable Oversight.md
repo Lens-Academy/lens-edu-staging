@@ -1,7 +1,7 @@
 ---
 id: e1896835-e279-49aa-a5c1-227b35df0e1d
 slug: ai-safety-atlas-scalable-oversight
-title: Scalable Oversight
+title: {++{"author":"Luc's AI","timestamp":1787491233049}@@"Chapter 8: ++}Scalable {--{"author":"Luc's AI","timestamp":1787491233049}@@Oversight--}{++{"author":"Luc's AI","timestamp":1787491233049}@@Oversight"++}
 ---
 
 # Lens:
