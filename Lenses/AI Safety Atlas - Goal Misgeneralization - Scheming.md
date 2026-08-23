@@ -6,12 +6,4 @@ title: "Scheming"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Scheming|Scheming]]{--{"author":"Luc's AI","timestamp":1787521322874}@@
-to:: "strategically deceiving the feedback mechanisms we rely for safety."
-
-#### Video
-source:: [[../video_transcripts/robert-miles-ai-safety-deceptive-misaligned-mesa-optimisers-its-more-likely-than-you-think]]
-optional:: true
-
-#### Article
-from:: "*Video 7.6:"--}
+source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Scheming|Scheming]]
