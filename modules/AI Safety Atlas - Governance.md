@@ -1,7 +1,7 @@
 ---
 id: 871ddbb8-eeaa-43d9-bd2e-110016394965
 slug: ai-safety-atlas-governance
-title: {--{"author":"Luc's AI","timestamp":1787491232203}@@Governance--}{++{"author":"Luc's AI","timestamp":1787491232203}@@"Chapter 4: Governance"++}
+title: "Chapter 4: Governance"
 ---
 
 # Lens:
