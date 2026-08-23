@@ -38,9 +38,9 @@ Machine learning** systems can evolve beyond pattern matching to systematically 
 
 ## Heuristics
 
-::video[[../video_transcripts/google-deepmind-safety-research-part-1-2-risks-from-deliberate-planning-and-instrumental-subgoals]]
+{--{"author":"Elias's AI","timestamp":1787510174945}@@::video[[../video_transcripts/google-deepmind-safety-research-part-1-2-risks-from-deliberate-planning-and-instrumental-subgoals]]
 
-*Video 7.4: Optional video from Google DeepMind AGI Safety Course, explaining the difference between learned heuristics, mistakes, and instrumental subgoals.*
+--}*Video 7.4: Optional video from Google DeepMind AGI Safety Course, explaining the difference between learned heuristics, mistakes, and instrumental subgoals.*
 
 Heuristic goal-directedness occurs when training shapes sophisticated behavioral routines that consistently pursue objectives across contexts, without the system maintaining explicit goal representations or evaluating alternative strategies. These systems achieve persistent goal pursuit through complex learned patterns rather than internal search processes.
 
