@@ -31,7 +31,9 @@ Training an AI with human feedback, like thumbs-up or thumbs-down, can help shap
 
 This section discusses yet more attempts to address the reward misspecification problem. At times, the intended behavior is so intricate that demonstration-based learning becomes untenable. An alternative approach is to offer feedback to the agent instead of providing either manually specified reward functions or even expert demonstrations. This section delves into feedback-based strategies such as Reward Modeling, Reinforcement Learning from Human Feedback (RLHF) and Reinforcement Learning from AI Feedback (RLAIF), also known as Reinforcement Learning from Constitutional AI (RLCAI) or simply Constitutional AI.
 
-## Reward Modeling
+## Reward Modeling{++{"author":"Luc's AI","timestamp":1787521312738}@@
+
+::video[[../video_transcripts/robert-miles-ai-safety-training-ai-without-writing-a-reward-function-with-reward-modelling]]++}
 
 *Video 6.3: Optional video explaining reward modeling.*
 
@@ -58,7 +60,9 @@ There are also some variants of reward modeling such as:
 
 The general reward modeling framework forms the basis for other feedback based techniques such as RLHF (Reinforcement Learning from Human Feedback) which is discussed in the next section.
 
-## Reinforcement Learning from Human Feedback (RLHF)
+## Reinforcement Learning from Human Feedback (RLHF){++{"author":"Luc's AI","timestamp":1787521315510}@@
+
+::video[[../video_transcripts/rational-animations-the-true-story-of-how-gpt-2-became-maximally-lewd]]++}
 
 *Video 6.4: Optional video explaining RLHF and a specification gaming failure.*
 

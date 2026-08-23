@@ -36,7 +36,9 @@ Machine learning can result in models learning correlated proxy objectives inste
 
 *Figure 7.2: The agent is trained to go to the coin, but ends up learning to just go to the right ([Cobbe et al., 2019](https://arxiv.org/abs/1812.02341)).*
 
-**Definition: Goals (Behavioral)** — Goals are behavioral patterns that persist across different contexts, revealing what the system is actually optimizing for in practice. Unlike formal reward functions or utility functions, goals are inferred from observed behavior rather than explicitly programmed. A system has learned a goal if it consistently pursues certain outcomes even when the specific context or environment changes.
+**Definition: Goals (Behavioral)** — Goals are behavioral patterns that persist across different contexts, revealing what the system is actually optimizing for in practice. Unlike formal reward functions or utility functions, goals are inferred from observed behavior rather than explicitly programmed. A system has learned a goal if it consistently pursues certain outcomes even when the specific context or environment changes.{++{"author":"Luc's AI","timestamp":1787521312135}@@
+
+::video[[../video_transcripts/rational-animations-goal-misgeneralization-how-a-tiny-change-could-end-everything]]++}
 
 *Video 7.1: Optional video explaining goal misgeneralization.*
 
