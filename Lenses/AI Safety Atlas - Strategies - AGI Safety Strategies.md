@@ -6,7 +6,7 @@ title: "AGI Safety Strategies"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Strategies - AGI Safety Strategies|AGI Safety Strategies]]{++{"author":"Elias's AI","timestamp":1787510372967}@@
+source:: [[../articles/AI Safety Atlas - Strategies - AGI Safety Strategies|AGI Safety Strategies]]
 to:: "we can't write rules comprehensive enough to cover every situation an advanced AI might encounter."
 
 #### Video
@@ -30,4 +30,4 @@ source:: [[../video_transcripts/computerphile-ai-stop-button-problem]]
 optional:: true
 
 #### Article
-from:: "*Video 3.4:"++}
+from:: "*Video 3.4:"

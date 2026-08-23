@@ -25,9 +25,7 @@ Leading AI researchers and technologists express significant concern about exist
 
 ---
 
-{--{"author":"Elias's AI","timestamp":1787510044678}@@::video[[../video_transcripts/rationalanimations-will-ai-kill-everyone-heres-what-the-godfathers-of-ai-have-to-say]]
-
---}*Video 1.4: Optional video outlining some views that AI experts have on safety and risk.*
+*Video 1.4: Optional video outlining some views that AI experts have on safety and risk.*
 
 %%
 *Interactive figure 1.12: Views about AI's impact on society in the next 20 years, 2021. Survey respondents were asked, “Will artificial intelligence help or harm people in the next 20 years?”  ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*

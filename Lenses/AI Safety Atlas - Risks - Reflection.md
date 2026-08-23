@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787515437893}@@---
+---
 id: '398a9d90-de5f-40e0-a161-2e353cbb0d0d'
 title: "Reflection - Risks"
 tldr: "Close the chapter by writing down what stuck, without looking, and then what it did to you. Nothing here is graded. The point is to find out what you actually retained while you can still do something about it."
@@ -69,4 +69,3 @@ The student has just closed this chapter with a recall pass and a reaction pass.
 Build on what they actually wrote, and quote them. Useful directions: which part of the chapter they expect to still matter in five years and which part they expect to date; what would have to happen for them to change their mind about the thing they were most confident about; whether anything they read changes what they would actually do differently.
 
 This is an open conversation, not an assessment. Do not grade, score, or summarise their performance. Do not re-teach the chapter. If they ask for your view, give it briefly and flag it as one view.
-++}
