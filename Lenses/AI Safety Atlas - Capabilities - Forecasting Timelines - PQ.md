@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787515256796}@@---
+{++{"author":"Elias's AI","timestamp":1787515558314}@@---
 id: '61420b53-459a-4f0e-9681-69c487441e34'
 title: "Pre-Reading Question - Forecasting Timelines"
 tldr: "Before anyone shows you a trend line, name the year. Writing a number down now is the only way to find out later whether the evidence moved you or you just absorbed a mood."
@@ -18,7 +18,6 @@ Do not look anything up, and do not hedge into a range. A rough answer written n
 #### Question: FillBlank
 id:: 86e21ef3-b176-46b6-bb8a-a027a1a43615
 content:: AI systems will be able to do essentially all remote cognitive work that a competent professional does today by {{number}}, and the single thing most likely to make that guess wrong is {{blank}}.
-max-time:: 3:00
 feedback-instructions::
 The learner is about to read the Atlas section on forecasting timelines. They have just committed to a year, and to the thing they think would most move it.
 
