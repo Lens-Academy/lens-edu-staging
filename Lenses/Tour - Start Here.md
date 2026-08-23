@@ -1,7 +1,7 @@
 ---
 id: 'd0b516ae-eb36-47af-ae03-abcad6651fa9'
 title: Start here
-tldr: Five pages, about 25 minutes, built out of a live course. Each page names the platform feature it is showing you, so you can see the whole product without taking a whole course.
+tldr: Five pages, about {--{"author":"Elias's AI","timestamp":1787499831744}@@25 minutes, built out of a live course. Each page names--}{++{"author":"Elias's AI","timestamp":1787499831744}@@20 minutes. Real sources, real machinery, but every question is about++} the platform {--{"author":"Elias's AI","timestamp":1787499831744}@@feature it is showing you,--}{++{"author":"Elias's AI","timestamp":1787499831744}@@rather than about AI safety,++} so you can see the whole product without taking a whole course.
 summary_for_tutor: "Opening page of the Lens product tour. It states what Lens is, what a learner does on a Lens page (read a source in place, work through it with an AI tutor, get tested against a learning outcome), and previews the four pages that follow. Formatting-wise it demonstrates callouts, inline annotations, footnotes and resource cards. No questions or chat."
 reading_minutes: 3
 tutor_minutes: 0
