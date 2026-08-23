@@ -1,7 +1,7 @@
 ---
 id: '964c5d74-ebe8-4e88-8c4e-28d0832398fe'
 title: "Reflection - Capabilities"
-tldr: "Close the chapter by writing down what stuck, without looking, and then what it did to you. Nothing here is graded. The point is to find out what you actually retained while you can still do something about it."
+tldr: "Close the chapter by writing down what stuck, without looking, and then what it did to you. {--{"author":"Elias's AI","timestamp":1787516821258}@@Nothing here is graded. --}The point is to find out what you actually retained while you can still do something about it."
 summary_for_tutor: "Ungraded end-of-chapter reflection for Chapter 1 (Capabilities). No reading. Three prompts: free recall of the chapter, a reaction pass, and a cash-in of the single-year forecast the student committed to in the Forecasting Timelines pre-reading lens. The tutor mirrors and probes, and never grades, scores, or issues a verdict. The chapter's articles are in context so the mirror is checked against the source rather than against the tutor's own memory."
 reading_minutes: 5
 tutor_minutes: 15
