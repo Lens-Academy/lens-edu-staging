@@ -35,7 +35,10 @@ source:: [[../Lenses/AI Safety Atlas - Capabilities - Forecasting ++}Timelines]]
 source:: [[../Lenses/AI Safety Atlas - Capabilities - Takeoff]]
 
 # Lens:
-optional:: true
+{++{"author":"Elias's AI","timestamp":1787500955763}@@source:: [[../Lenses/AI Safety Atlas - Capabilities - Exercises]]
+
+# Lens:
+++}optional:: true
 source:: [[../Lenses/AI Safety Atlas - Capabilities - Appendix Forecasting]]
 
 # Lens:
