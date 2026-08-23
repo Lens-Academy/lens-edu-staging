@@ -1,7 +1,7 @@
 ---
 id: '484e3854-0a56-44e7-af1f-a62bdc551b23'
 title: "Reflection - Governance"
-tldr: "Close the chapter by writing down what stuck, without looking, and then what it did to you. Nothing here is graded. The point is to find out what you actually retained while you can still do something about it."
+tldr: "Close the chapter by writing down what stuck, without looking, and then what it did to you. {--{"author":"Elias's AI","timestamp":1787516833212}@@Nothing here is graded. --}The point is to find out what you actually retained while you can still do something about it."
 summary_for_tutor: "Ungraded end-of-chapter reflection for Chapter 4 (Governance). No reading. Two prompts: free recall of the chapter, then a reaction pass. The tutor mirrors and probes, and never grades, scores, or issues a verdict. The chapter's articles are in context so the mirror is checked against the source rather than against the tutor's own memory."
 reading_minutes: 5
 tutor_minutes: 15
@@ -18,7 +18,7 @@ add_to_ai_context:
 
 #### Text
 content::
-Two short prompts to close the chapter. Neither is graded and there is no right answer. The AI will respond to what you write, but it will not score you.
+Two {--{"author":"Elias's AI","timestamp":1787516835006}@@short --}prompts to close the chapter.{--{"author":"Elias's AI","timestamp":1787516835006}@@ Neither is graded and there is no--}{++{"author":"Elias's AI","timestamp":1787516835006}@@ No++} right{--{"author":"Elias's AI","timestamp":1787516835006}@@ answer. The AI will respond to what you write, but it will not score you.--}{++{"author":"Elias's AI","timestamp":1787516835006}@@ answers.++}
 
 #### Question: Open
 id:: 2578e029-825c-4516-b408-e33232fd329f
