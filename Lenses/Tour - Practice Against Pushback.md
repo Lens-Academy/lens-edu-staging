@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787492938992}@@---
+{++{"author":"Elias's AI","timestamp":1787493144375}@@---
 id: 'fe2beb43-0b79-4c8b-b979-e9f9a802b61d'
 title: Practice against pushback
 tldr: Reciting an argument and holding it under pressure are different skills, and only one of them survives contact with a skeptical colleague. Here you talk, out loud if you want, to someone who is not persuaded.
@@ -16,7 +16,7 @@ This is the part of the platform that has no analogue in a reading list. Everyth
 :::
 
 #### Roleplay
-id:: '871ac1d9-69d9-4021-a013-9b2b450df736'
+id:: 871ac1d9-69d9-4021-a013-9b2b450df736
 content::
 You are at dinner with Jordan, a senior software engineer you respect. Jordan has been shipping production ML systems for eight years, has read enough to be unimpressed, and thinks the extinction talk is a mixture of marketing and science fiction.
 
