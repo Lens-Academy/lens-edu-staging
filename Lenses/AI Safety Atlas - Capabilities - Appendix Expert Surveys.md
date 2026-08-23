@@ -8,4 +8,12 @@ tutor_minutes: 0
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Appendix Expert Surveys|Appendix: Expert Surveys]]
+source:: [[../articles/AI Safety Atlas - Capabilities - Appendix Expert Surveys|Appendix: Expert Surveys]]{++{"author":"Elias's AI","timestamp":1787510091411}@@
+to:: "Leading AI researchers and technologists express significant concern about existential risks and short timelines, highlighting a growing consensus on the urgency of safety work despite uncertainty about specific outcomes."
+
+#### Video
+source:: [[../video_transcripts/rationalanimations-will-ai-kill-everyone-heres-what-the-godfathers-of-ai-have-to-say]]
+optional:: true
+
+#### Article
+from:: "*Video 1.4: Optional video outlining some views that AI experts have on safety and risk.*"++}
