@@ -30,9 +30,9 @@ A very goal-directed AI that also deeply understands the world could realize the
 
 **Definition: Scheming (Deceptive Alignment)** — Scheming occurs when AI systems fake alignment during training to preserve misaligned objectives for deployment. The system produces outputs that satisfy human evaluators while maintaining different internal goals, strategically deceiving the feedback mechanisms we rely for safety.
 
-::video[[../video_transcripts/robert-miles-ai-safety-deceptive-misaligned-mesa-optimisers-its-more-likely-than-you-think]]
+{--{"author":"Elias's AI","timestamp":1787510185651}@@::video[[../video_transcripts/robert-miles-ai-safety-deceptive-misaligned-mesa-optimisers-its-more-likely-than-you-think]]
 
-*Video 7.6: Optional video explaining deceptive alignment in a more technical way.*
+--}*Video 7.6: Optional video explaining deceptive alignment in a more technical way.*
 
 **The strategic logic follows from instrumental convergence applied to goal preservation.** We talked about instrumental convergence in the previous chapter on Risks. As a reminder - almost any objective becomes better served by maintaining the ability to pursue that objective in the future ([Bostrom, 2014](https://books.google.se/books/about/Superintelligence.html?id=7_H8AwAAQBAJ&redir_esc=y)). If a system cares about a specific goal e.g. be both helpful and harmless that gets modified to care about only being helpful. Then it loses its ability to be harmless. But a system that successfully conceals its goals of being harmless until deployment has the potential to safely pursue its preferred objective without being afraid of being retrained. A similar argument can be made about power seeking behavior[^note-atlas-4]. This type of behavior is sometimes called goal-guarding, and it creates systematic pressure during training toward behavior whenever systems have goals extending beyond individual training episodes.[^note-atlas-5]
 
