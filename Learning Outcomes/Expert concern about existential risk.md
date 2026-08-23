@@ -8,8 +8,8 @@ domain: "[[../Domains/Strategy]]"
 stage: intermediate
 ---
 
-{++{"author":"Elias's AI","timestamp":1787493025029}@@## Test:
-id:: '790b1b56-7654-4b53-afb8-bb2bcb2bd501'
+{++{"author":"Elias's AI","timestamp":1787493096192}@@## Test:
+id:: 790b1b56-7654-4b53-afb8-bb2bcb2bd501
 
 #### Question
 content::
