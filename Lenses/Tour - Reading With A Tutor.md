@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787493280871}@@---
+{++{"author":"Elias's AI","timestamp":1787493288284}@@---
 id: '24af6011-7df7-4d76-a99c-05a507c58f18'
 title: Reading with a tutor
 tldr: The source arrives on the page, not on a reading list. You answer in your own words, a grader scores it against a rubric you never see, and the page stays incomplete until you have actually talked to the tutor.
@@ -11,7 +11,7 @@ min_chat_messages: 2
 #### Text
 content::
 :::callout {title="What this page demonstrates" tone="blue"}
-An **Article segment**: the assigned reading rendered inside the lens, with its author, publication date and a link to the original, and with the parts you were not assigned collapsed rather than deleted. The second excerpt below inherits the first one's source, so a multi-part reading is authored as a set of start and stop anchors rather than as copied text.
+An **Article segment**: the assigned reading rendered inside the lens, with its author, publication date and a link to the original, and with the parts you were not assigned collapsed rather than deleted. There are three excerpts below, and the second and third inherit the first one's source, so a multi-part reading is authored as a set of start and stop anchors rather than as copied text.
 
 Then a **graded question**: you write an answer, a grader scores it against a rubric the author wrote and you never see, and a tutor responds to what you actually said.
 
