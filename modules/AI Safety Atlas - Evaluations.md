@@ -35,4 +35,7 @@ source:: [[../Lenses/AI Safety Atlas - Evaluations - Evaluation Design]]
 source:: [[../Lenses/AI Safety Atlas - Evaluations - Limitations]]
 
 # Lens:
-source:: [[../Lenses/AI Safety Atlas - Evaluations - Conclusion]]
+source:: [[../Lenses/AI Safety Atlas - Evaluations - Conclusion]]{++{"author":"Elias's AI","timestamp":1787514169807}@@
+
+# Lens:
+source:: [[../Lenses/AI Safety Atlas - Evaluations - Reflection]]++}
