@@ -5,21 +5,8 @@ domain: "[[../Domains/Strategy]]"
 stage: intermediate
 tags:
   - {--{"author":"Elias's AI","timestamp":1787513517477}@@skill-tree-placeholder--}{++{"author":"Elias's AI","timestamp":1787513517477}@@skill-tree-placeholder++}
----{++{"author":"Elias's AI","timestamp":1787513517477}@@
-%%REMOVE-BELOW%%++}{++{"author":"Elias's AI","timestamp":1787500741463}@@
-
-## Test:
-id:: 664aaa83-f121-404b-ab22-038180866302
-
-#### Question
-content::
-Effective compute is the product of three factors: algorithmic efficiency, hardware efficiency (performance per chip), and the number of AI chips in service. Recent annual growth rates for them are roughly 3x, 1.35x and 2.3x respectively.
-
-Suppose that from 2029 an international agreement caps the worldwide installed base of AI chips, holding the chip count flat. Assume operators may still retire chips and replace them one for one with current-generation hardware, so performance per chip keeps improving at trend. The other two factors carry on at their current rates.
-
-(a) Does effective compute stop growing? Give the aggregate annual growth rate before and after the cap, and show the calculation.
-(b) Name the assumption in that calculation you think is doing the most work, and say which way the answer moves if it is wrong.
-(c) A commentator says the cap buys us years before takeoff. What has it changed, and what has it left open?
+---{++{"author":"Elias's AI","timestamp":1787513590081}@@
+%%REMOVE-BELOW-B%%
 
 assessment-instructions::
 Single pass/fail. Pass requires checks 1 and 4, plus at least one of checks 2 and 3. Each check is yes or no. Silence on a check fails that check.
