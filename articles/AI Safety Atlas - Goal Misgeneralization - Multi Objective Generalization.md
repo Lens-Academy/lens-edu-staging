@@ -38,9 +38,9 @@ Machine learning can result in models learning correlated proxy objectives inste
 
 **Definition: Goals (Behavioral)** — Goals are behavioral patterns that persist across different contexts, revealing what the system is actually optimizing for in practice. Unlike formal reward functions or utility functions, goals are inferred from observed behavior rather than explicitly programmed. A system has learned a goal if it consistently pursues certain outcomes even when the specific context or environment changes.
 
-::video[[../video_transcripts/rational-animations-goal-misgeneralization-how-a-tiny-change-could-end-everything]]
+{--{"author":"Elias's AI","timestamp":1787510181884}@@::video[[../video_transcripts/rational-animations-goal-misgeneralization-how-a-tiny-change-could-end-everything]]
 
-*Video 7.1: Optional video explaining goal misgeneralization.*
+--}*Video 7.1: Optional video explaining goal misgeneralization.*
 
 ## Goals ≠ Rewards
 
@@ -48,9 +48,9 @@ Machine learning can result in models learning correlated proxy objectives inste
 
 **This explains why goal misgeneralization differs qualitatively from specification problems.** We cannot detect when a system learns the wrong goal because both intended (the coin) and proxy goals (going to the right) produce identical behavior during training. The core safety concern is behavioral indistinguishability: improving reward specifications won't prevent problematic patterns if the learning process selects among multiple explanations for success. Understanding this requires examining how training procedures actually shape behavioral objectives—which brings us to generalization itself.
 
-::video[[../video_transcripts/google-deepmind-safety-research-part-1-4-where-can-misaligned-goals-come-from]]
+{--{"author":"Elias's AI","timestamp":1787510183735}@@::video[[../video_transcripts/google-deepmind-safety-research-part-1-4-where-can-misaligned-goals-come-from]]
 
-*Video 7.2: Optional video from Google DeepMind AGI Safety Course, talking about where misaligned goals might even come from.*
+--}*Video 7.2: Optional video from Google DeepMind AGI Safety Course, talking about where misaligned goals might even come from.*
 
 **Traditional **machine learning** assumes generalization is a one-dimensional characteristic.** We often think of overfitting in the context of narrow systems built to perform specific tasks - models either generalize well to new data or they don't. Systems either generalize well to new data or they don't, with failures assumed to be uniform across all capabilities. But research in multi-task learning shows that different objectives can generalize independently, even when they appear perfectly correlated during training ([Sener & Koltun, 2019](https://arxiv.org/abs/1810.04650)).
 

@@ -121,9 +121,9 @@ Think about what this means - Instead of learning "when you see this input patte
 
 **Several specific factors systematically influence whether training discovers mesa-optimizers over pattern-matching alternatives.** Computational complexity creates pressure toward mesa-optimization when environments are too diverse for memorization to be tractable—a learned search algorithm becomes simpler than storing behavioral patterns for every possible situation. Environmental complexity amplifies this effect because pre-computation saves more computational work in complex settings, making proxy-aligned mesa-optimizers attractive even when they pursue wrong objectives. The algorithmic range of the model architecture also matters: larger ranges make mesa-optimization more likely but also make alignment harder because more sophisticated internal objectives become representable ([Hubinger et al., 2019](https://arxiv.org/abs/1906.01820)).
 
-::video[[../video_transcripts/google-deepmind-safety-research-part-1-3-exercise-1-instrumental-subgoals]]
+{--{"author":"Elias's AI","timestamp":1787510178156}@@::video[[../video_transcripts/google-deepmind-safety-research-part-1-3-exercise-1-instrumental-subgoals]]
 
-*Video 7.5: Optional video from Google DeepMind AGI Safety Course, showing a concrete example of how differing objectives might lead to an AI hiding its misalignment to pursue different goals.*
+--}*Video 7.5: Optional video from Google DeepMind AGI Safety Course, showing a concrete example of how differing objectives might lead to an AI hiding its misalignment to pursue different goals.*
 
 :::callout {title="Likelihood of different ML paradigms to result in learned optimization — Optional · 3 min read" tone="neutral" collapse="closed"}
 
