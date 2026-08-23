@@ -23,4 +23,7 @@ source:: [[../Lenses/AI Safety Atlas - Goal Misgeneralization - Scheming]]
 source:: [[../Lenses/AI Safety Atlas - Goal Misgeneralization - Detection]]
 
 # Lens:
-source:: [[../Lenses/AI Safety Atlas - Goal Misgeneralization - Mitigations]]
+source:: [[../Lenses/AI Safety Atlas - Goal Misgeneralization - Mitigations]]{++{"author":"Elias's AI","timestamp":1787514173989}@@
+
+# Lens:
+source:: [[../Lenses/AI Safety Atlas - Goal Misgeneralization - Reflection]]++}

@@ -23,4 +23,7 @@ source:: [[../Lenses/AI Safety Atlas - Scalable Oversight - Iterated Amplificati
 source:: [[../Lenses/AI Safety Atlas - Scalable Oversight - Debate]]
 
 # Lens:
-source:: [[../Lenses/AI Safety Atlas - Scalable Oversight - Weak-to-Strong (W2S)]]
+source:: [[../Lenses/AI Safety Atlas - Scalable Oversight - Weak-to-Strong (W2S)]]{++{"author":"Elias's AI","timestamp":1787514175825}@@
+
+# Lens:
+source:: [[../Lenses/AI Safety Atlas - Scalable Oversight - Reflection]]++}
