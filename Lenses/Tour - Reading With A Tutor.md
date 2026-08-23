@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787492841952}@@---
+{++{"author":"Elias's AI","timestamp":1787493268253}@@---
 id: '24af6011-7df7-4d76-a99c-05a507c58f18'
 title: Reading with a tutor
 tldr: The source arrives on the page, not on a reading list. You answer in your own words, a grader scores it against a rubric you never see, and the page stays incomplete until you have actually talked to the tutor.
@@ -21,15 +21,23 @@ Then a **gated chat**. This page will not let you mark it complete until you hav
 #### Article
 source:: [[../articles/wikipedia-existential-risk-from-ai]]
 from:: "**Existential risk from artificial intelligence**"
-to:: "irreversible [global catastrophe]"
+to:: "the actions of a future machine superintelligence."
 
 #### Text
 content::
-That is the claim. The interesting question is who believes it and on what basis, which the next excerpt takes up. Note that the material between the two excerpts is still there, collapsed, one click away: a learner who wants the full article is never blocked from it, and a learner who wants only the assigned part is never buried in it.
+That is the claim, and the gorilla comparison is the argument for it. The next question is who believes it and on what basis. Note that the material between the excerpts is still there, collapsed, one click away: a learner who wants the whole article is never blocked from it, and a learner who wants only the assigned part is never buried in it.
 
 #### Article
 from:: "Experts disagree on whether artificial general intelligence"
 to:: "increased focus on global [AI regulation]"
+
+#### Text
+content::
+One more excerpt, from further down the same article. The worry is considerably older than the technology that provoked it, which is worth knowing before deciding how much the recent wave of statements adds.
+
+#### Article
+from:: "One of the earliest authors to express serious concern"
+to:: "signed by numerous experts in AI safety and the AI existential risk which stated:"
 
 #### Question
 content::
