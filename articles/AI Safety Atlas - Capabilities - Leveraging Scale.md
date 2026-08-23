@@ -57,17 +57,17 @@ In the previous section, we looked at different notions of how to define AGI and
 
 **Scaling laws are empirically observed relationships, not laws of nature.** OpenAI first documented these relationships in 2020 by running hundreds of experiments, varying inputs while measuring accuracy ([Kaplan et al., 2020](https://arxiv.org/abs/2001.08361)). They found that when you increase compute by 10×, accuracy improves predictably. Double the parameters, accuracy jumps predictably. These patterns proved surprisingly consistent across model architectures and tasks, suggesting they capture something fundamental about how neural networks learn. Later research revealed optimal training requires roughly 20 tokens of data per parameter - about 10× more data than early laws suggested[^note-atlas-5] ([Hoffmann et al., 2022](https://arxiv.org/abs/2203.15556)). This meant previous large models were undertrained relative to their size. The relationships continue evolving as researchers gather more evidence, but the core insight remains: scale drives predictable capability gains. The following graphs clearly show massive increases in scale for data, compute, and parameter count by all major AI labs.
 
-{++{"author":"Luc's AI","timestamp":1787314688730}@@![Exponential growth of parameters in notable AI systems](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-1-4-4214b37e.png)
+![Exponential growth of parameters in notable AI systems](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-1-4-4214b37e.png)
 
-++}*Interactive figure 1.4: Exponential growth of parameters in notable AI systems. Parameters are variables in an AI system whose values are adjusted during training to establish how input data gets transformed into the desired output; for example, the connection weights in an artificial neural network ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
+*Interactive figure 1.4: Exponential growth of parameters in notable AI systems. Parameters are variables in an AI system whose values are adjusted during training to establish how input data gets transformed into the desired output; for example, the connection weights in an artificial neural network ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
 
-{++{"author":"Luc's AI","timestamp":1787314690978}@@![Exponential growth of datapoints used to train notable AI systems](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-1-5-f9315fc4.png)
+![Exponential growth of datapoints used to train notable AI systems](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-1-5-f9315fc4.png)
 
-++}*Interactive figure 1.5: Exponential growth of datapoints used to train notable AI systems. Each domain has a specific data point unit; for example, for vision it is images, for language it is words, and forgames it is timesteps. This means systems can only be compared directly within the same domain ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
+*Interactive figure 1.5: Exponential growth of datapoints used to train notable AI systems. Each domain has a specific data point unit; for example, for vision it is images, for language it is words, and forgames it is timesteps. This means systems can only be compared directly within the same domain ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
 
-{++{"author":"Luc's AI","timestamp":1787314692203}@@![Exponential growth of computation in the training of notable AI systems](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-1-6-75decd2e.png)
+![Exponential growth of computation in the training of notable AI systems](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-1-6-75decd2e.png)
 
-++}*Interactive figure 1.6: Exponential growth of computation in the training of notable AI systems. Computation is measured in total peta FLOP, which is 10e15 floating-point operations ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
+*Interactive figure 1.6: Exponential growth of computation in the training of notable AI systems. Computation is measured in total peta FLOP, which is 10e15 floating-point operations ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
 
 :::callout {title="The Broken Neural Scaling Laws (BNSL) update in 2023 — Optional · 1 min read" tone="neutral" collapse="closed"}
 
