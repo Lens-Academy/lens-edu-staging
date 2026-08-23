@@ -1,11 +1,12 @@
 ---
 id: '8aaaf25e-bbdd-4092-bef1-1e64dbc4ecf0'
-learning-outcome: {--{"author":"Elias's AI","timestamp":1787500741463}@@"Interpret evidence--}{++{"author":"Elias's AI","timestamp":1787500741463}@@"Decompose an effective-compute forecast into its chip-stock, hardware-efficiency and algorithmic-efficiency factors, predict how constraining one factor changes the aggregate growth rate, name the assumption that constraint leans on hardest, and distinguish a claim about when a capability arrives from a claim++} about {--{"author":"Elias's AI","timestamp":1787500741463}@@Forecasting, timelines, AGI, and transformative AI"--}{++{"author":"Elias's AI","timestamp":1787500741463}@@how fast capability grows once it does."++}
+learning-outcome: {--{"author":"Elias's AI","timestamp":1787513517477}@@"Interpret evidence about Forecasting, timelines, AGI, and transformative AI"--}{++{"author":"Elias's AI","timestamp":1787513517477}@@"Interpret evidence about Forecasting, timelines, AGI, and transformative AI"++}
 domain: "[[../Domains/Strategy]]"
 stage: intermediate
 tags:
-  - {--{"author":"Elias's AI","timestamp":1787500741463}@@skill-tree-placeholder--}{++{"author":"Elias's AI","timestamp":1787500741463}@@learning-outcome++}
----{++{"author":"Elias's AI","timestamp":1787500741463}@@
+  - {--{"author":"Elias's AI","timestamp":1787513517477}@@skill-tree-placeholder--}{++{"author":"Elias's AI","timestamp":1787513517477}@@skill-tree-placeholder++}
+---{++{"author":"Elias's AI","timestamp":1787513517477}@@
+%%REMOVE-BELOW%%++}{++{"author":"Elias's AI","timestamp":1787500741463}@@
 
 ## Test:
 id:: 664aaa83-f121-404b-ab22-038180866302
