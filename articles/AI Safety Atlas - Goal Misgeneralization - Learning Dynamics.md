@@ -38,7 +38,9 @@ The training process guides which algorithms and goals are discovered. The resul
 
 The reason we make this point again is to motivate the fact that understanding the search process—how training navigates the space of possible algorithms and which solutions it tends to discover. This is very useful for what types of AIs (parameter configurations = algorithms) we might actually end up discovering, and whether we can change something about our architectures or learning dynamics to influence this process.
 
-## Loss Landscapes
+## Loss Landscapes{++{"author":"Luc's AI","timestamp":1787521311896}@@
+
+::video[[../video_transcripts/welch-labs-the-misconception-that-almost-stopped-ai-how-models-learn-part-1]]++}
 
 *Video 7.3: Optional video explaining loss landscapes.*
 

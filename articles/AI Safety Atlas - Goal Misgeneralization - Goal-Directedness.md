@@ -36,7 +36,9 @@ Machine learning** systems can evolve beyond pattern matching to systematically 
 
 **Different types of goal-directedness create distinct risk profiles that require different safety strategies.** Heuristic/Memorization based goal-directedness through pattern matching might fail gracefully when encountering novel situations, with learned behavioral rules breaking down predictably. Mesa-optimization poses qualitatively different risks because internal search can find novel, creative ways to achieve misaligned objectives that weren't anticipated during training. Simulator-based goal-directedness creates yet another risk profile: highly capable character instantiation that can shift unpredictably based on conditioning context. Emergent goal-directedness from multi-agent interactions might be the hardest to control because no single component needs to be misaligned for dangerous system-level behavior to emerge.
 
-## Heuristics
+## Heuristics{++{"author":"Luc's AI","timestamp":1787521311664}@@
+
+::video[[../video_transcripts/google-deepmind-safety-research-part-1-2-risks-from-deliberate-planning-and-instrumental-subgoals]]++}
 
 *Video 7.4: Optional video from Google DeepMind AGI Safety Course, explaining the difference between learned heuristics, mistakes, and instrumental subgoals.*
 
