@@ -46,7 +46,7 @@ The scope chosen here reflects a common focus within certain parts of the AI saf
 
 :::
 
-<iframe src="https://www.youtube-nocookie.com/embed/RGh8wP9PjJw" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{--{"author":"Luc's AI","timestamp":1787509187109}@@<iframe src="https://www.youtube-nocookie.com/embed/RGh8wP9PjJw" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--}{++{"author":"Luc's AI","timestamp":1787509187109}@@::video[[../video_transcripts/google-deepmind-safety-research-part-2-1-alignment-approach]]++}
 
 *Video 3.1: Optional video from Google DeepMind AGI Safety Course. It gives a quick overview of their alignment approach and how we might categorize different strategies into conceptual buckets. *
 
