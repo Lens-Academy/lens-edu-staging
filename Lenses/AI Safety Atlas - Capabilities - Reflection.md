@@ -1,12 +1,15 @@
-{++{"author":"Elias's AI","timestamp":1787500808865}@@---
+{++{"author":"Elias's AI","timestamp":1787513844354}@@---
 id: '964c5d74-ebe8-4e88-8c4e-28d0832398fe'
-title: "Exercises - Capabilities"
-tldr: "Three exercises that make you spend the chapter rather than recall it: cash in the forecast you committed to before reading, place three real systems on the two axes, and repair a policy argument that is wrong in an interesting way."
-summary_for_tutor: "Exercise page at the end of Chapter 1, no reading. Three questions: (1) cashes in the single-year forecast the student committed to in the Forecasting Timelines PQ, asking them to build an interval and name a specific chapter mechanism behind it; (2) practises the capability-and-generality framework on three systems, targeting the slide from academic subjects to CHC domains; (3) a wedge separating timelines from takeoff speed, framed as repairing an argument rather than counting errors. Closes with an open chat."
-reading_minutes: 25
-tutor_minutes: 25
-min_chat_messages: 3
+title: "Reflection - Capabilities"
+tldr: "Close the chapter by writing down what stuck, without looking, and then what it did to you. Nothing here is graded. The point is to find out what you actually retained while you can still do something about it."
+summary_for_tutor: "Ungraded end-of-chapter reflection for Chapter 1 (Capabilities). No reading. Three prompts: free recall of the chapter, a reaction pass, and a cash-in of the single-year forecast the student committed to in the Forecasting Timelines pre-reading lens. The tutor mirrors and probes, and never grades, scores, or issues a verdict. The chapter's articles are in context so the mirror is checked against the source rather than against the tutor's own memory."
+reading_minutes: 5
+tutor_minutes: 15
+min_chat_messages: 2
 add_to_ai_context:
+  - "[[../articles/AI Safety Atlas - Capabilities - Introduction]]"
+  - "[[../articles/AI Safety Atlas - Capabilities - Current Capabilities]]"
+  - "[[../articles/AI Safety Atlas - Capabilities - Foundation Models]]"
   - "[[../articles/AI Safety Atlas - Capabilities - Defining and Measuring AGI]]"
   - "[[../articles/AI Safety Atlas - Capabilities - Leveraging Scale]]"
   - "[[../articles/AI Safety Atlas - Capabilities - Forecasting Timelines]]"
