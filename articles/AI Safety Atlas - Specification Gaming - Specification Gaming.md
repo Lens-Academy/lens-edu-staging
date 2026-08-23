@@ -25,9 +25,9 @@ We can never write down perfectly what we want an AI to do, smart AIs often find
 
 ---
 
-**Definition: Reward misspecification** — Reward misspecification, also termed the Outer alignment problem, refers to the issue of providing an AI with the accurate reward to optimize for.{++{"author":"Luc's AI","timestamp":1787521313477}@@
+**Definition: Reward misspecification** — Reward misspecification, also termed the Outer alignment problem, refers to the issue of providing an AI with the accurate reward to optimize for.
 
-::video[[../video_transcripts/robertmiles-9-examples-of-specification-gaming]]++}
+::video[[../video_transcripts/robertmiles-9-examples-of-specification-gaming]]
 
 *Video 6.2: Optional video with many examples of specification gaming.*
 

@@ -6,20 +6,4 @@ summary_for_tutor: "Examines goal-directedness in the Goal Misgeneralization cha
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Goal-Directedness|Goal-Directedness]]{--{"author":"Luc's AI","timestamp":1787521322419}@@
-to:: "## Heuristics"
-
-#### Video
-source:: [[../video_transcripts/google-deepmind-safety-research-part-1-2-risks-from-deliberate-planning-and-instrumental-subgoals]]
-optional:: true
-
-#### Article
-from:: "*Video 7.4:"
-to:: "more sophisticated internal objectives become representable"
-
-#### Video
-source:: [[../video_transcripts/google-deepmind-safety-research-part-1-3-exercise-1-instrumental-subgoals]]
-optional:: true
-
-#### Article
-from:: "*Video 7.5:"--}
+source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Goal-Directedness|Goal-Directedness]]

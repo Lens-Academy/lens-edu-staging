@@ -21,9 +21,9 @@ Add discussion note here:
 
 %%
 
-Leading AI researchers and technologists express significant concern about existential risks and short timelines, highlighting a growing consensus on the urgency of safety work despite uncertainty about specific outcomes.{++{"author":"Luc's AI","timestamp":1787521310628}@@
+Leading AI researchers and technologists express significant concern about existential risks and short timelines, highlighting a growing consensus on the urgency of safety work despite uncertainty about specific outcomes.
 
-::video[[../video_transcripts/rationalanimations-will-ai-kill-everyone-heres-what-the-godfathers-of-ai-have-to-say]]++}
+::video[[../video_transcripts/rationalanimations-will-ai-kill-everyone-heres-what-the-godfathers-of-ai-have-to-say]]
 
 ---
 
