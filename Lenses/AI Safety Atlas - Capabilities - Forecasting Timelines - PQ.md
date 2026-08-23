@@ -15,16 +15,20 @@ Before you read anything about forecasts, commit to a number.
 
 Do not look anything up, and do not hedge into a range. A rough answer written now is worth more than a researched one, and the reflection at the end of the chapter will come back to it.
 
-#### Question: Open
+#### Question: {--{"author":"Elias's AI","timestamp":1787516686526}@@Open--}{++{"author":"Elias's AI","timestamp":1787516686526}@@FillBlank++}
 id:: 86e21ef3-b176-46b6-bb8a-a027a1a43615
-content::
-By what year will AI systems be able to do essentially all remote cognitive work that a competent professional does today? Give one year, not a range.
+content::{--{"author":"Elias's AI","timestamp":1787516686526}@@
+By what year will--} AI systems {++{"author":"Elias's AI","timestamp":1787516686526}@@will ++}be able to do essentially all remote cognitive work that a competent professional does {--{"author":"Elias's AI","timestamp":1787516686526}@@today? Give one year, not a range.
 
-Then: what is the single thing about the world that, if you learned it tomorrow, would move that year the most? Say as much or as little about that as you want.
+Then: what--}{++{"author":"Elias's AI","timestamp":1787516686526}@@today by {{number}}.
+
+#### Question: Open
+id:: aca8a059-a9de-43c7-be94-ac2d10466803
+content:: What++} is the single thing about the world that, if you learned it tomorrow, would move that year the most?{--{"author":"Elias's AI","timestamp":1787516686526}@@ Say as much or as little about that as you want.--}
 max-time:: 3:00
 feedback-instructions::
-The learner is about to read the Atlas section on forecasting timelines. They have just committed to a year, and to the thing they think would most move it.
+The learner is about to read the Atlas section on forecasting timelines. They have just committed to a {--{"author":"Elias's AI","timestamp":1787516686526}@@year, --}{++{"author":"Elias's AI","timestamp":1787516686526}@@year in the previous segment, ++}and {--{"author":"Elias's AI","timestamp":1787516686526}@@to--}{++{"author":"Elias's AI","timestamp":1787516686526}@@have now named++} the thing they think would most move it.
 
 One short reply, two or three sentences. Acknowledge the commitment and send them to the reading. Close with something like: "Hold that number. The reflection at the end of the chapter will come back to it."
 
-Do not preview any trend, model, number, or argument from the section. Do not say whether the year is early, late, reasonable, or common. Do not offer base rates, expert survey results, or your own view. Do not ask what reasoning produced the number, because that comes later. Do not evaluate the answer.
+Do not preview any trend, model, number, or argument from the section. Do not say whether the year is early, late, reasonable, or common. Do not offer base rates, expert survey results, or your own view. Do not ask what reasoning produced the number, because that comes later. Do not evaluate {--{"author":"Elias's AI","timestamp":1787516686526}@@the--}{++{"author":"Elias's AI","timestamp":1787516686526}@@either++} answer.
