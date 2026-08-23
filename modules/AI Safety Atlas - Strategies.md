@@ -32,5 +32,8 @@ source:: [[../Lenses/AI Safety Atlas - Strategies - Challenges]]
 source:: [[../Lenses/AI Safety Atlas - Strategies - Conclusion]]
 
 # Lens:
-optional:: true
+{++{"author":"Elias's AI","timestamp":1787514165722}@@source:: [[../Lenses/AI Safety Atlas - Strategies - Reflection]]
+
+# Lens:
+++}optional:: true
 source:: [[../Lenses/AI Safety Atlas - Strategies - Appendix Long-term Questions]]
