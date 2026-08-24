@@ -1,10 +1,12 @@
-{++{"author":"AI","timestamp":1787136945352}@@---
+{++{"author":"Luc's AI","timestamp":1787591666166}@@---
 eval-id: C1
 target: rubric
 tags:
   - validator-ignore
 ---
 # C1 — Binary rubric
+
+> **Retired in suite v2 (2026-08-24).** We no longer require rubrics to be binary pass/fail — graded scales are an accepted rubric form. Kept for reference only; not part of the active suite.
 
 **Binary question:** Is the rubric's scoring decision pass/fail, built from criteria that are each individually binary, with a stated pass rule?
 
