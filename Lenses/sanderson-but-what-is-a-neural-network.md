@@ -8,4 +8,4 @@ source:: [[../articles/sanderson-but-what-is-a-neural-network]]{++{"author":"Ple
 
 #### Text
 content::
-This is the first lesson in 3Blue1Brown's neural networks series. If you want to go deeper, the next lesson on gradient descent and how networks learn continues it: https://www.3blue1brown.com/lessons/gradient-descent++
+This is the first lesson in 3Blue1Brown's neural networks series. If you want to go deeper, the next lesson on gradient descent and how networks learn continues it: https://www.3blue1brown.com/lessons/gradient-descent
