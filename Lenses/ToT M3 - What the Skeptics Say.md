@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1787569417399}@@---
+---
 id: '63f3753b-5b7e-4614-8433-b4910317e9d1'
 title: "What the Skeptics Say"
 duration_minutes: 10
@@ -43,4 +43,4 @@ The skeptic is right that the evidence is thinner than the headlines, that self-
 
 But the skeptic's case has a hole. The new thing about generative AI is not that it takes over a narrow step. It performs the whole epistemic labour: it explains, synthesises, evaluates, and recommends. The risky mode is not "using a tool". It is treating an AI as an authority and skipping the review. That is exactly the pattern the strongest real-world evidence (the endoscopist study, the law-student study) and the survey work (Microsoft, 2025) point at: skills erode when the judgement is handed over, not when the task is shared. The novice-programmer study adds direct observation to that side of the ledger.
 
-So the fair conclusion is the same as the evidence lens reached: concern about specific patterns of use, not panic about AI in general.++}
+So the fair conclusion is the same as the evidence lens reached: concern about specific patterns of use, not panic about AI in general.
