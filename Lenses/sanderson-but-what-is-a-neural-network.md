@@ -4,7 +4,7 @@ title: "But what is a Neural Network?"
 ---
 
 #### Article
-source:: [[../articles/sanderson-but-what-is-a-neural-network]]{
+source:: [[../articles/sanderson-but-what-is-a-neural-network]]
 
 #### Text
 content::
