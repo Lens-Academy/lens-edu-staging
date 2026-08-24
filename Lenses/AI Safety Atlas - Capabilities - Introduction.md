@@ -14,21 +14,18 @@ source:: [[../articles/AI Safety Atlas - Capabilities - Introduction|Introductio
 id:: 6a462f83-9825-48ac-88dc-83caa5f17d89
 optional:: true
 content::
-The {--{"author":"Elias's AI","timestamp":1787569293456}@@chapter will end up describing systems with sentences like "expert level across 30 percent--}{++{"author":"Elias's AI","timestamp":1787569293456}@@section says the benchmark numbers in this chapter will be out++} of {--{"author":"Elias's AI","timestamp":1787569293456}@@cognitive domains." Is--}{++{"author":"Elias's AI","timestamp":1787569293456}@@date soon, but++} that the {--{"author":"Elias's AI","timestamp":1787569293456}@@right shape of claim to make about intelligence? Take a position with the tutor now, before the chapter argues--}{++{"author":"Elias's AI","timestamp":1787569293456}@@underlying patterns will hold: scaling laws, emergent capabilities, and the shift from narrow to general systems.
+The section says the benchmark numbers in this chapter will be out of date soon, but that the underlying patterns will hold: scaling laws, emergent capabilities, and the shift from narrow to general systems.
 
-Do++} you {--{"author":"Elias's AI","timestamp":1787569293456}@@into one.--}{++{"author":"Elias's AI","timestamp":1787569293456}@@buy that split, and why?++}
+Do you buy that split, and why?
 feedback-instructions::
-The learner has just read the opening of {--{"author":"Elias's AI","timestamp":1787569293456}@@what the user just --}{++{"author":"Elias's AI","timestamp":1787569293456}@@the AI Safety Atlas capabilities chapter and written a reflection. This is a reflection, not a test. There is no answer you are checking against, and you should not tell them whether they got it right. They have read six minutes of framing and nothing else, so a short answer is expected.
+The learner has just read the opening of the AI Safety Atlas capabilities chapter and written a reflection. This is a reflection, not a test. There is no answer you are checking against, and you should not tell them whether they got it right. They have read six minutes of framing and nothing else, so a short answer is expected.
 
-TLDR of what they ++}read:
+TLDR of what they read:
 The opening of the Capabilities chapter. It frames three questions the chapter will answer: what counts as "general" intelligence, treated as capability and generality on continuous axes rather than a binary; why recent progress has been so fast, pointing ahead to the bitter lesson and scaling laws; and where the trends lead, via forecasting and takeoff scenarios, which determines which safety strategies are even viable. It argues that specific benchmark numbers will date quickly while the underlying patterns, such as scaling, emergence, and the shift from narrow to general systems, are stable enough to be worth studying.
 
-{--{"author":"Elias's AI","timestamp":1787569303880}@@topics to explore:
-- Is a percentile-across-domains sentence the right shape for--}{++{"author":"Elias's AI","timestamp":1787569303880}@@Take what they wrote seriously and push on it once. Useful directions: whether++} a {--{"author":"Elias's AI","timestamp":1787569303880}@@claim about intelligence? What does it capture, and what does it flatten?
-- Is --}{++{"author":"Elias's AI","timestamp":1787569303880}@@pattern can really outlive the measurements that are the only evidence for it, since scaling laws are described in this course as empirically observed relationships rather than laws of nature; which of the three named patterns they would bet on longest and which looks most like a description of the last few years; that ++}the {--{"author":"Elias's AI","timestamp":1787569303880}@@claim that benchmarks date but the underlying patterns persist true? What would falsify it?
-- The chapter puts--}{++{"author":"Elias's AI","timestamp":1787569303880}@@claim is partly a promise about what this chapter is for, so it is fair to ask what the chapter would look like if it were wrong; and that a reader has no way to check a claim about durability from inside the text.
+Take what they wrote seriously and push on it once. Useful directions: whether a pattern can really outlive the measurements that are the only evidence for it, since scaling laws are described in this course as empirically observed relationships rather than laws of nature; which of the three named patterns they would bet on longest and which looks most like a description of the last few years; that the claim is partly a promise about what this chapter is for, so it is fair to ask what the chapter would look like if it were wrong; and that a reader has no way to check a claim about durability from inside the text.
 
-Close by telling them to hold the answer, since++} the {--{"author":"Elias's AI","timestamp":1787569303880}@@definition question before--}{++{"author":"Elias's AI","timestamp":1787569303880}@@chapter is built on that claim and++} the {--{"author":"Elias's AI","timestamp":1787569303880}@@risk questions. Does that ordering hold up?--}{++{"author":"Elias's AI","timestamp":1787569303880}@@reflection at the end is where they can see whether it held up.++}
+Close by telling them to hold the answer, since the chapter is built on that claim and the reflection at the end is where they can see whether it held up.
 
 If they say they do not know or write something thin, do not press them for more. Offer one concrete way to look at it and leave it there.
 
