@@ -88,20 +88,20 @@ One judge subagent per LO file, launched in parallel batches of up to 8. **Judge
 
 Two ways to give a judge its inputs:
 
-- **Paste protocol:** paste the fetched snapshot and the five eval bodies into the prompt; the judge needs no tools. Judged text and hashed text are identical by construction.
-- **Self-read protocol (keeps the director's context clean — preferred):** the judge loads the MCP read tool itself and reads the five eval files and its one target file by path. The prompt MUST then say: "Read NOTHING else. In particular, never read anything under 'Lens/base'." Before stamping a self-read-judged file, re-fetch it and re-compute the hash; if it changed since the pre-judging fetch, the judged text is unknown — re-judge instead of stamping.
+- **Paste protocol:** paste the fetched snapshot and the {--{"author":"Luc's AI","timestamp":1787602046135}@@five--}{++{"author":"Luc's AI","timestamp":1787602046135}@@six++} eval bodies into the prompt; the judge needs no tools. Judged text and hashed text are identical by construction.
+- **Self-read protocol (keeps the director's context clean — preferred):** the judge loads the MCP read tool itself and reads the {--{"author":"Luc's AI","timestamp":1787602046135}@@five--}{++{"author":"Luc's AI","timestamp":1787602046135}@@six++} eval files and its one target file by path. The prompt MUST then say: "Read NOTHING else. In particular, never read anything under 'Lens/base'." Before stamping a self-read-judged file, re-fetch it and re-compute the hash; if it changed since the pre-judging fetch, the judged text is unknown — re-judge instead of stamping.
 
 Judge prompt (fill placeholders; adapt the setup lines to the chosen protocol):
 
 ```
-You are judging the quality of ONE learning-outcome file against five binary
+You are judging the quality of ONE learning-outcome file against {--{"author":"Luc's AI","timestamp":1787602049493}@@five--}{++{"author":"Luc's AI","timestamp":1787602049493}@@six++} binary
 checks. The file has three parts: the outcome statement (frontmatter
 `learning-outcome:`), test question(s) (`content::`), and rubric(s)
 (`assessment-instructions::`).
 
 Rules:
 - You only judge and report. Never edit, create, or modify any document.
-- Judge one check at a time, in order (A1, A2, B1, C2, C3). Each check's
+- Judge one check at a time, in order (A1, A2, {++{"author":"Luc's AI","timestamp":1787602053174}@@A3, ++}B1, C2, C3). Each check's
   standard is its eval text — complete and authoritative. Do not add
   requirements from your own taste or from the other checks.
 - A check judges only its target part (statement / question / rubric).

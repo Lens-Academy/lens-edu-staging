@@ -46,7 +46,7 @@ eval-results:
   date: 2026-08-19
   model: claude-fable-5
   suite-version: 2
-  checks: {A1: pass, A2: pass, B1: fail, C2: pass, C3: pass}
+  checks: {A1: pass, A2: pass, {++{"author":"Luc's AI","timestamp":1787602043599}@@A3: pass, ++}B1: fail, C2: pass, C3: pass}
   notes: {B1: "question opens 'Chapter 5…'"}
   evidence: {B1: "Chapter 5 opens with an allegory about an alien civilization"}
 ```
