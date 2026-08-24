@@ -385,11 +385,11 @@ We are grateful for valuable feedback and suggestion from Markus Anderljung, Tim
 {--{"author":"Luc's AI","timestamp":1787602181109}@@[^38]:--}{++{"author":"Luc's AI","timestamp":1787602181109}@@[^note-38]:++} \[[48](#bib.bibx48)\].
 {--{"author":"Luc's AI","timestamp":1787602181594}@@[^39]:--}{++{"author":"Luc's AI","timestamp":1787602181594}@@[^note-39]:++} \[[33](#bib.bibx33)\].
 {--{"author":"Luc's AI","timestamp":1787602182064}@@[^40]:--}{++{"author":"Luc's AI","timestamp":1787602182064}@@[^note-40]:++} \[[8](#bib.bibx8)\].
-[^41]: \[[25](#bib.bibx25)\].
-[^42]: \[[63](#bib.bibx63)\].
-[^43]: \[[63](#bib.bibx63)\].
-[^44]: \[[38](#bib.bibx38)\].
-[^45]: \[[24](#bib.bibx24)\].
-[^46]: \[[24](#bib.bibx24)\].
-[^47]: \[[3](#bib.bibx3)\].
-[^49]: Furthermore, it’s an oversimplification to assume that all the rented compute contributes solely to the system’s training. The development process usually involves iterative refinements, so that the total compute usage could be two to four times the actual training compute.
+{--{"author":"Luc's AI","timestamp":1787602182532}@@[^41]:--}{++{"author":"Luc's AI","timestamp":1787602182532}@@[^note-41]:++} \[[25](#bib.bibx25)\].
+{--{"author":"Luc's AI","timestamp":1787602183050}@@[^42]:--}{++{"author":"Luc's AI","timestamp":1787602183050}@@[^note-42]:++} \[[63](#bib.bibx63)\].
+{--{"author":"Luc's AI","timestamp":1787602183584}@@[^43]:--}{++{"author":"Luc's AI","timestamp":1787602183584}@@[^note-43]:++} \[[63](#bib.bibx63)\].
+{--{"author":"Luc's AI","timestamp":1787602184013}@@[^44]:--}{++{"author":"Luc's AI","timestamp":1787602184013}@@[^note-44]:++} \[[38](#bib.bibx38)\].
+{--{"author":"Luc's AI","timestamp":1787602184482}@@[^45]:--}{++{"author":"Luc's AI","timestamp":1787602184482}@@[^note-45]:++} \[[24](#bib.bibx24)\].
+{--{"author":"Luc's AI","timestamp":1787602185004}@@[^46]:--}{++{"author":"Luc's AI","timestamp":1787602185004}@@[^note-46]:++} \[[24](#bib.bibx24)\].
+{--{"author":"Luc's AI","timestamp":1787602185492}@@[^47]:--}{++{"author":"Luc's AI","timestamp":1787602185492}@@[^note-47]:++} \[[3](#bib.bibx3)\].
+{--{"author":"Luc's AI","timestamp":1787602185945}@@[^49]:--}{++{"author":"Luc's AI","timestamp":1787602185945}@@[^note-49]:++} Furthermore, it’s an oversimplification to assume that all the rented compute contributes solely to the system’s training. The development process usually involves iterative refinements, so that the total compute usage could be two to four times the actual training compute.
