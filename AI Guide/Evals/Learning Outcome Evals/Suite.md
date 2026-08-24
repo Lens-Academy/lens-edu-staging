@@ -52,7 +52,7 @@ eval-results:
 ```
 
 - `checks` records every check's verdict. `notes` carries the judge's one-line reason and `evidence` its shortest verbatim quote from the file grounding the verdict — both for fails only, both taken from the judge's report, so a stamp is self-explanatory without opening the run report. The run report additionally carries the full write-up.
-- `content-sha`: first 8 hex chars of sha256 over the file **as read at evaluation time** (rendered view, pending suggestions included — hash what you judged), with the entire `eval-results` mapping excluded from the hashed text. Exact normalization procedure lives in the runner skill.
+- `content-sha`: first 8 hex chars of sha256 over the file **as read at evaluation time** (rendered view, pending suggestions included — hash what you judged), with the entire `eval-results` mapping excluded from the hashed text. Exact normalization procedure lives in {--{"author":"Luc's AI","timestamp":1787591702917}@@the runner skill.--}{++{"author":"Luc's AI","timestamp":1787591702917}@@`Runner.md`.++}
 - Stamps land as pending suggestions; bulk-accept them in the review editor.
 
 A learning outcome is **stale** (should be re-evaluated) iff any of:
