@@ -2,9 +2,9 @@
 id: '3298cbce-c5aa-4d1b-8220-fba3379899fa'
 slug: tot-m3
 title: "Is Cognitive Offloading Risky?"
-{--{"author":"Course Author's AI","timestamp":1787572388869}@@tags:
+tags:
   - wip
---}---
+---
 
 {++{"author":"Course Author's AI","timestamp":1787571948718}@@%% Core path, about 60 minutes total: 4 + 9 + 10 + 12 + 10 + 10 + 5. %%
 
