@@ -8,22 +8,22 @@ title: "Defining and Measuring AGI"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Defining and Measuring AGI|Defining and Measuring AGI]]{++{"author":"Elias's AI","timestamp":1787563287856}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Defining and Measuring AGI|Defining and Measuring AGI]]{++{"author":"Elias's AI","timestamp":1787563775022}@@
 
 #### Question: Open
 id:: 982166b9-ee07-45e8-ac2d-6a6f523f7407
 optional:: true
 content::
-The framework leaves autonomy out of the definition on purpose, and hands it to the risks chapter instead.
+The section separates what a system can do from how much rope it is given, and deliberately leaves the second out of the definition of AGI.
 
-Sit with that for a minute. If you were setting the threshold that triggers regulation, would you put autonomy back in? What do you lose either way?
+Which would concern you more: a system at expert level across most domains, used as a consultant with a human approving every action, or a much narrower system running with no approval step at all?
 feedback-instructions::
 The learner has just read the AI Safety Atlas section "Defining and Measuring AGI" and written a reflection. This is a reflection, not a test. There is no answer you are checking against, and you should not tell them whether they got it right.
 
 TLDR of what they read:
 The section argues you cannot manage a risk you cannot measure, tours several approaches to defining intelligence (Turing and behaviourism, Searle and consciousness, Legg and Hutter's goal achievement, adaptability views from Wang and Chollet, and psychometric CHC theory), and synthesises them into a two-axis framework. Capability is how far up the range of human performance a system reaches on a task. Generality is the share of ten cognitive domains where it reaches expert level, taken as roughly the 80th to 90th percentile. ANI, AGI, TAI and ASI are named as regions of that space rather than hard thresholds. Deployment autonomy is deliberately excluded and deferred to the risks chapter. The section also carries criticisms of its own framework, including that non-human capability profiles may pose serious risks while scoring low on human-centric tests.
 
-Take what they wrote seriously and push on it once. Useful directions: what a regulator gains from a capability-only trigger and what it misses; whether autonomy is a property of the system or of how it is deployed, and what that implies for who the threshold binds; whether the aggregate percentage or the per-domain profile is the thing a trigger should read.
+Take what they wrote seriously and push on it once. Useful directions: whether the thing worrying them comes from the capability or from the deployment; the section's own point that a capable system deployed as a tool can be safer than a weaker one deployed as an agent; what the two axes therefore cannot tell you on their own; whether autonomy is a property of the system or of the people running it.
 
 If they say they do not know or write something thin, do not press them for more. Offer one concrete way to look at it and leave it there.
 
