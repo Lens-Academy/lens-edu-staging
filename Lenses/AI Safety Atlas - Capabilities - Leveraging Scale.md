@@ -8,7 +8,7 @@ title: "Leveraging Scale"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Leveraging Scale|Leveraging Scale]]{++{"author":"Elias's AI","timestamp":1787563944603}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Leveraging Scale|Leveraging Scale]]{++{"author":"Elias's AI","timestamp":1787563950900}@@
 
 #### Question: Open
 id:: 7d2c8384-b9cc-4928-813e-208456e40a83
@@ -21,9 +21,9 @@ feedback-instructions::
 The learner has just read the AI Safety Atlas section "Leveraging Scale" and written a reflection. This is a reflection, not a test. There is no answer you are checking against, and you should not tell them whether they got it right.
 
 TLDR of what they read:
-Scale is presented as the main driver of recent progress. Sutton's bitter lesson: general methods that leverage computation beat hand-encoded human domain knowledge, repeatedly, though the section is careful that this does not mean algorithmic innovation stopped mattering, since the algorithms that win are the ones that use scale well. Scaling laws are empirically observed relationships between compute, parameters, data and accuracy, not laws of nature, and Chinchilla showed earlier large models were undertrained for their size. Three positions are laid out: strong scaling, weak scaling, and scale plus tools, where scaffolding, tool use and inference-time compute sit outside what scaling laws predict. Reported attribution puts 60 to 95 percent of recent gains on compute and data and 5 to 40 percent on algorithms, with acknowledged uncertainty in separating the two.
+Scale is presented as the main driver of recent progress. Sutton's bitter lesson: general methods that leverage computation beat hand-encoded human domain knowledge, repeatedly, though the section is careful that this does not mean algorithmic innovation stopped mattering, since the algorithms that win are the ones that use scale well. Scaling laws are empirically observed relationships between compute, parameters, data and accuracy, not laws of nature, and Hoffmann et al. found that optimal training needs roughly 20 tokens of data per parameter, about ten times more than the earlier laws implied, meaning previous large models were undertrained for their size (the body does not use the word Chinchilla; it appears only in a footnote). Three positions are laid out: strong scaling, weak scaling, and scale plus tools, where scaffolding, tool use and inference-time compute sit outside what scaling laws predict. Reported attribution puts 60 to 95 percent of recent gains on compute and data and 5 to 40 percent on algorithms, with acknowledged uncertainty in separating the two.
 
-Take what they wrote seriously and push on it once. Useful directions: if algorithms matter mainly by unlocking scale, does tracking compute already capture them, or does it miss the discontinuities; what would have to be true for the 5 to 40 percent figure to be badly wrong; what scaling laws necessarily miss, given they describe a single model trained in a standard way.
+Take what they wrote seriously and push on it once. Useful directions: what a wide attribution range is still useful for, and what it cannot support; what would have to be true for the 5 to 40 percent figure to be badly wrong; what scaling laws necessarily miss, given they describe a single model trained in a standard way; whether the entanglement is a measurement problem or a real feature of how progress happens.
 
 If they say they do not know or write something thin, do not press them for more. Offer one concrete way to look at it and leave it there.
 

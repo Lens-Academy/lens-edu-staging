@@ -8,7 +8,7 @@ title: "Foundation Models"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Foundation Models|Foundation Models]]{++{"author":"Elias's AI","timestamp":1787563768727}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Foundation Models|Foundation Models]]{++{"author":"Elias's AI","timestamp":1787563954434}@@
 
 #### Text
 content::
@@ -18,7 +18,7 @@ Foundation models are the shift the rest of the chapter builds on. If the two tr
 optional:: true
 instructions::
 TLDR of what the user just read:
-Foundation models are a shift from building one narrow system per task to pre-training a large general-purpose model and adapting it afterwards. Pre-training is self-supervised on massive unlabelled data; adaptation happens through fine-tuning or in-context prompting. Key properties: transfer learning, zero-shot and few-shot learning, cross-domain generalisation, and capabilities that emerge without being explicitly trained for. The section argues these same properties create safety problems narrow AI did not have, because there is limited control over what is learned, safety properties must survive adaptation, and the scale of training data makes auditing hard.
+Foundation models are a shift from building one narrow system per task to pre-training a large general-purpose model and adapting it afterwards. Pre-training is self-supervised on massive unlabelled data; adaptation happens through fine-tuning or in-context prompting. The three properties it names are transfer learning, zero-shot and few-shot learning, and cross-domain generalisation. Emergence appears only in passing, not as a property of its own. The section argues these same properties create safety problems narrow AI did not have, because there is limited control over what is learned, safety properties must survive adaptation, and the scale of training data makes auditing hard. Note that it promises a subsection on risks and never delivers one, so its safety material is scattered rather than collected.
 
 topics to explore:
 - What does self-supervised pre-training actually optimise for, and why does that make what the model learns hard to constrain?
