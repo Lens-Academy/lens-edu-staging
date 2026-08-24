@@ -60,7 +60,7 @@ content::
 
 Krook uses legal conservatorship (with the Britney Spears case as an example) to illustrate autonomy loss. Even when a guardian makes objectively better decisions for someone, it still constitutes a real loss of autonomy and personhood.
 
-How does this apply to AI? If an AI system consistently makes better medical diagnoses, legal judgments, or financial decisions than humans, what is lost—even if the AI is benevolent and well-aligned?
+How does this apply to AI? If an AI system consistently makes better medical diagnoses, legal judgments, or financial decisions than humans, what is {--{"author":"Course Author's AI","timestamp":1787572188836}@@lost—even--}{++{"author":"Course Author's AI","timestamp":1787572188836}@@lost, even++} if the AI is benevolent and well-aligned?
 
 assessment-instructions:: The student is exploring Krook's conservatorship analogy and its application to AI autonomy loss. This is an optional bonus discussion, not assessed.
 
