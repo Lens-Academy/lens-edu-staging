@@ -102,7 +102,7 @@ Response length: 120-200 words per reply.
 content::
 \## Question 3: The Philosophical Bridge
 
-Krook's argument connects individual skill atrophy to gradual disempowerment at the societal level. His claim: skill atrophy creates structural dependence, and structural dependence makes gradual disempowerment inevitable—not through malice, but through local rationality.
+Krook's argument connects individual skill atrophy to gradual disempowerment at the societal level. His claim: skill atrophy creates structural dependence, and structural dependence makes gradual disempowerment {--{"author":"Course Author's AI","timestamp":1787572228423}@@inevitable—not--}{++{"author":"Course Author's AI","timestamp":1787572228423}@@likely, not++} through malice, but through local rationality.
 
 Do you think skill atrophy at the individual level makes gradual disempowerment at the societal level more likely? Why or why not?
 
