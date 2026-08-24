@@ -1213,7 +1213,7 @@ The base model knows how these stories go, according to standard dramatic conven
 >   
 > **Rei Ayanami:** Because I am not you.
 
-\- _The End of Evangelion_ (1997 science fiction film)
+\- _The End of Evangelion_ (1997 science fiction film){--{"author":"AI","timestamp":1787561802322}@@
 
 1.  [ofthenoseclan](https://ofthenoseclan.tumblr.com/ "visual novel faggot") liked this
 2.  [borjanon](https://borjanon.tumblr.com/ "earther") liked this
@@ -1267,4 +1267,4 @@ The base model knows how these stories go, according to standard dramatic conven
      
      > [Who is this? This is me.......Who am I? What am I? What am...](https://nostalgebraist.tumblr.com/post/785766737747574784 "View post")
      
-50.  [Show more notes](#)
+50.  [Show more notes](#)--}
