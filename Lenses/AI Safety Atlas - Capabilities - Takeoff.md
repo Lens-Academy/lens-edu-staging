@@ -8,11 +8,12 @@ title: "Takeoff"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Takeoff|Takeoff]]{++{"author":"Elias's AI","timestamp":1787562313799}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Takeoff|Takeoff]]{++{"author":"Elias's AI","timestamp":1787564155669}@@
 
 #### Text
+optional:: true
 content::
-If anything in the slow-versus-fast debate is still fuzzy, walk through it with the tutor before you close the chapter.
+Takeoff speed is the variable that decides whether "ship it and patch it" is a strategy at all. If you cannot yet say which way this section's arguments push on that, work it through with the tutor.
 
 #### Chat
 optional:: true
@@ -22,8 +23,10 @@ Takeoff speed is how quickly AI capability grows once transformative systems arr
 
 topics to explore:
 - Where exactly does the line between timelines and takeoff speed sit, and why does the section keep them apart?
-- What does a hardware overhang do to takeoff speed, and what is the counter-argument to it?
-- Which of the two feedback loops looks more likely to bind first?
+- The section uses overhangs mainly to argue about whether pausing AI development helps or hurts. Does that argument hold?
+- The compute-centric model has an investment loop and an automation loop. Which is doing more of the work, and which would a regulator find easier to reach?
 - Which safety strategies stop being available under a fast takeoff?
+
+The learner committed to a single year earlier in the chapter, and the end-of-chapter reflection is where they revisit it. Do not ask them what year they wrote, whether it has moved, or to defend it. Do not offer an arrival date of your own.
 
 Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
