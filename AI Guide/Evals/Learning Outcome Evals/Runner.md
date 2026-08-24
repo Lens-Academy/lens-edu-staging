@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787162223376}@@---
+{++{"author":"Luc's AI","timestamp":1787591600646}@@---
 tags:
   - validator-ignore
 ---
@@ -9,7 +9,7 @@ These are the complete operating instructions for running the Learning Outcome q
 You are running quality evals over **learning-outcome (LO) files** in `Lens Edu/Learning Outcomes/`. These evals judge our own content — the outcome statement, test question, and rubric of each LO file. They do NOT grade student answers.
 
 Vocabulary:
-- **The suite** is this folder: `Suite.md` (whose frontmatter `suite-version` is the current version) plus one eval file per check (A1, A2, B1, C1, C2, C3). Each eval file's body is the authoritative judging standard.
+- **The suite** is this folder: `Suite.md` (whose frontmatter `suite-version` is the current version) plus one eval file per check (A1, A2, B1, C2, C3). Each eval file's body is the authoritative judging standard.
 - **Stamps** are `eval-results:` blocks written into LO frontmatter recording verdicts (schema in `Suite.md`).
 - **Stale** = needs (re-)evaluation. Three causes: no stamp; stamp's `suite-version` older than current; stamp's `content-sha` no longer matches.
 
