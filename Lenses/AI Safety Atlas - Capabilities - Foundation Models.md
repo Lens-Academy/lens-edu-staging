@@ -8,7 +8,7 @@ title: "Foundation Models"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Foundation Models|Foundation Models]]{++{"author":"Elias's AI","timestamp":1787563752882}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Foundation Models|Foundation Models]]{++{"author":"Elias's AI","timestamp":1787563768727}@@
 
 #### Text
 content::
@@ -20,10 +20,12 @@ instructions::
 TLDR of what the user just read:
 Foundation models are a shift from building one narrow system per task to pre-training a large general-purpose model and adapting it afterwards. Pre-training is self-supervised on massive unlabelled data; adaptation happens through fine-tuning or in-context prompting. Key properties: transfer learning, zero-shot and few-shot learning, cross-domain generalisation, and capabilities that emerge without being explicitly trained for. The section argues these same properties create safety problems narrow AI did not have, because there is limited control over what is learned, safety properties must survive adaptation, and the scale of training data makes auditing hard.
 
-Take what they wrote seriously and push on it once. Useful directions: what could actually be checked about the adaptation stage before release, and by whom; whether the burden sits with the original developer, whoever fine-tunes, or whoever deploys; what open weights do to that answer; whether safety properties installed in pre-training are the right thing to be relying on in the first place.
-
-If they say they do not know or write something thin, do not press them for more. Offer one concrete way to look at it and leave it there.
+topics to explore:
+- What does self-supervised pre-training actually optimise for, and why does that make what the model learns hard to constrain?
+- How does fine-tuning differ from prompting, and why does the section say safety properties have to survive that stage?
+- What is "emergent" claiming here, and what is it not claiming?
+- What separates a foundation model from a frontier model, and why does the section keep them apart?
 
 Do not preview the later sections in detail. The forecasting section has its own pre-question and this chapter returns to it, so do not give timelines or an arrival date of your own, even if asked.
 
-120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.++}
+Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
