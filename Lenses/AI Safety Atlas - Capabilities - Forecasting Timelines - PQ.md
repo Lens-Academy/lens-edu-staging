@@ -8,14 +8,16 @@ tutor_minutes: 3
 ---
 
 #### Text
-content::
+{++{"author":"Elias's AI","timestamp":1787566473644}@@optional:: true
+++}content::
 Before you read anything about forecasts, commit to a number.
 
 Do not look anything up, and do not hedge into a range. A rough answer written now is worth more than a researched one, and the reflection at the end of the chapter will come back to it.
 
 #### Question: FillBlank
 id:: 86e21ef3-b176-46b6-bb8a-a027a1a43615
-content:: AI systems will be able to do essentially all remote cognitive work that a competent professional does today by {{number}}.
+{++{"author":"Elias's AI","timestamp":1787566478000}@@optional:: true
+++}content:: AI systems will be able to do essentially all remote cognitive work that a competent professional does today {--{"author":"Elias's AI","timestamp":1787566478000}@@by {{number}}.--}{++{"author":"Elias's AI","timestamp":1787566478000}@@in {{number}} years.++}
 
 #### Question: Open
 id:: aca8a059-a9de-43c7-be94-ac2d10466803
