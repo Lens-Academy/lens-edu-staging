@@ -18,19 +18,21 @@ Add discussion note here:
 
 %%
 
-{++{"author":"AI","timestamp":1787561914774}@@<video autoplay loop muted playsinline>
+<video autoplay loop muted playsinline>
   <source src="https://ericjmichaud.com/quanta/assets/parity-X-website.mp4" type="video/mp4">
 </video>
 
-++}Several years ago, humanity began an experiment. This experiment is now on track to become one of the most expensive ever attempted. We don't yet know what the results of this experiment will be. Certain results could be transformative. The experiment could not only alter the dynamics of wealth and power in human life, but change our basic status as a species: it could put us in contact with alien minds more capable than our own for the first time. Alternatively, some still predict that the experiment will be largely a waste of time and energy. Despite its importance, we don't have a mature theory backing this experiment. And the number of people working on such a theory in public is relatively small.
+Several years ago, humanity began an experiment. This experiment is now on track to become one of the most expensive ever attempted. We don't yet know what the results of this experiment will be. Certain results could be transformative. The experiment could not only alter the dynamics of wealth and power in human life, but change our basic status as a species: it could put us in contact with alien minds more capable than our own for the first time. Alternatively, some still predict that the experiment will be largely a waste of time and energy. Despite its importance, we don't have a mature theory backing this experiment. And the number of people working on such a theory in public is relatively small.
 
 I am referring to the experiment of scaling up deep neural networks. What happens when we train neural networks, like large language models, with as many parameters as possible, on as much data as possible, with as much compute as possible? A handful of private labs are running this experiment at the moment. They will each spend some tens of billions this year, and possibly hundreds of billions or more over the next few years. Exactly what new capabilities will the next generation of models have? What are the limits of this process? And exactly why is so much data and so much compute needed to train these models in the first place?
 
 Immense resources are staked on these questions.[^1] Yet we lack clarity on their answers because _deep learning theory_ is still an immature science. The core source of uncertainty is a fundamental one: we don't really know how to think about what neural networks are doing internally. Of course, a huge amount of academic work bears on this topic. This includes empirical [work](https://distill.pub/2020/circuits/zoom-in/) [on](https://arxiv.org/abs/2403.19647) [mechanistic](https://arxiv.org/abs/2211.00593) [interpretability](https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html), more theoretical [work](https://arxiv.org/abs/1806.07572) [on](https://proceedings.mlr.press/v119/bordelon20a) [kernels](https://arxiv.org/abs/2110.03922), work characterizing which algorithms transformers can [express](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00493/112604/Saturated-Transformers-are-Constant-Depth) [and](https://arxiv.org/abs/2207.02098) [learn](https://arxiv.org/abs/2305.18654), and much else. However, it still feels early, like we don't have a unified picture yet. I believe a more unified, mature science of deep learning would provide the following:
 
-(1) A framework for thinking about the internal mechanisms that neural networks learn that explains how they generalize.  
+{--{"author":"AI","timestamp":1787562074702}@@(1)--}{++{"author":"AI","timestamp":1787562074702}@@::note[(1)++} A framework for thinking about the internal mechanisms that neural networks learn that explains how they generalize.{--{"author":"AI","timestamp":1787562074702}@@  
   
-(2) An account of how various "engineering" choices, such as architecture, hyperparameters, data, scale, etc., determine which mechanisms networks learn, and how and when they learn them.
+--}{++{"author":"AI","timestamp":1787562074702}@@
+
+++}(2) An account of how various "engineering" choices, such as architecture, hyperparameters, data, scale, etc., determine which mechanisms networks learn, and how and when they learn {--{"author":"AI","timestamp":1787562074702}@@them.--}{++{"author":"AI","timestamp":1787562074702}@@them.]++}
 
 So far, the works that arguably come closest to this ideal are models of neural scaling. Such models attempt to describe how neural networks _change_ with increasing parameters, data, or training steps, and thus at least implicitly articulate a model of what neural networks do in the first place. Some of these works include [Sharma & Kaplan (2020)](https://arxiv.org/abs/2004.10802), [Bordelon et al. (2020)](https://proceedings.mlr.press/v119/bordelon20a), [Hutter (2021)](https://arxiv.org/abs/2102.04074), [Bahri et al. (2021)](https://arxiv.org/abs/2102.06701), and [Maloney et al. (2022)](https://arxiv.org/abs/2210.16859).
 
@@ -161,11 +163,11 @@ We will construct a multitask version of sparse parity. To do this, we introduce
 
 The training dynamics on this task are really beautiful. We train ReLU MLPs with a single hidden layer using the Adam optimizer. Here is how the loss for each subtask (colored dark blue to yellow), and the mean loss (colored red), evolves during training:
 
-{++{"author":"AI","timestamp":1787561969917}@@<video autoplay loop muted playsinline>
+<video autoplay loop muted playsinline>
   <source src="https://ericjmichaud.com/quanta/assets/parity-X-website.mp4" type="video/mp4">
 </video>
 
-++}Training dynamics for a network trained on multitask sparse parity.
+Training dynamics for a network trained on multitask sparse parity.
 
 We see here that while the mean loss decreases gradually, the network's loss on each subtask drops more sharply, and these subtasks are learned at different times. The network achieves \\approx 0 loss on the most frequent subtask after 10^3 steps, but learns the less frequent subtasks multiple orders of magnitude later (like after 10^5 steps).
 
