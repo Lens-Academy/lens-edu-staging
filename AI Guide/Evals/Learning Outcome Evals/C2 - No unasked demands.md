@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787136957437}@@---
+{++{"author":"Luc's AI","timestamp":1787591602832}@@---
 eval-id: C2
 target: rubric
 tags:
@@ -14,7 +14,7 @@ Direction matters: **pass-bar ⊆ question.** Every requirement in the rubric's 
 
 The reverse is fine: the question **may** ask for more than the pass bar requires — headroom is allowed.
 
-For graded-ladder rubrics (which fail C1), evaluate this check against the stated or implied pass level (usually level 3).
+For graded-ladder rubrics, evaluate this check against the stated or implied pass level (usually level 3).
 
 ## Does NOT fail for
 
