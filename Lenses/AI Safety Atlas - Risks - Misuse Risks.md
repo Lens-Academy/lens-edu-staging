@@ -13,7 +13,7 @@ source:: [[../articles/AI Safety Atlas - Risks - Misuse Risks|Misuse Risks]]
 #### Text
 optional:: true
 content::
-Four threat domains, one claim holding them together: technology widens the harm a single person can do. Which domain supports that claim least well? Take it up with the tutor.
+Four threat domains, one claim holding them together: technology widens the harm a single person can do. Which domain {--{"author":"Elias's AI","timestamp":1787569853380}@@supports--}{++{"author":"Elias's AI","timestamp":1787569853380}@@made++} that {--{"author":"Elias's AI","timestamp":1787569853380}@@claim least well? Take--}{++{"author":"Elias's AI","timestamp":1787569853380}@@case most convincingly, and which least? Talk++} it {--{"author":"Elias's AI","timestamp":1787569853380}@@up--}{++{"author":"Elias's AI","timestamp":1787569853380}@@over++} with the tutor.
 
 #### Chat
 optional:: true

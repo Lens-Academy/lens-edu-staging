@@ -13,7 +13,7 @@ source:: [[../articles/AI Safety Atlas - Risks - Risk Amplifiers|Risk Amplifiers
 #### Text
 optional:: true
 content::
-The section describes five amplifiers and refuses to rank them. Rank them yourself, then defend the order with the tutor.
+The section describes five amplifiers and {--{"author":"Elias's AI","timestamp":1787569850651}@@refuses to --}{++{"author":"Elias's AI","timestamp":1787569850651}@@deliberately does not ++}rank them. {--{"author":"Elias's AI","timestamp":1787569850651}@@Rank them yourself, then defend the order--}{++{"author":"Elias's AI","timestamp":1787569850651}@@Which did you come away thinking matters most, and which least? Talk it over++} with the tutor.
 
 #### Chat
 optional:: true

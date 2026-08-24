@@ -13,7 +13,7 @@ source:: [[../articles/AI Safety Atlas - Risks - Dangerous Capabilities|Dangerou
 #### Text
 optional:: true
 content::
-The section argues these five get more dangerous in combination. Which two do you think combine worst? Make the case to the tutor.
+The section argues these five get more dangerous in combination. Which {--{"author":"Elias's AI","timestamp":1787569848842}@@two do--}{++{"author":"Elias's AI","timestamp":1787569848842}@@pairing did++} you {--{"author":"Elias's AI","timestamp":1787569848842}@@think combine worst? Make the case to--}{++{"author":"Elias's AI","timestamp":1787569848842}@@find most convincing, and which least? Talk it over with++} the tutor.
 
 #### Chat
 optional:: true
