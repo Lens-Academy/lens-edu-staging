@@ -32,9 +32,9 @@ The challenges of verifying AI treaties will plausibly have significant similari
 
 ### How monitoring & verification (M&V) has been implemented in nuclear arms control
 
-First, we review M&V implementation across three types of nuclear arms control treaties: nonproliferation treaties; U.S.-U.S.S.R./Russia arms limitation treaties; and nuclear test bans.[^1]
+First, we review M&V implementation across three types of nuclear arms control treaties: nonproliferation treaties; U.S.-U.S.S.R./Russia arms limitation treaties; and nuclear test {--{"author":"Luc's AI","timestamp":1787602432231}@@bans.[^1]--}{++{"author":"Luc's AI","timestamp":1787602432231}@@bans.[^note-1]++}
 
-Nuclear nonproliferation treaties commit all but 10 states to not acquiring nuclear weapons[^2]. They are mainly verified as follows:
+Nuclear nonproliferation treaties commit all but 10 states to not acquiring nuclear {--{"author":"Luc's AI","timestamp":1787602432752}@@weapons[^2].--}{++{"author":"Luc's AI","timestamp":1787602432752}@@weapons[^note-2].++} They are mainly verified as follows:
 
 -   •
     
@@ -42,11 +42,11 @@ Nuclear nonproliferation treaties commit all but 10 states to not acquiring nucl
     
 -   •
     
-    To verify that nuclear materials and equipment in _declared_ nuclear facilities are not being used for weapons, international inspectors regularly verify declared accounts of nuclear materials. This involves much on-site measurement, verification of facility layouts, and surveillance at facilities. Under some agreements[^3], certain non-nuclear facilities (e.g. adjacent facilities) are also declared and inspected.
+    To verify that nuclear materials and equipment in _declared_ nuclear facilities are not being used for weapons, international inspectors regularly verify declared accounts of nuclear materials. This involves much on-site measurement, verification of facility layouts, and surveillance at facilities. Under some {--{"author":"Luc's AI","timestamp":1787602433252}@@agreements[^3],--}{++{"author":"Luc's AI","timestamp":1787602433252}@@agreements[^note-3],++} certain non-nuclear facilities (e.g. adjacent facilities) are also declared and inspected.
     
 -   •
     
-    To verify that a state does not have _undeclared_ (i.e. secret) nuclear facilities, international inspectors receive voluntary tips from national intelligence agencies (which have e.g. spies and satellites), and they analyze their own limited information. Then, after identifying a suspect site, they investigate it (though this happens much more frequently under one type of agreement[^4]).
+    To verify that a state does not have _undeclared_ (i.e. secret) nuclear facilities, international inspectors receive voluntary tips from national intelligence agencies (which have e.g. spies and satellites), and they analyze their own limited information. Then, after identifying a suspect site, they investigate it (though this happens much more frequently under one type of {--{"author":"Luc's AI","timestamp":1787602433822}@@agreement[^4]).--}{++{"author":"Luc's AI","timestamp":1787602433822}@@agreement[^note-4]).++}
     
 
 U.S.-U.S.S.R./Russia arms limitation treaties limited the number and/or types of these states’ ready-to-use nuclear weapons. They were mainly verified as follows:
@@ -69,7 +69,7 @@ Nuclear weapon test ban treaties are mainly verified as follows:
 
 ### Track records of M&V in nuclear arms control
 
-The strongest widely implemented M&V system in each of the above three categories of treaties[^5] has had zero known major failures. This was in the context of (up to) a few known attempts at serious violations (e.g. developing a banned type of missile), all of which the system detected. However, weaker predecessors of these systems had some failures at detecting major violations. Most notably, a system[^6] for verifying nonproliferation was designed with a focus on declared nuclear facilities, and it repeatedly failed to detect undeclared ones (though the associated weapon programs were all discovered or abandoned before they developed nuclear weapons).[^7]
+The strongest widely implemented M&V system in each of the above three categories of {--{"author":"Luc's AI","timestamp":1787602434551}@@treaties[^5]--}{++{"author":"Luc's AI","timestamp":1787602434551}@@treaties[^note-5]++} has had zero known major failures. This was in the context of (up to) a few known attempts at serious violations (e.g. developing a banned type of missile), all of which the system detected. However, weaker predecessors of these systems had some failures at detecting major violations. Most notably, a {--{"author":"Luc's AI","timestamp":1787602434551}@@system[^6]--}{++{"author":"Luc's AI","timestamp":1787602434551}@@system[^note-6]++} for verifying nonproliferation was designed with a focus on declared nuclear facilities, and it repeatedly failed to detect undeclared ones (though the associated weapon programs were all discovered or abandoned before they developed nuclear {--{"author":"Luc's AI","timestamp":1787602434551}@@weapons).[^7]--}{++{"author":"Luc's AI","timestamp":1787602434551}@@weapons).[^note-7]++}
 
 ### Politics of M&V in nuclear arms control
 
