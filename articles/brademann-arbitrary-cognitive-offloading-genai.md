@@ -391,9 +391,9 @@ Zhai, C., Wibowo, S., & Li, L. D. (2024). The effects of over-reliance on AI dia
 
 {--{"author":"Luc's AI","timestamp":1787602070712}@@[^6]--}{++{"author":"Luc's AI","timestamp":1787602070712}@@[^note-6]:++} This categorisation reflects active stakeholders in the education sector and was also made, for example, in the report “The Unintended Consequences of Artificial Intelligence and Education” by Education International (Holmes, 2023).
 
-[\[7\]](#_ftnref7) Categories of low-, high- and meta-cognitive tasking have been chosen according to Bloom’s Revised Taxonomy.
+{--{"author":"Luc's AI","timestamp":1787602413977}@@[\[7\]](#_ftnref7)--}{++{"author":"Luc's AI","timestamp":1787602413977}@@\[7\]++} Categories of low-, high- and meta-cognitive tasking have been chosen according to Bloom’s Revised Taxonomy.
 
-[\[8\]](#_ftnref8) Task with highest arbitrary offloading potential. The more kinds of cognitive involvement are required, the higher the potential for arbitrariness.
+{--{"author":"Luc's AI","timestamp":1787602414459}@@[\[8\]](#_ftnref8)--}{++{"author":"Luc's AI","timestamp":1787602414459}@@\[8\]++} Task with highest arbitrary offloading potential. The more kinds of cognitive involvement are required, the higher the potential for arbitrariness.
 
 {--{"author":"Luc's AI","timestamp":1787602071204}@@[^7]--}{++{"author":"Luc's AI","timestamp":1787602071204}@@[^note-7]:++} 63.8% of all young people use AI Tools and thereof 32.7% use AI tools for formal education, that means approximately 20% of young people in the EU use AI tools for formal education.
 
