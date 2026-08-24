@@ -23,7 +23,8 @@ A run is orchestrated by a **director agent** and executed by subagents with str
 |---|---|---|
 | A1 | statement | Does the statement name an observable capability, pinned precisely enough that you can tell what would demonstrate it? |
 | A2 | statement | Would the capability make sense for someone who learned the material elsewhere, or does it depend on what a specific text/author says? |
-| B1 | question | Could someone who has the capability but never read the assigned text answer the question as posed? |
+| {++{"author":"Luc's AI","timestamp":1787602027335}@@A3 | statement | Is the statement a single unit of completion — one capability that stands or falls together — rather than a bundle a learner could independently have or lack? |
+| ++}B1 | question | Could someone who has the capability but never read the assigned text answer the question as posed? |
 | C2 | rubric | Does the pass bar require only things a reasonable reader of the question would know to provide? |
 | C3 | rubric | Does each criterion define an idea-in-any-wording, with analogies, examples, and details as illustrations rather than requirements? |
 
