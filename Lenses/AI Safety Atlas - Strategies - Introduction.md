@@ -27,8 +27,8 @@ Take what they wrote seriously and push on it once. Useful directions: {--{"auth
 
 {--{"author":"Elias's AI","timestamp":1787569361894}@@Close by telling them to hold the answer, since the chapter argues for combination and the reflection at the end is where they can see whether--}{++{"author":"Elias's AI","timestamp":1787569361894}@@If they say they do not know or write something thin, do not press them for more. Offer one concrete way to look at it and leave++} it {--{"author":"Elias's AI","timestamp":1787569361894}@@moved them.--}{++{"author":"Elias's AI","timestamp":1787569361894}@@there.++}
 
-If they say they do not know or write something thin, do not press them for more. Offer one concrete way to look at it and leave it there.
+{--{"author":"Elias's AI","timestamp":1787569375142}@@If they say they do not know or write something thin, do not press them for more. Offer one concrete way to look at it and leave it there.
 
-Every strategy named in this opening gets its own section later, and the scope list sits in a collapsed optional callout. Do not preview those sections and do not assume they read the callout.
+--}Every strategy named in this opening gets its own section later, and the scope list sits in a collapsed optional callout. Do not preview those sections and do not assume they read the callout.
 
 120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.
