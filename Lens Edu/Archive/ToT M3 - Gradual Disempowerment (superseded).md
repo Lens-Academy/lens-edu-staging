@@ -17,7 +17,7 @@ The first three excerpts cover the article's opening statement, its six core cla
 Start at the beginning and read through the six excerpts in order. You can return to the collapsed parts of any article if you want more detail, but the assignment is these six excerpts.
 
 #### Article
-source:: [[../articles/gradual-disempowerment-gradual-disempowerment]]
+source:: [[../../articles/gradual-disempowerment-gradual-disempowerment]]
 from:: "AI risk scenarios usually portray a relatively sudden loss of human control to AIs, outmaneuvering individual humans and human institutions, due to a sudden increase in AI capabilities, or a coordinated betrayal."
 to:: "Those who resist these pressures will eventually be displaced by those who do not."
 
@@ -30,12 +30,12 @@ from:: "Though we provide some proposals for slowing or averting this process, a
 to:: "it could plausibly lead to human extinction or similar outcomes."
 
 #### Article
-source:: [[../articles/gradual-disempowerment-misaligned-economy]]
+source:: [[../../articles/gradual-disempowerment-misaligned-economy]]
 from:: "Past technological shifts like the industrial revolution or the development of electronic communication have substantially changed the world of work"
 to:: "as machines become capable of performing virtually any cognitive task more efficiently than humans."
 
 #### Article
-source:: [[../articles/gradual-disempowerment-mutual-reinforcement]]
+source:: [[../../articles/gradual-disempowerment-mutual-reinforcement]]
 from:: "A natural objection is that the different societal systems might be able to keep each other aligned through checks and balances."
 to:: "This dynamic could even intensify with AI systems, which might be able to identify and exploit these cross-system opportunities more effectively than human actors."
 
