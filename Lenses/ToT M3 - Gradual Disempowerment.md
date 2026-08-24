@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1787568559209}@@---
+---
 id: '2b2b6ada-3987-48eb-b3bd-b5546466dcd5'
 title: "From Dependence to Disempowerment"
 duration_minutes: 10
@@ -66,4 +66,4 @@ What not to do: run a long sequence; over-validate; require agreement with the t
 > The full Kulveit et al. reading, beyond the core excerpt.
 
 ::card[[../Lenses/ToT M3 - The Philosophy of Autonomy Loss]]
-> The philosophical bridge from skill loss to autonomy loss.++}
+> The philosophical bridge from skill loss to autonomy loss.
