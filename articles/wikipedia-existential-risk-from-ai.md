@@ -16,7 +16,7 @@ Add discussion note here:
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/AI_Time_Torizons_Are_Doubling_Every_4_Months.png/1280px-AI_Time_Torizons_Are_Doubling_Every_4_Months.png)
 
-A plot showing the length of software engineering tasks achievable by leading AI models with a 50% success rate; the data suggests an exponential rise.[^cite-wp-5]
+{--{"author":"AI","timestamp":1787567874507}@@A--}{++{"author":"AI","timestamp":1787567874507}@@_A++} plot showing the length of software engineering tasks achievable by leading AI models with a 50% success rate; the data suggests an exponential {--{"author":"AI","timestamp":1787567874507}@@rise.[^cite-wp-5]--}{++{"author":"AI","timestamp":1787567874507}@@rise.[^cite-wp-5]_++}
 
 One argument for the validity of this concern and the importance of this risk references how [human beings](https://en.wikipedia.org/wiki/Human_species "Human species") dominate other species because the [human brain](https://en.wikipedia.org/wiki/Human_brain "Human brain") possesses distinctive capabilities other animals lack. If AI were to surpass [human intelligence](https://en.wikipedia.org/wiki/Human_intelligence "Human intelligence") and become [superintelligent](https://en.wikipedia.org/wiki/Superintelligence "Superintelligence"), it might become uncontrollable.[^cite-wp-6] Just as the fate of the [mountain gorilla](https://en.wikipedia.org/wiki/Mountain_gorilla "Mountain gorilla") depends on human goodwill, the fate of humanity could depend on the actions of a future machine superintelligence.[^cite-wp-7]
 
@@ -163,9 +163,9 @@ Main article: [Existential risk studies](https://en.wikipedia.org/wiki/Existenti
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/X-risk-chart-en-01a.svg/500px-X-risk-chart-en-01a.svg.png)
 
-[View image details on Wikipedia](https://en.wikipedia.org/wiki/File:X-risk-chart-en-01a.svg)
+{--{"author":"AI","timestamp":1787567877475}@@[View--}{++{"author":"AI","timestamp":1787567877475}@@_[View++} image details on {--{"author":"AI","timestamp":1787567877475}@@Wikipedia](https://en.wikipedia.org/wiki/File:X-risk-chart-en-01a.svg)--}{++{"author":"AI","timestamp":1787567877475}@@Wikipedia](https://en.wikipedia.org/wiki/File:X-risk-chart-en-01a.svg)_++}
 
-Scope-severity grid from Bostrom's paper "Existential Risk Prevention as Global Priority"[^cite-wp-70]
+{--{"author":"AI","timestamp":1787567877475}@@Scope-severity--}{++{"author":"AI","timestamp":1787567877475}@@_Scope-severity++} grid from Bostrom's paper "Existential Risk Prevention as Global {--{"author":"AI","timestamp":1787567877475}@@Priority"[^cite-wp-70]--}{++{"author":"AI","timestamp":1787567877475}@@Priority"[^cite-wp-70]_++}
 
 An [existential risk](https://en.wikipedia.org/wiki/Existential_risk "Existential risk") is "one that threatens the premature extinction of Earth-originating intelligent life or the permanent and drastic destruction of its potential for desirable future development".[^cite-wp-71]
 
