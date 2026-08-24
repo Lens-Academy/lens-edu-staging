@@ -1,11 +1,9 @@
-{++{"author":"Course Author's AI","timestamp":1787572314636}@@---
+{++{"author":"Course Author's AI","timestamp":1787572407230}@@---
 id: '6ef1c4be-96af-4ceb-8fb3-fd21867ca258'
 title: "When AI Helps and When It Harms"
 duration_minutes: 12
 tldr: "Two studies, same tool, opposite results. Law students who used AI early wrote better work; endoscopists who worked with AI later detected fewer polyps without it. The difference is conditions, not the tool."
 summary_for_tutor: "Core lens 4 of Unit 3 of 'Thinking about Thinking'. Compares Bednar et al. (2025, law students) and Budzyń et al. (2025, endoscopists) to teach conditional effects, not a pro- or anti-AI verdict. Summarises each study's task, population, AI assistance, measured outcome, central result, and main design limitation. Asks the learner to identify which features (expertise, feedback quality, task verifiability, stakes, time pressure, ease of checking) explain different effects across domains. Links to the full Bednar and Budzyn lenses as optional cards. About 12 minutes."
-tags:
-  - wip
 ---
 
 #### Text
