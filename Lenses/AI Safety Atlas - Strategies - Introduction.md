@@ -14,11 +14,11 @@ source:: [[../articles/AI Safety Atlas - Strategies - Introduction]]
 id:: ec900b32-506e-4ce9-86b7-b69c02f4a7b9
 optional:: true
 content::
-The chapter sorts every mitigation into three buckets: stopping misuse, technical safety for AGI and ASI, and socio-technical measures such as governance and safety culture.
+The chapter sorts every mitigation into three {--{"author":"Elias's AI","timestamp":1787569351539}@@buckets: stopping misuse, technical safety for AGI and ASI,--}{++{"author":"Elias's AI","timestamp":1787569351539}@@groups, then says the split is only there for explanation++} and {--{"author":"Elias's AI","timestamp":1787569351539}@@socio-technical measures such as governance and safety culture.--}{++{"author":"Elias's AI","timestamp":1787569351539}@@that no single approach is enough on its own.++}
 
-Before the details, which do you expect to do most of the work, and why that one?
+{--{"author":"Elias's AI","timestamp":1787569351539}@@Before the details, which do you expect to do most of the work, and why that one?--}{++{"author":"Elias's AI","timestamp":1787569351539}@@Do you find a split like that useful anyway, or does it get in the way?++}
 feedback-instructions::
-The learner has just read the opening of the AI Safety Atlas strategies chapter and written a reflection. This is a reflection, not a test. There is no answer you are checking against, and you should not tell them whether they got it right. They have read six paragraphs of framing and nothing else, so they are guessing on purpose.
+The learner has just read the opening of the AI Safety Atlas strategies chapter and written a reflection. This is a reflection, not a test. There is no answer you are checking against, and you should not tell them whether they got it right. They have read six paragraphs of framing and nothing else, so {--{"author":"Elias's AI","timestamp":1787569351539}@@they are guessing on purpose.--}{++{"author":"Elias's AI","timestamp":1787569351539}@@a short answer is expected.++}
 
 TLDR of what they read:
 The opening of the strategies chapter. It sorts mitigations into three groups: preventing misuse of AI, technical safety for AGI and ASI, and socio-technical approaches that cut across the rest. A fourth section later combines them into a layered defence-in-depth plan. The chapter says the decomposition exists for explanation only, and argues for combining many strategies rather than pursuing a few in isolation. It also marks out what it will not cover: AI-generated misinformation, privacy, standard security practice, discrimination and toxicity, digital mind welfare and rights, and failures caused simply by lack of capability. It notes the first version was written in summer 2024 and this one updated in summer 2025.
