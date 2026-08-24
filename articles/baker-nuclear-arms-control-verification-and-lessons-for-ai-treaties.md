@@ -186,9 +186,9 @@ These M&V systems were centered on tracking nuclear materials and nuclear delive
 
 ### 1.3 Nuclear materials
 
-The IAEA’s efforts to verify horizontal nonproliferation focus on tracking uranium and plutonium, certain forms of which can be made to undergo nuclear explosions. A major reason for this focus is that acquiring such weapon-usable nuclear material is the hardest step in making nuclear weapons; in contrast, nuclear bomb design and assembly are relatively simple \[[17](#bib.bib17)\]. Additionally, uranium and plutonium are relatively rare materials and emit radiation, which makes them unusually easy to track.
+The IAEA’s efforts to verify horizontal nonproliferation focus on tracking uranium and plutonium, certain forms of which can be made to undergo nuclear explosions. A major reason for this focus is that acquiring such weapon-usable nuclear material is the hardest step in making nuclear weapons; in contrast, nuclear bomb design and assembly are relatively simple {--{"author":"Luc's AI","timestamp":1787602444035}@@\[[17](#bib.bib17)\].--}{++{"author":"Luc's AI","timestamp":1787602444035}@@\[17\].++} Additionally, uranium and plutonium are relatively rare materials and emit radiation, which makes them unusually easy to track.
 
-Inconveniently, the production of nuclear energy involves materials and equipment that could easily be used to make nuclear weapons (in the absence of safeguards) \[[18](#bib.bib18)\].
+Inconveniently, the production of nuclear energy involves materials and equipment that could easily be used to make nuclear weapons (in the absence of safeguards) {--{"author":"Luc's AI","timestamp":1787602444570}@@\[[18](#bib.bib18)\].--}{++{"author":"Luc's AI","timestamp":1787602444570}@@\[18\].++}
 
 -   •
     
@@ -201,7 +201,7 @@ Inconveniently, the production of nuclear energy involves materials and equipmen
 
 ### 1.4 Nuclear delivery vehicles
 
-Nuclear delivery vehicles—whose numbers are restricted in various U.S.-U.S.S.R./Russia arms limitation treaties—are equipment designed to send nuclear weapons to their targets. The main such equipment is \[[19](#bib.bib19)\]:
+Nuclear delivery vehicles—whose numbers are restricted in various U.S.-U.S.S.R./Russia arms limitation treaties—are equipment designed to send nuclear weapons to their targets. The main such equipment is {--{"author":"Luc's AI","timestamp":1787602445083}@@\[[19](#bib.bib19)\]:--}{++{"author":"Luc's AI","timestamp":1787602445083}@@\[19\]:++}
 
 -   •
     
@@ -235,7 +235,7 @@ This section provides an overview of the wide range of methods used for nuclear 
 
 ### 2.1 Accounting and mandatory self-reporting
 
-Verification of horizontal nuclear nonproliferation and U.S.-U.S.S.R./Russia nuclear arms limitation treaties is largely done by verifying accounts of treaty-regulated items \[[20](#bib.bib20)\]\[[21](#bib.bib21)\]\[[22](#bib.bib22)\]\[[17](#bib.bib17)\]. The idea here is that, if an agency can verify the locations of all uranium and plutonium (or, in the case of U.S.-U.S.S.R./Russia treaties, the locations of all nuclear missiles, bombers, and/or deployed warheads) in a state, then the agency can verify that no uranium or plutonium has been diverted for nuclear weapon production (or that nuclear delivery vehicles’ numbers are below treaty limits).
+Verification of horizontal nuclear nonproliferation and U.S.-U.S.S.R./Russia nuclear arms limitation treaties is largely done by verifying accounts of treaty-regulated items {--{"author":"Luc's AI","timestamp":1787602445626}@@\[[20](#bib.bib20)\]\[[21](#bib.bib21)\]\[[22](#bib.bib22)\]\[[17](#bib.bib17)\].--}{++{"author":"Luc's AI","timestamp":1787602445626}@@\[20\]\[21\]\[22\]\[17\].++} The idea here is that, if an agency can verify the locations of all uranium and plutonium (or, in the case of U.S.-U.S.S.R./Russia treaties, the locations of all nuclear missiles, bombers, and/or deployed warheads) in a state, then the agency can verify that no uranium or plutonium has been diverted for nuclear weapon production (or that nuclear delivery vehicles’ numbers are below treaty limits).
 
 State parties to the NPT and to several U.S.-U.S.S.R./Russia treaties are required to regularly self-report the quantities and locations of treaty-restricted items and facilities in their territories.[^25] To achieve this, states require domestic facility operators to track and report on regulated items. The remainder of these treaties’ M&V systems focus on verifying these state reports.
 
