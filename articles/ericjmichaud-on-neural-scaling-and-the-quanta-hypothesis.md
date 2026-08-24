@@ -129,7 +129,9 @@ Let {--{"author":"AI","timestamp":1787562539131}@@p\_k--}{++{"author":"AI","time
 
 What if we learned the first $n$ quanta? Then the mean loss is:{++{"author":"AI","timestamp":1787562546043}@@
 
-$$++} L(n) = L(0) - {--{"author":"AI","timestamp":1787562546043}@@\\sum\_{k=1}^n \\Delta \\cdot p\_k, --}{++{"author":"AI","timestamp":1787562546043}@@\sum_{k=1}^n \Delta \cdot p_k, $$
+$$++}{--{"author":"AI","timestamp":1787563333625}@@ --}{++{"author":"AI","timestamp":1787563333625}@@
+++}L(n) = L(0) - {--{"author":"AI","timestamp":1787563333625}@@\\sum\_{k=1}^n \\Delta \\cdot p\_k, --}{++{"author":"AI","timestamp":1787563333625}@@\sum_{k=1}^n \Delta \cdot p_k,
+$$
 
 ++}where $L(0)$ is the model's loss when no quanta have been learned. For instance, we could imagine $L(0)$ being the loss of a model that outputs a uniform distribution over the tokens, or which outputs the individual token frequencies, but otherwise has learned no knowledge or sophisticated computational modules. If {--{"author":"AI","timestamp":1787562546043}@@p\_k--}{++{"author":"AI","timestamp":1787562546043}@@$p_k++} = A {--{"author":"AI","timestamp":1787562546043}@@k^{-(\\alpha--}{++{"author":"AI","timestamp":1787562546043}@@k^{-(\alpha++} + {--{"author":"AI","timestamp":1787562546043}@@1)},--}{++{"author":"AI","timestamp":1787562546043}@@1)}$,++} we can approximate this sum as an integral, giving:{--{"author":"AI","timestamp":1787562546043}@@ \\begin{aligned} --}{++{"author":"AI","timestamp":1787562546043}@@
 
@@ -141,9 +143,11 @@ $$
 \end{aligned}
 $$
 
-++}and so:{--{"author":"AI","timestamp":1787562546043}@@ \\boxed{L(n) \\approx L\_\\infty--}{++{"author":"AI","timestamp":1787562546043}@@
+++}and so:{--{"author":"AI","timestamp":1787563337691}@@ \\boxed{L(n) \\approx L\_\\infty--}{++{"author":"AI","timestamp":1787563337691}@@
 
-$$ \boxed{L(n) \approx L_\infty++} + C {--{"author":"AI","timestamp":1787562546043}@@n^{-\\alpha}.} --}{++{"author":"AI","timestamp":1787562546043}@@n^{-\alpha}.} $$
+$$
+\boxed{L(n) \approx L_\infty++} + C {--{"author":"AI","timestamp":1787563337691}@@n^{-\\alpha}.} --}{++{"author":"AI","timestamp":1787563337691}@@n^{-\alpha}.}
+$$
 
 ++}where {--{"author":"AI","timestamp":1787562546043}@@C--}{++{"author":"AI","timestamp":1787562546043}@@$C++} = {--{"author":"AI","timestamp":1787562546043}@@A\\Delta--}{++{"author":"AI","timestamp":1787562546043}@@A\Delta++} / {--{"author":"AI","timestamp":1787562546043}@@\\alpha.--}{++{"author":"AI","timestamp":1787562546043}@@\alpha$.++}
 
