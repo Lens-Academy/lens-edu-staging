@@ -540,7 +540,7 @@ It would be interesting to see whether functional forms like this, which have a 
 
 Looking forward, I suspect that there is a very nice paper waiting to be written which develops a model of joint parameter, data, and step scaling and which relaxes the quanta model. One possible direction could be to frame the optimization problem as a kind of implicit competition within the network between quickly learning memorizing solutions of low complexity and more slowly learning general solutions of higher complexity, taking inspiration from [this explanation of grokking](https://arxiv.org/abs/2309.02390), and invoking minimum-description length arguments. One could aim to explain [memorization scaling laws](https://arxiv.org/abs/2505.24832) too with such a model. [Pan et al. (2025)](https://arxiv.org/abs/2504.09597v6) and [Ari Brill gestured](https://openreview.net/notes/edits/attachment?id=kaw40vezr3&name=pdf) in this direction in some recent work as well.
 
-## \\alpha\_N versus \\alpha\_D and Besiroglu et al.
+## {--{"author":"AI","timestamp":1787563438045}@@\\alpha\_N--}{++{"author":"AI","timestamp":1787563438045}@@$\alpha_N$++} versus {--{"author":"AI","timestamp":1787563438045}@@\\alpha\_D--}{++{"author":"AI","timestamp":1787563438045}@@$\alpha_D$++} and Besiroglu et al.
 
 In our model, \\alpha\_N = \\alpha and \\alpha\_D = \\alpha / (1 + \\alpha). Does this relationship hold in practice? Below, we plot the scaling exponents \\alpha\_N and \\alpha\_D (or possibly \\alpha\_S) that have been observed in practice across a variety of scaling laws papers. In the quanta model, we'd expect that \\alpha\_D = \\alpha\_N / (1 + \\alpha\_N), and we plot this line in black:
 
