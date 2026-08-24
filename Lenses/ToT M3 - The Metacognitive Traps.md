@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1787568516581}@@---
+---
 id: '89d98880-a5ce-4e4d-b060-92f30f683153'
 title: "Three Traps AI Adds"
 duration_minutes: 9
@@ -49,4 +49,4 @@ Response style: warm but rigorous. Do not over-validate; avoid generic praise. C
 
 What to do: acknowledge the example specifically; if they named a trap outside the three, gently map it back; if they skipped the "why," ask what makes it easy to miss; close by sending them to the next lens.
 
-What not to do: run a multi-turn socratic sequence; re-teach the five Unit 2 traps; adjudicate their habits. This is one turn, then send them on.++}
+What not to do: run a multi-turn socratic sequence; re-teach the five Unit 2 traps; adjudicate their habits. This is one turn, then send them on.

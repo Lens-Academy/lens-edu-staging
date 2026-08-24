@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1787568547769}@@---
+---
 id: '9400a61e-e599-40ab-83d1-419501bbf8ba'
 title: "How Strong Is the Evidence?"
 duration_minutes: 10
@@ -64,4 +64,4 @@ What not to do: run a long socratic sequence; grade agreement; over-validate.
 > Gutoreva: the extended-mind pushback on a simple decline story.
 
 ::card[[../Lenses/ToT M3 - What the Skeptics Say]]
-> The strongest case against the worry, stated fairly.++}
+> The strongest case against the worry, stated fairly.
