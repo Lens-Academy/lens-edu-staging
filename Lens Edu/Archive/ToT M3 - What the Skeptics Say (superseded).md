@@ -1,5 +1,5 @@
 ---
-id: '63f3753b-5b7e-4614-8433-b4910317e9d1'
+id: {--{"author":"Leo's AI","timestamp":1787568314512}@@'63f3753b-5b7e-4614-8433-b4910317e9d1'--}{++{"author":"Leo's AI","timestamp":1787568314512}@@'b7f6a5e4-8d9c-4c9a-8b2e-7d6c5b4a3f2e'++}
 title: "What the Skeptics Say"
 tldr: "The strongest objections are real: most studies are self-reports, one flagship survey was even corrected, and past offloading (writing, calculators) reorganised rather than weakened minds. A fair read of the evidence still supports concern, but only about specific patterns of use, not a blanket panic."
 summary_for_tutor: "Skeptical/complicating evidence lens for Unit 3 of 'Thinking about Thinking'. Presents the strongest case against the offloading worry, inlining two open-access pieces: Yu et al.'s 'speedup illusion' (AI cuts perceived effort, not actual time) and Gutoreva et al.'s 'Position: AI as Part of Self' (extended-mind pushback; past offloading led to reorganisation; the risk is treating AI as an authority). Authored framing covers the Gerlich self-report correction, genuinely mixed findings, the adults-atrophy vs novices-foreclosure distinction, and automation vs augmentation. Then Recall, Processing, and a Learning Question whose wedge is a skeptic calling the whole worry media panic."

@@ -1,5 +1,5 @@
 ---
-id: 'aa724a1e-ced8-46ff-9f99-7743b6a7d090'
+id: {--{"author":"Leo's AI","timestamp":1787568313173}@@'aa724a1e-ced8-46ff-9f99-7743b6a7d090'--}{++{"author":"Leo's AI","timestamp":1787568313173}@@'a6e5f4d3-7c8b-4c9a-8b2e-6c5b4a3f2e1d'++}
 title: "Gerlich: AI use and critical thinking"
 reading_minutes: 5{++{"author":"AI","timestamp":1787326246416}@@
 tutor_minutes: 5++}
