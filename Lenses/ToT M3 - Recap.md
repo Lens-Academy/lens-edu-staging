@@ -1,4 +1,4 @@
-{++{"author":"Course Author's AI","timestamp":1787572417547}@@---
+---
 id: '8225b73a-e889-48de-ad7b-683d593d2d64'
 title: "Your Verdict"
 duration_minutes: 5
@@ -33,4 +33,4 @@ Response length: 150 to 250 words. Short paragraphs only. No lists.
 
 Claims a strong learner may challenge, without penalty: that the workplace studies predict societal disempowerment at all; that self-reported critical-thinking effort tracks real behaviour; that the Budzyń drop reflects deskilling rather than other secular trends; and any claim about long-run effects, since no study here measures them. What they may NOT do: deny that Lee found an association between confidence and reported critical thinking, or misstate what a survey can and cannot show.
 
-What not to do: grade agreement; over-validate; ask the learner to recall study names or percentages the core did not require.++}
+What not to do: grade agreement; over-validate; ask the learner to recall study names or percentages the core did not require.
