@@ -14,9 +14,9 @@ source:: [[../articles/AI Safety Atlas - Risks - Systemic Risks|Systemic Risks]]
 id:: 68389f0e-58ba-4b72-a6cb-a18a08900347
 optional:: true
 content::
-The section describes epistemic erosion as the sum of many decisions that each make sense on their own: news organizations cutting costs with AI content, media companies chasing engagement with synthetic content, research institutions writing papers faster. It then says technical mitigations applied one at a time do not counter systemic pressures and incentives.
+The section {--{"author":"Elias's AI","timestamp":1787567716609}@@describes epistemic erosion as the sum of many decisions that each make sense on their own: news organizations cutting costs with AI content, media companies chasing engagement with synthetic content, research institutions writing papers faster. It then says technical mitigations applied one at a time do not counter systemic pressures --}{++{"author":"Elias's AI","timestamp":1787567716609}@@names five accumulative risks: epistemic erosion, power concentration, mass unemployment, value lock-in ++}and {--{"author":"Elias's AI","timestamp":1787567716609}@@incentives.--}{++{"author":"Elias's AI","timestamp":1787567716609}@@enfeeblement.++}
 
-If no single decision in that chain is unreasonable, where would you look for something that could actually change the outcome?
+{--{"author":"Elias's AI","timestamp":1787567716609}@@If no single decision in that chain is unreasonable, where would you look for something--}{++{"author":"Elias's AI","timestamp":1787567716609}@@Which would you find hardest to reverse once it had set in, and why++} that{--{"author":"Elias's AI","timestamp":1787567716609}@@ could actually change the outcome?--}{++{"author":"Elias's AI","timestamp":1787567716609}@@ one?++}
 feedback-instructions::
 The learner has just read the AI Safety Atlas section "Systemic Risks" and written a reflection. This is a reflection, not a test. There is no answer you are checking against, and you should not tell them whether they got it right.
 
