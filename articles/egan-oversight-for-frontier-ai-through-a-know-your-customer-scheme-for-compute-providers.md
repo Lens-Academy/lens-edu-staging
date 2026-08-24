@@ -352,22 +352,22 @@ We are grateful for valuable feedback and suggestion from Markus Anderljung, Tim
 {--{"author":"Luc's AI","timestamp":1787602163653}@@[^4]:--}{++{"author":"Luc's AI","timestamp":1787602163653}@@[^note-4]:++} In this paper, we are primarily addressing the governance of AI systems development. Questions about potential large-scale deployment, i.e. inference compute, are outside the scope of this particular discussion. However, the oversight of deployment compute might also be a future policy tool for regulating AI deployment (Appendix A in \[[43](#bib.bibx43)\]; Brundage et al., forthcoming).
 {--{"author":"Luc's AI","timestamp":1787602164135}@@[^5]:--}{++{"author":"Luc's AI","timestamp":1787602164135}@@[^note-5]:++} \[[50](#bib.bibx50)\].
 {--{"author":"Luc's AI","timestamp":1787602164658}@@[^6]:--}{++{"author":"Luc's AI","timestamp":1787602164658}@@[^note-6]:++} \[[10](#bib.bibx10)\].
-[^7]: \[[23](#bib.bibx23)\].
-[^8]: China’s use of a single, or small number of export-controlled chips is unlikely to be of concern to US interests, as it would not offer advantage over existing domestic Chinese AI capabilities.
-[^9]: Furthermore, these entities could also encompass AI agents themselves. Consider, for instance, an AI model exhibiting behaviors akin to a computer worm, actively seeking to acquire additional compute resources (e..g, for self-replication). Measures should be in place to ensure that such entities accessing compute are legitimate legal entities, thereby preventing rogue AI systems from taking unauthorized actions.
-[^10]: For example, through Government-Industry engagement on malicious cyber activity, intelligence monitoring of actors of concern etc.
-[^11]: \[[21](#bib.bibx21)\].
-[^12]: \[[26](#bib.bibx26)\].
-[^13]: \[[22](#bib.bibx22)\].
-[^15]: \[[18](#bib.bibx18)\].
-[^16]: \[[29](#bib.bibx29)\].
-[^17]: \[[16](#bib.bibx16)\].
-[^18]: \[[17](#bib.bibx17)\].
-[^19]: \[[34](#bib.bibx34)\].
-[^20]: \[[11](#bib.bibx11)\].
-[^21]: \[[45](#bib.bibx45)\].
-[^22]: \[[35](#bib.bibx35)\].
-[^23]: \[[36](#bib.bibx36)\].
+{--{"author":"Luc's AI","timestamp":1787602165183}@@[^7]:--}{++{"author":"Luc's AI","timestamp":1787602165183}@@[^note-7]:++} \[[23](#bib.bibx23)\].
+{--{"author":"Luc's AI","timestamp":1787602165640}@@[^8]:--}{++{"author":"Luc's AI","timestamp":1787602165640}@@[^note-8]:++} China’s use of a single, or small number of export-controlled chips is unlikely to be of concern to US interests, as it would not offer advantage over existing domestic Chinese AI capabilities.
+{--{"author":"Luc's AI","timestamp":1787602166159}@@[^9]:--}{++{"author":"Luc's AI","timestamp":1787602166159}@@[^note-9]:++} Furthermore, these entities could also encompass AI agents themselves. Consider, for instance, an AI model exhibiting behaviors akin to a computer worm, actively seeking to acquire additional compute resources (e..g, for self-replication). Measures should be in place to ensure that such entities accessing compute are legitimate legal entities, thereby preventing rogue AI systems from taking unauthorized actions.
+{--{"author":"Luc's AI","timestamp":1787602166590}@@[^10]:--}{++{"author":"Luc's AI","timestamp":1787602166590}@@[^note-10]:++} For example, through Government-Industry engagement on malicious cyber activity, intelligence monitoring of actors of concern etc.
+{--{"author":"Luc's AI","timestamp":1787602167055}@@[^11]:--}{++{"author":"Luc's AI","timestamp":1787602167055}@@[^note-11]:++} \[[21](#bib.bibx21)\].
+{--{"author":"Luc's AI","timestamp":1787602167567}@@[^12]:--}{++{"author":"Luc's AI","timestamp":1787602167567}@@[^note-12]:++} \[[26](#bib.bibx26)\].
+{--{"author":"Luc's AI","timestamp":1787602168006}@@[^13]:--}{++{"author":"Luc's AI","timestamp":1787602168006}@@[^note-13]:++} \[[22](#bib.bibx22)\].
+{--{"author":"Luc's AI","timestamp":1787602168463}@@[^15]:--}{++{"author":"Luc's AI","timestamp":1787602168463}@@[^note-15]:++} \[[18](#bib.bibx18)\].
+{--{"author":"Luc's AI","timestamp":1787602169951}@@[^16]:--}{++{"author":"Luc's AI","timestamp":1787602169951}@@[^note-16]:++} \[[29](#bib.bibx29)\].
+{--{"author":"Luc's AI","timestamp":1787602170592}@@[^17]:--}{++{"author":"Luc's AI","timestamp":1787602170592}@@[^note-17]:++} \[[16](#bib.bibx16)\].
+{--{"author":"Luc's AI","timestamp":1787602171053}@@[^18]:--}{++{"author":"Luc's AI","timestamp":1787602171053}@@[^note-18]:++} \[[17](#bib.bibx17)\].
+{--{"author":"Luc's AI","timestamp":1787602171543}@@[^19]:--}{++{"author":"Luc's AI","timestamp":1787602171543}@@[^note-19]:++} \[[34](#bib.bibx34)\].
+{--{"author":"Luc's AI","timestamp":1787602172030}@@[^20]:--}{++{"author":"Luc's AI","timestamp":1787602172030}@@[^note-20]:++} \[[11](#bib.bibx11)\].
+{--{"author":"Luc's AI","timestamp":1787602172504}@@[^21]:--}{++{"author":"Luc's AI","timestamp":1787602172504}@@[^note-21]:++} \[[45](#bib.bibx45)\].
+{--{"author":"Luc's AI","timestamp":1787602173046}@@[^22]:--}{++{"author":"Luc's AI","timestamp":1787602173046}@@[^note-22]:++} \[[35](#bib.bibx35)\].
+{--{"author":"Luc's AI","timestamp":1787602173524}@@[^23]:--}{++{"author":"Luc's AI","timestamp":1787602173524}@@[^note-23]:++} \[[36](#bib.bibx36)\].
 [^24]: \[[51](#bib.bibx51)\].
 [^25]: \[[36](#bib.bibx36)\].
 [^26]: \[[14](#bib.bibx14)\].
