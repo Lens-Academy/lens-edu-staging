@@ -35,7 +35,7 @@ We are two research scientists at the Machine Intelligence Research Institute, a
 
 ![If Anyone Builds It Everyone Dies by Eliezer Yudkowsky and Nate Soares|645x1000](https://cdn.theatlantic.com/media/files/61hjpxgdtil_uf10001000_ql80_.jpg)
 
-This essay has been adapted from the forthcoming book, If Anyone Builds It, Everyone Dies.
+{--{"author":"AI","timestamp":1787567847071}@@This--}{++{"author":"AI","timestamp":1787567847071}@@_This++} essay has been adapted from the forthcoming book, If Anyone Builds It, Everyone {--{"author":"AI","timestamp":1787567847071}@@Dies.--}{++{"author":"AI","timestamp":1787567847071}@@Dies._++}
 
 Here’s what today’s AI “parents” do: Engineers assemble an enormous pile of highly specialized computer chips, a pile so large that powering them all takes as much [electricity](https://archive.is/o/blU6r/https://www.theatlantic.com/technology/archive/2023/08/ai-carbon-emissions-data-centers/675094/) as powering a small city. They design what’s called an “architecture,” which is—roughly speaking—billions of slots in computer memory holding billions of numbers hooked together by trillions of basic mathematical operations, in a simple repeating pattern. And they assemble a data set: trillions and trillions of words off the internet, whatever words they can scrape together. Then the AI begins training.
 
