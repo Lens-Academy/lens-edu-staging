@@ -8,15 +8,15 @@ title: "Leveraging Scale"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Leveraging Scale|Leveraging Scale]]{++{"author":"Elias's AI","timestamp":1787562808400}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Leveraging Scale|Leveraging Scale]]{++{"author":"Elias's AI","timestamp":1787563290509}@@
 
 #### Question: Open
 id:: 7d2c8384-b9cc-4928-813e-208456e40a83
 optional:: true
 content::
-The bitter lesson says the algorithms that win are the ones that unlock scale.
+The bitter lesson says the algorithms that win are the ones that unlock scale. The section also reports that between 60 and 95 percent of recent gains came from compute and data.
 
-Take a minute on what that implies: is "compute versus algorithms" a real split, or two names for the same thing? The field has not settled this, so your reasoning is the interesting part, not your verdict. Use this to think it through if you want to, and the tutor will take it from there.
+Take a minute: if you had to forecast the next three years and could track only one of the two, which would you pick, and what would you be blind to?
 feedback-instructions::
 The learner has just read the AI Safety Atlas section "Leveraging Scale" and written a reflection. This is a reflection, not a test. There is no answer you are checking against, and you should not tell them whether they got it right.
 

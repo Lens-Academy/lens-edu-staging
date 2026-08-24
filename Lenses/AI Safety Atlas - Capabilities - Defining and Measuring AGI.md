@@ -8,7 +8,7 @@ title: "Defining and Measuring AGI"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Defining and Measuring AGI|Defining and Measuring AGI]]{++{"author":"Elias's AI","timestamp":1787562797939}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Defining and Measuring AGI|Defining and Measuring AGI]]{++{"author":"Elias's AI","timestamp":1787563287856}@@
 
 #### Question: Open
 id:: 982166b9-ee07-45e8-ac2d-6a6f523f7407
@@ -16,7 +16,7 @@ optional:: true
 content::
 The framework leaves autonomy out of the definition on purpose, and hands it to the risks chapter instead.
 
-Sit with that for a minute. If you were setting the threshold that triggers regulation, would you put autonomy back in? What do you lose either way? Use this to think it through if you want to, and the tutor will take it from there.
+Sit with that for a minute. If you were setting the threshold that triggers regulation, would you put autonomy back in? What do you lose either way?
 feedback-instructions::
 The learner has just read the AI Safety Atlas section "Defining and Measuring AGI" and written a reflection. This is a reflection, not a test. There is no answer you are checking against, and you should not tell them whether they got it right.
 
