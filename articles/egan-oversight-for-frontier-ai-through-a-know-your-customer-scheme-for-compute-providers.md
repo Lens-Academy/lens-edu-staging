@@ -368,23 +368,23 @@ We are grateful for valuable feedback and suggestion from Markus Anderljung, Tim
 {--{"author":"Luc's AI","timestamp":1787602172504}@@[^21]:--}{++{"author":"Luc's AI","timestamp":1787602172504}@@[^note-21]:++} \[[45](#bib.bibx45)\].
 {--{"author":"Luc's AI","timestamp":1787602173046}@@[^22]:--}{++{"author":"Luc's AI","timestamp":1787602173046}@@[^note-22]:++} \[[35](#bib.bibx35)\].
 {--{"author":"Luc's AI","timestamp":1787602173524}@@[^23]:--}{++{"author":"Luc's AI","timestamp":1787602173524}@@[^note-23]:++} \[[36](#bib.bibx36)\].
-[^24]: \[[51](#bib.bibx51)\].
-[^25]: \[[36](#bib.bibx36)\].
-[^26]: \[[14](#bib.bibx14)\].
-[^27]: Here we focus on compute used for the development of advanced AI systems, and potential large scale deployment. We do not answer the question of inference compute.
-[^28]: This paper does not propose expanding export controls to prevent entities beyond the Entity List from accessing cloud compute. Instead, we recommend KYC is used to develop a more nuanced understanding of the risks of PRC use of US compute. Given the flexible, digital controls it enables, it can be quickly applied once risks are identified.
-[^29]: As defined in FinCEN’s final rule implementing beneficial ownership information reporting requirements, a beneficial owner is ‘any individual who, directly or indirectly, either (1) exercises substantial control over a reporting company, or (2) owns or controls at least 25 percent of the ownership interests of a reporting company. \[[19](#bib.bibx19)\]
-[^30]: \[[44](#bib.bibx44)\].
-[^31]: \[[7](#bib.bibx7)\].
-[^32]: \[[5](#bib.bibx5)\].
-[^33]: As at August 2023, these are DPRK, Iran and Myanmar. \[[17](#bib.bibx17)\].
-[^34]: \[[60](#bib.bibx60)\].
-[^35]: This could involve scouring the darkweb for evidence of undisclosed/underhand resale of substantial AI compute power; and/or intelligence gathering and analysis, depending on the nature of the identified risks.
-[^36]: \[[13](#bib.bibx13)\].
-[^37]: \[[13](#bib.bibx13)\].
-[^38]: \[[48](#bib.bibx48)\].
-[^39]: \[[33](#bib.bibx33)\].
-[^40]: \[[8](#bib.bibx8)\].
+{--{"author":"Luc's AI","timestamp":1787602174025}@@[^24]:--}{++{"author":"Luc's AI","timestamp":1787602174025}@@[^note-24]:++} \[[51](#bib.bibx51)\].
+{--{"author":"Luc's AI","timestamp":1787602174495}@@[^25]:--}{++{"author":"Luc's AI","timestamp":1787602174495}@@[^note-25]:++} \[[36](#bib.bibx36)\].
+{--{"author":"Luc's AI","timestamp":1787602174947}@@[^26]:--}{++{"author":"Luc's AI","timestamp":1787602174947}@@[^note-26]:++} \[[14](#bib.bibx14)\].
+{--{"author":"Luc's AI","timestamp":1787602175491}@@[^27]:--}{++{"author":"Luc's AI","timestamp":1787602175491}@@[^note-27]:++} Here we focus on compute used for the development of advanced AI systems, and potential large scale deployment. We do not answer the question of inference compute.
+{--{"author":"Luc's AI","timestamp":1787602176012}@@[^28]:--}{++{"author":"Luc's AI","timestamp":1787602176012}@@[^note-28]:++} This paper does not propose expanding export controls to prevent entities beyond the Entity List from accessing cloud compute. Instead, we recommend KYC is used to develop a more nuanced understanding of the risks of PRC use of US compute. Given the flexible, digital controls it enables, it can be quickly applied once risks are identified.
+{--{"author":"Luc's AI","timestamp":1787602176510}@@[^29]:--}{++{"author":"Luc's AI","timestamp":1787602176510}@@[^note-29]:++} As defined in FinCEN’s final rule implementing beneficial ownership information reporting requirements, a beneficial owner is ‘any individual who, directly or indirectly, either (1) exercises substantial control over a reporting company, or (2) owns or controls at least 25 percent of the ownership interests of a reporting company. \[[19](#bib.bibx19)\]
+{--{"author":"Luc's AI","timestamp":1787602176967}@@[^30]:--}{++{"author":"Luc's AI","timestamp":1787602176967}@@[^note-30]:++} \[[44](#bib.bibx44)\].
+{--{"author":"Luc's AI","timestamp":1787602177471}@@[^31]:--}{++{"author":"Luc's AI","timestamp":1787602177471}@@[^note-31]:++} \[[7](#bib.bibx7)\].
+{--{"author":"Luc's AI","timestamp":1787602177961}@@[^32]:--}{++{"author":"Luc's AI","timestamp":1787602177961}@@[^note-32]:++} \[[5](#bib.bibx5)\].
+{--{"author":"Luc's AI","timestamp":1787602178426}@@[^33]:--}{++{"author":"Luc's AI","timestamp":1787602178426}@@[^note-33]:++} As at August 2023, these are DPRK, Iran and Myanmar. \[[17](#bib.bibx17)\].
+{--{"author":"Luc's AI","timestamp":1787602178907}@@[^34]:--}{++{"author":"Luc's AI","timestamp":1787602178907}@@[^note-34]:++} \[[60](#bib.bibx60)\].
+{--{"author":"Luc's AI","timestamp":1787602179468}@@[^35]:--}{++{"author":"Luc's AI","timestamp":1787602179468}@@[^note-35]:++} This could involve scouring the darkweb for evidence of undisclosed/underhand resale of substantial AI compute power; and/or intelligence gathering and analysis, depending on the nature of the identified risks.
+{--{"author":"Luc's AI","timestamp":1787602180094}@@[^36]:--}{++{"author":"Luc's AI","timestamp":1787602180094}@@[^note-36]:++} \[[13](#bib.bibx13)\].
+{--{"author":"Luc's AI","timestamp":1787602180579}@@[^37]:--}{++{"author":"Luc's AI","timestamp":1787602180579}@@[^note-37]:++} \[[13](#bib.bibx13)\].
+{--{"author":"Luc's AI","timestamp":1787602181109}@@[^38]:--}{++{"author":"Luc's AI","timestamp":1787602181109}@@[^note-38]:++} \[[48](#bib.bibx48)\].
+{--{"author":"Luc's AI","timestamp":1787602181594}@@[^39]:--}{++{"author":"Luc's AI","timestamp":1787602181594}@@[^note-39]:++} \[[33](#bib.bibx33)\].
+{--{"author":"Luc's AI","timestamp":1787602182064}@@[^40]:--}{++{"author":"Luc's AI","timestamp":1787602182064}@@[^note-40]:++} \[[8](#bib.bibx8)\].
 [^41]: \[[25](#bib.bibx25)\].
 [^42]: \[[63](#bib.bibx63)\].
 [^43]: \[[63](#bib.bibx63)\].
