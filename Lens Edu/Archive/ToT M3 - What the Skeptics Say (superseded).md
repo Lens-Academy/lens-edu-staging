@@ -15,12 +15,12 @@ This lens does the opposite of the others: it makes the strongest case *against*
 Read the two short pieces below. While you read, hold two questions: what does each piece get right, and how far does it actually go?
 
 #### Article
-source:: [[../articles/yu-cognitive-offloading-and-the-speedup-illusion-in-human-ai-interaction]]
+source:: [[../../articles/yu-cognitive-offloading-and-the-speedup-illusion-in-human-ai-interaction]]
 from:: "Large language models (LLMs) have the potential to boost human productivity by speeding up task completion—provided users know when to offload cognitive work to them."
 to:: "This suggests that completion time itself is not sufficient to characterize efficiency gains."
 
 #### Article
-source:: [[../articles/gutoreva-position-ai-as-part-of-self-extending-the-mind-requires-cognitive-co-regulation]]
+source:: [[../../articles/gutoreva-position-ai-as-part-of-self-extending-the-mind-requires-cognitive-co-regulation]]
 from:: "Concerns about deskilling are not unique to artificial intelligence."
 to:: "constitutive of human intelligence as it has evolved across cultural and technological environments."
 
