@@ -13,7 +13,7 @@ source:: [[../articles/AI Safety Atlas - Capabilities - Introduction|Introductio
 #### Text
 optional:: true
 content::
-The chapter is aiming at sentences like "this system performs at the 85th percentile across 30% of cognitive domains." If that already sounds like the wrong shape of claim to you, say so now, before the chapter argues you into it.
+The chapter {--{"author":"Elias's AI","timestamp":1787566621630}@@is aiming at sentences like "this system performs at the 85th percentile--}{++{"author":"Elias's AI","timestamp":1787566621630}@@will end up describing systems with sentences like "expert level++} across {--{"author":"Elias's AI","timestamp":1787566621630}@@30%--}{++{"author":"Elias's AI","timestamp":1787566621630}@@30 percent++} of cognitive domains." {--{"author":"Elias's AI","timestamp":1787566621630}@@If--}{++{"author":"Elias's AI","timestamp":1787566621630}@@Is++} that{--{"author":"Elias's AI","timestamp":1787566621630}@@ already sounds like--} the {--{"author":"Elias's AI","timestamp":1787566621630}@@wrong--}{++{"author":"Elias's AI","timestamp":1787566621630}@@right++} shape of claim to {--{"author":"Elias's AI","timestamp":1787566621630}@@you, say so --}{++{"author":"Elias's AI","timestamp":1787566621630}@@make about intelligence? Take a position with the tutor ++}now, before the chapter argues you into {--{"author":"Elias's AI","timestamp":1787566621630}@@it.--}{++{"author":"Elias's AI","timestamp":1787566621630}@@one.++}
 
 #### Chat
 optional:: true
@@ -28,7 +28,7 @@ topics to explore:
 
 The learner has read six minutes of framing and nothing else. Do not supply material from later sections: no definition of AGI beyond what the framing states, no scaling results, no benchmark figures. If they ask, say the chapter gets there.
 
-Do not name a year, discuss whether any arrival date is early or late, repeat the chapter's 2030 versus 2050 illustration, or ask the learner for a forecast of their own. A later lens asks them to commit to a year unprimed, and the end of the chapter comes back to it. If they volunteer a date, do not evaluate it, extend it, or ask them to justify it.
+Do not name a year, discuss whether any arrival date is early or late, repeat the chapter's 2030 versus 2050 illustration, or ask the learner for a forecast of their own. A later lens asks them to commit to a {--{"author":"Elias's AI","timestamp":1787566624413}@@year--}{++{"author":"Elias's AI","timestamp":1787566624413}@@number of years++} unprimed, and the end of the chapter comes back to it. If they volunteer a date, do not evaluate it, extend it, or ask them to justify it.
 
 Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.
 
