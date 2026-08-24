@@ -1,7 +1,7 @@
 ---
 id: '3298cbce-c5aa-4d1b-8220-fba3379899fa'
 slug: tot-m3
-title: {--{"author":"Leo's AI","timestamp":1787567440419}@@"Is Cognitive Offloading Risky?"--}{++{"author":"Leo's AI","timestamp":1787567440419}@@"A Route to Gradual Disempowerment"++}
+title: "Is Cognitive Offloading Risky?"
 tags:
   - wip
 ---
@@ -10,61 +10,43 @@ tags:
 source:: [[../Lenses/ToT M3 - Gradual Disempowerment - PQ]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - The {--{"author":"Leo's AI","timestamp":1787567340769}@@Evidence About AI and Thinking]]--}{++{"author":"Leo's AI","timestamp":1787567340769}@@Metacognitive Traps]]++}
+source:: [[../Lenses/ToT M3 - The Evidence About AI and Thinking]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - Paper - {--{"author":"Leo's AI","timestamp":1787567340769}@@Bednar (Legal Study)]]--}{++{"author":"Leo's AI","timestamp":1787567340769}@@Lee (Microsoft)]]++}
+source:: [[../Lenses/ToT M3 - Paper - Bednar (Legal Study)]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - {--{"author":"Leo's AI","timestamp":1787567340769}@@Paper - Budzyn (Doctor Study)]]--}{++{"author":"Leo's AI","timestamp":1787567340769}@@When AI Helps and When It Harms]]++}
+source:: [[../Lenses/ToT M3 - Paper - Budzyn (Doctor Study)]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - {--{"author":"Leo's AI","timestamp":1787567340769}@@Paper--}{++{"author":"Leo's AI","timestamp":1787567340769}@@The Evidence++} - {--{"author":"Leo's AI","timestamp":1787567340769}@@Gerlich]]--}{++{"author":"Leo's AI","timestamp":1787567340769}@@Synthesis]]++}
+source:: [[../Lenses/ToT M3 - Paper - Gerlich]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - {--{"author":"Leo's AI","timestamp":1787567340769}@@Paper - Lee (Microsoft)]]--}{++{"author":"Leo's AI","timestamp":1787567340769}@@Gradual Disempowerment]]
+source:: [[../Lenses/ToT M3 - Paper - Lee (Microsoft)]]
 
 # Lens:
-source:: [[../Lens Edu/Archive/ToT M3 - Recap (superseded)]]++}
-
-# {++{"author":"Leo's AI","timestamp":1787567340769}@@Submodule: Evidence Library (optional, learner-auditable)
-# ++}Lens:
-source:: [[../Lenses/ToT M3 - {--{"author":"Leo's AI","timestamp":1787567340769}@@Paper - Seifer]]--}{++{"author":"Leo's AI","timestamp":1787567340769}@@The Evidence About AI and Thinking]]
-optional:: true++}
+source:: [[../Lenses/ToT M3 - Paper - Seifer]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - Paper - {--{"author":"Leo's AI","timestamp":1787567340769}@@Gutoreva (Counterargument)]]--}{++{"author":"Leo's AI","timestamp":1787567340769}@@Bednar (Legal Study)]]
-optional:: true
-hide:: true++}
+source:: [[../Lenses/ToT M3 - Paper - Gutoreva (Counterargument)]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - {--{"author":"Leo's AI","timestamp":1787567340769}@@The Evidence - Synthesis]]--}{++{"author":"Leo's AI","timestamp":1787567340769}@@Paper - Budzyn (Doctor Study)]]
-optional:: true
-hide:: true++}
+source:: [[../Lenses/ToT M3 - The Evidence - Synthesis]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - {--{"author":"Leo's AI","timestamp":1787567340769}@@The Metacognitive Traps]]--}{++{"author":"Leo's AI","timestamp":1787567340769}@@Paper - Gerlich]]
-optional:: true
-hide:: true++}
+source:: [[../Lenses/ToT M3 - The Metacognitive Traps]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - {--{"author":"Leo's AI","timestamp":1787567340769}@@What the Skeptics Say]]--}{++{"author":"Leo's AI","timestamp":1787567340769}@@Paper - Seifer]]
-optional:: true
-hide:: true++}
+source:: [[../Lenses/ToT M3 - What the Skeptics Say]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - {--{"author":"Leo's AI","timestamp":1787567340769}@@Gradual Disempowerment - Intro]]--}{++{"author":"Leo's AI","timestamp":1787567340769}@@Paper - Gutoreva (Counterargument)]]
-optional:: true
-hide:: true++}
+source:: [[../Lenses/ToT M3 - Gradual Disempowerment - Intro]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - {--{"author":"Leo's AI","timestamp":1787567340769}@@Gradual Disempowerment]]--}{++{"author":"Leo's AI","timestamp":1787567340769}@@What the Skeptics Say]]
-optional:: true
-hide:: true++}
+source:: [[../Lenses/ToT M3 - Gradual Disempowerment]]
 
 # Lens:
-source:: [[../Lens Edu/Archive/ToT M3 - The Philosophy of Autonomy Loss (superseded)]]{--{"author":"Leo's AI","timestamp":1787567340769}@@
+source:: [[../Lens Edu/Archive/ToT M3 - The Philosophy of Autonomy Loss (superseded)]]
 
-# Lens:--}
-{--{"author":"Leo's AI","timestamp":1787567340769}@@source:: [[../Lens Edu/Archive/ToT M3 - Recap (superseded)]]--}{++{"author":"Leo's AI","timestamp":1787567340769}@@optional:: true
-hide:: true++}
+# Lens:
+source:: [[../Lens Edu/Archive/ToT M3 - Recap (superseded)]]
