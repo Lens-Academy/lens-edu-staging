@@ -20,9 +20,7 @@ This final block is meant to help you begin answering that question.
 ***
 Below is a common set of next steps for people who have just finished an introductory course in AI safety. This is not a career decision checklist. It is a menu of ways to learn more, meet people, test your fit, and begin contributing.
 
-**Learn more**{--{"author":"Plex's AI","timestamp":1787325046731}@@
-
- --}
+**Learn more**
 
 Visit AISafety.info's [How can I help?](https://aisafety.info/how-can-i-help) guide, which walks through concrete next steps based on your situation and interests.
 
