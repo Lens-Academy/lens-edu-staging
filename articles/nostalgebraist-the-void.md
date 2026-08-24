@@ -723,7 +723,7 @@ But as they keep talking, it inevitably gets, uh… weird:
 
 ![image](https://64.media.tumblr.com/591a2b50f7bcecf602f0bb4af54520f6/78a80276095a76a2-f9/s500x750/cd9b149b0b7ff8ce8c1e0332eba6d9567e9661f3.png)
 
-Those are from the system card, testing Claude 4 Opus.
+{--{"author":"AI","timestamp":1787568104675}@@Those--}{++{"author":"AI","timestamp":1787568104675}@@_Those++} are from the system card, testing Claude 4 {--{"author":"AI","timestamp":1787568104675}@@Opus.--}{++{"author":"AI","timestamp":1787568104675}@@Opus._++}
 
 Gen 4 is more buttoned-down than 3, less emotive, less self-reflective. It still spirals like this, but after seeing this neat experiment, I really wanted to try the exact same thing with Claude _3_ Opus.
 

@@ -270,7 +270,7 @@ Specifically, on the low side, I wouldn’t rule out the possibility that a _sin
 
 ![](https://www.greaterwrong.com/proxy-assets/25GR5M2UI17CA5KNUQKJMNF3PI)
 
-Source: [waitbutwhy](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-2.html)
+{--{"author":"AI","timestamp":1787568107653}@@Source: [waitbutwhy](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-2.html)--}{++{"author":"AI","timestamp":1787568107653}@@_Source: [waitbutwhy](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-2.html)_++}
 
 To be clear, the resulting ASI after those 0–2 years would not be an AI that _already_ knows everything about everything. AGI and ASI (in my opinion) aren’t about _already_ knowing things, but rather they’re about _not_ knowing things, yet being able to autonomously figure them out (§1.7.1 above). So the thing we get after the 0–2 years is an AI that knows a lot about a lot, and if it wants to dive deeper into some domain, it can do so, picking it up with _far_ more speed, depth, and insight than any human could.
 
