@@ -2,15 +2,18 @@
 id: a473124e-8550-4e7f-bd14-3ec03a085905
 tldr: "Why should rising AI capability worry us at all? This introduction hands you the map for the whole risks chapter: a way to sort any AI risk by what causes it (misuse, misalignment, or systemic effects), and how severe it gets, plus the amplifiers that quietly make every one of them worse."
 summary_for_tutor: "Sets up the organizing framework for the risks chapter. Argues that the same scaling trends driving AI progress also generate new categories of risk, then classifies risks along two dimensions: cause (misuse: humans directing AI to harm; misalignment: AI pursuing unintended goals; systemic: emergent effects of AI's integration into social, economic, and political systems) and severity (from individual harms to existential threats). Previews each cause category with examples, introduces risk amplifiers (race dynamics, accidents, corporate indifference, coordination failures, unpredictability), and emphasizes that real-world risks combine these factors rather than falling into clean categories."
-title: "Introduction"
+{++{"author":"Elias's AI","timestamp":1787566668700}@@reading_minutes: 8
+tutor_minutes: 7
+++}title: "Introduction"
 ---
 
 #### Article
 source:: [[../articles/AI Safety Atlas - Risks - Introduction]]
 
 #### Text
-content::
-This section turns the capability trends from the previous chapter into a map of risks, so if that step raises a question, use the tutor to talk it through.
+{++{"author":"Elias's AI","timestamp":1787566670778}@@optional:: true
+++}content::
+{--{"author":"Elias's AI","timestamp":1787566670778}@@This--}{++{"author":"Elias's AI","timestamp":1787566670778}@@The++} section {--{"author":"Elias's AI","timestamp":1787566670778}@@turns the capability trends from--}{++{"author":"Elias's AI","timestamp":1787566670778}@@claims these risks are inherent to++} the {--{"author":"Elias's AI","timestamp":1787566670778}@@previous chapter into--}{++{"author":"Elias's AI","timestamp":1787566670778}@@capability trends themselves, not++} a {--{"author":"Elias's AI","timestamp":1787566670778}@@map--}{++{"author":"Elias's AI","timestamp":1787566670778}@@side effect++} of {--{"author":"Elias's AI","timestamp":1787566670778}@@risks, so if that step raises a question, use the tutor--}{++{"author":"Elias's AI","timestamp":1787566670778}@@how particular systems get built. Do you buy that? Put it++} to{--{"author":"Elias's AI","timestamp":1787566670778}@@ talk it through.--}{++{"author":"Elias's AI","timestamp":1787566670778}@@ the tutor.++}
 
 #### Chat
 optional:: true
