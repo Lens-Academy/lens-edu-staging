@@ -11,8 +11,9 @@ tutor_minutes: 7
 source:: [[../articles/AI Safety Atlas - Risks - Misuse Risks|Misuse Risks]]
 
 #### Text
-content::
-This section moves through four different threat domains in a row, so if one of them stayed vague, walk through it with the tutor.
+{++{"author":"Elias's AI","timestamp":1787566699666}@@optional:: true
+++}content::
+{--{"author":"Elias's AI","timestamp":1787566699666}@@This section moves through four different threat domains in--}{++{"author":"Elias's AI","timestamp":1787566699666}@@Four threat domains, one claim holding them together: technology widens the harm++} a {--{"author":"Elias's AI","timestamp":1787566699666}@@row, so if one of them stayed vague, walk through --}{++{"author":"Elias's AI","timestamp":1787566699666}@@single person can do. Which domain supports that claim least well? Take ++}it {++{"author":"Elias's AI","timestamp":1787566699666}@@up ++}with the tutor.
 
 #### Chat
 optional:: true
