@@ -5,9 +5,9 @@ reading_minutes: 5
 tutor_minutes: 5
 tldr: "A randomised study of law students found early, engaged AI use improved their written analysis and even helped later work done without AI. But when strong students used AI to revise their own work, it made the good work worse."
 summary_for_tutor: {--{"author":"Course Author's AI","timestamp":1787572263406}@@"Paper --}{++{"author":"Course Author's AI","timestamp":1787572263406}@@"Optional evidence ++}lens for Unit 3 of 'Thinking about {--{"author":"Course Author's AI","timestamp":1787572263406}@@Thinking', the first of six individual-study lenses that follow the Evidence introduction.--}{++{"author":"Course Author's AI","timestamp":1787572263406}@@Thinking'.++} Presents Bednar and colleagues (2025): a randomised study of about 100 Minnesota law students. {--{"author":"Course Author's AI","timestamp":1787572263406}@@Authored intro flags the nuance (AI helped--}{++{"author":"Course Author's AI","timestamp":1787572263406}@@The claim the core course makes of this study: early AI use on++} synthesis {++{"author":"Course Author's AI","timestamp":1787572263406}@@improved analysis ++}and later no-AI performance, {--{"author":"Course Author's AI","timestamp":1787572263406}@@but regressed strong work at the revision stage). --}{++{"author":"Course Author's AI","timestamp":1787572263406}@@while AI revision of already-strong memos made them worse; help versus harm tracks conditions. Authored intro flags that nuance. ++}Inlines one excerpt from the imported article. Ends with one reflective 'Your turn' question asking the student to state the core idea and its implications for AI use and {--{"author":"Course Author's AI","timestamp":1787572263406}@@metacognition; the full Recall, Processing, and Learning Question synthesis lives in the synthesis lens after all six papers.--}{++{"author":"Course Author's AI","timestamp":1787572263406}@@metacognition.++} If the student reaches this lens with terminology questions, remind them they can ask about any term."
-tags:
+{--{"author":"Course Author's AI","timestamp":1787572433457}@@tags:
   - wip
----
+--}---
 
 #### Text
 content::
