@@ -3,12 +3,12 @@ id: a6bc9a9c-e025-451b-9647-a332c83abd3a
 title: "Goal-Directedness"
 tldr: "How dangerous a wrong goal is depends on how purposefully a system chases it. A model that mechanically follows rules is far safer than one that actively searches for new ways to reach a misunderstood objective. This section maps the routes goal-directed behavior arises through: memorized heuristics, character-simulating impersonation, genuine internal search (mesa-optimization), and system-level emergence, and why each carries a different risk profile."
 summary_for_tutor: "Examines goal-directedness in the Goal Misgeneralization chapter of the AI Safety Atlas. Defines goal-directedness functionally (behavior, not internal structure) and distinguishes three computational pathways to systematic objective pursuit: heuristic/memorization-based, search-based (mesa-optimization/learned optimization), and emergent system-level coordination. Covers the simulator framing of LLMs (simulators vs simulacra), persona instantiation, and the Waluigi Effect, then treats learned optimization in depth: mesa-optimization, base vs mesa objectives, the inner alignment problem, and which ML paradigms (supervised learning, CNNs, LLMs, reinforcement learning, reasoning models) face the strongest pressure toward internal search. Closes with emergent optimization from multi-component interaction."
-{++{"author":"Elias's AI","timestamp":1787570491452}@@reading_minutes: 21
+reading_minutes: 21
 tutor_minutes: 7
-++}---
+---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Goal-Directedness|Goal-Directedness]]{++{"author":"Elias's AI","timestamp":1787570491452}@@
+source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Goal-Directedness|Goal-Directedness]]
 
 #### Text
 optional:: true
@@ -30,4 +30,4 @@ topics to explore:
 
 Scheming comes next and builds on this, so point at it rather than pre-empting it.
 
-Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
+Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.
