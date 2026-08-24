@@ -22,9 +22,9 @@ Below is a common set of next steps for people who have just finished an introdu
 
 **Learn more**{--{"author":"Plex's AI","timestamp":1787325046731}@@
 
- --}{++{"author":"Plex's AI","timestamp":1787325046731}@@
+ --}
 
-++}Visit AISafety.info's [How can I help?](https://aisafety.info/how-can-i-help) guide, which walks through concrete next steps based on your situation and interests.
+Visit AISafety.info's [How can I help?](https://aisafety.info/how-can-i-help) guide, which walks through concrete next steps based on your situation and interests.
 
 **Talk to people in the field**
 
