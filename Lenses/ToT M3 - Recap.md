@@ -1,11 +1,9 @@
-{++{"author":"Course Author's AI","timestamp":1787572352018}@@---
+{++{"author":"Course Author's AI","timestamp":1787572417547}@@---
 id: '8225b73a-e889-48de-ad7b-683d593d2d64'
 title: "Your Verdict"
 duration_minutes: 5
 tldr: "A colleague says: as long as we can switch the AI off, there is no control problem. Give a calibrated answer using one study from this unit, and say what would raise or lower your concern."
 summary_for_tutor: "Core lens 7 (final) of Unit 3 of 'Thinking about Thinking'. A short recap plus one individual verdict before tutor feedback. The prompt: a colleague says there is no serious control problem as long as humans can switch the AI off; the learner gives a calibrated response using at least one study, distinguishes evidence from extrapolation, and names one condition that would raise or lower concern. Reward: a clear model of gradual (not rebellious) control loss; correct use of at least one study; correct treatment of association versus causation; recognition that effects depend on conditions; explicit uncertainty about the macro-level extrapolation. A well-supported sceptical answer can pass. About 5 minutes."
-tags:
-  - wip
 ---
 
 #### Text
