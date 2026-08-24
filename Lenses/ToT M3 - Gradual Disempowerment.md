@@ -4,9 +4,9 @@ title: "From Dependence to Disempowerment"
 duration_minutes: 10
 tldr: "One person offloading one judgement is local. Millions doing it, scaled across institutions, is a different thing. The leap from workplace evidence to societal loss of control is an argument, not a finding."
 summary_for_tutor: "Core lens 6 of Unit 3 of 'Thinking about Thinking'. Repurposes the Kulveit gradual-disempowerment reading into a shorter core excerpt (three Article segments: the thesis opening, the economy section, the mutual-reinforcement reply to the strongest objection). Distinguishes five levels: individual delegates a task; individuals lose practice or the ability to verify; organisations redesign processes around AI; institutions become dependent on systems few can audit or replace; nominal human authority remains while effective control weakens. Marks clearly where the unit moves from empirical evidence to a philosophical or governance argument. Includes one concrete institutional example where no actor intends the final loss of control. Asks the learner to identify the weakest causal link. Links the full Kulveit reading and the philosophy lens as optional resources. About 10 minutes."
-{--{"author":"Course Author's AI","timestamp":1787572416254}@@tags:
+tags:
   - wip
---}---
+---
 
 #### Text
 content::
