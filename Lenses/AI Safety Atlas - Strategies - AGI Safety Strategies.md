@@ -8,4 +8,28 @@ tutor_minutes: 7
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Strategies - AGI Safety Strategies|AGI Safety Strategies]]
+source:: [[../articles/AI Safety Atlas - Strategies - AGI Safety Strategies|AGI Safety Strategies]]{++{"author":"Elias's AI","timestamp":1787567941261}@@
+
+#### Text
+optional:: true
+content::
+Catching and fixing misalignment as you go only works if you get more than one attempt, and the section calls it a strategic gamble in its own words. Would you take that bet? Talk it through with the tutor.
+
+#### Chat
+optional:: true
+instructions::
+TLDR of what the user just read:
+Safety strategies for human-level AGI, where the section assumes we can still oversee systems and iterate, unlike the ASI case. It opens by dismissing four intuitive fixes: explicit rules such as Asimov's laws, which cannot cover every situation; raising the system like a child, which assumes it develops human moral intuitions; withholding a physical body, which ignores the harm a purely digital system can do; and just turning it off, which fails if the system is embedded or can replicate. It then covers four real strategies. Solving alignment, where even the requirements are contested and current techniques fall well short. Fixing misalignment iteratively through detection-and-correction loops, which the section presents as a live disagreement and calls a strategic gamble, with three counter-arguments: it means deliberately training dangerous systems, alignment may not generalise while capabilities do, and the feedback loop may break under a fast takeoff. Maintaining control through boxing, monitoring and control evaluations, which it says is probably not scalable but is doable and complementary to alignment, noting that evaluating capability is easier than evaluating propensity. And transparent thoughts, monitoring chain of thought, where it presents evidence that reported reasoning is often unfaithful and that some architectures remove the possibility entirely.
+
+topics to explore:
+- The iterative strategy assumes problems stay discoverable and fixable. Which of the three counter-arguments would sink it first?
+- Some researchers put more than a 50 percent chance on straightforward approaches working. What are they seeing that critics are not?
+- Control is described as unscalable but useful now. Does a strategy with a known expiry date deserve the effort?
+- Chain of thought monitoring is unfaithful in the cases studied. Does that make it useless, or useless only where reasoning was shallow anyway?
+- Four intuitive fixes get dismissed early. Was any of them dismissed too fast?
+
+The misuse-versus-misalignment comparison, AI-enabled coups, whether control research reduces risk, how to box an AI, and training on interpretability all sit in collapsed optional callouts. Do not assume the learner has read them.
+
+ASI strategies come next and are deliberately kept separate, so do not bring in superintelligence-specific proposals here.
+
+Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
