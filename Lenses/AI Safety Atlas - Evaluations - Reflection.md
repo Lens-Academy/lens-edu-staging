@@ -4,7 +4,7 @@ title: "Reflection - Evaluations"
 tldr: "Close the chapter by writing down what stuck, without looking, and then what it did to you. The point is to find out what you actually retained while you can still do something about it."
 summary_for_tutor: "Ungraded end-of-chapter reflection for Chapter 5 (Evaluations). No reading. Two prompts: free recall of the chapter, then a reaction pass. The tutor mirrors and probes, and never grades, scores, or issues a verdict. The chapter's articles are in context so the mirror is checked against the source rather than against the tutor's own memory."
 reading_minutes: 5
-tutor_minutes: 10
+tutor_minutes: {--{"author":"Elias's AI","timestamp":1787563310458}@@10--}{++{"author":"Elias's AI","timestamp":1787563310458}@@14++}
 add_to_ai_context:
   - "[[../articles/AI Safety Atlas - Evaluations - Introduction]]"
   - "[[../articles/AI Safety Atlas - Evaluations - Benchmarks]]"
