@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787570237648}@@---
+---
 id: 'bb3e2c3a-4449-4fd9-b8e4-7eb281ce76b4'
 slug: exercises
 title: "Interactive Exercises"
@@ -10,4 +10,3 @@ description: "One live example of every interactive exercise type we build cours
 One module, one lens, no meetings, no test. The longer walkthrough is the product tour (slug: tour). %%
 
 # Module: [[../modules/interactive-exercises|Interactive exercises]]
-++}

@@ -2,13 +2,13 @@
 id: 45c3f64b-4748-473a-a614-75d7471ddd9b
 tldr: "The tools for governing AI exist; what's missing is the will to use them in time. This closing argues for urgent moves, from staffing governments with real technical expertise to building governance that evolves as fast as the technology, and warns that the window for getting it right narrows with every model release."
 summary_for_tutor: "Concludes the Governance chapter with a call to action structured around key priorities: dramatically expanding technical expertise inside governments, professionalizing AI auditing as a distinct field, resourcing international coordination mechanisms, building governance frameworks that evolve as fast as the technology, using scenario planning for discontinuous change, and learning continuously from implementation. Argues the tools and warning signs already exist and that the main constraint is collective will, with a rapidly narrowing window to act."
-{++{"author":"Elias's AI","timestamp":1787570032879}@@reading_minutes: 8
+reading_minutes: 8
 tutor_minutes: 7
-++}title: "Conclusion"
+title: "Conclusion"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Governance - Conclusion|Conclusion]]{++{"author":"Elias's AI","timestamp":1787570032879}@@
+source:: [[../articles/AI Safety Atlas - Governance - Conclusion|Conclusion]]
 
 #### Text
 optional:: true
@@ -30,4 +30,4 @@ topics to explore:
 
 This is the last reading in the chapter. A separate reflection comes next and asks the learner to recall the chapter from memory, so do not run a chapter-wide review here and do not quiz them on earlier sections. Only this closing text is available to you, so if they ask about something covered earlier, say what this section says about it and stop there rather than filling in the rest yourself.
 
-Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
+Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.
