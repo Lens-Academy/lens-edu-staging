@@ -28,7 +28,7 @@ Use the source's own words:
 - **Mislead**: a confident wrong answer steers your whole approach, and the only check on offer is the AI's own account of itself.
 - **Progression**: you fall behind in the fundamentals without noticing, because each answer arrives whole and every step feels like understanding.
 
-Why does this matter if you never write code? The traps live in metacognition during learning. Everyone is a novice somewhere, most of the time. When an AI does the producing, the reps that build your own understanding can quietly disappear. AI assistance can therefore increase, not reduce, the need for metacognitive monitoring.
+Why does this matter if you never write code? The traps live in metacognition during learning. Everyone is a novice somewhere, most of the time. When an AI does the producing, the repetitions that build your own understanding can quietly disappear. AI assistance can therefore increase, not reduce, the need for metacognitive monitoring.
 
 #### Question
 content::
