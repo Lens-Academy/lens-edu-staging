@@ -8,7 +8,7 @@ title: "Introduction"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Introduction|Introduction]]{++{"author":"Elias's AI","timestamp":1787562302029}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Introduction|Introduction]]{++{"author":"Elias's AI","timestamp":1787563987580}@@
 
 #### Text
 content::
@@ -26,7 +26,7 @@ topics to explore:
 - Which of the chapter's three questions matters most for someone deciding what safety work to do?
 - Is the claim that benchmarks date but patterns persist actually true, and how would you check it?
 
-Do not preview the later sections in detail. The forecasting section has its own pre-question and this chapter returns to it, so do not give timelines or an arrival date of your own, even if asked.
+Do not preview the later sections in detail. The forecasting section has its own pre-question and this chapter returns to it. Do not give timelines or an arrival date of your own, even if asked, and if the learner volunteers a date or a horizon, do not evaluate it, extend it, or ask them to justify it.
 
 Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
 
