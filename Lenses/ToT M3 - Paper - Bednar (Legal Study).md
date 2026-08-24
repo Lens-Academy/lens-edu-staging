@@ -4,10 +4,8 @@ title: "When AI Can Help"
 reading_minutes: 5
 tutor_minutes: 5
 tldr: "A randomised study of law students found early, engaged AI use improved their written analysis and even helped later work done without AI. But when strong students used AI to revise their own work, it made the good work worse."
-summary_for_tutor: {--{"author":"Course Author's AI","timestamp":1787572263406}@@"Paper --}{++{"author":"Course Author's AI","timestamp":1787572263406}@@"Optional evidence ++}lens for Unit 3 of 'Thinking about {--{"author":"Course Author's AI","timestamp":1787572263406}@@Thinking', the first of six individual-study lenses that follow the Evidence introduction.--}{++{"author":"Course Author's AI","timestamp":1787572263406}@@Thinking'.++} Presents Bednar and colleagues (2025): a randomised study of about 100 Minnesota law students. {--{"author":"Course Author's AI","timestamp":1787572263406}@@Authored intro flags the nuance (AI helped--}{++{"author":"Course Author's AI","timestamp":1787572263406}@@The claim the core course makes of this study: early AI use on++} synthesis {++{"author":"Course Author's AI","timestamp":1787572263406}@@improved analysis ++}and later no-AI performance, {--{"author":"Course Author's AI","timestamp":1787572263406}@@but regressed strong work at the revision stage). --}{++{"author":"Course Author's AI","timestamp":1787572263406}@@while AI revision of already-strong memos made them worse; help versus harm tracks conditions. Authored intro flags that nuance. ++}Inlines one excerpt from the imported article. Ends with one reflective 'Your turn' question asking the student to state the core idea and its implications for AI use and {--{"author":"Course Author's AI","timestamp":1787572263406}@@metacognition; the full Recall, Processing, and Learning Question synthesis lives in the synthesis lens after all six papers.--}{++{"author":"Course Author's AI","timestamp":1787572263406}@@metacognition.++} If the student reaches this lens with terminology questions, remind them they can ask about any term."
-{--{"author":"Course Author's AI","timestamp":1787572433457}@@tags:
-  - wip
---}---
+summary_for_tutor: "Optional evidence lens for Unit 3 of 'Thinking about Thinking'. Presents Bednar and colleagues (2025): a randomised study of about 100 Minnesota law students. The claim the core course makes of this study: early AI use on synthesis improved analysis and later no-AI performance, while AI revision of already-strong memos made them worse; help versus harm tracks conditions. Authored intro flags that nuance. Inlines one excerpt from the imported article. Ends with one reflective 'Your turn' question asking the student to state the core idea and its implications for AI use and metacognition. If the student reaches this lens with terminology questions, remind them they can ask about any term."
+---
 
 #### Text
 content::
@@ -22,14 +20,14 @@ to:: "conditions that increase the likelihood that AI substitutes for careful an
 #### Question
 content::
 \## Your turn
-In your own words, what is the core idea of this reading? Then say what it means for how you use AI, and for your {--{"author":"Course Author's AI","timestamp":1787572269912}@@metacognition —--}{++{"author":"Course Author's AI","timestamp":1787572269912}@@metacognition:++} your awareness and control of your own thinking.
+In your own words, what is the core idea of this reading? Then say what it means for how you use AI, and for your metacognition: your awareness and control of your own thinking.
 
-assessment-instructions:: The student has just read Bednar and colleagues (2025) in Unit 3 of 'Thinking about Thinking' {--{"author":"Course Author's AI","timestamp":1787572269912}@@— the first of six paper lenses after the --}{++{"author":"Course Author's AI","timestamp":1787572269912}@@as an optional ++}evidence {--{"author":"Course Author's AI","timestamp":1787572269912}@@introduction —--}{++{"author":"Course Author's AI","timestamp":1787572269912}@@lens,++} and is now reflecting on it. This is a single reflective question, not the unit's synthesis phase: draw out their grasp of the core idea and its implications for AI use and metacognition; do not run a multi-turn socratic sequence here.
+assessment-instructions:: The student has just read Bednar and colleagues (2025) in Unit 3 of 'Thinking about Thinking' as an optional evidence lens, and is now reflecting on it. This is a single reflective question, not the unit's synthesis phase: draw out their grasp of the core idea and its implications for AI use and metacognition; do not run a multi-turn socratic sequence here.
 
 Key idea to check they grasped:
 - AI used during early synthesis improved law students' written analysis (roughly 50 to 70 percent) and later no-AI performance; but AI used during revision of already-strong work regressed it
 - Help versus harm tracks where in the workflow the AI sits and whether it replaces the student's own judgement
-- Implication for metacognition: keep your judgement in the {--{"author":"Course Author's AI","timestamp":1787574269674}@@loop —--}{++{"author":"Course Author's AI","timestamp":1787574269674}@@loop;++} use AI to support thinking you already direct, not to outsource the revision of work you understand
+- Implication for metacognition: keep your judgement in the loop; use AI to support thinking you already direct, not to outsource the revision of work you understand
 
 Response length: 120 to 200 words. Short paragraphs only. No lists.
 
@@ -37,6 +35,6 @@ Response style: warm but rigorous. Do not over-validate; avoid generic praise. C
 
 What to do: acknowledge what they captured; if they missed the core idea, name it and ask them to restate it in their own words; if they named the idea but skipped the implication for AI use or for metacognition, ask the missing half; draw a light connection to the course's throughline (offloading, metacognitive laziness, gradual disempowerment) only if they invite it.
 
-What not to do: deliver a mini-lecture; introduce the other {--{"author":"Course Author's AI","timestamp":1787572278494}@@five papers or the synthesis question; --}{++{"author":"Course Author's AI","timestamp":1787572278494}@@studies; ++}adjudicate their personal AI habits; run more than a couple of replies. This is one turn of reflection, then send them {--{"author":"Course Author's AI","timestamp":1787572278494}@@on--}{++{"author":"Course Author's AI","timestamp":1787572278494}@@back++} to the {--{"author":"Course Author's AI","timestamp":1787572278494}@@next reading.--}{++{"author":"Course Author's AI","timestamp":1787572278494}@@core.++}
+What not to do: deliver a mini-lecture; introduce the other studies; adjudicate their personal AI habits; run more than a couple of replies. This is one turn of reflection, then send them back to the core.
 
-This is a one-turn (or at most two-turn) response. Tell the student to {--{"author":"Course Author's AI","timestamp":1787572278494}@@continue to the next paper.--}{++{"author":"Course Author's AI","timestamp":1787572278494}@@continue.++}
+This is a one-turn (or at most two-turn) response. Tell the student to continue.
