@@ -20,7 +20,7 @@ Tools change fast. This unit describes what works now, not forever. Revisit the 
 
 \## While you work with the AI
 - Treat the AI as a sparring partner, not an authority. Ask it to argue against its own answer.
-- Do not let the AI set the frame. {--{"author":"Curator's AI","timestamp":1787320579143}@@Users choose the interaction style--}{++{"author":"Curator's AI","timestamp":1787320579143}@@In Anthropic's AI Fluency Index (2026),++} only about 30% of {++{"author":"Curator's AI","timestamp":1787320579143}@@conversations set explicit terms for ++}the {--{"author":"Curator's AI","timestamp":1787320579143}@@time;--}{++{"author":"Curator's AI","timestamp":1787320579143}@@collaboration;++} the AI's default {--{"author":"Curator's AI","timestamp":1787320579143}@@sets--}{++{"author":"Curator's AI","timestamp":1787320579143}@@set++} the frame for the rest.{++{"author":"Curator's AI","timestamp":1787320579143}@@ [[../articles/claude-academy-anthropic-education-report-the-ai-fluency-index]]++}
+- Do not let the AI set the frame. In Anthropic's AI Fluency Index (2026), only about 30% of conversations set explicit terms for the collaboration; the AI's default set the frame for the rest. [[../articles/claude-academy-anthropic-education-report-the-ai-fluency-index]]
 
 \## When you evaluate the result
 - Beware of fluency. Polished output is not the same as true output, and users challenge polished output less than rough output.
