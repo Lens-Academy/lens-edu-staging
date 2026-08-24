@@ -8,4 +8,25 @@ title: "Foundation Models"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Foundation Models|Foundation Models]]
+source:: [[../articles/AI Safety Atlas - Capabilities - Foundation Models|Foundation Models]]{++{"author":"Elias's AI","timestamp":1787562786127}@@
+
+#### Question: Open
+id:: 64346088-de79-4662-9fdb-5c83fcedf5df
+optional:: true
+content::
+The same generality that makes one model useful for everything is what makes it hard to predict what it will do.
+
+Take a minute and see where you land: a trade-off someone could engineer away, or one property seen from two sides? Use this to think it through if you want to, and the tutor will take it from there.
+feedback-instructions::
+The learner has just read the AI Safety Atlas section "Foundation Models" and written a reflection. This is a reflection, not a test. There is no answer you are checking against, and you should not tell them whether they got it right.
+
+TLDR of what they read:
+Foundation models are a shift from building one narrow system per task to pre-training a large general-purpose model and adapting it afterwards. Pre-training is self-supervised on massive unlabelled data; adaptation happens through fine-tuning or in-context prompting. Key properties: transfer learning, zero-shot and few-shot learning, cross-domain generalisation, and capabilities that emerge without being explicitly trained for. The section argues these same properties create safety problems narrow AI did not have, because there is limited control over what is learned, safety properties must survive adaptation, and the scale of training data makes auditing hard.
+
+Take what they wrote seriously and push on it once. Useful directions: whether generality and unpredictability are separable in principle or only in degree; what "emergent" is and is not claiming; whether the safety problem is about the model or about what people point it at; what would have to be true for someone to get the usefulness without the unpredictability.
+
+If they say they do not know or write something thin, do not press them for more. Offer one concrete way to look at it and leave it there.
+
+Do not preview the later sections in detail. The forecasting section has its own pre-question and this chapter returns to it, so do not give timelines or an arrival date of your own, even if asked.
+
+120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.++}
