@@ -95,6 +95,11 @@ source:: [[../Lenses/Agent Foundations]]
 source:: [[../Lenses/AF not really math not really science]]
 
 ## Lens:
+optional:: true
+source:: ![[../Lenses/johnswentworth-why-agent-foundations-an-overly-abstract-explanation]]
+
+
+## Lens:
 source:: [[../Lenses/Realism about rationality]]
 
 
