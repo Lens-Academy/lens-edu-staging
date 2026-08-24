@@ -8,7 +8,7 @@ title: "Introduction"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Introduction|Introduction]]{++{"author":"Elias's AI","timestamp":1787562149661}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Introduction|Introduction]]{++{"author":"Elias's AI","timestamp":1787562302029}@@
 
 #### Text
 content::
@@ -18,7 +18,7 @@ That is the map for the chapter. If any of it already raises a question, use the
 optional:: true
 instructions::
 TLDR of what the user just read:
-The opening of the Capabilities chapter. It frames three questions the chapter will answer: what counts as "general" intelligence, treated as capability and generality on continuous axes rather than a binary; why recent progress has been so fast, pointing ahead to the bitter lesson and scaling laws; and where the trends lead, via forecasting and takeoff scenarios, which determinesic h safety strategies are even viable. It argues that specific benchmark numbers will date quickly while the underlying patterns, such as scaling, emergence, and the shift from narrow to general systems, are stable enough to be worth studying.
+The opening of the Capabilities chapter. It frames three questions the chapter will answer: what counts as "general" intelligence, treated as capability and generality on continuous axes rather than a binary; why recent progress has been so fast, pointing ahead to the bitter lesson and scaling laws; and where the trends lead, via forecasting and takeoff scenarios, which determines which safety strategies are even viable. It argues that specific benchmark numbers will date quickly while the underlying patterns, such as scaling, emergence, and the shift from narrow to general systems, are stable enough to be worth studying.
 
 topics to explore:
 - What would the user need to see before calling a system "general" rather than narrow?
