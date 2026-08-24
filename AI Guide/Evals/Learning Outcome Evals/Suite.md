@@ -32,7 +32,9 @@ Each check has its own file in this folder (`A1 - Concrete capability.md`, …) 
 
 ## Versioning
 
-**One suite-wide version number** — the `suite-version` in this file's frontmatter. Any meaningful change to any eval file in this folder (boundary, exemplars, adding/removing/renumbering checks) bumps it. All stamps carrying an older `suite-version` are stale in full; we accept the cost of re-running everything. Typo fixes that don't change a boundary don't bump.
+**One suite-wide version number** — the `suite-version` in this file's frontmatter. Any meaningful change to any eval file in this folder (boundary, exemplars, adding/removing/renumbering checks) bumps it. All stamps carrying an older `suite-version` are stale in full; we accept the cost of re-running everything. Typo fixes that don't change a boundary don't bump.{++{"author":"Luc's AI","timestamp":1787591625521}@@
+
+**v2 (2026-08-24):** removed C1 (binary rubric). Learning-outcome rubrics are no longer required to be binary pass/fail — graded scales are an accepted rubric form — so the check was retired; its eval file is archived in `Archive/`.++}
 
 ## Result stamps
 
@@ -43,10 +45,10 @@ eval-results:
   content-sha: 9f3c2a1b
   date: 2026-08-19
   model: claude-fable-5
-  suite-version: 1
-  checks: {A1: pass, A2: pass, B1: fail, C1: fail, C2: pass, C3: pass}
-  notes: {B1: "question opens 'Chapter 5…'", C1: "1-5 graded ladder"}
-  evidence: {B1: "Chapter 5 opens with an allegory about an alien civilization", C1: "Score according to the following rubric. **1** —"}
+  suite-version: {--{"author":"Luc's AI","timestamp":1787591616243}@@1--}{++{"author":"Luc's AI","timestamp":1787591616243}@@2++}
+  checks: {A1: pass, A2: pass, B1: fail, {--{"author":"Luc's AI","timestamp":1787591616243}@@C1: fail, --}C2: pass, C3: pass}
+  notes: {B1: "question opens 'Chapter {--{"author":"Luc's AI","timestamp":1787591616243}@@5…'", C1: "1-5 graded ladder"}--}{++{"author":"Luc's AI","timestamp":1787591616243}@@5…'"}++}
+  evidence: {B1: "Chapter 5 opens with an allegory about an alien {--{"author":"Luc's AI","timestamp":1787591616243}@@civilization", C1: "Score according to the following rubric. **1** —"}--}{++{"author":"Luc's AI","timestamp":1787591616243}@@civilization"}++}
 ```
 
 - `checks` records every check's verdict. `notes` carries the judge's one-line reason and `evidence` its shortest verbatim quote from the file grounding the verdict — both for fails only, both taken from the judge's report, so a stamp is self-explanatory without opening the run report. The run report additionally carries the full write-up.

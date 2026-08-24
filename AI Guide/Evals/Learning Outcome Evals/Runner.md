@@ -1,4 +1,4 @@
-{++{"author":"Luc's AI","timestamp":1787591609101}@@---
+{++{"author":"Luc's AI","timestamp":1787591619157}@@---
 tags:
   - validator-ignore
 ---
@@ -88,8 +88,8 @@ One judge subagent per LO file, launched in parallel batches of up to 8. **Judge
 
 Two ways to give a judge its inputs:
 
-- **Paste protocol:** paste the fetched snapshot and the six eval bodies into the prompt; the judge needs no tools. Judged text and hashed text are identical by construction.
-- **Self-read protocol (keeps the director's context clean — preferred):** the judge loads the MCP read tool itself and reads the six eval files and its one target file by path. The prompt MUST then say: "Read NOTHING else. In particular, never read anything under 'Lens/base'." Before stamping a self-read-judged file, re-fetch it and re-compute the hash; if it changed since the pre-judging fetch, the judged text is unknown — re-judge instead of stamping.
+- **Paste protocol:** paste the fetched snapshot and the five eval bodies into the prompt; the judge needs no tools. Judged text and hashed text are identical by construction.
+- **Self-read protocol (keeps the director's context clean — preferred):** the judge loads the MCP read tool itself and reads the five eval files and its one target file by path. The prompt MUST then say: "Read NOTHING else. In particular, never read anything under 'Lens/base'." Before stamping a self-read-judged file, re-fetch it and re-compute the hash; if it changed since the pre-judging fetch, the judged text is unknown — re-judge instead of stamping.
 
 Judge prompt (fill placeholders; adapt the setup lines to the chosen protocol):
 
