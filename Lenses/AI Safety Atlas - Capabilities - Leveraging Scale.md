@@ -8,15 +8,15 @@ title: "Leveraging Scale"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Leveraging Scale|Leveraging Scale]]{++{"author":"Elias's AI","timestamp":1787564206145}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Leveraging Scale|Leveraging Scale]]{++{"author":"Elias's AI","timestamp":1787564331441}@@
 
 #### Question: Open
 id:: 7d2c8384-b9cc-4928-813e-208456e40a83
 optional:: true
 content::
-The section puts 60 to 95 percent of gains on compute and data and 5 to 40 percent on algorithms, then says the split is hard to make at all, because the algorithms that win are the ones that use scale well.
+The bitter lesson says the algorithms that win are the ones that unlock scale. The section still reports a split: 60 to 95 percent of gains from compute and data, 5 to 40 percent from algorithms.
 
-If the two are that entangled, what is the number still good for?
+So is "compute versus algorithms" a real distinction, or two names for the same thing? The field has not settled it, so your reasoning matters more than your verdict.
 feedback-instructions::
 The learner has just read the AI Safety Atlas section "Leveraging Scale" and written a reflection. This is a reflection, not a test. There is no answer you are checking against, and you should not tell them whether they got it right.
 

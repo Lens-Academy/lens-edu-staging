@@ -6,7 +6,7 @@ title: "Systemic Risks"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Risks - Systemic Risks|Systemic Risks]]{++{"author":"Elias's AI","timestamp":1787564324541}@@
+source:: [[../articles/AI Safety Atlas - Risks - Systemic Risks|Systemic Risks]]{++{"author":"Elias's AI","timestamp":1787564328725}@@
 
 #### Question: Open
 id:: 68389f0e-58ba-4b72-a6cb-a18a08900347
@@ -21,7 +21,7 @@ The learner has just read the AI Safety Atlas section "Systemic Risks" and writt
 TLDR of what they read:
 Systemic risks come from how multiple AI systems interact with each other and with human structures like markets, democratic institutions and social networks, and the section stresses that they arise even when those systems work exactly as designed. It compares this to the 2008 financial crisis, which it says was not caused by any single bank's decision but emerged from many institutions making individually reasonable choices. It splits AI-driven systemic failure into two pathways, "going out with a bang" (decisive) and "going out with a whimper" (accumulative), and says this section focuses on the accumulative kind: epistemic erosion, power concentration, mass unemployment, value lock-in and enfeeblement. On epistemic erosion it says the damage comes both from actors who deliberately pollute the information environment and from agent-agnostic systemic pressures, listing mechanisms such as volume overwhelming verification, authenticity degradation, epistemic learned helplessness, authority displacement and personalized reality fragmentation. It argues that verified knowledge becomes practically impossible not because verification technology is missing but because for most people the verification cost exceeds what markets will bear. It closes that thread by saying individually applied technical mitigation strategies do not counter systemic pressures and incentives.
 
-Take what they wrote seriously and push on it once. Useful directions: whether calling each step in the chain reasonable hides a choice someone did in fact make, given the section also names actors who pollute deliberately; where responsibility sits when the section itself says just five companies control the foundation models that increasingly mediate human experiences; whether the answer differs for the decisive pathway, which the section says has identifiable precipitating incidents, and the accumulative one, which it says produces dysfunctional collective decision-making without any single decisive failure; whether responsibility can rest with anyone at all if the harm is, as the section claims, agent-agnostic.
+Take what they wrote seriously and push on it once. Useful directions: whether the leverage sits with individual actors, with the incentives they face, or with the verification market the section says is priced out for most people; the section's own claim that a handful of companies control the foundation models increasingly mediating human experience; whether the decisive pathway and the accumulative one need different interventions, given the section says only the first has identifiable precipitating incidents; whether "agent-agnostic" means nobody can intervene, or only that nobody intends the outcome.
 
 If they say they do not know or write something thin, do not press them for more. Offer one concrete way to look at it and leave it there.
 
