@@ -8,4 +8,22 @@ title: "Takeoff"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Takeoff|Takeoff]]
+source:: [[../articles/AI Safety Atlas - Capabilities - Takeoff|Takeoff]]{++{"author":"Elias's AI","timestamp":1787562313799}@@
+
+#### Text
+content::
+If anything in the slow-versus-fast debate is still fuzzy, walk through it with the tutor before you close the chapter.
+
+#### Chat
+optional:: true
+instructions::
+TLDR of what the user just read:
+Takeoff speed is how quickly AI capability grows once transformative systems arrive, which the section presents as related to but distinct from timelines. Slow takeoff means gradual growth over months or years, leaving room to find problems and fix them. Fast takeoff means superexponential growth, possibly through recursive self-improvement, where safety measures have to work from the start because there is no second attempt. Arguments covered include hardware and data overhangs, economic growth, the compute-centric model with its investment and automation feedback loops, the automating-research argument, and the intelligence explosion.
+
+topics to explore:
+- Where exactly does the line between timelines and takeoff speed sit, and why does the section keep them apart?
+- What does a hardware overhang do to takeoff speed, and what is the counter-argument to it?
+- Which of the two feedback loops looks more likely to bind first?
+- Which safety strategies stop being available under a fast takeoff?
+
+Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
