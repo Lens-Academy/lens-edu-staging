@@ -15,7 +15,7 @@ content::
 Lee and colleagues at Microsoft Research (2025) tracked 319 knowledge workers across 936 examples of GenAI use. Higher confidence in AI was associated with lower critical thinking and vice versa. The study documented a shift in task type: AI use moves workers from generative tasks such as knowledge recall, comprehension, and synthesis toward reviewer tasks such as verification and integration. That is a move down Bloom's taxonomy of cognitive skills. You will see why this matters in Unit 4.
 
 #### Article
-source:: [[../articles/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers]]
+source:: [[../../articles/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers]]
 from:: "We survey 319 knowledge workers"
 to:: "information verification, response integration, and task stewardship."
 
