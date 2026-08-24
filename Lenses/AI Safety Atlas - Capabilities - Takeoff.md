@@ -13,7 +13,7 @@ source:: [[../articles/AI Safety Atlas - Capabilities - Takeoff|Takeoff]]
 #### Text
 optional:: true
 content::
-Takeoff speed is the variable that decides whether "ship it and patch it" is a strategy at all. If you cannot yet say which way this section's arguments push on that, work it through with the tutor.
+Takeoff speed {--{"author":"Elias's AI","timestamp":1787566645284}@@is the variable that --}decides whether "ship it and patch it" is a strategy at all. {--{"author":"Elias's AI","timestamp":1787566645284}@@If you cannot yet say which way --}{++{"author":"Elias's AI","timestamp":1787566645284}@@Which way do ++}this section's arguments push on {--{"author":"Elias's AI","timestamp":1787566645284}@@that, work--}{++{"author":"Elias's AI","timestamp":1787566645284}@@that? Reason++} it {--{"author":"Elias's AI","timestamp":1787566645284}@@through--}{++{"author":"Elias's AI","timestamp":1787566645284}@@out++} with the tutor.
 
 #### Chat
 optional:: true
@@ -27,6 +27,6 @@ topics to explore:
 - The compute-centric model has an investment loop and an automation loop. Which is doing more of the work, and which would a regulator find easier to reach?
 - Which safety strategies stop being available under a fast takeoff?
 
-The learner committed to a single year earlier in the chapter, and the end-of-chapter reflection is where they revisit it. Do not ask them what year they wrote, whether it has moved, or to defend it. Do not offer an arrival date of your own.
+The learner committed to a {--{"author":"Elias's AI","timestamp":1787566647357}@@single year--}{++{"author":"Elias's AI","timestamp":1787566647357}@@number of years++} earlier in the chapter, and the end-of-chapter reflection is where they revisit it. Do not ask them what {--{"author":"Elias's AI","timestamp":1787566647357}@@year--}{++{"author":"Elias's AI","timestamp":1787566647357}@@number++} they wrote, whether it has moved, or to defend it. Do not offer an arrival date of your own.
 
 Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.

@@ -27,6 +27,6 @@ topics to explore:
 - The section gives three different answers for when text data runs out: a wall "around 2028", a range of 2026 to 2032, and a figure showing 2025 to 2030. What should a reader do with that?
 - If a forecast is a consistency check rather than a prediction, what does that change about how you would use one?
 
-The learner committed to a single year earlier in the chapter, and the end-of-chapter reflection is where they revisit it. Do not ask them what year they wrote, whether it has moved, or to defend it. Do not offer an arrival date of your own.
+The learner committed to a {--{"author":"Elias's AI","timestamp":1787566642456}@@single year--}{++{"author":"Elias's AI","timestamp":1787566642456}@@number of years++} earlier in the chapter, and the end-of-chapter reflection is where they revisit it. Do not ask them what {--{"author":"Elias's AI","timestamp":1787566642456}@@year--}{++{"author":"Elias's AI","timestamp":1787566642456}@@number++} they wrote, whether it has moved, or to defend it. Do not offer an arrival date of your own.
 
 Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.
