@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1787568992633}@@---
+---
 id: 'aa724a1e-ced8-46ff-9f99-7743b6a7d090'
 title: "Gerlich: AI use and critical thinking"
 reading_minutes: 5
@@ -41,4 +41,4 @@ Response style: warm but rigorous. Do not over-validate; avoid generic praise. C
 
 What to do: acknowledge the summary; if they treat the correction as a reason to dismiss the study, correct it; if they over-generalise from a self-report survey, name the limit; close by sending them back to the core.
 
-This is a one-turn response. Tell the student to continue.++}
+This is a one-turn response. Tell the student to continue.
