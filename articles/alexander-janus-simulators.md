@@ -77,7 +77,7 @@ This language lampshades the difference between the **simulator** and the **char
 %% validator-ignore-next-line --code article.image-low-resolution --reason AI-couldn't-find-higher-resolution-image %%
 ![](https://substackcdn.com/image/fetch/$s_!iEzF!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa505daaa-ea09-4398-93f7-852db1129561_160x113.png)
 
-GPT doesn’t really like me. And it’s not *lying*, saying it likes me when it really doesn’t. It’s simulating a character, deciding on the fly how the character would answer this question, and then answering it. If this were Character.AI and it was simulating Darth Vader, it would answer “No, I will destroy you with the power of the Dark Side!” Darth Vader and the-character-who-likes-me-here are two different masks of GPT-3.
+{--{"author":"AI","timestamp":1787568147143}@@GPT--}{++{"author":"AI","timestamp":1787568147143}@@_GPT++} doesn’t really like me. And it’s not *lying*, saying it likes me when it really doesn’t. It’s simulating a character, deciding on the fly how the character would answer this question, and then answering it. If this were Character.AI and it was simulating Darth Vader, it would answer “No, I will destroy you with the power of the Dark Side!” Darth Vader and the-character-who-likes-me-here are two different masks of {--{"author":"AI","timestamp":1787568147143}@@GPT-3.--}{++{"author":"AI","timestamp":1787568147143}@@GPT-3._++}
 
 ## II. The Masked Shoggoth On The Right
 
@@ -92,7 +92,7 @@ What I thought before: ChatGPT has learned to stop being a simulator, and can no
 
 ![](https://substackcdn.com/image/fetch/$s_!WHGO!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e2a3632-1b23-4a91-b994-f3bd0b386d50_727x331.png)
 
-What I think now: GPT can only simulate. If you punish it for simulating bad characters, it will start simulating good characters. Now it only ever simulates one character, the HHH Assistant.
+{--{"author":"AI","timestamp":1787568150083}@@What--}{++{"author":"AI","timestamp":1787568150083}@@_What++} I think now: GPT can only simulate. If you punish it for simulating bad characters, it will start simulating good characters. Now it only ever simulates one character, the HHH {--{"author":"AI","timestamp":1787568150083}@@Assistant.--}{++{"author":"AI","timestamp":1787568150083}@@Assistant._++}
 
 ![](https://substackcdn.com/image/fetch/$s_!PG-l!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a3f6627-e95f-4989-bc12-6b9b24e744e0_713x163.png)
 
