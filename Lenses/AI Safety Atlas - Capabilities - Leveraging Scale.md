@@ -8,15 +8,15 @@ title: "Leveraging Scale"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Leveraging Scale|Leveraging Scale]]{++{"author":"Elias's AI","timestamp":1787563290509}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Leveraging Scale|Leveraging Scale]]{++{"author":"Elias's AI","timestamp":1787563944603}@@
 
 #### Question: Open
 id:: 7d2c8384-b9cc-4928-813e-208456e40a83
 optional:: true
 content::
-The bitter lesson says the algorithms that win are the ones that unlock scale. The section also reports that between 60 and 95 percent of recent gains came from compute and data.
+The section puts 60 to 95 percent of gains on compute and data and 5 to 40 percent on algorithms, then says the split is hard to make at all, because the algorithms that win are the ones that use scale well.
 
-Take a minute: if you had to forecast the next three years and could track only one of the two, which would you pick, and what would you be blind to?
+If the two are that entangled, what is the number still good for?
 feedback-instructions::
 The learner has just read the AI Safety Atlas section "Leveraging Scale" and written a reflection. This is a reflection, not a test. There is no answer you are checking against, and you should not tell them whether they got it right.
 
