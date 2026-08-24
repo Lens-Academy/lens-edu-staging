@@ -614,7 +614,7 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}[^9]{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}{--{"author":"Luc's AI","timestamp":1787602130506}@@[^9]--}{++{"author":"Luc's AI","timestamp":1787602130506}@@[^note-9]++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
@@ -642,7 +642,7 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}Further, INFCIRC/153 provides that the Board may report to the Security Council if it finds that the Agency is not able to verify that there has been no diversion to nuclear weapons.[^10] Broadly speaking there are two possible scenarios here:{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}Further, INFCIRC/153 provides that the Board may report to the Security Council if it finds that the Agency is not able to verify that there has been no diversion to nuclear {--{"author":"Luc's AI","timestamp":1787602131050}@@weapons.[^10]--}{++{"author":"Luc's AI","timestamp":1787602131050}@@weapons.[^note-10]++} Broadly speaking there are two possible scenarios here:{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
@@ -756,7 +756,7 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}(b) the states outside the NPT [^11]; and{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}(b) the states outside the NPT {--{"author":"Luc's AI","timestamp":1787602131523}@@[^11];--}{++{"author":"Luc's AI","timestamp":1787602131523}@@[^note-11];++} and{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
@@ -804,7 +804,7 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}Discovery of Iraq 's clandestine nuclear activities prompted a major program by the IAEA – with the help of experts from member states (e.g. through Safeguards Support Programs and SAGSI [^12]) – to redesign the safeguards system, a process that is very much ongoing today. This started with 'Programme 93+2', and led to the establishment of the additional protocol, together with a major program of technical development. As a consequence, safeguards are changing from a largely facility-based system to a state-level, information-driven, system.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}Discovery of Iraq 's clandestine nuclear activities prompted a major program by the IAEA – with the help of experts from member states (e.g. through Safeguards Support Programs and SAGSI {--{"author":"Luc's AI","timestamp":1787602131995}@@[^12])--}{++{"author":"Luc's AI","timestamp":1787602131995}@@[^note-12])++} – to redesign the safeguards system, a process that is very much ongoing today. This started with 'Programme 93+2', and led to the establishment of the additional protocol, together with a major program of technical development. As a consequence, safeguards are changing from a largely facility-based system to a state-level, information-driven, system.{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
@@ -846,7 +846,7 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
     ++}and Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}– or facilities operated outside safeguards – the DPRK [^13]. In addition, an apparent attempt by{--{"author":"Luc's AI","timestamp":1787602108175}@@  
+    ++}– or facilities operated outside safeguards – the DPRK {--{"author":"Luc's AI","timestamp":1787602132483}@@[^13].--}{++{"author":"Luc's AI","timestamp":1787602132483}@@[^note-13].++} In addition, an apparent attempt by{--{"author":"Luc's AI","timestamp":1787602108175}@@  
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
     ++}Syria{--{"author":"Luc's AI","timestamp":1787602108175}@@  
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
@@ -866,7 +866,7 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}Clandestine centrifuge enrichment operations do not need to be industrial-scale to present a major proliferation threat. Nor is the threat limited to clandestine facilities – an emerging threat is the spread of supposedly legitimate enrichment capability that could be used for rapid break-out [^14].{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}Clandestine centrifuge enrichment operations do not need to be industrial-scale to present a major proliferation threat. Nor is the threat limited to clandestine facilities – an emerging threat is the spread of supposedly legitimate enrichment capability that could be used for rapid break-out {--{"author":"Luc's AI","timestamp":1787602133043}@@[^14].--}{++{"author":"Luc's AI","timestamp":1787602133043}@@[^note-14].++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
@@ -1028,7 +1028,7 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
     ++}has provided limited cooperation, but in the main takes a very legalistic approach in what it will allow – indeed, worse than a legalistic approach, since Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}has attempted to unilaterally rescind the Agency's legal rights [^15].{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}has attempted to unilaterally rescind the Agency's legal rights {--{"author":"Luc's AI","timestamp":1787602133550}@@[^15].--}{++{"author":"Luc's AI","timestamp":1787602133550}@@[^note-15].++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
@@ -1042,7 +1042,7 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
     ++}Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}'s nuclear activities as a whole, but it may be better to do this under a different mechanism than the CSA. Perhaps what is needed is a more rigorous safeguards regime for states in non-compliance – including stronger access and information rights than provided by the AP (i.e. a new 'AP plus') – mandated by Security Council resolution [^16]. The Secretariat should be developing ideas for such a regime for the Board's consideration. Of course the state concerned might choose not to cooperate with the Agency under such a regime, just as Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
+    ++}'s nuclear activities as a whole, but it may be better to do this under a different mechanism than the CSA. Perhaps what is needed is a more rigorous safeguards regime for states in non-compliance – including stronger access and information rights than provided by the AP (i.e. a new 'AP plus') – mandated by Security Council resolution {--{"author":"Luc's AI","timestamp":1787602134056}@@[^16].--}{++{"author":"Luc's AI","timestamp":1787602134056}@@[^note-16].++} The Secretariat should be developing ideas for such a regime for the Board's consideration. Of course the state concerned might choose not to cooperate with the Agency under such a regime, just as Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
     ++}is defying the current Security Council resolutions, but at least the state couldn't claim that it was meeting all its obligations.{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
@@ -1088,7 +1088,7 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}More than ever, it is essential for safeguards to be complemented by other multilateral and regional measures that can benefit non-proliferation objectives. For example, transparency mechanisms and other confidence-building measures could have an important role, particularly in some regions. Mechanisms could include collaborative nuclear projects, and bilateral or regional safeguards arrangements such as ABACC [^17]. Also important is the development of proliferation-resistant fuel cycle technologies.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}More than ever, it is essential for safeguards to be complemented by other multilateral and regional measures that can benefit non-proliferation objectives. For example, transparency mechanisms and other confidence-building measures could have an important role, particularly in some regions. Mechanisms could include collaborative nuclear projects, and bilateral or regional safeguards arrangements such as ABACC {--{"author":"Luc's AI","timestamp":1787602134594}@@[^17].--}{++{"author":"Luc's AI","timestamp":1787602134594}@@[^note-17].++} Also important is the development of proliferation-resistant fuel cycle technologies.{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
@@ -1150,15 +1150,15 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}Article XII.C further provides that "The inspectors shall report any non-compliance to the Director General who shall thereupon transmit the report to the Board of Governors" (underlining added). Article XII.C requires the Board to report non-compliance to the Security Council [^18].{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}Article XII.C further provides that "The inspectors shall report any non-compliance to the Director General who shall thereupon transmit the report to the Board of Governors" (underlining added). Article XII.C requires the Board to report non-compliance to the Security Council {--{"author":"Luc's AI","timestamp":1787602135090}@@[^18].--}{++{"author":"Luc's AI","timestamp":1787602135090}@@[^note-18].++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}**Nuclear Non-Proliferation Treaty** The entry into force of the NPT in 1970 introduced a range of new obligations for non-nuclear-weapon state (NNWS) Parties, especially to accept IAEA safeguards on all their nuclear material [^19].{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}**Nuclear Non-Proliferation Treaty** The entry into force of the NPT in 1970 introduced a range of new obligations for non-nuclear-weapon state (NNWS) Parties, especially to accept IAEA safeguards on all their nuclear material {--{"author":"Luc's AI","timestamp":1787602135633}@@[^19].--}{++{"author":"Luc's AI","timestamp":1787602135633}@@[^note-19].++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}Under the NPT, a NNWS undertakes the fundamental obligation "not to manufacture or otherwise acquire nuclear weapons or other nuclear explosive devices" [^20]. The fulfilment of this obligation is to be verified, through the obligation to "accept safeguards, as set forth in an agreement to be … concluded with the \[IAEA\] … and the Agency's safeguards system, … with a view to preventing diversion of nuclear energy (underlining added) from peaceful purposes to nuclear weapons or other nuclear explosive devices. … The safeguards required by this Article shall be applied on all source or special fissionable material in all peaceful nuclear activities within the territory of such State, under its jurisdiction, or carried out under its control anywhere" [^21].{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}Under the NPT, a NNWS undertakes the fundamental obligation "not to manufacture or otherwise acquire nuclear weapons or other nuclear explosive devices" {--{"author":"Luc's AI","timestamp":1787602136137}@@[^20].--}{++{"author":"Luc's AI","timestamp":1787602136137}@@[^note-20].++} The fulfilment of this obligation is to be verified, through the obligation to "accept safeguards, as set forth in an agreement to be … concluded with the \[IAEA\] … and the Agency's safeguards system, … with a view to preventing diversion of nuclear energy (underlining added) from peaceful purposes to nuclear weapons or other nuclear explosive devices. … The safeguards required by this Article shall be applied on all source or special fissionable material in all peaceful nuclear activities within the territory of such State, under its jurisdiction, or carried out under its control anywhere" {--{"author":"Luc's AI","timestamp":1787602136137}@@[^21].--}{++{"author":"Luc's AI","timestamp":1787602136137}@@[^note-21].++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
@@ -1166,11 +1166,11 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}**Comprehensive safeguards agreement** The safeguards agreement required of NNWS under the NPT – now termed a comprehensive safeguards agreement [^22] – has been standardized through the model agreement published as IAEA document INFCIRC/153. In terms of the IAEA Statute, an NPT safeguards agreement is an "arrangement where the Agency is requested by the parties concerned to apply safeguards" (Article XII.A).{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}**Comprehensive safeguards agreement** The safeguards agreement required of NNWS under the NPT – now termed a comprehensive safeguards agreement {--{"author":"Luc's AI","timestamp":1787602136700}@@[^22]--}{++{"author":"Luc's AI","timestamp":1787602136700}@@[^note-22]++} – has been standardized through the model agreement published as IAEA document INFCIRC/153. In terms of the IAEA Statute, an NPT safeguards agreement is an "arrangement where the Agency is requested by the parties concerned to apply safeguards" (Article XII.A).{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}The basic obligation in an INFCIRC/153 agreement, reflecting the language of NPT Article III.1, is "to accept safeguards … on all source or special fissionable material … for the exclusive purpose of verifying that such material is not diverted to nuclear weapons or other nuclear explosive devices" [^23]. Also of fundamental importance is the obligation to cooperate with the IAEA in facilitating the implementation of safeguards pursuant to the safeguards agreement [^24].{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}The basic obligation in an INFCIRC/153 agreement, reflecting the language of NPT Article III.1, is "to accept safeguards … on all source or special fissionable material … for the exclusive purpose of verifying that such material is not diverted to nuclear weapons or other nuclear explosive devices" {--{"author":"Luc's AI","timestamp":1787602137259}@@[^23].--}{++{"author":"Luc's AI","timestamp":1787602137259}@@[^note-23].++} Also of fundamental importance is the obligation to cooperate with the IAEA in facilitating the implementation of safeguards pursuant to the safeguards agreement {--{"author":"Luc's AI","timestamp":1787602137259}@@[^24].--}{++{"author":"Luc's AI","timestamp":1787602137259}@@[^note-24].++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
@@ -1222,7 +1222,7 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}Where undeclared nuclear activities have been discovered, do these involve fissile material or production of fissile material [^25] – i.e. enrichment or reprocessing? If so, are the quantities involved significant, or is there indication of an intention to scale up the undeclared activities to produce significant quantities?{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}Where undeclared nuclear activities have been discovered, do these involve fissile material or production of fissile material {--{"author":"Luc's AI","timestamp":1787602137853}@@[^25]--}{++{"author":"Luc's AI","timestamp":1787602137853}@@[^note-25]++} – i.e. enrichment or reprocessing? If so, are the quantities involved significant, or is there indication of an intention to scale up the undeclared activities to produce significant quantities?{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
@@ -1246,7 +1246,7 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}**Undeclared nuclear material/activities** Although the NPT and INFCIRC/153 express the obligation to accept safeguards in terms of nuclear material, under INFCIRC/153 the obligation to declare nuclear material also extends to an obligation to declare nuclear facilities [^26]. In addition, INFCIRC/153 requires reports on the processing of nuclear material, which necessarily involves reporting of relevant activities. The Additional Protocol (INFCIRC/540) also requires reporting on – and provision of complementary access to – specified nuclear-related activities even if nuclear material is not present, on the basis that knowledge of such activities will assist the IAEA in drawing conclusions concerning nuclear material.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}**Undeclared nuclear material/activities** Although the NPT and INFCIRC/153 express the obligation to accept safeguards in terms of nuclear material, under INFCIRC/153 the obligation to declare nuclear material also extends to an obligation to declare nuclear facilities {--{"author":"Luc's AI","timestamp":1787602138357}@@[^26].--}{++{"author":"Luc's AI","timestamp":1787602138357}@@[^note-26].++} In addition, INFCIRC/153 requires reports on the processing of nuclear material, which necessarily involves reporting of relevant activities. The Additional Protocol (INFCIRC/540) also requires reporting on – and provision of complementary access to – specified nuclear-related activities even if nuclear material is not present, on the basis that knowledge of such activities will assist the IAEA in drawing conclusions concerning nuclear material.{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
@@ -1286,7 +1286,7 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}The more additional information the IAEA can gather the better – this will help to make the judgment whether a weapon purpose is plausible in the circumstances. Detection of apparent weaponisation activities could be very important, and the IAEA needs to investigate such activities to the extent it is able, but discovery of weaponisation activities is not essential to support a finding of diversion/non-compliance [^27].{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}The more additional information the IAEA can gather the better – this will help to make the judgment whether a weapon purpose is plausible in the circumstances. Detection of apparent weaponisation activities could be very important, and the IAEA needs to investigate such activities to the extent it is able, but discovery of weaponisation activities is not essential to support a finding of diversion/non-compliance {--{"author":"Luc's AI","timestamp":1787602138889}@@[^27].--}{++{"author":"Luc's AI","timestamp":1787602138889}@@[^note-27].++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
