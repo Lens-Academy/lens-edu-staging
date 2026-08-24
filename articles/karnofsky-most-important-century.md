@@ -59,7 +59,7 @@ These longer time frames would put us in a _less_ wild position than if we're in
 
 ![](https://www.cold-takes.com/content/images/2021/09/fermi-agnostic.png)
 
-More at [All Possible Views About Humanity's Future Are Wild](https://www.cold-takes.com/all-possible-views-about-humanitys-future-are-wild/)
+{--{"author":"AI","timestamp":1787568430554}@@More--}{++{"author":"AI","timestamp":1787568430554}@@_More++} at [All Possible Views About Humanity's Future Are {--{"author":"AI","timestamp":1787568430554}@@Wild](https://www.cold-takes.com/all-possible-views-about-humanitys-future-are-wild/)--}{++{"author":"AI","timestamp":1787568430554}@@Wild](https://www.cold-takes.com/all-possible-views-about-humanitys-future-are-wild/)_++}
 
 Zooming in, we live in a special century, not just a special era. We can see this by looking at how fast the economy is growing. It doesn't _feel_ like anything special is going on, because for as long as any of us have been alive, the world economy has grown at a few percent per year:
 
@@ -68,7 +68,7 @@ However, when we zoom out to look at history in greater context, we see a pictur
 
 ![Image 8: Graphic illustrating that when you zoom in on the 'this can't go on' chart, you get the 'business as usual chart.'](https://www.cold-takes.com/content/images/size/w1000/2021/08/long-vs-short-view.png)
 
-More at [This Can't Go On](https://www.cold-takes.com/this-cant-go-on/)
+{--{"author":"AI","timestamp":1787568433411}@@More--}{++{"author":"AI","timestamp":1787568433411}@@_More++} at [This Can't Go {--{"author":"AI","timestamp":1787568433411}@@On](https://www.cold-takes.com/this-cant-go-on/)--}{++{"author":"AI","timestamp":1787568433411}@@On](https://www.cold-takes.com/this-cant-go-on/)_++}
 
 **We're currently living through the fastest-growing time in history.** This rate of growth hasn't gone on long, and can't go on indefinitely (there aren't enough atoms in the galaxy to sustain this rate of growth for even another 10,000 years). And if we get _further acceleration_ in this rate of growth - in line with historical acceleration - we could reach the limits of what's possible more quickly: within this century.
 
@@ -106,13 +106,13 @@ This loop would not be unprecedented. I think it is in some sense the "default" 
 
 ![Image 10: 8 ideas, each 1.5x'ing the amount of food resources -> explosion from 8 units to 205 units of food, hence 205 people and 205 ideas ... ](https://www.cold-takes.com/content/images/size/w1000/2021/06/duplicatorfeedbackloop-original-6.png)
 
-Economic history: more resources -> more people -> more ideas -> more resources ...
+{--{"author":"AI","timestamp":1787568436259}@@Economic--}{++{"author":"AI","timestamp":1787568436259}@@_Economic++} history: more resources -> more people -> more ideas -> more resources {--{"author":"AI","timestamp":1787568436259}@@...--}{++{"author":"AI","timestamp":1787568436259}@@..._++}
 
 But in the "demographic transition" a couple hundred years ago, the "more resources -> more people" step of that loop stopped. Population growth leveled off, and more resources led to richer people instead of more people:
 
 ![Image 11: Same as previous diagram, but instead of more corn leading to more people, it leads to the same number of people enjoying their boatload of corn - corn juggling, corn slides, corn feasts, etc.](https://www.cold-takes.com/content/images/2021/07/demographic-transition-nutshell.png)
 
-Today's economy: more resources -> ~~more~~ richer people -> same pace of ideas -> ...
+{--{"author":"AI","timestamp":1787568439018}@@Today's--}{++{"author":"AI","timestamp":1787568439018}@@_Today's++} economy: more resources -> ~~more~~ richer people -> same pace of ideas -> {--{"author":"AI","timestamp":1787568439018}@@...--}{++{"author":"AI","timestamp":1787568439018}@@..._++}
 
 The feedback loop could come back if some other technology restored the "more resources -> more ideas" dynamic. One such technology could be the right kind of AI: what I call PASTA, or Process for Automating Scientific and Technological Advancement.
 
