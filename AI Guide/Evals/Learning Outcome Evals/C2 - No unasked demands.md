@@ -1,4 +1,4 @@
-{++{"author":"Luc's AI","timestamp":1787591602832}@@---
+---
 eval-id: C2
 target: rubric
 tags:
@@ -31,4 +31,3 @@ For graded-ladder rubrics, evaluate this check against the stated or implied pas
 
 - *Narrow coalition strategy* — the pass level requires exactly the three components the question enumerates (the ask, the exclusions, the reason) and nothing more.
 - *Trajectories with mechanisms and falsifiers* — every pass gate (two mechanism-distinct trajectories, named drivers, near-term falsifiers) is explicitly demanded by the question; the shared-assumption ask is explicitly non-gating.
-++}

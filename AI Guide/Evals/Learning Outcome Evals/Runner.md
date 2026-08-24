@@ -1,4 +1,4 @@
-{++{"author":"Luc's AI","timestamp":1787591653524}@@---
+---
 tags:
   - validator-ignore
 ---
@@ -154,4 +154,3 @@ The only mode allowed to read `Lens/base/LO Eval Golden Labels.md`. Judge the fi
 ## Final summary
 
 End every run by reporting: mode; suite version; judge model; files judged / stamped; per-check fail counts; for calibrate, the agreement table; the run-report URL.
-++}
