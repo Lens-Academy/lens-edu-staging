@@ -4,7 +4,7 @@ title: "But what is a Neural Network?"
 ---
 
 #### Article
-source:: [[../articles/sanderson-but-what-is-a-neural-network]]{++{"author":"Plex's AI","timestamp":1787330311570}@@
+source:: [[../articles/sanderson-but-what-is-a-neural-network]]{
 
 #### Text
 content::
