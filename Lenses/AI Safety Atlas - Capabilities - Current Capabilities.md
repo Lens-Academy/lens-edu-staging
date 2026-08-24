@@ -8,11 +8,12 @@ title: "Current Capabilities"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Current Capabilities|Current Capabilities]]{++{"author":"Elias's AI","timestamp":1787563989698}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Current Capabilities|Current Capabilities]]{++{"author":"Elias's AI","timestamp":1787564174579}@@
 
 #### Text
+optional:: true
 content::
-That is a lot of ground covered fast. If something surprised you, or you think one of these claims is oversold, use the tutor to dig into it.
+Pick the claim on that list you trust least. The tutor has the section in front of it, so make it show you the evidence.
 
 #### Chat
 optional:: true
@@ -25,6 +26,8 @@ topics to explore:
 - Which of them do they think is oversold, and what would settle it?
 - The jump on real GitHub issues depends on tools and scaffolding, not only the model. Does that change what the number means?
 - Benchmarks measure what is easy to measure. What is missing from this list?
+
+The Minecraft and Diplomacy examples sit in a collapsed optional callout, so do not assume the learner read them.
 
 Do not preview the later sections in detail. The forecasting section has its own pre-question and this chapter returns to it. Do not give timelines or an arrival date of your own, even if asked, and if the learner volunteers a date or a horizon, do not evaluate it, extend it, or ask them to justify it.
 
