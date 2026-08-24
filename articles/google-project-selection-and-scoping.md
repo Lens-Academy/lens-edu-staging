@@ -100,6 +100,6 @@ Links:
 
 {--{"author":"Luc's AI","timestamp":1787602247546}@@[\[b\]](#cmnt_ref2)--}{++{"author":"Luc's AI","timestamp":1787602247546}@@[b]++} todo
 
-[\[c\]](#cmnt_ref3) todo
+{--{"author":"Luc's AI","timestamp":1787602248108}@@[\[c\]](#cmnt_ref3)--}{++{"author":"Luc's AI","timestamp":1787602248108}@@[c]++} todo
 
-[\[d\]](#cmnt_ref4) todo I need to explain this more
+{--{"author":"Luc's AI","timestamp":1787602248576}@@[\[d\]](#cmnt_ref4)--}{++{"author":"Luc's AI","timestamp":1787602248576}@@[d]++} todo I need to explain this more
