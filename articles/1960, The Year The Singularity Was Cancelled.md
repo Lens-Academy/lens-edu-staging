@@ -104,7 +104,7 @@ In fact…
 
 ![](https://www.slatestarcodexabridged.com/attach/demographics_capitadouble2.png?v=1597348637.png)
 
-This is a *really sketchy* graph of per capita income doubling times. It’s sketchy because until 1650, per capita income wasn’t really increasing at all. It was following a one-step-forward one-step-back pattern. But if you take out all the steps back and just watch how quickly it took the steps forward, you get something like this.
+{--{"author":"AI","timestamp":1787568117792}@@This--}{++{"author":"AI","timestamp":1787568117792}@@_This++} is a *really sketchy* graph of per capita income doubling times. It’s sketchy because until 1650, per capita income wasn’t really increasing at all. It was following a one-step-forward one-step-back pattern. But if you take out all the steps back and just watch how quickly it took the steps forward, you get something like {--{"author":"AI","timestamp":1787568117792}@@this.--}{++{"author":"AI","timestamp":1787568117792}@@this._++}
 
 Even though per capita income tries to abstract out population, it displays the same pattern. Until 1960, we were on track for a singularity where everyone earned infinite money. After 1960, the graph “bounces back” and growth rates stabilize or even decrease.
 
@@ -120,7 +120,7 @@ So it looks like past predictions of a techno-economic singularity for the early
 
 ![](https://www.slatestarcodexabridged.com/attach/demographics_absolutedouble.png?v=1597348636.png) ![](https://www.slatestarcodexabridged.com/attach/demographics_doublebritain.png?v=1597348635.png)
 
-The first graph is the same one you saw in the last section, of absolute GWP doubling times. The second graph is the same, but limited to Britain.
+{--{"author":"AI","timestamp":1787568121059}@@The--}{++{"author":"AI","timestamp":1787568121059}@@_The++} first graph is the same one you saw in the last section, of absolute GWP doubling times. The second graph is the same, but limited to {--{"author":"AI","timestamp":1787568121059}@@Britain.--}{++{"author":"AI","timestamp":1787568121059}@@Britain._++}
 
 Where’s the Industrial Revolution?
 
