@@ -1,4 +1,4 @@
-{++{"author":"Luc's AI","timestamp":1787591644987}@@---
+{++{"author":"Luc's AI","timestamp":1787591653524}@@---
 tags:
   - validator-ignore
 ---
@@ -136,7 +136,7 @@ eval-results:
   date: <today, YYYY-MM-DD>
   model: <the judge model id>
   suite-version: <current>
-  checks: {A1: pass, A2: pass, B1: fail, C1: fail, C2: pass, C3: pass}
+  checks: {A1: pass, A2: pass, B1: fail, C2: pass, C3: pass}
   notes: {B1: "<the judge's one-line reason>"}
   evidence: {B1: "<the judge's shortest verbatim quote grounding the fail>"}
 ```
