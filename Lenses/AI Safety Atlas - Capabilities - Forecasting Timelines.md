@@ -13,7 +13,7 @@ source:: [[../articles/AI Safety Atlas - Capabilities - Forecasting Timelines|Fo
 #### Text
 optional:: true
 content::
-The section's own claim is that these are intervals, not predictions. If one of them still reads to you like a prediction, take it to the tutor.
+The {--{"author":"Elias's AI","timestamp":1787566640251}@@section's own claim is that--}{++{"author":"Elias's AI","timestamp":1787566640251}@@section insists++} these are intervals, not predictions. {--{"author":"Elias's AI","timestamp":1787566640251}@@If one of them still reads to you like a prediction, take--}{++{"author":"Elias's AI","timestamp":1787566640251}@@Does it hold to that itself? Pick one of its numbers and test++} it {--{"author":"Elias's AI","timestamp":1787566640251}@@to--}{++{"author":"Elias's AI","timestamp":1787566640251}@@against that standard with++} the tutor.
 
 #### Chat
 optional:: true
