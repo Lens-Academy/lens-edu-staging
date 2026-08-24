@@ -8,4 +8,22 @@ title: "Forecasting Timelines"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Forecasting Timelines|Forecasting Timelines]]
+source:: [[../articles/AI Safety Atlas - Capabilities - Forecasting Timelines|Forecasting Timelines]]{++{"author":"Elias's AI","timestamp":1787562167367}@@
+
+#### Text
+content::
+Plenty of numbers in there. If any of them did not sit right, use the tutor to walk one through.
+
+#### Chat
+optional:: true
+instructions::
+TLDR of what the user just read:
+Data-driven forecasting of AI progress, framed as a way to check whether your own beliefs hang together rather than as prediction. Effective compute is the product of three factors, each with its own recent growth rate: chip production, hardware efficiency, and algorithmic efficiency. On training data, high-quality public text is projected to be exhausted somewhere between 2026 and 2032, with three possible escape routes: multimodal data, synthetic data, and task-based learning through self-play. The section stresses that error margins are wide and compound, giving biological anchors as an example spanning many orders of magnitude.
+
+topics to explore:
+- Which of the three effective-compute factors looks most fragile, and what would break it?
+- What do the escape routes from the data limit actually have to deliver for scaling to continue?
+- The section says a forecast is a consistency check on your beliefs. What belief of theirs does it put under most pressure?
+- How should someone act differently under a wide error margin rather than a narrow one?
+
+Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
