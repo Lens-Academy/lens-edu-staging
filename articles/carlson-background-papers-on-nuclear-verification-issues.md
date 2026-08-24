@@ -514,609 +514,609 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 --}{++{"author":"Luc's AI","timestamp":1787602378293}@@\[3\]
 
-. ++}This basic statement is elaborated further in the description of the "objective of safeguards", namely:{--{"author":"Luc's AI","timestamp":1787602108175}@@
+. ++}This basic statement is elaborated further in the description of the "objective of safeguards", namely:{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}"… the timely detection of diversion of significant quantities of nuclear material from peaceful nuclear activities to the manufacture of nuclear weapons or of other nuclear explosive devices or for purposes unknown..." {--{"author":"Luc's AI","timestamp":1787602128266}@@[^4].--}{++{"author":"Luc's AI","timestamp":1787602128266}@@[^note-4].++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}"… the timely detection of diversion of significant quantities of nuclear material from peaceful nuclear activities to the manufacture of nuclear weapons or of other nuclear explosive devices or for purposes unknown..." {--{"author":"Luc's AI","timestamp":1787602128266}@@[^4].--}{++{"author":"Luc's AI","timestamp":1787602128266}@@[^note-4].++}{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}### 3\. THE SAFEGUARDS MISSION – A PROCESS OF EVOLUTION{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 3\. THE SAFEGUARDS MISSION – A PROCESS OF EVOLUTION{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}The interpretation of INFCIRC/153, in terms of safeguards implementation and the expectations of the international community, has evolved over time, and continues to do so.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The interpretation of INFCIRC/153, in terms of safeguards implementation and the expectations of the international community, has evolved over time, and continues to do so.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}From the terms of the NPT it is clear that INFCIRC/153 does not represent the full extent of the IAEA's verification mandate. Under the NPT, the State has accepted "the Agency's safeguards system". This is an evolutionary system, a system whose content is under continuing development – as shown by the fact that when the NPT was concluded INFCIRC/153 did not exist, in signing on to the NPT States accepted a commitment to a system that was then undefined.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}From the terms of the NPT it is clear that INFCIRC/153 does not represent the full extent of the IAEA's verification mandate. Under the NPT, the State has accepted "the Agency's safeguards system". This is an evolutionary system, a system whose content is under continuing development – as shown by the fact that when the NPT was concluded INFCIRC/153 did not exist, in signing on to the NPT States accepted a commitment to a system that was then undefined.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}To find major elements of the safeguards system it is necessary to go outside INFCIRC/153 – upwards, to decisions of the Board of Governors, and downwards, to the IAEA's Safeguards Manuals, Safeguards Criteria, the integrated safeguards conceptual framework and associated documentation, and so on. The point is, there is considerable flexibility in "the Agency's safeguards system", the Board of Governors and the Secretariat are able to adapt the system to meet changing circumstances. This adaptability is a key strength, essential to maintaining and improving the effectiveness of the safeguards system.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}To find major elements of the safeguards system it is necessary to go outside INFCIRC/153 – upwards, to decisions of the Board of Governors, and downwards, to the IAEA's Safeguards Manuals, Safeguards Criteria, the integrated safeguards conceptual framework and associated documentation, and so on. The point is, there is considerable flexibility in "the Agency's safeguards system", the Board of Governors and the Secretariat are able to adapt the system to meet changing circumstances. This adaptability is a key strength, essential to maintaining and improving the effectiveness of the safeguards system.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}Until the 1990s the principal task of safeguards was generally seen as being to confirm the correctness of States' declarations. As noted above, it was thought that any undeclared nuclear material/activities would be revealed through diversion of declared nuclear material or misuse of declared facilities. Hence the focus of safeguards agreements was on nuclear material, nuclear accountancy, and regular inspections.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Until the 1990s the principal task of safeguards was generally seen as being to confirm the correctness of States' declarations. As noted above, it was thought that any undeclared nuclear material/activities would be revealed through diversion of declared nuclear material or misuse of declared facilities. Hence the focus of safeguards agreements was on nuclear material, nuclear accountancy, and regular inspections.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}Since the early 1990s, following the discovery of Iraq's clandestine nuclear weapon program, the emphasis has turned to detection of undeclared nuclear material/activities – referred to as confirming the completeness of States' declarations. It is now recognised that if a State has undeclared nuclear material/activities it is quite likely there will be no obvious links between these and the declared nuclear program.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Since the early 1990s, following the discovery of Iraq's clandestine nuclear weapon program, the emphasis has turned to detection of undeclared nuclear material/activities – referred to as confirming the completeness of States' declarations. It is now recognised that if a State has undeclared nuclear material/activities it is quite likely there will be no obvious links between these and the declared nuclear program.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}One expression of this broadening of focus – of fundamental importance in the evolution of the safeguards system – was the development of the Additional Protocol, INFCIRC/540. With INFCIRC/540 the Agency and Member States have recognised that, in order to make the safeguards system more effective, the Agency's verification authority needs to go beyond the application of safeguards procedures to nuclear material.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}One expression of this broadening of focus – of fundamental importance in the evolution of the safeguards system – was the development of the Additional Protocol, INFCIRC/540. With INFCIRC/540 the Agency and Member States have recognised that, in order to make the safeguards system more effective, the Agency's verification authority needs to go beyond the application of safeguards procedures to nuclear material.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}INFCIRC/540 has extended the Agency's authority into a number of areas where nuclear material would not normally be present, such as manufacture of centrifuge components, heavy water, nuclear grade graphite, and shielded flasks, and construction of hot cells. The rationale for this is clear: the Agency can – and should – look at broader information that strengthens the Agency's ability to verify and draw conclusions regarding nuclear material in the State concerned. This encompasses procedures to find indicators of undeclared nuclear material and nuclear activities, or indicators of diversion or proposed diversion of nuclear {--{"author":"Luc's AI","timestamp":1787602128786}@@material.[^5]--}{++{"author":"Luc's AI","timestamp":1787602128786}@@material.[^note-5]++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}INFCIRC/540 has extended the Agency's authority into a number of areas where nuclear material would not normally be present, such as manufacture of centrifuge components, heavy water, nuclear grade graphite, and shielded flasks, and construction of hot cells. The rationale for this is clear: the Agency can – and should – look at broader information that strengthens the Agency's ability to verify and draw conclusions regarding nuclear material in the State concerned. This encompasses procedures to find indicators of undeclared nuclear material and nuclear activities, or indicators of diversion or proposed diversion of nuclear {--{"author":"Luc's AI","timestamp":1787602128786}@@material.[^5]--}{++{"author":"Luc's AI","timestamp":1787602128786}@@material.[^note-5]++}{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}In parallel with the introduction of INFCIRC/540, the Agency has been developing a new range of verification methods and technologies, including information collection and analysis, environmental analysis, use of satellite imagery, and so on. Information analysis now has a central place in the evaluation of States for safeguards purposes and consequent decision-making, looking at questions such as: what are the acquisition paths available to a State; what are the possible indicators of undeclared nuclear activities; what is the optimal safeguards strategy for detecting such activities?{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}In parallel with the introduction of INFCIRC/540, the Agency has been developing a new range of verification methods and technologies, including information collection and analysis, environmental analysis, use of satellite imagery, and so on. Information analysis now has a central place in the evaluation of States for safeguards purposes and consequent decision-making, looking at questions such as: what are the acquisition paths available to a State; what are the possible indicators of undeclared nuclear activities; what is the optimal safeguards strategy for detecting such activities?{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}With the emphasis now being given to undeclared nuclear activities, the safeguards system is reflecting more closely the intent of the NPT, that verification should have a view to preventing {--{"author":"Luc's AI","timestamp":1787602129315}@@diversion.[^6]--}{++{"author":"Luc's AI","timestamp":1787602129315}@@diversion.[^note-6]++} Of course safeguards as such cannot prevent diversion, except through the deterrent effect of the risk of detection. Prevention is likely to require the intervention of the international community – but effective intervention depends on timely warning. The Agency's duty to the international community is, where possible, to provide warning before, not after, a nuclear weapon program has proceeded beyond the point where intervention can be effective.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}With the emphasis now being given to undeclared nuclear activities, the safeguards system is reflecting more closely the intent of the NPT, that verification should have a view to preventing {--{"author":"Luc's AI","timestamp":1787602129315}@@diversion.[^6]--}{++{"author":"Luc's AI","timestamp":1787602129315}@@diversion.[^note-6]++} Of course safeguards as such cannot prevent diversion, except through the deterrent effect of the risk of detection. Prevention is likely to require the intervention of the international community – but effective intervention depends on timely warning. The Agency's duty to the international community is, where possible, to provide warning before, not after, a nuclear weapon program has proceeded beyond the point where intervention can be effective.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}### 4\. NUCLEAR WEAPONISATION{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 4\. NUCLEAR WEAPONISATION{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}Issues concerning the scope of verification and timely warning are directly relevant to the issue of weaponisation. "Weaponisation" is a shorthand term for the range of activities, in addition to the acquisition of fissile material, necessary for the manufacture of a nuclear weapon or nuclear explosive device. The manufacture of nuclear weapons obviously requires nuclear material, but many preparatory activities do not. Some relevant non-nuclear materials and activities are "dual-use", i.e. taken in isolation they do not necessarily indicate an intention to manufacture a nuclear weapon. While such an activity may be ambiguous, however, it may be less so in the context of other information about the State (e.g. discovery of undeclared nuclear material/activities).{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Issues concerning the scope of verification and timely warning are directly relevant to the issue of weaponisation. "Weaponisation" is a shorthand term for the range of activities, in addition to the acquisition of fissile material, necessary for the manufacture of a nuclear weapon or nuclear explosive device. The manufacture of nuclear weapons obviously requires nuclear material, but many preparatory activities do not. Some relevant non-nuclear materials and activities are "dual-use", i.e. taken in isolation they do not necessarily indicate an intention to manufacture a nuclear weapon. While such an activity may be ambiguous, however, it may be less so in the context of other information about the State (e.g. discovery of undeclared nuclear material/activities).{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}Whether the State is known to have direct-use material, or the capability to produce it, is an essential aspect of assessing the significance of apparent weaponisation activities – but it should not be overlooked that weaponisation activities may themselves be an indicator of the existence of undeclared nuclear material/activities, as yet undetected.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Whether the State is known to have direct-use material, or the capability to produce it, is an essential aspect of assessing the significance of apparent weaponisation activities – but it should not be overlooked that weaponisation activities may themselves be an indicator of the existence of undeclared nuclear material/activities, as yet undetected.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}The Secretariat has suggested that "absent some nexus to nuclear material the Agency's legal authority to pursue the verification of possible nuclear weapons related activity is {--{"author":"Luc's AI","timestamp":1787602129828}@@limited".[^8]--}{++{"author":"Luc's AI","timestamp":1787602129828}@@limited".[^note-8]++} What is a sufficient nexus? Clearly, development of nuclear weapons must at some stage involve nuclear material. The conduct of certain activities by a State may be a clear indication of intent to misuse nuclear material. The Agency has a responsibility to provide timely warning of diversion of nuclear material to nuclear weapons, so cannot ignore activities that indicate preparation for diversion, or indeed that diversion involving undeclared nuclear material/activities may have already occurred without detection.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The Secretariat has suggested that "absent some nexus to nuclear material the Agency's legal authority to pursue the verification of possible nuclear weapons related activity is {--{"author":"Luc's AI","timestamp":1787602129828}@@limited".[^8]--}{++{"author":"Luc's AI","timestamp":1787602129828}@@limited".[^note-8]++} What is a sufficient nexus? Clearly, development of nuclear weapons must at some stage involve nuclear material. The conduct of certain activities by a State may be a clear indication of intent to misuse nuclear material. The Agency has a responsibility to provide timely warning of diversion of nuclear material to nuclear weapons, so cannot ignore activities that indicate preparation for diversion, or indeed that diversion involving undeclared nuclear material/activities may have already occurred without detection.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}In considering the IAEA's rights and responsibilities in this area, it is important to distinguish between:{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}In considering the IAEA's rights and responsibilities in this area, it is important to distinguish between:{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}-   the IAEA's legal authority – its right of access to locations in a State to investigate possible weaponisation activities, and its responsibility to draw conclusions;{--{"author":"Luc's AI","timestamp":1787602108175}@@
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
-    ++}-   the IAEA's detection capabilities – detection of some of these activities could be very difficult. This should not be confused with the right to investigate, but it can affect the level of assurance the IAEA is able to provide in this area.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}-   the IAEA's legal authority – its right of access to locations in a State to investigate possible weaponisation activities, and its responsibility to draw conclusions;{--{"author":"Luc's AI","timestamp":1787602396710}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
+++}-   the IAEA's detection capabilities – detection of some of these activities could be very difficult. This should not be confused with the right to investigate, but it can affect the level of assurance the IAEA is able to provide in this area.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}By their nature, many weaponisation activities will be difficult to detect. Here, there are two issues: how to identify specific locations for investigation; and how to detect indicators at such locations. A further difficulty is that even after investigation the activity may remain ambiguous – the outcome may be inconclusive. Because of the inherent difficulties, the international community must accept that the Agency may not be in a position to resolve particular suspicions, and also that it might miss indications of certain activities. In most cases the Agency will not be in a position to provide absolute assurance of the absence of weaponisation activities – although also in most cases State evaluation should show there is no reason to believe such activities may exist.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}By their nature, many weaponisation activities will be difficult to detect. Here, there are two issues: how to identify specific locations for investigation; and how to detect indicators at such locations. A further difficulty is that even after investigation the activity may remain ambiguous – the outcome may be inconclusive. Because of the inherent difficulties, the international community must accept that the Agency may not be in a position to resolve particular suspicions, and also that it might miss indications of certain activities. In most cases the Agency will not be in a position to provide absolute assurance of the absence of weaponisation activities – although also in most cases State evaluation should show there is no reason to believe such activities may exist.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}The difficulties in detecting weaponisation activities need to be taken into account in drawing safeguards conclusions. Absent unusual circumstances, safeguards non-compliance should be regarded as a strong indicator of proliferation intent.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The difficulties in detecting weaponisation activities need to be taken into account in drawing safeguards conclusions. Absent unusual circumstances, safeguards non-compliance should be regarded as a strong indicator of proliferation intent.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}### 5\. SAFEGUARDS CONCLUSIONS AND THE STANDARD OF PROOF{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 5\. SAFEGUARDS CONCLUSIONS AND THE STANDARD OF PROOF{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}The detection of wholly undeclared nuclear material/activities is much more of a challenge than confirmation of the correctness of declarations. As already mentioned, it has been necessary to develop a new range of verification methods and technologies. Although these techniques can be viewed as being "technical" in nature, decisions on which measures should be applied and the intensity of their application – how much is "enough" to fulfil the safeguards mission – involve qualitative judgment. Safeguards implementation requires a judgment on what is required to be done, which needs to be guided by a clear understanding of the safeguards mission. This in turn can be guided by an understanding of the kind of conclusions the Agency is able to reach.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The detection of wholly undeclared nuclear material/activities is much more of a challenge than confirmation of the correctness of declarations. As already mentioned, it has been necessary to develop a new range of verification methods and technologies. Although these techniques can be viewed as being "technical" in nature, decisions on which measures should be applied and the intensity of their application – how much is "enough" to fulfil the safeguards mission – involve qualitative judgment. Safeguards implementation requires a judgment on what is required to be done, which needs to be guided by a clear understanding of the safeguards mission. This in turn can be guided by an understanding of the kind of conclusions the Agency is able to reach.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}The IAEA reports in the annual Safeguards Implementation Report (SIR) whether it found any indication of diversion or any indication of undeclared nuclear material/activities. The results of the Agency's activities are then used to support conclusions.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The IAEA reports in the annual Safeguards Implementation Report (SIR) whether it found any indication of diversion or any indication of undeclared nuclear material/activities. The results of the Agency's activities are then used to support conclusions.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}Traditionally the Agency expressed its conclusions in terms of declared material:{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Traditionally the Agency expressed its conclusions in terms of declared material:{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}"All the information available to the Agency supports the conclusion that the nuclear material and other items placed under safeguards remained in peaceful nuclear activities or were otherwise adequately accounted for."{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}"All the information available to the Agency supports the conclusion that the nuclear material and other items placed under safeguards remained in peaceful nuclear activities or were otherwise adequately accounted for."{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}{--{"author":"Luc's AI","timestamp":1787602130506}@@[^9]--}{++{"author":"Luc's AI","timestamp":1787602130506}@@[^note-9]++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}{--{"author":"Luc's AI","timestamp":1787602130506}@@[^9]--}{++{"author":"Luc's AI","timestamp":1787602130506}@@[^note-9]++}{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}Once the Agency began to implement safeguards measures under the Additional Protocol, however, there was an expectation that it would also draw a conclusion about the absence of undeclared nuclear material/activities. The Agency did this for the first time in the SIR for 2000, when it reported:{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Once the Agency began to implement safeguards measures under the Additional Protocol, however, there was an expectation that it would also draw a conclusion about the absence of undeclared nuclear material/activities. The Agency did this for the first time in the SIR for 2000, when it reported:{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}"In 2000, in respect of seven States, the Secretariat – having evaluated all the information obtained through activities pursuant to these States' comprehensive safeguards agreements and additional protocols as well as all other information available to the Agency – found no indication either of diversion of nuclear material placed under safeguards or of the presence of undeclared nuclear material or activities in those States. On this basis, the Secretariat concluded that all nuclear material in those States had been placed under safeguards and remained in peaceful nuclear activities or was otherwise adequately accounted for." (underlining added){--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}"In 2000, in respect of seven States, the Secretariat – having evaluated all the information obtained through activities pursuant to these States' comprehensive safeguards agreements and additional protocols as well as all other information available to the Agency – found no indication either of diversion of nuclear material placed under safeguards or of the presence of undeclared nuclear material or activities in those States. On this basis, the Secretariat concluded that all nuclear material in those States had been placed under safeguards and remained in peaceful nuclear activities or was otherwise adequately accounted for." (underlining added){--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}It is essential that the Agency's conclusions on the absence of undeclared nuclear material/activities are credible. The international community must be confident that the absence of indicators does not simply reflect inadequate or ineffective verification effort. The Agency is devoting considerable effort to the development of verification methods that will provide a credible result. In this regard, credibility will depend on a number of factors: that the verification methods are appropriate; that they are implemented appropriately in each case (which involves issues of quality assurance); and that the Agency's practices are adequately understood by the international community.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}It is essential that the Agency's conclusions on the absence of undeclared nuclear material/activities are credible. The international community must be confident that the absence of indicators does not simply reflect inadequate or ineffective verification effort. The Agency is devoting considerable effort to the development of verification methods that will provide a credible result. In this regard, credibility will depend on a number of factors: that the verification methods are appropriate; that they are implemented appropriately in each case (which involves issues of quality assurance); and that the Agency's practices are adequately understood by the international community.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}It is essential for States to understand what the Agency means by a conclusion on the absence of undeclared nuclear material/activities. Such a conclusion is not unqualified – it is important not to confuse credible assurance with certainty. It is never possible to prove a negative with absolute certainty. For at least the last 30 years, the Agency has recognised that it is necessary to draw its conclusions on the balance of probabilities. There has been a substantial effort to ensure the credibility of the conclusions drawn, but it is recognised that seeking higher levels of assurance rapidly falls victim to the law of diminishing returns.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}It is essential for States to understand what the Agency means by a conclusion on the absence of undeclared nuclear material/activities. Such a conclusion is not unqualified – it is important not to confuse credible assurance with certainty. It is never possible to prove a negative with absolute certainty. For at least the last 30 years, the Agency has recognised that it is necessary to draw its conclusions on the balance of probabilities. There has been a substantial effort to ensure the credibility of the conclusions drawn, but it is recognised that seeking higher levels of assurance rapidly falls victim to the law of diminishing returns.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}One aspect of conclusions about undeclared nuclear material/activities concerns the significance of the detection of such material/activities, and whether their existence constitutes diversion. Is it sufficient for the IAEA to show a failure to declare nuclear material or nuclear activities, or is something more required, such as evidence of nuclear weapon intent?{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}One aspect of conclusions about undeclared nuclear material/activities concerns the significance of the detection of such material/activities, and whether their existence constitutes diversion. Is it sufficient for the IAEA to show a failure to declare nuclear material or nuclear activities, or is something more required, such as evidence of nuclear weapon intent?{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}It is most unlikely inspectors will catch a State red-handed, e.g. by finding a nuclear weapon or nuclear material in the form of nuclear weapon components. It is more likely a State facing exposure in such an obvious way would deny access, preferring to argue whether lack of cooperation constitutes non-compliance, and to be able to maintain some ambiguity about its actions. For this reason, the reference in INFCIRC/153 paragraph 28 to diversion to "purposes unknown" is very important. The framers of INFCIRC/153 realised that the standard of proof should not be set unrealistically high.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}It is most unlikely inspectors will catch a State red-handed, e.g. by finding a nuclear weapon or nuclear material in the form of nuclear weapon components. It is more likely a State facing exposure in such an obvious way would deny access, preferring to argue whether lack of cooperation constitutes non-compliance, and to be able to maintain some ambiguity about its actions. For this reason, the reference in INFCIRC/153 paragraph 28 to diversion to "purposes unknown" is very important. The framers of INFCIRC/153 realised that the standard of proof should not be set unrealistically high.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}Further, INFCIRC/153 provides that the Board may report to the Security Council if it finds that the Agency is not able to verify that there has been no diversion to nuclear {--{"author":"Luc's AI","timestamp":1787602131050}@@weapons.[^10]--}{++{"author":"Luc's AI","timestamp":1787602131050}@@weapons.[^note-10]++} Broadly speaking there are two possible scenarios here:{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Further, INFCIRC/153 provides that the Board may report to the Security Council if it finds that the Agency is not able to verify that there has been no diversion to nuclear {--{"author":"Luc's AI","timestamp":1787602131050}@@weapons.[^10]--}{++{"author":"Luc's AI","timestamp":1787602131050}@@weapons.[^note-10]++} Broadly speaking there are two possible scenarios here:{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}-   inspectors find that nuclear material is unaccountably missing (and self-evidently, the purpose for which the nuclear material may be being used is not known); or{--{"author":"Luc's AI","timestamp":1787602108175}@@
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
-    ++}-   inspectors find undeclared nuclear material, without satisfactory explanation – i.e. the reason (purpose) for the failure to declare is not known.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}-   inspectors find that nuclear material is unaccountably missing (and self-evidently, the purpose for which the nuclear material may be being used is not known); or{--{"author":"Luc's AI","timestamp":1787602396710}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
+++}-   inspectors find undeclared nuclear material, without satisfactory explanation – i.e. the reason (purpose) for the failure to declare is not known.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}In either case it is essential for the Board to have the opportunity to consider the matter without delay.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}In either case it is essential for the Board to have the opportunity to consider the matter without delay.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}This understanding of what it is the Agency needs to demonstrate should help to guide what the Agency needs to do in its verification activities – in other words, to clarify the Agency's safeguards mission. To "prove" the existence of a nuclear weapon program is too demanding – detection of weaponisation activities will be very difficult, or if they are detected their purpose may be ambiguous. Depending on the circumstances, the existence of undeclared nuclear material/activities should raise a presumption of diversion – especially if direct-use material, enrichment or plutonium separation are involved. The more additional information the IAEA can gather the better – this will help to make the judgment whether a weapon purpose is plausible in the circumstances. Detection and investigation of apparent weaponisation activities need to be part of the IAEA's remit, but are not essential to support a finding of diversion/non-compliance.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}This understanding of what it is the Agency needs to demonstrate should help to guide what the Agency needs to do in its verification activities – in other words, to clarify the Agency's safeguards mission. To "prove" the existence of a nuclear weapon program is too demanding – detection of weaponisation activities will be very difficult, or if they are detected their purpose may be ambiguous. Depending on the circumstances, the existence of undeclared nuclear material/activities should raise a presumption of diversion – especially if direct-use material, enrichment or plutonium separation are involved. The more additional information the IAEA can gather the better – this will help to make the judgment whether a weapon purpose is plausible in the circumstances. Detection and investigation of apparent weaponisation activities need to be part of the IAEA's remit, but are not essential to support a finding of diversion/non-compliance.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}### 6\. CONCLUSIONS{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 6\. CONCLUSIONS{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}The NPT reflects the expectations of the international community as to compliance with the non-proliferation obligation and verification of this compliance. The NPT provides that the safeguards system is to verify fulfilment of the obligations assumed under the Treaty "with a view to preventing diversion of nuclear energy to nuclear weapons". Accepting safeguards procedures on nuclear material is an essential mechanism for demonstrating compliance with the non-proliferation obligations, but it is by no means the full extent of these obligations. With the adoption of INFCIRC/540 both the Agency and Member States now appreciate that, for the Agency to fulfil its mandate, safeguards procedures cannot be limited to nuclear material, but need to encompass related matters that support conclusions about nuclear material.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The NPT reflects the expectations of the international community as to compliance with the non-proliferation obligation and verification of this compliance. The NPT provides that the safeguards system is to verify fulfilment of the obligations assumed under the Treaty "with a view to preventing diversion of nuclear energy to nuclear weapons". Accepting safeguards procedures on nuclear material is an essential mechanism for demonstrating compliance with the non-proliferation obligations, but it is by no means the full extent of these obligations. With the adoption of INFCIRC/540 both the Agency and Member States now appreciate that, for the Agency to fulfil its mandate, safeguards procedures cannot be limited to nuclear material, but need to encompass related matters that support conclusions about nuclear material.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}It is essential to avoid unrealistic expectations – States must be made aware of limitations in safeguards capability, especially since notwithstanding good progress the development ofcapabilities to detect undeclared nuclear activities is still at a relatively early stage. On the other hand, if the Agency does not investigate matters of serious concern to States – such as indications of weaponisation – this will adversely affect credibility. Apparent weaponisation activities may indicate preparation for diversion – or that diversion (including activities involving undeclared nuclear material) has already occurred but not been detected. This is a matter the Agency cannot afford to neglect.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}It is essential to avoid unrealistic expectations – States must be made aware of limitations in safeguards capability, especially since notwithstanding good progress the development ofcapabilities to detect undeclared nuclear activities is still at a relatively early stage. On the other hand, if the Agency does not investigate matters of serious concern to States – such as indications of weaponisation – this will adversely affect credibility. Apparent weaponisation activities may indicate preparation for diversion – or that diversion (including activities involving undeclared nuclear material) has already occurred but not been detected. This is a matter the Agency cannot afford to neglect.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}It is also important that the Agency doesn't set the standard of proof for safeguards conclusions too high. The framers of INFCIRC/153 were realistic in their use of language such as "purposes unknown" and "not able to verify". The responsibility to provide timely warning and a requirement for certainty could well be mutually exclusive – by the time certainty is established it may be too late.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}It is also important that the Agency doesn't set the standard of proof for safeguards conclusions too high. The framers of INFCIRC/153 were realistic in their use of language such as "purposes unknown" and "not able to verify". The responsibility to provide timely warning and a requirement for certainty could well be mutually exclusive – by the time certainty is established it may be too late.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}Whether governments have confidence that a State's nuclear program is exclusively peaceful is a matter of judgment made, not on the basis of certainty but on the balance of probabilities. The situation is more likely to be one of ambiguity, rather than conclusive evidence. Once inspectors find they are unable to verify that there has been no diversion to nuclear weapons – or that there has been diversion to purposes unknown (which includes use of nuclear material in activities whose purpose is uncertain) – it is for the Board of Governors and governments to consider the implications and what is necessary to rebuild confidence.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Whether governments have confidence that a State's nuclear program is exclusively peaceful is a matter of judgment made, not on the basis of certainty but on the balance of probabilities. The situation is more likely to be one of ambiguity, rather than conclusive evidence. Once inspectors find they are unable to verify that there has been no diversion to nuclear weapons – or that there has been diversion to purposes unknown (which includes use of nuclear material in activities whose purpose is uncertain) – it is for the Board of Governors and governments to consider the implications and what is necessary to rebuild confidence.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}For the safeguards system to be credible a close correlation is needed between safeguards outcomes and the expectations of the international community. It is essential to all parties that the safeguards system is able to provide confidence about a State's performance of its peaceful use commitments – or to provide timely warning if there are grounds for concern. A shared understanding of the safeguards mission – the objectives of the safeguards system – is essential to avoid misunderstandings and failure.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}For the safeguards system to be credible a close correlation is needed between safeguards outcomes and the expectations of the international community. It is essential to all parties that the safeguards system is able to provide confidence about a State's performance of its peaceful use commitments – or to provide timely warning if there are grounds for concern. A shared understanding of the safeguards mission – the objectives of the safeguards system – is essential to avoid misunderstandings and failure.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}## Paper 3 - Safeguards in a Changing Environment{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}## Paper 3 - Safeguards in a Changing Environment{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}RG Casey Bldg, John McEwen Crescent, Barton, ACT 0221, Australia{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}RG Casey Bldg, John McEwen Crescent, Barton, ACT 0221, Australia{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}_Paper for the Annual Meeting of the Institute for Nuclear Materials Management,_{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}_Paper for the Annual Meeting of the Institute for Nuclear Materials Management,_{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}_Nashville_ _, 13-17 July 2008_{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}_Nashville_ _, 13-17 July 2008_{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}### Abstract{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### Abstract{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}Safeguards have evolved substantially over time, reflecting changes in the technical and political environment in which they operate. Key influences have included the extent and scope of nuclear programs under safeguards, the kind of proliferation challenges that have arisen, and state expectations.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Safeguards have evolved substantially over time, reflecting changes in the technical and political environment in which they operate. Key influences have included the extent and scope of nuclear programs under safeguards, the kind of proliferation challenges that have arisen, and state expectations.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}Safeguards originated with inspections by nuclear suppliers on a bilateral basis, applied to transferred materials and items – hence 'item-specific'. Following the establishment of the IAEA in 1957, safeguards were gradually multilateralised – and with the NPT, were extended beyond transferred items to cover the entire nuclear program of non-nuclear-weapon states ('comprehensive' safeguards). Comprehensive safeguards represented a change of fundamental importance, since they bring the responsibility of verifying the absence of undeclared nuclear materials and activities.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Safeguards originated with inspections by nuclear suppliers on a bilateral basis, applied to transferred materials and items – hence 'item-specific'. Following the establishment of the IAEA in 1957, safeguards were gradually multilateralised – and with the NPT, were extended beyond transferred items to cover the entire nuclear program of non-nuclear-weapon states ('comprehensive' safeguards). Comprehensive safeguards represented a change of fundamental importance, since they bring the responsibility of verifying the absence of undeclared nuclear materials and activities.{--{"author":"Luc's AI","timestamp":1787602396710}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602396710}@@
 
-    ++}From the early 1990s it has been seen that the main contemporary proliferation risk lies not with mainstream nuclear programs but with undeclared nuclear activities. The challenge of detecting these has prompted a major overhaul of safeguards – including greater use of information, a broadening of verification activity, and the drawing of more qualitative conclusions. Especially important has been the move to a state-level approach, taking account of state-specific factors, under which safeguards effort can be prioritised to areas of higher proliferation risk.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}From the early 1990s it has been seen that the main contemporary proliferation risk lies not with mainstream nuclear programs but with undeclared nuclear activities. The challenge of detecting these has prompted a major overhaul of safeguards – including greater use of information, a broadening of verification activity, and the drawing of more qualitative conclusions. Especially important has been the move to a state-level approach, taking account of state-specific factors, under which safeguards effort can be prioritised to areas of higher proliferation risk.{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}This paper outlines the evolution of safeguards to date and suggests some directions for the future.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}This paper outlines the evolution of safeguards to date and suggests some directions for the future.{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}### 1\. INTRODUCTION{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 1\. INTRODUCTION{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}Verification of peaceful use commitments, provided by safeguards measures, is crucial to maintaining international confidence that nuclear programs are exclusively peaceful. From the early days of civil nuclear activities, safeguards have played an essential role in non-proliferation efforts. Far from being a static system, safeguards have evolved substantially over time, reflecting changes in the technical and political environment in which they operate. Key influences have included the extent and scope of nuclear programs under safeguards, the kind of proliferation challenges that have arisen, and the expectations states have for the safeguards system.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Verification of peaceful use commitments, provided by safeguards measures, is crucial to maintaining international confidence that nuclear programs are exclusively peaceful. From the early days of civil nuclear activities, safeguards have played an essential role in non-proliferation efforts. Far from being a static system, safeguards have evolved substantially over time, reflecting changes in the technical and political environment in which they operate. Key influences have included the extent and scope of nuclear programs under safeguards, the kind of proliferation challenges that have arisen, and the expectations states have for the safeguards system.{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}Safeguards are seen by many as a deterministic, even mechanistic, system. This is reflected in views expressed by critics about the adequacy of nuclear material accountancy, and also in current concerns about the adequacy of the IAEA's safeguards budget to deal with an expanding nuclear industry. Indeed, safeguards implementation did go through a mechanistic phase in the 1970s and 80s, but in practice safeguards have always involved management of risk – safeguards processes and parameters are set taking account of how best to counter proliferation risk, using available authority and resources.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Safeguards are seen by many as a deterministic, even mechanistic, system. This is reflected in views expressed by critics about the adequacy of nuclear material accountancy, and also in current concerns about the adequacy of the IAEA's safeguards budget to deal with an expanding nuclear industry. Indeed, safeguards implementation did go through a mechanistic phase in the 1970s and 80s, but in practice safeguards have always involved management of risk – safeguards processes and parameters are set taking account of how best to counter proliferation risk, using available authority and resources.{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}Proliferation risk may be presented through:{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Proliferation risk may be presented through:{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}(a) proliferation-sensitive nuclear materials and facilities; and{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}(a) proliferation-sensitive nuclear materials and facilities; and{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}(b) unsafeguarded nuclear programs (involving sensitive nuclear materials and facilities).{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}(b) unsafeguarded nuclear programs (involving sensitive nuclear materials and facilities).{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}**Proliferation-sensitive nuclear materials and facilities** The principal barrier to proliferation continues to be the difficulty of obtaining fissile material. Production of nuclear weapons requires suitable high enriched uranium or separated plutonium. A proliferator requires these materials or the means to produce them – enrichment or reprocessing facilities (and with the latter, suitable reactors). Safeguards implementation is made easier by the fact that these proliferation-sensitive materials and facilities are relatively limited in non-nuclear-weapon states (NNWS).{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}**Proliferation-sensitive nuclear materials and facilities** The principal barrier to proliferation continues to be the difficulty of obtaining fissile material. Production of nuclear weapons requires suitable high enriched uranium or separated plutonium. A proliferator requires these materials or the means to produce them – enrichment or reprocessing facilities (and with the latter, suitable reactors). Safeguards implementation is made easier by the fact that these proliferation-sensitive materials and facilities are relatively limited in non-nuclear-weapon states (NNWS).{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}**Unsafeguarded nuclear programs** The principal proliferation risk lies with nuclear activities outside safeguards coverage. Since the conclusion of the NPT in 1968, states with unsafeguarded nuclear activities comprise:{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}**Unsafeguarded nuclear programs** The principal proliferation risk lies with nuclear activities outside safeguards coverage. Since the conclusion of the NPT in 1968, states with unsafeguarded nuclear activities comprise:{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}(a) the five recognised nuclear-weapon states (NWS);{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}(a) the five recognised nuclear-weapon states (NWS);{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}(b) the states outside the NPT {--{"author":"Luc's AI","timestamp":1787602131523}@@[^11];--}{++{"author":"Luc's AI","timestamp":1787602131523}@@[^note-11];++} and{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}(b) the states outside the NPT {--{"author":"Luc's AI","timestamp":1787602131523}@@[^11];--}{++{"author":"Luc's AI","timestamp":1787602131523}@@[^note-11];++} and{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}(c) any NPT NNWS with undeclared nuclear activities (thereby being in violation of the NPT).{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}(c) any NPT NNWS with undeclared nuclear activities (thereby being in violation of the NPT).{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}Capping production of fissile material for nuclear weapons in the NWS and the non-NPT states, and bringing their nuclear programs under appropriate verification arrangements, is the goal of the proposed fissile material cut-off treaty. This paper discusses safeguards in the context of comprehensive safeguards agreements (CSAs), i.e. in states where all nuclear material and activities are required to be placed under safeguards (essentially, NNWS party to the NPT).{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Capping production of fissile material for nuclear weapons in the NWS and the non-NPT states, and bringing their nuclear programs under appropriate verification arrangements, is the goal of the proposed fissile material cut-off treaty. This paper discusses safeguards in the context of comprehensive safeguards agreements (CSAs), i.e. in states where all nuclear material and activities are required to be placed under safeguards (essentially, NNWS party to the NPT).{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}An essential task for safeguards is to monitor production, possession and use of sensitive nuclear materials and sensitive facilities that are subject to peaceful use commitments (primarily, under CSAs). If, for example, the IAEA were sure it knew of all reprocessing plants, it would not need to inspect reactors, since plutonium contained in spent fuel is not accessible without reprocessing. Through a risk-informed approach, therefore, confidence about the absence of reprocessing in a particular state supports reductions in safeguards effort on reactors. This is the basis of integrated safeguards, and is the key to how the safeguards system can both: (a) re-prioritise effort to areas of higher proliferation risk; and (b) deal with an expanding number of power reactors without a corresponding increase in safeguards resources.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}An essential task for safeguards is to monitor production, possession and use of sensitive nuclear materials and sensitive facilities that are subject to peaceful use commitments (primarily, under CSAs). If, for example, the IAEA were sure it knew of all reprocessing plants, it would not need to inspect reactors, since plutonium contained in spent fuel is not accessible without reprocessing. Through a risk-informed approach, therefore, confidence about the absence of reprocessing in a particular state supports reductions in safeguards effort on reactors. This is the basis of integrated safeguards, and is the key to how the safeguards system can both: (a) re-prioritise effort to areas of higher proliferation risk; and (b) deal with an expanding number of power reactors without a corresponding increase in safeguards resources.{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}### 2\. HISTORICAL OVERVIEW{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 2\. HISTORICAL OVERVIEW{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}Safeguards originated with inspections by nuclear suppliers, applied to transferred materials and items on a bilateral basis, i.e. they were 'item-specific'. Following the establishment of the IAEA in 1957, an IAEA inspectorate was developed and bilateral inspection activities were gradually replaced by IAEA inspections.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Safeguards originated with inspections by nuclear suppliers, applied to transferred materials and items on a bilateral basis, i.e. they were 'item-specific'. Following the establishment of the IAEA in 1957, an IAEA inspectorate was developed and bilateral inspection activities were gradually replaced by IAEA inspections.{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}A fundamental change in IAEA safeguards was introduced by the NPT, concluded in 1968. The NPT contained a commitment by NNWS to accept IAEA safeguards on all their holdings of nuclear material, existing and future, not only on supplied nuclear items. Thus the basis of IAEA safeguards changed, for NPT NNWS, from being 'item-specific' to being 'full scope' (today termed 'comprehensive') safeguards.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}A fundamental change in IAEA safeguards was introduced by the NPT, concluded in 1968. The NPT contained a commitment by NNWS to accept IAEA safeguards on all their holdings of nuclear material, existing and future, not only on supplied nuclear items. Thus the basis of IAEA safeguards changed, for NPT NNWS, from being 'item-specific' to being 'full scope' (today termed 'comprehensive') safeguards.{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}The 1970s and 80s were a period of very substantial growth for the IAEA safeguards system, through a combination of factors: the introduction of full scope safeguards, the increasing number of states joining the NPT, and the overall expansion of the nuclear industry. As the 'traditional' safeguards system developed, the primary focus was on verifying declared nuclear material, applying procedures similar to those developed for item-specific safeguards. The principal proliferation indicator, for NPT NNWS, was thought to be diversion of nuclear material from safeguarded facilities. Hence safeguards developed as a facility-based system with an emphasis on nuclear material accountancy.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The 1970s and 80s were a period of very substantial growth for the IAEA safeguards system, through a combination of factors: the introduction of full scope safeguards, the increasing number of states joining the NPT, and the overall expansion of the nuclear industry. As the 'traditional' safeguards system developed, the primary focus was on verifying declared nuclear material, applying procedures similar to those developed for item-specific safeguards. The principal proliferation indicator, for NPT NNWS, was thought to be diversion of nuclear material from safeguarded facilities. Hence safeguards developed as a facility-based system with an emphasis on nuclear material accountancy.{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}A complicating factor was the political imperative, in a multilateral agency, to avoid 'discrimination'. This came to be interpreted as requiring uniformity in safeguards implementation, a practice that led, by the 1990s, to some 60% of total IAEA safeguards effort being allocated in just three states –{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Canada{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++},{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Germany{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}and{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Japan{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}– based on the size and complexity of their fuel cycles and the quantities of nuclear material they held. However, the safeguards violations that have come to light showed that the actual risk of proliferation lay elsewhere, in states that had only limited safeguards inspection coverage.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}A complicating factor was the political imperative, in a multilateral agency, to avoid 'discrimination'. This came to be interpreted as requiring uniformity in safeguards implementation, a practice that led, by the 1990s, to some 60% of total IAEA safeguards effort being allocated in just three states –{--{"author":"Luc's AI","timestamp":1787602397680}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@  
+++}Canada{--{"author":"Luc's AI","timestamp":1787602397680}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@  
+++},{--{"author":"Luc's AI","timestamp":1787602397680}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@  
+++}Germany{--{"author":"Luc's AI","timestamp":1787602397680}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@  
+++}and{--{"author":"Luc's AI","timestamp":1787602397680}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@  
+++}Japan{--{"author":"Luc's AI","timestamp":1787602397680}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@  
+++}– based on the size and complexity of their fuel cycles and the quantities of nuclear material they held. However, the safeguards violations that have come to light showed that the actual risk of proliferation lay elsewhere, in states that had only limited safeguards inspection coverage.{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}Discovery of Iraq 's clandestine nuclear activities prompted a major program by the IAEA – with the help of experts from member states (e.g. through Safeguards Support Programs and SAGSI {--{"author":"Luc's AI","timestamp":1787602131995}@@[^12])--}{++{"author":"Luc's AI","timestamp":1787602131995}@@[^note-12])++} – to redesign the safeguards system, a process that is very much ongoing today. This started with 'Programme 93+2', and led to the establishment of the additional protocol, together with a major program of technical development. As a consequence, safeguards are changing from a largely facility-based system to a state-level, information-driven, system.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Discovery of Iraq 's clandestine nuclear activities prompted a major program by the IAEA – with the help of experts from member states (e.g. through Safeguards Support Programs and SAGSI {--{"author":"Luc's AI","timestamp":1787602131995}@@[^12])--}{++{"author":"Luc's AI","timestamp":1787602131995}@@[^note-12])++} – to redesign the safeguards system, a process that is very much ongoing today. This started with 'Programme 93+2', and led to the establishment of the additional protocol, together with a major program of technical development. As a consequence, safeguards are changing from a largely facility-based system to a state-level, information-driven, system.{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}### 3\. STRENGTHENING THE SAFEGUARDS SYSTEM{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 3\. STRENGTHENING THE SAFEGUARDS SYSTEM{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}The program to strengthen safeguards is focusing particularly on establishing the technical capabilities and legal authority necessary for detection of undeclared nuclear activities. Central to these efforts is the effective use of information – involving collection and analysis of information that can enhance the IAEA's knowledge and understanding of nuclear programs – and providing more extensive rights of access to nuclear and nuclear-related locations, including for the resolution of questions arising from information analysis.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The program to strengthen safeguards is focusing particularly on establishing the technical capabilities and legal authority necessary for detection of undeclared nuclear activities. Central to these efforts is the effective use of information – involving collection and analysis of information that can enhance the IAEA's knowledge and understanding of nuclear programs – and providing more extensive rights of access to nuclear and nuclear-related locations, including for the resolution of questions arising from information analysis.{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}Underpinning the program to strengthen safeguards is the additional protocol (AP) – a legal instrument which supplements safeguards agreements, establishing the IAEA's rights to more extensive information and physical access. The Model AP was agreed by the IAEA Board of Governors in 1997.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Underpinning the program to strengthen safeguards is the additional protocol (AP) – a legal instrument which supplements safeguards agreements, establishing the IAEA's rights to more extensive information and physical access. The Model AP was agreed by the IAEA Board of Governors in 1997.{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}Perhaps the most important single innovation in safeguards development is the introduction of the state-level approach ( SLA ). Safeguards are moving from the old uniform approach to one of differentiation, designing safeguards implementation to take account of state-specific factors, such as the acquisition paths available to individual states. A major achievement has been gaining recognition that differentiation is not discriminatory, provided an objective process, applicable to all states, is used.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Perhaps the most important single innovation in safeguards development is the introduction of the state-level approach ( SLA ). Safeguards are moving from the old uniform approach to one of differentiation, designing safeguards implementation to take account of state-specific factors, such as the acquisition paths available to individual states. A major achievement has been gaining recognition that differentiation is not discriminatory, provided an objective process, applicable to all states, is used.{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}A central aspect of the new safeguards system is the introduction of integrated safeguards (IS). IS are described as the optimum combination of safeguards measures available to the Agency under both CSAs and APs which achieves maximum effectiveness and efficiency within available resources. Implementation of IS recognises the degree of redundancy between 'traditional' and strengthened safeguards measures, which can both cover the same acquisition paths. Accordingly, reductions can be made in 'traditional' measures without reducing overall effectiveness.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}A central aspect of the new safeguards system is the introduction of integrated safeguards (IS). IS are described as the optimum combination of safeguards measures available to the Agency under both CSAs and APs which achieves maximum effectiveness and efficiency within available resources. Implementation of IS recognises the degree of redundancy between 'traditional' and strengthened safeguards measures, which can both cover the same acquisition paths. Accordingly, reductions can be made in 'traditional' measures without reducing overall effectiveness.{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}The SLA allows effectiveness objectives to be met, better focusing and prioritising the application of safeguards resources, and in so doing also addresses cost-efficiency objectives. The challenge here is to be able to optimise the opportunities for flexibility provided by the SLA without introducing safeguards vulnerabilities. The development of the SLA – particularly broadening the state-specific factors that are considered appropriate to take into account – together with corresponding changes to ways of evaluating safeguards performance and reporting safeguards results, are a major undertaking, and will be a work in progress for some time.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The SLA allows effectiveness objectives to be met, better focusing and prioritising the application of safeguards resources, and in so doing also addresses cost-efficiency objectives. The challenge here is to be able to optimise the opportunities for flexibility provided by the SLA without introducing safeguards vulnerabilities. The development of the SLA – particularly broadening the state-specific factors that are considered appropriate to take into account – together with corresponding changes to ways of evaluating safeguards performance and reporting safeguards results, are a major undertaking, and will be a work in progress for some time.{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}### 4\. MEETING PROLIFERATION CHALLENGES{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 4\. MEETING PROLIFERATION CHALLENGES{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}Actual proliferation challenges have come from clandestine nuclear activities, not mainstream nuclear programs. Four of the five cases of safeguards non-compliance reported by the IAEA Board to the Security Council have involved undeclared facilities –{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Iraq{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++},{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Libya{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}and Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}– or facilities operated outside safeguards – the DPRK {--{"author":"Luc's AI","timestamp":1787602132483}@@[^13].--}{++{"author":"Luc's AI","timestamp":1787602132483}@@[^note-13].++} In addition, an apparent attempt by{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Syria{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}to build a clandestine reactor has recently come to light.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Actual proliferation challenges have come from clandestine nuclear activities, not mainstream nuclear programs. Four of the five cases of safeguards non-compliance reported by the IAEA Board to the Security Council have involved undeclared facilities –{--{"author":"Luc's AI","timestamp":1787602397680}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@  
+++}Iraq{--{"author":"Luc's AI","timestamp":1787602397680}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@  
+++},{--{"author":"Luc's AI","timestamp":1787602397680}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@  
+++}Libya{--{"author":"Luc's AI","timestamp":1787602397680}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@  
+++}and Iran{--{"author":"Luc's AI","timestamp":1787602397680}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@  
+++}– or facilities operated outside safeguards – the DPRK {--{"author":"Luc's AI","timestamp":1787602132483}@@[^13].--}{++{"author":"Luc's AI","timestamp":1787602132483}@@[^note-13].++} In addition, an apparent attempt by{--{"author":"Luc's AI","timestamp":1787602397680}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@  
+++}Syria{--{"author":"Luc's AI","timestamp":1787602397680}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@  
+++}to build a clandestine reactor has recently come to light.{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}The technical challenges to safeguards include the illicit spread of proliferation-sensitive technology – especially the sale of centrifuge technology and even nuclear weapon designs through black market networks – and the difficulty of detecting undeclared nuclear activities, particularly where these are relatively small-scale. Centrifuge technology is a common thread in the cases of{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Iraq{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++},{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}and Libya, and is also an issue with the DPRK.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The technical challenges to safeguards include the illicit spread of proliferation-sensitive technology – especially the sale of centrifuge technology and even nuclear weapon designs through black market networks – and the difficulty of detecting undeclared nuclear activities, particularly where these are relatively small-scale. Centrifuge technology is a common thread in the cases of{--{"author":"Luc's AI","timestamp":1787602397680}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@  
+++}Iraq{--{"author":"Luc's AI","timestamp":1787602397680}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@  
+++},{--{"author":"Luc's AI","timestamp":1787602397680}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@  
+++}Iran{--{"author":"Luc's AI","timestamp":1787602397680}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@  
+++}and Libya, and is also an issue with the DPRK.{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}Clandestine centrifuge enrichment operations do not need to be industrial-scale to present a major proliferation threat. Nor is the threat limited to clandestine facilities – an emerging threat is the spread of supposedly legitimate enrichment capability that could be used for rapid break-out {--{"author":"Luc's AI","timestamp":1787602133043}@@[^14].--}{++{"author":"Luc's AI","timestamp":1787602133043}@@[^note-14].++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Clandestine centrifuge enrichment operations do not need to be industrial-scale to present a major proliferation threat. Nor is the threat limited to clandestine facilities – an emerging threat is the spread of supposedly legitimate enrichment capability that could be used for rapid break-out {--{"author":"Luc's AI","timestamp":1787602133043}@@[^14].--}{++{"author":"Luc's AI","timestamp":1787602133043}@@[^note-14].++}{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}**Detection of undeclared nuclear activities** How realistic is it to expect the IAEA to detect undeclared activities? This problem has to be addressed at a number of levels:{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}**Detection of undeclared nuclear activities** How realistic is it to expect the IAEA to detect undeclared activities? This problem has to be addressed at a number of levels:{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}(a){--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}(a){--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}methodology – identifying acquisition paths and indicators of activities on these paths, together with the verification procedures needed to enable inspectors and analysts to find these indicators;{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}methodology – identifying acquisition paths and indicators of activities on these paths, together with the verification procedures needed to enable inspectors and analysts to find these indicators;{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}(b){--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}(b){--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}technology – developing the technical means needed to detect nuclear activities;{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}technology – developing the technical means needed to detect nuclear activities;{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}(c){--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}(c){--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}authority – ensuring the IAEA has the necessary powers to obtain information and to carry out verification procedures, especially at suspect locations.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}authority – ensuring the IAEA has the necessary powers to obtain information and to carry out verification procedures, especially at suspect locations.{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}Substantial progress has been made with methodology and technology, though clearly detection capability continues to be a major challenge. The AP has been essential to strengthening the IAEA's authority. The combination of a CSA and an AP now represents the contemporary standard for NPT safeguards.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Substantial progress has been made with methodology and technology, though clearly detection capability continues to be a major challenge. The AP has been essential to strengthening the IAEA's authority. The combination of a CSA and an AP now represents the contemporary standard for NPT safeguards.{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}It is of serious concern, however, that 11 years after the Model AP was agreed, there are seven NNWS NPT Parties with significant nuclear activities –Argentina, Brazil, DPRK, Egypt, Iraq, Syria and Venezuela – that have yet to adopt the AP. In addition, Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}has 'suspended' its cooperation under the AP. The cases of{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Syria{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}as well as Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}show why refusal to implement an AP can no longer be considered acceptable. The IAEA has emphasised that without an AP its ability to draw conclusions on the absence of undeclared nuclear material/activities is limited. All states must do more towards achieving universalisation of the AP – it is high time all nuclear suppliers made the AP a condition for supply.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}It is of serious concern, however, that 11 years after the Model AP was agreed, there are seven NNWS NPT Parties with significant nuclear activities –Argentina, Brazil, DPRK, Egypt, Iraq, Syria and Venezuela – that have yet to adopt the AP. In addition, Iran{--{"author":"Luc's AI","timestamp":1787602397680}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@  
+++}has 'suspended' its cooperation under the AP. The cases of{--{"author":"Luc's AI","timestamp":1787602397680}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@  
+++}Syria{--{"author":"Luc's AI","timestamp":1787602397680}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@  
+++}as well as Iran{--{"author":"Luc's AI","timestamp":1787602397680}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@  
+++}show why refusal to implement an AP can no longer be considered acceptable. The IAEA has emphasised that without an AP its ability to draw conclusions on the absence of undeclared nuclear material/activities is limited. All states must do more towards achieving universalisation of the AP – it is high time all nuclear suppliers made the AP a condition for supply.{--{"author":"Luc's AI","timestamp":1787602397680}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602397680}@@
 
-    ++}It is unrealistic to expect the IAEA to detect undeclared nuclear activities by itself – while the Agency is developing considerable skills in information collection and analysis, including techniques such as satellite imagery analysis, it can never hope to match the intelligence capabilities of a major state. A partnership between states and the Agency is required.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}It is unrealistic to expect the IAEA to detect undeclared nuclear activities by itself – while the Agency is developing considerable skills in information collection and analysis, including techniques such as satellite imagery analysis, it can never hope to match the intelligence capabilities of a major state. A partnership between states and the Agency is required.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}States need to be more willing to share safeguards-relevant information concerning third parties, including nuclear export denials and intelligence information. The AP Annexes should be updated, including the addition of dual-use items. For its part, the IAEA needs to be more proactive in using the authority available to it, especially special inspections. States will not share information if they are not confident the Agency will put this to effective use.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}States need to be more willing to share safeguards-relevant information concerning third parties, including nuclear export denials and intelligence information. The AP Annexes should be updated, including the addition of dual-use items. For its part, the IAEA needs to be more proactive in using the authority available to it, especially special inspections. States will not share information if they are not confident the Agency will put this to effective use.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}### 5\. CHANGING EXPECTATIONS{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 5\. CHANGING EXPECTATIONS{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}Initially the IAEA was expected to verify only the specific items placed under safeguards. The introduction of comprehensive safeguards had far-reaching implications, involving the responsibility of verifying the absence of undeclared nuclear materials and activities, although it was not until the 1990s that states and the Agency began to think in these terms.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Initially the IAEA was expected to verify only the specific items placed under safeguards. The introduction of comprehensive safeguards had far-reaching implications, involving the responsibility of verifying the absence of undeclared nuclear materials and activities, although it was not until the 1990s that states and the Agency began to think in these terms.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}The IAEA has decades of experience verifying non-diversion from declared nuclear activities, and conclusions in this regard can be reached with a high degree of confidence. Now states expect the Agency to also draw conclusions about undeclared nuclear material and activities – to verify the completeness as well as the correctness of states' declarations.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The IAEA has decades of experience verifying non-diversion from declared nuclear activities, and conclusions in this regard can be reached with a high degree of confidence. Now states expect the Agency to also draw conclusions about undeclared nuclear material and activities – to verify the completeness as well as the correctness of states' declarations.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}This expectation is manifested in two ways. Most importantly, states are concerned that the Agency's conclusions about the absence of undeclared nuclear activities are credible – specifically, that the Agency's procedures will be effective in detecting any such activities. States are also keen to gain a 'clean bill of health' for themselves, so they will qualify for IS as quickly as possible.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}This expectation is manifested in two ways. Most importantly, states are concerned that the Agency's conclusions about the absence of undeclared nuclear activities are credible – specifically, that the Agency's procedures will be effective in detecting any such activities. States are also keen to gain a 'clean bill of health' for themselves, so they will qualify for IS as quickly as possible.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}Conclusions on the absence of undeclared nuclear activities are necessarily qualitative. Partly this reflects the need to develop more effective detection techniques, but even if these were available today, it is not possible with absolute certainty to prove a negative, i.e. the absence of undeclared activities. It is essential to avoid false assurance, to recognise there are limitations to the assurance that safeguards can deliver.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Conclusions on the absence of undeclared nuclear activities are necessarily qualitative. Partly this reflects the need to develop more effective detection techniques, but even if these were available today, it is not possible with absolute certainty to prove a negative, i.e. the absence of undeclared activities. It is essential to avoid false assurance, to recognise there are limitations to the assurance that safeguards can deliver.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}Rightly, the IAEA Secretariat is very careful in the way it expresses its safeguards conclusions. In particular, it avoids saying there are no undeclared nuclear activities in a state. Rather, the conclusions are expressed in terms of whether it found indications. Further, the Secretariat recognises that the conclusions that can be drawn depend on the scope of the safeguards implemented in each state – stronger conclusions where IS are being applied, more limited conclusions where there is only a CSA.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Rightly, the IAEA Secretariat is very careful in the way it expresses its safeguards conclusions. In particular, it avoids saying there are no undeclared nuclear activities in a state. Rather, the conclusions are expressed in terms of whether it found indications. Further, the Secretariat recognises that the conclusions that can be drawn depend on the scope of the safeguards implemented in each state – stronger conclusions where IS are being applied, more limited conclusions where there is only a CSA.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}In its current format for safeguards conclusions, the Secretariat reports as follows:{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}In its current format for safeguards conclusions, the Secretariat reports as follows:{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}1.  for states under IS, it found no indication of the diversion of declared nuclear material from peaceful nuclear activities and no indication of undeclared nuclear material or activities. On this basis, it concluded that, for these states, all nuclear material remained in peaceful activities;{--{"author":"Luc's AI","timestamp":1787602108175}@@
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
-    ++}2.  for states with a CSA and an AP, but which had not yet qualified for IS, it found no indication of the diversion of declared nuclear material from peaceful nuclear activities. Evaluations regarding the absence of undeclared nuclear material and activities remained ongoing. On this basis, it concluded that declared nuclear material remained in peaceful activities;{--{"author":"Luc's AI","timestamp":1787602108175}@@
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
-    ++}3.  for states with a CSA but no AP, it found no indication of the diversion of declared nuclear material from peaceful nuclear activities. On this basis, it concluded that declared nuclear material remained in peaceful activities.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}1.  for states under IS, it found no indication of the diversion of declared nuclear material from peaceful nuclear activities and no indication of undeclared nuclear material or activities. On this basis, it concluded that, for these states, all nuclear material remained in peaceful activities;{--{"author":"Luc's AI","timestamp":1787602398754}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
+++}2.  for states with a CSA and an AP, but which had not yet qualified for IS, it found no indication of the diversion of declared nuclear material from peaceful nuclear activities. Evaluations regarding the absence of undeclared nuclear material and activities remained ongoing. On this basis, it concluded that declared nuclear material remained in peaceful activities;{--{"author":"Luc's AI","timestamp":1787602398754}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
+++}3.  for states with a CSA but no AP, it found no indication of the diversion of declared nuclear material from peaceful nuclear activities. On this basis, it concluded that declared nuclear material remained in peaceful activities.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}Confidence in the IAEA's competence is of crucial importance. No matter how well the practical limitations on what the Agency can deliver are understood, it is damaging to confidence when undeclared activities come to light that the Agency had not detected. For example, it is of concern that Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}'s clandestine nuclear activities went undetected for some 20 years.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Confidence in the IAEA's competence is of crucial importance. No matter how well the practical limitations on what the Agency can deliver are understood, it is damaging to confidence when undeclared activities come to light that the Agency had not detected. For example, it is of concern that Iran{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}'s clandestine nuclear activities went undetected for some 20 years.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}Criticisms about the failure to detect the Iranian nuclear program can be considered unfair, because: detection techniques, especially for centrifuge enrichment operations, remain under development; the IAEA needs the access rights provided by the AP, which Iran has refused to observe; and national intelligence agencies also failed to detect these activities – but the situation is not reassuring, and illustrates very well the challenges facing the Agency. Now states are considering the implications of{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Syria{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}'s apparent clandestine nuclear activities not being detected by the Agency.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Criticisms about the failure to detect the Iranian nuclear program can be considered unfair, because: detection techniques, especially for centrifuge enrichment operations, remain under development; the IAEA needs the access rights provided by the AP, which Iran has refused to observe; and national intelligence agencies also failed to detect these activities – but the situation is not reassuring, and illustrates very well the challenges facing the Agency. Now states are considering the implications of{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}Syria{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}'s apparent clandestine nuclear activities not being detected by the Agency.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}The IAEA's safeguards responsibility involves more than technical verification activities. The credibility of the safeguards system – whether the system meets international expectations – depends on confidence in both verification capability and the outcomes resulting from verification findings. Predictability and consistency of safeguards findings are essential. Again, the Iranian case is pertinent. It took the Board three years to reach a non-compliance finding. States may wish to reflect on the IAEA's decision-making processes and how these might be improved for the future.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The IAEA's safeguards responsibility involves more than technical verification activities. The credibility of the safeguards system – whether the system meets international expectations – depends on confidence in both verification capability and the outcomes resulting from verification findings. Predictability and consistency of safeguards findings are essential. Again, the Iranian case is pertinent. It took the Board three years to reach a non-compliance finding. States may wish to reflect on the IAEA's decision-making processes and how these might be improved for the future.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}Also essential is confidence in the Agency's internal processes for evaluating information and drawing safeguards conclusions. To the extent practicable, there needs to be transparency of Agency processes – too much confidentiality will erode confidence. Where confidentiality requirements genuinely need to exclude transparency, mechanisms like a safeguards auditor who can review Agency performance on a confidential basis could be considered.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Also essential is confidence in the Agency's internal processes for evaluating information and drawing safeguards conclusions. To the extent practicable, there needs to be transparency of Agency processes – too much confidentiality will erode confidence. Where confidentiality requirements genuinely need to exclude transparency, mechanisms like a safeguards auditor who can review Agency performance on a confidential basis could be considered.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}### 6\. FURTHER DEVELOPMENT OF THE SAFEGUARDS SYSTEM{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 6\. FURTHER DEVELOPMENT OF THE SAFEGUARDS SYSTEM{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}As part of the process of better matching safeguards intensity to proliferation risk, the safeguards system is moving from uniformity to a state-level system, where safeguards implementation takes account of state-specific factors. As part of this evolution, different implementation levels have emerged. This situation is clearly reflected in the IAEA's safeguards conclusions, which distinguish between:{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}As part of the process of better matching safeguards intensity to proliferation risk, the safeguards system is moving from uniformity to a state-level system, where safeguards implementation takes account of state-specific factors. As part of this evolution, different implementation levels have emerged. This situation is clearly reflected in the IAEA's safeguards conclusions, which distinguish between:{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}1.  states under IS;{--{"author":"Luc's AI","timestamp":1787602108175}@@
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
-    ++}2.  states with a CSA and an AP but which have not yet qualified for IS; and{--{"author":"Luc's AI","timestamp":1787602108175}@@
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
-    ++}3.  states with only a CSA.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}1.  states under IS;{--{"author":"Luc's AI","timestamp":1787602398754}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
+++}2.  states with a CSA and an AP but which have not yet qualified for IS; and{--{"author":"Luc's AI","timestamp":1787602398754}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
+++}3.  states with only a CSA.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}The concept of different implementation levels should be taken further. In one direction, further relaxation of routine safeguards might be considered in future in states in which IS have been satisfactorily implemented for a number of years. Perhaps this could be combined with occasional more intensive safeguards activity to ensure nothing has been missed. Needless to say, as in all cases of SLA implementation, states would be kept under review in case changing circumstances warrant a return to more intensive safeguards.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The concept of different implementation levels should be taken further. In one direction, further relaxation of routine safeguards might be considered in future in states in which IS have been satisfactorily implemented for a number of years. Perhaps this could be combined with occasional more intensive safeguards activity to ensure nothing has been missed. Needless to say, as in all cases of SLA implementation, states would be kept under review in case changing circumstances warrant a return to more intensive safeguards.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}In the other direction, safeguards intensity may need to be increased in states where significant safeguards issues have arisen. Significant safeguards issues might include significant unresolved questions and inconsistencies, significant anomalies, safeguards implementation problems, etc. The most serious cases are where compliance issues have arisen.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}In the other direction, safeguards intensity may need to be increased in states where significant safeguards issues have arisen. Significant safeguards issues might include significant unresolved questions and inconsistencies, significant anomalies, safeguards implementation problems, etc. The most serious cases are where compliance issues have arisen.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}**Verification in non-compliance cases** The situation of non-compliance needs particular attention. Fortunately non-compliance is an exceptional situation, and there is no established model for how to deal with follow-up verification. After the first Gulf War, safeguards verification in Iraq was based on Security Council resolutions, which provided authority for more intrusive verification activities. In the DPRK, inspectors were first expelled, then re-admitted under a reduced scheme of monitoring agreed between the DPRK and the{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}US{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}. In Libya, much of the work in rolling up the clandestine nuclear program was undertaken by certain NWS.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}**Verification in non-compliance cases** The situation of non-compliance needs particular attention. Fortunately non-compliance is an exceptional situation, and there is no established model for how to deal with follow-up verification. After the first Gulf War, safeguards verification in Iraq was based on Security Council resolutions, which provided authority for more intrusive verification activities. In the DPRK, inspectors were first expelled, then re-admitted under a reduced scheme of monitoring agreed between the DPRK and the{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}US{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}. In Libya, much of the work in rolling up the clandestine nuclear program was undertaken by certain NWS.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}In the case of{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}, the IAEA's efforts to establish the extent and purpose of Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}'s undeclared nuclear activities are based on the CSA and 'voluntary' cooperation. The IAEA does not even have the right to information and access provided by the AP, since Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}had never ratified its AP and has 'suspended' it. So, the Agency has to appeal to Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}for cooperation.{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}has provided limited cooperation, but in the main takes a very legalistic approach in what it will allow – indeed, worse than a legalistic approach, since Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}has attempted to unilaterally rescind the Agency's legal rights {--{"author":"Luc's AI","timestamp":1787602133550}@@[^15].--}{++{"author":"Luc's AI","timestamp":1787602133550}@@[^note-15].++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}In the case of{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}Iran{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}, the IAEA's efforts to establish the extent and purpose of Iran{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}'s undeclared nuclear activities are based on the CSA and 'voluntary' cooperation. The IAEA does not even have the right to information and access provided by the AP, since Iran{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}had never ratified its AP and has 'suspended' it. So, the Agency has to appeal to Iran{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}for cooperation.{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}Iran{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}has provided limited cooperation, but in the main takes a very legalistic approach in what it will allow – indeed, worse than a legalistic approach, since Iran{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}has attempted to unilaterally rescind the Agency's legal rights {--{"author":"Luc's AI","timestamp":1787602133550}@@[^15].--}{++{"author":"Luc's AI","timestamp":1787602133550}@@[^note-15].++}{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}Perhaps the worst aspect of this situation is the semblance of legitimacy that continued safeguards implementation under the CSA gives Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}, which is operating conversion and enrichment facilities in defiance of Board and Security Council resolutions. It is important to monitor what{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}is doing at these facilities, as well as to pursue investigation of{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}'s nuclear activities as a whole, but it may be better to do this under a different mechanism than the CSA. Perhaps what is needed is a more rigorous safeguards regime for states in non-compliance – including stronger access and information rights than provided by the AP (i.e. a new 'AP plus') – mandated by Security Council resolution {--{"author":"Luc's AI","timestamp":1787602134056}@@[^16].--}{++{"author":"Luc's AI","timestamp":1787602134056}@@[^note-16].++} The Secretariat should be developing ideas for such a regime for the Board's consideration. Of course the state concerned might choose not to cooperate with the Agency under such a regime, just as Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}is defying the current Security Council resolutions, but at least the state couldn't claim that it was meeting all its obligations.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Perhaps the worst aspect of this situation is the semblance of legitimacy that continued safeguards implementation under the CSA gives Iran{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}, which is operating conversion and enrichment facilities in defiance of Board and Security Council resolutions. It is important to monitor what{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}Iran{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}is doing at these facilities, as well as to pursue investigation of{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}Iran{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}'s nuclear activities as a whole, but it may be better to do this under a different mechanism than the CSA. Perhaps what is needed is a more rigorous safeguards regime for states in non-compliance – including stronger access and information rights than provided by the AP (i.e. a new 'AP plus') – mandated by Security Council resolution {--{"author":"Luc's AI","timestamp":1787602134056}@@[^16].--}{++{"author":"Luc's AI","timestamp":1787602134056}@@[^note-16].++} The Secretariat should be developing ideas for such a regime for the Board's consideration. Of course the state concerned might choose not to cooperate with the Agency under such a regime, just as Iran{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}is defying the current Security Council resolutions, but at least the state couldn't claim that it was meeting all its obligations.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}**Undeclared nuclear activities – what can the IAEA report?** Although the safeguards system has undergone considerable evolution, it continues to be centred on verification through inspection. In the case of suspected undeclared nuclear activities, however, there is the obvious problem that without location-specific information, actionable through inspection (or complementary access), suspicions cannot be resolved.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}**Undeclared nuclear activities – what can the IAEA report?** Although the safeguards system has undergone considerable evolution, it continues to be centred on verification through inspection. In the case of suspected undeclared nuclear activities, however, there is the obvious problem that without location-specific information, actionable through inspection (or complementary access), suspicions cannot be resolved.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}The problem is illustrated by the case of Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}. As noted earlier, Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}'s clandestine nuclear program went undetected for 20 years. In fact, for much of this time there had been serious grounds for suspicion from what the Secretariat knew about Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}'s procurement activities. However, because this information was not location-specific and could not be resolved, it was not referred to in IAEA reports, and the IAEA's annual Safeguards Implementation Reports gave the impression that Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}was meeting its safeguards obligations.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The problem is illustrated by the case of Iran{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}. As noted earlier, Iran{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}'s clandestine nuclear program went undetected for 20 years. In fact, for much of this time there had been serious grounds for suspicion from what the Secretariat knew about Iran{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}'s procurement activities. However, because this information was not location-specific and could not be resolved, it was not referred to in IAEA reports, and the IAEA's annual Safeguards Implementation Reports gave the impression that Iran{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}was meeting its safeguards obligations.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}The question needs to be addressed, whether the Agency can, or should, report suspicion, where there are significant grounds and the state does not appear to be cooperating to resolve the matter. This is not simply a question of whether it is appropriate to report suspicion. More seriously, it is a question whether, by not so reporting, the Agency is misleading the international community. Consideration needs to be given to an appropriate form of reporting to put the international community on notice of a potential problem case.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The question needs to be addressed, whether the Agency can, or should, report suspicion, where there are significant grounds and the state does not appear to be cooperating to resolve the matter. This is not simply a question of whether it is appropriate to report suspicion. More seriously, it is a question whether, by not so reporting, the Agency is misleading the international community. Consideration needs to be given to an appropriate form of reporting to put the international community on notice of a potential problem case.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}### 7\. CONCLUSIONS{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 7\. CONCLUSIONS{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}IAEA safeguards have undergone substantial evolution over some five decades. Safeguards have always been a risk-informed system, but explicitly recognising this helps to provide the flexibility needed to address major changes and challenges.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}IAEA safeguards have undergone substantial evolution over some five decades. Safeguards have always been a risk-informed system, but explicitly recognising this helps to provide the flexibility needed to address major changes and challenges.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}Prioritising safeguards effort to the areas of greatest proliferation risk will require further innovation in defining and identifying risk, and in recognising areas of lower risk where further reductions in safeguards intensity can be made. In the latter cases, a particular challenge is to avoid introducing vulnerabilities, and to ensure timely recognition of changes in circumstances warranting recalibration of safeguards intensity.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Prioritising safeguards effort to the areas of greatest proliferation risk will require further innovation in defining and identifying risk, and in recognising areas of lower risk where further reductions in safeguards intensity can be made. In the latter cases, a particular challenge is to avoid introducing vulnerabilities, and to ensure timely recognition of changes in circumstances warranting recalibration of safeguards intensity.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}As part of improving effectiveness and efficiency, safeguards implementation should take account of developments that could have a favourable effect on proliferation risk, such as greater privatisation and globalisation of nuclear activities, the development of multination fuel cycle centres, and regional collaboration on nuclear programs (being alert however to the possibility of collusion between states).{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}As part of improving effectiveness and efficiency, safeguards implementation should take account of developments that could have a favourable effect on proliferation risk, such as greater privatisation and globalisation of nuclear activities, the development of multination fuel cycle centres, and regional collaboration on nuclear programs (being alert however to the possibility of collusion between states).{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}Detection of undeclared nuclear activities presents a major challenge. The IAEA, with the assistance of states, can develop improved methods and detection technologies, but realistically there is a limit to what the Agency can do without the information that states can provide. A partnership is required. States must be prepared to share more information with the Agency – but the Agency must be prepared to address the reasons for the apparent reluctance of states to do this.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Detection of undeclared nuclear activities presents a major challenge. The IAEA, with the assistance of states, can develop improved methods and detection technologies, but realistically there is a limit to what the Agency can do without the information that states can provide. A partnership is required. States must be prepared to share more information with the Agency – but the Agency must be prepared to address the reasons for the apparent reluctance of states to do this.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}More than ever, it is essential for safeguards to be complemented by other multilateral and regional measures that can benefit non-proliferation objectives. For example, transparency mechanisms and other confidence-building measures could have an important role, particularly in some regions. Mechanisms could include collaborative nuclear projects, and bilateral or regional safeguards arrangements such as ABACC {--{"author":"Luc's AI","timestamp":1787602134594}@@[^17].--}{++{"author":"Luc's AI","timestamp":1787602134594}@@[^note-17].++} Also important is the development of proliferation-resistant fuel cycle technologies.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}More than ever, it is essential for safeguards to be complemented by other multilateral and regional measures that can benefit non-proliferation objectives. For example, transparency mechanisms and other confidence-building measures could have an important role, particularly in some regions. Mechanisms could include collaborative nuclear projects, and bilateral or regional safeguards arrangements such as ABACC {--{"author":"Luc's AI","timestamp":1787602134594}@@[^17].--}{++{"author":"Luc's AI","timestamp":1787602134594}@@[^note-17].++} Also important is the development of proliferation-resistant fuel cycle technologies.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}The safeguards system benefits from two important factors: the strongly held commitment by most states against seeking nuclear weapons, and the relatively limited number of enrichment and reprocessing facilities. These factors are closely related – if the real purpose behind new enrichment and reprocessing programs is suspected to be break-out, confidence in the non-proliferation regime would be eroded, and others will be motivated to follow suit. If the capability to produce fissile materials spreads more widely – whether by clandestine or even declared programs – the safeguards system would come under severe strain, in terms of safeguards resource requirements, but more seriously because of the proliferation potential. The single most pressing non-proliferation issue today, impacting directly on the safeguards system, is the spread of sensitive nuclear technologies.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The safeguards system benefits from two important factors: the strongly held commitment by most states against seeking nuclear weapons, and the relatively limited number of enrichment and reprocessing facilities. These factors are closely related – if the real purpose behind new enrichment and reprocessing programs is suspected to be break-out, confidence in the non-proliferation regime would be eroded, and others will be motivated to follow suit. If the capability to produce fissile materials spreads more widely – whether by clandestine or even declared programs – the safeguards system would come under severe strain, in terms of safeguards resource requirements, but more seriously because of the proliferation potential. The single most pressing non-proliferation issue today, impacting directly on the safeguards system, is the spread of sensitive nuclear technologies.{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}## Paper 4 - NPT Safeguards Agreements – Defining Non-compliance{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}## Paper 4 - NPT Safeguards Agreements – Defining Non-compliance{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}[john.carlson@dfat.gov.au](mailto:john.carlson@dfat.gov.au){--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}[john.carlson@dfat.gov.au](mailto:john.carlson@dfat.gov.au){--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}**The views in this paper are the author's, not necessarily those of the Australian Government.**{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}**The views in this paper are the author's, not necessarily those of the Australian Government.**{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}### 1\. INTRODUCTION{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 1\. INTRODUCTION{--{"author":"Luc's AI","timestamp":1787602398754}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@
 
-    ++}It is surprising that although there have now been five cases where the Board of Governors (Board) of the International Atomic Energy Agency (IAEA) has determined that a state has been in non-compliance with its NPT safeguards agreement – involving{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Iraq{--{"author":"Luc's AI","timestamp":1787602108175}@@  
+++}It is surprising that although there have now been five cases where the Board of Governors (Board) of the International Atomic Energy Agency (IAEA) has determined that a state has been in non-compliance with its NPT safeguards agreement – involving{--{"author":"Luc's AI","timestamp":1787602398754}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
+++}Iraq{--{"author":"Luc's AI","timestamp":1787602108175}@@  
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
     ++},{--{"author":"Luc's AI","timestamp":1787602108175}@@  
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
