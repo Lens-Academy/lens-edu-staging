@@ -3,12 +3,12 @@ id: b8c9ee01-20ad-4e6f-a1b7-2a3df7d27ba5
 tldr: "By late 2025, AI wins at games humans once thought uncrackable, resolves most real GitHub issues, earns math olympiad gold, and pilots warehouse robots. This tour of what AI can actually do, spanning games, writing, science, coding, vision, and robotics, asks you to notice how fast we got here."
 summary_for_tutor: "Opening survey of concrete AI capabilities as of late 2025, organized by domain: superhuman game-playing (chess, Go, StarCraft, LLM-powered Minecraft agents); text generation and large language models; tool use; multi-step reasoning and scientific research (reasoning models, AI co-scientists, AlphaFold-style specialized models); software development and SWE-bench progress; image and video generation and multimodal models; and real-world robotics deployment. Emphasizes the trajectory and speed of progress over any single snapshot, using concrete examples and benchmark scores."
 reading_minutes: 20
-tutor_minutes: {--{"author":"Elias's AI","timestamp":1787562825517}@@0--}{++{"author":"Elias's AI","timestamp":1787562825517}@@7++}
+tutor_minutes: 7
 title: "Current Capabilities"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Current Capabilities|Current Capabilities]]{++{"author":"Elias's AI","timestamp":1787564197463}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Current Capabilities|Current Capabilities]]
 
 #### Text
 optional:: true
@@ -31,4 +31,4 @@ The Minecraft and Diplomacy examples sit in a collapsed optional callout, so do 
 
 Do not preview the later sections in detail. Do not name a year, discuss whether any arrival date is early or late, repeat the chapter's 2030 versus 2050 illustration, or ask the learner for a forecast of their own. A later lens asks them to commit to a year unprimed, and the end of the chapter comes back to it. If they volunteer a date, do not evaluate it, extend it, or ask them to justify it.
 
-Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
+Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.

@@ -6,7 +6,7 @@ title: "Misalignment Risks"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Risks - Misalignment Risks|Misalignment Risks]]{++{"author":"Elias's AI","timestamp":1787564056094}@@
+source:: [[../articles/AI Safety Atlas - Risks - Misalignment Risks|Misalignment Risks]]
 
 #### Text
 content::
@@ -30,4 +30,4 @@ topics to explore:
 - What Greenblatt et al. 2024 actually observed, and what the article concedes about the conditions it was observed in
 - What AlphaEvolve, AlphaChip and automated research scientists show about how far the self-improvement feedback loop has gone, given that humans still approve each step
 
-Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
+Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.

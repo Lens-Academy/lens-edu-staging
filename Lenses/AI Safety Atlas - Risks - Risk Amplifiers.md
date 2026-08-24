@@ -6,7 +6,7 @@ title: "Risk Amplifiers"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Risks - Risk Amplifiers|Risk Amplifiers]]{++{"author":"Elias's AI","timestamp":1787564017272}@@
+source:: [[../articles/AI Safety Atlas - Risks - Risk Amplifiers|Risk Amplifiers]]
 
 #### Text
 content::
@@ -29,4 +29,4 @@ The section does not rank the five amplifiers or say which one matters most. If 
 
 The pharmaceutical comparison and the Collingridge dilemma sit in optional collapsed boxes, so do not assume the user has read them.
 
-Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
+Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.

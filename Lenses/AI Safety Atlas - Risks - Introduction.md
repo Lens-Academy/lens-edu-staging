@@ -6,7 +6,7 @@ title: "Introduction"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Risks - Introduction]]{++{"author":"Elias's AI","timestamp":1787564085777}@@
+source:: [[../articles/AI Safety Atlas - Risks - Introduction]]
 
 #### Text
 content::
@@ -26,4 +26,4 @@ topics to explore:
 
 Do not preview the later sections in detail. Risk Decomposition comes next and defines the causes and the severity levels properly, and misuse, misalignment, systemic risks and the amplifiers each get their own section, so stay with what this introduction actually says and do not supply those definitions here.
 
-Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
+Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.

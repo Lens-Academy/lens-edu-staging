@@ -6,7 +6,7 @@ title: "Conclusion"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Risks - Conclusion|Conclusion]]{++{"author":"Elias's AI","timestamp":1787563914097}@@
+source:: [[../articles/AI Safety Atlas - Risks - Conclusion|Conclusion]]
 
 #### Text
 content::
@@ -26,4 +26,4 @@ topics to explore:
 
 This is the last reading in the chapter. A separate reflection comes next and asks the user to recall the chapter from memory, so do not run a chapter-wide review here and do not quiz them on earlier sections. Stay inside this section. Only this closing text is available to you, so if the user asks about a risk covered earlier in the chapter, say what this section says about it and stop there rather than filling in the rest yourself.
 
-Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
+Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.

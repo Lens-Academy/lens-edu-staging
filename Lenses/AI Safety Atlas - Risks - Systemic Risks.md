@@ -6,7 +6,7 @@ title: "Systemic Risks"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Risks - Systemic Risks|Systemic Risks]]{++{"author":"Elias's AI","timestamp":1787564328725}@@
+source:: [[../articles/AI Safety Atlas - Risks - Systemic Risks|Systemic Risks]]
 
 #### Question: Open
 id:: 68389f0e-58ba-4b72-a6cb-a18a08900347
@@ -25,4 +25,4 @@ Take what they wrote seriously and push on it once. Useful directions: whether t
 
 If they say they do not know or write something thin, do not press them for more. Offer one concrete way to look at it and leave it there.
 
-120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.++}
+120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.
