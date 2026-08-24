@@ -14,9 +14,9 @@ source:: [[../articles/AI Safety Atlas - Capabilities - Defining and Measuring A
 id:: 982166b9-ee07-45e8-ac2d-6a6f523f7407
 optional:: true
 content::
-The section separates what a system can do from how much rope it is given, and deliberately leaves the second out of the definition of AGI.
+The section separates what a system can do from how much rope it is given, and {--{"author":"Elias's AI","timestamp":1787567724762}@@deliberately --}leaves the second out of the definition of {--{"author":"Elias's AI","timestamp":1787567724762}@@AGI.--}{++{"author":"Elias's AI","timestamp":1787567724762}@@AGI on purpose.++}
 
-Which would concern you more: a system at expert level across most domains, used as a consultant with a human approving every action, or a much narrower system running with no approval step at all?
+Which would concern you more: a system at expert level across most {--{"author":"Elias's AI","timestamp":1787567724762}@@domains, used as a consultant --}{++{"author":"Elias's AI","timestamp":1787567724762}@@domains ++}with a human approving every action, or a much narrower {--{"author":"Elias's AI","timestamp":1787567724762}@@system--}{++{"author":"Elias's AI","timestamp":1787567724762}@@one++} running with no approval step at all?
 feedback-instructions::
 The learner has just read the AI Safety Atlas section "Defining and Measuring AGI" and written a reflection. This is a reflection, not a test. There is no answer you are checking against, and you should not tell them whether they got it right.
 
