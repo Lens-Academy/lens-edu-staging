@@ -8,11 +8,12 @@ title: "Introduction"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Introduction|Introduction]]{++{"author":"Elias's AI","timestamp":1787563987580}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Introduction|Introduction]]{++{"author":"Elias's AI","timestamp":1787564176672}@@
 
 #### Text
+optional:: true
 content::
-That is the map for the chapter. If any of it already raises a question, use the tutor to talk it through.
+The chapter is aiming at sentences like "this system performs at the 85th percentile across 30% of cognitive domains." If that already sounds like the wrong shape of claim to you, say so now, before the chapter argues you into it.
 
 #### Chat
 optional:: true
