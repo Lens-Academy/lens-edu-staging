@@ -26,7 +26,7 @@ Visit AISafety.info's [How can I help?](https://aisafety.info/how-can-i-help) gu
 
 **Talk to people in the field**
 
-[AISafety.com](https://aisafety.com/events-and-training) keeps an up-to-date directory of conferences, training programs, and online events across the field. These are good places to talk not only to experts, but also to many newcomers who are in a situation similar to {--{"author":"Plex's AI","timestamp":1787325046731}@@yours. They--}{++{"author":"Plex's AI","timestamp":1787325046731}@@yours, and they++} often include career fairs, networking spaces, and structured opportunities for conversation, so they can be a practical way to explore the field, ask questions, and see what paths people actually take.
+[AISafety.com](https://aisafety.com/events-and-training) keeps an up-to-date directory of conferences, training programs, and online events across the field. These are good places to talk not only to experts, but also to many newcomers who are in a situation similar to yours, and they often include career fairs, networking spaces, and structured opportunities for conversation, so they can be a practical way to explore the field, ask questions, and see what paths people actually take.
 
 
 **Help spread understanding
