@@ -1,8 +1,8 @@
 ---
-id: {--{"author":"Leo's AI","timestamp":1787568311637}@@'8225b73a-e889-48de-ad7b-683d593d2d64'--}{++{"author":"Leo's AI","timestamp":1787568311637}@@'f5d4e3c2-6b7a-4c9a-8b2e-5b4a3f2e1d4c'++}
+id: 'f5d4e3c2-6b7a-4c9a-8b2e-5b4a3f2e1d4c'
 title: "Unit 3 Recap: Is Cognitive Offloading Risky?"
 tldr: "One check that puts Unit 3 together: can you trace the chain from small delegations to gradual disempowerment, report what the studies found, and say honestly how strong the evidence is?"
-summary_for_tutor: "Recap lens at the end of Unit 3 of 'Thinking about Thinking'. A short Text frame sends the learner back to the lenses of the unit {--{"author":"AI","timestamp":1787325831849}@@(Gradual Disempowerment, The Evidence About AI and Thinking,--}{++{"author":"AI","timestamp":1787325831849}@@(the evidence introduction and the six paper lenses — Bednar, Budzyń, Gerlich, Lee, Seifer, Gutoreva — plus the synthesis lens,++} The Metacognitive Traps, {++{"author":"AI","timestamp":1787325831849}@@and ++}What the Skeptics Say), then one graded Question chapter (the friend who read one article and concludes AI makes people stupid) assessing the causal chain, what the doctor study, the legal study, and the programmer study found (including the old-versus-new trap split and why the traps reach beyond programming), and calibrated judgement of the evidence. Score per the rubric."
+summary_for_tutor: "Recap lens at the end of Unit 3 of 'Thinking about Thinking'. A short Text frame sends the learner back to the lenses of the unit (the evidence introduction and the six paper lenses — Bednar, Budzyń, Gerlich, Lee, Seifer, Gutoreva — plus the synthesis lens, The Metacognitive Traps, and What the Skeptics Say), then one graded Question chapter (the friend who read one article and concludes AI makes people stupid) assessing the causal chain, what the doctor study, the legal study, and the programmer study found (including the old-versus-new trap split and why the traps reach beyond programming), and calibrated judgement of the evidence. Score per the rubric."
 tags:
   - wip
 ---
@@ -10,7 +10,7 @@ tags:
 #### Text
 content::
 \## Unit 3 recap: putting the pieces together
-You have finished Unit 3. Several lenses stood behind you. The first {--{"author":"AI","timestamp":1787325837291}@@zoomed in on --}{++{"author":"AI","timestamp":1787325837291}@@was an introduction to ++}the {--{"author":"AI","timestamp":1787325837291}@@evidence about what happens to individual thinking as AI does more of it. The second--}{++{"author":"AI","timestamp":1787325837291}@@evidence, followed by six papers that each presented one study, then a synthesis lens that weighed them together. One++} watched that evidence up close, in a lab, as beginners learned to program with AI and fell into metacognitive traps that mostly predate AI itself. {--{"author":"AI","timestamp":1787325837291}@@The third--}{++{"author":"AI","timestamp":1787325837291}@@Another++} made the strongest case against the worry. The {--{"author":"AI","timestamp":1787325837291}@@fourth--}{++{"author":"AI","timestamp":1787325837291}@@last++} linked those small, everyday delegations of judgement to a much larger possibility: a gradual loss of human influence that needs no rebellion.
+You have finished Unit 3. Several lenses stood behind you. The first was an introduction to the evidence, followed by six papers that each presented one study, then a synthesis lens that weighed them together. One watched that evidence up close, in a lab, as beginners learned to program with AI and fell into metacognitive traps that mostly predate AI itself. Another made the strongest case against the worry. The last linked those small, everyday delegations of judgement to a much larger possibility: a gradual loss of human influence that needs no rebellion.
 
 Use all of them to answer the check below in your own words. It asks you to argue the whole unit, not one piece of it.
 
