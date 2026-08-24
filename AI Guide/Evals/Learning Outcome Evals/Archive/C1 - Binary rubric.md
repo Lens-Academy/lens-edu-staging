@@ -1,4 +1,4 @@
-{++{"author":"Luc's AI","timestamp":1787591666166}@@---
+---
 eval-id: C1
 target: rubric
 tags:
@@ -34,4 +34,3 @@ If the file has multiple questions with rubrics, all must be binary for the chec
 
 - *Intelligence as prediction plus steering* — "Pass only if the answer demonstrates all three checks", each check binary, explicit fail conditions.
 - *Trajectories with mechanisms and falsifiers* — "Single pass/fail overall. Pass requires the first THREE… Checks 1 to 3 are each binary", with check 4 explicitly non-gating.
-++}
