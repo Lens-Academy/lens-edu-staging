@@ -31,12 +31,12 @@ source:: ![[../Lenses/Security Mindset and Ordinary Paranoia|Security Mindset an
 # Lens:
 source:: ![[../Lenses/How can LLMs be understood as simulators]]
 
-{--{"author":"Plex's AI","timestamp":1787331009603}@@# Lens:
+# Lens:
 source:: ![[../Lenses/Janus' Simulators - Scott Alexander]]
 
 # Lens:
 optional:: true
-source:: ![[../Lenses/Simulators by Janus]]--}{++{"author":"Plex's AI","timestamp":1787331009603}@@# Lens:
+source:: ![[../Lenses/Simulators by Janus]]# Lens:
 source:: ![[../Lenses/Janus' Simulators - Scott Alexander]]
 
 # Lens:
@@ -51,5 +51,5 @@ source:: ![[../Lenses/sanderson-but-what-is-a-neural-network]]
 
 # Lens:
 optional:: true
-source:: ![[../Lenses/ericjmichaud-on-neural-scaling-and-the-quanta-hypothesis]]++}
+source:: ![[../Lenses/ericjmichaud-on-neural-scaling-and-the-quanta-hypothesis]]
 
