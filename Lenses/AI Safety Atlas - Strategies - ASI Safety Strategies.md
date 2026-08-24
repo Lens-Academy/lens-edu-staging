@@ -8,7 +8,7 @@ title: "ASI Safety Strategies"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Strategies - ASI Safety Strategies|ASI Safety Strategies]]{++{"author":"Elias's AI","timestamp":1787567959802}@@
+source:: [[../articles/AI Safety Atlas - Strategies - ASI Safety Strategies|ASI Safety Strategies]]
 
 #### Question: Open
 id:: 5b318ace-9bf5-4647-a2af-7be4a6ef2620
@@ -29,4 +29,4 @@ If they say they do not know or write something thin, do not press them for more
 
 Pivotal acts, the strawberry problem, safety cases and "shut it all down" sit in collapsed optional callouts, so do not assume the learner has read them.
 
-120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.++}
+120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.
