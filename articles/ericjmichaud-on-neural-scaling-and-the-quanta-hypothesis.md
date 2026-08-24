@@ -519,7 +519,7 @@ However, this functional form misses a key dynamic in real-world joint scaling, 
 
 ![](https://ericjmichaud.com/quanta/assets/loss-contour-plot.png)
 
-Joint parameter-step scaling $L(N, S)$ for multitask sparse parity. We show a few iso-loss curves in red, which indicate that larger networks reach the same mean loss faster than smaller networks. This dynamic, where one can trade off between scaling network size and training steps (or dataset size), is not captured by our model of scaling.
+{--{"author":"AI","timestamp":1787568297867}@@Joint--}{++{"author":"AI","timestamp":1787568297867}@@_Joint++} parameter-step scaling $L(N, S)$ for multitask sparse parity. We show a few iso-loss curves in red, which indicate that larger networks reach the same mean loss faster than smaller networks. This dynamic, where one can trade off between scaling network size and training steps (or dataset size), is not captured by our model of {--{"author":"AI","timestamp":1787568297867}@@scaling.--}{++{"author":"AI","timestamp":1787568297867}@@scaling._++}
 
 This basic behavior, where one can trade off between data (steps) and parameters, is not compatible with the joint functional form involving $\max()$ and $\min()$ above. It is however exhibited by the "Chinchilla" functional form:
 
@@ -545,7 +545,7 @@ In our model, $\alpha_N = \alpha$ and $\alpha_D = \alpha / (1 + \alpha)$. Does t
 
 ![](https://ericjmichaud.com/quanta/assets/scaling-scatter-linear-scale.png)
 
-Figure 18 of our paper, showing neural scaling exponents $\alpha_N$ and $\alpha_D$ for a variety of studies in the literature.
+{--{"author":"AI","timestamp":1787568300663}@@Figure--}{++{"author":"AI","timestamp":1787568300663}@@_Figure++} 18 of our paper, showing neural scaling exponents $\alpha_N$ and $\alpha_D$ for a variety of studies in the {--{"author":"AI","timestamp":1787568300663}@@literature.--}{++{"author":"AI","timestamp":1787568300663}@@literature._++}
 
 This data is kind of a mess! It is certainly not the case that all points lie on the black line. We were encouraged though by the fact that the Chinchilla scaling exponents (green dot) were kinda close to our prediction and had an $\alpha_D < \alpha_N$ as our theory predicted.
 

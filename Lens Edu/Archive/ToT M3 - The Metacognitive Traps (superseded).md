@@ -1,5 +1,5 @@
 ---
-id: '89d98880-a5ce-4e4d-b060-92f30f683153'
+id: {--{"author":"Leo's AI","timestamp":1787568301726}@@'89d98880-a5ce-4e4d-b060-92f30f683153'--}{++{"author":"Leo's AI","timestamp":1787568301726}@@'b6e8c2a1-7d3f-4c9a-8b2e-1f4c5d6e7a8b'++}
 title: {--{"author":"Leo's AI","timestamp":1787567617960}@@"The Metacognitive Traps"--}{++{"author":"Leo's AI","timestamp":1787567617960}@@"Three Traps AI Adds"++}
 duration_minutes: {--{"author":"Leo's AI","timestamp":1787567618763}@@30--}{++{"author":"Leo's AI","timestamp":1787567618763}@@9++}
 tldr: {--{"author":"Leo's AI","timestamp":1787567620697}@@"One lab watched 21 beginners learn to program with Copilot and ChatGPT. The same tools let prepared students accelerate--}{++{"author":"Leo's AI","timestamp":1787567620697}@@"Unit 2 covered five metacognitive traps that existed before AI. This lens adds the three AI introduces: Interruption, Mislead,++} and {--{"author":"Leo's AI","timestamp":1787567620697}@@pushed struggling students into the five traps you met in Unit 2, now amplified, plus three entirely new ones. The traps live in learning itself, so they reach far beyond programming."--}{++{"author":"Leo's AI","timestamp":1787567620697}@@Progression. A short clip shows them; then one question asks which you most easily miss."++}
