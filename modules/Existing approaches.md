@@ -87,11 +87,11 @@ optional:: true
 source:: [[../Lenses/The Case Against AI Control Research]]
 
 # Submodule: Agent Foundations
-{++{"author":"Plex's AI","timestamp":1787330278337}@@## Lens:
+## Lens:
 optional:: true
 source:: ![[../Lenses/johnswentworth-why-agent-foundations-an-overly-abstract-explanation]]
 
-++}## Lens:
+## Lens:
 source:: [[../Lenses/Agent Foundations]]
 
 ## Lens:
