@@ -11,9 +11,9 @@ title: "Foundation Models"
 source:: [[../articles/AI Safety Atlas - Capabilities - Foundation Models|Foundation Models]]
 
 #### Text
-{++{"author":"Elias's AI","timestamp":1787566634007}@@optional:: true
-++}content::
-{--{"author":"Elias's AI","timestamp":1787566634007}@@Foundation models are the shift the rest--}{++{"author":"Elias's AI","timestamp":1787566634007}@@One model pre-trained and then adapted, instead++} of {--{"author":"Elias's AI","timestamp":1787566634007}@@the chapter builds on. If--}{++{"author":"Elias's AI","timestamp":1787566634007}@@one system built per task. Which of++} the {--{"author":"Elias's AI","timestamp":1787566634007}@@two training stages, or what "emergent" is actually claiming, are still blurry, use the tutor to go--}{++{"author":"Elias's AI","timestamp":1787566634007}@@safety problems the section lists actually follows from that shift, and which would exist anyway? Think it++} through {--{"author":"Elias's AI","timestamp":1787566634007}@@them.--}{++{"author":"Elias's AI","timestamp":1787566634007}@@with the tutor.++}
+optional:: true
+content::
+One model pre-trained and then adapted, instead of one system built per task. Which of the safety problems the section lists actually follows from that shift, and which would exist anyway? Think it through with the tutor.
 
 #### Chat
 optional:: true
@@ -27,6 +27,6 @@ topics to explore:
 - What is "emergent" claiming here, and what is it not claiming?
 - What separates a foundation model from a frontier model, and why does the section keep them apart?
 
-Do not preview the later sections in detail. Do not name a year, discuss whether any arrival date is early or late, repeat the chapter's 2030 versus 2050 illustration, or ask the learner for a forecast of their own. A later lens asks them to commit to a {--{"author":"Elias's AI","timestamp":1787566636822}@@year--}{++{"author":"Elias's AI","timestamp":1787566636822}@@number of years++} unprimed, and the end of the chapter comes back to it. If they volunteer a date, do not evaluate it, extend it, or ask them to justify it.
+Do not preview the later sections in detail. Do not name a year, discuss whether any arrival date is early or late, repeat the chapter's 2030 versus 2050 illustration, or ask the learner for a forecast of their own. A later lens asks them to commit to a number of years unprimed, and the end of the chapter comes back to it. If they volunteer a date, do not evaluate it, extend it, or ask them to justify it.
 
 Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.

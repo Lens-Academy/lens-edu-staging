@@ -27,7 +27,7 @@ Take what they wrote seriously and push on it once. Useful directions: whether t
 
 If they say they do not know or write something thin, do not press them for more. Offer one concrete way to look at it and leave it there.
 
-Do not preview the later sections in detail. Do not name a year, discuss whether any arrival date is early or late, repeat the chapter's 2030 versus 2050 illustration, or ask the learner for a forecast of their own. A later lens asks them to commit to a {--{"author":"Elias's AI","timestamp":1787566653352}@@year--}{++{"author":"Elias's AI","timestamp":1787566653352}@@number of years++} unprimed, and the end of the chapter comes back to it. If they volunteer a date, do not evaluate it, extend it, or ask them to justify it.
+Do not preview the later sections in detail. Do not name a year, discuss whether any arrival date is early or late, repeat the chapter's 2030 versus 2050 illustration, or ask the learner for a forecast of their own. A later lens asks them to commit to a number of years unprimed, and the end of the chapter comes back to it. If they volunteer a date, do not evaluate it, extend it, or ask them to justify it.
 
 120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.
 

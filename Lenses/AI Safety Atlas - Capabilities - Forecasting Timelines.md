@@ -13,7 +13,7 @@ source:: [[../articles/AI Safety Atlas - Capabilities - Forecasting Timelines|Fo
 #### Text
 optional:: true
 content::
-The {--{"author":"Elias's AI","timestamp":1787566640251}@@section's own claim is that--}{++{"author":"Elias's AI","timestamp":1787566640251}@@section insists++} these are intervals, not predictions. {--{"author":"Elias's AI","timestamp":1787566640251}@@If one of them still reads to you like a prediction, take--}{++{"author":"Elias's AI","timestamp":1787566640251}@@Does it hold to that itself? Pick one of its numbers and test++} it {--{"author":"Elias's AI","timestamp":1787566640251}@@to--}{++{"author":"Elias's AI","timestamp":1787566640251}@@against that standard with++} the tutor.
+The section insists these are intervals, not predictions. Does it hold to that itself? Pick one of its numbers and test it against that standard with the tutor.
 
 #### Chat
 optional:: true
@@ -27,6 +27,6 @@ topics to explore:
 - The section gives three different answers for when text data runs out: a wall "around 2028", a range of 2026 to 2032, and a figure showing 2025 to 2030. What should a reader do with that?
 - If a forecast is a consistency check rather than a prediction, what does that change about how you would use one?
 
-The learner committed to a {--{"author":"Elias's AI","timestamp":1787566642456}@@single year--}{++{"author":"Elias's AI","timestamp":1787566642456}@@number of years++} earlier in the chapter, and the end-of-chapter reflection is where they revisit it. Do not ask them what {--{"author":"Elias's AI","timestamp":1787566642456}@@year--}{++{"author":"Elias's AI","timestamp":1787566642456}@@number++} they wrote, whether it has moved, or to defend it. Do not offer an arrival date of your own.
+The learner committed to a number of years earlier in the chapter, and the end-of-chapter reflection is where they revisit it. Do not ask them what number they wrote, whether it has moved, or to defend it. Do not offer an arrival date of your own.
 
 Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.

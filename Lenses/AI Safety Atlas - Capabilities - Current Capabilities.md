@@ -13,7 +13,7 @@ source:: [[../articles/AI Safety Atlas - Capabilities - Current Capabilities|Cur
 #### Text
 optional:: true
 content::
-{--{"author":"Elias's AI","timestamp":1787566626619}@@Pick the claim--}{++{"author":"Elias's AI","timestamp":1787566626619}@@Which item++} on that list {++{"author":"Elias's AI","timestamp":1787566626619}@@did ++}you {--{"author":"Elias's AI","timestamp":1787566626619}@@trust least. The tutor has the section in front of it, so make --}{++{"author":"Elias's AI","timestamp":1787566626619}@@find hardest to believe? Pick one and argue ++}it {--{"author":"Elias's AI","timestamp":1787566626619}@@show you--}{++{"author":"Elias's AI","timestamp":1787566626619}@@out with++} the {--{"author":"Elias's AI","timestamp":1787566626619}@@evidence.--}{++{"author":"Elias's AI","timestamp":1787566626619}@@tutor.++}
+Which item on that list did you find hardest to believe? Pick one and argue it out with the tutor.
 
 #### Chat
 optional:: true
@@ -29,6 +29,6 @@ topics to explore:
 
 The Minecraft and Diplomacy examples sit in a collapsed optional callout, so do not assume the learner read them.
 
-Do not preview the later sections in detail. Do not name a year, discuss whether any arrival date is early or late, repeat the chapter's 2030 versus 2050 illustration, or ask the learner for a forecast of their own. A later lens asks them to commit to a {--{"author":"Elias's AI","timestamp":1787566628740}@@year--}{++{"author":"Elias's AI","timestamp":1787566628740}@@number of years++} unprimed, and the end of the chapter comes back to it. If they volunteer a date, do not evaluate it, extend it, or ask them to justify it.
+Do not preview the later sections in detail. Do not name a year, discuss whether any arrival date is early or late, repeat the chapter's 2030 versus 2050 illustration, or ask the learner for a forecast of their own. A later lens asks them to commit to a number of years unprimed, and the end of the chapter comes back to it. If they volunteer a date, do not evaluate it, extend it, or ask them to justify it.
 
 Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.
