@@ -11,8 +11,9 @@ tutor_minutes: 7
 source:: [[../articles/AI Safety Atlas - Risks - Risk Amplifiers|Risk Amplifiers]]
 
 #### Text
-content::
-This section moves through five amplifiers in a short space, so if you want to check how they relate to each other, walk through it with the tutor.
+{++{"author":"Elias's AI","timestamp":1787566736597}@@optional:: true
+++}content::
+{--{"author":"Elias's AI","timestamp":1787566736597}@@This--}{++{"author":"Elias's AI","timestamp":1787566736597}@@The++} section {--{"author":"Elias's AI","timestamp":1787566736597}@@moves through--}{++{"author":"Elias's AI","timestamp":1787566736597}@@describes++} five amplifiers{--{"author":"Elias's AI","timestamp":1787566736597}@@ in a short space, so if you want--}{++{"author":"Elias's AI","timestamp":1787566736597}@@ and refuses++} to {--{"author":"Elias's AI","timestamp":1787566736597}@@check how they relate to each other, walk through it--}{++{"author":"Elias's AI","timestamp":1787566736597}@@rank them. Rank them yourself, then defend the order++} with the tutor.
 
 #### Chat
 optional:: true
