@@ -1,14 +1,14 @@
 ---
 id: a4553b04-3209-4555-8db1-21c59721d798
 tldr: "Will AI transform the world gradually over decades, or explosively in months? The answer decides which safety strategies are even possible, since patch-as-you-go only works if you get more than one chance. This section maps the slow-versus-fast takeoff debate and the arguments on each side."
-summary_for_tutor: "Examines takeoff speed, how quickly AI becomes dramatically more powerful once transformative capabilities arrive, as distinct from timelines. Contrasts slow takeoff (gradual, linear or exponential growth, allowing iterative safety refinement) with fast takeoff (superexponential or hyperbolic growth via recursive self-improvement, where safety must work robustly from the start). Introduces additional factors (continuity, homogeneity, polarity) and takeoff arguments including hardware and {--{"author":"Elias's AI","timestamp":1787564149320}@@software--}{++{"author":"Elias's AI","timestamp":1787564149320}@@data++} overhangs. Connects takeoff speed to whether safety problems can be noticed and fixed in time."
+summary_for_tutor: "Examines takeoff speed, how quickly AI becomes dramatically more powerful once transformative capabilities arrive, as distinct from timelines. Contrasts slow takeoff (gradual, linear or exponential growth, allowing iterative safety refinement) with fast takeoff (superexponential or hyperbolic growth via recursive self-improvement, where safety must work robustly from the start). Introduces additional factors (continuity, homogeneity, polarity) and takeoff arguments including hardware and data overhangs. Connects takeoff speed to whether safety problems can be noticed and fixed in time."
 reading_minutes: 18
-tutor_minutes: {--{"author":"Elias's AI","timestamp":1787562830222}@@0--}{++{"author":"Elias's AI","timestamp":1787562830222}@@7++}
+tutor_minutes: 7
 title: "Takeoff"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Takeoff|Takeoff]]{++{"author":"Elias's AI","timestamp":1787564155669}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Takeoff|Takeoff]]
 
 #### Text
 optional:: true
@@ -29,4 +29,4 @@ topics to explore:
 
 The learner committed to a single year earlier in the chapter, and the end-of-chapter reflection is where they revisit it. Do not ask them what year they wrote, whether it has moved, or to defend it. Do not offer an arrival date of your own.
 
-Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
+Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.

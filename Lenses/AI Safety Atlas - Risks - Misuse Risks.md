@@ -6,7 +6,7 @@ title: "Misuse Risks"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Risks - Misuse Risks|Misuse Risks]]{++{"author":"Elias's AI","timestamp":1787564167928}@@
+source:: [[../articles/AI Safety Atlas - Risks - Misuse Risks|Misuse Risks]]
 
 #### Text
 content::
@@ -27,4 +27,4 @@ topics to explore:
 
 Do not preview the misalignment and systemic risk sections in detail, since they come later in the chapter.
 
-Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
+Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.

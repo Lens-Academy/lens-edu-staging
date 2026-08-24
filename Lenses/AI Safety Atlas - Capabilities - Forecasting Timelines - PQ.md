@@ -5,9 +5,7 @@ tldr: "Before anyone shows you a trend line, name the year. Writing a number dow
 summary_for_tutor: "Priming question before the Forecasting Timelines section. The student commits to a single year for essentially-full automation of remote cognitive work, plus one sentence on what would most move it. The point is to capture an uncalibrated point estimate before the chapter argues that a date is really an interval, so the reflection lens at the end of the module can cash it in. The tutor records the forecast and does not improve it."
 reading_minutes: 0
 tutor_minutes: 3
-{--{"author":"Elias's AI","timestamp":1787564147898}@@add_to_ai_context:
-  - "[[../articles/AI Safety Atlas - Capabilities - Forecasting Timelines]]"
---}---
+---
 
 #### Text
 content::

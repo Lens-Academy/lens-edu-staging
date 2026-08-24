@@ -6,7 +6,7 @@ title: "Risk Decomposition"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Risks - Risk Decomposition|Risk Decomposition]]{++{"author":"Elias's AI","timestamp":1787564166828}@@
+source:: [[../articles/AI Safety Atlas - Risks - Risk Decomposition|Risk Decomposition]]
 
 #### Question: Open
 id:: 2a50455e-0b64-42a3-98f3-75afe6fcf860
@@ -27,4 +27,4 @@ If they say they do not know or write something thin, do not press them for more
 
 Do not preview the later sections in detail. This chapter goes on to cover dangerous capabilities, misuse, misalignment, systemic risks and risk amplifiers, so leave those for the sections that handle them.
 
-120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.++}
+120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.

@@ -3,12 +3,12 @@ id: 53c52e2c-132e-4470-890e-06ad8841052f
 tldr: "What does it mean to call an AI 'human-level' when we cannot even agree what intelligence is, or human-level at what? This section argues you cannot manage a risk you cannot measure, tours the failed attempts to pin intelligence down, and builds a two-axis framework, capability and generality, for describing any AI system precisely."
 summary_for_tutor: "Establishes definitions and measurement criteria for AGI to ground safety planning. Reviews case-study approaches to defining intelligence (Turing and behaviorism, Searle and consciousness, Legg-Hutter goal achievement, adaptability and learning-efficiency views from Wang and Chollet, and psychometric CHC theory), arguing a capability-focused behaviorist lens matters most for safety. Introduces a two-axis framework of capability (depth on tasks) and generality (breadth across ten CHC cognitive domains), maps thresholds for ANI, AGI, TAI, and ASI, separates deployment autonomy (six levels) from capability, and covers key criticisms plus the alternative (t,n)-AGI framework."
 reading_minutes: 25
-tutor_minutes: {--{"author":"Elias's AI","timestamp":1787562834450}@@0--}{++{"author":"Elias's AI","timestamp":1787562834450}@@7++}
+tutor_minutes: 7
 title: "Defining and Measuring AGI"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Defining and Measuring AGI|Defining and Measuring AGI]]{++{"author":"Elias's AI","timestamp":1787564203855}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Defining and Measuring AGI|Defining and Measuring AGI]]
 
 #### Question: Open
 id:: 982166b9-ee07-45e8-ac2d-6a6f523f7407
@@ -29,5 +29,5 @@ If they say they do not know or write something thin, do not press them for more
 
 Do not preview the later sections in detail. Do not name a year, discuss whether any arrival date is early or late, repeat the chapter's 2030 versus 2050 illustration, or ask the learner for a forecast of their own. A later lens asks them to commit to a year unprimed, and the end of the chapter comes back to it. If they volunteer a date, do not evaluate it, extend it, or ask them to justify it.
 
-120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.++}
+120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.
 

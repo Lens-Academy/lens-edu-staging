@@ -6,7 +6,7 @@ title: "Dangerous Capabilities"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Risks - Dangerous Capabilities|Dangerous Capabilities]]{++{"author":"Elias's AI","timestamp":1787564110694}@@
+source:: [[../articles/AI Safety Atlas - Risks - Dangerous Capabilities|Dangerous Capabilities]]
 
 #### Text
 content::
@@ -27,4 +27,4 @@ topics to explore:
 
 Later sections of this chapter build scheming and treacherous turns on top of these capabilities, and this section defers twice to the chapters on evaluations and goal misgeneralization. Stay inside this section and do not preview that later material, even if asked.
 
-Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
+Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.
