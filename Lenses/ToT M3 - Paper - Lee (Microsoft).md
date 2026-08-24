@@ -1,4 +1,4 @@
-{++{"author":"Leo's AI","timestamp":1787568525826}@@---
+---
 id: 'd6edba7c-bd21-46c8-b795-1ba3d797107f'
 title: "Lee: confidence and critical thinking at work"
 duration_minutes: 10
@@ -42,4 +42,4 @@ Response style: warm but rigorous. Do not over-validate; avoid generic praise. C
 
 What to do: acknowledge the example; if they implied confidence mechanically causes worse thinking, note Lee shows association not causation; if they gave a blanket "always check" or "never check", press on what evidence would change that; close by sending them to the next lens.
 
-What not to do: run a multi-turn socratic sequence; adjudicate their habits; introduce the other studies. This is one turn, then send them on.++}
+What not to do: run a multi-turn socratic sequence; adjudicate their habits; introduce the other studies. This is one turn, then send them on.
