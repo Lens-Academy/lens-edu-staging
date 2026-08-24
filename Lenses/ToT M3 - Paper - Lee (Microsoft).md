@@ -4,9 +4,9 @@ title: "Confidence and Critical Thinking at Work"
 duration_minutes: 10
 tldr: "A survey of 319 knowledge workers found that the more confident workers were in the AI, the less critical thinking they reported; the more confident in their own ability, the more they reported. Confidence is a calibration problem, not a verdict on AI."
 summary_for_tutor: "Core lens 3 of Unit 3 of 'Thinking about Thinking'. Presents Lee et al. (Microsoft Research, 2025): 319 knowledge workers, 936 examples of GenAI use. Central finding: higher confidence in AI associated with lower reported critical-thinking effort; higher confidence in own ability associated with more. The lens does NOT claim a move down Bloom's taxonomy (Lee reports shifts within levels, not a downgrade); it frames AI as changing where cognitive effort sits. Includes one applied question on a realistic task and one on what would justify trusting versus checking an AI output. About 10 minutes."
-{--{"author":"Course Author's AI","timestamp":1787572399923}@@tags:
+tags:
   - wip
---}---
+---
 
 #### Text
 content::
