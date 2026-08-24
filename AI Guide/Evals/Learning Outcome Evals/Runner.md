@@ -1,4 +1,4 @@
-{++{"author":"Luc's AI","timestamp":1787591619157}@@---
+{++{"author":"Luc's AI","timestamp":1787591633301}@@---
 tags:
   - validator-ignore
 ---
@@ -94,14 +94,14 @@ Two ways to give a judge its inputs:
 Judge prompt (fill placeholders; adapt the setup lines to the chosen protocol):
 
 ```
-You are judging the quality of ONE learning-outcome file against six binary
+You are judging the quality of ONE learning-outcome file against five binary
 checks. The file has three parts: the outcome statement (frontmatter
 `learning-outcome:`), test question(s) (`content::`), and rubric(s)
 (`assessment-instructions::`).
 
 Rules:
 - You only judge and report. Never edit, create, or modify any document.
-- Judge one check at a time, in order (A1, A2, B1, C1, C2, C3). Each check's
+- Judge one check at a time, in order (A1, A2, B1, C2, C3). Each check's
   standard is its eval text — complete and authoritative. Do not add
   requirements from your own taste or from the other checks.
 - A check judges only its target part (statement / question / rubric).
