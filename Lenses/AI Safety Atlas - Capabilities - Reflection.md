@@ -22,8 +22,9 @@ Three prompts to close the chapter. No right answers.
 
 #### Question: Open
 id:: 151564c1-48ec-49ae-a1a3-55f9c1effe0d
-content:: Spend 2 minutes writing down everything you can remember from this chapter, without looking back at any of it. Anything and everything, in any order, no need to organise it. Using the speech to text feature is highly recommended here.
-max-time:: 5:00
+{++{"author":"Elias's AI","timestamp":1787566499270}@@optional:: true
+++}content:: Spend 2 minutes writing down everything you can remember from this chapter, without looking back at any of it. Anything and everything, in any order, no need to organise it. Using the speech to text feature is highly recommended here.{--{"author":"Elias's AI","timestamp":1787566499270}@@
+max-time:: 5:00--}
 feedback-instructions::
 The learner has just finished this chapter of the AI Safety Atlas and has written a free recall from memory.
 
@@ -42,8 +43,9 @@ Tell them to move on to the next prompt.
 
 #### Question: Open
 id:: 0585f6ed-3cc2-4d83-8981-418d3e85506c
-content:: Now the other half. How did the chapter land? What surprised you, what did you not believe, what felt like it was missing? No need to organise it, just say what you actually thought.
-max-time:: 5:00
+{++{"author":"Elias's AI","timestamp":1787566504090}@@optional:: true
+++}content:: Now the other half. How did the chapter land? What surprised you, what did you not believe, what felt like it was missing? No need to organise it, just say what you actually thought.{--{"author":"Elias's AI","timestamp":1787566504090}@@
+max-time:: 5:00--}
 feedback-instructions::
 The learner has just recalled this chapter and is now saying how it landed.
 
