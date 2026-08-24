@@ -28,7 +28,7 @@ A **director agent** orchestrates. **Judge subagents** evaluate one file each an
 
 1. Load the lens-relay MCP tools (`create_session`, `read`, `grep`, `glob`, `edit`, `create`, `get_url`). In Claude Code, load them via ToolSearch.
 2. `create_session`; the first line of the response is the `session_id` for all calls.
-3. Read `Suite.md` — note `suite-version` — and the five eval files in this folder.
+3. Read `Suite.md` — note `suite-version` — and the {--{"author":"Luc's AI","timestamp":1787602037915}@@five--}{++{"author":"Luc's AI","timestamp":1787602037915}@@six++} eval files in this folder.
 4. If the operator says they just edited any eval file's judging standard, `suite-version` must be bumped in `Suite.md` first; do not proceed until resolved.
 
 ## Scope

@@ -34,7 +34,7 @@ Each check has its own file in this folder (`A1 - Concrete capability.md`, …) 
 
 **One suite-wide version number** — the `suite-version` in this file's frontmatter. Any meaningful change to any eval file in this folder (boundary, exemplars, adding/removing/renumbering checks) bumps it. All stamps carrying an older `suite-version` are stale in full; we accept the cost of re-running everything. Typo fixes that don't change a boundary don't bump.
 
-**v2 (2026-08-24):** removed C1 (binary rubric). Learning-outcome rubrics are no longer required to be binary pass/fail — graded scales are an accepted rubric form — so the check was retired; its eval file is archived in `Archive/`.
+**v2 (2026-08-24):** removed C1 (binary rubric). Learning-outcome rubrics are no longer required to be binary pass/fail — graded scales are an accepted rubric form — so the check was retired; its eval file is archived in `Archive/`.{++{"author":"Luc's AI","timestamp":1787602035806}@@ Also added A3 (single completion unit), promoted from the annotation-pass ruling on *Comparing alignment research agendas*.++}
 
 ## Result stamps
 
