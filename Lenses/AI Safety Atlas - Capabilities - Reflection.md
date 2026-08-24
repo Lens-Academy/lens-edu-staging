@@ -4,8 +4,7 @@ title: "Reflection - Capabilities"
 tldr: "Close the chapter by writing down what stuck, without looking, and then what it did to you. The point is to find out what you actually retained while you can still do something about it."
 summary_for_tutor: "Ungraded end-of-chapter reflection for Chapter 1 (Capabilities). No reading. Three prompts: free recall of the chapter, a reaction pass, and a cash-in of the single-year forecast the student committed to in the Forecasting Timelines pre-reading lens. The tutor mirrors and probes, and never grades, scores, or issues a verdict. The chapter's articles are in context so the mirror is checked against the source rather than against the tutor's own memory."
 reading_minutes: 5
-tutor_minutes: {--{"author":"Elias's AI","timestamp":1787560313710}@@15
-min_chat_messages: 2--}{++{"author":"Elias's AI","timestamp":1787560313710}@@12++}
+tutor_minutes: 12
 add_to_ai_context:
   - "[[../articles/AI Safety Atlas - Capabilities - Introduction]]"
   - "[[../articles/AI Safety Atlas - Capabilities - Current Capabilities]]"
@@ -82,11 +81,4 @@ One reply. 80 to 150 words. Short paragraphs, no lists.
 4. If they have become more confident and cannot say what did it, mention it once. Reading something is not by itself a reason to be more confident. Apply the same point if they became less confident for no stated reason.
 
 Avoid generic praise.
-{--{"author":"Elias's AI","timestamp":1787560317507}@@
-#### Chat
-instructions::
-The student has just closed this chapter with a recall pass, a reaction pass, and a look back at the forecast they made before reading.
 
-Build on what they actually wrote, and quote them. Useful directions: which part of the chapter they expect to still matter in five years and which part they expect to date; what would have to happen for them to change their mind about the thing they were most confident about; whether anything they read changes what they would actually do differently.
-
-This is an open conversation, not an assessment. Do not grade, score, or summarise their performance. Do not re-teach the chapter. Do not push them toward a timeline, and do not offer your own timeline even if asked: say you would be the last input into a lens whose point was to make theirs explicit, and turn the question back. If they ask your view on something else, give it briefly and flag it as one view.--}

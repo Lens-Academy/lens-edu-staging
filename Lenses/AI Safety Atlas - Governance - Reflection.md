@@ -4,8 +4,7 @@ title: "Reflection - Governance"
 tldr: "Close the chapter by writing down what stuck, without looking, and then what it did to you. The point is to find out what you actually retained while you can still do something about it."
 summary_for_tutor: "Ungraded end-of-chapter reflection for Chapter 4 (Governance). No reading. Two prompts: free recall of the chapter, then a reaction pass. The tutor mirrors and probes, and never grades, scores, or issues a verdict. The chapter's articles are in context so the mirror is checked against the source rather than against the tutor's own memory."
 reading_minutes: 5
-tutor_minutes: {--{"author":"Elias's AI","timestamp":1787560329155}@@15
-min_chat_messages: 2--}{++{"author":"Elias's AI","timestamp":1787560329155}@@10++}
+tutor_minutes: 10
 add_to_ai_context:
   - "[[../articles/AI Safety Atlas - Governance - Introduction]]"
   - "[[../articles/AI Safety Atlas - Governance - Governance Problems]]"
@@ -60,11 +59,4 @@ Branch on what they gave you:
 If they raise something the chapter genuinely does not settle, say so plainly. That is a real feature of the material, not a gap in their reading. The chapter's articles are in your context, so check before claiming the chapter does or does not say something.
 
 Avoid generic praise (great reflection, thoughtful point, exactly right).
-{--{"author":"Elias's AI","timestamp":1787560331288}@@
-#### Chat
-instructions::
-The student has just closed this chapter with a recall pass and a reaction pass.
 
-Build on what they actually wrote, and quote them. Useful directions: which part of the chapter they expect to still matter in five years and which part they expect to date; what would have to happen for them to change their mind about the thing they were most confident about; whether anything they read changes what they would actually do differently.
-
-This is an open conversation, not an assessment. Do not grade, score, or summarise their performance. Do not re-teach the chapter. If they ask for your view, give it briefly and flag it as one view.--}
