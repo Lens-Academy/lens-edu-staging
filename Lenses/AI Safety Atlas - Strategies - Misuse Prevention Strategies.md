@@ -2,13 +2,13 @@
 id: d53e1458-a4a7-450b-b4ce-8bc7c60211f6
 tldr: "If a powerful AI model can be downloaded by anyone, how do you stop it being weaponized? This section walks the gradient from fully closed to fully open release, showing how API gateways, filtering, rate limits, and monitoring try to keep dangerous capabilities in check, and where laws and norms have to take over."
 summary_for_tutor: "Covers strategies for preventing AI misuse by controlling access to dangerous capabilities. Explains the access gradient from fully closed to fully open-source, positions API-based deployment as a common middle ground, and details its safety mechanisms - input/output filtering, rate limiting, usage monitoring, usage restrictions, and on-the-fly updates. Also frames misuse prevention as requiring legal and social measures to manage harms from already widely available models."
-{++{"author":"Elias's AI","timestamp":1787567846556}@@reading_minutes: 35
+reading_minutes: 35
 tutor_minutes: 7
-++}title: "Misuse Prevention Strategies"
+title: "Misuse Prevention Strategies"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Strategies - Misuse Prevention Strategies|Misuse Prevention Strategies]]{++{"author":"Elias's AI","timestamp":1787567859481}@@
+source:: [[../articles/AI Safety Atlas - Strategies - Misuse Prevention Strategies|Misuse Prevention Strategies]]
 
 #### Text
 optional:: true
@@ -32,4 +32,4 @@ Several parts sit in collapsed optional callouts, including the open-versus-clos
 
 The evaluations and red teaming material gets a full chapter later, so point at it rather than teaching it here.
 
-Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
+Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.

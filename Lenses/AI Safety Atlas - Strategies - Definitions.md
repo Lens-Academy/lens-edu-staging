@@ -2,13 +2,13 @@
 id: ef781963-5f69-4fbb-828a-d7dc7b609900
 tldr: "Before you can fix a problem, you have to agree on what it is. 'Safety', 'alignment', 'ethics', and 'control' get used interchangeably, but each points at a different goal, and the definition you pick quietly steers which solutions you chase. This section draws the lines and shows why the wording matters."
 summary_for_tutor: "Defines and distinguishes four core terms whose usage shapes which safety strategies get pursued. AI safety: the broadest field, ensuring AI systems do not cause harm (robustness, monitoring, capability control). AI alignment: a subset focused on making AI pursue human intentions and values, with broader (full beneficial-outcome) versus narrower (intent-only) definitions, plus the unresolved 'aligned to whom?' question. AI ethics: the normative study of which objectives are worth pursuing (fairness, bias, rights). AI control: measures keeping systems under human authority even if misaligned, complementary to alignment. Stresses that clear definitions prevent miscommunication and safety washing."
-{++{"author":"Elias's AI","timestamp":1787567832953}@@reading_minutes: 11
+reading_minutes: 11
 tutor_minutes: 7
-++}title: "Definitions"
+title: "Definitions"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Strategies - Definitions|Definitions]]{++{"author":"Elias's AI","timestamp":1787567842569}@@
+source:: [[../articles/AI Safety Atlas - Strategies - Definitions|Definitions]]
 
 #### Question: Open
 id:: 747c31b2-9373-4aef-8b9d-175829fd6af8
@@ -29,4 +29,4 @@ If they say they do not know or write something thin, do not press them for more
 
 The list of candidates sits in a collapsed optional callout, so the learner may not have seen it beyond what the question itself states. Work from what they wrote rather than quizzing them on the options.
 
-120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.++}
+120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.
