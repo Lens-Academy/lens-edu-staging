@@ -1,8 +1,10 @@
 ---
-id: {--{"author":"Leo's AI","timestamp":1787568319232}@@'ccaed5cd-6097-4191-8a5f-1c6ac6e18393'--}{++{"author":"Leo's AI","timestamp":1787568319232}@@'d9b8c7a6-0f1e-4c9a-8b2e-9f8e7d6c5b4a'++}
+id: {--{"author":"Course Author's AI","timestamp":1787572051169}@@'ccaed5cd-6097-4191-8a5f-1c6ac6e18393'--}{++{"author":"Course Author's AI","timestamp":1787572051169}@@'ccaed5cd-6097-4191-8a5f-1c6ac6e18393'++}
 title: "Bonus: The Philosophy of Autonomy Loss"
-tldr: "Optional deep-dive: How skill atrophy connects to gradual disempowerment through the lens of autonomy. Krook argues that even well-aligned AI poses a hidden existential risk—the slow decline of human autonomy."
-summary_for_tutor: "Optional bonus lens for Unit 3 of 'Thinking about Thinking'. Presents Krook's philosophical argument connecting individual skill atrophy to gradual disempowerment. Key moves: autonomy loss as the underappreciated risk; conservatorship analogy; why this is not an alignment problem; the tipping point where human decision-making becomes 'illogical'. Three tutor questions draw out the philosophical bridge between skill loss and societal-level disempowerment."
+{++{"author":"Course Author's AI","timestamp":1787572051169}@@reading_minutes: 5
+tutor_minutes: 10
+++}tldr: "Optional deep-dive: {--{"author":"Course Author's AI","timestamp":1787572051169}@@How--}{++{"author":"Course Author's AI","timestamp":1787572051169}@@how++} skill atrophy connects to gradual disempowerment through the lens of autonomy. Krook argues that even well-aligned AI poses a hidden {--{"author":"Course Author's AI","timestamp":1787572051169}@@existential risk—the--}{++{"author":"Course Author's AI","timestamp":1787572051169}@@risk: the++} slow decline of human autonomy."
+summary_for_tutor: "Optional bonus lens for Unit 3 of 'Thinking about Thinking'. Presents Krook's philosophical argument connecting individual skill atrophy to gradual disempowerment. {++{"author":"Course Author's AI","timestamp":1787572051169}@@The claim the core course makes of this paper: autonomy, not machine rebellion, is the missing link between individual skill loss and societal disempowerment. ++}Key moves: autonomy loss as the underappreciated risk; conservatorship analogy; why this is not an alignment problem; the tipping point where human decision-making becomes 'illogical'. {++{"author":"Course Author's AI","timestamp":1787572051169}@@This is a conceptual argument, not an empirical study. ++}Three tutor questions draw out the philosophical bridge between skill loss and societal-level disempowerment."
 tags:
   - wip
 ---
