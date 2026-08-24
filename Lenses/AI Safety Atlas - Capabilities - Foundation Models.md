@@ -8,19 +8,16 @@ title: "Foundation Models"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Foundation Models|Foundation Models]]{++{"author":"Elias's AI","timestamp":1787563285613}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Foundation Models|Foundation Models]]{++{"author":"Elias's AI","timestamp":1787563752882}@@
 
-#### Question: Open
-id:: 64346088-de79-4662-9fdb-5c83fcedf5df
-optional:: true
+#### Text
 content::
-Pre-training shapes what a model learns. Fine-tuning and prompting shape what it does with it. The section points out that any safety property you establish in the first stage has to survive the second.
+Foundation models are the shift the rest of the chapter builds on. If the two training stages, or what "emergent" is actually claiming, are still blurry, use the tutor to go through them.
 
-If you were the person signing off on a release, what would you want to know about that second stage first?
-feedback-instructions::
-The learner has just read the AI Safety Atlas section "Foundation Models" and written a reflection. This is a reflection, not a test. There is no answer you are checking against, and you should not tell them whether they got it right.
-
-TLDR of what they read:
+#### Chat
+optional:: true
+instructions::
+TLDR of what the user just read:
 Foundation models are a shift from building one narrow system per task to pre-training a large general-purpose model and adapting it afterwards. Pre-training is self-supervised on massive unlabelled data; adaptation happens through fine-tuning or in-context prompting. Key properties: transfer learning, zero-shot and few-shot learning, cross-domain generalisation, and capabilities that emerge without being explicitly trained for. The section argues these same properties create safety problems narrow AI did not have, because there is limited control over what is learned, safety properties must survive adaptation, and the scale of training data makes auditing hard.
 
 Take what they wrote seriously and push on it once. Useful directions: what could actually be checked about the adaptation stage before release, and by whom; whether the burden sits with the original developer, whoever fine-tunes, or whoever deploys; what open weights do to that answer; whether safety properties installed in pre-training are the right thing to be relying on in the first place.
