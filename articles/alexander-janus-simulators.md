@@ -42,13 +42,13 @@ Janus was writing in September 2022, just before ChatGPT. ChatGPT is no more adv
 
 ![](https://substackcdn.com/image/fetch/$s_!YMqB!,w_1184,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff93a17a9-bd30-432f-8a31-082e696edacc_1184x506.png)
 
-([source](https://twitter.com/repligate/status/1614416190025396224))
+{--{"author":"AI","timestamp":1787568140251}@@([source](https://twitter.com/repligate/status/1614416190025396224))--}{++{"author":"AI","timestamp":1787568140251}@@_([source](https://twitter.com/repligate/status/1614416190025396224))_++}
 
 So if your reference point for a language model is ChatGPT, this post won’t make much sense. Instead, bring yourself all the way back to the hoary past of early 2022, when a standard interaction with a language model went like this:
 
 ![](https://substackcdn.com/image/fetch/$s_!alLS!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fea734cb7-4fbe-47c6-b836-9c049870f0cd_617x378.png)
 
-Unhighlighted text is my prompt; green highlighted text is AI completion.
+{--{"author":"AI","timestamp":1787568144012}@@Unhighlighted--}{++{"author":"AI","timestamp":1787568144012}@@_Unhighlighted++} text is my prompt; green highlighted text is AI {--{"author":"AI","timestamp":1787568144012}@@completion.--}{++{"author":"AI","timestamp":1787568144012}@@completion._++}
 
 This is certainly **not a goal-directed agent** \- at least not for any goal other than “complete this text”. And that seems like a stretch, like saying physics is an agent whose goal is “cause things to happen in accordance with physical law”.
 
