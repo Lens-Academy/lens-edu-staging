@@ -29,7 +29,7 @@ assessment-instructions:: The student has just read Bednar and colleagues (2025)
 Key idea to check they grasped:
 - AI used during early synthesis improved law students' written analysis (roughly 50 to 70 percent) and later no-AI performance; but AI used during revision of already-strong work regressed it
 - Help versus harm tracks where in the workflow the AI sits and whether it replaces the student's own judgement
-- Implication for metacognition: keep your judgement in the loop — use AI to support thinking you already direct, not to outsource the revision of work you understand
+- Implication for metacognition: keep your judgement in the {--{"author":"Course Author's AI","timestamp":1787574269674}@@loop —--}{++{"author":"Course Author's AI","timestamp":1787574269674}@@loop;++} use AI to support thinking you already direct, not to outsource the revision of work you understand
 
 Response length: 120 to 200 words. Short paragraphs only. No lists.
 
