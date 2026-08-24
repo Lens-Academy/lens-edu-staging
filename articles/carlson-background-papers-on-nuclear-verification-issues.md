@@ -1116,587 +1116,587 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 ++}It is surprising that although there have now been five cases where the Board of Governors (Board) of the International Atomic Energy Agency (IAEA) has determined that a state has been in non-compliance with its NPT safeguards agreement – involving{--{"author":"Luc's AI","timestamp":1787602398754}@@  
 --}{++{"author":"Luc's AI","timestamp":1787602398754}@@  
-++}Iraq{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++},{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Romania{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}, DPRK,{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Libya{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}and Iran{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}– there is no established definition of "non-compliance".{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Iraq{--{"author":"Luc's AI","timestamp":1787602399689}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@  
+++},{--{"author":"Luc's AI","timestamp":1787602399689}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@  
+++}Romania{--{"author":"Luc's AI","timestamp":1787602399689}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@  
+++}, DPRK,{--{"author":"Luc's AI","timestamp":1787602399689}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@  
+++}Libya{--{"author":"Luc's AI","timestamp":1787602399689}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@  
+++}and Iran{--{"author":"Luc's AI","timestamp":1787602399689}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@  
+++}– there is no established definition of "non-compliance".{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}The process of determining non-compliance is not only an important aspect of the IAEA safeguards system, but is also the only established mechanism for determining non-compliance with the NPT itself: non-compliance with an NPT safeguards agreement will constitute non-compliance with Article III of the NPT – to accept safeguards on all nuclear material – and, depending on the circumstances, possibly also Article II – not to acquire nuclear weapons.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The process of determining non-compliance is not only an important aspect of the IAEA safeguards system, but is also the only established mechanism for determining non-compliance with the NPT itself: non-compliance with an NPT safeguards agreement will constitute non-compliance with Article III of the NPT – to accept safeguards on all nuclear material – and, depending on the circumstances, possibly also Article II – not to acquire nuclear weapons.{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}Some forms of non-compliance – such as refusal to allow IAEA safeguards inspections – will be clear cut. More difficult are circumstances involving ambiguity – e.g. if inspectors discover undeclared nuclear material or activities, does this necessarily indicate an intention to produce nuclear weapons? Inadvertent safeguards breaches do occur – and it is necessary to be able to distinguish between breaches that have significant safeguards implications and those that may be of a less serious, "technical" nature.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Some forms of non-compliance – such as refusal to allow IAEA safeguards inspections – will be clear cut. More difficult are circumstances involving ambiguity – e.g. if inspectors discover undeclared nuclear material or activities, does this necessarily indicate an intention to produce nuclear weapons? Inadvertent safeguards breaches do occur – and it is necessary to be able to distinguish between breaches that have significant safeguards implications and those that may be of a less serious, "technical" nature.{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}Lack of a definition may be seen as advantageous – allowing the Board flexibility to deal with complex cases – but this comes at a cost. Lack of clarity and consistency in this vitally important area could have adverse consequences for the integrity and credibility of the IAEA's safeguards system. This paper suggests that guidelines could be helpful to the Board's deliberations, and could assist all parties in their understanding of the issues.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Lack of a definition may be seen as advantageous – allowing the Board flexibility to deal with complex cases – but this comes at a cost. Lack of clarity and consistency in this vitally important area could have adverse consequences for the integrity and credibility of the IAEA's safeguards system. This paper suggests that guidelines could be helpful to the Board's deliberations, and could assist all parties in their understanding of the issues.{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}### 2\. LEGAL CONTEXT{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 2\. LEGAL CONTEXT{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}**IAEA Statute** The term "non-compliance" in the safeguards context was introduced in the IAEA's Statute, which entered into effect in 1957, i.e. some 13 years before the Nuclear Non-Proliferation Treaty (NPT). Article XII.A of the Statute outlines the Agency's rights and responsibilities with respect to arrangements where the Agency is requested by the parties concerned to apply safeguards. Article XII.C provides that the IAEA's inspectors shall have "the responsibility of … determining whether there is compliance with … conditions … prescribed in the agreement between the Agency and the State … concerned" (underlining added).{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}**IAEA Statute** The term "non-compliance" in the safeguards context was introduced in the IAEA's Statute, which entered into effect in 1957, i.e. some 13 years before the Nuclear Non-Proliferation Treaty (NPT). Article XII.A of the Statute outlines the Agency's rights and responsibilities with respect to arrangements where the Agency is requested by the parties concerned to apply safeguards. Article XII.C provides that the IAEA's inspectors shall have "the responsibility of … determining whether there is compliance with … conditions … prescribed in the agreement between the Agency and the State … concerned" (underlining added).{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}Article XII.C further provides that "The inspectors shall report any non-compliance to the Director General who shall thereupon transmit the report to the Board of Governors" (underlining added). Article XII.C requires the Board to report non-compliance to the Security Council {--{"author":"Luc's AI","timestamp":1787602135090}@@[^18].--}{++{"author":"Luc's AI","timestamp":1787602135090}@@[^note-18].++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Article XII.C further provides that "The inspectors shall report any non-compliance to the Director General who shall thereupon transmit the report to the Board of Governors" (underlining added). Article XII.C requires the Board to report non-compliance to the Security Council {--{"author":"Luc's AI","timestamp":1787602135090}@@[^18].--}{++{"author":"Luc's AI","timestamp":1787602135090}@@[^note-18].++}{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}**Nuclear Non-Proliferation Treaty** The entry into force of the NPT in 1970 introduced a range of new obligations for non-nuclear-weapon state (NNWS) Parties, especially to accept IAEA safeguards on all their nuclear material {--{"author":"Luc's AI","timestamp":1787602135633}@@[^19].--}{++{"author":"Luc's AI","timestamp":1787602135633}@@[^note-19].++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}**Nuclear Non-Proliferation Treaty** The entry into force of the NPT in 1970 introduced a range of new obligations for non-nuclear-weapon state (NNWS) Parties, especially to accept IAEA safeguards on all their nuclear material {--{"author":"Luc's AI","timestamp":1787602135633}@@[^19].--}{++{"author":"Luc's AI","timestamp":1787602135633}@@[^note-19].++}{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}Under the NPT, a NNWS undertakes the fundamental obligation "not to manufacture or otherwise acquire nuclear weapons or other nuclear explosive devices" {--{"author":"Luc's AI","timestamp":1787602136137}@@[^20].--}{++{"author":"Luc's AI","timestamp":1787602136137}@@[^note-20].++} The fulfilment of this obligation is to be verified, through the obligation to "accept safeguards, as set forth in an agreement to be … concluded with the \[IAEA\] … and the Agency's safeguards system, … with a view to preventing diversion of nuclear energy (underlining added) from peaceful purposes to nuclear weapons or other nuclear explosive devices. … The safeguards required by this Article shall be applied on all source or special fissionable material in all peaceful nuclear activities within the territory of such State, under its jurisdiction, or carried out under its control anywhere" {--{"author":"Luc's AI","timestamp":1787602136137}@@[^21].--}{++{"author":"Luc's AI","timestamp":1787602136137}@@[^note-21].++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Under the NPT, a NNWS undertakes the fundamental obligation "not to manufacture or otherwise acquire nuclear weapons or other nuclear explosive devices" {--{"author":"Luc's AI","timestamp":1787602136137}@@[^20].--}{++{"author":"Luc's AI","timestamp":1787602136137}@@[^note-20].++} The fulfilment of this obligation is to be verified, through the obligation to "accept safeguards, as set forth in an agreement to be … concluded with the \[IAEA\] … and the Agency's safeguards system, … with a view to preventing diversion of nuclear energy (underlining added) from peaceful purposes to nuclear weapons or other nuclear explosive devices. … The safeguards required by this Article shall be applied on all source or special fissionable material in all peaceful nuclear activities within the territory of such State, under its jurisdiction, or carried out under its control anywhere" {--{"author":"Luc's AI","timestamp":1787602136137}@@[^21].--}{++{"author":"Luc's AI","timestamp":1787602136137}@@[^note-21].++}{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}It can be seen these provisions contain a number of elements pertinent to the issue of compliance. The reference to diversion of nuclear energy is particularly interesting. Commonly the term "diversion" is thought of as relating to nuclear material, but in the NPT the term is given a much broader meaning – here the sense is the misuse of nuclear processes. Also interesting is the reference to prevention, which underlines the timely warning aspect of safeguards – safeguards must be forward-looking, drawing inferences from known facts.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}It can be seen these provisions contain a number of elements pertinent to the issue of compliance. The reference to diversion of nuclear energy is particularly interesting. Commonly the term "diversion" is thought of as relating to nuclear material, but in the NPT the term is given a much broader meaning – here the sense is the misuse of nuclear processes. Also interesting is the reference to prevention, which underlines the timely warning aspect of safeguards – safeguards must be forward-looking, drawing inferences from known facts.{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}**Comprehensive safeguards agreement** The safeguards agreement required of NNWS under the NPT – now termed a comprehensive safeguards agreement {--{"author":"Luc's AI","timestamp":1787602136700}@@[^22]--}{++{"author":"Luc's AI","timestamp":1787602136700}@@[^note-22]++} – has been standardized through the model agreement published as IAEA document INFCIRC/153. In terms of the IAEA Statute, an NPT safeguards agreement is an "arrangement where the Agency is requested by the parties concerned to apply safeguards" (Article XII.A).{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}**Comprehensive safeguards agreement** The safeguards agreement required of NNWS under the NPT – now termed a comprehensive safeguards agreement {--{"author":"Luc's AI","timestamp":1787602136700}@@[^22]--}{++{"author":"Luc's AI","timestamp":1787602136700}@@[^note-22]++} – has been standardized through the model agreement published as IAEA document INFCIRC/153. In terms of the IAEA Statute, an NPT safeguards agreement is an "arrangement where the Agency is requested by the parties concerned to apply safeguards" (Article XII.A).{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}The basic obligation in an INFCIRC/153 agreement, reflecting the language of NPT Article III.1, is "to accept safeguards … on all source or special fissionable material … for the exclusive purpose of verifying that such material is not diverted to nuclear weapons or other nuclear explosive devices" {--{"author":"Luc's AI","timestamp":1787602137259}@@[^23].--}{++{"author":"Luc's AI","timestamp":1787602137259}@@[^note-23].++} Also of fundamental importance is the obligation to cooperate with the IAEA in facilitating the implementation of safeguards pursuant to the safeguards agreement {--{"author":"Luc's AI","timestamp":1787602137259}@@[^24].--}{++{"author":"Luc's AI","timestamp":1787602137259}@@[^note-24].++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The basic obligation in an INFCIRC/153 agreement, reflecting the language of NPT Article III.1, is "to accept safeguards … on all source or special fissionable material … for the exclusive purpose of verifying that such material is not diverted to nuclear weapons or other nuclear explosive devices" {--{"author":"Luc's AI","timestamp":1787602137259}@@[^23].--}{++{"author":"Luc's AI","timestamp":1787602137259}@@[^note-23].++} Also of fundamental importance is the obligation to cooperate with the IAEA in facilitating the implementation of safeguards pursuant to the safeguards agreement {--{"author":"Luc's AI","timestamp":1787602137259}@@[^24].--}{++{"author":"Luc's AI","timestamp":1787602137259}@@[^note-24].++}{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}### 3\. DETERMINING NON-COMPLIANCE{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 3\. DETERMINING NON-COMPLIANCE{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}**Procedural aspects** A non-compliance finding may be reached through the process set out in Article XII.C of the Statute, outlined above, or through paragraph 19 of INFCIRC/153.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}**Procedural aspects** A non-compliance finding may be reached through the process set out in Article XII.C of the Statute, outlined above, or through paragraph 19 of INFCIRC/153.{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}Paragraph 19 of INFCIRC/153 provides that if the Board "upon examination of relevant information reported to it by the Director General finds that the Agency is not able to verify that there has been no diversion of nuclear material … to nuclear weapons or other nuclear explosive devices" (underlining added), the Board may make the reports provided for in Article XII.C of the Statute.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Paragraph 19 of INFCIRC/153 provides that if the Board "upon examination of relevant information reported to it by the Director General finds that the Agency is not able to verify that there has been no diversion of nuclear material … to nuclear weapons or other nuclear explosive devices" (underlining added), the Board may make the reports provided for in Article XII.C of the Statute.{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}While INFCIRC/153 does not use the term "non-compliance", the effect of the reference in paragraph 19 to Article XII.C is to bring the concept of non-compliance into INFCIRC/153. The cases mentioned at the beginning of this paper demonstrate it is firmly established practice that the Board may reach a specific finding of non-compliance with respect to INFCIRC/153 agreements.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}While INFCIRC/153 does not use the term "non-compliance", the effect of the reference in paragraph 19 to Article XII.C is to bring the concept of non-compliance into INFCIRC/153. The cases mentioned at the beginning of this paper demonstrate it is firmly established practice that the Board may reach a specific finding of non-compliance with respect to INFCIRC/153 agreements.{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}A way of understanding the relationship between Article XII.C and paragraph 19 is to see the former as applying to unambiguous non-compliance, such as detection of diversion or refusal to allow inspections. The "inability to verify" formulation of paragraph 19 could also apply to some such situations, but in addition could apply to circumstances that are less clear-cut, or where the IAEA's investigations are inconclusive.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}A way of understanding the relationship between Article XII.C and paragraph 19 is to see the former as applying to unambiguous non-compliance, such as detection of diversion or refusal to allow inspections. The "inability to verify" formulation of paragraph 19 could also apply to some such situations, but in addition could apply to circumstances that are less clear-cut, or where the IAEA's investigations are inconclusive.{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}**Distinguishing non-compliance from less serious breaches** A judgment on non-compliance is made first by the "the inspectors" in deciding what should be reported to the Board, and then by the Board in deciding whether it finds that non-compliance has occurred. Once the IAEA inspectors have decided that a breach is sufficiently serious to report to the Board, how does the Board determine whether the breach is sufficiently serious to constitute non-compliance?{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}**Distinguishing non-compliance from less serious breaches** A judgment on non-compliance is made first by the "the inspectors" in deciding what should be reported to the Board, and then by the Board in deciding whether it finds that non-compliance has occurred. Once the IAEA inspectors have decided that a breach is sufficiently serious to report to the Board, how does the Board determine whether the breach is sufficiently serious to constitute non-compliance?{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}The drafting of Article XII.C ("compliance with … all … conditions of the … agreement") could be read as indicating that non-compliance is a failure to observe any condition in a safeguards agreement. But clearly not every safeguards breach constitutes non-compliance – otherwise the agendas of both the Board and the Security Council would be taken up with safeguards cases. There needs to be a way of distinguishing serious from less serious breaches.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The drafting of Article XII.C ("compliance with … all … conditions of the … agreement") could be read as indicating that non-compliance is a failure to observe any condition in a safeguards agreement. But clearly not every safeguards breach constitutes non-compliance – otherwise the agendas of both the Board and the Security Council would be taken up with safeguards cases. There needs to be a way of distinguishing serious from less serious breaches.{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}Some guidance can be found in the Statute, and by reflecting on the purpose behind the Statute's provisions for reporting to the Security Council. Looking at e.g. the indication in Article XII.A.1 that items under safeguards should not further any military purpose, and the close link between Article XII.C and Article III.B.4, which deals with "questions that are within the competence of the Security Council … as the organ bearing the main responsibility for the maintenance of international peace and security" (underlining added), it can be inferred that non-compliance involves safeguards breaches that have an actual or potential proliferation significance.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Some guidance can be found in the Statute, and by reflecting on the purpose behind the Statute's provisions for reporting to the Security Council. Looking at e.g. the indication in Article XII.A.1 that items under safeguards should not further any military purpose, and the close link between Article XII.C and Article III.B.4, which deals with "questions that are within the competence of the Security Council … as the organ bearing the main responsibility for the maintenance of international peace and security" (underlining added), it can be inferred that non-compliance involves safeguards breaches that have an actual or potential proliferation significance.{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}**What kind of breaches are of actual or potential proliferation significance?** This is a judgment that needs to be made on the facts of each case, but obvious considerations would include:{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}**What kind of breaches are of actual or potential proliferation significance?** This is a judgment that needs to be made on the facts of each case, but obvious considerations would include:{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}Â·{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Â·{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}Is there diversion of nuclear material to nuclear weapons, to purposes that could be related to production of nuclear weapons, or for "unknown" purposes (see below) that _could_ include nuclear weapons?{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Is there diversion of nuclear material to nuclear weapons, to purposes that could be related to production of nuclear weapons, or for "unknown" purposes (see below) that _could_ include nuclear weapons?{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}Â·{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Â·{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}Where undeclared nuclear activities have been discovered, do these involve fissile material or production of fissile material {--{"author":"Luc's AI","timestamp":1787602137853}@@[^25]--}{++{"author":"Luc's AI","timestamp":1787602137853}@@[^note-25]++} – i.e. enrichment or reprocessing? If so, are the quantities involved significant, or is there indication of an intention to scale up the undeclared activities to produce significant quantities?{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Where undeclared nuclear activities have been discovered, do these involve fissile material or production of fissile material {--{"author":"Luc's AI","timestamp":1787602137853}@@[^25]--}{++{"author":"Luc's AI","timestamp":1787602137853}@@[^note-25]++} – i.e. enrichment or reprocessing? If so, are the quantities involved significant, or is there indication of an intention to scale up the undeclared activities to produce significant quantities?{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}What is the context of the safeguards breaches: is there a systematic pattern of breaches; are the nuclear materials and the activities involved of a nature that _could_ be relevant to nuclear weapons; might they be part of an overall program aimed at acquiring nuclear weapons?{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}What is the context of the safeguards breaches: is there a systematic pattern of breaches; are the nuclear materials and the activities involved of a nature that _could_ be relevant to nuclear weapons; might they be part of an overall program aimed at acquiring nuclear weapons?{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}-   Is the IAEA being obstructed in carrying out its safeguards activities – e.g. inadequate cooperation with inspections, failure to produce records, interference with safeguards equipment, etc. – so that the IAEA is not able to exclude the existence of diversion or undeclared nuclear activities?{--{"author":"Luc's AI","timestamp":1787602108175}@@
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
-    ++}-   What is the overall record of the state on performance of safeguards and non-proliferation commitments?{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}-   Is the IAEA being obstructed in carrying out its safeguards activities – e.g. inadequate cooperation with inspections, failure to produce records, interference with safeguards equipment, etc. – so that the IAEA is not able to exclude the existence of diversion or undeclared nuclear activities?{--{"author":"Luc's AI","timestamp":1787602399689}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
+++}-   What is the overall record of the state on performance of safeguards and non-proliferation commitments?{--{"author":"Luc's AI","timestamp":1787602399689}@@
     
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
-        
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
+    
 
-    ++}**Diversion** There are two elements to diversion: action and purpose. Regarding action, diversion is commonly taken to mean removal of nuclear material from safeguarded activities. More correctly, however, the term encompasses both removal of nuclear material from safeguards and failure to declare nuclear material for safeguards. The state's basic obligation is to accept safeguards and apply safeguards procedures on all nuclear material – any significant departure from this obligation could indicate diversion.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}**Diversion** There are two elements to diversion: action and purpose. Regarding action, diversion is commonly taken to mean removal of nuclear material from safeguarded activities. More correctly, however, the term encompasses both removal of nuclear material from safeguards and failure to declare nuclear material for safeguards. The state's basic obligation is to accept safeguards and apply safeguards procedures on all nuclear material – any significant departure from this obligation could indicate diversion.{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}The other element of diversion is purpose – diversion is stated to be "to nuclear weapons or other nuclear explosive devices" (INFCIRC/153 paragraphs 1, 2, etc.) or to "purposes unknown" (INFCIRC/153 paragraph 28). The reference to "purposes unknown" is of critical importance, indicating that the standard of proof is set at a practical level, not one that is unrealistically high. This point is discussed further below.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The other element of diversion is purpose – diversion is stated to be "to nuclear weapons or other nuclear explosive devices" (INFCIRC/153 paragraphs 1, 2, etc.) or to "purposes unknown" (INFCIRC/153 paragraph 28). The reference to "purposes unknown" is of critical importance, indicating that the standard of proof is set at a practical level, not one that is unrealistically high. This point is discussed further below.{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}**Undeclared nuclear material/activities** Although the NPT and INFCIRC/153 express the obligation to accept safeguards in terms of nuclear material, under INFCIRC/153 the obligation to declare nuclear material also extends to an obligation to declare nuclear facilities {--{"author":"Luc's AI","timestamp":1787602138357}@@[^26].--}{++{"author":"Luc's AI","timestamp":1787602138357}@@[^note-26].++} In addition, INFCIRC/153 requires reports on the processing of nuclear material, which necessarily involves reporting of relevant activities. The Additional Protocol (INFCIRC/540) also requires reporting on – and provision of complementary access to – specified nuclear-related activities even if nuclear material is not present, on the basis that knowledge of such activities will assist the IAEA in drawing conclusions concerning nuclear material.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}**Undeclared nuclear material/activities** Although the NPT and INFCIRC/153 express the obligation to accept safeguards in terms of nuclear material, under INFCIRC/153 the obligation to declare nuclear material also extends to an obligation to declare nuclear facilities {--{"author":"Luc's AI","timestamp":1787602138357}@@[^26].--}{++{"author":"Luc's AI","timestamp":1787602138357}@@[^note-26].++} In addition, INFCIRC/153 requires reports on the processing of nuclear material, which necessarily involves reporting of relevant activities. The Additional Protocol (INFCIRC/540) also requires reporting on – and provision of complementary access to – specified nuclear-related activities even if nuclear material is not present, on the basis that knowledge of such activities will assist the IAEA in drawing conclusions concerning nuclear material.{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}The discovery of undeclared nuclear material or activities does not necessarily indicate an intention to produce nuclear weapons. It is necessary to make a judgment on implications and significance, e.g. whether the failure to declare might be inadvertent, and the possible consequences if the failure had remained undetected, e.g. how might the material concerned be used?{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The discovery of undeclared nuclear material or activities does not necessarily indicate an intention to produce nuclear weapons. It is necessary to make a judgment on implications and significance, e.g. whether the failure to declare might be inadvertent, and the possible consequences if the failure had remained undetected, e.g. how might the material concerned be used?{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}In assessing whether particular failures can be accepted as inadvertent, relevant factors might include the following:{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}In assessing whether particular failures can be accepted as inadvertent, relevant factors might include the following:{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}-   Whether there is evidence of deliberate falsehoods or concealment efforts, indicating that the failures were intentional rather than inadvertent;{--{"author":"Luc's AI","timestamp":1787602108175}@@
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
-    ++}-   The nature of the nuclear material involved – particularly whether fissile material;{--{"author":"Luc's AI","timestamp":1787602108175}@@
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
-    ++}-   The nature of the nuclear activities involved – whether these are related to production of fissile material (i.e. enrichment or reprocessing) or to processes that could be relevant to nuclear weapons.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}-   Whether there is evidence of deliberate falsehoods or concealment efforts, indicating that the failures were intentional rather than inadvertent;{--{"author":"Luc's AI","timestamp":1787602399689}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
+++}-   The nature of the nuclear material involved – particularly whether fissile material;{--{"author":"Luc's AI","timestamp":1787602399689}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
+++}-   The nature of the nuclear activities involved – whether these are related to production of fissile material (i.e. enrichment or reprocessing) or to processes that could be relevant to nuclear weapons.{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}### 4\. STANDARD OF PROOF{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 4\. STANDARD OF PROOF{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}Whether governments have confidence that a state's nuclear program is exclusively peaceful is a matter of judgment made, not on the basis of certainty but on the balance of probabilities. A judgment on non-compliance cannot wait until the state has succeeded in acquiring nuclear weapons. If the standard of proof is set too high, the IAEA is bound to fail in its responsibility to provide the international community with timely warning.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Whether governments have confidence that a state's nuclear program is exclusively peaceful is a matter of judgment made, not on the basis of certainty but on the balance of probabilities. A judgment on non-compliance cannot wait until the state has succeeded in acquiring nuclear weapons. If the standard of proof is set too high, the IAEA is bound to fail in its responsibility to provide the international community with timely warning.{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}To "prove" the existence of a nuclear weapon program is unrealistic: a state having a nuclear weapon or nuclear weapon components, or conducting weaponisation experiments with nuclear material, is unlikely to be caught red-handed. More likely, a state facing obvious exposure would deny inspectors access to the location concerned, preferring to argue whether lack of cooperation constitutes non-compliance, maintaining some ambiguity about its actions.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}To "prove" the existence of a nuclear weapon program is unrealistic: a state having a nuclear weapon or nuclear weapon components, or conducting weaponisation experiments with nuclear material, is unlikely to be caught red-handed. More likely, a state facing obvious exposure would deny inspectors access to the location concerned, preferring to argue whether lack of cooperation constitutes non-compliance, maintaining some ambiguity about its actions.{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}Depending on the circumstances, the existence of undeclared nuclear material/activities should be enough to raise a presumption of diversion – especially if fissile material, enrichment or plutonium separation is involved. The NPT requires acceptance of safeguards on all nuclear material, for the purpose of verifying the fulfilment of obligations assumed under the Treaty, namely, not to produce nuclear weapons. Where it is found that a state has not declared nuclear material, apparently intentionally, the initial presumption must be that non-peaceful purposes are intended. The "smoking gun" is the failure to declare nuclear material.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Depending on the circumstances, the existence of undeclared nuclear material/activities should be enough to raise a presumption of diversion – especially if fissile material, enrichment or plutonium separation is involved. The NPT requires acceptance of safeguards on all nuclear material, for the purpose of verifying the fulfilment of obligations assumed under the Treaty, namely, not to produce nuclear weapons. Where it is found that a state has not declared nuclear material, apparently intentionally, the initial presumption must be that non-peaceful purposes are intended. The "smoking gun" is the failure to declare nuclear material.{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}If undeclared nuclear material/activities are discovered, an immediate challenge is to try to establish whether there are further undeclared nuclear material/activities – the IAEA's ability to do this might depend on having a non-compliance finding from the Board with increased authority from the Board to carry out additional verification activities.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}If undeclared nuclear material/activities are discovered, an immediate challenge is to try to establish whether there are further undeclared nuclear material/activities – the IAEA's ability to do this might depend on having a non-compliance finding from the Board with increased authority from the Board to carry out additional verification activities.{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}The more additional information the IAEA can gather the better – this will help to make the judgment whether a weapon purpose is plausible in the circumstances. Detection of apparent weaponisation activities could be very important, and the IAEA needs to investigate such activities to the extent it is able, but discovery of weaponisation activities is not essential to support a finding of diversion/non-compliance {--{"author":"Luc's AI","timestamp":1787602138889}@@[^27].--}{++{"author":"Luc's AI","timestamp":1787602138889}@@[^note-27].++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The more additional information the IAEA can gather the better – this will help to make the judgment whether a weapon purpose is plausible in the circumstances. Detection of apparent weaponisation activities could be very important, and the IAEA needs to investigate such activities to the extent it is able, but discovery of weaponisation activities is not essential to support a finding of diversion/non-compliance {--{"author":"Luc's AI","timestamp":1787602138889}@@[^27].--}{++{"author":"Luc's AI","timestamp":1787602138889}@@[^note-27].++}{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}The drafters of INFCIRC/153 recognised the importance of avoiding an unrealistically high standard of proof. This is shown by the use of qualitative language – "purposes unknown" {--{"author":"Luc's AI","timestamp":1787602139376}@@[^28]--}{++{"author":"Luc's AI","timestamp":1787602139376}@@[^note-28]++} and "not able to verify" {--{"author":"Luc's AI","timestamp":1787602139376}@@[^29]--}{++{"author":"Luc's AI","timestamp":1787602139376}@@[^note-29]++} – that allows for application of judgment to deal with ambiguous or inconclusive situations.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The drafters of INFCIRC/153 recognised the importance of avoiding an unrealistically high standard of proof. This is shown by the use of qualitative language – "purposes unknown" {--{"author":"Luc's AI","timestamp":1787602139376}@@[^28]--}{++{"author":"Luc's AI","timestamp":1787602139376}@@[^note-28]++} and "not able to verify" {--{"author":"Luc's AI","timestamp":1787602139376}@@[^29]--}{++{"author":"Luc's AI","timestamp":1787602139376}@@[^note-29]++} – that allows for application of judgment to deal with ambiguous or inconclusive situations.{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}INFCIRC/153 takes a practical approach – it is sufficient for the IAEA to show:{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}INFCIRC/153 takes a practical approach – it is sufficient for the IAEA to show:{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}-   Failure to declare nuclear material and/or a nuclear activity – or that nuclear material has been removed from safeguards;{--{"author":"Luc's AI","timestamp":1787602108175}@@
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
-    ++}-   The failure is considered to be significant – e.g. because of the nature of the nuclear material and/or activity; and{--{"author":"Luc's AI","timestamp":1787602108175}@@
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
-    ++}-   The purpose of the use of the nuclear material or the nuclear activity is not clearly exclusively peaceful – it could be military, or it could be uncertain, i.e. "unknown".{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}-   Failure to declare nuclear material and/or a nuclear activity – or that nuclear material has been removed from safeguards;{--{"author":"Luc's AI","timestamp":1787602399689}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
+++}-   The failure is considered to be significant – e.g. because of the nature of the nuclear material and/or activity; and{--{"author":"Luc's AI","timestamp":1787602399689}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
+++}-   The purpose of the use of the nuclear material or the nuclear activity is not clearly exclusively peaceful – it could be military, or it could be uncertain, i.e. "unknown".{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}In these circumstances, the onus is then on the state to show that non-peaceful purposes are not intended. It can attempt to do this through full cooperation with, and transparency to, the IAEA, as discussed in the following section.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}In these circumstances, the onus is then on the state to show that non-peaceful purposes are not intended. It can attempt to do this through full cooperation with, and transparency to, the IAEA, as discussed in the following section.{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}### 5\. REMEDYING NON-COMPLIANCE{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 5\. REMEDYING NON-COMPLIANCE{--{"author":"Luc's AI","timestamp":1787602399689}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602399689}@@
 
-    ++}As discussed above, a non-compliance situation may well be one of ambiguity rather than conclusive evidence. Once inspectors find they are unable to verify that there has been no diversion to nuclear weapons – or that there has been diversion to purposes that are uncertain or unknown – it is for the Board and governments to consider the implications and what is necessary to rebuild confidence.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}As discussed above, a non-compliance situation may well be one of ambiguity rather than conclusive evidence. Once inspectors find they are unable to verify that there has been no diversion to nuclear weapons – or that there has been diversion to purposes that are uncertain or unknown – it is for the Board and governments to consider the implications and what is necessary to rebuild confidence.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}Article XII.C provides that the Board "… shall call upon the … State to remedy forthwith any non-compliance which it finds to have occurred", and paragraph 18 of INFCIRC/153 provides that where the Board "decides that an action by the State is essential and urgent in order to ensure verification that nuclear material … is not diverted to nuclear weapons … the Board shall be able to call upon the State to take the required action without delay …".{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Article XII.C provides that the Board "… shall call upon the … State to remedy forthwith any non-compliance which it finds to have occurred", and paragraph 18 of INFCIRC/153 provides that where the Board "decides that an action by the State is essential and urgent in order to ensure verification that nuclear material … is not diverted to nuclear weapons … the Board shall be able to call upon the State to take the required action without delay …".{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}An essential issue for the IAEA to determine is the range of verification activities needed for effective investigation of the non-compliant state's nuclear activities. It is most unlikely that verification under the INFCIRC/153 agreement alone will suffice. At the least, the IAEA is likely to require access and information in accordance with the Additional Protocol (AP), so if the state doesn't have an AP in place the Board may need to require equivalent measures. Indeed, there are arguments whether the standard AP is sufficient to deal with non-compliance, or the IAEA may need further measures – what has been termed "the AP plus" – possibly under authority from the Security Council {--{"author":"Luc's AI","timestamp":1787602139926}@@[^30].--}{++{"author":"Luc's AI","timestamp":1787602139926}@@[^note-30].++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}An essential issue for the IAEA to determine is the range of verification activities needed for effective investigation of the non-compliant state's nuclear activities. It is most unlikely that verification under the INFCIRC/153 agreement alone will suffice. At the least, the IAEA is likely to require access and information in accordance with the Additional Protocol (AP), so if the state doesn't have an AP in place the Board may need to require equivalent measures. Indeed, there are arguments whether the standard AP is sufficient to deal with non-compliance, or the IAEA may need further measures – what has been termed "the AP plus" – possibly under authority from the Security Council {--{"author":"Luc's AI","timestamp":1787602139926}@@[^30].--}{++{"author":"Luc's AI","timestamp":1787602139926}@@[^note-30].++}{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}**When is non-compliance resolved?** This comes down to an issue of what the Board requires before it can conclude that the non-compliance has been fully remedied. It is not simply a matter of making good the specific safeguards violations that have been discovered. Discovery of acts of non-compliance raises the question whether the state may have more, as yet undiscovered, safeguards violations. A substantial ongoing program of verification, requiring continuing cooperation by the state, may be required before there can be confidence that there are no other instances of non-compliance, and that non-compliance is not likely to recur. It could be some time before the Board is able to reach a positive conclusion, and before there can be confidence on the part of the international community.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}**When is non-compliance resolved?** This comes down to an issue of what the Board requires before it can conclude that the non-compliance has been fully remedied. It is not simply a matter of making good the specific safeguards violations that have been discovered. Discovery of acts of non-compliance raises the question whether the state may have more, as yet undiscovered, safeguards violations. A substantial ongoing program of verification, requiring continuing cooperation by the state, may be required before there can be confidence that there are no other instances of non-compliance, and that non-compliance is not likely to recur. It could be some time before the Board is able to reach a positive conclusion, and before there can be confidence on the part of the international community.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}### 6\. CONCLUSIONS{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 6\. CONCLUSIONS{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}Reinforcing confidence in, and commitment to, the non-proliferation regime depends not only on proficient verification but also, where necessary, on effective action to uphold treaty compliance. Well-functioning procedures for determining non-compliance are essential to this.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Reinforcing confidence in, and commitment to, the non-proliferation regime depends not only on proficient verification but also, where necessary, on effective action to uphold treaty compliance. Well-functioning procedures for determining non-compliance are essential to this.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}It is not appropriate to apply a rigid approach to determinations of non-compliance. The facts are likely to be complex, and a case-by-case approach will be required. The terms of Article XII.C of the Statute and paragraph 19 of INFCIRC/153 provide the Board with appropriate scope for the exercise of judgment. This is not to say, however, that the Board's discretion should be unlimited. Consistency and predictability are essential if the Board's decisions are to be credible and maintain confidence in the integrity of the IAEA's processes. It is essential that the approach taken by the Board is understood and accepted by the Member States.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}It is not appropriate to apply a rigid approach to determinations of non-compliance. The facts are likely to be complex, and a case-by-case approach will be required. The terms of Article XII.C of the Statute and paragraph 19 of INFCIRC/153 provide the Board with appropriate scope for the exercise of judgment. This is not to say, however, that the Board's discretion should be unlimited. Consistency and predictability are essential if the Board's decisions are to be credible and maintain confidence in the integrity of the IAEA's processes. It is essential that the approach taken by the Board is understood and accepted by the Member States.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}Clarification of the issues involved in non-compliance determinations is important for all parties – states and the IAEA Secretariat as well as the Board. The development of guidelines to assist the Board, and indeed the Secretariat, could be very helpful. This paper has suggested some of the considerations that could inform the development of such guidelines.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Clarification of the issues involved in non-compliance determinations is important for all parties – states and the IAEA Secretariat as well as the Board. The development of guidelines to assist the Board, and indeed the Secretariat, could be very helpful. This paper has suggested some of the considerations that could inform the development of such guidelines.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}## Paper 5 - Can a Fissile Material Cut-Off Treaty be Effectively Verified?{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}## Paper 5 - Can a Fissile Material Cut-Off Treaty be Effectively Verified?{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}Published with some editorial changes in Arms Control Today, January/February 2005, pages 25-9.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Published with some editorial changes in Arms Control Today, January/February 2005, pages 25-9.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}### 1\. INTRODUCTION{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 1\. INTRODUCTION{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}Negotiation of a fissile material cut-off treaty (FMCT) has been blocked for several years by the failure of the Conference on Disarmament (CD) to agree on its program of work. At this stage therefore we can only speculate about the likely substantive provisions of an FMCT. The negotiating mandate for the CD, drawn from a 1993 UN General Assembly Resolution {--{"author":"Luc's AI","timestamp":1787602140437}@@[^31],--}{++{"author":"Luc's AI","timestamp":1787602140437}@@[^note-31],++} has the following elements:{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Negotiation of a fissile material cut-off treaty (FMCT) has been blocked for several years by the failure of the Conference on Disarmament (CD) to agree on its program of work. At this stage therefore we can only speculate about the likely substantive provisions of an FMCT. The negotiating mandate for the CD, drawn from a 1993 UN General Assembly Resolution {--{"author":"Luc's AI","timestamp":1787602140437}@@[^31],--}{++{"author":"Luc's AI","timestamp":1787602140437}@@[^note-31],++} has the following elements:{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}-   the treaty is to ban "the production of fissile material for nuclear weapons and other nuclear explosive devices"{--{"author":"Luc's AI","timestamp":1787602108175}@@
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
-    ++}-   the treaty is to be "non-discriminatory, multilateral and internationally and effectively verifiable".{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}-   the treaty is to ban "the production of fissile material for nuclear weapons and other nuclear explosive devices"{--{"author":"Luc's AI","timestamp":1787602400772}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
+++}-   the treaty is to be "non-discriminatory, multilateral and internationally and effectively verifiable".{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}The{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}US{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}has recently concluded that effective international verification of an FMCT is not realistically achievable. The{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}US{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}supports the early conclusion of an FMCT to establish "cut-off" as an international norm, but is concerned that negotiation of a verification regime will seriously delay the treaty.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The{--{"author":"Luc's AI","timestamp":1787602400772}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@  
+++}US{--{"author":"Luc's AI","timestamp":1787602400772}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@  
+++}has recently concluded that effective international verification of an FMCT is not realistically achievable. The{--{"author":"Luc's AI","timestamp":1787602400772}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@  
+++}US{--{"author":"Luc's AI","timestamp":1787602400772}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@  
+++}supports the early conclusion of an FMCT to establish "cut-off" as an international norm, but is concerned that negotiation of a verification regime will seriously delay the treaty.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}This raises two issues: the practicability of effective verification; and whether the detailed verification system must be specified in the principal treaty instrument.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}This raises two issues: the practicability of effective verification; and whether the detailed verification system must be specified in the principal treaty instrument.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}### 2\. VERIFICATION CONSIDERATIONS{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 2\. VERIFICATION CONSIDERATIONS{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}Is there anything in the FMCT concept that makes it inherently incapable of effective verification? This depends on the objectives of the FMCT, as reflected in its substantive provisions, yet to be negotiated. We must take care that questions of _verifiability_ are not confused with differences over _objectives_, or issues of treaty architecture.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Is there anything in the FMCT concept that makes it inherently incapable of effective verification? This depends on the objectives of the FMCT, as reflected in its substantive provisions, yet to be negotiated. We must take care that questions of _verifiability_ are not confused with differences over _objectives_, or issues of treaty architecture.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}For example, the generally held FMCT concept does not proscribe production of additional nuclear weapons from unsafeguarded stocks of fissile material existing prior to the FMCT's entry-into-force (EIF). Rather, the objective is to ensure these stocks are not added to. Some may question whether the existence of large stocks of fissile material outside the FMCT reduces the treaty's usefulness - but this is an issue relating to the appropriateness of the FMCT's objectives, not its verifiability.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}For example, the generally held FMCT concept does not proscribe production of additional nuclear weapons from unsafeguarded stocks of fissile material existing prior to the FMCT's entry-into-force (EIF). Rather, the objective is to ensure these stocks are not added to. Some may question whether the existence of large stocks of fissile material outside the FMCT reduces the treaty's usefulness - but this is an issue relating to the appropriateness of the FMCT's objectives, not its verifiability.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}The maxim underlying nuclear "peaceful use" treaties - the principal one being the NPT - is "trust but verify". The subject matter of the NPT is of such fundamental importance to national and international security that no state would be prepared to rely on trust alone. The existence of a credible verification mechanism - in the form of IAEA safeguards - is essential to maintaining confidence in the effectiveness of the NPT and reinforcing the commitment of treaty parties.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The maxim underlying nuclear "peaceful use" treaties - the principal one being the NPT - is "trust but verify". The subject matter of the NPT is of such fundamental importance to national and international security that no state would be prepared to rely on trust alone. The existence of a credible verification mechanism - in the form of IAEA safeguards - is essential to maintaining confidence in the effectiveness of the NPT and reinforcing the commitment of treaty parties.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}Most states approach the FMCT with a similar perspective - the FMCT would not be considered credible without a verification mechanism. Here, we are not starting with a clean slate - there is already a highly developed verification regime for nuclear material and activities. We have over 40 years experience with IAEA safeguards. In addition, there is considerable experience with bilateral verification and confidence-building mechanisms (CBMs), some directly applicable to nuclear weapons and sensitive materials.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Most states approach the FMCT with a similar perspective - the FMCT would not be considered credible without a verification mechanism. Here, we are not starting with a clean slate - there is already a highly developed verification regime for nuclear material and activities. We have over 40 years experience with IAEA safeguards. In addition, there is considerable experience with bilateral verification and confidence-building mechanisms (CBMs), some directly applicable to nuclear weapons and sensitive materials.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}### 3\. TREATY ARCHITECTURE{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 3\. TREATY ARCHITECTURE{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}In the area of multilateral verification treaties, there are two alternative precedents. One is for a single treaty containing both the basic treaty objectives and commitments and the details of the verification system – the approach taken with the Chemical Weapons Convention (CWC). The disadvantages of this approach include the time required to negotiate the treaty – a{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}US{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}concern in the case of the FMCT – and the degree of inflexibility in the verification system. Updating the verification system would be a major political exercise.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}In the area of multilateral verification treaties, there are two alternative precedents. One is for a single treaty containing both the basic treaty objectives and commitments and the details of the verification system – the approach taken with the Chemical Weapons Convention (CWC). The disadvantages of this approach include the time required to negotiate the treaty – a{--{"author":"Luc's AI","timestamp":1787602400772}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@  
+++}US{--{"author":"Luc's AI","timestamp":1787602400772}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@  
+++}concern in the case of the FMCT – and the degree of inflexibility in the verification system. Updating the verification system would be a major political exercise.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}The alternative approach – demonstrated very successfully by the NPT – is to have the basic political commitments in a principal treaty, and to set out the verification system in a secondary agreement (or series of agreements – in the NPT's case each party concludes a safeguards agreement with the IAEA based on the model in IAEA document INFCIRC/153). This approach separates largely political from largely technical subject matters, and allows for an adaptable verification system.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The alternative approach – demonstrated very successfully by the NPT – is to have the basic political commitments in a principal treaty, and to set out the verification system in a secondary agreement (or series of agreements – in the NPT's case each party concludes a safeguards agreement with the IAEA based on the model in IAEA document INFCIRC/153). This approach separates largely political from largely technical subject matters, and allows for an adaptable verification system.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}The NPT was concluded in 1968 and entered into force in 1970. The model safeguards agreement, INFCIRC/153, was not concluded until 1972. The negotiation of the model Additional Protocol (INFCIRC/540), agreed in 1997, illustrates how this basic approach allows flexibility for major updates of the verification system. Another advantage of having separate negotiations on the technical details is that such negotiations can proceed quite expeditiously – despite their complexity, INFCIRC/153 and INFCIRC/540 each took only about 18 months to conclude.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The NPT was concluded in 1968 and entered into force in 1970. The model safeguards agreement, INFCIRC/153, was not concluded until 1972. The negotiation of the model Additional Protocol (INFCIRC/540), agreed in 1997, illustrates how this basic approach allows flexibility for major updates of the verification system. Another advantage of having separate negotiations on the technical details is that such negotiations can proceed quite expeditiously – despite their complexity, INFCIRC/153 and INFCIRC/540 each took only about 18 months to conclude.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}Given the commonalities in subject matter between IAEA safeguards and FMCT verification, it would seem sensible to follow the NPT route, thus enabling the political commitment – the international norm – to be established quickly, and the details of the verification system to follow.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Given the commonalities in subject matter between IAEA safeguards and FMCT verification, it would seem sensible to follow the NPT route, thus enabling the political commitment – the international norm – to be established quickly, and the details of the verification system to follow.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}### 4\. OBJECTIVES AND SCOPE OF FMCT{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 4\. OBJECTIVES AND SCOPE OF FMCT{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}The basic objective of FMCT will be to proscribe production of fissile material for nuclear weapons or other nuclear explosive devices. Accordingly, upon EIF each party would undertake:{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The basic objective of FMCT will be to proscribe production of fissile material for nuclear weapons or other nuclear explosive devices. Accordingly, upon EIF each party would undertake:{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}-   not to produce fissile material for nuclear weapons;{--{"author":"Luc's AI","timestamp":1787602108175}@@
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
-    ++}-   to accept international verification on relevant facilities and nuclear material to verify this commitment;{--{"author":"Luc's AI","timestamp":1787602108175}@@
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
-    ++}-   not to use any fissile material subject to verification under FMCT for nuclear weapons - i.e. the principle of _irreversibility_ would apply, "subject material" could not be withdrawn for weapons use.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}-   not to produce fissile material for nuclear weapons;{--{"author":"Luc's AI","timestamp":1787602400772}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
+++}-   to accept international verification on relevant facilities and nuclear material to verify this commitment;{--{"author":"Luc's AI","timestamp":1787602400772}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
+++}-   not to use any fissile material subject to verification under FMCT for nuclear weapons - i.e. the principle of _irreversibility_ would apply, "subject material" could not be withdrawn for weapons use.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}For the purposes of the FMCT, it is expected that "fissile material" would encompass _separated_ (unirradiated) plutonium, uranium-233, and highly enriched uranium (HEU). It would probably also need to include separated neptunium, which is recognised by the IAEA as a material of potential proliferation significance.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}For the purposes of the FMCT, it is expected that "fissile material" would encompass _separated_ (unirradiated) plutonium, uranium-233, and highly enriched uranium (HEU). It would probably also need to include separated neptunium, which is recognised by the IAEA as a material of potential proliferation significance.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}**Non-proscribed activities** Production of fissile material for civil purposes, and for non-explosive military purposes such as naval propulsion, would be permitted, but only under verification to ensure fissile material is not diverted to weapons. Recycle (or clean-up) of plutonium from weapons - an established stockpile stewardship practice – which does not involve new production of fissile material, would also be permitted.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}**Non-proscribed activities** Production of fissile material for civil purposes, and for non-explosive military purposes such as naval propulsion, would be permitted, but only under verification to ensure fissile material is not diverted to weapons. Recycle (or clean-up) of plutonium from weapons - an established stockpile stewardship practice – which does not involve new production of fissile material, would also be permitted.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}**States affected** The FMCT would apply to three groups of states:{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}**States affected** The FMCT would apply to three groups of states:{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}-   non-nuclear weapon states (NNWS) party to the NPT;{--{"author":"Luc's AI","timestamp":1787602108175}@@
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
-    ++}-   the five NPT nuclear weapon states (NWS);{--{"author":"Luc's AI","timestamp":1787602108175}@@
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
-    ++}-   the three "nuclear capable" states outside the NPT -{--{"author":"Luc's AI","timestamp":1787602108175}@@  
-    --}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-        ++}India{--{"author":"Luc's AI","timestamp":1787602108175}@@  
-    --}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-        ++},{--{"author":"Luc's AI","timestamp":1787602108175}@@  
-    --}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-        ++}Israel{--{"author":"Luc's AI","timestamp":1787602108175}@@  
-    --}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-        ++}and{--{"author":"Luc's AI","timestamp":1787602108175}@@  
-    --}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-        ++}Pakistan {--{"author":"Luc's AI","timestamp":1787602140917}@@[^32].--}{++{"author":"Luc's AI","timestamp":1787602140917}@@[^note-32].++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}-   non-nuclear weapon states (NNWS) party to the NPT;{--{"author":"Luc's AI","timestamp":1787602400772}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
+++}-   the five NPT nuclear weapon states (NWS);{--{"author":"Luc's AI","timestamp":1787602400772}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
+++}-   the three "nuclear capable" states outside the NPT -{--{"author":"Luc's AI","timestamp":1787602400772}@@  
+    --}{++{"author":"Luc's AI","timestamp":1787602400772}@@  
+    ++}India{--{"author":"Luc's AI","timestamp":1787602400772}@@  
+    --}{++{"author":"Luc's AI","timestamp":1787602400772}@@  
+    ++},{--{"author":"Luc's AI","timestamp":1787602400772}@@  
+    --}{++{"author":"Luc's AI","timestamp":1787602400772}@@  
+    ++}Israel{--{"author":"Luc's AI","timestamp":1787602400772}@@  
+    --}{++{"author":"Luc's AI","timestamp":1787602400772}@@  
+    ++}and{--{"author":"Luc's AI","timestamp":1787602400772}@@  
+    --}{++{"author":"Luc's AI","timestamp":1787602400772}@@  
+    ++}Pakistan {--{"author":"Luc's AI","timestamp":1787602140917}@@[^32].--}{++{"author":"Luc's AI","timestamp":1787602140917}@@[^note-32].++}{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}NNWS party to the NPT are already committed not to produce or use nuclear material for weapons purposes, and to accept IAEA safeguards on all their nuclear material and activities to verify this commitment (_comprehensive_ safeguards {--{"author":"Luc's AI","timestamp":1787602141508}@@[^33]).--}{++{"author":"Luc's AI","timestamp":1787602141508}@@[^note-33]).++} In principle therefore the FMCT should not involve any additional commitments from NNWS that are implementing both an NPT safeguards agreement and an Additional Protocol. The principal effect of the FMCT - and its verification task - relate mainly to the NWS and the non-NPT states.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}NNWS party to the NPT are already committed not to produce or use nuclear material for weapons purposes, and to accept IAEA safeguards on all their nuclear material and activities to verify this commitment (_comprehensive_ safeguards {--{"author":"Luc's AI","timestamp":1787602141508}@@[^33]).--}{++{"author":"Luc's AI","timestamp":1787602141508}@@[^note-33]).++} In principle therefore the FMCT should not involve any additional commitments from NNWS that are implementing both an NPT safeguards agreement and an Additional Protocol. The principal effect of the FMCT - and its verification task - relate mainly to the NWS and the non-NPT states.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}**Scope of the FMCT** A major issue to be resolved in the negotiations is the scope of the FMCT - the facilities and material to which verification would apply. In broad terms the basic options are:{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}**Scope of the FMCT** A major issue to be resolved in the negotiations is the scope of the FMCT - the facilities and material to which verification would apply. In broad terms the basic options are:{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}-   a treaty of wide scope, covering all nuclear facilities and nuclear material - other than non-proscribed military activities, i.e. naval propulsion, and subject to the issue of stocks (discussed below); or{--{"author":"Luc's AI","timestamp":1787602108175}@@
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
-    ++}-   a treaty of focused scope, concentrating on the most proliferation-sensitive fissile material production facilities - i.e. reprocessing and enrichment facilities - and relevant production from those facilities.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}-   a treaty of wide scope, covering all nuclear facilities and nuclear material - other than non-proscribed military activities, i.e. naval propulsion, and subject to the issue of stocks (discussed below); or{--{"author":"Luc's AI","timestamp":1787602400772}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
+++}-   a treaty of focused scope, concentrating on the most proliferation-sensitive fissile material production facilities - i.e. reprocessing and enrichment facilities - and relevant production from those facilities.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}There would be substantial problems in trying to extend the _comprehensive_ safeguards system to the NWS and non-NPT states:{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}There would be substantial problems in trying to extend the _comprehensive_ safeguards system to the NWS and non-NPT states:{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}-   truly comprehensive safeguards covering all nuclear material cannot apply in the NWS and non-NPT states while they have nuclear weapons and therefore will retain, outside verification, nuclear material existing at the FMCT's EIF;{--{"author":"Luc's AI","timestamp":1787602108175}@@
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
-    ++}-   the cost of verification on the comprehensive model in the NWS would be very high.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}-   truly comprehensive safeguards covering all nuclear material cannot apply in the NWS and non-NPT states while they have nuclear weapons and therefore will retain, outside verification, nuclear material existing at the FMCT's EIF;{--{"author":"Luc's AI","timestamp":1787602400772}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
+++}-   the cost of verification on the comprehensive model in the NWS would be very high.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}Taking these and related considerations into account,{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Australia{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}has concluded that a separate, distinct FMCT verification regime would be required for the NWS and non-NPT states. The FMCT commitment to be verified would be the same as that verified by IAEA safeguards in the NNWS - i.e. that fissile material is not being produced for nuclear weapons purposes – but the verification approach would be more appropriate to the circumstances of the NWS and non-NPT states.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Taking these and related considerations into account,{--{"author":"Luc's AI","timestamp":1787602400772}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@  
+++}Australia{--{"author":"Luc's AI","timestamp":1787602400772}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@  
+++}has concluded that a separate, distinct FMCT verification regime would be required for the NWS and non-NPT states. The FMCT commitment to be verified would be the same as that verified by IAEA safeguards in the NNWS - i.e. that fissile material is not being produced for nuclear weapons purposes – but the verification approach would be more appropriate to the circumstances of the NWS and non-NPT states.{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}Australia{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}has proposed a focused approach, involving:{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Australia{--{"author":"Luc's AI","timestamp":1787602400772}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@  
+++}has proposed a focused approach, involving:{--{"author":"Luc's AI","timestamp":1787602400772}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
 
-    ++}-   the monitoring of facilities that can produce fissile material (_production facilities_) – i.e. enrichment and reprocessing plants;{--{"author":"Luc's AI","timestamp":1787602108175}@@
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
-    ++}-   verification of fissile material subject to the FMCT (_subject material_) - separated plutonium, U-233, HEU and separated neptunium produced after EIF. This would require verification measures at downstream facilities handling these materials.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}-   the monitoring of facilities that can produce fissile material (_production facilities_) – i.e. enrichment and reprocessing plants;{--{"author":"Luc's AI","timestamp":1787602400772}@@
+--}{++{"author":"Luc's AI","timestamp":1787602400772}@@
+++}-   verification of fissile material subject to the FMCT (_subject material_) - separated plutonium, U-233, HEU and separated neptunium produced after EIF. This would require verification measures at downstream facilities handling these materials.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}In addition, the FMCT verification regime will need to include measures aimed at detection of possible undeclared production facilities - see below.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}In addition, the FMCT verification regime will need to include measures aimed at detection of possible undeclared production facilities - see below.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}### 5\. STOCKS{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 5\. STOCKS{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}A major issue - fundamental both to the substance of the FMCT and to the prospects of successful negotiation - is how to treat past production of fissile material, i.e. stocks existing at EIF.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}A major issue - fundamental both to the substance of the FMCT and to the prospects of successful negotiation - is how to treat past production of fissile material, i.e. stocks existing at EIF.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}The issue of stocks does not arise in the case of states which have accepted comprehensive safeguards under the NPT. All holdings of nuclear material in these states are subject to IAEA safeguards. The issue relates to those states which are outside comprehensive safeguards and have the capability to produce fissile material, i.e. the NWS and the non-NPT states.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The issue of stocks does not arise in the case of states which have accepted comprehensive safeguards under the NPT. All holdings of nuclear material in these states are subject to IAEA safeguards. The issue relates to those states which are outside comprehensive safeguards and have the capability to produce fissile material, i.e. the NWS and the non-NPT states.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}The term "stocks" can have a wide meaning, ranging from fissile material in weapons, to bulk material declared surplus to defence needs, and to civil stocks of fissile material. Essentially, the FMCT could not apply to all pre-existing stocks held by the NWS and the three non-NPT states, as this would amount to instant disarmament – clearly an unrealistic objective. The FMCT will cap future production, but it must be recognised that past production in the NWS and non-NPT states would be outside verification.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The term "stocks" can have a wide meaning, ranging from fissile material in weapons, to bulk material declared surplus to defence needs, and to civil stocks of fissile material. Essentially, the FMCT could not apply to all pre-existing stocks held by the NWS and the three non-NPT states, as this would amount to instant disarmament – clearly an unrealistic objective. The FMCT will cap future production, but it must be recognised that past production in the NWS and non-NPT states would be outside verification.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}If the parties so wished, however, the FMCT could contain a mechanism by which parties could place surplus and civil stocks under the treaty in accordance with the principle of irreversibility. Some parties may wish to do this as a mutual CBM.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}If the parties so wished, however, the FMCT could contain a mechanism by which parties could place surplus and civil stocks under the treaty in accordance with the principle of irreversibility. Some parties may wish to do this as a mutual CBM.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}### 6\. VERIFICATION METHODS{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 6\. VERIFICATION METHODS{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}It is envisaged that verification under the FMCT would comprise three basic elements: routine verification activities for declared facilities and material; verification activities aimed at detection of possible undeclared fissile material production; and complementary measures aimed at transparency and confidence-building.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}It is envisaged that verification under the FMCT would comprise three basic elements: routine verification activities for declared facilities and material; verification activities aimed at detection of possible undeclared fissile material production; and complementary measures aimed at transparency and confidence-building.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}**Declared activities** In concept this aspect would be very similar to IAEA safeguards. FMCT parties would be required to declare all relevant facilities – enrichment and reprocessing facilities, and downstream facilities handling subject material.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}**Declared activities** In concept this aspect would be very similar to IAEA safeguards. FMCT parties would be required to declare all relevant facilities – enrichment and reprocessing facilities, and downstream facilities handling subject material.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}Declared facilities would be monitored – through inspections, containment and surveillance, and other measures – to verify there is no undeclared production of fissile material, and that declared fissile material is not diverted to nuclear weapons (or purposes unknown).{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Declared facilities would be monitored – through inspections, containment and surveillance, and other measures – to verify there is no undeclared production of fissile material, and that declared fissile material is not diverted to nuclear weapons (or purposes unknown).{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}For enrichment plants, verification would be applied to all facilities, including those producing low enriched uranium (LEU), to ensure there is no undeclared production of HEU. In principle verification would not be applied to LEU – but in view of the advantages of LEU as a feedstock for undeclared HEU production, some verification measures for LEU may need to be considered, particularly in the case of states with smaller arsenals.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}For enrichment plants, verification would be applied to all facilities, including those producing low enriched uranium (LEU), to ensure there is no undeclared production of HEU. In principle verification would not be applied to LEU – but in view of the advantages of LEU as a feedstock for undeclared HEU production, some verification measures for LEU may need to be considered, particularly in the case of states with smaller arsenals.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}For reprocessing plants, verification would be applied to verify throughput. Verification would be applied to separated plutonium, and to facilities in which separated plutonium is present, sufficient to ensure the plutonium remains under treaty commitments. Verification would cease to apply once plutonium has been returned to a reactor as fuel and irradiated, since irradiated plutonium is of no further strategic value until it has been reprocessed.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}For reprocessing plants, verification would be applied to verify throughput. Verification would be applied to separated plutonium, and to facilities in which separated plutonium is present, sufficient to ensure the plutonium remains under treaty commitments. Verification would cease to apply once plutonium has been returned to a reactor as fuel and irradiated, since irradiated plutonium is of no further strategic value until it has been reprocessed.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}**Undeclared activities** Here, two broad forms of verification activity are envisaged: routine activities aimed at evaluating the completeness and correctness of FMCT declarations; and inspections based on suspicion of a breach of FMCT commitments.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}**Undeclared activities** Here, two broad forms of verification activity are envisaged: routine activities aimed at evaluating the completeness and correctness of FMCT declarations; and inspections based on suspicion of a breach of FMCT commitments.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}A major challenge for IAEA safeguards is the detection of undeclared nuclear facilities, particularly - because of the limited observable indicators - centrifuge enrichment facilities. In the past, for IAEA safeguards, techniques for the detection of undeclared facilities were limited, and detection of undeclared nuclear material was seen as the major indicator of the existence of undeclared facilities. Now, the increasing availability and capability of techniques for detection of undeclared facilities has led to a revolutionary change in safeguards. In the ongoing program to strengthen IAEA safeguards, emphasis is being given to detection of undeclared facilities.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}A major challenge for IAEA safeguards is the detection of undeclared nuclear facilities, particularly - because of the limited observable indicators - centrifuge enrichment facilities. In the past, for IAEA safeguards, techniques for the detection of undeclared facilities were limited, and detection of undeclared nuclear material was seen as the major indicator of the existence of undeclared facilities. Now, the increasing availability and capability of techniques for detection of undeclared facilities has led to a revolutionary change in safeguards. In the ongoing program to strengthen IAEA safeguards, emphasis is being given to detection of undeclared facilities.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}A whole suite of new measures is being established, including: more effective information collection and analysis (including sharing of intelligence information); satellite imagery; and - through the Additional Protocol - wide-ranging _complementary access_ to apply verification measures such as environmental sampling. Another technique under study is wide-area environmental monitoring – there is practical experience with this technique from UNSCOM/UNMOVIC activities in Iraq. It can be expected that methods similar to these would apply under the FMCT.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}A whole suite of new measures is being established, including: more effective information collection and analysis (including sharing of intelligence information); satellite imagery; and - through the Additional Protocol - wide-ranging _complementary access_ to apply verification measures such as environmental sampling. Another technique under study is wide-area environmental monitoring – there is practical experience with this technique from UNSCOM/UNMOVIC activities in Iraq. It can be expected that methods similar to these would apply under the FMCT.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}An issue raised for the FMCT is, how to recognise non-compliance. Since the NWS and non-NPT states have "undeclared material" – fissile material pre-existing EIF – how can it be determined whether particular material is the result of undeclared production post-EIF? There are techniques to resolve this question – nuclear material can be dated – but, as is increasingly the case with IAEA safeguards, the principal focus of FMCT verification to counter undeclared activities will be the detection of undeclared enrichment and reprocessing facilities.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}An issue raised for the FMCT is, how to recognise non-compliance. Since the NWS and non-NPT states have "undeclared material" – fissile material pre-existing EIF – how can it be determined whether particular material is the result of undeclared production post-EIF? There are techniques to resolve this question – nuclear material can be dated – but, as is increasingly the case with IAEA safeguards, the principal focus of FMCT verification to counter undeclared activities will be the detection of undeclared enrichment and reprocessing facilities.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}As with IAEA safeguards, detection of undeclared enrichment and reprocessing facilities will also be a challenge for FMCT verification – but in some respects the problem is more manageable for the FMCT, because of extensive intelligence information held by the relevant states on each other, and the limited motivation to cheat for states that have nuclear arsenals they consider adequate – and in some cases are actively reducing. The more difficult cases might be states with small arsenals -{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}India{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}and{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Pakistan{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}\- where bilateral CBMs could have an important role in complementing international verification.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}As with IAEA safeguards, detection of undeclared enrichment and reprocessing facilities will also be a challenge for FMCT verification – but in some respects the problem is more manageable for the FMCT, because of extensive intelligence information held by the relevant states on each other, and the limited motivation to cheat for states that have nuclear arsenals they consider adequate – and in some cases are actively reducing. The more difficult cases might be states with small arsenals -{--{"author":"Luc's AI","timestamp":1787602401619}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@  
+++}India{--{"author":"Luc's AI","timestamp":1787602401619}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@  
+++}and{--{"author":"Luc's AI","timestamp":1787602401619}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@  
+++}Pakistan{--{"author":"Luc's AI","timestamp":1787602401619}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@  
+++}\- where bilateral CBMs could have an important role in complementing international verification.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}Similar to the Additional Protocol, under FMCT the verification agency would have the right to request access to locations to resolve questions and inconsistencies arising from information analysis. In addition to access initiated by the verification agency, FMCT parties may require a verification mechanism they can initiate directly, along the lines of the CWC's challenge inspection mechanism.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Similar to the Additional Protocol, under FMCT the verification agency would have the right to request access to locations to resolve questions and inconsistencies arising from information analysis. In addition to access initiated by the verification agency, FMCT parties may require a verification mechanism they can initiate directly, along the lines of the CWC's challenge inspection mechanism.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}**National security aspects** The NWS and non-NPT states are concerned to protect national security and proliferation-sensitive information relating to past nuclear weapons programs and ongoing stockpile stewardship activities. Hence, verification methods and procedures will need to be carefully defined. Managed access provisions will be essential, probably elaborated in greater detail under the FMCT than in the Additional Protocol.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}**National security aspects** The NWS and non-NPT states are concerned to protect national security and proliferation-sensitive information relating to past nuclear weapons programs and ongoing stockpile stewardship activities. Hence, verification methods and procedures will need to be carefully defined. Managed access provisions will be essential, probably elaborated in greater detail under the FMCT than in the Additional Protocol.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}**Other verification methods, and transparency/confidence building measures** In addition to measures drawn from IAEA safeguards experience, other approaches that could be relevant to FMCT include "open skies" (flight corridors available for verification purposes), and bilateral or regional access arrangements. Such measures could have an important confidence-building role, complementing international verification, e.g. between{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}India{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}and{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Pakistan{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}, or in the Middle East.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}**Other verification methods, and transparency/confidence building measures** In addition to measures drawn from IAEA safeguards experience, other approaches that could be relevant to FMCT include "open skies" (flight corridors available for verification purposes), and bilateral or regional access arrangements. Such measures could have an important confidence-building role, complementing international verification, e.g. between{--{"author":"Luc's AI","timestamp":1787602401619}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@  
+++}India{--{"author":"Luc's AI","timestamp":1787602401619}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@  
+++}and{--{"author":"Luc's AI","timestamp":1787602401619}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@  
+++}Pakistan{--{"author":"Luc's AI","timestamp":1787602401619}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@  
+++}, or in the Middle East.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}Verification of HEU produced for naval propulsion This is often raised as a problem for the FMCT, because the design of naval fuel is highly classified. Appropriate verification is required to ensure this does not become a route for diversion. This is complex but not insurmountable – the Trilateral Initiative between the{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}US{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++},{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Russia{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}and the IAEA demonstrates the practicability of innovative approaches to verifying fissile material of sensitive composition, shape and mass.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Verification of HEU produced for naval propulsion This is often raised as a problem for the FMCT, because the design of naval fuel is highly classified. Appropriate verification is required to ensure this does not become a route for diversion. This is complex but not insurmountable – the Trilateral Initiative between the{--{"author":"Luc's AI","timestamp":1787602401619}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@  
+++}US{--{"author":"Luc's AI","timestamp":1787602401619}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@  
+++},{--{"author":"Luc's AI","timestamp":1787602401619}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@  
+++}Russia{--{"author":"Luc's AI","timestamp":1787602401619}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@  
+++}and the IAEA demonstrates the practicability of innovative approaches to verifying fissile material of sensitive composition, shape and mass.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}### 7\. VERIFICATION INTENSITY{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 7\. VERIFICATION INTENSITY{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}Although some of the methods of IAEA safeguards are readily applicable to FMCT verification, the treaty objectives are very different. This would be reflected in the design of the FMCT verification regime.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Although some of the methods of IAEA safeguards are readily applicable to FMCT verification, the treaty objectives are very different. This would be reflected in the design of the FMCT verification regime.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}Comprehensive safeguards are designed to provide assurance against horizontal proliferation, i.e. the acquisition of one or more nuclear weapons by a NNWS. The acquisition of just one or two nuclear weapons would be a dramatic change in the strategic status of such a state. The sensitivity of IAEA safeguards, reflected in technical parameters such as goal quantities (e.g. the _significant_ _quantity_ of 8 kg plutonium), detection probability, timeliness goals, and inspection frequency, has been set accordingly.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Comprehensive safeguards are designed to provide assurance against horizontal proliferation, i.e. the acquisition of one or more nuclear weapons by a NNWS. The acquisition of just one or two nuclear weapons would be a dramatic change in the strategic status of such a state. The sensitivity of IAEA safeguards, reflected in technical parameters such as goal quantities (e.g. the _significant_ _quantity_ of 8 kg plutonium), detection probability, timeliness goals, and inspection frequency, has been set accordingly.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}On the other hand, with states outside comprehensive safeguards, the concern is essentially vertical proliferation, i.e. additions to existing arsenals. The FMCT would address this by providing assurance that stocks of fissile material held outside international verification will not increase. For states that already hold nuclear weapons, their concern will be with treaty violations that could substantially alter strategic relativities: for states with thousands of weapons, a strategically significant violation might involve hundreds of weapons. Thus the design of verification approaches to deter vertical proliferation could be qualitatively different to those directed at horizontal proliferation.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}On the other hand, with states outside comprehensive safeguards, the concern is essentially vertical proliferation, i.e. additions to existing arsenals. The FMCT would address this by providing assurance that stocks of fissile material held outside international verification will not increase. For states that already hold nuclear weapons, their concern will be with treaty violations that could substantially alter strategic relativities: for states with thousands of weapons, a strategically significant violation might involve hundreds of weapons. Thus the design of verification approaches to deter vertical proliferation could be qualitatively different to those directed at horizontal proliferation.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}A major development in IAEA safeguards implementation is a move away from uniformity to safeguards based on a "state-level approach", taking into account appropriate state-specific considerations. This development remains a work in progress {--{"author":"Luc's AI","timestamp":1787602142028}@@[^34]--}{++{"author":"Luc's AI","timestamp":1787602142028}@@[^note-34]++} – but the concept is readily applicable in the FMCT context. Applying a risk-informed approach, decisions on verification intensity could take account of considerations such as the following.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}A major development in IAEA safeguards implementation is a move away from uniformity to safeguards based on a "state-level approach", taking into account appropriate state-specific considerations. This development remains a work in progress {--{"author":"Luc's AI","timestamp":1787602142028}@@[^34]--}{++{"author":"Luc's AI","timestamp":1787602142028}@@[^note-34]++} – but the concept is readily applicable in the FMCT context. Applying a risk-informed approach, decisions on verification intensity could take account of considerations such as the following.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}Since the NWS will retain military stocks outside the FMCT, it is reasonable to assume they have concluded, before joining the treaty, that those stocks are sufficient for their foreseeable needs. Hence they should have little incentive to cheat. This is especially the case for the{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}US{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}and{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Russia{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}, which are dramatically reducing nuclear weapon numbers and are committed to irreversibly transferring substantial quantities of fissile material out of weapons programs. In these circumstances rigorous verification is not required. On the other hand, for states with small arsenals, verification intensity will need to reflect the fact that small-scale violations could have a serious effect on strategic relativities.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Since the NWS will retain military stocks outside the FMCT, it is reasonable to assume they have concluded, before joining the treaty, that those stocks are sufficient for their foreseeable needs. Hence they should have little incentive to cheat. This is especially the case for the{--{"author":"Luc's AI","timestamp":1787602401619}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@  
+++}US{--{"author":"Luc's AI","timestamp":1787602401619}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@  
+++}and{--{"author":"Luc's AI","timestamp":1787602401619}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@  
+++}Russia{--{"author":"Luc's AI","timestamp":1787602401619}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@  
+++}, which are dramatically reducing nuclear weapon numbers and are committed to irreversibly transferring substantial quantities of fissile material out of weapons programs. In these circumstances rigorous verification is not required. On the other hand, for states with small arsenals, verification intensity will need to reflect the fact that small-scale violations could have a serious effect on strategic relativities.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}### 8\. CONCLUSIONS{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}### 8\. CONCLUSIONS{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}The US,{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}Russia{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}, France and{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}UK{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}have announced cessation of fissile material production for nuclear weapons, and it is understood{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}China{--{"author":"Luc's AI","timestamp":1787602108175}@@  
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-    ++}has also ceased such production. The FMCT would make an important contribution to nuclear non-proliferation, by formalising this situation and making it irreversible. A further important contribution would be capping the fissile material available in the non-NPT states, which are otherwise under no restraint. The FMCT would also help establish conditions under which further nuclear disarmament, involving all relevant states, would be possible – a significant consideration in the context of the NPT review process.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}The US,{--{"author":"Luc's AI","timestamp":1787602401619}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@  
+++}Russia{--{"author":"Luc's AI","timestamp":1787602401619}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@  
+++}, France and{--{"author":"Luc's AI","timestamp":1787602401619}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@  
+++}UK{--{"author":"Luc's AI","timestamp":1787602401619}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@  
+++}have announced cessation of fissile material production for nuclear weapons, and it is understood{--{"author":"Luc's AI","timestamp":1787602401619}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@  
+++}China{--{"author":"Luc's AI","timestamp":1787602401619}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@  
+++}has also ceased such production. The FMCT would make an important contribution to nuclear non-proliferation, by formalising this situation and making it irreversible. A further important contribution would be capping the fissile material available in the non-NPT states, which are otherwise under no restraint. The FMCT would also help establish conditions under which further nuclear disarmament, involving all relevant states, would be possible – a significant consideration in the context of the NPT review process.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}To achieve these benefits will require the treaty to be effective, and this requires a credible verification regime. There is a substantial foundation to build on, drawing on experience from IAEA safeguards and bilateral verification arrangements.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}To achieve these benefits will require the treaty to be effective, and this requires a credible verification regime. There is a substantial foundation to build on, drawing on experience from IAEA safeguards and bilateral verification arrangements.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}Undue delay in concluding a normative treaty can be avoided by separating negotiation of the principal treaty from negotiation of the verification system. The latter would be a largely technical negotiation, which can commence in parallel with the principal negotiation but be concluded subsequently.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Undue delay in concluding a normative treaty can be avoided by separating negotiation of the principal treaty from negotiation of the verification system. The latter would be a largely technical negotiation, which can commence in parallel with the principal negotiation but be concluded subsequently.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}Whether a particular verification regime provides the degree of assurance required by the parties - hence is considered "effective" - is a matter for judgment, based on many factors: the verification objectives; the verification methods and standards; related CBMs; other information (including intelligence) available to the parties; incentives/deterrents reinforcing compliance; and so on. Only when we have defined the objectives and main features of FMCT verification will it be possible to design the verification system and to judge whether it will be sufficiently effective – but there seems no in-principle reason why this should not be the case.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}Whether a particular verification regime provides the degree of assurance required by the parties - hence is considered "effective" - is a matter for judgment, based on many factors: the verification objectives; the verification methods and standards; related CBMs; other information (including intelligence) available to the parties; incentives/deterrents reinforcing compliance; and so on. Only when we have defined the objectives and main features of FMCT verification will it be possible to design the verification system and to judge whether it will be sufficiently effective – but there seems no in-principle reason why this should not be the case.{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}---{--{"author":"Luc's AI","timestamp":1787602108175}@@
+++}---{--{"author":"Luc's AI","timestamp":1787602401619}@@
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602401619}@@
 
-    ++}John Carlson is Director General, Australian Safeguards and Non-Proliferation Office. He is also Chairman of SAGSI, the IAEA's Standing Advisory Group on Safeguards Implementation. This paper reflects the personal views of the author and does not necessarily represent the views of the Australian Government, nor of SAGSI.
+++}John Carlson is Director General, Australian Safeguards and Non-Proliferation Office. He is also Chairman of SAGSI, the IAEA's Standing Advisory Group on Safeguards Implementation. This paper reflects the personal views of the author and does not necessarily represent the views of the Australian Government, nor of SAGSI.
 
 {--{"author":"Luc's AI","timestamp":1787602108828}@@\[1\]
 
