@@ -1290,7 +1290,7 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}The drafters of INFCIRC/153 recognised the importance of avoiding an unrealistically high standard of proof. This is shown by the use of qualitative language – "purposes unknown" [^28] and "not able to verify" [^29] – that allows for application of judgment to deal with ambiguous or inconclusive situations.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}The drafters of INFCIRC/153 recognised the importance of avoiding an unrealistically high standard of proof. This is shown by the use of qualitative language – "purposes unknown" {--{"author":"Luc's AI","timestamp":1787602139376}@@[^28]--}{++{"author":"Luc's AI","timestamp":1787602139376}@@[^note-28]++} and "not able to verify" {--{"author":"Luc's AI","timestamp":1787602139376}@@[^29]--}{++{"author":"Luc's AI","timestamp":1787602139376}@@[^note-29]++} – that allows for application of judgment to deal with ambiguous or inconclusive situations.{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
@@ -1322,7 +1322,7 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}An essential issue for the IAEA to determine is the range of verification activities needed for effective investigation of the non-compliant state's nuclear activities. It is most unlikely that verification under the INFCIRC/153 agreement alone will suffice. At the least, the IAEA is likely to require access and information in accordance with the Additional Protocol (AP), so if the state doesn't have an AP in place the Board may need to require equivalent measures. Indeed, there are arguments whether the standard AP is sufficient to deal with non-compliance, or the IAEA may need further measures – what has been termed "the AP plus" – possibly under authority from the Security Council [^30].{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}An essential issue for the IAEA to determine is the range of verification activities needed for effective investigation of the non-compliant state's nuclear activities. It is most unlikely that verification under the INFCIRC/153 agreement alone will suffice. At the least, the IAEA is likely to require access and information in accordance with the Additional Protocol (AP), so if the state doesn't have an AP in place the Board may need to require equivalent measures. Indeed, there are arguments whether the standard AP is sufficient to deal with non-compliance, or the IAEA may need further measures – what has been termed "the AP plus" – possibly under authority from the Security Council {--{"author":"Luc's AI","timestamp":1787602139926}@@[^30].--}{++{"author":"Luc's AI","timestamp":1787602139926}@@[^note-30].++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
@@ -1358,7 +1358,7 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}Negotiation of a fissile material cut-off treaty (FMCT) has been blocked for several years by the failure of the Conference on Disarmament (CD) to agree on its program of work. At this stage therefore we can only speculate about the likely substantive provisions of an FMCT. The negotiating mandate for the CD, drawn from a 1993 UN General Assembly Resolution [^31], has the following elements:{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}Negotiation of a fissile material cut-off treaty (FMCT) has been blocked for several years by the failure of the Conference on Disarmament (CD) to agree on its program of work. At this stage therefore we can only speculate about the likely substantive provisions of an FMCT. The negotiating mandate for the CD, drawn from a 1993 UN General Assembly Resolution {--{"author":"Luc's AI","timestamp":1787602140437}@@[^31],--}{++{"author":"Luc's AI","timestamp":1787602140437}@@[^note-31],++} has the following elements:{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
@@ -1470,11 +1470,11 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
     --}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
         ++}and{--{"author":"Luc's AI","timestamp":1787602108175}@@  
     --}{++{"author":"Luc's AI","timestamp":1787602108175}@@  
-        ++}Pakistan [^32].{--{"author":"Luc's AI","timestamp":1787602108175}@@
+        ++}Pakistan {--{"author":"Luc's AI","timestamp":1787602140917}@@[^32].--}{++{"author":"Luc's AI","timestamp":1787602140917}@@[^note-32].++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}NNWS party to the NPT are already committed not to produce or use nuclear material for weapons purposes, and to accept IAEA safeguards on all their nuclear material and activities to verify this commitment (_comprehensive_ safeguards [^33]). In principle therefore the FMCT should not involve any additional commitments from NNWS that are implementing both an NPT safeguards agreement and an Additional Protocol. The principal effect of the FMCT - and its verification task - relate mainly to the NWS and the non-NPT states.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}NNWS party to the NPT are already committed not to produce or use nuclear material for weapons purposes, and to accept IAEA safeguards on all their nuclear material and activities to verify this commitment (_comprehensive_ safeguards {--{"author":"Luc's AI","timestamp":1787602141508}@@[^33]).--}{++{"author":"Luc's AI","timestamp":1787602141508}@@[^note-33]).++} In principle therefore the FMCT should not involve any additional commitments from NNWS that are implementing both an NPT safeguards agreement and an Additional Protocol. The principal effect of the FMCT - and its verification task - relate mainly to the NWS and the non-NPT states.{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
@@ -1642,7 +1642,7 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}A major development in IAEA safeguards implementation is a move away from uniformity to safeguards based on a "state-level approach", taking into account appropriate state-specific considerations. This development remains a work in progress [^34] – but the concept is readily applicable in the FMCT context. Applying a risk-informed approach, decisions on verification intensity could take account of considerations such as the following.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}A major development in IAEA safeguards implementation is a move away from uniformity to safeguards based on a "state-level approach", taking into account appropriate state-specific considerations. This development remains a work in progress {--{"author":"Luc's AI","timestamp":1787602142028}@@[^34]--}{++{"author":"Luc's AI","timestamp":1787602142028}@@[^note-34]++} – but the concept is readily applicable in the FMCT context. Applying a risk-informed approach, decisions on verification intensity could take account of considerations such as the following.{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
@@ -1846,4 +1846,4 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 .--}{++{"author":"Luc's AI","timestamp":1787602126593}@@[^note-34]:++} For a discussion of some ideas in this area see _Assessing Motivation as a Means of Determining the Risk of Proliferation_, Annette Berriman, Russell Leslie and John Carlson, 2004 Annual Meeting of the Institute of Nuclear Materials Management.
 
-[^27]: . See J Carlson, R Leslie and A Berriman, _Nuclear Weaponisation Activities:_ _What is the Role of IAEA Safeguards?_, Annual Meeting of Institute of Nuclear Materials Management,Nashville, 16 ‑ 20 July 2006.
+{--{"author":"Luc's AI","timestamp":1787602142540}@@[^27]:--}{++{"author":"Luc's AI","timestamp":1787602142540}@@[^note-27]:++} . See J Carlson, R Leslie and A Berriman, _Nuclear Weaponisation Activities:_ _What is the Role of IAEA Safeguards?_, Annual Meeting of Institute of Nuclear Materials Management,Nashville, 16 ‑ 20 July 2006.
