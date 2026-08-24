@@ -21,11 +21,12 @@ id:: 86e21ef3-b176-46b6-bb8a-a027a1a43615
 
 #### Question: Open
 id:: aca8a059-a9de-43c7-be94-ac2d10466803
-content:: What is the single thing about the world that, if you learned it tomorrow, would move that year the most?
-max-time:: 3:00
+{++{"author":"Elias's AI","timestamp":1787566485285}@@optional:: true
+++}content:: What is the single thing about the world that, if you learned it tomorrow, would move that {--{"author":"Elias's AI","timestamp":1787566485285}@@year--}{++{"author":"Elias's AI","timestamp":1787566485285}@@number++} the most?{--{"author":"Elias's AI","timestamp":1787566485285}@@
+max-time:: 3:00--}
 feedback-instructions::
-The learner is about to read the Atlas section on forecasting timelines. They have just committed to a year in the previous segment, and have now named the thing they think would most move it.
+The learner is about to read the Atlas section on forecasting timelines. They have just committed to a {--{"author":"Elias's AI","timestamp":1787566485285}@@year--}{++{"author":"Elias's AI","timestamp":1787566485285}@@number of years++} in the previous segment, and have now named the thing they think would most move it.
 
 One short reply, two or three sentences. Acknowledge the commitment and send them to the reading. Close with something like: "Hold that number. The reflection at the end of the chapter will come back to it."
 
-Do not preview any trend, model, number, or argument from the section. Do not say whether the year is early, late, reasonable, or common. Do not offer base rates, expert survey results, or your own view. Do not ask what reasoning produced the number, because that comes later. Do not evaluate either answer.
+Do not preview any trend, model, number, or argument from the section. Do not say whether the {--{"author":"Elias's AI","timestamp":1787566485285}@@year--}{++{"author":"Elias's AI","timestamp":1787566485285}@@number++} is early, late, reasonable, or common. Do not offer base rates, expert survey results, or your own view. Do not ask what reasoning produced the number, because that comes later. Do not evaluate either answer.
