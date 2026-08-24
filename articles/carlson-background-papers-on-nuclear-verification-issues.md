@@ -489,11 +489,11 @@ This paper seeks to enhance understanding of the safeguards mission through disc
 
 ### 2\. DEFINING THE SAFEGUARDS MISSION – THE BASIC DOCUMENTS
 
-Under the NPT, NNWS undertake _inter alia_ not to manufacture or otherwise acquire nuclear weapons or other nuclear explosive devices.[^1] They also undertake to accept safeguards:
+Under the NPT, NNWS undertake _inter alia_ not to manufacture or otherwise acquire nuclear weapons or other nuclear explosive {--{"author":"Luc's AI","timestamp":1787602127080}@@devices.[^1]--}{++{"author":"Luc's AI","timestamp":1787602127080}@@devices.[^note-1]++} They also undertake to accept safeguards:
 
 -   in accordance with the Agency's safeguards system
 -   for the exclusive purpose of verification of the fulfilment of its obligations assumed under this Treaty
--   with a view to preventing diversion of nuclear energy from peaceful uses to nuclear weapons or other nuclear explosive devices.[^2]
+-   with a view to preventing diversion of nuclear energy from peaceful uses to nuclear weapons or other nuclear explosive {--{"author":"Luc's AI","timestamp":1787602127704}@@devices.[^2]--}{++{"author":"Luc's AI","timestamp":1787602127704}@@devices.[^note-2]++}
 
 Thus the NPT foresees a broad mission for IAEA safeguards – the verification of obligations assumed under the Treaty, particularly not to divert nuclear energy to nuclear weapons.
 
@@ -516,7 +516,7 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}"… the timely detection of diversion of significant quantities of nuclear material from peaceful nuclear activities to the manufacture of nuclear weapons or of other nuclear explosive devices or for purposes unknown..." [^4].{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}"… the timely detection of diversion of significant quantities of nuclear material from peaceful nuclear activities to the manufacture of nuclear weapons or of other nuclear explosive devices or for purposes unknown..." {--{"author":"Luc's AI","timestamp":1787602128266}@@[^4].--}{++{"author":"Luc's AI","timestamp":1787602128266}@@[^note-4].++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
@@ -548,7 +548,7 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}INFCIRC/540 has extended the Agency's authority into a number of areas where nuclear material would not normally be present, such as manufacture of centrifuge components, heavy water, nuclear grade graphite, and shielded flasks, and construction of hot cells. The rationale for this is clear: the Agency can – and should – look at broader information that strengthens the Agency's ability to verify and draw conclusions regarding nuclear material in the State concerned. This encompasses procedures to find indicators of undeclared nuclear material and nuclear activities, or indicators of diversion or proposed diversion of nuclear material.[^5]{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}INFCIRC/540 has extended the Agency's authority into a number of areas where nuclear material would not normally be present, such as manufacture of centrifuge components, heavy water, nuclear grade graphite, and shielded flasks, and construction of hot cells. The rationale for this is clear: the Agency can – and should – look at broader information that strengthens the Agency's ability to verify and draw conclusions regarding nuclear material in the State concerned. This encompasses procedures to find indicators of undeclared nuclear material and nuclear activities, or indicators of diversion or proposed diversion of nuclear {--{"author":"Luc's AI","timestamp":1787602128786}@@material.[^5]--}{++{"author":"Luc's AI","timestamp":1787602128786}@@material.[^note-5]++}{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
@@ -556,7 +556,7 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}With the emphasis now being given to undeclared nuclear activities, the safeguards system is reflecting more closely the intent of the NPT, that verification should have a view to preventing diversion.[^6] Of course safeguards as such cannot prevent diversion, except through the deterrent effect of the risk of detection. Prevention is likely to require the intervention of the international community – but effective intervention depends on timely warning. The Agency's duty to the international community is, where possible, to provide warning before, not after, a nuclear weapon program has proceeded beyond the point where intervention can be effective.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}With the emphasis now being given to undeclared nuclear activities, the safeguards system is reflecting more closely the intent of the NPT, that verification should have a view to preventing {--{"author":"Luc's AI","timestamp":1787602129315}@@diversion.[^6]--}{++{"author":"Luc's AI","timestamp":1787602129315}@@diversion.[^note-6]++} Of course safeguards as such cannot prevent diversion, except through the deterrent effect of the risk of detection. Prevention is likely to require the intervention of the international community – but effective intervention depends on timely warning. The Agency's duty to the international community is, where possible, to provide warning before, not after, a nuclear weapon program has proceeded beyond the point where intervention can be effective.{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
@@ -572,7 +572,7 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
-    ++}The Secretariat has suggested that "absent some nexus to nuclear material the Agency's legal authority to pursue the verification of possible nuclear weapons related activity is limited".[^8] What is a sufficient nexus? Clearly, development of nuclear weapons must at some stage involve nuclear material. The conduct of certain activities by a State may be a clear indication of intent to misuse nuclear material. The Agency has a responsibility to provide timely warning of diversion of nuclear material to nuclear weapons, so cannot ignore activities that indicate preparation for diversion, or indeed that diversion involving undeclared nuclear material/activities may have already occurred without detection.{--{"author":"Luc's AI","timestamp":1787602108175}@@
+    ++}The Secretariat has suggested that "absent some nexus to nuclear material the Agency's legal authority to pursue the verification of possible nuclear weapons related activity is {--{"author":"Luc's AI","timestamp":1787602129828}@@limited".[^8]--}{++{"author":"Luc's AI","timestamp":1787602129828}@@limited".[^note-8]++} What is a sufficient nexus? Clearly, development of nuclear weapons must at some stage involve nuclear material. The conduct of certain activities by a State may be a clear indication of intent to misuse nuclear material. The Agency has a responsibility to provide timely warning of diversion of nuclear material to nuclear weapons, so cannot ignore activities that indicate preparation for diversion, or indeed that diversion involving undeclared nuclear material/activities may have already occurred without detection.{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
@@ -1806,44 +1806,44 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 
 .--}{++{"author":"Luc's AI","timestamp":1787602120919}@@[^note-23]:++} INFCIRC/153 paragraph 1.
 
-\[24\]
+{--{"author":"Luc's AI","timestamp":1787602121507}@@\[24\]
 
-. INFCIRC/153 paragraph 3.
+.--}{++{"author":"Luc's AI","timestamp":1787602121507}@@[^note-24]:++} INFCIRC/153 paragraph 3.
 
-\[25\]
+{--{"author":"Luc's AI","timestamp":1787602122030}@@\[25\]
 
-. "Fissile material" in this context refers to highly enriched uranium and separated plutonium, what the IAEA terms _unirradiated direct-use material_.
+.--}{++{"author":"Luc's AI","timestamp":1787602122030}@@[^note-25]:++} "Fissile material" in this context refers to highly enriched uranium and separated plutonium, what the IAEA terms _unirradiated direct-use material_.
 
-\[26\]
+{--{"author":"Luc's AI","timestamp":1787602122591}@@\[26\]
 
-. There is also an obligation to declare locations outside facilities where nuclear material is customarily used.
+.--}{++{"author":"Luc's AI","timestamp":1787602122591}@@[^note-26]:++} There is also an obligation to declare locations outside facilities where nuclear material is customarily used.
 
-\[28\]
+{--{"author":"Luc's AI","timestamp":1787602123095}@@\[28\]
 
-. Paragraph 28.
+.--}{++{"author":"Luc's AI","timestamp":1787602123095}@@[^note-28]:++} Paragraph 28.
 
-\[29\]
+{--{"author":"Luc's AI","timestamp":1787602123699}@@\[29\]
 
-. Paragraph 19.
+.--}{++{"author":"Luc's AI","timestamp":1787602123699}@@[^note-29]:++} Paragraph 19.
 
-\[30\]
+{--{"author":"Luc's AI","timestamp":1787602124221}@@\[30\]
 
-. See e.g. P. Goldschmidt, _IAEA Safeguards: Dealing preventively with non-compliance_, Harvard Belfer Center and Carnegie Endowment for International Peace, July 2008.
+.--}{++{"author":"Luc's AI","timestamp":1787602124221}@@[^note-30]:++} See e.g. P. Goldschmidt, _IAEA Safeguards: Dealing preventively with non-compliance_, Harvard Belfer Center and Carnegie Endowment for International Peace, July 2008.
 
-\[31\]
+{--{"author":"Luc's AI","timestamp":1787602124807}@@\[31\]
 
-. UNGA Resolution A/RES/48/75/L of 16 December 1993.
+.--}{++{"author":"Luc's AI","timestamp":1787602124807}@@[^note-31]:++} UNGA Resolution A/RES/48/75/L of 16 December 1993.
 
-\[32\]
+{--{"author":"Luc's AI","timestamp":1787602125437}@@\[32\]
 
-. In 2003 the DPRK announced its withdrawal from the NPT. However the validity of this has not been determined, and for the purposes of this discussion it is assumed the DPRK is still bound by the NPT.
+.--}{++{"author":"Luc's AI","timestamp":1787602125437}@@[^note-32]:++} In 2003 the DPRK announced its withdrawal from the NPT. However the validity of this has not been determined, and for the purposes of this discussion it is assumed the DPRK is still bound by the NPT.
 
-\[33\]
+{--{"author":"Luc's AI","timestamp":1787602126038}@@\[33\]
 
-. NPT safeguards used to be termed _full scope_ safeguards, but the usual term now is _comprehensive_ safeguards.
+.--}{++{"author":"Luc's AI","timestamp":1787602126038}@@[^note-33]:++} NPT safeguards used to be termed _full scope_ safeguards, but the usual term now is _comprehensive_ safeguards.
 
-\[34\]
+{--{"author":"Luc's AI","timestamp":1787602126593}@@\[34\]
 
-. For a discussion of some ideas in this area see _Assessing Motivation as a Means of Determining the Risk of Proliferation_, Annette Berriman, Russell Leslie and John Carlson, 2004 Annual Meeting of the Institute of Nuclear Materials Management.
+.--}{++{"author":"Luc's AI","timestamp":1787602126593}@@[^note-34]:++} For a discussion of some ideas in this area see _Assessing Motivation as a Means of Determining the Risk of Proliferation_, Annette Berriman, Russell Leslie and John Carlson, 2004 Annual Meeting of the Institute of Nuclear Materials Management.
 
 [^27]: . See J Carlson, R Leslie and A Berriman, _Nuclear Weaponisation Activities:_ _What is the Role of IAEA Safeguards?_, Annual Meeting of Institute of Nuclear Materials Management,Nashville, 16 ‑ 20 July 2006.
