@@ -1,13 +1,11 @@
 ---
-id: {--{"author":"Course Author's AI","timestamp":1787572051169}@@'ccaed5cd-6097-4191-8a5f-1c6ac6e18393'--}{++{"author":"Course Author's AI","timestamp":1787572051169}@@'ccaed5cd-6097-4191-8a5f-1c6ac6e18393'++}
+id: 'ccaed5cd-6097-4191-8a5f-1c6ac6e18393'
 title: "Bonus: The Philosophy of Autonomy Loss"
-{++{"author":"Course Author's AI","timestamp":1787572051169}@@reading_minutes: 5
+reading_minutes: 5
 tutor_minutes: 10
-++}tldr: "Optional deep-dive: {--{"author":"Course Author's AI","timestamp":1787572051169}@@How--}{++{"author":"Course Author's AI","timestamp":1787572051169}@@how++} skill atrophy connects to gradual disempowerment through the lens of autonomy. Krook argues that even well-aligned AI poses a hidden {--{"author":"Course Author's AI","timestamp":1787572051169}@@existential risk—the--}{++{"author":"Course Author's AI","timestamp":1787572051169}@@risk: the++} slow decline of human autonomy."
-summary_for_tutor: "Optional bonus lens for Unit 3 of 'Thinking about Thinking'. Presents Krook's philosophical argument connecting individual skill atrophy to gradual disempowerment. {++{"author":"Course Author's AI","timestamp":1787572051169}@@The claim the core course makes of this paper: autonomy, not machine rebellion, is the missing link between individual skill loss and societal disempowerment. ++}Key moves: autonomy loss as the underappreciated risk; conservatorship analogy; why this is not an alignment problem; the tipping point where human decision-making becomes 'illogical'. {++{"author":"Course Author's AI","timestamp":1787572051169}@@This is a conceptual argument, not an empirical study. ++}Three tutor questions draw out the philosophical bridge between skill loss and societal-level disempowerment."
-{--{"author":"Course Author's AI","timestamp":1787572458291}@@tags:
-  - wip
---}---
+tldr: "Optional deep-dive: how skill atrophy connects to gradual disempowerment through the lens of autonomy. Krook argues that even well-aligned AI poses a hidden risk: the slow decline of human autonomy."
+summary_for_tutor: "Optional bonus lens for Unit 3 of 'Thinking about Thinking'. Presents Krook's philosophical argument connecting individual skill atrophy to gradual disempowerment. The claim the core course makes of this paper: autonomy, not machine rebellion, is the missing link between individual skill loss and societal disempowerment. Key moves: autonomy loss as the underappreciated risk; conservatorship analogy; why this is not an alignment problem; the tipping point where human decision-making becomes 'illogical'. This is a conceptual argument, not an empirical study. Three tutor questions draw out the philosophical bridge between skill loss and societal-level disempowerment."
+---
 
 #### Text
 content::
@@ -19,36 +17,29 @@ So far, you have seen evidence that individual skills can atrophy when offloaded
 
 What connects these two levels? Joshua Krook (2025) argues that the missing link is autonomy.
 
-Krook's central claim: The biggest threat is not that machines become more like humans, but that humans become more like {--{"author":"Course Author's AI","timestamp":1787572069558}@@machines—losing--}{++{"author":"Course Author's AI","timestamp":1787572069558}@@machines, losing++} the capacity for independent decision-making, creativity, and leadership.
+Krook's central claim: The biggest threat is not that machines become more like humans, but that humans become more like machines, losing the capacity for independent decision-making, creativity, and leadership.
 
-Read the {--{"author":"Course Author's AI","timestamp":1787572069558}@@excerpts below.--}{++{"author":"Course Author's AI","timestamp":1787572069558}@@excerpt below from the paper itself.++} Pay attention to three key moves:
+Read the excerpt below from the paper itself. Pay attention to three key moves:
 1. The conservatorship analogy: Even a benevolent guardian making objectively better decisions constitutes a real loss of autonomy
 2. The tipping point: When AI outcompetes humans, it becomes "illogical" to rely on human judgement
 3. Why this is not an alignment problem: Even well-aligned AI causes this outcome
 
-%% Note: This is a philosophical argument paper, not an empirical study. Its contribution is the conceptual bridge between skill atrophy and gradual disempowerment. %%{--{"author":"Course Author's AI","timestamp":1787572069558}@@
+%% Note: This is a philosophical argument paper, not an empirical study. Its contribution is the conceptual bridge between skill atrophy and gradual disempowerment. %%
 
------}
-
-#### {--{"author":"Course Author's AI","timestamp":1787572069558}@@Text
-content::--}{++{"author":"Course Author's AI","timestamp":1787572069558}@@Article++}
-{--{"author":"Course Author's AI","timestamp":1787572069558}@@\## Krook's Core Argument
-
-Here is the abstract of Krook's paper in full:
-
-> Abstract: AI--}{++{"author":"Course Author's AI","timestamp":1787572069558}@@source:: [[../articles/krook-when-autonomy-breaks-the-hidden-existential-risk-of-ai]]
-from:: Abstract:AI++} risks are typically framed around physical threats to{--{"author":"Course Author's AI","timestamp":1787572069558}@@ humanity, a loss of control or an accidental error causing humanity's extinction. However, I argue in line with the gradual disempowerment thesis, that there is an underappreciated risk in the slow and irrevocable decline of human autonomy. As AI starts to outcompete humans in various areas of life, a tipping point will be reached where it no longer makes sense to rely on human decision-making, creativity, social care or even leadership. What may follow is a process of gradual de-skilling, where we lose skills that we currently take for granted. Traditionally, it is argued that AI will gain human skills over time, and that these skills are innate and immutable in humans. By contrast, I argue that --}{++{"author":"Course Author's AI","timestamp":1787572069558}@@ humanity
-to:: ++}humans{--{"author":"Course Author's AI","timestamp":1787572069558}@@ may lose such skills as critical thinking, decision-making and even social care in an AGI world. The biggest threat to humanity is therefore not that machines--} will become more like{--{"author":"Course Author's AI","timestamp":1787572069558}@@ humans, but that humans will become more like machines.--}{++{"author":"Course Author's AI","timestamp":1787572069558}@@ machines.
+#### Article
+source:: [[../articles/krook-when-autonomy-breaks-the-hidden-existential-risk-of-ai]]
+from:: Abstract:AI risks are typically framed around physical threats to humanity
+to:: humans will become more like machines.
 
 #### Text
 content::
-\## Krook's Core Argument++}
+\## Krook's Core Argument
 
 Three key moves to pay attention to:
 
 1. **The conservatorship analogy**: Krook uses legal conservatorship (with the Britney Spears case as an example) to illustrate that even a benevolent guardian making objectively better decisions constitutes a real loss of autonomy and personhood.
 
-2. **The tipping point**: When AI outcompetes humans, it becomes "illogical" to rely on human judgement. This is not because humans become {--{"author":"Course Author's AI","timestamp":1787572069558}@@worse—their --}{++{"author":"Course Author's AI","timestamp":1787572069558}@@worse (their ++}skills may stay the {--{"author":"Course Author's AI","timestamp":1787572069558}@@same—but--}{++{"author":"Course Author's AI","timestamp":1787572069558}@@same), but++} because AI becomes so much better.
+2. **The tipping point**: When AI outcompetes humans, it becomes "illogical" to rely on human judgement. This is not because humans become worse (their skills may stay the same), but because AI becomes so much better.
 
 3. **Why this is not an alignment problem**: Even well-aligned AI causes this outcome because it is locally rational for humans to keep ceding autonomy for better outcomes.
 
@@ -60,7 +51,7 @@ content::
 
 Krook uses legal conservatorship (with the Britney Spears case as an example) to illustrate autonomy loss. Even when a guardian makes objectively better decisions for someone, it still constitutes a real loss of autonomy and personhood.
 
-How does this apply to AI? If an AI system consistently makes better medical diagnoses, legal judgments, or financial decisions than humans, what is {--{"author":"Course Author's AI","timestamp":1787572188836}@@lost—even--}{++{"author":"Course Author's AI","timestamp":1787572188836}@@lost, even++} if the AI is benevolent and well-aligned?
+How does this apply to AI? If an AI system consistently makes better medical diagnoses, legal judgments, or financial decisions than humans, what is lost, even if the AI is benevolent and well-aligned?
 
 assessment-instructions:: The student is exploring Krook's conservatorship analogy and its application to AI autonomy loss. This is an optional bonus discussion, not assessed.
 
@@ -80,9 +71,9 @@ Response length: 120-200 words per reply.
 content::
 \## Question 2: The Tipping Point
 
-Krook argues that a tipping point will be reached where it becomes "illogical" to rely on human decision-making, creativity, social care, or leadership. This is not because humans become {--{"author":"Course Author's AI","timestamp":1787572215005}@@worse—their--}{++{"author":"Course Author's AI","timestamp":1787572215005}@@worse (their++} skills may stay the {--{"author":"Course Author's AI","timestamp":1787572215005}@@same—but--}{++{"author":"Course Author's AI","timestamp":1787572215005}@@same), but++} because AI becomes so much better.
+Krook argues that a tipping point will be reached where it becomes "illogical" to rely on human decision-making, creativity, social care, or leadership. This is not because humans become worse (their skills may stay the same), but because AI becomes so much better.
 
-Think about a skill you have already offloaded to AI or technology. Now imagine AI becomes 10x better than humans at that task, across all domains. What would it mean to insist on human judgement then? Would it be {--{"author":"Course Author's AI","timestamp":1787572215005}@@rational—or--}{++{"author":"Course Author's AI","timestamp":1787572215005}@@rational, or++} stubborn?
+Think about a skill you have already offloaded to AI or technology. Now imagine AI becomes 10x better than humans at that task, across all domains. What would it mean to insist on human judgement then? Would it be rational, or stubborn?
 
 assessment-instructions:: The student is engaging with Krook's tipping point argument. This explores the tension between rationality and autonomy.
 
@@ -92,7 +83,7 @@ Key tensions to surface:
 - The irreversibility problem: once skills atrophy, they may not return
 - Structural dependence: not choosing to defer, but having no alternative
 
-Conversation style: Socratic. Help the student articulate the tension. There is no right {--{"author":"Course Author's AI","timestamp":1787572219812}@@answer—the--}{++{"author":"Course Author's AI","timestamp":1787572219812}@@answer; the++} goal is to feel the problem. After 3-4 exchanges, move to Question 3.
+Conversation style: Socratic. Help the student articulate the tension. There is no right answer; the goal is to feel the problem. After 3-4 exchanges, move to Question 3.
 
 Response length: 120-200 words per reply.
 
@@ -102,7 +93,7 @@ Response length: 120-200 words per reply.
 content::
 \## Question 3: The Philosophical Bridge
 
-Krook's argument connects individual skill atrophy to gradual disempowerment at the societal level. His claim: skill atrophy creates structural dependence, and structural dependence makes gradual disempowerment {--{"author":"Course Author's AI","timestamp":1787572228423}@@inevitable—not--}{++{"author":"Course Author's AI","timestamp":1787572228423}@@likely, not++} through malice, but through local rationality.
+Krook's argument connects individual skill atrophy to gradual disempowerment at the societal level. His claim: skill atrophy creates structural dependence, and structural dependence makes gradual disempowerment likely, not through malice, but through local rationality.
 
 Do you think skill atrophy at the individual level makes gradual disempowerment at the societal level more likely? Why or why not?
 
