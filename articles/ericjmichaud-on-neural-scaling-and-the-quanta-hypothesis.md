@@ -42,7 +42,7 @@ Over the last two years, I have been thinking a lot about that paper and its ide
 
 What are neural networks doing internally, and what happens when we scale them up?
 
-Note: People mean different things when they talk about "scaling" these days. In this post, I am just focused on understanding pretraining scaling. But even if posttraining scaling will be more important for improving AI capabilities going forward than scaling pretraining, I suspect that the discussion here will still be relevant, and that further progress on our ability to pretrain on a wide distribution of data will have a role to play in improving AI capabilities over the coming years. Alternatively, if pretraining has essentially plateaued, we ought to be curious about _why_ it has and what it means for what comes next.
+{--{"author":"AI","timestamp":1787562077914}@@Note:--}{++{"author":"AI","timestamp":1787562077914}@@::note[Note:++} People mean different things when they talk about "scaling" these days. In this post, I am just focused on understanding pretraining scaling. But even if posttraining scaling will be more important for improving AI capabilities going forward than scaling pretraining, I suspect that the discussion here will still be relevant, and that further progress on our ability to pretrain on a wide distribution of data will have a role to play in improving AI capabilities over the coming years. Alternatively, if pretraining has essentially plateaued, we ought to be curious about _why_ it has and what it means for what comes {--{"author":"AI","timestamp":1787562077914}@@next.--}{++{"author":"AI","timestamp":1787562077914}@@next.]++}
 
 ## The theory: "quanta" of learning
 
