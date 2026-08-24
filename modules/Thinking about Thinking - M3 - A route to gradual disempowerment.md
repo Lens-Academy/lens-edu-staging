@@ -6,9 +6,7 @@ tags:
   - wip
 ---
 
-{++{"author":"Course Author's AI","timestamp":1787571948718}@@%% Core path, about 60 minutes total: 4 + 9 + 10 + 12 + 10 + 10 + 5. %%
-
-++}# Lens:
+# Lens:
 source:: [[../Lenses/ToT M3 - Gradual Disempowerment - PQ]]
 
 # Lens:
