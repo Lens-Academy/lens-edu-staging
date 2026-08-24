@@ -25,7 +25,7 @@ We want to build safe, aligned artificial general intelligence (AGI) systems tha
 
 ![](https://lh3.googleusercontent.com/Bp0bDSeGT9IbcFp2f0pBCGAz4Ci3kKtBb-sUhXd7bEYrrzXlGISRWT5oKatw3tOEH8rmXy5v4-ORMJVJWqvc55saD6_NJVDe0Jap7R4w=w1440-rw-lo)
 
-S1 represents the initial state, A1 represents the agent’s decision (square), S2 the next state. R2 is the agent’s reward/utility (diamond). Solid links specify causal influence. Dashed edges specify information links – what the agent knows when making its decision.
+{--{"author":"AI","timestamp":1787568458222}@@S1--}{++{"author":"AI","timestamp":1787568458222}@@_S1++} represents the initial state, A1 represents the agent’s decision (square), S2 the next state. R2 is the agent’s reward/utility (diamond). Solid links specify causal influence. Dashed edges specify information links – what the agent knows when making its {--{"author":"AI","timestamp":1787568458222}@@decision.--}{++{"author":"AI","timestamp":1787568458222}@@decision._++}
 
 By relating training setups to the incentives that shape agent behaviour, CIDs help illuminate potential risks before training an agent and can inspire better agent designs. But how do we know when a CID is an accurate model of a training setup?
 
