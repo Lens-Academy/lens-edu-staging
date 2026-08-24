@@ -22,9 +22,9 @@ to:: "conditions that increase the likelihood that AI substitutes for careful an
 #### Question
 content::
 \## Your turn
-In your own words, what is the core idea of this reading? Then say what it means for how you use AI, and for your metacognition — your awareness and control of your own thinking.
+In your own words, what is the core idea of this reading? Then say what it means for how you use AI, and for your {--{"author":"Course Author's AI","timestamp":1787572269912}@@metacognition —--}{++{"author":"Course Author's AI","timestamp":1787572269912}@@metacognition:++} your awareness and control of your own thinking.
 
-assessment-instructions:: The student has just read Bednar and colleagues (2025) in Unit 3 of 'Thinking about Thinking' — the first of six paper lenses after the evidence introduction — and is now reflecting on it. This is a single reflective question, not the unit's synthesis phase: draw out their grasp of the core idea and its implications for AI use and metacognition; do not run a multi-turn socratic sequence here.
+assessment-instructions:: The student has just read Bednar and colleagues (2025) in Unit 3 of 'Thinking about Thinking' {--{"author":"Course Author's AI","timestamp":1787572269912}@@— the first of six paper lenses after the --}{++{"author":"Course Author's AI","timestamp":1787572269912}@@as an optional ++}evidence {--{"author":"Course Author's AI","timestamp":1787572269912}@@introduction —--}{++{"author":"Course Author's AI","timestamp":1787572269912}@@lens,++} and is now reflecting on it. This is a single reflective question, not the unit's synthesis phase: draw out their grasp of the core idea and its implications for AI use and metacognition; do not run a multi-turn socratic sequence here.
 
 Key idea to check they grasped:
 - AI used during early synthesis improved law students' written analysis (roughly 50 to 70 percent) and later no-AI performance; but AI used during revision of already-strong work regressed it
