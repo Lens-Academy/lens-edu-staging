@@ -1,7 +1,7 @@
 ---
 id: '3298cbce-c5aa-4d1b-8220-fba3379899fa'
 slug: tot-m3
-title: "Is Cognitive Offloading Risky?"
+title: {--{"author":"Leo's AI","timestamp":1787567440419}@@"Is Cognitive Offloading Risky?"--}{++{"author":"Leo's AI","timestamp":1787567440419}@@"A Route to Gradual Disempowerment"++}
 tags:
   - wip
 ---
