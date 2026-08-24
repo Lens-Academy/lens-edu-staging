@@ -25,7 +25,7 @@ source:: [[../Lenses/ToT M3 - {--{"author":"Leo's AI","timestamp":1787567340769}
 source:: [[../Lenses/ToT M3 - {--{"author":"Leo's AI","timestamp":1787567340769}@@Paper - Lee (Microsoft)]]--}{++{"author":"Leo's AI","timestamp":1787567340769}@@Gradual Disempowerment]]
 
 # Lens:
-source:: [[../Lenses/ToT M3 - Recap]]++}
+source:: [[../Lens Edu/Archive/ToT M3 - Recap (superseded)]]++}
 
 # {++{"author":"Leo's AI","timestamp":1787567340769}@@Submodule: Evidence Library (optional, learner-auditable)
 # ++}Lens:
@@ -63,8 +63,8 @@ optional:: true
 hide:: true++}
 
 # Lens:
-source:: [[../Lenses/ToT M3 - The Philosophy of Autonomy Loss]]{--{"author":"Leo's AI","timestamp":1787567340769}@@
+source:: [[../Lens Edu/Archive/ToT M3 - The Philosophy of Autonomy Loss (superseded)]]{--{"author":"Leo's AI","timestamp":1787567340769}@@
 
 # Lens:--}
-{--{"author":"Leo's AI","timestamp":1787567340769}@@source:: [[../Lenses/ToT M3 - Recap]]--}{++{"author":"Leo's AI","timestamp":1787567340769}@@optional:: true
+{--{"author":"Leo's AI","timestamp":1787567340769}@@source:: [[../Lens Edu/Archive/ToT M3 - Recap (superseded)]]--}{++{"author":"Leo's AI","timestamp":1787567340769}@@optional:: true
 hide:: true++}
