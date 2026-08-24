@@ -14,9 +14,11 @@ source:: [[../articles/AI Safety Atlas - Risks - Risk Decomposition|Risk Decompo
 id:: 2a50455e-0b64-42a3-98f3-75afe6fcf860
 optional:: true
 content::
-This section defines catastrophic risks as those reaching roughly 10 percent of the global population, and says they generally do not prevent eventual recovery or adaptation. A later paragraph then places catastrophic and existential risks together, calling higher-severity risks irreversible mistakes with permanent consequences.
+{--{"author":"Elias's AI","timestamp":1787567351547}@@This--}{++{"author":"Elias's AI","timestamp":1787567351547}@@The++} section{--{"author":"Elias's AI","timestamp":1787567351547}@@ defines catastrophic--}{++{"author":"Elias's AI","timestamp":1787567351547}@@ sorts++} risks {--{"author":"Elias's AI","timestamp":1787567351547}@@as those reaching roughly 10 percent of the global population, --}{++{"author":"Elias's AI","timestamp":1787567351547}@@two ways, by cause and by severity, ++}and says {--{"author":"Elias's AI","timestamp":1787567351547}@@they generally do not prevent eventual recovery or adaptation. A later paragraph then places catastrophic and existential risks together, calling higher-severity risks irreversible mistakes with permanent consequences.
 
-Do those two levels belong in the same category, and what changes if you separate them?
+Do those two levels belong in the same category, --}{++{"author":"Elias's AI","timestamp":1787567351547}@@no single categorisation is best.
+
+Which of the two cuts do you find more useful for deciding what to work on, ++}and {--{"author":"Elias's AI","timestamp":1787567351547}@@what changes if you separate them?--}{++{"author":"Elias's AI","timestamp":1787567351547}@@why that one?++}
 feedback-instructions::
 The learner has just read the AI Safety Atlas section "Risk Decomposition" and written a reflection. This is a reflection, not a test. There is no answer you are checking against, and you should not tell them whether they got it right.
 
