@@ -1,4 +1,4 @@
-{++{"author":"Luc's AI","timestamp":1787591633301}@@---
+{++{"author":"Luc's AI","timestamp":1787591644987}@@---
 tags:
   - validator-ignore
 ---
@@ -111,13 +111,13 @@ Rules:
 - Follow each eval's own guidance for uncertain cases; if it gives none and
   you are genuinely uncertain after applying its boundary, choose PASS
   (evals flag defects; uncertainty is not a defect).
-- If the file has a question but no assessment-instructions at all, C1/C2/C3
+- If the file has a question but no assessment-instructions at all, C2/C3
   are fail with note "no rubric".
 - Multiple questions/rubrics: a question/rubric check fails if any instance fails.
 
 Return ONLY this JSON:
 {"path": "...",
- "checks": {"A1": "pass|fail", "A2": "...", "B1": "...", "C1": "...", "C2": "...", "C3": "..."},
+ "checks": {"A1": "pass|fail", "A2": "...", "B1": "...", "C2": "...", "C3": "..."},
  "notes":  {"<id>": "<one line, fails only>"},
  "evidence": {"<id>": "<short verbatim quote, fails only>"}}
 ```
