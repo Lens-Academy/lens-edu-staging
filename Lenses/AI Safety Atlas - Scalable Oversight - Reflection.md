@@ -16,7 +16,8 @@ add_to_ai_context:
 ---
 
 #### Text
-content::
+{++{"author":"Elias's AI","timestamp":1787566601555}@@optional:: true
+++}content::
 Two prompts to close the chapter. No right answers.
 
 #### Question: Open
