@@ -68,7 +68,7 @@ Some near-variants of this story which account for a lot of the probability mass
 
 ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/8wBN8cdNAv3c7vt6p/fanz9fazhzz9mhom2y4s)
 
-“Baby peacock”: those pretty little things with the fanned-out tails are not-at-all what baby peacocks look like, they’re a central example of AI slop. (I personally took this screenshot this morning, so it’s definitely real.) Crucially, if you’ve never seen a baby peacock before, they’re not obviously wrong, and there’s not an easy way to figure out which are real vs fake without somebody at some point looking at an actual physical peacock. Alas, we will not have the opportunity to look at an actual physical superintelligence before we need to solve its alignment problem in order to not die.
+{--{"author":"AI","timestamp":1787568425747}@@“Baby--}{++{"author":"AI","timestamp":1787568425747}@@_“Baby++} peacock”: those pretty little things with the fanned-out tails are not-at-all what baby peacocks look like, they’re a central example of AI slop. (I personally took this screenshot this morning, so it’s definitely real.) Crucially, if you’ve never seen a baby peacock before, they’re not obviously wrong, and there’s not an easy way to figure out which are real vs fake without somebody at some point looking at an actual physical peacock. Alas, we will not have the opportunity to look at an actual physical superintelligence before we need to solve its alignment problem in order to not {--{"author":"AI","timestamp":1787568425747}@@die.--}{++{"author":"AI","timestamp":1787568425747}@@die._++}
 
 # Failure To Generalize
 
