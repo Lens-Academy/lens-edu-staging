@@ -1,4 +1,4 @@
-{++{"author":"Course Author's AI","timestamp":1787572407230}@@---
+---
 id: '6ef1c4be-96af-4ceb-8fb3-fd21867ca258'
 title: "When AI Helps and When It Harms"
 duration_minutes: 12
@@ -51,4 +51,4 @@ What not to do: run a multi-turn sequence; introduce the other studies; over-lec
 > The full Bednar law-student study: design, numbers, and limits.
 
 ::card[[../Lenses/ToT M3 - Paper - Budzyn (Doctor Study)]]
-> The full Budzyń endoscopist study: the 6.0-point drop and what it does and does not show.++}
+> The full Budzyń endoscopist study: the 6.0-point drop and what it does and does not show.
