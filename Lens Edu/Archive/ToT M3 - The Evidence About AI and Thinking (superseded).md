@@ -30,7 +30,7 @@ The readings that follow each present one study. One shows help, several show ha
 Bednar and colleagues (2025) ran a randomised study with about 100 Minnesota law students. When students used AI during the synthesis phase of a legal task, the quality of their written analysis improved by roughly 50 to 70 percent and they finished faster. Students who used AI earlier in the process also did better later on a follow-up task done without AI. But there is a sharp twist: when students used AI during the revision phase, it helped the weaker memos and regressed the stronger ones. The AI made good work worse. Read the summary below, and watch for that result.
 
 #### Article
-source:: [[../articles/bednar-does-ai-make-lawyers-worse-at-thinking-new-research-offers-a-more-complicated-answer]]
+source:: [[../../articles/bednar-does-ai-make-lawyers-worse-at-thinking-new-research-offers-a-more-complicated-answer]]
 from:: "Since the public release of ChatGPT in 2022, a growing body of empirical research has suggested that generative AI systems could fundamentally reshape the practice of law."
 to:: "conditions that increase the likelihood that AI substitutes for careful analysis rather than supporting it."
 
@@ -41,7 +41,7 @@ content::
 Budzyń and colleagues (2025), in *Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy* (a multicentre observational study), found that after endoscopists were exposed to AI-assisted polyp detection, their adenoma detection rate on standard, non-AI colonoscopy fell 6.0 percentage points, from 28.4% to 22.4%. These are real patient outcomes, not self-reports. The drop appeared on procedures done without the AI, which is the worrying part.
 
 #### Article
-source:: [[../articles/budzy-endoscopist-deskilling-risk-after-exposure-to-artificial-intelligence-in-colonoscopy-a-multicentre-observational-study]]
+source:: [[../../articles/budzy-endoscopist-deskilling-risk-after-exposure-to-artificial-intelligence-in-colonoscopy-a-multicentre-observational-study]]
 from:: "Between Sept 8, 2021, and March 9, 2022, 1443 patients underwent non-AI assisted colonoscopy before (n=795) and after (n=648) the introduction of AI"
 to:: "In multivariable logistic regression analysis, exposure to AI (odds ratio"
 
@@ -54,7 +54,7 @@ content::
 Gerlich (2025) surveyed 666 UK participants using validated critical thinking assessments including the Halpern Critical Thinking Assessment. Regression analysis showed AI tool use negatively predicts critical thinking scores (beta = -1.76, p < 0.001), mediated by increased cognitive offloading. Younger participants showed the strongest pattern: higher AI dependence, lower critical thinking scores. A formal correction was later published for this study, noting the reliance on self-reported critical thinking practices.
 
 #### Article
-source:: [[../articles/gerlich-2025-ai-tools-in-society]]
+source:: [[../../articles/gerlich-2025-ai-tools-in-society]]
 from:: "This study investigates the relationship between AI tool usage and critical thinking skills, focusing on cognitive offloading as a mediating factor."
 to:: "These results highlight the potential cognitive costs of AI tool reliance, emphasising the need for educational strategies that promote critical engagement with AI technologies."
 
@@ -65,7 +65,7 @@ content::
 Lee and colleagues at Microsoft Research (2025) tracked 319 knowledge workers across 936 examples of GenAI use. Higher confidence in AI was associated with lower critical thinking and vice versa. The study documented a shift in task type: AI use moves workers from generative tasks such as knowledge recall, comprehension, and synthesis toward reviewer tasks such as verification and integration. That is a move down Bloom's taxonomy of cognitive skills. You will see why this matters in Unit 4.
 
 #### Article
-source:: [[../articles/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers]]
+source:: [[../../articles/microsoft-the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers]]
 from:: "We survey 319 knowledge workers"
 to:: "information verification, response integration, and task stewardship."
 
@@ -76,7 +76,7 @@ content::
 Roxana Seifer's survey of 299 UK workers (2026) found similar self-reported patterns: 56% felt confident after a quick review, 45% chose the AI's answer over their own, 47% checked AI output less than a colleague's work, and 41% found tasks harder without AI. Daily users showed the strongest effects. This was a self-published, self-reported survey, so its patterns are warning signs, not proof of cause and effect.
 
 #### Article
-source:: [[../articles/seifer-could-cognitive-dependency-be-an-early-warning-sign-of-gradual-disempowerment]]
+source:: [[../../articles/seifer-could-cognitive-dependency-be-an-early-warning-sign-of-gradual-disempowerment]]
 from:: "The study found evidence that AI may be affecting how employees approach cognitive tasks:"
 to:: "Daily users reported the strongest patterns across all four items."
 
@@ -88,7 +88,7 @@ content::
 Not everyone reads this as loss. Gutoreva and colleagues (2025) take the Extended Mind position: a tool you rely on can become a real part of your thinking, not a replacement for it. The line that matters is between using AI as an assistive instrument and treating it as an authoritative source. When AI performs the full epistemic labour, the risk of disempowerment rises. Read their position below.
 
 #### Article
-source:: [[../articles/gutoreva-position-ai-as-part-of-self-extending-the-mind-requires-cognitive-co-regulation]]
+source:: [[../../articles/gutoreva-position-ai-as-part-of-self-extending-the-mind-requires-cognitive-co-regulation]]
 from:: "Artificial Intelligence (AI) systems must be modeled as integral components of human cognition, and that safety and alignment are best achieved through cognitive co-regulation rather than external constraint."
 to:: "Managing this integration requires operational frameworks that account for metacognition and epistemic authority"
 

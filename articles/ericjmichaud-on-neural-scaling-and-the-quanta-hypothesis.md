@@ -52,7 +52,7 @@ The most important fact about neural scaling is that network performance, in the
 
 ![](https://ericjmichaud.com/quanta/assets/kaplan-scaling.png)
 
-Figure 1 of [Kaplan et al. (2020)](https://arxiv.org/abs/2001.08361), showing neural scaling laws for language models w.r.t. compute, data, and number of network parameters. When network size is large (not a bottleneck), then loss scales with $D$, the number of tokens in the training corpus as $L(D) \propto D^{-0.095}$. When data is not the bottleneck, then loss scales with $N$, the number of (non-embedding) parameters in the network, as $L(N) \propto N^{-0.076}$. Each of these are power laws in $D$ and $N$ respectively. The total compute used to train the network is $C \propto N \times D$, and with an optimal choice of $N$ and $D$ for a given compute budget $C$, loss scales with compute as a power law too: $L(C) \propto C^{-0.050}$.
+{--{"author":"AI","timestamp":1787568243767}@@Figure--}{++{"author":"AI","timestamp":1787568243767}@@_Figure++} 1 of [Kaplan et al. (2020)](https://arxiv.org/abs/2001.08361), showing neural scaling laws for language models w.r.t. compute, data, and number of network parameters. When network size is large (not a bottleneck), then loss scales with $D$, the number of tokens in the training corpus as $L(D) \propto D^{-0.095}$. When data is not the bottleneck, then loss scales with $N$, the number of (non-embedding) parameters in the network, as $L(N) \propto N^{-0.076}$. Each of these are power laws in $D$ and $N$ respectively. The total compute used to train the network is $C \propto N \times D$, and with an optimal choice of $N$ and $D$ for a given compute budget $C$, loss scales with compute as a power law too: $L(C) \propto {--{"author":"AI","timestamp":1787568243767}@@C^{-0.050}$.--}{++{"author":"AI","timestamp":1787568243767}@@C^{-0.050}$._++}
 
 It is fascinating that there is this kind of predictable order to neural network performance. As in thermodynamics, where the macroscopic behavior of systems of many particles is predictable (e.g. doubling the temperature of a gas doubles its pressure), the macroscopic properties of neural networks, _systems of many parameters_, vary predictably too. While scaling laws like this are fairly [ubiquitous](https://www.amazon.com/Scale-Universal-Innovation-Sustainability-Organisms/dp/1594205582) in nature, it is striking that modeling human language, a task so complex and perhaps indicative of _intelligence_, would also be so predictable.
 
@@ -62,12 +62,12 @@ While network performance in the aggregate, as measured by the mean cross-entrop
 
 ![](https://ericjmichaud.com/quanta/assets/emergent-abilities-figure2.png)
 
-Figure 2 of [Wei et al. (2022)](https://arxiv.org/abs/2206.07682), showing "emergent" abilities of large language models, where performance is negligible below some threshold of scale and then jumps up after some critical scale.
+{--{"author":"AI","timestamp":1787568247497}@@Figure--}{++{"author":"AI","timestamp":1787568247497}@@_Figure++} 2 of [Wei et al. (2022)](https://arxiv.org/abs/2206.07682), showing "emergent" abilities of large language models, where performance is negligible below some threshold of scale and then jumps up after some critical {--{"author":"AI","timestamp":1787568247497}@@scale.--}{++{"author":"AI","timestamp":1787568247497}@@scale._++}
 
   
 ![](https://ericjmichaud.com/quanta/assets/predictability-and-surprise-emergence.png)
 
-Figure 2 of [Ganguli et al. (2022)](https://arxiv.org/abs/2202.07785), showing some additional LLM emergent abilities. This figure compiles data from [Brown et al. (2020)](https://arxiv.org/abs/2005.14165), [Rae et al. (2021)](https://arxiv.org/abs/2112.11446), and [Austin et al. (2021)](https://arxiv.org/abs/2108.07732).
+{--{"author":"AI","timestamp":1787568250248}@@Figure--}{++{"author":"AI","timestamp":1787568250248}@@_Figure++} 2 of [Ganguli et al. (2022)](https://arxiv.org/abs/2202.07785), showing some additional LLM emergent abilities. This figure compiles data from [Brown et al. (2020)](https://arxiv.org/abs/2005.14165), [Rae et al. (2021)](https://arxiv.org/abs/2112.11446), and [Austin et al. {--{"author":"AI","timestamp":1787568250248}@@(2021)](https://arxiv.org/abs/2108.07732).--}{++{"author":"AI","timestamp":1787568250248}@@(2021)](https://arxiv.org/abs/2108.07732)._++}
 
 One fun example of an emergent ability was demonstrated in the original [GPT-4 release live demo](https://www.youtube.com/live/outcGtbnMuQ?si=tD6szkozKx-sEfDB) back in March 2023, when Greg Brockman showed that GPT-4 could write a summary of an article using only words starting with the letter 'G'. Greg also gave GPT-3.5 this task, and it failed completely.
 
@@ -75,13 +75,13 @@ Sharp transitions in language model performance can also be observed over the co
 
 ![](https://ericjmichaud.com/quanta/assets/induction-phase-change-anthropic.png)
 
-Figure from ["In-context Learning and Induction Heads"](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html#multiple-levels-of-analysis) showing that the "prefix matching score" jumps sharply during transformer training, as long as the model has at least two self-attention layers.
+{--{"author":"AI","timestamp":1787568252857}@@Figure--}{++{"author":"AI","timestamp":1787568252857}@@_Figure++} from ["In-context Learning and Induction Heads"](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html#multiple-levels-of-analysis) showing that the "prefix matching score" jumps sharply during transformer training, as long as the model has at least two self-attention {--{"author":"AI","timestamp":1787568252857}@@layers.--}{++{"author":"AI","timestamp":1787568252857}@@layers._++}
 
 These sorts of "phase changes" are somewhat common (though not necessarily universal) when training neural networks on algorithmic tasks (tasks that can be solved by short Turing machines). Neel Nanda documented several of these [in his post on grokking](https://www.lesswrong.com/posts/N6WM6hs7RQMKDhYjB/a-mechanistic-interpretability-analysis-of-grokking). One clear example, which I found when playing around with these sorts of tasks, is the particularly sharp transition exhibited by transformers trained to classify whether strings are palindromes, where loss plateaus at 1 bit of cross-entropy and then drops suddenly:
 
 ![](https://ericjmichaud.com/quanta/assets/palindromes-transformer.png)
 
-Learning curve for a 5-layer GPT-2 style transformer trained to output whether the sequence seen so far is a palindrome.
+{--{"author":"AI","timestamp":1787568255603}@@Learning--}{++{"author":"AI","timestamp":1787568255603}@@_Learning++} curve for a 5-layer GPT-2 style transformer trained to output whether the sequence seen so far is a {--{"author":"AI","timestamp":1787568255603}@@palindrome.--}{++{"author":"AI","timestamp":1787568255603}@@palindrome._++}
 
 It feels like there is some tension between the smoothness of neural scaling laws and the discreteness of emergent abilities. To understand this tension, let us consider another model of neural scaling, that of [Sharma & Kaplan (2020)](https://arxiv.org/abs/2004.10802).
 
@@ -213,7 +213,7 @@ The experiment for the plot above generated batches in an online manner, with a 
 
 ![](https://ericjmichaud.com/quanta/assets/parameters-steps-data-emergence-and-scaling-scalingtop.png)
 
-Figure 2 of [The Quantization Model of Neural Scaling](https://arxiv.org/abs/2303.13506), showing scaling behavior on the multitask sparse parity datasets. The top plots show how mean loss scales with parameters (proportional to network width here), steps, and training set size, and the bottom plots show how scaling decomposes by subtask. We see that as we scale up network size, steps, and data, the network achieves $\approx 0$ loss on more and more subtasks, roughly in order of their frequency.
+{--{"author":"AI","timestamp":1787568258344}@@Figure--}{++{"author":"AI","timestamp":1787568258344}@@_Figure++} 2 of [The Quantization Model of Neural Scaling](https://arxiv.org/abs/2303.13506), showing scaling behavior on the multitask sparse parity datasets. The top plots show how mean loss scales with parameters (proportional to network width here), steps, and training set size, and the bottom plots show how scaling decomposes by subtask. We see that as we scale up network size, steps, and data, the network achieves $\approx 0$ loss on more and more subtasks, roughly in order of their {--{"author":"AI","timestamp":1787568258344}@@frequency.--}{++{"author":"AI","timestamp":1787568258344}@@frequency._++}
 
 In line with the quanta model above, we see that tasks are learned roughly in descending order of frequency in all regimes of scaling. As we train larger and larger networks (left), we get roughly power law scaling in mean loss (top left), and this averages over a bunch of discrete transitions as loss is brought from 1 bit of cross-entropy down to 0 bits of cross-entropy on an increasing number of tasks (bottom left). A similar story applies to multi-epoch data scaling (right).
 
@@ -237,7 +237,7 @@ Below, I show some examples of curves with different scaling behavior w.r.t. net
 
 ![](https://ericjmichaud.com/quanta/assets/monogenic-polygenic2.png)
 
-Some cherry-picked per-token scaling curves. The token highlighted in red is the token which the networks are tasked with predicting from the context and which we report the loss on.
+{--{"author":"AI","timestamp":1787568261283}@@Some--}{++{"author":"AI","timestamp":1787568261283}@@_Some++} cherry-picked per-token scaling curves. The token highlighted in red is the token which the networks are tasked with predicting from the context and which we report the loss {--{"author":"AI","timestamp":1787568261283}@@on.--}{++{"author":"AI","timestamp":1787568261283}@@on._++}
 
 If we assume the quanta hypothesis, then samples that have smooth scaling behavior, showing improvement at multiple scales, must be benefitting from multiple quanta that are learned at different scales. We call such samples "polygenic", in an analogy to how polygenic traits are influenced by multiple genes. When samples show improvement at only one scale, we assume they are "monogenic", involving a single quantum.
 
@@ -253,7 +253,7 @@ What is apparent from looking at a large number of per-token training curves is 
 
 ![](https://ericjmichaud.com/quanta/assets/space-of-curves1.png) ![](https://ericjmichaud.com/quanta/assets/space-of-curves2.png) ![](https://ericjmichaud.com/quanta/assets/space-of-curves3.png)
 
-Per-token training curves for the Pythia models show diverse behavior. Across the [interactive plot](https://ericjmichaud.com/llm-curve-visualization), we can see phase transitions, inverse scaling, and other behaviors in different regions of the scatter plot.
+{--{"author":"AI","timestamp":1787568264694}@@Per-token--}{++{"author":"AI","timestamp":1787568264694}@@_Per-token++} training curves for the Pythia models show diverse behavior. Across the [interactive plot](https://ericjmichaud.com/llm-curve-visualization), we can see phase transitions, inverse scaling, and other behaviors in different regions of the scatter {--{"author":"AI","timestamp":1787568264694}@@plot.--}{++{"author":"AI","timestamp":1787568264694}@@plot._++}
 
 For the theory, it perhaps would have been ideal if all per-token scaling curves exhibited sharp drops. Instead, we observe that lots of per-token scaling curves have smoother scaling behavior. To reconcile this with the quanta hypothesis, we must assume that most samples are somewhat polygenic. This seems like a reasonable assumption to me—for lots of tokens, it makes sense that lots of different heuristics could be involved in predicting that token. However, I also worry that we are adding epicycles to the theory, and it may instead be more parsimonious to reconsider our basic assumption of discreteness. I will continue with this discussion in the [section below on emergence](#emergent-abilities), and also in a [later discussion on the role of noise in these experiments](#noisy-transitions).
 
@@ -269,15 +269,15 @@ Spectral clustering computes the cosine similarity between all pairs of gradient
 
 ![](https://ericjmichaud.com/quanta/assets/similarity-matrix-and-rank-frequency-envelope.png)
 
-Left: a small section of the pairwise similarity matrix between language model gradients. Gradients are approximately orthogonal on most samples, but samples that may use similar mechanisms have gradients with nontrivial similarity. Right: Cluster sizes vs. cluster rank (the y axis should say cluster size instead of cluster frequency). Our theory predicts that cluster sizes would decay as a power law.
+{--{"author":"AI","timestamp":1787568267793}@@Left:--}{++{"author":"AI","timestamp":1787568267793}@@_Left:++} a small section of the pairwise similarity matrix between language model gradients. Gradients are approximately orthogonal on most samples, but samples that may use similar mechanisms have gradients with nontrivial similarity. Right: Cluster sizes vs. cluster rank (the y axis should say cluster size instead of cluster frequency). Our theory predicts that cluster sizes would decay as a power {--{"author":"AI","timestamp":1787568267793}@@law.--}{++{"author":"AI","timestamp":1787568267793}@@law._++}
 
 This method identifies lots of interesting clusters. Here are five samples from a couple of the most interesting clusters:
 
 ![](https://ericjmichaud.com/quanta/assets/quanta-examples.png)
 
-Figure 1 of [The Quantization Model of Neural Scaling](https://arxiv.org/abs/2303.13506).
+{--{"author":"AI","timestamp":1787568270882}@@Figure--}{++{"author":"AI","timestamp":1787568270882}@@_Figure++} 1 of [The Quantization Model of Neural {--{"author":"AI","timestamp":1787568270882}@@Scaling](https://arxiv.org/abs/2303.13506).--}{++{"author":"AI","timestamp":1787568270882}@@Scaling](https://arxiv.org/abs/2303.13506)._++}
 
-The token highlighted in red is the token on which the model's loss was backprop'ed on. On the left, we see a cluster of tokens that all involve predicting a number to continue a numerical sequence. This cluster has revealed a basic LLM skill: counting! Even small language models learn this skill, since it is so common to see numbered lists in text on the internet. On the right, we see a separate cluster of newlines being predicted by the model. What these samples have in common is that they are newlines in line-length-limited text. This corresponds to the skill of counting the length of lines, and then predicting a newline to maintain the length of the previous lines [^5]!
+{--{"author":"AI","timestamp":1787568270882}@@The--}{++{"author":"AI","timestamp":1787568270882}@@_The++} token highlighted in red is the token on which the model's loss was backprop'ed on. On the left, we see a cluster of tokens that all involve predicting a number to continue a numerical sequence. This cluster has revealed a basic LLM skill: counting! Even small language models learn this skill, since it is so common to see numbered lists in text on the internet. On the right, we see a separate cluster of newlines being predicted by the model. What these samples have in common is that they are newlines in line-length-limited text. This corresponds to the skill of counting the length of lines, and then predicting a newline to maintain the length of the previous lines {--{"author":"AI","timestamp":1787568270882}@@[^5]!--}{++{"author":"AI","timestamp":1787568270882}@@[^5]!_++}
 
 These examples are cherry picked. Some of the clusters are totally incoherent, and most of the rest reflect much simpler patterns. Here is an interactive webpage for visualizing all the clusters:
 
@@ -315,7 +315,7 @@ Within a week of our preprint being released in March 2023, Simon et al. release
 
 ![](https://ericjmichaud.com/quanta/assets/simon-ssl.png)
 
-Figure 1 of ["On the Stepwise Nature of Self-Supervised Learning"](https://arxiv.org/abs/2303.15438) by Simon et al. (2023), showing learning dynamics that proceed as a series of discrete steps.
+{--{"author":"AI","timestamp":1787568273853}@@Figure--}{++{"author":"AI","timestamp":1787568273853}@@_Figure++} 1 of ["On the Stepwise Nature of Self-Supervised Learning"](https://arxiv.org/abs/2303.15438) by Simon et al. (2023), showing learning dynamics that proceed as a series of discrete {--{"author":"AI","timestamp":1787568273853}@@steps.--}{++{"author":"AI","timestamp":1787568273853}@@steps._++}
 
 **Yasaman Bahri et al. (2021):** Another important piece of prior work is ["Explaining Neural Scaling Laws"](https://arxiv.org/abs/2102.06701) by Bahri et al., who essentially try to unify the "approximating a function defined on a manifold" picture of Sharma and Kaplan (2020) with the kernel picture we've just discussed. This conversation is subtle and probably deserves a separate post. But they refer to a result from Weyl (1912) that relates the eigenspectrum of kernels to the dimension of the manifold they are defined on. Via this argument, there may be a way of unifying the "resolving a function on a manifold" view and the "learning proceeds in a series of steps" view, although it is still possible that much of what real-world LLMs do is somehow not captured by this theory—their experiments are only on vision datasets, and not on language.
 
@@ -347,7 +347,7 @@ which encourages the SAE to reconstruct activations using as few feature directi
 
 ![](https://ericjmichaud.com/quanta/assets/ant-code-error-feature.png)
 
-Figure from ["Scaling Monosemanticity" by Templeton et al.](https://transformer-circuits.pub/2024/scaling-monosemanticity/), showing positions where a "Code error" feature fires.
+{--{"author":"AI","timestamp":1787568276638}@@Figure--}{++{"author":"AI","timestamp":1787568276638}@@_Figure++} from ["Scaling Monosemanticity" by Templeton et al.](https://transformer-circuits.pub/2024/scaling-monosemanticity/), showing positions where a "Code error" feature {--{"author":"AI","timestamp":1787568276638}@@fires.--}{++{"author":"AI","timestamp":1787568276638}@@fires._++}
 
 It is tempting to identify these features with the quanta. For each feature discovered by a sparse autoencoder in the activations of a model, we could imagine identifying that feature with some corresponding mechanism or circuit in the weights of the model which causes that feature to be computed and appear in the activations.
 
@@ -355,7 +355,7 @@ Indeed, the way that sparse autoencoders scale at a very coarse level is suggest
 
 ![](https://ericjmichaud.com/quanta/assets/ant-elements-frequency-scaling.png)
 
-Plot from ["Scaling Monosemanticity" by Templeton et al.](https://transformer-circuits.pub/2024/scaling-monosemanticity/), showing whether SAEs of different scales learn features which fire on specific chemical elements. Features for each element appear to be learned roughly in the order of the frequency at which that element is referenced in the corpus that the SAEs are trained on.
+{--{"author":"AI","timestamp":1787568279719}@@Plot--}{++{"author":"AI","timestamp":1787568279719}@@_Plot++} from ["Scaling Monosemanticity" by Templeton et al.](https://transformer-circuits.pub/2024/scaling-monosemanticity/), showing whether SAEs of different scales learn features which fire on specific chemical elements. Features for each element appear to be learned roughly in the order of the frequency at which that element is referenced in the corpus that the SAEs are trained {--{"author":"AI","timestamp":1787568279719}@@on.--}{++{"author":"AI","timestamp":1787568279719}@@on._++}
 
 Looking a little closer though, the properties of sparse autoencoder features and the way that sparse autoencoders scale also has disanalogies with our quanta and the quanta model.
 
@@ -365,7 +365,7 @@ There is another problem with trying to identify the SAE features with quanta th
 
 ![](https://ericjmichaud.com/quanta/assets/gpt2nonlinears.jpeg)
 
-Figure 1 of ["Not All Language Model Features are One-Dimensionally Linear"](https://arxiv.org/abs/2405.14860) showing multi-dimensional language model features. The existence of these features further complicates the question of whether sparse autoencoder features are a canonical set of quanta-like units to decompose neural networks into.
+{--{"author":"AI","timestamp":1787568282617}@@Figure--}{++{"author":"AI","timestamp":1787568282617}@@_Figure++} 1 of ["Not All Language Model Features are One-Dimensionally Linear"](https://arxiv.org/abs/2405.14860) showing multi-dimensional language model features. The existence of these features further complicates the question of whether sparse autoencoder features are a canonical set of quanta-like units to decompose neural networks {--{"author":"AI","timestamp":1787568282617}@@into.--}{++{"author":"AI","timestamp":1787568282617}@@into._++}
 
 When these multi-dimensional feature manifolds are present in activations, multiple sparse autoencoder latents are used to reconstruct points on that manifold. In some work this year with Liv Gorton and Tom McGrath, ["Understanding sparse autoencoder scaling in the presence of feature manifolds"](https://arxiv.org/abs/2509.02565), we investigated whether feature manifolds could cause sparse autoencoders to scale in suboptimal ways. Our basic concern was that if there is a long tail of features in the activations, sparse autoencoders could either improve their loss by further tilting common manifolds or by allocating latents to rare features. In certain situations, sparse autoencoders might continue to tile common feature manifolds with more and more latents instead of learning the rare features. Funnily enough, the math that governs whether this will happen is taken from something very similar to the quanta model. In particular, [Ari Brill's model of neural scaling mentioned above](https://arxiv.org/abs/2412.07942v1), where models approximate functions defined on different feature manifolds with power law frequency, ends up having the mathematical structure that I think ought to describe sparse autoencoder scaling in the presence of feature manifolds in the activations.
 
@@ -429,7 +429,7 @@ It is therefore possible that we could measure lots of "emergent abilities" even
 
 ![](https://ericjmichaud.com/quanta/assets/rylan-addition.png)
 
-Taken from Figure 3 of ["Are Emergent Abilities of Large Language Models a Mirage?"](https://arxiv.org/abs/2304.15004) by Schaeffer et al., showing how changing your metric can change whether abilities appear to emerge sharply or gradually.
+{--{"author":"AI","timestamp":1787568285679}@@Taken--}{++{"author":"AI","timestamp":1787568285679}@@_Taken++} from Figure 3 of ["Are Emergent Abilities of Large Language Models a Mirage?"](https://arxiv.org/abs/2304.15004) by Schaeffer et al., showing how changing your metric can change whether abilities appear to emerge sharply or {--{"author":"AI","timestamp":1787568285679}@@gradually.--}{++{"author":"AI","timestamp":1787568285679}@@gradually._++}
 
 It is possible in principle that scaling could change model internals in an entirely gradual manner, and we would still measure some "emergent" abilities. There might therefore not be any tension to resolve in the first place, between smooth neural scaling and emergent abilities.
 
@@ -441,7 +441,7 @@ I think that a polygenic story like this is likely happening with LLM emergent a
 
 ![](https://ericjmichaud.com/quanta/assets/multiple-choice-gradual-emergence.png)
 
-Figure 6 of ["Emergent Abilities of Large Language Models"](https://arxiv.org/abs/2206.07682) by Wei et al., showing how the probabilities of correct and incorrect answers increase together until an emergent improvement in error rates.
+{--{"author":"AI","timestamp":1787568289120}@@Figure--}{++{"author":"AI","timestamp":1787568289120}@@_Figure++} 6 of ["Emergent Abilities of Large Language Models"](https://arxiv.org/abs/2206.07682) by Wei et al., showing how the probabilities of correct and incorrect answers increase together until an emergent improvement in error {--{"author":"AI","timestamp":1787568289120}@@rates.--}{++{"author":"AI","timestamp":1787568289120}@@rates._++}
 
 For each of these multiple-choice "classification" tasks, the accuracy initially plateaus at random-guess accuracy. However, during that plateau, the loss on predicting the correct answer token decreases gradually! So is there some progress being made that is obscured by the choice of metric? In the bottom row, the authors show that the probability the LLMs are assigning to the correct answer is increasing with scale, but the probability of the _incorrect_ multiple choice answers are also increasing at the same rate. What I'd guess is happening is that the models are getting better and better at realizing that they are being given a multiple choice problem with some set of possible answers, and nudging probability mass equally towards all of the listed multiple choice answers. This is a great strategy from a loss perspective. Instead of the model being uncertain across the whole token vocabulary, it is just uncertain among the 4 acceptable answers.[^6] However, this is very different from actually knowing the answer to these problems! For each task, there is some scale at which the correct answer diverges and becomes much more likely than the incorrect answers, and the error rate drops. At this scale, I'd guess that the model has learned some genuinely new mechanism that actually captures the knowledge the benchmark is supposed to measure. The mechanisms learned earlier lowered the loss, but with a strategy that wasn't related to the actual knowledge that is being tested by each benchmark.
 
@@ -488,7 +488,7 @@ Earlier, we saw that in the Pythia suite of LLMs, as one scales up network size,
   
 ![](https://ericjmichaud.com/quanta/assets/per-token-scaling-double.png)
 
-Figure 12 of [the paper](https://arxiv.org/abs/2303.13506)
+{--{"author":"AI","timestamp":1787568292111}@@Figure--}{++{"author":"AI","timestamp":1787568292111}@@_Figure++} 12 of [the {--{"author":"AI","timestamp":1787568292111}@@paper](https://arxiv.org/abs/2303.13506)--}{++{"author":"AI","timestamp":1787568292111}@@paper](https://arxiv.org/abs/2303.13506)_++}
 
 However, it is worth pointing out that some of these differences could be the result of noise. On many tokens, it could be the case that there is enough variation in a model's loss due to randomness (different seeds) that if we looked at enough tokens, we could find many curves with seemingly sharp drops, just as a result of these fluctuations, even if there is nothing ultimately discrete about the model's performance on those tokens. I thank Naomi Saphra for [making this point in an exasperated tweet.](https://x.com/nsaphra/status/1672234050440798211)
 
@@ -497,7 +497,7 @@ In the Pythia sequence, one of the models (160m) was trained with multiple seeds
   
 ![](https://ericjmichaud.com/quanta/assets/scaling-curves-across-seeds.png)
 
-Seed-dependence of per-token LLM scaling curves w.r.t. parameters.
+{--{"author":"AI","timestamp":1787568295152}@@Seed-dependence--}{++{"author":"AI","timestamp":1787568295152}@@_Seed-dependence++} of per-token LLM scaling curves w.r.t. {--{"author":"AI","timestamp":1787568295152}@@parameters.--}{++{"author":"AI","timestamp":1787568295152}@@parameters._++}
 
 We see that on many tokens where the default seed exhibits a sharp drop after the 160m scale, models with different seeds often make partial progress when they reach the 160m scale. It seems that loss on many of these tokens is not actually discrete, and in fact models can make partial progress on them in a seed-dependent way. If you'd like to see more curves like these, here are [2400 of them in a 100 page pdf (5MB)](https://ericjmichaud.com/quanta/assets/scaling-curves-across-seeds.pdf).
 
