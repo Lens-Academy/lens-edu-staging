@@ -1728,76 +1728,83 @@ INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the contex
 --}{++{"author":"Luc's AI","timestamp":1787602112072}@@  
     ++}, 16-20 July 2006.
 
-\[8\]
+{--{"author":"Luc's AI","timestamp":1787602112676}@@\[8\]
 
-. IAEA report of 27 February 2006 on _Implementation of the NPT Safeguards Agreement in the Islamic Republic of Iran_, IAEA document GOV/2006/15, paragraph 52.
+.--}{++{"author":"Luc's AI","timestamp":1787602112676}@@[^note-8]:++} IAEA report of 27 February 2006 on _Implementation of the NPT Safeguards Agreement in the Islamic Republic of Iran_, IAEA document GOV/2006/15, paragraph 52.
 
-\[9\]
+{--{"author":"Luc's AI","timestamp":1787602113189}@@\[9\]
 
-. SIR for 1998.
+.--}{++{"author":"Luc's AI","timestamp":1787602113189}@@[^note-9]:++} SIR for 1998.
 
-\[10\]
+{--{"author":"Luc's AI","timestamp":1787602113714}@@\[10\]
 
-. INFCIRC/153 paragraph 19.
+.--}{++{"author":"Luc's AI","timestamp":1787602113714}@@[^note-10]:++} INFCIRC/153 paragraph 19.
 
-\[11\]
+{--{"author":"Luc's AI","timestamp":1787602114361}@@\[11\]
 
-. Now only  
-India  
-,  
-Israel  
-and  
-Pakistan  
-, and depending on one's legal view, the DPRK.
+.--}{++{"author":"Luc's AI","timestamp":1787602114361}@@[^note-11]:++} Now only{--{"author":"Luc's AI","timestamp":1787602114361}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602114361}@@  
+    ++}India{--{"author":"Luc's AI","timestamp":1787602114361}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602114361}@@  
+    ++},{--{"author":"Luc's AI","timestamp":1787602114361}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602114361}@@  
+    ++}Israel{--{"author":"Luc's AI","timestamp":1787602114361}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602114361}@@  
+    ++}and{--{"author":"Luc's AI","timestamp":1787602114361}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602114361}@@  
+    ++}Pakistan{--{"author":"Luc's AI","timestamp":1787602114361}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602114361}@@  
+    ++}, and depending on one's legal view, the DPRK.
 
-\[12\]
+{--{"author":"Luc's AI","timestamp":1787602114915}@@\[12\]
 
-. Standing Advisory Group on Safeguards Implementation.
+.--}{++{"author":"Luc's AI","timestamp":1787602114915}@@[^note-12]:++} Standing Advisory Group on Safeguards Implementation.
 
-\[13\]
+{--{"author":"Luc's AI","timestamp":1787602115416}@@\[13\]
 
-. The fifth case, Romania, involved a research reactor and undeclared plutonium separation experiments. Iraq had also misused a research reactor.
+.--}{++{"author":"Luc's AI","timestamp":1787602115416}@@[^note-13]:++} The fifth case, Romania, involved a research reactor and undeclared plutonium separation experiments. Iraq had also misused a research reactor.
 
-\[14\]
+{--{"author":"Luc's AI","timestamp":1787602115975}@@\[14\]
 
-. See the author's _Addressing Proliferation Challenges from the Spread of Uranium Enrichment Capability_, INMM 2007 Annual Meeting.
+.--}{++{"author":"Luc's AI","timestamp":1787602115975}@@[^note-14]:++} See the author's _Addressing Proliferation Challenges from the Spread of Uranium Enrichment Capability_, INMM 2007 Annual Meeting.
 
-\[15\]
+{--{"author":"Luc's AI","timestamp":1787602116527}@@\[15\]
 
-. E.g. Iran  
-'s attempt to revoke the parts of its Subsidiary Arrangement dealing with provision of design information.
+.--}{++{"author":"Luc's AI","timestamp":1787602116527}@@[^note-15]:++} E.g. Iran{--{"author":"Luc's AI","timestamp":1787602116527}@@  
+--}{++{"author":"Luc's AI","timestamp":1787602116527}@@  
+    ++}'s attempt to revoke the parts of its Subsidiary Arrangement dealing with provision of design information.
 
-\[16\]
+{--{"author":"Luc's AI","timestamp":1787602117124}@@\[16\]
 
-. The IAEA's former DDG for Safeguards, Pierre Goldschmidt, now Visiting Scholar, Carnegie Endowment for International Peace, has published a number of papers arguing for a Security Council-mandated verification regime.
+.--}{++{"author":"Luc's AI","timestamp":1787602117124}@@[^note-16]:++} The IAEA's former DDG for Safeguards, Pierre Goldschmidt, now Visiting Scholar, Carnegie Endowment for International Peace, has published a number of papers arguing for a Security Council-mandated verification regime.
 
-\[17\]
+{--{"author":"Luc's AI","timestamp":1787602117616}@@\[17\]
 
-. Argentine-Brazilian Agency for Accounting and Control of Nuclear Materials.
+.--}{++{"author":"Luc's AI","timestamp":1787602117616}@@[^note-17]:++} Argentine-Brazilian Agency for Accounting and Control of Nuclear Materials.
 
-\[18\]
+{--{"author":"Luc's AI","timestamp":1787602118118}@@\[18\]
 
-. Non-compliance is also to be reported to the UN General Assembly and all IAEA Member States.
+.--}{++{"author":"Luc's AI","timestamp":1787602118118}@@[^note-18]:++} Non-compliance is also to be reported to the UN General Assembly and all IAEA Member States.
 
-\[19\]
+{--{"author":"Luc's AI","timestamp":1787602118647}@@\[19\]
 
-. The obligation is to accept safeguards on all nuclear material in peaceful nuclear activities – to date the case of non-peaceful non-proscribed nuclear activities (such as naval propulsion) has not arisen in practice.
+.--}{++{"author":"Luc's AI","timestamp":1787602118647}@@[^note-19]:++} The obligation is to accept safeguards on all nuclear material in peaceful nuclear activities – to date the case of non-peaceful non-proscribed nuclear activities (such as naval propulsion) has not arisen in practice.
 
-\[20\]
+{--{"author":"Luc's AI","timestamp":1787602119319}@@\[20\]
 
-. NPT Article II.
+.--}{++{"author":"Luc's AI","timestamp":1787602119319}@@[^note-20]:++} NPT Article II.
 
-\[21\]
+{--{"author":"Luc's AI","timestamp":1787602119810}@@\[21\]
 
-. NPT Article III.1.
+.--}{++{"author":"Luc's AI","timestamp":1787602119810}@@[^note-21]:++} NPT Article III.1.
 
-\[22\]
+{--{"author":"Luc's AI","timestamp":1787602120336}@@\[22\]
 
-. Formerly known as a full scope safeguards agreement.
+.--}{++{"author":"Luc's AI","timestamp":1787602120336}@@[^note-22]:++} Formerly known as a full scope safeguards agreement.
 
-\[23\]
+{--{"author":"Luc's AI","timestamp":1787602120919}@@\[23\]
 
-. INFCIRC/153 paragraph 1.
+.--}{++{"author":"Luc's AI","timestamp":1787602120919}@@[^note-23]:++} INFCIRC/153 paragraph 1.
 
 \[24\]
 
