@@ -397,33 +397,33 @@ Zhai, C., Wibowo, S., & Li, L. D. (2024). The effects of over-reliance on AI dia
 
 {--{"author":"Luc's AI","timestamp":1787602071204}@@[^7]--}{++{"author":"Luc's AI","timestamp":1787602071204}@@[^note-7]:++} 63.8% of all young people use AI Tools and thereof 32.7% use AI tools for formal education, that means approximately 20% of young people in the EU use AI tools for formal education.
 
-[^8] The Socratic Method is an argumentative dialogue informing a structured way to learn and practice critical thinking. Among others, Monzon and Hays (2025) propose using GenAI to create desirable difficulties, instead of bypassing effort.
+{--{"author":"Luc's AI","timestamp":1787602071656}@@[^8]--}{++{"author":"Luc's AI","timestamp":1787602071656}@@[^note-8]:++} The Socratic Method is an argumentative dialogue informing a structured way to learn and practice critical thinking. Among others, Monzon and Hays (2025) propose using GenAI to create desirable difficulties, instead of bypassing effort.
 
-[^9] Exact numbers of functional illiteracy are particularly difficult to estimate. An overall estimate of illiteracy worldwide claims that there are around 750 Million people who cannot read and write sufficiently but it is unclear if this metric accounts for functionally illiterate populations.
+{--{"author":"Luc's AI","timestamp":1787602072118}@@[^9]--}{++{"author":"Luc's AI","timestamp":1787602072118}@@[^note-9]:++} Exact numbers of functional illiteracy are particularly difficult to estimate. An overall estimate of illiteracy worldwide claims that there are around 750 Million people who cannot read and write sufficiently but it is unclear if this metric accounts for functionally illiterate populations.
 
-[^10] Furthermore, the European Commission’s Ethical Guidelines on the Use of AI and Data in Teaching and Learning for Educators (2022) are cited as the source for the following recommendations.
+{--{"author":"Luc's AI","timestamp":1787602072631}@@[^10]--}{++{"author":"Luc's AI","timestamp":1787602072631}@@[^note-10]:++} Furthermore, the European Commission’s Ethical Guidelines on the Use of AI and Data in Teaching and Learning for Educators (2022) are cited as the source for the following recommendations.
 
-[^11] In 2025, 20% of individuals aged 15–29 in the EU used GenAI for educational tasks (see Abstract).
+{--{"author":"Luc's AI","timestamp":1787602073130}@@[^11]--}{++{"author":"Luc's AI","timestamp":1787602073130}@@[^note-11]:++} In 2025, 20% of individuals aged 15–29 in the EU used GenAI for educational tasks (see Abstract).
 
-[^12] The argument developed in this paper.
+{--{"author":"Luc's AI","timestamp":1787602073628}@@[^12]--}{++{"author":"Luc's AI","timestamp":1787602073628}@@[^note-12]:++} The argument developed in this paper.
 
-[^13] The minimum criteria of quality in education aren’t prescribed in an international treaty.
+{--{"author":"Luc's AI","timestamp":1787602074132}@@[^13]--}{++{"author":"Luc's AI","timestamp":1787602074132}@@[^note-13]:++} The minimum criteria of quality in education aren’t prescribed in an international treaty.
 
-[^14] UNICEF (2000) states learning should be student-centred.
+{--{"author":"Luc's AI","timestamp":1787602074649}@@[^14]--}{++{"author":"Luc's AI","timestamp":1787602074649}@@[^note-14]:++} UNICEF (2000) states learning should be student-centred.
 
-[^15] Executive functioning supports higher-order thinking skills.
+{--{"author":"Luc's AI","timestamp":1787602075181}@@[^15]--}{++{"author":"Luc's AI","timestamp":1787602075181}@@[^note-15]:++} Executive functioning supports higher-order thinking skills.
 
-[^16] The OECD analysis focuses on learners, teachers and institutions.
+{--{"author":"Luc's AI","timestamp":1787602075739}@@[^16]--}{++{"author":"Luc's AI","timestamp":1787602075739}@@[^note-16]:++} The OECD analysis focuses on learners, teachers and institutions.
 
-[^19] Around 20% of young people in the EU use AI tools for formal education.
+{--{"author":"Luc's AI","timestamp":1787602076248}@@[^19]--}{++{"author":"Luc's AI","timestamp":1787602076248}@@[^note-19]:++} Around 20% of young people in the EU use AI tools for formal education.
 
-[^20] The Socratic Method is referenced as a deliberative interlocuteur model.
+{--{"author":"Luc's AI","timestamp":1787602076767}@@[^20]--}{++{"author":"Luc's AI","timestamp":1787602076767}@@[^note-20]:++} The Socratic Method is referenced as a deliberative interlocuteur model.
 
-[^21] OECD Survey of Adult Skills (2024) shows rising adult functional illiteracy.
+{--{"author":"Luc's AI","timestamp":1787602077419}@@[^21]--}{++{"author":"Luc's AI","timestamp":1787602077419}@@[^note-21]:++} OECD Survey of Adult Skills (2024) shows rising adult functional illiteracy.
 
-[^22] The CULT Briefing incorporates OECD ‘effective use’ recommendations.
+{--{"author":"Luc's AI","timestamp":1787602078039}@@[^22]--}{++{"author":"Luc's AI","timestamp":1787602078039}@@[^note-22]:++} The CULT Briefing incorporates OECD ‘effective use’ recommendations.
 
-[^23] The term ‘cognitively safe’ is used without further explanation.
+{--{"author":"Luc's AI","timestamp":1787602078525}@@[^23]--}{++{"author":"Luc's AI","timestamp":1787602078525}@@[^note-23]:++} The term ‘cognitively safe’ is used without further explanation.
 
 ## How to cite this article:
 
