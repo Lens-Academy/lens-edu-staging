@@ -120,7 +120,7 @@ The feedback loop could come back if some other technology restored the "more re
 
 ![](https://www.cold-takes.com/content/images/size/w1000/2021/09/pasta-stills-3.png)
 
-Possible future: more resources -> more AIs -> more ideas -> more resources ...
+{--{"author":"AI","timestamp":1787568441715}@@Possible--}{++{"author":"AI","timestamp":1787568441715}@@_Possible++} future: more resources -> more AIs -> more ideas -> more resources {--{"author":"AI","timestamp":1787568441715}@@...--}{++{"author":"AI","timestamp":1787568441715}@@..._++}
 
 That means that **our radical long-run future could be upon us very fast** after PASTA is developed (if it ever is).
 
