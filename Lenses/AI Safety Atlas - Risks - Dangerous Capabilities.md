@@ -11,8 +11,9 @@ tutor_minutes: 7
 source:: [[../articles/AI Safety Atlas - Risks - Dangerous Capabilities|Dangerous Capabilities]]
 
 #### Text
-content::
-This section covers five capabilities in quick succession, and argues they get more dangerous in combination, so pick two of them and walk through the combination with the tutor.
+{++{"author":"Elias's AI","timestamp":1787566682498}@@optional:: true
+++}content::
+{--{"author":"Elias's AI","timestamp":1787566682498}@@This--}{++{"author":"Elias's AI","timestamp":1787566682498}@@The++} section{--{"author":"Elias's AI","timestamp":1787566682498}@@ covers five capabilities in quick succession, and --}{++{"author":"Elias's AI","timestamp":1787566682498}@@ ++}argues {--{"author":"Elias's AI","timestamp":1787566682498}@@they--}{++{"author":"Elias's AI","timestamp":1787566682498}@@these five++} get more dangerous in {--{"author":"Elias's AI","timestamp":1787566682498}@@combination, so pick--}{++{"author":"Elias's AI","timestamp":1787566682498}@@combination. Which++} two {--{"author":"Elias's AI","timestamp":1787566682498}@@of them and walk through --}{++{"author":"Elias's AI","timestamp":1787566682498}@@do you think combine worst? Make ++}the {--{"author":"Elias's AI","timestamp":1787566682498}@@combination with--}{++{"author":"Elias's AI","timestamp":1787566682498}@@case to++} the tutor.
 
 #### Chat
 optional:: true
