@@ -13,11 +13,11 @@ content::
 \## An evidence ladder
 The studies in this unit are not all the same kind of claim. Read each at the level it can support.
 
-- **Controlled {--{"author":"Course Author's AI","timestamp":1787572249961}@@experiments** —--}{++{"author":"Course Author's AI","timestamp":1787572249961}@@experiments**:++} researchers set the conditions and measure behaviour. Strongest for cause, but narrow and artificial (the programmer lab).
-- **Field or quasi-experimental {--{"author":"Course Author's AI","timestamp":1787572249961}@@comparisons** —--}{++{"author":"Course Author's AI","timestamp":1787572249961}@@comparisons**:++} real settings, comparison groups, but not fully randomised (the endoscopist study).
-- **Cross-sectional surveys and {--{"author":"Course Author's AI","timestamp":1787572249961}@@interviews** — --}{++{"author":"Course Author's AI","timestamp":1787572249961}@@interviews**: ++}a snapshot of what people report and do (Lee, Gerlich). Good for associations, silent on cause.
-- **Self-reported {--{"author":"Course Author's AI","timestamp":1787572249961}@@behaviour** —--}{++{"author":"Course Author's AI","timestamp":1787572249961}@@behaviour**:++} people describing their own thinking. Prone to over- and under-confidence (the speedup illusion shows people feel faster even when they are not).
-- **Conceptual{--{"author":"Course Author's AI","timestamp":1787572249961}@@ extrapolation** —--}{++{"author":"Course Author's AI","timestamp":1787572249961}@@ extrapolation**:++} an argument from mechanisms to a large societal outcome (gradual disempowerment). Plausible and worth taking seriously, but not measured by any study here.
+- **Controlled experiments**: researchers set the conditions and measure behaviour. Strongest for cause, but narrow and artificial (the programmer lab).
+- **Field or quasi-experimental comparisons**: real settings, comparison groups, but not fully randomised (the endoscopist study).
+- **Cross-sectional surveys and interviews**: a snapshot of what people report and do (Lee, Gerlich). Good for associations, silent on cause.
+- **Self-reported behaviour**: people describing their own thinking. Prone to over- and under-confidence (the speedup illusion shows people feel faster even when they are not).
+- **Conceptual extrapolation**: an argument from mechanisms to a large societal outcome (gradual disempowerment). Plausible and worth taking seriously, but not measured by any study here.
 
 \## What this means for the unit
 The evidence is genuinely mixed, and that is the honest answer. A randomised trial shows law students' analysis improved with early AI use. An observational study shows endoscopists' detection fell after AI use. Surveys link AI confidence to less reported critical thinking, but they cannot show cause. A philosophical argument connects everyday offloading to lost societal influence, but no study measures that leap.
