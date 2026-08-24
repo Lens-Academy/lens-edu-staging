@@ -80,9 +80,9 @@ Response length: 120-200 words per reply.
 content::
 \## Question 2: The Tipping Point
 
-Krook argues that a tipping point will be reached where it becomes "illogical" to rely on human decision-making, creativity, social care, or leadership. This is not because humans become worse—their skills may stay the same—but because AI becomes so much better.
+Krook argues that a tipping point will be reached where it becomes "illogical" to rely on human decision-making, creativity, social care, or leadership. This is not because humans become {--{"author":"Course Author's AI","timestamp":1787572215005}@@worse—their--}{++{"author":"Course Author's AI","timestamp":1787572215005}@@worse (their++} skills may stay the {--{"author":"Course Author's AI","timestamp":1787572215005}@@same—but--}{++{"author":"Course Author's AI","timestamp":1787572215005}@@same), but++} because AI becomes so much better.
 
-Think about a skill you have already offloaded to AI or technology. Now imagine AI becomes 10x better than humans at that task, across all domains. What would it mean to insist on human judgement then? Would it be rational—or stubborn?
+Think about a skill you have already offloaded to AI or technology. Now imagine AI becomes 10x better than humans at that task, across all domains. What would it mean to insist on human judgement then? Would it be {--{"author":"Course Author's AI","timestamp":1787572215005}@@rational—or--}{++{"author":"Course Author's AI","timestamp":1787572215005}@@rational, or++} stubborn?
 
 assessment-instructions:: The student is engaging with Krook's tipping point argument. This explores the tension between rationality and autonomy.
 
