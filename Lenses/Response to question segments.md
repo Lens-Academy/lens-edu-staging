@@ -37,7 +37,7 @@ Next example adds limits, grading, and feedback. %%
 
 #### Question: Open
 id:: b8854587-3e8f-471d-b37c-fb63684ecf19
-content:: In two sentences, what is your strongest objection to the claim "If "?
+content:: In two sentences, what is your strongest objection to the claim "If anyome builds this everyone dies" as made i?
 max-chars:: 500
 placeholder:: Name claim, then explain objection.
 max-time:: 3:00
