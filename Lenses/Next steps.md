@@ -24,11 +24,11 @@ Below is a common set of next steps for people who have just finished an introdu
 
  --}{++{"author":"Plex's AI","timestamp":1787325046731}@@
 
-++}Visit {--{"author":"Plex's AI","timestamp":1787325046731}@@[AISafety.info](https://aisafety.info/), a structured library of explanations, curricula, and “how can I help?” guides for people entering the field--}{++{"author":"Plex's AI","timestamp":1787325046731}@@AISafety.info's [How can I help?](https://aisafety.info/how-can-i-help) guide, which walks through concrete next steps based on your situation and interests.++}
+++}Visit {--{"author":"Plex's AI","timestamp":1787325046731}@@[AISafety.info](https://aisafety.info/), a structured library of explanations, curricula, and “how can I help?” guides for people entering the field--}AISafety.info's [How can I help?](https://aisafety.info/how-can-i-help) guide, which walks through concrete next steps based on your situation and interests.
 
 **Talk to people in the field**
 
-{--{"author":"Plex's AI","timestamp":1787325046731}@@[Events](https://www.effectivealtruism.org/ea-global/events) like EA Global--}{++{"author":"Plex's AI","timestamp":1787325046731}@@[AISafety.com](https://aisafety.com/events-and-training) keeps an up-to-date directory of conferences, training programs,++} and {--{"author":"Plex's AI","timestamp":1787325046731}@@EAGx--}{++{"author":"Plex's AI","timestamp":1787325046731}@@online events across the field. These++} are good places to talk not only to experts, but also to many newcomers who are in a situation similar to {--{"author":"Plex's AI","timestamp":1787325046731}@@yours. They--}{++{"author":"Plex's AI","timestamp":1787325046731}@@yours, and they++} often include career fairs, networking spaces, and structured opportunities for conversation, so they can be a practical way to explore the field, ask questions, and see what paths people actually take.
+[AISafety.com](https://aisafety.com/events-and-training) keeps an up-to-date directory of conferences, training programs, and online events across the field. These are good places to talk not only to experts, but also to many newcomers who are in a situation similar to {--{"author":"Plex's AI","timestamp":1787325046731}@@yours. They--}{++{"author":"Plex's AI","timestamp":1787325046731}@@yours, and they++} often include career fairs, networking spaces, and structured opportunities for conversation, so they can be a practical way to explore the field, ask questions, and see what paths people actually take.
 
 
 **Help spread understanding
