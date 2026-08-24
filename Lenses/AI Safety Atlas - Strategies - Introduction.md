@@ -2,13 +2,13 @@
 id: f089ff36-6bdb-42ac-8e13-5e2b96b219e7
 tldr: "How do you actually make AI development safe, not just worry about it? This opening chapter maps the whole strategy landscape, sorting the many proposed defenses into misuse prevention, alignment and control for advanced systems, and broader socio-technical measures, and argues that no single approach is enough on its own."
 summary_for_tutor: "Introduces the AI Safety Atlas strategies chapter, which organizes mitigations into three categories - preventing AI misuse, technical safety for AGI and ASI, and socio-technical approaches - plus a combined defense-in-depth framework. Argues for a comprehensive, layered combination of strategies rather than any single approach, and delimits what falls outside the chapter's scope (misinformation, privacy, standard security, bias and toxicity, digital mind welfare, and pure capability errors)."
-{++{"author":"Elias's AI","timestamp":1787567822296}@@reading_minutes: 9
+reading_minutes: 9
 tutor_minutes: 7
-++}title: "Introduction"
+title: "Introduction"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Strategies - Introduction]]{++{"author":"Elias's AI","timestamp":1787567829088}@@
+source:: [[../articles/AI Safety Atlas - Strategies - Introduction]]
 
 #### Text
 optional:: true
@@ -31,4 +31,4 @@ The scope list sits in a collapsed optional callout, so do not assume the learne
 
 This is the opening of the chapter and every strategy named here gets its own section later. Stay with the framing and do not preview those sections in detail.
 
-Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
+Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.
