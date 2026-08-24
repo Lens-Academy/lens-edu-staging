@@ -102,7 +102,7 @@ If you reward ChatGPT for saying it’s a machine learning model, it will say it
 
 ![](https://substackcdn.com/image/fetch/$s_!HK2F!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faed65167-9aed-4e4c-8be2-84e62d52504c_594x119.png)
 
-This is what ChatGPT does ( source, definition of Gettier case )
+This is what ChatGPT does {--{"author":"AI","timestamp":1787566533679}@@( source, definition--}{++{"author":"AI","timestamp":1787566533679}@@([source](https://twitter.com/stevenkaas/status/217459516101496832), [definition++} of Gettier{--{"author":"AI","timestamp":1787566533679}@@ case )--}{++{"author":"AI","timestamp":1787566533679}@@ case](https://en.wikipedia.org/wiki/Gettier_problem))++}
 
 ## III. Implications For Alignment
 
