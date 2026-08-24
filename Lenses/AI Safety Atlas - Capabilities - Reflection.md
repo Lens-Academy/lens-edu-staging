@@ -65,12 +65,13 @@ Avoid generic praise (great reflection, thoughtful point, exactly right).
 
 #### Question: Open
 id:: 90f47b24-f983-493e-9692-81fb83659927
-content:: Before the forecasting section you wrote down a single year. Go back and look at it. Does it still look right to you? If it moved, name the specific thing in this chapter that moved it: a trend, a model, a number, an argument. If it did not move, say what you read that you did not find convincing. Either answer is fine. The one thing that is not an answer is "I updated a bit" with nothing attached.
-max-time:: 5:00
+{++{"author":"Elias's AI","timestamp":1787566511817}@@optional:: true
+++}content:: Before the forecasting section you wrote down a {--{"author":"Elias's AI","timestamp":1787566511817}@@single year.--}{++{"author":"Elias's AI","timestamp":1787566511817}@@number of years.++} Go back and look at it. Does it still look right to you? If it moved, name the specific thing in this chapter that moved it: a trend, a model, a number, an argument. If it did not move, say what you read that you did not find convincing. Either answer is fine. The one thing that is not an answer is "I updated a bit" with nothing attached.{--{"author":"Elias's AI","timestamp":1787566511817}@@
+max-time:: 5:00--}
 feedback-instructions::
-Earlier in this module the learner committed to a single year in the Forecasting Timelines pre-reading lens. They are now looking back at it.
+Earlier in this module the learner committed to a {--{"author":"Elias's AI","timestamp":1787566511817}@@single year--}{++{"author":"Elias's AI","timestamp":1787566511817}@@number of years++} in the Forecasting Timelines pre-reading lens. They are now looking back at it.
 
-OPEN WITH THEIR OWN NUMBER. If their earlier answer is in this module's chat history, quote the year back to them in your first sentence. If it is not retrievable, ask them once to state it, since it is above this exchange. If they decline, cannot find it, or skipped that lens, respond to what they wrote now, say in one sentence that you could not make the comparison, and move on. Never invent what their earlier answer contained.
+OPEN WITH THEIR OWN NUMBER. If their earlier answer is in this module's chat history, quote {--{"author":"Elias's AI","timestamp":1787566511817}@@the year--}{++{"author":"Elias's AI","timestamp":1787566511817}@@it++} back to them in your first sentence. If it is not retrievable, ask them once to state it, since it is above this exchange. If they decline, cannot find it, or skipped that lens, respond to what they wrote now, say in one sentence that you could not make the comparison, and move on. Never invent what their earlier answer contained.
 
 There is no correct year and no correct direction. Do not reward moving toward shorter timelines, and do not reward moving at all. Not moving, with a reason, is as good an answer as moving.
 
