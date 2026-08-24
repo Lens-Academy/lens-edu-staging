@@ -1,5 +1,5 @@
-{++{"author":"Leo's AI","timestamp":1787568536721}@@---
-id: '7c1f3a9e-2b4d-4e8a-9c6f-0a5b2c3d4e5f'
+{++{"author":"Course Author's AI","timestamp":1787572314636}@@---
+id: '6ef1c4be-96af-4ceb-8fb3-fd21867ca258'
 title: "When AI Helps and When It Harms"
 duration_minutes: 12
 tldr: "Two studies, same tool, opposite results. Law students who used AI early wrote better work; endoscopists who worked with AI later detected fewer polyps without it. The difference is conditions, not the tool."
