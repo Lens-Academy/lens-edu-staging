@@ -1,5 +1,5 @@
 ---
-id: '2b2b6ada-3987-48eb-b3bd-b5546466dcd5'
+id: {--{"author":"Leo's AI","timestamp":1787568310261}@@'2b2b6ada-3987-48eb-b3bd-b5546466dcd5'--}{++{"author":"Leo's AI","timestamp":1787568310261}@@'e4c3d2b1-5a7f-4c9a-8b2e-4a3f2e1d4c5d'++}
 title: "The Gradual Disempowerment Thesis"
 tldr: "A gradual loss of control needs no rebellion: as AI displaces human participation in the economy, culture, and states, institutions stop needing us, and no concrete plan exists to stop it."
 summary_for_tutor: "Reading lens for Unit 3 of 'Thinking about Thinking', anchored to the imported article 'Gradual Disempowerment' by Kulveit and colleagues (gradual-disempowerment.ai). Three Article excerpts: the core thesis and the alignment-maintained-by-necessity argument; the six core claims and focus on economy, culture, and states; and the no-plausible-plan paragraph. Followed by Recall, Processing, and Learning Question phases. The wedge question is a sceptic who thinks humans would organise to stop the loss of influence."
