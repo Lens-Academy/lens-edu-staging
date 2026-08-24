@@ -14,7 +14,7 @@ content::
 {--{"author":"import_videos's AI","timestamp":1787361034556}@@Read--}{++{"author":"import_videos's AI","timestamp":1787361034556}@@First watch++} the short {--{"author":"import_videos's AI","timestamp":1787361034556}@@background below, then--}{++{"author":"import_videos's AI","timestamp":1787361034556}@@video below. It is an accessible summary of the study this lens is built on: a lab watched beginners learn to program with AI, and the video walks through the traps their thinking fell into. Then++} read the {++{"author":"import_videos's AI","timestamp":1787361034556}@@short background and the ++}two study excerpts that follow. The first excerpt reports what the researchers saw. The second is their own reading of the harms. Both come from one study: a close look at beginners learning to program with AI help.
 
 #### Video
-source:: [[../video_transcripts/jetbrains-academy-therapy-for-the-vibe-coded-brain]]
+source:: [[../../video_transcripts/jetbrains-academy-therapy-for-the-vibe-coded-brain]]
 from:: {--{"author":"Leo's AI","timestamp":1787567627335}@@0:00--}{++{"author":"Leo's AI","timestamp":1787567627335}@@6:50++}
 to:: {--{"author":"Leo's AI","timestamp":1787567627335}@@6:50--}{++{"author":"Leo's AI","timestamp":1787567627335}@@8:56++}
 
@@ -37,7 +37,7 @@ Why does this matter if you never write code? Because the traps are not about co
 Read the excerpts below. Skim the tables for what they show, and notice which students each trap caught. Then read the short section after them, which maps each trap onto everyday knowledge work.
 
 #### Article
-source:: [[../articles/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers]]
+source:: [[../../articles/prather-the-widening-gap-the-benefits-and-harms-of-generative-ai-for-novice-programmers]]
 from:: "Although only one student failed to complete the task, half of the students were observed struggling for various reasons, including exhibiting one or more metacognitive difficulties."
 to:: "They accepted more suggestions that they subsequently reworked or rolled back entirely."
 
