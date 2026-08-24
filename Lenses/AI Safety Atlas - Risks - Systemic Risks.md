@@ -6,13 +6,15 @@ title: "Systemic Risks"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Risks - Systemic Risks|Systemic Risks]]{++{"author":"Elias's AI","timestamp":1787563947097}@@
+source:: [[../articles/AI Safety Atlas - Risks - Systemic Risks|Systemic Risks]]{++{"author":"Elias's AI","timestamp":1787564324541}@@
 
 #### Question: Open
 id:: 68389f0e-58ba-4b72-a6cb-a18a08900347
 optional:: true
 content::
-The section says epistemic erosion might come from decisions that each make business sense on their own: news organizations cutting costs with AI content generation, media companies investing in synthetic content that raises engagement, research institutions writing papers faster with AI tools. It also says the same erosion is driven in part by actors who pollute the information environment on purpose. If both routes lead to the same result, who do you think is left carrying responsibility for it?
+The section describes epistemic erosion as the sum of many decisions that each make sense on their own: news organizations cutting costs with AI content, media companies chasing engagement with synthetic content, research institutions writing papers faster. It then says technical mitigations applied one at a time do not counter systemic pressures and incentives.
+
+If no single decision in that chain is unreasonable, where would you look for something that could actually change the outcome?
 feedback-instructions::
 The learner has just read the AI Safety Atlas section "Systemic Risks" and written a reflection. This is a reflection, not a test. There is no answer you are checking against, and you should not tell them whether they got it right.
 
