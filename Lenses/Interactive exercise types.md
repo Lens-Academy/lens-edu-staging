@@ -40,23 +40,20 @@ Marked correct or incorrect against the option the author flagged. Options can b
 
 #### Question: Choice
 id:: 604e1856-72f8-45e4-adbd-0e6d0ef4b5c9
-content:: {--{"author":"Elias's AI","timestamp":1787572110252}@@Which of these actually changes a neural network's weights?
+content:: An AI pursuing almost any long-term goal has reason to acquire resources, keep itself running, and resist having its goal changed, whatever that goal happens to be. What is this called?
 options::
-- [x] Training on data
-- Writing a longer prompt--}{++{"author":"Elias's AI","timestamp":1787572110252}@@An AI pursuing almost any long-term goal has reason to acquire resources, keep itself running, and resist having its goal changed, whatever that goal happens to be. What is this called?
-options::++}
-- {--{"author":"Elias's AI","timestamp":1787572110252}@@Restarting the model--}{++{"author":"Elias's AI","timestamp":1787572110252}@@[x] Instrumental convergence++}
-- {--{"author":"Elias's AI","timestamp":1787572110252}@@Asking the model to try harder--}{++{"author":"Elias's AI","timestamp":1787572110252}@@The orthogonality thesis
+- [x] Instrumental convergence
+- The orthogonality thesis
 - Mesa-optimisation
-- Goodhart's law++}
+- Goodhart's law
 shuffle:: true
-feedback-instructions::{--{"author":"Elias's AI","timestamp":1787572110252}@@ Two--}{++{"author":"Elias's AI","timestamp":1787572110252}@@
-Two or three++} sentences, no praise. {--{"author":"Elias's AI","timestamp":1787572110252}@@Weights change during training. Prompting changes --}{++{"author":"Elias's AI","timestamp":1787572110252}@@The answer is instrumental convergence: sub-goals like resource acquisition, self-preservation and goal-content integrity are useful for almost any final goal, so very different systems converge on them.
+feedback-instructions::
+Two or three sentences, no praise. The answer is instrumental convergence: sub-goals like resource acquisition, self-preservation and goal-content integrity are useful for almost any final goal, so very different systems converge on them.
 
-If they picked a wrong option, separate it from ++}the {--{"author":"Elias's AI","timestamp":1787572110252}@@input the fixed weights are applied to, which --}{++{"author":"Elias's AI","timestamp":1787572110252}@@right one in one line rather than lecturing:
-- Orthogonality thesis: how capable a system ++}is {--{"author":"Elias's AI","timestamp":1787572110252}@@why a prompt--}{++{"author":"Elias's AI","timestamp":1787572110252}@@and what it wants are independent. That says goals++} can {--{"author":"Elias's AI","timestamp":1787572110252}@@change behaviour dramatically without changing --}{++{"author":"Elias's AI","timestamp":1787572110252}@@be anything; instrumental convergence says what a system will do on ++}the {++{"author":"Elias's AI","timestamp":1787572110252}@@way to almost any of them.
-- Mesa-optimisation: the trained ++}model {--{"author":"Elias's AI","timestamp":1787572110252}@@at all. If they picked a wrong option, name --}{++{"author":"Elias's AI","timestamp":1787572110252}@@turns out to be an optimiser in its own right, pursuing an objective that is not ++}the {--{"author":"Elias's AI","timestamp":1787572110252}@@confusion behind it.--}{++{"author":"Elias's AI","timestamp":1787572110252}@@one it was trained on.
-- Goodhart's law: once a measure becomes a target it stops being a good measure. About proxies, not about sub-goals.++}
+If they picked a wrong option, separate it from the right one in one line rather than lecturing:
+- Orthogonality thesis: how capable a system is and what it wants are independent. That says goals can be anything; instrumental convergence says what a system will do on the way to almost any of them.
+- Mesa-optimisation: the trained model turns out to be an optimiser in its own right, pursuing an objective that is not the one it was trained on.
+- Goodhart's law: once a measure becomes a target it stops being a good measure. About proxies, not about sub-goals.
 
 #### Text
 content::
