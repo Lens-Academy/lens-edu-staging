@@ -8,7 +8,7 @@ title: "Defining and Measuring AGI"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Defining and Measuring AGI|Defining and Measuring AGI]]{++{"author":"Elias's AI","timestamp":1787563775022}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Defining and Measuring AGI|Defining and Measuring AGI]]{++{"author":"Elias's AI","timestamp":1787563994673}@@
 
 #### Question: Open
 id:: 982166b9-ee07-45e8-ac2d-6a6f523f7407
@@ -27,7 +27,7 @@ Take what they wrote seriously and push on it once. Useful directions: whether t
 
 If they say they do not know or write something thin, do not press them for more. Offer one concrete way to look at it and leave it there.
 
-Do not preview the later sections in detail. The forecasting section has its own pre-question and this chapter returns to it, so do not give timelines or an arrival date of your own, even if asked.
+Do not preview the later sections in detail. The forecasting section has its own pre-question and this chapter returns to it. Do not give timelines or an arrival date of your own, even if asked, and if the learner volunteers a date or a horizon, do not evaluate it, extend it, or ask them to justify it.
 
 120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.++}
 

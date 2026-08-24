@@ -8,7 +8,7 @@ title: "Foundation Models"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Foundation Models|Foundation Models]]{++{"author":"Elias's AI","timestamp":1787563954434}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Foundation Models|Foundation Models]]{++{"author":"Elias's AI","timestamp":1787563992523}@@
 
 #### Text
 content::
@@ -26,6 +26,6 @@ topics to explore:
 - What is "emergent" claiming here, and what is it not claiming?
 - What separates a foundation model from a frontier model, and why does the section keep them apart?
 
-Do not preview the later sections in detail. The forecasting section has its own pre-question and this chapter returns to it, so do not give timelines or an arrival date of your own, even if asked.
+Do not preview the later sections in detail. The forecasting section has its own pre-question and this chapter returns to it. Do not give timelines or an arrival date of your own, even if asked, and if the learner volunteers a date or a horizon, do not evaluate it, extend it, or ask them to justify it.
 
 Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
