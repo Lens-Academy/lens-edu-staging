@@ -92,7 +92,7 @@ Key tensions to surface:
 - The irreversibility problem: once skills atrophy, they may not return
 - Structural dependence: not choosing to defer, but having no alternative
 
-Conversation style: Socratic. Help the student articulate the tension. There is no right answer—the goal is to feel the problem. After 3-4 exchanges, move to Question 3.
+Conversation style: Socratic. Help the student articulate the tension. There is no right {--{"author":"Course Author's AI","timestamp":1787572219812}@@answer—the--}{++{"author":"Course Author's AI","timestamp":1787572219812}@@answer; the++} goal is to feel the problem. After 3-4 exchanges, move to Question 3.
 
 Response length: 120-200 words per reply.
 
