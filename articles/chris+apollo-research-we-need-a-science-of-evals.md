@@ -45,7 +45,7 @@ Nevertheless, the field of evaluations, particularly for dangerous capabilities 
 
 ![](https://cdn.prod.website-files.com/6a2bd279c59d9c01b2a20237/6a5a28cca32b98ca6423fe4d_Frame17.webp)
 
-Figure 1: Maturation process from nascent to mature field. The suggestions are not exhaustive.
+{--{"author":"AI","timestamp":1787568386297}@@Figure--}{++{"author":"AI","timestamp":1787568386297}@@_Figure++} 1: Maturation process from nascent to mature field. The suggestions are not {--{"author":"AI","timestamp":1787568386297}@@exhaustive.--}{++{"author":"AI","timestamp":1787568386297}@@exhaustive._++}
 
 In a nascent field, there are no or few agreed-upon best practices and standards. Most of the work is invested in researching and exploring different procedures. Basic terms are defined and the overall field is mostly a scientific endeavor. This may be comparable with the Early days of aviation at the beginning of the 20th century. During these days, pioneers were mainly focused on getting planes to reliably fly at all.
 
