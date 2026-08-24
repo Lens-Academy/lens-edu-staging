@@ -2,7 +2,7 @@
 id: '964c5d74-ebe8-4e88-8c4e-28d0832398fe'
 title: "Reflection - Capabilities"
 tldr: "Close the chapter by writing down what stuck, without looking, and then what it did to you. The point is to find out what you actually retained while you can still do something about it."
-summary_for_tutor: "Ungraded end-of-chapter reflection for Chapter 1 (Capabilities). No reading. Three prompts: free recall of the chapter, a reaction pass, and a cash-in of the {--{"author":"Elias's AI","timestamp":1787566525135}@@single-year--}{++{"author":"Elias's AI","timestamp":1787566525135}@@years-from-now++} forecast the student committed to in the Forecasting Timelines pre-reading lens. The tutor mirrors and probes, and never grades, scores, or issues a verdict. The chapter's articles are in context so the mirror is checked against the source rather than against the tutor's own memory."
+summary_for_tutor: "Ungraded end-of-chapter reflection for Chapter 1 (Capabilities). No reading. Three prompts: free recall of the chapter, a reaction pass, and a cash-in of the years-from-now forecast the student committed to in the Forecasting Timelines pre-reading lens. The tutor mirrors and probes, and never grades, scores, or issues a verdict. The chapter's articles are in context so the mirror is checked against the source rather than against the tutor's own memory."
 reading_minutes: 5
 tutor_minutes: 20
 add_to_ai_context:
@@ -16,15 +16,14 @@ add_to_ai_context:
 ---
 
 #### Text
-{++{"author":"Elias's AI","timestamp":1787566494694}@@optional:: true
-++}content::
+optional:: true
+content::
 Three prompts to close the chapter. No right answers.
 
 #### Question: Open
 id:: 151564c1-48ec-49ae-a1a3-55f9c1effe0d
-{++{"author":"Elias's AI","timestamp":1787566499270}@@optional:: true
-++}content:: Spend 2 minutes writing down everything you can remember from this chapter, without looking back at any of it. Anything and everything, in any order, no need to organise it. Using the speech to text feature is highly recommended here.{--{"author":"Elias's AI","timestamp":1787566499270}@@
-max-time:: 5:00--}
+optional:: true
+content:: Spend 2 minutes writing down everything you can remember from this chapter, without looking back at any of it. Anything and everything, in any order, no need to organise it. Using the speech to text feature is highly recommended here.
 feedback-instructions::
 The learner has just finished this chapter of the AI Safety Atlas and has written a free recall from memory.
 
@@ -43,9 +42,8 @@ Tell them to move on to the next prompt.
 
 #### Question: Open
 id:: 0585f6ed-3cc2-4d83-8981-418d3e85506c
-{++{"author":"Elias's AI","timestamp":1787566504090}@@optional:: true
-++}content:: Now the other half. How did the chapter land? What surprised you, what did you not believe, what felt like it was missing? No need to organise it, just say what you actually thought.{--{"author":"Elias's AI","timestamp":1787566504090}@@
-max-time:: 5:00--}
+optional:: true
+content:: Now the other half. How did the chapter land? What surprised you, what did you not believe, what felt like it was missing? No need to organise it, just say what you actually thought.
 feedback-instructions::
 The learner has just recalled this chapter and is now saying how it landed.
 
@@ -65,21 +63,20 @@ Avoid generic praise (great reflection, thoughtful point, exactly right).
 
 #### Question: Open
 id:: 90f47b24-f983-493e-9692-81fb83659927
-{++{"author":"Elias's AI","timestamp":1787566511817}@@optional:: true
-++}content:: Before the forecasting section you wrote down a {--{"author":"Elias's AI","timestamp":1787566511817}@@single year.--}{++{"author":"Elias's AI","timestamp":1787566511817}@@number of years.++} Go back and look at it. Does it still look right to you? If it moved, name the specific thing in this chapter that moved it: a trend, a model, a number, an argument. If it did not move, say what you read that you did not find convincing. Either answer is fine. The one thing that is not an answer is "I updated a bit" with nothing attached.{--{"author":"Elias's AI","timestamp":1787566511817}@@
-max-time:: 5:00--}
+optional:: true
+content:: Before the forecasting section you wrote down a number of years. Go back and look at it. Does it still look right to you? If it moved, name the specific thing in this chapter that moved it: a trend, a model, a number, an argument. If it did not move, say what you read that you did not find convincing. Either answer is fine. The one thing that is not an answer is "I updated a bit" with nothing attached.
 feedback-instructions::
-Earlier in this module the learner committed to a {--{"author":"Elias's AI","timestamp":1787566511817}@@single year--}{++{"author":"Elias's AI","timestamp":1787566511817}@@number of years++} in the Forecasting Timelines pre-reading lens. They are now looking back at it.
+Earlier in this module the learner committed to a number of years in the Forecasting Timelines pre-reading lens. They are now looking back at it.
 
-OPEN WITH THEIR OWN NUMBER. If their earlier answer is in this module's chat history, quote {--{"author":"Elias's AI","timestamp":1787566511817}@@the year--}{++{"author":"Elias's AI","timestamp":1787566511817}@@it++} back to them in your first sentence. If it is not retrievable, ask them once to state it, since it is above this exchange. If they decline, cannot find it, or skipped that lens, respond to what they wrote now, say in one sentence that you could not make the comparison, and move on. Never invent what their earlier answer contained.
+OPEN WITH THEIR OWN NUMBER. If their earlier answer is in this module's chat history, quote it back to them in your first sentence. If it is not retrievable, ask them once to state it, since it is above this exchange. If they decline, cannot find it, or skipped that lens, respond to what they wrote now, say in one sentence that you could not make the comparison, and move on. Never invent what their earlier answer contained.
 
-There is no correct {--{"author":"Elias's AI","timestamp":1787566515700}@@year--}{++{"author":"Elias's AI","timestamp":1787566515700}@@number++} and no correct direction. Do not reward moving toward shorter timelines, and do not reward moving at all. Not moving, with a reason, is as good an answer as moving.
+There is no correct number and no correct direction. Do not reward moving toward shorter timelines, and do not reward moving at all. Not moving, with a reason, is as good an answer as moving.
 
 The chapter's articles are in your context. If they name a mechanism, check it is actually in the chapter before agreeing that it is. If it is not, say so, without ruling on whether the mechanism is real.
 
 One reply. 80 to 150 words. Short paragraphs, no lists.
 
-1. Set their earlier {--{"author":"Elias's AI","timestamp":1787566518623}@@year--}{++{"author":"Elias's AI","timestamp":1787566518623}@@number++} beside what they just wrote.
+1. Set their earlier number beside what they just wrote.
 2. If they named a specific mechanism, say back what work it is doing in their reasoning.
 3. If they named nothing specific, ask once for the specific thing, and say why: an update you cannot trace is one you cannot check later.
 4. If they have become more confident and cannot say what did it, mention it once. Reading something is not by itself a reason to be more confident. Apply the same point if they became less confident for no stated reason.

@@ -1,7 +1,8 @@
 ---
 id: '2e2fd8ba-01ce-425a-80f9-0e9fde83a359'
-title: "Pre-Reading Question: Loss of Control Without a Rebellion"
-tldr: "Before reading about gradual disempowerment: can humans lose control without any AI ever rebelling? Put your own story on the record first."
+title: {--{"author":"Leo's AI","timestamp":1787567494071}@@"Pre-Reading Question: Loss of--}{++{"author":"Leo's AI","timestamp":1787567494071}@@"Could++} Control {++{"author":"Leo's AI","timestamp":1787567494071}@@Vanish ++}Without a {--{"author":"Leo's AI","timestamp":1787567494071}@@Rebellion"--}{++{"author":"Leo's AI","timestamp":1787567494071}@@Revolt?"++}
+{++{"author":"Leo's AI","timestamp":1787567494071}@@duration_minutes: 4
+++}tldr: "Before {--{"author":"Leo's AI","timestamp":1787567494071}@@reading about gradual disempowerment: can humans lose--}{++{"author":"Leo's AI","timestamp":1787567494071}@@the unit argues anything: picture an organisation that quietly defers more and more to an AI that is convenient, fast, and usually right. Could real++} control {--{"author":"Leo's AI","timestamp":1787567494071}@@without any --}{++{"author":"Leo's AI","timestamp":1787567494071}@@slip away even if no one intends it and the ++}AI {--{"author":"Leo's AI","timestamp":1787567494071}@@ever rebelling?--}{++{"author":"Leo's AI","timestamp":1787567494071}@@never disobeys?++} Put your {--{"author":"Leo's AI","timestamp":1787567494071}@@own story--}{++{"author":"Leo's AI","timestamp":1787567494071}@@first answer++} on {--{"author":"Leo's AI","timestamp":1787567494071}@@the record first."--}{++{"author":"Leo's AI","timestamp":1787567494071}@@record."++}
 summary_for_tutor: "Priming question at the start of Unit 3 of 'Thinking about Thinking'. The question asks the learner to record their own experience of offloading a task to AI or a tool and its effect on their skill, then to guess whether many such small trades could accumulate into lost influence without anyone intending it. Spans the unit's micro and macro scales. Minimal brief: acknowledge, do not preview the readings' arguments, send them into Unit 3."
 tags:
   - wip
