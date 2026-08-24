@@ -13,7 +13,7 @@ source:: [[../articles/AI Safety Atlas - Capabilities - Takeoff|Takeoff]]
 #### Text
 optional:: true
 content::
-Takeoff speed decides whether "ship it and patch it" is a strategy at all. Which way do this section's arguments push on that? Reason it out with the tutor.
+Takeoff speed decides whether "ship it and patch it" is a strategy at all. {--{"author":"Elias's AI","timestamp":1787569842043}@@Which--}{++{"author":"Elias's AI","timestamp":1787569842043}@@Of the section's arguments about which++} way {--{"author":"Elias's AI","timestamp":1787569842043}@@do this section's arguments push on that? Reason--}{++{"author":"Elias's AI","timestamp":1787569842043}@@it goes, which did you find most convincing, and which least? Talk++} it {--{"author":"Elias's AI","timestamp":1787569842043}@@out--}{++{"author":"Elias's AI","timestamp":1787569842043}@@over++} with the tutor.
 
 #### Chat
 optional:: true

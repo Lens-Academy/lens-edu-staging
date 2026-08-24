@@ -13,7 +13,7 @@ source:: [[../articles/AI Safety Atlas - Capabilities - Foundation Models|Founda
 #### Text
 optional:: true
 content::
-One model pre-trained and then adapted, instead of one system built per task. Which of the safety problems the section lists actually follows from that shift, and which would exist anyway? Think it through with the tutor.
+{--{"author":"Elias's AI","timestamp":1787569840299}@@One model pre-trained and then adapted, instead of one system built per task. Which of the safety problems the section lists actually follows from that shift, and which would exist anyway? Think--}{++{"author":"Elias's AI","timestamp":1787569840299}@@The section argues the safety problems it lists come from the shift to one model pre-trained and then adapted. Did you find that convincing for all of them, or only some? Talk++} it {--{"author":"Elias's AI","timestamp":1787569840299}@@through--}{++{"author":"Elias's AI","timestamp":1787569840299}@@over++} with the tutor.
 
 #### Chat
 optional:: true
