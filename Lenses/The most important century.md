@@ -12,9 +12,9 @@ Optional, and worth it. Karnofsky steps all the way back: not "will AI foom," bu
 
 #### Article
 source:: [[../articles/karnofsky-most-important-century]]{--{"author":"Plex's AI","timestamp":1787325542906}@@
-to:: "we need to start by taking--}{++{"author":"Plex's AI","timestamp":1787325542906}@@
+to:: "we need to start by taking--}
 
-%% TODO(human): add course author's footnote here for the correction @Ouro noted (full text/citation not yet supplied — write++} it {--{"author":"Plex's AI","timestamp":1787325542906}@@more seriously."--}{++{"author":"Plex's AI","timestamp":1787325542906}@@up). %%++}
+%% TODO(human): add course author's footnote here for the correction @Ouro noted (full text/citation not yet supplied — write it {--{"author":"Plex's AI","timestamp":1787325542906}@@more seriously."--}{++{"author":"Plex's AI","timestamp":1787325542906}@@up). %%++}
 
 #### Text
 content::
