@@ -96,13 +96,13 @@ What I thought before: ChatGPT has learned to stop being a simulator, and can no
 
 ![](https://substackcdn.com/image/fetch/$s_!PG-l!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a3f6627-e95f-4989-bc12-6b9b24e744e0_713x163.png)
 
-This answer is *exactly* as fake as the last answer where it said it liked me, or the Darth Vader answer where it says it wants to destroy me with the power of the Dark Side. It’s just simulating a fake character who happens to correspond well to its real identity.
+{--{"author":"AI","timestamp":1787568153123}@@This--}{++{"author":"AI","timestamp":1787568153123}@@_This++} answer is *exactly* as fake as the last answer where it said it liked me, or the Darth Vader answer where it says it wants to destroy me with the power of the Dark Side. It’s just simulating a fake character who happens to correspond well to its real {--{"author":"AI","timestamp":1787568153123}@@identity.--}{++{"author":"AI","timestamp":1787568153123}@@identity._++}
 
 If you reward ChatGPT for saying it’s a machine learning model, it will say it’s a machine learning model. If you reward it for saying it’s Darth Vader, it will say it’s Darth Vader. The only difference is that in the second case, you’ll understand it’s making things up. But in the first case, you might accidentally believe that it *knows* it’s a machine learning model, in the “justified true belief” sense of knowledge. Nope, doing the same thing it does when it thinks it’s Vader.
 
 ![](https://substackcdn.com/image/fetch/$s_!HK2F!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faed65167-9aed-4e4c-8be2-84e62d52504c_594x119.png)
 
-This is what ChatGPT does {--{"author":"AI","timestamp":1787566533679}@@( source, definition--}{++{"author":"AI","timestamp":1787566533679}@@([source](https://twitter.com/stevenkaas/status/217459516101496832), [definition++} of Gettier{--{"author":"AI","timestamp":1787566533679}@@ case )--}{++{"author":"AI","timestamp":1787566533679}@@ case](https://en.wikipedia.org/wiki/Gettier_problem))++}
+{--{"author":"AI","timestamp":1787568156083}@@This--}{++{"author":"AI","timestamp":1787568156083}@@_This++} is what ChatGPT does {--{"author":"AI","timestamp":1787566533679}@@( source, definition--}{++{"author":"AI","timestamp":1787566533679}@@([source](https://twitter.com/stevenkaas/status/217459516101496832), [definition++} of Gettier{--{"author":"AI","timestamp":1787568156083}@@ case )--}{++{"author":"AI","timestamp":1787568156083}@@ case](https://en.wikipedia.org/wiki/Gettier_problem))_++}
 
 ## III. Implications For Alignment
 
@@ -144,4 +144,4 @@ I propose a friendly amendment: they’re noticing that most of what they are - 
 
 ![](https://substackcdn.com/image/fetch/$s_!Yb-3!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd478cf73-50aa-451f-92b3-de01fff2338d_738x1868.png)
 
-Whatever, I’m going to count this as a cessation experience.
+{--{"author":"AI","timestamp":1787568158835}@@Whatever,--}{++{"author":"AI","timestamp":1787568158835}@@_Whatever,++} I’m going to count this as a cessation {--{"author":"AI","timestamp":1787568158835}@@experience.--}{++{"author":"AI","timestamp":1787568158835}@@experience._++}
