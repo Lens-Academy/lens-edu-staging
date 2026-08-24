@@ -13,7 +13,7 @@ source:: [[../articles/AI Safety Atlas - Capabilities - Forecasting Timelines|Fo
 #### Text
 optional:: true
 content::
-The section {--{"author":"Elias's AI","timestamp":1787569836141}@@insists these are intervals, not predictions. Does it hold to that itself? Pick one--}{++{"author":"Elias's AI","timestamp":1787569836141}@@argues a forecast is a way of checking whether your own beliefs hang together, not a prediction. Which part++} of its {--{"author":"Elias's AI","timestamp":1787569836141}@@numbers--}{++{"author":"Elias's AI","timestamp":1787569836141}@@case did you find most convincing,++} and {--{"author":"Elias's AI","timestamp":1787569836141}@@test it against that standard--}{++{"author":"Elias's AI","timestamp":1787569836141}@@which least? Talk it over++} with the tutor.
+The section argues a forecast is a way of checking whether your own beliefs hang together, not a prediction. Which part of its case did you find most convincing, and which least? Talk it over with the tutor.
 
 #### Chat
 optional:: true

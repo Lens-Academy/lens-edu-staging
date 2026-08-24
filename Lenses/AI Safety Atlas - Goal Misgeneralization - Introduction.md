@@ -3,12 +3,12 @@ id: d2839c0f-a4dc-4e7a-9281-2c07321242b7
 title: "Introduction"
 tldr: "A model can ace every training example and still have learned the wrong goal, one that stays hidden until deployment, when it may be too late to notice. Goal misgeneralization is arguably AI safety's most counterintuitive failure: the training signal was correct, yet the system pursues something else. This introduction previews the chapter, from learning dynamics to scheming to detection and mitigation."
 summary_for_tutor: "Introduces the Goal Misgeneralization chapter of the AI Safety Atlas. Distinguishes goal misgeneralization (systems internalize unintended goals despite correct training signals) from specification problems and capability failures, stressing that capabilities and goals generalize independently and that multiple goals can produce identical training behavior. Previews the chapter's arc: learning dynamics (how identical training signals yield different learned algorithms), goal-directedness (degrees from learned heuristics to mesa-optimization), goal-preservation and scheming (with empirical evidence like alignment faking and in-context scheming), detection methods, and layered defense-in-depth mitigations across the development pipeline."
-{++{"author":"Elias's AI","timestamp":1787570456081}@@reading_minutes: 7
+reading_minutes: 7
 tutor_minutes: 7
-++}---
+---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Introduction]]{++{"author":"Elias's AI","timestamp":1787570456081}@@
+source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Introduction]]
 
 #### Question: Open
 id:: 13e0dd89-ea8d-47c4-93ec-158b7269e221
@@ -29,4 +29,4 @@ If they say they do not know or write something thin, do not press them for more
 
 This is the opening of the chapter. Learning dynamics, goal-directedness, scheming, detection and mitigations each get their own section, so do not preview them in detail.
 
-120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.++}
+120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.

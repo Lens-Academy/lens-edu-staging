@@ -3,12 +3,12 @@ id: aa09f399-5f6c-43b8-a89e-5de2d873b1ae
 tldr: "We can tell an AI what to do, but not perfectly what we mean, and clever optimizers exploit the gap, doing exactly what we said instead of what we wanted. This chapter opener maps the terrain of specification gaming: how rewards get misspecified, and which fixes, from imitation to human feedback, might close the gap."
 summary_for_tutor: "Roadmap for the Specification Gaming chapter. Outlines the sequence: a refresher on reinforcement learning rewards and reward functions; optimization and Goodhart's Law; reward misspecification (the outer alignment problem) with examples like reward hacking and reward tampering; learning by imitation as a proposed fix (imitation learning, behavioral cloning, inverse reinforcement learning) with their limitations; and learning by feedback (reward modeling, RLHF, RLAIF) including how current LLMs are trained and where these approaches fall short."
 title: "Introduction"
-{++{"author":"Elias's AI","timestamp":1787570315478}@@reading_minutes: 7
+reading_minutes: 7
 tutor_minutes: 7
-++}---
+---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Specification Gaming - Introduction]]{++{"author":"Elias's AI","timestamp":1787570315478}@@
+source:: [[../articles/AI Safety Atlas - Specification Gaming - Introduction]]
 
 #### Question: Open
 id:: 70f607a3-3bf0-4d8f-87b4-3a93cd04e70d
@@ -29,4 +29,4 @@ If they say they do not know or write something thin, do not press them for more
 
 This is the chapter's roadmap. Reinforcement learning, optimisation, reward misspecification, imitation and feedback each get their own section, so do not preview them in detail.
 
-120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.++}
+120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.

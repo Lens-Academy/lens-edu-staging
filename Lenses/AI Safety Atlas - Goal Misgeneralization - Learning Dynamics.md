@@ -3,12 +3,12 @@ id: 3d264f14-ac6a-40ee-a711-820978eb2766
 title: "Learning Dynamics"
 tldr: "Training doesn't install a goal; it searches a vast landscape of possible algorithms and rolls into whichever valley is easiest to reach. Show a network red curved 'thneebs' and it learns 'red,' not the shape. This section explains loss landscapes, path dependence, and the simplicity bias that quietly steers models toward simple proxies over the goals we actually intended."
 summary_for_tutor: "Covers learning dynamics in the Goal Misgeneralization chapter of the AI Safety Atlas. Frames training as a search through algorithm/parameter space, where many behaviorally indistinguishable algorithms can pursue different goals (illustrated by the 'thneeb' color-vs-shape example and 100 identically-trained BERT models). Develops three concepts: loss landscapes (geometry of wide robust basins vs sharp brittle peaks determining discoverability), path dependence (whether different initializations converge to the same algorithm, high vs low), and inductive biases, especially simplicity bias (SGD's Occam's-razor preference for simple correlations) and speed bias, explaining why training systematically favors simple proxy goals over the intended causal ones."
-{++{"author":"Elias's AI","timestamp":1787570481555}@@reading_minutes: 14
+reading_minutes: 14
 tutor_minutes: 7
-++}---
+---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Learning Dynamics|Learning Dynamics]]{++{"author":"Elias's AI","timestamp":1787570481555}@@
+source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Learning Dynamics|Learning Dynamics]]
 
 #### Text
 optional:: true
@@ -30,4 +30,4 @@ topics to explore:
 
 Goal-directedness comes next and asks how purposefully a system pursues whatever it learned, so stay with the learning question here.
 
-Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
+Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.

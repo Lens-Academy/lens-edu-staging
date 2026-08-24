@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787570229782}@@---
+---
 id: '337d240d-25c7-427e-ae8c-7e20f9d8982b'
 slug: interactive-exercises
 title: "Interactive exercises"
@@ -10,4 +10,3 @@ Keep it at one lens. If you want to add more feature showcases, use the product 
 
 # Lens:
 source:: [[../Lenses/Interactive exercise types]]
-++}

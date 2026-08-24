@@ -13,7 +13,7 @@ source:: [[../articles/AI Safety Atlas - Strategies - Challenges|Challenges]]
 #### Text
 optional:: true
 content::
-The section gives many reasons safety is hard. Which {++{"author":"Elias's AI","timestamp":1787569855204}@@did you come away thinking ++}is the real bottleneck: that the field has no agreed paradigm, that the systems are black boxes, or that safety is hard to measure? {--{"author":"Elias's AI","timestamp":1787569855204}@@Pick one and defend it--}{++{"author":"Elias's AI","timestamp":1787569855204}@@Talk it over++} with the tutor.
+The section gives many reasons safety is hard. Which did you come away thinking is the real bottleneck: that the field has no agreed paradigm, that the systems are black boxes, or that safety is hard to measure? Talk it over with the tutor.
 
 #### Chat
 optional:: true

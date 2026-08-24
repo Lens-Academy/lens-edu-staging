@@ -13,7 +13,7 @@ source:: [[../articles/AI Safety Atlas - Capabilities - Current Capabilities|Cur
 #### Text
 optional:: true
 content::
-Which item on that list did you find hardest to {--{"author":"Elias's AI","timestamp":1787569838397}@@believe? Pick one and argue--}{++{"author":"Elias's AI","timestamp":1787569838397}@@believe, and why that one? Talk++} it {--{"author":"Elias's AI","timestamp":1787569838397}@@out--}{++{"author":"Elias's AI","timestamp":1787569838397}@@over++} with the tutor.
+Which item on that list did you find hardest to believe, and why that one? Talk it over with the tutor.
 
 #### Chat
 optional:: true

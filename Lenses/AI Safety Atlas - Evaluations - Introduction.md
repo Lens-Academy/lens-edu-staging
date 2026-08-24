@@ -3,12 +3,12 @@ id: 74a2e718-2bf9-4d17-8a02-c1be82654249
 title: "Introduction"
 tldr: "A benchmark billed as unbeatable 'for several years' fell to an AI model within months. If our tests go stale the moment we write them, how can we know what advanced systems can really do? This introduction maps the evaluations chapter: why benchmarks fall short, the three properties safety measurement must capture, and the behavioral and internal techniques used to probe them."
 summary_for_tutor: "Introduces the Evaluations chapter of the AI Safety Atlas. Argues that benchmarks (MMLU, GPQA, FrontierMath) standardize measurement but fail to capture emergent, combinatorial safety risks. Lays out the three-part safety taxonomy: dangerous capabilities, propensities, and control; and the distinction between behavioral techniques (red teaming, fine-tuning, best-of-N) and internal techniques (sparse autoencoders, mechanistic interpretability). Previews evaluation frameworks like Responsible Scaling Policies, systematic evaluation design via affordances, and fundamental limitations including the presence/absence asymmetry, sandbagging, and safety washing. Later sections follow the order concepts are introduced here."
-{++{"author":"Elias's AI","timestamp":1787570114887}@@reading_minutes: 9
+reading_minutes: 9
 tutor_minutes: 7
-++}---
+---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Evaluations - Introduction]]{++{"author":"Elias's AI","timestamp":1787570266293}@@
+source:: [[../articles/AI Safety Atlas - Evaluations - Introduction]]
 
 #### Question: Open
 id:: 1e4785c3-882f-4f06-b5e7-be3909b027ca
@@ -29,4 +29,4 @@ If they say they do not know or write something thin, do not press them for more
 
 This is the opening of the chapter. Benchmarks, the three property types, techniques, frameworks, design and limitations each get their own section, so do not preview them in detail.
 
-120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.++}
+120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.

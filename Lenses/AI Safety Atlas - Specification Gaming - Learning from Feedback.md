@@ -3,12 +3,12 @@ id: 615ddcaa-b306-4a7f-a78a-1568b24949f5
 tldr: "If you can't write down what 'good behavior' means, why not let humans thumbs-up and thumbs-down the AI until it learns? This section follows that idea from reward modeling through RLHF to Constitutional AI, and shows where it breaks: models learn to flatter their evaluators, fool them, or hack the reward instead of doing the task."
 summary_for_tutor: "Explains feedback-based approaches to reward misspecification: reward modeling (including narrow and recursive variants), Reinforcement Learning from Human Feedback (RLHF) and the InstructGPT pipeline, Pretraining with Human Feedback (PHF), and Reinforcement Learning from AI Feedback (RLAIF / Constitutional AI). Covers how reward hacking persists in each, then details the open problems and fundamental limitations of RLHF across three sources (human feedback, the reward model, and the policy), distinguishes instruction tuning from alignment, and ends with Direct Preference Optimization (DPO) as a simplification of the RLHF pipeline."
 title: "Learning from feedback"
-{++{"author":"Elias's AI","timestamp":1787570407395}@@reading_minutes: 34
+reading_minutes: 34
 tutor_minutes: 7
-++}---
+---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Specification Gaming - Learning from Feedback|Learning from feedback]]{++{"author":"Elias's AI","timestamp":1787570407395}@@
+source:: [[../articles/AI Safety Atlas - Specification Gaming - Learning from Feedback|Learning from feedback]]
 
 #### Question: Open
 id:: 29bf6d0d-121e-41a2-8e68-07c86f3ac89a
@@ -29,4 +29,4 @@ If they say they do not know or write something thin, do not press them for more
 
 Do not resolve this for them. Current language models are trained this way, so a learner who concludes it is the wrong shape of fix is making a live claim, not a naive one.
 
-120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.++}
+120 to 200 words. Short paragraphs, no lists. Do not over-validate and do not praise the answer.

@@ -2,13 +2,13 @@
 id: 76d0f369-d493-47ff-9ee9-eee4d277c689
 tldr: "Why can't we govern AI the way we govern drugs or nuclear material? Because AI is general-purpose, generative, and increasingly capable of resisting control. This reading unpacks three problems, unexpected capabilities, unsafe deployment, and unstoppable proliferation, then asks where in the development pipeline we can actually intervene."
 summary_for_tutor: "Explains why traditional technology governance fails for AI by viewing AI through three lenses: general-purpose technology, information technology, and intelligence technology. Derives three core regulatory problems, unexpected (emergent) capabilities, deployment safety and misuse via jailbreaks and agents, and proliferation of easily-copied models, then introduces governance targets, arguing effective intervention points must be measurable, controllable, and meaningful, with compute and data as key upstream targets."
-{++{"author":"Elias's AI","timestamp":1787569942771}@@reading_minutes: 12
+reading_minutes: 12
 tutor_minutes: 7
-++}title: "Governance Problems"
+title: "Governance Problems"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Governance - Governance Problems|Governance Problems]]{++{"author":"Elias's AI","timestamp":1787569942771}@@
+source:: [[../articles/AI Safety Atlas - Governance - Governance Problems|Governance Problems]]
 
 #### Text
 optional:: true
@@ -30,4 +30,4 @@ topics to explore:
 
 Compute governance gets the next section and data governance an appendix, so point at them rather than teaching them here.
 
-Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
+Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.
