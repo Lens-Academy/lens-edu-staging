@@ -698,7 +698,7 @@ We have created these argument graphs because they help us to keep track of the 
 
 ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/GfZfDHZHCuYwrHGCd/ltwucqmn5ytamfadmfse)
 
-Graph of dependencies for the claims about AI control, made in Section 5
+{--{"author":"AI","timestamp":1787568464035}@@Graph--}{++{"author":"AI","timestamp":1787568464035}@@_Graph++} of dependencies for the claims about AI control, made in Section {--{"author":"AI","timestamp":1787568464035}@@5--}{++{"author":"AI","timestamp":1787568464035}@@5_++}
 
 # Appendix: Attack surfaces
 
