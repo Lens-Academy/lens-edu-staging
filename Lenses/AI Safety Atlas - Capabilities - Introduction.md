@@ -8,7 +8,7 @@ title: "Introduction"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Introduction|Introduction]]{++{"author":"Elias's AI","timestamp":1787564176672}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Introduction|Introduction]]{++{"author":"Elias's AI","timestamp":1787564194650}@@
 
 #### Text
 optional:: true
@@ -22,12 +22,13 @@ TLDR of what the user just read:
 The opening of the Capabilities chapter. It frames three questions the chapter will answer: what counts as "general" intelligence, treated as capability and generality on continuous axes rather than a binary; why recent progress has been so fast, pointing ahead to the bitter lesson and scaling laws; and where the trends lead, via forecasting and takeoff scenarios, which determines which safety strategies are even viable. It argues that specific benchmark numbers will date quickly while the underlying patterns, such as scaling, emergence, and the shift from narrow to general systems, are stable enough to be worth studying.
 
 topics to explore:
-- What would the user need to see before calling a system "general" rather than narrow?
-- Why would a definition of intelligence need to be continuous rather than a threshold?
-- Which of the chapter's three questions matters most for someone deciding what safety work to do?
-- Is the claim that benchmarks date but patterns persist actually true, and how would you check it?
+- Is a percentile-across-domains sentence the right shape for a claim about intelligence? What does it capture, and what does it flatten?
+- Is the claim that benchmarks date but the underlying patterns persist true? What would falsify it?
+- The chapter puts the definition question before the risk questions. Does that ordering hold up?
 
-Do not preview the later sections in detail. The forecasting section has its own pre-question and this chapter returns to it. Do not give timelines or an arrival date of your own, even if asked, and if the learner volunteers a date or a horizon, do not evaluate it, extend it, or ask them to justify it.
+The learner has read six minutes of framing and nothing else. Do not supply material from later sections: no definition of AGI beyond what the framing states, no scaling results, no benchmark figures. If they ask, say the chapter gets there.
+
+Do not name a year, discuss whether any arrival date is early or late, repeat the chapter's 2030 versus 2050 illustration, or ask the learner for a forecast of their own. A later lens asks them to commit to a year unprimed, and the end of the chapter comes back to it. If they volunteer a date, do not evaluate it, extend it, or ask them to justify it.
 
 Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
 

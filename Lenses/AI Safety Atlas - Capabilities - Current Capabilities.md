@@ -8,7 +8,7 @@ title: "Current Capabilities"
 ---
 
 #### Article
-source:: [[../articles/AI Safety Atlas - Capabilities - Current Capabilities|Current Capabilities]]{++{"author":"Elias's AI","timestamp":1787564174579}@@
+source:: [[../articles/AI Safety Atlas - Capabilities - Current Capabilities|Current Capabilities]]{++{"author":"Elias's AI","timestamp":1787564197463}@@
 
 #### Text
 optional:: true
@@ -29,6 +29,6 @@ topics to explore:
 
 The Minecraft and Diplomacy examples sit in a collapsed optional callout, so do not assume the learner read them.
 
-Do not preview the later sections in detail. The forecasting section has its own pre-question and this chapter returns to it. Do not give timelines or an arrival date of your own, even if asked, and if the learner volunteers a date or a horizon, do not evaluate it, extend it, or ask them to justify it.
+Do not preview the later sections in detail. Do not name a year, discuss whether any arrival date is early or late, repeat the chapter's 2030 versus 2050 illustration, or ask the learner for a forecast of their own. A later lens asks them to commit to a year unprimed, and the end of the chapter comes back to it. If they volunteer a date, do not evaluate it, extend it, or ask them to justify it.
 
 Keep responses short: 120 to 200 words. Be rigorous and educational. Do not over-validate.++}
