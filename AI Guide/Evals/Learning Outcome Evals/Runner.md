@@ -117,7 +117,7 @@ Rules:
 
 Return ONLY this JSON:
 {"path": "...",
- "checks": {"A1": "pass|fail", "A2": "...", "B1": "...", "C2": "...", "C3": "..."},
+ "checks": {"A1": "pass|fail", "A2": "...", {++{"author":"Luc's AI","timestamp":1787602056969}@@"A3": "...", ++}"B1": "...", "C2": "...", "C3": "..."},
  "notes":  {"<id>": "<one line, fails only>"},
  "evidence": {"<id>": "<short verbatim quote, fails only>"}}
 ```
@@ -136,7 +136,7 @@ eval-results:
   date: <today, YYYY-MM-DD>
   model: <the judge model id>
   suite-version: <current>
-  checks: {A1: pass, A2: pass, B1: fail, C2: pass, C3: pass}
+  checks: {A1: pass, A2: pass, {++{"author":"Luc's AI","timestamp":1787602060475}@@A3: pass, ++}B1: fail, C2: pass, C3: pass}
   notes: {B1: "<the judge's one-line reason>"}
   evidence: {B1: "<the judge's shortest verbatim quote grounding the fail>"}
 ```
