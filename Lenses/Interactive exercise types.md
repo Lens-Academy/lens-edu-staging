@@ -1,4 +1,4 @@
-{++{"author":"Elias's AI","timestamp":1787570221974}@@---
+---
 id: 'c2bbbcc4-fd54-4299-9be4-00bcab2cb260'
 title: Interactive exercise types
 tldr: One live example of every interactive exercise we build courses out of. Answer any of them; they all work.
@@ -167,4 +167,3 @@ content::
 :::callout {title="What is not on this page" tone="neutral" collapse="closed"}
 The exercises are only half of it. A real lens also holds the reading itself, rendered in place from the original source with the unassigned part collapsed, and video clipped to the timestamps the author picked, so that every exercise above sits directly under the thing it is about. A module ends with a test drawn from a learning outcome, and a course splits into weeks around group meetings with their own discussion documents and surveys.
 :::
-++}
