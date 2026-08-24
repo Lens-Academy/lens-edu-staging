@@ -510,9 +510,11 @@ Not too much should be made of this apparent difference. Clearly nuclear weapons
 
 INFCIRC/153 itself defines the Agency's safeguards mission, albeit in the context of that document's focus on nuclear material. INFCIRC/153 provides that the Agency has the right and obligation to ensure safeguards are applied to all nuclear material in the State, to verify that such material is not diverted to nuclear weapons or nuclear explosive devices.
 
-{--{"author":"Luc's AI","timestamp":1787602108175}@@\[3\]
+{--{"author":"Luc's AI","timestamp":1787602378293}@@\[3\]
 
---}{++{"author":"Luc's AI","timestamp":1787602108175}@@[^note-3]: ++}This basic statement is elaborated further in the description of the "objective of safeguards", namely:{--{"author":"Luc's AI","timestamp":1787602108175}@@
+--}{++{"author":"Luc's AI","timestamp":1787602378293}@@\[3\]
+
+. ++}This basic statement is elaborated further in the description of the "objective of safeguards", namely:{--{"author":"Luc's AI","timestamp":1787602108175}@@
 
 --}{++{"author":"Luc's AI","timestamp":1787602108175}@@
 
