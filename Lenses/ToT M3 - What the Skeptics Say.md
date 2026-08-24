@@ -4,9 +4,9 @@ title: "What the Skeptics Say"
 duration_minutes: 10
 tldr: "The strongest objections are real: most studies are self-reports, past offloading (writing, calculators) reorganised rather than weakened minds, and AI can cut perceived effort without cutting actual time. A fair read still supports concern, but only about specific patterns of use."
 summary_for_tutor: "Optional sceptical lens for Unit 3 of 'Thinking about Thinking'. Presents the strongest case against the offloading worry, inlining two open-access pieces: Yu et al.'s speedup illusion (AI cuts perceived effort, not actual time) and Gutoreva et al.'s extended-mind pushback (past offloading led to reorganisation; the risk is treating AI as an authority). Authored framing covers the self-report limitation (stated fairly, not via the correction), genuinely mixed findings, and history. Corrected: no longer treats the Gerlich correction as a reason to distrust the study; the correction is a bibliographic note only. Links to the core. About 10 minutes optional."
-{--{"author":"Course Author's AI","timestamp":1787572424648}@@tags:
+tags:
   - wip
---}---
+---
 
 #### Text
 content::
