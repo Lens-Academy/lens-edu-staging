@@ -15,13 +15,14 @@ add_to_ai_context:
 ---
 
 #### Text
-content::
+{++{"author":"Elias's AI","timestamp":1787566587304}@@optional:: true
+++}content::
 Two prompts to close the chapter. No right answers.
 
 #### Question: Open
 id:: 70870ad5-d5ec-4a6c-aa10-1c7d6bd1cb2f
 content:: Spend 2 minutes writing down everything you can remember from this chapter, without looking back at any of it. Anything and everything, in any order, no need to organise it. Using the speech to text feature is highly recommended here.
-max-time:: 5:00
+{--{"author":"Elias's AI","timestamp":1787566590145}@@max-time:: 5:00--}{++{"author":"Elias's AI","timestamp":1787566590145}@@optional:: true++}
 feedback-instructions::
 The learner has just finished this chapter of the AI Safety Atlas and has written a free recall from memory.
 
@@ -41,7 +42,7 @@ Tell them to move on to the next prompt.
 #### Question: Open
 id:: ce2ab3e8-f64d-429c-adf6-7134b706002c
 content:: Now the other half. How did the chapter land? What surprised you, what did you not believe, what felt like it was missing? No need to organise it, just say what you actually thought.
-max-time:: 5:00
+{--{"author":"Elias's AI","timestamp":1787566591500}@@max-time:: 5:00--}{++{"author":"Elias's AI","timestamp":1787566591500}@@optional:: true++}
 feedback-instructions::
 The learner has just recalled this chapter and is now saying how it landed.
 
