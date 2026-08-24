@@ -26,7 +26,7 @@ Note: while I work for an organization that has stake in this sphere (the [Machi
 
 ![First Ever Glimpse Into Facebook's Massive Arctic Server Farm | DeMilked](https://substackcdn.com/image/fetch/$s_!UOWE!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f72760b-bfae-40b4-9073-9af292144785_915x610.jpeg)
 
-First Ever Glimpse Into Facebook's Massive Arctic Server Farm | DeMilked
+{--{"author":"AI","timestamp":1787567852699}@@First--}{++{"author":"AI","timestamp":1787567852699}@@_First++} Ever Glimpse Into Facebook's Massive Arctic Server Farm | {--{"author":"AI","timestamp":1787567852699}@@DeMilked--}{++{"author":"AI","timestamp":1787567852699}@@DeMilked_++}
 
 ---
 
@@ -145,7 +145,7 @@ It’s not the case that the system necessarily has to have distinct mental buck
 
 ![](https://substackcdn.com/image/fetch/$s_!9aMq!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fba600dda-b829-4959-844f-3e5d93d4848e_1602x700.png)
 
-This prompt borrowed directly from Searle’s Chinese Room thought experiment
+{--{"author":"AI","timestamp":1787567855589}@@This--}{++{"author":"AI","timestamp":1787567855589}@@_This++} prompt borrowed directly from Searle’s Chinese Room thought {--{"author":"AI","timestamp":1787567855589}@@experiment--}{++{"author":"AI","timestamp":1787567855589}@@experiment_++}
 
 And (hopefully obviously) you don’t cure cancer or end war or reverse climate change without modeling humans, and without *incorporating* humans into your plan (which means understanding how to motivate and incentivize them, and knowing what sorts of things cause humans to give up or freak out or otherwise say “no”).
 
