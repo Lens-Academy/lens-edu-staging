@@ -4,9 +4,9 @@ title: "How Strong Is the Evidence?"
 duration_minutes: 10
 tldr: "Not all evidence is equal. A lab observation, a randomised trial, a field correlation, and a self-reported survey each tell you something different. Mixed evidence is compatible with conditional effects."
 summary_for_tutor: "Core lens 5 of Unit 3 of 'Thinking about Thinking'. Replaces the old synthesis with a compact evidence ladder for intelligent non-specialists: controlled experiments; field or quasi-experimental comparisons; cross-sectional surveys and interviews; self-reported behaviour; conceptual extrapolation. Uses studies already encountered (Prather observation, Bednar randomised, Budzyń field outcome, Lee and Gerlich self-reports, Kulveit extrapolation). Removes the old 'move down Bloom's taxonomy' gloss on Lee. Presents at least one counterargument (Yu speedup illusion, Gutoreva extended mind) that complicates a simple 'AI makes people think less' story. States that mixed evidence is compatible with conditional effects. Links to optional Gerlich, Seifer, Gutoreva, and sceptics lenses via cards. The learning question asks for a calibrated conclusion separating what the evidence supports now, what is plausible but unproven, and what would change the learner's mind. About 10 minutes."
-{--{"author":"Course Author's AI","timestamp":1787572407992}@@tags:
+tags:
   - wip
---}---
+---
 
 #### Text
 content::
