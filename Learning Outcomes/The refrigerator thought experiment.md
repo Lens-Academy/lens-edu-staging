@@ -21,7 +21,8 @@ eval-results:
 
 ## Test:
 id:: bbbca804-d52c-4567-84cb-68eae82c0025
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667379509}@@Question--}{++{"author":"Elias's AI","timestamp":1787667379509}@@Question: Open
+id:: 10da8ec6-5183-4da8-8737-5b1a2c178153++}
 content::
 {--{"author":"Luc's AI","timestamp":1787659318721}@@Imagine sending the design for--}{++{"author":"Luc's AI","timestamp":1787659318721}@@Chapter 6 sends++} a refrigerator{--{"author":"Luc's AI","timestamp":1787659318721}@@ back in time--}{++{"author":"Luc's AI","timestamp":1787659318721}@@ blueprint back++} a thousand {--{"author":"Luc's AI","timestamp":1787659318721}@@years — simplified enough--}{++{"author":"Luc's AI","timestamp":1787659318721}@@years. A medieval blacksmith could build it but would be astonished++} that {--{"author":"Luc's AI","timestamp":1787659318721}@@the blacksmiths of--}{++{"author":"Luc's AI","timestamp":1787659318721}@@it produces cold air, because++} the {--{"author":"Luc's AI","timestamp":1787659318721}@@day could actually build it. They could follow the plans and assemble the device, but they would be astonished--}{++{"author":"Luc's AI","timestamp":1787659318721}@@underlying physics (gas compression and expansion) was unknown to them. The chapter uses this to illustrate what it means to face something++} that {--{"author":"Luc's AI","timestamp":1787659318721}@@it blows out cold air, because the underlying physics (gas compression--}{++{"author":"Luc's AI","timestamp":1787659318721}@@knows more about reality than you do. It then applies this logic to a superintelligent AI,++} and {--{"author":"Luc's AI","timestamp":1787659318721}@@expansion) was unknown to them.--}{++{"author":"Luc's AI","timestamp":1787659318721}@@explores the domains where humanity is most exposed.++}
 

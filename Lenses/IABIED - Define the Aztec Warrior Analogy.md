@@ -70,7 +70,8 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 
 assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779555734}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667384646}@@Question--}{++{"author":"Elias's AI","timestamp":1787667384646}@@Question: Open
+id:: e3397cc0-3158-4c9a-b631-bd0ca693a1c8++}
 content::
 \## Phase 3: Learning Question
 A classmate says: "I get the capability-gap argument, but upsets happen all the time: the underdog beats the favorite, David beats Goliath. So 'the AI is far more capable' doesn't actually license 'the AI wins.' Until you can point to the specific move that beats us, 'we'd lose' is speculation, not a prediction." Is your classmate right? Where, if anywhere, does the reasoning break down?
