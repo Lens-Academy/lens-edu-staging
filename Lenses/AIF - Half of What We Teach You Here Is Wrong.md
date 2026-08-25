@@ -12,8 +12,6 @@ authors:
 content::
 \## Half of what we teach you here is wrong
 
-There is a speech supposedly given to new medical students: *half of what we are about to teach you is wrong, and we don't know which half.* Whether or not anyone really says it at medical schools, something like it is simply true of this course. The study of where AI is going is young, fast-moving, and short on the one thing that settles arguments: futures that have already happened. We will show you measured base rates[^baserate], careful arguments, and the best models anyone has.
-
 Across fields of scientific education, professors can sometimes be heard quoting the line: "Half of what we're going to tell you is wrong, and we don't know which half. That's for you to figure out."
 
 Everyone who's trying to make AI end up being a good thing is new to it; that's why your help is needed at all. If we could teach you how things are definitely going to go, or what you can confidently do about it, we'd just be telling you so, and be done with it.
