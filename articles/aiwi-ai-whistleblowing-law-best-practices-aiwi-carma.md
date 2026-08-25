@@ -38,7 +38,7 @@ Grounded in the US Office of the Whistleblower Ombuds’ Best Practice Whistlebl
 Contents +
 
 -   [Introduction](#introduction)
--   {--{"author":"Luc's AI","timestamp":1787602090524}@@[Recommendations](#recommendations)--}{++{"author":"Luc's AI","timestamp":1787602090524}@@Recommendations++}
+-   Recommendations
     -   [Scope of Protected Disclosures](#scope-of-protected-disclosures)
     -   [Protected Individuals](#protected-individuals)
     -   [Retaliation Protection](#retaliation-protection)
@@ -47,8 +47,8 @@ Contents +
     -   [Employee Notice Requirements](#employee-notice-requirements)
     -   [Agency Requirements](#agency-requirements)
 -   [About the AI Whistleblower Initiative (AIWI)](#about-the-ai-whistleblower-initiative-aiwi)
--   {--{"author":"Luc's AI","timestamp":1787602091030}@@[About--}{++{"author":"Luc's AI","timestamp":1787602091030}@@About++} the Center for AI Risk Management & Alignment {--{"author":"Luc's AI","timestamp":1787602091030}@@(CARMA)](#about-the-center-for-ai-risk-management-alignment-carma)--}{++{"author":"Luc's AI","timestamp":1787602091030}@@(CARMA)++}
--   {--{"author":"Luc's AI","timestamp":1787602091597}@@[About--}{++{"author":"Luc's AI","timestamp":1787602091597}@@About++} the {--{"author":"Luc's AI","timestamp":1787602091597}@@Authors](#about-the-authors)--}{++{"author":"Luc's AI","timestamp":1787602091597}@@Authors++}
+-   About the Center for AI Risk Management & Alignment (CARMA)
+-   About the Authors
     -   [Abra Ganz](#abra-ganz)
     -   [Karl Koch](#karl-koch)
 

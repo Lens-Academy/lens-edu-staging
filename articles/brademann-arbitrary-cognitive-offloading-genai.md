@@ -24,11 +24,11 @@ The paper concludes that arbitrary cognitive offloading via GenAI jeopardizes th
 
 ## 1\. Introduction
 
-Generative AI (GenAI) is usually defined based on its ability to create (“generate”) new audiovisual and textual content, but it can also be defined by the fact that this ability enables it to serve a broad array of use cases. In other words, GenAI is also general-purpose AI. It is in this latter respect that young learners in the European Union use it. Indeed, they are its heaviest users. In 2025, 20% of them use it in the context of their education. This amounts to a total estimated number of approximately 15 million {--{"author":"Luc's AI","timestamp":1787602063242}@@[^11]--}{++{"author":"Luc's AI","timestamp":1787602063242}@@[^note-11]++} people between 15 and 29 years that use GenAI to find information, seek feedback for their assignment, or delegate entire tasks.
+Generative AI (GenAI) is usually defined based on its ability to create (“generate”) new audiovisual and textual content, but it can also be defined by the fact that this ability enables it to serve a broad array of use cases. In other words, GenAI is also general-purpose AI. It is in this latter respect that young learners in the European Union use it. Indeed, they are its heaviest users. In 2025, 20% of them use it in the context of their education. This amounts to a total estimated number of approximately 15 million [^note-11] people between 15 and 29 years that use GenAI to find information, seek feedback for their assignment, or delegate entire tasks.
 
 Given its general-purpose nature, the sheer ease to delegate cognitive tasks has been shown to disrupt the efficiency of learning processes and therefore carries high risks for young people to de deprived of the quality education they are entitled to. At the same time, offloading cognitive tasks is part of every human experience. A young learner usually is cognitively not yet in a position to learn _how_ to solve a problem and to solve a problem in the same instance. Learning strategies provide means to reduce occurring cognitive load, and to foster an effective learning process. GenAI seems to interfere with the equation of keeping required cognitive effort to produce deep understanding.
 
-In this paper, I am going to argue that GenAI in educational settings {--{"author":"Luc's AI","timestamp":1787602063749}@@[^12]--}{++{"author":"Luc's AI","timestamp":1787602063749}@@[^note-12]++} deprives children and youth from their human right to quality education, specifically from their right to acquire basic formative skills, including literacy, numeracy and critical thinking. I am going to lay out this argument in three steps:
+In this paper, I am going to argue that GenAI in educational settings [^note-12] deprives children and youth from their human right to quality education, specifically from their right to acquire basic formative skills, including literacy, numeracy and critical thinking. I am going to lay out this argument in three steps:
 
 In the first part of this paper, the background section, I provide context about the human learning process, the influence of cognitive load, and subsequent strategies such as cognitive offloading and metacognition. I establish links to GenAI’s possible interference with learning and human cognitive development. Especially young learners who are building their cognitive architecture are susceptible to irreversible consequences. Such consequences include failed memory consolidation, cognitive atrophy, illiteracy, impaired problem solving, lack of critical thinking, and consequently loss of autonomy and human dignity. I connect these concerns to the human right to education, examining the meaning of quality education and its links to educational goals. In the middle part, I am using a case study to establish a comprehensive understanding of GenAI’s intricate impacts on cognitive and metacognitive dimensions of young learners.
 
@@ -85,7 +85,7 @@ Education is a fundamental human right. Article 26(2) of The Universal Declarati
 
 In this sense, education is not the direct realisation of human dignity, but a necessary consequence arising from the exercise of the right to education. Therefore it stands to reason that access to any form of education alone is not sufficient to achieve this level of impact; quality standards must also be met. To get to the bottom of the question of whether arbitrary cognitive offloading undermines the impact of education, the first step is to examine whether international quality criteria are in place and examine whether the of GenAI violates these criteria.
 
-The minimum criteria of quality in education aren’t prescribed in an international treaty and therefore, quality education cannot benefit from an international standard that nations can be held accountable for {--{"author":"Luc's AI","timestamp":1787602064288}@@[^13].--}{++{"author":"Luc's AI","timestamp":1787602064288}@@[^note-13].++}  
+The minimum criteria of quality in education aren’t prescribed in an international treaty and therefore, quality education cannot benefit from an international standard that nations can be held accountable for [^note-13].  
 A paper authored by UNICEF (2000) characterizes quality education through the dimensions of
 
 1.  safe and inclusive schooling facilities, well-managed classrooms
@@ -94,7 +94,7 @@ A paper authored by UNICEF (2000) characterizes quality education through the di
 4.  curricula and content that enables the acquisition of basic skills (literacy, numeracy, and skills for life)
 5.  outcomes that encompass knowledge, skills and attitudes, and are linked to national goals for education and positive participation in society.
 
-Under point 4., the paper states that learning should be student-centred {--{"author":"Luc's AI","timestamp":1787602064752}@@[^14]--}{++{"author":"Luc's AI","timestamp":1787602064752}@@[^note-14]++} and tailored to individual learning differences, and that “in general, curricula should emphasize deep rather than broad coverage of important areas of knowledge, authentic and contextualized problems of study, and problem-solving that stresses skills development as well as knowledge acquisition”. Here, it is also emphasized that content cannot be separated from the process, that is, how children learn to read is a product of what they are reading, and respectively, the literacy they develop. Numeracy being taught in an integrated manner provides foundations to develop logical reasoning and advanced interpretative communication skills. Both literacy, and numeracy, so goes the paper, form foundations to acquire life skills that include topics such as health, hygiene, etiquette, vocational skills. Thus, at the heart of defining the meaning of quality education lies a mediation of life skills imparting from content and process in equal terms. The process should rely on student-centred methods, and practices to elevate skills to competence.
+Under point 4., the paper states that learning should be student-centred [^note-14] and tailored to individual learning differences, and that “in general, curricula should emphasize deep rather than broad coverage of important areas of knowledge, authentic and contextualized problems of study, and problem-solving that stresses skills development as well as knowledge acquisition”. Here, it is also emphasized that content cannot be separated from the process, that is, how children learn to read is a product of what they are reading, and respectively, the literacy they develop. Numeracy being taught in an integrated manner provides foundations to develop logical reasoning and advanced interpretative communication skills. Both literacy, and numeracy, so goes the paper, form foundations to acquire life skills that include topics such as health, hygiene, etiquette, vocational skills. Thus, at the heart of defining the meaning of quality education lies a mediation of life skills imparting from content and process in equal terms. The process should rely on student-centred methods, and practices to elevate skills to competence.
 
 UNICEF’s definition builds on Robert Marzano’s New Taxonomy. It draws a distinct line between lower-order versus higher-order thinking skills, and the learner’s active engagement in deciding how to transform information (Marzano & Kendall, 2007, pp. 17–19). This one, in return, builds on Bloom’s Revised Taxonomy. The latter provides a framework that has largely informed our understanding of the role of schools, universities and further education institutions prior to UNICEF’s definition project. It assigns a cognitive, procedural and a declarative knowledge dimension to the intrinsic goal of education. Within the boundaries of this framework, education mediates capacities that require the interplay of knowledge acquisition, its immanent updating, and cognitive processes. Therefore, with an increase in complexity, school curricula should entertain ways to foster essential human skills and traits:
 
@@ -105,7 +105,7 @@ UNICEF’s definition builds on Robert Marzano’s New Taxonomy. It draws a dist
 5.  evaluating
 6.  creating
 
-On the bottom level of complexity, lower-order thinking skills include storing and remembering facts, as well as understanding concepts. Higher-order thinking skills comprise the analysis, evaluation and application of complex judgement. Critical thinking, problem solving and decision making are compounds of these skills. The process that bears these compounds requires executive functioning {--{"author":"Luc's AI","timestamp":1787602065211}@@[^15]--}{++{"author":"Luc's AI","timestamp":1787602065211}@@[^note-15]++} and metacognition. UNICEF makes mention of the _thinking about thinking_ -activity in its definition of quality education under _student-centredness_. In other words, quality in education should account for mediating metacognitive skills because of its impact on forming cognitive abilities.
+On the bottom level of complexity, lower-order thinking skills include storing and remembering facts, as well as understanding concepts. Higher-order thinking skills comprise the analysis, evaluation and application of complex judgement. Critical thinking, problem solving and decision making are compounds of these skills. The process that bears these compounds requires executive functioning [^note-15] and metacognition. UNICEF makes mention of the _thinking about thinking_ -activity in its definition of quality education under _student-centredness_. In other words, quality in education should account for mediating metacognitive skills because of its impact on forming cognitive abilities.
 
 However, The metacognitive dimension of learning can be an inconsistently explicit aspect of the lived learning process in schools. Young children in early education years configure their workload by strategies such as counting with their fingers. Progressing towards more complex educational goals, older children begin to coordinate their cognitive skills with the task they have been given and develop an understanding about effective learning strategies. The development of these learning strategies can be actively construed, or accidentally, not knowingly, assimilated.
 
@@ -133,7 +133,7 @@ The following parts provide an analysis of recent educational policy publication
 
 The OECD Digital Education Outlook 2026 (2026) has been chosen for review inside this project for two reasons. First, in 2023 the OECD published a background paper with the title “Generative AI in the classroom: From hype to reality?” which provided first insights of major issues with GenAI in classrooms (2023). The paper’s tone reflected on potentials for more dynamic classrooms and individualized learning. Second, it is authored by a long-standing international organisation, combining the represention of economic interests with a transnational analytical rigour. Findings and recommendations of OECD reports are of non-binding nature, collecting scientific evidence for informed public and political discussion.
 
-The analysis focuses on the categories of learners, teachers and educational institutions {--{"author":"Luc's AI","timestamp":1787602065711}@@[^16]--}{++{"author":"Luc's AI","timestamp":1787602065711}@@[^note-16]++} and sets out recommendations for all these target groups aimed at using GenAI to improve learning, teaching and institutional management. The report is framed around _outcomes_ these groups create, are responsible for or are involved with.
+The analysis focuses on the categories of learners, teachers and educational institutions [^note-16] and sets out recommendations for all these target groups aimed at using GenAI to improve learning, teaching and institutional management. The report is framed around _outcomes_ these groups create, are responsible for or are involved with.
 
 The rise in content generated by GenAI constantly challenges the limits of our knowledge in everyday life. Misinformation and deception pose a challenge to society as a whole, the scale of which is already socially and politically evident, for example through media attacks on democratic systems or infringements of personal rights. Right at the outset, the report emphasises that the utility of higher-order thinking skills, namely critical thinking, problem-solving and decision-making, as well as metacognitive abilities, will increase.
 
@@ -157,7 +157,7 @@ The report differentiates between GenAI and AI-enhanced educational technologies
 
 The CULT Briefing refers to identical usage figures already introduced in the OECD report discussed above. It adds that two thirds (63.8%) of young people aged 16–24 in the EU used GenAI in 2025 which makes for almost twice of the adult population (32.7%). Among this age group, 39.3% stated they were likely to use AI tools for formal education (Chounta, 2026, p. 2).
 
-That means that around 20% {--{"author":"Luc's AI","timestamp":1787602066178}@@[^19]--}{++{"author":"Luc's AI","timestamp":1787602066178}@@[^note-19]++} of young people in the EU use AI tools for formal education. Despite grounding its argumentation in the distinction between the substantive risks imposed by GenAI versus AI-enhanced educational technologies, the report does not issue usage numbers of the latter.
+That means that around 20% [^note-19] of young people in the EU use AI tools for formal education. Despite grounding its argumentation in the distinction between the substantive risks imposed by GenAI versus AI-enhanced educational technologies, the report does not issue usage numbers of the latter.
 
 ## 4\. Case Study
 
@@ -169,7 +169,7 @@ D trains their metacognitive skills when they decide which approach is more prom
 
 ## Cognitive processes
 
-Since there is evidence of positive learning impacts from usage modes where a chatbot takes on the role of a deliberative interlocuteur, a replication of the _Socratic Method {--{"author":"Luc's AI","timestamp":1787602066602}@@[^20]_,--}{++{"author":"Luc's AI","timestamp":1787602066602}@@[^note-20]_,++} it is possible to argue in favour of D making use of a _modified_ GenAI (Monzon & Hays, 2025; Singh et al., 2025; Xu et al., 2025). However, the initial reading (reading comprehension skill) and note-taking (sustained attention) should not be skipped by D: The problematic use case we are concerned with here is if D uses GenAI to complete the entire task, e.g., prompting it to ingest and compare the two texts, their tone, the presence of manipulative tactics, and so on. In which case D neither works on the information contained in the task, nor gains the skills required to complete it.
+Since there is evidence of positive learning impacts from usage modes where a chatbot takes on the role of a deliberative interlocuteur, a replication of the _Socratic Method [^note-20]_, it is possible to argue in favour of D making use of a _modified_ GenAI (Monzon & Hays, 2025; Singh et al., 2025; Xu et al., 2025). However, the initial reading (reading comprehension skill) and note-taking (sustained attention) should not be skipped by D: The problematic use case we are concerned with here is if D uses GenAI to complete the entire task, e.g., prompting it to ingest and compare the two texts, their tone, the presence of manipulative tactics, and so on. In which case D neither works on the information contained in the task, nor gains the skills required to complete it.
 
 ### Over-reliance
 
@@ -185,7 +185,7 @@ By retrieving and deciding about the information to retrieve, D is already _with
 
 ### Atrophy
 
-Cognitive atrophy is a consequence of cognitive offloading of single tasks, and to overreliance, particularly when heavily repeated. A well known example of cognitive atrophy is a form of functional illiteracy: the degration of once acquired reading and writing skills. It occurs when these skills are not regularly used, for example when D consistently watches images or videos instead of reading texts, or prefers digital text-to-speech applications over D’s own writing, or simply lets GenAI do the reading. When the cognitive pathways that are involved in reading and writing process are not demanded, they atrophy. In fact, the last OECD’s Survey of Adult Skills (2024) revealed that adult functional illiteracy is rising globally while it had been steadily reduced in the past century {--{"author":"Luc's AI","timestamp":1787602067097}@@[^21].--}{++{"author":"Luc's AI","timestamp":1787602067097}@@[^note-21].++}
+Cognitive atrophy is a consequence of cognitive offloading of single tasks, and to overreliance, particularly when heavily repeated. A well known example of cognitive atrophy is a form of functional illiteracy: the degration of once acquired reading and writing skills. It occurs when these skills are not regularly used, for example when D consistently watches images or videos instead of reading texts, or prefers digital text-to-speech applications over D’s own writing, or simply lets GenAI do the reading. When the cognitive pathways that are involved in reading and writing process are not demanded, they atrophy. In fact, the last OECD’s Survey of Adult Skills (2024) revealed that adult functional illiteracy is rising globally while it had been steadily reduced in the past century [^note-21].
 
 ## Metacognitive processes
 
@@ -240,7 +240,7 @@ Unlike the OECD report, which puts its entire remedy belief into _effective use_
 
 ### Pedagogical interventions
 
-The educational interventions incorporate the ‘effective use’ recommendations from the 2026 OECD report {--{"author":"Luc's AI","timestamp":1787602067564}@@[^22]--}{++{"author":"Luc's AI","timestamp":1787602067564}@@[^note-22]++} which are intended to create the conditions necessary to promote “cognitively safe and productive use of AI” in schools. Interestingly, the term ‘cognitively safe’ appears here without being further explained, and interestingly the OECD report makes no use of this term at all. {--{"author":"Luc's AI","timestamp":1787602067564}@@[^23].--}{++{"author":"Luc's AI","timestamp":1787602067564}@@[^note-23].++}
+The educational interventions incorporate the ‘effective use’ recommendations from the 2026 OECD report [^note-22] which are intended to create the conditions necessary to promote “cognitively safe and productive use of AI” in schools. Interestingly, the term ‘cognitively safe’ appears here without being further explained, and interestingly the OECD report makes no use of this term at all. [^note-23].
 
 Firstly, the efficient use of AI systems is reiterated in the CULT Briefing as a pedagogy-first recommendation, in line with the evidence-based proposal of the OECD report. AI systems should only be used if they serve clearly defined learning objectives, and not be “deployed as a general-purpose convenience”(Chounta, 2026, p. 6). Secondly, this is followed by the recommendation to use AI systems that are specifically designed for teaching purposes; therefore, general-purpose AI should not be used _at all_. Thirdly, metacognitive scaffolding (planning, reflection and evaluation) and a mastery orientation (augmenting knowledge through exploration, questioning and connection) are preferred approaches to effective use in all cases (Xu et al., 2025). However, the third point in particular raises the question of whether this refers to general-purpose AI or an AI system designed specifically for education. Fourthly, age and the associated learning objectives must be taken into account: “The cognitive and developmental differences between a seven-year-old and a sixteen-year-old demand genuinely differentiated governance frameworks, not a single age-neutral approach”. (Chounta, 2026, p. 7)
 
@@ -379,51 +379,51 @@ Zhai, C., Wibowo, S., & Li, L. D. (2024). The effects of over-reliance on AI dia
 
 ---
 
-{--{"author":"Luc's AI","timestamp":1787602068050}@@[^1]--}{++{"author":"Luc's AI","timestamp":1787602068050}@@[^note-1]:++} According to the newest statistics cited in the report “Young people in Europe 2022”, 73 million young people between 15-29 live in the EU in 2021 (European Commission. Statistical Office of the European Union., 2022, p. 5). No later census data is available.
+[^note-1]: According to the newest statistics cited in the report “Young people in Europe 2022”, 73 million young people between 15-29 live in the EU in 2021 (European Commission. Statistical Office of the European Union., 2022, p. 5). No later census data is available.
 
-{--{"author":"Luc's AI","timestamp":1787602068559}@@[^2]--}{++{"author":"Luc's AI","timestamp":1787602068559}@@[^note-2]:++} Explicitely refering to two educational spaces: 1) the classroom or the university as on premise-space where teachers and peers are present, and 2) the educational non-formal setting for homework or project work, alone or with peers, parents etc.
+[^note-2]: Explicitely refering to two educational spaces: 1) the classroom or the university as on premise-space where teachers and peers are present, and 2) the educational non-formal setting for homework or project work, alone or with peers, parents etc.
 
-{--{"author":"Luc's AI","timestamp":1787602069074}@@[^3]--}{++{"author":"Luc's AI","timestamp":1787602069074}@@[^note-3]:++} Thre are good reasons why this is the case, e.g. sovereignty of nations; geographical, social and cultural differences. Appointed by the United Nations, the transnational agency UNESCO is responsible to establish conditions that supports the national provision of quality education.
+[^note-3]: Thre are good reasons why this is the case, e.g. sovereignty of nations; geographical, social and cultural differences. Appointed by the United Nations, the transnational agency UNESCO is responsible to establish conditions that supports the national provision of quality education.
 
-{--{"author":"Luc's AI","timestamp":1787602069553}@@[^4]--}{++{"author":"Luc's AI","timestamp":1787602069553}@@[^note-4]:++} The term student-centred here is used to expressed the opposite of teacher-centred that illustrates a shift away from a unidimensional transfer of knowledge from the teacher to the student towards a constructivist approach.
+[^note-4]: The term student-centred here is used to expressed the opposite of teacher-centred that illustrates a shift away from a unidimensional transfer of knowledge from the teacher to the student towards a constructivist approach.
 
-{--{"author":"Luc's AI","timestamp":1787602070179}@@[^5]--}{++{"author":"Luc's AI","timestamp":1787602070179}@@[^note-5]:++} Akin to metacognitive skill that enable learners to monitor and plan their task engagement, executive functions, as their name suggests, allow them to reguate their behavior and thinking, e.g. maintaining focus, continuing the work even when motivation declines, to control frustration or impulsive behaviors. For further details about the effect of executive functions and metacognition for cognitive development, please see Roebers (2017).
+[^note-5]: Akin to metacognitive skill that enable learners to monitor and plan their task engagement, executive functions, as their name suggests, allow them to reguate their behavior and thinking, e.g. maintaining focus, continuing the work even when motivation declines, to control frustration or impulsive behaviors. For further details about the effect of executive functions and metacognition for cognitive development, please see Roebers (2017).
 
-{--{"author":"Luc's AI","timestamp":1787602070712}@@[^6]--}{++{"author":"Luc's AI","timestamp":1787602070712}@@[^note-6]:++} This categorisation reflects active stakeholders in the education sector and was also made, for example, in the report “The Unintended Consequences of Artificial Intelligence and Education” by Education International (Holmes, 2023).
+[^note-6]: This categorisation reflects active stakeholders in the education sector and was also made, for example, in the report “The Unintended Consequences of Artificial Intelligence and Education” by Education International (Holmes, 2023).
 
-{--{"author":"Luc's AI","timestamp":1787602413977}@@[\[7\]](#_ftnref7)--}{++{"author":"Luc's AI","timestamp":1787602413977}@@\[7\]++} Categories of low-, high- and meta-cognitive tasking have been chosen according to Bloom’s Revised Taxonomy.
+\[7\] Categories of low-, high- and meta-cognitive tasking have been chosen according to Bloom’s Revised Taxonomy.
 
-{--{"author":"Luc's AI","timestamp":1787602414459}@@[\[8\]](#_ftnref8)--}{++{"author":"Luc's AI","timestamp":1787602414459}@@\[8\]++} Task with highest arbitrary offloading potential. The more kinds of cognitive involvement are required, the higher the potential for arbitrariness.
+\[8\] Task with highest arbitrary offloading potential. The more kinds of cognitive involvement are required, the higher the potential for arbitrariness.
 
-{--{"author":"Luc's AI","timestamp":1787602071204}@@[^7]--}{++{"author":"Luc's AI","timestamp":1787602071204}@@[^note-7]:++} 63.8% of all young people use AI Tools and thereof 32.7% use AI tools for formal education, that means approximately 20% of young people in the EU use AI tools for formal education.
+[^note-7]: 63.8% of all young people use AI Tools and thereof 32.7% use AI tools for formal education, that means approximately 20% of young people in the EU use AI tools for formal education.
 
-{--{"author":"Luc's AI","timestamp":1787602071656}@@[^8]--}{++{"author":"Luc's AI","timestamp":1787602071656}@@[^note-8]:++} The Socratic Method is an argumentative dialogue informing a structured way to learn and practice critical thinking. Among others, Monzon and Hays (2025) propose using GenAI to create desirable difficulties, instead of bypassing effort.
+[^note-8]: The Socratic Method is an argumentative dialogue informing a structured way to learn and practice critical thinking. Among others, Monzon and Hays (2025) propose using GenAI to create desirable difficulties, instead of bypassing effort.
 
-{--{"author":"Luc's AI","timestamp":1787602072118}@@[^9]--}{++{"author":"Luc's AI","timestamp":1787602072118}@@[^note-9]:++} Exact numbers of functional illiteracy are particularly difficult to estimate. An overall estimate of illiteracy worldwide claims that there are around 750 Million people who cannot read and write sufficiently but it is unclear if this metric accounts for functionally illiterate populations.
+[^note-9]: Exact numbers of functional illiteracy are particularly difficult to estimate. An overall estimate of illiteracy worldwide claims that there are around 750 Million people who cannot read and write sufficiently but it is unclear if this metric accounts for functionally illiterate populations.
 
-{--{"author":"Luc's AI","timestamp":1787602072631}@@[^10]--}{++{"author":"Luc's AI","timestamp":1787602072631}@@[^note-10]:++} Furthermore, the European Commission’s Ethical Guidelines on the Use of AI and Data in Teaching and Learning for Educators (2022) are cited as the source for the following recommendations.
+[^note-10]: Furthermore, the European Commission’s Ethical Guidelines on the Use of AI and Data in Teaching and Learning for Educators (2022) are cited as the source for the following recommendations.
 
-{--{"author":"Luc's AI","timestamp":1787602073130}@@[^11]--}{++{"author":"Luc's AI","timestamp":1787602073130}@@[^note-11]:++} In 2025, 20% of individuals aged 15–29 in the EU used GenAI for educational tasks (see Abstract).
+[^note-11]: In 2025, 20% of individuals aged 15–29 in the EU used GenAI for educational tasks (see Abstract).
 
-{--{"author":"Luc's AI","timestamp":1787602073628}@@[^12]--}{++{"author":"Luc's AI","timestamp":1787602073628}@@[^note-12]:++} The argument developed in this paper.
+[^note-12]: The argument developed in this paper.
 
-{--{"author":"Luc's AI","timestamp":1787602074132}@@[^13]--}{++{"author":"Luc's AI","timestamp":1787602074132}@@[^note-13]:++} The minimum criteria of quality in education aren’t prescribed in an international treaty.
+[^note-13]: The minimum criteria of quality in education aren’t prescribed in an international treaty.
 
-{--{"author":"Luc's AI","timestamp":1787602074649}@@[^14]--}{++{"author":"Luc's AI","timestamp":1787602074649}@@[^note-14]:++} UNICEF (2000) states learning should be student-centred.
+[^note-14]: UNICEF (2000) states learning should be student-centred.
 
-{--{"author":"Luc's AI","timestamp":1787602075181}@@[^15]--}{++{"author":"Luc's AI","timestamp":1787602075181}@@[^note-15]:++} Executive functioning supports higher-order thinking skills.
+[^note-15]: Executive functioning supports higher-order thinking skills.
 
-{--{"author":"Luc's AI","timestamp":1787602075739}@@[^16]--}{++{"author":"Luc's AI","timestamp":1787602075739}@@[^note-16]:++} The OECD analysis focuses on learners, teachers and institutions.
+[^note-16]: The OECD analysis focuses on learners, teachers and institutions.
 
-{--{"author":"Luc's AI","timestamp":1787602076248}@@[^19]--}{++{"author":"Luc's AI","timestamp":1787602076248}@@[^note-19]:++} Around 20% of young people in the EU use AI tools for formal education.
+[^note-19]: Around 20% of young people in the EU use AI tools for formal education.
 
-{--{"author":"Luc's AI","timestamp":1787602076767}@@[^20]--}{++{"author":"Luc's AI","timestamp":1787602076767}@@[^note-20]:++} The Socratic Method is referenced as a deliberative interlocuteur model.
+[^note-20]: The Socratic Method is referenced as a deliberative interlocuteur model.
 
-{--{"author":"Luc's AI","timestamp":1787602077419}@@[^21]--}{++{"author":"Luc's AI","timestamp":1787602077419}@@[^note-21]:++} OECD Survey of Adult Skills (2024) shows rising adult functional illiteracy.
+[^note-21]: OECD Survey of Adult Skills (2024) shows rising adult functional illiteracy.
 
-{--{"author":"Luc's AI","timestamp":1787602078039}@@[^22]--}{++{"author":"Luc's AI","timestamp":1787602078039}@@[^note-22]:++} The CULT Briefing incorporates OECD ‘effective use’ recommendations.
+[^note-22]: The CULT Briefing incorporates OECD ‘effective use’ recommendations.
 
-{--{"author":"Luc's AI","timestamp":1787602078525}@@[^23]--}{++{"author":"Luc's AI","timestamp":1787602078525}@@[^note-23]:++} The term ‘cognitively safe’ is used without further explanation.
+[^note-23]: The term ‘cognitively safe’ is used without further explanation.
 
 ## How to cite this article:
 

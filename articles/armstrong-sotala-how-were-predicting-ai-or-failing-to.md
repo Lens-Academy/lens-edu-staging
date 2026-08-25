@@ -20,15 +20,12 @@ Future of Humanity Institute
 Kaj Sotala
 Machine Intelligence Research Institute
 Abstract
-This paper will look at the various predictions that have been made about AI and pro-
-pose decomposition schemas for analyzing them. It will propose a variety of theoretical
+This paper will look at the various predictions that have been made about AI and propose decomposition schemas for analyzing them. It will propose a variety of theoretical
 tools for analyzing, judging, and improving these predictions. Focusing specifically on
 timeline predictions (dates given by which we should expect the creation of AI), it will
 show that there are strong theoretical grounds to expect predictions to be quite poor in
-this area. Using a database of 95 AI timeline predictions, it will show that these expec-
-tations are borne out in practice: expert predictions contradict each other considerably,
-and are indistinguishable from non-expert predictions and past failed predictions. Pre-
-dictions that AI lie 15 to 25 years in the future are the most common, from experts and
+this area. Using a database of 95 AI timeline predictions, it will show that these expectations are borne out in practice: expert predictions contradict each other considerably,
+and are indistinguishable from non-expert predictions and past failed predictions. Predictions that AI lie 15 to 25 years in the future are the most common, from experts and
 non-experts alike.
 NOTE: The findings in this paper are based on a dataset error. For details, see
 https://aiimpacts.org/error-in-armstrong-and-sotala-2012/ .
@@ -53,16 +50,12 @@ what types of predictions are being made, and what kinds of arguments or models 
 being used to justify them. Diﬀerent models and predictions can result in very diﬀerent
 performances, and it will be the ultimate aim of this project to classify and analyze their
 varying reliability.
-Armed with this scheme, we then analyze some of these approaches from the theo-
-retical perspective, seeing whether there are good reasons to believe or disbelieve their
-results. The aim is not simply to critique individual methods or individuals, but to con-
-struct a toolbox of assessment tools that will both enable us to estimate the reliability of
+Armed with this scheme, we then analyze some of these approaches from the theoretical perspective, seeing whether there are good reasons to believe or disbelieve their
+results. The aim is not simply to critique individual methods or individuals, but to construct a toolbox of assessment tools that will both enable us to estimate the reliability of
 a prediction, and allow predictors to come up with better results themselves.
 This paper, the first in the project, looks specifically at AI timeline predictions: those
-predictions that give a date by which we should expect to see an actual AI being devel-
-oped (we use AI in the old fashioned sense of a machine capable of human-comparable
-cognitive performance; a less ambiguous modern term would be “AGI,” Artificial Gen-
-eralIntelligence). With the aid of the biases literature, we demonstrate that there are
+predictions that give a date by which we should expect to see an actual AI being developed (we use AI in the old fashioned sense of a machine capable of human-comparable
+cognitive performance; a less ambiguous modern term would be “AGI,” Artificial General Intelligence). With the aid of the biases literature, we demonstrate that there are
 strong reasons to expert that experts would notbe showing particular skill the field of
 AI timeline predictions. The task is simply not suited for good expert performance.
 Those theoretical results are supplemented with the real meat of the paper: a database
@@ -71,8 +64,7 @@ database was assembled by researchers from the Singularity Institute (Jonathan W
 and Brian Potter) systematically searching though the literature,and is a treasure-trove of
 interesting results. A total of 95 of these can be considered AI timeline predictions. We
 assign to each of them a single “median AI” date, which then allows us to demonstrate
-that AI expert predictions are greatly inconsistent with each other—and indistinguish-
-able from non-expert performance, and past failed predictions.
+that AI expert predictions are greatly inconsistent with each other—and indistinguishable from non-expert performance, and past failed predictions.
 1
 How We’re Predicting AI—or Failing To
 With the data,we further test two folk theorems: firstly that predictors always predict
@@ -93,30 +85,25 @@ constrains our expectation of the future. Before hearing the prediction, we thou
 future would have certain properties; but after hearing and believing it, we now expect
 the future to be diﬀerent from our initial thoughts.
 Under this definition, conditional predictions—“if A, then B will happen”—are also
-perfectly valid. As are negative predictions: we might have believed initially that perpet-
-ual motion machines were possible, and imagined what they could be used for. But once
+perfectly valid. As are negative predictions: we might have believed initially that perpetual motion machines were possible, and imagined what they could be used for. But once
 we accept that one cannot violate conservation of energy, we have a diﬀerent picture of
 the future: one without these wonderful machines and all their fabulous consequences.
 For the present analysis, we will divide predictions about AI into four types:
 Timelines and outcome predictions. These are the traditional types of predictions,telling
-us when we will achieve specific AI milestones. Examples: An AI will pass theTur-
-ing test by 2000 (Turing 1950); within a decade,AIs will be replacing scientists and
+us when we will achieve specific AI milestones. Examples: An AI will pass the Turing test by 2000 (Turing 1950); within a decade,AIs will be replacing scientists and
 other thinking professions (Hall 2011).
 Scenarios. These are a type of conditional predictions, claiming that if the conditions
 of the scenario are met, then certain types of outcomes will follow. Example: If we
 build a human-level AI that is easy to copy and cheap to run, this will cause mass
 unemployment among ordinary humans (Hanson 1994).
-Plans. These are a specific type of conditional prediction, claiming that if someone de-
-cides to implement a specific plan,then they will be successful in achieving a partic-
+Plans. These are a specific type of conditional prediction, claiming that if someone decides to implement a specific plan,then they will be successful in achieving a partic-
 2
 Stuart Armstrong, Kaj Sotala
 ular goal. Example: We can build an AI by scanning a human brain and simulating
 the scan on a computer (Sandberg and Bostrom 2008).
 Issues and metastatements. This category covers relevant problems with (some or all)
 approaches to AI (including sheer impossibility results),and metastatements about
-the whole field. Examples: an AI cannot be built without a fundamental new un-
-derstanding of epistemology (Deutsch 2012); generic AIs will have certain (poten-
-tially dangerous) behaviors (Omohundro 2008).
+the whole field. Examples: an AI cannot be built without a fundamental new understanding of epistemology (Deutsch 2012); generic AIs will have certain (potentially dangerous) behaviors (Omohundro 2008).
 There will inevitably be some overlap between the categories, but this division is natural
 enough for our purposes. In this paper we will be looking at timeline predictions. Thanks
 to the eﬀorts of Jonathan Wang and Brian Potter at the Singularity Institute,the authors
@@ -125,9 +112,7 @@ from the present day back to the 1950s. Other types of predictions will be analy
 subsequent papers.
 2.2. Prediction Methods
 Just as there are many types of predictions, there are many ways of arriving at them—
-consulting crystal balls, listening to the pronouncements of experts, constructing elabo-
-rate models. Our review of published predictions has shown that the prediction meth-
-ods are far more varied than the types of conclusions arrived at. For the purposes of this
+consulting crystal balls, listening to the pronouncements of experts, constructing elaborate models. Our review of published predictions has shown that the prediction methods are far more varied than the types of conclusions arrived at. For the purposes of this
 analysis, we’ll divide the prediction methods into the following loose scheme:
 1.Causal models
 2.Non-causal models
@@ -139,8 +124,7 @@ Causal model are the staple of physics: given certain facts about the situation 
 consideration (momentum, energy, charge, etc.) a conclusion is reached about what the
 ultimate state will be. If the facts were diﬀerent, the end situation would be diﬀerent.
 But causal models are often a luxury outside of the hard sciences, whenever we lack
-precise understanding of the underlying causes. Some success can be achieved with non-
-causal models: without understanding what influences what, one can extrapolate trends
+precise understanding of the underlying causes. Some success can be achieved with non-causal models: without understanding what influences what, one can extrapolate trends
 into the future. Moore’s law is a highly successful non-causal model (Moore 1965).
 The outside view is a method of predicting that works by gathering together specific
 examples and claiming that they all follow the same underlying trend. For instance, one
@@ -165,8 +149,7 @@ domain of expertise. CEO’s, historians, physicists, and mathematicians will ge
 no more accurate than anyone else when talking about AI, no matter how stellar they
 are in their own field (Kahneman 2011).
 Predictions can use a mixture of these approaches, and often do. For instance, Ray
-Kurzweil’s “Law of Time and Chaos”uses the outside view to group together evolution-
-ary development,technological development,and computing into the same category,and
+Kurzweil’s “Law of Time and Chaos”uses the outside view to group together evolutionary development,technological development,and computing into the same category,and
 constructs a causal model predicting time to the “Singularity”(Kurzweil 1999). Moore’s
 law (non-causal model) is a key input to this Law, and Ray Kurzweil’s expertise is the
 main evidence for the Law’s accuracy.
@@ -206,20 +189,16 @@ verifiable piece must be clearly extracted and articulated. Sometimes it is ambi
 must be overcome: when an author predicts an AI“Omega point”in 2040 (Schmidhuber
 2007), it is necessary to read the paper with care to figure out what counts as an Omega
 point and (even more importantly) what doesn’t.
-Even purely philosophical predictions can have (or can be interpreted to have) veri-
-fiable predictions. One of the most famous papers on the existence of conscious states
-is Thomas Nagel’s “What is it like to be a bat” (Nagel 1974). In this paper, Nagel ar-
-gues that bats must have mental states, but that we humans can never understand what
+Even purely philosophical predictions can have (or can be interpreted to have) verifiable predictions. One of the most famous papers on the existence of conscious states
+is Thomas Nagel’s “What is it like to be a bat” (Nagel 1974). In this paper, Nagel argues that bats must have mental states, but that we humans can never understand what
 it is like to have these mental states. This feels purely philosophical, but does lead to
 empirical predictions: that if the bat’s intelligence were increased and we could develop
 a common language, then at some point in the conversation with it, our understanding
 would reach an impasse. We would try to describe what our internal mental states felt
 like, but would always fail to communicate the essence of our experience to the other
 species.
-Many other philosophical papers can likewise be read as having empirical predic-
-tions; as making certain states of the world more likely or less—even if they seem to
-be devoid of this. The Chinese Room argument, for instance, argues that formal algo-
-rithms will lack the consciousness that humans possess (Searle 1980). This may seem
+Many other philosophical papers can likewise be read as having empirical predictions; as making certain states of the world more likely or less—even if they seem to
+be devoid of this. The Chinese Room argument, for instance, argues that formal algorithms will lack the consciousness that humans possess (Searle 1980). This may seem
 to be an entirely self-contained argument—but consider that a lot of human behavior
 revolves around consciousness, be it discussing it, commenting on it, defining it or in-
 5
@@ -227,14 +206,11 @@ How We’re Predicting AI—or Failing To
 tuitively noticing it in others. Hence if we believed the Chinese Room argument, and
 were confronted with two AI projects, one based on advanced algorithms and one based
 on modified human brains, we would be likely to believe that the second project is more
-likely to result in an intelligence that seemed conscious than the first. This is simply be-
-cause we wouldn’t believe that the first AI could ever be conscious, and that it is easier
+likely to result in an intelligence that seemed conscious than the first. This is simply because we wouldn’t believe that the first AI could ever be conscious, and that it is easier
 to seem conscious when one actually is. And that gives an empirical prediction.
-Note that the authors of the predictions may disagree with our “extracted” conclu-
-sions. This is not necessarily a game breaker. For instance, even if there is no formal link
+Note that the authors of the predictions may disagree with our “extracted” conclusions. This is not necessarily a game breaker. For instance, even if there is no formal link
 between the Chinese Room model and the prediction above, it’s still the case that the
-intuitive reasons for believing the model are also good reasons for believing the predic-
-tion. Our aim should always be to try to create useful verifiable predictions in any way
+intuitive reasons for believing the model are also good reasons for believing the prediction. Our aim should always be to try to create useful verifiable predictions in any way
 we can. In this way, we can make use of much more of the AI literature. For instance,
 Lucas argues that AI is impossible because it could not recognize the truth of its own
 Gödel sentence (Lucas 1961).1This is a very strong conclusion, and we have to accept
@@ -242,20 +218,16 @@ a lot of Lucas’s judgments before we agree with it. Replacing the conclusion w
 weaker (and verifiable) “self reference will be an issue with advanced AI,and will have to
 be dealt with somehow by the programmers” gives us a useful prediction which is more
 likely to be true.
-Care must be taken when applying this method: the point is to extract a useful ver-
-ifiable prediction, not to weaken or strengthen a reviled or favored argument. The very
+Care must be taken when applying this method: the point is to extract a useful verifiable prediction, not to weaken or strengthen a reviled or favored argument. The very
 first stratagems in Shopenhauer’s “The Art of Always being Right”(Schopenhauer 1831)
-are to extend and over-generalize the consequences of your opponent’s argument; con-
-versely, one should reduce and narrow down one’s own arguments. There is no lack of
+are to extend and over-generalize the consequences of your opponent’s argument; conversely, one should reduce and narrow down one’s own arguments. There is no lack of
 rhetorical tricks to uphold one’s own position, but if one is truly after the truth, one
 must simply attempt to find the most reasonable empirical version of the argument; the
 truth-testing will come later.
 This method often increases uncertainty, in that it often narrows the consequences of
-the prediction, and allows more possible futures to exist, consistently with that predic-
-tion. For instance, Bruce Edmonds (Edmonds 2008), building on the “No Free Lunch”
+the prediction, and allows more possible futures to exist, consistently with that prediction. For instance, Bruce Edmonds (Edmonds 2008), building on the “No Free Lunch”
 results (Wolpert and Macready 1995), demonstrates that there is no such thing as a
-universal intelligence: no intelligence that performs better than average in every cir-
-cumstance. Initially this seems to rule out AI entirely; but when one analyzes what this
+universal intelligence: no intelligence that performs better than average in every circumstance. Initially this seems to rule out AI entirely; but when one analyzes what this
 means empirically,one realizes there is far less to it. It does not forbid an algorithm from
 performing better than any human being in any situation any human being would ever
 1. A Gödel sentence is a sentence G that can be built in any formal system containing arithmetic. G is
@@ -270,30 +242,22 @@ on the future at all.
 The previous section was concerned with the predictions’ conclusions. Here we will
 instead be looking at its assumptions,and the logical structure of the argument or model
 behind it. The objective is to make the prediction as rigorous as possible
-Philosophers love doing this: taking apart argument, adding caveats and straight-
-ening out the hand-wavy logical leaps. In a certain sense, it can be argued that ana-
-lytic philosophy is entirely about making arguments rigorous. One of the oldest meth-
-ods in philosophy—the dialectic (Plato, 380BCE)—also plays this role, with concepts
+Philosophers love doing this: taking apart argument, adding caveats and straightening out the hand-wavy logical leaps. In a certain sense, it can be argued that analytic philosophy is entirely about making arguments rigorous. One of the oldest methods in philosophy—the dialectic (Plato, 380BCE)—also plays this role, with concepts
 getting clarified during the conversation between philosophers and various Athenians.
-Though this is perhaps philosophy’s greatest contribution to knowledge, it is not ex-
-clusively the hunting ground of philosophers. All rational fields of endeavor do—and
+Though this is perhaps philosophy’s greatest contribution to knowledge, it is not exclusively the hunting ground of philosophers. All rational fields of endeavor do—and
 should!—benefit from this kind of analysis.
 Of critical importance is revealing hidden assumptions that went into the predictions.
-These hidden assumptions—sometimes called Enthymematic gaps in the literature (Fal-
-lis 2003)—are very important because they clarify where the true disagreements lie, and
+These hidden assumptions—sometimes called Enthymematic gaps in the literature (Fallis 2003)—are very important because they clarify where the true disagreements lie, and
 where we need to focus our investigation in order to find out the truth of prediction.
 Too often, competing experts will make broad-based arguments that fly past each other.
-This makes choosing the right argument a matter of taste, prior opinions and our ad-
-miration of the experts involved. But if the argument can be correctly deconstructed,
+This makes choosing the right argument a matter of taste, prior opinions and our admiration of the experts involved. But if the argument can be correctly deconstructed,
 then the source of the disagreement can be isolated, and the issue can be decided on
-much narrower grounds—and its much clearer whether the various experts have rele-
-vant expertise or not (see Section 3.4). The hidden assumptions are often implicit,so it is
+much narrower grounds—and its much clearer whether the various experts have relevant expertise or not (see Section 3.4). The hidden assumptions are often implicit,so it is
 perfectly permissible to construct assumptions that the predictors were not consciously
 aware of using.
 For example, let’s look again at the Gödel arguments mentioned in Section 3.1. The
 argument shows that formal systems of a certain complexity must be either incomplete
-(unable to see that their Gödel sentence is true) or inconsistent (proving false state-
-ments). This is contrasted with humans, who—allegedly—use meta-reasoning to know
+(unable to see that their Gödel sentence is true) or inconsistent (proving false statements). This is contrasted with humans, who—allegedly—use meta-reasoning to know
 that their own Gödel statements are true. It should first be noted here that no one has
 written down an actual “human Gödel statement,”so we cannot be sure humans would
 actually figure out that it is true.2Also, humans are both inconsistent and able to deal
@@ -303,8 +267,7 @@ recognize as being a human Gödel statement!
 How We’re Predicting AI—or Failing To
 with inconsistencies without a complete collapse of logic. In this, they tend to diﬀer
 from AI systems, though some logic systems such as relevance logic do mimic the same
-behavior (Routley and Meyer 1976). In contrast, both humans and AIs are not logi-
-cally omniscient—they are not capable of proving everything provable within their logic
+behavior (Routley and Meyer 1976). In contrast, both humans and AIs are not logically omniscient—they are not capable of proving everything provable within their logic
 system (the fact that there are an infinite number of things to prove being the problem
 here). So this analysis demonstrates the hidden assumption in Lucas’s argument: that
 the behavior of an actual computer program running on a real machine is more akin to
@@ -314,8 +277,7 @@ whether Gödelian arguments rule out artificial intelligence.
 Again,it needs to be emphasized that the purpose is to clarify and analyze arguments,
 not to score points for one side or the other. It is easy to phrase assumptions in ways that
 sound good or bad for either “side.” It is also easy to take the exercise too far: finding
-more and more minor clarifications or specific hidden assumptions until the whole pre-
-diction becomes a hundred page mess of over-detailed special cases. The purpose is to
+more and more minor clarifications or specific hidden assumptions until the whole prediction becomes a hundred page mess of over-detailed special cases. The purpose is to
 clarify the argument until it reaches the point where all (or most) parties could agree that
 these assumptions are the real sources of disagreement. And then we can consider what
 empirical evidence, if available, or expert opinion has to say about these disagreements.
@@ -326,9 +288,7 @@ we have some standard tools available for clarifying, though see Morgan and Henr
 that this doesn’t cause a breakdown in the prediction.
 3.2.1. ModelTesting and Counterfactual Resiliency
 Though the above works from inside the model,there are very few methods that can test
-the strength of a model from the outside. This is especially the case for non-causal mod-
-els: what are the assumptions behind Moore’s famous law (Moore 1965),or Robin Han-
-son’s model that we are due for another technological revolution, based on the timeline
+the strength of a model from the outside. This is especially the case for non-causal models: what are the assumptions behind Moore’s famous law (Moore 1965),or Robin Hanson’s model that we are due for another technological revolution, based on the timeline
 of previous revolutions (Hanson 2009)? If we can’t extract assumptions, we’re reduced
 to saying “that feel right/wrong to me,”and therefore we’re getting nowhere.
 The authors have come up with a putative way of testing the assumptions of such
@@ -367,14 +327,12 @@ fewer constraints on our expectations. In counterpart, of course, the caveated p
 is more likely to be true.
 3.3. Empirical Evidence
 The gold standard in separating true predictions from false ones must always be empirical
-evidence. The scientific method has proved to be the best way of disproving false hy-
-potheses, and should be used whenever possible. Other methods, such as expert opinion
+evidence. The scientific method has proved to be the best way of disproving false hypotheses, and should be used whenever possible. Other methods, such as expert opinion
 or unjustified models, come nowhere close.
 The problem with empirical evidence is that . . . it is generally non-existent in the
 AI prediction field. Since AI predictions are all about the existence and properties of
 a machine that hasn’t yet been built, that no-one knows how to build or whether it
-actually can be built, there is little opportunity for the whole hypothesis-prediction-
-testing cycle. This should indicate the great difficulties in the field. Social sciences, for
+actually can be built, there is little opportunity for the whole hypothesis-prediction-testing cycle. This should indicate the great difficulties in the field. Social sciences, for
 instance,are often seen as the weaker cousins of the hard sciences,with predictions much
 9
 How We’re Predicting AI—or Failing To
@@ -391,15 +349,12 @@ knows what they’re talking about.” And some models also allow for a degree o
 So the field is not void of empirical evidence; it’s just that there is so little of it, and to a
 large extent we must put our trust in expert opinion.
 3.4. Expert Opinion
-Reliance on experts is nearly unavoidable in AI prediction. Timeline predictions are of-
-ten explicitly based on experts’feelings; even those that consider factors about the world
+Reliance on experts is nearly unavoidable in AI prediction. Timeline predictions are often explicitly based on experts’feelings; even those that consider factors about the world
 (such as computer speed) need an expert judgment about why that factor is considered
 and not others. Plans need experts to come up with them and judge their credibility.
-And unless every philosopher agrees on the correctness of a particular philosophical ar-
-gument, we are dependent to some degree on the philosophical judgment of the author.
+And unless every philosopher agrees on the correctness of a particular philosophical argument, we are dependent to some degree on the philosophical judgment of the author.
 It is the purpose of all the methods described above that we can refine and caveat a
-prediction, back it up with empirical evidence whenever possible, and thus clearly high-
-light the points where we need to rely on expert opinion. And so can focus on the last
+prediction, back it up with empirical evidence whenever possible, and thus clearly highlight the points where we need to rely on expert opinion. And so can focus on the last
 remaining points of disagreement: the premises themselves (that is of course the ideal
 situation: some predictions are given directly with no other basis but expert authority,
 meaning there is nothing to refine).
@@ -408,8 +363,7 @@ over the last few decades to establish the domains and tasks where we would expe
 experts to have good performance (Shanteau 1992; Kahneman and Klein 2009). Table
 1 summarizes the results:
 Not all of these are directly applicable to the current paper (are predictions about
-human level AIs predictions about things, or about behavior?). One of the most impor-
-tant factors is whether experts get feedback, preferably immediate feedback. We should
+human level AIs predictions about things, or about behavior?). One of the most important factors is whether experts get feedback, preferably immediate feedback. We should
 expect the best expert performance when their guesses are immediately confirmed or
 disconfirmed. When feedback is unavailable or delayed, or the environment isn’t one
 that give good feedback, then expert performance drops precipitously (Kahneman and
@@ -454,20 +408,16 @@ we are not experts in choosing between experts, so we have no special skills in 
 the truths on these sorts of controversial positions.
 11
 How We’re Predicting AI—or Failing To
-What kind of objective criteria could there be? A good track record can be an indica-
-tor, as is a willingness to make verifiable, non-ambiguous predictions. A better connec-
-tion with empirical knowledge and less theoretical rigidity are also positive indications
+What kind of objective criteria could there be? A good track record can be an indicator, as is a willingness to make verifiable, non-ambiguous predictions. A better connection with empirical knowledge and less theoretical rigidity are also positive indications
 (Tetlock 2005), and any expert that approached their task with methods that were more
 on the left of the table than on the right should be expected to be more correct. But these
 are second order phenomena—we’re looking at our subjective interpretation of expert’s
-subjective opinion—so in most cases, when there are strong disagreement between ex-
-perts, we simply can’t tell which position is true.
+subjective opinion—so in most cases, when there are strong disagreement between experts, we simply can’t tell which position is true.
 3.4.1. Grind Versus Insight
 Some AI prediction claim that AI will result from grind: i.e. lots of hard work and
 money. Other claim that AI will need special insights: new unexpected ideas that will
 blow the field wide open (Deutsch 2012).
-In general, we are quite good at predicting grind. Project managers and various lead-
-ers are often quite good at estimating the length of projects (as long as they’re not directly
+In general, we are quite good at predicting grind. Project managers and various leaders are often quite good at estimating the length of projects (as long as they’re not directly
 involved in the project (Buehler, Griffin, and Ross 1994)). Even for relatively creative
 work,people have sufficient feedback to hazard reasonable guesses. Publication dates for
 video games, for instance, though often over-optimistic, are generally not ridiculously
@@ -487,8 +437,7 @@ by the fact of not knowing what these insights are (unlike the Riemann hypothesi
 where the hypothesis is clearly stated, and only the proof is missing). This could be
 mitigated somewhat if we assumed there were several diﬀerent insights, each of which
 could separately lead to AI. But we would need good grounds to assume that.
-Does this mean that in general predictions that are modeling grind should be ac-
-cepted more than predictions that are modeling insight? Not at all. Predictions that are
+Does this mean that in general predictions that are modeling grind should be accepted more than predictions that are modeling insight? Not at all. Predictions that are
 modeling grind should only be accepted if they can make a good case that producing
 an AI is a matter grind only. The predictions around whole brain emulations (Sandberg
 12
@@ -511,8 +460,7 @@ hypothetical changes in authorship do not aﬀect our estimation of the predicti
 4.Timeline Predictions
 The practical focus of this paper is on AI timeline predictions: predictions giving dates
 for AIs with human-comparable cognitive abilities. Researchers from the Singularity
-Institute have assembled a database of 257 AI predictions since 1950, of which 95 in-
-clude AI timelines.
+Institute have assembled a database of 257 AI predictions since 1950, of which 95 include AI timelines.
 4.1. Subjective Assessment
 A brief glance at Table 1 allows us to expect that AI timeline predictions will generally be
 of very poor quality. The only factor that is unambiguously positive for AI predictions is
@@ -532,15 +480,12 @@ Some predictions are unabashedly based simply on the feelings of the predictor (
 1962; Armstrong 2007).
 Yet another category are of the “Moore’s law hence AI” type. They postulate that
 AI will happen when computers reach some key level, often comparing with some
-key property of the brain (number of operations per second (Bostrom 1998), or neu-
-rones/synapses3). In the division established in Section 3.4.1, this is pure “grind” argu-
-ment: AI will happen after a certain amount of work is performed. But, as we saw, these
+key property of the brain (number of operations per second (Bostrom 1998), or neurones/synapses3). In the division established in Section 3.4.1, this is pure “grind” argument: AI will happen after a certain amount of work is performed. But, as we saw, these
 kinds of arguments are only valid if the predictor has shown that reaching AI does not
 require new insights! And that step is often absent from the argument.
 4.2. Timeline Prediction Data
 The above were subjective impressions, formed while looking over the whole database.
-To enable more rigorous analysis,the various timeline predictions were reduced to a sin-
-gle number for purposes of comparison: this would be the date upon which the predictor
+To enable more rigorous analysis,the various timeline predictions were reduced to a single number for purposes of comparison: this would be the date upon which the predictor
 expected “human level AI”to be developed.
 Unfortunately not all the predictions were in the same format. Some gave ranges,
 some gave median estimates,some talked about superintelligent AI,others about slightly
@@ -581,8 +526,7 @@ good predictions. There does not seem to be any visible diﬀerence between expe
 non-expert performance either,suggesting that the same types of reasoning may be used
 in both situations, thus negating the point of expertise.
 Two explanations have been generally advanced to explain poor expert performance
-in these matters. The first, the so-called Maes-Garreau law5posits that AI experts pre-
-dict AI happening towards the end of their own lifetime. This would make AI into
+in these matters. The first, the so-called Maes-Garreau law5posits that AI experts predict AI happening towards the end of their own lifetime. This would make AI into
 a technology that would save them from their own deaths, akin to a “Rapture of the
 Nerds.”
 The second explanation is that AI is perpetually fifteen to twenty-five years into the
@@ -597,8 +541,7 @@ We’ll now look at the evidence for these two explanations.
 4.2.1. Nerds Don’t Get Raptured
 Fifty-five predictions were retained, in which it was possible to estimate the predictor’s
 expected lifespan. Then the diﬀerence between their median prediction and this lifespan
-was computed (a positive diﬀerence meaning they would expect to die before AI, a neg-
-ative diﬀerence meaning they didn’t). A zero diﬀerence would be a perfect example of
+was computed (a positive diﬀerence meaning they would expect to die before AI, a negative diﬀerence meaning they didn’t). A zero diﬀerence would be a perfect example of
 the Maes-Garreau law: the predictor expects AI to be developed at the exact end of their
 life. This number was then plotted again the predictor’s age in Figure 2 (the plot was
 restricted to those predictions within thirty years of the predictor’s expected lifetime).
@@ -621,16 +564,13 @@ do indeed prefer to predict AI happening in that range from their own time.
 Figure 3: Time between the arrival of AI and the date the prediction was made, for
 expert predictors.
 But the picture gets more damning when we do the same plot for the non-experts,
-as in Figure 4. Here, 13 of the 33 predictions are in the 16-25 year range. But more dis-
-turbingly, the time to AI graph is almost identical for experts and non-experts! Though
+as in Figure 4. Here, 13 of the 33 predictions are in the 16-25 year range. But more disturbingly, the time to AI graph is almost identical for experts and non-experts! Though
 this does not preclude the possibility of experts being more accurate,it does hint strongly
-that experts and non-experts may be using similar psychological procedures when cre-
-ating their estimates.
+that experts and non-experts may be using similar psychological procedures when creating their estimates.
 The next step is to look at failed predictions. There are 15 of those, most dating to
 before the “AI winter” in the eighties and nineties. These have been graphed in Figure
 5—and there is an uncanny similarity with the other two graphs! So expert predictions
-are not only indistinguishable from non-expert predictions, they are also indistinguish-
-able from past failed predictions. Hence it is not unlikely that recent predictions are
+are not only indistinguishable from non-expert predictions, they are also indistinguishable from past failed predictions. Hence it is not unlikely that recent predictions are
 suﬀering from the same biases and errors as their predecessors
 5.Conclusion
 This paper, the first in a series analyzing AI predictions, focused on the reliability of AI
@@ -652,15 +592,11 @@ veloped). These predictions are almost wholly grounded on expert judgment. The b
 literature classified the types of tasks on which experts would have good performance,
 and AI timeline predictions have all the hallmarks of tasks on which they would perform
 badly.
-This was borne out by the analysis of 95 timeline predictions in the database assem-
-bled by the Singularity Institute. There were strong indications therein that experts per-
-formed badly. Not only were expert predictions spread across a wide range and in strong
+This was borne out by the analysis of 95 timeline predictions in the database assembled by the Singularity Institute. There were strong indications therein that experts performed badly. Not only were expert predictions spread across a wide range and in strong
 disagreement with each other, but there was evidence that experts were systematically
-preferring a “15 to 25 years into the future”prediction. In this, they were indistinguish-
-able from non-experts, and from past predictions that are known to have failed. There
+preferring a “15 to 25 years into the future”prediction. In this, they were indistinguishable from non-experts, and from past predictions that are known to have failed. There
 is thus no indication that experts brought any added value when it comes to estimating
-AI timelines. On the other hand, another theory—that experts were systematically pre-
-dicting AI arrival just before the end of their own lifetime—was seen to be false in the
+AI timelines. On the other hand, another theory—that experts were systematically predicting AI arrival just before the end of their own lifetime—was seen to be false in the
 data we have.
 There is thus strong grounds for dramatically increasing the uncertainty in any AI
 timeline prediction.
@@ -704,8 +640,7 @@ Hanson, Robin. 1994. “If Uploads Come First: The Crack of a Future Dawn.” Ex
 //hanson.gmu.edu/uploads.html .
 20
 Stuart Armstrong, Kaj Sotala
-. 2009. “The Economics of Brain Emulations.” In Unnatural Selection: The Challenges of Engineer-
-ing Tomorrow’s People, edited by Peter Healey and Steve Rayner. Science in Society. Sterling, VA:
+. 2009. “The Economics of Brain Emulations.” In Unnatural Selection: The Challenges of Engineering Tomorrow’s People, edited by Peter Healey and Steve Rayner. Science in Society. Sterling, VA:
 Earthscan.
 Jacquette, Dale. 1987.“Metamathematical Criteria for Minds and Machines.” Erkenntnis 27 (1): 1–16.
 Kahneman, Daniel. 2011. Thinking, Fast and Slow. 1st ed. New York: Farrar, Straus / Giroux.
@@ -717,8 +652,7 @@ Lucas, J. R. 1961.“Minds, Machines and Gödel.” Philosophy 36 (137): 112–1
 Moore, Gordon.1965.“Cramming More Components onto Integrated Circuits.” Electronics 38 (8): 114–
 117.http://download.intel.com/museum/Moores\_Law/Articles-Press\_Releases/
 Gordon\_Moore\_1965\_Article.pdf .
-Morgan, M. Granger,and Max Henrion.1990. Uncertainty: A Guide to Dealing with Uncertainty in Quan-
-titative Risk and Policy Analysis. New York: Cambridge University Press.
+Morgan, M. Granger,and Max Henrion.1990. Uncertainty: A Guide to Dealing with Uncertainty in Quantitative Risk and Policy Analysis. New York: Cambridge University Press.
 Nagel, Thomas.1974.“What Is It Like to Be a Bat?” Philosophical Review 83 (4): 435–450. http://www.
 jstor.org/stable/2183914 .
 Omohundro, Stephen M. 2008. “The Basic AI Drives.” In Artificial General Intelligence 2008: Proceedings
@@ -732,8 +666,7 @@ number of primes less than a given magnitude]. Monatsberichte der Berliner Akade
 Routley, Richard, and Robert K. Meyer. 1976.“Dialectical Logic, Classical Logic, and the Consistency of
 the World.” Studies in Soviet Thought 16 (1–2): 1–25.
 Sandberg, Anders,and Nick Bostrom.2008. Whole Brain Emulation: A Roadmap. Technical Report,2008-
-3. Future of Humanity Institute, University of Oxford. http://www.fhi.ox.ac.uk/wp-
-content/uploads/brain-emulation-roadmap-report1.pdf .
+3. Future of Humanity Institute, University of Oxford. http://www.fhi.ox.ac.uk/wp-content/uploads/brain-emulation-roadmap-report1.pdf .
 Schmidhuber, Jürgen.2007.“The New AI: General & Sound & Relevant for Physics.”In Artificial General
 Intelligence, edited by Ben Goertzel and Cassio Pennachin,175–198.CognitiveTechnologies.Berlin:
 Springer.
@@ -741,8 +674,7 @@ Schopenhauer, Arthur.1831. The Art of Being Right: 38 Ways to Win an Argument [E
 kunst, recht zu behalten].Translated by Thomas Bailey Saunders. Republication of 1896 translation.
 Wikisource. http://en.wikisource.org/wiki/The\_Art\_of\_Being\_Right .
 Searle, John R. 1980.“Minds, Brains, and Programs.” Behavioral and Brain Sciences 3 (03): 417–424.
-Shanteau, James. 1992. “Competence in Experts: The Role of Task Characteristics.” Organizational Be-
-havior and Human Decision Processes 53 (2): 252–266.
+Shanteau, James. 1992. “Competence in Experts: The Role of Task Characteristics.” Organizational Behavior and Human Decision Processes 53 (2): 252–266.
 Tetlock, Philip E. 2005. Expert Political Judgment: How Good is it? How Can We Know? Princeton, NJ:
 Princeton University Press.
 21
