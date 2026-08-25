@@ -5,4 +5,4 @@ title: "On neural scaling and the quanta hypothesis"
 
 #### Article
 source:: [[../articles/ericjmichaud-on-neural-scaling-and-the-quanta-hypothesis]]
-to:: "last two years, which I'll discuss [below](#sparse-autoencoders)."
+to:: "last two years, which I'll discuss [below](#features-quanta-and-sparse-autoencoders)."
