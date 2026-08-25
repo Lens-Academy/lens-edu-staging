@@ -10,6 +10,14 @@ domain: "[[../Domains/Taking Action]]"
 stage: intermediate
 requires:
   - "[[Listening before persuasion]]"
+eval-results:
+  content-sha: db929bd2
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: fail, B1: pass, C2: pass, C3: pass}
+  notes: {A3: "Two separably attainable capabilities: explaining why the two rules are complementary is a conceptual account, while telling genuine readiness signals from politeness is a distinct practical discrimination a learner could lack while holding the first (and could be taught and tested as its own file)."}
+  evidence: {A3: "are complementary rather than contradictory, and distinguish genuine readiness signals from politeness"}
 ---
 
 ## Test:

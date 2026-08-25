@@ -8,6 +8,14 @@ tags:
   - wip
 domain: "[[../Domains/Taking Action]]"
 stage: intermediate
+eval-results:
+  content-sha: f32748ee
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: pass, C2: fail, C3: pass}
+  notes: {C2: "Pass level 3 requires the ask to \"name the stakes\" and the stop to include a \"warm pivot\" — neither is asked for or clearly implied by the question, which only asks for the actual next words and what makes an ask a real ask and a stop a real stop."}
+  evidence: {C2: "**3** — (a) A genuine, declinable ask that names the stakes and offers a real exit; (b) a complete stop with a warm pivot and zero rider."}
 ---
 
 ## Test:
@@ -27,7 +35,7 @@ Score according to the following rubric. The dialogue is the required core: if t
 
 **2** — (a) Asks permission but loads the ask so that "no" is awkward; (b) stops but bargains for a future slot. *Example: "(a) 'Don't you want to know what's actually happening with AI?' (b) 'Sure, sure — but can we come back to this later? It's important.'"*
 
-**3** — (a) A genuine, declinable ask that names the stakes and offers a real exit; (b) a complete stop with a warm pivot and zero rider. *Example: "(a) 'I have some thoughts about where this is going that honestly worry me — want to hear them, or is this not the moment?' (b) 'Yeah, of course. So how did the trip end up?'"*
+**3** — (a) A genuine, declinable ask that offers a real exit — "no" is a normal, easy answer, not an awkward one; (b) a complete stop with zero rider: no parting shot, no guilt, no bargaining for a later slot. *(Naming what's at stake in the ask, or pivoting warmly onto their topic after the stop, strengthens an answer but is not required to pass at this level.)* *Example: "(a) 'I have some thoughts about where this is going that honestly worry me — want to hear them, or is this not the moment?' (b) 'Yeah, of course. So how did the trip end up?'"*
 
 **4** — As above, plus explains the mechanism of each move: a declinable ask transfers control, and that transfer is what makes a "yes" mean something — consent you couldn't refuse isn't consent. A clean stop is the strongest trust evidence available in the conversation, because it proves, behaviorally, that the relationship outranks the agenda. *Example: Adds "The ask only works because they can actually say no — if they can't, their yes is just politeness and I've learned nothing. And the stop is where they find out whether I meant it: stopping cleanly is the one move that can't be faked."*
 

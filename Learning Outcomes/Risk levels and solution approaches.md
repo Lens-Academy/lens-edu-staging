@@ -3,6 +3,14 @@ id: 18f79ac5-25b7-4dd0-ba62-1d6fc11b01ca
 learning-outcome: Be aware of foundational discussions on the level of risk and different high-level approaches to solving the AI alignment problem
 domain: "[[../Domains/Strategy]]"
 stage: intermediate
+eval-results:
+  content-sha: 291d909c
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: fail, A2: pass, A3: fail, B1: fail, C2: pass, C3: pass}
+  notes: {A1: "\"Be aware of\" is an explicitly unobservable verb and the object is an unpinned topic list.", A3: "Bundles two independently demonstrable capabilities (risk-level views vs. solution approaches); the rubric itself awards a partial score for \"one part solid\".", B1: "Question makes a specific Anthropic text load-bearing scaffolding rather than self-containing the framing."}
+  evidence: {A1: "Be aware of foundational discussions on the level of risk and different high-level approaches to solving the AI alignment problem", A3: "the level of risk and different high-level approaches to solving the AI alignment problem", B1: "using the three scenarios from Anthropic's \"Core Views on AI Safety\" as your scaffold"}
 ---
 ## Test:
 id:: 846bc26c-5dfe-4370-a4ff-e6ef62b0a127

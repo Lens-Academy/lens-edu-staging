@@ -3,6 +3,12 @@ id: 'ff6e5728-7ea0-4ee1-a702-7dc428def34a'
 learning-outcome: Given a reported experimental result about an AI system behaving deceptively, determine which threat-model claims the result supports, which it leaves untouched, and which it would have to be redesigned to test; and state what the same observation would look like if the alarming interpretation were false.
 domain: none
 stage: intermediate
+eval-results:
+  content-sha: 248ca9b0
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: pass, C2: pass, C3: pass}
 ---
 ## Test:
 id:: 517aaa5e-0ae3-4e52-ac51-a125e1f1cdda
