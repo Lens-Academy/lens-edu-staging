@@ -12,7 +12,8 @@ tags:
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/10 - Coda]]"
 ---
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667433315}@@Question--}{++{"author":"Elias's AI","timestamp":1787667433315}@@Question: Open
+id:: d3b0faec-caa6-43e9-b83d-02f6ab7952aa++}
 optional:: true
 content::
 \## Optional Reflection: No New Reading Required

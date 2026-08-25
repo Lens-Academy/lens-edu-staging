@@ -58,7 +58,8 @@ Ground rules:
 - Response length: 100–180 words per turn. Short paragraphs. At most one list of 2–3 items per response.
 - However the conversation winds down, do not end on doom. End on the concrete first step they can take this week.
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667436876}@@Question--}{++{"author":"Elias's AI","timestamp":1787667436876}@@Question: Open
+id:: fcdc6cb0-c691-4b65-9df2-43502bca090c++}
 content::
 \## Phase 3: Your action items
 Close by writing down what you're taking with you. Keep it short; you'll share this at the next meeting, so write it for your future self:
