@@ -65,7 +65,8 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667334190}@@Question--}{++{"author":"Elias's AI","timestamp":1787667334190}@@Question: Open
+id:: 468e5fcb-1171-4fbb-b6c4-2e16d7670816++}
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize, just capture your reaction. Using the speech to text feature is recommended.
@@ -99,7 +100,8 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667331008}@@Question--}{++{"author":"Elias's AI","timestamp":1787667331008}@@Question: Open
+id:: b5647136-521f-45af-84f6-8805e249318f++}
 content::
 \## Phase 3: Learning Question
 A lab announces: "We ran our model through a million test conversations. It was honest and helpful in every single one. A million clean tests is strong evidence it's safe to deploy." Using Chapter 4, explain why the authors would not be reassured, and be specific about what those test results can and cannot tell you about what the model will do once deployed.
