@@ -30,7 +30,7 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading. Do it without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just finished reading the second half of Chapter 1 of "If Anyone Builds It, Everyone Dies" and has written a free recall: everything they could remember without looking back at the text.
+{--{"author":"Elias's AI","timestamp":1787672386669}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672386669}@@feedback-instructions::++} The student has just finished reading the second half of Chapter 1 of "If Anyone Builds It, Everyone Dies" and has written a free recall: everything they could remember without looking back at the text.
 
 Major strands covered in this section:
 - Structural advantages machines can have over biological brains: speed, copying, faster improvement, larger memory, higher-quality thinking, and self-experimentation
@@ -74,7 +74,7 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+{--{"author":"Elias's AI","timestamp":1787672389635}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672389635}@@feedback-instructions::++} The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, not to explain the content to them.
 
@@ -109,7 +109,7 @@ content::
 \## Phase 3: Learning Question
 A friend says: "Current AI is still shallow, and every better AI must be designed step by step by human researchers. So there is no reason to expect machines to overtake humanity." Using the chapter's argument, identify the assumptions in that forecast. How do machine advantages and AI-assisted AI research change it, and what remains genuinely uncertain?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase for the second half of Chapter 1 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+{--{"author":"Elias's AI","timestamp":1787672392983}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672392983}@@feedback-instructions::++} The student has completed a reading, a free recall, and a reflection phase for the second half of Chapter 1 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question is a deliberate wedge, not the test question. It asks the student to examine a plausible forecast that treats current limitations as permanent and assumes humans must remain the sole source of AI progress. Draw out the mechanism rather than asking them to recite the chapter's list.
 
