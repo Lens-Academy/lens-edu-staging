@@ -24,8 +24,7 @@ As you watch, hold on to two things: the moment that sticks with you most, and t
 source:: [[../video_transcripts/species-documenting-agi-pov-what-you-would-see-during-an-ai-takeover]]
 from:: 2:03
 
-#### {--{"author":"Elias's AI","timestamp":1787667409815}@@Question--}{++{"author":"Elias's AI","timestamp":1787667409815}@@Question: Open
-id:: de37adc9-d4a7-4c00-b152-aaddea9b8403++}
+#### {--{"author":"Elias's AI","timestamp":1787673551352}@@Question--}{++{"author":"Elias's AI","timestamp":1787673551352}@@Question++}
 content::
 \## Your reaction
 Two things, a few sentences each (speech-to-text works well here):
