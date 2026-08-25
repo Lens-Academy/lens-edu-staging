@@ -6,7 +6,8 @@ tldr: "Before reading, think about whether you can use a smarter version of an u
 authors:
   - Yatharth+Claude
 ---
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667497517}@@Question--}{++{"author":"Elias's AI","timestamp":1787667497517}@@Question: Open
+id:: ab812d6f-dae6-4d39-8b3a-6d99d1c51673++}
 content:: When a problem is hard, one tempting response is: "let's get a smarter solver to handle it." For some problems this works: a more skilled mathematician really can solve a problem the rest of us cannot. For other problems, this hits an obstacle.
 
 **Take 60 seconds and think of a problem where 'just bring in a smarter solver' wouldn't work.** What is it about that problem that makes the smart-solver move unavailable? Is it the trust? The verification? Something else?

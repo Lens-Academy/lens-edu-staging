@@ -64,7 +64,8 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667503435}@@Question--}{++{"author":"Elias's AI","timestamp":1787667503435}@@Question: Open
+id:: 9d2ec013-0a1a-4721-8a0f-96a968d96189++}
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Using the speech to text feature is recommended.
@@ -98,7 +99,8 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667500362}@@Question--}{++{"author":"Elias's AI","timestamp":1787667500362}@@Question: Open
+id:: 5d8aef04-2496-4882-a413-ee8ae6b25c30++}
 content::
 \## Phase 3: Learning Question
 A lab thinks it has patched the trust problem. It will build two superhuman AIs that share no memory: one invents an alignment plan, and a second, adversarial AI is rewarded only for finding hidden flaws in that plan. "If the critic can't break the plan after millions of attempts, we'll trust it." Using Chapter 11's reasoning, does bolting on the adversarial checker get the lab out of the hole, or not? Point to exactly where the move holds or fails.
