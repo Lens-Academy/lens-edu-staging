@@ -10,7 +10,7 @@ authors:
 a mood into a model with named parts. By module end the student can produce at
 least two genuinely different trajectories for AI capability, each with a
 driving mechanism and an observation that would count against it (graded, via
-transfer, in the solar test). Each lens contributes one tool: the cold open
+transfer, in the {>>{"author":"lauren","timestamp":1787665818235}@@where?<<}solar test). Each lens contributes one tool: the cold open
 sets the epistemic frame (young field, guess first, revise honestly) and
 creates the day-zero model the whole course keeps revising; the +12 OOMs probe
 surfaces what the student's own model thinks compute buys; When Progress Jumps
