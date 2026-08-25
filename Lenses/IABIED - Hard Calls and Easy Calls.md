@@ -65,7 +65,8 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667240768}@@Question--}{++{"author":"Elias's AI","timestamp":1787667240768}@@Question: Open
+id:: 2c718b24-10d7-4267-a500-b9f06460b050++}
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Again, using the speech to text feature is recommended.
@@ -99,7 +100,8 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question: that is Phase 3's job.
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667238311}@@Question--}{++{"author":"Elias's AI","timestamp":1787667238311}@@Question: Open
+id:: e20e36e1-001c-47af-85bc-5476e9031919++}
 feedback:: false
 content::
 \## Phase 3: Learning Question (false)
