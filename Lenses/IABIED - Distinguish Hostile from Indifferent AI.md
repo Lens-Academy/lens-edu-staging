@@ -28,7 +28,7 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read section 2 of Chapter 5 of "If Anyone Builds It, Everyone Dies."
+{--{"author":"Elias's AI","timestamp":1787672293322}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672293322}@@feedback-instructions::++} The student has just read section 2 of Chapter 5 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Distinguish hostile from indifferent AI: explain why the core danger from superintelligent AI is not that it would be hostile toward humans, but that it would be indifferent to human values while pursuing its own goals, and why indifference is sufficient for extinction.
 
@@ -72,7 +72,7 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779587885}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
+{--{"author":"Elias's AI","timestamp":1787672296634}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672296634}@@feedback-instructions::++} [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779587885}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
 
 #### {--{"author":"Elias's AI","timestamp":1787667363114}@@Question--}{++{"author":"Elias's AI","timestamp":1787667363114}@@Question: Open
 id:: d516059e-1df5-466d-b14e-a03dee3038bf++}
