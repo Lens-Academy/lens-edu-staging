@@ -5,6 +5,14 @@ authors:
   - Yatharth+Claude
 tags:
   - facilitator-training
+eval-results:
+  content-sha: 768d241c
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: pass, C2: pass, C3: fail}
+  notes: {C3: "Pass level embeds closed lists of specific named items with no 'e.g.'/'or equivalent' marking, so a judge applying it literally would fail a student who names other valid harder/easier affordances."}
+  evidence: {C3: "**3** — Names three harder (body language/group energy, silence feels worse, side connections, latecomers slip in) AND three easier (sharing reference material live, pair work via breakouts, recording with consent, including across timezones)."}
 ---
 
 ## Test:
@@ -20,7 +28,7 @@ assessment-instructions::
 
 **2** — Names some harder/easier items but treats them as theoretical, not actionable.
 
-**3** — Names three harder (body language/group energy, silence feels worse, side connections, latecomers slip in) AND three easier (sharing reference material live, pair work via breakouts, recording with consent, including across timezones). Describes concrete use for each "easier."
+**3** — Names three things that are genuinely harder online AND three that are genuinely easier, and describes a concrete way they'd use each "easier" one in a session. Any defensible item counts; grade whether the named thing really is harder or easier in an online container, not whether it matches a particular list. (Harder, e.g. reading body language or group energy, silence feeling worse, side connections not forming, latecomers slipping in unnoticed — or equivalent. Easier, e.g. sharing reference material live, pair work via breakout rooms, recording with consent, including people across timezones — or equivalent.)
 
 **4** — As above, plus articulates that a good online facilitator leans into the easier list rather than mourning the harder one.
 

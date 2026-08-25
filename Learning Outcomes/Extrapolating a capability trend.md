@@ -3,6 +3,12 @@ id: '5cdfdeb9-5286-491f-bb68-79fcdaadd166'
 learning-outcome: Given an unfamiliar trend line and a proposed extrapolation from it, state what must be true of the underlying quantity for the extrapolation to hold, distinguish a claim the measurement supports from one it does not, and use a base rate for trend breaks to say how much confidence the extrapolation earns.
 domain: none
 stage: intermediate
+eval-results:
+  content-sha: ae8015a2
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: pass, C2: pass, C3: pass}
 ---
 ## Test:
 id:: b7c38da8-4b6f-45fb-8be9-f77f01dbd829

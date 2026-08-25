@@ -5,6 +5,14 @@ authors:
   - Yatharth+Claude
 tags:
   - facilitator-training
+eval-results:
+  content-sha: e169b19e
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: fail, B1: pass, C2: pass, C3: fail}
+  notes: {A3: "Three distinct frameworks bundled: a learner could apply PPPB and name an EEAA move while knowing nothing of ABC (which is described but never applied), so the parts are independently passable and separable into files.", C3: "Pass level hard-requires a memorized quantitative detail (~7 second pause) rather than the concept of a long silent pause; level 5 likewise hard-requires reciting five named question patterns."}
+  evidence: {A3: "Describe PPPB, ABC, and EEAA frameworks.", C3: "pause silently ~7 seconds"}
 ---
 
 ## Test:

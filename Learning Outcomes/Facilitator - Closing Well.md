@@ -5,6 +5,14 @@ authors:
   - Yatharth+Claude
 tags:
   - facilitator-training
+eval-results:
+  content-sha: 9906cf23
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: fail, B1: pass, C2: pass, C3: pass}
+  notes: {A3: "Bundles two separable capabilities — describing/drafting a three-part session close, and naming cohort-as-peer-network moves (which operate early and between sessions, not at the close); the rubric itself grades them at different levels (3 vs 4), showing a learner can have one without the other."}
+  evidence: {A3: "Describe the three-part close (Reflect, Integrate, Ritual) and draft your own closing ritual. Articulate two specific moves that make a cohort feel like a peer network, not a class."}
 ---
 
 ## Test:

@@ -5,6 +5,14 @@ authors:
   - Yatharth+Claude
 tags:
   - facilitator-training
+eval-results:
+  content-sha: 2db9640c
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: pass, C2: pass, C3: fail}
+  notes: {C3: "Pass level embeds a specific unhedged list of five norms inside the required item, so a literal judge would reject equally valid learner-generated norms."}
+  evidence: {C3: "Lists 3-5 norms (steel-man before push back; share airtime; confidentiality on identity not on ideas; changing your mind is high-status; one conversation at a time)."}
 ---
 
 ## Test:
@@ -20,7 +28,7 @@ assessment-instructions::
 
 **2** — Lists some norms but cannot articulate the difference between imposed vs co-created norms.
 
-**3** — Explains that imposed norms don't get internalised; the cohort doesn't own them. Lists 3-5 norms (steel-man before push back; share airtime; confidentiality on identity not on ideas; changing your mind is high-status; one conversation at a time). Describes the Week-1 setup: ask the cohort first what they need; only THEN add your own as questions.
+**3** — Explains that imposed norms don't get internalised; the cohort doesn't own them. Lists 3-5 candidate norms, in any wording, that each name a concrete behaviour a participant could follow or violate in a session and that plausibly protect discussion quality, psychological safety, or airtime (e.g. steel-man before pushing back; share airtime; confidentiality on identity but not on ideas; changing your mind is high-status; one conversation at a time — any equivalent set counts, and learner-generated norms outside this list are equally acceptable). Describes the Week-1 setup: ask the cohort first what they need; only THEN add your own as questions.
 
 **4** — As above, plus articulates that proposing your norms as questions ("What about X — anyone want that in the list?") rather than statements changes the buy-in dynamic.
 

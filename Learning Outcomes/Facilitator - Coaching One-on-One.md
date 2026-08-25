@@ -5,6 +5,14 @@ authors:
   - Yatharth+Claude
 tags:
   - facilitator-training
+eval-results:
+  content-sha: becb2bff
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: fail, A3: fail, B1: fail, C2: pass, C3: fail}
+  notes: {A2: "Capability depends on reciting one book's content; an expert coach who never read that book could not name its seven questions.", A3: "Three independently passable parts: the coaching/facilitating distinction, recall of two separate frameworks, and applying 'stay curious longer'.", B1: "Question makes a specific book load-bearing scaffolding for the answer.", C3: "Level 4 hard-requires a memorized quantitative formulation rather than the idea in any wording; level 5 likewise mandates a specific named detail."}
+  evidence: {A2: "name at least three of the seven coaching questions from The Coaching Habit", A3: "Distinguish coaching from facilitating; name at least three of the seven coaching questions from The Coaching Habit and the four stages of GROW; apply 'stay curious longer' to a coaching conversation.", B1: "Name at least three of the seven coaching questions from The Coaching Habit.", C3: "articulates that \"stay curious longer\" means most conversations have 1 question + 4 pieces of advice; better ones have 4 questions + 1 (or none)"}
 ---
 
 ## Test:

@@ -5,6 +5,14 @@ authors:
   - Yatharth+Claude
 tags:
   - facilitator-training
+eval-results:
+  content-sha: 64d2dbb3
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: fail, B1: pass, C2: pass, C3: fail}
+  notes: {A3: "Three separable capabilities — defining the format, naming rookie failure modes, and explaining the time-allocation shift — a learner can hold any one without the others (the rubric's own level 2 and level 5 tiers mark them as independently attainable).", C3: "Pass level enumerates a closed list of specific failure modes with no equivalence clause, so a student naming another legitimate rookie failure mode would be failed even though recall of these particular items is not the declared capability."}
+  evidence: {A3: "Describe the flipped-classroom approach in one sentence, identify two rookie failure modes in flipped sessions, and explain why the facilitator's time-allocation shifts from ~70% content / ~30% engagement to ~5% / ~95%.", C3: "names at least two failure modes: recapping the reading at the top; asking \"did everyone do the reading?\" and then waiting; treating the session as Q&amp;A."}
 ---
 
 ## Test:

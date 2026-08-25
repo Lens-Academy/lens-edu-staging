@@ -3,9 +3,15 @@ id: '66af2dd6-ea05-4cf9-9cf6-ad39b7c58ebf'
 learning-outcome: Given an unfamiliar system in which an output is fed back into the process that produced it, determine whether the coupling produces a bounded speedup or unbounded acceleration, identify the specific quantity whose behaviour decides which, and state what would have to be measured to tell the two apart in advance.
 domain: none
 stage: intermediate
+eval-results:
+  content-sha: 067ffceb
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: pass, C2: pass, C3: pass}
 ---
 ## Test:
-id:: {--{"author":"Luc's AI","timestamp":1787132679176}@@'dc99e11b-2967-4cde-9b55-f7ee821c107c'--}{++{"author":"Luc's AI","timestamp":1787132679176}@@dc99e11b-2967-4cde-9b55-f7ee821c107c++}
+id:: dc99e11b-2967-4cde-9b55-f7ee821c107c
 
 #### Question
 content:: Two research directors describe their labs.

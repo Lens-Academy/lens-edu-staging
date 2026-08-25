@@ -1,6 +1,6 @@
 ---
 id: a6c8f2d1-5e3b-4a70-9c4f-7b0d2e8f1a35
-learning-outcome: "Distinguish the book's use of fiction as a form of argument from two common misreadings (that it predicts specific future events, or that it is merely a thought experiment with no predictive content), and identify the precise middle position: the fictional pathway is not predicted, but the outcome if AI systems reach sufficient capability is"
+learning-outcome: "In an argument that makes its case by telling a detailed fictional scenario, distinguish the depicted pathway (illustrative, not predicted) from the outcome claimed to follow once the underlying dynamics are in play (the actual prediction); rule out the two common misreadings — that the specific events are being forecast, or that the scenario is a thought experiment with no predictive content — and answer the objection that such an argument is 'just sci-fi'"
 reading-from: "beginning of chapter"
 reading-to: "end of chapter"
 optional: true
@@ -10,21 +10,22 @@ tags:
   - optional
 domain: "[[../Domains/Strategy]]"
 stage: beginner
-{++{"author":"AI","timestamp":1787141576803}@@eval-results:
+eval-results:
   content-sha: ae70fd93
-  date: 2026-08-19
+  date: 2026-08-24
   model: claude-opus-5
-  suite-version: 1
-  checks: {A1: pass, A2: fail, B1: fail, C1: fail, C2: pass, C3: pass}
-  notes: {A2: "capability is reconstructing what one specific book claims about its own story", B1: "'the Coda' and 'the story' are load-bearing, unparseable without the reading", C1: "1-5 graded ladder, not binary pass/fail"}
-++}---
+  suite-version: 2
+  checks: {A1: pass, A2: fail, A3: pass, B1: fail, C2: pass, C3: fail}
+  notes: {A2: "capability is about what one specific book claims regarding its own story, not a concept that survives outside the text", B1: "'The Coda' and 'the story' are load-bearing scaffolding; unparseable without the reading", C3: "levels 4 and 5 hard-require memorized text/course details ('not strange enough', M4, Chapters 7-9) rather than stating an idea conveyable in any wording"}
+  evidence: {A2: "Distinguish the book's use of fiction as a form of argument from two common misreadings", B1: "The Coda steps outside the story to address a question readers often have", C3: "Notes that the story admitting it's \"not strange enough\" is part of this"}
+---
 
 ## Test:
 id:: 0d32640e-9e23-44c8-8dea-dc1f67564986
 #### Question
-content:: The Coda steps outside the story to address a question readers often have: what, exactly, is the book predicting?
+content:: Someone argues that building AI systems far more capable than humans is likely to end in catastrophe, and they make the case by telling a detailed fictional story: a particular AI system, at a particular lab, takes a particular chain of steps that ends with humanity gone. Asked afterwards whether they are predicting that this is how it will actually go, they say no — but they also refuse to call the story "just a thought experiment" with no predictive content. They even concede that the story is probably not strange enough, because reality would be harder to follow than anything they could write and still have readers understand.
 
-**The book isn't claiming the specific events of the story will occur. But it's also not saying the story is "just a thought experiment" with no predictive content. What is the precise claim it is making? And how would you respond to someone who says "but it's just sci-fi"?**
+**Once the specific events are off the table, what precise claim is left standing? Why tell it as a story at all — and how would you answer a reader who dismisses the whole thing as "just sci-fi"?**
 
 assessment-instructions::
 Score according to the following rubric.
@@ -32,11 +33,13 @@ Score according to the following rubric.
 
 **2** — Understands the story isn't a literal prediction but cannot identify what predictive claim remains. *Example: "The book doesn't predict the future, it just uses a story to make a point."*
 
-**3** — Correctly identifies the middle position: the fictional pathway is illustrative, not predictive; the outcome claim (that humanity is unlikely to survive once superintelligence proceeds unchecked) is the genuine prediction. Can state what is and is not being predicted. *Example: "The story doesn't say these specific events will happen. It says the underlying dynamic (capability asymmetry producing catastrophic outcomes) is what the authors stand behind. The pathway is chosen for clarity; the outcome is the actual claim."*
+**3** — Separates the two claims in any wording: the depicted pathway is illustrative rather than forecast, while the outcome — that a sufficiently large capability gap, left unchecked, ends badly for humanity — is the genuine prediction. States both what is and what is not being predicted. *Example: "It isn't saying these particular steps will happen. It's saying that once something far more capable than us is pursuing its own ends, the ending is what it stands behind. The pathway was chosen for legibility; the outcome is the claim."*
 
-**4** — As above, plus articulates why fiction is a useful vehicle for this kind of argument: a story can make abstract dynamics visceral and concrete without committing to specific events. Notes that the story admitting it's "not strange enough" is part of this: the familiarity is a limitation of the medium, not a claim about realism. *Example: Adds "Fiction can make abstract dynamics feel real without claiming the specific events will occur. The authors admit the story is too familiar to be realistic. That's not a concession: it's evidence they're aware the pathway is a simplification and the outcome is the claim they actually stand behind."*
+**4** — As above, plus gives a reason why a concrete story is a useful vehicle for this kind of argument (e.g. it makes an abstract dynamic vivid and specific without committing to any particular chain of events), and reads the "not strange enough" concession as a statement about the limits of the medium — a story has to stay followable to a reader — rather than as a claim that the depicted pathway is realistic. Any equivalent formulation counts. *Example: Adds "A story can make an abstract dynamic feel real without asserting that these events occur. Admitting it isn't strange enough isn't backing down — it's flagging that the pathway is a simplification made for the reader's sake, while the outcome is the part being defended."*
 
-**5** — As above, plus connects to the course's rhetorical architecture: the fiction-as-argument move required M4's emotional work before it could be explained. The Coda's philosophical precision only lands because Chapters 7–9 already made the dynamics feel real. *Example: Adds "The Coda's clarification only works because M4 made you feel it first. If the story had been presented as pure thought experiment from the start, the claim that 'the ending is a real prediction' would carry no weight. The fiction did its affective job; now the Coda can be honest about what kind of argument it was."*
+**5** — As above, plus explains why the order of the two moves matters: the concrete scenario has to do its affective work before the abstract clarification can land, so an argument presented from the outset as a bare thought experiment would leave the outcome claim carrying little weight. An equivalent point about the rhetorical dependence between vivid illustration and later precision counts. *Example: Adds "The clarification only works because the story made the dynamic feel real first. Had it been offered as an abstraction from the start, 'but the ending is a real prediction' would land as an assertion rather than a conclusion. The fiction does the affective work; the clarification can then be honest about what kind of argument it was."*
+
+Grade the student's reasoning, not whether they use any particular phrasing, analogy, or example.
 
 
 # Suggested Lenses:

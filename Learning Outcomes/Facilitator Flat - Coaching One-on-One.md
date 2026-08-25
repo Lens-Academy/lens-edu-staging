@@ -5,6 +5,14 @@ authors:
   - Yatharth+Claude
 tags:
   - facilitator-training
+eval-results:
+  content-sha: 47ca7198
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: fail, A3: fail, B1: pass, C2: pass, C3: fail}
+  notes: {A2: "Recalling the seven questions of a specific book is text-bound; genuinely uncertain whether it is field-canonical under that name, and A2 says fail-and-triage when uncertain.", A3: "Three separable capabilities — a learner can name GROW without distinguishing coaching from facilitating; the rubric's own level 2 admits the split.", C3: "Level 4 hard-requires a memorized quantitative formulation of 'stay curious longer' rather than the idea in any wording."}
+  evidence: {A2: "name at least three of the seven coaching questions from The Coaching Habit", A3: "Distinguish coaching from facilitating; name at least three of the seven coaching questions from The Coaching Habit and the four stages of GROW; apply 'stay curious longer' to a coaching conversation.", C3: "**4** — As above, plus articulates that \"stay curious longer\" means most conversations have 1 question + 4 pieces of advice; better ones have 4 questions + 1 (or none)."}
 ---
 
 ## Test:

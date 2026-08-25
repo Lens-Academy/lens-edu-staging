@@ -5,6 +5,14 @@ authors:
   - Yatharth+Claude
 tags:
   - facilitator-training
+eval-results:
+  content-sha: 5facae86
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: pass, C2: pass, C3: fail}
+  notes: {C3: "Pass level embeds specific named items in parentheses as the required content with no 'or equivalent' hedge, so a judge applying it literally would fail a student whose valid harder/easier items fall outside that list."}
+  evidence: {C3: "**3** — Names three harder (body language/group energy, silence feels worse, side connections, latecomers slip in) AND three easier (sharing reference material live, pair work via breakouts, recording with consent, including across timezones)."}
 ---
 
 ## Test:
@@ -20,7 +28,7 @@ assessment-instructions::
 
 **2** — Names some harder/easier items but treats them as theoretical, not actionable.
 
-**3** — Names three harder (body language/group energy, silence feels worse, side connections, latecomers slip in) AND three easier (sharing reference material live, pair work via breakouts, recording with consent, including across timezones). Describes concrete use for each "easier."
+**3** — Names three things that are genuinely harder in the online medium AND three that are genuinely easier, in any wording. An item counts if it is specific to the medium (it would not be equally true of an in-person discussion) and plausible; the student's own examples pass on equal terms with the ones below. Illustrations only, not a required list — harder, e.g. reading body language or group energy, silence feeling more uncomfortable, no side connections, latecomers slipping in unnoticed; easier, e.g. sharing reference material live, instant pair work via breakouts, recording with consent, including people across timezones. Describes a concrete way they'd use each "easier" item in a session. Grade the idea, not whether the student uses these words or these examples.
 
 **4** — As above, plus articulates that a good online facilitator leans into the easier list rather than mourning the harder one.
 

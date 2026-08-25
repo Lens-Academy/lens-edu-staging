@@ -5,6 +5,14 @@ authors:
   - Yatharth+Claude
 tags:
   - facilitator-training
+eval-results:
+  content-sha: 5b8d37c0
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: fail, B1: pass, C2: pass, C3: fail}
+  notes: {A3: "Bundles three separable frameworks — a learner can describe/apply PPPB and EEAA while failing ABC (which is only described, never applied), so the parts can be independently had or lacked.", C3: "Pass level hard-requires a specific quantitative detail (a ~7-second pause) rather than a concept boundary, though the question asks the learner for their own pause length and recall of that number is not the declared capability."}
+  evidence: {A3: "Describe PPPB, ABC, and EEAA frameworks.", C3: "pause silently ~7 seconds"}
 ---
 
 ## Test:
