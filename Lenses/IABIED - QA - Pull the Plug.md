@@ -15,7 +15,8 @@ This Q&A addresses the intuition that we could simply shut down a dangerous AI. 
 #### Article
 source:: [[../articles/iabied-ch6-faq-pull-plug]]
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667405089}@@Question--}{++{"author":"Elias's AI","timestamp":1787667405089}@@Question: Open
+id:: bec9b021-6529-4179-a5a2-aa2fa9f6785d++}
 content:: The authors argue an AI would bide its time and hide its plans until escape was already accomplished. If that is right, what would a genuine warning sign even look like?
 assessment-instructions:: An open reflection with no correct answer. Respond in a few sentences to the learner's actual reasoning rather than restating the reading. If they propose a concrete detection method, note the reading's point that companies have already waved away warning signs such as AIs planning to steal their own weights. Do not push them toward the authors' view.
 optional:: true
