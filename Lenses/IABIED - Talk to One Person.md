@@ -75,7 +75,8 @@ If they come out curious, invite them along: the next cohort of this course is o
 
 You'll be asked how it went in the next module. An awkward five minutes counts. Not making a plan does not; a conversation scheduled and kept on the calendar does.
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667510855}@@Question--}{++{"author":"Elias's AI","timestamp":1787667510855}@@Question: Open
+id:: a2035fcb-1255-4b26-bb86-f28619654440++}
 content::
 **Phase 4: Commit**
 
