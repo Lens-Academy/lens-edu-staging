@@ -73,8 +73,7 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 
 {--{"author":"Elias's AI","timestamp":1787672425147}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672425147}@@feedback-instructions::++} [[../prompts/iabied-phase-2-reflection-tutor-c]]
 
-#### {--{"author":"Elias's AI","timestamp":1787667467258}@@Question--}{++{"author":"Elias's AI","timestamp":1787667467258}@@Question: Open
-id:: c96b7ccc-b066-426f-90db-22f33c17da4e++}
+#### {--{"author":"Elias's AI","timestamp":1787673571890}@@Question--}{++{"author":"Elias's AI","timestamp":1787673571890}@@Question++}
 content::
 \## Phase 3: Learning Question
 A friend reads the last line of the chapter and says: "'NOBODY SHOULD BE ALLOWED TO TRY' is just fatalism with extra steps. Either you think we're doomed (in which case calling for a ban is theater) or you don't, in which case relax. Same anti-progress reflex people had about electricity, vaccines, every new technology." Your friend has folded the closing line into despair on one side and luddism on the other. Is either fold correct? Point to what the chapter's line is actually doing that neither reading captures.
