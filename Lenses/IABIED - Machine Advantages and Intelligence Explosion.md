@@ -109,7 +109,7 @@ content::
 \## Phase 3: Learning Question
 A friend says: "Current AI is still shallow, and every better AI must be designed step by step by human researchers. So there is no reason to expect machines to overtake humanity." Using the chapter's argument, identify the assumptions in that forecast. How do machine advantages and AI-assisted AI research change it, and what remains genuinely uncertain?
 
-{--{"author":"Elias's AI","timestamp":1787672392983}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672392983}@@feedback-instructions::++} The student has completed a reading, a free recall, and a reflection phase for the second half of Chapter 1 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+{--{"author":"Elias's AI","timestamp":1787673540524}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787673540524}@@assessment-instructions::++} The student has completed a reading, a free recall, and a reflection phase for the second half of Chapter 1 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question is a deliberate wedge, not the test question. It asks the student to examine a plausible forecast that treats current limitations as permanent and assumes humans must remain the sole source of AI progress. Draw out the mechanism rather than asking them to recite the chapter's list.
 
