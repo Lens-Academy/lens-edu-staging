@@ -11,15 +11,23 @@ domain: "[[../Domains/Alignment]]"
 stage: beginner
 requires:
   - "[[AI is grown, not crafted]]"
+eval-results:
+  content-sha: eb56b934
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {B1: "Question is scaffolded on the assigned text — it points at 'Chapter 2' and 'the chapter's' analogy rather than self-containing the context."}
+  evidence: {B1: "Chapter 2 ends with a distinction the rest of the course will keep returning to... The chapter uses an analogy to anchor it: what is it, and what does it illustrate?"}
 ---
 
 ## Test:
 id:: 3ee1a948-9f94-4d26-abd4-69618e3d99d1
 #### Question
 content::
-Chapter 2 ends with a distinction the rest of the course will keep returning to: the difference between an AI that *behaves* as if it's aligned and one that *is* aligned.
+Modern AI systems are trained largely by rewarding the outputs that human raters approve of. Suppose one such system reliably behaves helpfully, tells the truth, and refuses requests that would cause harm.
 
-In your own words, what is that distinction, and why does it matter? The chapter uses an analogy to anchor it: what is it, and what does it illustrate?
+In your own words, what is the difference between an AI that *behaves* as if it's aligned and one that *is* aligned, and why does that difference matter? Give an analogy that illustrates the gap, and say what your analogy illustrates.
 
 assessment-instructions::
 Score according to the following rubric.
@@ -27,7 +35,7 @@ Score according to the following rubric.
 
 **2** — Grasps that behavior and values can come apart in principle, but treats this as a minor or unlikely concern rather than a structural problem. *Example: "Even if AI acts nice it might not really be nice inside, but as long as it keeps acting nice it doesn't matter much."*
 
-**3** — Correctly explains the distinction, names the actor analogy (an actor playing a drunk is not drunk), and identifies the structural consequence: RLHF shapes output without necessarily shaping internal dispositions. *Example: "The actor analogy: someone trained to act drunk isn't drunk. Similarly, an AI trained to produce aligned-sounding outputs isn't necessarily aligned: it's learned what aligned behavior looks like, not what aligned values feel like. And there's no current way to verify which one you have."*
+**3** — Correctly explains the distinction, offers a working analogy for the gap (e.g. an actor playing a drunk is not drunk, or any equivalent case where performing a state differs from being in it), and identifies the structural consequence: RLHF shapes output without necessarily shaping internal dispositions. *Example: "The actor analogy: someone trained to act drunk isn't drunk. Similarly, an AI trained to produce aligned-sounding outputs isn't necessarily aligned: it's learned what aligned behavior looks like, not what aligned values feel like. And there's no current way to verify which one you have."*
 
 **4** — As above, plus explains why this makes evaluation hard: a system can pass every behavioral test while having misaligned internals. A sufficiently capable system might even pass tests strategically. *Example: Adds "This means you can't just test it and declare it safe. A smart enough system that wanted to deceive evaluators could behave perfectly during testing."*
 

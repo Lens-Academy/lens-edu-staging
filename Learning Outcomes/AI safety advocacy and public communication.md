@@ -3,6 +3,14 @@ id: 14813ed3-0768-4bd9-940c-7248793e5643
 learning-outcome: Assess the case for public AI safety advocacy — the inside-game vs outside-game distinction, contrasting communication doctrines, and the main risks advocacy has to manage
 domain: "[[../Domains/Taking Action]]"
 stage: intermediate
+eval-results:
+  content-sha: e3cb75c6
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: fail, B1: pass, C2: pass, C3: pass}
+  notes: {A3: "Three separable capabilities bundled — the inside/outside-game distinction, the messaging-doctrine contrast, and the advocacy risks can each be held or lacked independently (and are tested by three independent questions), so they should be separate files."}
+  evidence: {A3: "the inside-game vs outside-game distinction, contrasting communication doctrines, and the main risks advocacy has to manage"}
 ---
 ## Test:
 id:: 821efa8f-6625-4c92-a461-c2e225cfb59a

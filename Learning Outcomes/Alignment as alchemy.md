@@ -1,6 +1,6 @@
 ---
 id: 3e29b948-02b0-4fd3-847a-4c7adb05dd0d
-learning-outcome: "State Chapter 11's central diagnosis as the chapter frames it: the alignment field is currently in the 'alchemy stage': producing results without understanding why they work, operating from high-minded philosophical ideals rather than engineering designs, and mistaking the ability to build more powerful AI for progress on making it safe."
+learning-outcome: "Explain the 'alchemy stage' diagnosis of the AI alignment field: that it produces results without understanding why they work, operates from high-minded philosophical ideals rather than engineering designs, and mistakes the ability to build more powerful AI for progress on making it safe — and explain why that missing understanding matters."
 reading-from: "beginning of chapter"
 reading-to: "It is a level of systemic game that would have humanity headed for disaster, even if we were wrong about every other aspect of difficulty."
 authors:
@@ -9,14 +9,22 @@ tags:
   - learning-outcome
 domain: "[[../Domains/Alignment]]"
 stage: beginner
+eval-results:
+  content-sha: fc29cbf0
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: fail, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {A2: "Statement is bound to a specific text's framing rather than a source-free capability; named as a corpus fail example in the A2 eval.", B1: "Question is scaffolded on the assigned chapter — it names Chapter 11 and its opening allegory, so it cannot be posed to someone who never read that text."}
+  evidence: {A2: "State Chapter 11's central diagnosis as the chapter frames it", B1: "Chapter 11 opens with an allegory about a young alchemist"}
 ---
 
 ## Test: 
 id:: 311a34f9-b4d2-46b8-813a-3b51869fe6c3
 #### Question
-content:: Chapter 11 opens with an allegory about a young alchemist who claims to be "close" to transmuting lead into gold despite having no understanding of why his recipes produce the results they do. The chapter then applies this framing to current AI alignment efforts, drawing on public statements from Elon Musk (xAI) and Yann LeCun (Meta). The authors call this the "alchemy stage" of a science.
+content:: Picture a young alchemist who claims he is "close" to transmuting lead into gold. He is not a fraud: his recipes really do produce results — he can make aqua regia, an acid that dissolves gold — but he has no theory of *why* any of it works, so he cannot tell which of his results generalize or what his next step should be. One diagnosis of the AI alignment field is that it is currently in this same "alchemy stage" of a science, and that safety proposals from leading AI developers — e.g. building AI that is "maximally truth-seeking" (Elon Musk, xAI), or that is "submissive to humans" (Yann LeCun, Meta) — illustrate the pattern rather than escape it.
 
-**In your own words, what is Chapter 11's "alchemy stage" diagnosis of the AI alignment field? What specifically does the chapter claim is missing from the field's current state, and why does it matter that it is missing?**
+**In your own words, what is the "alchemy stage" diagnosis of the AI alignment field? What specifically does this diagnosis claim is missing from the field's current state, and why does it matter that it is missing?**
 
 assessment-instructions::
 Score according to the following rubric.

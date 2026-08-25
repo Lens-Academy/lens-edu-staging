@@ -4,6 +4,14 @@ discussion:
 learning-outcome: "Meta/personal level LO: Explain the pre-paradigmatic nature of AI Safety, identifying why there is a lack of consensus on research priorities and how agendas serve as temporary strategic roadmaps. Cross-curricular level LO: Analyze the theory of change behind major research directions, articulating the underlying assumptions and intended success criteria for each. Subject level LO: Summarize the primary arguments for and against Automating Alignment, Interpretability, AI Evaluations, AI Control, Agent Foundations."
 domain: "[[../Domains/Strategy]]"
 stage: intermediate
+eval-results:
+  content-sha: 2641503d
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: fail, B1: fail, C2: pass, C3: pass}
+  notes: {A3: "Three explicitly separate LOs (meta/cross-curricular/subject) that a learner could independently hold or lack — belong in separate files.", B1: "First question depends on 'this module' as load-bearing scaffolding; it cannot be asked at a random moment."}
+  evidence: {A3: "Meta/personal level LO: Explain the pre-paradigmatic nature of AI Safety ... Subject level LO: Summarize the primary arguments for and against Automating Alignment", B1: "List the concepts from this module that seemed most important to you."}
 ---
 
 ## Test:

@@ -1,17 +1,25 @@
 ---
 id: 'e1a40873-ce21-4457-af20-6ff34eb60103'
-learning-outcome: "Explain Shavit's three-part compute-accounting regime for verifying training-run compliance — on-chip weight snapshots, retained training transcripts checked by Proof-of-Learning, and chip supply-chain accounting — and explain what each part rules out and why none of them works alone"
+learning-outcome: "Explain a three-part compute-accounting regime for verifying training-run compliance — on-chip weight snapshots, retained training transcripts checked by Proof-of-Learning, and chip supply-chain accounting — and explain what each part rules out and why none of them works alone"
 domain: "[[../Domains/Governance and Policy]]"
 stage: advanced
 requires:
   - "[[The verification problem for AI agreements]]"
 authors:
   - Elias+Claude
+eval-results:
+  content-sha: e523b1f9
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: fail, A3: pass, B1: pass, C2: pass, C3: pass}
+  notes: {A2: "Capability is pinned to one author's proposal; A2 names this very file as borderline and instructs failing when it is uncertain that the regime is field-canonical under Shavit's name."}
+  evidence: {A2: "Explain Shavit's three-part compute-accounting regime for verifying training-run compliance"}
 ---
 ## Test:
 id:: bb9f6daf-a217-4860-b569-3d053a7486f3
 #### Question
-content:: Shavit's scheme is designed so that an inspector can walk up to a set of chips and establish what they were used to train — without the inspector reading anyone's weights on demand or watching the training as it happens.
+content:: One proposed compute-accounting regime is designed so that an inspector can walk up to a set of chips and establish what they were used to train — without the inspector reading anyone's weights on demand or watching the training as it happens.
 
 **Describe the three components of the regime and what each one rules out. Then explain why removing any one of them breaks the whole thing.**
 assessment-instructions::
@@ -25,7 +33,7 @@ Score according to the following rubric.
 
 **4** — As above, plus explains the interlock precisely: without snapshots the transcript is unfalsifiable paperwork (any story fits, since there is no artifact to tie it to); without transcripts a snapshot is an uninterpretable pile of numbers (you have the weights but no account of how they came to be, so you cannot tell a permitted run from a forbidden one); without supply-chain accounting both are irrelevant because the violation simply happens on chips outside the regime. The chain is only as strong as its weakest link because each component answers a different evasion. *Example: Adds "Drop the snapshots and the documentation is just a story — nothing anchors it to reality, so a compliant-looking transcript costs nothing to fabricate. Drop the documentation and you're holding billions of numbers with no way to say which run produced them. Drop the supply-chain piece and you've built a beautiful audit trail for the chips you know about, while the violation happens on the ones you don't. Each leg closes a different escape route, so removing one doesn't weaken the scheme by a third — it opens a door."*
 
-**5** — As above, plus locates the design's real load-bearing assumptions and their fragility: it needs hardware-level instrumentation that the chip owner cannot disable or spoof (so the trust boundary sits inside silicon the operator physically possesses); it needs Proof-of-Learning to be verifiable at far less cost than re-running the training; and it needs the specialized-chip bottleneck to persist, so algorithmic efficiency gains or a shift toward inference-time scaling erode the premise that "large training run" and "lots of accountable chips" are the same event. Notes that Shavit presents this as one mechanism, not a complete regime. *Example: Adds "The scheme rests on three bets. First, that you can put instrumentation in a chip that its physical owner can't turn off or lie to — the trust boundary is inside hardware the potential violator holds in their hands, which is an unusual and uncomfortable place to put it. Second, that checking a proof-of-learning is far cheaper than redoing the training, or the inspector's job is impossible. Third, that concentrated specialized compute stays the chokepoint. That last one is the one that ages: if efficiency gains or inference-time scaling let you get frontier capability without a landmark training run, the whole framing of 'catch the big run' stops matching what you're trying to catch."*
+**5** — As above, plus locates the design's real load-bearing assumptions and their fragility: it needs hardware-level instrumentation that the chip owner cannot disable or spoof (so the trust boundary sits inside silicon the operator physically possesses); it needs Proof-of-Learning to be verifiable at far less cost than re-running the training; and it needs the specialized-chip bottleneck to persist, so algorithmic efficiency gains or a shift toward inference-time scaling erode the premise that "large training run" and "lots of accountable chips" are the same event. Notes that this is one verification mechanism, not a complete regime. *Example: Adds "The scheme rests on three bets. First, that you can put instrumentation in a chip that its physical owner can't turn off or lie to — the trust boundary is inside hardware the potential violator holds in their hands, which is an unusual and uncomfortable place to put it. Second, that checking a proof-of-learning is far cheaper than redoing the training, or the inspector's job is impossible. Third, that concentrated specialized compute stays the chokepoint. That last one is the one that ages: if efficiency gains or inference-time scaling let you get frontier capability without a landmark training run, the whole framing of 'catch the big run' stops matching what you're trying to catch."*
 max-chars:: 1600
 
 # Suggested Lenses:
