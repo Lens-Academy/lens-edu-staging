@@ -28,7 +28,7 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read section 2 of Chapter 6 ("We'd Lose") of "If Anyone Builds It, Everyone Dies."
+{--{"author":"Elias's AI","timestamp":1787672279193}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672279193}@@feedback-instructions::++} The student has just read section 2 of Chapter 6 ("We'd Lose") of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Describe the refrigerator thought experiment: explain how superior knowledge of physical laws enables the design of devices that appear impossible to those who built them, and connect this to what a superintelligence could do to humanity.
 
