@@ -64,7 +64,7 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: The student has just completed a free recall of the first section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+{--{"author":"Elias's AI","timestamp":1787672511475}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672511475}@@feedback-instructions::++} The student has just completed a free recall of the first section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading. It is not to explain the content to them.
 
@@ -100,7 +100,7 @@ content::
 \## Phase 3: Learning Question
 Chapter 12 uses Chernobyl and Titanic to establish an argument, then says those cases have a decisive disanalogy with ASI. Why does the chapter bother with the analogies at all if the disanalogy is what really matters? What work are Chernobyl and Titanic doing in the argument?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+{--{"author":"Elias's AI","timestamp":1787672515148}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672515148}@@feedback-instructions::++} The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 Learning outcome for this Lens: Compare the Chernobyl and Titanic analogies as Chapter 12 deploys them: explain what each case contributes to the argument that humans struggle to believe in unthinkable disasters, and identify the critical disanalogy between those historical cases and an ASI failure that the chapter treats as decisive.
 
