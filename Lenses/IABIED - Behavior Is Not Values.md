@@ -60,7 +60,8 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667299827}@@Question--}{++{"author":"Elias's AI","timestamp":1787667299827}@@Question: Open
+id:: bd0fd75d-0bed-4724-852c-ef3e9226b22d++}
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
@@ -96,7 +97,8 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question. That is Phase 3's job.
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667297404}@@Question--}{++{"author":"Elias's AI","timestamp":1787667297404}@@Question: Open
+id:: 95b60d08-a382-46de-bbe7-d82f7261dc78++}
 content::
 \## Phase 3: Learning Question
 An AI refuses to help a user build a weapon. A developer points to this and says, "See? It's aligned." What has the developer actually observed, and what would you need to know to tell whether the refusal came from the AI's values or just from its training? Is there any test that could settle it?

@@ -10,7 +10,8 @@ authors:
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/02 - Chapter 2 - Grown, Not Crafted]]"
 ---
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667294792}@@Question--}{++{"author":"Elias's AI","timestamp":1787667294792}@@Question: Open
+id:: 753f5265-bb80-4170-832a-baae013e6a7d++}
 content:: Before reading the second half of Chapter 2: If an AI consistently gives helpful, harmless answers and declines all requests that could cause harm, does that mean it "wants" to be helpful? Could there be a difference between an AI that acts aligned and one that is aligned? Write down your intuition before reading.
 
 assessment-instructions::
