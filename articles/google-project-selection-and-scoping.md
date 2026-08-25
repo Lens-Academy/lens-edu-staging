@@ -68,14 +68,14 @@ Links:
 
 -   Embrace the most relevant of the [12 virtues of rationality](https://www.google.com/url?q=https://www.lesswrong.com/posts/7ZqGiPHTpiDMwqMN2/twelve-virtues-of-rationality&sa=D&source=editors&ust=1787222921201362&usg=AOvVaw0NkAL-PUnXH9LtWHITMqY3): Curiosity, relinquishment, lightness, evenness, argument, empiricism, simplicity, humility, perfectionism, precision, scholarship, and the void.
 -   Aim to understand things deeply.
--   Frequently be asking yourself questions like {--{"author":"Luc's AI","timestamp":1787602244999}@@[\[a\]](#cmnt1):--}{++{"author":"Luc's AI","timestamp":1787602244999}@@[a]:++}
+-   Frequently be asking yourself questions like [a]:
 
 -   What would a skeptical reviewer say about this?
 -   Is a member of my target audience going to understand this conceptual breakdown?
 
 -   Know your audience. From the start, your Theory of Change states who your audience is. Have them in mind all the time: when you consider which types of evidence to collect, when you consider how to structure your output, when writing individual sentences.
--   Backchain {--{"author":"Luc's AI","timestamp":1787602245524}@@[\[b\]](#cmnt2)--}{++{"author":"Luc's AI","timestamp":1787602245524}@@[b]++} frequently.
--   How to solve a problem {--{"author":"Luc's AI","timestamp":1787602246027}@@[\[c\]](#cmnt3)--}{++{"author":"Luc's AI","timestamp":1787602246027}@@[c]++}
+-   Backchain [b] frequently.
+-   How to solve a problem [c]
 
 -   In various parts of my life it is often useful that I have some strategies for solving problems. Many problems can be solved via applying the right methods, applying [strategic thinking](https://www.google.com/url?q=https://www.lesswrong.com/posts/PBRWb2Em5SNeWYwwB/humans-are-not-automatically-strategic&sa=D&source=editors&ust=1787222921202949&usg=AOvVaw0ovB0TwAuZeNBOMfsfyU5u) to your problem. I am by no means an expert on this, but I seem to be considerably better at it than many other people, based on using the following strategies.
 -   Try to understand the problem. If there are other people involved, check with them to make sure you understand, including saying things like “let me say this back to you to make sure I understand what you mean”.
@@ -93,13 +93,13 @@ Links:
 -   In order to contribute to “the conversation”, you need to be intimately familiar with the conversation.
 -   Read lots of papers. Supervised learning works for humans; if you want to write good papers, you need to know what good papers look like, how they are written, etc.; that requires reading lots of papers.
 -   Do the crappy version first. When you're considering doing a project, often there is one option to directly try to do the thing, and another option to try to do more research investment into a longer-term, better version of it (bells and whistles, if you will). I.e., do you run simple experiment A, or spend more time trying to make the experiment more realistic first. You should usually do the crappy/simple version first. Often doing the crappy version is how you figure out what the good version should look like: you realize which parts are hard, you make a bunch of mistakes which you can then fix.
--   Don’t outsource important work or thinking. Many of us have the desire to take on many mentees or use AI to do lots of our work for {--{"author":"Luc's AI","timestamp":1787602246515}@@us.[\[d\]](#cmnt4)--}{++{"author":"Luc's AI","timestamp":1787602246515}@@us. [d]++}
+-   Don’t outsource important work or thinking. Many of us have the desire to take on many mentees or use AI to do lots of our work for us. [d]
 -   Write well. Here are my writing tips, manny of which are me-specific: [Aaron’s Writing Tips \[Public, Shareable\]](https://www.google.com/url?q=https://docs.google.com/document/d/1laojHZaIj5uaTbrYXybfvMelYlwPygNIO19XD1ELa5Y/edit?tab%3Dt.0&sa=D&source=editors&ust=1787222921207266&usg=AOvVaw0txquelvn7Dw91cTWXoqSR)
 
-{--{"author":"Luc's AI","timestamp":1787602247082}@@[\[a\]](#cmnt_ref1)--}{++{"author":"Luc's AI","timestamp":1787602247082}@@[a]++} todo
+[a] todo
 
-{--{"author":"Luc's AI","timestamp":1787602247546}@@[\[b\]](#cmnt_ref2)--}{++{"author":"Luc's AI","timestamp":1787602247546}@@[b]++} todo
+[b] todo
 
-{--{"author":"Luc's AI","timestamp":1787602248108}@@[\[c\]](#cmnt_ref3)--}{++{"author":"Luc's AI","timestamp":1787602248108}@@[c]++} todo
+[c] todo
 
-{--{"author":"Luc's AI","timestamp":1787602248576}@@[\[d\]](#cmnt_ref4)--}{++{"author":"Luc's AI","timestamp":1787602248576}@@[d]++} todo I need to explain this more
+[d] todo I need to explain this more

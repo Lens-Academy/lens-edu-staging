@@ -47,7 +47,7 @@ Edited by
 -   [Index](https://www.cambridge.org/core/product/identifier/CBO9780511491368A029/type/BOOK_PART)
 -   [Titles in this series](https://www.cambridge.org/core/product/identifier/CBO9780511491368A030/type/BOOK_PART)
 
-{--{"author":"Luc's AI","timestamp":1787602092090}@@[Get access](#access-block)--}{++{"author":"Luc's AI","timestamp":1787602092090}@@Get access++}
+Get access
 
 ## Summary
 
