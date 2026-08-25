@@ -20,8 +20,6 @@ Add discussion note here:
 
 ## Economic interdependence, bargaining power, and political influence
 
-[Get access](#access-block)
-
 ## Abstract
 
 Bargaining theory is used to evaluate the proposition that asymmetrical economic interdependence among states is a source of political power. It is shown that asymmetrical economic interdependence does not imply that less dependent actors will be able to exercise political influence over more dependent ones. The use of economic interdependence for political influence requires, instead, that the exchange of economic resources for political concessions make both parties to a relationship better off than they would be if they bargained over the distribution of the gains from the economic relationship alone. Whether this is true is independent of the degree of asymmetry in the economic relationship, or its direction. An explanation is given for the fact that other scholars have reached different conclusions, and the implications of these results for our understanding of a variety of types of relations among governments are derived.

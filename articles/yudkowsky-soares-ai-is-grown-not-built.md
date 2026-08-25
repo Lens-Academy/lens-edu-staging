@@ -69,6 +69,6 @@ This all adds up to a worrying picture, where companies are racing to build a ki
 
 *This essay has been adapted from the forthcoming book,* [If Anyone Builds It, Everyone Dies](https://archive.is/o/blU6r/https://bookshop.org/a/12476/9780316595643).
 
-![](https://cdn.theatlantic.com/thumbor/CaawoMnra9Ou33DOdFQUuy41y5w=/0x0:323x500/78x120/media/img/book_reviews/2025/09/15/41ekHgUQSaL._SL500_/original.jpg)
+![](https://cdn.theatlantic.com/media/img/book_reviews/2025/09/15/41ekHgUQSaL._SL500_/original.jpg)
 
 {--{"author":"AI","timestamp":1787567849842}@@[If--}{++{"author":"AI","timestamp":1787567849842}@@_[If++} Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All](https://archive.is/o/blU6r/https://bookshop.org/a/12476/9780316595643) By Eliezer Yudkowsky and Nate {--{"author":"AI","timestamp":1787567849842}@@Soares--}{++{"author":"AI","timestamp":1787567849842}@@Soares_++}
