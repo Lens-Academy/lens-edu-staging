@@ -22,7 +22,7 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just finished reading the Closing Words of "If Anyone Builds It, Everyone Dies" and has written a free recall — everything they could remember without looking back at the text.
+{--{"author":"Elias's AI","timestamp":1787672523074}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672523074}@@feedback-instructions::++} The student has just finished reading the Closing Words of "If Anyone Builds It, Everyone Dies" and has written a free recall — everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
 - First prayer: "May we be wrong, and shamed for how incredibly wrong we were, and fade into irrelevance and be forgotten except as an example of how not to think, and may humanity live happily ever after."
@@ -61,7 +61,7 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
 
-assessment-instructions:: The student has just completed a free recall of the Closing Words of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+{--{"author":"Elias's AI","timestamp":1787672526851}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672526851}@@feedback-instructions::++} The student has just completed a free recall of the Closing Words of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading. It is not to explain the content to them.
 
