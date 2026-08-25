@@ -98,8 +98,7 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### {--{"author":"Elias's AI","timestamp":1787667284959}@@Question--}{++{"author":"Elias's AI","timestamp":1787667284959}@@Question: Open
-id:: d608db43-56e4-4268-a252-41e2c49d1d3a++}
+#### {--{"author":"Elias's AI","timestamp":1787673461628}@@Question--}{++{"author":"Elias's AI","timestamp":1787673461628}@@Question++}
 content::
 \## Phase 3: Learning Question
 Imagine an engineer at a frontier AI lab tells you: "I designed this model's entire training process, and I can pull up and read every one of its billions of weights — so there is nothing about it I don't understand." Both of those claims are true. The conclusion still doesn't follow. Where does the reasoning break down, and what kind of understanding is the engineer missing?
