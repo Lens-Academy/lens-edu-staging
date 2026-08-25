@@ -19,7 +19,8 @@ Return here after reading.
 
 ---
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667494474}@@Question--}{++{"author":"Elias's AI","timestamp":1787667494474}@@Question: Open
+id:: da8cf511-e4e8-4193-8f86-555963a877cd++}
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading. Don't look back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -63,7 +64,8 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667491854}@@Question--}{++{"author":"Elias's AI","timestamp":1787667491854}@@Question: Open
+id:: 7ab346b4-792b-4147-827e-c26c609e325b++}
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Using the speech to text feature is recommended.
@@ -97,7 +99,8 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question. That is Phase 3's job.
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667488621}@@Question--}{++{"author":"Elias's AI","timestamp":1787667488621}@@Question: Open
+id:: 01e1df19-7d1b-4812-99cb-6c853750f440++}
 content::
 \## Phase 3: Learning Question
 A friend who works in machine learning tells you: "The alchemy comparison is out of date. Every new model is run against thousands of safety evaluations and red-team tests, and the scores climb with each release. That's not philosophy and vibes. It's rigorous empirical measurement. The field has clearly left the alchemy stage." Using the chapter's diagnosis, where exactly does this argument go wrong, and is there any part of it your friend has right?
