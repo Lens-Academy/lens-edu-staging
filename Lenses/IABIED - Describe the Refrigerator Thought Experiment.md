@@ -73,7 +73,7 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779580773}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
+{--{"author":"Elias's AI","timestamp":1787672283385}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672283385}@@feedback-instructions::++} [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779580773}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
 
 #### {--{"author":"Elias's AI","timestamp":1787667396824}@@Question--}{++{"author":"Elias's AI","timestamp":1787667396824}@@Question: Open
 id:: 457b36e7-390e-4ae6-a1f7-eccc61e4c6b1++}
@@ -81,7 +81,7 @@ content::
 \## Phase 3: Learning Question
 A friend hears you describe the refrigerator argument and pushes back: "This proves too much. By this logic you could claim a superintelligence beats us with literally anything (nanobots, mind-control, magic wands) and I could never prove you wrong, because your whole point is that we can't say what the method is. An argument that survives no matter what isn't telling me anything real." Using the refrigerator thought experiment itself, what is wrong with your friend's reasoning, and is there any version of their worry that actually lands?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on section 2 of Chapter 6 ("We'd Lose") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+{--{"author":"Elias's AI","timestamp":1787672287028}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672287028}@@feedback-instructions::++} The student has completed a reading, a free recall, and a reflection phase on section 2 of Chapter 6 ("We'd Lose") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge; it is not the test question. It hands the student a plausible-sounding objection (the argument is unfalsifiable, therefore empty) and asks them to dismantle it using the refrigerator principle rather than recite the story. The point is to force application: the blacksmith built a working refrigerator and was still astonished by the cold air, so inability to name the mechanism does not make the outcome impossible or the prediction empty. The prediction is grounded in an observed pattern (Aztecs vs. guns, an 1825 army vs. 2025, protein folding dismissed in 2008 and solved by AlphaFold by 2022), not in an untestable appeal to mystery.
 
