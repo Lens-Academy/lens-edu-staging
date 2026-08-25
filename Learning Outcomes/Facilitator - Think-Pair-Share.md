@@ -19,7 +19,7 @@ eval-results:
 id:: b39982cd-9c10-4c78-9e2e-73c5363166bb
 
 #### Question
-content:: Think-Pair-Share is a discussion structure built from three steps: participants first think silently on their own, then talk it through in pairs, then share with the whole group. It looks almost too simple, but it recruits several distinct learning mechanisms at once.
+content:: {--{"author":"Luc's AI","timestamp":1787659286401}@@Think-Pair-Share is a discussion structure built--}{++{"author":"Luc's AI","timestamp":1787659286401}@@If you only memorise one structural pattern++} from {--{"author":"Luc's AI","timestamp":1787659286401}@@three steps: participants first think silently on their own, then talk it through in pairs, then share with the whole group. --}{++{"author":"Luc's AI","timestamp":1787659286401}@@this whole course, make it this one. Think-Pair-Share is a three-step structure: silent think, pair discussion, whole-group share. ++}It looks almost too simple, but it {--{"author":"Luc's AI","timestamp":1787659286401}@@recruits several distinct learning--}{++{"author":"Luc's AI","timestamp":1787659286401}@@makes use of three different++} mechanisms {--{"author":"Luc's AI","timestamp":1787659286401}@@at once.--}{++{"author":"Luc's AI","timestamp":1787659286401}@@from §2.1 simultaneously.++}
 
 **Describe the three steps, including roughly how long you would give each one. Name at least two situations where Think-Pair-Share is the right move. Then write one Think-Pair-Share opening question for a session you might actually run.**
 

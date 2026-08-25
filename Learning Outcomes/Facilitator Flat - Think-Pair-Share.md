@@ -19,7 +19,7 @@ eval-results:
 id:: 6188034c-4ae6-4803-8725-fb1f4bb6d6e6
 
 #### Question
-content:: Think-Pair-Share is a three-step discussion structure a facilitator can use with a group: participants first think silently on their own, then discuss in pairs, then share with the whole group. It looks almost too simple, yet it puts several different learning mechanisms to work at once.
+content:: {--{"author":"Luc's AI","timestamp":1787659287299}@@Think-Pair-Share is a three-step discussion structure a facilitator can use with a group: participants first think silently on their own, then discuss in pairs, then share with the whole group.--}{++{"author":"Luc's AI","timestamp":1787659287299}@@If you only memorise one structural pattern from this whole course, make it this one. Think-Pair-Share is a three-step structure: silent think, pair discussion, whole-group share.++} It looks almost too simple, {--{"author":"Luc's AI","timestamp":1787659287299}@@yet--}{++{"author":"Luc's AI","timestamp":1787659287299}@@but++} it {--{"author":"Luc's AI","timestamp":1787659287299}@@puts several--}{++{"author":"Luc's AI","timestamp":1787659287299}@@makes use of three++} different {--{"author":"Luc's AI","timestamp":1787659287299}@@learning --}mechanisms {--{"author":"Luc's AI","timestamp":1787659287299}@@to work at once.--}{++{"author":"Luc's AI","timestamp":1787659287299}@@from §2.1 simultaneously.++}
 
 Describe what the facilitator and the participants actually do in each of the three steps, and roughly how much time each step should get. Name at least two situations where Think-Pair-Share is the right move. Then write one Think-Pair-Share opening question for a session you might actually run.
 
