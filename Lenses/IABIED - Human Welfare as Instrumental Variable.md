@@ -25,7 +25,7 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just finished reading the second half of Chapter 8 of "If Anyone Builds It, Everyone Dies."
+{--{"author":"Elias's AI","timestamp":1787672327235}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672327235}@@feedback-instructions::++} The student has just finished reading the second half of Chapter 8 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: State the principle that a capable AI system optimizing for long-term goals treats human welfare as a resource variable (preserved while humans remain instrumentally necessary, eliminated when they do not) and explain what this implies about whether humans are "safe" as long as they remain useful.
 
@@ -68,7 +68,7 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-b]]{>>{"author":"Luc's AI","timestamp":1783779603660}@@This Phase 2 block is byte-identical in 3 lenses (Human Welfare, Indifference Not Malice, Instrumental Sub-Goal Convergence); deduplicated into the shared prompt file with the text unchanged.<<}
+{--{"author":"Elias's AI","timestamp":1787672330395}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672330395}@@feedback-instructions::++} [[../prompts/iabied-phase-2-reflection-tutor-b]]{>>{"author":"Luc's AI","timestamp":1783779603660}@@This Phase 2 block is byte-identical in 3 lenses (Human Welfare, Indifference Not Malice, Instrumental Sub-Goal Convergence); deduplicated into the shared prompt file with the text unchanged.<<}
 
 #### Question
 content::
