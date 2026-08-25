@@ -1,6 +1,6 @@
 ---
 id: '809100e4-b7d7-4556-abe4-d91e8c45641f'
-learning-outcome: "Identify two broad camps that divide people working on AI safety, and summarize some of the main ways their views and preferred approaches differ."
+learning-outcome: "Identify two broad camps {--{"author":"Luc's AI","timestamp":1787659336765}@@that divide people working on AI safety,--}{++{"author":"Luc's AI","timestamp":1787659336765}@@in AI safety described by Jason Hausenloy,++} and summarize some of the main ways their views and preferred approaches differ."
 domain: "[[../Domains/Strategy]]"
 stage: intermediate
 eval-results:
@@ -16,7 +16,7 @@ eval-results:
 id:: f57da14e-6b72-41de-b31b-df054ffe0edb
 
 #### Question
-content:: People working on AI safety do not form a single unified position: they disagree sharply among themselves about what should be done. A common rough summary sorts them into two broad camps. In rough terms, who are these two camps, and how do their views differ? Give at least two differences.
+content:: {--{"author":"Luc's AI","timestamp":1787659338904}@@People working on AI safety do not form a single unified position: they disagree sharply among themselves about what should be done. A common rough summary sorts them into two broad camps. --}{++{"author":"Luc's AI","timestamp":1787659338904}@@Jason Hausenloy describes two broad camps in AI safety. ++}In rough terms, who are {--{"author":"Luc's AI","timestamp":1787659338904}@@these two camps,--}{++{"author":"Luc's AI","timestamp":1787659338904}@@they,++} and how do their views differ? Give at least two differences.
 
 Why should any such two-camp picture be treated as a useful simplification rather than a complete map of the field?
 

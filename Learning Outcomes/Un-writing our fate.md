@@ -1,6 +1,6 @@
 ---
 id: 3f8a1b72-4c9d-4e20-b5a6-c7d8e9f01234
-learning-outcome: "Explain why a catastrophe that looks predictable and locked in can still be averted by sustained, organized human effort rather than luck, and use the Cold War nuclear precedent to identify what such an effort required (e.g. the shift to incentives under which decision-makers personally stood to lose everything, and decades of arms agreements, monitoring, and direct communication)."
+learning-outcome: {--{"author":"Luc's AI","timestamp":1787659337018}@@"Explain why a catastrophe that looks predictable and locked in can still be averted --}{++{"author":"Luc's AI","timestamp":1787659337018}@@"State what the chapter means ++}by{--{"author":"Luc's AI","timestamp":1787659337018}@@ sustained, organized human effort rather than luck,--}{++{"author":"Luc's AI","timestamp":1787659337018}@@ 'un-writing a fate already written,'++} and {--{"author":"Luc's AI","timestamp":1787659337018}@@use--}{++{"author":"Luc's AI","timestamp":1787659337018}@@identify++} the{--{"author":"Luc's AI","timestamp":1787659337018}@@ Cold War --}{++{"author":"Luc's AI","timestamp":1787659337018}@@ ++}nuclear precedent {--{"author":"Luc's AI","timestamp":1787659337018}@@to identify what such an effort required (e.g. the shift --}{++{"author":"Luc's AI","timestamp":1787659337018}@@it uses ++}to {--{"author":"Luc's AI","timestamp":1787659337018}@@incentives under which decision-makers personally stood to lose everything, and decades of arms agreements, monitoring, and direct communication)."--}{++{"author":"Luc's AI","timestamp":1787659337018}@@show this is possible."++}
 reading-from: "beginning of chapter"
 reading-to: "And civilization lived."
 authors:
@@ -21,7 +21,7 @@ eval-results:
 id:: 4a9b2c83-5d0e-4f31-c6b7-d8e9f0123456
 
 #### Question
-content:: In 1952, someone reasoning from centuries of evidence about how rival powers behave — plus the new existence of hydrogen bombs and two superpowers racing to build them — could conclude that a civilization-ending nuclear war was close to inevitable. It did not happen. That kind of averted catastrophe is sometimes described as "un-writing a fate already written."
+content:: {--{"author":"Luc's AI","timestamp":1787659339333}@@In 1952, someone reasoning from centuries of evidence about how rival powers behave — plus the new existence of hydrogen bombs and two superpowers racing to build them — could conclude that a civilization-ending nuclear war was close to inevitable. It did not happen. That kind of averted catastrophe is sometimes described as--}{++{"author":"Luc's AI","timestamp":1787659339333}@@Chapter 14 opens with Vesna Vulović, a flight attendant who survived a 10.1-kilometer fall when terrorists bombed her plane. The chapter then invokes the nuclear arms race: in 1952, a nuclear war seemed rationally predictable based on centuries of evidence about human conflict, yet it didn't happen. The chapter calls what prevented it++} "un-writing a fate already written."
 
 **In your own words: what does it mean to un-write a fate that already looks written, and how is that different from things simply turning out fine? Use what happened over the course of the Cold War as evidence that un-writing a fate is actually possible, and say what it took.**
 

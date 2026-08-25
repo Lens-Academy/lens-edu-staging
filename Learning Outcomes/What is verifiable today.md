@@ -19,7 +19,7 @@ eval-results:
 ## Test:
 id:: d42dd4a7-6562-42aa-af58-c2a7dc955008
 #### Question
-content:: A common assumption is that verifying international AI agreements is a problem for the future — that it waits on technical breakthroughs nobody has made yet. Careful analysis points the other way for a large class of agreements, even when it grants deliberately pessimistic assumptions about both the technology and the politics.
+content:: A common assumption is that verifying {--{"author":"Luc's AI","timestamp":1787659338225}@@international --}AI agreements is a problem for the future — that it waits on{--{"author":"Luc's AI","timestamp":1787659338225}@@ technical--} breakthroughs nobody has made yet.{--{"author":"Luc's AI","timestamp":1787659338225}@@ Careful analysis points the other way for a large class of agreements, even when it grants --}{++{"author":"Luc's AI","timestamp":1787659338225}@@ The Oxford AIGI report, written under ++}deliberately{--{"author":"Luc's AI","timestamp":1787659338225}@@ pessimistic assumptions about both the technology and the politics.--}{++{"author":"Luc's AI","timestamp":1787659338225}@@ conservative assumptions, reaches a different conclusion.++}
 
 **Is that common assumption right? Say which international AI agreements are and are not verifiable with existing or near-term technology, and what distinction the split rests on. Explain why data-center-based development and deployment is the tractable case and mobile AI-enabled systems the hard one — and say what this implies for what should be done now.**
 assessment-instructions::

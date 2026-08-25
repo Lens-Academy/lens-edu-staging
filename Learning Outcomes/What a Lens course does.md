@@ -24,7 +24,7 @@ id:: 02f8c2b4-d847-463c-b26c-38e20e76d2eb
 content::
 Two short answers. A few sentences is plenty.
 
-**First:** name two things a Lens course does that a reading list plus a weekly discussion call could not. Point at concrete mechanics rather than adjectives.
+**First:** name two things {--{"author":"Luc's AI","timestamp":1787659338014}@@a Lens course does--}{++{"author":"Luc's AI","timestamp":1787659338014}@@these pages did++} that a reading list plus a weekly discussion call could not.{--{"author":"Luc's AI","timestamp":1787659338014}@@ Point at concrete mechanics rather than adjectives.--}
 
 **Second:** name one thing you would still want evidence of before believing Lens courses work at scale, and say what that evidence would look like.
 
