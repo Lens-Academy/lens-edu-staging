@@ -16,7 +16,8 @@ The authors of Part II chose a scenario set close to the present day, not becaus
 #### Article
 source:: [[../articles/iabied-ptii-faq-pick-setup]]
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667412639}@@Question--}{++{"author":"Elias's AI","timestamp":1787667412639}@@Question: Open
+id:: e33d9a6a-7248-4868-8632-049634b99c64++}
 content:: Setting the story close to the present makes it easy to picture. Does that make the danger feel more real to you, or does a near-term timeline make the whole thing easier to dismiss?
 assessment-instructions:: An open reflection with no correct answer. Respond in a few sentences to the learner's actual reasoning rather than restating the reading. If they argue the near-future setting hurts plausibility, note the authors' own claim that the specific path matters less than the convergent endpoint. Do not push them toward the authors' view.
 optional:: true
