@@ -18,3 +18,5 @@ source:: [[../Lenses/ToT M3 - Paper - Lee (Microsoft)]]
 # Lens:
 source:: [[../Lenses/ToT M3 - When AI Helps and When It Harms]]
 
+# Lens:
+source:: [[../Lenses/ToT M3 - The Evidence - Synthesis]]
