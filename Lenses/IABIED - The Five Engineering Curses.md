@@ -95,7 +95,8 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667454018}@@Question--}{++{"author":"Elias's AI","timestamp":1787667454018}@@Question: Open
+id:: 2dad06ea-d985-4388-aecf-3361ce0b3e2e++}
 content::
 \## Phase 3: Learning Question
 A friend reads the same chapter and shrugs: "Every one of these curses has already been beaten. We've flown space probes that reached Mars, we run reactors that don't explode, and we ship software that mostly holds up. Engineering is just grinding failure modes down one at a time. Give the AI people enough iterations and they'll grind these down too." Using the chapter's own distinctions, where exactly does that argument break?
