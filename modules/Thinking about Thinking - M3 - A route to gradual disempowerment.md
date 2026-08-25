@@ -26,10 +26,3 @@ source:: [[../Lenses/ToT M3 - Gradual Disempowerment]]
 
 # Lens:
 source:: [[../Lenses/ToT M3 - Recap]]
-
-# Submodule: Evidence Library (Optional)
-
-# Lens:
-source:: [[../Lenses/ToT M3 - Paper - Bednar (Legal Study)]]
-optional:: true
-hide:: true
