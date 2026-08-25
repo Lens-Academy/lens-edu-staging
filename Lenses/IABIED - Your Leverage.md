@@ -17,7 +17,8 @@ You've just been through the book's darkest stretch. The authors' point isn't de
 
 ---
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667439865}@@Question--}{++{"author":"Elias's AI","timestamp":1787667439865}@@Question: Open
+id:: 42582195-df85-468b-a86e-44ea0ca3dc86++}
 content::
 \## Phase 1: Your strengths
 Take 5 minutes and write freely; speech-to-text works well here. What are you unusually good at, or unusually well-positioned for? Touch on any of:
