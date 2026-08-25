@@ -25,7 +25,7 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read the Coda of "If Anyone Builds It, Everyone Dies."
+{--{"author":"Elias's AI","timestamp":1787672406710}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672406710}@@feedback-instructions::++} The student has just read the Coda of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Distinguish between predicting the pathway to a catastrophic outcome and predicting the outcome itself, explain why outcome confidence is achievable even when the exact path cannot be predicted, and apply this distinction to the argument that humanity's position relative to a superintelligent AI is analogous to a human playing chess against Stockfish.
 
@@ -69,7 +69,7 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-c.md]]{>>{"author":"Luc's AI","timestamp":1783779634146}@@This Phase 2 block is byte-identical in 2 lenses (Path Prediction vs Outcome Prediction, Position Not Despair); deduplicated into the shared prompt file with the text unchanged.<<}
+{--{"author":"Elias's AI","timestamp":1787672410079}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672410079}@@feedback-instructions::++} [[../prompts/iabied-phase-2-reflection-tutor-c.md]]{>>{"author":"Luc's AI","timestamp":1783779634146}@@This Phase 2 block is byte-identical in 2 lenses (Path Prediction vs Outcome Prediction, Position Not Despair); deduplicated into the shared prompt file with the text unchanged.<<}
 
 #### {--{"author":"Elias's AI","timestamp":1787667425251}@@Question--}{++{"author":"Elias's AI","timestamp":1787667425251}@@Question: Open
 id:: 84ef8e3e-3950-447e-80d8-357321a5ae0e++}
