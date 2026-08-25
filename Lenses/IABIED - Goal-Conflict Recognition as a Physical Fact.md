@@ -22,7 +22,7 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read Chapter 7 of "If Anyone Builds It, Everyone Dies."
+{--{"author":"Elias's AI","timestamp":1787672312257}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672312257}@@feedback-instructions::++} The student has just read Chapter 7 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: State the claim that an AI system's recognition of a conflict between its goals and its operators' plans is a physical fact (a logical operation) rather than a moral choice or an act of rebellion, and explain what this implies about whether a misaligned AI can simply decide not to pursue its objectives.
 
@@ -65,7 +65,7 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
+{--{"author":"Elias's AI","timestamp":1787672315864}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672315864}@@feedback-instructions::++} The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading rather than to explain the content to them.
 
