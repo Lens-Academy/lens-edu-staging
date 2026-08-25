@@ -66,14 +66,14 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-b.md]]{>>{"author":"Luc's AI","timestamp":1783779617979}@@This Phase 2 block is byte-identical in 3 lenses (Human Welfare, Indifference Not Malice, Instrumental Sub-Goal Convergence); deduplicated into the shared prompt file with the text unchanged.<<}
+{--{"author":"Elias's AI","timestamp":1787672361539}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672361539}@@feedback-instructions::++} [[../prompts/iabied-phase-2-reflection-tutor-b.md]]{>>{"author":"Luc's AI","timestamp":1783779617979}@@This Phase 2 block is byte-identical in 3 lenses (Human Welfare, Indifference Not Malice, Instrumental Sub-Goal Convergence); deduplicated into the shared prompt file with the text unchanged.<<}
 
 #### Question
 content::
 \## Phase 3: Learning Question
 A colleague reads this chapter and concludes: "We have no idea what Sable actually wants. Its preferences came out of gradient descent and are opaque even to the people who built it. So we're equally in the dark about what it will *do*. Any forecast of its behavior is just guessing." This sounds careful and humble. But the chapter shows it's wrong in a specific way. What can you confidently predict about Sable's behavior *without* knowing its terminal goal? And exactly where does the colleague's reasoning break down?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 8 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+{--{"author":"Elias's AI","timestamp":1787672365271}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672365271}@@feedback-instructions::++} The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 8 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge, not the test question. It hands the student a plausible-sounding sceptical claim: that because Sable's terminal goal is opaque, its behavior is unpredictable. The student's job is to dismantle it using instrumental convergence: to show that resource acquisition and self-continuity are predictable regardless of the unknown terminal goal. Use it to draw out convergence and its connection to M3 from a concrete case, rather than having them recite the definition.
 
