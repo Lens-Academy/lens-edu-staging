@@ -16,7 +16,8 @@ Chapter 3 argues that AI systems will develop goal-directed behavior not because
 #### Article
 source:: [[../articles/iabied-ch3-faq-human-like-emotions]]
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667322909}@@Question--}{++{"author":"Elias's AI","timestamp":1787667322909}@@Question: Open
+id:: ee5a3d12-1559-460a-9560-2150ad26d145++}
 content:: The reading argues the real danger is indifference, not hatred. Why might an AI that simply does not care about us be as dangerous as one that actively wanted to harm us?
 assessment-instructions:: An open reflection with no correct answer. Respond in a few sentences to the learner's actual reasoning rather than restating the reading. A strong answer connects indifference to competition for resources rather than to malice. Do not push them toward the authors' view.
 optional:: true

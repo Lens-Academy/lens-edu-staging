@@ -23,7 +23,8 @@ eval-results:
 
 ## Test:
 id:: 27dca5ad-1a1d-40bf-b83d-fbcbd2e9f3d0
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667325879}@@Question--}{++{"author":"Elias's AI","timestamp":1787667325879}@@Question: Open
+id:: 593a8d0a-1028-4cb1-bb36-2406723f14ef++}
 content::
 {--{"author":"Luc's AI","timestamp":1787659338448}@@Evolution selected humans for seeking out energy-rich food. Yet the substance we now build factories--}{++{"author":"Luc's AI","timestamp":1787659338448}@@Chapter 4 introduces the alignment problem by arguing that training an AI++} to {--{"author":"Luc's AI","timestamp":1787659338448}@@produce and crave most is--}{++{"author":"Luc's AI","timestamp":1787659338448}@@be helpful does++} not {--{"author":"Luc's AI","timestamp":1787659338448}@@the most energy-dense stuff we know how--}{++{"author":"Luc's AI","timestamp":1787659338448}@@reliably produce an AI that wants++} to {--{"author":"Luc's AI","timestamp":1787659338448}@@make (that would --}be {--{"author":"Luc's AI","timestamp":1787659338448}@@something like jet fuel) — it is ice cream: cold, sweet, fatty. An observer watching early hominids, who knew exactly what they were being selected for, could not have predicted that endpoint.--}{++{"author":"Luc's AI","timestamp":1787659338448}@@helpful.++}
 
