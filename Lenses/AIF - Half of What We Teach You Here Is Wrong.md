@@ -18,7 +18,7 @@ Across fields of scientific education, professors can sometimes be heard quoting
 
 We're all new to this, that's why your help is needed at all. If we could teach you how things are going to go, or what to do about it, we'd just be telling you so, and be done with it. But what we really need is for you to be able to look at a situation and rapidly figure out for yourself what will help. You're going to need to do that even in the face of social pressure from others who are also trying to figure it out on the fly, and many of those folks will be wrong. Sometimes you'll be one of the ones who are wrong.
 
-So we
+So we're gonna have you 
 
 #### Text
 content::
