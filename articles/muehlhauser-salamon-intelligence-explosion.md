@@ -28,10 +28,8 @@ In this chapter we review the evidence for and against three claims: that (1) th
 > —Vernor Vinge
 
 ## 1. Introduction
-Humans may create human-level1 artificial intelligence (AI) this century. Shortly there-
-after, we may see an “intelligence explosion” or “technological singularity”—a chain of
-events by which human-level AI leads, fairly rapidly, to intelligent systems whose capa-
-bilities far surpass those of biological humanity as a whole.
+Humans may create human-level1 artificial intelligence (AI) this century. Shortly thereafter, we may see an “intelligence explosion” or “technological singularity”—a chain of
+events by which human-level AI leads, fairly rapidly, to intelligent systems whose capabilities far surpass those of biological humanity as a whole.
 How likely is this, and what will the consequences be? Others have discussed these
 questions previously (Turing 1950, 1951; Good 1959, 1965, 1970, 1982; von Neumann
 1966; Minsky 1984; Solomonoff1985; Vinge 1993; Yudkowsky 2008a; Nilsson 2009,
@@ -51,31 +49,24 @@ Because the term “singularity” is popularly associated with several claims a
 we will not defend (Sandberg 2010), we will first explain what we are not claiming.
 First, we will not tell detailed stories about the future. Each step of a story may be
 probable, but if there are many such steps, the whole story itself becomes improbable
-(Nordmann 2007; Tversky and Kahneman 1983). We will not assume the continu-
-ation of Moore’s law, nor that hardware trajectories determine software progress, nor
+(Nordmann 2007; Tversky and Kahneman 1983). We will not assume the continuation of Moore’s law, nor that hardware trajectories determine software progress, nor
 that faster computer speeds necessarily imply faster “thought” (Proudfoot and Copeland
-2012), nor that technological trends will be exponential (Kurzweil 2005) rather than “S-
-curved” or otherwise (Modis 2012), nor indeed that AI progress will accelerate rather
+2012), nor that technological trends will be exponential (Kurzweil 2005) rather than “S-curved” or otherwise (Modis 2012), nor indeed that AI progress will accelerate rather
 1. We will define “human-level AI” more precisely later in the chapter.
-than decelerate (Plebe and Perconti 2012). Instead, we will examine convergent out-
-comes that—like the evolution of eyes or the emergence of markets—can come about
-through any of several different paths and can gather momentum once they begin. Hu-
-mans tend to underestimate the likelihood of outcomes that can come about through
-many different paths (Tversky and Kahneman 1974), and we believe an intelligence ex-
-plosion is one such outcome.
+than decelerate (Plebe and Perconti 2012). Instead, we will examine convergent outcomes that—like the evolution of eyes or the emergence of markets—can come about
+through any of several different paths and can gather momentum once they begin. Humans tend to underestimate the likelihood of outcomes that can come about through
+many different paths (Tversky and Kahneman 1974), and we believe an intelligence explosion is one such outcome.
 Second, we will not assume that human-level intelligence can be realized by a classical
 Von Neumann computing architecture, nor that intelligent machines will have internal
 mental properties such as consciousness or human-like “intentionality,” nor that early
-AIs will be geographically local or easily “disembodied.” These properties are not re-
-quired to build AI, so objections to these claims (Lucas 1961; Dreyfus 1972; Searle
+AIs will be geographically local or easily “disembodied.” These properties are not required to build AI, so objections to these claims (Lucas 1961; Dreyfus 1972; Searle
 1980; Block 1981; Penrose 1994; van Gelder and Port 1995) are not objections to AI
 (Chalmers 1996, chap. 9; Nilsson 2009, chap. 24; McCorduck 2004, chap. 8 and 9;
 Legg 2008; Heylighen 2012) or to the possibility of intelligence explosion (Chalmers
 2012).2 For example: a machine need not be conscious to intelligently reshape the world
 according to its preferences, as demonstrated by goal-directed “narrow AI” programs
 such as the leading chess-playing programs.
-We must also be clear on what we mean by “intelligence” and by “AI.” Concern-
-ing “intelligence,” Legg and Hutter (2007) found that definitions of intelligence used
+We must also be clear on what we mean by “intelligence” and by “AI.” Concerning “intelligence,” Legg and Hutter (2007) found that definitions of intelligence used
 throughout the cognitive sciences converge toward the idea that “Intelligence measures
 an agent’s ability to achieve goals in a wide range of environments.” We might call this
 the “optimization power” concept of intelligence, for it measures an agent’s power to
@@ -115,25 +106,21 @@ that could invent new technologies, manipulate humans with acquired social skill
 otherwise learn to navigate many new social and physical environments as needed to
 achieve its goals.
 Which kinds of machines might accomplish such feats? There are many possible
-types. A whole brain emulation (WBE) would be a computer emulation of brain struc-
-tures sufficient to functionally reproduce human cognition. We need not understand
+types. A whole brain emulation (WBE) would be a computer emulation of brain structures sufficient to functionally reproduce human cognition. We need not understand
 the mechanisms of general intelligence to use the human intelligence software already
 invented by evolution (Sandberg and Bostrom 2008). In contrast, “de novo AI” requires
 inventing intelligence software anew. There is a vast space of possible mind designs for
-de novo AI (Dennett 1996; Yudkowsky 2008a). De novo AI approaches include the sym-
-bolic, probabilistic, connectionist, evolutionary, embedded, and other research programs
+de novo AI (Dennett 1996; Yudkowsky 2008a). De novo AI approaches include the symbolic, probabilistic, connectionist, evolutionary, embedded, and other research programs
 (Pennachin and Goertzel 2007).
 ## 2. From Here to AI
 When should we expect the first creation of AI? We must allow for a wide range of
-possibilities. Except for weather forecasters (Murphy and Winkler 1984), and success-
-ful professional gamblers, nearly all of us give inaccurate probability estimates, and in
+possibilities. Except for weather forecasters (Murphy and Winkler 1984), and successful professional gamblers, nearly all of us give inaccurate probability estimates, and in
 particular we are overconfident of our predictions (Lichtenstein, Fischhoff, and Phillips
 3. This definition is a useful starting point, but it could be improved. Future work could produce
 a definition of intelligence as optimization power over a canonical distribution of environments, with a
 penalty for resource use—e.g. the “speed prior” described by Schmidhuber (2002). Also see Goertzel
 (2006, 48; 2010) and Hibbard (2011).
-1982; Griffin and Tversky 1992; Yates et al. 2002). This overconfidence affects profes-
-sional forecasters, too (Tetlock 2005), and we have little reason to think AI forecasters
+1982; Griffin and Tversky 1992; Yates et al. 2002). This overconfidence affects professional forecasters, too (Tetlock 2005), and we have little reason to think AI forecasters
 have fared any better.4 So if you have a gut feeling about when AI will be created, it is
 probably wrong.
 But uncertainty is not a “get out of prediction free” card (Bostrom 2007). We still
@@ -155,8 +142,7 @@ experts expect AI by 2050 or 2100.6
 **By simple hardware extrapolation.** The novelist Vernor Vinge (1993) based his own predictions about AI on hardware trends, but in a 2003 reprint of his article, Vinge notes
 the insufficiency of this reasoning: even if we acquire hardware sufficient for AI, we may
 not have the software problem solved.7
-Hardware extrapolation may be a more useful method in a context where the intelli-
-gence software is already written: whole brain emulation. Because WBE seems to rely
+Hardware extrapolation may be a more useful method in a context where the intelligence software is already written: whole brain emulation. Because WBE seems to rely
 4. To take one of many examples, Simon (1965, 96) predicted that “machines will be capable, within
 twenty years, of doing any work a man can do.” Also see Crevier (1993).
 5. Armstrong (1985), Woudenberg (1991), and Rowe and Wright (2001). But, see Parente and
@@ -168,22 +154,17 @@ then when AI is created there may be a “computing overhang”: large amounts o
 power which could be used to run thousands of AIs or give a few AIs vast computational resources. This
 may not be the case if early AIs require quantum computing hardware, which is less likely to be plentiful
 and inexpensive than classical computing hardware at any given time.
-mostly on scaling up existing technologies like microscopy and large-scale cortical sim-
-ulation, WBE may be largely an “engineering” problem, and thus the time of its arrival
+mostly on scaling up existing technologies like microscopy and large-scale cortical simulation, WBE may be largely an “engineering” problem, and thus the time of its arrival
 may be more predictable than is the case for other kinds of AI.
-Several authors have discussed the difficulty of WBE in detail (Kurzweil 2005; Sand-
-berg and Bostrom 2008; de Garis et al. 2010; Modha et al. 2011; Cattell and Parker
+Several authors have discussed the difficulty of WBE in detail (Kurzweil 2005; Sandberg and Bostrom 2008; de Garis et al. 2010; Modha et al. 2011; Cattell and Parker
 2012). In short: The difficulty of WBE depends on many factors, and in particular
-on the resolution of emulation required for successful WBE. For example, proteome-
-resolution emulation would require more resources and technological development than
+on the resolution of emulation required for successful WBE. For example, proteome-resolution emulation would require more resources and technological development than
 emulation at the resolution of the brain’s neural network. In perhaps the most likely
 scenario,
 WBE on the neuronal/synaptic level requires relatively modest increases in
 microscopy resolution, a less trivial development of automation for scanning
 and image processing, a research push at the problem of inferring functional
-properties of neurons and synapses, and relatively business-as-usual develop-
-ment of computational neuroscience models and computer hardware. (Sand-
-berg and Bostrom 2008, 83)
+properties of neurons and synapses, and relatively business-as-usual development of computational neuroscience models and computer hardware. (Sandberg and Bostrom 2008, 83)
 
 **By considering the time since Dartmouth.** We have now seen more than 50 years of work toward machine intelligence since the seminal Dartmouth conference on AI, but AI
 has not yet arrived. This seems, intuitively, like strong evidence that AI won’t arrive in
@@ -229,20 +210,16 @@ given backhoes? Now the ditch might not take so long. Analogously, when predicti
 progress toward AI it may be useful to consider not how much progress is made per year,
 but instead how much progress is made per unit of research effort, and how many units
 of research effort we can expect to be applied to the problem in the coming decades.
-Unfortunately, we have not yet discovered demonstrably reliable methods for long-
-term technological forecasting. New methods are being tried (Nagy et al. 2010), but
-until they prove successful we should be particularly cautious when predicting AI time-
-lines. Below, we attempt a final approach by examining some plausible speed bumps and
+Unfortunately, we have not yet discovered demonstrably reliable methods for long-term technological forecasting. New methods are being tried (Nagy et al. 2010), but
+until they prove successful we should be particularly cautious when predicting AI timelines. Below, we attempt a final approach by examining some plausible speed bumps and
 accelerators on the path to AI.
 ### 2.2. Speed Bumps
 Several factors may decelerate our progress toward the first creation of AI. For example:
 **An end to Moore's law.** Though several information technologies have progressed at an exponential or superexponential rate for many decades (Nagy et al. 2011), this trend may not hold for much longer (Mack 2011).
 
 **Depletion of low-hanging fruit.** Scientific progress is not only a function of research
-effort but also of the ease of scientific discovery; in some fields there is pattern of in-
-creasing difficulty with each successive discovery (Arbesman 2011; Jones 2009). AI may
-prove to be a field in which new discoveries require far more effort than earlier discov-
-eries.
+effort but also of the ease of scientific discovery; in some fields there is pattern of increasing difficulty with each successive discovery (Arbesman 2011; Jones 2009). AI may
+prove to be a field in which new discoveries require far more effort than earlier discoveries.
 
 **Societal collapse.** Various political, economic, technological, or natural disasters may lead to a societal collapse during which scientific progress would not continue (Posner 2004; Bostrom and Ćirković 2008).
 
@@ -271,12 +248,10 @@ using methods such as genetic algorithms. Indirectly, computing may enable
 circuit, but this is closely tied to the price-performance of computing power.
 11. For important qualifications, see Nagy et al. (2010) and Mack (2011).
 12. Quantum computing may also emerge during this period. Early worries that quantum computing
-may not be feasible have been overcome, but it is hard to predict whether quantum computing will con-
-tribute significantly to the development of machine intelligence because progress in quantum computing
+may not be feasible have been overcome, but it is hard to predict whether quantum computing will contribute significantly to the development of machine intelligence because progress in quantum computing
 depends heavily on relatively unpredictable insights in quantum algorithms and hardware (Rieffel and
 Polak 2011).
-the production and processing of enormous datasets to improve AI perfor-
-mance (Halevy, Norvig, and Pereira 2009), or result in an expansion of the
+the production and processing of enormous datasets to improve AI performance (Halevy, Norvig, and Pereira 2009), or result in an expansion of the
 information technology industry and the quantity of researchers in the field.
 (Shulman and Sandberg 2010)
 
@@ -294,19 +269,15 @@ law” (Kryder and Kim 2009), which states that magnetic disk storage density do
 approximately every 18 months (Walter 2005).
 
 **Progress in psychology and neuroscience.** Cognitive scientists have uncovered many of the brain's algorithms that contribute to human intelligence (Trappenberg 2009; Ashby
-and Helie 2011). Methods like neural networks (imported from neuroscience) and re-
-inforcement learning (inspired by behaviorist psychology) have already resulted in sig-
-nificant AI progress, and experts expect this insight-transfer from neuroscience to AI to
+and Helie 2011). Methods like neural networks (imported from neuroscience) and reinforcement learning (inspired by behaviorist psychology) have already resulted in significant AI progress, and experts expect this insight-transfer from neuroscience to AI to
 continue and perhaps accelerate (Van der Velde 2010; Schierwagen 2011; Floreano and
 Mattiussi 2008; de Garis et al. 2010; Krichmar and Wagatsuma 2011).
 
 **Accelerated science.** A growing First World will mean that more researchers at well-funded universities will be conducting research relevant to machine intelligence. The
 world’s scientific output (in publications) grew by one third from 2002 to 2007 alone,
 much of this driven by the rapid growth of scientific output in developing nations like
-China and India (Royal Society 2011).13 Moreover, new tools can accelerate particu-
-lar fields, just as fMRI accelerated neuroscience in the 1990s, and the effectiveness of
-scientists themselves can potentially be increased with cognitive enhancement pharma-
-ceuticals (Bostrom and Sandberg 2009), and brain-computer interfaces that allow direct
+China and India (Royal Society 2011).13 Moreover, new tools can accelerate particular fields, just as fMRI accelerated neuroscience in the 1990s, and the effectiveness of
+scientists themselves can potentially be increased with cognitive enhancement pharmaceuticals (Bostrom and Sandberg 2009), and brain-computer interfaces that allow direct
 neural access to large databases (Groß 2009). Finally, new collaborative tools like blogs
 13. On the other hand, some worry (Pan et al. 2005), that the rates of scientific fraud and publication
 bias may currently be higher in China and India than in the developed world.
@@ -324,18 +295,15 @@ who realize that AI is within reach may devote substantial resources to developi
 as quickly as possible, provoking an AI arms race (Gubrud 1997).
 ### 2.4. How Long, Then, Before AI?
 So, when will we create AI? Any predictions on the matter must have wide error bars.
-Given the history of confident false predictions about AI (Crevier 1993), and AI’s po-
-tential speed bumps, it seems misguided to be 90% confident that AI will succeed in the
+Given the history of confident false predictions about AI (Crevier 1993), and AI’s potential speed bumps, it seems misguided to be 90% confident that AI will succeed in the
 coming century. But 90% confidence that AI will not arrive before the end of the century
 also seems wrong, given that: (a) many difficult AI breakthroughs have now been made,
-(b) several factors, such as automated science and first-mover incentives, may well accel-
-erate progress toward AI, and (c) whole brain emulation seems to be possible and have
+(b) several factors, such as automated science and first-mover incentives, may well accelerate progress toward AI, and (c) whole brain emulation seems to be possible and have
 a more predictable development than de novo AI. Thus, we think there is a significant
 probability that AI will be created this century. This claim is not scientific—the field of
 technological forecasting is not yet advanced enough for that—but we believe our claim
 is reasonable.
-The creation of human-level AI would have serious repercussions, such as the dis-
-placement of most or all human workers (Brynjolfsson and McAfee 2011). But if AI is
+The creation of human-level AI would have serious repercussions, such as the displacement of most or all human workers (Brynjolfsson and McAfee 2011). But if AI is
 likely to lead to machine superintelligence, as we argue next, the implications could be
 even greater.
 14. Also, a process called “iterated embryo selection” (Uncertain Future 2012), could be used to produce
@@ -344,19 +312,14 @@ thus accelerating scientific progress and giving a competitive advantage to nati
 use of this possibility.
 ## 3. From AI to Machine Superintelligence
 It seems unlikely that humans are near the ceiling of possible intelligences, rather than
-simply being the first such intelligence that happened to evolve. Computers far outper-
-form humans in many narrow niches (e.g. arithmetic, chess, memory size), and there is
+simply being the first such intelligence that happened to evolve. Computers far outperform humans in many narrow niches (e.g. arithmetic, chess, memory size), and there is
 reason to believe that similar large improvements over human performance are possible
 for general reasoning, technology design, and other tasks of interest. As occasional AI
 critic Jack Schwartz (1987) wrote:
 If artificial intelligences can be created at all, there is little reason to believe
-that initial successes could not lead swiftly to the construction of artificial su-
-perintelligences able to explore significant mathematical, scientific, or engi-
-neering alternatives at a rate far exceeding human ability, or to generate plans
-and take action on them with equally overwhelming speed. Since man’s near-
-monopoly of all higher forms of intelligence has been one of the most basic
-facts of human existence throughout the past history of this planet, such de-
-velopments would clearly create a new economics, a new sociology, and a new
+that initial successes could not lead swiftly to the construction of artificial superintelligences able to explore significant mathematical, scientific, or engineering alternatives at a rate far exceeding human ability, or to generate plans
+and take action on them with equally overwhelming speed. Since man’s near-monopoly of all higher forms of intelligence has been one of the most basic
+facts of human existence throughout the past history of this planet, such developments would clearly create a new economics, a new sociology, and a new
 history.
 Why might AI “lead swiftly” to machine superintelligence? Below we consider some
 reasons.
@@ -377,22 +340,18 @@ of about 0.35 (McDaniel 2005). One study suggested a similar correlation between
 brain size and cognitive ability in rats and mice (Anderson 1993).15
 15. Note that given the definition of intelligence we are using, greater computational resources would
 not give a machine more “intelligence” but instead more “optimization power.”
-**Communication speed.** Axons carry spike signals at 75 meters per second or less (Kan-
-del, Schwartz, and Jessell 2000). That speed is a fixed consequence of our physiology.
-In contrast, software minds could be ported to faster hardware, and could therefore pro-
-cess information more rapidly. (Of course, this also depends on the efficiency of the
+**Communication speed.** Axons carry spike signals at 75 meters per second or less (Kandel, Schwartz, and Jessell 2000). That speed is a fixed consequence of our physiology.
+In contrast, software minds could be ported to faster hardware, and could therefore process information more rapidly. (Of course, this also depends on the efficiency of the
 algorithms in use; faster hardware compensates for less efficient software.)
 **Increased serial depth.** Due to neurons’ slow firing speed, the human brain relies on
-massive parallelization and is incapable of rapidly performing any computation that re-
-quires more than about 100 sequential operations (Feldman and Ballard 1982). Perhaps
+massive parallelization and is incapable of rapidly performing any computation that requires more than about 100 sequential operations (Feldman and Ballard 1982). Perhaps
 there are cognitive tasks that could be performed more efficiently and precisely if the
 brain’s ability to support parallelizable pattern-matching algorithms were supplemented
 by support for longer sequential processes. In fact, there are many known algorithms
 for which the best parallel version uses far more computational resources than the best
 serial algorithm, due to the overhead of parallelization.16
 **Duplicability.** Our research colleague Steve Rayhawk likes to describe AI as “instant
-intelligence; just add hardware!” What Rayhawk means is that, while it will require ex-
-tensive research to design the first AI, creating additional AIs is just a matter of copying
+intelligence; just add hardware!” What Rayhawk means is that, while it will require extensive research to design the first AI, creating additional AIs is just a matter of copying
 software. The population of digital minds can thus expand to fill the available hardware
 base, perhaps rapidly surpassing the population of biological minds.
 Duplicability also allows the AI population to rapidly become dominated by newly
@@ -403,24 +362,20 @@ who undergoes education increases only his or her own performance, but an AI tha
 becomes 10% better at earning money (per dollar of rentable hardware) than other AIs
 can be used to replace the others across the hardware base—making each copy 10% more
 efficient.18
-**Editability.** Digitality opens up more parameters for controlled variation than is pos-
-sible with humans. We can put humans through job-training programs, but we can’t
+**Editability.** Digitality opens up more parameters for controlled variation than is possible with humans. We can put humans through job-training programs, but we can’t
 perform precise, replicable neurosurgeries on them. Digital workers would be more
-editable than human workers are. Consider first the possibilities from whole brain em-
-ulation. We know that transcranial magnetic stimulation (TMS) applied to one part of
+editable than human workers are. Consider first the possibilities from whole brain emulation. We know that transcranial magnetic stimulation (TMS) applied to one part of
 16. For example see Omohundro (1987).
 17. If the first self-improving AIs at least partially require quantum computing, the system states of
 these AIs might not be directly copyable due to the no-cloning theorem (Wootters and Zurek 1982).
-18. Something similar is already done with technology-enabled business processes. When the phar-
-macy chain CVS improves its prescription-ordering system, it can copy these improvements to more than
+18. Something similar is already done with technology-enabled business processes. When the pharmacy chain CVS improves its prescription-ordering system, it can copy these improvements to more than
 4,000 of its stores, for immediate productivity gains (McAfee and Brynjolfsson 2008).
 the prefrontal cortex can improve working memory (Fregni et al. 2005). Since TMS
 works by temporarily decreasing or increasing the excitability of populations of neurons,
 it seems plausible that decreasing or increasing the “excitability” parameter of certain
 populations of (virtual) neurons in a digital mind would improve performance. We
 could also experimentally modify dozens of other whole brain emulation parameters,
-such as simulated glucose levels, undifferentiated (virtual) stem cells grafted onto par-
-ticular brain modules such as the motor cortex, and rapid connections across different
+such as simulated glucose levels, undifferentiated (virtual) stem cells grafted onto particular brain modules such as the motor cortex, and rapid connections across different
 parts of the brain.19 Secondly, a modular, transparent AI could be even more directly
 editable than a whole brain emulation—possibly via its source code. (Of course, such
 possibilities raise ethical concerns.)
@@ -431,8 +386,7 @@ increase to purchase a hundredfold increase in productive hours per day. But a c
 if its tasks are parallelizable, could do just that. Any gains made by such a copy clan, or
 by a human or human organization controlling that clan, could potentially be invested
 in further AI development, allowing initial advantages to compound.
-**Improved rationality.** Some economists model humans as Homo economicus: self-
-interested rational agents who do what they believe will maximize the fulfillment of
+**Improved rationality.** Some economists model humans as Homo economicus: self-interested rational agents who do what they believe will maximize the fulfillment of
 their goals (M. Friedman 1953). On the basis of behavioral studies, though, Schneider
 (2010) points out that we are more akin to Homer Simpson: we are irrational beings
 that lack consistent, stable goals (Schneider 2010; Cartwright 2011). But imagine if you
@@ -440,8 +394,7 @@ were an instance of Homo economicus. You could stay on a diet, spend the optimal
 of time learning which activities will achieve your goals, and then follow through on an
 optimal plan, no matter how tedious it was to execute. Machine intelligences of many
 types could be written to be vastly more rational than humans, and thereby accrue the
-benefits of rational thought and action. The rational agent model (using Bayesian prob-
-ability theory and expected utility theory) is a mature paradigm in current AI design
+benefits of rational thought and action. The rational agent model (using Bayesian probability theory and expected utility theory) is a mature paradigm in current AI design
 (Hutter 2005; Russell and Norvig 2010, ch. 2).
 These AI advantages suggest that AIs will be capable of far surpassing the cognitive
 abilities and optimization power of humanity as a whole, but will they be motivated to
@@ -463,16 +416,13 @@ maximize the satisfaction of its present final goals.20
 3. An AI will want to improve its own rationality and intelligence because this will
 improve its decision-making, and thereby increase its capacity to achieve its goals.
 4. An AI will want to acquire as many resources as possible, so that these resources
-can be transformed and put to work for the satisfaction of the AI’s final and in-
-strumental goals.
-Later we shall see why these convergent instrumental goals suggest that the default out-
-come from advanced AI is human extinction. For now, let us examine the mechanics of
+can be transformed and put to work for the satisfaction of the AI’s final and instrumental goals.
+Later we shall see why these convergent instrumental goals suggest that the default outcome from advanced AI is human extinction. For now, let us examine the mechanics of
 AI self-improvement.
 ### 3.3. Intelligence Explosion
 The convergent instrumental goal for self-improvement has a special consequence. Once
 human programmers build an AI with a better-than-human capacity for AI design, the
-instrumental goal for self-improvement may motivate a positive feedback loop of self-
-enhancement.21 Now when the machine intelligence improves itself, it improves the
+instrumental goal for self-improvement may motivate a positive feedback loop of self-enhancement.21 Now when the machine intelligence improves itself, it improves the
 intelligence that does the improving. Thus, if mere human efforts suffice to produce
 machine intelligence this century, a large population of greater-than-human machine
 intelligences may be able to create a rapid cascade of self-improvement cycles, enabling
@@ -480,8 +430,7 @@ intelligences may be able to create a rapid cascade of self-improvement cycles, 
 goals.
 21. When the AI can perform 10% of the AI design tasks and do them at superhuman speed, the
 remaining 90% of AI design tasks act as bottlenecks. However, if improvements allow the AI to perform
-99% of AI design tasks rather than 98%, this change produces a much larger impact than when improve-
-ments allowed the AI to perform 51% of AI design tasks rather than 50% (Hanson 1998). And when the
+99% of AI design tasks rather than 98%, this change produces a much larger impact than when improvements allowed the AI to perform 51% of AI design tasks rather than 50% (Hanson 1998). And when the
 AI can perform 100% of AI design tasks rather than 99% of them, this removes altogether the bottleneck
 of tasks done at slow human speeds.
 a rapid transition to machine superintelligence. Chalmers (2010) discusses this process
@@ -489,16 +438,12 @@ in some detail, so here we make only a few additional points.
 The term “self,” in phrases like “recursive self-improvement” or “when the machine
 intelligence improves itself,” is something of a misnomer. The machine intelligence
 could conceivably edit its own code while it is running (Schmidhuber 2007; Schaul
-and Schmidhuber 2010), but it could also create new intelligences that run indepen-
-dently. Alternatively, several AIs (perhaps including WBEs) could work together to
+and Schmidhuber 2010), but it could also create new intelligences that run independently. Alternatively, several AIs (perhaps including WBEs) could work together to
 design the next generation of AIs. Intelligence explosion could come about through
 “self”-improvement or through other-AI improvement.
-Once sustainable machine self-improvement begins, AI development need not pro-
-ceed at the normal pace of human technological innovation. There is, however, sig-
-nificant debate over how fast or local this “takeoff” would be (Hanson and Yudkowsky
+Once sustainable machine self-improvement begins, AI development need not proceed at the normal pace of human technological innovation. There is, however, significant debate over how fast or local this “takeoff” would be (Hanson and Yudkowsky
 2008; Loosemore and Goertzel 2011; Bostrom, forthcoming), and also about whether
-intelligence explosion would result in a stable equilibrium of multiple machine superin-
-telligences or instead a machine “singleton” (Bostrom 2006). We will not discuss these
+intelligence explosion would result in a stable equilibrium of multiple machine superintelligences or instead a machine “singleton” (Bostrom 2006). We will not discuss these
 complex issues here.
 ## 4. Consequences of Machine Superintelligence
 If machines greatly surpass human levels of intelligence—that is, surpass humanity’s
@@ -515,8 +460,7 @@ argues, making AIs more intelligent will not make them want to change their goal
 systems—indeed, AIs will be motivated to preserve their initial goals. Making AIs more
 intelligent will only make them more capable of achieving their original final goals,
 whatever those are.22
-This brings us to the central feature of AI risk: Unless an AI is specifically pro-
-grammed to preserve what humans value, it may destroy those valued structures (in-
+This brings us to the central feature of AI risk: Unless an AI is specifically programmed to preserve what humans value, it may destroy those valued structures (in-
 22. This may be less true for early-generation WBEs, but Omohundro (2007) argues that AIs will
 converge upon being optimizing agents, which exhibit a strict division between goals and cognitive ability.
 cluding humans) incidentally. As Yudkowsky (2008a) puts it, “the AI does not love you,
@@ -535,9 +479,7 @@ goals from reward and punishment may be no easier (Yudkowsky 2008a). If this is
 correct, then the creation of self-improving AI may be detrimental by default unless we
 first solve the problem of how to build an AI with a stable, desirable utility function—a
 “Friendly AI” (Yudkowsky 2001).25
-But suppose it is possible to build a Friendly AI (FAI) capable of radical self-
-improvement. Normal projections of economic growth allow for great discoveries rel-
-evant to human welfare to be made eventually—but a Friendly AI could make those
+But suppose it is possible to build a Friendly AI (FAI) capable of radical self-improvement. Normal projections of economic growth allow for great discoveries relevant to human welfare to be made eventually—but a Friendly AI could make those
 discoveries much sooner. A benevolent machine superintelligence could, as Bostrom
 (2003) writes, “create opportunities for us to vastly increase our own intellectual and
 emotional capabilities, and it could assist us in creating a highly appealing experiential
@@ -570,27 +512,19 @@ including updates to the AI’s internal ontology (de Blanc 2011).
 The approaches to controlled intelligence explosion we have surveyed so far attempt
 to constrain an AI’s goals, but others have suggested a variety of “external” constraints
 for goal-directed AIs: physical and software confinement (Chalmers 2010; Yampolskiy
-2012), deterrence mechanisms, and tripwires that shut down an AI if it engages in dan-
-gerous behavior. Unfortunately, these solutions would pit human intelligence against
+2012), deterrence mechanisms, and tripwires that shut down an AI if it engages in dangerous behavior. Unfortunately, these solutions would pit human intelligence against
 superhuman intelligence, and we shouldn’t be confident the former would prevail.
 Perhaps we could build an AI of limited cognitive ability—say, a machine that only
 answers questions: an “Oracle AI.” But this approach is not without its own dangers
 (Armstrong, Sandberg, and Bostrom 2012).
 Unfortunately, even if these latter approaches worked, they might merely delay AI
 risk without eliminating it. If one AI development team has successfully built either
-an Oracle AI or a goal-directed AI under successful external constraints, other AI de-
-velopment teams may not be far from building their own AIs, some of them with less
-effective safety measures. A Friendly AI with enough lead time, however, could perma-
-nently prevent the creation of unsafe AIs.
+an Oracle AI or a goal-directed AI under successful external constraints, other AI development teams may not be far from building their own AIs, some of them with less
+effective safety measures. A Friendly AI with enough lead time, however, could permanently prevent the creation of unsafe AIs.
 ### 4.2. What Can We Do About AI Risk?
-Because superhuman AI and other powerful technologies may pose some risk of hu-
-man extinction (“existential risk”), Bostrom (2002) recommends a program of differen-
-tial technological development in which we would attempt “to retard the implementation
-of dangerous technologies and accelerate implementation of beneficial technologies, es-
-pecially those that ameliorate the hazards posed by other technologies.”
-But good outcomes from intelligence explosion appear to depend not only on differ-
-ential technological development but also, for example, on solving certain kinds of prob-
-lems in decision theory and value theory before the first creation of AI (Muehlhauser
+Because superhuman AI and other powerful technologies may pose some risk of human extinction (“existential risk”), Bostrom (2002) recommends a program of differential technological development in which we would attempt “to retard the implementation
+of dangerous technologies and accelerate implementation of beneficial technologies, especially those that ameliorate the hazards posed by other technologies.”
+But good outcomes from intelligence explosion appear to depend not only on differential technological development but also, for example, on solving certain kinds of problems in decision theory and value theory before the first creation of AI (Muehlhauser
 2011). Thus, we recommend a course of differential intellectual progress, which includes
 differential technological development as a special case.
 Differential intellectual progress consists in prioritizing risk-reducing intellectual
@@ -598,8 +532,7 @@ progress over risk-increasing intellectual progress. As applied to AI risks in p
 a plan of differential intellectual progress would recommend that our progress on the
 scientific, philosophical, and technological problems of AI safety outpace our progress
 on the problems of AI capability such that we develop safe superhuman AIs before we
-develop (arbitrary) superhuman AIs. Our first superhuman AI must be a safe super-
-human AI, for we may not get a second chance (Yudkowsky 2008a). With AI as with
+develop (arbitrary) superhuman AIs. Our first superhuman AI must be a safe superhuman AI, for we may not get a second chance (Yudkowsky 2008a). With AI as with
 other technologies, we may become victims of “the tendency of technological advance
 to outpace the social control of technology” (Posner 2004).
 ## 5. Conclusion

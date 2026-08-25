@@ -24,8 +24,6 @@ Add discussion note here:
 
 This report documents research and analysis conducted as part of a study to investigate detection and monitoring mechanisms that cloud service providers could employ to identify large artificial intelligence (AI) training runs. The intended audience of this report is national policymakers interested in compute-based AI governance. This report may be of interest to cloud service providers and infrastructure-as-a-service companies.
 
-This report documents research and analysis conducted as part of a study to investigate detection and monitoring mechanisms that cloud service providers could employ to identify large artificial intelligence (AI) training runs. The intended audience of this report is national policymakers interested in compute-based AI governance. This report may be of interest to cloud service providers and infrastructure-as-a-service companies.
-
 ## Key Takeaways
 
 -   Cloud service providers might not be able to report and detect AI training if they are only obligated to monitor and report activity based on floating-point operation thresholds in future AI governance policy.

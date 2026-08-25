@@ -2117,8 +2117,8 @@ Key: $\bullet$ = very useful for this purpose; $\circ$ = somewhat useful, but ca
 
 | #H100-equivalents | 100,000 | 10,000 | 1,000 | 100 | 16 | 1 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Seconds to Monitored Threshold | 1.0×1021.0\times 10^{2} | 1.0×1031.0\times 10^{3} | 1.0×1041.0\times 10^{4} | 1.0×1051.0\times 10^{5} | 6.3×1056.3\times 10^{5} | 1.0×1071.0\times 10^{7} |
-| Seconds to Strict Threshold | 1.0×1041.0\times 10^{4} | 1.0×1051.0\times 10^{5} | 1.0×1061.0\times 10^{6} | 1.0×1071.0\times 10^{7} | 6.3×1076.3\times 10^{7} | 1.0×1091.0\times 10^{9} |
+| Seconds to Monitored Threshold | $1.0\times 10^{2}$ | $1.0\times 10^{3}$ | $1.0\times 10^{4}$ | $1.0\times 10^{5}$ | $6.3\times 10^{5}$ | $1.0\times 10^{7}$ |
+| Seconds to Strict Threshold | $1.0\times 10^{4}$ | $1.0\times 10^{5}$ | $1.0\times 10^{6}$ | $1.0\times 10^{7}$ | $6.3\times 10^{7}$ | $1.0\times 10^{9}$ |
 | Days to Monitored Threshold | 0.001 | 0.012 | 0.1 | 1.2 | 7.3 | 116.9 |
 | Days to Strict Threshold | 0.1 | 1.2 | 11.7 | 116.9 | 730.7 | 11691.0 |
 | Days to register clusters | Day 1 | Day 1 | Day 10 | Day 100 | Year 2 | Never |
@@ -2139,8 +2139,8 @@ Key: $\bullet$ = very useful for this purpose; $\circ$ = somewhat useful, but ca
 
 | #H100-equivalents | 100,000 | 10,000 | 1,000 | 100 | 16 | 1 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Seconds to Monitored Threshold | 1.0×1021.0\times 10^{2} | 1.0×1031.0\times 10^{3} | 1.0×1041.0\times 10^{4} | 1.0×1051.0\times 10^{5} | 6.3×1056.3\times 10^{5} | 1.0×1071.0\times 10^{7} |
-| Seconds to Strict Threshold | 1.0×1041.0\times 10^{4} | 1.0×1051.0\times 10^{5} | 1.0×1061.0\times 10^{6} | 1.0×1071.0\times 10^{7} | 6.3×1076.3\times 10^{7} | 1.0×1091.0\times 10^{9} |
+| Seconds to Monitored Threshold | $1.0\times 10^{2}$ | $1.0\times 10^{3}$ | $1.0\times 10^{4}$ | $1.0\times 10^{5}$ | $6.3\times 10^{5}$ | $1.0\times 10^{7}$ |
+| Seconds to Strict Threshold | $1.0\times 10^{4}$ | $1.0\times 10^{5}$ | $1.0\times 10^{6}$ | $1.0\times 10^{7}$ | $6.3\times 10^{7}$ | $1.0\times 10^{9}$ |
 | Days to Monitored Threshold | 0.001 | 0.012 | 0.1 | 1.2 | 7.3 | 116.9 |
 | Days to Strict Threshold | 0.1 | 1.2 | 11.7 | 116.9 | 730.7 | 11691.0 |
 | Days to register clusters | Day 1 | Day 1 | Day 10 | Day 100 | Year 2 | Never |

@@ -56,11 +56,11 @@ The study found evidence that AI may be affecting how employees approach cogniti
 
 I also explored whether these patterns varied according to how frequently they used AI. Daily users reported the strongest patterns across all four items.
 
-The findings suggest that confidence after a brief review, deference to AI outputs and difficulty performing tasks independently may form part of the same emerging pattern of cognitive dependency\* [^1].
+The findings suggest that confidence after a brief review, deference to AI outputs and difficulty performing tasks independently may form part of the same emerging pattern of cognitive dependency\* [^note-cognitive-dependency].
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!53jG!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9cca39e0-bea1-41d5-9683-ef87d2f9a7b9_2492x1777.jpeg)
+![](https://substack-post-media.s3.amazonaws.com/public/images/9cca39e0-bea1-41d5-9683-ef87d2f9a7b9_2492x1777.jpeg)
 
 ](https://substackcdn.com/image/fetch/$s_!53jG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9cca39e0-bea1-41d5-9683-ef87d2f9a7b9_2492x1777.jpeg)
 
@@ -130,4 +130,4 @@ Schaefer KE, Chen JY, Szalma JL, Hancock PA (2016). ‘A Meta-Analysis of Factor
 
 Kulveit, J., Douglas, R., Ammann, N., Turan, D., Krueger, D., & Duvenaud, D. (2025). ‘Systemic Existential Risks from Incremental AI Development’. arXiv:2501.16946
 
-[^1]: _\*These measures formed part of a four-item scale showing acceptable internal consistency (Cronbach’s alpha = 0.79). ‘Cognitive dependency’ is used as an interpretative label for the observed pattern. Related concepts in cognitive science and human-AI interaction research include cognitive offloading and automation bias._
+[^note-cognitive-dependency]: _\*These measures formed part of a four-item scale showing acceptable internal consistency (Cronbach’s alpha = 0.79). ‘Cognitive dependency’ is used as an interpretative label for the observed pattern. Related concepts in cognitive science and human-AI interaction research include cognitive offloading and automation bias._
