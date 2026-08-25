@@ -18,11 +18,13 @@ Across fields of scientific education, professors can sometimes be heard quoting
 
 Everyone who's trying to make AI end up being a good thing is new to it; that's why your help is needed at all. If we could teach you how things are definitely going to go, or what you can confidently do about it, we'd just be telling you so, and be done with it.
 
-But what we really need is for you to be able to look at a situation and rapidly figure out for yourself what will help. You're going to need to do that even in the face of social pressure from others who are also trying to figure it out on the fly, and many of those folks will be wrong. Sometimes you'll be one of the ones who are wrong.
+But what we really need is for you to be able to look at a situation and rapidly figure out for yourself what will help. You're going to need to do that even in the face of social pressure from others who are also trying to figure it out on the fly, and many of those folks will be wrong.
+
+Sometimes you'll be one of the ones who are wrong.
 
 We're gonna have you read various perspectives and try to construct your own as you go, but it's important to regularly remind yourself: these people have been at it for a while, being 50% wrong the whole time.
 
-Except 50% is just what the quote says.
+Except 50% is just what the quote says. It might be worse.
 
 #### Text
 content::
