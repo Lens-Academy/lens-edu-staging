@@ -23,8 +23,7 @@ eval-results:
 
 ## Test:
 id:: 3ee1a948-9f94-4d26-abd4-69618e3d99d1
-#### {--{"author":"Elias's AI","timestamp":1787667279691}@@Question--}{++{"author":"Elias's AI","timestamp":1787667279691}@@Question: Open
-id:: 0dd5cbbb-61b5-4006-bccb-a1b7cad5e835++}
+#### Question
 content::
 {--{"author":"Luc's AI","timestamp":1787659258417}@@Modern AI systems are trained largely by rewarding--}{++{"author":"Luc's AI","timestamp":1787659258417}@@Chapter 2 ends with a distinction the rest of++} the {--{"author":"Luc's AI","timestamp":1787659258417}@@outputs that human raters approve of. Suppose one such system reliably behaves helpfully, tells the truth,--}{++{"author":"Luc's AI","timestamp":1787659258417}@@course will keep returning to: the difference between an AI that *behaves* as if it's aligned++} and{--{"author":"Luc's AI","timestamp":1787659258417}@@ refuses requests--}{++{"author":"Luc's AI","timestamp":1787659258417}@@ one++} that{--{"author":"Luc's AI","timestamp":1787659258417}@@ would cause harm.--}{++{"author":"Luc's AI","timestamp":1787659258417}@@ *is* aligned.++}
 

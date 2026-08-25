@@ -21,8 +21,7 @@ eval-results:
 
 ## Test:
 id:: b5981716-08c0-40b1-a005-2cfbdde6d0c7
-#### {--{"author":"Elias's AI","timestamp":1787667246949}@@Question--}{++{"author":"Elias's AI","timestamp":1787667246949}@@Question: Open
-id:: 12ef7218-37eb-4b15-9cfb-b9d4c3fc0015++}
+#### Question
 content::
 Two systems accurately predict that a severe storm will close a bridge. One routes delivery trucks away from it to minimize delays. The other routes rescue vehicles toward it to reach stranded people. A third system is exceptionally good at this routing task but cannot reason outside transportation.
 

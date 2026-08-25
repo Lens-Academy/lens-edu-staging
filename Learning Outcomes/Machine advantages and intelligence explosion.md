@@ -25,8 +25,7 @@ eval-results:
 
 ## Test:
 id:: eefcafa7-65ed-4c7b-a73f-652d869494c2
-#### {--{"author":"Elias's AI","timestamp":1787667250242}@@Question--}{++{"author":"Elias's AI","timestamp":1787667250242}@@Question: Open
-id:: 32944c52-dfb0-42a8-981e-18d04457a0d2++}
+#### Question
 content::
 A lab freezes one current AI model on today's hardware and observes that it does not improve itself. The lab concludes: "Machine intelligence will remain below humanity. This model is shallow, machines have no advantages that matter, and only human researchers can produce the next generation."
 
