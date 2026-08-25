@@ -30,7 +30,7 @@ assessment-instructions::
 
 **3** — Explains that imposed norms don't get internalised; the cohort doesn't own them. Lists 3-5 norms {--{"author":"Luc's AI","timestamp":1787659287065}@@that would plausibly help a discussion cohort — any defensible set counts, in the learner's own wording (e.g. steel-man --}{++{"author":"Luc's AI","timestamp":1787659287065}@@(steel-man ++}before {--{"author":"Luc's AI","timestamp":1787659287065}@@pushing--}{++{"author":"Luc's AI","timestamp":1787659287065}@@push++} back; share airtime; confidentiality on identity{--{"author":"Luc's AI","timestamp":1787659287065}@@ but--} not on ideas; changing your mind is high-status; one conversation at a {--{"author":"Luc's AI","timestamp":1787659287065}@@time — or equivalent norms of the learner's choosing).--}{++{"author":"Luc's AI","timestamp":1787659287065}@@time).++} Describes the Week-1 setup: ask the cohort first what they need; only THEN add your own as questions.
 
-**4** — As above, plus articulates that proposing your norms as questions (e.g. "What about X — anyone want that in the list?", or any equivalent invitation) rather than statements changes the buy-in dynamic.
+**4** — As above, plus articulates that proposing your norms as questions {--{"author":"Luc's AI","timestamp":1787659288980}@@(e.g. "What--}{++{"author":"Luc's AI","timestamp":1787659288980}@@("What++} about X — anyone want that in the {--{"author":"Luc's AI","timestamp":1787659288980}@@list?", or any equivalent invitation)--}{++{"author":"Luc's AI","timestamp":1787659288980}@@list?")++} rather than statements changes the buy-in dynamic.
 
 **5** — As above, plus identifies which norm they personally would have the hardest time enforcing — and why.
 
