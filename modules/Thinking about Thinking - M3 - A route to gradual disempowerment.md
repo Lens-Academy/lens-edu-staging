@@ -23,3 +23,6 @@ source:: [[../Lenses/ToT M3 - The Evidence - Synthesis]]
 
 # Lens:
 source:: [[../Lenses/ToT M3 - Gradual Disempowerment]]
+
+# Lens:
+source:: [[../Lenses/ToT M3 - Recap]]
