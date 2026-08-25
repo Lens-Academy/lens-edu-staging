@@ -99,8 +99,7 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question. That is Phase 3's job.
 
-#### {--{"author":"Elias's AI","timestamp":1787667488621}@@Question--}{++{"author":"Elias's AI","timestamp":1787667488621}@@Question: Open
-id:: 01e1df19-7d1b-4812-99cb-6c853750f440++}
+#### {--{"author":"Elias's AI","timestamp":1787673469367}@@Question--}{++{"author":"Elias's AI","timestamp":1787673469367}@@Question++}
 content::
 \## Phase 3: Learning Question
 A friend who works in machine learning tells you: "The alchemy comparison is out of date. Every new model is run against thousands of safety evaluations and red-team tests, and the scores climb with each release. That's not philosophy and vibes. It's rigorous empirical measurement. The field has clearly left the alchemy stage." Using the chapter's diagnosis, where exactly does this argument go wrong, and is there any part of it your friend has right?

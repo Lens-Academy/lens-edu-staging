@@ -104,7 +104,7 @@ content::
 \## Phase 3: Learning Question
 An AI refuses to help a user build a weapon. A developer points to this and says, "See? It's aligned." What has the developer actually observed, and what would you need to know to tell whether the refusal came from the AI's values or just from its training? Is there any test that could settle it?
 
-{--{"author":"Elias's AI","timestamp":1787672195473}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672195473}@@feedback-instructions::++} The student has completed a reading, a free recall, and a reflection phase on the second half of Chapter 2 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase. This Lens is the M1 capstone — the safety concern is now fully framed.
+{--{"author":"Elias's AI","timestamp":1787673473451}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787673473451}@@assessment-instructions::++} The student has completed a reading, a free recall, and a reflection phase on the second half of Chapter 2 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase. This Lens is the M1 capstone — the safety concern is now fully framed.
 
 The question they were asked is a deliberate wedge, not the test question. It hands the student a concrete aligned-seeming behavior and a confident conclusion, and asks them to say what was actually observed and what evidence genuine alignment would require. Use it to draw out the learning outcome from the evidence side rather than asking them to recite the behavior/values definition or the actor analogy.
 
