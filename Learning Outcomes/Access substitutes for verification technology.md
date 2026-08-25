@@ -1,6 +1,6 @@
 ---
 id: '9d9e77be-3d71-4594-812d-dd3ee87d7995'
-learning-outcome: "Explain how physical and informational access to facilities can substitute for unavailable technical verification mechanisms in an international agreement, and identify the costs that substitution imposes and the conditions under which it fails"
+learning-outcome: "Explain {--{"author":"Luc's AI","timestamp":1787659258689}@@how physical and informational access to facilities--}{++{"author":"Luc's AI","timestamp":1787659258689}@@Scher and Thiergart's claim that increased access++} can substitute for unavailable technical verification {--{"author":"Luc's AI","timestamp":1787659258689}@@mechanisms in an international agreement,--}{++{"author":"Luc's AI","timestamp":1787659258689}@@mechanisms,++} and identify the costs that substitution imposes and the conditions under which it fails"
 domain: "[[../Domains/Governance and Policy]]"
 stage: advanced
 requires:
@@ -19,7 +19,7 @@ eval-results:
 ## Test:
 id:: 28fd9797-a945-417b-bee5-9e1d51298965
 #### Question
-content:: Suppose two states want to agree to limit certain AI development, and each needs confidence the other is complying. Most of the verification mechanisms they would *want* — elegant, privacy-preserving, cryptographic checks on what a data center is actually running — do not yet exist in deployable form. One response is that this is much less damning than it sounds, because the missing technology can be substituted for by granting the other side physical and informational access instead.
+content:: {--{"author":"Luc's AI","timestamp":1787659260414}@@Suppose two states want to agree to limit certain AI development, and each needs confidence the other is complying. --}Most of the verification mechanisms {--{"author":"Luc's AI","timestamp":1787659260414}@@they--}{++{"author":"Luc's AI","timestamp":1787659260414}@@people++} would *want* — elegant, privacy-preserving, cryptographic{--{"author":"Luc's AI","timestamp":1787659260414}@@ checks on what a data center is actually running --}{++{"author":"Luc's AI","timestamp":1787659260414}@@ ++}— do not yet exist in deployable form. {--{"author":"Luc's AI","timestamp":1787659260414}@@One response is that--}{++{"author":"Luc's AI","timestamp":1787659260414}@@Scher and Thiergart argue++} this is much less damning than it{--{"author":"Luc's AI","timestamp":1787659260414}@@ sounds, because the missing technology can be substituted for by granting the other side physical and informational access instead.--}{++{"author":"Luc's AI","timestamp":1787659260414}@@ sounds.++}
 
 **Reconstruct that substitution argument and explain why it works. Then give the price of the substitution: what does a regime give up by paying in access instead of in technology, and when does the trade stop being available?**
 assessment-instructions::

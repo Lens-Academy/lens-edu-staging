@@ -25,9 +25,9 @@ eval-results:
 id:: 3ee1a948-9f94-4d26-abd4-69618e3d99d1
 #### Question
 content::
-Modern AI systems are trained largely by rewarding the outputs that human raters approve of. Suppose one such system reliably behaves helpfully, tells the truth, and refuses requests that would cause harm.
+{--{"author":"Luc's AI","timestamp":1787659258417}@@Modern AI systems are trained largely by rewarding--}{++{"author":"Luc's AI","timestamp":1787659258417}@@Chapter 2 ends with a distinction the rest of++} the {--{"author":"Luc's AI","timestamp":1787659258417}@@outputs that human raters approve of. Suppose one such system reliably behaves helpfully, tells the truth,--}{++{"author":"Luc's AI","timestamp":1787659258417}@@course will keep returning to: the difference between an AI that *behaves* as if it's aligned++} and{--{"author":"Luc's AI","timestamp":1787659258417}@@ refuses requests--}{++{"author":"Luc's AI","timestamp":1787659258417}@@ one++} that{--{"author":"Luc's AI","timestamp":1787659258417}@@ would cause harm.--}{++{"author":"Luc's AI","timestamp":1787659258417}@@ *is* aligned.++}
 
-In your own words, what is the difference between an AI that *behaves* as if it's aligned and one that *is* aligned, and why does that difference matter? Give an analogy that illustrates the gap, and say what your analogy illustrates.
+In your own words, what is {--{"author":"Luc's AI","timestamp":1787659260158}@@the difference between an AI --}that{--{"author":"Luc's AI","timestamp":1787659260158}@@ *behaves* as if it's aligned and one that *is* aligned,--}{++{"author":"Luc's AI","timestamp":1787659260158}@@ distinction,++} and why does {--{"author":"Luc's AI","timestamp":1787659260158}@@that difference matter? Give--}{++{"author":"Luc's AI","timestamp":1787659260158}@@it matter? The chapter uses++} an analogy {--{"author":"Luc's AI","timestamp":1787659260158}@@that illustrates the gap,--}{++{"author":"Luc's AI","timestamp":1787659260158}@@to anchor it: what is it,++} and {--{"author":"Luc's AI","timestamp":1787659260158}@@say --}what {--{"author":"Luc's AI","timestamp":1787659260158}@@your analogy illustrates.--}{++{"author":"Luc's AI","timestamp":1787659260158}@@does it illustrate?++}
 
 assessment-instructions::
 Score according to the following rubric.

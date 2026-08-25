@@ -1,6 +1,6 @@
 ---
 id: eaa7fe83-fbab-4aaa-9372-de7e320929df
-learning-outcome: Distinguish the major categories of catastrophic AI risk — an AI pursuing goals that diverge from human wishes (misalignment), a human directing a compliant AI at destructive ends (misuse), a human or group using AI to seize and entrench power, and others such as incremental loss of human control — by stating for each whose goals drive the harm and giving a concrete example of harm it produces
+learning-outcome: {--{"author":"Luc's AI","timestamp":1787659259635}@@Distinguish--}{++{"author":"Luc's AI","timestamp":1787659259635}@@Understand++} the {--{"author":"Luc's AI","timestamp":1787659259635}@@major categories--}{++{"author":"Luc's AI","timestamp":1787659259635}@@basic decomposition++} of{--{"author":"Luc's AI","timestamp":1787659259635}@@ catastrophic AI risk — an AI pursuing goals that diverge from human wishes (misalignment), a human directing a compliant --}{++{"author":"Luc's AI","timestamp":1787659259635}@@ risks into ++}AI{--{"author":"Luc's AI","timestamp":1787659259635}@@ at destructive ends (misuse), a human or group using AI to seize and entrench power,--}{++{"author":"Luc's AI","timestamp":1787659259635}@@ misalignment, misuse, power grabs,++} and others{--{"author":"Luc's AI","timestamp":1787659259635}@@ such as incremental loss of human control — by stating for each whose goals drive the harm and giving a concrete example of harm it produces--}
 domain: "[[../Domains/Strategy]]"
 stage: intermediate
 eval-results:
