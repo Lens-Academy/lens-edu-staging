@@ -1,4 +1,4 @@
-{++{"author":"AI","timestamp":1787566208685}@@---
+---
 id: deec3dfc-f53b-4758-ae2a-1284dfff3a33
 title: "Foom & Doom 1: Brain in a box in a basement"
 tldr: Steven Byrnes argues LLMs won't scale to ASI — instead a yet-to-be-discovered, far more compute-efficient paradigm will, arriving with almost no warning. This lens keeps his core argument (the case for the paradigm, the compute story, the consequences) and trims the framing and rebuttal sections down to headings.
@@ -34,8 +34,7 @@ to:: "## 1.4.4 Possible counter: “If ASI will be part of a different paradigm,
 
 #### Article
 from:: "# 1.5 Training compute requirements: Frighteningly little"
-to:: "it still feels like it’s an important ingredient of the picture in my head."
+to:: "I still feel like it’s an important ingredient of the picture in my head."
 
 #### Article
 from:: "# 1.10 Conclusion"
-++}
