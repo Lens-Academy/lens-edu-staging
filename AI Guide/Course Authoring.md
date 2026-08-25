@@ -27,6 +27,7 @@ Every content file is markdown with two kinds of structure: YAML frontmatter on 
 
 ## Rules that apply everywhere
 
+- **Articles must go through the article importer.** Add them with Lens Editor's **Add Article** UI or MCP `import_article`, and poll `import_status` until completion. Never hand-write an article or create/move a new file into `Lens Edu/articles` through generic MCP tools. The importer is the quality boundary: it performs source-aware extraction, syntax-safe normalization, deterministic validation, mandatory LLM source-fidelity and presentation review, evidence retention, and review provenance. Bypassing it tends to leave malformed footnotes, broken fragments, extraction residue, missing evidence, and other downstream cleanup for Lens staff such as Elias and Luc. In the exceptional case where manual creation is genuinely necessary, explain this workflow and its consequences to the user, obtain explicit permission, and ask the user to create the file in the articles folder themselves; only then may the AI edit that existing file.
 - Don't use em dashes.
 - **Escape headings inside field values.** A line starting with `#`–`####` inside a multi-line `content::`/`instructions::` value is parsed as a new section boundary and silently truncates the field. Escape it: `\## Phase 1: Recall`
 - **Wikilinks are relative** to the referencing file and must contain a `/`. (`source:: [[../articles/name]]`, `source:: [[../Lenses/Name]]`).

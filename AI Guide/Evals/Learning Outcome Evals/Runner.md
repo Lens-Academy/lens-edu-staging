@@ -9,7 +9,7 @@ These are the complete operating instructions for running the Learning Outcome q
 You are running quality evals over **learning-outcome (LO) files** in `Lens Edu/Learning Outcomes/`. These evals judge our own content — the outcome statement, test question, and rubric of each LO file. They do NOT grade student answers.
 
 Vocabulary:
-- **The suite** is this folder: `Suite.md` (whose frontmatter `suite-version` is the current version) plus one eval file per check (A1, A2, {++{"author":"Luc's AI","timestamp":1787602028748}@@A3, ++}B1, C2, C3). Each eval file's body is the authoritative judging standard.
+- **The suite** is this folder: `Suite.md` (whose frontmatter `suite-version` is the current version) plus one eval file per check (A1, A2, A3, B1, C2, C3). Each eval file's body is the authoritative judging standard.
 - **Stamps** are `eval-results:` blocks written into LO frontmatter recording verdicts (schema in `Suite.md`).
 - **Stale** = needs (re-)evaluation. Three causes: no stamp; stamp's `suite-version` older than current; stamp's `content-sha` no longer matches.
 
@@ -28,7 +28,7 @@ A **director agent** orchestrates. **Judge subagents** evaluate one file each an
 
 1. Load the lens-relay MCP tools (`create_session`, `read`, `grep`, `glob`, `edit`, `create`, `get_url`). In Claude Code, load them via ToolSearch.
 2. `create_session`; the first line of the response is the `session_id` for all calls.
-3. Read `Suite.md` — note `suite-version` — and the {--{"author":"Luc's AI","timestamp":1787602037915}@@five--}{++{"author":"Luc's AI","timestamp":1787602037915}@@six++} eval files in this folder.
+3. Read `Suite.md` — note `suite-version` — and the six eval files in this folder.
 4. If the operator says they just edited any eval file's judging standard, `suite-version` must be bumped in `Suite.md` first; do not proceed until resolved.
 
 ## Scope
@@ -88,20 +88,20 @@ One judge subagent per LO file, launched in parallel batches of up to 8. **Judge
 
 Two ways to give a judge its inputs:
 
-- **Paste protocol:** paste the fetched snapshot and the {--{"author":"Luc's AI","timestamp":1787602046135}@@five--}{++{"author":"Luc's AI","timestamp":1787602046135}@@six++} eval bodies into the prompt; the judge needs no tools. Judged text and hashed text are identical by construction.
-- **Self-read protocol (keeps the director's context clean — preferred):** the judge loads the MCP read tool itself and reads the {--{"author":"Luc's AI","timestamp":1787602046135}@@five--}{++{"author":"Luc's AI","timestamp":1787602046135}@@six++} eval files and its one target file by path. The prompt MUST then say: "Read NOTHING else. In particular, never read anything under 'Lens/base'." Before stamping a self-read-judged file, re-fetch it and re-compute the hash; if it changed since the pre-judging fetch, the judged text is unknown — re-judge instead of stamping.
+- **Paste protocol:** paste the fetched snapshot and the six eval bodies into the prompt; the judge needs no tools. Judged text and hashed text are identical by construction.
+- **Self-read protocol (keeps the director's context clean — preferred):** the judge loads the MCP read tool itself and reads the six eval files and its one target file by path. The prompt MUST then say: "Read NOTHING else. In particular, never read anything under 'Lens/base'." Before stamping a self-read-judged file, re-fetch it and re-compute the hash; if it changed since the pre-judging fetch, the judged text is unknown — re-judge instead of stamping.
 
 Judge prompt (fill placeholders; adapt the setup lines to the chosen protocol):
 
 ```
-You are judging the quality of ONE learning-outcome file against {--{"author":"Luc's AI","timestamp":1787602049493}@@five--}{++{"author":"Luc's AI","timestamp":1787602049493}@@six++} binary
+You are judging the quality of ONE learning-outcome file against six binary
 checks. The file has three parts: the outcome statement (frontmatter
 `learning-outcome:`), test question(s) (`content::`), and rubric(s)
 (`assessment-instructions::`).
 
 Rules:
 - You only judge and report. Never edit, create, or modify any document.
-- Judge one check at a time, in order (A1, A2, {++{"author":"Luc's AI","timestamp":1787602053174}@@A3, ++}B1, C2, C3). Each check's
+- Judge one check at a time, in order (A1, A2, A3, B1, C2, C3). Each check's
   standard is its eval text — complete and authoritative. Do not add
   requirements from your own taste or from the other checks.
 - A check judges only its target part (statement / question / rubric).
@@ -117,7 +117,7 @@ Rules:
 
 Return ONLY this JSON:
 {"path": "...",
- "checks": {"A1": "pass|fail", "A2": "...", {++{"author":"Luc's AI","timestamp":1787602056969}@@"A3": "...", ++}"B1": "...", "C2": "...", "C3": "..."},
+ "checks": {"A1": "pass|fail", "A2": "...", "A3": "...", "B1": "...", "C2": "...", "C3": "..."},
  "notes":  {"<id>": "<one line, fails only>"},
  "evidence": {"<id>": "<short verbatim quote, fails only>"}}
 ```
@@ -136,7 +136,7 @@ eval-results:
   date: <today, YYYY-MM-DD>
   model: <the judge model id>
   suite-version: <current>
-  checks: {A1: pass, A2: pass, {++{"author":"Luc's AI","timestamp":1787602060475}@@A3: pass, ++}B1: fail, C2: pass, C3: pass}
+  checks: {A1: pass, A2: pass, A3: pass, B1: fail, C2: pass, C3: pass}
   notes: {B1: "<the judge's one-line reason>"}
   evidence: {B1: "<the judge's shortest verbatim quote grounding the fail>"}
 ```
