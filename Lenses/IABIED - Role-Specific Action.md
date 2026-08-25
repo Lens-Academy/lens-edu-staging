@@ -25,7 +25,7 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just finished reading the second section of Chapter 14 of "If Anyone Builds It, Everyone Dies" and has written a free recall: everything they could remember without looking back at the text.
+{--{"author":"Elias's AI","timestamp":1787672466172}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672466172}@@feedback-instructions::++} The student has just finished reading the second section of Chapter 14 of "If Anyone Builds It, Everyone Dies" and has written a free recall: everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
 - Government leaders: signal openness to a treaty framework; the goal is not a unilateral halt but expressing willingness so other major powers won't feel disadvantaged by agreeing
