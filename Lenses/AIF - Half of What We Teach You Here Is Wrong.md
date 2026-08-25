@@ -14,7 +14,7 @@ content::
 
 There is a speech supposedly given to new medical students: *half of what we are about to teach you is wrong, and we don't know which half.* Whether or not anyone really says it at medical schools, something like it is simply true of this course. The study of where AI is going is young, fast-moving, and short on the one thing that settles arguments: futures that have already happened. We will show you measured base rates[^baserate], careful arguments, and the best models anyone has.
 
-
+Across fields of scientific education, a saying abound
 
 Some of them will turn out to be wrong, and we cannot tell you which ones. We're not going to pretend otherwise. The pretense would cost you the exact skill this course exists to teach.
 
