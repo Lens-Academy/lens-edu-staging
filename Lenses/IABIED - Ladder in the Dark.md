@@ -105,7 +105,7 @@ content::
 \## Phase 3: Learning Question
 The chapter says AI executives who acknowledge a 20% chance of killing everyone keep building anyway. Is that irrational? Use the ladder-in-the-dark framing to explain whether their behavior makes sense, and what it implies about whether individuals can solve this problem on their own.
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the second section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+{--{"author":"Elias's AI","timestamp":1787672379674}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672379674}@@feedback-instructions::++} The student has completed a reading, a free recall, and a reflection phase on the second section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 Learning outcome for this Lens: Apply the ladder-in-the-dark framing to explain why uncertainty about the fatal rung does not protect against predictable disaster: trace the chapter's argument that if climbing cannot be stopped while uncertainty remains, death is a predictable collective outcome, even though no specific rung can be identified as lethal in advance.
 

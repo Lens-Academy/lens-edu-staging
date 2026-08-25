@@ -12,7 +12,7 @@ add_to_ai_context:
 id:: a485a1e6-d32a-48aa-a494-85bdeaeb5f3a++}
 content:: Before reading the second half of Chapter 1: Today's AI can still seem shallow compared with a human. Which limitations do you expect to persist, and which might disappear? What features of machines or AI development matter most to your forecast? Write down your intuition before reading.
 
-assessment-instructions::
+{--{"author":"Elias's AI","timestamp":1787672383492}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672383492}@@feedback-instructions::++}
 The student is about to read the second half of Chapter 1 of "If Anyone Builds It, Everyone Dies."
 
 They just answered a forecasting prompt about whether current AI limitations will persist and which features of machines or AI development matter.
