@@ -28,7 +28,7 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading. Don't look back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just finished reading the second half of Chapter 2 ("Grown, Not Crafted") of "If Anyone Builds It, Everyone Dies" and has written a free recall: everything they could remember without looking back at the text.
+{--{"author":"Elias's AI","timestamp":1787672186894}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672186894}@@feedback-instructions::++} The student has just finished reading the second half of Chapter 2 ("Grown, Not Crafted") of "If Anyone Builds It, Everyone Dies" and has written a free recall: everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
 - Modern LLMs are alien minds: trained to predict human writing, but running on a radically different architecture from a human's
@@ -67,7 +67,7 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
 
-assessment-instructions:: The student has just completed a free recall of the second half of Chapter 2 of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
+{--{"author":"Elias's AI","timestamp":1787672192463}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672192463}@@feedback-instructions::++} The student has just completed a free recall of the second half of Chapter 2 of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, not to explain the content to them.
 
@@ -104,7 +104,7 @@ content::
 \## Phase 3: Learning Question
 An AI refuses to help a user build a weapon. A developer points to this and says, "See? It's aligned." What has the developer actually observed, and what would you need to know to tell whether the refusal came from the AI's values or just from its training? Is there any test that could settle it?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the second half of Chapter 2 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase. This Lens is the M1 capstone — the safety concern is now fully framed.
+{--{"author":"Elias's AI","timestamp":1787672195473}@@assessment-instructions::--}{++{"author":"Elias's AI","timestamp":1787672195473}@@feedback-instructions::++} The student has completed a reading, a free recall, and a reflection phase on the second half of Chapter 2 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase. This Lens is the M1 capstone — the safety concern is now fully framed.
 
 The question they were asked is a deliberate wedge, not the test question. It hands the student a concrete aligned-seeming behavior and a confident conclusion, and asks them to say what was actually observed and what evidence genuine alignment would require. Use it to draw out the learning outcome from the evidence side rather than asking them to recite the behavior/values definition or the actor analogy.
 
