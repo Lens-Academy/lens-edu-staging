@@ -12,7 +12,7 @@ source:: [[../Lenses/ToT M3 - Gradual Disempowerment - PQ]]
 <!--  # Lens:
 source:: [[../Lenses/ToT M3 - The Metacognitive Traps]] -->
 
- # Lens:
+# Lens:
 source:: [[../Lenses/ToT M3 - Paper - Lee (Microsoft)]]
 
 <!-- # Lens:
