@@ -1,6 +1,6 @@
 ---
 id: b3e7f29a-1d4c-4a8e-9c51-6f8d2b0e7a3c
-learning-outcome: "Explain why the outcome of a conflict can be predictable from capability asymmetry alone, even when the weaker side cannot imagine the mechanism by which it would be defeated, and apply this to reasoning about conflict with a superintelligent AI"
+learning-outcome: {--{"author":"Luc's AI","timestamp":1787659317260}@@"Explain why--}{++{"author":"Luc's AI","timestamp":1787659317260}@@"Define++} the {--{"author":"Luc's AI","timestamp":1787659317260}@@outcome of a conflict can be predictable from capability asymmetry alone, even when the weaker side--}{++{"author":"Luc's AI","timestamp":1787659317260}@@Aztec warrior analogy as Chapter 6 states it: a defender++} cannot imagine the mechanism{--{"author":"Luc's AI","timestamp":1787659317260}@@ by which it would be defeated, and apply this to reasoning about conflict with a superintelligent AI"--}{++{"author":"Luc's AI","timestamp":1787659317260}@@ of defeat but the outcome is still predictable from capability asymmetry alone"++}
 reading-from: "IMAGINE BEING AN Aztec warrior visiting the coast with your fellows, watching the first Spanish boats approach your shore."
 reading-to: "We'll go over a few of our educated guesses later. But the real way a superintelligence wins a conflict is using methods you didn't know were possible. And because we care about the truth more than about telling you things that are easy to swallow, that's where we'll start."
 authors:
@@ -11,7 +11,7 @@ domain: "[[../Domains/Strategy]]"
 stage: beginner
 eval-results:
   content-sha: 5f60e93d
-  date: 2026-08-24
+  date: {--{"author":"Luc's AI","timestamp":1787659321752}@@2026-08-24--}{++{"author":"Luc's AI","timestamp":1787659321752}@@2026-08-19++}
   model: claude-opus-5
   suite-version: 2
   checks: {A1: pass, A2: fail, A3: pass, B1: fail, C2: pass, C3: pass}

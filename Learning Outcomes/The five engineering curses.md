@@ -1,6 +1,6 @@
 ---
 id: 5e722d28-f1ad-487c-8866-43e5d48115ee
-learning-outcome: "Enumerate the five engineering curses that make a domain unforgiving to work in (speed, narrow margins, self-amplification, complications, and edge cases), and identify which curse a given real-world failure — e.g. a reactor accident, a lost space probe, a software exploit — illustrates."
+learning-outcome: "Enumerate the five engineering curses {--{"author":"Luc's AI","timestamp":1787659317524}@@that make a domain unforgiving to work in--}{++{"author":"Luc's AI","timestamp":1787659317524}@@Chapter 10 names++} (speed, narrow margins, self-amplification, complications, and edge cases), and identify which {--{"author":"Luc's AI","timestamp":1787659317524}@@curse a given real-world failure — e.g. a reactor accident, a lost space probe, a software exploit — illustrates."--}{++{"author":"Luc's AI","timestamp":1787659317524}@@case study (space probes, Chernobyl, computer security) illustrates each."++}
 reading-from: "beginning of chapter"
 reading-to: "Those constraints will tend to get in the way of the AI accomplishing one objective or another. And then you are matching your own wits and ability to nail down the edge cases against however much intelligence is flowing through the system, to see if your constraint holds up."
 authors:
@@ -23,7 +23,7 @@ eval-results:
 id:: d616e493-ef55-4429-8bae-e93d6fd20b99
 
 #### Question
-content:: Some engineering domains are "cursed": a small set of recurring properties makes failure very hard to avoid there, and AI alignment inherits all of them. Three such domains:
+content:: {--{"author":"Luc's AI","timestamp":1787659319462}@@Some--}{++{"author":"Luc's AI","timestamp":1787659319462}@@Chapter 10 frames AI alignment as a "cursed problem" by drawing on three++} engineering domains {--{"author":"Luc's AI","timestamp":1787659319462}@@are "cursed":--}{++{"author":"Luc's AI","timestamp":1787659319462}@@(space probes, Chernobyl-style nuclear reactors, and computer security) to identify++} a small set of {--{"author":"Luc's AI","timestamp":1787659319462}@@recurring properties makes failure very hard--}{++{"author":"Luc's AI","timestamp":1787659319462}@@named "curses" that make engineering hard. The chapter argues that all of these curses apply++} to {--{"author":"Luc's AI","timestamp":1787659319462}@@avoid there,--}{++{"author":"Luc's AI","timestamp":1787659319462}@@AI alignment,++} and {--{"author":"Luc's AI","timestamp":1787659319462}@@AI alignment inherits all of them. Three such domains:--}{++{"author":"Luc's AI","timestamp":1787659319462}@@that the curse of edge cases applies in a uniquely worse form.++}
 
 - **An RBMK-type nuclear reactor (the Chernobyl design):** the neutron chain reaction runs on microsecond timescales; the gap between a controllable reaction and a runaway one is a fraction of a percent of reactivity; overheating boils off the coolant, which raises reactivity, which worsens the overheating; and the shutdown rods were tipped with graphite, so inserting them to kill the reaction briefly did the opposite first.
 - **An uncrewed interplanetary probe:** once it launches, nobody can ever touch it again; a unit-conversion slip or a stuck sensor that would be a five-minute fix on the ground ends the mission instead.
