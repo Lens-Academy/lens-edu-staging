@@ -22,7 +22,8 @@ eval-results:
 ## Test:
 id:: 01dd1801-36f3-4a83-b7e7-33eed08ba1b0
 
-#### Question
+#### {--{"author":"Elias's AI","timestamp":1787667277151}@@Question--}{++{"author":"Elias's AI","timestamp":1787667277151}@@Question: Open
+id:: acaae83b-8a5c-49ba-9d7f-594e1bdc77b9++}
 content:: {--{"author":"Luc's AI","timestamp":1787659262473}@@Modern AI systems are sometimes described as "grown" rather than "crafted": the engineers write the training procedure, but the resulting system's capabilities emerge from --}{++{"author":"Luc's AI","timestamp":1787659262473}@@Chapter 2 draws a sharp contrast between AI systems that are "grown" and systems ++}that{--{"author":"Luc's AI","timestamp":1787659262473}@@ process rather than being deliberately designed component by component.--}{++{"author":"Luc's AI","timestamp":1787659262473}@@ are "crafted."++}
 
 What is that {--{"author":"Luc's AI","timestamp":1787659263093}@@distinction, and why does it apply to a model produced by training a neural network with gradient descent?--}{++{"author":"Luc's AI","timestamp":1787659263093}@@distinction?++} And specifically: what does an engineer know about a trained AI model, and what do they not know?
