@@ -21,8 +21,6 @@ source:: [[../articles/microsoft-the-impact-of-generative-ai-on-critical-thinkin
 from:: "We survey 319 knowledge workers"
 to:: "information verification, response integration, and task stewardship."
 
-%% Note: 319 knowledge workers, 936 examples. Central finding: confidence in AI linked to lower reported critical-thinking effort; confidence in own ability linked to more. Self-reported measures of perceived effort, not an objective test of ability. Association, not proven causation. %%
-
 #### Question
 content::
 \## Your turn
