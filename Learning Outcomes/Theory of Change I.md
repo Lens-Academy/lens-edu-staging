@@ -3,6 +3,12 @@ id: '4f96e154-1e57-4de3-82c4-9e1b4858ebd1'
 learning-outcome: "Explain why theories of change are important."
 domain: "[[../Domains/Effective Altruism]]"
 stage: beginner
+eval-results:
+  content-sha: 0b9a3b63
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: pass, C2: pass, C3: pass}
 ---
 ## Test:
 id:: 7e1314aa-d190-4ad7-8860-deee4f93b2dd

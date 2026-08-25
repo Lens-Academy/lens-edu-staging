@@ -3,6 +3,14 @@ id: ebe5405c-518a-47cb-9cc6-6a467788af5f
 learning-outcome: Reason about training stories and outer and inner (mis)alignment, challenges to these notions, and the relationship to inductive biases
 domain: "[[../Domains/Alignment]]"
 stage: advanced
+eval-results:
+  content-sha: 591c0416
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: fail, A2: pass, A3: fail, B1: pass, C2: pass, C3: pass}
+  notes: {A1: "\"Reason about\" is unobservable and the object is a topic list, not a pinned action", A3: "Bundles separable capabilities — the outer/inner decomposition, the inductive-bias relationship, and the critiques can each be held or lacked independently"}
+  evidence: {A1: "Reason about training stories and outer and inner (mis)alignment, challenges to these notions, and the relationship to inductive biases", A3: "outer and inner (mis)alignment, challenges to these notions, and the relationship to inductive biases"}
 ---
 ## Test:
 id:: 25b8e101-ea1a-43bc-a550-96529c3b8e20

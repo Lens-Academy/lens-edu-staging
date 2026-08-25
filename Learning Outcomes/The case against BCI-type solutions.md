@@ -5,6 +5,14 @@ domain: "[[../Domains/Strategy]]"
 stage: advanced
 requires:
   - "[[The BCI-type-solutions bet]]"
+eval-results:
+  content-sha: 7cfa734d
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: fail, B1: pass, C2: pass, C3: pass}
+  notes: {A3: "Bundles four independently demonstrable objections — the two 'it won't work' critiques, timelines, and the 'it makes things worse' x-risk argument; the file itself splits them into separate questions with separate rubrics, and a learner could pass one while failing another."}
+  evidence: {A3: "merge circularity, the constant-factor-speedup critique, timelines, and the argument that BCIs are themselves an existential-risk factor (entrenched totalitarianism)"}
 ---
 ## Test:
 id:: 16113b65-caa0-43f8-98ae-12d68bc8834f

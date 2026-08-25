@@ -5,6 +5,14 @@ domain: "[[../Domains/Taking Action]]"
 stage: advanced
 requires:
   - "[[AI safety advocacy and public communication]]"
+eval-results:
+  content-sha: 11ed138f
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: fail, A2: pass, A3: fail, B1: fail, C2: pass, C3: pass}
+  notes: {A1: "\"Evaluate\" over a three-item topic list; no pinned observable action or recognizable passing answer.", A3: "Three separably-learnable capabilities (diagnosed mistakes / anti-broad-movement case / cross-movement lessons) bundled in one statement.", B1: "Question 2 names two authors and requires knowing their specific positions beyond the one-line gloss."}
+  evidence: {A1: "Evaluate movement-strategy critiques of AI safety advocacy — the movement's own diagnosed mistakes, the case against building a broad movement (narrow issue-orgs instead), and lessons from other social movements", A3: "the movement's own diagnosed mistakes, the case against building a broad movement (narrow issue-orgs instead), and lessons from other social movements", B1: "Elmore argues for public advocacy; Leicht argues against a broad movement. Where exactly do they disagree"}
 ---
 ## Test:
 id:: 8215f188-d4bc-45ba-9661-55c6c7666c4b

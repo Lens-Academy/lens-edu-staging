@@ -1,6 +1,6 @@
 ---
 id: b3e7f29a-1d4c-4a8e-9c51-6f8d2b0e7a3c
-learning-outcome: "Define the Aztec warrior analogy as Chapter 6 states it: a defender cannot imagine the mechanism of defeat but the outcome is still predictable from capability asymmetry alone"
+learning-outcome: "Explain why the outcome of a conflict can be predictable from capability asymmetry alone, even when the weaker side cannot imagine the mechanism by which it would be defeated, and apply this to reasoning about conflict with a superintelligent AI"
 reading-from: "IMAGINE BEING AN Aztec warrior visiting the coast with your fellows, watching the first Spanish boats approach your shore."
 reading-to: "We'll go over a few of our educated guesses later. But the real way a superintelligence wins a conflict is using methods you didn't know were possible. And because we care about the truth more than about telling you things that are easy to swallow, that's where we'll start."
 authors:
@@ -9,33 +9,34 @@ tags:
   - learning-outcome
 domain: "[[../Domains/Strategy]]"
 stage: beginner
-{++{"author":"AI","timestamp":1787141588774}@@eval-results:
+eval-results:
   content-sha: 5f60e93d
-  date: 2026-08-19
+  date: 2026-08-24
   model: claude-opus-5
-  suite-version: 1
-  checks: {A1: pass, A2: fail, B1: fail, C1: fail, C2: pass, C3: pass}
-  notes: {A2: "statement bound to the text's framing ('as Chapter 6 states it')", B1: "question opens 'Chapter 6 opens with...' — chapter reference is scaffolding", C1: "1-5 graded ladder, not binary pass/fail"}
-++}---
+  suite-version: 2
+  checks: {A1: pass, A2: fail, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {A2: "Statement is explicitly bound to a specific text's framing rather than the source-free underlying capability.", B1: "Question uses chapter references as framing scaffolding, so it cannot be asked at a random moment to a non-reader."}
+  evidence: {A2: "Define the Aztec warrior analogy as Chapter 6 states it", B1: "Chapter 6 opens with an Aztec warrior watching a large Spanish ship approach."}
+---
 
 ## Test:
 id:: c9306c64-d15c-49d9-ab19-ecf8f946cd14
 #### Question
 content::
-Chapter 6 opens with an Aztec warrior watching a large Spanish ship approach. A skeptical comrade demands to know *exactly* how the people on board could possibly defeat them. He cannot imagine the answer. The chapter uses this to make a point about how we should reason about a superintelligence: not by demanding a step-by-step mechanism of defeat, but by reading the capability gap itself.
+Imagine an Aztec warrior standing on the coast in 1519, watching enormous ships of an unknown people approach the shore. A skeptical comrade demands to know *exactly* how the strangers on board could possibly defeat them. Neither warrior can imagine an answer: they have never seen a gun, a steel blade, or a horse, and cannot picture the moves that will end their empire.
 
-In your own words, what does the Aztec warrior analogy demonstrate about predicting the outcome of a conflict with a superintelligent AI?
+In your own words, what does this situation show about how to predict the outcome of a conflict with a superintelligent AI?
 
 assessment-instructions::
-**1** — Cannot explain the analogy's point, or describes it as simply "we'd be surprised" without connecting to capability prediction. *Example: "It shows that we can't predict what AI will do."*
+**1** — Cannot explain the scenario's point, or describes it as simply "we'd be surprised" without connecting to capability prediction. *Example: "It shows that we can't predict what AI will do."*
 
-**2** — Understands the analogy involves prediction under uncertainty, but cannot articulate the mechanism-vs-outcome distinction. *Example: "We're like the Aztecs: we can't see the threat coming. AI will beat us in ways we don't expect."*
+**2** — Sees that the scenario involves prediction under uncertainty, but cannot articulate the mechanism-vs-outcome distinction. *Example: "We're like the Aztecs: we can't see the threat coming. AI will beat us in ways we don't expect."*
 
-**3** — Correctly states the core principle: even without knowing the specific mechanism of defeat, a large enough capability gap makes the outcome predictable. Connects to AI. *Example: "The Aztecs couldn't have predicted guns, but the size of the boat alone should have told them the visitors had capabilities far beyond theirs. The chapter applies this to AI: we don't need to know the exact moves a superintelligence would use. The capability gap itself makes the outcome predictable. Demanding a step-by-step explanation, like the skeptical warrior did, is the wrong bar."*
+**3** — Correctly states the core principle: even without knowing the specific mechanism of defeat, a large enough capability gap makes the outcome predictable. Connects to AI. *Example: "The Aztecs couldn't have predicted guns, but the size of the ships alone should have told them the visitors had capabilities far beyond theirs. The same holds for AI: we don't need to know the exact moves a superintelligence would use. The capability gap itself makes the outcome predictable. Demanding a step-by-step explanation, like the skeptical warrior did, is the wrong bar."*
 
 **4** — As above, plus identifies the epistemological error: demanding "tell me exactly how" confuses inability to specify mechanism with inability to predict outcome. *Example: Adds "The Aztec skeptic's mistake was thinking that if you can't describe the weapon in advance, the threat isn't real. But inability to imagine guns doesn't mean guns don't exist. Similarly, we can't describe exactly how a superintelligence would defeat us, but that doesn't mean we should be confident we'd win."*
 
-**5** — As above, plus articulates why this reframes a common AI skeptic argument: "give me a specific scenario" is an unreasonable demand when capability asymmetry alone is sufficient for alarm. *Example: Adds "This answers a frequent objection: 'just tell me exactly how AI causes catastrophe.' The chapter says that's the wrong standard. The Aztec warrior who survived didn't need to know guns existed beforehand; the size of the boat was enough. Overwhelming capability asymmetry is sufficient reason for concern, even without a mechanism."*
+**5** — As above, plus articulates why this reframes a common AI skeptic argument: "give me a specific scenario" is an unreasonable demand when capability asymmetry alone is sufficient for alarm. *Example: Adds "This answers a frequent objection: 'just tell me exactly how AI causes catastrophe.' That's the wrong standard. The Aztec warrior didn't need to know guns existed beforehand; the size of the ships was enough. Overwhelming capability asymmetry is sufficient reason for concern, even without a mechanism."*
 
 
 # Suggested Lenses:

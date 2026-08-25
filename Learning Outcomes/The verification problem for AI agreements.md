@@ -5,6 +5,14 @@ domain: "[[../Domains/Governance and Policy]]"
 stage: advanced
 authors:
   - Elias+Claude
+eval-results:
+  content-sha: 2c3d8f8c
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: fail, B1: pass, C2: pass, C3: pass}
+  notes: {A3: "Bundles two independently demonstrable capabilities — the strategic argument that verifiability is a precondition for signing, and the technical AI-vs-nuclear disanalogies; the rubric itself scores them as separate gates (a learner with the strategic core but no disanalogies lands at 2), so they do not stand or fall together."}
+  evidence: {A3: "and identify what makes AI agreements harder to verify than nuclear arms-control agreements"}
 ---
 ## Test:
 id:: 5875aea2-b4a3-4510-ab23-3a6adf54f8e1

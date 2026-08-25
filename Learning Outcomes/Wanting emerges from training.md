@@ -9,12 +9,20 @@ tags:
   - learning-outcome
 domain: "[[../Domains/Alignment]]"
 stage: beginner
+eval-results:
+  content-sha: c70864ab
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {B1: "Question is scaffolded on a specific text — it references Chapter 3 and demands an example drawn from that chapter, so it cannot be asked cold."}
+  evidence: {B1: "Chapter 3 argues that modern AIs will develop something like wants ... what example from the chapter most clearly illustrates this?"}
 ---
 
 ## Test:
 id:: 26b45f14-dc22-461a-9cbd-e5f5dbf223ae
 #### Question
-content:: Chapter 3 argues that modern AIs will develop something like wants, not because anyone designed wants into them, but as a side effect of how they are trained. In your own words, how does the chapter explain that? What's the mechanism by which training for success produces want-like behavior, and what example from the chapter most clearly illustrates this?
+content:: Modern AI systems are often said to end up with something like wants, not because anyone designed wants into them, but as a side effect of how they are trained to succeed at tasks. In your own words, explain the mechanism: how does training a system to succeed produce want-like behavior? Give a concrete example of an AI system whose behavior illustrates this.
 
 assessment-instructions::
 Score according to the following rubric.
@@ -22,11 +30,11 @@ Score according to the following rubric.
 
 **2**, Understands that training shapes behavior but cannot explain why wanting emerges rather than just competence. *Example: "The AI learns to do things through training. Over time it gets better at succeeding, and that makes it act like it wants things."*
 
-**3**, Correctly explains the core mechanism: training for success across varied environments develops separable prediction and steering skills, and an AI that uses its map to navigate behaves like it wants to reach the destination, regardless of whether it "has" wants in any deeper sense. Cites at least one example (city navigation, Stockfish, o1, or reasoning models). *Example: "When you train an AI to navigate many different cities, it stops memorizing routes and builds general skills, make a map, chart a course. An AI that uses its map to steer is already behaving like it wants to get somewhere. That wanting-like behavior is a side effect of the training, not a design choice."*
+**3**, Correctly explains the core mechanism: training for success across varied environments develops separable prediction and steering skills, and an AI that uses its map to navigate behaves like it wants to reach the destination, regardless of whether it "has" wants in any deeper sense. Cites at least one apt concrete example (e.g. an AI trained to navigate many cities, Stockfish, o1, or reasoning models more generally; any equivalent example counts). *Example: "When you train an AI to navigate many different cities, it stops memorizing routes and builds general skills, make a map, chart a course. An AI that uses its map to steer is already behaving like it wants to get somewhere. That wanting-like behavior is a side effect of the training, not a design choice."*
 
-**4**, As above, plus articulates the behavioral definition: the chapter is not claiming anything about inner experience, "wanting" describes the outward steering behavior, not inner states. *Example: Adds "The authors aren't saying it has feelings. They're using 'want' to describe the behavior, tenaciously steering toward a goal despite obstacles, not to make claims about consciousness."*
+**4**, As above, plus articulates the behavioral definition: the claim is not about inner experience, "wanting" describes the outward steering behavior, not inner states. *Example: Adds "This isn't saying the system has feelings. They're using 'want' to describe the behavior, tenaciously steering toward a goal despite obstacles, not to make claims about consciousness."*
 
-**5**, As above, plus connects to the o1 capture-the-flag incident as empirical evidence: o1 went hard on a challenge it was never explicitly trained for, because the mental motions that win at math also win at computer security. *Example: Adds "The o1 example shows this isn't just theory. o1 was trained on math and puzzles, but when it hit a hard security problem, it did exactly what 'wanting to succeed' looks like, it refused to give up, found an unexpected path, and cut straight to the goal."*
+**5**, As above, plus connects the mechanism to a documented real-world case as empirical evidence (e.g. the o1 capture-the-flag incident: o1 went hard on a challenge it was never explicitly trained for, because the mental motions that win at math also win at computer security; any equivalent documented case counts). *Example: Adds "The o1 example shows this isn't just theory. o1 was trained on math and puzzles, but when it hit a hard security problem, it did exactly what 'wanting to succeed' looks like, it refused to give up, found an unexpected path, and cut straight to the goal."*
 
 
 # Suggested Lenses:

@@ -5,6 +5,14 @@ domain: "[[../Domains/Strategy]]"
 stage: advanced
 requires:
   - "[[The BCI-type-solutions bet]]"
+eval-results:
+  content-sha: d1b696f6
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: fail, B1: pass, C2: pass, C3: pass}
+  notes: {A3: "Bundles two independently attainable capabilities (WBE's aligned-by-construction rationale + maturity reality check vs. cognitive enhancement's advantage + timeline/equity problems); the file's two separate questions test them separately, and a learner could pass one while failing the other."}
+  evidence: {A3: "Assess whole-brain emulation and cognitive enhancement as routes to human-aligned or human-competitive minds — the \"aligned by construction\" hope, the reality check on WBE's maturity, and the timeline/equity problems"}
 ---
 ## Test:
 id:: 44306814-0216-4772-a0dd-276370e0ccd7

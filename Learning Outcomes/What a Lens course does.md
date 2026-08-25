@@ -5,6 +5,14 @@ domain: none
 stage: beginner
 tags:
   - product-tour
+eval-results:
+  content-sha: 4f0c5aa2
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {B1: "The question is anchored to the specific tour material via deictic references ('these pages', 'this'), so it cannot be parsed by someone who has the capability but did not just read those pages."}
+  evidence: {B1: "name two things these pages did that a reading list plus a weekly discussion call could not"}
 ---
 
 %% Deliberately not an AI-safety outcome. It belongs to the funder-facing product tour and carries domain: none so it stays out of the skill tree. Do not fold it into the curriculum, and do not reuse it in a learner-facing course. %%
@@ -16,9 +24,9 @@ id:: 02f8c2b4-d847-463c-b26c-38e20e76d2eb
 content::
 Two short answers. A few sentences is plenty.
 
-**First:** name two things these pages did that a reading list plus a weekly discussion call could not.
+**First:** name two things a Lens course does that a reading list plus a weekly discussion call could not. Point at concrete mechanics rather than adjectives.
 
-**Second:** name one thing you would still want evidence of before believing this works at scale, and say what that evidence would look like.
+**Second:** name one thing you would still want evidence of before believing Lens courses work at scale, and say what that evidence would look like.
 
 max-chars:: 900
 
@@ -27,7 +35,7 @@ The person taking this test is most likely a funder, partner or prospective coll
 
 Two checks. **Both must pass.** Be generous on the first and strict only about effort on the second.
 
-**Check 1: two real differences.** They name two things that actually happened on these pages, rather than two adjectives. Any two of the following count, in any wording, and so does anything else concrete they noticed:
+**Check 1: two real differences.** They name two concrete mechanics of a Lens course, rather than two adjectives. Any two of the following count, in any wording, and so does anything else concrete they noticed:
 - The source was rendered inside the page with the unassigned part collapsed, so the tutor knew exactly what they had read.
 - The tutor was briefed per page by the course author, not pointed at the subject in general.
 - What they wrote was graded against a rubric the author wrote and they never saw.

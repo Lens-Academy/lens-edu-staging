@@ -3,6 +3,12 @@ id: '100c2fee-ecc0-4270-8023-efaac2efa4ce'
 learning-outcome: Given a trend extrapolated forward to a conclusion, identify the functional form the extrapolation assumes, name the interaction between parts of the system that would break that form, state which direction the resulting error runs, and construct the alternative curve that the same data also supports.
 domain: none
 stage: intermediate
+eval-results:
+  content-sha: 1f0fd9f8
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: pass, C2: pass, C3: pass}
 ---
 ## Test:
 id:: 348a053f-c379-4f8a-9d2b-0d5efd34a2a4

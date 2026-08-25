@@ -3,6 +3,14 @@ id: 3499fbaa-176d-4eda-afb6-cbff0522c783
 learning-outcome: Explain the theory of change behind BCI-type (human-side) AI safety solutions — the human-AI capability/bandwidth gap and the family's sub-threads (merge, cyborgism, cognitive enhancement, whole-brain emulation, neural feedback)
 domain: "[[../Domains/Strategy]]"
 stage: advanced
+eval-results:
+  content-sha: df3f8b1f
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: fail, B1: pass, C2: pass, C3: pass}
+  notes: {A3: "Bundles two independently attainable capabilities: explaining the human-side theory of change/bandwidth gap, and recalling the five-item taxonomy of sub-threads — a learner can plainly do one without the other, and the file's two separate questions and rubrics grade them separately."}
+  evidence: {A3: "Explain the theory of change behind BCI-type (human-side) AI safety solutions — the human-AI capability/bandwidth gap and the family's sub-threads (merge, cyborgism, cognitive enhancement, whole-brain emulation, neural feedback)"}
 ---
 ## Test:
 id:: 152f865d-ecb9-4374-a959-d696c0039648

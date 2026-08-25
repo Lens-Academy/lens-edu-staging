@@ -7,13 +7,21 @@ requires:
   - "[[The verification problem for AI agreements]]"
 authors:
   - Elias+Claude
+eval-results:
+  content-sha: 3f610cb3
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {B1: "Question frames itself on a named source and asks for 'the three classes' without stating them, so only a reader of that catalog knows which taxonomy is meant."}
+  evidence: {B1: "Wasil and co-authors catalog verification methods and then, for each one, describe how a determined state would get around it."}
 ---
 ## Test:
 id:: 9c2cb793-41af-409d-b02d-9cb344d137fb
 #### Question
-content:: Wasil and co-authors catalog verification methods and then, for each one, describe how a determined state would get around it.
+content:: Two mutually distrustful states sign an agreement capping the size of AI training runs. Each now needs a way to tell whether the other is exceeding the cap — and each will assume the other is looking for ways around whatever check is used.
 
-**Lay out the three classes of method, and for each: what cooperation does it require from the state you distrust, and what is its characteristic evasion? Then say what follows for how a real regime should be assembled.**
+**Sort the available verification methods into classes according to how much cooperation each requires from the state you distrust. For each class: name the methods it contains, say what cooperation it demands, and give its characteristic evasion — the specific move a determined violator would use to defeat that class in particular. Then say what follows for how a real verification regime should be assembled.**
 assessment-instructions::
 Score according to the following rubric.
 

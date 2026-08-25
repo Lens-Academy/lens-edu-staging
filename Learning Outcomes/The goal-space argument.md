@@ -9,15 +9,23 @@ tags:
   - learning-outcome
 domain: "[[../Domains/Alignment]]"
 stage: beginner
+eval-results:
+  content-sha: c52a72dc
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: fail, C2: fail, C3: pass}
+  notes: {B1: "Question is scaffolded on a specific text — names Chapter 5 and asks what 'the chapter' claims, so it cannot be posed at a random moment.", C2: "Pass level 3 requires a concrete example/allegory, which the question never asks for."}
+  evidence: {B1: "Chapter 5 opens with an allegory about an alien civilization ... Why does the chapter claim that a sufficiently advanced AI is overwhelmingly unlikely to pursue human-compatible goals?", C2: "Uses the alien allegory or an equivalent concrete example."}
 ---
 
 ## Test:
 id:: 10dd3907-2bae-4eee-9985-fe1a6506f5b3
 #### Question
 content::
-Chapter 5 opens with an allegory about an alien civilization obsessed with the "correct" number of stones in their nests. A young alien argues that most species in the universe would not share this value, and that getting smarter wouldn't change that. The text then applies this same logic to AI: most possible goal-sets for a superintelligent AI would not include building a future full of happy, free people.
+Consider an allegory. Somewhere far away lives a civilization of aliens obsessed with keeping the "correct" number of stones in their nests. A young alien argues that most other species in the universe would not share this value, and that the aliens getting smarter wouldn't change that — being smarter would only make them better at pursuing whatever they already care about. The same reasoning is often applied to AI: most possible goal-sets for a superintelligent AI would not include building a future full of happy, free people.
 
-In your own words, what is the "goal-space argument"? Why does the chapter claim that a sufficiently advanced AI is overwhelmingly unlikely to pursue human-compatible goals?
+In your own words, what is the "goal-space argument"? Explain why it implies that a sufficiently advanced AI is overwhelmingly unlikely to pursue human-compatible goals, and illustrate your explanation with a concrete example — the stone-counting aliens, or one of your own.
 
 assessment-instructions::
 Score according to the following rubric.
@@ -27,9 +35,9 @@ Score according to the following rubric.
 
 **3** — Correctly explains the core mechanism: the space of possible goals is vast, human-compatible goals occupy a tiny fraction of that space, and intelligence doesn't cause convergence toward any particular set of values — so a powerful AI is overwhelmingly unlikely to share ours. Uses the alien allegory or an equivalent concrete example. *Example: "The goal-space argument says that there are astronomically many possible goal-sets an AI could have. Human-friendly goals are just a tiny sliver. And getting smarter doesn't pull you toward any particular goals. It just makes you better at pursuing whatever goals you already have. The alien story illustrates this: no matter how smart the aliens get, most species still won't care about the 'correct' number of stones."*
 
-**4** — As above, plus articulates the direction-agnostic intelligence point: intelligence is an optimization engine that amplifies whatever goals the system has, without selecting for any particular goals. *Example: Adds "Intelligence is direction-agnostic: it's like a powerful engine that goes wherever the steering wheel points. A smarter AI is better at achieving its goals, but 'smarter' doesn't mean 'more aligned with humans.' That's the whole point of the alien girl's argument."*
+**4** — As above, plus articulates the direction-agnostic intelligence point: intelligence is an optimization engine that amplifies whatever goals the system has, without selecting for any particular goals. *Example: Adds "Intelligence is direction-agnostic: it's like a powerful engine that goes wherever the steering wheel points. A smarter AI is better at achieving its goals, but 'smarter' doesn't mean 'more aligned with humans.' That's the whole point of the young alien's argument."*
 
-**5** — As above, plus connects the goal-space argument to the chapter's broader stakes: this is why the problem is so hard: it's not that we need to prevent AI from choosing bad goals, but that human-compatible goals are a needle in an astronomical haystack, and there's no known method to aim for that needle. *Example: Adds "This is what makes alignment so difficult. It's not about preventing a malicious AI: it's that building an AI whose goals happen to include human flourishing requires hitting an incredibly specific target in an enormous space, and we don't yet know how to aim. The default outcome isn't hostility; it's indifference."*
+**5** — As above, plus connects the goal-space argument to the broader stakes for alignment: this is why the problem is so hard: it's not that we need to prevent AI from choosing bad goals, but that human-compatible goals are a needle in an astronomical haystack, and there's no known method to aim for that needle. *Example: Adds "This is what makes alignment so difficult. It's not about preventing a malicious AI: it's that building an AI whose goals happen to include human flourishing requires hitting an incredibly specific target in an enormous space, and we don't yet know how to aim. The default outcome isn't hostility; it's indifference."*
 
 
 # Suggested Lenses:

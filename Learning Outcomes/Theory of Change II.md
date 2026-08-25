@@ -5,6 +5,12 @@ domain: "[[../Domains/Effective Altruism]]"
 stage: beginner
 requires:
   - "[[Theory of Change I]]"
+eval-results:
+  content-sha: e115bef0
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: pass, C2: pass, C3: pass}
 ---
 ## Test:
 id:: 70d6e10f-f05b-4f4a-9a84-8ec9c10e99bb
